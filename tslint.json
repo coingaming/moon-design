@@ -1,0 +1,10 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "max-line-length": [true, 140],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+  },
+  "linterOptions": {
+    "exclude": ["node_modules", "**/*.json", "**/*.mdx", "**/*.md"]
+  }
+}
