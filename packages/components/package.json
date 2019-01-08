@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "@heathmont/sportsbet-components",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "repository": "https://github.com/coingaming/sportsbet-design",
+  "author": "mBet Solutions N.V.",
+  "license": "MIT"
+}
