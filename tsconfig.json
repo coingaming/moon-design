@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "strict": true,
     "composite": true,
     "declaration": true,
     "declarationMap": true,
@@ -8,7 +9,6 @@
     "esModuleInterop": true,
     "target": "es5",
     "module": "commonjs",
-    "strict": true,
     "jsx": "react"
   },
   "files": [],
