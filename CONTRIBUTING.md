@@ -10,6 +10,40 @@ Commits follow the [Angular Commit Message Format](https://github.com/angular/an
 yarn commit
 ```
 
+### Branches
+
+#### Base Branch
+
+As a developer, you will you be branching and merging from `master`, our base branch.
+
+Consider `origin/master` to always represent the latest code deployed to production.
+
+#### Supporting Branches
+
+Use supporting branches for all new **features** and **bug fixes**. Unlike the base branch, these branches have a limited life-time and should be removed after merging.
+
+The different types of branches should be named as follows:
+
+- **Feature**: `feature/feature-name`
+- **Bug fix**: `fix/fix-name`
+
+#### Workflow
+
+1. Create the branch locally and then push to GitHub if it does not exist yet.
+
+   A branch should always be 'publicly' available, and should never exist in just one developer's local repo.
+
+1. Make a pull request.
+1. Add the `in progress` tag until ready for review.
+1. Periodically, keep changes up to date with master via `git rebase master`.
+1. Grab a review and remove the `in progress` tag.
+1. One approved, it's down to you to merge the branch into `master`. Code can **only** be contributed to `master` via using pull requests.
+1. Delete your branch.
+
+#### Feature Flags
+
+Long-lived feature branches present problems when you need to build code on top of unfinished work. Merge unfinished features into the `master` branch (following the steps [outline above](#workflow)) so others can build off their work, but keep them hidden from your users and testers behind feature flags. Enable the flag in development to use the feature without the changes affecting anyone else. Once the feature is finished, you can remove the flags or use them to roll out to selected users and testers.
+
 ## Code Standards
 
 ### Accessibility
