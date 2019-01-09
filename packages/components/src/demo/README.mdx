@@ -1,6 +1,7 @@
 ---
 name: Demo
 menu: Components
+route: /components/demo
 ---
 
 import { Playground, PropsTable } from "docz";
@@ -8,12 +9,16 @@ import Demo from "./";
 
 # Demo
 
-## Properties
+A basic demo component to showcase the design system setup and Docz integration.
 
-<PropsTable of={Demo} />
+## Example
 
-## Basic usage
+Adds a blue border to a string of text.
 
 <Playground>
   <Demo title="This is a demo component" />
 </Playground>
+
+## Props
+
+<PropsTable of={Demo} />
