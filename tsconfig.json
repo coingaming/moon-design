@@ -14,7 +14,7 @@
   "files": [],
   "references": [
     {
-      "path": "components"
+      "path": "packages/components"
     }
   ]
 }
