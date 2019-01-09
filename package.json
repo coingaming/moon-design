@@ -4,7 +4,8 @@
   "scripts": {
     "commit": "git-cz",
     "build": "tsc -b packages",
-    "lint": "tslint -c tslint.json 'packages/**/*.*'"
+    "format": "prettier --write",
+    "lint:ts-validate": "tslint-config-prettier-check ./tslint.json"
   },
   "workspaces": [
     "packages/*"
@@ -20,9 +21,13 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,ts,tsx,css,md,mdx}": [
-      "prettier --tab-width 2 --single-quote --trailing-comma es5 --write",
-      "tslint -c tslint.json 'packages/**/*.*'",
+    "*.{js,json,css,md,mdx}": [
+      "yarn format",
+      "git add"
+    ],
+    "*.{ts,tsx}": [
+      "yarn format",
+      "lerna run lint:ts",
       "git add"
     ]
   },
