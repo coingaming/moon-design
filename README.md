@@ -6,7 +6,8 @@
 
 1. [Architecture](#architecture)
 2. [Installation](#installation)
-3. [Plan](#plan)
+3. [Usage](#usage)
+4. [Plan](#plan)
 
 ---
 
@@ -24,19 +25,43 @@ Our Design System follows the [Smoothie](https://smoothie-css.com/) methodology,
 
 ### Prerequisites
 
-* [Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
+- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
 
 ### Setup
 
 1. Install the above [prerequisites](#prerequisites).
 2. Clone the repository:
-  ```sh
-  git clone git@github.com:coingaming/sportsbet-design.git
-  ```
+
+   ```sh
+   git clone git@github.com:coingaming/sportsbet-design.git
+   ```
+
 3. Install dependencies and link local packages together:
-  ```sh
-  yarn
-  ```
+
+   ```sh
+   yarn
+   ```
+
+## Usage
+
+### Style Guide
+
+Our project's style guide is built using the [Docz](https://www.docz.site) framework, and can be run as follows:
+
+#### Dev
+
+To spin up a hot reloading Docz environment.
+
+1. Run `yarn docz dev`
+2. Visit [127.0.0.1:3000](http://127.0.0.1:3000/) to view changes.
+
+#### Build
+
+To generate a static production build of the style guide, run:
+
+```
+yarn docz build
+```
 
 ## Plan
 
