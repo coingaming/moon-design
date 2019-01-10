@@ -2,11 +2,35 @@
 
 ## Contents
 
+1. [When does a component go in the design system?](#when-does-a-component-go-in-the-design-system)
 1. [Git Strategy](#git-strategy)
-2. [Code Standards](#code-standards)
-3. [Code Style](#code-style)
+1. [Code Standards](#code-standards)
+1. [Code Style](#code-style)
 
 ---
+
+## When does a component go in the design system?
+
+Components are the building blocks of any app.
+But how do you know what should be its own component?
+
+- when you have the same piece of UI in two places, it should be moved to the design system as a component
+
+- your component shouldn't go in the design system if it doesn’t have any duplication in your projects yet
+
+- every component should do only one specific task. Everything that is not core to this purpose should be delegated to other components
+
+Follow DRY Principle.
+
+> _Every piece of knowledge must have a single, unambiguous, authoritative representation within a system._
+
+Keep in mind that
+
+- Knowledge duplication is always a DRY principle violation.
+
+- Code duplication doesn’t necessarily mean violation of the DRY principle.
+
+- Code reuse and code duplication are two different things. DRY states that you shouldn’t duplicate knowledge, not that you should be able to reuse everything.
 
 ## Git Strategy
 
