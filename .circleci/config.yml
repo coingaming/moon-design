@@ -1,0 +1,71 @@
+default: &default
+  docker:
+    - image: circleci/node:latest
+
+install_deps: &install_deps
+  run:
+    name: 'Installing dependencies'
+    command: yarn install
+
+restore_cache: &restore_cache
+  restore_cache:
+    name: 'Restoring cache'
+    key: dependency-cache-{{ checksum "package.json" }}
+
+save_cache: &save_cache
+  save_cache:
+    name: 'Saving cache'
+    key: dependency-cache-{{ checksum "package.json" }}
+    paths:
+      - node_modules
+
+version: 2
+jobs:
+  dependencies:
+    <<: *default
+    steps:
+      - checkout
+      - *restore_cache
+      - *install_deps
+      - *save_cache
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - node_modules
+
+  lint:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run: yarn lint:ts
+
+  build:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Running build process
+          command: yarn build
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - build/
+
+workflows:
+  version: 2
+  pull-request:
+    jobs:
+      - dependencies:
+          context: global
+      - lint:
+         context: global
+         requires:
+           - dependencies
+      - build:
+          context: global
+          requires:
+            - dependencies
