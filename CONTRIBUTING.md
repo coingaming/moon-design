@@ -60,6 +60,15 @@ All features should attempt to conform to as many items on The A11Y Project's [W
 
 As part of our TypeScript linting process, we make use of [`react-a11y` rules](https://github.com/reactjs/react-a11y) (surfaced via [`tslint-microsoft-contrib`](https://github.com/Microsoft/tslint-microsoft-contrib)) to catch any common issues.
 
+### Mobile First
+
+Mobile devices are the most commonly used methods of browsing the web.
+When it comes to designing and developing your component, always build with mobile in mind first.
+
+Need to modify the style at specific breakpoints? Scale your changes **upwards**; build for mobile by default and _then_ add media queries for changes on larger sizes.
+
+Want to use CSS Grid? Set your component to `display: block;` by default to stack items on mobile and other unsupported devices, then implement your grid at larger breakpoints.
+
 ## Code Style
 
 Code formatting is handled **automatically** via [Prettier](https://prettier.io/) on pre-commit. However, you could install an [IDE extension](https://prettier.io/docs/en/editors.html) or run manually via `yarn format <prettier-args>`.
