@@ -48,7 +48,7 @@ The different types of branches should be named as follows:
 1. One approved, it's down to you to merge the branch into `master`. Code can **only** be contributed to `master` via using pull requests.
 1. Delete your branch.
 
-#### Merge or rebase
+#### Merge or Rebase
 
 **Use merge - not rebase** whenever you've already pushed.
 
