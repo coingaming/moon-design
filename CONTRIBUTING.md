@@ -1,5 +1,13 @@
 # Contributing
 
+## Contents
+
+1. [Git Strategy](#git-strategy)
+2. [Code Standards](#code-standards)
+3. [Code Style](#code-style)
+
+---
+
 ## Git Strategy
 
 ### Commits
