@@ -80,6 +80,14 @@ With [Emotion](https://emotion.sh) we can take advantage of keeping style, marku
 1. Markup / logic
 1. Exports
 
+#### Documentation
+
+Each component/consumable feature **must** have a README that follows the appropriate package's pre-defined `.templates/`:
+
+- [`packages/components`](packages/components/.templates/README.mdx)
+
+This should be written in [`.mdx`](https://mdxjs.com/) syntax, which will be included automatically in the [Style Guide](./README.md#style-guide).
+
 #### Directory Structure
 
 For a basic component, the directory structure would look something like this:
@@ -93,6 +101,7 @@ For a basic component, the directory structure would look something like this:
 components
 ├── banner
 ├── button
+│   ├── README.mdx
 │   └── index.js
 └── …
 ```
@@ -115,6 +124,7 @@ components
 ├── banner
 │   ├── caption.tsx
 │   ├── index.ts
+│   ├── README.mdx
 │   ├── settings.ts
 │   ├── title.tsx
 │   └── utils.ts
