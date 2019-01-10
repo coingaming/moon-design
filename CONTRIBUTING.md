@@ -53,7 +53,7 @@ The different types of branches should be named as follows:
 **Use merge - not rebase** whenever you've already pushed.
 
 Never use `git rebase` on public branches.
-Consider using `git rebase` only if you want to avoid spaghetti-history in your local branch.
+Consider using `git rebase` only if you want to [avoid spaghetti-history](https://stackoverflow.com/a/21539012/3748398) in your local branch.
 
 #### Feature Flags
 
