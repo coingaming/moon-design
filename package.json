@@ -3,9 +3,10 @@
   "name": "Sportsbet.io",
   "scripts": {
     "commit": "git-cz",
-    "build": "tsc -b packages",
+    "build": "tsc -b packages/components",
     "format": "prettier --write",
-    "lint:ts-validate": "tslint-config-prettier-check ./tslint.json"
+    "lint:ts-validate": "tslint-config-prettier-check ./tslint.json",
+    "lint:ts": "lerna run lint:ts"
   },
   "workspaces": [
     "packages/*"
@@ -27,7 +28,7 @@
     ],
     "*.{ts,tsx}": [
       "yarn format",
-      "lerna run lint:ts",
+      "yarn lint:ts",
       "git add"
     ]
   },
