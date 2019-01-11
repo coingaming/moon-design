@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { colors } from "@heathmont/sportsbet-tokens";
 
 const Base = styled("div")`
-  border: 1px solid ${colors.error};
+  border: 1px solid ${colors.brand};
 `;
 
 export interface Props {
