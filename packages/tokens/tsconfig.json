@@ -3,11 +3,5 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib"
-  },
-  "references": [
-    {
-      "path": "../tokens"
-    }
-  ],
-  "include": ["src"]
+  }
 }
