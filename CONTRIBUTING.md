@@ -2,11 +2,16 @@
 
 ## Contents
 
+1. [When does a component go in the design system?](#when-does-a-component-go-in-the-design-system)
 1. [Git Strategy](#git-strategy)
-2. [Code Standards](#code-standards)
-3. [Code Style](#code-style)
+1. [Code Standards](#code-standards)
+1. [Code Style](#code-style)
 
 ---
+
+## When does a component go in the design system?
+
+[Does It Belong in the System?](https://medium.com/eightshapes-llc/i-made-this-does-it-go-in-the-system-3b67b9894531)
 
 ## Git Strategy
 
