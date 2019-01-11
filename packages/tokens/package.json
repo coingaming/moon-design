@@ -2,7 +2,8 @@
   "private": true,
   "name": "@heathmont/sportsbet-tokens",
   "version": "0.0.1",
-  "main": "lib/index.js",
+  "main": "src/index.ts",
+  "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "mBet Solutions N.V.",
   "license": "MIT"

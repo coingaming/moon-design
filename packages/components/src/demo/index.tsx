@@ -1,8 +1,9 @@
 import * as React from "react";
 import styled from "@emotion/styled";
+import { colors } from "@heathmont/sportsbet-tokens";
 
 const Base = styled("div")`
-  border: 1px solid blue;
+  border: 1px solid ${colors.brand};
 `;
 
 export interface Props {
