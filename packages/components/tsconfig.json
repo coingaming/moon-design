@@ -2,17 +2,12 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "lib",
-    "traceResolution": true,
-    "baseUrl": "./",
-    "paths": {
-      "@heathmont/sportsbet-tokens/*": ["../tokens/src/*"]
-    }
+    "outDir": "lib"
   },
   "references": [
     {
       "path": "../tokens"
     }
   ],
-  "include": ["./src/**/*"]
+  "include": ["src"]
 }

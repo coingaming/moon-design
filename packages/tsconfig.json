@@ -5,11 +5,16 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    // Up for debate
     "esModuleInterop": true,
     "target": "es5",
     "module": "commonjs",
     "jsx": "react",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": "../",
+    // Alias our package names to the appropriate directory.
+    // e.g. "@heathmont/sportsbet-tokens" => "./packages/tokens/src"
+    "paths": {
+      "@heathmont/sportsbet-*": ["./packages/*/src"]
+    }
   }
 }
