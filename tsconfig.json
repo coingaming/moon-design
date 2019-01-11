@@ -1,20 +1,7 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "composite": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    // Up for debate
-    "esModuleInterop": true,
-    "target": "es5",
-    "module": "commonjs",
-    "jsx": "react"
-  },
   "files": [],
   "references": [
-    {
-      "path": "packages/components"
-    }
+    { "path": "packages/components" },
+    { "path": "packages/tokens" }
   ]
 }

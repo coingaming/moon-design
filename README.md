@@ -13,13 +13,15 @@
 
 ## Architecture
 
-Our Design System follows the [Smoothie](https://smoothie-css.com/) methodology, publishing key layers as individual `packages/`:
+Our Design System is a [Lerna](https://github.com/lerna/lerna) monorepo that follows the [Smoothie](https://smoothie-css.com/) methodology, publishing key layers as individual `packages/`:
 
 1. [**Assets**](packages/assets/README.md) - common rich media brand assets.
 2. [**Tokens**](packages/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
 3. [**Global**](packages/global/README.md) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
 4. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
 5. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
+
+Packages are developed inside their respective `src` folders, utilising [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the [TypeScript compiler](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#compiling-your-code) on build/publish.
 
 ## Installation
 
@@ -44,24 +46,20 @@ Our Design System follows the [Smoothie](https://smoothie-css.com/) methodology,
 
 ## Usage
 
+- `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
+- `yarn build` - compiles a distributable `lib` folder for each package.
+  - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
+- `yarn format` - [Prettier](https://prettier.io) alias.
+- `yarn lint:ts` - lint TypeScript in each package that contains it.
+- `yarn clean` - removes all generated `lib` folders.
+- `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
+
 ### Style Guide
 
 Our project's style guide is built using the [Docz](https://www.docz.site) framework, and can be run as follows:
 
-#### Dev
-
-To spin up a hot reloading Docz environment.
-
-1. Run `yarn docz dev`
-2. Visit [127.0.0.1:3000](http://127.0.0.1:3000/) to view changes.
-
-#### Build
-
-To generate a static production build of the style guide, run:
-
-```
-yarn docz build
-```
+- `yarn docz:dev` - spins up a hot reloading Docz environment at [127.0.0.1:3000](http://127.0.0.1:3000/).
+- `yarn docz:build` - generates a static production build of the style guide.
 
 ## Plan
 
