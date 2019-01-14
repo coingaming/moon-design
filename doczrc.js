@@ -1,6 +1,8 @@
 module.exports = {
   title: "Sportsbet",
+  menu: ["Tokens", "Utils", "Components"],
   typescript: true,
+  codeSandbox: false,
   themeConfig: {
     colors: {
       primary: "#0CD664",
