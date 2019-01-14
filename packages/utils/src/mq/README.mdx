@@ -1,24 +1,23 @@
 ---
-name: Utils
-route: /utils
+name: MQ
+menu: Utils
+route: /utils/mq
 ---
 
 import { Playground } from "docz";
 import { mq } from "./";
 
-# Utils
+# MQ
 
-Nifty mixins and tools for common design patterns.
+Returns a given pixel-based value (number) as an **upwards** direction media query in 'em'.
 
 ```js
 import { mq } from "@heathmont/sportsbet-utils";
 ```
 
-## Media Queries
+## Example
 
-Returns a given pixel-based value (number) as an **upwards** direction media query in 'em'.
-
-For example, `mq(500)` will return the following:
+`mq(500)` will return the following:
 
 <Playground>
   {() => {
@@ -26,7 +25,7 @@ For example, `mq(500)` will return the following:
   }}
 </Playground>
 
-### Usage
+## Usage
 
 With our breakpoint tokens, we can start to build-up our responsive styles:
 

@@ -1,1 +1,1 @@
-export { mq } from "./media-queries";
+export { mq } from "./mq";
