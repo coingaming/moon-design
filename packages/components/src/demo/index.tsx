@@ -1,10 +1,10 @@
 import * as React from "react";
 import styled from "@emotion/styled";
-import { base, breakpoints, colors } from "@heathmont/sportsbet-tokens";
-import { mq } from "@heathmont/sportsbet-utils";
+import { breakpoints, colors } from "@heathmont/sportsbet-tokens";
+import { mq, spacing } from "@heathmont/sportsbet-utils";
 
 const Base = styled("div")`
-  padding: ${base.spacing * 0.5}px;
+  padding: ${spacing()};
   color: white;
   background-color: ${colors.error};
   border-radius: 3px;

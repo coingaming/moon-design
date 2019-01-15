@@ -8,12 +8,19 @@ route: /tokens
 A collection of hard-coded values that define the Sportsbet visual language.
 
 ```js
-import { base, breakpoints, colors } from "@heathmont/sportsbet-tokens";
+import {
+  base,
+  breakpoints,
+  colors,
+  spacing
+} from "@heathmont/sportsbet-tokens";
 ```
 
 ## Base
 
-A foundation for other tokens/the rest of the design system to be built upon.
+A foundation for other tokens to be built upon.
+
+**Note**: base values should rarely be used outside of tokens.
 
 | Key        | Type   | Value ('px') |
 | :--------- | :----- | :----------- |
@@ -44,3 +51,20 @@ Brand-approved color palette.
 | error     | string (Hex) |                                         |
 | alternate | object       | brand, highlight                        |
 | neutral   | object       | 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 |
+
+## Spacing
+
+With the exception of the extra small value, all spacing is defined in increments of **8 pixels**.
+
+| Key     | Type   | Value ('px') |
+| :------ | :----- | :----------- |
+| default | number | 16           |
+| xsmall  | number | 4            |
+| small   | number | 8            |
+| medium  | number | 24           |
+| large   | number | 32           |
+| xlarge  | number | 40           |
+
+### Applying Spacing
+
+Spacing can be accessed via `spacing()` function in [utils](/utils/spacing).
