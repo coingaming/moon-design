@@ -1,0 +1,35 @@
+---
+name: Tokens
+route: /tokens
+---
+
+# Tokens
+
+A collection of hard-coded values that define the Sportsbet visual language.
+
+```js
+import { base, colors } from "@heathmont/sportsbet-tokens";
+```
+
+## Base
+
+A foundation for other tokens/the rest of the design system to be built upon.
+
+| Key        | Type   | Value ('px') |
+| :--------- | :----- | :----------- |
+| fontSize   | number | 16           |
+| lineHeight | number | 20           |
+| spacing    | number | 16           |
+| container  | number | 1400         |
+
+## Colors
+
+Brand-approved color palette.
+
+| Key       | Type         | Variants                                |
+| :-------- | :----------- | :-------------------------------------- |
+| brand     | string (Hex) |                                         |
+| highlight | string (Hex) |                                         |
+| error     | string (Hex) |                                         |
+| alternate | object       | brand, highlight                        |
+| neutral   | object       | 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 |
