@@ -3,6 +3,7 @@ module.exports = {
   menu: ["Tokens", "Utils", "Components"],
   typescript: true,
   codeSandbox: false,
+  wrapper: ".config/docz/wrapper",
   themeConfig: {
     colors: {
       primary: "#0CD664",
