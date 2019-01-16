@@ -2,7 +2,7 @@ import { colors } from "./packages/tokens/lib";
 
 module.exports = {
   title: "Sportsbet",
-  menu: ["Tokens", "Utils", "Components"],
+  menu: ["Tokens", "Utils", "Global", "Components"],
   typescript: true,
   codeSandbox: false,
   wrapper: ".config/docz/wrapper",
