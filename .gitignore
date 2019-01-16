@@ -17,3 +17,5 @@ lerna-debug.log*
 .docz/cache
 .docz/dist
 lib
+dist
+.cache
