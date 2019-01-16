@@ -1,6 +1,7 @@
 export const colors = {
   brand: "#0cd664",
   highlight: "#00e865",
+  text: "#ffffff",
   error: "#ff4e64",
   alternate: {
     brand: "#19a9e2",

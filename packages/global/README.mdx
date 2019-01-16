@@ -1,0 +1,27 @@
+---
+name: Global
+route: /global
+---
+
+# Global
+
+A tiny, crucial set of global styles to provide a solid and consistent foundation for our components; containing browser resets, `@font-face` defintions and page-level styling.
+
+## Usage
+
+The global `styles` should be included in the root of your application via [Emotion's
+`Global` component](https://emotion.sh/docs/globals).
+
+```jsx
+/* App.tsx */
+import * as React from "react";
+import { Global } from "@emotion/core";
+import { styles } from "@heathmont/sportsbet-global";
+
+export const App = () => (
+  <main>
+    <Global styles={styles} />
+    {/* Your App… */}
+  </main>
+);
+```

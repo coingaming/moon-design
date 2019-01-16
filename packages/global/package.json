@@ -5,5 +5,13 @@
   "main": "lib/index.js",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "mBet Solutions N.V.",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.6",
+    "@heathmont/sportsbet-tokens": "0.0.1",
+    "polished": "2.3.3"
+  }
 }
