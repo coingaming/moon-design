@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "references": [
+    {
+      "path": "../components"
+    },
+    {
+      "path": "../global"
+    },
+    {
+      "path": "../tokens"
+    },
+    {
+      "path": "../utils"
+    }
+  ]
+}

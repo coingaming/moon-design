@@ -4,13 +4,14 @@
   "scripts": {
     "commit": "git-cz",
     "build": "tsc -b",
-    "clean": "rm -rf ./packages/*/lib",
+    "clean": "rm -rf ./packages/*/lib ./packages/*/dist ./packages/*/.cache",
     "nuke": "yarn clean && rm -rf node_modules/",
     "format": "prettier --write",
     "lint:ts-validate": "tslint-config-prettier-check ./tslint.json",
     "lint:ts": "lerna run lint:ts --stream --parallel",
     "docz:dev": "concurrently -kill-others \"yarn build -w\" \"docz dev\"",
-    "docz:build": "yarn build && docz build"
+    "docz:build": "yarn build && docz build",
+    "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream"
   },
   "workspaces": [
     "packages/*"
