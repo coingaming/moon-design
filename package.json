@@ -8,7 +8,7 @@
     "nuke": "yarn clean && rm -rf node_modules/",
     "format": "prettier --write",
     "lint:ts-validate": "tslint-config-prettier-check ./tslint.json",
-    "lint:ts": "lerna run lint:ts",
+    "lint:ts": "lerna run lint:ts --stream --parallel",
     "docz:dev": "concurrently -kill-others \"yarn build -w\" \"docz dev\"",
     "docz:build": "yarn build && docz build"
   },
