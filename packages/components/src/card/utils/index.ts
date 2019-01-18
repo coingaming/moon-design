@@ -1,0 +1,1 @@
+export { cardGradient } from "./gradient";
