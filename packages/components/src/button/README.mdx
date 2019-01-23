@@ -1,0 +1,122 @@
+---
+name: Button
+menu: Components
+route: /components/button
+---
+
+import { Playground, PropsTable } from "docz";
+import { Button } from "./index.tsx";
+
+# Button
+
+## Modifiers
+
+### Primary
+
+To be used where the the button would be the main call to action on the page.
+
+<Playground>
+  <Button modifier="primary" spaced>
+    Default
+  </Button>
+  <Button modifier="primary" mockState="active" spaced>
+    Hover
+  </Button>
+  <Button modifier="primary" mockState="focus" spaced>
+    Focus
+  </Button>
+  <Button modifier="primary" disabled spaced>
+    Disabled
+  </Button>
+</Playground>
+
+### Secondary
+
+To be used where the the button would be alternative or secondary call to action.
+
+<Playground>
+  <Button modifier="secondary" spaced>
+    Default
+  </Button>
+  <Button modifier="secondary" mockState="active" spaced>
+    Hover
+  </Button>
+  <Button modifier="secondary" mockState="focus" spaced>
+    Focus
+  </Button>
+  <Button modifier="secondary" disabled spaced>
+    Disabled
+  </Button>
+</Playground>
+
+### Optional
+
+To be used where the the button would be an optional call to action - meaning not prominant.
+
+<Playground>
+  <Button modifier="optional" spaced>
+    Default
+  </Button>
+  <Button modifier="optional" mockState="active" spaced>
+    Hover
+  </Button>
+  <Button modifier="optional" mockState="focus" spaced>
+    Focus
+  </Button>
+  <Button modifier="optional" disabled spaced>
+    Disabled
+  </Button>
+</Playground>
+
+### Alternate
+
+Alternate shade for buttons, currently only intended for use with "Price Boost".
+
+<Playground>
+  <Button modifier="alternate" spaced>
+    Default
+  </Button>
+  <Button modifier="alternate" mockState="active" spaced>
+    Hover
+  </Button>
+  <Button modifier="alternate" mockState="focus" spaced>
+    Focus
+  </Button>
+  <Button modifier="alternate" disabled spaced>
+    Disabled
+  </Button>
+</Playground>
+
+## Sizing
+
+### Full Width
+
+Stretches a button to fill the entire width of its container.
+
+<Playground>
+  <Button modifier="secondary" fullWidth>
+    Full Width
+  </Button>
+</Playground>
+
+## Spacing
+
+All examples in this documentation use the `spacing` prop to apply consistent right and bottom margins. Removing this will allow the button to be displayed flush with other elements.
+
+## Elements
+
+### Anchor
+
+Sometimes we want to use the Button component to send the user to a different location.
+
+By adding the `href="<url>"` attribute, Buttons can be rendered as `<a>` elements.
+
+<Playground>
+  <Button href="#" modifier="secondary">
+    Secondary (Anchor)
+  </Button>
+</Playground>
+
+## Props
+
+<PropsTable of={Button} />
