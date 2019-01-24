@@ -1,5 +1,9 @@
 import { rem } from "polished";
-import { base, spacing as spacingTokens } from "@heathmont/sportsbet-tokens";
+import {
+  base,
+  Spacing as SpacingTokens,
+  spacing as spacingTokens
+} from "@heathmont/sportsbet-tokens";
 
-export const spacing = (size = "default") =>
+export const spacing = (size: keyof SpacingTokens = "default") =>
   rem(spacingTokens[size], base.fontSize) || 0;

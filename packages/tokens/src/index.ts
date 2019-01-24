@@ -1,6 +1,6 @@
-export { base } from "./base";
-export { border } from "./border";
-export { breakpoints } from "./breakpoints";
-export { colors } from "./colors";
-export { spacing } from "./spacing";
-export { typography } from "./typography";
+export { base, Base } from "./base";
+export { border, Border } from "./border";
+export { breakpoints, Breakpoints } from "./breakpoints";
+export { colors, Colors } from "./colors";
+export { spacing, Spacing } from "./spacing";
+export { typography, FontWeight } from "./typography";

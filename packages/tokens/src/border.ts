@@ -2,13 +2,14 @@ import { base } from "./base";
 
 type Border = {
   radius: {
-    [key: string]: number /* in `px` */;
+    small: number /* in `px` */;
+    default: number /* in `px` */;
   };
   style: string;
   width: number /* in `px` */;
 };
 
-export const border: Border = {
+const border: Border = {
   radius: {
     small: base.spacing * 0.25,
     default: base.spacing * 0.5
@@ -16,3 +17,5 @@ export const border: Border = {
   style: "solid",
   width: 1
 };
+
+export { Border, border };
