@@ -1,9 +1,29 @@
 import * as React from "react";
 import styled from "@emotion/styled";
-import { colors } from "@heathmont/sportsbet-tokens";
+import { breakpoints, colors } from "@heathmont/sportsbet-tokens";
+import { mq, spacing } from "@heathmont/sportsbet-utils";
 
 const Base = styled("div")`
-  border: 1px solid ${colors.brand};
+  padding: ${spacing()};
+  color: white;
+  background-color: ${colors.error};
+  border-radius: 3px;
+
+  ${mq(breakpoints.small)} {
+    background-color: ${colors.alternate.brand};
+  }
+
+  ${mq(breakpoints.medium)} {
+    background-color: ${colors.alternate.highlight};
+  }
+
+  ${mq(breakpoints.large)} {
+    background-color: ${colors.highlight};
+  }
+
+  ${mq(breakpoints.xlarge)} {
+    background-color: ${colors.brand};
+  }
 `;
 
 export interface Props {

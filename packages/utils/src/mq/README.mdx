@@ -1,0 +1,46 @@
+---
+name: MQ
+menu: Utils
+route: /utils/mq
+---
+
+import { Playground } from "docz";
+import { mq } from "./";
+
+# MQ
+
+Returns a given pixel-based value (number) as an **upwards** direction media query in 'em'.
+
+```js
+import { mq } from "@heathmont/sportsbet-utils";
+```
+
+## Example
+
+`mq(500)` will return the following:
+
+<Playground>
+  {() => {
+    return mq(500);
+  }}
+</Playground>
+
+## Usage
+
+With our breakpoint tokens, we can start to build-up our responsive styles:
+
+```jsx
+import styled from "@emotion/styled";
+import { breakpoints } from "@heathmont/sportsbet-tokens";
+import { mq } from "@heathmont/sportsbet-utils";
+
+/* Changes border from `red` to `blue` from 'small' breakpoint upwards */
+
+const Box = styled("div")`
+  border: 1px solid red;
+
+  ${mq(breakpoints.small)} {
+    border-color: blue;
+  }
+`;
+```

@@ -8,7 +8,7 @@
     "nuke": "yarn clean && rm -rf node_modules/",
     "format": "prettier --write",
     "lint:ts-validate": "tslint-config-prettier-check ./tslint.json",
-    "lint:ts": "lerna run lint:ts",
+    "lint:ts": "lerna run lint:ts --stream --parallel",
     "docz:dev": "concurrently -kill-others \"yarn build -w\" \"docz dev\"",
     "docz:build": "yarn build && docz build"
   },
@@ -41,6 +41,7 @@
     "@emotion/styled": "10.0.6",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
+    "polished": "2.3.3",
     "react": "16.7.0",
     "react-dom": "16.7.0"
   },
