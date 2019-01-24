@@ -1,9 +1,20 @@
-const fontWeight = {
+type FontWeight = {
+  normal: number;
+  semibold: number;
+  bold: number;
+};
+
+const fontWeight: FontWeight = {
   normal: 400,
   semibold: 600,
   bold: 700
 };
 
-export const typography = {
+/**
+ * Exports
+ */
+const typography = {
   fontWeight
 };
+
+export { FontWeight, typography };
