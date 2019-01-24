@@ -1,6 +1,21 @@
-export const colors = {
+type Colors = {
+  brand: string;
+  highlight: string;
+  text: string;
+  error: string;
+  alternate: {
+    brand: string;
+    highlight: string;
+  };
+  neutral: {
+    [key: number]: string;
+  };
+};
+
+const colors: Colors = {
   brand: "#0cd664",
   highlight: "#00e865",
+  text: "#ffffff",
   error: "#ff4e64",
   alternate: {
     brand: "#19a9e2",
@@ -19,3 +34,5 @@ export const colors = {
     100: "#000"
   }
 };
+
+export { Colors, colors };
