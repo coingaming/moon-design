@@ -61,6 +61,12 @@ Our project's style guide is built using the [Docz](https://www.docz.site) frame
 - `yarn docz:dev` - spins up a hot reloading Docz environment at [127.0.0.1:3000](http://127.0.0.1:3000/).
 - `yarn docz:build` - generates a static production build of the style guide.
 
+### Cashier
+
+All scripts defined in [packages/wip-cashier](packages/wip-cashier/README.md) can be run via `yarn cashier <script-name>`.
+
+See the [Cashier README](packages/wip-cashier/README.md) for more details.
+
 ## Plan
 
 Initial brainstorm of the project's requirements on Tuesday 8th January 2019:
