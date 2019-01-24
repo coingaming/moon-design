@@ -1,0 +1,81 @@
+---
+name: Tokens
+route: /tokens
+---
+
+# Tokens
+
+A collection of hard-coded values that define the Sportsbet visual language.
+
+```js
+import {
+  base,
+  border,
+  breakpoints,
+  colors,
+  spacing
+} from "@heathmont/sportsbet-tokens";
+```
+
+## Base
+
+A foundation for other tokens to be built upon.
+
+**Note**: base values should rarely be used outside of tokens.
+
+| Key        | Type   | Value ('px') |
+| :--------- | :----- | :----------- |
+| container  | number | 1400         |
+| fontFace   | string | "Averta"     |
+| fontSize   | number | 16           |
+| lineHeight | number | 20           |
+| spacing    | number | 16           |
+
+## Border
+
+| Key    | Type          | Variants       |
+| :----- | :------------ | :------------- |
+| radius | object        | default, small |
+| style  | string        |                |
+| width  | number ('px') | 1              |
+
+## Breakpoints
+
+Ensuring consistent responsive design.
+
+| Key    | Type   | Value ('px') |
+| :----- | :----- | :----------- |
+| small  | number | 500          |
+| medium | number | 800          |
+| large  | number | 1080         |
+| xlarge | number | 1200         |
+
+## Colors
+
+Brand-approved color palette.
+
+| Key       | Type         | Variants                                |
+| :-------- | :----------- | :-------------------------------------- |
+| brand     | string (Hex) |                                         |
+| highlight | string (Hex) |                                         |
+| error     | string (Hex) |                                         |
+| alternate | object       | brand, highlight                        |
+| neutral   | object       | 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 |
+| text      | string (Hex) |                                         |
+
+## Spacing
+
+With the exception of the extra small value, all spacing is defined in increments of **8 pixels**.
+
+| Key     | Type   | Value ('px') |
+| :------ | :----- | :----------- |
+| default | number | 16           |
+| xsmall  | number | 4            |
+| small   | number | 8            |
+| medium  | number | 24           |
+| large   | number | 32           |
+| xlarge  | number | 40           |
+
+### Applying Spacing
+
+Spacing can be accessed via `spacing()` function in [utils](/utils/spacing).

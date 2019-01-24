@@ -7,9 +7,6 @@
   "references": [
     {
       "path": "../tokens"
-    },
-    {
-      "path": "../utils"
     }
   ],
   "include": ["src"]
