@@ -5,7 +5,7 @@ module.exports = {
   menu: ["Tokens", "Utils", "Global", "Components"],
   typescript: true,
   codeSandbox: false,
-  wrapper: ".config/docz/wrapper",
+  wrapper: ".docz/wrapper",
   themeConfig: {
     mode: "dark",
     colors: {

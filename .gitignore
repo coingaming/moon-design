@@ -13,5 +13,7 @@ yarn-error.log*
 lerna-debug.log*
 
 # Build
-.docz
+.docz/app
+.docz/cache
+.docz/dist
 lib
