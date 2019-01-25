@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.2](https://github.com/coingaming/sportsbet-design/compare/v0.0.1...v0.0.2) (2019-01-25)
+
+
+### Bug Fixes
+
+* Fixed publish auto confirm for CI ([4d890d4](https://github.com/coingaming/sportsbet-design/commit/4d890d4))
+* Fixed publish command ([6b2510b](https://github.com/coingaming/sportsbet-design/commit/6b2510b))
+* Fixed publish command missing lerna ([a699c1e](https://github.com/coingaming/sportsbet-design/commit/a699c1e))
+* Fixed publish command missing lerna ([3890252](https://github.com/coingaming/sportsbet-design/commit/3890252))
+* Fixed publish command missing lerna ([f94f833](https://github.com/coingaming/sportsbet-design/commit/f94f833))
+
+
+
+
+
 ## 0.0.1 (2019-01-25)
 
 ### Features
