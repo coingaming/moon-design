@@ -27,6 +27,11 @@ aliases:
       paths:
         - node_modules
 
+  install_token: &install_token
+    run:
+      name: 'Setting up private repository NPM access'
+      command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+
   docker_build_branch: &docker_build_branch
     run:
       name: 'Building docker image from branch'
@@ -76,6 +81,7 @@ jobs:
     steps:
       - checkout
       - *restore_cache
+      - *install_token
       - *install_deps
       - *save_cache
       - persist_to_workspace:
@@ -153,6 +159,7 @@ jobs:
       - run: git pull
       - attach_workspace:
           at: ./
+      - *install_token
       - run: yarn publish:packages
       - run: git checkout develop
       - run: git merge master
