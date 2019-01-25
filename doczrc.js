@@ -6,6 +6,7 @@ module.exports = {
   typescript: true,
   codeSandbox: false,
   wrapper: ".docz/wrapper",
+  hashRouter: true,
   themeConfig: {
     mode: "dark",
     colors: {
