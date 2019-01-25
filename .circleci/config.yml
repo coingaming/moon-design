@@ -149,7 +149,8 @@ jobs:
       - attach_workspace:
           at: ./
       - *setup_github_ssh
-      - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
+      - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git $CIRCLE_PROJECT_REPONAME
+      - run: cd $CIRCLE_PROJECT_REPONAME
       - *setup_git_config
       - run: git branch --set-upstream-to=origin/master master
       - run: git pull
