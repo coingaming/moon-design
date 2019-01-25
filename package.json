@@ -12,7 +12,8 @@
     "docz:dev": "concurrently -kill-others \"yarn build -w\" \"docz dev\"",
     "docz:build": "yarn build && docz build",
     "docz:serve": "cd .docz/dist && python -m SimpleHTTPServer 3000",
-    "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream"
+    "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream",
+    "test": "jest"
   },
   "workspaces": [
     "packages/*"
@@ -48,15 +49,20 @@
     "react-dom": "16.7.0"
   },
   "devDependencies": {
+    "@types/jest": "23.3.13",
     "commitizen": "3.0.5",
     "concurrently": "4.1.0",
     "cz-conventional-changelog": "2.1.0",
     "docz": "0.13.7",
     "docz-theme-default": "0.13.7",
     "husky": "1.3.1",
+    "jest": "23.6.0",
+    "jest-emotion": "10.0.6",
     "lerna": "3.8.5",
     "lint-staged": "8.1.0",
     "prettier": "1.15.3",
+    "react-test-renderer": "16.7.0",
+    "ts-jest": "23.10.5",
     "tslint": "5.12.0",
     "tslint-config-airbnb": "5.11.1",
     "tslint-config-prettier": "1.17.0",
