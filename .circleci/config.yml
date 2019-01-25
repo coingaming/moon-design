@@ -151,7 +151,7 @@ jobs:
       - *setup_git_config
       - run: git branch --set-upstream-to=origin/master master
       - run: git pull
-      - run: yarn publish
+      - run: yarn publish:packages
       - run: git checkout develop
       - run: git merge master
       - run: git push
