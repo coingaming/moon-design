@@ -52,6 +52,15 @@ aliases:
       name: 'Pushing docker image with tag'
       command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_TAG
 
+  setup_github_ssh: &setup_github_ssh
+    run:
+      name: 'Setting up github SSH key'
+      command: |
+        mkdir ~/.ssh \
+        echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot \
+        echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config \
+        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
 version: 2
 jobs:
   dependencies:
@@ -101,6 +110,20 @@ jobs:
       - *docker_build_branch
       - *docker_login
       - *docker_push_branch
+
+  deploy_to_edge:
+    <<: *edge_build_image
+    steps:
+      - setup_remote_docker
+      - *docker_login
+      - *setup_github_ssh
+      - run: mkdir ~/.stacks
+      - run: |
+          git clone -b sportsbet-edge git@github.com:coingaming/stacks.git ~/.stacks
+          ~/.stacks/scripts/circle-ci-setup
+      - run: |
+          DOCKER_HOST=edge-sportsbet.ci.testenv.io
+          ~/.stacks/scripts/deploy-service sportsbet design heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
 
 workflows:
   version: 2
@@ -156,3 +179,11 @@ workflows:
             - dependencies
             - lint
             - build
+
+      - deploy_to_edge:
+          context: global
+          filters:
+            branches:
+              only: develop
+          requires:
+            - build_branch_and_push
