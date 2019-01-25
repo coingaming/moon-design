@@ -52,6 +52,15 @@ aliases:
       name: 'Pushing docker image with tag'
       command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_TAG
 
+  setup_github_ssh: &setup_github_ssh
+    run:
+      name: 'Setting up github SSH key'
+      command: |
+        mkdir ~/.ssh \
+        echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot \
+        echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config \
+        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
 version: 2
 jobs:
   dependencies:
@@ -105,13 +114,10 @@ jobs:
   deploy_to_edge:
     <<: *edge_build_image
     steps:
-      - run: mkdir ~/.ssh
-      - run: mkdir ~/.stacks
-      - run: echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot
-      - run: echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config
-      - run: ssh-keyscan -H github.com >> ~/.ssh/known_hosts
       - setup_remote_docker
       - *docker_login
+      - *setup_github_ssh
+      - run: mkdir ~/.stacks
       - run: |
           git clone -b sportsbet-edge git@github.com:coingaming/stacks.git ~/.stacks
           ~/.stacks/scripts/circle-ci-setup
