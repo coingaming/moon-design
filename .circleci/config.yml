@@ -1,23 +1,56 @@
-default: &default
-  docker:
-    - image: circleci/node:latest
+aliases:
+  default: &default
+    docker:
+      - image: circleci/node:latest
 
-install_deps: &install_deps
-  run:
-    name: 'Installing dependencies'
-    command: yarn install
+  edge_build_image: &edge_build_image
+    docker:
+      - image: heathmont/sportsbet-build-image:develop
+        auth:
+          username: $DOCKER_USER
+          password: $DOCKER_PASS
 
-restore_cache: &restore_cache
-  restore_cache:
-    name: 'Restoring cache'
-    key: dependency-cache-{{ checksum "package.json" }}
+  install_deps: &install_deps
+    run:
+      name: 'Installing dependencies and creating symlinks'
+      command: yarn
 
-save_cache: &save_cache
-  save_cache:
-    name: 'Saving cache'
-    key: dependency-cache-{{ checksum "package.json" }}
-    paths:
-      - node_modules
+  restore_cache: &restore_cache
+    restore_cache:
+      name: 'Restoring cache'
+      key: dependency-cache-{{ checksum "package.json" }}
+
+  save_cache: &save_cache
+    save_cache:
+      name: 'Saving cache'
+      key: dependency-cache-{{ checksum "package.json" }}
+      paths:
+        - node_modules
+
+  docker_build_branch: &docker_build_branch
+    run:
+      name: 'Building docker image from branch'
+      command: docker build -t heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH .
+
+  docker_build_tag: &docker_build_tag
+    run:
+      name: 'Building docker image from tag'
+      command: docker build -t heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_TAG .
+
+  docker_login: &docker_login
+    run:
+      name: 'Logging into docker'
+      command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+  docker_push_branch: &docker_push_branch
+    run:
+      name: 'Pushing docker image with branch name'
+      command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
+
+  docker_push_tag: &docker_push_tag
+    run:
+      name: 'Pushing docker image with tag'
+      command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_TAG
 
 version: 2
 jobs:
@@ -50,6 +83,24 @@ jobs:
       - run:
           name: Running build process
           command: yarn build
+      - run:
+          name: Running docz build
+          command: yarn docz:build
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - .docz/dist
+
+  build_branch_and_push:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - setup_remote_docker
+      - *docker_build_branch
+      - *docker_login
+      - *docker_push_branch
 
 workflows:
   version: 2
@@ -65,3 +116,43 @@ workflows:
           context: global
           requires:
             - dependencies
+
+  build-branch:
+    jobs:
+      - dependencies:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+      - lint:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+      - build:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+
+      - build_branch_and_push:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+            - lint
+            - build
