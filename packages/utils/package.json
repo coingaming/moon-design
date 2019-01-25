@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@heathmont/sportsbet-utils",
   "version": "0.0.1",
   "main": "lib/index.js",
@@ -10,7 +9,7 @@
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
   "dependencies": {
-    "@heathmont/sportsbet-tokens": "0.0.1",
+    "@heathmont/sportsbet-tokens": "^0.0.1",
     "polished": "2.3.3"
   }
 }

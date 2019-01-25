@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@heathmont/sportsbet-global",
   "version": "0.0.1",
   "main": "lib/index.js",
@@ -11,7 +10,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.6",
-    "@heathmont/sportsbet-tokens": "0.0.1",
+    "@heathmont/sportsbet-tokens": "^0.0.1",
     "polished": "2.3.3"
   }
 }
