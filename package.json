@@ -12,7 +12,8 @@
     "docz:dev": "concurrently -kill-others \"yarn build -w\" \"docz dev\"",
     "docz:build": "yarn build && docz build",
     "docz:serve": "cd .docz/dist && python -m SimpleHTTPServer 3000",
-    "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream"
+    "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream",
+    "publish": "lerna publish"
   },
   "workspaces": [
     "packages/*"

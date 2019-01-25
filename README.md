@@ -53,6 +53,7 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
 - `yarn lint:ts` - lint TypeScript in each package that contains it.
 - `yarn clean` - removes all generated `lib` folders.
 - `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
+- `yarn publish` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
 
 ### Style Guide
 
