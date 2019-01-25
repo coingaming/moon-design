@@ -56,10 +56,18 @@ aliases:
     run:
       name: 'Setting up github SSH key'
       command: |
-        mkdir ~/.ssh \
-        echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot \
-        echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config \
+        mkdir -p ~/.ssh
+        echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot
+        echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
+  setup_git_config: &setup_git_config
+    run:
+      name: 'Setting up git config'
+      command: |
+        git config user.email "circleci@coingaming.io"
+        git config user.name "Deployment Robot"
+        git config --global push.default matching
 
 version: 2
 jobs:
@@ -90,7 +98,17 @@ jobs:
       - attach_workspace:
           at: ./
       - run:
-          name: Running build process
+          name: Running typescript build
+          command: yarn build
+
+  build_site:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Running typescript build
           command: yarn build
       - run:
           name: Running docz build
@@ -117,13 +135,26 @@ jobs:
       - setup_remote_docker
       - *docker_login
       - *setup_github_ssh
-      - run: mkdir ~/.stacks
+      - run: mkdir -p ~/.stacks
       - run: |
           git clone -b sportsbet-edge git@github.com:coingaming/stacks.git ~/.stacks
           ~/.stacks/scripts/circle-ci-setup
       - run: |
           DOCKER_HOST=edge-sportsbet.ci.testenv.io
           ~/.stacks/scripts/deploy-service sportsbet design heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
+
+  publish:
+    <<: *default
+    steps:
+      - *setup_github_ssh
+      - *setup_git_config
+      - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
+      - run: git branch --set-upstream-to=origin/master master
+      - run: git pull
+      - run: yarn publish
+      - run: git checkout develop
+      - run: git merge master
+      - run: git push
 
 workflows:
   version: 2
@@ -168,6 +199,16 @@ workflows:
           requires:
             - dependencies
 
+      - build_site:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+
       - build_branch_and_push:
           context: global
           filters:
@@ -178,7 +219,7 @@ workflows:
           requires:
             - dependencies
             - lint
-            - build
+            - build_site
 
       - deploy_to_edge:
           context: global
@@ -187,3 +228,13 @@ workflows:
               only: develop
           requires:
             - build_branch_and_push
+
+      - publish:
+          context: global
+          filters:
+            branches:
+              only: master
+          requires:
+            - dependencies
+            - lint
+            - build_site
