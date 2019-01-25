@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@heathmont/sportsbet-tokens",
   "version": "0.0.1",
   "main": "src/index.ts",
