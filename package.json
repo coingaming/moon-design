@@ -13,7 +13,7 @@
     "docz:build": "yarn build && docz build",
     "docz:serve": "cd .docz/dist && python -m SimpleHTTPServer 3000",
     "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream",
-    "publish:packages": "lerna publish"
+    "publish:packages": "lerna publish --yes"
   },
   "workspaces": [
     "packages/*"
