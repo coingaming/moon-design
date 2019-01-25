@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.6",
-    "@heathmont/sportsbet-tokens": "0.0.1",
+    "@heathmont/sportsbet-tokens": "^0.0.1",
     "polished": "2.3.3"
   }
 }
