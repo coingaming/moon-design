@@ -61,6 +61,15 @@ aliases:
         echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config \
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
+  setup_git_config: &setup_git_config
+    run:
+      name: 'Setting up git config'
+      command: |
+        git config user.email "circleci@coingaming.io" \
+        git config user.name "Deployment Robot" \
+        git config --global push.default matching
+
+
 version: 2
 jobs:
   dependencies:
@@ -125,6 +134,19 @@ jobs:
           DOCKER_HOST=edge-sportsbet.ci.testenv.io
           ~/.stacks/scripts/deploy-service sportsbet design heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
 
+  publish:
+    <<: *default
+    steps:
+      - *setup_github_ssh
+      - *setup_git_config
+      - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
+      - run: git branch --set-upstream-to=origin/master master
+      - run: git pull
+      - run: yarn publish
+      - run: git checkout develop
+      - run: git merge master
+      - run: git push
+
 workflows:
   version: 2
   pull-request:
@@ -187,3 +209,13 @@ workflows:
               only: develop
           requires:
             - build_branch_and_push
+
+      - publish:
+          context: global
+          filters:
+            branches:
+              only: master
+          requires:
+            - dependencies
+            - lint
+            - build
