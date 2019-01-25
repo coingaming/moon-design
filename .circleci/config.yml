@@ -56,7 +56,7 @@ aliases:
     run:
       name: 'Setting up github SSH key'
       command: |
-        mkdir ~/.ssh
+        mkdir -p ~/.ssh
         echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot
         echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
@@ -135,7 +135,7 @@ jobs:
       - setup_remote_docker
       - *docker_login
       - *setup_github_ssh
-      - run: mkdir ~/.stacks
+      - run: mkdir -p ~/.stacks
       - run: |
           git clone -b sportsbet-edge git@github.com:coingaming/stacks.git ~/.stacks
           ~/.stacks/scripts/circle-ci-setup
