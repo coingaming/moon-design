@@ -1,13 +1,16 @@
-[![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
 # Sportsbet.io Design
+
+[![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![CircleCI](https://circleci.com/gh/coingaming/sportsbet-design.svg?style=svg&circle-token=ac2a5739dd256e22f8051c19548bc06aec8b4350)](https://circleci.com/gh/coingaming/sportsbet-design)
 
 ## Contents
 
 1. [Architecture](#architecture)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Plan](#plan)
+4. [Contributing](#contributing)
+5. [Plan](#plan)
 
 ---
 
@@ -68,6 +71,10 @@ Our project's style guide is built using the [Docz](https://www.docz.site) frame
 All scripts defined in [packages/wip-cashier](packages/wip-cashier/README.md) can be run via `yarn cashier <script-name>`.
 
 See the [Cashier README](packages/wip-cashier/README.md) for more details.
+
+## Contributing
+
+See the [Contributing Guidelines](CONTRIBUTING.md) for full info.
 
 ## Plan
 
