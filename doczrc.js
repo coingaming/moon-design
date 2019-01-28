@@ -7,6 +7,7 @@ module.exports = {
   codeSandbox: false,
   wrapper: '.docz/wrapper',
   hashRouter: true,
+  public: "./packages/assets/src",
   themeConfig: {
     mode: 'dark',
     colors: {
