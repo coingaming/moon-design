@@ -18,7 +18,9 @@ export const page = css`
     color: ${colors.text};
     min-height: 100%;
     text-size-adjust: 100%; /* [1] */
+    font-display: swap;
     -moz-osx-font-smoothing: grayscale; /* [2] */
     -webkit-font-smoothing: antialiased; /* [2] */
+    text-rendering: geometricPrecision;
   }
 `;
