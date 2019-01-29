@@ -1,13 +1,13 @@
-import * as React from "react";
-import { css } from "@emotion/core";
-import styled from "@emotion/styled";
-import { padding, rem } from "polished";
-import { border, colors } from "@heathmont/sportsbet-tokens";
-import { spacing } from "@heathmont/sportsbet-utils";
-import { cardGradient } from "./utils";
+import * as React from 'react';
+import { css } from '@emotion/core';
+import styled from '@emotion/styled';
+import { padding, rem } from 'polished';
+import { border, colors } from '@heathmont/sportsbet-tokens';
+import { spacing } from '@heathmont/sportsbet-utils';
+import { cardGradient } from './utils';
 
 export type CardProps = {
-  template: "front" | "back" | "outline";
+  template: 'front' | 'back' | 'outline';
   children: JSX.Element[] | JSX.Element;
   flex?: boolean;
 };
@@ -16,21 +16,21 @@ export type CardProps = {
  * Styles
  */
 const cardBase = css({
-  display: "block",
+  display: 'block',
   minHeight: rem(170),
-  ...padding(spacing(), spacing("medium")),
-  position: "relative",
+  ...padding(spacing(), spacing('medium')),
+  position: 'relative',
   borderRadius: border.radius.default,
   backgroundColor: colors.neutral[80]
 });
 
 /* Modifiers */
 const cardFlex = css({
-  display: "flex",
-  flexDirection: "column",
-  flexWrap: "wrap",
-  justifyContent: "space-between",
-  alignItems: "alignContent"
+  display: 'flex',
+  flexDirection: 'column',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+  alignItems: 'alignContent'
 });
 
 const cardOutline = css({
@@ -40,7 +40,7 @@ const cardOutline = css({
 });
 
 const cardBack = css({ backgroundColor: colors.neutral[60] });
-const cardShadow = css({ boxShadow: "rgba(0, 0, 0, 0.25) 4px 4px 12px" });
+const cardShadow = css({ boxShadow: 'rgba(0, 0, 0, 0.25) 4px 4px 12px' });
 
 const cardModifiers = {
   front: [cardGradient, cardShadow],
@@ -52,7 +52,7 @@ const cardModifiers = {
  * Component
  */
 export const Card: React.SFC<CardProps> = ({ children, flex, template }) => {
-  const Card = styled("div")(
+  const Card = styled('div')(
     cardBase,
     flex && cardFlex,
     cardModifiers[template]
@@ -63,5 +63,5 @@ export const Card: React.SFC<CardProps> = ({ children, flex, template }) => {
 
 Card.defaultProps = {
   flex: false,
-  template: "front"
+  template: 'front'
 };
