@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardToggle renders correctly 1`] = `
+.emotion-0 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+<button
+  className="emotion-0"
+>
+  ⚙️
+</button>
+`;
+
+exports[`CardToggle renders with back icon 1`] = `
+.emotion-0 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+<button
+  className="emotion-0"
+>
+  ↩️
+</button>
+`;

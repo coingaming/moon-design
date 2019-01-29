@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Templates renders as back 1`] = `
+.emotion-0 {
+  display: block;
+  min-height: 10.625rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #12242e;
+  background-color: #1a3442;
+  box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    Some content
+  </p>
+</div>
+`;
+
+exports[`Card Templates renders as front 1`] = `
+.emotion-0 {
+  display: block;
+  min-height: 10.625rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #12242e;
+  background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),  radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-blend-mode: luminosity;
+  box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    Some content
+  </p>
+</div>
+`;
+
+exports[`Card Templates renders as outline 1`] = `
+.emotion-0 {
+  display: block;
+  min-height: 10.625rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #12242e;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    Some content
+  </p>
+</div>
+`;
+
+exports[`Card renders with flex layout 1`] = `
+.emotion-0 {
+  display: block;
+  min-height: 10.625rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #12242e;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: alignContent;
+  -webkit-box-align: alignContent;
+  -ms-flex-align: alignContent;
+  align-items: alignContent;
+  background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),  radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-blend-mode: luminosity;
+  box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    Some content
+  </p>
+  <p>
+    Some other content
+  </p>
+</div>
+`;
