@@ -1,7 +1,8 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from "react";
 import { css, jsx } from "@emotion/core";
 import { spacing } from "@heathmont/sportsbet-utils";
+jsx;
 
 export type CardToggleProps = {
   back?: boolean;
