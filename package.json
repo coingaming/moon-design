@@ -30,6 +30,9 @@
     ],
     "preset": "ts-jest"
   },
+  "prettier": {
+    "singleQuote": true
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
