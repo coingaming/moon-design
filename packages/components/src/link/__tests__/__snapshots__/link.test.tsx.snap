@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders as a anchor when \`href\` defined 1`] = `
+.emotion-0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font: inherit;
+  color: #0cd664;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #00e865;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  color: #586a74;
+  cursor: not-allowed;
+}
+
+<a
+  className="emotion-0"
+  href="#test-path"
+>
+  I'm a link
+</a>
+`;
+
+exports[`Link renders as a button by default 1`] = `
+.emotion-0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font: inherit;
+  color: #0cd664;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #00e865;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  color: #586a74;
+  cursor: not-allowed;
+}
+
+<button
+  className="emotion-0"
+>
+  I look like a link, but really I'm a button
+</button>
+`;
+
+exports[`Link renders as disabled for anchor elements 1`] = `
+.emotion-0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font: inherit;
+  color: #0cd664;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #00e865;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  color: #586a74;
+  cursor: not-allowed;
+}
+
+<a
+  className="emotion-0"
+  disabled={true}
+  href="#test-path"
+>
+  I'm a link
+</a>
+`;
+
+exports[`Link renders as disabled for button elements 1`] = `
+.emotion-0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font: inherit;
+  color: #0cd664;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #00e865;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  color: #586a74;
+  cursor: not-allowed;
+}
+
+<button
+  className="emotion-0"
+  disabled={true}
+>
+  I look like a link, but really I'm a button
+</button>
+`;
