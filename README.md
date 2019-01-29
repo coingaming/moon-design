@@ -54,6 +54,9 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
 - `yarn format` - [Prettier](https://prettier.io) alias.
 - `yarn lint:ts` - lint TypeScript in each package that contains it.
+- `yarn test` - runs the [Jest](https://jestjs.io) testing suite.
+  - Obsolete tests can be updated via the additional `-u` flag.
+  - Additional [Jest options](https://jestjs.io/docs/en/cli) can be appended to the command.
 - `yarn clean` - removes all generated `lib` folders.
 - `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
 - `yarn publish` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
