@@ -37,14 +37,14 @@ const buttonBase = css([
     borderStyle: border.style,
     borderWidth: border.width,
     borderColor: 'transparent',
-    borderRadius: border.radius.small
+    borderRadius: border.radius.small,
   },
-  buttonDisabled('solid')
+  buttonDisabled('solid'),
 ]);
 
 const buttonSpaced = css({
   marginBottom: spacing(),
-  '&:not(:last-child)': { marginRight: spacing() }
+  '&:not(:last-child)': { marginRight: spacing() },
 });
 
 /**
@@ -67,13 +67,13 @@ export const Button: React.SFC<ButtonProps> = props => {
       buttonBase,
       props.spaced && buttonSpaced,
       props.modifier && buttonModifiers[props.modifier],
-      props.fullWidth && { width: '100%' }
+      props.fullWidth && { width: '100%' },
     ],
     className: props.mockState && buttonMockStateClass(props.mockState),
-    ...props
+    ...props,
   });
 };
 
 Button.defaultProps = {
-  modifier: 'primary'
+  modifier: 'primary',
 };
