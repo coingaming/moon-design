@@ -11,7 +11,7 @@ const base: Base = {
   lineHeight: 20,
   fontFace: 'Averta',
   spacing: 16,
-  container: 1400
+  container: 1400,
 };
 
 export { Base, base };

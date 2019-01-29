@@ -3,5 +3,5 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
   snapshotSerializers: ['jest-emotion'],
-  setupTestFrameworkScriptFile: './.config/jest/setup.ts'
+  setupTestFrameworkScriptFile: './.config/jest/setup.ts',
 };
