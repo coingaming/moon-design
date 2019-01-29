@@ -9,5 +9,5 @@ export const styles = [
   boxSizing,
   reset,
   /* Elements */
-  page
+  page,
 ];
