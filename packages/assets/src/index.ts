@@ -1,0 +1,1 @@
+export { fontUrls } from "./fontUrls";
