@@ -4,8 +4,8 @@ menu: Utils
 route: /utils/spacing
 ---
 
-import { Playground } from "docz";
-import { spacing } from "./";
+import { Playground } from 'docz';
+import { spacing } from './';
 
 # Spacing
 
@@ -14,7 +14,7 @@ Returns a given [spacing token "key"](/tokens#spacing) value as a `rem` spacing 
 Using `spacing()` is encouraged over using the tokens directly.
 
 ```js
-import { spacing } from "@heathmont/sportsbet-utils";
+import { spacing } from '@heathmont/sportsbet-utils';
 ```
 
 ## Example
@@ -27,7 +27,7 @@ import { spacing } from "@heathmont/sportsbet-utils";
           <code>spacing()</code> returns <code>{spacing()}</code>
         </li>
         <li>
-          <code>spacing("small")</code> returns <code>{spacing("small")}</code>
+          <code>spacing("small")</code> returns <code>{spacing('small')}</code>
         </li>
       </ul>
     );
@@ -39,10 +39,10 @@ import { spacing } from "@heathmont/sportsbet-utils";
 In a component, this could be used to create brand-conforming spacing:
 
 ```jsx
-import styled from "@emotion/styled";
-import { spacing } from "@heathmont/sportsbet-utils";
+import styled from '@emotion/styled';
+import { spacing } from '@heathmont/sportsbet-utils';
 
-const Box = styled("div")`
+const Box = styled('div')`
   margin-bottom: ${spacing()};
 `;
 ```

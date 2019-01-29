@@ -1,4 +1,4 @@
-import { base } from "./base";
+import { base } from './base';
 
 type Border = {
   radius: {
@@ -14,7 +14,7 @@ const border: Border = {
     small: base.spacing * 0.25,
     default: base.spacing * 0.5
   },
-  style: "solid",
+  style: 'solid',
   width: 1
 };
 
