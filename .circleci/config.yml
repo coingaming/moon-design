@@ -12,54 +12,54 @@ aliases:
 
   install_deps: &install_deps
     run:
-      name: 'Installing dependencies and creating symlinks'
+      name: "Installing dependencies and creating symlinks"
       command: yarn
 
   restore_cache: &restore_cache
     restore_cache:
-      name: 'Restoring cache'
+      name: "Restoring cache"
       key: dependency-cache-{{ checksum "package.json" }}
 
   save_cache: &save_cache
     save_cache:
-      name: 'Saving cache'
+      name: "Saving cache"
       key: dependency-cache-{{ checksum "package.json" }}
       paths:
         - node_modules
 
   install_token: &install_token
     run:
-      name: 'Setting up private repository NPM access'
+      name: "Setting up private repository NPM access"
       command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
   docker_build_branch: &docker_build_branch
     run:
-      name: 'Building docker image from branch'
+      name: "Building docker image from branch"
       command: docker build -t heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH .
 
   docker_build_tag: &docker_build_tag
     run:
-      name: 'Building docker image from tag'
+      name: "Building docker image from tag"
       command: docker build -t heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_TAG .
 
   docker_login: &docker_login
     run:
-      name: 'Logging into docker'
+      name: "Logging into docker"
       command: docker login -u $DOCKER_USER -p $DOCKER_PASS
 
   docker_push_branch: &docker_push_branch
     run:
-      name: 'Pushing docker image with branch name'
+      name: "Pushing docker image with branch name"
       command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
 
   docker_push_tag: &docker_push_tag
     run:
-      name: 'Pushing docker image with tag'
+      name: "Pushing docker image with tag"
       command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_TAG
 
   setup_github_ssh: &setup_github_ssh
     run:
-      name: 'Setting up github SSH key'
+      name: "Setting up github SSH key"
       command: |
         mkdir -p ~/.ssh
         echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot
@@ -68,7 +68,7 @@ aliases:
 
   setup_git_config: &setup_git_config
     run:
-      name: 'Setting up git config'
+      name: "Setting up git config"
       command: |
         git config user.email "circleci@coingaming.io"
         git config user.name "Deployment Robot"
@@ -96,6 +96,14 @@ jobs:
       - attach_workspace:
           at: ./
       - run: yarn lint:ts
+
+  test:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run: yarn test
 
   build:
     <<: *default
@@ -172,9 +180,13 @@ workflows:
       - dependencies:
           context: global
       - lint:
-         context: global
-         requires:
-           - dependencies
+          context: global
+          requires:
+            - dependencies
+      - test:
+          context: global
+          requires:
+            - dependencies
       - build:
           context: global
           requires:
@@ -190,6 +202,15 @@ workflows:
                 - develop
                 - master
       - lint:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+      - test:
           context: global
           filters:
             branches:
@@ -228,6 +249,7 @@ workflows:
           requires:
             - dependencies
             - lint
+            - test
             - build_site
 
       - deploy_to_edge:
@@ -246,4 +268,5 @@ workflows:
           requires:
             - dependencies
             - lint
+            - test
             - build_site
