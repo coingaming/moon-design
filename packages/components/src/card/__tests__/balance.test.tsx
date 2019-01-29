@@ -1,22 +1,22 @@
-import * as React from "react";
-import { create } from "react-test-renderer";
-import { CardBalance } from "../";
+import * as React from 'react';
+import { create } from 'react-test-renderer';
+import { CardBalance } from '../';
 
-describe("CardBalance", () => {
-  test("renders correctly", () => {
+describe('CardBalance', () => {
+  test('renders correctly', () => {
     const balance = create(
       <CardBalance
         from={{
-          currency: "Bitcoin",
+          currency: 'Bitcoin',
           value: 1526.56,
-          unit: "mBTC",
-          unitTitle: "Millibitcoin"
+          unit: 'mBTC',
+          unitTitle: 'Millibitcoin'
         }}
         to={{
-          currency: "Dollars",
+          currency: 'Dollars',
           value: 354568.68,
-          unit: "USD",
-          unitTitle: "US Dollars"
+          unit: 'USD',
+          unitTitle: 'US Dollars'
         }}
       />
     );
@@ -24,18 +24,18 @@ describe("CardBalance", () => {
     expect(balance).toMatchSnapshot();
   });
 
-  test("renders with currency if no unitTitle provided", () => {
+  test('renders with currency if no unitTitle provided', () => {
     const balance = create(
       <CardBalance
         from={{
-          currency: "Bitcoin",
+          currency: 'Bitcoin',
           value: 1526.56,
-          unit: "mBTC"
+          unit: 'mBTC'
         }}
         to={{
-          currency: "Dollars",
+          currency: 'Dollars',
           value: 354568.68,
-          unit: "USD"
+          unit: 'USD'
         }}
       />
     );

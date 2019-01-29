@@ -1,2 +1,2 @@
-import { default as serializer } from "jest-emotion";
+import { default as serializer } from 'jest-emotion';
 expect.addSnapshotSerializer(serializer);
