@@ -1,1 +1,1 @@
-export { cardGradient } from "./gradient";
+export { cardGradient } from './gradient';
