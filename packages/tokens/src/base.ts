@@ -9,7 +9,7 @@ type Base = {
 const base: Base = {
   fontSize: 16,
   lineHeight: 20,
-  fontFace: "Averta",
+  fontFace: 'Averta',
   spacing: 16,
   container: 1400
 };
