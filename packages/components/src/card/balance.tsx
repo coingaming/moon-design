@@ -23,23 +23,23 @@ export type CardBalanceProps = {
  * Styles
  */
 const unit = css({
-  textDecoration: 'none'
+  textDecoration: 'none',
 });
 
 const unitLarge = css({
   fontSize: rem(17),
-  lineHeight: rem(20)
+  lineHeight: rem(20),
 });
 
 const Title = styled.p({
   fontSize: rem(31),
-  lineHeight: rem(38)
+  lineHeight: rem(38),
 });
 
 const Text = styled.p({
   color: colors.neutral[20],
   fontSize: rem(15),
-  lineHeight: rem(20)
+  lineHeight: rem(20),
 });
 
 /**

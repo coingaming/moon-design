@@ -21,7 +21,7 @@ const cardToggle = css({
   border: 'none',
   /* Temporary styles until Icons implemented */
   fontSize: '0.9rem',
-  lineHeight: '1.4rem'
+  lineHeight: '1.4rem',
 });
 
 /**
@@ -34,5 +34,5 @@ export const CardToggle: React.SFC<CardToggleProps> = ({ back }) => {
 };
 
 CardToggle.defaultProps = {
-  back: false
+  back: false,
 };

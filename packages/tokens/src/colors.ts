@@ -19,7 +19,7 @@ const colors: Colors = {
   error: '#ff4e64',
   alternate: {
     brand: '#19a9e2',
-    highlight: '#00b7ff'
+    highlight: '#00b7ff',
   },
   neutral: {
     10: '#fff',
@@ -31,8 +31,8 @@ const colors: Colors = {
     70: '#142c37',
     80: '#12242e',
     90: '#06111a',
-    100: '#000'
-  }
+    100: '#000',
+  },
 };
 
 export { Colors, colors };

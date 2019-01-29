@@ -10,13 +10,13 @@ describe('CardBalance', () => {
           currency: 'Bitcoin',
           value: 1526.56,
           unit: 'mBTC',
-          unitTitle: 'Millibitcoin'
+          unitTitle: 'Millibitcoin',
         }}
         to={{
           currency: 'Dollars',
           value: 354568.68,
           unit: 'USD',
-          unitTitle: 'US Dollars'
+          unitTitle: 'US Dollars',
         }}
       />
     );
@@ -30,12 +30,12 @@ describe('CardBalance', () => {
         from={{
           currency: 'Bitcoin',
           value: 1526.56,
-          unit: 'mBTC'
+          unit: 'mBTC',
         }}
         to={{
           currency: 'Dollars',
           value: 354568.68,
-          unit: 'USD'
+          unit: 'USD',
         }}
       />
     );
