@@ -114,6 +114,10 @@ jobs:
       - run:
           name: Running typescript build
           command: yarn build
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - packages/*/lib/*
 
   build_site:
     <<: *default
@@ -183,14 +187,15 @@ workflows:
           context: global
           requires:
             - dependencies
-      - test:
-          context: global
-          requires:
-            - dependencies
       - build:
           context: global
           requires:
             - dependencies
+      - test:
+          context: global
+          requires:
+            - dependencies
+            - build
 
   build-branch:
     jobs:
@@ -210,15 +215,6 @@ workflows:
                 - master
           requires:
             - dependencies
-      - test:
-          context: global
-          filters:
-            branches:
-              only:
-                - develop
-                - master
-          requires:
-            - dependencies
       - build:
           context: global
           filters:
@@ -228,6 +224,16 @@ workflows:
                 - master
           requires:
             - dependencies
+      - test:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+            - build
 
       - build_site:
           context: global
