@@ -1,6 +1,6 @@
-import { css } from "@emotion/core";
-import { rgba } from "polished";
-import { colors } from "@heathmont/sportsbet-tokens";
+import { css } from '@emotion/core';
+import { rgba } from 'polished';
+import { colors } from '@heathmont/sportsbet-tokens';
 
 /**
  * Card Gradient Positions
@@ -16,11 +16,11 @@ import { colors } from "@heathmont/sportsbet-tokens";
 
 const cardAlpha: number = 0.6;
 const cardColors = {
-  dark: "#1e1e1e",
-  light: "#8f8f8f",
-  mid: "#3a3a3a",
+  dark: '#1e1e1e',
+  light: '#8f8f8f',
+  mid: '#3a3a3a',
   background: colors.neutral[80],
-  transparent: "rgba(0, 0, 0, 0)"
+  transparent: 'rgba(0, 0, 0, 0)'
 };
 
 export const cardGradient = css`
