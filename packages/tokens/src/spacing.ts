@@ -1,4 +1,4 @@
-import { base } from "./base";
+import { base } from './base';
 
 type Spacing = {
   xsmall: number /* px */;
@@ -15,7 +15,7 @@ const spacing: Spacing = {
   default: base.spacing,
   medium: base.spacing * 1.5,
   large: base.spacing * 2,
-  xlarge: base.spacing * 2.5
+  xlarge: base.spacing * 2.5,
 };
 
 export { Spacing, spacing };

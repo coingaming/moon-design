@@ -1,13 +1,16 @@
-[![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
 # Sportsbet.io Design
+
+[![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![CircleCI](https://circleci.com/gh/coingaming/sportsbet-design.svg?style=svg&circle-token=ac2a5739dd256e22f8051c19548bc06aec8b4350)](https://circleci.com/gh/coingaming/sportsbet-design)
 
 ## Contents
 
 1. [Architecture](#architecture)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Plan](#plan)
+4. [Contributing](#contributing)
+5. [Plan](#plan)
 
 ---
 
@@ -51,6 +54,9 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
 - `yarn format` - [Prettier](https://prettier.io) alias.
 - `yarn lint:ts` - lint TypeScript in each package that contains it.
+- `yarn test` - runs the [Jest](https://jestjs.io) testing suite.
+  - Obsolete tests can be updated via the additional `-u` flag.
+  - Additional [Jest options](https://jestjs.io/docs/en/cli) can be appended to the command.
 - `yarn clean` - removes all generated `lib` folders.
 - `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
 - `yarn publish` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
@@ -68,6 +74,10 @@ Our project's style guide is built using the [Docz](https://www.docz.site) frame
 All scripts defined in [packages/wip-cashier](packages/wip-cashier/README.md) can be run via `yarn cashier <script-name>`.
 
 See the [Cashier README](packages/wip-cashier/README.md) for more details.
+
+## Contributing
+
+See the [Contributing Guidelines](CONTRIBUTING.md) for full info.
 
 ## Plan
 

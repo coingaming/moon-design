@@ -4,8 +4,8 @@ menu: Components
 route: /components/card
 ---
 
-import { Playground, PropsTable } from "docz";
-import { Card, CardBalance, CardToggle } from "./index.ts";
+import { Playground, PropsTable } from 'docz';
+import { Card, CardBalance, CardToggle } from './index.ts';
 
 # Card
 
@@ -22,12 +22,12 @@ Default template, using the `flex` layout modifier to balance space between item
     <CardToggle />
     <CardBalance
       from={{
-        currency: "Bitcoin",
+        currency: 'Bitcoin',
         value: 1526.56,
-        unit: "mBTC",
-        unitTitle: "Millibitcoin"
+        unit: 'mBTC',
+        unitTitle: 'Millibitcoin',
       }}
-      to={{ currency: "Dollars", value: 354568.68, unit: "USD" }}
+      to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
     />
     <button>Deposit</button>
     <button>Withdraw</button>
@@ -87,12 +87,12 @@ Displays the original and converted wallet balance.
 <Playground>
   <CardBalance
     from={{
-      currency: "Bitcoin",
+      currency: 'Bitcoin',
       value: 1526.56,
-      unit: "mBTC",
-      unitTitle: "Millibitcoin"
+      unit: 'mBTC',
+      unitTitle: 'Millibitcoin',
     }}
-    to={{ currency: "Dollars", value: 354568.68, unit: "USD" }}
+    to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
   />
 </Playground>
 

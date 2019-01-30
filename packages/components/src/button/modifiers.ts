@@ -1,13 +1,13 @@
-import { css } from "@emotion/core";
-import { colors, typography } from "@heathmont/sportsbet-tokens";
-import { buttonShadow, buttonDisabled } from "./mixins";
-import { buttonActive, buttonFocus } from "./states";
+import { css } from '@emotion/core';
+import { colors, typography } from '@heathmont/sportsbet-tokens';
+import { buttonShadow, buttonDisabled } from './mixins';
+import { buttonActive, buttonFocus } from './states';
 
 export type ButtonModifiers =
-  | "primary"
-  | "secondary"
-  | "optional"
-  | "alternate";
+  | 'primary'
+  | 'secondary'
+  | 'optional'
+  | 'alternate';
 
 /**
  * buttonModifiers
@@ -20,68 +20,68 @@ export type ButtonModifiers =
 const primary = css([
   {
     color: colors.neutral[10],
-    backgroundColor: colors.brand
+    backgroundColor: colors.brand,
   },
   buttonActive({
-    backgroundColor: colors.highlight
+    backgroundColor: colors.highlight,
   }),
   buttonFocus({
-    ...buttonShadow(colors.brand)
-  })
+    ...buttonShadow(colors.brand),
+  }),
 ]);
 
 const secondary = css([
   {
     color: colors.neutral[10],
-    backgroundColor: "transparent",
-    borderColor: colors.brand
+    backgroundColor: 'transparent',
+    borderColor: colors.brand,
   },
   buttonActive({
     color: colors.highlight,
-    backgroundColor: "transparent",
-    borderColor: colors.highlight
+    backgroundColor: 'transparent',
+    borderColor: colors.highlight,
   }),
   buttonFocus({
-    ...buttonShadow(colors.brand)
+    ...buttonShadow(colors.brand),
   }),
-  buttonDisabled("border")
+  buttonDisabled('border'),
 ]);
 
 const optional = css([
   {
-    textTransform: "capitalize",
+    textTransform: 'capitalize',
     fontWeight: typography.fontWeight.normal,
-    backgroundColor: "transparent",
+    backgroundColor: 'transparent',
     borderColor: colors.neutral[20],
-    color: colors.neutral[20]
+    color: colors.neutral[20],
   },
   buttonActive({
     color: colors.highlight,
-    backgroundColor: "transparent",
-    borderColor: colors.highlight
+    backgroundColor: 'transparent',
+    borderColor: colors.highlight,
   }),
   buttonFocus({
-    ...buttonShadow(colors.brand)
+    ...buttonShadow(colors.brand),
   }),
-  buttonDisabled("border")
+  buttonDisabled('border'),
 ]);
 
 const alternate = css([
   {
     color: colors.neutral[10],
-    backgroundColor: colors.alternate.brand
+    backgroundColor: colors.alternate.brand,
   },
   buttonActive({
-    backgroundColor: colors.alternate.highlight
+    backgroundColor: colors.alternate.highlight,
   }),
   buttonFocus({
-    ...buttonShadow(colors.alternate.brand)
-  })
+    ...buttonShadow(colors.alternate.brand),
+  }),
 ]);
 
 export const buttonModifiers = {
   primary,
   secondary,
   optional,
-  alternate
+  alternate,
 };

@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button MockState renders as active 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<button
+  className="is-active emotion-0"
+  mockState="active"
+  modifier="primary"
+>
+  Active Primary Button
+</button>
+`;
+
+exports[`Button MockState renders with focus 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<button
+  className="has-focus emotion-0"
+  mockState="focus"
+  modifier="primary"
+>
+  Focus Primary Button
+</button>
+`;
+
+exports[`Button Modifiers renders as alternate 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #19a9e2;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00b7ff;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #19a9e2;
+}
+
+<button
+  className="emotion-0"
+  modifier="alternate"
+>
+  Alternate Button
+</button>
+`;
+
+exports[`Button Modifiers renders as optional 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-weight: 400;
+  background-color: transparent;
+  border-color: #8697a2;
+  color: #8697a2;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+<button
+  className="emotion-0"
+  modifier="optional"
+>
+  Optional Button
+</button>
+`;
+
+exports[`Button Modifiers renders as primary 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<button
+  className="emotion-0"
+  modifier="primary"
+>
+  Primary Button
+</button>
+`;
+
+exports[`Button Modifiers renders as secondary 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+<button
+  className="emotion-0"
+  modifier="secondary"
+>
+  Secondary Button
+</button>
+`;
+
+exports[`Button renders as an anchor tag 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<a
+  className="emotion-0"
+  href="#some-anchor"
+  modifier="primary"
+>
+  Primary Button (Anchor)
+</a>
+`;
+
+exports[`Button renders as disabled 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<button
+  className="emotion-0"
+  disabled={true}
+  modifier="primary"
+>
+  Disabled Primary Button
+</button>
+`;
+
+exports[`Button renders as fullWidth 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<button
+  className="emotion-0"
+  fullWidth={true}
+  modifier="primary"
+>
+  Full Width Primary Button
+</button>
+`;
+
+exports[`Button renders with spacing 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-0:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.emotion-0.is-active:not([disabled]),
+.emotion-0.has-focus:not([disabled]),
+.emotion-0:hover:not([disabled]),
+.emotion-0:active:not([disabled]),
+.emotion-0:focus:not([disabled]) {
+  background-color: #00e865;
+}
+
+.emotion-0.has-focus,
+.emotion-0:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+<button
+  className="emotion-0"
+  modifier="primary"
+  spaced={true}
+>
+  Spaced Primary Button
+</button>
+`;

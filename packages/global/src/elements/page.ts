@@ -1,6 +1,6 @@
-import { css } from "@emotion/core";
-import { rem } from "polished";
-import { base, colors } from "@heathmont/sportsbet-tokens";
+import { css } from '@emotion/core';
+import { rem } from 'polished';
+import { base, colors } from '@heathmont/sportsbet-tokens';
 
 const systemFontStack =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif';
@@ -18,7 +18,9 @@ export const page = css`
     color: ${colors.text};
     min-height: 100%;
     text-size-adjust: 100%; /* [1] */
+    font-display: swap;
     -moz-osx-font-smoothing: grayscale; /* [2] */
     -webkit-font-smoothing: antialiased; /* [2] */
+    text-rendering: geometricPrecision;
   }
 `;
