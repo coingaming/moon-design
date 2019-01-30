@@ -1,14 +1,13 @@
 ---
 name: Feature Request
 about: Suggest an idea for this project
-
 ---
 
 ## Is Your Feature Request Related to a Problem?
 
-Please offer a clear and concise description of what the problem is. 
+Please offer a clear and concise description of what the problem is.
 
-*e.g. I'm always frustrated when [...]*
+_e.g. I'm always frustrated when [...]_
 
 ## Describe the Solution You'd Like
 

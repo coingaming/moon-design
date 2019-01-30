@@ -1,0 +1,40 @@
+---
+name: Link
+menu: Components
+route: /components/link
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Link } from './';
+
+# Link
+
+Links are used to navigate users through the user-interface via anchors or embedded actions.
+
+<Playground>
+  <Link href="#">I'm a link</Link>
+</Playground>
+
+## Elements
+
+### Button
+
+Sometimes it might make more semantic sense to render the Link as a `<button>` element. This can be achieved by **removing** the `href="<url>"` attribute.
+
+<Playground>
+  <Link>I look like a link, but really I'm a button</Link>
+</Playground>
+
+## Disabled
+
+Links that cannot be selected can be given a disabled state.
+
+<Playground>
+  <Link href="#" disabled>
+    I'm a disabled link
+  </Link>
+</Playground>
+
+## Props
+
+<PropsTable of={Link} />

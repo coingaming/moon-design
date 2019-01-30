@@ -1,0 +1,40 @@
+---
+name: Heading
+menu: Components
+route: /components/heading
+---
+
+import { Playground, PropsTable } from 'docz';
+import { colors } from '@heathmont/sportsbet-tokens';
+import { Heading } from './index.ts';
+
+# Heading
+
+We treat semantic and visual/cosmetic decisions as two totally [separate](https://csswizardry.com/2016/02/managing-typography-on-large-apps/) things.
+
+Our choice of `h1`–`h6` is a purely semantic decision, and doesn't impact cosmetics configured via the `size` prop.
+
+<Playground>
+  <Heading size="alpha" element="h1" color={colors.brand}>
+    Alpha Heading
+  </Heading>
+  <Heading size="bravo" element="h2">
+    Bravo Heading
+  </Heading>
+  <Heading size="charlie" element="h2">
+    Charlie Heading
+  </Heading>
+  <Heading size="delta" element="h2" color={colors.alternate.brand}>
+    Delta Heading
+  </Heading>
+  <Heading size="echo" element="h2">
+    Echo Heading
+  </Heading>
+  <Heading size="foxtrot" element="h2">
+    Foxtrot Heading
+  </Heading>
+</Playground>
+
+## Props
+
+<PropsTable of={Heading} />
