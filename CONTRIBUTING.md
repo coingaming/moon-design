@@ -6,6 +6,7 @@
 1. [Git Strategy](#git-strategy)
 1. [Code Standards](#code-standards)
 1. [Code Style](#code-style)
+1. [Release Process](#release-process)
 
 ---
 
@@ -27,7 +28,7 @@ yarn commit
 
 #### Base Branch
 
-As a developer, you will you be branching and merging from `master`, our base branch.
+As a developer, you will you be branching and merging from `develop`, our base branch.
 
 Consider `origin/master` to always represent the latest code deployed to production.
 
@@ -48,9 +49,9 @@ The different types of branches should be named as follows:
 
 1. Make a pull request.
 1. Add the `in progress` tag until ready for review.
-1. Periodically, keep changes up to date with master via `git rebase master`.
+1. Periodically, keep changes up to date with develop via `git rebase develop`.
 1. Grab a review and remove the `in progress` tag.
-1. One approved, it's down to you to merge the branch into `master`. Code can **only** be contributed to `master` via using pull requests.
+1. One approved, it's down to you to merge the branch into `develop`. Code can **only** be contributed to `develop` via using pull requests.
 1. Delete your branch.
 
 #### Merge or Rebase
@@ -62,7 +63,7 @@ Consider using `git rebase` only if you want to [avoid spaghetti-history](https:
 
 #### Feature Flags
 
-Long-lived feature branches present problems when you need to build code on top of unfinished work. Merge unfinished features into the `master` branch (following the steps [outline above](#workflow)) so others can build off their work, but keep them hidden from your users and testers behind feature flags. Enable the flag in development to use the feature without the changes affecting anyone else. Once the feature is finished, you can remove the flags or use them to roll out to selected users and testers.
+Long-lived feature branches present problems when you need to build code on top of unfinished work. Merge unfinished features into the `develop` branch (following the steps [outline above](#workflow)) so others can build off their work, but keep them hidden from your users and testers behind feature flags. Enable the flag in development to use the feature without the changes affecting anyone else. Once the feature is finished, you can remove the flags or use them to roll out to selected users and testers.
 
 ## Code Standards
 
@@ -184,3 +185,16 @@ These styles should be **flat**/**stateless** and not bound by any form of funct
 - **Flat re-usable styles** should be defined in **camelCase** to differentiate.
 
   - For example: `<div css={bannerSizing}/>`
+
+## Release Process
+
+Thanks to [Lerna and Commitizen](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits), we can generate version bumps and CHANGELOGs for each package and release automatically.
+
+1. Assuming that all changes to be released have followed the [Git Workflow outlined above](#workflow), raise a pull request from [`develop` into `master`](https://github.com/coingaming/sportsbet-design/compare/master...develop).
+2. Ensure the pull request is up to date with `master`.
+3. Obtain at least 1 approval.
+4. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/sportsbet-design).
+
+   - If successful, a new [tag](https://github.com/coingaming/sportsbet-design/releases) will be visible, along with new package versions on NPM.
+
+5. Communicate the release to the team!

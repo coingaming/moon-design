@@ -6,6 +6,9 @@
   },
   "references": [
     {
+      "path": "../assets"
+    },
+    {
       "path": "../tokens"
     }
   ],

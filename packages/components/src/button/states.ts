@@ -1,4 +1,4 @@
-export type ButtonMockState = "active" | "focus";
+export type ButtonMockState = 'active' | 'focus';
 
 /**
  * buttonMockStateClass
@@ -9,8 +9,8 @@ export type ButtonMockState = "active" | "focus";
  */
 export const buttonMockStateClass = (state: ButtonMockState) =>
   ({
-    active: "is-active",
-    focus: "has-focus"
+    active: 'is-active',
+    focus: 'has-focus',
   }[state]);
 
 /**
@@ -20,16 +20,16 @@ export const buttonMockStateClass = (state: ButtonMockState) =>
  */
 export const buttonActive = (styles: object) => ({
   [`
-    &.${buttonMockStateClass("active")},
-    &.${buttonMockStateClass("focus")},
+    &.${buttonMockStateClass('active')},
+    &.${buttonMockStateClass('focus')},
     &:hover,
     &:active,
     &:focus
   `]: {
-    "&:not([disabled])": {
-      ...styles
-    }
-  }
+    '&:not([disabled])': {
+      ...styles,
+    },
+  },
 });
 
 /**
@@ -39,9 +39,9 @@ export const buttonActive = (styles: object) => ({
  */
 export const buttonFocus = (styles: object) => ({
   [`
-    &.${buttonMockStateClass("focus")},
+    &.${buttonMockStateClass('focus')},
     &:focus
   `]: {
-    ...styles
-  }
+    ...styles,
+  },
 });
