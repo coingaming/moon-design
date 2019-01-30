@@ -1,13 +1,16 @@
 import { colors } from './packages/tokens/lib';
 
 module.exports = {
-  title: 'Sportsbet',
+  title: 'Sportsbet.io Design',
   menu: ['Introduction', 'Tokens', 'Utils', 'Global', 'Components'],
   typescript: true,
   codeSandbox: false,
   wrapper: '.docz/wrapper',
   hashRouter: true,
   public: './packages/assets/src',
+  htmlContext: {
+    favicon: 'https://sportsbet.io/assets/favicons/favicon.ico',
+  },
   themeConfig: {
     mode: 'dark',
     colors: {
