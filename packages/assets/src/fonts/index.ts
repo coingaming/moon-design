@@ -1,7 +1,4 @@
-/*
-  Folder 'public' is configured in doczrc.js file
-*/
-const cdnUrl = 'public';
+import { cdnUrl } from '../';
 
 export const fontUrls = {
   AvertaStd: {
