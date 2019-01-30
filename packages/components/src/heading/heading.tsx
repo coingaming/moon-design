@@ -6,12 +6,12 @@ jsx;
 
 export type HeadingProps = {
   size: HeadingSizes;
-  element: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p';
+  element?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p';
   color?: string;
 };
 
 export const Heading: React.SFC<HeadingProps> = ({
-  element,
+  element = 'p',
   size,
   color,
   ...rest
@@ -23,6 +23,5 @@ export const Heading: React.SFC<HeadingProps> = ({
 };
 
 Heading.defaultProps = {
-  element: 'p',
   color: 'inherit',
 };
