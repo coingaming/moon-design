@@ -10,7 +10,7 @@ export type ButtonMockState = 'active' | 'focus';
 export const buttonMockStateClass = (state: ButtonMockState) =>
   ({
     active: 'is-active',
-    focus: 'has-focus'
+    focus: 'has-focus',
   }[state]);
 
 /**
@@ -27,9 +27,9 @@ export const buttonActive = (styles: object) => ({
     &:focus
   `]: {
     '&:not([disabled])': {
-      ...styles
-    }
-  }
+      ...styles,
+    },
+  },
 });
 
 /**
@@ -42,6 +42,6 @@ export const buttonFocus = (styles: object) => ({
     &.${buttonMockStateClass('focus')},
     &:focus
   `]: {
-    ...styles
-  }
+    ...styles,
+  },
 });
