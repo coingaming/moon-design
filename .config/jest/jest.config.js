@@ -5,7 +5,7 @@ module.exports = {
   projects: ['<rootDir>/packages/*/jest.config.js'],
   globals: {
     'ts-jest': {
-      tsConfig: 'packages/tsconfig.json'
-    }
-  }
+      tsConfig: 'packages/tsconfig.json',
+    },
+  },
 };

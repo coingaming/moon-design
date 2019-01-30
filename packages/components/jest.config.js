@@ -5,5 +5,5 @@ module.exports = {
   ...base,
   roots: ['<rootDir>/packages/components'],
   name: package.name,
-  displayName: package.name
+  displayName: package.name,
 };

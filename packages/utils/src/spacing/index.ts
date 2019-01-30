@@ -2,7 +2,7 @@ import { rem } from 'polished';
 import {
   base,
   Spacing as SpacingTokens,
-  spacing as spacingTokens
+  spacing as spacingTokens,
 } from '@heathmont/sportsbet-tokens';
 
 export const spacing = (size: keyof SpacingTokens = 'default', unit?: string) =>
