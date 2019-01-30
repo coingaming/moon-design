@@ -20,7 +20,7 @@ const cardColors = {
   light: '#8f8f8f',
   mid: '#3a3a3a',
   background: colors.neutral[80],
-  transparent: 'rgba(0, 0, 0, 0)'
+  transparent: 'rgba(0, 0, 0, 0)',
 };
 
 export const cardGradient = css`

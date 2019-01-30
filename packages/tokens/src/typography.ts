@@ -7,14 +7,14 @@ type FontWeight = {
 const fontWeight: FontWeight = {
   normal: 400,
   semibold: 600,
-  bold: 700
+  bold: 700,
 };
 
 /**
  * Exports
  */
 const typography = {
-  fontWeight
+  fontWeight,
 };
 
 export { FontWeight, typography };
