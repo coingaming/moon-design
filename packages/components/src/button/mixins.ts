@@ -11,7 +11,7 @@ import { spacing } from '@heathmont/sportsbet-utils';
 export const buttonShadow = (color: string) =>
   css({
     outline: 'none',
-    boxShadow: `0 0 ${spacing('default', 'px')} ${color}`
+    boxShadow: `0 0 ${spacing('default', 'px')} ${color}`,
   });
 
 /**
@@ -30,22 +30,22 @@ const colorDisabledText = '#677278';
 
 export const buttonDisabled = (key: DisabledStyle) => {
   const disabledBase = css({
-    cursor: 'not-allowed'
+    cursor: 'not-allowed',
   });
 
   const disabledVariants = {
     solid: css({
       backgroundColor: colorDisabled,
-      color: colorDisabledText
+      color: colorDisabledText,
     }),
     border: css({
       backgroundColor: 'transparent',
       borderColor: colorDisabled,
-      color: colorDisabled
-    })
+      color: colorDisabled,
+    }),
   };
 
   return css({
-    '&:disabled, &[disabled]': [disabledBase, disabledVariants[key]]
+    '&:disabled, &[disabled]': [disabledBase, disabledVariants[key]],
   });
 };

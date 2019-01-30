@@ -21,7 +21,7 @@ const cardBase = css({
   ...padding(spacing(), spacing('medium')),
   position: 'relative',
   borderRadius: border.radius.default,
-  backgroundColor: colors.neutral[80]
+  backgroundColor: colors.neutral[80],
 });
 
 /* Modifiers */
@@ -30,13 +30,13 @@ const cardFlex = css({
   flexDirection: 'column',
   flexWrap: 'wrap',
   justifyContent: 'space-between',
-  alignItems: 'alignContent'
+  alignItems: 'alignContent',
 });
 
 const cardOutline = css({
   borderStyle: border.style,
   borderWidth: border.width,
-  borderColor: colors.neutral[50]
+  borderColor: colors.neutral[50],
 });
 
 const cardBack = css({ backgroundColor: colors.neutral[60] });
@@ -45,7 +45,7 @@ const cardShadow = css({ boxShadow: 'rgba(0, 0, 0, 0.25) 4px 4px 12px' });
 const cardModifiers = {
   front: [cardGradient, cardShadow],
   back: [cardBack, cardShadow],
-  outline: cardOutline
+  outline: cardOutline,
 };
 
 /**
@@ -63,5 +63,5 @@ export const Card: React.SFC<CardProps> = ({ children, flex, template }) => {
 
 Card.defaultProps = {
   flex: false,
-  template: 'front'
+  template: 'front',
 };
