@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading Elements renders as <p> if no element prop provided 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 600;
+  font-size: 3.4375rem;
+  line-height: 4.25rem;
+}
+
+<p
+  className="emotion-0"
+>
+  Aplha Heading
+</p>
+`;
+
+exports[`Heading Elements renders as an element if element prop provided 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 600;
+  font-size: 3.4375rem;
+  line-height: 4.25rem;
+}
+
+<h2
+  className="emotion-0"
+>
+  Alpha Heading
+</h2>
+`;
+
+exports[`Heading Sizes alpha size renders properly 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 600;
+  font-size: 3.4375rem;
+  line-height: 4.25rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Aplha Heading
+</h1>
+`;
+
+exports[`Heading Sizes bravo size renders properly 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6875rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Bravo Heading
+</h1>
+`;
+
+exports[`Heading Sizes charlie size renders properly 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 400;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Charlie Heading
+</h1>
+`;
+
+exports[`Heading Sizes delta size renders properly 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 600;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Delta Heading
+</h1>
+`;
+
+exports[`Heading Sizes echo size renders properly 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2.1875rem;
+  line-height: 2.6875rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Echo Heading
+</h1>
+`;
+
+exports[`Heading Sizes foxtrot size renders properly 1`] = `
+.emotion-0 {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  line-height: 2.5625rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Foxtrot Heading
+</h1>
+`;
+
+exports[`Heading renders with a color 1`] = `
+.emotion-0 {
+  color: #0cd664;
+  font-weight: 600;
+  font-size: 3.4375rem;
+  line-height: 4.25rem;
+}
+
+<h1
+  className="emotion-0"
+>
+  Aplha Heading
+</h1>
+`;
