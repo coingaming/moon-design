@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/coingaming/sportsbet-design/compare/v0.0.3...v0.1.0) (2019-01-30)
+
+
+### Bug Fixes
+
+* **button:** amend README import path ([b3968da](https://github.com/coingaming/sportsbet-design/commit/b3968da))
+
+
+### Features
+
+* **headings:** introduce headings, initial commit ([09a99e1](https://github.com/coingaming/sportsbet-design/commit/09a99e1))
+* **link:** create link component ([c1359f1](https://github.com/coingaming/sportsbet-design/commit/c1359f1))
+* Added sending messages to slack ([c23366f](https://github.com/coingaming/sportsbet-design/commit/c23366f))
+* Added workflow to build and deploy tagged images ([1ff1142](https://github.com/coingaming/sportsbet-design/commit/1ff1142))
+* Dropped updating develop on publish ([82b5e4e](https://github.com/coingaming/sportsbet-design/commit/82b5e4e))
+
+
+
+
+
 ## [0.0.3](https://github.com/coingaming/sportsbet-design/compare/v0.0.2...v0.0.3) (2019-01-25)
 
 ### Bug Fixes
