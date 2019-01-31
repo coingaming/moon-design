@@ -2,7 +2,7 @@ import { rem } from 'polished';
 import { css } from '@emotion/core';
 import { typography } from '@heathmont/sportsbet-tokens';
 
-export type HeadingSizes =
+type HeadingSizes =
   | 'alpha'
   | 'bravo'
   | 'charlie'
@@ -46,7 +46,7 @@ const foxtrot = css({
   lineHeight: rem(41),
 });
 
-export const headingSizes = {
+const headingSizes = {
   alpha,
   bravo,
   charlie,
@@ -54,3 +54,5 @@ export const headingSizes = {
   echo,
   foxtrot,
 };
+
+export { headingSizes, HeadingSizes };

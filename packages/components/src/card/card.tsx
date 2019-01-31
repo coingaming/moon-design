@@ -6,7 +6,7 @@ import { border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { cardGradient } from './utils';
 
-export type CardProps = {
+type CardProps = {
   template: 'front' | 'back' | 'outline';
   children: JSX.Element[] | JSX.Element;
   flex?: boolean;
@@ -51,7 +51,7 @@ const cardModifiers = {
 /**
  * Component
  */
-export const Card: React.SFC<CardProps> = ({ children, flex, template }) => {
+const Card: React.SFC<CardProps> = ({ children, flex, template }) => {
   const Card = styled('div')(
     cardBase,
     flex && cardFlex,
@@ -65,3 +65,5 @@ Card.defaultProps = {
   flex: false,
   template: 'front',
 };
+
+export { Card, CardProps };
