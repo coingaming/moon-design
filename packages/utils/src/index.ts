@@ -1,2 +1,2 @@
-export { mq } from './mq';
-export { spacing } from './spacing';
+export * from './mq';
+export * from './spacing';

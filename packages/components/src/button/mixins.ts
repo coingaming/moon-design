@@ -8,7 +8,7 @@ import { spacing } from '@heathmont/sportsbet-utils';
  * Removes user-agent `:focus` styles and generates a box-shadow using the
  * color provided.
  */
-export const buttonShadow = (color: string) =>
+const buttonShadow = (color: string) =>
   css({
     outline: 'none',
     boxShadow: `0 0 ${spacing('default', 'px')} ${color}`,
@@ -28,7 +28,7 @@ type DisabledStyle = 'solid' | 'border';
 const colorDisabled = '#414f57';
 const colorDisabledText = '#677278';
 
-export const buttonDisabled = (key: DisabledStyle) => {
+const buttonDisabled = (key: DisabledStyle) => {
   const disabledBase = css({
     cursor: 'not-allowed',
   });
@@ -49,3 +49,5 @@ export const buttonDisabled = (key: DisabledStyle) => {
     '&:disabled, &[disabled]': [disabledBase, disabledVariants[key]],
   });
 };
+
+export { buttonShadow, buttonDisabled };
