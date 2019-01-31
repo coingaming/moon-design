@@ -9,7 +9,7 @@ import { buttonDisabled } from './mixins';
 import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { buttonMockStateClass, ButtonMockState } from './states';
 
-export type ButtonProps = {
+type ButtonProps = {
   href?: string;
   modifier: ButtonModifiers;
   disabled?: boolean;
@@ -50,7 +50,7 @@ const buttonSpaced = css({
 /**
  * Component
  */
-export const Button: React.SFC<ButtonProps> = props => {
+const Button: React.SFC<ButtonProps> = props => {
   const ButtonElement = !props.href ? 'button' : 'a';
 
   /**
@@ -77,3 +77,5 @@ export const Button: React.SFC<ButtonProps> = props => {
 Button.defaultProps = {
   modifier: 'primary',
 };
+
+export { Button, ButtonProps };

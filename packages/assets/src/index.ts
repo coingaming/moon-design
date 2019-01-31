@@ -1,2 +1,2 @@
-export { cdnUrl } from './cdn';
-export { fontUrls } from './fonts';
+export * from './cdn';
+export * from './fonts';
