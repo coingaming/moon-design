@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import * as React from "react";
-import { css, jsx } from "@emotion/core";
-import { colors } from "@heathmont/sportsbet-tokens";
+import * as React from 'react';
+import { css, jsx } from '@emotion/core';
+import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
 
-export type LinkProps = {
+type LinkProps = {
   href?: string;
   disabled?: boolean;
 };
@@ -14,35 +14,37 @@ export type LinkProps = {
  */
 const linkBase = css([
   {
-    display: "inline-block",
+    display: 'inline-block',
     margin: 0,
     padding: 0,
-    verticalAlign: "middle",
-    font: "inherit",
+    verticalAlign: 'middle',
+    font: 'inherit',
     color: colors.brand,
-    backgroundColor: "transparent",
+    backgroundColor: 'transparent',
     border: 0,
-    cursor: "pointer",
-    textDecoration: "none",
-    "&:hover, &:focus, &:active": {
-      color: colors.highlight
+    cursor: 'pointer',
+    textDecoration: 'none',
+    '&:hover, &:focus, &:active': {
+      color: colors.highlight,
     },
-    "&:disabled, &[disabled]": {
+    '&:disabled, &[disabled]': {
       color: colors.neutral[30],
-      cursor: "not-allowed"
-    }
-  }
+      cursor: 'not-allowed',
+    },
+  },
 ]);
 
 /**
  * Component
  */
-export const Link: React.SFC<LinkProps> = ({ href, ...props }) => {
-  const LinkElement = !href ? "button" : "a";
+const Link: React.SFC<LinkProps> = ({ href, ...props }) => {
+  const LinkElement = !href ? 'button' : 'a';
 
   return jsx(LinkElement, {
     href: href || undefined,
     css: linkBase,
-    ...props
+    ...props,
   });
 };
+
+export { Link, LinkProps };

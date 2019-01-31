@@ -7,14 +7,14 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 jsx;
 
-export type Balance = {
+type Balance = {
   currency: string;
   value: number;
   unit: string;
   unitTitle?: string;
 };
 
-export type CardBalanceProps = {
+type CardBalanceProps = {
   from: Balance;
   to: Balance;
 };
@@ -45,7 +45,7 @@ const Text = styled.p({
 /**
  * Component
  */
-export const CardBalance: React.SFC<CardBalanceProps> = ({ from, to }) => {
+const CardBalance: React.SFC<CardBalanceProps> = ({ from, to }) => {
   return (
     <div>
       <Text>{from.currency}</Text>
@@ -64,3 +64,5 @@ export const CardBalance: React.SFC<CardBalanceProps> = ({ from, to }) => {
     </div>
   );
 };
+
+export { CardBalance, CardBalanceProps };

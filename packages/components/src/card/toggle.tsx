@@ -4,7 +4,7 @@ import { css, jsx } from '@emotion/core';
 import { spacing } from '@heathmont/sportsbet-utils';
 jsx;
 
-export type CardToggleProps = {
+type CardToggleProps = {
   back?: boolean;
 };
 
@@ -27,7 +27,7 @@ const cardToggle = css({
 /**
  * Component
  */
-export const CardToggle: React.SFC<CardToggleProps> = ({ back }) => {
+const CardToggle: React.SFC<CardToggleProps> = ({ back }) => {
   const icon = !back ? '⚙️' : '↩️';
 
   return <button css={cardToggle}>{icon}</button>;
@@ -36,3 +36,5 @@ export const CardToggle: React.SFC<CardToggleProps> = ({ back }) => {
 CardToggle.defaultProps = {
   back: false,
 };
+
+export { CardToggle, CardToggleProps };
