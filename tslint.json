@@ -1,6 +1,3 @@
-/**
- * 1. Disabled due to: https://github.com/Microsoft/tslint-microsoft-contrib/issues/409
- */
 {
   "extends": ["tslint-config-airbnb", "tslint-config-prettier"],
   "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
@@ -19,7 +16,7 @@
     "react-a11y-lang": true,
     "react-a11y-props": true,
     "react-a11y-proptypes": true,
-    "react-a11y-role-has-required-aria-props": false /* [1] */,
+    "react-a11y-role-has-required-aria-props": false,
     "react-a11y-role-supports-aria-props": true,
     "react-a11y-role": true,
     "react-a11y-tabindex-no-positive": true,
