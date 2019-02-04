@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { padding, rem } from 'polished';
@@ -8,14 +7,13 @@ import { cardGradient } from './utils';
 
 type CardProps = {
   template: 'front' | 'back' | 'outline';
-  children: JSX.Element[] | JSX.Element;
   flex?: boolean;
 };
 
 /**
  * Styles
  */
-const cardBase = css({
+const card = css({
   display: 'block',
   minHeight: rem(170),
   ...padding(spacing(), spacing('medium')),
@@ -51,19 +49,10 @@ const cardModifiers = {
 /**
  * Component
  */
-const Card: React.SFC<CardProps> = ({ children, flex, template }) => {
-  const Card = styled('div')(
-    cardBase,
-    flex && cardFlex,
-    cardModifiers[template]
-  );
-
-  return <Card>{children}</Card>;
-};
-
-Card.defaultProps = {
-  flex: false,
-  template: 'front',
-};
+const Card = styled.div<CardProps>(({ flex, template }) => [
+  card,
+  flex && cardFlex,
+  cardModifiers[template || 'front'],
+]);
 
 export { Card, CardProps };
