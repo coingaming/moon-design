@@ -37,7 +37,7 @@ const linkBase = css([
 /**
  * Component
  */
-const Link: React.SFC<LinkProps> = ({ href, ...props }) => {
+const Link: React.FC<LinkProps> = ({ href, ...props }) => {
   const LinkElement = !href ? 'button' : 'a';
 
   return jsx(LinkElement, {
