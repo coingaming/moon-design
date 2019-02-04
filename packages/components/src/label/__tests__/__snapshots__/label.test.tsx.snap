@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders above input 1`] = `
+.emotion-0 {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-1 {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-right: 2.625rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #8697a2;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  border-color: #304854;
+  color: #304854;
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+<label>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
+
+exports[`Label renders as flex adjusts input's flex-grow when defined 1`] = `
+.emotion-1 {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-right: 2.625rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #8697a2;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  border-color: #304854;
+  color: #304854;
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+.emotion-0 {
+  padding-right: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width:31.25em) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .emotion-2 select,
+  .emotion-2 input {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+}
+
+<label
+  className="emotion-2"
+>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
+
+exports[`Label renders as flex adjusts input's flex-grow when defined 2`] = `
+.emotion-1 {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-right: 2.625rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #8697a2;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  border-color: #304854;
+  color: #304854;
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+.emotion-0 {
+  padding-right: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width:31.25em) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .emotion-2 select,
+  .emotion-2 input {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+  }
+}
+
+<label
+  className="emotion-2"
+>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
+
+exports[`Label renders as flex equal spacing by default 1`] = `
+.emotion-1 {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-right: 2.625rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #8697a2;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  border-color: #304854;
+  color: #304854;
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+@media (min-width:31.25em) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .emotion-2 select,
+  .emotion-2 input {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.emotion-0 {
+  padding-right: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<label
+  className="emotion-2"
+>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
