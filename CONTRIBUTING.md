@@ -71,7 +71,7 @@ Long-lived feature branches present problems when you need to build code on top 
 
 All features should attempt to conform to as many items on The A11Y Project's [Web Accessibility Checklist](https://a11yproject.com/checklist) as possible. If a checkbox can't be completed, the justification should be documented for future reference.
 
-As part of our TypeScript linting process, we make use of [`react-a11y` rules](https://github.com/reactjs/react-a11y) (surfaced via [`tslint-microsoft-contrib`](https://github.com/Microsoft/tslint-microsoft-contrib)) to catch any common issues.
+As part of our TypeScript linting process, we make use of [`react-a11y` rules](https://github.com/reactjs/react-a11y) (surfaced via [`tslint-microsoft-contrib`](https://github.com/Microsoft/tslint-microsoft-contrib)) to catch any common issues. `react-a11y-role-has-required-aria-props` is currently disabled for [incorrect results](https://github.com/Microsoft/tslint-microsoft-contrib/issues/409).
 
 ### Mobile First
 
