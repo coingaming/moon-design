@@ -1,0 +1,65 @@
+---
+name: Label
+menu: Components
+route: /components/label
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Label } from './';
+import { Select } from '../';
+
+# Label
+
+Captions to offer contextual information for form inputs.
+
+By default, a label will sit above the input:
+
+<Playground>
+  <Label text="Hi I'm a label">
+    <Select>
+      <option value="">Select an option</option>
+      <option value="never-gonna">Never gonna</option>
+      <option value="give-you-up">give you up</option>
+      <option value="let-you-down">let you down</option>
+    </Select>
+  </Label>
+</Playground>
+
+## Flex
+
+On larger screens, Labels and inputs can be displayed alongside eachother via the `flex` prop, filling available space **evenly**.
+
+The input's [`flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow) value can be modified via `inputGrow`.
+
+<Playground>
+  <Label flex text="Hi I'm a label">
+    <Select>
+      <option value="">Select an option</option>
+      <option value="never-gonna">Never gonna</option>
+      <option value="give-you-up">give you up</option>
+      <option value="let-you-down">let you down</option>
+    </Select>
+  </Label>
+
+<Label flex inputGrow="2" text="Hi I'm a label">
+  <Select>
+    <option value="">Select an option</option>
+    <option value="never-gonna">Never gonna</option>
+    <option value="give-you-up">give you up</option>
+    <option value="let-you-down">let you down</option>
+  </Select>
+</Label>
+
+  <Label flex inputGrow="3" text="Hi I'm a label">
+    <Select>
+      <option value="">Select an option</option>
+      <option value="never-gonna">Never gonna</option>
+      <option value="give-you-up">give you up</option>
+      <option value="let-you-down">let you down</option>
+    </Select>
+  </Label>
+</Playground>
+
+## Props
+
+<PropsTable of={Label} />
