@@ -6,7 +6,7 @@
     "build": "tsc -b",
     "clean": "rm -rf ./packages/*/lib ./packages/*/dist ./packages/*/.cache",
     "nuke": "yarn clean && rm -rf node_modules/",
-    "format": "prettier --write --single-quote --trailing-comma es5",
+    "format": "prettier --write",
     "lint:ts-validate": "tslint-config-prettier-check ./tslint.json",
     "lint:ts": "lerna run lint:ts --stream --parallel",
     "test": "jest --config .config/jest/jest.config.js --verbose",
