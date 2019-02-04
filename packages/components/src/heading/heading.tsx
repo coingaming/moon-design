@@ -10,7 +10,7 @@ type HeadingProps = {
   color?: string;
 };
 
-const Heading: React.SFC<HeadingProps> = ({
+const Heading: React.FC<HeadingProps> = ({
   element = 'p',
   size,
   color,
