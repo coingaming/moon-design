@@ -3,11 +3,7 @@ import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { buttonShadow, buttonDisabled } from './mixins';
 import { buttonActive, buttonFocus } from './states';
 
-export type ButtonModifiers =
-  | 'primary'
-  | 'secondary'
-  | 'optional'
-  | 'alternate';
+type ButtonModifiers = 'primary' | 'secondary' | 'optional' | 'alternate';
 
 /**
  * buttonModifiers
@@ -79,9 +75,11 @@ const alternate = css([
   }),
 ]);
 
-export const buttonModifiers = {
+const buttonModifiers = {
   primary,
   secondary,
   optional,
   alternate,
 };
+
+export { buttonModifiers, ButtonModifiers };
