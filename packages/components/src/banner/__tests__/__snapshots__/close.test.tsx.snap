@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerToggle renders properly 1`] = `
+.emotion-0 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-size: 1.875rem;
+  color: #8697a2;
+}
+
+@media (min-width:31.25em) {
+  .emotion-0 {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+<button
+  className="emotion-0"
+>
+  ×
+</button>
+`;
