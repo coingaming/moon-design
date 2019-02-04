@@ -1,2 +1,3 @@
-export { mq } from './mq';
-export { spacing } from './spacing';
+export * from './background';
+export * from './mq';
+export * from './spacing';

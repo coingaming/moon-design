@@ -1,4 +1,4 @@
-export type ButtonMockState = 'active' | 'focus';
+type ButtonMockState = 'active' | 'focus';
 
 /**
  * buttonMockStateClass
@@ -7,7 +7,7 @@ export type ButtonMockState = 'active' | 'focus';
  * traditional CSS `:state` selectors. This allows us to mock the appearance of
  * a button's state for documentation / purely stylistic purposes.
  */
-export const buttonMockStateClass = (state: ButtonMockState) =>
+const buttonMockStateClass = (state: ButtonMockState) =>
   ({
     active: 'is-active',
     focus: 'has-focus',
@@ -18,7 +18,7 @@ export const buttonMockStateClass = (state: ButtonMockState) =>
  *
  * Wraps styles with the appropriate "active"-style selectors.
  */
-export const buttonActive = (styles: object) => ({
+const buttonActive = (styles: object) => ({
   [`
     &.${buttonMockStateClass('active')},
     &.${buttonMockStateClass('focus')},
@@ -37,7 +37,7 @@ export const buttonActive = (styles: object) => ({
  *
  * Wraps styles with the appropriate "focus"-style selectors.
  */
-export const buttonFocus = (styles: object) => ({
+const buttonFocus = (styles: object) => ({
   [`
     &.${buttonMockStateClass('focus')},
     &:focus
@@ -45,3 +45,5 @@ export const buttonFocus = (styles: object) => ({
     ...styles,
   },
 });
+
+export { ButtonMockState, buttonMockStateClass, buttonActive, buttonFocus };

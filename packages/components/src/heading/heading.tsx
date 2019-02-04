@@ -4,13 +4,13 @@ import { jsx } from '@emotion/core';
 import { headingSizes, HeadingSizes } from './sizes';
 jsx;
 
-export type HeadingProps = {
+type HeadingProps = {
   size: HeadingSizes;
   element?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p';
   color?: string;
 };
 
-export const Heading: React.SFC<HeadingProps> = ({
+const Heading: React.SFC<HeadingProps> = ({
   element = 'p',
   size,
   color,
@@ -25,3 +25,5 @@ export const Heading: React.SFC<HeadingProps> = ({
 Heading.defaultProps = {
   color: 'inherit',
 };
+
+export { Heading, HeadingProps };
