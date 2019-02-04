@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@heathmont/sportsbet-wip-cashier",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -16,10 +16,10 @@
   "dependencies": {
     "@emotion/core": "10.0.6",
     "@emotion/styled": "10.0.6",
-    "@heathmont/sportsbet-components": "^0.1.0",
-    "@heathmont/sportsbet-global": "^0.1.0",
-    "@heathmont/sportsbet-tokens": "^0.1.0",
-    "@heathmont/sportsbet-utils": "^0.1.0",
+    "@heathmont/sportsbet-components": "^0.2.0",
+    "@heathmont/sportsbet-global": "^0.2.0",
+    "@heathmont/sportsbet-tokens": "^0.2.0",
+    "@heathmont/sportsbet-utils": "^0.2.0",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
     "react": "16.7.0",

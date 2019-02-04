@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/coingaming/sportsbet-design/compare/v0.1.0...v0.2.0) (2019-02-04)
+
+
+### Bug Fixes
+
+* **prettier:** use .prettierrc to support IDE plugins ([1b7a8b8](https://github.com/coingaming/sportsbet-design/commit/1b7a8b8))
+* **tslint:** remove faulty aria rule ([6ace7a6](https://github.com/coingaming/sportsbet-design/commit/6ace7a6))
+
+
+### Features
+
+* **backgroundSVG:** helper for inline SVG backgroundImages ([f6a8b35](https://github.com/coingaming/sportsbet-design/commit/f6a8b35))
+* **label:** add label component ([4aacd6a](https://github.com/coingaming/sportsbet-design/commit/4aacd6a))
+* **select:** add select component ([fdb3c83](https://github.com/coingaming/sportsbet-design/commit/fdb3c83))
+
+
+
+
+
 # [0.1.0](https://github.com/coingaming/sportsbet-design/compare/v0.0.3...v0.1.0) (2019-01-30)
 
 
