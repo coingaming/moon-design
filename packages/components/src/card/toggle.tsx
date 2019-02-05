@@ -27,7 +27,7 @@ const cardToggle = css({
 /**
  * Component
  */
-const CardToggle: React.SFC<CardToggleProps> = ({ back }) => {
+const CardToggle: React.FC<CardToggleProps> = ({ back }) => {
   const icon = !back ? '⚙️' : '↩️';
 
   return <button css={cardToggle}>{icon}</button>;
