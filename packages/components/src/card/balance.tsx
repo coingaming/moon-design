@@ -45,7 +45,7 @@ const Text = styled.p({
 /**
  * Component
  */
-const CardBalance: React.SFC<CardBalanceProps> = ({ from, to }) => {
+const CardBalance: React.FC<CardBalanceProps> = ({ from, to }) => {
   return (
     <div>
       <Text>{from.currency}</Text>
