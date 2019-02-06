@@ -4,8 +4,9 @@ import { css, jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import { padding, rem } from 'polished';
 import { breakpoints, border } from '@heathmont/sportsbet-tokens';
-import { backgroundSVG, mq } from '@heathmont/sportsbet-utils';
-import { IconDown, IconUpDown } from './icons';
+import { inlineSVG, mq } from '@heathmont/sportsbet-utils';
+import { IconChevronDown, IconChevronUpDown } from '../';
+
 import {
   inputColors,
   inputSpacing,
@@ -38,7 +39,7 @@ const select = css({
   borderWidth: border.width,
   borderColor: inputColors.border,
   borderRadius: border.radius.small,
-  ...backgroundSVG(IconDown(inputColors.icon)),
+  backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
   backgroundPosition: `right ${rem(inputIconSize)} center`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: rem(inputIconSize),
@@ -47,7 +48,9 @@ const select = css({
   },
   '&:disabled': {
     cursor: 'not-allowed',
-    ...backgroundSVG(IconDown(inputColors.disabled)),
+    backgroundImage: inlineSVG(
+      <IconChevronDown color={inputColors.disabled} />
+    ),
     borderColor: inputColors.disabled,
     color: inputColors.disabled,
   },
@@ -65,9 +68,11 @@ const selectShort = css({
   paddingBottom: rem(inputSpacing.y * 2),
   color: 'white',
   backgroundSize: `auto ${rem(inputIconSize)}`,
-  ...backgroundSVG(IconUpDown(inputColors.icon)),
+  backgroundImage: inlineSVG(<IconChevronUpDown color={inputColors.icon} />),
   '&:disabled': {
-    ...backgroundSVG(IconUpDown(inputColors.disabled)),
+    backgroundImage: inlineSVG(
+      <IconChevronUpDown color={inputColors.disabled} />
+    ),
   },
 });
 
