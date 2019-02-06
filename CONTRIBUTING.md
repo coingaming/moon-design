@@ -3,6 +3,7 @@
 ## Contents
 
 1. [When does a component go in the design system?](#when-does-a-component-go-in-the-design-system)
+1. [Maintaining Assets](#maintaining-assets)
 1. [Git Strategy](#git-strategy)
 1. [Code Standards](#code-standards)
 1. [Code Style](#code-style)
@@ -13,6 +14,37 @@
 ## When does a component go in the design system?
 
 [Does It Belong in the System?](https://medium.com/eightshapes-llc/i-made-this-does-it-go-in-the-system-3b67b9894531)
+
+## Maintaining Assets
+
+### Icons
+
+#### Designing
+
+Icons are designed in the [`.sketch` file](packages/assets/src/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/assets/src/icons/svg) directory.
+
+Each icon **must**:
+
+- have it's own `20×20` artboard.
+- contain only one exportable layer, which has:
+  1. a single path or group.
+  1. a kebab-case layer name prefixed with `icon-`
+     - this is essential for the [build step](#building).
+  1. the export format defined as "SVG".
+- have its color fill set to `#000000`.
+
+Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/assets/src/icons/svg) directory as the output location.
+
+#### Building
+
+For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
+
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/src/icons/svg) to React components in [`components/icons`](packages/components/src/icons/svg).
+
+To update/add icons run: `yarn components build:icons`
+
+- Runs SVGR based on the [config options](packages/components/src/icons/config/svgr.js).
+- Builds React `.tsx` files for each component with the [template](packages/components/src/icons/config/template.js).
 
 ## Git Strategy
 

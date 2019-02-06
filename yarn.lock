@@ -1641,6 +1641,23 @@
     "@svgr/babel-plugin-transform-react-native-svg" "^4.0.0"
     "@svgr/babel-plugin-transform-svg-component" "^4.1.0"
 
+"@svgr/cli@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@svgr/cli/-/cli-4.1.0.tgz#2b70a6e76e9b245750dd95a63c9597fc352beccd"
+  integrity sha512-WE2Dieui4+yLUGlhB9nRy7Iu8bOmjmucW5blnUTy7oEqCdqe1/Zxle1k8nSkkKyJW84Kv75L7E/Rf7oMWBa2yw==
+  dependencies:
+    "@svgr/core" "^4.1.0"
+    "@svgr/plugin-jsx" "^4.1.0"
+    "@svgr/plugin-prettier" "^4.0.3"
+    "@svgr/plugin-svgo" "^4.0.3"
+    camelcase "^5.0.0"
+    chalk "^2.4.1"
+    commander "^2.19.0"
+    dashify "^2.0.0"
+    glob "^7.1.3"
+    output-file-sync "^2.0.1"
+    recursive-readdir "^2.2.2"
+
 "@svgr/core@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@svgr/core/-/core-4.1.0.tgz#4f8ad24fb4ab25c787c12a6bbb511c6430558f83"
@@ -1668,6 +1685,14 @@
     rehype-parse "^6.0.0"
     unified "^7.0.2"
     vfile "^3.0.1"
+
+"@svgr/plugin-prettier@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@svgr/plugin-prettier/-/plugin-prettier-4.0.3.tgz#dfae58687da37f3a5ffe6e0f2521a89fb026e366"
+  integrity sha512-/Ncb5r8MF58en0PuHODsZdFVPMNmALKs72tX41cry5aqjewG4za6d1OHKBjXw2bn55DGc8uBPECTZPUzH5RcBg==
+  dependencies:
+    merge-deep "^3.0.2"
+    prettier "^1.15.2"
 
 "@svgr/plugin-svgo@^4.0.3":
   version "4.0.3"
@@ -4286,6 +4311,11 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+dashify@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dashify/-/dashify-2.0.0.tgz#fff270ca2868ca427fee571de35691d6e437a648"
+  integrity sha512-hpA5C/YrPjucXypHPPc0oJ1l9Hf6wWbiOL7Ik42cxnsUOhWiCB/fylKbKqqJalW9FgkNQCw16YO8uW9Hs0Iy1A==
 
 data-urls@^1.0.0:
   version "1.1.0"
@@ -9580,6 +9610,15 @@ osenv@0, osenv@^0.1.4, osenv@^0.1.5:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
+output-file-sync@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/output-file-sync/-/output-file-sync-2.0.1.tgz#f53118282f5f553c2799541792b723a4c71430c0"
+  integrity sha512-mDho4qm7WgIXIGf4eYU1RHN2UU5tPfVYVSRwDJw0uTmj35DQUt/eNp19N7v6T3SrR0ESTEf2up2CGO73qI35zQ==
+  dependencies:
+    graceful-fs "^4.1.11"
+    is-plain-obj "^1.1.0"
+    mkdirp "^0.5.1"
+
 p-defer@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
@@ -10638,6 +10677,11 @@ prettier@1.15.3, prettier@^1.15.3:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
   integrity sha512-gAU9AGAPMaKb3NNSUUuhhFAS7SCO4ALTN4nRIn6PJ075Qd28Yn2Ig2ahEJWdJwJmlEBTUfC7mMUSFy8MwsOCfg==
 
+prettier@^1.15.2:
+  version "1.16.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
+  integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
+
 pretty-format@^23.6.0:
   version "23.6.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-23.6.0.tgz#5eaac8eeb6b33b987b7fe6097ea6a8a146ab5760"
@@ -11341,7 +11385,7 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recursive-readdir@2.2.2:
+recursive-readdir@2.2.2, recursive-readdir@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/recursive-readdir/-/recursive-readdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
   integrity sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
