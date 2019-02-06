@@ -4,12 +4,10 @@ import { jsx, css } from '@emotion/core';
 import { rem } from 'polished';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { Toggle } from '../';
+import { IconClose, Toggle } from '../';
 jsx;
 
 const bannerToggle = css({
-  lineHeight: rem(16),
-  fontSize: rem(30),
   color: colors.neutral[20],
   [mq(breakpoints.small)]: {
     top: spacing('medium'),
@@ -22,7 +20,7 @@ const BannerToggle: React.FC<
 > = props => {
   return (
     <Toggle css={bannerToggle} {...props}>
-      ×
+      <IconClose />
     </Toggle>
   );
 };
