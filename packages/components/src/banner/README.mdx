@@ -1,0 +1,88 @@
+---
+name: Banner
+menu: Components
+route: /components/banner
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Banner, BannerToggle } from './index.ts';
+import { Button, Heading } from '../';
+
+# Banner
+
+A banner displays an important message and related optional actions.
+
+## Vertical
+
+<Playground>
+  <Banner>
+    Icon
+    <Heading size="foxtrot" element="h2">
+      Need help?
+    </Heading>
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+    <Button fullWidth modifier="secondary">
+      Buy bitcoins
+    </Button>
+  </Banner>
+</Playground>
+
+## Horizontal
+
+Use `horizontal` to set a horizontal direction
+
+<Playground>
+  <Banner horizontal>
+    <p>Don't have any bitcoins?</p>
+    <Button fullWidth modifier="secondary">
+      Buy bitcoins
+    </Button>
+  </Banner>
+</Playground>
+
+## Closable banner
+
+It also provides actions for users to dismiss the banner via `BannerToggle` component.
+It requires a user action to be dismissed.
+
+<Playground>
+  <Banner horizontal>
+    <p>Don't have any bitcoins?</p>
+    <Button fullWidth modifier="secondary">
+      Buy bitcoins
+    </Button>
+    <BannerToggle
+      onClick={() => {
+        console.log('Closed');
+      }}
+    >
+      x
+    </BannerToggle>
+  </Banner>
+</Playground>
+
+<Playground>
+  <Banner>
+    Icon
+    <Heading size="foxtrot" element="h2">
+      Need help?
+    </Heading>
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+    <Button fullWidth modifier="secondary">
+      Buy bitcoins
+    </Button>
+    <BannerToggle
+      onClick={() => {
+        console.log('Closed');
+      }}
+    />
+  </Banner>
+</Playground>
+
+## Props
+
+<PropsTable of={Banner} />

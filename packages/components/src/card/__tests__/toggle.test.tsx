@@ -3,7 +3,7 @@ import { create } from 'react-test-renderer';
 import { CardToggle } from '../';
 
 describe('CardToggle', () => {
-  test('renders correctly', () => {
+  test('renders with settings icon by default', () => {
     const toggle = create(<CardToggle />);
 
     expect(toggle).toMatchSnapshot();
