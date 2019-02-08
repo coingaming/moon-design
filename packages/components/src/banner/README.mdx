@@ -5,22 +5,15 @@ route: /components/banner
 ---
 
 import { Playground, PropsTable } from 'docz';
-import {
-  Banner,
-  BannerToggle,
-  Button,
-  Heading,
-} from '@heathmont/sportsbet-components';
+import { Button, Heading } from '@heathmont/sportsbet-components';
+import { Banner, BannerToggle } from './';
 
 # Banner
 
-A banner displays an important message and related optional actions.
-
-## Vertical
+Banners are generic containers for displaying important information to the user. They usually contain a heading, descriptive text and a call to action.
 
 <Playground>
   <Banner>
-    Icon
     <Heading size="foxtrot" element="h2">
       Need help?
     </Heading>
@@ -28,14 +21,14 @@ A banner displays an important message and related optional actions.
       If you require any assistance our 24/7 live chat support is here to help
     </p>
     <Button fullWidth modifier="secondary">
-      Buy bitcoins
+      Contact Us
     </Button>
   </Banner>
 </Playground>
 
 ## Horizontal
 
-Use `horizontal` to set a horizontal direction
+Banner content can also be switched to a `horizontal` orientation.
 
 <Playground>
   <Banner horizontal>
@@ -46,36 +39,13 @@ Use `horizontal` to set a horizontal direction
   </Banner>
 </Playground>
 
-## Closable banner
+## Closeable
 
-It also provides actions for users to dismiss the banner via `BannerToggle` component.
-It requires a user action to be dismissed.
+`BannerToggle` (an extension of `Toggle`) can be used to offer users with the option to close a Banner.
 
 <Playground>
   <Banner horizontal>
     <p>Don't have any bitcoins?</p>
-    <Button fullWidth modifier="secondary">
-      Buy bitcoins
-    </Button>
-    <BannerToggle
-      onClick={() => {
-        console.log('Closed');
-      }}
-    >
-      x
-    </BannerToggle>
-  </Banner>
-</Playground>
-
-<Playground>
-  <Banner>
-    Icon
-    <Heading size="foxtrot" element="h2">
-      Need help?
-    </Heading>
-    <p>
-      If you require any assistance our 24/7 live chat support is here to help
-    </p>
     <Button fullWidth modifier="secondary">
       Buy bitcoins
     </Button>
@@ -87,6 +57,21 @@ It requires a user action to be dismissed.
   </Banner>
 </Playground>
 
-## Props
-
-<PropsTable of={Banner} />
+<Playground>
+  <Banner>
+    <Heading size="foxtrot" element="h2">
+      Need help?
+    </Heading>
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+    <Button fullWidth modifier="secondary">
+      Contact Us
+    </Button>
+    <BannerToggle
+      onClick={() => {
+        console.log('Closed');
+      }}
+    />
+  </Banner>
+</Playground>
