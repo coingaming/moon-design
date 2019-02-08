@@ -9,7 +9,7 @@
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
   "dependencies": {
-    "@emotion/core": "10.0.6",
+    "@emotion/core": "10.0.7",
     "@heathmont/sportsbet-tokens": "^0.2.0",
     "polished": "2.3.3"
   }
