@@ -5,10 +5,9 @@ import { Button } from '../../button';
 import { Heading } from '../../heading/heading';
 
 describe('Banner', () => {
-  test('renders correctly', () => {
+  test('renders vertically by default', () => {
     const banner = create(
       <Banner>
-        Icon
         <Heading size="foxtrot" element="h2">
           Need help?
         </Heading>
@@ -16,8 +15,8 @@ describe('Banner', () => {
           If you require any assistance our 24/7 live chat support is here to
           help
         </p>
-        <Button fullWidth={true} modifier="secondary">
-          Buy bitcoins
+        <Button fullWidth modifier="secondary">
+          Contact Us
         </Button>
       </Banner>
     );
@@ -39,7 +38,7 @@ describe('Banner', () => {
   });
 
   describe('Closable', () => {
-    test('Closable horizontal banner renders properly', () => {
+    test('renders with default vertical layout', () => {
       const banner = create(
         <Banner horizontal>
           <p>Don't have any bitcoins?</p>
@@ -57,10 +56,9 @@ describe('Banner', () => {
       expect(banner).toMatchSnapshot();
     });
 
-    test('Closable vertical banner renders properly', () => {
+    test('renders with horizontal layout', () => {
       const banner = create(
         <Banner>
-          Icon
           <Heading size="foxtrot" element="h2">
             Need help?
           </Heading>
@@ -69,7 +67,7 @@ describe('Banner', () => {
             help
           </p>
           <Button fullWidth modifier="secondary">
-            Buy bitcoins
+            Contact Us
           </Button>
           <BannerToggle
             onClick={() => {
@@ -81,48 +79,5 @@ describe('Banner', () => {
 
       expect(banner).toMatchSnapshot();
     });
-
-    test('Closable element can be placed anywhere within vertical Banner', () => {
-      const banner = create(
-        <Banner>
-          Icon
-          <Heading size="foxtrot" element="h2">
-            Need help?
-          </Heading>
-          <p>
-            If you require any assistance our 24/7 live chat support is here to
-            help
-          </p>
-          <BannerToggle
-            onClick={() => {
-              console.log('Closed');
-            }}
-          />
-          <Button fullWidth modifier="secondary">
-            Buy bitcoins
-          </Button>
-        </Banner>
-      );
-
-      expect(banner).toMatchSnapshot();
-    });
-  });
-
-  test('Closable element can be placed anywhere within horizontal Banner', () => {
-    const banner = create(
-      <Banner horizontal>
-        <BannerToggle
-          onClick={() => {
-            console.log('Closed');
-          }}
-        />
-        <p>Don't have any bitcoins?</p>
-        <Button fullWidth modifier="secondary">
-          Buy bitcoins
-        </Button>
-      </Banner>
-    );
-
-    expect(banner).toMatchSnapshot();
   });
 });

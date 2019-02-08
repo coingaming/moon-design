@@ -5,9 +5,15 @@ route: /components/card
 ---
 
 import { Playground, PropsTable } from 'docz';
-import { spacing } from '../../../utils';
-import { Label, Link, Select } from '../';
-import { Card, CardBalance, CardToggle } from './';
+import { spacing } from '@heathmont/sportsbet-utils';
+import {
+  Card,
+  CardBalance,
+  CardToggle,
+  Label,
+  Link,
+  Select,
+} from '@heathmont/sportsbet-components';
 
 # Card
 
@@ -105,6 +111,8 @@ Displays the original and converted wallet balance.
 <PropsTable of={CardBalance} />
 
 ### Toggle
+
+An extension of `Toggle` that can be used to offer users with the option to toggle between 'settings' and to go `back` to the front of the Card.
 
 <Playground>
   <CardToggle />
