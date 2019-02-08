@@ -14,6 +14,7 @@
     "docz:build": "yarn build && docz build",
     "docz:serve": "cd .docz/dist && python -m SimpleHTTPServer 3000",
     "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream",
+    "components": "lerna run --scope @heathmont/sportsbet-components --stream",
     "publish:packages": "lerna publish --yes"
   },
   "workspaces": [
@@ -64,6 +65,7 @@
     "lint-staged": "8.1.0",
     "prettier": "1.15.3",
     "react-test-renderer": "16.7.0",
+    "@svgr/cli": "4.1.0",
     "ts-jest": "23.10.5",
     "tslint": "5.12.0",
     "tslint-config-airbnb": "5.11.1",

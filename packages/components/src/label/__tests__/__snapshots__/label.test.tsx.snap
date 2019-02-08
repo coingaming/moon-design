@@ -22,7 +22,7 @@ exports[`Label renders above input 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -35,7 +35,7 @@ exports[`Label renders above input 1`] = `
 
 .emotion-1:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -96,7 +96,7 @@ exports[`Label renders as flex adjusts input's flex-grow when defined 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -109,7 +109,7 @@ exports[`Label renders as flex adjusts input's flex-grow when defined 1`] = `
 
 .emotion-1:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -199,7 +199,7 @@ exports[`Label renders as flex adjusts input's flex-grow when defined 2`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -212,7 +212,7 @@ exports[`Label renders as flex adjusts input's flex-grow when defined 2`] = `
 
 .emotion-1:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -302,7 +302,7 @@ exports[`Label renders as flex equal spacing by default 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -315,7 +315,7 @@ exports[`Label renders as flex equal spacing by default 1`] = `
 
 .emotion-1:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
