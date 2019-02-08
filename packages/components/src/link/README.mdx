@@ -4,16 +4,16 @@ menu: Components
 route: /components/link
 ---
 
-import { Playground, PropsTable } from 'docs';
 import { Link } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Link
 
 Links are used to navigate users through the user-interface via anchors or embedded actions.
 
-<Playground>
-  <Link href="#">I'm a link</Link>
-</Playground>
+```jsx react-live
+<Link href="#">I'm a link</Link>
+```
 
 ## Elements
 
@@ -21,19 +21,19 @@ Links are used to navigate users through the user-interface via anchors or embed
 
 Sometimes it might make more semantic sense to render the Link as a `<button>` element. This can be achieved by **removing** the `href="<url>"` attribute.
 
-<Playground>
-  <Link>I look like a link, but really I'm a button</Link>
-</Playground>
+```jsx react-live
+<Link>I look like a link, but really I'm a button</Link>
+```
 
 ## Disabled
 
 Links that cannot be selected can be given a disabled state.
 
-<Playground>
-  <Link href="#" disabled>
-    I'm a disabled link
-  </Link>
-</Playground>
+```jsx react-live
+<Link href="#" disabled>
+  I'm a disabled link
+</Link>
+```
 
 ## Props
 

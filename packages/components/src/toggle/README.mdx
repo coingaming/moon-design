@@ -4,9 +4,8 @@ menu: Components
 route: /components/toggle
 ---
 
-import { Playground, PropsTable } from 'docs';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { IconClose, Toggle } from '@heathmont/sportsbet-components';
+import { Toggle } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Toggle
 
@@ -14,11 +13,11 @@ A basic 'bare' button that pins itself to the top right of its parent element.
 
 It typically contains an Icon that indicates changing a component's state.
 
-<Playground>
-  <Toggle>
-    <IconClose color={colors.neutral[20]} />
-  </Toggle>
-</Playground>
+```jsx react-live
+<Toggle>
+  <IconClose color={colors.neutral[20]} />
+</Toggle>
+```
 
 ## Props
 
