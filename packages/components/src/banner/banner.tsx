@@ -40,15 +40,11 @@ const BannerItem = styled.div<BannerProps>(({ horizontal }) => [
     : { width: '100%', ':not(:last-child)': { marginBottom: spacing() } },
 ]);
 
-const Banner: React.FC<BannerProps> = ({ children, horizontal }) => {
+const Banner: React.FC<BannerProps> = ({ children, horizontal = false }) => {
   const BannerItems = React.Children.map(children, child => (
     <BannerItem horizontal={horizontal}>{child}</BannerItem>
   ));
   return <StyledBanner horizontal={horizontal}>{BannerItems}</StyledBanner>;
-};
-
-Banner.defaultProps = {
-  horizontal: false,
 };
 
 export { Banner, BannerProps };
