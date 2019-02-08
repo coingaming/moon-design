@@ -47,4 +47,4 @@ const Banner: React.FC<BannerProps> = ({ children, horizontal = false }) => {
   return <StyledBanner horizontal={horizontal}>{BannerItems}</StyledBanner>;
 };
 
-export { Banner, BannerProps };
+export { Banner };
