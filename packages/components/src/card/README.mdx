@@ -4,16 +4,8 @@ menu: Components
 route: /components/card
 ---
 
-import { Playground, PropsTable } from 'docs';
-import { spacing } from '@heathmont/sportsbet-utils';
-import {
-  Card,
-  CardBalance,
-  CardToggle,
-  Label,
-  Link,
-  Select,
-} from '@heathmont/sportsbet-components';
+import { Card, CardBalance, CardToggle } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Card
 
@@ -25,66 +17,66 @@ Containers for mixed content and media about a single subject.
 
 Default template, using the `flex` layout modifier to balance space between items.
 
-<Playground>
-  <Card flex>
-    <CardToggle />
-    <CardBalance
-      from={{
-        currency: 'Bitcoin',
-        value: 1526.56,
-        unit: 'mBTC',
-        unitTitle: 'Millibitcoin',
-      }}
-      to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
-    />
-    <div>
-      <Link style={{ marginRight: spacing() }}>Deposit</Link>
-      <Link disabled>Withdraw</Link>
-    </div>
-  </Card>
-</Playground>
+```jsx react-live
+<Card flex>
+  <CardToggle />
+  <CardBalance
+    from={{
+      currency: 'Bitcoin',
+      value: 1526.56,
+      unit: 'mBTC',
+      unitTitle: 'Millibitcoin',
+    }}
+    to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
+  />
+  <div>
+    <Link style={{ marginRight: spacing() }}>Deposit</Link>
+    <Link disabled>Withdraw</Link>
+  </div>
+</Card>
+```
 
 ### Back
 
 The other 'flipped' side of the card.
 
-<Playground>
-  <Card template="back">
-    <CardToggle back />
-    <form>
-      <ul>
-        <li>
-          <Label text="Converted currency">
-            <Select short>
-              <option value="euro">Euro</option>
-              <option value="gbp">GBP</option>
-              <option value="usd">USD</option>
-            </Select>
-          </Label>
-        </li>
-        <li>
-          <Label text="Balance in">
-            <Select short>
-              <option value="euro">mBTC</option>
-              <option value="gbp">Doge</option>
-              <option value="usd">Ethereum</option>
-            </Select>
-          </Label>
-        </li>
-      </ul>
-    </form>
-  </Card>
-</Playground>
+```jsx react-live
+<Card template="back">
+  <CardToggle back />
+  <form>
+    <ul>
+      <li>
+        <Label text="Converted currency">
+          <Select short>
+            <option value="euro">Euro</option>
+            <option value="gbp">GBP</option>
+            <option value="usd">USD</option>
+          </Select>
+        </Label>
+      </li>
+      <li>
+        <Label text="Balance in">
+          <Select short>
+            <option value="euro">mBTC</option>
+            <option value="gbp">Doge</option>
+            <option value="usd">Ethereum</option>
+          </Select>
+        </Label>
+      </li>
+    </ul>
+  </form>
+</Card>
+```
 
 ### Outline
 
 An 'empty' ghost outline of the card.
 
-<Playground>
-  <Card template="outline">
-    <button>+ Add Wallet</button>
-  </Card>
-</Playground>
+```jsx react-live
+<Card template="outline">
+  <button>+ Add Wallet</button>
+</Card>
+```
 
 ## Props
 
@@ -96,17 +88,17 @@ An 'empty' ghost outline of the card.
 
 Displays the original and converted wallet balance.
 
-<Playground>
-  <CardBalance
-    from={{
-      currency: 'Bitcoin',
-      value: 1526.56,
-      unit: 'mBTC',
-      unitTitle: 'Millibitcoin',
-    }}
-    to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
-  />
-</Playground>
+```jsx react-live
+<CardBalance
+  from={{
+    currency: 'Bitcoin',
+    value: 1526.56,
+    unit: 'mBTC',
+    unitTitle: 'Millibitcoin',
+  }}
+  to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
+/>
+```
 
 <PropsTable of={CardBalance} />
 
@@ -114,8 +106,8 @@ Displays the original and converted wallet balance.
 
 An extension of `Toggle` that can be used to offer users with the option to toggle between 'settings' and to go `back` to the front of the Card.
 
-<Playground>
-  <CardToggle />
-</Playground>
+```jsx react-live
+<CardToggle />
+```
 
 <PropsTable of={CardToggle} />

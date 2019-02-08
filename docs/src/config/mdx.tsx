@@ -1,9 +1,11 @@
 /** @jsx jsx */ jsx;
 import { jsx, css } from '@emotion/core';
 import styled from '@emotion/styled';
+import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link } from '@heathmont/sportsbet-components';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 import * as Utils from '@heathmont/sportsbet-utils';
+import { Code } from '../components/code';
 import { Children } from '../types';
 
 const verticalRhythm = css({
@@ -24,22 +26,6 @@ const Table = styled.table([
     },
     'th, td': {
       padding: `${Utils.spacing('small')} 0`,
-    },
-  },
-  maxWidth,
-  verticalRhythm,
-]);
-
-const Pre = styled.pre([
-  {
-    backgroundColor: colors.neutral[90],
-    borderRadius: border.radius.small,
-    padding: Utils.spacing(),
-    width: '100%',
-    overflowX: 'auto',
-    code: {
-      overflowWrap: 'normal',
-      whiteSpace: 'pre',
     },
   },
   maxWidth,
@@ -74,11 +60,10 @@ export const mdxComponents = {
   p: ({ children }: Children) => (
     <p css={[verticalRhythm, maxWidth]}>{children}</p>
   ),
-  a: ({ children, ...props }: Children) => (
-    <Link css={css({ verticalAlign: 'unset' })} {...props}>
-      {children}
-    </Link>
-  ),
+  a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
   table: ({ children }: Children) => <Table>{children}</Table>,
-  pre: ({ children }: Children) => <Pre>{children}</Pre>,
+  pre: (props: any) => {
+    const codeProps = preToCodeBlock(props);
+    return codeProps ? <Code {...codeProps} /> : <pre {...props} />;
+  },
 };
