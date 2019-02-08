@@ -67,9 +67,9 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
 
 Our project's style guide is built using the [Docz](https://www.docz.site) framework, and can be run as follows:
 
-- `yarn docz:dev` - spins up a hot reloading Docz environment at [127.0.0.1:3000](http://127.0.0.1:3000/).
-- `yarn docz:build` - generates a static production build of the style guide in `.docz/dist`.
-- `yarn docz:serve` - serves files created by the build script.
+- `yarn docs:dev` - spins up a hot reloading Docz environment at [localhost:8000](http://localhost:8000/).
+- `yarn docs:build` - generates a static production build of the style guide in `.docz/dist`.
+- `yarn docs:serve` - serves files created by the build script at [localhost:9000](http://localhost:9000/).
 
 ### Cashier
 
