@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
-import { Toggle } from '../';
+import { IconLeftArrowCurveRight, IconSettings, Toggle } from '../';
+import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
 
 type CardToggleProps = {
@@ -12,16 +13,14 @@ type CardToggleProps = {
  * Styles
  */
 const cardToggle = css({
-  /* Temporary styles until Icons implemented */
-  fontSize: '0.9rem',
-  lineHeight: '1.4rem',
+  color: colors.neutral[20],
 });
 
 /**
  * Component
  */
 const CardToggle: React.FC<CardToggleProps> = ({ back }) => {
-  const icon = !back ? '⚙️' : '↩️';
+  const icon = !back ? <IconSettings /> : <IconLeftArrowCurveRight />;
 
   return <Toggle css={cardToggle}>{icon}</Toggle>;
 };
