@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Banner Closable Closable element can be placed anywhere within vertical Banner 1`] = `
-.emotion-8 {
+.emotion-4 {
+  vertical-align: middle;
+}
+
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -51,7 +55,7 @@ exports[`Banner Closable Closable element can be placed anywhere within vertical
   line-height: 2.5625rem;
 }
 
-.emotion-6 {
+.emotion-7 {
   padding: 0.5rem 1.5rem;
   display: inline-block;
   vertical-align: middle;
@@ -74,38 +78,38 @@ exports[`Banner Closable Closable element can be placed anywhere within vertical
   width: 100%;
 }
 
-.emotion-6:disabled,
-.emotion-6[disabled] {
+.emotion-7:disabled,
+.emotion-7[disabled] {
   cursor: not-allowed;
   background-color: #414f57;
   color: #677278;
 }
 
-.emotion-6.is-active:not([disabled]),
-.emotion-6.has-focus:not([disabled]),
-.emotion-6:hover:not([disabled]),
-.emotion-6:active:not([disabled]),
-.emotion-6:focus:not([disabled]) {
+.emotion-7.is-active:not([disabled]),
+.emotion-7.has-focus:not([disabled]),
+.emotion-7:hover:not([disabled]),
+.emotion-7:active:not([disabled]),
+.emotion-7:focus:not([disabled]) {
   color: #00e865;
   background-color: transparent;
   border-color: #00e865;
 }
 
-.emotion-6.has-focus,
-.emotion-6:focus {
+.emotion-7.has-focus,
+.emotion-7:focus {
   outline: none;
   box-shadow: 0 0 16px #0cd664;
 }
 
-.emotion-6:disabled,
-.emotion-6[disabled] {
+.emotion-7:disabled,
+.emotion-7[disabled] {
   cursor: not-allowed;
   background-color: transparent;
   border-color: #414f57;
   color: #414f57;
 }
 
-.emotion-4 {
+.emotion-5 {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -114,20 +118,18 @@ exports[`Banner Closable Closable element can be placed anywhere within vertical
   cursor: pointer;
   border: none;
   font-size: 1rem;
-  line-height: 1rem;
-  font-size: 1.875rem;
   color: #8697a2;
 }
 
 @media (min-width:31.25em) {
-  .emotion-4 {
+  .emotion-5 {
     top: 1.5rem;
     right: 1.5rem;
   }
 }
 
 <div
-  className="emotion-8"
+  className="emotion-9"
 >
   <div
     className="emotion-0"
@@ -154,17 +156,29 @@ exports[`Banner Closable Closable element can be placed anywhere within vertical
     className="emotion-0"
   >
     <button
-      className="emotion-4"
+      className="emotion-5"
       onClick={[Function]}
     >
-      ×
+      <svg
+        className="emotion-4"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
     </button>
   </div>
   <div
     className="emotion-0"
   >
     <button
-      className="emotion-6"
+      className="emotion-7"
       fullWidth={true}
       modifier="secondary"
     >
@@ -175,6 +189,10 @@ exports[`Banner Closable Closable element can be placed anywhere within vertical
 `;
 
 exports[`Banner Closable Closable horizontal banner renders properly 1`] = `
+.emotion-3 {
+  vertical-align: middle;
+}
+
 .emotion-1 {
   padding: 0.5rem 1.5rem;
   display: inline-block;
@@ -229,7 +247,7 @@ exports[`Banner Closable Closable horizontal banner renders properly 1`] = `
   color: #414f57;
 }
 
-.emotion-5 {
+.emotion-6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -268,7 +286,7 @@ exports[`Banner Closable Closable horizontal banner renders properly 1`] = `
   padding: 1rem 1.5rem;
 }
 
-.emotion-3 {
+.emotion-4 {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -277,20 +295,18 @@ exports[`Banner Closable Closable horizontal banner renders properly 1`] = `
   cursor: pointer;
   border: none;
   font-size: 1rem;
-  line-height: 1rem;
-  font-size: 1.875rem;
   color: #8697a2;
 }
 
 @media (min-width:31.25em) {
-  .emotion-3 {
+  .emotion-4 {
     top: 1.5rem;
     right: 1.5rem;
   }
 }
 
 <div
-  className="emotion-5"
+  className="emotion-6"
 >
   <div
     className="emotion-0"
@@ -314,17 +330,33 @@ exports[`Banner Closable Closable horizontal banner renders properly 1`] = `
     className="emotion-0"
   >
     <button
-      className="emotion-3"
+      className="emotion-4"
       onClick={[Function]}
     >
-      ×
+      <svg
+        className="emotion-3"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
     </button>
   </div>
 </div>
 `;
 
 exports[`Banner Closable Closable vertical banner renders properly 1`] = `
-.emotion-8 {
+.emotion-6 {
+  vertical-align: middle;
+}
+
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -428,7 +460,7 @@ exports[`Banner Closable Closable vertical banner renders properly 1`] = `
   color: #414f57;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -437,20 +469,18 @@ exports[`Banner Closable Closable vertical banner renders properly 1`] = `
   cursor: pointer;
   border: none;
   font-size: 1rem;
-  line-height: 1rem;
-  font-size: 1.875rem;
   color: #8697a2;
 }
 
 @media (min-width:31.25em) {
-  .emotion-6 {
+  .emotion-7 {
     top: 1.5rem;
     right: 1.5rem;
   }
 }
 
 <div
-  className="emotion-8"
+  className="emotion-9"
 >
   <div
     className="emotion-0"
@@ -488,17 +518,33 @@ exports[`Banner Closable Closable vertical banner renders properly 1`] = `
     className="emotion-0"
   >
     <button
-      className="emotion-6"
+      className="emotion-7"
       onClick={[Function]}
     >
-      ×
+      <svg
+        className="emotion-6"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
     </button>
   </div>
 </div>
 `;
 
 exports[`Banner Closable element can be placed anywhere within horizontal Banner 1`] = `
-.emotion-3 {
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-4 {
   padding: 0.5rem 1.5rem;
   display: inline-block;
   vertical-align: middle;
@@ -521,38 +567,38 @@ exports[`Banner Closable element can be placed anywhere within horizontal Banner
   width: 100%;
 }
 
-.emotion-3:disabled,
-.emotion-3[disabled] {
+.emotion-4:disabled,
+.emotion-4[disabled] {
   cursor: not-allowed;
   background-color: #414f57;
   color: #677278;
 }
 
-.emotion-3.is-active:not([disabled]),
-.emotion-3.has-focus:not([disabled]),
-.emotion-3:hover:not([disabled]),
-.emotion-3:active:not([disabled]),
-.emotion-3:focus:not([disabled]) {
+.emotion-4.is-active:not([disabled]),
+.emotion-4.has-focus:not([disabled]),
+.emotion-4:hover:not([disabled]),
+.emotion-4:active:not([disabled]),
+.emotion-4:focus:not([disabled]) {
   color: #00e865;
   background-color: transparent;
   border-color: #00e865;
 }
 
-.emotion-3.has-focus,
-.emotion-3:focus {
+.emotion-4.has-focus,
+.emotion-4:focus {
   outline: none;
   box-shadow: 0 0 16px #0cd664;
 }
 
-.emotion-3:disabled,
-.emotion-3[disabled] {
+.emotion-4:disabled,
+.emotion-4[disabled] {
   cursor: not-allowed;
   background-color: transparent;
   border-color: #414f57;
   color: #414f57;
 }
 
-.emotion-5 {
+.emotion-6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -582,7 +628,7 @@ exports[`Banner Closable element can be placed anywhere within horizontal Banner
   border-radius: 4px;
 }
 
-.emotion-1 {
+.emotion-2 {
   -webkit-box-flex: 2;
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
@@ -591,7 +637,7 @@ exports[`Banner Closable element can be placed anywhere within horizontal Banner
   padding: 1rem 1.5rem;
 }
 
-.emotion-0 {
+.emotion-1 {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -600,43 +646,53 @@ exports[`Banner Closable element can be placed anywhere within horizontal Banner
   cursor: pointer;
   border: none;
   font-size: 1rem;
-  line-height: 1rem;
-  font-size: 1.875rem;
   color: #8697a2;
 }
 
 @media (min-width:31.25em) {
-  .emotion-0 {
+  .emotion-1 {
     top: 1.5rem;
     right: 1.5rem;
   }
 }
 
 <div
-  className="emotion-5"
+  className="emotion-6"
 >
   <div
-    className="emotion-1"
+    className="emotion-2"
   >
     <button
-      className="emotion-0"
+      className="emotion-1"
       onClick={[Function]}
     >
-      ×
+      <svg
+        className="emotion-0"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
     </button>
   </div>
   <div
-    className="emotion-1"
+    className="emotion-2"
   >
     <p>
       Don't have any bitcoins?
     </p>
   </div>
   <div
-    className="emotion-1"
+    className="emotion-2"
   >
     <button
-      className="emotion-3"
+      className="emotion-4"
       fullWidth={true}
       modifier="secondary"
     >

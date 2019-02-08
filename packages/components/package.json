@@ -7,6 +7,7 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
+    "build:icons": "npx @svgr/cli --ext tsx --config-file src/icons/config/svgr.js -d src/icons/svg ../assets/src/icons/svg",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix",
     "test": "jest"
   },
