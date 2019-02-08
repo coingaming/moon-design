@@ -14,16 +14,16 @@
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
   "dependencies": {
-    "@emotion/core": "10.0.6",
-    "@emotion/styled": "10.0.6",
+    "@emotion/core": "10.0.7",
+    "@emotion/styled": "10.0.7",
     "@heathmont/sportsbet-components": "^0.2.0",
     "@heathmont/sportsbet-global": "^0.2.0",
     "@heathmont/sportsbet-tokens": "^0.2.0",
     "@heathmont/sportsbet-utils": "^0.2.0",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
-    "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "react": "16.8.1",
+    "react-dom": "16.8.1"
   },
   "devDependencies": {
     "parcel-bundler": "1.11.0"
