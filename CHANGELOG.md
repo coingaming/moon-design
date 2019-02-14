@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/coingaming/sportsbet-design/compare/v0.2.0...v0.3.0) (2019-02-14)
+
+
+### Bug Fixes
+
+* **tokens:** fix main entry point ([4d94d6b](https://github.com/coingaming/sportsbet-design/commit/4d94d6b))
+
+
+### Features
+
+* add node version/nvm support ([42f4d3f](https://github.com/coingaming/sportsbet-design/commit/42f4d3f))
+* **banner:** introduce banner ([19fda4c](https://github.com/coingaming/sportsbet-design/commit/19fda4c))
+
+
+
+
+
 # [0.2.0](https://github.com/coingaming/sportsbet-design/compare/v0.1.0...v0.2.0) (2019-02-04)
 
 
