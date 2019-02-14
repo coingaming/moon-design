@@ -30,6 +30,8 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
 
 ### Prerequisites
 
+- [Node](https://nodejs.org/en/)
+  - If you're using [NVM](https://github.com/creationix/nvm), run `nvm use` inside the repository.
 - [Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
 
 ### Setup
