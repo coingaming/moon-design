@@ -21,7 +21,7 @@ type ButtonProps = {
 /**
  * Styles
  */
-const buttonBase = css([
+const button = css([
   {
     padding: `${spacing('small')} ${spacing('medium')}`,
     display: 'inline-block',
@@ -50,7 +50,7 @@ const buttonSpaced = css({
 /**
  * Component
  */
-const Button: React.SFC<ButtonProps> = props => {
+const Button: React.FC<ButtonProps> = props => {
   const ButtonElement = !props.href ? 'button' : 'a';
 
   /**
@@ -64,7 +64,7 @@ const Button: React.SFC<ButtonProps> = props => {
    */
   return jsx(ButtonElement, {
     css: [
-      buttonBase,
+      button,
       props.spaced && buttonSpaced,
       props.modifier && buttonModifiers[props.modifier],
       props.fullWidth && { width: '100%' },

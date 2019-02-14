@@ -17,7 +17,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -25,7 +25,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
   padding-bottom: 1rem;
   color: white;
   background-size: auto 0.625rem;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="%23586a74" fill-rule="evenodd" d="M8.68825093 10L5.0005735 13.50679444l-3.6885151-3.50671415L0 11.24991257 5.0003677 16 10 11.24891398zM8.68825093 6L5.00057346 2.49320556 1.31205841 5.99991971 0 4.75008743 5.00036775 0 10 4.75108602z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
 }
 
 .emotion-0:hover,
@@ -35,7 +35,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
 
 .emotion-0:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -47,7 +47,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
 }
 
 .emotion-0:disabled {
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="%23304854" fill-rule="evenodd" d="M8.68825093 10L5.0005735 13.50679444l-3.6885151-3.50671415L0 11.24991257 5.0003677 16 10 11.24891398zM8.68825093 6L5.00057346 2.49320556 1.31205841 5.99991971 0 4.75008743 5.00036775 0 10 4.75108602z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
 }
 
 <select
@@ -88,7 +88,7 @@ exports[`Select renders a select input with options 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -101,7 +101,7 @@ exports[`Select renders a select input with options 1`] = `
 
 .emotion-0:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -155,7 +155,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -163,7 +163,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
   padding-bottom: 1rem;
   color: white;
   background-size: auto 0.625rem;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="%23586a74" fill-rule="evenodd" d="M8.68825093 10L5.0005735 13.50679444l-3.6885151-3.50671415L0 11.24991257 5.0003677 16 10 11.24891398zM8.68825093 6L5.00057346 2.49320556 1.31205841 5.99991971 0 4.75008743 5.00036775 0 10 4.75108602z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
 }
 
 .emotion-0:hover,
@@ -173,7 +173,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
 
 .emotion-0:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -185,7 +185,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
 }
 
 .emotion-0:disabled {
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="%23304854" fill-rule="evenodd" d="M8.68825093 10L5.0005735 13.50679444l-3.6885151-3.50671415L0 11.24991257 5.0003677 16 10 11.24891398zM8.68825093 6L5.00057346 2.49320556 1.31205841 5.99991971 0 4.75008743 5.00036775 0 10 4.75108602z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
 }
 
 <select
@@ -227,7 +227,7 @@ exports[`Select renders as disabled for default select input 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -240,7 +240,7 @@ exports[`Select renders as disabled for default select input 1`] = `
 
 .emotion-0:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
@@ -295,7 +295,7 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -303,7 +303,7 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
   padding-bottom: 1rem;
   color: white;
   background-size: auto 0.625rem;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="%23586a74" fill-rule="evenodd" d="M8.68825093 10L5.0005735 13.50679444l-3.6885151-3.50671415L0 11.24991257 5.0003677 16 10 11.24891398zM8.68825093 6L5.00057346 2.49320556 1.31205841 5.99991971 0 4.75008743 5.00036775 0 10 4.75108602z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
 }
 
 .emotion-0:hover,
@@ -313,13 +313,13 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
 
 .emotion-0:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
 
 .emotion-0:disabled {
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="%23304854" fill-rule="evenodd" d="M8.68825093 10L5.0005735 13.50679444l-3.6885151-3.50671415L0 11.24991257 5.0003677 16 10 11.24891398zM8.68825093 6L5.00057346 2.49320556 1.31205841 5.99991971 0 4.75008743 5.00036775 0 10 4.75108602z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
 }
 
 <select
@@ -360,7 +360,7 @@ exports[`Select renders as full-width for default select input 1`] = `
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23586a74" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
@@ -373,7 +373,7 @@ exports[`Select renders as full-width for default select input 1`] = `
 
 .emotion-0:disabled {
   cursor: not-allowed;
-  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="%23304854" fill-rule="evenodd"  d="M8.68825093 0L5.00057346 3.50679444 1.31205841.00008029 0 1.24991257 5.00036775 6 10 1.24891398z"/></svg>');
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   border-color: #304854;
   color: #304854;
 }
