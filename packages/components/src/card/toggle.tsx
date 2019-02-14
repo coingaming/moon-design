@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { IconLeftArrowCurveRight, IconSettings, Toggle } from '../';
+import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
 
 type CardToggleProps = {
@@ -12,29 +13,20 @@ type CardToggleProps = {
  * Styles
  */
 const cardToggle = css({
-  position: 'absolute',
-  top: spacing(),
-  right: spacing(),
-  background: 'none',
-  padding: 0,
-  cursor: 'pointer',
-  border: 'none',
-  /* Temporary styles until Icons implemented */
-  fontSize: '0.9rem',
-  lineHeight: '1.4rem',
+  color: colors.neutral[20],
 });
 
 /**
  * Component
  */
-const CardToggle: React.SFC<CardToggleProps> = ({ back }) => {
-  const icon = !back ? '⚙️' : '↩️';
+const CardToggle: React.FC<CardToggleProps> = ({ back }) => {
+  const icon = !back ? <IconSettings /> : <IconLeftArrowCurveRight />;
 
-  return <button css={cardToggle}>{icon}</button>;
+  return <Toggle css={cardToggle}>{icon}</Toggle>;
 };
 
 CardToggle.defaultProps = {
   back: false,
 };
 
-export { CardToggle, CardToggleProps };
+export { CardToggle };

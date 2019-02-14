@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-tokens",
   "version": "0.2.0",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "mBet Solutions N.V.",

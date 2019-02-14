@@ -5,7 +5,15 @@ route: /components/card
 ---
 
 import { Playground, PropsTable } from 'docz';
-import { Card, CardBalance, CardToggle } from './index.ts';
+import { spacing } from '@heathmont/sportsbet-utils';
+import {
+  Card,
+  CardBalance,
+  CardToggle,
+  Label,
+  Link,
+  Select,
+} from '@heathmont/sportsbet-components';
 
 # Card
 
@@ -29,8 +37,10 @@ Default template, using the `flex` layout modifier to balance space between item
       }}
       to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
     />
-    <button>Deposit</button>
-    <button>Withdraw</button>
+    <div>
+      <Link style={{ marginRight: spacing() }}>Deposit</Link>
+      <Link disabled>Withdraw</Link>
+    </div>
   </Card>
 </Playground>
 
@@ -44,20 +54,22 @@ The other 'flipped' side of the card.
     <form>
       <ul>
         <li>
-          <label for="currency-converted">Converted currency</label>
-          <select id="currency-converted" name="currency-converted">
-            <option value="euro">Euro</option>
-            <option value="gbp">GBP</option>
-            <option value="usd">USD</option>
-          </select>
+          <Label text="Converted currency">
+            <Select short>
+              <option value="euro">Euro</option>
+              <option value="gbp">GBP</option>
+              <option value="usd">USD</option>
+            </Select>
+          </Label>
         </li>
         <li>
-          <label for="currency-balance">Balance in</label>
-          <select id="currency-balance" name="currency-balance">
-            <option value="euro">mBTC</option>
-            <option value="gbp">Doge</option>
-            <option value="usd">Ethereum</option>
-          </select>
+          <Label text="Balance in">
+            <Select short>
+              <option value="euro">mBTC</option>
+              <option value="gbp">Doge</option>
+              <option value="usd">Ethereum</option>
+            </Select>
+          </Label>
         </li>
       </ul>
     </form>
@@ -99,6 +111,8 @@ Displays the original and converted wallet balance.
 <PropsTable of={CardBalance} />
 
 ### Toggle
+
+An extension of `Toggle` that can be used to offer users with the option to toggle between 'settings' and to go `back` to the front of the Card.
 
 <Playground>
   <CardToggle />

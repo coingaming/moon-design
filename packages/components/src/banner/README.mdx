@@ -1,0 +1,77 @@
+---
+name: Banner
+menu: Components
+route: /components/banner
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Button, Heading } from '@heathmont/sportsbet-components';
+import { Banner, BannerToggle } from './';
+
+# Banner
+
+Banners are generic containers for displaying important information to the user. They usually contain a heading, descriptive text and a call to action.
+
+<Playground>
+  <Banner>
+    <Heading size="foxtrot" element="h2">
+      Need help?
+    </Heading>
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+    <Button fullWidth modifier="secondary">
+      Contact Us
+    </Button>
+  </Banner>
+</Playground>
+
+## Horizontal
+
+Banner content can also be switched to a `horizontal` orientation.
+
+<Playground>
+  <Banner horizontal>
+    <p>Don't have any bitcoins?</p>
+    <Button fullWidth modifier="secondary">
+      Buy bitcoins
+    </Button>
+  </Banner>
+</Playground>
+
+## Closeable
+
+`BannerToggle` (an extension of `Toggle`) can be used to offer users with the option to close a Banner.
+
+<Playground>
+  <Banner horizontal>
+    <p>Don't have any bitcoins?</p>
+    <Button fullWidth modifier="secondary">
+      Buy bitcoins
+    </Button>
+    <BannerToggle
+      onClick={() => {
+        console.log('Closed');
+      }}
+    />
+  </Banner>
+</Playground>
+
+<Playground>
+  <Banner>
+    <Heading size="foxtrot" element="h2">
+      Need help?
+    </Heading>
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+    <Button fullWidth modifier="secondary">
+      Contact Us
+    </Button>
+    <BannerToggle
+      onClick={() => {
+        console.log('Closed');
+      }}
+    />
+  </Banner>
+</Playground>
