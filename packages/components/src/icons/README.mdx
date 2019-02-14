@@ -1,0 +1,57 @@
+---
+name: Icons
+menu: Components
+route: /components/icons
+---
+
+import { Playground, PropsTable } from 'docz';
+import { colors } from '@heathmont/sportsbet-tokens';
+import {
+  IconChevronDown,
+  IconChevronLeft,
+  IconChevronRight,
+  IconChevronUp,
+  IconChevronUpDown,
+  IconClose,
+  IconLeftArrowCurveRight,
+  IconSettings,
+} from '@heathmont/sportsbet-components';
+
+# Icons
+
+Icons offer visual aids for common actions and tasks.
+
+To aid with performance, Icons are surfaced as individual [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) components. Each icon component is prefixed with `Icon`.
+
+<Playground>
+  <IconChevronDown />
+  <IconChevronLeft />
+  <IconChevronRight />
+  <IconChevronUp />
+  <IconChevronUpDown />
+  <IconClose />
+  <IconLeftArrowCurveRight />
+  <IconSettings />
+</Playground>
+
+## Customizing
+
+### Color
+
+Icon colors can be modified by adding the `color` attribute/CSS property to the component or its parent element.
+
+<Playground>
+  <IconSettings color={colors.brand} />
+</Playground>
+
+### Size
+
+Icon size can be modified by adding the `fontSize` attribute or `font-size` CSS property to the component or its parent element.
+
+<Playground>
+  <IconSettings fontSize="40px" />
+</Playground>
+
+## Contributing
+
+For information on creating new/modifying existing icons, see [the contributing guidelines](https://github.com/coingaming/sportsbet-design/blob/develop/CONTRIBUTING.md#maintaining-assets).
