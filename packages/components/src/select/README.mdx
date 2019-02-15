@@ -4,21 +4,21 @@ menu: Components
 route: /components/select
 ---
 
-import { Playground, PropsTable } from 'docs';
 import { Select } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Select
 
 A user-controlled menu of options for forms, navigation and more.
 
-<Playground>
-  <Select>
-    <option value="">Select an option</option>
-    <option value="never-gonna">Never gonna</option>
-    <option value="give-you-up">give you up</option>
-    <option value="let-you-down">let you down</option>
-  </Select>
-</Playground>
+```jsx react-live
+<Select>
+  <option value="">Select an option</option>
+  <option value="never-gonna">Never gonna</option>
+  <option value="give-you-up">give you up</option>
+  <option value="let-you-down">let you down</option>
+</Select>
+```
 
 ## Size
 
@@ -26,26 +26,26 @@ A user-controlled menu of options for forms, navigation and more.
 
 By default, Select stretches to full width on small devices. For Select inputs that need to remain full width on all devices, use the `fullWidth` prop.
 
-<Playground>
-  <Select fullWidth>
-    <option value="">Select an option</option>
-    <option value="never-gonna">Never gonna</option>
-    <option value="give-you-up">give you up</option>
-    <option value="let-you-down">let you down</option>
-  </Select>
-</Playground>
+```jsx react-live
+<Select fullWidth>
+  <option value="">Select an option</option>
+  <option value="never-gonna">Never gonna</option>
+  <option value="give-you-up">give you up</option>
+  <option value="let-you-down">let you down</option>
+</Select>
+```
 
 ### Short
 
 For shorter Select options, such as currency units, make use of the `unit` variant.
 
-<Playground>
-  <Select short>
-    <option value="eur">EUR</option>
-    <option value="gbp">GBP</option>
-    <option value="usd">USD</option>
-  </Select>
-</Playground>
+```jsx react-live
+<Select short>
+  <option value="eur">EUR</option>
+  <option value="gbp">GBP</option>
+  <option value="usd">USD</option>
+</Select>
+```
 
 ## States
 
@@ -53,14 +53,14 @@ For shorter Select options, such as currency units, make use of the `unit` varia
 
 Select inputs that cannot be interacted with should be given a `disabled` state.
 
-<Playground>
-  <Select disabled>
-    <option value="">Select an option</option>
-    <option value="never-gonna">Never gonna</option>
-    <option value="give-you-up">give you up</option>
-    <option value="let-you-down">let you down</option>
-  </Select>
-</Playground>
+```jsx react-live
+<Select disabled>
+  <option value="">Select an option</option>
+  <option value="never-gonna">Never gonna</option>
+  <option value="give-you-up">give you up</option>
+  <option value="let-you-down">let you down</option>
+</Select>
+```
 
 ## Props
 

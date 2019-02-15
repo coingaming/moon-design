@@ -35,6 +35,8 @@
   "dependencies": {
     "@emotion/core": "10.0.6",
     "@emotion/styled": "10.0.6",
+    "@heathmont/sportsbet-components": "^0.3.1",
+    "@heathmont/sportsbet-global": "^0.3.0",
     "@heathmont/sportsbet-tokens": "^0.3.0",
     "@heathmont/sportsbet-utils": "^0.3.1",
     "@mdx-js/mdx": "0.16.8",
@@ -51,11 +53,15 @@
     "gatsby-plugin-react-helmet": "3.0.6",
     "gatsby-plugin-sharp": "2.0.20",
     "gatsby-plugin-typescript": "2.0.7",
+    "gatsby-remark-autolink-headers": "2.0.14",
     "gatsby-source-filesystem": "2.0.20",
     "gatsby-transformer-sharp": "2.1.13",
     "polished": "2.3.3",
+    "mdx-utils": "0.0.2",
+    "prism-react-renderer": "0.1.5",
     "react": "16.7.0",
     "react-dom": "16.7.0",
-    "react-helmet": "5.2.0"
+    "react-helmet": "5.2.0",
+    "react-live": "1.12.0"
   }
 }
