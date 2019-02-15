@@ -4,8 +4,8 @@ menu: Components
 route: /components/button
 ---
 
-import { Playground, PropsTable } from 'docs';
 import { Button } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Button
 
@@ -15,7 +15,8 @@ import { Button } from '@heathmont/sportsbet-components';
 
 To be used where the the button would be the main call to action on the page.
 
-<Playground>
+```jsx react-live
+<div>
   <Button modifier="primary" spaced>
     Default
   </Button>
@@ -28,13 +29,15 @@ To be used where the the button would be the main call to action on the page.
   <Button modifier="primary" disabled spaced>
     Disabled
   </Button>
-</Playground>
+</div>
+```
 
 ### Secondary
 
 To be used where the the button would be alternative or secondary call to action.
 
-<Playground>
+```jsx react-live
+<div>
   <Button modifier="secondary" spaced>
     Default
   </Button>
@@ -47,13 +50,15 @@ To be used where the the button would be alternative or secondary call to action
   <Button modifier="secondary" disabled spaced>
     Disabled
   </Button>
-</Playground>
+</div>
+```
 
 ### Optional
 
 To be used where the the button would be an optional call to action - meaning not prominant.
 
-<Playground>
+```jsx react-live
+<div>
   <Button modifier="optional" spaced>
     Default
   </Button>
@@ -66,13 +71,15 @@ To be used where the the button would be an optional call to action - meaning no
   <Button modifier="optional" disabled spaced>
     Disabled
   </Button>
-</Playground>
+</div>
+```
 
 ### Alternate
 
 Alternate shade for buttons, currently only intended for use with "Price Boost".
 
-<Playground>
+```jsx react-live
+<div>
   <Button modifier="alternate" spaced>
     Default
   </Button>
@@ -85,7 +92,8 @@ Alternate shade for buttons, currently only intended for use with "Price Boost".
   <Button modifier="alternate" disabled spaced>
     Disabled
   </Button>
-</Playground>
+</div>
+```
 
 ## Sizing
 
@@ -93,11 +101,11 @@ Alternate shade for buttons, currently only intended for use with "Price Boost".
 
 Stretches a button to fill the entire width of its container.
 
-<Playground>
-  <Button modifier="secondary" fullWidth>
-    Full Width
-  </Button>
-</Playground>
+```jsx react-live
+<Button modifier="secondary" fullWidth>
+  Full Width
+</Button>
+```
 
 ## Spacing
 
@@ -111,11 +119,11 @@ Sometimes we want to use the Button component to send the user to a different lo
 
 By adding the `href="<url>"` attribute, Buttons can be rendered as `<a>` elements.
 
-<Playground>
-  <Button href="#" modifier="secondary">
-    Secondary (Anchor)
-  </Button>
-</Playground>
+```jsx react-live
+<Button href="#" modifier="secondary">
+  Secondary (Anchor)
+</Button>
+```
 
 ## Props
 

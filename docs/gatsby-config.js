@@ -19,6 +19,7 @@ module.exports = {
           default: path.resolve('./src/components/layout.tsx'),
         },
         extensions: ['.mdx'],
+        gatsbyRemarkPlugins: [{ resolve: 'gatsby-remark-autolink-headers' }],
       },
     },
     'gatsby-plugin-react-helmet',
