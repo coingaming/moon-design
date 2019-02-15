@@ -1,3 +1,8 @@
+import { base } from './base';
+
+const systemFontStack: string =
+  '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif';
+
 type FontWeight = {
   normal: number;
   semibold: number;
@@ -10,10 +15,10 @@ const fontWeight: FontWeight = {
   bold: 700,
 };
 
-/**
- * Exports
- */
+const fontFamily: string = `${base.fontFace}, ${systemFontStack}`;
+
 const typography = {
+  fontFamily,
   fontWeight,
 };
 
