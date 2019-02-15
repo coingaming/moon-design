@@ -1,5 +1,4 @@
 /**
- * Folder 'public' is configured in doczrc.js file
+ * Currently configured as assets in the Gatsby static directory.
  */
-
-export const cdnUrl: string = 'public';
+export const cdnUrl: string = '/assets';
