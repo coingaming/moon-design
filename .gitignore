@@ -14,8 +14,11 @@ yarn-error.log*
 lerna-debug.log*
 
 # Build
-.docz/app
 lib
 dist
 cache
 .cache
+
+# Gatsby
+public
+docs/static/assets
