@@ -1,0 +1,61 @@
+{
+  "private": "true",
+  "name": "docs",
+  "version": "0.3.0",
+  "repository": "https://github.com/coingaming/sportsbet-design",
+  "author": "mBet Solutions N.V.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "yarn prebuild && gatsby develop",
+    "build": "yarn prebuild && gatsby build",
+    "serve": "gatsby serve",
+    "clean:assets": "rm -rf static/assets",
+    "build:assets": "mkdir -p static/assets/fonts && cp -R ../packages/assets/src/fonts/ static/assets/fonts/",
+    "prebuild": "yarn clean:assets && yarn build:assets",
+    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
+  },
+  "workspaces": {
+    "nohoist": [
+      "gatsby"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true
+    },
+    "rules": {
+      "no-use-before-define": "off",
+      "strict": "off"
+    }
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.6",
+    "@emotion/styled": "10.0.6",
+    "@heathmont/sportsbet-tokens": "^0.3.0",
+    "@heathmont/sportsbet-utils": "^0.3.0",
+    "@mdx-js/mdx": "0.16.8",
+    "@mdx-js/tag": "0.16.8",
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11",
+    "gatsby": "2.0.117",
+    "gatsby-cli": "2.4.9",
+    "gatsby-image": "2.0.29",
+    "gatsby-mdx": "0.3.5",
+    "gatsby-plugin-emotion": "4.0.3",
+    "gatsby-plugin-manifest": "2.0.17",
+    "gatsby-plugin-offline": "2.0.23",
+    "gatsby-plugin-react-helmet": "3.0.6",
+    "gatsby-plugin-sharp": "2.0.20",
+    "gatsby-plugin-typescript": "2.0.7",
+    "gatsby-source-filesystem": "2.0.20",
+    "gatsby-transformer-sharp": "2.1.13",
+    "polished": "2.3.3",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-helmet": "5.2.0"
+  }
+}
