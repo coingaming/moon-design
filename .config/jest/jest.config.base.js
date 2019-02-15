@@ -4,4 +4,5 @@ module.exports = {
   testEnvironment: 'jsdom',
   snapshotSerializers: ['jest-emotion'],
   setupTestFrameworkScriptFile: './.config/jest/setup.ts',
+  testPathIgnorePatterns: ['/node_modules/', '/.cache/'],
 };
