@@ -65,11 +65,13 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
 
 ### Style Guide
 
-Our project's style guide is built using the [Docz](https://www.docz.site) framework, and can be run as follows:
+Our project's style guide is built using [Gatsby](https://www.gatsbyjs.org/), and can be run as follows:
 
-- `yarn docs:dev` - spins up a hot reloading Docz environment at [localhost:8000](http://localhost:8000/).
-- `yarn docs:build` - generates a static production build of the style guide in `.docz/dist`.
+- `yarn docs:dev` - spins up a hot reloading docs environment at [localhost:8000](http://localhost:8000/).
+- `yarn docs:build` - generates a static production build of the style guide in `.docs/public`.
 - `yarn docs:serve` - serves files created by the build script at [localhost:9000](http://localhost:9000/).
+
+[Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`packages/assets`](packages/assets/README.md) before build.
 
 ### Cashier
 
