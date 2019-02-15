@@ -5,7 +5,6 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
   display: inline-block;
   margin: 0;
   padding: 0;
-  vertical-align: middle;
   font: inherit;
   color: #0cd664;
   background-color: transparent;
@@ -40,7 +39,6 @@ exports[`Link renders as a button by default 1`] = `
   display: inline-block;
   margin: 0;
   padding: 0;
-  vertical-align: middle;
   font: inherit;
   color: #0cd664;
   background-color: transparent;
@@ -74,7 +72,6 @@ exports[`Link renders as disabled for anchor elements 1`] = `
   display: inline-block;
   margin: 0;
   padding: 0;
-  vertical-align: middle;
   font: inherit;
   color: #0cd664;
   background-color: transparent;
@@ -110,7 +107,6 @@ exports[`Link renders as disabled for button elements 1`] = `
   display: inline-block;
   margin: 0;
   padding: 0;
-  vertical-align: middle;
   font: inherit;
   color: #0cd664;
   background-color: transparent;

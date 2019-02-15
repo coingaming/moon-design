@@ -17,7 +17,6 @@ const linkBase = css([
     display: 'inline-block',
     margin: 0,
     padding: 0,
-    verticalAlign: 'middle',
     font: 'inherit',
     color: colors.brand,
     backgroundColor: 'transparent',
