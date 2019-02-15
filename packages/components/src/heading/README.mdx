@@ -4,9 +4,8 @@ menu: Components
 route: /components/heading
 ---
 
-import { Playground, PropsTable } from 'docs';
-import { colors } from '@heathmont/sportsbet-tokens';
 import { Heading } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Heading
 
@@ -14,7 +13,8 @@ We treat semantic and visual/cosmetic decisions as two totally [separate](https:
 
 Our choice of `h1`–`h6` is a purely semantic decision, and doesn't impact cosmetics configured via the `size` prop.
 
-<Playground>
+```jsx react-live
+<div>
   <Heading size="alpha" element="h1" color={colors.brand}>
     Alpha Heading
   </Heading>
@@ -33,7 +33,8 @@ Our choice of `h1`–`h6` is a purely semantic decision, and doesn't impact cosm
   <Heading size="foxtrot" element="h2">
     Foxtrot Heading
   </Heading>
-</Playground>
+</div>
+```
 
 ## Props
 

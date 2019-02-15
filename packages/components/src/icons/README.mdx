@@ -4,18 +4,7 @@ menu: Components
 route: /components/icons
 ---
 
-import { Playground, PropsTable } from 'docs';
-import { colors } from '@heathmont/sportsbet-tokens';
-import {
-  IconChevronDown,
-  IconChevronLeft,
-  IconChevronRight,
-  IconChevronUp,
-  IconChevronUpDown,
-  IconClose,
-  IconLeftArrowCurveRight,
-  IconSettings,
-} from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
 
 # Icons
 
@@ -23,7 +12,8 @@ Icons offer visual aids for common actions and tasks.
 
 To aid with performance, Icons are surfaced as individual [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) components. Each icon component is prefixed with `Icon`.
 
-<Playground>
+```jsx react-live
+<div>
   <IconChevronDown />
   <IconChevronLeft />
   <IconChevronRight />
@@ -32,7 +22,8 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
   <IconClose />
   <IconLeftArrowCurveRight />
   <IconSettings />
-</Playground>
+</div>
+```
 
 ## Customizing
 
@@ -40,17 +31,17 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
 
 Icon colors can be modified by adding the `color` attribute/CSS property to the component or its parent element.
 
-<Playground>
-  <IconSettings color={colors.brand} />
-</Playground>
+```jsx react-live
+<IconSettings color={colors.brand} />
+```
 
 ### Size
 
 Icon size can be modified by adding the `fontSize` attribute or `font-size` CSS property to the component or its parent element.
 
-<Playground>
-  <IconSettings fontSize="40px" />
-</Playground>
+```jsx react-live
+<IconSettings fontSize="40px" />
+```
 
 ## Contributing
 
