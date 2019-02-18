@@ -18,6 +18,6 @@ export const page = css`
     font-display: swap;
     -moz-osx-font-smoothing: grayscale; /* [2] */
     -webkit-font-smoothing: antialiased; /* [2] */
-    text-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
   }
 `;
