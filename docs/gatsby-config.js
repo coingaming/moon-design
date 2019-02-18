@@ -40,7 +40,6 @@ module.exports = {
           '**/(lib|node_modules)',
           '**/(__tests__|.cache)',
           '**/*.(ts|tsx|json)',
-          '**/banner',
         ],
       },
     },
