@@ -24,9 +24,17 @@ type LabelProps = {
  * Styles
  */
 const LabelText = styled.span<LabelTextProps>(({ flex }) => [
-  flex
-    ? { paddingRight: spacing(), flex: 1 }
-    : { display: 'block', marginBottom: spacing('small') },
+  {
+    display: 'block',
+    marginBottom: spacing('xsmall'),
+  },
+  flex && {
+    [mq(breakpoints.small)]: {
+      flex: 1,
+      paddingRight: spacing(),
+      marginBottom: 0,
+    },
+  },
 ]);
 
 const labelFlex = (inputGrow: number = 1) =>
