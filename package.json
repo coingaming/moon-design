@@ -13,7 +13,7 @@
     "cashier": "yarn build && lerna run --scope @heathmont/sportsbet-wip-cashier --stream",
     "components": "lerna run --scope @heathmont/sportsbet-components --stream",
     "docs:dev": "concurrently -kill-others \"yarn build -w\" \"lerna run --scope docs --stream dev\"",
-    "docs:build": "lerna run --scope docs --stream build",
+    "docs:build": "yarn build && lerna run --scope docs --stream build",
     "docs:serve": "lerna run --scope docs --stream serve",
     "postinstall": "yarn build",
     "publish:packages": "lerna publish --yes"
