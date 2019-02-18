@@ -12,6 +12,5 @@ cd ../../
 
 Each script in this package can then be run via `yarn cashier <script-name>`:
 
-- `yarn cashier dev` - starts a hot-reloading development environment at [localhost:1234](http://localhost:1234/).
-- `yarn cashier build` - creates a static client-side build.
-- `yarn cashier serve` - serves the build `dist` directory at [localhost:1234](http://localhost:1234/).
+- `yarn cashier build` - creates a static isomorphic build.
+- `yarn cashier dev` - starts a hot-reloading development environment at [localhost:7024](http://localhost:7024/).
