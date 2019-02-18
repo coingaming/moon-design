@@ -1,13 +1,12 @@
 /** @jsx jsx */ jsx;
+import { Fragment } from 'react';
 import { css, jsx, Global } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Helmet } from 'react-helmet';
-import { MDXProvider } from '@mdx-js/tag';
 import { styles } from '@heathmont/sportsbet-global';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { Children } from '../types';
-import { mdxComponents } from '../config';
 import { Nav } from './nav';
 
 const grid = css({
@@ -29,7 +28,7 @@ const Main = styled.main({
 });
 
 export default ({ children }: Children) => (
-  <MDXProvider components={mdxComponents}>
+  <Fragment>
     <Global styles={styles} />
     <Helmet>
       <html lang="en" />
@@ -40,5 +39,5 @@ export default ({ children }: Children) => (
       <Nav />
       <Main>{children}</Main>
     </div>
-  </MDXProvider>
+  </Fragment>
 );
