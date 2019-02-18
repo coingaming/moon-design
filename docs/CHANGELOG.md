@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/coingaming/sportsbet-design/compare/v0.5.0...v0.6.0) (2019-02-18)
+
+
+### Bug Fixes
+
+* **banner:** banner component was fixed for docs ([0bcdb3a](https://github.com/coingaming/sportsbet-design/commit/0bcdb3a))
+
+
+
+
+
 # [0.5.0](https://github.com/coingaming/sportsbet-design/compare/v0.4.0...v0.5.0) (2019-02-18)
 
 
