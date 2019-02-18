@@ -1,13 +1,13 @@
 /** @jsx jsx */ jsx;
+import { Fragment } from 'react';
 import { css, jsx, Global } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Helmet } from 'react-helmet';
-import { MDXProvider } from '@mdx-js/tag';
+import { fontUrls } from '@heathmont/sportsbet-assets';
 import { styles } from '@heathmont/sportsbet-global';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { Children } from '../types';
-import { mdxComponents } from '../config';
 import { Nav } from './nav';
 
 const grid = css({
@@ -29,16 +29,19 @@ const Main = styled.main({
 });
 
 export default ({ children }: Children) => (
-  <MDXProvider components={mdxComponents}>
+  <Fragment>
     <Global styles={styles} />
     <Helmet>
       <html lang="en" />
       <meta charSet="utf-8" />
       <title>Sportsbet.io Design</title>
+      <link rel="preload" href={fontUrls.AvertaStd.regular} as="font" />
+      <link rel="preload" href={fontUrls.AvertaStd.semibold} as="font" />
+      <link rel="preload" href={fontUrls.AvertaStd.bold} as="font" />
     </Helmet>
     <div css={grid}>
       <Nav />
       <Main>{children}</Main>
     </div>
-  </MDXProvider>
+  </Fragment>
 );
