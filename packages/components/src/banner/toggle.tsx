@@ -1,11 +1,9 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx, css } from '@emotion/core';
-import { rem } from 'polished';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { IconClose, Toggle } from '../';
-jsx;
 
 const bannerToggle = css({
   color: colors.neutral[20],
