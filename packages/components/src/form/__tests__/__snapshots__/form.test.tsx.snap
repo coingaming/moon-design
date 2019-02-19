@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders correctly 1`] = `
+.emotion-5 {
+  border: 0;
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-4 {
+  margin-left: 0;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+.emotion-1:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<form
+  className="emotion-6"
+>
+  <fieldset
+    className="emotion-5"
+  >
+    <legend
+      className="emotion-0"
+    >
+      Sign up
+    </legend>
+    <ul
+      className="emotion-4"
+    >
+      <li
+        className="emotion-1"
+      >
+        <label>
+          Name
+          <input
+            placeholder="e.g. John Appleseed"
+            type="text"
+          />
+        </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label>
+          <input
+            name="terms"
+            type="checkbox"
+            value="terms"
+          />
+           I agree to the terms and conditions.
+        </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <button
+          type="submit"
+          value="submit"
+        >
+          Sign up
+        </button>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
+
+exports[`Form renders with HTML form attributes 1`] = `
+.emotion-5 {
+  border: 0;
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-4 {
+  margin-left: 0;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+.emotion-1:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<form
+  action="#"
+  autocomplete="on"
+  className="emotion-6"
+  method="post"
+>
+  <fieldset
+    className="emotion-5"
+  >
+    <legend
+      className="emotion-0"
+    >
+      Sign up
+    </legend>
+    <ul
+      className="emotion-4"
+    >
+      <li
+        className="emotion-1"
+      >
+        <label>
+          Name
+          <input
+            placeholder="e.g. John Appleseed"
+            type="text"
+          />
+        </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label>
+          <input
+            name="terms"
+            type="checkbox"
+            value="terms"
+          />
+           I agree to the terms and conditions.
+        </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <button
+          type="submit"
+          value="submit"
+        >
+          Sign up
+        </button>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
+
+exports[`Form renders with custom maxWidth 1`] = `
+.emotion-5 {
+  border: 0;
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-4 {
+  margin-left: 0;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+.emotion-1:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.emotion-6 {
+  max-width: 30rem;
+}
+
+<form
+  className="emotion-6"
+>
+  <fieldset
+    className="emotion-5"
+  >
+    <legend
+      className="emotion-0"
+    >
+      Sign up
+    </legend>
+    <ul
+      className="emotion-4"
+    >
+      <li
+        className="emotion-1"
+      >
+        <label>
+          Name
+          <input
+            placeholder="e.g. John Appleseed"
+            type="text"
+          />
+        </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label>
+          <input
+            name="terms"
+            type="checkbox"
+            value="terms"
+          />
+           I agree to the terms and conditions.
+        </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <button
+          type="submit"
+          value="submit"
+        >
+          Sign up
+        </button>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
