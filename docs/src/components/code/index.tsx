@@ -39,9 +39,9 @@ const codeWrapper = css([
 ]);
 
 const liveCodePreview = css({
-  fontFamily: typography.fontFamily,
   padding: Utils.spacing('large'),
   minHeight: Utils.spacing('xlarge'),
+  fontFamily: typography.fontFamily,
   borderBottom: codeBorder,
 });
 

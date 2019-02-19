@@ -54,7 +54,7 @@ const SubMenu = ({ items, title }: MenuListProps & MenuProps) => (
     {title && <span css={[listItem, listSection]}>{title}</span>}
     <MenuList nested>
       {items.map(item => (
-        <MenuItem route={item.route} name={item.name} />
+        <MenuItem key={item.name} route={item.route} name={item.name} />
       ))}
     </MenuList>
   </li>
@@ -78,9 +78,9 @@ const MenuItem = ({ route, name, section }: MenuItemProps) => (
 const Menu = ({ items }: MenuProps) =>
   items.map(item =>
     item.pages ? (
-      <SubMenu title={item.name} items={item.pages} />
+      <SubMenu key={item.name} title={item.name} items={item.pages} />
     ) : (
-      <MenuItem route={item.route} name={item.name} section />
+      <MenuItem key={item.name} route={item.route} name={item.name} section />
     )
   );
 
