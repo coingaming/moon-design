@@ -68,6 +68,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  min-width: 100%;
   height: auto;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
@@ -174,6 +175,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  min-width: 100%;
   height: auto;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -404,6 +406,7 @@ exports[`Banner renders horizontally 1`] = `
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  min-width: 100%;
   height: auto;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
@@ -465,6 +468,7 @@ exports[`Banner renders vertically by default 1`] = `
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  min-width: 100%;
   height: auto;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
