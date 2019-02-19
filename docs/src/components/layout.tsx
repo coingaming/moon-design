@@ -2,13 +2,12 @@
 import { Fragment } from 'react';
 import { css, jsx, Global } from '@emotion/core';
 import styled from '@emotion/styled';
-import { Helmet } from 'react-helmet';
-import { fontUrls } from '@heathmont/sportsbet-assets';
 import { styles } from '@heathmont/sportsbet-global';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { Children } from '../types';
 import { Nav } from './nav';
+import { Meta } from './meta';
 
 const grid = css({
   [mq(breakpoints.medium)]: {
@@ -31,32 +30,7 @@ const Main = styled.main({
 export default ({ children }: Children) => (
   <Fragment>
     <Global styles={styles} />
-    <Helmet>
-      <html lang="en" />
-      <meta charSet="utf-8" />
-      <title>Sportsbet.io Design</title>
-      <link
-        rel="preload"
-        href={fontUrls.AvertaStd.regular}
-        as="font"
-        type="font/woff2"
-        crossOrigin="anonymous"
-      />
-      <link
-        rel="preload"
-        href={fontUrls.AvertaStd.semibold}
-        as="font"
-        type="font/woff2"
-        crossOrigin="anonymous"
-      />
-      <link
-        rel="preload"
-        href={fontUrls.AvertaStd.bold}
-        as="font"
-        type="font/woff2"
-        crossOrigin="anonymous"
-      />
-    </Helmet>
+    <Meta />
     <div css={grid}>
       <Nav />
       <Main>{children}</Main>
