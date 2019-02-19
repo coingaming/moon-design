@@ -1,24 +1,12 @@
 /** @jsx jsx */ jsx;
 import { jsx, css } from '@emotion/core';
 import { Link } from 'gatsby';
-import { rem } from 'polished';
+import { hideVisually, rem } from 'polished';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 const logoLink = css({
   display: 'block',
   maxWidth: rem(180), // Totally arbitrary number
-});
-
-const hideVisually = css({
-  border: 0,
-  clip: 'rect(0 0 0 0)',
-  height: '1px',
-  margin: '-1px',
-  overflow: 'hidden',
-  padding: 0,
-  position: 'absolute',
-  width: '1px',
-  whiteSpace: 'nowrap',
 });
 
 export const Logo = () => (
