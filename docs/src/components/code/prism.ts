@@ -28,6 +28,7 @@ export const syntaxStyles = css`
   pre {
     padding: 1em;
     overflow: auto;
+    margin-bottom: 0;
   }
   :not(pre) > code,
   pre {

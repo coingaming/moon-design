@@ -31,34 +31,38 @@ On larger screens, Labels and inputs can be displayed alongside eachother via th
 The input's [`flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow) value can be modified via `inputGrow`.
 
 ```jsx react-live
-<div>
-  <Label flex text="Hi I'm a label">
-    <Select>
-      <option value="">Select an option</option>
-      <option value="never-gonna">Never gonna</option>
-      <option value="give-you-up">give you up</option>
-      <option value="let-you-down">let you down</option>
-    </Select>
-  </Label>
-
-  <Label flex inputGrow="2" text="Hi I'm a label">
-    <Select>
-      <option value="">Select an option</option>
-      <option value="never-gonna">Never gonna</option>
-      <option value="give-you-up">give you up</option>
-      <option value="let-you-down">let you down</option>
-    </Select>
-  </Label>
-
-  <Label flex inputGrow="3" text="Hi I'm a label">
-    <Select>
-      <option value="">Select an option</option>
-      <option value="never-gonna">Never gonna</option>
-      <option value="give-you-up">give you up</option>
-      <option value="let-you-down">let you down</option>
-    </Select>
-  </Label>
-</div>
+<Form legend="Flex Demo Form" maxWidth="40rem">
+  <FormItem>
+    <Label flex text="Hi I'm a label">
+      <Select>
+        <option value="">Select an option</option>
+        <option value="never-gonna">Never gonna</option>
+        <option value="give-you-up">give you up</option>
+        <option value="let-you-down">let you down</option>
+      </Select>
+    </Label>
+  </FormItem>
+  <FormItem>
+    <Label flex inputGrow="2" text="Hi I'm a label">
+      <Select>
+        <option value="">Select an option</option>
+        <option value="never-gonna">Never gonna</option>
+        <option value="give-you-up">give you up</option>
+        <option value="let-you-down">let you down</option>
+      </Select>
+    </Label>
+  </FormItem>
+  <FormItem>
+    <Label flex inputGrow="3" text="Hi I'm a label">
+      <Select>
+        <option value="">Select an option</option>
+        <option value="never-gonna">Never gonna</option>
+        <option value="give-you-up">give you up</option>
+        <option value="let-you-down">let you down</option>
+      </Select>
+    </Label>
+  </FormItem>
+</Form>
 ```
 
 ## Props
