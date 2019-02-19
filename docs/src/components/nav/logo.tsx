@@ -14,8 +14,8 @@ export const Logo = () => (
     <span css={hideVisually}>Home</span>
     <svg
       viewBox="0 0 188 39"
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
