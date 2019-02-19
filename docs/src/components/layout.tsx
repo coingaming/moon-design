@@ -35,9 +35,27 @@ export default ({ children }: Children) => (
       <html lang="en" />
       <meta charSet="utf-8" />
       <title>Sportsbet.io Design</title>
-      <link rel="preload" href={fontUrls.AvertaStd.regular} as="font" />
-      <link rel="preload" href={fontUrls.AvertaStd.semibold} as="font" />
-      <link rel="preload" href={fontUrls.AvertaStd.bold} as="font" />
+      <link
+        rel="preload"
+        href={fontUrls.AvertaStd.regular}
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="preload"
+        href={fontUrls.AvertaStd.semibold}
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="preload"
+        href={fontUrls.AvertaStd.bold}
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </Helmet>
     <div css={grid}>
       <Nav />
