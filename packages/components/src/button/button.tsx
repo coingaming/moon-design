@@ -10,6 +10,7 @@ import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { buttonMockStateClass, ButtonMockState } from './states';
 
 type ButtonProps = {
+  className?: string;
   href?: string;
   modifier: ButtonModifiers;
   disabled?: boolean;
@@ -50,8 +51,16 @@ const buttonSpaced = css({
 /**
  * Component
  */
-const Button: React.FC<ButtonProps> = props => {
-  const ButtonElement = !props.href ? 'button' : 'a';
+const Button: React.FC<ButtonProps> = ({
+  className,
+  href,
+  mockState,
+  modifier,
+  spaced,
+  fullWidth,
+  ...props
+}) => {
+  const ButtonElement = !href ? 'button' : 'a';
 
   /**
    * The idea solution would be something like:
@@ -63,13 +72,14 @@ const Button: React.FC<ButtonProps> = props => {
    * making use of the `css` prop.
    */
   return jsx(ButtonElement, {
+    href,
     css: [
       button,
-      props.spaced && buttonSpaced,
-      props.modifier && buttonModifiers[props.modifier],
-      props.fullWidth && { width: '100%' },
+      spaced && buttonSpaced,
+      modifier && buttonModifiers[modifier],
+      fullWidth && { width: '100%' },
     ],
-    className: props.mockState && buttonMockStateClass(props.mockState),
+    className: mockState && buttonMockStateClass(mockState),
     ...props,
   });
 };

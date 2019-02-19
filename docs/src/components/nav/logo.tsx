@@ -1,7 +1,7 @@
 /** @jsx jsx */ jsx;
 import { jsx, css } from '@emotion/core';
 import { Link } from 'gatsby';
-import { rem } from 'polished';
+import { hideVisually, rem } from 'polished';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 const logoLink = css({
@@ -9,25 +9,13 @@ const logoLink = css({
   maxWidth: rem(180), // Totally arbitrary number
 });
 
-const hideVisually = css({
-  border: 0,
-  clip: 'rect(0 0 0 0)',
-  height: '1px',
-  margin: '-1px',
-  overflow: 'hidden',
-  padding: 0,
-  position: 'absolute',
-  width: '1px',
-  whiteSpace: 'nowrap',
-});
-
 export const Logo = () => (
   <Link to="/" css={logoLink}>
     <span css={hideVisually}>Home</span>
     <svg
       viewBox="0 0 188 39"
-      width="auto"
-      height="auto"
+      width="100%"
+      height="100%"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

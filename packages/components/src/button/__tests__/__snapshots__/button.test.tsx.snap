@@ -45,8 +45,6 @@ exports[`Button MockState renders as active 1`] = `
 
 <button
   className="is-active emotion-0"
-  mockState="active"
-  modifier="primary"
 >
   Active Primary Button
 </button>
@@ -97,8 +95,6 @@ exports[`Button MockState renders with focus 1`] = `
 
 <button
   className="has-focus emotion-0"
-  mockState="focus"
-  modifier="primary"
 >
   Focus Primary Button
 </button>
@@ -149,7 +145,6 @@ exports[`Button Modifiers renders as alternate 1`] = `
 
 <button
   className="emotion-0"
-  modifier="alternate"
 >
   Alternate Button
 </button>
@@ -213,7 +208,6 @@ exports[`Button Modifiers renders as optional 1`] = `
 
 <button
   className="emotion-0"
-  modifier="optional"
 >
   Optional Button
 </button>
@@ -264,7 +258,6 @@ exports[`Button Modifiers renders as primary 1`] = `
 
 <button
   className="emotion-0"
-  modifier="primary"
 >
   Primary Button
 </button>
@@ -326,7 +319,6 @@ exports[`Button Modifiers renders as secondary 1`] = `
 
 <button
   className="emotion-0"
-  modifier="secondary"
 >
   Secondary Button
 </button>
@@ -378,7 +370,6 @@ exports[`Button renders as an anchor tag 1`] = `
 <a
   className="emotion-0"
   href="#some-anchor"
-  modifier="primary"
 >
   Primary Button (Anchor)
 </a>
@@ -430,7 +421,6 @@ exports[`Button renders as disabled 1`] = `
 <button
   className="emotion-0"
   disabled={true}
-  modifier="primary"
 >
   Disabled Primary Button
 </button>
@@ -482,8 +472,6 @@ exports[`Button renders as fullWidth 1`] = `
 
 <button
   className="emotion-0"
-  fullWidth={true}
-  modifier="primary"
 >
   Full Width Primary Button
 </button>
@@ -539,8 +527,6 @@ exports[`Button renders with spacing 1`] = `
 
 <button
   className="emotion-0"
-  modifier="primary"
-  spaced={true}
 >
   Spaced Primary Button
 </button>

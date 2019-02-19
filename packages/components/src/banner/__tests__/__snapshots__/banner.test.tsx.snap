@@ -131,8 +131,6 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   >
     <button
       className="emotion-1"
-      fullWidth={true}
-      modifier="secondary"
     >
       Buy bitcoins
     </button>
@@ -313,8 +311,6 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   >
     <button
       className="emotion-3"
-      fullWidth={true}
-      modifier="secondary"
     >
       Contact Us
     </button>
@@ -452,8 +448,6 @@ exports[`Banner renders horizontally 1`] = `
   >
     <button
       className="emotion-1"
-      fullWidth={true}
-      modifier="secondary"
     >
       Buy bitcoins
     </button>
@@ -589,8 +583,6 @@ exports[`Banner renders vertically by default 1`] = `
   >
     <button
       className="emotion-3"
-      fullWidth={true}
-      modifier="secondary"
     >
       Contact Us
     </button>
