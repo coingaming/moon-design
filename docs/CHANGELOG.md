@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/coingaming/sportsbet-design/compare/v0.6.0...v0.7.0) (2019-02-19)
+
+
+### Bug Fixes
+
+* **docs:** add keys to menu items ([7dc0339](https://github.com/coingaming/sportsbet-design/commit/7dc0339))
+* **docs:** extend font preload links ([085eba4](https://github.com/coingaming/sportsbet-design/commit/085eba4))
+* **docs:** switch SVG sizing to avoid react-dom errors ([8b99cf2](https://github.com/coingaming/sportsbet-design/commit/8b99cf2))
+
+
+
+
+
 # [0.6.0](https://github.com/coingaming/sportsbet-design/compare/v0.5.0...v0.6.0) (2019-02-18)
 
 
