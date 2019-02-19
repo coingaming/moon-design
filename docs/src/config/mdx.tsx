@@ -8,11 +8,6 @@ import * as Utils from '@heathmont/sportsbet-utils';
 import { Code } from '../components/code';
 import { Children } from '../types';
 
-const verticalRhythm = css({
-  marginTop: 0,
-  marginBottom: Utils.spacing(),
-});
-
 const maxWidth = css({
   maxWidth: '40rem',
 });
@@ -29,7 +24,6 @@ const Table = styled.table([
     },
   },
   maxWidth,
-  verticalRhythm,
 ]);
 
 /**
@@ -38,28 +32,26 @@ const Table = styled.table([
  */
 export const mdxComponents = {
   h1: ({ children }: Children) => (
-    <Heading element="h1" size="alpha" css={verticalRhythm}>
+    <Heading element="h1" size="alpha">
       {children}
     </Heading>
   ),
   h2: ({ children }: Children) => (
-    <Heading element="h2" size="charlie" css={verticalRhythm}>
+    <Heading element="h2" size="charlie">
       {children}
     </Heading>
   ),
   h3: ({ children }: Children) => (
-    <Heading element="h3" size="delta" css={verticalRhythm}>
+    <Heading element="h3" size="delta">
       {children}
     </Heading>
   ),
   h4: ({ children }: Children) => (
-    <Heading element="h4" size="echo" css={verticalRhythm}>
+    <Heading element="h4" size="echo">
       {children}
     </Heading>
   ),
-  p: ({ children }: Children) => (
-    <p css={[verticalRhythm, maxWidth]}>{children}</p>
-  ),
+  p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
   table: ({ children }: Children) => <Table>{children}</Table>,
   pre: (props: any) => {
