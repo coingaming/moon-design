@@ -3,7 +3,7 @@
 exports[`Label renders above input 1`] = `
 .emotion-0 {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .emotion-1 {
@@ -121,10 +121,18 @@ exports[`Label renders as flex adjusts input's flex-grow when defined 1`] = `
 }
 
 .emotion-0 {
-  padding-right: 1rem;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width:31.25em) {
+  .emotion-0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width:31.25em) {
@@ -224,10 +232,18 @@ exports[`Label renders as flex adjusts input's flex-grow when defined 2`] = `
 }
 
 .emotion-0 {
-  padding-right: 1rem;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width:31.25em) {
+  .emotion-0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width:31.25em) {
@@ -347,10 +363,18 @@ exports[`Label renders as flex equal spacing by default 1`] = `
 }
 
 .emotion-0 {
-  padding-right: 1rem;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width:31.25em) {
+  .emotion-0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
 }
 
 <label

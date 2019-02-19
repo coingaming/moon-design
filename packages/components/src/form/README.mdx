@@ -1,0 +1,73 @@
+---
+name: Form
+menu: Components
+route: /components/form
+---
+
+import { Form } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# Form
+
+Handling user-submitted information.
+
+## Anatomy
+
+1. **Form**
+
+   The main form element renders items as a list inside a `<fieldset>`, along with a required hidden `legend` for accessibility. It allows customisation of `maxWidth` and accepts all standard HTML `<form>` attributes.
+
+2. **Form Item**
+
+   A wrapper for each top-level input or fieldset.
+
+```jsx
+<Form legend="Example form" action="#">
+  <FormItem>{/* input|fieldset */}</FormItem>
+  <FormItem>{/* input|fieldset */}</FormItem>
+</Form>
+```
+
+## Example
+
+An example sign-up form, making use of other input components to collect user-entered information.
+
+```jsx react-live
+<Form legend="Sign-up" maxWidth="30rem">
+  <FormItem>
+    <Label flex text="Name">
+      <input type="text" placeholder="e.g. John Appleseed" />
+    </Label>
+  </FormItem>
+  <FormItem>
+    <Label flex text="Email">
+      <input type="email" placeholder="e.g. john@coingaming.io" />
+    </Label>
+  </FormItem>
+  <FormItem>
+    <Label flex text="Country of residence">
+      <Select>
+        <option value="">Select a country</option>
+        <option value="estonia">Estonia</option>
+        <option value="united-kingdom">United Kingdom</option>
+        <option value="other">Other</option>
+      </Select>
+    </Label>
+  </FormItem>
+  <FormItem>
+    <label>
+      <input type="checkbox" value="terms" name="terms" />I agree to the terms
+      and conditions
+    </label>
+  </FormItem>
+  <FormItem>
+    <Button modifier="primary" fullWidth>
+      Sign up
+    </Button>
+  </FormItem>
+</Form>
+```
+
+## Props
+
+<PropsTable of={Form} />
