@@ -7,4 +7,5 @@ export * from './icons';
 export * from './label';
 export * from './link';
 export * from './select';
+export * from './text-input';
 export * from './toggle';
