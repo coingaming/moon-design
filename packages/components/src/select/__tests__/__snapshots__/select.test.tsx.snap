@@ -3,29 +3,41 @@
 exports[`Select renders a 'short' variant select input with options 1`] = `
 .emotion-0 {
   width: 100%;
-  padding-top: 0.5rem;
-  padding-right: 2.625rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  color: #8697a2;
+  color: #fff;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   color: white;
   background-size: auto 0.625rem;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
 }
 
 .emotion-0:hover,
@@ -36,8 +48,6 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
 .emotion-0:disabled {
   cursor: not-allowed;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  border-color: #304854;
-  color: #304854;
 }
 
 @media (min-width:31.25em) {
@@ -74,24 +84,36 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
 exports[`Select renders a select input with options 1`] = `
 .emotion-0 {
   width: 100%;
-  padding-top: 0.5rem;
-  padding-right: 2.625rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  color: #8697a2;
+  color: #fff;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
 }
 
 .emotion-0:hover,
@@ -102,8 +124,6 @@ exports[`Select renders a select input with options 1`] = `
 .emotion-0:disabled {
   cursor: not-allowed;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  border-color: #304854;
-  color: #304854;
 }
 
 @media (min-width:31.25em) {
@@ -141,29 +161,41 @@ exports[`Select renders a select input with options 1`] = `
 exports[`Select renders as disabled for 'short' select input 1`] = `
 .emotion-0 {
   width: 100%;
-  padding-top: 0.5rem;
-  padding-right: 2.625rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  color: #8697a2;
+  color: #fff;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   color: white;
   background-size: auto 0.625rem;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
 }
 
 .emotion-0:hover,
@@ -174,8 +206,6 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
 .emotion-0:disabled {
   cursor: not-allowed;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  border-color: #304854;
-  color: #304854;
 }
 
 @media (min-width:31.25em) {
@@ -213,24 +243,36 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
 exports[`Select renders as disabled for default select input 1`] = `
 .emotion-0 {
   width: 100%;
-  padding-top: 0.5rem;
-  padding-right: 2.625rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  color: #8697a2;
+  color: #fff;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
 }
 
 .emotion-0:hover,
@@ -241,8 +283,6 @@ exports[`Select renders as disabled for default select input 1`] = `
 .emotion-0:disabled {
   cursor: not-allowed;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  border-color: #304854;
-  color: #304854;
 }
 
 @media (min-width:31.25em) {
@@ -281,29 +321,41 @@ exports[`Select renders as disabled for default select input 1`] = `
 exports[`Select renders as full-width for 'short' select input 1`] = `
 .emotion-0 {
   width: 100%;
-  padding-top: 0.5rem;
-  padding-right: 2.625rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  color: #8697a2;
+  color: #fff;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   color: white;
   background-size: auto 0.625rem;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2013%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M11.73%2013L13%2014.146%206.5%2020%200%2014.148%201.271%2013l5.23%204.712L11.729%2013zm0-6L6.5%202.288%201.272%207%200%205.852%206.5%200%2013%205.854%2011.73%207z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
 }
 
 .emotion-0:hover,
@@ -314,8 +366,6 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
 .emotion-0:disabled {
   cursor: not-allowed;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  border-color: #304854;
-  color: #304854;
 }
 
 .emotion-0:disabled {
@@ -346,24 +396,36 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
 exports[`Select renders as full-width for default select input 1`] = `
 .emotion-0 {
   width: 100%;
-  padding-top: 0.5rem;
-  padding-right: 2.625rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
-  color: #8697a2;
+  color: #fff;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
   border-radius: 4px;
-  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
   background-position: right 0.625rem center;
   background-repeat: no-repeat;
   background-size: 0.625rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
 }
 
 .emotion-0:hover,
@@ -374,8 +436,6 @@ exports[`Select renders as full-width for default select input 1`] = `
 .emotion-0:disabled {
   cursor: not-allowed;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  border-color: #304854;
-  color: #304854;
 }
 
 <select
