@@ -3,7 +3,7 @@ import * as React from 'react';
 import { css, jsx } from '@emotion/core';
 import { rem } from 'polished';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { Label } from '@heathmont/sportsbet-components';
+import { Label } from '../private/label';
 import { Input, inputSpacing, inputAnimationSpeed } from '../private/input';
 jsx;
 

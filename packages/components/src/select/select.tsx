@@ -10,10 +10,12 @@ import {
   inputSpacing,
   inputIconSize,
 } from '../private/input';
+import { Label, LabelSizing } from '../private/label';
 import { IconChevronDown, IconChevronUpDown } from '../';
 jsx;
 
-type SelectProps = {
+type SelectProps = LabelSizing & {
+  label?: string;
   fullWidth?: boolean;
   short?: boolean;
   disabled?: boolean;
@@ -64,17 +66,30 @@ const selectShort = css({
 
 const Select: React.FC<SelectProps> = ({
   children,
+  label,
   fullWidth,
   short,
+  flex,
+  inputGrow,
   ...props
-}) => (
-  <SelectInput
-    withIcon
-    css={[select, !fullWidth && selectWidthAuto, short && selectShort]}
-    {...props}
-  >
-    {children}
-  </SelectInput>
-);
+}) => {
+  const SelectElement = (
+    <SelectInput
+      withIcon
+      css={[select, !fullWidth && selectWidthAuto, short && selectShort]}
+      {...props}
+    >
+      {children}
+    </SelectInput>
+  );
+
+  return label ? (
+    <Label text={label} flex={flex} inputGrow={inputGrow}>
+      {SelectElement}
+    </Label>
+  ) : (
+    SelectElement
+  );
+};
 
 export { Select, SelectProps };
