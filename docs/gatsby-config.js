@@ -37,6 +37,7 @@ module.exports = {
         path: `${__dirname}/../packages/`,
         ignore: [
           '**/\\.*',
+          '**/private',
           '**/(lib|node_modules)',
           '**/(__tests__|.cache)',
           '**/*.(ts|tsx|json)',

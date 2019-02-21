@@ -463,3 +463,334 @@ exports[`Select renders as full-width for default select input 1`] = `
   </option>
 </select>
 `;
+
+exports[`Select renders with label above the input 1`] = `
+.emotion-1 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-1:disabled,
+.emotion-1:disabled + label {
+  color: #304854;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+<label>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
+
+exports[`Select renders with label as a flex layout evenly spaced by default 1`] = `
+.emotion-1 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-1:disabled,
+.emotion-1:disabled + label {
+  color: #304854;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+@media (min-width:31.25em) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .emotion-2 select,
+  .emotion-2 input {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width:31.25em) {
+  .emotion-0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+<label
+  className="emotion-2"
+>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
+
+exports[`Select renders with label as a flex layout with adjusted input size 1`] = `
+.emotion-1 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  padding-right: 38px;
+  background-position: right 0.625rem center;
+  background-repeat: no-repeat;
+  background-size: 0.625rem;
+  color: #8697a2;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23586a74%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-1:disabled,
+.emotion-1:disabled + label {
+  color: #304854;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  cursor: pointer;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%23304854%22%20class%3D%22css-uk6cul%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+@media (min-width:31.25em) {
+  .emotion-1 {
+    width: auto;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width:31.25em) {
+  .emotion-0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width:31.25em) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .emotion-2 select,
+  .emotion-2 input {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+}
+
+<label
+  className="emotion-2"
+>
+  <span
+    className="emotion-0"
+  >
+    Example label
+  </span>
+  <select
+    className="emotion-1"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;
