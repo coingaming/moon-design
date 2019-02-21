@@ -1,0 +1,833 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput renders as \`disabled\` when defined 1`] = `
+.emotion-2 {
+  position: relative;
+}
+
+.emotion-0 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
+}
+
+.emotion-0:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-0:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+.emotion-0::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.emotion-0::-moz-placeholder {
+  color: transparent;
+}
+
+.emotion-0:-ms-input-placeholder {
+  color: transparent;
+}
+
+.emotion-0::placeholder {
+  color: transparent;
+}
+
+.emotion-0:not(:placeholder-shown) {
+  padding-top: 1.3125rem;
+  padding-bottom: 0.4375rem;
+  border-color: transparent;
+}
+
+.emotion-0:not(:placeholder-shown) + label {
+  -webkit-transform: translateY(-90%) scale(0.75);
+  -ms-transform: translateY(-90%) scale(0.75);
+  transform: translateY(-90%) scale(0.75);
+}
+
+.emotion-1 {
+  position: absolute;
+  left: 0.875rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  color: #8697a2;
+  pointer-events: none;
+}
+
+.emotion-3 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.emotion-4 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-4:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-4:disabled,
+.emotion-4:disabled + label {
+  color: #304854;
+}
+
+.emotion-4:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-4:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+<fieldset>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-text"
+      placeholder=" "
+      type="text"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-text"
+    >
+      Text
+    </label>
+  </div>
+  <label>
+    <span
+      className="emotion-3"
+    >
+      Date
+    </span>
+    <input
+      className="emotion-4"
+      disabled={true}
+      placeholder=" "
+      type="date"
+    />
+  </label>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-email"
+      placeholder=" "
+      type="email"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-email"
+    >
+      Email
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-number"
+      placeholder=" "
+      type="number"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-number"
+    >
+      Number
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-password"
+      placeholder=" "
+      type="password"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-password"
+    >
+      Password
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-search"
+      placeholder=" "
+      type="search"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-search"
+    >
+      Search
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-telephone"
+      placeholder=" "
+      type="tel"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-telephone"
+    >
+      Telephone
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      disabled={true}
+      id="TextInput-url"
+      placeholder=" "
+      type="url"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-url"
+    >
+      URL
+    </label>
+  </div>
+</fieldset>
+`;
+
+exports[`TextInput renders as an \`error\` when defined 1`] = `
+.emotion-2 {
+  position: relative;
+}
+
+.emotion-1 {
+  position: absolute;
+  left: 0.875rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  color: #8697a2;
+  pointer-events: none;
+}
+
+.emotion-3 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.emotion-0 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
+}
+
+.emotion-0,
+.emotion-0:not(:placeholder-shown) {
+  border-color: #ff4e64;
+}
+
+.emotion-0:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-0:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+.emotion-0::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.emotion-0::-moz-placeholder {
+  color: transparent;
+}
+
+.emotion-0:-ms-input-placeholder {
+  color: transparent;
+}
+
+.emotion-0::placeholder {
+  color: transparent;
+}
+
+.emotion-0:not(:placeholder-shown) {
+  padding-top: 1.3125rem;
+  padding-bottom: 0.4375rem;
+  border-color: transparent;
+}
+
+.emotion-0:not(:placeholder-shown) + label {
+  -webkit-transform: translateY(-90%) scale(0.75);
+  -ms-transform: translateY(-90%) scale(0.75);
+  transform: translateY(-90%) scale(0.75);
+}
+
+.emotion-4 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-4:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-4:disabled,
+.emotion-4:disabled + label {
+  color: #304854;
+}
+
+.emotion-4,
+.emotion-4:not(:placeholder-shown) {
+  border-color: #ff4e64;
+}
+
+.emotion-4:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-4:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+<fieldset>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-text"
+      placeholder=" "
+      type="text"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-text"
+    >
+      Text
+    </label>
+  </div>
+  <label>
+    <span
+      className="emotion-3"
+    >
+      Date
+    </span>
+    <input
+      className="emotion-4"
+      placeholder=" "
+      type="date"
+    />
+  </label>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-email"
+      placeholder=" "
+      type="email"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-email"
+    >
+      Email
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-number"
+      placeholder=" "
+      type="number"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-number"
+    >
+      Number
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-password"
+      placeholder=" "
+      type="password"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-password"
+    >
+      Password
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-search"
+      placeholder=" "
+      type="search"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-search"
+    >
+      Search
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-telephone"
+      placeholder=" "
+      type="tel"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-telephone"
+    >
+      Telephone
+    </label>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <input
+      className="emotion-0"
+      id="TextInput-url"
+      placeholder=" "
+      type="url"
+    />
+    <label
+      className="emotion-1"
+      htmlFor="TextInput-url"
+    >
+      URL
+    </label>
+  </div>
+</fieldset>
+`;
+
+exports[`TextInput renders correctly with \`text\` type by default 1`] = `
+.emotion-2 {
+  position: relative;
+}
+
+.emotion-0 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-0:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-0:disabled,
+.emotion-0:disabled + label {
+  color: #304854;
+}
+
+.emotion-0:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-0:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+.emotion-0::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.emotion-0::-moz-placeholder {
+  color: transparent;
+}
+
+.emotion-0:-ms-input-placeholder {
+  color: transparent;
+}
+
+.emotion-0::placeholder {
+  color: transparent;
+}
+
+.emotion-0:not(:placeholder-shown) {
+  padding-top: 1.3125rem;
+  padding-bottom: 0.4375rem;
+  border-color: transparent;
+}
+
+.emotion-0:not(:placeholder-shown) + label {
+  -webkit-transform: translateY(-90%) scale(0.75);
+  -ms-transform: translateY(-90%) scale(0.75);
+  transform: translateY(-90%) scale(0.75);
+}
+
+.emotion-1 {
+  position: absolute;
+  left: 0.875rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  color: #8697a2;
+  pointer-events: none;
+}
+
+<div
+  className="emotion-2"
+>
+  <input
+    className="emotion-0"
+    id="TextInput-example-input"
+    placeholder=" "
+    type="text"
+  />
+  <label
+    className="emotion-1"
+    htmlFor="TextInput-example-input"
+  >
+    Example Input
+  </label>
+</div>
+`;
+
+exports[`TextInput renders with label above \`date\` input by default 1`] = `
+.emotion-0 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.emotion-1 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-1:disabled,
+.emotion-1:disabled + label {
+  color: #304854;
+}
+
+.emotion-1:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+<label>
+  <span
+    className="emotion-0"
+  >
+    Example Input
+  </span>
+  <input
+    className="emotion-1"
+    placeholder=" "
+    type="date"
+  />
+</label>
+`;
+
+exports[`TextInput renders with label above input when defined 1`] = `
+.emotion-0 {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.emotion-1 {
+  width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #304854;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-1:disabled {
+  cursor: not-allowed;
+  border-color: #304854;
+}
+
+.emotion-1:disabled,
+.emotion-1:disabled + label {
+  color: #304854;
+}
+
+.emotion-1:focus {
+  border-color: #8697a2;
+  outline: none;
+}
+
+.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #ff4e64;
+}
+
+<fieldset>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      Text
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="text"
+    />
+  </label>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      Email
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="email"
+    />
+  </label>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      Number
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="number"
+    />
+  </label>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      Password
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="password"
+    />
+  </label>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      Search
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="search"
+    />
+  </label>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      Telephone
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="tel"
+    />
+  </label>
+  <label>
+    <span
+      className="emotion-0"
+    >
+      URL
+    </span>
+    <input
+      className="emotion-1"
+      placeholder=" "
+      required={true}
+      type="url"
+    />
+  </label>
+</fieldset>
+`;

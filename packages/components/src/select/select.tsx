@@ -1,48 +1,32 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
-import styled from '@emotion/styled';
-import { padding, rem } from 'polished';
-import { breakpoints, border } from '@heathmont/sportsbet-tokens';
+import { rem } from 'polished';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq } from '@heathmont/sportsbet-utils';
-import { IconChevronDown, IconChevronUpDown } from '../';
-
 import {
+  Input,
   inputColors,
   inputSpacing,
-  inputIconOffset,
   inputIconSize,
-} from './settings';
+} from '../private/input';
+import { IconChevronDown, IconChevronUpDown } from '../';
 jsx;
 
 type SelectProps = {
   fullWidth?: boolean;
   short?: boolean;
+  disabled?: boolean;
 };
 
 /**
  * Styles
  */
+const SelectInput = Input.withComponent('select');
+
 const select = css({
-  width: '100%',
-  ...padding(
-    rem(inputSpacing.y),
-    rem(inputIconOffset),
-    rem(inputSpacing.y),
-    rem(inputSpacing.x)
-  ),
-  appearance: 'none',
-  font: 'inherit',
-  color: inputColors.text,
-  backgroundColor: inputColors.background,
-  borderStyle: border.style,
-  borderWidth: border.width,
-  borderColor: inputColors.border,
-  borderRadius: border.radius.small,
+  color: inputColors.label,
   backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
-  backgroundPosition: `right ${rem(inputIconSize)} center`,
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: rem(inputIconSize),
   '&:hover, &:focus': {
     cursor: 'pointer',
   },
@@ -51,8 +35,6 @@ const select = css({
     backgroundImage: inlineSVG(
       <IconChevronDown color={inputColors.disabled} />
     ),
-    borderColor: inputColors.disabled,
-    color: inputColors.disabled,
   },
 });
 
@@ -64,8 +46,8 @@ const selectWidthAuto = css({
 });
 
 const selectShort = css({
-  paddingTop: rem(inputSpacing.y * 2),
-  paddingBottom: rem(inputSpacing.y * 2),
+  paddingTop: rem(inputSpacing + 10),
+  paddingBottom: rem(inputSpacing + 10),
   color: 'white',
   backgroundSize: `auto ${rem(inputIconSize)}`,
   backgroundImage: inlineSVG(<IconChevronUpDown color={inputColors.icon} />),
@@ -79,10 +61,20 @@ const selectShort = css({
 /**
  * Component
  */
-const Select = styled.select<SelectProps>(({ fullWidth, short }) => [
-  select,
-  !fullWidth && selectWidthAuto,
-  short && selectShort,
-]);
+
+const Select: React.FC<SelectProps> = ({
+  children,
+  fullWidth,
+  short,
+  ...props
+}) => (
+  <SelectInput
+    withIcon
+    css={[select, !fullWidth && selectWidthAuto, short && selectShort]}
+    {...props}
+  >
+    {children}
+  </SelectInput>
+);
 
 export { Select, SelectProps };
