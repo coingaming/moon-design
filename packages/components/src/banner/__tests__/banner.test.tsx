@@ -37,6 +37,25 @@ describe('Banner', () => {
     expect(banner).toMatchSnapshot();
   });
 
+  test('renders correctly with maxWidth prop', () => {
+    const banner = create(
+      <Banner maxWidth={'600px'}>
+        <Heading size="foxtrot" element="h2">
+          Need help?
+        </Heading>
+        <p>
+          If you require any assistance our 24/7 live chat support is here to
+          help
+        </p>
+        <Button fullWidth modifier="secondary">
+          Contact Us
+        </Button>
+      </Banner>
+    );
+
+    expect(banner).toMatchSnapshot();
+  });
+
   describe('Closable', () => {
     test('renders with default vertical layout', () => {
       const banner = create(
