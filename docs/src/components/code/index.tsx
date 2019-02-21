@@ -25,10 +25,10 @@ const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
 
 const codeWrapper = css([
   {
+    display: 'block',
     border: codeBorder,
     borderRadius: border.radius.small,
     position: 'relative',
-    overflow: 'hidden',
     marginBottom: Utils.spacing(),
     '.prism-code:focus': {
       outline: 'none',
@@ -43,6 +43,7 @@ const liveCodePreview = css({
   minHeight: Utils.spacing('xlarge'),
   fontFamily: typography.fontFamily,
   borderBottom: codeBorder,
+  overflowY: 'scroll',
 });
 
 export const Code = ({ codeString, language, ...props }: CodeProps) =>
@@ -54,7 +55,9 @@ export const Code = ({ codeString, language, ...props }: CodeProps) =>
       scope={{ ...Components, ...Utils, colors }}
     >
       <LivePreview css={liveCodePreview} />
-      <LiveEditor />
+      <div css={css({ overflowY: 'scroll' })}>
+        <LiveEditor />
+      </div>
       <LiveError />
     </LiveProvider>
   ) : (

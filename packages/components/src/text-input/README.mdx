@@ -1,0 +1,87 @@
+---
+name: Text Input
+menu: Components
+route: /components/text-input
+---
+
+import { Input } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# Text Input
+
+A standard method of collecting user-inputted information.
+
+Each text input has a required label that floats on interaction. This can be
+overriden to a more traditional label-above-input style by adding the
+`labelBlock` prop.
+
+```jsx react-live
+<TextInput label="Text Input" />
+```
+
+## Types
+
+Text inputs support a range of input formats, some of which include automatic
+browser validation. These can be set by providing HTML input `type` attributtes:
+
+```jsx react-live
+<Form maxWidth="25rem">
+  <FormItem>
+    <TextInput label="Text" type="text" required />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Date" type="date" />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Email" type="email" required />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Number" type="number" required />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Password" type="password" />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Search" type="search" required />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Telephone" type="tel" required />
+  </FormItem>
+  <FormItem>
+    <TextInput label="URL" type="url" required />
+  </FormItem>
+</Form>
+```
+
+## States
+
+Text inputs offer different states to provide instant feedback to the user.
+
+### Error
+
+Errors are automatically handled as part of the HTML input type validation, and
+can also be manually triggered via the `error` prop.
+
+```jsx react-live
+<Form maxWidth="25rem">
+  <FormItem>
+    <TextInput label="Email (with default validation)" type="email" required />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Email (with error prop)" type="email" error />
+  </FormItem>
+</Form>
+```
+
+### Disabled
+
+Passing a standard HTML `disabled` attribute will render an input disabled,
+preventing user interaction.
+
+```jsx react-live
+<Form maxWidth="25rem">
+  <FormItem>
+    <TextInput label="Disabled Input" type="text" disabled />
+  </FormItem>
+</Form>
+```

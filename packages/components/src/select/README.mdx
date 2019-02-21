@@ -47,6 +47,56 @@ For shorter Select options, such as currency units, make use of the `unit` varia
 </Select>
 ```
 
+## Label
+
+Sometimes Select components need a label for extra context.
+
+```jsx react-live
+<Select label="Label Content">
+  <option value="">Select an option</option>
+  <option value="never-gonna">Never gonna</option>
+  <option value="give-you-up">give you up</option>
+  <option value="let-you-down">let you down</option>
+</Select>
+```
+
+### Flex
+
+On larger screens, Labels and inputs can be displayed alongside eachother via
+the `flex` prop, filling available space **evenly**.
+
+The input's [`flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
+value can be modified via `inputGrow`.
+
+```jsx react-live
+<Form legend="Flex Demo Form" maxWidth="40rem">
+  <FormItem>
+    <Select label="Example label" flex>
+      <option value="">Select an option</option>
+      <option value="never-gonna">Never gonna</option>
+      <option value="give-you-up">give you up</option>
+      <option value="let-you-down">let you down</option>
+    </Select>
+  </FormItem>
+  <FormItem>
+    <Select label="Example label" flex inputGrow="2">
+      <option value="">Select an option</option>
+      <option value="never-gonna">Never gonna</option>
+      <option value="give-you-up">give you up</option>
+      <option value="let-you-down">let you down</option>
+    </Select>
+  </FormItem>
+  <FormItem>
+    <Select label="Example label" flex inputGrow="3">
+      <option value="">Select an option</option>
+      <option value="never-gonna">Never gonna</option>
+      <option value="give-you-up">give you up</option>
+      <option value="let-you-down">let you down</option>
+    </Select>
+  </FormItem>
+</Form>
+```
+
 ## States
 
 ### Disabled

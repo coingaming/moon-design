@@ -11,14 +11,14 @@ type BannerItemProps = {
 };
 
 type BannerProps = BannerItemProps & {
-  width?: string;
+  maxWidth?: string;
 };
 
-const StyledBanner = styled.div<BannerProps>(({ horizontal, width }) => [
+const StyledBanner = styled.div<BannerProps>(({ horizontal, maxWidth }) => [
   {
     display: 'flex',
     position: 'relative', // For close button that positioned absolutely
-    width: width || 'fit-content',
+    width: '100%',
     height: 'auto',
     flexDirection: horizontal ? 'row' : 'column',
     justifyContent: horizontal ? 'space-between' : 'flex-start',
@@ -27,6 +27,9 @@ const StyledBanner = styled.div<BannerProps>(({ horizontal, width }) => [
     fontFamily: 'inherit', // Prevents links rendering as system fonts.
     backgroundColor: colors.neutral[60],
     borderRadius: horizontal ? border.radius.small : border.radius.default,
+  },
+  maxWidth && {
+    maxWidth,
   },
   !horizontal && {
     padding: spacing('xlarge'),
@@ -44,14 +47,14 @@ const BannerItem = styled.div<BannerItemProps>(({ horizontal }) => [
 
 const Banner: React.FC<BannerProps> = ({
   children,
-  width,
+  maxWidth,
   horizontal = false,
 }) => {
   const BannerItems = React.Children.map(children, child => (
     <BannerItem horizontal={horizontal}>{child}</BannerItem>
   ));
   return (
-    <StyledBanner width={width} horizontal={horizontal}>
+    <StyledBanner maxWidth={maxWidth} horizontal={horizontal}>
       {BannerItems}
     </StyledBanner>
   );
