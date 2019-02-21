@@ -32,6 +32,7 @@ const unitLarge = css({
 });
 
 const Title = styled.p({
+  marginBottom: 0,
   fontSize: rem(31),
   lineHeight: rem(38),
 });
@@ -48,14 +49,14 @@ const Text = styled.p({
 const CardBalance: React.FC<CardBalanceProps> = ({ from, to }) => {
   return (
     <div>
-      <Text>{from.currency}</Text>
+      <Text css={{ marginBottom: 0 }}>{from.currency}</Text>
       <Title>
         {`${from.value} `}
         <abbr css={[unit, unitLarge]} title={from.unitTitle || from.currency}>
           {from.unit}
         </abbr>
       </Title>
-      <Text css={{ marginBottom: spacing() }}>
+      <Text>
         {`${to.value} `}
         <abbr css={unit} title={to.unitTitle || to.currency}>
           {to.unit}

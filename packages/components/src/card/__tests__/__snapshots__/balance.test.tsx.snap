@@ -5,9 +5,11 @@ exports[`CardBalance renders correctly 1`] = `
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
+  margin-bottom: 0;
 }
 
 .emotion-2 {
+  margin-bottom: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
 }
@@ -23,7 +25,6 @@ exports[`CardBalance renders correctly 1`] = `
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  margin-bottom: 1rem;
 }
 
 .emotion-3 {
@@ -67,9 +68,11 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
+  margin-bottom: 0;
 }
 
 .emotion-2 {
+  margin-bottom: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
 }
@@ -85,7 +88,6 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  margin-bottom: 1rem;
 }
 
 .emotion-3 {
