@@ -46,11 +46,20 @@ const cardModifiers = {
   outline: cardOutline,
 };
 
+/* To be removed */
+const cardHacks = css({
+  fieldset: {
+    marginTop: spacing(),
+    marginBottom: 0,
+  },
+});
+
 /**
  * Component
  */
 const Card = styled.div<CardProps>(({ flex, template }) => [
   card,
+  cardHacks,
   flex && cardFlex,
   cardModifiers[template || 'front'],
 ]);

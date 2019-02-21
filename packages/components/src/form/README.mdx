@@ -33,26 +33,24 @@ Handling user-submitted information.
 An example sign-up form, making use of other input components to collect user-entered information.
 
 ```jsx react-live
-<Form legend="Sign-up" maxWidth="30rem">
+<Form legend="Sign-up" maxWidth="25rem">
   <FormItem>
-    <Label flex text="Name">
-      <input type="text" placeholder="e.g. John Appleseed" />
-    </Label>
+    <TextInput label="Name" type="text" placeholder="e.g. John Appleseed" />
   </FormItem>
   <FormItem>
-    <Label flex text="Email">
-      <input type="email" placeholder="e.g. john@coingaming.io" />
-    </Label>
+    <TextInput
+      label="Email"
+      type="email"
+      placeholder="e.g. john@coingaming.io"
+    />
   </FormItem>
   <FormItem>
-    <Label flex text="Country of residence">
-      <Select>
-        <option value="">Select a country</option>
-        <option value="estonia">Estonia</option>
-        <option value="united-kingdom">United Kingdom</option>
-        <option value="other">Other</option>
-      </Select>
-    </Label>
+    <Select label="Country of residence" flex>
+      <option value="">Select a country</option>
+      <option value="estonia">Estonia</option>
+      <option value="united-kingdom">United Kingdom</option>
+      <option value="other">Other</option>
+    </Select>
   </FormItem>
   <FormItem>
     <label>
