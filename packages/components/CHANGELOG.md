@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/coingaming/sportsbet-design/compare/v0.7.1...v0.8.0) (2019-02-21)
+
+
+### Features
+
+* **banner:** set a 'minWidth' for a banner instead of 'width' ([f79eea3](https://github.com/coingaming/sportsbet-design/commit/f79eea3))
+* **cashier:** basic grid layout for cashier ([4372113](https://github.com/coingaming/sportsbet-design/commit/4372113))
+* **private:** add private Input helper component ([63e3b02](https://github.com/coingaming/sportsbet-design/commit/63e3b02))
+* **TextInput:** create TextInput component using private helper ([63ce3b1](https://github.com/coingaming/sportsbet-design/commit/63ce3b1))
+
+
+
+
+
 ## [0.7.1](https://github.com/coingaming/sportsbet-design/compare/v0.7.0...v0.7.1) (2019-02-20)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
