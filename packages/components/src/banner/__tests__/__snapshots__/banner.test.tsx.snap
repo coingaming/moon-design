@@ -336,6 +336,140 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
 </div>
 `;
 
+exports[`Banner renders correctly with maxWidth prop 1`] = `
+.emotion-1 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  width: 100%;
+}
+
+.emotion-1:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  line-height: 2.5625rem;
+}
+
+.emotion-3 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-3.is-active:not([disabled]),
+.emotion-3.has-focus:not([disabled]),
+.emotion-3:hover:not([disabled]),
+.emotion-3:active:not([disabled]),
+.emotion-3:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-3.has-focus,
+.emotion-3:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: normal;
+  -ms-flex-line-pack: normal;
+  align-content: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-family: inherit;
+  background-color: #1a3442;
+  border-radius: 8px;
+  max-width: 600px;
+  padding: 2.5rem;
+}
+
+<div
+  className="emotion-5"
+>
+  <div
+    className="emotion-1"
+  >
+    <h2
+      className="emotion-0"
+    >
+      Need help?
+    </h2>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <button
+      className="emotion-3"
+    >
+      Contact Us
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Banner renders horizontally 1`] = `
 .emotion-1 {
   padding: 0.5rem 1.5rem;
