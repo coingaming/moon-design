@@ -15,6 +15,11 @@ exports[`Card Templates renders as back 1`] = `
   box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
 }
 
+.emotion-0 fieldset {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 <div
   className="emotion-0"
 >
@@ -40,6 +45,11 @@ exports[`Card Templates renders as front 1`] = `
   box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
 }
 
+.emotion-0 fieldset {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 <div
   className="emotion-0"
 >
@@ -63,6 +73,11 @@ exports[`Card Templates renders as outline 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: #304854;
+}
+
+.emotion-0 fieldset {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 <div
@@ -106,6 +121,11 @@ exports[`Card renders with flex layout 1`] = `
   background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),  radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
   background-blend-mode: luminosity;
   box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
+}
+
+.emotion-0 fieldset {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 <div

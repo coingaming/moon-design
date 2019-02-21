@@ -14,10 +14,15 @@ type LabelTextProps = {
   flex?: boolean;
 };
 
-type LabelProps = {
-  text: string;
+type LabelSizing = {
   flex?: boolean;
   inputGrow?: number;
+};
+
+type LabelProps = LabelSizing & {
+  text: string;
+  inline?: boolean;
+  htmlFor?: string;
 };
 
 /**
@@ -51,13 +56,22 @@ const labelFlex = (inputGrow: number = 1) =>
 /**
  * Component
  */
-const Label: React.FC<LabelProps> = ({ text, flex, children, inputGrow }) => {
-  return (
-    <label css={flex && labelFlex(inputGrow)}>
+const Label: React.FC<LabelProps> = ({
+  text,
+  flex,
+  children,
+  inline,
+  inputGrow,
+  ...props
+}) => {
+  return inline ? (
+    <label {...props}>{text}</label>
+  ) : (
+    <label css={flex && labelFlex(inputGrow)} {...props}>
       <LabelText flex={flex}>{text}</LabelText>
       {React.Children.only(children)}
     </label>
   );
 };
 
-export { Label, LabelProps };
+export { Label, LabelProps, LabelSizing };
