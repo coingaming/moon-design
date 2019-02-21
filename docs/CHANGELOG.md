@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/coingaming/sportsbet-design/compare/v0.7.1...v0.8.0) (2019-02-21)
+
+
+### Bug Fixes
+
+* **docs:** overflow inline code ([1e86eb2](https://github.com/coingaming/sportsbet-design/commit/1e86eb2))
+* **docs:** prevent main overflow ([1e164ed](https://github.com/coingaming/sportsbet-design/commit/1e164ed))
+
+
+### Features
+
+* **docs:** switch to modularScale headings for demo ([b8bf1a3](https://github.com/coingaming/sportsbet-design/commit/b8bf1a3))
+
+
+
+
+
 ## [0.7.1](https://github.com/coingaming/sportsbet-design/compare/v0.7.0...v0.7.1) (2019-02-20)
 
 
