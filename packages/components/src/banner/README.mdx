@@ -17,7 +17,7 @@ import { PropsTable } from 'docs';
 Banners are generic containers for displaying important information to the user. They usually contain a heading, descriptive text and a call to action.
 
 ```jsx react-live
-<Banner width="600px">
+<Banner maxWidth="400px">
   Something
   <Heading size="foxtrot" element="h2">
     Need help?
@@ -36,8 +36,8 @@ Banners are generic containers for displaying important information to the user.
 Banner content can also be switched to a `horizontal` orientation.
 
 ```jsx react-live
-<Banner width="600px" horizontal>
-  <p>Don't have any bitcoins?</p>
+<Banner maxWidth="800px" horizontal>
+  Don't have any bitcoins?
   <Button fullWidth modifier="secondary">
     Buy bitcoins
   </Button>
@@ -49,8 +49,8 @@ Banner content can also be switched to a `horizontal` orientation.
 `BannerToggle` (an extension of `Toggle`) can be used to offer users with the option to close a Banner.
 
 ```jsx react-live
-<Banner width="600px" horizontal>
-  <p>Don't have any bitcoins?</p>
+<Banner maxWidth="800px" horizontal>
+  Don't have any bitcoins?
   <Button fullWidth modifier="secondary">
     Buy bitcoins
   </Button>
@@ -63,7 +63,7 @@ Banner content can also be switched to a `horizontal` orientation.
 ```
 
 ```jsx react-live
-<Banner width="600px">
+<Banner maxWidth="400px">
   <Heading size="foxtrot" element="h2">
     Need help?
   </Heading>
