@@ -12,18 +12,22 @@ import { Meta } from './meta';
 const grid = css({
   [mq(breakpoints.medium)]: {
     display: 'grid',
-    gridTemplateColumns: '16rem auto',
+    gridTemplateColumns: '16rem minmax(0, 1fr)',
     gridTemplateAreas: `
       "nav main"
     `,
     minHeight: '100vh',
+    width: '100vw',
   },
 });
 
 const Main = styled.main({
   padding: `${spacing('large')} ${spacing()}`,
   [mq(breakpoints.medium)]: {
+    margin: '0 auto',
     padding: spacing('large'),
+    maxWidth: '900px',
+    width: '100%',
   },
 });
 
