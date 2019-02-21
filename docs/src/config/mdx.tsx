@@ -1,12 +1,15 @@
 /** @jsx jsx */ jsx;
 import { jsx, css } from '@emotion/core';
 import styled from '@emotion/styled';
+import { modularScale } from 'polished';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link } from '@heathmont/sportsbet-components';
-import { border, colors } from '@heathmont/sportsbet-tokens';
+import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import * as Utils from '@heathmont/sportsbet-utils';
 import { Code } from '../components/code';
 import { Children } from '../types';
+
+const modularScaleConfig = ['1rem', 'augFourth'];
 
 const maxWidth = css({
   maxWidth: '40rem',
@@ -32,24 +35,55 @@ const Table = styled.table([
  */
 export const mdxComponents = {
   h1: ({ children }: Children) => (
-    <Heading element="h1" size="alpha">
+    <h1
+      css={[
+        css({
+          fontSize: modularScale(4, ...modularScaleConfig),
+          lineHeight: 'normal',
+        }),
+      ]}
+    >
       {children}
-    </Heading>
+    </h1>
   ),
   h2: ({ children }: Children) => (
-    <Heading element="h2" size="charlie">
+    <h2
+      css={[
+        css({
+          fontSize: modularScale(3, ...modularScaleConfig),
+          lineHeight: 'normal',
+          fontWeight: typography.fontWeight.normal,
+        }),
+      ]}
+    >
       {children}
-    </Heading>
+    </h2>
   ),
   h3: ({ children }: Children) => (
-    <Heading element="h3" size="delta">
+    <h3
+      css={[
+        css({
+          fontSize: modularScale(2, ...modularScaleConfig),
+          lineHeight: 'normal',
+          fontWeight: typography.fontWeight.semibold,
+        }),
+      ]}
+    >
       {children}
-    </Heading>
+    </h3>
   ),
   h4: ({ children }: Children) => (
-    <Heading element="h4" size="echo">
+    <h4
+      css={[
+        css({
+          fontSize: modularScale(1, ...modularScaleConfig),
+          lineHeight: 'normal',
+          fontWeight: typography.fontWeight.semibold,
+        }),
+      ]}
+    >
       {children}
-    </Heading>
+    </h4>
   ),
   p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
