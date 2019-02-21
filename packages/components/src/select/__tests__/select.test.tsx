@@ -40,6 +40,40 @@ describe('Select', () => {
     expect(select).toMatchSnapshot();
   });
 
+  describe('renders with label', () => {
+    test('above the input', () => {
+      const select = create(
+        <Select label="Example label">
+          <TestOptions />
+        </Select>
+      );
+
+      expect(select).toMatchSnapshot();
+    });
+
+    describe('as a flex layout', () => {
+      test('evenly spaced by default', () => {
+        const select = create(
+          <Select label="Example label" flex>
+            <TestOptions />
+          </Select>
+        );
+
+        expect(select).toMatchSnapshot();
+      });
+
+      test('with adjusted input size', () => {
+        const select = create(
+          <Select label="Example label" flex inputGrow={2}>
+            <TestOptions />
+          </Select>
+        );
+
+        expect(select).toMatchSnapshot();
+      });
+    });
+  });
+
   describe('renders as disabled', () => {
     test('for default select input', () => {
       const select = create(
