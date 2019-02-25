@@ -29,6 +29,7 @@ const codeWrapper = css([
     border: codeBorder,
     borderRadius: border.radius.small,
     position: 'relative',
+    overflow: 'hidden',
     marginBottom: Utils.spacing(),
     '.prism-code:focus': {
       outline: 'none',
