@@ -8,3 +8,4 @@ export * from './link';
 export * from './select';
 export * from './text-input';
 export * from './toggle';
+export * from './tooltip';
