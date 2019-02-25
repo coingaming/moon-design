@@ -48,7 +48,7 @@
     "@emotion/styled": "10.0.7",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
-    "polished": "2.3.3",
+    "polished": "3.0.0",
     "react": "16.8.1",
     "react-dom": "16.8.1"
   },
