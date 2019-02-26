@@ -12,13 +12,16 @@ const inputColors = {
   label: colors.neutral[20],
   text: colors.neutral[10],
   icon: colors.neutral[30],
-  border: colors.neutral[50],
+  border: colors.neutral[40],
   background: 'transparent',
   disabled: colors.neutral[50],
 };
 
+const inputBorder = `${inputBorderWidth}px solid ${inputColors.border}`;
+
 export {
   inputAnimationSpeed,
+  inputBorder,
   inputBorderWidth,
   inputColors,
   inputIconSize,
