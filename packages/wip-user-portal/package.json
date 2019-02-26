@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@heathmont/sportsbet-wip-cashier",
+  "name": "@heathmont/sportsbet-wip-user-portal",
   "version": "0.8.0",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
