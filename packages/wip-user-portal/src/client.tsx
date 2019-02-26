@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { CashierApp } from './app/CashierApp';
+import { App } from './app/App';
 
 const app = document.getElementById('app');
-ReactDOM.hydrate(<CashierApp />, app);
+ReactDOM.hydrate(<App />, app);
