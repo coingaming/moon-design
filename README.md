@@ -73,11 +73,11 @@ Our project's style guide is built using [Gatsby](https://www.gatsbyjs.org/), an
 
 [Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`packages/assets`](packages/assets/README.md) before build.
 
-### Cashier
+### User portal
 
-All scripts defined in [packages/wip-cashier](packages/wip-cashier/README.md) can be run via `yarn cashier <script-name>`.
+All scripts defined in [packages/wip-user-portal](packages/wip-user-portal/README.md) can be run via `yarn user-portal <script-name>`.
 
-See the [Cashier README](packages/wip-cashier/README.md) for more details.
+See the [User Portal README](packages/wip-user-portal/README.md) for more details.
 
 ## Contributing
 
