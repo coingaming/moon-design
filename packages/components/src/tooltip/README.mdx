@@ -1,0 +1,75 @@
+---
+name: Tooltip
+menu: Components
+route: /components/tooltip
+---
+
+import { Tooltip } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# Tooltip
+
+Tooltips offer further contextual information to users.
+
+```jsx react-live
+<div style={{ height: '3em' }}>
+  <Tooltip active message="Hello, I'm a Tooltip." />
+</div>
+```
+
+By default Tooltips are aligned to the left, but can be set to `align="right"`.
+
+They can be shown/hidden by toggling the `active` prop.
+
+## Usage
+
+When using Tooltips, you **must** provide a unique ID and reference as the
+`aria-describedby` in the origin element. This will ensure users accessing via assitive technologies
+(such as screenreaders) will also benefit from the contextual info.
+
+```jsx react-live
+<Form maxWidth="30em">
+  <FormItem>
+    <TextInput
+      label="Password"
+      type="password"
+      aria-describedby="eg-tooltip-1"
+    />
+    <Tooltip
+      id="eg-tooltip-1"
+      active
+      align="right"
+      message="Any hint or additional info."
+    />
+  </FormItem>
+</Form>
+```
+
+## States
+
+### Error
+
+Adding the `error` prop will trigger the Tooltip's error styles.
+
+```jsx react-live
+<Form maxWidth="30em">
+  <FormItem>
+    <TextInput
+      label="Password"
+      type="password"
+      aria-describedby="eg-tooltip-1"
+    />
+    <Tooltip
+      id="eg-tooltip-1"
+      error
+      active
+      align="right"
+      message="Your password is not strong enough."
+    />
+  </FormItem>
+</Form>
+```
+
+## Props
+
+<PropsTable of={Tooltip} />
