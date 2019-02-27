@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lists listInline renders lists inline 1`] = `
+Array [
+  .emotion-3 {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.emotion-0 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<ul
+    className="emotion-3"
+  >
+    <li
+      className="emotion-0"
+    >
+      Item 1
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 2
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 3
+    </li>
+  </ul>,
+  .emotion-3 {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.emotion-0 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<ol
+    className="emotion-3"
+  >
+    <li
+      className="emotion-0"
+    >
+      Item 1
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 2
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 3
+    </li>
+  </ol>,
+]
+`;
+
+exports[`Lists listPlain resets list-style-type correctly 1`] = `
+Array [
+  .emotion-3 {
+  display: block;
+  margin-left: 0;
+}
+
+.emotion-0 {
+  display: block;
+  list-style-type: none;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<ul
+    className="emotion-3"
+  >
+    <li
+      className="emotion-0"
+    >
+      Item 1
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 2
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 3
+    </li>
+  </ul>,
+  .emotion-3 {
+  display: block;
+  margin-left: 0;
+}
+
+.emotion-0 {
+  display: block;
+  list-style-type: none;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<ol
+    className="emotion-3"
+  >
+    <li
+      className="emotion-0"
+    >
+      Item 1
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 2
+    </li>
+    <li
+      className="emotion-0"
+    >
+      Item 3
+    </li>
+  </ol>,
+]
+`;
