@@ -1,7 +1,5 @@
-/** @jsx jsx */ jsx;
 import * as React from 'react';
 import { rem } from 'polished';
-import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { mq, spacing } from '@heathmont/sportsbet-utils';

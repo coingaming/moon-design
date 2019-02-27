@@ -1,5 +1,4 @@
 import { css } from '@emotion/core';
-import { rem } from 'polished';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 
