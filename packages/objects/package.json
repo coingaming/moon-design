@@ -1,5 +1,5 @@
 {
-  "name": "@heathmont/sportsbet-components",
+  "name": "@heathmont/sportsbet-objects",
   "version": "0.9.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -7,19 +7,12 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build:icons": "npx @svgr/cli --ext tsx --config-file src/icons/config/svgr.js -d src/icons/svg ../assets/src/icons/svg",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix",
     "test": "jest"
   },
   "dependencies": {
-    "@emotion/core": "10.0.7",
-    "@emotion/styled": "10.0.7",
-    "@heathmont/sportsbet-objects": "^0.9.0",
     "@heathmont/sportsbet-tokens": "^0.9.0",
     "@heathmont/sportsbet-utils": "^0.9.0",
-    "@types/react": "16.7.18",
-    "@types/react-dom": "16.0.11",
-    "react": "16.8.1",
-    "react-dom": "16.8.1"
+    "polished": "3.0.0"
   }
 }
