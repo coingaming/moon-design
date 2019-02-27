@@ -14,3 +14,8 @@ Each script in this package can then be run via `yarn user-portal <script-name>`
 
 - `yarn user-portal build` - creates a static isomorphic build.
 - `yarn user-portal dev` - starts a hot-reloading development environment at [localhost:7024](http://localhost:7024/).
+
+## File structure
+
+- `app/cashier/components` - common but cashier-specific components
+- `app/cashier/views/exchange/dumb-components` - pre-filled dummy components (e.g buttons, banners etc.)
