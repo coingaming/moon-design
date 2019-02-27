@@ -3,9 +3,9 @@ import { jsx, css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { modularScale } from 'polished';
 import { preToCodeBlock } from 'mdx-utils';
-import { Heading, Link } from '@heathmont/sportsbet-components';
+import { Link } from '@heathmont/sportsbet-components';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
-import * as Utils from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 import { Code } from '../components/code';
 import { Children } from '../types';
 
@@ -23,7 +23,7 @@ const Table = styled.table([
       borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
     },
     'th, td': {
-      padding: `${Utils.spacing('small')} 0`,
+      padding: `${spacing('small')} 0`,
     },
   },
   maxWidth,
