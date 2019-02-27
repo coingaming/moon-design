@@ -21,13 +21,14 @@ exports[`Form renders correctly 1`] = `
 }
 
 .emotion-4 {
+  display: block;
   margin-left: 0;
 }
 
 .emotion-1 {
   display: block;
-  margin-bottom: 1rem;
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {
@@ -108,13 +109,14 @@ exports[`Form renders with HTML form attributes 1`] = `
 }
 
 .emotion-4 {
+  display: block;
   margin-left: 0;
 }
 
 .emotion-1 {
   display: block;
-  margin-bottom: 1rem;
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {
@@ -198,13 +200,14 @@ exports[`Form renders with custom maxWidth 1`] = `
 }
 
 .emotion-4 {
+  display: block;
   margin-left: 0;
 }
 
 .emotion-1 {
   display: block;
-  margin-bottom: 1rem;
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {

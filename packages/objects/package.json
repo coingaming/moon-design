@@ -7,7 +7,8 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
+    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix",
+    "test": "jest"
   },
   "dependencies": {
     "@heathmont/sportsbet-tokens": "^0.9.0",

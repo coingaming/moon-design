@@ -14,6 +14,7 @@
   "dependencies": {
     "@emotion/core": "10.0.7",
     "@emotion/styled": "10.0.7",
+    "@heathmont/sportsbet-objects": "^0.9.0",
     "@heathmont/sportsbet-tokens": "^0.9.0",
     "@heathmont/sportsbet-utils": "^0.9.0",
     "@types/react": "16.7.18",
