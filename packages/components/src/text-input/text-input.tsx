@@ -4,6 +4,7 @@ import { css, jsx } from '@emotion/core';
 import { rem } from 'polished';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
+import { hyphenate } from '@heathmont/sportsbet-utils';
 import { Input, inputSpacing, inputAnimationSpeed } from '../private/input';
 jsx;
 
@@ -38,9 +39,7 @@ const inputsWithDefaultBlockLabels = ['date'];
 const hasDefaultBlockLabel = (inputType: TextInputTypes) =>
   inputsWithDefaultBlockLabels.some(type => type === inputType);
 
-/* Converts a string to 'hyphenated-lowercase' */
-const createId = (id: string) =>
-  `TextInput-${id.replace(/\W+/g, '-').toLowerCase()}`;
+const createId = (id: string) => `TextInput-${hyphenate(id)}`;
 
 /**
  * Styles

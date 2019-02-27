@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { rem } from 'polished';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import {
-  inputBorderWidth,
+  inputBorder,
   inputColors,
   inputSpacing,
   inputIconSize,
@@ -23,9 +23,7 @@ export const Input = styled.input((props: InputProps) => [
     font: 'inherit',
     color: inputColors.text,
     backgroundColor: inputColors.background,
-    borderStyle: border.style,
-    borderWidth: `${inputBorderWidth}px`,
-    borderColor: inputColors.border,
+    border: inputBorder,
     borderRadius: border.radius.small,
     transition: `border-color ${inputAnimationSpeed} ease`,
     WebkitAppearance: 'none',
