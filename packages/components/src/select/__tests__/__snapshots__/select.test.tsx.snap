@@ -10,9 +10,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -91,9 +89,7 @@ exports[`Select renders a select input with options 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -168,9 +164,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -250,9 +244,7 @@ exports[`Select renders as disabled for default select input 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -328,9 +320,7 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -403,9 +393,7 @@ exports[`Select renders as full-width for default select input 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -474,9 +462,7 @@ exports[`Select renders with label above the input 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -563,9 +549,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -684,9 +668,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #304854;
+  border: 1px solid #415662;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;

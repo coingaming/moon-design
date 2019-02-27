@@ -1,7 +1,12 @@
-import { border, colors, spacing } from '@heathmont/sportsbet-tokens';
+import {
+  animation,
+  border,
+  colors,
+  spacing,
+} from '@heathmont/sportsbet-tokens';
 
 const inputBorderWidth = border.width;
-const inputAnimationSpeed = '0.2s';
+const inputAnimationSpeed = `${animation.speed.fast}s`;
 
 const inputSpacing = spacing.default - inputBorderWidth * 2; // px
 
@@ -12,13 +17,16 @@ const inputColors = {
   label: colors.neutral[20],
   text: colors.neutral[10],
   icon: colors.neutral[30],
-  border: colors.neutral[50],
+  border: colors.neutral[40],
   background: 'transparent',
   disabled: colors.neutral[50],
 };
 
+const inputBorder = `${inputBorderWidth}px solid ${inputColors.border}`;
+
 export {
   inputAnimationSpeed,
+  inputBorder,
   inputBorderWidth,
   inputColors,
   inputIconSize,
