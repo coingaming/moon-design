@@ -3,7 +3,7 @@ import * as React from 'react';
 import { jsx, css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { math } from 'polished';
-import { border, colors } from '@heathmont/sportsbet-tokens';
+import { animation, border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { slideUpFade } from './animation';
 
@@ -41,7 +41,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
       borderRadius: border.radius.small,
       boxShadow:
         '0 0 0.25rem 0 rgba(0,0,0,0.08), 0 0.5rem 0.5rem 0 rgba(0,0,0,0.08), 0 1rem 1rem 0 rgba(0,0,0,0.08)',
-      animation: `${slideUpFade} 0.4s ease-in-out`,
+      animation: `${slideUpFade} ${animation.speed.default}s ease-in-out`,
       animationFillMode: 'forwards',
       willChange: 'transform',
       '&, &::after': {
