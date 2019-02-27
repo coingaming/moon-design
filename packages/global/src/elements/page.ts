@@ -17,7 +17,7 @@ export const page = css({
     textSizeAdjust: '100%' /* [1] */,
     fontDisplay: 'swap',
     textRendering: 'optimizeLegibility',
-    '-moz-osx-font-smoothing': 'grayscale' /* [2] */,
-    '-webkit-font-smoothing': 'antialiased' /* [2] */,
+    MozOsxFontSmoothing: 'grayscale' /* [2] */,
+    WebkitFontSmoothing: 'antialiased' /* [2] */,
   },
 });
