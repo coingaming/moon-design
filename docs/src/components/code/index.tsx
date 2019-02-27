@@ -47,13 +47,18 @@ const liveCodePreview = css({
   overflowY: 'scroll',
 });
 
+/* Ensures that we can use `css` props + not have to worry about wrapper divs */
+const transformCode = (src: any) =>
+  `/** @jsx jsx */<React.Fragment>${src}</React.Fragment>`;
+
 export const Code = ({ codeString, language, ...props }: CodeProps) =>
   props['react-live'] ? (
     <LiveProvider
       mountStylesheet={false}
       code={codeString}
       css={codeWrapper}
-      scope={{ ...Components, ...Utils, colors }}
+      scope={{ jsx, ...Components, ...Utils, colors }}
+      transformCode={transformCode}
     >
       <LivePreview css={liveCodePreview} />
       <div css={css({ overflowY: 'scroll' })}>
