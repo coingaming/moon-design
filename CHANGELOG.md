@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/coingaming/sportsbet-design/compare/v0.8.0...v0.9.0) (2019-02-27)
+
+
+### Bug Fixes
+
+* **docs:** prevent code preview overflow ([c83b03e](https://github.com/coingaming/sportsbet-design/commit/c83b03e))
+
+
+### Features
+
+* **Checkbox:** create checkbox component ([37deef7](https://github.com/coingaming/sportsbet-design/commit/37deef7))
+* **input:** update borderColor and add inputBorder helper ([3111e66](https://github.com/coingaming/sportsbet-design/commit/3111e66))
+* **tokens:** add animation tokens ([aa13a6b](https://github.com/coingaming/sportsbet-design/commit/aa13a6b))
+* **tooltip:** create tooltip component ([0530cc0](https://github.com/coingaming/sportsbet-design/commit/0530cc0))
+* **utils:** add hyphenate function ([7182590](https://github.com/coingaming/sportsbet-design/commit/7182590))
+
+
+
+
+
 # [0.8.0](https://github.com/coingaming/sportsbet-design/compare/v0.7.1...v0.8.0) (2019-02-21)
 
 
