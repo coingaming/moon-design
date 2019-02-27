@@ -9,6 +9,9 @@
       "path": "../tokens"
     },
     {
+      "path": "../objects"
+    },
+    {
       "path": "../utils"
     }
   ],

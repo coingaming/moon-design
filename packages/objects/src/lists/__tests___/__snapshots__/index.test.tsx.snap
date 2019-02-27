@@ -1,8 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Lists listInline renders lists inline 1`] = `
-Array [
-  .emotion-3 {
+.emotion-3 {
   display: inline-block;
   margin-left: 0;
 }
@@ -17,7 +16,8 @@ Array [
   content: "\\200B";
 }
 
-<ul
+<div>
+  <ul
     className="emotion-3"
   >
     <li
@@ -35,23 +35,8 @@ Array [
     >
       Item 3
     </li>
-  </ul>,
-  .emotion-3 {
-  display: inline-block;
-  margin-left: 0;
-}
-
-.emotion-0 {
-  display: inline-block;
-  list-style-type: none;
-}
-
-.emotion-0:before {
-  position: absolute;
-  content: "\\200B";
-}
-
-<ol
+  </ul>
+  <ol
     className="emotion-3"
   >
     <li
@@ -69,13 +54,12 @@ Array [
     >
       Item 3
     </li>
-  </ol>,
-]
+  </ol>
+</div>
 `;
 
 exports[`Lists listPlain resets list-style-type correctly 1`] = `
-Array [
-  .emotion-3 {
+.emotion-3 {
   display: block;
   margin-left: 0;
 }
@@ -90,7 +74,8 @@ Array [
   content: "\\200B";
 }
 
-<ul
+<div>
+  <ul
     className="emotion-3"
   >
     <li
@@ -108,23 +93,8 @@ Array [
     >
       Item 3
     </li>
-  </ul>,
-  .emotion-3 {
-  display: block;
-  margin-left: 0;
-}
-
-.emotion-0 {
-  display: block;
-  list-style-type: none;
-}
-
-.emotion-0:before {
-  position: absolute;
-  content: "\\200B";
-}
-
-<ol
+  </ul>
+  <ol
     className="emotion-3"
   >
     <li
@@ -142,6 +112,6 @@ Array [
     >
       Item 3
     </li>
-  </ol>,
-]
+  </ol>
+</div>
 `;
