@@ -5,89 +5,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.8.0](https://github.com/coingaming/sportsbet-design/compare/v0.7.1...v0.8.0) (2019-02-21)
 
-
 ### Features
 
-* **cashier:** basic grid layout for cashier ([4372113](https://github.com/coingaming/sportsbet-design/commit/4372113))
-
-
-
-
+- **cashier:** basic grid layout for cashier ([4372113](https://github.com/coingaming/sportsbet-design/commit/4372113))
 
 ## [0.7.1](https://github.com/coingaming/sportsbet-design/compare/v0.7.0...v0.7.1) (2019-02-20)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
 
-
-
-
-
 # [0.7.0](https://github.com/coingaming/sportsbet-design/compare/v0.6.0...v0.7.0) (2019-02-19)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
 
-
-
-
-
 # [0.6.0](https://github.com/coingaming/sportsbet-design/compare/v0.5.0...v0.6.0) (2019-02-18)
-
 
 ### Features
 
-* **cashier:** ssr for cashier ([c43c802](https://github.com/coingaming/sportsbet-design/commit/c43c802))
-
-
-
-
+- **cashier:** ssr for cashier ([c43c802](https://github.com/coingaming/sportsbet-design/commit/c43c802))
 
 # [0.5.0](https://github.com/coingaming/sportsbet-design/compare/v0.4.0...v0.5.0) (2019-02-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
 
-
-
-
-
 # [0.4.0](https://github.com/coingaming/sportsbet-design/compare/v0.3.1...v0.4.0) (2019-02-15)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
-
-
-
-
 
 ## [0.3.1](https://github.com/coingaming/sportsbet-design/compare/v0.3.0...v0.3.1) (2019-02-15)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
 
-
-
-
-
 # [0.3.0](https://github.com/coingaming/sportsbet-design/compare/v0.2.0...v0.3.0) (2019-02-14)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
-
-
-
-
 
 # [0.2.0](https://github.com/coingaming/sportsbet-design/compare/v0.1.0...v0.2.0) (2019-02-04)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
 
-
-
-
-
 # [0.1.0](https://github.com/coingaming/sportsbet-design/compare/v0.0.3...v0.1.0) (2019-01-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-cashier
-
-
-
-
 
 ## [0.0.3](https://github.com/coingaming/sportsbet-design/compare/v0.0.2...v0.0.3) (2019-01-25)
 
