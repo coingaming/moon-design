@@ -8,7 +8,7 @@ describe('Lists', () => {
   describe('listPlain', () => {
     test('resets list-style-type correctly', () => {
       const list = create(
-        <React.Fragment>
+        <div>
           <ul css={listPlain}>
             <li css={listPlainItem}>Item 1</li>
             <li css={listPlainItem}>Item 2</li>
@@ -19,7 +19,7 @@ describe('Lists', () => {
             <li css={listPlainItem}>Item 2</li>
             <li css={listPlainItem}>Item 3</li>
           </ol>
-        </React.Fragment>
+        </div>
       );
 
       expect(list).toMatchSnapshot();
@@ -29,7 +29,7 @@ describe('Lists', () => {
   describe('listInline', () => {
     test('renders lists inline', () => {
       const list = create(
-        <React.Fragment>
+        <div>
           <ul css={listInline}>
             <li css={listInlineItem}>Item 1</li>
             <li css={listInlineItem}>Item 2</li>
@@ -40,7 +40,7 @@ describe('Lists', () => {
             <li css={listInlineItem}>Item 2</li>
             <li css={listInlineItem}>Item 3</li>
           </ol>
-        </React.Fragment>
+        </div>
       );
 
       expect(list).toMatchSnapshot();
