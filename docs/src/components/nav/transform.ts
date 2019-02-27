@@ -1,5 +1,5 @@
 import { PagesData } from '../../types';
-const sections = ['Global', 'Tokens', 'Components', 'Utils'];
+const sections = ['Global', 'Tokens', 'Components', 'Objects', 'Utils'];
 
 export const transformSections = (data: PagesData) =>
   sections.map(section => {

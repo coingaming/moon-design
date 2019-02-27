@@ -5,6 +5,7 @@ import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Components from '@heathmont/sportsbet-components';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
+import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 import { syntaxStyles } from './prism';
 
@@ -57,7 +58,7 @@ export const Code = ({ codeString, language, ...props }: CodeProps) =>
       mountStylesheet={false}
       code={codeString}
       css={codeWrapper}
-      scope={{ jsx, ...Components, ...Utils, colors }}
+      scope={{ jsx, ...Components, ...Objects, ...Utils, colors }}
       transformCode={transformCode}
     >
       <LivePreview css={liveCodePreview} />
