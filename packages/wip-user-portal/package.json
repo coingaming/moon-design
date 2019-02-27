@@ -8,11 +8,19 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean && NODE_ENV=production webpack --progress --display-error-details",
+    "build": "NODE_ENV=production webpack --progress --display-error-details",
+    "bundlesize": "yarn build && bundlesize",
     "clean": "rimraf **/{lib,dist,.cache,public}/",
     "dev": "webpack --watch --progress & nodemon dist/server.bundle.js",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
+  "bundlesize": [
+    {
+      "path": "./dist/main.bundle.js",
+      "maxSize": "120 kB",
+      "compression": "gzip"
+    }
+  ],
   "dependencies": {
     "@emotion/core": "10.0.7",
     "@emotion/styled": "10.0.7",
@@ -31,6 +39,7 @@
     "@babel/preset-env": "7.3.1",
     "@babel/preset-react": "7.0.0",
     "@types/express": "4.16.1",
+    "bundlesize": "0.17.1",
     "nodemon": "1.18.10",
     "webpack": "4.29.3",
     "webpack-bundle-analyzer": "3.0.4",
