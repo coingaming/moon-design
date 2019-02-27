@@ -10,10 +10,12 @@ A collection of hard-coded values that define the Sportsbet visual language.
 ```js
 import {
   base,
+  animation,
   border,
   breakpoints,
   colors,
   spacing,
+  typography,
 } from '@heathmont/sportsbet-tokens';
 ```
 
@@ -30,6 +32,12 @@ A foundation for other tokens to be built upon.
 | fontSize   | number | 16           |
 | lineHeight | number | 20           |
 | spacing    | number | 16           |
+
+## Animation
+
+| Key   | Type   | Variants            |
+| :---- | :----- | :------------------ |
+| speed | object | default, fast, slow |
 
 ## Border
 
@@ -79,3 +87,10 @@ With the exception of the extra small value, all spacing is defined in increment
 ### Applying Spacing
 
 Spacing can be accessed via `spacing()` function in [utils](/utils/spacing).
+
+## Typography
+
+| Key        | Type         | Variants               |
+| :--------- | :----------- | :--------------------- |
+| fontWeight | object       | normal, semibold, bold |
+| fontFamily | string (Hex) |                        |

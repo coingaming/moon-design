@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@heathmont/sportsbet-tokens": "^0.8.0",
-    "polished": "2.3.3"
+    "polished": "3.0.0"
   }
 }

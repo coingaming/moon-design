@@ -1,6 +1,7 @@
 export * from './banner';
 export * from './button';
 export * from './card';
+export * from './checkbox';
 export * from './form';
 export * from './heading';
 export * from './icons';
@@ -8,3 +9,4 @@ export * from './link';
 export * from './select';
 export * from './text-input';
 export * from './toggle';
+export * from './tooltip';
