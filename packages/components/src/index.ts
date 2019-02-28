@@ -6,6 +6,7 @@ export * from './form';
 export * from './heading';
 export * from './icons';
 export * from './link';
+export * from './nav';
 export * from './select';
 export * from './text-input';
 export * from './toggle';
