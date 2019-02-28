@@ -3,14 +3,14 @@ import path from 'path';
 
 import * as React from 'react';
 import { renderToString } from 'react-dom/server';
-import { App } from './app/App';
+import { ServerSideApp } from './app/app';
 
 const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../../dist')));
 
 app.get('/*', (req, res) => {
-  const jsx = <App />;
+  const jsx = <ServerSideApp req={req} />;
   const reactDom = renderToString(jsx);
 
   res.writeHead(200, { 'Content-Type': 'text/html' });
