@@ -1,3 +1,7 @@
+export { IconArrowTop } from './svg/IconArrowTop';
+export { IconArrowRight } from './svg/IconArrowRight';
+export { IconArrowBottom } from './svg/IconArrowBottom';
+export { IconArrowLeft } from './svg/IconArrowLeft';
 export { IconChevronDown } from './svg/IconChevronDown';
 export { IconChevronLeft } from './svg/IconChevronLeft';
 export { IconChevronRight } from './svg/IconChevronRight';
