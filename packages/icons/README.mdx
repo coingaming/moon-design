@@ -11,6 +11,10 @@ Icons offer visual aids for common actions and tasks.
 
 To aid with performance, Icons are surfaced as individual [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) components. Each icon component is prefixed with `Icon`.
 
+## Categories
+
+### Chevrons and Arrows
+
 ```jsx react-live
 <IconChevronDown />
 <IconChevronLeft />
@@ -20,16 +24,26 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
 ```
 
 ```jsx react-live
+<IconArrowTop />
+<IconArrowRight />
+<IconArrowBottom />
+<IconArrowLeft />
+```
+
+### Actions
+
+```jsx react-live
 <IconClose />
 <IconSettings />
 <IconLeftArrowCurveRight />
 ```
 
+### Forms
+
 ```jsx react-live
-<IconArrowTop />
-<IconArrowRight />
-<IconArrowBottom />
-<IconArrowLeft />
+<IconSuccess />
+<IconWarning />
+<IconUpload />
 ```
 
 ## Customizing
@@ -45,7 +59,7 @@ Icon colors can be modified by adding the `color` attribute/CSS property to the 
 There's also the option to define a `backgroundColor`.
 
 ```jsx react-live
-<IconClose color={colors.white} backgroundColor={colors.error} />
+<IconClose color={colors.neutral[10]} backgroundColor={colors.error} />
 ```
 
 ### Size

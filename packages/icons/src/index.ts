@@ -10,3 +10,6 @@ export { IconChevronUpDown } from './svg/IconChevronUpDown';
 export { IconClose } from './svg/IconClose';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconSettings } from './svg/IconSettings';
+export { IconSuccess } from './svg/IconSuccess';
+export { IconUpload } from './svg/IconUpload';
+export { IconWarning } from './svg/IconWarning';
