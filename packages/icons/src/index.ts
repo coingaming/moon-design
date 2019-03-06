@@ -7,6 +7,7 @@ export { IconChevronLeft } from './svg/IconChevronLeft';
 export { IconChevronRight } from './svg/IconChevronRight';
 export { IconChevronUp } from './svg/IconChevronUp';
 export { IconChevronUpDown } from './svg/IconChevronUpDown';
+export { IconCircle } from './svg/IconCircle';
 export { IconClose } from './svg/IconClose';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconSettings } from './svg/IconSettings';
