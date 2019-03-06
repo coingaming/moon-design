@@ -1,7 +1,7 @@
 /** @jsx jsx */ jsx;
 import { jsx, css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { modularScale } from 'polished';
+import modularScale from 'polished/lib/helpers/modularScale';
 import { preToCodeBlock } from 'mdx-utils';
 import { Link } from '@heathmont/sportsbet-components';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
