@@ -2,7 +2,7 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { jsx, css } from '@emotion/core';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 jsx;

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
 import { hyphenate } from '@heathmont/sportsbet-utils';

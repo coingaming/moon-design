@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 
 import { mq, spacing } from '@heathmont/sportsbet-utils';
