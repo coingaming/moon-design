@@ -5,19 +5,19 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 12 20"
+    viewBox="0 0 20 14"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="M12 17.377L4.986 10 12 2.624 9.5 0 0 10l9.502 10z"
+      d="M7.143 14L0 7.27l2-1.885 5.143 4.846L18 0l2 1.885z"
       fill="currentColor"
-      fillRule="evenodd"
+      fillRule="nonzero"
     />
   </svg>
 );
 
-export const IconChevronLeft = styled(Svg)(
+export const IconSuccess = styled(Svg)(
   ({ backgroundColor }: { backgroundColor?: string }) => [
     {
       verticalAlign: 'middle',

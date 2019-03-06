@@ -57,10 +57,12 @@ browser validation. These can be set by providing HTML input `type` attributtes:
 
 Text inputs offer different states to provide instant feedback to the user.
 
-### Error
+### Validation
 
 Errors are automatically handled as part of the HTML input type validation, and
 can also be manually triggered via the `error` prop.
+
+A `success` prop is also available for extra manual validation.
 
 ```jsx react-live
 <Form maxWidth="25rem">
@@ -69,6 +71,9 @@ can also be manually triggered via the `error` prop.
   </FormItem>
   <FormItem>
     <TextInput label="Email (with error prop)" type="email" error />
+  </FormItem>
+  <FormItem>
+    <TextInput label="Email (with success prop)" type="email" success />
   </FormItem>
 </Form>
 ```
