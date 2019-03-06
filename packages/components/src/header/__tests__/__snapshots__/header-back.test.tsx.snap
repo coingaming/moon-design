@@ -1,10 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header - Back renders as a button 1`] = `
-.emotion-0 {
-  vertical-align: middle;
-}
-
 .emotion-2 {
   margin: 0 1rem 1rem 0;
   padding: 0;
@@ -17,6 +13,10 @@ exports[`Header - Back renders as a button 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.emotion-0 {
+  vertical-align: middle;
 }
 
 .emotion-1 {
@@ -62,10 +62,6 @@ exports[`Header - Back renders as a button 1`] = `
 `;
 
 exports[`Header - Back renders as a component 1`] = `
-.emotion-0 {
-  vertical-align: middle;
-}
-
 .emotion-2 {
   margin: 0 1rem 1rem 0;
   padding: 0;
@@ -78,6 +74,10 @@ exports[`Header - Back renders as a component 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.emotion-0 {
+  vertical-align: middle;
 }
 
 .emotion-1 {
@@ -123,10 +123,6 @@ exports[`Header - Back renders as a component 1`] = `
 `;
 
 exports[`Header - Back renders as an anchor by default 1`] = `
-.emotion-0 {
-  vertical-align: middle;
-}
-
 .emotion-2 {
   margin: 0 1rem 1rem 0;
   padding: 0;
@@ -139,6 +135,10 @@ exports[`Header - Back renders as an anchor by default 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.emotion-0 {
+  vertical-align: middle;
 }
 
 .emotion-1 {
