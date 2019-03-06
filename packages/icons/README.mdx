@@ -46,6 +46,12 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
 <IconUpload />
 ```
 
+### Shapes
+
+```jsx react-live
+<IconCircle />
+```
+
 ## Customizing
 
 ### Color
@@ -57,6 +63,9 @@ Icon colors can be modified by adding the `color` attribute/CSS property to the 
 ```
 
 There's also the option to define a `backgroundColor`.
+
+Note: for inline SVGs you may need to apply an additional `background-image` of
+a circle behind the icon.
 
 ```jsx react-live
 <IconClose color={colors.neutral[10]} backgroundColor={colors.error} />
