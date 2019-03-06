@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { typography, breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 
