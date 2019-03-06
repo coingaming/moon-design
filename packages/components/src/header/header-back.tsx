@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { Fragment } from 'react';
 import { jsx, css } from '@emotion/core';
-import { hideVisually } from 'polished';
+import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconArrowLeft } from '../';
