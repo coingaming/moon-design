@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { spacing as spacingTokens } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
