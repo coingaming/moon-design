@@ -3,6 +3,7 @@
   "references": [
     { "path": "packages/assets" },
     { "path": "packages/components" },
+    { "path": "packages/icons" },
     { "path": "packages/objects" },
     { "path": "packages/global" },
     { "path": "packages/tokens" },
