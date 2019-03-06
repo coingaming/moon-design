@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
-import { IconLeftArrowCurveRight, IconSettings, Toggle } from '../';
+import {
+  IconLeftArrowCurveRight,
+  IconSettings,
+} from '@heathmont/sportsbet-icons';
+import { Toggle } from '../';
 import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
 

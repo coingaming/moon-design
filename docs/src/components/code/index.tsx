@@ -4,6 +4,7 @@ import { jsx, css } from '@emotion/core';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Components from '@heathmont/sportsbet-components';
+import * as Icons from '@heathmont/sportsbet-icons';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
@@ -58,7 +59,7 @@ export const Code = ({ codeString, language, ...props }: CodeProps) =>
       mountStylesheet={false}
       code={codeString}
       css={codeWrapper}
-      scope={{ jsx, ...Components, ...Objects, ...Utils, colors }}
+      scope={{ jsx, ...Components, ...Icons, ...Objects, ...Utils, colors }}
       transformCode={transformCode}
     >
       <LivePreview css={liveCodePreview} />
