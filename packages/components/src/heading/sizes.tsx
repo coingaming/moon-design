@@ -1,4 +1,4 @@
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { css } from '@emotion/core';
 import { typography } from '@heathmont/sportsbet-tokens';
 

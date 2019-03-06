@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import { rgba } from 'polished';
+import rgba from 'polished/lib/color/rgba';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 /**
