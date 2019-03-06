@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/coingaming/sportsbet-design/compare/v0.9.0...v0.10.0) (2019-03-06)
+
+
+### Bug Fixes
+
+* switch to single imports for polished ([ac5f481](https://github.com/coingaming/sportsbet-design/commit/ac5f481))
+* **global:** prefixes for font smoothing ([66c4f48](https://github.com/coingaming/sportsbet-design/commit/66c4f48))
+
+
+
+
+
 # [0.9.0](https://github.com/coingaming/sportsbet-design/compare/v0.8.0...v0.9.0) (2019-02-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
