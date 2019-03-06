@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq } from '@heathmont/sportsbet-utils';
 import {
