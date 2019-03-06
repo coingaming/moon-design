@@ -13,6 +13,7 @@ import {
 type InputProps = {
   withIcon?: boolean;
   error?: boolean;
+  success?: boolean;
 };
 
 export const Input = styled.input((props: InputProps) => [
