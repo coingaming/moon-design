@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/coingaming/sportsbet-design/compare/v0.9.0...v0.10.0) (2019-03-06)
+
+
+### Bug Fixes
+
+* switch to single imports for polished ([ac5f481](https://github.com/coingaming/sportsbet-design/commit/ac5f481))
+
+
+### Features
+
+* **header:** create header component ([611e0e3](https://github.com/coingaming/sportsbet-design/commit/611e0e3))
+* **icon:** add circle icon ([7fdf46f](https://github.com/coingaming/sportsbet-design/commit/7fdf46f))
+* **icons:** add arrows ([674963e](https://github.com/coingaming/sportsbet-design/commit/674963e))
+* **icons:** add success, warning and upload icons ([33498bf](https://github.com/coingaming/sportsbet-design/commit/33498bf))
+* **nav:** create nav component ([db9dd13](https://github.com/coingaming/sportsbet-design/commit/db9dd13))
+* **TextInput:** add validation icons ([0de23b0](https://github.com/coingaming/sportsbet-design/commit/0de23b0))
+
+
+
+
+
 # [0.9.0](https://github.com/coingaming/sportsbet-design/compare/v0.8.0...v0.9.0) (2019-02-27)
 
 
