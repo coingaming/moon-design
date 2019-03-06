@@ -12,11 +12,13 @@
     "test": "jest --config .config/jest/jest.config.js --verbose",
     "user-portal": "yarn build && lerna run --scope @heathmont/sportsbet-wip-user-portal --stream",
     "components": "lerna run --scope @heathmont/sportsbet-components --stream",
+    "icons": "lerna run --scope @heathmont/sportsbet-icons --stream",
     "docs:dev": "concurrently -kill-others \"yarn build -w\" \"lerna run --scope docs --stream dev\"",
     "docs:build": "yarn build && lerna run --scope docs --stream build",
     "docs:serve": "lerna run --scope docs --stream serve",
     "postinstall": "yarn build",
-    "publish:packages": "lerna publish --yes"
+    "publish:packages": "lerna publish --yes",
+    "bundlesize": "yarn user-portal bundlesize"
   },
   "workspaces": [
     "docs",

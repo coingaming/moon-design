@@ -2,7 +2,8 @@
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
 import styled from '@emotion/styled';
-import { hideVisually } from 'polished';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
 import { spacing } from '@heathmont/sportsbet-utils';
 jsx;
 
@@ -17,9 +18,7 @@ type FormProps = FormElement & {
   maxWidth?: string;
 };
 
-const FormList = styled.ul({
-  marginLeft: 0,
-});
+const FormList = styled.ul(listPlain);
 
 const Fieldset = styled.fieldset({
   border: 0,
@@ -44,14 +43,11 @@ const Form: React.FC<FormProps> = ({
   );
 };
 
-const FormItem = styled.li({
-  display: 'block',
-  marginBottom: spacing(),
-  listStyleType: 'none',
-  '&:before': {
-    position: 'absolute',
-    content: '"\\200B"' /* Add zero-width space to prevent VoiceOver disable */,
+const FormItem = styled.li([
+  listPlainItem,
+  {
+    marginBottom: spacing(),
   },
-});
+]);
 
 export { Form, FormProps, FormItem };

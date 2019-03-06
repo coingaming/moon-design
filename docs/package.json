@@ -38,6 +38,8 @@
     "@emotion/styled": "10.0.6",
     "@heathmont/sportsbet-assets": "^0.9.0",
     "@heathmont/sportsbet-components": "^0.9.0",
+    "@heathmont/sportsbet-icons": "^0.9.0",
+    "@heathmont/sportsbet-objects": "^0.9.0",
     "@heathmont/sportsbet-global": "^0.9.0",
     "@heathmont/sportsbet-tokens": "^0.9.0",
     "@heathmont/sportsbet-utils": "^0.9.0",

@@ -23,7 +23,7 @@ module.exports = {
   target: 'node',
   entry: {
     main: 'client.tsx',
-    server: 'server.tsx',
+    server: 'server/index.tsx',
   },
   resolve: {
     modules: [path.resolve('./src'), 'node_modules'],

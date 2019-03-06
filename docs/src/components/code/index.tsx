@@ -4,7 +4,9 @@ import { jsx, css } from '@emotion/core';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Components from '@heathmont/sportsbet-components';
+import * as Icons from '@heathmont/sportsbet-icons';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
+import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 import { syntaxStyles } from './prism';
 
@@ -47,13 +49,18 @@ const liveCodePreview = css({
   overflowY: 'scroll',
 });
 
+/* Ensures that we can use `css` props + not have to worry about wrapper divs */
+const transformCode = (src: any) =>
+  `/** @jsx jsx */<React.Fragment>${src}</React.Fragment>`;
+
 export const Code = ({ codeString, language, ...props }: CodeProps) =>
   props['react-live'] ? (
     <LiveProvider
       mountStylesheet={false}
       code={codeString}
       css={codeWrapper}
-      scope={{ ...Components, ...Utils, colors }}
+      scope={{ jsx, ...Components, ...Icons, ...Objects, ...Utils, colors }}
+      transformCode={transformCode}
     >
       <LivePreview css={liveCodePreview} />
       <div css={css({ overflowY: 'scroll' })}>

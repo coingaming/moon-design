@@ -1,6 +1,7 @@
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { padding, rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
+import padding from 'polished/lib/shorthands/padding';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { cardGradient } from './utils';
