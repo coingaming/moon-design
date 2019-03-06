@@ -1,0 +1,67 @@
+---
+name: Header
+menu: Components
+route: /components/header
+---
+
+import { Nav } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# Header
+
+Introductory title and navigational support for pages or articles of content.
+
+In its basic form, it can contain a title and a back link to a previous section.
+
+```jsx react-live
+<article>
+  <Header>
+    <HeaderBack href="../">Back to Cashier</HeaderBack>
+    <HeaderTitle>Page Title</HeaderTitle>
+  </Header>
+  Page content here
+</article>
+```
+
+## Anatomy
+
+### Back
+
+By default, the `HeaderBack` renders as an [anchor tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a),
+accepting the standard attributes.
+
+This can be customised by passing an `element` prop with a string tag
+(e.g. 'button') or other React component.
+
+## With Navigation
+
+The `Nav` component can also be placed inside the Header as follows:
+
+```jsx react-live
+<article>
+  <Header>
+    <HeaderBack href="../">Back to Cashier</HeaderBack>
+    <HeaderTitle>Page Title</HeaderTitle>
+    <Nav>
+      <NavItem>
+        <NavLink href="#1" active>
+          Item 1
+        </NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="#2">Item 2</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="#3">Item 3</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="#4">Item 4</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="#5">Item 5</NavLink>
+      </NavItem>
+    </Nav>
+  </Header>
+  Page content here
+</article>
+```
