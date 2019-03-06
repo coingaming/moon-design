@@ -1,11 +1,18 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { css, jsx } from '@emotion/core';
+import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
+import math from 'polished/lib/math/math';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
-import { hyphenate } from '@heathmont/sportsbet-utils';
+import { hyphenate, inlineSVG, spacing } from '@heathmont/sportsbet-utils';
 import { Input, inputSpacing, inputAnimationSpeed } from '../private/input';
+import {
+  IconWarning,
+  IconSuccess,
+  IconCircle,
+} from '@heathmont/sportsbet-icons';
 jsx;
 
 /**
@@ -33,6 +40,13 @@ type TextInputProps = {
 
 const inputsWithDefaultBlockLabels = ['date'];
 
+const iconSize = rem(20);
+const iconPosition = spacing('small');
+const iconInnerSize = rem(12);
+const iconInnerPosition = math(
+  `${iconPosition} + ((${iconSize} - ${iconInnerSize}) / 2)`
+);
+
 /**
  * Functions
  */
@@ -48,15 +62,43 @@ const inputContainer = css({
   position: 'relative',
 });
 
-const textInputBase = css({
-  '&:focus': {
-    borderColor: colors.neutral[20],
-    outline: 'none',
-  },
-  '&:not(:focus):not(:placeholder-shown):invalid': {
-    borderColor: colors.error,
-  },
+const backgroundIcon = css({
+  backgroundPosition: `right ${iconInnerPosition} center, right ${iconPosition} center`,
+  backgroundSize: `${iconInnerSize}, ${iconSize}`,
 });
+
+const textInputError = css([
+  backgroundIcon,
+  {
+    borderColor: colors.error,
+    backgroundImage: `
+      ${inlineSVG(<IconWarning color={colors.neutral[10]} />)},
+      ${inlineSVG(<IconCircle color={colors.error} />)}`,
+  },
+]);
+
+const TextInputElem = styled(Input)(({ error, success }) => [
+  {
+    '&:focus': {
+      borderColor: colors.neutral[20],
+      outline: 'none',
+    },
+    '&:not(:focus):not(:placeholder-shown):invalid': {
+      ...textInputError,
+    },
+  },
+  error && {
+    ...textInputError,
+  },
+  success && [
+    backgroundIcon,
+    {
+      backgroundImage: `
+        ${inlineSVG(<IconSuccess color={colors.neutral[10]} />)},
+        ${inlineSVG(<IconCircle color={colors.brand} />)}`,
+    },
+  ],
+]);
 
 const textInputFloat = css({
   '::placeholder': {
@@ -104,13 +146,14 @@ const TextInput: React.FC<TextInputProps> = ({
 
   return hasDefaultBlockLabel(inputProps.type) || labelBlock ? (
     <Label text={label}>
-      <Input css={textInputBase} {...inputProps} />
+      <TextInputElem withIcon {...inputProps} />
     </Label>
   ) : (
     <div css={inputContainer}>
-      <Input
+      <TextInputElem
+        withIcon
         id={createId(label)}
-        css={[textInputBase, textInputFloat]}
+        css={textInputFloat}
         {...inputProps}
       />
       <label htmlFor={createId(label)} css={textInputLabelFloat}>

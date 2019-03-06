@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { iconStyles } from '../config/styles';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -25,4 +24,16 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const IconLeftArrowCurveRight = styled(Svg)(iconStyles);
+export const IconLeftArrowCurveRight = styled(Svg)(
+  ({ backgroundColor }: { backgroundColor?: string }) => [
+    {
+      verticalAlign: 'middle',
+    },
+    backgroundColor && {
+      backgroundColor,
+      padding: backgroundColor ? '0.25em' : 0,
+      overflow: 'visible',
+      borderRadius: '50%',
+    },
+  ]
+);
