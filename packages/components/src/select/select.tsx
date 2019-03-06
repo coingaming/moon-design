@@ -11,7 +11,7 @@ import {
   inputIconSize,
 } from '../private/input';
 import { Label, LabelSizing } from '../private/label';
-import { IconChevronDown, IconChevronUpDown } from '../';
+import { IconChevronDown, IconChevronUpDown } from '@heathmont/sportsbet-icons';
 jsx;
 
 type SelectProps = LabelSizing & {

@@ -5,7 +5,6 @@ export * from './checkbox';
 export * from './form';
 export * from './header';
 export * from './heading';
-export * from './icons';
 export * from './link';
 export * from './nav';
 export * from './select';

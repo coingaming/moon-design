@@ -39,12 +39,12 @@ Any changes to this Sketch file should be committed **as well as** the Sketch-ge
 
 For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
 
-We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/src/icons/svg) to React components in [`components/icons`](packages/components/src/icons/svg).
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/src/icons/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
 
-To update/add icons run: `yarn components build:icons`
+To update/add icons run: `yarn icons build`
 
-- Runs SVGR based on the [config options](packages/components/src/icons/config/svgr.js).
-- Builds React `.tsx` files for each component with the [template](packages/components/src/icons/config/template.js).
+- Runs SVGR based on the [config options](packages/icons/src/config/svgr.js).
+- Builds React `.tsx` files for each component with the [template](packages/icons/src/config/template.js).
 
 ## Git Strategy
 
