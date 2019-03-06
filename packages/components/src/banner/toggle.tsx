@@ -3,7 +3,8 @@ import * as React from 'react';
 import { jsx, css } from '@emotion/core';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { IconClose, Toggle } from '../';
+import { IconClose } from '@heathmont/sportsbet-icons';
+import { Toggle } from '../';
 
 const bannerToggle = css({
   color: colors.neutral[20],

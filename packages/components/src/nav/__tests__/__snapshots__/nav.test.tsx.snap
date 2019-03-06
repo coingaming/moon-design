@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav renders correctly 1`] = `
+.emotion-6 {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.emotion-0 {
+  position: absolute;
+  z-index: 1;
+  padding: 0 0.5rem;
+  top: 50%;
+  left: 0.5rem;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  background-color: #06111a;
+}
+
+.emotion-0:not(:focus) {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-5 {
+  display: inline-block;
+  margin-left: 0;
+  display: block;
+  white-space: nowrap;
+  margin-bottom: 1.625rem;
+}
+
+.emotion-1 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.emotion-1:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.emotion-1 + .emotion-1 {
+  margin-left: 1rem;
+}
+
+<nav
+  className="emotion-6"
+>
+  <a
+    className="emotion-0"
+    href="#nav-skip"
+  >
+    Skip to content
+  </a>
+  <ul
+    className="emotion-5"
+  >
+    <li
+      className="emotion-1"
+    >
+      Item 
+      1
+    </li>
+    <li
+      className="emotion-1"
+    >
+      Item 
+      2
+    </li>
+    <li
+      className="emotion-1"
+    >
+      Item 
+      3
+    </li>
+    <li
+      className="emotion-1"
+    >
+      Item 
+      4
+    </li>
+  </ul>
+  <span
+    id="nav-skip"
+  />
+</nav>
+`;

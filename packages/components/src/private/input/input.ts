@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import {
   inputBorder,
@@ -13,6 +13,7 @@ import {
 type InputProps = {
   withIcon?: boolean;
   error?: boolean;
+  success?: boolean;
 };
 
 export const Input = styled.input((props: InputProps) => [

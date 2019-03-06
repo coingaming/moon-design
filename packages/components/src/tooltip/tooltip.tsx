@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { jsx, css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { math } from 'polished';
+import math from 'polished/lib/math/math';
 import { animation, border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { slideUpFade } from './animation';

@@ -1,7 +1,8 @@
 /** @jsx jsx */ jsx;
 import { jsx, css } from '@emotion/core';
 import { Link } from 'gatsby';
-import { hideVisually, rem } from 'polished';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 const logoLink = css({

@@ -1,0 +1,61 @@
+---
+name: Nav
+menu: Components
+route: /components/nav
+---
+
+import { Nav } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# Nav
+
+A menu of items for users to move between sections of the application.
+
+By default, the nav will provide an accessible skip link, and overflow with
+horizontal scrolling.
+
+Each `NavLink` must be wrapped in a `<NavItem>`.
+
+```jsx react-live
+<Nav>
+  <NavItem>
+    <NavLink href="#1" active>
+      Item 1
+    </NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink href="#2">Item 2</NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink href="#3">Item 3</NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink href="#4">Item 4</NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink href="#5">Item 5</NavLink>
+  </NavItem>
+</Nav>
+```
+
+## Anatomy
+
+### Link
+
+By default, the `NavLink` renders as an [anchor tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a),
+accepting the standard attributes.
+
+```jsx react-live
+<NavLink href="#1">Item 1</NavLink>
+```
+
+However, it sometimes makes more semantic sense to mark up the link as a button.
+We also might want to use a custom `Link` component for a specific router.
+
+For these reasons, `NavLink` can accept a custom `element`.
+
+```jsx react-live
+<NavLink element="button" onClick={() => alert('Hello')}>
+  Item 1
+</NavLink>
+```
