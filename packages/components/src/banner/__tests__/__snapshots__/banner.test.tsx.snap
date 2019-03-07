@@ -196,11 +196,12 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
   flex-grow: 2;
+  margin-top: 1rem;
   width: 100%;
 }
 
-.emotion-1:not(:last-child) {
-  margin-bottom: 1rem;
+.emotion-1:first-child {
+  margin-top: 0;
 }
 
 .emotion-0 {
@@ -342,11 +343,12 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
   flex-grow: 2;
+  margin-top: 1rem;
   width: 100%;
 }
 
-.emotion-1:not(:last-child) {
-  margin-bottom: 1rem;
+.emotion-1:first-child {
+  margin-top: 0;
 }
 
 .emotion-0 {
@@ -617,11 +619,12 @@ exports[`Banner renders vertically by default 1`] = `
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
   flex-grow: 2;
+  margin-top: 1rem;
   width: 100%;
 }
 
-.emotion-1:not(:last-child) {
-  margin-bottom: 1rem;
+.emotion-1:first-child {
+  margin-top: 0;
 }
 
 .emotion-0 {

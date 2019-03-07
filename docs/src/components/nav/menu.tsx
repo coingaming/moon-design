@@ -25,7 +25,7 @@ type MenuProps = {
  */
 const listItem = css({
   display: 'block',
-  marginBottom: spacing('small'),
+  marginTop: spacing('small'),
 });
 
 const listSection = css({

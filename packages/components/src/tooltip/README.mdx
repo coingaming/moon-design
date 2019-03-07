@@ -12,7 +12,7 @@ import { PropsTable } from 'docs';
 Tooltips offer further contextual information to users.
 
 ```jsx react-live
-<div css={{ height: '3em' }}>
+<div css={{ height: '4rem' }}>
   <Tooltip active message="Hello, I'm a Tooltip." />
 </div>
 ```
@@ -28,7 +28,7 @@ When using Tooltips, you **must** provide a unique ID and reference as the
 (such as screenreaders) will also benefit from the contextual info.
 
 ```jsx react-live
-<Form maxWidth="30em">
+<Form maxWidth="30em" css={{ minHeight: '6rem' }}>
   <FormItem>
     <TextInput
       label="Password"
@@ -52,7 +52,7 @@ When using Tooltips, you **must** provide a unique ID and reference as the
 Adding the `error` prop will trigger the Tooltip's error styles.
 
 ```jsx react-live
-<Form maxWidth="30em">
+<Form maxWidth="30em" css={{ minHeight: '6rem' }}>
   <FormItem>
     <TextInput
       label="Password"
