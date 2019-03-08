@@ -1,4 +1,5 @@
 import { css } from '@emotion/core';
+import { rhythm } from '@heathmont/sportsbet-utils';
 
 export const reset = css({
   /**
@@ -20,7 +21,7 @@ export const reset = css({
    */
   'li >': {
     'ul, ol, p, blockquote': {
-      marginBottom: 0,
+      ...rhythm(0),
     },
   },
   /**
