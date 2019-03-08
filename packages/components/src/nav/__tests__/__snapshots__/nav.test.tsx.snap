@@ -2,9 +2,14 @@
 
 exports[`Nav renders correctly 1`] = `
 .emotion-6 {
+  margin-top: 1rem;
   position: relative;
   overflow-x: scroll;
   overflow-y: hidden;
+}
+
+.emotion-6:first-child {
+  margin-top: 0;
 }
 
 .emotion-0 {
@@ -40,7 +45,8 @@ exports[`Nav renders correctly 1`] = `
   margin-left: 0;
   display: block;
   white-space: nowrap;
-  margin-bottom: 1.625rem;
+  margin-top: 0;
+  padding-bottom: 0.625rem;
 }
 
 .emotion-1 {

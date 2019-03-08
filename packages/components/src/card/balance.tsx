@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { jsx, css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rhythm } from '@heathmont/sportsbet-utils';
 jsx;
 
 type Balance = {
@@ -32,12 +32,13 @@ const unitLarge = css({
 });
 
 const Title = styled.p({
-  marginBottom: 0,
+  ...rhythm(0),
   fontSize: rem(31),
   lineHeight: rem(38),
 });
 
 const Text = styled.p({
+  ...rhythm(0),
   color: colors.neutral[20],
   fontSize: rem(15),
   lineHeight: rem(20),
@@ -49,7 +50,7 @@ const Text = styled.p({
 const CardBalance: React.FC<CardBalanceProps> = ({ from, to }) => {
   return (
     <div>
-      <Text css={{ marginBottom: 0 }}>{from.currency}</Text>
+      <Text>{from.currency}</Text>
       <Title>
         {`${from.value} `}
         <abbr css={[unit, unitLarge]} title={from.unitTitle || from.currency}>
