@@ -27,12 +27,12 @@ const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
 
 const codeWrapper = css([
   {
+    ...Utils.rhythm(),
     display: 'block',
     border: codeBorder,
     borderRadius: border.radius.small,
     position: 'relative',
     overflow: 'hidden',
-    marginBottom: Utils.spacing(),
     '.prism-code:focus': {
       outline: 'none',
       boxShadow: `inset 0 0 3px ${colors.brand}`,
