@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/coingaming/sportsbet-design/compare/v0.10.0...v0.11.0) (2019-03-08)
+
+
+### Features
+
+* **utils:** introduce rhythm ([9ab27c9](https://github.com/coingaming/sportsbet-design/commit/9ab27c9))
+
+
+
+
+
 # [0.10.0](https://github.com/coingaming/sportsbet-design/compare/v0.9.0...v0.10.0) (2019-03-06)
 
 
