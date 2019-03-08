@@ -28,7 +28,7 @@ const HeaderBack: React.FC<HeaderBackProps> = ({
   jsx(element, {
     ...props,
     css: css({
-      margin: `0 ${spacing()} ${spacing()} 0`,
+      margin: `0 ${spacing()} 0 0`,
       padding: 0,
       alignSelf: 'center',
       verticalAlign: 'middle',

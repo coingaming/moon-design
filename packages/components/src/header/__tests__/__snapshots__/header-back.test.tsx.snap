@@ -2,7 +2,7 @@
 
 exports[`Header - Back renders as a button 1`] = `
 .emotion-2 {
-  margin: 0 1rem 1rem 0;
+  margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -63,7 +63,7 @@ exports[`Header - Back renders as a button 1`] = `
 
 exports[`Header - Back renders as a component 1`] = `
 .emotion-2 {
-  margin: 0 1rem 1rem 0;
+  margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -124,7 +124,7 @@ exports[`Header - Back renders as a component 1`] = `
 
 exports[`Header - Back renders as an anchor by default 1`] = `
 .emotion-2 {
-  margin: 0 1rem 1rem 0;
+  margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
