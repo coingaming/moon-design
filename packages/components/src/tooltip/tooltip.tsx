@@ -67,10 +67,6 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
   ]
 );
 
-const TooltipMessage = styled.p({
-  marginBottom: 0,
-});
-
 /**
  * Component
  */
@@ -82,7 +78,7 @@ const Tooltip: React.FC<TooltipProps> = ({ active, id, message, ...props }) => (
     css={css({ position: 'relative' })}
   >
     <TooltipBubble active={active} {...props}>
-      <TooltipMessage>{message}</TooltipMessage>
+      <p>{message}</p>
     </TooltipBubble>
   </div>
 );

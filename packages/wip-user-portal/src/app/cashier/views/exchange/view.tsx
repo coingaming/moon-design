@@ -1,5 +1,4 @@
 /** @jsx jsx */ jsx;
-import * as React from 'react';
 import { jsx } from '@emotion/core';
 import { container } from '../../components/container';
 import {

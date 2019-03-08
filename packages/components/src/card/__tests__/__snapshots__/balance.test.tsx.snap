@@ -2,28 +2,30 @@
 
 exports[`CardBalance renders correctly 1`] = `
 .emotion-0 {
+  margin-top: 0;
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  margin-bottom: 0;
+}
+
+.emotion-0:first-child {
+  margin-top: 0;
 }
 
 .emotion-2 {
-  margin-bottom: 0;
+  margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
+}
+
+.emotion-2:first-child {
+  margin-top: 0;
 }
 
 .emotion-1 {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.0625rem;
-  line-height: 1.25rem;
-}
-
-.emotion-4 {
-  color: #8697a2;
-  font-size: 0.9375rem;
   line-height: 1.25rem;
 }
 
@@ -50,7 +52,7 @@ exports[`CardBalance renders correctly 1`] = `
     </abbr>
   </p>
   <p
-    className="emotion-4"
+    className="emotion-0"
   >
     354568.68 
     <abbr
@@ -65,28 +67,30 @@ exports[`CardBalance renders correctly 1`] = `
 
 exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
 .emotion-0 {
+  margin-top: 0;
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  margin-bottom: 0;
+}
+
+.emotion-0:first-child {
+  margin-top: 0;
 }
 
 .emotion-2 {
-  margin-bottom: 0;
+  margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
+}
+
+.emotion-2:first-child {
+  margin-top: 0;
 }
 
 .emotion-1 {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.0625rem;
-  line-height: 1.25rem;
-}
-
-.emotion-4 {
-  color: #8697a2;
-  font-size: 0.9375rem;
   line-height: 1.25rem;
 }
 
@@ -113,7 +117,7 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
     </abbr>
   </p>
   <p
-    className="emotion-4"
+    className="emotion-0"
   >
     354568.68 
     <abbr

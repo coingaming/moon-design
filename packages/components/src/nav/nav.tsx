@@ -7,7 +7,7 @@ import math from 'polished/lib/math/math';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { listInline, listInlineItem } from '@heathmont/sportsbet-objects';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { spacing, rhythm } from '@heathmont/sportsbet-utils';
 import { underlineOffset, underlineWidth } from './settings';
 
 /**
@@ -20,6 +20,7 @@ const navSkipLinkID = 'nav-skip';
  */
 const Nav: React.FC = ({ children }) => {
   const nav = css({
+    ...rhythm(),
     position: 'relative',
     overflowX: 'scroll',
     overflowY: 'hidden',
@@ -39,16 +40,15 @@ const Nav: React.FC = ({ children }) => {
     },
   });
 
-  /**
-   * 1. Start the vertical rhythm from the bottom of the underline indicator.
-   */
+  /* 1. Include the indicator as part of the item's box-model. */
   const navList = css([
     listInline,
     {
       display: 'block',
       whiteSpace: 'nowrap',
-      marginBottom: math(
-        `${underlineOffset} + ${spacing('default')} + ${rem(underlineWidth)}`
+      marginTop: 0,
+      paddingBottom: math(
+        `${underlineOffset} + ${rem(underlineWidth)}`
       ) /* [1] */,
     },
   ]);

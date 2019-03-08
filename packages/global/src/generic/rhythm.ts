@@ -1,7 +1,7 @@
 import { css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { spacing as spacingTokens } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rhythm as verticalRhythm } from '@heathmont/sportsbet-utils';
 
 export const rhythm = css({
   /**
@@ -13,7 +13,7 @@ export const rhythm = css({
     blockquote, p, address, table,
     fieldset, figure,
     pre`]: {
-    marginBottom: spacing(),
+    ...verticalRhythm(),
   },
   /**
    * Indent all lists by default (with arbitrary extra pixels for alignment)
