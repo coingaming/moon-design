@@ -61,15 +61,11 @@ exports[`Tooltip alignment right-aligned 1`] = `
   }
 }
 
-.emotion-2 {
+.emotion-1 {
   position: relative;
 }
 
 .emotion-0 {
-  margin-bottom: 0;
-}
-
-.emotion-1 {
   right: 0;
   position: absolute;
   max-width: 100%;
@@ -87,12 +83,12 @@ exports[`Tooltip alignment right-aligned 1`] = `
   animation-direction: reverse;
 }
 
-.emotion-1,
-.emotion-1::after {
+.emotion-0,
+.emotion-0::after {
   color: #142c37;
 }
 
-.emotion-1::after {
+.emotion-0::after {
   right: 1rem;
   content: "";
   position: absolute;
@@ -108,16 +104,14 @@ exports[`Tooltip alignment right-aligned 1`] = `
 
 <div
   aria-hidden={false}
-  className="emotion-2"
+  className="emotion-1"
   id="test-id"
   role="tooltip"
 >
   <div
-    className="emotion-1"
+    className="emotion-0"
   >
-    <p
-      className="emotion-0"
-    >
+    <p>
       Hi, I'm a Tooltip
     </p>
   </div>
@@ -165,15 +159,11 @@ exports[`Tooltip renders as active when defined 1`] = `
   }
 }
 
-.emotion-2 {
+.emotion-1 {
   position: relative;
 }
 
 .emotion-0 {
-  margin-bottom: 0;
-}
-
-.emotion-1 {
   left: 0;
   position: absolute;
   max-width: 100%;
@@ -191,12 +181,12 @@ exports[`Tooltip renders as active when defined 1`] = `
   animation-direction: reverse;
 }
 
-.emotion-1,
-.emotion-1::after {
+.emotion-0,
+.emotion-0::after {
   color: #142c37;
 }
 
-.emotion-1::after {
+.emotion-0::after {
   left: 1rem;
   content: "";
   position: absolute;
@@ -212,16 +202,14 @@ exports[`Tooltip renders as active when defined 1`] = `
 
 <div
   aria-hidden={false}
-  className="emotion-2"
+  className="emotion-1"
   id="test-id"
   role="tooltip"
 >
   <div
-    className="emotion-1"
+    className="emotion-0"
   >
-    <p
-      className="emotion-0"
-    >
+    <p>
       Hi, I'm a Tooltip
     </p>
   </div>
@@ -309,15 +297,11 @@ exports[`Tooltip renders as an error 1`] = `
   }
 }
 
-.emotion-2 {
+.emotion-1 {
   position: relative;
 }
 
 .emotion-0 {
-  margin-bottom: 0;
-}
-
-.emotion-1 {
   left: 0;
   position: absolute;
   max-width: 100%;
@@ -335,12 +319,12 @@ exports[`Tooltip renders as an error 1`] = `
   animation-direction: reverse;
 }
 
-.emotion-1,
-.emotion-1::after {
+.emotion-0,
+.emotion-0::after {
   color: #fff;
 }
 
-.emotion-1::after {
+.emotion-0::after {
   left: 1rem;
   content: "";
   position: absolute;
@@ -356,16 +340,14 @@ exports[`Tooltip renders as an error 1`] = `
 
 <div
   aria-hidden={false}
-  className="emotion-2"
+  className="emotion-1"
   id="test-id"
   role="tooltip"
 >
   <div
-    className="emotion-1"
+    className="emotion-0"
   >
-    <p
-      className="emotion-0"
-    >
+    <p>
       Hi, I'm a Tooltip
     </p>
   </div>
@@ -393,11 +375,11 @@ exports[`Tooltip renders hidden and left-aligned by default 1`] = `
   }
 }
 
-.emotion-2 {
+.emotion-1 {
   position: relative;
 }
 
-.emotion-1 {
+.emotion-0 {
   left: 0;
   position: absolute;
   max-width: 100%;
@@ -413,12 +395,12 @@ exports[`Tooltip renders hidden and left-aligned by default 1`] = `
   will-change: transform;
 }
 
-.emotion-1,
-.emotion-1::after {
+.emotion-0,
+.emotion-0::after {
   color: #142c37;
 }
 
-.emotion-1::after {
+.emotion-0::after {
   left: 1rem;
   content: "";
   position: absolute;
@@ -432,22 +414,16 @@ exports[`Tooltip renders hidden and left-aligned by default 1`] = `
   border-width: 0.5rem;
 }
 
-.emotion-0 {
-  margin-bottom: 0;
-}
-
 <div
   aria-hidden={true}
-  className="emotion-2"
+  className="emotion-1"
   id="test-id"
   role="tooltip"
 >
   <div
-    className="emotion-1"
+    className="emotion-0"
   >
-    <p
-      className="emotion-0"
-    >
+    <p>
       Hi, I'm a Tooltip
     </p>
   </div>

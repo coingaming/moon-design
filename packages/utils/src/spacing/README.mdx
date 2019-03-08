@@ -9,36 +9,37 @@ import { spacing } from './';
 
 # Spacing
 
-Returns a given [spacing token "key"](/tokens#spacing) value as a `rem` spacing unit.
-
-Using `spacing()` is encouraged over using the tokens directly.
-
 ```js
-import { spacing } from '@heathmont/sportsbet-utils';
+import { spacing, rhythm } from '@heathmont/sportsbet-utils';
 ```
 
-## Example
+Returns a given [spacing token "key"](/tokens#spacing) value as a `rem` spacing unit.
 
-<Playground>
-  <ul>
-    <li>
-      <code>spacing()</code> returns <code>{spacing()}</code>
-    </li>
-    <li>
-      <code>spacing("small")</code> returns <code>{spacing('small')}</code>
-    </li>
-  </ul>
-</Playground>
+Using `spacing()` is encouraged over using the tokens directly and can be reset
+as `spacing(0)`.
 
-## Usage
+```jsx react-live
+<div css={{padding: spacing(), border: '1px solid white'}}>Default</div>
+<div css={{padding: spacing('small'), border: '1px solid white'}}>Small</div>
+<div css={{padding: spacing('large'), border: '1px solid white'}}>Large</div>
+```
 
-In a component, this could be used to create brand-conforming spacing:
+## Rhythm
 
-```jsx
-import styled from '@emotion/styled';
-import { spacing } from '@heathmont/sportsbet-utils';
+Maintaining consistent vertical spacing (or rhythm) is important from both a
+design and development perspective. We want our elements to visually flow, but
+we also don't want clashing margin directions to collapse. Using `rhythm()`
+ensures that all vertical margins are placed on the same direction.
 
-const Box = styled('div')`
-  margin-bottom: ${spacing()};
-`;
+By default, we apply rhythm to most block-level elements (ignoring `:first-child`)
+in [Global](../global), but there may be specific use-cases that require
+modifying/adding it.
+
+Similarly to `spacing()`, `rhythm()` returns a given [spacing token "key"](/tokens#spacing)
+and can be reset as `rhythm(0)`.
+
+```jsx react-live
+<div css={{...rhythm(), border: '1px solid white'}}>Default (<code>:first-child</code>)</div>
+<div css={{...rhythm(), border: '1px solid white'}}>Default</div>
+<div css={{...rhythm('large'), border: '1px solid white'}}>Large</div>
 ```

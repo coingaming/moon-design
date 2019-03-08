@@ -2,6 +2,7 @@
 import { Fragment } from 'react';
 import { css, jsx, Global } from '@emotion/core';
 import styled from '@emotion/styled';
+import padding from 'polished/lib/shorthands/padding';
 import { styles } from '@heathmont/sportsbet-global';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
@@ -24,8 +25,13 @@ const grid = css({
 const Main = styled.main({
   padding: `${spacing('large')} ${spacing()}`,
   [mq(breakpoints.medium)]: {
+    ...padding(
+      spacing('large'),
+      spacing('large'),
+      spacing('xlarge'),
+      spacing('large')
+    ),
     margin: '0 auto',
-    padding: spacing('large'),
     maxWidth: '900px',
     width: '100%',
   },

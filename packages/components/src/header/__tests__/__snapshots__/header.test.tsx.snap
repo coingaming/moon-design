@@ -2,12 +2,13 @@
 
 exports[`Header renders correctly with title 1`] = `
 .emotion-1 {
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 0.5rem;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -17,9 +18,13 @@ exports[`Header renders correctly with title 1`] = `
   align-items: baseline;
 }
 
+.emotion-1:first-child {
+  margin-top: 0;
+}
+
 .emotion-0 {
   display: inline-block;
-  margin-right: 2rem;
+  margin: 0 2rem 0 0;
   font-size: 1.25rem;
   line-height: 1.5625rem;
   font-weight: 700;
@@ -45,12 +50,13 @@ exports[`Header renders correctly with title 1`] = `
 
 exports[`Header renders correctly with title and back button 1`] = `
 .emotion-4 {
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 0.5rem;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -60,9 +66,13 @@ exports[`Header renders correctly with title and back button 1`] = `
   align-items: baseline;
 }
 
+.emotion-4:first-child {
+  margin-top: 0;
+}
+
 .emotion-3 {
   display: inline-block;
-  margin-right: 2rem;
+  margin: 0 2rem 0 0;
   font-size: 1.25rem;
   line-height: 1.5625rem;
   font-weight: 700;
@@ -76,7 +86,7 @@ exports[`Header renders correctly with title and back button 1`] = `
 }
 
 .emotion-2 {
-  margin: 0 1rem 1rem 0;
+  margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
