@@ -15,15 +15,13 @@ exports[`File Input renders a file input with custom label 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   position: relative;
   display: block;
   cursor: pointer;
-  background-position: right 0.5rem center;
-  background-size: 1.25rem;
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
 }
 
@@ -39,7 +37,6 @@ exports[`File Input renders a file input with custom label 1`] = `
 
 .emotion-1:focus-within {
   border-color: #8697a2;
-  outline: none;
 }
 
 .emotion-0 {
@@ -100,15 +97,13 @@ exports[`File Input renders a file input with custom label and placeholder 1`] =
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   position: relative;
   display: block;
   cursor: pointer;
-  background-position: right 0.5rem center;
-  background-size: 1.25rem;
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
   padding-top: 1.3125rem;
   padding-bottom: 0.4375rem;
@@ -126,21 +121,26 @@ exports[`File Input renders a file input with custom label and placeholder 1`] =
 
 .emotion-3:focus-within {
   border-color: #8697a2;
-  outline: none;
 }
 
 .emotion-1 {
   position: absolute;
   left: 0.875rem;
   top: 50%;
-  -webkit-transform: translateY(-90%) scale(0.75);
-  -ms-transform: translateY(-90%) scale(0.75);
-  transform: translateY(-90%) scale(0.75);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
   color: #8697a2;
   pointer-events: none;
+  -webkit-transform: translateY(-90%) scale(0.75);
+  -ms-transform: translateY(-90%) scale(0.75);
+  transform: translateY(-90%) scale(0.75);
 }
 
 <label
@@ -196,15 +196,13 @@ exports[`File Input renders a file input with custom placeholder 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   position: relative;
   display: block;
   cursor: pointer;
-  background-position: right 0.5rem center;
-  background-size: 1.25rem;
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
   padding-top: 1.3125rem;
   padding-bottom: 0.4375rem;
@@ -222,21 +220,26 @@ exports[`File Input renders a file input with custom placeholder 1`] = `
 
 .emotion-3:focus-within {
   border-color: #8697a2;
-  outline: none;
 }
 
 .emotion-1 {
   position: absolute;
   left: 0.875rem;
   top: 50%;
-  -webkit-transform: translateY(-90%) scale(0.75);
-  -ms-transform: translateY(-90%) scale(0.75);
-  transform: translateY(-90%) scale(0.75);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
   color: #8697a2;
   pointer-events: none;
+  -webkit-transform: translateY(-90%) scale(0.75);
+  -ms-transform: translateY(-90%) scale(0.75);
+  transform: translateY(-90%) scale(0.75);
 }
 
 <label
@@ -277,15 +280,13 @@ exports[`File Input renders a file input with default label 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   position: relative;
   display: block;
   cursor: pointer;
-  background-position: right 0.5rem center;
-  background-size: 1.25rem;
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
 }
 
@@ -301,7 +302,6 @@ exports[`File Input renders a file input with default label 1`] = `
 
 .emotion-1:focus-within {
   border-color: #8697a2;
-  outline: none;
 }
 
 .emotion-0 {
@@ -362,15 +362,13 @@ exports[`File Input renders as error 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   position: relative;
   display: block;
   cursor: pointer;
-  background-position: right 0.5rem center;
-  background-size: 1.25rem;
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
   border-color: #ff4e64;
 }
@@ -392,7 +390,6 @@ exports[`File Input renders as error 1`] = `
 
 .emotion-1:focus-within {
   border-color: #8697a2;
-  outline: none;
 }
 
 <label

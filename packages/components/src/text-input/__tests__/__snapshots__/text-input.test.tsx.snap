@@ -19,10 +19,10 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
 }
 
 .emotion-0:disabled {
@@ -111,10 +111,10 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
 }
 
 .emotion-4:disabled {
@@ -316,10 +316,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   background-position: right 0.75rem center,right 0.5rem center;
   background-size: 0.75rem,1.25rem;
   border-color: #ff4e64;
@@ -395,10 +395,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
   background-position: right 0.75rem center,right 0.5rem center;
   background-size: 0.75rem,1.25rem;
   border-color: #ff4e64;
@@ -579,10 +579,10 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
 }
 
 .emotion-0:disabled {
@@ -690,10 +690,10 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
 }
 
 .emotion-1:disabled {
@@ -752,10 +752,10 @@ exports[`TextInput renders with label above input when defined 1`] = `
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  padding-right: 38px;
-  background-position: right 0.625rem center;
+  padding-right: 2.625rem;
+  background-position: right 0.5rem center;
   background-repeat: no-repeat;
-  background-size: 0.625rem;
+  background-size: 1.25rem;
 }
 
 .emotion-1:disabled {
