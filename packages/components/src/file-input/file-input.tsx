@@ -1,13 +1,17 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { inlineSVG, spacing } from '@heathmont/sportsbet-utils';
+import { inlineSVG } from '@heathmont/sportsbet-utils';
 import { IconUpload } from '@heathmont/sportsbet-icons';
-import { Input, inputSpacing, inputColors } from '../private/input';
+import { Input, inputColors } from '../private/input';
+import {
+  inputFloatContent,
+  inputFloatLabel,
+  inputFloatLabelActive,
+} from '../private/input/mixins';
 jsx;
 
 /**
@@ -30,33 +34,15 @@ const FileInputElement = styled(Input.withComponent('label'))(({ error }) => [
     position: 'relative',
     display: 'block',
     cursor: 'pointer',
-    backgroundPosition: `right ${spacing('small')} center`,
-    backgroundSize: rem(20),
     backgroundImage: inlineSVG(<IconUpload color={inputColors.label} />),
     '&:focus-within': {
       borderColor: inputColors.label,
-      outline: 'none',
     },
   },
   error && {
     borderColor: colors.error,
   },
 ]);
-
-const inputWithPlaceholder = css({
-  paddingTop: rem(inputSpacing + 7),
-  paddingBottom: rem(inputSpacing - 7),
-});
-
-const inputPlaceholder = css({
-  position: 'absolute',
-  left: rem(inputSpacing),
-  top: '50%',
-  transform: 'translateY(-90%) scale(0.75)',
-  transformOrigin: 'top left',
-  color: inputColors.label,
-  pointerEvents: 'none',
-});
 
 /**
  * Component
@@ -70,11 +56,11 @@ const FileInput: React.FC<FileInputProps> = ({
   <FileInputElement
     withIcon
     error={error}
-    css={placeholder && inputWithPlaceholder}
+    css={placeholder && inputFloatContent}
   >
     <span>{label}</span>
     {placeholder && (
-      <span css={inputPlaceholder}>
+      <span css={[inputFloatLabel, inputFloatLabelActive]}>
         {/* Break-up placeholder sentence from label for screenreaders */}
         <span css={hideVisually}>. </span>
         {placeholder}
