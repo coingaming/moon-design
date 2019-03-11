@@ -5,46 +5,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.12.0](https://github.com/coingaming/sportsbet-design/compare/v0.11.0...v0.12.0) (2019-03-11)
 
-
 ### Bug Fixes
 
-* switch css() to CSSObject type ([f7b9d0d](https://github.com/coingaming/sportsbet-design/commit/f7b9d0d))
-
-
-
-
+- switch css() to CSSObject type ([f7b9d0d](https://github.com/coingaming/sportsbet-design/commit/f7b9d0d))
 
 # [0.11.0](https://github.com/coingaming/sportsbet-design/compare/v0.10.0...v0.11.0) (2019-03-08)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-user-portal
 
-
-
-
-
 # [0.10.0](https://github.com/coingaming/sportsbet-design/compare/v0.9.0...v0.10.0) (2019-03-06)
-
 
 ### Bug Fixes
 
-* switch to single imports for polished ([ac5f481](https://github.com/coingaming/sportsbet-design/commit/ac5f481))
-
+- switch to single imports for polished ([ac5f481](https://github.com/coingaming/sportsbet-design/commit/ac5f481))
 
 ### Features
 
-* **user-portal:** introduce routing ([6429b88](https://github.com/coingaming/sportsbet-design/commit/6429b88))
-
-
-
-
+- **user-portal:** introduce routing ([6429b88](https://github.com/coingaming/sportsbet-design/commit/6429b88))
 
 # [0.9.0](https://github.com/coingaming/sportsbet-design/compare/v0.8.0...v0.9.0) (2019-02-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-user-portal
-
-
-
-
 
 # [0.8.0](https://github.com/coingaming/sportsbet-design/compare/v0.7.1...v0.8.0) (2019-02-21)
 
