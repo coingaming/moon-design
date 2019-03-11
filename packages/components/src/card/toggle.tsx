@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { CSSObject, jsx } from '@emotion/core';
 import {
   IconLeftArrowCurveRight,
   IconSettings,
@@ -16,9 +16,9 @@ type CardToggleProps = {
 /**
  * Styles
  */
-const cardToggle = css({
+const cardToggle: CSSObject = {
   color: colors.neutral[20],
-});
+};
 
 /**
  * Component

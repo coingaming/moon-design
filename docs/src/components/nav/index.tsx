@@ -1,6 +1,6 @@
 /** @jsx jsx */ jsx;
 import { StaticQuery, graphql } from 'gatsby';
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { PagesData } from '../../types';
@@ -25,10 +25,10 @@ const sidebar = graphql`
   }
 `;
 
-const nav = css({
+const nav: CSSObject = {
   backgroundColor: colors.neutral[90],
   padding: spacing(),
-});
+};
 
 export const Nav = () => (
   <StaticQuery

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { jsx, css } from '@emotion/core';
+import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import math from 'polished/lib/math/math';
 import { animation, border, colors } from '@heathmont/sportsbet-tokens';
@@ -75,7 +75,7 @@ const Tooltip: React.FC<TooltipProps> = ({ active, id, message, ...props }) => (
     aria-hidden={active ? false : true}
     role="tooltip"
     id={id}
-    css={css({ position: 'relative' })}
+    css={{ position: 'relative' }}
   >
     <TooltipBubble active={active} {...props}>
       <p>{message}</p>

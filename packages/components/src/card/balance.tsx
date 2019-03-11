@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { rhythm } from '@heathmont/sportsbet-utils';
@@ -22,14 +22,14 @@ type CardBalanceProps = {
 /**
  * Styles
  */
-const unit = css({
+const unit: CSSObject = {
   textDecoration: 'none',
-});
+};
 
-const unitLarge = css({
+const unitLarge: CSSObject = {
   fontSize: rem(17),
   lineHeight: rem(20),
-});
+};
 
 const Title = styled.p({
   ...rhythm(0),

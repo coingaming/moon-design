@@ -1,5 +1,4 @@
-import { css } from '@emotion/core';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { CSSObject } from '@emotion/core';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 /**
@@ -8,11 +7,10 @@ import { spacing } from '@heathmont/sportsbet-utils';
  * Removes user-agent `:focus` styles and generates a box-shadow using the
  * color provided.
  */
-const buttonShadow = (color: string) =>
-  css({
-    outline: 'none',
-    boxShadow: `0 0 ${spacing('default', 'px')} ${color}`,
-  });
+const buttonShadow: (color: string) => CSSObject = color => ({
+  outline: 'none',
+  boxShadow: `0 0 ${spacing('default', 'px')} ${color}`,
+});
 
 /**
  * buttonDisabled
@@ -28,26 +26,26 @@ type DisabledStyle = 'solid' | 'border';
 const colorDisabled = '#414f57';
 const colorDisabledText = '#677278';
 
-const buttonDisabled = (key: DisabledStyle) => {
-  const disabledBase = css({
+const buttonDisabled: (key: DisabledStyle) => CSSObject = key => {
+  const disabledBase = {
     cursor: 'not-allowed',
-  });
+  };
 
   const disabledVariants = {
-    solid: css({
+    solid: {
       backgroundColor: colorDisabled,
       color: colorDisabledText,
-    }),
-    border: css({
+    },
+    border: {
       backgroundColor: 'transparent',
       borderColor: colorDisabled,
       color: colorDisabled,
-    }),
+    },
   };
 
-  return css({
+  return {
     '&:disabled, &[disabled]': [disabledBase, disabledVariants[key]],
-  });
+  };
 };
 
 export { buttonShadow, buttonDisabled };
