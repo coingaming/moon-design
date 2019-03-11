@@ -7,11 +7,13 @@ import {
   inputSpacing,
   inputIconSize,
   inputIconOffset,
+  inputIconPosition,
   inputAnimationSpeed,
 } from './settings';
 
 type InputProps = {
   withIcon?: boolean;
+  withFloatLabel?: boolean;
   error?: boolean;
   success?: boolean;
 };
@@ -37,8 +39,8 @@ export const Input = styled.input((props: InputProps) => [
     },
   },
   props.withIcon && {
-    paddingRight: inputIconOffset,
-    backgroundPosition: `right ${rem(inputIconSize)} center`,
+    paddingRight: rem(inputIconOffset),
+    backgroundPosition: `right ${rem(inputIconPosition)} center`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: rem(inputIconSize),
   },

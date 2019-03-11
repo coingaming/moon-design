@@ -10,8 +10,9 @@ const inputAnimationSpeed = `${animation.speed.fast}s`;
 
 const inputSpacing = spacing.default - inputBorderWidth * 2; // px
 
-const inputIconSize = 10; // px
-const inputIconOffset = inputIconSize + inputSpacing * 2;
+const inputIconSize = 20; // px
+const inputIconPosition = spacing.small;
+const inputIconOffset = inputIconSize + inputSpacing + inputIconPosition;
 
 const inputColors = {
   label: colors.neutral[20],
@@ -32,4 +33,5 @@ export {
   inputIconSize,
   inputSpacing,
   inputIconOffset,
+  inputIconPosition,
 };

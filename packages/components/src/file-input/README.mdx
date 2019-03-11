@@ -1,0 +1,55 @@
+---
+name: File Input
+menu: Components
+route: /components/file-input
+---
+
+import { FileInput } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# File Input
+
+Enabling users to upload one or more files inside a form.
+
+A `placeholder` offers additional context to the files required.
+
+```jsx react-live
+<Form>
+  <FormItem>
+    <FileInput placeholder="ID, passport, etc." />
+  </FormItem>
+</Form>
+```
+
+## Label
+
+By default, File Input renders with "Choose file", but this can be customised
+via the `label` prop.
+
+```jsx react-live
+<FileInput label="Upload photo" placeholder="ID, passport, etc." />
+```
+
+### Placeholder
+
+Although an additional `placeholder` is encouraged, it won't display when
+undefined.
+
+```jsx react-live
+<FileInput />
+```
+
+## States
+
+### Error
+
+Although an additional `placeholder` is encouraged, it won't display when
+undefined.
+
+```jsx react-live
+<FileInput error />
+```
+
+## Props
+
+<PropsTable of={FileInput} />

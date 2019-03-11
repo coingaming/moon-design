@@ -4,15 +4,13 @@ import { css, jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq } from '@heathmont/sportsbet-utils';
-import {
-  Input,
-  inputColors,
-  inputSpacing,
-  inputIconSize,
-} from '../private/input';
+import { Input, inputColors, inputSpacing } from '../private/input';
 import { Label, LabelSizing } from '../private/label';
 import { IconChevronDown, IconChevronUpDown } from '@heathmont/sportsbet-icons';
 jsx;
+
+const selectIconSize = 10; // px
+const selectIconOffset = selectIconSize + inputSpacing * 2;
 
 type SelectProps = LabelSizing & {
   label?: string;
@@ -29,6 +27,9 @@ const SelectInput = Input.withComponent('select');
 const select = css({
   color: inputColors.label,
   backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
+  paddingRight: rem(selectIconOffset),
+  backgroundPosition: `right ${rem(selectIconSize)} center`,
+  backgroundSize: rem(selectIconSize),
   '&:hover, &:focus': {
     cursor: 'pointer',
   },
@@ -51,7 +52,7 @@ const selectShort = css({
   paddingTop: rem(inputSpacing + 10),
   paddingBottom: rem(inputSpacing + 10),
   color: 'white',
-  backgroundSize: `auto ${rem(inputIconSize)}`,
+  backgroundSize: `auto ${rem(selectIconSize)}`,
   backgroundImage: inlineSVG(<IconChevronUpDown color={inputColors.icon} />),
   '&:disabled': {
     backgroundImage: inlineSVG(
