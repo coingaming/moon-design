@@ -1,6 +1,6 @@
 /** @jsx jsx */ jsx;
 import { Fragment } from 'react';
-import { css, jsx, Global } from '@emotion/core';
+import { jsx, Global, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import padding from 'polished/lib/shorthands/padding';
 import { styles } from '@heathmont/sportsbet-global';
@@ -10,7 +10,7 @@ import { Children } from '../types';
 import { Nav } from './nav';
 import { Meta } from './meta';
 
-const grid = css({
+const grid: CSSObject = {
   [mq(breakpoints.medium)]: {
     display: 'grid',
     gridTemplateColumns: '16rem minmax(0, 1fr)',
@@ -20,7 +20,7 @@ const grid = css({
     minHeight: '100vh',
     width: '100vw',
   },
-});
+};
 
 const Main = styled.main({
   padding: `${spacing('large')} ${spacing()}`,

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { jsx, css } from '@emotion/core';
+import { jsx } from '@emotion/core';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { underlineWidth } from './settings';
@@ -24,7 +24,7 @@ const NavLink: React.FC<NavLinkProps> = ({ active, element = 'a', ...props }) =>
   jsx(element, {
     ...props,
     'aria-current': active ? 'page' : undefined,
-    css: css({
+    css: {
       position: 'relative',
       padding: 0,
       margin: 0,
@@ -56,7 +56,7 @@ const NavLink: React.FC<NavLinkProps> = ({ active, element = 'a', ...props }) =>
           transform: 'scaleX(1)',
         },
       },
-    }),
+    },
   });
 
 export { NavLink, NavLinkProps };

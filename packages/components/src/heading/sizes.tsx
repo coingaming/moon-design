@@ -1,5 +1,5 @@
 import rem from 'polished/lib/helpers/rem';
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import { typography } from '@heathmont/sportsbet-tokens';
 
 type HeadingSizes =
@@ -10,41 +10,41 @@ type HeadingSizes =
   | 'echo'
   | 'foxtrot';
 
-const alpha = css({
+const alpha: CSSObject = {
   fontWeight: typography.fontWeight.semibold,
   fontSize: rem(55),
   lineHeight: rem(68),
-});
+};
 
-const bravo = css({
+const bravo: CSSObject = {
   fontWeight: typography.fontWeight.semibold,
   fontSize: rem(48),
   lineHeight: rem(59),
-});
+};
 
-const charlie = css({
+const charlie: CSSObject = {
   fontWeight: typography.fontWeight.normal,
   fontSize: rem(42),
   lineHeight: rem(52),
-});
+};
 
-const delta = css({
+const delta: CSSObject = {
   fontWeight: typography.fontWeight.semibold,
   fontSize: rem(42),
   lineHeight: rem(52),
-});
+};
 
-const echo = css({
+const echo: CSSObject = {
   fontWeight: typography.fontWeight.bold,
   fontSize: rem(35),
   lineHeight: rem(43),
-});
+};
 
-const foxtrot = css({
+const foxtrot: CSSObject = {
   fontWeight: typography.fontWeight.bold,
   fontSize: rem(33),
   lineHeight: rem(41),
-});
+};
 
 const headingSizes = {
   alpha,

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { CSSObject, jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { border, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
@@ -22,31 +22,29 @@ type ButtonProps = {
 /**
  * Styles
  */
-const button = css([
-  {
-    padding: `${spacing('small')} ${spacing('medium')}`,
-    display: 'inline-block',
-    verticalAlign: 'middle',
-    fontFamily: 'inherit', // Prevents links rendering as system fonts.
-    fontSize: rem(14),
-    fontWeight: typography.fontWeight.semibold,
-    lineHeight: rem(18),
-    textAlign: 'center',
-    textDecoration: 'none',
-    textTransform: 'uppercase',
-    cursor: 'pointer',
-    borderStyle: border.style,
-    borderWidth: border.width,
-    borderColor: 'transparent',
-    borderRadius: border.radius.small,
-  },
-  buttonDisabled('solid'),
-]);
+const button: CSSObject = {
+  padding: `${spacing('small')} ${spacing('medium')}`,
+  display: 'inline-block',
+  verticalAlign: 'middle',
+  fontFamily: 'inherit', // Prevents links rendering as system fonts.
+  fontSize: rem(14),
+  fontWeight: typography.fontWeight.semibold,
+  lineHeight: rem(18),
+  textAlign: 'center',
+  textDecoration: 'none',
+  textTransform: 'uppercase',
+  cursor: 'pointer',
+  borderStyle: border.style,
+  borderWidth: border.width,
+  borderColor: 'transparent',
+  borderRadius: border.radius.small,
+  ...buttonDisabled('solid'),
+};
 
-const buttonSpaced = css({
+const buttonSpaced: CSSObject = {
   marginBottom: spacing(),
   '&:not(:last-child)': { marginRight: spacing() },
-});
+};
 
 /**
  * Component
