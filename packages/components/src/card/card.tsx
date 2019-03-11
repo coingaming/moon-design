@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import padding from 'polished/lib/shorthands/padding';
@@ -14,32 +14,32 @@ type CardProps = {
 /**
  * Styles
  */
-const card = css({
+const card: CSSObject = {
   display: 'block',
   minHeight: rem(170),
   ...padding(spacing(), spacing('medium')),
   position: 'relative',
   borderRadius: border.radius.default,
   backgroundColor: colors.neutral[80],
-});
+};
 
 /* Modifiers */
-const cardFlex = css({
+const cardFlex: CSSObject = {
   display: 'flex',
   flexDirection: 'column',
   flexWrap: 'wrap',
   justifyContent: 'space-between',
   alignItems: 'alignContent',
-});
+};
 
-const cardOutline = css({
+const cardOutline: CSSObject = {
   borderStyle: border.style,
   borderWidth: border.width,
   borderColor: colors.neutral[50],
-});
+};
 
-const cardBack = css({ backgroundColor: colors.neutral[60] });
-const cardShadow = css({ boxShadow: 'rgba(0, 0, 0, 0.25) 4px 4px 12px' });
+const cardBack: CSSObject = { backgroundColor: colors.neutral[60] };
+const cardShadow: CSSObject = { boxShadow: 'rgba(0, 0, 0, 0.25) 4px 4px 12px' };
 
 const cardModifiers = {
   front: [cardGradient, cardShadow],

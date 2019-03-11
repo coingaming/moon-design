@@ -1,5 +1,5 @@
 /** @jsx jsx */ jsx;
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import modularScale from 'polished/lib/helpers/modularScale';
 import { preToCodeBlock } from 'mdx-utils';
@@ -11,13 +11,14 @@ import { Children } from '../types';
 
 const modularScaleConfig = ['1rem', 'augFourth'];
 
-const maxWidth = css({
+const maxWidth: CSSObject = {
   maxWidth: '40rem',
-});
+};
 
 const Table = styled.table([
   {
     width: '100%',
+    ...maxWidth,
     thead: {
       color: colors.neutral[20],
       borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
@@ -26,7 +27,6 @@ const Table = styled.table([
       padding: `${spacing('small')} 0`,
     },
   },
-  maxWidth,
 ]);
 
 /**
@@ -36,51 +36,43 @@ const Table = styled.table([
 export const mdxComponents = {
   h1: ({ children }: Children) => (
     <h1
-      css={[
-        css({
-          fontSize: modularScale(4, ...modularScaleConfig),
-          lineHeight: 'normal',
-        }),
-      ]}
+      css={{
+        fontSize: modularScale(4, ...modularScaleConfig),
+        lineHeight: 'normal',
+      }}
     >
       {children}
     </h1>
   ),
   h2: ({ children }: Children) => (
     <h2
-      css={[
-        css({
-          fontSize: modularScale(3, ...modularScaleConfig),
-          lineHeight: 'normal',
-          fontWeight: typography.fontWeight.normal,
-        }),
-      ]}
+      css={{
+        fontSize: modularScale(3, ...modularScaleConfig),
+        lineHeight: 'normal',
+        fontWeight: typography.fontWeight.normal,
+      }}
     >
       {children}
     </h2>
   ),
   h3: ({ children }: Children) => (
     <h3
-      css={[
-        css({
-          fontSize: modularScale(2, ...modularScaleConfig),
-          lineHeight: 'normal',
-          fontWeight: typography.fontWeight.semibold,
-        }),
-      ]}
+      css={{
+        fontSize: modularScale(2, ...modularScaleConfig),
+        lineHeight: 'normal',
+        fontWeight: typography.fontWeight.semibold,
+      }}
     >
       {children}
     </h3>
   ),
   h4: ({ children }: Children) => (
     <h4
-      css={[
-        css({
-          fontSize: modularScale(1, ...modularScaleConfig),
-          lineHeight: 'normal',
-          fontWeight: typography.fontWeight.semibold,
-        }),
-      ]}
+      css={{
+        fontSize: modularScale(1, ...modularScaleConfig),
+        lineHeight: 'normal',
+        fontWeight: typography.fontWeight.semibold,
+      }}
     >
       {children}
     </h4>
