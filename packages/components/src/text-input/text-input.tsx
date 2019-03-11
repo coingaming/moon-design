@@ -7,7 +7,12 @@ import math from 'polished/lib/math/math';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
 import { hyphenate, inlineSVG, spacing } from '@heathmont/sportsbet-utils';
-import { Input, inputSpacing, inputAnimationSpeed } from '../private/input';
+import {
+  Input,
+  inputFloatContent,
+  inputFloatLabel,
+  inputFloatLabelActive,
+} from '../private/input';
 import {
   IconWarning,
   IconSuccess,
@@ -105,24 +110,12 @@ const textInputFloat = css({
     color: 'transparent',
   },
   '&:not(:placeholder-shown)': {
-    paddingTop: rem(inputSpacing + 7),
-    paddingBottom: rem(inputSpacing - 7),
+    ...inputFloatContent,
     borderColor: 'transparent',
     '& + label': {
-      transform: 'translateY(-90%) scale(0.75)',
+      ...inputFloatLabelActive,
     },
   },
-});
-
-const textInputLabelFloat = css({
-  position: 'absolute',
-  left: rem(inputSpacing),
-  top: '50%',
-  transform: 'translateY(-50%)',
-  transformOrigin: 'top left',
-  transition: `transform ${inputAnimationSpeed} ease`,
-  color: colors.neutral[20],
-  pointerEvents: 'none',
 });
 
 /**
@@ -156,7 +149,7 @@ const TextInput: React.FC<TextInputProps> = ({
         css={textInputFloat}
         {...inputProps}
       />
-      <label htmlFor={createId(label)} css={textInputLabelFloat}>
+      <label htmlFor={createId(label)} css={inputFloatLabel}>
         {label}
       </label>
     </div>
