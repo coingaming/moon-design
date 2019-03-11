@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
@@ -34,7 +34,7 @@ const Form: React.FC<FormProps> = ({
   ...props
 }) => {
   return (
-    <form css={css({ maxWidth })} {...props}>
+    <form css={{ maxWidth }} {...props}>
       <Fieldset>
         <legend css={hideVisually}>{legend}</legend>
         <FormList>{children}</FormList>

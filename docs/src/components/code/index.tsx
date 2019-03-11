@@ -1,6 +1,6 @@
 /* tslint:disable import-name */
 /** @jsx jsx */ jsx;
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Components from '@heathmont/sportsbet-components';
@@ -25,29 +25,26 @@ type HighlightProps = {
 
 const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
 
-const codeWrapper = css([
-  {
-    ...Utils.rhythm(),
-    display: 'block',
-    border: codeBorder,
-    borderRadius: border.radius.small,
-    position: 'relative',
-    overflow: 'hidden',
-    '.prism-code:focus': {
-      outline: 'none',
-      boxShadow: `inset 0 0 3px ${colors.brand}`,
-    },
+const codeWrapper: CSSObject = {
+  ...Utils.rhythm(),
+  display: 'block',
+  border: codeBorder,
+  borderRadius: border.radius.small,
+  position: 'relative',
+  overflow: 'hidden',
+  '.prism-code:focus': {
+    outline: 'none',
+    boxShadow: `inset 0 0 3px ${colors.brand}`,
   },
-  syntaxStyles,
-]);
+};
 
-const liveCodePreview = css({
+const liveCodePreview: CSSObject = {
   padding: Utils.spacing('large'),
   minHeight: Utils.spacing('xlarge'),
   fontFamily: typography.fontFamily,
   borderBottom: codeBorder,
   overflowY: 'scroll',
-});
+};
 
 /* Ensures that we can use `css` props + not have to worry about wrapper divs */
 const transformCode = (src: any) =>
@@ -58,12 +55,12 @@ export const Code = ({ codeString, language, ...props }: CodeProps) =>
     <LiveProvider
       mountStylesheet={false}
       code={codeString}
-      css={codeWrapper}
+      css={[codeWrapper, syntaxStyles]}
       scope={{ jsx, ...Components, ...Icons, ...Objects, ...Utils, colors }}
       transformCode={transformCode}
     >
       <LivePreview css={liveCodePreview} />
-      <div css={css({ overflowY: 'scroll' })}>
+      <div css={{ overflowY: 'scroll' }}>
         <LiveEditor />
       </div>
       <LiveError />

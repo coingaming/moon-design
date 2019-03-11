@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
@@ -42,16 +42,15 @@ const LabelText = styled.span<LabelTextProps>(({ flex }) => [
   },
 ]);
 
-const labelFlex = (inputGrow: number = 1) =>
-  css({
-    [mq(breakpoints.small)]: {
-      display: 'flex',
-      alignItems: 'center',
-      [inputSelectors]: {
-        flex: inputGrow,
-      },
+const labelFlex: (inputGrow: number) => CSSObject = inputGrow => ({
+  [mq(breakpoints.small)]: {
+    display: 'flex',
+    alignItems: 'center',
+    [inputSelectors]: {
+      flex: inputGrow,
     },
-  });
+  },
+});
 
 /**
  * Component
@@ -61,7 +60,7 @@ const Label: React.FC<LabelProps> = ({
   flex,
   children,
   inline,
-  inputGrow,
+  inputGrow = 1,
   ...props
 }) => {
   return inline ? (
