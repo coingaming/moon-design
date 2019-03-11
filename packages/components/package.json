@@ -12,8 +12,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@emotion/core": "10.0.7",
-    "@emotion/styled": "10.0.7",
+    "@emotion/core": "10.0.9",
+    "@emotion/styled": "10.0.9",
     "@heathmont/sportsbet-icons": "^0.11.0",
     "@heathmont/sportsbet-objects": "^0.11.0",
     "@heathmont/sportsbet-tokens": "^0.11.0",
