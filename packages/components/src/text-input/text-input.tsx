@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import math from 'polished/lib/math/math';
@@ -63,24 +63,22 @@ const createId = (id: string) => `TextInput-${hyphenate(id)}`;
 /**
  * Styles
  */
-const inputContainer = css({
+const inputContainer: CSSObject = {
   position: 'relative',
-});
+};
 
-const backgroundIcon = css({
+const backgroundIcon: CSSObject = {
   backgroundPosition: `right ${iconInnerPosition} center, right ${iconPosition} center`,
   backgroundSize: `${iconInnerSize}, ${iconSize}`,
-});
+};
 
-const textInputError = css([
-  backgroundIcon,
-  {
-    borderColor: colors.error,
-    backgroundImage: `
-      ${inlineSVG(<IconWarning color={colors.neutral[10]} />)},
-      ${inlineSVG(<IconCircle color={colors.error} />)}`,
-  },
-]);
+const textInputError: CSSObject = {
+  ...backgroundIcon,
+  borderColor: colors.error,
+  backgroundImage: `
+    ${inlineSVG(<IconWarning color={colors.neutral[10]} />)},
+    ${inlineSVG(<IconCircle color={colors.error} />)}`,
+};
 
 const TextInputElem = styled(Input)(({ error, success }) => [
   {
@@ -105,7 +103,7 @@ const TextInputElem = styled(Input)(({ error, success }) => [
   ],
 ]);
 
-const textInputFloat = css({
+const textInputFloat: CSSObject = {
   '::placeholder': {
     color: 'transparent',
   },
@@ -116,7 +114,7 @@ const textInputFloat = css({
       ...inputFloatLabelActive,
     },
   },
-});
+};
 
 /**
  * Component

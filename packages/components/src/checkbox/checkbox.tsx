@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import size from 'polished/lib/shorthands/size';
 import { colors, border } from '@heathmont/sportsbet-tokens';
@@ -51,11 +51,10 @@ const CheckboxInput = styled.input({
   },
 });
 
-const checkboxLabel = (disabled: boolean) =>
-  css({
-    flex: 1,
-    color: disabled ? inputColors.disabled : inputColors.label,
-  });
+const checkboxLabel: (disabled: boolean) => CSSObject = disabled => ({
+  flex: 1,
+  color: disabled ? inputColors.disabled : inputColors.label,
+});
 
 /**
  * Component

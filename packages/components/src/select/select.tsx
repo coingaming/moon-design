@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq } from '@heathmont/sportsbet-utils';
@@ -24,7 +24,7 @@ type SelectProps = LabelSizing & {
  */
 const SelectInput = Input.withComponent('select');
 
-const select = css({
+const select: CSSObject = {
   color: inputColors.label,
   backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
   paddingRight: rem(selectIconOffset),
@@ -39,16 +39,16 @@ const select = css({
       <IconChevronDown color={inputColors.disabled} />
     ),
   },
-});
+};
 
 /* Modifiers */
-const selectWidthAuto = css({
+const selectWidthAuto: CSSObject = {
   [mq(breakpoints.small)]: {
     width: 'auto',
   },
-});
+};
 
-const selectShort = css({
+const selectShort: CSSObject = {
   paddingTop: rem(inputSpacing + 10),
   paddingBottom: rem(inputSpacing + 10),
   color: 'white',
@@ -59,7 +59,7 @@ const selectShort = css({
       <IconChevronUpDown color={inputColors.disabled} />
     ),
   },
-});
+};
 
 /**
  * Component

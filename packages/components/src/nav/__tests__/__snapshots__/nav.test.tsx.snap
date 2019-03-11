@@ -41,9 +41,8 @@ exports[`Nav renders correctly 1`] = `
 }
 
 .emotion-5 {
-  display: inline-block;
-  margin-left: 0;
   display: block;
+  margin-left: 0;
   white-space: nowrap;
   margin-top: 0;
   padding-bottom: 0.625rem;

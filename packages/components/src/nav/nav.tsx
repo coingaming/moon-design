@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import math from 'polished/lib/math/math';
@@ -19,14 +19,14 @@ const navSkipLinkID = 'nav-skip';
  * Components
  */
 const Nav: React.FC = ({ children }) => {
-  const nav = css({
+  const nav: CSSObject = {
     ...rhythm(),
     position: 'relative',
     overflowX: 'scroll',
     overflowY: 'hidden',
-  });
+  };
 
-  const skipLink = css({
+  const skipLink: CSSObject = {
     position: 'absolute',
     zIndex: 1,
     padding: `0 ${spacing('small')}`,
@@ -38,20 +38,18 @@ const Nav: React.FC = ({ children }) => {
     '&:not(:focus)': {
       ...hideVisually(),
     },
-  });
+  };
 
   /* 1. Include the indicator as part of the item's box-model. */
-  const navList = css([
-    listInline,
-    {
-      display: 'block',
-      whiteSpace: 'nowrap',
-      marginTop: 0,
-      paddingBottom: math(
-        `${underlineOffset} + ${rem(underlineWidth)}`
-      ) /* [1] */,
-    },
-  ]);
+  const navList: CSSObject = {
+    ...listInline,
+    display: 'block',
+    whiteSpace: 'nowrap',
+    marginTop: 0,
+    paddingBottom: math(
+      `${underlineOffset} + ${rem(underlineWidth)}`
+    ) /* [1] */,
+  };
 
   return (
     <nav css={nav}>
