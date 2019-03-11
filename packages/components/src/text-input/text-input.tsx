@@ -1,13 +1,18 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { css, jsx } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import math from 'polished/lib/math/math';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
 import { hyphenate, inlineSVG, spacing } from '@heathmont/sportsbet-utils';
-import { Input, inputSpacing, inputAnimationSpeed } from '../private/input';
+import {
+  Input,
+  inputFloatContent,
+  inputFloatLabel,
+  inputFloatLabelActive,
+} from '../private/input';
 import {
   IconWarning,
   IconSuccess,
@@ -58,24 +63,22 @@ const createId = (id: string) => `TextInput-${hyphenate(id)}`;
 /**
  * Styles
  */
-const inputContainer = css({
+const inputContainer: CSSObject = {
   position: 'relative',
-});
+};
 
-const backgroundIcon = css({
+const backgroundIcon: CSSObject = {
   backgroundPosition: `right ${iconInnerPosition} center, right ${iconPosition} center`,
   backgroundSize: `${iconInnerSize}, ${iconSize}`,
-});
+};
 
-const textInputError = css([
-  backgroundIcon,
-  {
-    borderColor: colors.error,
-    backgroundImage: `
-      ${inlineSVG(<IconWarning color={colors.neutral[10]} />)},
-      ${inlineSVG(<IconCircle color={colors.error} />)}`,
-  },
-]);
+const textInputError: CSSObject = {
+  ...backgroundIcon,
+  borderColor: colors.error,
+  backgroundImage: `
+    ${inlineSVG(<IconWarning color={colors.neutral[10]} />)},
+    ${inlineSVG(<IconCircle color={colors.error} />)}`,
+};
 
 const TextInputElem = styled(Input)(({ error, success }) => [
   {
@@ -100,30 +103,18 @@ const TextInputElem = styled(Input)(({ error, success }) => [
   ],
 ]);
 
-const textInputFloat = css({
+const textInputFloat: CSSObject = {
   '::placeholder': {
     color: 'transparent',
   },
   '&:not(:placeholder-shown)': {
-    paddingTop: rem(inputSpacing + 7),
-    paddingBottom: rem(inputSpacing - 7),
+    ...inputFloatContent,
     borderColor: 'transparent',
     '& + label': {
-      transform: 'translateY(-90%) scale(0.75)',
+      ...inputFloatLabelActive,
     },
   },
-});
-
-const textInputLabelFloat = css({
-  position: 'absolute',
-  left: rem(inputSpacing),
-  top: '50%',
-  transform: 'translateY(-50%)',
-  transformOrigin: 'top left',
-  transition: `transform ${inputAnimationSpeed} ease`,
-  color: colors.neutral[20],
-  pointerEvents: 'none',
-});
+};
 
 /**
  * Component
@@ -156,7 +147,7 @@ const TextInput: React.FC<TextInputProps> = ({
         css={textInputFloat}
         {...inputProps}
       />
-      <label htmlFor={createId(label)} css={textInputLabelFloat}>
+      <label htmlFor={createId(label)} css={inputFloatLabel}>
         {label}
       </label>
     </div>
