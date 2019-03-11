@@ -22,7 +22,8 @@
   },
   "workspaces": [
     "docs",
-    "packages/*"
+    "design/*",
+    "portals/*"
   ],
   "config": {
     "commitizen": {

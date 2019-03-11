@@ -1,12 +1,12 @@
 {
   "files": [],
   "references": [
-    { "path": "packages/assets" },
-    { "path": "packages/components" },
-    { "path": "packages/icons" },
-    { "path": "packages/objects" },
-    { "path": "packages/global" },
-    { "path": "packages/tokens" },
-    { "path": "packages/utils" }
+    { "path": "design/assets" },
+    { "path": "design/components" },
+    { "path": "design/icons" },
+    { "path": "design/objects" },
+    { "path": "design/global" },
+    { "path": "design/tokens" },
+    { "path": "design/utils" }
   ]
 }
