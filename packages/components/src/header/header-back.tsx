@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { Fragment } from 'react';
-import { jsx, css } from '@emotion/core';
+import { jsx } from '@emotion/core';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
@@ -27,7 +27,7 @@ const HeaderBack: React.FC<HeaderBackProps> = ({
 }) =>
   jsx(element, {
     ...props,
-    css: css({
+    css: {
       margin: `0 ${spacing()} 0 0`,
       padding: 0,
       alignSelf: 'center',
@@ -35,7 +35,7 @@ const HeaderBack: React.FC<HeaderBackProps> = ({
       backgroundColor: 'transparent',
       border: 0,
       appearance: 'none',
-    }),
+    },
     children: (
       <Fragment>
         <IconArrowLeft fontSize={spacing('medium')} color={colors.brand} />

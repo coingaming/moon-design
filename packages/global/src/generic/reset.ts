@@ -1,7 +1,7 @@
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import { rhythm } from '@heathmont/sportsbet-utils';
 
-export const reset = css({
+export const reset: CSSObject = {
   /**
    * Remove all browser-default margins from certain elements.
    */
@@ -37,4 +37,4 @@ export const reset = css({
   '[hidden]': {
     display: 'none !important',
   },
-});
+};
