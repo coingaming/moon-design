@@ -1,9 +1,9 @@
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { spacing as spacingTokens } from '@heathmont/sportsbet-tokens';
 import { rhythm as verticalRhythm } from '@heathmont/sportsbet-utils';
 
-export const rhythm = css({
+export const rhythm: CSSObject = {
   /**
    * Apply default spacing to the bottom of all block-level elements for
    * consistent vertical rhythm.
@@ -21,4 +21,4 @@ export const rhythm = css({
   'ul, ol, dd': {
     marginLeft: rem(spacingTokens.default + 2),
   },
-});
+};

@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { base, colors, typography } from '@heathmont/sportsbet-tokens';
 
@@ -6,7 +6,7 @@ import { base, colors, typography } from '@heathmont/sportsbet-tokens';
  * 1. Prevent automatic zooming of fonts on some mobile devices.
  * 2. Consistent font display behavior on OSX.
  */
-export const page = css({
+export const page: CSSObject = {
   html: {
     backgroundColor: colors.neutral[80],
     fontSize: rem(base.fontSize),
@@ -20,4 +20,4 @@ export const page = css({
     MozOsxFontSmoothing: 'grayscale' /* [2] */,
     WebkitFontSmoothing: 'antialiased' /* [2] */,
   },
-});
+};

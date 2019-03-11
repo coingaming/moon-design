@@ -1,14 +1,14 @@
 /** @jsx jsx */ jsx;
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import { Link } from 'gatsby';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 
-const logoLink = css({
+const logoLink: CSSObject = {
   display: 'block',
   maxWidth: rem(180), // Totally arbitrary number
-});
+};
 
 export const Logo = () => (
   <Link to="/" css={logoLink}>
