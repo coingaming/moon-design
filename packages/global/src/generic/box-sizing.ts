@@ -1,10 +1,10 @@
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 
-export const boxSizing = css({
+export const boxSizing: CSSObject = {
   html: {
     boxSizing: 'border-box',
   },
   '*, *::before, *::after': {
     boxSizing: 'inherit',
   },
-});
+};

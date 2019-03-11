@@ -1,7 +1,7 @@
 /** @jsx jsx */ jsx;
 import { Link as GatsbyLink } from 'gatsby';
 import styled from '@emotion/styled';
-import { jsx, css } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Frontmatter } from '../../types';
@@ -23,16 +23,16 @@ type MenuProps = {
 /**
  * Styles
  */
-const listItem = css({
+const listItem: CSSObject = {
   display: 'block',
   marginTop: spacing('small'),
-});
+};
 
-const listSection = css({
+const listSection: CSSObject = {
   fontSize: '1.2rem',
   fontWeight: 600,
   color: colors.neutral[20],
-});
+};
 
 const Link = styled(GatsbyLink)({
   // @ts-ignore: &[aria-current=page]
