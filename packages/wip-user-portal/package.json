@@ -22,9 +22,9 @@
     }
   ],
   "dependencies": {
-    "@emotion/cache": "10.0.7",
-    "@emotion/core": "10.0.7",
-    "@emotion/styled": "10.0.7",
+    "@emotion/cache": "10.0.9",
+    "@emotion/core": "10.0.9",
+    "@emotion/styled": "10.0.9",
     "@heathmont/sportsbet-components": "^0.11.0",
     "@heathmont/sportsbet-global": "^0.11.0",
     "@heathmont/sportsbet-tokens": "^0.11.0",
