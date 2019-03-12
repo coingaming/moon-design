@@ -13,7 +13,7 @@ Tooltips offer further contextual information to users.
 
 ```jsx react-live
 <div css={{ height: '4rem' }}>
-  <Tooltip active message="Hello, I'm a Tooltip." />
+  <Tooltip active>Hello, I'm a Tooltip</Tooltip>
 </div>
 ```
 
@@ -35,12 +35,35 @@ When using Tooltips, you **must** provide a unique ID and reference as the
       type="password"
       aria-describedby="eg-tooltip-1"
     />
+    <Tooltip id="eg-tooltip-1" active align="right">
+      <p>Any hint or additional info</p>
+    </Tooltip>
+  </FormItem>
+</Form>
+```
+
+### Closable
+
+Pass a function into the `onClose` prop if you want it to be closable
+
+```jsx react-live
+<Form maxWidth="30em" css={{ minHeight: '6rem' }}>
+  <FormItem>
+    <TextInput
+      label="Password"
+      type="password"
+      aria-describedby="eg-tooltip-1"
+    />
     <Tooltip
       id="eg-tooltip-1"
       active
       align="right"
-      message="Any hint or additional info."
-    />
+      onClose={() => {
+        console.log('Closed');
+      }}
+    >
+      <p>Any hint or additional info</p>
+    </Tooltip>
   </FormItem>
 </Form>
 ```
@@ -59,13 +82,9 @@ Adding the `error` prop will trigger the Tooltip's error styles.
       type="password"
       aria-describedby="eg-tooltip-1"
     />
-    <Tooltip
-      id="eg-tooltip-1"
-      error
-      active
-      align="right"
-      message="Your password is not strong enough."
-    />
+    <Tooltip id="eg-tooltip-1" error active align="right">
+      <p>Your password is not strong enough</p>
+    </Tooltip>
   </FormItem>
 </Form>
 ```
