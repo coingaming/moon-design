@@ -4,10 +4,10 @@ module.exports = {
   testEnvironment: 'jsdom',
   snapshotSerializers: ['jest-emotion'],
   setupFilesAfterEnv: ['./.config/jest/setup.ts'],
-  testPathIgnorePatterns: ['/node_modules/', '/.cache/'],
+  testPathIgnorePatterns: ['/node_modules/', '/.cache/', '/lib/'],
   globals: {
     'ts-jest': {
-      tsConfig: 'packages/tsconfig.json',
+      tsConfig: './.config/ts/tsconfig.base.json',
     },
   },
 };

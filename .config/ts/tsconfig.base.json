@@ -12,9 +12,13 @@
     "moduleResolution": "node",
     "baseUrl": "../",
     // Alias our package names to the appropriate directory.
-    // e.g. "@heathmont/sportsbet-tokens" => "./packages/tokens/src"
+    // e.g. "@heathmont/sportsbet-tokens" => "./design/tokens/src"
     "paths": {
-      "@heathmont/sportsbet-*": ["./packages/*/src"]
+      "@heathmont/sportsbet-*": [
+        "./design/*/src",
+        "./docs/src",
+        "./portals/*/src"
+      ]
     }
   }
 }

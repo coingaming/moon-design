@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../../.config/ts/tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib"
@@ -8,5 +8,7 @@
     {
       "path": "../tokens"
     }
-  ]
+  ],
+  "include": ["src"],
+  "exclude": ["src/**/__tests__"]
 }
