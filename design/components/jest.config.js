@@ -3,7 +3,7 @@ const base = require('../../.config/jest/jest.config.base.js');
 
 module.exports = {
   ...base,
-  roots: ['<rootDir>/packages/objects'],
+  roots: ['<rootDir>/design/components'],
   name: package.name,
   displayName: package.name,
 };

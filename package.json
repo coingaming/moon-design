@@ -4,7 +4,7 @@
   "scripts": {
     "commit": "git-cz",
     "build": "tsc -b",
-    "clean": "rimraf **/{lib,dist,.cache,public}/",
+    "clean": "rimraf {design,docs,portals}/**/{lib,dist,.cache,public}/",
     "nuke": "yarn clean && rimraf node_modules **/node_modules",
     "format": "prettier --write",
     "lint:ts-validate": "tslint-config-prettier-check ./tslint.json",
@@ -22,7 +22,8 @@
   },
   "workspaces": [
     "docs",
-    "packages/*"
+    "design/*",
+    "portals/*"
   ],
   "config": {
     "commitizen": {
