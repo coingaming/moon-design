@@ -1,11 +1,13 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { jsx } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import math from 'polished/lib/math/math';
-import { animation, border, colors } from '@heathmont/sportsbet-tokens';
+import { animation, border, colors, zIndex } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+import { IconClose } from '@heathmont/sportsbet-icons';
 import { slideUpFade } from './animation';
+import { Toggle } from '../toggle/toggle';
 
 /**
  * Types
@@ -13,18 +15,22 @@ import { slideUpFade } from './animation';
 type TooltipBubbleProps = {
   active?: boolean;
   error?: boolean;
+  onClose?: () => void;
   align?: 'left' | 'right';
 };
 
 type TooltipProps = TooltipBubbleProps & {
   id?: string;
-  message: string;
+  children: React.ReactNode;
 };
 
 /**
  * Settings
  */
-const TooltipIndicatorSize = spacing('small');
+const tooltipIndicatorSize = spacing('small');
+const tooltipSpacing = spacing('small');
+const tooltipIconSize = '0.8rem';
+const tooltipIconOffset = math(`${tooltipSpacing} + ${tooltipIconSize}`);
 
 /**
  * Styles
@@ -32,11 +38,12 @@ const TooltipIndicatorSize = spacing('small');
 const TooltipBubble = styled.div<TooltipBubbleProps>(
   ({ active, align = 'left', error }) => [
     {
+      zIndex: zIndex.toggle,
       [align]: 0,
       position: 'absolute',
       maxWidth: '100%',
-      padding: spacing('small'),
-      marginTop: math(`${TooltipIndicatorSize} + ${spacing('small')}`),
+      padding: tooltipSpacing,
+      marginTop: math(`${tooltipIndicatorSize} + ${spacing('small')}`),
       backgroundColor: !error ? colors.neutral[10] : colors.error,
       borderRadius: border.radius.small,
       boxShadow:
@@ -58,7 +65,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
         borderStyle: 'solid',
         borderColor: 'transparent',
         borderBottomColor: !error ? colors.neutral[10] : colors.error,
-        borderWidth: TooltipIndicatorSize,
+        borderWidth: tooltipIndicatorSize,
       },
     },
     active && {
@@ -67,10 +74,31 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
   ]
 );
 
+const TooltipCaption = styled.div<TooltipBubbleProps>(({ onClose }) => [
+  { position: 'relative' },
+  typeof onClose === 'function' && {
+    paddingRight: tooltipIconOffset,
+  },
+]);
+
+const tooltipToggle: CSSObject = {
+  position: 'absolute',
+  top: '50%',
+  transform: 'translateY(-50%)',
+  right: 0,
+  fontSize: tooltipIconSize,
+};
+
 /**
  * Component
  */
-const Tooltip: React.FC<TooltipProps> = ({ active, id, message, ...props }) => (
+const Tooltip: React.FC<TooltipProps> = ({
+  onClose,
+  active,
+  id,
+  children,
+  ...props
+}) => (
   <div
     aria-hidden={active ? false : true}
     role="tooltip"
@@ -78,7 +106,18 @@ const Tooltip: React.FC<TooltipProps> = ({ active, id, message, ...props }) => (
     css={{ position: 'relative' }}
   >
     <TooltipBubble active={active} {...props}>
-      <p>{message}</p>
+      <TooltipCaption onClose={onClose}>
+        {children}
+        {typeof onClose === 'function' && (
+          <Toggle topRight={false} css={tooltipToggle}>
+            <IconClose
+              onClick={onClose}
+              fontSize="inherit"
+              color={colors.neutral[20]}
+            />
+          </Toggle>
+        )}
+      </TooltipCaption>
     </TooltipBubble>
   </div>
 );
