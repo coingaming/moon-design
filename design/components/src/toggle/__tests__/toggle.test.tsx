@@ -8,4 +8,10 @@ describe('Toggle', () => {
 
     expect(toggle).toMatchSnapshot();
   });
+
+  test('positioned static when "topRight=false"', () => {
+    const toggle = create(<Toggle topRight={false} />);
+
+    expect(toggle).toMatchSnapshot();
+  });
 });
