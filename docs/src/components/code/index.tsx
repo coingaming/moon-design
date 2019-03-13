@@ -66,7 +66,7 @@ export const Code = ({ codeString, language, ...props }: CodeProps) =>
       <LiveError />
     </LiveProvider>
   ) : (
-    <div css={codeWrapper}>
+    <div css={[codeWrapper, syntaxStyles]}>
       <Highlight
         {...defaultProps}
         code={codeString}
