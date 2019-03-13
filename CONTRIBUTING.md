@@ -134,7 +134,7 @@ Code formatting is handled **automatically** via [Prettier](https://prettier.io/
 Linting will catch any further non-formatting issues:
 
 - [TSLint](https://palantir.github.io/tslint/)
-  - **Config**: [tslint.json](./tslint.json)
+  - **Config**: [tslint.json](.config/tslint/tslint.json)
   - **Note**: As TSLint does not yet support TypeScript project `references` [(palantir/tslint#4137)](https://github.com/palantir/tslint/issues/4137), TSLint must be executed via `lerna run` to treat each package correctly.
 
 ### Component Structure
