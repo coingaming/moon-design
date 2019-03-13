@@ -18,7 +18,8 @@
     "docs:serve": "lerna run --scope docs --stream serve",
     "postinstall": "yarn build",
     "publish:packages": "lerna publish --yes",
-    "bundlesize": "yarn user-portal bundlesize"
+    "bundlesize": "yarn user-portal bundlesize",
+    "git:commits": "git log --oneline --graph --all --decorate -n 30"
   },
   "workspaces": [
     "docs",
