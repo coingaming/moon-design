@@ -1,13 +1,22 @@
+import * as React from 'react';
 import { CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
+import rgba from 'polished/lib/color/rgba';
 import padding from 'polished/lib/shorthands/padding';
 import { border, colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
-import { cardGradient } from './utils';
+import { inlineSVG, InlineSVGProps, spacing } from '@heathmont/sportsbet-utils';
+import {
+  cardGradients,
+  cardGradientPositions,
+  cardGradientSizes,
+} from './utils';
 
+type CardTemplates = 'front' | 'back' | 'outline';
+type CardBackgroundIcon = InlineSVGProps | false | undefined;
 type CardProps = {
-  template: 'front' | 'back' | 'outline';
+  backgroundIcon?: CardBackgroundIcon | undefined;
+  template: CardTemplates;
   flex?: boolean;
 };
 
@@ -32,6 +41,22 @@ const cardFlex: CSSObject = {
   alignItems: 'alignContent',
 };
 
+const cardBackground: (
+  withIcon: CardBackgroundIcon
+) => CSSObject = withIcon => ({
+  backgroundRepeat: 'no-repeat',
+  backgroundBlendMode: 'luminosity',
+  backgroundImage: !withIcon
+    ? `${cardGradients}`
+    : `${inlineSVG(withIcon)}, ${cardGradients}`,
+  backgroundSize: !withIcon
+    ? `${cardGradientSizes}`
+    : `auto 75%, ${cardGradientSizes}`,
+  backgroundPosition: withIcon
+    ? `${cardGradientPositions}`
+    : `center right ${spacing()}, ${cardGradientPositions}`,
+});
+
 const cardOutline: CSSObject = {
   borderStyle: border.style,
   borderWidth: border.width,
@@ -41,19 +66,28 @@ const cardOutline: CSSObject = {
 const cardBack: CSSObject = { backgroundColor: colors.neutral[60] };
 const cardShadow: CSSObject = { boxShadow: 'rgba(0, 0, 0, 0.25) 4px 4px 12px' };
 
-const cardModifiers = {
-  front: [cardGradient, cardShadow],
-  back: [cardBack, cardShadow],
-  outline: cardOutline,
-};
+const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
+  ({
+    front: [cardBackground(backgroundIcon), cardShadow],
+    back: [cardBack, cardShadow],
+    outline: cardOutline,
+  }[template]);
 
 /**
  * Component
  */
-const Card = styled.div<CardProps>(({ flex, template }) => [
+const Card = styled.div<CardProps>(({ backgroundIcon, flex, template }) => [
   card,
   flex && cardFlex,
-  cardModifiers[template || 'front'],
+  cardModifiers({
+    template: template || 'front',
+    backgroundIcon:
+      backgroundIcon &&
+      React.isValidElement(backgroundIcon) &&
+      React.cloneElement(backgroundIcon as React.ReactElement<any>, {
+        color: rgba(colors.neutral[10], 0.05),
+      }),
+  }),
 ]);
 
 export { Card, CardProps };
