@@ -86,6 +86,19 @@ The different types of branches should be named as follows:
 1. One approved, it's down to you to merge the branch into `develop`. Code can **only** be contributed to `develop` via using pull requests.
 1. Delete your branch.
 
+#### Rebasing develop branch to your branch example
+
+1. `git checkout develop`
+1. `git pull`
+1. `git checkout your-branch`
+1. `git rebase develop`
+
+#### Rebasing pull requests example
+
+1. `yarn git:commits` - pick your base commit, where you want add all other commits on top of
+1. `git rebase -i hash` - launches interactive shell where you choose your commits to squash
+1. `git push -f` - force push your git changes
+
 #### Merge or Rebase
 
 **Use merge - not rebase** whenever you've already pushed.
