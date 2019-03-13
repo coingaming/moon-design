@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@heathmont/sportsbet-wip-user-portal",
+  "name": "@heathmont/sportsbet-user-portal",
   "version": "0.13.0",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --progress --display-error-details",
-    "bundlesize": "yarn build && bundlesize",
+    "bundlesize": "bundlesize",
     "clean": "rimraf **/{lib,dist,.cache,public}/",
     "dev": "webpack --watch --progress & nodemon dist/server.bundle.js",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
