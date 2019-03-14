@@ -96,14 +96,14 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
 }
 
 .emotion-4 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
   background: none;
   padding: 0;
   cursor: pointer;
   border: none;
   font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   color: #8697a2;
 }
 
@@ -266,14 +266,14 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
 }
 
 .emotion-6 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
   background: none;
   padding: 0;
   cursor: pointer;
   border: none;
   font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   color: #8697a2;
 }
 
