@@ -1,8 +1,7 @@
 /* tslint:disable import-name */
 import express from 'express';
-import path from 'path';
-
 import * as React from 'react';
+import * as dotenv from 'dotenv-safe';
 import { renderToString } from 'react-dom/server';
 
 import createEmotionServer from 'create-emotion-server';
@@ -13,6 +12,10 @@ import { styles } from '@heathmont/sportsbet-global';
 
 import { ServerSideApp } from '../app';
 import { template } from './template';
+
+dotenv.config({ allowEmptyValues: true });
+
+const PORT = process.env.SERVICE_PORT;
 
 /**
  * Emotion SSR
@@ -34,7 +37,7 @@ const globalStyles = renderStylesToString(
  */
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, '../../dist')));
+app.use(express.static('dist'));
 
 app.get('/*', (req, res) => {
   const { html, css, ids } = extractCritical(
@@ -45,8 +48,9 @@ app.get('/*', (req, res) => {
     )
   );
 
+  res.setHeader('Content-Type', 'text/html');
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.end(template({ html, css, ids, globalStyles }));
 });
 
-app.listen(7024);
+app.listen(PORT);
