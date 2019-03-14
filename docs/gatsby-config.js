@@ -1,14 +1,12 @@
 const path = require('path');
+const { siteTitle, description, author } = require('./config');
 const { colors } = require('@heathmont/sportsbet-tokens');
-
-const siteTitle = 'Sportsbet.io Design';
 
 module.exports = {
   siteMetadata: {
     title: siteTitle,
-    description:
-      'Everything you need to know about the Sportsbet.io Design System',
-    author: 'Sportsbet.io',
+    description,
+    author,
   },
   plugins: [
     `gatsby-plugin-emotion`,
@@ -44,6 +42,14 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `config`,
+        path: `${__dirname}/config.json`,
+      },
+    },
+    'gatsby-transformer-json',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

@@ -22,6 +22,13 @@ const sidebar = graphql`
         }
       }
     }
+    config: allDocsJson {
+      edges {
+        node {
+          designSections
+        }
+      }
+    }
   }
 `;
 
@@ -39,6 +46,7 @@ export const Nav = () => (
         <Divider />
         <MenuList>
           <MenuItem route={`/`} name="Introduction" section />
+          {/* TODO: Investigate IDE type issue highlighting */}
           <Menu items={transformSections(data)} />
         </MenuList>
       </nav>
