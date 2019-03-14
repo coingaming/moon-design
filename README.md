@@ -16,17 +16,37 @@
 
 ## Architecture
 
-Our Design System is a [Lerna](https://github.com/lerna/lerna) monorepo that follows the [Smoothie](https://smoothie-css.com/) methodology, publishing key layers as individual `packages/`:
+Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/sportsbet-` packages, split across 3 directories:
 
-1. [**Assets**](packages/assets/README.md) - common rich media brand assets.
-2. [**Tokens**](packages/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
-3. [**Global**](packages/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
-4. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
-5. [**Objects**](packages/utils/README.md) - structural components without cosmetic features for common layouts.
-6. [**Icons**](packages/components/README.mdx) - React components for each icon.
-7. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
+1. [`docs/`](#docs) - style guide and documentation
+2. [`design/`](#design-system) - the Sportsbet.io design system
+3. [`portals/`](#portals) - prototype applications
 
 Packages are developed inside their respective `src` folders, utilising [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the [TypeScript compiler](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#compiling-your-code) on build/publish.
+
+### Docs
+
+`docs/`
+
+Our project's style guide and documentation is built using [Gatsby](https://www.gatsbyjs.org/) inside its own individual package directory. See [usage](#docs-2) for more info.
+
+### Design System
+
+`design/`
+
+1. [**Assets**](design/assets/README.md) - common rich media brand assets.
+2. [**Tokens**](design/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
+3. [**Global**](design/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
+4. [**Utils**](design/utils/README.md) - suite of tools to quickly access common token values.
+5. [**Objects**](design/utils/README.md) - structural components without cosmetic features for common layouts.
+6. [**Icons**](design/components/README.mdx) - React components for each icon.
+7. [**Components**](design/components/README.md) - the individual building blocks of our UI.
+
+### Portals
+
+`portals/`
+
+1. [**User Portal**](user-portal/README.md)
 
 ## Installation
 
@@ -65,21 +85,13 @@ Packages are developed inside their respective `src` folders, utilising [Yarn Wo
 - `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
 - `yarn publish` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
 
-### Style Guide
-
-Our project's style guide is built using [Gatsby](https://www.gatsbyjs.org/), and can be run as follows:
+### Docs
 
 - `yarn docs:dev` - spins up a hot reloading docs environment at [localhost:8000](http://localhost:8000/).
 - `yarn docs:build` - generates a static production build of the style guide in `.docs/public`.
 - `yarn docs:serve` - serves files created by the build script at [localhost:9000](http://localhost:9000/).
 
-[Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`packages/assets`](packages/assets/README.md) before build.
-
-### User portal
-
-All scripts defined in [packages/wip-user-portal](packages/wip-user-portal/README.md) can be run via `yarn user-portal <script-name>`.
-
-See the [User Portal README](packages/wip-user-portal/README.md) for more details.
+[Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`design/assets`](design/assets/README.md) before build.
 
 ## Contributing
 

@@ -1,0 +1,720 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner Closable renders with default vertical layout 1`] = `
+.emotion-3 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-1:disabled,
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-1.is-active:not([disabled]),
+.emotion-1.has-focus:not([disabled]),
+.emotion-1:hover:not([disabled]),
+.emotion-1:active:not([disabled]),
+.emotion-1:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-1.has-focus,
+.emotion-1:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-1:disabled,
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: inherit;
+  background-color: #1a3442;
+  border-radius: 4px;
+}
+
+.emotion-0 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  margin: 0;
+  padding: 1rem 1.5rem;
+}
+
+.emotion-4 {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #8697a2;
+}
+
+@media (min-width:31.25em) {
+  .emotion-4 {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+<div
+  className="emotion-6"
+>
+  <div
+    className="emotion-0"
+  >
+    <p>
+      Don't have any bitcoins?
+    </p>
+  </div>
+  <div
+    className="emotion-0"
+  >
+    <button
+      className="emotion-1"
+    >
+      Buy bitcoins
+    </button>
+  </div>
+  <div
+    className="emotion-0"
+  >
+    <button
+      className="emotion-4"
+      onClick={[Function]}
+    >
+      <svg
+        className="emotion-3"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner Closable renders with horizontal layout 1`] = `
+.emotion-5 {
+  vertical-align: middle;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: normal;
+  -ms-flex-line-pack: normal;
+  align-content: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-family: inherit;
+  background-color: #1a3442;
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+.emotion-1 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.emotion-1:first-child {
+  margin-top: 0;
+}
+
+.emotion-0 {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  line-height: 2.5625rem;
+}
+
+.emotion-3 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-3.is-active:not([disabled]),
+.emotion-3.has-focus:not([disabled]),
+.emotion-3:hover:not([disabled]),
+.emotion-3:active:not([disabled]),
+.emotion-3:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-3.has-focus,
+.emotion-3:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+.emotion-6 {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #8697a2;
+}
+
+@media (min-width:31.25em) {
+  .emotion-6 {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+<div
+  className="emotion-8"
+>
+  <div
+    className="emotion-1"
+  >
+    <h2
+      className="emotion-0"
+    >
+      Need help?
+    </h2>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <button
+      className="emotion-3"
+    >
+      Contact Us
+    </button>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <button
+      className="emotion-6"
+      onClick={[Function]}
+    >
+      <svg
+        className="emotion-5"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner renders correctly with maxWidth prop 1`] = `
+.emotion-1 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.emotion-1:first-child {
+  margin-top: 0;
+}
+
+.emotion-0 {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  line-height: 2.5625rem;
+}
+
+.emotion-3 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-3.is-active:not([disabled]),
+.emotion-3.has-focus:not([disabled]),
+.emotion-3:hover:not([disabled]),
+.emotion-3:active:not([disabled]),
+.emotion-3:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-3.has-focus,
+.emotion-3:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: normal;
+  -ms-flex-line-pack: normal;
+  align-content: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-family: inherit;
+  background-color: #1a3442;
+  border-radius: 8px;
+  max-width: 600px;
+  padding: 2.5rem;
+}
+
+<div
+  className="emotion-5"
+>
+  <div
+    className="emotion-1"
+  >
+    <h2
+      className="emotion-0"
+    >
+      Need help?
+    </h2>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <button
+      className="emotion-3"
+    >
+      Contact Us
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner renders horizontally 1`] = `
+.emotion-1 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-1:disabled,
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-1.is-active:not([disabled]),
+.emotion-1.has-focus:not([disabled]),
+.emotion-1:hover:not([disabled]),
+.emotion-1:active:not([disabled]),
+.emotion-1:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-1.has-focus,
+.emotion-1:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-1:disabled,
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: inherit;
+  background-color: #1a3442;
+  border-radius: 4px;
+}
+
+.emotion-0 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  margin: 0;
+  padding: 1rem 1.5rem;
+}
+
+<div
+  className="emotion-3"
+>
+  <div
+    className="emotion-0"
+  >
+    <p>
+      Don't have any bitcoins?
+    </p>
+  </div>
+  <div
+    className="emotion-0"
+  >
+    <button
+      className="emotion-1"
+    >
+      Buy bitcoins
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Banner renders vertically by default 1`] = `
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: normal;
+  -ms-flex-line-pack: normal;
+  align-content: normal;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  font-family: inherit;
+  background-color: #1a3442;
+  border-radius: 8px;
+  padding: 2.5rem;
+}
+
+.emotion-1 {
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.emotion-1:first-child {
+  margin-top: 0;
+}
+
+.emotion-0 {
+  color: inherit;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  line-height: 2.5625rem;
+}
+
+.emotion-3 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #0cd664;
+  width: 100%;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: #414f57;
+  color: #677278;
+}
+
+.emotion-3.is-active:not([disabled]),
+.emotion-3.has-focus:not([disabled]),
+.emotion-3:hover:not([disabled]),
+.emotion-3:active:not([disabled]),
+.emotion-3:focus:not([disabled]) {
+  color: #00e865;
+  background-color: transparent;
+  border-color: #00e865;
+}
+
+.emotion-3.has-focus,
+.emotion-3:focus {
+  outline: none;
+  box-shadow: 0 0 16px #0cd664;
+}
+
+.emotion-3:disabled,
+.emotion-3[disabled] {
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: #414f57;
+  color: #414f57;
+}
+
+<div
+  className="emotion-5"
+>
+  <div
+    className="emotion-1"
+  >
+    <h2
+      className="emotion-0"
+    >
+      Need help?
+    </h2>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <p>
+      If you require any assistance our 24/7 live chat support is here to help
+    </p>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <button
+      className="emotion-3"
+    >
+      Contact Us
+    </button>
+  </div>
+</div>
+`;

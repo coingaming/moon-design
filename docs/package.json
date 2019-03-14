@@ -11,7 +11,7 @@
     "build": "yarn prebuild && gatsby build",
     "serve": "gatsby serve",
     "clean:assets": "rimraf static/assets",
-    "build:assets": "mkdir -p static/assets/fonts && cp -R ../packages/assets/src/fonts/ static/assets/fonts/",
+    "build:assets": "mkdir -p static/assets/fonts && cp -R ../design/assets/src/fonts/ static/assets/fonts/",
     "prebuild": "yarn clean:assets && yarn build:assets",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
@@ -59,6 +59,7 @@
     "gatsby-plugin-typescript": "2.0.7",
     "gatsby-remark-autolink-headers": "2.0.14",
     "gatsby-source-filesystem": "2.0.20",
+    "gatsby-transformer-json": "2.1.10",
     "gatsby-transformer-sharp": "2.1.13",
     "mdx-utils": "0.0.2",
     "polished": "3.0.0",

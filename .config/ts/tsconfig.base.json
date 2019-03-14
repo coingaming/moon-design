@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "../",
+    // Alias our package names to the appropriate directory.
+    // e.g. "@heathmont/sportsbet-tokens" => "./design/tokens/src"
+    "paths": {
+      "@heathmont/sportsbet-*": [
+        "./design/*/src",
+        "./docs/src",
+        "./portals/*/src"
+      ]
+    }
+  }
+}

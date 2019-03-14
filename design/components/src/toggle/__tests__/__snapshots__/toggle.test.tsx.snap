@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle positioned static when "topRight=false" 1`] = `
+.emotion-0 {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+<button
+  className="emotion-0"
+/>
+`;
+
+exports[`Toggle renders correctly 1`] = `
+.emotion-0 {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+<button
+  className="emotion-0"
+/>
+`;
