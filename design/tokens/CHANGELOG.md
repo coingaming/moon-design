@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/coingaming/sportsbet-design/compare/v0.12.0...v0.13.0) (2019-03-14)
+
+
+### Features
+
+* **tooltip:** added closeable functionality to tooltip ([04c1433](https://github.com/coingaming/sportsbet-design/commit/04c1433))
+
+
+
+
+
 # [0.12.0](https://github.com/coingaming/sportsbet-design/compare/v0.11.0...v0.12.0) (2019-03-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens

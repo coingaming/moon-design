@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/coingaming/sportsbet-design/compare/v0.12.0...v0.13.0) (2019-03-14)
+
+
+### Bug Fixes
+
+* **docs:** code block syntax highlighting ([7febac7](https://github.com/coingaming/sportsbet-design/commit/7febac7))
+
+
+### Features
+
+* **docs:** introduce config file ([e148edf](https://github.com/coingaming/sportsbet-design/commit/e148edf))
+* **tooltip:** added closeable functionality to tooltip ([04c1433](https://github.com/coingaming/sportsbet-design/commit/04c1433))
+* **user-portal:** add profile ([010698a](https://github.com/coingaming/sportsbet-design/commit/010698a))
+
+
+
+
+
 # [0.12.0](https://github.com/coingaming/sportsbet-design/compare/v0.11.0...v0.12.0) (2019-03-11)
 
 
