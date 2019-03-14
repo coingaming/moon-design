@@ -6,14 +6,14 @@ exports[`BannerToggle accepts standard \`button\` props 1`] = `
 }
 
 .emotion-1 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
   background: none;
   padding: 0;
   cursor: pointer;
   border: none;
   font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   color: #8697a2;
 }
 
@@ -50,14 +50,14 @@ exports[`BannerToggle renders correctly 1`] = `
 }
 
 .emotion-1 {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
   background: none;
   padding: 0;
   cursor: pointer;
   border: none;
   font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   color: #8697a2;
 }
 
