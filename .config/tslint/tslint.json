@@ -1,6 +1,6 @@
 {
   "extends": ["tslint-config-airbnb", "tslint-config-prettier"],
-  "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "rulesDirectory": ["../../node_modules/tslint-microsoft-contrib"],
   "rules": {
     "variable-name": [
       true,
