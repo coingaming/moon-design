@@ -21,7 +21,7 @@
 
 #### Designing
 
-Icons are designed in the [`.sketch` file](packages/assets/src/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/assets/src/icons/svg) directory.
+Icons are designed in the [`.sketch` file](design/assets/src/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](design/assets/src/icons/svg) directory.
 
 Each icon **must**:
 
@@ -33,18 +33,18 @@ Each icon **must**:
   1. the export format defined as "SVG".
 - have its color fill set to `#000000`.
 
-Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/assets/src/icons/svg) directory as the output location.
+Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](design/assets/src/icons/svg) directory as the output location.
 
 #### Building
 
 For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
 
-We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/src/icons/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](design/assets/src/icons/svg) to React components in [`sportsbet-icons`](design/icons/README.mdx).
 
 To update/add icons run: `yarn icons build`
 
-- Runs SVGR based on the [config options](packages/icons/src/config/svgr.js).
-- Builds React `.tsx` files for each component with the [template](packages/icons/src/config/template.js).
+- Runs SVGR based on the [config options](design/icons/src/config/svgr.js).
+- Builds React `.tsx` files for each component with the [template](design/icons/src/config/template.js).
 
 ## Git Strategy
 
@@ -86,6 +86,19 @@ The different types of branches should be named as follows:
 1. One approved, it's down to you to merge the branch into `develop`. Code can **only** be contributed to `develop` via using pull requests.
 1. Delete your branch.
 
+#### Rebasing develop branch to your branch example
+
+1. `git checkout develop`
+1. `git pull`
+1. `git checkout your-branch`
+1. `git rebase develop`
+
+#### Rebasing pull requests example
+
+1. `yarn git:commits` - pick your base commit, where you want add all other commits on top of
+1. `git rebase -i hash` - launches interactive shell where you choose your commits to squash
+1. `git push -f` - force push your git changes
+
 #### Merge or Rebase
 
 **Use merge - not rebase** whenever you've already pushed.
@@ -121,7 +134,7 @@ Code formatting is handled **automatically** via [Prettier](https://prettier.io/
 Linting will catch any further non-formatting issues:
 
 - [TSLint](https://palantir.github.io/tslint/)
-  - **Config**: [tslint.json](./tslint.json)
+  - **Config**: [tslint.json](.config/tslint/tslint.json)
   - **Note**: As TSLint does not yet support TypeScript project `references` [(palantir/tslint#4137)](https://github.com/palantir/tslint/issues/4137), TSLint must be executed via `lerna run` to treat each package correctly.
 
 ### Component Structure
@@ -146,7 +159,7 @@ With [Emotion](https://emotion.sh) we can take advantage of keeping style, marku
 
 Each component/consumable feature **must** have a README that follows the appropriate package's pre-defined `.templates/`:
 
-- [`packages/components`](packages/components/.templates/README.mdx)
+- [`design/components`](design/components/.templates/README.mdx)
 
 This should be written in [`.mdx`](https://mdxjs.com/) syntax, which will be included automatically in the [Style Guide](./README.md#style-guide).
 

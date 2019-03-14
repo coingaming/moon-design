@@ -4,6 +4,12 @@ type Frontmatter = {
   menu?: string;
 };
 
+type ConfigNode = {
+  node: {
+    designSections: [string];
+  };
+};
+
 type PageNode = {
   node: {
     frontmatter: Frontmatter;
@@ -13,6 +19,9 @@ type PageNode = {
 type PagesData = {
   pages: {
     edges: [PageNode];
+  };
+  config: {
+    edges: [ConfigNode];
   };
 };
 

@@ -1,0 +1,23 @@
+{
+  "extends": "../../.config/ts/tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "references": [
+    {
+      "path": "../tokens"
+    },
+    {
+      "path": "../icons"
+    },
+    {
+      "path": "../objects"
+    },
+    {
+      "path": "../utils"
+    }
+  ],
+  "include": ["src"],
+  "exclude": ["src/**/__tests__"]
+}

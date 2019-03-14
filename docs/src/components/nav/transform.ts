@@ -1,15 +1,9 @@
 import { PagesData } from '../../types';
-const sections = [
-  'Global',
-  'Tokens',
-  'Objects',
-  'Icons',
-  'Components',
-  'Utils',
-];
 
-export const transformSections = (data: PagesData) =>
-  sections.map(section => {
+export const transformSections = (data: PagesData) => {
+  const sections = data.config.edges[0].node.designSections;
+
+  return sections.map(section => {
     const sectionPages = data.pages.edges
       .filter(({ node }) => node.frontmatter.menu === section)
       .map(({ node }) => ({
@@ -30,3 +24,4 @@ export const transformSections = (data: PagesData) =>
       ...sectionMeta,
     };
   });
+};

@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip alignment right-aligned 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-1 {
+  z-index: 1;
+  right: 0;
+  position: absolute;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  -webkit-animation: animation-0 0.4s ease-in-out;
+  animation: animation-0 0.4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  will-change: transform;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+}
+
+.emotion-1,
+.emotion-1::after {
+  color: #142c37;
+}
+
+.emotion-1::after {
+  right: 1rem;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #fff;
+  border-width: 0.5rem;
+}
+
+<div
+  aria-hidden={false}
+  className="emotion-0"
+  id="test-id"
+  role="tooltip"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      <p>
+        Hi, I'm a Tooltip
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip renders as active when defined 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-1 {
+  z-index: 1;
+  left: 0;
+  position: absolute;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  -webkit-animation: animation-0 0.4s ease-in-out;
+  animation: animation-0 0.4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  will-change: transform;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+}
+
+.emotion-1,
+.emotion-1::after {
+  color: #142c37;
+}
+
+.emotion-1::after {
+  left: 1rem;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #fff;
+  border-width: 0.5rem;
+}
+
+<div
+  aria-hidden={false}
+  className="emotion-0"
+  id="test-id"
+  role="tooltip"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      <p>
+        Hi, I'm a Tooltip
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip renders as an error 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-1 {
+  z-index: 1;
+  left: 0;
+  position: absolute;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #ff4e64;
+  border-radius: 4px;
+  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  -webkit-animation: animation-0 0.4s ease-in-out;
+  animation: animation-0 0.4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  will-change: transform;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+}
+
+.emotion-1,
+.emotion-1::after {
+  color: #fff;
+}
+
+.emotion-1::after {
+  left: 1rem;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #ff4e64;
+  border-width: 0.5rem;
+}
+
+<div
+  aria-hidden={false}
+  className="emotion-0"
+  id="test-id"
+  role="tooltip"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      <p>
+        Hi, I'm a Tooltip
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip renders hidden and left-aligned by default 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.emotion-0 {
+  position: relative;
+}
+
+.emotion-1 {
+  z-index: 1;
+  left: 0;
+  position: absolute;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  -webkit-animation: animation-0 0.4s ease-in-out;
+  animation: animation-0 0.4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  will-change: transform;
+}
+
+.emotion-1,
+.emotion-1::after {
+  color: #142c37;
+}
+
+.emotion-1::after {
+  left: 1rem;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #fff;
+  border-width: 0.5rem;
+}
+
+<div
+  aria-hidden={true}
+  className="emotion-0"
+  id="test-id"
+  role="tooltip"
+>
+  <div
+    className="emotion-1"
+  >
+    <div
+      className="emotion-0"
+    >
+      <p>
+        Hi, I'm a Tooltip
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip renders with close button if onClose handler was passed closeable 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-0 {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+    display: none;
+    -webkit-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-3 {
+  z-index: 1;
+  left: 0;
+  position: absolute;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  -webkit-animation: animation-0 0.4s ease-in-out;
+  animation: animation-0 0.4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  will-change: transform;
+}
+
+.emotion-3,
+.emotion-3::after {
+  color: #142c37;
+}
+
+.emotion-3::after {
+  left: 1rem;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #fff;
+  border-width: 0.5rem;
+}
+
+.emotion-2 {
+  position: relative;
+  padding-right: 1.3rem;
+}
+
+.emotion-1 {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  font-size: 0.8rem;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+<div
+  aria-hidden={true}
+  className="emotion-4"
+  id="test-id"
+  role="tooltip"
+>
+  <div
+    className="emotion-3"
+  >
+    <div
+      className="emotion-2"
+      onClose={[Function]}
+    >
+      <p>
+        Hi, I'm a Tooltip
+      </p>
+      <button
+        className="emotion-1"
+      >
+        <svg
+          className="emotion-0"
+          color="#8697a2"
+          fontSize="inherit"
+          height="1em"
+          onClick={[Function]}
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
