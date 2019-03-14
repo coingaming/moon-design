@@ -1,6 +1,9 @@
 # System
 .DS_Store
 
+# ENV
+.env
+
 # IDE
 .vscode
 .idea

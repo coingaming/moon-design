@@ -13,7 +13,8 @@ cd ../../
 Each script in this package can then be run via `yarn user-portal <script-name>`:
 
 - `yarn user-portal build` - creates a static isomorphic build.
-- `yarn user-portal dev` - starts a hot-reloading development environment at [localhost:7024](http://localhost:7024/).
+- `yarn user-portal dev` - starts a hot-reloading development environment at [localhost:5000](http://localhost:5000/).
+- `yarn user-portal serve` - serves user-portal environment at [localhost:5000](http://localhost:5000/).
 
 ## File structure
 
