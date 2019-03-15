@@ -206,6 +206,9 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
 
 .emotion-0 {
   color: inherit;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .emotion-3 {
@@ -350,6 +353,9 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
 
 .emotion-0 {
   color: inherit;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .emotion-3 {
@@ -623,6 +629,9 @@ exports[`Banner renders vertically by default 1`] = `
 
 .emotion-0 {
   color: inherit;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .emotion-3 {

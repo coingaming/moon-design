@@ -11,7 +11,7 @@ type Props = {
 
 export const DepositMessage: React.FC<Props> = ({ onClose }) => (
   <React.Fragment>
-    <Heading size="foxtrot" element="h2">
+    <Heading size="bravo" element="h2">
       Success! Your email is now verified.
     </Heading>
     <p
