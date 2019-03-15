@@ -96,9 +96,3 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 ## Contributing
 
 See the [Contributing Guidelines](CONTRIBUTING.md) for full info.
-
-## Plan
-
-Initial brainstorm of the project's requirements on Tuesday 8th January 2019:
-
-![Image of initial whiteboard brainstorm](.github/assets/brainstorm.jpg)
