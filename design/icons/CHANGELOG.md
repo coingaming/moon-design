@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/coingaming/sportsbet-design/compare/v0.14.0...v0.15.0) (2019-03-15)
+
+
+### Features
+
+* **icons:** add euro and bitcoin ([b6ad4c2](https://github.com/coingaming/sportsbet-design/commit/b6ad4c2))
+
+
+
+
+
 # [0.14.0](https://github.com/coingaming/sportsbet-design/compare/v0.13.0...v0.14.0) (2019-03-15)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
