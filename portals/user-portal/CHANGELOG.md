@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/coingaming/sportsbet-design/compare/v0.13.0...v0.14.0) (2019-03-15)
+
+
+### Features
+
+* added building portals ([19842e6](https://github.com/coingaming/sportsbet-design/commit/19842e6))
+
+
+
+
+
 # [0.13.0](https://github.com/coingaming/sportsbet-design/compare/v0.12.0...v0.13.0) (2019-03-14)
 
 **Note:** Version bump only for package @heathmont/sportsbet-wip-user-portal
