@@ -14,7 +14,13 @@ export const NeedHelpBanner = () => (
     <p>
       If you require any assistance our 24/7 live chat support is here to help
     </p>
-    <Button fullWidth modifier="secondary">
+    <Button
+      fullWidth
+      modifier="secondary"
+      onClick={() => {
+        console.log('Contact Us');
+      }}
+    >
       Contact Us
     </Button>
     <BannerToggle
