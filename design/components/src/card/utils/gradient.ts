@@ -1,4 +1,3 @@
-import { css } from '@emotion/core';
 import rgba from 'polished/lib/color/rgba';
 import { colors } from '@heathmont/sportsbet-tokens';
 
@@ -23,35 +22,51 @@ const cardColors = {
   transparent: 'rgba(0, 0, 0, 0)',
 };
 
-export const cardGradient = css`
-  background-image: /* [1] */ radial-gradient(
+const cardGradients: string[] = [
+  `radial-gradient(
       ellipse 30% 80% at -5% 0%,
       ${rgba(cardColors.dark, cardAlpha)},
       ${cardColors.transparent}
-    ),
-    /* [2] */
-      radial-gradient(
-        ellipse 30% 55% at 100% 0%,
-        ${rgba(cardColors.dark, cardAlpha)},
-        ${cardColors.transparent}
-      ),
-    /* [3] */
-      radial-gradient(
-        ellipse 60% 35% at 100% 100%,
-        ${rgba(cardColors.dark, cardAlpha)},
-        ${cardColors.transparent}
-      ),
-    /* [4] */
-      radial-gradient(
-        ellipse 40% 40% at 20% 75%,
-        ${rgba(cardColors.light, 0.2)},
-        ${cardColors.transparent}
-      ),
-    /* [5] */
-      radial-gradient(
-        ellipse 50% 90% at top center,
-        ${rgba(cardColors.light, 0.5)},
-        ${rgba(cardColors.mid, cardAlpha)}
-      );
-  background-blend-mode: luminosity;
-`;
+    )`,
+  `radial-gradient(
+      ellipse 30% 55% at 100% 0%,
+      ${rgba(cardColors.dark, cardAlpha)},
+      ${cardColors.transparent}
+    )`,
+  /* [3] */
+  `radial-gradient(
+      ellipse 60% 35% at 100% 100%,
+      ${rgba(cardColors.dark, cardAlpha)},
+      ${cardColors.transparent}
+    )`,
+  /* [4] */
+  `radial-gradient(
+      ellipse 40% 40% at 20% 75%,
+      ${rgba(cardColors.light, 0.2)},
+      ${cardColors.transparent}
+    )`,
+  /* [5] */
+  `radial-gradient(
+      ellipse 50% 90% at top center,
+      ${rgba(cardColors.light, 0.5)},
+      ${rgba(cardColors.mid, cardAlpha)}
+    )`,
+];
+
+const cardGradientPositions = [
+  'center',
+  'center',
+  'center',
+  'center',
+  'center',
+];
+
+const cardGradientSizes = [
+  'contain',
+  'contain',
+  'contain',
+  'contain',
+  'contain',
+];
+
+export { cardGradients, cardGradientPositions, cardGradientSizes };

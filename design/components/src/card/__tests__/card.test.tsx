@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { IconBitcoin } from '@heathmont/sportsbet-icons';
 import { Card } from '../';
 
 describe('Card', () => {
@@ -18,6 +19,16 @@ describe('Card', () => {
     test('renders as front', () => {
       const card = create(
         <Card template="front">
+          <p>Some content</p>
+        </Card>
+      );
+
+      expect(card).toMatchSnapshot();
+    });
+
+    test('renders as front with backgroundIcon', () => {
+      const card = create(
+        <Card template="front" backgroundIcon={<IconBitcoin />}>
           <p>Some content</p>
         </Card>
       );
