@@ -18,7 +18,7 @@ const inputDescription: CSSObject = {
 
 export const Settings = () => (
   <React.Fragment>
-    <Heading size="foxtrot" element="h2">
+    <Heading size="bravo" element="h2">
       Settings
     </Heading>
     <Form legend="settings" css={rhythm('medium')}>

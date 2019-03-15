@@ -3,9 +3,9 @@
 exports[`Heading Elements renders as <p> if no element prop provided 1`] = `
 .emotion-0 {
   color: inherit;
-  font-weight: 600;
-  font-size: 3.4375rem;
-  line-height: 4.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 <p
@@ -18,9 +18,9 @@ exports[`Heading Elements renders as <p> if no element prop provided 1`] = `
 exports[`Heading Elements renders as an element if element prop provided 1`] = `
 .emotion-0 {
   color: inherit;
-  font-weight: 600;
-  font-size: 3.4375rem;
-  line-height: 4.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 <h2
@@ -33,9 +33,9 @@ exports[`Heading Elements renders as an element if element prop provided 1`] = `
 exports[`Heading Sizes alpha size renders properly 1`] = `
 .emotion-0 {
   color: inherit;
-  font-weight: 600;
-  font-size: 3.4375rem;
-  line-height: 4.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 <h1
@@ -48,9 +48,9 @@ exports[`Heading Sizes alpha size renders properly 1`] = `
 exports[`Heading Sizes bravo size renders properly 1`] = `
 .emotion-0 {
   color: inherit;
-  font-weight: 600;
-  font-size: 3rem;
-  line-height: 3.6875rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 <h1
@@ -63,9 +63,9 @@ exports[`Heading Sizes bravo size renders properly 1`] = `
 exports[`Heading Sizes charlie size renders properly 1`] = `
 .emotion-0 {
   color: inherit;
-  font-weight: 400;
-  font-size: 2.625rem;
-  line-height: 3.25rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 <h1
@@ -79,8 +79,8 @@ exports[`Heading Sizes delta size renders properly 1`] = `
 .emotion-0 {
   color: inherit;
   font-weight: 600;
-  font-size: 2.625rem;
-  line-height: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 <h1
@@ -93,9 +93,9 @@ exports[`Heading Sizes delta size renders properly 1`] = `
 exports[`Heading Sizes echo size renders properly 1`] = `
 .emotion-0 {
   color: inherit;
-  font-weight: 700;
-  font-size: 2.1875rem;
-  line-height: 2.6875rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 <h1
@@ -105,27 +105,12 @@ exports[`Heading Sizes echo size renders properly 1`] = `
 </h1>
 `;
 
-exports[`Heading Sizes foxtrot size renders properly 1`] = `
-.emotion-0 {
-  color: inherit;
-  font-weight: 700;
-  font-size: 2.0625rem;
-  line-height: 2.5625rem;
-}
-
-<h1
-  className="emotion-0"
->
-  Foxtrot Heading
-</h1>
-`;
-
 exports[`Heading renders with a color 1`] = `
 .emotion-0 {
   color: #0cd664;
-  font-weight: 600;
-  font-size: 3.4375rem;
-  line-height: 4.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 <h1
