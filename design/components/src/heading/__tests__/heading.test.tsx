@@ -64,15 +64,6 @@ describe('Heading', () => {
       );
       expect(heading).toMatchSnapshot();
     });
-
-    test('foxtrot size renders properly', () => {
-      const heading = create(
-        <Heading size="foxtrot" element="h1">
-          Foxtrot Heading
-        </Heading>
-      );
-      expect(heading).toMatchSnapshot();
-    });
   });
 
   test('renders with a color', () => {
