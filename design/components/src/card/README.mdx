@@ -17,8 +17,10 @@ Containers for mixed content and media about a single subject.
 
 Default template, using the `flex` layout modifier to balance space between items.
 
+[Icons](../icons) can also be passed via `backgroundIcon` for extra cosmetic context.
+
 ```jsx react-live
-<Card flex>
+<Card flex backgroundIcon={<IconBitcoin />}>
   <CardToggle />
   <CardBalance
     from={{

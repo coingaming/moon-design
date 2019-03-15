@@ -35,8 +35,39 @@ exports[`Card Templates renders as front 1`] = `
   position: relative;
   border-radius: 8px;
   background-color: #12242e;
-  background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),  radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-repeat: no-repeat;
   background-blend-mode: luminosity;
+  background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-size: contain,contain,contain,contain,contain;
+  background-position: center right 1rem,center,center,center,center,center;
+  box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    Some content
+  </p>
+</div>
+`;
+
+exports[`Card Templates renders as front with backgroundIcon 1`] = `
+.emotion-0 {
+  display: block;
+  min-height: 10.625rem;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #12242e;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 15 20' xmlns='http://www.w3.org/2000/svg' color='rgba(255%2c255%2c255%2c0.05)' class='css-uk6cul'%3e%3cpath d='M11.724 9.257c1.065-.545 1.73-1.504 1.575-3.102-.21-2.184-2.087-2.917-4.457-3.125V0H7.004v2.95c-.484 0-.976.01-1.467.02V0H3.703v3.03c-.398.007-.789.015-1.17.015v-.009H0v1.968s1.357-.025 1.334 0c.744 0 .987.434 1.056.808l.001 3.452v4.848c-.033.235-.17.61-.69.61.023.022-1.336 0-1.336 0L0 16.926h2.39c.445 0 .883.007 1.312.01L3.703 20 5.538 20v-3.032c.504.01.991.015 1.467.014V20H8.84v-3.059c3.088-.178 5.25-.959 5.518-3.87.216-2.345-.882-3.391-2.635-3.814zm-6.142-4.12c1.036 0 4.293-.331 4.294 1.842 0 2.084-3.257 1.84-4.294 1.84V5.137zm0 9.6v-4.059c1.245 0 5.148-.36 5.148 2.029 0 2.29-3.903 2.03-5.149 2.03z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"),radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-size: auto 75%,contain,contain,contain,contain,contain;
+  background-position: center,center,center,center,center;
   box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
 }
 
@@ -103,8 +134,11 @@ exports[`Card renders with flex layout 1`] = `
   -webkit-box-align: alignContent;
   -ms-flex-align: alignContent;
   align-items: alignContent;
-  background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),  radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),  radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-repeat: no-repeat;
   background-blend-mode: luminosity;
+  background-image: radial-gradient( ellipse 30% 80% at -5% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 30% 55% at 100% 0%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 60% 35% at 100% 100%, rgba(30,30,30,0.6), rgba(0,0,0,0) ),radial-gradient( ellipse 40% 40% at 20% 75%, rgba(143,143,143,0.2), rgba(0,0,0,0) ),radial-gradient( ellipse 50% 90% at top center, rgba(143,143,143,0.5), rgba(58,58,58,0.6) );
+  background-size: contain,contain,contain,contain,contain;
+  background-position: center right 1rem,center,center,center,center,center;
   box-shadow: rgba(0,0,0,0.25) 4px 4px 12px;
 }
 
