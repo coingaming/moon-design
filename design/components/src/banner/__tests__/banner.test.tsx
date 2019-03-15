@@ -8,7 +8,7 @@ describe('Banner', () => {
   test('renders vertically by default', () => {
     const banner = create(
       <Banner>
-        <Heading size="foxtrot" element="h2">
+        <Heading size="bravo" element="h2">
           Need help?
         </Heading>
         <p>
@@ -40,7 +40,7 @@ describe('Banner', () => {
   test('renders correctly with maxWidth prop', () => {
     const banner = create(
       <Banner maxWidth={'600px'}>
-        <Heading size="foxtrot" element="h2">
+        <Heading size="bravo" element="h2">
           Need help?
         </Heading>
         <p>
@@ -78,7 +78,7 @@ describe('Banner', () => {
     test('renders with horizontal layout', () => {
       const banner = create(
         <Banner>
-          <Heading size="foxtrot" element="h2">
+          <Heading size="bravo" element="h2">
             Need help?
           </Heading>
           <p>
