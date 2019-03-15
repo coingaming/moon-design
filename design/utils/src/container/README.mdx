@@ -1,0 +1,24 @@
+---
+name: Container
+menu: Utils
+route: /utils/container
+---
+
+import { Playground } from 'docs';
+import { spacing } from './';
+
+# Container
+
+```js
+import { container } from '@heathmont/sportsbet-utils';
+```
+
+Returns a given [container "key"](/tokens#container) value as a `rem`-based `max-width` unit with horizontal spacing.
+
+`container()` will also accept any pixel value (as a `number`) and convert to `rem`.
+
+```jsx react-live
+<div css={{...container(), border: '1px solid white'}}>"default" Container</div>
+<div css={{...container('large'), border: '1px solid white'}}>"large" Container</div>
+<div css={{...container(300), border: '1px solid white'}}>300px Container (in REM)</div>
+```
