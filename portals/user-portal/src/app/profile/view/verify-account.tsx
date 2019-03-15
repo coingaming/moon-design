@@ -22,7 +22,7 @@ const HighlightText = styled.span({
 
 export const VerifyAccount = () => (
   <React.Fragment>
-    <Heading size="foxtrot" element="h2">
+    <Heading size="bravo" element="h2">
       Verify account
     </Heading>
     <div

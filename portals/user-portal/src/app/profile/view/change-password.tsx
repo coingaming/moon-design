@@ -16,7 +16,7 @@ const inputDescription: CSSObject = {
 
 export const ChangePassword = () => (
   <React.Fragment>
-    <Heading size="foxtrot" element="h2">
+    <Heading size="bravo" element="h2">
       Change Password
     </Heading>
     <Form css={rhythm('medium')} legend="Sign-up" maxWidth="25rem">
