@@ -3,7 +3,7 @@ import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import modularScale from 'polished/lib/helpers/modularScale';
 import { preToCodeBlock } from 'mdx-utils';
-import { Link } from '@heathmont/sportsbet-components';
+import { Heading, Link } from '@heathmont/sportsbet-components';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Code } from '../components/code';
@@ -35,47 +35,29 @@ const Table = styled.table([
  */
 export const mdxComponents = {
   h1: ({ children }: Children) => (
-    <h1
-      css={{
-        fontSize: modularScale(4, ...modularScaleConfig),
-        lineHeight: 'normal',
-      }}
-    >
+    <Heading size="alpha" element="h1">
       {children}
-    </h1>
+    </Heading>
   ),
   h2: ({ children }: Children) => (
-    <h2
-      css={{
-        fontSize: modularScale(3, ...modularScaleConfig),
-        lineHeight: 'normal',
-        fontWeight: typography.fontWeight.normal,
-      }}
-    >
+    <Heading size="bravo" element="h2">
       {children}
-    </h2>
+    </Heading>
   ),
   h3: ({ children }: Children) => (
-    <h3
-      css={{
-        fontSize: modularScale(2, ...modularScaleConfig),
-        lineHeight: 'normal',
-        fontWeight: typography.fontWeight.semibold,
-      }}
-    >
+    <Heading size="charlie" element="h3">
       {children}
-    </h3>
+    </Heading>
   ),
   h4: ({ children }: Children) => (
-    <h4
-      css={{
-        fontSize: modularScale(1, ...modularScaleConfig),
-        lineHeight: 'normal',
-        fontWeight: typography.fontWeight.semibold,
-      }}
-    >
+    <Heading size="delta" element="h4">
       {children}
-    </h4>
+    </Heading>
+  ),
+  h5: ({ children }: Children) => (
+    <Heading size="echo" element="h5">
+      {children}
+    </Heading>
   ),
   p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,

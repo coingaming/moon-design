@@ -2,48 +2,36 @@ import rem from 'polished/lib/helpers/rem';
 import { CSSObject } from '@emotion/core';
 import { typography } from '@heathmont/sportsbet-tokens';
 
-type HeadingSizes =
-  | 'alpha'
-  | 'bravo'
-  | 'charlie'
-  | 'delta'
-  | 'echo'
-  | 'foxtrot';
+type HeadingSizes = 'alpha' | 'bravo' | 'charlie' | 'delta' | 'echo';
 
 const alpha: CSSObject = {
-  fontWeight: typography.fontWeight.semibold,
-  fontSize: rem(55),
-  lineHeight: rem(68),
+  fontWeight: typography.fontWeight.bold,
+  fontSize: rem(40),
+  lineHeight: rem(48),
 };
 
 const bravo: CSSObject = {
-  fontWeight: typography.fontWeight.semibold,
-  fontSize: rem(48),
-  lineHeight: rem(59),
+  fontWeight: typography.fontWeight.bold,
+  fontSize: rem(32),
+  lineHeight: rem(40),
 };
 
 const charlie: CSSObject = {
-  fontWeight: typography.fontWeight.normal,
-  fontSize: rem(42),
-  lineHeight: rem(52),
+  fontWeight: typography.fontWeight.semibold,
+  fontSize: rem(24),
+  lineHeight: rem(32),
 };
 
 const delta: CSSObject = {
   fontWeight: typography.fontWeight.semibold,
-  fontSize: rem(42),
-  lineHeight: rem(52),
+  fontSize: rem(20),
+  lineHeight: rem(32),
 };
 
 const echo: CSSObject = {
-  fontWeight: typography.fontWeight.bold,
-  fontSize: rem(35),
-  lineHeight: rem(43),
-};
-
-const foxtrot: CSSObject = {
-  fontWeight: typography.fontWeight.bold,
-  fontSize: rem(33),
-  lineHeight: rem(41),
+  fontWeight: typography.fontWeight.semibold,
+  fontSize: rem(16),
+  lineHeight: rem(24),
 };
 
 const headingSizes = {
@@ -52,7 +40,6 @@ const headingSizes = {
   charlie,
   delta,
   echo,
-  foxtrot,
 };
 
 export { headingSizes, HeadingSizes };
