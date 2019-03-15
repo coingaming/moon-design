@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container renders a rem-based container with number value 1`] = `
+.emotion-0 {
+  max-width: 18.75rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+<div
+  className="emotion-0"
+/>
+`;
+
+exports[`Container renders container key 1`] = `
+.emotion-0 {
+  max-width: 90rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+<div
+  className="emotion-0"
+/>
+`;
+
+exports[`Container renders correctly by default 1`] = `
+.emotion-0 {
+  max-width: 64rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+<div
+  className="emotion-0"
+/>
+`;
