@@ -35,7 +35,7 @@ const Text = styled.p({
 export const GoogleAuthenticator = () => (
   <Grid>
     <div css={css({ gridArea: 'heading' })}>
-      <Heading size="foxtrot" element="h2">
+      <Heading size="bravo" element="h2">
         Google Authenticator
       </Heading>
     </div>
