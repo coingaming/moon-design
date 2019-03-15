@@ -20,14 +20,10 @@ module.exports = {
   mode: dev ? 'development' : 'production',
   context: path.join(__dirname, 'src'),
   devtool: dev ? 'none' : 'source-map',
-  target: 'node',
-  entry: {
-    main: 'client.tsx',
-    server: 'server/index.tsx',
-  },
+
   resolve: {
-    modules: [path.resolve('./src'), 'node_modules'],
-    extensions: ['.ts', '.tsx', '.js'],
+    modules: ['src', 'node_modules'],
+    extensions: ['.ts', '.tsx', '.js', 'jsx'],
   },
   module: {
     rules: [
@@ -38,8 +34,9 @@ module.exports = {
       },
     ],
   },
+
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../../dist'),
     filename: '[name].bundle.js',
   },
   plugins,
