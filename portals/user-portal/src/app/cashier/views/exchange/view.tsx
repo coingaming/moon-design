@@ -1,6 +1,6 @@
 /** @jsx jsx */ jsx;
 import { jsx } from '@emotion/core';
-import { container } from '../../components/container';
+import { container } from '@heathmont/sportsbet-utils';
 import {
   Layout,
   LayoutHeader,
@@ -11,7 +11,7 @@ import { CashierHeading } from './dumb-components/heading';
 import { NeedHelpBanner } from './dumb-components/need-help-banner';
 
 export const ExchangeView = () => (
-  <div css={container}>
+  <div css={container('large')}>
     <Layout asideWidth={390}>
       <LayoutHeader>
         <CashierHeading />
