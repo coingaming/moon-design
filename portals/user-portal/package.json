@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@heathmont/sportsbet-wip-user-portal",
+  "name": "@heathmont/sportsbet-user-portal",
   "version": "0.13.0",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
@@ -8,10 +8,14 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress --display-error-details",
-    "bundlesize": "yarn build && bundlesize",
+    "build": "export NODE_ENV=production && yarn build:client && yarn build:server",
+    "build:server": "webpack --config .config/webpack/webpack.config.server.js --display-error-details",
+    "build:client": "webpack --config .config/webpack/webpack.config.client.js --display-error-details",
+    "bundlesize": "bundlesize",
     "clean": "rimraf **/{lib,dist,.cache,public}/",
-    "dev": "webpack --watch --progress & nodemon dist/server.bundle.js",
+    "dev": "export NODE_ENV=development && webpack --config .config/webpack/webpack.config.server.js --watch --progress & nodemon ./dist/server.bundle.js",
+    "production": "export NODE_ENV=production && yarn build && yarn serve",
+    "serve": "wait-on ./dist/server.bundle.js && node ./dist/server.bundle.js",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
   "bundlesize": [
@@ -42,13 +46,17 @@
     "@babel/plugin-transform-typescript": "7.3.2",
     "@babel/preset-env": "7.3.1",
     "@babel/preset-react": "7.0.0",
+    "@types/dotenv-safe": "5.0.3",
     "@types/express": "4.16.1",
     "@types/react-router-dom": "4.3.1",
     "bundlesize": "0.17.1",
+    "dotenv-safe": "6.1.0",
     "nodemon": "1.18.10",
+    "wait-on": "3.2.0",
     "webpack": "4.29.3",
     "webpack-bundle-analyzer": "3.0.4",
     "webpack-cli": "3.2.3",
-    "webpack-dev-server": "3.1.14"
+    "webpack-dev-server": "3.1.14",
+    "webpack-merge": "4.2.1"
   }
 }
