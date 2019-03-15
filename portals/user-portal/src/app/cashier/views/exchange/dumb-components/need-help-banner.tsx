@@ -8,7 +8,7 @@ import {
 
 export const NeedHelpBanner = () => (
   <Banner>
-    <Heading size="foxtrot" element="h2">
+    <Heading size="bravo" element="h2">
       Need help?
     </Heading>
     <p>
