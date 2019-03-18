@@ -40,7 +40,7 @@ const app = express();
 /* JS Bundles*/
 app.use(express.static('dist'));
 /* Assets, fonts, images etc */
-app.use(express.static('../../design/'));
+app.use('/assets', express.static('../../design/assets'));
 
 app.get('/*', (req, res) => {
   const { html, css, ids } = extractCritical(
