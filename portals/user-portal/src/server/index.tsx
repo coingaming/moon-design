@@ -37,7 +37,10 @@ const globalStyles = renderStylesToString(
  */
 const app = express();
 
-app.use(express.static('dist'));
+/* JS Bundles*/
+app.use(express.static('../dist'));
+/* Assets, fonts, images etc */
+app.use(express.static('../../design/'));
 
 app.get('/*', (req, res) => {
   const { html, css, ids } = extractCritical(
