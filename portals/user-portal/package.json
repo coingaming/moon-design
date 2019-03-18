@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@heathmont/sportsbet-user-portal",
-  "version": "0.16.2",
+  "version": "0.16.4",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -30,7 +30,7 @@
     "@emotion/core": "10.0.9",
     "@emotion/styled": "10.0.9",
     "@heathmont/sportsbet-components": "^0.16.0",
-    "@heathmont/sportsbet-global": "^0.16.2",
+    "@heathmont/sportsbet-global": "^0.16.4",
     "@heathmont/sportsbet-tokens": "^0.16.0",
     "@heathmont/sportsbet-utils": "^0.16.0",
     "@types/react": "16.7.18",
