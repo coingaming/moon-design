@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.5](https://github.com/coingaming/sportsbet-design/compare/v0.16.4...v0.16.5) (2019-03-18)
+
+
+### Bug Fixes
+
+* **user-portal:** fix assets serving ([1551dad](https://github.com/coingaming/sportsbet-design/commit/1551dad))
+
+
+
+
+
 ## [0.16.4](https://github.com/coingaming/sportsbet-design/compare/v0.16.3...v0.16.4) (2019-03-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal
