@@ -38,7 +38,7 @@ const globalStyles = renderStylesToString(
 const app = express();
 
 /* JS Bundles*/
-app.use(express.static('../dist'));
+app.use(express.static('dist'));
 /* Assets, fonts, images etc */
 app.use(express.static('../../design/'));
 
