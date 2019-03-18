@@ -3,6 +3,7 @@ const { siteTitle, description, author } = require('./config');
 const { colors } = require('@heathmont/sportsbet-tokens');
 
 module.exports = {
+  pathPrefix: `/assets`,
   siteMetadata: {
     title: siteTitle,
     description,
