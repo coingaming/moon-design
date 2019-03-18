@@ -1,7 +1,7 @@
 /** @jsx jsx */ jsx;
 import { Helmet } from 'react-helmet';
 import { jsx } from '@emotion/core';
-import { withPrefix, graphql, StaticQuery } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 
 import { fontUrls } from '@heathmont/sportsbet-assets';
 
@@ -33,21 +33,21 @@ export const Meta = () => (
           <meta name="author" content={config.author} />
           <link
             rel="preload"
-            href={withPrefix(fontUrls.AvertaStd.regular)}
+            href={fontUrls.AvertaStd.regular}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href={withPrefix(fontUrls.AvertaStd.semibold)}
+            href={fontUrls.AvertaStd.semibold}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href={withPrefix(fontUrls.AvertaStd.bold)}
+            href={fontUrls.AvertaStd.bold}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
