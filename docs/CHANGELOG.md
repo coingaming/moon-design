@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.3](https://github.com/coingaming/sportsbet-design/compare/v0.16.2...v0.16.3) (2019-03-18)
+
+
+### Bug Fixes
+
+* **docs:** fix fonts paths fpr docs ([f4e7395](https://github.com/coingaming/sportsbet-design/commit/f4e7395))
+
+
+
+
+
 ## [0.16.2](https://github.com/coingaming/sportsbet-design/compare/v0.16.1...v0.16.2) (2019-03-18)
 
 **Note:** Version bump only for package docs
