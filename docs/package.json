@@ -1,5 +1,5 @@
 {
-  "private": "true",
+  "private": true,
   "name": "docs",
   "version": "0.16.2",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -11,7 +11,7 @@
     "build": "yarn prebuild && gatsby build",
     "serve": "gatsby serve",
     "clean:assets": "rimraf static/assets",
-    "build:assets": "mkdir -p static/assets/fonts && cp -R ../design/assets/src/fonts/ static/assets/fonts/",
+    "build:assets": "mkdir -p static/assets/src/fonts && cp -R ../design/assets/src/fonts/ static/assets/src/fonts/",
     "prebuild": "yarn clean:assets && yarn build:assets",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
