@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/coingaming/sportsbet-design/compare/v0.16.6...v0.17.0) (2019-03-19)
+
+
+### Features
+
+* **user-portal:** introduce tab component ([612f3d9](https://github.com/coingaming/sportsbet-design/commit/612f3d9))
+* **user-portal:** wallet screen smooth scroll ([3b582a4](https://github.com/coingaming/sportsbet-design/commit/3b582a4))
+
+
+
+
+
 ## [0.16.6](https://github.com/coingaming/sportsbet-design/compare/v0.16.5...v0.16.6) (2019-03-19)
 
 **Note:** Version bump only for package Sportsbet.io
