@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.5](https://github.com/coingaming/sportsbet-design/compare/v0.16.4...v0.16.5) (2019-03-18)
+
+
+### Bug Fixes
+
+* **docs:** fix cdn path for assets serve ([8bd0621](https://github.com/coingaming/sportsbet-design/commit/8bd0621))
+
+
+
+
+
 ## [0.16.4](https://github.com/coingaming/sportsbet-design/compare/v0.16.3...v0.16.4) (2019-03-18)
 
 
