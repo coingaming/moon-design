@@ -1,8 +1,13 @@
 import * as React from 'react';
-import { Heading } from '@heathmont/sportsbet-components';
+import { Tab, TabItem } from '../../../components/tab/tab';
 
 export const CashierHeading = () => (
-  <Heading size="bravo" element="h1">
-    Cashier Heading
-  </Heading>
+  <Tab>
+    <TabItem active>Wallet</TabItem>
+    <TabItem>My bets</TabItem>
+    <TabItem>Account</TabItem>
+    <TabItem>Notifications</TabItem>
+    <TabItem>Settings</TabItem>
+    <TabItem divider>Return to sportsbook</TabItem>
+  </Tab>
 );
