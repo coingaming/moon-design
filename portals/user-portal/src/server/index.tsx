@@ -37,6 +37,13 @@ const globalStyles = renderStylesToString(
  */
 const app = express();
 
+process.on('unhandledRejection', ({ message, stack }) => {
+  console.log('uncaughtException', { message, stack });
+  setTimeout(() => {
+    throw { message, stack };
+  }, 1000);
+});
+
 /* JS Bundles*/
 app.use(express.static('dist'));
 /* Assets, fonts, images etc */
