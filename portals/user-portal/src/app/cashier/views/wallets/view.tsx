@@ -1,21 +1,17 @@
 /** @jsx jsx */ jsx;
 import { jsx } from '@emotion/core';
-import { container, spacing } from '@heathmont/sportsbet-utils';
-import {
-  Layout,
-  LayoutHeader,
-  LayoutMain,
-  LayoutAside,
-} from '../../components/layout';
-import { CashierHeading } from './dumb-components/heading';
-import { Heading } from '@heathmont/sportsbet-components';
-import { IconBitcoin } from '@heathmont/sportsbet-icons';
 import styled from '@emotion/styled';
-import { colors, border } from '@heathmont/sportsbet-tokens';
-import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import rem from 'polished/lib/helpers/rem';
+import { container, spacing } from '@heathmont/sportsbet-utils';
+import { Heading } from '@heathmont/sportsbet-components';
+import { colors } from '@heathmont/sportsbet-tokens';
+import { Layout, LayoutHeader, LayoutMain } from '../../components/layout';
+import { CashierHeading } from '../exchange/dumb-components/heading';
+import { BitcoinWallet } from '../exchange/dumb-components/bitcoin-wallet';
+import { TransactionDetailItem } from './dumb-components/transaction-details/item';
+import { TransactionDetailsHeader } from '../../components/transaction-details/header';
 
-const Text = styled.p({
+const WalletText = styled.p({
   color: colors.neutral[20],
 });
 
@@ -33,7 +29,7 @@ const WalletWrapper = styled.div({
   scrollSnapAlign: 'center',
 });
 
-export const ExchangeView = () => (
+export const WalletsView = () => (
   <div css={container('large')}>
     <Layout asideWidth={390}>
       <LayoutHeader>
@@ -43,7 +39,7 @@ export const ExchangeView = () => (
         <Heading size="charlie" element="h1">
           Wallet
         </Heading>
-        <Text>Manage your profile, password and more.</Text>
+        <WalletText>Manage your profile, password and more.</WalletText>
         <WalletsContainer>
           <WalletWrapper>
             <BitcoinWallet />
@@ -59,14 +55,14 @@ export const ExchangeView = () => (
           <Heading size="charlie" element="h2">
             Transactions
           </Heading>
-          <TransactionsHeader />
-          <TransactionRow />
-          <TransactionRow />
-          <TransactionRow />
-          <TransactionRow />
-          <TransactionRow />
-          <TransactionRow />
-          <TransactionRow />
+          <TransactionDetailsHeader />
+          <TransactionDetailItem />
+          <TransactionDetailItem />
+          <TransactionDetailItem />
+          <TransactionDetailItem />
+          <TransactionDetailItem />
+          <TransactionDetailItem />
+          <TransactionDetailItem />
         </div>
       </LayoutMain>
     </Layout>
