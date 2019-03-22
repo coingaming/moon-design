@@ -1,11 +1,10 @@
 import * as React from 'react';
 import { Route } from 'react-router';
-
-import { ExchangeView } from './views/exchange/view';
+import { WalletsView } from './views/wallets/view';
 
 export const CashierRoutes = () => (
   <React.Fragment>
-    <Route path="/" exact={true} component={ExchangeView} />
-    <Route path="/cashier" component={ExchangeView} />
+    <Route path="/" exact={true} component={WalletsView} />
+    <Route path="/cashier" component={WalletsView} />
   </React.Fragment>
 );
