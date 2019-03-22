@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/coingaming/sportsbet-design/compare/v0.17.0...v0.18.0) (2019-03-22)
+
+
+### Bug Fixes
+
+* fixing missing fonts for design system ([b8decb0](https://github.com/coingaming/sportsbet-design/commit/b8decb0))
+
+
+### Features
+
+* **assets:** update neutral 90 color ([a4f3ee9](https://github.com/coingaming/sportsbet-design/commit/a4f3ee9))
+* **user-portal:** transactions component ([4831ddc](https://github.com/coingaming/sportsbet-design/commit/4831ddc))
+
+
+
+
+
 # [0.17.0](https://github.com/coingaming/sportsbet-design/compare/v0.16.6...v0.17.0) (2019-03-19)
 
 
