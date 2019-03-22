@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Tab, TabItem } from '../../../components/tab/tab';
+import { Tab, TabItem } from '../../../../cashier/components/tab/tab';
 
-export const CashierHeading = () => (
+export const SettingsHeader = () => (
   <Tab>
     <TabItem to={'/cashier'}>Wallet</TabItem>
     <TabItem to={'/my-bets'}>My bets</TabItem>
