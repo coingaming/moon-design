@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { Tab, TabItem } from '../../../components/tab/tab';
+import { Tab, TabItem } from '../../../../cashier/components/tab/tab';
 
-export const CashierHeading = () => (
+export const NotificationsHeader = () => (
   <Tab>
     <TabItem to={'/cashier'}>Wallet</TabItem>
     <TabItem to={'/my-bets'}>My bets</TabItem>
     <TabItem to={'/account'}>Account</TabItem>
-    <TabItem to={'/notifications'}>Notifications</TabItem>
-    <TabItem to={'/settings'} active>
-      Settings
+    <TabItem active to={'/notifications'}>
+      Notifications
     </TabItem>
+    <TabItem to={'/settings'}>Settings</TabItem>
     <TabItem to={'/'} divider>
       Return to sportsbook
     </TabItem>
