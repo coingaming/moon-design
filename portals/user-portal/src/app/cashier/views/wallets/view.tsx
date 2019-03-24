@@ -9,7 +9,7 @@ import { Layout, LayoutHeader, LayoutMain } from '../../components/layout';
 import { CashierHeading } from '../exchange/dumb-components/heading';
 import { BitcoinWallet } from '../exchange/dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
-import { TransactionDetailsHeader } from '../../components/transaction-details/header';
+import { TransactionsHeader } from './dumb-components/transaction-details/header';
 
 const WalletText = styled.p({
   color: colors.neutral[20],
@@ -31,40 +31,34 @@ const WalletWrapper = styled.div({
 
 export const WalletsView = () => (
   <div css={container('large')}>
-    <Layout asideWidth={390}>
-      <LayoutHeader>
-        <CashierHeading />
-      </LayoutHeader>
-      <LayoutMain>
-        <Heading size="charlie" element="h1">
-          Wallet
-        </Heading>
-        <WalletText>Manage your profile, password and more.</WalletText>
-        <WalletsContainer>
-          <WalletWrapper>
-            <BitcoinWallet />
-          </WalletWrapper>
-          <WalletWrapper>
-            <BitcoinWallet />
-          </WalletWrapper>
-          <WalletWrapper>
-            <BitcoinWallet />
-          </WalletWrapper>
-        </WalletsContainer>
-        <div>
-          <Heading size="charlie" element="h2">
-            Transactions
-          </Heading>
-          <TransactionDetailsHeader />
-          <TransactionDetailItem />
-          <TransactionDetailItem />
-          <TransactionDetailItem />
-          <TransactionDetailItem />
-          <TransactionDetailItem />
-          <TransactionDetailItem />
-          <TransactionDetailItem />
-        </div>
-      </LayoutMain>
-    </Layout>
+    <CashierHeading />
+    <Heading size="charlie" element="h1">
+      Wallet
+    </Heading>
+    <WalletText>Manage your profile, password and more.</WalletText>
+    <WalletsContainer>
+      <WalletWrapper>
+        <BitcoinWallet />
+      </WalletWrapper>
+      <WalletWrapper>
+        <BitcoinWallet />
+      </WalletWrapper>
+      <WalletWrapper>
+        <BitcoinWallet />
+      </WalletWrapper>
+    </WalletsContainer>
+    <div>
+      <Heading size="charlie" element="h2">
+        Transactions
+      </Heading>
+      <TransactionsHeader />
+      <TransactionDetailItem />
+      <TransactionDetailItem />
+      <TransactionDetailItem />
+      <TransactionDetailItem />
+      <TransactionDetailItem />
+      <TransactionDetailItem />
+      <TransactionDetailItem />
+    </div>
   </div>
 );
