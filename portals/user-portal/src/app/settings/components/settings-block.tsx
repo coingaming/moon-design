@@ -22,20 +22,35 @@ export const SettingsSection = styled.section({
   },
 });
 
-export const SettingsBlock = styled.div({
-  minHeight: rem(96),
-  alignItems: 'center',
-  borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
-  paddingLeft: spacing('large'),
-  paddingRight: spacing('large'),
-  paddingTop: spacing('medium'),
-  paddingBottom: spacing('medium'),
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-});
+export const SettingsBlock = styled.div<{ highlight?: boolean }>(
+  ({ highlight = false }) => [
+    {
+      minHeight: rem(96),
+      alignItems: 'center',
+      borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
+      paddingLeft: spacing('large'),
+      paddingRight: spacing('large'),
+      paddingTop: spacing('medium'),
+      paddingBottom: spacing('medium'),
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
+    highlight && {
+      position: 'relative',
+      backgroundColor: colors.neutral[60],
+    },
+  ]
+);
 
 export const BlockContent = styled.div({
   display: 'flex',
   flexDirection: 'column',
+});
+
+export const Active = styled.div({
+  width: spacing('small'),
+  height: spacing('small'),
+  backgroundColor: colors.brand,
+  borderRadius: border.radius.default,
 });
