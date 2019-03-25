@@ -50,6 +50,7 @@ exports[`Checkbox renders as disabled 1`] = `
   className="emotion-2"
 >
   <input
+    aria-label="I agree to the Terms & Conditions"
     className="emotion-0"
     disabled={true}
     id="Checkbox-i-agree-to-the-terms-conditions"
@@ -114,6 +115,7 @@ exports[`Checkbox renders by default 1`] = `
   className="emotion-2"
 >
   <input
+    aria-label="I agree to the Terms & Conditions"
     className="emotion-0"
     disabled={false}
     id="Checkbox-i-agree-to-the-terms-conditions"
@@ -125,5 +127,57 @@ exports[`Checkbox renders by default 1`] = `
   >
     I agree to the Terms & Conditions
   </label>
+</div>
+`;
+
+exports[`Checkbox renders with hidden label 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  margin-right: 1rem;
+  padding: 0.125rem;
+  background-clip: content-box;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 1px solid #415662;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.emotion-0:checked {
+  background-color: #0cd664;
+}
+
+.emotion-0:disabled {
+  border-color: #304854;
+  cursor: not-allowed;
+}
+
+<div
+  className="emotion-1"
+>
+  <input
+    aria-label="I agree to the Terms & Conditions"
+    className="emotion-0"
+    disabled={false}
+    id="Checkbox-i-agree-to-the-terms-conditions"
+    type="checkbox"
+  />
 </div>
 `;
