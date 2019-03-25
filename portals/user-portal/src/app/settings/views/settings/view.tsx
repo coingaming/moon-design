@@ -4,7 +4,6 @@ import { jsx } from '@emotion/core';
 import { container, spacing } from '@heathmont/sportsbet-utils';
 
 import { Heading, Select, Checkbox } from '@heathmont/sportsbet-components';
-import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { SettingsHeader } from './dumb-components/header';
 import {
