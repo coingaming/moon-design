@@ -18,4 +18,10 @@ describe('Checkbox', () => {
 
     expect(checkbox).toMatchSnapshot();
   });
+
+  test('renders with hidden label', () => {
+    const checkbox = create(<Checkbox hiddenLabel {...testProps} />);
+
+    expect(checkbox).toMatchSnapshot();
+  });
 });
