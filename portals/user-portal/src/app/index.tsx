@@ -1,12 +1,10 @@
 import * as React from 'react';
-import { BrowserRouter, StaticRouter, Route, Switch } from 'react-router-dom';
-import { CashierApp } from './cashier/cashier-app';
-import { ProfileApp } from './profile/profile-app';
+import { BrowserRouter, StaticRouter, Switch } from 'react-router-dom';
+import { UserPortalRoutes } from './routes';
 
 export const AppRoutes = () => (
   <Switch>
-    <Route path="/" exact={true} component={CashierApp} />
-    <Route path="/profile" component={ProfileApp} />
+    <UserPortalRoutes />
   </Switch>
 );
 
