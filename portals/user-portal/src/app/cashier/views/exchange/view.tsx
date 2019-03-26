@@ -7,7 +7,7 @@ import {
   LayoutMain,
   LayoutAside,
 } from '../../components/layout';
-import { CashierHeading } from './dumb-components/heading';
+import { CashierHeading } from '../wallets/dumb-components/navigation';
 import { Heading } from '@heathmont/sportsbet-components';
 import { IconBitcoin } from '@heathmont/sportsbet-icons';
 import styled from '@emotion/styled';
