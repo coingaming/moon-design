@@ -1,5 +1,6 @@
 /** @jsx jsx */ jsx;
 import * as React from 'react';
+import { NavLink } from 'react-router-dom';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
@@ -51,9 +52,10 @@ const Tab: React.FC = ({ children }) => {
   );
 };
 
-const TabItem = styled.a<{ active?: boolean; divider?: boolean }>(
+const TabItem = styled(NavLink)<{ active?: boolean; divider?: boolean }>(
   ({ active = false, divider = false }) => [
     {
+      textDecoration: 'none',
       color: colors.neutral[20],
       cursor: 'pointer',
       height: '100%',
