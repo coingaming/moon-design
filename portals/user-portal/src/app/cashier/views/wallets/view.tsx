@@ -2,11 +2,10 @@
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
-import { container, spacing } from '@heathmont/sportsbet-utils';
-import { Heading } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { Layout, LayoutHeader, LayoutMain } from '../../components/layout';
-import { CashierHeading } from '../exchange/dumb-components/heading';
+import { container, spacing, mq } from '@heathmont/sportsbet-utils';
+import { Heading } from '@heathmont/sportsbet-components/lib/heading/';
+import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
+import { CashierHeading } from './dumb-components/navigation';
 import { BitcoinWallet } from '../exchange/dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
@@ -24,9 +23,13 @@ const WalletsContainer = styled.div({
 });
 
 const WalletWrapper = styled.div({
-  minWidth: rem(320),
-  marginRight: spacing('large'),
+  minWidth: rem(256),
+  marginRight: spacing(),
   scrollSnapAlign: 'center',
+  [mq(breakpoints.small)]: {
+    minWidth: rem(320),
+    marginRight: spacing('large'),
+  },
 });
 
 export const WalletsView = () => (
