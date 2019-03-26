@@ -52,9 +52,9 @@ const cardBackground: (
   backgroundSize: !withIcon
     ? `${cardGradientSizes}`
     : `auto 75%, ${cardGradientSizes}`,
-  backgroundPosition: withIcon
-    ? `${cardGradientPositions}`
-    : `center right ${spacing()}, ${cardGradientPositions}`,
+  // backgroundPosition: withIcon
+  //   ? `${cardGradientPositions}`
+  //   : `center right ${spacing()}, ${cardGradientPositions}`,
 });
 
 const cardOutline: CSSObject = {
