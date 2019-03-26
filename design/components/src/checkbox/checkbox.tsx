@@ -15,6 +15,7 @@ import { inputBorder, inputColors } from '../private/input';
 type CheckboxProps = {
   label: string;
   disabled?: boolean;
+  hiddenLabel?: boolean;
 };
 
 /**
@@ -61,6 +62,7 @@ const checkboxLabel: (disabled: boolean) => CSSObject = disabled => ({
  */
 const Checkbox: React.FC<CheckboxProps> = ({
   disabled = false,
+  hiddenLabel = false,
   label,
   ...inputProps
 }) => (
@@ -69,14 +71,17 @@ const Checkbox: React.FC<CheckboxProps> = ({
       id={createId(label)}
       disabled={disabled}
       type="checkbox"
+      aria-label={label}
       {...inputProps}
     />
-    <Label
-      htmlFor={createId(label)}
-      css={checkboxLabel(disabled)}
-      text={label}
-      inline
-    />
+    {hiddenLabel ? null : (
+      <Label
+        htmlFor={createId(label)}
+        css={checkboxLabel(disabled)}
+        text={label}
+        inline
+      />
+    )}
   </CheckboxContainer>
 );
 
