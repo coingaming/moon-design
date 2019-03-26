@@ -24,33 +24,38 @@ const cardColors = {
 
 const cardGradients: string[] = [
   `radial-gradient(
-      ellipse 30% 80% at -5% 0%,
-      ${rgba(cardColors.dark, cardAlpha)},
-      ${cardColors.transparent}
+      circle closest-corner,
+      rgba(255, 255, 255, 0.17),
+      rgba(122, 139, 150, 0.13)
     )`,
-  `radial-gradient(
-      ellipse 30% 55% at 100% 0%,
-      ${rgba(cardColors.dark, cardAlpha)},
-      ${cardColors.transparent}
-    )`,
-  /* [3] */
-  `radial-gradient(
-      ellipse 60% 35% at 100% 100%,
-      ${rgba(cardColors.dark, cardAlpha)},
-      ${cardColors.transparent}
-    )`,
-  /* [4] */
-  `radial-gradient(
-      ellipse 40% 40% at 20% 75%,
-      ${rgba(cardColors.light, 0.2)},
-      ${cardColors.transparent}
-    )`,
-  /* [5] */
-  `radial-gradient(
-      ellipse 50% 90% at top center,
-      ${rgba(cardColors.light, 0.5)},
-      ${rgba(cardColors.mid, cardAlpha)}
-    )`,
+  // `radial-gradient(
+  //     ellipse 30% 80% at -5% 0%,
+  //     ${rgba(cardColors.dark, cardAlpha)},
+  //     ${cardColors.transparent}
+  //   )`,
+  // `radial-gradient(
+  //     ellipse 30% 55% at 100% 0%,
+  //     ${rgba(cardColors.dark, cardAlpha)},
+  //     ${cardColors.transparent}
+  //   )`,
+  // /* [3] */
+  // `radial-gradient(
+  //     ellipse 60% 35% at 100% 100%,
+  //     ${rgba(cardColors.dark, cardAlpha)},
+  //     ${cardColors.transparent}
+  //   )`,
+  // /* [4] */
+  // `radial-gradient(
+  //     ellipse 40% 40% at 20% 75%,
+  //     ${rgba(cardColors.light, 0.2)},
+  //     ${cardColors.transparent}
+  //   )`,
+  // /* [5] */
+  // `radial-gradient(
+  //     ellipse 50% 90% at top center,
+  //     ${rgba(cardColors.light, 0.5)},
+  //     ${rgba(cardColors.mid, cardAlpha)}
+  //   )`,
 ];
 
 const cardGradientPositions = [
