@@ -3,12 +3,7 @@ import * as React from 'react';
 import { jsx } from '@emotion/core';
 import { container, spacing } from '@heathmont/sportsbet-utils';
 
-import {
-  Heading,
-  Select,
-  Checkbox,
-  Toggle,
-} from '@heathmont/sportsbet-components';
+import { Heading, Toggle } from '@heathmont/sportsbet-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { NotificationsHeader } from './dumb-components/header';
 import {
@@ -18,7 +13,6 @@ import {
   BlockContent,
   Active,
 } from '../../components/settings-block';
-import { IconClose } from '@heathmont/sportsbet-icons';
 
 export const NotificationsView = () => (
   <div css={container('large')}>
