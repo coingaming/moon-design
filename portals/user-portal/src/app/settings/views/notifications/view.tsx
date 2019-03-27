@@ -1,10 +1,6 @@
-/** @jsx jsx */ jsx;
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import { container, spacing } from '@heathmont/sportsbet-utils';
 
 import { Heading, Toggle } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
 import { NotificationsHeader } from './dumb-components/header';
 import {
   SettingsText,
@@ -13,9 +9,10 @@ import {
   BlockContent,
   Active,
 } from '../../components/settings-block';
+import { CashierLayout } from '../../../cashier/components/layout';
 
 export const NotificationsView = () => (
-  <div css={container('large')}>
+  <CashierLayout>
     <NotificationsHeader />
     <Heading size="charlie" element="h1">
       Settings
@@ -72,5 +69,5 @@ export const NotificationsView = () => (
         </BlockContent>
       </SettingsBlock>
     </SettingsSection>
-  </div>
+  </CashierLayout>
 );
