@@ -1,10 +1,6 @@
-/** @jsx jsx */ jsx;
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import { container, spacing } from '@heathmont/sportsbet-utils';
 
 import { Heading, Select, Checkbox } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
 import { SettingsHeader } from './dumb-components/header';
 import {
   SettingsBlock,
@@ -12,9 +8,10 @@ import {
   BlockContent,
   SettingsText,
 } from '../../components/settings-block';
+import { CashierLayout } from '../../../cashier/components/layout';
 
 export const SettingsView = () => (
-  <div css={container('large')}>
+  <CashierLayout>
     <SettingsHeader />
     <Heading size="charlie" element="h1">
       Settings
@@ -89,5 +86,5 @@ export const SettingsView = () => (
         <Checkbox hiddenLabel label="Receive emails" />
       </SettingsBlock>
     </SettingsSection>
-  </div>
+  </CashierLayout>
 );
