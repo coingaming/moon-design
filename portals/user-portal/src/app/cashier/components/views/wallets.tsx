@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled, { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
@@ -15,7 +15,7 @@ export const WalletsContainer = styled.div({
   scrollSnapType: 'x mandatory',
 });
 
-export const WalletWrapper = styled.div({
+const walletWrapper: CSSObject = {
   minWidth: rem(256),
   marginRight: spacing(),
   scrollSnapAlign: 'center',
@@ -23,4 +23,18 @@ export const WalletWrapper = styled.div({
     minWidth: rem(320),
     marginRight: spacing('large'),
   },
-});
+};
+
+export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
+  ({ mobileHidden = false }) => [
+    mobileHidden
+      ? {
+          display: 'none',
+          [mq(breakpoints.small)]: {
+            display: 'block',
+            ...walletWrapper,
+          },
+        }
+      : walletWrapper,
+  ]
+);
