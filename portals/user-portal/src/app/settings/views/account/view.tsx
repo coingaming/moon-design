@@ -1,8 +1,4 @@
-/** @jsx jsx */ jsx;
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import { container, spacing } from '@heathmont/sportsbet-utils';
-
 import {
   Heading,
   Form,
@@ -10,9 +6,6 @@ import {
   TextInput,
   Button,
 } from '@heathmont/sportsbet-components';
-import styled from '@emotion/styled';
-import { colors, border } from '@heathmont/sportsbet-tokens';
-import rem from 'polished/lib/helpers/rem';
 import { AccountHeader } from './dumb-components/header';
 import {
   SettingsText,
@@ -20,9 +13,10 @@ import {
   SettingsBlock,
   BlockContent,
 } from '../../components/settings-block';
+import { CashierLayout } from '../../../cashier/components/layout';
 
 export const AccountView = () => (
-  <div css={container('large')}>
+  <CashierLayout>
     <AccountHeader />
     <Heading size="charlie" element="h1">
       Settings
@@ -137,5 +131,5 @@ export const AccountView = () => (
         </SettingsText>
       </SettingsBlock>
     </SettingsSection>
-  </div>
+  </CashierLayout>
 );
