@@ -4,11 +4,14 @@ import { NavLink } from 'react-router-dom';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { colors, border } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
-import { rem } from 'polished';
+import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+import { spacing, mq } from '@heathmont/sportsbet-utils';
+import rem from 'polished/lib/helpers/rem';
+import { IconClose } from '@heathmont/sportsbet-icons';
 
 const tabSkipLinkID = 'tab-skip';
+
+const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
   height: rem(56),
@@ -60,20 +63,38 @@ const TabItem = styled(NavLink)<{ active?: boolean; divider?: boolean }>(
       cursor: 'pointer',
       height: '100%',
       padding: spacing(),
-      '&:hover, &:focus, &:active, &[aria-current=page]': {
-        borderBottom: `2px solid ${colors.brand}`,
+      '&:hover, &:focus, &:active': {
+        borderBottom: `${underlineWidth}px solid ${colors.brand}`,
         color: colors.neutral[10],
       },
     },
     active && {
-      borderBottom: `2px solid ${colors.brand}`,
+      borderBottom: `${underlineWidth}px solid ${colors.brand}`,
       color: colors.neutral[10],
     },
     divider && {
-      //   borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
-      marginLeft: 'auto',
+      [mq(breakpoints.small)]: {
+        marginLeft: 'auto',
+        '&::before': {
+          // https://github.com/tylerthehaas/dev-journal/blob/master/2018/December.md#december-12th-2018
+          content: '""',
+          height: spacing(),
+          marginRight: spacing(),
+          borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
+          backgroundColor: colors.neutral[20],
+        },
+      },
     },
   ]
 );
 
-export { Tab, TabItem };
+const CloseButton = styled(IconClose)({
+  display: 'none',
+  [mq(breakpoints.small)]: {
+    display: 'initial',
+    fontSize: '0.7rem',
+    marginLeft: spacing(),
+  },
+});
+
+export { Tab, TabItem, CloseButton };
