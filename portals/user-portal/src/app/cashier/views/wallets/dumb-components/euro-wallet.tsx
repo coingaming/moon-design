@@ -1,37 +1,38 @@
 import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { useState } from 'react';
-import { spacing } from '@heathmont/sportsbet-utils';
 import {
   Card,
   CardToggle,
   Button,
   CardBalance,
-  Link,
   Form,
   FormItem,
   Select,
 } from '@heathmont/sportsbet-components';
 
-export const BitcoinWallet = () => {
+export const EuroWallet: React.FC<{}> = () => {
   const [backSided, toggle] = useState(false);
 
   if (!backSided) {
     return (
       <Card template="front" flex>
-        <CardToggle onClick={() => toggle(!backSided)} />
+        <CardToggle
+          onClick={() => {
+            toggle(!backSided);
+          }}
+        />
         <CardBalance
           from={{
-            currency: 'Bitcoin',
-            value: 1526.56,
-            unit: 'mBTC',
-            unitTitle: 'Millibitcoin',
+            currency: 'Euro',
+            value: 126.56,
+            unit: '€',
+            unitTitle: 'Euro',
           }}
-          to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
+          to={{ currency: 'Dollars', value: 156.72, unit: 'USD' }}
         />
         <div>
-          <Link style={{ marginRight: spacing() }}>Deposit</Link>
-          <Link disabled>Withdraw</Link>
+          <Button modifier="primary">Use wallet</Button>
         </div>
       </Card>
     );

@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/core';
 import { Heading } from '@heathmont/sportsbet-components/lib/heading/';
 import { CashierHeading } from './dumb-components/navigation';
-import { BitcoinWallet } from '../exchange/dumb-components/bitcoin-wallet';
+import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
 import { CashierLayout } from '../../components/layout';
@@ -11,6 +11,7 @@ import {
   WalletsContainer,
   WalletWrapper,
 } from '../../components/views/wallets';
+import { EuroWallet } from './dumb-components/euro-wallet';
 
 export const WalletsView = () => (
   <CashierLayout>
@@ -24,7 +25,7 @@ export const WalletsView = () => (
         <BitcoinWallet />
       </WalletWrapper>
       <WalletWrapper>
-        <BitcoinWallet />
+        <EuroWallet />
       </WalletWrapper>
       <WalletWrapper>
         <BitcoinWallet />
