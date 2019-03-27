@@ -1,6 +1,6 @@
 import { CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 

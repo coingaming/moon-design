@@ -1,9 +1,11 @@
+/** @jsx jsx */ jsx;
 import * as React from 'react';
+import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 
-import { mq, spacing, rhythm } from '@heathmont/sportsbet-utils';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
+import { mq, spacing, rhythm, container } from '@heathmont/sportsbet-utils';
+import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 
 export const LayoutHeader = styled.header({
   [mq(breakpoints.medium)]: {
@@ -46,4 +48,18 @@ const Grid = styled.div<GridProps>(({ asideWidth }) => ({
 
 export const Layout: React.FC<GridProps> = ({ children, asideWidth }) => (
   <Grid asideWidth={asideWidth}>{children}</Grid>
+);
+
+const Background = styled.div([
+  {
+    background: `linear-gradient(${colors.neutral[90]} 16rem, 0%, ${
+      colors.neutral[80]
+    })`,
+  },
+]);
+
+export const CashierLayout: React.FC = ({ children }) => (
+  <Background>
+    <div css={container('large')}>{children}</div>
+  </Background>
 );
