@@ -5,7 +5,7 @@ import {
   CloseButton,
 } from '../../../../cashier/components/tab/tab';
 
-export const SettingsHeader = () => (
+export const SettingsNav = () => (
   <Tab>
     <TabItem to={'/cashier'}>Wallet</TabItem>
     <TabItem to={'/my-bets'}>My bets</TabItem>

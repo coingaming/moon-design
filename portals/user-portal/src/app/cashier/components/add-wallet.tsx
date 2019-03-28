@@ -54,6 +54,7 @@ export const AddWalletMobile = styled.button([
   caption,
   borderAddWallet,
   {
+    marginTop: spacing(),
     width: '100%',
     height: rem(50),
     paddingTop: spacing(),
