@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-components",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -13,10 +13,10 @@
   "dependencies": {
     "@emotion/core": "10.0.9",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-icons": "^0.19.0",
-    "@heathmont/sportsbet-objects": "^0.19.0",
-    "@heathmont/sportsbet-tokens": "^0.19.0",
-    "@heathmont/sportsbet-utils": "^0.19.0",
+    "@heathmont/sportsbet-icons": "^0.20.0",
+    "@heathmont/sportsbet-objects": "^0.20.0",
+    "@heathmont/sportsbet-tokens": "^0.20.0",
+    "@heathmont/sportsbet-utils": "^0.20.0",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
     "react": "16.8.1",
