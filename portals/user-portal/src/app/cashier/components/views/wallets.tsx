@@ -14,6 +14,8 @@ export const WalletsContainer = styled.div({
   flexFlow: 'row nowrap',
   scrollSnapType: 'x mandatory',
   marginTop: spacing('large'),
+  marginLeft: spacing('large'),
+  marginRight: spacing('large'),
 });
 
 const walletWrapper: CSSObject = {

@@ -18,12 +18,13 @@ const Background = styled.div([
 
 export const CashierLayout: React.FC = ({ children }) => (
   <Background>
-    <div css={container('large')}>{children}</div>
+    <div css={container('default')}>{children}</div>
   </Background>
 );
 
 const heading: CSSObject = {
   marginTop: spacing('large'),
+  paddingLeft: spacing('large'),
 };
 
 export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
@@ -35,4 +36,5 @@ export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
 export const HeadingDescription = styled.p({
   color: colors.neutral[20],
   marginTop: spacing('xsmall'),
+  paddingLeft: spacing('large'),
 });
