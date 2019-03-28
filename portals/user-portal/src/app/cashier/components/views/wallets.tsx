@@ -16,14 +16,18 @@ export const WalletsContainer = styled.div({
   marginTop: spacing('large'),
   marginLeft: spacing('large'),
   marginRight: spacing('large'),
+  [mq(breakpoints.medium)]: {
+    marginLeft: 0,
+    marginRight: 0,
+  },
 });
 
 const walletWrapper: CSSObject = {
   minWidth: rem(256),
   marginRight: spacing(),
   scrollSnapAlign: 'center',
-  [mq(breakpoints.small)]: {
-    minWidth: rem(320),
+  [mq(breakpoints.medium)]: {
+    minWidth: rem(288),
     marginRight: spacing('large'),
   },
 };
@@ -33,7 +37,7 @@ export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
     mobileHidden
       ? {
           display: 'none',
-          [mq(breakpoints.small)]: {
+          [mq(breakpoints.medium)]: {
             display: 'block',
             ...walletWrapper,
           },

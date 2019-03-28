@@ -27,7 +27,7 @@ export const Summary = styled.summary({
 export const Details = styled.div({
   display: 'flex',
   flexDirection: 'column',
-  paddingTop: spacing(),
+  paddingTop: spacing('large'),
   paddingLeft: spacing('large'),
   paddingRight: spacing('large'),
   paddingBottom: spacing('large'),
@@ -48,6 +48,7 @@ export const TransactionHistory = styled.details<{ open?: boolean }>(
 );
 
 export const DetailColumns = styled.div({
+  // marginTop: spacing('small'),
   [mq(breakpoints.medium)]: {
     display: 'flex',
     flexDirection: 'row',
