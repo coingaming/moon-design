@@ -61,7 +61,7 @@ export const AddWalletMobile = styled.button([
     marginRight: spacing('large'),
     paddingTop: spacing(),
     paddingBottom: spacing(),
-    [mq(breakpoints.small)]: {
+    [mq(breakpoints.medium)]: {
       display: 'none',
     },
   },
