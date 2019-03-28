@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { CSSObject, jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
-import { border, typography } from '@heathmont/sportsbet-tokens';
+import { border, typography, base } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 import { buttonDisabled } from './mixins';
@@ -17,6 +17,7 @@ type ButtonProps = {
   mockState?: ButtonMockState;
   fullWidth?: boolean;
   spaced?: boolean;
+  disableUppercase?: boolean;
 };
 
 /**
@@ -27,12 +28,11 @@ const button: CSSObject = {
   display: 'inline-block',
   verticalAlign: 'middle',
   fontFamily: 'inherit', // Prevents links rendering as system fonts.
-  fontSize: rem(14),
+  fontSize: base.fontSize,
   fontWeight: typography.fontWeight.semibold,
   lineHeight: rem(18),
   textAlign: 'center',
   textDecoration: 'none',
-  textTransform: 'uppercase',
   cursor: 'pointer',
   borderStyle: border.style,
   borderWidth: border.width,
