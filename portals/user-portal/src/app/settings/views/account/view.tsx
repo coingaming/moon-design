@@ -6,22 +6,26 @@ import {
   TextInput,
   Button,
 } from '@heathmont/sportsbet-components';
-import { AccountHeader } from './dumb-components/header';
+import { AccountNav } from './dumb-components/header';
 import {
   SettingsText,
   SettingsSection,
   SettingsBlock,
   BlockContent,
 } from '../../components/settings-block';
-import { CashierLayout } from '../../../cashier/components/layout';
+import {
+  CashierLayout,
+  CashierHeading,
+  HeadingDescription,
+} from '../../../cashier/components/layout';
 
 export const AccountView = () => (
   <CashierLayout>
-    <AccountHeader />
-    <Heading size="charlie" element="h1">
-      Settings
-    </Heading>
-    <SettingsText>Manage your profile, password and more.</SettingsText>
+    <AccountNav />
+    <CashierHeading>Account</CashierHeading>
+    <HeadingDescription>
+      Manage your profile, password and more.
+    </HeadingDescription>
     <SettingsSection>
       <SettingsBlock>
         <Heading size="delta" element="h2">
