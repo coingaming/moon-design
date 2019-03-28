@@ -1,7 +1,7 @@
 import { CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
+import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 
 const cellStyle: CSSObject = {
@@ -38,7 +38,14 @@ const rightAlighted: CSSObject = {
 
 export const PaymentId = styled.div([cellStyle, firstCell]);
 
-export const Status = styled.div([cellStyle]);
+export const Status = styled.div<{ required?: boolean }>(
+  ({ required = false }) => [
+    cellStyle,
+    required && {
+      color: colors.error,
+    },
+  ]
+);
 
 export const DateSummary = styled.div([
   cellStyle,

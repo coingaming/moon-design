@@ -49,3 +49,10 @@ export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
 export const TransactionsSection = styled.section({
   marginTop: spacing('medium'),
 });
+
+export const LoadMore = styled.div({
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: spacing('large'),
+  marginBottom: spacing('large'),
+});
