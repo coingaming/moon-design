@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
+import rem from 'polished/lib/helpers/rem';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { rem } from 'polished';
 
 export const SettingsText = styled.p({
   marginTop: spacing('small'),

@@ -11,6 +11,7 @@ jsx;
 
 type CardToggleProps = {
   back?: boolean;
+  onClick?: () => void;
 };
 
 /**
@@ -23,10 +24,14 @@ const cardToggle: CSSObject = {
 /**
  * Component
  */
-const CardToggle: React.FC<CardToggleProps> = ({ back }) => {
+const CardToggle: React.FC<CardToggleProps> = ({ back, onClick }) => {
   const icon = !back ? <IconSettings /> : <IconLeftArrowCurveRight />;
 
-  return <Toggle css={cardToggle}>{icon}</Toggle>;
+  return (
+    <Toggle onClick={onClick} css={cardToggle}>
+      {icon}
+    </Toggle>
+  );
 };
 
 CardToggle.defaultProps = {
