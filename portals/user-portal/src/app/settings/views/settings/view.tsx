@@ -1,31 +1,33 @@
-/** @jsx jsx */ jsx;
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import { container, spacing } from '@heathmont/sportsbet-utils';
 
 import { Heading, Select, Checkbox } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { SettingsHeader } from './dumb-components/header';
+import { SettingsNav } from './dumb-components/header';
 import {
   SettingsBlock,
   SettingsSection,
   BlockContent,
   SettingsText,
 } from '../../components/settings-block';
+import {
+  CashierLayout,
+  CashierHeading,
+  HeadingDescription,
+} from '../../../cashier/components/layout';
+import rem from 'polished/lib/helpers/rem';
 
 export const SettingsView = () => (
-  <div css={container('large')}>
-    <SettingsHeader />
-    <Heading size="charlie" element="h1">
-      Settings
-    </Heading>
-    <SettingsText>Manage your profile, password and more.</SettingsText>
+  <CashierLayout>
+    <SettingsNav />
+    <CashierHeading>Settings</CashierHeading>
+    <HeadingDescription>
+      Manage your profile, password and more.
+    </HeadingDescription>
     <SettingsSection>
       <SettingsBlock>
         <Heading size="delta" element="h2">
           Odd preference
         </Heading>
-        <Select>
+        <Select css={{ maxWidth: rem(146) }}>
           <option value="decimal">Decimal</option>
           <option value="american">American</option>
           <option value="indonesian">Indonesian</option>
@@ -35,7 +37,7 @@ export const SettingsView = () => (
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             Boost your sportsbet.io
           </Heading>
           <SettingsText>
@@ -47,7 +49,7 @@ export const SettingsView = () => (
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             Accept all odds changes
           </Heading>
           <SettingsText>
@@ -59,7 +61,7 @@ export const SettingsView = () => (
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             Quick bet
           </Heading>
           <SettingsText>
@@ -78,7 +80,7 @@ export const SettingsView = () => (
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             I agree to receive bonus & marketing emails
           </Heading>
           <SettingsText>
@@ -89,5 +91,5 @@ export const SettingsView = () => (
         <Checkbox hiddenLabel label="Receive emails" />
       </SettingsBlock>
     </SettingsSection>
-  </div>
+  </CashierLayout>
 );

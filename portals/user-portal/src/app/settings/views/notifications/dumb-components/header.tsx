@@ -1,7 +1,11 @@
 import * as React from 'react';
-import { Tab, TabItem } from '../../../../cashier/components/tab/tab';
+import {
+  Tab,
+  TabItem,
+  CloseButton,
+} from '../../../../cashier/components/tab/tab';
 
-export const NotificationsHeader = () => (
+export const NotificationsNav = () => (
   <Tab>
     <TabItem to={'/cashier'}>Wallet</TabItem>
     <TabItem to={'/my-bets'}>My bets</TabItem>
@@ -12,6 +16,7 @@ export const NotificationsHeader = () => (
     <TabItem to={'/settings'}>Settings</TabItem>
     <TabItem to={'/'} divider>
       Return to sportsbook
+      <CloseButton />
     </TabItem>
   </Tab>
 );
