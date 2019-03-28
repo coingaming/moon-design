@@ -1,53 +1,45 @@
 /** @jsx jsx */ jsx;
 import { jsx } from '@emotion/core';
-import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
-import { container, spacing } from '@heathmont/sportsbet-utils';
-import { Heading } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { Layout, LayoutHeader, LayoutMain } from '../../components/layout';
-import { CashierHeading } from '../exchange/dumb-components/heading';
-import { BitcoinWallet } from '../exchange/dumb-components/bitcoin-wallet';
+import { Heading } from '@heathmont/sportsbet-components/lib/heading/';
+import { CashierNav } from './dumb-components/navigation';
+import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
-
-const WalletText = styled.p({
-  color: colors.neutral[20],
-});
-
-const WalletsContainer = styled.div({
-  display: 'flex',
-  flexDirection: 'row',
-  overflow: 'auto',
-  flexFlow: 'row nowrap',
-  scrollSnapType: 'x mandatory',
-});
-
-const WalletWrapper = styled.div({
-  minWidth: rem(320),
-  marginRight: spacing('large'),
-  scrollSnapAlign: 'center',
-});
+import {
+  CashierLayout,
+  CashierHeading,
+  HeadingDescription,
+} from '../../components/layout';
+import {
+  WalletsContainer,
+  WalletWrapper,
+  TransactionsSection,
+} from '../../components/views/wallets';
+import { EuroWallet } from './dumb-components/euro-wallet';
+import { AddWallet, AddWalletMobile } from '../../components/add-wallet';
 
 export const WalletsView = () => (
-  <div css={container('large')}>
-    <CashierHeading />
-    <Heading size="charlie" element="h1">
-      Wallet
-    </Heading>
-    <WalletText>Manage your profile, password and more.</WalletText>
+  <CashierLayout>
+    <CashierNav />
+    <CashierHeading>Wallet</CashierHeading>
+    <HeadingDescription>
+      Manage your profile, password and more.
+    </HeadingDescription>
     <WalletsContainer>
       <WalletWrapper>
         <BitcoinWallet />
       </WalletWrapper>
       <WalletWrapper>
-        <BitcoinWallet />
+        <EuroWallet />
       </WalletWrapper>
-      <WalletWrapper>
-        <BitcoinWallet />
+      <WalletWrapper mobileHidden>
+        <AddWallet onClick={() => console.log('Add wallet')} />
       </WalletWrapper>
     </WalletsContainer>
-    <div>
+    <AddWalletMobile onClick={() => console.log('Add wallet')}>
+      + Add Wallet
+    </AddWalletMobile>
+    <TransactionsSection>
       <Heading size="charlie" element="h2">
         Transactions
       </Heading>
@@ -59,6 +51,6 @@ export const WalletsView = () => (
       <TransactionDetailItem />
       <TransactionDetailItem />
       <TransactionDetailItem />
-    </div>
-  </div>
+    </TransactionsSection>
+  </CashierLayout>
 );

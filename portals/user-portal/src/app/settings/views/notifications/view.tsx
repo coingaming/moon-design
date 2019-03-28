@@ -1,11 +1,7 @@
-/** @jsx jsx */ jsx;
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import { container, spacing } from '@heathmont/sportsbet-utils';
 
 import { Heading, Toggle } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { NotificationsHeader } from './dumb-components/header';
+import { NotificationsNav } from './dumb-components/header';
 import {
   SettingsText,
   SettingsSection,
@@ -13,18 +9,23 @@ import {
   BlockContent,
   Active,
 } from '../../components/settings-block';
+import {
+  CashierLayout,
+  CashierHeading,
+  HeadingDescription,
+} from '../../../cashier/components/layout';
 
 export const NotificationsView = () => (
-  <div css={container('large')}>
-    <NotificationsHeader />
-    <Heading size="charlie" element="h1">
-      Settings
-    </Heading>
-    <SettingsText>Manage your profile, password and more.</SettingsText>
+  <CashierLayout>
+    <NotificationsNav />
+    <CashierHeading>Notifications</CashierHeading>
+    <HeadingDescription>
+      Manage your profile, password and more.
+    </HeadingDescription>
     <SettingsSection>
       <SettingsBlock>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             Free spin promotion waiting in your account!
           </Heading>
           <SettingsText>
@@ -35,7 +36,7 @@ export const NotificationsView = () => (
       </SettingsBlock>
       <SettingsBlock highlight>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             Your ticket has won 1.3077 mBTC
           </Heading>
           <SettingsText>18:56 01.12.2018</SettingsText>
@@ -46,7 +47,7 @@ export const NotificationsView = () => (
       </SettingsBlock>
       <SettingsBlock highlight>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             EPL Season Super Bet!
           </Heading>
           <SettingsText>
@@ -62,7 +63,7 @@ export const NotificationsView = () => (
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
-          <Heading size="delta" element="h2">
+          <Heading size="echo" element="h3">
             Free spin promotion waiting in your account!
           </Heading>
           <SettingsText>
@@ -72,5 +73,5 @@ export const NotificationsView = () => (
         </BlockContent>
       </SettingsBlock>
     </SettingsSection>
-  </div>
+  </CashierLayout>
 );

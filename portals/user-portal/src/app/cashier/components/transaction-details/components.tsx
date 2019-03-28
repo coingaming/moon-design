@@ -3,7 +3,7 @@ import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 
 export const Summary = styled.summary({
   display: 'flex',
