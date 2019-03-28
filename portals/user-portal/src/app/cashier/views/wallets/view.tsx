@@ -17,6 +17,7 @@ import {
 } from '../../components/views/wallets';
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { AddWallet, AddWalletMobile } from '../../components/add-wallet';
+import { spacing } from '@heathmont/sportsbet-utils';
 
 export const WalletsView = () => (
   <CashierLayout>
@@ -40,7 +41,11 @@ export const WalletsView = () => (
       + Add Wallet
     </AddWalletMobile>
     <TransactionsSection>
-      <Heading size="charlie" element="h2">
+      <Heading
+        size="charlie"
+        element="h2"
+        css={{ paddingLeft: spacing('large') }}
+      >
         Transactions
       </Heading>
       <TransactionsHeader />
