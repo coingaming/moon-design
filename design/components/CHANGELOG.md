@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/coingaming/sportsbet-design/compare/v0.18.0...v0.19.0) (2019-03-26)
+
+
+### Bug Fixes
+
+* **card:** gradient fix for safari ([277eefc](https://github.com/coingaming/sportsbet-design/commit/277eefc))
+
+
+### Features
+
+* **account:** account view ([0aca861](https://github.com/coingaming/sportsbet-design/commit/0aca861))
+* **checkbox:** hidden label for checkbox ([6c4b08e](https://github.com/coingaming/sportsbet-design/commit/6c4b08e))
+
+
+
+
+
 # [0.18.0](https://github.com/coingaming/sportsbet-design/compare/v0.17.0...v0.18.0) (2019-03-22)
 
 
