@@ -12,7 +12,7 @@ import {
   WalletWrapper,
 } from '../../components/views/wallets';
 import { EuroWallet } from './dumb-components/euro-wallet';
-import { AddWallet } from '../../components/add-wallet';
+import { AddWallet, AddWalletMobile } from '../../components/add-wallet';
 
 export const WalletsView = () => (
   <CashierLayout>
@@ -32,6 +32,9 @@ export const WalletsView = () => (
         <AddWallet onClick={() => console.log('Add wallet')} />
       </WalletWrapper>
     </WalletsContainer>
+    <AddWalletMobile onClick={() => console.log('Add wallet')}>
+      + Add Wallet
+    </AddWalletMobile>
     <div>
       <Heading size="charlie" element="h2">
         Transactions
