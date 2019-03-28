@@ -13,6 +13,7 @@ export const WalletsContainer = styled.div({
   overflow: 'auto',
   flexFlow: 'row nowrap',
   scrollSnapType: 'x mandatory',
+  marginTop: spacing('large'),
 });
 
 const walletWrapper: CSSObject = {
@@ -38,3 +39,7 @@ export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
       : walletWrapper,
   ]
 );
+
+export const TransactionsSection = styled.section({
+  marginTop: spacing('medium'),
+});
