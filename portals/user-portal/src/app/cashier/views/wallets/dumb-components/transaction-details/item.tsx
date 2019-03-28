@@ -1,3 +1,5 @@
+/** @jsx jsx */ jsx;
+import { jsx } from '@emotion/core';
 import * as React from 'react';
 import { Button } from '@heathmont/sportsbet-components';
 import {
@@ -29,6 +31,7 @@ import {
   ResumeTransaction,
   Text,
 } from '../../../../components/transaction-details/detail-items';
+import { colors } from '@heathmont/sportsbet-tokens';
 
 export const TransactionDetailItem: React.FC<{}> = () => {
   return (
@@ -78,7 +81,11 @@ export const TransactionDetailItem: React.FC<{}> = () => {
               <Text>126.5€</Text>
             </BalanceAfter>
             <ResumeTransaction>
-              <Button modifier="optional" fullWidth>
+              <Button
+                modifier="optional"
+                fullWidth
+                css={{ backgroundColor: colors.neutral[50] }}
+              >
                 Resume Transaction
               </Button>
             </ResumeTransaction>
