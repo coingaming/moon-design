@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Tab, TabItem, CloseButton } from '../../../components/tab/tab';
 
-export const CashierHeading = () => (
+export const CashierNav = () => (
   <Tab>
     <TabItem active to={'/cashier'}>
       Wallet

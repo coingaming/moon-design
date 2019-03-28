@@ -5,7 +5,6 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import {
   Card,
   CardToggle,
-  Button,
   CardBalance,
   Link,
   Form,
@@ -45,7 +44,11 @@ export const BitcoinWallet = () => {
           toggle(!backSided);
         }}
       />
-      <Form legend="Convert currency" maxWidth="15rem">
+      <Form
+        legend="Convert currency"
+        maxWidth="15rem"
+        css={{ padding: spacing() }}
+      >
         <FormItem>
           <Select label="Converted currency" flex>
             <option value="euro">Euro</option>
@@ -55,9 +58,8 @@ export const BitcoinWallet = () => {
         </FormItem>
         <FormItem>
           <Select label="Balance in" flex>
-            <option value="euro">mBTC</option>
-            <option value="gbp">Doge</option>
-            <option value="usd">Ethereum</option>
+            <option value="mBTC">mBTC</option>
+            <option value="uBTC">uBTC</option>
           </Select>
         </FormItem>
       </Form>
