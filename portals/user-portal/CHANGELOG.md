@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/coingaming/sportsbet-design/compare/v0.18.0...v0.19.0) (2019-03-26)
+
+
+### Bug Fixes
+
+* **user-portal:** transaction details header - fix ([b658d20](https://github.com/coingaming/sportsbet-design/commit/b658d20))
+
+
+### Features
+
+* **account:** account view ([0aca861](https://github.com/coingaming/sportsbet-design/commit/0aca861))
+* **settings:** settings view ([6a33095](https://github.com/coingaming/sportsbet-design/commit/6a33095))
+* **settings:** settings view ([4b1b8be](https://github.com/coingaming/sportsbet-design/commit/4b1b8be))
+* **user-portal:** add routes for account, notification and settings ([6eba4a5](https://github.com/coingaming/sportsbet-design/commit/6eba4a5))
+
+
+
+
+
 # [0.18.0](https://github.com/coingaming/sportsbet-design/compare/v0.17.0...v0.18.0) (2019-03-22)
 
 
