@@ -18,6 +18,7 @@ type ButtonProps = {
   fullWidth?: boolean;
   spaced?: boolean;
   disableUppercase?: boolean;
+  onClick?: () => void;
 };
 
 /**
