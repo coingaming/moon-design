@@ -17,7 +17,7 @@ const nav: CSSObject = {
   position: 'sticky',
   top: 0,
   height: rem(56),
-  overflowX: 'scroll',
+  // overflowX: 'scroll',
   overflowY: 'hidden',
   zIndex: 2,
   backgroundColor: colors.neutral[90],
