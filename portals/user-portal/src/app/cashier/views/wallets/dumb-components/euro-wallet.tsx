@@ -35,7 +35,7 @@ export const EuroWallet: React.FC<{}> = () => {
           to={{ currency: 'Dollars', value: 156.72, unit: 'USD' }}
         />
         <div>
-          <Button modifier="primary" disableUppercase>
+          <Button modifier="secondary" disableUppercase>
             Use wallet
           </Button>
         </div>
