@@ -18,10 +18,11 @@ const rowContent: CSSObject = {
   alignItems: 'center',
   marginBottom: spacing('small'),
   [mq(breakpoints.medium)]: {
+    marginBottom: 0,
     justifyContent: 'flex-end',
     '> p': {
       [mq(breakpoints.medium)]: {
-        width: rem(190),
+        width: rem(244),
         textAlign: 'right',
       },
     },
@@ -35,21 +36,30 @@ const columnContent: CSSObject = {
   marginBottom: spacing('small'),
 };
 
+const desktopMargins: CSSObject = {
+  [mq(breakpoints.medium)]: {
+    marginBottom: spacing('large'),
+  },
+};
+
 export const Title = styled.p({
   color: colors.neutral[20],
   marginTop: 0,
+  marginBottom: spacing('small'),
+  width: 'fit-content',
 });
 
 export const Text = styled.p({
   color: colors.neutral[10],
   marginTop: 0,
+  marginBottom: spacing('small'),
 });
 
 export const DateDetails = styled.div([desktopHidden, rowContent]);
 
 export const CurrencyDetails = styled.div([desktopHidden, rowContent]);
 
-export const Provider = styled.div([columnContent]);
+export const Provider = styled.div([columnContent, desktopMargins]);
 
 export const TimeOfTransaction = styled.div([columnContent]);
 
@@ -57,8 +67,18 @@ export const ProcessingFee = styled.div([rowContent]);
 
 export const AmountSpent = styled.div([rowContent]);
 
-export const RateApplied = styled.div([rowContent]);
+export const RateApplied = styled.div([rowContent, desktopMargins]);
 
 export const BalanceAfter = styled.div([rowContent]);
 
-export const ResumeTransaction = styled.div([rowContent]);
+export const ResumeTransaction = styled.div([
+  rowContent,
+  {
+    marginTop: spacing(),
+    [mq(breakpoints.medium)]: {
+      marginLeft: 'auto',
+      width: 'fit-content',
+      whiteSpace: 'nowrap',
+    },
+  },
+]);

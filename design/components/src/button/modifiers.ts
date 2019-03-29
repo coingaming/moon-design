@@ -40,15 +40,11 @@ const secondary: CSSObject = {
 };
 
 const optional: CSSObject = {
-  textTransform: 'capitalize',
   fontWeight: typography.fontWeight.normal,
-  backgroundColor: 'transparent',
-  borderColor: colors.neutral[20],
+  backgroundColor: colors.neutral[50],
   color: colors.neutral[20],
   ...buttonActive({
     color: colors.highlight,
-    backgroundColor: 'transparent',
-    borderColor: colors.highlight,
   }),
   ...buttonFocus({
     ...buttonShadow(colors.brand),

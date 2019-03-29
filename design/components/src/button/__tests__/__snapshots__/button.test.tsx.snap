@@ -164,10 +164,8 @@ exports[`Button Modifiers renders as optional 1`] = `
   border-width: 1px;
   border-color: transparent;
   border-radius: 4px;
-  text-transform: capitalize;
-  font-weight: 400;
-  background-color: transparent;
-  border-color: #8697a2;
+  font-weight: 600;
+  background-color: #304854;
   color: #8697a2;
 }
 
@@ -184,8 +182,6 @@ exports[`Button Modifiers renders as optional 1`] = `
 .emotion-0:active:not([disabled]),
 .emotion-0:focus:not([disabled]) {
   color: #00e865;
-  background-color: transparent;
-  border-color: #00e865;
 }
 
 .emotion-0.has-focus,

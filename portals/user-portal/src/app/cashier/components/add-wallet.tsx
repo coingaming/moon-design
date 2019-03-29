@@ -26,7 +26,7 @@ const borderAddWallet: CSSObject = {
   borderWidth: border.width,
   borderColor: colors.neutral[50],
   borderRadius: border.radius.small,
-  [mq(breakpoints.small)]: {
+  [mq(breakpoints.medium)]: {
     borderRadius: border.radius.default,
   },
 };
@@ -55,11 +55,13 @@ export const AddWalletMobile = styled.button([
   borderAddWallet,
   {
     marginTop: spacing(),
-    width: '100%',
+    width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
     height: rem(50),
+    marginLeft: spacing('large'),
+    marginRight: spacing('large'),
     paddingTop: spacing(),
     paddingBottom: spacing(),
-    [mq(breakpoints.small)]: {
+    [mq(breakpoints.medium)]: {
       display: 'none',
     },
   },
