@@ -1,16 +1,20 @@
 import * as React from 'react';
-import { Tab, TabItem, CloseButton } from '../../../components/tab/tab';
+import {
+  Tab,
+  TabItem,
+  CloseButton,
+} from '../../../../cashier/components/tab/tab';
 
-export const CashierNav = () => (
+export const MyBetsNav = () => (
   <Tab>
-    <TabItem active to={'/cashier'}>
-      Wallet
+    <TabItem to={'/cashier'}>Wallet</TabItem>
+    <TabItem active to={'/my-bets'}>
+      My bets
     </TabItem>
-    <TabItem to={'/my-bets'}>My bets</TabItem>
     <TabItem to={'/account'}>Account</TabItem>
     <TabItem to={'/notifications'}>Notifications</TabItem>
     <TabItem to={'/settings'}>Settings</TabItem>
-    <TabItem to={'#'} divider>
+    <TabItem to={'/'} divider>
       Return to sportsbook
       <CloseButton />
     </TabItem>
