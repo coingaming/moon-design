@@ -1,7 +1,6 @@
 import { CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import margin from 'polished/lib/shorthands/margin';
-import padding from 'polished/lib/shorthands/padding';
 import {
   base,
   container as containerTokens,
@@ -24,7 +23,7 @@ const container: (size?: ContainerSize) => CSSObject = (size = 'default') => {
 
   return {
     maxWidth: containerSize(size),
-    ...padding(null, spacing('default')),
+    padding: 0,
     ...margin(null, 'auto'),
   };
 };

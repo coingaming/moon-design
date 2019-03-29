@@ -14,14 +14,20 @@ export const WalletsContainer = styled.div({
   flexFlow: 'row nowrap',
   scrollSnapType: 'x mandatory',
   marginTop: spacing('large'),
+  marginLeft: spacing('large'),
+  marginRight: spacing('large'),
+  [mq(breakpoints.medium)]: {
+    marginLeft: 0,
+    marginRight: 0,
+  },
 });
 
 const walletWrapper: CSSObject = {
   minWidth: rem(256),
   marginRight: spacing(),
   scrollSnapAlign: 'center',
-  [mq(breakpoints.small)]: {
-    minWidth: rem(320),
+  [mq(breakpoints.medium)]: {
+    minWidth: rem(288),
     marginRight: spacing('large'),
   },
 };
@@ -31,7 +37,7 @@ export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
     mobileHidden
       ? {
           display: 'none',
-          [mq(breakpoints.small)]: {
+          [mq(breakpoints.medium)]: {
             display: 'block',
             ...walletWrapper,
           },
@@ -42,4 +48,11 @@ export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
 
 export const TransactionsSection = styled.section({
   marginTop: spacing('medium'),
+});
+
+export const LoadMore = styled.div({
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: spacing('large'),
+  marginBottom: spacing('large'),
 });
