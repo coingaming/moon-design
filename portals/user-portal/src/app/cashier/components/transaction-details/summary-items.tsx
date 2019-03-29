@@ -36,7 +36,18 @@ const rightAlighted: CSSObject = {
   textAlign: 'right',
 };
 
-export const PaymentId = styled.div([cellStyle, firstCell]);
+export const PaymentId = styled.div([
+  cellStyle,
+  firstCell,
+  {
+    [mq(breakpoints.medium)]: {
+      minWidth: rem(208),
+    },
+    [mq(breakpoints.large)]: {
+      minWidth: rem(256),
+    },
+  },
+]);
 
 export const Status = styled.div<{ required?: boolean }>(
   ({ required = false }) => [
@@ -53,7 +64,11 @@ export const DateSummary = styled.div([
   rightAlighted,
   {
     width: '70%',
+    [mq(breakpoints.small)]: {
+      marginRight: rem(64),
+    },
     [mq(breakpoints.medium)]: {
+      minWidth: rem(160),
       marginRight: rem(96),
     },
   },
