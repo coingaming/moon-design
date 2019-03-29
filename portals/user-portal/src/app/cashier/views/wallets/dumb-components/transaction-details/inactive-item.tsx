@@ -33,12 +33,12 @@ import {
 } from '../../../../components/transaction-details/detail-items';
 import { colors } from '@heathmont/sportsbet-tokens';
 
-export const TransactionDetailItem: React.FC<{}> = () => {
+export const InActiveTransactionDetailItem: React.FC<{}> = () => {
   return (
     <TransactionHistory>
-      <Summary>
+      <Summary inactive>
         <PaymentId>5be547ab0014545343343</PaymentId>
-        <Status>In progress</Status>
+        <Status>Cancelled by user</Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>
         <Currency>EUR</Currency>
         <Amount>+93.59</Amount>

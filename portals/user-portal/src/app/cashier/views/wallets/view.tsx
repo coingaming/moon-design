@@ -1,6 +1,9 @@
 /** @jsx jsx */ jsx;
+import * as React from 'react';
+// tslint:disable-next-line:no-duplicate-imports
+import { useState } from 'react';
 import { jsx } from '@emotion/core';
-import { Heading } from '@heathmont/sportsbet-components/lib/heading/';
+import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { CashierNav } from './dumb-components/navigation';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
@@ -14,43 +17,60 @@ import {
   WalletsContainer,
   WalletWrapper,
   TransactionsSection,
+  LoadMore,
 } from '../../components/views/wallets';
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { AddWallet, AddWalletMobile } from '../../components/add-wallet';
+import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
+import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
 
-export const WalletsView = () => (
-  <CashierLayout>
-    <CashierNav />
-    <CashierHeading>Wallet</CashierHeading>
-    <HeadingDescription>
-      Manage your profile, password and more.
-    </HeadingDescription>
-    <WalletsContainer>
-      <WalletWrapper>
-        <BitcoinWallet />
-      </WalletWrapper>
-      <WalletWrapper>
-        <EuroWallet />
-      </WalletWrapper>
-      <WalletWrapper mobileHidden>
-        <AddWallet onClick={() => console.log('Add wallet')} />
-      </WalletWrapper>
-    </WalletsContainer>
-    <AddWalletMobile onClick={() => console.log('Add wallet')}>
-      + Add Wallet
-    </AddWalletMobile>
-    <TransactionsSection>
-      <Heading size="charlie" element="h2">
-        Transactions
-      </Heading>
-      <TransactionsHeader />
-      <TransactionDetailItem />
-      <TransactionDetailItem />
-      <TransactionDetailItem />
-      <TransactionDetailItem />
-      <TransactionDetailItem />
-      <TransactionDetailItem />
-      <TransactionDetailItem />
-    </TransactionsSection>
-  </CashierLayout>
-);
+const transactionItems = [
+  <TransactionDetailItem />,
+  <RequiredTransactionDetailItem />,
+  <InActiveTransactionDetailItem />,
+  <TransactionDetailItem />,
+  <InActiveTransactionDetailItem />,
+];
+
+export const WalletsView = () => {
+  const [items, loadMore] = useState(transactionItems);
+  return (
+    <CashierLayout>
+      <CashierNav />
+      <CashierHeading>Wallet</CashierHeading>
+      <HeadingDescription>
+        Manage your profile, password and more.
+      </HeadingDescription>
+      <WalletsContainer>
+        <WalletWrapper>
+          <BitcoinWallet />
+        </WalletWrapper>
+        <WalletWrapper>
+          <EuroWallet />
+        </WalletWrapper>
+        <WalletWrapper mobileHidden>
+          <AddWallet onClick={() => console.log('Add wallet')} />
+        </WalletWrapper>
+      </WalletsContainer>
+      <AddWalletMobile onClick={() => console.log('Add wallet')}>
+        + Add Wallet
+      </AddWalletMobile>
+      <TransactionsSection>
+        <CashierHeading>Transactions</CashierHeading>
+        <TransactionsHeader />
+        {items}
+      </TransactionsSection>
+      <LoadMore>
+        <Button
+          onClick={() => {
+            console.log('loadMore');
+            loadMore([...items, ...transactionItems]);
+          }}
+          modifier="optional"
+        >
+          Load more
+        </Button>
+      </LoadMore>
+    </CashierLayout>
+  );
+};
