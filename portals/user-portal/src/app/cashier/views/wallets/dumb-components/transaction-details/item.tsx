@@ -41,7 +41,7 @@ export const TransactionDetailItem: React.FC<{}> = () => {
         <Status>In progress</Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>
         <Currency>EUR</Currency>
-        <Amount>+93.59</Amount>
+        <Amount css={{ color: colors.error }}>-50.59</Amount>
       </Summary>
       <Details>
         <DetailColumns>
