@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/coingaming/sportsbet-design/compare/v0.20.0...v0.21.0) (2019-03-29)
+
+
+### Bug Fixes
+
+* **wallets:** details margins ([fec9c3f](https://github.com/coingaming/sportsbet-design/commit/fec9c3f))
+* **wallets:** layout paddings ([a049ec7](https://github.com/coingaming/sportsbet-design/commit/a049ec7))
+
+
+### Features
+
+* **wallets:** load more button & different type of detail items ([3ab559d](https://github.com/coingaming/sportsbet-design/commit/3ab559d))
+* **wallets:** load more functionality ([b80bc3e](https://github.com/coingaming/sportsbet-design/commit/b80bc3e))
+* **wallets:** position sticky for nav ([301f3bd](https://github.com/coingaming/sportsbet-design/commit/301f3bd))
+
+
+
+
+
 # [0.20.0](https://github.com/coingaming/sportsbet-design/compare/v0.19.0...v0.20.0) (2019-03-28)
 
 
