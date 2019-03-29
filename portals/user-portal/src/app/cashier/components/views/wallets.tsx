@@ -26,8 +26,8 @@ const walletWrapper: CSSObject = {
   minWidth: rem(256),
   marginRight: spacing(),
   scrollSnapAlign: 'center',
-  [mq(breakpoints.medium)]: {
-    minWidth: rem(288),
+  [mq(breakpoints.small)]: {
+    minWidth: rem(320),
     marginRight: spacing('large'),
   },
 };

@@ -41,7 +41,7 @@ export const RequiredTransactionDetailItem: React.FC<{}> = () => {
         <Status required>Input required</Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>
         <Currency>EUR</Currency>
-        <Amount>+93.59</Amount>
+        <Amount css={{ color: colors.brand }}>+93.59</Amount>
       </Summary>
       <Details>
         <DetailColumns>
