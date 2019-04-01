@@ -30,17 +30,14 @@ const colors: Colors = {
     brand: {
       10: '#0BC15A',
       20: '#0AAB50',
-      30: '#19A9E2',
     },
     highlight: {
       10: '#1798CB',
       20: '#1590C0',
-      30: '#19A9E2',
     },
     secondary: {
       10: '#798892',
       20: '#72808A',
-      30: '#8697A2',
     },
   },
   neutral: {
