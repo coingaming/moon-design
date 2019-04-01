@@ -13,16 +13,6 @@ describe('Button', () => {
     expect(button).toMatchSnapshot();
   });
 
-  test('renders with spacing', () => {
-    const button = create(
-      <Button modifier="primary" spaced>
-        Spaced Primary Button
-      </Button>
-    );
-
-    expect(button).toMatchSnapshot();
-  });
-
   test('renders as disabled', () => {
     const button = create(
       <Button modifier="primary" disabled>
