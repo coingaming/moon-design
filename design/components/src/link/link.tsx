@@ -2,6 +2,7 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { disabled } from '@heathmont/sportsbet-utils';
 jsx;
 
 type LinkProps = {
@@ -23,12 +24,9 @@ const linkBase: CSSObject = {
   cursor: 'pointer',
   textDecoration: 'none',
   '&:hover, &:focus, &:active': {
-    color: colors.highlight,
+    color: colors.alternate.brand[10],
   },
-  '&:disabled, &[disabled]': {
-    color: colors.neutral[30],
-    cursor: 'not-allowed',
-  },
+  ...disabled(),
 };
 
 /**

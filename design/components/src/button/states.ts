@@ -48,16 +48,4 @@ const buttonActive = (styles: CSSObject) => ({
   },
 });
 
-const buttonDisabled = (styles: CSSObject) => ({
-  '&:disabled, &[disabled]': {
-    ...styles,
-  },
-});
-
-export {
-  ButtonMockState,
-  buttonMockStateClass,
-  buttonHover,
-  buttonActive,
-  buttonDisabled,
-};
+export { ButtonMockState, buttonMockStateClass, buttonHover, buttonActive };

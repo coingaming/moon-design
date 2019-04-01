@@ -3,14 +3,10 @@ import * as React from 'react';
 import { CSSObject, jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { border, typography, base } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { spacing, disabled } from '@heathmont/sportsbet-utils';
 
 import { buttonModifiers, ButtonModifiers } from './modifiers';
-import {
-  buttonMockStateClass,
-  ButtonMockState,
-  buttonDisabled,
-} from './states';
+import { buttonMockStateClass, ButtonMockState } from './states';
 
 type ButtonProps = {
   className?: string;
@@ -19,7 +15,7 @@ type ButtonProps = {
   disabled?: boolean;
   mockState?: ButtonMockState;
   fullWidth?: boolean;
-  disableUppercase?: boolean;
+  uppercase?: boolean;
   onClick?: () => void;
 };
 
@@ -41,10 +37,7 @@ const button: CSSObject = {
   borderWidth: border.width,
   borderColor: 'transparent',
   borderRadius: border.radius.small,
-  ...buttonDisabled({
-    cursor: 'not-allowed',
-    opacity: 0.35,
-  }),
+  ...disabled(),
 };
 
 /**
@@ -56,6 +49,7 @@ const Button: React.FC<ButtonProps> = ({
   mockState,
   modifier,
   fullWidth,
+  uppercase,
   ...props
 }) => {
   const ButtonElement = !href ? 'button' : 'a';
@@ -74,6 +68,7 @@ const Button: React.FC<ButtonProps> = ({
     css: [
       button,
       modifier && buttonModifiers[modifier],
+      uppercase && { textTransform: 'uppercase' },
       fullWidth && { width: '100%' },
     ],
     className: mockState && buttonMockStateClass(mockState),

@@ -1,6 +1,6 @@
 import { CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { buttonActive, buttonHover, buttonDisabled } from './states';
+import { buttonActive, buttonHover } from './states';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 type ButtonModifiers = 'primary' | 'highlight' | 'secondary';
