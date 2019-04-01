@@ -1,11 +1,19 @@
 type Colors = {
   brand: string;
   highlight: string;
+  // secondary: string;
   text: string;
   error: string;
   alternate: {
-    brand: string;
-    highlight: string;
+    brand: {
+      [key: number]: string;
+    };
+    highlight: {
+      [key: number]: string;
+    };
+    secondary: {
+      [key: number]: string;
+    };
   };
   neutral: {
     [key: number]: string;
@@ -18,8 +26,21 @@ const colors: Colors = {
   text: '#ffffff',
   error: '#ff4e64',
   alternate: {
-    brand: '#19a9e2',
-    highlight: '#00b7ff',
+    brand: {
+      10: '#0BC15A',
+      20: '#0AAB50',
+      30: '#19A9E2',
+    },
+    highlight: {
+      10: '#1798CB',
+      20: '#1590C0',
+      30: '#19A9E2',
+    },
+    secondary: {
+      10: '#798892',
+      20: '#72808A',
+      30: '#8697A2',
+    },
   },
   neutral: {
     10: '#fff',
