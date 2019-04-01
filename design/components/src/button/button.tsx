@@ -16,7 +16,6 @@ type ButtonProps = {
   disabled?: boolean;
   mockState?: ButtonMockState;
   fullWidth?: boolean;
-  spaced?: boolean;
   disableUppercase?: boolean;
   onClick?: () => void;
 };
@@ -42,11 +41,6 @@ const button: CSSObject = {
   ...buttonDisabled('solid'),
 };
 
-const buttonSpaced: CSSObject = {
-  marginBottom: spacing(),
-  '&:not(:last-child)': { marginRight: spacing() },
-};
-
 /**
  * Component
  */
@@ -55,7 +49,6 @@ const Button: React.FC<ButtonProps> = ({
   href,
   mockState,
   modifier,
-  spaced,
   fullWidth,
   ...props
 }) => {
@@ -74,7 +67,6 @@ const Button: React.FC<ButtonProps> = ({
     href,
     css: [
       button,
-      spaced && buttonSpaced,
       modifier && buttonModifiers[modifier],
       fullWidth && { width: '100%' },
     ],
