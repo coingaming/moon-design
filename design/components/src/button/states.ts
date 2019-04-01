@@ -1,4 +1,6 @@
-type ButtonMockState = 'active' | 'focus';
+import { CSSObject } from '@emotion/css';
+
+type ButtonMockState = 'active' | 'focus' | 'hover';
 
 /**
  * buttonMockStateClass
@@ -11,6 +13,7 @@ const buttonMockStateClass = (state: ButtonMockState) =>
   ({
     active: 'is-active',
     focus: 'has-focus',
+    hover: 'is-hover',
   }[state]);
 
 /**
@@ -18,13 +21,10 @@ const buttonMockStateClass = (state: ButtonMockState) =>
  *
  * Wraps styles with the appropriate "active"-style selectors.
  */
-const buttonActive = (styles: object) => ({
+const buttonHover = (styles: CSSObject) => ({
   [`
-    &.${buttonMockStateClass('active')},
-    &.${buttonMockStateClass('focus')},
-    &:hover,
-    &:active,
-    &:focus
+    &.${buttonMockStateClass('hover')},
+    &:hover
   `]: {
     '&:not([disabled])': {
       ...styles,
@@ -37,13 +37,27 @@ const buttonActive = (styles: object) => ({
  *
  * Wraps styles with the appropriate "focus"-style selectors.
  */
-const buttonFocus = (styles: object) => ({
+const buttonActive = (styles: CSSObject) => ({
   [`
+    &.${buttonMockStateClass('active')},
     &.${buttonMockStateClass('focus')},
+    &:active,
     &:focus
   `]: {
     ...styles,
   },
 });
 
-export { ButtonMockState, buttonMockStateClass, buttonActive, buttonFocus };
+const buttonDisabled = (styles: CSSObject) => ({
+  '&:disabled, &[disabled]': {
+    ...styles,
+  },
+});
+
+export {
+  ButtonMockState,
+  buttonMockStateClass,
+  buttonHover,
+  buttonActive,
+  buttonDisabled,
+};
