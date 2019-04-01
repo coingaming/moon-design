@@ -1,7 +1,7 @@
 type Colors = {
   brand: string;
   highlight: string;
-  // secondary: string;
+  secondary: string;
   text: string;
   error: string;
   alternate: {
@@ -22,7 +22,8 @@ type Colors = {
 
 const colors: Colors = {
   brand: '#0cd664',
-  highlight: '#00e865',
+  highlight: '#19A9E2',
+  secondary: '#8697A2',
   text: '#ffffff',
   error: '#ff4e64',
   alternate: {
