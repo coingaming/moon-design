@@ -1,5 +1,5 @@
 import { CSSObject } from '@emotion/core';
-import { colors, typography } from '@heathmont/sportsbet-tokens';
+import { colors } from '@heathmont/sportsbet-tokens';
 import { buttonActive, buttonHover, buttonDisabled } from './states';
 import { spacing } from '@heathmont/sportsbet-utils';
 
