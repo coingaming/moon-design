@@ -29,6 +29,16 @@ describe('Button', () => {
     expect(button).toMatchSnapshot();
   });
 
+  test('renders uppercased', () => {
+    const button = create(
+      <Button modifier="primary" uppercase>
+        Uppercase Primary Button
+      </Button>
+    );
+
+    expect(button).toMatchSnapshot();
+  });
+
   test('renders as an anchor tag', () => {
     const button = create(
       <Button modifier="primary" href="#some-anchor">
