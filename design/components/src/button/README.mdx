@@ -16,74 +16,117 @@ import { PropsTable } from 'docs';
 To be used where the the button would be the main call to action on the page.
 
 ```jsx react-live
-<Button modifier="primary" spaced>
+<Button modifier="primary">
   Default
 </Button>
-<Button modifier="primary" mockState="active" spaced>
+<Button modifier="primary" mockState="hover" >
   Hover
 </Button>
-<Button modifier="primary" mockState="focus" spaced>
+<Button modifier="primary" mockState="active" >
   Focus
 </Button>
-<Button modifier="primary" disabled spaced>
+<Button modifier="primary" disabled >
+  Disabled
+</Button>
+```
+
+### Highlight
+
+To be used where the the button would be a highlight call to action.
+
+```jsx react-live
+<Button modifier="highlight" >
+  Default
+</Button>
+<Button modifier="highlight" mockState="hover" >
+  Hover
+</Button>
+<Button modifier="highlight" mockState="active" >
+  Focus
+</Button>
+<Button modifier="highlight" disabled >
   Disabled
 </Button>
 ```
 
 ### Secondary
 
-To be used where the the button would be alternative or secondary call to action.
+To be used where the the button would be a secondary call to action.
 
 ```jsx react-live
-<Button modifier="secondary" spaced>
+<Button modifier="secondary" >
   Default
 </Button>
-<Button modifier="secondary" mockState="active" spaced>
+<Button modifier="secondary" mockState="hover" >
   Hover
 </Button>
-<Button modifier="secondary" mockState="focus" spaced>
+<Button modifier="secondary" mockState="active" >
   Focus
 </Button>
-<Button modifier="secondary" disabled spaced>
+<Button modifier="secondary" disabled >
   Disabled
 </Button>
 ```
 
-### Optional
+## Outline
 
-To be used where the the button would be an optional call to action - meaning not prominant.
+To be used where the button would be a alternate call to action.
 
 ```jsx react-live
-<Button modifier="optional" spaced>
-  Default
-</Button>
-<Button modifier="optional" mockState="active" spaced>
-  Hover
-</Button>
-<Button modifier="optional" mockState="focus" spaced>
-  Focus
-</Button>
-<Button modifier="optional" disabled spaced>
-  Disabled
-</Button>
+<div>
+  <Button modifier="primary" outline>
+    Default
+  </Button>
+  <Button modifier="primary" mockState="hover" outline >
+    Hover
+  </Button>
+  <Button modifier="primary" mockState="active" outline >
+    Focus
+  </Button>
+  <Button modifier="primary" disabled outline >
+    Disabled
+  </Button>
+</div>
+<div>
+  <Button modifier="highlight" outline>
+    Default
+  </Button>
+  <Button modifier="highlight" mockState="hover" outline >
+    Hover
+  </Button>
+  <Button modifier="highlight" mockState="active" outline >
+    Focus
+  </Button>
+  <Button modifier="highlight" disabled outline>
+    Disabled
+  </Button>
+</div>
+<div>
+  <Button modifier="secondary" outline>
+    Default
+  </Button>
+  <Button modifier="secondary" mockState="hover" outline>
+    Hover
+  </Button>
+  <Button modifier="secondary" mockState="active" outline>
+    Focus
+  </Button>
+  <Button modifier="secondary" disabled outline>
+    Disabled
+  </Button>
+</div>
 ```
 
-### Alternate
+## Uppercase
 
-Alternate shade for buttons, currently only intended for use with "Price Boost".
+To be used where the the button caption would be uppercased.
 
 ```jsx react-live
-<Button modifier="alternate" spaced>
-  Default
+<Button modifier="primary" uppercase>
+  Uppercased primary
 </Button>
-<Button modifier="alternate" mockState="active" spaced>
-  Hover
-</Button>
-<Button modifier="alternate" mockState="focus" spaced>
-  Focus
-</Button>
-<Button modifier="alternate" disabled spaced>
-  Disabled
+<Button modifier="secondary" uppercase >
+  Uppercased secondary
 </Button>
 ```
 
@@ -98,10 +141,6 @@ Stretches a button to fill the entire width of its container.
   Full Width
 </Button>
 ```
-
-## Spacing
-
-All examples in this documentation use the `spacing` prop to apply consistent right and bottom margins. Removing this will allow the button to be displayed flush with other elements.
 
 ## Elements
 
