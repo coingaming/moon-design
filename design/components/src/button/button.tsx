@@ -5,9 +5,12 @@ import rem from 'polished/lib/helpers/rem';
 import { border, typography, base } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
-import { buttonDisabled } from './mixins';
 import { buttonModifiers, ButtonModifiers } from './modifiers';
-import { buttonMockStateClass, ButtonMockState } from './states';
+import {
+  buttonMockStateClass,
+  ButtonMockState,
+  buttonDisabled,
+} from './states';
 
 type ButtonProps = {
   className?: string;
@@ -38,7 +41,10 @@ const button: CSSObject = {
   borderWidth: border.width,
   borderColor: 'transparent',
   borderRadius: border.radius.small,
-  ...buttonDisabled('solid'),
+  ...buttonDisabled({
+    cursor: 'not-allowed',
+    opacity: 0.35,
+  }),
 };
 
 /**
