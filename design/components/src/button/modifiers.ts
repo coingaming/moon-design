@@ -27,26 +27,23 @@ const primary: CSSObject = {
 const highlight = {
   color: colors.neutral[10],
   backgroundColor: colors.highlight,
-  // ...buttonActive({
-  //   backgroundColor: colors.alternate.highlight[10],
-  // }),
-  // ...buttonHover({
-  //   backgroundColor: colors.alternate.highlight[20],
-  // }),
+  ...buttonHover({
+    backgroundColor: colors.alternate.highlight[10],
+  }),
+  ...buttonActive({
+    backgroundColor: colors.alternate.highlight[20],
+  }),
 };
 
 const secondary: CSSObject = {
   color: colors.neutral[10],
-  backgroundColor: 'transparent',
-  borderColor: colors.brand,
-  ...buttonActive({
-    color: colors.highlight,
-    backgroundColor: 'transparent',
-    borderColor: colors.highlight,
+  backgroundColor: colors.secondary,
+  ...buttonHover({
+    backgroundColor: colors.alternate.secondary[10],
   }),
-  // ...buttonHover({
-  //   ...buttonShadow(colors.brand),
-  // }),
+  ...buttonActive({
+    backgroundColor: colors.alternate.secondary[20],
+  }),
 };
 
 /**

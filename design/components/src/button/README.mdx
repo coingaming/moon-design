@@ -30,6 +30,25 @@ To be used where the the button would be the main call to action on the page.
 </Button>
 ```
 
+### Highlight
+
+To be used where the the button would be alternative or highlight call to action.
+
+```jsx react-live
+<Button modifier="highlight" >
+  Default
+</Button>
+<Button modifier="highlight" mockState="hover" >
+  Hover
+</Button>
+<Button modifier="highlight" mockState="active" >
+  Focus
+</Button>
+<Button modifier="highlight" disabled >
+  Disabled
+</Button>
+```
+
 ### Secondary
 
 To be used where the the button would be alternative or secondary call to action.
@@ -38,10 +57,10 @@ To be used where the the button would be alternative or secondary call to action
 <Button modifier="secondary" >
   Default
 </Button>
-<Button modifier="secondary" mockState="active" >
+<Button modifier="secondary" mockState="hover" >
   Hover
 </Button>
-<Button modifier="secondary" mockState="focus" >
+<Button modifier="secondary" mockState="active" >
   Focus
 </Button>
 <Button modifier="secondary" disabled >
