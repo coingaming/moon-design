@@ -3,6 +3,12 @@ import { create } from 'react-test-renderer';
 import { Button } from '../';
 
 describe('Button', () => {
+  test('renders correctly', () => {
+    const button = create(<Button modifier="primary">Primary Button</Button>);
+
+    expect(button).toMatchSnapshot();
+  });
+
   test('renders as fullWidth', () => {
     const button = create(
       <Button modifier="primary" fullWidth>
@@ -33,28 +39,6 @@ describe('Button', () => {
     expect(button).toMatchSnapshot();
   });
 
-  describe('MockState', () => {
-    test('renders with focus', () => {
-      const button = create(
-        <Button modifier="primary" mockState="focus">
-          Focus Primary Button
-        </Button>
-      );
-
-      expect(button).toMatchSnapshot();
-    });
-
-    test('renders as active', () => {
-      const button = create(
-        <Button modifier="primary" mockState="active">
-          Active Primary Button
-        </Button>
-      );
-
-      expect(button).toMatchSnapshot();
-    });
-  });
-
   describe('Modifiers', () => {
     test('renders as primary', () => {
       const button = create(<Button modifier="primary">Primary Button</Button>);
@@ -62,28 +46,82 @@ describe('Button', () => {
       expect(button).toMatchSnapshot();
     });
 
+    test('renders as highlight', () => {
+      const button = create(
+        <Button modifier="highlight">Secondary Button</Button>
+      );
+
+      expect(button).toMatchSnapshot();
+    });
+
     test('renders as secondary', () => {
       const button = create(
-        <Button modifier="secondary">Secondary Button</Button>
+        <Button modifier="secondary">Optional Button</Button>
       );
 
       expect(button).toMatchSnapshot();
     });
 
-    test('renders as optional', () => {
-      const button = create(
-        <Button modifier="optional">Optional Button</Button>
-      );
+    describe('Modifiers MockStates', () => {
+      test('Primary renders with hover', () => {
+        const button = create(
+          <Button modifier="primary" mockState="hover">
+            Hover Primary Button
+          </Button>
+        );
 
-      expect(button).toMatchSnapshot();
-    });
+        expect(button).toMatchSnapshot();
+      });
 
-    test('renders as alternate', () => {
-      const button = create(
-        <Button modifier="alternate">Alternate Button</Button>
-      );
+      test('Primary renders as active', () => {
+        const button = create(
+          <Button modifier="primary" mockState="active">
+            Active Primary Button
+          </Button>
+        );
 
-      expect(button).toMatchSnapshot();
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Highlight renders with hover', () => {
+        const button = create(
+          <Button modifier="highlight" mockState="hover">
+            Hover Primary Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Highlight renders as active', () => {
+        const button = create(
+          <Button modifier="highlight" mockState="active">
+            Active Primary Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Secondary renders with hover', () => {
+        const button = create(
+          <Button modifier="secondary" mockState="hover">
+            Hover Primary Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Secondary renders as active', () => {
+        const button = create(
+          <Button modifier="secondary" mockState="active">
+            Active Primary Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
     });
   });
 });
