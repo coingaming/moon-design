@@ -3,10 +3,10 @@ import * as React from 'react';
 import { CSSObject, jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { border, typography, base } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { spacing, disabled } from '@heathmont/sportsbet-utils';
 
-import { buttonDisabled } from './mixins';
 import { buttonModifiers, ButtonModifiers } from './modifiers';
+import { outlineModifiers } from './outline';
 import { buttonMockStateClass, ButtonMockState } from './states';
 
 type ButtonProps = {
@@ -16,8 +16,8 @@ type ButtonProps = {
   disabled?: boolean;
   mockState?: ButtonMockState;
   fullWidth?: boolean;
-  spaced?: boolean;
-  disableUppercase?: boolean;
+  uppercase?: boolean;
+  outline?: boolean;
   onClick?: () => void;
 };
 
@@ -39,12 +39,7 @@ const button: CSSObject = {
   borderWidth: border.width,
   borderColor: 'transparent',
   borderRadius: border.radius.small,
-  ...buttonDisabled('solid'),
-};
-
-const buttonSpaced: CSSObject = {
-  marginBottom: spacing(),
-  '&:not(:last-child)': { marginRight: spacing() },
+  ...disabled(),
 };
 
 /**
@@ -55,8 +50,9 @@ const Button: React.FC<ButtonProps> = ({
   href,
   mockState,
   modifier,
-  spaced,
   fullWidth,
+  uppercase,
+  outline,
   ...props
 }) => {
   const ButtonElement = !href ? 'button' : 'a';
@@ -74,8 +70,9 @@ const Button: React.FC<ButtonProps> = ({
     href,
     css: [
       button,
-      spaced && buttonSpaced,
       modifier && buttonModifiers[modifier],
+      outline && outlineModifiers[modifier],
+      uppercase && { textTransform: 'uppercase' },
       fullWidth && { width: '100%' },
     ],
     className: mockState && buttonMockStateClass(mockState),

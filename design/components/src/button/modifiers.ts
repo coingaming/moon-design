@@ -1,9 +1,9 @@
 import { CSSObject } from '@emotion/core';
-import { colors, typography } from '@heathmont/sportsbet-tokens';
-import { buttonShadow, buttonDisabled } from './mixins';
-import { buttonActive, buttonFocus } from './states';
+import { colors } from '@heathmont/sportsbet-tokens';
+import { buttonActive, buttonHover } from './states';
+import { spacing } from '@heathmont/sportsbet-utils';
 
-type ButtonModifiers = 'primary' | 'secondary' | 'optional' | 'alternate';
+type ButtonModifiers = 'primary' | 'highlight' | 'secondary';
 
 /**
  * buttonModifiers
@@ -16,58 +16,51 @@ type ButtonModifiers = 'primary' | 'secondary' | 'optional' | 'alternate';
 const primary: CSSObject = {
   color: colors.neutral[10],
   backgroundColor: colors.brand,
-  ...buttonActive({
-    backgroundColor: colors.highlight,
+  ...buttonHover({
+    backgroundColor: colors.alternate.brand[10],
   }),
-  ...buttonFocus({
-    ...buttonShadow(colors.brand),
+  ...buttonActive({
+    backgroundColor: colors.alternate.brand[20],
+  }),
+};
+
+const highlight = {
+  color: colors.neutral[10],
+  backgroundColor: colors.highlight,
+  ...buttonHover({
+    backgroundColor: colors.alternate.highlight[10],
+  }),
+  ...buttonActive({
+    backgroundColor: colors.alternate.highlight[20],
   }),
 };
 
 const secondary: CSSObject = {
   color: colors.neutral[10],
-  backgroundColor: 'transparent',
-  borderColor: colors.brand,
+  backgroundColor: colors.secondary,
+  ...buttonHover({
+    backgroundColor: colors.alternate.secondary[10],
+  }),
   ...buttonActive({
-    color: colors.highlight,
-    backgroundColor: 'transparent',
-    borderColor: colors.highlight,
+    backgroundColor: colors.alternate.secondary[20],
   }),
-  ...buttonFocus({
-    ...buttonShadow(colors.brand),
-  }),
-  ...buttonDisabled('border'),
 };
 
-const optional: CSSObject = {
-  fontWeight: typography.fontWeight.normal,
-  backgroundColor: colors.neutral[50],
-  color: colors.neutral[20],
-  ...buttonActive({
-    color: colors.highlight,
-  }),
-  ...buttonFocus({
-    ...buttonShadow(colors.brand),
-  }),
-  ...buttonDisabled('border'),
-};
-
-const alternate: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.alternate.brand,
-  ...buttonActive({
-    backgroundColor: colors.alternate.highlight,
-  }),
-  ...buttonFocus({
-    ...buttonShadow(colors.alternate.brand),
-  }),
-};
+/**
+ * buttonShadow
+ *
+ * Removes user-agent `:focus` styles and generates a box-shadow using the
+ * color provided.
+ */
+export const buttonShadow: (color: string) => CSSObject = color => ({
+  outline: 'none',
+  boxShadow: `0 0 ${spacing('default', 'px')} ${color}`,
+});
 
 const buttonModifiers = {
   primary,
+  highlight,
   secondary,
-  optional,
-  alternate,
 };
 
 export { buttonModifiers, ButtonModifiers };
