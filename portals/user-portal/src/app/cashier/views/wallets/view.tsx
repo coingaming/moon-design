@@ -63,10 +63,9 @@ export const WalletsView = () => {
       <LoadMore>
         <Button
           onClick={() => {
-            console.log('loadMore');
             loadMore([...items, ...transactionItems]);
           }}
-          modifier="optional"
+          modifier="secondary"
         >
           Load more
         </Button>
