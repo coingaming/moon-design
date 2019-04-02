@@ -10,7 +10,7 @@ import { CacheProvider, Global } from '@emotion/core';
 
 import { styles } from '@heathmont/sportsbet-global';
 
-import { ServerSideApp } from '../app';
+import { ServerSideApp } from '../app/app';
 import { template } from './template';
 
 dotenv.config({ allowEmptyValues: true });
