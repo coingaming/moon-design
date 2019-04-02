@@ -81,7 +81,7 @@ export const InActiveTransactionDetailItem: React.FC<{}> = () => {
               <Text>126.5€</Text>
             </BalanceAfter>
             <ResumeTransaction>
-              <Button modifier="optional" fullWidth>
+              <Button modifier="secondary" fullWidth>
                 Resume Transaction
               </Button>
             </ResumeTransaction>

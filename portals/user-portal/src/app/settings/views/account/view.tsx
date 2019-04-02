@@ -38,7 +38,7 @@ export const AccountView = () => (
             <FormItem>
               <TextInput label="E-mail address" type="email" required />
             </FormItem>
-            <Button modifier="alternate">Resend the Email</Button>
+            <Button modifier="highlight">Resend the Email</Button>
           </Form>
           <SettingsText>
             We've sent a message to you with a link to activate your account.
@@ -93,7 +93,7 @@ export const AccountView = () => (
           <FormItem>
             <TextInput label="Repeat password" type="password" />
           </FormItem>
-          <Button modifier="primary">Save Changes</Button>
+          <Button modifier="secondary">Save Changes</Button>
         </Form>
       </SettingsBlock>
     </SettingsSection>
@@ -110,7 +110,7 @@ export const AccountView = () => (
         <Form maxWidth="25rem">
           <FormItem>
             <TextInput label="Type code" type="text" required />
-            <Button modifier="optional">Submit Code</Button>
+            <Button modifier="secondary">Submit Code</Button>
           </FormItem>
         </Form>
       </SettingsBlock>
@@ -135,5 +135,8 @@ export const AccountView = () => (
         </SettingsText>
       </SettingsBlock>
     </SettingsSection>
+    <Button modifier="secondary" outline>
+      Delete Account
+    </Button>
   </CashierLayout>
 );
