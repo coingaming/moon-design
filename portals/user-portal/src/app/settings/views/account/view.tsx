@@ -12,6 +12,9 @@ import {
   SettingsSection,
   SettingsBlock,
   BlockContent,
+  Details,
+  DetailRow,
+  DetailColumn,
 } from '../../components/settings-block';
 import {
   CashierLayout,
@@ -50,30 +53,38 @@ export const AccountView = () => (
         </BlockContent>
       </SettingsBlock>
       <SettingsBlock>
-        <Form maxWidth="25rem">
-          <FormItem>
-            <TextInput label="Username" type="text" required />
-          </FormItem>
-          <FormItem>
-            <TextInput label="Phone number" type="tel" />
-          </FormItem>
-          <FormItem>
-            <TextInput label="City" type="text" />
-          </FormItem>
-          <FormItem>
-            <TextInput label="Zip code" type="number" />
-          </FormItem>
-          <FormItem>
-            <TextInput label="Date of birth" type="date" required />
-          </FormItem>
-          <FormItem>
-            <TextInput label="Address" type="text" />
-          </FormItem>
-          <FormItem>
-            <TextInput label="Country" type="text" />
-          </FormItem>
-          <Button modifier="primary">Save Changes</Button>
-        </Form>
+        <Details>
+          <DetailRow>
+            <DetailColumn>
+              <FormItem>
+                <TextInput label="Username" type="text" required />
+              </FormItem>
+              <FormItem>
+                <TextInput label="Phone number" type="tel" />
+              </FormItem>
+              <FormItem>
+                <TextInput label="City" type="text" />
+              </FormItem>
+              <FormItem>
+                <TextInput label="Zip code" type="number" />
+              </FormItem>
+            </DetailColumn>
+            <DetailColumn>
+              <FormItem>
+                <TextInput label="Date of birth" type="date" required />
+              </FormItem>
+              <FormItem>
+                <TextInput label="Address" type="text" />
+              </FormItem>
+              <FormItem>
+                <TextInput label="Country" type="text" />
+              </FormItem>
+            </DetailColumn>
+          </DetailRow>
+          <DetailRow>
+            <Button modifier="primary">Save Changes</Button>
+          </DetailRow>
+        </Details>
       </SettingsBlock>
     </SettingsSection>
     <SettingsSection>
@@ -114,7 +125,6 @@ export const AccountView = () => (
           </FormItem>
         </Form>
       </SettingsBlock>
-
       <FormItem>
         <TextInput label="Text" type="text" required />
       </FormItem>
