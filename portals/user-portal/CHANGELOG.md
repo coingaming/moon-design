@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
+
+
+### Bug Fixes
+
+* **user portal:** button updated for new changes in design system ([87d0401](https://github.com/coingaming/sportsbet-design/commit/87d0401))
+* **wallets:** fix button style ([76881a8](https://github.com/coingaming/sportsbet-design/commit/76881a8))
+
+
+### Features
+
+* **user-portal:** add exports ([3c00ae0](https://github.com/coingaming/sportsbet-design/commit/3c00ae0))
+
+
+
+
+
 # [0.22.0](https://github.com/coingaming/sportsbet-design/compare/v0.21.1...v0.22.0) (2019-03-29)
 
 

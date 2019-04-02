@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
+
+
+### Features
+
+* **button:** introduce outline prop ([80159b4](https://github.com/coingaming/sportsbet-design/commit/80159b4))
+* **button:** introduce uppercase prop ([24876fe](https://github.com/coingaming/sportsbet-design/commit/24876fe))
+* introduce disabled util, opacity token & test fixes ([a26f9c9](https://github.com/coingaming/sportsbet-design/commit/a26f9c9))
+* **button:** button updates regarging to design ([67755e1](https://github.com/coingaming/sportsbet-design/commit/67755e1))
+* **button:** remove spacing prop ([fdf1f8a](https://github.com/coingaming/sportsbet-design/commit/fdf1f8a))
+
+
+
+
+
 # [0.22.0](https://github.com/coingaming/sportsbet-design/compare/v0.21.1...v0.22.0) (2019-03-29)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
