@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
+
+
+### Features
+
+* introduce disabled util, opacity token & test fixes ([a26f9c9](https://github.com/coingaming/sportsbet-design/commit/a26f9c9))
+
+
+
+
+
 # [0.22.0](https://github.com/coingaming/sportsbet-design/compare/v0.21.1...v0.22.0) (2019-03-29)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
