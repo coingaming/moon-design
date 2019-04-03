@@ -1,12 +1,11 @@
 /** @jsx jsx */ jsx;
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
-import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 
 import { mq, spacing, container } from '@heathmont/sportsbet-utils';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
-import { Heading } from '@heathmont/sportsbet-components';
+import { Heading } from '@heathmont/sportsbet-components/lib/heading';
 
 const Background = styled.div([
   {
