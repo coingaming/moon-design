@@ -17,7 +17,7 @@ export const SettingsSection = styled.section({
   borderWidth: border.width,
   borderColor: colors.neutral[50],
   backgroundColor: colors.neutral[80],
-  ':last-child': {
+  '&:last-child': {
     borderBottom: 'none',
   },
 });
@@ -42,6 +42,21 @@ export const SettingsBlock = styled.div<{ highlight?: boolean }>(
     },
   ]
 );
+
+export const BlockColumn = styled.div<{}>(() => [
+  {
+    minHeight: rem(96),
+    alignItems: 'flex-start',
+    borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
+    paddingLeft: spacing('large'),
+    paddingRight: spacing('large'),
+    paddingTop: spacing('medium'),
+    paddingBottom: spacing('medium'),
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
+]);
 
 export const BlockContent = styled.div({
   display: 'flex',
