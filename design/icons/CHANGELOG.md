@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/coingaming/sportsbet-design/compare/v0.23.0...v0.24.0) (2019-04-08)
+
+
+### Features
+
+* **icons:** add large icons assets ([3488a5c](https://github.com/coingaming/sportsbet-design/commit/3488a5c))
+* **icons:** circle fill color implementation ([a2b3658](https://github.com/coingaming/sportsbet-design/commit/a2b3658))
+
+
+
+
+
 # [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
