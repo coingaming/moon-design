@@ -20,7 +20,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export const IconSettings = styled(Svg)(
-  ({ backgroundColor }: { backgroundColor?: string }) => [
+  ({
+    backgroundColor,
+    circleColor,
+  }: {
+    backgroundColor?: string;
+    circleColor?: string;
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -29,6 +35,11 @@ export const IconSettings = styled(Svg)(
       padding: backgroundColor ? '0.25em' : 0,
       overflow: 'visible',
       borderRadius: '50%',
+    },
+    circleColor && {
+      circle: {
+        fill: circleColor,
+      },
     },
   ]
 );

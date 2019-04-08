@@ -13,7 +13,13 @@ function template(
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 
     export const ${prefix(componentName)} = styled(Svg)(
-      ({ backgroundColor }: { backgroundColor?: string }) => [
+      ({
+        backgroundColor,
+        circleColor,
+      }: {
+        backgroundColor?: string;
+        circleColor?: string;
+      }) => [
         {
           verticalAlign: 'middle',
         },
@@ -22,6 +28,11 @@ function template(
           padding: backgroundColor ? '0.25em' : 0,
           overflow: 'visible',
           borderRadius: '50%',
+        },
+        circleColor && {
+          circle: {
+            fill: circleColor,
+          },
         },
       ]
     );
