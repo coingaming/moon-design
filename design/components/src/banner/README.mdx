@@ -10,6 +10,8 @@ import {
   Button,
   Heading,
 } from '@heathmont/sportsbet-components';
+import { IconLargeMessage } from '@heathmont/sportsbet-icons';
+import { colors } from '@heathmont/sportsbet-tokens';
 import { PropsTable } from 'docs';
 
 # Banner
@@ -18,8 +20,11 @@ Banners are generic containers for displaying important information to the user.
 
 ```jsx react-live
 <Banner maxWidth="400px">
-  Something
   <Heading size="bravo" element="h2">
+    <IconLargeMessage
+      circleColor={colors.brand}
+      style={{ fontSize: '3rem', marginRight: '1rem' }}
+    />
     Need help?
   </Heading>
   <p>
