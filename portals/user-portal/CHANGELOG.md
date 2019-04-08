@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/coingaming/sportsbet-design/compare/v0.23.0...v0.24.0) (2019-04-08)
+
+
+### Bug Fixes
+
+* **user-portal:** images component export ([e9ec462](https://github.com/coingaming/sportsbet-design/commit/e9ec462))
+
+
+### Features
+
+* **deposit:** initial deposit view ([063847a](https://github.com/coingaming/sportsbet-design/commit/063847a))
+* **deposit:** introduce grid for deposit screen ([14e33dc](https://github.com/coingaming/sportsbet-design/commit/14e33dc))
+* **user-portal:** add payment methods assets ([190163b](https://github.com/coingaming/sportsbet-design/commit/190163b))
+* **user-portal:** image component ([7f2fb00](https://github.com/coingaming/sportsbet-design/commit/7f2fb00))
+
+
+
+
+
 # [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
 
 
