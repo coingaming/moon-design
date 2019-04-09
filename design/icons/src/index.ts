@@ -28,6 +28,7 @@ export { IconProfile } from './svg/IconProfile';
 export { IconEuro } from './svg/IconEuro';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconSearch } from './svg/IconSearch';
+export { IconSportbetLogoSmallWhite } from './svg/IconSportbetLogoSmallWhite';
 export { IconStats } from './svg/IconStats';
 export { IconSettings } from './svg/IconSettings';
 export { IconSuccess } from './svg/IconSuccess';
