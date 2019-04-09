@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/coingaming/sportsbet-design/compare/v0.24.0...v0.25.0) (2019-04-09)
+
+
+### Features
+
+* **deposit:** deposit view ([07cccbc](https://github.com/coingaming/sportsbet-design/commit/07cccbc))
+
+
+
+
+
 # [0.24.0](https://github.com/coingaming/sportsbet-design/compare/v0.23.0...v0.24.0) (2019-04-08)
 
 
