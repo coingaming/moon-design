@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/coingaming/sportsbet-design/compare/v0.23.0...v0.24.0) (2019-04-08)
+
+
+### Bug Fixes
+
+* **tokens:** fix neutral 70 color ([3c9ff62](https://github.com/coingaming/sportsbet-design/commit/3c9ff62))
+
+
+### Features
+
+* **icons:** circle fill color implementation ([a2b3658](https://github.com/coingaming/sportsbet-design/commit/a2b3658))
+
+
+
+
+
 # [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
 
 
