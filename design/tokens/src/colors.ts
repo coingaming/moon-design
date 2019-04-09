@@ -4,6 +4,7 @@ type Colors = {
   secondary: string;
   text: string;
   error: string;
+  warning: string;
   alternate: {
     brand: {
       [key: number]: string;
@@ -26,6 +27,7 @@ const colors: Colors = {
   secondary: '#8697A2',
   text: '#ffffff',
   error: '#ff4e64',
+  warning: '#FFD600',
   alternate: {
     brand: {
       10: '#0BC15A',

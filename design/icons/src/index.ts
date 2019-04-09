@@ -13,6 +13,7 @@ export { IconChevronUp } from './svg/IconChevronUp';
 export { IconChevronUpDown } from './svg/IconChevronUpDown';
 export { IconCircle } from './svg/IconCircle';
 export { IconClose } from './svg/IconClose';
+export { IconEdit } from './svg/IconEdit';
 export { IconFilter } from './svg/IconFilter';
 export { IconFreebet } from './svg/IconFreebet';
 export { IconHome } from './svg/IconHome';
