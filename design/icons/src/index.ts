@@ -1,3 +1,4 @@
+export { IconAdd } from './svg/IconAdd';
 export { IconArrowTop } from './svg/IconArrowTop';
 export { IconArrowRight } from './svg/IconArrowRight';
 export { IconArrowBottom } from './svg/IconArrowBottom';
