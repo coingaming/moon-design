@@ -66,5 +66,6 @@ export const AmountBlock = styled.div({
 export const HeadingBlock = styled.div({
   width: '100%',
   display: 'flex',
+  marginTop: spacing(),
   justifyContent: 'space-between',
 });
