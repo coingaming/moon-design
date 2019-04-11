@@ -17,6 +17,7 @@ export { IconClose } from './svg/IconClose';
 export { IconEdit } from './svg/IconEdit';
 export { IconFilter } from './svg/IconFilter';
 export { IconFreebet } from './svg/IconFreebet';
+export { IconHamburger } from './svg/IconHamburger';
 export { IconHome } from './svg/IconHome';
 export { IconLargeCalc } from './svg/IconLargeCalc';
 export { IconLargeCard } from './svg/IconLargeCard';
