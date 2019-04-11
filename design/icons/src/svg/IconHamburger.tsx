@@ -3,20 +3,20 @@ import styled from '@emotion/styled';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 128 512"
     width="1em"
     height="1em"
+    viewBox="0 0 16 15"
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <path
-      fill="currentColor"
-      d="M64 208c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48 21.5-48 48-48zM16 104c0 26.5 21.5 48 48 48s48-21.5 48-48-21.5-48-48-48-48 21.5-48 48zm0 304c0 26.5 21.5 48 48 48s48-21.5 48-48-21.5-48-48-48-48 21.5-48 48z"
-    />
+    <rect y={0.094} width={16} height={2} rx={1} fill="currentColor" />
+    <rect x={4} y={6.094} width={12} height={2} rx={1} fill="currentColor" />
+    <rect x={7} y={12.094} width={9} height={2} rx={1} fill="currentColor" />
   </svg>
 );
 
-export const IconEdit = styled(Svg)(
+export const IconHamburger = styled(Svg)(
   ({
     backgroundColor,
     circleColor,
