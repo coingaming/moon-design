@@ -94,7 +94,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 
 .emotion-3 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-4 {
@@ -299,7 +299,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 
 .emotion-3 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-0 {
@@ -673,7 +673,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 exports[`TextInput renders with label above \`date\` input by default 1`] = `
 .emotion-0 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-1 {
@@ -735,7 +735,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
 exports[`TextInput renders with label above input when defined 1`] = `
 .emotion-0 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-1 {
