@@ -524,7 +524,7 @@ exports[`Select renders with label above the input 1`] = `
 
 .emotion-0 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 <label>
@@ -634,7 +634,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
 
 .emotion-0 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width:31.25em) {
@@ -736,7 +736,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
 
 .emotion-0 {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width:31.25em) {
