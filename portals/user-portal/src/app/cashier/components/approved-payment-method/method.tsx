@@ -59,7 +59,6 @@ export const ApprovedMethod = styled.div<{ active?: boolean }>(({ active }) => [
 ]);
 
 export const AmountBlock = styled.div({
-  paddingBottom: spacing('medium'),
   width: '100%',
 });
 
