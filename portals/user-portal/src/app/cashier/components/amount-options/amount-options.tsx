@@ -8,6 +8,7 @@ export const OptionsBlock = styled.div({
   padding: spacing(),
   width: '100%',
   position: 'relative',
+  marginTop: spacing(),
 });
 
 export const MessageBlock = styled.div({
