@@ -20,6 +20,7 @@ type IconProps = {
   backgroundColor?: string;
   circleColor?: string;
 };
+
 export const IconHamburger = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor }) => [
     {
