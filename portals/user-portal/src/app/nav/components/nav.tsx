@@ -29,7 +29,7 @@ const Nav = styled.nav(() => [
     position: 'sticky',
     top: 0,
     height: rem(56),
-    overflowY: 'hidden',
+    // overflowY: 'hidden',
     zIndex: 2,
     backgroundColor: colors.neutral[90],
   },
