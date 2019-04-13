@@ -1,18 +1,11 @@
-// import * as React from 'react';
-// import { Link } from '@heathmont/sportsbet-components/lib/link/';
-// import { Button } from '@heathmont/sportsbet-components/lib/button';
-// import { Navigation } from '../components/nav';
-// import { colors } from '@heathmont/sportsbet-tokens';
-// import {
-//   HamburgerMenu,
-// import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
-// import { Search } from '../components/search/search';
-
-// } from '@heathmont/sportsbet-user-portal-components';
-
-// import { CashierLayout } from '../../../../../user-portal-components/cashier/components/layout';
-// import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
-// import styled from '@emotion/styled';
+import * as React from 'react';
+import { Link } from '@heathmont/sportsbet-components/lib/link/';
+import { Button } from '@heathmont/sportsbet-components/lib/button';
+import { Navigation } from '../components/nav';
+import { colors } from '@heathmont/sportsbet-tokens';
+import { HamburgerMenu } from '../components/hamburger-menu';
+import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
+import { Search } from '../components/search/search';
 
 // const NavLayout = styled.div({
 //   display: 'flex',
@@ -43,3 +36,21 @@
 //     </CashierLayout>
 //   </Navigation>
 // );
+
+export const Nav = () => (
+  <Navigation>
+    <HamburgerMenu />
+    <IconCaptionLogo />
+    <Search
+      placeholder="Search for a match, event, player etc ..."
+      onSubmit={e => {
+        e.preventDefault();
+        console.log('submit');
+      }}
+    />
+    <Link secondary href="#">
+      Sign in
+    </Link>
+    <Button modifier="primary">Register</Button>
+  </Navigation>
+);
