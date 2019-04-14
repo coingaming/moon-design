@@ -6,6 +6,7 @@ import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { IconHamburger, IconArrowLeft } from '@heathmont/sportsbet-icons';
+import { HamburgerDetails } from './hamburger/hamburger-details';
 
 const StyledHamburgerIcon: CSSObject = {
   color: colors.neutral[20],
@@ -58,9 +59,7 @@ export const HamburgerMenu = () => {
         )}
       </Summary>
       <DetailsDialog>
-        <p className="mr-6 pr-3">
-          But you can click anywhere to dismiss without JS.
-        </p>
+        <HamburgerDetails />
       </DetailsDialog>
     </Details>
   );
