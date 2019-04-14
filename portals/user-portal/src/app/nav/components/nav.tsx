@@ -28,7 +28,7 @@ const Nav = styled.nav(() => [
     width: '100%',
     position: 'sticky',
     top: 0,
-    height: rem(56),
+    height: rem(112),
     // overflowY: 'hidden',
     zIndex: 2,
     backgroundColor: colors.neutral[90],
@@ -37,7 +37,7 @@ const Nav = styled.nav(() => [
 
 const tabList: CSSObject = {
   display: 'flex',
-  flexDirection: 'row',
+  flexDirection: 'column',
   whiteSpace: 'nowrap',
   alignItems: 'center',
   marginTop: 0,
@@ -49,9 +49,14 @@ const tabList: CSSObject = {
   },
 };
 
+const nav: CSSObject = {
+  position: 'sticky',
+  top: 0,
+};
+
 const Navigation: React.FC = ({ children }) => {
   return (
-    <Nav>
+    <Nav css={nav}>
       <a href={`#${navSkipLinkID}`} css={skipLink}>
         Skip to content
       </a>

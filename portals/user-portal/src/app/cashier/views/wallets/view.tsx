@@ -38,7 +38,7 @@ export const WalletsView = () => {
     <React.Fragment>
       <Nav />
       <CashierLayout>
-        <CashierNav />
+        {/* <CashierNav /> */}
         <CashierHeading>Wallet</CashierHeading>
         <HeadingDescription>
           Manage your profile, password and more.
