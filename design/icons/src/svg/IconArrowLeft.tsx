@@ -3,16 +3,17 @@ import styled from '@emotion/styled';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
+    viewBox="0 0 16 16"
     width="1em"
     height="1em"
-    viewBox="0 0 20 8"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="M5.08 8V4.8H20V3.2H5.08V0L0 4z"
-      fill="currentColor"
       fillRule="evenodd"
+      clipRule="evenodd"
+      d="M13.99 6.99H4.41L7.7 3.7a1.003 1.003 0 0 0-1.42-1.42l-5 5a1.014 1.014 0 0 0 0 1.42l5 5a1.003 1.003 0 0 0 1.42-1.42L4.41 8.99H14c.55 0 1-.45 1-1s-.46-1-1.01-1z"
+      fill="currentColor"
     />
   </svg>
 );

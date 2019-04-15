@@ -1,7 +1,7 @@
 export { IconAdd } from './svg/IconAdd';
-export { IconArrowTop } from './svg/IconArrowTop';
+export { IconArrowUp } from './svg/IconArrowUp';
 export { IconArrowRight } from './svg/IconArrowRight';
-export { IconArrowBottom } from './svg/IconArrowBottom';
+export { IconArrowDown } from './svg/IconArrowDown';
 export { IconArrowLeft } from './svg/IconArrowLeft';
 export { IconArrowLeftRight } from './svg/IconArrowLeftRight';
 export { IconArrowUpDown } from './svg/IconArrowUpDown';
