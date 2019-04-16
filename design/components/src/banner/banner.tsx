@@ -25,7 +25,7 @@ const StyledBanner = styled.div<BannerProps>(({ horizontal, maxWidth }) => [
     alignContent: horizontal ? 'stretch' : 'normal',
     alignItems: horizontal ? 'center' : 'flex-start',
     fontFamily: 'inherit', // Prevents links rendering as system fonts.
-    backgroundColor: colors.neutral[60],
+    backgroundColor: colors.neutral[70],
     borderRadius: horizontal ? border.radius.small : border.radius.default,
   },
   maxWidth && {
