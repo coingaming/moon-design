@@ -8,12 +8,10 @@ import {
   SettingsBlock,
   BlockContent,
   Active,
-} from '../../components/settings-block';
-import {
   CashierLayout,
   CashierHeading,
   HeadingDescription,
-} from '../../../cashier/components/layout';
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const NotificationsView = () => (
   <CashierLayout>
