@@ -14,7 +14,7 @@ export const LayoutHeader = styled.header({
 });
 
 export const LayoutMain = styled.main({
-  // ...rhythm(),
+  maxWidth: '48rem',
   [mq(breakpoints.medium)]: {
     gridArea: 'main',
   },
