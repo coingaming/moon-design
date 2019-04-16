@@ -1,10 +1,12 @@
 {
-  "private": true,
   "name": "@heathmont/sportsbet-user-portal",
-  "version": "0.25.0",
+  "version": "0.25.1",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/coingaming/sportsbet-design",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coingaming/sportsbet-design.git"
+  },
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
@@ -59,5 +61,10 @@
     "webpack-cli": "3.2.3",
     "webpack-dev-server": "3.1.14",
     "webpack-merge": "4.2.1"
-  }
+  },
+  "description": "> **Note**: this package is temporary to ease user portal development alongside the Design System. It will be moved from the repo upon completion.",
+  "bugs": {
+    "url": "https://github.com/coingaming/sportsbet-design/issues"
+  },
+  "homepage": "https://github.com/coingaming/sportsbet-design#readme"
 }
