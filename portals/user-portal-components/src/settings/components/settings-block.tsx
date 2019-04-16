@@ -70,11 +70,11 @@ export const Active = styled.div({
   borderRadius: border.radius.default,
 });
 
-export const Details = styled.div({
-  display: 'flex',
-  flexDirection: 'column',
-  paddingBottom: spacing('large'),
-});
+// export const Details = styled.div({
+//   display: 'flex',
+//   flexDirection: 'column',
+//   paddingBottom: spacing('large'),
+// });
 export const DetailRow = styled.div({
   [mq(breakpoints.medium)]: {
     display: 'flex',
@@ -83,11 +83,11 @@ export const DetailRow = styled.div({
   },
 });
 
-export const DetailColumn = styled.div({
-  [mq(breakpoints.medium)]: {
-    width: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    marginRight: spacing(),
-  },
-});
+// export const DetailColumn = styled.div({
+//   [mq(breakpoints.medium)]: {
+//     width: '100%',
+//     display: 'flex',
+//     flexDirection: 'column',
+//     marginRight: spacing(),
+//   },
+// });
