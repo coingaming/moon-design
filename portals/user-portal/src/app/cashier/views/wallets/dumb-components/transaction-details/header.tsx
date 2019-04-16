@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { TransactionDetailsHeader } from '../../../../components/transaction-details/header';
 import {
+  TransactionDetailsHeader,
   PaymentId,
   Status,
   DateSummary,
   Currency,
   Amount,
-} from '../../../../components/transaction-details/summary-items';
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const TransactionsHeader: React.FC<{}> = () => {
   return (

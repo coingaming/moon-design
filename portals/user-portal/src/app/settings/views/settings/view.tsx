@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import rem from 'polished/lib/helpers/rem';
 import { Heading, Select, Checkbox } from '@heathmont/sportsbet-components';
 import { SettingsNav } from './dumb-components/header';
 import {
@@ -7,13 +8,10 @@ import {
   SettingsSection,
   BlockContent,
   SettingsText,
-} from '../../components/settings-block';
-import {
   CashierLayout,
   CashierHeading,
   HeadingDescription,
-} from '../../../cashier/components/layout';
-import rem from 'polished/lib/helpers/rem';
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const SettingsView = () => (
   <CashierLayout>
