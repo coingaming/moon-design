@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import { jsx } from '@emotion/core';
 import * as React from 'react';
 import { Button } from '@heathmont/sportsbet-components';
@@ -8,17 +8,11 @@ import {
   Details,
   DetailColumns,
   DetailColumn,
-} from '../../../../components/transaction-details/components';
-
-import {
   PaymentId,
   Status,
   DateSummary,
   Currency,
   Amount,
-} from '../../../../components/transaction-details/summary-items';
-
-import {
   DateDetails,
   Title,
   CurrencyDetails,
@@ -30,8 +24,8 @@ import {
   BalanceAfter,
   ResumeTransaction,
   Text,
-} from '../../../../components/transaction-details/detail-items';
-import { colors } from '@heathmont/sportsbet-tokens';
+} from '@heathmont/sportsbet-user-portal-components';
+jsx;
 
 export const InActiveTransactionDetailItem: React.FC<{}> = () => {
   return (
