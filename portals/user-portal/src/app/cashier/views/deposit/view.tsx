@@ -40,6 +40,11 @@ import {
   MessageIcon,
 } from '../../components/amount-options/amount-options';
 import { PaymentMethodImage } from '../../..';
+import {
+  PaymentListBlock,
+  PaymentListItem,
+  PaymentCheck,
+} from '../../components/payment-list/payment-list';
 
 export const DepositView = () => {
   return (
@@ -55,6 +60,78 @@ export const DepositView = () => {
               <AmountBlock>
                 <TextInput label="Enter amount" labelBlock />
               </AmountBlock>
+              <HeadingBlock>Choose other payment method</HeadingBlock>
+              <PaymentListBlock>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem active>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                  <PaymentCheck>
+                    <IconSuccess
+                      color={colors.neutral[10]}
+                      backgroundColor={colors.brand}
+                    />
+                  </PaymentCheck>
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+                <PaymentListItem>
+                  <PaymentMethodImage
+                    src="/assets/img/payment-logos/Ecopayz.png"
+                    alt="Ecopayz"
+                    size="large"
+                  />
+                </PaymentListItem>
+              </PaymentListBlock>
               <OptionsBlock>
                 <MessageBlock>
                   <MessageText>
