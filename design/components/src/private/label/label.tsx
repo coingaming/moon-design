@@ -31,7 +31,7 @@ type LabelProps = LabelSizing & {
 const LabelText = styled.span<LabelTextProps>(({ flex }) => [
   {
     display: 'block',
-    marginBottom: spacing('xsmall'),
+    marginBottom: spacing('small'),
   },
   flex && {
     [mq(breakpoints.small)]: {

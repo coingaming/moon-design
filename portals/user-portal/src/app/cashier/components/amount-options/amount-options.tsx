@@ -7,8 +7,8 @@ export const OptionsBlock = styled.div({
   backgroundColor: colors.neutral[70],
   padding: spacing(),
   width: '100%',
-  marginBottom: spacing(),
   position: 'relative',
+  marginTop: spacing(),
 });
 
 export const MessageBlock = styled.div({
@@ -44,7 +44,7 @@ export const AmountOption = styled.div<{ active?: boolean }>(({ active }) => [
     borderRadius: border.radius.small,
     minWidth: rem(48),
     textAlign: 'center',
-    marginBottom: spacing('small'),
+    marginTop: spacing('small'),
     '&:hover': {
       backgroundColor: colors.neutral[30],
     },
