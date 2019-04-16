@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-user-portal",
-  "version": "0.25.0",
+  "version": "0.25.1",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
   "repository": {
