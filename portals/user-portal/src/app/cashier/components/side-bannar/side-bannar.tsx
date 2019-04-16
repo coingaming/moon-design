@@ -5,5 +5,5 @@ export const BannerBlock = styled.div({
   marginBottom: spacing(),
 });
 export const BannerSection = styled.section({
-  marginTop: spacing(),
+  marginTop: spacing('medium'),
 });
