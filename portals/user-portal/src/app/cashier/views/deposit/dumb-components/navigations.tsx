@@ -1,5 +1,9 @@
 import * as React from 'react';
-import { Tab, TabItem, CloseButton } from '../../../components/tab/tab';
+import {
+  Tab,
+  TabItem,
+  CloseButton,
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const CashierNav = () => (
   <Tab>
