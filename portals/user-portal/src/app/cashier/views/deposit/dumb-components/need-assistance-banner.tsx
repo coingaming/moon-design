@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Heading, Banner } from '@heathmont/sportsbet-components';
-import { IconLargeMessage } from '../../../../../../../../design/icons/lib';
+import { IconLargeMessage } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 

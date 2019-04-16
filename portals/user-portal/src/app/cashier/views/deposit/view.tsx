@@ -2,49 +2,40 @@ import * as React from 'react';
 import { Button, TextInput, Link } from '@heathmont/sportsbet-components';
 import { IconEdit, IconSuccess, IconWarning } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { CashierLayout, CashierHeading } from '../../components/layout';
 import { CashierNav } from './dumb-components/navigations';
+import { NeedAssistanceBanner } from './dumb-components/need-assistance-banner';
 import {
+  CashierLayout,
+  CashierHeading,
   CashierGrid,
   LayoutHeader,
   LayoutMain,
   LayoutAside,
-} from '../../components/grid';
-import { NeedAssistanceBanner } from './dumb-components/need-assistance-banner';
-import {
   SettingsSection,
   SettingsBlock,
   BlockColumn,
-} from '../../../settings/components';
-import {
-  InfoName,
-  ApprovedMethod,
-  Info,
-  Logo,
-  InfoTitle,
-  ApprovedIcon,
-  EditIcon,
-  AmountBlock,
-  HeadingBlock,
-} from '../../components/approved-payment-method/method';
-import {
-  BannerSection,
-  BannerBlock,
-} from '../../components/side-bannar/side-bannar';
-import {
-  OptionsBlock,
-  MessageBlock,
-  Options,
-  AmountOption,
-  MessageText,
-  MessageIcon,
-} from '../../components/amount-options/amount-options';
-import { PaymentMethodImage } from '../../..';
-import {
-  PaymentListBlock,
-  PaymentListItem,
-  PaymentCheck,
-} from '../../components/payment-list/payment-list';
+  // InfoName,
+  // ApprovedMethod,
+  // Info,
+  // Logo,
+  // InfoTitle,
+  // ApprovedIcon,
+  // EditIcon,
+  // AmountBlock,
+  // HeadingBlock,
+  // BannerSection,
+  // BannerBlock,
+  // OptionsBlock,
+  // MessageBlock,
+  // Options,
+  // AmountOption,
+  // MessageText,
+  // MessageIcon,
+  // PaymentMethodImage,
+  // PaymentListBlock,
+  // PaymentListItem,
+  // PaymentCheck,
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const DepositView = () => {
   return (
@@ -55,7 +46,7 @@ export const DepositView = () => {
           <CashierHeading>Deposit</CashierHeading>
         </LayoutHeader>
         <LayoutMain>
-          <SettingsSection>
+          {/* <SettingsSection>
             <BlockColumn>
               <AmountBlock>
                 <TextInput label="Enter amount" labelBlock />
@@ -200,17 +191,17 @@ export const DepositView = () => {
             <SettingsBlock>
               <Button modifier="primary">Deposit</Button>
             </SettingsBlock>
-          </SettingsSection>
+          </SettingsSection> */}
         </LayoutMain>
         <LayoutAside>
-          <BannerSection>
+          {/* <BannerSection>
             <BannerBlock>
               <NeedAssistanceBanner />
             </BannerBlock>
             <BannerBlock>
               <NeedAssistanceBanner />
             </BannerBlock>
-          </BannerSection>
+          </BannerSection> */}
         </LayoutAside>
       </CashierGrid>
     </CashierLayout>

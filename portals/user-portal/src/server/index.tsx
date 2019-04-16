@@ -10,8 +10,10 @@ import { CacheProvider, Global } from '@emotion/core';
 
 import { styles } from '@heathmont/sportsbet-global';
 
-import { ServerSideApp } from '../app/app';
 import { template } from './template';
+
+import { StaticRouter } from 'react-router-dom';
+import { AppRoutes } from '../app/app';
 
 dotenv.config({ allowEmptyValues: true });
 
@@ -52,9 +54,11 @@ app.use('/assets', express.static('../../design/assets'));
 app.get('/*', (req, res) => {
   const { html, css, ids } = extractCritical(
     renderToString(
-      <CacheProvider value={cache}>
-        <ServerSideApp req={req} />
-      </CacheProvider>
+      <StaticRouter location={req.url} context={{}}>
+        <CacheProvider value={cache}>
+          <AppRoutes />
+        </CacheProvider>
+      </StaticRouter>
     )
   );
 

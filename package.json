@@ -4,7 +4,8 @@
   "scripts": {
     "commit": "git-cz",
     "build": "tsc -b",
-    "portals:build": "lerna run --scope \"@heathmont/sportsbet-*-portal\" --stream --parallel build",
+    "portals-components:build": "lerna run --scope \"@heathmont/sportsbet-*-portal-components\" --stream --parallel build",
+    "portals:build": "yarn portals-components:build && lerna run --scope \"@heathmont/sportsbet-*-portal\" --stream --parallel build",
     "clean": "rimraf {design,docs,portals}/**/{lib,dist,.cache,public}/",
     "nuke": "yarn clean && rimraf node_modules **/node_modules",
     "format": "prettier --write",

@@ -12,15 +12,11 @@ import {
   SettingsSection,
   SettingsBlock,
   BlockContent,
-  Details,
   DetailRow,
-  DetailColumn,
-} from '../../components/settings-block';
-import {
   CashierLayout,
   CashierHeading,
   HeadingDescription,
-} from '../../../cashier/components/layout';
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const AccountView = () => (
   <CashierLayout>
@@ -53,9 +49,9 @@ export const AccountView = () => (
         </BlockContent>
       </SettingsBlock>
       <SettingsBlock>
-        <Details>
-          <DetailRow>
-            <DetailColumn>
+        {/* <Details> */}
+        <DetailRow>
+          {/* <DetailColumn>
               <FormItem>
                 <TextInput label="Username" type="text" required />
               </FormItem>
@@ -79,12 +75,12 @@ export const AccountView = () => (
               <FormItem>
                 <TextInput label="Country" type="text" />
               </FormItem>
-            </DetailColumn>
-          </DetailRow>
-          <DetailRow>
-            <Button modifier="primary">Save Changes</Button>
-          </DetailRow>
-        </Details>
+            </DetailColumn> */}
+        </DetailRow>
+        <DetailRow>
+          <Button modifier="primary">Save Changes</Button>
+        </DetailRow>
+        {/* </Details> */}
       </SettingsBlock>
     </SettingsSection>
     <SettingsSection>
