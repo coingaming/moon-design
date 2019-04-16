@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { useState } from 'react';
@@ -12,17 +12,17 @@ import {
   CashierLayout,
   CashierHeading,
   HeadingDescription,
-} from '../../components/layout';
-import {
   WalletsContainer,
   WalletWrapper,
   TransactionsSection,
   LoadMore,
-} from '../../components/views/wallets';
+  AddWallet,
+  AddWalletMobile,
+} from '@heathmont/sportsbet-user-portal-components';
 import { EuroWallet } from './dumb-components/euro-wallet';
-import { AddWallet, AddWalletMobile } from '../../components/add-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
+jsx;
 
 const transactionItems = [
   <TransactionDetailItem />,

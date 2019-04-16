@@ -1,3 +1,10 @@
 {
-  "extends": "../../.config/ts/tsconfig.base.json"
+  "extends": "../../.config/ts/tsconfig.base.json",
+  "references": [
+    {
+      "path": "../user-portal-components"
+    }
+  ],
+  "include": ["src"],
+  "exclude": ["src/**/__tests__"]
 }

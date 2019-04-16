@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from 'react';
 import { NavLink } from 'react-router-dom';
 import { jsx, CSSObject } from '@emotion/core';
@@ -8,6 +8,7 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconClose } from '@heathmont/sportsbet-icons';
+jsx;
 
 const tabSkipLinkID = 'tab-skip';
 
