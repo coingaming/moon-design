@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
@@ -6,6 +6,7 @@ import styled from '@emotion/styled';
 
 import { mq, spacing, rhythm } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
+jsx;
 
 export const LayoutHeader = styled.header({
   [mq(breakpoints.medium)]: {

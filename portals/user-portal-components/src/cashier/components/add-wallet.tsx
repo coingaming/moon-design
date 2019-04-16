@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
 import styled, { CSSObject } from '@emotion/styled';
@@ -10,6 +10,7 @@ import {
   breakpoints,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
+jsx;
 
 const caption: CSSObject = {
   fontSize: rem(14),

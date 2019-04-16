@@ -3,7 +3,7 @@ import {
   Tab,
   TabItem,
   CloseButton,
-} from '../../../../cashier/components/tab/tab';
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const SettingsNav = () => (
   <Tab>
