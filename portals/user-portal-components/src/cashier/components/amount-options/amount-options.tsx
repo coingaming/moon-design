@@ -1,5 +1,5 @@
 import rem from 'polished/lib/helpers/rem';
-import styled, { CSSObject } from '@emotion/styled';
+import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 
