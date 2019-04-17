@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.28.1](https://github.com/coingaming/sportsbet-design/compare/v0.28.0...v0.28.1) (2019-04-17)
+
+
+### Bug Fixes
+
+* **account:** add form legends ([4ca8169](https://github.com/coingaming/sportsbet-design/commit/4ca8169))
+
+
+
+
+
 # [0.28.0](https://github.com/coingaming/sportsbet-design/compare/v0.27.0...v0.28.0) (2019-04-16)
 
 
