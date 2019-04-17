@@ -33,7 +33,7 @@ export const AccountView = () => (
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
-          <Form maxWidth="25rem">
+          <Form legend="Resend the Email" maxWidth="25rem">
             <FormItem>
               <TextInput label="E-mail address" type="email" required />
             </FormItem>
@@ -90,7 +90,7 @@ export const AccountView = () => (
         </Heading>
       </SettingsBlock>
       <SettingsBlock>
-        <Form maxWidth="25rem">
+        <Form legend="Enter you current password" maxWidth="25rem">
           <FormItem>
             <TextInput label="Enter you current password" type="password" />
           </FormItem>
@@ -114,7 +114,7 @@ export const AccountView = () => (
         <SettingsText>Key value: PBVWSRCIOZJG4SLUPJYVIVCC</SettingsText>
       </SettingsBlock>
       <SettingsBlock>
-        <Form maxWidth="25rem">
+        <Form legend="Type code" maxWidth="25rem">
           <FormItem>
             <TextInput label="Type code" type="text" required />
             <Button modifier="secondary">Submit Code</Button>
