@@ -97,7 +97,7 @@ exports[`Link renders as a secondary 1`] = `
   className="emotion-0"
   href="#test-path"
 >
-  I'm a link
+  I'm a secondary link
 </a>
 `;
 
