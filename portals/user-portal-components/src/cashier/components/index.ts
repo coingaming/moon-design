@@ -5,3 +5,6 @@ export * from './payment-method-images';
 export * from './tab/tab';
 export * from './transaction-details';
 export * from './views/wallets';
+export * from './btc-payment/btc-payment';
+export * from './btc-payment/grid';
+export * from './side-banner/side-banner';
