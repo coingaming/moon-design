@@ -29,7 +29,7 @@ export const BitcoinWallet = () => {
           to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
         />
         <div>
-          <Link href={'/deposit'} style={{ marginRight: spacing() }}>
+          <Link href={'/deposit-btc'} style={{ marginRight: spacing() }}>
             Deposit
           </Link>
           <Link href={'/withdraw'}>Withdraw</Link>
