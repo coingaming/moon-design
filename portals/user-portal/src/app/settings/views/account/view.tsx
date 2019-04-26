@@ -149,28 +149,28 @@ export const AccountView = () => (
         </Heading>
       </SettingsBlock>
       <SettingsBlock>
-        {/*<BlockContent>*/}
-        <Container maxWidth="25rem">
-          <Form legend="Enter you current password">
-            <FormItem>
-              <TextInput label="Enter you current password" type="password" />
-            </FormItem>
-            <FormItem>
-              <TextInput label="Enter new password" type="password" />
-            </FormItem>
-            <FormItem>
-              <TextInput label="Repeat password" type="password" />
-            </FormItem>
-            <FormItem>
-              <Container width="10rem">
-                <Button fullWidth modifier="secondary">
-                  Save Changes
-                </Button>
-              </Container>
-            </FormItem>
-          </Form>
-        </Container>
-        {/*</BlockContent>*/}
+        <BlockContent>
+          <Container maxWidth="25rem">
+            <Form legend="Enter you current password">
+              <FormItem>
+                <TextInput label="Enter you current password" type="password" />
+              </FormItem>
+              <FormItem>
+                <TextInput label="Enter new password" type="password" />
+              </FormItem>
+              <FormItem>
+                <TextInput label="Repeat password" type="password" />
+              </FormItem>
+              <FormItem>
+                <Container width="10rem">
+                  <Button fullWidth modifier="secondary">
+                    Save Changes
+                  </Button>
+                </Container>
+              </FormItem>
+            </Form>
+          </Container>
+        </BlockContent>
       </SettingsBlock>
     </SettingsSection>
     <SettingsSection>
@@ -246,7 +246,7 @@ export const AccountView = () => (
                 css={{ marginTop: '1rem' }}
                 cssMqMedium={{
                   'flex-basis': '20rem',
-                  margin: `0 ${spacing('large')} 0 0`,
+                  margin: `0 0 0 ${spacing('large')} `,
                 }}
               >
                 <FormItem>
