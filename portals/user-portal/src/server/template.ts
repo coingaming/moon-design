@@ -24,7 +24,7 @@ export const template = ({
       <style data-emotion-css="${ids.join(' ')}">${css}</style>
     </head>
     <body>
-      <div id="app">
+      <div id="app" style="overflow: hidden;">
         ${html}
       </div>
       <script src="./main.bundle.js"></script>

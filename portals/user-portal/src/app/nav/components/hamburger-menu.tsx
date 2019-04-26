@@ -4,8 +4,11 @@ import * as React from 'react';
 import { useState } from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { IconHamburger, IconArrowLeft } from '@heathmont/sportsbet-icons';
+import { mq } from '@heathmont/sportsbet-utils/lib/mq';
+import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
+
 import { HamburgerDetails } from './hamburger/hamburger-details';
 
 const StyledHamburgerIcon: CSSObject = {
@@ -13,6 +16,11 @@ const StyledHamburgerIcon: CSSObject = {
 };
 
 const Details = styled.details<{ open?: boolean }>(({ open }) => [
+  {
+    [mq(breakpoints.medium)]: {
+      display: 'none',
+    },
+  },
   {
     '&[open]': {
       summary: {
