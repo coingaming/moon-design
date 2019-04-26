@@ -17,6 +17,16 @@ describe('Link', () => {
     expect(link).toMatchSnapshot();
   });
 
+  test('renders as a secondary', () => {
+    const link = create(
+      <Link secondary href="#test-path">
+        I'm a secondary link
+      </Link>
+    );
+
+    expect(link).toMatchSnapshot();
+  });
+
   describe('renders as disabled', () => {
     test('for button elements', () => {
       const link = create(

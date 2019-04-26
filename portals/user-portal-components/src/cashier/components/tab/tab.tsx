@@ -15,8 +15,8 @@ const tabSkipLinkID = 'tab-skip';
 const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
-  position: 'sticky',
-  top: 0,
+  // position: 'sticky',
+  // top: 0,
   height: rem(56),
   // overflowX: 'scroll',
   overflowY: 'hidden',
@@ -39,6 +39,7 @@ const skipLink: CSSObject = {
 };
 
 const tabList: CSSObject = {
+  maxWidth: '100vw',
   display: 'flex',
   flexDirection: 'row',
   whiteSpace: 'nowrap',
