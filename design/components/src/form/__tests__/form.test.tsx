@@ -54,4 +54,14 @@ describe('Form', () => {
 
     expect(form).toMatchSnapshot();
   });
+
+  test('renders with custom fullWidth', () => {
+    const form = create(
+      <Form legend="Sign up" fullWidth>
+        <TestFormItems />
+      </Form>
+    );
+
+    expect(form).toMatchSnapshot();
+  });
 });
