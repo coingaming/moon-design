@@ -26,20 +26,27 @@ const skipLink: CSSObject = {
 const Nav = styled.nav(() => [
   {
     width: '100%',
-    position: 'sticky',
+    position: 'fixed',
     top: 0,
-    height: '9rem',
+    height: '12rem',
     zIndex: 2,
     backgroundColor: colors.neutral[90],
+    [mq(breakpoints.large)]: {
+      height: '10rem',
+    },
   },
 ]);
 
-const tabList: CSSObject = {
-  display: 'flex',
-  flexDirection: 'column',
-  whiteSpace: 'nowrap',
-  alignItems: 'center',
-  justifyContent: 'space-between',
+const navGrid: CSSObject = {
+  display: 'grid',
+  gridTemplateRows: `${rem(80)} auto auto`,
+  gridTemplateColumns: '1fr 1fr',
+  gridColumnGap: spacing(),
+  gridTemplateAreas: `
+      "hamburger    buttons"
+      "search       search"
+      "nav          nav"
+    `,
   marginTop: 0,
   marginLeft: 0,
   height: '100%',
@@ -47,20 +54,23 @@ const tabList: CSSObject = {
     paddingLeft: spacing('large'),
     paddingRight: spacing('large'),
   },
-};
-
-const nav: CSSObject = {
-  position: 'sticky',
-  top: 0,
+  [mq(breakpoints.large)]: {
+    gridTemplateColumns: 'fit-content(20%) auto fit-content(20%)',
+    gridTemplateRows: `${rem(80)} auto`,
+    gridTemplateAreas: `
+        "hamburger    search    buttons"
+        "nav          nav       nav"
+      `,
+  },
 };
 
 const Navigation: React.FC = ({ children }) => {
   return (
-    <Nav css={nav}>
+    <Nav>
       <a href={`#${navSkipLinkID}`} css={skipLink}>
         Skip to content
       </a>
-      <div css={tabList}>{children}</div>
+      <div css={navGrid}>{children}</div>
       <span id={navSkipLinkID} />
     </Nav>
   );
