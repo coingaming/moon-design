@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Link } from '@heathmont/sportsbet-components/lib/link/';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { Navigation } from '../components/nav';
-import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
+import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { HamburgerMenu } from '../components/hamburger-menu';
 import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
@@ -15,6 +15,7 @@ import { jsx } from '@emotion/core';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
 import { IconLogo } from '../components/logo/icon-logo';
 import { mq } from '@heathmont/sportsbet-utils';
+import { MyBetsCounter, Digit } from '../components/my-bets/my-bets-counter';
 jsx;
 
 export const Nav = () => (
@@ -45,17 +46,15 @@ export const Nav = () => (
         justifyContent: 'flex-end',
       }}
     >
-      <Link
-        secondary
-        href="#"
-        css={{
-          marginRight: spacing(),
-          whiteSpace: 'nowrap',
-        }}
-      >
-        Sign in
-      </Link>
-      <Button modifier="primary">Register</Button>
+      <MyBetsCounter>
+        <Digit>0</Digit>
+        <Digit>1</Digit>
+        <p
+          css={{ color: '#8697A2', marginTop: 0, marginLeft: spacing('small') }}
+        >
+          My bets
+        </p>
+      </MyBetsCounter>
     </div>
     <div css={{ gridArea: 'nav' }}>
       <CashierNav />

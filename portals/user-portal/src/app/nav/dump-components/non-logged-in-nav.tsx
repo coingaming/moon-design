@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Link } from '@heathmont/sportsbet-components/lib/link/';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { Navigation } from '../components/nav';
-import { colors, border } from '@heathmont/sportsbet-tokens';
+import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { HamburgerMenu } from '../components/hamburger-menu';
 import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
@@ -51,12 +51,14 @@ export const Nav = () => (
         css={{
           marginRight: spacing(),
           whiteSpace: 'nowrap',
-          '&::before': {
-            content: '""',
-            height: spacing(),
-            marginRight: spacing(),
-            borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
-            backgroundColor: colors.neutral[20],
+          [mq(breakpoints.large)]: {
+            '&::before': {
+              content: '""',
+              height: spacing(),
+              marginRight: spacing(),
+              borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
+              backgroundColor: colors.neutral[20],
+            },
           },
         }}
       >
