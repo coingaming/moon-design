@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Link } from '@heathmont/sportsbet-components/lib/link/';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { Navigation } from '../components/nav';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, border } from '@heathmont/sportsbet-tokens';
 import { HamburgerMenu } from '../components/hamburger-menu';
 import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
@@ -13,36 +13,59 @@ import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { jsx } from '@emotion/core';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
+import { IconLogo } from '../components/logo/icon-logo';
+import { mq } from '@heathmont/sportsbet-utils';
 jsx;
-
-const NavLayout = styled.div({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-  width: '100%',
-  flexWrap: 'wrap',
-});
 
 export const Nav = () => (
   <Navigation>
-    <NavLayout>
+    <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
-      <IconCaptionLogo css={{ marginRight: spacing('medium') }} />
+      <IconCaptionLogo css={{ marginRight: spacing() }} />
       <HeaderTabs />
-      <Search
-        placeholder="Search for a match, event, player etc ..."
-        onSubmit={e => {
-          e.preventDefault();
-          console.log('submit');
+    </div>
+
+    <div css={{ gridArea: 'search', display: 'flex', alignItems: 'center' }}>
+      <div css={{ width: '100%' }}>
+        <Search
+          placeholder="Search for a match, event, player etc ..."
+          onSubmit={e => {
+            e.preventDefault();
+            console.log('submit');
+          }}
+        />
+      </div>
+    </div>
+
+    <div
+      css={{
+        gridArea: 'buttons',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+      }}
+    >
+      <Link
+        secondary
+        href="#"
+        css={{
+          marginRight: spacing(),
+          whiteSpace: 'nowrap',
+          '&::before': {
+            content: '""',
+            height: spacing(),
+            marginRight: spacing(),
+            borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
+            backgroundColor: colors.neutral[20],
+          },
         }}
-      />
-      <Link secondary href="#" css={{ marginLeft: 'auto' }}>
+      >
         Sign in
       </Link>
       <Button modifier="primary">Register</Button>
-    </NavLayout>
-    <CashierLayout>
+    </div>
+    <div css={{ gridArea: 'nav' }}>
       <CashierNav />
-    </CashierLayout>
+    </div>
   </Navigation>
 );
