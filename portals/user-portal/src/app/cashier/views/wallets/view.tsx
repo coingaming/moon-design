@@ -22,7 +22,7 @@ import {
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
-import { Nav } from '../../../nav/dump-components/non-logged-in-nav';
+import { Nav } from '../../../nav/dump-components/logged-in-nav';
 jsx;
 
 const transactionItems = [
