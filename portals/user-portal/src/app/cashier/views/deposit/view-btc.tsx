@@ -5,8 +5,8 @@ import { jsx } from '@emotion/core';
 import {
   IconArrowLeft,
   IconArrowRight,
-  IconArrowTop,
-  IconArrowBottom,
+  IconArrowDown,
+  IconArrowUp,
 } from '@heathmont/sportsbet-icons';
 import {
   Button,
@@ -109,10 +109,10 @@ export const DepositViewBTC = () => (
             </BtcPaymentIcon>
             <BtcPaymentIconMobile>
               <div>
-                <IconArrowTop color={colors.brand} />
+                <IconArrowUp color={colors.brand} />
               </div>
               <div>
-                <IconArrowBottom color={colors.brand} />
+                <IconArrowDown color={colors.brand} />
               </div>
             </BtcPaymentIconMobile>
             <BtcPaymentLabel>Received</BtcPaymentLabel>
