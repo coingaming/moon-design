@@ -12,56 +12,20 @@ import {
   SettingsText,
   SettingsSection,
   SettingsBlock,
-  BlockContent,
-  BlockColumn,
-  DetailRow,
   CashierLayout,
   CashierHeading,
   HeadingDescription,
 } from '@heathmont/sportsbet-user-portal-components';
-import styled from '@emotion/styled';
-import { mq } from '@heathmont/sportsbet-utils';
-import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils/lib';
-
-const ContentWrapper = styled.div((props: any) => ({
-  display: 'flex',
-  'flex-direction': 'column',
-  ...props.css,
-  [mq(breakpoints.medium)]: {
-    'align-items': 'center',
-    'flex-direction': 'row',
-    'flex-wrap': 'wrap',
-    ...props.cssMqMedium,
-  },
-}));
-
-const DynamicContentItem = styled.div((props: any) => ({
-  order: 0,
-  margin: props.margin || 0,
-  'flex-basis': '100%',
-  ...props.css,
-  [mq(breakpoints.medium)]: {
-    'flex-basis': 'auto',
-    ...props.cssMqMedium,
-    order: props.order,
-    margin: props.mqMediumMargin || props.margin || 0,
-  },
-}));
-
-const Container = styled.div((props: any) => ({
-  ...props.css,
-  [mq(breakpoints.medium)]: {
-    ...props.cssMqMedium,
-    'max-width': props.maxWidth || 'auto',
-    width: props.width || 'auto',
-  },
-}));
-
-const GoogleAuthenticator = styled.div(() => ({
-  border: `${border.width}px ${border.style} ${colors.neutral[50]}`,
-  padding: spacing('default'),
-}));
+import { spacing, rhythm } from '@heathmont/sportsbet-utils/lib';
+import {
+  CollapsibleItem,
+  Separator,
+  SettingsBlockCollapsible,
+  SettingsBlockCollapsibleContents,
+  Summary,
+} from './dumb-components/settings-block-collapsible';
+import rem from '../../../../../../../node_modules/polished/lib/helpers/rem';
+import { GoogleAuthenticator } from './dumb-components/google-authenticator';
 
 export const AccountView = () => (
   <CashierLayout>
@@ -71,86 +35,102 @@ export const AccountView = () => (
       Manage your profile, password and more.
     </HeadingDescription>
     <SettingsSection>
-      <SettingsBlock>
-        <Heading size="delta" element="h2">
-          General information
-        </Heading>
-      </SettingsBlock>
-      <SettingsBlock>
-        <BlockContent>
-          <ContentWrapper>
-            <DynamicContentItem>
-              <Container maxWidth="25rem">
-                <Form legend="Resend the Email">
-                  <FormItem>
-                    <TextInput label="E-mail address" type="email" required />
-                  </FormItem>
-                </Form>
-              </Container>
-            </DynamicContentItem>
-            <DynamicContentItem order={2} margin={`${spacing('medium')} 0`}>
-              <SettingsText>
-                We've sent a message to you with a link to activate your
-                account.
-              </SettingsText>
-              <SettingsText>
-                If you don't see an email from us within a few minutes, be sure
-                to check your spam folder.
-              </SettingsText>
-            </DynamicContentItem>
-            <DynamicContentItem
-              order={1}
-              mqMediumMargin={`0 0 0 ${spacing('large')}`}
+      <SettingsBlockCollapsible>
+        <Summary>
+          <Heading size="delta" element="h2">
+            General information
+          </Heading>
+        </Summary>
+        <SettingsBlockCollapsibleContents>
+          <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
+            <Form fullWidth legend="Resend the Email">
+              <FormItem>
+                <TextInput label="E-mail address" type="email" required />
+              </FormItem>
+            </Form>
+          </CollapsibleItem>
+          <CollapsibleItem
+            css={{ marginTop: spacing('medium') }}
+            cssMqMedium={{ order: 2 }}
+          >
+            <SettingsText>
+              We've sent a message to you with a link to activate your account.
+            </SettingsText>
+            <SettingsText>
+              If you don't see an email from us within a few minutes, be sure to
+              check your spam folder.
+            </SettingsText>
+          </CollapsibleItem>
+          <CollapsibleItem
+            css={{ marginTop: spacing('medium') }}
+            cssMqMedium={{
+              order: 1,
+              margin: `0 0 0 ${spacing('large')}`,
+              flexBasis: '50%',
+            }}
+          >
+            <Button modifier="highlight">Resend the Email</Button>
+          </CollapsibleItem>
+        </SettingsBlockCollapsibleContents>
+        <Separator />
+        <SettingsBlockCollapsibleContents>
+          <Form fullWidth legend="Change user details">
+            <CollapsibleItem
+              cssMqMedium={{ display: 'flex', flexWrap: 'wrap' }}
             >
-              <Button modifier="highlight">Resend the Email</Button>
-            </DynamicContentItem>
-          </ContentWrapper>
-        </BlockContent>
-      </SettingsBlock>
-      <SettingsBlock>
-        {/* <Details> */}
-        <DetailRow>
-          {/* <DetailColumn>
-              <FormItem>
-                <TextInput label="Username" type="text" required />
-              </FormItem>
-              <FormItem>
-                <TextInput label="Phone number" type="tel" />
-              </FormItem>
-              <FormItem>
-                <TextInput label="City" type="text" />
-              </FormItem>
-              <FormItem>
-                <TextInput label="Zip code" type="number" />
-              </FormItem>
-            </DetailColumn>
-            <DetailColumn>
-              <FormItem>
-                <TextInput label="Date of birth" type="date" required />
-              </FormItem>
-              <FormItem>
-                <TextInput label="Address" type="text" />
-              </FormItem>
-              <FormItem>
-                <TextInput label="Country" type="text" />
-              </FormItem>
-            </DetailColumn> */}
-        </DetailRow>
-        <DetailRow>
-          <Button modifier="primary">Save Changes</Button>
-        </DetailRow>
-        {/* </Details> */}
-      </SettingsBlock>
+              <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
+                <FormItem>
+                  <TextInput label="Username" type="text" required />
+                </FormItem>
+                <FormItem>
+                  <TextInput label="Phone number" type="tel" />
+                </FormItem>
+                <FormItem>
+                  <TextInput label="City" type="text" />
+                </FormItem>
+                <FormItem>
+                  <TextInput label="Zip code" type="number" />
+                </FormItem>
+              </CollapsibleItem>
+              <CollapsibleItem
+                css={{ marginTop: spacing() }}
+                cssMqMedium={{
+                  maxWidth: rem(320),
+                  margin: `0 0 0 ${spacing('large')}`,
+                }}
+              >
+                <FormItem>
+                  <TextInput label="Date of birth" type="text" />
+                </FormItem>
+                <FormItem>
+                  <TextInput label="Address" type="text" />
+                </FormItem>
+                <FormItem>
+                  <TextInput label="Country" type="text" />
+                </FormItem>
+                <FormItem>
+                  <TextInput label="E-mail address" type="email" />
+                </FormItem>
+              </CollapsibleItem>
+              <CollapsibleItem css={{ marginTop: spacing() }}>
+                <FormItem>
+                  <Button modifier="primary">Save Changes</Button>
+                </FormItem>
+              </CollapsibleItem>
+            </CollapsibleItem>
+          </Form>
+        </SettingsBlockCollapsibleContents>
+      </SettingsBlockCollapsible>
     </SettingsSection>
     <SettingsSection>
-      <SettingsBlock>
-        <Heading size="delta" element="h2">
-          Change password
-        </Heading>
-      </SettingsBlock>
-      <SettingsBlock>
-        <BlockContent>
-          <Container maxWidth="25rem">
+      <SettingsBlockCollapsible>
+        <Summary>
+          <Heading size="delta" element="h2">
+            Change password
+          </Heading>
+        </Summary>
+        <SettingsBlockCollapsibleContents>
+          <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
             <Form legend="Enter you current password">
               <FormItem>
                 <TextInput label="Enter you current password" type="password" />
@@ -162,119 +142,121 @@ export const AccountView = () => (
                 <TextInput label="Repeat password" type="password" />
               </FormItem>
               <FormItem>
-                <Container width="10rem">
+                <CollapsibleItem cssMqMedium={{ maxWidth: rem(160) }}>
                   <Button fullWidth modifier="secondary">
                     Save Changes
                   </Button>
-                </Container>
+                </CollapsibleItem>
               </FormItem>
             </Form>
-          </Container>
-        </BlockContent>
-      </SettingsBlock>
+          </CollapsibleItem>
+        </SettingsBlockCollapsibleContents>
+      </SettingsBlockCollapsible>
     </SettingsSection>
     <SettingsSection>
-      <SettingsBlock>
-        <Heading size="delta" element="h2">
-          Google Authenticator
-        </Heading>
-      </SettingsBlock>
-      <SettingsBlock>
-        <BlockContent>
-          <ContentWrapper cssMqMedium={{ 'align-items': 'flex-start' }}>
-            <DynamicContentItem>
-              <GoogleAuthenticator>
-                What is google authenticator
-              </GoogleAuthenticator>
-            </DynamicContentItem>
-            <DynamicContentItem>
-              <Container
-                maxWidth="25rem"
-                css={{ margin: `${spacing('medium')} 0` }}
-                cssMqMedium={{ margin: `0 ${spacing('large')} 0` }}
-              >
-                <SettingsText>Key value: PBVWSRCIOZJG4SLUPJYVIVCC</SettingsText>
-                <Form legend="Type code">
-                  <FormItem>
-                    <TextInput label="Type code" type="text" required />
-                  </FormItem>
-                  <FormItem>
-                    <Container width="10rem">
-                      <Button fullWidth modifier="secondary">
-                        Submit Code
-                      </Button>
-                    </Container>
-                  </FormItem>
-                </Form>
-              </Container>
-            </DynamicContentItem>
-          </ContentWrapper>
-        </BlockContent>
-      </SettingsBlock>
-    </SettingsSection>
-    <SettingsSection>
-      <SettingsBlock>
-        <Heading size="delta" element="h2">
-          Verify account
-        </Heading>
-      </SettingsBlock>
-      <SettingsBlock>
-        <SettingsText>
-          We ask you to upload your documents for our review to provide better
-          security. Please send us a photo of either of your ID card, driver’s
-          license or passport. For proof of address, please send us a photo of a
-          utility bill dated within the last three months and clearly showing
-          your name.
-        </SettingsText>
-      </SettingsBlock>
-      <SettingsBlock>
-        <BlockContent>
-          <Form fullWidth legend="KYC file upload">
-            <Container
-              css={{
-                display: 'flex',
-                'flex-direction': 'column',
+      <SettingsBlockCollapsible>
+        <Summary>
+          <Heading size="delta" element="h2">
+            Google Authenticator
+          </Heading>
+        </Summary>
+        <SettingsBlockCollapsibleContents>
+          <GoogleAuthenticator
+            caption={'What is google authenticator'}
+            link={
+              'https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en'
+            }
+          >
+            <img
+              alt="https://randomqr.com/assets/images/randomqr-256.png"
+              src="https://randomqr.com/assets/images/randomqr-256.png"
+            />
+          </GoogleAuthenticator>
+          <CollapsibleItem
+            css={{ alignSelf: 'flex-start' }}
+            cssMqMedium={{
+              maxWidth: rem(320),
+              margin: `0 ${spacing('large')} 0`,
+            }}
+          >
+            <CollapsibleItem
+              css={{ margin: `${spacing()} 0` }}
+              cssMqMedium={{
+                marginTop: 0,
+                maxWidth: rem(320),
               }}
-              cssMqMedium={{ 'flex-direction': 'row' }}
             >
-              <Container cssMqMedium={{ 'flex-basis': '20rem' }}>
+              <SettingsText>Key value: PBVWSRCIOZJG4SLUPJYVIVCC</SettingsText>
+            </CollapsibleItem>
+            <Form legend="Type code">
+              <FormItem>
+                <TextInput label="Type code" type="text" required />
+              </FormItem>
+              <FormItem>
+                <CollapsibleItem>
+                  <Button fullWidth modifier="secondary">
+                    Submit Code
+                  </Button>
+                </CollapsibleItem>
+              </FormItem>
+            </Form>
+          </CollapsibleItem>
+        </SettingsBlockCollapsibleContents>
+      </SettingsBlockCollapsible>
+    </SettingsSection>
+    <SettingsSection>
+      <SettingsBlockCollapsible>
+        <Summary>
+          <Heading size="delta" element="h2">
+            Verify Account
+          </Heading>
+        </Summary>
+        <SettingsBlock>
+          <SettingsText>
+            We ask you to upload your documents for our review to provide better
+            security. Please send us a photo of either of your ID card, driver’s
+            license or passport. For proof of address, please send us a photo of
+            a utility bill dated within the last three months and clearly
+            showing your name.
+          </SettingsText>
+        </SettingsBlock>
+        <SettingsBlockCollapsibleContents>
+          <Form fullWidth legend="KYC file upload">
+            <CollapsibleItem css={{ display: 'flex', flexFlow: 'wrap' }}>
+              <CollapsibleItem cssMqMedium={{ flexBasis: rem(320) }}>
                 <FormItem>
                   <FileInput placeholder="ID, driver's license or passport" />
                 </FormItem>
-              </Container>
-              <Container
-                css={{ marginTop: '1rem' }}
+              </CollapsibleItem>
+              <CollapsibleItem
+                css={rhythm()}
                 cssMqMedium={{
-                  'flex-basis': '20rem',
+                  flexBasis: rem(320),
                   margin: `0 0 0 ${spacing('large')} `,
                 }}
               >
                 <FormItem>
                   <FileInput placeholder="Photo of a utility bill" />
                 </FormItem>
-              </Container>
-            </Container>
+              </CollapsibleItem>
+            </CollapsibleItem>
           </Form>
-          <Container
-            css={{ margin: `${spacing('large')} 0` }}
-            cssMqMedium={{ margin: `${spacing('medium')} 0` }}
-          >
+          <CollapsibleItem css={rhythm()}>
             <SettingsText>
               Supported file types: .jpg, .png and .gif. Both documents are
               required.
             </SettingsText>
-          </Container>
-        </BlockContent>
-      </SettingsBlock>
+          </CollapsibleItem>
+        </SettingsBlockCollapsibleContents>
+      </SettingsBlockCollapsible>
     </SettingsSection>
-    <Container
-      width="12rem"
+    <CollapsibleItem
       css={{ margin: `${spacing('medium')}` }}
-      cssMqMedium={{ margin: `${spacing('medium')} 0` }}
+      cssMqMedium={{ margin: `${spacing('medium')} 0`, width: rem(192) }}
     >
       <Button fullWidth modifier="secondary" outline>
         Delete Account
       </Button>
-    </Container>
+    </CollapsibleItem>
   </CashierLayout>
 );
