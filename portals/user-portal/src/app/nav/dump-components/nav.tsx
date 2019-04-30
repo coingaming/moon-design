@@ -10,30 +10,28 @@ import { CashierLayout } from '@heathmont/sportsbet-user-portal-components';
 import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
 import styled from '@emotion/styled';
 
-const NavLayout = styled.div({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-  width: '100%',
-});
+// const NavLayout = styled.div({
+//   display: 'flex',
+//   flexDirection: 'row',
+//   alignItems: 'center',
+//   width: '100%',
+// });
 
 export const Nav = () => (
   <Navigation>
-    <NavLayout>
-      <HamburgerMenu />
-      <IconCaptionLogo />
-      <Search
-        placeholder="Search for a match, event, player etc ..."
-        onSubmit={e => {
-          e.preventDefault();
-          console.log('submit');
-        }}
-      />
-      <Link secondary href="#">
-        Sign in
-      </Link>
-      <Button modifier="primary">Register</Button>
-    </NavLayout>
+    <HamburgerMenu />
+    <IconCaptionLogo />
+    <Search
+      placeholder="Search for a match, event, player etc ..."
+      onSubmit={e => {
+        e.preventDefault();
+        console.log('submit');
+      }}
+    />
+    <Link secondary href="#">
+      Sign in
+    </Link>
+    <Button modifier="primary">Register</Button>
     <CashierLayout>
       <CashierNav />
     </CashierLayout>
