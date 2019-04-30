@@ -43,6 +43,7 @@ const TabItem = styled.div<TabItemProps>(({ active }) => [
     color: colors.neutral[20],
     paddingTop: rem(30),
     paddingBottom: rem(30),
+    whiteSpace: 'nowrap',
     '&:hover': activeCss,
     '&:not(:last-child)::after': {
       content: '""',
