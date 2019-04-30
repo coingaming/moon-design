@@ -31,6 +31,7 @@ const searchBox: CSSObject = {
 };
 
 const SearchContainer = styled.form({
+  width: '100%',
   display: 'inline-flex',
   flex: '1 1 auto',
   alignItems: 'center',
@@ -39,12 +40,12 @@ const SearchContainer = styled.form({
   overflow: 'hidden',
   backgroundColor: colors.neutral[60],
   color: colors.neutral[20],
-  order: 6,
+  // order: 6,
   minWidth: rem(350),
   [mq(breakpoints.medium)]: {
     // TODO
-    order: 'initial',
-    minWidth: rem(400),
+    // order: 'initial',
+    minWidth: rem(150),
   },
 });
 
