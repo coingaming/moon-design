@@ -21,9 +21,9 @@ export const Digit = styled.div({
   backgroundColor: colors.neutral[20],
   textAlign: 'center',
   marginTop: 0,
-  width: spacing('small'),
+  minWidth: '0.75rem',
   marginRight: rem(2),
-  fontSize: rem(10),
+  fontSize: rem(12),
   height: spacing(),
   borderRadius: rem(2),
 });
