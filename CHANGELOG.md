@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
+
+
+### Bug Fixes
+
+* **design:** change default fonts size ([bfc76ac](https://github.com/coingaming/sportsbet-design/commit/bfc76ac))
+* **header, link:** fix test ([49764fc](https://github.com/coingaming/sportsbet-design/commit/49764fc))
+* **icons:** updated profile icon ([ea9e1bb](https://github.com/coingaming/sportsbet-design/commit/ea9e1bb))
+* **nav:** minor fixes ([1f5aa7d](https://github.com/coingaming/sportsbet-design/commit/1f5aa7d))
+* nav grid ([ffbeab7](https://github.com/coingaming/sportsbet-design/commit/ffbeab7))
+* **nav:** fix imports ([988a72e](https://github.com/coingaming/sportsbet-design/commit/988a72e))
+
+
+### Features
+
+* **Account-initial:** Initial commit, verifying approach legitimacy ([dfa4945](https://github.com/coingaming/sportsbet-design/commit/dfa4945))
+* **icons:** hamburger menu icon ([0194986](https://github.com/coingaming/sportsbet-design/commit/0194986))
+* **icons:** update icons ([d03b40f](https://github.com/coingaming/sportsbet-design/commit/d03b40f))
+* **link:** secondary link ([ace9248](https://github.com/coingaming/sportsbet-design/commit/ace9248))
+* **nav:** initial nav ([51f5d61](https://github.com/coingaming/sportsbet-design/commit/51f5d61))
+* **nav:** my bets ([e01307f](https://github.com/coingaming/sportsbet-design/commit/e01307f))
+* **nav:** nav overlay content ([00badfa](https://github.com/coingaming/sportsbet-design/commit/00badfa))
+* **user-portal:** btc payment design ([62096e3](https://github.com/coingaming/sportsbet-design/commit/62096e3))
+* non loggein nav ([7250ff1](https://github.com/coingaming/sportsbet-design/commit/7250ff1))
+* **nav:** sticky nav ([f49d826](https://github.com/coingaming/sportsbet-design/commit/f49d826))
+* **wallets:** overlay ([c3f5d19](https://github.com/coingaming/sportsbet-design/commit/c3f5d19))
+
+
+
+
+
 # [0.30.0](https://github.com/coingaming/sportsbet-design/compare/v0.29.0...v0.30.0) (2019-04-17)
 
 
