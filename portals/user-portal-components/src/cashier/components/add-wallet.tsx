@@ -13,7 +13,6 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
 jsx;
 
 const caption: CSSObject = {
-  fontSize: rem(14),
   textTransform: 'uppercase',
   fontWeight: typography.fontWeight.semibold,
   letterSpacing: rem(1),

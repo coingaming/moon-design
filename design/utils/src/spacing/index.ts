@@ -15,7 +15,7 @@ const spacing = (size: SpacingSize = 'default', unit?: SpacingUnit) => {
 
   return unit === 'px'
     ? `${spacingTokens[size]}px`
-    : rem(spacingTokens[size], base.fontSize) || 0;
+    : rem(spacingTokens[size], base.spacing) || 0;
 };
 
 /* emotion-disable usage due to https://github.com/emotion-js/emotion/issues/1178 */

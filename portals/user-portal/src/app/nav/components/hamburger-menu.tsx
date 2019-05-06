@@ -17,6 +17,9 @@ const StyledHamburgerIcon: CSSObject = {
 
 const Details = styled.details<{ open?: boolean }>(({ open }) => [
   {
+    marginRight: spacing('small'),
+  },
+  {
     [mq(breakpoints.medium)]: {
       display: 'none',
     },
