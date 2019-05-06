@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
+
+
+### Bug Fixes
+
+* **header, link:** fix test ([49764fc](https://github.com/coingaming/sportsbet-design/commit/49764fc))
+
+
+### Features
+
+* **Account-initial:** Initial commit, verifying approach legitimacy ([dfa4945](https://github.com/coingaming/sportsbet-design/commit/dfa4945))
+* **link:** secondary link ([ace9248](https://github.com/coingaming/sportsbet-design/commit/ace9248))
+
+
+
+
+
 # [0.30.0](https://github.com/coingaming/sportsbet-design/compare/v0.29.0...v0.30.0) (2019-04-17)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
