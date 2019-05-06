@@ -7,13 +7,10 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { HamburgerMenu } from '../components/hamburger-menu';
 import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
-import { CashierLayout } from '@heathmont/sportsbet-user-portal-components';
 import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
-import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { jsx } from '@emotion/core';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
-import { IconLogo } from '../components/logo/icon-logo';
 import { mq } from '@heathmont/sportsbet-utils';
 jsx;
 
