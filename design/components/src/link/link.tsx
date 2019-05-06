@@ -8,6 +8,7 @@ jsx;
 type LinkProps = {
   href?: string;
   disabled?: boolean;
+  secondary?: boolean;
 };
 
 /**
@@ -32,12 +33,13 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-const Link: React.FC<LinkProps> = ({ href, ...props }) => {
+const Link: React.FC<LinkProps> = ({ href, secondary, ...props }) => {
   const LinkElement = !href ? 'button' : 'a';
+  const secondaryProps = secondary ? { color: colors.neutral[20] } : {};
 
   return jsx(LinkElement, {
     href: href || undefined,
-    css: linkBase,
+    css: { ...linkBase, ...secondaryProps },
     ...props,
   });
 };

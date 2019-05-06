@@ -12,14 +12,13 @@ function template(
 
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 
-    export const ${prefix(componentName)} = styled(Svg)(
-      ({
-        backgroundColor,
-        circleColor,
-      }: {
-        backgroundColor?: string;
-        circleColor?: string;
-      }) => [
+    type IconProps =  {
+      backgroundColor?: string;
+      circleColor?: string;
+    };
+
+    export const ${prefix(componentName)} = styled(Svg)<IconProps>(
+      ({ backgroundColor, circleColor }) => [
         {
           verticalAlign: 'middle',
         },
