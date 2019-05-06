@@ -1,21 +1,16 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { Link } from '@heathmont/sportsbet-components/lib/link/';
-import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { Navigation } from '../components/nav';
-import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { HamburgerMenu } from '../components/hamburger-menu';
 import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
-import { CashierLayout } from '@heathmont/sportsbet-user-portal-components';
 import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
-import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { jsx } from '@emotion/core';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
-import { IconLogo } from '../components/logo/icon-logo';
-import { mq } from '@heathmont/sportsbet-utils';
 import { MyBetsCounter, Digit } from '../components/my-bets/my-bets-counter';
+import { IconProfile } from '@heathmont/sportsbet-icons';
+import { colors, border } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const Nav = () => (
@@ -50,11 +45,42 @@ export const Nav = () => (
         <Digit>0</Digit>
         <Digit>1</Digit>
         <p
-          css={{ color: '#8697A2', marginTop: 0, marginLeft: spacing('small') }}
+          css={{
+            color: colors.neutral[20],
+            marginTop: 0,
+            marginLeft: spacing('small'),
+            borderRight: `${border.width}px solid ${colors.neutral[50]}`,
+            paddingRight: spacing(),
+            marginRight: spacing(),
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+          }}
         >
           My bets
         </p>
       </MyBetsCounter>
+      <div
+        css={{
+          display: 'flex',
+          flexDirection: 'row',
+          flexWrap: 'nowrap',
+          alignItems: 'center',
+        }}
+      >
+        <div
+          css={{
+            display: 'flex',
+            flexDirection: 'column',
+            flexWrap: 'nowrap',
+            alignItems: 'flex-end',
+            marginRight: spacing('medium'),
+          }}
+        >
+          <div css={{ color: colors.neutral[20] }}>Ivergletzeternateigh</div>
+          <div>1535.82 mBTC</div>
+        </div>
+        <IconProfile css={{ color: colors.neutral[20], fontSize: '1.25rem' }} />
+      </div>
     </div>
     <div css={{ gridArea: 'nav' }}>
       <CashierNav />
