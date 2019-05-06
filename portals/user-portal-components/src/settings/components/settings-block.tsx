@@ -61,6 +61,7 @@ export const BlockColumn = styled.div<{}>(() => [
 export const BlockContent = styled.div({
   display: 'flex',
   flexDirection: 'column',
+  width: '100%',
 });
 
 export const Active = styled.div({
