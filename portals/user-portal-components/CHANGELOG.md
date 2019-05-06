@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
+
+
+### Bug Fixes
+
+* **design:** change default fonts size ([bfc76ac](https://github.com/coingaming/sportsbet-design/commit/bfc76ac))
+* nav grid ([ffbeab7](https://github.com/coingaming/sportsbet-design/commit/ffbeab7))
+
+
+### Features
+
+* **Account-initial:** Initial commit, verifying approach legitimacy ([dfa4945](https://github.com/coingaming/sportsbet-design/commit/dfa4945))
+* **nav:** sticky nav ([f49d826](https://github.com/coingaming/sportsbet-design/commit/f49d826))
+* **user-portal:** btc payment design ([62096e3](https://github.com/coingaming/sportsbet-design/commit/62096e3))
+
+
+
+
+
 # [0.30.0](https://github.com/coingaming/sportsbet-design/compare/v0.29.0...v0.30.0) (2019-04-17)
 
 
