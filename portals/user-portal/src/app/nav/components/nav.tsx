@@ -28,11 +28,11 @@ const Nav = styled.nav(() => [
     width: '100%',
     position: 'fixed',
     top: 0,
-    height: '12rem',
+    height: rem(192),
     zIndex: 2,
     backgroundColor: colors.neutral[90],
     [mq(breakpoints.large)]: {
-      height: '10rem',
+      height: rem(160),
     },
   },
 ]);
