@@ -16,14 +16,12 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const IconLargePencil = styled(Svg)(
-  ({
-    backgroundColor,
-    circleColor,
-  }: {
-    backgroundColor?: string;
-    circleColor?: string;
-  }) => [
+type IconProps = {
+  backgroundColor?: string;
+  circleColor?: string;
+};
+export const IconLargePencil = styled(Svg)<IconProps>(
+  ({ backgroundColor, circleColor }) => [
     {
       verticalAlign: 'middle',
     },

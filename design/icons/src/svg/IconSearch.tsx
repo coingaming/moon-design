@@ -23,14 +23,12 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const IconSearch = styled(Svg)(
-  ({
-    backgroundColor,
-    circleColor,
-  }: {
-    backgroundColor?: string;
-    circleColor?: string;
-  }) => [
+type IconProps = {
+  backgroundColor?: string;
+  circleColor?: string;
+};
+export const IconSearch = styled(Svg)<IconProps>(
+  ({ backgroundColor, circleColor }) => [
     {
       verticalAlign: 'middle',
     },

@@ -10,7 +10,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -201,7 +201,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -333,7 +333,7 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -433,7 +433,7 @@ exports[`Banner renders horizontally 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -579,7 +579,7 @@ exports[`Banner renders vertically by default 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;

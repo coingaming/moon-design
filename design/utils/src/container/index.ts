@@ -13,11 +13,11 @@ type ContainerSize = keyof ContainerTokens | number;
 const container: (size?: ContainerSize) => CSSObject = (size = 'default') => {
   const containerSize = (size: ContainerSize) => {
     if (typeof size === 'number') {
-      return rem(size, base.fontSize);
+      return rem(size, base.spacing);
     }
 
     return typeof size === 'string' && size in containerTokens
-      ? rem(containerTokens[size], base.fontSize)
+      ? rem(containerTokens[size], base.spacing)
       : 'none';
   };
 
