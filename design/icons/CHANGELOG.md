@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
+
+
+### Bug Fixes
+
+* **icons:** updated profile icon ([ea9e1bb](https://github.com/coingaming/sportsbet-design/commit/ea9e1bb))
+
+
+### Features
+
+* **icons:** hamburger menu icon ([0194986](https://github.com/coingaming/sportsbet-design/commit/0194986))
+* **icons:** update icons ([d03b40f](https://github.com/coingaming/sportsbet-design/commit/d03b40f))
+* **nav:** initial nav ([51f5d61](https://github.com/coingaming/sportsbet-design/commit/51f5d61))
+
+
+
+
+
 # [0.30.0](https://github.com/coingaming/sportsbet-design/compare/v0.29.0...v0.30.0) (2019-04-17)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
