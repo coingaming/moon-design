@@ -10,7 +10,9 @@ jsx;
 
 const Background = styled.div([
   {
-    background: `linear-gradient(${colors.neutral[90]} 18rem, 0%, ${
+    // gridArea: 'nav',
+    width: '100%',
+    background: `linear-gradient(${colors.neutral[90]} 14rem, 0%, ${
       colors.neutral[80]
     })`,
   },
