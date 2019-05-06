@@ -16,6 +16,7 @@ type FormElement = Pick<HTMLFormElement, Exclude<keyof HTMLFormElement, ''>>;
 type FormProps = FormElement & {
   legend: string;
   maxWidth?: string;
+  fullWidth?: boolean;
 };
 
 const FormList = styled.ul([listPlain, rhythm(0)]);
@@ -31,10 +32,11 @@ const Form: React.FC<FormProps> = ({
   children,
   legend,
   maxWidth,
+  fullWidth,
   ...props
 }) => {
   return (
-    <form css={{ maxWidth }} {...props}>
+    <form css={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
       <Fieldset>
         <legend css={hideVisually}>{legend}</legend>
         <FormList>{children}</FormList>
