@@ -6,7 +6,7 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders as acti
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -68,7 +68,7 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders with ho
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -130,7 +130,7 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders as active 1`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -176,7 +176,7 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders with hover 1`] 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -222,7 +222,7 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders as active
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -284,7 +284,7 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders with hove
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -346,7 +346,7 @@ exports[`Button Modifiers Modifiers MockStates Primary renders as active 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -392,7 +392,7 @@ exports[`Button Modifiers Modifiers MockStates Primary renders with hover 1`] = 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -438,7 +438,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 1`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -484,7 +484,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -546,7 +546,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 1`] 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -592,7 +592,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -654,7 +654,7 @@ exports[`Button Modifiers renders as highlight 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -700,7 +700,7 @@ exports[`Button Modifiers renders as primary 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -746,7 +746,7 @@ exports[`Button Modifiers renders as secondary 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -792,7 +792,7 @@ exports[`Button Modifiers renders outline as highlight 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -854,7 +854,7 @@ exports[`Button Modifiers renders outline as primary 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -916,7 +916,7 @@ exports[`Button Modifiers renders outline as secondary 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -978,7 +978,7 @@ exports[`Button renders as an anchor tag 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -1025,7 +1025,7 @@ exports[`Button renders as disabled 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -1072,7 +1072,7 @@ exports[`Button renders as fullWidth 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -1119,7 +1119,7 @@ exports[`Button renders correctly 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
@@ -1165,7 +1165,7 @@ exports[`Button renders uppercased 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
