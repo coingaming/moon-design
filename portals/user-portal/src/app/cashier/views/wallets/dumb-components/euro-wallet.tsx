@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsx jsx */ jsx;
 import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { useState } from 'react';
@@ -13,14 +13,14 @@ import {
   Select,
 } from '@heathmont/sportsbet-components';
 import { spacing } from '@heathmont/sportsbet-utils';
-jsx;
+import { IconEuro } from '@heathmont/sportsbet-icons/lib/svg/IconEuro';
 
 export const EuroWallet: React.FC<{}> = () => {
   const [backSided, toggle] = useState(false);
 
   if (!backSided) {
     return (
-      <Card template="front" flex>
+      <Card flex backgroundIcon={<IconEuro />}>
         <CardToggle
           onClick={() => {
             toggle(!backSided);
@@ -36,7 +36,7 @@ export const EuroWallet: React.FC<{}> = () => {
           to={{ currency: 'Dollars', value: 156.72, unit: 'USD' }}
         />
         <div>
-          <Button modifier="primary" outline>
+          <Button round modifier="secondary" outline>
             Use wallet
           </Button>
         </div>
