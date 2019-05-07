@@ -29,6 +29,16 @@ describe('Button', () => {
     expect(button).toMatchSnapshot();
   });
 
+  test('renders rounded', () => {
+    const button = create(
+      <Button round modifier="primary" uppercase>
+        Round Primary Button
+      </Button>
+    );
+
+    expect(button).toMatchSnapshot();
+  });
+
   test('renders uppercased', () => {
     const button = create(
       <Button modifier="primary" uppercase>
