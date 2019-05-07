@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.32.0](https://github.com/coingaming/sportsbet-design/compare/v0.31.0...v0.32.0) (2019-05-07)
+
+
+### Features
+
+* **badge:** introduce badge component ([0dbb4dd](https://github.com/coingaming/sportsbet-design/commit/0dbb4dd))
+* **button:** rounded button was introduced ([5d3e2e9](https://github.com/coingaming/sportsbet-design/commit/5d3e2e9))
+
+
+
+
+
 # [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
 
 
