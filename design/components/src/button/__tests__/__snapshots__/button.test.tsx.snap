@@ -1159,6 +1159,54 @@ exports[`Button renders correctly 1`] = `
 </button>
 `;
 
+exports[`Button renders rounded 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #0cd664;
+  text-transform: uppercase;
+  border-radius: 6.25rem;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0.is-hover:not([disabled]),
+.emotion-0:hover:not([disabled]) {
+  background-color: #0BC15A;
+}
+
+.emotion-0.is-active,
+.emotion-0.has-focus,
+.emotion-0:active,
+.emotion-0:focus {
+  background-color: #0AAB50;
+}
+
+<button
+  className="emotion-0"
+>
+  Round Primary Button
+</button>
+`;
+
 exports[`Button renders uppercased 1`] = `
 .emotion-0 {
   padding: 0.5rem 1.5rem;
