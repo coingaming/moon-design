@@ -82,6 +82,14 @@ describe('Button', () => {
       expect(button).toMatchSnapshot();
     });
 
+    test('renders as optional', () => {
+      const button = create(
+        <Button modifier="optional">Optional Button</Button>
+      );
+
+      expect(button).toMatchSnapshot();
+    });
+
     describe('Modifiers MockStates', () => {
       test('Primary renders with hover', () => {
         const button = create(

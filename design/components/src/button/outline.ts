@@ -49,10 +49,24 @@ const secondary: CSSObject = {
   }),
 };
 
+const optional: CSSObject = {
+  color: colors.neutral[10],
+  backgroundColor: 'transparent',
+  border: `${border.width}px solid ${colors.secondary}`,
+  ...buttonHover({
+    backgroundColor: colors.secondary,
+  }),
+  ...buttonActive({
+    backgroundColor: colors.alternate.secondary[10],
+    border: `${border.width}px solid ${colors.alternate.secondary[10]}`,
+  }),
+};
+
 const outlineModifiers = {
   primary,
   highlight,
   secondary,
+  optional,
 };
 
 export { outlineModifiers };
