@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders correctly 1`] = `
+.emotion-0 {
+  color: #fff;
+  background-color: #0cd664;
+  padding: 0.25rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 6.25rem;
+  font-size: 0.75rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+<span
+  className="emotion-0"
+>
+  Active
+</span>
+`;
+
+exports[`Badge renders correctly with background color 1`] = `
+.emotion-0 {
+  color: #fff;
+  background-color: red;
+  padding: 0.25rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 6.25rem;
+  font-size: 0.75rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+<span
+  className="emotion-0"
+>
+  Red background banner
+</span>
+`;
+
+exports[`Badge renders correctly with color 1`] = `
+.emotion-0 {
+  color: red;
+  background-color: #0cd664;
+  padding: 0.25rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 6.25rem;
+  font-size: 0.75rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+<span
+  className="emotion-0"
+>
+  Red banner
+</span>
+`;
