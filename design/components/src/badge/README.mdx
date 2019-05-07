@@ -1,0 +1,27 @@
+---
+name: Badge
+menu: Components
+route: /components/badge
+---
+
+import { Badge } from '@heathmont/sportsbet-components';
+import { colors } from '@heathmont/sportsbet-tokens';
+import { PropsTable } from 'docs';
+
+# Badge
+
+Small count and labeling component
+
+```jsx react-live
+<Badge>Active</Badge>
+```
+
+## Customizing colors
+
+You coud simply use `color` and `backgroundColor` props
+
+```jsx react-live
+<Badge color={colors.error} backgroundColor={colors.neutral[10]}>
+  Active
+</Badge>
+```
