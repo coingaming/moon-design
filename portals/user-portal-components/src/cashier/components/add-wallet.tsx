@@ -24,10 +24,13 @@ const borderAddWallet: CSSObject = {
   backgroundColor: colors.neutral[80],
   borderStyle: border.style,
   borderWidth: border.width,
-  borderColor: colors.neutral[50],
+  borderColor: colors.neutral[70],
   borderRadius: border.radius.small,
   [mq(breakpoints.medium)]: {
     borderRadius: border.radius.default,
+  },
+  '&:hover': {
+    backgroundColor: colors.neutral[70],
   },
 };
 
