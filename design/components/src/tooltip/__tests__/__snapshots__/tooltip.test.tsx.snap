@@ -86,7 +86,7 @@ exports[`Tooltip alignment right-aligned 1`] = `
 
 .emotion-1,
 .emotion-1::after {
-  color: #142b37;
+  color: #1A212A;
 }
 
 .emotion-1::after {
@@ -189,7 +189,7 @@ exports[`Tooltip renders as active when defined 1`] = `
 
 .emotion-1,
 .emotion-1::after {
-  color: #142b37;
+  color: #1A212A;
 }
 
 .emotion-1::after {
@@ -413,7 +413,7 @@ exports[`Tooltip renders hidden and left-aligned by default 1`] = `
 
 .emotion-1,
 .emotion-1::after {
-  color: #142b37;
+  color: #1A212A;
 }
 
 .emotion-1::after {
@@ -534,7 +534,7 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
 
 .emotion-3,
 .emotion-3::after {
-  color: #142b37;
+  color: #1A212A;
 }
 
 .emotion-3::after {
