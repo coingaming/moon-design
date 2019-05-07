@@ -18,6 +18,7 @@ type ButtonProps = {
   fullWidth?: boolean;
   uppercase?: boolean;
   outline?: boolean;
+  round?: boolean;
   onClick?: () => void;
 };
 
@@ -53,6 +54,7 @@ const Button: React.FC<ButtonProps> = ({
   fullWidth,
   uppercase,
   outline,
+  round,
   ...props
 }) => {
   const ButtonElement = !href ? 'button' : 'a';
@@ -73,6 +75,7 @@ const Button: React.FC<ButtonProps> = ({
       modifier && buttonModifiers[modifier],
       outline && outlineModifiers[modifier],
       uppercase && { textTransform: 'uppercase' },
+      round && { borderRadius: rem(100) },
       fullWidth && { width: '100%' },
     ],
     className: mockState && buttonMockStateClass(mockState),

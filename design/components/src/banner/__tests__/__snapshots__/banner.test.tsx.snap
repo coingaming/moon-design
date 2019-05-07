@@ -67,7 +67,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   -ms-flex-align: center;
   align-items: center;
   font-family: inherit;
-  background-color: #142b37;
+  background-color: #1A212A;
   border-radius: 4px;
 }
 
@@ -171,7 +171,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   font-family: inherit;
-  background-color: #142b37;
+  background-color: #1A212A;
   border-radius: 8px;
   padding: 2.5rem;
 }
@@ -390,7 +390,7 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   font-family: inherit;
-  background-color: #142b37;
+  background-color: #1A212A;
   border-radius: 8px;
   max-width: 600px;
   padding: 2.5rem;
@@ -490,7 +490,7 @@ exports[`Banner renders horizontally 1`] = `
   -ms-flex-align: center;
   align-items: center;
   font-family: inherit;
-  background-color: #142b37;
+  background-color: #1A212A;
   border-radius: 4px;
 }
 
@@ -549,7 +549,7 @@ exports[`Banner renders vertically by default 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   font-family: inherit;
-  background-color: #142b37;
+  background-color: #1A212A;
   border-radius: 8px;
   padding: 2.5rem;
 }
