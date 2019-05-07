@@ -4,7 +4,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
-import { CashierNav } from './dumb-components/navigation';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
