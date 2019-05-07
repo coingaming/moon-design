@@ -42,4 +42,26 @@ describe('CardBalance', () => {
 
     expect(balance).toMatchSnapshot();
   });
+
+  test('renders correctly with badge caption', () => {
+    const balance = create(
+      <CardBalance
+        badgeCaption="Active"
+        from={{
+          currency: 'Bitcoin',
+          value: 1526.56,
+          unit: 'mBTC',
+          unitTitle: 'Millibitcoin',
+        }}
+        to={{
+          currency: 'Dollars',
+          value: 354568.68,
+          unit: 'USD',
+          unitTitle: 'US Dollars',
+        }}
+      />
+    );
+
+    expect(balance).toMatchSnapshot();
+  });
 });

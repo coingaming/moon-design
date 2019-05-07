@@ -20,6 +20,7 @@ export const BitcoinWallet = () => {
       <Card template="front" flex>
         <CardToggle onClick={() => toggle(!backSided)} />
         <CardBalance
+          badgeCaption="Active"
           from={{
             currency: 'Bitcoin',
             value: 1526.56,

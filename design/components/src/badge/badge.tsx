@@ -7,11 +7,12 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 const badgeStyle: CSSObject = {
-  padding: `${spacing('xsmall')} ${spacing()}`,
+  padding: `0.2rem ${spacing('small')}`,
   textAlign: 'center',
   textTransform: 'uppercase',
   borderRadius: rem(100),
-  fontSize: rem(12),
+  fontSize: rem(10),
+  lineHeight: rem(10),
   letterSpacing: rem(1),
 };
 
