@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.32.0](https://github.com/coingaming/sportsbet-design/compare/v0.31.0...v0.32.0) (2019-05-07)
+
+
+### Features
+
+* **colors:** new base colors ([27e3393](https://github.com/coingaming/sportsbet-design/commit/27e3393))
+
+
+
+
+
 # [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
 
 
