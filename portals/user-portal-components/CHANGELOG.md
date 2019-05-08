@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/coingaming/sportsbet-design/compare/v0.32.0...v0.33.0) (2019-05-08)
+
+
+### Bug Fixes
+
+* **wallets:** add wallet border & hover colors ([5346ded](https://github.com/coingaming/sportsbet-design/commit/5346ded))
+* **wallets:** remove background gradient for user-app views ([ed2a022](https://github.com/coingaming/sportsbet-design/commit/ed2a022))
+
+
+
+
+
 # [0.32.0](https://github.com/coingaming/sportsbet-design/compare/v0.31.0...v0.32.0) (2019-05-07)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
