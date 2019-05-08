@@ -4,11 +4,12 @@ exports[`Badge renders correctly 1`] = `
 .emotion-0 {
   color: #fff;
   background-color: #0cd664;
-  padding: 0.25rem 1rem;
+  padding: 0.2rem 0.5rem;
   text-align: center;
   text-transform: uppercase;
   border-radius: 6.25rem;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
+  line-height: 0.625rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
   -ms-letter-spacing: 0.0625rem;
@@ -26,11 +27,12 @@ exports[`Badge renders correctly with background color 1`] = `
 .emotion-0 {
   color: #fff;
   background-color: red;
-  padding: 0.25rem 1rem;
+  padding: 0.2rem 0.5rem;
   text-align: center;
   text-transform: uppercase;
   border-radius: 6.25rem;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
+  line-height: 0.625rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
   -ms-letter-spacing: 0.0625rem;
@@ -48,11 +50,12 @@ exports[`Badge renders correctly with color 1`] = `
 .emotion-0 {
   color: red;
   background-color: #0cd664;
-  padding: 0.25rem 1rem;
+  padding: 0.2rem 0.5rem;
   text-align: center;
   text-transform: uppercase;
   border-radius: 6.25rem;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
+  line-height: 0.625rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
   -ms-letter-spacing: 0.0625rem;

@@ -6,6 +6,17 @@ exports[`CardBalance renders correctly 1`] = `
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .emotion-0:first-child {
@@ -27,6 +38,17 @@ exports[`CardBalance renders correctly 1`] = `
   text-decoration: none;
   font-size: 1.0625rem;
   line-height: 1.25rem;
+}
+
+.emotion-4 {
+  margin-top: 0;
+  color: #8697a2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.emotion-4:first-child {
+  margin-top: 0;
 }
 
 .emotion-3 {
@@ -52,11 +74,119 @@ exports[`CardBalance renders correctly 1`] = `
     </abbr>
   </p>
   <p
-    className="emotion-0"
+    className="emotion-4"
   >
     354568.68 
     <abbr
       className="emotion-3"
+      title="US Dollars"
+    >
+      USD
+    </abbr>
+  </p>
+</div>
+`;
+
+exports[`CardBalance renders correctly with badge caption 1`] = `
+.emotion-1 {
+  margin-top: 0;
+  color: #8697a2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1:first-child {
+  margin-top: 0;
+}
+
+.emotion-3 {
+  margin-top: 0;
+  font-size: 1.9375rem;
+  line-height: 2.375rem;
+}
+
+.emotion-3:first-child {
+  margin-top: 0;
+}
+
+.emotion-2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
+.emotion-5 {
+  margin-top: 0;
+  color: #8697a2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.emotion-5:first-child {
+  margin-top: 0;
+}
+
+.emotion-4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0 {
+  color: #fff;
+  background-color: #0cd664;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 6.25rem;
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin-left: 1rem;
+}
+
+<div>
+  <p
+    className="emotion-1"
+  >
+    Bitcoin
+    <span
+      className="emotion-0"
+    >
+      Active
+    </span>
+  </p>
+  <p
+    className="emotion-3"
+  >
+    1526.56 
+    <abbr
+      className="emotion-2"
+      title="Millibitcoin"
+    >
+      mBTC
+    </abbr>
+  </p>
+  <p
+    className="emotion-5"
+  >
+    354568.68 
+    <abbr
+      className="emotion-4"
       title="US Dollars"
     >
       USD
@@ -71,6 +201,17 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   color: #8697a2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .emotion-0:first-child {
@@ -92,6 +233,17 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   text-decoration: none;
   font-size: 1.0625rem;
   line-height: 1.25rem;
+}
+
+.emotion-4 {
+  margin-top: 0;
+  color: #8697a2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.emotion-4:first-child {
+  margin-top: 0;
 }
 
 .emotion-3 {
@@ -117,7 +269,7 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
     </abbr>
   </p>
   <p
-    className="emotion-0"
+    className="emotion-4"
   >
     354568.68 
     <abbr
