@@ -74,6 +74,30 @@ An 'empty' ghost outline of the card.
 </Card>
 ```
 
+### Badge
+
+Set a `badgeCaption` prop
+
+```jsx react-live
+<Card flex backgroundIcon={<IconBitcoin />}>
+  <CardToggle />
+  <CardBalance
+    badgeCaption="Active"
+    from={{
+      currency: 'Bitcoin',
+      value: 1526.56,
+      unit: 'mBTC',
+      unitTitle: 'Millibitcoin',
+    }}
+    to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
+  />
+  <div>
+    <Link style={{ marginRight: spacing() }}>Deposit</Link>
+    <Link disabled>Withdraw</Link>
+  </div>
+</Card>
+```
+
 ## Props
 
 <PropsTable of={Card} />
