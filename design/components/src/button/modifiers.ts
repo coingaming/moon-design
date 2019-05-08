@@ -39,22 +39,22 @@ const secondary: CSSObject = {
   color: colors.neutral[10],
   backgroundColor: colors.neutral[70],
   ...buttonHover({
-    backgroundColor: colors.neutral[80],
+    color: colors.neutral[10],
   }),
   ...buttonActive({
-    backgroundColor: colors.neutral[80],
+    color: colors.neutral[10],
   }),
 };
 
 const optional: CSSObject = {
-  color: colors.neutral[70],
+  color: colors.neutral[20],
   backgroundColor: colors.neutral[90],
   border: 'none',
   ...buttonHover({
-    backgroundColor: colors.neutral[100],
+    color: colors.neutral[10],
   }),
   ...buttonActive({
-    backgroundColor: colors.neutral[100],
+    color: colors.neutral[10],
   }),
 };
 
