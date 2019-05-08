@@ -24,7 +24,7 @@ type Colors = {
 const colors: Colors = {
   brand: '#0cd664',
   highlight: '#19A9E2',
-  secondary: '#8697A2',
+  secondary: '#1A212A',
   text: '#ffffff',
   error: '#ff4e64',
   warning: '#FFD600',
