@@ -114,7 +114,7 @@ describe('Button', () => {
       test('Highlight renders with hover', () => {
         const button = create(
           <Button modifier="highlight" mockState="hover">
-            Hover Primary Button
+            Hover Highlight Button
           </Button>
         );
 
@@ -124,7 +124,7 @@ describe('Button', () => {
       test('Highlight renders as active', () => {
         const button = create(
           <Button modifier="highlight" mockState="active">
-            Active Primary Button
+            Active Highlight Button
           </Button>
         );
 
@@ -134,7 +134,7 @@ describe('Button', () => {
       test('Secondary renders with hover', () => {
         const button = create(
           <Button modifier="secondary" mockState="hover">
-            Hover Primary Button
+            Hover Secondary Button
           </Button>
         );
 
@@ -144,7 +144,27 @@ describe('Button', () => {
       test('Secondary renders as active', () => {
         const button = create(
           <Button modifier="secondary" mockState="active">
-            Active Primary Button
+            Active Secondary Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Optional renders with hover', () => {
+        const button = create(
+          <Button modifier="optional" mockState="hover">
+            Hover Optional Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Optional renders as active', () => {
+        const button = create(
+          <Button modifier="optional" mockState="active">
+            Active Optional Button
           </Button>
         );
 
@@ -167,7 +187,7 @@ describe('Button', () => {
     test('renders outline as highlight', () => {
       const button = create(
         <Button modifier="highlight" outline>
-          Secondary Button
+          Highlight Button
         </Button>
       );
 
@@ -177,6 +197,16 @@ describe('Button', () => {
     test('renders outline as secondary', () => {
       const button = create(
         <Button modifier="secondary" outline>
+          Secondary Button
+        </Button>
+      );
+
+      expect(button).toMatchSnapshot();
+    });
+
+    test('renders outline as optional', () => {
+      const button = create(
+        <Button modifier="optional" outline>
           Optional Button
         </Button>
       );
@@ -239,6 +269,26 @@ describe('Button', () => {
         const button = create(
           <Button modifier="secondary" mockState="active" outline>
             Active Primary Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Optional renders with hover', () => {
+        const button = create(
+          <Button modifier="optional" mockState="hover" outline>
+            Hover Optional Button
+          </Button>
+        );
+
+        expect(button).toMatchSnapshot();
+      });
+
+      test('Optional renders as active', () => {
+        const button = create(
+          <Button modifier="optional" mockState="active" outline>
+            Active Optional Button
           </Button>
         );
 
