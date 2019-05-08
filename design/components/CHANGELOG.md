@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.34.0](https://github.com/coingaming/sportsbet-design/compare/v0.33.0...v0.34.0) (2019-05-08)
+
+
+### Features
+
+* **buttons:** buttons style ([d542a10](https://github.com/coingaming/sportsbet-design/commit/d542a10))
+
+
+
+
+
 # [0.33.0](https://github.com/coingaming/sportsbet-design/compare/v0.32.0...v0.33.0) (2019-05-08)
 
 
