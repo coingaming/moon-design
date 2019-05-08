@@ -11,15 +11,17 @@ import {
   FormItem,
   Select,
 } from '@heathmont/sportsbet-components';
+import { IconBitcoin } from '@heathmont/sportsbet-icons/lib/svg/IconBitcoin';
 
 export const BitcoinWallet = () => {
   const [backSided, toggle] = useState(false);
 
   if (!backSided) {
     return (
-      <Card template="front" flex>
+      <Card flex backgroundIcon={<IconBitcoin />}>
         <CardToggle onClick={() => toggle(!backSided)} />
         <CardBalance
+          badgeCaption="Active"
           from={{
             currency: 'Bitcoin',
             value: 1526.56,
@@ -29,10 +31,16 @@ export const BitcoinWallet = () => {
           to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
         />
         <div>
-          <Link href={'/deposit-btc'} style={{ marginRight: spacing() }}>
+          <Link
+            secondary
+            href={'/deposit-btc'}
+            style={{ marginRight: spacing() }}
+          >
             Deposit
           </Link>
-          <Link href={'/withdraw'}>Withdraw</Link>
+          <Link secondary href={'/withdraw'}>
+            Withdraw
+          </Link>
         </div>
       </Card>
     );
