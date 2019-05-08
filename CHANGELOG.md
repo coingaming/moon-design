@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/coingaming/sportsbet-design/compare/v0.32.0...v0.33.0) (2019-05-08)
+
+
+### Bug Fixes
+
+* **wallets:** add wallet border & hover colors ([5346ded](https://github.com/coingaming/sportsbet-design/commit/5346ded))
+* **wallets:** cards background icons ([7f75968](https://github.com/coingaming/sportsbet-design/commit/7f75968))
+* **wallets:** remove background gradient for user-app views ([ed2a022](https://github.com/coingaming/sportsbet-design/commit/ed2a022))
+
+
+### Features
+
+* **button:** optional button ([e0c48b0](https://github.com/coingaming/sportsbet-design/commit/e0c48b0))
+* **card:** add badge to card ([714c34a](https://github.com/coingaming/sportsbet-design/commit/714c34a))
+* **card:** currency background icons ([87dcd8f](https://github.com/coingaming/sportsbet-design/commit/87dcd8f))
+
+
+
+
+
 # [0.32.0](https://github.com/coingaming/sportsbet-design/compare/v0.31.0...v0.32.0) (2019-05-07)
 
 
