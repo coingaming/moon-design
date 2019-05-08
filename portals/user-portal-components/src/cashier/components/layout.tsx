@@ -10,7 +10,6 @@ jsx;
 
 const Background = styled.div([
   {
-    // gridArea: 'nav',
     width: '100%',
     background: `linear-gradient(${colors.neutral[90]} 14rem, 0%, ${
       colors.neutral[80]
@@ -19,9 +18,7 @@ const Background = styled.div([
 ]);
 
 export const CashierLayout: React.FC = ({ children }) => (
-  <Background>
-    <div css={container('default')}>{children}</div>
-  </Background>
+  <div css={container('default')}>{children}</div>
 );
 
 const heading: CSSObject = {
