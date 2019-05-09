@@ -26,26 +26,18 @@ const skipLink: CSSObject = {
 const Nav = styled.nav(() => [
   {
     width: '100%',
-    position: 'fixed',
-    top: 0,
-    height: rem(192),
-    zIndex: 2,
     backgroundColor: colors.neutral[90],
-    [mq(breakpoints.large)]: {
-      height: rem(160),
-    },
   },
 ]);
 
 const navGrid: CSSObject = {
   display: 'grid',
-  gridTemplateRows: `${rem(80)} auto auto`,
+  gridTemplateRows: `${rem(80)} auto`,
   gridTemplateColumns: '1fr 1fr',
   gridColumnGap: spacing(),
   gridTemplateAreas: `
       "hamburger    buttons"
       "search       search"
-      "nav          nav"
     `,
   marginTop: 0,
   marginLeft: 0,
@@ -56,10 +48,9 @@ const navGrid: CSSObject = {
   },
   [mq(breakpoints.large)]: {
     gridTemplateColumns: 'fit-content(20%) auto fit-content(20%)',
-    gridTemplateRows: `${rem(80)} auto`,
+    gridTemplateRows: `${rem(80)}`,
     gridTemplateAreas: `
         "hamburger    search    buttons"
-        "nav          nav       nav"
       `,
   },
 };
