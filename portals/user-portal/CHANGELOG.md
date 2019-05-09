@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.34.2](https://github.com/coingaming/sportsbet-design/compare/v0.34.1...v0.34.2) (2019-05-09)
+
+
+### Bug Fixes
+
+* **nav:** layout fixes ([94d4090](https://github.com/coingaming/sportsbet-design/commit/94d4090))
+
+
+
+
+
 ## [0.34.1](https://github.com/coingaming/sportsbet-design/compare/v0.34.0...v0.34.1) (2019-05-09)
 
 
