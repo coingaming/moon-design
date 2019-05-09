@@ -63,8 +63,5 @@ export const Nav = () => (
       </Link>
       <Button modifier="primary">Register</Button>
     </div>
-    <div css={{ gridArea: 'nav' }}>
-      <CashierNav />
-    </div>
   </Navigation>
 );
