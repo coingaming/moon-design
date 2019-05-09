@@ -4,6 +4,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
+import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
@@ -38,7 +39,21 @@ export const WalletsView = () => {
   return (
     <React.Fragment>
       <Nav />
-      <CashierNav />
+      <div
+        css={[
+          {
+            position: 'sticky',
+            top: 0,
+            zIndex: 1,
+          },
+          { ...container('default') },
+          {
+            overflowX: 'auto',
+          },
+        ]}
+      >
+        <CashierNav />
+      </div>
       <div>
         <CashierLayout>
           <CashierHeading>Wallet</CashierHeading>
