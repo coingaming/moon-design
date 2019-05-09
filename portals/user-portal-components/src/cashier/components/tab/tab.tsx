@@ -15,6 +15,7 @@ const tabSkipLinkID = 'tab-skip';
 const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
+  minWidth: rem(600),
   height: rem(56),
   backgroundColor: colors.neutral[90],
 };
@@ -34,7 +35,6 @@ const skipLink: CSSObject = {
 };
 
 const tabList: CSSObject = {
-  maxWidth: '100vw',
   display: 'flex',
   flexDirection: 'row',
   whiteSpace: 'nowrap',
