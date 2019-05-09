@@ -4,6 +4,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
+import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
@@ -22,6 +23,7 @@ import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
 import { Nav } from '../../../nav/dump-components/logged-in-nav';
+import { CashierNav } from '../deposit/dumb-components/navigations';
 jsx;
 
 const transactionItems = [
@@ -37,7 +39,22 @@ export const WalletsView = () => {
   return (
     <React.Fragment>
       <Nav />
-      <div css={{ marginTop: '10rem' }}>
+      <div
+        css={[
+          {
+            position: 'sticky',
+            top: 0,
+            zIndex: 1,
+          },
+          { ...container('default') },
+          {
+            overflowX: 'auto',
+          },
+        ]}
+      >
+        <CashierNav />
+      </div>
+      <div>
         <CashierLayout>
           <CashierHeading>Wallet</CashierHeading>
           <HeadingDescription>
