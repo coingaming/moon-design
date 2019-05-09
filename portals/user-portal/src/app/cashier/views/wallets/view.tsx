@@ -54,7 +54,7 @@ export const WalletsView = () => {
       >
         <CashierNav />
       </div>
-      <div>
+      <div css={{ overflow: 'hidden' }}>
         <CashierLayout>
           <CashierHeading>Wallet</CashierHeading>
           <HeadingDescription>
