@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.34.1](https://github.com/coingaming/sportsbet-design/compare/v0.34.0...v0.34.1) (2019-05-09)
+
+
+### Bug Fixes
+
+* **header:** sticky header ([a250ba1](https://github.com/coingaming/sportsbet-design/commit/a250ba1))
+* **nav:** overflow x for cashier nav ([4199ebd](https://github.com/coingaming/sportsbet-design/commit/4199ebd))
+
+
+
+
+
 # [0.34.0](https://github.com/coingaming/sportsbet-design/compare/v0.33.0...v0.34.0) (2019-05-08)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
