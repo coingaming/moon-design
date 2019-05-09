@@ -22,6 +22,7 @@ import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
 import { Nav } from '../../../nav/dump-components/logged-in-nav';
+import { CashierNav } from '../deposit/dumb-components/navigations';
 jsx;
 
 const transactionItems = [
@@ -37,7 +38,8 @@ export const WalletsView = () => {
   return (
     <React.Fragment>
       <Nav />
-      <div css={{ marginTop: '10rem' }}>
+      <CashierNav />
+      <div>
         <CashierLayout>
           <CashierHeading>Wallet</CashierHeading>
           <HeadingDescription>
