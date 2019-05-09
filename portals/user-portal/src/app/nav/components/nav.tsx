@@ -27,6 +27,7 @@ const Nav = styled.nav(() => [
   {
     width: '100%',
     backgroundColor: colors.neutral[90],
+    overflow: 'hidden',
   },
 ]);
 

@@ -15,12 +15,7 @@ const tabSkipLinkID = 'tab-skip';
 const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
-  position: 'sticky',
-  top: 0,
   height: rem(56),
-  // overflowX: 'scroll',
-  // overflowY: 'hidden',
-  zIndex: 2,
   backgroundColor: colors.neutral[90],
 };
 
