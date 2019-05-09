@@ -82,8 +82,5 @@ export const Nav = () => (
         <IconProfile css={{ color: colors.neutral[20], fontSize: '1.25rem' }} />
       </div>
     </div>
-    <div css={{ gridArea: 'nav' }}>
-      <CashierNav />
-    </div>
   </Navigation>
 );
