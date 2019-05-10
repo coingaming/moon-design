@@ -15,13 +15,11 @@ const tabSkipLinkID = 'tab-skip';
 const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
-  minWidth: rem(600),
-  height: rem(180),
-  // height: rem(80),
+  minWidth: rem(660),
+  height: rem(80),
   backgroundColor: colors.neutral[90],
   [mq(breakpoints.medium)]: {
-    height: rem(156),
-    // height: rem(56),
+    height: rem(56),
   },
 };
 
@@ -61,8 +59,8 @@ const Tab: React.FC = ({ children }) => {
   );
 };
 
-const TabItem = styled(NavLink)<{ active?: boolean; divider?: boolean }>(
-  ({ active = false, divider = false }) => [
+const TabItem = styled(NavLink)<{ active?: boolean; rightAligned?: boolean }>(
+  ({ active = false, rightAligned = false }) => [
     {
       display: 'flex',
       flexDirection: 'column',
@@ -81,17 +79,17 @@ const TabItem = styled(NavLink)<{ active?: boolean; divider?: boolean }>(
       borderBottom: `${underlineWidth}px solid ${colors.brand}`,
       color: colors.neutral[10],
     },
-    divider && {
+    rightAligned && {
       [mq(breakpoints.small)]: {
         marginLeft: 'auto',
-        '&::before': {
-          // https://github.com/tylerthehaas/dev-journal/blob/master/2018/December.md#december-12th-2018
-          content: '""',
-          height: spacing(),
-          marginRight: spacing(),
-          borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
-          backgroundColor: colors.neutral[20],
-        },
+        // '&::before': {
+        //   // https://github.com/tylerthehaas/dev-journal/blob/master/2018/December.md#december-12th-2018
+        //   content: '""',
+        //   height: spacing(),
+        //   marginRight: spacing(),
+        //   borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
+        //   backgroundColor: colors.neutral[20],
+        // },
       },
     },
   ]
