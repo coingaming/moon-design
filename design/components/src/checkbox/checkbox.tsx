@@ -12,7 +12,7 @@ import { inputBorder, inputColors } from '../private/input';
 /**
  * Types
  */
-type CheckboxProps = {
+type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label: string;
   disabled?: boolean;
   hiddenLabel?: boolean;
