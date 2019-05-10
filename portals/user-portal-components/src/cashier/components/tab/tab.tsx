@@ -16,8 +16,13 @@ const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
   minWidth: rem(600),
-  height: rem(56),
+  height: rem(180),
+  // height: rem(80),
   backgroundColor: colors.neutral[90],
+  [mq(breakpoints.medium)]: {
+    height: rem(156),
+    // height: rem(56),
+  },
 };
 
 const skipLink: CSSObject = {
@@ -38,6 +43,7 @@ const tabList: CSSObject = {
   display: 'flex',
   flexDirection: 'row',
   whiteSpace: 'nowrap',
+  height: '100%',
   marginTop: 0,
   marginLeft: 0,
   borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
@@ -58,6 +64,9 @@ const Tab: React.FC = ({ children }) => {
 const TabItem = styled(NavLink)<{ active?: boolean; divider?: boolean }>(
   ({ active = false, divider = false }) => [
     {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
       textDecoration: 'none',
       color: colors.neutral[20],
       cursor: 'pointer',
