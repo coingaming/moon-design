@@ -1,9 +1,12 @@
+/** @jsx jsx */
 import * as React from 'react';
 import styled, { CSSObject } from '@emotion/styled';
+import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconCaptionLogo } from '../logo/icon-caption-logo';
+jsx;
 
 const DetailsContainer = styled.div({
   display: 'flex',
@@ -47,7 +50,7 @@ const Item = styled.li<ItemProps>(({ active }) => [
 
 const CenteredLogo = styled.div({
   display: 'flex',
-  flexDirection: 'row',
+  flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
 });
@@ -57,7 +60,29 @@ export const HamburgerDetails = () => {
     <DetailsContainer>
       <CenteredLogo>
         <IconCaptionLogo />
+        <p
+          css={{
+            fontSize: rem(16),
+            color: colors.neutral[20],
+          }}
+        >
+          Ivergletzeternateigh
+        </p>
       </CenteredLogo>
+      <div>
+        <div>
+          <p>1535.82</p>
+          <p>Balance</p>
+        </div>
+        <div>
+          Notification Icon
+          <p>Notification</p>
+        </div>
+        <div>
+          Live chat icon
+          <p>Live chat</p>
+        </div>
+      </div>
       <List>
         <Item active>Sports</Item>
         <Item>Casino</Item>
