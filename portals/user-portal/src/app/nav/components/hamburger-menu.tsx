@@ -45,6 +45,7 @@ const Summary = styled.summary({
 });
 
 const DetailsDialog = styled.div({
+  zIndex: 2,
   position: 'absolute',
   top: 0,
   left: 0,
