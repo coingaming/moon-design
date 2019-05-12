@@ -25,7 +25,7 @@ type IconProps = {
   backgroundColor?: string;
   circleColor?: string;
 };
-export const IconLeftChat = styled(Svg)<IconProps>(
+export const IconLiveChat = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor }) => [
     {
       verticalAlign: 'middle',
