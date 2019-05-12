@@ -27,6 +27,16 @@ describe('Link', () => {
     expect(link).toMatchSnapshot();
   });
 
+  test('renders as a optional', () => {
+    const link = create(
+      <Link optional href="#test-path">
+        I'm an optiona; link
+      </Link>
+    );
+
+    expect(link).toMatchSnapshot();
+  });
+
   describe('renders as disabled', () => {
     test('for button elements', () => {
       const link = create(
