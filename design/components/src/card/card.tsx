@@ -71,7 +71,7 @@ const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
       backgroundIcon && {
         backgroundRepeat: 'no-repeat',
         backgroundBlendMode: 'luminosity',
-        backgroundImage: `${inlineSVG(backgroundIcon)}`,
+        backgroundImage: inlineSVG(backgroundIcon),
         backgroundSize: `auto 75%, ${cardGradientSizes}`,
         backgroundPosition: `center right ${spacing()}`,
       },

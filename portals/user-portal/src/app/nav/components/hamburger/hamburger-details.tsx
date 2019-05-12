@@ -5,16 +5,22 @@ import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { IconCaptionLogo } from '../logo/icon-caption-logo';
 import { IconNotification } from '@heathmont/sportsbet-icons/lib/svg/IconNotification';
 import { IconLiveChat } from '@heathmont/sportsbet-icons/lib/svg/IconLiveChat';
-import { Link } from '@heathmont/sportsbet-components';
+import { Link, Select } from '@heathmont/sportsbet-components';
+import { IconCaptionLogo } from '../logo/icon-caption-logo';
+import { IconFacebook } from '../logo/IconFacebook';
+import { IconGoogle } from '../logo/IconGoogle';
+import { IconTelegram } from '../logo/IconTelegram';
+import { IconTwitter } from '../logo/IconTwitter';
 jsx;
 
 const DetailsContainer = styled.div({
   display: 'flex',
   flexDirection: 'column',
   marginTop: rem(90),
+  marginLeft: spacing('large'),
+  marginRight: spacing('large'),
 });
 
 type ItemProps = {
@@ -25,6 +31,7 @@ const List = styled.ul({
   display: 'flex',
   flexDirection: 'column',
   listStyleType: 'none',
+  marginLeft: 0,
 });
 
 const activeCss: CSSObject = {
@@ -41,7 +48,6 @@ const activeCss: CSSObject = {
 };
 const Item = styled.li<ItemProps>(({ active }) => [
   {
-    marginLeft: spacing('medium'),
     marginTop: spacing('large'),
     fontSize: rem(20),
     color: colors.neutral[20],
@@ -71,8 +77,30 @@ const Balance = styled.p({
   color: colors.neutral[10],
   fontSize: rem(24),
   lineHeight: rem(30),
+  marginBottom: spacing('small'),
   '&:hover': {
     color: colors.neutral[10],
+  },
+});
+
+const Username = styled.p({
+  fontSize: rem(16),
+  color: colors.neutral[20],
+  marginTop: spacing('small'),
+});
+
+const Icon = styled.div({
+  height: rem(40),
+  width: rem(40),
+  border: `${border.width}px solid ${colors.neutral[65]}`,
+  borderRadius: border.radius.small,
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginRight: spacing('small'),
+  fontSize: rem(20),
+  '&:hover': {
+    border: `${border.width}px solid ${colors.neutral[20]}`,
   },
 });
 
@@ -81,15 +109,7 @@ export const HamburgerDetails = () => {
     <DetailsContainer>
       <CenteredLogo>
         <IconCaptionLogo />
-        <p
-          css={{
-            fontSize: rem(16),
-            color: colors.neutral[20],
-            marginTop: spacing('small'),
-          }}
-        >
-          Ivergletzeternateigh
-        </p>
+        <Username>Ivergletzeternateigh</Username>
       </CenteredLogo>
       <div
         css={{
@@ -106,11 +126,15 @@ export const HamburgerDetails = () => {
           Balance
         </Link>
         <Link css={column} href="#" optional>
-          <IconNotification css={{ fontSize: '1.5rem' }} />
+          <IconNotification
+            css={{ fontSize: '1.5rem', marginBottom: spacing('small') }}
+          />
           Notification
         </Link>
         <Link css={column} href="#" optional>
-          <IconLiveChat css={{ fontSize: '1.5rem' }} />
+          <IconLiveChat
+            css={{ fontSize: '1.5rem', marginBottom: spacing('small') }}
+          />
           Live chat
         </Link>
       </div>
@@ -123,6 +147,79 @@ export const HamburgerDetails = () => {
         <Item>About</Item>
         <Item>Support</Item>
       </List>
+
+      <div
+        css={{
+          display: 'flex',
+          flexDirection: 'column',
+          marginTop: spacing('xlarge'),
+          flexWrap: 'nowrap',
+        }}
+      >
+        <Select>
+          <option value="en">English</option>
+          <option value="pt">Portuguese</option>
+        </Select>
+        <Select css={{ marginTop: spacing() }}>
+          <option value="decimal">Decimal</option>
+          <option value="american">American</option>
+          <option value="hong-kong">Hong Kong</option>
+        </Select>
+      </div>
+      <div css={{ marginTop: spacing('large') }}>
+        <p css={{ color: colors.neutral[20] }}>Follow us</p>
+        <div
+          css={{
+            display: 'flex',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            marginTop: spacing(),
+          }}
+        >
+          <Icon>
+            <IconFacebook />
+          </Icon>
+
+          <Icon>
+            <IconGoogle />
+          </Icon>
+
+          <Icon>
+            <IconTelegram />
+          </Icon>
+
+          <Icon>
+            <IconTwitter />
+          </Icon>
+        </div>
+      </div>
+      <div
+        css={{
+          display: 'flex',
+          flexDirection: 'row',
+          marginTop: spacing('large'),
+        }}
+      >
+        <img
+          style={{
+            width: rem(42),
+            height: rem(42),
+            marginRight: spacing(),
+          }}
+          src="/assets/img/curacao.png"
+          alt="Curaçao eGaming License"
+        />
+        <p css={{ color: colors.neutral[20] }}>Curaçao eGaming License</p>
+      </div>
+      <p
+        css={{
+          color: colors.neutral[20],
+          fontSize: rem(12),
+          marginTop: spacing('large'),
+        }}
+      >
+        © All rights reserved.
+      </p>
     </DetailsContainer>
   );
 };
