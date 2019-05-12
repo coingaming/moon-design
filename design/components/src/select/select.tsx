@@ -30,6 +30,7 @@ const select: CSSObject = {
   paddingRight: rem(selectIconOffset),
   backgroundPosition: `right ${rem(selectIconSize)} center`,
   backgroundSize: rem(selectIconSize),
+  borderRadius: rem(100),
   '&:hover, &:focus': {
     cursor: 'pointer',
   },
