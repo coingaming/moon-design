@@ -6,12 +6,15 @@ import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconCaptionLogo } from '../logo/icon-caption-logo';
+import { IconNotification } from '@heathmont/sportsbet-icons/lib/svg/IconNotification';
+import { IconLiveChat } from '@heathmont/sportsbet-icons/lib/svg/IconLiveChat';
+import { Link } from '@heathmont/sportsbet-components';
 jsx;
 
 const DetailsContainer = styled.div({
   display: 'flex',
   flexDirection: 'column',
-  marginTop: spacing('large'),
+  marginTop: rem(90),
 });
 
 type ItemProps = {
@@ -55,6 +58,24 @@ const CenteredLogo = styled.div({
   justifyContent: 'center',
 });
 
+const column: CSSObject = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  '&:hover': {
+    color: colors.neutral[10],
+  },
+};
+
+const Balance = styled.p({
+  color: colors.neutral[10],
+  fontSize: rem(24),
+  lineHeight: rem(30),
+  '&:hover': {
+    color: colors.neutral[10],
+  },
+});
+
 export const HamburgerDetails = () => {
   return (
     <DetailsContainer>
@@ -64,24 +85,34 @@ export const HamburgerDetails = () => {
           css={{
             fontSize: rem(16),
             color: colors.neutral[20],
+            marginTop: spacing('small'),
           }}
         >
           Ivergletzeternateigh
         </p>
       </CenteredLogo>
-      <div>
-        <div>
-          <p>1535.82</p>
-          <p>Balance</p>
-        </div>
-        <div>
-          Notification Icon
-          <p>Notification</p>
-        </div>
-        <div>
-          Live chat icon
-          <p>Live chat</p>
-        </div>
+      <div
+        css={{
+          display: 'flex',
+          flexDirection: 'row',
+          flexWrap: 'nowrap',
+          justifyContent: 'space-around',
+          alignItems: 'center',
+          marginTop: spacing('large'),
+        }}
+      >
+        <Link css={column} href="#" optional>
+          <Balance>1535.82</Balance>
+          Balance
+        </Link>
+        <Link css={column} href="#" optional>
+          <IconNotification css={{ fontSize: '1.5rem' }} />
+          Notification
+        </Link>
+        <Link css={column} href="#" optional>
+          <IconLiveChat css={{ fontSize: '1.5rem' }} />
+          Live chat
+        </Link>
       </div>
       <List>
         <Item active>Sports</Item>

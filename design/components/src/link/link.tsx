@@ -9,6 +9,7 @@ type LinkProps = {
   href?: string;
   disabled?: boolean;
   secondary?: boolean;
+  optional?: boolean;
 };
 
 /**
@@ -33,13 +34,21 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-const Link: React.FC<LinkProps> = ({ href, secondary, ...props }) => {
+const Link: React.FC<LinkProps> = ({ href, secondary, optional, ...props }) => {
   const LinkElement = !href ? 'button' : 'a';
   const secondaryProps = secondary ? { color: colors.neutral[20] } : {};
+  const optionalProps = optional
+    ? {
+        color: colors.neutral[20],
+        '&:hover, &:focus, &:active': {
+          color: colors.neutral[10],
+        },
+      }
+    : {};
 
   return jsx(LinkElement, {
     href: href || undefined,
-    css: { ...linkBase, ...secondaryProps },
+    css: { ...linkBase, ...secondaryProps, ...optionalProps },
     ...props,
   });
 };
