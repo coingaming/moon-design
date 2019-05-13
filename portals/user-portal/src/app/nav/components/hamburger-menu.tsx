@@ -55,6 +55,7 @@ const DetailsDialog = styled.div({
   top: 0,
   left: 0,
   width: '100%',
+  overflow: 'hidden',
   height: '160vh',
   background: colors.neutral[90],
 });
