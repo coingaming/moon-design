@@ -15,7 +15,6 @@ import {
 
 const searchBox: CSSObject = {
   border: 0,
-  //   padding: '0.5rem 0.5rem 0.5rem 0',
   padding: spacing('small'),
   flex: 1,
   backgroundColor: colors.neutral[60],
@@ -31,21 +30,17 @@ const searchBox: CSSObject = {
 };
 
 const SearchContainer = styled.form({
-  width: '100%',
+  // width: '100%',
   display: 'inline-flex',
   flex: '1 1 auto',
   alignItems: 'center',
-  border: `${border.width}px solid ${colors.neutral[50]}`,
   borderRadius: rem(100),
   overflow: 'hidden',
   backgroundColor: colors.neutral[60],
   color: colors.neutral[20],
-  // order: 6,
-  minWidth: rem(350),
+  // minWidth: rem(300),
   [mq(breakpoints.medium)]: {
-    // TODO
-    // order: 'initial',
-    minWidth: rem(150),
+    // minWidth: rem(150),
   },
 });
 
