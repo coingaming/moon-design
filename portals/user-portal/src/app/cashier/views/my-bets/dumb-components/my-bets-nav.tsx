@@ -14,9 +14,11 @@ export const MyBetsNav = () => (
     <TabItem to={'/account'}>Account</TabItem>
     <TabItem to={'/notifications'}>Notifications</TabItem>
     <TabItem to={'/settings'}>Settings</TabItem>
-    <TabItem to={'/'} divider>
-      Return to sportsbook
-      <CloseButton />
+    <TabItem to={'#'} rightAligned>
+      <p>
+        Return to sportsbook
+        <CloseButton />
+      </p>
     </TabItem>
   </Tab>
 );

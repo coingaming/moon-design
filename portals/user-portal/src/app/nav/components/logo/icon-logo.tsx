@@ -27,5 +27,6 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 export const IconLogo = styled(Svg)({
+  fontSize: '2rem',
   verticalAlign: 'middle',
 });
