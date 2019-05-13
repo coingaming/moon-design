@@ -1,23 +1,22 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { Navigation } from '../components/nav';
-import { HamburgerMenu } from '../components/hamburger-menu';
-import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
-import { Search } from '../components/search/search';
-import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
-import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { jsx } from '@emotion/core';
-import { HeaderTabs } from '../components/header-tabs/header-tabs';
-import { MyBetsCounter, Digit } from '../components/my-bets/my-bets-counter';
+import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { IconProfile } from '@heathmont/sportsbet-icons';
 import { colors, border } from '@heathmont/sportsbet-tokens';
+import { Navigation } from '../components/nav';
+import { HamburgerMenu } from '../components/hamburger-menu';
+import { HeaderTabs } from '../components/header-tabs/header-tabs';
+import { MyBetsCounter, Digit } from '../components/my-bets/my-bets-counter';
+import { IconLogo } from '../components/logo/icon-logo';
+import { Search } from '../components/search/search';
 jsx;
 
 export const Nav = () => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
-      <IconCaptionLogo css={{ marginRight: spacing() }} />
+      <IconLogo css={{ marginRight: spacing() }} />
       <HeaderTabs />
     </div>
 

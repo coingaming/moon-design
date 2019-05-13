@@ -24,6 +24,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   color: white;
@@ -106,6 +107,7 @@ exports[`Select renders a select input with options 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
 }
 
 .emotion-0:disabled {
@@ -184,6 +186,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   color: white;
@@ -267,6 +270,7 @@ exports[`Select renders as disabled for default select input 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
 }
 
 .emotion-0:disabled {
@@ -346,6 +350,7 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   color: white;
@@ -422,6 +427,7 @@ exports[`Select renders as full-width for default select input 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
 }
 
 .emotion-0:disabled {
@@ -494,6 +500,7 @@ exports[`Select renders with label above the input 1`] = `
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
 }
 
 .emotion-1:disabled {
@@ -584,6 +591,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
 }
 
 .emotion-1:disabled {
@@ -706,6 +714,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   padding-right: 2.375rem;
   background-position: right 0.625rem center;
   background-size: 0.625rem;
+  border-radius: 6.25rem;
 }
 
 .emotion-1:disabled {

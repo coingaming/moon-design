@@ -67,6 +67,40 @@ exports[`Link renders as a button by default 1`] = `
 </button>
 `;
 
+exports[`Link renders as a optional 1`] = `
+.emotion-0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: #8697a2;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #fff;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+<a
+  className="emotion-0"
+  href="#test-path"
+>
+  I'm an optiona; link
+</a>
+`;
+
 exports[`Link renders as a secondary 1`] = `
 .emotion-0 {
   display: inline-block;
