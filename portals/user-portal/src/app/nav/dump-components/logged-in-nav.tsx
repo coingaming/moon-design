@@ -7,7 +7,11 @@ import { colors, border } from '@heathmont/sportsbet-tokens';
 import { Navigation } from '../components/nav';
 import { HamburgerMenu } from '../components/hamburger-menu';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
-import { MyBetsCounter, Digit } from '../components/my-bets/my-bets-counter';
+import {
+  MyBets,
+  MyBetsDigit,
+  MyBetsCaption,
+} from '../components/my-bets/my-bets';
 import { IconLogo } from '../components/logo/icon-logo';
 import { Search } from '../components/search/search';
 import {
@@ -47,24 +51,11 @@ export const Nav = () => (
         justifyContent: 'flex-end',
       }}
     >
-      <MyBetsCounter>
-        <Digit>0</Digit>
-        <Digit>1</Digit>
-        <p
-          css={{
-            color: colors.neutral[20],
-            marginTop: 0,
-            marginLeft: spacing('small'),
-            borderRight: `${border.width}px solid ${colors.neutral[50]}`,
-            paddingRight: spacing(),
-            marginRight: spacing(),
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-          }}
-        >
-          My bets
-        </p>
-      </MyBetsCounter>
+      <MyBets>
+        <MyBetsDigit>0</MyBetsDigit>
+        <MyBetsDigit>1</MyBetsDigit>
+        <MyBetsCaption>My bets</MyBetsCaption>
+      </MyBets>
       <Userhub>
         <UserhubInfo>
           <UserhubInfoUsername>Ivergletzeternateigh</UserhubInfoUsername>
