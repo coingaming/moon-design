@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.35.0](https://github.com/coingaming/sportsbet-design/compare/v0.34.2...v0.35.0) (2019-05-13)
+
+
+### Bug Fixes
+
+* **checkbox:** checkbox props type ([a2f2af9](https://github.com/coingaming/sportsbet-design/commit/a2f2af9))
+* **nav:** minir adjustments ([485e6cb](https://github.com/coingaming/sportsbet-design/commit/485e6cb))
+* **nav:** nav details adjusments ([95c8682](https://github.com/coingaming/sportsbet-design/commit/95c8682))
+* **nav details:** fix nav details z index ([3334e89](https://github.com/coingaming/sportsbet-design/commit/3334e89))
+
+
+### Features
+
+* **nav:** details design ([4e3ca35](https://github.com/coingaming/sportsbet-design/commit/4e3ca35))
+* **nav details:** add icons & initial html structure ([30764b8](https://github.com/coingaming/sportsbet-design/commit/30764b8))
+
+
+
+
+
 ## [0.34.2](https://github.com/coingaming/sportsbet-design/compare/v0.34.1...v0.34.2) (2019-05-09)
 
 
