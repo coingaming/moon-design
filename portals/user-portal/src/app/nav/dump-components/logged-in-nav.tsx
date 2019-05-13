@@ -10,6 +10,13 @@ import { HeaderTabs } from '../components/header-tabs/header-tabs';
 import { MyBetsCounter, Digit } from '../components/my-bets/my-bets-counter';
 import { IconLogo } from '../components/logo/icon-logo';
 import { Search } from '../components/search/search';
+import {
+  UserhubInfoUsername,
+  UserhubInfo,
+  Userhub,
+  UserhubIconProfile,
+  UserhubInfoBalance,
+} from '../components/username/username';
 jsx;
 
 export const Nav = () => (
@@ -58,28 +65,15 @@ export const Nav = () => (
           My bets
         </p>
       </MyBetsCounter>
-      <div
-        css={{
-          display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'nowrap',
-          alignItems: 'center',
-        }}
-      >
-        <div
-          css={{
-            display: 'flex',
-            flexDirection: 'column',
-            flexWrap: 'nowrap',
-            alignItems: 'flex-end',
-            marginRight: spacing('medium'),
-          }}
-        >
-          <div css={{ color: colors.neutral[20] }}>Ivergletzeternateigh</div>
-          <div>1535.82 mBTC</div>
-        </div>
-        <IconProfile css={{ color: colors.neutral[20], fontSize: '1.25rem' }} />
-      </div>
+      <Userhub>
+        <UserhubInfo>
+          <UserhubInfoUsername>Ivergletzeternateigh</UserhubInfoUsername>
+          <UserhubInfoBalance>1535.82 mBTC</UserhubInfoBalance>
+        </UserhubInfo>
+        <UserhubIconProfile>
+          <IconProfile />
+        </UserhubIconProfile>
+      </Userhub>
     </div>
   </Navigation>
 );
