@@ -43,7 +43,13 @@ export const SettingsView = () => (
             you.
           </SettingsText>
         </BlockContent>
-        <Checkbox hiddenLabel label="Display price boosts" />
+        <Checkbox
+          hiddenLabel
+          label="Display price boosts"
+          onChange={() => {
+            console.log('onChange');
+          }}
+        />
       </SettingsBlock>
       <SettingsBlock>
         <BlockContent>
