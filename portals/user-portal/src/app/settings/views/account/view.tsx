@@ -168,7 +168,7 @@ export const AccountView = () => (
             }
           >
             <img
-              alt="https://randomqr.com/assets/images/randomqr-256.png"
+              alt="qr code"
               src="https://randomqr.com/assets/images/randomqr-256.png"
             />
           </GoogleAuthenticator>
