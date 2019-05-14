@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.35.1](https://github.com/coingaming/sportsbet-design/compare/v0.35.0...v0.35.1) (2019-05-14)
+
+
+### Bug Fixes
+
+* **Select:** add React props ([e246fcb](https://github.com/coingaming/sportsbet-design/commit/e246fcb))
+
+
+
+
+
 # [0.35.0](https://github.com/coingaming/sportsbet-design/compare/v0.34.2...v0.35.0) (2019-05-13)
 
 
