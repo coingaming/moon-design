@@ -2,7 +2,7 @@
 
 exports[`Select renders a 'short' variant select input with options 1`] = `
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -85,7 +85,7 @@ exports[`Select renders a 'short' variant select input with options 1`] = `
 
 exports[`Select renders a select input with options 1`] = `
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -164,7 +164,7 @@ exports[`Select renders a select input with options 1`] = `
 
 exports[`Select renders as disabled for 'short' select input 1`] = `
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -248,7 +248,7 @@ exports[`Select renders as disabled for 'short' select input 1`] = `
 
 exports[`Select renders as disabled for default select input 1`] = `
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -328,7 +328,7 @@ exports[`Select renders as disabled for default select input 1`] = `
 
 exports[`Select renders as full-width for 'short' select input 1`] = `
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -405,7 +405,7 @@ exports[`Select renders as full-width for 'short' select input 1`] = `
 
 exports[`Select renders as full-width for default select input 1`] = `
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -478,7 +478,7 @@ exports[`Select renders as full-width for default select input 1`] = `
 
 exports[`Select renders with label above the input 1`] = `
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -569,7 +569,7 @@ exports[`Select renders with label above the input 1`] = `
 
 exports[`Select renders with label as a flex layout evenly spaced by default 1`] = `
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -692,7 +692,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
 
 exports[`Select renders with label as a flex layout with adjusted input size 1`] = `
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
