@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.35.2](https://github.com/coingaming/sportsbet-design/compare/v0.35.1...v0.35.2) (2019-05-14)
+
+
+### Bug Fixes
+
+* **nav:** details select fix ([565171d](https://github.com/coingaming/sportsbet-design/commit/565171d))
+* **nav:** nav details menu items pixel perfect ([c9693d6](https://github.com/coingaming/sportsbet-design/commit/c9693d6))
+* **nav:** nav details style fixes ([8b0c900](https://github.com/coingaming/sportsbet-design/commit/8b0c900))
+
+
+
+
+
 ## [0.35.1](https://github.com/coingaming/sportsbet-design/compare/v0.35.0...v0.35.1) (2019-05-14)
 
 
