@@ -4,7 +4,7 @@ import { Link } from '@heathmont/sportsbet-components/lib/link/';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { Navigation } from '../components/nav';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
-import { HamburgerMenu } from '../components/hamburger-menu';
+import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
 import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
 import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
