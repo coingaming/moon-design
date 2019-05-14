@@ -6,7 +6,6 @@ import {
   container as containerTokens,
   Container as ContainerTokens,
 } from '@heathmont/sportsbet-tokens';
-import { spacing } from '../spacing';
 
 type ContainerSize = keyof ContainerTokens | number;
 
