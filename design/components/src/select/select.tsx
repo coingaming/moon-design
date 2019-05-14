@@ -12,12 +12,13 @@ jsx;
 const selectIconSize = 10; // px
 const selectIconOffset = selectIconSize + inputSpacing * 2;
 
-type SelectProps = LabelSizing & {
-  label?: string;
-  fullWidth?: boolean;
-  short?: boolean;
-  disabled?: boolean;
-};
+type SelectProps = LabelSizing &
+  React.InputHTMLAttributes<HTMLSelectElement> & {
+    label?: string;
+    fullWidth?: boolean;
+    short?: boolean;
+    disabled?: boolean;
+  };
 
 /**
  * Styles
