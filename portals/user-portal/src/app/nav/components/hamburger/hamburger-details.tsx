@@ -77,7 +77,7 @@ const Balance = styled.p({
   color: colors.neutral[10],
   fontSize: rem(24),
   lineHeight: rem(30),
-  marginBottom: spacing('small'),
+  // marginBottom: spacing('small'),
   '&:hover': {
     color: colors.neutral[10],
   },
@@ -96,7 +96,7 @@ const Icon = styled.div({
   borderRadius: border.radius.small,
   display: 'flex',
   justifyContent: 'center',
-  alignItems: 'center',
+  alignItems: 'flex-end',
   marginRight: spacing('small'),
   fontSize: rem(20),
   '&:hover': {

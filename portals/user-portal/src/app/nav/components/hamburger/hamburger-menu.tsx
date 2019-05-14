@@ -9,9 +9,9 @@ import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { IconHamburger, IconClose } from '@heathmont/sportsbet-icons';
 import { mq } from '@heathmont/sportsbet-utils/lib/mq';
 import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
-import { Button } from '@heathmont/sportsbet-components';
 
-import { HamburgerDetails } from './hamburger/hamburger-details';
+import { HamburgerDetails } from './hamburger-details';
+import { IconLogo } from '../logo/icon-logo';
 
 const StyledHamburgerIcon: CSSObject = {
   color: colors.neutral[20],
@@ -20,28 +20,30 @@ const StyledHamburgerIcon: CSSObject = {
   },
 };
 
-const Details = styled.details<{ open?: boolean }>(({ open }) => [
-  {
-    marginRight: spacing('small'),
-  },
-  {
-    [mq(breakpoints.medium)]: {
-      display: 'none',
+const Details = styled.details<{ open?: boolean; onToggle?: any }>(
+  ({ open }) => [
+    {
+      marginRight: spacing('small'),
     },
-  },
-  {
-    '&[open]': {
-      summary: {
-        position: 'absolute',
-        zIndex: 999,
+    {
+      [mq(breakpoints.medium)]: {
+        display: 'none',
       },
-      backgroundColor: colors.neutral[90],
-      // '&::-webkit-details-marker': {
-      //   display: 'none',
-      // }
     },
-  },
-]);
+    {
+      '&[open]': {
+        summary: {
+          position: 'absolute',
+          zIndex: 999,
+        },
+        backgroundColor: colors.neutral[90],
+        // '&::-webkit-details-marker': {
+        //   display: 'none',
+        // }
+      },
+    },
+  ]
+);
 
 const Summary = styled.summary({
   '&::-webkit-details-marker': {
@@ -55,6 +57,7 @@ const DetailsDialog = styled.div({
   top: 0,
   left: 0,
   width: '100%',
+  overflow: 'hidden',
   height: '160vh',
   background: colors.neutral[90],
 });
@@ -71,28 +74,26 @@ const Close = styled.div({
   justifyContent: 'center',
 });
 
-const hover: CSSObject = {
-  '&:hover': {
-    color: `${colors.neutral[10]}`,
-  },
-};
-
 export const HamburgerMenu = () => {
   const [open, toggle] = useState(false);
 
   return (
-    <Details open={open}>
-      <Summary
-        onClick={() => {
-          toggle(!open);
-        }}
-      >
+    <Details
+      open={open}
+      onToggle={() => {
+        toggle(!open);
+      }}
+    >
+      <Summary>
         {open ? (
           <Close>
             <IconClose css={StyledHamburgerIcon} />
           </Close>
         ) : (
-          <IconHamburger css={StyledHamburgerIcon} />
+          <div>
+            <IconHamburger css={StyledHamburgerIcon} />
+            <IconLogo css={{ marginRight: spacing() }} />
+          </div>
         )}
       </Summary>
       <DetailsDialog>
