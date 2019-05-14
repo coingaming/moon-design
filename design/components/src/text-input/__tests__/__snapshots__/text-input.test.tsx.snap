@@ -6,7 +6,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -98,7 +98,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .emotion-4 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -303,7 +303,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -382,7 +382,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .emotion-4 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -566,7 +566,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .emotion-0 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -677,7 +677,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
 }
 
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -739,7 +739,7 @@ exports[`TextInput renders with label above input when defined 1`] = `
 }
 
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
