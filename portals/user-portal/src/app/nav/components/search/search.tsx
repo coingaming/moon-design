@@ -4,16 +4,11 @@ import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import styled, { CSSObject } from '@emotion/styled';
 import { IconSearch } from '@heathmont/sportsbet-icons';
-import { spacing, mq } from '@heathmont/sportsbet-utils';
-import {
-  colors,
-  border,
-  base,
-  typography,
-  breakpoints,
-} from '@heathmont/sportsbet-tokens';
+import { spacing } from '@heathmont/sportsbet-utils';
+import { colors, base, typography } from '@heathmont/sportsbet-tokens';
 
 const searchBox: CSSObject = {
+  minWidth: rem(290),
   border: 0,
   padding: spacing('small'),
   flex: 1,
@@ -30,7 +25,7 @@ const searchBox: CSSObject = {
 };
 
 const SearchContainer = styled.form({
-  // width: '100%',
+  width: '100%',
   display: 'inline-flex',
   flex: '1 1 auto',
   alignItems: 'center',
@@ -38,10 +33,6 @@ const SearchContainer = styled.form({
   overflow: 'hidden',
   backgroundColor: colors.neutral[60],
   color: colors.neutral[20],
-  // minWidth: rem(300),
-  [mq(breakpoints.medium)]: {
-    // minWidth: rem(150),
-  },
 });
 
 const iconSearch: CSSObject = {

@@ -1,18 +1,15 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
-import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { IconProfile } from '@heathmont/sportsbet-icons';
-import { colors, border } from '@heathmont/sportsbet-tokens';
 import { Navigation } from '../components/nav';
-import { HamburgerMenu } from '../components/hamburger-menu';
+import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
 import {
   MyBets,
   MyBetsDigit,
   MyBetsCaption,
 } from '../components/my-bets/my-bets';
-import { IconLogo } from '../components/logo/icon-logo';
 import { Search } from '../components/search/search';
 import {
   UserhubInfoUsername,
@@ -27,7 +24,6 @@ export const Nav = () => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
-      <IconLogo css={{ marginRight: spacing() }} />
       <HeaderTabs />
     </div>
 
