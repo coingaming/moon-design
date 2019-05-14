@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.35.1](https://github.com/coingaming/sportsbet-design/compare/v0.35.0...v0.35.1) (2019-05-14)
+
+
+### Bug Fixes
+
+* **nav:** details toggle fix ([9c6da88](https://github.com/coingaming/sportsbet-design/commit/9c6da88))
+* **nav:** nav my bets cleanup ([f9ed959](https://github.com/coingaming/sportsbet-design/commit/f9ed959))
+* **nav:** usehub section cleanup ([d07436e](https://github.com/coingaming/sportsbet-design/commit/d07436e))
+* **Select:** add React props ([e246fcb](https://github.com/coingaming/sportsbet-design/commit/e246fcb))
+
+
+
+
+
 # [0.35.0](https://github.com/coingaming/sportsbet-design/compare/v0.34.2...v0.35.0) (2019-05-13)
 
 
