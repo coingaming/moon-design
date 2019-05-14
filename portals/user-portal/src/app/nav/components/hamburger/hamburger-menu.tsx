@@ -13,37 +13,24 @@ import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { HamburgerDetails } from './hamburger-details';
 import { IconLogo } from '../logo/icon-logo';
 
-const StyledHamburgerIcon: CSSObject = {
-  color: colors.neutral[20],
-  '&:hover': {
-    color: `${colors.neutral[10]}`,
+const Details = styled.details<{ open?: boolean; onToggle?: any }>({
+  marginRight: spacing('small'),
+  [mq(breakpoints.medium)]: {
+    display: 'none',
   },
-};
-
-const Details = styled.details<{ open?: boolean; onToggle?: any }>(
-  ({ open }) => [
-    {
-      marginRight: spacing('small'),
-    },
-    {
-      [mq(breakpoints.medium)]: {
-        display: 'none',
+  '&[open]': {
+    summary: {
+      position: 'absolute',
+      zIndex: 3,
+      top: spacing('medium'),
+      left: spacing(),
+      [mq(breakpoints.small)]: {
+        left: spacing('medium'),
       },
     },
-    {
-      '&[open]': {
-        summary: {
-          position: 'absolute',
-          zIndex: 999,
-        },
-        backgroundColor: colors.neutral[90],
-        // '&::-webkit-details-marker': {
-        //   display: 'none',
-        // }
-      },
-    },
-  ]
-);
+    backgroundColor: colors.neutral[90],
+  },
+});
 
 const Summary = styled.summary({
   '&::-webkit-details-marker': {
@@ -51,16 +38,23 @@ const Summary = styled.summary({
   },
 });
 
-const DetailsDialog = styled.div({
+const DetailsOverlay = styled.div({
   zIndex: 2,
   position: 'absolute',
   top: 0,
   left: 0,
   width: '100%',
   overflow: 'hidden',
-  height: '160vh',
+  height: '200vh',
   background: colors.neutral[90],
 });
+
+const StyledHamburgerIcon: CSSObject = {
+  color: colors.neutral[20],
+  '&:hover': {
+    color: `${colors.neutral[10]}`,
+  },
+};
 
 const Close = styled.div({
   width: rem(40),
@@ -96,9 +90,9 @@ export const HamburgerMenu = () => {
           </div>
         )}
       </Summary>
-      <DetailsDialog>
+      <DetailsOverlay>
         <HamburgerDetails />
-      </DetailsDialog>
+      </DetailsOverlay>
     </Details>
   );
 };
