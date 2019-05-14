@@ -76,8 +76,7 @@ const column: CSSObject = {
 const Balance = styled.p({
   color: colors.neutral[10],
   fontSize: rem(24),
-  lineHeight: rem(30),
-  // marginBottom: spacing('small'),
+  lineHeight: '2rem',
   '&:hover': {
     color: colors.neutral[10],
   },
@@ -96,12 +95,16 @@ const Icon = styled.div({
   borderRadius: border.radius.small,
   display: 'flex',
   justifyContent: 'center',
-  alignItems: 'flex-end',
+  alignItems: 'center',
   marginRight: spacing('small'),
   fontSize: rem(20),
   '&:hover': {
     border: `${border.width}px solid ${colors.neutral[20]}`,
   },
+});
+
+const LinkItem = styled.p({
+  marginTop: 0,
 });
 
 export const HamburgerDetails = () => {
@@ -123,19 +126,19 @@ export const HamburgerDetails = () => {
       >
         <Link css={column} href="#" optional>
           <Balance>1535.82</Balance>
-          Balance
+          <LinkItem>Balance</LinkItem>
         </Link>
         <Link css={column} href="#" optional>
           <IconNotification
             css={{ fontSize: '1.5rem', marginBottom: spacing('small') }}
           />
-          Notification
+          <LinkItem>Notifications</LinkItem>
         </Link>
         <Link css={column} href="#" optional>
           <IconLiveChat
             css={{ fontSize: '1.5rem', marginBottom: spacing('small') }}
           />
-          Live chat
+          <LinkItem>Live chat</LinkItem>
         </Link>
       </div>
       <List>
@@ -156,7 +159,7 @@ export const HamburgerDetails = () => {
           flexWrap: 'nowrap',
         }}
       >
-        <Select>
+        <Select fullWidth>
           <option value="en">English</option>
           <option value="pt">Portuguese</option>
         </Select>

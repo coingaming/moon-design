@@ -20,7 +20,7 @@ type InputProps = {
 
 export const Input = styled.input((props: InputProps) => [
   {
-    width: '100%',
+    maxWidth: '100%',
     padding: rem(inputSpacing),
     appearance: 'none',
     font: 'inherit',

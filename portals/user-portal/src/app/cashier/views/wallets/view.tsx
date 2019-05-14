@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
+import { spacing } from '@heathmont/sportsbet-utils';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
@@ -54,7 +55,7 @@ export const WalletsView = () => {
       >
         <CashierNav />
       </div>
-      <div css={{ overflow: 'hidden' }}>
+      <div css={{ overflow: 'hidden', marginTop: spacing('large') }}>
         <CashierLayout>
           <CashierHeading>Wallet</CashierHeading>
           <HeadingDescription>
