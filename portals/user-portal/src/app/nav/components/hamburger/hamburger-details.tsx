@@ -95,7 +95,7 @@ const Icon = styled.div({
   borderRadius: border.radius.small,
   display: 'flex',
   justifyContent: 'center',
-  alignItems: 'flex-end',
+  alignItems: 'center',
   marginRight: spacing('small'),
   fontSize: rem(20),
   '&:hover': {
@@ -159,7 +159,7 @@ export const HamburgerDetails = () => {
           flexWrap: 'nowrap',
         }}
       >
-        <Select>
+        <Select fullWidth>
           <option value="en">English</option>
           <option value="pt">Portuguese</option>
         </Select>

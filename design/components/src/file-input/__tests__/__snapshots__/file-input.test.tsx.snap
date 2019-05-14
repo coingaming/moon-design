@@ -2,7 +2,7 @@
 
 exports[`File Input renders a file input with custom label 1`] = `
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -84,7 +84,7 @@ exports[`File Input renders a file input with custom label and placeholder 1`] =
 }
 
 .emotion-3 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -183,7 +183,7 @@ exports[`File Input renders a file input with custom placeholder 1`] = `
 }
 
 .emotion-3 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -267,7 +267,7 @@ exports[`File Input renders a file input with custom placeholder 1`] = `
 
 exports[`File Input renders a file input with default label 1`] = `
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -349,7 +349,7 @@ exports[`File Input renders as error 1`] = `
 }
 
 .emotion-1 {
-  width: 100%;
+  max-width: 100%;
   padding: 0.875rem;
   -webkit-appearance: none;
   -moz-appearance: none;
