@@ -29,6 +29,7 @@ export { IconLargePencil } from './svg/IconLargePencil';
 export { IconLargeUmbrella } from './svg/IconLargeUmbrella';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconLiveChat } from './svg/IconLiveChat';
+export { IconLoyality0 } from './svg/IconLoyality0';
 export { IconNotification } from './svg/IconNotification';
 export { IconPriceBoost } from './svg/IconPriceBoost';
 export { IconProfile } from './svg/IconProfile';

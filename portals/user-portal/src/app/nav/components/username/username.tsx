@@ -24,7 +24,7 @@ export const UserhubInfo = styled.div({
   alignItems: 'flex-end',
   marginRight: spacing('small'),
   [mq(breakpoints.small)]: {
-    marginRight: spacing('medium'),
+    marginRight: spacing(),
   },
 });
 
@@ -39,6 +39,7 @@ export const UserhubInfoBalance = styled.p({
 });
 
 export const UserhubIconProfile = styled.div({
+  position: 'relative',
   fontSize: '1.25rem',
   marginRight: spacing(),
   [mq(breakpoints.small)]: {
