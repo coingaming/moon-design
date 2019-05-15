@@ -18,13 +18,26 @@ import {
   UserhubIconProfile,
   UserhubInfoBalance,
 } from '../components/username/username';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { IconLogo } from '../components/logo/icon-logo';
+import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const Nav = () => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
+      <div
+        css={{
+          display: 'none',
+          [mq(breakpoints.medium)]: {
+            display: 'block',
+            marginRight: spacing(),
+          },
+        }}
+      >
+        <IconLogo />
+      </div>
       <HeaderTabs />
     </div>
 
