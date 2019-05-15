@@ -67,6 +67,27 @@ const Close = styled.div({
   justifyContent: 'center',
 });
 
+const SummaryHamburgerMenu = styled.div({
+  display: 'flex',
+  flexDirection: 'row',
+  marginLeft: spacing(),
+  [mq(breakpoints.small)]: {
+    marginLeft: 0,
+  },
+  color: colors.neutral[20],
+  '&:hover': {
+    color: `${colors.neutral[10]}`,
+  },
+});
+
+const MenuCaption = styled.p({
+  marginLeft: spacing('small'),
+  marginTop: 0,
+  textTransform: 'uppercase',
+  fontSize: rem(12),
+  letterSpacing: rem(1),
+});
+
 export const HamburgerMenu = () => {
   const [open, toggle] = useState(false);
 
@@ -83,7 +104,10 @@ export const HamburgerMenu = () => {
             <IconClose css={StyledHamburgerIcon} />
           </Close>
         ) : (
-          <IconHamburger css={StyledHamburgerIcon} />
+          <SummaryHamburgerMenu>
+            <IconHamburger />
+            <MenuCaption>Menu</MenuCaption>
+          </SummaryHamburgerMenu>
         )}
       </Summary>
       <DetailsOverlay>
