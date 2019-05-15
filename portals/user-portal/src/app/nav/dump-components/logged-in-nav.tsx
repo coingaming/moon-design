@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
-import { IconProfile } from '@heathmont/sportsbet-icons';
+import { IconProfile, IconLoyality0 } from '@heathmont/sportsbet-icons';
 import { Navigation } from '../components/nav';
 import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
@@ -18,6 +18,7 @@ import {
   UserhubIconProfile,
   UserhubInfoBalance,
 } from '../components/username/username';
+import { spacing } from '@heathmont/sportsbet-utils';
 jsx;
 
 export const Nav = () => (
@@ -58,7 +59,14 @@ export const Nav = () => (
           <UserhubInfoBalance>1535.82 mBTC</UserhubInfoBalance>
         </UserhubInfo>
         <UserhubIconProfile>
-          <IconProfile />
+          <IconLoyality0 css={{ fontSize: '2.5rem' }} />
+          <IconProfile
+            css={{
+              position: 'absolute',
+              left: '0.65rem',
+              top: '0.65rem',
+            }}
+          />
         </UserhubIconProfile>
       </Userhub>
     </div>
