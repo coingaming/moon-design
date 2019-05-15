@@ -11,7 +11,6 @@ import { mq } from '@heathmont/sportsbet-utils/lib/mq';
 import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 
 import { HamburgerDetails } from './hamburger-details';
-import { IconLogo } from '../logo/icon-logo';
 
 const Details = styled.details<{ open?: boolean; onToggle?: any }>({
   marginRight: spacing('small'),
@@ -84,10 +83,7 @@ export const HamburgerMenu = () => {
             <IconClose css={StyledHamburgerIcon} />
           </Close>
         ) : (
-          <div>
-            <IconHamburger css={StyledHamburgerIcon} />
-            <IconLogo css={{ marginRight: spacing() }} />
-          </div>
+          <IconHamburger css={StyledHamburgerIcon} />
         )}
       </Summary>
       <DetailsOverlay>
