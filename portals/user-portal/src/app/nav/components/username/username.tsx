@@ -29,10 +29,7 @@ export const UserhubInfo = styled.div({
 });
 
 export const UserhubInfoUsername = styled.p({
-  display: 'none',
-  [mq(breakpoints.small)]: {
-    display: 'inline',
-  },
+  marginTop: 0,
 });
 
 export const UserhubInfoBalance = styled.p({
