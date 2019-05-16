@@ -5,14 +5,20 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 16 14"
+    viewBox="0 0 42 42"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <rect width={16} height={2} rx={1} fill="currentColor" />
-    <rect y={6} width={16} height={2} rx={1} fill="currentColor" />
-    <rect y={12} width={16} height={2} rx={1} fill="currentColor" />
+    <circle
+      cx={21}
+      cy={21}
+      r={20}
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeDasharray="56 8"
+    />
   </svg>
 );
 
@@ -20,7 +26,7 @@ type IconProps = {
   backgroundColor?: string;
   circleColor?: string;
 };
-export const IconHamburger = styled(Svg)<IconProps>(
+export const IconLoyality0 = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor }) => [
     {
       verticalAlign: 'middle',
