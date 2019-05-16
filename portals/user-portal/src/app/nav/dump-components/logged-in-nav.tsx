@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
-import { IconProfile } from '@heathmont/sportsbet-icons';
+import { IconProfile, IconLoyality0 } from '@heathmont/sportsbet-icons';
 import { Navigation } from '../components/nav';
 import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
@@ -18,12 +18,26 @@ import {
   UserhubIconProfile,
   UserhubInfoBalance,
 } from '../components/username/username';
+import { IconLogo } from '../components/logo/icon-logo';
+import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const Nav = () => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
+      <div
+        css={{
+          display: 'none',
+          [mq(breakpoints.medium)]: {
+            display: 'block',
+            marginRight: spacing(),
+          },
+        }}
+      >
+        <IconLogo />
+      </div>
       <HeaderTabs />
     </div>
 
@@ -58,7 +72,14 @@ export const Nav = () => (
           <UserhubInfoBalance>1535.82 mBTC</UserhubInfoBalance>
         </UserhubInfo>
         <UserhubIconProfile>
-          <IconProfile />
+          <IconLoyality0 css={{ fontSize: '2.5rem' }} />
+          <IconProfile
+            css={{
+              position: 'absolute',
+              left: '0.65rem',
+              top: '0.65rem',
+            }}
+          />
         </UserhubIconProfile>
       </Userhub>
     </div>
