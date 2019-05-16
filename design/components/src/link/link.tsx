@@ -5,7 +5,7 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
 jsx;
 
-type LinkProps = {
+type LinkProps = React.InputHTMLAttributes<HTMLLinkElement> & {
   href?: string;
   disabled?: boolean;
   secondary?: boolean;

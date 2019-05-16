@@ -14,7 +14,7 @@ import { IconLogo } from '../components/logo/icon-logo';
 import { IconLogoCaption } from '../components/logo/IconLogoCaption';
 jsx;
 
-export const NonLoggedNav = () => (
+export const NonLoggedNav = ({ login }) => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
@@ -73,8 +73,8 @@ export const NonLoggedNav = () => (
       }}
     >
       <Link
+        onClick={login}
         secondary
-        href="#"
         css={{
           marginRight: spacing(),
           whiteSpace: 'nowrap',
@@ -91,7 +91,7 @@ export const NonLoggedNav = () => (
       >
         SIGN IN
       </Link>
-      <Button round uppercase modifier="primary">
+      <Button round uppercase modifier="primary" onClick={login}>
         Register
       </Button>
     </div>
