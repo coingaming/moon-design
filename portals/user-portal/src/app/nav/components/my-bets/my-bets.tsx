@@ -3,17 +3,20 @@ import * as React from 'react';
 import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
-import { spacing } from '@heathmont/sportsbet-utils';
-import { colors, border } from '@heathmont/sportsbet-tokens';
+import { spacing, mq } from '@heathmont/sportsbet-utils';
+import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 
 export const MyBets = styled.div({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-  flexWrap: 'nowrap',
-  color: colors.neutral[20],
-  '&:hover': {
-    color: colors.neutral[10],
+  display: 'none',
+  [mq(breakpoints.small)]: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    flexWrap: 'nowrap',
+    color: colors.neutral[20],
+    '&:hover': {
+      color: colors.neutral[10],
+    },
   },
 });
 
