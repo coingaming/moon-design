@@ -5,21 +5,47 @@ import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { Navigation } from '../components/nav';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
-import { IconCaptionLogo } from '../components/logo/icon-caption-logo';
 import { Search } from '../components/search/search';
-import { CashierNav } from '../../cashier/views/deposit/dumb-components/navigations';
 import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 import { jsx } from '@emotion/core';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
 import { mq } from '@heathmont/sportsbet-utils';
+import { IconLogo } from '../components/logo/icon-logo';
+import { IconLogoCaption } from '../components/logo/IconLogoCaption';
 jsx;
 
-export const Nav = () => (
+export const NonLoggedNav = () => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />
-      <IconCaptionLogo css={{ marginRight: spacing() }} />
+
+      <div
+        css={{
+          display: 'none',
+          [mq(breakpoints.medium)]: {
+            display: 'block',
+            marginRight: spacing(),
+          },
+        }}
+      >
+        <IconLogo />
+      </div>
       <HeaderTabs />
+    </div>
+
+    <div
+      css={{
+        gridArea: 'logo',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: spacing(),
+        [mq(breakpoints.medium)]: {
+          display: 'none',
+        },
+      }}
+    >
+      <IconLogoCaption />
     </div>
 
     <div css={{ gridArea: 'search', display: 'flex', alignItems: 'center' }}>
@@ -40,6 +66,10 @@ export const Nav = () => (
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'flex-end',
+        marginRight: spacing(),
+        [mq(breakpoints.small)]: {
+          marginRight: 0,
+        },
       }}
     >
       <Link
@@ -59,9 +89,11 @@ export const Nav = () => (
           },
         }}
       >
-        Sign in
+        SIGN IN
       </Link>
-      <Button modifier="primary">Register</Button>
+      <Button round uppercase modifier="primary">
+        Register
+      </Button>
     </div>
   </Navigation>
 );

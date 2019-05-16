@@ -23,8 +23,8 @@ import {
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
-import { Nav } from '../../../nav/dump-components/logged-in-nav';
 import { CashierNav } from '../deposit/dumb-components/navigations';
+import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
 jsx;
 
 const transactionItems = [
@@ -39,7 +39,7 @@ export const WalletsView = () => {
   const [items, loadMore] = useState(transactionItems);
   return (
     <React.Fragment>
-      <Nav />
+      <NonLoggedNav />
       <div
         css={[
           {
