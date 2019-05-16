@@ -13,7 +13,7 @@ import {
 } from '@heathmont/sportsbet-tokens';
 
 const searchBox: CSSObject = {
-  minWidth: rem(290),
+  minWidth: rem(258),
   border: 0,
   padding: spacing('small'),
   flex: 1,
@@ -30,7 +30,9 @@ const searchBox: CSSObject = {
 };
 
 const SearchContainer = styled.form({
-  width: '100%',
+  width: `calc(100% - ${spacing('large')})`,
+  marginLeft: spacing(),
+  marginRight: spacing(),
   display: 'inline-flex',
   flex: '1 1 auto',
   alignItems: 'center',
@@ -38,6 +40,11 @@ const SearchContainer = styled.form({
   overflow: 'hidden',
   backgroundColor: colors.neutral[60],
   color: colors.neutral[20],
+  [mq(breakpoints.small)]: {
+    width: '100%',
+    marginLeft: 0,
+    marginRight: 0,
+  },
 });
 
 const iconSearch: CSSObject = {
