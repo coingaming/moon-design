@@ -25,6 +25,7 @@ import { InActiveTransactionDetailItem } from './dumb-components/transaction-det
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
 import { CashierNav } from '../deposit/dumb-components/navigations';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 jsx;
 
 const transactionItems = [
@@ -37,9 +38,15 @@ const transactionItems = [
 
 export const WalletsView = () => {
   const [items, loadMore] = useState(transactionItems);
+  const [isUserLoggedIn, login] = useState(false);
+
   return (
     <React.Fragment>
-      <NonLoggedNav />
+      {isUserLoggedIn ? (
+        <LoggedInNav />
+      ) : (
+        <NonLoggedNav login={() => login(true)} />
+      )}
       <div
         css={[
           {
