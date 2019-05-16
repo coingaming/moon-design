@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.36.0](https://github.com/coingaming/sportsbet-design/compare/v0.35.2...v0.36.0) (2019-05-16)
+
+
+### Features
+
+* **settings:** cursor pointer if onClick prop ([d1800a9](https://github.com/coingaming/sportsbet-design/commit/d1800a9))
+
+
+
+
+
 ## [0.35.2](https://github.com/coingaming/sportsbet-design/compare/v0.35.1...v0.35.2) (2019-05-14)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
