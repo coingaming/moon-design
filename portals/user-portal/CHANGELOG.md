@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.36.0](https://github.com/coingaming/sportsbet-design/compare/v0.35.2...v0.36.0) (2019-05-16)
+
+
+### Bug Fixes
+
+* **nav:** add icon ([98b42a6](https://github.com/coingaming/sportsbet-design/commit/98b42a6))
+
+
+### Features
+
+* **icons:** update hamburger & logo icons ([8475cf2](https://github.com/coingaming/sportsbet-design/commit/8475cf2))
+* **nav:** hamburger menu ([791df25](https://github.com/coingaming/sportsbet-design/commit/791df25))
+* **nav:** mybets mobile hidden ([40a02e8](https://github.com/coingaming/sportsbet-design/commit/40a02e8))
+* **nav:** nav layout adjusments ([fe794d0](https://github.com/coingaming/sportsbet-design/commit/fe794d0))
+
+
+
+
+
 ## [0.35.2](https://github.com/coingaming/sportsbet-design/compare/v0.35.1...v0.35.2) (2019-05-14)
 
 
