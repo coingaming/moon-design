@@ -17,8 +17,15 @@ const Background = styled.div([
   },
 ]);
 
+const cashierLayout: CSSObject = {
+  ...container('default'),
+  // prevents issues when you have some additional space on the page
+  overflow: 'hidden',
+  marginTop: spacing('large'),
+};
+
 export const CashierLayout: React.FC = ({ children }) => (
-  <div css={container('default')}>{children}</div>
+  <div css={cashierLayout}>{children}</div>
 );
 
 const heading: CSSObject = {
