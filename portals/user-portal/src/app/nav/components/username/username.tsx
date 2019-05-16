@@ -24,15 +24,12 @@ export const UserhubInfo = styled.div({
   alignItems: 'flex-end',
   marginRight: spacing('small'),
   [mq(breakpoints.small)]: {
-    marginRight: spacing('medium'),
+    marginRight: spacing(),
   },
 });
 
 export const UserhubInfoUsername = styled.p({
-  display: 'none',
-  [mq(breakpoints.small)]: {
-    display: 'inline',
-  },
+  marginTop: 0,
 });
 
 export const UserhubInfoBalance = styled.p({
@@ -42,6 +39,7 @@ export const UserhubInfoBalance = styled.p({
 });
 
 export const UserhubIconProfile = styled.div({
+  position: 'relative',
   fontSize: '1.25rem',
   marginRight: spacing(),
   [mq(breakpoints.small)]: {

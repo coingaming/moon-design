@@ -125,8 +125,8 @@ export const HamburgerDetails = () => {
         }}
       >
         <Link css={column} href="#" optional>
-          <Balance>1535.82</Balance>
-          <LinkItem>Balance</LinkItem>
+          <Balance>0</Balance>
+          <LinkItem>My bets</LinkItem>
         </Link>
         <Link css={column} href="#" optional>
           <IconNotification
