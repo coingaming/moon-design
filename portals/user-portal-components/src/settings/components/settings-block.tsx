@@ -22,8 +22,8 @@ export const SettingsSection = styled.section({
   },
 });
 
-export const SettingsBlock = styled.div<{ highlight?: boolean }>(
-  ({ highlight = false }) => [
+export const SettingsBlock = styled.div<{ highlight?: boolean; onClick?: any }>(
+  ({ highlight = false, onClick }) => [
     {
       minHeight: rem(96),
       alignItems: 'center',
@@ -39,6 +39,9 @@ export const SettingsBlock = styled.div<{ highlight?: boolean }>(
     highlight && {
       position: 'relative',
       backgroundColor: colors.neutral[60],
+    },
+    onClick && {
+      cursor: 'pointer',
     },
   ]
 );
