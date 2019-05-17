@@ -10,6 +10,7 @@ export * from './heading';
 export * from './link';
 export * from './nav';
 export * from './select';
+export * from './switch';
 export * from './text-input';
 export * from './toggle';
 export * from './tooltip';
