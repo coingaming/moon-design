@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.37.1](https://github.com/coingaming/sportsbet-design/compare/v0.37.0...v0.37.1) (2019-05-17)
+
+
+### Bug Fixes
+
+* **notifications:** fix background gradient color ([5c62965](https://github.com/coingaming/sportsbet-design/commit/5c62965))
+
+
+
+
+
 # [0.37.0](https://github.com/coingaming/sportsbet-design/compare/v0.36.0...v0.37.0) (2019-05-17)
 
 
