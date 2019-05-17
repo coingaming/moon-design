@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.37.0](https://github.com/coingaming/sportsbet-design/compare/v0.36.0...v0.37.0) (2019-05-17)
+
+
+### Bug Fixes
+
+* **cashier:** combine layout elements into one ([9594c6b](https://github.com/coingaming/sportsbet-design/commit/9594c6b))
+
+
+### Features
+
+* **settings:** add linear gradient as a background ([a599ed8](https://github.com/coingaming/sportsbet-design/commit/a599ed8))
+
+
+
+
+
 # [0.36.0](https://github.com/coingaming/sportsbet-design/compare/v0.35.2...v0.36.0) (2019-05-16)
 
 
