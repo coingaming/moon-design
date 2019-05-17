@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch renders as checked 1`] = `
+.emotion-2 {
+  position: relative;
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+}
+
+.emotion-0 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.emotion-0:checked + .slider {
+  background-color: #0cd664;
+}
+
+.emotion-0:checked + .slider:before {
+  background-color: #fff;
+  -webkit-transform: translateX(32px);
+  -ms-transform: translateX(32px);
+  transform: translateX(32px);
+}
+
+.emotion-1 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1A212A;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 2.125rem;
+}
+
+.emotion-1::before {
+  position: absolute;
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  background-color: #8697a2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+<label
+  className="emotion-2"
+>
+  <input
+    checked={true}
+    className="emotion-0"
+    type="checkbox"
+  />
+  <span
+    className="slider emotion-1"
+  />
+</label>
+`;
+
+exports[`Switch renders by default 1`] = `
+.emotion-2 {
+  position: relative;
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+}
+
+.emotion-0 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.emotion-0:checked + .slider {
+  background-color: #0cd664;
+}
+
+.emotion-0:checked + .slider:before {
+  background-color: #fff;
+  -webkit-transform: translateX(32px);
+  -ms-transform: translateX(32px);
+  transform: translateX(32px);
+}
+
+.emotion-1 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1A212A;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 2.125rem;
+}
+
+.emotion-1::before {
+  position: absolute;
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  background-color: #8697a2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+<label
+  className="emotion-2"
+>
+  <input
+    className="emotion-0"
+    type="checkbox"
+  />
+  <span
+    className="slider emotion-1"
+  />
+</label>
+`;

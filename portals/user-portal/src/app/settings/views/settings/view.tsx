@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { jsx } from '@emotion/core';
 
 import rem from 'polished/lib/helpers/rem';
-import { Heading, Select, Checkbox } from '@heathmont/sportsbet-components';
+import { Heading, Select, Switch } from '@heathmont/sportsbet-components';
 import { SettingsNav } from './dumb-components/header';
 import {
   SettingsBlock,
@@ -73,9 +73,7 @@ export const SettingsView = () => {
                 for you.
               </SettingsText>
             </BlockContent>
-            <Checkbox
-              hiddenLabel
-              label="Display price boosts"
+            <Switch
               onChange={() => {
                 console.log('onChange');
               }}
@@ -91,7 +89,11 @@ export const SettingsView = () => {
                 changes in the betslip.
               </SettingsText>
             </BlockContent>
-            <Checkbox hiddenLabel label="Accept odds changes" />
+            <Switch
+              onChange={() => {
+                console.log('onChange');
+              }}
+            />
           </SettingsBlock>
           <SettingsBlock>
             <BlockContent>
@@ -103,7 +105,11 @@ export const SettingsView = () => {
                 betslip.
               </SettingsText>
             </BlockContent>
-            <Checkbox hiddenLabel label="Quick bet" />
+            <Switch
+              onChange={() => {
+                console.log('onChange');
+              }}
+            />
           </SettingsBlock>
         </SettingsSection>
         <SettingsSection>
@@ -122,7 +128,11 @@ export const SettingsView = () => {
                 for you.
               </SettingsText>
             </BlockContent>
-            <Checkbox hiddenLabel label="Receive emails" />
+            <Switch
+              onChange={() => {
+                console.log('onChange');
+              }}
+            />
           </SettingsBlock>
         </SettingsSection>
       </CashierLayout>
