@@ -23,7 +23,7 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 jsx;
 
-export const Nav = () => (
+export const LoggedInNav = () => (
   <Navigation>
     <div css={{ gridArea: 'hamburger', display: 'flex', alignItems: 'center' }}>
       <HamburgerMenu />

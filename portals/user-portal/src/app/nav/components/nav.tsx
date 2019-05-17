@@ -33,11 +33,12 @@ const Nav = styled.nav(() => [
 
 const navGrid: CSSObject = {
   display: 'grid',
-  gridTemplateRows: `${rem(80)} auto`,
+  gridTemplateRows: `${rem(64)} auto auto`,
   gridTemplateColumns: '1fr 1fr',
   gridColumnGap: spacing(),
   gridTemplateAreas: `
       "hamburger    buttons"
+      "logo         logo"
       "search       search"
     `,
   marginTop: 0,
@@ -49,7 +50,7 @@ const navGrid: CSSObject = {
   },
   [mq(breakpoints.large)]: {
     gridTemplateColumns: 'fit-content(20%) auto fit-content(20%)',
-    gridTemplateRows: `${rem(80)}`,
+    gridTemplateRows: `${rem(64)}`,
     gridTemplateAreas: `
         "hamburger    search    buttons"
       `,
