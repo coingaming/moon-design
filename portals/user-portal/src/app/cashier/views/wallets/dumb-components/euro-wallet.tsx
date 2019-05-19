@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { useState } from 'react';
@@ -14,6 +14,7 @@ import {
 } from '@heathmont/sportsbet-components';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconEuro } from '@heathmont/sportsbet-icons/lib/svg/IconEuro';
+jsx;
 
 export const EuroWallet: React.FC<{}> = () => {
   const [backSided, toggle] = useState(false);
