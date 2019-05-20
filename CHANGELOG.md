@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.38.1](https://github.com/coingaming/sportsbet-design/compare/v0.38.0...v0.38.1) (2019-05-20)
+
+
+### Bug Fixes
+
+* **settings:** change backgroung linear gradient color ([e548848](https://github.com/coingaming/sportsbet-design/commit/e548848))
+
+
+
+
+
 # [0.38.0](https://github.com/coingaming/sportsbet-design/compare/v0.37.1...v0.38.0) (2019-05-17)
 
 
