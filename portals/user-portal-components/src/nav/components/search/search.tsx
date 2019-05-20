@@ -1,5 +1,4 @@
-/** @jsx jsx */ jsx;
-import * as React from 'react';
+/** @jsx jsx */ import * as React from 'react';
 import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import styled, { CSSObject } from '@emotion/styled';
@@ -11,6 +10,7 @@ import {
   typography,
   breakpoints,
 } from '@heathmont/sportsbet-tokens';
+jsx;
 
 const searchBox: CSSObject = {
   minWidth: rem(258),
