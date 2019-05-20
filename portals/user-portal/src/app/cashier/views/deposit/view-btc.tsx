@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import * as React from 'react';
 
 import { jsx } from '@emotion/core';
@@ -49,6 +49,7 @@ import {
   BtcPaymentPowerByImageBlock,
 } from '@heathmont/sportsbet-user-portal-components';
 import { NeedAssistanceBanner } from './dumb-components/need-assistance-banner';
+jsx;
 
 export const DepositViewBTC = () => (
   <CashierLayout>
