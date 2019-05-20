@@ -39,7 +39,7 @@ export const SettingsBlock = styled.div<{ highlight?: boolean; onClick?: any }>(
     highlight && {
       position: 'relative',
       background: `linear-gradient(90deg, ${colors.neutral[90]} 0%, ${
-        colors.neutral[80]
+        colors.neutral[70]
       } 100%)`,
     },
     onClick && {
