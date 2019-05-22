@@ -18,7 +18,10 @@ import {
   MyBetCollapsibleHeader,
   BetStatus,
 } from './dumb-components/my-bets-header';
-import { Scoreboard } from './components/Scoreboard/scoreboard';
+import {
+  Scoreboard,
+  ScoreboardsContainer,
+} from './components/Scoreboard/scoreboard';
 jsx;
 
 export const MyBetsView = () => {
@@ -123,6 +126,14 @@ export const MyBetsView = () => {
         </MyBetCollapsible>
         <Scoreboard event={event} type="footBall" timeRemaining={'45:21'} />
         <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+        <ScoreboardsContainer>
+          <Scoreboard event={event} type="footBall" timeRemaining={'45:21'} />
+          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+          <Scoreboard event={event} type="footBall" timeRemaining={'45:21'} />
+          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+        </ScoreboardsContainer>
       </CashierLayout>
     </React.Fragment>
   );
