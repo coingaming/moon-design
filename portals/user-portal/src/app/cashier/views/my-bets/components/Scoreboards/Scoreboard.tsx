@@ -1,19 +1,22 @@
 import { ReactChild, default as React } from 'react';
 import { MarketProps } from './Market';
-import { FootBall, FootBallProps } from './Football';
-import styled, { CSSObject } from '@emotion/styled';
+import {
+  FootballScoreboard,
+  FootballProps,
+} from './Football/FootballScoreboard';
+import styled from '@emotion/styled';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
+import { TennisProps, TennisScoreboard } from './Tennis/TennisScoreboard';
 
-type ScoreboardProps = FootBallProps & {
-  type: 'footBall' | 'iceHockey';
-  children?: any;
-};
+type ScoreboardProps = FootballProps &
+  TennisProps & {
+    type: 'football' | 'icehockey' | 'tennis';
+  };
 
 type CompetitorProps = {
   name: string;
-  score: number;
   image: string;
 };
 
@@ -22,14 +25,29 @@ export type EventProps = {
   marketCount: number;
   markets: MarketProps[];
   competitors: { home: CompetitorProps; away: CompetitorProps };
-  videoStream?: boolean;
+  information: {
+    homeScore: string;
+    awayScore: string;
+    periodScores: {
+      homeScore: number;
+      awayScore: number;
+    }[];
+  };
+  videoStream: boolean;
   onClick: () => void;
 };
-export const Scoreboard = ({ type, event, timeRemaining }: ScoreboardProps) => {
-  return <FootBall event={event} timeRemaining={timeRemaining} />;
+export const Scoreboard = ({ type, event, timer, badges }: ScoreboardProps) => {
+  switch (type) {
+    case 'football' || 'icehockey':
+      return <FootballScoreboard event={event} timer={timer} />;
+    case 'tennis':
+      return <TennisScoreboard event={event} timer={timer} badges={badges} />;
+    default:
+      return <FootballScoreboard event={event} timer={timer} />;
+  }
 };
 
-export const ScoreboardsContainer = ({ children }: ScoreboardProps) => {
+export const ScoreboardsContainer = ({ children }: any) => {
   const Wrapper = styled.div({
     display: 'flex',
     flexDirection: 'row',
@@ -56,8 +74,8 @@ export const ScoreboardsContainer = ({ children }: ScoreboardProps) => {
 
   return (
     <Wrapper>
-      {children.map((scoreboard: ReactChild) => {
-        return <Container>{scoreboard}</Container>;
+      {children.map((scoreboard: ReactChild, index: number) => {
+        return <Container key={index}>{scoreboard}</Container>;
       })}
     </Wrapper>
   );

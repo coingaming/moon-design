@@ -1,9 +1,10 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { IconClose } from '@heathmont/sportsbet-icons';
-import { SelectionProps } from './Selections';
+import { SelectionProps } from './Football/FootballSelections';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors } from '@heathmont/sportsbet-tokens';
+import rem from 'polished/lib/helpers/rem';
 
 export type MarketProps = {
   id: string;
@@ -11,11 +12,20 @@ export type MarketProps = {
   selections: SelectionProps[];
 };
 
+const Wrapper = styled.div(() => [
+  {
+    gridArea: 'market',
+    height: rem(48),
+    padding: `0 ${spacing()}`,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    overflow: 'hidden',
+  },
+]);
+
 const StreamButton = styled.div(() => [
   {
-    marginTop: spacing(),
-    marginLeft: spacing(),
-    gridArea: 'icon',
     color: '#8998A3',
     cursor: 'pointer',
   },
@@ -23,8 +33,6 @@ const StreamButton = styled.div(() => [
 
 const MarketName = styled.span(onClick => [
   {
-    marginTop: spacing(),
-    gridArea: 'marketName',
     color: '#8998A3',
     textAlign: 'center',
   },
@@ -33,9 +41,6 @@ const MarketName = styled.span(onClick => [
 
 const MarketCount = styled.span(onClick => [
   {
-    marginTop: spacing(),
-    marginRight: spacing(),
-    gridArea: 'marketCount',
     color: '#0CD664',
     textAlign: 'right',
   },
@@ -53,11 +58,11 @@ export const Market = ({
   videoStream?: boolean;
   onClick?: () => void;
 }) => (
-  <>
+  <Wrapper>
     <StreamButton onClick={onClick}>
       {videoStream && <IconClose color={colors.brand} />}
     </StreamButton>
     <MarketName onClick={onClick}>{market.name}</MarketName>
     <MarketCount onClick={onClick}>{`+${marketCount}`}</MarketCount>
-  </>
+  </Wrapper>
 );

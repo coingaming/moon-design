@@ -2,17 +2,17 @@ import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { css } from '@emotion/core';
-import { Selections } from './Selections';
-import { Market } from './Market';
+import { FootballSelections } from './FootballSelections';
+import { Market } from '../Market';
 import * as React from 'react';
-import { EventProps } from './Scoreboard';
+import { EventProps } from '../Scoreboard';
 
-export type FootBallProps = {
+export type FootballProps = {
   event: EventProps;
-  timeRemaining: string;
+  timer: string;
 };
 
-export const FootBall = ({ event, timeRemaining }: FootBallProps) => {
+export const FootballScoreboard = ({ event, timer }: FootballProps) => {
   const Container = styled.div(() => ({
     padding: `${spacing()} 0`,
     display: 'grid',
@@ -106,10 +106,10 @@ export const FootBall = ({ event, timeRemaining }: FootBallProps) => {
         <span>{event.competitors.home.name}</span>
       </Home>
       <Score>
-        <span>{event.competitors.home.score}</span>
+        <span>{event.information.homeScore}</span>
         <span className="separator">:</span>
-        <span>{event.competitors.away.score}</span>
-        <TimeRemaining>{timeRemaining}</TimeRemaining>
+        <span>{event.information.awayScore}</span>
+        <TimeRemaining>{timer}</TimeRemaining>
       </Score>
       <Away onClick={event.onClick ? event.onClick : undefined}>
         <img
@@ -118,7 +118,7 @@ export const FootBall = ({ event, timeRemaining }: FootBallProps) => {
         />
         <span>{event.competitors.away.name}</span>
       </Away>
-      <Selections selections={event.markets[0].selections} />
+      <FootballSelections selections={event.markets[0].selections} />
       <Market
         onClick={event.onClick ? event.onClick : undefined}
         market={event.markets[0]}
