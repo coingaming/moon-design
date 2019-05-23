@@ -21,70 +21,20 @@ import {
 import {
   Scoreboard,
   ScoreboardsContainer,
-} from './components/Scoreboard/scoreboard';
+} from './components/Scoreboards/scoreboard';
+import {
+  event,
+  footballEventNoStream,
+  tennis1,
+  tennis2,
+  liveBadge,
+  wonBadge,
+  activeBadge,
+} from './dummyData';
 jsx;
 
 export const MyBetsView = () => {
   const [isUserLoggedIn, login] = useState(false);
-
-  const event = {
-    name: 'England, FA Cup',
-    marketCount: 1,
-    onClick: () => {
-      console.log('EVENT CLICK');
-    },
-    markets: [
-      {
-        id: 'test',
-        name: '1x2',
-        selections: [
-          { id: 'test', name: 'Liverpool', odds: '8.40' },
-          { id: 'test', name: 'draw', odds: '4.40' },
-          {
-            id: 'test',
-            name: 'Real Madrid',
-            odds: '1.38',
-            onClick: () => {
-              console.log('SELECTION CLICK');
-            },
-          },
-        ],
-      },
-    ],
-    competitors: {
-      home: {
-        name: 'Liverpool',
-        score: 2,
-        image: 'https://ls.sportradar.com/ls/crest/big/2699.png',
-      },
-      away: {
-        name: 'Real Madrid',
-        score: 5,
-        image: 'https://ls.sportradar.com/ls/crest/big/2685.png',
-      },
-    },
-    videoStream: true,
-  };
-
-  const markets2 = [
-    {
-      id: 'test',
-      name: 'Winner',
-      selections: [
-        { id: 'test', name: 'Los Angeles Lakers', odds: '16.60' },
-        {
-          id: 'test',
-          name: 'Golden State Warriors',
-          odds: '1.30',
-          onClick: () => {
-            console.log('clicked');
-          },
-        },
-      ],
-    },
-  ];
-
-  const event2 = { ...event, markets: markets2, videoStream: false };
 
   return (
     <React.Fragment>
@@ -124,15 +74,49 @@ export const MyBetsView = () => {
             <BetStatus>Active</BetStatus>
           </MyBetCollapsibleHeader>
         </MyBetCollapsible>
-        <Scoreboard event={event} type="footBall" timeRemaining={'45:21'} />
-        <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+        <Scoreboard event={event} type="football" timer={'45:21'} />
+        <Scoreboard
+          event={footballEventNoStream}
+          type="football"
+          timer={'14:11'}
+        />
+        <Scoreboard event={tennis1} type="tennis" timer={'Set 1'} />
+        <Scoreboard
+          event={tennis2}
+          type="tennis"
+          timer={'Set 5'}
+          badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
+        />
         <ScoreboardsContainer>
-          <Scoreboard event={event} type="footBall" timeRemaining={'45:21'} />
-          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
-          <Scoreboard event={event} type="footBall" timeRemaining={'45:21'} />
-          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
-          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
-          <Scoreboard event={event2} type="footBall" timeRemaining={'14:11'} />
+          <Scoreboard event={event} type="football" timer={'45:21'} />
+          <Scoreboard
+            event={footballEventNoStream}
+            type="football"
+            timer={'14:11'}
+          />
+          <Scoreboard
+            event={tennis1}
+            type="tennis"
+            timer={'45:21'}
+            badges={[liveBadge, activeBadge]}
+          />
+          <Scoreboard event={tennis2} type="tennis" timer={'Set 2'} />
+          <Scoreboard
+            event={footballEventNoStream}
+            type="football"
+            timer={'14:11'}
+          />
+          <Scoreboard
+            event={tennis1}
+            type="tennis"
+            timer={'14:11'}
+            badges={[activeBadge, wonBadge]}
+          />
+          <Scoreboard
+            event={footballEventNoStream}
+            type="football"
+            timer={'14:11'}
+          />
         </ScoreboardsContainer>
       </CashierLayout>
     </React.Fragment>

@@ -15,7 +15,6 @@ const Container = styled.div(() => [
     gridArea: 'odds',
     display: 'flex',
     justifyContent: 'space-between',
-    marginTop: rem(9),
     div: {
       display: 'flex',
       justifyContent: 'space-between',
@@ -80,16 +79,17 @@ const SelectionButton = styled.button(
   ]
 );
 
-export const Selections = ({
+export const TennisSelections = ({
   selections,
 }: {
   selections: SelectionProps[];
 }) => (
   <Container>
-    {selections.map(selection => {
+    {selections.map((selection, index) => {
       return (
         <SelectionButton
           onClick={selection.onClick ? selection.onClick : undefined}
+          key={index}
         >
           <span className="name">{selection.name}</span>
           <span className="odds">{selection.odds}</span>
