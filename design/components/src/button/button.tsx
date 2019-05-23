@@ -9,7 +9,7 @@ import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { outlineModifiers } from './outline';
 import { buttonMockStateClass, ButtonMockState } from './states';
 
-type ButtonProps = {
+type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   className?: string;
   href?: string;
   modifier: ButtonModifiers;
