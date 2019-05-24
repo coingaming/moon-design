@@ -74,19 +74,6 @@ export const MyBetsView = () => {
             <BetStatus>Active</BetStatus>
           </MyBetCollapsibleHeader>
         </MyBetCollapsible>
-        <Scoreboard event={event} type="football" timer={'45:21'} />
-        <Scoreboard
-          event={footballEventNoStream}
-          type="football"
-          timer={'14:11'}
-        />
-        <Scoreboard event={tennis1} type="tennis" timer={'Set 1'} />
-        <Scoreboard
-          event={tennis2}
-          type="tennis"
-          timer={'Set 5'}
-          badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
-        />
         <ScoreboardsContainer>
           <Scoreboard event={event} type="football" timer={'45:21'} />
           <Scoreboard
@@ -116,6 +103,19 @@ export const MyBetsView = () => {
             event={footballEventNoStream}
             type="football"
             timer={'14:11'}
+          />
+          <Scoreboard event={event} type="football" timer={'45:21'} />
+          <Scoreboard
+            event={footballEventNoStream}
+            type="football"
+            timer={'14:11'}
+          />
+          <Scoreboard event={tennis1} type="tennis" timer={'Set 1'} />
+          <Scoreboard
+            event={tennis2}
+            type="tennis"
+            timer={'Set 5'}
+            badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
           />
         </ScoreboardsContainer>
       </CashierLayout>
