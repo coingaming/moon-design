@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { MouseEvent, default as React } from 'react';
+import { colors } from '@heathmont/sportsbet-tokens';
 
 export type SelectionProps = {
   id: string;
@@ -47,7 +48,7 @@ const SelectionButton = styled.button(
         overflow: 'hidden',
       },
       '.odds': {
-        color: '#fff',
+        color: colors.neutral[10],
         marginLeft: spacing('xsmall'),
       },
       '&:first-of-type': {
@@ -62,15 +63,15 @@ const SelectionButton = styled.button(
     onClick && {
       cursor: 'pointer',
       '&:hover': {
-        backgroundColor: '#2C333B',
+        backgroundColor: colors.neutral[60],
         '.name': {
-          color: '#FFFFFF',
+          color: colors.neutral[10],
         },
       },
       '&:active': {
-        backgroundColor: '#0CD664',
+        backgroundColor: colors.brand,
         '.name': {
-          color: '#FFFFFF',
+          color: colors.neutral[10],
         },
       },
     },

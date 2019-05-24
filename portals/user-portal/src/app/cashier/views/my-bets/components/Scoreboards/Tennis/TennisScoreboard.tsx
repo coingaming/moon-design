@@ -7,6 +7,7 @@ import * as React from 'react';
 import { EventProps } from '../Scoreboard';
 import { TennisSelections } from './TennisSelections';
 import { Badge } from '@heathmont/sportsbet-components';
+import { colors } from '@heathmont/sportsbet-tokens';
 
 export type TennisProps = {
   event: EventProps;
@@ -17,7 +18,7 @@ export type TennisProps = {
 export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
   const Container = styled.div(() => ({
     display: 'grid',
-    backgroundColor: '#010812',
+    backgroundColor: colors.neutral[90],
     maxWidth: rem(320),
     gridTemplateAreas:
       "'title title title' " +
@@ -30,11 +31,10 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
 
   const Header = styled.span(onClick => [
     {
-      color: '#fff',
+      color: colors.text,
       gridArea: 'title',
       textAlign: 'left',
       fontSize: rem(12),
-      // marginBottom: spacing('small'),
       height: rem(40),
       alignItems: 'center',
       display: 'flex',
@@ -64,7 +64,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
 
   const Timer = styled.span(() => [
     {
-      color: '#8998A3',
+      color: colors.neutral[20],
       textAlign: 'right',
       marginLeft: rem(10),
       whiteSpace: 'nowrap',
@@ -84,8 +84,8 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
   }));
 
   const Score = styled.span(() => ({
-    color: '#8697A2',
-    backgroundColor: '#010812',
+    color: colors.neutral[20],
+    backgroundColor: colors.neutral[80],
     marginTop: spacing(),
     marginBottom: rem(24),
     display: 'grid',
@@ -135,11 +135,11 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
     {
       fontSize: rem(20),
     },
-    win && { color: '#fff' },
+    win && { color: colors.text },
     (period && { gridArea: `homePeriod${period}` }) ||
       (current && {
         gridArea: 'homeCurrent',
-        color: '#0CD664',
+        color: colors.brand,
       }),
   ]);
 
@@ -152,11 +152,11 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
     {
       fontSize: rem(20),
     },
-    win && { color: '#fff' },
+    win && { color: colors.text },
     (period && { gridArea: `awayPeriod${period}` }) ||
       (current && {
         gridArea: 'awayCurrent',
-        color: '#0CD664',
+        color: colors.brand,
       }),
   ]);
 
