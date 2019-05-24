@@ -1,10 +1,10 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { IconClose } from '@heathmont/sportsbet-icons';
 import { SelectionProps } from './Football/FootballSelections';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
+import { IconPlay } from '@heathmont/sportsbet-icons/lib/svg/IconPlay';
 
 export type MarketProps = {
   id: string;
@@ -61,7 +61,7 @@ export const Market = ({
 }) => (
   <Wrapper>
     <StreamButton onClick={onClick}>
-      {videoStream && <IconClose color={colors.brand} />}
+      {videoStream && <IconPlay color={colors.brand} />}
     </StreamButton>
     <MarketName onClick={onClick}>{market.name}</MarketName>
     <MarketCount onClick={onClick}>{`+${marketCount}`}</MarketCount>
