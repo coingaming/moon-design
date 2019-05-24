@@ -15,7 +15,7 @@ import { MyBetsHeader } from './dumb-components/my-bets-header';
 import {
   Scoreboard,
   ScoreboardsContainer,
-} from './components/Scoreboards/scoreboard';
+} from './components/Scoreboards/Scoreboard';
 import {
   event,
   footballEventNoStream,
