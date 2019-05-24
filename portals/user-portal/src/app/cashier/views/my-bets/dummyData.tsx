@@ -1,3 +1,5 @@
+import { colors } from '@heathmont/sportsbet-tokens';
+
 export const event = {
   name: 'England, FA Cup',
   marketCount: 1,
@@ -111,7 +113,7 @@ export const tennis2 = {
 };
 
 export const liveBadge = {
-  color: '#fff',
+  color: colors.neutral[10],
   backgroundColor: '#D0021B;',
   title: 'live',
 };

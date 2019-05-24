@@ -27,14 +27,13 @@ const Wrapper = styled.div(() => [
 
 const StreamButton = styled.div(() => [
   {
-    color: '#8998A3',
     cursor: 'pointer',
   },
 ]);
 
 const MarketName = styled.span(onClick => [
   {
-    color: '#8998A3',
+    color: colors.neutral[20],
     textAlign: 'center',
   },
   onClick && { cursor: 'pointer' },

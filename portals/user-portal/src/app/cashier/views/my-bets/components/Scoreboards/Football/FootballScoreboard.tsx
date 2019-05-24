@@ -5,6 +5,7 @@ import { FootballSelections } from './FootballSelections';
 import { Market } from '../Market';
 import * as React from 'react';
 import { EventProps } from '../Scoreboard';
+import { colors } from '@heathmont/sportsbet-tokens';
 
 export type FootballProps = {
   event: EventProps;
@@ -15,7 +16,7 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
   const Container = styled.div(() => ({
     display: 'flex',
     paddingTop: spacing('small'),
-    backgroundColor: '#1A212A',
+    backgroundColor: colors.neutral[90],
     maxWidth: rem(320),
     flexWrap: 'wrap',
     justifyContent: 'center',
@@ -23,7 +24,7 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
 
   const Title = styled.span(onClick => [
     {
-      color: '#fff',
+      color: colors.text,
       textAlign: 'center',
       fontSize: rem(12),
       height: rem(24),
@@ -38,20 +39,20 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
   ]);
 
   const Score = styled.span(() => ({
-    color: '#fff',
+    color: colors.text,
     textAlign: 'center',
     alignSelf: 'flex-end',
     height: rem(48),
     fontSize: rem(32),
     lineHeight: rem(30),
     '.separator': {
-      color: '#8697A2',
+      color: colors.neutral[20],
       margin: `0 ${spacing('xsmall')}`,
     },
   }));
 
   const TimeRemaining = styled.span(() => ({
-    color: '#8998A3',
+    color: colors.neutral[20],
     display: 'block',
     marginTop: rem(7),
     lineHeight: rem(10),
