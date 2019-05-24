@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
-import { css } from '@emotion/core';
 import { FootballSelections } from './FootballSelections';
 import { Market } from '../Market';
 import * as React from 'react';
@@ -14,26 +13,24 @@ export type FootballProps = {
 
 export const FootballScoreboard = ({ event, timer }: FootballProps) => {
   const Container = styled.div(() => ({
-    padding: `${spacing()} 0`,
-    display: 'grid',
+    display: 'flex',
+    paddingTop: spacing('small'),
     backgroundColor: '#1A212A',
     maxWidth: rem(320),
-    gridTemplateAreas:
-      "'. title .' " +
-      "'home score away' " +
-      "'odds odds odds'" +
-      "'icon marketName marketCount'",
-    gridTemplateColumns: '1fr 1fr 1fr',
-    gridTemplateRows: 'auto',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
   }));
 
   const Title = styled.span(onClick => [
     {
       color: '#fff',
-      gridArea: 'title',
       textAlign: 'center',
       fontSize: rem(12),
-      marginBottom: spacing('small'),
+      height: rem(24),
+      padding: `${rem(4)} ${spacing()} 0`,
+      whiteSpace: 'nowrap',
+      textOverflow: 'ellipsis',
+      overflow: 'hidden',
     },
     onClick && {
       cursor: 'pointer',
@@ -42,55 +39,66 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
 
   const Score = styled.span(() => ({
     color: '#fff',
-    gridArea: 'score',
     textAlign: 'center',
-    alignSelf: 'center',
+    alignSelf: 'flex-end',
+    height: rem(48),
     fontSize: rem(32),
+    lineHeight: rem(30),
     '.separator': {
       color: '#8697A2',
-      margin: `0 ${spacing('small')}`,
+      margin: `0 ${spacing('xsmall')}`,
     },
   }));
 
   const TimeRemaining = styled.span(() => ({
     color: '#8998A3',
     display: 'block',
+    marginTop: rem(7),
+    lineHeight: rem(10),
     fontSize: rem(12),
-    marginTop: spacing('small'),
   }));
 
-  const CompetitorStyles = css({
-    textAlign: 'center',
-    alignSelf: 'center',
-    img: {
-      maxWidth: '100%',
-      padding: `0 ${spacing()}`,
-    },
-    span: {
-      fontSize: rem(14),
-      display: 'flex',
-      height: rem(40),
-      alignItems: 'center',
-      flexWrap: 'nowrap',
-      justifyContent: 'center',
-    },
-  });
-
-  const Home = styled.div(onClick => [
-    CompetitorStyles,
+  const Logos = styled.div(() => [
     {
-      gridArea: 'home',
-      paddingLeft: spacing(),
+      paddingLeft: spacing('medium'),
+      paddingRight: spacing('medium'),
+      height: rem(88),
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      flexGrow: 1,
+    },
+  ]);
+
+  const Logo = styled.div(onClick => [
+    {
+      width: rem(88),
+      img: {
+        maxWidth: '100%',
+        padding: `${spacing('small')}`,
+      },
     },
     onClick && { cursor: 'pointer' },
   ]);
-  const Away = styled.div(onClick => [
-    CompetitorStyles,
+
+  const Competitors = styled.div(() => [
     {
-      gridArea: 'away',
-      paddingRight: spacing(),
+      height: rem(40),
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      flexGrow: 1,
+      paddingLeft: spacing('small'),
+      paddingRight: spacing('small'),
+
+      span: {
+        width: rem(120),
+        textAlign: 'center',
+        textOverflow: 'ellipsis',
+        overflow: 'hidden',
+        maxHeight: '100%',
+      },
     },
-    onClick && { cursor: 'pointer' },
   ]);
 
   return (
@@ -98,26 +106,30 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
       <Title onClick={event.onClick ? event.onClick : undefined}>
         {event.name}
       </Title>
-      <Home onClick={event.onClick ? event.onClick : undefined}>
-        <img
-          alt={event.competitors.home.name}
-          src={event.competitors.home.image}
-        />
+      <Logos>
+        <Logo onClick={event.onClick ? event.onClick : undefined}>
+          <img
+            alt={event.competitors.home.name}
+            src={event.competitors.home.image}
+          />
+        </Logo>
+        <Score>
+          <span>{event.information.homeScore}</span>
+          <span className="separator">:</span>
+          <span>{event.information.awayScore}</span>
+          <TimeRemaining>{timer}</TimeRemaining>
+        </Score>
+        <Logo onClick={event.onClick ? event.onClick : undefined}>
+          <img
+            alt={event.competitors.away.name}
+            src={event.competitors.away.image}
+          />
+        </Logo>
+      </Logos>
+      <Competitors>
         <span>{event.competitors.home.name}</span>
-      </Home>
-      <Score>
-        <span>{event.information.homeScore}</span>
-        <span className="separator">:</span>
-        <span>{event.information.awayScore}</span>
-        <TimeRemaining>{timer}</TimeRemaining>
-      </Score>
-      <Away onClick={event.onClick ? event.onClick : undefined}>
-        <img
-          alt={event.competitors.away.name}
-          src={event.competitors.away.image}
-        />
         <span>{event.competitors.away.name}</span>
-      </Away>
+      </Competitors>
       <FootballSelections selections={event.markets[0].selections} />
       <Market
         onClick={event.onClick ? event.onClick : undefined}

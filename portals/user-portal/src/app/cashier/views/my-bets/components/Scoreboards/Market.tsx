@@ -21,6 +21,7 @@ const Wrapper = styled.div(() => [
     alignItems: 'center',
     justifyContent: 'space-between',
     overflow: 'hidden',
+    width: '100%',
   },
 ]);
 
