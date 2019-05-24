@@ -11,13 +11,7 @@ import { MyBetsNav } from './dumb-components/my-bets-nav';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
-import {
-  BetName,
-  MyBetsHeader,
-  MyBetCollapsible,
-  MyBetCollapsibleHeader,
-  BetStatus,
-} from './dumb-components/my-bets-header';
+import { MyBetsHeader } from './dumb-components/my-bets-header';
 import {
   Scoreboard,
   ScoreboardsContainer,
@@ -68,12 +62,6 @@ export const MyBetsView = () => {
           <span>Stake</span>
           <span>Potential win</span>
         </MyBetsHeader>
-        <MyBetCollapsible>
-          <MyBetCollapsibleHeader>
-            <BetName> Campino M /</BetName>
-            <BetStatus>Active</BetStatus>
-          </MyBetCollapsibleHeader>
-        </MyBetCollapsible>
         <ScoreboardsContainer>
           <Scoreboard event={event} type="football" timer={'45:21'} />
           <Scoreboard
@@ -88,23 +76,6 @@ export const MyBetsView = () => {
             badges={[liveBadge, activeBadge]}
           />
           <Scoreboard event={tennis2} type="tennis" timer={'Set 2'} />
-          <Scoreboard
-            event={footballEventNoStream}
-            type="football"
-            timer={'14:11'}
-          />
-          <Scoreboard
-            event={tennis1}
-            type="tennis"
-            timer={'14:11'}
-            badges={[activeBadge, wonBadge]}
-          />
-          <Scoreboard
-            event={footballEventNoStream}
-            type="football"
-            timer={'14:11'}
-          />
-          <Scoreboard event={event} type="football" timer={'45:21'} />
           <Scoreboard
             event={footballEventNoStream}
             type="football"
