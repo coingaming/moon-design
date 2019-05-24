@@ -12,10 +12,9 @@ export type SelectionProps = {
 
 const Container = styled.div(() => [
   {
-    gridArea: 'odds',
     display: 'flex',
     justifyContent: 'space-between',
-    marginTop: rem(9),
+    height: rem(40),
     div: {
       display: 'flex',
       justifyContent: 'space-between',
@@ -34,8 +33,6 @@ const SelectionButton = styled.button(
       borderTop: '1px solid rgba(255, 255, 255, 0.08)',
       borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
       fontSize: rem(14),
-      paddingTop: rem(11),
-      paddingBottom: rem(10),
       paddingLeft: rem(12),
       paddingRight: rem(12),
       display: 'flex',

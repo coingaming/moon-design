@@ -87,7 +87,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
     color: '#8697A2',
     backgroundColor: '#010812',
     marginTop: spacing(),
-    marginBottom: spacing('large'),
+    marginBottom: rem(24),
     display: 'grid',
     gridTemplateAreas:
       "'homeName homePeriod0 homePeriod1 homePeriod2 homePeriod3 homeCurrent' " +
