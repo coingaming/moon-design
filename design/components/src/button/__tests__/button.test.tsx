@@ -51,7 +51,7 @@ describe('Button', () => {
 
   test('renders as an anchor tag', () => {
     const button = create(
-      <Button modifier="primary" href="#some-anchor">
+      <Button modifier="primary" as="a" href="#some-anchor">
         Primary Button (Anchor)
       </Button>
     );
