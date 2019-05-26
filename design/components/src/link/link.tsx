@@ -12,7 +12,7 @@ type LinkProps = React.InputHTMLAttributes<HTMLLinkElement> & {
   disabled?: boolean;
   secondary?: boolean;
   optional?: boolean;
-  as?: string;
+  as?: 'button' | 'a';
 };
 
 /**
