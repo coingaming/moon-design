@@ -35,27 +35,27 @@ const Table = styled.table([
  */
 export const mdxComponents = {
   h1: ({ children }: Children) => (
-    <Heading size="alpha" element="h1">
+    <Heading size="alpha" as="h1">
       {children}
     </Heading>
   ),
   h2: ({ children }: Children) => (
-    <Heading size="bravo" element="h2">
+    <Heading size="bravo" as="h2">
       {children}
     </Heading>
   ),
   h3: ({ children }: Children) => (
-    <Heading size="charlie" element="h3">
+    <Heading size="charlie" as="h3">
       {children}
     </Heading>
   ),
   h4: ({ children }: Children) => (
-    <Heading size="delta" element="h4">
+    <Heading size="delta" as="h4">
       {children}
     </Heading>
   ),
   h5: ({ children }: Children) => (
-    <Heading size="echo" element="h5">
+    <Heading size="echo" as="h5">
       {children}
     </Heading>
   ),
