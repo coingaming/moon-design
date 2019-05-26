@@ -6,7 +6,7 @@ import { spacing } from '@heathmont/sportsbet-utils';
 
 export const NeedAssistanceBanner = () => (
   <Banner>
-    <Heading size="charlie" element="h3">
+    <Heading size="charlie" as="h3">
       <IconLargeMessage
         circleColor={colors.brand}
         style={{ fontSize: '3rem', marginRight: spacing('default') }}

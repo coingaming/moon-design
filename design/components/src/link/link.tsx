@@ -1,6 +1,8 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
+import isPropValid from '@emotion/is-prop-valid';
+import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
 jsx;
@@ -10,6 +12,7 @@ type LinkProps = React.InputHTMLAttributes<HTMLLinkElement> & {
   disabled?: boolean;
   secondary?: boolean;
   optional?: boolean;
+  as?: 'button' | 'a';
 };
 
 /**
@@ -34,23 +37,17 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-const Link: React.FC<LinkProps> = ({ href, secondary, optional, ...props }) => {
-  const LinkElement = !href ? 'button' : 'a';
-  const secondaryProps = secondary ? { color: colors.neutral[20] } : {};
-  const optionalProps = optional
-    ? {
-        color: colors.neutral[20],
-        '&:hover, &:focus, &:active': {
-          color: colors.neutral[10],
-        },
-      }
-    : {};
-
-  return jsx(LinkElement, {
-    href: href || undefined,
-    css: { ...linkBase, ...secondaryProps, ...optionalProps },
-    ...props,
-  });
-};
+const Link: React.FC<LinkProps> = styled('a', {
+  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
+})(({ href, secondary, optional, ...props }) => [
+  linkBase,
+  secondary && { color: colors.neutral[20] },
+  optional && {
+    color: colors.neutral[20],
+    '&:hover, &:focus, &:active': {
+      color: colors.neutral[10],
+    },
+  },
+]);
 
 export { Link, LinkProps };

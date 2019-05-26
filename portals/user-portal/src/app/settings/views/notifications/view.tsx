@@ -54,7 +54,7 @@ export const NotificationsView = () => {
         <SettingsSection>
           <SettingsBlock>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 Free spin promotion waiting in your account!
               </Heading>
               <SettingsText>
@@ -66,7 +66,7 @@ export const NotificationsView = () => {
           </SettingsBlock>
           <SettingsBlock highlight>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 Your ticket has won 1.3077 mBTC
               </Heading>
               <SettingsText>18:56 01.12.2018</SettingsText>
@@ -77,7 +77,7 @@ export const NotificationsView = () => {
           </SettingsBlock>
           <SettingsBlock highlight>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 EPL Season Super Bet!
               </Heading>
               <SettingsText>
@@ -93,7 +93,7 @@ export const NotificationsView = () => {
           </SettingsBlock>
           <SettingsBlock>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 Free spin promotion waiting in your account!
               </Heading>
               <SettingsText>
