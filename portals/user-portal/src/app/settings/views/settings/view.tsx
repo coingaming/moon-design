@@ -52,7 +52,7 @@ export const SettingsView = () => {
         </HeadingDescription>
         <SettingsSection>
           <SettingsBlock>
-            <Heading size="delta" element="h2">
+            <Heading size="delta" as="h2">
               Odd preference
             </Heading>
             <Select css={{ maxWidth: rem(146) }}>
@@ -65,7 +65,7 @@ export const SettingsView = () => {
           </SettingsBlock>
           <SettingsBlock>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 Boost your sportsbet.io
               </Heading>
               <SettingsText>
@@ -81,7 +81,7 @@ export const SettingsView = () => {
           </SettingsBlock>
           <SettingsBlock>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 Accept all odds changes
               </Heading>
               <SettingsText>
@@ -97,7 +97,7 @@ export const SettingsView = () => {
           </SettingsBlock>
           <SettingsBlock>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 Quick bet
               </Heading>
               <SettingsText>
@@ -114,13 +114,13 @@ export const SettingsView = () => {
         </SettingsSection>
         <SettingsSection>
           <SettingsBlock>
-            <Heading size="delta" element="h2">
+            <Heading size="delta" as="h2">
               Marketing promotions
             </Heading>
           </SettingsBlock>
           <SettingsBlock>
             <BlockContent>
-              <Heading size="echo" element="h3">
+              <Heading size="echo" as="h3">
                 I agree to receive bonus & marketing emails
               </Heading>
               <SettingsText>

@@ -1,30 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading Elements renders as <p> if no element prop provided 1`] = `
+exports[`Heading Elements renders as <p> if no "as" prop provided 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
+  color: inherit;
 }
 
 <p
   className="emotion-0"
+  color="inherit"
+  size="alpha"
 >
   Aplha Heading
 </p>
 `;
 
-exports[`Heading Elements renders as an element if element prop provided 1`] = `
+exports[`Heading Elements renders as an element if "as" prop provided 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
+  color: inherit;
 }
 
 <h2
   className="emotion-0"
+  color="inherit"
+  size="alpha"
 >
   Alpha Heading
 </h2>
@@ -32,14 +36,16 @@ exports[`Heading Elements renders as an element if element prop provided 1`] = `
 
 exports[`Heading Sizes alpha size renders properly 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
+  color: inherit;
 }
 
 <h1
   className="emotion-0"
+  color="inherit"
+  size="alpha"
 >
   Aplha Heading
 </h1>
@@ -47,14 +53,16 @@ exports[`Heading Sizes alpha size renders properly 1`] = `
 
 exports[`Heading Sizes bravo size renders properly 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: inherit;
 }
 
 <h1
   className="emotion-0"
+  color="inherit"
+  size="bravo"
 >
   Bravo Heading
 </h1>
@@ -62,14 +70,16 @@ exports[`Heading Sizes bravo size renders properly 1`] = `
 
 exports[`Heading Sizes charlie size renders properly 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 2rem;
+  color: inherit;
 }
 
 <h1
   className="emotion-0"
+  color="inherit"
+  size="charlie"
 >
   Charlie Heading
 </h1>
@@ -77,14 +87,16 @@ exports[`Heading Sizes charlie size renders properly 1`] = `
 
 exports[`Heading Sizes delta size renders properly 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 2rem;
+  color: inherit;
 }
 
 <h1
   className="emotion-0"
+  color="inherit"
+  size="delta"
 >
   Delta Heading
 </h1>
@@ -92,14 +104,16 @@ exports[`Heading Sizes delta size renders properly 1`] = `
 
 exports[`Heading Sizes echo size renders properly 1`] = `
 .emotion-0 {
-  color: inherit;
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
+  color: inherit;
 }
 
 <h1
   className="emotion-0"
+  color="inherit"
+  size="echo"
 >
   Echo Heading
 </h1>
@@ -107,14 +121,16 @@ exports[`Heading Sizes echo size renders properly 1`] = `
 
 exports[`Heading renders with a color 1`] = `
 .emotion-0 {
-  color: #0cd664;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
+  color: #0cd664;
 }
 
 <h1
   className="emotion-0"
+  color="#0cd664"
+  size="alpha"
 >
   Aplha Heading
 </h1>

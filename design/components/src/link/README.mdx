@@ -35,10 +35,12 @@ Links are used to navigate users through the user-interface via anchors or embed
 
 ### Button
 
-Sometimes it might make more semantic sense to render the Link as a `<button>` element. This can be achieved by **removing** the `href="<url>"` attribute.
+Sometimes it might make more semantic sense to render the Link as a `<button>` element.
+
+This can be achieved by **adding** the `as="button"` attribute.
 
 ```jsx react-live
-<Link>I look like a link, but really I'm a button</Link>
+<Link as="button">I look like a link, but really I'm a button</Link>
 ```
 
 ## Disabled
