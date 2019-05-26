@@ -190,10 +190,10 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
 }
 
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: inherit;
 }
 
 .emotion-3 {
@@ -262,6 +262,8 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   >
     <h2
       className="emotion-0"
+      color="inherit"
+      size="bravo"
     >
       Need help?
     </h2>
@@ -322,10 +324,10 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
 }
 
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: inherit;
 }
 
 .emotion-3 {
@@ -404,6 +406,8 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   >
     <h2
       className="emotion-0"
+      color="inherit"
+      size="bravo"
     >
       Need help?
     </h2>
@@ -568,10 +572,10 @@ exports[`Banner renders vertically by default 1`] = `
 }
 
 .emotion-0 {
-  color: inherit;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: inherit;
 }
 
 .emotion-3 {
@@ -621,6 +625,8 @@ exports[`Banner renders vertically by default 1`] = `
   >
     <h2
       className="emotion-0"
+      color="inherit"
+      size="bravo"
     >
       Need help?
     </h2>
