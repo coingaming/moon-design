@@ -22,7 +22,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   outline?: boolean;
   round?: boolean;
   onClick?: () => void;
-  as?: string;
+  as?: 'button' | 'a';
 };
 
 /**
