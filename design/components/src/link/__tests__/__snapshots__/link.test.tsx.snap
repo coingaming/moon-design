@@ -34,7 +34,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 </a>
 `;
 
-exports[`Link renders as a button by default 1`] = `
+exports[`Link renders as a button if prop as="button" was passed 1`] = `
 .emotion-0 {
   display: inline-block;
   margin: 0;
@@ -67,13 +67,13 @@ exports[`Link renders as a button by default 1`] = `
 </button>
 `;
 
-exports[`Link renders as a optional 1`] = `
+exports[`Link renders as a link by default 1`] = `
 .emotion-0 {
   display: inline-block;
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #8697a2;
+  color: #0cd664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -84,13 +84,53 @@ exports[`Link renders as a optional 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #fff;
+  color: #0BC15A;
 }
 
 .emotion-0:disabled,
 .emotion-0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
+}
+
+<a
+  className="emotion-0"
+>
+  I look like a link
+</a>
+`;
+
+exports[`Link renders as a optional 1`] = `
+.emotion-0 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: #0cd664;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #8697a2;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #0BC15A;
+}
+
+.emotion-0:disabled,
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0:active {
+  color: #fff;
 }
 
 <a
@@ -107,12 +147,13 @@ exports[`Link renders as a secondary 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #8697a2;
+  color: #0cd664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
+  color: #8697a2;
 }
 
 .emotion-0:hover,
