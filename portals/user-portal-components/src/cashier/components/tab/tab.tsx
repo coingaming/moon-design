@@ -69,7 +69,10 @@ const TabItem = styled(NavLink)<{ active?: boolean; rightAligned?: boolean }>(
       color: colors.neutral[20],
       cursor: 'pointer',
       height: '100%',
-      padding: spacing(),
+      paddingBottom: spacing(),
+      paddingTop: spacing(),
+      marginLeft: spacing(),
+      marginRight: spacing(),
       '&:hover, &:focus, &:active': {
         borderBottom: `${underlineWidth}px solid ${colors.brand}`,
         color: colors.neutral[10],
