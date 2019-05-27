@@ -11,7 +11,6 @@ import { TransactionsHeader } from './dumb-components/transaction-details/header
 import {
   CashierLayout,
   CashierHeading,
-  HeadingDescription,
   WalletsContainer,
   WalletWrapper,
   TransactionsSection,
@@ -63,9 +62,6 @@ export const WalletsView = () => {
       </div>
       <CashierLayout>
         <CashierHeading>Wallet</CashierHeading>
-        <HeadingDescription>
-          Manage your profile, password and more.
-        </HeadingDescription>
         <WalletsContainer>
           <WalletWrapper>
             <BitcoinWallet />
