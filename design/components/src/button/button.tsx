@@ -1,6 +1,8 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { CSSObject, jsx } from '@emotion/core';
+import styled from '@emotion/styled';
+import isPropValid from '@emotion/is-prop-valid';
 import rem from 'polished/lib/helpers/rem';
 import { border, typography, base } from '@heathmont/sportsbet-tokens';
 import { spacing, disabled } from '@heathmont/sportsbet-utils';
@@ -20,6 +22,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   outline?: boolean;
   round?: boolean;
   onClick?: () => void;
+  as?: 'button' | 'a';
 };
 
 /**
@@ -46,41 +49,26 @@ const button: CSSObject = {
 /**
  * Component
  */
-const Button: React.FC<ButtonProps> = ({
-  className,
-  href,
-  mockState,
-  modifier,
-  fullWidth,
-  uppercase,
-  outline,
-  round,
-  ...props
-}) => {
-  const ButtonElement = !href ? 'button' : 'a';
+const StyledButton: React.FC<ButtonProps> = styled('button', {
+  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
+})(({ modifier, outline, uppercase, round, fullWidth }) => [
+  button,
+  modifier && buttonModifiers[modifier],
+  outline && outlineModifiers[modifier],
+  uppercase && { textTransform: 'uppercase' },
+  round && { borderRadius: rem(100) },
+  fullWidth && { width: '100%' },
+]);
 
-  /**
-   * The idea solution would be something like:
-   *   return <ButtonElement/>
-   * Unfortunately, TypeScript doesn't like this.
-   * Issue: https://github.com/Microsoft/TypeScript/issues/28768
-   *
-   * Instead we use Emotion's `jsx` factory to render the React component,
-   * making use of the `css` prop.
-   */
-  return jsx(ButtonElement, {
-    href,
-    css: [
-      button,
-      modifier && buttonModifiers[modifier],
-      outline && outlineModifiers[modifier],
-      uppercase && { textTransform: 'uppercase' },
-      round && { borderRadius: rem(100) },
-      fullWidth && { width: '100%' },
-    ],
-    className: mockState && buttonMockStateClass(mockState),
-    ...props,
-  });
+const Button: React.FC<ButtonProps> = ({ children, mockState, ...props }) => {
+  return (
+    <StyledButton
+      className={mockState && buttonMockStateClass(mockState)}
+      {...props}
+    >
+      {children}
+    </StyledButton>
+  );
 };
 
 Button.defaultProps = {
