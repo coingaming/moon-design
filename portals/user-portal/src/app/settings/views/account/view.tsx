@@ -68,7 +68,7 @@ export const AccountView = () => {
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
-              <Heading size="delta" element="h2">
+              <Heading size="delta" as="h2">
                 General information
               </Heading>
             </Summary>
@@ -157,7 +157,7 @@ export const AccountView = () => {
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
-              <Heading size="delta" element="h2">
+              <Heading size="delta" as="h2">
                 Change password
               </Heading>
             </Summary>
@@ -191,7 +191,7 @@ export const AccountView = () => {
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
-              <Heading size="delta" element="h2">
+              <Heading size="delta" as="h2">
                 Google Authenticator
               </Heading>
             </Summary>
@@ -244,7 +244,7 @@ export const AccountView = () => {
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
-              <Heading size="delta" element="h2">
+              <Heading size="delta" as="h2">
                 Verify Account
               </Heading>
             </Summary>

@@ -184,10 +184,12 @@ Stretches a button to fill the entire width of its container.
 
 Sometimes we want to use the Button component to send the user to a different location.
 
-By adding the `href="<url>"` attribute, Buttons can be rendered as `<a>` elements.
+By adding the `as="a"` attribute, Buttons can be rendered as `<a>` elements.
+
+Don't forget to pass `href="<url>"`
 
 ```jsx react-live
-<Button href="#" modifier="secondary">
+<Button href="#" as="a" modifier="secondary">
   Secondary (Anchor)
 </Button>
 ```

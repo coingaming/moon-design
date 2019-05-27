@@ -3,9 +3,15 @@ import { create } from 'react-test-renderer';
 import { Link } from '../';
 
 describe('Link', () => {
-  test('renders as a button by default', () => {
+  test('renders as a link by default', () => {
+    const link = create(<Link>I look like a link</Link>);
+
+    expect(link).toMatchSnapshot();
+  });
+
+  test('renders as a button if prop as="button" was passed', () => {
     const link = create(
-      <Link>I look like a link, but really I'm a button</Link>
+      <Link as="button">I look like a link, but really I'm a button</Link>
     );
 
     expect(link).toMatchSnapshot();
@@ -38,18 +44,20 @@ describe('Link', () => {
   });
 
   describe('renders as disabled', () => {
-    test('for button elements', () => {
+    test('for anchor elements', () => {
       const link = create(
-        <Link disabled>I look like a link, but really I'm a button</Link>
+        <Link href="#test-path" disabled>
+          I'm a link
+        </Link>
       );
 
       expect(link).toMatchSnapshot();
     });
 
-    test('for anchor elements', () => {
+    test('for button elements', () => {
       const link = create(
-        <Link href="#test-path" disabled>
-          I'm a link
+        <Link as="button" disabled>
+          I look like a link, but really I'm a button
         </Link>
       );
 

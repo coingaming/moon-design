@@ -59,7 +59,7 @@
     "nodemon": "1.18.10",
     "wait-on": "3.2.0",
     "webpack": "4.29.3",
-    "webpack-bundle-analyzer": "3.0.4",
+    "webpack-bundle-analyzer": "3.3.2",
     "webpack-cli": "3.2.3",
     "webpack-dev-server": "3.1.14",
     "webpack-merge": "4.2.1"

@@ -37,7 +37,7 @@ const heading: CSSObject = {
 };
 
 export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
-  <Heading size="charlie" element="h1" css={heading}>
+  <Heading size="charlie" as="h1" css={heading}>
     {children}
   </Heading>
 );
