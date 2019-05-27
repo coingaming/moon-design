@@ -41,6 +41,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
       paddingLeft: spacing(),
       paddingRight: spacing(),
       justifyContent: 'space-between',
+      width: '100%',
     },
     onClick && {
       cursor: 'pointer',
@@ -87,7 +88,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
     color: colors.neutral[20],
     backgroundColor: colors.neutral[80],
     marginTop: spacing(),
-    marginBottom: rem(24),
+    marginBottom: rem(23),
     display: 'grid',
     gridTemplateAreas:
       "'homeName homePeriod0 homePeriod1 homePeriod2 homePeriod3 homeCurrent' " +
@@ -160,11 +161,11 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
       }),
   ]);
 
-  const { information } = event;
+  const { information, onClick } = event;
 
   return (
     <Container>
-      <Header onClick={event.onClick ? event.onClick : undefined}>
+      <Header onClick={onClick}>
         <TitleContainer>
           <span>{event.name}</span>
           {badges &&
@@ -209,7 +210,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
       </ScoreWrapper>
       <TennisSelections selections={event.markets[0].selections} />
       <Market
-        onClick={event.onClick ? event.onClick : undefined}
+        onClick={onClick}
         market={event.markets[0]}
         marketCount={event.marketCount}
         videoStream={event.videoStream}

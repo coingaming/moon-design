@@ -1,7 +1,5 @@
 /** @jsx jsx */
-import * as React from 'react';
-// tslint:disable-next-line:no-duplicate-imports
-import { useState } from 'react';
+import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
 import {
   CashierLayout,
@@ -12,10 +10,7 @@ import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
 import { MyBetsHeader } from './dumb-components/my-bets-header';
-import {
-  Scoreboard,
-  ScoreboardsContainer,
-} from './components/Scoreboards/Scoreboard';
+import { ScoreboardsContainer } from './components/Scoreboards/Scoreboard';
 import {
   event,
   footballEventNoStream,
@@ -25,6 +20,8 @@ import {
   wonBadge,
   activeBadge,
 } from './dummyData';
+import { FootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
+import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
 jsx;
 
 export const MyBetsView = () => {
@@ -63,28 +60,22 @@ export const MyBetsView = () => {
           <span>Potential win</span>
         </MyBetsHeader>
         <ScoreboardsContainer>
-          <Scoreboard event={event} type="football" timer={'45:21'} />
-          <Scoreboard
+          <FootballScoreboard event={event} timer={'45:21'} />
+          <FootballScoreboard
             event={footballEventNoStream}
-            type="football"
-            timer={'14:11'}
+            timer={'12:11'}
+            badges={[wonBadge]}
           />
-          <Scoreboard
+          <TennisScoreboard
             event={tennis1}
-            type="tennis"
             timer={'45:21'}
             badges={[liveBadge, activeBadge]}
           />
-          <Scoreboard event={tennis2} type="tennis" timer={'Set 2'} />
-          <Scoreboard
-            event={footballEventNoStream}
-            type="football"
-            timer={'14:11'}
-          />
-          <Scoreboard event={tennis1} type="tennis" timer={'Set 1'} />
-          <Scoreboard
+          <TennisScoreboard event={tennis2} timer={'Set 2'} />
+          <FootballScoreboard event={footballEventNoStream} timer={'14:11'} />
+          <TennisScoreboard event={tennis1} timer={'Set 1'} />
+          <TennisScoreboard
             event={tennis2}
-            type="tennis"
             timer={'Set 5'}
             badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
           />
