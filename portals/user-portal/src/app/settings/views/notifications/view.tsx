@@ -14,7 +14,6 @@ import {
   Active,
   CashierLayout,
   CashierHeading,
-  HeadingDescription,
 } from '@heathmont/sportsbet-user-portal-components';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
@@ -48,9 +47,6 @@ export const NotificationsView = () => {
 
       <CashierLayout>
         <CashierHeading>Notifications</CashierHeading>
-        <HeadingDescription>
-          Manage your profile, password and more.
-        </HeadingDescription>
         <SettingsSection>
           <SettingsBlock>
             <BlockContent>

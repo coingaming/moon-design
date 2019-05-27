@@ -41,12 +41,3 @@ export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
     {children}
   </Heading>
 );
-
-export const HeadingDescription = styled.p({
-  color: colors.neutral[20],
-  marginTop: spacing('xsmall'),
-  paddingLeft: spacing('large'),
-  [mq(breakpoints.medium)]: {
-    paddingLeft: 0,
-  },
-});
