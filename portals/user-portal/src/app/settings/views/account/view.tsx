@@ -18,7 +18,6 @@ import {
   SettingsBlock,
   CashierLayout,
   CashierHeading,
-  HeadingDescription,
 } from '@heathmont/sportsbet-user-portal-components';
 import { spacing, rhythm, container } from '@heathmont/sportsbet-utils/lib';
 import {
@@ -62,9 +61,6 @@ export const AccountView = () => {
 
       <CashierLayout>
         <CashierHeading>Account</CashierHeading>
-        <HeadingDescription>
-          Manage your profile, password and more.
-        </HeadingDescription>
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>

@@ -14,7 +14,6 @@ import {
   SettingsText,
   CashierLayout,
   CashierHeading,
-  HeadingDescription,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
@@ -47,9 +46,6 @@ export const SettingsView = () => {
       </div>
       <CashierLayout>
         <CashierHeading>Settings</CashierHeading>
-        <HeadingDescription>
-          Manage your profile, password and more.
-        </HeadingDescription>
         <SettingsSection>
           <SettingsBlock>
             <Heading size="delta" as="h2">
