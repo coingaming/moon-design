@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
+
+
+### Bug Fixes
+
+* **heading:** use "as" everywhere instead of "element" ([cb38e60](https://github.com/coingaming/sportsbet-design/commit/cb38e60))
+
+
+
+
+
 ## [0.38.2](https://github.com/coingaming/sportsbet-design/compare/v0.38.1...v0.38.2) (2019-05-23)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
