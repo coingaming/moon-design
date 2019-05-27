@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
+import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq } from '@heathmont/sportsbet-utils';
 import { Input, inputColors, inputSpacing } from '../private/input';
 import { Label, LabelSizing } from '../private/label';
@@ -27,6 +27,7 @@ const SelectInput = Input.withComponent('select');
 
 const select: CSSObject = {
   color: inputColors.label,
+  backgroundColor: colors.neutral[75],
   backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
   paddingRight: rem(selectIconOffset),
   backgroundPosition: `right ${rem(selectIconSize)} center`,

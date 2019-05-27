@@ -14,7 +14,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -106,7 +106,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -311,7 +311,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -390,7 +390,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -574,7 +574,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -685,7 +685,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -747,7 +747,7 @@ exports[`TextInput renders with label above input when defined 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
