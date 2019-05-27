@@ -15,10 +15,7 @@ export const SettingsNav = () => (
       Settings
     </TabItem>
     <TabItem to={'#'} rightAligned>
-      <p>
-        Return to sportsbook
-        <CloseButton />
-      </p>
+      Log out
     </TabItem>
   </Tab>
 );
