@@ -27,13 +27,17 @@ export const SettingsBlock = styled.div<{ highlight?: boolean; onClick?: any }>(
     {
       minHeight: rem(96),
       alignItems: 'center',
-      // paddingLeft: spacing('large'),
-      // paddingRight: spacing('large'),
+      paddingLeft: spacing(),
+      paddingRight: spacing(),
       paddingTop: spacing('medium'),
       paddingBottom: spacing('medium'),
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'space-between',
+      [mq(breakpoints.medium)]: {
+        paddingLeft: 0,
+        paddingRight: 0,
+      },
     },
     highlight && {
       position: 'relative',
