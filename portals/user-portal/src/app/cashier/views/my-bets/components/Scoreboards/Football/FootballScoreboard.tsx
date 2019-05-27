@@ -6,13 +6,15 @@ import { Market } from '../Market';
 import * as React from 'react';
 import { EventProps } from '../Scoreboard';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { Badge } from '@heathmont/sportsbet-components';
 
 export type FootballProps = {
   event: EventProps;
   timer: string;
+  badges?: { color?: string; backgroundColor?: string; title: string }[];
 };
 
-export const FootballScoreboard = ({ event, timer }: FootballProps) => {
+export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
   const Container = styled.div(() => ({
     display: 'flex',
     paddingTop: spacing('small'),
@@ -22,21 +24,52 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
     justifyContent: 'center',
   }));
 
-  const Title = styled.span(onClick => [
+  const Header = styled.span(onClick => [
     {
       color: colors.text,
-      textAlign: 'center',
+      gridArea: 'title',
+      textAlign: 'left',
       fontSize: rem(12),
-      height: rem(24),
-      padding: `${rem(4)} ${spacing()} 0`,
-      whiteSpace: 'nowrap',
-      textOverflow: 'ellipsis',
-      overflow: 'hidden',
+      height: rem(40),
+      alignItems: 'center',
+      display: 'flex',
+      paddingLeft: spacing(),
+      paddingRight: spacing(),
+      justifyContent: 'space-between',
+      width: '100%',
     },
     onClick && {
       cursor: 'pointer',
     },
   ]);
+
+  const TitleContainer = styled.div(() => [
+    {
+      display: 'flex',
+      alignItems: 'center',
+      height: '100%',
+      overflow: 'hidden',
+      '& > span': {
+        marginRight: rem(9),
+        textOverflow: 'ellipsis',
+        overflow: 'hidden',
+        whiteSpace: 'nowrap',
+      },
+    },
+  ]);
+
+  const Timer = styled.span(() => [
+    {
+      color: colors.neutral[20],
+      textAlign: 'right',
+      marginLeft: rem(10),
+      whiteSpace: 'nowrap',
+    },
+  ]);
+
+  const BadgeWrapper = styled.div(() => ({
+    marginLeft: spacing('xsmall'),
+  }));
 
   const Score = styled.span(() => ({
     color: colors.text,
@@ -51,19 +84,11 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
     },
   }));
 
-  const TimeRemaining = styled.span(() => ({
-    color: colors.neutral[20],
-    display: 'block',
-    marginTop: rem(7),
-    lineHeight: rem(10),
-    fontSize: rem(12),
-  }));
-
   const Logos = styled.div(() => [
     {
       paddingLeft: spacing('medium'),
       paddingRight: spacing('medium'),
-      height: rem(88),
+      height: rem(72),
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
@@ -102,13 +127,29 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
     },
   ]);
 
+  const { onClick } = event;
+
   return (
     <Container>
-      <Title onClick={event.onClick ? event.onClick : undefined}>
-        {event.name}
-      </Title>
+      <Header onClick={onClick}>
+        <TitleContainer>
+          <span>{event.name}</span>
+          {badges &&
+            badges.map((badge, index) => {
+              const { color, backgroundColor, title } = badge;
+              return (
+                <BadgeWrapper key={index}>
+                  <Badge color={color} backgroundColor={backgroundColor}>
+                    {title}
+                  </Badge>
+                </BadgeWrapper>
+              );
+            })}
+        </TitleContainer>
+        <Timer>{timer}</Timer>
+      </Header>
       <Logos>
-        <Logo onClick={event.onClick ? event.onClick : undefined}>
+        <Logo onClick={onClick}>
           <img
             alt={event.competitors.home.name}
             src={event.competitors.home.image}
@@ -118,9 +159,8 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
           <span>{event.information.homeScore}</span>
           <span className="separator">:</span>
           <span>{event.information.awayScore}</span>
-          <TimeRemaining>{timer}</TimeRemaining>
         </Score>
-        <Logo onClick={event.onClick ? event.onClick : undefined}>
+        <Logo onClick={onClick}>
           <img
             alt={event.competitors.away.name}
             src={event.competitors.away.image}
@@ -133,7 +173,7 @@ export const FootballScoreboard = ({ event, timer }: FootballProps) => {
       </Competitors>
       <FootballSelections selections={event.markets[0].selections} />
       <Market
-        onClick={event.onClick ? event.onClick : undefined}
+        onClick={onClick}
         market={event.markets[0]}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
