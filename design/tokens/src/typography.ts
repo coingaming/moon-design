@@ -10,7 +10,7 @@ type FontWeight = {
 };
 
 const fontWeight: FontWeight = {
-  normal: 600,
+  normal: 400,
   semibold: 600,
   bold: 700,
 };

@@ -4,7 +4,7 @@ import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { mq, spacing, container } from '@heathmont/sportsbet-utils';
-import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { breakpoints, colors, border } from '@heathmont/sportsbet-tokens';
 import { Heading } from '@heathmont/sportsbet-components/lib/heading';
 jsx;
 
@@ -31,6 +31,8 @@ export const CashierLayout: React.FC = ({ children }) => (
 const heading: CSSObject = {
   marginTop: spacing('large'),
   paddingLeft: spacing('large'),
+  paddingBottom: spacing('large'),
+  borderBottom: `${border.width}px ${border.style} ${colors.neutral[70]}`,
   [mq(breakpoints.medium)]: {
     paddingLeft: 0,
   },
@@ -41,12 +43,3 @@ export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
     {children}
   </Heading>
 );
-
-export const HeadingDescription = styled.p({
-  color: colors.neutral[20],
-  marginTop: spacing('xsmall'),
-  paddingLeft: spacing('large'),
-  [mq(breakpoints.medium)]: {
-    paddingLeft: 0,
-  },
-});

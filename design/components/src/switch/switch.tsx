@@ -7,11 +7,14 @@ jsx;
 
 type SwitchProps = React.InputHTMLAttributes<HTMLInputElement> & {};
 
+const SwitchHeight = 32; // px
+const SwitchWidth = 64; // px
+
 const switcher: CSSObject = {
   position: 'relative',
   display: 'inline-block',
-  width: rem(64),
-  height: rem(32),
+  width: rem(SwitchWidth),
+  height: rem(SwitchHeight),
 };
 
 const inputStyle: CSSObject = {
@@ -29,11 +32,13 @@ const inputStyle: CSSObject = {
 
 const slider: CSSObject = {
   position: 'absolute',
-  cursor: 'pointer',
+  width: rem(SwitchWidth),
+  height: rem(SwitchHeight),
   top: 0,
   left: 0,
   right: 0,
   bottom: 0,
+  cursor: 'pointer',
   backgroundColor: colors.neutral[70],
   transition: `${animation.speed.default}s`,
   borderRadius: rem(34),
