@@ -44,7 +44,7 @@ const tabList: CSSObject = {
   height: '100%',
   marginTop: 0,
   marginLeft: 0,
-  borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
 };
 
 const Tab: React.FC = ({ children }) => {
@@ -69,7 +69,10 @@ const TabItem = styled(NavLink)<{ active?: boolean; rightAligned?: boolean }>(
       color: colors.neutral[20],
       cursor: 'pointer',
       height: '100%',
-      padding: spacing(),
+      paddingBottom: spacing(),
+      paddingTop: spacing(),
+      marginLeft: spacing(),
+      marginRight: spacing(),
       '&:hover, &:focus, &:active': {
         borderBottom: `${underlineWidth}px solid ${colors.brand}`,
         color: colors.neutral[10],
