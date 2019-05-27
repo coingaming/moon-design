@@ -27,11 +27,13 @@ exports[`Switch renders as checked 1`] = `
 
 .emotion-1 {
   position: absolute;
-  cursor: pointer;
+  width: 4rem;
+  height: 2rem;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  cursor: pointer;
   background-color: #1A212A;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -92,11 +94,13 @@ exports[`Switch renders by default 1`] = `
 
 .emotion-1 {
   position: absolute;
-  cursor: pointer;
+  width: 4rem;
+  height: 2rem;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  cursor: pointer;
   background-color: #1A212A;
   -webkit-transition: 0.4s;
   transition: 0.4s;
