@@ -48,18 +48,6 @@ export const SettingsView = () => {
         <CashierHeading>Settings</CashierHeading>
         <SettingsSection>
           <SettingsBlock>
-            <Heading size="delta" as="h2">
-              Odd preference
-            </Heading>
-            <Select css={{ maxWidth: rem(146) }}>
-              <option value="decimal">Decimal</option>
-              <option value="american">American</option>
-              <option value="indonesian">Indonesian</option>
-              <option value="hong-kong">Hong Kong</option>
-              <option value="malaysian">Malaysian</option>
-            </Select>
-          </SettingsBlock>
-          <SettingsBlock>
             <BlockContent>
               <Heading size="echo" as="h3">
                 Boost your sportsbet.io
@@ -75,6 +63,7 @@ export const SettingsView = () => {
               }}
             />
           </SettingsBlock>
+
           <SettingsBlock>
             <BlockContent>
               <Heading size="echo" as="h3">
@@ -91,6 +80,7 @@ export const SettingsView = () => {
               }}
             />
           </SettingsBlock>
+
           <SettingsBlock>
             <BlockContent>
               <Heading size="echo" as="h3">
@@ -107,13 +97,29 @@ export const SettingsView = () => {
               }}
             />
           </SettingsBlock>
-        </SettingsSection>
-        <SettingsSection>
+
           <SettingsBlock>
-            <Heading size="delta" as="h2">
-              Marketing promotions
-            </Heading>
+            <BlockContent>
+              <Heading size="echo" as="h3">
+                Odds format
+              </Heading>
+              <SettingsText>
+                Activate this feature to place bets with one click in the the
+                betslip.
+              </SettingsText>
+            </BlockContent>
+            <Select css={{ maxWidth: rem(146) }}>
+              <option value="decimal">Decimal</option>
+              <option value="american">American</option>
+              <option value="indonesian">Indonesian</option>
+              <option value="hong-kong">Hong Kong</option>
+              <option value="malaysian">Malaysian</option>
+            </Select>
           </SettingsBlock>
+        </SettingsSection>
+
+        <CashierHeading>Marketing Promotions</CashierHeading>
+        <SettingsSection>
           <SettingsBlock>
             <BlockContent>
               <Heading size="echo" as="h3">

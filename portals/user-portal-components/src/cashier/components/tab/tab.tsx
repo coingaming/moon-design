@@ -44,7 +44,7 @@ const tabList: CSSObject = {
   height: '100%',
   marginTop: 0,
   marginLeft: 0,
-  borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
 };
 
 const Tab: React.FC = ({ children }) => {
