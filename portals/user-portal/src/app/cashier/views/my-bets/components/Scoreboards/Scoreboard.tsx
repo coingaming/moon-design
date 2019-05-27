@@ -1,19 +1,9 @@
 import { ReactChild, default as React } from 'react';
 import { MarketProps } from './Market';
-import {
-  FootballScoreboard,
-  FootballProps,
-} from './Football/FootballScoreboard';
 import styled from '@emotion/styled';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
-import { TennisProps, TennisScoreboard } from './Tennis/TennisScoreboard';
-
-type ScoreboardProps = FootballProps &
-  TennisProps & {
-    type: 'football' | 'icehockey' | 'tennis';
-  };
 
 type CompetitorProps = {
   name: string;
@@ -35,16 +25,6 @@ export type EventProps = {
   };
   videoStream: boolean;
   onClick: () => void;
-};
-export const Scoreboard = ({ type, event, timer, badges }: ScoreboardProps) => {
-  switch (type) {
-    case 'football' || 'icehockey':
-      return <FootballScoreboard event={event} timer={timer} />;
-    case 'tennis':
-      return <TennisScoreboard event={event} timer={timer} badges={badges} />;
-    default:
-      return <FootballScoreboard event={event} timer={timer} />;
-  }
 };
 
 export const ScoreboardsContainer = ({ children }: any) => {
