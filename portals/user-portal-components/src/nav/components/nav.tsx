@@ -3,7 +3,7 @@ import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
+import { colors, breakpoints, typography } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 jsx;
@@ -33,6 +33,7 @@ const Nav = styled.nav(() => [
 ]);
 
 const navGrid: CSSObject = {
+  fontWeight: typography.fontWeight.semibold,
   display: 'grid',
   gridTemplateRows: `${rem(64)} auto auto`,
   gridTemplateColumns: '1fr 1fr',

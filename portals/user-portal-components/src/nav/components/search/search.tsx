@@ -20,7 +20,7 @@ const searchBox: CSSObject = {
   backgroundColor: colors.neutral[70],
   fontFamily: typography.fontFamily,
   fontSize: base.fontSize,
-  fontWeight: typography.fontWeight.normal,
+  fontWeight: typography.fontWeight.semibold,
   textOverflow: 'ellipsis',
   overflow: 'hidden',
   color: colors.neutral[20],
