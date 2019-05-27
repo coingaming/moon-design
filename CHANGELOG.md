@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
+
+
+### Bug Fixes
+
+* **button, link:** strict "as" prop type ([1b1eaf0](https://github.com/coingaming/sportsbet-design/commit/1b1eaf0))
+* **heading:** use "as" everywhere instead of "element" ([cb38e60](https://github.com/coingaming/sportsbet-design/commit/cb38e60))
+* bump: Versions of webpack-bundle-analyzer prior to 3.3.2 are vulnerable to Cross-Site Scripting ([e1351d6](https://github.com/coingaming/sportsbet-design/commit/e1351d6))
+
+
+### Features
+
+* **button:** use emotion 'as' prop ([0112eb1](https://github.com/coingaming/sportsbet-design/commit/0112eb1))
+* **heading:** use emotion "as" prop ([ceae5a6](https://github.com/coingaming/sportsbet-design/commit/ceae5a6))
+* **link:** use emotion 'as' prop ([91a6585](https://github.com/coingaming/sportsbet-design/commit/91a6585))
+
+
+
+
+
 ## [0.38.2](https://github.com/coingaming/sportsbet-design/compare/v0.38.1...v0.38.2) (2019-05-23)
 
 
