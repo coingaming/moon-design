@@ -3,9 +3,9 @@ import { colors } from '@heathmont/sportsbet-tokens';
 export const event = {
   name: 'England, FA Cup',
   marketCount: 1,
-  onClick: () => {
-    console.log('EVENT CLICK');
-  },
+  // onClick: () => {
+  //   console.log('EVENT CLICK');
+  // },
   markets: [
     {
       id: 'test',

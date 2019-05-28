@@ -20,7 +20,7 @@ import {
   wonBadge,
   activeBadge,
 } from './dummyData';
-import { FootballScoreboard } from './components/scoreboards/Football/FootballScoreboard';
+import { DummyFootballScoreboard } from './components/scoreboards/Football/FootballScoreboard';
 import { TennisScoreboard } from './components/scoreboards/Tennis/TennisScoreboard';
 jsx;
 
@@ -60,8 +60,8 @@ export const MyBetsView = () => {
           <span>Potential win</span>
         </MyBetsHeader>
         <ScoreboardsContainer>
-          <FootballScoreboard event={event} timer="45:21" />
-          <FootballScoreboard
+          <DummyFootballScoreboard event={event} timer="45:21" />
+          <DummyFootballScoreboard
             event={footballEventNoStream}
             timer="12:11"
             badges={[wonBadge]}
@@ -72,7 +72,10 @@ export const MyBetsView = () => {
             badges={[liveBadge, activeBadge]}
           />
           <TennisScoreboard event={tennis2} timer="Set 2" />
-          <FootballScoreboard event={footballEventNoStream} timer="14:11" />
+          <DummyFootballScoreboard
+            event={footballEventNoStream}
+            timer="14:11"
+          />
           <TennisScoreboard event={tennis1} timer="Set 1" />
           <TennisScoreboard
             event={tennis2}
