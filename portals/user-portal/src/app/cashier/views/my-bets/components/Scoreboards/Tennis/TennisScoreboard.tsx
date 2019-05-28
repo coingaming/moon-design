@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Badge } from '@heathmont/sportsbet-components/lib/badge';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, border } from '@heathmont/sportsbet-tokens';
 
 import { Market } from '../Market';
 import { EventProps } from '../Scoreboard';
@@ -16,14 +16,14 @@ export type TennisProps = {
   badges?: { color?: string; backgroundColor?: string; title: string }[];
 };
 
-const Container = styled.div(() => ({
+const Container = styled.div({
   backgroundColor: colors.neutral[90],
   maxWidth: rem(320),
   // background: colors.neutral[20],
   display: 'flex',
   flexWrap: 'nowrap',
   flexDirection: 'column',
-}));
+});
 
 const Header = styled.span(({ onClick }) => [
   {
@@ -44,43 +44,39 @@ const Header = styled.span(({ onClick }) => [
   },
 ]);
 
-const TitleContainer = styled.div(() => [
-  {
-    display: 'flex',
-    alignItems: 'center',
-    height: '100%',
+const TitleContainer = styled.div({
+  display: 'flex',
+  alignItems: 'center',
+  height: '100%',
+  overflow: 'hidden',
+  '& > span': {
+    marginRight: rem(9),
+    textOverflow: 'ellipsis',
     overflow: 'hidden',
-    '& > span': {
-      marginRight: rem(9),
-      textOverflow: 'ellipsis',
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-    },
-  },
-]);
-
-const Timer = styled.span(() => [
-  {
-    color: colors.neutral[20],
-    textAlign: 'right',
-    marginLeft: rem(10),
     whiteSpace: 'nowrap',
   },
-]);
+});
 
-const BadgeWrapper = styled.div(() => ({
+const Timer = styled.span({
+  color: colors.neutral[20],
+  textAlign: 'right',
+  marginLeft: rem(10),
+  whiteSpace: 'nowrap',
+});
+
+const BadgeWrapper = styled.div({
   marginLeft: spacing('xsmall'),
-}));
+});
 
-const ScoreWrapper = styled.span(() => ({
+const ScoreWrapper = styled.span({
   gridArea: 'score',
   backgroundImage:
     'linear-gradient(135deg, #010812 25%, rgba(255,255,255,0.08) 25%, rgba(255,255,255,0.08) 50%, #010812 50%, #010812 75%, rgba(255,255,255,0.08) 75%, rgba(255,255,255,0.08) 100%)',
   backgroundSize: '5.66px 5.66px',
   borderRadius: '2px',
-}));
+});
 
-const Score = styled.span(() => ({
+const Score = styled.span({
   color: colors.neutral[20],
   backgroundColor: colors.neutral[80],
   marginTop: spacing(),
@@ -91,15 +87,15 @@ const Score = styled.span(() => ({
     "'awayName awayPeriod0 awayPeriod1 awayPeriod2 awayPeriod3 awayCurrent' ",
   gridTemplateRows: '40px 40px',
   gridTemplateColumns: '3fr 1fr 1fr 1fr 1fr 1.2fr',
-  borderTop: '1px solid rgba(255, 255, 255, 0.08)',
-}));
+  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
+});
 
 const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
   ({ home, away }) => [
     {
       paddingLeft: spacing(),
       alignSelf: 'center',
-      borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+      borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
       display: 'flex',
       alignItems: 'center',
       height: '100%',
@@ -115,19 +111,21 @@ const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
 );
 
 const CellStyling = css({
-  borderLeft: '1px solid rgba(255, 255, 255, 0.08)',
   height: '100%',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+  borderLeft: `${border.width}px solid ${colors.neutral[60]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
 });
 
-const HomePoints = styled.div<{
+type PointsType = {
   period?: number;
   win?: boolean;
   current?: boolean;
-}>(({ current, period, win }) => [
+};
+
+const HomePoints = styled.div<PointsType>(({ current, period, win }) => [
   CellStyling,
   {
     fontSize: rem(20),
@@ -140,11 +138,7 @@ const HomePoints = styled.div<{
     }),
 ]);
 
-const AwayPoints = styled.div<{
-  period?: number;
-  win?: boolean;
-  current?: boolean;
-}>(({ current, period, win }) => [
+const AwayPoints = styled.div<PointsType>(({ current, period, win }) => [
   CellStyling,
   {
     fontSize: rem(20),

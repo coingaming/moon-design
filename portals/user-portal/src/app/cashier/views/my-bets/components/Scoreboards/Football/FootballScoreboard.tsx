@@ -15,14 +15,14 @@ export type FootballProps = {
   badges?: { color?: string; backgroundColor?: string; title: string }[];
 };
 
-const Container = styled.div(() => ({
+const FootballCard = styled.div({
   display: 'flex',
   paddingTop: spacing('small'),
   backgroundColor: colors.neutral[90],
   maxWidth: rem(320),
   flexWrap: 'wrap',
   justifyContent: 'center',
-}));
+});
 
 const Header = styled.span(({ onClick }) => [
   {
@@ -43,33 +43,30 @@ const Header = styled.span(({ onClick }) => [
   },
 ]);
 
-const TitleContainer = styled.div(() => [
-  {
-    display: 'flex',
-    alignItems: 'center',
-    height: '100%',
-    overflow: 'hidden',
-    '& > span': {
-      marginRight: rem(9),
-      textOverflow: 'ellipsis',
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-    },
-  },
-]);
+const TitleContainer = styled.div({
+  display: 'flex',
+  alignItems: 'center',
+  height: '100%',
+  overflow: 'hidden',
+});
 
-const Timer = styled.span(() => [
-  {
-    color: colors.neutral[20],
-    textAlign: 'right',
-    marginLeft: rem(10),
-    whiteSpace: 'nowrap',
-  },
-]);
+const FootballLeagueTitle = styled.span({
+  marginRight: spacing('small'),
+  textOverflow: 'ellipsis',
+  overflow: 'hidden',
+  whiteSpace: 'nowrap',
+});
 
-const BadgeWrapper = styled.div(() => ({
+const Timer = styled.span({
+  color: colors.neutral[20],
+  textAlign: 'right',
+  marginLeft: rem(10),
+  whiteSpace: 'nowrap',
+});
+
+const BadgeWrapper = styled.div({
   marginLeft: spacing('xsmall'),
-}));
+});
 
 const Score = styled.span({
   color: colors.text,
@@ -85,17 +82,15 @@ const ScoreSeparator = styled.span({
   margin: `0 ${spacing('xsmall')}`,
 });
 
-const Logos = styled.div(() => [
-  {
-    paddingLeft: spacing('medium'),
-    paddingRight: spacing('medium'),
-    height: rem(72),
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    flexGrow: 1,
-  },
-]);
+const Logos = styled.div({
+  paddingLeft: spacing('medium'),
+  paddingRight: spacing('medium'),
+  height: rem(72),
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  flexGrow: 1,
+});
 
 const Logo = styled.div(onClick => [
   {
@@ -128,14 +123,20 @@ const Competitors = styled.div(() => [
   },
 ]);
 
-export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
-  const { onClick } = event;
+const onClick = () => {
+  console.log('on click');
+};
 
+export const DummyFootballScoreboard = ({
+  event,
+  timer,
+  badges,
+}: FootballProps) => {
   return (
-    <Container>
+    <FootballCard>
       <Header onClick={onClick}>
         <TitleContainer>
-          <span>{event.name}</span>
+          <FootballLeagueTitle>{event.name}</FootballLeagueTitle>
           {badges &&
             badges.map((badge, index) => {
               const { color, backgroundColor, title } = badge;
@@ -180,6 +181,6 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
         marketCount={event.marketCount}
         videoStream={event.videoStream}
       />
-    </Container>
+    </FootballCard>
   );
 };
