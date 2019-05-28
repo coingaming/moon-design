@@ -10,7 +10,7 @@ import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
 import { MyBetsHeader } from './dumb-components/my-bets-header';
-import { ScoreboardsContainer } from './components/Scoreboards/Scoreboard';
+import { ScoreboardsContainer } from './components/scoreboards/scoreboard';
 import {
   event,
   footballEventNoStream,
@@ -20,8 +20,8 @@ import {
   wonBadge,
   activeBadge,
 } from './dummyData';
-import { FootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
-import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
+import { FootballScoreboard } from './components/scoreboards/Football/FootballScoreboard';
+import { TennisScoreboard } from './components/scoreboards/Tennis/TennisScoreboard';
 jsx;
 
 export const MyBetsView = () => {
