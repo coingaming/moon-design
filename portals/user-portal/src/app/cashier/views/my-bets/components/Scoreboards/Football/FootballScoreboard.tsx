@@ -1,12 +1,13 @@
-import styled from '@emotion/styled';
-import { spacing } from '@heathmont/sportsbet-utils';
+import * as React from 'react';
 import rem from 'polished/lib/helpers/rem';
+import styled from '@emotion/styled';
+import { colors } from '@heathmont/sportsbet-tokens';
+import { spacing } from '@heathmont/sportsbet-utils';
+import { Badge } from '@heathmont/sportsbet-components/lib/badge';
+
 import { FootballSelections } from './FootballSelections';
 import { Market } from '../Market';
-import * as React from 'react';
 import { EventProps } from '../Scoreboard';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { Badge } from '@heathmont/sportsbet-components';
 
 export type FootballProps = {
   event: EventProps;
@@ -14,119 +15,120 @@ export type FootballProps = {
   badges?: { color?: string; backgroundColor?: string; title: string }[];
 };
 
-export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
-  const Container = styled.div(() => ({
+const Container = styled.div(() => ({
+  display: 'flex',
+  paddingTop: spacing('small'),
+  backgroundColor: colors.neutral[90],
+  maxWidth: rem(320),
+  flexWrap: 'wrap',
+  justifyContent: 'center',
+}));
+
+const Header = styled.span(({ onClick }) => [
+  {
+    color: colors.text,
+    gridArea: 'title',
+    textAlign: 'left',
+    fontSize: rem(12),
+    height: rem(40),
+    alignItems: 'center',
     display: 'flex',
-    paddingTop: spacing('small'),
-    backgroundColor: colors.neutral[90],
-    maxWidth: rem(320),
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-  }));
+    paddingLeft: spacing(),
+    paddingRight: spacing(),
+    justifyContent: 'space-between',
+    width: '100%',
+  },
+  onClick && {
+    cursor: 'pointer',
+  },
+]);
 
-  const Header = styled.span(onClick => [
-    {
-      color: colors.text,
-      gridArea: 'title',
-      textAlign: 'left',
-      fontSize: rem(12),
-      height: rem(40),
-      alignItems: 'center',
-      display: 'flex',
-      paddingLeft: spacing(),
-      paddingRight: spacing(),
-      justifyContent: 'space-between',
-      width: '100%',
-    },
-    onClick && {
-      cursor: 'pointer',
-    },
-  ]);
-
-  const TitleContainer = styled.div(() => [
-    {
-      display: 'flex',
-      alignItems: 'center',
-      height: '100%',
+const TitleContainer = styled.div(() => [
+  {
+    display: 'flex',
+    alignItems: 'center',
+    height: '100%',
+    overflow: 'hidden',
+    '& > span': {
+      marginRight: rem(9),
+      textOverflow: 'ellipsis',
       overflow: 'hidden',
-      '& > span': {
-        marginRight: rem(9),
-        textOverflow: 'ellipsis',
-        overflow: 'hidden',
-        whiteSpace: 'nowrap',
-      },
-    },
-  ]);
-
-  const Timer = styled.span(() => [
-    {
-      color: colors.neutral[20],
-      textAlign: 'right',
-      marginLeft: rem(10),
       whiteSpace: 'nowrap',
     },
-  ]);
+  },
+]);
 
-  const BadgeWrapper = styled.div(() => ({
-    marginLeft: spacing('xsmall'),
-  }));
+const Timer = styled.span(() => [
+  {
+    color: colors.neutral[20],
+    textAlign: 'right',
+    marginLeft: rem(10),
+    whiteSpace: 'nowrap',
+  },
+]);
 
-  const Score = styled.span(() => ({
-    color: colors.text,
-    textAlign: 'center',
-    alignSelf: 'flex-end',
-    height: rem(48),
-    fontSize: rem(32),
-    lineHeight: rem(30),
-    '.separator': {
-      color: colors.neutral[20],
-      margin: `0 ${spacing('xsmall')}`,
+const BadgeWrapper = styled.div(() => ({
+  marginLeft: spacing('xsmall'),
+}));
+
+const Score = styled.span({
+  color: colors.text,
+  textAlign: 'center',
+  alignSelf: 'flex-end',
+  height: rem(48),
+  fontSize: rem(32),
+  lineHeight: rem(30),
+});
+
+const ScoreSeparator = styled.span({
+  color: colors.neutral[20],
+  margin: `0 ${spacing('xsmall')}`,
+});
+
+const Logos = styled.div(() => [
+  {
+    paddingLeft: spacing('medium'),
+    paddingRight: spacing('medium'),
+    height: rem(72),
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexGrow: 1,
+  },
+]);
+
+const Logo = styled.div(onClick => [
+  {
+    width: rem(88),
+    img: {
+      maxWidth: '100%',
+      padding: `${spacing('small')}`,
     },
-  }));
+  },
+  onClick && { cursor: 'pointer' },
+]);
 
-  const Logos = styled.div(() => [
-    {
-      paddingLeft: spacing('medium'),
-      paddingRight: spacing('medium'),
-      height: rem(72),
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      flexGrow: 1,
+const Competitors = styled.div(() => [
+  {
+    height: rem(40),
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexGrow: 1,
+    paddingLeft: spacing('small'),
+    paddingRight: spacing('small'),
+
+    span: {
+      width: rem(120),
+      textAlign: 'center',
+      textOverflow: 'ellipsis',
+      overflow: 'hidden',
+      maxHeight: '100%',
     },
-  ]);
+  },
+]);
 
-  const Logo = styled.div(onClick => [
-    {
-      width: rem(88),
-      img: {
-        maxWidth: '100%',
-        padding: `${spacing('small')}`,
-      },
-    },
-    onClick && { cursor: 'pointer' },
-  ]);
-
-  const Competitors = styled.div(() => [
-    {
-      height: rem(40),
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      flexGrow: 1,
-      paddingLeft: spacing('small'),
-      paddingRight: spacing('small'),
-
-      span: {
-        width: rem(120),
-        textAlign: 'center',
-        textOverflow: 'ellipsis',
-        overflow: 'hidden',
-        maxHeight: '100%',
-      },
-    },
-  ]);
-
+export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
   const { onClick } = event;
 
   return (
@@ -157,7 +159,7 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
         </Logo>
         <Score>
           <span>{event.information.homeScore}</span>
-          <span className="separator">:</span>
+          <ScoreSeparator>:</ScoreSeparator>
           <span>{event.information.awayScore}</span>
         </Score>
         <Logo onClick={onClick}>
