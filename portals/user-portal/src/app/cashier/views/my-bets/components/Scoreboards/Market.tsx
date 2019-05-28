@@ -41,7 +41,7 @@ const MarketName = styled.span(onClick => [
 
 const MarketCount = styled.span(onClick => [
   {
-    color: '#0CD664',
+    color: colors.brand,
     textAlign: 'right',
   },
   onClick && { cursor: 'pointer' },

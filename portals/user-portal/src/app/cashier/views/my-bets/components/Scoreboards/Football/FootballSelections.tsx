@@ -33,7 +33,7 @@ const SelectionButton = styled.button(
       border: 'none',
       borderTop: '1px solid rgba(255, 255, 255, 0.08)',
       borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
-      fontSize: rem(14),
+      // fontSize: rem(14),
       paddingLeft: rem(12),
       paddingRight: rem(12),
       display: 'flex',

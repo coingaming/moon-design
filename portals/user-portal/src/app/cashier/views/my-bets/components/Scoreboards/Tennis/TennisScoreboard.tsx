@@ -20,11 +20,10 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
     display: 'grid',
     backgroundColor: colors.neutral[90],
     maxWidth: rem(320),
-    gridTemplateAreas:
-      "'title title title' " +
-      "'score score score' " +
-      "'odds odds odds'" +
-      "'market market market'",
+    gridTemplateAreas: `"title title title" 
+      "score score score"
+      "'odds odds odds'"
+      "'market market market'`,
     gridTemplateColumns: '1fr 1fr 1fr',
     gridTemplateRows: 'auto',
   }));
