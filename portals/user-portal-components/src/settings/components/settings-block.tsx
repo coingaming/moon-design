@@ -10,16 +10,16 @@ export const SettingsText = styled.p({
 });
 
 export const SettingsSection = styled.section({
-  marginTop: spacing('medium'),
+  // marginTop: spacing('medium'),
   width: '100%',
-  borderRadius: border.radius.small,
-  borderStyle: border.style,
-  borderWidth: border.width,
-  borderColor: colors.neutral[50],
-  backgroundColor: colors.neutral[80],
-  '&:last-child': {
-    borderBottom: 'none',
-  },
+  // borderRadius: border.radius.small,
+  // borderStyle: border.style,
+  // borderWidth: border.width,
+  // borderColor: colors.neutral[50],
+  // backgroundColor: colors.neutral[80],
+  // '&:last-child': {
+  //   borderBottom: 'none',
+  // },
 });
 
 export const SettingsBlock = styled.div<{ highlight?: boolean; onClick?: any }>(
@@ -27,14 +27,17 @@ export const SettingsBlock = styled.div<{ highlight?: boolean; onClick?: any }>(
     {
       minHeight: rem(96),
       alignItems: 'center',
-      borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
-      paddingLeft: spacing('large'),
-      paddingRight: spacing('large'),
+      paddingLeft: spacing(),
+      paddingRight: spacing(),
       paddingTop: spacing('medium'),
       paddingBottom: spacing('medium'),
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'space-between',
+      [mq(breakpoints.medium)]: {
+        paddingLeft: 0,
+        paddingRight: 0,
+      },
     },
     highlight && {
       position: 'relative',
@@ -66,7 +69,7 @@ export const BlockColumn = styled.div<{}>(() => [
 export const BlockContent = styled.div({
   display: 'flex',
   flexDirection: 'column',
-  width: '100%',
+  // width: '100%',
 });
 
 export const Active = styled.div({

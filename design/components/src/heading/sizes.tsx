@@ -17,19 +17,19 @@ const bravo: CSSObject = {
 };
 
 const charlie: CSSObject = {
-  fontWeight: typography.fontWeight.semibold,
+  fontWeight: typography.fontWeight.normal,
   fontSize: rem(24),
   lineHeight: rem(32),
 };
 
 const delta: CSSObject = {
-  fontWeight: typography.fontWeight.semibold,
+  fontWeight: typography.fontWeight.normal,
   fontSize: rem(20),
   lineHeight: rem(32),
 };
 
 const echo: CSSObject = {
-  fontWeight: typography.fontWeight.semibold,
+  fontWeight: typography.fontWeight.normal,
   fontSize: rem(16),
   lineHeight: rem(24),
 };
