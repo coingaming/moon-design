@@ -10,7 +10,7 @@ exports[`File Input renders a file input with custom label 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -92,7 +92,7 @@ exports[`File Input renders a file input with custom label and placeholder 1`] =
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -191,7 +191,7 @@ exports[`File Input renders a file input with custom placeholder 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -275,7 +275,7 @@ exports[`File Input renders a file input with default label 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -357,7 +357,7 @@ exports[`File Input renders as error 1`] = `
   font: inherit;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #415662;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
