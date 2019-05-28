@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.40.0](https://github.com/coingaming/sportsbet-design/compare/v0.39.0...v0.40.0) (2019-05-28)
+
+
+### Bug Fixes
+
+* **switch:** fix width & height ([cfc8456](https://github.com/coingaming/sportsbet-design/commit/cfc8456))
+* **tokens:** fontweight fix ([a7771c7](https://github.com/coingaming/sportsbet-design/commit/a7771c7))
+
+
+### Features
+
+* **input:** change imput border color & select background color ([a48a84d](https://github.com/coingaming/sportsbet-design/commit/a48a84d))
+
+
+
+
+
 # [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
 
 

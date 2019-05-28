@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.40.0](https://github.com/coingaming/sportsbet-design/compare/v0.39.0...v0.40.0) (2019-05-28)
+
+
+### Bug Fixes
+
+* **settings:** add paddings to settings block ([925ac07](https://github.com/coingaming/sportsbet-design/commit/925ac07))
+* **settings:** margins between hover&active nav items ([9f91fd5](https://github.com/coingaming/sportsbet-design/commit/9f91fd5))
+* **tokens:** fontweight fix ([a7771c7](https://github.com/coingaming/sportsbet-design/commit/a7771c7))
+
+
+### Features
+
+* **settings:** remove HeadingDescription component ([fe06995](https://github.com/coingaming/sportsbet-design/commit/fe06995))
+* **settings:** settings design adjustments ([7455bbb](https://github.com/coingaming/sportsbet-design/commit/7455bbb))
+
+
+
+
+
 # [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
 
 

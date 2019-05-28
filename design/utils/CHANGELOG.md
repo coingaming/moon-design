@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.40.0](https://github.com/coingaming/sportsbet-design/compare/v0.39.0...v0.40.0) (2019-05-28)
+
+
+### Bug Fixes
+
+* **utils:** fix inlineSVG function for first server side render ([4ff20b2](https://github.com/coingaming/sportsbet-design/commit/4ff20b2))
+
+
+
+
+
 # [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
