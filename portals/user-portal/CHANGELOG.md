@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.40.0](https://github.com/coingaming/sportsbet-design/compare/v0.39.0...v0.40.0) (2019-05-28)
+
+
+### Features
+
+* **settings:** remove HeadingDescription component ([fe06995](https://github.com/coingaming/sportsbet-design/commit/fe06995))
+* **settings:** Return to sportsbook -> Log out ([b44661d](https://github.com/coingaming/sportsbet-design/commit/b44661d))
+* **settings:** settings design adjustments ([7455bbb](https://github.com/coingaming/sportsbet-design/commit/7455bbb))
+
+
+
+
+
 # [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
 
 
