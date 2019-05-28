@@ -52,11 +52,18 @@ export const ScoreboardsContainer = ({ children }: any) => {
     },
   });
 
+  if (children.length > 1) {
+    return (
+      <Wrapper>
+        {children.map((scoreboard: ReactChild, index: number) => {
+          return <Container key={index}>{scoreboard}</Container>;
+        })}
+      </Wrapper>
+    );
+  }
   return (
     <Wrapper>
-      {children.map((scoreboard: ReactChild, index: number) => {
-        return <Container key={index}>{scoreboard}</Container>;
-      })}
+      <Container>{children}</Container>
     </Wrapper>
   );
 };

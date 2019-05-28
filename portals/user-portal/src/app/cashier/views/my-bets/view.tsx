@@ -60,23 +60,23 @@ export const MyBetsView = () => {
           <span>Potential win</span>
         </MyBetsHeader>
         <ScoreboardsContainer>
-          <FootballScoreboard event={event} timer={'45:21'} />
+          <FootballScoreboard event={event} timer="45:21" />
           <FootballScoreboard
             event={footballEventNoStream}
-            timer={'12:11'}
+            timer="12:11"
             badges={[wonBadge]}
           />
           <TennisScoreboard
             event={tennis1}
-            timer={'45:21'}
+            timer="45:21"
             badges={[liveBadge, activeBadge]}
           />
-          <TennisScoreboard event={tennis2} timer={'Set 2'} />
-          <FootballScoreboard event={footballEventNoStream} timer={'14:11'} />
-          <TennisScoreboard event={tennis1} timer={'Set 1'} />
+          <TennisScoreboard event={tennis2} timer="Set 2" />
+          <FootballScoreboard event={footballEventNoStream} timer="14:11" />
+          <TennisScoreboard event={tennis1} timer="Set 1" />
           <TennisScoreboard
             event={tennis2}
-            timer={'Set 5'}
+            timer="Set 5"
             badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
           />
         </ScoreboardsContainer>
