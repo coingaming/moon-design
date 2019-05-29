@@ -1,8 +1,7 @@
 /** @jsx jsx */
-import * as React from 'react';
-// tslint:disable-next-line:no-duplicate-imports
-import { useState } from 'react';
+import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
+import rem from 'polished/lib/helpers/rem';
 import {
   Heading,
   Form,
@@ -27,15 +26,18 @@ import {
   SettingsBlockCollapsibleContents,
   Summary,
 } from './dumb-components/settings-block-collapsible';
-import rem from '../../../../../../../node_modules/polished/lib/helpers/rem';
 import { GoogleAuthenticator } from './dumb-components/google-authenticator';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
-import { NotificationsNav } from '../notifications/dumb-components/header';
 jsx;
 
 export const AccountView = () => {
   const [isUserLoggedIn, login] = useState(false);
+  const [isGeneralOpened, toggleGeneral] = useState(true);
+  const [isChangePasswordOpened, toggleChangePassword] = useState(true);
+  const [isGoogleAuthOpened, toggleGoogleAuth] = useState(true);
+  const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
+
   return (
     <React.Fragment>
       {isUserLoggedIn ? (
@@ -60,7 +62,6 @@ export const AccountView = () => {
       </div>
 
       <CashierLayout>
-        <CashierHeading>Account</CashierHeading>
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
