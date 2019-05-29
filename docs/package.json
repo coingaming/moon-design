@@ -7,12 +7,9 @@
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "yarn prebuild && gatsby develop",
-    "build": "yarn prebuild && gatsby build",
+    "dev": "gatsby develop",
+    "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean:assets": "rimraf static/assets",
-    "build:assets": "mkdir -p static/assets/src/fonts && cp -R ../design/assets/src/fonts/ static/assets/src/fonts/",
-    "prebuild": "yarn clean:assets && yarn build:assets",
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
   "workspaces": {
