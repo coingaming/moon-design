@@ -29,6 +29,7 @@ export const HamburgerDetails = styled.details<{
 });
 
 export const HamburgerSummary = styled.summary({
+  listStyle: 'none',
   '&::-webkit-details-marker': {
     display: 'none',
   },
