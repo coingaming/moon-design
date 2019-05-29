@@ -4,6 +4,11 @@
     "rootDir": "src",
     "outDir": "lib"
   },
+  "references": [
+    {
+      "path": "../assets"
+    }
+  ],
   "include": ["src"],
   "exclude": ["src/**/__tests__"]
 }
