@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { jsx } from '@emotion/core';
 import { graphql, StaticQuery, withPrefix } from 'gatsby';
 
-import { CdnLink, avertaStd } from '@heathmont/sportsbet-assets';
+import { cdnUrl, avertaStd } from '@heathmont/sportsbet-assets';
 
 const metaQuery = graphql`
   query {
@@ -31,7 +31,8 @@ export const Meta = () => (
           <title>{config.siteTitle}</title>
           <meta name="description" content={config.description} />
           <meta name="author" content={config.author} />
-          <CdnLink />
+          <link rel="preconnect" href={cdnUrl} crossOrigin="true" />
+          <link rel="dns-prefetch" href={cdnUrl} />
           <link
             rel="preload"
             href={withPrefix(`${avertaStd.fontFilePath.regular}.woff2`)}
