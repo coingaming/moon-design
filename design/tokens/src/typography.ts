@@ -1,25 +1,6 @@
-import { base } from './base';
+import { avertaStd } from '@heathmont/sportsbet-assets';
 
-const systemFontStack: string =
-  '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif';
-
-type FontWeight = {
-  normal: number;
-  semibold: number;
-  bold: number;
+export const typography = {
+  fontFamily: avertaStd.fontStack,
+  fontWeight: avertaStd.fontWeight,
 };
-
-const fontWeight: FontWeight = {
-  normal: 400,
-  semibold: 600,
-  bold: 700,
-};
-
-const fontFamily: string = `${base.fontFace}, ${systemFontStack}`;
-
-const typography = {
-  fontFamily,
-  fontWeight,
-};
-
-export { FontWeight, typography };
