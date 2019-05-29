@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { jsx } from '@emotion/core';
 import { graphql, StaticQuery, withPrefix } from 'gatsby';
 
-import { fontUrls } from '@heathmont/sportsbet-assets';
+import { CdnLink, avertaStd } from '@heathmont/sportsbet-assets';
 
 const metaQuery = graphql`
   query {
@@ -31,23 +31,24 @@ export const Meta = () => (
           <title>{config.siteTitle}</title>
           <meta name="description" content={config.description} />
           <meta name="author" content={config.author} />
+          <CdnLink />
           <link
             rel="preload"
-            href={withPrefix(fontUrls.AvertaStd.regular)}
+            href={withPrefix(`${avertaStd.fontFilePath.regular}.woff2`)}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href={withPrefix(fontUrls.AvertaStd.semibold)}
+            href={withPrefix(`${avertaStd.fontFilePath.semibold}.woff2`)}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href={withPrefix(fontUrls.AvertaStd.bold)}
+            href={withPrefix(`${avertaStd.fontFilePath.bold}.woff2`)}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
