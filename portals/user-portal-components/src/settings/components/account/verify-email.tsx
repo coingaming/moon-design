@@ -46,7 +46,7 @@ export const VerifyEmailTextContainer = styled.div({
   textAlign: 'center',
   [mq(breakpoints.medium)]: {
     textAlign: 'left',
-    maxWidth: rem(530),
+    maxWidth: rem(500),
   },
 });
 
