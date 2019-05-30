@@ -1,0 +1,35 @@
+---
+name: Assets
+route: /assets
+---
+
+# Assets
+
+A collection of static assets for use across the Sportsbet.io estate, for now just hosting fonts.
+
+Files in `static` are deployed to the `cdnUrl`, with `src` handling asset-specific config and styles.
+
+## Usage
+
+Before referencing assets in your project, you'll want to make sure you `preconnect` and `dns-prefetch` to the CDN for optimimum performance.
+
+In a static HTML template, this would look something like:
+
+```js
+import { cdnUrl } from '@heathmont/sportsbet-design';
+
+const template = ({ html }) => `
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="${cdnUrl}" crossorgin />
+    <link rel="dns-prefetch" href="${cdnUrl}" />
+  </head>
+  <body>
+    <div id="app">
+      ${html}
+    </div>
+  </body>
+</html>
+`;
+```
