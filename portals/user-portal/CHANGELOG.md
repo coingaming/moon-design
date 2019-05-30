@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.41.0](https://github.com/coingaming/sportsbet-design/compare/v0.40.0...v0.41.0) (2019-05-30)
+
+
+### Bug Fixes
+
+* **account:** fix paddings & margins & colors ([f196744](https://github.com/coingaming/sportsbet-design/commit/f196744))
+* **account:** minor adjustments ([ea44856](https://github.com/coingaming/sportsbet-design/commit/ea44856))
+
+
+### Features
+
+* **account:** reimplement account ([69076c4](https://github.com/coingaming/sportsbet-design/commit/69076c4))
+
+
+
+
+
 # [0.40.0](https://github.com/coingaming/sportsbet-design/compare/v0.39.0...v0.40.0) (2019-05-28)
 
 
