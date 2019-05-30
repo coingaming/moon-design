@@ -4,7 +4,7 @@ import { WalletsView } from './cashier/views/wallets/view';
 import { MyBetsView } from './cashier/views/my-bets/view';
 import { DepositView } from './cashier/views/deposit/view';
 import { DepositViewBTC } from './cashier/views/deposit/view-btc';
-import { AccountView } from './settings/views/account/verify-email-view';
+import { AccountView } from './settings/views/account/view';
 import { SettingsView } from './settings/views/settings/view';
 import { NotificationsView } from './settings/views/notifications/view';
 
