@@ -30,16 +30,14 @@ import {
   ChangePasswordSaveButton,
   GoogleAuthenticatorContainer,
   GoogleAuthenticatorText,
-} from '@heathmont/sportsbet-user-portal-components';
-import { spacing, rhythm, container, mq } from '@heathmont/sportsbet-utils/lib';
-import {
+  GoogleAuthenticator,
   CollapsibleItem,
   Separator,
   SettingsBlockCollapsible,
   SettingsBlockCollapsibleContents,
-  Summary,
-} from './dumb-components/settings-block-collapsible';
-import { GoogleAuthenticator } from './dumb-components/google-authenticator';
+  SummaryAccount,
+} from '@heathmont/sportsbet-user-portal-components';
+import { spacing, rhythm, container, mq } from '@heathmont/sportsbet-utils/lib';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
@@ -66,11 +64,11 @@ export const AccountView = () => {
       <CashierLayout>
         <SettingsSection>
           <SettingsBlockCollapsible>
-            <Summary>
+            <SummaryAccount>
               <Heading size="delta" as="h2">
                 General information
               </Heading>
-            </Summary>
+            </SummaryAccount>
 
             <SettingsBlockCollapsibleContents>
               <Form fullWidth legend="Resend the Email">
@@ -152,11 +150,11 @@ export const AccountView = () => {
         </SettingsSection>
         <SettingsSection>
           <SettingsBlockCollapsible>
-            <Summary>
+            <SummaryAccount>
               <Heading size="delta" as="h2">
                 Change password
               </Heading>
-            </Summary>
+            </SummaryAccount>
             <SettingsBlockCollapsibleContents>
               <ChangePasswordContainer>
                 <Form legend="Enter you current password">
@@ -186,11 +184,11 @@ export const AccountView = () => {
         </SettingsSection>
         <SettingsSection>
           <SettingsBlockCollapsible>
-            <Summary>
+            <SummaryAccount>
               <Heading size="delta" as="h2">
                 Google Authenticator
               </Heading>
-            </Summary>
+            </SummaryAccount>
             <SettingsBlockCollapsibleContents>
               <GoogleAuthenticator
                 caption={'What is google authenticator'}
@@ -227,11 +225,11 @@ export const AccountView = () => {
         </SettingsSection>
         {/* <SettingsSection>
           <SettingsBlockCollapsible>
-            <Summary>
+            <SummaryAccount>
               <Heading size="delta" as="h2">
                 Verify Account
               </Heading>
-            </Summary>
+            </SummaryAccount>
             <SettingsBlock>
               <SettingsText>
                 We ask you to upload your documents for our review to provide
