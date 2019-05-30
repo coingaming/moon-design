@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-assets",
-  "version": "0.40.0",
+  "version": "0.41.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
