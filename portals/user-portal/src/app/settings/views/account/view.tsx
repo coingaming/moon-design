@@ -1,8 +1,7 @@
 /** @jsx jsx */
-import * as React from 'react';
-// tslint:disable-next-line:no-duplicate-imports
-import { useState } from 'react';
+import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
+import rem from 'polished/lib/helpers/rem';
 import {
   Heading,
   Form,
@@ -17,9 +16,22 @@ import {
   SettingsSection,
   SettingsBlock,
   CashierLayout,
-  CashierHeading,
+  StickyNav,
+  ResendEmailContainer,
+  ResendEmailInputFormItem,
+  SubmitResendEmailFormItem,
+  ResendEmailText,
+  ChangeUserDetailsContainer,
+  ChangeUserDetailsColumns,
+  ChangeUserDetailsFirstColumn,
+  ChangeUserDetailsSecondColumn,
+  ChangeUserDetailsSaveButton,
+  ChangePasswordContainer,
+  ChangePasswordSaveButton,
+  GoogleAuthenticatorContainer,
+  GoogleAuthenticatorText,
 } from '@heathmont/sportsbet-user-portal-components';
-import { spacing, rhythm, container } from '@heathmont/sportsbet-utils/lib';
+import { spacing, rhythm, container, mq } from '@heathmont/sportsbet-utils/lib';
 import {
   CollapsibleItem,
   Separator,
@@ -27,15 +39,19 @@ import {
   SettingsBlockCollapsibleContents,
   Summary,
 } from './dumb-components/settings-block-collapsible';
-import rem from '../../../../../../../node_modules/polished/lib/helpers/rem';
 import { GoogleAuthenticator } from './dumb-components/google-authenticator';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
-import { NotificationsNav } from '../notifications/dumb-components/header';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const AccountView = () => {
   const [isUserLoggedIn, login] = useState(false);
+  // const [isGeneralOpened, toggleGeneral] = useState(true);
+  // const [isChangePasswordOpened, toggleChangePassword] = useState(true);
+  // const [isGoogleAuthOpened, toggleGoogleAuth] = useState(true);
+  // const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
+
   return (
     <React.Fragment>
       {isUserLoggedIn ? (
@@ -43,24 +59,11 @@ export const AccountView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
+      <StickyNav>
         <AccountNav />
-      </div>
+      </StickyNav>
 
       <CashierLayout>
-        <CashierHeading>Account</CashierHeading>
         <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
@@ -68,18 +71,23 @@ export const AccountView = () => {
                 General information
               </Heading>
             </Summary>
+
             <SettingsBlockCollapsibleContents>
-              <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
-                <Form fullWidth legend="Resend the Email">
-                  <FormItem>
+              <Form fullWidth legend="Resend the Email">
+                <ResendEmailContainer>
+                  <ResendEmailInputFormItem>
                     <TextInput label="E-mail address" type="email" required />
-                  </FormItem>
-                </Form>
-              </CollapsibleItem>
-              <CollapsibleItem
-                css={{ marginTop: spacing('medium') }}
-                cssMqMedium={{ order: 2 }}
-              >
+                  </ResendEmailInputFormItem>
+
+                  <SubmitResendEmailFormItem>
+                    <Button round type="submit" modifier="secondary">
+                      Resend the Email
+                    </Button>
+                  </SubmitResendEmailFormItem>
+                </ResendEmailContainer>
+              </Form>
+
+              <ResendEmailText>
                 <SettingsText>
                   We've sent a message to you with a link to activate your
                   account.
@@ -88,64 +96,56 @@ export const AccountView = () => {
                   If you don't see an email from us within a few minutes, be
                   sure to check your spam folder.
                 </SettingsText>
-              </CollapsibleItem>
-              <CollapsibleItem
-                css={{ marginTop: spacing('medium') }}
-                cssMqMedium={{
-                  order: 1,
-                  margin: `0 0 0 ${spacing('large')}`,
-                  flexBasis: '50%',
-                }}
-              >
-                <Button modifier="highlight">Resend the Email</Button>
-              </CollapsibleItem>
+              </ResendEmailText>
             </SettingsBlockCollapsibleContents>
+
             <Separator />
             <SettingsBlockCollapsibleContents>
               <Form fullWidth legend="Change user details">
-                <CollapsibleItem
-                  cssMqMedium={{ display: 'flex', flexWrap: 'wrap' }}
-                >
-                  <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
+                <ChangeUserDetailsContainer>
+                  <ChangeUserDetailsColumns>
+                    <ChangeUserDetailsFirstColumn>
+                      <FormItem>
+                        <TextInput
+                          disabled
+                          label="Username"
+                          type="text"
+                          required
+                        />
+                      </FormItem>
+                      <FormItem>
+                        <TextInput label="Phone number" type="tel" />
+                      </FormItem>
+                      <FormItem>
+                        <TextInput label="City" type="text" />
+                      </FormItem>
+                      <FormItem>
+                        <TextInput label="Zip code" type="number" />
+                      </FormItem>
+                    </ChangeUserDetailsFirstColumn>
+                    <ChangeUserDetailsSecondColumn>
+                      <FormItem>
+                        <TextInput disabled label="Date of birth" type="text" />
+                      </FormItem>
+                      <FormItem>
+                        <TextInput label="Address" type="text" />
+                      </FormItem>
+                      <FormItem>
+                        <TextInput label="Country" type="text" />
+                      </FormItem>
+                      <FormItem>
+                        <TextInput label="E-mail address" type="email" />
+                      </FormItem>
+                    </ChangeUserDetailsSecondColumn>
+                  </ChangeUserDetailsColumns>
+                  <ChangeUserDetailsSaveButton>
                     <FormItem>
-                      <TextInput label="Username" type="text" required />
+                      <Button round type="submit" modifier="primary">
+                        Save Changes
+                      </Button>
                     </FormItem>
-                    <FormItem>
-                      <TextInput label="Phone number" type="tel" />
-                    </FormItem>
-                    <FormItem>
-                      <TextInput label="City" type="text" />
-                    </FormItem>
-                    <FormItem>
-                      <TextInput label="Zip code" type="number" />
-                    </FormItem>
-                  </CollapsibleItem>
-                  <CollapsibleItem
-                    css={{ marginTop: spacing() }}
-                    cssMqMedium={{
-                      maxWidth: rem(320),
-                      margin: `0 0 0 ${spacing('large')}`,
-                    }}
-                  >
-                    <FormItem>
-                      <TextInput label="Date of birth" type="text" />
-                    </FormItem>
-                    <FormItem>
-                      <TextInput label="Address" type="text" />
-                    </FormItem>
-                    <FormItem>
-                      <TextInput label="Country" type="text" />
-                    </FormItem>
-                    <FormItem>
-                      <TextInput label="E-mail address" type="email" />
-                    </FormItem>
-                  </CollapsibleItem>
-                  <CollapsibleItem css={{ marginTop: spacing() }}>
-                    <FormItem>
-                      <Button modifier="primary">Save Changes</Button>
-                    </FormItem>
-                  </CollapsibleItem>
-                </CollapsibleItem>
+                  </ChangeUserDetailsSaveButton>
+                </ChangeUserDetailsContainer>
               </Form>
             </SettingsBlockCollapsibleContents>
           </SettingsBlockCollapsible>
@@ -158,7 +158,7 @@ export const AccountView = () => {
               </Heading>
             </Summary>
             <SettingsBlockCollapsibleContents>
-              <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
+              <ChangePasswordContainer>
                 <Form legend="Enter you current password">
                   <FormItem>
                     <TextInput
@@ -173,14 +173,14 @@ export const AccountView = () => {
                     <TextInput label="Repeat password" type="password" />
                   </FormItem>
                   <FormItem>
-                    <CollapsibleItem cssMqMedium={{ maxWidth: rem(160) }}>
-                      <Button fullWidth modifier="secondary">
+                    <ChangePasswordSaveButton>
+                      <Button fullWidth round modifier="primary">
                         Save Changes
                       </Button>
-                    </CollapsibleItem>
+                    </ChangePasswordSaveButton>
                   </FormItem>
                 </Form>
-              </CollapsibleItem>
+              </ChangePasswordContainer>
             </SettingsBlockCollapsibleContents>
           </SettingsBlockCollapsible>
         </SettingsSection>
@@ -203,41 +203,29 @@ export const AccountView = () => {
                   src="https://randomqr.com/assets/images/randomqr-256.png"
                 />
               </GoogleAuthenticator>
-              <CollapsibleItem
-                css={{ alignSelf: 'flex-start' }}
-                cssMqMedium={{
-                  maxWidth: rem(320),
-                  margin: `0 ${spacing('large')} 0`,
-                }}
-              >
-                <CollapsibleItem
-                  css={{ margin: `${spacing()} 0` }}
-                  cssMqMedium={{
-                    marginTop: 0,
-                    maxWidth: rem(320),
-                  }}
-                >
+              <GoogleAuthenticatorContainer>
+                <GoogleAuthenticatorText>
                   <SettingsText>
                     Key value: PBVWSRCIOZJG4SLUPJYVIVCC
                   </SettingsText>
-                </CollapsibleItem>
+                </GoogleAuthenticatorText>
                 <Form legend="Type code">
                   <FormItem>
                     <TextInput label="Type code" type="text" required />
                   </FormItem>
                   <FormItem>
                     <CollapsibleItem>
-                      <Button fullWidth modifier="secondary">
+                      <Button fullWidth round modifier="secondary">
                         Submit Code
                       </Button>
                     </CollapsibleItem>
                   </FormItem>
                 </Form>
-              </CollapsibleItem>
+              </GoogleAuthenticatorContainer>
             </SettingsBlockCollapsibleContents>
           </SettingsBlockCollapsible>
         </SettingsSection>
-        <SettingsSection>
+        {/* <SettingsSection>
           <SettingsBlockCollapsible>
             <Summary>
               <Heading size="delta" as="h2">
@@ -283,14 +271,7 @@ export const AccountView = () => {
             </SettingsBlockCollapsibleContents>
           </SettingsBlockCollapsible>
         </SettingsSection>
-        <CollapsibleItem
-          css={{ margin: `${spacing('medium')}` }}
-          cssMqMedium={{ margin: `${spacing('medium')} 0`, width: rem(192) }}
-        >
-          <Button fullWidth modifier="secondary" outline>
-            Delete Account
-          </Button>
-        </CollapsibleItem>
+                  */}
       </CashierLayout>
     </React.Fragment>
   );

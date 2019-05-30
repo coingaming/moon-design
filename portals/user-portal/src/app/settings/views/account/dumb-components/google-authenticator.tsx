@@ -7,14 +7,14 @@ import rem from '../../../../../../../../node_modules/polished/lib/helpers/rem';
 const Wrapper = styled.div(() => ({
   border: `${border.width}px ${border.style} ${colors.neutral[50]}`,
   padding: spacing('default'),
-  backgroundColor: '#1A212A',
+  backgroundColor: colors.neutral[70],
   display: 'flex',
   flexFlow: 'row wrap',
   width: rem(320),
 }));
 
 const QR = styled.div(() => ({
-  borderRadius: '2px',
+  borderRadius: border.radius.small,
   backgroundColor: colors.neutral[10],
   width: '56%',
   'img, svg': {
@@ -28,8 +28,8 @@ const Caption = styled.div(() => ({
   display: 'flex',
   alignItems: 'center',
   textAlign: 'center',
-  padding: spacing('default'),
-  color: '#8697A2',
+  padding: spacing(),
+  color: colors.neutral[20],
   fontSize: '15px',
   lineHeight: '19px',
   position: 'relative',
@@ -38,10 +38,10 @@ const Caption = styled.div(() => ({
 const ToolTip = ({ link, children }: any) => {
   const ToolTip = styled.a(() => ({
     borderRadius: '50%',
-    backgroundColor: '#8697A2',
-    color: '#1A212A',
-    width: rem(16),
-    height: rem(16),
+    backgroundColor: colors.neutral[20],
+    color: colors.neutral[70],
+    width: spacing(),
+    height: spacing(),
     position: 'absolute',
     top: rem(8),
     right: rem(8),
