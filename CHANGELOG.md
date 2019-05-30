@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.42.0](https://github.com/coingaming/sportsbet-design/compare/v0.41.0...v0.42.0) (2019-05-30)
+
+
+### Features
+
+* **account:** add all imports for account page ([9c5c394](https://github.com/coingaming/sportsbet-design/commit/9c5c394))
+
+
+
+
+
 # [0.41.0](https://github.com/coingaming/sportsbet-design/compare/v0.40.0...v0.41.0) (2019-05-30)
 
 
