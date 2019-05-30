@@ -64,14 +64,18 @@ export const Summary = styled.summary<{}>(() => [
 ]);
 
 export const SettingsBlockCollapsibleContents = styled.div({
-  paddingLeft: spacing('large'),
-  paddingRight: spacing('large'),
-  paddingTop: spacing('medium'),
-  paddingBottom: spacing('medium'),
-  boxSizing: 'border-box',
   display: 'flex',
   flexFlow: 'wrap',
   alignItems: 'center',
+  boxSizing: 'border-box',
+  paddingLeft: spacing(),
+  paddingRight: spacing(),
+  paddingTop: spacing('medium'),
+  paddingBottom: spacing('medium'),
+  [mq(breakpoints.medium)]: {
+    paddingLeft: 0,
+    paddingRight: 0,
+  },
 });
 
 export const CollapsibleItem = styled.div((props: any) => ({

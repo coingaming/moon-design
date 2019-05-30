@@ -16,7 +16,7 @@ import {
   SettingsSection,
   SettingsBlock,
   CashierLayout,
-  CashierHeading,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { spacing, rhythm, container } from '@heathmont/sportsbet-utils/lib';
 import {
@@ -33,10 +33,10 @@ jsx;
 
 export const AccountView = () => {
   const [isUserLoggedIn, login] = useState(false);
-  const [isGeneralOpened, toggleGeneral] = useState(true);
-  const [isChangePasswordOpened, toggleChangePassword] = useState(true);
-  const [isGoogleAuthOpened, toggleGoogleAuth] = useState(true);
-  const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
+  // const [isGeneralOpened, toggleGeneral] = useState(true);
+  // const [isChangePasswordOpened, toggleChangePassword] = useState(true);
+  // const [isGoogleAuthOpened, toggleGoogleAuth] = useState(true);
+  // const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
 
   return (
     <React.Fragment>
@@ -45,21 +45,9 @@ export const AccountView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
+      <StickyNav>
         <AccountNav />
-      </div>
+      </StickyNav>
 
       <CashierLayout>
         <SettingsSection>
@@ -69,6 +57,7 @@ export const AccountView = () => {
                 General information
               </Heading>
             </Summary>
+
             <SettingsBlockCollapsibleContents>
               <CollapsibleItem cssMqMedium={{ maxWidth: rem(320) }}>
                 <Form fullWidth legend="Resend the Email">
@@ -98,9 +87,12 @@ export const AccountView = () => {
                   flexBasis: '50%',
                 }}
               >
-                <Button modifier="highlight">Resend the Email</Button>
+                <Button round modifier="secondary">
+                  Resend the Email
+                </Button>
               </CollapsibleItem>
             </SettingsBlockCollapsibleContents>
+
             <Separator />
             <SettingsBlockCollapsibleContents>
               <Form fullWidth legend="Change user details">
@@ -143,7 +135,9 @@ export const AccountView = () => {
                   </CollapsibleItem>
                   <CollapsibleItem css={{ marginTop: spacing() }}>
                     <FormItem>
-                      <Button modifier="primary">Save Changes</Button>
+                      <Button round modifier="primary">
+                        Save Changes
+                      </Button>
                     </FormItem>
                   </CollapsibleItem>
                 </CollapsibleItem>
