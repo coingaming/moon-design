@@ -30,7 +30,7 @@ export const SettingsBlockCollapsible = styled.details<{
   },
 ]);
 
-export const Summary = styled.summary<{}>(() => [
+export const SummaryAccount = styled.summary<{}>(() => [
   {
     display: 'flex',
     flexDirection: 'row',
