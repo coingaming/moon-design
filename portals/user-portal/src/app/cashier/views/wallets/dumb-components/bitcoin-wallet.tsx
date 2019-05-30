@@ -18,17 +18,16 @@ export const BitcoinWallet = () => {
 
   if (!backSided) {
     return (
-      <Card flex backgroundIcon={<IconBitcoin />}>
+      <Card flex backgroundIcon={<IconBitcoin />} template="front">
         <CardToggle onClick={() => toggle(!backSided)} />
         <CardBalance
           badgeCaption="Active"
           from={{
             currency: 'Bitcoin',
-            value: 1526.56,
+            value: '1526.56',
             unit: 'mBTC',
             unitTitle: 'Millibitcoin',
           }}
-          to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
         />
         <div>
           <Link
