@@ -21,7 +21,7 @@ const cashierLayout: CSSObject = {
   ...container('default'),
   // prevents issues when you have some additional space on the page
   overflow: 'hidden',
-  marginTop: spacing('large'),
+  // marginTop: spacing('large'),
 };
 
 export const CashierLayout: React.FC = ({ children }) => (
@@ -31,12 +31,21 @@ export const CashierLayout: React.FC = ({ children }) => (
 const heading: CSSObject = {
   marginTop: spacing('large'),
   paddingLeft: spacing('large'),
+  paddingTop: spacing('large'),
   paddingBottom: spacing('large'),
   borderBottom: `${border.width}px ${border.style} ${colors.neutral[70]}`,
   [mq(breakpoints.medium)]: {
     paddingLeft: 0,
   },
 };
+
+export const StickyNav: React.FC<{ children: any }> = styled.div({
+  position: 'sticky',
+  top: 0,
+  zIndex: 1,
+  ...container('default'),
+  overflowX: 'auto',
+});
 
 export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
   <Heading size="charlie" as="h1" css={heading}>
