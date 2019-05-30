@@ -39,6 +39,14 @@ const heading: CSSObject = {
   },
 };
 
+export const StickyNav: React.FC<{ children: any }> = styled.div({
+  position: 'sticky',
+  top: 0,
+  zIndex: 1,
+  ...container('default'),
+  overflowX: 'auto',
+});
+
 export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
   <Heading size="charlie" as="h1" css={heading}>
     {children}
