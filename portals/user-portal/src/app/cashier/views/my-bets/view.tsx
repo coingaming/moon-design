@@ -48,8 +48,8 @@ import {
 import { DummyFootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
 import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
 import { Badge, Button } from '@heathmont/sportsbet-components';
-import { IconHyperlink } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { IconHyperlink } from '@heathmont/sportsbet-icons';
 jsx;
 
 export const MyBetsView = () => {
@@ -167,11 +167,9 @@ export const MyBetsView = () => {
           </MyBetFooter>
         </MyBetContainer>
         <MyBetFooter>
-          {/*<MyBetFooterContainer>*/}
           <Button modifier="optional">
             Copy bet ID <IconHyperlink />
           </Button>
-          {/*</MyBetFooterContainer>*/}
           <MyBetFooterCashout>
             <MyBetFooterAmount>1535.82 mBTC</MyBetFooterAmount>
             <Button modifier="optional">Cash out</Button>
