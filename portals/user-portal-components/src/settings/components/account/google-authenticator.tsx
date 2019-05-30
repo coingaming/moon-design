@@ -16,7 +16,7 @@ const Wrapper = styled.div(() => ({
 const QR = styled.div(() => ({
   borderRadius: border.radius.small,
   backgroundColor: colors.neutral[10],
-  width: '56%',
+  padding: spacing(),
   'img, svg': {
     maxWidth: '100%',
   },
