@@ -13,13 +13,12 @@ import {
 
 type InputProps = {
   withIcon?: boolean;
-  withFloatLabel?: boolean;
   error?: boolean;
-  success?: boolean;
 };
 
-export const Input = styled.input((props: InputProps) => [
+export const Input = styled.input<InputProps>(props => [
   {
+    width: '100%',
     maxWidth: '100%',
     padding: rem(inputSpacing),
     appearance: 'none',
@@ -31,11 +30,14 @@ export const Input = styled.input((props: InputProps) => [
     transition: `border-color ${inputAnimationSpeed} ease`,
     WebkitAppearance: 'none',
     '&:disabled': {
+      opacity: 0.5,
       cursor: 'not-allowed',
-      borderColor: inputColors.disabled,
     },
-    '&:disabled, &:disabled + label': {
-      color: inputColors.disabled,
+    '&:not(:focus):not(:placeholder-shown):invalid': {
+      borderColor: colors.error,
+    },
+    '&:invalid, :-moz-ui-invalid': {
+      boxShadow: 'none', // Firefox Override
     },
   },
   props.withIcon && {
@@ -45,8 +47,6 @@ export const Input = styled.input((props: InputProps) => [
     backgroundSize: rem(inputIconSize),
   },
   props.error && {
-    '&, &:not(:placeholder-shown)': {
-      borderColor: colors.error,
-    },
+    borderColor: colors.error,
   },
 ]);

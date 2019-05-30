@@ -16,7 +16,7 @@ overriden to a more traditional label-above-input style by adding the
 `labelBlock` prop.
 
 ```jsx react-live
-<TextInput label="Text Input" />
+<TextInput label="Text Input" placeholder="e.g. username" />
 ```
 
 ## Types
@@ -27,28 +27,47 @@ browser validation. These can be set by providing HTML input `type` attributtes:
 ```jsx react-live
 <Form maxWidth="25rem">
   <FormItem>
-    <TextInput label="Text" type="text" required />
+    <TextInput type="text" label="Text" placeholder="e.g. username" required />
   </FormItem>
   <FormItem>
-    <TextInput label="Date" type="date" />
+    <TextInput type="date" label="Date" />
   </FormItem>
   <FormItem>
-    <TextInput label="Email" type="email" required />
+    <TextInput
+      type="email"
+      label="Email"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      required
+    />
   </FormItem>
   <FormItem>
-    <TextInput label="Number" type="number" required />
+    <TextInput type="number" label="Number" placeholder="e.g. 1234" required />
   </FormItem>
   <FormItem>
-    <TextInput label="Password" type="password" />
+    <TextInput
+      type="password"
+      placeholder="Please enter your account password"
+      label="Password"
+    />
   </FormItem>
   <FormItem>
-    <TextInput label="Search" type="search" required />
+    <TextInput type="search" label="Search" placeholder="e.g. EPL" required />
   </FormItem>
   <FormItem>
-    <TextInput label="Telephone" type="tel" required />
+    <TextInput
+      type="tel"
+      label="Telephone"
+      placeholder="e.g. +372 123 4567"
+      required
+    />
   </FormItem>
   <FormItem>
-    <TextInput label="URL" type="url" required />
+    <TextInput
+      type="url"
+      label="URL"
+      placeholder="e.g. https://sportsbet.io"
+      required
+    />
   </FormItem>
 </Form>
 ```
@@ -62,18 +81,23 @@ Text inputs offer different states to provide instant feedback to the user.
 Errors are automatically handled as part of the HTML input type validation, and
 can also be manually triggered via the `error` prop.
 
-A `success` prop is also available for extra manual validation.
-
 ```jsx react-live
 <Form maxWidth="25rem">
   <FormItem>
-    <TextInput label="Email (with default validation)" type="email" required />
+    <TextInput
+      type="email"
+      label="Email (with default validation)"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      required
+    />
   </FormItem>
   <FormItem>
-    <TextInput label="Email (with error prop)" type="email" error />
-  </FormItem>
-  <FormItem>
-    <TextInput label="Email (with success prop)" type="email" success />
+    <TextInput
+      type="email"
+      label="Email (with error prop)"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      error="Please enter a valid email address."
+    />
   </FormItem>
 </Form>
 ```
@@ -86,7 +110,12 @@ preventing user interaction.
 ```jsx react-live
 <Form maxWidth="25rem">
   <FormItem>
-    <TextInput label="Disabled Input" type="text" disabled />
+    <TextInput
+      type="text"
+      label="Disabled Input"
+      placeholder="e.g. username"
+      disabled
+    />
   </FormItem>
 </Form>
 ```

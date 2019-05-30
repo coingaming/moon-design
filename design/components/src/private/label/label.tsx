@@ -12,6 +12,7 @@ jsx;
  */
 type LabelTextProps = {
   flex?: boolean;
+  disabled?: boolean;
 };
 
 type LabelSizing = {
@@ -20,6 +21,7 @@ type LabelSizing = {
 };
 
 type LabelProps = LabelSizing & {
+  disabled?: boolean;
   text: string;
   inline?: boolean;
   htmlFor?: string;
@@ -28,7 +30,7 @@ type LabelProps = LabelSizing & {
 /**
  * Styles
  */
-const LabelText = styled.span<LabelTextProps>(({ flex }) => [
+const LabelText = styled.span<LabelTextProps>(({ disabled, flex }) => [
   {
     display: 'block',
     marginBottom: spacing('small'),
@@ -39,6 +41,9 @@ const LabelText = styled.span<LabelTextProps>(({ flex }) => [
       paddingRight: spacing(),
       marginBottom: 0,
     },
+  },
+  disabled && {
+    opacity: 0.5,
   },
 ]);
 
@@ -57,6 +62,7 @@ const labelFlex: (inputGrow: number) => CSSObject = inputGrow => ({
  */
 const Label: React.FC<LabelProps> = ({
   text,
+  disabled,
   flex,
   children,
   inline,
@@ -67,7 +73,9 @@ const Label: React.FC<LabelProps> = ({
     <label {...props}>{text}</label>
   ) : (
     <label css={flex && labelFlex(inputGrow)} {...props}>
-      <LabelText flex={flex}>{text}</LabelText>
+      <LabelText disabled={disabled} flex={flex}>
+        {text}
+      </LabelText>
       {React.Children.only(children)}
     </label>
   );
