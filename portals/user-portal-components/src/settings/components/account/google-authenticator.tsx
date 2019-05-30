@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import rem from '../../../../../../../../node_modules/polished/lib/helpers/rem';
+import rem from 'polished/lib/helpers/rem';
 
 const Wrapper = styled.div(() => ({
   border: `${border.width}px ${border.style} ${colors.neutral[50]}`,
