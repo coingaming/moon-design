@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.43.0](https://github.com/coingaming/sportsbet-design/compare/v0.42.0...v0.43.0) (2019-05-31)
+
+
+### Features
+
+* **account:** dummy logic for email verification ([4fec523](https://github.com/coingaming/sportsbet-design/commit/4fec523))
+* **account:** verify email view ([6ea83ed](https://github.com/coingaming/sportsbet-design/commit/6ea83ed))
+
+
+
+
+
 # [0.42.0](https://github.com/coingaming/sportsbet-design/compare/v0.41.0...v0.42.0) (2019-05-30)
 
 
