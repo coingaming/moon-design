@@ -36,7 +36,7 @@ const borderAddWallet: CSSObject = {
   },
 };
 
-export const AddWalletCard = styled.div([
+const AddWalletCard = styled.div([
   borderAddWallet,
   caption,
   {
@@ -59,7 +59,7 @@ export const AddWallet: React.FC<NavLinkProps> = props => (
   </AddWalletCard>
 );
 
-export const WalletMobile = styled.button([
+const WalletMobile = styled.button([
   borderAddWallet,
   {
     marginTop: spacing(),
