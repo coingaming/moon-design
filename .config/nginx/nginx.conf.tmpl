@@ -25,16 +25,19 @@ http {
 
   server {
     listen      80;
-    server_name localhost;
+    server_name static;
 
     access_log  /var/log/nginx/access.log  main;
 
     root /usr/share/nginx/html;
-    index index.html;
 
-    location / {
-      try_files $uri $uri/ /index.html;
+    location ~* \.(?:woff2|otf)$ {
+      add_header "Cache-Control" "max-age=31557600, immutable";
     }
 
+    location / {
+      try_files $uri $uri/;
+    }
   }
+
 }
