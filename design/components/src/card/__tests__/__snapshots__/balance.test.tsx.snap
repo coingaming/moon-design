@@ -40,22 +40,6 @@ exports[`CardBalance renders correctly 1`] = `
   line-height: 1.25rem;
 }
 
-.emotion-4 {
-  margin-top: 0;
-  color: #8697a2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
-
-.emotion-4:first-child {
-  margin-top: 0;
-}
-
-.emotion-3 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
 <div>
   <p
     className="emotion-0"
@@ -71,17 +55,6 @@ exports[`CardBalance renders correctly 1`] = `
       title="Millibitcoin"
     >
       mBTC
-    </abbr>
-  </p>
-  <p
-    className="emotion-4"
-  >
-    354568.68 
-    <abbr
-      className="emotion-3"
-      title="US Dollars"
-    >
-      USD
     </abbr>
   </p>
 </div>
@@ -127,22 +100,6 @@ exports[`CardBalance renders correctly with badge caption 1`] = `
   line-height: 1.25rem;
 }
 
-.emotion-5 {
-  margin-top: 0;
-  color: #8697a2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
-
-.emotion-5:first-child {
-  margin-top: 0;
-}
-
-.emotion-4 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
 .emotion-0 {
   color: #fff;
   background-color: #0cd664;
@@ -179,17 +136,6 @@ exports[`CardBalance renders correctly with badge caption 1`] = `
       title="Millibitcoin"
     >
       mBTC
-    </abbr>
-  </p>
-  <p
-    className="emotion-5"
-  >
-    354568.68 
-    <abbr
-      className="emotion-4"
-      title="US Dollars"
-    >
-      USD
     </abbr>
   </p>
 </div>
@@ -235,22 +181,6 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   line-height: 1.25rem;
 }
 
-.emotion-4 {
-  margin-top: 0;
-  color: #8697a2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
-
-.emotion-4:first-child {
-  margin-top: 0;
-}
-
-.emotion-3 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
 <div>
   <p
     className="emotion-0"
@@ -266,17 +196,6 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
       title="Bitcoin"
     >
       mBTC
-    </abbr>
-  </p>
-  <p
-    className="emotion-4"
-  >
-    354568.68 
-    <abbr
-      className="emotion-3"
-      title="Dollars"
-    >
-      USD
     </abbr>
   </p>
 </div>
