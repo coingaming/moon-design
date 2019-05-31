@@ -2,11 +2,8 @@
 
 ## Description
 
-<!--- Describe your changes in detail -->
-
-## Motivation and Context
-
 <!---
+  Describe your changes in detail.
   Why is this change required? What problem does it solve?
   If it fixes an open issue, please link to the issue here.
 -->
@@ -41,13 +38,24 @@
   We're here to help!
 -->
 
+### For **all changes**
+
 - [ ] I have read the [**contributing guidelines**][contributing].
 - [ ] My code follows the [code style][code-style] of this project.
+- [ ] All new and existing tests passed.
+
+### For `portals` packages
+
+- [ ] All my components are exported in `user-portal-components`.
+
+### For `design` packages
+
+- [ ] My HTML markup is valid and meets [W3C standards](https://validator.w3.org/).
+- [ ] My styles avoid hard-coded 'magic' values and make use of the design tokens.
 - [ ] My code meets the [A11Y Web Accessibility Checklist](https://a11yproject.com/checklist). If not, please add justification documentation.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
 - [ ] I have added tests to cover my changes.
-- [ ] All new and existing tests passed.
 
 [contributing]: https://github.com/coingaming/sportsbet-design/blob/master/CONTRIBUTING.md
 [code-style]: https://github.com/coingaming/sportsbet-design/blob/master/CONTRIBUTING.md#code-style
