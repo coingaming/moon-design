@@ -1,6 +1,10 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import {
+  breakpoints,
+  colors,
+  spacing as spacingTokens,
+} from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
@@ -9,7 +13,7 @@ import rem from 'polished/lib/helpers/rem';
 export const MyBetContainerHeader = styled.div<{}>({
   display: 'none',
   paddingLeft: spacing(),
-  paddingRight: rem(48),
+  paddingRight: rem(spacingTokens.default * 3),
   alignItems: 'center',
   textAlign: 'right',
   justifyContent: 'flex-end',
@@ -165,7 +169,7 @@ export const MyBetHeaderCaption = styled.p({
 
 export const MyBetHeaderStatusContainer = styled.div({
   display: 'none',
-  paddingRight: rem(48),
+  paddingRight: rem(spacingTokens.default * 3),
   alignItems: 'center',
   textAlign: 'right',
   justifyContent: 'flex-end',
