@@ -23,18 +23,6 @@ http {
   access_log  /var/log/nginx/access.log  main;
   keepalive_timeout  65;
 
-  server {
-    listen      80;
-    server_name localhost;
+  include /etc/nginx/conf.d/*.conf;
 
-    access_log  /var/log/nginx/access.log  main;
-
-    root /usr/share/nginx/html;
-    index index.html;
-
-    location / {
-      try_files $uri $uri/ /index.html;
-    }
-
-  }
 }
