@@ -23,6 +23,21 @@ http {
   access_log  /var/log/nginx/access.log  main;
   keepalive_timeout  65;
 
-  include /etc/nginx/conf.d/*.conf;
+  server {
+    listen      80;
+    server_name static;
+
+    access_log  /var/log/nginx/access.log  main;
+
+    root /usr/share/nginx/html;
+
+    location ~* \.(?:woff2|otf)$ {
+      add_header "Cache-Control" "max-age=31557600, immutable";
+    }
+
+    location / {
+      try_files $uri $uri/;
+    }
+  }
 
 }
