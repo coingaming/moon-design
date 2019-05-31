@@ -11,29 +11,11 @@ const TestOptions = () => (
   </React.Fragment>
 );
 
-const TestOptionsShort = () => (
-  <React.Fragment>
-    <option value="eur">EUR</option>
-    <option value="usd">USD</option>
-    <option value="gbp">GBP</option>
-  </React.Fragment>
-);
-
 describe('Select', () => {
   test('renders a select input with options', () => {
     const select = create(
       <Select>
         <TestOptions />
-      </Select>
-    );
-
-    expect(select).toMatchSnapshot();
-  });
-
-  test("renders a 'short' variant select input with options", () => {
-    const select = create(
-      <Select short>
-        <TestOptionsShort />
       </Select>
     );
 
@@ -84,16 +66,6 @@ describe('Select', () => {
 
       expect(select).toMatchSnapshot();
     });
-
-    test("for 'short' select input", () => {
-      const select = create(
-        <Select disabled short>
-          <TestOptionsShort />
-        </Select>
-      );
-
-      expect(select).toMatchSnapshot();
-    });
   });
 
   describe('renders as full-width', () => {
@@ -101,16 +73,6 @@ describe('Select', () => {
       const select = create(
         <Select fullWidth>
           <TestOptions />
-        </Select>
-      );
-
-      expect(select).toMatchSnapshot();
-    });
-
-    test("for 'short' select input", () => {
-      const select = create(
-        <Select fullWidth short>
-          <TestOptionsShort />
         </Select>
       );
 
