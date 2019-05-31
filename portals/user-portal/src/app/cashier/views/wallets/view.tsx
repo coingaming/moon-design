@@ -70,12 +70,10 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <AddWallet onClick={() => console.log('Add wallet')} />
+            <AddWallet to={'/add-wallt'}>+ Add Wallet</AddWallet>
           </WalletWrapper>
         </WalletsContainer>
-        <AddWalletMobile onClick={() => console.log('Add wallet')}>
-          + Add Wallet
-        </AddWalletMobile>
+        <AddWalletMobile to={'/add-wallt'}>+ Add Wallet</AddWalletMobile>
         <TransactionsSection>
           <CashierHeading>Transactions</CashierHeading>
           <TransactionsHeader />

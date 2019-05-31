@@ -31,6 +31,12 @@ http {
 
     root /usr/share/nginx/html;
 
+
+    location = /healthcheck {
+      add_header Content-Type text/plain;
+      return 200 'ok';
+    }
+
     location ~* \.(?:woff2|otf)$ {
       add_header "Cache-Control" "max-age=31557600, immutable";
     }
