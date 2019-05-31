@@ -64,11 +64,10 @@ export const DepositViewBTC = () => (
             <CardBalance
               from={{
                 currency: 'Bitcoin',
-                value: 1526.56,
+                value: '1526.56',
                 unit: 'mBTC',
                 unitTitle: 'Millibitcoin',
               }}
-              to={{ currency: 'Dollars', value: 354568.68, unit: 'USD' }}
             />
           </BtcPaymentBalance>
           <BtcPaymentQr>image</BtcPaymentQr>
