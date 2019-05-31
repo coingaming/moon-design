@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.43.0](https://github.com/coingaming/sportsbet-design/compare/v0.42.0...v0.43.0) (2019-05-31)
+
+
+### Features
+
+* **account:** verify email view ([6ea83ed](https://github.com/coingaming/sportsbet-design/commit/6ea83ed))
+* **icons:** add background icon ([25fc27c](https://github.com/coingaming/sportsbet-design/commit/25fc27c))
+
+
+
+
+
 # [0.42.0](https://github.com/coingaming/sportsbet-design/compare/v0.41.0...v0.42.0) (2019-05-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
