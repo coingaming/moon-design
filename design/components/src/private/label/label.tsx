@@ -2,9 +2,11 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
+import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { inputSelectors } from './settings';
+import { inputColors } from '../input/settings';
 jsx;
 
 /**
@@ -34,6 +36,8 @@ const LabelText = styled.span<LabelTextProps>(({ disabled, flex }) => [
   {
     display: 'block',
     marginBottom: spacing('small'),
+    color: inputColors.label,
+    fontSize: rem(16),
   },
   flex && {
     [mq(breakpoints.small)]: {

@@ -18,7 +18,7 @@ const inputColors = {
   label: colors.neutral[20],
   text: colors.neutral[10],
   icon: colors.neutral[30],
-  border: colors.neutral[60],
+  border: colors.neutral[70],
   background: colors.neutral[75],
   disabled: colors.neutral[50],
 };
