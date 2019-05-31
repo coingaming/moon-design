@@ -39,3 +39,4 @@ export { IconSettings } from './svg/IconSettings';
 export { IconSuccess } from './svg/IconSuccess';
 export { IconUpload } from './svg/IconUpload';
 export { IconWarning } from './svg/IconWarning';
+export { Background1 } from './backgrounds/Background1';
