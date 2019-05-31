@@ -1,24 +1,9 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
-import math from 'polished/lib/math/math';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
-import { hyphenate, inlineSVG, spacing } from '@heathmont/sportsbet-utils';
-import {
-  Input,
-  inputFloatContent,
-  inputFloatLabel,
-  inputFloatLabelActive,
-} from '../private/input';
-import {
-  IconWarning,
-  IconSuccess,
-  IconCircle,
-} from '@heathmont/sportsbet-icons';
-jsx;
+import { Input } from '../private/input';
+import { Error } from '../private/error';
 
 /**
  * Types & Settings
@@ -37,84 +22,17 @@ type TextInputProps = {
   label: string;
   type?: TextInputTypes;
   placeholder?: string;
-  labelBlock?: boolean;
   disabled?: boolean;
   required?: boolean;
-  error?: boolean;
+  error?: string;
 };
 
-const inputsWithDefaultBlockLabels = ['date'];
-
-const iconSize = rem(20);
-const iconPosition = spacing('small');
-const iconInnerSize = rem(12);
-const iconInnerPosition = math(
-  `${iconPosition} + ((${iconSize} - ${iconInnerSize}) / 2)`
-);
-
-/**
- * Functions
- */
-const hasDefaultBlockLabel = (inputType: TextInputTypes) =>
-  inputsWithDefaultBlockLabels.some(type => type === inputType);
-
-const createId = (id: string) => `TextInput-${hyphenate(id)}`;
-
-/**
- * Styles
- */
-const inputContainer: CSSObject = {
-  position: 'relative',
-};
-
-const backgroundIcon: CSSObject = {
-  backgroundPosition: `right ${iconInnerPosition} center, right ${iconPosition} center`,
-  backgroundSize: `${iconInnerSize}, ${iconSize}`,
-};
-
-const textInputError: CSSObject = {
-  ...backgroundIcon,
-  borderColor: colors.error,
-  backgroundImage: `
-    ${inlineSVG(<IconWarning color={colors.neutral[10]} />)},
-    ${inlineSVG(<IconCircle color={colors.error} />)}`,
-};
-
-const TextInputElem = styled(Input)(({ error, success }) => [
-  {
-    '&:focus': {
-      borderColor: colors.neutral[20],
-      outline: 'none',
-    },
-    '&:not(:focus):not(:placeholder-shown):invalid': {
-      ...textInputError,
-    },
+const TextInputElem = styled(Input)({
+  '&:focus': {
+    borderColor: colors.neutral[20],
+    outline: 'none',
   },
-  error && {
-    ...textInputError,
-  },
-  success && [
-    backgroundIcon,
-    {
-      backgroundImage: `
-        ${inlineSVG(<IconSuccess color={colors.neutral[10]} />)},
-        ${inlineSVG(<IconCircle color={colors.brand} />)}`,
-    },
-  ],
-]);
-
-const textInputFloat: CSSObject = {
-  '::placeholder': {
-    color: 'transparent',
-  },
-  '&:not(:placeholder-shown)': {
-    ...inputFloatContent,
-    borderColor: 'transparent',
-    '& + label': {
-      ...inputFloatLabelActive,
-    },
-  },
-};
+});
 
 /**
  * Component
@@ -124,33 +42,26 @@ const textInputFloat: CSSObject = {
  */
 const TextInput: React.FC<TextInputProps> = ({
   type = 'text',
+  disabled,
   placeholder = ' ',
   label,
-  labelBlock,
+  error,
   ...props
 }) => {
   const inputProps = {
+    disabled,
     type,
     placeholder,
     ...props,
   };
 
-  return hasDefaultBlockLabel(inputProps.type) || labelBlock ? (
-    <Label text={label}>
-      <TextInputElem withIcon {...inputProps} />
+  return (
+    <Label text={label} disabled={disabled}>
+      <React.Fragment>
+        <TextInputElem error={error ? true : false} {...inputProps} />
+        {error && <Error text={error} />}
+      </React.Fragment>
     </Label>
-  ) : (
-    <div css={inputContainer}>
-      <TextInputElem
-        withIcon
-        id={createId(label)}
-        css={textInputFloat}
-        {...inputProps}
-      />
-      <label htmlFor={createId(label)} css={inputFloatLabel}>
-        {label}
-      </label>
-    </div>
   );
 };
 

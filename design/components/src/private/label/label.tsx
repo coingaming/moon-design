@@ -2,9 +2,11 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
+import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { inputSelectors } from './settings';
+import { inputColors } from '../input/settings';
 jsx;
 
 /**
@@ -12,6 +14,7 @@ jsx;
  */
 type LabelTextProps = {
   flex?: boolean;
+  disabled?: boolean;
 };
 
 type LabelSizing = {
@@ -20,6 +23,7 @@ type LabelSizing = {
 };
 
 type LabelProps = LabelSizing & {
+  disabled?: boolean;
   text: string;
   inline?: boolean;
   htmlFor?: string;
@@ -28,10 +32,12 @@ type LabelProps = LabelSizing & {
 /**
  * Styles
  */
-const LabelText = styled.span<LabelTextProps>(({ flex }) => [
+const LabelText = styled.span<LabelTextProps>(({ disabled, flex }) => [
   {
     display: 'block',
     marginBottom: spacing('small'),
+    color: inputColors.label,
+    fontSize: rem(16),
   },
   flex && {
     [mq(breakpoints.small)]: {
@@ -39,6 +45,9 @@ const LabelText = styled.span<LabelTextProps>(({ flex }) => [
       paddingRight: spacing(),
       marginBottom: 0,
     },
+  },
+  disabled && {
+    opacity: 0.5,
   },
 ]);
 
@@ -57,6 +66,7 @@ const labelFlex: (inputGrow: number) => CSSObject = inputGrow => ({
  */
 const Label: React.FC<LabelProps> = ({
   text,
+  disabled,
   flex,
   children,
   inline,
@@ -67,7 +77,9 @@ const Label: React.FC<LabelProps> = ({
     <label {...props}>{text}</label>
   ) : (
     <label css={flex && labelFlex(inputGrow)} {...props}>
-      <LabelText flex={flex}>{text}</LabelText>
+      <LabelText disabled={disabled} flex={flex}>
+        {text}
+      </LabelText>
       {React.Children.only(children)}
     </label>
   );
