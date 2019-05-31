@@ -15,7 +15,6 @@ export const page: CSSObject = {
     color: colors.text,
     minHeight: '100%',
     textSizeAdjust: '100%' /* [1] */,
-    fontDisplay: 'swap',
     textRendering: 'optimizeLegibility',
     MozOsxFontSmoothing: 'grayscale' /* [2] */,
     WebkitFontSmoothing: 'antialiased' /* [2] */,
