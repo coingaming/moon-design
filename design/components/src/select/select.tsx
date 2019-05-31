@@ -27,6 +27,7 @@ const SelectInput = styled(Input.withComponent('select'))({
   color: inputColors.label,
   backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
   padding: spacing('small'),
+  paddingLeft: spacing(),
   paddingRight: rem(selectIconOffset),
   backgroundPosition: `right ${rem(selectIconSize)} center`,
   backgroundSize: rem(selectIconSize),
