@@ -1,12 +1,53 @@
+import * as React from 'react';
 import styled from '@emotion/styled';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
-import * as React from 'react';
 import rem from 'polished/lib/helpers/rem';
 
-export const MyBetContainer = styled.details<{}>({
+export const MyBetContainerHeader = styled.div<{}>({
+  display: 'none',
+  paddingLeft: spacing(),
+  paddingRight: rem(48),
+  alignItems: 'center',
+  textAlign: 'right',
+  justifyContent: 'flex-end',
+  flexGrow: 1,
+  backgroundColor: colors.secondary,
+  color: colors.neutral[20],
+  marginBottom: spacing('small'),
+  height: rem(48),
+  [mq(breakpoints.medium)]: {
+    display: 'flex',
+  },
+});
+
+export const MyBetContainerHeaderBetDetails = styled.span({
+  marginRight: 'auto',
+});
+
+export const MyBetContainerHeaderStatus = styled.span({
+  width: rem(75),
+  textAlign: 'center',
+});
+
+export const MyBetContainerHeaderOdds = styled.span({
+  width: rem(54),
+  marginLeft: spacing('xsmall'),
+});
+
+export const MyBetContainerHeaderStake = styled.span({
+  width: rem(105),
+  marginLeft: spacing('xsmall'),
+});
+
+export const MyBetContainerHeaderPotentialWin = styled.span({
+  width: rem(105),
+  marginLeft: spacing('xsmall'),
+});
+
+export const MyBetContainer = styled.details({
   position: 'relative',
   alignItems: 'center',
   display: 'flex',
@@ -40,7 +81,7 @@ export const MyBetContainer = styled.details<{}>({
   },
 });
 
-export const MyBetHeader = styled.summary<{}>({
+export const MyBetHeader = styled.summary({
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'space-between',
@@ -64,7 +105,7 @@ export const MyBetHeader = styled.summary<{}>({
   },
 });
 
-export const MyBetHeaderContainer = styled.div<{}>({
+export const MyBetHeaderContainer = styled.div({
   flexGrow: 1,
   overflow: 'hidden',
   padding: spacing(),
@@ -79,17 +120,17 @@ export const MyBetHeaderContainer = styled.div<{}>({
   },
 });
 
-export const MyBetHeaderTitle = styled.div<{}>({
+export const MyBetHeaderTitle = styled.div({
   color: colors.text,
   display: 'flex',
   alignItems: 'center',
 });
 
-export const MyBetHeaderTitleAmount = styled.span<{}>({
-  marginLeft: rem(11),
+export const MyBetHeaderTitleAmount = styled.span({
+  marginLeft: spacing('small'),
 });
 
-export const MyBetHeaderCashoutContainer = styled.div<{}>({
+export const MyBetHeaderCashoutContainer = styled.div({
   display: 'flex',
   flexWrap: 'wrap',
   flexDirection: 'column',
@@ -103,18 +144,18 @@ export const MyBetHeaderCashoutContainer = styled.div<{}>({
   },
 });
 
-export const MyBetHeaderCashout = styled.p<{}>({
+export const MyBetHeaderCashout = styled.p({
   fontSize: rem(12),
-  marginTop: rem(6),
+  marginTop: spacing('xsmall'),
   color: colors.brand,
   textAlign: 'center',
 });
 
-export const MyBetHeaderCashoutAmount = styled.span<{}>({
+export const MyBetHeaderCashoutAmount = styled.span({
   color: colors.warning,
 });
 
-export const MyBetHeaderCaption = styled.p<{}>({
+export const MyBetHeaderCaption = styled.p({
   color: colors.neutral[20],
   overflow: 'hidden',
   textOverflow: 'ellipsis',
@@ -122,7 +163,7 @@ export const MyBetHeaderCaption = styled.p<{}>({
   marginTop: rem(10),
 });
 
-export const MyBetHeaderStatusContainer = styled.div<{}>({
+export const MyBetHeaderStatusContainer = styled.div({
   display: 'none',
   paddingRight: rem(48),
   alignItems: 'center',
@@ -134,38 +175,41 @@ export const MyBetHeaderStatusContainer = styled.div<{}>({
   },
 });
 
-export const MyBetHeaderStatus = styled.span<{}>(() => [{}]);
+export const MyBetHeaderStatus = styled.span({
+  width: rem(75),
+  textAlign: 'center',
+});
 
-export const MyBetHeaderOdds = styled.span<{}>({
+export const MyBetHeaderOdds = styled.span({
   width: rem(54),
-  marginLeft: rem(5),
+  marginLeft: spacing('xsmall'),
 });
 
-export const MyBetHeaderStake = styled.span<{}>({
+export const MyBetHeaderStake = styled.span({
   width: rem(105),
-  marginLeft: rem(5),
+  marginLeft: spacing('xsmall'),
 });
 
-export const MyBetHeaderPotential = styled.span<{}>({
+export const MyBetHeaderPotential = styled.span({
   width: rem(105),
-  marginLeft: rem(5),
+  marginLeft: spacing('xsmall'),
   color: colors.brand,
 });
 
-export const MyBetHeaderCaptionDate = styled.span<{}>({
+export const MyBetHeaderCaptionDate = styled.span({
   display: 'none',
-  marginRight: rem(11),
+  marginRight: spacing('small'),
   [mq(breakpoints.medium)]: {
     display: 'inline',
   },
 });
-export const MyBetHeaderCaptionMatchName = styled.span<{}>();
+export const MyBetHeaderCaptionMatchName = styled.span();
 
-export const MyBetContents = styled.div<{}>({
+export const MyBetContents = styled.div({
   padding: `${spacing('medium')} 0 ${spacing()} ${spacing()}`,
 });
 
-export const MyBetCaptions = styled.div<{}>({
+export const MyBetCaptions = styled.div({
   marginTop: spacing('large'),
   paddingRight: spacing(),
 
@@ -174,14 +218,15 @@ export const MyBetCaptions = styled.div<{}>({
   },
 });
 
-export const MyBetCaptionRow = styled.p<{}>({
+export const MyBetCaptionRow = styled.p({
   display: 'flex',
   justifyContent: 'flex-end',
   alignItems: 'center',
-  marginBottom: rem(4),
+  marginTop: 0,
+  marginBottom: spacing('small'),
 });
 
-export const MyBetCaptionTitle = styled.span<{}>({
+export const MyBetCaptionTitle = styled.span({
   color: colors.neutral[20],
 });
 
@@ -197,7 +242,7 @@ export const MyBetCaptionValue = styled.span<{ color?: string }>(
   }
 );
 
-export const MyBetFooter = styled.footer<{}>({
+export const MyBetFooter = styled.footer({
   padding: `${spacing()} ${spacing('medium')}`,
   boxSizing: 'border-box',
   justifyContent: 'space-between',
@@ -217,7 +262,7 @@ export const MyBetFooter = styled.footer<{}>({
   },
 });
 
-export const MyBetFooterCashout = styled.div<{}>({
+export const MyBetFooterCashout = styled.div({
   alignItems: 'center',
   display: 'flex',
 });
