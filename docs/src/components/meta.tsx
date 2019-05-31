@@ -35,21 +35,21 @@ export const Meta = () => (
           <link rel="dns-prefetch" href={cdnUrl} />
           <link
             rel="preload"
-            href={withPrefix(`${avertaStd.fontFilePath.regular}.woff2`)}
+            href={`${avertaStd.fontFilePath.regular}.woff2`}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href={withPrefix(`${avertaStd.fontFilePath.semibold}.woff2`)}
+            href={`${avertaStd.fontFilePath.semibold}.woff2`}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href={withPrefix(`${avertaStd.fontFilePath.bold}.woff2`)}
+            href={`${avertaStd.fontFilePath.bold}.woff2`}
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
