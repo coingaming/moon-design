@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
+import { NavLink, NavLinkProps } from 'react-router-dom';
 import { jsx } from '@emotion/core';
 import styled, { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
@@ -18,6 +19,7 @@ const caption: CSSObject = {
   letterSpacing: rem(1),
   cursor: 'pointer',
   color: colors.neutral[20],
+  textDecoration: 'none',
 };
 
 const borderAddWallet: CSSObject = {
@@ -36,6 +38,7 @@ const borderAddWallet: CSSObject = {
 
 const AddWalletCard = styled.div([
   borderAddWallet,
+  caption,
   {
     display: 'flex',
     flexDirection: 'column',
@@ -47,14 +50,16 @@ const AddWalletCard = styled.div([
   },
 ]);
 
-export const AddWallet: React.FC<{ onClick: () => void }> = ({ onClick }) => (
-  <AddWalletCard onClick={onClick}>
-    <a css={caption}>+ Add Wallet</a>
+export const AddWallet: React.FC<NavLinkProps> = props => (
+  <AddWalletCard>
+    <NavLink css={caption} {...props}>
+      {' '}
+      {props.children}
+    </NavLink>
   </AddWalletCard>
 );
 
-export const AddWalletMobile = styled.button([
-  caption,
+const WalletMobile = styled.button([
   borderAddWallet,
   {
     marginTop: spacing(),
@@ -69,3 +74,12 @@ export const AddWalletMobile = styled.button([
     },
   },
 ]);
+
+export const AddWalletMobile: React.FC<NavLinkProps> = props => (
+  <WalletMobile>
+    <NavLink css={caption} {...props}>
+      {' '}
+      {props.children}
+    </NavLink>
+  </WalletMobile>
+);
