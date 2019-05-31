@@ -23,6 +23,7 @@ export const Input = styled.input<InputProps>(props => [
     padding: rem(inputSpacing),
     appearance: 'none',
     font: 'inherit',
+    fontSize: rem(16),
     color: inputColors.text,
     backgroundColor: inputColors.background,
     border: inputBorder,
