@@ -13,7 +13,7 @@ import rem from 'polished/lib/helpers/rem';
 export const MyBetContainerHeader = styled.div<{}>({
   display: 'none',
   paddingLeft: spacing(),
-  paddingRight: rem(spacingTokens.default * 3),
+  paddingRight: rem(48),
   alignItems: 'center',
   textAlign: 'right',
   justifyContent: 'flex-end',
@@ -27,31 +27,31 @@ export const MyBetContainerHeader = styled.div<{}>({
   },
 });
 
-export const MyBetContainerHeaderBetDetails = styled.span({
+export const MyBetContainerHeaderBetDetails = styled.span<{}>({
   marginRight: 'auto',
 });
 
-export const MyBetContainerHeaderStatus = styled.span({
+export const MyBetContainerHeaderStatus = styled.span<{}>({
   width: rem(75),
   textAlign: 'center',
 });
 
-export const MyBetContainerHeaderOdds = styled.span({
+export const MyBetContainerHeaderOdds = styled.span<{}>({
   width: rem(54),
-  marginLeft: spacing('xsmall'),
+  marginLeft: rem(5),
 });
 
-export const MyBetContainerHeaderStake = styled.span({
+export const MyBetContainerHeaderStake = styled.span<{}>({
   width: rem(105),
-  marginLeft: spacing('xsmall'),
+  marginLeft: rem(5),
 });
 
-export const MyBetContainerHeaderPotentialWin = styled.span({
+export const MyBetContainerHeaderPotentialWin = styled.span<{}>({
   width: rem(105),
-  marginLeft: spacing('xsmall'),
+  marginLeft: rem(5),
 });
 
-export const MyBetContainer = styled.details({
+export const MyBetContainer = styled.details<{}>({
   position: 'relative',
   alignItems: 'center',
   display: 'flex',

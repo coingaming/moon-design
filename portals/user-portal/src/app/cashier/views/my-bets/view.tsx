@@ -1,40 +1,6 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
-import {
-  CashierLayout,
-  CashierHeading,
-} from '@heathmont/sportsbet-user-portal-components';
-import { MyBetsNav } from './dumb-components/my-bets-nav';
-import { container } from '@heathmont/sportsbet-utils/lib/container';
-import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
-import {
-  MyBetContainer,
-  MyBetFooter,
-  MyBetHeader,
-  MyBetHeaderCaption,
-  MyBetHeaderCaptionMatchName,
-  MyBetHeaderCaptionDate,
-  MyBetHeaderContainer,
-  MyBetHeaderTitle,
-  MyBetHeaderTitleAmount,
-  MyBetHeaderCashout,
-  MyBetHeaderCashoutAmount,
-  MyBetHeaderCashoutContainer,
-  MyBetContents,
-  MyBetCaptions,
-  MyBetCaptionTitle,
-  MyBetCaptionValue,
-  MyBetCaptionRow,
-  MyBetFooterAmount,
-  MyBetFooterCashout,
-  MyBetHeaderStatus,
-  MyBetHeaderOdds,
-  MyBetHeaderStake,
-  MyBetHeaderPotential,
-  MyBetHeaderStatusContainer,
-} from './dumb-components/myBetContainer';
 import { ScoreboardsContainer } from './components/Scoreboards/Scoreboard';
 import {
   event,
@@ -47,9 +13,47 @@ import {
 } from './dummyData';
 import { DummyFootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
 import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
+import { MyBetsNav } from './dumb-components/my-bets-nav';
+import { container } from '@heathmont/sportsbet-utils/lib/container';
+import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
+import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
 import { Badge, Button } from '@heathmont/sportsbet-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { IconHyperlink } from '@heathmont/sportsbet-icons';
+import {
+  CashierHeading,
+  CashierLayout,
+  MyBetCaptionRow,
+  MyBetCaptions,
+  MyBetCaptionTitle,
+  MyBetCaptionValue,
+  MyBetContainer,
+  MyBetContainerHeader,
+  MyBetContainerHeaderBetDetails,
+  MyBetContainerHeaderOdds,
+  MyBetContainerHeaderPotentialWin,
+  MyBetContainerHeaderStake,
+  MyBetContainerHeaderStatus,
+  MyBetContents,
+  MyBetFooter,
+  MyBetFooterAmount,
+  MyBetFooterCashout,
+  MyBetHeader,
+  MyBetHeaderCaption,
+  MyBetHeaderCaptionDate,
+  MyBetHeaderCaptionMatchName,
+  MyBetHeaderCashout,
+  MyBetHeaderCashoutAmount,
+  MyBetHeaderCashoutContainer,
+  MyBetHeaderContainer,
+  MyBetHeaderOdds,
+  MyBetHeaderPotential,
+  MyBetHeaderStake,
+  MyBetHeaderStatus,
+  MyBetHeaderStatusContainer,
+  MyBetHeaderTitle,
+  MyBetHeaderTitleAmount,
+} from '@heathmont/sportsbet-user-portal-components';
 jsx;
 
 export const MyBetsView = () => {
@@ -80,6 +84,17 @@ export const MyBetsView = () => {
 
       <CashierLayout>
         <CashierHeading>My Bets</CashierHeading>
+        <MyBetContainerHeader>
+          <MyBetContainerHeaderBetDetails>
+            Bet Details
+          </MyBetContainerHeaderBetDetails>
+          <MyBetContainerHeaderStatus>Status</MyBetContainerHeaderStatus>
+          <MyBetContainerHeaderOdds>Odds</MyBetContainerHeaderOdds>
+          <MyBetContainerHeaderStake>Stake</MyBetContainerHeaderStake>
+          <MyBetContainerHeaderPotentialWin>
+            Potential win
+          </MyBetContainerHeaderPotentialWin>
+        </MyBetContainerHeader>
         <MyBetContainer>
           <MyBetHeader>
             <MyBetHeaderContainer>
