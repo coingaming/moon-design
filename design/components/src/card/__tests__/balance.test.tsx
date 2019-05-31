@@ -8,15 +8,9 @@ describe('CardBalance', () => {
       <CardBalance
         from={{
           currency: 'Bitcoin',
-          value: 1526.56,
+          value: '1526.56',
           unit: 'mBTC',
           unitTitle: 'Millibitcoin',
-        }}
-        to={{
-          currency: 'Dollars',
-          value: 354568.68,
-          unit: 'USD',
-          unitTitle: 'US Dollars',
         }}
       />
     );
@@ -29,13 +23,8 @@ describe('CardBalance', () => {
       <CardBalance
         from={{
           currency: 'Bitcoin',
-          value: 1526.56,
+          value: '1526.56',
           unit: 'mBTC',
-        }}
-        to={{
-          currency: 'Dollars',
-          value: 354568.68,
-          unit: 'USD',
         }}
       />
     );
@@ -49,15 +38,9 @@ describe('CardBalance', () => {
         badgeCaption="Active"
         from={{
           currency: 'Bitcoin',
-          value: 1526.56,
+          value: '1526.56',
           unit: 'mBTC',
           unitTitle: 'Millibitcoin',
-        }}
-        to={{
-          currency: 'Dollars',
-          value: 354568.68,
-          unit: 'USD',
-          unitTitle: 'US Dollars',
         }}
       />
     );

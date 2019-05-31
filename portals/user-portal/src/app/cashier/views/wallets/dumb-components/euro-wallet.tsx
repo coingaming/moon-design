@@ -21,7 +21,7 @@ export const EuroWallet: React.FC<{}> = () => {
 
   if (!backSided) {
     return (
-      <Card flex backgroundIcon={<IconEuro />}>
+      <Card flex backgroundIcon={<IconEuro />} template="front">
         <CardToggle
           onClick={() => {
             toggle(!backSided);
@@ -30,11 +30,10 @@ export const EuroWallet: React.FC<{}> = () => {
         <CardBalance
           from={{
             currency: 'Euro',
-            value: 126.56,
+            value: '126.56',
             unit: '€',
             unitTitle: 'Euro',
           }}
-          to={{ currency: 'Dollars', value: 156.72, unit: 'USD' }}
         />
         <div>
           <Button round modifier="optional">
