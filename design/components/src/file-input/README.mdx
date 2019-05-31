@@ -11,32 +11,36 @@ import { PropsTable } from 'docs';
 
 Enabling users to upload one or more files inside a form.
 
-A `placeholder` offers additional context to the files required.
+A `label` offers additional context to the files required.
 
 ```jsx react-live
 <Form>
   <FormItem>
-    <FileInput placeholder="ID, passport, etc." />
+    <FileInput id="fileInput1" label="Upload your ID" />
   </FormItem>
 </Form>
 ```
 
-## Label
+## Placeholder
 
-By default, File Input renders with "Choose file", but this can be customised
-via the `label` prop.
+By default, File Input renders with "Choose file…", but this can be customised
+via the `placeholder` prop.
 
 ```jsx react-live
-<FileInput label="Upload photo" placeholder="ID, passport, etc." />
+<FileInput
+  id="fileInput2"
+  label="Upload your ID"
+  placeholder="Choose a photo…"
+/>
 ```
 
-### Placeholder
+## Label
 
-Although an additional `placeholder` is encouraged, it won't display when
+Although an additional `label` is encouraged, it won't display when
 undefined.
 
 ```jsx react-live
-<FileInput />
+<FileInput id="fileInput3" />
 ```
 
 ## States
@@ -47,7 +51,7 @@ Although an additional `placeholder` is encouraged, it won't display when
 undefined.
 
 ```jsx react-live
-<FileInput error />
+<FileInput id="fileInput4" error />
 ```
 
 ## Props
