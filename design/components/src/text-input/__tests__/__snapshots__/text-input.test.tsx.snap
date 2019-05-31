@@ -9,9 +9,10 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   -moz-appearance: none;
   appearance: none;
   font: inherit;
+  font-size: 1rem;
   color: #fff;
   background-color: #0E141E;
-  border: 1px solid #31373F;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -40,6 +41,8 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
+  color: #8697a2;
+  font-size: 1rem;
   opacity: 0.5;
 }
 
@@ -163,6 +166,8 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
+  color: #8697a2;
+  font-size: 1rem;
 }
 
 .emotion-1 {
@@ -173,9 +178,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   -moz-appearance: none;
   appearance: none;
   font: inherit;
+  font-size: 1rem;
   color: #fff;
   background-color: #0E141E;
-  border: 1px solid #31373F;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -389,6 +395,8 @@ exports[`TextInput renders correctly for other types 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
+  color: #8697a2;
+  font-size: 1rem;
 }
 
 .emotion-1 {
@@ -399,9 +407,10 @@ exports[`TextInput renders correctly for other types 1`] = `
   -moz-appearance: none;
   appearance: none;
   font: inherit;
+  font-size: 1rem;
   color: #fff;
   background-color: #0E141E;
-  border: 1px solid #31373F;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -539,6 +548,8 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
+  color: #8697a2;
+  font-size: 1rem;
 }
 
 .emotion-1 {
@@ -549,9 +560,10 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   -moz-appearance: none;
   appearance: none;
   font: inherit;
+  font-size: 1rem;
   color: #fff;
   background-color: #0E141E;
-  border: 1px solid #31373F;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -595,6 +607,8 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
+  color: #8697a2;
+  font-size: 1rem;
 }
 
 .emotion-1 {
@@ -605,9 +619,10 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
   -moz-appearance: none;
   appearance: none;
   font: inherit;
+  font-size: 1rem;
   color: #fff;
   background-color: #0E141E;
-  border: 1px solid #31373F;
+  border: 1px solid #1A212A;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
