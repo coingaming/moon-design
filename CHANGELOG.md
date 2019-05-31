@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.44.0](https://github.com/coingaming/sportsbet-design/compare/v0.43.0...v0.44.0) (2019-05-31)
+
+
+### Bug Fixes
+
+* **design:** removed to from card balance ([af0ccbd](https://github.com/coingaming/sportsbet-design/commit/af0ccbd))
+* **FileInput:** fix label ([4884ee9](https://github.com/coingaming/sportsbet-design/commit/4884ee9))
+* **Select:** left padding for select placeholder ([c104b8a](https://github.com/coingaming/sportsbet-design/commit/c104b8a))
+* **TextInput:** fix the colors & font-size ([05b57ba](https://github.com/coingaming/sportsbet-design/commit/05b57ba))
+
+
+### Features
+
+* **assets:** update cdnUrl ([4423725](https://github.com/coingaming/sportsbet-design/commit/4423725))
+* added building asset docker container ([87efac6](https://github.com/coingaming/sportsbet-design/commit/87efac6))
+
+
+
+
+
 # [0.43.0](https://github.com/coingaming/sportsbet-design/compare/v0.42.0...v0.43.0) (2019-05-31)
 
 

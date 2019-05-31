@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.44.0](https://github.com/coingaming/sportsbet-design/compare/v0.43.0...v0.44.0) (2019-05-31)
+
+
+### Bug Fixes
+
+* **design:** removed to from card balance ([af0ccbd](https://github.com/coingaming/sportsbet-design/commit/af0ccbd))
+
+
+
+
+
 # [0.43.0](https://github.com/coingaming/sportsbet-design/compare/v0.42.0...v0.43.0) (2019-05-31)
 
 
