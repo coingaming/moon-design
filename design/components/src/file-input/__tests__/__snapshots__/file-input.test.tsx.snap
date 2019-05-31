@@ -4,6 +4,8 @@ exports[`File Input renders a file input with custom label 1`] = `
 Array [
   .emotion-0 {
   display: block;
+  font-size: 1rem;
+  color: #8697a2;
   margin-bottom: 0.5rem;
 }
 
@@ -93,6 +95,8 @@ exports[`File Input renders a file input with custom label and placeholder 1`] =
 Array [
   .emotion-0 {
   display: block;
+  font-size: 1rem;
+  color: #8697a2;
   margin-bottom: 0.5rem;
 }
 
@@ -182,6 +186,8 @@ exports[`File Input renders a file input with custom placeholder 1`] = `
 Array [
   .emotion-0 {
   display: block;
+  font-size: 1rem;
+  color: #8697a2;
   margin-bottom: 0.5rem;
 }
 
@@ -269,6 +275,8 @@ exports[`File Input renders a file input with default placeholder 1`] = `
 Array [
   .emotion-0 {
   display: block;
+  font-size: 1rem;
+  color: #8697a2;
   margin-bottom: 0.5rem;
 }
 
@@ -356,6 +364,8 @@ exports[`File Input renders as error 1`] = `
 Array [
   .emotion-0 {
   display: block;
+  font-size: 1rem;
+  color: #8697a2;
   margin-bottom: 0.5rem;
 }
 
