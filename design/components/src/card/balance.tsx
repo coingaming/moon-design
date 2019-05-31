@@ -10,14 +10,13 @@ jsx;
 
 type Balance = {
   currency: string;
-  value: number;
+  value: string;
   unit: string;
   unitTitle?: string;
 };
 
 type CardBalanceProps = {
   from: Balance;
-  to: Balance;
   badgeCaption?: string;
 };
 
@@ -54,11 +53,7 @@ const alignText: CSSObject = {
 /**
  * Component
  */
-const CardBalance: React.FC<CardBalanceProps> = ({
-  from,
-  to,
-  badgeCaption,
-}) => {
+const CardBalance: React.FC<CardBalanceProps> = ({ from, badgeCaption }) => {
   return (
     <div>
       <Text css={alignText}>
@@ -74,12 +69,6 @@ const CardBalance: React.FC<CardBalanceProps> = ({
           {from.unit}
         </abbr>
       </Title>
-      <Text>
-        {`${to.value} `}
-        <abbr css={unit} title={to.unitTitle || to.currency}>
-          {to.unit}
-        </abbr>
-      </Text>
     </div>
   );
 };
