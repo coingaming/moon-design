@@ -11,6 +11,7 @@ const fontFilePath = {
 const fontFamily = 'Averta Std';
 const fontStack = `${fontFamily}, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif`;
 const fontStyle = 'normal';
+const fontDisplay = 'swap';
 const fontWeight = {
   normal: 400,
   semibold: 600,
@@ -24,6 +25,7 @@ const fontFace: CSSObject[] = [
     '@font-face': {
       fontFamily,
       fontStyle,
+      fontDisplay,
       unicodeRange,
       fontWeight: fontWeight.normal,
       src: `local("AvertaStd-Regular"), local("Averta Std Regular"),
@@ -34,6 +36,7 @@ const fontFace: CSSObject[] = [
     '@font-face': {
       fontFamily,
       fontStyle,
+      fontDisplay,
       unicodeRange,
       fontWeight: fontWeight.semibold,
       src: `local("AvertaStd-Semibold"), local("Averta Std Semibold"),
@@ -44,6 +47,7 @@ const fontFace: CSSObject[] = [
     '@font-face': {
       fontFamily,
       fontStyle,
+      fontDisplay,
       unicodeRange,
       fontWeight: fontWeight.bold,
       src: `local("AvertaStd-Bold"), local("Averta Std Bold"),

@@ -9,10 +9,6 @@ module.exports = {
     description,
     author,
   },
-  proxy: {
-    prefix: '/assets/fonts',
-    url: 'https://localhost:8000',
-  },
   plugins: [
     `gatsby-plugin-emotion`,
     {

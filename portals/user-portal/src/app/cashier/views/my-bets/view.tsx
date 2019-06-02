@@ -1,7 +1,5 @@
 /** @jsx jsx */
-import * as React from 'react';
-// tslint:disable-next-line:no-duplicate-imports
-import { useState } from 'react';
+import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
 import {
   CashierLayout,
@@ -11,6 +9,19 @@ import { MyBetsNav } from './dumb-components/my-bets-nav';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
+import { MyBetsHeader } from './dumb-components/my-bets-header';
+import { ScoreboardsContainer } from './components/Scoreboards/Scoreboard';
+import {
+  event,
+  footballEventNoStream,
+  tennis1,
+  tennis2,
+  liveBadge,
+  wonBadge,
+  activeBadge,
+} from './dummyData';
+import { DummyFootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
+import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
 jsx;
 
 export const MyBetsView = () => {
@@ -41,6 +52,37 @@ export const MyBetsView = () => {
 
       <CashierLayout>
         <CashierHeading>My bets</CashierHeading>
+        <MyBetsHeader>
+          <span>Bet Details</span>
+          <span>Status</span>
+          <span>Odds</span>
+          <span>Stake</span>
+          <span>Potential win</span>
+        </MyBetsHeader>
+        <ScoreboardsContainer>
+          <DummyFootballScoreboard event={event} timer="45:21" />
+          <DummyFootballScoreboard
+            event={footballEventNoStream}
+            timer="12:11"
+            badges={[wonBadge]}
+          />
+          <TennisScoreboard
+            event={tennis1}
+            timer="45:21"
+            badges={[liveBadge, activeBadge]}
+          />
+          <TennisScoreboard event={tennis2} timer="Set 2" />
+          <DummyFootballScoreboard
+            event={footballEventNoStream}
+            timer="14:11"
+          />
+          <TennisScoreboard event={tennis1} timer="Set 1" />
+          <TennisScoreboard
+            event={tennis2}
+            timer="Set 5"
+            badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
+          />
+        </ScoreboardsContainer>
       </CashierLayout>
     </React.Fragment>
   );

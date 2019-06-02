@@ -1,7 +1,5 @@
 /** @jsx jsx */
-import * as React from 'react';
-// tslint:disable-next-line:no-duplicate-imports
-import { useState } from 'react';
+import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
 
 import { Heading, Toggle } from '@heathmont/sportsbet-components';
