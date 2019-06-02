@@ -31,6 +31,7 @@ export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconLiveChat } from './svg/IconLiveChat';
 export { IconLoyality0 } from './svg/IconLoyality0';
 export { IconNotification } from './svg/IconNotification';
+export { IconPlay } from './svg/IconPlay';
 export { IconPriceBoost } from './svg/IconPriceBoost';
 export { IconProfile } from './svg/IconProfile';
 export { IconSearch } from './svg/IconSearch';

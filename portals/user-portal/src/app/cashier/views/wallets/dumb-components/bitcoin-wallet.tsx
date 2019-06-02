@@ -1,6 +1,4 @@
-import * as React from 'react';
-// tslint:disable-next-line:no-duplicate-imports
-import { useState } from 'react';
+import { useState, default as React } from 'react';
 import { spacing } from '@heathmont/sportsbet-utils';
 import {
   Card,
