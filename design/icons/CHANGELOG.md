@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.45.0](https://github.com/coingaming/sportsbet-design/compare/v0.44.1...v0.45.0) (2019-06-02)
+
+
+### Features
+
+* Add PlayIcon ([82699f9](https://github.com/coingaming/sportsbet-design/commit/82699f9))
+
+
+
+
+
 # [0.44.0](https://github.com/coingaming/sportsbet-design/compare/v0.43.0...v0.44.0) (2019-05-31)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
