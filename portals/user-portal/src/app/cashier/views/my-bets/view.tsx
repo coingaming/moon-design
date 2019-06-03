@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
+import { MyBetsHeader } from './dumb-components/my-bets-header';
 import { ScoreboardsContainer } from './components/Scoreboards/Scoreboard';
 import {
   event,
@@ -13,7 +14,7 @@ import {
 } from './dummyData';
 import { DummyFootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
 import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
-import { MyBetsNav } from './dumb-components/my-bets-nav';
+import { MyBetsNav } from './dumb-components/navigation';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
