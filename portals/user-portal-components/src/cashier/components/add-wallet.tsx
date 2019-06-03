@@ -23,7 +23,7 @@ const caption: CSSObject = {
 };
 
 const borderAddWallet: CSSObject = {
-  backgroundColor: colors.neutral[80],
+  backgroundColor: colors.neutral[90],
   borderStyle: border.style,
   borderWidth: border.width,
   borderColor: colors.neutral[70],
