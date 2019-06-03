@@ -34,10 +34,8 @@ export const ScoreboardsContainer = ({ children }: any) => {
     overflow: 'auto',
     flexFlow: 'row nowrap',
     scrollSnapType: 'x mandatory',
-    marginTop: spacing('large'),
     marginLeft: spacing('large'),
     marginRight: spacing('large'),
-    padding: spacing(),
     backgroundColor: colors.neutral[70],
     [mq(breakpoints.medium)]: {
       marginLeft: 0,
