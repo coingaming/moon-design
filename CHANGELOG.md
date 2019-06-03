@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.46.0](https://github.com/coingaming/sportsbet-design/compare/v0.45.0...v0.46.0) (2019-06-03)
+
+
+### Bug Fixes
+
+* adjust padding of scoreboards ([2b5ddbb](https://github.com/coingaming/sportsbet-design/commit/2b5ddbb))
+
+
+### Features
+
+* export components to user-portal-components ([7b5e768](https://github.com/coingaming/sportsbet-design/commit/7b5e768))
+* **myBets collapsible:** collapsible blocks for mybets section ([b913c57](https://github.com/coingaming/sportsbet-design/commit/b913c57))
+
+
+
+
+
 # [0.45.0](https://github.com/coingaming/sportsbet-design/compare/v0.44.1...v0.45.0) (2019-06-02)
 
 
