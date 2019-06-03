@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.46.0](https://github.com/coingaming/sportsbet-design/compare/v0.45.0...v0.46.0) (2019-06-03)
+
+
+### Bug Fixes
+
+* adjust padding of scoreboards ([2b5ddbb](https://github.com/coingaming/sportsbet-design/commit/2b5ddbb))
+
+
+### Features
+
+* export components to user-portal-components ([7b5e768](https://github.com/coingaming/sportsbet-design/commit/7b5e768))
+* **myBets collapsible:** collapsible blocks for mybets section ([b913c57](https://github.com/coingaming/sportsbet-design/commit/b913c57))
+
+
+
+
+
+# [0.45.0](https://github.com/coingaming/sportsbet-design/compare/v0.44.1...v0.45.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* **my-bets:** fix import paths ([9e1ffeb](https://github.com/coingaming/sportsbet-design/commit/9e1ffeb))
+* case-sensitive circle issue ([24dba28](https://github.com/coingaming/sportsbet-design/commit/24dba28))
+* remove trash ([2db424e](https://github.com/coingaming/sportsbet-design/commit/2db424e))
+* **Swap colors:** Swap colors ([f301857](https://github.com/coingaming/sportsbet-design/commit/f301857))
+* football scoreboard ([45fa7e9](https://github.com/coingaming/sportsbet-design/commit/45fa7e9))
+
+
+### Features
+
+* Add PlayIcon ([82699f9](https://github.com/coingaming/sportsbet-design/commit/82699f9))
+* **Tennis Scoreboard:** implement tennis scoreboard ([68329e9](https://github.com/coingaming/sportsbet-design/commit/68329e9))
+
+
+
+
+
 ## [0.44.1](https://github.com/coingaming/sportsbet-design/compare/v0.44.0...v0.44.1) (2019-05-31)
 
 
