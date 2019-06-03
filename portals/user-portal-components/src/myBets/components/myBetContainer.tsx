@@ -210,7 +210,7 @@ export const MyBetHeaderCaptionDate = styled.span({
 export const MyBetHeaderCaptionMatchName = styled.span();
 
 export const MyBetContents = styled.div({
-  padding: `${spacing('medium')} 0 ${spacing()} ${spacing()}`,
+  padding: `${spacing()} 0 ${spacing()} ${spacing()}`,
 });
 
 export const MyBetCaptions = styled.div({
