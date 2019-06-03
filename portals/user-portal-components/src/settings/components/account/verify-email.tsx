@@ -66,7 +66,7 @@ export const VerifyEmailTextContent = styled.p({
 export const VerifyEmailButtonWrapper = styled.div({
   display: 'flex',
   padding: spacing('small'),
-  background: colors.neutral[80],
+  background: colors.neutral[90],
   borderRadius: border.radius.largest,
   marginTop: spacing('large'),
   [mq(breakpoints.medium)]: {
