@@ -4,7 +4,7 @@ import { jsx } from '@emotion/core';
 
 import rem from 'polished/lib/helpers/rem';
 import { Heading, Select, Switch } from '@heathmont/sportsbet-components';
-import { SettingsNav } from './dumb-components/header';
+import { SettingsNav } from './dumb-components/navigation';
 import {
   SettingsBlock,
   SettingsSection,

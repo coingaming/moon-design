@@ -5,15 +5,16 @@ import {
   CloseButton,
 } from '@heathmont/sportsbet-user-portal-components';
 
-export const CashierNav = () => (
+export const SettingsNav = () => (
   <Tab>
-    <TabItem active to={'/cashier'}>
-      Wallet
-    </TabItem>
+    <TabItem to={'/cashier'}>Wallet</TabItem>
     <TabItem to={'/my-bets'}>My bets</TabItem>
     <TabItem to={'/account'}>Account</TabItem>
     <TabItem to={'/notifications'}>Notifications</TabItem>
-    <TabItem to={'/settings'}>Settings</TabItem>
+    <TabItem active to={'/settings'}>
+      Settings
+    </TabItem>
+    <TabItem to={'/rewards'}>Rewards</TabItem>
     <TabItem to={'#'} rightAligned>
       Log out
     </TabItem>

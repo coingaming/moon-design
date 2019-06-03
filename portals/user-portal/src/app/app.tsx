@@ -7,6 +7,7 @@ import { DepositViewBTC } from './cashier/views/deposit/view-btc';
 import { AccountView } from './settings/views/account/view';
 import { SettingsView } from './settings/views/settings/view';
 import { NotificationsView } from './settings/views/notifications/view';
+import { RewardsView } from './cashier/views/rewards/view';
 
 export const AppRoutes = () => (
   <Switch>
@@ -18,6 +19,7 @@ export const AppRoutes = () => (
     <Route path="/account" exact={true} component={AccountView} />
     <Route path="/settings" exact={true} component={SettingsView} />
     <Route path="/notifications" exact={true} component={NotificationsView} />
+    <Route path="/rewards" exact={true} component={RewardsView} />
   </Switch>
 );
 
