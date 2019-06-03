@@ -42,7 +42,7 @@ const button: CSSObject = {
   borderStyle: border.style,
   borderWidth: border.width,
   borderColor: 'transparent',
-  borderRadius: border.radius.small,
+  borderRadius: border.radius.largest,
   ...disabled(),
 };
 
@@ -51,12 +51,10 @@ const button: CSSObject = {
  */
 const StyledButton: React.FC<ButtonProps> = styled('button', {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})(({ modifier, outline, uppercase, round, fullWidth }) => [
+})(({ modifier, uppercase, round, fullWidth }) => [
   button,
   modifier && buttonModifiers[modifier],
-  outline && outlineModifiers[modifier],
   uppercase && { textTransform: 'uppercase' },
-  round && { borderRadius: rem(100) },
   fullWidth && { width: '100%' },
 ]);
 
