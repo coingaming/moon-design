@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.47.0](https://github.com/coingaming/sportsbet-design/compare/v0.46.0...v0.47.0) (2019-06-04)
+
+
+### Bug Fixes
+
+* **button:** oops button hover ([9a7cf64](https://github.com/coingaming/sportsbet-design/commit/9a7cf64))
+* **colors:** duplicat colors.neutral[80] color was changed everywhere ([d9d6e28](https://github.com/coingaming/sportsbet-design/commit/d9d6e28))
+
+
+### Features
+
+* **button:** border.radius.largest by default ([295c2c8](https://github.com/coingaming/sportsbet-design/commit/295c2c8))
+* **button:** button succes & oops states ([441bf01](https://github.com/coingaming/sportsbet-design/commit/441bf01))
+* **button:** introduce sizes ([b8b43e9](https://github.com/coingaming/sportsbet-design/commit/b8b43e9))
+* **Loader:** introduce loader ([5711dca](https://github.com/coingaming/sportsbet-design/commit/5711dca))
+
+
+
+
+
 # [0.46.0](https://github.com/coingaming/sportsbet-design/compare/v0.45.0...v0.46.0) (2019-06-03)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
