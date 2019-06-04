@@ -6,7 +6,7 @@ const cardColors = {
   dark: '#1e1e1e',
   light: '#8f8f8f',
   mid: '#3a3a3a',
-  background: colors.neutral[80],
+  background: colors.neutral[90],
   transparent: 'rgba(0, 0, 0, 0)',
 };
 
