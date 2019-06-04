@@ -7,7 +7,8 @@ import { DepositViewBTC } from './cashier/views/deposit/view-btc';
 import { AccountView } from './settings/views/account/view';
 import { SettingsView } from './settings/views/settings/view';
 import { NotificationsView } from './settings/views/notifications/view';
-import { RewardsView } from './cashier/views/rewards/view';
+import { PriceBoostsView } from './cashier/views/rewards/price-boosts/view';
+import { FreeBetsView } from './cashier/views/rewards/free-bets/view';
 
 export const AppRoutes = () => (
   <Switch>
@@ -19,7 +20,12 @@ export const AppRoutes = () => (
     <Route path="/account" exact={true} component={AccountView} />
     <Route path="/settings" exact={true} component={SettingsView} />
     <Route path="/notifications" exact={true} component={NotificationsView} />
-    <Route path="/rewards" exact={true} component={RewardsView} />
+    <Route
+      path="/bonuses/price-boosts"
+      exact={true}
+      component={PriceBoostsView}
+    />
+    <Route path="/bonuses/free-bets" exact={true} component={FreeBetsView} />
   </Switch>
 );
 
