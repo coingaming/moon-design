@@ -57,7 +57,7 @@ const StyledButton: React.FC<ButtonProps> = styled('button', {
 })(({ modifier, uppercase, fullWidth, size, oops }) => [
   button,
   modifier && buttonModifiers[modifier],
-  size ? buttonSizes[size] : buttonSizes['medium'],
+  size ? buttonSizes[size] : buttonSizes['small'],
   uppercase && { textTransform: 'uppercase' },
   fullWidth && { width: '100%' },
   oops && {
