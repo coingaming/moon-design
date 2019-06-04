@@ -1,13 +1,12 @@
 /** @jsx jsx */
-import { Button } from '@heathmont/sportsbet-components';
 import { default as React } from 'react';
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 jsx;
 
-export const RewardsHeadingContainer = styled.div([
+export const BonusesHeadingContainer = styled.div([
   {
     display: 'flex',
     justifyContent: 'space-between',
@@ -26,7 +25,7 @@ export const RewardsHeadingContainer = styled.div([
   },
 ]);
 
-export const RewardsSubNavigation = styled.div([
+export const BonusesSubNavigation = styled.div([
   {
     marginTop: spacing('medium'),
     display: 'flex',

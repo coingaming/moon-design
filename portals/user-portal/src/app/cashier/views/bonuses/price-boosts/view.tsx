@@ -3,20 +3,18 @@ import { default as React, useState } from 'react';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
-import {
-  CashierHeading,
-  CashierLayout,
-} from '@heathmont/sportsbet-user-portal-components';
 import { RewardsNav } from '../dumb-components/navigation';
 import { Button, Card, Heading } from '@heathmont/sportsbet-components';
 import { IconSoccer } from '@heathmont/sportsbet-icons';
-import { CardCaption, BonusWrapper } from './components';
 import { jsx } from '@emotion/core';
-import {
-  RewardsHeadingContainer,
-  RewardsSubNavigation,
-} from '../dumb-components/rewards-navigation';
 import { NavLink } from 'react-router-dom';
+import {
+  BonusesHeadingContainer,
+  BonusesSubNavigation,
+  BonusWrapper,
+  CardCaption,
+  CashierLayout,
+} from '@heathmont/sportsbet-user-portal-components';
 jsx;
 
 export const PriceBoostsView = () => {
@@ -46,11 +44,11 @@ export const PriceBoostsView = () => {
         <RewardsNav />
       </div>
       <CashierLayout>
-        <RewardsHeadingContainer>
+        <BonusesHeadingContainer>
           <Heading size={'charlie'} as={'h1'}>
             Bonuses
           </Heading>
-          <RewardsSubNavigation>
+          <BonusesSubNavigation>
             <Button modifier="secondary">
               <NavLink to={'free-bets'}>Free bets 1</NavLink>
             </Button>
@@ -60,8 +58,8 @@ export const PriceBoostsView = () => {
             <Button modifier="secondary">
               <NavLink to={'casino'}>Casino 12</NavLink>
             </Button>
-          </RewardsSubNavigation>
-        </RewardsHeadingContainer>
+          </BonusesSubNavigation>
+        </BonusesHeadingContainer>
         <BonusWrapper>
           {cards.map((card, i) => (
             <Card
