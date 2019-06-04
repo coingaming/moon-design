@@ -8,7 +8,7 @@ import { base, colors, typography } from '@heathmont/sportsbet-tokens';
  */
 export const page: CSSObject = {
   html: {
-    backgroundColor: colors.neutral[80],
+    backgroundColor: colors.neutral[90],
     fontSize: rem(base.spacing),
     lineHeight: base.lineHeight / base.spacing,
     fontFamily: typography.fontFamily,

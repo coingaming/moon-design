@@ -3,7 +3,7 @@ import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
+import { breakpoints, border } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { Input, inputColors, inputSpacing } from '../private/input';
 import { Label, LabelSizing } from '../private/label';
@@ -31,7 +31,7 @@ const SelectInput = styled(Input.withComponent('select'))({
   paddingRight: rem(selectIconOffset),
   backgroundPosition: `right ${rem(selectIconSize)} center`,
   backgroundSize: rem(selectIconSize),
-  borderRadius: rem(100),
+  borderRadius: border.radius.largest,
   '&:hover:enabled, &:focus:enabled': {
     cursor: 'pointer',
   },

@@ -9,6 +9,7 @@ import {
   base,
   typography,
   breakpoints,
+  border,
 } from '@heathmont/sportsbet-tokens';
 jsx;
 
@@ -36,7 +37,7 @@ const SearchContainer = styled.form({
   display: 'inline-flex',
   flex: '1 1 auto',
   alignItems: 'center',
-  borderRadius: rem(100),
+  borderRadius: border.radius.largest,
   overflow: 'hidden',
   backgroundColor: colors.neutral[70],
   color: colors.neutral[20],
