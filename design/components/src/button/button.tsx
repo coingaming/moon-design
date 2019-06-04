@@ -10,7 +10,12 @@ import { IconSuccess } from '@heathmont/sportsbet-icons/lib/svg/IconSuccess';
 
 import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { buttonSizes, ButtonSizes } from './size';
-import { buttonMockStateClass, ButtonMockState } from './states';
+import {
+  buttonMockStateClass,
+  ButtonMockState,
+  buttonHover,
+  buttonActive,
+} from './states';
 import { Loader } from '../loader/loader';
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -63,6 +68,12 @@ const StyledButton: React.FC<ButtonProps> = styled('button', {
   oops && {
     color: colors.neutral[10],
     backgroundColor: colors.error,
+    ...buttonHover({
+      backgroundColor: colors.error,
+    }),
+    ...buttonActive({
+      backgroundColor: colors.error,
+    }),
   },
 ]);
 
