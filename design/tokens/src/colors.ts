@@ -2,6 +2,7 @@ type Colors = {
   brand: string;
   highlight: string;
   secondary: string;
+  optional: string;
   text: string;
   error: string;
   warning: string;
@@ -15,6 +16,9 @@ type Colors = {
     secondary: {
       [key: number]: string;
     };
+    optional: {
+      [key: number]: string;
+    };
   };
   neutral: {
     [key: number]: string;
@@ -24,22 +28,28 @@ type Colors = {
 const colors: Colors = {
   brand: '#0cd664',
   highlight: '#19A9E2',
-  secondary: '#1A212A',
-  text: '#ffffff',
+  secondary: '#31373F',
+  optional: '#010812',
+  text: '#fff',
   error: '#ff4e64',
   warning: '#FFD600',
   alternate: {
     brand: {
-      10: '#0BC15A',
-      20: '#0AAB50',
+      10: '#00E865',
+      20: '#05BF56',
     },
     highlight: {
       10: '#1798CB',
       20: '#1590C0',
     },
     secondary: {
-      10: '#798892',
-      20: '#72808A',
+      10: '#414852',
+      20: '#292F37',
+    },
+    optional: {
+      10: '#292F36',
+      20: '#262B34',
+      30: '#323843',
     },
   },
   neutral: {

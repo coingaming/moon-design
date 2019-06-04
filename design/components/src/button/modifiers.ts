@@ -1,5 +1,5 @@
 import { CSSObject } from '@emotion/core';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, border } from '@heathmont/sportsbet-tokens';
 import { buttonActive, buttonHover } from './states';
 import { spacing } from '@heathmont/sportsbet-utils';
 
@@ -36,7 +36,7 @@ const highlight = {
 };
 
 const secondary: CSSObject = {
-  color: colors.neutral[10],
+  color: colors.neutral[20],
   backgroundColor: colors.neutral[70],
   ...buttonHover({
     color: colors.neutral[10],
@@ -49,7 +49,7 @@ const secondary: CSSObject = {
 const optional: CSSObject = {
   color: colors.neutral[20],
   backgroundColor: colors.neutral[90],
-  border: 'none',
+  border: `${border.width}px solid ${colors.neutral[70]}`,
   ...buttonHover({
     color: colors.neutral[10],
   }),
