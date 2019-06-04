@@ -5,6 +5,7 @@ route: /components/button
 ---
 
 import { Button } from '@heathmont/sportsbet-components';
+import { Loader } from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Button
@@ -28,6 +29,7 @@ To be used where the the button would be the main call to action on the page.
 <Button modifier="primary" disabled >
   Disabled
 </Button>
+<Loader />
 ```
 
 ### Highlight
@@ -87,70 +89,22 @@ To be used where the the button would be a optional call to action.
 </Button>
 ```
 
-## Outline
-
-To be used where the button would be a alternate call to action.
+### Sizes
 
 ```jsx react-live
-<div>
-  <Button modifier="primary" outline>
-    Default
-  </Button>
-  <Button modifier="primary" mockState="hover" outline >
-    Hover
-  </Button>
-  <Button modifier="primary" mockState="active" outline >
-    Focus
-  </Button>
-  <Button modifier="primary" disabled outline >
-    Disabled
-  </Button>
-</div>
-<div>
-  <Button modifier="highlight" outline>
-    Default
-  </Button>
-  <Button modifier="highlight" mockState="hover" outline >
-    Hover
-  </Button>
-  <Button modifier="highlight" mockState="active" outline >
-    Focus
-  </Button>
-  <Button modifier="highlight" disabled outline>
-    Disabled
-  </Button>
-</div>
-<div>
-  <Button modifier="secondary" outline>
-    Default
-  </Button>
-  <Button modifier="secondary" mockState="hover" outline>
-    Hover
-  </Button>
-  <Button modifier="secondary" mockState="active" outline>
-    Focus
-  </Button>
-  <Button modifier="secondary" disabled outline>
-    Disabled
-  </Button>
-</div>
-```
-
-## Round
-
-```jsx react-live
-<Button round modifier="primary" >
-  Round
+<Button modifier="primary" size="xsmall">
+  Xsmall
 </Button>
-<Button round modifier="primary" mockState="hover" >
-  Hover
+<Button modifier="primary" size="small"  >
+  Small
 </Button>
-<Button round modifier="primary" mockState="active" >
-  Focus
+<Button modifier="primary" size="medium"  >
+  Medium
 </Button>
-<Button round modifier="primary" disabled >
-  Disabled
+<Button modifier="primary" size="large"  >
+  Large
 </Button>
+<Loader />
 ```
 
 ## Uppercase

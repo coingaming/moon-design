@@ -17,7 +17,7 @@ export const BtcPaymentLayoutMain = styled.main({
   margin: spacing(),
   [mq(breakpoints.medium)]: {
     margin: 0,
-    backgroundColor: colors.neutral[80],
+    backgroundColor: colors.neutral[90],
     gridArea: 'main',
   },
 });

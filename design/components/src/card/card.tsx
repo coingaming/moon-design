@@ -25,7 +25,7 @@ const card: CSSObject = {
   ...padding(spacing(), spacing('medium')),
   position: 'relative',
   borderRadius: border.radius.default,
-  backgroundColor: colors.neutral[80],
+  backgroundColor: colors.neutral[90],
 };
 
 /* Modifiers */
