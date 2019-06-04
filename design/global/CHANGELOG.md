@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.47.0](https://github.com/coingaming/sportsbet-design/compare/v0.46.0...v0.47.0) (2019-06-04)
+
+
+### Bug Fixes
+
+* **colors:** duplicat colors.neutral[80] color was changed everywhere ([d9d6e28](https://github.com/coingaming/sportsbet-design/commit/d9d6e28))
+
+
+
+
+
 # [0.46.0](https://github.com/coingaming/sportsbet-design/compare/v0.45.0...v0.46.0) (2019-06-03)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
