@@ -121,6 +121,15 @@ export const AccountEditView = () => {
                     <Button round type="submit" modifier="primary">
                       Save Changes
                     </Button>
+                    <Button round type="submit" modifier="primary" progress>
+                      Save Changes
+                    </Button>
+                    <Button round type="submit" modifier="primary" success>
+                      Save Changes
+                    </Button>
+                    <Button round type="submit" modifier="primary" oops>
+                      Save Changes
+                    </Button>
                   </FormItem>
                 </ChangeUserDetailsSaveButton>
               </ChangeUserDetailsContainer>
@@ -152,7 +161,7 @@ export const AccountEditView = () => {
                 </FormItem>
                 <FormItem>
                   <ChangePasswordSaveButton>
-                    <Button fullWidth round modifier="primary">
+                    <Button fullWidth modifier="primary">
                       Save Changes
                     </Button>
                   </ChangePasswordSaveButton>
