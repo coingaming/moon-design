@@ -4,24 +4,24 @@ import { CSSObject, jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import isPropValid from '@emotion/is-prop-valid';
 import rem from 'polished/lib/helpers/rem';
-import { border, typography, base } from '@heathmont/sportsbet-tokens';
+import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
 import { spacing, disabled } from '@heathmont/sportsbet-utils';
 
 import { buttonModifiers, ButtonModifiers } from './modifiers';
-import { outlineModifiers } from './outline';
+import { buttonSizes, ButtonSizes } from './size';
 import { buttonMockStateClass, ButtonMockState } from './states';
+import { Loader } from '../loader/loader';
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  className?: string;
   href?: string;
   modifier: ButtonModifiers;
-  disabled?: boolean;
+  size?: ButtonSizes;
   mockState?: ButtonMockState;
   fullWidth?: boolean;
   uppercase?: boolean;
-  outline?: boolean;
-  round?: boolean;
-  onClick?: () => void;
+  outline?: boolean; // deprecacted
+  round?: boolean; // deprecacted
+  progress?: boolean;
   as?: 'button' | 'a';
 };
 
@@ -51,20 +51,43 @@ const button: CSSObject = {
  */
 const StyledButton: React.FC<ButtonProps> = styled('button', {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})(({ modifier, uppercase, round, fullWidth }) => [
+})(({ modifier, uppercase, fullWidth, size, progress }) => [
   button,
   modifier && buttonModifiers[modifier],
+  size ? buttonSizes[size] : buttonSizes['medium'],
   uppercase && { textTransform: 'uppercase' },
   fullWidth && { width: '100%' },
 ]);
 
-const Button: React.FC<ButtonProps> = ({ children, mockState, ...props }) => {
+const Button: React.FC<ButtonProps> = ({
+  children,
+  mockState,
+  progress,
+  ...props
+}) => {
   return (
     <StyledButton
+      progress={progress}
       className={mockState && buttonMockStateClass(mockState)}
       {...props}
     >
-      {children}
+      {progress ? (
+        <div css={{ position: 'relative' }}>
+          <div css={{ visibility: 'hidden' }}>{children}</div>
+          <div
+            css={{
+              position: 'absolute',
+              left: `calc(50% - ${spacing('small')})`,
+              top: 0,
+              height: spacing(),
+            }}
+          >
+            <Loader color={colors.neutral[10]} />
+          </div>
+        </div>
+      ) : (
+        children
+      )}
     </StyledButton>
   );
 };
