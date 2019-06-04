@@ -3,32 +3,26 @@ import { default as React, useState } from 'react';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
-import {
-  CashierHeading,
-  CashierLayout,
-} from '@heathmont/sportsbet-user-portal-components';
 import { RewardsNav } from '../dumb-components/navigation';
 import {
   Banner,
   BannerToggle,
   Button,
-  Card,
   Heading,
 } from '@heathmont/sportsbet-components';
 import { IconSuccessFlower, IconWarning } from '@heathmont/sportsbet-icons';
 import { jsx } from '@emotion/core';
-import {
-  RewardsHeadingContainer,
-  RewardsSubNavigation,
-} from '../dumb-components/rewards-navigation';
 import { NavLink } from 'react-router-dom';
+import { colors } from '@heathmont/sportsbet-tokens';
 import {
+  BonusesHeadingContainer,
+  BonusesSubNavigation,
+  CashierLayout,
   Freebet,
   FreebetCaption,
   FreebetsIndicator,
   FreebetsWrapper,
-} from './components';
-import { colors } from '@heathmont/sportsbet-tokens';
+} from '@heathmont/sportsbet-user-portal-components';
 jsx;
 
 export const FreeBetsView = () => {
@@ -58,11 +52,11 @@ export const FreeBetsView = () => {
         <RewardsNav />
       </div>
       <CashierLayout>
-        <RewardsHeadingContainer>
+        <BonusesHeadingContainer>
           <Heading size={'charlie'} as={'h1'}>
             Bonuses
           </Heading>
-          <RewardsSubNavigation>
+          <BonusesSubNavigation>
             <Button modifier="primary">
               <NavLink to={'free-bets'}>Free bets 1</NavLink>
             </Button>
@@ -72,8 +66,8 @@ export const FreeBetsView = () => {
             <Button modifier="secondary">
               <NavLink to={'casino'}>Casino 12</NavLink>
             </Button>
-          </RewardsSubNavigation>
-        </RewardsHeadingContainer>
+          </BonusesSubNavigation>
+        </BonusesHeadingContainer>
         <Banner horizontal>
           <div>
             <IconWarning
