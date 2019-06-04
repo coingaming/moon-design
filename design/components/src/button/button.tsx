@@ -1,12 +1,13 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { CSSObject, jsx } from '@emotion/core';
+import { CSSObject, jsx, keyframes } from '@emotion/core';
 import styled from '@emotion/styled';
 import isPropValid from '@emotion/is-prop-valid';
 import rem from 'polished/lib/helpers/rem';
 import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
 import { spacing, disabled } from '@heathmont/sportsbet-utils';
 import { IconSuccess } from '@heathmont/sportsbet-icons/lib/svg/IconSuccess';
+import { IconWarning } from '@heathmont/sportsbet-icons/lib/svg/IconWarning';
 
 import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { buttonSizes, ButtonSizes } from './size';
@@ -57,6 +58,25 @@ const button: CSSObject = {
 /**
  * Component
  */
+
+const shake = keyframes`
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+`;
+
 const StyledButton: React.FC<ButtonProps> = styled('button', {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
 })(({ modifier, uppercase, fullWidth, size, oops }) => [
@@ -66,6 +86,10 @@ const StyledButton: React.FC<ButtonProps> = styled('button', {
   uppercase && { textTransform: 'uppercase' },
   fullWidth && { width: '100%' },
   oops && {
+    animation: `${shake} 0.82s cubic-bezier(.36,.07,.19,.97) both`,
+    transform: 'translate3d(0, 0, 0)',
+    backfaceVisibility: 'hidden',
+    perspective: rem(1000),
     color: colors.neutral[10],
     backgroundColor: colors.error,
     ...buttonHover({
@@ -116,6 +140,23 @@ const Button: React.FC<ButtonProps> = ({
           }}
         >
           <IconSuccess />
+        </div>
+      </div>
+    );
+  }
+  if (oops) {
+    content = (
+      <div css={{ position: 'relative' }}>
+        <div css={{ visibility: 'hidden' }}>{children}</div>
+        <div
+          css={{
+            position: 'absolute',
+            left: `calc(50% - ${spacing('small')})`,
+            top: 0,
+            height: spacing(),
+          }}
+        >
+          <IconWarning />
         </div>
       </div>
     );
