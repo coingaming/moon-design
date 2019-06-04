@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.47.0](https://github.com/coingaming/sportsbet-design/compare/v0.46.0...v0.47.0) (2019-06-04)
+
+
+### Features
+
+* **button:** border.radius.largest by default ([295c2c8](https://github.com/coingaming/sportsbet-design/commit/295c2c8))
+* **Loader:** introduce loader ([5711dca](https://github.com/coingaming/sportsbet-design/commit/5711dca))
+
+
+
+
+
 # [0.46.0](https://github.com/coingaming/sportsbet-design/compare/v0.45.0...v0.46.0) (2019-06-03)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
