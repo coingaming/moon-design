@@ -25,7 +25,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
   width: 100%;
 }
 
@@ -219,7 +219,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
   width: 100%;
 }
 
@@ -356,7 +356,7 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
   width: 100%;
 }
 
@@ -461,7 +461,7 @@ exports[`Banner renders horizontally 1`] = `
   background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
   width: 100%;
 }
 
@@ -610,7 +610,7 @@ exports[`Banner renders vertically by default 1`] = `
   background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
   width: 100%;
 }
 
