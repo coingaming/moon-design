@@ -78,7 +78,7 @@ const ScoreWrapper = styled.span({
 
 const Score = styled.span({
   color: colors.neutral[20],
-  backgroundColor: colors.neutral[80],
+  backgroundColor: colors.neutral[90],
   marginTop: spacing(),
   marginBottom: rem(23),
   display: 'grid',

@@ -106,7 +106,7 @@ exports[`CardBalance renders correctly with badge caption 1`] = `
   padding: 0.2rem 0.5rem;
   text-align: center;
   text-transform: uppercase;
-  border-radius: 6.25rem;
+  border-radius: 100px;
   font-size: 0.625rem;
   line-height: 0.625rem;
   -webkit-letter-spacing: 0.0625rem;

@@ -60,7 +60,7 @@ export const MyBetContainer = styled.details<{}>({
   backgroundColor: colors.secondary,
   '&[open]': {
     Summary: {
-      borderBottom: `${rem(1)} solid ${colors.neutral[80]}`,
+      borderBottom: `${rem(1)} solid ${colors.neutral[90]}`,
       '&::-webkit-details-marker': {
         backgroundImage: inlineSVG(<IconChevronUp color={inputColors.icon} />),
       },
@@ -69,7 +69,7 @@ export const MyBetContainer = styled.details<{}>({
       },
     },
     footer: {
-      borderTop: `${rem(1)} solid ${colors.neutral[80]}`,
+      borderTop: `${rem(1)} solid ${colors.neutral[90]}`,
       display: 'flex',
       [mq(breakpoints.medium)]: {
         display: 'none',
@@ -114,7 +114,7 @@ export const MyBetHeaderContainer = styled.div({
   overflow: 'hidden',
   padding: spacing(),
   boxSizing: 'border-box',
-  borderRight: `${rem(1)} solid ${colors.neutral[80]}`,
+  borderRight: `${rem(1)} solid ${colors.neutral[90]}`,
   [mq(breakpoints.medium)]: {
     border: 'none',
     flexGrow: 0,
