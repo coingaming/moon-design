@@ -12,10 +12,6 @@ import {
 import {
   SettingsText,
   SettingsSection,
-  ResendEmailContainer,
-  ResendEmailInputFormItem,
-  SubmitResendEmailFormItem,
-  ResendEmailText,
   ChangeUserDetailsContainer,
   ChangeUserDetailsColumns,
   ChangeUserDetailsFirstColumn,
@@ -50,34 +46,7 @@ export const AccountEditView = () => {
             </Heading>
           </SummaryAccount>
 
-          <SettingsBlockCollapsibleContents>
-            <Form fullWidth legend="Resend the Email">
-              <ResendEmailContainer>
-                <ResendEmailInputFormItem>
-                  <TextInput label="E-mail address" type="email" required />
-                </ResendEmailInputFormItem>
-
-                <SubmitResendEmailFormItem>
-                  <Button round type="submit" modifier="secondary">
-                    Resend the Email
-                  </Button>
-                </SubmitResendEmailFormItem>
-              </ResendEmailContainer>
-            </Form>
-
-            <ResendEmailText>
-              <SettingsText>
-                We've sent a message to you with a link to activate your
-                account.
-              </SettingsText>
-              <SettingsText>
-                If you don't see an email from us within a few minutes, be sure
-                to check your spam folder.
-              </SettingsText>
-            </ResendEmailText>
-          </SettingsBlockCollapsibleContents>
-
-          <Separator />
+          {/* <Separator /> */}
           <SettingsBlockCollapsibleContents>
             <Form fullWidth legend="Change user details">
               <ChangeUserDetailsContainer>
@@ -118,16 +87,7 @@ export const AccountEditView = () => {
                 </ChangeUserDetailsColumns>
                 <ChangeUserDetailsSaveButton>
                   <FormItem>
-                    <Button round type="submit" modifier="primary">
-                      Save Changes
-                    </Button>
-                    <Button round type="submit" modifier="primary" progress>
-                      Save Changes
-                    </Button>
-                    <Button round type="submit" modifier="primary" success>
-                      Save Changes
-                    </Button>
-                    <Button round type="submit" modifier="primary" oops>
+                    <Button round type="submit" size="large" modifier="primary">
                       Save Changes
                     </Button>
                   </FormItem>
@@ -161,7 +121,7 @@ export const AccountEditView = () => {
                 </FormItem>
                 <FormItem>
                   <ChangePasswordSaveButton>
-                    <Button fullWidth modifier="primary">
+                    <Button size="large" fullWidth modifier="primary">
                       Save Changes
                     </Button>
                   </ChangePasswordSaveButton>
