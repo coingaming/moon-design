@@ -7,8 +7,8 @@ import { DepositViewBTC } from './cashier/views/deposit/view-btc';
 import { AccountView } from './settings/views/account/view';
 import { SettingsView } from './settings/views/settings/view';
 import { NotificationsView } from './settings/views/notifications/view';
-import { PriceBoostsView } from './cashier/views/rewards/price-boosts/view';
-import { FreeBetsView } from './cashier/views/rewards/free-bets/view';
+import { PriceBoostsView } from './cashier/views/bonuses/price-boosts/view';
+import { FreeBetsView } from './cashier/views/bonuses/free-bets/view';
 
 export const AppRoutes = () => (
   <Switch>

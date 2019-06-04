@@ -8,3 +8,6 @@ export * from './views/wallets';
 export * from './btc-payment/btc-payment';
 export * from './btc-payment/grid';
 export * from './side-banner/side-banner';
+export * from './bonuses/bonuses-navigation';
+export * from './bonuses/price-boosts';
+export * from './bonuses/free-bets';
