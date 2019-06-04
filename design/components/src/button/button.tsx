@@ -6,6 +6,7 @@ import isPropValid from '@emotion/is-prop-valid';
 import rem from 'polished/lib/helpers/rem';
 import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
 import { spacing, disabled } from '@heathmont/sportsbet-utils';
+import { IconSuccess } from '@heathmont/sportsbet-icons/lib/svg/IconSuccess';
 
 import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { buttonSizes, ButtonSizes } from './size';
@@ -22,6 +23,8 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   outline?: boolean; // deprecacted
   round?: boolean; // deprecacted
   progress?: boolean;
+  oops?: boolean;
+  success?: boolean;
   as?: 'button' | 'a';
 };
 
@@ -51,43 +54,68 @@ const button: CSSObject = {
  */
 const StyledButton: React.FC<ButtonProps> = styled('button', {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})(({ modifier, uppercase, fullWidth, size, progress }) => [
+})(({ modifier, uppercase, fullWidth, size, oops }) => [
   button,
   modifier && buttonModifiers[modifier],
   size ? buttonSizes[size] : buttonSizes['medium'],
   uppercase && { textTransform: 'uppercase' },
   fullWidth && { width: '100%' },
+  oops && {
+    color: colors.neutral[10],
+    backgroundColor: colors.error,
+  },
 ]);
 
 const Button: React.FC<ButtonProps> = ({
   children,
   mockState,
   progress,
+  oops,
+  success,
   ...props
 }) => {
+  let content = children;
+  if (progress) {
+    content = (
+      <div css={{ position: 'relative' }}>
+        <div css={{ visibility: 'hidden' }}>{children}</div>
+        <div
+          css={{
+            position: 'absolute',
+            left: `calc(50% - ${spacing('small')})`,
+            top: 0,
+            height: spacing(),
+          }}
+        >
+          <Loader color={colors.neutral[10]} />
+        </div>
+      </div>
+    );
+  }
+  if (success) {
+    content = (
+      <div css={{ position: 'relative' }}>
+        <div css={{ visibility: 'hidden' }}>{children}</div>
+        <div
+          css={{
+            position: 'absolute',
+            left: `calc(50% - ${spacing('small')})`,
+            top: 0,
+            height: spacing(),
+          }}
+        >
+          <IconSuccess />
+        </div>
+      </div>
+    );
+  }
   return (
     <StyledButton
-      progress={progress}
+      oops={oops}
       className={mockState && buttonMockStateClass(mockState)}
       {...props}
     >
-      {progress ? (
-        <div css={{ position: 'relative' }}>
-          <div css={{ visibility: 'hidden' }}>{children}</div>
-          <div
-            css={{
-              position: 'absolute',
-              left: `calc(50% - ${spacing('small')})`,
-              top: 0,
-              height: spacing(),
-            }}
-          >
-            <Loader color={colors.neutral[10]} />
-          </div>
-        </div>
-      ) : (
-        children
-      )}
+      {content}
     </StyledButton>
   );
 };
