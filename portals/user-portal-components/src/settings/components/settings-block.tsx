@@ -16,7 +16,7 @@ export const SettingsSection = styled.section({
   // borderStyle: border.style,
   // borderWidth: border.width,
   // borderColor: colors.neutral[50],
-  // backgroundColor: colors.neutral[80],
+  // backgroundColor: colors.neutral[90],
   // '&:last-child': {
   //   borderBottom: 'none',
   // },
