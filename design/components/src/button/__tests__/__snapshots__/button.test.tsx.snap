@@ -16,12 +16,12 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders as acti
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #19A9E2;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #19A9E2;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -40,19 +40,6 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders as acti
 .emotion-0:active,
 .emotion-0:focus {
   background-color: #1590C0;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #19A9E2;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #1798CB;
-  border: 1px solid #1798CB;
 }
 
 <button
@@ -78,12 +65,12 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders with ho
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #19A9E2;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #19A9E2;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -102,19 +89,6 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders with ho
 .emotion-0:active,
 .emotion-0:focus {
   background-color: #1590C0;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #19A9E2;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #1798CB;
-  border: 1px solid #1798CB;
 }
 
 <button
@@ -140,9 +114,12 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders as active 1`] =
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #19A9E2;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -186,9 +163,12 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders with hover 1`] 
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #19A9E2;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -232,10 +212,13 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 1`] = 
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #8697a2;
   background-color: #010812;
-  border: none;
+  border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -279,13 +262,13 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 2`] = 
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #8697a2;
   background-color: #010812;
-  border: none;
-  color: #fff;
-  background-color: transparent;
   border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -304,19 +287,6 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 2`] = 
 .emotion-0:active,
 .emotion-0:focus {
   color: #fff;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #1A212A;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #798892;
-  border: 1px solid #798892;
 }
 
 <button
@@ -342,10 +312,13 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 1`] =
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #8697a2;
   background-color: #010812;
-  border: none;
+  border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -389,13 +362,13 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 2`] =
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #8697a2;
   background-color: #010812;
-  border: none;
-  color: #fff;
-  background-color: transparent;
   border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -414,19 +387,6 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 2`] =
 .emotion-0:active,
 .emotion-0:focus {
   color: #fff;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #1A212A;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #798892;
-  border: 1px solid #798892;
 }
 
 <button
@@ -452,12 +412,12 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders as active
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -468,27 +428,14 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders as active
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #0cd664;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #0BC15A;
-  border: 1px solid #0BC15A;
+  background-color: #05BF56;
 }
 
 <button
@@ -514,12 +461,12 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders with hove
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -530,27 +477,14 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders with hove
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #0cd664;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #0BC15A;
-  border: 1px solid #0BC15A;
+  background-color: #05BF56;
 }
 
 <button
@@ -576,9 +510,12 @@ exports[`Button Modifiers Modifiers MockStates Primary renders as active 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -589,14 +526,14 @@ exports[`Button Modifiers Modifiers MockStates Primary renders as active 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -622,9 +559,12 @@ exports[`Button Modifiers Modifiers MockStates Primary renders with hover 1`] = 
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -635,14 +575,14 @@ exports[`Button Modifiers Modifiers MockStates Primary renders with hover 1`] = 
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -668,9 +608,12 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 1`] =
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 100px;
+  color: #8697a2;
   background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -714,12 +657,12 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] =
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 100px;
+  color: #8697a2;
   background-color: #1A212A;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -738,19 +681,6 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] =
 .emotion-0:active,
 .emotion-0:focus {
   color: #fff;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #1A212A;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #798892;
-  border: 1px solid #798892;
 }
 
 <button
@@ -776,9 +706,12 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 1`] 
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 100px;
+  color: #8697a2;
   background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -822,12 +755,12 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] 
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 100px;
+  color: #8697a2;
   background-color: #1A212A;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -846,19 +779,6 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] 
 .emotion-0:active,
 .emotion-0:focus {
   color: #fff;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #1A212A;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #798892;
-  border: 1px solid #798892;
 }
 
 <button
@@ -884,9 +804,12 @@ exports[`Button Modifiers renders as highlight 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #19A9E2;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -930,10 +853,13 @@ exports[`Button Modifiers renders as optional 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #8697a2;
   background-color: #010812;
-  border: none;
+  border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -977,9 +903,12 @@ exports[`Button Modifiers renders as primary 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -990,14 +919,14 @@ exports[`Button Modifiers renders as primary 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -1023,9 +952,12 @@ exports[`Button Modifiers renders as secondary 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 100px;
+  color: #8697a2;
   background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1069,12 +1001,12 @@ exports[`Button Modifiers renders outline as highlight 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #19A9E2;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #19A9E2;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1093,19 +1025,6 @@ exports[`Button Modifiers renders outline as highlight 1`] = `
 .emotion-0:active,
 .emotion-0:focus {
   background-color: #1590C0;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #19A9E2;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #1798CB;
-  border: 1px solid #1798CB;
 }
 
 <button
@@ -1131,13 +1050,13 @@ exports[`Button Modifiers renders outline as optional 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #8697a2;
   background-color: #010812;
-  border: none;
-  color: #fff;
-  background-color: transparent;
   border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1156,19 +1075,6 @@ exports[`Button Modifiers renders outline as optional 1`] = `
 .emotion-0:active,
 .emotion-0:focus {
   color: #fff;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #1A212A;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #798892;
-  border: 1px solid #798892;
 }
 
 <button
@@ -1194,12 +1100,12 @@ exports[`Button Modifiers renders outline as primary 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1210,27 +1116,14 @@ exports[`Button Modifiers renders outline as primary 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #0cd664;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #0BC15A;
-  border: 1px solid #0BC15A;
+  background-color: #05BF56;
 }
 
 <button
@@ -1256,12 +1149,12 @@ exports[`Button Modifiers renders outline as secondary 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
-  color: #fff;
+  border-radius: 100px;
+  color: #8697a2;
   background-color: #1A212A;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1280,19 +1173,6 @@ exports[`Button Modifiers renders outline as secondary 1`] = `
 .emotion-0:active,
 .emotion-0:focus {
   color: #fff;
-}
-
-.emotion-0.is-hover:not([disabled]),
-.emotion-0:hover:not([disabled]) {
-  background-color: #1A212A;
-}
-
-.emotion-0.is-active,
-.emotion-0.has-focus,
-.emotion-0:active,
-.emotion-0:focus {
-  background-color: #798892;
-  border: 1px solid #798892;
 }
 
 <button
@@ -1318,9 +1198,12 @@ exports[`Button renders as an anchor tag 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1331,14 +1214,14 @@ exports[`Button renders as an anchor tag 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <a
@@ -1365,9 +1248,12 @@ exports[`Button renders as disabled 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1378,14 +1264,14 @@ exports[`Button renders as disabled 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -1412,9 +1298,12 @@ exports[`Button renders as fullWidth 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
   width: 100%;
 }
 
@@ -1426,14 +1315,14 @@ exports[`Button renders as fullWidth 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -1459,9 +1348,12 @@ exports[`Button renders correctly 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
 }
 
 .emotion-0:disabled,
@@ -1472,14 +1364,14 @@ exports[`Button renders correctly 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -1505,11 +1397,13 @@ exports[`Button renders rounded 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
   text-transform: uppercase;
-  border-radius: 6.25rem;
 }
 
 .emotion-0:disabled,
@@ -1520,14 +1414,14 @@ exports[`Button renders rounded 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
@@ -1553,9 +1447,12 @@ exports[`Button renders uppercased 1`] = `
   border-style: solid;
   border-width: 1px;
   border-color: transparent;
-  border-radius: 4px;
+  border-radius: 100px;
   color: #fff;
   background-color: #0cd664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.75rem 2rem;
   text-transform: uppercase;
 }
 
@@ -1567,14 +1464,14 @@ exports[`Button renders uppercased 1`] = `
 
 .emotion-0.is-hover:not([disabled]),
 .emotion-0:hover:not([disabled]) {
-  background-color: #0BC15A;
+  background-color: #00E865;
 }
 
 .emotion-0.is-active,
 .emotion-0.has-focus,
 .emotion-0:active,
 .emotion-0:focus {
-  background-color: #0AAB50;
+  background-color: #05BF56;
 }
 
 <button
