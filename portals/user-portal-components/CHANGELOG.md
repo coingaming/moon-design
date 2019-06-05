@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
+
+
+### Bug Fixes
+
+* **account:** minor design adjustments ([30c8a5a](https://github.com/coingaming/sportsbet-design/commit/30c8a5a))
+
+
+### Features
+
+* **account:** account page fixes ([cc819c6](https://github.com/coingaming/sportsbet-design/commit/cc819c6))
+
+
+
+
+
 # [0.48.0](https://github.com/coingaming/sportsbet-design/compare/v0.47.0...v0.48.0) (2019-06-04)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
