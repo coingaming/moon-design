@@ -1,7 +1,5 @@
 /** @jsx jsx */
 import { default as React, useState } from 'react';
-import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
-import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
 import { RewardsNav } from '../dumb-components/navigation';
 import {
@@ -23,6 +21,8 @@ import {
   FreebetsIndicator,
   FreebetsWrapper,
 } from '@heathmont/sportsbet-user-portal-components';
+import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
+import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 jsx;
 
 export const FreeBetsView = () => {

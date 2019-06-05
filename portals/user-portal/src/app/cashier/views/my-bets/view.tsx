@@ -16,8 +16,8 @@ import { DummyFootballScoreboard } from './components/Scoreboards/Football/Footb
 import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
 import { MyBetsNav } from './dumb-components/navigation';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
-import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { Badge, Button } from '@heathmont/sportsbet-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { IconHyperlink } from '@heathmont/sportsbet-icons';
