@@ -5,6 +5,8 @@ import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq, inlineSVG } from '@heathmont/sportsbet-utils';
 import { Background1 } from '@heathmont/sportsbet-icons/lib/backgrounds/Background1';
 
+// Components below are deprecated
+
 export const VerifyEmailContainer = styled.div({
   marginTop: rem(40),
   display: 'flex',
@@ -73,4 +75,72 @@ export const VerifyEmailButtonWrapper = styled.div({
     marginLeft: 'auto',
     marginTop: 0,
   },
+});
+
+// End of Deprecated Components
+
+export const VerifyEmailDescription = styled.p({
+  color: colors.neutral[20],
+  margin: spacing(),
+});
+
+export const VerifyEmailUploadFormContainer = styled.div({
+  backgroundColor: colors.neutral[70],
+  width: `calc(100% - ${spacing()} - ${spacing()})`,
+  padding: spacing(),
+  marginTop: spacing('large'),
+});
+
+export const VerifyEmailUploadFormItem = styled.div({
+  display: 'flex',
+  flexDirection: 'column',
+  marginTop: spacing('medium'),
+  [mq(breakpoints.medium)]: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+});
+
+export const VerifyEmailUploadIDDescription = styled.p({
+  maxWidth: rem(270),
+  color: colors.neutral[20],
+  [mq(breakpoints.medium)]: {
+    marginLeft: spacing('large'),
+  },
+});
+
+export const VerifyEmailUploadSeparator = styled.div({
+  marginTop: spacing('medium'),
+  width: '100%',
+  height: `${border.width}px`,
+  backgroundColor: colors.neutral[60],
+});
+
+export const VerifyEmailUploadProofDescription = styled.p({
+  maxWidth: rem(400),
+  color: colors.neutral[20],
+  [mq(breakpoints.medium)]: {
+    marginLeft: spacing('large'),
+  },
+});
+
+export const VerifyEmailSupportedFormats = styled.p({
+  margin: spacing(),
+  fontSize: rem(12),
+  color: colors.neutral[20],
+});
+
+export const VerifyEmailExplanationContainer = styled.div({
+  padding: spacing(),
+});
+
+export const VerifyEmailExplanationHeader = styled.p({
+  marginTop: spacing('large'),
+  fontSize: rem(20),
+});
+
+export const VerifyEmailExplanationCaption = styled.p({
+  color: colors.neutral[20],
+  fontSize: rem(16),
+  lineHeight: rem(30),
 });

@@ -39,6 +39,7 @@ const FileInputLabel = styled.span({
 
 const FileInputElement = styled(Input.withComponent('label'))(({ error }) => [
   {
+    width: 'auto',
     position: 'relative',
     display: 'block',
     color: inputColors.label,
