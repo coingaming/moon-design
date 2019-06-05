@@ -14,8 +14,8 @@ import {
   CashierHeading,
 } from '@heathmont/sportsbet-user-portal-components';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
-import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 jsx;
 
 export const NotificationsView = () => {
