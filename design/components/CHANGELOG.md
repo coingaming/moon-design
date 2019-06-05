@@ -5,462 +5,269 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
 
-
 ### Bug Fixes
 
-* **FileInput:** fix width ([69bba47](https://github.com/coingaming/sportsbet-design/commit/69bba47))
-
-
-
-
+- **FileInput:** fix width ([69bba47](https://github.com/coingaming/sportsbet-design/commit/69bba47))
 
 # [0.48.0](https://github.com/coingaming/sportsbet-design/compare/v0.47.0...v0.48.0) (2019-06-04)
 
-
 ### Features
 
-* **button:** button ([3a45499](https://github.com/coingaming/sportsbet-design/commit/3a45499))
-
-
-
-
+- **button:** button ([3a45499](https://github.com/coingaming/sportsbet-design/commit/3a45499))
 
 # [0.47.0](https://github.com/coingaming/sportsbet-design/compare/v0.46.0...v0.47.0) (2019-06-04)
 
-
 ### Bug Fixes
 
-* **button:** oops button hover ([9a7cf64](https://github.com/coingaming/sportsbet-design/commit/9a7cf64))
-* **colors:** duplicat colors.neutral[80] color was changed everywhere ([d9d6e28](https://github.com/coingaming/sportsbet-design/commit/d9d6e28))
-
+- **button:** oops button hover ([9a7cf64](https://github.com/coingaming/sportsbet-design/commit/9a7cf64))
+- **colors:** duplicat colors.neutral[80] color was changed everywhere ([d9d6e28](https://github.com/coingaming/sportsbet-design/commit/d9d6e28))
 
 ### Features
 
-* **button:** border.radius.largest by default ([295c2c8](https://github.com/coingaming/sportsbet-design/commit/295c2c8))
-* **button:** button succes & oops states ([441bf01](https://github.com/coingaming/sportsbet-design/commit/441bf01))
-* **button:** introduce sizes ([b8b43e9](https://github.com/coingaming/sportsbet-design/commit/b8b43e9))
-* **Loader:** introduce loader ([5711dca](https://github.com/coingaming/sportsbet-design/commit/5711dca))
-
-
-
-
+- **button:** border.radius.largest by default ([295c2c8](https://github.com/coingaming/sportsbet-design/commit/295c2c8))
+- **button:** button succes & oops states ([441bf01](https://github.com/coingaming/sportsbet-design/commit/441bf01))
+- **button:** introduce sizes ([b8b43e9](https://github.com/coingaming/sportsbet-design/commit/b8b43e9))
+- **Loader:** introduce loader ([5711dca](https://github.com/coingaming/sportsbet-design/commit/5711dca))
 
 # [0.46.0](https://github.com/coingaming/sportsbet-design/compare/v0.45.0...v0.46.0) (2019-06-03)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.45.0](https://github.com/coingaming/sportsbet-design/compare/v0.44.1...v0.45.0) (2019-06-02)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.44.0](https://github.com/coingaming/sportsbet-design/compare/v0.43.0...v0.44.0) (2019-05-31)
-
 
 ### Bug Fixes
 
-* **design:** removed to from card balance ([af0ccbd](https://github.com/coingaming/sportsbet-design/commit/af0ccbd))
-* **FileInput:** fix label ([4884ee9](https://github.com/coingaming/sportsbet-design/commit/4884ee9))
-* **Select:** left padding for select placeholder ([c104b8a](https://github.com/coingaming/sportsbet-design/commit/c104b8a))
-* **TextInput:** fix the colors & font-size ([05b57ba](https://github.com/coingaming/sportsbet-design/commit/05b57ba))
-
-
-
-
+- **design:** removed to from card balance ([af0ccbd](https://github.com/coingaming/sportsbet-design/commit/af0ccbd))
+- **FileInput:** fix label ([4884ee9](https://github.com/coingaming/sportsbet-design/commit/4884ee9))
+- **Select:** left padding for select placeholder ([c104b8a](https://github.com/coingaming/sportsbet-design/commit/c104b8a))
+- **TextInput:** fix the colors & font-size ([05b57ba](https://github.com/coingaming/sportsbet-design/commit/05b57ba))
 
 # [0.43.0](https://github.com/coingaming/sportsbet-design/compare/v0.42.0...v0.43.0) (2019-05-31)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.42.0](https://github.com/coingaming/sportsbet-design/compare/v0.41.0...v0.42.0) (2019-05-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
-
-
-
-
 
 # [0.41.0](https://github.com/coingaming/sportsbet-design/compare/v0.40.0...v0.41.0) (2019-05-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.40.0](https://github.com/coingaming/sportsbet-design/compare/v0.39.0...v0.40.0) (2019-05-28)
-
 
 ### Bug Fixes
 
-* **switch:** fix width & height ([cfc8456](https://github.com/coingaming/sportsbet-design/commit/cfc8456))
-* **tokens:** fontweight fix ([a7771c7](https://github.com/coingaming/sportsbet-design/commit/a7771c7))
-
+- **switch:** fix width & height ([cfc8456](https://github.com/coingaming/sportsbet-design/commit/cfc8456))
+- **tokens:** fontweight fix ([a7771c7](https://github.com/coingaming/sportsbet-design/commit/a7771c7))
 
 ### Features
 
-* **input:** change imput border color & select background color ([a48a84d](https://github.com/coingaming/sportsbet-design/commit/a48a84d))
-
-
-
-
+- **input:** change imput border color & select background color ([a48a84d](https://github.com/coingaming/sportsbet-design/commit/a48a84d))
 
 # [0.39.0](https://github.com/coingaming/sportsbet-design/compare/v0.38.2...v0.39.0) (2019-05-27)
 
-
 ### Bug Fixes
 
-* **button, link:** strict "as" prop type ([1b1eaf0](https://github.com/coingaming/sportsbet-design/commit/1b1eaf0))
-* **heading:** use "as" everywhere instead of "element" ([cb38e60](https://github.com/coingaming/sportsbet-design/commit/cb38e60))
-
+- **button, link:** strict "as" prop type ([1b1eaf0](https://github.com/coingaming/sportsbet-design/commit/1b1eaf0))
+- **heading:** use "as" everywhere instead of "element" ([cb38e60](https://github.com/coingaming/sportsbet-design/commit/cb38e60))
 
 ### Features
 
-* **button:** use emotion 'as' prop ([0112eb1](https://github.com/coingaming/sportsbet-design/commit/0112eb1))
-* **heading:** use emotion "as" prop ([ceae5a6](https://github.com/coingaming/sportsbet-design/commit/ceae5a6))
-* **link:** use emotion 'as' prop ([91a6585](https://github.com/coingaming/sportsbet-design/commit/91a6585))
-
-
-
-
+- **button:** use emotion 'as' prop ([0112eb1](https://github.com/coingaming/sportsbet-design/commit/0112eb1))
+- **heading:** use emotion "as" prop ([ceae5a6](https://github.com/coingaming/sportsbet-design/commit/ceae5a6))
+- **link:** use emotion 'as' prop ([91a6585](https://github.com/coingaming/sportsbet-design/commit/91a6585))
 
 ## [0.38.2](https://github.com/coingaming/sportsbet-design/compare/v0.38.1...v0.38.2) (2019-05-23)
 
-
 ### Bug Fixes
 
-* **button:** fix button props ([6f1a927](https://github.com/coingaming/sportsbet-design/commit/6f1a927))
-
-
-
-
+- **button:** fix button props ([6f1a927](https://github.com/coingaming/sportsbet-design/commit/6f1a927))
 
 # [0.38.0](https://github.com/coingaming/sportsbet-design/compare/v0.37.1...v0.38.0) (2019-05-17)
 
-
 ### Features
 
-* **switcher:** introduce switcher component ([3659b5b](https://github.com/coingaming/sportsbet-design/commit/3659b5b))
-
-
-
-
+- **switcher:** introduce switcher component ([3659b5b](https://github.com/coingaming/sportsbet-design/commit/3659b5b))
 
 # [0.37.0](https://github.com/coingaming/sportsbet-design/compare/v0.36.0...v0.37.0) (2019-05-17)
 
-
 ### Features
 
-* **nav:** fake login logic ([b8d2f80](https://github.com/coingaming/sportsbet-design/commit/b8d2f80))
-
-
-
-
+- **nav:** fake login logic ([b8d2f80](https://github.com/coingaming/sportsbet-design/commit/b8d2f80))
 
 # [0.36.0](https://github.com/coingaming/sportsbet-design/compare/v0.35.2...v0.36.0) (2019-05-16)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.35.2](https://github.com/coingaming/sportsbet-design/compare/v0.35.1...v0.35.2) (2019-05-14)
-
 
 ### Bug Fixes
 
-* **nav:** details select fix ([565171d](https://github.com/coingaming/sportsbet-design/commit/565171d))
-
-
-
-
+- **nav:** details select fix ([565171d](https://github.com/coingaming/sportsbet-design/commit/565171d))
 
 ## [0.35.1](https://github.com/coingaming/sportsbet-design/compare/v0.35.0...v0.35.1) (2019-05-14)
 
-
 ### Bug Fixes
 
-* **Select:** add React props ([e246fcb](https://github.com/coingaming/sportsbet-design/commit/e246fcb))
-
-
-
-
+- **Select:** add React props ([e246fcb](https://github.com/coingaming/sportsbet-design/commit/e246fcb))
 
 # [0.35.0](https://github.com/coingaming/sportsbet-design/compare/v0.34.2...v0.35.0) (2019-05-13)
 
-
 ### Bug Fixes
 
-* **checkbox:** checkbox props type ([a2f2af9](https://github.com/coingaming/sportsbet-design/commit/a2f2af9))
-* **nav:** nav details adjusments ([95c8682](https://github.com/coingaming/sportsbet-design/commit/95c8682))
-
+- **checkbox:** checkbox props type ([a2f2af9](https://github.com/coingaming/sportsbet-design/commit/a2f2af9))
+- **nav:** nav details adjusments ([95c8682](https://github.com/coingaming/sportsbet-design/commit/95c8682))
 
 ### Features
 
-* **nav:** details design ([4e3ca35](https://github.com/coingaming/sportsbet-design/commit/4e3ca35))
-
-
-
-
+- **nav:** details design ([4e3ca35](https://github.com/coingaming/sportsbet-design/commit/4e3ca35))
 
 # [0.34.0](https://github.com/coingaming/sportsbet-design/compare/v0.33.0...v0.34.0) (2019-05-08)
 
-
 ### Features
 
-* **buttons:** buttons style ([d542a10](https://github.com/coingaming/sportsbet-design/commit/d542a10))
-
-
-
-
+- **buttons:** buttons style ([d542a10](https://github.com/coingaming/sportsbet-design/commit/d542a10))
 
 # [0.33.0](https://github.com/coingaming/sportsbet-design/compare/v0.32.0...v0.33.0) (2019-05-08)
 
-
 ### Features
 
-* **button:** optional button ([e0c48b0](https://github.com/coingaming/sportsbet-design/commit/e0c48b0))
-* **card:** add badge to card ([714c34a](https://github.com/coingaming/sportsbet-design/commit/714c34a))
-* **card:** currency background icons ([87dcd8f](https://github.com/coingaming/sportsbet-design/commit/87dcd8f))
-
-
-
-
+- **button:** optional button ([e0c48b0](https://github.com/coingaming/sportsbet-design/commit/e0c48b0))
+- **card:** add badge to card ([714c34a](https://github.com/coingaming/sportsbet-design/commit/714c34a))
+- **card:** currency background icons ([87dcd8f](https://github.com/coingaming/sportsbet-design/commit/87dcd8f))
 
 # [0.32.0](https://github.com/coingaming/sportsbet-design/compare/v0.31.0...v0.32.0) (2019-05-07)
 
-
 ### Features
 
-* **badge:** introduce badge component ([0dbb4dd](https://github.com/coingaming/sportsbet-design/commit/0dbb4dd))
-* **button:** rounded button was introduced ([5d3e2e9](https://github.com/coingaming/sportsbet-design/commit/5d3e2e9))
-
-
-
-
+- **badge:** introduce badge component ([0dbb4dd](https://github.com/coingaming/sportsbet-design/commit/0dbb4dd))
+- **button:** rounded button was introduced ([5d3e2e9](https://github.com/coingaming/sportsbet-design/commit/5d3e2e9))
 
 # [0.31.0](https://github.com/coingaming/sportsbet-design/compare/v0.30.0...v0.31.0) (2019-05-06)
 
-
 ### Bug Fixes
 
-* **header, link:** fix test ([49764fc](https://github.com/coingaming/sportsbet-design/commit/49764fc))
-
+- **header, link:** fix test ([49764fc](https://github.com/coingaming/sportsbet-design/commit/49764fc))
 
 ### Features
 
-* **Account-initial:** Initial commit, verifying approach legitimacy ([dfa4945](https://github.com/coingaming/sportsbet-design/commit/dfa4945))
-* **link:** secondary link ([ace9248](https://github.com/coingaming/sportsbet-design/commit/ace9248))
-
-
-
-
+- **Account-initial:** Initial commit, verifying approach legitimacy ([dfa4945](https://github.com/coingaming/sportsbet-design/commit/dfa4945))
+- **link:** secondary link ([ace9248](https://github.com/coingaming/sportsbet-design/commit/ace9248))
 
 # [0.30.0](https://github.com/coingaming/sportsbet-design/compare/v0.29.0...v0.30.0) (2019-04-17)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.29.0](https://github.com/coingaming/sportsbet-design/compare/v0.28.1...v0.29.0) (2019-04-17)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
-
-
-
-
 
 # [0.28.0](https://github.com/coingaming/sportsbet-design/compare/v0.27.0...v0.28.0) (2019-04-16)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.27.0](https://github.com/coingaming/sportsbet-design/compare/v0.26.0...v0.27.0) (2019-04-16)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
-
-
-
-
 
 # [0.26.0](https://github.com/coingaming/sportsbet-design/compare/v0.25.1...v0.26.0) (2019-04-16)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.25.0](https://github.com/coingaming/sportsbet-design/compare/v0.24.0...v0.25.0) (2019-04-09)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.24.0](https://github.com/coingaming/sportsbet-design/compare/v0.23.0...v0.24.0) (2019-04-08)
-
 
 ### Bug Fixes
 
-* **tokens:** fix neutral 70 color ([3c9ff62](https://github.com/coingaming/sportsbet-design/commit/3c9ff62))
-
+- **tokens:** fix neutral 70 color ([3c9ff62](https://github.com/coingaming/sportsbet-design/commit/3c9ff62))
 
 ### Features
 
-* **icons:** circle fill color implementation ([a2b3658](https://github.com/coingaming/sportsbet-design/commit/a2b3658))
-
-
-
-
+- **icons:** circle fill color implementation ([a2b3658](https://github.com/coingaming/sportsbet-design/commit/a2b3658))
 
 # [0.23.0](https://github.com/coingaming/sportsbet-design/compare/v0.22.0...v0.23.0) (2019-04-02)
 
-
 ### Features
 
-* **button:** introduce outline prop ([80159b4](https://github.com/coingaming/sportsbet-design/commit/80159b4))
-* **button:** introduce uppercase prop ([24876fe](https://github.com/coingaming/sportsbet-design/commit/24876fe))
-* introduce disabled util, opacity token & test fixes ([a26f9c9](https://github.com/coingaming/sportsbet-design/commit/a26f9c9))
-* **button:** button updates regarging to design ([67755e1](https://github.com/coingaming/sportsbet-design/commit/67755e1))
-* **button:** remove spacing prop ([fdf1f8a](https://github.com/coingaming/sportsbet-design/commit/fdf1f8a))
-
-
-
-
+- **button:** introduce outline prop ([80159b4](https://github.com/coingaming/sportsbet-design/commit/80159b4))
+- **button:** introduce uppercase prop ([24876fe](https://github.com/coingaming/sportsbet-design/commit/24876fe))
+- introduce disabled util, opacity token & test fixes ([a26f9c9](https://github.com/coingaming/sportsbet-design/commit/a26f9c9))
+- **button:** button updates regarging to design ([67755e1](https://github.com/coingaming/sportsbet-design/commit/67755e1))
+- **button:** remove spacing prop ([fdf1f8a](https://github.com/coingaming/sportsbet-design/commit/fdf1f8a))
 
 # [0.22.0](https://github.com/coingaming/sportsbet-design/compare/v0.21.1...v0.22.0) (2019-03-29)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.21.0](https://github.com/coingaming/sportsbet-design/compare/v0.20.0...v0.21.0) (2019-03-29)
-
 
 ### Bug Fixes
 
-* **wallets:** details margins ([fec9c3f](https://github.com/coingaming/sportsbet-design/commit/fec9c3f))
-
+- **wallets:** details margins ([fec9c3f](https://github.com/coingaming/sportsbet-design/commit/fec9c3f))
 
 ### Features
 
-* **wallets:** load more functionality ([b80bc3e](https://github.com/coingaming/sportsbet-design/commit/b80bc3e))
-
-
-
-
+- **wallets:** load more functionality ([b80bc3e](https://github.com/coingaming/sportsbet-design/commit/b80bc3e))
 
 # [0.20.0](https://github.com/coingaming/sportsbet-design/compare/v0.19.0...v0.20.0) (2019-03-28)
 
-
 ### Bug Fixes
 
-* **wallets:** fix margins ([93cc045](https://github.com/coingaming/sportsbet-design/commit/93cc045))
-
+- **wallets:** fix margins ([93cc045](https://github.com/coingaming/sportsbet-design/commit/93cc045))
 
 ### Features
 
-* **wallets:** wallets toggling ([15dabd4](https://github.com/coingaming/sportsbet-design/commit/15dabd4))
-
-
-
-
+- **wallets:** wallets toggling ([15dabd4](https://github.com/coingaming/sportsbet-design/commit/15dabd4))
 
 # [0.19.0](https://github.com/coingaming/sportsbet-design/compare/v0.18.0...v0.19.0) (2019-03-26)
 
-
 ### Bug Fixes
 
-* **card:** gradient fix for safari ([277eefc](https://github.com/coingaming/sportsbet-design/commit/277eefc))
-
+- **card:** gradient fix for safari ([277eefc](https://github.com/coingaming/sportsbet-design/commit/277eefc))
 
 ### Features
 
-* **account:** account view ([0aca861](https://github.com/coingaming/sportsbet-design/commit/0aca861))
-* **checkbox:** hidden label for checkbox ([6c4b08e](https://github.com/coingaming/sportsbet-design/commit/6c4b08e))
-
-
-
-
+- **account:** account view ([0aca861](https://github.com/coingaming/sportsbet-design/commit/0aca861))
+- **checkbox:** hidden label for checkbox ([6c4b08e](https://github.com/coingaming/sportsbet-design/commit/6c4b08e))
 
 # [0.18.0](https://github.com/coingaming/sportsbet-design/compare/v0.17.0...v0.18.0) (2019-03-22)
 
-
 ### Features
 
-* **assets:** update neutral 90 color ([a4f3ee9](https://github.com/coingaming/sportsbet-design/commit/a4f3ee9))
-
-
-
-
+- **assets:** update neutral 90 color ([a4f3ee9](https://github.com/coingaming/sportsbet-design/commit/a4f3ee9))
 
 # [0.17.0](https://github.com/coingaming/sportsbet-design/compare/v0.16.6...v0.17.0) (2019-03-19)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.16.0](https://github.com/coingaming/sportsbet-design/compare/v0.15.0...v0.16.0) (2019-03-15)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.15.0](https://github.com/coingaming/sportsbet-design/compare/v0.14.0...v0.15.0) (2019-03-15)
-
 
 ### Features
 
-* **card:** add backgroundIcon support ([c24c4ce](https://github.com/coingaming/sportsbet-design/commit/c24c4ce))
-* **icons:** add euro and bitcoin ([b6ad4c2](https://github.com/coingaming/sportsbet-design/commit/b6ad4c2))
-
-
-
-
+- **card:** add backgroundIcon support ([c24c4ce](https://github.com/coingaming/sportsbet-design/commit/c24c4ce))
+- **icons:** add euro and bitcoin ([b6ad4c2](https://github.com/coingaming/sportsbet-design/commit/b6ad4c2))
 
 # [0.14.0](https://github.com/coingaming/sportsbet-design/compare/v0.13.0...v0.14.0) (2019-03-15)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.13.0](https://github.com/coingaming/sportsbet-design/compare/v0.12.0...v0.13.0) (2019-03-14)
-
 
 ### Features
 
-* **tooltip:** added closeable functionality to tooltip ([04c1433](https://github.com/coingaming/sportsbet-design/commit/04c1433))
-
-
-
-
+- **tooltip:** added closeable functionality to tooltip ([04c1433](https://github.com/coingaming/sportsbet-design/commit/04c1433))
 
 # [0.12.0](https://github.com/coingaming/sportsbet-design/compare/v0.11.0...v0.12.0) (2019-03-11)
 
