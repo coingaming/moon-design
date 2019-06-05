@@ -95,7 +95,8 @@ export const FreeBetsView = () => {
                   you can make a withdrawal.
                 </FreebetCaption>
                 <FreebetsIndicator>
-                  Used <IconSuccessFlower />
+                  Used
+                  <IconSuccessFlower color={colors.text} />
                 </FreebetsIndicator>
                 <div>
                   <Button disabled modifier="secondary">
