@@ -29,7 +29,6 @@ import {
   MyBetContainerHeaderBetDetails,
   MyBetContainerHeaderOdds,
   MyBetContainerHeaderPotentialWin,
-  MyBetContainerHeaderStake,
   MyBetContainerHeaderStatus,
   MyBetContents,
   MyBetFooter,
@@ -45,7 +44,6 @@ import {
   MyBetHeaderContainer,
   MyBetHeaderOdds,
   MyBetHeaderPotential,
-  MyBetHeaderStake,
   MyBetHeaderStatus,
   MyBetHeaderStatusContainer,
   MyBetHeaderTitle,
@@ -53,6 +51,7 @@ import {
   ScoreboardsContainer,
   TennisScoreboard,
 } from '@heathmont/sportsbet-user-portal-components';
+import { MyBetsNav } from './dumb-components/navigation';
 jsx;
 
 export const MyBetsView = () => {
@@ -89,7 +88,6 @@ export const MyBetsView = () => {
           </MyBetContainerHeaderBetDetails>
           <MyBetContainerHeaderStatus>Status</MyBetContainerHeaderStatus>
           <MyBetContainerHeaderOdds>Odds</MyBetContainerHeaderOdds>
-          <MyBetContainerHeaderStake>Stake</MyBetContainerHeaderStake>
           <MyBetContainerHeaderPotentialWin>
             Potential win
           </MyBetContainerHeaderPotentialWin>
@@ -113,7 +111,6 @@ export const MyBetsView = () => {
                 <Badge>Active</Badge>
               </MyBetHeaderStatus>
               <MyBetHeaderOdds>5.20</MyBetHeaderOdds>
-              <MyBetHeaderStake>134,133,334 EUR</MyBetHeaderStake>
               <MyBetHeaderPotential>122,133,334 EUR</MyBetHeaderPotential>
             </MyBetHeaderStatusContainer>
             <MyBetHeaderCashoutContainer>
