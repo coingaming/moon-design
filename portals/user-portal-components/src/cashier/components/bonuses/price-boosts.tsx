@@ -4,15 +4,15 @@ import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 
 export const BonusWrapper = styled.div({
-  paddingLeft: spacing(),
-  paddingRight: spacing(),
-  paddingBottom: spacing(),
+  marginLeft: spacing(),
+  marginRight: spacing(),
+  marginBottom: spacing(),
   display: 'grid',
   gridTemplateColumns: '1fr',
   rowGap: spacing(),
   [mq(breakpoints.medium)]: {
-    paddingLeft: 0,
-    paddingRight: 0,
+    marginLeft: 0,
+    marginRight: 0,
     gridTemplateColumns: '1fr 1fr 1fr 1fr',
     columnGap: spacing('medium'),
     rowGap: spacing('medium'),
