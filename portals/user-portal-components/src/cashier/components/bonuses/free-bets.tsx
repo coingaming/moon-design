@@ -57,4 +57,8 @@ export const FreebetsIndicator = styled.span({
   right: spacing(),
   top: spacing(),
   fontSize: rem(12),
+  '& > svg': {
+    fontSize: rem(16),
+    marginLeft: spacing('small'),
+  }
 });
