@@ -6,9 +6,9 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { Badge } from '@heathmont/sportsbet-components/lib/badge';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 
-import { Market } from '../Market';
-import { EventProps } from '../Scoreboard';
-import { TennisSelections } from './TennisSelections';
+import { Market } from '../market';
+import { EventProps } from '../scoreboard';
+import { TennisSelections } from './tennis-selections';
 
 export type TennisProps = {
   event: EventProps;
