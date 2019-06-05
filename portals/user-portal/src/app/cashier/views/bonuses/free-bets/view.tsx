@@ -16,10 +16,10 @@ import {
   BonusesHeadingContainer,
   BonusesSubNavigation,
   CashierLayout,
-  Freebet,
-  FreebetCaption,
-  FreebetsIndicator,
-  FreebetsWrapper,
+  FreeBet,
+  FreeBetCaption,
+  FreeBetIndicator,
+  FreeBetsWrapper,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
@@ -83,42 +83,42 @@ export const FreeBetsView = () => {
             }}
           />
         </Banner>
-        <FreebetsWrapper badgeClosed>
+        <FreeBetsWrapper badgeClosed>
           {freebets.map((freebet, i) => (
             <React.Fragment>
-              <Freebet inActive>
+              <FreeBet inActive>
                 <Heading size="echo" as="h5">
                   Free bet title
                 </Heading>
-                <FreebetCaption>
+                <FreeBetCaption>
                   The bonus needs to be wagered 35 times within 30 days before
                   you can make a withdrawal.
-                </FreebetCaption>
-                <FreebetsIndicator>
+                </FreeBetCaption>
+                <FreeBetIndicator>
                   Used
                   <IconSuccessFlower color={colors.text} />
-                </FreebetsIndicator>
+                </FreeBetIndicator>
                 <div>
                   <Button disabled modifier="secondary">
                     Use now
                   </Button>
                 </div>
-              </Freebet>
-              <Freebet>
+              </FreeBet>
+              <FreeBet>
                 <Heading size="echo" as="h5">
                   Free bet title
                 </Heading>
-                <FreebetCaption>
+                <FreeBetCaption>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry
-                </FreebetCaption>
+                </FreeBetCaption>
                 <div>
                   <Button modifier="secondary">Use now</Button>
                 </div>
-              </Freebet>
+              </FreeBet>
             </React.Fragment>
           ))}
-        </FreebetsWrapper>
+        </FreeBetsWrapper>
       </CashierLayout>
     </React.Fragment>
   );
