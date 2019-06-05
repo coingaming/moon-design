@@ -38,8 +38,8 @@ import {
   SummaryAccount,
 } from '@heathmont/sportsbet-user-portal-components';
 import { spacing, rhythm, container, mq } from '@heathmont/sportsbet-utils/lib';
-import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { AccountEditView } from './account-edit-view';
 import { VerifyEmailView } from './verify-email-view';
