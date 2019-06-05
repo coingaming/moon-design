@@ -5,9 +5,9 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Badge } from '@heathmont/sportsbet-components/lib/badge';
 
-import { FootballSelections } from './FootballSelections';
-import { Market } from '../Market';
-import { EventProps } from '../Scoreboard';
+import { FootballSelections } from './football-selections';
+import { Market } from '../market';
+import { EventProps } from '../scoreboard';
 
 export type FootballProps = {
   event: EventProps;
@@ -127,11 +127,7 @@ const onClick = () => {
   console.log('on click');
 };
 
-export const DummyFootballScoreboard = ({
-  event,
-  timer,
-  badges,
-}: FootballProps) => {
+export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
   return (
     <FootballCard>
       <Header onClick={onClick}>
