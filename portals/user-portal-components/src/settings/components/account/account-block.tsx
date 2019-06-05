@@ -52,31 +52,33 @@ export const ChangeUserDetailsColumns = styled.div({
 
 export const ChangeUserDetailsFirstColumn = styled.div({
   [mq(breakpoints.medium)]: {
-    maxWidth: rem(320),
+    width: rem(320),
   },
 });
 
 export const ChangeUserDetailsSecondColumn = styled.div({
   marginTop: spacing(),
   [mq(breakpoints.medium)]: {
-    maxWidth: rem(320),
+    width: rem(320),
     margin: `0 0 0 ${spacing('large')}`,
   },
 });
 
 export const ChangeUserDetailsSaveButton = styled.div({
-  marginTop: spacing(),
+  marginTop: spacing('large'),
 });
 
 export const ChangePasswordContainer = styled.div({
+  width: '100%',
   [mq(breakpoints.medium)]: {
-    maxWidth: rem(320),
+    width: rem(320),
   },
 });
 
 export const ChangePasswordSaveButton = styled.div({
+  marginTop: spacing('large'),
   [mq(breakpoints.medium)]: {
-    maxWidth: rem(260),
+    width: rem(260),
   },
 });
 

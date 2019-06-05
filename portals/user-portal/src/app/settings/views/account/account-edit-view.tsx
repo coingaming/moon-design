@@ -12,10 +12,6 @@ import {
 import {
   SettingsText,
   SettingsSection,
-  ResendEmailContainer,
-  ResendEmailInputFormItem,
-  SubmitResendEmailFormItem,
-  ResendEmailText,
   ChangeUserDetailsContainer,
   ChangeUserDetailsColumns,
   ChangeUserDetailsFirstColumn,
@@ -31,7 +27,19 @@ import {
   SettingsBlockCollapsible,
   SettingsBlockCollapsibleContents,
   SummaryAccount,
+  VerifyEmailDescription,
+  VerifyEmailUploadFormContainer,
+  VerifyEmailUploadFormItem,
+  VerifyEmailUploadIDDescription,
+  VerifyEmailUploadSeparator,
+  VerifyEmailUploadProofDescription,
+  VerifyEmailSupportedFormats,
+  VerifyEmailExplanationContainer,
+  VerifyEmailExplanationHeader,
+  VerifyEmailExplanationCaption,
 } from '@heathmont/sportsbet-user-portal-components';
+import rem from 'polished/lib/helpers/rem';
+import { spacing } from '@heathmont/sportsbet-utils';
 jsx;
 
 export const AccountEditView = () => {
@@ -50,34 +58,7 @@ export const AccountEditView = () => {
             </Heading>
           </SummaryAccount>
 
-          <SettingsBlockCollapsibleContents>
-            <Form fullWidth legend="Resend the Email">
-              <ResendEmailContainer>
-                <ResendEmailInputFormItem>
-                  <TextInput label="E-mail address" type="email" required />
-                </ResendEmailInputFormItem>
-
-                <SubmitResendEmailFormItem>
-                  <Button round type="submit" modifier="secondary">
-                    Resend the Email
-                  </Button>
-                </SubmitResendEmailFormItem>
-              </ResendEmailContainer>
-            </Form>
-
-            <ResendEmailText>
-              <SettingsText>
-                We've sent a message to you with a link to activate your
-                account.
-              </SettingsText>
-              <SettingsText>
-                If you don't see an email from us within a few minutes, be sure
-                to check your spam folder.
-              </SettingsText>
-            </ResendEmailText>
-          </SettingsBlockCollapsibleContents>
-
-          <Separator />
+          {/* <Separator /> */}
           <SettingsBlockCollapsibleContents>
             <Form fullWidth legend="Change user details">
               <ChangeUserDetailsContainer>
@@ -118,16 +99,7 @@ export const AccountEditView = () => {
                 </ChangeUserDetailsColumns>
                 <ChangeUserDetailsSaveButton>
                   <FormItem>
-                    <Button round type="submit" modifier="primary">
-                      Save Changes
-                    </Button>
-                    <Button round type="submit" modifier="primary" progress>
-                      Save Changes
-                    </Button>
-                    <Button round type="submit" modifier="primary" success>
-                      Save Changes
-                    </Button>
-                    <Button round type="submit" modifier="primary" oops>
+                    <Button round type="submit" size="large" modifier="primary">
                       Save Changes
                     </Button>
                   </FormItem>
@@ -161,7 +133,7 @@ export const AccountEditView = () => {
                 </FormItem>
                 <FormItem>
                   <ChangePasswordSaveButton>
-                    <Button fullWidth modifier="primary">
+                    <Button size="large" fullWidth modifier="primary">
                       Save Changes
                     </Button>
                   </ChangePasswordSaveButton>
@@ -210,53 +182,92 @@ export const AccountEditView = () => {
           </SettingsBlockCollapsibleContents>
         </SettingsBlockCollapsible>
       </SettingsSection>
-      {/* <SettingsSection>
-          <SettingsBlockCollapsible>
-            <SummaryAccount>
-              <Heading size="delta" as="h2">
-                Verify Account
-              </Heading>
-            </SummaryAccount>
-            <SettingsBlock>
-              <SettingsText>
-                We ask you to upload your documents for our review to provide
-                better security. Please send us a photo of either of your ID
-                card, driver’s license or passport. For proof of address, please
-                send us a photo of a utility bill dated within the last three
-                months and clearly showing your name.
-              </SettingsText>
-            </SettingsBlock>
-            <SettingsBlockCollapsibleContents>
-              <Form fullWidth legend="KYC file upload">
-                <CollapsibleItem css={{ display: 'flex', flexFlow: 'wrap' }}>
-                  <CollapsibleItem cssMqMedium={{ flexBasis: rem(320) }}>
-                    <FormItem>
-                      <FileInput placeholder="ID, driver's license or passport" />
-                    </FormItem>
-                  </CollapsibleItem>
-                  <CollapsibleItem
-                    css={rhythm()}
-                    cssMqMedium={{
-                      flexBasis: rem(320),
-                      margin: `0 0 0 ${spacing('large')} `,
-                    }}
-                  >
-                    <FormItem>
-                      <FileInput placeholder="Photo of a utility bill" />
-                    </FormItem>
-                  </CollapsibleItem>
-                </CollapsibleItem>
-              </Form>
-              <CollapsibleItem css={rhythm()}>
-                <SettingsText>
-                  Supported file types: .jpg, .png and .gif. Both documents are
-                  required.
-                </SettingsText>
-              </CollapsibleItem>
-            </SettingsBlockCollapsibleContents>
-          </SettingsBlockCollapsible>
-        </SettingsSection>
-                  */}
+
+      <SettingsSection>
+        <SettingsBlockCollapsible>
+          <SummaryAccount>
+            <Heading size="delta" as="h2">
+              Verify Identity
+            </Heading>
+          </SummaryAccount>
+
+          <VerifyEmailDescription>
+            We ask you to upload your documents for our review to provide better
+            security.
+          </VerifyEmailDescription>
+
+          <VerifyEmailUploadFormContainer>
+            <Form legend="KYC file upload">
+              <VerifyEmailUploadFormItem>
+                <FormItem css={{ minWidth: rem(320) }}>
+                  <FileInput
+                    id="driver"
+                    label="ID card, driver's license or passport"
+                  />
+                </FormItem>
+
+                <VerifyEmailUploadIDDescription>
+                  Please send us a photo of either of your{' '}
+                  <b>ID card, driver’s license or passport.</b>
+                </VerifyEmailUploadIDDescription>
+              </VerifyEmailUploadFormItem>
+
+              <VerifyEmailUploadSeparator />
+
+              <VerifyEmailUploadFormItem>
+                <FormItem css={{ minWidth: rem(320) }}>
+                  <FileInput id="photo" label="Photo of a utility bill" />
+                </FormItem>
+
+                <VerifyEmailUploadProofDescription>
+                  For proof of address, please send us a photo of a utility bill
+                  dated within the last three months and clearly showing your
+                  name.
+                </VerifyEmailUploadProofDescription>
+              </VerifyEmailUploadFormItem>
+
+              <FormItem css={{ marginTop: spacing('medium') }}>
+                <Button type="submit" size="medium" modifier="optional">
+                  Upload documents
+                </Button>
+              </FormItem>
+            </Form>
+          </VerifyEmailUploadFormContainer>
+
+          <VerifyEmailSupportedFormats>
+            *Supported file types: .jpg, .png and .gif. Both documents are
+            required.
+          </VerifyEmailSupportedFormats>
+
+          <Separator />
+
+          <VerifyEmailExplanationContainer>
+            <VerifyEmailExplanationHeader>
+              Why am I asked to upload documents?
+            </VerifyEmailExplanationHeader>
+            <VerifyEmailExplanationCaption>
+              All payment data is handled and processed by our partner Block
+              Tech via payment providers. Block Tech implements the
+              industry-leading Anti-Money Laundering policies, practices, and
+              procedures. These include Know Your Customer (KYC) checks,
+              suspicious transaction monitoring, and anti-fraud checks across
+              all transactions and payments.
+            </VerifyEmailExplanationCaption>
+
+            <VerifyEmailExplanationCaption>
+              Once your payment transaction is registered, it will go through a
+              security check. Usually, it’s an automatic process that takes less
+              than 5 minutes. In some cases, our payment provider partner might
+              have to run additional verification procedures required by the
+              Anti-Money Laundering policies. You may be asked additional
+              questions and required to upload particular documents; this is to
+              ensure that the process remains safe and fair for all. If
+              documents are requested, you will receive your bitcoins after our
+              partner manually approves your transaction.
+            </VerifyEmailExplanationCaption>
+          </VerifyEmailExplanationContainer>
+        </SettingsBlockCollapsible>
+      </SettingsSection>
     </React.Fragment>
   );
 };
