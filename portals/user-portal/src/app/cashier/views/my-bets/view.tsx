@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
-import { ScoreboardsContainer } from './components/Scoreboards/Scoreboard';
 import {
   event,
   footballEventNoStream,
@@ -11,18 +10,17 @@ import {
   wonBadge,
   activeBadge,
 } from './dummyData';
-import { DummyFootballScoreboard } from './components/Scoreboards/Football/FootballScoreboard';
-import { TennisScoreboard } from './components/Scoreboards/Tennis/TennisScoreboard';
 import { MyBetsNav } from './dumb-components/my-bets-nav';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
-import { LoggedInNav } from '../../../nav/dump-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dump-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { Badge, Button } from '@heathmont/sportsbet-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { IconHyperlink } from '@heathmont/sportsbet-icons';
 import {
   CashierHeading,
   CashierLayout,
+  FootballScoreboard,
   MyBetCaptionRow,
   MyBetCaptions,
   MyBetCaptionTitle,
@@ -53,6 +51,8 @@ import {
   MyBetHeaderStatusContainer,
   MyBetHeaderTitle,
   MyBetHeaderTitleAmount,
+  ScoreboardsContainer,
+  TennisScoreboard,
 } from '@heathmont/sportsbet-user-portal-components';
 jsx;
 
@@ -128,8 +128,8 @@ export const MyBetsView = () => {
           </MyBetHeader>
           <MyBetContents>
             <ScoreboardsContainer>
-              <DummyFootballScoreboard event={event} timer="45:21" />
-              <DummyFootballScoreboard
+              <FootballScoreboard event={event} timer="45:21" />
+              <FootballScoreboard
                 event={footballEventNoStream}
                 timer="12:11"
                 badges={[wonBadge]}
@@ -140,10 +140,7 @@ export const MyBetsView = () => {
                 badges={[liveBadge, activeBadge]}
               />
               <TennisScoreboard event={tennis2} timer="Set 2" />
-              <DummyFootballScoreboard
-                event={footballEventNoStream}
-                timer="14:11"
-              />
+              <FootballScoreboard event={footballEventNoStream} timer="14:11" />
               <TennisScoreboard event={tennis1} timer="Set 1" />
               <TennisScoreboard
                 event={tennis2}
