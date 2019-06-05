@@ -35,6 +35,7 @@ Array [
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.25rem;
+  width: auto;
   position: relative;
   display: block;
   color: #8697a2;
@@ -126,6 +127,7 @@ Array [
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.25rem;
+  width: auto;
   position: relative;
   display: block;
   color: #8697a2;
@@ -215,6 +217,7 @@ Array [
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.25rem;
+  width: auto;
   position: relative;
   display: block;
   color: #8697a2;
@@ -304,6 +307,7 @@ Array [
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.25rem;
+  width: auto;
   position: relative;
   display: block;
   color: #8697a2;
@@ -409,6 +413,7 @@ Array [
   background-repeat: no-repeat;
   background-size: 1.25rem;
   border-color: #ff4e64;
+  width: auto;
   position: relative;
   display: block;
   color: #8697a2;
