@@ -3,7 +3,7 @@ import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
 
 import { Heading, Toggle } from '@heathmont/sportsbet-components';
-import { NotificationsNav } from './dumb-components/header';
+import { NotificationsNav } from './dumb-components/navigation';
 import {
   SettingsText,
   SettingsSection,
