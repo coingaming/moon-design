@@ -31,7 +31,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   progress?: boolean;
   oops?: boolean;
   success?: boolean;
-  as?: 'button' | 'a';
+  as?: any;
 };
 
 /**
