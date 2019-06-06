@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.51.0](https://github.com/coingaming/sportsbet-design/compare/v0.50.0...v0.51.0) (2019-06-06)
+
+
+### Features
+
+* **tabItem:** added "as" prop ([4b96b03](https://github.com/coingaming/sportsbet-design/commit/4b96b03))
+
+
+
+
+
 # [0.50.0](https://github.com/coingaming/sportsbet-design/compare/v0.49.1...v0.50.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
