@@ -7,9 +7,8 @@ import rem from 'polished/lib/helpers/rem';
 import { IconPlay } from '@heathmont/sportsbet-icons/lib/svg/IconPlay';
 
 export type MarketProps = {
-  id: string;
   name: string;
-  selections: SelectionProps[];
+  selection: SelectionProps;
 };
 
 const Wrapper = styled.div(() => [

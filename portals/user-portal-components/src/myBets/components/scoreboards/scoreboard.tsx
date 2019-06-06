@@ -13,7 +13,7 @@ type CompetitorProps = {
 export type EventProps = {
   name: string;
   marketCount: number;
-  markets: MarketProps[];
+  market: MarketProps;
   competitors: { home: CompetitorProps; away: CompetitorProps };
   information: {
     homeScore: string;

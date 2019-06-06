@@ -199,10 +199,10 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <AwayPoints current>{information.awayScore}</AwayPoints>
         </Score>
       </ScoreWrapper>
-      <TennisSelections selections={event.markets[0].selections} />
+      <TennisSelections selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.markets[0]}
+        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
       />
