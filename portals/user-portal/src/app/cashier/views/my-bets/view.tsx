@@ -10,7 +10,6 @@ import {
   wonBadge,
   activeBadge,
 } from './dummyData';
-import { MyBetsNav } from './dumb-components/my-bets-nav';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
@@ -30,7 +29,6 @@ import {
   MyBetContainerHeaderBetDetails,
   MyBetContainerHeaderOdds,
   MyBetContainerHeaderPotentialWin,
-  MyBetContainerHeaderStake,
   MyBetContainerHeaderStatus,
   MyBetContents,
   MyBetFooter,
@@ -46,7 +44,6 @@ import {
   MyBetHeaderContainer,
   MyBetHeaderOdds,
   MyBetHeaderPotential,
-  MyBetHeaderStake,
   MyBetHeaderStatus,
   MyBetHeaderStatusContainer,
   MyBetHeaderTitle,
@@ -54,6 +51,7 @@ import {
   ScoreboardsContainer,
   TennisScoreboard,
 } from '@heathmont/sportsbet-user-portal-components';
+import { MyBetsNav } from './dumb-components/navigation';
 jsx;
 
 export const MyBetsView = () => {
@@ -90,7 +88,6 @@ export const MyBetsView = () => {
           </MyBetContainerHeaderBetDetails>
           <MyBetContainerHeaderStatus>Status</MyBetContainerHeaderStatus>
           <MyBetContainerHeaderOdds>Odds</MyBetContainerHeaderOdds>
-          <MyBetContainerHeaderStake>Stake</MyBetContainerHeaderStake>
           <MyBetContainerHeaderPotentialWin>
             Potential win
           </MyBetContainerHeaderPotentialWin>
@@ -114,7 +111,6 @@ export const MyBetsView = () => {
                 <Badge>Active</Badge>
               </MyBetHeaderStatus>
               <MyBetHeaderOdds>5.20</MyBetHeaderOdds>
-              <MyBetHeaderStake>134,133,334 EUR</MyBetHeaderStake>
               <MyBetHeaderPotential>122,133,334 EUR</MyBetHeaderPotential>
             </MyBetHeaderStatusContainer>
             <MyBetHeaderCashoutContainer>
