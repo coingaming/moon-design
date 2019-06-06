@@ -53,6 +53,7 @@ export const MyBetContainer = styled.details<{}>({
   flexDirection: 'row',
   justifyContent: 'space-between',
   backgroundColor: colors.secondary,
+  marginBottom: spacing('large'),
   '&[open]': {
     Summary: {
       borderBottom: `${rem(1)} solid ${colors.neutral[90]}`,
@@ -200,7 +201,12 @@ export const MyBetHeaderCaptionDate = styled.span({
 export const MyBetHeaderCaptionMatchName = styled.span();
 
 export const MyBetContents = styled.div({
-  padding: `${spacing()} 0 ${spacing()} ${spacing()}`,
+  paddingTop: spacing('medium'),
+  paddingLeft: spacing(),
+  paddingBottom: spacing(),
+  [mq(breakpoints.medium)]: {
+    paddingTop: spacing(),
+  },
 });
 
 export const MyBetCaptions = styled.div({
@@ -247,6 +253,7 @@ export const MyBetFooter = styled.footer({
   [mq(breakpoints.medium)]: {
     display: 'flex',
     padding: `${spacing()}`,
+    marginBottom: spacing('medium'),
   },
   button: {
     width: '100%',
