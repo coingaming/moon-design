@@ -13,14 +13,14 @@ type CompetitorProps = {
 export type EventProps = {
   name: string;
   marketCount: number;
-  markets: MarketProps[];
+  market: MarketProps;
   competitors: { home: CompetitorProps; away: CompetitorProps };
   information: {
     homeScore: string;
     awayScore: string;
     periodScores: {
-      homeScore: number;
-      awayScore: number;
+      homeScore: null | number;
+      awayScore: null | number;
     }[];
   };
   videoStream: boolean;
@@ -34,13 +34,7 @@ export const ScoreboardsContainer = ({ children }: any) => {
     overflow: 'auto',
     flexFlow: 'row nowrap',
     scrollSnapType: 'x mandatory',
-    marginLeft: spacing('large'),
-    marginRight: spacing('large'),
     backgroundColor: colors.neutral[70],
-    [mq(breakpoints.medium)]: {
-      marginLeft: 0,
-      marginRight: 0,
-    },
   });
 
   const Container = styled.div({

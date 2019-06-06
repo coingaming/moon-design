@@ -1,48 +1,35 @@
 import { colors } from '@heathmont/sportsbet-tokens';
+import { EventProps } from '@heathmont/sportsbet-user-portal-components';
 
-export const event = {
+export const event: EventProps = {
   name: 'England, FA Cup',
   marketCount: 1,
   onClick: () => {
     console.log('EVENT CLICK');
   },
-  markets: [
-    {
-      id: 'test',
-      name: '1x2',
-      selections: [
-        { id: 'test', name: 'Liverpool', odds: '8.40' },
-        { id: 'test', name: 'draw', odds: '4.40' },
-        {
-          id: 'test',
-          name: 'Real Madrid',
-          odds: '1.38',
-          onClick: () => {
-            console.log('SELECTION CLICK');
-          },
-        },
-      ],
-    },
-  ],
+  market: {
+    name: '1x2',
+    selection: { name: 'Liverpool', odds: '8.40' },
+  },
   information: {
     homeScore: '2',
     awayScore: '5',
     periodScores: [
       {
-        homeScore: 6,
+        homeScore: 1,
         awayScore: 2,
       },
       {
-        homeScore: 2,
+        homeScore: 3,
+        awayScore: 4,
+      },
+      {
+        homeScore: null,
         awayScore: 5,
       },
       {
-        homeScore: 1,
-        awayScore: 1,
-      },
-      {
-        homeScore: 5,
-        awayScore: 2,
+        homeScore: null,
+        awayScore: null,
       },
     ],
   },
@@ -59,56 +46,18 @@ export const event = {
   videoStream: true,
 };
 
-const twoSelectionMarket = [
-  {
-    id: 'test',
-    name: 'Winner',
-    selections: [
-      { id: 'test', name: 'Los Angeles Lakers', odds: '16.60' },
-      {
-        id: 'test',
-        name: 'Golden State Warriors',
-        odds: '1.30',
-        onClick: () => {
-          console.log('clicked');
-        },
-      },
-    ],
-  },
-];
-
-const oneSelectionMarket = [
-  {
-    id: 'test',
-    name: '1 selection market',
-    selections: [
-      {
-        id: 'test',
-        name: 'Golden State Warriors',
-        odds: '1.30',
-        onClick: () => {
-          console.log('clicked');
-        },
-      },
-    ],
-  },
-];
-
 export const footballEventNoStream = {
   ...event,
-  markets: twoSelectionMarket,
   videoStream: false,
 };
 export const tennis1 = {
   ...event,
   name: 'Tatlot, Johan Sebastien - Ymer, Mikael',
-  markets: oneSelectionMarket,
   videoStream: false,
 };
 export const tennis2 = {
   ...event,
   name: 'Tatlot, Johan Sebastien - Ymer, Mikael',
-  markets: twoSelectionMarket,
   videoStream: true,
 };
 
