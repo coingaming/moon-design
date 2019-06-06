@@ -170,10 +170,10 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
         <span>{event.competitors.home.name}</span>
         <span>{event.competitors.away.name}</span>
       </Competitors>
-      <FootballSelections selections={event.markets[0].selections} />
+      <FootballSelections selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.markets[0]}
+        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
       />
