@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-user-portal-components",
-  "version": "0.51.1",
+  "version": "0.51.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -14,7 +14,7 @@
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-components": "^0.51.1",
+    "@heathmont/sportsbet-components": "^0.51.2",
     "@heathmont/sportsbet-global": "^0.51.0",
     "@heathmont/sportsbet-icons": "^0.51.0",
     "@heathmont/sportsbet-objects": "^0.51.0",
