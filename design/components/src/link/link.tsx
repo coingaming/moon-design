@@ -13,6 +13,7 @@ type LinkProps = React.InputHTMLAttributes<HTMLLinkElement> & {
   secondary?: boolean;
   optional?: boolean;
   as?: any;
+  to?: any;
 };
 
 /**
