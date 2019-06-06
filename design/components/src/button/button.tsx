@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { NavLinkProps } from 'react-router-dom';
 import { CSSObject, jsx, keyframes } from '@emotion/core';
 import styled from '@emotion/styled';
 import isPropValid from '@emotion/is-prop-valid';
@@ -20,21 +19,21 @@ import {
 } from './states';
 import { Loader } from '../loader/loader';
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> &
-  NavLinkProps & {
-    href?: string;
-    modifier: ButtonModifiers;
-    size?: ButtonSizes;
-    mockState?: ButtonMockState;
-    fullWidth?: boolean;
-    uppercase?: boolean;
-    outline?: boolean; // deprecacted
-    round?: boolean; // deprecacted
-    progress?: boolean;
-    oops?: boolean;
-    success?: boolean;
-    as?: any;
-  };
+type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  href?: string;
+  modifier: ButtonModifiers;
+  size?: ButtonSizes;
+  mockState?: ButtonMockState;
+  fullWidth?: boolean;
+  uppercase?: boolean;
+  outline?: boolean; // deprecacted
+  round?: boolean; // deprecacted
+  progress?: boolean;
+  oops?: boolean;
+  success?: boolean;
+  as?: any;
+  to?: any;
+};
 
 /**
  * Styles
