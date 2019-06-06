@@ -5,10 +5,8 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 
 export type SelectionProps = {
-  id: string;
   name: string;
   odds: string;
-  onClick?: (e: MouseEvent) => void;
 };
 
 const Container = styled.div({
@@ -24,70 +22,41 @@ const Container = styled.div({
   },
 });
 
-const SelectionButton = styled.button(({ onClick }) => [
-  {
-    width: '100%',
-    background: 'transparent',
-    border: 'none',
-    borderTop: `${border.width}px solid ${colors.neutral[60]}`,
-    borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
-    fontSize: rem(14),
-    paddingLeft: rem(12),
-    paddingRight: rem(12),
-    display: 'flex',
-    flexWrap: 'nowrap',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+const SelectionButton = styled.button({
+  width: '100%',
+  background: 'transparent',
+  border: 'none',
+  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
+  fontSize: rem(14),
+  paddingLeft: spacing(),
+  paddingRight: spacing(),
+  display: 'flex',
+  flexWrap: 'nowrap',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  overflow: 'hidden',
+  textAlign: 'left',
+  '.name': {
+    color: colors.neutral[20],
+    textOverflow: 'ellipsis',
     overflow: 'hidden',
-    textAlign: 'left',
-    '.name': {
-      color: colors.neutral[20],
-      textOverflow: 'ellipsis',
-      overflow: 'hidden',
-    },
-    '.odds': {
-      color: colors.neutral[10],
-      marginLeft: spacing('xsmall'),
-    },
-    '&:first-of-type': {
-      borderRight: `${border.width}px solid ${colors.neutral[60]}`,
-      paddingLeft: spacing(),
-    },
-    '&:last-of-type': {
-      paddingRight: spacing(),
-      borderLeft: `${border.width}px solid ${colors.neutral[60]}`,
-    },
   },
-  onClick && {
-    cursor: 'pointer',
-    '&:hover': {
-      backgroundColor: colors.neutral[60],
-      '.name': {
-        color: colors.neutral[10],
-      },
-    },
-    '&:active': {
-      backgroundColor: colors.brand,
-      '.name': {
-        color: colors.neutral[10],
-      },
-    },
+  '.odds': {
+    color: colors.neutral[10],
+    marginLeft: spacing('xsmall'),
   },
-]);
+});
 
 export const TennisSelections = ({
-  selections,
+  selection,
 }: {
-  selections: SelectionProps[];
+  selection: SelectionProps;
 }) => (
   <Container>
-    {selections.map((selection, index) => {
-      return (
-        <SelectionButton onClick={selection.onClick} key={index}>
-          <span className="name">{selection.name}</span>
-          <span className="odds">{selection.odds}</span>
-        </SelectionButton>
-      );
-    })}
+    <SelectionButton>
+      <span className="name">{selection.name}</span>
+      <span className="odds">{selection.odds}</span>
+    </SelectionButton>
   </Container>
 );
