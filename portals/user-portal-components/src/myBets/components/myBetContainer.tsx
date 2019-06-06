@@ -41,11 +41,6 @@ export const MyBetContainerHeaderOdds = styled.span<{}>({
   marginLeft: rem(5),
 });
 
-export const MyBetContainerHeaderStake = styled.span<{}>({
-  width: rem(105),
-  marginLeft: rem(5),
-});
-
 export const MyBetContainerHeaderPotentialWin = styled.span<{}>({
   width: rem(105),
   marginLeft: rem(5),
@@ -186,11 +181,6 @@ export const MyBetHeaderStatus = styled.span({
 
 export const MyBetHeaderOdds = styled.span({
   width: rem(54),
-  marginLeft: spacing('xsmall'),
-});
-
-export const MyBetHeaderStake = styled.span({
-  width: rem(105),
   marginLeft: spacing('xsmall'),
 });
 
