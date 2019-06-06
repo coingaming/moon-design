@@ -24,7 +24,8 @@ export const FreeBet: React.FC<{ inActive?: boolean }> = styled.div({
   borderRadius: rem(4),
   position: 'relative',
   [mq(breakpoints.medium)]: {
-    padding: `${spacing('large')} ${spacing('large')} ${spacing('medium')}`,
+    paddingLeft: spacing('large'),
+    paddingRight: spacing('large'),
   },
   Button: {
     marginTop: spacing('medium'),
