@@ -10,7 +10,7 @@ import {
   TextInput,
   Button,
 } from '@heathmont/sportsbet-components';
-import { AccountNav } from './dumb-components/header';
+import { AccountNav } from './dumb-components/navigation';
 import {
   SettingsText,
   SettingsSection,
