@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.51.2](https://github.com/coingaming/sportsbet-design/compare/v0.51.1...v0.51.2) (2019-06-06)
+
+
+### Bug Fixes
+
+* adjust alignment for mybets & scoreboards ([fad562a](https://github.com/coingaming/sportsbet-design/commit/fad562a))
+* adjust scoreboards data structure ([4ab4c22](https://github.com/coingaming/sportsbet-design/commit/4ab4c22))
+* remove banner from freebets & adjust margins ([f308dfe](https://github.com/coingaming/sportsbet-design/commit/f308dfe))
+
+
+
+
+
 ## [0.51.1](https://github.com/coingaming/sportsbet-design/compare/v0.51.0...v0.51.1) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal
