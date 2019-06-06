@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.49.1](https://github.com/coingaming/sportsbet-design/compare/v0.49.0...v0.49.1) (2019-06-05)
+
+
+### Bug Fixes
+
+* export components from user-portal ([aac9afc](https://github.com/coingaming/sportsbet-design/commit/aac9afc))
+
+
+
+
+
 # [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
 
 
