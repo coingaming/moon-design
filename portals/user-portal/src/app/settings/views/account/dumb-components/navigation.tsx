@@ -1,9 +1,5 @@
 import * as React from 'react';
-import {
-  Tab,
-  TabItem,
-  CloseButton,
-} from '@heathmont/sportsbet-user-portal-components';
+import { Tab, TabItem } from '@heathmont/sportsbet-user-portal-components';
 
 export const AccountNav = () => (
   <Tab>

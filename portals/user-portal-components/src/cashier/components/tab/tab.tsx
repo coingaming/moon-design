@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
+import isPropValid from '@emotion/is-prop-valid';
 import { NavLink } from 'react-router-dom';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
@@ -59,7 +60,9 @@ const Tab: React.FC = ({ children }) => {
   );
 };
 
-const TabItem = styled(NavLink)<{ active?: boolean; rightAligned?: boolean }>(
+const TabItem = styled(NavLink, {
+  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
+})<{ active?: boolean; rightAligned?: boolean; as?: any }>(
   ({ active = false, rightAligned = false }) => [
     {
       display: 'flex',
