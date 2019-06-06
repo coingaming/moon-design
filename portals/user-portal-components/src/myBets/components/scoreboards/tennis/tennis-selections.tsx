@@ -29,8 +29,8 @@ const SelectionButton = styled.button({
   borderTop: `${border.width}px solid ${colors.neutral[60]}`,
   borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
   fontSize: rem(14),
-  paddingLeft: rem(12),
-  paddingRight: rem(12),
+  paddingLeft: spacing(),
+  paddingRight: spacing(),
   display: 'flex',
   flexWrap: 'nowrap',
   justifyContent: 'space-between',
@@ -45,14 +45,6 @@ const SelectionButton = styled.button({
   '.odds': {
     color: colors.neutral[10],
     marginLeft: spacing('xsmall'),
-  },
-  '&:first-of-type': {
-    borderRight: `${border.width}px solid ${colors.neutral[60]}`,
-    paddingLeft: spacing(),
-  },
-  '&:last-of-type': {
-    paddingRight: spacing(),
-    borderLeft: `${border.width}px solid ${colors.neutral[60]}`,
   },
 });
 
