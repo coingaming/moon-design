@@ -14,7 +14,7 @@ import {
   TextInput,
   Select,
 } from '@heathmont/sportsbet-components';
-import { CashierNav } from './dumb-components/navigations';
+import { CashierNav } from './dumb-components/navigation';
 import { colors } from '@heathmont/sportsbet-tokens';
 import {
   CashierLayout,
