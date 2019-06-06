@@ -1,6 +1,7 @@
 import { colors } from '@heathmont/sportsbet-tokens';
+import { EventProps } from '@heathmont/sportsbet-user-portal-components';
 
-export const event = {
+export const event: EventProps = {
   name: 'England, FA Cup',
   marketCount: 1,
   onClick: () => {
@@ -15,20 +16,20 @@ export const event = {
     awayScore: '5',
     periodScores: [
       {
-        homeScore: 6,
+        homeScore: 1,
         awayScore: 2,
       },
       {
-        homeScore: 2,
+        homeScore: 3,
+        awayScore: 4,
+      },
+      {
+        homeScore: null,
         awayScore: 5,
       },
       {
-        homeScore: 1,
-        awayScore: 1,
-      },
-      {
-        homeScore: 5,
-        awayScore: 2,
+        homeScore: null,
+        awayScore: null,
       },
     ],
   },

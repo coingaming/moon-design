@@ -121,7 +121,7 @@ const CellStyling = css({
 
 type PointsType = {
   period?: number;
-  win?: boolean;
+  win?: boolean | null;
   current?: boolean;
 };
 
@@ -182,12 +182,14 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
               <React.Fragment key={index}>
                 <HomePoints
                   period={index}
+                  // @ts-ignore
                   win={periodScore.homeScore >= periodScore.awayScore}
                 >
                   {periodScore.homeScore}
                 </HomePoints>
                 <AwayPoints
                   period={index}
+                  // @ts-ignore
                   win={periodScore.homeScore <= periodScore.awayScore}
                 >
                   {periodScore.awayScore}
