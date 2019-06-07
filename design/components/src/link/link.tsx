@@ -14,6 +14,13 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   optional?: boolean;
   as?: any;
   to?: any;
+  // Manually added these because NavLinkProps extending causes TS errors
+  activeClassName?: string;
+  activeStyle?: any;
+  exact?: boolean;
+  strict?: boolean;
+  isActive?: any;
+  location?: any;
 };
 
 /**
