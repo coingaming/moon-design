@@ -11,6 +11,8 @@ import {
   CashierLayout,
   FreeBet,
   FreeBetCaption,
+  FreeBetInfo,
+  FreeBetInfoContainer,
   FreeBetsWrapper,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
@@ -71,6 +73,18 @@ export const FreeBetsView = () => {
                   The bonus needs to be wagered 35 times within 30 days before
                   you can make a withdrawal.
                 </FreeBetCaption>
+                <FreeBetInfoContainer>
+                  <FreeBetInfo>
+                    <span>Bonus amount</span>
+                    <p>6mBTC</p>
+                  </FreeBetInfo>
+                  <FreeBetInfo>
+                    <span>Bonus amount</span>
+                    <p>
+                      6 Days <span>- 18.03.2018</span>
+                    </p>
+                  </FreeBetInfo>
+                </FreeBetInfoContainer>
                 <div>
                   <Button disabled modifier="secondary">
                     Use now
@@ -85,6 +99,18 @@ export const FreeBetsView = () => {
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry
                 </FreeBetCaption>
+                <FreeBetInfoContainer>
+                  <FreeBetInfo>
+                    <span>Bonus amount</span>
+                    <p>6mBTC</p>
+                  </FreeBetInfo>
+                  <FreeBetInfo>
+                    <span>Bonus amount</span>
+                    <p>
+                      6 Days <span>- 18.03.2018</span>
+                    </p>
+                  </FreeBetInfo>
+                </FreeBetInfoContainer>
                 <div>
                   <Button modifier="secondary">Use now</Button>
                 </div>
