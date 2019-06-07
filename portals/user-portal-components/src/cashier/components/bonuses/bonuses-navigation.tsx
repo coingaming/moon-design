@@ -36,7 +36,7 @@ export const BonusesSubNavigation = styled.div([
     zIndex: 1,
     overflowX: 'auto',
 
-    Button: {
+    '& > *': {
       marginRight: spacing(),
       flexShrink: 0,
     },
@@ -45,7 +45,7 @@ export const BonusesSubNavigation = styled.div([
       paddingLeft: 0,
       paddingRight: 0,
       marginTop: 0,
-      Button: {
+      '& > *': {
         marginRight: 0,
         marginLeft: spacing(),
       },
