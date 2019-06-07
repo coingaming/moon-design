@@ -60,11 +60,6 @@ const Tab: React.FC = ({ children }) => {
   );
 };
 
-const activeStyles: CSSObject = {
-  borderBottom: `${underlineWidth}px solid ${colors.brand}`,
-  color: colors.neutral[10],
-};
-
 const TabItem = styled(NavLink, {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
 })<{ active?: boolean; rightAligned?: boolean; as?: any }>(
@@ -81,13 +76,15 @@ const TabItem = styled(NavLink, {
       paddingTop: spacing(),
       marginLeft: spacing(),
       marginRight: spacing(),
-      '&:hover, &:focus, &:active': {
+      '&:hover, &:focus, &:active, .active': {
         borderBottom: `${underlineWidth}px solid ${colors.brand}`,
         color: colors.neutral[10],
       },
     },
-    active && activeStyles,
-    '.active' && activeStyles,
+    active && {
+      borderBottom: `${underlineWidth}px solid ${colors.brand}`,
+      color: colors.neutral[10],
+    },
     rightAligned && {
       [mq(breakpoints.small)]: {
         marginLeft: 'auto',
