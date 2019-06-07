@@ -36,3 +36,34 @@ export const FreeBetCaption = styled.p({
   marginTop: spacing('small'),
   color: colors.neutral[20],
 });
+
+export const FreeBetInfoContainer = styled.div({
+  marginTop: spacing(),
+  paddingTop: spacing('small'),
+  paddingBottom: spacing(),
+  borderTop: `${rem(1)} solid ${colors.neutral[70]}`,
+  borderBottom: `${rem(1)} solid ${colors.neutral[70]}`,
+  display: 'flex',
+  flexWrap: 'wrap',
+});
+
+export const FreeBetInfo = styled.div({
+  marginRight: spacing(),
+  minWidth: rem(180),
+
+  '& > p': {
+    color: colors.text,
+    fontSize: rem(16),
+    marginTop: spacing('xsmall'),
+
+    '& > span': {
+      fontSize: rem(12),
+      color: colors.neutral[20],
+    },
+  },
+
+  '& > span': {
+    color: colors.neutral[20],
+    fontSize: rem(12),
+  },
+});
