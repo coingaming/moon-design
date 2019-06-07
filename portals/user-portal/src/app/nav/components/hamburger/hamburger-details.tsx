@@ -30,7 +30,14 @@ import {
   CuracaoSection,
   CuracaoLogoImage,
   AllRightsReserved,
+  SectionItem,
+  ItemCount,
+  ItemCaption,
 } from '@heathmont/sportsbet-user-portal-components';
+import { IconSoccer } from '@heathmont/sportsbet-icons/lib/svg/IconSoccer';
+import { IconSportsCenter } from '@heathmont/sportsbet-icons/lib/svg/IconSportsCenter';
+import { IconHorseRacing } from '@heathmont/sportsbet-icons';
+
 jsx;
 
 export const HamburgerDetailsContent = () => {
@@ -61,17 +68,41 @@ export const HamburgerDetailsContent = () => {
       </TopMenuSection>
 
       <List>
-        <Item active>Sports</Item>
-        <Item>Casino</Item>
-        <Item>E-sports</Item>
-        <Item>Promo</Item>
-        <Item>News</Item>
-        <Item>About</Item>
-        <Item>Support</Item>
+        <Item active>
+          <IconSoccer />
+          <ItemCaption>Sports</ItemCaption>
+        </Item>
+        <Item>
+          <IconSoccer />
+          <ItemCaption>Casino</ItemCaption>
+          <ItemCount>241</ItemCount>
+        </Item>
+        <Item>
+          <IconSportsCenter />
+          <ItemCaption>Promo</ItemCaption>
+          <ItemCount>548</ItemCount>
+        </Item>
+        <SectionItem>Popular</SectionItem>
+        <Item>
+          <IconSoccer />
+          <ItemCaption>Fantasy</ItemCaption>
+        </Item>
+        <Item>
+          <IconHorseRacing />
+          <ItemCaption>Horse Racing</ItemCaption>
+        </Item>
+        <Item>
+          <IconSoccer />
+          <ItemCaption>Player Props</ItemCaption>
+        </Item>
+        <Item>
+          <IconSoccer />
+          <ItemCaption>Virtual Sports</ItemCaption>
+        </Item>
       </List>
 
       <SelectSettingsSection>
-        <Select fullWidth>
+        <Select>
           <option value="en">English</option>
           <option value="pt">Portuguese</option>
         </Select>
