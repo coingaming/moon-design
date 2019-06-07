@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.51.5](https://github.com/coingaming/sportsbet-design/compare/v0.51.4...v0.51.5) (2019-06-07)
+
+
+### Bug Fixes
+
+* **tabItem:** fix active for TabItem ([d5bdb9c](https://github.com/coingaming/sportsbet-design/commit/d5bdb9c))
+
+
+
+
+
 ## [0.51.4](https://github.com/coingaming/sportsbet-design/compare/v0.51.3...v0.51.4) (2019-06-07)
 
 
