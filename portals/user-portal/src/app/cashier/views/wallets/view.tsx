@@ -68,10 +68,10 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <AddWallet to={'/add-wallt'}>+ Add Wallet</AddWallet>
+            <AddWallet to={'/add-wallet'}>+ Add Wallet</AddWallet>
           </WalletWrapper>
         </WalletsContainer>
-        <AddWalletMobile to={'/add-wallt'}>+ Add Wallet</AddWalletMobile>
+        <AddWalletMobile to={'/add-wallet'}>+ Add Wallet</AddWalletMobile>
         <TransactionsSection>
           <CashierHeading>Transactions</CashierHeading>
           <TransactionsHeader />

@@ -21,6 +21,7 @@ export { IconFilter } from './svg/IconFilter';
 export { IconFreebet } from './svg/IconFreebet';
 export { IconHamburger } from './svg/IconHamburger';
 export { IconHome } from './svg/IconHome';
+export { IconHorseRacing } from './svg/IconHorseRacing';
 export { IconHyperlink } from './svg/IconHyperlink';
 export { IconLargeCalc } from './svg/IconLargeCalc';
 export { IconLargeCard } from './svg/IconLargeCard';
