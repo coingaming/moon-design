@@ -41,6 +41,9 @@ export const activeCss: CSSObject = {
 };
 export const Item = styled.li<ItemProps>(({ active }) => [
   {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
     marginTop: spacing('large'),
     fontSize: rem(20),
     color: colors.neutral[20],
@@ -49,6 +52,25 @@ export const Item = styled.li<ItemProps>(({ active }) => [
   },
   active && activeCss,
 ]);
+
+export const ItemCaption = styled.p({
+  marginLeft: spacing(),
+});
+
+export const ItemCount = styled.p({
+  marginLeft: 'auto',
+});
+
+export const SectionItem = styled.li({
+  marginTop: spacing('large'),
+  paddingTop: spacing(),
+  paddingBottom: spacing(),
+  fontSize: rem(22),
+  color: colors.neutral[10],
+  textTransform: 'uppercase',
+  borderTop: `${border.width}px solid ${colors.neutral[65]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[65]}`,
+});
 
 export const CenteredLogo = styled.div({
   display: 'flex',
