@@ -1,4 +1,5 @@
 export * from './add-wallet';
+export * from './add-wallets';
 export * from './grid';
 export * from './layout';
 export * from './payment-method-images';

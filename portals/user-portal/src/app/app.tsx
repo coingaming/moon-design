@@ -7,6 +7,7 @@ import { DepositViewBTC } from './cashier/views/deposit/view-btc';
 import { AccountView } from './settings/views/account/view';
 import { SettingsView } from './settings/views/settings/view';
 import { NotificationsView } from './settings/views/notifications/view';
+import { AddWalletView } from './cashier/views/wallets/add-wallet/view';
 import { PriceBoostsView } from './cashier/views/bonuses/price-boosts/view';
 import { FreeBetsView } from './cashier/views/bonuses/free-bets/view';
 
@@ -15,6 +16,7 @@ export const AppRoutes = () => (
     <Route path="/" exact={true} component={WalletsView} />
     <Route path="/my-bets" exact={true} component={MyBetsView} />
     <Route path="/cashier" component={WalletsView} />
+    <Route path="/add-wallet" exact={true} component={AddWalletView} />
     <Route path="/deposit" exact={true} component={DepositView} />
     <Route path="/deposit-btc" exact={true} component={DepositViewBTC} />
     <Route path="/account" exact={true} component={AccountView} />
