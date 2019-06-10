@@ -68,10 +68,10 @@ export const liveBadge = {
 };
 
 export const wonBadge = {
-  title: 'won',
+  text: 'won',
 };
 
 export const activeBadge = {
-  title: 'active',
-  backgroundColor: '#19A9E2',
+  text: 'active',
+  modifier: 'void',
 };
