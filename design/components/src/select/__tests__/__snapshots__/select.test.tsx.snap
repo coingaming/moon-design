@@ -11,8 +11,8 @@ exports[`Select renders a select input with options 1`] = `
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -93,8 +93,8 @@ exports[`Select renders as disabled for default select input 1`] = `
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -176,8 +176,8 @@ exports[`Select renders as full-width for default select input 1`] = `
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -252,8 +252,8 @@ exports[`Select renders with label above the input 1`] = `
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -348,8 +348,8 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -476,8 +476,8 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;

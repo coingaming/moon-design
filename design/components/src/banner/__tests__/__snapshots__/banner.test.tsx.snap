@@ -22,7 +22,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -70,7 +70,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   -ms-flex-align: center;
   align-items: center;
   font-family: inherit;
-  background-color: #1A212A;
+  background-color: #31373F;
   border-radius: 4px;
 }
 
@@ -174,7 +174,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   font-family: inherit;
-  background-color: #1A212A;
+  background-color: #31373F;
   border-radius: 8px;
   padding: 2.5rem;
 }
@@ -216,7 +216,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -353,7 +353,7 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -401,7 +401,7 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   font-family: inherit;
-  background-color: #1A212A;
+  background-color: #31373F;
   border-radius: 8px;
   max-width: 600px;
   padding: 2.5rem;
@@ -458,7 +458,7 @@ exports[`Banner renders horizontally 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -506,7 +506,7 @@ exports[`Banner renders horizontally 1`] = `
   -ms-flex-align: center;
   align-items: center;
   font-family: inherit;
-  background-color: #1A212A;
+  background-color: #31373F;
   border-radius: 4px;
 }
 
@@ -565,7 +565,7 @@ exports[`Banner renders vertically by default 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   font-family: inherit;
-  background-color: #1A212A;
+  background-color: #31373F;
   border-radius: 8px;
   padding: 2.5rem;
 }
@@ -607,7 +607,7 @@ exports[`Banner renders vertically by default 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
