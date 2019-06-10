@@ -17,7 +17,6 @@ export type FootballProps = {
 
 const FootballCard = styled.div({
   display: 'flex',
-  paddingTop: spacing('small'),
   backgroundColor: colors.neutral[90],
   maxWidth: rem(320),
   flexWrap: 'wrap',
@@ -71,8 +70,7 @@ const BadgeWrapper = styled.div({
 const Score = styled.span({
   color: colors.text,
   textAlign: 'center',
-  alignSelf: 'flex-end',
-  height: rem(48),
+  alignSelf: 'center',
   fontSize: rem(32),
   lineHeight: rem(30),
 });
@@ -85,7 +83,7 @@ const ScoreSeparator = styled.span({
 const Logos = styled.div({
   paddingLeft: spacing('medium'),
   paddingRight: spacing('medium'),
-  height: rem(72),
+  height: rem(80),
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
@@ -94,10 +92,13 @@ const Logos = styled.div({
 
 const Logo = styled.div(onClick => [
   {
+    height: '100%',
     width: rem(88),
+    textAlign: 'center',
+    padding: spacing('small'),
     img: {
       maxWidth: '100%',
-      padding: `${spacing('small')}`,
+      maxHeight: '100%',
     },
   },
   onClick && { cursor: 'pointer' },

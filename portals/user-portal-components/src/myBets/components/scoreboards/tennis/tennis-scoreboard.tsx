@@ -2,6 +2,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
+import lodashGet from 'lodash.get';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Badge } from '@heathmont/sportsbet-components/lib/badge';
 import { colors, border } from '@heathmont/sportsbet-tokens';
@@ -177,26 +178,78 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
         <Score>
           <TeamName home>{event.competitors.home.name}</TeamName>
           <TeamName away>{event.competitors.away.name}</TeamName>
-          {information.periodScores.map((periodScore, index) => {
-            return (
-              <React.Fragment key={index}>
-                <HomePoints
-                  period={index}
-                  // @ts-ignore
-                  win={periodScore.homeScore >= periodScore.awayScore}
-                >
-                  {periodScore.homeScore}
-                </HomePoints>
-                <AwayPoints
-                  period={index}
-                  // @ts-ignore
-                  win={periodScore.homeScore <= periodScore.awayScore}
-                >
-                  {periodScore.awayScore}
-                </AwayPoints>
-              </React.Fragment>
-            );
-          })}
+          <HomePoints
+            period={0}
+            win={
+              lodashGet(information, 'periodScores[0].homeScore') >=
+              lodashGet(information, 'periodScores[0].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[0].homeScore')}
+          </HomePoints>
+          <AwayPoints
+            period={0}
+            win={
+              lodashGet(information, 'periodScores[0].homeScore') <=
+              lodashGet(information, 'periodScores[0].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[0].awayScore')}
+          </AwayPoints>
+          <HomePoints
+            period={1}
+            win={
+              lodashGet(information, 'periodScores[1].homeScore') >=
+              lodashGet(information, 'periodScores[1].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[1].homeScore')}
+          </HomePoints>
+          <AwayPoints
+            period={1}
+            win={
+              lodashGet(information, 'periodScores[1].homeScore') <=
+              lodashGet(information, 'periodScores[1].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[1].awayScore')}
+          </AwayPoints>
+          <HomePoints
+            period={2}
+            win={
+              lodashGet(information, 'periodScores[2].homeScore') >=
+              lodashGet(information, 'periodScores[2].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[2].homeScore')}
+          </HomePoints>
+          <AwayPoints
+            period={2}
+            win={
+              lodashGet(information, 'periodScores[2].homeScore') <=
+              lodashGet(information, 'periodScores[2].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[2].awayScore')}
+          </AwayPoints>
+          <HomePoints
+            period={3}
+            win={
+              lodashGet(information, 'periodScores[3].homeScore') >=
+              lodashGet(information, 'periodScores[3].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[3].homeScore')}
+          </HomePoints>
+          <AwayPoints
+            period={3}
+            win={
+              lodashGet(information, 'periodScores[3].homeScore') <=
+              lodashGet(information, 'periodScores[3].awayScore')
+            }
+          >
+            {lodashGet(information, 'periodScores[3].awayScore')}
+          </AwayPoints>
           <HomePoints current>{information.homeScore}</HomePoints>
           <AwayPoints current>{information.awayScore}</AwayPoints>
         </Score>
