@@ -12,35 +12,35 @@ export const event: EventProps = {
     selection: { name: 'Liverpool', odds: '8.40' },
   },
   information: {
-    homeScore: '2',
-    awayScore: '5',
+    homeScore: '10',
+    awayScore: '10',
     periodScores: [
       {
         homeScore: 1,
-        awayScore: 2,
+        awayScore: null,
       },
       {
-        homeScore: 3,
+        homeScore: null,
         awayScore: 4,
       },
       {
         homeScore: null,
-        awayScore: 5,
+        awayScore: null,
       },
       {
-        homeScore: null,
-        awayScore: null,
+        homeScore: 7,
+        awayScore: 8,
       },
     ],
   },
   competitors: {
     home: {
       name: 'Liverpool',
-      image: 'https://ls.sportradar.com/ls/crest/big/2699.png',
+      image: 'https://ls.sportradar.com/ls/crest/big/4763.png',
     },
     away: {
       name: 'Real Madrid',
-      image: 'https://ls.sportradar.com/ls/crest/big/2685.png',
+      image: 'https://sportsbet.imgix.net/team-logos/cricket/142704.png',
     },
   },
   videoStream: true,
