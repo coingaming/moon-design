@@ -4,7 +4,7 @@
     "design/*",
     "portals/*"
   ],
-  "version": "0.51.5",
+  "version": "0.52.1",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
