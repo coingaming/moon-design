@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.53.0](https://github.com/coingaming/sportsbet-design/compare/v0.52.1...v0.53.0) (2019-06-10)
+
+
+### Features
+
+* **badge:** add modifier prop ([50398c6](https://github.com/coingaming/sportsbet-design/commit/50398c6))
+
+
+
+
+
 # [0.52.0](https://github.com/coingaming/sportsbet-design/compare/v0.51.5...v0.52.0) (2019-06-07)
 
 
