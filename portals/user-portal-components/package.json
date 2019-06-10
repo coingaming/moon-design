@@ -20,8 +20,10 @@
     "@heathmont/sportsbet-objects": "^0.51.0",
     "@heathmont/sportsbet-tokens": "^0.51.0",
     "@heathmont/sportsbet-utils": "^0.51.0",
+    "@types/lodash.get": "4.4.6",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
+    "lodash.get": "4.4.2",
     "react": "16.8.1",
     "react-dom": "16.8.1"
   }
