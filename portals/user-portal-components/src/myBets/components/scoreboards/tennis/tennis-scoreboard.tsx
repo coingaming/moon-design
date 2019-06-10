@@ -88,7 +88,7 @@ const Score = styled.span({
     "'awayName awayPeriod0 awayPeriod1 awayPeriod2 awayPeriod3 awayCurrent' ",
   gridTemplateRows: '40px 40px',
   gridTemplateColumns: '3fr 1fr 1fr 1fr 1fr 1.2fr',
-  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
+  borderTop: `${border.width}px solid ${colors.neutral[30]}`,
 });
 
 const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
@@ -96,7 +96,7 @@ const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
     {
       paddingLeft: spacing(),
       alignSelf: 'center',
-      borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
+      borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
       display: 'flex',
       alignItems: 'center',
       height: '100%',
@@ -116,8 +116,8 @@ const CellStyling = css({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  borderLeft: `${border.width}px solid ${colors.neutral[60]}`,
-  borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
+  borderLeft: `${border.width}px solid ${colors.neutral[30]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
 });
 
 type PointsType = {

@@ -25,7 +25,7 @@ export const MyBetsDigit = styled.div({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  color: colors.neutral[60],
+  color: colors.neutral[30],
   backgroundColor: colors.neutral[20],
   textAlign: 'center',
   marginTop: 0,
