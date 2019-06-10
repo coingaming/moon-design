@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.53.0](https://github.com/coingaming/sportsbet-design/compare/v0.52.1...v0.53.0) (2019-06-10)
+
+
+### Bug Fixes
+
+* adjust freebets navigation ([f26a57b](https://github.com/coingaming/sportsbet-design/commit/f26a57b))
+* adjust scoreboards styling ([e56c4d3](https://github.com/coingaming/sportsbet-design/commit/e56c4d3))
+* swap template literal with function call ([419cc7b](https://github.com/coingaming/sportsbet-design/commit/419cc7b))
+
+
+### Features
+
+* **badge:** add modifier prop ([50398c6](https://github.com/coingaming/sportsbet-design/commit/50398c6))
+
+
+
+
+
 ## [0.52.1](https://github.com/coingaming/sportsbet-design/compare/v0.52.0...v0.52.1) (2019-06-07)
 
 **Note:** Version bump only for package Sportsbet.io
