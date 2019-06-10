@@ -95,7 +95,7 @@ const Logo = styled.div(onClick => [
     height: '100%',
     width: rem(88),
     textAlign: 'center',
-    padding: `${spacing('small')}`,
+    padding: spacing('small'),
     img: {
       maxWidth: '100%',
       maxHeight: '100%',
