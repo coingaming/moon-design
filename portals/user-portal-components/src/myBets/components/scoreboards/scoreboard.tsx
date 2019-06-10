@@ -34,7 +34,6 @@ export const ScoreboardsContainer = ({ children }: any) => {
     overflow: 'auto',
     flexFlow: 'row nowrap',
     scrollSnapType: 'x mandatory',
-    backgroundColor: colors.neutral[70],
   });
 
   const Container = styled.div({

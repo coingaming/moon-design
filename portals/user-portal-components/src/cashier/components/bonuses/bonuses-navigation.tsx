@@ -37,7 +37,7 @@ export const BonusesSubNavigation = styled.div([
     overflowX: 'auto',
 
     '& > *': {
-      marginRight: spacing(),
+      marginRight: spacing('small'),
       flexShrink: 0,
     },
 
@@ -47,7 +47,7 @@ export const BonusesSubNavigation = styled.div([
       marginTop: 0,
       '& > *': {
         marginRight: 0,
-        marginLeft: spacing(),
+        marginLeft: spacing('small'),
       },
     },
   },

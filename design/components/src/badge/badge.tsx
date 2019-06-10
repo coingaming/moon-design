@@ -5,6 +5,8 @@ import { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+import { badgeModifiers, BadgeModifiers } from './modifiers';
+jsx;
 
 const badgeStyle: CSSObject = {
   padding: `0.2rem ${spacing('small')}`,
@@ -16,16 +18,27 @@ const badgeStyle: CSSObject = {
   letterSpacing: rem(1),
 };
 
-type BadgeProps = { color?: string; backgroundColor?: string };
+type BadgeProps = {
+  color?: string;
+  backgroundColor?: string;
+  modifier?: BadgeModifiers;
+};
 
 const Badge: React.FC<BadgeProps> = ({
   color = colors.neutral[10],
   backgroundColor = colors.brand,
+  modifier,
   children,
   ...restProps
 }) => {
   return (
-    <span css={{ color, backgroundColor, ...badgeStyle }} {...restProps}>
+    <span
+      css={[
+        modifier && badgeModifiers[modifier],
+        { color, backgroundColor, ...badgeStyle },
+      ]}
+      {...restProps}
+    >
       {children}
     </span>
   );
