@@ -34,7 +34,7 @@ exports[`Switch renders as checked 1`] = `
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: #1A212A;
+  background-color: #31373F;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 2.125rem;
@@ -101,7 +101,7 @@ exports[`Switch renders by default 1`] = `
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: #1A212A;
+  background-color: #31373F;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 2.125rem;
