@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.52.1](https://github.com/coingaming/sportsbet-design/compare/v0.52.0...v0.52.1) (2019-06-07)
+
+**Note:** Version bump only for package @heathmont/sportsbet-user-portal
+
+
+
+
+
+# [0.52.0](https://github.com/coingaming/sportsbet-design/compare/v0.51.5...v0.52.0) (2019-06-07)
+
+
+### Features
+
+* **nav:** side menu improvements ([fcb4819](https://github.com/coingaming/sportsbet-design/commit/fcb4819))
+* Implement addWallet view ([e81f482](https://github.com/coingaming/sportsbet-design/commit/e81f482))
+
+
+
+
+
 ## [0.51.5](https://github.com/coingaming/sportsbet-design/compare/v0.51.4...v0.51.5) (2019-06-07)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal
