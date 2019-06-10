@@ -113,7 +113,7 @@ export const VerifyEmailUploadSeparator = styled.div({
   marginTop: spacing('medium'),
   width: '100%',
   height: `${border.width}px`,
-  backgroundColor: colors.neutral[60],
+  backgroundColor: colors.neutral[30],
 });
 
 export const VerifyEmailUploadProofDescription = styled.p({
