@@ -214,8 +214,8 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 1`] = 
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #010812;
-  border: 1px solid #1A212A;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -264,8 +264,8 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 2`] = 
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #010812;
-  border: 1px solid #1A212A;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -314,8 +314,8 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 1`] =
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #010812;
-  border: 1px solid #1A212A;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -364,8 +364,8 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 2`] =
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #010812;
-  border: 1px solid #1A212A;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -610,7 +610,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 1`] =
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -659,7 +659,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] =
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -708,7 +708,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 1`] 
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -757,7 +757,7 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] 
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -855,8 +855,8 @@ exports[`Button Modifiers renders as optional 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #010812;
-  border: 1px solid #1A212A;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -954,7 +954,7 @@ exports[`Button Modifiers renders as secondary 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -1052,8 +1052,8 @@ exports[`Button Modifiers renders outline as optional 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #010812;
-  border: 1px solid #1A212A;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -1151,7 +1151,7 @@ exports[`Button Modifiers renders outline as secondary 1`] = `
   border-color: transparent;
   border-radius: 100px;
   color: #8697a2;
-  background-color: #1A212A;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
