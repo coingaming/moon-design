@@ -12,7 +12,7 @@ import { EventProps } from '../scoreboard';
 export type FootballProps = {
   event: EventProps;
   timer: string;
-  badges?: { color?: string; backgroundColor?: string; title: string }[];
+  badges?: { modifier?: string; text: string }[];
 };
 
 const FootballCard = styled.div({
@@ -136,12 +136,10 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
           <FootballLeagueTitle>{event.name}</FootballLeagueTitle>
           {badges &&
             badges.map((badge, index) => {
-              const { color, backgroundColor, title } = badge;
+              const { modifier, text } = badge;
               return (
                 <BadgeWrapper key={index}>
-                  <Badge color={color} backgroundColor={backgroundColor}>
-                    {title}
-                  </Badge>
+                  <Badge modifier={modifier}>{text}</Badge>
                 </BadgeWrapper>
               );
             })}

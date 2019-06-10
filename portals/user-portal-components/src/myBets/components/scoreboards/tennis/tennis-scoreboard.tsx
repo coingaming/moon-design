@@ -14,7 +14,7 @@ import { TennisSelections } from './tennis-selections';
 export type TennisProps = {
   event: EventProps;
   timer: string;
-  badges?: { color?: string; backgroundColor?: string; title: string }[];
+  badges?: { modifier?: string; text: string }[];
 };
 
 const Container = styled.div({
@@ -162,12 +162,10 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <span>{event.name}</span>
           {badges &&
             badges.map((badge, index) => {
-              const { color, backgroundColor, title } = badge;
+              const { modifier, text } = badge;
               return (
                 <BadgeWrapper key={index}>
-                  <Badge color={color} backgroundColor={backgroundColor}>
-                    {title}
-                  </Badge>
+                  <Badge modifier={modifier}>{text}</Badge>
                 </BadgeWrapper>
               );
             })}
