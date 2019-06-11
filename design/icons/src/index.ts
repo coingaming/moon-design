@@ -47,3 +47,5 @@ export { Background1 } from './backgrounds/Background1';
 export { IconCoins } from './backgrounds/IconCoins';
 export { IconExchange } from './backgrounds/IconExchange';
 export { IconMessage } from './backgrounds/IconMessage';
+export { IconSuccessFlower } from './backgrounds/IconSuccessFlower';
+export { IconWarningExclamation } from './backgrounds/IconWarningExclamation';
