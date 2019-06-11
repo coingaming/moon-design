@@ -35,7 +35,7 @@ export const BitcoinWallet = () => {
           >
             Deposit
           </Link>
-          <Link secondary href={'/withdraw'}>
+          <Link secondary href={'/withdraw-btc'}>
             Withdraw
           </Link>
         </div>
