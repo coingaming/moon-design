@@ -72,7 +72,7 @@ const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
         backgroundRepeat: 'no-repeat',
         backgroundBlendMode: 'luminosity',
         backgroundImage: inlineSVG(backgroundIcon),
-        backgroundSize: `auto 75%, ${cardGradientSizes}`,
+        backgroundSize: `auto 50%, ${cardGradientSizes}`,
         backgroundPosition: `center right ${spacing()}`,
       },
       cardShadow,
