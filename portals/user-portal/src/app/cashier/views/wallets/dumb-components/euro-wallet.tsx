@@ -4,11 +4,11 @@ import { jsx } from '@emotion/core';
 import {
   Card,
   CardToggle,
-  Button,
   CardBalance,
   Form,
   FormItem,
   Select,
+  Link,
 } from '@heathmont/sportsbet-components';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconEuro } from '@heathmont/sportsbet-icons/lib/svg/IconEuro';
@@ -34,9 +34,9 @@ export const EuroWallet: React.FC<{}> = () => {
           }}
         />
         <div>
-          <Button round modifier="optional">
+          <Link secondary href={'#'}>
             Use wallet
-          </Button>
+          </Link>
         </div>
       </Card>
     );
