@@ -76,6 +76,7 @@ const TabItem = styled(NavLink, {
       paddingTop: spacing(),
       marginLeft: spacing(),
       marginRight: spacing(),
+      borderBottom: `${underlineWidth}px solid transparent`,
       '&:hover, &:focus, &:active, .active': {
         borderBottom: `${underlineWidth}px solid ${colors.brand}`,
         color: colors.neutral[10],

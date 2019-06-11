@@ -41,7 +41,7 @@ export const ScoreboardsContainer = ({ children }: any) => {
     scrollSnapAlign: 'center',
     minWidth: rem(320),
     [mq(breakpoints.small)]: {
-      marginRight: spacing('large'),
+      marginRight: spacing('small'),
     },
   });
 
