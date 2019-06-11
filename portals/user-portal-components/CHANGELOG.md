@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
+
+
+### Features
+
+* **cashier-banner:** as a link ([5a972dc](https://github.com/coingaming/sportsbet-design/commit/5a972dc))
+* **withdraw-btc:** export all components ([c73dd62](https://github.com/coingaming/sportsbet-design/commit/c73dd62))
+
+
+
+
+
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
 
 
