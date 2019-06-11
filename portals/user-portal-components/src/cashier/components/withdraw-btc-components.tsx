@@ -131,6 +131,14 @@ export const WithdrawBTCSidebarBanner = styled.div({
   },
 });
 
+export const CashierBanner: React.FC<NavLinkProps> = ({ children, to }) => {
+  return (
+    <NavLink css={{ textDecoration: 'none' }} to={to}>
+      <WithdrawBTCSidebarBanner>{children}</WithdrawBTCSidebarBanner>
+    </NavLink>
+  );
+};
+
 export const WithdrawBTCSidebarBannerHeader = styled.div({
   display: 'flex',
   flexDirection: 'row',
@@ -145,6 +153,7 @@ export const WithdrawBTCSidebarBannerHeaderIcon = styled.div({
 export const WithdrawBTCSidebarBannerHeaderCaption = styled.p({
   marginTop: 0,
   fontSize: rem(16),
+  color: colors.neutral[10],
 });
 
 export const WithdrawBTCSidebarBannerText = styled.p({
