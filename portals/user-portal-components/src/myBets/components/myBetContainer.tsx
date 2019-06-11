@@ -42,7 +42,7 @@ export const MyBetContainerHeaderOdds = styled.span<{}>({
 });
 
 export const MyBetContainerHeaderPotentialWin = styled.span<{}>({
-  width: rem(105),
+  width: rem(145),
   marginLeft: rem(5),
 });
 
@@ -53,7 +53,7 @@ export const MyBetContainer = styled.details<{}>({
   flexDirection: 'row',
   justifyContent: 'space-between',
   backgroundColor: colors.secondary,
-  marginBottom: spacing('large'),
+  marginBottom: spacing('small'),
   '&[open]': {
     Summary: {
       borderBottom: `${rem(1)} solid ${colors.neutral[90]}`,
@@ -186,7 +186,7 @@ export const MyBetHeaderOdds = styled.span({
 });
 
 export const MyBetHeaderPotential = styled.span({
-  width: rem(105),
+  width: rem(145),
   marginLeft: spacing('xsmall'),
   color: colors.brand,
 });
@@ -203,7 +203,6 @@ export const MyBetHeaderCaptionMatchName = styled.span();
 export const MyBetContents = styled.div({
   boxSizing: 'border-box',
   paddingTop: spacing('medium'),
-  paddingLeft: spacing(),
   paddingBottom: spacing(),
   [mq(breakpoints.medium)]: {
     paddingTop: spacing(),
@@ -235,7 +234,7 @@ export const MyBetCaptionValue = styled.span<{ color?: string }>(
   ({ color }) => {
     return [
       {
-        width: rem(120),
+        width: rem(190),
         textAlign: 'right',
       },
       color && { color },
