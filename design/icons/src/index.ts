@@ -44,4 +44,6 @@ export { IconSuccess } from './svg/IconSuccess';
 export { IconUpload } from './svg/IconUpload';
 export { IconWarning } from './svg/IconWarning';
 export { Background1 } from './backgrounds/Background1';
-export { IconSuccessFlower } from './backgrounds/IconSuccessFlower';
+export { IconCoins } from './backgrounds/IconCoins';
+export { IconExchange } from './backgrounds/IconExchange';
+export { IconMessage } from './backgrounds/IconMessage';
