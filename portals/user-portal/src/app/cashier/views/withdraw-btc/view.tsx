@@ -23,6 +23,7 @@ import {
   WithdrawBTCSidebarBannerHeaderIcon,
   WithdrawBTCSidebarBannerHeaderCaption,
   WithdrawBTCSidebarBannerText,
+  CashierBanner,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
@@ -113,7 +114,7 @@ export const WithdrawViewBTC = () => {
             </WithdrawBTCFormWrapper>
           </WithdrawBTCMainArea>
           <WithdrawBTCSibebarArea>
-            <WithdrawBTCSidebarBanner>
+            <CashierBanner to="/cashier">
               <WithdrawBTCSidebarBannerHeader>
                 <WithdrawBTCSidebarBannerHeaderIcon>
                   <IconMessage />
@@ -126,9 +127,9 @@ export const WithdrawViewBTC = () => {
                 If you require any assistance our 24/7 live chat support is here
                 to help.
               </WithdrawBTCSidebarBannerText>
-            </WithdrawBTCSidebarBanner>
+            </CashierBanner>
 
-            <WithdrawBTCSidebarBanner>
+            <CashierBanner to="/cashier">
               <WithdrawBTCSidebarBannerHeader>
                 <WithdrawBTCSidebarBannerHeaderIcon>
                   <IconCoins />
@@ -141,9 +142,9 @@ export const WithdrawViewBTC = () => {
                 If you require any assistance our 24/7 live chat support is here
                 to help.
               </WithdrawBTCSidebarBannerText>
-            </WithdrawBTCSidebarBanner>
+            </CashierBanner>
 
-            <WithdrawBTCSidebarBanner>
+            <CashierBanner to="/cashier">
               <WithdrawBTCSidebarBannerHeader>
                 <WithdrawBTCSidebarBannerHeaderIcon>
                   <IconExchange />
@@ -156,7 +157,7 @@ export const WithdrawViewBTC = () => {
                 If you require any assistance our 24/7 live chat support is here
                 to help.
               </WithdrawBTCSidebarBannerText>
-            </WithdrawBTCSidebarBanner>
+            </CashierBanner>
           </WithdrawBTCSibebarArea>
         </WithdrawBTCLayout>
       </CashierLayout>
