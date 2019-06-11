@@ -83,10 +83,50 @@ export const WithdrawViewBTC = () => {
           <div>
             <Form legend="Enter withdraw amount">
               <FormItem>
-                <TextInput label="Enter amount" type="number" />
+                <div
+                  css={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'flex-end',
+                  }}
+                >
+                  <div css={{ flex: 'auto' }}>
+                    <TextInput
+                      label="Enter amount"
+                      type="number"
+                      placeholder="Enter amount"
+                    />
+                  </div>
+                  <div
+                    css={{
+                      color: colors.neutral[20],
+                      backgroundColor: colors.neutral[70],
+                      padding: spacing(),
+                      border: `${border.width}px solid ${colors.neutral[60]}`,
+                      height: rem(50),
+                      borderRadius: border.radius.small,
+                    }}
+                  >
+                    mBTC
+                  </div>
+                </div>
               </FormItem>
+              <p
+                css={{
+                  fontSize: rem(12),
+                  color: colors.warning,
+                  marginTop: spacing('small'),
+                  textAlign: 'right',
+                }}
+              >
+                Minimum withdraw amount is €20
+              </p>
               <FormItem>
-                <TextInput label="Enter your bitcoin address" type="text" />
+                <TextInput
+                  label="Bitcoin address"
+                  type="text"
+                  placeholder="Enter your bitcoin address"
+                />
               </FormItem>
 
               <FormItem>
@@ -98,7 +138,9 @@ export const WithdrawViewBTC = () => {
               </FormItem>
             </Form>
           </div>
-          <div>Side Banners</div>
+          <div>
+            <div>Banner</div>
+          </div>
         </div>
       </CashierLayout>
     </React.Fragment>
