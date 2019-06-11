@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
+
+
+### Features
+
+* **icons:** add icons for banners ([2e3b29f](https://github.com/coingaming/sportsbet-design/commit/2e3b29f))
+* **icons:** add IconWarningExclamation ([3477738](https://github.com/coingaming/sportsbet-design/commit/3477738))
+
+
+
+
+
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
