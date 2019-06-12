@@ -9,13 +9,14 @@ import { badgeModifiers, BadgeModifiers } from './modifiers';
 jsx;
 
 const badgeStyle: CSSObject = {
-  padding: `0.2rem ${spacing('small')}`,
+  padding: `0 ${rem(7)}`,
   textAlign: 'center',
   textTransform: 'uppercase',
   borderRadius: border.radius.largest,
-  fontSize: rem(10),
-  lineHeight: rem(10),
-  letterSpacing: rem(1),
+  fontSize: rem(8),
+  lineHeight: rem(14),
+  letterSpacing: rem(0.5),
+  fontWeight: 700,
 };
 
 type BadgeProps = {
