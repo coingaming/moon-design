@@ -22,34 +22,42 @@ export const SettingsSection = styled.section({
   // },
 });
 
-export const SettingsBlock = styled.div<{ highlight?: boolean; onClick?: any }>(
-  ({ highlight = false, onClick }) => [
-    {
-      minHeight: rem(96),
-      alignItems: 'center',
-      paddingLeft: spacing(),
-      paddingRight: spacing(),
-      paddingTop: spacing('medium'),
-      paddingBottom: spacing('medium'),
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      [mq(breakpoints.medium)]: {
-        paddingLeft: 0,
-        paddingRight: 0,
-      },
+export const SettingsBlock = styled.div<{
+  highlight?: boolean;
+  onClick?: any;
+  border?: boolean;
+}>(({ highlight = false, onClick, border = false }) => [
+  {
+    minHeight: rem(96),
+    alignItems: 'center',
+    paddingLeft: spacing(),
+    paddingRight: spacing(),
+    paddingTop: spacing('medium'),
+    paddingBottom: spacing('medium'),
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    [mq(breakpoints.medium)]: {
+      paddingLeft: 0,
+      paddingRight: 0,
     },
-    highlight && {
-      position: 'relative',
-      background: `linear-gradient(90deg, ${colors.neutral[90]} 0%, ${
-        colors.neutral[70]
-      } 100%)`,
+  },
+  highlight && {
+    position: 'relative',
+    background: `linear-gradient(90deg, ${colors.neutral[90]} 0%, ${
+      colors.neutral[70]
+    } 100%)`,
+  },
+  onClick && {
+    cursor: 'pointer',
+  },
+  border && {
+    borderBottom: `${rem(1)} solid ${colors.secondary}`,
+    '&:last-of-type': {
+      borderBottom: 'none',
     },
-    onClick && {
-      cursor: 'pointer',
-    },
-  ]
-);
+  },
+]);
 
 export const BlockColumn = styled.div<{}>(() => [
   {
