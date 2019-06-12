@@ -13,6 +13,7 @@ const SwitchWidth = 64; // px
 const switcher: CSSObject = {
   position: 'relative',
   display: 'inline-block',
+  flexShrink: 0,
   width: rem(SwitchWidth),
   height: rem(SwitchHeight),
 };

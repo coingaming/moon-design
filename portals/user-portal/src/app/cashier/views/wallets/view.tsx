@@ -22,6 +22,9 @@ import { RequiredTransactionDetailItem } from './dumb-components/transaction-det
 import { CashierNav } from '../deposit/dumb-components/navigation';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+import { Heading } from '@heathmont/sportsbet-components';
+import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 jsx;
 
 const transactionItems = [
@@ -73,7 +76,22 @@ export const WalletsView = () => {
         </WalletsContainer>
         <AddWalletMobile to={'/add-wallet'}>+ Add Wallet</AddWalletMobile>
         <TransactionsSection>
-          <CashierHeading>Transactions</CashierHeading>
+          {/*<CashierHeading>Transactions</CashierHeading>*/}
+          <Heading
+            size="charlie"
+            as="h1"
+            css={{
+              marginTop: spacing('large'),
+              paddingLeft: spacing('large'),
+              paddingTop: spacing('large'),
+              paddingBottom: spacing('large'),
+              [mq(breakpoints.medium)]: {
+                paddingLeft: 0,
+              },
+            }}
+          >
+            Transactions
+          </Heading>
           <TransactionsHeader />
           {items}
         </TransactionsSection>

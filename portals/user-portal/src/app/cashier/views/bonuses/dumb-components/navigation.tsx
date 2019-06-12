@@ -11,8 +11,5 @@ export const RewardsNav = () => (
     <TabItem to={'/notifications'}>Notifications</TabItem>
     <TabItem to={'/account'}>Account</TabItem>
     <TabItem to={'/settings'}>Settings</TabItem>
-    <TabItem to={'#'} rightAligned>
-      Log out
-    </TabItem>
   </Tab>
 );
