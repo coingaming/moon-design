@@ -4,18 +4,16 @@ import { css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import lodashGet from 'lodash.get';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { Badge } from '@heathmont/sportsbet-components/lib/badge';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 
 import { Market } from '../market';
 import { EventProps } from '../scoreboard';
 import { TennisSelections } from './tennis-selections';
-import { BadgeModifiers } from '@heathmont/sportsbet-components/lib/badge/modifiers';
 
 export type TennisProps = {
   event: EventProps;
   timer: string;
-  badges?: { modifier?: BadgeModifiers; text: string }[];
+  badges?: React.FC[];
 };
 
 const Container = styled.div({
@@ -162,12 +160,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <span>{event.name}</span>
           {badges &&
             badges.map((badge, index) => {
-              const { modifier, text } = badge;
-              return (
-                <BadgeWrapper key={index}>
-                  <Badge modifier={modifier}>{text}</Badge>
-                </BadgeWrapper>
-              );
+              return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
             })}
         </TitleContainer>
         <Timer>{timer}</Timer>
