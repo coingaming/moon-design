@@ -8,7 +8,7 @@ import {
   Form,
   FormItem,
   Select,
-  Link,
+  Button,
 } from '@heathmont/sportsbet-components';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconEuro } from '@heathmont/sportsbet-icons/lib/svg/IconEuro';
@@ -34,9 +34,9 @@ export const EuroWallet: React.FC<{}> = () => {
           }}
         />
         <div>
-          <Link secondary href={'#'}>
+          <Button round modifier="optional">
             Use wallet
-          </Link>
+          </Button>
         </div>
       </Card>
     );
