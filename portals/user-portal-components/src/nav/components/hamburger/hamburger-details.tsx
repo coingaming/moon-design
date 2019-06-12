@@ -68,8 +68,8 @@ export const SectionItem = styled.li({
   fontSize: rem(22),
   color: colors.neutral[10],
   textTransform: 'uppercase',
-  borderTop: `${border.width}px solid ${colors.neutral[65]}`,
-  borderBottom: `${border.width}px solid ${colors.neutral[65]}`,
+  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
+  borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
 });
 
 export const CenteredLogo = styled.div({
@@ -106,7 +106,7 @@ export const Username = styled.p({
 export const Icon = styled.div({
   height: rem(40),
   width: rem(40),
-  border: `${border.width}px solid ${colors.neutral[65]}`,
+  border: `${border.width}px solid ${colors.neutral[60]}`,
   borderRadius: border.radius.small,
   display: 'flex',
   justifyContent: 'center',

@@ -25,8 +25,8 @@ Array [
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -117,8 +117,8 @@ Array [
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -207,8 +207,8 @@ Array [
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -297,8 +297,8 @@ Array [
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -402,8 +402,8 @@ Array [
   font: inherit;
   font-size: 1rem;
   color: #fff;
-  background-color: #0E141E;
-  border: 1px solid #1A212A;
+  background-color: #31373F;
+  border: 1px solid #212730;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
