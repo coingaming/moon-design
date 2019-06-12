@@ -1,6 +1,7 @@
+import * as React from 'react';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { EventProps } from '@heathmont/sportsbet-user-portal-components';
-import { BadgeModifiers } from '@heathmont/sportsbet-components/lib/badge/modifiers';
+import { Badge } from '@heathmont/sportsbet-components';
 
 export const event: EventProps = {
   name: 'England, FA Cup',
@@ -62,17 +63,20 @@ export const tennis2 = {
   videoStream: true,
 };
 
-export const liveBadge: { text: string; modifier: BadgeModifiers } = {
-  text: 'live',
-  modifier: 'live',
-};
+export const liveBadge = (
+  <Badge color={'#fff'} backgroundColor={colors.highlight}>
+    Live
+  </Badge>
+);
 
-export const wonBadge: { text: string; modifier: BadgeModifiers } = {
-  text: 'won',
-  modifier: 'won',
-};
+export const wonBadge = (
+  <Badge color={'white'} backgroundColor={colors.brand}>
+    Won
+  </Badge>
+);
 
-export const activeBadge: { text: string; modifier: BadgeModifiers } = {
-  text: 'active',
-  modifier: 'active',
-};
+export const activeBadge = (
+  <Badge color={'#fff'} backgroundColor={colors.brand}>
+    Active
+  </Badge>
+);
