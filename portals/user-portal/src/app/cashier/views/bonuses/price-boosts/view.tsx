@@ -12,9 +12,11 @@ import {
   BonusesHeadingContainer,
   BonusesSubNavigation,
   BonusWrapper,
-  CardCaption,
   CashierLayout,
+  PriceBoost,
+  PriceBoostCaption,
 } from '@heathmont/sportsbet-user-portal-components';
+import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const PriceBoostsView = () => {
@@ -61,23 +63,16 @@ export const PriceBoostsView = () => {
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
         <BonusWrapper>
-          {cards.map((card, i) => (
-            <Card
-              key={i}
-              flex
-              template={'front'}
-              backgroundIcon={<IconSoccer />}
+          {cards.map(() => (
+            <PriceBoost
+              backgroundIcon={<IconSoccer color={colors.neutral[20]} />}
             >
-              <div>
-                <Heading size="echo" as="h5">
-                  Soccer
-                </Heading>
-                <CardCaption>8 Available</CardCaption>
-              </div>
-              <div>
-                <Button modifier="optional">use</Button>
-              </div>
-            </Card>
+              <Heading size="echo" as="h5">
+                Soccer
+              </Heading>
+              <PriceBoostCaption>8 Available</PriceBoostCaption>
+              <Button modifier="optional">Use</Button>
+            </PriceBoost>
           ))}
         </BonusWrapper>
       </CashierLayout>

@@ -228,7 +228,7 @@ export const MyBetsView = () => {
               <TennisScoreboard
                 event={tennis2}
                 timer="Set 5"
-                badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
+                badges={[liveBadge, wonBadge, liveBadge]}
               />
             </ScoreboardsContainer>
             <MyBetCaptions>

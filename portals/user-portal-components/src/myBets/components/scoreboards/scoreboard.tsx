@@ -37,12 +37,9 @@ export const ScoreboardsContainer = ({ children }: any) => {
   });
 
   const Container = styled.div({
-    marginRight: spacing(),
+    marginRight: spacing('small'),
     scrollSnapAlign: 'center',
     minWidth: rem(320),
-    [mq(breakpoints.small)]: {
-      marginRight: spacing('large'),
-    },
   });
 
   if (children.length > 1) {
