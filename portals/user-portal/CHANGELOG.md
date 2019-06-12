@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
+
+
+### Bug Fixes
+
+* add optional border to settings block ([034cc4b](https://github.com/coingaming/sportsbet-design/commit/034cc4b))
+* badge paddings & navtab margins ([6ef23d3](https://github.com/coingaming/sportsbet-design/commit/6ef23d3))
+* properly type out scoreboard badge modifiers ([02b5c6f](https://github.com/coingaming/sportsbet-design/commit/02b5c6f))
+* revert euro wallet link to button ([8a7b295](https://github.com/coingaming/sportsbet-design/commit/8a7b295))
+
+
+### Features
+
+* priceboost compoent ([e4fd87a](https://github.com/coingaming/sportsbet-design/commit/e4fd87a))
+
+
+
+
+
 # [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
 
 
