@@ -70,7 +70,7 @@ export const liveBadge = (
 );
 
 export const wonBadge = (
-  <Badge color={'red'} backgroundColor={colors.brand}>
+  <Badge color={'white'} backgroundColor={colors.brand}>
     Won
   </Badge>
 );
