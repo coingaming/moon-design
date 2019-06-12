@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
+
+
+### Bug Fixes
+
+* add-wallet component call & update tests ([5f60a08](https://github.com/coingaming/sportsbet-design/commit/5f60a08))
+* badge resize upon flex-child ([e6c8b7d](https://github.com/coingaming/sportsbet-design/commit/e6c8b7d))
+
+
+
+
+
 # [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
 
 
