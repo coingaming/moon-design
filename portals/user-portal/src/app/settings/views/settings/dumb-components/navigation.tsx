@@ -15,9 +15,5 @@ export const SettingsNav = () => (
     <TabItem active to={'/settings'}>
       Settings
     </TabItem>
-
-    <TabItem to={'#'} rightAligned>
-      Log out
-    </TabItem>
   </Tab>
 );
