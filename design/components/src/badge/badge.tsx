@@ -9,12 +9,12 @@ import { badgeModifiers, BadgeModifiers } from './modifiers';
 jsx;
 
 const badgeStyle: CSSObject = {
-  padding: `0 ${rem(7)}`,
+  padding: `${rem(2)} ${rem(7)}`,
   textAlign: 'center',
   textTransform: 'uppercase',
   borderRadius: border.radius.largest,
   fontSize: rem(8),
-  lineHeight: rem(14),
+  lineHeight: rem(10),
   letterSpacing: rem(0.5),
   fontWeight: 700,
 };
