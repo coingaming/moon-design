@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
+
+
+### Bug Fixes
+
+* add correct font-weight to transaction items ([091501b](https://github.com/coingaming/sportsbet-design/commit/091501b))
+* add optional border to settings block ([034cc4b](https://github.com/coingaming/sportsbet-design/commit/034cc4b))
+* adjust mybets styling ([257e0ce](https://github.com/coingaming/sportsbet-design/commit/257e0ce))
+* badge paddings & navtab margins ([6ef23d3](https://github.com/coingaming/sportsbet-design/commit/6ef23d3))
+* price-boosts shadows ([fbe714c](https://github.com/coingaming/sportsbet-design/commit/fbe714c))
+* properly type out scoreboard badge modifiers ([02b5c6f](https://github.com/coingaming/sportsbet-design/commit/02b5c6f))
+
+
+### Features
+
+* priceboost compoent ([e4fd87a](https://github.com/coingaming/sportsbet-design/commit/e4fd87a))
+
+
+
+
+
+# [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
+
+
+### Features
+
+* **cashier-banner:** as a link ([5a972dc](https://github.com/coingaming/sportsbet-design/commit/5a972dc))
+* **withdraw-btc:** export all components ([c73dd62](https://github.com/coingaming/sportsbet-design/commit/c73dd62))
+
+
+
+
+
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
 
 
