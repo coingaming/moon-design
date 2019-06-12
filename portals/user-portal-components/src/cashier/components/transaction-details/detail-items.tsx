@@ -44,6 +44,7 @@ const desktopMargins: CSSObject = {
 
 export const Title = styled.p({
   color: colors.neutral[20],
+  fontWeight: 500,
   marginTop: 0,
   marginBottom: spacing('small'),
   width: 'fit-content',
