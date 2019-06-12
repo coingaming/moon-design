@@ -8,12 +8,11 @@ import { Badge } from '@heathmont/sportsbet-components/lib/badge';
 import { FootballSelections } from './football-selections';
 import { Market } from '../market';
 import { EventProps } from '../scoreboard';
-import { BadgeModifiers } from '@heathmont/sportsbet-components/lib/badge/modifiers';
 
 export type FootballProps = {
   event: EventProps;
   timer: string;
-  badges?: { modifier?: BadgeModifiers; text: string }[];
+  badges?: React.FC[];
 };
 
 const FootballCard = styled.div({
@@ -137,12 +136,7 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
           <FootballLeagueTitle>{event.name}</FootballLeagueTitle>
           {badges &&
             badges.map((badge, index) => {
-              const { modifier, text } = badge;
-              return (
-                <BadgeWrapper key={index}>
-                  <Badge modifier={modifier}>{text}</Badge>
-                </BadgeWrapper>
-              );
+              return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
             })}
         </TitleContainer>
         <Timer>{timer}</Timer>
