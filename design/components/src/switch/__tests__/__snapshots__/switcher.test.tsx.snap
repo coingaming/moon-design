@@ -4,6 +4,9 @@ exports[`Switch renders as checked 1`] = `
 .emotion-2 {
   position: relative;
   display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   width: 4rem;
   height: 2rem;
 }
@@ -71,6 +74,9 @@ exports[`Switch renders by default 1`] = `
 .emotion-2 {
   position: relative;
   display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   width: 4rem;
   height: 2rem;
 }
