@@ -3,8 +3,6 @@ import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { Badge } from '@heathmont/sportsbet-components/lib/badge';
-
 import { FootballSelections } from './football-selections';
 import { Market } from '../market';
 import { EventProps } from '../scoreboard';
