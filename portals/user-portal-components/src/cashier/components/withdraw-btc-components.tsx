@@ -9,22 +9,34 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import styled from '@emotion/styled';
 jsx;
 
-export const WalletBackButton: React.FC<NavLinkProps> = ({ children, to }) => {
+export const WalletBackButton: React.FC<NavLinkProps & { as: any }> = ({
+  children,
+  to,
+  as,
+}) => {
+  const StyledIconArrowLeft = () => (
+    <IconArrowLeft
+      css={{
+        color: colors.neutral[20],
+        paddingLeft: spacing(),
+        paddingRight: spacing(),
+        fontSize: '3rem',
+        '&:hover': {
+          color: colors.neutral[10],
+        },
+      }}
+    />
+  );
+
+  const ArrowLeftLink = React.createElement(
+    as || NavLink,
+    { to },
+    React.createElement(StyledIconArrowLeft)
+  );
+
   return (
     <React.Fragment>
-      <NavLink to={to}>
-        <IconArrowLeft
-          css={{
-            color: colors.neutral[20],
-            paddingLeft: spacing(),
-            paddingRight: spacing(),
-            fontSize: '3rem',
-            '&:hover': {
-              color: colors.neutral[10],
-            },
-          }}
-        />
-      </NavLink>
+      {ArrowLeftLink}
       {children}
     </React.Fragment>
   );
