@@ -10,17 +10,17 @@ import { colors, border } from '@heathmont/sportsbet-tokens';
 import { Market } from '../market';
 import { EventProps } from '../scoreboard';
 import { TennisSelections } from './tennis-selections';
+import { BadgeModifiers } from '@heathmont/sportsbet-components/lib/badge/modifiers';
 
 export type TennisProps = {
   event: EventProps;
   timer: string;
-  badges?: { modifier?: string; text: string }[];
+  badges?: { modifier?: BadgeModifiers; text: string }[];
 };
 
 const Container = styled.div({
   backgroundColor: colors.neutral[90],
   maxWidth: rem(320),
-  // background: colors.neutral[20],
   display: 'flex',
   flexWrap: 'nowrap',
   flexDirection: 'column',
