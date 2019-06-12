@@ -15,7 +15,7 @@ import { BadgeModifiers } from '@heathmont/sportsbet-components/lib/badge/modifi
 export type TennisProps = {
   event: EventProps;
   timer: string;
-  badges?: { modifier?: BadgeModifiers; text: string }[];
+  badges?: React.FC[];
 };
 
 const Container = styled.div({
@@ -162,12 +162,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <span>{event.name}</span>
           {badges &&
             badges.map((badge, index) => {
-              const { modifier, text } = badge;
-              return (
-                <BadgeWrapper key={index}>
-                  <Badge modifier={modifier}>{text}</Badge>
-                </BadgeWrapper>
-              );
+              return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
             })}
         </TitleContainer>
         <Timer>{timer}</Timer>
