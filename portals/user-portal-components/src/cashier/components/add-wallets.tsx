@@ -52,7 +52,7 @@ const Container: React.FC<{
   active?: boolean;
 }> = styled.div(({ backgroundIcon, active }) => [
   {
-    backgroundColor: colors.optional,
+    backgroundColor: colors.secondary,
     paddingTop: spacing(),
     paddingBottom: spacing(),
     paddingRight: spacing('large'),
@@ -60,7 +60,7 @@ const Container: React.FC<{
     borderRadius: rem(4),
     position: 'relative',
     Button: {
-      marginTop: spacing('small'),
+      marginTop: spacing('medium'),
     },
   },
   backgroundIcon && {
