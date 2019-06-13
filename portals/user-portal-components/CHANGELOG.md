@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
+
+
+### Bug Fixes
+
+* badge resize upon flex-child ([e6c8b7d](https://github.com/coingaming/sportsbet-design/commit/e6c8b7d))
+* badges passed as react element ([2d26e87](https://github.com/coingaming/sportsbet-design/commit/2d26e87))
+
+
+### Features
+
+* **WalletBackButton:** accepts as prop ([9486e1b](https://github.com/coingaming/sportsbet-design/commit/9486e1b))
+
+
+
+
+
 # [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
 
 
