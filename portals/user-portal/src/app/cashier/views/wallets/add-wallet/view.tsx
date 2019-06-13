@@ -18,7 +18,6 @@ import {
   IconBitcoin,
   IconEuro,
 } from '@heathmont/sportsbet-icons';
-import { CardCaption } from '@heathmont/sportsbet-user-portal-components/dist';
 import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
 
@@ -63,20 +62,24 @@ export const AddWalletView = () => {
               <React.Fragment>
                 <AddWalletCard
                   active
-                  backgroundIcon={<IconEuro color={colors.secondary} />}
+                  backgroundIcon={
+                    <IconEuro color={colors.alternate.secondary[10]} />
+                  }
                 >
                   <Heading size="echo" as="h5">
                     Euro
                   </Heading>
-                  <CardCaption>FIAT Currency</CardCaption>
-                  <Button modifier="secondary">Remove</Button>
+                  <Button modifier="optional">Remove</Button>
                 </AddWalletCard>
-                <AddWalletCard backgroundIcon={<IconBitcoin />}>
+                <AddWalletCard
+                  backgroundIcon={
+                    <IconBitcoin color={colors.alternate.secondary[10]} />
+                  }
+                >
                   <Heading size="echo" as="h5">
                     Bitcoin
                   </Heading>
-                  <CardCaption>Crypto Currency</CardCaption>
-                  <Button modifier="secondary">Add</Button>
+                  <Button modifier="optional">Add</Button>
                 </AddWalletCard>
               </React.Fragment>
             );
