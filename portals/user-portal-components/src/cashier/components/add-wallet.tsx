@@ -36,7 +36,7 @@ const borderAddWallet: CSSObject = {
   },
 };
 
-const AddWalletCard = styled.div([
+export const AddWalletCardContainer = styled.div([
   borderAddWallet,
   caption,
   {
@@ -51,15 +51,14 @@ const AddWalletCard = styled.div([
 ]);
 
 export const AddWallet: React.FC<NavLinkProps> = props => (
-  <AddWalletCard>
+  <AddWalletCardContainer>
     <NavLink css={caption} {...props}>
-      {' '}
       {props.children}
     </NavLink>
-  </AddWalletCard>
+  </AddWalletCardContainer>
 );
 
-const WalletMobile = styled.button([
+export const WalletMobileButton = styled.button([
   borderAddWallet,
   {
     marginTop: spacing(),
@@ -76,10 +75,9 @@ const WalletMobile = styled.button([
 ]);
 
 export const AddWalletMobile: React.FC<NavLinkProps> = props => (
-  <WalletMobile>
+  <WalletMobileButton>
     <NavLink css={caption} {...props}>
-      {' '}
       {props.children}
     </NavLink>
-  </WalletMobile>
+  </WalletMobileButton>
 );
