@@ -1,4 +1,4 @@
-type BaseColors = { [key: number]: string };
+export type BaseColors = { [key: number]: string };
 
 export const piccolo: BaseColors = {
   100: '#0CD664',

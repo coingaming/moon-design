@@ -318,7 +318,7 @@ exports[`Tooltip renders as an error 1`] = `
   max-width: 100%;
   padding: 0.5rem;
   margin-top: 1rem;
-  background-color: #ff4e64;
+  background-color: #FF4E64;
   border-radius: 4px;
   box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
   -webkit-animation: animation-0 0.4s ease-in-out;
@@ -345,7 +345,7 @@ exports[`Tooltip renders as an error 1`] = `
   pointer-events: none;
   border-style: solid;
   border-color: transparent;
-  border-bottom-color: #ff4e64;
+  border-bottom-color: #FF4E64;
   border-width: 0.5rem;
 }
 
@@ -596,7 +596,7 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
       >
         <svg
           className="emotion-0"
-          color="#8697a2"
+          color="#8697A2"
           fontSize="inherit"
           height="1em"
           onClick={[Function]}
