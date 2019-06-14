@@ -127,7 +127,7 @@ exports[`Header renders correctly with title and back button 1`] = `
   >
     <svg
       className="emotion-0"
-      color="#0cd664"
+      color="#0CD664"
       fontSize="1.5rem"
       height="1em"
       viewBox="0 0 16 16"
