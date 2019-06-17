@@ -17,7 +17,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -51,7 +51,7 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -84,7 +84,7 @@ exports[`Link renders as a link by default 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -118,7 +118,7 @@ exports[`Link renders as a optional 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -159,7 +159,7 @@ exports[`Link renders as a secondary 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -193,7 +193,7 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -228,7 +228,7 @@ exports[`Link renders as disabled for button elements 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
