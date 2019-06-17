@@ -37,7 +37,7 @@ export const InActiveTransactionDetailItem: React.FC<{}> = () => {
         <Status>
           Cancelled by user
           <div css={{ marginTop: spacing.small }}>
-            <ProgressBar color={colors.error} from={8} to={30} />
+            <ProgressBar color={colors.error} current={8} max={30} />
           </div>
         </Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>

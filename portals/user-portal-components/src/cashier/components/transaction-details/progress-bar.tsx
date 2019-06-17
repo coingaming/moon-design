@@ -16,34 +16,35 @@ const Container = styled.div<{ color?: string; height?: number }>(
 );
 
 const Progress = styled.div<{
-  progression: number;
+  progress: number;
   color?: string;
   backgroundColor?: string;
   height?: number;
-}>(({ progression, color }) => [
+}>(({ progress, color }) => [
   { height: '100%', backgroundColor: colors.brand },
-  progression && { width: `${progression}%` },
+  progress && { width: `${progress}%` },
   color && { backgroundColor: color },
 ]);
 
 export const ProgressBar = ({
-  from,
-  to,
+  current,
+  max,
   backgroundColor,
   height,
   color,
 }: {
-  from: number;
-  to: number;
+  current: number;
+  max: number;
   backgroundColor?: string;
   height?: number;
   color?: string;
 }) => {
-  const progression = (start: number, finish: number) => (start / finish) * 100;
+  const getProgression = (start: number, finish: number) =>
+    (start / finish) * 100;
 
   return (
     <Container color={backgroundColor} height={height}>
-      <Progress progression={progression(from, to)} color={color} />
+      <Progress progress={getProgression(current, max)} color={color} />
     </Container>
   );
 };
