@@ -7,6 +7,7 @@ import { IconArrowLeft } from '@heathmont/sportsbet-icons';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import styled from '@emotion/styled';
+import { RouteLink } from '@heathmont/sportsbet-components';
 jsx;
 
 export const WalletBackButton: React.FC<NavLinkProps & { as: any }> = ({
@@ -145,9 +146,9 @@ export const WithdrawBTCSidebarBanner = styled.div({
 
 export const CashierBanner: React.FC<NavLinkProps> = ({ children, to }) => {
   return (
-    <NavLink css={{ textDecoration: 'none' }} to={to}>
+    <RouteLink as={NavLink} css={{ textDecoration: 'none' }} to={to}>
       <WithdrawBTCSidebarBanner>{children}</WithdrawBTCSidebarBanner>
-    </NavLink>
+    </RouteLink>
   );
 };
 
