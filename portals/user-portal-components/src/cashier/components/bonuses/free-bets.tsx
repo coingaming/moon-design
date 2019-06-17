@@ -54,7 +54,7 @@ export const FreeBetInfo = styled.div({
   minWidth: rem(180),
 
   '& > p': {
-    color: colors.text,
+    color: colors.neutral[10],
     fontSize: rem(16),
     marginTop: spacing('xsmall'),
 

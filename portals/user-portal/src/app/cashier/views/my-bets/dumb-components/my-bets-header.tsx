@@ -9,7 +9,7 @@ export const MyBetsHeader = styled.div({
   display: 'grid',
   height: rem(48),
   padding: spacing(),
-  backgroundColor: colors.secondary,
+  backgroundColor: colors.neutral[70],
   gridTemplateColumns: '5fr 1fr 1fr 1fr 2fr',
   gridTemplateRows: '100%',
   alignItems: 'center',
