@@ -1,6 +1,6 @@
-export type BaseColors = { [key: number]: string };
+type BaseColor = { [key: number]: string };
 
-export const piccolo: BaseColors = {
+const piccolo: BaseColor = {
   100: '#0CD664',
   80: '#24DA74',
   60: '#3DDE83',
@@ -8,7 +8,7 @@ export const piccolo: BaseColors = {
   20: '#85EAB2',
 };
 
-export const bulma: BaseColors = {
+const bulma: BaseColor = {
   100: '#fff',
   80: '#F3F5F6',
   60: '#EDEFF1',
@@ -16,7 +16,7 @@ export const bulma: BaseColors = {
   20: '#DBE0E3',
 };
 
-export const trunks: BaseColors = {
+const trunks: BaseColor = {
   100: '#8697A2',
   80: '#92A1AB',
   60: '#9EACB5',
@@ -24,7 +24,7 @@ export const trunks: BaseColors = {
   20: '#C2CBD0',
 };
 
-export const gohan: BaseColors = {
+const gohan: BaseColor = {
   100: '#31373F',
   80: '#3D434B',
   60: '#5A5F65',
@@ -32,7 +32,7 @@ export const gohan: BaseColors = {
   20: '#989B9F',
 };
 
-export const goku: BaseColors = {
+const goku: BaseColor = {
   100: '#1F262F',
   80: '#353C44',
   60: '#4C5159',
@@ -40,7 +40,7 @@ export const goku: BaseColors = {
   20: '#8F9297',
 };
 
-export const roshi: BaseColors = {
+const roshi: BaseColor = {
   100: '#FF5111',
   80: '#FF6229',
   60: '#FF7441',
@@ -48,7 +48,7 @@ export const roshi: BaseColors = {
   20: '#FFA888',
 };
 
-export const whis: BaseColors = {
+const whis: BaseColor = {
   100: '#0F75BD',
   80: '#2783C4',
   60: '#3F91CA',
@@ -56,7 +56,7 @@ export const whis: BaseColors = {
   20: '#87BADE',
 };
 
-export const vegeta: BaseColors = {
+const vegeta: BaseColor = {
   100: '#118BFF',
   80: '#2997FF',
   60: '#41A2FF',
@@ -64,7 +64,7 @@ export const vegeta: BaseColors = {
   20: '#88C5FF',
 };
 
-export const frieza: BaseColors = {
+const frieza: BaseColor = {
   100: '#9182DE',
   80: '#9C8EE1',
   60: '#A79BE5',
@@ -72,7 +72,7 @@ export const frieza: BaseColors = {
   20: '#C8C0EF',
 };
 
-export const krillin: BaseColors = {
+const krillin: BaseColor = {
   100: '#FFD600',
   80: '#FFDE33',
   60: '#FFE666',
@@ -80,7 +80,7 @@ export const krillin: BaseColors = {
   20: '#FFF7CC',
 };
 
-export const cell: BaseColors = {
+const cell: BaseColor = {
   100: '#0AB758',
   80: '#22BE69',
   60: '#3BC579',
@@ -88,7 +88,7 @@ export const cell: BaseColors = {
   20: '#84DBAB',
 };
 
-export const dodoria: BaseColors = {
+const dodoria: BaseColor = {
   100: '#D33030',
   80: '#D74545',
   60: '#DC5959',
@@ -96,7 +96,7 @@ export const dodoria: BaseColors = {
   20: '#E99797',
 };
 
-export const raditz: BaseColors = {
+const raditz: BaseColor = {
   100: '#B3804A',
   80: '#BB8D5C',
   60: '#C2996E',
@@ -104,7 +104,7 @@ export const raditz: BaseColors = {
   20: '#D9BFA4',
 };
 
-export const nappa: BaseColors = {
+const nappa: BaseColor = {
   100: '#725550',
   80: '#806661',
   60: '#8E7773',
@@ -112,7 +112,7 @@ export const nappa: BaseColors = {
   20: '#B8AAA7',
 };
 
-export const chichi: BaseColors = {
+const chichi: BaseColor = {
   100: '#FF4E64',
   80: '#FF6074',
   60: '#FF7183',
@@ -120,10 +120,31 @@ export const chichi: BaseColors = {
   20: '#FFA7B2',
 };
 
-export const hit: BaseColors = {
+const hit: BaseColor = {
   100: '#010812',
   80: '#1A212A',
   60: '#343941',
   40: '#4D5259',
   20: '#808388',
 };
+
+const palette = {
+  piccolo,
+  bulma,
+  trunks,
+  gohan,
+  goku,
+  roshi,
+  whis,
+  vegeta,
+  frieza,
+  krillin,
+  cell,
+  dodoria,
+  raditz,
+  nappa,
+  chichi,
+  hit,
+};
+
+export { BaseColor, palette };
