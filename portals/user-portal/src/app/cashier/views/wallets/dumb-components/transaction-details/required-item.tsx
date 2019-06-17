@@ -38,7 +38,7 @@ export const RequiredTransactionDetailItem: React.FC<{}> = () => {
         <Status required>
           Input required
           <div css={{ marginTop: spacing.small }}>
-            <ProgressBar color={colors.warning} from={4} to={7} />
+            <ProgressBar color={colors.warning} current={4} max={7} />
           </div>
         </Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>

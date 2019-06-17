@@ -38,7 +38,7 @@ export const TransactionDetailItem: React.FC<{}> = () => {
         <Status>
           In progress
           <div css={{ marginTop: spacing.small }}>
-            <ProgressBar color={colors.brand} from={2} to={12} />
+            <ProgressBar color={colors.brand} current={2} max={12} />
           </div>
         </Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>
