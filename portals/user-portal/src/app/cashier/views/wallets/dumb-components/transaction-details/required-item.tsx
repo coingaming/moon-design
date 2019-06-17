@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/core';
 import * as React from 'react';
 import { Button } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, spacing } from '@heathmont/sportsbet-tokens';
 
 import {
   TransactionHistory,
@@ -26,6 +26,7 @@ import {
   BalanceAfter,
   ResumeTransaction,
   Text,
+  ProgressBar,
 } from '@heathmont/sportsbet-user-portal-components';
 jsx;
 
@@ -34,7 +35,12 @@ export const RequiredTransactionDetailItem: React.FC<{}> = () => {
     <TransactionHistory>
       <Summary>
         <PaymentId>5be547ab0014545343343</PaymentId>
-        <Status required>Input required</Status>
+        <Status required>
+          Input required
+          <div css={{ marginTop: spacing.small }}>
+            <ProgressBar color={colors.warning} from={4} to={7} />
+          </div>
+        </Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>
         <Currency>EUR</Currency>
         <Amount css={{ color: colors.brand }}>+93.59</Amount>
