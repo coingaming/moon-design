@@ -17,8 +17,9 @@ import {
   whis,
 } from './coreColors';
 
-const primaryColors: { brand: string; neutral: BaseColors } = {
+const primaryColors: { brand: string; text: string; neutral: BaseColors } = {
   brand: piccolo[100],
+  text: bulma[100],
   neutral: {
     10: bulma[100],
     20: trunks[100],
