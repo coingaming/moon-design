@@ -11,6 +11,7 @@ import {
   breakpoints,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { RouteLink } from '@heathmont/sportsbet-components';
 jsx;
 
 const caption: CSSObject = {
@@ -52,9 +53,9 @@ export const AddWalletCardContainer = styled.div([
 
 export const AddWallet: React.FC<NavLinkProps> = props => (
   <AddWalletCardContainer>
-    <NavLink css={caption} {...props}>
+    <RouteLink as={NavLink} css={caption} {...props}>
       {props.children}
-    </NavLink>
+    </RouteLink>
   </AddWalletCardContainer>
 );
 
@@ -76,8 +77,8 @@ export const WalletMobileButton = styled.button([
 
 export const AddWalletMobile: React.FC<NavLinkProps> = props => (
   <WalletMobileButton>
-    <NavLink css={caption} {...props}>
+    <RouteLink as={NavLink} css={caption} {...props}>
       {props.children}
-    </NavLink>
+    </RouteLink>
   </WalletMobileButton>
 );
