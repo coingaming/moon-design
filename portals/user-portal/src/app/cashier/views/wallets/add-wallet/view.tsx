@@ -12,7 +12,12 @@ import {
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { CashierNav } from '../dumb-components/navigation';
-import { Button, Heading, NavLink } from '@heathmont/sportsbet-components';
+import {
+  Button,
+  Heading,
+  NavLink,
+  RouteLink,
+} from '@heathmont/sportsbet-components';
 import {
   IconArrowLeft,
   IconBitcoin,
@@ -50,9 +55,9 @@ export const AddWalletView = () => {
       <CashierLayout>
         <CashierHeading>
           <AddWalletNavigation>
-            <NavLink href={'/cashier'}>
+            <RouteLink as={NavLink} to={'/cashier'}>
               <IconArrowLeft color={colors.neutral[20]} />
-            </NavLink>
+            </RouteLink>
             <span>Add wallet</span>
           </AddWalletNavigation>
         </CashierHeading>
