@@ -24,7 +24,9 @@ import {
   BalanceAfter,
   ResumeTransaction,
   Text,
+  ProgressBar,
 } from '@heathmont/sportsbet-user-portal-components';
+import { colors, spacing } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const InActiveTransactionDetailItem: React.FC<{}> = () => {
@@ -32,7 +34,12 @@ export const InActiveTransactionDetailItem: React.FC<{}> = () => {
     <TransactionHistory>
       <Summary inactive>
         <PaymentId>5be547ab0014545343343</PaymentId>
-        <Status>Cancelled by user</Status>
+        <Status>
+          Cancelled by user
+          <div css={{ marginTop: spacing.small }}>
+            <ProgressBar color={colors.error} from={8} to={30} />
+          </div>
+        </Status>
         <DateSummary>27.12.2017 / 12:12</DateSummary>
         <Currency>EUR</Currency>
         <Amount>+93.59</Amount>
