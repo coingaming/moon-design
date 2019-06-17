@@ -11,6 +11,7 @@ import {
   breakpoints,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { RouteLink } from '@heathmont/sportsbet-components';
 jsx;
 
 const caption: CSSObject = {
@@ -36,7 +37,7 @@ const borderAddWallet: CSSObject = {
   },
 };
 
-const AddWalletCard = styled.div([
+export const AddWalletCardContainer = styled.div([
   borderAddWallet,
   caption,
   {
@@ -51,15 +52,14 @@ const AddWalletCard = styled.div([
 ]);
 
 export const AddWallet: React.FC<NavLinkProps> = props => (
-  <AddWalletCard>
-    <NavLink css={caption} {...props}>
-      {' '}
+  <AddWalletCardContainer>
+    <RouteLink as={NavLink} css={caption} {...props}>
       {props.children}
-    </NavLink>
-  </AddWalletCard>
+    </RouteLink>
+  </AddWalletCardContainer>
 );
 
-const WalletMobile = styled.button([
+export const WalletMobileButton = styled.button([
   borderAddWallet,
   {
     marginTop: spacing(),
@@ -76,10 +76,9 @@ const WalletMobile = styled.button([
 ]);
 
 export const AddWalletMobile: React.FC<NavLinkProps> = props => (
-  <WalletMobile>
-    <NavLink css={caption} {...props}>
-      {' '}
+  <WalletMobileButton>
+    <RouteLink as={NavLink} css={caption} {...props}>
       {props.children}
-    </NavLink>
-  </WalletMobile>
+    </RouteLink>
+  </WalletMobileButton>
 );
