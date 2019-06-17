@@ -5,6 +5,7 @@ export const RouteLink: React.FC<NavLinkProps & { as?: any }> = ({
   children,
   to,
   as,
+  ...props
 }) => {
   return React.createElement(
     as || NavLink,
@@ -14,6 +15,7 @@ export const RouteLink: React.FC<NavLinkProps & { as?: any }> = ({
         color: 'inherit',
         textDecoration: 'none',
       },
+      ...props,
     },
     children
   );
