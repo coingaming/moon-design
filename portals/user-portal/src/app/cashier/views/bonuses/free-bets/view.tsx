@@ -2,9 +2,8 @@
 import { default as React, useState } from 'react';
 import { container } from '@heathmont/sportsbet-utils';
 import { RewardsNav } from '../dumb-components/navigation';
-import { Button, Heading } from '@heathmont/sportsbet-components';
+import { Button, Heading, RouteLink } from '@heathmont/sportsbet-components';
 import { jsx } from '@emotion/core';
-import { NavLink } from 'react-router-dom';
 import {
   BonusesHeadingContainer,
   BonusesSubNavigation,
@@ -52,13 +51,13 @@ export const FreeBetsView = () => {
           </Heading>
           <BonusesSubNavigation>
             <Button modifier="primary">
-              <NavLink to={'free-bets'}>Free bets 1</NavLink>
+              <RouteLink to={'free-bets'}>Free bets 1</RouteLink>
             </Button>
             <Button modifier="secondary">
-              <NavLink to={'price-boosts'}>Price boosts 15</NavLink>
+              <RouteLink to={'price-boosts'}>Price boosts 15</RouteLink>
             </Button>
             <Button modifier="secondary">
-              <NavLink to={'casino'}>Casino 12</NavLink>
+              <RouteLink to={'casino'}>Casino 12</RouteLink>
             </Button>
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
