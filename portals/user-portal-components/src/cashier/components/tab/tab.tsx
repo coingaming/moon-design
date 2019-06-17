@@ -9,6 +9,7 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconClose } from '@heathmont/sportsbet-icons';
+import { RouteLink } from '@heathmont/sportsbet-components';
 jsx;
 
 const tabSkipLinkID = 'tab-skip';
@@ -60,7 +61,7 @@ const Tab: React.FC = ({ children }) => {
   );
 };
 
-const TabItem = styled(NavLink, {
+const TabItem = styled(RouteLink, {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
 })<{ active?: boolean; rightAligned?: boolean; as?: any }>(
   ({ active = false, rightAligned = false }) => [
