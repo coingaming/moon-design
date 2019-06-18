@@ -67,6 +67,22 @@ export const TransactionDetailLink = styled(Link)([
   },
 ]);
 
+export const TransactionDetail = styled.div({
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  marginBottom: spacing('small'),
+  [mq(breakpoints.medium)]: {
+    marginBottom: 0,
+    justifyContent: 'flex-start',
+    '> p,a': {
+      [mq(breakpoints.medium)]: {
+        width: rem(244),
+      },
+    },
+  },
+});
+
 export const DateDetails = styled.div([desktopHidden, rowContent]);
 
 export const CurrencyDetails = styled.div([desktopHidden, rowContent]);
