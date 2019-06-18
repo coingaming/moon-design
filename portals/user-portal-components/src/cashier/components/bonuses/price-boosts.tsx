@@ -35,13 +35,13 @@ const Container: React.FC<{
   backgroundIcon?: InlineSVGProps | false | undefined;
 }> = styled.div(({ backgroundIcon }) => [
   {
-    backgroundColor: colors.secondary,
+    backgroundColor: colors.neutral[70],
     paddingTop: spacing('medium'),
     paddingLeft: spacing('medium'),
     paddingRight: spacing('medium'),
     paddingBottom: spacing(),
     position: 'relative',
-    color: colors.text,
+    color: colors.neutral[10],
     boxShadow: `${rem(4)} ${rem(4)} ${rem(12)} rgba(0, 0, 0, 0.5)`,
     borderRadius: rem(4),
 
