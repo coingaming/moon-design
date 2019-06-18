@@ -43,7 +43,7 @@ export const BonusesSubNavigation = styled.div([
         flexShrink: 0,
       },
     ],
-    '& > a.active': [buttonStyles, buttonModifiers.primary],
+    '& > a.active': [buttonModifiers.primary],
 
     [mq(breakpoints.medium)]: {
       paddingLeft: 0,

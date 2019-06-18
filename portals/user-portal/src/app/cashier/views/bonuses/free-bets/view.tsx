@@ -55,9 +55,9 @@ export const FreeBetsView = () => {
             Bonuses
           </Heading>
           <BonusesSubNavigation>
-            <Link href={'free-bets'}>Free bets </Link>
-            <Link href={'price-boosts'}>Price boosts 15</Link>
-            <Link href={'casino'}>Casino 12</Link>
+            <RouteLink to={'free-bets'}>Free bets </RouteLink>
+            <RouteLink to={'price-boosts'}>Price boosts 15</RouteLink>
+            <RouteLink to={'casino'}>Casino 12</RouteLink>
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
         <FreeBetsWrapper>
