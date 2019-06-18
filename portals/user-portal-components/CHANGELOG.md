@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
+
+
+### Bug Fixes
+
+* **nav:** fix entire navigation links ([e47a843](https://github.com/coingaming/sportsbet-design/commit/e47a843))
+* **portals:** update colors ([cb74afb](https://github.com/coingaming/sportsbet-design/commit/cb74afb))
+* **progress-bar:** fix color ([40de146](https://github.com/coingaming/sportsbet-design/commit/40de146))
+* **routeLink:** initial usage ([2d53471](https://github.com/coingaming/sportsbet-design/commit/2d53471))
+
+
+### Features
+
+* implement progress-bar component ([1a359cd](https://github.com/coingaming/sportsbet-design/commit/1a359cd))
+
+
+
+
+
 # [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
