@@ -11,7 +11,7 @@ export const BtcPaymentDetailBlock = styled.div({
   [mq(breakpoints.medium)]: {
     margin: 0,
     display: 'grid',
-    gridTemplate: `"card  qr" 
+    gridTemplate: `"card  qr"
                    "address qr"`,
     gridTemplateColumns: '1fr 1fr',
   },
@@ -107,7 +107,7 @@ export const BtcPaymentExchangeGrid = styled.div({
 export const BtcPaymentRate = styled.div({
   gridArea: 'rate',
   fontSize: rem(12),
-  color: colors.secondary,
+  color: colors.neutral[70],
   display: 'flex',
   justifyContent: 'space-between',
 });
@@ -115,7 +115,7 @@ export const BtcPaymentRate = styled.div({
 export const BtcPaymentLabel = styled.div({
   gridArea: 'label',
   fontSize: rem(12),
-  color: colors.secondary,
+  color: colors.neutral[70],
 });
 
 export const BtcPaymentInput = styled.div({
@@ -161,14 +161,14 @@ export const BtcPaymentButton = styled.div({
 export const BtcPaymentExchangeRateTime = styled.div({
   gridArea: 'time',
   fontSize: rem(12),
-  color: colors.secondary,
+  color: colors.neutral[70],
   marginTop: spacing('small'),
 });
 
 export const BtcPaymentFee = styled.div({
   gridArea: 'fee',
   fontSize: rem(12),
-  color: colors.secondary,
+  color: colors.neutral[70],
   textAlign: 'center',
   marginTop: spacing('small'),
   [mq(breakpoints.medium)]: {

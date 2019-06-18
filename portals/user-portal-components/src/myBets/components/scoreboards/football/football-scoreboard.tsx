@@ -23,7 +23,7 @@ const FootballCard = styled.div({
 
 const Header = styled.span(({ onClick }) => [
   {
-    color: colors.text,
+    color: colors.neutral[10],
     gridArea: 'title',
     textAlign: 'left',
     fontSize: rem(12),
@@ -66,7 +66,7 @@ const BadgeWrapper = styled.div({
 });
 
 const Score = styled.span({
-  color: colors.text,
+  color: colors.neutral[10],
   textAlign: 'center',
   alignSelf: 'center',
   fontSize: rem(32),
