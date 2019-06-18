@@ -20,8 +20,8 @@ import {
 } from '@heathmont/sportsbet-components';
 import {
   IconArrowLeft,
-  IconBitcoin,
-  IconEuro,
+  IconCurrencyEur,
+  IconCurrencyBtc,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 jsx;
@@ -68,7 +68,7 @@ export const AddWalletView = () => {
                 <AddWalletCard
                   active
                   backgroundIcon={
-                    <IconEuro color={colors.alternate.secondary[10]} />
+                    <IconCurrencyEur color={colors.alternate.secondary[10]} />
                   }
                 >
                   <Heading size="echo" as="h5">
@@ -78,7 +78,7 @@ export const AddWalletView = () => {
                 </AddWalletCard>
                 <AddWalletCard
                   backgroundIcon={
-                    <IconBitcoin color={colors.alternate.secondary[10]} />
+                    <IconCurrencyBtc color={colors.alternate.secondary[10]} />
                   }
                 >
                   <Heading size="echo" as="h5">
