@@ -4,7 +4,12 @@ import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
 import { RewardsNav } from '../dumb-components/navigation';
-import { Button, Heading, Link } from '@heathmont/sportsbet-components';
+import {
+  Button,
+  Heading,
+  Link,
+  RouteLink,
+} from '@heathmont/sportsbet-components';
 import { IconSoccer } from '@heathmont/sportsbet-icons';
 import { jsx } from '@emotion/core';
 import {
@@ -50,11 +55,9 @@ export const PriceBoostsView = () => {
             Bonuses
           </Heading>
           <BonusesSubNavigation>
-            <BonusesSubNavigation>
-              <Link href={'free-bets'}>Free bets </Link>
-              <Link href={'price-boosts'}>Price boosts 15</Link>
-              <Link href={'casino'}>Casino 12</Link>
-            </BonusesSubNavigation>
+            <RouteLink to={'free-bets'}>Free bets </RouteLink>
+            <RouteLink to={'price-boosts'}>Price boosts 15</RouteLink>
+            <RouteLink to={'casino'}>Casino 12</RouteLink>
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
         <BonusWrapper>
