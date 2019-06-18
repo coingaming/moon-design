@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
+
+
+### Bug Fixes
+
+* **RouteLink:** styling for NavLink ([295454a](https://github.com/coingaming/sportsbet-design/commit/295454a))
+
+
+### Features
+
+* **route-link:** initial implementation ([7cb8b8d](https://github.com/coingaming/sportsbet-design/commit/7cb8b8d))
+* add sports icons ([e6a4245](https://github.com/coingaming/sportsbet-design/commit/e6a4245))
+
+
+
+
+
 # [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
 
 
