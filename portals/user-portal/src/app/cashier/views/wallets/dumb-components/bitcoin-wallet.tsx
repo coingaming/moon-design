@@ -10,6 +10,10 @@ import {
   Select,
 } from '@heathmont/sportsbet-components';
 import { IconBitcoin } from '@heathmont/sportsbet-icons/lib/svg/IconBitcoin';
+import {
+  CurrencySwitchLayout,
+  CurrencySwitch,
+} from '@heathmont/sportsbet-user-portal-components';
 
 export const BitcoinWallet = () => {
   const [backSided, toggle] = useState(false);
@@ -17,7 +21,9 @@ export const BitcoinWallet = () => {
   if (!backSided) {
     return (
       <Card flex backgroundIcon={<IconBitcoin />} template="front">
-        <CardToggle onClick={() => toggle(!backSided)} />
+        <CurrencySwitchLayout>
+          uBTC <CurrencySwitch defaultChecked={true} /> mBTC
+        </CurrencySwitchLayout>
         <CardBalance
           badgeCaption="Active"
           from={{
