@@ -18,7 +18,7 @@ export const MyBetContainerHeader = styled.div<{}>({
   textAlign: 'right',
   justifyContent: 'flex-end',
   flexGrow: 1,
-  backgroundColor: colors.secondary,
+  backgroundColor: colors.neutral[70],
   color: colors.neutral[20],
   marginBottom: spacing('small'),
   height: rem(48),
@@ -52,7 +52,7 @@ export const MyBetContainer = styled.details<{}>({
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'space-between',
-  backgroundColor: colors.secondary,
+  backgroundColor: colors.neutral[70],
   marginBottom: spacing('small'),
   '&[open]': {
     Summary: {
@@ -121,7 +121,7 @@ export const MyBetHeaderContainer = styled.div({
 });
 
 export const MyBetHeaderTitle = styled.div({
-  color: colors.text,
+  color: colors.neutral[10],
   display: 'flex',
   alignItems: 'center',
 });
@@ -246,7 +246,7 @@ export const MyBetFooter = styled.footer({
   padding: `${spacing()} ${spacing('medium')}`,
   boxSizing: 'border-box',
   justifyContent: 'space-between',
-  backgroundColor: colors.secondary,
+  backgroundColor: colors.neutral[70],
   display: 'none',
   flexFlow: 'nowrap',
   alignItems: 'center',

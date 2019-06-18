@@ -19,7 +19,7 @@ export const MessageBlock = styled.div({
 });
 
 export const MessageText = styled.div({
-  color: colors.secondary,
+  color: colors.neutral[70],
 });
 
 export const MessageIcon = styled.div({
@@ -53,7 +53,7 @@ export const AmountOption = styled.div<{ active?: boolean }>(({ active }) => [
     border: `${border.width}px solid ${colors.brand}`,
     backgroundColor: colors.brand,
     '&:hover': {
-      backgroundColor: colors.alternate.brand[10],
+      backgroundColor: colors.palette.piccolo[60],
     },
   },
 ]);

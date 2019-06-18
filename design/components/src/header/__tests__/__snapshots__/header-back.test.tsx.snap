@@ -40,7 +40,7 @@ exports[`Header - Back renders as a button 1`] = `
 >
   <svg
     className="emotion-0"
-    color="#0cd664"
+    color="#0CD664"
     fontSize="1.5rem"
     height="1em"
     viewBox="0 0 16 16"
@@ -102,7 +102,7 @@ exports[`Header - Back renders as a component 1`] = `
 >
   <svg
     className="emotion-0"
-    color="#0cd664"
+    color="#0CD664"
     fontSize="1.5rem"
     height="1em"
     viewBox="0 0 16 16"
@@ -164,7 +164,7 @@ exports[`Header - Back renders as an anchor by default 1`] = `
 >
   <svg
     className="emotion-0"
-    color="#0cd664"
+    color="#0CD664"
     fontSize="1.5rem"
     height="1em"
     viewBox="0 0 16 16"
