@@ -17,21 +17,21 @@ const primary: CSSObject = {
   color: colors.neutral[10],
   backgroundColor: colors.brand,
   ...buttonHover({
-    backgroundColor: colors.alternate.brand[10],
+    backgroundColor: colors.palette.piccolo[60],
   }),
   ...buttonActive({
-    backgroundColor: colors.alternate.brand[20],
+    backgroundColor: colors.palette.piccolo[60],
   }),
 };
 
 const highlight = {
   color: colors.neutral[10],
-  backgroundColor: colors.highlight,
+  backgroundColor: colors.palette.vegeta[100],
   ...buttonHover({
-    backgroundColor: colors.alternate.highlight[10],
+    backgroundColor: colors.palette.vegeta[60],
   }),
   ...buttonActive({
-    backgroundColor: colors.alternate.highlight[20],
+    backgroundColor: colors.palette.vegeta[60],
   }),
 };
 

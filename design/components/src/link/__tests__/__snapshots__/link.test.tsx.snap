@@ -6,7 +6,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -17,7 +17,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -40,7 +40,7 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -51,7 +51,7 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -73,7 +73,7 @@ exports[`Link renders as a link by default 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -84,7 +84,7 @@ exports[`Link renders as a link by default 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -106,19 +106,19 @@ exports[`Link renders as a optional 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -147,19 +147,19 @@ exports[`Link renders as a secondary 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -182,7 +182,7 @@ exports[`Link renders as disabled for anchor elements 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -193,7 +193,7 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,
@@ -217,7 +217,7 @@ exports[`Link renders as disabled for button elements 1`] = `
   margin: 0;
   padding: 0;
   font: inherit;
-  color: #0cd664;
+  color: #0CD664;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -228,7 +228,7 @@ exports[`Link renders as disabled for button elements 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0:active {
-  color: #00E865;
+  color: #3DDE83;
 }
 
 .emotion-0:disabled,

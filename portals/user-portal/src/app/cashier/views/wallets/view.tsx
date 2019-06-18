@@ -13,8 +13,8 @@ import {
   WalletWrapper,
   TransactionsSection,
   LoadMore,
-  AddWallet,
-  AddWalletMobile,
+  AddWalletCardContainer,
+  WalletMobileButton,
 } from '@heathmont/sportsbet-user-portal-components';
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
@@ -22,9 +22,10 @@ import { RequiredTransactionDetailItem } from './dumb-components/transaction-det
 import { CashierNav } from '../deposit/dumb-components/navigation';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
-import { Heading } from '@heathmont/sportsbet-components';
+import { Heading, RouteLink } from '@heathmont/sportsbet-components';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { NavLink } from 'react-router-dom';
 jsx;
 
 const transactionItems = [
@@ -71,10 +72,14 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <AddWallet to={'/add-wallet'}>+ Add Wallet</AddWallet>
+            <RouteLink to={'/add-wallet'} as={NavLink}>
+              <AddWalletCardContainer>+ Add Wallet</AddWalletCardContainer>
+            </RouteLink>
           </WalletWrapper>
         </WalletsContainer>
-        <AddWalletMobile to={'/add-wallet'}>+ Add Wallet</AddWalletMobile>
+        <RouteLink to={'/add-wallet'} as={NavLink}>
+          <WalletMobileButton>+ Add Wallet</WalletMobileButton>
+        </RouteLink>
         <TransactionsSection>
           {/*<CashierHeading>Transactions</CashierHeading>*/}
           <Heading
