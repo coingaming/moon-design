@@ -22,7 +22,7 @@ exports[`Checkbox renders as disabled 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   background-color: transparent;
   -webkit-appearance: none;
@@ -31,11 +31,11 @@ exports[`Checkbox renders as disabled 1`] = `
 }
 
 .emotion-0:checked {
-  background-color: #0cd664;
+  background-color: #0CD664;
 }
 
 .emotion-0:disabled {
-  border-color: #304854;
+  border-color: #353C44;
   cursor: not-allowed;
 }
 
@@ -43,7 +43,7 @@ exports[`Checkbox renders as disabled 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  color: #304854;
+  color: #353C44;
 }
 
 <div
@@ -87,7 +87,7 @@ exports[`Checkbox renders by default 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   background-color: transparent;
   -webkit-appearance: none;
@@ -96,11 +96,11 @@ exports[`Checkbox renders by default 1`] = `
 }
 
 .emotion-0:checked {
-  background-color: #0cd664;
+  background-color: #0CD664;
 }
 
 .emotion-0:disabled {
-  border-color: #304854;
+  border-color: #353C44;
   cursor: not-allowed;
 }
 
@@ -108,7 +108,7 @@ exports[`Checkbox renders by default 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 <div
@@ -152,7 +152,7 @@ exports[`Checkbox renders with hidden label 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   background-color: transparent;
   -webkit-appearance: none;
@@ -161,11 +161,11 @@ exports[`Checkbox renders with hidden label 1`] = `
 }
 
 .emotion-0:checked {
-  background-color: #0cd664;
+  background-color: #0CD664;
 }
 
 .emotion-0:disabled {
-  border-color: #304854;
+  border-color: #353C44;
   cursor: not-allowed;
 }
 

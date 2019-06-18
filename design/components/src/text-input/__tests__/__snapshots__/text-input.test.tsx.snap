@@ -12,7 +12,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -25,7 +25,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -34,14 +34,14 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .emotion-1:focus {
-  border-color: #8697a2;
+  border-color: #8697A2;
   outline: none;
 }
 
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 1rem;
   opacity: 0.5;
 }
@@ -166,7 +166,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 1rem;
 }
 
@@ -181,12 +181,12 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:disabled {
@@ -195,7 +195,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -204,7 +204,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .emotion-1:focus {
-  border-color: #8697a2;
+  border-color: #8697A2;
   outline: none;
 }
 
@@ -212,7 +212,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
-  color: #ff4e64;
+  color: #FF4E64;
 }
 
 .emotion-2 {
@@ -224,7 +224,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   background-position: center;
   background-size: 60%,100%;
   background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23ff4e64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
 }
 
 <fieldset>
@@ -395,7 +395,7 @@ exports[`TextInput renders correctly for other types 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 1rem;
 }
 
@@ -410,7 +410,7 @@ exports[`TextInput renders correctly for other types 1`] = `
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -423,7 +423,7 @@ exports[`TextInput renders correctly for other types 1`] = `
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -432,7 +432,7 @@ exports[`TextInput renders correctly for other types 1`] = `
 }
 
 .emotion-1:focus {
-  border-color: #8697a2;
+  border-color: #8697A2;
   outline: none;
 }
 
@@ -548,7 +548,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 1rem;
 }
 
@@ -563,7 +563,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -576,7 +576,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -585,7 +585,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .emotion-1:focus {
-  border-color: #8697a2;
+  border-color: #8697A2;
   outline: none;
 }
 
@@ -607,7 +607,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
 .emotion-0 {
   display: block;
   margin-bottom: 0.5rem;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 1rem;
 }
 
@@ -622,7 +622,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -635,7 +635,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -644,7 +644,7 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
 }
 
 .emotion-1:focus {
-  border-color: #8697a2;
+  border-color: #8697A2;
   outline: none;
 }
 

@@ -8,7 +8,7 @@ exports[`Nav - NavLink renders as a button 1`] = `
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
-  color: #8697a2;
+  color: #8697A2;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
   -webkit-text-decoration: none;
@@ -28,7 +28,7 @@ exports[`Nav - NavLink renders as a button 1`] = `
   right: 0;
   bottom: -0.5rem;
   margin: 0 auto;
-  background-color: #0cd664;
+  background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -70,7 +70,7 @@ exports[`Nav - NavLink renders as a component 1`] = `
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
-  color: #8697a2;
+  color: #8697A2;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
   -webkit-text-decoration: none;
@@ -90,7 +90,7 @@ exports[`Nav - NavLink renders as a component 1`] = `
   right: 0;
   bottom: -0.5rem;
   margin: 0 auto;
-  background-color: #0cd664;
+  background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -132,7 +132,7 @@ exports[`Nav - NavLink renders as active as a button 1`] = `
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
-  color: #8697a2;
+  color: #8697A2;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
   -webkit-text-decoration: none;
@@ -152,7 +152,7 @@ exports[`Nav - NavLink renders as active as a button 1`] = `
   right: 0;
   bottom: -0.5rem;
   margin: 0 auto;
-  background-color: #0cd664;
+  background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -195,7 +195,7 @@ exports[`Nav - NavLink renders as active as a component 1`] = `
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
-  color: #8697a2;
+  color: #8697A2;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
   -webkit-text-decoration: none;
@@ -215,7 +215,7 @@ exports[`Nav - NavLink renders as active as a component 1`] = `
   right: 0;
   bottom: -0.5rem;
   margin: 0 auto;
-  background-color: #0cd664;
+  background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -258,7 +258,7 @@ exports[`Nav - NavLink renders as active as an anchor 1`] = `
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
-  color: #8697a2;
+  color: #8697A2;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
   -webkit-text-decoration: none;
@@ -278,7 +278,7 @@ exports[`Nav - NavLink renders as active as an anchor 1`] = `
   right: 0;
   bottom: -0.5rem;
   margin: 0 auto;
-  background-color: #0cd664;
+  background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -320,7 +320,7 @@ exports[`Nav - NavLink renders as an anchor by default 1`] = `
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
-  color: #8697a2;
+  color: #8697A2;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
   -webkit-text-decoration: none;
@@ -340,7 +340,7 @@ exports[`Nav - NavLink renders as an anchor by default 1`] = `
   right: 0;
   bottom: -0.5rem;
   margin: 0 auto;
-  background-color: #0cd664;
+  background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);

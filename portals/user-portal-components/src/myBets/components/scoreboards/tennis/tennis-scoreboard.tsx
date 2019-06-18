@@ -26,7 +26,7 @@ const Container = styled.div({
 
 const Header = styled.span(({ onClick }) => [
   {
-    color: colors.text,
+    color: colors.neutral[10],
     gridArea: 'title',
     textAlign: 'left',
     fontSize: rem(12),
@@ -129,7 +129,7 @@ const HomePoints = styled.div<PointsType>(({ current, period, win }) => [
   {
     fontSize: rem(20),
   },
-  win && { color: colors.text },
+  win && { color: colors.neutral[10] },
   (period && { gridArea: `homePeriod${period}` }) ||
     (current && {
       gridArea: 'homeCurrent',
@@ -142,7 +142,7 @@ const AwayPoints = styled.div<PointsType>(({ current, period, win }) => [
   {
     fontSize: rem(20),
   },
-  win && { color: colors.text },
+  win && { color: colors.neutral[10] },
   (period && { gridArea: `awayPeriod${period}` }) ||
     (current && {
       gridArea: 'awayCurrent',

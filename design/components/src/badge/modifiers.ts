@@ -19,7 +19,7 @@ const single: CSSObject = {
 
 const multi = {
   color: colors.neutral[10],
-  backgroundColor: colors.highlight,
+  backgroundColor: colors.palette.vegeta[100],
 };
 
 const active: CSSObject = {

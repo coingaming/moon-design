@@ -52,7 +52,7 @@ const Container: React.FC<{
   active?: boolean;
 }> = styled.div(({ backgroundIcon, active }) => [
   {
-    backgroundColor: colors.secondary,
+    backgroundColor: colors.neutral[70],
     paddingTop: spacing(),
     paddingBottom: spacing(),
     paddingRight: spacing('large'),

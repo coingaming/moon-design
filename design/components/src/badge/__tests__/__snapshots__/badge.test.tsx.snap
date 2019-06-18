@@ -3,7 +3,7 @@
 exports[`Badge renders correctly 1`] = `
 .emotion-0 {
   color: #fff;
-  background-color: #0cd664;
+  background-color: #0CD664;
   padding: 0.125rem 0.4375rem;
   text-align: center;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ exports[`Badge renders correctly with background color 1`] = `
 exports[`Badge renders correctly with color 1`] = `
 .emotion-0 {
   color: red;
-  background-color: #0cd664;
+  background-color: #0CD664;
   padding: 0.125rem 0.4375rem;
   text-align: center;
   text-transform: uppercase;

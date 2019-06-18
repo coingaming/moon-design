@@ -90,7 +90,7 @@ exports[`Card Templates renders as outline 1`] = `
   background-color: #1A212A;
   border-style: solid;
   border-width: 1px;
-  border-color: #304854;
+  border-color: #353C44;
 }
 
 <div
