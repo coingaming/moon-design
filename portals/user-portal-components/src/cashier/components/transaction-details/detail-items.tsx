@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
+import { Link } from '@heathmont/sportsbet-components';
 
 const desktopHidden: CSSObject = {
   display: 'inline',
@@ -49,12 +50,22 @@ export const Title = styled.p({
   marginBottom: spacing('small'),
   width: 'fit-content',
 });
-
-export const Text = styled.p({
-  color: colors.neutral[10],
+const textStyle: CSSObject = {
   marginTop: 0,
   marginBottom: spacing('small'),
+};
+
+export const Text = styled.p([textStyle], {
+  color: colors.neutral[10],
 });
+
+export const TransactionDetailLink = styled(Link)([
+  textStyle,
+  {
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+]);
 
 export const DateDetails = styled.div([desktopHidden, rowContent]);
 

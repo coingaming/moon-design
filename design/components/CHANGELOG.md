@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
+
+
+### Bug Fixes
+
+* **nav:** fix entire navigation links ([e47a843](https://github.com/coingaming/sportsbet-design/commit/e47a843))
+* update snapshots with new colors ([eb2b8c2](https://github.com/coingaming/sportsbet-design/commit/eb2b8c2))
+
+
+### Features
+
+* **colors:** colors cleanup ([dcf4ed7](https://github.com/coingaming/sportsbet-design/commit/dcf4ed7))
+
+
+
+
+
 # [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
 
 
