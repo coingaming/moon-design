@@ -56,7 +56,7 @@ export const TransactionHistory = styled.details<{ open?: boolean }>(() => [
     position: 'relative',
     fontWeight: 600,
     '&[open]': {
-      backgroundColor: colors.secondary,
+      backgroundColor: colors.neutral[70],
     },
   },
 ]);
