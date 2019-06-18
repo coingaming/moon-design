@@ -3,7 +3,9 @@ import { default as React } from 'react';
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
+import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { buttonStyles } from '@heathmont/sportsbet-components';
+import { buttonModifiers } from '@heathmont/sportsbet-components/lib/button/modifiers';
 jsx;
 
 export const BonusesHeadingContainer = styled.div([
@@ -31,21 +33,23 @@ export const BonusesSubNavigation = styled.div([
     display: 'flex',
     flexWrap: 'nowrap',
 
-    position: 'sticky',
-    top: 0,
-    zIndex: 1,
     overflowX: 'auto',
 
-    '& > *': {
-      marginRight: spacing('small'),
-      flexShrink: 0,
-    },
+    '& > a': [
+      buttonStyles,
+      buttonModifiers.secondary,
+      {
+        marginRight: spacing('small'),
+        flexShrink: 0,
+      },
+    ],
+    '& > a.active': [buttonStyles, buttonModifiers.primary],
 
     [mq(breakpoints.medium)]: {
       paddingLeft: 0,
       paddingRight: 0,
       marginTop: 0,
-      '& > *': {
+      '& > a': {
         marginRight: 0,
         marginLeft: spacing('small'),
       },
