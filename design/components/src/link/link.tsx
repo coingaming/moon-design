@@ -37,7 +37,7 @@ const linkBase: CSSObject = {
   cursor: 'pointer',
   textDecoration: 'none',
   '&:hover, &:focus, &:active': {
-    color: colors.alternate.brand[10],
+    color: colors.palette.piccolo[60],
   },
   ...disabled(),
 };

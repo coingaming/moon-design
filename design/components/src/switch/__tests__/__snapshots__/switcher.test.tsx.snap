@@ -18,7 +18,7 @@ exports[`Switch renders as checked 1`] = `
 }
 
 .emotion-0:checked + .slider {
-  background-color: #0cd664;
+  background-color: #0CD664;
 }
 
 .emotion-0:checked + .slider:before {
@@ -50,7 +50,7 @@ exports[`Switch renders as checked 1`] = `
   width: 1.5rem;
   left: 0.25rem;
   bottom: 0.25rem;
-  background-color: #8697a2;
+  background-color: #8697A2;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
@@ -88,7 +88,7 @@ exports[`Switch renders by default 1`] = `
 }
 
 .emotion-0:checked + .slider {
-  background-color: #0cd664;
+  background-color: #0CD664;
 }
 
 .emotion-0:checked + .slider:before {
@@ -120,7 +120,7 @@ exports[`Switch renders by default 1`] = `
   width: 1.5rem;
   left: 0.25rem;
   bottom: 0.25rem;
-  background-color: #8697a2;
+  background-color: #8697A2;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;

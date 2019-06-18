@@ -14,7 +14,7 @@ exports[`BannerToggle accepts standard \`button\` props 1`] = `
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 @media (min-width:31.25em) {
@@ -58,7 +58,7 @@ exports[`BannerToggle renders correctly 1`] = `
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 @media (min-width:31.25em) {

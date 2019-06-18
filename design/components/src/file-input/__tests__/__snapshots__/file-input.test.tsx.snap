@@ -5,7 +5,7 @@ Array [
   .emotion-0 {
   display: block;
   font-size: 1rem;
-  color: #8697a2;
+  color: #8697A2;
   margin-bottom: 0.5rem;
 }
 
@@ -26,7 +26,7 @@ Array [
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -38,9 +38,9 @@ Array [
   width: auto;
   position: relative;
   display: block;
-  color: #8697a2;
+  color: #8697A2;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
 }
 
 .emotion-1:disabled {
@@ -49,7 +49,7 @@ Array [
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -58,7 +58,7 @@ Array [
 }
 
 .emotion-1:focus-within {
-  border-color: #8697a2;
+  border-color: #8697A2;
 }
 
 .emotion-0 {
@@ -97,7 +97,7 @@ Array [
   .emotion-0 {
   display: block;
   font-size: 1rem;
-  color: #8697a2;
+  color: #8697A2;
   margin-bottom: 0.5rem;
 }
 
@@ -118,7 +118,7 @@ Array [
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -130,9 +130,9 @@ Array [
   width: auto;
   position: relative;
   display: block;
-  color: #8697a2;
+  color: #8697A2;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
 }
 
 .emotion-1:disabled {
@@ -141,7 +141,7 @@ Array [
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -150,7 +150,7 @@ Array [
 }
 
 .emotion-1:focus-within {
-  border-color: #8697a2;
+  border-color: #8697A2;
 }
 
 .emotion-0 {
@@ -189,7 +189,7 @@ Array [
   .emotion-0 {
   display: block;
   font-size: 1rem;
-  color: #8697a2;
+  color: #8697A2;
   margin-bottom: 0.5rem;
 }
 
@@ -208,7 +208,7 @@ Array [
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -220,9 +220,9 @@ Array [
   width: auto;
   position: relative;
   display: block;
-  color: #8697a2;
+  color: #8697A2;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
 }
 
 .emotion-1:disabled {
@@ -231,7 +231,7 @@ Array [
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -240,7 +240,7 @@ Array [
 }
 
 .emotion-1:focus-within {
-  border-color: #8697a2;
+  border-color: #8697A2;
 }
 
 .emotion-0 {
@@ -279,7 +279,7 @@ Array [
   .emotion-0 {
   display: block;
   font-size: 1rem;
-  color: #8697a2;
+  color: #8697A2;
   margin-bottom: 0.5rem;
 }
 
@@ -298,7 +298,7 @@ Array [
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -310,9 +310,9 @@ Array [
   width: auto;
   position: relative;
   display: block;
-  color: #8697a2;
+  color: #8697A2;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
 }
 
 .emotion-1:disabled {
@@ -321,7 +321,7 @@ Array [
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -330,7 +330,7 @@ Array [
 }
 
 .emotion-1:focus-within {
-  border-color: #8697a2;
+  border-color: #8697A2;
 }
 
 .emotion-0 {
@@ -369,7 +369,7 @@ Array [
   .emotion-0 {
   display: block;
   font-size: 1rem;
-  color: #8697a2;
+  color: #8697A2;
   margin-bottom: 0.5rem;
 }
 
@@ -403,7 +403,7 @@ Array [
   font-size: 1rem;
   color: #fff;
   background-color: #31373F;
-  border: 1px solid #212730;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -412,14 +412,14 @@ Array [
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.25rem;
-  border-color: #ff4e64;
+  border-color: #FF4E64;
   width: auto;
   position: relative;
   display: block;
-  color: #8697a2;
+  color: #8697A2;
   cursor: pointer;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697a2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
-  border-color: #ff4e64;
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-uk6cul'%3e%3cpath d='M10.902 18H9.098V8.423l-2.78 2.69L5 9.838 10 5l5 4.838-1.318 1.275-2.78-2.69V18zM1.81 1.861V6H0V0h20v6h-1.84V1.861H1.81z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e");
+  border-color: #FF4E64;
 }
 
 .emotion-1:disabled {
@@ -428,7 +428,7 @@ Array [
 }
 
 .emotion-1:not(:focus):not(:placeholder-shown):invalid {
-  border-color: #ff4e64;
+  border-color: #FF4E64;
 }
 
 .emotion-1:invalid,
@@ -437,7 +437,7 @@ Array [
 }
 
 .emotion-1:focus-within {
-  border-color: #8697a2;
+  border-color: #8697A2;
 }
 
 <label
