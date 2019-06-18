@@ -6,7 +6,7 @@ import { colors } from '@heathmont/sportsbet-tokens';
 const Container = styled.div<{ color?: string; height?: number }>(
   ({ color, height }) => [
     {
-      backgroundColor: colors.secondary,
+      backgroundColor: colors.neutral[70],
       height: rem(3),
       width: '100%',
     },
