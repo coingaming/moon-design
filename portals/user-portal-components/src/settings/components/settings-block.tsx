@@ -52,7 +52,7 @@ export const SettingsBlock = styled.div<{
     cursor: 'pointer',
   },
   border && {
-    borderBottom: `${rem(1)} solid ${colors.secondary}`,
+    borderBottom: `${rem(1)} solid ${colors.neutral[70]}`,
     '&:last-of-type': {
       borderBottom: 'none',
     },
