@@ -124,12 +124,12 @@ exports[`Heading renders with a color 1`] = `
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
-  color: #0cd664;
+  color: #0CD664;
 }
 
 <h1
   className="emotion-0"
-  color="#0cd664"
+  color="#0CD664"
   size="alpha"
 >
   Aplha Heading

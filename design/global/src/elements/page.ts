@@ -12,7 +12,7 @@ export const page: CSSObject = {
     fontSize: rem(base.spacing),
     lineHeight: base.lineHeight / base.spacing,
     fontFamily: typography.fontFamily,
-    color: colors.text,
+    color: colors.neutral[10],
     minHeight: '100%',
     textSizeAdjust: '100%' /* [1] */,
     textRendering: 'optimizeLegibility',

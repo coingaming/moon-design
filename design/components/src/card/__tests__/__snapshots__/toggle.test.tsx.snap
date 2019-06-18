@@ -14,7 +14,7 @@ exports[`CardToggle renders with back icon 1`] = `
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 <button
@@ -57,7 +57,7 @@ exports[`CardToggle renders with settings icon by default 1`] = `
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 <button

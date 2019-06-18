@@ -21,7 +21,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   border-width: 1px;
   border-color: transparent;
   border-radius: 100px;
-  color: #8697a2;
+  color: #8697A2;
   background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -92,7 +92,7 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 @media (min-width:31.25em) {
@@ -215,7 +215,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   border-width: 1px;
   border-color: transparent;
   border-radius: 100px;
-  color: #8697a2;
+  color: #8697A2;
   background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -250,7 +250,7 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #8697a2;
+  color: #8697A2;
 }
 
 @media (min-width:31.25em) {
@@ -352,7 +352,7 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   border-width: 1px;
   border-color: transparent;
   border-radius: 100px;
-  color: #8697a2;
+  color: #8697A2;
   background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -457,7 +457,7 @@ exports[`Banner renders horizontally 1`] = `
   border-width: 1px;
   border-color: transparent;
   border-radius: 100px;
-  color: #8697a2;
+  color: #8697A2;
   background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -606,7 +606,7 @@ exports[`Banner renders vertically by default 1`] = `
   border-width: 1px;
   border-color: transparent;
   border-radius: 100px;
-  color: #8697a2;
+  color: #8697A2;
   background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;

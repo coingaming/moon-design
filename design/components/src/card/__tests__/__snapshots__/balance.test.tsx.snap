@@ -3,7 +3,7 @@
 exports[`CardBalance renders correctly 1`] = `
 .emotion-0 {
   margin-top: 0;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
   display: -webkit-box;
@@ -63,7 +63,7 @@ exports[`CardBalance renders correctly 1`] = `
 exports[`CardBalance renders correctly with badge caption 1`] = `
 .emotion-1 {
   margin-top: 0;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
   display: -webkit-box;
@@ -102,7 +102,7 @@ exports[`CardBalance renders correctly with badge caption 1`] = `
 
 .emotion-0 {
   color: #fff;
-  background-color: #0cd664;
+  background-color: #0CD664;
   padding: 0.125rem 0.4375rem;
   text-align: center;
   text-transform: uppercase;
@@ -145,7 +145,7 @@ exports[`CardBalance renders correctly with badge caption 1`] = `
 exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
 .emotion-0 {
   margin-top: 0;
-  color: #8697a2;
+  color: #8697A2;
   font-size: 0.9375rem;
   line-height: 1.25rem;
   display: -webkit-box;
