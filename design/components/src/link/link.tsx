@@ -7,7 +7,7 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
 import { NavLink } from 'react-router-dom';
 import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
-import { button } from '../button/button';
+import { buttonStyles } from '../button/button';
 jsx;
 
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
@@ -61,7 +61,7 @@ const Link: React.FC<any> = styled(NavLink, {
     },
   },
   buttonStyled && {
-    ...button,
+    ...buttonStyles,
     ...buttonModifiers.secondary,
     '&.active': {
       ...buttonModifiers.primary,
