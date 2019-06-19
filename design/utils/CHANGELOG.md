@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
+
+
+### Bug Fixes
+
+* **docs:** fix build after vertical rhythm ([0fd0922](https://github.com/coingaming/sportsbet-design/commit/0fd0922))
+
+
+
+
+
 # [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
