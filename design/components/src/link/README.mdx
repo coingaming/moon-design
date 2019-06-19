@@ -4,7 +4,7 @@ menu: Components
 route: /components/link
 ---
 
-import { Link } from '@heathmont/sportsbet-components';
+import { Link, Button } from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Link
@@ -40,7 +40,7 @@ Sometimes it might make more semantic sense to render the Link as a `<button>` e
 This can be achieved by **adding** the `as="button"` attribute.
 
 ```jsx react-live
-<Link as="button">I look like a link, but really I'm a button</Link>
+<Link as={Button}>I look like a link, but really I'm a button</Link>
 ```
 
 ## Disabled

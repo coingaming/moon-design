@@ -64,7 +64,7 @@ export const tennis2 = {
 };
 
 export const liveBadge = (
-  <Badge color={'#fff'} backgroundColor={colors.highlight}>
+  <Badge color={'#fff'} backgroundColor={colors.palette.vegeta[80]}>
     Live
   </Badge>
 );
