@@ -1,29 +1,24 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
-import { container } from '@heathmont/sportsbet-utils/lib/container';
 import {
   AddWalletCard,
   AddWalletNavigation,
   AddWalletsContainer,
   CashierHeading,
   CashierLayout,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
-import { CashierNav } from '../dumb-components/navigation';
-import {
-  Button,
-  Heading,
-  NavLink,
-  RouteLink,
-} from '@heathmont/sportsbet-components';
+import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import {
   IconArrowLeft,
   IconCurrencyEur,
   IconCurrencyBtc,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const AddWalletView = () => {
@@ -37,27 +32,15 @@ export const AddWalletView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <CashierNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
       <CashierLayout>
         <CashierHeading>
           <AddWalletNavigation>
-            <RouteLink as={NavLink} to={'/cashier'}>
+            <Link to={'/cashier'}>
               <IconArrowLeft color={colors.neutral[20]} />
-            </RouteLink>
+            </Link>
             <span>Add wallet</span>
           </AddWalletNavigation>
         </CashierHeading>
@@ -68,7 +51,7 @@ export const AddWalletView = () => {
                 <AddWalletCard
                   active
                   backgroundIcon={
-                    <IconCurrencyEur color={colors.alternate.secondary[10]} />
+                    <IconCurrencyEur color={colors.neutral[40]} />
                   }
                 >
                   <Heading size="echo" as="h5">
@@ -78,7 +61,7 @@ export const AddWalletView = () => {
                 </AddWalletCard>
                 <AddWalletCard
                   backgroundIcon={
-                    <IconCurrencyBtc color={colors.alternate.secondary[10]} />
+                    <IconCurrencyBtc color={colors.neutral[40]} />
                   }
                 >
                   <Heading size="echo" as="h5">

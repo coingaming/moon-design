@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
-import { AccountNav } from './dumb-components/navigation';
 import {
   CashierLayout,
   StickyNav,
@@ -10,6 +9,7 @@ import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { AccountEditView } from './account-edit-view';
 import { VerifyEmailView } from './verify-email-view';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const AccountView = () => {
@@ -28,7 +28,7 @@ export const AccountView = () => {
         <NonLoggedNav login={() => login(true)} />
       )}
       <StickyNav>
-        <AccountNav />
+        <SubNavigation />
       </StickyNav>
 
       <CashierLayout>

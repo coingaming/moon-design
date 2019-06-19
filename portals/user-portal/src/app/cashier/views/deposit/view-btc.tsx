@@ -14,7 +14,6 @@ import {
   TextInput,
   Select,
 } from '@heathmont/sportsbet-components';
-import { CashierNav } from './dumb-components/navigation';
 import { colors } from '@heathmont/sportsbet-tokens';
 import {
   CashierLayout,
@@ -49,11 +48,12 @@ import {
   BtcPaymentPowerByImageBlock,
 } from '@heathmont/sportsbet-user-portal-components';
 import { NeedAssistanceBanner } from './dumb-components/need-assistance-banner';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const DepositViewBTC = () => (
   <CashierLayout>
-    <CashierNav />
+    <SubNavigation />
     <BtcPaymentGrid>
       <BtcPaymentLayoutHeader>
         <CashierHeading>Deposit</CashierHeading>
