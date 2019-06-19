@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { rhythm, spacing } from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 import { Badge } from '../badge';
 jsx;
 
@@ -33,13 +33,13 @@ const unitLarge: CSSObject = {
 };
 
 const Title = styled.p({
-  ...rhythm(0),
+  marginTop: 0,
   fontSize: rem(31),
   lineHeight: rem(38),
 });
 
 const Text = styled.p({
-  ...rhythm(0),
+  marginTop: 0,
   color: colors.neutral[20],
   fontSize: rem(15),
   lineHeight: rem(20),

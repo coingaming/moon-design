@@ -1,8 +1,6 @@
 /** @jsx jsx */
 import { default as React, useState } from 'react';
-import { container } from '@heathmont/sportsbet-utils';
-import { RewardsNav } from '../dumb-components/navigation';
-import { Button, Heading, RouteLink } from '@heathmont/sportsbet-components';
+import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { jsx } from '@emotion/core';
 import {
   BonusesHeadingContainer,
@@ -13,9 +11,11 @@ import {
   FreeBetInfo,
   FreeBetInfoContainer,
   FreeBetsWrapper,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
+import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const FreeBetsView = () => {
@@ -29,36 +29,24 @@ export const FreeBetsView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <RewardsNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
       <CashierLayout>
         <BonusesHeadingContainer>
           <Heading size={'charlie'} as={'h1'}>
             Bonuses
           </Heading>
           <BonusesSubNavigation>
-            <Button modifier="primary">
-              <RouteLink to={'free-bets'}>Free bets 1</RouteLink>
-            </Button>
-            <Button modifier="secondary">
-              <RouteLink to={'price-boosts'}>Price boosts 15</RouteLink>
-            </Button>
-            <Button modifier="secondary">
-              <RouteLink to={'casino'}>Casino 12</RouteLink>
-            </Button>
+            <Link to="/bonuses/free-bets" buttonStyled>
+              Free bets 1
+            </Link>
+            <Link to="/bonuses/price-boosts" buttonStyled>
+              Price boosts 15
+            </Link>
+            <Link to="/bonuses/casino" buttonStyled>
+              Casino 12
+            </Link>
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
         <FreeBetsWrapper>
