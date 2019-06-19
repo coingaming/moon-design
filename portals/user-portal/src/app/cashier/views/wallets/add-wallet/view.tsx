@@ -8,10 +8,10 @@ import {
   AddWalletsContainer,
   CashierHeading,
   CashierLayout,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
-import { CashierNav } from '../dumb-components/navigation';
 import {
   Button,
   Heading,
@@ -24,6 +24,7 @@ import {
   IconEuro,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const AddWalletView = () => {
@@ -37,21 +38,9 @@ export const AddWalletView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <CashierNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
       <CashierLayout>
         <CashierHeading>
           <AddWalletNavigation>
@@ -67,9 +56,7 @@ export const AddWalletView = () => {
               <React.Fragment>
                 <AddWalletCard
                   active
-                  backgroundIcon={
-                    <IconEuro color={colors.alternate.secondary[10]} />
-                  }
+                  backgroundIcon={<IconEuro color={colors.neutral[40]} />}
                 >
                   <Heading size="echo" as="h5">
                     Euro
@@ -77,9 +64,7 @@ export const AddWalletView = () => {
                   <Button modifier="optional">Remove</Button>
                 </AddWalletCard>
                 <AddWalletCard
-                  backgroundIcon={
-                    <IconBitcoin color={colors.alternate.secondary[10]} />
-                  }
+                  backgroundIcon={<IconBitcoin color={colors.neutral[40]} />}
                 >
                   <Heading size="echo" as="h5">
                     Bitcoin
