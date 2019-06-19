@@ -7,89 +7,45 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
 
-
-
-
-
 # [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
-
-
-
-
 
 # [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
 
-
-
-
-
 # [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
-
-
-
-
 
 # [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
 
-
-
-
-
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
-
-
-
-
 
 # [0.53.0](https://github.com/coingaming/sportsbet-design/compare/v0.52.1...v0.53.0) (2019-06-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
 
-
-
-
-
 # [0.52.0](https://github.com/coingaming/sportsbet-design/compare/v0.51.5...v0.52.0) (2019-06-07)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
-
-
-
-
 
 # [0.51.0](https://github.com/coingaming/sportsbet-design/compare/v0.50.0...v0.51.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
 
-
-
-
-
 # [0.50.0](https://github.com/coingaming/sportsbet-design/compare/v0.49.1...v0.50.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
 
-
-
-
-
 ## [0.49.1](https://github.com/coingaming/sportsbet-design/compare/v0.49.0...v0.49.1) (2019-06-05)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
-
-
-
-
 
 # [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
 

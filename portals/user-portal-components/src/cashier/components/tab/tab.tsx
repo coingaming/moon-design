@@ -61,10 +61,10 @@ const Tab: React.FC = ({ children }) => {
   );
 };
 
-const TabItem = styled(RouteLink, {
+const TabItem = styled(NavLink, {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
 })<{ active?: boolean; rightAligned?: boolean; as?: any }>(
-  ({ active = false, rightAligned = false }) => [
+  ({ rightAligned = false }) => [
     {
       display: 'flex',
       flexDirection: 'column',
@@ -78,6 +78,10 @@ const TabItem = styled(RouteLink, {
       marginLeft: spacing(),
       marginRight: spacing(),
       borderBottom: `${underlineWidth}px solid transparent`,
+      '&.active': {
+        borderBottom: `${underlineWidth}px solid ${colors.brand}`,
+        color: colors.neutral[10],
+      },
       [mq(breakpoints.large)]: {
         '&:first-of-type': {
           marginLeft: 0,
@@ -88,21 +92,9 @@ const TabItem = styled(RouteLink, {
         color: colors.neutral[10],
       },
     },
-    active && {
-      borderBottom: `${underlineWidth}px solid ${colors.brand}`,
-      color: colors.neutral[10],
-    },
     rightAligned && {
       [mq(breakpoints.small)]: {
         marginLeft: 'auto',
-        // '&::before': {
-        //   // https://github.com/tylerthehaas/dev-journal/blob/master/2018/December.md#december-12th-2018
-        //   content: '""',
-        //   height: spacing(),
-        //   marginRight: spacing(),
-        //   borderLeft: `${border.width}px solid ${colors.neutral[40]}`,
-        //   backgroundColor: colors.neutral[20],
-        // },
       },
     },
   ]
