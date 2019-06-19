@@ -33,14 +33,12 @@ const unitLarge: CSSObject = {
 };
 
 const Title = styled.p({
-  // ...rhythm(0),
   marginTop: 0,
   fontSize: rem(31),
   lineHeight: rem(38),
 });
 
 const Text = styled.p({
-  // ...rhythm(0),
   marginTop: 0,
   color: colors.neutral[20],
   fontSize: rem(15),
