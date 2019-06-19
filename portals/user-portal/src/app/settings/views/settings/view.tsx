@@ -4,7 +4,6 @@ import { jsx } from '@emotion/core';
 
 import rem from 'polished/lib/helpers/rem';
 import { Heading, Select, Switch } from '@heathmont/sportsbet-components';
-import { SettingsNav } from './dumb-components/navigation';
 import {
   SettingsBlock,
   SettingsSection,
@@ -12,10 +11,12 @@ import {
   SettingsText,
   CashierLayout,
   CashierHeading,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const SettingsView = () => {
@@ -27,21 +28,9 @@ export const SettingsView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <SettingsNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
       <CashierLayout>
         <CashierHeading>Settings</CashierHeading>
         <SettingsSection>

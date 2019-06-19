@@ -5,163 +5,94 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 
-
 ### Bug Fixes
 
-* **nav:** fix entire navigation links ([e47a843](https://github.com/coingaming/sportsbet-design/commit/e47a843))
-* update snapshots with new colors ([eb2b8c2](https://github.com/coingaming/sportsbet-design/commit/eb2b8c2))
-
+- **nav:** fix entire navigation links ([e47a843](https://github.com/coingaming/sportsbet-design/commit/e47a843))
+- update snapshots with new colors ([eb2b8c2](https://github.com/coingaming/sportsbet-design/commit/eb2b8c2))
 
 ### Features
 
-* **colors:** colors cleanup ([dcf4ed7](https://github.com/coingaming/sportsbet-design/commit/dcf4ed7))
-
-
-
-
+- **colors:** colors cleanup ([dcf4ed7](https://github.com/coingaming/sportsbet-design/commit/dcf4ed7))
 
 # [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
 
-
 ### Bug Fixes
 
-* **RouteLink:** styling for NavLink ([295454a](https://github.com/coingaming/sportsbet-design/commit/295454a))
-
+- **RouteLink:** styling for NavLink ([295454a](https://github.com/coingaming/sportsbet-design/commit/295454a))
 
 ### Features
 
-* **route-link:** initial implementation ([7cb8b8d](https://github.com/coingaming/sportsbet-design/commit/7cb8b8d))
-
-
-
-
+- **route-link:** initial implementation ([7cb8b8d](https://github.com/coingaming/sportsbet-design/commit/7cb8b8d))
 
 # [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
 
-
 ### Bug Fixes
 
-* add-wallet component call & update tests ([5f60a08](https://github.com/coingaming/sportsbet-design/commit/5f60a08))
-* badge resize upon flex-child ([e6c8b7d](https://github.com/coingaming/sportsbet-design/commit/e6c8b7d))
-
-
-
-
+- add-wallet component call & update tests ([5f60a08](https://github.com/coingaming/sportsbet-design/commit/5f60a08))
+- badge resize upon flex-child ([e6c8b7d](https://github.com/coingaming/sportsbet-design/commit/e6c8b7d))
 
 # [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
 
-
 ### Bug Fixes
 
-* badge paddings & navtab margins ([6ef23d3](https://github.com/coingaming/sportsbet-design/commit/6ef23d3))
-* switch getting shrunk as a flex item ([d460134](https://github.com/coingaming/sportsbet-design/commit/d460134))
-* updated tests ([68ca600](https://github.com/coingaming/sportsbet-design/commit/68ca600))
-
-
-
-
+- badge paddings & navtab margins ([6ef23d3](https://github.com/coingaming/sportsbet-design/commit/6ef23d3))
+- switch getting shrunk as a flex item ([d460134](https://github.com/coingaming/sportsbet-design/commit/d460134))
+- updated tests ([68ca600](https://github.com/coingaming/sportsbet-design/commit/68ca600))
 
 # [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
-
 
 ### Features
 
-* **colors:** update base colors ([c8566ed](https://github.com/coingaming/sportsbet-design/commit/c8566ed))
-
-
-
-
+- **colors:** update base colors ([c8566ed](https://github.com/coingaming/sportsbet-design/commit/c8566ed))
 
 # [0.53.0](https://github.com/coingaming/sportsbet-design/compare/v0.52.1...v0.53.0) (2019-06-10)
 
-
 ### Features
 
-* **badge:** add modifier prop ([50398c6](https://github.com/coingaming/sportsbet-design/commit/50398c6))
-
-
-
-
+- **badge:** add modifier prop ([50398c6](https://github.com/coingaming/sportsbet-design/commit/50398c6))
 
 # [0.52.0](https://github.com/coingaming/sportsbet-design/compare/v0.51.5...v0.52.0) (2019-06-07)
 
-
 ### Bug Fixes
 
-* added NavLinkProps to Button and Link ([d174836](https://github.com/coingaming/sportsbet-design/commit/d174836))
-
-
-
-
+- added NavLinkProps to Button and Link ([d174836](https://github.com/coingaming/sportsbet-design/commit/d174836))
 
 ## [0.51.4](https://github.com/coingaming/sportsbet-design/compare/v0.51.3...v0.51.4) (2019-06-07)
 
-
 ### Bug Fixes
 
-* **link:** fix ts type for Link ([69eee3c](https://github.com/coingaming/sportsbet-design/commit/69eee3c))
-
-
-
-
+- **link:** fix ts type for Link ([69eee3c](https://github.com/coingaming/sportsbet-design/commit/69eee3c))
 
 ## [0.51.2](https://github.com/coingaming/sportsbet-design/compare/v0.51.1...v0.51.2) (2019-06-06)
 
-
 ### Bug Fixes
 
-* **button:** add NavLink props ([5d20930](https://github.com/coingaming/sportsbet-design/commit/5d20930))
-* **Link:** added NavLinkProps ([1bcc817](https://github.com/coingaming/sportsbet-design/commit/1bcc817))
-
-
-
-
+- **button:** add NavLink props ([5d20930](https://github.com/coingaming/sportsbet-design/commit/5d20930))
+- **Link:** added NavLinkProps ([1bcc817](https://github.com/coingaming/sportsbet-design/commit/1bcc817))
 
 ## [0.51.1](https://github.com/coingaming/sportsbet-design/compare/v0.51.0...v0.51.1) (2019-06-06)
 
-
 ### Bug Fixes
 
-* **button:** fixed type for "as" prop ([5c9dea2](https://github.com/coingaming/sportsbet-design/commit/5c9dea2))
-
-
-
-
+- **button:** fixed type for "as" prop ([5c9dea2](https://github.com/coingaming/sportsbet-design/commit/5c9dea2))
 
 # [0.51.0](https://github.com/coingaming/sportsbet-design/compare/v0.50.0...v0.51.0) (2019-06-06)
 
-
 ### Features
 
-* **tabItem:** added "as" prop ([4b96b03](https://github.com/coingaming/sportsbet-design/commit/4b96b03))
-
-
-
-
+- **tabItem:** added "as" prop ([4b96b03](https://github.com/coingaming/sportsbet-design/commit/4b96b03))
 
 # [0.50.0](https://github.com/coingaming/sportsbet-design/compare/v0.49.1...v0.50.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.49.1](https://github.com/coingaming/sportsbet-design/compare/v0.49.0...v0.49.1) (2019-06-05)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
-
-
-
-
 
 # [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
 
