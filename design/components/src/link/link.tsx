@@ -49,7 +49,7 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-const Link: React.FC<any> = styled(NavLink, {
+const Link: React.FC<any> = styled('a', {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
 })(({ href, secondary, optional, buttonStyled, ...props }) => [
   linkBase,
