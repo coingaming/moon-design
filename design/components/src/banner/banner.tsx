@@ -42,8 +42,7 @@ const BannerItem = styled.div<BannerItemProps>(({ horizontal }) => [
   },
   horizontal
     ? { margin: 0, padding: `${spacing()} ${spacing('medium')}` }
-    : // : { ...rhythm(), width: '100%' },
-      { marginTop: spacing(), width: '100%' },
+    : { marginTop: spacing(), width: '100%' },
 ]);
 
 const Banner: React.FC<BannerProps> = ({
