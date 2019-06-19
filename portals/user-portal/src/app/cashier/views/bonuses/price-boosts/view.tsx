@@ -16,6 +16,7 @@ import {
 } from '@heathmont/sportsbet-user-portal-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
+import { NavLink } from 'react-router-dom';
 jsx;
 
 export const PriceBoostsView = () => {
@@ -38,13 +39,13 @@ export const PriceBoostsView = () => {
             Bonuses
           </Heading>
           <BonusesSubNavigation>
-            <Link to="/bonuses/free-bets" buttonStyled>
+            <Link as={NavLink} to="/bonuses/free-bets" buttonStyled>
               Free bets 1
             </Link>
-            <Link to="/bonuses/price-boosts" buttonStyled>
+            <Link as={NavLink} to="/bonuses/price-boosts" buttonStyled>
               Price boosts 15
             </Link>
-            <Link to="/bonuses/casino" buttonStyled>
+            <Link as={NavLink} to="/bonuses/casino" buttonStyled>
               Casino 12
             </Link>
           </BonusesSubNavigation>

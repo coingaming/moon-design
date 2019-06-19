@@ -10,7 +10,7 @@ import { spacing } from './';
 # Spacing
 
 ```js
-import { spacing, rhythm } from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 ```
 
 Returns a given [spacing token "key"](/tokens#spacing) value as a `rem` spacing unit.
@@ -22,24 +22,4 @@ as `spacing(0)`.
 <div css={{padding: spacing(), border: '1px solid white'}}>Default</div>
 <div css={{padding: spacing('small'), border: '1px solid white'}}>Small</div>
 <div css={{padding: spacing('large'), border: '1px solid white'}}>Large</div>
-```
-
-## Rhythm
-
-Maintaining consistent vertical spacing (or rhythm) is important from both a
-design and development perspective. We want our elements to visually flow, but
-we also don't want clashing margin directions to collapse. Using `rhythm()`
-ensures that all vertical margins are placed on the same direction.
-
-By default, we apply rhythm to most block-level elements (ignoring `:first-child`)
-in [Global](../global), but there may be specific use-cases that require
-modifying/adding it.
-
-Similarly to `spacing()`, `rhythm()` returns a given [spacing token "key"](/tokens#spacing)
-and can be reset as `rhythm(0)`.
-
-```jsx react-live
-<div css={{...rhythm(), border: '1px solid white'}}>Default (<code>:first-child</code>)</div>
-<div css={{...rhythm(), border: '1px solid white'}}>Default</div>
-<div css={{...rhythm('large'), border: '1px solid white'}}>Large</div>
 ```
