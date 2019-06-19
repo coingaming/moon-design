@@ -5,6 +5,9 @@ import isPropValid from '@emotion/is-prop-valid';
 import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
+import { NavLink } from 'react-router-dom';
+import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
+import { button } from '../button/button';
 jsx;
 
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
@@ -12,6 +15,7 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   disabled?: boolean;
   secondary?: boolean;
   optional?: boolean;
+  buttonModifier: ButtonModifiers;
   as?: any;
   to?: any;
   // Manually added these because NavLinkProps extending causes TS errors
@@ -45,15 +49,22 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-const Link: React.FC<LinkProps> = styled('a', {
+const Link: React.FC<any> = styled(NavLink, {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})(({ href, secondary, optional, ...props }) => [
+})(({ href, secondary, optional, buttonStyled, ...props }) => [
   linkBase,
   secondary && { color: colors.neutral[20] },
   optional && {
     color: colors.neutral[20],
     '&:hover, &:focus, &:active': {
       color: colors.neutral[10],
+    },
+  },
+  buttonStyled && {
+    ...button,
+    ...buttonModifiers.secondary,
+    '&.active': {
+      ...buttonModifiers.primary,
     },
   },
 ]);

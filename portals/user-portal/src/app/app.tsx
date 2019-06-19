@@ -31,6 +31,11 @@ export const AppRoutes = () => (
       component={PriceBoostsView}
     />
     <Route path="/bonuses/free-bets" exact={true} component={FreeBetsView} />
+    <Route
+      path="/bonuses/casino"
+      exact={true}
+      component={() => <div>In Progress</div>}
+    />
   </Switch>
 );
 

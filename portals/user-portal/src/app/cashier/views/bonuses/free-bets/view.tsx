@@ -1,6 +1,12 @@
 /** @jsx jsx */
 import { default as React, useState } from 'react';
-import { Button, Heading, RouteLink } from '@heathmont/sportsbet-components';
+import {
+  Button,
+  Heading,
+  RouteLink,
+  NavLink,
+  Link,
+} from '@heathmont/sportsbet-components';
 import { jsx } from '@emotion/core';
 import {
   BonusesHeadingContainer,
@@ -38,15 +44,15 @@ export const FreeBetsView = () => {
             Bonuses
           </Heading>
           <BonusesSubNavigation>
-            <Button modifier="primary">
-              <RouteLink to={'free-bets'}>Free bets 1</RouteLink>
-            </Button>
-            <Button modifier="secondary">
-              <RouteLink to={'price-boosts'}>Price boosts 15</RouteLink>
-            </Button>
-            <Button modifier="secondary">
-              <RouteLink to={'casino'}>Casino 12</RouteLink>
-            </Button>
+            <Link to="/bonuses/free-bets" buttonStyled>
+              Free bets 1
+            </Link>
+            <Link to="/bonuses/price-boosts" buttonStyled>
+              Price boosts 15
+            </Link>
+            <Link to="/bonuses/casino" buttonStyled>
+              Casino 12
+            </Link>
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
         <FreeBetsWrapper>
