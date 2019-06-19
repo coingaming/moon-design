@@ -188,10 +188,6 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
   width: 100%;
 }
 
-.emotion-1:first-child {
-  margin-top: 0;
-}
-
 .emotion-0 {
   font-weight: 700;
   font-size: 2rem;
@@ -323,10 +319,6 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
   flex-grow: 2;
   margin-top: 1rem;
   width: 100%;
-}
-
-.emotion-1:first-child {
-  margin-top: 0;
 }
 
 .emotion-0 {
@@ -577,10 +569,6 @@ exports[`Banner renders vertically by default 1`] = `
   flex-grow: 2;
   margin-top: 1rem;
   width: 100%;
-}
-
-.emotion-1:first-child {
-  margin-top: 0;
 }
 
 .emotion-0 {
