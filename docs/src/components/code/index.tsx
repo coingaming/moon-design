@@ -26,7 +26,6 @@ type HighlightProps = {
 const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
 
 const codeWrapper: CSSObject = {
-  ...Utils.rhythm(),
   display: 'block',
   border: codeBorder,
   borderRadius: border.radius.small,
