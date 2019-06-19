@@ -30,23 +30,15 @@ exports[`Form renders correctly 1`] = `
   margin-top: 0;
 }
 
-.emotion-4:first-child {
-  margin-top: 0;
-}
-
 .emotion-1 {
   display: block;
   list-style-type: none;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {
   position: absolute;
   content: "\\200B";
-}
-
-.emotion-1:first-child {
-  margin-top: 0;
 }
 
 <form
@@ -131,23 +123,15 @@ exports[`Form renders with HTML form attributes 1`] = `
   margin-top: 0;
 }
 
-.emotion-4:first-child {
-  margin-top: 0;
-}
-
 .emotion-1 {
   display: block;
   list-style-type: none;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {
   position: absolute;
   content: "\\200B";
-}
-
-.emotion-1:first-child {
-  margin-top: 0;
 }
 
 <form
@@ -231,23 +215,15 @@ exports[`Form renders with custom fullWidth 1`] = `
   margin-top: 0;
 }
 
-.emotion-4:first-child {
-  margin-top: 0;
-}
-
 .emotion-1 {
   display: block;
   list-style-type: none;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {
   position: absolute;
   content: "\\200B";
-}
-
-.emotion-1:first-child {
-  margin-top: 0;
 }
 
 .emotion-6 {
@@ -332,23 +308,15 @@ exports[`Form renders with custom maxWidth 1`] = `
   margin-top: 0;
 }
 
-.emotion-4:first-child {
-  margin-top: 0;
-}
-
 .emotion-1 {
   display: block;
   list-style-type: none;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .emotion-1:before {
   position: absolute;
   content: "\\200B";
-}
-
-.emotion-1:first-child {
-  margin-top: 0;
 }
 
 .emotion-6 {

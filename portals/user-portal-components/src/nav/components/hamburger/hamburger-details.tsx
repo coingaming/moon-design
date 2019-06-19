@@ -88,7 +88,7 @@ export const column: CSSObject = {
   },
 };
 
-export const Balance = styled.p({
+export const Balance = styled.span({
   color: colors.neutral[10],
   fontSize: rem(24),
   lineHeight: '2rem',

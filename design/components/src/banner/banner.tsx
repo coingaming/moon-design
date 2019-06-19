@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { jsx } from '@emotion/core';
 
 import { colors, border } from '@heathmont/sportsbet-tokens';
-import { spacing, rhythm } from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 
 type BannerItemProps = {
   horizontal?: boolean;
@@ -42,7 +42,7 @@ const BannerItem = styled.div<BannerItemProps>(({ horizontal }) => [
   },
   horizontal
     ? { margin: 0, padding: `${spacing()} ${spacing('medium')}` }
-    : { ...rhythm(), width: '100%' },
+    : { marginTop: spacing(), width: '100%' },
 ]);
 
 const Banner: React.FC<BannerProps> = ({

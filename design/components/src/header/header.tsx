@@ -1,13 +1,14 @@
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { typography, breakpoints } from '@heathmont/sportsbet-tokens';
-import { mq, spacing, rhythm } from '@heathmont/sportsbet-utils';
+import { mq, spacing } from '@heathmont/sportsbet-utils';
 
 /**
  * 1. A tiny boost to the vertical rhythm of succeeding elements.
  */
+
 const Header = styled.header({
-  ...rhythm(),
+  marginTop: spacing(),
   paddingBottom: spacing('small') /* [1] */,
   position: 'relative',
   display: 'flex',

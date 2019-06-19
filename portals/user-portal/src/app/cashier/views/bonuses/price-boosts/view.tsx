@@ -2,12 +2,9 @@
 import { default as React, useState } from 'react';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
-import { container } from '@heathmont/sportsbet-utils';
-import { RewardsNav } from '../dumb-components/navigation';
-import { Button, Heading, RouteLink } from '@heathmont/sportsbet-components';
+import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { IconSoccer } from '@heathmont/sportsbet-icons';
 import { jsx } from '@emotion/core';
-import { NavLink } from 'react-router-dom';
 import {
   BonusesHeadingContainer,
   BonusesSubNavigation,
@@ -15,8 +12,10 @@ import {
   CashierLayout,
   PriceBoost,
   PriceBoostCaption,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const PriceBoostsView = () => {
@@ -30,42 +29,24 @@ export const PriceBoostsView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <RewardsNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
       <CashierLayout>
         <BonusesHeadingContainer>
           <Heading size={'charlie'} as={'h1'}>
             Bonuses
           </Heading>
           <BonusesSubNavigation>
-            <Button modifier="secondary">
-              <RouteLink as={NavLink} to={'free-bets'}>
-                Free bets 1
-              </RouteLink>
-            </Button>
-            <Button modifier="primary">
-              <RouteLink as={NavLink} to={'price-boosts'}>
-                Price boosts 15
-              </RouteLink>
-            </Button>
-            <Button modifier="secondary">
-              <RouteLink as={NavLink} to={'casino'}>
-                Casino 12
-              </RouteLink>
-            </Button>
+            <Link to="/bonuses/free-bets" buttonStyled>
+              Free bets 1
+            </Link>
+            <Link to="/bonuses/price-boosts" buttonStyled>
+              Price boosts 15
+            </Link>
+            <Link to="/bonuses/casino" buttonStyled>
+              Casino 12
+            </Link>
           </BonusesSubNavigation>
         </BonusesHeadingContainer>
         <BonusWrapper>

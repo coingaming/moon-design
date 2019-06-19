@@ -27,8 +27,10 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 }
 
 <a
+  aria-current={null}
   className="emotion-0"
-  href="#test-path"
+  href="/#test-path"
+  onClick={[Function]}
 >
   I'm a link
 </a>
@@ -62,6 +64,7 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
 
 <button
   className="emotion-0"
+  to="#test"
 >
   I look like a link, but really I'm a button
 </button>
@@ -94,7 +97,10 @@ exports[`Link renders as a link by default 1`] = `
 }
 
 <a
+  aria-current={null}
   className="emotion-0"
+  href="/#test"
+  onClick={[Function]}
 >
   I look like a link
 </a>
@@ -134,8 +140,10 @@ exports[`Link renders as a optional 1`] = `
 }
 
 <a
+  aria-current={null}
   className="emotion-0"
-  href="#test-path"
+  href="/#test-path"
+  onClick={[Function]}
 >
   I'm an optiona; link
 </a>
@@ -169,8 +177,10 @@ exports[`Link renders as a secondary 1`] = `
 }
 
 <a
+  aria-current={null}
   className="emotion-0"
-  href="#test-path"
+  href="/#test-path"
+  onClick={[Function]}
 >
   I'm a secondary link
 </a>
@@ -203,9 +213,11 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 }
 
 <a
+  aria-current={null}
   className="emotion-0"
   disabled={true}
-  href="#test-path"
+  href="/#test-path"
+  onClick={[Function]}
 >
   I'm a link
 </a>
@@ -240,6 +252,7 @@ exports[`Link renders as disabled for button elements 1`] = `
 <button
   className="emotion-0"
   disabled={true}
+  to="#test"
 >
   I look like a link, but really I'm a button
 </button>

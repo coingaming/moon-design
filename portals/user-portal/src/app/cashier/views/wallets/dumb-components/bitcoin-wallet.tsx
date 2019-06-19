@@ -36,12 +36,12 @@ export const BitcoinWallet = () => {
         <div>
           <Link
             secondary
-            href={'/deposit-btc'}
+            to={'/deposit-btc'}
             style={{ marginRight: spacing() }}
           >
             Deposit
           </Link>
-          <Link secondary href={'/withdraw-btc'}>
+          <Link secondary to={'/withdraw-btc'}>
             Withdraw
           </Link>
         </div>

@@ -36,11 +36,12 @@ import {
   // PaymentListItem,
   // PaymentCheck,
 } from '@heathmont/sportsbet-user-portal-components';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 
 export const DepositView = () => {
   return (
     <CashierLayout>
-      <CashierNav />
+      <SubNavigation />
       <CashierGrid asideWidth={280}>
         <LayoutHeader>
           <CashierHeading>Deposit</CashierHeading>
