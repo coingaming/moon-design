@@ -45,7 +45,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 /**
  * Styles
  */
-const button: CSSObject = {
+export const button: CSSObject = {
   padding: `${spacing('small')} ${spacing('medium')}`,
   display: 'inline-block',
   verticalAlign: 'middle',
