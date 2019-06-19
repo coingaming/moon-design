@@ -26,7 +26,7 @@ export const CashierLayout: React.FC = ({ children }) => (
 );
 
 const heading: CSSObject = {
-  marginTop: spacing('large'),
+  // marginTop: spacing('large'),
   paddingLeft: spacing('large'),
   paddingTop: spacing('large'),
   paddingBottom: spacing('large'),
