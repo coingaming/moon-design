@@ -8,10 +8,6 @@ exports[`Nav renders correctly 1`] = `
   overflow-y: hidden;
 }
 
-.emotion-6:first-child {
-  margin-top: 0;
-}
-
 .emotion-0 {
   position: absolute;
   z-index: 1;
