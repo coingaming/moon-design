@@ -27,10 +27,8 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 }
 
 <a
-  aria-current={null}
   className="emotion-0"
-  href="/#test-path"
-  onClick={[Function]}
+  to="#test-path"
 >
   I'm a link
 </a>
@@ -97,10 +95,8 @@ exports[`Link renders as a link by default 1`] = `
 }
 
 <a
-  aria-current={null}
   className="emotion-0"
-  href="/#test"
-  onClick={[Function]}
+  to="#test"
 >
   I look like a link
 </a>
@@ -140,10 +136,8 @@ exports[`Link renders as a optional 1`] = `
 }
 
 <a
-  aria-current={null}
   className="emotion-0"
-  href="/#test-path"
-  onClick={[Function]}
+  to="#test-path"
 >
   I'm an optiona; link
 </a>
@@ -177,10 +171,8 @@ exports[`Link renders as a secondary 1`] = `
 }
 
 <a
-  aria-current={null}
   className="emotion-0"
-  href="/#test-path"
-  onClick={[Function]}
+  to="#test-path"
 >
   I'm a secondary link
 </a>
@@ -213,11 +205,9 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 }
 
 <a
-  aria-current={null}
   className="emotion-0"
   disabled={true}
-  href="/#test-path"
-  onClick={[Function]}
+  to="#test-path"
 >
   I'm a link
 </a>
