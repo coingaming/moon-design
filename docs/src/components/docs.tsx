@@ -1,10 +1,9 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { spacing, rhythm } from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 
 export const Playground = styled.div({
-  ...rhythm(),
   position: 'relative',
   padding: spacing(),
   borderStyle: border.style,
