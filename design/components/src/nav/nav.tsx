@@ -21,7 +21,6 @@ const navSkipLinkID = 'nav-skip';
 const Nav: React.FC = ({ children }) => {
   const nav: CSSObject = {
     marginTop: spacing(),
-    // ...rhythm(),
     position: 'relative',
     overflowX: 'scroll',
     overflowY: 'hidden',

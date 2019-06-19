@@ -7,10 +7,7 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
  * 1. A tiny boost to the vertical rhythm of succeeding elements.
  */
 
-// console.log('header k2ima', { ...rhythm() });
-
 const Header = styled.header({
-  // ...rhythm(),
   marginTop: spacing(),
   paddingBottom: spacing('small') /* [1] */,
   position: 'relative',

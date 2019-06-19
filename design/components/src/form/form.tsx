@@ -5,7 +5,6 @@ import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
 import { spacing } from '@heathmont/sportsbet-utils';
-// import { rhythm } from '@heathmont/sportsbet-utils';
 jsx;
 
 /**
@@ -20,7 +19,6 @@ type FormProps = FormElement & {
   fullWidth?: boolean;
 };
 
-// const FormList = styled.ul([listPlain, rhythm(0)]);
 const FormList = styled.ul([listPlain, { marginTop: 0 }]);
 
 const Fieldset = styled.fieldset({
@@ -47,8 +45,6 @@ const Form: React.FC<FormProps> = ({
   );
 };
 
-// const FormItem = styled.li([listPlainItem, rhythm()]);
 const FormItem = styled.li([listPlainItem, { marginBottom: spacing() }]);
-// const FormItem = styled.li([listPlainItem]);
 
 export { Form, FormProps, FormItem };

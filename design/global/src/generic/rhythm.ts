@@ -8,16 +8,7 @@ export const rhythm: CSSObject = {
    * Apply default spacing to the bottom of all block-level elements for
    * consistent vertical rhythm.
    */
-  // [`h1, h2, h3, h4, h5, h6, hgroup,
-  //   ul, ol, dl,
-  //   blockquote, p, address, table,
-  //   fieldset, figure,
-  //   pre`]: {
-  //   // marginTop: spacingTokens.default,
-  //   // ...verticalRhythm(),
-  // },
   [`ul, ol, dl, p`]: {
-    // marginBottom: spacing(),
     marginTop: spacing(),
   },
   /**
