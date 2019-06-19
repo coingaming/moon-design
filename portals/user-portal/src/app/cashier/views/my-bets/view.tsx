@@ -10,7 +10,6 @@ import {
   wonBadge,
   activeBadge,
 } from './dummyData';
-import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { Badge, Button } from '@heathmont/sportsbet-components';
@@ -50,8 +49,9 @@ import {
   MyBetHeaderTitleAmount,
   ScoreboardsContainer,
   TennisScoreboard,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { MyBetsNav } from './dumb-components/navigation';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const MyBetsView = () => {
@@ -64,21 +64,9 @@ export const MyBetsView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <MyBetsNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
 
       <CashierLayout>
         <CashierHeading>My Bets</CashierHeading>
@@ -96,7 +84,9 @@ export const MyBetsView = () => {
           <MyBetHeader>
             <MyBetHeaderContainer>
               <MyBetHeaderTitle>
-                <Badge backgroundColor={colors.highlight}>Single</Badge>
+                <Badge backgroundColor={colors.palette.vegeta[80]}>
+                  Single
+                </Badge>
                 <MyBetHeaderTitleAmount>1535.82 mBTC</MyBetHeaderTitleAmount>
               </MyBetHeaderTitle>
               <MyBetHeaderCaption>
@@ -183,7 +173,9 @@ export const MyBetsView = () => {
           <MyBetHeader>
             <MyBetHeaderContainer>
               <MyBetHeaderTitle>
-                <Badge backgroundColor={colors.highlight}>Single</Badge>
+                <Badge backgroundColor={colors.palette.vegeta[80]}>
+                  Single
+                </Badge>
                 <MyBetHeaderTitleAmount>1535.82 mBTC</MyBetHeaderTitleAmount>
               </MyBetHeaderTitle>
               <MyBetHeaderCaption>

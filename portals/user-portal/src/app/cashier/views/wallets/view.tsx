@@ -15,17 +15,18 @@ import {
   LoadMore,
   AddWalletCardContainer,
   WalletMobileButton,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
-import { CashierNav } from '../deposit/dumb-components/navigation';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { Heading, RouteLink } from '@heathmont/sportsbet-components';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 const transactionItems = [
@@ -47,21 +48,9 @@ export const WalletsView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <CashierNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
       <CashierLayout>
         <CashierHeading>Wallet</CashierHeading>
         <WalletsContainer>

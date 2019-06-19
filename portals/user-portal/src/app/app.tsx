@@ -24,6 +24,7 @@ export const AppRoutes = () => (
     <Route path="/account" exact={true} component={AccountView} />
     <Route path="/settings" exact={true} component={SettingsView} />
     <Route path="/notifications" exact={true} component={NotificationsView} />
+    <Route path="/bonuses" exact={true} component={FreeBetsView} />
     <Route
       path="/bonuses/price-boosts"
       exact={true}
