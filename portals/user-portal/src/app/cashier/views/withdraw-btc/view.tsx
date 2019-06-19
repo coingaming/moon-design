@@ -27,7 +27,6 @@ import {
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
-import { CashierNav } from '../wallets/dumb-components/navigation';
 import {
   IconCoins,
   IconExchange,
@@ -41,6 +40,7 @@ import {
   Button,
   Heading,
 } from '@heathmont/sportsbet-components';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const WithdrawViewBTC = () => {
@@ -54,7 +54,7 @@ export const WithdrawViewBTC = () => {
         <NonLoggedNav login={() => login(true)} />
       )}
       <StickyNav>
-        <CashierNav />
+        <SubNavigation />
       </StickyNav>
 
       <CashierLayout>

@@ -3,7 +3,6 @@ import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
 
 import { Heading, Toggle } from '@heathmont/sportsbet-components';
-import { NotificationsNav } from './dumb-components/navigation';
 import {
   SettingsText,
   SettingsSection,
@@ -12,10 +11,12 @@ import {
   Active,
   CashierLayout,
   CashierHeading,
+  StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const NotificationsView = () => {
@@ -27,21 +28,9 @@ export const NotificationsView = () => {
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
-      <div
-        css={[
-          {
-            position: 'sticky',
-            top: 0,
-            zIndex: 1,
-          },
-          { ...container('default') },
-          {
-            overflowX: 'auto',
-          },
-        ]}
-      >
-        <NotificationsNav />
-      </div>
+      <StickyNav>
+        <SubNavigation />
+      </StickyNav>
 
       <CashierLayout>
         <CashierHeading>Notifications</CashierHeading>
