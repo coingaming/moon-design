@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
-import { container } from '@heathmont/sportsbet-utils/lib/container';
 import {
   AddWalletCard,
   AddWalletNavigation,
@@ -12,16 +11,11 @@ import {
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
-import {
-  Button,
-  Heading,
-  NavLink,
-  RouteLink,
-} from '@heathmont/sportsbet-components';
+import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import {
   IconArrowLeft,
-  IconBitcoin,
-  IconEuro,
+  IconCurrencyEur,
+  IconCurrencyBtc,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
@@ -44,9 +38,9 @@ export const AddWalletView = () => {
       <CashierLayout>
         <CashierHeading>
           <AddWalletNavigation>
-            <RouteLink as={NavLink} to={'/cashier'}>
+            <Link to={'/cashier'}>
               <IconArrowLeft color={colors.neutral[20]} />
-            </RouteLink>
+            </Link>
             <span>Add wallet</span>
           </AddWalletNavigation>
         </CashierHeading>
@@ -56,7 +50,9 @@ export const AddWalletView = () => {
               <React.Fragment>
                 <AddWalletCard
                   active
-                  backgroundIcon={<IconEuro color={colors.neutral[40]} />}
+                  backgroundIcon={
+                    <IconCurrencyEur color={colors.neutral[40]} />
+                  }
                 >
                   <Heading size="echo" as="h5">
                     Euro
@@ -64,7 +60,9 @@ export const AddWalletView = () => {
                   <Button modifier="optional">Remove</Button>
                 </AddWalletCard>
                 <AddWalletCard
-                  backgroundIcon={<IconBitcoin color={colors.neutral[40]} />}
+                  backgroundIcon={
+                    <IconCurrencyBtc color={colors.neutral[40]} />
+                  }
                 >
                   <Heading size="echo" as="h5">
                     Bitcoin

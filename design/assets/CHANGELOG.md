@@ -3,98 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
+# [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 
+**Note:** Version bump only for package @heathmont/sportsbet-assets
+
+# [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
 
 ### Features
 
-* add sports icons ([e6a4245](https://github.com/coingaming/sportsbet-design/commit/e6a4245))
-
-
-
-
+- add sports icons ([e6a4245](https://github.com/coingaming/sportsbet-design/commit/e6a4245))
 
 # [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
 
-
-
-
-
 # [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
 
-
-
-
-
 # [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
-
 
 ### Features
 
-* **icons:** add icons for banners ([2e3b29f](https://github.com/coingaming/sportsbet-design/commit/2e3b29f))
-* **icons:** add IconWarningExclamation ([3477738](https://github.com/coingaming/sportsbet-design/commit/3477738))
-
-
-
-
+- **icons:** add icons for banners ([2e3b29f](https://github.com/coingaming/sportsbet-design/commit/2e3b29f))
+- **icons:** add IconWarningExclamation ([3477738](https://github.com/coingaming/sportsbet-design/commit/3477738))
 
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
 
-
-
-
-
 # [0.53.0](https://github.com/coingaming/sportsbet-design/compare/v0.52.1...v0.53.0) (2019-06-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
 
-
-
-
-
 # [0.52.0](https://github.com/coingaming/sportsbet-design/compare/v0.51.5...v0.52.0) (2019-06-07)
-
 
 ### Features
 
-* **nav:** side menu improvements ([fcb4819](https://github.com/coingaming/sportsbet-design/commit/fcb4819))
-
-
-
-
+- **nav:** side menu improvements ([fcb4819](https://github.com/coingaming/sportsbet-design/commit/fcb4819))
 
 # [0.51.0](https://github.com/coingaming/sportsbet-design/compare/v0.50.0...v0.51.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
 
-
-
-
-
 # [0.50.0](https://github.com/coingaming/sportsbet-design/compare/v0.49.1...v0.50.0) (2019-06-06)
-
 
 ### Features
 
-* implement bonuses ([f43a287](https://github.com/coingaming/sportsbet-design/commit/f43a287))
-
-
-
-
+- implement bonuses ([f43a287](https://github.com/coingaming/sportsbet-design/commit/f43a287))
 
 ## [0.49.1](https://github.com/coingaming/sportsbet-design/compare/v0.49.0...v0.49.1) (2019-06-05)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
-
-
-
-
 
 # [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
 

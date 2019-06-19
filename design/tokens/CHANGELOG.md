@@ -3,88 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
+
+### Bug Fixes
+
+- add text color key ([2ee0bc6](https://github.com/coingaming/sportsbet-design/commit/2ee0bc6))
+- update snapshots with new colors ([eb2b8c2](https://github.com/coingaming/sportsbet-design/commit/eb2b8c2))
+
+### Features
+
+- **colors:** colors cleanup ([dcf4ed7](https://github.com/coingaming/sportsbet-design/commit/dcf4ed7))
+
 # [0.58.0](https://github.com/coingaming/sportsbet-design/compare/v0.57.0...v0.58.0) (2019-06-13)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.57.0](https://github.com/coingaming/sportsbet-design/compare/v0.56.0...v0.57.0) (2019-06-12)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.56.0](https://github.com/coingaming/sportsbet-design/compare/v0.55.0...v0.56.0) (2019-06-12)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.55.0](https://github.com/coingaming/sportsbet-design/compare/v0.54.0...v0.55.0) (2019-06-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.54.0](https://github.com/coingaming/sportsbet-design/compare/v0.53.0...v0.54.0) (2019-06-10)
-
 
 ### Features
 
-* **colors:** update base colors ([c8566ed](https://github.com/coingaming/sportsbet-design/commit/c8566ed))
-
-
-
-
+- **colors:** update base colors ([c8566ed](https://github.com/coingaming/sportsbet-design/commit/c8566ed))
 
 # [0.53.0](https://github.com/coingaming/sportsbet-design/compare/v0.52.1...v0.53.0) (2019-06-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.52.0](https://github.com/coingaming/sportsbet-design/compare/v0.51.5...v0.52.0) (2019-06-07)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.51.0](https://github.com/coingaming/sportsbet-design/compare/v0.50.0...v0.51.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.50.0](https://github.com/coingaming/sportsbet-design/compare/v0.49.1...v0.50.0) (2019-06-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 ## [0.49.1](https://github.com/coingaming/sportsbet-design/compare/v0.49.0...v0.49.1) (2019-06-05)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.49.0](https://github.com/coingaming/sportsbet-design/compare/v0.48.0...v0.49.0) (2019-06-05)
 
