@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
+
+
+### Bug Fixes
+
+* **link:** renders as a ([0223bd5](https://github.com/coingaming/sportsbet-design/commit/0223bd5))
+* export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
+* navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
+
+
+### Features
+
+* **nav:** use active classname intead of prop & sttyled link ([a4edc1a](https://github.com/coingaming/sportsbet-design/commit/a4edc1a))
+
+
+
+
+
 # [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 
 ### Bug Fixes
