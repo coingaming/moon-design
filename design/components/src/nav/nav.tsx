@@ -7,7 +7,7 @@ import math from 'polished/lib/math/math';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { listInline, listInlineItem } from '@heathmont/sportsbet-objects';
-import { spacing, rhythm } from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 import { underlineOffset, underlineWidth } from './settings';
 
 /**
@@ -20,7 +20,8 @@ const navSkipLinkID = 'nav-skip';
  */
 const Nav: React.FC = ({ children }) => {
   const nav: CSSObject = {
-    ...rhythm(),
+    marginTop: spacing(),
+    // ...rhythm(),
     position: 'relative',
     overflowX: 'scroll',
     overflowY: 'hidden',

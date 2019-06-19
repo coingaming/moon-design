@@ -26,4 +26,4 @@ const rhythm = (size: SpacingSize = 'default', unit?: SpacingUnit) => ({
   },
 });
 
-export { spacing, rhythm };
+export { spacing };
