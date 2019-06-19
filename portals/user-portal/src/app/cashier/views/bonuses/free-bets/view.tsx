@@ -1,12 +1,6 @@
 /** @jsx jsx */
 import { default as React, useState } from 'react';
-import {
-  Button,
-  Heading,
-  RouteLink,
-  NavLink,
-  Link,
-} from '@heathmont/sportsbet-components';
+import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { jsx } from '@emotion/core';
 import {
   BonusesHeadingContainer,

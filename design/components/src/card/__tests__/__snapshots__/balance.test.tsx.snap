@@ -19,18 +19,10 @@ exports[`CardBalance renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-0:first-child {
-  margin-top: 0;
-}
-
 .emotion-2 {
   margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
-}
-
-.emotion-2:first-child {
-  margin-top: 0;
 }
 
 .emotion-1 {
@@ -79,18 +71,10 @@ exports[`CardBalance renders correctly with badge caption 1`] = `
   align-items: center;
 }
 
-.emotion-1:first-child {
-  margin-top: 0;
-}
-
 .emotion-3 {
   margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
-}
-
-.emotion-3:first-child {
-  margin-top: 0;
 }
 
 .emotion-2 {
@@ -161,18 +145,10 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   align-items: center;
 }
 
-.emotion-0:first-child {
-  margin-top: 0;
-}
-
 .emotion-2 {
   margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
-}
-
-.emotion-2:first-child {
-  margin-top: 0;
 }
 
 .emotion-1 {

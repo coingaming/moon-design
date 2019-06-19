@@ -41,10 +41,10 @@ export const PaymentId = styled.div([
   firstCell,
   {
     [mq(breakpoints.medium)]: {
-      minWidth: rem(208),
+      minWidth: rem(140),
     },
     [mq(breakpoints.large)]: {
-      minWidth: rem(256),
+      minWidth: rem(190),
     },
   },
 ]);
@@ -63,7 +63,6 @@ export const DateSummary = styled.div([
   mobileHidden,
   rightAlighted,
   {
-    width: '70%',
     [mq(breakpoints.small)]: {
       marginRight: rem(64),
     },
@@ -85,4 +84,12 @@ export const Currency = styled.div([
   },
 ]);
 
-export const Amount = styled.div([cellStyle, lastCell, rightAlighted]);
+export const Amount = styled.div(({ color }) => [
+  cellStyle,
+  lastCell,
+  rightAlighted,
+  {
+    color,
+    maxWidth: rem('80px'),
+  },
+]);

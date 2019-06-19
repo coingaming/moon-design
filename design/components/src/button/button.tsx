@@ -45,7 +45,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 /**
  * Styles
  */
-export const button: CSSObject = {
+const buttonStyles: CSSObject = {
   padding: `${spacing('small')} ${spacing('medium')}`,
   display: 'inline-block',
   verticalAlign: 'middle',
@@ -88,7 +88,7 @@ const shake = keyframes`
 const StyledButton: React.FC<ButtonProps> = styled('button', {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
 })(({ modifier, uppercase, fullWidth, size, oops }) => [
-  button,
+  buttonStyles,
   modifier && buttonModifiers[modifier],
   size ? buttonSizes[size] : buttonSizes['small'],
   uppercase && { textTransform: 'uppercase' },
@@ -184,4 +184,4 @@ Button.defaultProps = {
   modifier: 'primary',
 };
 
-export { Button, ButtonProps };
+export { Button, ButtonProps, buttonStyles };
