@@ -18,12 +18,4 @@ const spacing = (size: SpacingSize = 'default', unit?: SpacingUnit) => {
     : rem(spacingTokens[size], base.spacing) || 0;
 };
 
-/* emotion-disable usage due to https://github.com/emotion-js/emotion/issues/1178 */
-const rhythm = (size: SpacingSize = 'default', unit?: SpacingUnit) => ({
-  marginTop: spacing(size, unit),
-  '&:first-child /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */': {
-    marginTop: 0,
-  },
-});
-
-export { spacing, rhythm };
+export { spacing };
