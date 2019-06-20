@@ -14,6 +14,7 @@ import {
   CurrencySwitchLayout,
   CurrencySwitch,
 } from '@heathmont/sportsbet-user-portal-components';
+import { NavLink } from 'react-router-dom';
 
 export const BitcoinWallet = () => {
   const [backSided, toggle] = useState(false);
@@ -36,12 +37,13 @@ export const BitcoinWallet = () => {
         <div>
           <Link
             secondary
+            as={NavLink}
             to={'/deposit-btc'}
             style={{ marginRight: spacing() }}
           >
             Deposit
           </Link>
-          <Link secondary to={'/withdraw-btc'}>
+          <Link as={NavLink} secondary to={'/withdraw-btc'}>
             Withdraw
           </Link>
         </div>
