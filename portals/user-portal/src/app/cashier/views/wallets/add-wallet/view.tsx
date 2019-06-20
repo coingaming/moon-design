@@ -8,10 +8,13 @@ import {
   CashierHeading,
   CashierLayout,
   StickyNav,
+  CashierHeader,
+  WalletBackNav,
+  WalletBackIconArrowLeft,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
-import { Button, Heading, Link } from '@heathmont/sportsbet-components';
+import { Button, Heading } from '@heathmont/sportsbet-components';
 import {
   IconArrowLeft,
   IconCurrencyEur,
@@ -19,6 +22,7 @@ import {
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
+import { NavLink } from 'react-router-dom';
 jsx;
 
 export const AddWalletView = () => {
@@ -36,14 +40,14 @@ export const AddWalletView = () => {
         <SubNavigation />
       </StickyNav>
       <CashierLayout>
-        <CashierHeading>
-          <AddWalletNavigation>
-            <Link to={'/cashier'}>
-              <IconArrowLeft color={colors.neutral[20]} />
-            </Link>
-            <span>Add wallet</span>
-          </AddWalletNavigation>
-        </CashierHeading>
+        <CashierHeader>
+          <WalletBackNav as={NavLink} to="/cashier">
+            <WalletBackIconArrowLeft />
+            <Heading size="delta" as="h4" css={{ marginTop: 0 }}>
+              Add wallet
+            </Heading>
+          </WalletBackNav>
+        </CashierHeader>
         <AddWalletsContainer>
           {walletCards.map((card, i) => {
             return (
