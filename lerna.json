@@ -1,6 +1,10 @@
 {
-  "packages": ["docs", "design/*", "portals/*"],
-  "version": "0.59.2",
+  "packages": [
+    "docs",
+    "design/*",
+    "portals/*"
+  ],
+  "version": "0.60.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {

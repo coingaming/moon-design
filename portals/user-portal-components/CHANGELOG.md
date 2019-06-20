@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
+
+
+### Bug Fixes
+
+* export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
+* mobile menu indicator ([a4b8767](https://github.com/coingaming/sportsbet-design/commit/a4b8767))
+* navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
+* swap link -> routelink ([5d2d7e6](https://github.com/coingaming/sportsbet-design/commit/5d2d7e6))
+
+
+
+
+
 ## [0.59.2](https://github.com/coingaming/sportsbet-design/compare/v0.59.1...v0.59.2) (2019-06-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
