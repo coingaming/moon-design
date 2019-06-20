@@ -7,43 +7,45 @@ import { IconArrowLeft } from '@heathmont/sportsbet-icons';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import styled from '@emotion/styled';
-import { RouteLink } from '@heathmont/sportsbet-components';
+import { RouteLink, Link } from '@heathmont/sportsbet-components';
 jsx;
 
-export const WalletBackButton: React.FC<NavLinkProps & { as: any }> = ({
+export const WalletBackIconArrowLeft = () => (
+  <IconArrowLeft
+    css={{
+      color: colors.neutral[20],
+      paddingLeft: spacing(),
+      paddingRight: spacing(),
+      fontSize: '3rem',
+    }}
+  />
+);
+
+export const WalletBackNav: React.FC<NavLinkProps & { as: any }> = ({
   children,
   to,
   as,
 }) => {
-  const StyledIconArrowLeft = () => (
-    <IconArrowLeft
+  return (
+    <Link
+      as={as}
+      to={to}
       css={{
-        color: colors.neutral[20],
-        paddingLeft: spacing(),
-        paddingRight: spacing(),
-        fontSize: '3rem',
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        color: colors.neutral[10],
         '&:hover': {
-          color: colors.neutral[10],
+          color: colors.brand,
         },
       }}
-    />
-  );
-
-  const ArrowLeftLink = React.createElement(
-    as || NavLink,
-    { to },
-    React.createElement(StyledIconArrowLeft)
-  );
-
-  return (
-    <React.Fragment>
-      {ArrowLeftLink}
+    >
       {children}
-    </React.Fragment>
+    </Link>
   );
 };
 
-export const WithdrawBTCHeader = styled.div({
+export const CashierHeader = styled.div({
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
