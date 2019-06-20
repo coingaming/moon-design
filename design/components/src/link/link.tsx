@@ -50,7 +50,8 @@ const linkBase: CSSObject = {
  * Component
  */
 const Link: React.FC<any> = styled('a', {
-  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
+  shouldForwardProp: prop =>
+    prop === 'exact' || (isPropValid(prop) && prop !== 'as'),
 })(({ href, secondary, optional, buttonStyled, ...props }) => [
   linkBase,
   secondary && { color: colors.neutral[20] },
