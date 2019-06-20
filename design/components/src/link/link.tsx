@@ -5,7 +5,6 @@ import isPropValid from '@emotion/is-prop-valid';
 import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
-import { NavLink } from 'react-router-dom';
 import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
 import { buttonStyles } from '../button/button';
 jsx;
