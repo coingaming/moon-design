@@ -2,6 +2,7 @@ export * from './add-wallet';
 export * from './add-wallets';
 export * from './grid';
 export * from './layout';
+export * from './deposit-btc-components';
 export * from './withdraw-btc-components';
 export * from './payment-method-images';
 export * from './tab/tab';
