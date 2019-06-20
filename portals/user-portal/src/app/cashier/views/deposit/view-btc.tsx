@@ -5,7 +5,7 @@ import {
   CashierLayout,
   StickyNav,
   WalletBackButton,
-  WithdrawBTCHeader,
+  CashierHeader,
   CashierBanner,
   WithdrawBTCSidebarBannerHeader,
   WithdrawBTCSidebarBannerHeaderIcon,
@@ -27,11 +27,13 @@ import {
   DepositBTCQrCenteredImage,
   DepositBTCBannersArea,
   DepositBTCBannersRowItem,
+  WalletBackIconArrowLeft,
+  WalletBackNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { Button, Heading } from '@heathmont/sportsbet-components';
+import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
 import { colors } from '@heathmont/sportsbet-tokens';
@@ -59,13 +61,14 @@ export const DepositViewBTC = () => {
       </StickyNav>
 
       <CashierLayout>
-        <WithdrawBTCHeader>
-          <WalletBackButton as={NavLink} to={'/cashier'}>
+        <CashierHeader>
+          <WalletBackNav as={NavLink} to="/cashier">
+            <WalletBackIconArrowLeft />
             <Heading size="delta" as="h4" css={{ marginTop: 0 }}>
               Deposit
             </Heading>
-          </WalletBackButton>
-        </WithdrawBTCHeader>
+          </WalletBackNav>
+        </CashierHeader>
 
         <DepositBTCLayout>
           <DepositBTCMainArea>
