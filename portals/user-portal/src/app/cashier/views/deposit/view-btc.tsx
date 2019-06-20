@@ -11,20 +11,30 @@ import {
   WithdrawBTCSidebarBannerHeaderIcon,
   WithdrawBTCSidebarBannerHeaderCaption,
   WithdrawBTCSidebarBannerText,
+  DepositBTCLayout,
+  DepositBTCMainArea,
+  DepositBTCBalance,
+  DepositBTCCaption,
+  DepositBTCBalanceAmount,
+  DepositBTCBalanceAmountDigits,
+  DepositBTCBalanceAmountCurrency,
+  DepositBTCBalanceAmountConverted,
+  DepositBTCAddress,
+  DepositBTCAddressField,
+  DepositBTCAddressFieldCaption,
+  DepositBTCWarning,
+  DepositBTCQrArea,
+  DepositBTCQrCenteredImage,
+  DepositBTCBannersArea,
+  DepositBTCBannersRowItem,
 } from '@heathmont/sportsbet-user-portal-components';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
-import { spacing, inlineSVG, mq } from '@heathmont/sportsbet-utils';
-import {
-  Form,
-  FormItem,
-  TextInput,
-  Button,
-  Heading,
-} from '@heathmont/sportsbet-components';
+import { spacing } from '@heathmont/sportsbet-utils';
+import { Button, Heading } from '@heathmont/sportsbet-components';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
-import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
 import {
   IconMessage,
@@ -57,175 +67,48 @@ export const DepositViewBTC = () => {
           </WalletBackButton>
         </WithdrawBTCHeader>
 
-        <div
-          css={{
-            paddingLeft: spacing(),
-            paddingRight: spacing(),
-            [mq(breakpoints.medium)]: {
-              display: 'grid',
-              gridTemplateColumns: '3fr 2fr',
-              gridColumnGap: spacing('large'),
-              gridTemplateAreas: `
-              "main     qrcode"
-              "banners  banners"
-              `,
-            },
-            [mq(breakpoints.large)]: {
-              paddingLeft: 0,
-              paddingRight: 0,
-            },
-          }}
-        >
-          <div
-            css={{
-              gridArea: 'main',
-            }}
-          >
-            <div
-              css={{
-                paddingTop: spacing('large'),
-                paddingBottom: spacing('large'),
-                borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
-                backgroundRepeat: 'no-repeat',
-                backgroundBlendMode: 'luminosity',
-                backgroundImage: inlineSVG(
-                  <IconCurrencyBtc color={colors.neutral[30]} />
-                ),
-                backgroundSize: `auto 50%`,
-                backgroundPosition: `center right ${spacing()}`,
-              }}
+        <DepositBTCLayout>
+          <DepositBTCMainArea>
+            <DepositBTCBalance
+              icon={<IconCurrencyBtc color={colors.neutral[30]} />}
             >
-              <p
-                css={{
-                  color: colors.neutral[20],
-                  fontSize: rem(14),
-                }}
-              >
-                Bitcoin
-              </p>
-              <p css={{ marginTop: spacing('xsmall') }}>
-                <span
-                  css={{
-                    fontSize: rem(40),
-                    fontWeight: 600,
-                    letterSpacing: '1px',
-                    color: colors.neutral[10],
-                  }}
-                >
+              <DepositBTCCaption>Bitcoin</DepositBTCCaption>
+              <DepositBTCBalanceAmount>
+                <DepositBTCBalanceAmountDigits>
                   1,526.56
-                </span>
-                <span
-                  css={{
-                    fontSize: rem(30),
-                    letterSpacing: '1px',
-                    color: colors.neutral[10],
-                  }}
-                >
+                </DepositBTCBalanceAmountDigits>
+                <DepositBTCBalanceAmountCurrency>
                   mB
-                </span>
-              </p>
-              <p
-                css={{
-                  marginTop: spacing('xsmall'),
-                  color: colors.neutral[20],
-                  fontSize: rem(14),
-                  fontWeight: 600,
-                }}
-              >
+                </DepositBTCBalanceAmountCurrency>
+              </DepositBTCBalanceAmount>
+              <DepositBTCBalanceAmountConverted>
                 354,568.68 USD
-              </p>
-            </div>
-            <div css={{ marginTop: spacing('large') }}>
-              <p
-                css={{
-                  color: colors.neutral[20],
-                  fontSize: rem(14),
-                }}
-              >
-                Bitcoin Address
-              </p>
-              <div
-                css={{
-                  marginTop: spacing('small'),
-                  [mq(breakpoints.small)]: {
-                    padding: spacing('xsmall'),
-                    paddingLeft: spacing(),
-                    border: `${border.width}px solid ${colors.neutral[70]}`,
-                    borderRadius: border.radius.largest,
-                    backgroundColor: colors.palette.hit[60],
-                    display: 'flex',
-                    flexDirection: 'row',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                  },
-                }}
-              >
-                <p
-                  css={{
-                    marginBottom: spacing(),
-                    [mq(breakpoints.small)]: {
-                      marginBottom: 0,
-                    },
-                    color: colors.neutral[20],
-                    fontSize: rem(14),
-                  }}
-                >
+              </DepositBTCBalanceAmountConverted>
+            </DepositBTCBalance>
+            <DepositBTCAddress>
+              <DepositBTCCaption>Bitcoin Address</DepositBTCCaption>
+              <DepositBTCAddressField>
+                <DepositBTCAddressFieldCaption>
                   13b4rweZTHXNJJJjSHBVR1DjVqduNjm8kd
-                </p>
+                </DepositBTCAddressFieldCaption>
                 <Button modifier="primary">Copy</Button>
-              </div>
-              <p
-                css={{
-                  marginTop: spacing('small'),
-                  fontSize: rem(12),
-                  color: colors.warning,
-                }}
-              >
+              </DepositBTCAddressField>
+              <DepositBTCWarning>
                 Note: Minimum deposit is 1 mBTC
-              </p>
-            </div>
-          </div>
-          <div
-            css={{
-              display: 'none',
-              [mq(breakpoints.medium)]: {
-                display: 'block',
-                gridArea: 'qrcode',
-              },
-            }}
-          >
-            <div
-              css={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '100%',
-              }}
-            >
+              </DepositBTCWarning>
+            </DepositBTCAddress>
+          </DepositBTCMainArea>
+          <DepositBTCQrArea>
+            <DepositBTCQrCenteredImage>
               <img
                 css={{ width: rem(168), height: rem(168) }}
                 alt="qr code"
                 src="https://randomqr.com/assets/images/randomqr-256.png"
               />
-            </div>
-          </div>
-          <div
-            css={{
-              marginTop: spacing('large'),
-              gridArea: 'banners',
-              [mq(breakpoints.medium)]: {
-                display: 'flex',
-                flexDirection: 'row',
-              },
-            }}
-          >
-            <div
-              css={{
-                [mq(breakpoints.medium)]: {
-                  marginRight: spacing('medium'),
-                },
-              }}
-            >
+            </DepositBTCQrCenteredImage>
+          </DepositBTCQrArea>
+          <DepositBTCBannersArea>
+            <DepositBTCBannersRowItem>
               <CashierBanner to="/cashier">
                 <WithdrawBTCSidebarBannerHeader>
                   <WithdrawBTCSidebarBannerHeaderIcon>
@@ -240,19 +123,10 @@ export const DepositViewBTC = () => {
                   here to help.
                 </WithdrawBTCSidebarBannerText>
               </CashierBanner>
-            </div>
+            </DepositBTCBannersRowItem>
 
-            <div
-              css={{
-                [mq(breakpoints.medium)]: {
-                  marginRight: spacing('medium'),
-                },
-              }}
-            >
-              <CashierBanner
-                to="/cashier"
-                css={{ marginRight: spacing('medium') }}
-              >
+            <DepositBTCBannersRowItem>
+              <CashierBanner to="/cashier">
                 <WithdrawBTCSidebarBannerHeader>
                   <WithdrawBTCSidebarBannerHeaderIcon>
                     <IconCoins />
@@ -266,19 +140,10 @@ export const DepositViewBTC = () => {
                   here to help.
                 </WithdrawBTCSidebarBannerText>
               </CashierBanner>
-            </div>
+            </DepositBTCBannersRowItem>
 
-            <div
-              css={{
-                [mq(breakpoints.medium)]: {
-                  marginRight: spacing('medium'),
-                },
-              }}
-            >
-              <CashierBanner
-                to="/cashier"
-                css={{ marginRight: spacing('medium') }}
-              >
+            <DepositBTCBannersRowItem>
+              <CashierBanner to="/cashier">
                 <WithdrawBTCSidebarBannerHeader>
                   <WithdrawBTCSidebarBannerHeaderIcon>
                     <IconExchange />
@@ -292,9 +157,9 @@ export const DepositViewBTC = () => {
                   here to help.
                 </WithdrawBTCSidebarBannerText>
               </CashierBanner>
-            </div>
-          </div>
-        </div>
+            </DepositBTCBannersRowItem>
+          </DepositBTCBannersArea>
+        </DepositBTCLayout>
       </CashierLayout>
     </React.Fragment>
   );
