@@ -21,34 +21,33 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **link:** pass exact prop ([546d48e](https://github.com/coingaming/sportsbet-design/commit/546d48e))
+- **deposit-btc:** export all components ([db112cc](https://github.com/coingaming/sportsbet-design/commit/db112cc))
+- **deposit-btc:** initial view ([f7601d7](https://github.com/coingaming/sportsbet-design/commit/f7601d7))
+- **identity-portal:** initial commit ([90fa4c7](https://github.com/coingaming/sportsbet-design/commit/90fa4c7))
+- **nav:** wallet nav ([d739dae](https://github.com/coingaming/sportsbet-design/commit/d739dae))
 
-
-
-
-
-# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
-
-
-### Bug Fixes
-
-* **docs:** fix build after vertical rhythm ([0fd0922](https://github.com/coingaming/sportsbet-design/commit/0fd0922))
-* **link:** renders as a ([0223bd5](https://github.com/coingaming/sportsbet-design/commit/0223bd5))
-* **rhythm:** remove vertical rhythm from Playground ([687b1c7](https://github.com/coingaming/sportsbet-design/commit/687b1c7))
-* **utils:** remove vertical rhythm ([9d61712](https://github.com/coingaming/sportsbet-design/commit/9d61712))
-* export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
-* mobile menu indicator ([a4b8767](https://github.com/coingaming/sportsbet-design/commit/a4b8767))
-* navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
-* swap link -> routelink ([5d2d7e6](https://github.com/coingaming/sportsbet-design/commit/5d2d7e6))
-
+# [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
 
 ### Features
 
-* **nav:** use active classname intead of prop & sttyled link ([a4edc1a](https://github.com/coingaming/sportsbet-design/commit/a4edc1a))
+- **link:** pass exact prop ([546d48e](https://github.com/coingaming/sportsbet-design/commit/546d48e))
 
+# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
 
+### Bug Fixes
 
+- **docs:** fix build after vertical rhythm ([0fd0922](https://github.com/coingaming/sportsbet-design/commit/0fd0922))
+- **link:** renders as a ([0223bd5](https://github.com/coingaming/sportsbet-design/commit/0223bd5))
+- **rhythm:** remove vertical rhythm from Playground ([687b1c7](https://github.com/coingaming/sportsbet-design/commit/687b1c7))
+- **utils:** remove vertical rhythm ([9d61712](https://github.com/coingaming/sportsbet-design/commit/9d61712))
+- export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
+- mobile menu indicator ([a4b8767](https://github.com/coingaming/sportsbet-design/commit/a4b8767))
+- navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
+- swap link -> routelink ([5d2d7e6](https://github.com/coingaming/sportsbet-design/commit/5d2d7e6))
 
+### Features
+
+- **nav:** use active classname intead of prop & sttyled link ([a4edc1a](https://github.com/coingaming/sportsbet-design/commit/a4edc1a))
 
 ## [0.59.2](https://github.com/coingaming/sportsbet-design/compare/v0.59.1...v0.59.2) (2019-06-18)
 

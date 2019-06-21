@@ -19,29 +19,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **link:** pass exact prop ([546d48e](https://github.com/coingaming/sportsbet-design/commit/546d48e))
+- **deposit-btc:** initial view ([f7601d7](https://github.com/coingaming/sportsbet-design/commit/f7601d7))
 
-
-
-
-
-# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
-
-
-### Bug Fixes
-
-* **link:** renders as a ([0223bd5](https://github.com/coingaming/sportsbet-design/commit/0223bd5))
-* export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
-* navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
-
+# [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
 
 ### Features
 
-* **nav:** use active classname intead of prop & sttyled link ([a4edc1a](https://github.com/coingaming/sportsbet-design/commit/a4edc1a))
+- **link:** pass exact prop ([546d48e](https://github.com/coingaming/sportsbet-design/commit/546d48e))
 
+# [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
 
+### Bug Fixes
 
+- **link:** renders as a ([0223bd5](https://github.com/coingaming/sportsbet-design/commit/0223bd5))
+- export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
+- navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
 
+### Features
+
+- **nav:** use active classname intead of prop & sttyled link ([a4edc1a](https://github.com/coingaming/sportsbet-design/commit/a4edc1a))
 
 # [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 

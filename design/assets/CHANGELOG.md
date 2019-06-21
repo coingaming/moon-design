@@ -15,17 +15,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
 
+# [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
 
-
-
+**Note:** Version bump only for package @heathmont/sportsbet-assets
 
 # [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
-
-
-
-
 
 # [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 

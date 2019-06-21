@@ -15,21 +15,16 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package docs
 
+# [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
 
-
-
+**Note:** Version bump only for package docs
 
 # [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
 
-
 ### Bug Fixes
 
-* **rhythm:** remove vertical rhythm from Playground ([687b1c7](https://github.com/coingaming/sportsbet-design/commit/687b1c7))
-* **utils:** remove vertical rhythm ([9d61712](https://github.com/coingaming/sportsbet-design/commit/9d61712))
-
-
-
-
+- **rhythm:** remove vertical rhythm from Playground ([687b1c7](https://github.com/coingaming/sportsbet-design/commit/687b1c7))
+- **utils:** remove vertical rhythm ([9d61712](https://github.com/coingaming/sportsbet-design/commit/9d61712))
 
 # [0.59.0](https://github.com/coingaming/sportsbet-design/compare/v0.58.0...v0.59.0) (2019-06-18)
 
