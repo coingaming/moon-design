@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.62.0](https://github.com/coingaming/sportsbet-design/compare/v0.61.0...v0.62.0) (2019-06-20)
+
+
+### Features
+
+* **deposit-btc:** export all components ([db112cc](https://github.com/coingaming/sportsbet-design/commit/db112cc))
+* **nav:** wallet nav ([d739dae](https://github.com/coingaming/sportsbet-design/commit/d739dae))
+
+
+
+
+
 # [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
