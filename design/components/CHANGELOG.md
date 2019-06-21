@@ -3,19 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.62.0](https://github.com/coingaming/sportsbet-design/compare/v0.61.0...v0.62.0) (2019-06-20)
+# [0.63.0](https://github.com/coingaming/sportsbet-design/compare/v0.62.0...v0.63.0) (2019-06-21)
 
+**Note:** Version bump only for package @heathmont/sportsbet-components
+
+# [0.62.0](https://github.com/coingaming/sportsbet-design/compare/v0.61.0...v0.62.0) (2019-06-20)
 
 ### Features
 
-* **deposit-btc:** initial view ([f7601d7](https://github.com/coingaming/sportsbet-design/commit/f7601d7))
-
-
-
-
+- **deposit-btc:** initial view ([f7601d7](https://github.com/coingaming/sportsbet-design/commit/f7601d7))
 
 # [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
-
 
 ### Features
 

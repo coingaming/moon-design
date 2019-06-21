@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-tokens",
-  "version": "0.62.0",
+  "version": "0.63.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -10,6 +10,6 @@
     "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
   },
   "dependencies": {
-    "@heathmont/sportsbet-assets": "^0.62.0"
+    "@heathmont/sportsbet-assets": "^0.63.0"
   }
 }
