@@ -1,0 +1,10 @@
+{
+  "extends": "../../.config/ts/tsconfig.base.json",
+  "references": [
+    {
+      "path": "../identity-portal-components"
+    }
+  ],
+  "include": ["src"],
+  "exclude": ["src/**/__tests__"]
+}

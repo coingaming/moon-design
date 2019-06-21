@@ -13,6 +13,7 @@
     "lint:ts": "lerna run lint:ts --stream --parallel",
     "test": "node --max_old_space_size=2048 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
     "user-portal": "yarn build && lerna run --scope @heathmont/sportsbet-user-portal --stream",
+    "identity-portal": "yarn build && lerna run --scope @heathmont/sportsbet-identity-portal --stream",
     "components": "lerna run --scope @heathmont/sportsbet-components --stream",
     "icons": "lerna run --scope @heathmont/sportsbet-icons --stream",
     "docs:dev": "concurrently -kill-others \"yarn build -w\" \"lerna run --scope docs --stream dev\"",
