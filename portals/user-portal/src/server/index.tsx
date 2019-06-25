@@ -1,4 +1,3 @@
-/* tslint:disable import-name */
 import express from 'express';
 import * as React from 'react';
 import * as dotenv from 'dotenv-safe';
