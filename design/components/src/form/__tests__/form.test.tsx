@@ -12,8 +12,8 @@ const TestFormItems = () => (
     </FormItem>
     <FormItem>
       <label>
-        <input type="checkbox" name="terms" value="terms" /> I agree to the
-        terms and conditions.
+        <input type="checkbox" name="terms" value="terms" />I agree to the terms
+        and conditions.
       </label>
     </FormItem>
     <FormItem>
