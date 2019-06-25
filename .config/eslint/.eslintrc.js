@@ -36,7 +36,6 @@ module.exports = {
     //
     // @TODO Implementation
     //
-    'dot-notation': 'off',
     'import/first': 'off',
     'import/newline-after-import': 'off',
     'import/no-cycle': 'off',
