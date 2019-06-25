@@ -6,7 +6,7 @@ type ButtonTypes = 'primary' | 'highlight' | 'secondary' | 'optional';
 type ButtonStates = 'default' | 'hover' | 'active' | 'focus' | 'disabled';
 
 export const buttonColors: {
-  [key in ButtonTypes]: { [key in ButtonStates]: string }
+  [key in ButtonTypes]: { [key in ButtonStates]: string };
 } = {
   primary: {
     default: piccolo[100],
