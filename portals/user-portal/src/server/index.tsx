@@ -39,6 +39,7 @@ const globalStyles = renderStylesToString(
 const app = express();
 
 process.on('unhandledRejection', ({ message, stack }) => {
+  /* eslint-disable-next-line no-console */
   console.log('uncaughtException', { message, stack });
   setTimeout(() => {
     throw { message, stack };

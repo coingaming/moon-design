@@ -7,6 +7,7 @@ export const event: EventProps = {
   name: 'England, FA Cup',
   marketCount: 1,
   onClick: () => {
+    /* eslint-disable-next-line no-console */
     console.log('EVENT CLICK');
   },
   market: {

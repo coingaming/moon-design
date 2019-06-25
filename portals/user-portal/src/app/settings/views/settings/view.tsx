@@ -47,6 +47,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />
@@ -64,6 +65,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />
@@ -81,6 +83,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />
@@ -120,6 +123,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />

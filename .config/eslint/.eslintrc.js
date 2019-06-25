@@ -45,7 +45,6 @@ module.exports = {
     'import/order': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/label-has-for': 'off',
-    'no-console': 'off',
     'no-nested-ternary': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
