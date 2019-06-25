@@ -18,8 +18,7 @@
     "clean": "rimraf **/{lib,dist,.cache,public}/",
     "dev": "export NODE_ENV=development && webpack --config .config/webpack/webpack.config.client.js --watch --progress & nodemon ./dist/server.bundle.js",
     "production": "export NODE_ENV=production && yarn build && yarn serve",
-    "serve": "wait-on ./dist/server.bundle.js && node ./dist/server.bundle.js",
-    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
+    "serve": "wait-on ./dist/server.bundle.js && node ./dist/server.bundle.js"
   },
   "bundlesize": [
     {
