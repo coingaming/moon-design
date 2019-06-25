@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core';
 import { create } from 'react-test-renderer';
-import { container } from '../';
+import { container } from '..';
 
 describe('Container', () => {
   test('renders correctly by default', () => {
