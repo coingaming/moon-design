@@ -46,7 +46,7 @@ process.on('unhandledRejection', ({ message, stack }) => {
   }, 1000);
 });
 
-/* JS Bundles*/
+/* JS Bundles */
 app.use(express.static('dist'));
 /* Assets, fonts, images etc */
 app.use('/assets', express.static('../../design/assets'));

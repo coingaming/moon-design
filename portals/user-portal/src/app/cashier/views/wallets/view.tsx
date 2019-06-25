@@ -71,7 +71,7 @@ export const WalletsView = () => {
           <WalletMobileButton>+ Add Wallet</WalletMobileButton>
         </RouteLink>
         <TransactionsSection>
-          {/*<CashierHeading>Transactions</CashierHeading>*/}
+          {/* <CashierHeading>Transactions</CashierHeading> */}
           <Heading
             size="charlie"
             as="h1"

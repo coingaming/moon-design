@@ -57,7 +57,6 @@ module.exports = {
     'react/jsx-key': 'off',
     'react/no-array-index-key': 'off',
     'react/no-unknown-property': 'off',
-    'spaced-comment': 'off',
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
