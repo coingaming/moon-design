@@ -39,6 +39,7 @@ export const NonLoggedNav = ({ login }) => (
         placeholder="Search for a match, event, player etc ..."
         onSubmit={e => {
           e.preventDefault();
+          /* eslint-disable-next-line no-console */
           console.log('submit');
         }}
       />

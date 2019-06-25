@@ -22,6 +22,7 @@ exports.createPages = ({ graphql, actions }) => {
       ).then(result => {
         // Boilerplate to handle errors
         if (result.errors) {
+          /* eslint-disable-next-line no-console */
           console.error(result.errors);
           reject(result.errors);
         }
