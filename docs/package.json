@@ -9,8 +9,7 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix"
+    "serve": "gatsby serve"
   },
   "workspaces": {
     "nohoist": [

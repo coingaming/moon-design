@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Button, TextInput, Link } from '@heathmont/sportsbet-components';
 import { IconEdit, IconSuccess, IconWarning } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
+/* eslint-disable-next-line import/no-unresolved */
 import { CashierNav } from './dumb-components/navigation';
 import { NeedAssistanceBanner } from './dumb-components/need-assistance-banner';
 import {
