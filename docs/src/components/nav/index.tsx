@@ -45,7 +45,7 @@ export const Nav = () => (
         <Logo />
         <Divider />
         <MenuList>
-          <MenuItem route={`/`} name="Introduction" section />
+          <MenuItem route="/" name="Introduction" section />
           {/* TODO: Investigate IDE type issue highlighting */}
           <Menu items={transformSections(data)} />
         </MenuList>

@@ -62,12 +62,12 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <RouteLink to={'/add-wallet'} as={NavLink}>
+            <RouteLink to="/add-wallet" as={NavLink}>
               <AddWalletCardContainer>+ Add Wallet</AddWalletCardContainer>
             </RouteLink>
           </WalletWrapper>
         </WalletsContainer>
-        <RouteLink to={'/add-wallet'} as={NavLink}>
+        <RouteLink to="/add-wallet" as={NavLink}>
           <WalletMobileButton>+ Add Wallet</WalletMobileButton>
         </RouteLink>
         <TransactionsSection>

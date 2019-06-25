@@ -36,7 +36,7 @@ export const FreeBetsView = () => {
       </StickyNav>
       <CashierLayout>
         <BonusesHeadingContainer>
-          <Heading size={'charlie'} as={'h1'}>
+          <Heading size="charlie" as="h1">
             Bonuses
           </Heading>
           <BonusesSubNavigation>
