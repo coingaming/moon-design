@@ -7,7 +7,10 @@ describe('Nav', () => {
     const navLink = create(
       <Nav>
         {[1, 2, 3, 4].map(i => (
-          <NavItem key={i}>Item {i}</NavItem>
+          <NavItem key={i}>
+            Item
+            {i}
+          </NavItem>
         ))}
       </Nav>
     );

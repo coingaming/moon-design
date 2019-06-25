@@ -33,6 +33,7 @@ module.exports = {
         extensions: ['.jsx', '.tsx'], // Allow JSX in `.tsx`
       },
     ],
+    'react/jsx-one-expression-per-line': 'off', // Disable for Prettier
     //
     // @TODO Implementation
     //
@@ -52,7 +53,6 @@ module.exports = {
     'no-unused-expressions': 'off',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
-    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-boolean-value': 'off',
     'react/jsx-key': 'off',
     'react/no-array-index-key': 'off',
