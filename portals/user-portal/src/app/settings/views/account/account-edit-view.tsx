@@ -153,10 +153,8 @@ export const AccountEditView = () => {
           </SummaryAccount>
           <SettingsBlockCollapsibleContents>
             <GoogleAuthenticator
-              caption={'What is google authenticator'}
-              link={
-                'https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en'
-              }
+              caption="What is google authenticator"
+              link="https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en"
             >
               <img
                 alt="qr code"

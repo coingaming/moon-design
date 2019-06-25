@@ -40,7 +40,7 @@ describe('Banner', () => {
 
   test('renders correctly with maxWidth prop', () => {
     const banner = create(
-      <Banner maxWidth={'600px'}>
+      <Banner maxWidth="600px">
         <Heading size="bravo" as="h2">
           Need help?
         </Heading>
