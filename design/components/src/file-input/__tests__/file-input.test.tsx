@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { FileInput } from '../';
+import { FileInput } from '..';
 
 describe('File Input', () => {
   test('renders a file input with default placeholder', () => {

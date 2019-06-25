@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Checkbox } from '../';
+import { Checkbox } from '..';
 
 const testProps = {
   label: 'I agree to the Terms & Conditions',
