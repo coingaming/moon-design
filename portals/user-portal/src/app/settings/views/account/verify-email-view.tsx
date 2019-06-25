@@ -11,6 +11,7 @@ import {
   VerifyEmailButtonWrapper,
   SettingsSection,
 } from '@heathmont/sportsbet-user-portal-components';
+
 jsx;
 
 export const VerifyEmailView: React.FC<{ verifyEmail: () => void }> = ({
