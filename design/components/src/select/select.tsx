@@ -8,6 +8,7 @@ import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { Input, inputColors, inputSpacing } from '../private/input';
 import { Label, LabelSizing } from '../private/label';
 import { IconChevronDown } from '@heathmont/sportsbet-icons';
+
 jsx;
 
 const selectIconSize = 10; // px

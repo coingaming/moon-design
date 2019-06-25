@@ -17,6 +17,7 @@ import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 export const NotificationsView = () => {

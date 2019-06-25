@@ -6,6 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { badgeModifiers, BadgeModifiers } from './modifiers';
+
 jsx;
 
 const badgeStyle: CSSObject = {

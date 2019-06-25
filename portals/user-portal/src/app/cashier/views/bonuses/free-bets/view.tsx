@@ -17,6 +17,7 @@ import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
+
 jsx;
 
 export const FreeBetsView = () => {

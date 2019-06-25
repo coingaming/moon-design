@@ -10,6 +10,7 @@ import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { AccountEditView } from './account-edit-view';
 import { VerifyEmailView } from './verify-email-view';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 export const AccountView = () => {

@@ -6,6 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Link } from '@heathmont/sportsbet-components';
+
 jsx;
 
 export const DetailsContainer = styled.div({

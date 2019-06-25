@@ -6,6 +6,7 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { buttonStyles } from '@heathmont/sportsbet-components';
 import { buttonModifiers } from '@heathmont/sportsbet-components/lib/button/modifiers';
+
 jsx;
 
 export const BonusesHeadingContainer = styled.div([

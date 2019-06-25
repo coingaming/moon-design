@@ -37,7 +37,6 @@ module.exports = {
     // @TODO Implementation
     //
     'import/first': 'off',
-    'import/newline-after-import': 'off',
     'import/no-cycle': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/no-named-default': 'off',
