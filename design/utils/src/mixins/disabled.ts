@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/css';
+import { CSSObject } from '@emotion/core';
 import { opacity } from '@heathmont/sportsbet-tokens';
 
 const defaultDisabled = {

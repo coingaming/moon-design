@@ -39,7 +39,6 @@ module.exports = {
     //
     'import/first': 'off',
     'import/no-cycle': 'off',
-    'import/no-extraneous-dependencies': 'off',
     'import/no-named-default': 'off',
     'import/no-mutable-exports': 'off',
     'import/order': 'off',
@@ -94,6 +93,9 @@ module.exports = {
       files: ['*.test.ts', '*.test.tsx'],
       env: {
         jest: true,
+      },
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
       },
     },
   ],

@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@emotion/core": "10.0.9",
     "@heathmont/sportsbet-tokens": "^0.62.0",
     "@heathmont/sportsbet-utils": "^0.62.0",
     "polished": "3.0.0"
