@@ -52,7 +52,6 @@ module.exports = {
     'no-unused-expressions': 'off',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
-    'react/jsx-curly-brace-presence': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-boolean-value': 'off',
     'react/jsx-key': 'off',

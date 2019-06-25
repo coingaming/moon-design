@@ -65,19 +65,19 @@ export const tennis2 = {
 };
 
 export const liveBadge = (
-  <Badge color={'#fff'} backgroundColor={colors.palette.vegeta[80]}>
+  <Badge color="#fff" backgroundColor={colors.palette.vegeta[80]}>
     Live
   </Badge>
 );
 
 export const wonBadge = (
-  <Badge color={'white'} backgroundColor={colors.brand}>
+  <Badge color="white" backgroundColor={colors.brand}>
     Won
   </Badge>
 );
 
 export const activeBadge = (
-  <Badge color={'#fff'} backgroundColor={colors.brand}>
+  <Badge color="#fff" backgroundColor={colors.brand}>
     Active
   </Badge>
 );
