@@ -49,7 +49,6 @@ module.exports = {
     'no-nested-ternary': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
-    'no-unneeded-ternary': 'off',
     'no-unused-expressions': 'off',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
