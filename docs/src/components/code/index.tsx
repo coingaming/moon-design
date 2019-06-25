@@ -1,4 +1,3 @@
-/* tslint:disable import-name */
 /** @jsx jsx */ jsx;
 import { jsx, CSSObject } from '@emotion/core';
 import Highlight, { defaultProps } from 'prism-react-renderer';
