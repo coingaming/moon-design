@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@emotion/core": "10.0.9",
     "@heathmont/sportsbet-tokens": "^0.62.0",
     "mini-svg-data-uri": "1.0.3",
-    "polished": "3.0.0"
+    "polished": "3.0.0",
+    "react": "16.8.1",
+    "react-dom": "16.8.1"
   }
 }
