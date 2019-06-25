@@ -123,6 +123,7 @@ const Competitors = styled.div(() => [
 ]);
 
 const onClick = () => {
+  /* eslint-disable-next-line no-console */
   console.log('on click');
 };
 
