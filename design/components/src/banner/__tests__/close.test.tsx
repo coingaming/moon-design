@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { BannerToggle } from '../';
+import { BannerToggle } from '..';
 
 describe('BannerToggle', () => {
   test('renders correctly', () => {

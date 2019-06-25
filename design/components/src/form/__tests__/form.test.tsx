@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Form, FormItem } from '../../';
+import { Form, FormItem } from '../..';
 
 const TestFormItems = () => (
   <React.Fragment>

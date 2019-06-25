@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import { IconBitcoin } from '@heathmont/sportsbet-icons';
-import { Card } from '../';
+import { Card } from '..';
 
 describe('Card', () => {
   test('renders with flex layout', () => {

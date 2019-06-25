@@ -42,7 +42,6 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/no-named-default': 'off',
     'import/no-mutable-exports': 'off',
-    'import/no-useless-path-segments': 'off',
     'import/order': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/label-has-for': 'off',

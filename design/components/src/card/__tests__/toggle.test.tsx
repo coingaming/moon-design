@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { CardToggle } from '../';
+import { CardToggle } from '..';
 
 describe('CardToggle', () => {
   test('renders with settings icon by default', () => {
