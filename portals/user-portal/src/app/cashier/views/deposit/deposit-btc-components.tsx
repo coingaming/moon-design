@@ -29,6 +29,8 @@ export const DepositBTCMainArea = styled.div({
   gridArea: 'main',
 });
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const DepositBTCBalance = styled.div<{ icon: any }>(({ icon }) => ({
   paddingTop: spacing('large'),
   paddingBottom: spacing('large'),
