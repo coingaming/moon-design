@@ -42,6 +42,8 @@ process.on('unhandledRejection', ({ message, stack }) => {
   /* eslint-disable-next-line no-console */
   console.log('uncaughtException', { message, stack });
   setTimeout(() => {
+    /* @TODO Revisit post-EPL */
+    /* eslint-disable-next-line no-throw-literal */
     throw { message, stack };
   }, 1000);
 });
