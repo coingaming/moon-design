@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Header, HeaderBack, HeaderTitle } from '../';
+import { Header, HeaderBack, HeaderTitle } from '..';
 
 describe('Header', () => {
   test('renders correctly with title', () => {

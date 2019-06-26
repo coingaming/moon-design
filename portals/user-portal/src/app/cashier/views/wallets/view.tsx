@@ -27,6 +27,7 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 const transactionItems = [
@@ -61,16 +62,16 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <RouteLink to={'/add-wallet'} as={NavLink}>
+            <RouteLink to="/add-wallet" as={NavLink}>
               <AddWalletCardContainer>+ Add Wallet</AddWalletCardContainer>
             </RouteLink>
           </WalletWrapper>
         </WalletsContainer>
-        <RouteLink to={'/add-wallet'} as={NavLink}>
+        <RouteLink to="/add-wallet" as={NavLink}>
           <WalletMobileButton>+ Add Wallet</WalletMobileButton>
         </RouteLink>
         <TransactionsSection>
-          {/*<CashierHeading>Transactions</CashierHeading>*/}
+          {/* <CashierHeading>Transactions</CashierHeading> */}
           <Heading
             size="charlie"
             as="h1"

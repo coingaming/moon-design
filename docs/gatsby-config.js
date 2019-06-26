@@ -1,5 +1,5 @@
+/* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
 const path = require('path');
-/* eslint-disable-next-line import/no-unresolved */
 const { siteTitle, description, author } = require('./config');
 const { colors } = require('@heathmont/sportsbet-tokens');
 

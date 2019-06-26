@@ -100,7 +100,7 @@ const Tooltip: React.FC<TooltipProps> = ({
   ...props
 }) => (
   <div
-    aria-hidden={active ? false : true}
+    aria-hidden={!active}
     role="tooltip"
     id={id}
     css={{ position: 'relative' }}

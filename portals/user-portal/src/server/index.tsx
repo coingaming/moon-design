@@ -39,13 +39,14 @@ const globalStyles = renderStylesToString(
 const app = express();
 
 process.on('unhandledRejection', ({ message, stack }) => {
+  /* eslint-disable-next-line no-console */
   console.log('uncaughtException', { message, stack });
   setTimeout(() => {
     throw { message, stack };
   }, 1000);
 });
 
-/* JS Bundles*/
+/* JS Bundles */
 app.use(express.static('dist'));
 /* Assets, fonts, images etc */
 app.use('/assets', express.static('../../design/assets'));
