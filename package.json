@@ -5,6 +5,7 @@
     "commit": "git-cz",
     "build": "tsc -b",
     "portals-components:build": "lerna run --scope \"@heathmont/sportsbet-*-portal-components\" --stream --parallel build",
+    "portals-components:watch": "lerna run --scope \"@heathmont/sportsbet-*-portal-components\" --stream --parallel watch",
     "portals:build": "yarn portals-components:build && lerna run --scope \"@heathmont/sportsbet-*-portal\" --stream --parallel build",
     "clean": "rimraf {design,docs,portals}/**/{lib,dist,.cache,public}/",
     "nuke": "yarn clean && rimraf node_modules {design,docs,portals}/**/node_modules docs/.cache",
