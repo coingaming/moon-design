@@ -43,7 +43,6 @@ module.exports = {
     'import/no-named-default': 'off',
     'import/no-mutable-exports': 'off',
     'import/order': 'off',
-    'no-nested-ternary': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
     'no-unused-expressions': 'off',
