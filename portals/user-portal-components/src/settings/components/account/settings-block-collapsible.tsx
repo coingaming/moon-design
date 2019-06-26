@@ -9,6 +9,8 @@ import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
 
 export const SettingsBlockCollapsible = styled.details<{
   open?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onToggle?: any;
 }>(({ open }) => [
   {
@@ -78,6 +80,8 @@ export const SettingsBlockCollapsibleContents = styled.div({
   },
 });
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const CollapsibleItem = styled.div((props: any) => ({
   'flex-basis': '100%',
   ...props.css,

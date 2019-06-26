@@ -11,11 +11,14 @@ import { underlineWidth } from './settings';
  * 1. String or React Component.
  * 2. Allows us to pass in any props associated to the `element`.
  */
+/* @TODO Revisit post-EPL */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 type NavLinkProps = {
   active?: boolean;
   element?: any /* [1] */;
   [prop: string]: any /* [2] */;
 };
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
  * Component

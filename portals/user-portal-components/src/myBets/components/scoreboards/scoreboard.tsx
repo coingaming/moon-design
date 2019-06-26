@@ -27,6 +27,8 @@ export type EventProps = {
   onClick: () => void;
 };
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const ScoreboardsContainer = ({ children }: any) => {
   const Wrapper = styled.div({
     display: 'flex',
