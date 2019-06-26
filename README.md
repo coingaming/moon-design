@@ -77,7 +77,7 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
 - `yarn format` - [Prettier](https://prettier.io) alias.
-- `yarn lint:ts` - lint TypeScript in each package that contains it.
+- `yarn lint` - lint all JavaScript and TypeScript.
 - `yarn test` - runs the [Jest](https://jestjs.io) testing suite.
   - Obsolete tests can be updated via the additional `-u` flag.
   - Additional [Jest options](https://jestjs.io/docs/en/cli) can be appended to the command.

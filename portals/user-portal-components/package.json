@@ -8,7 +8,6 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn && tsc -b",
-    "lint:ts": "tslint 'src/**/*.{ts,tsx}' -c tslint.json -p tsconfig.json --fix",
     "test": "jest"
   },
   "dependencies": {
