@@ -48,6 +48,8 @@ export const ScoreboardsContainer = ({ children }: any) => {
     return (
       <Wrapper>
         {children.map((scoreboard: ReactChild, index: number) => {
+          /* @TODO Revisit post-EPL */
+          /* eslint-disable-next-line react/no-array-index-key */
           return <Container key={index}>{scoreboard}</Container>;
         })}
       </Wrapper>

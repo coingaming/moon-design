@@ -53,6 +53,8 @@ export const FreeBetsView = () => {
         </BonusesHeadingContainer>
         <FreeBetsWrapper>
           {freebets.map((freebet, i) => (
+            /* @TODO Revisit post-EPL */
+            /* eslint-disable-next-line react/no-array-index-key */
             <React.Fragment key={i}>
               <FreeBet>
                 <Heading size="echo" as="h5">
