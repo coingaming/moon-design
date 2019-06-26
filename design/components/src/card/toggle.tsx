@@ -5,8 +5,8 @@ import {
   IconLeftArrowCurveRight,
   IconSettings,
 } from '@heathmont/sportsbet-icons';
-import { Toggle } from '..';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { Toggle } from '..';
 
 jsx;
 

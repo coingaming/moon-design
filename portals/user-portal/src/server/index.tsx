@@ -9,9 +9,9 @@ import { CacheProvider, Global } from '@emotion/core';
 
 import { styles } from '@heathmont/sportsbet-global';
 
+import { StaticRouter } from 'react-router-dom';
 import { template } from './template';
 
-import { StaticRouter } from 'react-router-dom';
 import { AppRoutes } from '../app/app';
 
 dotenv.config({ allowEmptyValues: true });

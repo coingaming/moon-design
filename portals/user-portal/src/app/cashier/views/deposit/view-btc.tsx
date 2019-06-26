@@ -30,11 +30,8 @@ import {
   WalletBackIconArrowLeft,
   WalletBackNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Button, Heading, Link } from '@heathmont/sportsbet-components';
-import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
@@ -44,6 +41,9 @@ import {
   IconExchange,
   IconCurrencyBtc,
 } from '@heathmont/sportsbet-icons';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 
 jsx;
 
