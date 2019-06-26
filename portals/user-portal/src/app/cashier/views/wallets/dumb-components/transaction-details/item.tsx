@@ -34,7 +34,7 @@ jsx;
 export const TransactionDetailItem: React.FC<{}> = () => {
   return (
     <TransactionHistory>
-      <Summary details={true}>
+      <Summary details>
         <PaymentId>5be547ab0014545343343</PaymentId>
         <Status>
           In progress
