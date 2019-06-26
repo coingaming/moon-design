@@ -11,9 +11,7 @@ jsx;
 const Background = styled.div([
   {
     width: '100%',
-    background: `linear-gradient(${colors.neutral[90]} 14rem, 0%, ${
-      colors.neutral[70]
-    })`,
+    background: `linear-gradient(${colors.neutral[90]} 14rem, 0%, ${colors.neutral[70]})`,
   },
 ]);
 

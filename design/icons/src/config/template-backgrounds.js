@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const prefix = componentName => componentName.name.replace('Svg', '');
 
 function template(
