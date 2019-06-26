@@ -42,7 +42,6 @@ module.exports = {
     'import/no-cycle': 'off',
     'import/no-named-default': 'off',
     'no-shadow': 'off',
-    'no-throw-literal': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
