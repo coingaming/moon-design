@@ -14,26 +14,22 @@ import { WithdrawViewBTC } from './cashier/views/withdraw-btc/view';
 
 export const AppRoutes = () => (
   <Switch>
-    <Route path="/" exact={true} component={WalletsView} />
-    <Route path="/my-bets" exact={true} component={MyBetsView} />
+    <Route path="/" exact component={WalletsView} />
+    <Route path="/my-bets" exact component={MyBetsView} />
     <Route path="/cashier" component={WalletsView} />
-    <Route path="/add-wallet" exact={true} component={AddWalletView} />
-    <Route path="/deposit" exact={true} component={DepositView} />
-    <Route path="/deposit-btc" exact={true} component={DepositViewBTC} />
-    <Route path="/withdraw-btc" exact={true} component={WithdrawViewBTC} />
-    <Route path="/account" exact={true} component={AccountView} />
-    <Route path="/settings" exact={true} component={SettingsView} />
-    <Route path="/notifications" exact={true} component={NotificationsView} />
-    <Route path="/bonuses" exact={true} component={FreeBetsView} />
-    <Route
-      path="/bonuses/price-boosts"
-      exact={true}
-      component={PriceBoostsView}
-    />
-    <Route path="/bonuses/free-bets" exact={true} component={FreeBetsView} />
+    <Route path="/add-wallet" exact component={AddWalletView} />
+    <Route path="/deposit" exact component={DepositView} />
+    <Route path="/deposit-btc" exact component={DepositViewBTC} />
+    <Route path="/withdraw-btc" exact component={WithdrawViewBTC} />
+    <Route path="/account" exact component={AccountView} />
+    <Route path="/settings" exact component={SettingsView} />
+    <Route path="/notifications" exact component={NotificationsView} />
+    <Route path="/bonuses" exact component={FreeBetsView} />
+    <Route path="/bonuses/price-boosts" exact component={PriceBoostsView} />
+    <Route path="/bonuses/free-bets" exact component={FreeBetsView} />
     <Route
       path="/bonuses/casino"
-      exact={true}
+      exact
       component={() => <div>In Progress</div>}
     />
   </Switch>
