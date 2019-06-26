@@ -13,8 +13,8 @@ import {
   CashierHeading,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 
