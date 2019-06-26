@@ -45,7 +45,6 @@ module.exports = {
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     'react/destructuring-assignment': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
-    '@typescript-eslint/no-use-before-define': 'off',
   },
   settings: {
     // Extra settings to support TypeScript with the airbnb config
