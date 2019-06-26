@@ -34,6 +34,7 @@ module.exports = {
       },
     ],
     'react/jsx-one-expression-per-line': 'off', // Disable for Prettier
+    'jsx-a11y/label-has-for': 'off', // Deprecated - https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
     //
     // @TODO Implementation
     //
@@ -42,8 +43,6 @@ module.exports = {
     'import/no-named-default': 'off',
     'import/no-mutable-exports': 'off',
     'import/order': 'off',
-    'jsx-a11y/label-has-associated-control': 'off',
-    'jsx-a11y/label-has-for': 'off',
     'no-nested-ternary': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
