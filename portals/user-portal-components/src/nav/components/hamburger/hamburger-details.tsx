@@ -156,6 +156,9 @@ export const SelectSettingsSection = styled.div({
   flexDirection: 'column',
   marginTop: spacing('xlarge'),
   flexWrap: 'nowrap',
+  '& > select': {
+    boxSizing: 'border-box',
+  },
   '& > select + select': {
     marginTop: spacing(),
   },
