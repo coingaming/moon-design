@@ -45,6 +45,7 @@ const liveCodePreview: CSSObject = {
 };
 
 /* Ensures that we can use `css` props + not have to worry about wrapper divs */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 const transformCode = (src: any) =>
   `/** @jsx jsx */<React.Fragment>${src}</React.Fragment>`;
 

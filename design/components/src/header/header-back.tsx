@@ -12,10 +12,13 @@ import { IconArrowLeft } from '@heathmont/sportsbet-icons';
  * 1. String or React Component.
  * 2. Allows us to pass in any props associated to the `element`.
  */
+/* @TODO Revisit post-EPL */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 type HeaderBackProps = {
   element?: any /* [1] */;
   [key: string]: any /* [2] */;
 };
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
  * Component

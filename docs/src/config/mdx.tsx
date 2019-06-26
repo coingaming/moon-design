@@ -62,6 +62,8 @@ export const mdxComponents = {
   p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
   table: ({ children }: Children) => <Table>{children}</Table>,
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   pre: (props: any) => {
     const codeProps = preToCodeBlock(props);
     return codeProps ? <Code {...codeProps} /> : <pre {...props} />;

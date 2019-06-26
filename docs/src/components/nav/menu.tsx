@@ -8,6 +8,8 @@ import { Frontmatter } from '../../types';
 
 type MenuItemProps = Frontmatter & {
   section?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   pages?: any;
 };
 

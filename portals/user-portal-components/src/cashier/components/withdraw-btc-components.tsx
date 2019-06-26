@@ -22,7 +22,10 @@ export const WalletBackIconArrowLeft = () => (
   />
 );
 
+/* ESLint doesn't like this line being disabled */
+/* eslint-disable */
 export const WalletBackNav: React.FC<NavLinkProps & { as: any }> = ({
+  /* eslint-enable */
   children,
   to,
   as,
