@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
+
 jsx;
 
 export const BtcPaymentLayoutHeader = styled.header({

@@ -73,25 +73,25 @@ exports[`Nav renders correctly 1`] = `
     <li
       className="emotion-1"
     >
-      Item 
+      Item
       1
     </li>
     <li
       className="emotion-1"
     >
-      Item 
+      Item
       2
     </li>
     <li
       className="emotion-1"
     >
-      Item 
+      Item
       3
     </li>
     <li
       className="emotion-1"
     >
-      Item 
+      Item
       4
     </li>
   </ul>

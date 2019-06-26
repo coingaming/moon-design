@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { Heading } from '../';
+import { Heading } from '..';
 
 describe('Heading', () => {
   describe('Elements', () => {

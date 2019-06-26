@@ -6,6 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Badge } from '../badge';
+
 jsx;
 
 type Balance = {
