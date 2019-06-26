@@ -144,13 +144,24 @@ export const TopMenuSection = styled.div({
   marginTop: spacing('large'),
 });
 
-export const TopMenuLink = styled(Link)(column);
+export const TopMenuLink = styled(Link)([
+  column,
+  {
+    '& > svg': { fontSize: '1.5rem', marginBottom: spacing('small') },
+  },
+]);
 
 export const SelectSettingsSection = styled.div({
   display: 'flex',
   flexDirection: 'column',
   marginTop: spacing('xlarge'),
   flexWrap: 'nowrap',
+  '& > select': {
+    boxSizing: 'border-box',
+  },
+  '& > select + select': {
+    marginTop: spacing(),
+  },
 });
 
 export const SocialSection = styled.div({
