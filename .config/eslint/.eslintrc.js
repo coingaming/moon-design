@@ -44,7 +44,6 @@ module.exports = {
     'no-shadow': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     'react/destructuring-assignment': 'off',
-    'react/display-name': 'off',
     'react/jsx-boolean-value': 'off',
     'react/no-array-index-key': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
