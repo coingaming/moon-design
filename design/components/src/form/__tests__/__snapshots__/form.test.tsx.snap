@@ -58,9 +58,12 @@ exports[`Form renders correctly 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput1"
+        >
           Name
           <input
+            id="testInput1"
             placeholder="e.g. John Appleseed"
             type="text"
           />
@@ -69,8 +72,11 @@ exports[`Form renders correctly 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput2"
+        >
           <input
+            id="testInput2"
             name="terms"
             type="checkbox"
             value="terms"
@@ -154,9 +160,12 @@ exports[`Form renders with HTML form attributes 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput1"
+        >
           Name
           <input
+            id="testInput1"
             placeholder="e.g. John Appleseed"
             type="text"
           />
@@ -165,8 +174,11 @@ exports[`Form renders with HTML form attributes 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput2"
+        >
           <input
+            id="testInput2"
             name="terms"
             type="checkbox"
             value="terms"
@@ -247,9 +259,12 @@ exports[`Form renders with custom fullWidth 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput1"
+        >
           Name
           <input
+            id="testInput1"
             placeholder="e.g. John Appleseed"
             type="text"
           />
@@ -258,8 +273,11 @@ exports[`Form renders with custom fullWidth 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput2"
+        >
           <input
+            id="testInput2"
             name="terms"
             type="checkbox"
             value="terms"
@@ -341,9 +359,12 @@ exports[`Form renders with custom maxWidth 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput1"
+        >
           Name
           <input
+            id="testInput1"
             placeholder="e.g. John Appleseed"
             type="text"
           />
@@ -352,8 +373,11 @@ exports[`Form renders with custom maxWidth 1`] = `
       <li
         className="emotion-1"
       >
-        <label>
+        <label
+          htmlFor="testInput2"
+        >
           <input
+            id="testInput2"
             name="terms"
             type="checkbox"
             value="terms"

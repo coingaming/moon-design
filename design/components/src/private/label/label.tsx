@@ -74,6 +74,8 @@ const Label: React.FC<LabelProps> = ({
   inputGrow = 1,
   ...props
 }) => {
+  /* Disable as this is handled in the consumer */
+  /* eslint-disable jsx-a11y/label-has-associated-control */
   return inline ? (
     <label {...props}>{text}</label>
   ) : (
@@ -84,6 +86,7 @@ const Label: React.FC<LabelProps> = ({
       {React.Children.only(children)}
     </label>
   );
+  /* eslint-enable jsx-a11y/label-has-associated-control */
 };
 
 export { Label, LabelProps, LabelSizing };
