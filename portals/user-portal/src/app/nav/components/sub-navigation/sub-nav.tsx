@@ -3,11 +3,11 @@ import { Tab, TabItem } from '@heathmont/sportsbet-user-portal-components';
 
 export const SubNavigation = () => (
   <Tab>
-    <TabItem to={'/cashier'}>Wallet</TabItem>
-    <TabItem to={'/my-bets'}>My bets</TabItem>
-    <TabItem to={'/bonuses'}>Bonuses</TabItem>
-    <TabItem to={'/notifications'}>Notifications</TabItem>
-    <TabItem to={'/account'}>Account</TabItem>
-    <TabItem to={'/settings'}>Settings</TabItem>
+    <TabItem to="/cashier">Wallet</TabItem>
+    <TabItem to="/my-bets">My bets</TabItem>
+    <TabItem to="/bonuses">Bonuses</TabItem>
+    <TabItem to="/notifications">Notifications</TabItem>
+    <TabItem to="/account">Account</TabItem>
+    <TabItem to="/settings">Settings</TabItem>
   </Tab>
 );

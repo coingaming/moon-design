@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { jsx } from '@emotion/core';
 import { create } from 'react-test-renderer';
-import { listPlain, listPlainItem, listInline, listInlineItem } from '../';
+import { listPlain, listPlainItem, listInline, listInlineItem } from '..';
 
 describe('Lists', () => {
   describe('listPlain', () => {

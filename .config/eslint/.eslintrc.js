@@ -33,36 +33,27 @@ module.exports = {
         extensions: ['.jsx', '.tsx'], // Allow JSX in `.tsx`
       },
     ],
+    'react/jsx-one-expression-per-line': 'off', // Disable for Prettier
     //
     // @TODO Implementation
     //
-    'dot-notation': 'off',
     'import/first': 'off',
-    'import/newline-after-import': 'off',
     'import/no-cycle': 'off',
-    'import/no-extraneous-dependencies': 'off',
     'import/no-named-default': 'off',
     'import/no-mutable-exports': 'off',
-    'import/no-useless-path-segments': 'off',
     'import/order': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/label-has-for': 'off',
-    'no-console': 'off',
     'no-nested-ternary': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
-    'no-unneeded-ternary': 'off',
     'no-unused-expressions': 'off',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
-    'react/jsx-curly-brace-presence': 'off',
-    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-boolean-value': 'off',
     'react/jsx-key': 'off',
     'react/no-array-index-key': 'off',
     'react/no-unknown-property': 'off',
-    'spaced-comment': 'off',
-    '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
@@ -101,6 +92,9 @@ module.exports = {
       files: ['*.test.ts', '*.test.tsx'],
       env: {
         jest: true,
+      },
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
       },
     },
   ],

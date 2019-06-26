@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { CardBalance } from '../';
+import { CardBalance } from '..';
 
 describe('CardBalance', () => {
   test('renders correctly', () => {

@@ -3,6 +3,7 @@ import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
+
 jsx;
 
 type SwitchProps = React.InputHTMLAttributes<HTMLInputElement> & {};

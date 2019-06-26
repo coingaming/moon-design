@@ -7,6 +7,7 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-assets": "^0.62.0"
+    "@heathmont/sportsbet-assets": "^0.62.0",
+    "polished": "3.0.0"
   }
 }

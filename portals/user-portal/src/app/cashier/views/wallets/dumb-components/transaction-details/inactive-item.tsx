@@ -27,6 +27,7 @@ import {
   ProgressBar,
 } from '@heathmont/sportsbet-user-portal-components';
 import { colors, spacing } from '@heathmont/sportsbet-tokens';
+
 jsx;
 
 export const InActiveTransactionDetailItem: React.FC<{}> = () => {

@@ -52,6 +52,7 @@ import {
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 export const MyBetsView = () => {

@@ -17,6 +17,7 @@ import {
 import { colors } from '@heathmont/sportsbet-tokens';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
+
 jsx;
 
 export const PriceBoostsView = () => {
@@ -35,7 +36,7 @@ export const PriceBoostsView = () => {
       </StickyNav>
       <CashierLayout>
         <BonusesHeadingContainer>
-          <Heading size={'charlie'} as={'h1'}>
+          <Heading size="charlie" as="h1">
             Bonuses
           </Heading>
           <BonusesSubNavigation>

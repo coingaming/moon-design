@@ -22,6 +22,7 @@ import {
   LoggedInButtonsSection,
   CenterProfileIcon,
 } from '@heathmont/sportsbet-user-portal-components';
+
 jsx;
 
 export const LoggedInNav = () => (
@@ -39,6 +40,7 @@ export const LoggedInNav = () => (
         placeholder="Search for a match, event, player etc ..."
         onSubmit={e => {
           e.preventDefault();
+          /* eslint-disable-next-line no-console */
           console.log('submit');
         }}
       />
