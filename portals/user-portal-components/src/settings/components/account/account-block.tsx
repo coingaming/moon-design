@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { FormItem } from '@heathmont/sportsbet-components';
+import { Button, FormItem, Form } from '@heathmont/sportsbet-components';
 
 export const ResendEmailContainer = styled.div({
   display: 'flex',
@@ -82,18 +82,60 @@ export const ChangePasswordSaveButton = styled.div({
   },
 });
 
-export const GoogleAuthenticatorContainer = styled.div({
-  alignSelf: 'flex-start',
-  [mq(breakpoints.medium)]: {
-    maxWidth: rem(320),
-    margin: `0 ${spacing('large')} 0`,
+export const GOOGLE_AUTHENTICATOR_ICON_SIZE = {
+  width: 24,
+  height: 24,
+};
+
+export const GoogleAuthenticatorHeader = styled.div({
+  width: '100%',
+  textAlign: 'center',
+  [mq(breakpoints.small)]: {
+    display: 'flex',
+    alignItems: 'center',
+    textAlign: 'left',
   },
 });
 
-export const GoogleAuthenticatorText = styled.div({
-  margin: `${spacing()} 0`,
+export const GoogleAuthenticatorHeaderItem = styled.div({
+  marginTop: spacing('medium'),
+  [mq(breakpoints.small)]: {
+    marginTop: 0,
+    marginLeft: spacing('medium'),
+  },
+});
+
+export const GoogleAuthenticatorText = styled.p({
+  color: colors.palette.trunks[100],
+  marginTop: spacing(),
+});
+
+export const GoogleAuthenticatorButton = styled(Button)({
+  width: '100%',
+  [mq(breakpoints.small)]: {
+    width: 'auto',
+  },
+});
+
+export const GoogleAuthenticatorContainer = styled.div({
+  display: 'flex',
+  marginTop: spacing('large'),
+  flexFlow: 'wrap',
+  alignItems: 'center',
+});
+
+export const GoogleAuthenticatorSetup = styled.div({
+  width: '100%',
+  alignSelf: 'flex-start',
+  [mq(breakpoints.small)]: {
+    width: 'auto',
+    maxWidth: rem(320),
+  },
+});
+
+export const GoogleAuthenticatorForm = styled(Form)({
+  marginTop: spacing('large'),
   [mq(breakpoints.medium)]: {
     marginTop: 0,
-    maxWidth: rem(320),
   },
 });
