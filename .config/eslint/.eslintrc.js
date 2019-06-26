@@ -41,7 +41,6 @@ module.exports = {
     //
     'import/no-cycle': 'off',
     'import/no-named-default': 'off',
-    'import/no-mutable-exports': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
