@@ -25,6 +25,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'import/first': 'off', // Unnecessarily compresses JSX comment
     'import/prefer-default-export': 'off', // We prefer named
     'react/no-unescaped-entities': 'off',
     'react/jsx-filename-extension': [
@@ -38,13 +39,12 @@ module.exports = {
     //
     // @TODO Implementation
     //
-    'import/first': 'off',
     'import/no-cycle': 'off',
     'import/no-named-default': 'off',
     'import/no-mutable-exports': 'off',
     'no-shadow': 'off',
     'no-throw-literal': 'off',
-    'no-unused-expressions': 'off',
+    'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
     'react/jsx-boolean-value': 'off',
