@@ -24,8 +24,12 @@ export const SettingsSection = styled.section({
 
 export const SettingsBlock = styled.div<{
   highlight?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onClick?: any;
   border?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line no-shadow */
 }>(({ highlight = false, onClick, border = false }) => [
   {
     minHeight: rem(96),

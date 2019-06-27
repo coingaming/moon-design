@@ -24,10 +24,16 @@ export const PaymentMethodImage: React.FC<PaymentMethodImageProps> = ({
   src,
   alt,
 }) => {
+  /* eslint-disable no-nested-ternary */
+  /**
+   * Disabling for the sake of deadlines, as this is the only area we use a
+   * a nested ternary.
+   */
   const actualWidth =
     width || size === 'large' ? rem(96) : size === 'small' ? rem(42) : rem(42);
   const actualHeight =
     height || size === 'large' ? rem(70) : size === 'small' ? rem(30) : rem(30);
+  /* eslint-enable no-nested-ternary */
   return (
     <img
       style={{ width: actualWidth, height: actualHeight }}

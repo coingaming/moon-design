@@ -92,6 +92,8 @@ const Card = styled.div<CardProps>(({ backgroundIcon, flex, template }) => [
     backgroundIcon:
       backgroundIcon &&
       React.isValidElement(backgroundIcon) &&
+      /* @TODO Revisit post-EPL */
+      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
       React.cloneElement(backgroundIcon as React.ReactElement<any>, {
         color: rgba(colors.neutral[10], 0.05),
       }),

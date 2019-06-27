@@ -7,7 +7,9 @@ const colors: {
   error: string;
   warning: string;
   neutral: BaseColor;
-  palette: any; // TODO
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  palette: any;
 } = {
   palette,
   brand: piccolo[100],

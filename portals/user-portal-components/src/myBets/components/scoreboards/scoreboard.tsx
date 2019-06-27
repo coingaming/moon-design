@@ -27,6 +27,8 @@ export type EventProps = {
   onClick: () => void;
 };
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const ScoreboardsContainer = ({ children }: any) => {
   const Wrapper = styled.div({
     display: 'flex',
@@ -46,6 +48,8 @@ export const ScoreboardsContainer = ({ children }: any) => {
     return (
       <Wrapper>
         {children.map((scoreboard: ReactChild, index: number) => {
+          /* @TODO Revisit post-EPL */
+          /* eslint-disable-next-line react/no-array-index-key */
           return <Container key={index}>{scoreboard}</Container>;
         })}
       </Wrapper>

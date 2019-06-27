@@ -23,7 +23,7 @@ export const BitcoinWallet = () => {
     return (
       <Card flex backgroundIcon={<IconBitcoin />} template="front">
         <CurrencySwitchLayout>
-          uBTC <CurrencySwitch defaultChecked={true} /> mBTC
+          uBTC <CurrencySwitch defaultChecked /> mBTC
         </CurrencySwitchLayout>
         <CardBalance
           badgeCaption="Active"

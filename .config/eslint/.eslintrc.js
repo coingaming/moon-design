@@ -25,8 +25,9 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'import/first': 'off', // Unnecessarily compresses JSX comment
     'import/prefer-default-export': 'off', // We prefer named
-    'react/no-unescaped-entities': 'off',
+    'react/no-unescaped-entities': 'off', // We're not too fussed about HTML codes.
     'react/jsx-filename-extension': [
       'warn',
       {
@@ -34,29 +35,14 @@ module.exports = {
       },
     ],
     'react/jsx-one-expression-per-line': 'off', // Disable for Prettier
+    'jsx-a11y/label-has-for': 'off', // Deprecated - https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
     //
     // @TODO Implementation
     //
-    'import/first': 'off',
     'import/no-cycle': 'off',
     'import/no-named-default': 'off',
-    'import/no-mutable-exports': 'off',
-    'import/order': 'off',
-    'jsx-a11y/label-has-associated-control': 'off',
-    'jsx-a11y/label-has-for': 'off',
-    'no-nested-ternary': 'off',
-    'no-shadow': 'off',
-    'no-throw-literal': 'off',
-    'no-unused-expressions': 'off',
-    'react/destructuring-assignment': 'off',
-    'react/display-name': 'off',
-    'react/jsx-boolean-value': 'off',
-    'react/jsx-key': 'off',
-    'react/no-array-index-key': 'off',
-    'react/no-unknown-property': 'off',
-    '@typescript-eslint/no-explicit-any': 'off',
+    'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     '@typescript-eslint/no-inferrable-types': 'off',
-    '@typescript-eslint/no-use-before-define': 'off',
   },
   settings: {
     // Extra settings to support TypeScript with the airbnb config
