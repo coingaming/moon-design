@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.63.2](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.2) (2019-06-27)
+
+
+### Bug Fixes
+
+* manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
+
+
+
+
+
 ## [0.63.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.1) (2019-06-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-objects
