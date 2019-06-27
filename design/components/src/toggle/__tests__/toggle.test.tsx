@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Toggle } from '../';
+import { Toggle } from '..';
 
 describe('Toggle', () => {
   test('renders correctly', () => {

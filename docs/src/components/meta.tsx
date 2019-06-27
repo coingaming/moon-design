@@ -1,9 +1,11 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import { Helmet } from 'react-helmet';
 import { jsx } from '@emotion/core';
 import { graphql, StaticQuery, withPrefix } from 'gatsby';
 
 import { cdnUrl, avertaStd } from '@heathmont/sportsbet-assets';
+
+jsx;
 
 const metaQuery = graphql`
   query {

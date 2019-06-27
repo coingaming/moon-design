@@ -1,5 +1,4 @@
-/* tslint:disable import-name */
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import { jsx, CSSObject } from '@emotion/core';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
@@ -9,6 +8,8 @@ import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 import { syntaxStyles } from './prism';
+
+jsx;
 
 type CodeProps = {
   codeString: string;
@@ -46,10 +47,13 @@ const liveCodePreview: CSSObject = {
 };
 
 /* Ensures that we can use `css` props + not have to worry about wrapper divs */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 const transformCode = (src: any) =>
   `/** @jsx jsx */<React.Fragment>${src}</React.Fragment>`;
 
 export const Code = ({ codeString, language, ...props }: CodeProps) =>
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line react/destructuring-assignment */
   props['react-live'] ? (
     <LiveProvider
       mountStylesheet={false}

@@ -19,6 +19,8 @@ import {
 } from './states';
 import { Loader } from '../loader/loader';
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   href?: string;
   modifier: ButtonModifiers;
@@ -41,6 +43,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   isActive?: any;
   location?: any;
 };
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
  * Styles
@@ -90,7 +93,7 @@ const StyledButton: React.FC<ButtonProps> = styled('button', {
 })(({ modifier, uppercase, fullWidth, size, oops }) => [
   buttonStyles,
   modifier && buttonModifiers[modifier],
-  size ? buttonSizes[size] : buttonSizes['small'],
+  size ? buttonSizes[size] : buttonSizes.small,
   uppercase && { textTransform: 'uppercase' },
   fullWidth && { width: '100%' },
   oops && {

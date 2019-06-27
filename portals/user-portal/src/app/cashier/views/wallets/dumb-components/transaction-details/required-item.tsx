@@ -28,6 +28,7 @@ import {
   Text,
   ProgressBar,
 } from '@heathmont/sportsbet-user-portal-components';
+
 jsx;
 
 export const RequiredTransactionDetailItem: React.FC<{}> = () => {

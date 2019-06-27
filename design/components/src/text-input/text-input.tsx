@@ -58,7 +58,7 @@ const TextInput: React.FC<TextInputProps> = ({
   return (
     <Label text={label} disabled={disabled}>
       <React.Fragment>
-        <TextInputElem error={error ? true : false} {...inputProps} />
+        <TextInputElem error={!!error} {...inputProps} />
         {error && <Error text={error} />}
       </React.Fragment>
     </Label>

@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { default as React, useState } from 'react';
+import { Fragment, useState } from 'react';
 import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { jsx } from '@emotion/core';
 import {
@@ -13,10 +13,11 @@ import {
   FreeBetsWrapper,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
+import { NavLink } from 'react-router-dom';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
-import { NavLink } from 'react-router-dom';
+
 jsx;
 
 export const FreeBetsView = () => {
@@ -24,7 +25,7 @@ export const FreeBetsView = () => {
   const freebets = [{}, {}, {}, {}, {}, {}, {}];
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -35,7 +36,7 @@ export const FreeBetsView = () => {
       </StickyNav>
       <CashierLayout>
         <BonusesHeadingContainer>
-          <Heading size={'charlie'} as={'h1'}>
+          <Heading size="charlie" as="h1">
             Bonuses
           </Heading>
           <BonusesSubNavigation>
@@ -52,7 +53,9 @@ export const FreeBetsView = () => {
         </BonusesHeadingContainer>
         <FreeBetsWrapper>
           {freebets.map((freebet, i) => (
-            <React.Fragment key={i}>
+            /* @TODO Revisit post-EPL */
+            /* eslint-disable-next-line react/no-array-index-key */
+            <Fragment key={i}>
               <FreeBet>
                 <Heading size="echo" as="h5">
                   Free bet title
@@ -103,10 +106,10 @@ export const FreeBetsView = () => {
                   <Button modifier="secondary">Use now</Button>
                 </div>
               </FreeBet>
-            </React.Fragment>
+            </Fragment>
           ))}
         </FreeBetsWrapper>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

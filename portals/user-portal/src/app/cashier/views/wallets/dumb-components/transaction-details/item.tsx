@@ -28,12 +28,13 @@ import {
   Text,
   ProgressBar,
 } from '@heathmont/sportsbet-user-portal-components';
+
 jsx;
 
 export const TransactionDetailItem: React.FC<{}> = () => {
   return (
     <TransactionHistory>
-      <Summary details={true}>
+      <Summary details>
         <PaymentId>5be547ab0014545343343</PaymentId>
         <Status>
           In progress

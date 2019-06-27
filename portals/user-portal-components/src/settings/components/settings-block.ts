@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
@@ -24,8 +23,12 @@ export const SettingsSection = styled.section({
 
 export const SettingsBlock = styled.div<{
   highlight?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onClick?: any;
   border?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line no-shadow */
 }>(({ highlight = false, onClick, border = false }) => [
   {
     minHeight: rem(96),
@@ -44,9 +47,7 @@ export const SettingsBlock = styled.div<{
   },
   highlight && {
     position: 'relative',
-    background: `linear-gradient(90deg, ${colors.neutral[90]} 0%, ${
-      colors.neutral[70]
-    } 100%)`,
+    background: `linear-gradient(90deg, ${colors.neutral[90]} 0%, ${colors.neutral[70]} 100%)`,
   },
   onClick && {
     cursor: 'pointer',
@@ -59,20 +60,18 @@ export const SettingsBlock = styled.div<{
   },
 ]);
 
-export const BlockColumn = styled.div<{}>(() => [
-  {
-    minHeight: rem(96),
-    alignItems: 'flex-start',
-    borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
-    paddingLeft: spacing('large'),
-    paddingRight: spacing('large'),
-    paddingTop: spacing('medium'),
-    paddingBottom: spacing('medium'),
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-  },
-]);
+export const BlockColumn = styled.div<{}>({
+  minHeight: rem(96),
+  alignItems: 'flex-start',
+  borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
+  paddingLeft: spacing('large'),
+  paddingRight: spacing('large'),
+  paddingTop: spacing('medium'),
+  paddingBottom: spacing('medium'),
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+});
 
 export const BlockContent = styled.div({
   display: 'flex',

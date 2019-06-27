@@ -1,4 +1,3 @@
-import rem from 'polished/lib/helpers/rem';
 import { base } from './base';
 
 type Border = {
