@@ -52,6 +52,8 @@ const transformCode = (src: any) =>
   `/** @jsx jsx */<React.Fragment>${src}</React.Fragment>`;
 
 export const Code = ({ codeString, language, ...props }: CodeProps) =>
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line react/destructuring-assignment */
   props['react-live'] ? (
     <LiveProvider
       mountStylesheet={false}
