@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import { default as React } from 'react';
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import { mq, spacing } from '@heathmont/sportsbet-utils';

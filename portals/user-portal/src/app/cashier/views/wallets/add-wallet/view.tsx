@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   AddWalletCard,
@@ -31,7 +31,7 @@ export const AddWalletView = () => {
   const walletCards = [{}, {}, {}, {}, {}, {}, {}, {}];
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -52,7 +52,7 @@ export const AddWalletView = () => {
         <AddWalletsContainer>
           {walletCards.map((card, i) => {
             return (
-              <React.Fragment>
+              <Fragment>
                 <AddWalletCard
                   active
                   backgroundIcon={
@@ -74,11 +74,11 @@ export const AddWalletView = () => {
                   </Heading>
                   <Button modifier="optional">Add</Button>
                 </AddWalletCard>
-              </React.Fragment>
+              </Fragment>
             );
           })}
         </AddWalletsContainer>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };
