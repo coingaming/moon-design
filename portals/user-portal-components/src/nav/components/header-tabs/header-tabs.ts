@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';

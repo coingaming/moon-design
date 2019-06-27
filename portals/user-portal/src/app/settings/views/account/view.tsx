@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   CashierLayout,
@@ -22,7 +22,7 @@ export const AccountView = () => {
   // const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -43,6 +43,6 @@ export const AccountView = () => {
           />
         )}
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

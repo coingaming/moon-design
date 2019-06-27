@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { Link } from '@heathmont/sportsbet-components/lib/link/';

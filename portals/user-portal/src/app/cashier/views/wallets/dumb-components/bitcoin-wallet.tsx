@@ -1,4 +1,4 @@
-import { useState, default as React } from 'react';
+import * as React from 'react';
 import { spacing } from '@heathmont/sportsbet-utils';
 import {
   Card,
@@ -17,7 +17,7 @@ import {
 import { NavLink } from 'react-router-dom';
 
 export const BitcoinWallet = () => {
-  const [backSided, toggle] = useState(false);
+  const [backSided, toggle] = React.useState(false);
 
   if (!backSided) {
     return (

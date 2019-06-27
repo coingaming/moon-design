@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
@@ -43,7 +43,7 @@ export const WalletsView = () => {
   const [isUserLoggedIn, login] = useState(false);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -101,6 +101,6 @@ export const WalletsView = () => {
           </Button>
         </LoadMore>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

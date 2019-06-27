@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState } from 'react';
 import { jsx } from '@emotion/core';
 import {
   Card,

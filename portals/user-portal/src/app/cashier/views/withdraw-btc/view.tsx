@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   CashierLayout,
@@ -50,7 +50,7 @@ export const WithdrawViewBTC = () => {
   const [isUserLoggedIn, login] = useState(false);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -165,6 +165,6 @@ export const WithdrawViewBTC = () => {
           </WithdrawBTCSibebarArea>
         </WithdrawBTCLayout>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };
