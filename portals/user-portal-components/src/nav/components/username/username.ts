@@ -41,4 +41,7 @@ export const UserhubIconProfile = styled.div({
   [mq(breakpoints.small)]: {
     marginRight: 0,
   },
+  '& > svg': {
+    fontSize: '2.5rem',
+  },
 });
