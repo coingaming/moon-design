@@ -1,12 +1,7 @@
-/** @jsx jsx */
-import * as React from 'react';
-import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
-
-jsx;
 
 export const MyBets = styled.div({
   display: 'none',

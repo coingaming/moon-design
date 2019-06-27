@@ -12,58 +12,54 @@ export const SettingsBlockCollapsible = styled.details<{
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onToggle?: any;
-}>(({ open }) => [
-  {
-    position: 'relative',
-    alignItems: 'center',
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    '&[open]': {
-      Summary: {
-        borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
-        '&::-webkit-details-marker': {
-          backgroundImage: inlineSVG(
-            <IconChevronUp color={colors.neutral[40]} />
-          ),
-        },
+}>({
+  position: 'relative',
+  alignItems: 'center',
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  '&[open]': {
+    Summary: {
+      borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
+      '&::-webkit-details-marker': {
+        backgroundImage: inlineSVG(
+          <IconChevronUp color={colors.neutral[40]} />
+        ),
       },
     },
   },
-]);
+});
 
-export const SummaryAccount = styled.summary<{}>(() => [
-  {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingLeft: spacing(),
-    paddingRight: spacing(),
-    paddingTop: spacing('medium'),
-    paddingBottom: spacing('medium'),
-    cursor: 'pointer',
-    boxSizing: 'border-box',
+export const SummaryAccount = styled.summary<{}>({
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  paddingLeft: spacing(),
+  paddingRight: spacing(),
+  paddingTop: spacing('medium'),
+  paddingBottom: spacing('medium'),
+  cursor: 'pointer',
+  boxSizing: 'border-box',
+  [mq(breakpoints.medium)]: {
+    paddingLeft: 0,
+    paddingRight: 0,
+  },
+  /* arrow */
+  '&::-webkit-details-marker': {
+    backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
+    backgroundSize: 'cover',
+    color: 'transparent',
+    width: rem(10),
+    height: rem(10),
+    position: 'absolute',
+    right: spacing('large'),
+    top: `calc(${spacing('large')} + 5px)`,
     [mq(breakpoints.medium)]: {
-      paddingLeft: 0,
-      paddingRight: 0,
-    },
-    /* arrow */
-    '&::-webkit-details-marker': {
-      backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
-      backgroundSize: 'cover',
-      color: 'transparent',
-      width: rem(10),
-      height: rem(10),
-      position: 'absolute',
-      right: spacing('large'),
-      top: `calc(${spacing('large')} + 5px)`,
-      [mq(breakpoints.medium)]: {
-        right: spacing('small'),
-      },
+      right: spacing('small'),
     },
   },
-]);
+});
 
 export const SettingsBlockCollapsibleContents = styled.div({
   display: 'flex',

@@ -1,11 +1,6 @@
-/** @jsx jsx */
-import * as React from 'react';
 import styled from '@emotion/styled';
-import { jsx } from '@emotion/core';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-
-jsx;
 
 export const Userhub = styled.div({
   display: 'flex',
