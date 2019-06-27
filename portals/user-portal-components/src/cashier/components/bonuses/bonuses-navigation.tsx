@@ -1,9 +1,8 @@
 /** @jsx jsx */
-import { default as React } from 'react';
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { buttonStyles } from '@heathmont/sportsbet-components';
 import { buttonModifiers } from '@heathmont/sportsbet-components/lib/button/modifiers';
 

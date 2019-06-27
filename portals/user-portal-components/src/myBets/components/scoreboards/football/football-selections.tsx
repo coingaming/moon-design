@@ -1,4 +1,4 @@
-import { MouseEvent, default as React } from 'react';
+import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
