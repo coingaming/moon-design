@@ -3,51 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.62.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.0...v0.62.1) (2019-06-27)
+## [0.63.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.1) (2019-06-27)
 
+**Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
+
+## [0.62.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.0...v0.62.1) (2019-06-27)
 
 ### Bug Fixes
 
-* remove inlined css styling from link icons & remove inlined styling for menu selects ([5f033c4](https://github.com/coingaming/sportsbet-design/commit/5f033c4))
-* remove select overflow on smaller screens ([1a4d125](https://github.com/coingaming/sportsbet-design/commit/1a4d125))
-
-
-
-
+- remove inlined css styling from link icons & remove inlined styling for menu selects ([5f033c4](https://github.com/coingaming/sportsbet-design/commit/5f033c4))
+- remove select overflow on smaller screens ([1a4d125](https://github.com/coingaming/sportsbet-design/commit/1a4d125))
 
 # [0.62.0](https://github.com/coingaming/sportsbet-design/compare/v0.61.0...v0.62.0) (2019-06-20)
 
-
 ### Features
 
-* **deposit-btc:** export all components ([db112cc](https://github.com/coingaming/sportsbet-design/commit/db112cc))
-* **nav:** wallet nav ([d739dae](https://github.com/coingaming/sportsbet-design/commit/d739dae))
-
-
-
-
+- **deposit-btc:** export all components ([db112cc](https://github.com/coingaming/sportsbet-design/commit/db112cc))
+- **nav:** wallet nav ([d739dae](https://github.com/coingaming/sportsbet-design/commit/d739dae))
 
 # [0.61.0](https://github.com/coingaming/sportsbet-design/compare/v0.60.0...v0.61.0) (2019-06-20)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 # [0.60.0](https://github.com/coingaming/sportsbet-design/compare/v0.59.2...v0.60.0) (2019-06-19)
-
 
 ### Bug Fixes
 
-* export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
-* mobile menu indicator ([a4b8767](https://github.com/coingaming/sportsbet-design/commit/a4b8767))
-* navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
-* swap link -> routelink ([5d2d7e6](https://github.com/coingaming/sportsbet-design/commit/5d2d7e6))
-
-
-
-
+- export button styles & fix bonus navigation ([0f0a95d](https://github.com/coingaming/sportsbet-design/commit/0f0a95d))
+- mobile menu indicator ([a4b8767](https://github.com/coingaming/sportsbet-design/commit/a4b8767))
+- navigation via classname ([c5bf0b8](https://github.com/coingaming/sportsbet-design/commit/c5bf0b8))
+- swap link -> routelink ([5d2d7e6](https://github.com/coingaming/sportsbet-design/commit/5d2d7e6))
 
 ## [0.59.2](https://github.com/coingaming/sportsbet-design/compare/v0.59.1...v0.59.2) (2019-06-18)
 
