@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.62.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.0...v0.62.1) (2019-06-27)
+
+
+### Bug Fixes
+
+* remove inlined css styling from link icons & remove inlined styling for menu selects ([5f033c4](https://github.com/coingaming/sportsbet-design/commit/5f033c4))
+* remove select overflow on smaller screens ([1a4d125](https://github.com/coingaming/sportsbet-design/commit/1a4d125))
+
+
+
+
+
 # [0.62.0](https://github.com/coingaming/sportsbet-design/compare/v0.61.0...v0.62.0) (2019-06-20)
 
 
