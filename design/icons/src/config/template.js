@@ -1,4 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* Disable rules due to SVGR's setup */
+/* eslint-disable no-shadow, @typescript-eslint/no-unused-vars */
 const prefix = componentName => componentName.name.replace('Svg', '');
 
 function template(

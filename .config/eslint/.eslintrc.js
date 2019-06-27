@@ -27,7 +27,7 @@ module.exports = {
   rules: {
     'import/first': 'off', // Unnecessarily compresses JSX comment
     'import/prefer-default-export': 'off', // We prefer named
-    'react/no-unescaped-entities': 'off',
+    'react/no-unescaped-entities': 'off', // We're not too fussed about HTML codes.
     'react/jsx-filename-extension': [
       'warn',
       {
@@ -41,7 +41,6 @@ module.exports = {
     //
     'import/no-cycle': 'off',
     'import/no-named-default': 'off',
-    'no-shadow': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     '@typescript-eslint/no-inferrable-types': 'off',
   },
