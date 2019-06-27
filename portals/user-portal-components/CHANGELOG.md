@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.63.3](https://github.com/coingaming/sportsbet-design/compare/v0.63.2...v0.63.3) (2019-06-27)
+
+
+### Bug Fixes
+
+* omit inlined icon styles for header ([fc0d716](https://github.com/coingaming/sportsbet-design/commit/fc0d716))
+
+
+
+
+
 ## [0.63.2](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.2) (2019-06-27)
 
 
