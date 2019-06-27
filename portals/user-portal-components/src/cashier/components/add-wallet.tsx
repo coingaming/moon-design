@@ -53,10 +53,10 @@ export const AddWalletCardContainer = styled.div([
   },
 ]);
 
-export const AddWallet: React.FC<NavLinkProps> = props => (
+export const AddWallet: React.FC<NavLinkProps> = ({ children, ...props }) => (
   <AddWalletCardContainer>
     <RouteLink as={NavLink} css={caption} {...props}>
-      {props.children}
+      {children}
     </RouteLink>
   </AddWalletCardContainer>
 );
@@ -77,10 +77,13 @@ export const WalletMobileButton = styled.button([
   },
 ]);
 
-export const AddWalletMobile: React.FC<NavLinkProps> = props => (
+export const AddWalletMobile: React.FC<NavLinkProps> = ({
+  children,
+  ...props
+}) => (
   <WalletMobileButton>
     <RouteLink as={NavLink} css={caption} {...props}>
-      {props.children}
+      {children}
     </RouteLink>
   </WalletMobileButton>
 );
@@ -131,6 +134,8 @@ export const CurrencySwitch: React.FC<
   React.InputHTMLAttributes<HTMLInputElement>
 > = props => {
   return (
+    /* Disable as `label` wraps input */
+    /* eslint-disable-next-line jsx-a11y/label-has-associated-control */
     <label css={switcher}>
       <input css={inputStyle} type="checkbox" {...props} />
       <span css={slider} className="slider" />
