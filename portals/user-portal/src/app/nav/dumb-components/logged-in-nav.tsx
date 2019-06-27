@@ -58,7 +58,7 @@ export const LoggedInNav = () => (
           <UserhubInfoBalance>1535.82 mBTC</UserhubInfoBalance>
         </UserhubInfo>
         <UserhubIconProfile>
-          <IconLoyality0 css={{ fontSize: '2.5rem' }} />
+          <IconLoyality0 />
           <CenterProfileIcon>
             <IconProfile />
           </CenterProfileIcon>
