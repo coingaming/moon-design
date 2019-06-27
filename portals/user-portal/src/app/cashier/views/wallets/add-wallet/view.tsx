@@ -3,9 +3,7 @@ import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   AddWalletCard,
-  AddWalletNavigation,
   AddWalletsContainer,
-  CashierHeading,
   CashierLayout,
   StickyNav,
   CashierHeader,
@@ -14,9 +12,9 @@ import {
 } from '@heathmont/sportsbet-user-portal-components';
 import { Button, Heading } from '@heathmont/sportsbet-components';
 import {
-  IconArrowLeft,
   IconCurrencyEur,
   IconCurrencyBtc,
+  IconCurrencyInr,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
@@ -50,19 +48,26 @@ export const AddWalletView = () => {
           </WalletBackNav>
         </CashierHeader>
         <AddWalletsContainer>
+          <AddWalletCard
+            active
+            backgroundIcon={<IconCurrencyEur color={colors.neutral[40]} />}
+          >
+            <Heading size="echo" as="h5">
+              Euro
+            </Heading>
+          </AddWalletCard>
           {walletCards.map((card, i) => {
             return (
               <Fragment>
                 <AddWalletCard
-                  active
                   backgroundIcon={
-                    <IconCurrencyEur color={colors.neutral[40]} />
+                    <IconCurrencyInr color={colors.neutral[40]} />
                   }
                 >
                   <Heading size="echo" as="h5">
                     Euro
                   </Heading>
-                  <Button modifier="optional">Remove</Button>
+                  <Button modifier="optional">Add</Button>
                 </AddWalletCard>
                 <AddWalletCard
                   backgroundIcon={
