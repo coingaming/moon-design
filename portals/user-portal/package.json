@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "@emotion/cache": "10.0.9",
-    "@emotion/core": "10.0.9",
+    "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.9",
     "@heathmont/sportsbet-components": "^0.63.2",
     "@heathmont/sportsbet-global": "^0.63.2",

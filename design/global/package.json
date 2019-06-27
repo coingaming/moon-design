@@ -7,7 +7,7 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "10.0.9",
+    "@emotion/core": "10.0.10",
     "@heathmont/sportsbet-assets": "^0.63.2",
     "@heathmont/sportsbet-tokens": "^0.63.2",
     "@heathmont/sportsbet-utils": "^0.63.2",
