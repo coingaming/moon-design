@@ -1,7 +1,6 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
-import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
+import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { Button, FormItem, Form } from '@heathmont/sportsbet-components';
 

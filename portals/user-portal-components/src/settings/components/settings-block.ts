@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
@@ -61,20 +60,18 @@ export const SettingsBlock = styled.div<{
   },
 ]);
 
-export const BlockColumn = styled.div<{}>(() => [
-  {
-    minHeight: rem(96),
-    alignItems: 'flex-start',
-    borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
-    paddingLeft: spacing('large'),
-    paddingRight: spacing('large'),
-    paddingTop: spacing('medium'),
-    paddingBottom: spacing('medium'),
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-  },
-]);
+export const BlockColumn = styled.div<{}>({
+  minHeight: rem(96),
+  alignItems: 'flex-start',
+  borderBottom: `${border.width}px ${border.style} ${colors.neutral[50]}`,
+  paddingLeft: spacing('large'),
+  paddingRight: spacing('large'),
+  paddingTop: spacing('medium'),
+  paddingBottom: spacing('medium'),
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+});
 
 export const BlockContent = styled.div({
   display: 'flex',
