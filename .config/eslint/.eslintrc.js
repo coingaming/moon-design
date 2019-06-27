@@ -43,7 +43,6 @@ module.exports = {
     'import/no-named-default': 'off',
     'no-shadow': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
-    'react/destructuring-assignment': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
   },
   settings: {
