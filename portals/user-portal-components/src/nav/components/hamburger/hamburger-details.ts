@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import * as React from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';

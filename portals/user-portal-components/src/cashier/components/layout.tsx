@@ -9,13 +9,6 @@ import { Heading } from '@heathmont/sportsbet-components/lib/heading';
 
 jsx;
 
-const Background = styled.div([
-  {
-    width: '100%',
-    background: `linear-gradient(${colors.neutral[90]} 14rem, 0%, ${colors.neutral[70]})`,
-  },
-]);
-
 const cashierLayout: CSSObject = {
   ...container('default'),
 };

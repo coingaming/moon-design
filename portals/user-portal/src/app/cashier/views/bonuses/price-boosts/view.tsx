@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { default as React, useState } from 'react';
+import { Fragment, useState } from 'react';
 import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { IconSoccer } from '@heathmont/sportsbet-icons';
 import { jsx } from '@emotion/core';
@@ -25,7 +25,7 @@ export const PriceBoostsView = () => {
   const cards = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -65,6 +65,6 @@ export const PriceBoostsView = () => {
           ))}
         </BonusWrapper>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

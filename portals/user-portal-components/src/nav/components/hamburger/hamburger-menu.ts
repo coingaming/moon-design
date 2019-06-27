@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
