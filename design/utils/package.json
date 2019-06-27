@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-utils",
-  "version": "0.63.1",
+  "version": "0.63.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.9",
-    "@heathmont/sportsbet-tokens": "0.63.1",
+    "@heathmont/sportsbet-tokens": "^0.63.2",
     "mini-svg-data-uri": "1.0.3",
     "polished": "3.0.0",
     "react": "16.8.1",
