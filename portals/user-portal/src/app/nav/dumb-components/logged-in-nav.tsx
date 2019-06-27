@@ -2,8 +2,6 @@
 import * as React from 'react';
 import { jsx } from '@emotion/core';
 import { IconProfile, IconLoyality0 } from '@heathmont/sportsbet-icons';
-import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
-import { HeaderTabs } from '../components/header-tabs/header-tabs';
 import {
   Navigation,
   IconLogo,
@@ -22,6 +20,9 @@ import {
   LoggedInButtonsSection,
   CenterProfileIcon,
 } from '@heathmont/sportsbet-user-portal-components';
+import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
+import { HeaderTabs } from '../components/header-tabs/header-tabs';
+
 jsx;
 
 export const LoggedInNav = () => (
@@ -39,6 +40,7 @@ export const LoggedInNav = () => (
         placeholder="Search for a match, event, player etc ..."
         onSubmit={e => {
           e.preventDefault();
+          /* eslint-disable-next-line no-console */
           console.log('submit');
         }}
       />

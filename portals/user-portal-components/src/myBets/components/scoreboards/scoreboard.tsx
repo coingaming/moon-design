@@ -1,8 +1,7 @@
-import { ReactChild, default as React } from 'react';
+import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
-import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { spacing } from '@heathmont/sportsbet-utils';
 import { MarketProps } from './market';
 
 type CompetitorProps = {
@@ -27,6 +26,8 @@ export type EventProps = {
   onClick: () => void;
 };
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const ScoreboardsContainer = ({ children }: any) => {
   const Wrapper = styled.div({
     display: 'flex',
@@ -45,7 +46,9 @@ export const ScoreboardsContainer = ({ children }: any) => {
   if (children.length > 1) {
     return (
       <Wrapper>
-        {children.map((scoreboard: ReactChild, index: number) => {
+        {children.map((scoreboard: React.ReactChild, index: number) => {
+          /* @TODO Revisit post-EPL */
+          /* eslint-disable-next-line react/no-array-index-key */
           return <Container key={index}>{scoreboard}</Container>;
         })}
       </Wrapper>

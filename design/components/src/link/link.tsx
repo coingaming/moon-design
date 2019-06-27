@@ -7,8 +7,11 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
 import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
 import { buttonStyles } from '../button/button';
+
 jsx;
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href?: string;
   disabled?: boolean;
@@ -25,6 +28,7 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   isActive?: any;
   location?: any;
 };
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
  * Styles
@@ -48,9 +52,13 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 const Link: React.FC<any> = styled('a', {
   shouldForwardProp: prop =>
     prop === 'exact' || (isPropValid(prop) && prop !== 'as'),
+  // @TODO Revisit post-EPL
+  // @ts-ignore unused variables
 })(({ href, secondary, optional, buttonStyled, ...props }) => [
   linkBase,
   secondary && { color: colors.neutral[20] },

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
@@ -8,6 +7,8 @@ import { spacing } from '@heathmont/sportsbet-utils/lib/spacing';
 
 export const HamburgerDetails = styled.details<{
   open?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onToggle?: any;
 }>({
   marginRight: spacing('small'),

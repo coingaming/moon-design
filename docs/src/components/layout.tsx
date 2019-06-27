@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import { Fragment } from 'react';
 import { jsx, Global, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
@@ -9,6 +9,8 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { Children } from '../types';
 import { Nav } from './nav';
 import { Meta } from './meta';
+
+jsx;
 
 const grid: CSSObject = {
   [mq(breakpoints.medium)]: {

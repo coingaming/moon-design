@@ -1,6 +1,7 @@
+/* eslint-disable no-console */
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Banner, BannerToggle } from '../';
+import { Banner, BannerToggle } from '..';
 import { Button } from '../../button';
 import { Heading } from '../../heading/heading';
 
@@ -39,7 +40,7 @@ describe('Banner', () => {
 
   test('renders correctly with maxWidth prop', () => {
     const banner = create(
-      <Banner maxWidth={'600px'}>
+      <Banner maxWidth="600px">
         <Heading size="bravo" as="h2">
           Need help?
         </Heading>

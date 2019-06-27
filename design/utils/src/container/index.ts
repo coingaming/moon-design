@@ -10,6 +10,8 @@ import {
 type ContainerSize = keyof ContainerTokens | number;
 
 const container: (size?: ContainerSize) => CSSObject = (size = 'default') => {
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line no-shadow */
   const containerSize = (size: ContainerSize) => {
     if (typeof size === 'number') {
       return rem(size, base.spacing);

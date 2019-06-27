@@ -1,4 +1,3 @@
-/* tslint:disable import-name */
 import express from 'express';
 import * as React from 'react';
 import * as dotenv from 'dotenv-safe';
@@ -10,9 +9,9 @@ import { CacheProvider, Global } from '@emotion/core';
 
 import { styles } from '@heathmont/sportsbet-global';
 
+import { StaticRouter } from 'react-router-dom';
 import { template } from './template';
 
-import { StaticRouter } from 'react-router-dom';
 import { AppRoutes } from '../app/app';
 
 dotenv.config({ allowEmptyValues: true });
@@ -40,13 +39,16 @@ const globalStyles = renderStylesToString(
 const app = express();
 
 process.on('unhandledRejection', ({ message, stack }) => {
+  /* eslint-disable-next-line no-console */
   console.log('uncaughtException', { message, stack });
   setTimeout(() => {
+    /* @TODO Revisit post-EPL */
+    /* eslint-disable-next-line no-throw-literal */
     throw { message, stack };
   }, 1000);
 });
 
-/* JS Bundles*/
+/* JS Bundles */
 app.use(express.static('dist'));
 /* Assets, fonts, images etc */
 app.use('/assets', express.static('../../design/assets'));

@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import * as React from 'react';
 import { jsx } from '@emotion/core';
 
 import rem from 'polished/lib/helpers/rem';
@@ -13,14 +13,15 @@ import {
   CashierHeading,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { container } from '@heathmont/sportsbet-utils';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 export const SettingsView = () => {
-  const [isUserLoggedIn, login] = useState(false);
+  const [isUserLoggedIn, login] = React.useState(false);
   return (
     <React.Fragment>
       {isUserLoggedIn ? (
@@ -46,6 +47,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />
@@ -63,6 +65,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />
@@ -80,6 +83,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />
@@ -119,6 +123,7 @@ export const SettingsView = () => {
             </BlockContent>
             <Switch
               onChange={() => {
+                /* eslint-disable-next-line no-console */
                 console.log('onChange');
               }}
             />

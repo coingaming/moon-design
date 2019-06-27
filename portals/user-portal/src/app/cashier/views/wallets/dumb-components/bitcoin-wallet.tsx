@@ -1,4 +1,4 @@
-import { useState, default as React } from 'react';
+import * as React from 'react';
 import { spacing } from '@heathmont/sportsbet-utils';
 import {
   Card,
@@ -17,13 +17,13 @@ import {
 import { NavLink } from 'react-router-dom';
 
 export const BitcoinWallet = () => {
-  const [backSided, toggle] = useState(false);
+  const [backSided, toggle] = React.useState(false);
 
   if (!backSided) {
     return (
       <Card flex backgroundIcon={<IconBitcoin />} template="front">
         <CurrencySwitchLayout>
-          uBTC <CurrencySwitch defaultChecked={true} /> mBTC
+          uBTC <CurrencySwitch defaultChecked /> mBTC
         </CurrencySwitchLayout>
         <CardBalance
           badgeCaption="Active"
@@ -38,12 +38,12 @@ export const BitcoinWallet = () => {
           <Link
             secondary
             as={NavLink}
-            to={'/deposit-btc'}
+            to="/deposit-btc"
             style={{ marginRight: spacing() }}
           >
             Deposit
           </Link>
-          <Link as={NavLink} secondary to={'/withdraw-btc'}>
+          <Link as={NavLink} secondary to="/withdraw-btc">
             Withdraw
           </Link>
         </div>

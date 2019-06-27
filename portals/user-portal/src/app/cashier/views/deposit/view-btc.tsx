@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { Fragment, useState } from 'react';
 import { jsx } from '@emotion/core';
 import {
   CashierLayout,
@@ -30,11 +30,8 @@ import {
   WalletBackIconArrowLeft,
   WalletBackNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Button, Heading, Link } from '@heathmont/sportsbet-components';
-import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
@@ -44,13 +41,17 @@ import {
   IconExchange,
   IconCurrencyBtc,
 } from '@heathmont/sportsbet-icons';
+import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+
 jsx;
 
 export const DepositViewBTC = () => {
   const [isUserLoggedIn, login] = useState(false);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -164,6 +165,6 @@ export const DepositViewBTC = () => {
           </DepositBTCBannersArea>
         </DepositBTCLayout>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

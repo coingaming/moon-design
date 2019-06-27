@@ -1,6 +1,7 @@
+/* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
 const path = require('path');
-const { siteTitle, description, author } = require('./config');
 const { colors } = require('@heathmont/sportsbet-tokens');
+const { siteTitle, description, author } = require('./config');
 
 module.exports = {
   pathPrefix: `/assets`,

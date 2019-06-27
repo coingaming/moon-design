@@ -8,6 +8,7 @@ import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import styled from '@emotion/styled';
 import { RouteLink, Link } from '@heathmont/sportsbet-components';
+
 jsx;
 
 export const WalletBackIconArrowLeft = () => (
@@ -21,7 +22,10 @@ export const WalletBackIconArrowLeft = () => (
   />
 );
 
+/* ESLint doesn't like this line being disabled */
+/* eslint-disable */
 export const WalletBackNav: React.FC<NavLinkProps & { as: any }> = ({
+  /* eslint-enable */
   children,
   to,
   as,

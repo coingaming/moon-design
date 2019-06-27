@@ -5,8 +5,6 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { IconNotification } from '@heathmont/sportsbet-icons/lib/svg/IconNotification';
 import { IconLiveChat } from '@heathmont/sportsbet-icons/lib/svg/IconLiveChat';
 import { Select } from '@heathmont/sportsbet-components';
-jsx;
-
 import {
   DetailsContainer,
   CenteredLogo,
@@ -54,15 +52,11 @@ export const HamburgerDetailsContent = () => {
           <LinkItem>My bets</LinkItem>
         </TopMenuLink>
         <TopMenuLink href="#" optional>
-          <IconNotification
-            css={{ fontSize: '1.5rem', marginBottom: spacing('small') }}
-          />
+          <IconNotification />
           <LinkItem>Notifications</LinkItem>
         </TopMenuLink>
         <TopMenuLink href="#" optional>
-          <IconLiveChat
-            css={{ fontSize: '1.5rem', marginBottom: spacing('small') }}
-          />
+          <IconLiveChat />
           <LinkItem>Live chat</LinkItem>
         </TopMenuLink>
       </TopMenuSection>
@@ -106,7 +100,7 @@ export const HamburgerDetailsContent = () => {
           <option value="en">English</option>
           <option value="pt">Portuguese</option>
         </Select>
-        <Select css={{ marginTop: spacing() }}>
+        <Select>
           <option value="decimal">Decimal</option>
           <option value="american">American</option>
           <option value="hong-kong">Hong Kong</option>

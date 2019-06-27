@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import { StaticQuery, graphql } from 'gatsby';
 import { jsx, CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
@@ -8,6 +8,8 @@ import { transformSections } from './transform';
 import { Divider } from './divider';
 import { Logo } from './logo';
 import { Menu, MenuList, MenuItem } from './menu';
+
+jsx;
 
 const sidebar = graphql`
   query {
@@ -45,7 +47,7 @@ export const Nav = () => (
         <Logo />
         <Divider />
         <MenuList>
-          <MenuItem route={`/`} name="Introduction" section />
+          <MenuItem route="/" name="Introduction" section />
           {/* TODO: Investigate IDE type issue highlighting */}
           <Menu items={transformSections(data)} />
         </MenuList>
