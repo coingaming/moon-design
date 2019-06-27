@@ -135,6 +135,8 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
           <FootballLeagueTitle>{event.name}</FootballLeagueTitle>
           {badges &&
             badges.map((badge, index) => {
+              /* @TODO Revisit post-EPL */
+              /* eslint-disable-next-line react/no-array-index-key */
               return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
             })}
         </TitleContainer>

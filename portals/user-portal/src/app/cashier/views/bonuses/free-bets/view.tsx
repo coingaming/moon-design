@@ -13,10 +13,10 @@ import {
   FreeBetsWrapper,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
+import { NavLink } from 'react-router-dom';
 import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
-import { NavLink } from 'react-router-dom';
 
 jsx;
 
@@ -53,6 +53,8 @@ export const FreeBetsView = () => {
         </BonusesHeadingContainer>
         <FreeBetsWrapper>
           {freebets.map((freebet, i) => (
+            /* @TODO Revisit post-EPL */
+            /* eslint-disable-next-line react/no-array-index-key */
             <React.Fragment key={i}>
               <FreeBet>
                 <Heading size="echo" as="h5">

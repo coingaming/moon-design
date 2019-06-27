@@ -160,6 +160,8 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <span>{event.name}</span>
           {badges &&
             badges.map((badge, index) => {
+              /* @TODO Revisit post-EPL */
+              /* eslint-disable-next-line react/no-array-index-key */
               return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
             })}
         </TitleContainer>

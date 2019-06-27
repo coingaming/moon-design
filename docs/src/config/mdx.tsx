@@ -1,4 +1,4 @@
-/** @jsx jsx */ jsx;
+/** @jsx jsx */
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import modularScale from 'polished/lib/helpers/modularScale';
@@ -8,6 +8,8 @@ import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Code } from '../components/code';
 import { Children } from '../types';
+
+jsx;
 
 const modularScaleConfig = ['1rem', 'augFourth'];
 
@@ -62,6 +64,8 @@ export const mdxComponents = {
   p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
   table: ({ children }: Children) => <Table>{children}</Table>,
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   pre: (props: any) => {
     const codeProps = preToCodeBlock(props);
     return codeProps ? <Code {...codeProps} /> : <pre {...props} />;

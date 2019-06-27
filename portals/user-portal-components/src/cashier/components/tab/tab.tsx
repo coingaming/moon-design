@@ -64,6 +64,8 @@ const Tab: React.FC = ({ children }) => {
 
 const TabItem = styled(NavLink, {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 })<{ active?: boolean; rightAligned?: boolean; as?: any }>(
   ({ rightAligned = false }) => [
     {
