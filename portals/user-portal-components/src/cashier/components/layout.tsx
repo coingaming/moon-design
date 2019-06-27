@@ -6,16 +6,8 @@ import styled from '@emotion/styled';
 import { mq, spacing, container } from '@heathmont/sportsbet-utils';
 import { breakpoints, colors, border } from '@heathmont/sportsbet-tokens';
 import { Heading } from '@heathmont/sportsbet-components/lib/heading';
-jsx;
 
-const Background = styled.div([
-  {
-    width: '100%',
-    background: `linear-gradient(${colors.neutral[90]} 14rem, 0%, ${
-      colors.neutral[70]
-    })`,
-  },
-]);
+jsx;
 
 const cashierLayout: CSSObject = {
   ...container('default'),
@@ -35,6 +27,8 @@ const heading: CSSObject = {
   },
 };
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const StickyNav: React.FC<{ children: any }> = styled.div({
   position: 'sticky',
   top: 0,
@@ -43,6 +37,8 @@ export const StickyNav: React.FC<{ children: any }> = styled.div({
   overflowX: 'auto',
 });
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
   <Heading size="charlie" as="h1" css={heading}>
     {children}

@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   CashierLayout,
@@ -10,6 +10,7 @@ import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { AccountEditView } from './account-edit-view';
 import { VerifyEmailView } from './verify-email-view';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 export const AccountView = () => {
@@ -21,7 +22,7 @@ export const AccountView = () => {
   // const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -42,6 +43,6 @@ export const AccountView = () => {
           />
         )}
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

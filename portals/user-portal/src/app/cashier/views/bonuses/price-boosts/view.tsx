@@ -1,7 +1,5 @@
 /** @jsx jsx */
-import { default as React, useState } from 'react';
-import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
-import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
+import { Fragment, useState } from 'react';
 import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { IconSoccer } from '@heathmont/sportsbet-icons';
 import { jsx } from '@emotion/core';
@@ -15,8 +13,11 @@ import {
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
+import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
+import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
+
 jsx;
 
 export const PriceBoostsView = () => {
@@ -24,7 +25,7 @@ export const PriceBoostsView = () => {
   const cards = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -35,7 +36,7 @@ export const PriceBoostsView = () => {
       </StickyNav>
       <CashierLayout>
         <BonusesHeadingContainer>
-          <Heading size={'charlie'} as={'h1'}>
+          <Heading size="charlie" as="h1">
             Bonuses
           </Heading>
           <BonusesSubNavigation>
@@ -64,6 +65,6 @@ export const PriceBoostsView = () => {
           ))}
         </BonusWrapper>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

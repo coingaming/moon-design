@@ -1,6 +1,7 @@
+/* eslint-disable no-console */
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { NavLink } from '../';
+import { NavLink } from '..';
 
 const TestLink = ({ children, ...props }: { children: string }) => (
   <a id="test-link" {...props}>

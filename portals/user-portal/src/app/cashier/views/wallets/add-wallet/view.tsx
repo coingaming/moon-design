@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   AddWalletCard,
@@ -12,8 +12,6 @@ import {
   WalletBackNav,
   WalletBackIconArrowLeft,
 } from '@heathmont/sportsbet-user-portal-components';
-import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
-import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
 import { Button, Heading } from '@heathmont/sportsbet-components';
 import {
   IconArrowLeft,
@@ -21,8 +19,11 @@ import {
   IconCurrencyBtc,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 import { NavLink } from 'react-router-dom';
+import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
+import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../../nav/dumb-components/logged-in-nav';
+
 jsx;
 
 export const AddWalletView = () => {
@@ -30,7 +31,7 @@ export const AddWalletView = () => {
   const walletCards = [{}, {}, {}, {}, {}, {}, {}, {}];
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -51,7 +52,7 @@ export const AddWalletView = () => {
         <AddWalletsContainer>
           {walletCards.map((card, i) => {
             return (
-              <React.Fragment>
+              <Fragment>
                 <AddWalletCard
                   active
                   backgroundIcon={
@@ -73,11 +74,11 @@ export const AddWalletView = () => {
                   </Heading>
                   <Button modifier="optional">Add</Button>
                 </AddWalletCard>
-              </React.Fragment>
+              </Fragment>
             );
           })}
         </AddWalletsContainer>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

@@ -1,11 +1,8 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
 import { container } from '@heathmont/sportsbet-utils/lib/container';
-import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
-import { TransactionDetailItem } from './dumb-components/transaction-details/item';
-import { TransactionsHeader } from './dumb-components/transaction-details/header';
 import {
   CashierLayout,
   CashierHeading,
@@ -17,16 +14,20 @@ import {
   WalletMobileButton,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
+import { Heading, RouteLink } from '@heathmont/sportsbet-components';
+import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { NavLink } from 'react-router-dom';
+import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
+import { TransactionDetailItem } from './dumb-components/transaction-details/item';
+import { TransactionsHeader } from './dumb-components/transaction-details/header';
 import { EuroWallet } from './dumb-components/euro-wallet';
 import { InActiveTransactionDetailItem } from './dumb-components/transaction-details/inactive-item';
 import { RequiredTransactionDetailItem } from './dumb-components/transaction-details/required-item';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
-import { Heading, RouteLink } from '@heathmont/sportsbet-components';
-import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
-import { NavLink } from 'react-router-dom';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 const transactionItems = [
@@ -42,7 +43,7 @@ export const WalletsView = () => {
   const [isUserLoggedIn, login] = useState(false);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -61,16 +62,16 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <RouteLink to={'/add-wallet'} as={NavLink}>
+            <RouteLink to="/add-wallet" as={NavLink}>
               <AddWalletCardContainer>+ Add Wallet</AddWalletCardContainer>
             </RouteLink>
           </WalletWrapper>
         </WalletsContainer>
-        <RouteLink to={'/add-wallet'} as={NavLink}>
+        <RouteLink to="/add-wallet" as={NavLink}>
           <WalletMobileButton>+ Add Wallet</WalletMobileButton>
         </RouteLink>
         <TransactionsSection>
-          {/*<CashierHeading>Transactions</CashierHeading>*/}
+          {/* <CashierHeading>Transactions</CashierHeading> */}
           <Heading
             size="charlie"
             as="h1"
@@ -100,6 +101,6 @@ export const WalletsView = () => {
           </Button>
         </LoadMore>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

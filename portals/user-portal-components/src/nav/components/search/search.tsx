@@ -11,6 +11,7 @@ import {
   breakpoints,
   border,
 } from '@heathmont/sportsbet-tokens';
+
 jsx;
 
 const searchBox: CSSObject = {
@@ -61,6 +62,8 @@ const iconSearch: CSSObject = {
 
 type SearchProps = {
   placeholder: string;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onSubmit: (e: any) => any;
 };
 

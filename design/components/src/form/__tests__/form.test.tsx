@@ -1,19 +1,19 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Form, FormItem } from '../../';
+import { Form, FormItem } from '../..';
 
 const TestFormItems = () => (
   <React.Fragment>
     <FormItem>
-      <label>
+      <label htmlFor="testInput1">
         Name
-        <input type="text" placeholder="e.g. John Appleseed" />
+        <input id="testInput1" type="text" placeholder="e.g. John Appleseed" />
       </label>
     </FormItem>
     <FormItem>
-      <label>
-        <input type="checkbox" name="terms" value="terms" /> I agree to the
-        terms and conditions.
+      <label htmlFor="testInput2">
+        <input id="testInput2" type="checkbox" name="terms" value="terms" />I
+        agree to the terms and conditions.
       </label>
     </FormItem>
     <FormItem>

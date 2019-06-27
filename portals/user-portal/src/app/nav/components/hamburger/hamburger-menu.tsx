@@ -1,4 +1,4 @@
-import { useState, default as React } from 'react';
+import * as React from 'react';
 import { IconHamburger } from '@heathmont/sportsbet-icons';
 
 import {
@@ -13,7 +13,7 @@ import {
 import { HamburgerDetailsContent } from './hamburger-details';
 
 export const HamburgerMenu = () => {
-  const [open, toggle] = useState(false);
+  const [open, toggle] = React.useState(false);
 
   return (
     <HamburgerDetails

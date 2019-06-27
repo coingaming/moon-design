@@ -1,17 +1,6 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { Fragment, useState } from 'react';
 import { jsx } from '@emotion/core';
-import {
-  event,
-  footballEventNoStream,
-  tennis1,
-  tennis2,
-  liveBadge,
-  wonBadge,
-  activeBadge,
-} from './dummyData';
-import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
-import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { Badge, Button } from '@heathmont/sportsbet-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { IconHyperlink } from '@heathmont/sportsbet-icons';
@@ -51,14 +40,26 @@ import {
   TennisScoreboard,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
+import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
+import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
+import {
+  event,
+  footballEventNoStream,
+  tennis1,
+  tennis2,
+  liveBadge,
+  wonBadge,
+  activeBadge,
+} from './dummyData';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
+
 jsx;
 
 export const MyBetsView = () => {
   const [isUserLoggedIn, login] = useState(false);
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -262,6 +263,6 @@ export const MyBetsView = () => {
           </MyBetFooterCashout>
         </MyBetFooter>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

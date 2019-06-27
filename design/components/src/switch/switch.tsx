@@ -3,6 +3,7 @@ import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
+
 jsx;
 
 type SwitchProps = React.InputHTMLAttributes<HTMLInputElement> & {};
@@ -58,6 +59,8 @@ const slider: CSSObject = {
 
 const Switch: React.FC<SwitchProps> = props => {
   return (
+    /* Disable as `label` wraps input */
+    /* eslint-disable-next-line jsx-a11y/label-has-associated-control */
     <label css={switcher}>
       <input css={inputStyle} type="checkbox" {...props} />
       <span css={slider} className="slider" />

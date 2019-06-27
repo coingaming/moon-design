@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, inlineSVG, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+
 jsx;
 
 export const DepositBTCLayout = styled.div({
@@ -28,6 +29,8 @@ export const DepositBTCMainArea = styled.div({
   gridArea: 'main',
 });
 
+/* @TODO Revisit post-EPL */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const DepositBTCBalance = styled.div<{ icon: any }>(({ icon }) => ({
   paddingTop: spacing('large'),
   paddingBottom: spacing('large'),

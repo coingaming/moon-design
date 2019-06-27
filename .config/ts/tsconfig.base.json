@@ -11,6 +11,8 @@
     "jsx": "react",
     "moduleResolution": "node",
     "baseUrl": "../",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     // Alias our package names to the appropriate directory.
     // e.g. "@heathmont/sportsbet-tokens" => "./design/tokens/src"
     "paths": {

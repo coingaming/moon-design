@@ -1,70 +1,75 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { border, colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
+import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+import math from 'polished/lib/math/math';
 
-const Wrapper = styled.div(() => ({
-  border: `${border.width}px ${border.style} ${colors.neutral[50]}`,
-  padding: spacing('default'),
-  backgroundColor: colors.neutral[70],
+// Settings
+const tooltipSize = spacing();
+
+// Components
+const Box = styled.div({
   display: 'flex',
-  flexFlow: 'row wrap',
-  width: rem(320),
-}));
+  width: '100%',
+  padding: spacing(),
+  backgroundColor: colors.neutral[70],
 
-const QR = styled.div(() => ({
+  [mq(breakpoints.medium)]: {
+    maxWidth: rem(320),
+    marginRight: spacing('large'),
+  },
+});
+
+const QR = styled.div({
   borderRadius: border.radius.small,
   backgroundColor: colors.neutral[10],
   padding: spacing(),
   'img, svg': {
-    maxWidth: '100%',
+    maxWidth: rem(96),
   },
-}));
+});
 
-const Caption = styled.div(() => ({
-  backgroundColor: colors.neutral[50],
-  width: '44%',
+const Link = styled.a({
   display: 'flex',
+  width: '100%',
   alignItems: 'center',
   textAlign: 'center',
-  padding: spacing(),
+  textDecoration: 'none',
   color: colors.neutral[20],
   fontSize: '15px',
   lineHeight: '19px',
   position: 'relative',
-}));
+  padding: spacing(),
+  paddingTop: math(`${spacing()} + ${tooltipSize}`),
+});
 
-const ToolTip = ({ link, children }: any) => {
-  const ToolTip = styled.a(() => ({
-    borderRadius: '50%',
-    backgroundColor: colors.neutral[20],
-    color: colors.neutral[70],
-    width: spacing(),
-    height: spacing(),
-    position: 'absolute',
-    top: rem(8),
-    right: rem(8),
-    fontWeight: 700,
-    fontSize: '13px',
-    lineHeight: '1rem',
-    textDecoration: 'none',
-  }));
-  return (
-    <ToolTip target="_blank" href={link}>
-      {children}
-    </ToolTip>
-  );
-};
+const ToolTip = styled.div({
+  borderRadius: '50%',
+  backgroundColor: colors.neutral[20],
+  color: colors.neutral[70],
+  width: spacing(),
+  height: spacing(),
+  position: 'absolute',
+  top: spacing('small'),
+  right: spacing('small'),
+  fontWeight: 700,
+  fontSize: '13px',
+  lineHeight: '1rem',
+  '&::after': {
+    content: `"?"`,
+    position: 'relative',
+  },
+});
 
 export const GoogleAuthenticator = ({ caption, link, children }: any) => {
   return (
-    <Wrapper>
+    <Box>
       <QR>{children}</QR>
-      <Caption>
-        <ToolTip link={link}>?</ToolTip>
+      <Link href={link} target="_blank">
+        <ToolTip />
         {caption}
-      </Caption>
-    </Wrapper>
+      </Link>
+    </Box>
   );
 };

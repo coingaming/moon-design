@@ -1,12 +1,12 @@
 import { colors } from '@heathmont/sportsbet-tokens';
 
-const { piccolo, goku, vegeta, gohan, hit, chichi, krillin } = colors.palette;
+const { piccolo, goku, vegeta, gohan, hit } = colors.palette;
 
 type ButtonTypes = 'primary' | 'highlight' | 'secondary' | 'optional';
 type ButtonStates = 'default' | 'hover' | 'active' | 'focus' | 'disabled';
 
 export const buttonColors: {
-  [key in ButtonTypes]: { [key in ButtonStates]: string }
+  [key in ButtonTypes]: { [key in ButtonStates]: string };
 } = {
   primary: {
     default: piccolo[100],
@@ -38,11 +38,14 @@ export const buttonColors: {
   },
 };
 
-type GenericStates = 'success' | 'error' | 'warning' | 'info';
+// @TODO Revisit post-EPL
+// We're not using these anywhere so let's comment out for now
 
-const stateColors: { [key in GenericStates]: string } = {
-  success: piccolo[100],
-  error: chichi[100],
-  warning: krillin[100],
-  info: vegeta[100],
-};
+// type GenericStates = 'success' | 'error' | 'warning' | 'info';
+
+// const stateColors: { [key in GenericStates]: string } = {
+//   success: piccolo[100],
+//   error: chichi[100],
+//   warning: krillin[100],
+//   info: vegeta[100],
+// };
