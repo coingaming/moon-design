@@ -4,7 +4,6 @@ import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import math from 'polished/lib/math/math';
-import { AmountOption } from '../../../cashier/components/amount-options/amount-options';
 
 // Settings
 const tooltipSize = spacing();
