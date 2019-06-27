@@ -40,7 +40,6 @@ module.exports = {
     // @TODO Implementation
     //
     'import/no-cycle': 'off',
-    'import/no-named-default': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     '@typescript-eslint/no-inferrable-types': 'off',
   },
@@ -66,7 +65,7 @@ module.exports = {
         'no-undef': 'off',
         'react/prop-types': 'off', // Disable prop-types as we use TypeScript
         '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/prefer-interface': 'off',
+        '@typescript-eslint/prefer-interface': 'off', // We're not fussy about `interface` vs `type`
         //
         // @TODO Implementation - Replace [1] with [2]
         //

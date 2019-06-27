@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 
 import { Heading, Toggle } from '@heathmont/sportsbet-components';
@@ -23,7 +23,7 @@ jsx;
 export const NotificationsView = () => {
   const [isUserLoggedIn, login] = useState(false);
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -89,6 +89,6 @@ export const NotificationsView = () => {
           </SettingsBlock>
         </SettingsSection>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

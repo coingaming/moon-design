@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { default as React, useState } from 'react';
+import { Fragment, useState } from 'react';
 import { Button, Heading, Link } from '@heathmont/sportsbet-components';
 import { jsx } from '@emotion/core';
 import {
@@ -25,7 +25,7 @@ export const FreeBetsView = () => {
   const freebets = [{}, {}, {}, {}, {}, {}, {}];
 
   return (
-    <React.Fragment>
+    <Fragment>
       {isUserLoggedIn ? (
         <LoggedInNav />
       ) : (
@@ -55,7 +55,7 @@ export const FreeBetsView = () => {
           {freebets.map((freebet, i) => (
             /* @TODO Revisit post-EPL */
             /* eslint-disable-next-line react/no-array-index-key */
-            <React.Fragment key={i}>
+            <Fragment key={i}>
               <FreeBet>
                 <Heading size="echo" as="h5">
                   Free bet title
@@ -106,10 +106,10 @@ export const FreeBetsView = () => {
                   <Button modifier="secondary">Use now</Button>
                 </div>
               </FreeBet>
-            </React.Fragment>
+            </Fragment>
           ))}
         </FreeBetsWrapper>
       </CashierLayout>
-    </React.Fragment>
+    </Fragment>
   );
 };

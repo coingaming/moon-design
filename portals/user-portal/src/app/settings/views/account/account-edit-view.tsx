@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import { Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
 import {
@@ -61,7 +61,7 @@ export const AccountEditView = () => {
   // const [isVerifyAccountOpened, toggleVerifyAccount] = useState(true);
 
   return (
-    <React.Fragment>
+    <Fragment>
       <SettingsSection>
         <SettingsBlockCollapsible>
           <SummaryAccount>
@@ -303,6 +303,6 @@ export const AccountEditView = () => {
           </VerifyEmailExplanationContainer>
         </SettingsBlockCollapsible>
       </SettingsSection>
-    </React.Fragment>
+    </Fragment>
   );
 };

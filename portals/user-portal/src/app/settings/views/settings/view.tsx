@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState, default as React } from 'react';
+import * as React from 'react';
 import { jsx } from '@emotion/core';
 
 import rem from 'polished/lib/helpers/rem';
@@ -21,7 +21,7 @@ import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 jsx;
 
 export const SettingsView = () => {
-  const [isUserLoggedIn, login] = useState(false);
+  const [isUserLoggedIn, login] = React.useState(false);
   return (
     <React.Fragment>
       {isUserLoggedIn ? (
