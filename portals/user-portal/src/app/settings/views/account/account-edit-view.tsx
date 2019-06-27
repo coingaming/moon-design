@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { useState, default as React } from 'react';
 import { jsx } from '@emotion/core';
+import { colors } from '@heathmont/sportsbet-tokens';
 import {
   Heading,
   Form,
@@ -19,7 +20,13 @@ import {
   ChangeUserDetailsSaveButton,
   ChangePasswordContainer,
   ChangePasswordSaveButton,
+  GOOGLE_AUTHENTICATOR_ICON_SIZE,
   GoogleAuthenticatorContainer,
+  GoogleAuthenticatorButton,
+  GoogleAuthenticatorForm,
+  GoogleAuthenticatorHeader,
+  GoogleAuthenticatorHeaderItem,
+  GoogleAuthenticatorSetup,
   GoogleAuthenticatorText,
   GoogleAuthenticator,
   CollapsibleItem,
@@ -38,6 +45,10 @@ import {
   VerifyEmailExplanationHeader,
   VerifyEmailExplanationCaption,
 } from '@heathmont/sportsbet-user-portal-components';
+import {
+  IconWarningExclamation,
+  IconSuccessFlower,
+} from '@heathmont/sportsbet-icons';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
 
@@ -152,31 +163,56 @@ export const AccountEditView = () => {
             </Heading>
           </SummaryAccount>
           <SettingsBlockCollapsibleContents>
-            <GoogleAuthenticator
-              caption="What is google authenticator"
-              link="https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en"
-            >
-              <img
-                alt="qr code"
-                src="https://randomqr.com/assets/images/randomqr-256.png"
+            <GoogleAuthenticatorHeader>
+              <IconWarningExclamation
+                /* Needs revisiting with further icon alignment */
+                css={{
+                  ...GOOGLE_AUTHENTICATOR_ICON_SIZE,
+                  path: {
+                    fill: colors.palette.trunks[100],
+                  },
+                }}
               />
-            </GoogleAuthenticator>
+              <GoogleAuthenticatorHeaderItem>
+                <Heading as="h3" size="echo">
+                  Google Authenticator is disabled
+                </Heading>
+                <GoogleAuthenticatorText>
+                  To activate, scan the QR code <strong>or</strong> enter the
+                  code manually
+                </GoogleAuthenticatorText>
+              </GoogleAuthenticatorHeaderItem>
+            </GoogleAuthenticatorHeader>
             <GoogleAuthenticatorContainer>
-              <GoogleAuthenticatorText>
-                <SettingsText>Key value: PBVWSRCIOZJG4SLUPJYVIVCC</SettingsText>
-              </GoogleAuthenticatorText>
-              <Form legend="Type code">
-                <FormItem>
-                  <TextInput label="Type code" type="text" required />
-                </FormItem>
-                <FormItem>
-                  <CollapsibleItem>
-                    <Button fullWidth round modifier="secondary">
+              <GoogleAuthenticator
+                caption="What is Google Authenticator?"
+                link="https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en"
+              >
+                <img
+                  alt="qr code"
+                  src="https://randomqr.com/assets/images/randomqr-256.png"
+                />
+              </GoogleAuthenticator>
+              <GoogleAuthenticatorSetup>
+                <GoogleAuthenticatorForm legend="Setup Google Authenticator">
+                  <FormItem css={{ marginBottom: spacing('large') }}>
+                    <TextInput
+                      label="Key value: PBVWSRCIOZJG4SLUPJYVIVCC"
+                      placeholder="Type code"
+                      type="text"
+                    />
+                  </FormItem>
+                  <FormItem css={{ marginBottom: 0 }}>
+                    <GoogleAuthenticatorButton
+                      round
+                      modifier="secondary"
+                      size="large"
+                    >
                       Submit Code
-                    </Button>
-                  </CollapsibleItem>
-                </FormItem>
-              </Form>
+                    </GoogleAuthenticatorButton>
+                  </FormItem>
+                </GoogleAuthenticatorForm>
+              </GoogleAuthenticatorSetup>
             </GoogleAuthenticatorContainer>
           </SettingsBlockCollapsibleContents>
         </SettingsBlockCollapsible>
