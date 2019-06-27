@@ -28,6 +28,8 @@ export const SettingsBlock = styled.div<{
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onClick?: any;
   border?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line no-shadow */
 }>(({ highlight = false, onClick, border = false }) => [
   {
     minHeight: rem(96),
