@@ -18,7 +18,7 @@ export const HamburgerDetails = styled.details<{
   '&[open]': {
     summary: {
       position: 'absolute',
-      zIndex: 3,
+      zIndex: 7,
       top: spacing('medium'),
       left: spacing(),
       [mq(breakpoints.small)]: {
@@ -37,7 +37,7 @@ export const HamburgerSummary = styled.summary({
 });
 
 export const DetailsOverlay = styled.div({
-  zIndex: 2,
+  zIndex: 6,
   position: 'absolute',
   top: 0,
   left: 0,
