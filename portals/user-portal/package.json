@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-user-portal",
-  "version": "0.63.3",
+  "version": "0.63.4",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
   "repository": {
@@ -31,11 +31,11 @@
     "@emotion/cache": "10.0.9",
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-components": "^0.63.3",
+    "@heathmont/sportsbet-components": "^0.63.4",
     "@heathmont/sportsbet-global": "^0.63.3",
-    "@heathmont/sportsbet-icons": "^0.63.3",
+    "@heathmont/sportsbet-icons": "^0.63.4",
     "@heathmont/sportsbet-tokens": "^0.63.3",
-    "@heathmont/sportsbet-user-portal-components": "^0.63.3",
+    "@heathmont/sportsbet-user-portal-components": "^0.63.4",
     "@heathmont/sportsbet-utils": "^0.63.3",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.63.4](https://github.com/coingaming/sportsbet-design/compare/v0.63.3...v0.63.4) (2019-06-28)
+
+
+### Bug Fixes
+
+* add soccerIcon to readme ([f3de4a3](https://github.com/coingaming/sportsbet-design/commit/f3de4a3))
+* export sports icons ([b1094ec](https://github.com/coingaming/sportsbet-design/commit/b1094ec))
+* update icons readme with the sports icons ([cf6a8a0](https://github.com/coingaming/sportsbet-design/commit/cf6a8a0))
+
+
+
+
+
 ## [0.63.3](https://github.com/coingaming/sportsbet-design/compare/v0.63.2...v0.63.3) (2019-06-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
