@@ -59,6 +59,7 @@ const Container: React.FC<{
     paddingLeft: spacing('medium'),
     borderRadius: rem(4),
     position: 'relative',
+    minHeight: rem(115),
     Button: {
       marginTop: spacing('medium'),
     },
