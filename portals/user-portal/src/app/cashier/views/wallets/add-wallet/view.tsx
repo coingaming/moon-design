@@ -52,11 +52,11 @@ export const AddWalletView = () => {
             active
             backgroundIcon={<IconCurrencyEur color={colors.neutral[40]} />}
           >
-            <Heading size="echo" as="h5">
+            <Heading size="echo" as="p">
               Euro
             </Heading>
           </AddWalletCard>
-          {walletCards.map((card, i) => {
+          {walletCards.map(() => {
             return (
               <Fragment>
                 <AddWalletCard
@@ -64,8 +64,8 @@ export const AddWalletView = () => {
                     <IconCurrencyInr color={colors.neutral[40]} />
                   }
                 >
-                  <Heading size="echo" as="h5">
-                    Euro
+                  <Heading size="echo" as="p">
+                    Indian Rupee
                   </Heading>
                   <Button modifier="optional">Add</Button>
                 </AddWalletCard>
@@ -74,7 +74,7 @@ export const AddWalletView = () => {
                     <IconCurrencyBtc color={colors.neutral[40]} />
                   }
                 >
-                  <Heading size="echo" as="h5">
+                  <Heading size="echo" as="p">
                     Bitcoin
                   </Heading>
                   <Button modifier="optional">Add</Button>
