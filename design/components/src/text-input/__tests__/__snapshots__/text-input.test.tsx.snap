@@ -603,15 +603,8 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 </label>
 `;
 
-exports[`TextInput renders with label above \`date\` input by default 1`] = `
+exports[`TextInput renders correctly without a label 1`] = `
 .emotion-0 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
-.emotion-1 {
   width: 100%;
   max-width: 100%;
   padding: 0.875rem;
@@ -629,35 +622,28 @@ exports[`TextInput renders with label above \`date\` input by default 1`] = `
   -webkit-appearance: none;
 }
 
-.emotion-1:disabled {
+.emotion-0:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+.emotion-0:not(:focus):not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-1:invalid,
-.emotion-1:-moz-ui-invalid {
+.emotion-0:invalid,
+.emotion-0:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-1:focus {
+.emotion-0:focus {
   border-color: #8697A2;
   outline: none;
 }
 
-<label>
-  <span
-    className="emotion-0"
-  >
-    Example Input
-  </span>
-  <input
-    className="emotion-1"
-    placeholder=" "
-    type="date"
-  />
-</label>
+<input
+  className="emotion-0"
+  placeholder="Enter code"
+  type="text"
+/>
 `;
