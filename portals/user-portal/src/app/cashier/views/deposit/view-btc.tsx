@@ -30,8 +30,7 @@ import {
   WalletBackIconArrowLeft,
   WalletBackNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { spacing } from '@heathmont/sportsbet-utils';
-import { Button, Heading, Link } from '@heathmont/sportsbet-components';
+import { Button, Heading } from '@heathmont/sportsbet-components';
 import { NavLink } from 'react-router-dom';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';

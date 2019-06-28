@@ -3,8 +3,12 @@ import * as React from 'react';
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
+import rem from 'polished/lib/helpers/rem';
 import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
 import { spacing } from '@heathmont/sportsbet-utils';
+import { border } from '@heathmont/sportsbet-tokens';
+import { inputIconPosition } from '../private/input/settings';
+import { inputSelectors } from '../private/label/settings';
 
 jsx;
 
@@ -48,4 +52,31 @@ const Form: React.FC<FormProps> = ({
 
 const FormItem = styled.li([listPlainItem, { marginBottom: spacing() }]);
 
-export { Form, FormProps, FormItem };
+const FormCombo = styled.div({
+  display: 'block',
+  position: 'relative',
+});
+
+const FormComboInput = styled.div({
+  [inputSelectors]: {
+    borderRadius: border.radius.largest,
+  },
+});
+
+/**
+ * 1. We want our button located in the same position as an Input Icon
+ */
+const FormComboButton = styled.div({
+  position: 'absolute',
+  right: rem(inputIconPosition),
+  bottom: rem(inputIconPosition) /* [1] */,
+});
+
+export {
+  Form,
+  FormProps,
+  FormItem,
+  FormCombo,
+  FormComboInput,
+  FormComboButton,
+};

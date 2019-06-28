@@ -27,19 +27,19 @@ const heading: CSSObject = {
   },
 };
 
-/* @TODO Revisit post-EPL */
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-export const StickyNav: React.FC<{ children: any }> = styled.div({
+export const StickyNav: React.FC<{
+  children: React.ReactChildren;
+}> = styled.div({
   position: 'sticky',
   top: 0,
-  zIndex: 1,
+  zIndex: 5,
   ...container('default'),
   overflowX: 'auto',
 });
 
-/* @TODO Revisit post-EPL */
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-export const CashierHeading: React.FC<{ children: any }> = ({ children }) => (
+export const CashierHeading: React.FC<{ children: React.ReactChildren }> = ({
+  children,
+}) => (
   <Heading size="charlie" as="h1" css={heading}>
     {children}
   </Heading>
