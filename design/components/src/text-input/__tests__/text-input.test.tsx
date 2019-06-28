@@ -9,8 +9,8 @@ describe('TextInput', () => {
     expect(textInput).toMatchSnapshot();
   });
 
-  test('renders with label above `date` input by default', () => {
-    const textInput = create(<TextInput label="Example Input" type="date" />);
+  test('renders correctly without a label', () => {
+    const textInput = create(<TextInput placeholder="Enter code" />);
 
     expect(textInput).toMatchSnapshot();
   });

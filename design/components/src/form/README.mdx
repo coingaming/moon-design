@@ -4,7 +4,13 @@ menu: Components
 route: /components/form
 ---
 
-import { Form } from '@heathmont/sportsbet-components';
+import {
+  Form,
+  FormItem,
+  FormCombo,
+  FormComboButton,
+  FormComboInput,
+} from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Form
@@ -28,7 +34,7 @@ Handling user-submitted information.
 </Form>
 ```
 
-## Example
+### Example
 
 An example sign-up form, making use of other input components to collect user-entered information.
 
@@ -59,6 +65,25 @@ An example sign-up form, making use of other input components to collect user-en
     <Button modifier="primary" fullWidth>
       Sign up
     </Button>
+  </FormItem>
+</Form>
+```
+
+## Combo
+
+For micro-journeys, consider using a combo item.
+
+```jsx react-live
+<Form legend="Enable Two-Factor Authentication" maxWidth="25rem">
+  <FormItem>
+    <FormCombo>
+      <FormComboInput>
+        <TextInput placeholder="Enter code" />
+      </FormComboInput>
+      <FormComboButton>
+        <Button>Submit</Button>
+      </FormComboButton>
+    </FormCombo>
   </FormItem>
 </Form>
 ```
