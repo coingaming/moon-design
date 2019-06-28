@@ -1,5 +1,299 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Form renders a form combo 1`] = `
+.emotion-8 {
+  border: 0;
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-7 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.emotion-6 {
+  display: block;
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.emotion-6:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.emotion-9 {
+  max-width: 25rem;
+  width: auto;
+}
+
+.emotion-5 {
+  display: block;
+  position: relative;
+}
+
+.emotion-3 select,
+.emotion-3 input {
+  border-radius: 100px;
+}
+
+.emotion-1 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+.emotion-2 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #31373F;
+  border: 1px solid #31373F;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-2:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.emotion-2:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #FF4E64;
+}
+
+.emotion-2:invalid,
+.emotion-2:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-2:focus {
+  border-color: #8697A2;
+  outline: none;
+}
+
+.emotion-4 {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
+<form
+  className="emotion-9"
+>
+  <fieldset
+    className="emotion-8"
+  >
+    <legend
+      className="emotion-0"
+    >
+      2FA
+    </legend>
+    <ul
+      className="emotion-7"
+    >
+      <li
+        className="emotion-6"
+      >
+        <div
+          className="emotion-5"
+        >
+          <div
+            className="emotion-3"
+          >
+            <label>
+              <span
+                className="emotion-1"
+              >
+                Enable Two Factor Authentication
+              </span>
+              <input
+                className="emotion-2"
+                placeholder="Enter code"
+                type="text"
+              />
+            </label>
+          </div>
+          <div
+            className="emotion-4"
+          >
+            <button
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
+
+exports[`Form renders a form combo without a label 1`] = `
+.emotion-7 {
+  border: 0;
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-6 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.emotion-5 {
+  display: block;
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.emotion-5:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.emotion-8 {
+  max-width: 25rem;
+  width: auto;
+}
+
+.emotion-4 {
+  display: block;
+  position: relative;
+}
+
+.emotion-2 select,
+.emotion-2 input {
+  border-radius: 100px;
+}
+
+.emotion-1 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #31373F;
+  border: 1px solid #31373F;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.emotion-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #FF4E64;
+}
+
+.emotion-1:invalid,
+.emotion-1:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-1:focus {
+  border-color: #8697A2;
+  outline: none;
+}
+
+.emotion-3 {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
+<form
+  className="emotion-8"
+>
+  <fieldset
+    className="emotion-7"
+  >
+    <legend
+      className="emotion-0"
+    >
+      2FA
+    </legend>
+    <ul
+      className="emotion-6"
+    >
+      <li
+        className="emotion-5"
+      >
+        <div
+          className="emotion-4"
+        >
+          <div
+            className="emotion-2"
+          >
+            <input
+              className="emotion-1"
+              placeholder="Enter code"
+              type="text"
+            />
+          </div>
+          <div
+            className="emotion-3"
+          >
+            <button
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
+
 exports[`Form renders correctly 1`] = `
 .emotion-6 {
   width: auto;

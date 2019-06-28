@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { NavLink, NavLinkProps } from 'react-router-dom';
 import { jsx } from '@emotion/core';
 import styled, { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
@@ -12,7 +11,6 @@ import {
   animation,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { RouteLink } from '@heathmont/sportsbet-components';
 
 jsx;
 
@@ -53,16 +51,9 @@ export const AddWalletCardContainer = styled.div([
   },
 ]);
 
-export const AddWallet: React.FC<NavLinkProps> = ({ children, ...props }) => (
-  <AddWalletCardContainer>
-    <RouteLink as={NavLink} css={caption} {...props}>
-      {children}
-    </RouteLink>
-  </AddWalletCardContainer>
-);
-
 export const WalletMobileButton = styled.button([
   borderAddWallet,
+  caption,
   {
     marginTop: spacing(),
     width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
@@ -76,17 +67,6 @@ export const WalletMobileButton = styled.button([
     },
   },
 ]);
-
-export const AddWalletMobile: React.FC<NavLinkProps> = ({
-  children,
-  ...props
-}) => (
-  <WalletMobileButton>
-    <RouteLink as={NavLink} css={caption} {...props}>
-      {children}
-    </RouteLink>
-  </WalletMobileButton>
-);
 
 const switcher: CSSObject = {
   position: 'relative',
