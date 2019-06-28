@@ -4,16 +4,15 @@ menu: Components
 route: /components/text-input
 ---
 
-import { Input } from '@heathmont/sportsbet-components';
+import { TextInput } from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Text Input
 
 A standard method of collecting user-inputted information.
 
-Each text input has a required label that floats on interaction. This can be
-overriden to a more traditional label-above-input style by adding the
-`labelBlock` prop.
+Text inputs can be rendered without a label, but this should only be done if the
+form requirements are clear.
 
 ```jsx react-live
 <TextInput label="Text Input" placeholder="e.g. username" />
