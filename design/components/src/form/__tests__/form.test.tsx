@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Form, FormItem } from '../..';
+import {
+  Form,
+  FormItem,
+  FormCombo,
+  FormComboButton,
+  FormComboInput,
+  TextInput,
+} from '../..';
 
 const TestFormItems = () => (
   <React.Fragment>
@@ -59,6 +66,51 @@ describe('Form', () => {
     const form = create(
       <Form legend="Sign up" fullWidth>
         <TestFormItems />
+      </Form>
+    );
+
+    expect(form).toMatchSnapshot();
+  });
+
+  test('renders a form combo', () => {
+    const form = create(
+      <Form legend="2FA" maxWidth="25rem">
+        <FormItem>
+          <FormCombo>
+            <FormComboInput>
+              {/* We apply styles to specific childen */}
+              <TextInput
+                label="Enable Two Factor Authentication"
+                placeholder="Enter code"
+              />
+            </FormComboInput>
+            <FormComboButton>
+              {/* We don't apply any styles to specific childen */}
+              <button type="submit">Submit</button>
+            </FormComboButton>
+          </FormCombo>
+        </FormItem>
+      </Form>
+    );
+
+    expect(form).toMatchSnapshot();
+  });
+
+  test('renders a form combo without a label', () => {
+    const form = create(
+      <Form legend="2FA" maxWidth="25rem">
+        <FormItem>
+          <FormCombo>
+            <FormComboInput>
+              {/* We apply styles to specific childen */}
+              <TextInput placeholder="Enter code" />
+            </FormComboInput>
+            <FormComboButton>
+              {/* We don't apply any styles to specific childen */}
+              <button type="submit">Submit</button>
+            </FormComboButton>
+          </FormCombo>
+        </FormItem>
       </Form>
     );
 
