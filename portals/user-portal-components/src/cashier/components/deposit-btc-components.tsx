@@ -8,6 +8,7 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 jsx;
 
 export const DepositBTCLayout = styled.div({
+  marginTop: spacing('medium'),
   paddingLeft: spacing(),
   paddingRight: spacing(),
   [mq(breakpoints.medium)]: {
@@ -122,16 +123,13 @@ export const DepositBTCQrCenteredImage = styled.div({
 });
 
 export const DepositBTCBannersArea = styled.div({
-  marginTop: spacing('large'),
+  marginTop: spacing('medium'),
   gridArea: 'banners',
   [mq(breakpoints.medium)]: {
-    display: 'flex',
-    flexDirection: 'row',
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr 1fr',
+    gridColumnGap: spacing('medium'),
   },
 });
 
-export const DepositBTCBannersRowItem = styled.div({
-  [mq(breakpoints.medium)]: {
-    marginRight: spacing('medium'),
-  },
-});
+export const DepositBTCBannersRowItem = styled.div({});
