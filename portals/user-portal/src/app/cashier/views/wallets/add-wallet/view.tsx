@@ -3,9 +3,7 @@ import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import {
   AddWalletCard,
-  AddWalletNavigation,
   AddWalletsContainer,
-  CashierHeading,
   CashierLayout,
   StickyNav,
   CashierHeader,
@@ -14,9 +12,9 @@ import {
 } from '@heathmont/sportsbet-user-portal-components';
 import { Button, Heading } from '@heathmont/sportsbet-components';
 import {
-  IconArrowLeft,
   IconCurrencyEur,
   IconCurrencyBtc,
+  IconCurrencyInr,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
@@ -50,26 +48,33 @@ export const AddWalletView = () => {
           </WalletBackNav>
         </CashierHeader>
         <AddWalletsContainer>
-          {walletCards.map((card, i) => {
+          <AddWalletCard
+            active
+            backgroundIcon={<IconCurrencyEur color={colors.neutral[40]} />}
+          >
+            <Heading size="echo" as="p">
+              Euro
+            </Heading>
+          </AddWalletCard>
+          {walletCards.map(() => {
             return (
               <Fragment>
                 <AddWalletCard
-                  active
                   backgroundIcon={
-                    <IconCurrencyEur color={colors.neutral[40]} />
+                    <IconCurrencyInr color={colors.neutral[40]} />
                   }
                 >
-                  <Heading size="echo" as="h5">
-                    Euro
+                  <Heading size="echo" as="p">
+                    Indian Rupee
                   </Heading>
-                  <Button modifier="optional">Remove</Button>
+                  <Button modifier="optional">Add</Button>
                 </AddWalletCard>
                 <AddWalletCard
                   backgroundIcon={
                     <IconCurrencyBtc color={colors.neutral[40]} />
                   }
                 >
-                  <Heading size="echo" as="h5">
+                  <Heading size="echo" as="p">
                     Bitcoin
                   </Heading>
                   <Button modifier="optional">Add</Button>
