@@ -47,6 +47,7 @@ export const Details = styled.div({
   paddingLeft: spacing('large'),
   paddingRight: spacing('large'),
   paddingBottom: spacing('large'),
+  borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
   [mq(breakpoints.medium)]: {
     marginRight: spacing('xlarge'),
   },

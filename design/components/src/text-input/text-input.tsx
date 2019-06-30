@@ -19,7 +19,7 @@ type TextInputTypes =
   | 'url';
 
 type TextInputProps = {
-  label: string;
+  label?: string;
   type?: TextInputTypes;
   placeholder?: string;
   disabled?: boolean;
@@ -55,12 +55,20 @@ const TextInput: React.FC<TextInputProps> = ({
     ...props,
   };
 
+  const TextInputInner = () => (
+    <React.Fragment>
+      <TextInputElem error={!!error} {...inputProps} />
+      {error && <Error text={error} />}
+    </React.Fragment>
+  );
+
+  if (!label) {
+    return TextInputInner();
+  }
+
   return (
     <Label text={label} disabled={disabled}>
-      <React.Fragment>
-        <TextInputElem error={!!error} {...inputProps} />
-        {error && <Error text={error} />}
-      </React.Fragment>
+      {TextInputInner()}
     </Label>
   );
 };
