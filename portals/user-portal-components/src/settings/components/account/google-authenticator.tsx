@@ -13,6 +13,7 @@ const Box = styled.div({
   display: 'flex',
   width: '100%',
   padding: spacing(),
+  marginTop: spacing('large'),
   backgroundColor: colors.neutral[70],
 
   [mq(breakpoints.medium)]: {
