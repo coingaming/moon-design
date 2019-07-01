@@ -36,43 +36,30 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
 ### Currency
 
 ```jsx react-live
-<GroupIconCurrency name="ARS" />
-<GroupIconCurrency name="BOB" />
-<GroupIconCurrency name="BRL" />
-<GroupIconCurrency name="BTC" />
-<GroupIconCurrency name="CAD" />
-<GroupIconCurrency name="CLP" />
-<GroupIconCurrency name="CRC" />
-<GroupIconCurrency name="CNY" />
-<GroupIconCurrency name="ETH" />
-<GroupIconCurrency name="EUR" />
-<GroupIconCurrency name="IDR" />
-<GroupIconCurrency name="INR" />
-<GroupIconCurrency name="JPY" />
-<GroupIconCurrency name="LTC" />
-<GroupIconCurrency name="MXN" />
-<GroupIconCurrency name="MYR" />
-<GroupIconCurrency name="PEN" />
-<GroupIconCurrency name="RUB" />
-<GroupIconCurrency name="SOC" />
-<GroupIconCurrency name="THB" />
-<GroupIconCurrency name="TRY" />
-<GroupIconCurrency name="USD" />
-<GroupIconCurrency name="VES" />
-<GroupIconCurrency name="VND" />
-```
-
-### Third Party
-
-```jsx react-live
-<GroupIconThirdParty name="bitcointalk" />
-<GroupIconThirdParty name="facebook" />
-<GroupIconThirdParty name="google" />
-<GroupIconThirdParty name="instagram" />
-<GroupIconThirdParty name="telegram" />
-<GroupIconThirdParty name="twitter" />
-<GroupIconThirdParty name="vkontakte" />
-<GroupIconThirdParty name="youtube" />
+<IconCurrencyArs/>
+<IconCurrencyBob/>
+<IconCurrencyBrl/>
+<IconCurrencyBtc/>
+<IconCurrencyCad/>
+<IconCurrencyClp/>
+<IconCurrencyCrc/>
+<IconCurrencyCny/>
+<IconCurrencyEth/>
+<IconCurrencyEur/>
+<IconCurrencyIdr/>
+<IconCurrencyInr/>
+<IconCurrencyJpy/>
+<IconCurrencyLtc/>
+<IconCurrencyMxn/>
+<IconCurrencyMyr/>
+<IconCurrencyPen/>
+<IconCurrencyRub/>
+<IconCurrencySoc/>
+<IconCurrencyThb/>
+<IconCurrencyTry/>
+<IconCurrencyUsd/>
+<IconCurrencyVes/>
+<IconCurrencyVnd/>
 ```
 
 ### Actions
@@ -109,37 +96,37 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
 ### Sports
 
 ```jsx react-live
-<IconSports name = 'americanfootball' />
-<IconSports name = 'badminton' />
-<IconSports name = 'baseball' />
-<IconSports name = 'basketball' />
-<IconSports name = 'biathlon' />
-<IconSports name = 'boxing' />
-<IconSports name = 'center' />
-<IconSports name = 'cricket' />
-<IconSports name = 'cycling' />
-<IconSports name = 'darts' />
-<IconSports name = 'esports' />
-<IconSports name = 'football' />
-<IconSports name = 'golf' />
-<IconSports name = 'handball' />
-<IconSports name = 'horseracing' />
-<IconSports name = 'icehockey' />
-<IconSports name = 'mma'/>
-<IconSports name = 'motorsports' />
-<IconSports name = 'politics' />
-<IconSports name = 'pool' />
-<IconSports name = 'popular' />
-<IconSports name = 'rugby' />
-<IconSports name = 'sinuca'/>
-<IconSports name = 'ski'/>
-<IconSports name = 'snooker'/>
-<IconSports name = 'special'/>
-<IconSports name = 'squash'/>
-<IconSports name = 'tabletennis'/>
-<IconSports name = 'tennis' />
-<IconSports name = 'volleyball'/>
-<IconSports name = 'waterpolo' />
+<IconSoccer/>
+<IconSportsAmericanFootBall/>
+<IconSportsBadminton/>
+<IconSportsBaseBall/>
+<IconSportsBasketBall/>
+<IconSportsBiathlon/>
+<IconSportsBoxing/>
+<IconSportsCricket/>
+<IconSportsCycling/>
+<IconSportsDarts/>
+<IconSportsESports/>
+<IconSportsFootBall/>
+<IconSportsGolf/>
+<IconSportsHandBall/>
+<IconSportsHorseRacing/>
+<IconSportsIceHockey/>
+<IconSportsMma/>
+<IconSportsMotorSports/>
+<IconSportsPolitics/>
+<IconSportsPool/>
+<IconSportsPopular/>
+<IconSportsRugby/>
+<IconSportsSinuca/>
+<IconSportsSki/>
+<IconSportsSnooker/>
+<IconSportsSpecial/>
+<IconSportsSquash/>
+<IconSportsTableTennis/>
+<IconSportsTennis/>
+<IconSportsVolleyBall/>
+<IconSportsWaterPolo/>
 ```
 
 ## Customizing
@@ -167,6 +154,89 @@ Icon size can be modified by adding the `fontSize` attribute or `font-size` CSS 
 
 ```jsx react-live
 <IconSettings fontSize="40px" />
+```
+
+## Groups
+
+When consuming several icons at once, you may want to consider using an icon
+"group" shortcut.
+
+### Third Party
+
+```jsx react-live
+<GroupIconThirdParty name="bitcointalk" />
+<GroupIconThirdParty name="facebook" />
+<GroupIconThirdParty name="google" />
+<GroupIconThirdParty name="instagram" />
+<GroupIconThirdParty name="telegram" />
+<GroupIconThirdParty name="twitter" />
+<GroupIconThirdParty name="vkontakte" />
+<GroupIconThirdParty name="youtube" />
+```
+
+### Currency
+
+```jsx react-live
+<GroupIconCurrency name="ARS" />
+<GroupIconCurrency name="BOB" />
+<GroupIconCurrency name="BRL" />
+<GroupIconCurrency name="BTC" />
+<GroupIconCurrency name="CAD" />
+<GroupIconCurrency name="CLP" />
+<GroupIconCurrency name="CRC" />
+<GroupIconCurrency name="CNY" />
+<GroupIconCurrency name="ETH" />
+<GroupIconCurrency name="EUR" />
+<GroupIconCurrency name="IDR" />
+<GroupIconCurrency name="INR" />
+<GroupIconCurrency name="JPY" />
+<GroupIconCurrency name="LTC" />
+<GroupIconCurrency name="MXN" />
+<GroupIconCurrency name="MYR" />
+<GroupIconCurrency name="PEN" />
+<GroupIconCurrency name="RUB" />
+<GroupIconCurrency name="SOC" />
+<GroupIconCurrency name="THB" />
+<GroupIconCurrency name="TRY" />
+<GroupIconCurrency name="USD" />
+<GroupIconCurrency name="VES" />
+<GroupIconCurrency name="VND" />
+```
+
+### Sports
+
+```jsx react-live
+<GroupIconSports name="americanfootball" />
+<GroupIconSports name="badminton" />
+<GroupIconSports name="baseball" />
+<GroupIconSports name="basketball" />
+<GroupIconSports name="biathlon" />
+<GroupIconSports name="boxing" />
+<GroupIconSports name="center" />
+<GroupIconSports name="cricket" />
+<GroupIconSports name="cycling" />
+<GroupIconSports name="darts" />
+<GroupIconSports name="esports" />
+<GroupIconSports name="football" />
+<GroupIconSports name="golf" />
+<GroupIconSports name="handball" />
+<GroupIconSports name="horseracing" />
+<GroupIconSports name="icehockey" />
+<GroupIconSports name="mm" />
+<GroupIconSports name="motorsports" />
+<GroupIconSports name="politics" />
+<GroupIconSports name="pool" />
+<GroupIconSports name="popular" />
+<GroupIconSports name="rugby" />
+<GroupIconSports name="sinuc" />
+<GroupIconSports name="sk" />
+<GroupIconSports name="snooke" />
+<GroupIconSports name="specia" />
+<GroupIconSports name="squas" />
+<GroupIconSports name="tabletenni" />
+<GroupIconSports name="tennis" />
+<GroupIconSports name="volleybal" />
+<GroupIconSports name="waterpolo" />
 ```
 
 ## Contributing
