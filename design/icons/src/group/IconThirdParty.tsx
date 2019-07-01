@@ -9,7 +9,7 @@ import { IconTwitter } from '../svg/IconTwitter';
 import { IconVkontakte } from '../svg/IconVkontakte';
 import { IconYoutube } from '../svg/IconYoutube';
 
-type ThirdPartyName =
+export type ThirdPartyName =
   | 'bitcointalk'
   | 'facebook'
   | 'google'
@@ -23,18 +23,18 @@ type IconProp = {
   name: ThirdPartyName;
 };
 
+const thirdPartyIcons = {
+  bitcointalk: IconBitcoinTalk,
+  facebook: IconFacebook,
+  google: IconGoogle,
+  instagram: IconInstagram,
+  telegram: IconTelegram,
+  twitter: IconTwitter,
+  vkontakte: IconVkontakte,
+  youtube: IconYoutube,
+};
+
 export const GroupIconThirdParty: React.FC<IconProp> &
   React.SVGProps<SVGSVGElement> = ({ name, ...props }) => {
-  const thirdPartyIcons = {
-    bitcointalk: IconBitcoinTalk,
-    facebook: IconFacebook,
-    google: IconGoogle,
-    instagram: IconInstagram,
-    telegram: IconTelegram,
-    twitter: IconTwitter,
-    vkontakte: IconVkontakte,
-    youtube: IconYoutube,
-  };
-
   return React.createElement(thirdPartyIcons[name], { ...props });
 };
