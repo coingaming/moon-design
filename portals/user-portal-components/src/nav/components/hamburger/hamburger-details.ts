@@ -12,8 +12,6 @@ export const DetailsContainer = styled.div({
   display: 'flex',
   flexDirection: 'column',
   marginTop: rem(90),
-  marginLeft: spacing('large'),
-  marginRight: spacing('large'),
 });
 
 type ItemProps = {
@@ -25,6 +23,8 @@ export const List = styled.ul({
   flexDirection: 'column',
   listStyleType: 'none',
   marginLeft: 0,
+  marginTop: spacing('large'),
+  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
 });
 
 export const activeCss: CSSObject = {
@@ -44,13 +44,31 @@ export const Item = styled.li<ItemProps>(({ active }) => [
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: spacing('large'),
+    marginTop: spacing('medium'),
     fontSize: rem(20),
     color: colors.neutral[20],
     cursor: 'pointer',
     '&:hover': activeCss,
   },
   active && activeCss,
+]);
+export const SubMenuItem = styled.li<ItemProps>(({ active }) => [
+  {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: spacing('medium'),
+    marginLeft: spacing('large'),
+    fontSize: rem(20),
+    color: colors.neutral[20],
+    cursor: 'pointer',
+    '&:hover': {
+      color: colors.neutral[10],
+    },
+  },
+  active && {
+    color: colors.neutral[10],
+  },
 ]);
 
 export const ItemCaption = styled.p({
@@ -59,17 +77,15 @@ export const ItemCaption = styled.p({
 
 export const ItemCount = styled.p({
   marginLeft: 'auto',
+  marginRight: spacing(),
 });
 
 export const SectionItem = styled.li({
-  marginTop: spacing('large'),
-  paddingTop: spacing(),
-  paddingBottom: spacing(),
-  fontSize: rem(22),
-  color: colors.neutral[10],
+  marginTop: spacing('medium'),
+  paddingLeft: spacing('large'),
+  fontSize: rem(20),
+  color: colors.neutral[20],
   textTransform: 'uppercase',
-  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
-  borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
 });
 
 export const CenteredLogo = styled.div({
@@ -107,7 +123,7 @@ export const Icon = styled.div({
   height: rem(40),
   width: rem(40),
   border: `${border.width}px solid ${colors.neutral[60]}`,
-  borderRadius: border.radius.small,
+  borderRadius: border.radius.largest,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -121,7 +137,10 @@ export const Icon = styled.div({
 export const LinkItem = styled.p({
   marginTop: 0,
 });
-
+export const HamburgerMenuFooter = styled.div({
+  margin: spacing(),
+  marginTop: spacing('large'),
+});
 export const CuracaoSection = styled.div({
   display: 'flex',
   flexDirection: 'row',
