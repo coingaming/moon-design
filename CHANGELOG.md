@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
+
+
+### Bug Fixes
+
+* cashier-blocks alignment ([53975a8](https://github.com/coingaming/sportsbet-design/commit/53975a8))
+* increase z-index for menu components ([d020c5c](https://github.com/coingaming/sportsbet-design/commit/d020c5c))
+* **wallet:** wallet fixes ([263875f](https://github.com/coingaming/sportsbet-design/commit/263875f))
+
+
+### Features
+
+* **form-combo:** create component ([7d6785c](https://github.com/coingaming/sportsbet-design/commit/7d6785c))
+* **user-portal:** add Google Authenticator disable step ([d504a54](https://github.com/coingaming/sportsbet-design/commit/d504a54))
+
+
+
+
+
 ## [0.63.4](https://github.com/coingaming/sportsbet-design/compare/v0.63.3...v0.63.4) (2019-06-28)
 
 
