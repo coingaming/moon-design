@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.65.0](https://github.com/coingaming/sportsbet-design/compare/v0.64.0...v0.65.0) (2019-07-01)
+
+
+### Bug Fixes
+
+* **icons:** correct sportsbet-tokens version ([7a62e2b](https://github.com/coingaming/sportsbet-design/commit/7a62e2b))
+
+
+### Features
+
+* **icons:** added icons for third party and icon grouping ([de9e688](https://github.com/coingaming/sportsbet-design/commit/de9e688))
+
+
+
+
+
 # [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
 
 
