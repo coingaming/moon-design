@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
+
+
+### Features
+
+* **form-combo:** create component ([7d6785c](https://github.com/coingaming/sportsbet-design/commit/7d6785c))
+
+
+
+
+
 ## [0.63.4](https://github.com/coingaming/sportsbet-design/compare/v0.63.3...v0.63.4) (2019-06-28)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
