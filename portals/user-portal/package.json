@@ -23,7 +23,7 @@
   "bundlesize": [
     {
       "path": "./dist/main.bundle.js",
-      "maxSize": "150 kB",
+      "maxSize": "175 kB",
       "compression": "gzip"
     }
   ],
