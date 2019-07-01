@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
-import { spacing } from '@heathmont/sportsbet-utils';
 import { IconNotification } from '@heathmont/sportsbet-icons/lib/svg/IconNotification';
 import { IconLiveChat } from '@heathmont/sportsbet-icons/lib/svg/IconLiveChat';
 import { Select } from '@heathmont/sportsbet-components';
@@ -21,8 +20,6 @@ import {
   HamburgerDetailsCaption,
   SocialIcons,
   Icon,
-  IconTwitter,
-  IconThirdParty,
   CuracaoSection,
   CuracaoLogoImage,
   AllRightsReserved,
@@ -33,14 +30,16 @@ import {
   HamburgerMenuFooter,
 } from '@heathmont/sportsbet-user-portal-components';
 import {
-  IconAllSports,
-  IconCalendar,
-  IconMenuHome,
-  IconInPlay,
-  IconAsianView,
-  IconLogoPlain,
+  GroupIconThirdParty,
   IconSportsTennis,
+  IconInPlay,
+  IconMenuHome,
+  IconCalendar,
+  IconAsianView,
+  IconAllSports,
+  IconLogoPlain,
 } from '@heathmont/sportsbet-icons';
+import { NavLink } from 'react-router-dom';
 
 jsx;
 
@@ -66,10 +65,10 @@ export const HamburgerDetailsContent = () => {
         </TopMenuLink>
       </TopMenuSection>
       <List>
-        <Item active>
+        <Item to="" as={NavLink}>
           <ItemCaption>Sports</ItemCaption>
         </Item>
-        <SubMenuItem active>
+        <SubMenuItem>
           <IconMenuHome />
           <ItemCaption>Home</ItemCaption>
         </SubMenuItem>
@@ -161,16 +160,16 @@ export const HamburgerDetailsContent = () => {
           <HamburgerDetailsCaption>Follow us</HamburgerDetailsCaption>
           <SocialIcons>
             <Icon>
-              <IconThirdParty name="facebook" />
+              <GroupIconThirdParty name="facebook" />
             </Icon>
             <Icon>
-              <IconThirdParty name="google" />
+              <GroupIconThirdParty name="google" />
             </Icon>
             <Icon>
-              <IconThirdParty name="telegram" />
+              <GroupIconThirdParty name="telegram" />
             </Icon>
             <Icon>
-              <IconThirdParty name="twitter" />
+              <GroupIconThirdParty name="twitter" />
             </Icon>
           </SocialIcons>
         </SocialSection>

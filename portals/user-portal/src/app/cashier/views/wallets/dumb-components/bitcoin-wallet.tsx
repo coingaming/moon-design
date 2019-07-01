@@ -9,7 +9,7 @@ import {
   FormItem,
   Select,
 } from '@heathmont/sportsbet-components';
-import { IconBitcoin } from '@heathmont/sportsbet-icons/lib/svg/IconBitcoin';
+import { GroupIconCurrency } from '@heathmont/sportsbet-icons';
 import {
   CurrencySwitchLayout,
   CurrencySwitch,
@@ -21,7 +21,11 @@ export const BitcoinWallet = () => {
 
   if (!backSided) {
     return (
-      <Card flex backgroundIcon={<IconBitcoin />} template="front">
+      <Card
+        flex
+        backgroundIcon={<GroupIconCurrency name="BTC" />}
+        template="front"
+      >
         <CurrencySwitchLayout>
           uBTC <CurrencySwitch defaultChecked /> mBTC
         </CurrencySwitchLayout>
