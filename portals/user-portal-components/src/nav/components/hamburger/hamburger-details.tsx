@@ -6,6 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Link } from '@heathmont/sportsbet-components';
+import { LinkProps } from 'react-router-dom';
 
 jsx;
 
@@ -15,11 +16,10 @@ export const DetailsContainer = styled.div({
   marginTop: rem(90),
 });
 
-type ItemProps = {
-  to?: string;
-  href?: string;
-  as?: any;
-};
+type LinkItemProps = Partial<LinkProps> &
+  Partial<React.AnchorHTMLAttributes<{}>> & {
+    as?: any;
+  };
 
 export const List = styled.ul({
   display: 'flex',
@@ -42,8 +42,25 @@ export const activeCss: CSSObject = {
     borderRadius: border.radius.small,
   },
 };
+const CustomLink: React.FC<LinkItemProps> = ({
+  href,
+  as,
+  to,
+  children,
+  css,
+  ...rest
+}) => {
+  if (to !== undefined && to !== null) {
+    return jsx(as, { css, to, children, ...rest });
+  }
+  return (
+    <a href={href} css={css} {...rest}>
+      {children}
+    </a>
+  );
+};
 
-export const Item: React.FC<ItemProps> = ({ href, as, to, children }) => {
+export const Item: React.FC<LinkItemProps> = props => {
   const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
@@ -52,23 +69,14 @@ export const Item: React.FC<ItemProps> = ({ href, as, to, children }) => {
     fontSize: rem(20),
     color: colors.neutral[20],
     cursor: 'pointer',
+    textDecoration: 'none',
     '&:hover': activeCss,
     '&.active': activeCss,
   };
-  if (href) {
-    <a href={href} css={linkCss}>
-      {children}
-    </a>;
-  }
-  return jsx(as, { css: linkCss, to, children });
+  return <CustomLink css={linkCss} {...props} />;
 };
 
-export const SubMenuItem: React.FC<ItemProps> = ({
-  href,
-  as,
-  to,
-  children,
-}) => {
+export const SubMenuItem: React.FC<LinkItemProps> = props => {
   const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
@@ -77,6 +85,7 @@ export const SubMenuItem: React.FC<ItemProps> = ({
     marginLeft: spacing('large'),
     fontSize: rem(20),
     color: colors.neutral[20],
+    textDecoration: 'none',
     cursor: 'pointer',
     '&:hover': {
       color: colors.neutral[10],
@@ -85,15 +94,10 @@ export const SubMenuItem: React.FC<ItemProps> = ({
       color: colors.neutral[10],
     },
   };
-  if (href) {
-    <a href={href} css={linkCss}>
-      {children}
-    </a>;
-  }
-  return jsx(as, { css: linkCss, to, children });
+  return <CustomLink css={linkCss} {...props} />;
 };
 
-export const ItemCaption = styled.p({
+export const ItemCaption = styled.span({
   marginLeft: spacing(),
 });
 
