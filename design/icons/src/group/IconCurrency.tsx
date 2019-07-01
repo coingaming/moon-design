@@ -27,7 +27,7 @@ import { IconCurrencyUsd } from '../svg/IconCurrencyUsd';
 import { IconCurrencyVes } from '../svg/IconCurrencyVes';
 import { IconCurrencyVnd } from '../svg/IconCurrencyVnd';
 
-type CurrencyType =
+type CurrencyName =
   | 'ARS'
   | 'BOB'
   | 'BRL'
@@ -52,60 +52,43 @@ type CurrencyType =
   | 'USD'
   | 'VES'
   | 'VND';
+
 type IconProp = {
-  name: CurrencyType;
+  color: string;
+  name: CurrencyName;
 };
-export const IconCurrency: React.FC<IconProp> = ({ name }) => {
-  switch (name) {
-    case 'ARS':
-      return <IconCurrencyArs color={colors.palette.goku[60]} />;
-    case 'BOB':
-      return <IconCurrencyBob color={colors.palette.goku[60]} />;
-    case 'BRL':
-      return <IconCurrencyBrl color={colors.palette.goku[60]} />;
-    case 'BTC':
-      return <IconCurrencyBtc color={colors.palette.goku[60]} />;
-    case 'CAD':
-      return <IconCurrencyCad color={colors.palette.goku[60]} />;
-    case 'CLP':
-      return <IconCurrencyClp color={colors.palette.goku[60]} />;
-    case 'CRC':
-      return <IconCurrencyCrc color={colors.palette.goku[60]} />;
-    case 'CNY':
-      return <IconCurrencyCny color={colors.palette.goku[60]} />;
-    case 'ETH':
-      return <IconCurrencyEth color={colors.palette.goku[60]} />;
-    case 'EUR':
-      return <IconCurrencyEur color={colors.palette.goku[60]} />;
-    case 'IDR':
-      return <IconCurrencyIdr color={colors.palette.goku[60]} />;
-    case 'INR':
-      return <IconCurrencyInr color={colors.palette.goku[60]} />;
-    case 'JPY':
-      return <IconCurrencyJpy color={colors.palette.goku[60]} />;
-    case 'LTC':
-      return <IconCurrencyLtc color={colors.palette.goku[60]} />;
-    case 'MXN':
-      return <IconCurrencyMxn color={colors.palette.goku[60]} />;
-    case 'MYR':
-      return <IconCurrencyMyr color={colors.palette.goku[60]} />;
-    case 'PEN':
-      return <IconCurrencyPen color={colors.palette.goku[60]} />;
-    case 'RUB':
-      return <IconCurrencyRub color={colors.palette.goku[60]} />;
-    case 'SOC':
-      return <IconCurrencySoc color={colors.palette.goku[60]} />;
-    case 'THB':
-      return <IconCurrencyThb color={colors.palette.goku[60]} />;
-    case 'TRY':
-      return <IconCurrencyTry color={colors.palette.goku[60]} />;
-    case 'USD':
-      return <IconCurrencyUsd color={colors.palette.goku[60]} />;
-    case 'VES':
-      return <IconCurrencyVes color={colors.palette.goku[60]} />;
-    case 'VND':
-      return <IconCurrencyVnd color={colors.palette.goku[60]} />;
-    default:
-      return null;
-  }
+
+const currencyIcons = {
+  ARS: IconCurrencyArs,
+  BOB: IconCurrencyBob,
+  BRL: IconCurrencyBrl,
+  BTC: IconCurrencyBtc,
+  CAD: IconCurrencyCad,
+  CLP: IconCurrencyClp,
+  CRC: IconCurrencyCrc,
+  CNY: IconCurrencyCny,
+  ETH: IconCurrencyEth,
+  EUR: IconCurrencyEur,
+  IDR: IconCurrencyIdr,
+  INR: IconCurrencyInr,
+  JPY: IconCurrencyJpy,
+  LTC: IconCurrencyLtc,
+  MXN: IconCurrencyMxn,
+  MYR: IconCurrencyMyr,
+  PEN: IconCurrencyPen,
+  RUB: IconCurrencyRub,
+  SOC: IconCurrencySoc,
+  THB: IconCurrencyThb,
+  TRY: IconCurrencyTry,
+  USD: IconCurrencyUsd,
+  VES: IconCurrencyVes,
+  VND: IconCurrencyVnd,
+};
+
+export const GroupIconCurrency: React.FC<IconProp> &
+  React.SVGProps<SVGSVGElement> = ({ color, name, ...props }) => {
+  return React.createElement(currencyIcons[name], {
+    ...props,
+    color: color || colors.palette.goku[60],
+  });
 };
