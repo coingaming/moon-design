@@ -1,4 +1,5 @@
 /** @jsx jsx */
+import * as React from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
@@ -15,7 +16,9 @@ export const DetailsContainer = styled.div({
 });
 
 type ItemProps = {
-  active?: boolean;
+  to?: string;
+  href?: string;
+  as?: any;
 };
 
 export const List = styled.ul({
@@ -39,8 +42,9 @@ export const activeCss: CSSObject = {
     borderRadius: border.radius.small,
   },
 };
-export const Item = styled.li<ItemProps>(({ active }) => [
-  {
+
+export const Item: React.FC<ItemProps> = ({ href, as, to, children }) => {
+  const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
@@ -49,11 +53,23 @@ export const Item = styled.li<ItemProps>(({ active }) => [
     color: colors.neutral[20],
     cursor: 'pointer',
     '&:hover': activeCss,
-  },
-  active && activeCss,
-]);
-export const SubMenuItem = styled.li<ItemProps>(({ active }) => [
-  {
+    '&.active': activeCss,
+  };
+  if (href) {
+    <a href={href} css={linkCss}>
+      {children}
+    </a>;
+  }
+  return jsx(as, { css: linkCss, to, children });
+};
+
+export const SubMenuItem: React.FC<ItemProps> = ({
+  href,
+  as,
+  to,
+  children,
+}) => {
+  const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
@@ -65,11 +81,17 @@ export const SubMenuItem = styled.li<ItemProps>(({ active }) => [
     '&:hover': {
       color: colors.neutral[10],
     },
-  },
-  active && {
-    color: colors.neutral[10],
-  },
-]);
+    '&.active': {
+      color: colors.neutral[10],
+    },
+  };
+  if (href) {
+    <a href={href} css={linkCss}>
+      {children}
+    </a>;
+  }
+  return jsx(as, { css: linkCss, to, children });
+};
 
 export const ItemCaption = styled.p({
   marginLeft: spacing(),
