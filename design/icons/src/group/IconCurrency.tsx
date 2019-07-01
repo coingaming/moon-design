@@ -53,43 +53,40 @@ type CurrencyName =
   | 'VES'
   | 'VND';
 
-type IconProp = {
+export type GroupIconCurrencyProps = {
   color: string;
   name: CurrencyName;
 };
 
-export const GroupIconCurrency: React.FC<IconProp> = ({
-  color,
-  name,
-  ...props
-}) => {
-  const currencyIcons = {
-    ARS: IconCurrencyArs,
-    BOB: IconCurrencyBob,
-    BRL: IconCurrencyBrl,
-    BTC: IconCurrencyBtc,
-    CAD: IconCurrencyCad,
-    CLP: IconCurrencyClp,
-    CRC: IconCurrencyCrc,
-    CNY: IconCurrencyCny,
-    ETH: IconCurrencyEth,
-    EUR: IconCurrencyEur,
-    IDR: IconCurrencyIdr,
-    INR: IconCurrencyInr,
-    JPY: IconCurrencyJpy,
-    LTC: IconCurrencyLtc,
-    MXN: IconCurrencyMxn,
-    MYR: IconCurrencyMyr,
-    PEN: IconCurrencyPen,
-    RUB: IconCurrencyRub,
-    SOC: IconCurrencySoc,
-    THB: IconCurrencyThb,
-    TRY: IconCurrencyTry,
-    USD: IconCurrencyUsd,
-    VES: IconCurrencyVes,
-    VND: IconCurrencyVnd,
-  };
+const currencyIcons = {
+  ARS: IconCurrencyArs,
+  BOB: IconCurrencyBob,
+  BRL: IconCurrencyBrl,
+  BTC: IconCurrencyBtc,
+  CAD: IconCurrencyCad,
+  CLP: IconCurrencyClp,
+  CRC: IconCurrencyCrc,
+  CNY: IconCurrencyCny,
+  ETH: IconCurrencyEth,
+  EUR: IconCurrencyEur,
+  IDR: IconCurrencyIdr,
+  INR: IconCurrencyInr,
+  JPY: IconCurrencyJpy,
+  LTC: IconCurrencyLtc,
+  MXN: IconCurrencyMxn,
+  MYR: IconCurrencyMyr,
+  PEN: IconCurrencyPen,
+  RUB: IconCurrencyRub,
+  SOC: IconCurrencySoc,
+  THB: IconCurrencyThb,
+  TRY: IconCurrencyTry,
+  USD: IconCurrencyUsd,
+  VES: IconCurrencyVes,
+  VND: IconCurrencyVnd,
+};
 
+export const GroupIconCurrency: React.FC<GroupIconCurrencyProps> &
+  React.SVGProps<SVGSVGElement> = ({ color, name, ...props }) => {
   return React.createElement(currencyIcons[name], {
     ...props,
     color: color || colors.palette.goku[60],
