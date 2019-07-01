@@ -60,4 +60,4 @@ export { IconWarningExclamation } from './backgrounds/IconWarningExclamation';
  */
 export { IconCurrency } from './group/IconCurrency';
 export { IconSports } from './group/IconSports';
-export { IconThirdParty } from './group/IconThirdParty';
+export { GroupIconThirdParty } from './group/IconThirdParty';
