@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import { colors } from '@heathmont/sportsbet-tokens';
+
 import { IconCurrencyArs } from '../svg/IconCurrencyArs';
 import { IconCurrencyBob } from '../svg/IconCurrencyBob';
 import { IconCurrencyBrl } from '../svg/IconCurrencyBrl';
@@ -56,53 +58,53 @@ type IconProp = {
 export const IconCurrency: React.FC<IconProp> = ({ name }) => {
   switch (name) {
     case 'ARS':
-      return <IconCurrencyArs />;
+      return <IconCurrencyArs color={colors.palette.goku[60]} />;
     case 'BOB':
-      return <IconCurrencyBob />;
+      return <IconCurrencyBob color={colors.palette.goku[60]} />;
     case 'BRL':
-      return <IconCurrencyBrl />;
+      return <IconCurrencyBrl color={colors.palette.goku[60]} />;
     case 'BTC':
-      return <IconCurrencyBtc />;
+      return <IconCurrencyBtc color={colors.palette.goku[60]} />;
     case 'CAD':
-      return <IconCurrencyCad />;
+      return <IconCurrencyCad color={colors.palette.goku[60]} />;
     case 'CLP':
-      return <IconCurrencyClp />;
+      return <IconCurrencyClp color={colors.palette.goku[60]} />;
     case 'CRC':
-      return <IconCurrencyCrc />;
+      return <IconCurrencyCrc color={colors.palette.goku[60]} />;
     case 'CNY':
-      return <IconCurrencyCny />;
+      return <IconCurrencyCny color={colors.palette.goku[60]} />;
     case 'ETH':
-      return <IconCurrencyEth />;
+      return <IconCurrencyEth color={colors.palette.goku[60]} />;
     case 'EUR':
-      return <IconCurrencyEur />;
+      return <IconCurrencyEur color={colors.palette.goku[60]} />;
     case 'IDR':
-      return <IconCurrencyIdr />;
+      return <IconCurrencyIdr color={colors.palette.goku[60]} />;
     case 'INR':
-      return <IconCurrencyInr />;
+      return <IconCurrencyInr color={colors.palette.goku[60]} />;
     case 'JPY':
-      return <IconCurrencyJpy />;
+      return <IconCurrencyJpy color={colors.palette.goku[60]} />;
     case 'LTC':
-      return <IconCurrencyLtc />;
+      return <IconCurrencyLtc color={colors.palette.goku[60]} />;
     case 'MXN':
-      return <IconCurrencyMxn />;
+      return <IconCurrencyMxn color={colors.palette.goku[60]} />;
     case 'MYR':
-      return <IconCurrencyMyr />;
+      return <IconCurrencyMyr color={colors.palette.goku[60]} />;
     case 'PEN':
-      return <IconCurrencyPen />;
+      return <IconCurrencyPen color={colors.palette.goku[60]} />;
     case 'RUB':
-      return <IconCurrencyRub />;
+      return <IconCurrencyRub color={colors.palette.goku[60]} />;
     case 'SOC':
-      return <IconCurrencySoc />;
+      return <IconCurrencySoc color={colors.palette.goku[60]} />;
     case 'THB':
-      return <IconCurrencyThb />;
+      return <IconCurrencyThb color={colors.palette.goku[60]} />;
     case 'TRY':
-      return <IconCurrencyTry />;
+      return <IconCurrencyTry color={colors.palette.goku[60]} />;
     case 'USD':
-      return <IconCurrencyUsd />;
+      return <IconCurrencyUsd color={colors.palette.goku[60]} />;
     case 'VES':
-      return <IconCurrencyVes />;
+      return <IconCurrencyVes color={colors.palette.goku[60]} />;
     case 'VND':
-      return <IconCurrencyVnd />;
+      return <IconCurrencyVnd color={colors.palette.goku[60]} />;
     default:
       return null;
   }

@@ -19,7 +19,6 @@ export { IconCircle } from './svg/IconCircle';
 export { IconClose } from './svg/IconClose';
 export { IconEdit } from './svg/IconEdit';
 export { IconEuro } from './svg/IconEuro';
-export { IconFacebook } from './svg/IconFacebook';
 export { IconFilter } from './svg/IconFilter';
 export { IconFreebet } from './svg/IconFreebet';
 export { IconHamburger } from './svg/IconHamburger';
