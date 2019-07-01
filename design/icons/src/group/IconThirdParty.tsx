@@ -22,25 +22,19 @@ type ThirdPartyName =
 type IconProp = {
   name: ThirdPartyName;
 };
-export const IconThirdParty: React.FC<IconProp> = ({ name }) => {
-  switch (name) {
-    case 'bitcointalk':
-      return <IconBitcoinTalk />;
-    case 'facebook':
-      return <IconFacebook />;
-    case 'google':
-      return <IconGoogle />;
-    case 'instagram':
-      return <IconInstagram />;
-    case 'telegram':
-      return <IconTelegram />;
-    case 'twitter':
-      return <IconTwitter />;
-    case 'vkontakte':
-      return <IconVkontakte />;
-    case 'youtube':
-      return <IconYoutube />;
-    default:
-      return null;
-  }
+
+const thirdPartyIcons = {
+  bitcointalk: IconBitcoinTalk,
+  facebook: IconFacebook,
+  google: IconGoogle,
+  instagram: IconInstagram,
+  telegram: IconTelegram,
+  twitter: IconTwitter,
+  vkontakte: IconVkontakte,
+  youtube: IconYoutube,
+};
+
+export const GroupIconThirdParty: React.FC<IconProp> &
+  React.SVGProps<SVGSVGElement> = ({ name, ...props }) => {
+  return React.createElement(thirdPartyIcons[name], { ...props });
 };
