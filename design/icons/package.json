@@ -19,6 +19,6 @@
     "@types/react-dom": "16.0.11",
     "react": "16.8.1",
     "react-dom": "16.8.1",
-    "@heathmont/sportsbet-tokens": "^0.63.3"
+    "@heathmont/sportsbet-tokens": "^0.64.0"
   }
 }
