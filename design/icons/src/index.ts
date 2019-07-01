@@ -121,6 +121,12 @@ export { IconWarningExclamation } from './backgrounds/IconWarningExclamation';
 /**
  * Grouped Icons
  */
-export { GroupIconCurrency } from './group/IconCurrency';
-export { IconSports } from './group/IconSports';
-export { GroupIconThirdParty } from './group/IconThirdParty';
+export {
+  GroupIconCurrency,
+  GroupIconCurrencyProps,
+} from './group/IconCurrency';
+export { GroupIconSports, GroupIconSportsProps } from './group/IconSports';
+export {
+  GroupIconThirdParty,
+  GroupIconThirdPartyProps,
+} from './group/IconThirdParty';

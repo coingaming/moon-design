@@ -19,7 +19,7 @@ export type ThirdPartyName =
   | 'vkontakte'
   | 'youtube';
 
-type IconProp = {
+export type GroupIconThirdPartyProps = {
   name: ThirdPartyName;
 };
 
@@ -34,7 +34,7 @@ const thirdPartyIcons = {
   youtube: IconYoutube,
 };
 
-export const GroupIconThirdParty: React.FC<IconProp> &
+export const GroupIconThirdParty: React.FC<GroupIconThirdPartyProps> &
   React.SVGProps<SVGSVGElement> = ({ name, ...props }) => {
   return React.createElement(thirdPartyIcons[name], { ...props });
 };
