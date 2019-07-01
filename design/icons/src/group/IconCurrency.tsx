@@ -54,7 +54,7 @@ type CurrencyName =
   | 'VND';
 
 export type GroupIconCurrencyProps = {
-  color: string;
+  color?: string;
   name: CurrencyName;
 };
 

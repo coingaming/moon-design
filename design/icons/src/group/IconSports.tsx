@@ -69,7 +69,7 @@ type IconSportsName =
 
 export type GroupIconSportsProps = {
   name: IconSportsName;
-  color: string;
+  color?: string;
 };
 
 export const GroupIconSports: React.FC<GroupIconSportsProps> &
