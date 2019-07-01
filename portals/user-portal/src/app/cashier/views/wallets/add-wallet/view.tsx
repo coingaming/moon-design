@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
+import { IconCurrency } from '@heathmont/sportsbet-icons';
 import {
   AddWalletCard,
   AddWalletsContainer,
@@ -11,11 +12,7 @@ import {
   WalletBackIconArrowLeft,
 } from '@heathmont/sportsbet-user-portal-components';
 import { Button, Heading } from '@heathmont/sportsbet-components';
-import {
-  IconCurrencyEur,
-  IconCurrencyBtc,
-  IconCurrencyInr,
-} from '@heathmont/sportsbet-icons';
+
 import { colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
@@ -48,10 +45,7 @@ export const AddWalletView = () => {
           </WalletBackNav>
         </CashierHeader>
         <AddWalletsContainer>
-          <AddWalletCard
-            active
-            backgroundIcon={<IconCurrencyEur color={colors.neutral[40]} />}
-          >
+          <AddWalletCard active backgroundIcon={<IconCurrency name="EUR" />}>
             <Heading size="echo" as="p">
               Euro
             </Heading>
@@ -59,21 +53,13 @@ export const AddWalletView = () => {
           {walletCards.map(() => {
             return (
               <Fragment>
-                <AddWalletCard
-                  backgroundIcon={
-                    <IconCurrencyInr color={colors.neutral[40]} />
-                  }
-                >
+                <AddWalletCard backgroundIcon={<IconCurrency name="INR" />}>
                   <Heading size="echo" as="p">
                     Indian Rupee
                   </Heading>
                   <Button modifier="optional">Add</Button>
                 </AddWalletCard>
-                <AddWalletCard
-                  backgroundIcon={
-                    <IconCurrencyBtc color={colors.neutral[40]} />
-                  }
-                >
+                <AddWalletCard backgroundIcon={<IconCurrency name="BTC" />}>
                   <Heading size="echo" as="p">
                     Bitcoin
                   </Heading>

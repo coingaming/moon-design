@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import { sportColors } from '@heathmont/sportsbet-tokens';
+
 import { IconSportsAmericanFootBall } from '../svg/IconSportsAmericanFootBall';
 import { IconSportsBadminton } from '../svg/IconSportsBadminton';
 import { IconSportsBaseBall } from '../svg/IconSportsBaseBall';
@@ -32,106 +34,106 @@ import { IconSportsVolleyBall } from '../svg/IconSportsVolleyBall';
 import { IconSportsWaterPolo } from '../svg/IconSportsWaterPolo';
 
 export type SportsIconKind =
-  | 'americanfootball'
-  | 'badminton'
-  | 'baseball'
-  | 'basketball'
-  | 'biathlon'
-  | 'boxing'
-  | 'cricket'
-  | 'cycling'
-  | 'darts'
-  | 'esports'
-  | 'football'
-  | 'golf'
-  | 'handball'
-  | 'icehockey'
-  | 'mma'
-  | 'motorsports'
-  | 'politics'
-  | 'pool'
-  | 'sinuca'
+  | 'sport-americanfootball'
+  | 'sport-badminton'
+  | 'sport-baseball'
+  | 'sport-basketball'
+  | 'sport-biathlon'
+  | 'sport-boxing'
+  | 'sport-cricket'
+  | 'sport-cycling'
+  | 'sport-darts'
+  | 'sport-esports'
+  | 'sport-football'
+  | 'sport-golf'
+  | 'sport-handball'
+  | 'sport-icehockey'
+  | 'sport-mma'
+  | 'sport-motorsports'
+  | 'sport-politics'
+  | 'sport-pool'
+  | 'sport-sinuca'
   | 'sports-popular'
-  | 'skiing'
-  | 'snooker'
-  | 'soccer'
-  | 'squash'
-  | 'tabletennis'
-  | 'tennis'
-  | 'volleyball'
-  | 'waterpolo'
-  | 'horseracing'
-  | 'popular'
-  | 'rugby'
-  | 'special';
+  | 'sport-skiing'
+  | 'sport-snooker'
+  | 'sport-soccer'
+  | 'sport-squash'
+  | 'sport-tabletennis'
+  | 'sport-tennis'
+  | 'sport-volleyball'
+  | 'sport-waterpolo'
+  | 'sport-horseracing'
+  | 'sport-popular'
+  | 'sport-rugby'
+  | 'sport-special';
 
 type IconProp = {
   name: SportsIconKind;
 };
 export const IconSports: React.FC<IconProp> = ({ name }) => {
   switch (name) {
-    case 'americanfootball':
+    case 'sport-americanfootball':
       return (
         <IconSportsAmericanFootBall color={sportColors.americanFootBall} />
       );
-    case 'badminton':
+    case 'sport-badminton':
       return <IconSportsBadminton color={sportColors.badminton} />;
-    case 'baseball':
+    case 'sport-baseball':
       return <IconSportsBaseBall color={sportColors.baseBall} />;
-    case 'basketball':
+    case 'sport-basketball':
       return <IconSportsBasketBall color={sportColors.basketBall} />;
-    case 'biathlon':
+    case 'sport-biathlon':
       return <IconSportsBiathlon color={sportColors.biathlon} />;
-    case 'boxing':
+    case 'sport-boxing':
       return <IconSportsBoxing color={sportColors.boxing} />;
-    case 'cricket':
+    case 'sport-cricket':
       return <IconSportsCricket color={sportColors.cricket} />;
-    case 'cycling':
+    case 'sport-cycling':
       return <IconSportsCycling color={sportColors.cycling} />;
-    case 'darts':
+    case 'sport-darts':
       return <IconSportsDarts color={sportColors.darts} />;
-    case 'esports':
+    case 'sport-esports':
       return <IconSportsESports color={sportColors.eSports} />;
-    case 'football':
-    case 'soccer':
+    case 'sport-football':
+    case 'sport-soccer':
       return <IconSportsFootBall color={sportColors.footBall} />;
-    case 'golf':
+    case 'sport-golf':
       return <IconSportsGolf color={sportColors.golf} />;
-    case 'handball':
+    case 'sport-handball':
       return <IconSportsHandBall color={sportColors.handBall} />;
-    case 'horseracing':
+    case 'sport-horseracing':
       return <IconSportsHorseRacing color={sportColors.horseRacing} />;
-    case 'icehockey':
+    case 'sport-icehockey':
       return <IconSportsIceHockey color={sportColors.iceHockey} />;
-    case 'mma':
+    case 'sport-mma':
       return <IconSportsMma color={sportColors.mma} />;
-    case 'motorsports':
+    case 'sport-motorsports':
       return <IconSportsMotorSports color={sportColors.motorSports} />;
-    case 'politics':
+    case 'sport-politics':
       return <IconSportsPolitics color={sportColors.politics} />;
-    case 'pool':
+    case 'sport-pool':
       return <IconSportsPool color={sportColors.pool} />;
-    case 'popular':
+    case 'sport-popular':
       return <IconSportsPopular color={sportColors.popular} />;
-    case 'rugby':
+    case 'sport-rugby':
       return <IconSportsRugby color={sportColors.rugby} />;
-    case 'sinuca':
+    case 'sport-sinuca':
       return <IconSportsSinuca color={sportColors.sinuca} />;
-    case 'skiing':
+    case 'sport-skiing':
       return <IconSportsSki color={sportColors.ski} />;
-    case 'snooker':
+    case 'sport-snooker':
       return <IconSportsSnooker color={sportColors.snooker} />;
-    case 'special':
+    case 'sport-special':
       return <IconSportsSpecial color={sportColors.special} />;
-    case 'squash':
+    case 'sport-squash':
       return <IconSportsSquash color={sportColors.squash} />;
-    case 'tabletennis':
+    case 'sport-tabletennis':
       return <IconSportsTableTennis color={sportColors.tableTennis} />;
-    case 'tennis':
+    case 'sport-tennis':
       return <IconSportsTennis color={sportColors.tennis} />;
-    case 'volleyball':
+    case 'sport-volleyball':
       return <IconSportsVolleyBall color={sportColors.volleyBall} />;
-    case 'waterpolo':
+    case 'sport-waterpolo':
       return <IconSportsWaterPolo color={sportColors.waterPolo} />;
     default:
       return null;
