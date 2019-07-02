@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { IconBitcoin } from '@heathmont/sportsbet-icons';
+import { IconCurrencyBtc } from '@heathmont/sportsbet-icons';
 import { Card } from '..';
 
 describe('Card', () => {
@@ -28,7 +28,7 @@ describe('Card', () => {
 
     test('renders as front with backgroundIcon', () => {
       const card = create(
-        <Card template="front" backgroundIcon={<IconBitcoin />}>
+        <Card template="front" backgroundIcon={<IconCurrencyBtc />}>
           <p>Some content</p>
         </Card>
       );
