@@ -17,7 +17,6 @@ import {
   WithdrawBTCMinimumAmountCaption,
   WithdrawBTCMinimumSubmitWrapper,
   WithdrawBTCSibebarArea,
-  WithdrawBTCSidebarBanner,
   WithdrawBTCSidebarBannerHeader,
   WithdrawBTCSidebarBannerHeaderIcon,
   WithdrawBTCSidebarBannerHeaderCaption,
@@ -118,7 +117,7 @@ export const WithdrawViewBTC = () => {
             </WithdrawBTCFormWrapper>
           </WithdrawBTCMainArea>
           <WithdrawBTCSibebarArea>
-            <CashierBanner to="/cashier">
+            <CashierBanner as={NavLink} to="/cashier">
               <WithdrawBTCSidebarBannerHeader>
                 <WithdrawBTCSidebarBannerHeaderIcon>
                   <IconMessage />
@@ -133,7 +132,7 @@ export const WithdrawViewBTC = () => {
               </WithdrawBTCSidebarBannerText>
             </CashierBanner>
 
-            <CashierBanner to="/cashier">
+            <CashierBanner as={NavLink} to="/cashier">
               <WithdrawBTCSidebarBannerHeader>
                 <WithdrawBTCSidebarBannerHeaderIcon>
                   <IconCoins />
@@ -148,7 +147,7 @@ export const WithdrawViewBTC = () => {
               </WithdrawBTCSidebarBannerText>
             </CashierBanner>
 
-            <CashierBanner to="/cashier">
+            <CashierBanner as={NavLink} to="/cashier">
               <WithdrawBTCSidebarBannerHeader>
                 <WithdrawBTCSidebarBannerHeaderIcon>
                   <IconExchange />
