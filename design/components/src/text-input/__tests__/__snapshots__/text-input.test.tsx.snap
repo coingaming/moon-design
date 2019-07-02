@@ -208,25 +208,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   outline: none;
 }
 
-.emotion-3 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
-.emotion-2 {
-  display: inline-block;
-  width: 0.875rem;
-  height: 0.875rem;
-  margin-right: 0.5rem;
-  vertical-align: sub;
-  background-position: center;
-  background-size: 60%,100%;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
-}
-
 <fieldset>
   <label>
     <span
@@ -239,14 +220,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="text"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -259,14 +232,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="date"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -279,14 +244,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="email"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -299,14 +256,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="number"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -319,14 +268,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="password"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -339,14 +280,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="search"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -359,14 +292,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="tel"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
   <label>
     <span
@@ -379,14 +304,6 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="url"
     />
-    <span
-      className="emotion-3"
-    >
-      <i
-        className="emotion-2"
-      />
-      Invalid text
-    </span>
   </label>
 </fieldset>
 `;
