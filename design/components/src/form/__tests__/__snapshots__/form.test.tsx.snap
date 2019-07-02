@@ -295,11 +295,11 @@ exports[`Form renders a form combo without a label 1`] = `
 `;
 
 exports[`Form renders correctly 1`] = `
-.emotion-6 {
+.emotion-9 {
   width: auto;
 }
 
-.emotion-5 {
+.emotion-8 {
   border: 0;
 }
 
@@ -318,7 +318,7 @@ exports[`Form renders correctly 1`] = `
   width: 1px;
 }
 
-.emotion-4 {
+.emotion-7 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -335,11 +335,30 @@ exports[`Form renders correctly 1`] = `
   content: "\\200B";
 }
 
+.emotion-3 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
+.emotion-2 {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-right: 0.5rem;
+  vertical-align: sub;
+  background-position: center;
+  background-size: 60%,100%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
+}
+
 <form
-  className="emotion-6"
+  className="emotion-9"
 >
   <fieldset
-    className="emotion-5"
+    className="emotion-8"
   >
     <legend
       className="emotion-0"
@@ -347,7 +366,7 @@ exports[`Form renders correctly 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-4"
+      className="emotion-7"
     >
       <li
         className="emotion-1"
@@ -362,6 +381,28 @@ exports[`Form renders correctly 1`] = `
             type="text"
           />
         </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label
+          htmlFor="testInput1"
+        >
+          Password
+          <input
+            id="testInput1"
+            type="password"
+          />
+        </label>
+        <p
+          className="emotion-3"
+          role="alert"
+        >
+          <i
+            className="emotion-2"
+          />
+          Please enter a valid password.
+        </p>
       </li>
       <li
         className="emotion-1"
@@ -394,11 +435,11 @@ exports[`Form renders correctly 1`] = `
 `;
 
 exports[`Form renders with HTML form attributes 1`] = `
-.emotion-6 {
+.emotion-9 {
   width: auto;
 }
 
-.emotion-5 {
+.emotion-8 {
   border: 0;
 }
 
@@ -417,7 +458,7 @@ exports[`Form renders with HTML form attributes 1`] = `
   width: 1px;
 }
 
-.emotion-4 {
+.emotion-7 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -434,14 +475,33 @@ exports[`Form renders with HTML form attributes 1`] = `
   content: "\\200B";
 }
 
+.emotion-3 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
+.emotion-2 {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-right: 0.5rem;
+  vertical-align: sub;
+  background-position: center;
+  background-size: 60%,100%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
+}
+
 <form
   action="#"
   autocomplete="on"
-  className="emotion-6"
+  className="emotion-9"
   method="post"
 >
   <fieldset
-    className="emotion-5"
+    className="emotion-8"
   >
     <legend
       className="emotion-0"
@@ -449,7 +509,7 @@ exports[`Form renders with HTML form attributes 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-4"
+      className="emotion-7"
     >
       <li
         className="emotion-1"
@@ -464,6 +524,28 @@ exports[`Form renders with HTML form attributes 1`] = `
             type="text"
           />
         </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label
+          htmlFor="testInput1"
+        >
+          Password
+          <input
+            id="testInput1"
+            type="password"
+          />
+        </label>
+        <p
+          className="emotion-3"
+          role="alert"
+        >
+          <i
+            className="emotion-2"
+          />
+          Please enter a valid password.
+        </p>
       </li>
       <li
         className="emotion-1"
@@ -496,7 +578,7 @@ exports[`Form renders with HTML form attributes 1`] = `
 `;
 
 exports[`Form renders with custom fullWidth 1`] = `
-.emotion-5 {
+.emotion-8 {
   border: 0;
 }
 
@@ -515,7 +597,7 @@ exports[`Form renders with custom fullWidth 1`] = `
   width: 1px;
 }
 
-.emotion-4 {
+.emotion-7 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -532,15 +614,34 @@ exports[`Form renders with custom fullWidth 1`] = `
   content: "\\200B";
 }
 
-.emotion-6 {
+.emotion-3 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
+.emotion-2 {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-right: 0.5rem;
+  vertical-align: sub;
+  background-position: center;
+  background-size: 60%,100%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
+}
+
+.emotion-9 {
   width: 100%;
 }
 
 <form
-  className="emotion-6"
+  className="emotion-9"
 >
   <fieldset
-    className="emotion-5"
+    className="emotion-8"
   >
     <legend
       className="emotion-0"
@@ -548,7 +649,7 @@ exports[`Form renders with custom fullWidth 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-4"
+      className="emotion-7"
     >
       <li
         className="emotion-1"
@@ -563,6 +664,28 @@ exports[`Form renders with custom fullWidth 1`] = `
             type="text"
           />
         </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label
+          htmlFor="testInput1"
+        >
+          Password
+          <input
+            id="testInput1"
+            type="password"
+          />
+        </label>
+        <p
+          className="emotion-3"
+          role="alert"
+        >
+          <i
+            className="emotion-2"
+          />
+          Please enter a valid password.
+        </p>
       </li>
       <li
         className="emotion-1"
@@ -595,7 +718,7 @@ exports[`Form renders with custom fullWidth 1`] = `
 `;
 
 exports[`Form renders with custom maxWidth 1`] = `
-.emotion-5 {
+.emotion-8 {
   border: 0;
 }
 
@@ -614,7 +737,7 @@ exports[`Form renders with custom maxWidth 1`] = `
   width: 1px;
 }
 
-.emotion-4 {
+.emotion-7 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -631,16 +754,35 @@ exports[`Form renders with custom maxWidth 1`] = `
   content: "\\200B";
 }
 
-.emotion-6 {
+.emotion-3 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
+.emotion-2 {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-right: 0.5rem;
+  vertical-align: sub;
+  background-position: center;
+  background-size: 60%,100%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
+}
+
+.emotion-9 {
   max-width: 30rem;
   width: auto;
 }
 
 <form
-  className="emotion-6"
+  className="emotion-9"
 >
   <fieldset
-    className="emotion-5"
+    className="emotion-8"
   >
     <legend
       className="emotion-0"
@@ -648,7 +790,7 @@ exports[`Form renders with custom maxWidth 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-4"
+      className="emotion-7"
     >
       <li
         className="emotion-1"
@@ -663,6 +805,28 @@ exports[`Form renders with custom maxWidth 1`] = `
             type="text"
           />
         </label>
+      </li>
+      <li
+        className="emotion-1"
+      >
+        <label
+          htmlFor="testInput1"
+        >
+          Password
+          <input
+            id="testInput1"
+            type="password"
+          />
+        </label>
+        <p
+          className="emotion-3"
+          role="alert"
+        >
+          <i
+            className="emotion-2"
+          />
+          Please enter a valid password.
+        </p>
       </li>
       <li
         className="emotion-1"
