@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
+
+**Note:** Version bump only for package @heathmont/sportsbet-user-portal
+
+
+
+
+
 ## [0.65.3](https://github.com/coingaming/sportsbet-design/compare/v0.65.2...v0.65.3) (2019-07-02)
 
 

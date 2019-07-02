@@ -1,21 +1,22 @@
 {
   "name": "@heathmont/sportsbet-icons",
-  "version": "0.65.1",
+  "version": "0.66.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build:background-icons": "npx @svgr/cli --ext tsx --config-file src/config/backgrounds.js -d src/backgrounds ../assets/src/icons/backgrounds",
+    "build:background-icons": "npx @svgr/cli --ext tsx --config-file src/config/svgr-backgrounds.js -d src/backgrounds ../assets/src/icons/backgrounds",
     "build:icons": "npx @svgr/cli --ext tsx --config-file src/config/svgr.js -d src/svg ../assets/src/icons/svg",
-    "build": "yarn build:icons && yarn build:background-icons",
+    "lint": "yarn eslint --fix src/ --ext .ts,.tsx",
+    "build": "yarn build:icons && yarn build:background-icons && yarn lint",
     "test": "jest"
   },
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-tokens": "^0.65.0",
+    "@heathmont/sportsbet-tokens": "^0.66.0",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
     "react": "16.8.1",
