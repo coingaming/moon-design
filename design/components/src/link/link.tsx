@@ -17,7 +17,7 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   disabled?: boolean;
   secondary?: boolean;
   optional?: boolean;
-  buttonModifier: ButtonModifiers;
+  buttonModifier?: ButtonModifiers;
   as?: any;
   to?: any;
   // Manually added these because NavLinkProps extending causes TS errors
