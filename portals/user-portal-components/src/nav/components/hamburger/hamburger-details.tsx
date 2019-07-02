@@ -1,10 +1,12 @@
 /** @jsx jsx */
+import * as React from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Link } from '@heathmont/sportsbet-components';
+import { LinkProps } from 'react-router-dom';
 
 jsx;
 
@@ -12,19 +14,20 @@ export const DetailsContainer = styled.div({
   display: 'flex',
   flexDirection: 'column',
   marginTop: rem(90),
-  marginLeft: spacing('large'),
-  marginRight: spacing('large'),
 });
 
-type ItemProps = {
-  active?: boolean;
-};
+type LinkItemProps = Partial<LinkProps> &
+  Partial<React.AnchorHTMLAttributes<{}>> & {
+    as?: any;
+  };
 
 export const List = styled.ul({
   display: 'flex',
   flexDirection: 'column',
   listStyleType: 'none',
   marginLeft: 0,
+  marginTop: spacing('large'),
+  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
 });
 
 export const activeCss: CSSObject = {
@@ -39,37 +42,76 @@ export const activeCss: CSSObject = {
     borderRadius: border.radius.small,
   },
 };
-export const Item = styled.li<ItemProps>(({ active }) => [
-  {
+const CustomLink: React.FC<LinkItemProps> = ({
+  href,
+  as,
+  to,
+  children,
+  css,
+  ...rest
+}) => {
+  if (to !== undefined && to !== null) {
+    return jsx(as, { css, to, children, ...rest });
+  }
+  return (
+    <a href={href} css={css} {...rest}>
+      {children}
+    </a>
+  );
+};
+
+export const Item: React.FC<LinkItemProps> = props => {
+  const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: spacing('large'),
+    marginTop: spacing('medium'),
     fontSize: rem(20),
     color: colors.neutral[20],
     cursor: 'pointer',
+    textDecoration: 'none',
     '&:hover': activeCss,
-  },
-  active && activeCss,
-]);
+    '&.active': activeCss,
+  };
+  return <CustomLink css={linkCss} {...props} />;
+};
 
-export const ItemCaption = styled.p({
+export const SubMenuItem: React.FC<LinkItemProps> = props => {
+  const linkCss: CSSObject = {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: spacing('medium'),
+    marginLeft: spacing('large'),
+    fontSize: rem(20),
+    color: colors.neutral[20],
+    textDecoration: 'none',
+    cursor: 'pointer',
+    '&:hover': {
+      color: colors.neutral[10],
+    },
+    '&.active': {
+      color: colors.neutral[10],
+    },
+  };
+  return <CustomLink css={linkCss} {...props} />;
+};
+
+export const ItemCaption = styled.span({
   marginLeft: spacing(),
 });
 
 export const ItemCount = styled.p({
   marginLeft: 'auto',
+  marginRight: spacing(),
 });
 
 export const SectionItem = styled.li({
-  marginTop: spacing('large'),
-  paddingTop: spacing(),
-  paddingBottom: spacing(),
-  fontSize: rem(22),
-  color: colors.neutral[10],
+  marginTop: spacing('medium'),
+  paddingLeft: spacing('large'),
+  fontSize: rem(20),
+  color: colors.neutral[20],
   textTransform: 'uppercase',
-  borderTop: `${border.width}px solid ${colors.neutral[60]}`,
-  borderBottom: `${border.width}px solid ${colors.neutral[60]}`,
 });
 
 export const CenteredLogo = styled.div({
@@ -107,7 +149,7 @@ export const Icon = styled.div({
   height: rem(40),
   width: rem(40),
   border: `${border.width}px solid ${colors.neutral[60]}`,
-  borderRadius: border.radius.small,
+  borderRadius: border.radius.largest,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -121,7 +163,10 @@ export const Icon = styled.div({
 export const LinkItem = styled.p({
   marginTop: 0,
 });
-
+export const HamburgerMenuFooter = styled.div({
+  margin: spacing(),
+  marginTop: spacing('large'),
+});
 export const CuracaoSection = styled.div({
   display: 'flex',
   flexDirection: 'row',
