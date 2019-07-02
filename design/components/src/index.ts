@@ -10,7 +10,6 @@ export * from './heading';
 export * from './link';
 export * from './loader';
 export * from './nav';
-export * from './route-link';
 export * from './select';
 export * from './switch';
 export * from './text-input';
