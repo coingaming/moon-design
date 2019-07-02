@@ -11,7 +11,7 @@ import {
   Button,
 } from '@heathmont/sportsbet-components';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { IconEuro } from '@heathmont/sportsbet-icons/lib/svg/IconEuro';
+import { IconCurrencyEur } from '@heathmont/sportsbet-icons/lib/svg/IconCurrencyEur';
 
 jsx;
 
@@ -20,7 +20,7 @@ export const EuroWallet: React.FC<{}> = () => {
 
   if (!backSided) {
     return (
-      <Card flex backgroundIcon={<IconEuro />} template="front">
+      <Card flex backgroundIcon={<IconCurrencyEur />} template="front">
         <CardToggle
           onClick={() => {
             toggle(!backSided);
