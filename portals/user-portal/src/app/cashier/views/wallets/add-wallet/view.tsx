@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
-import { IconCurrency } from '@heathmont/sportsbet-icons';
+import { GroupIconCurrency } from '@heathmont/sportsbet-icons';
 import {
   AddWalletCard,
   AddWalletsContainer,
@@ -13,7 +13,6 @@ import {
 } from '@heathmont/sportsbet-user-portal-components';
 import { Button, Heading } from '@heathmont/sportsbet-components';
 
-import { colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
 import { SubNavigation } from '../../../../nav/components/sub-navigation/sub-nav';
 import { NonLoggedNav } from '../../../../nav/dumb-components/non-logged-in-nav';
@@ -45,7 +44,10 @@ export const AddWalletView = () => {
           </WalletBackNav>
         </CashierHeader>
         <AddWalletsContainer>
-          <AddWalletCard active backgroundIcon={<IconCurrency name="EUR" />}>
+          <AddWalletCard
+            active
+            backgroundIcon={<GroupIconCurrency name="EUR" />}
+          >
             <Heading size="echo" as="p">
               Euro
             </Heading>
@@ -53,13 +55,17 @@ export const AddWalletView = () => {
           {walletCards.map(() => {
             return (
               <Fragment>
-                <AddWalletCard backgroundIcon={<IconCurrency name="INR" />}>
+                <AddWalletCard
+                  backgroundIcon={<GroupIconCurrency name="INR" />}
+                >
                   <Heading size="echo" as="p">
                     Indian Rupee
                   </Heading>
                   <Button modifier="optional">Add</Button>
                 </AddWalletCard>
-                <AddWalletCard backgroundIcon={<IconCurrency name="BTC" />}>
+                <AddWalletCard
+                  backgroundIcon={<GroupIconCurrency name="BTC" />}
+                >
                   <Heading size="echo" as="p">
                     Bitcoin
                   </Heading>
