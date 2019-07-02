@@ -23,7 +23,6 @@ import { IconSportsPolitics } from '../svg/IconSportsPolitics';
 import { IconSportsPool } from '../svg/IconSportsPool';
 import { IconSportsPopular } from '../svg/IconSportsPopular';
 import { IconSportsRugby } from '../svg/IconSportsRugby';
-import { IconSportsSinuca } from '../svg/IconSportsSinuca';
 import { IconSportsSki } from '../svg/IconSportsSki';
 import { IconSportsSnooker } from '../svg/IconSportsSnooker';
 import { IconSportsSpecial } from '../svg/IconSportsSpecial';
@@ -32,6 +31,13 @@ import { IconSportsTableTennis } from '../svg/IconSportsTableTennis';
 import { IconSportsTennis } from '../svg/IconSportsTennis';
 import { IconSportsVolleyBall } from '../svg/IconSportsVolleyBall';
 import { IconSportsWaterPolo } from '../svg/IconSportsWaterPolo';
+
+/**
+ * ⚠ DEPRECATED
+ * Please use an un-aliased icon.
+ * @TODO Delete in next major version.
+ */
+const IconSportsSinuca = IconSportsSnooker;
 
 type IconSportsName =
   | 'sport-americanfootball'
