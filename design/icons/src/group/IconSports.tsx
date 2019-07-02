@@ -33,7 +33,7 @@ import { IconSportsTennis } from '../svg/IconSportsTennis';
 import { IconSportsVolleyBall } from '../svg/IconSportsVolleyBall';
 import { IconSportsWaterPolo } from '../svg/IconSportsWaterPolo';
 
-type IconSportsName =
+export type GroupIconSportsName =
   | 'sport-americanfootball'
   | 'sport-badminton'
   | 'sport-baseball'
@@ -68,7 +68,7 @@ type IconSportsName =
   | 'sport-special';
 
 export type GroupIconSportsProps = {
-  name: IconSportsName;
+  name: GroupIconSportsName;
   color?: string;
 };
 

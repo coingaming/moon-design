@@ -125,8 +125,13 @@ export {
   GroupIconCurrency,
   GroupIconCurrencyProps,
 } from './group/IconCurrency';
-export { GroupIconSports, GroupIconSportsProps } from './group/IconSports';
+export {
+  GroupIconSports,
+  GroupIconSportsProps,
+  GroupIconSportsName,
+} from './group/IconSports';
 export {
   GroupIconThirdParty,
   GroupIconThirdPartyProps,
+  GroupIconThirdPartyName,
 } from './group/IconThirdParty';
