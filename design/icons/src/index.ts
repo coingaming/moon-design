@@ -7,7 +7,7 @@ export { IconArrowLeft } from './svg/IconArrowLeft';
 export { IconArrowLeftRight } from './svg/IconArrowLeftRight';
 export { IconArrowUpDown } from './svg/IconArrowUpDown';
 export { IconAsianView } from './svg/IconAsianView';
-export { IconBitcoin } from './svg/IconBitcoin';
+export { IconBitcoinTalk } from './svg/IconBitcoinTalk';
 export { IconCalendar } from './svg/IconCalendar';
 export { IconCashOut } from './svg/IconCashOut';
 export { IconChevronDown } from './svg/IconChevronDown';
@@ -42,14 +42,15 @@ export { IconCurrencyUsd } from './svg/IconCurrencyUsd';
 export { IconCurrencyVes } from './svg/IconCurrencyVes';
 export { IconCurrencyVnd } from './svg/IconCurrencyVnd';
 export { IconEdit } from './svg/IconEdit';
-export { IconEuro } from './svg/IconEuro';
+export { IconFacebook } from './svg/IconFacebook';
 export { IconFilter } from './svg/IconFilter';
 export { IconFreebet } from './svg/IconFreebet';
+export { IconGoogle } from './svg/IconGoogle';
 export { IconHamburger } from './svg/IconHamburger';
 export { IconHome } from './svg/IconHome';
-export { IconHorseRacing } from './svg/IconHorseRacing';
 export { IconHyperlink } from './svg/IconHyperlink';
 export { IconInPlay } from './svg/IconInPlay';
+export { IconInstagram } from './svg/IconInstagram';
 export { IconLargeCalc } from './svg/IconLargeCalc';
 export { IconLargeCard } from './svg/IconLargeCard';
 export { IconLargeLock } from './svg/IconLargeLock';
@@ -66,6 +67,7 @@ export { IconPlay } from './svg/IconPlay';
 export { IconPriceBoost } from './svg/IconPriceBoost';
 export { IconProfile } from './svg/IconProfile';
 export { IconSearch } from './svg/IconSearch';
+export { IconSettings } from './svg/IconSettings';
 export { IconSportsAmericanFootBall } from './svg/IconSportsAmericanFootBall';
 export { IconSportsBadminton } from './svg/IconSportsBadminton';
 export { IconSportsBaseBall } from './svg/IconSportsBaseBall';
@@ -87,7 +89,6 @@ export { IconSportsPolitics } from './svg/IconSportsPolitics';
 export { IconSportsPool } from './svg/IconSportsPool';
 export { IconSportsPopular } from './svg/IconSportsPopular';
 export { IconSportsRugby } from './svg/IconSportsRugby';
-export { IconSportsSinuca } from './svg/IconSportsSinuca';
 export { IconSportsSki } from './svg/IconSportsSki';
 export { IconSportsSnooker } from './svg/IconSportsSnooker';
 export { IconSportsSpecial } from './svg/IconSportsSpecial';
@@ -96,27 +97,34 @@ export { IconSportsTableTennis } from './svg/IconSportsTableTennis';
 export { IconSportsTennis } from './svg/IconSportsTennis';
 export { IconSportsVolleyBall } from './svg/IconSportsVolleyBall';
 export { IconSportsWaterPolo } from './svg/IconSportsWaterPolo';
-export { IconSoccer } from './svg/IconSoccer';
 export { IconStats } from './svg/IconStats';
-export { IconSettings } from './svg/IconSettings';
 export { IconSuccess } from './svg/IconSuccess';
-export { IconBitcoinTalk } from './svg/IconBitcoinTalk';
-export { IconFacebook } from './svg/IconFacebook';
-export { IconGoogle } from './svg/IconGoogle';
-export { IconInstagram } from './svg/IconInstagram';
 export { IconTelegram } from './svg/IconTelegram';
 export { IconTwitter } from './svg/IconTwitter';
-export { IconVkontakte } from './svg/IconVkontakte';
-export { IconYoutube } from './svg/IconYoutube';
 export { IconUpload } from './svg/IconUpload';
+export { IconVkontakte } from './svg/IconVkontakte';
 export { IconWarning } from './svg/IconWarning';
+export { IconYoutube } from './svg/IconYoutube';
+
 export { Background1 } from './backgrounds/Background1';
 export { IconCoins } from './backgrounds/IconCoins';
 export { IconExchange } from './backgrounds/IconExchange';
 export { IconMessage } from './backgrounds/IconMessage';
 export { IconSuccessFlower } from './backgrounds/IconSuccessFlower';
-
 export { IconWarningExclamation } from './backgrounds/IconWarningExclamation';
+
+/**
+ * ⚠ DEPRECATED
+ * Please use an un-aliased icon.
+ * @TODO Delete in next major version.
+ */
+export { IconCurrencyBtc as IconBitcoin } from './svg/IconCurrencyBtc';
+export {
+  IconSportsHorseRacing as IconHorseRacing,
+} from './svg/IconSportsHorseRacing';
+export { IconCurrencyEur as IconEuro } from './svg/IconCurrencyEur';
+export { IconSportsSnooker as IconSportsSinuca } from './svg/IconSportsSnooker';
+export { IconSportsFootBall as IconSoccer } from './svg/IconSportsFootBall';
 
 /**
  * Grouped Icons
