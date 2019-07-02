@@ -39,7 +39,7 @@ import { IconSportsWaterPolo } from '../svg/IconSportsWaterPolo';
  */
 const IconSportsSinuca = IconSportsSnooker;
 
-type GroupIconSportsName =
+export type GroupIconSportsName =
   | 'sport-americanfootball'
   | 'sport-badminton'
   | 'sport-baseball'
