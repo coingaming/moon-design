@@ -31,7 +31,7 @@ Each icon **must**:
   1. a kebab-case layer name prefixed with `icon-`
      - this is essential for the [build step](#building).
   1. the export format defined as "SVG".
-- have its color fill set to `#000000`.
+- have its color fill set to `#DE1E7E` (remember "DELETE") if you want the color to be modified.
 
 Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](design/assets/src/icons/svg) directory as the output location.
 
