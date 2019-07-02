@@ -2,7 +2,6 @@
 import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 import { Button } from '@heathmont/sportsbet-components/lib/button';
-import { container } from '@heathmont/sportsbet-utils/lib/container';
 import {
   CashierLayout,
   CashierHeading,
@@ -14,7 +13,7 @@ import {
   WalletMobileButton,
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
-import { Heading, RouteLink } from '@heathmont/sportsbet-components';
+import { Heading } from '@heathmont/sportsbet-components';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
@@ -62,14 +61,14 @@ export const WalletsView = () => {
             <EuroWallet />
           </WalletWrapper>
           <WalletWrapper mobileHidden>
-            <RouteLink to="/add-wallet" as={NavLink}>
-              <AddWalletCardContainer>+ Add Wallet</AddWalletCardContainer>
-            </RouteLink>
+            <AddWalletCardContainer to="/add-wallet" as={NavLink}>
+              + Add Wallet
+            </AddWalletCardContainer>
           </WalletWrapper>
         </WalletsContainer>
-        <RouteLink to="/add-wallet" as={NavLink}>
-          <WalletMobileButton>+ Add Wallet</WalletMobileButton>
-        </RouteLink>
+        <WalletMobileButton to="/add-wallet" as={NavLink}>
+          + Add Wallet
+        </WalletMobileButton>
         <TransactionsSection>
           {/* <CashierHeading>Transactions</CashierHeading> */}
           <Heading

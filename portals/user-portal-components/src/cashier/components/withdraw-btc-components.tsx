@@ -1,13 +1,13 @@
 /** @jsx jsx */
 import * as React from 'react';
-import { jsx } from '@emotion/core';
+import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
-import { NavLink, NavLinkProps } from 'react-router-dom';
+import { NavLinkProps } from 'react-router-dom';
 import { IconArrowLeft } from '@heathmont/sportsbet-icons';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import styled from '@emotion/styled';
-import { RouteLink, Link } from '@heathmont/sportsbet-components';
+import { Link, LinkProps } from '@heathmont/sportsbet-components';
 
 jsx;
 
@@ -138,7 +138,7 @@ export const WithdrawBTCSibebarArea = styled.div({
   },
 });
 
-export const WithdrawBTCSidebarBanner = styled.div({
+const cashierBanner: CSSObject = {
   display: 'flex',
   flexDirection: 'column',
   padding: spacing('medium'),
@@ -148,15 +148,16 @@ export const WithdrawBTCSidebarBanner = styled.div({
   '&:hover': {
     backgroundColor: colors.neutral[70],
   },
-});
-
-export const CashierBanner: React.FC<NavLinkProps> = ({ children, to }) => {
-  return (
-    <RouteLink as={NavLink} css={{ textDecoration: 'none' }} to={to}>
-      <WithdrawBTCSidebarBanner>{children}</WithdrawBTCSidebarBanner>
-    </RouteLink>
-  );
 };
+
+export const CashierBanner: React.FC<LinkProps> = ({
+  children,
+  ...props // for all LinkProps, eg "as", "to" etc..
+}) => (
+  <Link {...props} css={cashierBanner}>
+    {children}
+  </Link>
+);
 
 export const WithdrawBTCSidebarBannerHeader = styled.div({
   display: 'flex',
