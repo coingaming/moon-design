@@ -11,6 +11,7 @@ import {
   animation,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { Link, LinkProps } from '@heathmont/sportsbet-components';
 
 jsx;
 
@@ -37,36 +38,58 @@ const borderAddWallet: CSSObject = {
   },
 };
 
-export const AddWalletCardContainer = styled.div([
-  borderAddWallet,
-  caption,
-  {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexWrap: 'wrap',
-    minHeight: rem(170),
-    cursor: 'pointer',
-  },
-]);
+export const AddWalletCardContainer: React.FC<LinkProps> = ({
+  children,
+  ...props
+}) => (
+  <Link
+    {...props} // for all LinkProps, eg "as", "to" etc..
+    css={[
+      borderAddWallet,
+      caption,
+      {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexWrap: 'wrap',
+        minHeight: rem(170),
+      },
+    ]}
+  >
+    {children}
+  </Link>
+);
 
-export const WalletMobileButton = styled.button([
-  borderAddWallet,
-  caption,
-  {
-    marginTop: spacing(),
-    width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
-    height: rem(50),
-    marginLeft: spacing('large'),
-    marginRight: spacing('large'),
-    paddingTop: spacing(),
-    paddingBottom: spacing(),
-    [mq(breakpoints.medium)]: {
-      display: 'none',
-    },
-  },
-]);
+export const WalletMobileButton: React.FC<LinkProps> = ({
+  children,
+  ...props
+}) => {
+  return (
+    <Link
+      {...props} // for all LinkProps, eg "as", "to" etc..
+      css={[
+        borderAddWallet,
+        caption,
+        {
+          marginTop: spacing(),
+          width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
+          height: rem(50),
+          marginLeft: spacing('large'),
+          marginRight: spacing('large'),
+          paddingTop: spacing(),
+          paddingBottom: spacing(),
+          textDecoration: 'none',
+          [mq(breakpoints.medium)]: {
+            display: 'none',
+          },
+        },
+      ]}
+    >
+      {children}
+    </Link>
+  );
+};
 
 const switcher: CSSObject = {
   position: 'relative',
