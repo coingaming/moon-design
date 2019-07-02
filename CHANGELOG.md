@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
+
+
+### Bug Fixes
+
+* **icons:** currentColor conversion ([4471c71](https://github.com/coingaming/sportsbet-design/commit/4471c71))
+* **link:** buttonModifier prop is optional ([f73e895](https://github.com/coingaming/sportsbet-design/commit/f73e895))
+
+
+### Features
+
+* **icons:** update BTC icon ([c97770e](https://github.com/coingaming/sportsbet-design/commit/c97770e))
+
+
+
+
+
 ## [0.65.3](https://github.com/coingaming/sportsbet-design/compare/v0.65.2...v0.65.3) (2019-07-02)
 
 
