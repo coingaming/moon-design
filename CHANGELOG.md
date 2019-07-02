@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.65.2](https://github.com/coingaming/sportsbet-design/compare/v0.65.1...v0.65.2) (2019-07-02)
+
+
+### Bug Fixes
+
+* **menu:** mobile side menu changes ([e861abb](https://github.com/coingaming/sportsbet-design/commit/e861abb))
+
+
+
+
+
 ## [0.65.1](https://github.com/coingaming/sportsbet-design/compare/v0.65.0...v0.65.1) (2019-07-01)
 
 
