@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="icon-filter" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <use id="icon-filter" fill="#DE1E7E" fill-rule="nonzero" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>
