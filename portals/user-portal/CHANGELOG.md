@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.65.3](https://github.com/coingaming/sportsbet-design/compare/v0.65.2...v0.65.3) (2019-07-02)
+
+
+### Bug Fixes
+
+* **add-wallet:** fix imports ([8a2d5e2](https://github.com/coingaming/sportsbet-design/commit/8a2d5e2))
+* RouteLink cleanup ([6eefa05](https://github.com/coingaming/sportsbet-design/commit/6eefa05))
+
+
+
+
+
 ## [0.65.2](https://github.com/coingaming/sportsbet-design/compare/v0.65.1...v0.65.2) (2019-07-02)
 
 

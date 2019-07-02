@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.65.3](https://github.com/coingaming/sportsbet-design/compare/v0.65.2...v0.65.3) (2019-07-02)
+
+
+### Bug Fixes
+
+* RouteLink cleanup ([6eefa05](https://github.com/coingaming/sportsbet-design/commit/6eefa05))
+
+
+
+
+
 ## [0.65.1](https://github.com/coingaming/sportsbet-design/compare/v0.65.0...v0.65.1) (2019-07-01)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
