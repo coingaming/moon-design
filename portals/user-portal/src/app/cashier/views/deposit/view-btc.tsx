@@ -112,7 +112,7 @@ export const DepositViewBTC = () => {
           </DepositBTCQrArea>
           <DepositBTCBannersArea>
             <DepositBTCBannersRowItem>
-              <CashierBanner to="/cashier">
+              <CashierBanner as={NavLink} to="/cashier">
                 <WithdrawBTCSidebarBannerHeader>
                   <WithdrawBTCSidebarBannerHeaderIcon>
                     <IconMessage />
@@ -129,7 +129,7 @@ export const DepositViewBTC = () => {
             </DepositBTCBannersRowItem>
 
             <DepositBTCBannersRowItem>
-              <CashierBanner to="/cashier">
+              <CashierBanner as={NavLink} to="/cashier">
                 <WithdrawBTCSidebarBannerHeader>
                   <WithdrawBTCSidebarBannerHeaderIcon>
                     <IconCoins />
@@ -146,7 +146,7 @@ export const DepositViewBTC = () => {
             </DepositBTCBannersRowItem>
 
             <DepositBTCBannersRowItem>
-              <CashierBanner to="/cashier">
+              <CashierBanner as={NavLink} to="/cashier">
                 <WithdrawBTCSidebarBannerHeader>
                   <WithdrawBTCSidebarBannerHeaderIcon>
                     <IconExchange />
