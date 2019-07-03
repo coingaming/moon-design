@@ -38,6 +38,7 @@ import {
   IconAsianView,
   IconAllSports,
   IconLogoPlain,
+  IconBombayClub,
 } from '@heathmont/sportsbet-icons';
 import { NavLink } from 'react-router-dom';
 
@@ -124,7 +125,7 @@ export const HamburgerDetailsContent = () => {
           <ItemCaption>World Championship</ItemCaption>
         </SubMenuItem>
         <SubMenuItem>
-          <IconLogoPlain />
+          <IconBombayClub />
           <ItemCaption>Bombay Club</ItemCaption>
         </SubMenuItem>
       </List>
