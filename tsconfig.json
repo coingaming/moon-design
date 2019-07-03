@@ -7,6 +7,7 @@
     { "path": "design/objects" },
     { "path": "design/global" },
     { "path": "design/tokens" },
-    { "path": "design/utils" }
+    { "path": "design/utils" },
+    { "path": "portals/user-portal-components" }
   ]
 }
