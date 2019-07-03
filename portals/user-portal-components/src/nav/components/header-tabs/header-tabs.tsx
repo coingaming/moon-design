@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import * as React from 'react';
+import { FC } from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
@@ -33,7 +33,7 @@ const activeCss: CSSObject = {
   },
 };
 
-export const NavTabItem: React.FC<CustomLinkProps> = props => {
+export const NavTabItem: FC<CustomLinkProps> = props => {
   const linkCss: CSSObject = {
     fontSize: '0.9rem',
     position: 'relative',
