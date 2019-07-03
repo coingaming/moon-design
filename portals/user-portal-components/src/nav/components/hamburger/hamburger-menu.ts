@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled, { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { IconClose } from '@heathmont/sportsbet-icons';
@@ -54,7 +54,7 @@ export const StyledHamburgerIcon = styled(IconClose)({
   },
 });
 
-export const Close = styled.a({
+export const closeStyles: CSSObject = {
   width: rem(40),
   height: rem(40),
   borderRadius: rem(40),
@@ -64,7 +64,8 @@ export const Close = styled.a({
   flexWrap: 'nowrap',
   alignItems: 'center',
   justifyContent: 'center',
-});
+};
+export const Close = styled.div(closeStyles);
 
 export const SummaryHamburgerMenu = styled.div({
   display: 'flex',

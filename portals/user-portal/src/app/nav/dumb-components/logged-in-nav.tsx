@@ -19,8 +19,6 @@ import {
   SearchSection,
   LoggedInButtonsSection,
   CenterProfileIcon,
-  Close,
-  StyledHamburgerIcon,
   CloseBack,
 } from '@heathmont/sportsbet-user-portal-components';
 import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
@@ -28,11 +26,13 @@ import { HeaderTabs } from '../components/header-tabs/header-tabs';
 
 jsx;
 
-export const LoggedInNav: React.FC<{ cross?: boolean }> = ({ cross }) => (
+export const LoggedInNav: React.FC<{ isUserApp?: boolean }> = ({
+  isUserApp,
+}) => (
   <Navigation>
     <HamburgerSection>
-      {cross && <CloseBack />}
-      {!cross && <HamburgerMenu />}
+      {isUserApp && <CloseBack />}
+      {!isUserApp && <HamburgerMenu />}
       <Logo>
         <IconLogo />
       </Logo>
