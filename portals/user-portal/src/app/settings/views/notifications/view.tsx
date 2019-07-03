@@ -25,7 +25,7 @@ export const NotificationsView = () => {
   return (
     <Fragment>
       {isUserLoggedIn ? (
-        <LoggedInNav />
+        <LoggedInNav cross />
       ) : (
         <NonLoggedNav login={() => login(true)} />
       )}
