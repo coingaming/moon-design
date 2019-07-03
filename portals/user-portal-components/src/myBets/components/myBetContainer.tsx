@@ -46,7 +46,12 @@ export const MyBetContainerHeaderPotentialWin = styled.span<{}>({
   marginLeft: rem(5),
 });
 
-export const MyBetContainer = styled.details<{}>({
+export const MyBetContainer = styled.details<{
+  open?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  onToggle?: any;
+}>({
   position: 'relative',
   alignItems: 'center',
   display: 'flex',
