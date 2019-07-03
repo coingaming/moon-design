@@ -6,7 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Link } from '@heathmont/sportsbet-components';
-import { LinkProps } from 'react-router-dom';
+import { CustomLink, CustomLinkProps } from '../custom-link/CustomLink';
 
 jsx;
 
@@ -15,11 +15,6 @@ export const DetailsContainer = styled.div({
   flexDirection: 'column',
   marginTop: rem(90),
 });
-
-type LinkItemProps = Partial<LinkProps> &
-  Partial<React.AnchorHTMLAttributes<{}>> & {
-    as?: any;
-  };
 
 export const List = styled.ul({
   display: 'flex',
@@ -42,25 +37,8 @@ export const activeCss: CSSObject = {
     borderRadius: border.radius.small,
   },
 };
-const CustomLink: React.FC<LinkItemProps> = ({
-  href,
-  as,
-  to,
-  children,
-  css,
-  ...rest
-}) => {
-  if (to !== undefined && to !== null) {
-    return jsx(as, { css, to, children, ...rest });
-  }
-  return (
-    <a href={href} css={css} {...rest}>
-      {children}
-    </a>
-  );
-};
 
-export const Item: React.FC<LinkItemProps> = props => {
+export const Item: React.FC<CustomLinkProps> = props => {
   const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
@@ -76,7 +54,7 @@ export const Item: React.FC<LinkItemProps> = props => {
   return <CustomLink css={linkCss} {...props} />;
 };
 
-export const SubMenuItem: React.FC<LinkItemProps> = props => {
+export const SubMenuItem: React.FC<CustomLinkProps> = props => {
   const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
@@ -131,7 +109,6 @@ export const column: CSSObject = {
 };
 
 export const Balance = styled.span({
-  color: colors.neutral[10],
   fontSize: rem(24),
   lineHeight: '2rem',
   '&:hover': {
@@ -188,10 +165,20 @@ export const TopMenuSection = styled.div({
   marginTop: spacing('large'),
 });
 
-export const TopMenuLink = styled(Link)([
+export const TopMenuLink = styled(Link)(({ optional }) => [
   column,
   {
     '& > svg': { fontSize: '1.5rem', marginBottom: spacing('small') },
+  },
+  optional && {
+    '& > svg, & > span, & > p': {
+      color: colors.neutral[20],
+    },
+    '&:hover, &:focus, &:active, &.active': {
+      '& > svg, & > span, & > p': {
+        color: colors.neutral[10],
+      },
+    },
   },
 ]);
 
