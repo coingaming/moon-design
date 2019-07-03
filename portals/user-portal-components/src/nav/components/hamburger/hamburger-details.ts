@@ -1,14 +1,10 @@
-/** @jsx jsx */
-import * as React from 'react';
+import { FC } from 'react';
 import styled, { CSSObject } from '@emotion/styled';
-import { jsx } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Link } from '@heathmont/sportsbet-components';
 import { CustomLink, CustomLinkProps } from '../custom-link/CustomLink';
-
-jsx;
 
 export const DetailsContainer = styled.div({
   display: 'flex',
@@ -37,43 +33,36 @@ export const activeCss: CSSObject = {
     borderRadius: border.radius.small,
   },
 };
+export const Item: FC<CustomLinkProps> = styled(CustomLink)({
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'center',
+  marginTop: spacing('medium'),
+  fontSize: rem(20),
+  color: colors.neutral[20],
+  cursor: 'pointer',
+  textDecoration: 'none',
+  '&:hover': activeCss,
+  '&.active': activeCss,
+});
 
-export const Item: React.FC<CustomLinkProps> = props => {
-  const linkCss: CSSObject = {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginTop: spacing('medium'),
-    fontSize: rem(20),
-    color: colors.neutral[20],
-    cursor: 'pointer',
-    textDecoration: 'none',
-    '&:hover': activeCss,
-    '&.active': activeCss,
-  };
-  return <CustomLink css={linkCss} {...props} />;
-};
-
-export const SubMenuItem: React.FC<CustomLinkProps> = props => {
-  const linkCss: CSSObject = {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginTop: spacing('medium'),
-    marginLeft: spacing('large'),
-    fontSize: rem(20),
-    color: colors.neutral[20],
-    textDecoration: 'none',
-    cursor: 'pointer',
-    '&:hover': {
-      color: colors.neutral[10],
-    },
-    '&.active': {
-      color: colors.neutral[10],
-    },
-  };
-  return <CustomLink css={linkCss} {...props} />;
-};
+export const SubMenuItem: FC<CustomLinkProps> = styled(CustomLink)({
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'center',
+  marginTop: spacing('medium'),
+  marginLeft: spacing('large'),
+  fontSize: rem(20),
+  color: colors.neutral[20],
+  textDecoration: 'none',
+  cursor: 'pointer',
+  '&:hover': {
+    color: colors.neutral[10],
+  },
+  '&.active': {
+    color: colors.neutral[10],
+  },
+});
 
 export const ItemCaption = styled.span({
   marginLeft: spacing(),
@@ -171,11 +160,11 @@ export const TopMenuLink = styled(Link)(({ optional }) => [
     '& > svg': { fontSize: '1.5rem', marginBottom: spacing('small') },
   },
   optional && {
-    '& > svg, & > span, & > p': {
+    '& > svg, span, p': {
       color: colors.neutral[20],
     },
     '&:hover, &:focus, &:active, &.active': {
-      '& > svg, & > span, & > p': {
+      '& > svg, span, p': {
         color: colors.neutral[10],
       },
     },
