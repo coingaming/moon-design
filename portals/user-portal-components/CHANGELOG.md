@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
+
+
+### Bug Fixes
+
+* **my-bets:** Broken styles on Mobile ([374ffd1](https://github.com/coingaming/sportsbet-design/commit/374ffd1))
+
+
+### Features
+
+* **my-bets:** details support open & onToggle props ([cdc89d8](https://github.com/coingaming/sportsbet-design/commit/cdc89d8))
+
+
+
+
+
 # [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
