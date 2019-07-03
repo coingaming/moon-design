@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import * as React from 'react';
+import { FC } from 'react';
 import rem from 'polished/lib/helpers/rem';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
@@ -9,7 +9,7 @@ import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
 
 jsx;
 
-export const MyBets: React.FC<CustomLinkProps> = props => {
+export const MyBets: FC<CustomLinkProps> = props => {
   const linkCss: CSSObject = {
     display: 'none',
     [mq(breakpoints.small)]: {

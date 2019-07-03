@@ -1,12 +1,12 @@
 /** @jsx jsx */
-import * as React from 'react';
+import { FC } from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
 
-export const Userhub: React.FC<CustomLinkProps> = props => {
+export const Userhub: FC<CustomLinkProps> = props => {
   const linkCss: CSSObject = {
     display: 'flex',
     flexDirection: 'row',
