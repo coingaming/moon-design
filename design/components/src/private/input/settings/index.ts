@@ -17,7 +17,7 @@ const inputIconOffset = inputIconSize + inputSpacing + inputIconPosition;
 const inputColors = {
   label: colors.neutral[20],
   text: colors.neutral[10],
-  icon: colors.neutral[30],
+  icon: colors.neutral[20],
   border: colors.neutral[60],
   background: colors.neutral[70],
   disabled: colors.neutral[50],
