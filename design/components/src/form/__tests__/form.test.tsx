@@ -3,6 +3,7 @@ import { create } from 'react-test-renderer';
 import {
   Form,
   FormItem,
+  FormError,
   FormCombo,
   FormComboButton,
   FormComboInput,
@@ -16,6 +17,13 @@ const TestFormItems = () => (
         Name
         <input id="testInput1" type="text" placeholder="e.g. John Appleseed" />
       </label>
+    </FormItem>
+    <FormItem>
+      <label htmlFor="testInput1">
+        Password
+        <input id="testInput1" type="password" />
+      </label>
+      <FormError>Please enter a valid password.</FormError>
     </FormItem>
     <FormItem>
       <label htmlFor="testInput2">

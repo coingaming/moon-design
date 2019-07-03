@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Label } from '../private/label';
 import { Input } from '../private/input';
-import { Error } from '../private/error';
 
 /**
  * Types & Settings
@@ -24,7 +23,7 @@ type TextInputProps = {
   placeholder?: string;
   disabled?: boolean;
   required?: boolean;
-  error?: string;
+  error?: boolean;
 };
 
 const TextInputElem = styled(Input)({
@@ -56,10 +55,7 @@ const TextInput: React.FC<TextInputProps> = ({
   };
 
   const TextInputInner = () => (
-    <React.Fragment>
-      <TextInputElem error={!!error} {...inputProps} />
-      {error && <Error text={error} />}
-    </React.Fragment>
+    <TextInputElem error={!!error} {...inputProps} />
   );
 
   if (!label) {
