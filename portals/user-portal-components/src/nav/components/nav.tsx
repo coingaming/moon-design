@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import * as React from 'react';
+import { FC } from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
@@ -7,7 +7,7 @@ import { colors, breakpoints, typography } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconClose } from '@heathmont/sportsbet-icons';
-import { Close } from './hamburger/hamburger-menu';
+import { closeStyles } from './hamburger/hamburger-menu';
 
 jsx;
 
@@ -74,14 +74,15 @@ const Navigation: React.FC = ({ children }) => {
   );
 };
 
-const CloseBackLink = styled(Close)({
+const CloseBackLink = styled.a({
+  ...closeStyles,
   marginLeft: spacing('small'),
   [mq(breakpoints.medium)]: {
     display: 'none',
   },
 });
 
-const CloseBack: React.FC<React.AnchorHTMLAttributes<{}>> = props => (
+const CloseBack: FC<React.AnchorHTMLAttributes<{}>> = props => (
   <CloseBackLink {...props}>
     <IconClose />
   </CloseBackLink>

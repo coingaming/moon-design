@@ -1,13 +1,9 @@
-/** @jsx jsx */
 import { FC } from 'react';
 import styled, { CSSObject } from '@emotion/styled';
-import { jsx } from '@emotion/core';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
-
-jsx;
 
 export const Tabs = styled.div({
   display: 'none',
@@ -33,27 +29,24 @@ const activeCss: CSSObject = {
   },
 };
 
-export const NavTabItem: FC<CustomLinkProps> = props => {
-  const linkCss: CSSObject = {
-    fontSize: '0.9rem',
-    position: 'relative',
-    textTransform: 'uppercase',
-    letterSpacing: rem(1),
-    marginRight: spacing('small'),
-    marginLeft: spacing('small'),
-    color: colors.neutral[20],
-    paddingTop: rem(30),
-    paddingBottom: rem(30),
-    whiteSpace: 'nowrap',
-    '&:hover, &.active': activeCss,
-    '&:not(:last-child)::after': {
-      content: '""',
-      position: 'absolute',
-      right: `-${spacing('small')}`,
-      width: '1px',
-      height: spacing(),
-      borderRight: `${border.width}px solid ${colors.neutral[50]}`,
-    },
-  };
-  return <CustomLink css={linkCss} {...props} />;
-};
+export const NavTabItem: FC<CustomLinkProps> = styled(CustomLink)({
+  fontSize: '0.9rem',
+  position: 'relative',
+  textTransform: 'uppercase',
+  letterSpacing: rem(1),
+  marginRight: spacing('small'),
+  marginLeft: spacing('small'),
+  color: colors.neutral[20],
+  paddingTop: rem(30),
+  paddingBottom: rem(30),
+  whiteSpace: 'nowrap',
+  '&:hover, &.active': activeCss,
+  '&:not(:last-child)::after': {
+    content: '""',
+    position: 'absolute',
+    right: `-${spacing('small')}`,
+    width: '1px',
+    height: spacing(),
+    borderRight: `${border.width}px solid ${colors.neutral[50]}`,
+  },
+});

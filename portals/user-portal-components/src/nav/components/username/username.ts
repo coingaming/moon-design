@@ -1,25 +1,19 @@
-/** @jsx jsx */
 import { FC } from 'react';
-import styled, { CSSObject } from '@emotion/styled';
-import { jsx } from '@emotion/core';
+import styled from '@emotion/styled';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
 
-export const Userhub: FC<CustomLinkProps> = props => {
-  const linkCss: CSSObject = {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'nowrap',
-    alignItems: 'center',
-    color: colors.neutral[20],
-    '&:hover': {
-      color: colors.neutral[10],
-    },
-  };
-
-  return <CustomLink css={linkCss} {...props} />;
-};
+export const Userhub: FC<CustomLinkProps> = styled(CustomLink)({
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'nowrap',
+  alignItems: 'center',
+  color: colors.neutral[20],
+  '&:hover': {
+    color: colors.neutral[10],
+  },
+});
 
 export const UserhubInfo = styled.div({
   display: 'flex',
