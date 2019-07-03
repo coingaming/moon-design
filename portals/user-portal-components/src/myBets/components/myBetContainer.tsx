@@ -83,7 +83,10 @@ export const MyBetContainer = styled.details<{}>({
 
 export const MyBetHeader = styled.summary({
   display: 'flex',
-  flexDirection: 'row',
+  flexDirection: 'column',
+  [mq(breakpoints.small)]: {
+    flexDirection: 'row',
+  },
   justifyContent: 'space-between',
   alignItems: 'stretch',
   cursor: 'pointer',
