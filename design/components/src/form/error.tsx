@@ -3,14 +3,11 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, spacing } from '@heathmont/sportsbet-utils';
-import { IconWarning, IconCircle } from '@heathmont/sportsbet-icons';
-
-type ErrorProps = {
-  text: string;
-};
+import { IconWarning } from '@heathmont/sportsbet-icons/lib/svg/IconWarning';
+import { IconCircle } from '@heathmont/sportsbet-icons/lib/svg/IconCircle';
 
 /** To be replaced with appropriate SVG */
-const ErrorIcon = styled.i({
+const FormErrorIcon = styled.i({
   display: 'inline-block',
   width: rem(14),
   height: rem(14),
@@ -24,7 +21,7 @@ const ErrorIcon = styled.i({
     ${inlineSVG(<IconCircle color={colors.error} />)}`,
 });
 
-const ErrorMessage = styled.span({
+const FormErrorMessage = styled.p({
   display: 'inline-block',
   marginTop: spacing('small'),
   fontSize: rem(12),
@@ -36,13 +33,13 @@ const ErrorMessage = styled.span({
  *
  * Consistent inline error messages for forms
  */
-const Error: React.FC<ErrorProps> = ({ text, ...props }) => {
+const FormError: React.FC = ({ children, ...props }) => {
   return (
-    <ErrorMessage {...props}>
-      <ErrorIcon />
-      {text}
-    </ErrorMessage>
+    <FormErrorMessage {...props} role="alert">
+      <FormErrorIcon />
+      {children}
+    </FormErrorMessage>
   );
 };
 
-export { Error, ErrorProps };
+export { FormError };
