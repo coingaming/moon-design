@@ -8,6 +8,7 @@ export { IconArrowLeftRight } from './svg/IconArrowLeftRight';
 export { IconArrowUpDown } from './svg/IconArrowUpDown';
 export { IconAsianView } from './svg/IconAsianView';
 export { IconBitcoinTalk } from './svg/IconBitcoinTalk';
+export { IconBombayClub } from './svg/IconBombayClub';
 export { IconCalendar } from './svg/IconCalendar';
 export { IconCashOut } from './svg/IconCashOut';
 export { IconChevronDown } from './svg/IconChevronDown';

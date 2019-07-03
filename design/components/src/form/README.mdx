@@ -27,10 +27,17 @@ Handling user-submitted information.
 
    A wrapper for each top-level input or fieldset.
 
+3. **Form Error**
+
+   A generic text component for diplaying error messages to the user.
+
 ```jsx
 <Form legend="Example form" action="#">
   <FormItem>{/* input|fieldset */}</FormItem>
-  <FormItem>{/* input|fieldset */}</FormItem>
+  <FormItem>
+    {/* input|fieldset */}
+    <FormError>Invalid password!</FormError>
+  </FormItem>
 </Form>
 ```
 
@@ -45,10 +52,12 @@ An example sign-up form, making use of other input components to collect user-en
   </FormItem>
   <FormItem>
     <TextInput
+      error
       label="Email"
       type="email"
       placeholder="e.g. john@coingaming.io"
     />
+    <FormError>Please enter a valid email address.</FormError>
   </FormItem>
   <FormItem>
     <Select label="Country of residence" flex>
@@ -84,6 +93,24 @@ For micro-journeys, consider using a combo item.
         <Button>Submit</Button>
       </FormComboButton>
     </FormCombo>
+  </FormItem>
+</Form>
+```
+
+When including an error message, append below the `FormCombo` element
+
+```jsx react-live
+<Form legend="Enable Two-Factor Authentication" maxWidth="25rem">
+  <FormItem>
+    <FormCombo>
+      <FormComboInput>
+        <TextInput error placeholder="Enter code" />
+      </FormComboInput>
+      <FormComboButton>
+        <Button>Submit</Button>
+      </FormComboButton>
+    </FormCombo>
+    <FormError>You have entered an invalid code.</FormError>
   </FormItem>
 </Form>
 ```
