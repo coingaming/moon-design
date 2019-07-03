@@ -50,14 +50,14 @@ describe('TextInput', () => {
   test('renders as an `error` when defined', () => {
     const textInput = create(
       <fieldset>
-        <TextInput label="Text" type="text" error="Invalid text" />
-        <TextInput label="Date" type="date" error="Invalid text" />
-        <TextInput label="Email" type="email" error="Invalid text" />
-        <TextInput label="Number" type="number" error="Invalid text" />
-        <TextInput label="Password" type="password" error="Invalid text" />
-        <TextInput label="Search" type="search" error="Invalid text" />
-        <TextInput label="Telephone" type="tel" error="Invalid text" />
-        <TextInput label="URL" type="url" error="Invalid text" />
+        <TextInput label="Text" type="text" error />
+        <TextInput label="Date" type="date" error />
+        <TextInput label="Email" type="email" error />
+        <TextInput label="Number" type="number" error />
+        <TextInput label="Password" type="password" error />
+        <TextInput label="Search" type="search" error />
+        <TextInput label="Telephone" type="tel" error />
+        <TextInput label="URL" type="url" error />
       </fieldset>
     );
     expect(textInput).toMatchSnapshot();
