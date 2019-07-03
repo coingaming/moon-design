@@ -6,6 +6,8 @@ import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors, breakpoints, typography } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+import { IconClose } from '@heathmont/sportsbet-icons';
+import { Close } from './hamburger/hamburger-menu';
 
 jsx;
 
@@ -72,4 +74,17 @@ const Navigation: React.FC = ({ children }) => {
   );
 };
 
-export { Navigation };
+const CloseBackLink = styled(Close)({
+  marginLeft: spacing('small'),
+  [mq(breakpoints.medium)]: {
+    display: 'none',
+  },
+});
+
+const CloseBack: React.FC<React.AnchorHTMLAttributes<{}>> = props => (
+  <CloseBackLink {...props}>
+    <IconClose />
+  </CloseBackLink>
+);
+
+export { Navigation, CloseBack };

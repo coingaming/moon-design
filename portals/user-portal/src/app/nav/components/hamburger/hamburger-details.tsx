@@ -163,6 +163,9 @@ export const HamburgerDetailsContent = () => {
               <GroupIconThirdParty name="facebook" />
             </Icon>
             <Icon>
+              <GroupIconThirdParty name="instagram" />
+            </Icon>
+            <Icon>
               <GroupIconThirdParty name="google" />
             </Icon>
             <Icon>

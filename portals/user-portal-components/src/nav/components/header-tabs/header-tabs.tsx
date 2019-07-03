@@ -1,7 +1,13 @@
+/** @jsx jsx */
+import * as React from 'react';
 import styled, { CSSObject } from '@emotion/styled';
+import { jsx } from '@emotion/core';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
+
+jsx;
 
 export const Tabs = styled.div({
   display: 'none',
@@ -13,10 +19,6 @@ export const Tabs = styled.div({
     minHeight: rem(80),
   },
 });
-
-type TabItemProps = {
-  active?: boolean;
-};
 
 const activeCss: CSSObject = {
   color: colors.neutral[10],
@@ -31,8 +33,8 @@ const activeCss: CSSObject = {
   },
 };
 
-export const NavTabItem = styled.div<TabItemProps>(({ active }) => [
-  {
+export const NavTabItem: React.FC<CustomLinkProps> = props => {
+  const linkCss: CSSObject = {
     fontSize: '0.9rem',
     position: 'relative',
     textTransform: 'uppercase',
@@ -43,7 +45,7 @@ export const NavTabItem = styled.div<TabItemProps>(({ active }) => [
     paddingTop: rem(30),
     paddingBottom: rem(30),
     whiteSpace: 'nowrap',
-    '&:hover': activeCss,
+    '&:hover, &.active': activeCss,
     '&:not(:last-child)::after': {
       content: '""',
       position: 'absolute',
@@ -52,6 +54,6 @@ export const NavTabItem = styled.div<TabItemProps>(({ active }) => [
       height: spacing(),
       borderRight: `${border.width}px solid ${colors.neutral[50]}`,
     },
-  },
-  active && activeCss,
-]);
+  };
+  return <CustomLink css={linkCss} {...props} />;
+};

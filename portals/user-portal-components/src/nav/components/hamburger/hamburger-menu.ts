@@ -54,7 +54,7 @@ export const StyledHamburgerIcon = styled(IconClose)({
   },
 });
 
-export const Close = styled.div({
+export const Close = styled.a({
   width: rem(40),
   height: rem(40),
   borderRadius: rem(40),
