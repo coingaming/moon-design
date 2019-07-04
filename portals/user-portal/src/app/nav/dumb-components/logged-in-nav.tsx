@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
-import { IconProfile, IconLoyality0 } from '@heathmont/sportsbet-icons';
+import {
+  IconProfile,
+  IconLoyality0,
+  IconClose,
+} from '@heathmont/sportsbet-icons';
 import {
   Navigation,
   IconLogo,
@@ -31,7 +35,12 @@ export const LoggedInNav: React.FC<{ isUserApp?: boolean }> = ({
 }) => (
   <Navigation>
     <HamburgerSection>
-      {isUserApp && <CloseBack />}
+      {isUserApp && (
+        <CloseBack optional>
+          {' '}
+          <IconClose />{' '}
+        </CloseBack>
+      )}
       {!isUserApp && <HamburgerMenu />}
       <Logo>
         <IconLogo />

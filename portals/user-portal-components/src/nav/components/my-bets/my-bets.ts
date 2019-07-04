@@ -1,15 +1,14 @@
 /** @jsx jsx */
-import { FC } from 'react';
 import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 import { jsx } from '@emotion/core';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
-import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
+import { Link } from '@heathmont/sportsbet-components';
 
 jsx;
 
-export const MyBets: FC<CustomLinkProps> = styled(CustomLink)({
+export const MyBets = styled(Link)({
   display: 'none',
   [mq(breakpoints.small)]: {
     display: 'flex',
