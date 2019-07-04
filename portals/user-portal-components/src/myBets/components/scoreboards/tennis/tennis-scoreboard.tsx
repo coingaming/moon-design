@@ -50,9 +50,7 @@ const TitleContainer = styled.div({
   overflow: 'hidden',
   '& > span': {
     marginRight: rem(9),
-    textOverflow: 'ellipsis',
     overflow: 'hidden',
-    whiteSpace: 'nowrap',
   },
 });
 
