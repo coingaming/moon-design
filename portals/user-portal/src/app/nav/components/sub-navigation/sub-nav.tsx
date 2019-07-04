@@ -6,7 +6,9 @@ export const SubNavigation = () => (
     <TabItem to="/cashier">Wallet</TabItem>
     <TabItem to="/my-bets">My bets</TabItem>
     <TabItem to="/bonuses">Bonuses</TabItem>
-    <TabItem to="/notifications">Notifications</TabItem>
+    <TabItem highlight to="/notifications">
+      Notifications
+    </TabItem>
     <TabItem to="/account">Account</TabItem>
     <TabItem to="/settings">Settings</TabItem>
   </Tab>
