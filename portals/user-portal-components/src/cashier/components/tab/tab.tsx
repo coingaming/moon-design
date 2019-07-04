@@ -65,8 +65,8 @@ const TabItem = styled(NavLink, {
   shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-})<{ active?: boolean; rightAligned?: boolean; as?: any }>(
-  ({ rightAligned = false }) => [
+})<{ active?: boolean; rightAligned?: boolean; as?: any; highlight?: boolean }>(
+  ({ rightAligned = false, highlight = false }) => [
     {
       display: 'flex',
       flexDirection: 'column',
@@ -97,6 +97,19 @@ const TabItem = styled(NavLink, {
     rightAligned && {
       [mq(breakpoints.small)]: {
         marginLeft: 'auto',
+      },
+    },
+    highlight && {
+      position: 'relative',
+      '&::after': {
+        content: '""',
+        position: 'absolute',
+        right: `-${spacing('small')}`,
+        top: `calc(50% - ${spacing('small')})`,
+        width: spacing('small'),
+        height: spacing('small'),
+        backgroundColor: colors.brand,
+        borderRadius: border.radius.default,
       },
     },
   ]
