@@ -1,10 +1,9 @@
-import { FC } from 'react';
 import styled from '@emotion/styled';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
+import { Link } from '@heathmont/sportsbet-components';
 
-export const Userhub: FC<CustomLinkProps> = styled(CustomLink)({
+export const Userhub = styled(Link)({
   display: 'flex',
   flexDirection: 'row',
   flexWrap: 'nowrap',
