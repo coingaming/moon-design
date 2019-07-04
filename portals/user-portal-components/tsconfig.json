@@ -3,5 +3,14 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist"
-  }
+  },
+  "references": [
+    { "path": "../../design/components" },
+    { "path": "../../design/global" },
+    { "path": "../../design/icons" },
+    { "path": "../../design/objects" },
+    { "path": "../../design/tokens" },
+    { "path": "../../design/utils" }
+  ],
+  "include": ["src"]
 }

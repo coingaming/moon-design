@@ -46,7 +46,12 @@ export const MyBetContainerHeaderPotentialWin = styled.span<{}>({
   marginLeft: rem(5),
 });
 
-export const MyBetContainer = styled.details<{}>({
+export const MyBetContainer = styled.details<{
+  open?: boolean;
+  /* @TODO Revisit post-EPL */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  onToggle?: any;
+}>({
   position: 'relative',
   alignItems: 'center',
   display: 'flex',
@@ -83,7 +88,10 @@ export const MyBetContainer = styled.details<{}>({
 
 export const MyBetHeader = styled.summary({
   display: 'flex',
-  flexDirection: 'row',
+  flexDirection: 'column',
+  [mq(breakpoints.small)]: {
+    flexDirection: 'row',
+  },
   justifyContent: 'space-between',
   alignItems: 'stretch',
   cursor: 'pointer',
@@ -158,8 +166,6 @@ export const MyBetHeaderCashoutAmount = styled.span({
 export const MyBetHeaderCaption = styled.p({
   color: colors.neutral[20],
   overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  whiteSpace: 'nowrap',
   marginTop: rem(10),
 });
 
