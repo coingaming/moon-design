@@ -1,9 +1,8 @@
-import { FC } from 'react';
 import styled, { CSSObject } from '@emotion/styled';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
-import { CustomLinkProps, CustomLink } from '../custom-link/CustomLink';
+import { Link } from '@heathmont/sportsbet-components';
 
 export const Tabs = styled.div({
   display: 'none',
@@ -29,7 +28,7 @@ const activeCss: CSSObject = {
   },
 };
 
-export const NavTabItem: FC<CustomLinkProps> = styled(CustomLink)({
+export const NavTabItem = styled(Link)({
   fontSize: '0.9rem',
   position: 'relative',
   textTransform: 'uppercase',
