@@ -95,7 +95,14 @@ The different types of branches should be named as follows:
 
 #### Rebasing pull requests example
 
-1. `yarn git:commits` - pick your base commit, where you want add all other commits on top of
+1. Pick your base commit, where you want add all other commits on top of.
+
+   > `git log`
+   >
+   > or the more visually friendly
+   >
+   > `git log --oneline --graph --all --decorate -n 30`
+
 1. `git rebase -i hash` - launches interactive shell where you choose your commits to squash
 1. `git push -f` - force push your git changes
 
