@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
+
+
+### Bug Fixes
+
+* add missing `docs` shortcut script ([0aec7e0](https://github.com/coingaming/sportsbet-design/commit/0aec7e0))
+* **header:** fix navigation links and design ([663f519](https://github.com/coingaming/sportsbet-design/commit/663f519))
+* **icons:** export types for icon ([108963b](https://github.com/coingaming/sportsbet-design/commit/108963b))
+* **my-bets:** Wrap text to the next line if names are too long ([87c400e](https://github.com/coingaming/sportsbet-design/commit/87c400e)), closes [#SPO-4209](https://github.com/coingaming/sportsbet-design/issues/SPO-4209)
+
+
+### Features
+
+* **tabItem:** supports "highlight" prop ([14ecd0a](https://github.com/coingaming/sportsbet-design/commit/14ecd0a)), closes [#SPO-4380](https://github.com/coingaming/sportsbet-design/issues/SPO-4380)
+
+
+
+
+
 # [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
 
 
