@@ -12,6 +12,7 @@
     "test": "node --max_old_space_size=2048 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
     "user-portal": "lerna run --scope @heathmont/sportsbet-user-portal --stream",
     "icons": "lerna run --scope @heathmont/sportsbet-icons --stream",
+    "docs": "lerna run --scope docs --stream",
     "postinstall": "yarn build",
     "update:packages": "yarn lernaupdate",
     "publish:packages": "lerna publish --yes"
