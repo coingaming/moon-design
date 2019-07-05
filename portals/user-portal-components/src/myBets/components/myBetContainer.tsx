@@ -166,8 +166,6 @@ export const MyBetHeaderCashoutAmount = styled.span({
 export const MyBetHeaderCaption = styled.p({
   color: colors.neutral[20],
   overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  whiteSpace: 'nowrap',
   marginTop: rem(10),
 });
 
