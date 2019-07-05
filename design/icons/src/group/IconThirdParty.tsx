@@ -9,7 +9,7 @@ import { IconTwitter } from '../svg/IconTwitter';
 import { IconVkontakte } from '../svg/IconVkontakte';
 import { IconYoutube } from '../svg/IconYoutube';
 
-export type ThirdPartyName =
+export type GroupIconThirdPartyName =
   | 'bitcointalk'
   | 'facebook'
   | 'google'
@@ -20,7 +20,7 @@ export type ThirdPartyName =
   | 'youtube';
 
 export type GroupIconThirdPartyProps = {
-  name: ThirdPartyName;
+  name: GroupIconThirdPartyName;
 };
 
 const thirdPartyIcons = {

@@ -40,4 +40,8 @@ module.exports = {
     filename: '[name].bundle.js',
   },
   plugins,
+
+  watchOptions: {
+    ignored: [/node_modules([\\]+|\/)+(?!@heathmont\/sportsbet-)/], // ignore all modules except Sportsbet ones
+  },
 };
