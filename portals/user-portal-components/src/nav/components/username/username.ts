@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { Link } from '@heathmont/sportsbet-components';
 
-export const Userhub = styled.div({
+export const Userhub = styled(Link)({
   display: 'flex',
   flexDirection: 'row',
   flexWrap: 'nowrap',

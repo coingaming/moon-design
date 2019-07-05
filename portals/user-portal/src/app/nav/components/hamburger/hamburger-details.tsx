@@ -53,7 +53,7 @@ export const HamburgerDetailsContent = () => {
       </CenteredLogo>
       <TopMenuSection>
         <TopMenuLink href="#" optional>
-          <Balance>0</Balance>
+          <Balance>50</Balance>
           <LinkItem>My bets</LinkItem>
         </TopMenuLink>
         <TopMenuLink href="#" optional>
@@ -69,62 +69,62 @@ export const HamburgerDetailsContent = () => {
         <Item to="" as={NavLink}>
           <ItemCaption>Sports</ItemCaption>
         </Item>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconMenuHome />
           <ItemCaption>Home</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconInPlay />
           <ItemCaption>In-Play</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconCalendar />
           <ItemCaption>Upcoming</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconAsianView />
           <ItemCaption>Asian View</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconAllSports />
           <ItemCaption>All Sports</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>News</ItemCaption>
         </SubMenuItem>
       </List>
       <List>
         <SectionItem>Popular</SectionItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>Fantasy</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>Horse Racing</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>Player Props</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>Virtual sports</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>Seria A</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconSportsTennis />
           <ItemCaption>APT</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconLogoPlain />
           <ItemCaption>World Championship</ItemCaption>
         </SubMenuItem>
-        <SubMenuItem>
+        <SubMenuItem optional>
           <IconBombayClub />
           <ItemCaption>Bombay Club</ItemCaption>
         </SubMenuItem>
@@ -162,6 +162,9 @@ export const HamburgerDetailsContent = () => {
           <SocialIcons>
             <Icon>
               <GroupIconThirdParty name="facebook" />
+            </Icon>
+            <Icon>
+              <GroupIconThirdParty name="instagram" />
             </Icon>
             <Icon>
               <GroupIconThirdParty name="google" />

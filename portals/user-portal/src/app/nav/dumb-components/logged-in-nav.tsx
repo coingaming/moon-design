@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx } from '@emotion/core';
-import { IconProfile, IconLoyality0 } from '@heathmont/sportsbet-icons';
+import {
+  IconProfile,
+  IconLoyality0,
+  IconClose,
+} from '@heathmont/sportsbet-icons';
 import {
   Navigation,
   IconLogo,
@@ -19,16 +23,25 @@ import {
   SearchSection,
   LoggedInButtonsSection,
   CenterProfileIcon,
+  CloseBack,
 } from '@heathmont/sportsbet-user-portal-components';
 import { HamburgerMenu } from '../components/hamburger/hamburger-menu';
 import { HeaderTabs } from '../components/header-tabs/header-tabs';
 
 jsx;
 
-export const LoggedInNav = () => (
+export const LoggedInNav: React.FC<{ isUserApp?: boolean }> = ({
+  isUserApp,
+}) => (
   <Navigation>
     <HamburgerSection>
-      <HamburgerMenu />
+      {isUserApp && (
+        <CloseBack optional>
+          {' '}
+          <IconClose />{' '}
+        </CloseBack>
+      )}
+      {!isUserApp && <HamburgerMenu />}
       <Logo>
         <IconLogo />
       </Logo>
