@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
+
+
+### Bug Fixes
+
+* **header:** fix navigation links and design ([663f519](https://github.com/coingaming/sportsbet-design/commit/663f519))
+
+
+### Features
+
+* **tabItem:** supports "highlight" prop ([14ecd0a](https://github.com/coingaming/sportsbet-design/commit/14ecd0a)), closes [#SPO-4380](https://github.com/coingaming/sportsbet-design/issues/SPO-4380)
+
+
+
+
+
 # [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
 
 
