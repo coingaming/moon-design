@@ -4,7 +4,7 @@ import { Tabs, NavTabItem } from '@heathmont/sportsbet-user-portal-components';
 export const HeaderTabs = () => {
   return (
     <Tabs>
-      <NavTabItem active>Sports</NavTabItem>
+      <NavTabItem>Sports</NavTabItem>
       <NavTabItem>Casino</NavTabItem>
       <NavTabItem>E-sports</NavTabItem>
       <NavTabItem>Promo</NavTabItem>
