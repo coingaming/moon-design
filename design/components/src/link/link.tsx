@@ -64,7 +64,7 @@ const Link: React.FC<any> = styled('a', {
   secondary && { color: colors.neutral[20] },
   optional && {
     color: colors.neutral[20],
-    '&:hover, &:focus, &:active': {
+    '&:hover, &:focus, &:active, &.active': {
       color: colors.neutral[10],
     },
   },

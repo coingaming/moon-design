@@ -7,8 +7,6 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build": "yarn && tsc -b",
-    "watch": "yarn && tsc -w",
     "test": "jest"
   },
   "dependencies": {
