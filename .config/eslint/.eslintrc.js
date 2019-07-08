@@ -1,85 +1,32 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
-  extends: [
-    'airbnb',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
-  ],
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
+  extends: ['@heathmont/eslint-config-all'],
   env: {
     browser: true,
     node: true,
     es6: true,
   },
-  plugins: ['@typescript-eslint'],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
   rules: {
     'import/first': 'off', // Unnecessarily compresses JSX comment
-    'import/prefer-default-export': 'off', // We prefer named
-    'react/no-unescaped-entities': 'off', // We're not too fussed about HTML codes.
-    'react/jsx-filename-extension': [
-      'warn',
-      {
-        extensions: ['.jsx', '.tsx'], // Allow JSX in `.tsx`
-      },
-    ],
-    'react/jsx-one-expression-per-line': 'off', // Disable for Prettier
-    'jsx-a11y/label-has-for': 'off', // Deprecated - https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
     //
     // @TODO Implementation
     //
+    'no-unused-vars': 'off',
     'import/no-cycle': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     '@typescript-eslint/no-inferrable-types': 'off',
   },
-  settings: {
-    // Extra settings to support TypeScript with the airbnb config
-    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    },
-  },
   overrides: [
-    {
-      files: ['*.js'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        'no-undef': 'off',
-        'react/prop-types': 'off', // Disable prop-types as we use TypeScript
-        '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/prefer-interface': 'off', // We're not fussy about `interface` vs `type`
-        //
-        // @TODO Implementation - Replace [1] with [2]
-        //
-        '@typescript-eslint/no-unused-vars': 'off', // [1]
-        // '@typescript-eslint/no-unused-vars': [2, { args: 'none' }], // [2]
+        // @TODO Implementation - Remove
+        '@typescript-eslint/no-unused-vars': 'off',
       },
     },
     {
       files: ['*.test.ts', '*.test.tsx'],
       env: {
         jest: true,
-      },
-      rules: {
-        'import/no-extraneous-dependencies': 'off',
       },
     },
   ],
