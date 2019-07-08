@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@heathmont/eslint-config-all'],
+  extends: ['@heathmont/eslint-config-sportsbet'],
   env: {
     browser: true,
     node: true,

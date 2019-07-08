@@ -27,7 +27,7 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "prettier": "@heathmont/prettier-config",
+  "prettier": "@heathmont/prettier-config-sportsbet",
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -58,8 +58,8 @@
     ]
   },
   "devDependencies": {
-    "@heathmont/eslint-config-all": "0.0.2",
-    "@heathmont/prettier-config": "0.0.2",
+    "@heathmont/eslint-config-sportsbet": "0.1.0",
+    "@heathmont/prettier-config-sportsbet": "0.1.0",
     "@svgr/cli": "4.1.0",
     "@types/jest": "24.0.11",
     "@types/react-test-renderer": "16.8.0",
