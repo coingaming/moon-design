@@ -51,6 +51,9 @@ export const LoggedInNav: React.FC<{ isUserApp?: boolean }> = ({
     <SearchSection>
       <Search
         placeholder="Search for a match, event, player etc ..."
+        onChange={e => {
+          console.log(e);
+        }}
         onSubmit={e => {
           e.preventDefault();
           /* eslint-disable-next-line no-console */
