@@ -60,14 +60,18 @@ const iconSearch: CSSObject = {
   },
 };
 
-type SearchProps = {
+type SearchProps = React.InputHTMLAttributes<HTMLInputElement> & {
   placeholder: string;
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  onSubmit: (e: any) => any;
+  onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
 };
 
-export const Search: React.FC<SearchProps> = ({ placeholder, onSubmit }) => {
+export const Search: React.FC<SearchProps> = ({
+  placeholder,
+  onSubmit,
+  ...rest
+}) => {
   return (
     <SearchContainer onSubmit={onSubmit}>
       <IconSearch css={iconSearch} />
@@ -76,6 +80,7 @@ export const Search: React.FC<SearchProps> = ({ placeholder, onSubmit }) => {
         type="search"
         name="search"
         placeholder={placeholder}
+        {...rest}
       />
       <input type="submit" hidden />
     </SearchContainer>
