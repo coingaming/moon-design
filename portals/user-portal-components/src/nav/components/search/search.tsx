@@ -64,7 +64,7 @@ type SearchProps = React.InputHTMLAttributes<HTMLInputElement> & {
   placeholder: string;
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+  onSubmit: (e: any) => any;
 };
 
 export const Search: React.FC<SearchProps> = ({
