@@ -61,35 +61,24 @@ export const AddWalletCardContainer: React.FC<LinkProps> = ({
   </Link>
 );
 
-export const WalletMobileButton: React.FC<LinkProps> = ({
-  children,
-  ...props
-}) => {
-  return (
-    <Link
-      {...props} // for all LinkProps, eg "as", "to" etc..
-      css={[
-        borderAddWallet,
-        caption,
-        {
-          marginTop: spacing(),
-          width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
-          height: rem(50),
-          marginLeft: spacing('large'),
-          marginRight: spacing('large'),
-          paddingTop: spacing(),
-          paddingBottom: spacing(),
-          textDecoration: 'none',
-          [mq(breakpoints.medium)]: {
-            display: 'none',
-          },
-        },
-      ]}
-    >
-      {children}
-    </Link>
-  );
-};
+export const WalletMobileButton = styled(Link)([
+  borderAddWallet,
+  caption,
+  {
+    marginTop: spacing(),
+    textAlign: 'center',
+    width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
+    height: rem(50),
+    marginLeft: spacing('large'),
+    marginRight: spacing('large'),
+    paddingTop: spacing(),
+    paddingBottom: spacing(),
+    textDecoration: 'none',
+    [mq(breakpoints.medium)]: {
+      display: 'none',
+    },
+  },
+]);
 
 const switcher: CSSObject = {
   position: 'relative',
