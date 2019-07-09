@@ -4,7 +4,7 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
 import { IconPlay } from '@heathmont/sportsbet-icons/lib/svg/IconPlay';
-import { SelectionProps } from './football/football-selections';
+import { SelectionProps } from '../scoreboards/football/football-selections';
 
 export type MarketProps = {
   name: string;
