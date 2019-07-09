@@ -4,8 +4,9 @@ import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { FootballSelections } from './football-selections';
-import { Market } from '../market';
+import { Market } from '../../shared/market';
 import { EventProps } from '../scoreboard';
+import { ScoreBoardHeader } from '../header';
 
 export type FootballProps = {
   event: EventProps;
@@ -19,50 +20,6 @@ const FootballCard = styled.div({
   maxWidth: rem(320),
   flexWrap: 'wrap',
   justifyContent: 'center',
-});
-
-const Header = styled.span(({ onClick }) => [
-  {
-    color: colors.neutral[10],
-    gridArea: 'title',
-    textAlign: 'left',
-    fontSize: rem(12),
-    height: rem(40),
-    alignItems: 'center',
-    display: 'flex',
-    paddingLeft: spacing(),
-    paddingRight: spacing(),
-    justifyContent: 'space-between',
-    width: '100%',
-  },
-  onClick && {
-    cursor: 'pointer',
-  },
-]);
-
-const TitleContainer = styled.div({
-  display: 'flex',
-  alignItems: 'center',
-  height: '100%',
-  overflow: 'hidden',
-});
-
-const FootballLeagueTitle = styled.span({
-  marginRight: spacing('small'),
-  textOverflow: 'ellipsis',
-  overflow: 'hidden',
-  whiteSpace: 'nowrap',
-});
-
-const Timer = styled.span({
-  color: colors.neutral[20],
-  textAlign: 'right',
-  marginLeft: rem(10),
-  whiteSpace: 'nowrap',
-});
-
-const BadgeWrapper = styled.div({
-  marginLeft: spacing('xsmall'),
 });
 
 const Score = styled.span({
@@ -122,26 +79,17 @@ const Competitors = styled.div(() => [
   },
 ]);
 
-const onClick = () => {
-  /* eslint-disable-next-line no-console */
-  console.log('on click');
-};
-
 export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
+  const { onClick } = event;
+
   return (
     <FootballCard>
-      <Header onClick={onClick}>
-        <TitleContainer>
-          <FootballLeagueTitle>{event.name}</FootballLeagueTitle>
-          {badges &&
-            badges.map((badge, index) => {
-              /* @TODO Revisit post-EPL */
-              /* eslint-disable-next-line react/no-array-index-key */
-              return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
-            })}
-        </TitleContainer>
-        <Timer>{timer}</Timer>
-      </Header>
+      <ScoreBoardHeader
+        title={event.name}
+        timer={timer}
+        onClick={onClick}
+        badges={badges}
+      />
       <Logos>
         <Logo onClick={onClick}>
           <img
