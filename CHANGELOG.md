@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.68.1](https://github.com/coingaming/sportsbet-design/compare/v0.68.0...v0.68.1) (2019-07-09)
+
+
+### Bug Fixes
+
+* **ESLint:** add peerDependencies ([e747225](https://github.com/coingaming/sportsbet-design/commit/e747225))
+
+
+### Features
+
+* **ESLint:** enable [@heathmont](https://github.com/heathmont)/eslint-config-all ([55050f6](https://github.com/coingaming/sportsbet-design/commit/55050f6))
+
+
+
+
+
 # [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
 
 
