@@ -93,7 +93,7 @@ export const MyBetsView = () => {
               <MyBetHeaderCaption>
                 <MyBetHeaderCaptionDate>17.11.2018</MyBetHeaderCaptionDate>
                 <MyBetHeaderCaptionMatchName>
-                  Double Result (1st set/match) - Martinez Sanchez M Jep jep
+                  Double Result (1st set/match) - Martinez Sanchez M
                 </MyBetHeaderCaptionMatchName>
               </MyBetHeaderCaption>
             </MyBetHeaderContainer>

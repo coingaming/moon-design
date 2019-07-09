@@ -6,9 +6,10 @@ import lodashGet from 'lodash.get';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 
-import { Market } from '../market';
+import { Market } from '../../shared/market';
 import { EventProps } from '../scoreboard';
 import { TennisSelections } from './tennis-selections';
+import { ScoreBoardHeader } from '../header';
 
 export type TennisProps = {
   event: EventProps;
@@ -22,47 +23,6 @@ const Container = styled.div({
   display: 'flex',
   flexWrap: 'nowrap',
   flexDirection: 'column',
-});
-
-const Header = styled.span(({ onClick }) => [
-  {
-    color: colors.neutral[10],
-    gridArea: 'title',
-    textAlign: 'left',
-    fontSize: rem(12),
-    height: rem(40),
-    alignItems: 'center',
-    display: 'flex',
-    paddingLeft: spacing(),
-    paddingRight: spacing(),
-    justifyContent: 'space-between',
-    width: '100%',
-  },
-  onClick && {
-    cursor: 'pointer',
-  },
-]);
-
-const TitleContainer = styled.div({
-  display: 'flex',
-  alignItems: 'center',
-  height: '100%',
-  overflow: 'hidden',
-  '& > span': {
-    marginRight: rem(9),
-    overflow: 'hidden',
-  },
-});
-
-const Timer = styled.span({
-  color: colors.neutral[20],
-  textAlign: 'right',
-  marginLeft: rem(10),
-  whiteSpace: 'nowrap',
-});
-
-const BadgeWrapper = styled.div({
-  marginLeft: spacing('xsmall'),
 });
 
 const ScoreWrapper = styled.span({
@@ -153,18 +113,12 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
 
   return (
     <Container>
-      <Header onClick={onClick}>
-        <TitleContainer>
-          <span>{event.name}</span>
-          {badges &&
-            badges.map((badge, index) => {
-              /* @TODO Revisit post-EPL */
-              /* eslint-disable-next-line react/no-array-index-key */
-              return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
-            })}
-        </TitleContainer>
-        <Timer>{timer}</Timer>
-      </Header>
+      <ScoreBoardHeader
+        title={event.name}
+        timer={timer}
+        badges={badges}
+        onClick={onClick}
+      />
       <ScoreWrapper>
         <Score>
           <TeamName home>{event.competitors.home.name}</TeamName>
