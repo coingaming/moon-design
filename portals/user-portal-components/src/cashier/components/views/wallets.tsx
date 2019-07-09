@@ -1,11 +1,7 @@
 import styled, { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
-
-export const WalletText = styled.p({
-  color: colors.neutral[20],
-});
+import { breakpoints } from '@heathmont/sportsbet-tokens';
 
 export const WalletsContainer = styled.div({
   display: 'flex',
