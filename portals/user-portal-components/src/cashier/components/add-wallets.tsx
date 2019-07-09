@@ -11,26 +11,6 @@ import { cardGradientSizes } from '@heathmont/sportsbet-components/lib/card/util
 import rem from 'polished/lib/helpers/rem';
 import { IconSuccess } from '@heathmont/sportsbet-icons';
 
-export const AddWalletNavigation = styled.span({
-  display: 'flex',
-  justifyContent: 'center',
-  '& > a': {
-    fontSize: rem(20),
-  },
-  '& > span': {
-    textAlign: 'center',
-    flexGrow: 1,
-    paddingRight: spacing('large'),
-  },
-  [mq(breakpoints.medium)]: {
-    '& > a': {
-      marginLeft: spacing('medium'),
-      marginRight: spacing(),
-    },
-    '& > span': { textAlign: 'left' },
-  },
-});
-
 export const AddWalletsContainer = styled.div({
   paddingLeft: spacing(),
   paddingRight: spacing(),
