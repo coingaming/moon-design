@@ -74,6 +74,7 @@ export const TransactionDetail = styled.div({
   marginBottom: spacing('small'),
   [mq(breakpoints.medium)]: {
     marginBottom: 0,
+    minWidth: rem(130),
     justifyContent: 'flex-start',
     '> p,a': {
       [mq(breakpoints.medium)]: {
