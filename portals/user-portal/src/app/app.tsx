@@ -2,7 +2,6 @@ import * as React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { WalletsView } from './cashier/views/wallets/view';
 import { MyBetsView } from './cashier/views/my-bets/view';
-import { DepositView } from './cashier/views/deposit/view';
 import { DepositViewBTC } from './cashier/views/deposit/view-btc';
 import { AccountView } from './settings/views/account/view';
 import { SettingsView } from './settings/views/settings/view';
@@ -18,7 +17,6 @@ export const AppRoutes = () => (
     <Route path="/my-bets" exact component={MyBetsView} />
     <Route path="/cashier" component={WalletsView} />
     <Route path="/add-wallet" exact component={AddWalletView} />
-    <Route path="/deposit" exact component={DepositView} />
     <Route path="/deposit-btc" exact component={DepositViewBTC} />
     <Route path="/withdraw-btc" exact component={WithdrawViewBTC} />
     <Route path="/account" exact component={AccountView} />
