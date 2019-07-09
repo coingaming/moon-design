@@ -3,17 +3,10 @@ import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
-import { SelectionProps } from './football/football-selections';
 
-export type MarketProps = {
-  name: string;
-  selection: SelectionProps;
-};
-
-const Wrapper = styled.span(({ onClick }) => [
+const Wrapper = styled.div(({ onClick }) => [
   {
     color: colors.neutral[10],
-    gridArea: 'Header.tsx',
     textAlign: 'left',
     fontSize: rem(12),
     height: rem(40),

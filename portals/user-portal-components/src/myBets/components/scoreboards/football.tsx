@@ -3,10 +3,10 @@ import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { FootballSelections } from './football-selections';
-import { Market } from '../../shared/market';
-import { EventProps } from '../scoreboard';
-import { ScoreBoardHeader } from '../header';
+import { Market } from '../shared/market';
+import { Selection } from '../shared/selections';
+import { EventProps } from './scoreboard';
+import { ScoreBoardHeader } from './header';
 
 export type FootballProps = {
   event: EventProps;
@@ -113,7 +113,7 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
         <span>{event.competitors.home.name}</span>
         <span>{event.competitors.away.name}</span>
       </Competitors>
-      <FootballSelections selection={event.market.selection} />
+      <Selection selection={event.market.selection} />
       <Market
         onClick={onClick}
         market={event.market}
