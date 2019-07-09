@@ -2,36 +2,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { FormItem, Form } from '@heathmont/sportsbet-components';
-
-export const ResendEmailContainer = styled.div({
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'left',
-  [mq(breakpoints.medium)]: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-});
-
-export const ResendEmailInputFormItem = styled(FormItem)({
-  minWidth: rem(320),
-  [mq(breakpoints.medium)]: {
-    marginRight: spacing('xlarge'),
-  },
-});
-
-export const SubmitResendEmailFormItem = styled(FormItem)({
-  [mq(breakpoints.medium)]: {
-    marginTop: 0,
-  },
-});
-
-export const ResendEmailText = styled.div({
-  display: 'flex',
-  flexDirection: 'column',
-  marginTop: spacing('medium'),
-});
+import { Form } from '@heathmont/sportsbet-components';
 
 export const ChangeUserDetailsContainer = styled.div({
   [mq(breakpoints.medium)]: {
