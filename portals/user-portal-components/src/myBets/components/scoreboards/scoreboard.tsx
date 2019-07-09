@@ -39,9 +39,13 @@ export const ScoreboardsContainer = ({ children }: any) => {
 
   const Container = styled.div({
     marginRight: spacing('small'),
-    scrollSnapAlign: 'center',
+    scrollSnapAlign: 'start',
     minWidth: rem(320),
   });
+
+  if (!children) {
+    return null;
+  }
 
   if (children.length > 1) {
     return (
