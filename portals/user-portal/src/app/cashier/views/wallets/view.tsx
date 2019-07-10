@@ -14,7 +14,7 @@ import {
   StickyNav,
 } from '@heathmont/sportsbet-user-portal-components';
 import { Heading } from '@heathmont/sportsbet-components';
-import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { mq, spacing, container } from '@heathmont/sportsbet-utils';
 import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
@@ -70,22 +70,7 @@ export const WalletsView = () => {
           + Add Wallet
         </WalletMobileButton>
         <TransactionsSection>
-          {/* <CashierHeading>Transactions</CashierHeading> */}
-          <Heading
-            size="charlie"
-            as="h1"
-            css={{
-              marginTop: spacing('large'),
-              paddingLeft: spacing('large'),
-              paddingTop: spacing('large'),
-              paddingBottom: spacing('large'),
-              [mq(breakpoints.medium)]: {
-                paddingLeft: 0,
-              },
-            }}
-          >
-            Transactions
-          </Heading>
+          <CashierHeading>Transactions</CashierHeading>
           <TransactionsHeader />
           {items}
         </TransactionsSection>

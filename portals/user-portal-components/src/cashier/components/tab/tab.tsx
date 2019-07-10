@@ -9,6 +9,7 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconClose } from '@heathmont/sportsbet-icons';
+import { userPortalContainerInner } from '../../../container';
 
 jsx;
 
@@ -17,12 +18,13 @@ const tabSkipLinkID = 'tab-skip';
 const underlineWidth = border.width * 2;
 
 const nav: CSSObject = {
-  minWidth: rem(660),
   height: rem(80),
   backgroundColor: colors.neutral[90],
+  borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
   [mq(breakpoints.medium)]: {
     height: rem(56),
   },
+  overflowX: 'scroll',
 };
 
 const skipLink: CSSObject = {
@@ -40,13 +42,14 @@ const skipLink: CSSObject = {
 };
 
 const tabList: CSSObject = {
+  ...userPortalContainerInner,
   display: 'flex',
   flexDirection: 'row',
   whiteSpace: 'nowrap',
   height: '100%',
   marginTop: 0,
   marginLeft: 0,
-  borderBottom: `${border.width}px solid ${colors.neutral[70]}`,
+  minWidth: rem(660),
 };
 
 const Tab: React.FC = ({ children }) => {
@@ -77,17 +80,11 @@ const TabItem = styled(NavLink, {
       height: '100%',
       paddingBottom: spacing(),
       paddingTop: spacing(),
-      marginLeft: spacing(),
-      marginRight: spacing(),
+      marginRight: spacing('large'),
       borderBottom: `${underlineWidth}px solid transparent`,
       '&.active': {
         borderBottom: `${underlineWidth}px solid ${colors.brand}`,
         color: colors.neutral[10],
-      },
-      [mq(breakpoints.large)]: {
-        '&:first-of-type': {
-          marginLeft: 0,
-        },
       },
       '&:hover, &:focus, &:active, .active': {
         borderBottom: `${underlineWidth}px solid ${colors.brand}`,
