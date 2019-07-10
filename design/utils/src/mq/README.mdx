@@ -23,6 +23,12 @@ import { mq } from '@heathmont/sportsbet-utils';
   <p>{mq(500)}</p>
 </Playground>
 
+Passing the additional `mq(500, 'max-width')` parameter will return a breakpoint in the opposite direction.
+
+<Playground>
+  <p>{mq(500, 'max-width')}</p>
+</Playground>
+
 ## Usage
 
 With our breakpoint tokens, we can start to build-up our responsive styles:
