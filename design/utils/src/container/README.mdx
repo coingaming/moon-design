@@ -22,3 +22,17 @@ Returns a given [container "key"](/tokens#container) value as a `rem`-based `max
 <div css={{...container('large'), border: '1px solid white'}}>"large" Container</div>
 <div css={{...container(300), border: '1px solid white'}}>300px Container (in REM)</div>
 ```
+
+## Padding
+
+By default, containers render padding on the `x` axis with the `default` spacing
+token.
+
+This padding can be altered in the second argument, either as a `spacing` token
+key or a pixel value (as a `number`) which will be convert to `rem`
+
+```jsx react-live
+<div css={{...container('default', 'large'), border: '1px solid white'}}>"default" Container and "large" padding</div>
+<div css={{...container('default', 50), border: '1px solid white'}}>"default" Container and 50px padding (in REM)</div>
+<div css={{...container('default', 0), border: '1px solid white'}}>"default" Container with no padding</div>
+```
