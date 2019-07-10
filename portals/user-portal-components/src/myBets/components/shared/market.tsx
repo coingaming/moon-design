@@ -13,7 +13,6 @@ export type MarketProps = {
 
 const Wrapper = styled.div(() => [
   {
-    gridArea: 'market',
     height: rem(48),
     padding: `0 ${spacing()}`,
     display: 'flex',
