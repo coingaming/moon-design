@@ -9,8 +9,13 @@ import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
 import rem from 'polished/lib/helpers/rem';
+import {
+  userPortalContainerFlush,
+  userPortalContainerFlushSpaced,
+} from '../../container';
 
 export const MyBetContainerHeader = styled.div<{}>({
+  ...userPortalContainerFlushSpaced,
   display: 'none',
   paddingLeft: spacing(),
   paddingRight: rem(48),
@@ -52,6 +57,9 @@ export const MyBetContainer = styled.details<{
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onToggle?: any;
 }>({
+  ...userPortalContainerFlush,
+  paddingLeft: 0,
+  paddingRight: 0,
   position: 'relative',
   alignItems: 'center',
   display: 'flex',
@@ -249,6 +257,7 @@ export const MyBetCaptionValue = styled.span<{ color?: string }>(
 );
 
 export const MyBetFooter = styled.footer({
+  ...userPortalContainerFlush,
   padding: `${spacing()} ${spacing('medium')}`,
   boxSizing: 'border-box',
   justifyContent: 'space-between',

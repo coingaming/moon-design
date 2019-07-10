@@ -3,8 +3,14 @@ import styled from '@emotion/styled';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../../container';
 
 export const FreeBetsWrapper: React.FC<{ badgeClosed?: boolean }> = styled.div({
+  ...userPortalContainer,
+  ...userPortalContainerInner,
   display: 'grid',
   gridTemplateColumns: '1fr',
   rowGap: spacing(),
@@ -12,6 +18,9 @@ export const FreeBetsWrapper: React.FC<{ badgeClosed?: boolean }> = styled.div({
     gridTemplateColumns: '1fr 1fr',
     columnGap: spacing('medium'),
     rowGap: spacing('medium'),
+  },
+  [mq(breakpoints.medium, 'max-width')]: {
+    padding: 0,
   },
 });
 
