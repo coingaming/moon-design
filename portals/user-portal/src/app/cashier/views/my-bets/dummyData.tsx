@@ -49,6 +49,52 @@ export const event: EventProps = {
   videoStream: true,
 };
 
+export const outRightEvent: EventProps = {
+  name: 'Germany vs Poland, Football match',
+  marketCount: 42,
+  onClick: () => {
+    /* eslint-disable-next-line no-console */
+    console.log('EVENT CLICK');
+  },
+  market: {
+    name: '1x2',
+    selection: { name: 'Poland', odds: '35.15' },
+  },
+  information: {
+    homeScore: '10',
+    awayScore: '10',
+    periodScores: [
+      {
+        homeScore: 1,
+        awayScore: null,
+      },
+      {
+        homeScore: null,
+        awayScore: 4,
+      },
+      {
+        homeScore: null,
+        awayScore: null,
+      },
+      {
+        homeScore: 7,
+        awayScore: 8,
+      },
+    ],
+  },
+  competitors: {
+    home: {
+      name: 'Liverpool',
+      image: 'https://ls.sportradar.com/ls/crest/big/4763.png',
+    },
+    away: {
+      name: 'Real Madrid',
+      image: 'https://sportsbet.imgix.net/team-logos/cricket/142704.png',
+    },
+  },
+  videoStream: false,
+};
+
 export const footballEventNoStream = {
   ...event,
   videoStream: false,
