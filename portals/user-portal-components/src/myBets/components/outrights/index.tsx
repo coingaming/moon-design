@@ -33,6 +33,7 @@ const Header = styled.div(({ onClick }) => [
     height: rem(40),
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   onClick && {
     cursor: 'pointer',
@@ -79,7 +80,7 @@ export const OutRight = ({ event, badges }: OutRightProps) => {
   return (
     <Container>
       <Header onClick={onClick}>
-        {event.name}
+        <span>{event.name}</span>
         {badges &&
           badges.map((badge, index) => {
             /* @TODO Revisit post-EPL */
