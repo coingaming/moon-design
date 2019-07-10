@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
+import { userPortalContainer, userPortalContainerInner } from '../../container';
 
 export const SettingsText = styled.p({
   marginTop: spacing('small'),
@@ -9,16 +10,8 @@ export const SettingsText = styled.p({
 });
 
 export const SettingsSection = styled.section({
-  // marginTop: spacing('medium'),
+  ...userPortalContainer,
   width: '100%',
-  // borderRadius: border.radius.small,
-  // borderStyle: border.style,
-  // borderWidth: border.width,
-  // borderColor: colors.neutral[50],
-  // backgroundColor: colors.neutral[90],
-  // '&:last-child': {
-  //   borderBottom: 'none',
-  // },
 });
 
 export const SettingsBlock = styled.div<{
@@ -30,20 +23,15 @@ export const SettingsBlock = styled.div<{
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line no-shadow */
 }>(({ highlight = false, onClick, border = false }) => [
+  userPortalContainerInner,
   {
     minHeight: rem(96),
     alignItems: 'center',
-    paddingLeft: spacing(),
-    paddingRight: spacing(),
     paddingTop: spacing('medium'),
     paddingBottom: spacing('medium'),
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    [mq(breakpoints.medium)]: {
-      paddingLeft: 0,
-      paddingRight: 0,
-    },
   },
   highlight && {
     position: 'relative',

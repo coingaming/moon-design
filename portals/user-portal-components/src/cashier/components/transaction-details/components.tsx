@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+import { userPortalContainer } from '../../../container';
 
 jsx;
 
@@ -53,15 +54,14 @@ export const Details = styled.div({
   },
 });
 
-export const TransactionHistory = styled.details<{ open?: boolean }>(() => [
-  {
-    position: 'relative',
-    fontWeight: 600,
-    '&[open]': {
-      backgroundColor: colors.neutral[70],
-    },
+export const TransactionHistory = styled.details<{ open?: boolean }>({
+  ...userPortalContainer,
+  position: 'relative',
+  fontWeight: 600,
+  '&[open]': {
+    backgroundColor: colors.neutral[70],
   },
-]);
+});
 
 export const DetailColumns = styled.div({
   // marginTop: spacing('small'),

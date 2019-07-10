@@ -23,7 +23,7 @@ export const VerifyEmailView: React.FC<{ verifyEmail: () => void }> = ({
         <VerifyEmailContent>
           <VerifyEmailTextContainer>
             <VerifyEmailTextHeader>
-              Verify you email address
+              Verify your email address
             </VerifyEmailTextHeader>
             <VerifyEmailTextContent>
               We've sent a message to you with a link to activate your account.{' '}
