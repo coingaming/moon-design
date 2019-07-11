@@ -84,10 +84,6 @@ const Content = styled.div({
   },
 });
 
-const BadgeWrapper = styled.div({
-  marginLeft: spacing('xsmall'),
-});
-
 export const OutRight = ({ event, badges, boosted }: OutRightProps) => {
   const { onClick } = event;
 
@@ -95,12 +91,6 @@ export const OutRight = ({ event, badges, boosted }: OutRightProps) => {
     <Container boosted={boosted}>
       <Header onClick={onClick}>
         <Title boosted={boosted}>{event.name}</Title>
-        {badges &&
-          badges.map((badge, index) => {
-            /* @TODO Revisit post-EPL */
-            /* eslint-disable-next-line react/no-array-index-key */
-            return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
-          })}
       </Header>
       <ContentContainer>
         <Content>
@@ -111,9 +101,9 @@ export const OutRight = ({ event, badges, boosted }: OutRightProps) => {
       <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
+        badges={badges}
       />
     </Container>
   );
