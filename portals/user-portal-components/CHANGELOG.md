@@ -5,163 +5,95 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
 
-
 ### Bug Fixes
 
-* **CashierHeading:** resolve type errors [@bilal-net](https://github.com/bilal-net) ([06bd3c6](https://github.com/coingaming/sportsbet-design/commit/06bd3c6))
-* **semibold:** switch out hardcoded 600 refs for [@lauaviin](https://github.com/lauaviin) ([17ea3c8](https://github.com/coingaming/sportsbet-design/commit/17ea3c8))
-
+- **CashierHeading:** resolve type errors [@bilal-net](https://github.com/bilal-net) ([06bd3c6](https://github.com/coingaming/sportsbet-design/commit/06bd3c6))
+- **semibold:** switch out hardcoded 600 refs for [@lauaviin](https://github.com/lauaviin) ([17ea3c8](https://github.com/coingaming/sportsbet-design/commit/17ea3c8))
 
 ### Features
 
-* **shared:** initialise `shared` directory ([2502453](https://github.com/coingaming/sportsbet-design/commit/2502453))
-
-
-
-
+- **shared:** initialise `shared` directory ([2502453](https://github.com/coingaming/sportsbet-design/commit/2502453))
 
 ## [0.68.2](https://github.com/coingaming/sportsbet-design/compare/v0.68.1...v0.68.2) (2019-07-09)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 ## [0.68.1](https://github.com/coingaming/sportsbet-design/compare/v0.68.0...v0.68.1) (2019-07-09)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 # [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
-
 
 ### Bug Fixes
 
-* **header:** fix navigation links and design ([663f519](https://github.com/coingaming/sportsbet-design/commit/663f519))
-* **my-bets:** Wrap text to the next line if names are too long ([87c400e](https://github.com/coingaming/sportsbet-design/commit/87c400e)), closes [#SPO-4209](https://github.com/coingaming/sportsbet-design/issues/SPO-4209)
-
+- **header:** fix navigation links and design ([663f519](https://github.com/coingaming/sportsbet-design/commit/663f519))
+- **my-bets:** Wrap text to the next line if names are too long ([87c400e](https://github.com/coingaming/sportsbet-design/commit/87c400e)), closes [#SPO-4209](https://github.com/coingaming/sportsbet-design/issues/SPO-4209)
 
 ### Features
 
-* **tabItem:** supports "highlight" prop ([14ecd0a](https://github.com/coingaming/sportsbet-design/commit/14ecd0a)), closes [#SPO-4380](https://github.com/coingaming/sportsbet-design/issues/SPO-4380)
-
-
-
-
+- **tabItem:** supports "highlight" prop ([14ecd0a](https://github.com/coingaming/sportsbet-design/commit/14ecd0a)), closes [#SPO-4380](https://github.com/coingaming/sportsbet-design/issues/SPO-4380)
 
 # [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
 
-
 ### Bug Fixes
 
-* **my-bets:** Broken styles on Mobile ([374ffd1](https://github.com/coingaming/sportsbet-design/commit/374ffd1))
-
+- **my-bets:** Broken styles on Mobile ([374ffd1](https://github.com/coingaming/sportsbet-design/commit/374ffd1))
 
 ### Features
 
-* **my-bets:** details support open & onToggle props ([cdc89d8](https://github.com/coingaming/sportsbet-design/commit/cdc89d8))
-
-
-
-
+- **my-bets:** details support open & onToggle props ([cdc89d8](https://github.com/coingaming/sportsbet-design/commit/cdc89d8))
 
 # [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 ## [0.65.3](https://github.com/coingaming/sportsbet-design/compare/v0.65.2...v0.65.3) (2019-07-02)
-
 
 ### Bug Fixes
 
-* RouteLink cleanup ([6eefa05](https://github.com/coingaming/sportsbet-design/commit/6eefa05))
-
-
-
-
+- RouteLink cleanup ([6eefa05](https://github.com/coingaming/sportsbet-design/commit/6eefa05))
 
 ## [0.65.2](https://github.com/coingaming/sportsbet-design/compare/v0.65.1...v0.65.2) (2019-07-02)
 
-
 ### Bug Fixes
 
-* **menu:** mobile side menu changes ([e861abb](https://github.com/coingaming/sportsbet-design/commit/e861abb))
-
-
-
-
+- **menu:** mobile side menu changes ([e861abb](https://github.com/coingaming/sportsbet-design/commit/e861abb))
 
 ## [0.65.1](https://github.com/coingaming/sportsbet-design/compare/v0.65.0...v0.65.1) (2019-07-01)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 # [0.65.0](https://github.com/coingaming/sportsbet-design/compare/v0.64.0...v0.65.0) (2019-07-01)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 # [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
-
 
 ### Bug Fixes
 
-* cashier-blocks alignment ([53975a8](https://github.com/coingaming/sportsbet-design/commit/53975a8))
-* increase z-index for menu components ([d020c5c](https://github.com/coingaming/sportsbet-design/commit/d020c5c))
-* **wallet:** wallet fixes ([263875f](https://github.com/coingaming/sportsbet-design/commit/263875f))
-
+- cashier-blocks alignment ([53975a8](https://github.com/coingaming/sportsbet-design/commit/53975a8))
+- increase z-index for menu components ([d020c5c](https://github.com/coingaming/sportsbet-design/commit/d020c5c))
+- **wallet:** wallet fixes ([263875f](https://github.com/coingaming/sportsbet-design/commit/263875f))
 
 ### Features
 
-* **user-portal:** add Google Authenticator disable step ([d504a54](https://github.com/coingaming/sportsbet-design/commit/d504a54))
-
-
-
-
+- **user-portal:** add Google Authenticator disable step ([d504a54](https://github.com/coingaming/sportsbet-design/commit/d504a54))
 
 ## [0.63.4](https://github.com/coingaming/sportsbet-design/compare/v0.63.3...v0.63.4) (2019-06-28)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal-components
 
-
-
-
-
 ## [0.63.3](https://github.com/coingaming/sportsbet-design/compare/v0.63.2...v0.63.3) (2019-06-27)
-
 
 ### Bug Fixes
 
-* omit inlined icon styles for header ([fc0d716](https://github.com/coingaming/sportsbet-design/commit/fc0d716))
-
-
-
-
+- omit inlined icon styles for header ([fc0d716](https://github.com/coingaming/sportsbet-design/commit/fc0d716))
 
 ## [0.63.2](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.2) (2019-06-27)
 
-
 ### Bug Fixes
 
-* manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
-
-
-
-
+- manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
 
 ## [0.63.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.1) (2019-06-27)
 
