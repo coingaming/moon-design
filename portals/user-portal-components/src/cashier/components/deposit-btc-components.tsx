@@ -4,13 +4,17 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, inlineSVG, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+import {
+  userPortalContainerInner,
+  userPortalContainer,
+} from '../../shared/container';
 
 jsx;
 
 export const DepositBTCLayout = styled.div({
+  ...userPortalContainerInner,
+  ...userPortalContainer,
   marginTop: spacing('medium'),
-  paddingLeft: spacing(),
-  paddingRight: spacing(),
   [mq(breakpoints.medium)]: {
     display: 'grid',
     gridTemplateColumns: '3fr 2fr',
@@ -19,10 +23,6 @@ export const DepositBTCLayout = styled.div({
                 "main     qrcode"
                 "banners  banners"
                 `,
-  },
-  [mq(breakpoints.large)]: {
-    paddingLeft: 0,
-    paddingRight: 0,
   },
 });
 
