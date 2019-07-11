@@ -5,21 +5,23 @@ import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { buttonStyles } from '@heathmont/sportsbet-components';
 import { buttonModifiers } from '@heathmont/sportsbet-components/lib/button/modifiers';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../../shared/container';
 
 jsx;
 
 export const BonusesHeadingContainer = styled.div([
   {
+    ...userPortalContainer,
+    ...userPortalContainerInner,
     display: 'flex',
     justifyContent: 'space-between',
     flexWrap: 'wrap',
-    marginLeft: spacing(),
     marginTop: spacing('large'),
     marginBottom: spacing(),
-    marginRight: spacing(),
     [mq(breakpoints.medium)]: {
-      marginLeft: 0,
-      marginRight: 0,
       marginBottom: spacing('medium'),
       // borderBottom: `${border.width}px ${border.style} ${colors.neutral[70]}`,
       flexWrap: 'nowrap',
