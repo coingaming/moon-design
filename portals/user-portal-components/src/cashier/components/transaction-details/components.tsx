@@ -68,9 +68,6 @@ export const Details = styled.div({
   paddingRight: spacing('large'),
   paddingBottom: spacing('large'),
   borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
-  [mq(breakpoints.medium)]: {
-    marginRight: spacing('xlarge'),
-  },
 });
 
 export const TransactionHistory = styled.details<{ open?: boolean }>({
