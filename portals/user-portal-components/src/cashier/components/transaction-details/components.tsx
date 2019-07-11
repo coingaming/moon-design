@@ -1,7 +1,12 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
-import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+import {
+  colors,
+  border,
+  breakpoints,
+  typography,
+} from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { userPortalContainerFlush } from '../../../shared/container';
@@ -57,7 +62,7 @@ export const Details = styled.div({
 export const TransactionHistory = styled.details<{ open?: boolean }>({
   ...userPortalContainerFlush,
   position: 'relative',
-  fontWeight: 600,
+  fontWeight: typography.fontWeight.semibold,
   '&[open]': {
     backgroundColor: colors.neutral[70],
   },
