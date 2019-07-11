@@ -15,4 +15,18 @@ describe('Container', () => {
   test('renders a rem-based container with number value', () => {
     expect(create(<div css={container(300)} />)).toMatchSnapshot();
   });
+
+  test('renders with custom padding key', () => {
+    expect(
+      create(<div css={container('default', 'small')} />)
+    ).toMatchSnapshot();
+  });
+
+  test('renders with custom padding number value', () => {
+    expect(create(<div css={container('default', 50)} />)).toMatchSnapshot();
+  });
+
+  test('renders with no padding', () => {
+    expect(create(<div css={container('default', 0)} />)).toMatchSnapshot();
+  });
 });
