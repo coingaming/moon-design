@@ -22,14 +22,14 @@ const mobileHidden: CSSObject = {
 };
 
 const lastCell: CSSObject = {
-  marginRight: rem(32),
+  marginRight: spacing(),
   [mq(breakpoints.medium)]: {
     marginRight: rem(64),
   },
 };
 
 const firstCell: CSSObject = {
-  marginLeft: rem(32),
+  marginLeft: spacing(),
 };
 
 const rightAlighted: CSSObject = {

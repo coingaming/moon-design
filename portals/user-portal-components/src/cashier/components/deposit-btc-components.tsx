@@ -3,14 +3,23 @@ import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, inlineSVG, mq } from '@heathmont/sportsbet-utils';
-import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
+import {
+  colors,
+  border,
+  breakpoints,
+  typography,
+} from '@heathmont/sportsbet-tokens';
+import {
+  userPortalContainerInner,
+  userPortalContainer,
+} from '../../shared/container';
 
 jsx;
 
 export const DepositBTCLayout = styled.div({
+  ...userPortalContainerInner,
+  ...userPortalContainer,
   marginTop: spacing('medium'),
-  paddingLeft: spacing(),
-  paddingRight: spacing(),
   [mq(breakpoints.medium)]: {
     display: 'grid',
     gridTemplateColumns: '3fr 2fr',
@@ -19,10 +28,6 @@ export const DepositBTCLayout = styled.div({
                 "main     qrcode"
                 "banners  banners"
                 `,
-  },
-  [mq(breakpoints.large)]: {
-    paddingLeft: 0,
-    paddingRight: 0,
   },
 });
 
@@ -54,7 +59,7 @@ export const DepositBTCBalanceAmount = styled.p({
 
 export const DepositBTCBalanceAmountDigits = styled.span({
   fontSize: rem(40),
-  fontWeight: 600,
+  fontWeight: typography.fontWeight.semibold,
   letterSpacing: '1px',
   color: colors.neutral[10],
 });
@@ -69,7 +74,7 @@ export const DepositBTCBalanceAmountConverted = styled.p({
   marginTop: spacing('xsmall'),
   color: colors.neutral[20],
   fontSize: rem(14),
-  fontWeight: 600,
+  fontWeight: typography.fontWeight.semibold,
 });
 
 export const DepositBTCAddress = styled.div({
