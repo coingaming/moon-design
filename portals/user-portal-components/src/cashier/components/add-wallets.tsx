@@ -10,17 +10,20 @@ import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { cardGradientSizes } from '@heathmont/sportsbet-components/lib/card/utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconSuccess } from '@heathmont/sportsbet-icons';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../shared/container';
 
 export const AddWalletsContainer = styled.div({
-  paddingLeft: spacing(),
-  paddingRight: spacing(),
+  ...userPortalContainer,
+  ...userPortalContainerInner,
   marginTop: spacing('medium'),
+  marginBottom: spacing('large'),
   display: 'grid',
   gridTemplateColumns: '1fr',
   rowGap: spacing(),
   [mq(breakpoints.medium)]: {
-    paddingLeft: 0,
-    paddingRight: 0,
     gridTemplateColumns: '1fr 1fr 1fr 1fr',
     columnGap: spacing('medium'),
     rowGap: spacing('medium'),
