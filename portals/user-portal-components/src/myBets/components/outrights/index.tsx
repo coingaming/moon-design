@@ -7,20 +7,28 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { IconLogoPlain } from '@heathmont/sportsbet-icons';
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
+import { betBoostHighlightColors } from '../shared/betboostmodifier';
 
 export type OutRightProps = {
   event: EventProps;
   badges?: React.FC[];
+  boosted?: boolean;
 };
 
-const Container = styled.div({
-  display: 'flex',
-  backgroundColor: colors.neutral[90],
-  maxWidth: rem(320),
-  flexWrap: 'wrap',
-  justifyContent: 'center',
-  flexBasis: '100%',
-});
+const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
+  {
+    display: 'flex',
+    backgroundColor: colors.neutral[90],
+    maxWidth: rem(320),
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    flexBasis: '100%',
+    border: `${rem(1)} solid ${colors.neutral[90]}`,
+  },
+  boosted && {
+    borderColor: betBoostHighlightColors.border,
+  },
+]);
 
 const Header = styled.div(({ onClick }) => [
   {
@@ -37,6 +45,12 @@ const Header = styled.div(({ onClick }) => [
   },
   onClick && {
     cursor: 'pointer',
+  },
+]);
+
+const Title = styled.span(({ boosted }: { boosted?: boolean }) => [
+  boosted && {
+    color: betBoostHighlightColors.text,
   },
 ]);
 
@@ -74,13 +88,13 @@ const BadgeWrapper = styled.div({
   marginLeft: spacing('xsmall'),
 });
 
-export const OutRight = ({ event, badges }: OutRightProps) => {
+export const OutRight = ({ event, badges, boosted }: OutRightProps) => {
   const { onClick } = event;
 
   return (
-    <Container>
+    <Container boosted={boosted}>
       <Header onClick={onClick}>
-        <span>{event.name}</span>
+        <Title boosted={boosted}>{event.name}</Title>
         {badges &&
           badges.map((badge, index) => {
             /* @TODO Revisit post-EPL */
@@ -94,7 +108,7 @@ export const OutRight = ({ event, badges }: OutRightProps) => {
           <p>{event.market.name}</p>
         </Content>
       </ContentContainer>
-      <Selection selection={event.market.selection} />
+      <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
         market={event.market}
