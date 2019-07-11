@@ -7,7 +7,7 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { IconLogoPlain } from '@heathmont/sportsbet-icons';
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
-import { backGroundStripes, BadgeWrapper } from '../shared/utils';
+import { backgroundStripes, BadgeWrapper } from '../shared/utils';
 
 export type OutRightProps = {
   event: EventProps;
@@ -42,7 +42,7 @@ const Header = styled.div(({ onClick }) => [
 ]);
 
 const ContentContainer = styled.div({
-  ...backGroundStripes,
+  ...backgroundStripes,
   width: '100%',
   borderRadius: '2px',
   height: rem(120),
