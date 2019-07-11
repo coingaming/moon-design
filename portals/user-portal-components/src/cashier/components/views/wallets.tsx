@@ -5,8 +5,8 @@ import { breakpoints } from '@heathmont/sportsbet-tokens';
 import {
   userPortalContainer,
   userPortalContainerInner,
-} from '../../../container';
-import { USER_PORTAL_CONTAINER_SIZE } from '../../../globals';
+} from '../../../shared/container';
+import { USER_PORTAL_CONTAINER_SIZE } from '../../../shared/globals';
 
 export const WalletsContainer = styled.div({
   ...userPortalContainer,

@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { MarketProps } from './market';
-import { USER_PORTAL_CONTAINER_PADDING } from '../../../globals';
+import { USER_PORTAL_CONTAINER_PADDING } from '../../../shared/globals';
 
 type CompetitorProps = {
   name: string;

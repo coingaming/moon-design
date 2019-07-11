@@ -7,7 +7,7 @@ import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
 
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
 
-import { userPortalContainerInner } from '../../../container';
+import { userPortalContainerInner } from '../../../shared/container';
 
 export const SettingsBlockCollapsible = styled.details<{
   open?: boolean;

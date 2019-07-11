@@ -11,7 +11,7 @@ import {
   UserPortalContainer,
   userPortalContainer,
   userPortalContainerInner,
-} from '../../container';
+} from '../../shared/container';
 
 jsx;
 
