@@ -9,8 +9,10 @@ import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
 import rem from 'polished/lib/helpers/rem';
+import { userPortalContainerFlush } from '../../shared/container';
 
 export const MyBetContainerHeader = styled.div<{}>({
+  ...userPortalContainerFlush,
   display: 'none',
   paddingLeft: spacing(),
   paddingRight: rem(48),
@@ -52,6 +54,7 @@ export const MyBetContainer = styled.details<{
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   onToggle?: any;
 }>({
+  ...userPortalContainerFlush,
   position: 'relative',
   alignItems: 'center',
   display: 'flex',
@@ -60,6 +63,9 @@ export const MyBetContainer = styled.details<{
   backgroundColor: colors.neutral[70],
   marginBottom: spacing('small'),
   '&[open]': {
+    [mq(breakpoints.medium)]: {
+      marginBottom: 'auto',
+    },
     Summary: {
       borderBottom: `${rem(1)} solid ${colors.neutral[90]}`,
       '&::-webkit-details-marker': {
@@ -76,9 +82,6 @@ export const MyBetContainer = styled.details<{
         display: 'none',
         border: 'none',
       },
-    },
-    [mq(breakpoints.medium)]: {
-      marginBottom: 'auto',
     },
   },
   [mq(breakpoints.medium)]: {
@@ -249,6 +252,7 @@ export const MyBetCaptionValue = styled.span<{ color?: string }>(
 );
 
 export const MyBetFooter = styled.footer({
+  ...userPortalContainerFlush,
   padding: `${spacing()} ${spacing('medium')}`,
   boxSizing: 'border-box',
   justifyContent: 'space-between',

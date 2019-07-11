@@ -3,110 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
+# [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
 
+**Note:** Version bump only for package @heathmont/sportsbet-icons
+
+# [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
 
 ### Bug Fixes
 
-* **icons:** export types for icon ([108963b](https://github.com/coingaming/sportsbet-design/commit/108963b))
-
-
-
-
+- **icons:** export types for icon ([108963b](https://github.com/coingaming/sportsbet-design/commit/108963b))
 
 # [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
 
-
 ### Features
 
-* **icons:** created bombay club icon ([5c2c56b](https://github.com/coingaming/sportsbet-design/commit/5c2c56b))
-
-
-
-
+- **icons:** created bombay club icon ([5c2c56b](https://github.com/coingaming/sportsbet-design/commit/5c2c56b))
 
 # [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
 
-
 ### Bug Fixes
 
-* **icons:** currentColor conversion ([4471c71](https://github.com/coingaming/sportsbet-design/commit/4471c71))
-
+- **icons:** currentColor conversion ([4471c71](https://github.com/coingaming/sportsbet-design/commit/4471c71))
 
 ### Features
 
-* **icons:** update BTC icon ([c97770e](https://github.com/coingaming/sportsbet-design/commit/c97770e))
-
-
-
-
+- **icons:** update BTC icon ([c97770e](https://github.com/coingaming/sportsbet-design/commit/c97770e))
 
 ## [0.65.1](https://github.com/coingaming/sportsbet-design/compare/v0.65.0...v0.65.1) (2019-07-01)
 
-
 ### Bug Fixes
 
-* **icons:** switch color to optional prop ([9470963](https://github.com/coingaming/sportsbet-design/commit/9470963))
-
-
-
-
+- **icons:** switch color to optional prop ([9470963](https://github.com/coingaming/sportsbet-design/commit/9470963))
 
 # [0.65.0](https://github.com/coingaming/sportsbet-design/compare/v0.64.0...v0.65.0) (2019-07-01)
 
-
 ### Bug Fixes
 
-* **icons:** correct sportsbet-tokens version ([7a62e2b](https://github.com/coingaming/sportsbet-design/commit/7a62e2b))
-
+- **icons:** correct sportsbet-tokens version ([7a62e2b](https://github.com/coingaming/sportsbet-design/commit/7a62e2b))
 
 ### Features
 
-* **icons:** added icons for third party and icon grouping ([de9e688](https://github.com/coingaming/sportsbet-design/commit/de9e688))
-
-
-
-
+- **icons:** added icons for third party and icon grouping ([de9e688](https://github.com/coingaming/sportsbet-design/commit/de9e688))
 
 # [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
 
-
-
-
-
 ## [0.63.4](https://github.com/coingaming/sportsbet-design/compare/v0.63.3...v0.63.4) (2019-06-28)
-
 
 ### Bug Fixes
 
-* add soccerIcon to readme ([f3de4a3](https://github.com/coingaming/sportsbet-design/commit/f3de4a3))
-* export sports icons ([b1094ec](https://github.com/coingaming/sportsbet-design/commit/b1094ec))
-* update icons readme with the sports icons ([cf6a8a0](https://github.com/coingaming/sportsbet-design/commit/cf6a8a0))
-
-
-
-
+- add soccerIcon to readme ([f3de4a3](https://github.com/coingaming/sportsbet-design/commit/f3de4a3))
+- export sports icons ([b1094ec](https://github.com/coingaming/sportsbet-design/commit/b1094ec))
+- update icons readme with the sports icons ([cf6a8a0](https://github.com/coingaming/sportsbet-design/commit/cf6a8a0))
 
 ## [0.63.3](https://github.com/coingaming/sportsbet-design/compare/v0.63.2...v0.63.3) (2019-06-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
 
-
-
-
-
 ## [0.63.2](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.2) (2019-06-27)
-
 
 ### Bug Fixes
 
-* manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
-
-
-
-
+- manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
 
 ## [0.63.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.1) (2019-06-27)
 
