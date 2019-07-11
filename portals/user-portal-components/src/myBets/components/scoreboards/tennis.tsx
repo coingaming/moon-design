@@ -10,20 +10,28 @@ import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
+import { betBoostHighlightColors } from '../shared/betboostmodifier';
 
 export type TennisProps = {
   event: EventProps;
   timer: string;
   badges?: React.FC[];
+  boosted?: boolean;
 };
 
-const Container = styled.div({
-  backgroundColor: colors.neutral[90],
-  maxWidth: rem(320),
-  display: 'flex',
-  flexWrap: 'nowrap',
-  flexDirection: 'column',
-});
+const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
+  {
+    backgroundColor: colors.neutral[90],
+    maxWidth: rem(320),
+    display: 'flex',
+    flexWrap: 'nowrap',
+    flexDirection: 'column',
+    border: `${rem(1)} solid ${colors.neutral[90]}`,
+  },
+  boosted && {
+    borderColor: betBoostHighlightColors.border,
+  },
+]);
 
 const ScoreWrapper = styled.div({
   backgroundImage:
@@ -107,15 +115,21 @@ const AwayPoints = styled.div<PointsType>(({ current, period, win }) => [
     }),
 ]);
 
-export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
+export const TennisScoreboard = ({
+  event,
+  timer,
+  badges,
+  boosted,
+}: TennisProps) => {
   const { information, onClick } = event;
 
   return (
-    <Container>
+    <Container boosted={boosted}>
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
         badges={badges}
+        boosted={boosted}
         onClick={onClick}
       />
       <ScoreWrapper>
@@ -198,7 +212,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <AwayPoints current>{information.awayScore}</AwayPoints>
         </Score>
       </ScoreWrapper>
-      <Selection selection={event.market.selection} />
+      <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
         market={event.market}

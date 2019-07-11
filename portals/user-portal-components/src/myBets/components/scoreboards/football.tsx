@@ -7,20 +7,28 @@ import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
+import { betBoostHighlightColors } from '../shared/betboostmodifier';
 
 export type FootballProps = {
   event: EventProps;
   timer: string;
   badges?: React.FC[];
+  boosted?: boolean;
 };
 
-const FootballCard = styled.div({
-  display: 'flex',
-  backgroundColor: colors.neutral[90],
-  maxWidth: rem(320),
-  flexWrap: 'wrap',
-  justifyContent: 'center',
-});
+const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
+  {
+    display: 'flex',
+    backgroundColor: colors.neutral[90],
+    maxWidth: rem(320),
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    border: `${rem(1)} solid ${colors.neutral[90]}`,
+  },
+  boosted && {
+    borderColor: betBoostHighlightColors.border,
+  },
+]);
 
 const Score = styled.span({
   color: colors.neutral[10],
@@ -79,16 +87,22 @@ const Competitors = styled.div(() => [
   },
 ]);
 
-export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
+export const FootballScoreboard = ({
+  event,
+  timer,
+  badges,
+  boosted,
+}: FootballProps) => {
   const { onClick } = event;
 
   return (
-    <FootballCard>
+    <Container boosted={boosted}>
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
         onClick={onClick}
         badges={badges}
+        boosted={boosted}
       />
       <Logos>
         <Logo onClick={onClick}>
@@ -113,13 +127,13 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
         <span>{event.competitors.home.name}</span>
         <span>{event.competitors.away.name}</span>
       </Competitors>
-      <Selection selection={event.market.selection} />
+      <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
         market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
       />
-    </FootballCard>
+    </Container>
   );
 };

@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
+import { betBoostHighlightColors } from '../shared/betboostmodifier';
 
 const Wrapper = styled.div(({ onClick }) => [
   {
@@ -29,12 +30,17 @@ const Container = styled.div({
   overflow: 'hidden',
 });
 
-const Header = styled.span({
-  marginRight: spacing('small'),
-  textOverflow: 'ellipsis',
-  overflow: 'hidden',
-  whiteSpace: 'nowrap',
-});
+const Header = styled.span(({ boosted }: { boosted?: boolean }) => [
+  {
+    marginRight: spacing('small'),
+    textOverflow: 'ellipsis',
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
+  },
+  boosted && {
+    color: betBoostHighlightColors.text,
+  },
+]);
 
 const Timer = styled.span({
   color: colors.neutral[20],
@@ -52,15 +58,17 @@ export const ScoreBoardHeader = ({
   timer,
   badges,
   onClick,
+  boosted,
 }: {
   title: string;
   timer: string;
   badges?: React.FC[];
   onClick?: () => void;
+  boosted?: boolean;
 }) => (
   <Wrapper onClick={onClick}>
     <Container>
-      <Header>{title}</Header>
+      <Header boosted={boosted}>{title}</Header>
       {badges &&
         badges.map((badge, index) => {
           /* @TODO Revisit post-EPL */
