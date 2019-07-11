@@ -10,7 +10,7 @@ import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
-import { backGroundStripes } from '../shared/utils';
+import { backgroundStripes } from '../shared/utils';
 
 export type TennisProps = {
   event: EventProps;
@@ -27,7 +27,7 @@ const Container = styled.div({
 });
 
 const ScoreWrapper = styled.div({
-  ...backGroundStripes,
+  ...backgroundStripes,
   borderRadius: '2px',
 });
 
