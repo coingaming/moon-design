@@ -128,7 +128,6 @@ export const TennisScoreboard = ({
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
-        badges={badges}
         boosted={boosted}
         onClick={onClick}
       />
@@ -215,9 +214,9 @@ export const TennisScoreboard = ({
       <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
+        badges={badges}
       />
     </Container>
   );
