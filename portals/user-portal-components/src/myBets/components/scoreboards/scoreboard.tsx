@@ -2,8 +2,8 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { MarketProps } from './market';
 import { USER_PORTAL_CONTAINER_PADDING } from '../../../shared/globals';
+import { MarketProps } from '../shared/market';
 
 type CompetitorProps = {
   name: string;
@@ -42,9 +42,13 @@ export const ScoreboardsContainer = ({ children }: any) => {
 
   const Container = styled.div({
     marginRight: spacing('small'),
-    scrollSnapAlign: 'center',
+    scrollSnapAlign: 'start',
     minWidth: rem(320),
   });
+
+  if (!children) {
+    return null;
+  }
 
   if (children.length > 1) {
     return (

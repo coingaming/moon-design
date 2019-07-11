@@ -7,110 +7,60 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
-
 
 ### Bug Fixes
 
-* **input:** fix icon color ([dc2e99f](https://github.com/coingaming/sportsbet-design/commit/dc2e99f))
-
-
-
-
+- **input:** fix icon color ([dc2e99f](https://github.com/coingaming/sportsbet-design/commit/dc2e99f))
 
 # [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
 
-
 ### Bug Fixes
 
-* **icons:** currentColor conversion ([4471c71](https://github.com/coingaming/sportsbet-design/commit/4471c71))
-* **link:** buttonModifier prop is optional ([f73e895](https://github.com/coingaming/sportsbet-design/commit/f73e895))
-
+- **icons:** currentColor conversion ([4471c71](https://github.com/coingaming/sportsbet-design/commit/4471c71))
+- **link:** buttonModifier prop is optional ([f73e895](https://github.com/coingaming/sportsbet-design/commit/f73e895))
 
 ### Features
 
-* **icons:** update BTC icon ([c97770e](https://github.com/coingaming/sportsbet-design/commit/c97770e))
-
-
-
-
+- **icons:** update BTC icon ([c97770e](https://github.com/coingaming/sportsbet-design/commit/c97770e))
 
 ## [0.65.3](https://github.com/coingaming/sportsbet-design/compare/v0.65.2...v0.65.3) (2019-07-02)
 
-
 ### Bug Fixes
 
-* RouteLink cleanup ([6eefa05](https://github.com/coingaming/sportsbet-design/commit/6eefa05))
-
-
-
-
+- RouteLink cleanup ([6eefa05](https://github.com/coingaming/sportsbet-design/commit/6eefa05))
 
 ## [0.65.1](https://github.com/coingaming/sportsbet-design/compare/v0.65.0...v0.65.1) (2019-07-01)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.65.0](https://github.com/coingaming/sportsbet-design/compare/v0.64.0...v0.65.0) (2019-07-01)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
-
 
 ### Features
 
-* **form-combo:** create component ([7d6785c](https://github.com/coingaming/sportsbet-design/commit/7d6785c))
-
-
-
-
+- **form-combo:** create component ([7d6785c](https://github.com/coingaming/sportsbet-design/commit/7d6785c))
 
 ## [0.63.4](https://github.com/coingaming/sportsbet-design/compare/v0.63.3...v0.63.4) (2019-06-28)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.63.3](https://github.com/coingaming/sportsbet-design/compare/v0.63.2...v0.63.3) (2019-06-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.63.2](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.2) (2019-06-27)
-
 
 ### Bug Fixes
 
-* manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
-
-
-
-
+- manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
 
 ## [0.63.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.1) (2019-06-27)
 

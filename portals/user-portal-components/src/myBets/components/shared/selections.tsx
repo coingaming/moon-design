@@ -42,11 +42,7 @@ const SelectionButton = styled.button({
   },
 });
 
-export const FootballSelections = ({
-  selection,
-}: {
-  selection: SelectionProps;
-}) => (
+export const Selection = ({ selection }: { selection: SelectionProps }) => (
   <Container>
     <SelectionButton>
       <span className="name">{selection.name}</span>
