@@ -101,7 +101,6 @@ export const FootballScoreboard = ({
         title={event.name}
         timer={timer}
         onClick={onClick}
-        badges={badges}
         boosted={boosted}
       />
       <Logos>
@@ -130,9 +129,9 @@ export const FootballScoreboard = ({
       <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
+        badges={badges}
       />
     </Container>
   );

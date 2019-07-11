@@ -49,32 +49,20 @@ const Timer = styled.span({
   whiteSpace: 'nowrap',
 });
 
-const BadgeWrapper = styled.div({
-  marginLeft: spacing('xsmall'),
-});
-
 export const ScoreBoardHeader = ({
   title,
   timer,
-  badges,
   onClick,
   boosted,
 }: {
   title: string;
   timer: string;
-  badges?: React.FC[];
   onClick?: () => void;
   boosted?: boolean;
 }) => (
   <Wrapper onClick={onClick}>
     <Container>
       <Header boosted={boosted}>{title}</Header>
-      {badges &&
-        badges.map((badge, index) => {
-          /* @TODO Revisit post-EPL */
-          /* eslint-disable-next-line react/no-array-index-key */
-          return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
-        })}
     </Container>
     <Timer>{timer}</Timer>
   </Wrapper>

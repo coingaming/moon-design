@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { MarketProps } from '../shared/market';
+import { SelectionProps } from '../shared/selections';
 
 type CompetitorProps = {
   name: string;
@@ -12,7 +12,10 @@ type CompetitorProps = {
 export type EventProps = {
   name: string;
   marketCount: number;
-  market: MarketProps;
+  market: {
+    name: string;
+    selection: SelectionProps;
+  };
   competitors: { home: CompetitorProps; away: CompetitorProps };
   information: {
     homeScore: string;
