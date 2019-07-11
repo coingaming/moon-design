@@ -2,7 +2,10 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { border, colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
-import { userPortalContainer, userPortalContainerInner } from '../../container';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../shared/container';
 
 export const SettingsText = styled.p({
   marginTop: spacing('small'),

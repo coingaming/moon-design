@@ -8,7 +8,7 @@ import { buttonModifiers } from '@heathmont/sportsbet-components/lib/button/modi
 import {
   userPortalContainer,
   userPortalContainerInner,
-} from '../../../container';
+} from '../../../shared/container';
 
 jsx;
 

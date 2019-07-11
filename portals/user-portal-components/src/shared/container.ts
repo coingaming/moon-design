@@ -7,7 +7,7 @@ import {
   USER_PORTAL_CONTAINER_SIZE,
   USER_PORTAL_CONTAINER_FLUSH,
   USER_PORTAL_CONTAINER_PADDING,
-} from './shared/globals';
+} from './globals';
 
 export const userPortalContainer: CSSObject = {
   [mq(USER_PORTAL_CONTAINER_SIZE)]: {

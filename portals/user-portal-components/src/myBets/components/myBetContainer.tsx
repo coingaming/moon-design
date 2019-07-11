@@ -12,7 +12,7 @@ import rem from 'polished/lib/helpers/rem';
 import {
   userPortalContainerFlush,
   userPortalContainerFlushSpaced,
-} from '../../container';
+} from '../../shared/container';
 
 export const MyBetContainerHeader = styled.div<{}>({
   ...userPortalContainerFlushSpaced,
