@@ -120,7 +120,7 @@ export const MyBetsView = () => {
                 event={outRightEvent}
                 badges={[liveBadge, wonBadge, wonBadge]}
               />
-              <OutRight event={outRightEvent} />
+              <OutRight boosted event={outRightEvent} />
               <OutRight event={outRightEvent} />
             </ScoreboardsContainer>
             <MyBetCaptions>
@@ -203,14 +203,16 @@ export const MyBetsView = () => {
           </MyBetHeader>
           <MyBetContents>
             <ScoreboardsContainer>
-              <OutRight event={outRightEvent} />
+              <OutRight event={outRightEvent} boosted />
               <FootballScoreboard event={event} timer="45:21" />
               <FootballScoreboard
                 event={footballEventNoStream}
                 timer="12:11"
                 badges={[wonBadge]}
+                boosted
               />
               <TennisScoreboard
+                boosted
                 event={tennis1}
                 timer="45:21"
                 badges={[liveBadge, activeBadge]}
@@ -221,6 +223,7 @@ export const MyBetsView = () => {
               <TennisScoreboard
                 event={tennis2}
                 timer="Set 5"
+                boosted
                 badges={[liveBadge, liveBadge, liveBadge, liveBadge]}
               />
             </ScoreboardsContainer>
