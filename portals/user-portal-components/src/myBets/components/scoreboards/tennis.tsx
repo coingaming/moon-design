@@ -6,9 +6,11 @@ import lodashGet from 'lodash.get';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 
-import { Market } from '../market';
-import { EventProps } from '../scoreboard';
-import { TennisSelections } from './tennis-selections';
+import { Market } from '../shared/market';
+import { Selection } from '../shared/selections';
+import { EventProps } from './scoreboard';
+import { ScoreBoardHeader } from './header';
+import { backgroundStripes } from '../shared/utils';
 
 export type TennisProps = {
   event: EventProps;
@@ -24,56 +26,12 @@ const Container = styled.div({
   flexDirection: 'column',
 });
 
-const Header = styled.span(({ onClick }) => [
-  {
-    color: colors.neutral[10],
-    gridArea: 'title',
-    textAlign: 'left',
-    fontSize: rem(12),
-    height: rem(40),
-    alignItems: 'center',
-    display: 'flex',
-    paddingLeft: spacing(),
-    paddingRight: spacing(),
-    justifyContent: 'space-between',
-    width: '100%',
-  },
-  onClick && {
-    cursor: 'pointer',
-  },
-]);
-
-const TitleContainer = styled.div({
-  display: 'flex',
-  alignItems: 'center',
-  height: '100%',
-  overflow: 'hidden',
-  '& > span': {
-    marginRight: rem(9),
-    overflow: 'hidden',
-  },
-});
-
-const Timer = styled.span({
-  color: colors.neutral[20],
-  textAlign: 'right',
-  marginLeft: rem(10),
-  whiteSpace: 'nowrap',
-});
-
-const BadgeWrapper = styled.div({
-  marginLeft: spacing('xsmall'),
-});
-
-const ScoreWrapper = styled.span({
-  gridArea: 'score',
-  backgroundImage:
-    'linear-gradient(135deg, #010812 25%, rgba(255,255,255,0.08) 25%, rgba(255,255,255,0.08) 50%, #010812 50%, #010812 75%, rgba(255,255,255,0.08) 75%, rgba(255,255,255,0.08) 100%)',
-  backgroundSize: '5.66px 5.66px',
+const ScoreWrapper = styled.div({
+  ...backgroundStripes,
   borderRadius: '2px',
 });
 
-const Score = styled.span({
+const Score = styled.div({
   color: colors.neutral[20],
   backgroundColor: colors.neutral[90],
   marginTop: spacing(),
@@ -153,18 +111,12 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
 
   return (
     <Container>
-      <Header onClick={onClick}>
-        <TitleContainer>
-          <span>{event.name}</span>
-          {badges &&
-            badges.map((badge, index) => {
-              /* @TODO Revisit post-EPL */
-              /* eslint-disable-next-line react/no-array-index-key */
-              return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
-            })}
-        </TitleContainer>
-        <Timer>{timer}</Timer>
-      </Header>
+      <ScoreBoardHeader
+        title={event.name}
+        timer={timer}
+        badges={badges}
+        onClick={onClick}
+      />
       <ScoreWrapper>
         <Score>
           <TeamName home>{event.competitors.home.name}</TeamName>
@@ -245,7 +197,7 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <AwayPoints current>{information.awayScore}</AwayPoints>
         </Score>
       </ScoreWrapper>
-      <TennisSelections selection={event.market.selection} />
+      <Selection selection={event.market.selection} />
       <Market
         onClick={onClick}
         market={event.market}
