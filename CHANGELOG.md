@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
+
+
+### Bug Fixes
+
+* **CashierHeading:** resolve type errors [@bilal-net](https://github.com/bilal-net) ([06bd3c6](https://github.com/coingaming/sportsbet-design/commit/06bd3c6))
+* **semibold:** switch out hardcoded 600 refs for [@lauaviin](https://github.com/lauaviin) ([17ea3c8](https://github.com/coingaming/sportsbet-design/commit/17ea3c8))
+
+
+### Features
+
+* **container:** add padding arguments ([7bd1fb5](https://github.com/coingaming/sportsbet-design/commit/7bd1fb5))
+* **mq:** support reverse direction breakpoints ([d465d0d](https://github.com/coingaming/sportsbet-design/commit/d465d0d))
+* **shared:** initialise `shared` directory ([2502453](https://github.com/coingaming/sportsbet-design/commit/2502453))
+* **utils:** add `breakout` mixin ([6ed346e](https://github.com/coingaming/sportsbet-design/commit/6ed346e))
+
+
+
+
+
 ## [0.68.2](https://github.com/coingaming/sportsbet-design/compare/v0.68.1...v0.68.2) (2019-07-09)
 
 **Note:** Version bump only for package Sportsbet.io
