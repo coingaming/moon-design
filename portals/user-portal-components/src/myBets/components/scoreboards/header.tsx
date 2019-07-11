@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
+import { BadgeWrapper } from '../shared/utils';
 
 const Wrapper = styled.div(({ onClick }) => [
   {
@@ -41,10 +42,6 @@ const Timer = styled.span({
   textAlign: 'right',
   marginLeft: rem(10),
   whiteSpace: 'nowrap',
-});
-
-const BadgeWrapper = styled.div({
-  marginLeft: spacing('xsmall'),
 });
 
 export const ScoreBoardHeader = ({
