@@ -5,7 +5,7 @@ import { container, mq, spacing } from '@heathmont/sportsbet-utils';
 import {
   USER_PORTAL_CONTAINER_SIZE,
   USER_PORTAL_CONTAINER_FLUSH,
-} from '../../../globals';
+} from '../../../shared/globals';
 
 export const TransactionDetailsHeader = styled.div({
   marginTop: spacing(),

@@ -6,7 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import {
   userPortalContainer,
   userPortalContainerInner,
-} from '../../../container';
+} from '../../../shared/container';
 
 export const FreeBetsWrapper: React.FC<{ badgeClosed?: boolean }> = styled.div({
   ...userPortalContainer,

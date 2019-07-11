@@ -12,7 +12,7 @@ import { cardGradientSizes } from '@heathmont/sportsbet-components/lib/card/util
 import {
   userPortalContainer,
   userPortalContainerInner,
-} from '../../../container';
+} from '../../../shared/container';
 
 export const BonusWrapper = styled.div({
   ...userPortalContainer,
