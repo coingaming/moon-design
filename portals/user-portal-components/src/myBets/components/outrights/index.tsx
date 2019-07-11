@@ -7,8 +7,7 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { IconLogoPlain } from '@heathmont/sportsbet-icons';
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
-import { betBoostHighlightColors } from '../shared/betboostmodifier';
-import { backgroundStripes } from '../shared/utils';
+import { backgroundStripes, betBoostHighlightColors } from '../shared/utils';
 
 export type OutRightProps = {
   event: EventProps;

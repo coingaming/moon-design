@@ -2,8 +2,8 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { colors, border } from '@heathmont/sportsbet-tokens';
-import { betBoostHighlightColors } from './betboostmodifier';
+import { colors, border, typography } from '@heathmont/sportsbet-tokens';
+import { betBoostHighlightColors } from './utils';
 
 export type SelectionProps = {
   name: string;
@@ -33,11 +33,13 @@ const SelectionButton = styled.button(({ boosted }: { boosted?: boolean }) => [
     alignItems: 'center',
     overflow: 'hidden',
     textAlign: 'left',
+    fontWeight: typography.fontWeight.semibold,
     '.name': [
       {
         color: colors.neutral[20],
         textOverflow: 'ellipsis',
         overflow: 'hidden',
+        fontSize: rem(12),
       },
       boosted && {
         color: betBoostHighlightColors.text,
