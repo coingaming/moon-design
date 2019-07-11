@@ -1,44 +1,40 @@
-import styled, { CSSObject } from '@emotion/styled';
+import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../../shared/container';
+import { USER_PORTAL_CONTAINER_SIZE } from '../../../shared/globals';
 
 export const WalletsContainer = styled.div({
+  ...userPortalContainer,
+  ...userPortalContainerInner,
   display: 'flex',
   flexDirection: 'row',
   overflow: 'auto',
   flexFlow: 'row nowrap',
   scrollSnapType: 'x mandatory',
   marginTop: spacing('large'),
-  marginLeft: spacing('large'),
-  marginRight: spacing('large'),
-  [mq(breakpoints.medium)]: {
-    marginLeft: 0,
-    marginRight: 0,
-  },
 });
 
-const walletWrapper: CSSObject = {
-  minWidth: rem(256),
-  marginRight: spacing(),
-  scrollSnapAlign: 'center',
-  [mq(breakpoints.small)]: {
-    minWidth: rem(320),
-    marginRight: spacing('large'),
-  },
-};
-
 export const WalletWrapper = styled.div<{ mobileHidden?: boolean }>(
-  ({ mobileHidden = false }) => [
-    mobileHidden
-      ? {
-          display: 'none',
-          [mq(breakpoints.medium)]: {
-            display: 'block',
-            ...walletWrapper,
-          },
-        }
-      : walletWrapper,
+  ({ mobileHidden }) => [
+    {
+      minWidth: rem(280),
+      paddingRight: spacing(),
+      scrollSnapAlign: 'center',
+      [mq(breakpoints.small)]: {
+        minWidth: rem(USER_PORTAL_CONTAINER_SIZE / 3),
+        paddingRight: spacing('large'),
+      },
+    },
+    mobileHidden && {
+      [mq(breakpoints.medium, 'max-width')]: {
+        display: 'none',
+      },
+    },
   ]
 );
 
