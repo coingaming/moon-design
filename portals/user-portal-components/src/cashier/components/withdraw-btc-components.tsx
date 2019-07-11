@@ -8,6 +8,11 @@ import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import styled from '@emotion/styled';
 import { Link, LinkProps } from '@heathmont/sportsbet-components';
+import {
+  userPortalContainerFlush,
+  userPortalContainerInner,
+  userPortalContainer,
+} from '../../shared/container';
 
 jsx;
 
@@ -15,9 +20,8 @@ export const WalletBackIconArrowLeft = () => (
   <IconArrowLeft
     css={{
       color: colors.neutral[20],
-      paddingLeft: spacing(),
       paddingRight: spacing(),
-      fontSize: '3rem',
+      fontSize: '2rem',
     }}
   />
 );
@@ -35,6 +39,7 @@ export const WalletBackNav: React.FC<NavLinkProps & { as: any }> = ({
       as={as}
       to={to}
       css={{
+        ...userPortalContainerInner,
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
@@ -50,6 +55,7 @@ export const WalletBackNav: React.FC<NavLinkProps & { as: any }> = ({
 };
 
 export const CashierHeader = styled.div({
+  ...userPortalContainerFlush,
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
@@ -59,10 +65,11 @@ export const CashierHeader = styled.div({
 });
 
 export const WithdrawBTCLayout = styled.div({
-  padding: spacing('medium'),
+  ...userPortalContainer,
+  ...userPortalContainerInner,
+  paddingTop: spacing('medium'),
+  paddingBottom: spacing('medium'),
   [mq(breakpoints.medium)]: {
-    paddingRight: 0,
-    paddingLeft: spacing('xlarge'),
     paddingTop: spacing('xlarge'),
     display: 'grid',
     gridTemplateColumns: '2fr 1fr',
