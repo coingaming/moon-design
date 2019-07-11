@@ -7,6 +7,8 @@ import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
 
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
 
+import { userPortalContainerInner } from '../../../shared/container';
+
 export const SettingsBlockCollapsible = styled.details<{
   open?: boolean;
   /* @TODO Revisit post-EPL */
@@ -31,20 +33,15 @@ export const SettingsBlockCollapsible = styled.details<{
 });
 
 export const SummaryAccount = styled.summary<{}>({
+  ...userPortalContainerInner,
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'space-between',
   alignItems: 'center',
-  paddingLeft: spacing(),
-  paddingRight: spacing(),
   paddingTop: spacing('medium'),
   paddingBottom: spacing('medium'),
   cursor: 'pointer',
   boxSizing: 'border-box',
-  [mq(breakpoints.medium)]: {
-    paddingLeft: 0,
-    paddingRight: 0,
-  },
   /* arrow */
   '&::-webkit-details-marker': {
     backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
@@ -62,18 +59,13 @@ export const SummaryAccount = styled.summary<{}>({
 });
 
 export const SettingsBlockCollapsibleContents = styled.div({
+  ...userPortalContainerInner,
   display: 'flex',
   flexFlow: 'wrap',
   alignItems: 'center',
   boxSizing: 'border-box',
-  paddingLeft: spacing(),
-  paddingRight: spacing(),
   paddingTop: spacing('medium'),
   paddingBottom: spacing('medium'),
-  [mq(breakpoints.medium)]: {
-    paddingLeft: 0,
-    paddingRight: 0,
-  },
 });
 
 /* @TODO Revisit post-EPL */
