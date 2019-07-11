@@ -12,6 +12,10 @@ import {
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { Link, LinkProps } from '@heathmont/sportsbet-components';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../shared/container';
 
 jsx;
 
@@ -64,15 +68,13 @@ export const AddWalletCardContainer: React.FC<LinkProps> = ({
 export const WalletMobileButton = styled(Link)([
   borderAddWallet,
   caption,
+  userPortalContainer,
+  userPortalContainerInner,
   {
+    display: 'block',
     marginTop: spacing(),
     textAlign: 'center',
-    width: `calc(100% - ${spacing('large')} - ${spacing('large')})`,
     height: rem(50),
-    marginLeft: spacing('large'),
-    marginRight: spacing('large'),
-    paddingTop: spacing(),
-    paddingBottom: spacing(),
     textDecoration: 'none',
     [mq(breakpoints.medium)]: {
       display: 'none',

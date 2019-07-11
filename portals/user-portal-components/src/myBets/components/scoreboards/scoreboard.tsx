@@ -2,6 +2,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
+import { USER_PORTAL_CONTAINER_PADDING } from '../../../shared/globals';
 import { MarketProps } from '../shared/market';
 
 type CompetitorProps = {
@@ -35,6 +36,8 @@ export const ScoreboardsContainer = ({ children }: any) => {
     overflow: 'auto',
     flexFlow: 'row nowrap',
     scrollSnapType: 'x mandatory',
+    paddingLeft: rem(USER_PORTAL_CONTAINER_PADDING),
+    paddingRight: rem(USER_PORTAL_CONTAINER_PADDING),
   });
 
   const Container = styled.div({

@@ -3,64 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
+
+### Features
+
+- **container:** add padding arguments ([7bd1fb5](https://github.com/coingaming/sportsbet-design/commit/7bd1fb5))
+- **mq:** support reverse direction breakpoints ([d465d0d](https://github.com/coingaming/sportsbet-design/commit/d465d0d))
+- **utils:** add `breakout` mixin ([6ed346e](https://github.com/coingaming/sportsbet-design/commit/6ed346e))
+
 # [0.68.0](https://github.com/coingaming/sportsbet-design/compare/v0.67.0...v0.68.0) (2019-07-05)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
-
-
-
-
 
 # [0.67.0](https://github.com/coingaming/sportsbet-design/compare/v0.66.0...v0.67.0) (2019-07-03)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
 
-
-
-
-
 # [0.66.0](https://github.com/coingaming/sportsbet-design/compare/v0.65.3...v0.66.0) (2019-07-02)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
-
-
-
-
 
 # [0.65.0](https://github.com/coingaming/sportsbet-design/compare/v0.64.0...v0.65.0) (2019-07-01)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
 
-
-
-
-
 # [0.64.0](https://github.com/coingaming/sportsbet-design/compare/v0.63.4...v0.64.0) (2019-06-28)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
-
-
-
-
 
 ## [0.63.3](https://github.com/coingaming/sportsbet-design/compare/v0.63.2...v0.63.3) (2019-06-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
 
-
-
-
-
 ## [0.63.2](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.2) (2019-06-27)
-
 
 ### Bug Fixes
 
-* manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
-
-
-
-
+- manual update to v0.63.1 ([b2cecb7](https://github.com/coingaming/sportsbet-design/commit/b2cecb7))
 
 ## [0.63.1](https://github.com/coingaming/sportsbet-design/compare/v0.62.1...v0.63.1) (2019-06-27)
 

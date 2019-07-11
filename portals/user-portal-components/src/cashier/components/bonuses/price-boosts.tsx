@@ -9,17 +9,19 @@ import {
 } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { cardGradientSizes } from '@heathmont/sportsbet-components/lib/card/utils';
+import {
+  userPortalContainer,
+  userPortalContainerInner,
+} from '../../../shared/container';
 
 export const BonusWrapper = styled.div({
-  marginLeft: spacing(),
-  marginRight: spacing(),
+  ...userPortalContainer,
+  ...userPortalContainerInner,
   marginBottom: spacing(),
   display: 'grid',
   gridTemplateColumns: '1fr',
   rowGap: spacing(),
   [mq(breakpoints.medium)]: {
-    marginLeft: 0,
-    marginRight: 0,
     gridTemplateColumns: '1fr 1fr 1fr 1fr',
     columnGap: spacing('medium'),
     rowGap: spacing('large'),
