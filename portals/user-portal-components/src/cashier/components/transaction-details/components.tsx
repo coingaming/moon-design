@@ -7,17 +7,11 @@ import rem from 'polished/lib/helpers/rem';
 
 jsx;
 
-export const Summary = styled.summary<{
+const SummaryContainer = styled.summary<{
   inactive?: boolean;
   details?: boolean;
 }>(({ inactive = false, details = false }) => [
   {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    height: rem(64),
-    alignItems: 'center',
-    borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
     /* arrow */
     '&::-webkit-details-marker': {
       color: colors.neutral[20],
@@ -28,6 +22,7 @@ export const Summary = styled.summary<{
         right: spacing('small'),
       },
     },
+    listStyle: 'none',
   },
   inactive && {
     color: colors.neutral[20],
@@ -39,6 +34,25 @@ export const Summary = styled.summary<{
     },
   },
 ]);
+
+const SummaryInner = styled.div({
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  height: rem(64),
+  alignItems: 'center',
+  borderBottom: `${border.width}px solid ${colors.neutral[40]}`,
+});
+
+export const Summary: React.FC<{ inactive?: boolean; details?: boolean }> = ({
+  inactive = false,
+  details = false,
+  children,
+}) => (
+  <SummaryContainer inactive={inactive} details={details}>
+    <SummaryInner>{children}</SummaryInner>
+  </SummaryContainer>
+);
 
 export const Details = styled.div({
   display: 'flex',
