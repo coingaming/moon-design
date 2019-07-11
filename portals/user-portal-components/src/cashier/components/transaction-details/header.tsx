@@ -4,7 +4,7 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { container, mq, spacing } from '@heathmont/sportsbet-utils';
 import {
   USER_PORTAL_CONTAINER_SIZE,
-  USER_PORTAL_CONTAINER_FLUSH,
+  USER_PORTAL_CONTAINER_SIZE_FLUSH,
 } from '../../../shared/globals';
 
 export const TransactionDetailsHeader = styled.div({
@@ -16,6 +16,6 @@ export const TransactionDetailsHeader = styled.div({
   backgroundColor: colors.neutral[70],
   color: colors.neutral[20],
   [mq(USER_PORTAL_CONTAINER_SIZE)]: {
-    ...container(USER_PORTAL_CONTAINER_FLUSH, 0),
+    ...container(USER_PORTAL_CONTAINER_SIZE_FLUSH, 0),
   },
 });
