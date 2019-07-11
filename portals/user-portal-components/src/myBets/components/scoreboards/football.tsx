@@ -7,7 +7,7 @@ import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
-import { betBoostHighlightColors } from '../shared/betboostmodifier';
+import { betBoostHighlightColors } from '../shared/utils';
 
 export type FootballProps = {
   event: EventProps;

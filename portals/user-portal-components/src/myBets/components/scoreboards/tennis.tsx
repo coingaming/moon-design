@@ -10,8 +10,7 @@ import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
-import { betBoostHighlightColors } from '../shared/betboostmodifier';
-import { backgroundStripes } from '../shared/utils';
+import { backgroundStripes, betBoostHighlightColors } from '../shared/utils';
 
 export type TennisProps = {
   event: EventProps;

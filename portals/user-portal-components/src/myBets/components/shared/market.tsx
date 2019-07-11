@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, typography } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
 import { IconPlay } from '@heathmont/sportsbet-icons/lib/svg/IconPlay';
 
@@ -28,6 +28,7 @@ const MarketCount = styled.span(onClick => [
     color: colors.brand,
     textAlign: 'right',
     marginLeft: 'auto',
+    fontWeight: typography.fontWeight.semibold,
   },
   onClick && { cursor: 'pointer' },
 ]);
@@ -57,12 +58,10 @@ export const Market = ({
         if (!videoStream && !index) {
           return badge;
         }
-
         /* @TODO Revisit post-EPL */
         /* eslint-disable-next-line react/no-array-index-key */
         return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
       })}
-    {/* <MarketName onClick={onClick}>{market.name}</MarketName> */}
     <MarketCount onClick={onClick}>{`+${marketCount}`}</MarketCount>
   </Wrapper>
 );
