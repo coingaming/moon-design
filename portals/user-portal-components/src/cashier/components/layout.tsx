@@ -38,9 +38,7 @@ export const StickyNav = styled.div({
   zIndex: 5,
 });
 
-export const CashierHeading: React.FC<{ children: React.ReactChildren }> = ({
-  children,
-}) => (
+export const CashierHeading: React.FC<{}> = ({ children }) => (
   <UserPortalContainer>
     <Heading size="charlie" as="h1" css={heading}>
       {children}
