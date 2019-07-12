@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { colors, typography } from '@heathmont/sportsbet-tokens';
+import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
 import { EventProps } from '..';
 import { spacing } from '@heathmont/sportsbet-utils';
@@ -24,6 +24,7 @@ const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
     justifyContent: 'center',
     flexBasis: '100%',
     border: `${rem(1)} solid ${colors.neutral[90]}`,
+    borderRadius: rem(4),
   },
   boosted && {
     borderColor: betBoostHighlightColors.border,
@@ -38,10 +39,11 @@ const Header = styled.div(({ onClick }) => [
     textAlign: 'center',
     paddingLeft: spacing(),
     paddingRight: spacing(),
-    height: rem(40),
+    height: rem(55),
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
   },
   onClick && {
     cursor: 'pointer',
@@ -58,22 +60,24 @@ const ContentContainer = styled.div({
   ...backgroundStripes,
   width: '100%',
   borderRadius: '2px',
-  height: rem(120),
+  height: rem(104),
   display: 'flex',
-  alignItems: 'center',
+  alignItems: 'flex-start',
 });
 
 const Content = styled.div({
   width: '100%',
   fontWeight: typography.fontWeight.semibold,
-  paddingTop: spacing('medium'),
-  paddingBottom: spacing('medium'),
+  paddingTop: spacing('small'),
+  paddingBottom: spacing('small'),
+  minHeight: rem(81),
   paddingLeft: spacing('xlarge'),
   paddingRight: spacing('xlarge'),
   backgroundColor: colors.neutral[90],
   display: 'flex',
   alignItems: 'center',
-  marginTop: `-${spacing('small')}`,
+  maxHeight: '100%',
+  overflow: 'hidden',
   '& > svg': {
     fontSize: rem(37),
     marginRight: spacing('large'),
