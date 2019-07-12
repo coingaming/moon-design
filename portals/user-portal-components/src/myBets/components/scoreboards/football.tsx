@@ -1,13 +1,16 @@
 import * as React from 'react';
 import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
-import { betBoostHighlightColors } from '../shared/utils';
+import {
+  betBoostHighlightColors,
+  scoreboardBackgroundColor,
+} from '../shared/utils';
 
 export type FootballProps = {
   event: EventProps;
@@ -19,7 +22,7 @@ export type FootballProps = {
 const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
   {
     display: 'flex',
-    backgroundColor: colors.neutral[90],
+    backgroundColor: scoreboardBackgroundColor,
     maxWidth: rem(320),
     flexWrap: 'wrap',
     justifyContent: 'center',
@@ -36,6 +39,7 @@ const Score = styled.span({
   alignSelf: 'center',
   fontSize: rem(32),
   lineHeight: rem(30),
+  fontWeight: typography.fontWeight.semibold,
 });
 
 const ScoreSeparator = styled.span({
@@ -76,6 +80,7 @@ const Competitors = styled.div(() => [
     flexGrow: 1,
     paddingLeft: spacing('small'),
     paddingRight: spacing('small'),
+    fontWeight: typography.fontWeight.semibold,
 
     span: {
       width: rem(120),
