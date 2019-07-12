@@ -33,7 +33,7 @@ const borderAddWallet: CSSObject = {
   borderStyle: border.style,
   borderWidth: border.width,
   borderColor: colors.neutral[70],
-  borderRadius: border.radius.small,
+  borderRadius: border.radius.largest,
   [mq(breakpoints.medium)]: {
     borderRadius: border.radius.default,
   },

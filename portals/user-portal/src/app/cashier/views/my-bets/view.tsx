@@ -39,6 +39,7 @@ import {
   ScoreboardsContainer,
   TennisScoreboard,
   StickyNav,
+  OutRight,
 } from '@heathmont/sportsbet-user-portal-components';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
@@ -50,6 +51,7 @@ import {
   liveBadge,
   wonBadge,
   activeBadge,
+  outRightEvent,
 } from './dummyData';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
 
@@ -88,12 +90,98 @@ export const MyBetsView = () => {
                 <Badge backgroundColor={colors.palette.vegeta[80]}>
                   Single
                 </Badge>
+                <MyBetHeaderTitleAmount>10.82mBTC</MyBetHeaderTitleAmount>
+              </MyBetHeaderTitle>
+              <MyBetHeaderCaption>
+                <MyBetHeaderCaptionDate>01.09.1939</MyBetHeaderCaptionDate>
+                <MyBetHeaderCaptionMatchName>
+                  Germany vs Poland
+                </MyBetHeaderCaptionMatchName>
+              </MyBetHeaderCaption>
+            </MyBetHeaderContainer>
+            <MyBetHeaderStatusContainer>
+              <MyBetHeaderStatus>
+                <Badge>Active</Badge>
+              </MyBetHeaderStatus>
+              <MyBetHeaderOdds>21.20</MyBetHeaderOdds>
+              <MyBetHeaderPotential>500,945 EUR</MyBetHeaderPotential>
+            </MyBetHeaderStatusContainer>
+            <MyBetHeaderCashoutContainer>
+              <Button modifier="optional">Cash out</Button>
+              <MyBetHeaderCashout>
+                <MyBetHeaderCashoutAmount>10.82mBTC</MyBetHeaderCashoutAmount>
+              </MyBetHeaderCashout>
+            </MyBetHeaderCashoutContainer>
+          </MyBetHeader>
+          <MyBetContents>
+            <ScoreboardsContainer>
+              <OutRight event={outRightEvent} badges={[wonBadge]} />
+              <OutRight
+                event={outRightEvent}
+                badges={[liveBadge, wonBadge, wonBadge]}
+              />
+              <OutRight event={outRightEvent} />
+              <OutRight event={outRightEvent} />
+            </ScoreboardsContainer>
+            <MyBetCaptions>
+              <MyBetCaptionRow>
+                <MyBetCaptionTitle>Status</MyBetCaptionTitle>
+                <MyBetCaptionValue>
+                  <Badge>Lost</Badge>
+                </MyBetCaptionValue>
+              </MyBetCaptionRow>
+              <MyBetCaptionRow>
+                <MyBetCaptionTitle>Odds</MyBetCaptionTitle>
+                <MyBetCaptionValue>21.20</MyBetCaptionValue>
+              </MyBetCaptionRow>
+              <MyBetCaptionRow>
+                <MyBetCaptionTitle>Stake</MyBetCaptionTitle>
+                <MyBetCaptionValue>500,945 EUR</MyBetCaptionValue>
+              </MyBetCaptionRow>
+              <MyBetCaptionRow>
+                <MyBetCaptionTitle>Potential win</MyBetCaptionTitle>
+                <MyBetCaptionValue color={colors.brand}>
+                  10.82mBTC
+                </MyBetCaptionValue>
+              </MyBetCaptionRow>
+            </MyBetCaptions>
+          </MyBetContents>
+
+          <MyBetFooter>
+            <Button modifier="optional">
+              Copy bet ID <IconHyperlink />
+            </Button>
+          </MyBetFooter>
+        </MyBetContainer>
+        <MyBetFooter>
+          <Button modifier="optional">
+            Copy bet ID <IconHyperlink />
+          </Button>
+        </MyBetFooter>
+
+        <MyBetContainerHeader>
+          <MyBetContainerHeaderBetDetails>
+            Bet Details
+          </MyBetContainerHeaderBetDetails>
+          <MyBetContainerHeaderStatus>Status</MyBetContainerHeaderStatus>
+          <MyBetContainerHeaderOdds>Odds</MyBetContainerHeaderOdds>
+          <MyBetContainerHeaderPotentialWin>
+            Potential win
+          </MyBetContainerHeaderPotentialWin>
+        </MyBetContainerHeader>
+        <MyBetContainer>
+          <MyBetHeader>
+            <MyBetHeaderContainer>
+              <MyBetHeaderTitle>
+                <Badge backgroundColor={colors.palette.vegeta[80]}>
+                  Single
+                </Badge>
                 <MyBetHeaderTitleAmount>1535.82 mBTC</MyBetHeaderTitleAmount>
               </MyBetHeaderTitle>
               <MyBetHeaderCaption>
                 <MyBetHeaderCaptionDate>17.11.2018</MyBetHeaderCaptionDate>
                 <MyBetHeaderCaptionMatchName>
-                  Double Result (1st set/match) - Martinez Sanchez M Jep jep
+                  Double Result (1st set/match) - Martinez Sanchez M
                 </MyBetHeaderCaptionMatchName>
               </MyBetHeaderCaption>
             </MyBetHeaderContainer>
@@ -115,6 +203,7 @@ export const MyBetsView = () => {
           </MyBetHeader>
           <MyBetContents>
             <ScoreboardsContainer>
+              <OutRight event={outRightEvent} />
               <FootballScoreboard event={event} timer="45:21" />
               <FootballScoreboard
                 event={footballEventNoStream}
