@@ -8,7 +8,7 @@
     { "path": "../../design/tokens" },
     { "path": "../../design/utils" },
     { "path": "../shared" },
-    { "path": "../user-portal-components" }
+    { "path": "../id-portal-components" }
   ],
   "include": ["src"],
   "exclude": ["src/**/__tests__"]
