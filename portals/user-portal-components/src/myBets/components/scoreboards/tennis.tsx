@@ -4,13 +4,18 @@ import { css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import lodashGet from 'lodash.get';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { colors, border } from '@heathmont/sportsbet-tokens';
+import { colors, border, typography } from '@heathmont/sportsbet-tokens';
 
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
-import { backgroundStripes, betBoostHighlightColors } from '../shared/utils';
+import {
+  backgroundStripes,
+  betBoostHighlightColors,
+  scoreboardBackgroundColor,
+  scoreboardScoreColor,
+} from '../shared/utils';
 
 export type TennisProps = {
   event: EventProps;
@@ -21,7 +26,7 @@ export type TennisProps = {
 
 const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
   {
-    backgroundColor: colors.neutral[90],
+    backgroundColor: scoreboardBackgroundColor,
     maxWidth: rem(320),
     display: 'flex',
     flexWrap: 'nowrap',
@@ -40,9 +45,7 @@ const ScoreWrapper = styled.div({
 
 const Score = styled.div({
   color: colors.neutral[20],
-  backgroundColor: colors.neutral[90],
-  marginTop: spacing(),
-  marginBottom: rem(23),
+  backgroundColor: scoreboardScoreColor,
   display: 'grid',
   gridTemplateAreas:
     "'homeName homePeriod0 homePeriod1 homePeriod2 homePeriod3 homeCurrent' " +
@@ -50,6 +53,7 @@ const Score = styled.div({
   gridTemplateRows: '40px 40px',
   gridTemplateColumns: '3fr 1fr 1fr 1fr 1fr 1.2fr',
   borderTop: `${border.width}px solid ${colors.neutral[30]}`,
+  fontWeight: typography.fontWeight.semibold,
 });
 
 const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
