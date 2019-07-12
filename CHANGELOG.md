@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.70.0](https://github.com/coingaming/sportsbet-design/compare/v0.69.0...v0.70.0) (2019-07-12)
+
+
+### Bug Fixes
+
+* **wallet:** safari for ios summury display reset issue ([c920693](https://github.com/coingaming/sportsbet-design/commit/c920693))
+* align outright title to center ([ea43cd1](https://github.com/coingaming/sportsbet-design/commit/ea43cd1))
+* PR changes ([00fe7f6](https://github.com/coingaming/sportsbet-design/commit/00fe7f6))
+
+
+### Features
+
+* Add Outright type of a mybet ([4fe8f41](https://github.com/coingaming/sportsbet-design/commit/4fe8f41))
+
+
+
+
+
 # [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
 
 ### Bug Fixes
