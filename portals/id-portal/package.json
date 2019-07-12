@@ -1,5 +1,5 @@
 {
-  "name": "@heathmont/sportsbet-user-portal",
+  "name": "@heathmont/sportsbet-id-portal",
   "version": "0.70.0",
   "main": "dist/main.bundle.js",
   "typings": "lib/index.d.ts",
@@ -10,10 +10,9 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build": "export NODE_ENV=production && yarn build:assets && yarn build:client && yarn build:server",
+    "build": "export NODE_ENV=production && yarn build:client && yarn build:server",
     "build:server": "webpack --config .config/webpack/webpack.config.server.js --display-error-details",
     "build:client": "webpack --config .config/webpack/webpack.config.client.js --display-error-details",
-    "build:assets": "mkdir -p dist/assets && cp -R assets/ dist/assets/",
     "bundlesize": "bundlesize",
     "clean": "rimraf **/{lib,dist,.cache,public}/",
     "dev": "export NODE_ENV=development && webpack --config .config/webpack/webpack.config.isomorphic.js --watch --progress & nodemon ./dist/server.bundle.js",
