@@ -31,7 +31,8 @@ const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
     display: 'flex',
     flexWrap: 'nowrap',
     flexDirection: 'column',
-    border: `${rem(1)} solid ${colors.neutral[90]}`,
+    border: `${rem(1)} solid ${scoreboardBackgroundColor}`,
+    borderRadius: rem(4),
   },
   boosted && {
     borderColor: betBoostHighlightColors.border,
@@ -52,8 +53,8 @@ const Score = styled.div({
     "'awayName awayPeriod0 awayPeriod1 awayPeriod2 awayPeriod3 awayCurrent' ",
   gridTemplateRows: '40px 40px',
   gridTemplateColumns: '3fr 1fr 1fr 1fr 1fr 1.2fr',
-  borderTop: `${border.width}px solid ${colors.neutral[30]}`,
   fontWeight: typography.fontWeight.semibold,
+  marginBottom: spacing('medium'),
 });
 
 const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
@@ -130,6 +131,7 @@ export const TennisScoreboard = ({
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
+        marketName={event.market.name}
         boosted={boosted}
         onClick={onClick}
       />

@@ -26,7 +26,8 @@ const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
     maxWidth: rem(320),
     flexWrap: 'wrap',
     justifyContent: 'center',
-    border: `${rem(1)} solid ${colors.neutral[90]}`,
+    border: `${rem(1)} solid ${scoreboardBackgroundColor}`,
+    borderRadius: rem(4),
   },
   boosted && {
     borderColor: betBoostHighlightColors.border,
@@ -50,7 +51,7 @@ const ScoreSeparator = styled.span({
 const Logos = styled.div({
   paddingLeft: spacing('medium'),
   paddingRight: spacing('medium'),
-  height: rem(80),
+  height: rem(70),
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
@@ -73,7 +74,7 @@ const Logo = styled.div(onClick => [
 
 const Competitors = styled.div(() => [
   {
-    height: rem(40),
+    height: rem(34),
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -105,6 +106,7 @@ export const FootballScoreboard = ({
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
+        marketName={event.market.name}
         onClick={onClick}
         boosted={boosted}
       />
