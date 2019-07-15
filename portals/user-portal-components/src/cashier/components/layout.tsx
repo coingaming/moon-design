@@ -11,6 +11,7 @@ import {
   UserPortalContainer,
   userPortalContainer,
   userPortalContainerInner,
+  UserPortalContainerInner,
 } from '../../shared/container';
 
 jsx;
@@ -36,6 +37,17 @@ export const StickyNav = styled.div({
   position: 'sticky',
   top: 0,
   zIndex: 5,
+});
+
+export const ListHeading = styled(UserPortalContainerInner)({
+  marginTop: spacing('large'),
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  paddingBottom: spacing('large'),
+  borderBottom: `${border.width}px ${border.style} ${colors.neutral[70]}`,
 });
 
 export const CashierHeading: React.FC<{}> = ({ children }) => (
