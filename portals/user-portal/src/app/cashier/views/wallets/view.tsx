@@ -12,11 +12,11 @@ import {
   AddWalletCardContainer,
   WalletMobileButton,
   StickyNav,
+  TransactionListHeading,
+  UserPortalContainer,
 } from '@heathmont/sportsbet-user-portal-components';
-import { Heading } from '@heathmont/sportsbet-components';
-import { mq, spacing, container } from '@heathmont/sportsbet-utils';
-import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { NavLink } from 'react-router-dom';
+import { Heading, Select } from '@heathmont/sportsbet-components';
 import { BitcoinWallet } from './dumb-components/bitcoin-wallet';
 import { TransactionDetailItem } from './dumb-components/transaction-details/item';
 import { TransactionsHeader } from './dumb-components/transaction-details/header';
@@ -70,7 +70,24 @@ export const WalletsView = () => {
           + Add Wallet
         </WalletMobileButton>
         <TransactionsSection>
-          <CashierHeading>Transactions</CashierHeading>
+          <UserPortalContainer>
+            <TransactionListHeading>
+              <Heading size="charlie" as="h1">
+                Transactions
+              </Heading>
+              <div>
+                <Select>
+                  <option value="">Withdrawals</option>
+                  <option value="">Deposits</option>
+                </Select>
+                <Select>
+                  <option value="">BTC</option>
+                  <option value="">SOC</option>
+                  <option value="">EUR</option>
+                </Select>
+              </div>
+            </TransactionListHeading>
+          </UserPortalContainer>
           <TransactionsHeader />
           {items}
         </TransactionsSection>
