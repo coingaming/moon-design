@@ -76,6 +76,7 @@ export const WalletMobileButton = styled(Link)([
     textAlign: 'center',
     height: rem(50),
     textDecoration: 'none',
+    paddingTop: spacing(),
     [mq(breakpoints.medium)]: {
       display: 'none',
     },

@@ -6,6 +6,7 @@ import {
   USER_PORTAL_CONTAINER_SIZE,
   USER_PORTAL_CONTAINER_SIZE_FLUSH,
 } from '../../../shared/globals';
+import { ListHeading } from '../layout';
 
 export const TransactionDetailsHeader = styled.div({
   marginTop: spacing(),
@@ -17,5 +18,19 @@ export const TransactionDetailsHeader = styled.div({
   color: colors.neutral[20],
   [mq(USER_PORTAL_CONTAINER_SIZE)]: {
     ...container(USER_PORTAL_CONTAINER_SIZE_FLUSH, 0),
+  },
+});
+
+export const TransactionListHeading = styled(ListHeading)({
+  [mq(USER_PORTAL_CONTAINER_SIZE, 'max-width')]: {
+    paddingRight: 0,
+  },
+  Select: {
+    width: 'auto',
+    marginLeft: spacing('xsmall'),
+    fontSize: rem(12),
+    [mq(USER_PORTAL_CONTAINER_SIZE, 'max-width')]: {
+      fontSize: rem(8),
+    },
   },
 });
