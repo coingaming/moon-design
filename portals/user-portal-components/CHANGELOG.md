@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.71.0](https://github.com/coingaming/sportsbet-design/compare/v0.70.0...v0.71.0) (2019-07-15)
+
+
+### Bug Fixes
+
+* **header:** added header for notification and transaction list ([ae5b707](https://github.com/coingaming/sportsbet-design/commit/ae5b707))
+
+
+
+
+
 # [0.70.0](https://github.com/coingaming/sportsbet-design/compare/v0.69.0...v0.70.0) (2019-07-12)
 
 

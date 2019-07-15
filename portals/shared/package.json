@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@heathmont/sportsbet-portals-shared",
-  "version": "0.70.0",
+  "version": "0.71.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
