@@ -12,3 +12,15 @@ export const betBoostHighlightColors = {
   text: colors.palette.vegeta[100],
   border: colors.palette.vegeta[100],
 };
+
+export const myBetsContainerColors = {
+  backgroundColor: colors.neutral[70],
+  headerBackgroundColor: colors.palette.goku[100],
+  headerRowCaption: colors.neutral[20],
+  headerRowText: colors.neutral[10],
+  footerCopyBetIconBackground: colors.palette.goku[100],
+  footerCopyBetIcon: colors.neutral[20],
+  footerCashoutAmount: colors.palette.krillin[100],
+  footerSeparator: colors.palette.hit[100],
+  footerSeparatorMob: colors.palette.goku[100],
+};
