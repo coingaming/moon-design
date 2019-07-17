@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { ReactNode, useState } from 'react';
 import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
@@ -10,17 +10,9 @@ import { USER_PORTAL_CONTAINER_PADDING, userPortalContainerFlush } from '../..';
 type Props = {
   open?: boolean;
   onToggle?: (e: React.MouseEvent) => void;
-  // editor upset TSC didn't care :man_shrugging:
-  // header: ReactChildren | JSXElement | Element | string;
-  header: any;
-  // children: ReactChildren | JSXElement | Element | string;
-  children: any;
-  // footer: ReactChildren | JSXElement | Element | string;
-  footer: any;
-};
-
-type State = {
-  open: boolean;
+  header: ReactNode;
+  children: ReactNode;
+  footer: ReactNode;
 };
 
 const Wrapper = styled.div<{ onClick?: any }>(() => [
@@ -37,7 +29,11 @@ const Wrapper = styled.div<{ onClick?: any }>(() => [
   },
 ]);
 
-const Header = styled.div<{ open: boolean; onClick?: any }>(({ open }) => [
+const Header = styled.div<{
+  open?: boolean;
+  onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
+  onKeyDown?: (e: React.KeyboardEvent<HTMLDivElement>) => void;
+}>(({ open }) => [
   {
     paddingTop: rem(USER_PORTAL_CONTAINER_PADDING),
     paddingBottom: rem(USER_PORTAL_CONTAINER_PADDING),
@@ -109,37 +105,34 @@ const Footer = styled.div<{ open?: boolean; onClick?: any }>(({ open }) => [
   },
 ]);
 
-export class MyBetAccordion extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = { open: props.open ? props.open : false };
-  }
+export const MyBetAccordion: React.FC<Props> = ({
+  children,
+  header,
+  footer,
+  open,
+}: Props) => {
+  const [opened, setOpen] = useState(!!open);
 
-  toggle = (): void => {
-    this.setState(prevstate => ({ open: !prevstate.open }));
-  };
-
-  render() {
-    const { children, header, footer } = this.props;
-    const { open } = this.state;
-
-    return (
-      <Wrapper>
-        <Header
-          tabIndex={0}
-          open={open}
-          onClick={this.toggle}
-          onKeyDown={this.toggle}
-        >
-          {header}
-          <IconChevronDown
-            backgroundColor={myBetsContainerColors.footerSeparator}
-            color={colors.neutral[20]}
-          />
-        </Header>
-        <Container open={open}>{children}</Container>
-        <Footer open={open}>{footer}</Footer>
-      </Wrapper>
-    );
-  }
-}
+  return (
+    <Wrapper>
+      <Header
+        tabIndex={0}
+        open={opened}
+        onClick={() => {
+          setOpen(!opened);
+        }}
+        onKeyDown={() => {
+          setOpen(!opened);
+        }}
+      >
+        {header}
+        <IconChevronDown
+          backgroundColor={myBetsContainerColors.footerSeparator}
+          color={colors.neutral[20]}
+        />
+      </Header>
+      <Container open={opened}>{children}</Container>
+      <Footer open={opened}>{footer}</Footer>
+    </Wrapper>
+  );
+};
