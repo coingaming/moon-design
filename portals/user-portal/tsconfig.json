@@ -7,6 +7,7 @@
     { "path": "../../design/objects" },
     { "path": "../../design/tokens" },
     { "path": "../../design/utils" },
+    { "path": "../shared" },
     { "path": "../user-portal-components" }
   ],
   "include": ["src"],

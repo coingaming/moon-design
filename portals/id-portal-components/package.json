@@ -1,0 +1,31 @@
+{
+  "name": "@heathmont/sportsbet-id-portal-components",
+  "version": "0.71.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": "https://github.com/coingaming/sportsbet-design",
+  "author": "mBet Solutions N.V.",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.10",
+    "@emotion/is-prop-valid": "0.7.3",
+    "@emotion/styled": "10.0.9",
+    "@heathmont/sportsbet-components": "^0.71.0",
+    "@heathmont/sportsbet-global": "^0.71.0",
+    "@heathmont/sportsbet-icons": "^0.71.0",
+    "@heathmont/sportsbet-objects": "^0.71.0",
+    "@heathmont/sportsbet-tokens": "^0.71.0",
+    "@heathmont/sportsbet-utils": "^0.71.0",
+    "@types/lodash.get": "4.4.6",
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11",
+    "lodash.get": "4.4.2",
+    "polished": "3.0.0",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "react-router-dom": "5.0.0"
+  }
+}

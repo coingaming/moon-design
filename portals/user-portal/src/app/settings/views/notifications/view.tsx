@@ -2,7 +2,7 @@
 import { useState, Fragment } from 'react';
 import { jsx } from '@emotion/core';
 
-import { Heading, Toggle } from '@heathmont/sportsbet-components';
+import { Heading, Toggle, Button } from '@heathmont/sportsbet-components';
 import {
   SettingsText,
   SettingsSection,
@@ -10,10 +10,9 @@ import {
   BlockContent,
   Active,
   CashierLayout,
-  CashierHeading,
   StickyNav,
+  ListHeading,
 } from '@heathmont/sportsbet-user-portal-components';
-import { container } from '@heathmont/sportsbet-utils/lib/container';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { SubNavigation } from '../../../nav/components/sub-navigation/sub-nav';
@@ -34,7 +33,12 @@ export const NotificationsView = () => {
       </StickyNav>
 
       <CashierLayout>
-        <CashierHeading>Notifications</CashierHeading>
+        <ListHeading>
+          <Heading size="charlie" as="h1">
+            Notifications
+          </Heading>
+          <Button modifier="secondary">Mark All As Read</Button>
+        </ListHeading>
         <SettingsSection>
           <SettingsBlock border>
             <BlockContent>
