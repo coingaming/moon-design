@@ -24,7 +24,6 @@ import {
   MyBetHeaderGreenText,
   MyBetHeaderText,
 } from '@heathmont/sportsbet-user-portal-components';
-import React from 'react';
 import { NonLoggedNav } from '../../../nav/dumb-components/non-logged-in-nav';
 import { LoggedInNav } from '../../../nav/dumb-components/logged-in-nav';
 import {
@@ -68,8 +67,8 @@ export const MyBetsView = () => {
         </MyBetContainerHeader>
         <MyBetAccordion
           header={
-            <React.Fragment>
-              <MyBetHeader>
+            <Fragment>
+  <MyBetHeader>
                 <span>Campino M / Hamaliy E</span>
                 <MyBetHeaderDate>17.11.2018 08:53</MyBetHeaderDate>
                 <MyBetHeaderCaption>Odds</MyBetHeaderCaption>
@@ -79,31 +78,28 @@ export const MyBetsView = () => {
                 <MyBetHeaderCaption>Potential win</MyBetHeaderCaption>
                 <MyBetHeaderGreenText>285 EUR</MyBetHeaderGreenText>
               </MyBetHeader>
-            </React.Fragment>
+</Fragment>
           }
           footer={
-            <React.Fragment>
-              <MyBetFooterIcons>
+            <Fragment>
+  <MyBetFooterIcons>
                 <GroupIconSports name="sport-americanfootball" />
                 <GroupIconSports name="sport-basketball" />
                 <GroupIconSports name="sport-volleyball" />
                 <GroupIconSports name="sport-golf" />
                 <Badge backgroundColor={colors.palette.cell[100]}>Active</Badge>
               </MyBetFooterIcons>
-              <MyBetFooterActions>
+  <MyBetFooterActions>
                 <p>
-                  <span>200</span> EUR
-                </p>
+      <span>200</span> EUR
+    </p>
                 <Button modifier="optional">Cash out</Button>
                 <IconHyperlink
-                  backgroundColor={colors.palette.goku[100]}
-                  color={colors.palette.trunks[100]}
-                  onClick={() => {
-                    console.log('bet copied');
-                  }}
-                />
+      backgroundColor={colors.palette.goku[100]}
+      color={colors.palette.trunks[100]}
+    />
               </MyBetFooterActions>
-            </React.Fragment>
+</Fragment>
           }
         >
           <ScoreboardsContainer>
@@ -127,14 +123,14 @@ export const MyBetsView = () => {
         </MyBetAccordion>
         <MyBetAccordion
           header={
-            <React.Fragment>
-              <MyBetHeader>
+            <Fragment>
+  <MyBetHeader>
                 <span>
-                  <Badge backgroundColor={colors.palette.cell[100]}>
+      <Badge backgroundColor={colors.palette.cell[100]}>
                     Multi
                   </Badge>
-                  <Badge backgroundColor={colors.palette.cell[100]}>3</Badge>
-                </span>
+      <Badge backgroundColor={colors.palette.cell[100]}>3</Badge>
+    </span>
                 <MyBetHeaderDate>17.11.2018 08:53</MyBetHeaderDate>
                 <MyBetHeaderCaption>Odds</MyBetHeaderCaption>
                 <MyBetHeaderText>5.2</MyBetHeaderText>
@@ -143,28 +139,28 @@ export const MyBetsView = () => {
                 <MyBetHeaderCaption>Potential win</MyBetHeaderCaption>
                 <MyBetHeaderGreenText>285 EUR</MyBetHeaderGreenText>
               </MyBetHeader>
-            </React.Fragment>
+</Fragment>
           }
           footer={
-            <React.Fragment>
-              <MyBetFooterIcons>
+            <Fragment>
+  <MyBetFooterIcons>
                 <GroupIconSports name="sport-americanfootball" />
                 <GroupIconSports name="sport-basketball" />
                 <GroupIconSports name="sport-volleyball" />
                 <GroupIconSports name="sport-golf" />
                 <Badge backgroundColor={colors.palette.cell[100]}>Active</Badge>
               </MyBetFooterIcons>
-              <MyBetFooterActions>
+  <MyBetFooterActions>
                 <p>
-                  <span>200</span> EUR
-                </p>
+      <span>200</span> EUR
+    </p>
                 <Button modifier="optional">Cash out</Button>
                 <IconHyperlink
-                  backgroundColor={colors.palette.goku[100]}
-                  color={colors.palette.trunks[100]}
-                />
+      backgroundColor={colors.palette.goku[100]}
+      color={colors.palette.trunks[100]}
+    />
               </MyBetFooterActions>
-            </React.Fragment>
+</Fragment>
           }
         >
           <ScoreboardsContainer>
