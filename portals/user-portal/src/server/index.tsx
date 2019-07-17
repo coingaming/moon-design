@@ -8,9 +8,9 @@ import createCache from '@emotion/cache';
 import { CacheProvider, Global } from '@emotion/core';
 
 import { styles } from '@heathmont/sportsbet-global';
+import { template } from '@heathmont/sportsbet-portals-shared';
 
 import { StaticRouter } from 'react-router-dom';
-import { template } from './template';
 
 import { AppRoutes } from '../app/app';
 

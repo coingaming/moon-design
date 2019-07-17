@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.71.0](https://github.com/coingaming/sportsbet-design/compare/v0.70.0...v0.71.0) (2019-07-15)
+
+
+### Bug Fixes
+
+* **header:** added header for notification and transaction list ([ae5b707](https://github.com/coingaming/sportsbet-design/commit/ae5b707))
+
+
+### Features
+
+* **id-portal:** init ([7fad9d2](https://github.com/coingaming/sportsbet-design/commit/7fad9d2))
+
+
+
+
+
+# [0.70.0](https://github.com/coingaming/sportsbet-design/compare/v0.69.0...v0.70.0) (2019-07-12)
+
+
+### Features
+
+* Add Outright type of a mybet ([4fe8f41](https://github.com/coingaming/sportsbet-design/commit/4fe8f41))
+
+
+
+
+
 # [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-user-portal
