@@ -52,6 +52,7 @@ export const LoggedInNav: React.FC<{ isUserApp?: boolean }> = ({
       <Search
         placeholder="Search for a match, event, player etc ..."
         onChange={e => {
+          /* eslint-disable-next-line no-console */
           console.log(e);
         }}
         onSubmit={e => {
