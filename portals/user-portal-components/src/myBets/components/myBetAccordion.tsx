@@ -125,7 +125,12 @@ export class MyBetAccordion extends React.Component<Props, State> {
 
     return (
       <Wrapper>
-        <Header open={open} onClick={this.toggle}>
+        <Header
+          tabIndex={0}
+          open={open}
+          onClick={this.toggle}
+          onKeyDown={this.toggle}
+        >
           {header}
           <IconChevronDown
             backgroundColor={myBetsContainerColors.footerSeparator}
