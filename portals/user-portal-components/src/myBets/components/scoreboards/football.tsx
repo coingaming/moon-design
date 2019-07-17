@@ -1,26 +1,38 @@
 import * as React from 'react';
 import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
+import {
+  betBoostHighlightColors,
+  scoreboardBackgroundColor,
+} from '../shared/utils';
 
 export type FootballProps = {
   event: EventProps;
   timer: string;
   badges?: React.FC[];
+  boosted?: boolean;
 };
 
-const FootballCard = styled.div({
-  display: 'flex',
-  backgroundColor: colors.neutral[90],
-  maxWidth: rem(320),
-  flexWrap: 'wrap',
-  justifyContent: 'center',
-});
+const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
+  {
+    display: 'flex',
+    backgroundColor: scoreboardBackgroundColor,
+    maxWidth: rem(320),
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    border: `${rem(1)} solid ${scoreboardBackgroundColor}`,
+    borderRadius: rem(4),
+  },
+  boosted && {
+    borderColor: betBoostHighlightColors.border,
+  },
+]);
 
 const Score = styled.span({
   color: colors.neutral[10],
@@ -28,6 +40,7 @@ const Score = styled.span({
   alignSelf: 'center',
   fontSize: rem(32),
   lineHeight: rem(30),
+  fontWeight: typography.fontWeight.semibold,
 });
 
 const ScoreSeparator = styled.span({
@@ -38,7 +51,7 @@ const ScoreSeparator = styled.span({
 const Logos = styled.div({
   paddingLeft: spacing('medium'),
   paddingRight: spacing('medium'),
-  height: rem(80),
+  height: rem(70),
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
@@ -61,13 +74,14 @@ const Logo = styled.div(onClick => [
 
 const Competitors = styled.div(() => [
   {
-    height: rem(40),
+    height: rem(34),
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     flexGrow: 1,
     paddingLeft: spacing('small'),
     paddingRight: spacing('small'),
+    fontWeight: typography.fontWeight.semibold,
 
     span: {
       width: rem(120),
@@ -79,16 +93,22 @@ const Competitors = styled.div(() => [
   },
 ]);
 
-export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
+export const FootballScoreboard = ({
+  event,
+  timer,
+  badges,
+  boosted,
+}: FootballProps) => {
   const { onClick } = event;
 
   return (
-    <FootballCard>
+    <Container boosted={boosted}>
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
+        marketName={event.market.name}
         onClick={onClick}
-        badges={badges}
+        boosted={boosted}
       />
       <Logos>
         <Logo onClick={onClick}>
@@ -113,13 +133,13 @@ export const FootballScoreboard = ({ event, timer, badges }: FootballProps) => {
         <span>{event.competitors.home.name}</span>
         <span>{event.competitors.away.name}</span>
       </Competitors>
-      <Selection selection={event.market.selection} />
+      <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
+        badges={badges}
       />
-    </FootballCard>
+    </Container>
   );
 };

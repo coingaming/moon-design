@@ -1,283 +1,114 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
-import {
-  breakpoints,
-  colors,
-  spacing as spacingTokens,
-} from '@heathmont/sportsbet-tokens';
-import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
-import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
-import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
+import { breakpoints, colors, typography } from '@heathmont/sportsbet-tokens';
+import { mq, spacing } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { userPortalContainerFlush } from '../../shared/container';
+import { myBetsContainerColors } from './shared/utils';
 
 export const MyBetContainerHeader = styled.div<{}>({
   ...userPortalContainerFlush,
   display: 'none',
   paddingLeft: spacing(),
-  paddingRight: rem(48),
+  paddingRight: spacing(),
   alignItems: 'center',
   textAlign: 'right',
-  justifyContent: 'flex-end',
-  flexGrow: 1,
-  backgroundColor: colors.neutral[70],
+  backgroundColor: myBetsContainerColors.headerBackgroundColor,
   color: colors.neutral[20],
-  marginBottom: spacing('small'),
   height: rem(48),
+  fontWeight: typography.fontWeight.semibold,
   [mq(breakpoints.medium)]: {
-    display: 'flex',
+    display: 'grid',
+    gridTemplateRows: `1fr`,
+    gridTemplateColumns: '3fr 0.25fr 1fr 1fr 1fr',
+    gridColumnGap: spacing('small'),
   },
 });
 
 export const MyBetContainerHeaderBetDetails = styled.span<{}>({
-  marginRight: 'auto',
+  textAlign: 'left',
 });
 
-export const MyBetContainerHeaderStatus = styled.span<{}>({
-  width: rem(75),
-  textAlign: 'center',
+export const MyBetContainerHeaderDate = styled.span<{}>({
+  marginRight: spacing('medium'),
 });
 
-export const MyBetContainerHeaderOdds = styled.span<{}>({
-  width: rem(54),
-  marginLeft: rem(5),
-});
-
-export const MyBetContainerHeaderPotentialWin = styled.span<{}>({
-  width: rem(145),
-  marginLeft: rem(5),
-});
-
-export const MyBetContainer = styled.details<{
-  open?: boolean;
-  /* @TODO Revisit post-EPL */
-  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  onToggle?: any;
-}>({
-  ...userPortalContainerFlush,
-  position: 'relative',
-  alignItems: 'center',
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  backgroundColor: colors.neutral[70],
-  marginBottom: spacing('small'),
-  '&[open]': {
-    [mq(breakpoints.medium)]: {
-      marginBottom: 'auto',
-    },
-    Summary: {
-      borderBottom: `${rem(1)} solid ${colors.neutral[90]}`,
-      '&::-webkit-details-marker': {
-        backgroundImage: inlineSVG(<IconChevronUp color={inputColors.icon} />),
-      },
-      [mq(breakpoints.medium)]: {
-        border: 'none',
-      },
-    },
-    footer: {
-      borderTop: `${rem(1)} solid ${colors.neutral[90]}`,
-      display: 'flex',
-      [mq(breakpoints.medium)]: {
-        display: 'none',
-        border: 'none',
-      },
-    },
-  },
+export const MyBetHeader = styled.div({
+  display: 'grid',
+  gridTemplateColumns: '1fr 1fr',
+  gridColumnGap: spacing('small'),
+  gridTemplateRows: `minmax(${rem(30)}, 1fr) minmax(${rem(
+    20
+  )}, 0.5fr) minmax(${rem(20)}, 0.5fr) minmax(${rem(20)}, 0.5fr)`,
+  fontWeight: typography.fontWeight.semibold,
   [mq(breakpoints.medium)]: {
-    marginBottom: rem(1),
+    gridTemplateRows: `1fr`,
+    gridTemplateColumns: '3fr 0.25fr 1fr 1fr 1fr',
   },
 });
 
-export const MyBetHeader = styled.summary({
-  display: 'flex',
-  flexDirection: 'column',
-  [mq(breakpoints.small)]: {
-    flexDirection: 'row',
-  },
-  justifyContent: 'space-between',
-  alignItems: 'stretch',
-  cursor: 'pointer',
-  boxSizing: 'border-box',
-  // arrow
-  '&::-webkit-details-marker': {
-    display: 'none',
-    [mq(breakpoints.medium)]: {
-      backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
-      display: 'inline-block',
-      backgroundSize: 'cover',
-      color: 'transparent',
-      width: rem(10),
-      height: rem(10),
-      position: 'absolute',
-      right: rem(19),
-      top: rem(29),
-    },
-  },
-});
-
-export const MyBetHeaderContainer = styled.div({
-  flexGrow: 1,
-  overflow: 'hidden',
-  padding: spacing(),
-  boxSizing: 'border-box',
-  borderRight: `${rem(1)} solid ${colors.neutral[90]}`,
-  [mq(breakpoints.medium)]: {
-    border: 'none',
-    flexGrow: 0,
-    flexShrink: 1,
-    paddingTop: rem(14),
-    paddingBottom: rem(8),
-  },
-});
-
-export const MyBetHeaderTitle = styled.div({
-  color: colors.neutral[10],
-  display: 'flex',
-  alignItems: 'center',
-});
-
-export const MyBetHeaderTitleAmount = styled.span({
-  marginLeft: spacing('small'),
-});
-
-export const MyBetHeaderCashoutContainer = styled.div({
-  display: 'flex',
-  flexWrap: 'wrap',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  boxSizing: 'border-box',
-  flexGrow: 0,
-  flexShrink: 0,
-  padding: `${rem(12)} ${spacing()}`,
-  [mq(breakpoints.medium)]: {
-    display: 'none',
-  },
-});
-
-export const MyBetHeaderCashout = styled.p({
-  fontSize: rem(12),
-  marginTop: spacing('xsmall'),
-  color: colors.brand,
-  textAlign: 'center',
-});
-
-export const MyBetHeaderCashoutAmount = styled.span({
-  color: colors.warning,
-});
-
-export const MyBetHeaderCaption = styled.p({
-  color: colors.neutral[20],
-  overflow: 'hidden',
-  marginTop: rem(10),
-});
-
-export const MyBetHeaderStatusContainer = styled.div({
-  display: 'none',
-  paddingRight: rem(spacingTokens.default * 3),
-  alignItems: 'center',
+export const MyBetHeaderDate = styled.span({
   textAlign: 'right',
-  justifyContent: 'flex-end',
-  flexGrow: 1,
+  marginRight: spacing('medium'),
+  color: colors.neutral[20],
   [mq(breakpoints.medium)]: {
-    display: 'flex',
+    order: 5,
   },
 });
 
-export const MyBetHeaderStatus = styled.span({
-  width: rem(75),
-  textAlign: 'center',
-});
-
-export const MyBetHeaderOdds = styled.span({
-  width: rem(54),
-  marginLeft: spacing('xsmall'),
-});
-
-export const MyBetHeaderPotential = styled.span({
-  width: rem(145),
-  marginLeft: spacing('xsmall'),
-  color: colors.brand,
-});
-
-export const MyBetHeaderCaptionDate = styled.span({
-  display: 'none',
-  marginRight: spacing('small'),
-  [mq(breakpoints.medium)]: {
-    display: 'inline',
-  },
-});
-export const MyBetHeaderCaptionMatchName = styled.span();
-
-export const MyBetContents = styled.div({
-  boxSizing: 'border-box',
-  paddingTop: spacing('medium'),
-  paddingBottom: spacing(),
-  [mq(breakpoints.medium)]: {
-    paddingTop: spacing(),
-  },
-});
-
-export const MyBetCaptions = styled.div({
-  marginTop: spacing('large'),
-  paddingRight: spacing(),
-
+export const MyBetHeaderCaption = styled.span({
+  color: colors.neutral[20],
   [mq(breakpoints.medium)]: {
     display: 'none',
   },
 });
 
-export const MyBetCaptionRow = styled.p({
+export const MyBetHeaderText = styled.span({
+  textAlign: 'right',
+  color: myBetsContainerColors.headerRowText,
+});
+
+export const MyBetHeaderGreenText = styled.span({
+  textAlign: 'right',
+  color: colors.brand,
+});
+
+const footerIconOffset = 6;
+export const MyBetFooterIcons = styled.p({
+  alignItems: 'center',
   display: 'flex',
-  justifyContent: 'flex-end',
-  alignItems: 'center',
-  marginTop: 0,
-  marginBottom: spacing('small'),
-});
-
-export const MyBetCaptionTitle = styled.span({
-  color: colors.neutral[20],
-});
-
-export const MyBetCaptionValue = styled.span<{ color?: string }>(
-  ({ color }) => {
-    return [
-      {
-        width: rem(190),
-        textAlign: 'right',
-      },
-      color && { color },
-    ];
-  }
-);
-
-export const MyBetFooter = styled.footer({
-  ...userPortalContainerFlush,
-  padding: `${spacing()} ${spacing('medium')}`,
-  boxSizing: 'border-box',
-  justifyContent: 'space-between',
-  backgroundColor: colors.neutral[70],
-  display: 'none',
-  flexFlow: 'nowrap',
-  alignItems: 'center',
-  [mq(breakpoints.medium)]: {
-    display: 'flex',
-    padding: `${spacing()}`,
-    marginBottom: spacing('medium'),
+  paddingLeft: rem(footerIconOffset),
+  flexShrink: 1,
+  flexGrow: 0,
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  '& > svg': {
+    fontSize: rem(footerIconOffset * 2),
+    backgroundColor: myBetsContainerColors.backgroundColor,
+    marginLeft: rem(-footerIconOffset),
   },
-  button: {
-    width: '100%',
-    [mq(breakpoints.medium)]: {
-      width: 'auto',
+  '& > span': {
+    marginLeft: spacing('xsmall'),
+  },
+});
+
+export const MyBetFooterActions = styled.div({
+  display: 'flex',
+  alignItems: 'center',
+  flexShrink: 0,
+  '& > svg': {
+    fontSize: rem(35),
+  },
+  '& > p': {
+    fontWeight: typography.fontWeight.semibold,
+    marginRight: spacing('xsmall'),
+    span: {
+      color: myBetsContainerColors.footerCashoutAmount,
     },
   },
-});
-
-export const MyBetFooterCashout = styled.div({
-  alignItems: 'center',
-  display: 'flex',
-});
-export const MyBetFooterAmount = styled.div({
-  marginRight: rem(12),
-  color: colors.warning,
+  '& > *': {
+    marginLeft: spacing('xsmall'),
+    [mq(breakpoints.medium)]: {
+      marginLeft: spacing('small'),
+    },
+  },
 });
