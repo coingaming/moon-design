@@ -66,6 +66,7 @@ export const MyBetsView = () => {
           <MyBetContainerHeaderDate>Date / Time</MyBetContainerHeaderDate>
         </MyBetContainerHeader>
         <MyBetAccordion
+          open
           header={
             <Fragment>
               <MyBetHeader>
