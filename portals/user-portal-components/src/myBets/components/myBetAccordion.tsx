@@ -115,10 +115,8 @@ export class MyBetAccordion extends React.Component<Props, State> {
     this.state = { open: props.open ? props.open : false };
   }
 
-  toggle = (event: React.MouseEvent<HTMLDivElement>): void => {
-    console.log(event, 'clicked');
-
-    this.setState(() => ({ open: !this.state.open }));
+  toggle = (): void => {
+    this.setState(prevstate => ({ open: !prevstate.open }));
   };
 
   render() {
