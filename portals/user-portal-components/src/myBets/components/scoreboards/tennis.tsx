@@ -4,27 +4,40 @@ import { css } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import lodashGet from 'lodash.get';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { colors, border } from '@heathmont/sportsbet-tokens';
+import { colors, border, typography } from '@heathmont/sportsbet-tokens';
 
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { EventProps } from './scoreboard';
 import { ScoreBoardHeader } from './header';
-import { backgroundStripes } from '../shared/utils';
+import {
+  backgroundStripes,
+  betBoostHighlightColors,
+  scoreboardBackgroundColor,
+  scoreboardScoreColor,
+} from '../shared/utils';
 
 export type TennisProps = {
   event: EventProps;
   timer: string;
   badges?: React.FC[];
+  boosted?: boolean;
 };
 
-const Container = styled.div({
-  backgroundColor: colors.neutral[90],
-  maxWidth: rem(320),
-  display: 'flex',
-  flexWrap: 'nowrap',
-  flexDirection: 'column',
-});
+const Container = styled.div(({ boosted }: { boosted?: boolean }) => [
+  {
+    backgroundColor: scoreboardBackgroundColor,
+    maxWidth: rem(320),
+    display: 'flex',
+    flexWrap: 'nowrap',
+    flexDirection: 'column',
+    border: `${rem(1)} solid ${scoreboardBackgroundColor}`,
+    borderRadius: rem(4),
+  },
+  boosted && {
+    borderColor: betBoostHighlightColors.border,
+  },
+]);
 
 const ScoreWrapper = styled.div({
   ...backgroundStripes,
@@ -33,16 +46,15 @@ const ScoreWrapper = styled.div({
 
 const Score = styled.div({
   color: colors.neutral[20],
-  backgroundColor: colors.neutral[90],
-  marginTop: spacing(),
-  marginBottom: rem(23),
+  backgroundColor: scoreboardScoreColor,
   display: 'grid',
   gridTemplateAreas:
     "'homeName homePeriod0 homePeriod1 homePeriod2 homePeriod3 homeCurrent' " +
     "'awayName awayPeriod0 awayPeriod1 awayPeriod2 awayPeriod3 awayCurrent' ",
   gridTemplateRows: '40px 40px',
   gridTemplateColumns: '3fr 1fr 1fr 1fr 1fr 1.2fr',
-  borderTop: `${border.width}px solid ${colors.neutral[30]}`,
+  fontWeight: typography.fontWeight.semibold,
+  marginBottom: spacing('medium'),
 });
 
 const TeamName = styled.div<{ home?: boolean; away?: boolean }>(
@@ -106,15 +118,21 @@ const AwayPoints = styled.div<PointsType>(({ current, period, win }) => [
     }),
 ]);
 
-export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
+export const TennisScoreboard = ({
+  event,
+  timer,
+  badges,
+  boosted,
+}: TennisProps) => {
   const { information, onClick } = event;
 
   return (
-    <Container>
+    <Container boosted={boosted}>
       <ScoreBoardHeader
         title={event.name}
         timer={timer}
-        badges={badges}
+        marketName={event.market.name}
+        boosted={boosted}
         onClick={onClick}
       />
       <ScoreWrapper>
@@ -197,12 +215,12 @@ export const TennisScoreboard = ({ event, timer, badges }: TennisProps) => {
           <AwayPoints current>{information.awayScore}</AwayPoints>
         </Score>
       </ScoreWrapper>
-      <Selection selection={event.market.selection} />
+      <Selection boosted={boosted} selection={event.market.selection} />
       <Market
         onClick={onClick}
-        market={event.market}
         marketCount={event.marketCount}
         videoStream={event.videoStream}
+        badges={badges}
       />
     </Container>
   );
