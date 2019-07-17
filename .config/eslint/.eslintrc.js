@@ -7,6 +7,9 @@ module.exports = {
   },
   rules: {
     'import/first': 'off', // Unnecessarily compresses JSX comment
+    'react/jsx-indent': 'off', // Conflicts with Prettier
+    'react/jsx-closing-tag-location': 'off', // Conflicts with Prettier
+    'react/jsx-wrap-multilines': 'off', // Conflicts with Prettier
     //
     // @TODO Implementation
     //
