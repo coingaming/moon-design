@@ -68,7 +68,7 @@ export const MyBetsView = () => {
         <MyBetAccordion
           header={
             <Fragment>
-  <MyBetHeader>
+              <MyBetHeader>
                 <span>Campino M / Hamaliy E</span>
                 <MyBetHeaderDate>17.11.2018 08:53</MyBetHeaderDate>
                 <MyBetHeaderCaption>Odds</MyBetHeaderCaption>
@@ -78,28 +78,28 @@ export const MyBetsView = () => {
                 <MyBetHeaderCaption>Potential win</MyBetHeaderCaption>
                 <MyBetHeaderGreenText>285 EUR</MyBetHeaderGreenText>
               </MyBetHeader>
-</Fragment>
+            </Fragment>
           }
           footer={
             <Fragment>
-  <MyBetFooterIcons>
+              <MyBetFooterIcons>
                 <GroupIconSports name="sport-americanfootball" />
                 <GroupIconSports name="sport-basketball" />
                 <GroupIconSports name="sport-volleyball" />
                 <GroupIconSports name="sport-golf" />
                 <Badge backgroundColor={colors.palette.cell[100]}>Active</Badge>
               </MyBetFooterIcons>
-  <MyBetFooterActions>
+              <MyBetFooterActions>
                 <p>
-      <span>200</span> EUR
-    </p>
+                  <span>200</span> EUR
+                </p>
                 <Button modifier="optional">Cash out</Button>
                 <IconHyperlink
-      backgroundColor={colors.palette.goku[100]}
-      color={colors.palette.trunks[100]}
-    />
+                  backgroundColor={colors.palette.goku[100]}
+                  color={colors.palette.trunks[100]}
+                />
               </MyBetFooterActions>
-</Fragment>
+            </Fragment>
           }
         >
           <ScoreboardsContainer>
@@ -124,13 +124,13 @@ export const MyBetsView = () => {
         <MyBetAccordion
           header={
             <Fragment>
-  <MyBetHeader>
+              <MyBetHeader>
                 <span>
-      <Badge backgroundColor={colors.palette.cell[100]}>
+                  <Badge backgroundColor={colors.palette.cell[100]}>
                     Multi
                   </Badge>
-      <Badge backgroundColor={colors.palette.cell[100]}>3</Badge>
-    </span>
+                  <Badge backgroundColor={colors.palette.cell[100]}>3</Badge>
+                </span>
                 <MyBetHeaderDate>17.11.2018 08:53</MyBetHeaderDate>
                 <MyBetHeaderCaption>Odds</MyBetHeaderCaption>
                 <MyBetHeaderText>5.2</MyBetHeaderText>
@@ -139,28 +139,28 @@ export const MyBetsView = () => {
                 <MyBetHeaderCaption>Potential win</MyBetHeaderCaption>
                 <MyBetHeaderGreenText>285 EUR</MyBetHeaderGreenText>
               </MyBetHeader>
-</Fragment>
+            </Fragment>
           }
           footer={
             <Fragment>
-  <MyBetFooterIcons>
+              <MyBetFooterIcons>
                 <GroupIconSports name="sport-americanfootball" />
                 <GroupIconSports name="sport-basketball" />
                 <GroupIconSports name="sport-volleyball" />
                 <GroupIconSports name="sport-golf" />
                 <Badge backgroundColor={colors.palette.cell[100]}>Active</Badge>
               </MyBetFooterIcons>
-  <MyBetFooterActions>
+              <MyBetFooterActions>
                 <p>
-      <span>200</span> EUR
-    </p>
+                  <span>200</span> EUR
+                </p>
                 <Button modifier="optional">Cash out</Button>
                 <IconHyperlink
-      backgroundColor={colors.palette.goku[100]}
-      color={colors.palette.trunks[100]}
-    />
+                  backgroundColor={colors.palette.goku[100]}
+                  color={colors.palette.trunks[100]}
+                />
               </MyBetFooterActions>
-</Fragment>
+            </Fragment>
           }
         >
           <ScoreboardsContainer>
