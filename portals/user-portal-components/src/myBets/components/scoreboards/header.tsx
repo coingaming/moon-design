@@ -1,70 +1,81 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
-import { BadgeWrapper } from '../shared/utils';
+import { betBoostHighlightColors } from '../shared/utils';
 
 const Wrapper = styled.div(({ onClick }) => [
   {
     color: colors.neutral[10],
     textAlign: 'left',
     fontSize: rem(12),
-    height: rem(40),
     alignItems: 'center',
     display: 'flex',
     paddingLeft: spacing(),
     paddingRight: spacing(),
+    paddingTop: spacing('small'),
+    paddingBottom: spacing('small'),
     justifyContent: 'space-between',
     width: '100%',
+    flexWrap: 'wrap',
+    borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
+    fontWeight: typography.fontWeight.semibold,
   },
   onClick && {
     cursor: 'pointer',
   },
 ]);
 
+const Title = styled.span(({ boosted }: { boosted?: boolean }) => [
+  {
+    textOverflow: 'ellipsis',
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
+    marginBottom: spacing('small'),
+  },
+  boosted && {
+    color: betBoostHighlightColors.text,
+  },
+]);
+
 const Container = styled.div({
   display: 'flex',
-  alignItems: 'center',
-  height: '100%',
+  width: '100%',
+  color: colors.neutral[20],
   overflow: 'hidden',
+  justifyContent: 'space-between',
 });
 
-const Header = styled.span({
-  marginRight: spacing('small'),
-  textOverflow: 'ellipsis',
-  overflow: 'hidden',
+const MarketName = styled.span({
   whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
 });
 
 const Timer = styled.span({
-  color: colors.neutral[20],
-  textAlign: 'right',
-  marginLeft: rem(10),
   whiteSpace: 'nowrap',
+  marginLeft: spacing('xsmall'),
 });
 
 export const ScoreBoardHeader = ({
   title,
   timer,
-  badges,
   onClick,
+  boosted,
+  marketName,
 }: {
   title: string;
   timer: string;
-  badges?: React.FC[];
   onClick?: () => void;
+  boosted?: boolean;
+  marketName: string;
 }) => (
   <Wrapper onClick={onClick}>
+    <Title boosted={boosted}>{title}</Title>
     <Container>
-      <Header>{title}</Header>
-      {badges &&
-        badges.map((badge, index) => {
-          /* @TODO Revisit post-EPL */
-          /* eslint-disable-next-line react/no-array-index-key */
-          return <BadgeWrapper key={index}>{badge}</BadgeWrapper>;
-        })}
+      <MarketName>{marketName}</MarketName>
+      <Timer>{timer}</Timer>
     </Container>
-    <Timer>{timer}</Timer>
   </Wrapper>
 );
