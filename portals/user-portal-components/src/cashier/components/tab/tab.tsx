@@ -9,6 +9,7 @@ import { colors, border, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconClose } from '@heathmont/sportsbet-icons';
+import { CarouselSlider } from '@heathmont/sportsbet-components';
 import { userPortalContainerInner } from '../../../shared/container';
 
 jsx;
@@ -51,14 +52,13 @@ const tabList: CSSObject = {
   marginLeft: 0,
   minWidth: rem(660),
 };
-
-const Tab: React.FC = ({ children }) => {
+const Tab: React.FC<{ items: any }> = ({ items }) => {
   return (
     <nav css={nav}>
       <a href={`#${tabSkipLinkID}`} css={skipLink}>
         Skip to content
       </a>
-      <div css={tabList}>{children}</div>
+      <CarouselSlider css={tabList} items={items} />
       <span id={tabSkipLinkID} />
     </nav>
   );
