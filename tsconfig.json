@@ -9,7 +9,6 @@
     { "path": "design/tokens" },
     { "path": "design/utils" },
     { "path": "portals/shared" },
-    { "path": "portals/id-portal-components" },
     { "path": "portals/user-portal-components" }
   ]
 }
