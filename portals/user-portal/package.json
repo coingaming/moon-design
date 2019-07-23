@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@heathmont/sportsbet-user-portal",
   "version": "0.72.0",
   "main": "dist/main.bundle.js",
