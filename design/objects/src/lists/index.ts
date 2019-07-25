@@ -1,9 +1,9 @@
 import { CSSObject } from '@emotion/core';
 
 /**
- * Private
+ * Util
  */
-const listStyleTypeNone: CSSObject = {
+const listItemStyleTypeNone: CSSObject = {
   listStyleType: 'none',
   '&:before': {
     position: 'absolute',
@@ -21,7 +21,7 @@ const listPlain: CSSObject = {
 
 const listPlainItem: CSSObject = {
   display: 'block',
-  ...listStyleTypeNone,
+  ...listItemStyleTypeNone,
 };
 
 /**
@@ -34,10 +34,16 @@ const listInline: CSSObject = {
 
 const listInlineItem: CSSObject = {
   display: 'inline-block',
-  ...listStyleTypeNone,
+  ...listItemStyleTypeNone,
 };
 
 /**
  * Exports
  */
-export { listPlain, listPlainItem, listInline, listInlineItem };
+export {
+  listItemStyleTypeNone,
+  listPlain,
+  listPlainItem,
+  listInline,
+  listInlineItem,
+};
