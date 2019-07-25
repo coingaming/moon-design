@@ -1,5 +1,6 @@
 import { CSSObject } from '@emotion/core';
 
-export type CarouselInlineStyle = CSSObject;
+type CarouselInlineStyle = CSSObject;
+type CarouselInlineStyleProps = { inlineStyle?: CarouselInlineStyle };
 
-export type CarouselInlineStyleProps = { inlineStyle?: CarouselInlineStyle };
+export { CarouselInlineStyle, CarouselInlineStyleProps };
