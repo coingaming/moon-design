@@ -2,6 +2,7 @@ export * from './badge';
 export * from './banner';
 export * from './button';
 export * from './card';
+export * from './carousel';
 export * from './checkbox';
 export * from './file-input';
 export * from './form';
