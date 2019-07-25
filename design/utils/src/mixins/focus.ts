@@ -15,6 +15,7 @@ export const focus = (color: string = colors.brand) =>
   <CSSObject>{
     ...focusReset,
     '&:focus': {
+      outline: 'none' /* Duplicate `:focus` doesn't spread nice */,
       boxShadow: `0 0 ${rem(2)} ${rem(2)} ${color}`,
     },
   };
