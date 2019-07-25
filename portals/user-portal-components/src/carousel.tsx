@@ -3,11 +3,16 @@
  */
 import * as React from 'react';
 import { IconChevronLeft } from '@heathmont/sportsbet-icons/lib/svg/IconChevronLeft';
-import { Carousel, CarouselScroll, CarouselScrollItem } from './carousel';
-import { CarouselControl, CarouselControlCaption } from './control';
-import { CarouselInlineStyle } from './types';
+import {
+  Carousel as CarouselContainer,
+  CarouselScroll,
+  CarouselScrollItem,
+  CarouselControl,
+  CarouselControlCaption,
+  CarouselInlineStyle,
+} from '@heathmont/sportsbet-components';
 
-type CarouselSliderProps = {
+type CarouselProps = {
   activeItem?: number;
   showIndicators?: boolean;
   items: Array<any>;
@@ -15,10 +20,10 @@ type CarouselSliderProps = {
   controlStyle?: CarouselInlineStyle;
 };
 
-export class CarouselSlider extends React.Component<CarouselSliderProps> {
+export class Carousel extends React.Component<CarouselProps> {
   selectedChildRef: any = null;
 
-  constructor(props: CarouselSliderProps) {
+  constructor(props: CarouselProps) {
     super(props);
     this.setSelectedChildRef = this.setSelectedChildRef.bind(this);
   }
@@ -42,7 +47,7 @@ export class CarouselSlider extends React.Component<CarouselSliderProps> {
       ...rest
     } = this.props;
     return (
-      <Carousel {...rest}>
+      <CarouselContainer {...rest}>
         {showIndicators && (
           <CarouselControl inlineStyle={controlStyle}>
             <CarouselControlCaption>Scroll Left</CarouselControlCaption>
@@ -73,7 +78,7 @@ export class CarouselSlider extends React.Component<CarouselSliderProps> {
             <IconChevronLeft />
           </CarouselControl>
         )}
-      </Carousel>
+      </CarouselContainer>
     );
   }
 }
