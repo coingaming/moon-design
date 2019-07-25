@@ -106,6 +106,7 @@ export { IconUpload } from './svg/IconUpload';
 export { IconVkontakte } from './svg/IconVkontakte';
 export { IconWarning } from './svg/IconWarning';
 export { IconYoutube } from './svg/IconYoutube';
+export { IconSbShield } from './svg/IconSbShield';
 
 export { Background1 } from './backgrounds/Background1';
 export { IconCoins } from './backgrounds/IconCoins';
