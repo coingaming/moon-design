@@ -41,6 +41,12 @@ exports[`Carousel renders with controls 1`] = `
   transform: rotate(180deg) translateY(-50%);
 }
 
+.emotion-1:disabled,
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
 .emotion-1:focus {
   outline: none;
   box-shadow: 0 0 0.125rem 0.125rem #0CD664;
@@ -48,12 +54,6 @@ exports[`Carousel renders with controls 1`] = `
 
 .emotion-1::-moz-focus-inner {
   border: 0;
-}
-
-.emotion-1:disabled,
-.emotion-1[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
 }
 
 .emotion-0 {
