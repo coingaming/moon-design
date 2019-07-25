@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel renders with controls 1`] = `
+.emotion-8 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-1 {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  background-color: #8697A2;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.25);
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  z-index: 5;
+}
+
+.emotion-1:last-child {
+  left: auto;
+  right: 0;
+  -webkit-transform: rotate(180deg) translateY(-50%);
+  -ms-transform: rotate(180deg) translateY(-50%);
+  transform: rotate(180deg) translateY(-50%);
+}
+
+.emotion-1:disabled,
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-1:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-1::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-5 {
+  display: block;
+  vertical-align: top;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-scroll-snap-type: mandatory;
+  -moz-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-destination: 0 50%;
+  -moz-scroll-snap-destination: 0 50%;
+  -ms-scroll-snap-destination: 0 50%;
+  scroll-snap-destination: 0 50%;
+  -webkit-scroll-snap-points-x: repeat(100%);
+  -moz-scroll-snap-points-x: repeat(100%);
+  -ms-scroll-snap-points-x: repeat(100%);
+  scroll-snap-points-x: repeat(100%);
+}
+
+.emotion-5::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.emotion-5::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 100px;
+  border: 3px solid #1A212A;
+}
+
+.emotion-5:hover::-webkit-scrollbar-thumb {
+  background-color: #62676D;
+}
+
+@supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
+  .emotion-5 {
+    -webkit-scroll-snap-type: x mandatory;
+    -moz-scroll-snap-type: x mandatory;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    -webkit-scroll-snap-destination: unset;
+    -moz-scroll-snap-destination: unset;
+    -ms-scroll-snap-destination: unset;
+    scroll-snap-destination: unset;
+    -webkit-scroll-snap-points-x: unset;
+    -moz-scroll-snap-points-x: unset;
+    -ms-scroll-snap-points-x: unset;
+    scroll-snap-points-x: unset;
+  }
+}
+
+.emotion-2 {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-scroll-snap-coordinate: 0 0;
+  -moz-scroll-snap-coordinate: 0 0;
+  -ms-scroll-snap-coordinate: 0 0;
+  scroll-snap-coordinate: 0 0;
+}
+
+.emotion-2:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+@supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
+  .emotion-2 {
+    -webkit-scroll-snap-align: center;
+    -moz-scroll-snap-align: center;
+    -ms-scroll-snap-align: center;
+    scroll-snap-align: center;
+    -webkit-scroll-snap-coordinate: unset;
+    -moz-scroll-snap-coordinate: unset;
+    -ms-scroll-snap-coordinate: unset;
+    scroll-snap-coordinate: unset;
+  }
+}
+
+<div
+  className="emotion-8"
+>
+  <button
+    className="emotion-1"
+  >
+    <span
+      className="emotion-0"
+    >
+      Scroll Left
+    </span>
+  </button>
+  <ul
+    className="emotion-5"
+  >
+    <li
+      className="emotion-2"
+    >
+      <div
+        css={
+          Object {
+            "background": "red",
+            "height": "12rem",
+            "marginRight": "1rem",
+            "width": "20rem",
+          }
+        }
+      />
+    </li>
+    <li
+      className="emotion-2"
+    >
+      <div
+        css={
+          Object {
+            "background": "red",
+            "height": "12rem",
+            "marginRight": "1rem",
+            "width": "20rem",
+          }
+        }
+      />
+    </li>
+    <li
+      className="emotion-2"
+    >
+      <div
+        css={
+          Object {
+            "background": "red",
+            "height": "12rem",
+            "marginRight": "1rem",
+            "width": "20rem",
+          }
+        }
+      />
+    </li>
+  </ul>
+  <button
+    className="emotion-1"
+  >
+    <span
+      className="emotion-0"
+    >
+      Scroll Right
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Carousel renders without controls 1`] = `
+.emotion-4 {
+  position: relative;
+  width: 100%;
+}
+
+.emotion-3 {
+  display: block;
+  vertical-align: top;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-scroll-snap-type: mandatory;
+  -moz-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-destination: 0 50%;
+  -moz-scroll-snap-destination: 0 50%;
+  -ms-scroll-snap-destination: 0 50%;
+  scroll-snap-destination: 0 50%;
+  -webkit-scroll-snap-points-x: repeat(100%);
+  -moz-scroll-snap-points-x: repeat(100%);
+  -ms-scroll-snap-points-x: repeat(100%);
+  scroll-snap-points-x: repeat(100%);
+}
+
+.emotion-3::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.emotion-3::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 100px;
+  border: 3px solid #1A212A;
+}
+
+.emotion-3:hover::-webkit-scrollbar-thumb {
+  background-color: #62676D;
+}
+
+@supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
+  .emotion-3 {
+    -webkit-scroll-snap-type: x mandatory;
+    -moz-scroll-snap-type: x mandatory;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    -webkit-scroll-snap-destination: unset;
+    -moz-scroll-snap-destination: unset;
+    -ms-scroll-snap-destination: unset;
+    scroll-snap-destination: unset;
+    -webkit-scroll-snap-points-x: unset;
+    -moz-scroll-snap-points-x: unset;
+    -ms-scroll-snap-points-x: unset;
+    scroll-snap-points-x: unset;
+  }
+}
+
+.emotion-0 {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-scroll-snap-coordinate: 0 0;
+  -moz-scroll-snap-coordinate: 0 0;
+  -ms-scroll-snap-coordinate: 0 0;
+  scroll-snap-coordinate: 0 0;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+@supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
+  .emotion-0 {
+    -webkit-scroll-snap-align: center;
+    -moz-scroll-snap-align: center;
+    -ms-scroll-snap-align: center;
+    scroll-snap-align: center;
+    -webkit-scroll-snap-coordinate: unset;
+    -moz-scroll-snap-coordinate: unset;
+    -ms-scroll-snap-coordinate: unset;
+    scroll-snap-coordinate: unset;
+  }
+}
+
+<div
+  className="emotion-4"
+>
+  <ul
+    className="emotion-3"
+  >
+    <li
+      className="emotion-0"
+    >
+      <div
+        css={
+          Object {
+            "background": "red",
+            "height": "12rem",
+            "marginRight": "1rem",
+            "width": "20rem",
+          }
+        }
+      />
+    </li>
+    <li
+      className="emotion-0"
+    >
+      <div
+        css={
+          Object {
+            "background": "red",
+            "height": "12rem",
+            "marginRight": "1rem",
+            "width": "20rem",
+          }
+        }
+      />
+    </li>
+    <li
+      className="emotion-0"
+    >
+      <div
+        css={
+          Object {
+            "background": "red",
+            "height": "12rem",
+            "marginRight": "1rem",
+            "width": "20rem",
+          }
+        }
+      />
+    </li>
+  </ul>
+</div>
+`;
