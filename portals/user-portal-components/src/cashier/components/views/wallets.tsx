@@ -2,10 +2,10 @@ import styled, { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
-import { CarouselSlider } from '@heathmont/sportsbet-components';
+import { Carousel } from '../../../carousel';
 import { USER_PORTAL_CONTAINER_SIZE } from '../../../shared/globals';
 
-export const WalletsContainer = styled(CarouselSlider)({
+export const WalletsContainer = styled(Carousel)({
   display: 'flex',
   flexDirection: 'row',
   overflow: 'auto',
