@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import rem from 'polished/lib/helpers/rem';
 import { border, colors, opacity, zIndex } from '@heathmont/sportsbet-tokens';
+import { focus } from '@heathmont/sportsbet-utils';
 
 import { CarouselInlineStyleProps } from './types';
 
@@ -41,18 +42,12 @@ export const CarouselControl = styled.button<CarouselInlineStyleProps>(
         right: 0,
         transform: `rotate(180deg) ${transformCenter}` /* [2] */,
       },
-      '&:focus': {
-        outline: 'none',
-        boxShadow: `0 0 ${rem(2)} ${rem(2)} ${colors.brand}`,
-      },
-      '&::-moz-focus-inner': {
-        border: 0,
-      },
       '&:disabled, &[disabled]': {
         cursor: 'not-allowed',
         opacity: opacity.disabled,
       },
     },
+    focus(),
     inlineStyle,
   ]
 );
