@@ -37,3 +37,22 @@ Apply common disabled styles to UI elements such as buttons and forms.
 <button disabled css={{...disabled()}}>Submit</button>
 <button disabled css={{...disabled({color: 'white'})}}>Submit</button>
 ```
+
+## Focus
+
+Override browser-default `:focus` styles to the preferred appearance.
+
+By default `focus()` this renders with the `brand` color, but an alternative color can be supplied.
+
+```jsx react-live
+<button css={{...focus()}}>Focus on to me</button>
+<button css={{...focus('rebeccapurple')}}>Focus on to me</button>
+```
+
+If you just want to remove the browser default styles and create your own, you
+can make use of `focusReset`. It is **strongly** advised not to use this without
+alternative `:focus` styles.
+
+```jsx react-live
+<button css={{ ...focusReset }}>No focus styles</button>
+```
