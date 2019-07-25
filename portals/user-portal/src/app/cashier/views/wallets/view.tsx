@@ -14,6 +14,8 @@ import {
   StickyNav,
   TransactionListHeading,
   UserPortalContainer,
+  userPortalContainerFlush,
+  walletItemStyle,
 } from '@heathmont/sportsbet-user-portal-components';
 import { NavLink } from 'react-router-dom';
 import { Heading, Select } from '@heathmont/sportsbet-components';
@@ -53,19 +55,51 @@ export const WalletsView = () => {
       </StickyNav>
       <CashierLayout>
         <CashierHeading>Wallet</CashierHeading>
-        <WalletsContainer>
-          <WalletWrapper>
-            <BitcoinWallet />
-          </WalletWrapper>
-          <WalletWrapper>
-            <EuroWallet />
-          </WalletWrapper>
-          <WalletWrapper mobileHidden>
-            <AddWalletCardContainer to="/add-wallet" as={NavLink}>
-              + Add Wallet
-            </AddWalletCardContainer>
-          </WalletWrapper>
-        </WalletsContainer>
+        {
+          /**
+           * @TODO
+           *
+           * 1. scrollIntoView on load via `activeItem`
+           * 2. scrollIntoView via arrow indicators (left and right arrows)
+           * 3. Tidy Scrollbar designs
+           * 4. Add Scrollbar fallback
+           */
+        }
+        <div css={userPortalContainerFlush}>
+          <WalletsContainer
+            showIndicators
+            activeItem={5}
+            itemStyle={walletItemStyle}
+            items={[
+            <WalletWrapper>
+              <BitcoinWallet />
+            </WalletWrapper>,
+
+            <WalletWrapper>
+              <EuroWallet />
+            </WalletWrapper>,
+
+            <WalletWrapper>
+              <BitcoinWallet />
+            </WalletWrapper>,
+
+            <WalletWrapper>
+              <EuroWallet />
+            </WalletWrapper>,
+
+            <WalletWrapper>
+              <BitcoinWallet />
+            </WalletWrapper>,
+
+            <WalletWrapper>
+              <EuroWallet />
+            </WalletWrapper>,
+            <WalletWrapper mobileHidden>
+              <AddWalletCardContainer to="/add-wallet" as={NavLink}>
+                + Add Wallet
+              </AddWalletCardContainer>
+            </WalletWrapper>,]}/>
+        </div>
         <WalletMobileButton to="/add-wallet" as={NavLink}>
           + Add Wallet
         </WalletMobileButton>
@@ -91,6 +125,7 @@ export const WalletsView = () => {
           <TransactionsHeader />
           {items}
         </TransactionsSection>
+
         <LoadMore>
           <Button
             onClick={() => {
