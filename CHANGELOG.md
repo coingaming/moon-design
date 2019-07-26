@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.73.1](https://github.com/coingaming/sportsbet-design/compare/v0.73.0...v0.73.1) (2019-07-26)
+
+
+### Bug Fixes
+
+* update Krillin to match the Sportsbet[#2](https://github.com/coingaming/sportsbet-design/issues/2).2 ([f5618c0](https://github.com/coingaming/sportsbet-design/commit/f5618c0))
+
+
+
+
+
 # [0.73.0](https://github.com/coingaming/sportsbet-design/compare/v0.72.1...v0.73.0) (2019-07-25)
 
 
