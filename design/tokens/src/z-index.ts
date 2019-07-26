@@ -1,5 +1,11 @@
-const zIndex = {
-  toggle: 1,
+type ZIndex = {
+  toggle: number;
+  carouselControl: number;
 };
 
-export { zIndex };
+const zIndex: ZIndex = {
+  toggle: 1,
+  carouselControl: 5,
+};
+
+export { zIndex, ZIndex };

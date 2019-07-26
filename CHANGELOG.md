@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.73.0](https://github.com/coingaming/sportsbet-design/compare/v0.72.1...v0.73.0) (2019-07-25)
+
+
+### Features
+
+* add Sportsbet Shield svg ([2c63277](https://github.com/coingaming/sportsbet-design/commit/2c63277))
+* **carousel:** create and implement ([be6301c](https://github.com/coingaming/sportsbet-design/commit/be6301c))
+* **mixins:** add `focus` and `focusReset` utils ([3c0f723](https://github.com/coingaming/sportsbet-design/commit/3c0f723))
+
+
+
+
+
 ## [0.72.1](https://github.com/coingaming/sportsbet-design/compare/v0.72.0...v0.72.1) (2019-07-23)
 
 **Note:** Version bump only for package Sportsbet.io
