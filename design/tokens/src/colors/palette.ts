@@ -73,11 +73,11 @@ const frieza: BaseColor = {
 };
 
 const krillin: BaseColor = {
-  100: '#FFD600',
-  80: '#FFDE33',
-  60: '#FFE666',
-  40: '#FFEF99',
-  20: '#FFF7CC',
+  100: '#FFAB00',
+  80: '#FFB319',
+  60: '#FFBC33',
+  40: '#FFC44C',
+  20: '#FFD580',
 };
 
 const cell: BaseColor = {
