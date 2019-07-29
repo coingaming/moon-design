@@ -38,8 +38,6 @@
   We're here to help!
 -->
 
-### For **all changes**
-
 - [ ] I have read the [**contributing guidelines**][contributing].
 - [ ] My code follows the [code style][code-style] of this project.
 - [ ] All new and existing tests passed.

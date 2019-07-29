@@ -25,6 +25,11 @@ export const Carousel = styled.div({
  * Carousel Scroll
  *
  * The list of Carousel Items, controlling overflow and scroll behavior.
+ *
+ * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
+ * 2. Auto-hide scrollbars on IE/Edge.
+ * 3. Create 'padding' around the scrollbar.
+ *
  */
 export const CarouselScroll = styled.ul({
   display: 'block',
@@ -35,10 +40,8 @@ export const CarouselScroll = styled.ul({
   height: '100%',
   whiteSpace: 'nowrap',
   WebkitOverflowScrolling: 'touch',
-  /** Hide Scrollbars on browsers that don't support custom scrollbars */
-  scrollbarWidth: 'none',
-  /* Auto-hide scrollbars on IE/Edge */
-  '-ms-overflow-style': '-ms-autohiding-scrollbar',
+  scrollbarWidth: 'none' /* [1] */,
+  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
   /* Custom Chrome Scroll Behaviour */
   '::-webkit-scrollbar': {
     width: 12,
@@ -47,8 +50,9 @@ export const CarouselScroll = styled.ul({
   },
   '::-webkit-scrollbar-thumb': {
     backgroundColor: 'transparent',
+    backgroundClip: 'content-box' /* [3] */,
     borderRadius: border.radius.largest,
-    border: `${3}px solid ${colors.neutral[90]}`,
+    border: '3px solid transparent' /* [3] */,
   },
   ':hover::-webkit-scrollbar-thumb': {
     backgroundColor: colors.neutral[40],
