@@ -107,8 +107,9 @@ exports[`Carousel renders with controls 1`] = `
 
 .emotion-5::-webkit-scrollbar-thumb {
   background-color: transparent;
+  background-clip: content-box;
   border-radius: 100px;
-  border: 3px solid #1A212A;
+  border: 3px solid transparent;
 }
 
 .emotion-5:hover::-webkit-scrollbar-thumb {
@@ -272,8 +273,9 @@ exports[`Carousel renders without controls 1`] = `
 
 .emotion-3::-webkit-scrollbar-thumb {
   background-color: transparent;
+  background-clip: content-box;
   border-radius: 100px;
-  border: 3px solid #1A212A;
+  border: 3px solid transparent;
 }
 
 .emotion-3:hover::-webkit-scrollbar-thumb {
