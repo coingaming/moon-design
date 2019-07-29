@@ -19,7 +19,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M9.293 10.879a1 1 0 0 0 1.414 0L13.586 8A1 1 0 0 1 15 9.414l-4.293 4.293a1 1 0 0 1-1.414 0L7 11.414A1 1 0 1 1 8.414 10l.879.879z"
+      d="M9.293 10.879a1 1 0 001.414 0L13.586 8A1 1 0 0115 9.414l-4.293 4.293a1 1 0 01-1.414 0L7 11.414A1 1 0 118.414 10l.879.879z"
       fill="#fff"
     />
   </svg>
