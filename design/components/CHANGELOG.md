@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.73.2](https://github.com/coingaming/sportsbet-design/compare/v0.73.1...v0.73.2) (2019-07-29)
+
+
+### Bug Fixes
+
+* **carousel:** make scrollbar border transparent ([0deb83d](https://github.com/coingaming/sportsbet-design/commit/0deb83d))
+
+
+
+
+
 ## [0.73.1](https://github.com/coingaming/sportsbet-design/compare/v0.73.0...v0.73.1) (2019-07-26)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
