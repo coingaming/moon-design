@@ -16,11 +16,10 @@
 
 ## Architecture
 
-Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/sportsbet-` packages, split across 3 directories:
+Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/sportsbet-` packages:
 
 1. [`docs/`](#docs) - style guide and documentation
 2. [`design/`](#design-system) - the Sportsbet.io design system
-3. [`portals/`](#portals) - prototype applications
 
 Packages are developed inside their respective `src` folders, utilising [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the [TypeScript compiler](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#compiling-your-code) on build/publish.
 
@@ -41,20 +40,6 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 5. [**Objects**](design/utils/README.md) - structural components without cosmetic features for common layouts.
 6. [**Icons**](design/components/README.mdx) - React components for each icon.
 7. [**Components**](design/components/README.md) - the individual building blocks of our UI.
-
-### Portals
-
-`portals/`
-
-1. [**User Portal**](user-portal/README.md)
-
-## Installation
-
-### Prerequisites
-
-- [Node](https://nodejs.org/en/)
-  - If you're using [NVM](https://github.com/creationix/nvm), run `nvm use` inside the repository.
-- [Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
 
 ### Setup
 
