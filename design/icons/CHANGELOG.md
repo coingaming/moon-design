@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.74.0](https://github.com/coingaming/sportsbet-design/compare/v0.73.2...v0.74.0) (2019-07-30)
+
+
+### Features
+
+* **icons:** add "Line" third-party icon ([c43ecdf](https://github.com/coingaming/sportsbet-design/commit/c43ecdf))
+
+
+
+
+
 ## [0.73.2](https://github.com/coingaming/sportsbet-design/compare/v0.73.1...v0.73.2) (2019-07-29)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons
