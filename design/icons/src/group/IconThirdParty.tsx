@@ -4,6 +4,7 @@ import { IconBitcoinTalk } from '../svg/IconBitcoinTalk';
 import { IconFacebook } from '../svg/IconFacebook';
 import { IconGoogle } from '../svg/IconGoogle';
 import { IconInstagram } from '../svg/IconInstagram';
+import { IconLine } from '../svg/IconLine';
 import { IconTelegram } from '../svg/IconTelegram';
 import { IconTwitter } from '../svg/IconTwitter';
 import { IconVkontakte } from '../svg/IconVkontakte';
@@ -14,6 +15,7 @@ export type GroupIconThirdPartyName =
   | 'facebook'
   | 'google'
   | 'instagram'
+  | 'line'
   | 'telegram'
   | 'twitter'
   | 'vkontakte'
@@ -28,6 +30,7 @@ const thirdPartyIcons = {
   facebook: IconFacebook,
   google: IconGoogle,
   instagram: IconInstagram,
+  line: IconLine,
   telegram: IconTelegram,
   twitter: IconTwitter,
   vkontakte: IconVkontakte,
