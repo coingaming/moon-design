@@ -59,6 +59,7 @@ export { IconLargeMessage } from './svg/IconLargeMessage';
 export { IconLargePencil } from './svg/IconLargePencil';
 export { IconLargeUmbrella } from './svg/IconLargeUmbrella';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
+export { IconLine } from './svg/IconLine';
 export { IconLiveChat } from './svg/IconLiveChat';
 export { IconLogoPlain } from './svg/IconLogoPlain';
 export { IconLoyality0 } from './svg/IconLoyality0';
