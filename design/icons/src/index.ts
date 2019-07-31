@@ -52,17 +52,11 @@ export { IconHome } from './svg/IconHome';
 export { IconHyperlink } from './svg/IconHyperlink';
 export { IconInPlay } from './svg/IconInPlay';
 export { IconInstagram } from './svg/IconInstagram';
-export { IconLargeCalc } from './svg/IconLargeCalc';
-export { IconLargeCard } from './svg/IconLargeCard';
-export { IconLargeLock } from './svg/IconLargeLock';
-export { IconLargeMessage } from './svg/IconLargeMessage';
-export { IconLargePencil } from './svg/IconLargePencil';
-export { IconLargeUmbrella } from './svg/IconLargeUmbrella';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconLine } from './svg/IconLine';
 export { IconLiveChat } from './svg/IconLiveChat';
 export { IconLogoPlain } from './svg/IconLogoPlain';
-export { IconLoyality0 } from './svg/IconLoyality0';
+export { IconLoyalty0 } from './svg/IconLoyalty0';
 export { IconMenuHome } from './svg/IconMenuHome';
 export { IconNotification } from './svg/IconNotification';
 export { IconPlay } from './svg/IconPlay';
@@ -126,6 +120,7 @@ export {
   IconSportsHorseRacing as IconHorseRacing,
 } from './svg/IconSportsHorseRacing';
 export { IconCurrencyEur as IconEuro } from './svg/IconCurrencyEur';
+export { IconLoyalty0 as IconLoyality0 } from './svg/IconLoyalty0';
 export { IconSportsSnooker as IconSportsSinuca } from './svg/IconSportsSnooker';
 export { IconSportsFootBall as IconSoccer } from './svg/IconSportsFootBall';
 
