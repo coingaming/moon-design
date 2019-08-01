@@ -26,6 +26,9 @@ Icons are designed in the [`.sketch` file](design/assets/src/icons/icons.sketch)
 Each icon **must**:
 
 - have it's own `20×20` artboard.
+  - in other words, a `viewBox` that is **at least `20`** on one axis:
+    - good: `viewBox="0 0 20 18"`, `viewBox="0 0 20 20"`.
+    - bad: `viewbox="0 0 20 34"`.
 - contain only one exportable layer, which has:
   1. a single path or group.
   1. a kebab-case layer name prefixed with `icon-`
