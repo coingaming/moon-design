@@ -1,16 +1,11 @@
 import * as React from 'react';
 import { Heading, Banner } from '@heathmont/sportsbet-components';
-import { IconLargeMessage } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 export const NeedAssistanceBanner = () => (
   <Banner>
     <Heading size="charlie" as="h3">
-      <IconLargeMessage
-        circleColor={colors.brand}
-        style={{ fontSize: '3rem', marginRight: spacing('default') }}
-      />
       Need assistance?
     </Heading>
     <p>

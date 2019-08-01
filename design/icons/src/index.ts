@@ -42,6 +42,10 @@ export { IconCurrencyTry } from './svg/IconCurrencyTry';
 export { IconCurrencyUsd } from './svg/IconCurrencyUsd';
 export { IconCurrencyVes } from './svg/IconCurrencyVes';
 export { IconCurrencyVnd } from './svg/IconCurrencyVnd';
+export { IconDuotoneArrows } from './svg/IconDuotoneArrows';
+export { IconDuotoneChat } from './svg/IconDuotoneChat';
+export { IconDuotoneCoins } from './svg/IconDuotoneCoins';
+export { IconDuotoneMail } from './svg/IconDuotoneMail';
 export { IconEdit } from './svg/IconEdit';
 export { IconFacebook } from './svg/IconFacebook';
 export { IconFilter } from './svg/IconFilter';
@@ -52,17 +56,11 @@ export { IconHome } from './svg/IconHome';
 export { IconHyperlink } from './svg/IconHyperlink';
 export { IconInPlay } from './svg/IconInPlay';
 export { IconInstagram } from './svg/IconInstagram';
-export { IconLargeCalc } from './svg/IconLargeCalc';
-export { IconLargeCard } from './svg/IconLargeCard';
-export { IconLargeLock } from './svg/IconLargeLock';
-export { IconLargeMessage } from './svg/IconLargeMessage';
-export { IconLargePencil } from './svg/IconLargePencil';
-export { IconLargeUmbrella } from './svg/IconLargeUmbrella';
 export { IconLeftArrowCurveRight } from './svg/IconLeftArrowCurveRight';
 export { IconLine } from './svg/IconLine';
 export { IconLiveChat } from './svg/IconLiveChat';
 export { IconLogoPlain } from './svg/IconLogoPlain';
-export { IconLoyality0 } from './svg/IconLoyality0';
+export { IconLoyalty0 } from './svg/IconLoyalty0';
 export { IconMenuHome } from './svg/IconMenuHome';
 export { IconNotification } from './svg/IconNotification';
 export { IconPlay } from './svg/IconPlay';
@@ -110,9 +108,6 @@ export { IconYoutube } from './svg/IconYoutube';
 export { IconSbShield } from './svg/IconSbShield';
 
 export { Background1 } from './backgrounds/Background1';
-export { IconCoins } from './backgrounds/IconCoins';
-export { IconExchange } from './backgrounds/IconExchange';
-export { IconMessage } from './backgrounds/IconMessage';
 export { IconSuccessFlower } from './backgrounds/IconSuccessFlower';
 export { IconWarningExclamation } from './backgrounds/IconWarningExclamation';
 
@@ -126,6 +121,10 @@ export {
   IconSportsHorseRacing as IconHorseRacing,
 } from './svg/IconSportsHorseRacing';
 export { IconCurrencyEur as IconEuro } from './svg/IconCurrencyEur';
+export { IconDuotoneArrows as IconExchange } from './svg/IconDuotoneArrows';
+export { IconDuotoneChat as IconMessage } from './svg/IconDuotoneChat';
+export { IconDuotoneCoins as IconCoins } from './svg/IconDuotoneCoins';
+export { IconLoyalty0 as IconLoyality0 } from './svg/IconLoyalty0';
 export { IconSportsSnooker as IconSportsSinuca } from './svg/IconSportsSnooker';
 export { IconSportsFootBall as IconSoccer } from './svg/IconSportsFootBall';
 

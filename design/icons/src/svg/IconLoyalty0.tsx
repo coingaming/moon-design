@@ -26,7 +26,7 @@ type IconProps = {
   backgroundColor?: string;
   circleColor?: string;
 };
-export const IconLoyality0 = styled(Svg)<IconProps>(
+export const IconLoyalty0 = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor }) => [
     {
       verticalAlign: 'middle',
