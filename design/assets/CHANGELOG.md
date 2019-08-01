@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.75.0](https://github.com/coingaming/sportsbet-design/compare/v0.74.0...v0.75.0) (2019-08-01)
+
+
+### Features
+
+* **icons:** introduce "duotone" icons, deprecate duplicates ([a18655e](https://github.com/coingaming/sportsbet-design/commit/a18655e))
+
+
+
+
+
 # [0.74.0](https://github.com/coingaming/sportsbet-design/compare/v0.73.2...v0.74.0) (2019-07-30)
 
 
