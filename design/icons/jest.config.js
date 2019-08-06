@@ -1,5 +1,6 @@
-const package = require('./package.json');
 const base = require('../../.config/jest/jest.config.base.js');
+
+const package = require('./package.json');
 
 module.exports = {
   ...base,

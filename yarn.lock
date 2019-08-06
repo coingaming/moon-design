@@ -1056,10 +1056,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@heathmont/eslint-config-sportsbet-base@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@heathmont/eslint-config-sportsbet-base/-/eslint-config-sportsbet-base-0.1.1.tgz#8081474f8ead91a45d4e270720c28ce0447bd60a"
-  integrity sha512-RY3lYIkKeXea/Tq1qhDy3m5xtHUKvrE21Uh9Ym9W3bmvn+z43wA5FsdTj1jsCSkRoWunRAEW9XtGQKynOVfjBw==
+"@heathmont/eslint-config-sportsbet-base@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@heathmont/eslint-config-sportsbet-base/-/eslint-config-sportsbet-base-0.1.3.tgz#e0b496449aff55ec4257c91568756c2013110064"
+  integrity sha512-ApMqechmK9G8YbsQZDkrSgdAokDS8LWOWog9pFc60h6aooauQaxiW1SQtMSl+z173OTfrfyp8Zkxq7+Au657Gw==
   dependencies:
     eslint-config-airbnb "17.1.0"
 
@@ -1071,19 +1071,19 @@
     "@heathmont/prettier-config-sportsbet" "^0.1.0"
     eslint-config-prettier "6.0.0"
 
-"@heathmont/eslint-config-sportsbet-typescript@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/eslint-config-sportsbet-typescript/-/eslint-config-sportsbet-typescript-0.1.2.tgz#c852362ba6c4c9573467f23a959c9c6b251bc489"
-  integrity sha512-MInHmsPQRsyf62QKf8kF8oytFMEpNqoumfDCpaLpufGOhbVA4+SNsnWIe9Q+VQeaDhOh9R7lwt4UHhUJsXCzaA==
+"@heathmont/eslint-config-sportsbet-typescript@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@heathmont/eslint-config-sportsbet-typescript/-/eslint-config-sportsbet-typescript-0.1.3.tgz#93f133eb5ff33c2d36e89dc6a861cae03997eca6"
+  integrity sha512-vf1usaR27mjqF+Dw1wVlJv3/G6ge3g88amJ+D7iex1ZxB+aQvQk9TM5h/7Y+XYzd3x27TFnPo082m60jFOoFug==
 
-"@heathmont/eslint-config-sportsbet@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/eslint-config-sportsbet/-/eslint-config-sportsbet-0.1.2.tgz#dfe8c69a9d070701cbd3bd8f77d06061c36a2e56"
-  integrity sha512-/dz8uNGC8sH5IPbaoj4PVVkvqDjjWL1cF+KVZxuK7OT0mFFhqAQOzGYYlbGN8MScYOWvO9FcVtKbos3w2vI8LA==
+"@heathmont/eslint-config-sportsbet@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@heathmont/eslint-config-sportsbet/-/eslint-config-sportsbet-0.1.3.tgz#0e9ce2f522223364cb2bc0dd602c57199a026a17"
+  integrity sha512-bG9C7cmD3ltO7qLfR45/3OdHkcyB9SsSQxIjAbCzVKJfNs72SojACXUsK41EULLt7LLrj+bOXJQqiXRrmcq/MQ==
   dependencies:
-    "@heathmont/eslint-config-sportsbet-base" "^0.1.1"
+    "@heathmont/eslint-config-sportsbet-base" "^0.1.3"
     "@heathmont/eslint-config-sportsbet-prettier" "^0.1.1"
-    "@heathmont/eslint-config-sportsbet-typescript" "^0.1.2"
+    "@heathmont/eslint-config-sportsbet-typescript" "^0.1.3"
 
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
