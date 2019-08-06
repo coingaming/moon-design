@@ -2,9 +2,12 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import rem from 'polished/lib/helpers/rem';
+
 import { EventProps } from '..';
+
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconLogoPlain } from '@heathmont/sportsbet-icons';
+
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
 import { backgroundStripes, betBoostHighlightColors } from '../shared/utils';

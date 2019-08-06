@@ -4,6 +4,7 @@ import { jsx } from '@emotion/core';
 import { CSSObject } from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors, border } from '@heathmont/sportsbet-tokens';
+
 import { badgeModifiers, BadgeModifiers } from './modifiers';
 
 jsx;

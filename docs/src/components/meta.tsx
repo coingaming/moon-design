@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { Helmet } from 'react-helmet';
 import { jsx } from '@emotion/core';
-import { graphql, StaticQuery, withPrefix } from 'gatsby';
-
+import { graphql, StaticQuery } from 'gatsby';
 import { cdnUrl, avertaStd } from '@heathmont/sportsbet-assets';
 
 jsx;

@@ -3,7 +3,9 @@ import { StaticQuery, graphql } from 'gatsby';
 import { jsx, CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+
 import { PagesData } from '../../types';
+
 import { transformSections } from './transform';
 import { Divider } from './divider';
 import { Logo } from './logo';

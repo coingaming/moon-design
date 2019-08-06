@@ -6,6 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { breakpoints, border } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown } from '@heathmont/sportsbet-icons';
+
 import { Input, inputColors, inputSpacing } from '../private/input';
 import { Label, LabelSizing } from '../private/label';
 

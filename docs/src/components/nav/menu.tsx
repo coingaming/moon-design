@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { jsx, CSSObject } from '@emotion/core';
 import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+
 import { Frontmatter } from '../../types';
 
 jsx;
