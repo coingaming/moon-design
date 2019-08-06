@@ -9,6 +9,7 @@ import {
 } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+
 import { userPortalContainerFlush } from '../../../shared/container';
 
 jsx;

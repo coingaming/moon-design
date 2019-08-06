@@ -9,6 +9,8 @@ import { spacing, disabled } from '@heathmont/sportsbet-utils';
 import { IconSuccess } from '@heathmont/sportsbet-icons/lib/svg/IconSuccess';
 import { IconWarning } from '@heathmont/sportsbet-icons/lib/svg/IconWarning';
 
+import { Loader } from '../loader/loader';
+
 import { buttonModifiers, ButtonModifiers } from './modifiers';
 import { buttonSizes, ButtonSizes } from './size';
 import {
@@ -17,7 +19,6 @@ import {
   buttonHover,
   buttonActive,
 } from './states';
-import { Loader } from '../loader/loader';
 
 /* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */

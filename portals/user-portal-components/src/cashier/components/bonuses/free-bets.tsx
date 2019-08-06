@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+
 import {
   userPortalContainer,
   userPortalContainerInner,

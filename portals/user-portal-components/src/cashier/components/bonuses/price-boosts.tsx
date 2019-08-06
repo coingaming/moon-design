@@ -9,6 +9,7 @@ import {
 } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
 import { cardGradientSizes } from '@heathmont/sportsbet-components/lib/card/utils';
+
 import {
   userPortalContainer,
   userPortalContainerInner,

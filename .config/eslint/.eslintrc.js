@@ -6,24 +6,20 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'import/first': 'off', // Unnecessarily compresses JSX comment
-    'react/jsx-indent': 'off', // Conflicts with Prettier
-    'react/jsx-closing-tag-location': 'off', // Conflicts with Prettier
-    'react/jsx-wrap-multilines': 'off', // Conflicts with Prettier
     //
     // @TODO Implementation
     //
-    'no-unused-vars': 'off',
+    'import/first': 'off', // Unnecessarily compresses JSX comment
     'import/no-cycle': 'off',
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     '@typescript-eslint/no-inferrable-types': 'off',
   },
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      /** Disable specific rules for SVGR config */
+      files: ['design/icons/src/config/*'],
       rules: {
-        // @TODO Implementation - Remove
-        '@typescript-eslint/no-unused-vars': 'off',
+        'no-unused-vars': 'off',
       },
     },
     {

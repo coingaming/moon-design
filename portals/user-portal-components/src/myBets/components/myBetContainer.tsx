@@ -2,7 +2,9 @@ import styled from '@emotion/styled';
 import { breakpoints, colors, typography } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import rem from 'polished/lib/helpers/rem';
+
 import { userPortalContainerFlush } from '../../shared/container';
+
 import { myBetsContainerColors } from './shared/utils';
 
 export const MyBetContainerHeader = styled.div<{}>({

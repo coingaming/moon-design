@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import { colors } from '@heathmont/sportsbet-tokens';
 
 import { IconCurrencyArs } from '../svg/IconCurrencyArs';
