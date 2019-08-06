@@ -8,14 +8,15 @@ import { colors, border, typography } from '@heathmont/sportsbet-tokens';
 
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
-import { EventProps } from './scoreboard';
-import { ScoreBoardHeader } from './header';
 import {
   backgroundStripes,
   betBoostHighlightColors,
   scoreboardBackgroundColor,
   scoreboardScoreColor,
 } from '../shared/utils';
+
+import { EventProps } from './scoreboard';
+import { ScoreBoardHeader } from './header';
 
 export type TennisProps = {
   event: EventProps;

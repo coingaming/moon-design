@@ -4,8 +4,10 @@ import rem from 'polished/lib/helpers/rem';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { IconChevronDown } from '@heathmont/sportsbet-icons';
-import { myBetsContainerColors } from './shared/utils';
+
 import { USER_PORTAL_CONTAINER_PADDING, userPortalContainerFlush } from '../..';
+
+import { myBetsContainerColors } from './shared/utils';
 
 type Props = {
   open?: boolean;

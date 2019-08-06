@@ -8,6 +8,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { listInline, listInlineItem } from '@heathmont/sportsbet-objects';
 import { spacing } from '@heathmont/sportsbet-utils';
+
 import { underlineOffset, underlineWidth } from './settings';
 
 /**

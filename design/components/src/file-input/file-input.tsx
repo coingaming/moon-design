@@ -7,6 +7,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, spacing } from '@heathmont/sportsbet-utils';
 import { IconUpload } from '@heathmont/sportsbet-icons';
+
 import { Input, inputColors } from '../private/input';
 
 jsx;
