@@ -1,6 +1,8 @@
 /* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
 const path = require('path');
+
 const { colors } = require('@heathmont/sportsbet-tokens');
+
 const { siteTitle, description, author } = require('./config');
 
 module.exports = {

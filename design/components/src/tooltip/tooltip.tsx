@@ -6,8 +6,10 @@ import math from 'polished/lib/math/math';
 import { animation, border, colors, zIndex } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { IconClose } from '@heathmont/sportsbet-icons';
-import { slideUpFade } from './animation';
+
 import { Toggle } from '../toggle/toggle';
+
+import { slideUpFade } from './animation';
 
 /**
  * Types

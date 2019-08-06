@@ -3,14 +3,16 @@ import rem from 'polished/lib/helpers/rem';
 import styled from '@emotion/styled';
 import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+
 import { Market } from '../shared/market';
 import { Selection } from '../shared/selections';
-import { EventProps } from './scoreboard';
-import { ScoreBoardHeader } from './header';
 import {
   betBoostHighlightColors,
   scoreboardBackgroundColor,
 } from '../shared/utils';
+
+import { EventProps } from './scoreboard';
+import { ScoreBoardHeader } from './header';
 
 export type FootballProps = {
   event: EventProps;
