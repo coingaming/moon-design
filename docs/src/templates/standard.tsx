@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 /* @TODO Revisit post-EPL */
 /* eslint-disable import/no-named-default */
 import { default as MDXRenderer } from 'gatsby-mdx/mdx-renderer';
+
 import { default as Layout } from '../components/layout';
 /* eslint-enable */
 

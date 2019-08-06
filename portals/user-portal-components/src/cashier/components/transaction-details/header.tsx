@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { container, mq, spacing } from '@heathmont/sportsbet-utils';
+
 import {
   USER_PORTAL_CONTAINER_SIZE,
   USER_PORTAL_CONTAINER_SIZE_FLUSH,

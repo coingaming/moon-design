@@ -15,6 +15,4 @@ export const Playground = styled.div({
   width: '100%',
 });
 
-/* @TODO Revisit post-EPL */
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-export const PropsTable = ({ of }: { of: any }) => <p>WIP</p>;
+export const PropsTable = () => <p>WIP</p>;

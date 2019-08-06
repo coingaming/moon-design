@@ -6,6 +6,7 @@ import rgba from 'polished/lib/color/rgba';
 import padding from 'polished/lib/shorthands/padding';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, InlineSVGProps, spacing } from '@heathmont/sportsbet-utils';
+
 import { cardGradientSizes } from './utils';
 
 type CardTemplates = 'front' | 'back' | 'outline';

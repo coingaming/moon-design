@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import { IconCurrencyBtc } from '@heathmont/sportsbet-icons';
+
 import { Card } from '..';
 
 describe('Card', () => {
