@@ -1,17 +1,15 @@
 /** @jsx jsx */
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-import modularScale from 'polished/lib/helpers/modularScale';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link } from '@heathmont/sportsbet-components';
-import { border, colors, typography } from '@heathmont/sportsbet-tokens';
+import { border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+
 import { Code } from '../components/code';
 import { Children } from '../types';
 
 jsx;
-
-const modularScaleConfig = ['1rem', 'augFourth'];
 
 const maxWidth: CSSObject = {
   maxWidth: '40rem',

@@ -4,6 +4,7 @@ import { jsx } from '@emotion/core';
 import { colors, breakpoints } from '@heathmont/sportsbet-tokens';
 import { spacing, mq } from '@heathmont/sportsbet-utils';
 import { IconClose } from '@heathmont/sportsbet-icons';
+
 import { Toggle } from '..';
 
 const BannerToggle: React.FC<

@@ -6,6 +6,7 @@ import {
   IconSettings,
 } from '@heathmont/sportsbet-icons';
 import { colors } from '@heathmont/sportsbet-tokens';
+
 import { Toggle } from '..';
 
 jsx;

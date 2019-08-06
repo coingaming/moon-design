@@ -5,8 +5,10 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import { inputSelectors } from './settings';
+
 import { inputColors } from '../input/settings';
+
+import { inputSelectors } from './settings';
 
 jsx;
 
