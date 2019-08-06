@@ -5,8 +5,8 @@ import {
   spacing as spacingTokens,
 } from '@heathmont/sportsbet-tokens';
 
-type SpacingSize = keyof SpacingTokens | 0;
-type SpacingUnit = string;
+export type SpacingSize = keyof SpacingTokens | 0;
+export type SpacingUnit = string;
 
 const spacing = (size: SpacingSize = 'default', unit?: SpacingUnit) => {
   if (size === 0) {
