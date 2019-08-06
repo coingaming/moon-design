@@ -1,4 +1,5 @@
 import { CSSObject } from '@emotion/core';
+
 import { cdnUrl } from '../cdn';
 
 const fontDirPath = `${cdnUrl}/fonts/averta-std`;

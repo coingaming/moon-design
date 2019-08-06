@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { listItemStyleTypeNone } from '@heathmont/sportsbet-objects';
 import { border, colors } from '@heathmont/sportsbet-tokens';
+
 import { CarouselInlineStyleProps } from './types';
 
 /**

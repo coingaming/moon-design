@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import rem from 'polished/lib/helpers/rem';
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors, border, typography } from '@heathmont/sportsbet-tokens';
+
 import { betBoostHighlightColors } from './utils';
 
 export type SelectionProps = {

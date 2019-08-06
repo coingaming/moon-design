@@ -5,6 +5,7 @@ import isPropValid from '@emotion/is-prop-valid';
 import styled from '@emotion/styled';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
+
 import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
 import { buttonStyles } from '../button/button';
 
@@ -57,9 +58,7 @@ const linkBase: CSSObject = {
 const Link: React.FC<any> = styled('a', {
   shouldForwardProp: prop =>
     prop === 'exact' || (isPropValid(prop) && prop !== 'as'),
-  // @TODO Revisit post-EPL
-  // @ts-ignore unused variables
-})(({ href, secondary, optional, buttonStyled, ...props }) => [
+})(({ secondary, optional, buttonStyled }) => [
   linkBase,
   secondary && { color: colors.neutral[20] },
   optional && {
