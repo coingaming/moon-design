@@ -3,6 +3,7 @@ import * as React from 'react';
 import { jsx } from '@emotion/core';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
+
 import { underlineWidth } from './settings';
 
 /**

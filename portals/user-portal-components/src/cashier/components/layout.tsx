@@ -2,7 +2,6 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-
 import { spacing } from '@heathmont/sportsbet-utils';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { Heading } from '@heathmont/sportsbet-components/lib/heading';

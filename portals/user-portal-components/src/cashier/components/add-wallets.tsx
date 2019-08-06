@@ -10,6 +10,7 @@ import { breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { cardGradientSizes } from '@heathmont/sportsbet-components/lib/card/utils';
 import rem from 'polished/lib/helpers/rem';
 import { IconSuccess } from '@heathmont/sportsbet-icons';
+
 import {
   userPortalContainer,
   userPortalContainerInner,

@@ -4,7 +4,6 @@ import rem from 'polished/lib/helpers/rem';
 import { border, breakpoints, colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown, IconChevronUp } from '@heathmont/sportsbet-icons';
-
 import { inputColors } from '@heathmont/sportsbet-components/lib/private/input';
 
 import { userPortalContainerInner } from '../../../shared/container';
