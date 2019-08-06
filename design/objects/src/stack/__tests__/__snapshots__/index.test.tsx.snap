@@ -5,6 +5,10 @@ exports[`Stack renders with \`default\` spacing 1`] = `
   margin-top: 1rem;
 }
 
+.emotion-0 > style:first-child + * {
+  margin-top: 0;
+}
+
 <div
   className="emotion-0"
 >
@@ -34,6 +38,10 @@ exports[`Stack renders with \`default\` spacing 1`] = `
 exports[`Stack renders with adjusted spacing 1`] = `
 .emotion-0 > * + * {
   margin-top: 0.5rem;
+}
+
+.emotion-0 > style:first-child + * {
+  margin-top: 0;
 }
 
 <div
