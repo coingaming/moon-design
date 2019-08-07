@@ -8,11 +8,11 @@ import { base, colors, typography } from '@heathmont/sportsbet-tokens';
  */
 export const page: CSSObject = {
   html: {
-    backgroundColor: colors.neutral[90],
+    backgroundColor: colors.background,
     fontSize: rem(base.spacing),
     lineHeight: base.lineHeight / base.spacing,
     fontFamily: typography.fontFamily,
-    color: colors.neutral[10],
+    color: colors.text,
     minHeight: '100%',
     textSizeAdjust: '100%' /* [1] */,
     textRendering: 'optimizeLegibility',
