@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import { Fragment } from 'react';
-import { jsx, Global, CSSObject } from '@emotion/core';
+import * as React from 'react';
+import { Global, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import padding from 'polished/lib/shorthands/padding';
 import { styles } from '@heathmont/sportsbet-global';
@@ -11,8 +10,6 @@ import { Children } from '../types';
 
 import { Nav } from './nav';
 import { Meta } from './meta';
-
-jsx;
 
 const grid: CSSObject = {
   [mq(breakpoints.medium)]: {
@@ -42,12 +39,12 @@ const Main = styled.main({
 });
 
 export default ({ children }: Children) => (
-  <Fragment>
+  <React.Fragment>
     <Global styles={styles} />
     <Meta />
     <div css={grid}>
       <Nav />
       <Main>{children}</Main>
     </div>
-  </Fragment>
+  </React.Fragment>
 );
