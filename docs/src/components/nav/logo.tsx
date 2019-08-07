@@ -1,11 +1,9 @@
-/** @jsx jsx */
-import { jsx, CSSObject } from '@emotion/core';
+import * as React from 'react';
+import { CSSObject } from '@emotion/core';
 import { Link } from 'gatsby';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
-
-jsx;
 
 const logoLink: CSSObject = {
   display: 'block',
