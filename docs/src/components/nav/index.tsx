@@ -1,7 +1,5 @@
-/** @jsx jsx */
+import * as React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import { jsx, CSSObject } from '@emotion/core';
-import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 import { PagesData } from '../../types';
@@ -10,8 +8,6 @@ import { transformSections } from './transform';
 import { Divider } from './divider';
 import { Logo } from './logo';
 import { Menu, MenuList, MenuItem } from './menu';
-
-jsx;
 
 const sidebar = graphql`
   query {
@@ -36,16 +32,15 @@ const sidebar = graphql`
   }
 `;
 
-const nav: CSSObject = {
-  backgroundColor: colors.neutral[90],
-  padding: spacing(),
-};
-
 export const Nav = () => (
   <StaticQuery
     query={sidebar}
     render={(data: PagesData) => (
-      <nav css={nav}>
+      <nav
+        css={{
+          padding: spacing(),
+        }}
+      >
         <Logo />
         <Divider />
         <MenuList>

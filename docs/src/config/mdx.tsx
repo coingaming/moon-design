@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link } from '@heathmont/sportsbet-components';
 import { Stack } from '@heathmont/sportsbet-objects';
-import { border, colors } from '@heathmont/sportsbet-tokens';
+import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 import { Code } from '../components/code';
@@ -21,8 +21,9 @@ const Table = styled.table([
     width: '100%',
     ...maxWidth,
     thead: {
-      color: colors.neutral[20],
-      borderBottom: `${border.width}px solid ${colors.neutral[30]}`,
+      color: colors.neutral[10],
+      fontWeight: typography.fontWeight.semibold,
+      borderBottom: `${border.width}px solid ${colors.neutral[20]}`,
     },
     'th, td': {
       padding: `${spacing('small')} 0`,
