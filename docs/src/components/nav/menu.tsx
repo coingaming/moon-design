@@ -1,13 +1,11 @@
-/** @jsx jsx */
+import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import styled from '@emotion/styled';
-import { jsx, CSSObject } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 import { Frontmatter } from '../../types';
-
-jsx;
 
 type MenuItemProps = Frontmatter & {
   section?: boolean;
