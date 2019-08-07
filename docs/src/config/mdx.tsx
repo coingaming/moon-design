@@ -3,6 +3,7 @@ import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link } from '@heathmont/sportsbet-components';
+import { Stack } from '@heathmont/sportsbet-objects';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
@@ -34,6 +35,7 @@ const Table = styled.table([
  * See: https://mdxjs.com/getting-started/
  */
 export const mdxComponents = {
+  wrapper: (props: any) => <Stack {...props} />,
   h1: ({ children }: Children) => (
     <Heading size="alpha" as="h1">
       {children}

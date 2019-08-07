@@ -1,0 +1,98 @@
+---
+name: Stack
+menu: Objects
+route: /objects/stack
+---
+
+# Stack
+
+> Based on the "Stack" component from [every-layout.dev](https://every-layout.dev/layouts/stack/).
+
+Components are designed to fit any container, with the spacing between elements
+set by the consumer to fit specific use-cases.
+
+The `Stack` component is designed to meet the majority of these use-cases,
+setting consistent **vertical rhythm** to its **immediate children**. Thanks to
+its low specificity, margins can be overriden or adjusted for individual child
+elements by creating a new `class` selector.
+
+```jsx react-live
+<Stack>
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+  <Stack css={{ padding: '1rem', border: `3px solid ${colors.neutral[20]}` }}>
+    <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+    <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+  </Stack>
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+</Stack>
+```
+
+The immediate children don't _need_ to be components; `Stack` is especially
+useful for long-form content.
+
+```jsx react-live
+<Stack>
+  <Heading as="h1" size="bravo">
+    Lorem Ipsum Dolor Sit Amet.
+  </Heading>
+  <p>
+    Consectetur adipiscing elit. Nullam gravida ex tempor, ornare sapien a,
+    sodales velit. Curabitur ac ultrices massa, eu scelerisque mauris.
+  </p>
+  <p>
+    Donec maximus purus at tempor elementum. Donec commodo aliquam metus, et
+    vestibulum felis venenatis pellentesque. Donec malesuada diam nec magna
+    maximus semper. In iaculis nunc erat, in dignissim tortor facilisis id.
+    Nulla sit amet auctor nisi, eu porttitor tortor. Suspendisse congue porta
+    magna, vel euismod eros tempus a. Vestibulum consequat consequat vulputate.
+    Vivamus fringilla malesuada purus in consectetur.
+  </p>
+  <p>
+    Phasellus felis sem, convallis eget pretium vel, faucibus sit amet nulla.
+    Fusce auctor nibh non libero sagittis, semper sagittis ipsum euismod.
+  </p>
+</Stack>
+```
+
+## Space
+
+`Stack` uses the [`"default"`](/tokens#spacing) spacing token to set rhythm, but
+accepts other [spacing token](/tokens#spacing) keys for individual use-cases.
+
+```jsx react-live
+<Stack space="small">
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
+</Stack>
+```
+
+## Nesting
+
+Only the **immediate** children will be affected by `Stack`, anything further
+nested will lose spacing. Further `Stack`s can be nested to resolve this issue,
+or for other spacing needs.
+
+```jsx react-live
+<Stack>
+  <p>Stacks can be nested too.</p>
+  <div css={{ padding: '1rem', border: `1px solid ${colors.neutral[20]}` }}>
+    <strong>Content unaffected by Stack.</strong>
+    <p>
+      Elements that are not direct children of the Stack, such as this one, will
+      lose their spacing.
+    </p>
+  </div>
+  <Stack css={{ padding: '1rem', border: `1px solid ${colors.neutral[20]}` }}>
+    <strong>New Stack defined for nested elements.</strong>
+    <p>Immediate children of this Stack will benefit from spacing.</p>
+    <p>Such as this element.</p>
+  </Stack>
+
+  <div css={{ height: '2rem', border: `1px solid ${colors.neutral[20]}` }} />
+
+  <p>Further immediate children to the initial Stack will inherit spacing.</p>
+</Stack>
+```
