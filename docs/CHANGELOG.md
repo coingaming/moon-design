@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.76.0](https://github.com/coingaming/sportsbet-design/compare/v0.75.1...v0.76.0) (2019-08-07)
+
+
+### Features
+
+* **stack:** create object ([ccffcf2](https://github.com/coingaming/sportsbet-design/commit/ccffcf2))
+
+
+
+
+
 ## [0.75.1](https://github.com/coingaming/sportsbet-design/compare/v0.75.0...v0.75.1) (2019-08-06)
 
 **Note:** Version bump only for package docs
