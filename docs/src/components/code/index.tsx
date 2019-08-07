@@ -1,4 +1,4 @@
-/** @jsx jsx */
+import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
@@ -9,8 +9,6 @@ import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 
 import { syntaxStyles } from './prism';
-
-jsx;
 
 type CodeProps = {
   codeString: string;
