@@ -1,16 +1,18 @@
 import styled from '@emotion/styled';
-import { spacing, SpacingSize } from '@heathmont/sportsbet-utils';
+import { spacing } from '@heathmont/sportsbet-utils';
 
 const disableSSRWarning = (selector: string) =>
   `${selector} /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */`;
 
+type StackSpace = string | number;
+
 export type StackProps = {
-  space?: SpacingSize;
+  space?: StackSpace;
 };
 
-export const Stack = styled.div<StackProps>(({ space }) => ({
+export const stack = (space: StackSpace) => ({
   '& > * + *': {
-    marginTop: spacing(space),
+    marginTop: space,
   },
   /**
    * With Emotion's 'out of the box' SSR set-up, <style/> tags are injected
@@ -28,4 +30,8 @@ export const Stack = styled.div<StackProps>(({ space }) => ({
   [disableSSRWarning('& > style:first-child + *')]: {
     marginTop: 0,
   },
-}));
+});
+
+export const Stack = styled.div<StackProps>(({ space = spacing('default') }) =>
+  stack(space)
+);
