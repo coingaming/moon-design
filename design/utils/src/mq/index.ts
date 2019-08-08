@@ -3,4 +3,5 @@ import em from 'polished/lib/helpers/em';
 export const mq = (
   bp: number,
   direction: 'min-width' | 'max-width' = 'min-width'
-) => `@media (${direction}: ${em(bp)})`;
+) =>
+  `@media (${direction}: ${direction === 'max-width' ? em(bp - 1) : em(bp)})`;
