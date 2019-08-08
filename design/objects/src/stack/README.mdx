@@ -55,13 +55,25 @@ useful for long-form content.
 </Stack>
 ```
 
+Alternatively, "Stack" styles can also be added to an existing component via the
+`stack()` function:
+
+```jsx
+import { stack } from '@heathmont/sportsbet-objects';
+
+const Example = styled.div({
+  ...stack('1.25rem'),
+});
+```
+
 ## Space
 
 `Stack` uses the [`"default"`](/tokens#spacing) spacing token to set rhythm, but
-accepts other [spacing token](/tokens#spacing) keys for individual use-cases.
+accepts other size values (such as [spacing utils](/utils/spacing)) for
+individual use-cases.
 
 ```jsx react-live
-<Stack space="small">
+<Stack space={spacing('small')}>
   <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
   <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
   <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />

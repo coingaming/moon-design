@@ -41,7 +41,7 @@ describe('Stack', () => {
 
   test('renders with adjusted spacing', () => {
     const stack = create(
-      <Stack space="small">
+      <Stack space="0.5rem">
         <h1>Lorem Ipsum Dolor Sit Amet.</h1>
         <p>
           Consectetur adipiscing elit. Nullam gravida ex tempor, ornare sapien
