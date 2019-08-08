@@ -32,11 +32,21 @@ const Table = styled.table([
 ]);
 
 /**
+ * Markdown-specific CSS
+ * Investigate re-applying to `global`.
+ */
+const markdownContent: CSSObject = {
+  'ul, ol': {
+    marginLeft: spacing(),
+  },
+};
+
+/**
  * Map custom components to HTML provided by MDX
  * See: https://mdxjs.com/getting-started/
  */
 export const mdxComponents = {
-  wrapper: (props: any) => <Stack {...props} />,
+  wrapper: (props: any) => <Stack css={markdownContent} {...props} />,
   h1: ({ children }: Children) => (
     <Heading size="alpha" as="h1">
       {children}
