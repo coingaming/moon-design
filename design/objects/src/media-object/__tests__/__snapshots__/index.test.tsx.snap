@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaObject renders in reverse 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 1rem;
+  text-align: left;
+  display: grid;
+  grid-template: max-content / 2rem auto;
+  direction: rtl;
+}
+
+.emotion-0 img,
+.emotion-0 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.emotion-0 > * {
+  direction: ltr;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 1rem;
+  text-align: right;
+  display: grid;
+  grid-template: max-content / 2rem auto;
+  direction: rtl;
+}
+
+.emotion-1 img,
+.emotion-1 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.emotion-1 > * {
+  direction: ltr;
+}
+
+<div>
+  <div
+    className="emotion-0"
+  >
+    <img
+      alt="Example"
+      src="https://via.placeholder.com/50C"
+    />
+    <div>
+      <p>
+        Live chat
+      </p>
+      <p>
+        We offer 24/7 support
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <img
+      alt="Example"
+      src="https://via.placeholder.com/50C"
+    />
+    <div>
+      <p>
+        Live chat
+      </p>
+      <p>
+        We offer 24/7 support
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MediaObject renders with \`default\` settings 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 1rem;
+  text-align: left;
+  display: grid;
+  grid-template: max-content / 2rem auto;
+}
+
+.emotion-0 img,
+.emotion-0 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+<div
+  className="emotion-0"
+>
+  <img
+    alt="Example"
+    src="https://via.placeholder.com/50C"
+  />
+  <div>
+    <p>
+      Live chat
+    </p>
+    <p>
+      We offer 24/7 support
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MediaObject renders with custom CSS grid props 1`] = `
+.emotion-0 {
+  -webkit-align-items: top;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+  grid-gap: 2rem;
+  text-align: left;
+  display: grid;
+  grid-template: max-content / 2rem auto;
+}
+
+.emotion-0 img,
+.emotion-0 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+<div
+  className="emotion-0"
+>
+  <img
+    alt="Example"
+    src="https://via.placeholder.com/50C"
+  />
+  <div>
+    <p>
+      Live chat
+    </p>
+    <p>
+      We offer 24/7 support
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MediaObject renders with custom media size 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 1rem;
+  text-align: left;
+  display: grid;
+  grid-template: max-content / 40px auto;
+}
+
+.emotion-0 img,
+.emotion-0 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+<div
+  className="emotion-0"
+>
+  <img
+    alt="Example"
+    src="https://via.placeholder.com/50C"
+  />
+  <div>
+    <p>
+      Live chat
+    </p>
+    <p>
+      We offer 24/7 support
+    </p>
+  </div>
+</div>
+`;

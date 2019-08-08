@@ -1,0 +1,105 @@
+---
+name: Media Object
+menu: Objects
+route: /objects/media-object
+---
+
+# Media Object
+
+One of the most common structural UI patterns; displaying media on the left
+and descriptive content on the right.
+
+For further reading, see [Nicole Sullivan's original article](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/).
+
+The `MediaObject` expects **two `html` elements** as children, and renders them side-by-side:
+
+1. Media
+2. Body
+
+```jsx react-live
+<MediaObject>
+  <IconDuotoneChat />
+
+  <div>
+    <Heading as="p" size="delta">
+      Live chat
+    </Heading>
+    <p>We offer 24/7 support</p>
+  </div>
+</MediaObject>
+```
+
+## Customization
+
+As well as accepting as `html` attributes and [Emotion's `as` prop](https://emotion.sh/docs/styled#as-prop), the `MediaObject` is customisable to
+suit a range of needs.
+
+### Size
+
+Adjust the media content width via the `mediaWidth` prop.
+
+```jsx react-live
+<MediaObject mediaWidth="3rem">
+  <IconDuotoneChat />
+
+  <div>
+    <Heading as="p" size="delta">
+      Live chat
+    </Heading>
+    <p>We offer 24/7 support</p>
+  </div>
+</MediaObject>
+```
+
+### Layout
+
+As `MediaObject` is a [CSS grid component](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), you can make
+use of specific props to adjust the layout:
+
+- [`alignItems`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout#Aligning_items_on_the_Block_Axis)
+- [`gridGap`](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
+
+```jsx react-live
+<MediaObject alignItems="top" gridGap={spacing('large')}>
+  <IconDuotoneChat />
+
+  <div>
+    <Heading as="p" size="delta">
+      Live chat
+    </Heading>
+    <p>We offer 24/7 support</p>
+  </div>
+</MediaObject>
+```
+
+### Direction
+
+Flip the order of "media" and "body" by using the `reverse` flag.
+
+```jsx react-live
+<MediaObject reverse>
+  <IconDuotoneChat />
+
+  <div>
+    <Heading as="p" size="delta">
+      Live chat
+    </Heading>
+    <p>We offer 24/7 support</p>
+  </div>
+</MediaObject>
+```
+
+Using `textAlign` for further adjustment.
+
+```jsx react-live
+<MediaObject reverse textAlign="right">
+  <IconDuotoneChat />
+
+  <div>
+    <Heading as="p" size="delta">
+      Live chat
+    </Heading>
+    <p>We offer 24/7 support</p>
+  </div>
+</MediaObject>
+```
