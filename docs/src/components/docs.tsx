@@ -9,7 +9,7 @@ export const Playground = styled.div({
   borderStyle: border.style,
   borderWidth: border.width,
   borderRadius: border.radius.small,
-  borderColor: colors.neutral[30],
+  borderColor: colors.border,
   overflow: 'auto',
   resize: 'horizontal',
   width: '100%',
