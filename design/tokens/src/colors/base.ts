@@ -4,6 +4,7 @@ const { bulma, gohan, goku, hit, piccolo, trunks, chichi, krillin } = palette;
 
 const colors: {
   background: string;
+  border: string;
   brand: string;
   error: string;
   neutral: BaseColor;
@@ -15,6 +16,7 @@ const colors: {
 } = {
   background: goku[100],
   brand: piccolo[100],
+  border: gohan[100],
   error: chichi[100],
   palette,
   neutral: {
