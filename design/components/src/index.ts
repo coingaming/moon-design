@@ -8,6 +8,7 @@ export * from './file-input';
 export * from './form';
 export * from './header';
 export * from './heading';
+export * from './keyline';
 export * from './link';
 export * from './loader';
 export * from './nav';
