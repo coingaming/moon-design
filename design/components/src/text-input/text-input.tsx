@@ -18,12 +18,10 @@ type TextInputTypes =
   | 'text'
   | 'url';
 
-type TextInputProps = {
+type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
   type?: TextInputTypes;
   placeholder?: string;
-  disabled?: boolean;
-  required?: boolean;
   error?: boolean;
 };
 
