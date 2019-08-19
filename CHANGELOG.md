@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.79.0](https://github.com/coingaming/sportsbet-design/compare/v0.78.0...v0.79.0) (2019-08-19)
+
+
+### Features
+
+* **stack:** enable CSS grid for modern browsers ([d851a72](https://github.com/coingaming/sportsbet-design/commit/d851a72))
+
+
+
+
+
 # [0.78.0](https://github.com/coingaming/sportsbet-design/compare/v0.77.1...v0.78.0) (2019-08-14)
 
 
