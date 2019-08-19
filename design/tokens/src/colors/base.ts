@@ -31,7 +31,7 @@ const colors: {
     90: hit[80],
   },
   text: bulma[100],
-  warning: krillin[100],
+  warning: krillin[40],
 };
 
 export { colors };

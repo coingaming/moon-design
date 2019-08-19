@@ -1,12 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Stack renders with \`default\` spacing 1`] = `
-.emotion-0 > * + * {
-  margin-top: 1rem;
+@supports (grid-gap:0) {
+  .emotion-0 {
+    display: grid;
+    grid-gap: 1rem;
+  }
 }
 
-.emotion-0 > style:first-child + * {
-  margin-top: 0;
+@supports not (grid-gap:0) {
+  .emotion-0 > * + * {
+    margin-top: 1rem;
+  }
+
+  .emotion-0 > style:first-child + * {
+    margin-top: 0;
+  }
 }
 
 <div
@@ -36,12 +45,21 @@ exports[`Stack renders with \`default\` spacing 1`] = `
 `;
 
 exports[`Stack renders with adjusted spacing 1`] = `
-.emotion-0 > * + * {
-  margin-top: 0.5rem;
+@supports (grid-gap:0) {
+  .emotion-0 {
+    display: grid;
+    grid-gap: 0.5rem;
+  }
 }
 
-.emotion-0 > style:first-child + * {
-  margin-top: 0;
+@supports not (grid-gap:0) {
+  .emotion-0 > * + * {
+    margin-top: 0.5rem;
+  }
+
+  .emotion-0 > style:first-child + * {
+    margin-top: 0;
+  }
 }
 
 <div
