@@ -21,7 +21,7 @@
 
 #### Designing
 
-Icons are designed in the [`.sketch` file](design/assets/src/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](design/assets/src/icons/svg) directory.
+Icons are designed in the [`.sketch` file](packages/assets/src/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/assets/src/icons/svg) directory.
 
 Each icon **must**:
 
@@ -36,18 +36,18 @@ Each icon **must**:
   1. the export format defined as "SVG".
 - have its color fill set to `#DE1E7E` (remember "DELETE") if you want the color to be modified.
 
-Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](design/assets/src/icons/svg) directory as the output location.
+Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/assets/src/icons/svg) directory as the output location.
 
 #### Building
 
 For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
 
-We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](design/assets/src/icons/svg) to React components in [`sportsbet-icons`](design/icons/README.mdx).
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/src/icons/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
 
 To update/add icons run: `yarn icons build`
 
-- Runs SVGR based on the [config options](design/icons/src/config/svgr.js).
-- Builds React `.tsx` files for each component with the [template](design/icons/src/config/template.js).
+- Runs SVGR based on the [config options](packages/icons/src/config/svgr.js).
+- Builds React `.tsx` files for each component with the [template](packages/icons/src/config/template.js).
 
 ## Git Strategy
 
@@ -169,7 +169,7 @@ With [Emotion](https://emotion.sh) we can take advantage of keeping style, marku
 
 Each component/consumable feature **must** have a README that follows the appropriate package's pre-defined `.templates/`:
 
-- [`design/components`](design/components/.templates/README.mdx)
+- [`packages/components`](packages/components/.templates/README.mdx)
 
 This should be written in [`.mdx`](https://mdxjs.com/) syntax, which will be included automatically in the [Style Guide](./README.md#style-guide).
 
@@ -245,11 +245,11 @@ These styles should be **flat**/**stateless** and not bound by any form of funct
 
 Thanks to [Lerna and Commitizen](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits), we can generate version bumps and CHANGELOGs for each package and release automatically.
 
-1. Assuming that all changes to be released have followed the [Git Workflow outlined above](#workflow), raise a pull request from [`develop` into `master`](https://github.com/coingaming/sportsbet-design/compare/master...develop).
+1. Assuming that all changes to be released have followed the [Git Workflow outlined above](#workflow), raise a pull request from [`develop` into `master`](https://github.com/coingaming/sportsbet-packages/compare/master...develop).
 2. Ensure the pull request is up to date with `master`.
 3. Obtain at least 1 approval.
 4. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/sportsbet-design).
 
-   - If successful, a new [tag](https://github.com/coingaming/sportsbet-design/releases) will be visible, along with new package versions on NPM.
+   - If successful, a new [tag](https://github.com/coingaming/sportsbet-packages/releases) will be visible, along with new package versions on NPM.
 
 5. Communicate the release to the team!
