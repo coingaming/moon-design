@@ -19,7 +19,7 @@
     "@heathmont/sportsbet-utils": "^0.79.0",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
-    "polished": "3.0.0",
+    "polished": "3.4.1",
     "react": "16.8.1",
     "react-dom": "16.8.1",
     "react-router-dom": "5.0.0"
