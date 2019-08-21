@@ -29,6 +29,8 @@ export { IconCurrencyCrc } from './svg/IconCurrencyCrc';
 export { IconCurrencyCny } from './svg/IconCurrencyCny';
 export { IconCurrencyEth } from './svg/IconCurrencyEth';
 export { IconCurrencyEur } from './svg/IconCurrencyEur';
+export { IconCurrencyGel } from './svg/IconCurrencyGel';
+export { IconCurrencyHkd } from './svg/IconCurrencyHkd';
 export { IconCurrencyIdr } from './svg/IconCurrencyIdr';
 export { IconCurrencyInr } from './svg/IconCurrencyInr';
 export { IconCurrencyIqd } from './svg/IconCurrencyIqd';
