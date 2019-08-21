@@ -12,6 +12,8 @@ import { IconCurrencyCrc } from '../svg/IconCurrencyCrc';
 import { IconCurrencyCny } from '../svg/IconCurrencyCny';
 import { IconCurrencyEth } from '../svg/IconCurrencyEth';
 import { IconCurrencyEur } from '../svg/IconCurrencyEur';
+import { IconCurrencyGel } from '../svg/IconCurrencyGel';
+import { IconCurrencyHkd } from '../svg/IconCurrencyHkd';
 import { IconCurrencyIdr } from '../svg/IconCurrencyIdr';
 import { IconCurrencyInr } from '../svg/IconCurrencyInr';
 import { IconCurrencyIqd } from '../svg/IconCurrencyIqd';
@@ -43,6 +45,8 @@ type CurrencyName =
   | 'CNY'
   | 'ETH'
   | 'EUR'
+  | 'GEL'
+  | 'HKD'
   | 'IDR'
   | 'IQD'
   | 'INR'
@@ -79,6 +83,8 @@ const currencyIcons = {
   CNY: IconCurrencyCny,
   ETH: IconCurrencyEth,
   EUR: IconCurrencyEur,
+  GEL: IconCurrencyGel,
+  HKD: IconCurrencyHkd,
   IDR: IconCurrencyIdr,
   INR: IconCurrencyInr,
   IQD: IconCurrencyIqd,
