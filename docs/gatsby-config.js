@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `design`,
-        path: `${__dirname}/../design/`,
+        path: `${__dirname}/../packages/`,
         ignore: [
           '**/\\.*',
           '**/private',
