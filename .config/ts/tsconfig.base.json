@@ -14,13 +14,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     // Alias our package names to the appropriate directory.
-    // e.g. "@heathmont/sportsbet-tokens" => "./design/tokens/src"
+    // e.g. "@heathmont/sportsbet-tokens" => "./packages/tokens/src"
     "paths": {
-      "@heathmont/sportsbet-*": [
-        "./design/*/src",
-        "./docs/src",
-        "./portals/*/src"
-      ]
+      "@heathmont/sportsbet-*": ["./packages/*/src", "./docs/src"]
     }
   }
 }

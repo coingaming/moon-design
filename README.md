@@ -19,7 +19,7 @@
 Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/sportsbet-` packages:
 
 1. [`docs/`](#docs) - style guide and documentation
-2. [`design/`](#design-system) - the Sportsbet.io design system
+2. [`packages/`](#design-system) - the Sportsbet.io design system
 
 Packages are developed inside their respective `src` folders, utilising [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the [TypeScript compiler](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#compiling-your-code) on build/publish.
 
@@ -31,15 +31,15 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 
 ### Design System
 
-`design/`
+`packages/`
 
-1. [**Assets**](design/assets/README.md) - common rich media brand assets.
-2. [**Tokens**](design/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
-3. [**Global**](design/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
-4. [**Utils**](design/utils/README.md) - suite of tools to quickly access common token values.
-5. [**Objects**](design/utils/README.md) - structural components without cosmetic features for common layouts.
-6. [**Icons**](design/components/README.mdx) - React components for each icon.
-7. [**Components**](design/components/README.md) - the individual building blocks of our UI.
+1. [**Assets**](packages/assets/README.md) - common rich media brand assets.
+2. [**Tokens**](packages/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
+3. [**Global**](packages/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
+4. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
+5. [**Objects**](packages/utils/README.md) - structural components without cosmetic features for common layouts.
+6. [**Icons**](packages/components/README.mdx) - React components for each icon.
+7. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
 
 ### Setup
 
@@ -77,7 +77,7 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 - `yarn docs:build` - generates a static production build of the style guide in `.docs/public`.
 - `yarn docs:serve` - serves files created by the build script at [localhost:9000](http://localhost:9000/).
 
-[Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`design/assets`](design/assets/README.md) before build.
+[Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`packages/assets`](packages/assets/README.md) before build.
 
 ## Contributing
 

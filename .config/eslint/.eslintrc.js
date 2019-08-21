@@ -17,7 +17,7 @@ module.exports = {
   overrides: [
     {
       /** Disable specific rules for SVGR config */
-      files: ['design/icons/src/config/*'],
+      files: ['packages/icons/src/config/*'],
       rules: {
         'no-unused-vars': 'off',
       },
