@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.81.0](https://github.com/coingaming/sportsbet-design/compare/v0.80.0...v0.81.0) (2019-08-22)
+
+**Note:** Version bump only for package @heathmont/sportsbet-objects
+
+
+
+
+
 # [0.80.0](https://github.com/coingaming/sportsbet-design/compare/v0.79.0...v0.80.0) (2019-08-21)
 
 
