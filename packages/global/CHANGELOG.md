@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.81.0](https://github.com/coingaming/sportsbet-design/compare/v0.80.0...v0.81.0) (2019-08-22)
+
+
+### Bug Fixes
+
+* **focus-visible:** switch to exact version ([26db29b](https://github.com/coingaming/sportsbet-design/commit/26db29b))
+
+
+### Features
+
+* **global:** enable focus-visible polyfil ([dc59e03](https://github.com/coingaming/sportsbet-design/commit/dc59e03))
+
+
+
+
+
 # [0.80.0](https://github.com/coingaming/sportsbet-design/compare/v0.79.0...v0.80.0) (2019-08-21)
 
 
