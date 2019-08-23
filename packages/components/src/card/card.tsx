@@ -15,6 +15,7 @@ type CardProps = {
   backgroundIcon?: CardBackgroundIcon | undefined;
   template: CardTemplates;
   flex?: boolean;
+  active?: boolean;
 };
 
 /**
@@ -26,7 +27,6 @@ const card: CSSObject = {
   ...padding(spacing(), spacing('medium')),
   position: 'relative',
   borderRadius: border.radius.default,
-  backgroundColor: colors.neutral[90],
 };
 
 const cardFlex: CSSObject = {
@@ -55,26 +55,32 @@ const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
         backgroundPosition: `center right ${spacing()}`,
       },
     ],
-    outline: cardOutline(colors.neutral[50]),
+    outline: [
+      { backgroundColor: colors.background },
+      cardOutline(colors.neutral[50]),
+    ],
   }[template]);
 
 /**
  * Component
  */
-const Card = styled.div<CardProps>(({ backgroundIcon, flex, template }) => [
-  card,
-  flex && cardFlex,
-  cardModifiers({
-    template: template || 'front',
-    backgroundIcon:
-      backgroundIcon &&
-      React.isValidElement(backgroundIcon) &&
-      /* @TODO Revisit post-EPL */
-      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-      React.cloneElement(backgroundIcon as React.ReactElement<any>, {
-        color: rgba(colors.neutral[10], 0.05),
-      }),
-  }),
-]);
+const Card = styled.div<CardProps>(
+  ({ active, backgroundIcon, flex, template }) => [
+    card,
+    active && cardOutline(colors.brand),
+    flex && cardFlex,
+    cardModifiers({
+      template: template || 'front',
+      backgroundIcon:
+        backgroundIcon &&
+        React.isValidElement(backgroundIcon) &&
+        /* @TODO Revisit post-EPL */
+        /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+        React.cloneElement(backgroundIcon as React.ReactElement<any>, {
+          color: rgba(colors.neutral[10], 0.05),
+        }),
+    }),
+  ]
+);
 
 export { Card, CardProps };

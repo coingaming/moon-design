@@ -20,7 +20,7 @@ Default template, using the `flex` layout modifier to balance space between item
 [Icons](../icons) can also be passed via `backgroundIcon` for extra cosmetic context.
 
 ```jsx react-live
-<Card flex backgroundIcon={<IconBitcoin />}>
+<Card flex backgroundIcon={<IconBitcoin />} css={{ maxWidth: 300 }}>
   <CardBalance
     from={{
       currency: 'Bitcoin',
@@ -45,8 +45,34 @@ Default template, using the `flex` layout modifier to balance space between item
 An 'empty' ghost outline of the card.
 
 ```jsx react-live
-<Card template="outline">
+<Card template="outline" css={{ maxWidth: 300 }}>
   <button>+ Add Wallet</button>
+</Card>
+```
+
+## States
+
+### Active
+
+```jsx react-live
+<Card active flex backgroundIcon={<IconBitcoin />} css={{ maxWidth: 300 }}>
+  <CardBalance
+    badge={<Badge>Active</Badge>}
+    from={{
+      currency: 'Bitcoin',
+      value: '1526.56',
+      unit: 'mBTC',
+      unitTitle: 'Millibitcoin',
+    }}
+  />
+  <div>
+    <Link optional style={{ marginRight: spacing() }}>
+      Deposit
+    </Link>
+    <Link optional disabled>
+      Withdraw
+    </Link>
+  </div>
 </Card>
 ```
 
@@ -73,7 +99,7 @@ Displays the original and converted wallet balance.
 
 #### Badge
 
-An additional badge can be passed via the `badgeCaption` prop.
+An additional badge can be passed in via the `badge` prop.
 
 ```jsx react-live
 <CardBalance
