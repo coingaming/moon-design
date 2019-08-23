@@ -13,7 +13,8 @@
     "docs": "lerna run --scope docs --stream",
     "postinstall": "yarn build",
     "update:packages": "yarn lernaupdate",
-    "publish:packages": "lerna publish --yes"
+    "publish:packages": "lerna publish --yes",
+    "publish:packages@beta": "lerna publish --canary --preid beta --no-push --dist-tag beta --force-publish"
   },
   "workspaces": [
     "docs",
