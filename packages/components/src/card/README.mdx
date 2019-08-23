@@ -4,7 +4,7 @@ menu: Components
 route: /components/card
 ---
 
-import { Card, CardBalance, CardToggle } from '@heathmont/sportsbet-components';
+import { Card, CardBalance } from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Card
@@ -20,8 +20,7 @@ Default template, using the `flex` layout modifier to balance space between item
 [Icons](../icons) can also be passed via `backgroundIcon` for extra cosmetic context.
 
 ```jsx react-live
-<Card flex backgroundIcon={<IconBitcoin />}>
-  <CardToggle />
+<Card flex backgroundIcon={<IconBitcoin />} css={{ maxWidth: 300 }}>
   <CardBalance
     from={{
       currency: 'Bitcoin',
@@ -31,35 +30,13 @@ Default template, using the `flex` layout modifier to balance space between item
     }}
   />
   <div>
-    <Link style={{ marginRight: spacing() }}>Deposit</Link>
-    <Link disabled>Withdraw</Link>
+    <Link optional style={{ marginRight: spacing() }}>
+      Deposit
+    </Link>
+    <Link optional disabled>
+      Withdraw
+    </Link>
   </div>
-</Card>
-```
-
-### Back
-
-The other 'flipped' side of the card.
-
-```jsx react-live
-<Card template="back">
-  <CardToggle back />
-  <Form legend="Convert currency" maxWidth="18rem">
-    <FormItem>
-      <Select label="Converted currency" flex>
-        <option value="euro">Euro</option>
-        <option value="gbp">GBP</option>
-        <option value="usd">USD</option>
-      </Select>
-    </FormItem>
-    <FormItem>
-      <Select label="Balance in" flex>
-        <option value="euro">mBTC</option>
-        <option value="gbp">Doge</option>
-        <option value="usd">Ethereum</option>
-      </Select>
-    </FormItem>
-  </Form>
 </Card>
 ```
 
@@ -68,20 +45,19 @@ The other 'flipped' side of the card.
 An 'empty' ghost outline of the card.
 
 ```jsx react-live
-<Card template="outline">
+<Card template="outline" css={{ maxWidth: 300 }}>
   <button>+ Add Wallet</button>
 </Card>
 ```
 
-### Badge
+## States
 
-Set a `badgeCaption` prop
+### Active
 
 ```jsx react-live
-<Card flex backgroundIcon={<IconBitcoin />}>
-  <CardToggle />
+<Card active flex backgroundIcon={<IconBitcoin />} css={{ maxWidth: 300 }}>
   <CardBalance
-    badgeCaption="Active"
+    badge={<Badge>Active</Badge>}
     from={{
       currency: 'Bitcoin',
       value: '1526.56',
@@ -90,8 +66,12 @@ Set a `badgeCaption` prop
     }}
   />
   <div>
-    <Link style={{ marginRight: spacing() }}>Deposit</Link>
-    <Link disabled>Withdraw</Link>
+    <Link optional style={{ marginRight: spacing() }}>
+      Deposit
+    </Link>
+    <Link optional disabled>
+      Withdraw
+    </Link>
   </div>
 </Card>
 ```
@@ -117,14 +97,20 @@ Displays the original and converted wallet balance.
 />
 ```
 
-<PropsTable of={CardBalance} />
+#### Badge
 
-### Toggle
-
-An extension of `Toggle` that can be used to offer users with the option to toggle between 'settings' and to go `back` to the front of the Card.
+An additional badge can be passed in via the `badge` prop.
 
 ```jsx react-live
-<CardToggle />
+<CardBalance
+  badge={<Badge>Active</Badge>}
+  from={{
+    currency: 'Bitcoin',
+    value: '1526.56',
+    unit: 'mBTC',
+    unitTitle: 'Millibitcoin',
+  }}
+/>
 ```
 
-<PropsTable of={CardToggle} />
+<PropsTable of={CardBalance} />
