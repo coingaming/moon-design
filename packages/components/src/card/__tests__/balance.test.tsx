@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
+import { Badge } from '../../badge';
+
 import { CardBalance } from '..';
 
 describe('CardBalance', () => {
@@ -33,10 +35,10 @@ describe('CardBalance', () => {
     expect(balance).toMatchSnapshot();
   });
 
-  test('renders correctly with badge caption', () => {
+  test('renders correctly with a badge', () => {
     const balance = create(
       <CardBalance
-        badgeCaption="Active"
+        badge={<Badge>Active</Badge>}
         from={{
           currency: 'Bitcoin',
           value: '1526.56',

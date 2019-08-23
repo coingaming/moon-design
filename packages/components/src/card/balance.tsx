@@ -6,7 +6,7 @@ import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
-import { Badge } from '../badge';
+import { badgeElement } from '../badge';
 
 jsx;
 
@@ -19,7 +19,7 @@ type Balance = {
 
 type CardBalanceProps = {
   from: Balance;
-  badgeCaption?: string;
+  badge?: JSX.Element;
 };
 
 /**
@@ -45,6 +45,9 @@ const Text = styled.p({
   color: colors.neutral[20],
   fontSize: rem(15),
   lineHeight: rem(20),
+  [`> ${badgeElement}`]: {
+    marginLeft: spacing('small'),
+  },
 });
 
 const alignText: CSSObject = {
@@ -55,14 +58,12 @@ const alignText: CSSObject = {
 /**
  * Component
  */
-const CardBalance: React.FC<CardBalanceProps> = ({ from, badgeCaption }) => {
+const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) => {
   return (
     <div>
       <Text css={alignText}>
         {from.currency}
-        {badgeCaption && (
-          <Badge css={{ marginLeft: spacing() }}>{badgeCaption}</Badge>
-        )}
+        {badge && badge}
       </Text>
 
       <Title>
