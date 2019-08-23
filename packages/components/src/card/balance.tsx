@@ -4,9 +4,8 @@ import styled from '@emotion/styled';
 import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { Stack } from '@heathmont/sportsbet-objects';
 import { spacing } from '@heathmont/sportsbet-utils';
-
-import { badgeElement } from '../badge';
 
 jsx;
 
@@ -45,9 +44,6 @@ const Text = styled.p({
   color: colors.neutral[20],
   fontSize: rem(15),
   lineHeight: rem(20),
-  [`> ${badgeElement}`]: {
-    marginLeft: spacing('small'),
-  },
 });
 
 const alignText: CSSObject = {
@@ -60,11 +56,10 @@ const alignText: CSSObject = {
  */
 const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) => {
   return (
-    <div>
-      <Text css={alignText}>
-        {from.currency}
-        {badge && badge}
-      </Text>
+    <Stack space={0}>
+      {badge && <p css={{ marginBottom: spacing() }}>{badge}</p>}
+
+      <Text css={alignText}>{from.currency}</Text>
 
       <Title>
         {`${from.value} `}
@@ -72,7 +67,7 @@ const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) => {
           {from.unit}
         </abbr>
       </Title>
-    </div>
+    </Stack>
   );
 };
 

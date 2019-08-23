@@ -10,7 +10,6 @@ exports[`Card Templates renders as front 1`] = `
   padding-left: 1.5rem;
   position: relative;
   border-radius: 8px;
-  background-color: #1A212A;
   background-color: #31373F;
 }
 
@@ -33,7 +32,6 @@ exports[`Card Templates renders as front with backgroundIcon 1`] = `
   padding-left: 1.5rem;
   position: relative;
   border-radius: 8px;
-  background-color: #1A212A;
   background-color: #31373F;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
@@ -61,7 +59,7 @@ exports[`Card Templates renders as outline 1`] = `
   padding-left: 1.5rem;
   position: relative;
   border-radius: 8px;
-  background-color: #1A212A;
+  background-color: #1F262F;
   border-style: solid;
   border-width: 1px;
   border-color: #353C44;
@@ -86,7 +84,6 @@ exports[`Card renders with flex layout 1`] = `
   padding-left: 1.5rem;
   position: relative;
   border-radius: 8px;
-  background-color: #1A212A;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
