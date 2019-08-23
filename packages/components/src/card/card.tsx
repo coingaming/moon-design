@@ -29,7 +29,6 @@ const card: CSSObject = {
   backgroundColor: colors.neutral[90],
 };
 
-/* Modifiers */
 const cardFlex: CSSObject = {
   display: 'flex',
   flexDirection: 'column',
@@ -38,11 +37,11 @@ const cardFlex: CSSObject = {
   alignItems: 'alignContent',
 };
 
-const cardOutline: CSSObject = {
+const cardOutline = (color: string) => ({
   borderStyle: border.style,
   borderWidth: border.width,
-  borderColor: colors.neutral[50],
-};
+  borderColor: color,
+});
 
 const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
   ({
@@ -56,7 +55,7 @@ const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
         backgroundPosition: `center right ${spacing()}`,
       },
     ],
-    outline: cardOutline,
+    outline: cardOutline(colors.neutral[50]),
   }[template]);
 
 /**
