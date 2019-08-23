@@ -68,7 +68,8 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
   - Additional [Jest options](https://jestjs.io/docs/en/cli) can be appended to the command.
 - `yarn clean` - removes all generated `lib` folders.
 - `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
-- `yarn publish` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
+- `yarn publish:packages` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
+  - Additional `@beta` suffix creates a tagged release for testing purposes.
 - `yarn update:packages` - a wizard to update Lerna package dependencies.
 
 ### Docs
