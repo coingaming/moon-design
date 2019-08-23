@@ -9,7 +9,7 @@ import { inlineSVG, InlineSVGProps, spacing } from '@heathmont/sportsbet-utils';
 
 import { cardGradientSizes } from './utils';
 
-type CardTemplates = 'front' | 'back' | 'outline';
+type CardTemplates = 'front' | 'outline';
 type CardBackgroundIcon = InlineSVGProps | false | undefined;
 type CardProps = {
   backgroundIcon?: CardBackgroundIcon | undefined;
@@ -38,32 +38,11 @@ const cardFlex: CSSObject = {
   alignItems: 'alignContent',
 };
 
-/*
-const cardBackground: (
-  withIcon: CardBackgroundIcon
-) => CSSObject = withIcon => ({
-  backgroundRepeat: 'no-repeat',
-  backgroundBlendMode: 'luminosity',
-  backgroundImage: !withIcon
-    ? `${cardGradients}`
-    : `${inlineSVG(withIcon)}, ${cardGradients}`,
-  backgroundSize: !withIcon
-    ? `${cardGradientSizes}`
-    : `auto 75%, ${cardGradientSizes}`,
-  backgroundPosition: withIcon
-    ? `${cardGradientPositions}`
-    : `center right ${spacing()}, ${cardGradientPositions}`,
-});
-*/
-
 const cardOutline: CSSObject = {
   borderStyle: border.style,
   borderWidth: border.width,
   borderColor: colors.neutral[50],
 };
-
-const cardBack: CSSObject = { backgroundColor: colors.neutral[70] };
-const cardShadow: CSSObject = { boxShadow: 'rgba(0, 0, 0, 0.25) 4px 4px 12px' };
 
 const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
   ({
@@ -76,9 +55,7 @@ const cardModifiers = ({ template, backgroundIcon }: CardProps) =>
         backgroundSize: `auto 50%, ${cardGradientSizes}`,
         backgroundPosition: `center right ${spacing()}`,
       },
-      cardShadow,
     ],
-    back: [cardBack, cardShadow],
     outline: cardOutline,
   }[template]);
 
