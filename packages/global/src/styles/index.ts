@@ -14,6 +14,3 @@ export const styles = [
   /* Elements */
   page,
 ];
-
-/* Enable the polyfil for any consumers */
-export { default as polyfil } from './polyfil';
