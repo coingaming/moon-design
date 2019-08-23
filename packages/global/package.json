@@ -12,6 +12,8 @@
     "@heathmont/sportsbet-tokens": "^0.81.0",
     "@heathmont/sportsbet-utils": "^0.81.0",
     "focus-visible": "5.0.2",
-    "polished": "3.4.1"
+    "polished": "3.4.1",
+    "react": "16.8.1",
+    "react-dom": "16.8.1"
   }
 }
