@@ -4,7 +4,7 @@ menu: Components
 route: /components/card
 ---
 
-import { Card, CardBalance, CardToggle } from '@heathmont/sportsbet-components';
+import { Card, CardBalance } from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Card
@@ -21,7 +21,6 @@ Default template, using the `flex` layout modifier to balance space between item
 
 ```jsx react-live
 <Card flex backgroundIcon={<IconBitcoin />}>
-  <CardToggle />
   <CardBalance
     from={{
       currency: 'Bitcoin',
@@ -53,7 +52,6 @@ Set a `badgeCaption` prop
 
 ```jsx react-live
 <Card flex backgroundIcon={<IconBitcoin />}>
-  <CardToggle />
   <CardBalance
     badgeCaption="Active"
     from={{
@@ -92,13 +90,3 @@ Displays the original and converted wallet balance.
 ```
 
 <PropsTable of={CardBalance} />
-
-### Toggle
-
-An extension of `Toggle` that can be used to offer users with the option to toggle between 'settings' and to go `back` to the front of the Card.
-
-```jsx react-live
-<CardToggle />
-```
-
-<PropsTable of={CardToggle} />
