@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { Global, CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from '@emotion/styled';
 import padding from 'polished/lib/shorthands/padding';
-import { styles } from '@heathmont/sportsbet-global';
+import { Global } from '@heathmont/sportsbet-global';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 
@@ -40,7 +39,7 @@ const Main = styled.main({
 
 export default ({ children }: Children) => (
   <React.Fragment>
-    <Global styles={styles} />
+    <Global />
     <Meta />
     <div css={grid}>
       <Nav />
