@@ -10,9 +10,7 @@ type BadgeProps = {
   modifier?: BadgeModifiers;
 };
 
-const badgeElement = 'span';
-
-const Badge = styled(badgeElement)<BadgeProps>(
+const Badge = styled.span<BadgeProps>(
   ({ color = colors.text, backgroundColor = colors.brand, modifier }) => ({
     color,
     backgroundColor,
@@ -28,4 +26,4 @@ const Badge = styled(badgeElement)<BadgeProps>(
   })
 );
 
-export { Badge, BadgeProps, badgeElement };
+export { Badge, BadgeProps };
