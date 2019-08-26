@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.83.0](https://github.com/coingaming/sportsbet-design/compare/v0.82.0...v0.83.0) (2019-08-26)
+
+
+### Features
+
+* align badge positioning ([99766af](https://github.com/coingaming/sportsbet-design/commit/99766af))
+
+
+
+
+
 # [0.82.0](https://github.com/coingaming/sportsbet-design/compare/v0.81.0...v0.82.0) (2019-08-23)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
