@@ -67,6 +67,7 @@ exports[`Badge renders correctly with color 1`] = `
 
 <span
   className="emotion-0"
+  color="red"
 >
   Red banner
 </span>
