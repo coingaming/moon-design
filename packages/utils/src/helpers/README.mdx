@@ -1,0 +1,59 @@
+---
+name: Helpers
+menu: Utils
+route: /utils/helpers
+---
+
+import { Playground } from 'docs';
+import { em } from './em';
+import { rem } from './rem';
+
+# Helpers
+
+## Spacing
+
+```js
+import { spacing } from '@heathmont/sportsbet-utils';
+```
+
+Returns a given [spacing token "key"](/tokens#spacing) value as a `rem` spacing unit.
+
+Using `spacing()` is encouraged over using the tokens directly and can be reset
+as `spacing(0)`.
+
+```jsx react-live
+<div css={{padding: spacing(), border: '1px solid white'}}>Default</div>
+<div css={{padding: spacing('small'), border: '1px solid white'}}>Small</div>
+<div css={{padding: spacing('large'), border: '1px solid white'}}>Large</div>
+```
+
+## EM
+
+```js
+import { em } from '@heathmont/sportsbet-utils';
+```
+
+An extension of [polished's `em` function](https://polished.js.org/docs/#em),
+returning a given string or number value as a `em` unit.
+
+For example `em(16)` or `rem('16px')` will return the following:
+
+<Playground>
+  <p>{em(16)}</p>
+</Playground>
+
+## REM
+
+```js
+import { rem } from '@heathmont/sportsbet-utils';
+```
+
+An extension of [polished's `rem` function](https://polished.js.org/docs/#rem),
+returning a given string or number value as a `rem` unit based on our
+[`base.fontSize` token](/tokens#base).
+
+For example `rem(14)` or `rem('14px')` will return the following:
+
+<Playground>
+  <p>{rem(14)}</p>
+</Playground>
