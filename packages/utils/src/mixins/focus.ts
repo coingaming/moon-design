@@ -1,6 +1,7 @@
 import { CSSObject } from '@emotion/core';
-import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
+
+import { rem } from '../helpers/rem';
 
 export const focusReset: CSSObject = {
   '&:focus': {

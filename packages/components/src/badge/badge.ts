@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
+import { rem } from '@heathmont/sportsbet-utils';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 
 import { badgeModifiers, BadgeModifiers } from './modifiers';

@@ -1,6 +1,5 @@
 import { CSSObject } from '@emotion/core';
-import rem from 'polished/lib/helpers/rem';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rem, spacing } from '@heathmont/sportsbet-utils';
 
 type ButtonSizes = 'xsmall' | 'small' | 'medium' | 'large';
 
