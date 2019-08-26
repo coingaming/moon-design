@@ -1,8 +1,7 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { inlineSVG, spacing } from '@heathmont/sportsbet-utils';
+import { inlineSVG, rem, spacing } from '@heathmont/sportsbet-utils';
 import { IconWarning } from '@heathmont/sportsbet-icons/lib/svg/IconWarning';
 import { IconCircle } from '@heathmont/sportsbet-icons/lib/svg/IconCircle';
 

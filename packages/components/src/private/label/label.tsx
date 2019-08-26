@@ -2,9 +2,8 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
-import { mq, spacing } from '@heathmont/sportsbet-utils';
+import { mq, rem, spacing } from '@heathmont/sportsbet-utils';
 
 import { inputColors } from '../input/settings';
 

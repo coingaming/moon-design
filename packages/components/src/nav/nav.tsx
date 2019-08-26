@@ -4,10 +4,9 @@ import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import math from 'polished/lib/math/math';
-import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { listInline, listInlineItem } from '@heathmont/sportsbet-objects';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rem, spacing } from '@heathmont/sportsbet-utils';
 
 import { underlineOffset, underlineWidth } from './settings';
 
