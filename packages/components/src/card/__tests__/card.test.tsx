@@ -37,16 +37,6 @@ describe('Card', () => {
       expect(card).toMatchSnapshot();
     });
 
-    test('renders as back', () => {
-      const card = create(
-        <Card template="back">
-          <p>Some content</p>
-        </Card>
-      );
-
-      expect(card).toMatchSnapshot();
-    });
-
     test('renders as outline', () => {
       const card = create(
         <Card template="outline">
