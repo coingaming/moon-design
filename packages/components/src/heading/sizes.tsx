@@ -1,6 +1,6 @@
-import rem from 'polished/lib/helpers/rem';
 import { CSSObject } from '@emotion/core';
 import { typography } from '@heathmont/sportsbet-tokens';
+import { rem } from '@heathmont/sportsbet-utils';
 
 type HeadingSizes = 'alpha' | 'bravo' | 'charlie' | 'delta' | 'echo';
 

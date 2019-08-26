@@ -13,7 +13,6 @@
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.9",
     "@heathmont/sportsbet-tokens": "^0.83.0",
-    "@heathmont/sportsbet-utils": "^0.83.0",
-    "polished": "3.4.1"
+    "@heathmont/sportsbet-utils": "^0.83.0"
   }
 }
