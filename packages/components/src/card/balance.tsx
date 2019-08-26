@@ -4,9 +4,8 @@ import styled from '@emotion/styled';
 import { jsx, CSSObject } from '@emotion/core';
 import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { Stack } from '@heathmont/sportsbet-objects';
 import { spacing } from '@heathmont/sportsbet-utils';
-
-import { Badge } from '../badge';
 
 jsx;
 
@@ -19,7 +18,7 @@ type Balance = {
 
 type CardBalanceProps = {
   from: Balance;
-  badgeCaption?: string;
+  badge?: JSX.Element;
 };
 
 /**
@@ -55,15 +54,12 @@ const alignText: CSSObject = {
 /**
  * Component
  */
-const CardBalance: React.FC<CardBalanceProps> = ({ from, badgeCaption }) => {
+const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) => {
   return (
-    <div>
-      <Text css={alignText}>
-        {from.currency}
-        {badgeCaption && (
-          <Badge css={{ marginLeft: spacing() }}>{badgeCaption}</Badge>
-        )}
-      </Text>
+    <Stack space={0}>
+      {badge && <p css={{ marginBottom: spacing() }}>{badge}</p>}
+
+      <Text css={alignText}>{from.currency}</Text>
 
       <Title>
         {`${from.value} `}
@@ -71,7 +67,7 @@ const CardBalance: React.FC<CardBalanceProps> = ({ from, badgeCaption }) => {
           {from.unit}
         </abbr>
       </Title>
-    </div>
+    </Stack>
   );
 };
 
