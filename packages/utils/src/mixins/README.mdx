@@ -4,6 +4,9 @@ menu: Utils
 route: /utils/mixins
 ---
 
+import { Playground } from 'docs';
+import { mq } from './mq';
+
 # Mixins
 
 ## Breakout
@@ -23,6 +26,36 @@ Quickly jump out of any parent's constraining `maxWidth` by applying the `breako
 </div>
 ```
 
+## Container
+
+```js
+import { container } from '@heathmont/sportsbet-utils';
+```
+
+Returns a given [container "key"](/tokens#container) value as a `rem`-based `max-width` unit with horizontal spacing.
+
+`container()` will also accept any pixel value (as a `number`) and convert to `rem`.
+
+```jsx react-live
+<div css={{...container(), border: '1px solid white'}}>"default" Container</div>
+<div css={{...container('large'), border: '1px solid white'}}>"large" Container</div>
+<div css={{...container(300), border: '1px solid white'}}>300px Container (in REM)</div>
+```
+
+### Padding
+
+By default, containers render padding on the `x` axis with the `default` spacing
+token.
+
+This padding can be altered in the second argument, either as a `spacing` token
+key or a pixel value (as a `number`) which will be convert to `rem`
+
+```jsx react-live
+<div css={{...container('default', 'large'), border: '1px solid white'}}>"default" Container and "large" padding</div>
+<div css={{...container('default', 50), border: '1px solid white'}}>"default" Container and 50px padding (in REM)</div>
+<div css={{...container('default', 0), border: '1px solid white'}}>"default" Container with no padding</div>
+```
+
 ## Disabled
 
 ```js
@@ -40,6 +73,10 @@ Apply common disabled styles to UI elements such as buttons and forms.
 
 ## Focus
 
+```js
+import { focus } from '@heathmont/sportsbet-utils';
+```
+
 Override browser-default `:focus` styles to the preferred appearance.
 
 By default `focus()` this renders with the `brand` color, but an alternative color can be supplied.
@@ -55,4 +92,46 @@ alternative `:focus` styles.
 
 ```jsx react-live
 <button css={{ ...focusReset }}>No focus styles</button>
+```
+
+## MQ
+
+Returns a given pixel-based value (number) as an **upwards** direction media query in 'em'.
+
+```js
+import { mq } from '@heathmont/sportsbet-utils';
+```
+
+### Example
+
+`mq(500)` will return the following:
+
+<Playground>
+  <p>{mq(500)}</p>
+</Playground>
+
+Passing the additional `mq(500, 'max-width')` parameter will return a breakpoint in the opposite direction.
+
+<Playground>
+  <p>{mq(500, 'max-width')}</p>
+</Playground>
+
+### Usage
+
+With our breakpoint tokens, we can start to build-up our responsive styles:
+
+```jsx
+import styled from '@emotion/styled';
+import { breakpoints } from '@heathmont/sportsbet-tokens';
+import { mq } from '@heathmont/sportsbet-utils';
+
+/* Changes border from `red` to `blue` from 'small' breakpoint upwards */
+
+const Box = styled('div')`
+  border: 1px solid red;
+
+  ${mq(breakpoints.small)} {
+    border-color: blue;
+  }
+`;
 ```
