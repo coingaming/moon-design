@@ -2,10 +2,9 @@
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { jsx, CSSObject } from '@emotion/core';
-import rem from 'polished/lib/helpers/rem';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Stack } from '@heathmont/sportsbet-objects';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { spacing, rem } from '@heathmont/sportsbet-utils';
 
 jsx;
 

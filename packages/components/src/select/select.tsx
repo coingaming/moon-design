@@ -2,9 +2,8 @@
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
 import { breakpoints, border } from '@heathmont/sportsbet-tokens';
-import { inlineSVG, mq, spacing } from '@heathmont/sportsbet-utils';
+import { inlineSVG, mq, rem, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown } from '@heathmont/sportsbet-icons';
 
 import { Input, inputColors, inputSpacing } from '../private/input';
