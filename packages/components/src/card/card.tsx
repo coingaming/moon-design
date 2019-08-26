@@ -1,11 +1,15 @@
 import * as React from 'react';
 import { CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
-import rem from 'polished/lib/helpers/rem';
 import rgba from 'polished/lib/color/rgba';
 import padding from 'polished/lib/shorthands/padding';
 import { border, colors } from '@heathmont/sportsbet-tokens';
-import { inlineSVG, InlineSVGProps, spacing } from '@heathmont/sportsbet-utils';
+import {
+  inlineSVG,
+  InlineSVGProps,
+  rem,
+  spacing,
+} from '@heathmont/sportsbet-utils';
 
 import { cardGradientSizes } from './utils';
 

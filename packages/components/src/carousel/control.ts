@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import rem from 'polished/lib/helpers/rem';
 import { border, colors, opacity, zIndex } from '@heathmont/sportsbet-tokens';
-import { focus } from '@heathmont/sportsbet-utils';
+import { focus, rem } from '@heathmont/sportsbet-utils';
 
 import { CarouselInlineStyleProps } from './types';
 
