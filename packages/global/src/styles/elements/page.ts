@@ -1,6 +1,6 @@
 import { CSSObject } from '@emotion/core';
-import rem from 'polished/lib/helpers/rem';
 import { base, colors, typography } from '@heathmont/sportsbet-tokens';
+import { rem } from '@heathmont/sportsbet-utils';
 
 /**
  * 1. Prevent automatic zooming of fonts on some mobile devices.

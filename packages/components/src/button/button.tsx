@@ -3,9 +3,8 @@ import * as React from 'react';
 import { CSSObject, jsx, keyframes } from '@emotion/core';
 import styled from '@emotion/styled';
 import isPropValid from '@emotion/is-prop-valid';
-import rem from 'polished/lib/helpers/rem';
 import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
-import { spacing, disabled } from '@heathmont/sportsbet-utils';
+import { disabled, spacing, rem } from '@heathmont/sportsbet-utils';
 import { IconSuccess } from '@heathmont/sportsbet-icons/lib/svg/IconSuccess';
 import { IconWarning } from '@heathmont/sportsbet-icons/lib/svg/IconWarning';
 
