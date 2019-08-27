@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.84.0](https://github.com/coingaming/sportsbet-design/compare/v0.83.0...v0.84.0) (2019-08-27)
+
+
+### Features
+
+* remove polished `rem` references ([1ea8e6d](https://github.com/coingaming/sportsbet-design/commit/1ea8e6d))
+* **utils:** refactor utils structure, introduce `em` and `rem` ([7e64d82](https://github.com/coingaming/sportsbet-design/commit/7e64d82))
+
+
+
+
+
 # [0.83.0](https://github.com/coingaming/sportsbet-design/compare/v0.82.0...v0.83.0) (2019-08-26)
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
