@@ -3,9 +3,8 @@ import * as React from 'react';
 import { jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import rem from 'polished/lib/helpers/rem';
 import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rem, spacing } from '@heathmont/sportsbet-utils';
 import { border } from '@heathmont/sportsbet-tokens';
 
 import { inputIconPosition } from '../private/input/settings';
