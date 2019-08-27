@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
-import rem from 'polished/lib/helpers/rem';
+import { rem } from '@heathmont/sportsbet-utils';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
 
 jsx;

@@ -1,4 +1,4 @@
-import em from 'polished/lib/helpers/em';
+import { em } from '../helpers/em';
 
 export const mq = (
   bp: number,

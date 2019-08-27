@@ -1,6 +1,5 @@
-import rem from 'polished/lib/helpers/rem';
+import { rem } from './rem';
 import {
-  base,
   Spacing as SpacingTokens,
   spacing as spacingTokens,
 } from '@heathmont/sportsbet-tokens';
@@ -15,7 +14,7 @@ const spacing = (size: SpacingSize = 'default', unit?: SpacingUnit) => {
 
   return unit === 'px'
     ? `${spacingTokens[size]}px`
-    : rem(spacingTokens[size], base.spacing) || 0;
+    : rem(spacingTokens[size]) || 0;
 };
 
 export { spacing };
