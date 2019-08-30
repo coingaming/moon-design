@@ -70,6 +70,7 @@ export { IconLogoPlain } from './svg/IconLogoPlain';
 export { IconLoyalty0 } from './svg/IconLoyalty0';
 export { IconMenuHome } from './svg/IconMenuHome';
 export { IconNotification } from './svg/IconNotification';
+export { IconNotificationUnread } from './svg/IconNotificationUnread';
 export { IconPlay } from './svg/IconPlay';
 export { IconPriceBoost } from './svg/IconPriceBoost';
 export { IconProfile } from './svg/IconProfile';
