@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.86.0](https://github.com/coingaming/sportsbet-design/compare/v0.85.0...v0.86.0) (2019-09-10)
+
+
+### Features
+
+* **components:** add LogoSportsbet component ([0be246c](https://github.com/coingaming/sportsbet-design/commit/0be246c))
+
+
+
+
+
 # [0.85.0](https://github.com/coingaming/sportsbet-design/compare/v0.84.0...v0.85.0) (2019-08-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
