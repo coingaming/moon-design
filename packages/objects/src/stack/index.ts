@@ -1,3 +1,4 @@
+import isPropValid from '@emotion/is-prop-valid';
 import styled from '@emotion/styled';
 import { spacing } from '@heathmont/sportsbet-utils';
 
@@ -5,23 +6,22 @@ const disableSSRWarning = (selector: string) =>
   `${selector} /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */`;
 
 type StackSpace = string | number;
+type StackDirection = 'vertical' | 'horizontal';
 
 export type StackProps = {
   space?: StackSpace;
+  direction?: StackDirection;
 };
 
-export const stack = (space: StackSpace) => ({
-  /**
-   * If a browser supports the `grid-gap` property, let's use it.
-   * Otherwise, fallback to the lobotomised owl selector to style children.
-   */
-  '@supports (grid-gap: 0)': {
-    display: 'grid',
-    gridGap: space,
-  },
-  '@supports not (grid-gap: 0)': {
+export const stack = (
+  space: StackSpace,
+  direction: StackDirection = 'vertical'
+) => {
+  const margin = direction === 'vertical' ? 'marginTop' : 'marginLeft';
+
+  const margins = {
     '& > * + *': {
-      marginTop: space,
+      [margin]: space,
     },
     /**
      * With Emotion's 'out of the box' SSR set-up, <style/> tags are injected
@@ -37,11 +37,29 @@ export const stack = (space: StackSpace) => ({
      * https://github.com/emotion-js/emotion/issues/1178
      */
     [disableSSRWarning('& > style:first-child + *')]: {
-      marginTop: 0,
+      [margin]: 0,
     },
-  },
-});
+  };
 
-export const Stack = styled.div<StackProps>(({ space = spacing('default') }) =>
-  stack(space)
+  return direction === 'vertical'
+    ? {
+        /**
+         * If a browser supports the `grid-gap` property, let's use it.
+         * Otherwise, fallback to the lobotomised owl selector to style children.
+         */
+        '@supports (grid-gap: 0)': {
+          display: 'grid',
+          gridGap: space,
+        },
+        '@supports not (grid-gap: 0)': {
+          ...margins,
+        },
+      }
+    : margins;
+};
+
+export const Stack = styled('div', {
+  shouldForwardProp: prop => prop !== 'direction' && isPropValid(prop),
+})<StackProps>(({ space = spacing('default'), direction = 'vertical' }) =>
+  stack(space, direction)
 );
