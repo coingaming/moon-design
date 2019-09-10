@@ -11,6 +11,7 @@ export * from './heading';
 export * from './keyline';
 export * from './link';
 export * from './loader';
+export * from './logo';
 export * from './nav';
 export * from './select';
 export * from './switch';
