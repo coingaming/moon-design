@@ -108,3 +108,16 @@ or for other spacing needs.
   <p>Further immediate children to the initial Stack will inherit spacing.</p>
 </Stack>
 ```
+
+## Horizontal
+
+By default, margins are set on the `vertical` axis but this can switched to
+`horizontal` for specific use-cases (such as spacing in [`flex`-based](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) design).
+
+```jsx react-live
+<Stack direction="horizontal" css={{ display: 'flex', minHeight: '2rem' }}>
+  <div css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }} />
+  <div css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }} />
+  <div css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }} />
+</Stack>
+```
