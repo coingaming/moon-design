@@ -7,7 +7,6 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "10.0.10",
-    "react": "16.8.1"
+    "@emotion/core": "10.0.10"
   }
 }
