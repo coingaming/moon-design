@@ -68,7 +68,7 @@ exports[`Form renders a form combo 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -215,7 +215,7 @@ exports[`Form renders a form combo without a label 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
