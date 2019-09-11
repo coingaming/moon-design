@@ -133,7 +133,7 @@ exports[`Link renders as a optional 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0.active {
-  color: #fff;
+  color: #FFF;
 }
 
 <a

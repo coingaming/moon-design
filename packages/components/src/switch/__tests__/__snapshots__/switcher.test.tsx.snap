@@ -22,7 +22,7 @@ exports[`Switch renders as checked 1`] = `
 }
 
 .emotion-0:checked + .slider:before {
-  background-color: #fff;
+  background-color: #FFF;
   -webkit-transform: translateX(32px);
   -ms-transform: translateX(32px);
   transform: translateX(32px);
@@ -92,7 +92,7 @@ exports[`Switch renders by default 1`] = `
 }
 
 .emotion-0:checked + .slider:before {
-  background-color: #fff;
+  background-color: #FFF;
   -webkit-transform: translateX(32px);
   -ms-transform: translateX(32px);
   transform: translateX(32px);
