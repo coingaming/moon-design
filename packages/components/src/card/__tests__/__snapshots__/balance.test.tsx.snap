@@ -125,7 +125,7 @@ exports[`CardBalance renders correctly with a badge 1`] = `
 }
 
 .emotion-0 {
-  color: #fff;
+  color: #FFF;
   background-color: #0CD664;
   padding: 0.125rem 0.4375rem;
   text-align: center;

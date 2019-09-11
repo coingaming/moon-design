@@ -1,18 +1,17 @@
-import { palette, BaseColor } from './palette';
+import { palette, Palette } from './palette';
+import { Color, NeutralColors } from './types';
 
 const { bulma, gohan, goku, hit, piccolo, trunks, chichi, krillin } = palette;
 
 const colors: {
-  background: string;
-  border: string;
-  brand: string;
-  error: string;
-  neutral: BaseColor;
-  /* @TODO Revisit post-EPL */
-  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  palette: any;
-  text: string;
-  warning: string;
+  background: Color;
+  border: Color;
+  brand: Color;
+  error: Color;
+  neutral: NeutralColors;
+  palette: Palette;
+  text: Color;
+  warning: Color;
 } = {
   background: goku[100],
   brand: piccolo[100],
@@ -20,7 +19,7 @@ const colors: {
   error: chichi[100],
   palette,
   neutral: {
-    // TODO will be refactored
+    // @TODO will be refactored
     10: bulma[100],
     20: trunks[100],
     30: goku[80],
