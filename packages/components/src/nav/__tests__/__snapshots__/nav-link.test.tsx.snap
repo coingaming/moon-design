@@ -41,7 +41,7 @@ exports[`Nav - NavLink renders as a button 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0[aria-current=page] {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ exports[`Nav - NavLink renders as a component 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0[aria-current=page] {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -165,7 +165,7 @@ exports[`Nav - NavLink renders as active as a button 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0[aria-current=page] {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -228,7 +228,7 @@ exports[`Nav - NavLink renders as active as a component 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0[aria-current=page] {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -291,7 +291,7 @@ exports[`Nav - NavLink renders as active as an anchor 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0[aria-current=page] {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -353,7 +353,7 @@ exports[`Nav - NavLink renders as an anchor by default 1`] = `
 .emotion-0:focus,
 .emotion-0:active,
 .emotion-0[aria-current=page] {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
 }
 
