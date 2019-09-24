@@ -19,7 +19,7 @@
 
 ### Designing
 
-Icons are designed in the [`.sketch` file](packages/icons/src/raw/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/icons/src/raw/svg) directory.
+Icons are designed in the [`.sketch` file](packages/icons/raw/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/icons/raw/svg) directory.
 
 Each icon **must**:
 
@@ -34,13 +34,13 @@ Each icon **must**:
   1. the export format defined as "SVG".
 - have its color fill set to `#DE1E7E` (remember "DELETE") if you want the color to be modified.
 
-Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/icons/src/raw/svg) directory as the output location.
+Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/icons/raw/svg) directory as the output location.
 
 ### Building
 
 For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
 
-We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/icons/src/raw/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/icons/raw/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
 
 To update/add icons run: `yarn icons build`
 
