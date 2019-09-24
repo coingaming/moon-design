@@ -7,8 +7,8 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build:background-icons": "npx @svgr/cli --ext tsx --config-file src/config/svgr-backgrounds.js -d src/backgrounds src/raw/backgrounds",
-    "build:icons": "npx @svgr/cli --ext tsx --config-file src/config/svgr.js -d src/svg src/raw/svg",
+    "build:background-icons": "npx @svgr/cli --ext tsx --config-file src/config/svgr-backgrounds.js -d src/backgrounds raw/backgrounds",
+    "build:icons": "npx @svgr/cli --ext tsx --config-file src/config/svgr.js -d src/svg raw/svg",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
     "build": "yarn build:icons && yarn build:background-icons && yarn lint",
     "test": "jest"
