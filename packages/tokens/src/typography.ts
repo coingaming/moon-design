@@ -1,4 +1,4 @@
-import { avertaStd } from '@heathmont/sportsbet-assets';
+import { avertaStd } from '@heathmont/sportsbet-fonts';
 
 export const typography = {
   fontFamily: avertaStd.fontStack,
