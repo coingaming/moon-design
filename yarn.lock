@@ -1014,6 +1014,13 @@
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
   integrity sha512-eaODofcJs3LMumK8cix73Ngr9WPG9uBflq5MXJLwg2Ayi0I3HEbbfMXa/J6JJEawLi05Y6eD+zEmWfOeewwh+w==
 
+"@heathmont/sportsbet-cdn@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-cdn/-/sportsbet-cdn-1.1.0.tgz#c80da3732284aa9b3af8e9865454a95946ead2d5"
+  integrity sha512-L3rtq8wRlX22koee7Ez7gxyXonHg79QxhZLxSqBurcPXZekqryM8lip5UqvOT6eFGIw1JqxoUd99/vfPCT9gtw==
+  dependencies:
+    typescript "3.3.3"
+
 "@jest/console@^24.3.0":
   version "24.3.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.3.0.tgz#7bd920d250988ba0bf1352c4493a48e1cb97671e"
