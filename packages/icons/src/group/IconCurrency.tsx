@@ -27,6 +27,7 @@ import { IconCurrencyPkr } from '../svg/IconCurrencyPkr';
 import { IconCurrencyRub } from '../svg/IconCurrencyRub';
 import { IconCurrencySoc } from '../svg/IconCurrencySoc';
 import { IconCurrencyThb } from '../svg/IconCurrencyThb';
+import { IconCurrencyTrx } from '../svg/IconCurrencyTrx';
 import { IconCurrencyTry } from '../svg/IconCurrencyTry';
 import { IconCurrencyUah } from '../svg/IconCurrencyUah';
 import { IconCurrencyUsd } from '../svg/IconCurrencyUsd';
@@ -64,7 +65,8 @@ type CurrencyName =
   | 'UAH'
   | 'USD'
   | 'VES'
-  | 'VND';
+  | 'VND'
+  | 'TRX';
 
 export type GroupIconCurrencyProps = {
   color?: string;
@@ -98,6 +100,7 @@ const currencyIcons = {
   RUB: IconCurrencyRub,
   SOC: IconCurrencySoc,
   THB: IconCurrencyThb,
+  TRX: IconCurrencyTrx,
   TRY: IconCurrencyTry,
   USD: IconCurrencyUsd,
   UAH: IconCurrencyUah,
