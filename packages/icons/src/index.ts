@@ -44,6 +44,7 @@ export { IconCurrencyPkr } from './svg/IconCurrencyPkr';
 export { IconCurrencyRub } from './svg/IconCurrencyRub';
 export { IconCurrencySoc } from './svg/IconCurrencySoc';
 export { IconCurrencyThb } from './svg/IconCurrencyThb';
+export { IconCurrencyTrx } from './svg/IconCurrencyTrx';
 export { IconCurrencyTry } from './svg/IconCurrencyTry';
 export { IconCurrencyUah } from './svg/IconCurrencyUah';
 export { IconCurrencyUsd } from './svg/IconCurrencyUsd';
