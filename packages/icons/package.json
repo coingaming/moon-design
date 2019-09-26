@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-icons",
-  "version": "0.87.0",
+  "version": "0.88.0",
   "files": [
     "lib"
   ],
@@ -19,7 +19,7 @@
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-tokens": "^0.87.0",
+    "@heathmont/sportsbet-tokens": "^0.88.0",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
     "react": "16.8.1",

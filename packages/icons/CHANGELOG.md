@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
+
+
+### Bug Fixes
+
+* **icons:** fix Instagram icon viewBox alignment ([bf9731f](https://github.com/coingaming/sportsbet-design/commit/bf9731f))
+
+
+### Features
+
+* refactor svgr, introduce crest assets ([111bbb0](https://github.com/coingaming/sportsbet-design/commit/111bbb0))
+* **icons:** trx currency icon ([400efe5](https://github.com/coingaming/sportsbet-design/commit/400efe5))
+
+
+### Performance Improvements
+
+* ensure only `lib` directories are published ([4e5ba2f](https://github.com/coingaming/sportsbet-design/commit/4e5ba2f))
+
+
+
+
+
 # [0.87.0](https://github.com/coingaming/sportsbet-design/compare/v0.86.0...v0.87.0) (2019-09-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-icons

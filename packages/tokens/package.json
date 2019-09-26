@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-tokens",
-  "version": "0.87.0",
+  "version": "0.88.0",
   "files": [
     "lib"
   ],
@@ -10,6 +10,6 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.87.0"
+    "@heathmont/sportsbet-fonts": "^0.88.0"
   }
 }
