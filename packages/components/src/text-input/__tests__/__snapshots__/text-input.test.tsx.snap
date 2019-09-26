@@ -10,7 +10,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -179,7 +179,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -325,7 +325,7 @@ exports[`TextInput renders correctly for other types 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -478,7 +478,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -530,7 +530,7 @@ exports[`TextInput renders correctly without a label 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
