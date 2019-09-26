@@ -5,9 +5,42 @@ route: /assets
 
 # Assets
 
+Styled SVG components, sizeable via `fontSize` or traditional
+`width` and `height` methods.
+
 ## Crests
 
 ```jsx react-live
-<CrestFlamengo fontSize="10rem" />
-<CrestWatford fontSize="10rem" />
+<Stack direction="horizontal" space={spacing('large')}>
+  <CrestFlamengo fontSize="10rem" />
+  <CrestWatford fontSize="10rem" />
+</Stack>
+```
+
+## Logos
+
+### Sportsbet.io
+
+With `fontSize`:
+
+```jsx react-live
+<LogoSportsbet fontSize="10rem" />
+```
+
+With `width` and `height`:
+
+```jsx react-live
+<LogoSportsbet width="100%" height="auto" />
+```
+
+## Patterns
+
+```jsx react-live
+<Stack direction="horizontal">
+  <PatternCircles fontSize="5rem" />
+  <PatternRipple fontSize="5rem" />
+  <PatternSpeed fontSize="5rem" />
+  <PatternStars width="auto" height="5rem" />
+  <PatternWave width="auto" height="5rem" />
+</Stack>
 ```
