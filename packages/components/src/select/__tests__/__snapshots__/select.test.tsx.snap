@@ -10,7 +10,7 @@ exports[`Select renders a select input with options 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -92,7 +92,7 @@ exports[`Select renders as disabled for default select input 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -175,7 +175,7 @@ exports[`Select renders as full-width for default select input 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -251,7 +251,7 @@ exports[`Select renders with label above the input 1`] = `
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -347,7 +347,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;
@@ -475,7 +475,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   background-color: #31373F;
   border: 1px solid #31373F;
   border-radius: 4px;

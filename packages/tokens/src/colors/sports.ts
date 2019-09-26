@@ -1,8 +1,9 @@
 import { palette } from './palette';
+import { Color } from './types';
 
 const { krillin, cell, dodoria, vegeta, raditz, nappa, frieza, whis } = palette;
 
-export const sportColors: { [key: string]: string } = {
+export const sportColors: { [key: string]: Color } = {
   rugby: krillin[100],
   horseRacing: cell[100],
   americanFootBall: krillin[100],

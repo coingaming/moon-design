@@ -37,14 +37,14 @@ exports[`Banner Closable renders with default vertical layout 1`] = `
 
 .emotion-1.is-hover:not([disabled]),
 .emotion-1:hover:not([disabled]) {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-1.is-active,
 .emotion-1.has-focus,
 .emotion-1:active,
 .emotion-1:focus {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-6 {
@@ -227,14 +227,14 @@ exports[`Banner Closable renders with horizontal layout 1`] = `
 
 .emotion-3.is-hover:not([disabled]),
 .emotion-3:hover:not([disabled]) {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-3.is-active,
 .emotion-3.has-focus,
 .emotion-3:active,
 .emotion-3:focus {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-6 {
@@ -360,14 +360,14 @@ exports[`Banner renders correctly with maxWidth prop 1`] = `
 
 .emotion-3.is-hover:not([disabled]),
 .emotion-3:hover:not([disabled]) {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-3.is-active,
 .emotion-3.has-focus,
 .emotion-3:active,
 .emotion-3:focus {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-5 {
@@ -465,14 +465,14 @@ exports[`Banner renders horizontally 1`] = `
 
 .emotion-1.is-hover:not([disabled]),
 .emotion-1:hover:not([disabled]) {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-1.is-active,
 .emotion-1.has-focus,
 .emotion-1:active,
 .emotion-1:focus {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-3 {
@@ -610,14 +610,14 @@ exports[`Banner renders vertically by default 1`] = `
 
 .emotion-3.is-hover:not([disabled]),
 .emotion-3:hover:not([disabled]) {
-  color: #fff;
+  color: #FFF;
 }
 
 .emotion-3.is-active,
 .emotion-3.has-focus,
 .emotion-3:active,
 .emotion-3:focus {
-  color: #fff;
+  color: #FFF;
 }
 
 <div

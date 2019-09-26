@@ -1,4 +1,4 @@
-import { avertaStd } from '@heathmont/sportsbet-assets';
+import { avertaStd } from '@heathmont/sportsbet-fonts';
 
 import { boxSizing } from './generic/box-sizing';
 import { focus } from './generic/focus';
