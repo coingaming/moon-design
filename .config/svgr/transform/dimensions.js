@@ -42,13 +42,12 @@ module.exports = ({ types: t }) => ({
          * Check if a JSX attribute matches the required attributes above, and
          * return `true` if tests.
          */
-        const requiredAttr = attributePath => {
-          if (!attributePath.isJSXAttribute()) return false;
-          const index = requiredAttrs.indexOf(attributePath.node.name.name);
+        const isRequiredAttr = attributePath => {
+          if (!attributePath.isJSXAttribute()) {
+            return false;
+          }
 
-          if (index === -1) return false;
-
-          return true;
+          return requiredAttrs.find(attr => attr === attributePath.node.name.name);
         };
 
         /**
@@ -59,7 +58,7 @@ module.exports = ({ types: t }) => ({
           {},
           ...path.get('attributes').map(
             attributePath =>
-              requiredAttr(attributePath) && {
+              isRequiredAttr(attributePath) && {
                 [attributePath.node.name.name]: attributePath.get('value').node
                   .expression.value,
               }
@@ -85,7 +84,7 @@ module.exports = ({ types: t }) => ({
          * Replace the initial values with the new values.
          */
         path.get('attributes').forEach(attributePath => {
-          if (!requiredAttr(attributePath)) return;
+          if (!isRequiredAttr(attributePath)) return;
           const name = attributePath.node.name.name;
           const index = requiredAttrs.indexOf(name);
           attributePath
