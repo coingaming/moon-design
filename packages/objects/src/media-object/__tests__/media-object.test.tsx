@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/core';
 import { create } from 'react-test-renderer';
 
-import { MediaObject } from '..';
+import { MediaObject } from '../media-object';
 
 describe('MediaObject', () => {
   test('renders with `default` settings', () => {
