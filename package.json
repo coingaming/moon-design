@@ -3,7 +3,7 @@
   "name": "Sportsbet.io",
   "scripts": {
     "commit": "git-cz",
-    "build": "tsc -b",
+    "build": "lerna run build:index && tsc -b",
     "dev:docs": "concurrently -kill-others \"yarn build -w\" \"lerna run --scope docs --stream dev\"",
     "clean": "rimraf {packages,docs}/**/{lib,dist,.cache,public}/",
     "nuke": "yarn clean && rimraf node_modules {packages,docs}/**/node_modules docs/.cache",
