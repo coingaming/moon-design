@@ -6,8 +6,9 @@ import { breakpoints, border } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, rem, spacing } from '@heathmont/sportsbet-utils';
 import { IconChevronDown } from '@heathmont/sportsbet-icons';
 
-import { Input, inputColors, inputSpacing } from '../private/input';
-import { Label, LabelSizing } from '../private/label';
+import { Input } from '../private/input/input';
+import { inputColors, inputSpacing } from '../private/input/settings';
+import { Label, LabelSizing } from '../private/label/label';
 
 jsx;
 
