@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-tokens",
-  "version": "0.88.0",
+  "version": "0.89.0",
   "files": [
     "lib"
   ],
@@ -13,6 +13,6 @@
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src --exclude colors/{palette,types}"
   },
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.88.0"
+    "@heathmont/sportsbet-fonts": "^0.89.0"
   }
 }

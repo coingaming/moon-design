@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
+
+
+### Features
+
+* **fonts:** generate barrel file ([4237afe](https://github.com/coingaming/sportsbet-design/commit/4237afe))
+
+
+
+
+
 # [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
