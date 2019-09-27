@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* amend test paths ([45a9264](https://github.com/coingaming/sportsbet-design/commit/45a9264))
+* asset preview grid ([7322c31](https://github.com/coingaming/sportsbet-design/commit/7322c31))
+* prevent barrelsby including .d.ts files ([51b554f](https://github.com/coingaming/sportsbet-design/commit/51b554f))
+* remove unnecessary yarn prefix to barrelsby ([648562c](https://github.com/coingaming/sportsbet-design/commit/648562c))
+* run build:index in parallel ([45bef9c](https://github.com/coingaming/sportsbet-design/commit/45bef9c))
+
+
+### Features
+
+* **assets:** add logos and patterns ([d38a00d](https://github.com/coingaming/sportsbet-design/commit/d38a00d))
+* **fonts:** generate barrel file ([4237afe](https://github.com/coingaming/sportsbet-design/commit/4237afe))
+* **objects:** generate barrel file ([fd0dd1b](https://github.com/coingaming/sportsbet-design/commit/fd0dd1b))
+* **tokens:** generate barrel file ([b89f859](https://github.com/coingaming/sportsbet-design/commit/b89f859))
+* **utils:** generate barrel file ([1b5c652](https://github.com/coingaming/sportsbet-design/commit/1b5c652))
+* auto generate barrel file ([1e19415](https://github.com/coingaming/sportsbet-design/commit/1e19415))
+
+
+
+
+
 # [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
 
 
