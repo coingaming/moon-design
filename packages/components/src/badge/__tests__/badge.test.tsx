@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Badge } from '..';
+import { Badge } from '../badge';
 
 describe('Badge', () => {
   test('renders correctly', () => {
