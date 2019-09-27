@@ -9,6 +9,9 @@
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "mBet Solutions N.V.",
   "license": "MIT",
+  "scripts": {
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src --exclude colors/{palette,types}"
+  },
   "dependencies": {
     "@heathmont/sportsbet-fonts": "^0.88.0"
   }

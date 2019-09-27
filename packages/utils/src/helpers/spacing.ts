@@ -1,8 +1,9 @@
-import { rem } from './rem';
 import {
   Spacing as SpacingTokens,
   spacing as spacingTokens,
 } from '@heathmont/sportsbet-tokens';
+
+import { rem } from './rem';
 
 export type SpacingSize = keyof SpacingTokens | 0;
 export type SpacingUnit = string;

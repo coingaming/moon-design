@@ -2,7 +2,7 @@ import * as React from 'react';
 import { create } from 'react-test-renderer';
 import { IconCurrencyBtc } from '@heathmont/sportsbet-icons';
 
-import { Card } from '..';
+import { Card } from '../card';
 
 describe('Card', () => {
   test('renders with flex layout', () => {

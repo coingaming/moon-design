@@ -2,9 +2,9 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Banner, BannerToggle } from '..';
-
-import { Button } from '../../button';
+import { Banner } from '../banner';
+import { BannerToggle } from '../toggle';
+import { Button } from '../../button/button';
 import { Heading } from '../../heading/heading';
 
 describe('Banner', () => {
