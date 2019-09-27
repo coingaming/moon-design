@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { NavLink } from '..';
+import { NavLink } from '../nav-link';
 
 const TestLink = ({ children, ...props }: { children: string }) => (
   <a id="test-link" {...props}>

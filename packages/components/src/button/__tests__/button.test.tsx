@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Button } from '..';
+import { Button } from '../button';
 
 describe('Button', () => {
   test('renders correctly', () => {
