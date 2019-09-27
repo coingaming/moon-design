@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { BannerToggle } from '..';
+import { BannerToggle } from '../toggle';
 
 describe('BannerToggle', () => {
   test('renders correctly', () => {
