@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Tooltip } from '..';
+import { Tooltip } from '../tooltip';
 
 const Caption = () => <p>Hi, I'm a Tooltip</p>;
 const testProps = { id: 'test-id' };

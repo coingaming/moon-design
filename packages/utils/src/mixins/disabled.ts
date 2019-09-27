@@ -6,12 +6,10 @@ const defaultDisabled = {
   opacity: opacity.disabled,
 };
 
-const disabled = (styles: CSSObject = defaultDisabled) => {
+export const disabled = (styles: CSSObject = defaultDisabled) => {
   return {
     '&:disabled, &[disabled]': {
       ...styles,
     },
   };
 };
-
-export { disabled };
