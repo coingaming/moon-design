@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Link } from '..';
+import { Link } from '../link';
 
 describe('Link', () => {
   test('renders as a link by default', () => {

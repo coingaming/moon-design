@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { TextInput } from '..';
+import { TextInput } from '../text-input';
 
 describe('TextInput', () => {
   test('renders correctly with `text` type by default', () => {
