@@ -2,7 +2,7 @@
 import { jsx } from '@emotion/core';
 import { create } from 'react-test-renderer';
 
-import { Stack } from '..';
+import { Stack } from '../stack';
 
 describe('Stack', () => {
   test('renders with `default` spacing', () => {
