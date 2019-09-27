@@ -2,13 +2,8 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import {
-  Carousel,
-  CarouselScroll,
-  CarouselScrollItem,
-  CarouselControl,
-  CarouselControlCaption,
-} from '..';
+import { Carousel, CarouselScroll, CarouselScrollItem } from '../carousel';
+import { CarouselControl, CarouselControlCaption } from '../control';
 
 describe('Carousel', () => {
   test('renders with controls', () => {

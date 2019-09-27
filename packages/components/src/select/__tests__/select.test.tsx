@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Select } from '..';
+import { Select } from '../select';
 
 const TestOptions = () => (
   <React.Fragment>
