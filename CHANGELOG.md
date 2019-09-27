@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.90.0](https://github.com/coingaming/sportsbet-design/compare/v0.89.0...v0.90.0) (2019-09-27)
+
+
+### Features
+
+* **assets:** add Sportbet.io logo with sponsors ([2ffec57](https://github.com/coingaming/sportsbet-design/commit/2ffec57))
+
+
+
+
+
 # [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
 
 
