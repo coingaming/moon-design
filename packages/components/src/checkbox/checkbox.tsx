@@ -6,8 +6,8 @@ import size from 'polished/lib/shorthands/size';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { hyphenate, rem, spacing } from '@heathmont/sportsbet-utils';
 
-import { Label } from '../private/label';
-import { inputBorder, inputColors } from '../private/input';
+import { Label } from '../private/label/label';
+import { inputBorder, inputColors } from '../private/input/settings';
 
 /**
  * Types
