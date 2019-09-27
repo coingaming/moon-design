@@ -11,7 +11,7 @@
   "license": "MIT",
   "scripts": {
     "build:svg": "npx @svgr/cli --ext tsx --config-file ./svgr.config.js -d src raw",
-    "build:index": "yarn barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
     "build": "yarn build:svg && yarn build:index && yarn lint",
     "test": "jest"
