@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { HeaderBack } from '..';
+import { HeaderBack } from '../header-back';
 
 const TestLink = ({ children, ...props }: { children: string }) => (
   <a id="test-link" {...props}>

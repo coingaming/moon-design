@@ -1,4 +1,5 @@
 {
   "delete": true,
-  "singleQuotes": true
+  "singleQuotes": true,
+  "exclude": ["private", "__test__", "__tests__", "^.*\\.d.ts$"]
 }

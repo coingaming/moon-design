@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Badge } from '../../badge';
-
-import { CardBalance } from '..';
+import { Badge } from '../../badge/badge';
+import { CardBalance } from '../balance';
 
 describe('CardBalance', () => {
   test('renders correctly', () => {
