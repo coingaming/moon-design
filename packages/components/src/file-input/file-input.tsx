@@ -7,7 +7,8 @@ import { colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, rem, spacing } from '@heathmont/sportsbet-utils';
 import { IconUpload } from '@heathmont/sportsbet-icons';
 
-import { Input, inputColors } from '../private/input';
+import { Input } from '../private/input/input';
+import { inputColors } from '../private/input/settings';
 
 jsx;
 
