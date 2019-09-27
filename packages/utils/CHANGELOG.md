@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
+
+
+### Bug Fixes
+
+* amend test paths ([45a9264](https://github.com/coingaming/sportsbet-design/commit/45a9264))
+
+
+### Features
+
+* **utils:** generate barrel file ([1b5c652](https://github.com/coingaming/sportsbet-design/commit/1b5c652))
+
+
+
+
+
 # [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
 
 
