@@ -43,8 +43,6 @@
     "@heathmont/sportsbet-utils": "^0.90.0",
     "@mdx-js/mdx": "0.16.8",
     "@mdx-js/tag": "0.16.8",
-    "@types/react": "16.7.18",
-    "@types/react-dom": "16.0.11",
     "gatsby": "2.0.117",
     "gatsby-cli": "2.4.9",
     "gatsby-image": "2.0.29",
