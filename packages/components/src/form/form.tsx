@@ -7,7 +7,7 @@ import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
 import { rem, spacing } from '@heathmont/sportsbet-utils';
 import { border } from '@heathmont/sportsbet-tokens';
 
-import { inputIconPosition } from '../private/input/settings';
+import { inputSpacingY } from '../private/input/settings';
 import { inputSelectors } from '../private/label/settings';
 
 jsx;
@@ -68,8 +68,8 @@ const FormComboInput = styled.div({
  */
 const FormComboButton = styled.div({
   position: 'absolute',
-  right: rem(inputIconPosition),
-  bottom: rem(inputIconPosition) /* [1] */,
+  right: rem(inputSpacingY / 2),
+  bottom: rem(inputSpacingY / 2) /* [1] */,
 });
 
 export {

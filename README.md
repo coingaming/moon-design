@@ -4,6 +4,11 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 [![CircleCI](https://circleci.com/gh/coingaming/sportsbet-design.svg?style=svg&circle-token=ac2a5739dd256e22f8051c19548bc06aec8b4350)](https://circleci.com/gh/coingaming/sportsbet-design)
 
+## Resources
+
+- 📖 [Documentation](https://design.sportsbet.io)
+- 🏗 [Playground](https://design.sportsbet.io/playground)
+
 ## Contents
 
 1. [Architecture](#architecture)
@@ -58,6 +63,7 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 
 ## Usage
 
+- `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000) with hot reloading.
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
@@ -74,7 +80,6 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 
 ### Docs
 
-- `yarn docs:dev` - spins up a hot reloading docs environment at [localhost:8000](http://localhost:8000/).
 - `yarn docs:build` - generates a static production build of the style guide in `.docs/public`.
 - `yarn docs:serve` - serves files created by the build script at [localhost:9000](http://localhost:9000/).
 
