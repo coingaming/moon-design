@@ -4,27 +4,47 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 .emotion-1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
 }
 
-.emotion-1:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-1::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+.emotion-1::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -33,8 +53,13 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   box-shadow: none;
 }
 
+.emotion-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-1:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 
@@ -173,15 +198,16 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 .emotion-1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -189,12 +215,31 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   border-color: #FF4E64;
 }
 
-.emotion-1:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-1::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+.emotion-1::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -203,8 +248,13 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   box-shadow: none;
 }
 
+.emotion-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-1:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 
@@ -319,27 +369,47 @@ exports[`TextInput renders correctly for other types 1`] = `
 .emotion-1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
 }
 
-.emotion-1:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-1::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+.emotion-1::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -348,8 +418,13 @@ exports[`TextInput renders correctly for other types 1`] = `
   box-shadow: none;
 }
 
+.emotion-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-1:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 
@@ -472,27 +547,47 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 .emotion-1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
 }
 
-.emotion-1:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-1::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+.emotion-1::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -501,8 +596,13 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   box-shadow: none;
 }
 
+.emotion-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-1:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 
@@ -524,27 +624,47 @@ exports[`TextInput renders correctly without a label 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
 }
 
-.emotion-0:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-0::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-0:not(:focus):not(:placeholder-shown):invalid {
+.emotion-0::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-0:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-0::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-0:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-0:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -553,8 +673,13 @@ exports[`TextInput renders correctly without a label 1`] = `
   box-shadow: none;
 }
 
+.emotion-0:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-0:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 

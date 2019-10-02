@@ -8,30 +8,41 @@ import {
 const inputBorderWidth = border.width;
 const inputAnimationSpeed = `${animation.speed.fast}s`;
 
-const inputSpacing = spacing.default - inputBorderWidth * 2; // px
+const inputFontSize = 16;
+const inputLineHeight = inputFontSize * 1.5;
+
+const inputSpacingX = spacing.default - inputBorderWidth; // px
+const inputSpacingY = 10 - inputBorderWidth;
 
 const inputIconSize = 20; // px
-const inputIconPosition = spacing.small;
-const inputIconOffset = inputIconSize + inputSpacing + inputIconPosition;
+const inputIconPosition = inputSpacingX;
+const inputIconOffset = inputIconSize + inputSpacingX + inputIconPosition;
 
 const inputColors = {
-  label: colors.neutral[20],
+  label: colors.palette.trunks[100],
   text: colors.neutral[10],
   icon: colors.neutral[20],
-  border: colors.neutral[60],
-  background: colors.neutral[70],
+  placeholder: colors.palette.gohan[40],
+  border: {
+    default: colors.palette.gohan[80],
+    hover: colors.palette.gohan[60],
+  },
+  background: colors.palette.hit[80],
   disabled: colors.neutral[50],
 };
 
-const inputBorder = `${inputBorderWidth}px solid ${inputColors.border}`;
+const inputBorder = `${inputBorderWidth}px solid ${inputColors.border.default}`;
 
 export {
   inputAnimationSpeed,
   inputBorder,
   inputBorderWidth,
   inputColors,
+  inputFontSize,
+  inputLineHeight,
   inputIconSize,
-  inputSpacing,
+  inputSpacingX,
+  inputSpacingY,
   inputIconOffset,
   inputIconPosition,
 };
