@@ -22,7 +22,7 @@ exports[`Checkbox renders as disabled 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  border: 1px solid #31373F;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   background-color: transparent;
   -webkit-appearance: none;
@@ -87,7 +87,7 @@ exports[`Checkbox renders by default 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  border: 1px solid #31373F;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   background-color: transparent;
   -webkit-appearance: none;
@@ -152,7 +152,7 @@ exports[`Checkbox renders with hidden label 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  border: 1px solid #31373F;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   background-color: transparent;
   -webkit-appearance: none;
