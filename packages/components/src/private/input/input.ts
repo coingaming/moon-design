@@ -5,11 +5,14 @@ import { colors, border } from '@heathmont/sportsbet-tokens';
 import {
   inputBorder,
   inputColors,
-  inputSpacing,
+  inputFontSize,
+  inputSpacingX,
+  inputSpacingY,
   inputIconSize,
   inputIconOffset,
   inputIconPosition,
   inputAnimationSpeed,
+  inputLineHeight,
 } from './settings';
 
 type InputProps = {
@@ -21,25 +24,33 @@ export const Input = styled.input<InputProps>(props => [
   {
     width: '100%',
     maxWidth: '100%',
-    padding: rem(inputSpacing),
+    padding: `${rem(inputSpacingY)} ${rem(inputSpacingX)}`,
     appearance: 'none',
     font: 'inherit',
-    fontSize: rem(16),
+    fontSize: rem(inputFontSize),
+    lineHeight: rem(inputLineHeight),
     color: inputColors.text,
     backgroundColor: inputColors.background,
     border: inputBorder,
     borderRadius: border.radius.small,
     transition: `border-color ${inputAnimationSpeed} ease`,
     WebkitAppearance: 'none',
-    '&:disabled': {
-      opacity: 0.5,
-      cursor: 'not-allowed',
+    '&::placeholder': {
+      color: inputColors.placeholder,
+      opacity: 1,
     },
-    '&:not(:focus):not(:placeholder-shown):invalid': {
+    '&:hover:not(:focus)': {
+      borderColor: inputColors.border.hover,
+    },
+    '&:not(:placeholder-shown):invalid': {
       borderColor: colors.error,
     },
     '&:invalid, :-moz-ui-invalid': {
       boxShadow: 'none', // Firefox Override
+    },
+    '&:disabled': {
+      opacity: 0.5,
+      cursor: 'not-allowed',
     },
   },
   props.withIcon && {

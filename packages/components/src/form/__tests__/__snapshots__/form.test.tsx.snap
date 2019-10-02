@@ -62,27 +62,47 @@ exports[`Form renders a form combo 1`] = `
 .emotion-2 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
 }
 
-.emotion-2:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-2::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-2:not(:focus):not(:placeholder-shown):invalid {
+.emotion-2::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-2::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-2:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-2:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -91,15 +111,20 @@ exports[`Form renders a form combo 1`] = `
   box-shadow: none;
 }
 
+.emotion-2:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-2:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 
 .emotion-4 {
   position: absolute;
-  right: 0.5rem;
-  bottom: 0.5rem;
+  right: 0.28125rem;
+  bottom: 0.28125rem;
 }
 
 <form
@@ -209,27 +234,47 @@ exports[`Form renders a form combo without a label 1`] = `
 .emotion-1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.875rem;
+  padding: 0.5625rem 0.9375rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #FFF;
-  background-color: #31373F;
-  border: 1px solid #31373F;
+  background-color: #1A212A;
+  border: 1px solid #3D434B;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
 }
 
-.emotion-1:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.emotion-1::-webkit-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
 }
 
-.emotion-1:not(:focus):not(:placeholder-shown):invalid {
+.emotion-1::-moz-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6F7379;
+  opacity: 1;
+}
+
+.emotion-1:hover:not(:focus) {
+  border-color: #5A5F65;
+}
+
+.emotion-1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
@@ -238,15 +283,20 @@ exports[`Form renders a form combo without a label 1`] = `
   box-shadow: none;
 }
 
+.emotion-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .emotion-1:focus {
-  border-color: #8697A2;
+  border-color: #0CD664;
   outline: none;
 }
 
 .emotion-3 {
   position: absolute;
-  right: 0.5rem;
-  bottom: 0.5rem;
+  right: 0.28125rem;
+  bottom: 0.28125rem;
 }
 
 <form
@@ -295,11 +345,11 @@ exports[`Form renders a form combo without a label 1`] = `
 `;
 
 exports[`Form renders correctly 1`] = `
-.emotion-9 {
+.emotion-8 {
   width: auto;
 }
 
-.emotion-8 {
+.emotion-7 {
   border: 0;
 }
 
@@ -318,7 +368,7 @@ exports[`Form renders correctly 1`] = `
   width: 1px;
 }
 
-.emotion-7 {
+.emotion-6 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -335,30 +385,18 @@ exports[`Form renders correctly 1`] = `
   content: "\\200B";
 }
 
-.emotion-3 {
+.emotion-2 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
 }
 
-.emotion-2 {
-  display: inline-block;
-  width: 0.875rem;
-  height: 0.875rem;
-  margin-right: 0.5rem;
-  vertical-align: sub;
-  background-position: center;
-  background-size: 60%,100%;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
-}
-
 <form
-  className="emotion-9"
+  className="emotion-8"
 >
   <fieldset
-    className="emotion-8"
+    className="emotion-7"
   >
     <legend
       className="emotion-0"
@@ -366,7 +404,7 @@ exports[`Form renders correctly 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-7"
+      className="emotion-6"
     >
       <li
         className="emotion-1"
@@ -395,12 +433,9 @@ exports[`Form renders correctly 1`] = `
           />
         </label>
         <p
-          className="emotion-3"
+          className="emotion-2"
           role="alert"
         >
-          <i
-            className="emotion-2"
-          />
           Please enter a valid password.
         </p>
       </li>
@@ -435,11 +470,11 @@ exports[`Form renders correctly 1`] = `
 `;
 
 exports[`Form renders with HTML form attributes 1`] = `
-.emotion-9 {
+.emotion-8 {
   width: auto;
 }
 
-.emotion-8 {
+.emotion-7 {
   border: 0;
 }
 
@@ -458,7 +493,7 @@ exports[`Form renders with HTML form attributes 1`] = `
   width: 1px;
 }
 
-.emotion-7 {
+.emotion-6 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -475,33 +510,21 @@ exports[`Form renders with HTML form attributes 1`] = `
   content: "\\200B";
 }
 
-.emotion-3 {
+.emotion-2 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
 }
 
-.emotion-2 {
-  display: inline-block;
-  width: 0.875rem;
-  height: 0.875rem;
-  margin-right: 0.5rem;
-  vertical-align: sub;
-  background-position: center;
-  background-size: 60%,100%;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
-}
-
 <form
   action="#"
   autocomplete="on"
-  className="emotion-9"
+  className="emotion-8"
   method="post"
 >
   <fieldset
-    className="emotion-8"
+    className="emotion-7"
   >
     <legend
       className="emotion-0"
@@ -509,7 +532,7 @@ exports[`Form renders with HTML form attributes 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-7"
+      className="emotion-6"
     >
       <li
         className="emotion-1"
@@ -538,12 +561,9 @@ exports[`Form renders with HTML form attributes 1`] = `
           />
         </label>
         <p
-          className="emotion-3"
+          className="emotion-2"
           role="alert"
         >
-          <i
-            className="emotion-2"
-          />
           Please enter a valid password.
         </p>
       </li>
@@ -578,7 +598,7 @@ exports[`Form renders with HTML form attributes 1`] = `
 `;
 
 exports[`Form renders with custom fullWidth 1`] = `
-.emotion-8 {
+.emotion-7 {
   border: 0;
 }
 
@@ -597,7 +617,7 @@ exports[`Form renders with custom fullWidth 1`] = `
   width: 1px;
 }
 
-.emotion-7 {
+.emotion-6 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -614,34 +634,22 @@ exports[`Form renders with custom fullWidth 1`] = `
   content: "\\200B";
 }
 
-.emotion-3 {
+.emotion-2 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
 }
 
-.emotion-2 {
-  display: inline-block;
-  width: 0.875rem;
-  height: 0.875rem;
-  margin-right: 0.5rem;
-  vertical-align: sub;
-  background-position: center;
-  background-size: 60%,100%;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
-}
-
-.emotion-9 {
+.emotion-8 {
   width: 100%;
 }
 
 <form
-  className="emotion-9"
+  className="emotion-8"
 >
   <fieldset
-    className="emotion-8"
+    className="emotion-7"
   >
     <legend
       className="emotion-0"
@@ -649,7 +657,7 @@ exports[`Form renders with custom fullWidth 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-7"
+      className="emotion-6"
     >
       <li
         className="emotion-1"
@@ -678,12 +686,9 @@ exports[`Form renders with custom fullWidth 1`] = `
           />
         </label>
         <p
-          className="emotion-3"
+          className="emotion-2"
           role="alert"
         >
-          <i
-            className="emotion-2"
-          />
           Please enter a valid password.
         </p>
       </li>
@@ -718,7 +723,7 @@ exports[`Form renders with custom fullWidth 1`] = `
 `;
 
 exports[`Form renders with custom maxWidth 1`] = `
-.emotion-8 {
+.emotion-7 {
   border: 0;
 }
 
@@ -737,7 +742,7 @@ exports[`Form renders with custom maxWidth 1`] = `
   width: 1px;
 }
 
-.emotion-7 {
+.emotion-6 {
   display: block;
   margin-left: 0;
   margin-top: 0;
@@ -754,35 +759,23 @@ exports[`Form renders with custom maxWidth 1`] = `
   content: "\\200B";
 }
 
-.emotion-3 {
+.emotion-2 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
 }
 
-.emotion-2 {
-  display: inline-block;
-  width: 0.875rem;
-  height: 0.875rem;
-  margin-right: 0.5rem;
-  vertical-align: sub;
-  background-position: center;
-  background-size: 60%,100%;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 4 20' xmlns='http://www.w3.org/2000/svg' color='white' class='css-uk6cul'%3e%3cpath d='M4 12H0V0h4v12zm0 8H0v-4h4v4z' fill='currentColor' fill-rule='nonzero'%3e%3c/path%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' color='%23FF4E64' class='css-uk6cul'%3e%3ccircle cx='10' cy='10' r='10' fill='currentColor' fill-rule='evenodd'%3e%3c/circle%3e%3c/svg%3e");
-}
-
-.emotion-9 {
+.emotion-8 {
   max-width: 30rem;
   width: auto;
 }
 
 <form
-  className="emotion-9"
+  className="emotion-8"
 >
   <fieldset
-    className="emotion-8"
+    className="emotion-7"
   >
     <legend
       className="emotion-0"
@@ -790,7 +783,7 @@ exports[`Form renders with custom maxWidth 1`] = `
       Sign up
     </legend>
     <ul
-      className="emotion-7"
+      className="emotion-6"
     >
       <li
         className="emotion-1"
@@ -819,12 +812,9 @@ exports[`Form renders with custom maxWidth 1`] = `
           />
         </label>
         <p
-          className="emotion-3"
+          className="emotion-2"
           role="alert"
         >
-          <i
-            className="emotion-2"
-          />
           Please enter a valid password.
         </p>
       </li>

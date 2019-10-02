@@ -27,7 +27,7 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
 
 const TextInputElem = styled(Input)({
   '&:focus': {
-    borderColor: colors.neutral[20],
+    borderColor: colors.brand,
     outline: 'none',
   },
 });
