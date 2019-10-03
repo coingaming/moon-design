@@ -14,9 +14,25 @@ function template(
 
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 
-    export const ${prefix(componentName)} = styled(Svg)({
-      verticalAlign: 'middle',
-    });
+    type SvgProps = {
+      height?: string | number;
+      width?: string | number;
+      fontSize?: string | number;
+      verticalAlign?: string,
+    };
+
+    export const ${prefix(componentName)} =
+      styled(Svg)<SvgProps >
+      (({ height, width, fontSize, verticalAlign }) => ({
+        height,
+        width,
+        fontSize,
+        verticalAlign
+      }));
+
+    ${prefix(componentName)}.defaultProps = {
+      verticalAlign: 'middle'
+    }
   `;
 }
 module.exports = template;
