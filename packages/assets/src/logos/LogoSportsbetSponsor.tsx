@@ -156,6 +156,20 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const LogoSportsbetSponsor = styled(Svg)({
+type SvgProps = {
+  height?: string | number;
+  width?: string | number;
+  fontSize?: string | number;
+  verticalAlign?: string;
+};
+export const LogoSportsbetSponsor = styled(Svg)<SvgProps>(
+  ({ height, width, fontSize, verticalAlign }) => ({
+    height,
+    width,
+    fontSize,
+    verticalAlign,
+  })
+);
+LogoSportsbetSponsor.defaultProps = {
   verticalAlign: 'middle',
-});
+};
