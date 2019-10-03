@@ -100,6 +100,20 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const PatternSpeed = styled(Svg)({
+type SvgProps = {
+  height?: string | number;
+  width?: string | number;
+  fontSize?: string | number;
+  verticalAlign?: string;
+};
+export const PatternSpeed = styled(Svg)<SvgProps>(
+  ({ height, width, fontSize, verticalAlign }) => ({
+    height,
+    width,
+    fontSize,
+    verticalAlign,
+  })
+);
+PatternSpeed.defaultProps = {
   verticalAlign: 'middle',
-});
+};
