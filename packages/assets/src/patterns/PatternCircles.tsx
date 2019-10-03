@@ -387,6 +387,20 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const PatternCircles = styled(Svg)({
+type SvgProps = {
+  height?: string | number;
+  width?: string | number;
+  fontSize?: string | number;
+  verticalAlign?: string;
+};
+export const PatternCircles = styled(Svg)<SvgProps>(
+  ({ height, width, fontSize, verticalAlign }) => ({
+    height,
+    width,
+    fontSize,
+    verticalAlign,
+  })
+);
+PatternCircles.defaultProps = {
   verticalAlign: 'middle',
-});
+};

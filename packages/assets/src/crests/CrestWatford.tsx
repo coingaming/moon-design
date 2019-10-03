@@ -115,6 +115,20 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const CrestWatford = styled(Svg)({
+type SvgProps = {
+  height?: string | number;
+  width?: string | number;
+  fontSize?: string | number;
+  verticalAlign?: string;
+};
+export const CrestWatford = styled(Svg)<SvgProps>(
+  ({ height, width, fontSize, verticalAlign }) => ({
+    height,
+    width,
+    fontSize,
+    verticalAlign,
+  })
+);
+CrestWatford.defaultProps = {
   verticalAlign: 'middle',
-});
+};
