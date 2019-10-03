@@ -195,6 +195,20 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const PatternWave = styled(Svg)({
+type SvgProps = {
+  height?: string | number;
+  width?: string | number;
+  fontSize?: string | number;
+  verticalAlign?: string;
+};
+export const PatternWave = styled(Svg)<SvgProps>(
+  ({ height, width, fontSize, verticalAlign }) => ({
+    height,
+    width,
+    fontSize,
+    verticalAlign,
+  })
+);
+PatternWave.defaultProps = {
   verticalAlign: 'middle',
-});
+};
