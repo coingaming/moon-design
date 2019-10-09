@@ -11,6 +11,7 @@ export { IconBitcoinTalk } from './svg/IconBitcoinTalk';
 export { IconBombayClub } from './svg/IconBombayClub';
 export { IconCalendar } from './svg/IconCalendar';
 export { IconCashOut } from './svg/IconCashOut';
+export { IconCasino } from './svg/IconCasino';
 export { IconChevronDown } from './svg/IconChevronDown';
 export { IconChevronLeft } from './svg/IconChevronLeft';
 export { IconChevronRight } from './svg/IconChevronRight';
