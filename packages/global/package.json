@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-global",
-  "version": "0.90.0",
+  "version": "0.91.0",
   "files": [
     "lib"
   ],
@@ -11,9 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "10.0.10",
-    "@heathmont/sportsbet-fonts": "^0.90.0",
-    "@heathmont/sportsbet-tokens": "^0.90.0",
-    "@heathmont/sportsbet-utils": "^0.90.0",
+    "@heathmont/sportsbet-fonts": "^0.91.0",
+    "@heathmont/sportsbet-tokens": "^0.91.0",
+    "@heathmont/sportsbet-utils": "^0.91.0",
     "focus-visible": "5.0.2",
     "react": "16.8.1",
     "react-dom": "16.8.1"
