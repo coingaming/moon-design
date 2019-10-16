@@ -1,0 +1,1505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog default renders as hidden 1`] = `null`;
+
+exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\` 1`] = `
+.emotion-8 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-7 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-6 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-8"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-7"
+          data-reach-dialog-content={true}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-6"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog footer renders with \`footer\` 1`] = `
+.emotion-9 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-8 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-7 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+.emotion-6 {
+  padding: 1rem;
+  text-align: right;
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-9"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-8"
+          data-reach-dialog-content={true}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-7"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+            <footer
+              className="emotion-6"
+            >
+              <button
+                type="button"
+              >
+                Close
+              </button>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
+.emotion-9 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-7 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+.emotion-8 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 47rem;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+  padding-top: 3rem;
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+.emotion-6 {
+  padding: 1rem;
+  text-align: right;
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-9"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-8"
+          data-reach-dialog-content={true}
+          longForm={true}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-7"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+            <footer
+              className="emotion-6"
+            >
+              <button
+                type="button"
+              >
+                Close
+              </button>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
+.emotion-9 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-7 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+.emotion-6 {
+  padding: 1rem;
+  text-align: right;
+}
+
+.emotion-8 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 420px;
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-9"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-8"
+          data-reach-dialog-content={true}
+          maxWidth={420}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-7"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+            <footer
+              className="emotion-6"
+            >
+              <button
+                type="button"
+              >
+                Close
+              </button>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
+.emotion-8 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-6 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+  padding-top: 3rem;
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+.emotion-7 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 47rem;
+  max-width: 420px;
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-8"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-7"
+          data-reach-dialog-content={true}
+          longForm={true}
+          maxWidth={420}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-6"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog longForm renders with \`longForm\` template 1`] = `
+.emotion-8 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-6 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+.emotion-7 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 47rem;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+  padding-top: 3rem;
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-8"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-7"
+          data-reach-dialog-content={true}
+          longForm={true}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-6"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog renders with custom \`maxWidth\` 1`] = `
+.emotion-8 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(1,8,18,0.75);
+  z-index: 10000;
+}
+
+.emotion-6 {
+  position: relative;
+  outline: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #1F262F;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  line-height: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #8697A2;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: #31373F;
+}
+
+.emotion-2:focus {
+  outline: none;
+  box-shadow: 0 0 0.125rem 0.125rem #0CD664;
+}
+
+.emotion-2::-moz-focus-inner {
+  border: 0;
+}
+
+.emotion-2:disabled,
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.emotion-0 {
+  vertical-align: middle;
+}
+
+.emotion-1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-5 {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow: auto;
+  max-height: calc(100vh - 6.25rem);
+}
+
+.emotion-5:last-child::after {
+  content: '';
+  height: 2rem;
+  display: block;
+}
+
+@media (min-width:31.25em) {
+  .emotion-5 {
+    max-height: calc(92vh - 6.25rem);
+  }
+}
+
+@media (min-width:50em) {
+  .emotion-5 {
+    max-height: calc(84vh - 6.25rem);
+  }
+}
+
+@media (min-width:75em) {
+  .emotion-5 {
+    max-height: calc(80vh - 6.25rem);
+  }
+}
+
+.emotion-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  color: #FFF;
+}
+
+.emotion-4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #8697A2;
+}
+
+.emotion-7 {
+  margin: 0 auto;
+  position: relative;
+  max-width: 38rem;
+  padding: 1rem;
+  outline: none;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 400px;
+}
+
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      onScrollCapture={[Function]}
+      onTouchMoveCapture={[Function]}
+      onWheelCapture={[Function]}
+    >
+      <div
+        className="emotion-8"
+        data-reach-dialog-overlay={true}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+      >
+        <div
+          aria-modal="true"
+          className="emotion-7"
+          data-reach-dialog-content={true}
+          maxWidth={400}
+          onClick={[Function]}
+          tabIndex="-1"
+        >
+          <div
+            className="emotion-6"
+          >
+            <button
+              className="emotion-2"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="emotion-0"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.609 10L20 17.391 17.391 20 10 12.609 2.609 20 0 17.391 7.391 10 0 2.609 2.609 0 10 7.391 17.391 0 20 2.609z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+              <span
+                className="emotion-1"
+              >
+                Close dialog
+              </span>
+            </button>
+            <main
+              className="emotion-5"
+            >
+              <h1
+                className="emotion-3"
+              >
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <p
+                className="emotion-4"
+              >
+                Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat, varius enim eu, semper augue.
+              </p>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
