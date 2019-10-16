@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
+import { jsx } from '@emotion/core';
+import styled from '@emotion/styled';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Assets from '@heathmont/sportsbet-assets';
@@ -9,7 +10,7 @@ import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 
-import { syntaxStyles } from './prism';
+import { prismTheme, syntaxStyles } from './prism';
 
 type CodeProps = {
   codeString: string;
@@ -17,84 +18,84 @@ type CodeProps = {
   'react-live'?: boolean;
 };
 
-type HighlightProps = {
-  className: string;
-  tokens: [[string]];
-  getLineProps: ({ line, key }: { line: [string]; key: number }) => string;
-  getTokenProps: Function;
-};
-
 const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
 
-const codeWrapper: CSSObject = {
-  display: 'block',
-  border: codeBorder,
-  borderRadius: border.radius.small,
-  position: 'relative',
-  overflow: 'hidden',
-  '.prism-code:focus': {
-    outline: 'none',
-    boxShadow: `inset 0 0 3px ${colors.brand}`,
+const CodeWrapper = styled.div([
+  {
+    display: 'block',
+    border: codeBorder,
+    borderRadius: border.radius.small,
+    position: 'relative',
+    overflow: 'hidden',
+    '.prism-code:focus': {
+      outline: 'none',
+      boxShadow: `inset 0 0 3px ${colors.brand}`,
+    },
   },
-};
+  syntaxStyles,
+]);
 
-const liveCodePreview: CSSObject = {
+const CodePreview = styled.div({
   padding: Utils.spacing('large'),
   minHeight: Utils.spacing('xlarge'),
   fontFamily: typography.fontFamily,
   borderBottom: codeBorder,
   overflowY: 'scroll',
-};
+});
 
 /* Ensures that we can use `css` props + not have to worry about wrapper divs */
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const transformCode = (src: any) =>
-  `/** @jsx jsx */<React.Fragment>${src}</React.Fragment>`;
+const transformCode = (src: any) => `/** @jsx jsx */${src}`;
 
-export const Code = ({ codeString, language, ...props }: CodeProps) =>
+export const Code = ({ codeString, ...props }: CodeProps) =>
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line react/destructuring-assignment */
   props['react-live'] ? (
-    <LiveProvider
-      mountStylesheet={false}
-      code={codeString}
-      css={[codeWrapper, syntaxStyles]}
-      scope={{
-        jsx,
-        ...Assets,
-        ...Components,
-        ...Icons,
-        ...Objects,
-        ...Utils,
-        colors,
-      }}
-      transformCode={transformCode}
-    >
-      <LivePreview css={liveCodePreview} />
-      <div css={{ overflowY: 'scroll' }}>
-        <LiveEditor />
-      </div>
-      <LiveError />
-    </LiveProvider>
+    <CodeWrapper>
+      <LiveProvider
+        code={codeString}
+        scope={{
+          jsx,
+          ...Assets,
+          ...Components,
+          ...Icons,
+          ...Objects,
+          ...Utils,
+          colors,
+        }}
+        transformCode={transformCode}
+        theme={prismTheme}
+      >
+        <React.Fragment>
+          <CodePreview>
+            {typeof window !== 'undefined' && <LivePreview />}
+          </CodePreview>
+          <div css={{ overflowY: 'scroll' }}>
+            <LiveEditor />
+          </div>
+          <LiveError />
+        </React.Fragment>
+      </LiveProvider>
+    </CodeWrapper>
   ) : (
-    <div css={[codeWrapper, syntaxStyles]}>
+    <CodeWrapper>
       <Highlight
         {...defaultProps}
         code={codeString}
-        language={language}
-        theme={undefined}
+        language="jsx"
+        theme={prismTheme}
       >
-        {(pre: HighlightProps) => (
-          <pre className={pre.className}>
-            {pre.tokens.map((line, i) => (
-              <div {...pre.getLineProps({ line, key: i })}>
+        {({ className, style, tokens, getLineProps, getTokenProps }) => (
+          <pre className={className} style={style}>
+            {tokens.map((line, i) => (
+              <div {...getLineProps({ line, key: i })}>
                 {line.map((token, key) => (
-                  <span {...pre.getTokenProps({ token, key })} />
+                  <span {...getTokenProps({ token, key })} />
                 ))}
               </div>
             ))}
           </pre>
         )}
       </Highlight>
-    </div>
+    </CodeWrapper>
   );
