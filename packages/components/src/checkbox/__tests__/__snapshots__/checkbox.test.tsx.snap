@@ -16,7 +16,6 @@ exports[`Checkbox renders as disabled 1`] = `
   height: 1.25rem;
   width: 1.25rem;
   position: relative;
-  margin-right: 1rem;
   padding: 0.125rem;
   background-clip: content-box;
   -webkit-align-self: center;
@@ -43,6 +42,7 @@ exports[`Checkbox renders as disabled 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  margin-left: 1rem;
   color: #353C44;
 }
 
@@ -50,15 +50,14 @@ exports[`Checkbox renders as disabled 1`] = `
   className="emotion-2"
 >
   <input
-    aria-label="I agree to the Terms & Conditions"
     className="emotion-0"
     disabled={true}
-    id="Checkbox-i-agree-to-the-terms-conditions"
+    id="Checkbox-Test2"
     type="checkbox"
   />
   <label
     className="emotion-1"
-    htmlFor="Checkbox-i-agree-to-the-terms-conditions"
+    htmlFor="Checkbox-Test2"
   >
     I agree to the Terms & Conditions
   </label>
@@ -81,7 +80,6 @@ exports[`Checkbox renders by default 1`] = `
   height: 1.25rem;
   width: 1.25rem;
   position: relative;
-  margin-right: 1rem;
   padding: 0.125rem;
   background-clip: content-box;
   -webkit-align-self: center;
@@ -108,6 +106,7 @@ exports[`Checkbox renders by default 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  margin-left: 1rem;
   color: #8697A2;
 }
 
@@ -115,22 +114,93 @@ exports[`Checkbox renders by default 1`] = `
   className="emotion-2"
 >
   <input
-    aria-label="I agree to the Terms & Conditions"
     className="emotion-0"
     disabled={false}
-    id="Checkbox-i-agree-to-the-terms-conditions"
+    id="Checkbox-Test1"
     type="checkbox"
   />
   <label
     className="emotion-1"
-    htmlFor="Checkbox-i-agree-to-the-terms-conditions"
+    htmlFor="Checkbox-Test1"
   >
     I agree to the Terms & Conditions
   </label>
 </div>
 `;
 
-exports[`Checkbox renders with hidden label 1`] = `
+exports[`Checkbox renders label with HTML 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  padding: 0.125rem;
+  background-clip: content-box;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 1px solid #3D434B;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.emotion-0:checked {
+  background-color: #0CD664;
+}
+
+.emotion-0:disabled {
+  border-color: #353C44;
+  cursor: not-allowed;
+}
+
+.emotion-1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 1rem;
+  color: #8697A2;
+}
+
+<div
+  className="emotion-2"
+>
+  <input
+    className="emotion-0"
+    disabled={false}
+    id="Checkbox-Test4"
+    type="checkbox"
+  />
+  <label
+    className="emotion-1"
+    htmlFor="Checkbox-Test4"
+  >
+    <span>
+      This is a label with a 
+      <a
+        href="#test"
+      >
+        link
+      </a>
+      .
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Checkbox renders with hidden aria-label 1`] = `
 .emotion-1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -146,7 +216,6 @@ exports[`Checkbox renders with hidden label 1`] = `
   height: 1.25rem;
   width: 1.25rem;
   position: relative;
-  margin-right: 1rem;
   padding: 0.125rem;
   background-clip: content-box;
   -webkit-align-self: center;
@@ -173,10 +242,10 @@ exports[`Checkbox renders with hidden label 1`] = `
   className="emotion-1"
 >
   <input
-    aria-label="I agree to the Terms & Conditions"
+    aria-label="This label is hidden"
     className="emotion-0"
     disabled={false}
-    id="Checkbox-i-agree-to-the-terms-conditions"
+    id="Checkbox-Test3"
     type="checkbox"
   />
 </div>
