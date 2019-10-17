@@ -9,6 +9,7 @@ import {
   breakpoints,
   colors,
   spacing as spacingTokens,
+  zIndex,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 
@@ -30,22 +31,25 @@ export const DialogOverlay = styled(ReachDialogOverlay)({
   left: '0',
   overflow: 'hidden',
   backgroundColor: rgba(colors.palette.hit[100], 0.75),
-  zIndex: 10000,
+  zIndex: zIndex.dialog,
 });
 
+/**
+ * 1. Arbitrary figure from design.
+ */
 export const DialogContent = styled(ReachDialogContent)<
   DialogMaxWidth & DialogLongForm
 >([
   {
     margin: '0 auto',
     position: 'relative',
-    maxWidth: rem(608),
+    maxWidth: rem(608) /* [1] */,
     padding: spacing('default'),
     outline: 'none',
     top: '50%',
     transform: 'translateY(-50%)',
   },
-  ({ longForm }) => longForm && { maxWidth: rem(752) },
+  ({ longForm }) => longForm && { maxWidth: rem(752) } /* [1] */,
   ({ maxWidth }) => ({ maxWidth }),
 ]);
 
