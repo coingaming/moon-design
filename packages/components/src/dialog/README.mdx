@@ -1,0 +1,154 @@
+---
+name: Dialog
+menu: Components
+route: /components/dialog
+---
+
+# Dialog
+
+A small pop-up window to display additional content or request action from the
+user.
+
+For consistency, make use of the additional `DialogHeading` and `DialogText`
+components for content; using these inside a [`Stack`](/objects/stack)
+will offer the bonus of consistent vertical rhythm.
+
+```jsx react-live
+() => {
+  const [state, setState] = React.useState({ showDialog: false });
+
+  return (
+    <>
+      <Button
+        modifier="secondary"
+        onClick={() => setState({ showDialog: true })}
+      >
+        Open Dialog
+      </Button>
+      <Dialog state={state} setState={setState}>
+        <Stack>
+          <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
+          <DialogText>
+            Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
+            laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
+            nisl volutpat, varius enim eu, semper augue.
+          </DialogText>
+        </Stack>
+      </Dialog>
+    </>
+  );
+};
+```
+
+## State
+
+State of the dialog is handled via
+[`state` and `setState`](https://reactjs.org/docs/state-and-lifecycle.html)
+props, following the schema of `{showDialog: true | false}`.
+
+Examples on this page show usage with
+[React Hooks](https://reactjs.org/docs/hooks-intro.html), but this could also be
+handled via higher-order components or libaries such as
+[Recompose](https://github.com/acdlite/recompose).
+
+## Footer
+
+For cases where a dialog requires additional action from the user, elements such
+as buttons can be passed into the `footer` prop.
+
+```jsx react-live
+() => {
+  const [state, setState] = React.useState({ showDialog: false });
+
+  return (
+    <>
+      <Button
+        modifier="secondary"
+        onClick={() => setState({ showDialog: true })}
+      >
+        Open Dialog
+      </Button>
+      <Dialog
+        state={state}
+        setState={setState}
+        footer={
+          <Stack direction="horizontal" space={spacing('small')}>
+            <Button modifier="primary">Save</Button>
+            <Button modifier="secondary">Cancel</Button>
+          </Stack>
+        }
+      >
+        <Stack>
+          <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
+          <DialogText>
+            Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
+            laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
+            nisl volutpat, varius enim eu, semper augue.
+          </DialogText>
+        </Stack>
+      </Dialog>
+    </>
+  );
+};
+```
+
+## Long-form Content
+
+For larger amounts of content, such as "Terms & Conditions", the `longForm`
+prop provides a larger surface area to ease readability.
+
+```jsx react-live
+() => {
+  const [state, setState] = React.useState({ showDialog: false });
+
+  return (
+    <>
+      <Button
+        modifier="secondary"
+        onClick={() => setState({ showDialog: true })}
+      >
+        Open Dialog
+      </Button>
+      <Dialog longForm state={state} setState={setState}>
+        <Stack>
+          <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
+          <DialogText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            risus nisi, ullamcorper quis imperdiet eu, venenatis eget dolor.
+            Quisque vitae lorem justo. Proin pretium pulvinar nibh ut rhoncus.
+            Donec suscipit ex in turpis rhoncus sagittis. Integer ac metus non
+            mauris pretium ultricies. Ut imperdiet dictum fringilla. Suspendisse
+            tempus lorem ac mi laoreet cursus. Curabitur turpis libero, posuere
+            convallis ornare eu, facilisis sollicitudin tortor. Morbi lorem leo,
+            tempor eleifend dolor varius, iaculis posuere lorem. Nulla eget odio
+            ut velit pharetra placerat nec quis nunc. Donec pharetra faucibus
+            egestas. In fermentum, justo quis lacinia molestie, enim sapien
+            semper eros, a sodales sem magna quis libero. Morbi nec neque felis.
+            Morbi sapien turpis, sollicitudin id arcu vitae, dignissim efficitur
+            ligula. Nam placerat quis massa elementum euismod. Nulla facilisi.
+            Pellentesque eleifend nunc id nunc rutrum tincidunt. Aenean metus
+            erat, malesuada scelerisque gravida eu, lobortis id turpis. Aenean
+            imperdiet libero a gravida dignissim. In hac habitasse platea
+            dictumst. Aenean non pretium nunc, ac hendrerit augue. Sed porttitor
+            commodo orci eget maximus. Duis sit amet lacus nibh. Duis eu turpis
+            ut tortor scelerisque mollis. Praesent eget turpis eget orci
+            tincidunt ultricies sed vitae ante. Nulla bibendum pretium dui, at
+            volutpat velit tristique eget. Donec eget tempor felis, ut
+            scelerisque nunc. Suspendisse potenti. Curabitur id aliquet odio, eu
+            rutrum velit. Curabitur et lacinia metus. Cras orci velit, congue
+            sed suscipit in, iaculis nec metus. Vivamus at nisl nulla. Donec ac
+            congue lacus, nec auctor nulla. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus.
+          </DialogText>
+        </Stack>
+      </Dialog>
+    </>
+  );
+};
+```
+
+## Customization
+
+To adjust the dialog's default appearance for individual use-cases, make use of:
+
+- `maxWidth`: adjusts the overall maximum width of the dialog window.

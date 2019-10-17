@@ -18,6 +18,8 @@ export * from './carousel/carousel';
 export * from './carousel/control';
 export * from './carousel/types';
 export * from './checkbox/checkbox';
+export * from './dialog/dialog';
+export * from './dialog/typography';
 export * from './file-input/file-input';
 export * from './form/error';
 export * from './form/form';
