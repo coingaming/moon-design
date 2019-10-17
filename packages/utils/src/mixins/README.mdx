@@ -37,9 +37,17 @@ Returns a given [container "key"](/tokens#container) value as a `rem`-based `max
 `container()` will also accept any pixel value (as a `number`) and convert to `rem`.
 
 ```jsx react-live
-<div css={{...container(), border: '1px solid white'}}>"default" Container</div>
-<div css={{...container('large'), border: '1px solid white'}}>"large" Container</div>
-<div css={{...container(300), border: '1px solid white'}}>300px Container (in REM)</div>
+<>
+  <div css={{ ...container(), border: '1px solid white' }}>
+    "default" Container
+  </div>
+  <div css={{ ...container('large'), border: '1px solid white' }}>
+    "large" Container
+  </div>
+  <div css={{ ...container(300), border: '1px solid white' }}>
+    300px Container (in REM)
+  </div>
+</>
 ```
 
 ### Padding
@@ -51,9 +59,17 @@ This padding can be altered in the second argument, either as a `spacing` token
 key or a pixel value (as a `number`) which will be convert to `rem`
 
 ```jsx react-live
-<div css={{...container('default', 'large'), border: '1px solid white'}}>"default" Container and "large" padding</div>
-<div css={{...container('default', 50), border: '1px solid white'}}>"default" Container and 50px padding (in REM)</div>
-<div css={{...container('default', 0), border: '1px solid white'}}>"default" Container with no padding</div>
+<>
+  <div css={{ ...container('default', 'large'), border: '1px solid white' }}>
+    "default" Container and "large" padding
+  </div>
+  <div css={{ ...container('default', 50), border: '1px solid white' }}>
+    "default" Container and 50px padding (in REM)
+  </div>
+  <div css={{ ...container('default', 0), border: '1px solid white' }}>
+    "default" Container with no padding
+  </div>
+</>
 ```
 
 ## Disabled
@@ -67,8 +83,14 @@ Apply common disabled styles to UI elements such as buttons and forms.
 `disabled()` will also accept any CSS (as an object) and return it inside disabled selectors.
 
 ```jsx react-live
-<button disabled css={{...disabled()}}>Submit</button>
-<button disabled css={{...disabled({color: 'white'})}}>Submit</button>
+<>
+  <button disabled css={{ ...disabled() }}>
+    Submit
+  </button>
+  <button disabled css={{ ...disabled({ color: 'white' }) }}>
+    Submit
+  </button>
+</>
 ```
 
 ## Focus
@@ -82,8 +104,10 @@ Override browser-default `:focus` styles to the preferred appearance.
 By default `focus()` this renders with the `brand` color, but an alternative color can be supplied.
 
 ```jsx react-live
-<button css={{...focus()}}>Focus on to me</button>
-<button css={{...focus('rebeccapurple')}}>Focus on to me</button>
+<>
+  <button css={{ ...focus() }}>Focus on to me</button>
+  <button css={{ ...focus('rebeccapurple') }}>Focus on to me</button>
+</>
 ```
 
 If you just want to remove the browser default styles and create your own, you
