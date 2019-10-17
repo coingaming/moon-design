@@ -1,105 +1,156 @@
-import { css } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import { colors } from '@heathmont/sportsbet-tokens';
+import { PrismTheme } from 'prism-react-renderer';
 
-/**
- * Modified Prism Theme
- *
- * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
- * Based on https://github.com/chriskempson/tomorrow-theme
- * @author Rose Pritchard
- */
-export const syntaxStyles = css`
-  code,
-  pre {
-    color: #ccc;
-    background: none;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    font-size: 0.8rem;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-    tab-size: 4;
-    hyphens: none;
-  }
-  /* Code blocks */
-  pre {
-    padding: 1em;
-    overflow: auto;
-    margin-bottom: 0;
-  }
-  :not(pre) > code,
-  pre {
-    background: ${colors.neutral[70]};
-  }
-  /* Inline code */
-  :not(pre) > code {
-    padding: 0.1em;
-    border-radius: 0.3em;
-    white-space: normal;
-  }
-  .token.comment,
-  .token.block-comment,
-  .token.prolog,
-  .token.doctype,
-  .token.cdata {
-    color: #999;
-  }
-  .token.punctuation {
-    color: #ccc;
-  }
-  .token.tag,
-  .token.attr-name,
-  .token.namespace,
-  .token.deleted {
-    color: #e2777a;
-  }
-  .token.function-name {
-    color: #6196cc;
-  }
-  .token.boolean,
-  .token.number,
-  .token.function {
-    color: #f08d49;
-  }
-  .token.property,
-  .token.class-name,
-  .token.constant,
-  .token.symbol {
-    color: #f8c555;
-  }
-  .token.selector,
-  .token.important,
-  .token.atrule,
-  .token.keyword,
-  .token.builtin {
-    color: #cc99cd;
-  }
-  .token.string,
-  .token.char,
-  .token.attr-value,
-  .token.regex,
-  .token.variable {
-    color: #7ec699;
-  }
-  .token.operator,
-  .token.entity,
-  .token.url {
-    color: #67cdcc;
-  }
-  .token.important,
-  .token.bold {
-    font-weight: bold;
-  }
-  .token.italic {
-    font-style: italic;
-  }
-  .token.entity {
-    cursor: help;
-  }
-  .token.inserted {
-    color: green;
-  }
-`;
+export const syntaxStyles: CSSObject = {
+  pre: { padding: '1em', overflow: 'auto', marginBottom: '0' },
+};
+
+// Adjusted "Oceanic Next"
+// Author: Dmitri Voronianski (https://github.com/voronianski)
+// https://github.com/voronianski/oceanic-next-color-scheme
+// Adapted from: https://github.com/reactjs/reactjs.org/blob/428d52b/src/prism-styles.js
+
+const prismThemeColors = {
+  char: '#D8DEE9',
+  comment: '#999999',
+  keyword: '#c5a5c5',
+  primitive: '#5a9bcf',
+  string: '#8dc891',
+  variable: '#d7deea',
+  boolean: '#ff8b50',
+  punctuation: '#5FB3B3',
+  tag: '#fc929e',
+  function: '#79b6f2',
+  className: '#FAC863',
+  method: '#6699CC',
+  operator: '#fc929e',
+};
+
+export const prismTheme: PrismTheme = {
+  plain: {
+    backgroundColor: colors.background,
+    color: colors.text,
+    fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
+    fontSize: '0.8rem',
+    lineHeight: 1.5,
+    textAlign: 'left',
+    whiteSpace: 'pre',
+    wordSpacing: 'normal',
+    wordBreak: 'normal',
+    wordWrap: 'normal',
+    tabSize: '4',
+    hyphens: 'none',
+  },
+  styles: [
+    {
+      types: ['attr-name'],
+      style: {
+        color: prismThemeColors.keyword,
+      },
+    },
+    {
+      types: ['attr-value'],
+      style: {
+        color: prismThemeColors.string,
+      },
+    },
+    {
+      types: ['comment', 'block-comment', 'prolog', 'doctype', 'cdata'],
+      style: {
+        color: prismThemeColors.comment,
+      },
+    },
+    {
+      types: [
+        'property',
+        'number',
+        'function-name',
+        'constant',
+        'symbol',
+        'deleted',
+      ],
+      style: {
+        color: prismThemeColors.primitive,
+      },
+    },
+    {
+      types: ['boolean'],
+      style: {
+        color: prismThemeColors.boolean,
+      },
+    },
+    {
+      types: ['tag'],
+      style: {
+        color: prismThemeColors.tag,
+      },
+    },
+    {
+      types: ['string'],
+      style: {
+        color: prismThemeColors.string,
+      },
+    },
+    {
+      types: ['punctuation'],
+      style: {
+        color: prismThemeColors.string,
+      },
+    },
+    {
+      types: ['selector', 'char', 'builtin', 'inserted'],
+      style: {
+        color: prismThemeColors.char,
+      },
+    },
+    {
+      types: ['function'],
+      style: {
+        color: prismThemeColors.function,
+      },
+    },
+    {
+      types: ['operator', 'entity', 'url', 'variable'],
+      style: {
+        color: prismThemeColors.variable,
+      },
+    },
+    {
+      types: ['keyword'],
+      style: {
+        color: prismThemeColors.keyword,
+      },
+    },
+    {
+      types: ['at-rule', 'class-name'],
+      style: {
+        color: prismThemeColors.className,
+      },
+    },
+    {
+      types: ['important'],
+      style: {
+        fontWeight: '400',
+      },
+    },
+    {
+      types: ['bold'],
+      style: {
+        fontWeight: 'bold',
+      },
+    },
+    {
+      types: ['italic'],
+      style: {
+        fontStyle: 'italic',
+      },
+    },
+    {
+      types: ['namespace'],
+      style: {
+        opacity: 0.7,
+      },
+    },
+  ],
+};
