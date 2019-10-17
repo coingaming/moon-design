@@ -7,8 +7,27 @@ route: /utils/helpers
 import { Playground } from 'docs';
 import { em } from './em';
 import { rem } from './rem';
+import { uniqueId } from './unique-id';
 
 # Helpers
+
+## Unique ID
+
+```js
+import { uniqueId } from '@heathmont/sportsbet-utils';
+```
+
+Generates a unique identifier to facilitate conformity with web content
+accessibility guidelines.
+
+Specifially useful for automatically adding `id`s to more complex areas of UI
+such as forms.
+
+<Playground>
+  <p>
+    <code>`Example-${'{uniqueId()}'}`</code> generates {`Example-${uniqueId()}`}
+  </p>
+</Playground>
 
 ## Spacing
 
