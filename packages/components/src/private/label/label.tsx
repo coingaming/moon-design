@@ -14,7 +14,7 @@ jsx;
 /**
  * Types
  */
-type LabelTextProps = {
+type LabelContentProps = {
   flex?: boolean;
   disabled?: boolean;
 };
@@ -24,9 +24,14 @@ type LabelSizing = {
   inputGrow?: number;
 };
 
+/**
+ * Types (Exported)
+ */
+type LabelText = string | JSX.Element[] | JSX.Element;
+
 type LabelProps = LabelSizing & {
   disabled?: boolean;
-  text: string;
+  text: LabelText;
   inline?: boolean;
   htmlFor?: string;
 };
@@ -34,7 +39,7 @@ type LabelProps = LabelSizing & {
 /**
  * Styles
  */
-const LabelText = styled.span<LabelTextProps>(({ disabled, flex }) => [
+const LabelContent = styled.span<LabelContentProps>(({ disabled, flex }) => [
   {
     display: 'block',
     marginBottom: spacing('small'),
@@ -81,13 +86,13 @@ const Label: React.FC<LabelProps> = ({
     <label {...props}>{text}</label>
   ) : (
     <label css={flex && labelFlex(inputGrow)} {...props}>
-      <LabelText disabled={disabled} flex={flex}>
+      <LabelContent disabled={disabled} flex={flex}>
         {text}
-      </LabelText>
+      </LabelContent>
       {React.Children.only(children)}
     </label>
   );
   /* eslint-enable jsx-a11y/label-has-associated-control */
 };
 
-export { Label, LabelProps, LabelSizing };
+export { Label, LabelText, LabelProps, LabelSizing };
