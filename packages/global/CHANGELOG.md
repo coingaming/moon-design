@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.92.0](https://github.com/coingaming/sportsbet-design/compare/v0.91.0...v0.92.0) (2019-10-17)
+
+
+### Features
+
+* **dialog:** create component ([7b2d3c5](https://github.com/coingaming/sportsbet-design/commit/7b2d3c5))
+
+
+
+
+
 # [0.91.0](https://github.com/coingaming/sportsbet-design/compare/v0.90.2...v0.91.0) (2019-10-09)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
