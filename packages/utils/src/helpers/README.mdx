@@ -7,8 +7,27 @@ route: /utils/helpers
 import { Playground } from 'docs';
 import { em } from './em';
 import { rem } from './rem';
+import { uuid } from './uuid';
 
 # Helpers
+
+## UUID
+
+```js
+import { uuid } from '@heathmont/sportsbet-utils';
+```
+
+Generates a universally unique identifier (UUID) to facilitate conformity with
+web content accessibility guidelines.
+
+Specifially useful for automatically adding `id`s to more complex areas of UI
+such as forms.
+
+<Playground>
+  <p>
+    <code>`Example-${'{uuid()}'}`</code> generates {`Example-${uuid()}`}
+  </p>
+</Playground>
 
 ## Spacing
 
