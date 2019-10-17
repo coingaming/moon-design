@@ -7,8 +7,27 @@ route: /utils/helpers
 import { Playground } from 'docs';
 import { em } from './em';
 import { rem } from './rem';
+import { uniqueId } from './unique-id';
 
 # Helpers
+
+## Unique ID
+
+```js
+import { uniqueId } from '@heathmont/sportsbet-utils';
+```
+
+Generates a unique identifier to facilitate conformity with web content
+accessibility guidelines.
+
+Specifially useful for automatically adding `id`s to more complex areas of UI
+such as forms.
+
+<Playground>
+  <p>
+    <code>`Example-${'{uniqueId()}'}`</code> generates {`Example-${uniqueId()}`}
+  </p>
+</Playground>
 
 ## Spacing
 
@@ -22,9 +41,15 @@ Using `spacing()` is encouraged over using the tokens directly and can be reset
 as `spacing(0)`.
 
 ```jsx react-live
-<div css={{padding: spacing(), border: '1px solid white'}}>Default</div>
-<div css={{padding: spacing('small'), border: '1px solid white'}}>Small</div>
-<div css={{padding: spacing('large'), border: '1px solid white'}}>Large</div>
+<>
+  <div css={{ padding: spacing(), border: '1px solid white' }}>Default</div>
+  <div css={{ padding: spacing('small'), border: '1px solid white' }}>
+    Small
+  </div>
+  <div css={{ padding: spacing('large'), border: '1px solid white' }}>
+    Large
+  </div>
+</>
 ```
 
 ## EM
