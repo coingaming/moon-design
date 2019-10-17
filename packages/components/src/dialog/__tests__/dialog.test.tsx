@@ -7,6 +7,9 @@ import { DialogHeading, DialogText } from '../typography';
 
 /**
  * Setup
+ *
+ * Prevent Reach UI from injecting its own styles.
+ * https://ui.reach.tech/styling/
  */
 const Setup = ({ children }: any) => (
   <>
@@ -15,6 +18,20 @@ const Setup = ({ children }: any) => (
   </>
 );
 
+const ExampleHeading = () => (
+  <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
+);
+const ExampleText = () => (
+  <DialogText>
+    Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet
+    lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat,
+    varius enim eu, semper augue.
+  </DialogText>
+);
+
+/**
+ * Mocks
+ */
 jest.mock('@reach/portal', () => {
   return ({ children, ref }: any) => <div ref={ref}>{children}</div>;
 });
@@ -45,12 +62,8 @@ describe('Dialog', () => {
       const dialog = create(
         <Setup>
           <Dialog state={{ showDialog: false }}>
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
@@ -62,12 +75,8 @@ describe('Dialog', () => {
       const dialog = create(
         <Setup>
           <Dialog state={{ showDialog: true }}>
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
@@ -80,7 +89,7 @@ describe('Dialog', () => {
     const dialog = create(
       <Setup>
         <Dialog state={{ showDialog: true }} maxWidth={400}>
-          <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
+          <ExampleHeading />
           <DialogText>
             Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
             laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
@@ -98,12 +107,8 @@ describe('Dialog', () => {
       const dialog = create(
         <Setup>
           <Dialog state={{ showDialog: true }} longForm>
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
@@ -115,12 +120,8 @@ describe('Dialog', () => {
       const dialog = create(
         <Setup>
           <Dialog state={{ showDialog: true }} longForm maxWidth={420}>
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
@@ -137,12 +138,8 @@ describe('Dialog', () => {
             state={{ showDialog: true }}
             footer={<button type="button">Close</button>}
           >
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
@@ -158,12 +155,8 @@ describe('Dialog', () => {
             longForm
             footer={<button type="button">Close</button>}
           >
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
@@ -179,12 +172,8 @@ describe('Dialog', () => {
             footer={<button type="button">Close</button>}
             maxWidth={420}
           >
-            <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-            <DialogText>
-              Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-              laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-              nisl volutpat, varius enim eu, semper augue.
-            </DialogText>
+            <ExampleHeading />
+            <ExampleText />
           </Dialog>
         </Setup>
       );
