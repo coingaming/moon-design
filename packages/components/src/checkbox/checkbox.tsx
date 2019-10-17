@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { jsx, CSSObject } from '@emotion/core';
 import size from 'polished/lib/shorthands/size';
 import { colors, border } from '@heathmont/sportsbet-tokens';
-import { rem, spacing } from '@heathmont/sportsbet-utils';
+import { rem, spacing, uniqueId } from '@heathmont/sportsbet-utils';
 
 import { Label, LabelText } from '../private/label/label';
 import { inputBorder, inputColors } from '../private/input/settings';
@@ -18,14 +18,6 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   ariaLabel?: string;
   disabled?: boolean;
 };
-
-/**
- * Functions
- */
-const uuid = (): string =>
-  Math.random()
-    .toString(36)
-    .substr(2, 9);
 
 /**
  * Styles
@@ -71,7 +63,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
   label,
   ...inputProps
 }) => {
-  const autoId = id || `Checkbox-${uuid()}`;
+  const autoId = id || `Checkbox-${uniqueId()}`;
 
   return (
     <CheckboxContainer>
