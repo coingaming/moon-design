@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.92.2](https://github.com/coingaming/sportsbet-design/compare/v0.92.1...v0.92.2) (2019-10-18)
+
+
+### Bug Fixes
+
+* **dialog:** prevent prop forwarding ([156a5a2](https://github.com/coingaming/sportsbet-design/commit/156a5a2))
+* wrap all README examples with an element ([593f29e](https://github.com/coingaming/sportsbet-design/commit/593f29e))
+
+
+
+
+
 ## [0.92.1](https://github.com/coingaming/sportsbet-design/compare/v0.92.0...v0.92.1) (2019-10-18)
 
 **Note:** Version bump only for package Sportsbet.io
