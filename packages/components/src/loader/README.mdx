@@ -12,15 +12,17 @@ import { colors } from '@heathmont/sportsbet-tokens';
 Pure CSS loading animation
 
 ```jsx react-live
-<Loader color={colors.neutral[10]}/>
-<Loader color={colors.brand}/>
+<Stack direction="horizontal">
+  <Loader color={colors.neutral[10]} />
+  <Loader color={colors.brand} />
+</Stack>
 ```
 
 ```jsx react-live
-<Button modifier="primary">
-  Default
-</Button>
-<Button modifier="primary" progress>
-  Default
-</Button>
+<Stack direction="horizontal">
+  <Button modifier="primary">Default</Button>
+  <Button modifier="primary" progress>
+    Default
+  </Button>
+</Stack>
 ```
