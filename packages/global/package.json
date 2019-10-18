@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-global",
-  "version": "0.92.0",
+  "version": "0.92.3",
   "files": [
     "lib"
   ],
@@ -13,7 +13,7 @@
     "@emotion/core": "10.0.10",
     "@heathmont/sportsbet-fonts": "^0.92.0",
     "@heathmont/sportsbet-tokens": "^0.92.0",
-    "@heathmont/sportsbet-utils": "^0.92.0",
+    "@heathmont/sportsbet-utils": "^0.92.3",
     "focus-visible": "5.0.2"
   },
   "peerDependencies": {
