@@ -15,17 +15,14 @@ will offer the bonus of consistent vertical rhythm.
 
 ```jsx react-live
 () => {
-  const [state, setState] = React.useState({ showDialog: false });
+  const [showDialog, setShowDialog] = React.useState(false);
 
   return (
     <>
-      <Button
-        modifier="secondary"
-        onClick={() => setState({ showDialog: true })}
-      >
+      <Button modifier="secondary" onClick={() => setShowDialog(true)}>
         Open Dialog
       </Button>
-      <Dialog state={state} setState={setState}>
+      <Dialog isOpen={showDialog} onDismiss={() => setShowDialog(false)}>
         <Stack>
           <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
           <DialogText>
@@ -42,9 +39,9 @@ will offer the bonus of consistent vertical rhythm.
 
 ## State
 
-State of the dialog is handled via
-[`state` and `setState`](https://reactjs.org/docs/state-and-lifecycle.html)
-props, following the schema of `{showDialog: true | false}`.
+Dialog is a styled extension of Reach UI's "Dialog" component, with state
+handled via `isOpen` and `onDismiss`. More information on these props, can be
+found in the [Reach UI documentation](https://ui.reach.tech/dialog).
 
 Examples on this page show usage with
 [React Hooks](https://reactjs.org/docs/hooks-intro.html), but this could also be
@@ -58,23 +55,26 @@ as buttons can be passed into the `footer` prop.
 
 ```jsx react-live
 () => {
-  const [state, setState] = React.useState({ showDialog: false });
+  const [showDialog, setShowDialog] = React.useState(false);
+  const open = () => setShowDialog(true);
+  const close = () => setShowDialog(false);
 
   return (
     <>
-      <Button
-        modifier="secondary"
-        onClick={() => setState({ showDialog: true })}
-      >
+      <Button modifier="secondary" onClick={open}>
         Open Dialog
       </Button>
       <Dialog
-        state={state}
-        setState={setState}
+        isOpen={showDialog}
+        onDismiss={close}
         footer={
           <Stack direction="horizontal" space={spacing('small')}>
-            <Button modifier="primary">Save</Button>
-            <Button modifier="secondary">Cancel</Button>
+            <Button modifier="primary" onClick={close}>
+              Save
+            </Button>
+            <Button modifier="secondary" onClick={close}>
+              Cancel
+            </Button>
           </Stack>
         }
       >
@@ -99,17 +99,18 @@ prop provides a larger surface area to ease readability.
 
 ```jsx react-live
 () => {
-  const [state, setState] = React.useState({ showDialog: false });
+  const [showDialog, setShowDialog] = React.useState(false);
 
   return (
     <>
-      <Button
-        modifier="secondary"
-        onClick={() => setState({ showDialog: true })}
-      >
+      <Button modifier="secondary" onClick={() => setShowDialog(true)}>
         Open Dialog
       </Button>
-      <Dialog longForm state={state} setState={setState}>
+      <Dialog
+        longForm
+        isOpen={showDialog}
+        onDismiss={() => setShowDialog(false)}
+      >
         <Stack>
           <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
           <DialogText>
