@@ -12,6 +12,7 @@ import {
   zIndex,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
+import isPropValid from '@emotion/is-prop-valid';
 
 import { DialogLongForm, DialogMaxWidth } from './types';
 
@@ -23,7 +24,10 @@ import { DialogLongForm, DialogMaxWidth } from './types';
  * https://ui.reach.tech/dialog/
  */
 
-export const DialogOverlay = styled(ReachDialogOverlay)({
+export const DialogOverlay = styled(ReachDialogOverlay, {
+  shouldForwardProp: prop =>
+    isPropValid(prop) || ['onDismiss', 'isOpen'].includes(prop),
+})({
   position: 'fixed',
   top: '0',
   right: '0',
@@ -37,9 +41,9 @@ export const DialogOverlay = styled(ReachDialogOverlay)({
 /**
  * 1. Arbitrary figure from design.
  */
-export const DialogContent = styled(ReachDialogContent)<
-  DialogMaxWidth & DialogLongForm
->([
+export const DialogContent = styled(ReachDialogContent, {
+  shouldForwardProp: prop => isPropValid(prop),
+})<DialogMaxWidth & DialogLongForm>([
   {
     margin: '0 auto',
     position: 'relative',
