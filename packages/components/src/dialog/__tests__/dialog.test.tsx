@@ -61,7 +61,7 @@ describe('Dialog', () => {
     test('renders as hidden', () => {
       const dialog = create(
         <Setup>
-          <Dialog state={{ showDialog: false }}>
+          <Dialog>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
@@ -74,7 +74,7 @@ describe('Dialog', () => {
     test('renders as visible when `showDialog` is set to `true`', () => {
       const dialog = create(
         <Setup>
-          <Dialog state={{ showDialog: true }}>
+          <Dialog isOpen>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
@@ -88,7 +88,7 @@ describe('Dialog', () => {
   test('renders with custom `maxWidth`', () => {
     const dialog = create(
       <Setup>
-        <Dialog state={{ showDialog: true }} maxWidth={400}>
+        <Dialog isOpen maxWidth={400}>
           <ExampleHeading />
           <DialogText>
             Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
@@ -106,7 +106,7 @@ describe('Dialog', () => {
     test('renders with `longForm` template', () => {
       const dialog = create(
         <Setup>
-          <Dialog state={{ showDialog: true }} longForm>
+          <Dialog isOpen longForm>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
@@ -119,7 +119,7 @@ describe('Dialog', () => {
     test('overriden by custom `maxWidth`', () => {
       const dialog = create(
         <Setup>
-          <Dialog state={{ showDialog: true }} longForm maxWidth={420}>
+          <Dialog isOpen longForm maxWidth={420}>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
@@ -134,10 +134,7 @@ describe('Dialog', () => {
     test('renders with `footer`', () => {
       const dialog = create(
         <Setup>
-          <Dialog
-            state={{ showDialog: true }}
-            footer={<button type="button">Close</button>}
-          >
+          <Dialog isOpen footer={<button type="button">Close</button>}>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
@@ -150,11 +147,7 @@ describe('Dialog', () => {
     test('renders with `longForm` template and `footer`', () => {
       const dialog = create(
         <Setup>
-          <Dialog
-            state={{ showDialog: true }}
-            longForm
-            footer={<button type="button">Close</button>}
-          >
+          <Dialog isOpen longForm footer={<button type="button">Close</button>}>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
@@ -168,7 +161,7 @@ describe('Dialog', () => {
       const dialog = create(
         <Setup>
           <Dialog
-            state={{ showDialog: true }}
+            isOpen
             footer={<button type="button">Close</button>}
             maxWidth={420}
           >
