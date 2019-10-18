@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { IconClose } from '@heathmont/sportsbet-icons';
+import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
 import { DialogLongForm, DialogMaxWidth } from './private/types';
@@ -11,17 +12,10 @@ import {
   DialogOverlay,
 } from './private/layout';
 
-type DialogState = {
-  showDialog: boolean;
-};
-
-type DialogSetState = (state: DialogState) => any;
-
 export type DialogProps = {
-  state: DialogState;
-  setState?: DialogSetState;
   footer?: JSX.Element[] | JSX.Element;
-} & DialogLongForm &
+} & ReachDialogProps &
+  DialogLongForm &
   DialogMaxWidth;
 
 export const Dialog: React.FC<DialogProps> = ({
@@ -29,19 +23,13 @@ export const Dialog: React.FC<DialogProps> = ({
   footer,
   longForm,
   maxWidth,
-  state,
-  setState,
+  isOpen,
+  onDismiss,
 }) => (
-  <DialogOverlay
-    isOpen={state.showDialog}
-    onDismiss={() => setState && setState({ showDialog: false })}
-  >
+  <DialogOverlay isOpen={isOpen && isOpen} onDismiss={onDismiss && onDismiss}>
     <DialogContent longForm={longForm} maxWidth={maxWidth}>
       <DialogContainer>
-        <DialogToggle
-          type="button"
-          onClick={() => setState && setState({ showDialog: false })}
-        >
+        <DialogToggle type="button" onClick={onDismiss && onDismiss}>
           <IconClose />
           <DialogToggleText>Close dialog</DialogToggleText>
         </DialogToggle>
@@ -53,7 +41,5 @@ export const Dialog: React.FC<DialogProps> = ({
 );
 
 Dialog.defaultProps = {
-  state: {
-    showDialog: false,
-  },
+  isOpen: false,
 };
