@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-components",
-  "version": "0.92.2",
+  "version": "0.92.3",
   "files": [
     "lib"
   ],
@@ -17,10 +17,10 @@
     "@emotion/core": "10.0.10",
     "@emotion/is-prop-valid": "0.7.3",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-icons": "^0.92.0",
-    "@heathmont/sportsbet-objects": "^0.92.0",
+    "@heathmont/sportsbet-icons": "^0.92.3",
+    "@heathmont/sportsbet-objects": "^0.92.3",
     "@heathmont/sportsbet-tokens": "^0.92.0",
-    "@heathmont/sportsbet-utils": "^0.92.0",
+    "@heathmont/sportsbet-utils": "^0.92.3",
     "@reach/dialog": "0.3.0",
     "polished": "3.4.1"
   },
