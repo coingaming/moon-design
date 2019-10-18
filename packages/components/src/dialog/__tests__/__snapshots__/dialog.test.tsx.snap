@@ -161,7 +161,6 @@ exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
@@ -369,7 +368,6 @@ exports[`Dialog footer renders with \`footer\` 1`] = `
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
@@ -597,7 +595,6 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
@@ -816,7 +813,6 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
@@ -1041,7 +1037,6 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
@@ -1255,7 +1250,6 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
@@ -1460,7 +1454,6 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
           >
             <button
               className="emotion-2"
-              onClick={[Function]}
               type="button"
             >
               <svg
