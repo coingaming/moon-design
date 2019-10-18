@@ -586,7 +586,6 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
           aria-modal="true"
           className="emotion-8"
           data-reach-dialog-content={true}
-          longForm={true}
           onClick={[Function]}
           tabIndex="-1"
         >
@@ -804,7 +803,6 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
           aria-modal="true"
           className="emotion-8"
           data-reach-dialog-content={true}
-          maxWidth={420}
           onClick={[Function]}
           tabIndex="-1"
         >
@@ -1027,8 +1025,6 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
           aria-modal="true"
           className="emotion-7"
           data-reach-dialog-content={true}
-          longForm={true}
-          maxWidth={420}
           onClick={[Function]}
           tabIndex="-1"
         >
@@ -1241,7 +1237,6 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
           aria-modal="true"
           className="emotion-7"
           data-reach-dialog-content={true}
-          longForm={true}
           onClick={[Function]}
           tabIndex="-1"
         >
@@ -1445,7 +1440,6 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
           aria-modal="true"
           className="emotion-7"
           data-reach-dialog-content={true}
-          maxWidth={400}
           onClick={[Function]}
           tabIndex="-1"
         >
