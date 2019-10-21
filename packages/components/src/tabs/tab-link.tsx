@@ -2,9 +2,8 @@
 import * as React from 'react';
 import { jsx } from '@emotion/core';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
 
-import { underlineWidth } from './settings';
+import { underlineWidth, underlineOffset } from './settings';
 
 /**
  * Types
@@ -14,7 +13,7 @@ import { underlineWidth } from './settings';
  */
 /* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-type NavLinkProps = {
+type TabLinkProps = {
   active?: boolean;
   element?: any /* [1] */;
   [prop: string]: any /* [2] */;
@@ -24,19 +23,21 @@ type NavLinkProps = {
 /**
  * Component
  */
-const NavLink: React.FC<NavLinkProps> = ({ active, element = 'a', ...props }) =>
+const TabLink: React.FC<TabLinkProps> = ({ active, element = 'a', ...props }) =>
   jsx(element, {
     ...props,
     'aria-current': active ? 'page' : undefined,
     css: {
       position: 'relative',
       padding: 0,
+      paddingBottom: `${underlineOffset}px`,
       margin: 0,
       fontSize: 'inherit',
       fontFamily: 'inherit',
+      lineHeight: 'inherit',
       backgroundColor: 'transparent',
       color: colors.neutral[20],
-      transition: `color ${animation.speed.default}s ease`,
+      transition: `color ${animation.speed.fast}s ease`,
       textDecoration: 'none',
       border: 0,
       appearance: 'none',
@@ -44,14 +45,14 @@ const NavLink: React.FC<NavLinkProps> = ({ active, element = 'a', ...props }) =>
         content: '""',
         position: 'absolute',
         height: `${underlineWidth}px`,
-        width: spacing('medium'),
+        width: '100%',
         left: 0,
         right: 0,
-        bottom: `-${spacing('small')}`,
+        bottom: 0,
         margin: '0 auto',
         backgroundColor: colors.brand,
         transform: 'scaleX(0)',
-        transition: `transform ${animation.speed.default}s ease`,
+        transition: `transform ${animation.speed.fast}s ease`,
       },
       '&:hover, &:focus, &:active, &[aria-current=page]': {
         color: colors.neutral[10],
@@ -63,4 +64,4 @@ const NavLink: React.FC<NavLinkProps> = ({ active, element = 'a', ...props }) =>
     },
   });
 
-export { NavLink, NavLinkProps };
+export { TabLink, TabLinkProps };
