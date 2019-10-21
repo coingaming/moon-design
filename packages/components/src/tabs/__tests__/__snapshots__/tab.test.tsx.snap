@@ -38,8 +38,7 @@ exports[`Nav renders correctly 1`] = `
   display: block;
   margin-left: 0;
   white-space: nowrap;
-  margin-top: 0;
-  padding-bottom: 0.625rem;
+  padding-bottom: 12px;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -86,7 +85,7 @@ exports[`Nav renders correctly 1`] = `
 >
   <a
     className="emotion-0"
-    href="#nav-skip"
+    href="#test-tabs"
   >
     Skip to content
   </a>
@@ -119,7 +118,7 @@ exports[`Nav renders correctly 1`] = `
     </li>
   </ul>
   <span
-    id="nav-skip"
+    id="test-tabs"
   />
 </nav>
 `;

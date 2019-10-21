@@ -66,8 +66,8 @@ const TabList = styled.ul({
 /**
  * Components
  */
-const Tabs: React.FC<any> = ({ children }) => {
-  const autoId = `nav-skip-${uniqueId()}`;
+const Tabs: React.FC<any> = ({ id, children }) => {
+  const autoId = id || `nav-skip-${uniqueId()}`;
 
   return (
     <TabNav>
