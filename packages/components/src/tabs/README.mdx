@@ -4,7 +4,7 @@ menu: Components
 route: /components/tabs
 ---
 
-import { Tabs, TabItem, TabLink } from '@heathmont/sportsbet-components';
+import { Tabs, Tab, TabLink } from '@heathmont/sportsbet-components';
 import { PropsTable } from 'docs';
 
 # Tabs
@@ -14,36 +14,36 @@ A menu of items for users to move between sections of the application.
 By default, tabs will provide an accessible skip link, and overflow with
 horizontal scrolling.
 
-Each `TabLink` must be wrapped in a `<TabItem>`.
+Each `TabLink` must be wrapped in a `<Tab>`.
 
 ```jsx react-live
 <Tabs>
-  <TabItem>
+  <Tab>
     <TabLink href="#1" active>
       Inplay (23)
     </TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#2">Featured (23)</TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#3">Today (23)</TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#4">Tomorrow (23)</TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#5">Future (23)</TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#6">Outright (23)</TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#7">Leagues</TabLink>
-  </TabItem>
-  <TabItem>
+  </Tab>
+  <Tab>
     <TabLink href="#8">News</TabLink>
-  </TabItem>
+  </Tab>
 </Tabs>
 ```
 

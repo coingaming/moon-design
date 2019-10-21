@@ -83,6 +83,6 @@ const Tabs: React.FC<any> = ({ id, children }) => {
   );
 };
 
-const TabItem = styled.li([listInlineItem]);
+const Tab = styled.li([listInlineItem]);
 
-export { Tabs, TabItem };
+export { Tabs, Tab };
