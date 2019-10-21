@@ -1,16 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav - NavLink renders as a button 1`] = `
+exports[`Nav - TabLink renders as a button 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
+  padding-bottom: 10px;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
@@ -23,18 +25,18 @@ exports[`Nav - NavLink renders as a button 1`] = `
   content: "";
   position: absolute;
   height: 2px;
-  width: 1.5rem;
+  width: 100%;
   left: 0;
   right: 0;
-  bottom: -0.5rem;
+  bottom: 0;
   margin: 0 auto;
   background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .emotion-0:hover,
@@ -62,17 +64,19 @@ exports[`Nav - NavLink renders as a button 1`] = `
 </button>
 `;
 
-exports[`Nav - NavLink renders as a component 1`] = `
+exports[`Nav - TabLink renders as a component 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
+  padding-bottom: 10px;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
@@ -85,18 +89,18 @@ exports[`Nav - NavLink renders as a component 1`] = `
   content: "";
   position: absolute;
   height: 2px;
-  width: 1.5rem;
+  width: 100%;
   left: 0;
   right: 0;
-  bottom: -0.5rem;
+  bottom: 0;
   margin: 0 auto;
   background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .emotion-0:hover,
@@ -124,17 +128,19 @@ exports[`Nav - NavLink renders as a component 1`] = `
 </a>
 `;
 
-exports[`Nav - NavLink renders as active as a button 1`] = `
+exports[`Nav - TabLink renders as active as a button 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
+  padding-bottom: 10px;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
@@ -147,18 +153,18 @@ exports[`Nav - NavLink renders as active as a button 1`] = `
   content: "";
   position: absolute;
   height: 2px;
-  width: 1.5rem;
+  width: 100%;
   left: 0;
   right: 0;
-  bottom: -0.5rem;
+  bottom: 0;
   margin: 0 auto;
   background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .emotion-0:hover,
@@ -187,17 +193,19 @@ exports[`Nav - NavLink renders as active as a button 1`] = `
 </button>
 `;
 
-exports[`Nav - NavLink renders as active as a component 1`] = `
+exports[`Nav - TabLink renders as active as a component 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
+  padding-bottom: 10px;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
@@ -210,18 +218,18 @@ exports[`Nav - NavLink renders as active as a component 1`] = `
   content: "";
   position: absolute;
   height: 2px;
-  width: 1.5rem;
+  width: 100%;
   left: 0;
   right: 0;
-  bottom: -0.5rem;
+  bottom: 0;
   margin: 0 auto;
   background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .emotion-0:hover,
@@ -250,17 +258,19 @@ exports[`Nav - NavLink renders as active as a component 1`] = `
 </a>
 `;
 
-exports[`Nav - NavLink renders as active as an anchor 1`] = `
+exports[`Nav - TabLink renders as active as an anchor 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
+  padding-bottom: 10px;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
@@ -273,18 +283,18 @@ exports[`Nav - NavLink renders as active as an anchor 1`] = `
   content: "";
   position: absolute;
   height: 2px;
-  width: 1.5rem;
+  width: 100%;
   left: 0;
   right: 0;
-  bottom: -0.5rem;
+  bottom: 0;
   margin: 0 auto;
   background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .emotion-0:hover,
@@ -312,17 +322,19 @@ exports[`Nav - NavLink renders as active as an anchor 1`] = `
 </a>
 `;
 
-exports[`Nav - NavLink renders as an anchor by default 1`] = `
+exports[`Nav - TabLink renders as an anchor by default 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
+  padding-bottom: 10px;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   -webkit-text-decoration: none;
   text-decoration: none;
   border: 0;
@@ -335,18 +347,18 @@ exports[`Nav - NavLink renders as an anchor by default 1`] = `
   content: "";
   position: absolute;
   height: 2px;
-  width: 1.5rem;
+  width: 100%;
   left: 0;
   right: 0;
-  bottom: -0.5rem;
+  bottom: 0;
   margin: 0 auto;
   background-color: #0CD664;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.4s ease;
-  -webkit-transition: transform 0.4s ease;
-  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .emotion-0:hover,

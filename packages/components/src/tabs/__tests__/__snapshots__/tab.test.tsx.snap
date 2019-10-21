@@ -4,8 +4,6 @@ exports[`Nav renders correctly 1`] = `
 .emotion-6 {
   margin-top: 1rem;
   position: relative;
-  overflow-x: scroll;
-  overflow-y: hidden;
 }
 
 .emotion-0 {
@@ -40,8 +38,40 @@ exports[`Nav renders correctly 1`] = `
   display: block;
   margin-left: 0;
   white-space: nowrap;
-  margin-top: 0;
-  padding-bottom: 0.625rem;
+  padding-bottom: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-5::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.emotion-5::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box;
+  border-radius: 100px;
+  border: 3px solid transparent;
+}
+
+.emotion-5:hover::-webkit-scrollbar-thumb {
+  background-color: #62676D;
+}
+
+.emotion-5 > * + * {
+  margin-left: 1.5rem;
+}
+
+.emotion-5 > style:first-child + * {
+  margin-left: 0;
 }
 
 .emotion-1 {
@@ -54,16 +84,12 @@ exports[`Nav renders correctly 1`] = `
   content: "\\200B";
 }
 
-.emotion-1 + .emotion-1 {
-  margin-left: 1rem;
-}
-
 <nav
   className="emotion-6"
 >
   <a
     className="emotion-0"
-    href="#nav-skip"
+    href="#test-tabs"
   >
     Skip to content
   </a>
@@ -96,7 +122,7 @@ exports[`Nav renders correctly 1`] = `
     </li>
   </ul>
   <span
-    id="nav-skip"
+    id="test-tabs"
   />
 </nav>
 `;
