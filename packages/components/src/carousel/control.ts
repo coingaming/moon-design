@@ -51,4 +51,7 @@ export const CarouselControl = styled.button<CarouselInlineStyleProps>(
   ]
 );
 
-export const CarouselControlCaption = styled.span(hideVisually);
+/**
+ * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
+ */
+export const CarouselControlCaption = styled.span<any>(hideVisually);
