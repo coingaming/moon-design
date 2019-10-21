@@ -16,8 +16,10 @@ const currentScrollingSpec = `@supports (scroll-snap-align: start)`;
  * Carousel
  *
  * The outer Carousel container, allowing absolute positioning inside.
+ *
+ * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-export const Carousel = styled.div({
+export const Carousel = styled.div<any>({
   position: 'relative',
   width: '100%',
 });
@@ -31,8 +33,9 @@ export const Carousel = styled.div({
  * 2. Auto-hide scrollbars on IE/Edge.
  * 3. Create 'padding' around the scrollbar.
  *
+ * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-export const CarouselScroll = styled.ul({
+export const CarouselScroll = styled.ul<any>({
   display: 'block',
   verticalAlign: 'top',
   overflowX: 'auto',
