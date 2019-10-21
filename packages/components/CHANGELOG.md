@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.92.4](https://github.com/coingaming/sportsbet-design/compare/v0.92.3...v0.92.4) (2019-10-21)
+
+
+### Bug Fixes
+
+* **types:** silence unexplained emotion errors ([c012270](https://github.com/coingaming/sportsbet-design/commit/c012270))
+
+
+
+
+
 ## [0.92.3](https://github.com/coingaming/sportsbet-design/compare/v0.92.2...v0.92.3) (2019-10-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
