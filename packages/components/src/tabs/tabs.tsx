@@ -3,27 +3,21 @@ import * as React from 'react';
 import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import math from 'polished/lib/math/math';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import { listInline, listInlineItem } from '@heathmont/sportsbet-objects';
-import { rem, spacing } from '@heathmont/sportsbet-utils';
+import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
 
 import { underlineOffset, underlineWidth } from './settings';
 
 /**
- * Settings
- */
-const tabSkipLinkID = 'nav-skip';
-
-/**
  * Styles
  */
-const tab: CSSObject = {
+const TabNav = styled.nav({
   marginTop: spacing(),
   position: 'relative',
-};
+});
 
-const skipLink: CSSObject = {
+const SkipLink = styled.a({
   position: 'absolute',
   zIndex: 1,
   padding: `0 ${spacing('small')}`,
@@ -35,7 +29,7 @@ const skipLink: CSSObject = {
   '&:not(:focus)': {
     ...hideVisually(),
   },
-};
+});
 
 const smoothHorizontalScroll: CSSObject = {
   overflowX: 'auto',
@@ -61,41 +55,37 @@ const smoothHorizontalScroll: CSSObject = {
 };
 
 /* 1. Include the indicator as part of the item's box-model. */
-const tabList: CSSObject = {
+const TabList = styled.ul({
   ...listInline,
   display: 'block',
   whiteSpace: 'nowrap',
-  marginTop: 0,
-  paddingBottom: math(`${underlineOffset} + ${rem(underlineWidth)}`) /* [1] */,
+  paddingBottom: `${underlineOffset + underlineWidth}px` /* [1] */,
   ...smoothHorizontalScroll,
-};
+});
 
 /**
  * Components
  */
-const Tabs: React.FC = ({ children }) => {
+const Tabs: React.FC<any> = ({ children }) => {
+  const autoId = `nav-skip-${uniqueId()}`;
+
   return (
-    <nav css={tab}>
-      <a href={`#${tabSkipLinkID}`} css={skipLink}>
-        Skip to content
-      </a>
-      <ul css={tabList}>{children}</ul>
-      <span id={tabSkipLinkID} />
-    </nav>
+    <TabNav>
+      <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
+      <TabList>{children}</TabList>
+      <span id={autoId} />
+    </TabNav>
   );
 };
 
 const TabItem = styled.li([
   listInlineItem,
   {
-    /* Add spacing to each adjacent item */
+    /* TODO replace with */
     '& + &': {
       marginLeft: spacing('medium'),
     },
   },
 ]);
 
-/**
- * Exports
- */
 export { Tabs, TabItem };
