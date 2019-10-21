@@ -4,7 +4,11 @@ import { jsx, CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors, border } from '@heathmont/sportsbet-tokens';
-import { listInline, listInlineItem } from '@heathmont/sportsbet-objects';
+import {
+  listInline,
+  listInlineItem,
+  stack,
+} from '@heathmont/sportsbet-objects';
 import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
 
 import { underlineOffset, underlineWidth } from './settings';
@@ -61,6 +65,7 @@ const TabList = styled.ul({
   whiteSpace: 'nowrap',
   paddingBottom: `${underlineOffset + underlineWidth}px` /* [1] */,
   ...smoothHorizontalScroll,
+  ...stack(spacing('medium'), 'horizontal'),
 });
 
 /**
@@ -78,14 +83,6 @@ const Tabs: React.FC<any> = ({ id, children }) => {
   );
 };
 
-const TabItem = styled.li([
-  listInlineItem,
-  {
-    /* TODO replace with */
-    '& + &': {
-      marginLeft: spacing('medium'),
-    },
-  },
-]);
+const TabItem = styled.li([listInlineItem]);
 
 export { Tabs, TabItem };
