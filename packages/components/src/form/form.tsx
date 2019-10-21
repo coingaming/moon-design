@@ -50,7 +50,10 @@ const Form: React.FC<FormProps> = ({
   );
 };
 
-const FormItem = styled.li([listPlainItem, { marginBottom: spacing() }]);
+/**
+ * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
+ */
+const FormItem = styled.li<any>([listPlainItem, { marginBottom: spacing() }]);
 
 const FormCombo = styled.div({
   display: 'block',
