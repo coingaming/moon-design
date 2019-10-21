@@ -1,0 +1,70 @@
+---
+name: Tabs
+menu: Components
+route: /components/tabs
+---
+
+import { Tabs, Tab, TabLink } from '@heathmont/sportsbet-components';
+import { PropsTable } from 'docs';
+
+# Tabs
+
+A menu of items for users to move between sections of the application.
+
+By default, tabs will provide an accessible skip link, and overflow with
+horizontal scrolling.
+
+Each `TabLink` must be wrapped in a `<Tab>`.
+
+```jsx react-live
+<Tabs>
+  <Tab>
+    <TabLink href="#1" active>
+      Inplay (23)
+    </TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#2">Featured (23)</TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#3">Today (23)</TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#4">Tomorrow (23)</TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#5">Future (23)</TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#6">Outright (23)</TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#7">Leagues</TabLink>
+  </Tab>
+  <Tab>
+    <TabLink href="#8">News</TabLink>
+  </Tab>
+</Tabs>
+```
+
+## Anatomy
+
+### Tab Link
+
+By default, the `TabLink` renders as an [anchor tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a),
+accepting the standard attributes.
+
+```jsx react-live
+<TabLink href="#1">Item 1</TabLink>
+```
+
+However, it sometimes makes more semantic sense to mark up the link as a button.
+We also might want to use a custom `Link` component for a specific router.
+
+For these reasons, `TabLink` can accept a custom `element`.
+
+```jsx react-live
+<TabLink element="button" onClick={() => alert('Hello')}>
+  Item 1
+</TabLink>
+```
