@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-objects",
-  "version": "0.92.3",
+  "version": "0.93.0",
   "files": [
     "lib"
   ],
@@ -17,7 +17,7 @@
     "@emotion/core": "10.0.10",
     "@emotion/is-prop-valid": "0.7.3",
     "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-tokens": "^0.92.0",
-    "@heathmont/sportsbet-utils": "^0.92.3"
+    "@heathmont/sportsbet-tokens": "^0.93.0",
+    "@heathmont/sportsbet-utils": "^0.93.0"
   }
 }

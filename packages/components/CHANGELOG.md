@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.93.0](https://github.com/coingaming/sportsbet-design/compare/v0.92.4...v0.93.0) (2019-10-21)
+
+
+### Features
+
+* **tab:** rename TabItem -> Tab ([c7b602a](https://github.com/coingaming/sportsbet-design/commit/c7b602a))
+* Nav became Tabs ([c096bc5](https://github.com/coingaming/sportsbet-design/commit/c096bc5))
+
+
+
+
+
 ## [0.92.4](https://github.com/coingaming/sportsbet-design/compare/v0.92.3...v0.92.4) (2019-10-21)
 
 
