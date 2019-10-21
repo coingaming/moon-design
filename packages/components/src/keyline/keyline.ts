@@ -5,7 +5,10 @@ import { spacing } from '@heathmont/sportsbet-utils';
 const dividerColor = colors.border;
 const dividerBorderWidth = `${border.width}px`;
 
-export const Keyline = styled.hr({
+/**
+ * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
+ */
+export const Keyline = styled.hr<any>({
   display: 'block',
   borderWidth: `${dividerBorderWidth} 0 0 0`,
   borderColor: dividerColor,
