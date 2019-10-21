@@ -1,21 +1,21 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 
-import { Nav, NavItem } from '../nav';
+import { Tabs, Tab } from '../tabs';
 
 describe('Nav', () => {
   test('renders correctly', () => {
-    const navLink = create(
-      <Nav>
+    const tabLink = create(
+      <Tabs id="test-tabs">
         {[1, 2, 3, 4].map(i => (
-          <NavItem key={i}>
+          <Tab key={i}>
             Item
             {i}
-          </NavItem>
+          </Tab>
         ))}
-      </Nav>
+      </Tabs>
     );
 
-    expect(navLink).toMatchSnapshot();
+    expect(tabLink).toMatchSnapshot();
   });
 });
