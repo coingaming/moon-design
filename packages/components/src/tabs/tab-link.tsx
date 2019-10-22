@@ -1,10 +1,9 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
 
 import { underlineWidth, underlineOffset } from './private';
 
-const TabLink: React.FC<any> = styled.a({
+export const TabLink = styled.a({
   position: 'relative',
   padding: 0,
   paddingBottom: `${underlineOffset}px`,
@@ -39,5 +38,3 @@ const TabLink: React.FC<any> = styled.a({
     },
   },
 });
-
-export { TabLink };
