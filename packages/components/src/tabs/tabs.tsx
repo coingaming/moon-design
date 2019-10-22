@@ -1,6 +1,5 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
+import { CSSObject } from '@emotion/core';
 import styled from '@emotion/styled';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors, border } from '@heathmont/sportsbet-tokens';
@@ -11,7 +10,7 @@ import {
 } from '@heathmont/sportsbet-objects';
 import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
 
-import { underlineOffset, underlineWidth } from './settings';
+import { underlineOffset, underlineWidth } from './private';
 
 /**
  * Styles
@@ -68,21 +67,25 @@ const TabList = styled.ul({
   ...stack(spacing('medium'), 'horizontal'),
 });
 
-/**
- * Components
- */
-const Tabs: React.FC<any> = ({ id, children }) => {
-  const autoId = id || `nav-skip-${uniqueId()}`;
+const Tab = styled.li(listInlineItem);
 
+const Tabs: React.FC<{ id?: string; tabs: any[] }> = ({ id, tabs }) => {
+  const autoId = id || `nav-skip-${uniqueId()}`;
+  const nonEmptyTabs = tabs.filter(tab => tab != null); // same as isNil in lodash
+
+  /* eslint-disable react/no-array-index-key */
   return (
     <TabNav>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
-      <TabList>{children}</TabList>
+      <TabList>
+        {nonEmptyTabs.map((tab, index) => (
+          <Tab key={index}>{tab}</Tab>
+        ))}
+      </TabList>
       <span id={autoId} />
     </TabNav>
   );
+  /* eslint-enable react/no-array-index-key */
 };
 
-const Tab = styled.li([listInlineItem]);
-
-export { Tabs, Tab };
+export { Tabs };

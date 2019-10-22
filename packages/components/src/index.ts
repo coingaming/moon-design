@@ -32,7 +32,6 @@ export * from './link/link';
 export * from './loader/loader';
 export * from './select/select';
 export * from './switch/switch';
-export * from './tabs/settings';
 export * from './tabs/tab-link';
 export * from './tabs/tabs';
 export * from './text-input/text-input';
