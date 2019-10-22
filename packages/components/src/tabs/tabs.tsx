@@ -69,21 +69,24 @@ const TabList = styled.ul({
 
 const Tab = styled.li(listInlineItem);
 
-export const Tabs: React.FC<{ id?: string; items: any[] }> = ({
-  id,
-  items,
-}) => {
+type TabsProps = {
+  id?: string;
+  items: JSX.Element[];
+};
+
+export const Tabs: React.FC<TabsProps> = ({ id, items }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
-  const nonEmptyTabs = items.filter(tab => tab != null); // same as isNil in lodash
+  // We render everything except null or undefined items
+  // tab != null filters both
+  const nonEmptyTabs = items.filter(tab => tab != null);
 
   /* eslint-disable react/no-array-index-key */
   return (
     <TabNav>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
       <TabList>
-        {nonEmptyTabs.map((tab, index) => (
-          <Tab key={index}>{tab}</Tab>
-        ))}
+        {Array.isArray(nonEmptyTabs) &&
+          items.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
       </TabList>
       <span id={autoId} />
     </TabNav>
