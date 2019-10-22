@@ -14,37 +14,20 @@ A menu of items for users to move between sections of the application.
 By default, tabs will provide an accessible skip link, and overflow with
 horizontal scrolling.
 
-Each `TabLink` must be wrapped in a `<Tab>`.
+`TabLink` component provides the tab interaction.
 
 ```jsx react-live
-<Tabs>
-  <Tab>
-    <TabLink href="#1" active>
-      Inplay (23)
-    </TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#2">Featured (23)</TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#3">Today (23)</TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#4">Tomorrow (23)</TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#5">Future (23)</TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#6">Outright (23)</TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#7">Leagues</TabLink>
-  </Tab>
-  <Tab>
-    <TabLink href="#8">News</TabLink>
-  </Tab>
-</Tabs>
+<Tabs
+  items={[
+    <TabLink href="#2">Featured (23)</TabLink>,
+    <TabLink href="#3">Today (23)</TabLink>,
+    <TabLink href="#4">Tomorrow (23)</TabLink>,
+    <TabLink href="#5">Future (23)</TabLink>,
+    <TabLink href="#6">Outright (23)</TabLink>,
+    <TabLink href="#7">Leagues</TabLink>,
+    <TabLink href="#8">News</TabLink>,
+  ]}
+/>
 ```
 
 ## Anatomy
