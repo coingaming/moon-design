@@ -69,9 +69,12 @@ const TabList = styled.ul({
 
 const Tab = styled.li(listInlineItem);
 
-const Tabs: React.FC<{ id?: string; tabs: any[] }> = ({ id, tabs }) => {
+export const Tabs: React.FC<{ id?: string; items: any[] }> = ({
+  id,
+  items,
+}) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
-  const nonEmptyTabs = tabs.filter(tab => tab != null); // same as isNil in lodash
+  const nonEmptyTabs = items.filter(tab => tab != null); // same as isNil in lodash
 
   /* eslint-disable react/no-array-index-key */
   return (
@@ -87,5 +90,3 @@ const Tabs: React.FC<{ id?: string; tabs: any[] }> = ({ id, tabs }) => {
   );
   /* eslint-enable react/no-array-index-key */
 };
-
-export { Tabs };

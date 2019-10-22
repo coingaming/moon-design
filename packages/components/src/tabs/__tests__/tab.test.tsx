@@ -5,7 +5,7 @@ import { Tabs } from '../tabs';
 
 describe('Nav', () => {
   test('renders correctly', () => {
-    const tabLink = create(<Tabs id="test-tabs" tabs={[1, 2, 3, 4]} />);
+    const tabLink = create(<Tabs id="test-tabs" items={[0, 1, 2, 3, 4]} />);
 
     expect(tabLink).toMatchSnapshot();
   });
