@@ -17,47 +17,21 @@ describe('Nav - TabLink', () => {
     expect(tabLink).toMatchSnapshot();
   });
 
-  test('renders as a button', () => {
-    const tabLink = create(
-      <TabLink element="button" onClick={() => console.log('clicked')}>
-        Sample link
-      </TabLink>
-    );
+  test('renders as active', () => {
+    const tabLink = create(<TabLink className="active">Sample link</TabLink>);
 
     expect(tabLink).toMatchSnapshot();
   });
 
   test('renders as a component', () => {
-    const tabLink = create(<TabLink element={TestLink}>Sample link</TabLink>);
+    const tabLink = create(<TabLink as={TestLink}>Sample link</TabLink>);
 
     expect(tabLink).toMatchSnapshot();
   });
 
-  describe('renders as active', () => {
-    test('as an anchor', () => {
-      const tabLink = create(<TabLink href="#">Sample link</TabLink>);
+  test('renders as active', () => {
+    const tabLink = create(<TabLink href="#">Sample link</TabLink>);
 
-      expect(tabLink).toMatchSnapshot();
-    });
-
-    test('as a button', () => {
-      const tabLink = create(
-        <TabLink active element="button" onClick={() => console.log('clicked')}>
-          Sample link
-        </TabLink>
-      );
-
-      expect(tabLink).toMatchSnapshot();
-    });
-
-    test('as a component', () => {
-      const tabLink = create(
-        <TabLink active element={TestLink}>
-          Sample link
-        </TabLink>
-      );
-
-      expect(tabLink).toMatchSnapshot();
-    });
+    expect(tabLink).toMatchSnapshot();
   });
 });
