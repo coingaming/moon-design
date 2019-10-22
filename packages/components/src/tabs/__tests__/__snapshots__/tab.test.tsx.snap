@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav renders correctly 1`] = `
-.emotion-6 {
+.emotion-7 {
   margin-top: 1rem;
   position: relative;
 }
@@ -34,7 +34,7 @@ exports[`Nav renders correctly 1`] = `
   width: 1px;
 }
 
-.emotion-5 {
+.emotion-6 {
   display: block;
   margin-left: 0;
   white-space: nowrap;
@@ -49,28 +49,28 @@ exports[`Nav renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-5::-webkit-scrollbar {
+.emotion-6::-webkit-scrollbar {
   width: 12px;
   height: 12px;
   cursor: pointer;
 }
 
-.emotion-5::-webkit-scrollbar-thumb {
+.emotion-6::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
   border-radius: 100px;
   border: 3px solid transparent;
 }
 
-.emotion-5:hover::-webkit-scrollbar-thumb {
+.emotion-6:hover::-webkit-scrollbar-thumb {
   background-color: #62676D;
 }
 
-.emotion-5 > * + * {
+.emotion-6 > * + * {
   margin-left: 1.5rem;
 }
 
-.emotion-5 > style:first-child + * {
+.emotion-6 > style:first-child + * {
   margin-left: 0;
 }
 
@@ -85,7 +85,7 @@ exports[`Nav renders correctly 1`] = `
 }
 
 <nav
-  className="emotion-6"
+  className="emotion-7"
 >
   <a
     className="emotion-0"
@@ -94,30 +94,31 @@ exports[`Nav renders correctly 1`] = `
     Skip to content
   </a>
   <ul
-    className="emotion-5"
+    className="emotion-6"
   >
     <li
       className="emotion-1"
     >
-      Item
+      0
+    </li>
+    <li
+      className="emotion-1"
+    >
       1
     </li>
     <li
       className="emotion-1"
     >
-      Item
       2
     </li>
     <li
       className="emotion-1"
     >
-      Item
       3
     </li>
     <li
       className="emotion-1"
     >
-      Item
       4
     </li>
   </ul>
