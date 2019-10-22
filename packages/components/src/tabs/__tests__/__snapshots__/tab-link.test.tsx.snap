@@ -56,12 +56,12 @@ exports[`Nav - TabLink renders as a button 1`] = `
   transform: scaleX(1);
 }
 
-<button
+<a
   className="emotion-0"
   onClick={[Function]}
 >
   Sample link
-</button>
+</a>
 `;
 
 exports[`Nav - TabLink renders as a component 1`] = `
@@ -122,7 +122,6 @@ exports[`Nav - TabLink renders as a component 1`] = `
 
 <a
   className="emotion-0"
-  id="test-link"
 >
   Sample link
 </a>
@@ -184,13 +183,12 @@ exports[`Nav - TabLink renders as active as a button 1`] = `
   transform: scaleX(1);
 }
 
-<button
-  aria-current="page"
+<a
   className="emotion-0"
   onClick={[Function]}
 >
   Sample link
-</button>
+</a>
 `;
 
 exports[`Nav - TabLink renders as active as a component 1`] = `
@@ -250,9 +248,7 @@ exports[`Nav - TabLink renders as active as a component 1`] = `
 }
 
 <a
-  aria-current="page"
   className="emotion-0"
-  id="test-link"
 >
   Sample link
 </a>
