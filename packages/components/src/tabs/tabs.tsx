@@ -71,14 +71,16 @@ const Tab = styled.li(listInlineItem);
 
 type TabsProps = {
   id?: string;
-  items: JSX.Element[];
+  items: any[];
 };
 
 export const Tabs: React.FC<TabsProps> = ({ id, items }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
   // We render everything except null or undefined items
   // tab != null filters both
-  const nonEmptyTabs = items.filter(tab => tab != null);
+  const nonEmptyTabs = Array.isArray(items)
+    ? items.filter(tab => tab != null)
+    : [];
 
   /* eslint-disable react/no-array-index-key */
   return (
@@ -86,7 +88,7 @@ export const Tabs: React.FC<TabsProps> = ({ id, items }) => {
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
       <TabList>
         {Array.isArray(nonEmptyTabs) &&
-          items.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
+          nonEmptyTabs.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
       </TabList>
       <span id={autoId} />
     </TabNav>

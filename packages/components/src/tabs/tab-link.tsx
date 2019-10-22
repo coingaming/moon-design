@@ -1,9 +1,12 @@
 import styled from '@emotion/styled';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
+import isPropValid from '@emotion/is-prop-valid';
 
 import { underlineWidth, underlineOffset } from './private';
 
-export const TabLink = styled.a({
+export const TabLink: React.FC<any> = styled('a', {
+  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
+})({
   position: 'relative',
   padding: 0,
   paddingBottom: `${underlineOffset}px`,
@@ -30,7 +33,7 @@ export const TabLink = styled.a({
     transform: 'scaleX(0)',
     transition: `transform ${animation.speed.fast}s ease`,
   },
-  '&:hover, &:focus, &:active, &[aria-current=page]': {
+  '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
     color: colors.neutral[10],
     cursor: 'pointer',
     '&:after': {
