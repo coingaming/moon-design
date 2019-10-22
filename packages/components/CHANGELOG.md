@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.94.0](https://github.com/coingaming/sportsbet-design/compare/v0.93.0...v0.94.0) (2019-10-22)
+
+
+### Bug Fixes
+
+* active state & tests ([a400c77](https://github.com/coingaming/sportsbet-design/commit/a400c77))
+* **tabs:** cleanup ([9510437](https://github.com/coingaming/sportsbet-design/commit/9510437))
+* cleanup ([a15b740](https://github.com/coingaming/sportsbet-design/commit/a15b740))
+
+
+### Features
+
+* **tabs:** change 'tabs' component api ([8f0b7a3](https://github.com/coingaming/sportsbet-design/commit/8f0b7a3))
+
+
+
+
+
 # [0.93.0](https://github.com/coingaming/sportsbet-design/compare/v0.92.4...v0.93.0) (2019-10-21)
 
 
