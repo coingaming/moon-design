@@ -2,8 +2,33 @@
 
 exports[`Nav renders correctly 1`] = `
 .emotion-7 {
-  margin-top: 1rem;
   position: relative;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-7::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.emotion-7::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box;
+  border-radius: 100px;
+  border: 3px solid transparent;
+}
+
+.emotion-7:hover::-webkit-scrollbar-thumb {
+  background-color: #62676D;
 }
 
 .emotion-0 {
@@ -38,32 +63,9 @@ exports[`Nav renders correctly 1`] = `
   display: block;
   margin-left: 0;
   white-space: nowrap;
-  padding-bottom: 12px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  -webkit-scrollbar-width: none;
-  -moz-scrollbar-width: none;
-  -ms-scrollbar-width: none;
-  scrollbar-width: none;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.emotion-6::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
-}
-
-.emotion-6::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  background-clip: content-box;
-  border-radius: 100px;
-  border: 3px solid transparent;
-}
-
-.emotion-6:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 14px;
 }
 
 .emotion-6 > * + * {

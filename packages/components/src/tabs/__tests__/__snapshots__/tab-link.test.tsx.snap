@@ -4,11 +4,11 @@ exports[`Nav - TabLink renders as a component 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   margin: 0;
-  font-size: inherit;
+  font-size: 0.875rem;
+  line-height: 1.3;
   font-family: inherit;
-  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
   -webkit-transition: color 0.2s ease;
@@ -70,11 +70,11 @@ exports[`Nav - TabLink renders as active 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   margin: 0;
-  font-size: inherit;
+  font-size: 0.875rem;
+  line-height: 1.3;
   font-family: inherit;
-  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
   -webkit-transition: color 0.2s ease;
@@ -135,11 +135,11 @@ exports[`Nav - TabLink renders as active 2`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   margin: 0;
-  font-size: inherit;
+  font-size: 0.875rem;
+  line-height: 1.3;
   font-family: inherit;
-  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
   -webkit-transition: color 0.2s ease;
@@ -201,11 +201,11 @@ exports[`Nav - TabLink renders as an anchor by default 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   margin: 0;
-  font-size: inherit;
+  font-size: 0.875rem;
+  line-height: 1.3;
   font-family: inherit;
-  line-height: inherit;
   background-color: transparent;
   color: #8697A2;
   -webkit-transition: color 0.2s ease;
