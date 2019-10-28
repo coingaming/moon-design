@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
 import isPropValid from '@emotion/is-prop-valid';
+import { rem } from 'polished';
 
 import { underlineWidth, underlineOffset } from './private';
 
@@ -11,9 +12,9 @@ export const TabLink: React.FC<any> = styled('a', {
   padding: 0,
   paddingBottom: `${underlineOffset}px`,
   margin: 0,
-  fontSize: 'inherit',
+  fontSize: rem(14),
+  lineHeight: 1.3,
   fontFamily: 'inherit',
-  lineHeight: 'inherit',
   backgroundColor: 'transparent',
   color: colors.neutral[20],
   transition: `color ${animation.speed.fast}s ease`,
