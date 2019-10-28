@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.94.1](https://github.com/coingaming/sportsbet-design/compare/v0.94.0...v0.94.1) (2019-10-28)
+
+
+### Bug Fixes
+
+* carousel adjustments ([58f8f40](https://github.com/coingaming/sportsbet-design/commit/58f8f40))
+* tab alignments ([5da966b](https://github.com/coingaming/sportsbet-design/commit/5da966b))
+
+
+
+
+
 # [0.94.0](https://github.com/coingaming/sportsbet-design/compare/v0.93.0...v0.94.0) (2019-10-22)
 
 
