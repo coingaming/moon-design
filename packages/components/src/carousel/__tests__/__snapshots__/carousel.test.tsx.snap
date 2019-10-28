@@ -4,6 +4,7 @@ exports[`Carousel renders with controls 1`] = `
 .emotion-8 {
   position: relative;
   width: 100%;
+  overflow-x: auto;
 }
 
 .emotion-1 {
@@ -79,16 +80,17 @@ exports[`Carousel renders with controls 1`] = `
   width: 100%;
   height: 100%;
   white-space: nowrap;
+  padding: 0;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  -webkit-scroll-snap-type: mandatory;
-  -moz-scroll-snap-type: mandatory;
-  -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-type: proximity;
+  -moz-scroll-snap-type: proximity;
+  -ms-scroll-snap-type: proximity;
+  scroll-snap-type: proximity;
   -webkit-scroll-snap-destination: 0 50%;
   -moz-scroll-snap-destination: 0 50%;
   -ms-scroll-snap-destination: 0 50%;
@@ -235,6 +237,7 @@ exports[`Carousel renders without controls 1`] = `
 .emotion-4 {
   position: relative;
   width: 100%;
+  overflow-x: auto;
 }
 
 .emotion-3 {
@@ -245,16 +248,17 @@ exports[`Carousel renders without controls 1`] = `
   width: 100%;
   height: 100%;
   white-space: nowrap;
+  padding: 0;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  -webkit-scroll-snap-type: mandatory;
-  -moz-scroll-snap-type: mandatory;
-  -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-type: proximity;
+  -moz-scroll-snap-type: proximity;
+  -ms-scroll-snap-type: proximity;
+  scroll-snap-type: proximity;
   -webkit-scroll-snap-destination: 0 50%;
   -moz-scroll-snap-destination: 0 50%;
   -ms-scroll-snap-destination: 0 50%;
