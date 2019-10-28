@@ -22,6 +22,7 @@ const currentScrollingSpec = `@supports (scroll-snap-align: start)`;
 export const Carousel = styled.div<any>({
   position: 'relative',
   width: '100%',
+  overflowX: 'auto',
 });
 
 /**
@@ -43,6 +44,7 @@ export const CarouselScroll = styled.ul<any>({
   width: '100%',
   height: '100%',
   whiteSpace: 'nowrap',
+  padding: 0,
   WebkitOverflowScrolling: 'touch',
   scrollbarWidth: 'none' /* [1] */,
   '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
@@ -62,7 +64,7 @@ export const CarouselScroll = styled.ul<any>({
     backgroundColor: colors.neutral[40],
   },
   /* Scroll Snapping */
-  scrollSnapType: 'mandatory',
+  scrollSnapType: 'proximity',
   scrollSnapDestination: '0 50%',
   scrollSnapPointsX: 'repeat(100%)',
   [currentScrollingSpec]: {
