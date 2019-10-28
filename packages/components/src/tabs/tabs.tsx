@@ -10,29 +10,7 @@ import {
 } from '@heathmont/sportsbet-objects';
 import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
 
-import { underlineOffset, underlineWidth } from './private';
-
-/**
- * Styles
- */
-const TabNav = styled.nav({
-  marginTop: spacing(),
-  position: 'relative',
-});
-
-const SkipLink = styled.a({
-  position: 'absolute',
-  zIndex: 1,
-  padding: `0 ${spacing('small')}`,
-  top: '50%',
-  left: spacing('small'),
-  transform: 'translateY(-50%)',
-  color: colors.neutral[10],
-  backgroundColor: colors.neutral[90],
-  '&:not(:focus)': {
-    ...hideVisually(),
-  },
-});
+import { underlineOffset } from './private';
 
 const smoothHorizontalScroll: CSSObject = {
   overflowX: 'auto',
@@ -57,13 +35,34 @@ const smoothHorizontalScroll: CSSObject = {
   },
 };
 
+const TabNav = styled.nav({
+  position: 'relative',
+  width: '100%',
+  ...smoothHorizontalScroll,
+});
+
+const SkipLink = styled.a({
+  position: 'absolute',
+  zIndex: 1,
+  padding: `0 ${spacing('small')}`,
+  top: '50%',
+  left: spacing('small'),
+  transform: 'translateY(-50%)',
+  color: colors.neutral[10],
+  backgroundColor: colors.neutral[90],
+  '&:not(:focus)': {
+    ...hideVisually(),
+  },
+});
+
 /* 1. Include the indicator as part of the item's box-model. */
 const TabList = styled.ul({
   ...listInline,
   display: 'block',
   whiteSpace: 'nowrap',
-  paddingBottom: `${underlineOffset + underlineWidth}px` /* [1] */,
-  ...smoothHorizontalScroll,
+  padding: 0,
+  margin: 0,
+  paddingBottom: `${underlineOffset}px` /* [1] */,
   ...stack(spacing('medium'), 'horizontal'),
 });
 
