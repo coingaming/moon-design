@@ -182,7 +182,6 @@ For a basic component, the directory structure would look something like this:
 
 
 components
-├── banner
 ├── button
 │   ├── README.mdx
 │   └── index.js
@@ -192,7 +191,7 @@ components
 For larger components, consider breaking down into smaller partials:
 
 ```
-+—————Banner——————+
++——ComponentName——+
 │                 │
 │      Title      │
 │                 │
@@ -204,14 +203,14 @@ For larger components, consider breaking down into smaller partials:
 
 
 components
-├── banner
+├── button
+├── component-name
 │   ├── caption.tsx
 │   ├── index.ts
 │   ├── README.mdx
 │   ├── settings.ts
 │   ├── title.tsx
 │   └── utils.ts
-├── button
 └── …
 ```
 
@@ -229,15 +228,15 @@ These styles should be **flat**/**stateless** and not bound by any form of funct
 
 - **Components** should be defined in **PascalCase**.
 
-  For example: `<Banner/>`
+  For example: `<ComponentName/>`
 
   - Component partials should be prefixed by the component name:
 
-    For example: `<BannerTitle/>`
+    For example: `<ComponentNameTitle/>`
 
 - **Flat re-usable styles** should be defined in **camelCase** to differentiate.
 
-  - For example: `<div css={bannerSizing}/>`
+  - For example: `<div css={componentNameSizing}/>`
 
 ## Release Process
 
