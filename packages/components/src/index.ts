@@ -4,8 +4,6 @@
 
 export * from './badge/badge';
 export * from './badge/modifiers';
-export * from './banner/banner';
-export * from './banner/toggle';
 export * from './button/button';
 export * from './button/colors';
 export * from './button/modifiers';
