@@ -101,6 +101,10 @@ exports[`Carousel renders with controls 1`] = `
   scroll-snap-points-x: repeat(100%);
 }
 
+.emotion-5.emotion-5 {
+  margin-left: 0;
+}
+
 .emotion-5::-webkit-scrollbar {
   width: 12px;
   height: 12px;
@@ -267,6 +271,10 @@ exports[`Carousel renders without controls 1`] = `
   -moz-scroll-snap-points-x: repeat(100%);
   -ms-scroll-snap-points-x: repeat(100%);
   scroll-snap-points-x: repeat(100%);
+}
+
+.emotion-3.emotion-3 {
+  margin-left: 0;
 }
 
 .emotion-3::-webkit-scrollbar {
