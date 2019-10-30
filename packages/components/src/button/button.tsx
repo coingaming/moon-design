@@ -5,8 +5,7 @@ import styled from '@emotion/styled';
 import isPropValid from '@emotion/is-prop-valid';
 import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
 import { disabled, spacing, rem } from '@heathmont/sportsbet-utils';
-import { IconSuccess } from '@heathmont/sportsbet-icons/lib/svg/IconSuccess';
-import { IconWarning } from '@heathmont/sportsbet-icons/lib/svg/IconWarning';
+import { IconSuccess, IconWarning } from '@heathmont/sportsbet-icons';
 
 import { Loader } from '../loader/loader';
 
