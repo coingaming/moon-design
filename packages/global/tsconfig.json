@@ -4,17 +4,6 @@
     "rootDir": "src",
     "outDir": "lib"
   },
-  "references": [
-    {
-      "path": "../fonts"
-    },
-    {
-      "path": "../tokens"
-    },
-    {
-      "path": "../utils"
-    }
-  ],
   "include": ["src"],
   "exclude": ["src/**/__tests__"]
 }
