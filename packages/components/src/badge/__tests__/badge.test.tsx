@@ -11,14 +11,14 @@ describe('Badge', () => {
   });
 
   test('renders correctly with color', () => {
-    const badge = create(<Badge color="red">Red banner</Badge>);
+    const badge = create(<Badge color="red">Red badge</Badge>);
 
     expect(badge).toMatchSnapshot();
   });
 
   test('renders correctly with background color', () => {
     const badge = create(
-      <Badge backgroundColor="red">Red background banner</Badge>
+      <Badge backgroundColor="red">Red background badge</Badge>
     );
 
     expect(badge).toMatchSnapshot();
