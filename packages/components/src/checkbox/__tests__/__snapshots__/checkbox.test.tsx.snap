@@ -2,52 +2,110 @@
 
 exports[`Checkbox renders as disabled 1`] = `
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  position: relative;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  min-height: 1rem;
 }
 
 .emotion-0 {
-  height: 1.25rem;
-  width: 1.25rem;
-  position: relative;
-  padding: 0.125rem;
-  background-clip: content-box;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  border: 1px solid #3D434B;
-  border-radius: 4px;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-.emotion-0:checked {
-  background-color: #0CD664;
+.emotion-0:hover:enabled + span::before,
+.emotion-0:focus:enabled + span::before {
+  opacity: 0.2;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
 }
 
-.emotion-0:disabled {
-  border-color: #353C44;
+.emotion-0:hover:enabled:checked + span::before,
+.emotion-0:focus:enabled:checked + span::before {
+  opacity: 0.1;
+  background-color: #85EAB2;
+}
+
+.emotion-0:hover:enabled:not(:checked) + span::after,
+.emotion-0:focus:enabled:not(:checked) + span::after {
+  border-color: #5A5F65;
+}
+
+.emotion-0:checked + span::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.625rem;
+  border-color: #0CD664;
+}
+
+.emotion-0[disabled] + span {
+  color: #353C44;
   cursor: not-allowed;
 }
 
-.emotion-1 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  margin-left: 1rem;
-  color: #353C44;
+.emotion-0[disabled] + span::after {
+  border-color: #353C44;
 }
 
-<div
+.emotion-1 {
+  display: inline-block;
+  margin-left: 1.75rem;
+  color: #8697A2;
+}
+
+.emotion-1::before,
+.emotion-1::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.0625rem;
+  left: 0;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.emotion-1::before {
+  background-color: #5A5F65;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition-property: background-color,-webkit-transform,opacity;
+  -webkit-transition-property: background-color,transform,opacity;
+  transition-property: background-color,transform,opacity;
+  will-change: transform,opacity;
+}
+
+.emotion-1::after {
+  border: 1px solid #3D434B;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+<label
   className="emotion-2"
+  htmlFor="Checkbox-Test2"
 >
   <input
     className="emotion-0"
@@ -55,63 +113,120 @@ exports[`Checkbox renders as disabled 1`] = `
     id="Checkbox-Test2"
     type="checkbox"
   />
-  <label
+  <span
     className="emotion-1"
-    htmlFor="Checkbox-Test2"
   >
     I agree to the Terms & Conditions
-  </label>
-</div>
+  </span>
+</label>
 `;
 
 exports[`Checkbox renders by default 1`] = `
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  position: relative;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  min-height: 1rem;
 }
 
 .emotion-0 {
-  height: 1.25rem;
-  width: 1.25rem;
-  position: relative;
-  padding: 0.125rem;
-  background-clip: content-box;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  border: 1px solid #3D434B;
-  border-radius: 4px;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-.emotion-0:checked {
-  background-color: #0CD664;
+.emotion-0:hover:enabled + span::before,
+.emotion-0:focus:enabled + span::before {
+  opacity: 0.2;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
 }
 
-.emotion-0:disabled {
-  border-color: #353C44;
+.emotion-0:hover:enabled:checked + span::before,
+.emotion-0:focus:enabled:checked + span::before {
+  opacity: 0.1;
+  background-color: #85EAB2;
+}
+
+.emotion-0:hover:enabled:not(:checked) + span::after,
+.emotion-0:focus:enabled:not(:checked) + span::after {
+  border-color: #5A5F65;
+}
+
+.emotion-0:checked + span::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.625rem;
+  border-color: #0CD664;
+}
+
+.emotion-0[disabled] + span {
+  color: #353C44;
   cursor: not-allowed;
 }
 
+.emotion-0[disabled] + span::after {
+  border-color: #353C44;
+}
+
 .emotion-1 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  margin-left: 1rem;
+  display: inline-block;
+  margin-left: 1.75rem;
   color: #8697A2;
 }
 
-<div
+.emotion-1::before,
+.emotion-1::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.0625rem;
+  left: 0;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.emotion-1::before {
+  background-color: #5A5F65;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition-property: background-color,-webkit-transform,opacity;
+  -webkit-transition-property: background-color,transform,opacity;
+  transition-property: background-color,transform,opacity;
+  will-change: transform,opacity;
+}
+
+.emotion-1::after {
+  border: 1px solid #3D434B;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+<label
   className="emotion-2"
+  htmlFor="Checkbox-Test1"
 >
   <input
     className="emotion-0"
@@ -119,63 +234,120 @@ exports[`Checkbox renders by default 1`] = `
     id="Checkbox-Test1"
     type="checkbox"
   />
-  <label
+  <span
     className="emotion-1"
-    htmlFor="Checkbox-Test1"
   >
     I agree to the Terms & Conditions
-  </label>
-</div>
+  </span>
+</label>
 `;
 
 exports[`Checkbox renders label with HTML 1`] = `
 .emotion-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  position: relative;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  min-height: 1rem;
 }
 
 .emotion-0 {
-  height: 1.25rem;
-  width: 1.25rem;
-  position: relative;
-  padding: 0.125rem;
-  background-clip: content-box;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  border: 1px solid #3D434B;
-  border-radius: 4px;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-.emotion-0:checked {
-  background-color: #0CD664;
+.emotion-0:hover:enabled + span::before,
+.emotion-0:focus:enabled + span::before {
+  opacity: 0.2;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
 }
 
-.emotion-0:disabled {
-  border-color: #353C44;
+.emotion-0:hover:enabled:checked + span::before,
+.emotion-0:focus:enabled:checked + span::before {
+  opacity: 0.1;
+  background-color: #85EAB2;
+}
+
+.emotion-0:hover:enabled:not(:checked) + span::after,
+.emotion-0:focus:enabled:not(:checked) + span::after {
+  border-color: #5A5F65;
+}
+
+.emotion-0:checked + span::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.625rem;
+  border-color: #0CD664;
+}
+
+.emotion-0[disabled] + span {
+  color: #353C44;
   cursor: not-allowed;
 }
 
+.emotion-0[disabled] + span::after {
+  border-color: #353C44;
+}
+
 .emotion-1 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  margin-left: 1rem;
+  display: inline-block;
+  margin-left: 1.75rem;
   color: #8697A2;
 }
 
-<div
+.emotion-1::before,
+.emotion-1::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.0625rem;
+  left: 0;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.emotion-1::before {
+  background-color: #5A5F65;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition-property: background-color,-webkit-transform,opacity;
+  -webkit-transition-property: background-color,transform,opacity;
+  transition-property: background-color,transform,opacity;
+  will-change: transform,opacity;
+}
+
+.emotion-1::after {
+  border: 1px solid #3D434B;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+<label
   className="emotion-2"
+  htmlFor="Checkbox-Test4"
 >
   <input
     className="emotion-0"
@@ -183,9 +355,8 @@ exports[`Checkbox renders label with HTML 1`] = `
     id="Checkbox-Test4"
     type="checkbox"
   />
-  <label
+  <span
     className="emotion-1"
-    htmlFor="Checkbox-Test4"
   >
     <span>
       This is a label with a 
@@ -196,50 +367,116 @@ exports[`Checkbox renders label with HTML 1`] = `
       </a>
       .
     </span>
-  </label>
-</div>
+  </span>
+</label>
 `;
 
 exports[`Checkbox renders with hidden aria-label 1`] = `
-.emotion-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+.emotion-2 {
+  display: inline-block;
+  position: relative;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  min-height: 1rem;
 }
 
 .emotion-0 {
-  height: 1.25rem;
-  width: 1.25rem;
-  position: relative;
-  padding: 0.125rem;
-  background-clip: content-box;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  border: 1px solid #3D434B;
-  border-radius: 4px;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-.emotion-0:checked {
-  background-color: #0CD664;
+.emotion-0:hover:enabled + span::before,
+.emotion-0:focus:enabled + span::before {
+  opacity: 0.2;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
 }
 
-.emotion-0:disabled {
-  border-color: #353C44;
+.emotion-0:hover:enabled:checked + span::before,
+.emotion-0:focus:enabled:checked + span::before {
+  opacity: 0.1;
+  background-color: #85EAB2;
+}
+
+.emotion-0:hover:enabled:not(:checked) + span::after,
+.emotion-0:focus:enabled:not(:checked) + span::after {
+  border-color: #5A5F65;
+}
+
+.emotion-0:checked + span::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.625rem;
+  border-color: #0CD664;
+}
+
+.emotion-0[disabled] + span {
+  color: #353C44;
   cursor: not-allowed;
 }
 
-<div
-  className="emotion-1"
+.emotion-0[disabled] + span::after {
+  border-color: #353C44;
+}
+
+.emotion-1 {
+  display: inline-block;
+  margin-left: 1.75rem;
+  color: #8697A2;
+}
+
+.emotion-1::before,
+.emotion-1::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.0625rem;
+  left: 0;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.emotion-1::before {
+  background-color: #5A5F65;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition-property: background-color,-webkit-transform,opacity;
+  -webkit-transition-property: background-color,transform,opacity;
+  transition-property: background-color,transform,opacity;
+  will-change: transform,opacity;
+}
+
+.emotion-1::after {
+  border: 1px solid #3D434B;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+<label
+  className="emotion-2"
+  htmlFor="Checkbox-Test3"
 >
   <input
     aria-label="This label is hidden"
@@ -248,5 +485,8 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
     id="Checkbox-Test3"
     type="checkbox"
   />
-</div>
+  <span
+    className="emotion-1"
+  />
+</label>
 `;

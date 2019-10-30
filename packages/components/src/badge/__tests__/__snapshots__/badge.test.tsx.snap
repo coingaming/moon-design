@@ -44,7 +44,7 @@ exports[`Badge renders correctly with background color 1`] = `
 <span
   className="emotion-0"
 >
-  Red background banner
+  Red background badge
 </span>
 `;
 
@@ -69,6 +69,6 @@ exports[`Badge renders correctly with color 1`] = `
   className="emotion-0"
   color="red"
 >
-  Red banner
+  Red badge
 </span>
 `;

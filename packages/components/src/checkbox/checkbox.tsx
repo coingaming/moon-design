@@ -1,16 +1,122 @@
-/** @jsx jsx */
 import * as React from 'react';
 import styled from '@emotion/styled';
-import { jsx, CSSObject } from '@emotion/core';
-import size from 'polished/lib/shorthands/size';
-import { colors, border } from '@heathmont/sportsbet-tokens';
-import { rem, spacing, uniqueId } from '@heathmont/sportsbet-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import {
+  animation,
+  colors,
+  border,
+  spacing,
+} from '@heathmont/sportsbet-tokens';
+import { uniqueId, inlineSVG, rem } from '@heathmont/sportsbet-utils';
 
-import { Label, LabelText } from '../private/label/label';
-import { inputBorder, inputColors } from '../private/input/settings';
+import { LabelText } from '../private/label/label';
+import {
+  inputBorder,
+  inputColors,
+  inputBorderWidth,
+} from '../private/input/settings';
+
+import { CheckboxIcon } from './private/icon';
+
+const checkboxSize = spacing.default;
+const checkboxGap = spacing.xsmall * 3;
 
 /**
- * Types
+ * Checkbox Container
+ *
+ * Behaves as the outer interactive element of our checkbox input and label
+ * content (set inside an additional `span`).
+ *
+ * 1. Prevents the label collapsing without text
+ */
+const CheckboxLabel = styled.label({
+  display: 'inline-block',
+  position: 'relative',
+  alignItems: 'center',
+  minHeight: rem(checkboxSize) /* [1] */,
+});
+
+/**
+ * Checkbox Caption
+ *
+ * As styling of native checkboxes is limited, we use pseudo elements on the
+ * caption to create a completely bespoke checkbox.
+ * Interaction styles are handled by the prior adjacent hidden `input`.
+ */
+const CheckboxCaption = styled.span({
+  display: 'inline-block',
+  marginLeft: rem(checkboxSize + checkboxGap),
+  color: inputColors.label,
+  '&::before, &::after': {
+    content: '""',
+    position: 'absolute',
+    width: rem(checkboxSize),
+    height: rem(checkboxSize),
+    top: rem(inputBorderWidth),
+    left: 0,
+    transitionDuration: `${animation.speed.fast}s`,
+    transitionTimingFunction: 'ease',
+  },
+  /* Pseudo Checkbox Circle */
+  '&::before': {
+    backgroundColor: inputColors.border.hover,
+    borderRadius: '50%',
+    opacity: 0,
+    transform: 'none',
+    transitionProperty: 'background-color, transform, opacity',
+    willChange: 'transform, opacity',
+  },
+  /* Psuedo Checkbox */
+  '&::after': {
+    border: inputBorder,
+    borderRadius: border.radius.small,
+    backgroundColor: 'transparent',
+    transitionProperty: 'border-color',
+  },
+});
+
+/**
+ * Checkbox Input
+ *
+ * Hides the default input and handles interaction styles of the custom pseudo
+ * checkbox on CheckboxCaption.
+ */
+const CheckboxInput = styled.input({
+  ...hideVisually(),
+  '&:hover:enabled, &:focus:enabled': {
+    /* Show the Pseudo Checkbox Circle */
+    '& + span::before': {
+      opacity: 0.2,
+      transform: 'scale(2)',
+    },
+    '&:checked + span::before': {
+      opacity: 0.1,
+      backgroundColor: colors.palette.piccolo[20] /* [1] */,
+    },
+    /* Adjust the Pseudo Checkbox */
+    '&:not(:checked) + span::after': {
+      borderColor: inputColors.border.hover,
+    },
+  },
+  /* Add the "check" to the Pseudo Checkbox */
+  '&:checked + span::after': {
+    backgroundImage: inlineSVG(<CheckboxIcon />),
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: rem(10),
+    borderColor: colors.brand,
+  },
+  '&[disabled] + span': {
+    color: inputColors.disabled,
+    cursor: 'not-allowed',
+    '&::after': {
+      borderColor: inputColors.disabled,
+    },
+  },
+});
+
+/**
+ * Checkbox Component
  */
 type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   id?: string;
@@ -19,43 +125,6 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   disabled?: boolean;
 };
 
-/**
- * Styles
- */
-const CheckboxContainer = styled.div({
-  display: 'flex',
-  alignItems: 'center',
-});
-
-/* 1. Creates a transparent gap between border and backgroundColor */
-const CheckboxInput = styled.input({
-  ...size(rem(20)),
-  position: 'relative',
-  padding: rem(2) /* [1] */,
-  backgroundClip: 'content-box' /* [1] */,
-  alignSelf: 'center',
-  border: inputBorder,
-  borderRadius: border.radius.small,
-  backgroundColor: 'transparent',
-  appearance: 'none',
-  '&:checked': {
-    backgroundColor: colors.brand,
-  },
-  '&:disabled': {
-    borderColor: inputColors.disabled,
-    cursor: 'not-allowed',
-  },
-});
-
-const checkboxLabel: (disabled: boolean) => CSSObject = disabled => ({
-  flex: 1,
-  marginLeft: spacing(),
-  color: disabled ? inputColors.disabled : inputColors.label,
-});
-
-/**
- * Component
- */
 const Checkbox: React.FC<CheckboxProps> = ({
   disabled = false,
   ariaLabel,
@@ -66,7 +135,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
   const autoId = id || `Checkbox-${uniqueId()}`;
 
   return (
-    <CheckboxContainer>
+    <CheckboxLabel htmlFor={autoId}>
       <CheckboxInput
         id={autoId}
         disabled={disabled}
@@ -74,15 +143,8 @@ const Checkbox: React.FC<CheckboxProps> = ({
         aria-label={ariaLabel && ariaLabel}
         {...inputProps}
       />
-      {label && (
-        <Label
-          htmlFor={autoId}
-          css={checkboxLabel(disabled)}
-          text={label}
-          inline
-        />
-      )}
-    </CheckboxContainer>
+      <CheckboxCaption>{label}</CheckboxCaption>
+    </CheckboxLabel>
   );
 };
 
