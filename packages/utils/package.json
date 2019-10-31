@@ -10,7 +10,6 @@
   "author": "mBet Solutions N.V.",
   "license": "MIT",
   "scripts": {
-    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
     "test": "jest"
   },
   "dependencies": {
