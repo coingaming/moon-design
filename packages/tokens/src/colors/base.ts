@@ -1,5 +1,5 @@
-import { palette, Palette } from './palette';
-import { Color, NeutralColors } from './types';
+import { palette, Palette } from './private/palette';
+import { Color, NeutralColors } from './private/types';
 
 const { bulma, gohan, goku, hit, piccolo, trunks, chichi, krillin } = palette;
 
