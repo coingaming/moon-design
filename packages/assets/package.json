@@ -12,8 +12,7 @@
   "scripts": {
     "build:svg": "npx @svgr/cli --ext tsx --config-file ./svgr.config.js -d src raw",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
-    "build": "yarn build:svg && yarn build:index && yarn lint",
-    "test": "jest"
+    "build": "yarn build:svg && yarn build:index && yarn lint"
   },
   "dependencies": {
     "@emotion/core": "10.0.10",
