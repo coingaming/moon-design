@@ -1,5 +1,5 @@
-import { palette } from './palette';
-import { Color } from './types';
+import { palette } from './private/palette';
+import { Color } from './private/types';
 
 const { krillin, cell, dodoria, vegeta, raditz, nappa, frieza, whis } = palette;
 
