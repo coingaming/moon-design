@@ -5,11 +5,11 @@
     "start": "yarn docs dev",
     "commit": "git-cz",
     "build": "yarn build:index && yarn build:js && yarn build:types",
-    "build:index": "lerna run --parallel build:index",
-    "build:js": "lerna exec --parallel $npm_package_config_packages -- babel --root-mode upward src --out-dir lib --source-maps --extensions \".ts,.tsx\"",
-    "build:types": "lerna exec $npm_package_config_packages -- tsc --emitDeclarationOnly --declarationMap",
+    "build:index": "lerna exec --parallel --no-private --ignore '@heathmont/sportsbet-{global,icons}' -- barrelsby --config '$LERNA_ROOT_PATH/.config/barrelsby/barrelsby.json' --directory src",
+    "build:js": "lerna exec --parallel --no-private -- babel --config-file '$LERNA_ROOT_PATH/.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
+    "build:types": "lerna exec --no-private -- tsc --emitDeclarationOnly --declarationMap",
     "watch:js": "yarn build:js --watch",
-    "watch:types": "lerna exec --parallel $npm_package_config_packages -- tsc --watch --noEmit",
+    "watch:types": "lerna exec --parallel --no-private -- tsc --watch --noEmit",
     "clean": "rimraf {packages}/**/{lib,dist} docs/{lib,dist,.cache,public}",
     "nuke": "yarn clean && lerna clean --yes && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -25,7 +25,6 @@
     "packages/*"
   ],
   "config": {
-    "packages": "--ignore docs",
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
