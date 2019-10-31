@@ -511,11 +511,11 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
   }
 }
 
-.emotion-4 {
+.emotion-5 {
   position: relative;
 }
 
-.emotion-3 {
+.emotion-4 {
   z-index: 1;
   left: 0;
   position: absolute;
@@ -532,12 +532,12 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
   will-change: transform;
 }
 
-.emotion-3,
-.emotion-3::after {
+.emotion-4,
+.emotion-4::after {
   color: #31373F;
 }
 
-.emotion-3::after {
+.emotion-4::after {
   left: 1rem;
   content: "";
   position: absolute;
@@ -551,12 +551,12 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
   border-width: 0.5rem;
 }
 
-.emotion-2 {
+.emotion-3 {
   position: relative;
   padding-right: 1.3rem;
 }
 
-.emotion-1 {
+.emotion-2 {
   background: none;
   padding: 0;
   cursor: pointer;
@@ -577,25 +577,25 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
 
 <div
   aria-hidden={true}
-  className="emotion-4"
+  className="emotion-5"
   id="test-id"
   role="tooltip"
 >
   <div
-    className="emotion-3"
+    className="emotion-4"
   >
     <div
-      className="emotion-2"
+      className="emotion-3"
       onClose={[Function]}
     >
       <p>
         Hi, I'm a Tooltip
       </p>
       <button
-        className="emotion-1"
+        className="emotion-2"
       >
         <svg
-          className="emotion-0"
+          className="emotion-0 emotion-1"
           color="#8697A2"
           fontSize="inherit"
           height="1em"

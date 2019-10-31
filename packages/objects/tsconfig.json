@@ -4,14 +4,6 @@
     "rootDir": "src",
     "outDir": "lib"
   },
-  "references": [
-    {
-      "path": "../tokens"
-    },
-    {
-      "path": "../utils"
-    }
-  ],
   "include": ["src"],
   "exclude": ["src/**/__tests__"]
 }

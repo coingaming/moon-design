@@ -7,12 +7,8 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
-  "author": "mBet Solutions N.V.",
+  "author": "Coingaming Group",
   "license": "MIT",
-  "scripts": {
-    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
-    "test": "jest"
-  },
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@heathmont/sportsbet-tokens": "^0.95.0",

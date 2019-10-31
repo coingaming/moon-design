@@ -3,7 +3,7 @@
   "name": "docs",
   "version": "0.95.0",
   "repository": "https://github.com/coingaming/sportsbet-design",
-  "author": "mBet Solutions N.V.",
+  "author": "Coingaming Group",
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
