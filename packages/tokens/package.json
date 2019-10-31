@@ -7,7 +7,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
-  "author": "mBet Solutions N.V.",
+  "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
     "@heathmont/sportsbet-fonts": "^0.95.0"
