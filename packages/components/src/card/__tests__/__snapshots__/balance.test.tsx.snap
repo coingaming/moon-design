@@ -50,7 +50,7 @@ exports[`CardBalance renders correctly 1`] = `
 }
 
 <div
-  className="emotion-3"
+  className="emotion-3 emotion-4"
 >
   <p
     className="emotion-0"
@@ -141,7 +141,7 @@ exports[`CardBalance renders correctly with a badge 1`] = `
 }
 
 <div
-  className="emotion-5"
+  className="emotion-5 emotion-6"
 >
   <p
     className="emotion-1"
@@ -221,7 +221,7 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
 }
 
 <div
-  className="emotion-3"
+  className="emotion-3 emotion-4"
 >
   <p
     className="emotion-0"
