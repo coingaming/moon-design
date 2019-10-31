@@ -2,7 +2,7 @@
   "private": true,
   "name": "Sportsbet.io",
   "scripts": {
-    "start": "concurrently -kill-others \"yarn:watch:*\" \"lerna run --scope docs --stream dev\"",
+    "start": "yarn docs dev",
     "commit": "git-cz",
     "build": "yarn build:index && yarn build:js && yarn build:types",
     "build:index": "lerna run --parallel build:index",
