@@ -7,7 +7,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
-  "author": "mBet Solutions N.V.",
+  "author": "Coingaming Group",
   "license": "MIT",
   "scripts": {
     "build:svg": "npx @svgr/cli --ext tsx --config-file ./svgr.config.js -d src raw",
