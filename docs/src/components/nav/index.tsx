@@ -25,7 +25,7 @@ const sidebar = graphql`
     config: allDocsJson {
       edges {
         node {
-          designSections
+          menuSections
         }
       }
     }
