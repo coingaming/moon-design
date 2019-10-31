@@ -1,5 +1,24 @@
 const path = require('path');
 
+const { packages } = require('./config.json');
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: packages.reduce((acc, packageName) => {
+        acc[`@heathmont/sportsbet-${packageName}`] = path.resolve(
+          __dirname,
+          '..',
+          'packages',
+          packageName,
+          'src'
+        );
+        return acc;
+      }, {}),
+    },
+  });
+};
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {

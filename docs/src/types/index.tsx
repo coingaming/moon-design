@@ -6,7 +6,7 @@ type Frontmatter = {
 
 type ConfigNode = {
   node: {
-    designSections: [string];
+    menuSections: [string];
   };
 };
 
