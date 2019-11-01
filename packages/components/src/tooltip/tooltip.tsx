@@ -1,7 +1,5 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { css, CSSObject } from 'styled-components';
 import math from 'polished/lib/math/math';
 import { animation, border, colors, zIndex } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
@@ -34,6 +32,10 @@ const tooltipSpacing = spacing('small');
 const tooltipIconSize = '0.8rem';
 const tooltipIconOffset = math(`${tooltipSpacing} + ${tooltipIconSize}`);
 
+const tooltipAnimation = css`
+  animation: ${slideUpFade} ${animation.speed.default}s ease-in-out;
+`;
+
 /**
  * Styles
  */
@@ -50,7 +52,6 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
       borderRadius: border.radius.small,
       boxShadow:
         '0 0 0.25rem 0 rgba(0,0,0,0.08), 0 0.5rem 0.5rem 0 rgba(0,0,0,0.08), 0 1rem 1rem 0 rgba(0,0,0,0.08)',
-      animation: `${slideUpFade} ${animation.speed.default}s ease-in-out`,
       animationFillMode: 'forwards',
       willChange: 'transform',
       '&, &::after': {
@@ -70,6 +71,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
         borderWidth: tooltipIndicatorSize,
       },
     },
+    tooltipAnimation,
     active && {
       animationDirection: 'reverse',
     },

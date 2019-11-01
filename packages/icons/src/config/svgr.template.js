@@ -10,7 +10,7 @@ function template(
   const typeScriptTpl = template.smart({ plugins: ['typescript'] });
   return typeScriptTpl.ast`
     import * as React from 'react';
-    import styled from '@emotion/styled';
+    import styled from 'styled-components';
 
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 

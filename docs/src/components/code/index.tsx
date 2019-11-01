@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Assets from '@heathmont/sportsbet-assets';
@@ -11,6 +10,7 @@ import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 
 import { prismTheme, syntaxStyles } from './prism';
+// @ts-ignore
 
 type CodeProps = {
   codeString: string;
@@ -20,20 +20,18 @@ type CodeProps = {
 
 const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
 
-const CodeWrapper = styled.div([
-  {
-    display: 'block',
-    border: codeBorder,
-    borderRadius: border.radius.small,
-    position: 'relative',
-    overflow: 'hidden',
-    '.prism-code:focus': {
-      outline: 'none',
-      boxShadow: `inset 0 0 3px ${colors.brand}`,
-    },
+const CodeWrapper = styled.div({
+  display: 'block',
+  border: codeBorder,
+  borderRadius: border.radius.small,
+  position: 'relative',
+  overflow: 'hidden',
+  '.prism-code:focus': {
+    outline: 'none',
+    boxShadow: `inset 0 0 3px ${colors.brand}`,
   },
-  syntaxStyles,
-]);
+  ...syntaxStyles,
+});
 
 const CodePreview = styled.div({
   padding: Utils.spacing('large'),
@@ -45,7 +43,6 @@ const CodePreview = styled.div({
 
 /* Ensures that we can use `css` props + not have to worry about wrapper divs */
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const transformCode = (src: any) => `/** @jsx jsx */${src}`;
 
 export const Code = ({ codeString, ...props }: CodeProps) =>
   /* @TODO Revisit post-EPL */
@@ -55,15 +52,14 @@ export const Code = ({ codeString, ...props }: CodeProps) =>
       <LiveProvider
         code={codeString}
         scope={{
-          jsx,
           ...Assets,
           ...Components,
           ...Icons,
           ...Objects,
           ...Utils,
           colors,
+          styled,
         }}
-        transformCode={transformCode}
         theme={prismTheme}
       >
         <React.Fragment>

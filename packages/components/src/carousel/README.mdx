@@ -12,61 +12,57 @@ content.
 The `CarouselControl`s are optional, but offer extra indication of content.
 
 ```jsx react-live
-<Carousel>
-  <CarouselControl>
-    <CarouselControlCaption>Scroll Left</CarouselControlCaption>
-    <IconChevronLeft />
-  </CarouselControl>
-  <CarouselScroll>
-    <CarouselScrollItem>
-      <div
-        css={{
-          height: '12rem',
-          width: '20rem',
-          marginRight: '1rem',
-          background: colors.neutral[30],
-        }}
-      />
-    </CarouselScrollItem>
-    <CarouselScrollItem>
-      <div
-        css={{
-          height: '12rem',
-          width: '20rem',
-          marginRight: '1rem',
-          background: colors.neutral[30],
-        }}
-      />
-    </CarouselScrollItem>
-    <CarouselScrollItem>
-      <div
-        css={{
-          height: '12rem',
-          width: '20rem',
-          marginRight: '1rem',
-          background: colors.neutral[30],
-        }}
-      />
-    </CarouselScrollItem>
-  </CarouselScroll>
-  <CarouselControl>
-    <CarouselControlCaption>Scroll Right</CarouselControlCaption>
-    <IconChevronLeft />
-  </CarouselControl>
-</Carousel>
+() => {
+  const ExampleContent = styled.div({
+    height: '12rem',
+    width: '20rem',
+    marginRight: '1rem',
+    background: colors.neutral[30],
+  });
+
+  return (
+    <Carousel>
+      <CarouselControl>
+        <CarouselControlCaption>Scroll Left</CarouselControlCaption>
+        <IconChevronLeft />
+      </CarouselControl>
+      <CarouselScroll>
+        <CarouselScrollItem>
+          <ExampleContent />
+        </CarouselScrollItem>
+        <CarouselScrollItem>
+          <ExampleContent />
+        </CarouselScrollItem>
+        <CarouselScrollItem>
+          <ExampleContent />
+        </CarouselScrollItem>
+      </CarouselScroll>
+      <CarouselControl>
+        <CarouselControlCaption>Scroll Right</CarouselControlCaption>
+        <IconChevronLeft />
+      </CarouselControl>
+    </Carousel>
+  );
+};
 ```
 
 The Carousel isn't necessarily just for media-rich content, it can be used for
 long lists such as navigation.
 
 ```jsx react-live
-<Carousel>
-  <CarouselScroll>
-    {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(i => (
-      <CarouselScrollItem key={i} css={{ marginRight: '2rem' }}>
-        Item {i}
-      </CarouselScrollItem>
-    ))}
-  </CarouselScroll>
-</Carousel>
+() => {
+  const CustomCarouselScrollItem = styled(CarouselScrollItem)({
+    marginRight: '2rem',
+  });
+
+  return (
+    <Carousel>
+      <CarouselScroll>
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(i => (
+          <CustomCarouselScrollItem key={i}>Item {i}</CustomCarouselScrollItem>
+        ))}
+      </CarouselScroll>
+    </Carousel>
+  );
+};
 ```

@@ -1,9 +1,5 @@
-import isPropValid from '@emotion/is-prop-valid';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { spacing } from '@heathmont/sportsbet-utils';
-
-const disableSSRWarning = (selector: string) =>
-  `${selector} /* emotion-disable-server-rendering-unsafe-selector-warning-please-do-not-use-this-the-warning-exists-for-a-reason */`;
 
 type StackSpace = string | number;
 type StackDirection = 'vertical' | 'horizontal';
@@ -36,7 +32,7 @@ export const stack = (
      * 'marginTop' of 0.
      * https://github.com/emotion-js/emotion/issues/1178
      */
-    [disableSSRWarning('& > style:first-child + *')]: {
+    '& > style:first-child + *': {
       [margin]: 0,
     },
   };
@@ -58,8 +54,7 @@ export const stack = (
     : margins;
 };
 
-export const Stack = styled('div', {
-  shouldForwardProp: prop => prop !== 'direction' && isPropValid(prop),
-})<StackProps>(({ space = spacing('default'), direction = 'vertical' }) =>
-  stack(space, direction)
+export const Stack = styled.div<StackProps>(
+  ({ space = spacing('default'), direction = 'vertical' }) =>
+    stack(space, direction)
 );

@@ -1,7 +1,5 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, rem, spacing } from '@heathmont/sportsbet-utils';
@@ -9,8 +7,6 @@ import { IconUpload } from '@heathmont/sportsbet-icons';
 
 import { Input } from '../private/input/input';
 import { inputColors } from '../private/input/settings';
-
-jsx;
 
 /**
  * Types & Settings
@@ -74,7 +70,7 @@ const FileInput: React.FC<FileInputProps> = ({
         id={id}
         type="file"
         aria-describedby={labelID(id)}
-        css={hideVisually}
+        css={hideVisually()}
         {...props}
       />
     </FileInputElement>

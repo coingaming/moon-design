@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { spacing as spacingTokens } from '@heathmont/sportsbet-tokens';
 import { rem, spacing } from '@heathmont/sportsbet-utils';
 

@@ -1,15 +1,11 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, rem, spacing } from '@heathmont/sportsbet-utils';
 
 import { inputColors } from '../input/settings';
 
 import { inputSelectors } from './settings';
-
-jsx;
 
 /**
  * Types
