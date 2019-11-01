@@ -17,15 +17,33 @@ its low specificity, margins can be overriden or adjusted for individual child
 elements by creating a new `class` selector.
 
 ```jsx react-live
-<Stack>
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-  <Stack css={{ padding: '1rem', border: `3px solid ${colors.neutral[20]}` }}>
-    <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-    <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-  </Stack>
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-</Stack>
+() => {
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <Stack>
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Stack
+        css={{ padding: '1rem', border: `3px solid ${colors.neutral[20]}` }}
+      >
+        <Example
+          css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+        />
+        <Example
+          css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+        />
+      </Stack>
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+    </Stack>
+  );
+};
 ```
 
 The immediate children don't _need_ to be components; `Stack` is especially
@@ -73,12 +91,26 @@ accepts other size values (such as [spacing utils](/utils/spacing)) for
 individual use-cases.
 
 ```jsx react-live
-<Stack space={spacing('small')}>
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-  <div css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }} />
-</Stack>
+() => {
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <Stack space={spacing('small')}>
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Example
+        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
+      />
+    </Stack>
+  );
+};
 ```
 
 ## Nesting
@@ -88,25 +120,43 @@ nested will lose spacing. Further `Stack`s can be nested to resolve this issue,
 or for other spacing needs.
 
 ```jsx react-live
-<Stack>
-  <p>Stacks can be nested too.</p>
-  <div css={{ padding: '1rem', border: `1px solid ${colors.neutral[20]}` }}>
-    <strong>Content unaffected by Stack.</strong>
-    <p>
-      Elements that are not direct children of the Stack, such as this one, will
-      lose their spacing.
-    </p>
-  </div>
-  <Stack css={{ padding: '1rem', border: `1px solid ${colors.neutral[20]}` }}>
-    <strong>New Stack defined for nested elements.</strong>
-    <p>Immediate children of this Stack will benefit from spacing.</p>
-    <p>Such as this element.</p>
-  </Stack>
+() => {
+  const Example = styled.div(({ css }) => css);
 
-  <div css={{ height: '2rem', border: `1px solid ${colors.neutral[20]}` }} />
+  const NestedStack = styled(Stack)({
+    padding: '1rem',
+    border: `1px solid ${colors.neutral[20]}`,
+  });
 
-  <p>Further immediate children to the initial Stack will inherit spacing.</p>
-</Stack>
+  return (
+    <Stack>
+      <p>Stacks can be nested too.</p>
+      <Example
+        css={{ padding: '1rem', border: `1px solid ${colors.neutral[20]}` }}
+      >
+        <strong>Content unaffected by Stack.</strong>
+        <p>
+          Elements that are not direct children of the Stack, such as this one,
+          will lose their spacing.
+        </p>
+      </Example>
+
+      <NestedStack>
+        <strong>New Stack defined for nested elements.</strong>
+        <p>Immediate children of this Stack will benefit from spacing.</p>
+        <p>Such as this element.</p>
+      </NestedStack>
+
+      <Example
+        css={{ height: '2rem', border: `1px solid ${colors.neutral[20]}` }}
+      />
+
+      <p>
+        Further immediate children to the initial Stack will inherit spacing.
+      </p>
+    </Stack>
+  );
+};
 ```
 
 ## Horizontal
@@ -115,9 +165,26 @@ By default, margins are set on the `vertical` axis but this can switched to
 `horizontal` for specific use-cases (such as spacing in [`flex`-based](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) design).
 
 ```jsx react-live
-<Stack direction="horizontal" css={{ display: 'flex', minHeight: '2rem' }}>
-  <div css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }} />
-  <div css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }} />
-  <div css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }} />
-</Stack>
+() => {
+  const Example = styled.div(({ css }) => css);
+
+  const CustomStack = styled(Stack)({
+    display: 'flex',
+    minHeight: '2rem',
+  });
+
+  return (
+    <CustomStack direction="horizontal">
+      <Example
+        css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Example
+        css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }}
+      />
+      <Example
+        css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }}
+      />
+    </CustomStack>
+  );
+};
 ```

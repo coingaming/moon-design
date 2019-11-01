@@ -10,10 +10,8 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "10.0.10",
-    "@emotion/is-prop-valid": "0.7.3",
-    "@emotion/styled": "10.0.9",
     "@heathmont/sportsbet-tokens": "^0.95.0",
-    "@heathmont/sportsbet-utils": "^0.95.0"
+    "@heathmont/sportsbet-utils": "^0.95.0",
+    "styled-components": "4.4.1"
   }
 }

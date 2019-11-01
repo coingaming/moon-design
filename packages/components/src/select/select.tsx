@@ -1,7 +1,5 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import { breakpoints, border } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, rem } from '@heathmont/sportsbet-utils';
 import { IconChevronDown } from '@heathmont/sportsbet-icons';
@@ -14,8 +12,6 @@ import {
   inputBorderWidth,
 } from '../private/input/settings';
 import { Label, LabelSizing } from '../private/label/label';
-
-jsx;
 
 const selectIconSize = 10; // px
 const selectIconOffset = selectIconSize + inputSpacingX * 2;

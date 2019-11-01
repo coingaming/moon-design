@@ -1,4 +1,4 @@
-import styled, { CSSObject } from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 type ToggleProps = {

@@ -11,16 +11,20 @@ Styled SVG components, sizeable via `fontSize` or traditional
 ## Crests
 
 ```jsx react-live
-<div
-  css={{
+() => {
+  const Example = styled.div({
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(8rem, 1fr));',
     gridGap: '1rem',
-  }}
->
-  <CrestFlamengo fontSize="10rem" />
-  <CrestWatford fontSize="10rem" />
-</div>
+  });
+
+  return (
+    <Example>
+      <CrestFlamengo fontSize="10rem" />
+      <CrestWatford fontSize="10rem" />
+    </Example>
+  );
+};
 ```
 
 ## Logos
@@ -48,17 +52,21 @@ With the current sponsors:
 ## Patterns
 
 ```jsx react-live
-<div
-  css={{
+() => {
+  const Example = styled.div({
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(6.5rem, 1fr));',
     gridGap: '1rem',
-  }}
->
-  <PatternCircles fontSize="5rem" />
-  <PatternRipple fontSize="5rem" />
-  <PatternSpeed fontSize="5rem" />
-  <PatternStars width="auto" height="5rem" />
-  <PatternWave width="auto" height="5rem" />
-</div>
+  });
+
+  return (
+    <Example>
+      <PatternCircles fontSize="5rem" />
+      <PatternRipple fontSize="5rem" />
+      <PatternSpeed fontSize="5rem" />
+      <PatternStars width="auto" height="5rem" />
+      <PatternWave width="auto" height="5rem" />
+    </Example>
+  );
+};
 ```

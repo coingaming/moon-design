@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { rem } from '@heathmont/sportsbet-utils';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 

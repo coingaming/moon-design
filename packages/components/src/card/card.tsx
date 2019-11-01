@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import padding from 'polished/lib/shorthands/padding';
 import { border, colors } from '@heathmont/sportsbet-tokens';

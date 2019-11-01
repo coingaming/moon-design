@@ -20,24 +20,34 @@ Default template, using the `flex` layout modifier to balance space between item
 [Icons](../icons) can also be passed via `backgroundIcon` for extra cosmetic context.
 
 ```jsx react-live
-<Card flex backgroundIcon={<IconBitcoin />} css={{ maxWidth: 300 }}>
-  <CardBalance
-    from={{
-      currency: 'Bitcoin',
-      value: '1526.56',
-      unit: 'mBTC',
-      unitTitle: 'Millibitcoin',
-    }}
-  />
-  <div>
-    <Link optional style={{ marginRight: spacing() }}>
-      Deposit
-    </Link>
-    <Link optional disabled>
-      Withdraw
-    </Link>
-  </div>
-</Card>
+() => {
+  const Example = styled.div({
+    maxWidth: 300,
+  });
+
+  return (
+    <Example>
+      <Card flex backgroundIcon={<IconBitcoin />}>
+        <CardBalance
+          from={{
+            currency: 'Bitcoin',
+            value: '1526.56',
+            unit: 'mBTC',
+            unitTitle: 'Millibitcoin',
+          }}
+        />
+        <div>
+          <Link optional style={{ marginRight: spacing() }}>
+            Deposit
+          </Link>
+          <Link optional disabled>
+            Withdraw
+          </Link>
+        </div>
+      </Card>
+    </Example>
+  );
+};
 ```
 
 ### Outline
@@ -45,9 +55,19 @@ Default template, using the `flex` layout modifier to balance space between item
 An 'empty' ghost outline of the card.
 
 ```jsx react-live
-<Card template="outline" css={{ maxWidth: 300 }}>
-  <button>+ Add Wallet</button>
-</Card>
+() => {
+  const Example = styled.div({
+    maxWidth: 300,
+  });
+
+  return (
+    <Example>
+      <Card template="outline">
+        <button>+ Add Wallet</button>
+      </Card>
+    </Example>
+  );
+};
 ```
 
 ## States
@@ -55,25 +75,35 @@ An 'empty' ghost outline of the card.
 ### Active
 
 ```jsx react-live
-<Card active flex backgroundIcon={<IconBitcoin />} css={{ maxWidth: 300 }}>
-  <CardBalance
-    badge={<Badge>Active</Badge>}
-    from={{
-      currency: 'Bitcoin',
-      value: '1526.56',
-      unit: 'mBTC',
-      unitTitle: 'Millibitcoin',
-    }}
-  />
-  <div>
-    <Link optional style={{ marginRight: spacing() }}>
-      Deposit
-    </Link>
-    <Link optional disabled>
-      Withdraw
-    </Link>
-  </div>
-</Card>
+() => {
+  const Example = styled.div({
+    maxWidth: 300,
+  });
+
+  return (
+    <Example>
+      <Card active flex backgroundIcon={<IconBitcoin />}>
+        <CardBalance
+          badge={<Badge>Active</Badge>}
+          from={{
+            currency: 'Bitcoin',
+            value: '1526.56',
+            unit: 'mBTC',
+            unitTitle: 'Millibitcoin',
+          }}
+        />
+        <div>
+          <Link optional style={{ marginRight: spacing() }}>
+            Deposit
+          </Link>
+          <Link optional disabled>
+            Withdraw
+          </Link>
+        </div>
+      </Card>
+    </Example>
+  );
+};
 ```
 
 ## Props

@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import { jsx, CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import * as React from 'react';
+import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link } from '@heathmont/sportsbet-components';
 import { Stack } from '@heathmont/sportsbet-objects';
@@ -10,26 +9,22 @@ import { spacing } from '@heathmont/sportsbet-utils';
 import { Code } from '../components/code';
 import { Children } from '../types';
 
-jsx;
-
 const maxWidth: CSSObject = {
   maxWidth: '40rem',
 };
 
-const Table = styled.table([
-  {
-    width: '100%',
-    ...maxWidth,
-    thead: {
-      color: colors.neutral[10],
-      fontWeight: typography.fontWeight.semibold,
-      borderBottom: `${border.width}px solid ${colors.neutral[20]}`,
-    },
-    'th, td': {
-      padding: `${spacing('small')} 0`,
-    },
+const Table = styled.table({
+  width: '100%',
+  ...maxWidth,
+  thead: {
+    color: colors.neutral[10],
+    fontWeight: typography.fontWeight.semibold,
+    borderBottom: `${border.width}px solid ${colors.neutral[20]}`,
   },
-]);
+  'th, td': {
+    padding: `${spacing('small')} 0`,
+  },
+});
 
 /**
  * Markdown-specific CSS
