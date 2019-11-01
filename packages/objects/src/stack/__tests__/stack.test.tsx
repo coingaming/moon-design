@@ -1,6 +1,6 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/core';
+import * as React from 'react';
 import { create } from 'react-test-renderer';
+import 'jest-styled-components';
 
 import { Stack } from '../stack';
 

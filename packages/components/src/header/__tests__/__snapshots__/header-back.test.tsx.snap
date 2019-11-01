@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header - Back renders as a button 1`] = `
-.emotion-3 {
+.c1 {
+  vertical-align: middle;
+}
+
+.c0 {
   margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
@@ -15,11 +19,7 @@ exports[`Header - Back renders as a button 1`] = `
   appearance: none;
 }
 
-.emotion-0 {
-  vertical-align: middle;
-}
-
-.emotion-2 {
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -35,11 +35,11 @@ exports[`Header - Back renders as a button 1`] = `
 }
 
 <button
-  className="emotion-3"
+  className="c0"
   onClick={[Function]}
 >
   <svg
-    className="emotion-0 emotion-1"
+    className="c1"
     color="#0CD664"
     fontSize="1.5rem"
     height="1em"
@@ -54,7 +54,7 @@ exports[`Header - Back renders as a button 1`] = `
     />
   </svg>
   <span
-    className="emotion-2"
+    className="c2"
   >
     Sample link
   </span>
@@ -62,7 +62,11 @@ exports[`Header - Back renders as a button 1`] = `
 `;
 
 exports[`Header - Back renders as a component 1`] = `
-.emotion-3 {
+.c1 {
+  vertical-align: middle;
+}
+
+.c0 {
   margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
@@ -76,11 +80,7 @@ exports[`Header - Back renders as a component 1`] = `
   appearance: none;
 }
 
-.emotion-0 {
-  vertical-align: middle;
-}
-
-.emotion-2 {
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -96,11 +96,11 @@ exports[`Header - Back renders as a component 1`] = `
 }
 
 <a
-  className="emotion-3"
+  className="c0"
   id="test-link"
 >
   <svg
-    className="emotion-0 emotion-1"
+    className="c1"
     color="#0CD664"
     fontSize="1.5rem"
     height="1em"
@@ -115,7 +115,7 @@ exports[`Header - Back renders as a component 1`] = `
     />
   </svg>
   <span
-    className="emotion-2"
+    className="c2"
   >
     Sample link
   </span>
@@ -123,7 +123,11 @@ exports[`Header - Back renders as a component 1`] = `
 `;
 
 exports[`Header - Back renders as an anchor by default 1`] = `
-.emotion-3 {
+.c1 {
+  vertical-align: middle;
+}
+
+.c0 {
   margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
@@ -137,11 +141,7 @@ exports[`Header - Back renders as an anchor by default 1`] = `
   appearance: none;
 }
 
-.emotion-0 {
-  vertical-align: middle;
-}
-
-.emotion-2 {
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -157,11 +157,11 @@ exports[`Header - Back renders as an anchor by default 1`] = `
 }
 
 <a
-  className="emotion-3"
+  className="c0"
   href="#"
 >
   <svg
-    className="emotion-0 emotion-1"
+    className="c1"
     color="#0CD664"
     fontSize="1.5rem"
     height="1em"
@@ -176,7 +176,7 @@ exports[`Header - Back renders as an anchor by default 1`] = `
     />
   </svg>
   <span
-    className="emotion-2"
+    className="c2"
   >
     Sample link
   </span>
