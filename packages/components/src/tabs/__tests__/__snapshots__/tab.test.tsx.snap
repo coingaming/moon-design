@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav renders correctly 1`] = `
-.emotion-7 {
+.c0 {
   position: relative;
   width: 100%;
   overflow-x: auto;
@@ -14,24 +14,24 @@ exports[`Nav renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-7::-webkit-scrollbar {
+.c0::-webkit-scrollbar {
   width: 12px;
   height: 12px;
   cursor: pointer;
 }
 
-.emotion-7::-webkit-scrollbar-thumb {
+.c0::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
   border-radius: 100px;
   border: 3px solid transparent;
 }
 
-.emotion-7:hover::-webkit-scrollbar-thumb {
+.c0:hover::-webkit-scrollbar-thumb {
   background-color: #62676D;
 }
 
-.emotion-0 {
+.c1 {
   position: absolute;
   z-index: 1;
   padding: 0 0.5rem;
@@ -44,7 +44,7 @@ exports[`Nav renders correctly 1`] = `
   background-color: #1A212A;
 }
 
-.emotion-0:not(:focus) {
+.c1:not(:focus) {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -59,7 +59,7 @@ exports[`Nav renders correctly 1`] = `
   width: 1px;
 }
 
-.emotion-6 {
+.c2 {
   display: block;
   margin-left: 0;
   white-space: nowrap;
@@ -68,58 +68,58 @@ exports[`Nav renders correctly 1`] = `
   padding-bottom: 14px;
 }
 
-.emotion-6 > * + * {
+.c2 > * + * {
   margin-left: 1.5rem;
 }
 
-.emotion-6 > style:first-child + * {
+.c2 > style:first-child + * {
   margin-left: 0;
 }
 
-.emotion-1 {
+.c3 {
   display: inline-block;
   list-style-type: none;
 }
 
-.emotion-1:before {
+.c3:before {
   position: absolute;
   content: "\\200B";
 }
 
 <nav
-  className="emotion-7"
+  className="c0"
 >
   <a
-    className="emotion-0"
+    className="c1"
     href="#test-tabs"
   >
     Skip to content
   </a>
   <ul
-    className="emotion-6"
+    className="c2"
   >
     <li
-      className="emotion-1"
+      className="c3"
     >
       0
     </li>
     <li
-      className="emotion-1"
+      className="c3"
     >
       1
     </li>
     <li
-      className="emotion-1"
+      className="c3"
     >
       2
     </li>
     <li
-      className="emotion-1"
+      className="c3"
     >
       3
     </li>
     <li
-      className="emotion-1"
+      className="c3"
     >
       4
     </li>

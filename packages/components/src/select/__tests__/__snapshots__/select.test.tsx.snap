@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Select renders a select input with options 1`] = `
-.emotion-0 {
+.c0 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -23,69 +23,69 @@ exports[`Select renders a select input with options 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-ufuu31-IconChevronDown eg83zou0'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-uy22xu-0 jbQXwq'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 100px;
 }
 
-.emotion-0::-webkit-input-placeholder {
+.c0::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0::-moz-placeholder {
+.c0::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0:-ms-input-placeholder {
+.c0:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0::placeholder {
+.c0::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0:hover:not(:focus) {
+.c0:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-0:not(:placeholder-shown):invalid {
+.c0:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-0:invalid,
-.emotion-0:-moz-ui-invalid {
+.c0:invalid,
+.c0:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-0:disabled {
+.c0:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-0:hover:enabled,
-.emotion-0:focus:enabled {
+.c0:hover:enabled,
+.c0:focus:enabled {
   cursor: pointer;
 }
 
 @supports (-moz-appearance:none) {
-  .emotion-0 {
+  .c0 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .emotion-0 {
+  .c0 {
     width: auto;
   }
 }
 
 <select
-  className="emotion-0"
+  className="-select c0"
 >
   <option
     value=""
@@ -111,7 +111,7 @@ exports[`Select renders a select input with options 1`] = `
 `;
 
 exports[`Select renders as disabled for default select input 1`] = `
-.emotion-0 {
+.c0 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -133,69 +133,69 @@ exports[`Select renders as disabled for default select input 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-ufuu31-IconChevronDown eg83zou0'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-uy22xu-0 jbQXwq'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 100px;
 }
 
-.emotion-0::-webkit-input-placeholder {
+.c0::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0::-moz-placeholder {
+.c0::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0:-ms-input-placeholder {
+.c0:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0::placeholder {
+.c0::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0:hover:not(:focus) {
+.c0:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-0:not(:placeholder-shown):invalid {
+.c0:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-0:invalid,
-.emotion-0:-moz-ui-invalid {
+.c0:invalid,
+.c0:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-0:disabled {
+.c0:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-0:hover:enabled,
-.emotion-0:focus:enabled {
+.c0:hover:enabled,
+.c0:focus:enabled {
   cursor: pointer;
 }
 
 @supports (-moz-appearance:none) {
-  .emotion-0 {
+  .c0 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .emotion-0 {
+  .c0 {
     width: auto;
   }
 }
 
 <select
-  className="emotion-0"
+  className="-select c0"
   disabled={true}
 >
   <option
@@ -222,7 +222,7 @@ exports[`Select renders as disabled for default select input 1`] = `
 `;
 
 exports[`Select renders as full-width for default select input 1`] = `
-.emotion-0 {
+.c0 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -244,63 +244,63 @@ exports[`Select renders as full-width for default select input 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-ufuu31-IconChevronDown eg83zou0'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-uy22xu-0 jbQXwq'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 100px;
 }
 
-.emotion-0::-webkit-input-placeholder {
+.c0::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0::-moz-placeholder {
+.c0::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0:-ms-input-placeholder {
+.c0:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0::placeholder {
+.c0::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-0:hover:not(:focus) {
+.c0:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-0:not(:placeholder-shown):invalid {
+.c0:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-0:invalid,
-.emotion-0:-moz-ui-invalid {
+.c0:invalid,
+.c0:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-0:disabled {
+.c0:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-0:hover:enabled,
-.emotion-0:focus:enabled {
+.c0:hover:enabled,
+.c0:focus:enabled {
   cursor: pointer;
 }
 
 @supports (-moz-appearance:none) {
-  .emotion-0 {
+  .c0 {
     line-height: 1.375rem;
   }
 }
 
 <select
-  className="emotion-0"
+  className="-select c0"
 >
   <option
     value=""
@@ -326,7 +326,14 @@ exports[`Select renders as full-width for default select input 1`] = `
 `;
 
 exports[`Select renders with label above the input 1`] = `
-.emotion-1 {
+.c1 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+.c2 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -348,82 +355,97 @@ exports[`Select renders with label above the input 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-ufuu31-IconChevronDown eg83zou0'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-uy22xu-0 jbQXwq'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 100px;
 }
 
-.emotion-1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::placeholder {
+.c2::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:hover:not(:focus) {
+.c2:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-1:not(:placeholder-shown):invalid {
+.c2:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-1:invalid,
-.emotion-1:-moz-ui-invalid {
+.c2:invalid,
+.c2:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-1:disabled {
+.c2:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-1:hover:enabled,
-.emotion-1:focus:enabled {
+.c2:hover:enabled,
+.c2:focus:enabled {
   cursor: pointer;
 }
 
+@media (min-width:31.25em) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .c0 select,
+  .c0 input {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
 @supports (-moz-appearance:none) {
-  .emotion-1 {
+  .c2 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .emotion-1 {
+  .c2 {
     width: auto;
   }
 }
 
-.emotion-0 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
-<label>
+<label
+  className="c0"
+>
   <span
-    className="emotion-0"
+    className="c1"
   >
     Example label
   </span>
   <select
-    className="emotion-1"
+    className="-select c2"
   >
     <option
       value=""
@@ -450,7 +472,14 @@ exports[`Select renders with label above the input 1`] = `
 `;
 
 exports[`Select renders with label as a flex layout evenly spaced by default 1`] = `
-.emotion-1 {
+.c1 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+.c2 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -472,69 +501,67 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-ufuu31-IconChevronDown eg83zou0'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-uy22xu-0 jbQXwq'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 100px;
 }
 
-.emotion-1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::placeholder {
+.c2::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:hover:not(:focus) {
+.c2:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-1:not(:placeholder-shown):invalid {
+.c2:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-1:invalid,
-.emotion-1:-moz-ui-invalid {
+.c2:invalid,
+.c2:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-1:disabled {
+.c2:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-1:hover:enabled,
-.emotion-1:focus:enabled {
+.c2:hover:enabled,
+.c2:focus:enabled {
   cursor: pointer;
 }
 
-@supports (-moz-appearance:none) {
-  .emotion-1 {
-    line-height: 1.375rem;
+@media (min-width:31.25em) {
+  .c1 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 1rem;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width:31.25em) {
-  .emotion-1 {
-    width: auto;
-  }
-}
-
-@media (min-width:31.25em) {
-  .emotion-2 {
+  .c0 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -545,41 +572,36 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
     align-items: center;
   }
 
-  .emotion-2 select,
-  .emotion-2 input {
+  .c0 select,
+  .c0 input {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
 }
 
-.emotion-0 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
+@supports (-moz-appearance:none) {
+  .c2 {
+    line-height: 1.375rem;
+  }
 }
 
 @media (min-width:31.25em) {
-  .emotion-0 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding-right: 1rem;
-    margin-bottom: 0;
+  .c2 {
+    width: auto;
   }
 }
 
 <label
-  className="emotion-2"
+  className="c0"
 >
   <span
-    className="emotion-0"
+    className="c1"
   >
     Example label
   </span>
   <select
-    className="emotion-1"
+    className="-select c2"
   >
     <option
       value=""
@@ -606,7 +628,14 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
 `;
 
 exports[`Select renders with label as a flex layout with adjusted input size 1`] = `
-.emotion-1 {
+.c1 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+.c2 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -628,76 +657,57 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='css-ufuu31-IconChevronDown eg83zou0'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-uy22xu-0 jbQXwq'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 100px;
 }
 
-.emotion-1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::placeholder {
+.c2::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:hover:not(:focus) {
+.c2:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-1:not(:placeholder-shown):invalid {
+.c2:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-1:invalid,
-.emotion-1:-moz-ui-invalid {
+.c2:invalid,
+.c2:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-1:disabled {
+.c2:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-1:hover:enabled,
-.emotion-1:focus:enabled {
+.c2:hover:enabled,
+.c2:focus:enabled {
   cursor: pointer;
 }
 
-@supports (-moz-appearance:none) {
-  .emotion-1 {
-    line-height: 1.375rem;
-  }
-}
-
 @media (min-width:31.25em) {
-  .emotion-1 {
-    width: auto;
-  }
-}
-
-.emotion-0 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
-@media (min-width:31.25em) {
-  .emotion-0 {
+  .c1 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -707,7 +717,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
 }
 
 @media (min-width:31.25em) {
-  .emotion-2 {
+  .c0 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -718,24 +728,36 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
     align-items: center;
   }
 
-  .emotion-2 select,
-  .emotion-2 input {
+  .c0 select,
+  .c0 input {
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
   }
 }
 
+@supports (-moz-appearance:none) {
+  .c2 {
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width:31.25em) {
+  .c2 {
+    width: auto;
+  }
+}
+
 <label
-  className="emotion-2"
+  className="c0"
 >
   <span
-    className="emotion-0"
+    className="c1"
   >
     Example label
   </span>
   <select
-    className="emotion-1"
+    className="-select c2"
   >
     <option
       value=""

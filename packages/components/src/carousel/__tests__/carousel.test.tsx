@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import 'jest-styled-components';
 
 import { Carousel, CarouselScroll, CarouselScrollItem } from '../carousel';
 import { CarouselControl, CarouselControlCaption } from '../control';
