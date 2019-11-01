@@ -1,7 +1,5 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
 import { rem, spacing } from '@heathmont/sportsbet-utils';
@@ -9,8 +7,6 @@ import { border } from '@heathmont/sportsbet-tokens';
 
 import { inputSpacingY } from '../private/input/settings';
 import { inputSelectors } from '../private/label/settings';
-
-jsx;
 
 /**
  * Types
@@ -24,7 +20,7 @@ type FormProps = FormElement & {
   fullWidth?: boolean;
 };
 
-const FormList = styled.ul([listPlain, { marginTop: 0 }]);
+const FormList = styled.ul(listPlain, { marginTop: 0 });
 
 const Fieldset = styled.fieldset({
   border: 0,
@@ -43,7 +39,7 @@ const Form: React.FC<FormProps> = ({
   return (
     <form css={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
       <Fieldset>
-        <legend css={hideVisually}>{legend}</legend>
+        <legend css={hideVisually()}>{legend}</legend>
         <FormList>{children}</FormList>
       </Fieldset>
     </form>
@@ -53,7 +49,7 @@ const Form: React.FC<FormProps> = ({
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-const FormItem = styled.li<any>([listPlainItem, { marginBottom: spacing() }]);
+const FormItem = styled.li<any>(listPlainItem, { marginBottom: spacing() });
 
 const FormCombo = styled.div({
   display: 'block',

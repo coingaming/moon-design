@@ -12,12 +12,11 @@
   "scripts": {
     "build:svg": "npx @svgr/cli --ext tsx --config-file ./svgr.config.js -d src raw",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
-    "build": "yarn build:svg && yarn build:index && yarn lint"
+    "build": "yarn build:svg && yarn lint"
   },
   "dependencies": {
-    "@emotion/core": "10.0.10",
-    "@emotion/styled": "10.0.9",
-    "@heathmont/sportsbet-tokens": "^0.95.0"
+    "@heathmont/sportsbet-tokens": "^0.95.0",
+    "styled-components": "4.4.1"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",

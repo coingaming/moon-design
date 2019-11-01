@@ -1,10 +1,6 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { CSSObject, jsx, keyframes } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { css, CSSObject, keyframes } from 'styled-components';
 import { spacing } from '@heathmont/sportsbet-utils';
-
-jsx;
 
 const ring = keyframes`
   0% {
@@ -29,8 +25,11 @@ const common: CSSObject = {
   width: spacing(),
   height: spacing(),
   borderRadius: '50%',
-  animation: `${ring} 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite`,
 };
+
+const animation = css`
+  animation: ${ring} 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+`;
 
 const getBorder = (color: string) => ({
   border: `2px solid ${color}`,
@@ -43,9 +42,15 @@ type LoaderProps = {
 
 export const Loader: React.FC<LoaderProps> = ({ color }) => (
   <Wrapper>
-    <div css={[common, getBorder(color), { animationDelay: '-0.45s' }]} />
-    <div css={[common, getBorder(color), { animationDelay: '-0.3s' }]} />
-    <div css={[common, getBorder(color), { animationDelay: '-0.15s' }]} />
+    <div
+      css={[common, getBorder(color), animation, { animationDelay: '-0.45s' }]}
+    />
+    <div
+      css={[common, getBorder(color), animation, { animationDelay: '-0.3s' }]}
+    />
+    <div
+      css={[common, getBorder(color), animation, { animationDelay: '-0.15s' }]}
+    />
     <div css={[common, getBorder(color)]} />
   </Wrapper>
 );

@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 type BadgeModifiers =

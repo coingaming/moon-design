@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled, { CSSObject } from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import padding from 'polished/lib/shorthands/padding';
 import { Global } from '@heathmont/sportsbet-global';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
