@@ -1,11 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Form renders a form combo 1`] = `
-.emotion-8 {
+.c3 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.c1 {
   border: 0;
 }
 
-.emotion-0 {
+.c0 {
+  max-width: 25rem;
+  width: auto;
+}
+
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -20,46 +31,41 @@ exports[`Form renders a form combo 1`] = `
   width: 1px;
 }
 
-.emotion-7 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.emotion-6 {
+.c4 {
   display: block;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.emotion-6:before {
+.c4:before {
   position: absolute;
   content: "\\200B";
 }
 
-.emotion-9 {
-  max-width: 25rem;
-  width: auto;
-}
-
-.emotion-5 {
+.c5 {
   display: block;
   position: relative;
 }
 
-.emotion-3 select,
-.emotion-3 input {
+.c6 select,
+.c6 input {
   border-radius: 100px;
 }
 
-.emotion-1 {
+.c10 {
+  position: absolute;
+  right: 0.28125rem;
+  bottom: 0.28125rem;
+}
+
+.c8 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
   font-size: 1rem;
 }
 
-.emotion-2 {
+.c9 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -78,93 +84,109 @@ exports[`Form renders a form combo 1`] = `
   -webkit-appearance: none;
 }
 
-.emotion-2::-webkit-input-placeholder {
+.c9::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-2::-moz-placeholder {
+.c9::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-2:-ms-input-placeholder {
+.c9:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-2::placeholder {
+.c9::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-2:hover:not(:focus) {
+.c9:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-2:not(:placeholder-shown):invalid {
+.c9:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-2:invalid,
-.emotion-2:-moz-ui-invalid {
+.c9:invalid,
+.c9:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-2:disabled {
+.c9:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-2:focus {
+.c9:focus {
   border-color: #0CD664;
   outline: none;
 }
 
-.emotion-4 {
-  position: absolute;
-  right: 0.28125rem;
-  bottom: 0.28125rem;
+@media (min-width:31.25em) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .c7 select,
+  .c7 input {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
 }
 
 <form
-  className="emotion-9"
+  className="c0"
 >
   <fieldset
-    className="emotion-8"
+    className="c1"
   >
     <legend
-      className="emotion-0"
+      className="c2"
     >
       2FA
     </legend>
     <ul
-      className="emotion-7"
+      className="c3"
     >
       <li
-        className="emotion-6"
+        className="c4"
       >
         <div
-          className="emotion-5"
+          className="c5"
         >
           <div
-            className="emotion-3"
+            className="c6"
           >
-            <label>
+            <label
+              className="c7"
+            >
               <span
-                className="emotion-1"
+                className="c8"
               >
                 Enable Two Factor Authentication
               </span>
               <input
-                className="emotion-2"
+                className="c9"
                 placeholder="Enter code"
                 type="text"
               />
             </label>
           </div>
           <div
-            className="emotion-4"
+            className="c10"
           >
             <button
               type="submit"
@@ -180,11 +202,22 @@ exports[`Form renders a form combo 1`] = `
 `;
 
 exports[`Form renders a form combo without a label 1`] = `
-.emotion-7 {
+.c3 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.c1 {
   border: 0;
 }
 
-.emotion-0 {
+.c0 {
+  max-width: 25rem;
+  width: auto;
+}
+
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -199,39 +232,34 @@ exports[`Form renders a form combo without a label 1`] = `
   width: 1px;
 }
 
-.emotion-6 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.emotion-5 {
+.c4 {
   display: block;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.emotion-5:before {
+.c4:before {
   position: absolute;
   content: "\\200B";
 }
 
-.emotion-8 {
-  max-width: 25rem;
-  width: auto;
-}
-
-.emotion-4 {
+.c5 {
   display: block;
   position: relative;
 }
 
-.emotion-2 select,
-.emotion-2 input {
+.c6 select,
+.c6 input {
   border-radius: 100px;
 }
 
-.emotion-1 {
+.c8 {
+  position: absolute;
+  right: 0.28125rem;
+  bottom: 0.28125rem;
+}
+
+.c7 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -250,86 +278,80 @@ exports[`Form renders a form combo without a label 1`] = `
   -webkit-appearance: none;
 }
 
-.emotion-1::-webkit-input-placeholder {
+.c7::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::-moz-placeholder {
+.c7::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:-ms-input-placeholder {
+.c7:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1::placeholder {
+.c7::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.emotion-1:hover:not(:focus) {
+.c7:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.emotion-1:not(:placeholder-shown):invalid {
+.c7:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.emotion-1:invalid,
-.emotion-1:-moz-ui-invalid {
+.c7:invalid,
+.c7:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.emotion-1:disabled {
+.c7:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.emotion-1:focus {
+.c7:focus {
   border-color: #0CD664;
   outline: none;
 }
 
-.emotion-3 {
-  position: absolute;
-  right: 0.28125rem;
-  bottom: 0.28125rem;
-}
-
 <form
-  className="emotion-8"
+  className="c0"
 >
   <fieldset
-    className="emotion-7"
+    className="c1"
   >
     <legend
-      className="emotion-0"
+      className="c2"
     >
       2FA
     </legend>
     <ul
-      className="emotion-6"
+      className="c3"
     >
       <li
-        className="emotion-5"
+        className="c4"
       >
         <div
-          className="emotion-4"
+          className="c5"
         >
           <div
-            className="emotion-2"
+            className="c6"
           >
             <input
-              className="emotion-1"
+              className="c7"
               placeholder="Enter code"
               type="text"
             />
           </div>
           <div
-            className="emotion-3"
+            className="c8"
           >
             <button
               type="submit"
@@ -345,15 +367,28 @@ exports[`Form renders a form combo without a label 1`] = `
 `;
 
 exports[`Form renders correctly 1`] = `
-.emotion-8 {
-  width: auto;
+.c5 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
 }
 
-.emotion-7 {
+.c3 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.c1 {
   border: 0;
 }
 
-.emotion-0 {
+.c0 {
+  width: auto;
+}
+
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -368,46 +403,33 @@ exports[`Form renders correctly 1`] = `
   width: 1px;
 }
 
-.emotion-6 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.emotion-1 {
+.c4 {
   display: block;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.emotion-1:before {
+.c4:before {
   position: absolute;
   content: "\\200B";
 }
 
-.emotion-2 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
 <form
-  className="emotion-8"
+  className="c0"
 >
   <fieldset
-    className="emotion-7"
+    className="c1"
   >
     <legend
-      className="emotion-0"
+      className="c2"
     >
       Sign up
     </legend>
     <ul
-      className="emotion-6"
+      className="c3"
     >
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -421,7 +443,7 @@ exports[`Form renders correctly 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -433,14 +455,14 @@ exports[`Form renders correctly 1`] = `
           />
         </label>
         <p
-          className="emotion-2"
+          className="c5"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput2"
@@ -455,7 +477,7 @@ exports[`Form renders correctly 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <button
           type="submit"
@@ -470,15 +492,28 @@ exports[`Form renders correctly 1`] = `
 `;
 
 exports[`Form renders with HTML form attributes 1`] = `
-.emotion-8 {
-  width: auto;
+.c5 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
 }
 
-.emotion-7 {
+.c3 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.c1 {
   border: 0;
 }
 
-.emotion-0 {
+.c0 {
+  width: auto;
+}
+
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -493,49 +528,35 @@ exports[`Form renders with HTML form attributes 1`] = `
   width: 1px;
 }
 
-.emotion-6 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.emotion-1 {
+.c4 {
   display: block;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.emotion-1:before {
+.c4:before {
   position: absolute;
   content: "\\200B";
 }
 
-.emotion-2 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
 <form
   action="#"
-  autocomplete="on"
-  className="emotion-8"
+  className="c0"
   method="post"
 >
   <fieldset
-    className="emotion-7"
+    className="c1"
   >
     <legend
-      className="emotion-0"
+      className="c2"
     >
       Sign up
     </legend>
     <ul
-      className="emotion-6"
+      className="c3"
     >
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -549,7 +570,7 @@ exports[`Form renders with HTML form attributes 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -561,14 +582,14 @@ exports[`Form renders with HTML form attributes 1`] = `
           />
         </label>
         <p
-          className="emotion-2"
+          className="c5"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput2"
@@ -583,7 +604,7 @@ exports[`Form renders with HTML form attributes 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <button
           type="submit"
@@ -598,11 +619,28 @@ exports[`Form renders with HTML form attributes 1`] = `
 `;
 
 exports[`Form renders with custom fullWidth 1`] = `
-.emotion-7 {
+.c5 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
+.c3 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.c1 {
   border: 0;
 }
 
-.emotion-0 {
+.c0 {
+  width: 100%;
+}
+
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -617,50 +655,33 @@ exports[`Form renders with custom fullWidth 1`] = `
   width: 1px;
 }
 
-.emotion-6 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.emotion-1 {
+.c4 {
   display: block;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.emotion-1:before {
+.c4:before {
   position: absolute;
   content: "\\200B";
 }
 
-.emotion-2 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
-.emotion-8 {
-  width: 100%;
-}
-
 <form
-  className="emotion-8"
+  className="c0"
 >
   <fieldset
-    className="emotion-7"
+    className="c1"
   >
     <legend
-      className="emotion-0"
+      className="c2"
     >
       Sign up
     </legend>
     <ul
-      className="emotion-6"
+      className="c3"
     >
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -674,7 +695,7 @@ exports[`Form renders with custom fullWidth 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -686,14 +707,14 @@ exports[`Form renders with custom fullWidth 1`] = `
           />
         </label>
         <p
-          className="emotion-2"
+          className="c5"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput2"
@@ -708,7 +729,7 @@ exports[`Form renders with custom fullWidth 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <button
           type="submit"
@@ -723,11 +744,29 @@ exports[`Form renders with custom fullWidth 1`] = `
 `;
 
 exports[`Form renders with custom maxWidth 1`] = `
-.emotion-7 {
+.c5 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
+.c3 {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.c1 {
   border: 0;
 }
 
-.emotion-0 {
+.c0 {
+  max-width: 30rem;
+  width: auto;
+}
+
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -742,51 +781,33 @@ exports[`Form renders with custom maxWidth 1`] = `
   width: 1px;
 }
 
-.emotion-6 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.emotion-1 {
+.c4 {
   display: block;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.emotion-1:before {
+.c4:before {
   position: absolute;
   content: "\\200B";
 }
 
-.emotion-2 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
-.emotion-8 {
-  max-width: 30rem;
-  width: auto;
-}
-
 <form
-  className="emotion-8"
+  className="c0"
 >
   <fieldset
-    className="emotion-7"
+    className="c1"
   >
     <legend
-      className="emotion-0"
+      className="c2"
     >
       Sign up
     </legend>
     <ul
-      className="emotion-6"
+      className="c3"
     >
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -800,7 +821,7 @@ exports[`Form renders with custom maxWidth 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput1"
@@ -812,14 +833,14 @@ exports[`Form renders with custom maxWidth 1`] = `
           />
         </label>
         <p
-          className="emotion-2"
+          className="c5"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <label
           htmlFor="testInput2"
@@ -834,7 +855,7 @@ exports[`Form renders with custom maxWidth 1`] = `
         </label>
       </li>
       <li
-        className="emotion-1"
+        className="c4"
       >
         <button
           type="submit"

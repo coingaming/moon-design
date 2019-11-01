@@ -16,9 +16,10 @@ currently including:
 1. Import the `fontFace` into your global stylesheet.
 
 ```jsx
-/* e.g. Emotion */
 import { avertaStd } from '@heathmont/sportsbet-fonts';
-import { Global } from '@emotion/core';
+import { createGlobalStyle } from 'styled-components';
+
+const Global = createGlobalStyle(avertaStd.fontFace);
 
 export const App = () => (
   <main>

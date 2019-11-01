@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled, { CSSObject } from 'styled-components';
+import styled from 'styled-components';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, rem, spacing } from '@heathmont/sportsbet-utils';
 
@@ -54,7 +54,7 @@ const LabelContent = styled.span<LabelContentProps>(({ disabled, flex }) => [
   },
 ]);
 
-const labelFlex: (inputGrow: number) => CSSObject = inputGrow => ({
+const LabelFlex = styled.label<{ inputGrow?: number }>(({ inputGrow }) => ({
   [mq(breakpoints.small)]: {
     display: 'flex',
     alignItems: 'center',
@@ -62,7 +62,7 @@ const labelFlex: (inputGrow: number) => CSSObject = inputGrow => ({
       flex: inputGrow,
     },
   },
-});
+}));
 
 /**
  * Component
@@ -81,12 +81,12 @@ const Label: React.FC<LabelProps> = ({
   return inline ? (
     <label {...props}>{text}</label>
   ) : (
-    <label css={flex && labelFlex(inputGrow)} {...props}>
+    <LabelFlex inputGrow={inputGrow} {...props}>
       <LabelContent disabled={disabled} flex={flex}>
         {text}
       </LabelContent>
       {React.Children.only(children)}
-    </label>
+    </LabelFlex>
   );
   /* eslint-enable jsx-a11y/label-has-associated-control */
 };

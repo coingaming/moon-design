@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Switch renders as checked 1`] = `
-.emotion-2 {
+.c0 {
   position: relative;
   display: inline-block;
   -webkit-flex-shrink: 0;
@@ -11,24 +11,24 @@ exports[`Switch renders as checked 1`] = `
   height: 2rem;
 }
 
-.emotion-0 {
+.c1 {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.emotion-0:checked + .slider {
+.c1:checked + .slider {
   background-color: #0CD664;
 }
 
-.emotion-0:checked + .slider:before {
+.c1:checked + .slider:before {
   background-color: #FFF;
   -webkit-transform: translateX(32px);
   -ms-transform: translateX(32px);
   transform: translateX(32px);
 }
 
-.emotion-1 {
+.c2 {
   position: absolute;
   width: 4rem;
   height: 2rem;
@@ -43,7 +43,7 @@ exports[`Switch renders as checked 1`] = `
   border-radius: 2.125rem;
 }
 
-.emotion-1::before {
+.c2::before {
   position: absolute;
   content: "";
   height: 1.5rem;
@@ -57,21 +57,21 @@ exports[`Switch renders as checked 1`] = `
 }
 
 <label
-  className="emotion-2"
+  className="c0"
 >
   <input
     checked={true}
-    className="emotion-0"
+    className="c1"
     type="checkbox"
   />
   <span
-    className="slider emotion-1"
+    className="c2 slider"
   />
 </label>
 `;
 
 exports[`Switch renders by default 1`] = `
-.emotion-2 {
+.c0 {
   position: relative;
   display: inline-block;
   -webkit-flex-shrink: 0;
@@ -81,24 +81,24 @@ exports[`Switch renders by default 1`] = `
   height: 2rem;
 }
 
-.emotion-0 {
+.c1 {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.emotion-0:checked + .slider {
+.c1:checked + .slider {
   background-color: #0CD664;
 }
 
-.emotion-0:checked + .slider:before {
+.c1:checked + .slider:before {
   background-color: #FFF;
   -webkit-transform: translateX(32px);
   -ms-transform: translateX(32px);
   transform: translateX(32px);
 }
 
-.emotion-1 {
+.c2 {
   position: absolute;
   width: 4rem;
   height: 2rem;
@@ -113,7 +113,7 @@ exports[`Switch renders by default 1`] = `
   border-radius: 2.125rem;
 }
 
-.emotion-1::before {
+.c2::before {
   position: absolute;
   content: "";
   height: 1.5rem;
@@ -127,14 +127,14 @@ exports[`Switch renders by default 1`] = `
 }
 
 <label
-  className="emotion-2"
+  className="c0"
 >
   <input
-    className="emotion-0"
+    className="c1"
     type="checkbox"
   />
   <span
-    className="slider emotion-1"
+    className="c2 slider"
   />
 </label>
 `;

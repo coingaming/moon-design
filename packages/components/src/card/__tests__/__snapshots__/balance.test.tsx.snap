@@ -1,68 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CardBalance renders correctly 1`] = `
-@supports (grid-gap:0) {
-  .emotion-3 {
-    display: grid;
-    grid-gap: 0;
-  }
-}
-
-@supports not (grid-gap:0) {
-  .emotion-3 > * + * {
-    margin-top: 0;
-  }
-
-  .emotion-3 > style:first-child + * {
-    margin-top: 0;
-  }
-}
-
-.emotion-0 {
-  margin-top: 0;
-  color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-2 {
+.c2 {
   margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
 }
 
-.emotion-1 {
+.c1 {
+  margin-top: 0;
+  color: #8697A2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.c3 {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.0625rem;
   line-height: 1.25rem;
 }
 
+@supports (grid-gap:0) {
+  .c0 {
+    display: grid;
+    grid-gap: 0;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c0 > * + * {
+    margin-top: 0;
+  }
+
+  .c0 > style:first-child + * {
+    margin-top: 0;
+  }
+}
+
 <div
-  className="emotion-3 emotion-4"
+  className="c0"
 >
   <p
-    className="emotion-0"
+    className="c1"
   >
     Bitcoin
   </p>
   <p
-    className="emotion-2"
+    className="c2"
   >
     1526.56 
     <abbr
-      className="emotion-1"
+      className="c3"
       title="Millibitcoin"
     >
       mBTC
@@ -72,59 +61,7 @@ exports[`CardBalance renders correctly 1`] = `
 `;
 
 exports[`CardBalance renders correctly with a badge 1`] = `
-@supports (grid-gap:0) {
-  .emotion-5 {
-    display: grid;
-    grid-gap: 0;
-  }
-}
-
-@supports not (grid-gap:0) {
-  .emotion-5 > * + * {
-    margin-top: 0;
-  }
-
-  .emotion-5 > style:first-child + * {
-    margin-top: 0;
-  }
-}
-
-.emotion-2 {
-  margin-top: 0;
-  color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-4 {
-  margin-top: 0;
-  font-size: 1.9375rem;
-  line-height: 2.375rem;
-}
-
-.emotion-3 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1.0625rem;
-  line-height: 1.25rem;
-}
-
-.emotion-1 {
-  margin-bottom: 1rem;
-}
-
-.emotion-0 {
+.c2 {
   color: #FFF;
   background-color: #0CD664;
   padding: 0.125rem 0.4375rem;
@@ -140,29 +77,70 @@ exports[`CardBalance renders correctly with a badge 1`] = `
   font-weight: 700;
 }
 
+.c4 {
+  margin-top: 0;
+  font-size: 1.9375rem;
+  line-height: 2.375rem;
+}
+
+.c3 {
+  margin-top: 0;
+  color: #8697A2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.c1 {
+  margin-bottom: 1rem;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
+@supports (grid-gap:0) {
+  .c0 {
+    display: grid;
+    grid-gap: 0;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c0 > * + * {
+    margin-top: 0;
+  }
+
+  .c0 > style:first-child + * {
+    margin-top: 0;
+  }
+}
+
 <div
-  className="emotion-5 emotion-6"
+  className="c0"
 >
   <p
-    className="emotion-1"
+    className="c1"
   >
     <span
-      className="emotion-0"
+      className="c2"
     >
       Active
     </span>
   </p>
   <p
-    className="emotion-2"
+    className="c3"
   >
     Bitcoin
   </p>
   <p
-    className="emotion-4"
+    className="c4"
   >
     1526.56 
     <abbr
-      className="emotion-3"
+      className="c5"
       title="Millibitcoin"
     >
       mBTC
@@ -172,68 +150,57 @@ exports[`CardBalance renders correctly with a badge 1`] = `
 `;
 
 exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
-@supports (grid-gap:0) {
-  .emotion-3 {
-    display: grid;
-    grid-gap: 0;
-  }
-}
-
-@supports not (grid-gap:0) {
-  .emotion-3 > * + * {
-    margin-top: 0;
-  }
-
-  .emotion-3 > style:first-child + * {
-    margin-top: 0;
-  }
-}
-
-.emotion-0 {
-  margin-top: 0;
-  color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-2 {
+.c2 {
   margin-top: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
 }
 
-.emotion-1 {
+.c1 {
+  margin-top: 0;
+  color: #8697A2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.c3 {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.0625rem;
   line-height: 1.25rem;
 }
 
+@supports (grid-gap:0) {
+  .c0 {
+    display: grid;
+    grid-gap: 0;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c0 > * + * {
+    margin-top: 0;
+  }
+
+  .c0 > style:first-child + * {
+    margin-top: 0;
+  }
+}
+
 <div
-  className="emotion-3 emotion-4"
+  className="c0"
 >
   <p
-    className="emotion-0"
+    className="c1"
   >
     Bitcoin
   </p>
   <p
-    className="emotion-2"
+    className="c2"
   >
     1526.56 
     <abbr
-      className="emotion-1"
+      className="c3"
       title="Bitcoin"
     >
       mBTC
