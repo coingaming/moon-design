@@ -47,8 +47,7 @@ exports[`Form renders a form combo 1`] = `
   position: relative;
 }
 
-.c6 select,
-.c6 input {
+.c6 .c8 {
   border-radius: 100px;
 }
 
@@ -58,7 +57,7 @@ exports[`Form renders a form combo 1`] = `
   bottom: 0.28125rem;
 }
 
-.c8 {
+.c7 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
@@ -127,26 +126,6 @@ exports[`Form renders a form combo 1`] = `
   outline: none;
 }
 
-@media (min-width:31.25em) {
-  .c7 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .c7 select,
-  .c7 input {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
 <form
   className="c0"
 >
@@ -171,15 +150,15 @@ exports[`Form renders a form combo 1`] = `
             className="c6"
           >
             <label
-              className="c7"
+              className=""
             >
               <span
-                className="c8"
+                className="c7"
               >
                 Enable Two Factor Authentication
               </span>
               <input
-                className="c9"
+                className="c8 c9"
                 placeholder="Enter code"
                 type="text"
               />
@@ -248,18 +227,17 @@ exports[`Form renders a form combo without a label 1`] = `
   position: relative;
 }
 
-.c6 select,
-.c6 input {
+.c6 .c7 {
   border-radius: 100px;
 }
 
-.c8 {
+.c9 {
   position: absolute;
   right: 0.28125rem;
   bottom: 0.28125rem;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -278,45 +256,45 @@ exports[`Form renders a form combo without a label 1`] = `
   -webkit-appearance: none;
 }
 
-.c7::-webkit-input-placeholder {
+.c8::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c7::-moz-placeholder {
+.c8::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c7:-ms-input-placeholder {
+.c8:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c7::placeholder {
+.c8::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c7:hover:not(:focus) {
+.c8:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c7:not(:placeholder-shown):invalid {
+.c8:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c7:invalid,
-.c7:-moz-ui-invalid {
+.c8:invalid,
+.c8:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c7:disabled {
+.c8:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c7:focus {
+.c8:focus {
   border-color: #0CD664;
   outline: none;
 }
@@ -345,13 +323,13 @@ exports[`Form renders a form combo without a label 1`] = `
             className="c6"
           >
             <input
-              className="c7"
+              className="c7 c8"
               placeholder="Enter code"
               type="text"
             />
           </div>
           <div
-            className="c8"
+            className="c9"
           >
             <button
               type="submit"
