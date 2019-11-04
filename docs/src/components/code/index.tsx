@@ -10,7 +10,6 @@ import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 
 import { prismTheme, syntaxStyles } from './prism';
-// @ts-ignore
 
 type CodeProps = {
   codeString: string;
