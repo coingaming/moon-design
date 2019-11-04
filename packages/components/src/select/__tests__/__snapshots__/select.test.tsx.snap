@@ -111,7 +111,7 @@ exports[`Select renders a select input with options 1`] = `
 `;
 
 exports[`Select renders as disabled for default select input 1`] = `
-.c0 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -139,63 +139,81 @@ exports[`Select renders as disabled for default select input 1`] = `
   border-radius: 100px;
 }
 
-.c0::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c0:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c0:invalid,
-.c0:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c0:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c0:hover:enabled,
-.c0:focus:enabled {
+.c1:hover:enabled,
+.c1:focus:enabled {
   cursor: pointer;
 }
 
+@media (min-width:31.25em) {
+  .jHTYw .input__Input-sc-14xvxp6-0,
+  .jHTYw .c0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+@media (min-width:31.25em) {
+  .ibmUJp .input__Input-sc-14xvxp6-0,
+  .ibmUJp .c0 {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+}
+
 @supports (-moz-appearance:none) {
-  .c0 {
+  .c1 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .c0 {
+  .c1 {
     width: auto;
   }
 }
 
 <select
-  className="-select c0"
+  className="-select c0 c1"
   disabled={true}
 >
   <option
@@ -222,7 +240,7 @@ exports[`Select renders as disabled for default select input 1`] = `
 `;
 
 exports[`Select renders as full-width for default select input 1`] = `
-.c0 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -250,57 +268,75 @@ exports[`Select renders as full-width for default select input 1`] = `
   border-radius: 100px;
 }
 
-.c0::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c0:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c0:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c0:invalid,
-.c0:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c0:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c0:hover:enabled,
-.c0:focus:enabled {
+.c1:hover:enabled,
+.c1:focus:enabled {
   cursor: pointer;
 }
 
+@media (min-width:31.25em) {
+  .jHTYw .input__Input-sc-14xvxp6-0,
+  .jHTYw .c0 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+@media (min-width:31.25em) {
+  .ibmUJp .input__Input-sc-14xvxp6-0,
+  .ibmUJp .c0 {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+}
+
 @supports (-moz-appearance:none) {
-  .c0 {
+  .c1 {
     line-height: 1.375rem;
   }
 }
 
 <select
-  className="-select c0"
+  className="-select c0 c1"
 >
   <option
     value=""
@@ -326,14 +362,14 @@ exports[`Select renders as full-width for default select input 1`] = `
 `;
 
 exports[`Select renders with label above the input 1`] = `
-.c1 {
+.c0 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
   font-size: 1rem;
 }
 
-.c2 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -361,91 +397,71 @@ exports[`Select renders with label above the input 1`] = `
   border-radius: 100px;
 }
 
-.c2::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:hover:enabled,
-.c2:focus:enabled {
+.c1:hover:enabled,
+.c1:focus:enabled {
   cursor: pointer;
 }
 
-@media (min-width:31.25em) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .c0 select,
-  .c0 input {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
 @supports (-moz-appearance:none) {
-  .c2 {
+  .c1 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .c2 {
+  .c1 {
     width: auto;
   }
 }
 
 <label
-  className="c0"
+  className=""
 >
   <span
-    className="c1"
+    className="c0"
   >
     Example label
   </span>
   <select
-    className="-select c2"
+    className="-select c1"
   >
     <option
       value=""
@@ -479,7 +495,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   font-size: 1rem;
 }
 
-.c2 {
+.c3 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -507,46 +523,46 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   border-radius: 100px;
 }
 
-.c2::-webkit-input-placeholder {
+.c3::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c3::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c3:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c3::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c3:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c3:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c3:invalid,
+.c3:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c3:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:hover:enabled,
-.c2:focus:enabled {
+.c3:hover:enabled,
+.c3:focus:enabled {
   cursor: pointer;
 }
 
@@ -572,8 +588,8 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
     align-items: center;
   }
 
-  .c0 select,
-  .c0 input {
+  .c0 .input__Input-sc-14xvxp6-0,
+  .c0 .c2 {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -581,13 +597,13 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
 }
 
 @supports (-moz-appearance:none) {
-  .c2 {
+  .c3 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .c2 {
+  .c3 {
     width: auto;
   }
 }
@@ -601,7 +617,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
     Example label
   </span>
   <select
-    className="-select c2"
+    className="-select c2 c3"
   >
     <option
       value=""
@@ -635,7 +651,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   font-size: 1rem;
 }
 
-.c2 {
+.c3 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -663,46 +679,46 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   border-radius: 100px;
 }
 
-.c2::-webkit-input-placeholder {
+.c3::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c3::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c3:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c3::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c3:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c3:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c3:invalid,
+.c3:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c3:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:hover:enabled,
-.c2:focus:enabled {
+.c3:hover:enabled,
+.c3:focus:enabled {
   cursor: pointer;
 }
 
@@ -713,6 +729,15 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
     flex: 1;
     padding-right: 1rem;
     margin-bottom: 0;
+  }
+}
+
+@media (min-width:31.25em) {
+  .jHTYw .input__Input-sc-14xvxp6-0,
+  .jHTYw .c2 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 }
 
@@ -728,8 +753,8 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
     align-items: center;
   }
 
-  .c0 select,
-  .c0 input {
+  .c0 .input__Input-sc-14xvxp6-0,
+  .c0 .c2 {
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
@@ -737,13 +762,13 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
 }
 
 @supports (-moz-appearance:none) {
-  .c2 {
+  .c3 {
     line-height: 1.375rem;
   }
 }
 
 @media (min-width:31.25em) {
-  .c2 {
+  .c3 {
     width: auto;
   }
 }
@@ -757,7 +782,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
     Example label
   </span>
   <select
-    className="-select c2"
+    className="-select c2 c3"
   >
     <option
       value=""

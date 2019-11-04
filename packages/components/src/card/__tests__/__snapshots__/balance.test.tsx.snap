@@ -32,10 +32,6 @@ exports[`CardBalance renders correctly 1`] = `
   .c0 > * + * {
     margin-top: 0;
   }
-
-  .c0 > style:first-child + * {
-    margin-top: 0;
-  }
 }
 
 <div
@@ -112,10 +108,6 @@ exports[`CardBalance renders correctly with a badge 1`] = `
   .c0 > * + * {
     margin-top: 0;
   }
-
-  .c0 > style:first-child + * {
-    margin-top: 0;
-  }
 }
 
 <div
@@ -179,10 +171,6 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
 
 @supports not (grid-gap:0) {
   .c0 > * + * {
-    margin-top: 0;
-  }
-
-  .c0 > style:first-child + * {
     margin-top: 0;
   }
 }

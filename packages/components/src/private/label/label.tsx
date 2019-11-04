@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq, rem, spacing } from '@heathmont/sportsbet-utils';
 
+import { Input } from '../input/input';
 import { inputColors } from '../input/settings';
-
-import { inputSelectors } from './settings';
+import { SelectElement } from '../../select/private/element';
 
 /**
  * Types
@@ -54,15 +54,20 @@ const LabelContent = styled.span<LabelContentProps>(({ disabled, flex }) => [
   },
 ]);
 
-const LabelFlex = styled.label<{ inputGrow?: number }>(({ inputGrow }) => ({
-  [mq(breakpoints.small)]: {
-    display: 'flex',
-    alignItems: 'center',
-    [inputSelectors]: {
-      flex: inputGrow,
-    },
-  },
-}));
+const LabelFlex = styled.label<LabelSizing>(
+  ({ flex, inputGrow }) =>
+    flex && {
+      [mq(breakpoints.small)]: {
+        display: 'flex',
+        alignItems: 'center',
+        ...(inputGrow && {
+          [`${Input}, ${SelectElement}`]: {
+            flex: inputGrow,
+          },
+        }),
+      },
+    }
+);
 
 /**
  * Component
@@ -81,7 +86,7 @@ const Label: React.FC<LabelProps> = ({
   return inline ? (
     <label {...props}>{text}</label>
   ) : (
-    <LabelFlex inputGrow={inputGrow} {...props}>
+    <LabelFlex flex={flex} inputGrow={inputGrow} {...props}>
       <LabelContent disabled={disabled} flex={flex}>
         {text}
       </LabelContent>

@@ -1,17 +1,17 @@
 module.exports = {
   presets: [
     [
-      require('@babel/preset-env'),
+      '@babel/preset-env',
       {
         useBuiltIns: 'entry',
         modules: 'commonjs',
       },
     ],
-    require('@babel/preset-react'),
-    require('@babel/preset-typescript'),
+    '@babel/preset-react',
+    '@babel/preset-typescript',
   ],
   plugins: [
-    require('@babel/plugin-syntax-dynamic-import'),
-    require('babel-plugin-styled-components'),
+    '@babel/plugin-syntax-dynamic-import',
+    'babel-plugin-styled-components',
   ],
 };

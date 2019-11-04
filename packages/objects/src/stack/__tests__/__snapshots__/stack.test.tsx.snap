@@ -12,10 +12,6 @@ exports[`Stack renders with \`default\` spacing 1`] = `
   .c0 > * + * {
     margin-top: 1rem;
   }
-
-  .c0 > style:first-child + * {
-    margin-top: 0;
-  }
 }
 
 <div
@@ -47,10 +43,6 @@ exports[`Stack renders with \`default\` spacing 1`] = `
 exports[`Stack renders with horizontal spacing 1`] = `
 .c0 > * + * {
   margin-left: 0.5rem;
-}
-
-.c0 > style:first-child + * {
-  margin-left: 0;
 }
 
 <div

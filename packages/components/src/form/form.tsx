@@ -6,7 +6,7 @@ import { rem, spacing } from '@heathmont/sportsbet-utils';
 import { border } from '@heathmont/sportsbet-tokens';
 
 import { inputSpacingY } from '../private/input/settings';
-import { inputSelectors } from '../private/label/settings';
+import { Input } from '../private/input/input';
 
 /**
  * Types
@@ -57,7 +57,7 @@ const FormCombo = styled.div({
 });
 
 const FormComboInput = styled.div({
-  [inputSelectors]: {
+  [`${Input}`]: {
     borderRadius: border.radius.largest,
   },
 });

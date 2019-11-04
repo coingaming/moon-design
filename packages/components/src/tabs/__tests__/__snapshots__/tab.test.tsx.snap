@@ -72,10 +72,6 @@ exports[`Nav renders correctly 1`] = `
   margin-left: 1.5rem;
 }
 
-.c2 > style:first-child + * {
-  margin-left: 0;
-}
-
 .c3 {
   display: inline-block;
   list-style-type: none;

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TextInput renders as \`disabled\` when defined 1`] = `
-.c1 {
+.c0 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
@@ -9,7 +9,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   opacity: 0.5;
 }
 
-.c2 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -28,193 +28,173 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   -webkit-appearance: none;
 }
 
-.c2::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:focus {
+.c1:focus {
   border-color: #0CD664;
   outline: none;
 }
 
-@media (min-width:31.25em) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .c0 select,
-  .c0 input {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
 <fieldset>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Text
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="text"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Date
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="date"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Email
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="email"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Number
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="number"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Password
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="password"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Search
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="search"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       Telephone
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="tel"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
       disabled={true}
     >
       URL
     </span>
     <input
-      className="c2"
+      className="c1"
       disabled={true}
       placeholder=" "
       type="url"
@@ -224,14 +204,14 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 `;
 
 exports[`TextInput renders as an \`error\` when defined 1`] = `
-.c1 {
+.c0 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
   font-size: 1rem;
 }
 
-.c2 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -251,178 +231,158 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   border-color: #FF4E64;
 }
 
-.c2::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:focus {
+.c1:focus {
   border-color: #0CD664;
   outline: none;
 }
 
-@media (min-width:31.25em) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .c0 select,
-  .c0 input {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
 <fieldset>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Text
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="text"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Date
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="date"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Email
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="email"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Number
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="number"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Password
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="password"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Search
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="search"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Telephone
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="tel"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       URL
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       type="url"
     />
@@ -431,14 +391,14 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 `;
 
 exports[`TextInput renders correctly for other types 1`] = `
-.c1 {
+.c0 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
   font-size: 1rem;
 }
 
-.c2 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -457,185 +417,165 @@ exports[`TextInput renders correctly for other types 1`] = `
   -webkit-appearance: none;
 }
 
-.c2::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:focus {
+.c1:focus {
   border-color: #0CD664;
   outline: none;
 }
 
-@media (min-width:31.25em) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .c0 select,
-  .c0 input {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
 <fieldset>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Text
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="text"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Date
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="date"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Email
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="email"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Number
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="number"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Password
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="password"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Search
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="search"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       Telephone
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="tel"
     />
   </label>
   <label
-    className="c0"
+    className=""
   >
     <span
-      className="c1"
+      className="c0"
     >
       URL
     </span>
     <input
-      className="c2"
+      className="c1"
       placeholder=" "
       required={true}
       type="url"
@@ -645,14 +585,14 @@ exports[`TextInput renders correctly for other types 1`] = `
 `;
 
 exports[`TextInput renders correctly with \`text\` type by default 1`] = `
-.c1 {
+.c0 {
   display: block;
   margin-bottom: 0.5rem;
   color: #8697A2;
   font-size: 1rem;
 }
 
-.c2 {
+.c1 {
   width: 100%;
   max-width: 100%;
   padding: 0.5625rem 0.9375rem;
@@ -671,79 +611,59 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   -webkit-appearance: none;
 }
 
-.c2::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2::placeholder {
+.c1::placeholder {
   color: #6F7379;
   opacity: 1;
 }
 
-.c2:hover:not(:focus) {
+.c1:hover:not(:focus) {
   border-color: #5A5F65;
 }
 
-.c2:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):invalid {
   border-color: #FF4E64;
 }
 
-.c2:invalid,
-.c2:-moz-ui-invalid {
+.c1:invalid,
+.c1:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c2:disabled {
+.c1:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c2:focus {
+.c1:focus {
   border-color: #0CD664;
   outline: none;
 }
 
-@media (min-width:31.25em) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .c0 select,
-  .c0 input {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
 <label
-  className="c0"
+  className=""
 >
   <span
-    className="c1"
+    className="c0"
   >
     Example Input
   </span>
   <input
-    className="c2"
+    className="c1"
     placeholder=" "
     type="text"
   />
