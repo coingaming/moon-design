@@ -6,7 +6,6 @@ import { disabled } from '@heathmont/sportsbet-utils';
 import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
 import { buttonStyles } from '../button/button';
 
-/* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href?: string;
@@ -48,7 +47,6 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-/* @TODO Revisit post-EPL */
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 const Link = styled.a<LinkProps>(({ secondary, optional, buttonStyled }) => [
   linkBase,

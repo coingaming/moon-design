@@ -15,7 +15,6 @@ import {
   buttonActive,
 } from './states';
 
-/* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   href?: string;

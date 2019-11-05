@@ -44,7 +44,6 @@ const CodePreview = styled.div({
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 
 export const Code = ({ codeString, ...props }: CodeProps) =>
-  /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line react/destructuring-assignment */
   props['react-live'] ? (
     <CodeWrapper>
