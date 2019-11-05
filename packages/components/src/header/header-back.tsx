@@ -11,7 +11,6 @@ import styled from 'styled-components';
  * 1. String or React Component.
  * 2. Allows us to pass in any props associated to the `element`.
  */
-/* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type HeaderBackProps = {
   element?: any /* [1] */;
