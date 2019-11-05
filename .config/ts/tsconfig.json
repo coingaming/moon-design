@@ -13,12 +13,9 @@
     "baseUrl": "../",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    // @TODO Consider downgrading styled-components types instead
-    "skipLibCheck": true,
-    // Alias our package names to the appropriate directory.
-    // e.g. "@heathmont/sportsbet-tokens" => "./packages/tokens/src"
     "paths": {
       "@heathmont/sportsbet-*": ["./packages/*/src", "./docs/src"]
-    }
+    },
+    "types": ["node", "jest"]
   }
 }
