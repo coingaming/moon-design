@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { border, colors, opacity, zIndex } from '@heathmont/sportsbet-tokens';
 import { focus, rem } from '@heathmont/sportsbet-utils';

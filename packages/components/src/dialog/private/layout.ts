@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { rgba, rem } from 'polished';
 import {
   DialogOverlay as ReachDialogOverlay,
@@ -12,7 +12,6 @@ import {
   zIndex,
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
-import isPropValid from '@emotion/is-prop-valid';
 
 import { DialogLongForm, DialogMaxWidth } from './types';
 
@@ -24,10 +23,7 @@ import { DialogLongForm, DialogMaxWidth } from './types';
  * https://ui.reach.tech/dialog/
  */
 
-export const DialogOverlay = styled(ReachDialogOverlay, {
-  shouldForwardProp: prop =>
-    isPropValid(prop) || ['onDismiss', 'isOpen'].includes(prop),
-})({
+export const DialogOverlay = styled(ReachDialogOverlay)({
   position: 'fixed',
   top: '0',
   right: '0',
@@ -41,9 +37,9 @@ export const DialogOverlay = styled(ReachDialogOverlay, {
 /**
  * 1. Arbitrary figure from design.
  */
-export const DialogContent = styled(ReachDialogContent, {
-  shouldForwardProp: prop => isPropValid(prop),
-})<DialogMaxWidth & DialogLongForm>([
+export const DialogContent = styled(ReachDialogContent)<
+  DialogMaxWidth & DialogLongForm
+>(
   {
     margin: '0 auto',
     position: 'relative',
@@ -54,8 +50,8 @@ export const DialogContent = styled(ReachDialogContent, {
     transform: 'translateY(-50%)',
   },
   ({ longForm }) => longForm && { maxWidth: rem(752) } /* [1] */,
-  ({ maxWidth }) => ({ maxWidth }),
-]);
+  ({ maxWidth }) => ({ maxWidth })
+);
 
 /* Layout
   =========================================== */
@@ -89,7 +85,7 @@ const mainMaxHeight = (margin: number) => ({
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
  *    padding with a pseudo element.
  */
-export const DialogMain = styled.main<DialogLongForm>([
+export const DialogMain = styled.main<DialogLongForm>(
   {
     paddingTop: spacing('xlarge'),
     paddingLeft: spacing('large'),
@@ -119,5 +115,5 @@ export const DialogMain = styled.main<DialogLongForm>([
         paddingLeft: rem(spacingTokens.default * 6),
         paddingRight: rem(spacingTokens.default * 6),
       },
-    },
-]);
+    }
+);

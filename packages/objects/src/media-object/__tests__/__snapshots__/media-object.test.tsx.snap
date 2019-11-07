@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MediaObject renders in reverse 1`] = `
-.emotion-0 {
+.c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -13,18 +13,18 @@ exports[`MediaObject renders in reverse 1`] = `
   direction: rtl;
 }
 
-.emotion-0 img,
-.emotion-0 svg {
+.c0 img,
+.c0 svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.emotion-0 > * {
+.c0 > * {
   direction: ltr;
 }
 
-.emotion-1 {
+.c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -36,20 +36,20 @@ exports[`MediaObject renders in reverse 1`] = `
   direction: rtl;
 }
 
-.emotion-1 img,
-.emotion-1 svg {
+.c1 img,
+.c1 svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.emotion-1 > * {
+.c1 > * {
   direction: ltr;
 }
 
 <div>
   <div
-    className="emotion-0"
+    className="c0"
   >
     <img
       alt="Example"
@@ -65,7 +65,7 @@ exports[`MediaObject renders in reverse 1`] = `
     </div>
   </div>
   <div
-    className="emotion-1"
+    className="c1"
   >
     <img
       alt="Example"
@@ -84,7 +84,7 @@ exports[`MediaObject renders in reverse 1`] = `
 `;
 
 exports[`MediaObject renders with \`default\` settings 1`] = `
-.emotion-0 {
+.c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -95,15 +95,15 @@ exports[`MediaObject renders with \`default\` settings 1`] = `
   grid-template: max-content / 2rem auto;
 }
 
-.emotion-0 img,
-.emotion-0 svg {
+.c0 img,
+.c0 svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <img
     alt="Example"
@@ -121,7 +121,7 @@ exports[`MediaObject renders with \`default\` settings 1`] = `
 `;
 
 exports[`MediaObject renders with custom CSS grid props 1`] = `
-.emotion-0 {
+.c0 {
   -webkit-align-items: top;
   -webkit-box-align: top;
   -ms-flex-align: top;
@@ -132,15 +132,15 @@ exports[`MediaObject renders with custom CSS grid props 1`] = `
   grid-template: max-content / 2rem auto;
 }
 
-.emotion-0 img,
-.emotion-0 svg {
+.c0 img,
+.c0 svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <img
     alt="Example"
@@ -158,7 +158,7 @@ exports[`MediaObject renders with custom CSS grid props 1`] = `
 `;
 
 exports[`MediaObject renders with custom media size 1`] = `
-.emotion-0 {
+.c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -169,15 +169,15 @@ exports[`MediaObject renders with custom media size 1`] = `
   grid-template: max-content / 40px auto;
 }
 
-.emotion-0 img,
-.emotion-0 svg {
+.c0 img,
+.c0 svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <img
     alt="Example"

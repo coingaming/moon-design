@@ -151,7 +151,7 @@ Linting will catch any further non-formatting issues:
 
 Separate concerns on a component basis, rather than the more traditional "style vs. function".
 
-With [Emotion](https://emotion.sh) we can take advantage of keeping style, markup and logic tightly bound together as a single `.tsx` file. A component file should be defined in the following order:
+With [Styled Components](https://www.styled-components.com/) we can take advantage of keeping style, markup and logic tightly bound together as a single `.tsx` file. A component file should be defined in the following order:
 
 1. Imports
 1. External (e.g. `node_modules`)
@@ -222,7 +222,7 @@ Common constants/raw values that can be re-used across the different component p
 
 Styles that are unique to the `component` but need to be shared across the partials.
 
-These styles should be **flat**/**stateless** and not bound by any form of functionality, making use of `css` in [Emotion](https://emotion.sh/docs/composition).
+These styles should be **flat**/**stateless** and not bound by any form of functionality, making use of the `CSSObject` type from [Styled Components](https://www.styled-components.com/) for compatibility.
 
 #### Naming
 

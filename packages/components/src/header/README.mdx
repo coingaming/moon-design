@@ -32,36 +32,3 @@ accepting the standard attributes.
 
 This can be customised by passing an `element` prop with a string tag
 (e.g. 'button') or other React component.
-
-## With Navigation
-
-The `Nav` component can also be placed inside the Header as follows:
-
-```jsx react-live
-<article>
-  <Header>
-    <HeaderBack href="../">Back to Cashier</HeaderBack>
-    <HeaderTitle>Page Title</HeaderTitle>
-    <Nav>
-      <NavItem>
-        <NavLink href="#1" active>
-          Item 1
-        </NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="#2">Item 2</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="#3">Item 3</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="#4">Item 4</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="#5">Item 5</NavLink>
-      </NavItem>
-    </Nav>
-  </Header>
-  <p>Page content here</p>
-</article>
-```

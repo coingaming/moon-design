@@ -1,12 +1,8 @@
-/** @jsx jsx */
 import * as React from 'react';
-import styled from '@emotion/styled';
-import { jsx, CSSObject } from '@emotion/core';
+import styled, { CSSObject } from 'styled-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { Stack } from '@heathmont/sportsbet-objects';
 import { spacing, rem } from '@heathmont/sportsbet-utils';
-
-jsx;
 
 type Balance = {
   currency: string;

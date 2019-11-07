@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav - TabLink renders as a component 1`] = `
-.emotion-0 {
+.c0 {
   position: relative;
   padding: 0;
   padding-bottom: 14px;
@@ -21,7 +21,7 @@ exports[`Nav - TabLink renders as a component 1`] = `
   appearance: none;
 }
 
-.emotion-0:after {
+.c0:after {
   content: "";
   position: absolute;
   height: 2px;
@@ -39,27 +39,27 @@ exports[`Nav - TabLink renders as a component 1`] = `
   transition: transform 0.2s ease;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active,
-.emotion-0.active,
-.emotion-0[aria-current=page] {
+.c0:hover,
+.c0:focus,
+.c0:active,
+.c0.active,
+.c0[aria-current=page] {
   color: #FFF;
   cursor: pointer;
 }
 
-.emotion-0:hover:after,
-.emotion-0:focus:after,
-.emotion-0:active:after,
-.emotion-0.active:after,
-.emotion-0[aria-current=page]:after {
+.c0:hover:after,
+.c0:focus:after,
+.c0:active:after,
+.c0.active:after,
+.c0[aria-current=page]:after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   id="test-link"
 >
   Sample link
@@ -67,7 +67,7 @@ exports[`Nav - TabLink renders as a component 1`] = `
 `;
 
 exports[`Nav - TabLink renders as active 1`] = `
-.emotion-0 {
+.c0 {
   position: relative;
   padding: 0;
   padding-bottom: 14px;
@@ -87,7 +87,7 @@ exports[`Nav - TabLink renders as active 1`] = `
   appearance: none;
 }
 
-.emotion-0:after {
+.c0:after {
   content: "";
   position: absolute;
   height: 2px;
@@ -105,34 +105,34 @@ exports[`Nav - TabLink renders as active 1`] = `
   transition: transform 0.2s ease;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active,
-.emotion-0.active,
-.emotion-0[aria-current=page] {
+.c0:hover,
+.c0:focus,
+.c0:active,
+.c0.active,
+.c0[aria-current=page] {
   color: #FFF;
   cursor: pointer;
 }
 
-.emotion-0:hover:after,
-.emotion-0:focus:after,
-.emotion-0:active:after,
-.emotion-0.active:after,
-.emotion-0[aria-current=page]:after {
+.c0:hover:after,
+.c0:focus:after,
+.c0:active:after,
+.c0.active:after,
+.c0[aria-current=page]:after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 <a
-  className="active emotion-0"
+  className="c0 active"
 >
   Sample link
 </a>
 `;
 
 exports[`Nav - TabLink renders as active 2`] = `
-.emotion-0 {
+.c0 {
   position: relative;
   padding: 0;
   padding-bottom: 14px;
@@ -152,7 +152,7 @@ exports[`Nav - TabLink renders as active 2`] = `
   appearance: none;
 }
 
-.emotion-0:after {
+.c0:after {
   content: "";
   position: absolute;
   height: 2px;
@@ -170,27 +170,27 @@ exports[`Nav - TabLink renders as active 2`] = `
   transition: transform 0.2s ease;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active,
-.emotion-0.active,
-.emotion-0[aria-current=page] {
+.c0:hover,
+.c0:focus,
+.c0:active,
+.c0.active,
+.c0[aria-current=page] {
   color: #FFF;
   cursor: pointer;
 }
 
-.emotion-0:hover:after,
-.emotion-0:focus:after,
-.emotion-0:active:after,
-.emotion-0.active:after,
-.emotion-0[aria-current=page]:after {
+.c0:hover:after,
+.c0:focus:after,
+.c0:active:after,
+.c0.active:after,
+.c0[aria-current=page]:after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   href="#"
 >
   Sample link
@@ -198,7 +198,7 @@ exports[`Nav - TabLink renders as active 2`] = `
 `;
 
 exports[`Nav - TabLink renders as an anchor by default 1`] = `
-.emotion-0 {
+.c0 {
   position: relative;
   padding: 0;
   padding-bottom: 14px;
@@ -218,7 +218,7 @@ exports[`Nav - TabLink renders as an anchor by default 1`] = `
   appearance: none;
 }
 
-.emotion-0:after {
+.c0:after {
   content: "";
   position: absolute;
   height: 2px;
@@ -236,27 +236,27 @@ exports[`Nav - TabLink renders as an anchor by default 1`] = `
   transition: transform 0.2s ease;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active,
-.emotion-0.active,
-.emotion-0[aria-current=page] {
+.c0:hover,
+.c0:focus,
+.c0:active,
+.c0.active,
+.c0[aria-current=page] {
   color: #FFF;
   cursor: pointer;
 }
 
-.emotion-0:hover:after,
-.emotion-0:focus:after,
-.emotion-0:active:after,
-.emotion-0.active:after,
-.emotion-0[aria-current=page]:after {
+.c0:hover:after,
+.c0:focus:after,
+.c0:active:after,
+.c0.active:after,
+.c0[aria-current=page]:after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   href="#"
 >
   Sample link

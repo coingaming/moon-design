@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 import { Label } from '../private/label/label';

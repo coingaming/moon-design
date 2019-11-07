@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { rem, spacing } from '@heathmont/sportsbet-utils';
 
 type ButtonSizes = 'xsmall' | 'small' | 'medium' | 'large';

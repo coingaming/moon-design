@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Link renders as a anchor when \`href\` defined 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -14,20 +14,20 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
   text-decoration: none;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   to="#test-path"
 >
   I'm a link
@@ -35,7 +35,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 `;
 
 exports[`Link renders as a button if prop as="button" was passed 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -48,20 +48,20 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
   text-decoration: none;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
 <button
-  className="emotion-0"
+  className="c0"
   to="#test"
 >
   I look like a link, but really I'm a button
@@ -69,7 +69,7 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
 `;
 
 exports[`Link renders as a link by default 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -82,20 +82,20 @@ exports[`Link renders as a link by default 1`] = `
   text-decoration: none;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   to="#test"
 >
   I look like a link
@@ -103,7 +103,7 @@ exports[`Link renders as a link by default 1`] = `
 `;
 
 exports[`Link renders as a optional 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -117,27 +117,27 @@ exports[`Link renders as a optional 1`] = `
   color: #8697A2;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active,
-.emotion-0.active {
+.c0:hover,
+.c0:focus,
+.c0:active,
+.c0.active {
   color: #FFF;
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   to="#test-path"
 >
   I'm an optiona; link
@@ -145,7 +145,7 @@ exports[`Link renders as a optional 1`] = `
 `;
 
 exports[`Link renders as a secondary 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -159,20 +159,20 @@ exports[`Link renders as a secondary 1`] = `
   color: #8697A2;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   to="#test-path"
 >
   I'm a secondary link
@@ -180,7 +180,7 @@ exports[`Link renders as a secondary 1`] = `
 `;
 
 exports[`Link renders as disabled for anchor elements 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -193,20 +193,20 @@ exports[`Link renders as disabled for anchor elements 1`] = `
   text-decoration: none;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
 <a
-  className="emotion-0"
+  className="c0"
   disabled={true}
   to="#test-path"
 >
@@ -215,7 +215,7 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 `;
 
 exports[`Link renders as disabled for button elements 1`] = `
-.emotion-0 {
+.c0 {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -228,20 +228,20 @@ exports[`Link renders as disabled for button elements 1`] = `
   text-decoration: none;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0:active {
+.c0:hover,
+.c0:focus,
+.c0:active {
   color: #3DDE83;
 }
 
-.emotion-0:disabled,
-.emotion-0[disabled] {
+.c0:disabled,
+.c0[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
 <button
-  className="emotion-0"
+  className="c0"
   disabled={true}
   to="#test"
 >

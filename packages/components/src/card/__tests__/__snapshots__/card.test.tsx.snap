@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card Templates renders as front 1`] = `
-.emotion-0 {
+.c0 {
   display: block;
   min-height: 10.625rem;
   padding-top: 1rem;
@@ -14,7 +14,7 @@ exports[`Card Templates renders as front 1`] = `
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <p>
     Some content
@@ -23,7 +23,7 @@ exports[`Card Templates renders as front 1`] = `
 `;
 
 exports[`Card Templates renders as front with backgroundIcon 1`] = `
-.emotion-0 {
+.c0 {
   display: block;
   min-height: 10.625rem;
   padding-top: 1rem;
@@ -35,13 +35,13 @@ exports[`Card Templates renders as front with backgroundIcon 1`] = `
   background-color: #31373F;
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
-  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' color='rgba(255%2c255%2c255%2c0.05)' class='css-1d3u7rq-IconCurrencyBtc eyfech40'%3e%3cpath d='M8.764 10.187v1.122h1.85v.804h-1.85v1.127h1.725c.58 0 1.01-.124 1.286-.374.28-.253.42-.638.42-1.155 0-.521-.14-.904-.42-1.15-.277-.25-.705-.374-1.286-.374H8.764zm0-3.427v2.512h1.595c.525 0 .916-.103 1.173-.307.26-.209.391-.525.391-.95 0-.42-.13-.734-.391-.942-.257-.209-.648-.313-1.173-.313H8.764zm-1.078-.926h2.75c.821 0 1.453.178 1.896.535.446.358.67.865.67 1.524 0 .51-.115.915-.344 1.217-.225.301-.56.49-1.002.564.534.119.946.368 1.239.748.292.375.438.846.438 1.412 0 .744-.243 1.319-.729 1.724-.481.406-1.169.609-2.062.609H7.686v-2.054h-1.02v-.804h1.02V5.834' fill='currentColor'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' color='rgba(255%2c255%2c255%2c0.05)' class='IconCurrencyBtc-sc-1m6e9gj-0 bUxHEb'%3e%3cpath d='M8.764 10.187v1.122h1.85v.804h-1.85v1.127h1.725c.58 0 1.01-.124 1.286-.374.28-.253.42-.638.42-1.155 0-.521-.14-.904-.42-1.15-.277-.25-.705-.374-1.286-.374H8.764zm0-3.427v2.512h1.595c.525 0 .916-.103 1.173-.307.26-.209.391-.525.391-.95 0-.42-.13-.734-.391-.942-.257-.209-.648-.313-1.173-.313H8.764zm-1.078-.926h2.75c.821 0 1.453.178 1.896.535.446.358.67.865.67 1.524 0 .51-.115.915-.344 1.217-.225.301-.56.49-1.002.564.534.119.946.368 1.239.748.292.375.438.846.438 1.412 0 .744-.243 1.319-.729 1.724-.481.406-1.169.609-2.062.609H7.686v-2.054h-1.02v-.804h1.02V5.834' fill='currentColor'%3e%3c/path%3e%3c/svg%3e");
   background-size: auto 50%,contain,contain,contain,contain,contain;
   background-position: center right 1rem;
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <p>
     Some content
@@ -50,7 +50,7 @@ exports[`Card Templates renders as front with backgroundIcon 1`] = `
 `;
 
 exports[`Card Templates renders as outline 1`] = `
-.emotion-0 {
+.c0 {
   display: block;
   min-height: 10.625rem;
   padding-top: 1rem;
@@ -66,7 +66,7 @@ exports[`Card Templates renders as outline 1`] = `
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <p>
     Some content
@@ -75,7 +75,7 @@ exports[`Card Templates renders as outline 1`] = `
 `;
 
 exports[`Card renders with flex layout 1`] = `
-.emotion-0 {
+.c0 {
   display: block;
   min-height: 10.625rem;
   padding-top: 1rem;
@@ -106,7 +106,7 @@ exports[`Card renders with flex layout 1`] = `
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <p>
     Some content

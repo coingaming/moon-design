@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { hideVisually } from 'polished';
 import { border, colors, opacity } from '@heathmont/sportsbet-tokens';
 import { focus, spacing } from '@heathmont/sportsbet-utils';
