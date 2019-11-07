@@ -1,12 +1,6 @@
-/** @jsx jsx */
-import * as React from 'react';
-import { jsx } from '@emotion/core';
-import styled from '@emotion/styled';
-import isPropValid from '@emotion/is-prop-valid';
+import styled from 'styled-components';
 
 import { headingSizes, HeadingSizes } from './sizes';
-
-jsx;
 
 type HeadingProps = {
   size: HeadingSizes;
@@ -14,9 +8,10 @@ type HeadingProps = {
   color?: string;
 };
 
-const Heading: React.FC<HeadingProps> = styled('p', {
-  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})(({ size, color }) => [size && headingSizes[size], color && { color }]);
+const Heading = styled.p<HeadingProps>(({ size, color }) => [
+  size && headingSizes[size],
+  color && { color },
+]);
 
 Heading.defaultProps = {
   color: 'inherit',

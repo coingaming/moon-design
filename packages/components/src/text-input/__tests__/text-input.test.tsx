@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import 'jest-styled-components';
 
 import { TextInput } from '../text-input';
 

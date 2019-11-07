@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly with title 1`] = `
-.emotion-1 {
+.c0 {
   margin-top: 1rem;
   padding-bottom: 0.5rem;
   position: relative;
@@ -18,7 +18,7 @@ exports[`Header renders correctly with title 1`] = `
   align-items: baseline;
 }
 
-.emotion-0 {
+.c1 {
   display: inline-block;
   margin: 0 2rem 0 0;
   font-size: 1.25rem;
@@ -27,17 +27,17 @@ exports[`Header renders correctly with title 1`] = `
 }
 
 @media (min-width:31.25em) {
-  .emotion-0 {
+  .c1 {
     font-size: 2rem;
     line-height: 2.4375rem;
   }
 }
 
 <header
-  className="emotion-1"
+  className="c0"
 >
   <h1
-    className="emotion-0"
+    className="c1"
   >
     Page Title
   </h1>
@@ -45,7 +45,7 @@ exports[`Header renders correctly with title 1`] = `
 `;
 
 exports[`Header renders correctly with title and back button 1`] = `
-.emotion-5 {
+.c0 {
   margin-top: 1rem;
   padding-bottom: 0.5rem;
   position: relative;
@@ -62,7 +62,7 @@ exports[`Header renders correctly with title and back button 1`] = `
   align-items: baseline;
 }
 
-.emotion-4 {
+.c4 {
   display: inline-block;
   margin: 0 2rem 0 0;
   font-size: 1.25rem;
@@ -70,14 +70,11 @@ exports[`Header renders correctly with title and back button 1`] = `
   font-weight: 700;
 }
 
-@media (min-width:31.25em) {
-  .emotion-4 {
-    font-size: 2rem;
-    line-height: 2.4375rem;
-  }
+.c2 {
+  vertical-align: middle;
 }
 
-.emotion-3 {
+.c1 {
   margin: 0 1rem 0 0;
   padding: 0;
   -webkit-align-self: center;
@@ -91,11 +88,7 @@ exports[`Header renders correctly with title and back button 1`] = `
   appearance: none;
 }
 
-.emotion-0 {
-  vertical-align: middle;
-}
-
-.emotion-2 {
+.c3 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -110,15 +103,22 @@ exports[`Header renders correctly with title and back button 1`] = `
   width: 1px;
 }
 
+@media (min-width:31.25em) {
+  .c4 {
+    font-size: 2rem;
+    line-height: 2.4375rem;
+  }
+}
+
 <header
-  className="emotion-5"
+  className="c0"
 >
   <a
-    className="emotion-3"
+    className="c1"
     href="../"
   >
     <svg
-      className="emotion-0 emotion-1"
+      className="c2"
       color="#0CD664"
       fontSize="1.5rem"
       height="1em"
@@ -133,13 +133,13 @@ exports[`Header renders correctly with title and back button 1`] = `
       />
     </svg>
     <span
-      className="emotion-2"
+      className="c3"
     >
       Back to Cashier
     </span>
   </a>
   <h1
-    className="emotion-4"
+    className="c4"
   >
     Page Title
   </h1>

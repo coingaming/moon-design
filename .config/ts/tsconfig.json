@@ -13,10 +13,9 @@
     "baseUrl": "../",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    // Alias our package names to the appropriate directory.
-    // e.g. "@heathmont/sportsbet-tokens" => "./packages/tokens/src"
     "paths": {
       "@heathmont/sportsbet-*": ["./packages/*/src", "./docs/src"]
-    }
+    },
+    "types": ["node", "jest"]
   }
 }

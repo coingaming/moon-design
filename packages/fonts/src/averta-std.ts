@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { cdnUrl } from '@heathmont/sportsbet-cdn';
 
 const fontDirPath = `${cdnUrl}/fonts/averta-std`;

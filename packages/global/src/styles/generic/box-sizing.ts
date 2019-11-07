@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 
 export const boxSizing: CSSObject = {
   html: {

@@ -1,8 +1,5 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { CSSObject, jsx, keyframes } from '@emotion/core';
-import styled from '@emotion/styled';
-import isPropValid from '@emotion/is-prop-valid';
+import styled, { css, CSSObject, keyframes } from 'styled-components';
 import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
 import { disabled, spacing, rem } from '@heathmont/sportsbet-utils';
 import { IconSuccess, IconWarning } from '@heathmont/sportsbet-icons';
@@ -18,7 +15,6 @@ import {
   buttonActive,
 } from './states';
 
-/* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   href?: string;
@@ -87,29 +83,35 @@ const shake = keyframes`
   }
 `;
 
-const StyledButton: React.FC<ButtonProps> = styled('button', {
-  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})(({ modifier, uppercase, fullWidth, size, oops }) => [
-  buttonStyles,
-  modifier && buttonModifiers[modifier],
-  size ? buttonSizes[size] : buttonSizes.small,
-  uppercase && { textTransform: 'uppercase' },
-  fullWidth && { width: '100%' },
-  oops && {
-    animation: `${shake} 0.82s cubic-bezier(.36,.07,.19,.97) both`,
-    transform: 'translate3d(0, 0, 0)',
-    backfaceVisibility: 'hidden',
-    perspective: rem(1000),
-    color: colors.neutral[10],
-    backgroundColor: colors.error,
-    ...buttonHover({
-      backgroundColor: colors.error,
-    }),
-    ...buttonActive({
-      backgroundColor: colors.error,
-    }),
-  },
-]);
+const animation = css`
+  animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+`;
+
+const StyledButton = styled.button<ButtonProps>(
+  ({ modifier, uppercase, fullWidth, size, oops }) => [
+    buttonStyles,
+    modifier && buttonModifiers[modifier],
+    size ? buttonSizes[size] : buttonSizes.small,
+    uppercase && { textTransform: 'uppercase' },
+    fullWidth && { width: '100%' },
+    oops && [
+      animation,
+      {
+        transform: 'translate3d(0, 0, 0)',
+        backfaceVisibility: 'hidden',
+        perspective: rem(1000),
+        color: colors.neutral[10],
+        backgroundColor: colors.error,
+        ...buttonHover({
+          backgroundColor: colors.error,
+        }),
+        ...buttonActive({
+          backgroundColor: colors.error,
+        }),
+      },
+    ],
+  ]
+);
 
 const Button: React.FC<ButtonProps> = ({
   children,
