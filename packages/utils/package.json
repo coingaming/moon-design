@@ -10,10 +10,10 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "10.0.10",
     "@heathmont/sportsbet-tokens": "^0.95.0",
     "mini-svg-data-uri": "1.0.3",
-    "polished": "3.4.1"
+    "polished": "3.4.1",
+    "styled-components": "4.4.1"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",

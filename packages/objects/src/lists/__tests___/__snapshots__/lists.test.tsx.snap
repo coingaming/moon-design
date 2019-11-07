@@ -1,56 +1,111 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Lists listInline renders lists inline 1`] = `
-.emotion-3 {
-  display: inline-block;
-  margin-left: 0;
-}
-
-.emotion-0 {
+.c7 {
   display: inline-block;
   list-style-type: none;
 }
 
-.emotion-0:before {
+.c7:before {
   position: absolute;
   content: "\\200B";
 }
 
+.c6 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.c6:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c5 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.c5:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.c3 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.c3:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c2 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.c2:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c1 {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.c1:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c0 {
+  display: inline-block;
+  margin-left: 0;
+}
+
 <div>
   <ul
-    className="emotion-3"
+    className="c0"
   >
     <li
-      className="emotion-0"
+      className="c1"
     >
       Item 1
     </li>
     <li
-      className="emotion-0"
+      className="c2"
     >
       Item 2
     </li>
     <li
-      className="emotion-0"
+      className="c3"
     >
       Item 3
     </li>
   </ul>
   <ol
-    className="emotion-3"
+    className="c4"
   >
     <li
-      className="emotion-0"
+      className="c5"
     >
       Item 1
     </li>
     <li
-      className="emotion-0"
+      className="c6"
     >
       Item 2
     </li>
     <li
-      className="emotion-0"
+      className="c7"
     >
       Item 3
     </li>
@@ -59,56 +114,111 @@ exports[`Lists listInline renders lists inline 1`] = `
 `;
 
 exports[`Lists listPlain resets list-style-type correctly 1`] = `
-.emotion-3 {
-  display: block;
-  margin-left: 0;
-}
-
-.emotion-0 {
+.c7 {
   display: block;
   list-style-type: none;
 }
 
-.emotion-0:before {
+.c7:before {
   position: absolute;
   content: "\\200B";
 }
 
+.c6 {
+  display: block;
+  list-style-type: none;
+}
+
+.c6:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c5 {
+  display: block;
+  list-style-type: none;
+}
+
+.c5:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c4 {
+  display: block;
+  margin-left: 0;
+}
+
+.c3 {
+  display: block;
+  list-style-type: none;
+}
+
+.c3:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c2 {
+  display: block;
+  list-style-type: none;
+}
+
+.c2:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c1 {
+  display: block;
+  list-style-type: none;
+}
+
+.c1:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c0 {
+  display: block;
+  margin-left: 0;
+}
+
 <div>
   <ul
-    className="emotion-3"
+    className="c0"
   >
     <li
-      className="emotion-0"
+      className="c1"
     >
       Item 1
     </li>
     <li
-      className="emotion-0"
+      className="c2"
     >
       Item 2
     </li>
     <li
-      className="emotion-0"
+      className="c3"
     >
       Item 3
     </li>
   </ul>
   <ol
-    className="emotion-3"
+    className="c4"
   >
     <li
-      className="emotion-0"
+      className="c5"
     >
       Item 1
     </li>
     <li
-      className="emotion-0"
+      className="c6"
     >
       Item 2
     </li>
     <li
-      className="emotion-0"
+      className="c7"
     >
       Item 3
     </li>

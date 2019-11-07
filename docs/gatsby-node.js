@@ -11,6 +11,9 @@ const { packages } = require('./config.json');
  */
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
+    node: {
+      fs: 'empty',
+    },
     resolve: {
       alias: packages.reduce((acc, packageName) => {
         acc[`@heathmont/sportsbet-${packageName}`] = path.resolve(
