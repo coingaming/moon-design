@@ -38,16 +38,4 @@ describe('Stack', () => {
 
     expect(stack).toMatchSnapshot();
   });
-
-  test('renders with horizontal spacing', () => {
-    const stack = create(
-      <Stack space="0.5rem" direction="horizontal">
-        <p>Horizontally</p>
-        <p>spaced</p>
-        <p>content</p>
-      </Stack>
-    );
-
-    expect(stack).toMatchSnapshot();
-  });
 });
