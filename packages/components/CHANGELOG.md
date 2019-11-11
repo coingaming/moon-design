@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.95.1](https://github.com/coingaming/sportsbet-design/compare/v0.95.0...v0.95.1) (2019-11-11)
+
+
+### Bug Fixes
+
+* move styled-components to peerDeps ([60f4a43](https://github.com/coingaming/sportsbet-design/commit/60f4a43))
+* **carousel:** prevent margin causing overflow ([b9a2988](https://github.com/coingaming/sportsbet-design/commit/b9a2988))
+
+
+
+
+
 # [0.95.0](https://github.com/coingaming/sportsbet-design/compare/v0.94.1...v0.95.0) (2019-10-30)
 
 
