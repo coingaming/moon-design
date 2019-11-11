@@ -15,11 +15,11 @@
     "build": "yarn build:svg && yarn lint"
   },
   "dependencies": {
-    "@heathmont/sportsbet-tokens": "^0.95.0",
-    "styled-components": "4.4.1"
+    "@heathmont/sportsbet-tokens": "^0.95.0"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",
-    "react-dom": ">= 16.8.1"
+    "react-dom": ">= 16.8.1",
+    "styled-components": ">= 4.4.1"
   }
 }
