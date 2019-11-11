@@ -21,11 +21,18 @@ Each of these list styles can be extended in style definitions or used on the
 A basic plain list with no bullets.
 
 ```jsx react-live
-<ul css={listPlain}>
-  <li css={listPlainItem}>Item 1</li>
-  <li css={listPlainItem}>Item 2</li>
-  <li css={listPlainItem}>Item 3</li>
-</ul>
+() => {
+  const ExampleList = styled.ul(listPlain);
+  const ExampleListItem = styled.li(listPlainItem);
+
+  return (
+    <ExampleList>
+      <ExampleListItem>Item 1</ExampleListItem>
+      <ExampleListItem>Item 2</ExampleListItem>
+      <ExampleListItem>Item 3</ExampleListItem>
+    </ExampleList>
+  );
+};
 ```
 
 ## Inline
@@ -33,9 +40,18 @@ A basic plain list with no bullets.
 Displays the list and its items inline with no bullets.
 
 ```jsx react-live
-<ul css={listInline}>
-  <li css={listInlineItem}>Item 1</li>
-  <li css={listInlineItem}>Item 2</li>
-  <li css={listInlineItem}>Item 3</li>
-</ul>
+() => {
+  const ExampleList = styled.ul(listInline);
+  const ExampleListItem = styled.li(listInlineItem, {
+    '& + &': { marginLeft: '1rem' },
+  });
+
+  return (
+    <ExampleList>
+      <ExampleListItem>Item 1</ExampleListItem>
+      <ExampleListItem>Item 2</ExampleListItem>
+      <ExampleListItem>Item 3</ExampleListItem>
+    </ExampleList>
+  );
+};
 ```

@@ -2,24 +2,20 @@
 
 exports[`Stack renders with \`default\` spacing 1`] = `
 @supports (grid-gap:0) {
-  .emotion-0 {
+  .c0 {
     display: grid;
     grid-gap: 1rem;
   }
 }
 
 @supports not (grid-gap:0) {
-  .emotion-0 > * + * {
+  .c0 > * + * {
     margin-top: 1rem;
-  }
-
-  .emotion-0 > style:first-child + * {
-    margin-top: 0;
   }
 }
 
 <div
-  className="emotion-0"
+  className="c0"
 >
   <h1>
     Lorem Ipsum Dolor Sit Amet.
@@ -45,16 +41,13 @@ exports[`Stack renders with \`default\` spacing 1`] = `
 `;
 
 exports[`Stack renders with horizontal spacing 1`] = `
-.emotion-0 > * + * {
+.c0 > * + * {
   margin-left: 0.5rem;
 }
 
-.emotion-0 > style:first-child + * {
-  margin-left: 0;
-}
-
 <div
-  className="emotion-0"
+  className="c0"
+  direction="horizontal"
 >
   <p>
     Horizontally

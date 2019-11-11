@@ -1,9 +1,12 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
-import { Global } from '@emotion/core';
+import { createGlobalStyle } from 'styled-components';
+import 'jest-styled-components';
 
 import { Dialog } from '../dialog';
 import { DialogHeading, DialogText } from '../typography';
+
+const Global = createGlobalStyle({ '&:root': { '--reach-dialog': 1 } });
 
 /**
  * Setup
@@ -13,7 +16,7 @@ import { DialogHeading, DialogText } from '../typography';
  */
 const Setup = ({ children }: any) => (
   <>
-    <Global styles={{ '&:root': { '--reach-dialog': 1 } }} />
+    <Global />
     {children}
   </>
 );

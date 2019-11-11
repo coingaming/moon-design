@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import margin from 'polished/lib/shorthands/margin';
 import padding from 'polished/lib/shorthands/padding';
 import {

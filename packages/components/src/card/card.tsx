@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import padding from 'polished/lib/shorthands/padding';
 import { border, colors } from '@heathmont/sportsbet-tokens';
@@ -78,7 +77,6 @@ const Card = styled.div<CardProps>(
       backgroundIcon:
         backgroundIcon &&
         React.isValidElement(backgroundIcon) &&
-        /* @TODO Revisit post-EPL */
         /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
         React.cloneElement(backgroundIcon as React.ReactElement<any>, {
           color: rgba(colors.neutral[10], 0.05),

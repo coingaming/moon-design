@@ -1,13 +1,78 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Carousel renders with controls 1`] = `
-.emotion-8 {
+.c0 {
   position: relative;
   width: 100%;
   overflow-x: auto;
 }
 
-.emotion-1 {
+.c3 {
+  display: block;
+  vertical-align: top;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-scroll-snap-type: proximity;
+  -moz-scroll-snap-type: proximity;
+  -ms-scroll-snap-type: proximity;
+  scroll-snap-type: proximity;
+  -webkit-scroll-snap-destination: 0 50%;
+  -moz-scroll-snap-destination: 0 50%;
+  -ms-scroll-snap-destination: 0 50%;
+  scroll-snap-destination: 0 50%;
+  -webkit-scroll-snap-points-x: repeat(100%);
+  -moz-scroll-snap-points-x: repeat(100%);
+  -ms-scroll-snap-points-x: repeat(100%);
+  scroll-snap-points-x: repeat(100%);
+}
+
+.c3.c3 {
+  margin-left: 0;
+}
+
+.c3::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.c3::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box;
+  border-radius: 100px;
+  border: 3px solid transparent;
+}
+
+.c3:hover::-webkit-scrollbar-thumb {
+  background-color: #62676D;
+}
+
+.c4 {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-scroll-snap-coordinate: 0 0;
+  -moz-scroll-snap-coordinate: 0 0;
+  -ms-scroll-snap-coordinate: 0 0;
+  scroll-snap-coordinate: 0 0;
+}
+
+.c4:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c1 {
   padding: 0.75rem;
   vertical-align: middle;
   border-color: transparent;
@@ -34,7 +99,7 @@ exports[`Carousel renders with controls 1`] = `
   z-index: 5;
 }
 
-.emotion-1:last-child {
+.c1:last-child {
   left: auto;
   right: 0;
   -webkit-transform: rotate(180deg) translateY(-50%);
@@ -42,22 +107,22 @@ exports[`Carousel renders with controls 1`] = `
   transform: rotate(180deg) translateY(-50%);
 }
 
-.emotion-1:disabled,
-.emotion-1[disabled] {
+.c1:disabled,
+.c1[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
-.emotion-1:focus {
+.c1:focus {
   outline: none;
   box-shadow: 0 0 0.125rem 0.125rem #0CD664;
 }
 
-.emotion-1::-moz-focus-inner {
+.c1::-moz-focus-inner {
   border: 0;
 }
 
-.emotion-0 {
+.c2 {
   border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
@@ -72,54 +137,29 @@ exports[`Carousel renders with controls 1`] = `
   width: 1px;
 }
 
-.emotion-5 {
-  display: block;
-  vertical-align: top;
-  overflow-x: auto;
-  overflow-y: hidden;
-  width: 100%;
-  height: 100%;
-  white-space: nowrap;
-  padding: 0;
-  -webkit-overflow-scrolling: touch;
-  -webkit-scrollbar-width: none;
-  -moz-scrollbar-width: none;
-  -ms-scrollbar-width: none;
-  scrollbar-width: none;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  -webkit-scroll-snap-type: proximity;
-  -moz-scroll-snap-type: proximity;
-  -ms-scroll-snap-type: proximity;
-  scroll-snap-type: proximity;
-  -webkit-scroll-snap-destination: 0 50%;
-  -moz-scroll-snap-destination: 0 50%;
-  -ms-scroll-snap-destination: 0 50%;
-  scroll-snap-destination: 0 50%;
-  -webkit-scroll-snap-points-x: repeat(100%);
-  -moz-scroll-snap-points-x: repeat(100%);
-  -ms-scroll-snap-points-x: repeat(100%);
-  scroll-snap-points-x: repeat(100%);
+.c5 {
+  height: 12rem;
+  width: 20rem;
+  margin-right: 1rem;
+  background: red;
 }
 
-.emotion-5::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
+.c6 {
+  height: 12rem;
+  width: 20rem;
+  margin-right: 1rem;
+  background: red;
 }
 
-.emotion-5::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  background-clip: content-box;
-  border-radius: 100px;
-  border: 3px solid transparent;
-}
-
-.emotion-5:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+.c7 {
+  height: 12rem;
+  width: 20rem;
+  margin-right: 1rem;
+  background: red;
 }
 
 @supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
-  .emotion-5 {
+  .c3 {
     -webkit-scroll-snap-type: x mandatory;
     -moz-scroll-snap-type: x mandatory;
     -ms-scroll-snap-type: x mandatory;
@@ -135,23 +175,8 @@ exports[`Carousel renders with controls 1`] = `
   }
 }
 
-.emotion-2 {
-  list-style-type: none;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-scroll-snap-coordinate: 0 0;
-  -moz-scroll-snap-coordinate: 0 0;
-  -ms-scroll-snap-coordinate: 0 0;
-  scroll-snap-coordinate: 0 0;
-}
-
-.emotion-2:before {
-  position: absolute;
-  content: "\\200B";
-}
-
 @supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
-  .emotion-2 {
+  .c4 {
     -webkit-scroll-snap-align: center;
     -moz-scroll-snap-align: center;
     -ms-scroll-snap-align: center;
@@ -164,68 +189,47 @@ exports[`Carousel renders with controls 1`] = `
 }
 
 <div
-  className="emotion-8"
+  className="c0"
 >
   <button
-    className="emotion-1"
+    className="c1"
   >
     <span
-      className="emotion-0"
+      className="c2"
     >
       Scroll Left
     </span>
   </button>
   <ul
-    className="emotion-5"
+    className="c3"
   >
     <li
-      className="emotion-2"
+      className="c4"
     >
       <div
-        css={
-          Object {
-            "background": "red",
-            "height": "12rem",
-            "marginRight": "1rem",
-            "width": "20rem",
-          }
-        }
+        className="c5"
       />
     </li>
     <li
-      className="emotion-2"
+      className="c4"
     >
       <div
-        css={
-          Object {
-            "background": "red",
-            "height": "12rem",
-            "marginRight": "1rem",
-            "width": "20rem",
-          }
-        }
+        className="c6"
       />
     </li>
     <li
-      className="emotion-2"
+      className="c4"
     >
       <div
-        css={
-          Object {
-            "background": "red",
-            "height": "12rem",
-            "marginRight": "1rem",
-            "width": "20rem",
-          }
-        }
+        className="c7"
       />
     </li>
   </ul>
   <button
-    className="emotion-1"
+    className="c1"
   >
     <span
-      className="emotion-0"
+      className="c2"
     >
       Scroll Right
     </span>
@@ -234,13 +238,13 @@ exports[`Carousel renders with controls 1`] = `
 `;
 
 exports[`Carousel renders without controls 1`] = `
-.emotion-4 {
+.c0 {
   position: relative;
   width: 100%;
   overflow-x: auto;
 }
 
-.emotion-3 {
+.c1 {
   display: block;
   vertical-align: top;
   overflow-x: auto;
@@ -269,25 +273,65 @@ exports[`Carousel renders without controls 1`] = `
   scroll-snap-points-x: repeat(100%);
 }
 
-.emotion-3::-webkit-scrollbar {
+.c1.c1 {
+  margin-left: 0;
+}
+
+.c1::-webkit-scrollbar {
   width: 12px;
   height: 12px;
   cursor: pointer;
 }
 
-.emotion-3::-webkit-scrollbar-thumb {
+.c1::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
   border-radius: 100px;
   border: 3px solid transparent;
 }
 
-.emotion-3:hover::-webkit-scrollbar-thumb {
+.c1:hover::-webkit-scrollbar-thumb {
   background-color: #62676D;
 }
 
+.c2 {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-scroll-snap-coordinate: 0 0;
+  -moz-scroll-snap-coordinate: 0 0;
+  -ms-scroll-snap-coordinate: 0 0;
+  scroll-snap-coordinate: 0 0;
+}
+
+.c2:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c3 {
+  height: 12rem;
+  width: 20rem;
+  margin-right: 1rem;
+  background: red;
+}
+
+.c4 {
+  height: 12rem;
+  width: 20rem;
+  margin-right: 1rem;
+  background: red;
+}
+
+.c5 {
+  height: 12rem;
+  width: 20rem;
+  margin-right: 1rem;
+  background: red;
+}
+
 @supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
-  .emotion-3 {
+  .c1 {
     -webkit-scroll-snap-type: x mandatory;
     -moz-scroll-snap-type: x mandatory;
     -ms-scroll-snap-type: x mandatory;
@@ -303,23 +347,8 @@ exports[`Carousel renders without controls 1`] = `
   }
 }
 
-.emotion-0 {
-  list-style-type: none;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-scroll-snap-coordinate: 0 0;
-  -moz-scroll-snap-coordinate: 0 0;
-  -ms-scroll-snap-coordinate: 0 0;
-  scroll-snap-coordinate: 0 0;
-}
-
-.emotion-0:before {
-  position: absolute;
-  content: "\\200B";
-}
-
 @supports (-webkit-scroll-snap-align:start) or (-moz-scroll-snap-align:start) or (-ms-scroll-snap-align:start) or (scroll-snap-align:start) {
-  .emotion-0 {
+  .c2 {
     -webkit-scroll-snap-align: center;
     -moz-scroll-snap-align: center;
     -ms-scroll-snap-align: center;
@@ -332,51 +361,30 @@ exports[`Carousel renders without controls 1`] = `
 }
 
 <div
-  className="emotion-4"
+  className="c0"
 >
   <ul
-    className="emotion-3"
+    className="c1"
   >
     <li
-      className="emotion-0"
+      className="c2"
     >
       <div
-        css={
-          Object {
-            "background": "red",
-            "height": "12rem",
-            "marginRight": "1rem",
-            "width": "20rem",
-          }
-        }
+        className="c3"
       />
     </li>
     <li
-      className="emotion-0"
+      className="c2"
     >
       <div
-        css={
-          Object {
-            "background": "red",
-            "height": "12rem",
-            "marginRight": "1rem",
-            "width": "20rem",
-          }
-        }
+        className="c4"
       />
     </li>
     <li
-      className="emotion-0"
+      className="c2"
     >
       <div
-        css={
-          Object {
-            "background": "red",
-            "height": "12rem",
-            "marginRight": "1rem",
-            "width": "20rem",
-          }
-        }
+        className="c5"
       />
     </li>
   </ul>

@@ -1,12 +1,12 @@
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import { spacing } from '@heathmont/sportsbet-utils';
 
 export type MediaObjectProps = {
-  alignItems?: string;
-  gridGap?: string;
+  alignItems?: CSSObject['alignItems'];
+  gridGap?: CSSObject['gridGap'];
   mediaWidth?: string;
   reverse?: boolean;
-  textAlign?: any /** Meet Emotion's complex `textAlign` types */;
+  textAlign?: CSSObject['textAlign'];
 };
 
 export const MediaObject = styled.div<MediaObjectProps>(

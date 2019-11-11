@@ -1,13 +1,10 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
-import isPropValid from '@emotion/is-prop-valid';
 import { rem } from 'polished';
 
 import { underlineWidth, underlineOffset } from './private';
 
-export const TabLink: React.FC<any> = styled('a', {
-  shouldForwardProp: prop => isPropValid(prop) && prop !== 'as',
-})({
+export const TabLink = styled.a({
   position: 'relative',
   padding: 0,
   paddingBottom: `${underlineOffset}px`,

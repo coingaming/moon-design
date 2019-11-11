@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { typography } from '@heathmont/sportsbet-tokens';
 import { rem } from '@heathmont/sportsbet-utils';
 

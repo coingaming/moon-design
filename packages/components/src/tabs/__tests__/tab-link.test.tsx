@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import 'jest-styled-components';
 
 import { TabLink } from '../tab-link';
 

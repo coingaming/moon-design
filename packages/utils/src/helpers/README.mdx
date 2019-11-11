@@ -41,15 +41,23 @@ Using `spacing()` is encouraged over using the tokens directly and can be reset
 as `spacing(0)`.
 
 ```jsx react-live
-<>
-  <div css={{ padding: spacing(), border: '1px solid white' }}>Default</div>
-  <div css={{ padding: spacing('small'), border: '1px solid white' }}>
-    Small
-  </div>
-  <div css={{ padding: spacing('large'), border: '1px solid white' }}>
-    Large
-  </div>
-</>
+() => {
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <>
+      <Example css={{ padding: spacing(), border: '1px solid white' }}>
+        Default
+      </Example>
+      <Example css={{ padding: spacing('small'), border: '1px solid white' }}>
+        Small
+      </Example>
+      <Example css={{ padding: spacing('large'), border: '1px solid white' }}>
+        Large
+      </Example>
+    </>
+  );
+};
 ```
 
 ## EM
