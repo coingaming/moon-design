@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-utils",
-  "version": "0.95.0",
+  "version": "0.95.1",
   "files": [
     "lib"
   ],
@@ -10,7 +10,7 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-tokens": "^0.95.0",
+    "@heathmont/sportsbet-tokens": "^0.95.1",
     "mini-svg-data-uri": "1.0.3",
     "polished": "3.4.1"
   },
