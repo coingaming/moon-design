@@ -13,11 +13,11 @@
     "@heathmont/sportsbet-fonts": "^0.95.0",
     "@heathmont/sportsbet-tokens": "^0.95.0",
     "@heathmont/sportsbet-utils": "^0.95.0",
-    "focus-visible": "5.0.2",
-    "styled-components": "4.4.1"
+    "focus-visible": "5.0.2"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",
-    "react-dom": ">= 16.8.1"
+    "react-dom": ">= 16.8.1",
+    "styled-components": ">= 4.4.1"
   }
 }
