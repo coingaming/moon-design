@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { CSSObject } from '@emotion/core';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors, border } from '@heathmont/sportsbet-tokens';
 import {

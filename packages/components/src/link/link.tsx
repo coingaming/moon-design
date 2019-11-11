@@ -1,17 +1,11 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
-import isPropValid from '@emotion/is-prop-valid';
-import styled from '@emotion/styled';
+import styled, { CSSObject } from 'styled-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { disabled } from '@heathmont/sportsbet-utils';
 
 import { ButtonModifiers, buttonModifiers } from '../button/modifiers';
 import { buttonStyles } from '../button/button';
 
-jsx;
-
-/* @TODO Revisit post-EPL */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href?: string;
@@ -19,7 +13,6 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   secondary?: boolean;
   optional?: boolean;
   buttonModifier?: ButtonModifiers;
-  as?: any;
   to?: any;
   // Manually added these because NavLinkProps extending causes TS errors
   activeClassName?: string;
@@ -28,6 +21,7 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   strict?: boolean;
   isActive?: any;
   location?: any;
+  buttonStyled?: boolean;
 };
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
@@ -53,12 +47,8 @@ const linkBase: CSSObject = {
 /**
  * Component
  */
-/* @TODO Revisit post-EPL */
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const Link: React.FC<any> = styled('a', {
-  shouldForwardProp: prop =>
-    prop === 'exact' || (isPropValid(prop) && prop !== 'as'),
-})(({ secondary, optional, buttonStyled }) => [
+const Link = styled.a<LinkProps>(({ secondary, optional, buttonStyled }) => [
   linkBase,
   secondary && { color: colors.neutral[20] },
   optional && {

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
-import styled from '@emotion/styled';
-import { CSSObject } from '@emotion/core';
+import styled, { CSSObject } from 'styled-components';
 import { colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
@@ -9,7 +8,6 @@ import { Frontmatter } from '../../types';
 
 type MenuItemProps = Frontmatter & {
   section?: boolean;
-  /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   pages?: any;
 };
@@ -42,7 +40,7 @@ const Link = styled(GatsbyLink)({
   color: colors.neutral[10],
   textDecoration: 'none',
   '&[aria-current=page]': {
-    fontWeight: '600',
+    fontWeight: 600,
   },
   '&:hover, &:active, &[aria-current=page]': {
     color: colors.brand,

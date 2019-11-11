@@ -1,7 +1,7 @@
 import { PagesData } from '../../types';
 
 export const transformSections = (data: PagesData) => {
-  const sections = data.config.edges[0].node.designSections;
+  const sections = data.config.edges[0].node.menuSections;
 
   return sections.map(section => {
     const sectionPages = data.pages.edges
