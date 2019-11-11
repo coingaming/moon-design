@@ -13,7 +13,7 @@ module.exports = {
     author,
   },
   plugins: [
-    `gatsby-plugin-emotion`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-mdx`,
       options: {

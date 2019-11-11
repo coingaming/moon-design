@@ -1,24 +1,39 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/core';
+import * as React from 'react';
+import styled, { CSSObject } from 'styled-components';
 import { create } from 'react-test-renderer';
+import 'jest-styled-components';
 
 import { listPlain, listPlainItem, listInline, listInlineItem } from '../lists';
+
+const Example = styled.div<{ css: CSSObject }>(({ css }) => css);
 
 describe('Lists', () => {
   describe('listPlain', () => {
     test('resets list-style-type correctly', () => {
       const list = create(
         <div>
-          <ul css={listPlain}>
-            <li css={listPlainItem}>Item 1</li>
-            <li css={listPlainItem}>Item 2</li>
-            <li css={listPlainItem}>Item 3</li>
-          </ul>
-          <ol css={listPlain}>
-            <li css={listPlainItem}>Item 1</li>
-            <li css={listPlainItem}>Item 2</li>
-            <li css={listPlainItem}>Item 3</li>
-          </ol>
+          <Example as="ul" css={listPlain}>
+            <Example as="li" css={listPlainItem}>
+              Item 1
+            </Example>
+            <Example as="li" css={listPlainItem}>
+              Item 2
+            </Example>
+            <Example as="li" css={listPlainItem}>
+              Item 3
+            </Example>
+          </Example>
+          <Example as="ol" css={listPlain}>
+            <Example as="li" css={listPlainItem}>
+              Item 1
+            </Example>
+            <Example as="li" css={listPlainItem}>
+              Item 2
+            </Example>
+            <Example as="li" css={listPlainItem}>
+              Item 3
+            </Example>
+          </Example>
         </div>
       );
 
@@ -30,16 +45,28 @@ describe('Lists', () => {
     test('renders lists inline', () => {
       const list = create(
         <div>
-          <ul css={listInline}>
-            <li css={listInlineItem}>Item 1</li>
-            <li css={listInlineItem}>Item 2</li>
-            <li css={listInlineItem}>Item 3</li>
-          </ul>
-          <ol css={listInline}>
-            <li css={listInlineItem}>Item 1</li>
-            <li css={listInlineItem}>Item 2</li>
-            <li css={listInlineItem}>Item 3</li>
-          </ol>
+          <Example as="ul" css={listInline}>
+            <Example as="li" css={listInlineItem}>
+              Item 1
+            </Example>
+            <Example as="li" css={listInlineItem}>
+              Item 2
+            </Example>
+            <Example as="li" css={listInlineItem}>
+              Item 3
+            </Example>
+          </Example>
+          <Example as="ol" css={listInline}>
+            <Example as="li" css={listInlineItem}>
+              Item 1
+            </Example>
+            <Example as="li" css={listInlineItem}>
+              Item 2
+            </Example>
+            <Example as="li" css={listInlineItem}>
+              Item 3
+            </Example>
+          </Example>
         </div>
       );
 

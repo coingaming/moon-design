@@ -2,7 +2,17 @@
   "siteTitle": "Sportsbet.io",
   "author": "Sportsbet.io",
   "description": "Everything you need to know about the Sportsbet.io Design System",
-  "designSections": [
+  "packages": [
+    "assets",
+    "components",
+    "fonts",
+    "global",
+    "icons",
+    "objects",
+    "tokens",
+    "utils"
+  ],
+  "menuSections": [
     "Tokens",
     "Global",
     "Objects",

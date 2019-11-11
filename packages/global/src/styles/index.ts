@@ -6,13 +6,13 @@ import { focus } from './generic/focus';
 import { reset } from './generic/reset';
 import { page } from './elements/page';
 
-export const styles = [
+export const styles = {
   /* Generic */
-  config,
-  avertaStd.fontFace,
-  boxSizing,
-  focus,
-  reset,
+  ...config,
+  ...avertaStd.fontFace,
+  ...boxSizing,
+  ...focus,
+  ...reset,
   /* Elements */
-  page,
-];
+  ...page,
+};

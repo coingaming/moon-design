@@ -1,4 +1,4 @@
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 
 /**
  * 1. Prevent Reach UI from injecting its own styles.

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import 'jest-styled-components';
 import { colors } from '@heathmont/sportsbet-tokens';
 
 import { Heading } from '../heading';

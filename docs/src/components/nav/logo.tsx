@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { Link } from 'gatsby';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import rem from 'polished/lib/helpers/rem';
@@ -12,7 +12,7 @@ const logoLink: CSSObject = {
 
 export const Logo = () => (
   <Link to="/" css={logoLink}>
-    <span css={hideVisually}>Home</span>
+    <span css={hideVisually()}>Home</span>
     <LogoSportsbet width="100%" height="auto" />
   </Link>
 );

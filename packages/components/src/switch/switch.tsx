@@ -1,10 +1,7 @@
-/** @jsx jsx */
 import * as React from 'react';
-import { jsx, CSSObject } from '@emotion/core';
+import { CSSObject } from 'styled-components';
 import { rem } from '@heathmont/sportsbet-utils';
 import { animation, colors } from '@heathmont/sportsbet-tokens';
-
-jsx;
 
 type SwitchProps = React.InputHTMLAttributes<HTMLInputElement> & {};
 

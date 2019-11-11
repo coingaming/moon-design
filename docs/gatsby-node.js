@@ -1,5 +1,34 @@
 const path = require('path');
 
+const { packages } = require('./config.json');
+
+/**
+ * Modify the Gatsby Webpack Configuration to alias our package names with the
+ * `src/` directories defined in this repo. This way we can leverage
+ * hot-reloading for a rapid development environment.
+ *
+ * See https://www.gatsbyjs.org/docs/add-custom-webpack-config/
+ */
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: {
+      fs: 'empty',
+    },
+    resolve: {
+      alias: packages.reduce((acc, packageName) => {
+        acc[`@heathmont/sportsbet-${packageName}`] = path.resolve(
+          __dirname,
+          '..',
+          'packages',
+          packageName,
+          'src'
+        );
+        return acc;
+      }, {}),
+    },
+  });
+};
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
