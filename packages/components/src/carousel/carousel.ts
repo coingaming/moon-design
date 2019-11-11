@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import { listItemStyleTypeNone } from '@heathmont/sportsbet-objects';
 import { border, colors } from '@heathmont/sportsbet-tokens';
 
-import { CarouselInlineStyleProps } from './types';
+import { listItemStyleTypeNone } from '../lists/lists';
 
+import { CarouselInlineStyleProps } from './types';
 /**
  * Settings
  *
