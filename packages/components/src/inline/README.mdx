@@ -1,0 +1,29 @@
+---
+name: Inline
+menu: Components
+route: /components/inline
+---
+
+# Inline
+
+```jsx react-live
+() => {
+  const Example = styled.div(({ css }) => css);
+  const digits = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Inline>
+      {digits.map(digit => (
+        <Example
+          css={{
+            borderRadius: '0.25em',
+            width: '2rem',
+            height: '2rem',
+            backgroundColor: `hsl(146,89.4%,${digit}%)`,
+          }}
+        />
+      ))}
+    </Inline>
+  );
+};
+```

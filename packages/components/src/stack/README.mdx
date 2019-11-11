@@ -1,7 +1,7 @@
 ---
 name: Stack
-menu: Objects
-route: /objects/stack
+menu: Components
+route: /components/stack
 ---
 
 # Stack
@@ -77,7 +77,7 @@ Alternatively, "Stack" styles can also be added to an existing component via the
 `stack()` function:
 
 ```jsx
-import { stack } from '@heathmont/sportsbet-objects';
+import { stack } from '@heathmont/sportsbet-components';
 
 const Example = styled.div({
   ...stack('1.25rem'),
@@ -155,36 +155,6 @@ or for other spacing needs.
         Further immediate children to the initial Stack will inherit spacing.
       </p>
     </Stack>
-  );
-};
-```
-
-## Horizontal
-
-By default, margins are set on the `vertical` axis but this can switched to
-`horizontal` for specific use-cases (such as spacing in [`flex`-based](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) design).
-
-```jsx react-live
-() => {
-  const Example = styled.div(({ css }) => css);
-
-  const CustomStack = styled(Stack)({
-    display: 'flex',
-    minHeight: '2rem',
-  });
-
-  return (
-    <CustomStack direction="horizontal">
-      <Example
-        css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Example
-        css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Example
-        css={{ width: '100%', border: `3px solid ${colors.neutral[20]}` }}
-      />
-    </CustomStack>
   );
 };
 ```

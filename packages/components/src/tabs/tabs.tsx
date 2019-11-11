@@ -2,12 +2,10 @@ import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors, border } from '@heathmont/sportsbet-tokens';
-import {
-  listInline,
-  listInlineItem,
-  stack,
-} from '@heathmont/sportsbet-objects';
 import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
+
+import { listInline, listInlineItem } from '../lists/lists';
+import { stack } from '../stack/stack';
 
 import { underlineOffset } from './private';
 
