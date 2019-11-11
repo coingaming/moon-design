@@ -11,7 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "@heathmont/sportsbet-tokens": "^0.95.0",
-    "@heathmont/sportsbet-utils": "^0.95.0",
-    "styled-components": "4.4.1"
+    "@heathmont/sportsbet-utils": "^0.95.0"
+  },
+  "peerDependencies": {
+    "styled-components": ">= 4.4.1"
   }
 }

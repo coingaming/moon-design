@@ -10,7 +10,9 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-cdn": "1.1.0",
-    "styled-components": "4.4.1"
+    "@heathmont/sportsbet-cdn": "1.1.0"
+  },
+  "peerDependencies": {
+    "styled-components": ">= 4.4.1"
   }
 }
