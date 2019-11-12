@@ -60,7 +60,7 @@ const TabList = styled.ul({
   padding: 0,
   margin: 0,
   paddingBottom: `${underlineOffset}px` /* [1] */,
-  ...stack(spacing('medium'), 'horizontal'),
+  ...stack(spacing('medium')),
 });
 
 const Tab = styled.li(listInlineItem);

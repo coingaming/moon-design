@@ -6,20 +6,50 @@ route: /components/inline
 
 # Inline
 
+Displaying content inline can pose issues when scaling to different viewport sizes.
+
+Inline ensures content gracefully adapts to changes in layout, with adjustable spacing between adjacent content.
+
 ```jsx react-live
 () => {
   const Example = styled.div(({ css }) => css);
-  const digits = Array.from({ length: 50 }, (v, i) => i);
+  const lightness = Array.from({ length: 50 }, (v, i) => i);
 
   return (
     <Inline>
-      {digits.map(digit => (
+      {lightness.map(lightnessIndex => (
         <Example
           css={{
             borderRadius: '0.25em',
             width: '2rem',
             height: '2rem',
-            backgroundColor: `hsl(146,89.4%,${digit}%)`,
+            backgroundColor: `hsl(146,89.4%,${lightnessIndex}%)`,
+          }}
+        />
+      ))}
+    </Inline>
+  );
+};
+```
+
+## Customization
+
+Spacing between adjacent content can be adjusted via the `space` prop:
+
+```jsx react-live
+() => {
+  const Example = styled.div(({ css }) => css);
+  const lightness = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Inline space={spacing('large')}>
+      {lightness.map(lightnessIndex => (
+        <Example
+          css={{
+            borderRadius: '0.25em',
+            width: '2rem',
+            height: '2rem',
+            backgroundColor: `hsl(146,89.4%,${lightnessIndex}%)`,
           }}
         />
       ))}
