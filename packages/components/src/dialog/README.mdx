@@ -68,14 +68,14 @@ as buttons can be passed into the `footer` prop.
         isOpen={showDialog}
         onDismiss={close}
         footer={
-          <Stack direction="horizontal" space={spacing('small')}>
+          <Inline space={spacing('small')}>
             <Button modifier="primary" onClick={close}>
               Save
             </Button>
             <Button modifier="secondary" onClick={close}>
               Cancel
             </Button>
-          </Stack>
+          </Inline>
         }
       >
         <Stack>

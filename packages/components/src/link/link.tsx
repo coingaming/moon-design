@@ -30,7 +30,6 @@ type LinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
  */
 const linkBase: CSSObject = {
   display: 'inline-block',
-  margin: 0,
   padding: 0,
   font: 'inherit',
   color: colors.brand,
