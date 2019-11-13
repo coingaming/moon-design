@@ -1,10 +1,10 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { listPlain, listPlainItem } from '@heathmont/sportsbet-objects';
 import { rem, spacing } from '@heathmont/sportsbet-utils';
 import { border } from '@heathmont/sportsbet-tokens';
 
+import { listPlain, listPlainItem } from '../lists/lists';
 import { inputSpacingY } from '../private/input/settings';
 import { Input } from '../private/input/input';
 
