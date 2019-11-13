@@ -31,7 +31,9 @@ const Table = styled.table({
  */
 const markdownContent: CSSObject = {
   'ul, ol': {
-    marginLeft: spacing(),
+    '&:not([class])': {
+      marginLeft: spacing(),
+    },
   },
 };
 

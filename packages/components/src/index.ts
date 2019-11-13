@@ -31,6 +31,7 @@ export * from './link/link';
 export * from './lists/lists';
 export * from './loader/loader';
 export * from './media-object/media-object';
+export * from './reel/reel';
 export * from './select/select';
 export * from './stack/stack';
 export * from './switch/switch';

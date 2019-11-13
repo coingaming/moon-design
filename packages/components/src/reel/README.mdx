@@ -1,0 +1,86 @@
+---
+name: Reel
+menu: Components
+route: /components/reel
+---
+
+# Reel
+
+Allows content to overflow on the **horizontal axis**, forming the base for more
+complex UI components such as [`Carousel`](./carousel).
+
+See [every-layout.dev](https://every-layout.dev/layouts/reel/) for further
+documentation of the "reel".
+
+```jsx react-live
+() => {
+  const Box = styled.div(({ css }) => css);
+  const lightness = Array.from({ length: 25 }, (v, i) => i);
+
+  return (
+    <Reel>
+      {lightness.map(lightnessIndex => (
+        <Box
+          css={{
+            borderRadius: '0.25em',
+            height: '12rem',
+            width: '20rem',
+            backgroundColor: `hsl(146,89.4%,${50 - lightnessIndex}%)`,
+          }}
+        />
+      ))}
+    </Reel>
+  );
+};
+```
+
+## Customization
+
+### Height
+
+```jsx react-live
+() => {
+  const placeholderImg = size => `https://www.placecage.com/${size}`;
+
+  return (
+    <Reel height="20vh">
+      <img alt="" src={placeholderImg('200/400')} />
+      <img alt="" src={placeholderImg('400/300')} />
+      <img alt="" src={placeholderImg('200/200')} />
+      <img alt="" src={placeholderImg('150/200')} />
+      <img alt="" src={placeholderImg('450/300')} />
+      <img alt="" src={placeholderImg('200/200')} />
+    </Reel>
+  );
+};
+```
+
+## Examples
+
+### Carousel
+
+See the [`Carousel`](./carousel) documentation.
+
+### Navigation
+
+Using `Reel`, we can quickly mock-up a set of ["sausage links"](https://uglyduck.ca/hamburger-menu-alternative/) for navigation.
+
+To ensure semantics, render the component `as="ul"`. All child
+list-item (`li`) elements will display without bullets.
+
+```jsx react-live
+() => {
+  const Box = styled.div(({ css }) => css);
+  const items = Array.from({ length: 20 }, (v, i) => i);
+
+  return (
+    <Reel as="ul">
+      {items.map(item => (
+        <li>
+          <Button modifier="optional">Item {item}</Button>
+        </li>
+      ))}
+    </Reel>
+  );
+};
+```

@@ -1,41 +1,16 @@
 import * as React from 'react';
-import styled, { CSSObject } from 'styled-components';
+import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { colors, border } from '@heathmont/sportsbet-tokens';
+import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
 
-import { listInline, listInlineItem } from '../lists/lists';
-import { stack } from '../stack/stack';
+import { Reel } from '../reel/reel';
 
 import { underlineOffset } from './private';
-
-const smoothHorizontalScroll: CSSObject = {
-  overflowX: 'auto',
-  overflowY: 'hidden',
-  WebkitOverflowScrolling: 'touch',
-  scrollbarWidth: 'none' /* [1] */,
-  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
-  /* Custom Chrome Scroll Behaviour */
-  '::-webkit-scrollbar': {
-    width: 12,
-    height: 12,
-    cursor: 'pointer',
-  },
-  '::-webkit-scrollbar-thumb': {
-    backgroundColor: 'transparent',
-    backgroundClip: 'content-box' /* [3] */,
-    borderRadius: border.radius.largest,
-    border: '3px solid transparent' /* [3] */,
-  },
-  ':hover::-webkit-scrollbar-thumb': {
-    backgroundColor: colors.neutral[40],
-  },
-};
 
 const TabNav = styled.nav({
   position: 'relative',
   width: '100%',
-  ...smoothHorizontalScroll,
 });
 
 const SkipLink = styled.a({
@@ -53,17 +28,15 @@ const SkipLink = styled.a({
 });
 
 /* 1. Include the indicator as part of the item's box-model. */
-const TabList = styled.ul({
-  ...listInline,
-  display: 'block',
-  whiteSpace: 'nowrap',
-  padding: 0,
-  margin: 0,
+const TabList = styled(Reel.withComponent('ul'))({
   paddingBottom: `${underlineOffset}px` /* [1] */,
-  ...stack(spacing('medium')),
 });
 
-const Tab = styled.li(listInlineItem);
+TabList.defaultProps = {
+  space: spacing('medium'),
+};
+
+const Tab = styled.li({});
 
 type TabsProps = {
   id?: string;
