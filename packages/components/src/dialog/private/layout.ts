@@ -13,6 +13,8 @@ import {
 } from '@heathmont/sportsbet-tokens';
 import { mq, spacing } from '@heathmont/sportsbet-utils';
 
+import { Inline } from '../../inline/inline';
+
 import { DialogLongForm, DialogMaxWidth } from './types';
 
 /* Styled Reach UI Dialog Components
@@ -68,6 +70,9 @@ export const DialogContainer = styled.div({
 export const DialogFooter = styled.footer({
   padding: spacing(),
   textAlign: 'right',
+  [`> ${Inline}`]: {
+    justifyContent: 'flex-end',
+  },
 });
 
 /**

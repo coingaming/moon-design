@@ -295,6 +295,13 @@ exports[`Dialog footer renders with \`footer\` 1`] = `
   text-align: right;
 }
 
+.c9 > .c10 {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .c6 {
   padding-top: 2.5rem;
   padding-left: 2rem;
@@ -510,6 +517,13 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
 .c9 {
   padding: 1rem;
   text-align: right;
+}
+
+.c9 > .c10 {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .c6 {
@@ -737,6 +751,13 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
 .c9 {
   padding: 1rem;
   text-align: right;
+}
+
+.c9 > .c10 {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .c6 {

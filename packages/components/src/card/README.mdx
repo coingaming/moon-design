@@ -36,14 +36,12 @@ Default template, using the `flex` layout modifier to balance space between item
             unitTitle: 'Millibitcoin',
           }}
         />
-        <div>
-          <Link optional style={{ marginRight: spacing() }}>
-            Deposit
-          </Link>
+        <Inline>
+          <Link optional>Deposit</Link>
           <Link optional disabled>
             Withdraw
           </Link>
-        </div>
+        </Inline>
       </Card>
     </Example>
   );

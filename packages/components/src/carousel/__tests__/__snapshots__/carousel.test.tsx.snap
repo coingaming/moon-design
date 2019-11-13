@@ -8,20 +8,19 @@ exports[`Carousel renders with controls 1`] = `
 }
 
 .c3 {
-  display: block;
-  vertical-align: top;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  width: 100%;
-  height: 100%;
-  white-space: nowrap;
-  padding: 0;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  height: auto;
   -webkit-scroll-snap-type: proximity;
   -moz-scroll-snap-type: proximity;
   -ms-scroll-snap-type: proximity;
@@ -34,10 +33,6 @@ exports[`Carousel renders with controls 1`] = `
   -moz-scroll-snap-points-x: repeat(100%);
   -ms-scroll-snap-points-x: repeat(100%);
   scroll-snap-points-x: repeat(100%);
-}
-
-.c3.c3 {
-  margin-left: 0;
 }
 
 .c3::-webkit-scrollbar {
@@ -57,19 +52,38 @@ exports[`Carousel renders with controls 1`] = `
   background-color: #62676D;
 }
 
-.c4 {
+.c3 li {
   list-style-type: none;
-  display: inline-block;
-  vertical-align: top;
+}
+
+.c3 li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c3 > * {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c3 > img {
+  height: 100%;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  width: auto;
+}
+
+.c3 > * + * {
+  margin-left: 1rem;
+}
+
+.c4 {
   -webkit-scroll-snap-coordinate: 0 0;
   -moz-scroll-snap-coordinate: 0 0;
   -ms-scroll-snap-coordinate: 0 0;
   scroll-snap-coordinate: 0 0;
-}
-
-.c4:before {
-  position: absolute;
-  content: "\\200B";
 }
 
 .c1 {
@@ -201,7 +215,7 @@ exports[`Carousel renders with controls 1`] = `
     </span>
   </button>
   <ul
-    className="c3"
+    className="-ul c3"
   >
     <li
       className="c4"
@@ -245,20 +259,19 @@ exports[`Carousel renders without controls 1`] = `
 }
 
 .c1 {
-  display: block;
-  vertical-align: top;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-  width: 100%;
-  height: 100%;
-  white-space: nowrap;
-  padding: 0;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  height: auto;
   -webkit-scroll-snap-type: proximity;
   -moz-scroll-snap-type: proximity;
   -ms-scroll-snap-type: proximity;
@@ -271,10 +284,6 @@ exports[`Carousel renders without controls 1`] = `
   -moz-scroll-snap-points-x: repeat(100%);
   -ms-scroll-snap-points-x: repeat(100%);
   scroll-snap-points-x: repeat(100%);
-}
-
-.c1.c1 {
-  margin-left: 0;
 }
 
 .c1::-webkit-scrollbar {
@@ -294,19 +303,38 @@ exports[`Carousel renders without controls 1`] = `
   background-color: #62676D;
 }
 
-.c2 {
+.c1 li {
   list-style-type: none;
-  display: inline-block;
-  vertical-align: top;
+}
+
+.c1 li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c1 > * {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c1 > img {
+  height: 100%;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  width: auto;
+}
+
+.c1 > * + * {
+  margin-left: 1rem;
+}
+
+.c2 {
   -webkit-scroll-snap-coordinate: 0 0;
   -moz-scroll-snap-coordinate: 0 0;
   -ms-scroll-snap-coordinate: 0 0;
   scroll-snap-coordinate: 0 0;
-}
-
-.c2:before {
-  position: absolute;
-  content: "\\200B";
 }
 
 .c3 {
@@ -364,7 +392,7 @@ exports[`Carousel renders without controls 1`] = `
   className="c0"
 >
   <ul
-    className="c1"
+    className="-ul c1"
   >
     <li
       className="c2"
