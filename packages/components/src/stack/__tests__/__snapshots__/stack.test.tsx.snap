@@ -40,23 +40,42 @@ exports[`Stack renders with \`default\` spacing 1`] = `
 </div>
 `;
 
-exports[`Stack renders with horizontal spacing 1`] = `
-.c0 > * + * {
-  margin-left: 0.5rem;
+exports[`Stack renders with adjusted spacing 1`] = `
+@supports (grid-gap:0) {
+  .c0 {
+    display: grid;
+    grid-gap: 30px;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c0 > * + * {
+    margin-top: 30px;
+  }
 }
 
 <div
   className="c0"
-  direction="horizontal"
 >
+  <h1>
+    Lorem Ipsum Dolor Sit Amet.
+  </h1>
   <p>
-    Horizontally
+    Consectetur adipiscing elit. Nullam gravida ex tempor, ornare sapien a, sodales velit. Curabitur ac ultrices massa, eu scelerisque mauris.
   </p>
   <p>
-    spaced
+    Donec maximus purus at tempor elementum. Donec commodo aliquam metus, et vestibulum felis venenatis pellentesque.
   </p>
   <p>
-    content
+    Phasellus felis sem, convallis eget pretium vel, faucibus sit amet nulla. Fusce auctor nibh non libero sagittis, semper sagittis ipsum euismod.
   </p>
+  <div>
+    <p>
+      Donec maximus purus at tempor elementum. Donec commodo aliquam metus, et vestibulum felis venenatis pellentesque.
+    </p>
+    <p>
+      Phasellus felis sem, convallis eget pretium vel, faucibus sit amet nulla. Fusce auctor nibh non libero sagittis, semper sagittis ipsum euismod.
+    </p>
+  </div>
 </div>
 `;

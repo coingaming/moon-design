@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { border, colors } from '@heathmont/sportsbet-tokens';
 
-import { listItemStyleTypeNone } from '../lists/lists';
+import { Reel } from '../reel/reel';
 
 import { CarouselInlineStyleProps } from './types';
 /**
@@ -29,45 +28,8 @@ export const Carousel = styled.div<any>({
  * Carousel Scroll
  *
  * The list of Carousel Items, controlling overflow and scroll behavior.
- *
- * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
- * 2. Prevent inheritance of list styles.
- * 3. Auto-hide scrollbars on IE/Edge.
- * 4. Create 'padding' around the scrollbar.
- *
- * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-export const CarouselScroll = styled.ul<any>({
-  display: 'block',
-  verticalAlign: 'top',
-  overflowX: 'auto',
-  overflowY: 'hidden',
-  width: '100%',
-  height: '100%',
-  whiteSpace: 'nowrap',
-  padding: 0,
-  WebkitOverflowScrolling: 'touch',
-  scrollbarWidth: 'none' /* [1] */,
-  '&&': {
-    marginLeft: 0 /* [2] */,
-  },
-  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [3] */,
-  /* Custom Chrome Scroll Behaviour */
-  '::-webkit-scrollbar': {
-    width: 12,
-    height: 12,
-    cursor: 'pointer',
-  },
-  '::-webkit-scrollbar-thumb': {
-    backgroundColor: 'transparent',
-    backgroundClip: 'content-box' /* [4] */,
-    borderRadius: border.radius.largest,
-    border: '3px solid transparent' /* [4] */,
-  },
-  ':hover::-webkit-scrollbar-thumb': {
-    backgroundColor: colors.neutral[40],
-  },
-  /* Scroll Snapping */
+export const CarouselScroll = styled(Reel.withComponent('ul'))({
   scrollSnapType: 'proximity',
   scrollSnapDestination: '0 50%',
   scrollSnapPointsX: 'repeat(100%)',
@@ -88,9 +50,6 @@ export type CarouselScrollItemProps = CarouselInlineStyleProps;
 export const CarouselScrollItem = styled.li<CarouselScrollItemProps>(
   ({ inlineStyle }) => [
     {
-      ...listItemStyleTypeNone,
-      display: 'inline-block',
-      verticalAlign: 'top',
       scrollSnapCoordinate: '0 0',
       [currentScrollingSpec]: {
         scrollSnapAlign: 'center',
