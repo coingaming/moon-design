@@ -1,6 +1,8 @@
 import styled, { CSSObject } from 'styled-components';
 import { spacing } from '@heathmont/sportsbet-utils';
 
+import { listItemStyleTypeNone } from '../lists/lists';
+
 type InlineSpace = CSSObject['marginLeft'];
 
 export type InlineProps = {
@@ -28,6 +30,8 @@ export const inline = (space: InlineSpace): CSSObject => ({
         ? space / 2
         : `calc(${space} / 2)` /* [1] */,
   },
+  /* Ensure all list-items render without bullets */
+  '& > li': listItemStyleTypeNone,
 });
 
 export const Inline = styled.div<InlineProps>(

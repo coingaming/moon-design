@@ -42,4 +42,22 @@ describe('Inline', () => {
 
     expect(inline).toMatchSnapshot();
   });
+
+  test('renders child list items correctly', () => {
+    const inline = create(
+      <Inline as="ul">
+        <li>
+          <button type="button">Button 1</button>
+        </li>
+        <li>
+          <button type="button">Button 2</button>
+        </li>
+        <li>
+          <button type="button">Button 3</button>
+        </li>
+      </Inline>
+    );
+
+    expect(inline).toMatchSnapshot();
+  });
 });

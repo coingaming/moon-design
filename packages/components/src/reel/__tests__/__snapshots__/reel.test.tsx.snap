@@ -34,11 +34,11 @@ exports[`Reel renders child images correctly with custom height 1`] = `
   background-color: #62676D;
 }
 
-.c0 li {
+.c0 > li {
   list-style-type: none;
 }
 
-.c0 li:before {
+.c0 > li:before {
   position: absolute;
   content: "\\200B";
 }
@@ -142,11 +142,11 @@ exports[`Reel renders child list items correctly 1`] = `
   background-color: #62676D;
 }
 
-.c0 li {
+.c0 > li {
   list-style-type: none;
 }
 
-.c0 li:before {
+.c0 > li:before {
   position: absolute;
   content: "\\200B";
 }
@@ -249,11 +249,11 @@ exports[`Reel renders with custom space 1`] = `
   background-color: #62676D;
 }
 
-.c0 li {
+.c0 > li {
   list-style-type: none;
 }
 
-.c0 li:before {
+.c0 > li:before {
   position: absolute;
   content: "\\200B";
 }
@@ -356,11 +356,11 @@ exports[`Reel renders with defaults 1`] = `
   background-color: #62676D;
 }
 
-.c0 li {
+.c0 > li {
   list-style-type: none;
 }
 
-.c0 li:before {
+.c0 > li:before {
   position: absolute;
   content: "\\200B";
 }
