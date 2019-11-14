@@ -52,11 +52,11 @@ exports[`Carousel renders with controls 1`] = `
   background-color: #62676D;
 }
 
-.c3 li {
+.c3 > li {
   list-style-type: none;
 }
 
-.c3 li:before {
+.c3 > li:before {
   position: absolute;
   content: "\\200B";
 }
@@ -303,11 +303,11 @@ exports[`Carousel renders without controls 1`] = `
   background-color: #62676D;
 }
 
-.c1 li {
+.c1 > li {
   list-style-type: none;
 }
 
-.c1 li:before {
+.c1 > li:before {
   position: absolute;
   content: "\\200B";
 }

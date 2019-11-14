@@ -57,3 +57,26 @@ Spacing between adjacent content can be adjusted via the `space` prop:
   );
 };
 ```
+
+## Examples
+
+Using `Inline`, we can quickly mock-up a cluster of buttons.
+
+When rendered `as="ul"` for semantic purposes, all child
+list-item (`li`) elements will display without bullets.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 10 }, (v, i) => i);
+
+  return (
+    <Inline as="ul">
+      {items.map(item => (
+        <li>
+          <Button modifier="optional">Item {item}</Button>
+        </li>
+      ))}
+    </Inline>
+  );
+};
+```

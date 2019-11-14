@@ -48,7 +48,7 @@ export const Reel = styled.div<ReelProps>(
      * 2. Set content width to auto
      * 3. When content is set to images, ensure they all remain the same height.
      */
-    li: listItemStyleTypeNone /* [1] */,
+    '& > li': listItemStyleTypeNone /* [1] */,
     '& > *': { flex: '0 0 auto' } /* [2] */,
     '& > img': { height: '100%', flexBasis: 'auto', width: 'auto' } /* [3] */,
   },
