@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.96.0](https://github.com/coingaming/sportsbet-design/compare/v0.95.1...v0.96.0) (2019-11-15)
+
+
+### Bug Fixes
+
+* **inline:** ensure list-items render without bullets ([c2dc589](https://github.com/coingaming/sportsbet-design/commit/c2dc589))
+
+
+### Features
+
+* **inline:** introduce component ([e12d570](https://github.com/coingaming/sportsbet-design/commit/e12d570))
+* **reel:** introduce and implement component ([0fc690b](https://github.com/coingaming/sportsbet-design/commit/0fc690b))
+
+
+
+
+
 ## [0.95.1](https://github.com/coingaming/sportsbet-design/compare/v0.95.0...v0.95.1) (2019-11-11)
 
 
