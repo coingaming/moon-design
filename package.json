@@ -14,7 +14,7 @@
     "nuke": "yarn clean && lerna clean --yes && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "yarn test:types && yarn test:jest",
-    "test:types": "lerna exec --scope '@heathmont/sportsbet-{components,objects}' -- tsc --project ./tsconfig.test.json --noEmit",
+    "test:types": "lerna exec --scope '@heathmont/sportsbet-components' -- tsc --project ./tsconfig.test.json --noEmit",
     "test:jest": "node --max_old_space_size=2048 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
     "assets": "lerna run --scope @heathmont/sportsbet-assets --stream",
     "icons": "lerna run --scope @heathmont/sportsbet-icons --stream",

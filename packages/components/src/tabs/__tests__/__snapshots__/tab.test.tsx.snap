@@ -4,31 +4,6 @@ exports[`Nav renders correctly 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  -webkit-scrollbar-width: none;
-  -moz-scrollbar-width: none;
-  -ms-scrollbar-width: none;
-  scrollbar-width: none;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-.c0::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
-}
-
-.c0::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  background-clip: content-box;
-  border-radius: 100px;
-  border: 3px solid transparent;
-}
-
-.c0:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
 }
 
 .c1 {
@@ -60,26 +35,64 @@ exports[`Nav renders correctly 1`] = `
 }
 
 .c2 {
-  display: block;
-  margin-left: 0;
-  white-space: nowrap;
-  padding: 0;
-  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  height: auto;
   padding-bottom: 14px;
+}
+
+.c2::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.c2::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box;
+  border-radius: 100px;
+  border: 3px solid transparent;
+}
+
+.c2:hover::-webkit-scrollbar-thumb {
+  background-color: #62676D;
+}
+
+.c2 > li {
+  list-style-type: none;
+}
+
+.c2 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c2 > * {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c2 > img {
+  height: 100%;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  width: auto;
 }
 
 .c2 > * + * {
   margin-left: 1.5rem;
-}
-
-.c3 {
-  display: inline-block;
-  list-style-type: none;
-}
-
-.c3:before {
-  position: absolute;
-  content: "\\200B";
 }
 
 <nav
@@ -92,30 +105,30 @@ exports[`Nav renders correctly 1`] = `
     Skip to content
   </a>
   <ul
-    className="c2"
+    className="-ul c2"
   >
     <li
-      className="c3"
+      className=""
     >
       0
     </li>
     <li
-      className="c3"
+      className=""
     >
       1
     </li>
     <li
-      className="c3"
+      className=""
     >
       2
     </li>
     <li
-      className="c3"
+      className=""
     >
       3
     </li>
     <li
-      className="c3"
+      className=""
     >
       4
     </li>
