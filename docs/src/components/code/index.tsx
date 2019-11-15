@@ -6,7 +6,6 @@ import * as Assets from '@heathmont/sportsbet-assets';
 import * as Components from '@heathmont/sportsbet-components';
 import * as Icons from '@heathmont/sportsbet-icons';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
-import * as Objects from '@heathmont/sportsbet-objects';
 import * as Utils from '@heathmont/sportsbet-utils';
 
 import { prismTheme, syntaxStyles } from './prism';
@@ -53,7 +52,6 @@ export const Code = ({ codeString, ...props }: CodeProps) =>
           ...Assets,
           ...Components,
           ...Icons,
-          ...Objects,
           ...Utils,
           colors,
           styled,

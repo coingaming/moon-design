@@ -8,14 +8,12 @@
     "fonts",
     "global",
     "icons",
-    "objects",
     "tokens",
     "utils"
   ],
   "menuSections": [
     "Tokens",
     "Global",
-    "Objects",
     "Assets",
     "Icons",
     "Components",

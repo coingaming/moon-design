@@ -42,9 +42,8 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 2. [**Tokens**](packages/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
 3. [**Global**](packages/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
 4. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
-5. [**Objects**](packages/utils/README.md) - structural components without cosmetic features for common layouts.
-6. [**Icons**](packages/components/README.mdx) - React components for each icon.
-7. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
+5. [**Icons**](packages/components/README.mdx) - React components for each icon.
+6. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
 
 ### Setup
 
