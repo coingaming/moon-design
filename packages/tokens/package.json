@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-tokens",
-  "version": "0.95.1",
+  "version": "0.96.0",
   "files": [
     "lib"
   ],
@@ -10,6 +10,6 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.95.1"
+    "@heathmont/sportsbet-fonts": "^0.96.0"
   }
 }

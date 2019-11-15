@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.96.0](https://github.com/coingaming/sportsbet-design/compare/v0.95.1...v0.96.0) (2019-11-15)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+
+
+
+
 ## [0.95.1](https://github.com/coingaming/sportsbet-design/compare/v0.95.0...v0.95.1) (2019-11-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
