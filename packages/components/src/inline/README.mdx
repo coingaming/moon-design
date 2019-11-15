@@ -1,0 +1,82 @@
+---
+name: Inline
+menu: Components
+route: /components/inline
+---
+
+# Inline
+
+Displaying content inline can pose issues when scaling to different viewport sizes.
+
+Inline ensures content gracefully adapts to changes in layout, with adjustable spacing between adjacent content.
+
+```jsx react-live
+() => {
+  const Example = styled.div(({ css }) => css);
+  const lightness = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Inline>
+      {lightness.map(lightnessIndex => (
+        <Example
+          css={{
+            borderRadius: '0.25em',
+            width: '2rem',
+            height: '2rem',
+            backgroundColor: `hsl(146,89.4%,${lightnessIndex}%)`,
+          }}
+        />
+      ))}
+    </Inline>
+  );
+};
+```
+
+## Customization
+
+Spacing between adjacent content can be adjusted via the `space` prop:
+
+```jsx react-live
+() => {
+  const Example = styled.div(({ css }) => css);
+  const lightness = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Inline space={spacing('large')}>
+      {lightness.map(lightnessIndex => (
+        <Example
+          css={{
+            borderRadius: '0.25em',
+            width: '2rem',
+            height: '2rem',
+            backgroundColor: `hsl(146,89.4%,${lightnessIndex}%)`,
+          }}
+        />
+      ))}
+    </Inline>
+  );
+};
+```
+
+## Examples
+
+Using `Inline`, we can quickly mock-up a cluster of buttons.
+
+When rendered `as="ul"` for semantic purposes, all child
+list-item (`li`) elements will display without bullets.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 10 }, (v, i) => i);
+
+  return (
+    <Inline as="ul">
+      {items.map(item => (
+        <li>
+          <Button modifier="optional">Item {item}</Button>
+        </li>
+      ))}
+    </Inline>
+  );
+};
+```

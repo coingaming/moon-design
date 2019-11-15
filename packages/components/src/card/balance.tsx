@@ -1,8 +1,9 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { colors } from '@heathmont/sportsbet-tokens';
-import { Stack } from '@heathmont/sportsbet-objects';
 import { spacing, rem } from '@heathmont/sportsbet-utils';
+
+import { Stack } from '../stack/stack';
 
 type Balance = {
   currency: string;

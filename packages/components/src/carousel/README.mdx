@@ -6,17 +6,16 @@ route: /components/carousel
 
 # Carousel
 
-In it's basic form, the Carousel offers consistent scroll behaviour for overflow
-content.
-
-The `CarouselControl`s are optional, but offer extra indication of content.
+An interactive extension of the [`Reel`](../reel) component to cycle through content.
 
 ```jsx react-live
 () => {
+  const items = Array.from({ length: 5 }, (v, i) => i);
+
   const ExampleContent = styled.div({
-    height: '12rem',
     width: '20rem',
-    marginRight: '1rem',
+    height: '12rem',
+    borderRadius: '0.25em',
     background: colors.neutral[30],
   });
 
@@ -27,41 +26,16 @@ The `CarouselControl`s are optional, but offer extra indication of content.
         <IconChevronLeft />
       </CarouselControl>
       <CarouselScroll>
-        <CarouselScrollItem>
-          <ExampleContent />
-        </CarouselScrollItem>
-        <CarouselScrollItem>
-          <ExampleContent />
-        </CarouselScrollItem>
-        <CarouselScrollItem>
-          <ExampleContent />
-        </CarouselScrollItem>
+        {items.map(item => (
+          <CarouselScrollItem>
+            <ExampleContent />
+          </CarouselScrollItem>
+        ))}
       </CarouselScroll>
       <CarouselControl>
         <CarouselControlCaption>Scroll Right</CarouselControlCaption>
         <IconChevronLeft />
       </CarouselControl>
-    </Carousel>
-  );
-};
-```
-
-The Carousel isn't necessarily just for media-rich content, it can be used for
-long lists such as navigation.
-
-```jsx react-live
-() => {
-  const CustomCarouselScrollItem = styled(CarouselScrollItem)({
-    marginRight: '2rem',
-  });
-
-  return (
-    <Carousel>
-      <CarouselScroll>
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(i => (
-          <CustomCarouselScrollItem key={i}>Item {i}</CustomCarouselScrollItem>
-        ))}
-      </CarouselScroll>
     </Carousel>
   );
 };

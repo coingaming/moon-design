@@ -1,8 +1,7 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
-import { Heading, Link } from '@heathmont/sportsbet-components';
-import { Stack } from '@heathmont/sportsbet-objects';
+import { Heading, Link, Stack } from '@heathmont/sportsbet-components';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
 
@@ -32,7 +31,9 @@ const Table = styled.table({
  */
 const markdownContent: CSSObject = {
   'ul, ol': {
-    marginLeft: spacing(),
+    '&:not([class])': {
+      marginLeft: spacing(),
+    },
   },
 };
 
