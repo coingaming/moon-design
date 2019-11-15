@@ -4,8 +4,9 @@
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/es/index.js",
+  "typings": "lib/types/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "Coingaming Group",
   "license": "MIT",
