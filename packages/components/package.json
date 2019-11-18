@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-components",
   "sideEffects": false,
-  "version": "0.96.0",
+  "version": "0.96.1-beta.2",
   "files": [
     "lib"
   ],
@@ -12,9 +12,9 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-icons": "^0.96.0",
-    "@heathmont/sportsbet-tokens": "^0.96.0",
-    "@heathmont/sportsbet-utils": "^0.96.0",
+    "@heathmont/sportsbet-icons": "^0.96.1-beta.2",
+    "@heathmont/sportsbet-tokens": "^0.96.1-beta.2",
+    "@heathmont/sportsbet-utils": "^0.96.1-beta.2",
     "@reach/dialog": "0.3.0",
     "polished": "3.4.1"
   },

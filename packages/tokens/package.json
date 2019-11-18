@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-tokens",
   "sideEffects": false,
-  "version": "0.96.0",
+  "version": "0.96.1-beta.2",
   "files": [
     "lib"
   ],
@@ -12,6 +12,6 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.96.0"
+    "@heathmont/sportsbet-fonts": "^0.96.1-beta.2"
   }
 }

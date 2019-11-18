@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-global",
-  "version": "0.96.0",
+  "version": "0.96.1-beta.2",
   "files": [
     "lib"
   ],
@@ -11,9 +11,9 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.96.0",
-    "@heathmont/sportsbet-tokens": "^0.96.0",
-    "@heathmont/sportsbet-utils": "^0.96.0",
+    "@heathmont/sportsbet-fonts": "^0.96.1-beta.2",
+    "@heathmont/sportsbet-tokens": "^0.96.1-beta.2",
+    "@heathmont/sportsbet-utils": "^0.96.1-beta.2",
     "focus-visible": "5.0.2"
   },
   "peerDependencies": {
