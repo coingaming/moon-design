@@ -137,10 +137,3 @@ export { IconDuotoneCoins as IconCoins } from './svg/IconDuotoneCoins';
 export { IconLoyalty0 as IconLoyality0 } from './svg/IconLoyalty0';
 export { IconSportsSnooker as IconSportsSinuca } from './svg/IconSportsSnooker';
 export { IconSportsFootBall as IconSoccer } from './svg/IconSportsFootBall';
-
-/**
- * Grouped Icons
- */
-export * from './group/IconCurrency';
-export * from './group/IconSports';
-export * from './group/IconThirdParty';
