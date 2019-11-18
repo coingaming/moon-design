@@ -1,5 +1,6 @@
 {
   "name": "@heathmont/sportsbet-icons",
+  "sideEffects": false,
   "version": "0.96.0",
   "files": [
     "lib"
