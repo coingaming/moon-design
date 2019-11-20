@@ -23,6 +23,16 @@ module.exports = {
         'no-unused-vars': 'off',
       },
     },
+    /**
+     * We use TypeScript instead to check for this, as it doesn't support
+     * exported named types.
+     */
+    {
+      files: ['index.ts', 'index.tsx'],
+      rules: {
+        'import/export': 0,
+      },
+    },
     {
       files: ['*.test.ts', '*.test.tsx'],
       env: {
