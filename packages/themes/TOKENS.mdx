@@ -1,0 +1,48 @@
+---
+name: Tokens
+menu: Themes
+route: /themes/tokens
+---
+
+import { ThemeCurrent, ThemePalettes, ThemeTable } from 'docs';
+
+# Tokens
+
+[Design tokens](https://css-tricks.com/what-are-design-tokens/) are collections
+of user-interface information that define our product.
+
+## <ThemeCurrent />
+
+Tokens below are from the page's current theme: <ThemeCurrent/>.
+
+## Base
+
+<ThemeTable property="base" />
+
+## Border
+
+<ThemeTable property={['borderWidth', 'borderStyle', 'border']} />
+
+## Breakpoints
+
+<ThemeTable property="breakpoint" />
+
+## Colors
+
+<ThemePalettes />
+
+## Font
+
+<ThemeTable property={['fontFace', 'fontFamily', 'fontWeight']} />
+
+## Radius
+
+<ThemeTable property="radius" />
+
+## Space
+
+<ThemeTable property="space" />
+
+## Transition
+
+<ThemeTable property="transitionDuration" />
