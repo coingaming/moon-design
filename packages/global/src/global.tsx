@@ -1,4 +1,3 @@
-import { avertaStd } from '@heathmont/sportsbet-fonts';
 import { createGlobalStyle, CSSObject } from 'styled-components';
 
 import { config } from './styles/config';
@@ -11,12 +10,12 @@ export type GlobalProps = {
   styles?: CSSObject | CSSObject[];
 };
 
-export const Global = createGlobalStyle<GlobalProps>(
+export const Global = createGlobalStyle<GlobalProps>(({ styles, theme }) => [
   config,
-  avertaStd.fontFace,
+  theme.fontFace && theme.fontFace,
   boxSizing,
   focus,
   reset,
-  page,
-  ({ styles }) => styles
-);
+  page(theme && theme),
+  styles,
+]);
