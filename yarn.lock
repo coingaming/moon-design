@@ -1228,69 +1228,18 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
 
-"@heathmont/sportsbet-assets@^0.96.1-beta.2":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-assets/-/sportsbet-assets-0.96.1-beta.2.tgz#899e0b8904ece28fe7824d0ebbc12fd074e3d247"
-  integrity sha512-Mh+H4ULrWkD1h39h0IuGEF3OWdHMBtbllpxM+LX9FwoU9NgPee1DC2QJ3o2hLAe9JTqkMt1xllfJY8DozGSHAw==
-  dependencies:
-    "@heathmont/sportsbet-tokens" "^0.96.1-beta.2+19dd9aaf"
-
 "@heathmont/sportsbet-cdn@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-cdn/-/sportsbet-cdn-1.1.0.tgz#c80da3732284aa9b3af8e9865454a95946ead2d5"
   dependencies:
     typescript "3.3.3"
 
-"@heathmont/sportsbet-components@^0.96.1-beta.2":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-components/-/sportsbet-components-0.96.1-beta.2.tgz#b74f76846bdf5088eb6c929edb208e241f27770e"
-  integrity sha512-RwILq2g/6Wx+3kJrZu2pJ6ADT3tdbf9yjNRALVfPgrcPwfqrclj2clqgKlKxSxFbj/Grzsrt3HiG2ucDL+AogQ==
-  dependencies:
-    "@heathmont/sportsbet-icons" "^0.96.1-beta.2+19dd9aaf"
-    "@heathmont/sportsbet-tokens" "^0.96.1-beta.2+19dd9aaf"
-    "@heathmont/sportsbet-utils" "^0.96.1-beta.2+19dd9aaf"
-    "@reach/dialog" "0.3.0"
-    polished "3.4.1"
-
-"@heathmont/sportsbet-fonts@^0.96.1-beta.2", "@heathmont/sportsbet-fonts@^0.96.1-beta.2+19dd9aaf":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-fonts/-/sportsbet-fonts-0.96.1-beta.2.tgz#a58199f65f760fa010332267ce4946f0ff6573ce"
-  integrity sha512-g+Sh+MMqG28xERJLoROYBMRM4bS9wliFvo0c76iDsL+zuVkDumpvHmU0cTaHfyEluIn/5DFKfjx/XkdH5zQTAw==
+"@heathmont/sportsbet-fonts@^0.96.0":
+  version "0.96.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-fonts/-/sportsbet-fonts-0.96.0.tgz#24c6dbd23ec98a49e32c0e45e6e032f60b308a25"
+  integrity sha512-Xyf/vSSyR6LMqgfHrHC6sXtfOPYfquhqwGzsi1DN+Vo2KJ0X+G5RsBa2JBEAMXb3CxgA8RFnj46UAZHHy4CsUQ==
   dependencies:
     "@heathmont/sportsbet-cdn" "1.1.0"
-
-"@heathmont/sportsbet-global@^0.96.1-beta.2":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-global/-/sportsbet-global-0.96.1-beta.2.tgz#16371f85c1161c5b9b51b1a93d8a0600fe8ff45c"
-  integrity sha512-zsYHGs9T+E0I9C492a1/jjXkl5UZf8EOYLaYCyYwWrGT1aZAu2eLG5J5aDY3fhSJNH6oDbV7o0WAOmJm4vPRuQ==
-  dependencies:
-    "@heathmont/sportsbet-fonts" "^0.96.1-beta.2+19dd9aaf"
-    "@heathmont/sportsbet-tokens" "^0.96.1-beta.2+19dd9aaf"
-    "@heathmont/sportsbet-utils" "^0.96.1-beta.2+19dd9aaf"
-    focus-visible "5.0.2"
-
-"@heathmont/sportsbet-icons@^0.96.1-beta.2+19dd9aaf":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-icons/-/sportsbet-icons-0.96.1-beta.2.tgz#028b7331ae0cd78d988175a799d8e5df879ab433"
-  integrity sha512-VT4Ag4MvDWa8eiDYdeBy48/MlOqrBV8+tqB0DkZe5bAnbANxrrsvsTsS4ROmkr+w2XQ6EIueWjZkEngJufjxTw==
-  dependencies:
-    "@heathmont/sportsbet-tokens" "^0.96.1-beta.2+19dd9aaf"
-
-"@heathmont/sportsbet-tokens@^0.96.1-beta.2", "@heathmont/sportsbet-tokens@^0.96.1-beta.2+19dd9aaf":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-tokens/-/sportsbet-tokens-0.96.1-beta.2.tgz#31f75490f41490a5b47c6e6fe2564120399cb7f9"
-  integrity sha512-nh6bkqpD54fF+T0nISnruF2DS7DWiY47Q2l/OudgMxaMHuggezVzI0CFRx9TMlPoC4Cz5t+hW1+3BILVA1QnvA==
-  dependencies:
-    "@heathmont/sportsbet-fonts" "^0.96.1-beta.2+19dd9aaf"
-
-"@heathmont/sportsbet-utils@^0.96.1-beta.2", "@heathmont/sportsbet-utils@^0.96.1-beta.2+19dd9aaf":
-  version "0.96.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-utils/-/sportsbet-utils-0.96.1-beta.2.tgz#59cc79e2e82640cecff99c2512081d50d82605f4"
-  integrity sha512-Ob9l+yZs9/d0GU1AZrzSjwBDkTTAnGBISsr38w8m4UHyNcfPHLkytoLp/hwXWmaIZSYaTBl+c4pUSscEL+TVDQ==
-  dependencies:
-    "@heathmont/sportsbet-tokens" "^0.96.1-beta.2+19dd9aaf"
-    mini-svg-data-uri "1.0.3"
-    polished "3.4.1"
 
 "@jest/console@^24.3.0":
   version "24.3.0"
