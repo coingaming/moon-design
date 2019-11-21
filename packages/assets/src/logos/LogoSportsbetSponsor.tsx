@@ -162,7 +162,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const LogoSportsbetSponsor = styled(Svg)<SvgProps>(
+const LogoSportsbetSponsor = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -173,3 +173,4 @@ export const LogoSportsbetSponsor = styled(Svg)<SvgProps>(
 LogoSportsbetSponsor.defaultProps = {
   verticalAlign: 'middle',
 };
+export default LogoSportsbetSponsor;

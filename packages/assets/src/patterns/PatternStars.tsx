@@ -244,7 +244,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const PatternStars = styled(Svg)<SvgProps>(
+const PatternStars = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -255,3 +255,4 @@ export const PatternStars = styled(Svg)<SvgProps>(
 PatternStars.defaultProps = {
   verticalAlign: 'middle',
 };
+export default PatternStars;

@@ -121,7 +121,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const CrestWatford = styled(Svg)<SvgProps>(
+const CrestWatford = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -132,3 +132,4 @@ export const CrestWatford = styled(Svg)<SvgProps>(
 CrestWatford.defaultProps = {
   verticalAlign: 'middle',
 };
+export default CrestWatford;

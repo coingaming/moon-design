@@ -2,7 +2,7 @@ import * as React from 'react';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { IconArrowLeft } from '@heathmont/sportsbet-icons';
+import { IconArrowLeft } from '@heathmont/sportsbet-assets';
 import styled from 'styled-components';
 
 /**

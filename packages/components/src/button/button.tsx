@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled, { css, CSSObject, keyframes } from 'styled-components';
 import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
 import { disabled, spacing, rem } from '@heathmont/sportsbet-utils';
-import { IconSuccess, IconWarning } from '@heathmont/sportsbet-icons';
+import { IconSuccess, IconWarning } from '@heathmont/sportsbet-assets';
 
 import { Loader } from '../loader/loader';
 

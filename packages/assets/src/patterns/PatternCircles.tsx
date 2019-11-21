@@ -393,7 +393,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const PatternCircles = styled(Svg)<SvgProps>(
+const PatternCircles = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -404,3 +404,4 @@ export const PatternCircles = styled(Svg)<SvgProps>(
 PatternCircles.defaultProps = {
   verticalAlign: 'middle',
 };
+export default PatternCircles;

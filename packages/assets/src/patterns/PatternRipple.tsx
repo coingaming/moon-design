@@ -61,7 +61,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const PatternRipple = styled(Svg)<SvgProps>(
+const PatternRipple = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -72,3 +72,4 @@ export const PatternRipple = styled(Svg)<SvgProps>(
 PatternRipple.defaultProps = {
   verticalAlign: 'middle',
 };
+export default PatternRipple;

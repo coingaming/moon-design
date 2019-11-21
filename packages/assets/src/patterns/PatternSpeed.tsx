@@ -106,7 +106,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const PatternSpeed = styled(Svg)<SvgProps>(
+const PatternSpeed = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -117,3 +117,4 @@ export const PatternSpeed = styled(Svg)<SvgProps>(
 PatternSpeed.defaultProps = {
   verticalAlign: 'middle',
 };
+export default PatternSpeed;
