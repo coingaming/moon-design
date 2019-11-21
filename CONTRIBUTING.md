@@ -8,6 +8,9 @@
 1. [Code Standards](#code-standards)
 1. [Code Style](#code-style)
 1. [Release Process](#release-process)
+1. [Rules](#rules)
+1. [Build process](#build-process)
+1. [ES Modules](#es-modules)
 
 ---
 
@@ -19,7 +22,7 @@
 
 ### Designing
 
-Icons are designed in the [`.sketch` file](packages/icons/raw/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/icons/raw/svg) directory.
+Icons are designed in the [`.sketch` file](packages/icons/raw/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/assets/raw/svg) directory.
 
 Each icon **must**:
 
@@ -34,13 +37,13 @@ Each icon **must**:
   1. the export format defined as "SVG".
 - have its color fill set to `#DE1E7E` (remember "DELETE") if you want the color to be modified.
 
-Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/icons/raw/svg) directory as the output location.
+Any changes to this Sketch file should be committed **as well as** the Sketch-generated SVGs. To export all SVGs in Sketch, select `File > Export` and in the next step choose the [`svg`](packages/assets/raw/svg) directory as the output location.
 
 ### Building
 
 For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
 
-We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/icons/raw/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/raw/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
 
 To update/add icons run: `yarn icons build`
 
@@ -250,3 +253,38 @@ Thanks to [Lerna and Commitizen](https://github.com/lerna/lerna/tree/master/comm
    - If successful, a new [tag](https://github.com/coingaming/sportsbet-packages/releases) will be visible, along with new package versions on NPM.
 
 5. Communicate the release to the team!
+
+## ES Modules
+
+---
+
+### Rules
+
+1. All your files should be named after the actual component. So the component `GroupIconCurrency` is inside the file `GroupIconCurrency.tsx`.
+1. All your components should export a single default React component. This is only so we can enable tree shaking.
+1. All first level subfolders inside `/src/` are considered public. People will use `import { } from @heathmont/sportsbet-package-name/folder` to import files from those folders directly.
+1. You are required to auto-generate an index file to for each subfolder which uses named exports to re-export all exports inside the folder + sub folders. This is required for tree shaking.
+1. You are required to auto-generate an index file to for your package which uses named exports to re-export all exports. This is required to allow lerna to import the project proeprly.
+
+### Build process
+
+All packages are built in 2 separate formats, `commonjs` and `es`.
+
+All code belongs in `/src` folder. When running yarn build, it will automatically generat a `lib` folder based on the code
+inside `src`.
+
+First we transpile `commonjs` format modules into the `lib` folder directly.
+Second we transpile `es` format modules into the `lib/es` folder.
+Third we generated typescript definitions into the `lib` folder directly.
+
+### Release process
+
+**Before** we release, we will:
+
+1. Copy all files from `lib` folder into the root folder.
+1. Update the `files`, `main`, `module` and `typings` fields in package.json
+
+**After** we release, we will:
+
+1. Remove all the files we copied over from `lib`.
+1. Undo the changes to `files`, `main`, `module` and `typings` fields in package.json

@@ -1,0 +1,214 @@
+---
+name: Icons
+menu: Assets
+route: /assets/icons
+---
+
+# Icons
+
+Icons offer visual aids for common actions and tasks.
+
+To aid with performance, Icons are surfaced as individual [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) components. Each icon component is prefixed with `Icon`.
+
+### Brand
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconLogoPlain />
+  <IconCasino />
+  <IconAsianView />
+  <IconSbShield />
+  <IconBombayClub />
+</Inline>
+```
+
+### Interface
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconAdd />
+  <IconArrowUp />
+  <IconArrowRight />
+  <IconArrowDown />
+  <IconArrowLeft />
+  <IconArrowLeftRight />
+  <IconArrowUpDown />
+  <IconLeftArrowCurveRight />
+  <IconCalendar />
+  <IconChevronDown />
+  <IconChevronLeft />
+  <IconChevronRight />
+  <IconChevronUp />
+  <IconChevronUpDown />
+  <IconCircle />
+  <IconClose />
+  <IconEdit />
+  <IconFilter />
+  <IconHamburger />
+  <IconHome />
+  <IconHyperlink />
+  <IconLiveChat />
+  <IconMenuHome />
+  <IconNotification />
+  <IconNotificationUnread />
+  <IconPlay />
+  <IconProfile />
+  <IconSearch />
+  <IconSettings />
+  <IconSuccess />
+  <IconUpload />
+  <IconWarning />
+</Inline>
+```
+
+### Bet
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconCashOut />
+  <IconFreebet />
+  <IconInPlay />
+  <IconPriceBoost />
+  <IconStats />
+</Inline>
+```
+
+### Currency
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconCurrencyArs />
+  <IconCurrencyBdt />
+  <IconCurrencyBob />
+  <IconCurrencyBrl />
+  <IconCurrencyBtc />
+  <IconCurrencyCad />
+  <IconCurrencyClp />
+  <IconCurrencyCrc />
+  <IconCurrencyCny />
+  <IconCurrencyEth />
+  <IconCurrencyEur />
+  <IconCurrencyGel />
+  <IconCurrencyHkd />
+  <IconCurrencyIdr />
+  <IconCurrencyInr />
+  <IconCurrencyIqd />
+  <IconCurrencyJpy />
+  <IconCurrencyKrw />
+  <IconCurrencyLtc />
+  <IconCurrencyMxn />
+  <IconCurrencyMyr />
+  <IconCurrencyPen />
+  <IconCurrencyPkr />
+  <IconCurrencyRub />
+  <IconCurrencySoc />
+  <IconCurrencyThb />
+  <IconCurrencyTrx />
+  <IconCurrencyTry />
+  <IconCurrencyUah />
+  <IconCurrencyUsd />
+  <IconCurrencyVes />
+  <IconCurrencyVnd />
+</Inline>
+```
+
+### Sports
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconAllSports />
+  <IconSportsAmericanFootBall />
+  <IconSportsBadminton />
+  <IconSportsBaseBall />
+  <IconSportsBasketBall />
+  <IconSportsBiathlon />
+  <IconSportsBoxing />
+  <IconSportsCricket />
+  <IconSportsCycling />
+  <IconSportsDarts />
+  <IconSportsESports />
+  <IconSportsFootBall />
+  <IconSportsGolf />
+  <IconSportsHandBall />
+  <IconSportsHorseRacing />
+  <IconSportsIceHockey />
+  <IconSportsMma />
+  <IconSportsMotorSports />
+  <IconSportsPolitics />
+  <IconSportsPool />
+  <IconSportsPopular />
+  <IconSportsRugby />
+  <IconSportsSki />
+  <IconSportsSnooker />
+  <IconSportsSpecial />
+  <IconSportsSquash />
+  <IconSportsTableTennis />
+  <IconSportsTennis />
+  <IconSportsVolleyBall />
+  <IconSportsWaterPolo />
+</Inline>
+```
+
+### Third Party
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconBitcoinTalk />
+  <IconFacebook />
+  <IconGoogle />
+  <IconInstagram />
+  <IconLine />
+  <IconTelegram />
+  <IconTwitter />
+  <IconVkontakte />
+  <IconYoutube />
+</Inline>
+```
+
+### Duotone
+
+```jsx react-live
+<Inline fontSize="2rem">
+  <IconDuotoneArrows />
+  <IconDuotoneChat />
+  <IconDuotoneCoins />
+  <IconDuotoneMail />
+</Inline>
+```
+
+
+## Customizing
+
+### Color
+
+Icon colors can be modified by adding the `color` attribute/CSS property to the component or its parent element.
+
+```jsx react-live
+<IconSettings fontSize="2rem" color={colors.brand} />
+```
+
+There's also the option to define a `backgroundColor`.
+
+Note: for inline SVGs you may need to apply an additional `background-image` of
+a circle behind the icon.
+
+```jsx react-live
+<IconClose
+  fontSize="2rem"
+  color={colors.neutral[10]}
+  backgroundColor={colors.error}
+/>
+```
+
+### Size
+
+Icon size can be modified by adding the `fontSize` attribute or `font-size` CSS property to the component or its parent element.
+
+```jsx react-live
+<IconSettings fontSize="3rem" />
+```
+
+## Contributing
+
+For information on creating new/modifying existing icons, see [the contributing guidelines](https://github.com/coingaming/sportsbet-design/blob/develop/CONTRIBUTING.md#maintaining-assets).
+

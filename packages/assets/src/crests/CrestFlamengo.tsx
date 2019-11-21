@@ -41,7 +41,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const CrestFlamengo = styled(Svg)<SvgProps>(
+const CrestFlamengo = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -52,3 +52,4 @@ export const CrestFlamengo = styled(Svg)<SvgProps>(
 CrestFlamengo.defaultProps = {
   verticalAlign: 'middle',
 };
+export default CrestFlamengo;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
-import { IconCurrencyBtc } from '@heathmont/sportsbet-icons';
+import { IconCurrencyBtc } from '@heathmont/sportsbet-assets';
 
 import { Card } from '../card';
 

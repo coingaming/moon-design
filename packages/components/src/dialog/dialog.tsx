@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IconClose } from '@heathmont/sportsbet-icons';
+import { IconClose } from '@heathmont/sportsbet-assets';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
