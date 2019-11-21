@@ -11,6 +11,7 @@ module.exports = {
     //
     'import/first': 'off', // Unnecessarily compresses JSX comment
     'import/no-cycle': 'off',
+    'import/export': 'off', // We have both default export as well as named ones for now
     'no-unused-expressions': 'off', // Investigate `jsx;` alternative
     '@typescript-eslint/no-inferrable-types': 'off',
   },

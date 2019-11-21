@@ -5,10 +5,14 @@
     "lib"
   ],
   "main": "lib/index.js",
+  "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "Coingaming Group",
   "license": "MIT",
+  "scripts": {
+    "build": "echo 'Handled by root package'"
+  },
   "dependencies": {
     "@heathmont/sportsbet-fonts": "^0.96.0",
     "@heathmont/sportsbet-tokens": "^0.96.0",
