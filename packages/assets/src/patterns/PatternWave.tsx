@@ -201,7 +201,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-export const PatternWave = styled(Svg)<SvgProps>(
+const PatternWave = styled(Svg)<SvgProps>(
   ({ height, width, fontSize, verticalAlign }) => ({
     height,
     width,
@@ -212,3 +212,4 @@ export const PatternWave = styled(Svg)<SvgProps>(
 PatternWave.defaultProps = {
   verticalAlign: 'middle',
 };
+export default PatternWave;

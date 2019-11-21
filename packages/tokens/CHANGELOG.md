@@ -7,165 +7,87 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 ## [0.95.1](https://github.com/coingaming/sportsbet-design/compare/v0.95.0...v0.95.1) (2019-11-11)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.95.0](https://github.com/coingaming/sportsbet-design/compare/v0.94.1...v0.95.0) (2019-10-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.94.0](https://github.com/coingaming/sportsbet-design/compare/v0.93.0...v0.94.0) (2019-10-22)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.93.0](https://github.com/coingaming/sportsbet-design/compare/v0.92.4...v0.93.0) (2019-10-21)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.92.0](https://github.com/coingaming/sportsbet-design/compare/v0.91.0...v0.92.0) (2019-10-17)
-
 
 ### Bug Fixes
 
-* **dialog:** add z-index to tokens ([ce7de06](https://github.com/coingaming/sportsbet-design/commit/ce7de06))
-
-
-
-
+- **dialog:** add z-index to tokens ([ce7de06](https://github.com/coingaming/sportsbet-design/commit/ce7de06))
 
 # [0.91.0](https://github.com/coingaming/sportsbet-design/compare/v0.90.2...v0.91.0) (2019-10-09)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.90.0](https://github.com/coingaming/sportsbet-design/compare/v0.89.0...v0.90.0) (2019-09-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
-
 
 ### Features
 
-* **tokens:** generate barrel file ([b89f859](https://github.com/coingaming/sportsbet-design/commit/b89f859))
-
-
-
-
+- **tokens:** generate barrel file ([b89f859](https://github.com/coingaming/sportsbet-design/commit/b89f859))
 
 # [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
 
-
 ### Features
 
-* **tokens:** add color types ([b578f19](https://github.com/coingaming/sportsbet-design/commit/b578f19))
-
+- **tokens:** add color types ([b578f19](https://github.com/coingaming/sportsbet-design/commit/b578f19))
 
 ### Performance Improvements
 
-* ensure only `lib` directories are published ([4e5ba2f](https://github.com/coingaming/sportsbet-design/commit/4e5ba2f))
-
-
-
-
+- ensure only `lib` directories are published ([4e5ba2f](https://github.com/coingaming/sportsbet-design/commit/4e5ba2f))
 
 # [0.87.0](https://github.com/coingaming/sportsbet-design/compare/v0.86.0...v0.87.0) (2019-09-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.86.0](https://github.com/coingaming/sportsbet-design/compare/v0.85.0...v0.86.0) (2019-09-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.85.0](https://github.com/coingaming/sportsbet-design/compare/v0.84.0...v0.85.0) (2019-08-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.84.0](https://github.com/coingaming/sportsbet-design/compare/v0.83.0...v0.84.0) (2019-08-27)
-
 
 ### Features
 
-* remove polished `rem` references ([1ea8e6d](https://github.com/coingaming/sportsbet-design/commit/1ea8e6d))
-
-
-
-
+- remove polished `rem` references ([1ea8e6d](https://github.com/coingaming/sportsbet-design/commit/1ea8e6d))
 
 # [0.83.0](https://github.com/coingaming/sportsbet-design/compare/v0.82.0...v0.83.0) (2019-08-26)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.82.0](https://github.com/coingaming/sportsbet-design/compare/v0.81.0...v0.82.0) (2019-08-23)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
-
-
-
-
 
 # [0.81.0](https://github.com/coingaming/sportsbet-design/compare/v0.80.0...v0.81.0) (2019-08-22)
 
 **Note:** Version bump only for package @heathmont/sportsbet-tokens
 
-
-
-
-
 # [0.80.0](https://github.com/coingaming/sportsbet-design/compare/v0.79.0...v0.80.0) (2019-08-21)
-
 
 ### Features
 
-* **dependencies:** update polished ([0bd223a](https://github.com/coingaming/sportsbet-design/commit/0bd223a))
-
-
-
-
+- **dependencies:** update polished ([0bd223a](https://github.com/coingaming/sportsbet-design/commit/0bd223a))
 
 # [0.79.0](https://github.com/coingaming/sportsbet-design/compare/v0.78.0...v0.79.0) (2019-08-19)
 

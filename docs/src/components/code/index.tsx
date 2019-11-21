@@ -4,7 +4,6 @@ import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Assets from '@heathmont/sportsbet-assets';
 import * as Components from '@heathmont/sportsbet-components';
-import * as Icons from '@heathmont/sportsbet-icons';
 import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import * as Utils from '@heathmont/sportsbet-utils';
 
@@ -51,7 +50,6 @@ export const Code = ({ codeString, ...props }: CodeProps) =>
         scope={{
           ...Assets,
           ...Components,
-          ...Icons,
           ...Utils,
           colors,
           styled,
