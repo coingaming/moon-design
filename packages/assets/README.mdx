@@ -1,52 +1,50 @@
 ---
 name: Assets
-route: /assets
+menu: Assets
+route: /assets/introduction
 ---
 
-# Assets
+## Introduction
 
-Styled SVG components, sizeable via `fontSize` or traditional
-`width` and `height` methods.
+This package houses all **SVG assets** you might need to build a Sportsbet.io portal.
 
-## Crests
+## Installing
 
-```jsx react-live
-<Inline>
-  <CrestFlamengo fontSize="10rem" />
-  <CrestWatford fontSize="10rem" />
-</Inline>
+```bash
+npm install --save @heathmont/sportsbet-assets
 ```
 
-## Logos
+## Consuming
 
-### Sportsbet.io
-
-With `fontSize`:
-
-```jsx react-live
-<LogoSportsbet fontSize="10rem" />
+```javascript
+import { GroupIconCurrency } from '@heathmont/sportsbet-assets/groupIcons';
+import { CrestWatford } from '@heathmont/sportsbet-assets/crests';
+import { IconAdd } from '@heathmont/sportsbet-assets/icons';
+import { LogoSportsbet } from '@heathmont/sportsbet-assets/logos';
+import { PatternWave } from '@heathmont/sportsbet-assets/patterns';
 ```
 
-With `width` and `height`:
+- All **groupIcons** components should be imported from the subfolder **/groupIcons**
+- All **crests** should be imported from the subfolder **/crests**
+- All **icons** should be imported from the subfolder **/icons**
+- All **logos** should be imported from the subfolder **/logos**
+- All **patterns** should be imported from the subfolder **/patterns**
 
-```jsx react-live
-<LogoSportsbet width="100%" height="auto" />
-```
+## Code splitting
 
-With the current sponsors:
+This library supports code splitting by using [a babel plugin](https://www.npmjs.com/package/babel-plugin-transform-imports).
 
-```jsx react-live
-<LogoSportsbetSponsor fontSize="16rem" />
-```
+### Babel configuration
 
-## Patterns
-
-```jsx react-live
-<Inline>
-  <PatternCircles fontSize="5rem" />
-  <PatternRipple fontSize="5rem" />
-  <PatternSpeed fontSize="5rem" />
-  <PatternStars width="auto" height="5rem" />
-  <PatternWave width="auto" height="5rem" />
-</Inline>
+```javascript
+{
+  "plugins": [
+    ["transform-imports", {
+      "@heathmont/sportsbet-assets": {
+          "transform": "@heathmont/sportsbet-assets/lib/es/${member}",
+          "preventFullImport": true
+        }
+    }]
+  ]
+}
 ```

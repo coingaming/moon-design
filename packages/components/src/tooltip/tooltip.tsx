@@ -3,7 +3,7 @@ import styled, { css, CSSObject } from 'styled-components';
 import math from 'polished/lib/math/math';
 import { animation, border, colors, zIndex } from '@heathmont/sportsbet-tokens';
 import { spacing } from '@heathmont/sportsbet-utils';
-import { IconClose } from '@heathmont/sportsbet-icons';
+import { IconClose } from '@heathmont/sportsbet-assets';
 
 import { Toggle } from '../toggle/toggle';
 

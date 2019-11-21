@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { colors } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, rem, spacing } from '@heathmont/sportsbet-utils';
-import { IconUpload } from '@heathmont/sportsbet-icons';
+import { IconUpload } from '@heathmont/sportsbet-assets';
 
 import { Input } from '../private/input/input';
 import { inputColors } from '../private/input/settings';
