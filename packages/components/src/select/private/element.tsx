@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { breakpoints, border } from '@heathmont/sportsbet-tokens';
 import { inlineSVG, mq, rem } from '@heathmont/sportsbet-utils';
-import { IconChevronDown } from '@heathmont/sportsbet-icons';
+import { IconChevronDown } from '@heathmont/sportsbet-assets';
 
 import { Input } from '../../private/input/input';
 import {

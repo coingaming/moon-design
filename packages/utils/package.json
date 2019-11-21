@@ -1,14 +1,19 @@
 {
   "name": "@heathmont/sportsbet-utils",
+  "sideEffects": false,
   "version": "0.96.0",
   "files": [
     "lib"
   ],
   "main": "lib/index.js",
+  "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "Coingaming Group",
   "license": "MIT",
+  "scripts": {
+    "build": "echo 'Handled by root package'"
+  },
   "dependencies": {
     "@heathmont/sportsbet-tokens": "^0.96.0",
     "mini-svg-data-uri": "1.0.3",

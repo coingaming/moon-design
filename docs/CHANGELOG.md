@@ -5,356 +5,185 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.96.0](https://github.com/coingaming/sportsbet-design/compare/v0.95.1...v0.96.0) (2019-11-15)
 
-
 ### Features
 
-* **reel:** introduce and implement component ([0fc690b](https://github.com/coingaming/sportsbet-design/commit/0fc690b))
-
-
-
-
+- **reel:** introduce and implement component ([0fc690b](https://github.com/coingaming/sportsbet-design/commit/0fc690b))
 
 ## [0.95.1](https://github.com/coingaming/sportsbet-design/compare/v0.95.0...v0.95.1) (2019-11-11)
 
-
 ### Bug Fixes
 
-* remove unused ts-ignore flag ([c48ddfb](https://github.com/coingaming/sportsbet-design/commit/c48ddfb))
-
-
-
-
+- remove unused ts-ignore flag ([c48ddfb](https://github.com/coingaming/sportsbet-design/commit/c48ddfb))
 
 # [0.95.0](https://github.com/coingaming/sportsbet-design/compare/v0.94.1...v0.95.0) (2019-10-30)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [0.94.1](https://github.com/coingaming/sportsbet-design/compare/v0.94.0...v0.94.1) (2019-10-28)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.94.0](https://github.com/coingaming/sportsbet-design/compare/v0.93.0...v0.94.0) (2019-10-22)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.93.0](https://github.com/coingaming/sportsbet-design/compare/v0.92.4...v0.93.0) (2019-10-21)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [0.92.4](https://github.com/coingaming/sportsbet-design/compare/v0.92.3...v0.92.4) (2019-10-21)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [0.92.3](https://github.com/coingaming/sportsbet-design/compare/v0.92.2...v0.92.3) (2019-10-18)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [0.92.2](https://github.com/coingaming/sportsbet-design/compare/v0.92.1...v0.92.2) (2019-10-18)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [0.92.1](https://github.com/coingaming/sportsbet-design/compare/v0.92.0...v0.92.1) (2019-10-18)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.92.0](https://github.com/coingaming/sportsbet-design/compare/v0.91.0...v0.92.0) (2019-10-17)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.91.0](https://github.com/coingaming/sportsbet-design/compare/v0.90.2...v0.91.0) (2019-10-09)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [0.90.2](https://github.com/coingaming/sportsbet-design/compare/v0.90.1...v0.90.2) (2019-10-03)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [0.90.1](https://github.com/coingaming/sportsbet-design/compare/v0.90.0...v0.90.1) (2019-10-02)
-
 
 ### Bug Fixes
 
-* add types to root package.json ([9a99cab](https://github.com/coingaming/sportsbet-design/commit/9a99cab))
-
-
-
-
+- add types to root package.json ([9a99cab](https://github.com/coingaming/sportsbet-design/commit/9a99cab))
 
 # [0.90.0](https://github.com/coingaming/sportsbet-design/compare/v0.89.0...v0.90.0) (2019-09-27)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
-
 
 ### Features
 
-* **assets:** add logos and patterns ([d38a00d](https://github.com/coingaming/sportsbet-design/commit/d38a00d))
-
-
-
-
+- **assets:** add logos and patterns ([d38a00d](https://github.com/coingaming/sportsbet-design/commit/d38a00d))
 
 # [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
 
-
 ### Features
 
-* refactor svgr, introduce crest assets ([111bbb0](https://github.com/coingaming/sportsbet-design/commit/111bbb0))
-
-
-
-
+- refactor svgr, introduce crest assets ([111bbb0](https://github.com/coingaming/sportsbet-design/commit/111bbb0))
 
 # [0.87.0](https://github.com/coingaming/sportsbet-design/compare/v0.86.0...v0.87.0) (2019-09-10)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.86.0](https://github.com/coingaming/sportsbet-design/compare/v0.85.0...v0.86.0) (2019-09-10)
-
 
 ### Features
 
-* **components:** add LogoSportsbet component ([0be246c](https://github.com/coingaming/sportsbet-design/commit/0be246c))
-
-
-
-
+- **components:** add LogoSportsbet component ([0be246c](https://github.com/coingaming/sportsbet-design/commit/0be246c))
 
 # [0.85.0](https://github.com/coingaming/sportsbet-design/compare/v0.84.0...v0.85.0) (2019-08-30)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.84.0](https://github.com/coingaming/sportsbet-design/compare/v0.83.0...v0.84.0) (2019-08-27)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.83.0](https://github.com/coingaming/sportsbet-design/compare/v0.82.0...v0.83.0) (2019-08-26)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.82.0](https://github.com/coingaming/sportsbet-design/compare/v0.81.0...v0.82.0) (2019-08-23)
-
 
 ### Features
 
-* **global:** Global element for consuming styles, rename polyfill ([155afd3](https://github.com/coingaming/sportsbet-design/commit/155afd3))
-
-
-
-
+- **global:** Global element for consuming styles, rename polyfill ([155afd3](https://github.com/coingaming/sportsbet-design/commit/155afd3))
 
 # [0.81.0](https://github.com/coingaming/sportsbet-design/compare/v0.80.0...v0.81.0) (2019-08-22)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.80.0](https://github.com/coingaming/sportsbet-design/compare/v0.79.0...v0.80.0) (2019-08-21)
-
 
 ### Features
 
-* **dependencies:** update polished ([0bd223a](https://github.com/coingaming/sportsbet-design/commit/0bd223a))
-
-
-
-
+- **dependencies:** update polished ([0bd223a](https://github.com/coingaming/sportsbet-design/commit/0bd223a))
 
 # [0.79.0](https://github.com/coingaming/sportsbet-design/compare/v0.78.0...v0.79.0) (2019-08-19)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.78.0](https://github.com/coingaming/sportsbet-design/compare/v0.77.1...v0.78.0) (2019-08-14)
-
 
 ### Features
 
-* **keyline:** create component ([a018139](https://github.com/coingaming/sportsbet-design/commit/a018139))
-
-
-
-
+- **keyline:** create component ([a018139](https://github.com/coingaming/sportsbet-design/commit/a018139))
 
 ## [0.77.1](https://github.com/coingaming/sportsbet-design/compare/v0.77.0...v0.77.1) (2019-08-08)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.77.0](https://github.com/coingaming/sportsbet-design/compare/v0.76.1...v0.77.0) (2019-08-08)
-
 
 ### Features
 
-* **objects:** create media-object component ([f0cf2e4](https://github.com/coingaming/sportsbet-design/commit/f0cf2e4))
-
-
-
-
+- **objects:** create media-object component ([f0cf2e4](https://github.com/coingaming/sportsbet-design/commit/f0cf2e4))
 
 ## [0.76.1](https://github.com/coingaming/sportsbet-design/compare/v0.76.0...v0.76.1) (2019-08-07)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.76.0](https://github.com/coingaming/sportsbet-design/compare/v0.75.1...v0.76.0) (2019-08-07)
-
 
 ### Features
 
-* **stack:** create object ([ccffcf2](https://github.com/coingaming/sportsbet-design/commit/ccffcf2))
-
-
-
-
+- **stack:** create object ([ccffcf2](https://github.com/coingaming/sportsbet-design/commit/ccffcf2))
 
 ## [0.75.1](https://github.com/coingaming/sportsbet-design/compare/v0.75.0...v0.75.1) (2019-08-06)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.75.0](https://github.com/coingaming/sportsbet-design/compare/v0.74.0...v0.75.0) (2019-08-01)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.74.0](https://github.com/coingaming/sportsbet-design/compare/v0.73.2...v0.74.0) (2019-07-30)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [0.73.2](https://github.com/coingaming/sportsbet-design/compare/v0.73.1...v0.73.2) (2019-07-29)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [0.73.1](https://github.com/coingaming/sportsbet-design/compare/v0.73.0...v0.73.1) (2019-07-26)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.73.0](https://github.com/coingaming/sportsbet-design/compare/v0.72.1...v0.73.0) (2019-07-25)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.72.0](https://github.com/coingaming/sportsbet-design/compare/v0.71.0...v0.72.0) (2019-07-17)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.71.0](https://github.com/coingaming/sportsbet-design/compare/v0.70.0...v0.71.0) (2019-07-15)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.70.0](https://github.com/coingaming/sportsbet-design/compare/v0.69.0...v0.70.0) (2019-07-12)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.69.0](https://github.com/coingaming/sportsbet-design/compare/v0.68.2...v0.69.0) (2019-07-11)
 

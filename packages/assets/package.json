@@ -5,14 +5,27 @@
     "lib"
   ],
   "main": "lib/index.js",
+  "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "Coingaming Group",
   "license": "MIT",
   "scripts": {
-    "build:svg": "npx @svgr/cli --ext tsx --config-file ./svgr.config.js -d src raw",
+    "prepublishOnly": "yarn publish:pre:move:lib && yarn publish:pre:update:package",
+    "postpublish": "yarn publish:post:unmove:lib && yarn publish:post:revert:package",
+    "publish:pre:move:lib": "node ../../../scripts/publish.js --input ./lib/ --output ./ --mode prepublish",
+    "publish:pre:update:package": "node ../../../scripts/updatePackageJson.js --input ./lib/ --package ./package.json --mode prepublish",
+    "publish:post:unmove:lib": "node ../../../scripts/publish.js --input ./lib/ --output ./ --mode postpublish",
+    "publish:post:revert:package": "node ../../../scripts/updatePackageJson.js --input ./lib/ --package ./package.json --mode postpublish",
+    "build:crests": "svgr --ext tsx --config-file ./.config/svgr.config.js -d src/crests raw/crests",
+    "build:logos": "svgr --ext tsx --config-file ./.config/svgr.config.js -d src/logos raw/logos",
+    "build:patterns": "svgr --ext tsx --config-file ./.config/svgr.config.js -d src/patterns raw/patterns",
+    "build:icons": "svgr --ext tsx --config-file ./.config/svgr.config.icons.js -d src/icons raw/icons",
+    "build:index": "yarn build:index:top && yarn build:index:below",
+    "build:index:below": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src --structure flat --exportDefault --location below --delete false",
+    "build:index:top": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src --structure flat --exportDefault --location top",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
-    "build": "yarn build:svg && yarn lint"
+    "build": "yarn build:crests && yarn build:logos && yarn build:patterns && yarn build:icons && yarn build:index"
   },
   "dependencies": {
     "@heathmont/sportsbet-tokens": "^0.96.0"

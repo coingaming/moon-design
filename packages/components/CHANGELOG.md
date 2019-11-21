@@ -5,287 +5,166 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.96.0](https://github.com/coingaming/sportsbet-design/compare/v0.95.1...v0.96.0) (2019-11-15)
 
-
 ### Bug Fixes
 
-* **inline:** ensure list-items render without bullets ([c2dc589](https://github.com/coingaming/sportsbet-design/commit/c2dc589))
-
+- **inline:** ensure list-items render without bullets ([c2dc589](https://github.com/coingaming/sportsbet-design/commit/c2dc589))
 
 ### Features
 
-* **inline:** introduce component ([e12d570](https://github.com/coingaming/sportsbet-design/commit/e12d570))
-* **reel:** introduce and implement component ([0fc690b](https://github.com/coingaming/sportsbet-design/commit/0fc690b))
-
-
-
-
+- **inline:** introduce component ([e12d570](https://github.com/coingaming/sportsbet-design/commit/e12d570))
+- **reel:** introduce and implement component ([0fc690b](https://github.com/coingaming/sportsbet-design/commit/0fc690b))
 
 ## [0.95.1](https://github.com/coingaming/sportsbet-design/compare/v0.95.0...v0.95.1) (2019-11-11)
 
-
 ### Bug Fixes
 
-* move styled-components to peerDeps ([60f4a43](https://github.com/coingaming/sportsbet-design/commit/60f4a43))
-* **carousel:** prevent margin causing overflow ([b9a2988](https://github.com/coingaming/sportsbet-design/commit/b9a2988))
-
-
-
-
+- move styled-components to peerDeps ([60f4a43](https://github.com/coingaming/sportsbet-design/commit/60f4a43))
+- **carousel:** prevent margin causing overflow ([b9a2988](https://github.com/coingaming/sportsbet-design/commit/b9a2988))
 
 # [0.95.0](https://github.com/coingaming/sportsbet-design/compare/v0.94.1...v0.95.0) (2019-10-30)
 
-
 ### Features
 
-* **checkbox:** redesign component ([2a8bfcb](https://github.com/coingaming/sportsbet-design/commit/2a8bfcb))
-
-
-
-
+- **checkbox:** redesign component ([2a8bfcb](https://github.com/coingaming/sportsbet-design/commit/2a8bfcb))
 
 ## [0.94.1](https://github.com/coingaming/sportsbet-design/compare/v0.94.0...v0.94.1) (2019-10-28)
 
-
 ### Bug Fixes
 
-* carousel adjustments ([58f8f40](https://github.com/coingaming/sportsbet-design/commit/58f8f40))
-* tab alignments ([5da966b](https://github.com/coingaming/sportsbet-design/commit/5da966b))
-
-
-
-
+- carousel adjustments ([58f8f40](https://github.com/coingaming/sportsbet-design/commit/58f8f40))
+- tab alignments ([5da966b](https://github.com/coingaming/sportsbet-design/commit/5da966b))
 
 # [0.94.0](https://github.com/coingaming/sportsbet-design/compare/v0.93.0...v0.94.0) (2019-10-22)
 
-
 ### Bug Fixes
 
-* active state & tests ([a400c77](https://github.com/coingaming/sportsbet-design/commit/a400c77))
-* **tabs:** cleanup ([9510437](https://github.com/coingaming/sportsbet-design/commit/9510437))
-* cleanup ([a15b740](https://github.com/coingaming/sportsbet-design/commit/a15b740))
-
+- active state & tests ([a400c77](https://github.com/coingaming/sportsbet-design/commit/a400c77))
+- **tabs:** cleanup ([9510437](https://github.com/coingaming/sportsbet-design/commit/9510437))
+- cleanup ([a15b740](https://github.com/coingaming/sportsbet-design/commit/a15b740))
 
 ### Features
 
-* **tabs:** change 'tabs' component api ([8f0b7a3](https://github.com/coingaming/sportsbet-design/commit/8f0b7a3))
-
-
-
-
+- **tabs:** change 'tabs' component api ([8f0b7a3](https://github.com/coingaming/sportsbet-design/commit/8f0b7a3))
 
 # [0.93.0](https://github.com/coingaming/sportsbet-design/compare/v0.92.4...v0.93.0) (2019-10-21)
 
-
 ### Features
 
-* **tab:** rename TabItem -> Tab ([c7b602a](https://github.com/coingaming/sportsbet-design/commit/c7b602a))
-* Nav became Tabs ([c096bc5](https://github.com/coingaming/sportsbet-design/commit/c096bc5))
-
-
-
-
+- **tab:** rename TabItem -> Tab ([c7b602a](https://github.com/coingaming/sportsbet-design/commit/c7b602a))
+- Nav became Tabs ([c096bc5](https://github.com/coingaming/sportsbet-design/commit/c096bc5))
 
 ## [0.92.4](https://github.com/coingaming/sportsbet-design/compare/v0.92.3...v0.92.4) (2019-10-21)
 
-
 ### Bug Fixes
 
-* **types:** silence unexplained emotion errors ([c012270](https://github.com/coingaming/sportsbet-design/commit/c012270))
-
-
-
-
+- **types:** silence unexplained emotion errors ([c012270](https://github.com/coingaming/sportsbet-design/commit/c012270))
 
 ## [0.92.3](https://github.com/coingaming/sportsbet-design/compare/v0.92.2...v0.92.3) (2019-10-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.92.2](https://github.com/coingaming/sportsbet-design/compare/v0.92.1...v0.92.2) (2019-10-18)
-
 
 ### Bug Fixes
 
-* **dialog:** prevent prop forwarding ([156a5a2](https://github.com/coingaming/sportsbet-design/commit/156a5a2))
-* wrap all README examples with an element ([593f29e](https://github.com/coingaming/sportsbet-design/commit/593f29e))
-
-
-
-
+- **dialog:** prevent prop forwarding ([156a5a2](https://github.com/coingaming/sportsbet-design/commit/156a5a2))
+- wrap all README examples with an element ([593f29e](https://github.com/coingaming/sportsbet-design/commit/593f29e))
 
 ## [0.92.1](https://github.com/coingaming/sportsbet-design/compare/v0.92.0...v0.92.1) (2019-10-18)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.92.0](https://github.com/coingaming/sportsbet-design/compare/v0.91.0...v0.92.0) (2019-10-17)
-
 
 ### Bug Fixes
 
-* **dialog:** add z-index to tokens ([ce7de06](https://github.com/coingaming/sportsbet-design/commit/ce7de06))
-
+- **dialog:** add z-index to tokens ([ce7de06](https://github.com/coingaming/sportsbet-design/commit/ce7de06))
 
 ### Features
 
-* **checkbox:** implement uuid, add ariaLabel, support JSX label ([b806c1c](https://github.com/coingaming/sportsbet-design/commit/b806c1c))
-* **dialog:** create component ([7b2d3c5](https://github.com/coingaming/sportsbet-design/commit/7b2d3c5))
-* **label:** support JSX content ([cf6cffe](https://github.com/coingaming/sportsbet-design/commit/cf6cffe))
-
-
-
-
+- **checkbox:** implement uuid, add ariaLabel, support JSX label ([b806c1c](https://github.com/coingaming/sportsbet-design/commit/b806c1c))
+- **dialog:** create component ([7b2d3c5](https://github.com/coingaming/sportsbet-design/commit/7b2d3c5))
+- **label:** support JSX content ([cf6cffe](https://github.com/coingaming/sportsbet-design/commit/cf6cffe))
 
 # [0.91.0](https://github.com/coingaming/sportsbet-design/compare/v0.90.2...v0.91.0) (2019-10-09)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.90.2](https://github.com/coingaming/sportsbet-design/compare/v0.90.1...v0.90.2) (2019-10-03)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 ## [0.90.1](https://github.com/coingaming/sportsbet-design/compare/v0.90.0...v0.90.1) (2019-10-02)
-
 
 ### Bug Fixes
 
-* add types to root package.json ([9a99cab](https://github.com/coingaming/sportsbet-design/commit/9a99cab))
-
-
-
-
+- add types to root package.json ([9a99cab](https://github.com/coingaming/sportsbet-design/commit/9a99cab))
 
 # [0.90.0](https://github.com/coingaming/sportsbet-design/compare/v0.89.0...v0.90.0) (2019-09-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.89.0](https://github.com/coingaming/sportsbet-design/compare/v0.88.0...v0.89.0) (2019-09-27)
-
 
 ### Bug Fixes
 
-* amend test paths ([45a9264](https://github.com/coingaming/sportsbet-design/commit/45a9264))
-* remove unnecessary yarn prefix to barrelsby ([648562c](https://github.com/coingaming/sportsbet-design/commit/648562c))
-
+- amend test paths ([45a9264](https://github.com/coingaming/sportsbet-design/commit/45a9264))
+- remove unnecessary yarn prefix to barrelsby ([648562c](https://github.com/coingaming/sportsbet-design/commit/648562c))
 
 ### Features
 
-* auto generate barrel file ([1e19415](https://github.com/coingaming/sportsbet-design/commit/1e19415))
-* **assets:** add logos and patterns ([d38a00d](https://github.com/coingaming/sportsbet-design/commit/d38a00d))
-
-
-
-
+- auto generate barrel file ([1e19415](https://github.com/coingaming/sportsbet-design/commit/1e19415))
+- **assets:** add logos and patterns ([d38a00d](https://github.com/coingaming/sportsbet-design/commit/d38a00d))
 
 # [0.88.0](https://github.com/coingaming/sportsbet-design/compare/v0.87.0...v0.88.0) (2019-09-26)
 
-
 ### Features
 
-* **tokens:** add color types ([b578f19](https://github.com/coingaming/sportsbet-design/commit/b578f19))
-
+- **tokens:** add color types ([b578f19](https://github.com/coingaming/sportsbet-design/commit/b578f19))
 
 ### Performance Improvements
 
-* ensure only `lib` directories are published ([4e5ba2f](https://github.com/coingaming/sportsbet-design/commit/4e5ba2f))
-
-
-
-
+- ensure only `lib` directories are published ([4e5ba2f](https://github.com/coingaming/sportsbet-design/commit/4e5ba2f))
 
 # [0.87.0](https://github.com/coingaming/sportsbet-design/compare/v0.86.0...v0.87.0) (2019-09-10)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.86.0](https://github.com/coingaming/sportsbet-design/compare/v0.85.0...v0.86.0) (2019-09-10)
-
 
 ### Features
 
-* **components:** add LogoSportsbet component ([0be246c](https://github.com/coingaming/sportsbet-design/commit/0be246c))
-
-
-
-
+- **components:** add LogoSportsbet component ([0be246c](https://github.com/coingaming/sportsbet-design/commit/0be246c))
 
 # [0.85.0](https://github.com/coingaming/sportsbet-design/compare/v0.84.0...v0.85.0) (2019-08-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.84.0](https://github.com/coingaming/sportsbet-design/compare/v0.83.0...v0.84.0) (2019-08-27)
-
 
 ### Features
 
-* remove polished `rem` references ([1ea8e6d](https://github.com/coingaming/sportsbet-design/commit/1ea8e6d))
-
-
-
-
+- remove polished `rem` references ([1ea8e6d](https://github.com/coingaming/sportsbet-design/commit/1ea8e6d))
 
 # [0.83.0](https://github.com/coingaming/sportsbet-design/compare/v0.82.0...v0.83.0) (2019-08-26)
 
-
 ### Features
 
-* align badge positioning ([99766af](https://github.com/coingaming/sportsbet-design/commit/99766af))
-
-
-
-
+- align badge positioning ([99766af](https://github.com/coingaming/sportsbet-design/commit/99766af))
 
 # [0.82.0](https://github.com/coingaming/sportsbet-design/compare/v0.81.0...v0.82.0) (2019-08-23)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.81.0](https://github.com/coingaming/sportsbet-design/compare/v0.80.0...v0.81.0) (2019-08-22)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
 
-
-
-
-
 # [0.80.0](https://github.com/coingaming/sportsbet-design/compare/v0.79.0...v0.80.0) (2019-08-21)
-
 
 ### Features
 
-* **dependencies:** update polished ([0bd223a](https://github.com/coingaming/sportsbet-design/commit/0bd223a))
-
-
-
-
+- **dependencies:** update polished ([0bd223a](https://github.com/coingaming/sportsbet-design/commit/0bd223a))
 
 # [0.79.0](https://github.com/coingaming/sportsbet-design/compare/v0.78.0...v0.79.0) (2019-08-19)
 
