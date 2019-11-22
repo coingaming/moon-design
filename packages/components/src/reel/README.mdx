@@ -14,20 +14,22 @@ documentation of the "reel".
 
 ```jsx react-live
 () => {
-  const Box = styled.div(({ css }) => css);
-  const lightness = Array.from({ length: 25 }, (v, i) => i);
+  const theme = useTheme();
+
+  const Example = styled.div(({ theme: { color, radius }, hueRotate }) => ({
+    borderRadius: radius.small,
+    width: '20rem',
+    height: '12rem',
+    backgroundColor: color.piccolo[100],
+    filter: `hue-rotate(${hueRotate}deg)`,
+  }));
+
+  const items = Array.from({ length: 50 }, (v, i) => i);
 
   return (
     <Reel>
-      {lightness.map(lightnessIndex => (
-        <Box
-          css={{
-            borderRadius: '0.25em',
-            height: '12rem',
-            width: '20rem',
-            backgroundColor: `hsl(146,89.4%,${50 - lightnessIndex}%)`,
-          }}
-        />
+      {items.map(item => (
+        <Example hueRotate={item} />
       ))}
     </Reel>
   );
@@ -70,7 +72,6 @@ list-item (`li`) elements will display without bullets.
 
 ```jsx react-live
 () => {
-  const Box = styled.div(({ css }) => css);
   const items = Array.from({ length: 20 }, (v, i) => i);
 
   return (

@@ -12,12 +12,12 @@ An interactive extension of the [`Reel`](../reel) component to cycle through con
 () => {
   const items = Array.from({ length: 5 }, (v, i) => i);
 
-  const ExampleContent = styled.div({
+  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: '0.25em',
-    background: colors.neutral[30],
-  });
+    borderRadius: radius.small,
+    background: color.goku[80],
+  }));
 
   return (
     <Carousel>
