@@ -59,16 +59,22 @@ use of specific props to adjust the layout:
 - [`gridGap`](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
 
 ```jsx react-live
-<MediaObject alignItems="top" gridGap={spacing('large')}>
-  <IconDuotoneChat />
+() => {
+  const { space } = useTheme();
 
-  <div>
-    <Heading as="p" size="delta">
-      Live chat
-    </Heading>
-    <p>We offer 24/7 support</p>
-  </div>
-</MediaObject>
+  return (
+    <MediaObject alignItems="top" gridGap={rem(space.large)}>
+      <IconDuotoneChat />
+
+      <div>
+        <Heading as="p" size="delta">
+          Live chat
+        </Heading>
+        <p>We offer 24/7 support</p>
+      </div>
+    </MediaObject>
+  );
+};
 ```
 
 ### Direction

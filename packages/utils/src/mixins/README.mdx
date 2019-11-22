@@ -19,12 +19,14 @@ Quickly jump out of any parent's constraining `maxWidth` by applying the `breako
 
 ```jsx react-live
 () => {
+  const { colors } = useTheme();
+
   const Example = styled.div(({ css }) => css);
 
   return (
-    <Example css={{ ...container(), background: colors.brand }}>
+    <Example css={{ ...container(), background: colors.piccolo[100] }}>
       <p>Bound by the Sportsbet container</p>
-      <Example css={{ ...breakout, background: colors.error }}>
+      <Example css={{ ...breakout, background: colors.chiChi[100] }}>
         <p>Breakout from the parent container</p>
       </Example>
     </Example>
@@ -38,23 +40,26 @@ Quickly jump out of any parent's constraining `maxWidth` by applying the `breako
 import { container } from '@heathmont/sportsbet-utils';
 ```
 
-Returns a given [container "key"](/tokens#container) value as a `rem`-based `max-width` unit with horizontal spacing.
+Returns a given [container "key"](/themes/tokens#container) value as a `rem`-based `max-width` unit with horizontal spacing.
 
 `container()` will also accept any pixel value (as a `number`) and convert to `rem`.
 
 ```jsx react-live
 () => {
+  const { border, colors } = useTheme();
+
+  const borderColor = { borderColor: colors.bulma[100] };
   const Example = styled.div(({ css }) => css);
 
   return (
     <>
-      <Example css={{ ...container(), border: '1px solid white' }}>
+      <Example css={{ ...container(), border, borderColor }}>
         "default" Container
       </Example>
-      <Example css={{ ...container('large'), border: '1px solid white' }}>
+      <Example css={{ ...container('large'), border, borderColor }}>
         "large" Container
       </Example>
-      <Example css={{ ...container(300), border: '1px solid white' }}>
+      <Example css={{ ...container(300), border, borderColor }}>
         300px Container (in REM)
       </Example>
     </>
@@ -72,19 +77,20 @@ key or a pixel value (as a `number`) which will be convert to `rem`
 
 ```jsx react-live
 () => {
+  const { border, colors } = useTheme();
+
+  const borderColor = { borderColor: colors.bulma[100] };
   const Example = styled.div(({ css }) => css);
 
   return (
     <>
-      <Example
-        css={{ ...container('default', 'large'), border: '1px solid white' }}
-      >
+      <Example css={{ ...container('default', 'large'), border, borderColor }}>
         "default" Container and "large" padding
       </Example>
-      <Example css={{ ...container('default', 50), border: '1px solid white' }}>
+      <Example css={{ ...container('default', 50), border, borderColor }}>
         "default" Container and 50px padding (in REM)
       </Example>
-      <Example css={{ ...container('default', 0), border: '1px solid white' }}>
+      <Example css={{ ...container('default', 0), border, borderColor }}>
         "default" Container with no padding
       </Example>
     </>
@@ -104,6 +110,8 @@ Apply common disabled styles to UI elements such as buttons and forms.
 
 ```jsx react-live
 () => {
+  const { colors } = useTheme();
+
   const ButtonExample = styled.button(({ css }) => css);
 
   return (
@@ -111,7 +119,10 @@ Apply common disabled styles to UI elements such as buttons and forms.
       <ButtonExample disabled css={{ ...disabled() }}>
         Submit
       </ButtonExample>
-      <ButtonExample disabled css={{ ...disabled({ color: 'white' }) }}>
+      <ButtonExample
+        disabled
+        css={{ ...disabled({ color: colors.bulma[100] }) }}
+      >
         Submit
       </ButtonExample>
     </>
@@ -180,11 +191,10 @@ Passing the additional `mq(500, 'max-width')` parameter will return a breakpoint
 
 ### Usage
 
-With our breakpoint tokens, we can start to build-up our responsive styles:
+With our breakpoint theme tokens, we can start to build-up our responsive styles:
 
 ```jsx
 import styled from 'styled-components';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
 import { mq } from '@heathmont/sportsbet-utils';
 
 /* Changes border from `red` to `blue` from 'small' breakpoint upwards */
@@ -192,7 +202,7 @@ import { mq } from '@heathmont/sportsbet-utils';
 const Box = styled('div')`
   border: 1px solid red;
 
-  ${mq(breakpoints.small)} {
+  ${mq(({ theme }) => theme.breakpoint.small)} {
     border-color: blue;
   }
 `;
