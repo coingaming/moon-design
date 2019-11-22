@@ -4,18 +4,21 @@ menu: Components
 route: /components/loader
 ---
 
-import { Loader } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-
 # Loader
 
 Pure CSS loading animation
 
 ```jsx react-live
-<Inline>
-  <Loader color={colors.neutral[10]} />
-  <Loader color={colors.brand} />
-</Inline>
+() => {
+  const { color } = useTheme();
+
+  return (
+    <Inline>
+      <Loader color={color.bulma[100]} />
+      <Loader color={color.piccolo[100]} />
+    </Inline>
+  );
+};
 ```
 
 ```jsx react-live

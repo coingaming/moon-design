@@ -90,14 +90,12 @@ An 'empty' ghost outline of the card.
             unitTitle: 'Millibitcoin',
           }}
         />
-        <div>
-          <Link optional style={{ marginRight: spacing() }}>
-            Deposit
-          </Link>
+        <Inline>
+          <Link optional>Deposit</Link>
           <Link optional disabled>
             Withdraw
           </Link>
-        </div>
+        </Inline>
       </Card>
     </Example>
   );

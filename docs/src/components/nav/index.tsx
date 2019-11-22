@@ -1,6 +1,7 @@
 import * as React from 'react';
+import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/sportsbet-utils';
 
 import { PagesData } from '../../types';
 
@@ -32,15 +33,15 @@ const sidebar = graphql`
   }
 `;
 
+const NavContainer = styled.nav(({ theme: { space } }) => ({
+  padding: rem(space.default),
+}));
+
 export const Nav = () => (
   <StaticQuery
     query={sidebar}
     render={(data: PagesData) => (
-      <nav
-        css={{
-          padding: spacing(),
-        }}
-      >
+      <NavContainer>
         <Logo />
         <Divider />
         <MenuList>
@@ -48,7 +49,7 @@ export const Nav = () => (
           {/* TODO: Investigate IDE type issue highlighting */}
           <Menu items={transformSections(data)} />
         </MenuList>
-      </nav>
+      </NavContainer>
     )}
   />
 );
