@@ -42,7 +42,8 @@ export const Input = styled.input<InputProps>(props => [
     '&:hover:not(:focus)': {
       borderColor: inputColors.border.hover,
     },
-    '&:not(:placeholder-shown):invalid': {
+    // date inputs will be marked as invalid by default
+    '&:not(:placeholder-shown):not([type="date"]):invalid': {
       borderColor: colors.error,
     },
     '&:invalid, :-moz-ui-invalid': {
