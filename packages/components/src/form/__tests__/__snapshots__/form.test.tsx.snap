@@ -107,7 +107,7 @@ exports[`Form renders a form combo 1`] = `
   border-color: #5A5F65;
 }
 
-.c9:not(:placeholder-shown):invalid {
+.c9:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -280,7 +280,7 @@ exports[`Form renders a form combo without a label 1`] = `
   border-color: #5A5F65;
 }
 
-.c8:not(:placeholder-shown):invalid {
+.c8:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
