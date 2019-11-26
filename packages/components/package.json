@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-components",
   "sideEffects": false,
-  "version": "0.98.6",
+  "version": "0.98.7",
   "files": [
     "lib"
   ],
@@ -15,9 +15,9 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-assets": "^0.98.6",
-    "@heathmont/sportsbet-tokens": "^0.98.6",
-    "@heathmont/sportsbet-utils": "^0.98.6",
+    "@heathmont/sportsbet-assets": "^0.98.7",
+    "@heathmont/sportsbet-tokens": "^0.98.7",
+    "@heathmont/sportsbet-utils": "^0.98.7",
     "@reach/dialog": "0.3.0",
     "polished": "3.4.1"
   },

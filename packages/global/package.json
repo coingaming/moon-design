@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-global",
-  "version": "0.98.6",
+  "version": "0.98.7",
   "files": [
     "lib"
   ],
@@ -14,9 +14,9 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.98.6",
-    "@heathmont/sportsbet-tokens": "^0.98.6",
-    "@heathmont/sportsbet-utils": "^0.98.6",
+    "@heathmont/sportsbet-fonts": "^0.98.7",
+    "@heathmont/sportsbet-tokens": "^0.98.7",
+    "@heathmont/sportsbet-utils": "^0.98.7",
     "focus-visible": "5.0.2"
   },
   "peerDependencies": {
