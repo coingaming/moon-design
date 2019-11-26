@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-tokens",
   "sideEffects": false,
-  "version": "0.98.91",
+  "version": "0.98.92",
   "files": [
     "lib"
   ],
@@ -15,6 +15,6 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.98.91"
+    "@heathmont/sportsbet-fonts": "^0.98.92"
   }
 }
