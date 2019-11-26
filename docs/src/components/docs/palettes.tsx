@@ -24,34 +24,41 @@ const PaletteText = styled.span({
   fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
 });
 
+const ColorPalette: React.FC<any> = ({ colors }) => {
+  const reversedSubColors = Object.entries(colors)
+    .slice()
+    .reverse();
+
+  return (
+    <Inline as="ul">
+      {reversedSubColors.map(([colorName, colorValue]: any) => (
+        <li key={colorName}>
+          <Palette backgroundColor={colorValue}>
+            <PaletteText>{colorName}</PaletteText>
+          </Palette>
+        </li>
+      ))}
+    </Inline>
+  );
+};
+
 export const ThemePalettes = () => {
   const { color } = useTheme();
 
   return (
-    <Stack as="ul">
-      {Object.keys(color).map(
-        colorKey =>
-          typeof color[colorKey] === 'object' && (
-            <Stack as="li" key={colorKey}>
-              <Heading as="h3" size="charlie">
-                {colorKey}
-              </Heading>
-              <Inline as="ul">
-                {Object.keys(color[colorKey])
-                  .reverse()
-                  .map(nestedColorKey => (
-                    <li key={nestedColorKey}>
-                      <Palette
-                        backgroundColor={color[colorKey][nestedColorKey]}
-                      >
-                        <PaletteText>{nestedColorKey}</PaletteText>
-                      </Palette>
-                    </li>
-                  ))}
-              </Inline>
-            </Stack>
-          )
-      )}
-    </Stack>
+    Object.entries(color)
+      // we filter beacuse we have text & background colours here as well
+      // eslint-disable-next-line
+      .filter(([_, colors]) => colors && typeof colors === 'object')
+      .map(([colorKey, colors]) => {
+        return (
+          <Stack as="li" key={colorKey}>
+            <Heading as="h3" size="charlie">
+              {colorKey}
+            </Heading>
+            <ColorPalette colors={colors} />
+          </Stack>
+        );
+      })
   );
 };
