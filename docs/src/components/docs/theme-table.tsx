@@ -110,15 +110,12 @@ export const ThemeTable: React.FC<{ property: string | [] }> = ({
   }
 
   if (Array.isArray(property)) {
-    return (
-      <ThemePropsTable
-        options={property.map(option => ({
-          property: option,
-          key: option,
-          value: theme[option],
-        }))}
-      />
-    );
+    const options = property.map(option => ({
+      property: option,
+      key: option,
+      value: theme[option],
+    }));
+    return <ThemePropsTable options={options} />;
   }
 
   if (theme[property] && typeof theme[property] === 'object') {
