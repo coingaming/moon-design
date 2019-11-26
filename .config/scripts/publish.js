@@ -38,31 +38,19 @@ if (![MODES.prepublish, MODES.postpublish].includes(program.mode)) {
 }
 
 if (program.mode === MODES.prepublish) {
-  console.log(`Copying all files from ${program.input} to ${program.output}`);
-  const cp = childProcess.spawn('cp', ['-nRv', program.input, program.output], {
+  console.log(`Copying all files from ${program.input} to ${program.output}, working directory ${process.cwd()}`);
+  const cp = childProcess.execSync(`cp -nRv ${program.input}* ${program.output}`, {
     cwd: process.cwd(),
-  });
-  cp.stdout.on('data', data => {
-    console.log(data.toString());
-  });
-  cp.stderr.on('data', data => {
-    console.error(data.toString());
   });
 } else if (program.mode === MODES.postpublish) {
   console.log(
-    `Removing all files present at ${program.input} from ${program.output}`
+    `Removing all files present at ${program.input} from ${program.output}, working directory ${process.cwd()}`
   );
   const files = fs.readdirSync(program.input);
   files.forEach(file => {
     const fileToRemove = path.resolve(program.output, file);
-    const cp = childProcess.spawn('rm', ['-rf', fileToRemove], {
+    const cp = childProcess.execSync(`rm -rf ${fileToRemove}`, {
       cwd: process.cwd(),
-    });
-    cp.stdout.on('data', data => {
-      console.log(data.toString());
-    });
-    cp.stderr.on('data', data => {
-      console.error(data.toString());
     });
   });
 }
