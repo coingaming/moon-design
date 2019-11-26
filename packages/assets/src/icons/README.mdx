@@ -188,7 +188,10 @@ To aid with performance, Icons are surfaced as individual [SVG](https://develope
 Icon colors can be modified by adding the `color` attribute/CSS property to the component or its parent element.
 
 ```jsx react-live
-<IconSettings fontSize="2rem" color={colors.brand} />
+() => {
+  const { color } = useTheme();
+  return <IconSettings fontSize="2rem" color={color.piccolo[100]} />;
+};
 ```
 
 There's also the option to define a `backgroundColor`.
@@ -197,11 +200,16 @@ Note: for inline SVGs you may need to apply an additional `background-image` of
 a circle behind the icon.
 
 ```jsx react-live
-<IconClose
-  fontSize="2rem"
-  color={colors.neutral[10]}
-  backgroundColor={colors.error}
-/>
+() => {
+  const { color } = useTheme();
+  return (
+    <IconClose
+      fontSize="2rem"
+      color={color.bulma[100]}
+      backgroundColor={color.chiChi[100]}
+    />
+  );
+};
 ```
 
 ### Size
