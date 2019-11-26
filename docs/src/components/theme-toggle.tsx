@@ -52,7 +52,7 @@ const ThemeToggleButton = styled.button(
     right: rem(space.default),
     fontSize: rem(space.medium),
     padding: rem(space.small),
-    borderRadius: radius.largest,
+    borderRadius: rem(radius.largest),
     margin: 0,
     zIndex: 1000,
     border: 0,
