@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-assets",
-  "version": "0.98.3",
+  "version": "0.98.4",
   "files": [
     "lib"
   ],
@@ -28,7 +28,7 @@
     "build": "yarn build:crests && yarn build:logos && yarn build:patterns && yarn build:icons && yarn build:index"
   },
   "dependencies": {
-    "@heathmont/sportsbet-tokens": "^0.98.3"
+    "@heathmont/sportsbet-tokens": "^0.98.4"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",
