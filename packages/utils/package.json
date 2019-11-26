@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-utils",
   "sideEffects": false,
-  "version": "0.98.23",
+  "version": "0.98.24",
   "files": [
     "lib"
   ],
@@ -15,7 +15,7 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-tokens": "^0.98.23",
+    "@heathmont/sportsbet-tokens": "^0.98.24",
     "mini-svg-data-uri": "1.0.3",
     "polished": "3.4.1"
   },
