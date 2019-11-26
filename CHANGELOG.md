@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.98.2](https://github.com/coingaming/sportsbet-design/compare/v0.98.1...v0.98.2) (2019-11-26)
+
+
+### Bug Fixes
+
+* fixed unix issue on publish + forcing publishing ([277da92](https://github.com/coingaming/sportsbet-design/commit/277da92))
+
+
+
+
+
 ## [0.98.1](https://github.com/coingaming/sportsbet-design/compare/v0.98.0...v0.98.1) (2019-11-26)
 
 
