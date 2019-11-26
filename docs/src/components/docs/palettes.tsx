@@ -32,7 +32,7 @@ export const ThemePalettes = () => {
       {Object.keys(color).map(
         colorKey =>
           typeof color[colorKey] === 'object' && (
-            <Stack as="li">
+            <Stack as="li" key={colorKey}>
               <Heading as="h3" size="charlie">
                 {colorKey}
               </Heading>
@@ -40,7 +40,7 @@ export const ThemePalettes = () => {
                 {Object.keys(color[colorKey])
                   .reverse()
                   .map(nestedColorKey => (
-                    <li>
+                    <li key={nestedColorKey}>
                       <Palette
                         backgroundColor={color[colorKey][nestedColorKey]}
                       >
