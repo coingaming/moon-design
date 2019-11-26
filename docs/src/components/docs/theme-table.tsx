@@ -28,7 +28,7 @@ const Table = styled.table(
     },
     // For nested Tables, prevent double padding and remove default th styles.
     '& &': {
-      '> tr:first-child > td, >  tr:last-child > td': {
+      'tr:first-child > td, tr:last-child > td': {
         padding: 0,
       },
       th: {
@@ -57,32 +57,41 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
     </thead>
     <tbody>
       {options.map(option => (
-        <tr>
+        <tr key={option.key}>
           <td>{`${option.property}`}</td>
           {/* eslint-disable-next-line no-nested-ternary */}
           {typeof option.value === 'object' && option.key !== 'fontFace' ? (
             <td colSpan={2}>
               <Table>
-                {Object.keys(option.value).map(variant => (
-                  <tr>
-                    <th>{`${variant}`}</th>
-                    {/**
+                <tbody>
+                  {Object.keys(option.value).map(variant => (
+                    <tr key={variant}>
+                      <th>
+                        {option.key}.{variant}
+                      </th>
+                      {/**
                       * @TODO Create Index Signature for Themes
                       // @ts-ignore */}
-                    <td>{`${option.value[variant]}`}</td>
-                  </tr>
-                ))}
+                      <td>{option.value[variant].toString()}</td>
+                    </tr>
+                  ))}
+                </tbody>
               </Table>
             </td>
           ) : option.key === 'fontFace' ? (
-            <React.Fragment>
-              <td>{`${option.key}`}</td>
+            <React.Fragment key={option.key}>
+              <td>{option.key}</td>
               <td>Returns CSS @font-face declaration.</td>
             </React.Fragment>
           ) : (
-            <React.Fragment>
-              <td>{`${option.key}`}</td>
-              <td>{`${option.value}`}</td>
+            <React.Fragment key={option.key}>
+              <td>{option.key}</td>
+              {/**
+               * Here the value is deliberately wrapped in a template
+               * string to sanitize the output and prevent React
+               * complaining about returning an object.
+               */}
+              <td>{option.value.toString()}</td>
             </React.Fragment>
           )}
         </tr>
@@ -112,21 +121,23 @@ export const ThemeTable: React.FC<{ property: string | [] }> = ({
     );
   }
 
-  // @TODO Create Index Signature for Themes
-  // @ts-ignore
-  return theme[property] && typeof theme[property] === 'object' ? (
-    <ThemePropsTable
-      // @TODO Create Index Signature for Themes
-      // @ts-ignore
-      options={Object.keys(theme[property]).map(option => ({
-        property: option,
-        key: `${property}.${option}`,
+  if (theme[property] && typeof theme[property] === 'object') {
+    return (
+      <ThemePropsTable
         // @TODO Create Index Signature for Themes
         // @ts-ignore
-        value: theme[property][option],
-      }))}
-    />
-  ) : (
+        options={Object.keys(theme[property]).map(option => ({
+          property: option,
+          key: `${property}.${option}`,
+          // @TODO Create Index Signature for Themes
+          // @ts-ignore
+          value: theme[property][option],
+        }))}
+      />
+    );
+  }
+
+  return (
     <ThemePropsTable
       options={[
         {
