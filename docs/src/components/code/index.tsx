@@ -20,7 +20,7 @@ const CodeWrapper = styled.div(
     display: 'block',
     border,
     borderColor: color.beerus[100],
-    borderRadius: radius.small,
+    borderRadius: Utils.rem(radius.small),
     position: 'relative',
     overflow: 'hidden',
     '.prism-code:focus': {

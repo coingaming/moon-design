@@ -6,7 +6,7 @@ export const Playground = styled.div(
     border,
     position: 'relative',
     padding: rem(space.default),
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     borderColor: color.gohan[100],
     overflow: 'auto',
     resize: 'horizontal',
