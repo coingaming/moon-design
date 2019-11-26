@@ -44,9 +44,6 @@ const CodePreview = styled.div(({ theme: { border, fontFamily, space } }) => ({
   overflowY: 'scroll',
 }));
 
-/* Ensures that we can use `css` props + not have to worry about wrapper divs */
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-
 export const Code = ({ codeString, ...props }: CodeProps) => {
   return (
     /* eslint-disable-next-line react/destructuring-assignment */
