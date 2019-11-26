@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { useTheme } from '@heathmont/sportsbet-themes';
-import { Inline, Stack } from '@heathmont/sportsbet-components';
+import { Inline, Stack, Heading } from '@heathmont/sportsbet-components';
 
 const Palette = styled.span<{ backgroundColor: string }>(
   ({ backgroundColor }) => ({
@@ -33,7 +33,9 @@ export const ThemePalettes = () => {
         colorKey =>
           typeof color[colorKey] === 'object' && (
             <Stack as="li">
-              <h3>{colorKey}</h3>
+              <Heading as="h3" size="charlie">
+                {colorKey}
+              </Heading>
               <Inline as="ul">
                 {Object.keys(color[colorKey])
                   .reverse()
