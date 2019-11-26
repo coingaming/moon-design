@@ -35,13 +35,17 @@ export const ThemePalettes = () => {
             <Stack as="li">
               <h3>{colorKey}</h3>
               <Inline as="ul">
-                {Object.keys(color[colorKey]).map(nestedColorKey => (
-                  <li>
-                    <Palette backgroundColor={color[colorKey][nestedColorKey]}>
-                      <PaletteText>{nestedColorKey}</PaletteText>
-                    </Palette>
-                  </li>
-                ))}
+                {Object.keys(color[colorKey])
+                  .reverse()
+                  .map(nestedColorKey => (
+                    <li>
+                      <Palette
+                        backgroundColor={color[colorKey][nestedColorKey]}
+                      >
+                        <PaletteText>{nestedColorKey}</PaletteText>
+                      </Palette>
+                    </li>
+                  ))}
               </Inline>
             </Stack>
           )
