@@ -19,7 +19,7 @@ const CodeWrapper = styled.div(
   ({ theme: { border, color, radius, space } }) => ({
     display: 'block',
     border,
-    borderColor: color.goku[40],
+    borderColor: color.beerus[100],
     borderRadius: radius.small,
     position: 'relative',
     overflow: 'hidden',
@@ -35,14 +35,16 @@ const CodeWrapper = styled.div(
   })
 );
 
-const CodePreview = styled.div(({ theme: { border, fontFamily, space } }) => ({
-  padding: Utils.rem(space.large),
-  minHeight: Utils.rem(space.large),
-  fontFamily,
-  borderBottom: border,
-  borderColor: 'inherit',
-  overflowY: 'scroll',
-}));
+const CodePreview = styled.div(
+  ({ theme: { border, color, fontFamily, space } }) => ({
+    padding: Utils.rem(space.large),
+    minHeight: Utils.rem(space.large),
+    fontFamily,
+    borderBottom: border,
+    borderColor: color.beerus[100],
+    overflowY: 'scroll',
+  })
+);
 
 export const Code = ({ codeString, ...props }: CodeProps) => {
   return (

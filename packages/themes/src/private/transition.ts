@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const themeTransitionClass = 'is-transitioning-theme';
-export const themeTransitionDuration = 400;
+export const themeTransitionDuration = 250;
 
 /**
  * For some reason Styled Components doesn't like this in object format, so

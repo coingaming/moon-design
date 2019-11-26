@@ -8,6 +8,6 @@ export const Divider = styled.hr(
     display: 'block',
     borderStyle,
     borderWidth: `${borderWidth}px 0 0 0`,
-    borderColor: color.goku[40],
+    borderColor: color.beerus[100],
   })
 );
