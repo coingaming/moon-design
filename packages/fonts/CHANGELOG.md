@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.98.34](https://github.com/coingaming/sportsbet-design/compare/v0.98.33...v0.98.34) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-fonts
+
+
+
+
+
 ## [0.98.33](https://github.com/coingaming/sportsbet-design/compare/v0.98.32...v0.98.33) (2019-11-26)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
