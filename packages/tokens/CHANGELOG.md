@@ -3,16 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.98.0](https://github.com/coingaming/sportsbet-design/compare/v0.97.0...v0.98.0) (2019-11-26)
+## [0.98.10](https://github.com/coingaming/sportsbet-design/compare/v0.98.9...v0.98.10) (2019-11-26)
 
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.9](https://github.com/coingaming/sportsbet-design/compare/v0.98.8...v0.98.9) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.8](https://github.com/coingaming/sportsbet-design/compare/v0.98.7...v0.98.8) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.7](https://github.com/coingaming/sportsbet-design/compare/v0.98.6...v0.98.7) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.6](https://github.com/coingaming/sportsbet-design/compare/v0.98.5...v0.98.6) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.5](https://github.com/coingaming/sportsbet-design/compare/v0.98.4...v0.98.5) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.4](https://github.com/coingaming/sportsbet-design/compare/v0.98.3...v0.98.4) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.3](https://github.com/coingaming/sportsbet-design/compare/v0.98.2...v0.98.3) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+## [0.98.2](https://github.com/coingaming/sportsbet-design/compare/v0.98.1...v0.98.2) (2019-11-26)
+
+**Note:** Version bump only for package @heathmont/sportsbet-tokens
+
+# [0.98.0](https://github.com/coingaming/sportsbet-design/compare/v0.97.0...v0.98.0) (2019-11-26)
 
 ### Features
 
-* added es modules build ([#635](https://github.com/coingaming/sportsbet-design/issues/635)) ([d8964c5](https://github.com/coingaming/sportsbet-design/commit/d8964c5))
-
-
-
-
+- added es modules build ([#635](https://github.com/coingaming/sportsbet-design/issues/635)) ([d8964c5](https://github.com/coingaming/sportsbet-design/commit/d8964c5))
 
 # [0.97.0](https://github.com/coingaming/sportsbet-design/compare/v0.96.0...v0.97.0) (2019-11-21)
 
