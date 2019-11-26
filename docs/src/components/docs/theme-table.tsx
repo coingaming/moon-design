@@ -18,7 +18,7 @@ const Table = styled.table(
     // of the first row.
     '> thead': {
       borderBottom: border,
-      borderColor: color.bulma[100],
+      borderColor: color.beerus[100],
       th: {
         paddingBottom: rem(space.small),
       },
