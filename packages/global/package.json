@@ -1,5 +1,6 @@
 {
   "name": "@heathmont/sportsbet-global",
+  "sideEffects": false,
   "version": "0.98.0",
   "files": [
     "lib"
