@@ -52,7 +52,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -255,7 +255,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -441,7 +441,7 @@ exports[`TextInput renders correctly for other types 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -635,7 +635,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -714,7 +714,7 @@ exports[`TextInput renders correctly without a label 1`] = `
   border-color: #5A5F65;
 }
 
-.c0:not(:placeholder-shown):invalid {
+.c0:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
