@@ -1,5 +1,6 @@
 {
   "name": "@heathmont/sportsbet-fonts",
+  "sideEffects": false,
   "version": "0.98.0",
   "main": "lib/index.js",
   "module": "lib/es/index.js",
