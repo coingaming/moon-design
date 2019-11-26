@@ -53,7 +53,7 @@ exports[`Select renders a select input with options 1`] = `
   border-color: #5A5F65;
 }
 
-.c0:not(:placeholder-shown):invalid {
+.c0:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -163,7 +163,7 @@ exports[`Select renders as disabled for default select input 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -292,7 +292,7 @@ exports[`Select renders as full-width for default select input 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -421,7 +421,7 @@ exports[`Select renders with label above the input 1`] = `
   border-color: #5A5F65;
 }
 
-.c1:not(:placeholder-shown):invalid {
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -547,7 +547,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   border-color: #5A5F65;
 }
 
-.c3:not(:placeholder-shown):invalid {
+.c3:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
@@ -703,7 +703,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   border-color: #5A5F65;
 }
 
-.c3:not(:placeholder-shown):invalid {
+.c3:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
