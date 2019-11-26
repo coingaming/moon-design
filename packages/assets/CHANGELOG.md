@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.98.0](https://github.com/coingaming/sportsbet-design/compare/v0.97.0...v0.98.0) (2019-11-26)
+
+
+### Features
+
+* added es modules build ([#635](https://github.com/coingaming/sportsbet-design/issues/635)) ([d8964c5](https://github.com/coingaming/sportsbet-design/commit/d8964c5))
+
+
+
+
+
 # [0.97.0](https://github.com/coingaming/sportsbet-design/compare/v0.96.0...v0.97.0) (2019-11-21)
 
 ### Features
