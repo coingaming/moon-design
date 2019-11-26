@@ -1,15 +1,17 @@
 import { avertaStd } from '@heathmont/sportsbet-fonts';
 
+const greens = {
+  100: '#0CD664',
+  80: '#50E190',
+  60: '#66E59E',
+  40: '#85EAB2',
+  20: '#9EEFC1',
+  10: '#B6F3D0',
+};
+
 export const sportsbet = {
   color: {
-    piccolo: {
-      100: '#0CD664',
-      80: '#50E190',
-      60: '#66E59E',
-      40: '#85EAB2',
-      20: '#9EEFC1',
-      10: '#B6F3D0',
-    },
+    piccolo: greens,
     hit: {
       100: '#1A212A',
       80: '#31373F',
@@ -18,14 +20,7 @@ export const sportsbet = {
       20: '#767A7F',
       10: '#8C9095',
     },
-    popo: {
-      100: '#0CD664',
-      80: '#50E190',
-      60: '#66E59E',
-      40: '#85EAB2',
-      20: '#9EEFC1',
-      10: '#B6F3D0',
-    },
+    popo: greens,
     goten: {
       100: '#FFFFFF',
       80: '#F3F5F6',
