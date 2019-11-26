@@ -56,6 +56,12 @@ export type ColorThemed = {
    */
   gohan: ColorPalette;
   /**
+   * Beerus
+   *
+   * Usage: border colors.
+   */
+  beerus: ColorPalette;
+  /**
    * Goten
    *
    * Usage: button text, promotion card text & some cases body or headline text.

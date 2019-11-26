@@ -12,22 +12,14 @@ const greens = {
 export const sportsbet = {
   color: {
     piccolo: greens,
-    hit: {
-      100: '#1A212A',
-      80: '#31373F',
-      60: '#484D55',
-      40: '#5F646A',
-      20: '#767A7F',
-      10: '#8C9095',
-    },
     popo: greens,
-    goten: {
-      100: '#FFFFFF',
-      80: '#F3F5F6',
-      60: '#EDEFF1',
-      40: '#E7EAEC',
-      20: '#DBE0E3',
-      10: '#CFD5DA',
+    dende: {
+      100: '#DBE0E3',
+      80: '#DFE3E6',
+      60: '#E2E6E9',
+      40: '#E6E9EB',
+      20: '#E9ECEE',
+      10: '#EDEFF1',
     },
     trunks: {
       100: '#8697A2',
