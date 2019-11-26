@@ -20,7 +20,7 @@
     "test:jest": "node --max_old_space_size=2048 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
     "assets": "lerna run --scope @heathmont/sportsbet-assets --stream",
     "docs": "lerna run --scope docs --stream",
-    "publish:packages": "lerna publish --yes",
+    "publish:packages": "lerna publish --yes --force-publish=*",
     "publish:packages@beta": "lerna publish --canary --preid beta --no-push --dist-tag beta --force-publish",
     "publish:packages@alpha": "lerna publish --canary --preid alpha --no-push --dist-tag beta --force-publish"
   },
