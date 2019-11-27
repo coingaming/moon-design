@@ -1234,13 +1234,6 @@
   dependencies:
     typescript "3.3.3"
 
-"@heathmont/sportsbet-fonts@^0.96.0":
-  version "0.96.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-fonts/-/sportsbet-fonts-0.96.0.tgz#24c6dbd23ec98a49e32c0e45e6e032f60b308a25"
-  integrity sha512-Xyf/vSSyR6LMqgfHrHC6sXtfOPYfquhqwGzsi1DN+Vo2KJ0X+G5RsBa2JBEAMXb3CxgA8RFnj46UAZHHy4CsUQ==
-  dependencies:
-    "@heathmont/sportsbet-cdn" "1.1.0"
-
 "@jest/console@^24.3.0":
   version "24.3.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.3.0.tgz#7bd920d250988ba0bf1352c4493a48e1cb97671e"
