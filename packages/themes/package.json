@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/sportsbet-themes",
-  "version": "0.97.0",
+  "version": "0.98.99",
   "files": [
     "lib"
   ],
@@ -13,7 +13,7 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-fonts": "^0.96.0"
+    "@heathmont/sportsbet-fonts": "^0.98.99"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",
