@@ -58,7 +58,7 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
     <tbody>
       {options.map(option => (
         <tr key={option.key}>
-          <td>{`${option.property}`}</td>
+          <td>{option.property.toString()}</td>
           {/* eslint-disable-next-line no-nested-ternary */}
           {typeof option.value === 'object' && option.key !== 'fontFace' ? (
             <td colSpan={2}>
