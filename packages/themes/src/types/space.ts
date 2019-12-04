@@ -1,3 +1,5 @@
+export type SpaceProps = keyof Space;
+
 /**
  * @TODO Revisit to allow for 4px intervals, proposed:
  * xxsmall:  base.space * 0.25,
@@ -10,7 +12,6 @@
  * xxlarge:  base.space * 2.25
  * xxxlarge: base.space * 2.5,
  */
-
 export type Space = {
   xsmall: number /* px */;
   small: number /* px */;

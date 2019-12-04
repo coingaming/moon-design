@@ -42,7 +42,7 @@
 - [ ] My code follows the [code style][code-style] of this project.
 - [ ] All new and existing tests passed.
 - [ ] My HTML markup is valid and meets [W3C standards](https://validator.w3.org/).
-- [ ] My styles avoid hard-coded 'magic' values and make use of the design tokens.
+- [ ] My styles avoid hard-coded 'magic' values and make use of the design tokens available in themes?.
 - [ ] My code meets the [A11Y Web Accessibility Checklist](https://a11yproject.com/checklist). If not, please add justification documentation.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
