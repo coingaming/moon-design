@@ -57,12 +57,11 @@ const ThemeToggleButton = styled.button(
     zIndex: 1000,
     border: 0,
     lineHeight: 0,
-    color: color.goten[100],
+    color: color.bulma[100],
     backgroundColor: color.hit[100],
     cursor: 'pointer',
     transition: `color ${transitionDuration.default}s ease, fill ${transitionDuration.default}s ease`,
     '&:hover, &:focus': {
-      color: color.goten[100],
       '--icon-palette-paint': color.piccolo[100],
     },
   })
