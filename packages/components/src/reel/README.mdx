@@ -14,8 +14,6 @@ documentation of the "reel".
 
 ```jsx react-live
 () => {
-  const theme = useTheme();
-
   const Example = styled.div(({ theme: { color, radius }, hueRotate }) => ({
     borderRadius: radius.small,
     width: '20rem',
@@ -37,6 +35,36 @@ documentation of the "reel".
 ```
 
 ## Customization
+
+### Space
+
+Spacing between adjacent content can be adjusted via the `space` prop.
+
+`space` accepts themed space keys (e.g. `large` returns the large themed `space`
+key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
+`"1rem"`).
+
+```jsx react-live
+() => {
+  const Example = styled.div(({ theme: { color, radius }, hueRotate }) => ({
+    borderRadius: radius.small,
+    width: '20rem',
+    height: '12rem',
+    backgroundColor: color.piccolo[100],
+    filter: `hue-rotate(${hueRotate}deg)`,
+  }));
+
+  const items = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Reel space="large">
+      {items.map(item => (
+        <Example hueRotate={item} />
+      ))}
+    </Reel>
+  );
+};
+```
 
 ### Height
 

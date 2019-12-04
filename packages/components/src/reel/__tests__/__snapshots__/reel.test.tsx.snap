@@ -8,13 +8,13 @@ exports[`Reel renders child images correctly with custom height 1`] = `
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
+  height: 10vh;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  height: 10vh;
 }
 
 .c0::-webkit-scrollbar {
@@ -26,12 +26,12 @@ exports[`Reel renders child images correctly with custom height 1`] = `
 .c0::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   border: 3px solid transparent;
 }
 
 .c0:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+  background-color: #4C5159;
 }
 
 .c0 > li {
@@ -116,13 +116,13 @@ exports[`Reel renders child list items correctly 1`] = `
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
+  height: auto;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  height: auto;
 }
 
 .c0::-webkit-scrollbar {
@@ -134,12 +134,12 @@ exports[`Reel renders child list items correctly 1`] = `
 .c0::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   border: 3px solid transparent;
 }
 
 .c0:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+  background-color: #4C5159;
 }
 
 .c0 > li {
@@ -171,6 +171,7 @@ exports[`Reel renders child list items correctly 1`] = `
 
 <ul
   className="c0"
+  height="auto"
 >
   <li>
     Item 
@@ -223,13 +224,13 @@ exports[`Reel renders with custom space 1`] = `
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
+  height: auto;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  height: auto;
 }
 
 .c0::-webkit-scrollbar {
@@ -241,12 +242,12 @@ exports[`Reel renders with custom space 1`] = `
 .c0::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   border: 3px solid transparent;
 }
 
 .c0:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+  background-color: #4C5159;
 }
 
 .c0 > li {
@@ -278,6 +279,7 @@ exports[`Reel renders with custom space 1`] = `
 
 <div
   className="c0"
+  height="auto"
 >
   <div>
     Item 
@@ -330,13 +332,13 @@ exports[`Reel renders with defaults 1`] = `
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
+  height: auto;
   -webkit-overflow-scrolling: touch;
   -webkit-scrollbar-width: none;
   -moz-scrollbar-width: none;
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  height: auto;
 }
 
 .c0::-webkit-scrollbar {
@@ -348,12 +350,12 @@ exports[`Reel renders with defaults 1`] = `
 .c0::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   border: 3px solid transparent;
 }
 
 .c0:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+  background-color: #4C5159;
 }
 
 .c0 > li {
@@ -385,6 +387,7 @@ exports[`Reel renders with defaults 1`] = `
 
 <div
   className="c0"
+  height="auto"
 >
   <div>
     Item 

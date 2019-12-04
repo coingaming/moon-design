@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import {
@@ -11,6 +12,10 @@ import {
   FormComboInput,
   TextInput,
 } from '../..';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const TestFormItems = () => (
   <React.Fragment>
@@ -44,9 +49,11 @@ const TestFormItems = () => (
 describe('Form', () => {
   test('renders correctly', () => {
     const form = create(
-      <Form legend="Sign up">
-        <TestFormItems />
-      </Form>
+      renderWithTheme(
+        <Form legend="Sign up">
+          <TestFormItems />
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -54,9 +61,11 @@ describe('Form', () => {
 
   test('renders with HTML form attributes', () => {
     const form = create(
-      <Form legend="Sign up" action="#" method="post" autocomplete="on">
-        <TestFormItems />
-      </Form>
+      renderWithTheme(
+        <Form legend="Sign up" action="#" method="post" autocomplete="on">
+          <TestFormItems />
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -64,9 +73,11 @@ describe('Form', () => {
 
   test('renders with custom maxWidth', () => {
     const form = create(
-      <Form legend="Sign up" maxWidth="30rem">
-        <TestFormItems />
-      </Form>
+      renderWithTheme(
+        <Form legend="Sign up" maxWidth="30rem">
+          <TestFormItems />
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -74,9 +85,11 @@ describe('Form', () => {
 
   test('renders with custom fullWidth', () => {
     const form = create(
-      <Form legend="Sign up" fullWidth>
-        <TestFormItems />
-      </Form>
+      renderWithTheme(
+        <Form legend="Sign up" fullWidth>
+          <TestFormItems />
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -84,23 +97,25 @@ describe('Form', () => {
 
   test('renders a form combo', () => {
     const form = create(
-      <Form legend="2FA" maxWidth="25rem">
-        <FormItem>
-          <FormCombo>
-            <FormComboInput>
-              {/* We apply styles to specific childen */}
-              <TextInput
-                label="Enable Two Factor Authentication"
-                placeholder="Enter code"
-              />
-            </FormComboInput>
-            <FormComboButton>
-              {/* We don't apply any styles to specific childen */}
-              <button type="submit">Submit</button>
-            </FormComboButton>
-          </FormCombo>
-        </FormItem>
-      </Form>
+      renderWithTheme(
+        <Form legend="2FA" maxWidth="25rem">
+          <FormItem>
+            <FormCombo>
+              <FormComboInput>
+                {/* We apply styles to specific childen */}
+                <TextInput
+                  label="Enable Two Factor Authentication"
+                  placeholder="Enter code"
+                />
+              </FormComboInput>
+              <FormComboButton>
+                {/* We don't apply any styles to specific childen */}
+                <button type="submit">Submit</button>
+              </FormComboButton>
+            </FormCombo>
+          </FormItem>
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -108,20 +123,22 @@ describe('Form', () => {
 
   test('renders a form combo without a label', () => {
     const form = create(
-      <Form legend="2FA" maxWidth="25rem">
-        <FormItem>
-          <FormCombo>
-            <FormComboInput>
-              {/* We apply styles to specific childen */}
-              <TextInput placeholder="Enter code" />
-            </FormComboInput>
-            <FormComboButton>
-              {/* We don't apply any styles to specific childen */}
-              <button type="submit">Submit</button>
-            </FormComboButton>
-          </FormCombo>
-        </FormItem>
-      </Form>
+      renderWithTheme(
+        <Form legend="2FA" maxWidth="25rem">
+          <FormItem>
+            <FormCombo>
+              <FormComboInput>
+                {/* We apply styles to specific childen */}
+                <TextInput placeholder="Enter code" />
+              </FormComboInput>
+              <FormComboButton>
+                {/* We don't apply any styles to specific childen */}
+                <button type="submit">Submit</button>
+              </FormComboButton>
+            </FormCombo>
+          </FormItem>
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();

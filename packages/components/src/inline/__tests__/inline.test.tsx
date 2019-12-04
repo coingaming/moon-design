@@ -2,7 +2,13 @@ import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
 
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
+
 import { Inline } from '../inline';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const TestItems = () => (
   <>
@@ -15,9 +21,11 @@ const TestItems = () => (
 describe('Inline', () => {
   test('renders with `default` spacing', () => {
     const inline = create(
-      <Inline>
-        <TestItems />
-      </Inline>
+      renderWithTheme(
+        <Inline>
+          <TestItems />
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();
@@ -25,9 +33,11 @@ describe('Inline', () => {
 
   test('renders with adjusted spacing', () => {
     const inline = create(
-      <Inline space={30}>
-        <TestItems />
-      </Inline>
+      renderWithTheme(
+        <Inline space={30}>
+          <TestItems />
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();
@@ -35,9 +45,11 @@ describe('Inline', () => {
 
   test('renders with custom font-size', () => {
     const inline = create(
-      <Inline fontSize={16}>
-        <TestItems />
-      </Inline>
+      renderWithTheme(
+        <Inline fontSize={16}>
+          <TestItems />
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();
@@ -45,17 +57,19 @@ describe('Inline', () => {
 
   test('renders child list items correctly', () => {
     const inline = create(
-      <Inline as="ul">
-        <li>
-          <button type="button">Button 1</button>
-        </li>
-        <li>
-          <button type="button">Button 2</button>
-        </li>
-        <li>
-          <button type="button">Button 3</button>
-        </li>
-      </Inline>
+      renderWithTheme(
+        <Inline as="ul">
+          <li>
+            <button type="button">Button 1</button>
+          </li>
+          <li>
+            <button type="button">Button 2</button>
+          </li>
+          <li>
+            <button type="button">Button 3</button>
+          </li>
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();

@@ -1,7 +1,6 @@
 import * as React from 'react';
-import styled, { CSSObject } from 'styled-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { spacing, rem } from '@heathmont/sportsbet-utils';
+import styled from 'styled-components';
+import { rem } from '@heathmont/sportsbet-utils';
 
 import { Stack } from '../stack/stack';
 
@@ -20,51 +19,51 @@ type CardBalanceProps = {
 /**
  * Styles
  */
-const unit: CSSObject = {
+const Unit = styled.abbr({
+  cursor: 'help',
   textDecoration: 'none',
-};
-
-const unitLarge: CSSObject = {
   fontSize: rem(17),
   lineHeight: rem(20),
-};
+});
 
 const Title = styled.p({
-  marginTop: 0,
+  margin: 0,
   fontSize: rem(31),
   lineHeight: rem(38),
 });
 
-const Text = styled.p({
-  marginTop: 0,
-  color: colors.neutral[20],
+const Text = styled.p(({ theme: { color } }) => ({
+  margin: 0,
+  color: color.trunks[100],
   fontSize: rem(15),
   lineHeight: rem(20),
-});
+}));
 
-const alignText: CSSObject = {
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-};
-/**
- * Component
- */
-const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) => {
+const Balance: React.FC<{ from: Balance }> = ({ from }) => {
   return (
-    <Stack space={0}>
-      {badge && <p css={{ marginBottom: spacing() }}>{badge}</p>}
-
-      <Text css={alignText}>{from.currency}</Text>
+    <Stack as="section" space={0}>
+      <Text>{from.currency}</Text>
 
       <Title>
         {`${from.value} `}
-        <abbr css={[unit, unitLarge]} title={from.unitTitle || from.currency}>
-          {from.unit}
-        </abbr>
+        <Unit title={from.unitTitle || from.currency}>{from.unit}</Unit>
       </Title>
     </Stack>
   );
 };
+
+/**
+ * Component
+ */
+const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) =>
+  badge ? (
+    <Stack>
+      {badge && <span>{badge}</span>}
+
+      <Balance from={from} />
+    </Stack>
+  ) : (
+    <Balance from={from} />
+  );
 
 export { CardBalance, CardBalanceProps };

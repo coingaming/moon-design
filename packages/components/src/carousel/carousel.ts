@@ -40,6 +40,10 @@ export const CarouselScroll = styled(Reel.withComponent('ul'))({
   },
 });
 
+CarouselScroll.defaultProps = {
+  space: 'default',
+};
+
 /**
  * Carousel Scroll Item
  *
