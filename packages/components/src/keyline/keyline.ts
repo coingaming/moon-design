@@ -1,38 +1,37 @@
 import styled from 'styled-components';
-import { border, colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
-
-const dividerColor = colors.border;
-const dividerBorderWidth = `${border.width}px`;
+import { rem } from '@heathmont/sportsbet-utils';
 
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-export const Keyline = styled.hr<any>({
+export const Keyline = styled.hr<any>(({ theme: { borderWidth, color } }) => ({
   display: 'block',
-  borderWidth: `${dividerBorderWidth} 0 0 0`,
-  borderColor: dividerColor,
+  borderWidth: `${borderWidth}px 0 0 0`,
+  borderColor: color.beerus[100],
   borderStyle: 'solid',
-});
+}));
 
-export const KeylineText = styled.p({
-  display: 'flex',
-  width: '100%',
-  alignItems: 'center',
-  textTransform: 'uppercase',
-  '&::before, &::after': {
-    content: '""',
-    display: 'inline-block',
+export const KeylineText = styled.p(
+  ({ theme: { borderWidth, color, space } }) => ({
+    display: 'flex',
+    color: color.bulma[100],
     width: '100%',
-    flex: '0 1 auto',
-    height: dividerBorderWidth,
-    backgroundColor: dividerColor,
-    whiteSpace: 'nowrap',
-  },
-  '&::before': {
-    marginRight: spacing('medium'),
-  },
-  '&::after': {
-    marginLeft: spacing('medium'),
-  },
-});
+    alignItems: 'center',
+    textTransform: 'uppercase',
+    '&::before, &::after': {
+      content: '""',
+      display: 'inline-block',
+      width: '100%',
+      flex: '0 1 auto',
+      height: borderWidth,
+      backgroundColor: color.beerus[100],
+      whiteSpace: 'nowrap',
+    },
+    '&::before': {
+      marginRight: rem(space.medium),
+    },
+    '&::after': {
+      marginLeft: rem(space.medium),
+    },
+  })
+);

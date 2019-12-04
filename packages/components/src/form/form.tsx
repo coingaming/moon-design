@@ -1,8 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { rem, spacing } from '@heathmont/sportsbet-utils';
-import { border } from '@heathmont/sportsbet-tokens';
+import { rem } from '@heathmont/sportsbet-utils';
 
 import { listPlain, listPlainItem } from '../lists/lists';
 import { inputSpacingY } from '../private/input/settings';
@@ -49,27 +48,30 @@ const Form: React.FC<FormProps> = ({
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-const FormItem = styled.li<any>(listPlainItem, { marginBottom: spacing() });
+const FormItem = styled.li<any>(({ theme: { space } }) => [
+  listPlainItem,
+  { marginBottom: rem(space.small) },
+]);
 
 const FormCombo = styled.div({
   display: 'block',
   position: 'relative',
 });
 
-const FormComboInput = styled.div({
+const FormComboInput = styled.div(({ theme: { radius } }) => ({
   [`${Input}`]: {
-    borderRadius: border.radius.largest,
+    borderRadius: rem(radius.largest),
   },
-});
+}));
 
 /**
  * 1. We want our button located in the same position as an Input Icon
  */
-const FormComboButton = styled.div({
+const FormComboButton = styled.div(({ theme }) => ({
   position: 'absolute',
-  right: rem(inputSpacingY / 2),
-  bottom: rem(inputSpacingY / 2) /* [1] */,
-});
+  right: rem(inputSpacingY(theme) / 2),
+  bottom: rem(inputSpacingY(theme) / 2) /* [1] */,
+}));
 
 export {
   Form,

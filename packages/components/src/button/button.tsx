@@ -1,13 +1,13 @@
 import * as React from 'react';
-import styled, { css, CSSObject, keyframes } from 'styled-components';
-import { border, typography, base, colors } from '@heathmont/sportsbet-tokens';
-import { disabled, spacing, rem } from '@heathmont/sportsbet-utils';
+import styled, { css, keyframes } from 'styled-components';
+import { disabled, rem } from '@heathmont/sportsbet-utils';
 import { IconSuccess, IconWarning } from '@heathmont/sportsbet-assets';
+import { useTheme } from '@heathmont/sportsbet-themes';
 
 import { Loader } from '../loader/loader';
 
-import { buttonModifiers, ButtonModifiers } from './modifiers';
-import { buttonSizes, ButtonSizes } from './size';
+import { buttonModifier, ButtonModifiers } from './modifiers';
+import { buttonSize, ButtonSizes } from './size';
 import {
   buttonMockStateClass,
   ButtonMockState,
@@ -41,30 +41,8 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
 /**
- * Styles
+ * Animation
  */
-const buttonStyles: CSSObject = {
-  padding: `${spacing('small')} ${spacing('medium')}`,
-  display: 'inline-block',
-  verticalAlign: 'middle',
-  fontFamily: 'inherit', // Prevents links rendering as system fonts.
-  fontSize: base.fontSize,
-  fontWeight: typography.fontWeight.semibold,
-  lineHeight: rem(18),
-  textAlign: 'center',
-  textDecoration: 'none',
-  cursor: 'pointer',
-  borderStyle: border.style,
-  borderWidth: border.width,
-  borderColor: 'transparent',
-  borderRadius: border.radius.largest,
-  ...disabled(),
-};
-
-/**
- * Component
- */
-
 const shake = keyframes`
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -87,30 +65,51 @@ const animation = css`
   animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 `;
 
+/**
+ * Component
+ */
 const StyledButton = styled.button<ButtonProps>(
-  ({ modifier, uppercase, fullWidth, size, oops }) => [
-    buttonStyles,
-    modifier && buttonModifiers[modifier],
-    size ? buttonSizes[size] : buttonSizes.small,
-    uppercase && { textTransform: 'uppercase' },
-    fullWidth && { width: '100%' },
+  ({
+    theme: { base, border, fontWeight, opacity, radius, space },
+    fullWidth,
+    uppercase,
+  }) => ({
+    padding: `${rem(space.small)} ${rem(space.medium)}`,
+    display: 'inline-block',
+    verticalAlign: 'middle',
+    width: fullWidth ? '100%' : undefined,
+    fontFamily: 'inherit', // Prevents links rendering as system fonts.
+    fontSize: rem(base.fontSize),
+    fontWeight: fontWeight.semibold,
+    lineHeight: rem(18),
+    textAlign: 'center',
+    textDecoration: 'none',
+    textTransform: uppercase ? 'uppercase' : undefined,
+    cursor: 'pointer',
+    border,
+    borderColor: 'transparent',
+    borderRadius: rem(radius.largest),
+    ...disabled(opacity.disabled),
+  }),
+  ({ modifier, theme }) => modifier && buttonModifier(modifier)(theme),
+  ({ size, theme }) => size && buttonSize(size)(theme),
+  ({ oops, theme: { color } }) =>
     oops && [
       animation,
       {
         transform: 'translate3d(0, 0, 0)',
         backfaceVisibility: 'hidden',
         perspective: rem(1000),
-        color: colors.neutral[10],
-        backgroundColor: colors.error,
+        color: color.bulma[100],
+        backgroundColor: color.chiChi[100],
         ...buttonHover({
-          backgroundColor: colors.error,
+          backgroundColor: color.chiChi[100],
         }),
         ...buttonActive({
-          backgroundColor: colors.error,
+          backgroundColor: color.chiChi[100],
         }),
       },
-    ],
-  ]
+    ]
 );
 
 const Button: React.FC<ButtonProps> = ({
@@ -121,7 +120,10 @@ const Button: React.FC<ButtonProps> = ({
   success,
   ...props
 }) => {
+  const { color, space } = useTheme();
+
   let content = children;
+
   if (progress) {
     content = (
       <div css={{ position: 'relative' }}>
@@ -129,12 +131,12 @@ const Button: React.FC<ButtonProps> = ({
         <div
           css={{
             position: 'absolute',
-            left: `calc(50% - ${spacing('small')})`,
+            left: `calc(50% - ${rem(space.small)})`,
             top: 0,
-            height: spacing(),
+            height: rem(space.default),
           }}
         >
-          <Loader color={colors.neutral[10]} />
+          <Loader color={color.bulma[100]} />
         </div>
       </div>
     );
@@ -146,9 +148,9 @@ const Button: React.FC<ButtonProps> = ({
         <div
           css={{
             position: 'absolute',
-            left: `calc(50% - ${spacing('small')})`,
+            left: `calc(50% - ${rem(space.small)})`,
             top: 0,
-            height: spacing(),
+            height: rem(space.default),
           }}
         >
           <IconSuccess />
@@ -163,9 +165,9 @@ const Button: React.FC<ButtonProps> = ({
         <div
           css={{
             position: 'absolute',
-            left: `calc(50% - ${spacing('small')})`,
+            left: `calc(50% - ${rem(space.small)})`,
             top: 0,
-            height: spacing(),
+            height: rem(space.default),
           }}
         >
           <IconWarning />
@@ -186,6 +188,7 @@ const Button: React.FC<ButtonProps> = ({
 
 Button.defaultProps = {
   modifier: 'primary',
+  size: 'small',
 };
 
-export { Button, ButtonProps, buttonStyles };
+export { Button, ButtonProps };

@@ -79,8 +79,12 @@ const Example = styled.div({
 
 ## Space
 
-`Stack` uses the [`"default"`](/themes/tokens#space) spacing token to set rhythm, but
-accepts other size values for individual use-cases.
+`Stack` uses the [`"default"`](/themes/tokens#space) space theme token to set
+rhythm, but accepts other size values for individual use-cases.
+
+`space` accepts themed space keys (e.g. `large` returns the large themed `space`
+key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
+`"1rem"`).
 
 ```jsx react-live
 () => {
@@ -92,7 +96,7 @@ accepts other size values for individual use-cases.
   }));
 
   return (
-    <Stack space={spacing('small')}>
+    <Stack space="small">
       <Example />
       <Example />
       <Example />

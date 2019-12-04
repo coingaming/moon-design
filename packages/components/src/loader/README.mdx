@@ -6,20 +6,31 @@ route: /components/loader
 
 # Loader
 
-Pure CSS loading animation
+Pure CSS loading animation.
 
 ```jsx react-live
-() => {
-  const { color } = useTheme();
-
-  return (
-    <Inline>
-      <Loader color={color.bulma[100]} />
-      <Loader color={color.piccolo[100]} />
-    </Inline>
-  );
-};
+<Inline>
+  <Loader />
+  <Loader color="bulma.100" />
+</Inline>
 ```
+
+## Usage
+
+### Customization
+
+The `color` prop accepts [themed color token keys](/themes/tokens) (in dot
+notation) as well as regular string color values; rgba, hex etc.
+
+```jsx react-live
+<Inline>
+  <Loader color="bulma.100" />
+  <Loader color="trunks.100" />
+  <Loader color="#663399" />
+</Inline>
+```
+
+### Buttons
 
 ```jsx react-live
 <Inline>

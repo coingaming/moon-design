@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { colors } from '@heathmont/sportsbet-tokens';
 
 import { Label } from '../private/label/label';
 import { Input } from '../private/input/input';
@@ -25,12 +24,12 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   error?: boolean;
 };
 
-const TextInputElem = styled(Input)({
+const TextInputElem = styled(Input)(({ theme: { color } }) => ({
   '&:focus': {
-    borderColor: colors.brand,
+    borderColor: color.piccolo[100],
     outline: 'none',
   },
-});
+}));
 
 /**
  * Component

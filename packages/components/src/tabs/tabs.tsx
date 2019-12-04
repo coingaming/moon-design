@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { spacing, uniqueId } from '@heathmont/sportsbet-utils';
+import { rem, uniqueId } from '@heathmont/sportsbet-utils';
+import { useTheme } from '@heathmont/sportsbet-themes';
 
 import { Reel } from '../reel/reel';
 
@@ -13,28 +13,24 @@ const TabNav = styled.nav({
   width: '100%',
 });
 
-const SkipLink = styled.a({
+const SkipLink = styled.a(({ theme: { color, space } }) => ({
   position: 'absolute',
   zIndex: 1,
-  padding: `0 ${spacing('small')}`,
+  padding: `0 ${rem(space.small)}`,
   top: '50%',
-  left: spacing('small'),
+  left: rem(space.small),
   transform: 'translateY(-50%)',
-  color: colors.neutral[10],
-  backgroundColor: colors.neutral[90],
+  color: color.bulma[100],
+  backgroundColor: color.hit[80],
   '&:not(:focus)': {
     ...hideVisually(),
   },
-});
+}));
 
 /* 1. Include the indicator as part of the item's box-model. */
-const TabList = styled(Reel.withComponent('ul'))({
-  paddingBottom: `${underlineOffset}px` /* [1] */,
-});
-
-TabList.defaultProps = {
-  space: spacing('medium'),
-};
+const TabList = styled(Reel.withComponent('ul'))(({ theme }) => ({
+  paddingBottom: `${underlineOffset(theme)}px` /* [1] */,
+}));
 
 const Tab = styled.li({});
 
@@ -51,11 +47,13 @@ export const Tabs: React.FC<TabsProps> = ({ id, items }) => {
     ? items.filter(tab => tab != null)
     : [];
 
+  const { space } = useTheme();
+
   /* eslint-disable react/no-array-index-key */
   return (
     <TabNav>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
-      <TabList>
+      <TabList space={rem(space.medium)}>
         {Array.isArray(nonEmptyTabs) &&
           nonEmptyTabs.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
       </TabList>
