@@ -26,6 +26,7 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   const [themeState, setThemeState] = React.useState('sportsbetDark');
 
   const cycleTheme = () => {
+    /* eslint-disable-next-line no-console */
     console.info('🎨 Theme: ', themeState, themes[themeState]);
     const themeKeys = [...Object.keys(themes || {})];
     const i = themeKeys.indexOf(themeState);
