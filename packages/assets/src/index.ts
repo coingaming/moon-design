@@ -11,6 +11,10 @@ export * from './groupIcons/GroupIconCurrency';
 export { default as GroupIconSports } from './groupIcons/GroupIconSports';
 export * from './groupIcons/GroupIconSports';
 export {
+  default as GroupIconSportsColor,
+} from './groupIcons/GroupIconSportsColor';
+export * from './groupIcons/GroupIconSportsColor';
+export {
   default as GroupIconThirdParty,
 } from './groupIcons/GroupIconThirdParty';
 export * from './groupIcons/GroupIconThirdParty';

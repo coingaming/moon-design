@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { sportColors } from '@heathmont/sportsbet-tokens';
 
 import IconSportsAmericanFootBall from '../icons/IconSportsAmericanFootBall';
 import IconSportsBadminton from '../icons/IconSportsBadminton';
@@ -30,6 +29,8 @@ import IconSportsTableTennis from '../icons/IconSportsTableTennis';
 import IconSportsTennis from '../icons/IconSportsTennis';
 import IconSportsVolleyBall from '../icons/IconSportsVolleyBall';
 import IconSportsWaterPolo from '../icons/IconSportsWaterPolo';
+
+import { GroupIconSportsColor } from './GroupIconSportsColor';
 
 export type GroupIconSportsName =
   | 'sport-americanfootball'
@@ -76,114 +77,174 @@ const GroupIconSports: React.FC<GroupIconSportsProps> &
     case 'sport-americanfootball':
       return (
         <IconSportsAmericanFootBall
-          color={color || sportColors.americanFootBall}
+          color={color || GroupIconSportsColor.americanFootBall}
           {...props}
         />
       );
     case 'sport-badminton':
       return (
         <IconSportsBadminton
-          color={color || sportColors.badminton}
+          color={color || GroupIconSportsColor.badminton}
           {...props}
         />
       );
     case 'sport-baseball':
       return (
-        <IconSportsBaseBall color={color || sportColors.baseBall} {...props} />
+        <IconSportsBaseBall
+          color={color || GroupIconSportsColor.baseBall}
+          {...props}
+        />
       );
     case 'sport-basketball':
       return (
         <IconSportsBasketBall
-          color={color || sportColors.basketBall}
+          color={color || GroupIconSportsColor.basketBall}
           {...props}
         />
       );
     case 'sport-biathlon':
       return (
-        <IconSportsBiathlon color={color || sportColors.biathlon} {...props} />
+        <IconSportsBiathlon
+          color={color || GroupIconSportsColor.biathlon}
+          {...props}
+        />
       );
     case 'sport-boxing':
       return (
-        <IconSportsBoxing color={color || sportColors.boxing} {...props} />
+        <IconSportsBoxing
+          color={color || GroupIconSportsColor.boxing}
+          {...props}
+        />
       );
     case 'sport-cricket':
       return (
-        <IconSportsCricket color={color || sportColors.cricket} {...props} />
+        <IconSportsCricket
+          color={color || GroupIconSportsColor.cricket}
+          {...props}
+        />
       );
     case 'sport-cycling':
       return (
-        <IconSportsCycling color={color || sportColors.cycling} {...props} />
+        <IconSportsCycling
+          color={color || GroupIconSportsColor.cycling}
+          {...props}
+        />
       );
     case 'sport-darts':
-      return <IconSportsDarts color={color || sportColors.darts} {...props} />;
+      return (
+        <IconSportsDarts
+          color={color || GroupIconSportsColor.darts}
+          {...props}
+        />
+      );
     case 'sport-esports':
       return (
-        <IconSportsESports color={color || sportColors.eSports} {...props} />
+        <IconSportsESports
+          color={color || GroupIconSportsColor.eSports}
+          {...props}
+        />
       );
     case 'sport-football':
     case 'sport-soccer':
       return (
-        <IconSportsFootBall color={color || sportColors.footBall} {...props} />
+        <IconSportsFootBall
+          color={color || GroupIconSportsColor.footBall}
+          {...props}
+        />
       );
     case 'sport-golf':
-      return <IconSportsGolf color={color || sportColors.golf} {...props} />;
+      return (
+        <IconSportsGolf color={color || GroupIconSportsColor.golf} {...props} />
+      );
     case 'sport-handball':
       return (
-        <IconSportsHandBall color={color || sportColors.handBall} {...props} />
+        <IconSportsHandBall
+          color={color || GroupIconSportsColor.handBall}
+          {...props}
+        />
       );
     case 'sport-horseracing':
       return (
         <IconSportsHorseRacing
-          color={color || sportColors.horseRacing}
+          color={color || GroupIconSportsColor.horseRacing}
           {...props}
         />
       );
     case 'sport-icehockey':
       return (
         <IconSportsIceHockey
-          color={color || sportColors.iceHockey}
+          color={color || GroupIconSportsColor.iceHockey}
           {...props}
         />
       );
     case 'sport-mma':
-      return <IconSportsMma color={color || sportColors.mma} {...props} />;
+      return (
+        <IconSportsMma color={color || GroupIconSportsColor.mma} {...props} />
+      );
     case 'sport-motorsports':
       return (
         <IconSportsMotorSports
-          color={color || sportColors.motorSports}
+          color={color || GroupIconSportsColor.motorSports}
           {...props}
         />
       );
     case 'sport-politics':
       return (
-        <IconSportsPolitics color={color || sportColors.politics} {...props} />
+        <IconSportsPolitics
+          color={color || GroupIconSportsColor.politics}
+          {...props}
+        />
       );
     case 'sport-pool':
-      return <IconSportsPool color={color || sportColors.pool} {...props} />;
+      return (
+        <IconSportsPool color={color || GroupIconSportsColor.pool} {...props} />
+      );
     case 'sport-popular':
       return (
-        <IconSportsPopular color={color || sportColors.popular} {...props} />
+        <IconSportsPopular
+          color={color || GroupIconSportsColor.popular}
+          {...props}
+        />
       );
     case 'sport-rugby':
-      return <IconSportsRugby color={color || sportColors.rugby} {...props} />;
+      return (
+        <IconSportsRugby
+          color={color || GroupIconSportsColor.rugby}
+          {...props}
+        />
+      );
     case 'sport-sinuca':
-      return <IconSportsSnooker color={color || sportColors.sinuca} />;
+      return <IconSportsSnooker color={color || GroupIconSportsColor.sinuca} />;
     case 'sport-skiing':
-      return <IconSportsSki color={color || sportColors.ski} />;
+      return <IconSportsSki color={color || GroupIconSportsColor.ski} />;
     case 'sport-snooker':
-      return <IconSportsSnooker color={color || sportColors.snooker} />;
+      return (
+        <IconSportsSnooker color={color || GroupIconSportsColor.snooker} />
+      );
     case 'sport-special':
-      return <IconSportsSpecial color={color || sportColors.special} />;
+      return (
+        <IconSportsSpecial color={color || GroupIconSportsColor.special} />
+      );
     case 'sport-squash':
-      return <IconSportsSquash color={color || sportColors.squash} />;
+      return <IconSportsSquash color={color || GroupIconSportsColor.squash} />;
     case 'sport-tabletennis':
-      return <IconSportsTableTennis color={color || sportColors.tableTennis} />;
+      return (
+        <IconSportsTableTennis
+          color={color || GroupIconSportsColor.tableTennis}
+        />
+      );
     case 'sport-tennis':
-      return <IconSportsTennis color={color || sportColors.tennis} />;
+      return <IconSportsTennis color={color || GroupIconSportsColor.tennis} />;
     case 'sport-volleyball':
-      return <IconSportsVolleyBall color={color || sportColors.volleyBall} />;
+      return (
+        <IconSportsVolleyBall
+          color={color || GroupIconSportsColor.volleyBall}
+        />
+      );
     case 'sport-waterpolo':
-      return <IconSportsWaterPolo color={color || sportColors.waterPolo} />;
+      return (
+        <IconSportsWaterPolo color={color || GroupIconSportsColor.waterPolo} />
+      );
     default:
       return null;
   }

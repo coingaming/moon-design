@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { useTheme } from '@heathmont/sportsbet-themes';
 
 import IconCurrencyArs from '../icons/IconCurrencyArs';
 import IconCurrencyBdt from '../icons/IconCurrencyBdt';
@@ -110,9 +110,14 @@ const currencyIcons = {
 
 const GroupIconCurrency: React.FC<GroupIconCurrencyProps> &
   React.SVGProps<SVGSVGElement> = ({ color, name, ...props }) => {
+  const theme = useTheme();
+
   return React.createElement(currencyIcons[name], {
     ...props,
-    color: color || colors.palette.goku[60],
+    /**
+     * @TODO Discuss: Should we really be setting the color here?
+     */
+    color: color || theme.color.goku[60],
   });
 };
 
