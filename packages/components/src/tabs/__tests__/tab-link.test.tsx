@@ -2,8 +2,13 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 
 import { TabLink } from '../tab-link';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const TestLink = ({ children, ...props }: { children: string }) => (
   <a id="test-link" {...props}>
@@ -13,25 +18,33 @@ const TestLink = ({ children, ...props }: { children: string }) => (
 
 describe('Nav - TabLink', () => {
   test('renders as an anchor by default', () => {
-    const tabLink = create(<TabLink href="#">Sample link</TabLink>);
+    const tabLink = create(
+      renderWithTheme(<TabLink href="#">Sample link</TabLink>)
+    );
 
     expect(tabLink).toMatchSnapshot();
   });
 
   test('renders as active', () => {
-    const tabLink = create(<TabLink className="active">Sample link</TabLink>);
+    const tabLink = create(
+      renderWithTheme(<TabLink className="active">Sample link</TabLink>)
+    );
 
     expect(tabLink).toMatchSnapshot();
   });
 
   test('renders as a component', () => {
-    const tabLink = create(<TabLink as={TestLink}>Sample link</TabLink>);
+    const tabLink = create(
+      renderWithTheme(<TabLink as={TestLink}>Sample link</TabLink>)
+    );
 
     expect(tabLink).toMatchSnapshot();
   });
 
   test('renders as active', () => {
-    const tabLink = create(<TabLink href="#">Sample link</TabLink>);
+    const tabLink = create(
+      renderWithTheme(<TabLink href="#">Sample link</TabLink>)
+    );
 
     expect(tabLink).toMatchSnapshot();
   });

@@ -34,7 +34,7 @@ exports[`Form renders a form combo 1`] = `
 .c4 {
   display: block;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .c4:before {
@@ -48,7 +48,7 @@ exports[`Form renders a form combo 1`] = `
 }
 
 .c6 .c8 {
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c10 {
@@ -74,9 +74,9 @@ exports[`Form renders a form combo 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -84,27 +84,27 @@ exports[`Form renders a form combo 1`] = `
 }
 
 .c9::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c9::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c9:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c9::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c9:hover:not(:focus) {
-  border-color: #5A5F65;
+.c9:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c9:not(:placeholder-shown):not([type="date"]):invalid {
@@ -214,7 +214,7 @@ exports[`Form renders a form combo without a label 1`] = `
 .c4 {
   display: block;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .c4:before {
@@ -228,7 +228,7 @@ exports[`Form renders a form combo without a label 1`] = `
 }
 
 .c6 .c7 {
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c9 {
@@ -247,9 +247,9 @@ exports[`Form renders a form combo without a label 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -257,27 +257,27 @@ exports[`Form renders a form combo without a label 1`] = `
 }
 
 .c8::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c8::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c8:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c8::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c8:hover:not(:focus) {
-  border-color: #5A5F65;
+.c8:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c8:not(:placeholder-shown):not([type="date"]):invalid {
@@ -384,7 +384,7 @@ exports[`Form renders correctly 1`] = `
 .c4 {
   display: block;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .c4:before {
@@ -509,7 +509,7 @@ exports[`Form renders with HTML form attributes 1`] = `
 .c4 {
   display: block;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .c4:before {
@@ -636,7 +636,7 @@ exports[`Form renders with custom fullWidth 1`] = `
 .c4 {
   display: block;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .c4:before {
@@ -762,7 +762,7 @@ exports[`Form renders with custom maxWidth 1`] = `
 .c4 {
   display: block;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .c4:before {

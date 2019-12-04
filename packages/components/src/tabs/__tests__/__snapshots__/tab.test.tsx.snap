@@ -15,8 +15,8 @@ exports[`Nav renders correctly 1`] = `
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #FFF;
-  background-color: #1A212A;
+  color: #FFFFFF;
+  background-color: #31373F;
 }
 
 .c1:not(:focus) {
@@ -47,7 +47,6 @@ exports[`Nav renders correctly 1`] = `
   -ms-scrollbar-width: none;
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  height: auto;
   padding-bottom: 14px;
 }
 
@@ -60,12 +59,12 @@ exports[`Nav renders correctly 1`] = `
 .c2::-webkit-scrollbar-thumb {
   background-color: transparent;
   background-clip: content-box;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   border: 3px solid transparent;
 }
 
 .c2:hover::-webkit-scrollbar-thumb {
-  background-color: #62676D;
+  background-color: #4C5159;
 }
 
 .c2 > li {

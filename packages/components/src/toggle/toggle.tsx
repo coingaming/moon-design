@@ -1,25 +1,25 @@
-import styled, { CSSObject } from 'styled-components';
-import { spacing } from '@heathmont/sportsbet-utils';
+import styled from 'styled-components';
+import { rem } from '@heathmont/sportsbet-utils';
 
 type ToggleProps = {
   topRight?: boolean;
 };
 
-const topRightStyle: CSSObject = {
-  position: 'absolute',
-  top: spacing(),
-  right: spacing(),
-};
+const Toggle = styled.button<ToggleProps>(
+  ({ theme: { space }, topRight = true }) => [
+    {
+      background: 'none',
+      padding: 0,
+      cursor: 'pointer',
+      border: 'none',
+      fontSize: '1rem',
+    },
+    topRight && {
+      position: 'absolute',
+      top: rem(space.default),
+      right: rem(space.default),
+    },
+  ]
+);
 
-const Toggle = styled.button<ToggleProps>(({ topRight = true }) => {
-  return {
-    background: 'none',
-    padding: 0,
-    cursor: 'pointer',
-    border: 'none',
-    fontSize: '1rem',
-    ...(topRight ? topRightStyle : {}),
-  };
-});
-
-export { Toggle };
+export { Toggle, ToggleProps };

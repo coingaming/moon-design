@@ -1,7 +1,6 @@
-import { CSSObject } from 'styled-components';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { Color } from '@heathmont/sportsbet-themes';
 
-type BadgeModifiers =
+export type BadgeModifiers =
   | 'single'
   | 'multi'
   | 'active'
@@ -10,69 +9,49 @@ type BadgeModifiers =
   | 'settled'
   | 'void'
   | 'doubles'
+  | 'canceled'
   | 'live';
 
-const single: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const multi = {
-  color: colors.neutral[10],
-  backgroundColor: colors.palette.vegeta[100],
-};
-
-const active: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const won: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const lost: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const settled: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const voidModifier: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const doubles: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const live: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.error,
-};
-
-const canceled: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-};
-
-const badgeModifiers = {
-  single,
-  multi,
-  active,
-  won,
-  lost,
-  settled,
-  doubles,
-  live,
-  canceled,
-  void: voidModifier,
-};
-
-export { badgeModifiers, BadgeModifiers };
+export const badgeModifiers = (modifier: BadgeModifiers, color: Color) =>
+  ({
+    single: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    multi: {
+      color: color.goten[100],
+      backgroundColor: color.whis[100],
+    },
+    active: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    won: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    lost: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    settled: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    doubles: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    live: {
+      color: color.goten[100],
+      backgroundColor: color.chiChi[100],
+    },
+    canceled: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+    void: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+    },
+  }[modifier]);

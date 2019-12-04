@@ -1,68 +1,107 @@
 import * as React from 'react';
-import { CSSObject } from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
-import { animation, colors } from '@heathmont/sportsbet-tokens';
+import styled from 'styled-components';
+import { rem, uniqueId } from '@heathmont/sportsbet-utils';
+import { hideVisually } from 'polished';
 
-type SwitchProps = React.InputHTMLAttributes<HTMLInputElement> & {};
+const switchWidthProperty = '--switch-width';
+const switchWidth = `var(${switchWidthProperty})`;
 
-const SwitchHeight = 32; // px
-const SwitchWidth = 64; // px
+const switchHeightProperty = '--switch-height';
+const switchHeight = `var(${switchHeightProperty})`;
 
-const switcher: CSSObject = {
+const Slider = styled.span(
+  ({ theme: { color, space, transitionDuration } }) => ({
+    position: 'absolute',
+    width: switchWidth,
+    height: switchHeight,
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    cursor: 'pointer',
+    backgroundColor: color.goku[80],
+    borderRadius: `calc(${switchWidth} + ${rem(2)})`,
+    transitionProperty: 'background-color',
+    transitionDuration: `${transitionDuration.slow}s`,
+    transitionTimingFunction: 'ease',
+    '&::before': {
+      '--switch-indicator-size': `calc(${switchHeight} - ${rem(space.small)})`,
+      content: '""',
+      position: 'absolute',
+      width: 'var(--switch-indicator-size)',
+      height: 'var(--switch-indicator-size)',
+      left: rem(space.xsmall),
+      bottom: rem(space.xsmall),
+      backgroundColor: color.trunks[100],
+      borderRadius: '50%',
+      transition: 'inherit',
+      transitionProperty: 'background-color, transform',
+      willChange: 'transform',
+    },
+  })
+);
+
+const Label = styled.label(({ theme: { space } }) => ({
+  [switchWidthProperty]: rem(space.large * 2),
+  [switchHeightProperty]: rem(space.large),
   position: 'relative',
   display: 'inline-block',
+  width: switchWidth,
+  height: switchHeight,
   flexShrink: 0,
-  width: rem(SwitchWidth),
-  height: rem(SwitchHeight),
+}));
+
+const Input = styled.input(({ theme: { color } }) => ({
+  ...hideVisually(),
+  [`&:checked + ${Slider}`]: {
+    backgroundColor: color.piccolo[100],
+    '&::before': {
+      backgroundColor: color.goten[100],
+      transform: `translateX(calc(${switchWidth} / 2))`,
+    },
+  },
+}));
+
+type ChangeHandler = (value: boolean) => void;
+const handleChange = (onChange: ChangeHandler) => (
+  event: React.ChangeEvent<HTMLInputElement>
+) => {
+  if (typeof onChange === 'function') {
+    onChange(event.target.checked);
+  }
 };
 
-const inputStyle: CSSObject = {
-  opacity: 0,
-  width: 0,
-  height: 0,
-  '&:checked + .slider': {
-    backgroundColor: colors.brand,
-  },
-  '&:checked + .slider:before': {
-    backgroundColor: colors.neutral[10],
-    transform: 'translateX(32px)',
-  },
+type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;
+
+export type SwitchProps = {
+  id?: HTMLInputProps['id'];
+  // As this is a React component, we need to pass the `className` prop to allow
+  // component styling with Styled Components.
+  // https://www.styled-components.com/docs/advanced#existing-css
+  className?: string;
+  checked?: HTMLInputProps['checked'];
+  onChange?: ChangeHandler;
 };
 
-const slider: CSSObject = {
-  position: 'absolute',
-  width: rem(SwitchWidth),
-  height: rem(SwitchHeight),
-  top: 0,
-  left: 0,
-  right: 0,
-  bottom: 0,
-  cursor: 'pointer',
-  backgroundColor: colors.neutral[70],
-  transition: `${animation.speed.default}s`,
-  borderRadius: rem(34),
-  '&::before': {
-    position: 'absolute',
-    content: '""',
-    height: rem(24),
-    width: rem(24),
-    left: rem(4),
-    bottom: rem(4),
-    backgroundColor: colors.neutral[20],
-    transition: `${animation.speed.default}s`,
-    borderRadius: '50%',
-  },
-};
+export const Switch: React.FC<SwitchProps> = ({
+  checked,
+  id,
+  className,
+  onChange,
+  ...props
+}) => {
+  const autoId = id || `Switch-${uniqueId()}`;
 
-const Switch: React.FC<SwitchProps> = props => {
   return (
-    /* Disable as `label` wraps input */
-    /* eslint-disable-next-line jsx-a11y/label-has-associated-control */
-    <label css={switcher}>
-      <input css={inputStyle} type="checkbox" {...props} />
-      <span css={slider} className="slider" />
-    </label>
+    <Label className={className} htmlFor={autoId} {...props}>
+      <Input
+        id={autoId}
+        as="input"
+        type="checkbox"
+        checked={checked}
+        onChange={onChange && handleChange(onChange)}
+      />
+      <Slider />
+    </Label>
   );
 };
-
-export { Switch };

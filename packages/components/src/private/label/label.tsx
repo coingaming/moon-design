@@ -1,7 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { breakpoints } from '@heathmont/sportsbet-tokens';
-import { mq, rem, spacing } from '@heathmont/sportsbet-utils';
+import { mq, rem } from '@heathmont/sportsbet-utils';
 
 import { Input } from '../input/input';
 import { inputColors } from '../input/settings';
@@ -35,29 +34,31 @@ type LabelProps = LabelSizing & {
 /**
  * Styles
  */
-const LabelContent = styled.span<LabelContentProps>(({ disabled, flex }) => [
-  {
-    display: 'block',
-    marginBottom: spacing('small'),
-    color: inputColors.label,
-    fontSize: rem(16),
-  },
-  flex && {
-    [mq(breakpoints.small)]: {
-      flex: 1,
-      paddingRight: spacing(),
-      marginBottom: 0,
+const LabelContent = styled.span<LabelContentProps>(
+  ({ disabled, flex, theme }) => [
+    {
+      display: 'block',
+      marginBottom: rem(theme.space.small),
+      color: inputColors('label')(theme),
+      fontSize: rem(16),
     },
-  },
-  disabled && {
-    opacity: 0.5,
-  },
-]);
+    flex && {
+      [mq(theme.breakpoint.small)]: {
+        flex: 1,
+        paddingRight: rem(theme.space.default),
+        marginBottom: 0,
+      },
+    },
+    disabled && {
+      opacity: 0.5,
+    },
+  ]
+);
 
 const LabelFlex = styled.label<LabelSizing>(
-  ({ flex, inputGrow }) =>
+  ({ flex, inputGrow, theme: { breakpoint } }) =>
     flex && {
-      [mq(breakpoints.small)]: {
+      [mq(breakpoint.small)]: {
         display: 'flex',
         alignItems: 'center',
         ...(inputGrow && {
