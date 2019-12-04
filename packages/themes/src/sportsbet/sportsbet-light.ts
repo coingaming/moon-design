@@ -1,16 +1,6 @@
-import { shared } from '../shared/shared';
 import { Theme } from '../types/theme';
 
-import { sportsbet } from './private/sportsbet';
-
-const darks = {
-  100: '#1A212A',
-  80: '#31373F',
-  60: '#484D55',
-  40: '#5F646A',
-  20: '#767A7F',
-  10: '#8C9095',
-};
+import { sportsbetShared } from './sportsbet-shared';
 
 const lights = {
   100: '#F7F7F7',
@@ -40,38 +30,25 @@ const color = {
     20: '#DDDDDD',
     10: '#DADADA',
   },
-  goten: darks,
-  bulma: darks,
+  bulma: {
+    100: '#1A212A',
+    80: '#31373F',
+    60: '#484D55',
+    40: '#5F646A',
+    20: '#767A7F',
+    10: '#8C9095',
+  },
 };
 
-const {
-  base,
-  border,
-  borderStyle,
-  borderWidth,
-  breakpoint,
-  radius,
-  space,
-  transitionDuration,
-} = shared;
+const { color: sharedColor, ...sharedTheme } = sportsbetShared;
 
 export const sportsbetLight: Theme = {
-  base,
-  border,
-  borderStyle,
-  borderWidth,
-  brand: 'Sportsbet.io',
-  breakpoint,
+  ...sharedTheme,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
     ...color,
-    ...sportsbet.color,
-    ...shared.color,
+    ...sharedColor,
   },
   colorScheme: 'light',
-  ...sportsbet.font,
-  radius,
-  space,
-  transitionDuration,
 };
