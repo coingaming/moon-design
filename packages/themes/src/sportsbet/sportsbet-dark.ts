@@ -1,16 +1,9 @@
-import { shared } from '../shared/shared';
 import { Theme } from '../types/theme';
 
-import { sportsbet } from './private/sportsbet';
+import { sportsbetShared } from './sportsbet-shared';
 
-const lights = {
-  100: '#FFFFFF',
-  80: '#F3F5F6',
-  60: '#EDEFF1',
-  40: '#E7EAEC',
-  20: '#DBE0E3',
-  10: '#CFD5DA',
-};
+const boxShadow =
+  '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
 
 const color = {
   hit: {
@@ -45,38 +38,33 @@ const color = {
     20: '#4D5359',
     10: '#585E64',
   },
-  goten: lights,
-  bulma: lights,
+  bulma: {
+    100: '#FFFFFF',
+    80: '#F3F5F6',
+    60: '#EDEFF1',
+    40: '#E7EAEC',
+    20: '#DBE0E3',
+    10: '#CFD5DA',
+  },
 };
 
 const {
-  base,
-  border,
-  borderStyle,
-  borderWidth,
-  breakpoint,
-  radius,
-  space,
-  transitionDuration,
-} = shared;
+  /* Keys we don't need */
+  /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
+  boxShadow: sharedBoxShadow,
+  // Keys we do need
+  color: sharedColor,
+  ...sharedTheme
+} = sportsbetShared;
 
 export const sportsbetDark: Theme = {
-  base,
-  border,
-  borderStyle,
-  borderWidth,
-  breakpoint,
-  brand: 'Sportsbet.io',
+  ...sharedTheme,
+  boxShadow,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
     ...color,
-    ...sportsbet.color,
-    ...shared.color,
+    ...sharedColor,
   },
   colorScheme: 'dark',
-  ...sportsbet.font,
-  radius,
-  space,
-  transitionDuration,
 };

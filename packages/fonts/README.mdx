@@ -29,13 +29,14 @@ export const App = () => (
 );
 ```
 
-2. Import crucial font settings into your design tokens for further
+2. Import crucial font settings into your theme's design tokens for further
    implementation:
 
 ```js
 import { avertaStd } from '@heathmont/sportsbet-fonts';
 
-export const typography = {
+export const yourTheme = {
+  // other theme settings…
   fontFamily: avertaStd.fontStack,
   fontWeight: avertaStd.fontWeight,
 };
