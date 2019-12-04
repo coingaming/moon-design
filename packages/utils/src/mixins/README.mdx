@@ -19,14 +19,14 @@ Quickly jump out of any parent's constraining `maxWidth` by applying the `breako
 
 ```jsx react-live
 () => {
-  const { colors } = useTheme();
+  const { color } = useTheme();
 
   const Example = styled.div(({ css }) => css);
 
   return (
-    <Example css={{ ...container(), background: colors.piccolo[100] }}>
+    <Example css={{ ...container(), background: color.piccolo[100] }}>
       <p>Bound by the Sportsbet container</p>
-      <Example css={{ ...breakout, background: colors.chiChi[100] }}>
+      <Example css={{ ...breakout, background: color.chiChi[100] }}>
         <p>Breakout from the parent container</p>
       </Example>
     </Example>
@@ -46,17 +46,17 @@ Returns a given [container "key"](/themes/tokens#container) value as a `rem`-bas
 
 ```jsx react-live
 () => {
-  const { border, colors } = useTheme();
+  const { border, color, maxWidth } = useTheme();
 
-  const borderColor = { borderColor: colors.bulma[100] };
+  const borderColor = { borderColor: color.bulma[100] };
   const Example = styled.div(({ css }) => css);
 
   return (
     <>
-      <Example css={{ ...container(), border, borderColor }}>
+      <Example css={{ ...container(maxWidth.default), border, borderColor }}>
         "default" Container
       </Example>
-      <Example css={{ ...container('large'), border, borderColor }}>
+      <Example css={{ ...container(maxWidth.large), border, borderColor }}>
         "large" Container
       </Example>
       <Example css={{ ...container(300), border, borderColor }}>
@@ -77,20 +77,28 @@ key or a pixel value (as a `number`) which will be convert to `rem`
 
 ```jsx react-live
 () => {
-  const { border, colors } = useTheme();
+  const { border, color, maxWidth, space } = useTheme();
 
-  const borderColor = { borderColor: colors.bulma[100] };
+  const borderColor = { borderColor: color.bulma[100] };
   const Example = styled.div(({ css }) => css);
 
   return (
     <>
-      <Example css={{ ...container('default', 'large'), border, borderColor }}>
+      <Example
+        css={{
+          ...container(maxWidth.default, space.default),
+          border,
+          borderColor,
+        }}
+      >
         "default" Container and "large" padding
       </Example>
-      <Example css={{ ...container('default', 50), border, borderColor }}>
+      <Example
+        css={{ ...container(maxWidth.default, 50), border, borderColor }}
+      >
         "default" Container and 50px padding (in REM)
       </Example>
-      <Example css={{ ...container('default', 0), border, borderColor }}>
+      <Example css={{ ...container(maxWidth.default, 0), border, borderColor }}>
         "default" Container with no padding
       </Example>
     </>
@@ -110,7 +118,7 @@ Apply common disabled styles to UI elements such as buttons and forms.
 
 ```jsx react-live
 () => {
-  const { colors } = useTheme();
+  const { color } = useTheme();
 
   const ButtonExample = styled.button(({ css }) => css);
 
@@ -121,7 +129,7 @@ Apply common disabled styles to UI elements such as buttons and forms.
       </ButtonExample>
       <ButtonExample
         disabled
-        css={{ ...disabled({ color: colors.bulma[100] }) }}
+        css={{ ...disabled(0.5, { color: color.bulma[100] }) }}
       >
         Submit
       </ButtonExample>
@@ -138,15 +146,16 @@ import { focus } from '@heathmont/sportsbet-utils';
 
 Override browser-default `:focus` styles to the preferred appearance.
 
-By default `focus()` this renders with the `brand` color, but an alternative color can be supplied.
-
 ```jsx react-live
 () => {
   const ButtonExample = styled.button(({ css }) => css);
+  const { color } = useTheme();
 
   return (
     <>
-      <ButtonExample css={{ ...focus() }}>Focus on to me</ButtonExample>
+      <ButtonExample css={{ ...focus(color.piccolo[100]) }}>
+        Focus on to me
+      </ButtonExample>
       <ButtonExample css={{ ...focus('rebeccapurple') }}>
         Focus on to me
       </ButtonExample>
