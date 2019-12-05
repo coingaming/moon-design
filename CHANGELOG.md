@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.99.0](https://github.com/coingaming/sportsbet-design/compare/v0.98.99...v0.99.0) (2019-12-05)
+
+
+### Features
+
+* add poker, support and fantasy sports icons to the README.mdx ([bc61eaa](https://github.com/coingaming/sportsbet-design/commit/bc61eaa))
+* add support & fantasy & poker icons ([90a65be](https://github.com/coingaming/sportsbet-design/commit/90a65be))
+
+
+
+
+
 ## [0.98.99](https://github.com/coingaming/sportsbet-design/compare/v0.98.98...v0.98.99) (2019-11-26)
 
 
