@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.101.0](https://github.com/coingaming/sportsbet-design/compare/v0.100.0...v0.101.0) (2019-12-06)
+
+
+### Bug Fixes
+
+* make it a square ([a9c0752](https://github.com/coingaming/sportsbet-design/commit/a9c0752))
+
+
+### Features
+
+* add starsflag icon for promotions ([4bb90f2](https://github.com/coingaming/sportsbet-design/commit/4bb90f2))
+
+
+
+
+
 # [0.100.0](https://github.com/coingaming/sportsbet-design/compare/v0.99.0...v0.100.0) (2019-12-06)
 
 
