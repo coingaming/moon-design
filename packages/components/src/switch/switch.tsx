@@ -100,20 +100,21 @@ Input.defaultProps = {
 type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;
 
 export type SwitchProps = {
-  id?: HTMLInputProps['id'];
   checked?: HTMLInputProps['checked'];
   className?: string;
   captionUnchecked?: string;
   captionChecked?: string;
+  id?: HTMLInputProps['id'];
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 } & SliderColorScheme;
 
 export const Switch: React.FC<SwitchProps> = ({
   className,
   captionChecked,
   captionUnchecked,
-  id,
   checked,
   colorScheme,
+  id,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
