@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem } from '@heathmont/sportsbet-utils';
 
-import { listPlain, listPlainItem } from '../lists/lists';
 import { inputSpacingY } from '../private/input/settings';
 import { Input } from '../private/input/input';
+import { Stack } from '../stack/stack';
 
 /**
  * Types
@@ -18,8 +18,6 @@ type FormProps = FormElement & {
   maxWidth?: string;
   fullWidth?: boolean;
 };
-
-const FormList = styled.ul(listPlain, { marginTop: 0 });
 
 const Fieldset = styled.fieldset({
   border: 0,
@@ -39,7 +37,7 @@ const Form: React.FC<FormProps> = ({
     <form css={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
       <Fieldset>
         <legend css={hideVisually()}>{legend}</legend>
-        <FormList>{children}</FormList>
+        <Stack as="ul">{children}</Stack>
       </Fieldset>
     </form>
   );
@@ -48,10 +46,7 @@ const Form: React.FC<FormProps> = ({
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-const FormItem = styled.li<any>(({ theme: { space } }) => [
-  listPlainItem,
-  { marginBottom: rem(space.small) },
-]);
+const FormItem = styled.li({});
 
 const FormCombo = styled.div({
   display: 'block',
