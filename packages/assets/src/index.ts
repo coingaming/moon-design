@@ -166,6 +166,8 @@ export { default as IconLoyalty0 } from './icons/IconLoyalty0';
 export * from './icons/IconLoyalty0';
 export { default as IconMenuHome } from './icons/IconMenuHome';
 export * from './icons/IconMenuHome';
+export { default as IconMoon } from './icons/IconMoon';
+export * from './icons/IconMoon';
 export { default as IconNotification } from './icons/IconNotification';
 export * from './icons/IconNotification';
 export {
@@ -256,6 +258,8 @@ export { default as IconStats } from './icons/IconStats';
 export * from './icons/IconStats';
 export { default as IconSuccess } from './icons/IconSuccess';
 export * from './icons/IconSuccess';
+export { default as IconSun } from './icons/IconSun';
+export * from './icons/IconSun';
 export { default as IconTelegram } from './icons/IconTelegram';
 export * from './icons/IconTelegram';
 export { default as IconTwitter } from './icons/IconTwitter';

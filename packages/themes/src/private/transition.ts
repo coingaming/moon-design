@@ -10,7 +10,7 @@ export const themeTransitionDuration = 250;
 export const ThemeTransition = createGlobalStyle`
   .${themeTransitionClass} {
     &, *, *::before, *::after {
-      transition-property: color, background-color, border-color !important;
+      transition-property: color, background-color, border-color, transform !important;
       transition-timing-function: ease !important;
       transition-duration: ${themeTransitionDuration}ms !important;
     }
