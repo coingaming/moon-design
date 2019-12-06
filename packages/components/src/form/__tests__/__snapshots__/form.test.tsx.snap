@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Form renders a form combo 1`] = `
-.c3 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
 }
 
 .c1 {
@@ -33,201 +36,10 @@ exports[`Form renders a form combo 1`] = `
 
 .c4 {
   display: block;
-  list-style-type: none;
-  margin-bottom: 0.5rem;
-}
-
-.c4:before {
-  position: absolute;
-  content: "\\200B";
-}
-
-.c5 {
-  display: block;
   position: relative;
 }
 
-.c6 .c8 {
-  border-radius: 6.25rem;
-}
-
-.c10 {
-  position: absolute;
-  right: 0.28125rem;
-  bottom: 0.28125rem;
-}
-
-.c7 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
-.c9 {
-  width: 100%;
-  max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font: inherit;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: #FFFFFF;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
-  border-radius: 4px;
-  -webkit-transition: border-color 0.2s ease;
-  transition: border-color 0.2s ease;
-  -webkit-appearance: none;
-}
-
-.c9::-webkit-input-placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c9::-moz-placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c9:-ms-input-placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c9::placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c9:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
-}
-
-.c9:not(:placeholder-shown):not([type="date"]):invalid {
-  border-color: #FF4E64;
-}
-
-.c9:invalid,
-.c9:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-.c9:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.c9:focus {
-  border-color: #0CD664;
-  outline: none;
-}
-
-<form
-  className="c0"
->
-  <fieldset
-    className="c1"
-  >
-    <legend
-      className="c2"
-    >
-      2FA
-    </legend>
-    <ul
-      className="c3"
-    >
-      <li
-        className="c4"
-      >
-        <div
-          className="c5"
-        >
-          <div
-            className="c6"
-          >
-            <label
-              className=""
-            >
-              <span
-                className="c7"
-              >
-                Enable Two Factor Authentication
-              </span>
-              <input
-                className="c8 c9"
-                placeholder="Enter code"
-                type="text"
-              />
-            </label>
-          </div>
-          <div
-            className="c10"
-          >
-            <button
-              type="submit"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </fieldset>
-</form>
-`;
-
-exports[`Form renders a form combo without a label 1`] = `
-.c3 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.c1 {
-  border: 0;
-}
-
-.c0 {
-  max-width: 25rem;
-  width: auto;
-}
-
-.c2 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.c4 {
-  display: block;
-  list-style-type: none;
-  margin-bottom: 0.5rem;
-}
-
-.c4:before {
-  position: absolute;
-  content: "\\200B";
-}
-
-.c5 {
-  display: block;
-  position: relative;
-}
-
-.c6 .c7 {
+.c5 .c7 {
   border-radius: 6.25rem;
 }
 
@@ -235,6 +47,13 @@ exports[`Form renders a form combo without a label 1`] = `
   position: absolute;
   right: 0.28125rem;
   bottom: 0.28125rem;
+}
+
+.c6 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
 }
 
 .c8 {
@@ -299,6 +118,19 @@ exports[`Form renders a form combo without a label 1`] = `
   outline: none;
 }
 
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
+}
+
 <form
   className="c0"
 >
@@ -314,19 +146,28 @@ exports[`Form renders a form combo without a label 1`] = `
       className="c3"
     >
       <li
-        className="c4"
+        className=""
       >
         <div
-          className="c5"
+          className="c4"
         >
           <div
-            className="c6"
+            className="c5"
           >
-            <input
-              className="c7 c8"
-              placeholder="Enter code"
-              type="text"
-            />
+            <label
+              className=""
+            >
+              <span
+                className="c6"
+              >
+                Enable Two Factor Authentication
+              </span>
+              <input
+                className="c7 c8"
+                placeholder="Enter code"
+                type="text"
+              />
+            </label>
           </div>
           <div
             className="c9"
@@ -344,18 +185,190 @@ exports[`Form renders a form combo without a label 1`] = `
 </form>
 `;
 
+exports[`Form renders a form combo without a label 1`] = `
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c1 {
+  border: 0;
+}
+
+.c0 {
+  max-width: 25rem;
+  width: auto;
+}
+
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c4 {
+  display: block;
+  position: relative;
+}
+
+.c5 .c6 {
+  border-radius: 6.25rem;
+}
+
+.c8 {
+  position: absolute;
+  right: 0.28125rem;
+  bottom: 0.28125rem;
+}
+
+.c7 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5625rem 0.9375rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c7:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
+}
+
+.c7:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c7:invalid,
+.c7:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c7:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c7:focus {
+  border-color: #0CD664;
+  outline: none;
+}
+
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+<form
+  className="c0"
+>
+  <fieldset
+    className="c1"
+  >
+    <legend
+      className="c2"
+    >
+      2FA
+    </legend>
+    <ul
+      className="c3"
+    >
+      <li
+        className=""
+      >
+        <div
+          className="c4"
+        >
+          <div
+            className="c5"
+          >
+            <input
+              className="c6 c7"
+              placeholder="Enter code"
+              type="text"
+            />
+          </div>
+          <div
+            className="c8"
+          >
+            <button
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
+
 exports[`Form renders correctly 1`] = `
-.c5 {
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c4 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
-}
-
-.c3 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
 }
 
 .c1 {
@@ -381,15 +394,17 @@ exports[`Form renders correctly 1`] = `
   width: 1px;
 }
 
-.c4 {
-  display: block;
-  list-style-type: none;
-  margin-bottom: 0.5rem;
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
 }
 
-.c4:before {
-  position: absolute;
-  content: "\\200B";
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
 }
 
 <form
@@ -407,7 +422,7 @@ exports[`Form renders correctly 1`] = `
       className="c3"
     >
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -421,7 +436,7 @@ exports[`Form renders correctly 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -433,14 +448,14 @@ exports[`Form renders correctly 1`] = `
           />
         </label>
         <p
-          className="c5"
+          className="c4"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput2"
@@ -455,7 +470,7 @@ exports[`Form renders correctly 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <button
           type="submit"
@@ -470,17 +485,20 @@ exports[`Form renders correctly 1`] = `
 `;
 
 exports[`Form renders with HTML form attributes 1`] = `
-.c5 {
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c4 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
-}
-
-.c3 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
 }
 
 .c1 {
@@ -506,15 +524,17 @@ exports[`Form renders with HTML form attributes 1`] = `
   width: 1px;
 }
 
-.c4 {
-  display: block;
-  list-style-type: none;
-  margin-bottom: 0.5rem;
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
 }
 
-.c4:before {
-  position: absolute;
-  content: "\\200B";
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
 }
 
 <form
@@ -534,7 +554,7 @@ exports[`Form renders with HTML form attributes 1`] = `
       className="c3"
     >
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -548,7 +568,7 @@ exports[`Form renders with HTML form attributes 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -560,14 +580,14 @@ exports[`Form renders with HTML form attributes 1`] = `
           />
         </label>
         <p
-          className="c5"
+          className="c4"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput2"
@@ -582,7 +602,7 @@ exports[`Form renders with HTML form attributes 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <button
           type="submit"
@@ -597,17 +617,20 @@ exports[`Form renders with HTML form attributes 1`] = `
 `;
 
 exports[`Form renders with custom fullWidth 1`] = `
-.c5 {
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c4 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
-}
-
-.c3 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
 }
 
 .c1 {
@@ -633,15 +656,17 @@ exports[`Form renders with custom fullWidth 1`] = `
   width: 1px;
 }
 
-.c4 {
-  display: block;
-  list-style-type: none;
-  margin-bottom: 0.5rem;
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
 }
 
-.c4:before {
-  position: absolute;
-  content: "\\200B";
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
 }
 
 <form
@@ -659,7 +684,7 @@ exports[`Form renders with custom fullWidth 1`] = `
       className="c3"
     >
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -673,7 +698,7 @@ exports[`Form renders with custom fullWidth 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -685,14 +710,14 @@ exports[`Form renders with custom fullWidth 1`] = `
           />
         </label>
         <p
-          className="c5"
+          className="c4"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput2"
@@ -707,7 +732,7 @@ exports[`Form renders with custom fullWidth 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <button
           type="submit"
@@ -722,17 +747,20 @@ exports[`Form renders with custom fullWidth 1`] = `
 `;
 
 exports[`Form renders with custom maxWidth 1`] = `
-.c5 {
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c4 {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 0.75rem;
   color: #FF4E64;
-}
-
-.c3 {
-  display: block;
-  margin-left: 0;
-  margin-top: 0;
 }
 
 .c1 {
@@ -759,15 +787,17 @@ exports[`Form renders with custom maxWidth 1`] = `
   width: 1px;
 }
 
-.c4 {
-  display: block;
-  list-style-type: none;
-  margin-bottom: 0.5rem;
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
 }
 
-.c4:before {
-  position: absolute;
-  content: "\\200B";
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
 }
 
 <form
@@ -785,7 +815,7 @@ exports[`Form renders with custom maxWidth 1`] = `
       className="c3"
     >
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -799,7 +829,7 @@ exports[`Form renders with custom maxWidth 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput1"
@@ -811,14 +841,14 @@ exports[`Form renders with custom maxWidth 1`] = `
           />
         </label>
         <p
-          className="c5"
+          className="c4"
           role="alert"
         >
           Please enter a valid password.
         </p>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <label
           htmlFor="testInput2"
@@ -833,7 +863,7 @@ exports[`Form renders with custom maxWidth 1`] = `
         </label>
       </li>
       <li
-        className="c4"
+        className=""
       >
         <button
           type="submit"
