@@ -11,6 +11,8 @@ exports[`Switch renders as checked 1`] = `
   bottom: 0;
   cursor: pointer;
   background-color: #353C44;
+  background-position: left 0.5rem center,right 0.5rem center;
+  background-repeat: no-repeat;
   border-radius: calc(var(--switch-width) + 0.125rem);
   -webkit-transition-property: background-color;
   transition-property: background-color;
@@ -28,7 +30,7 @@ exports[`Switch renders as checked 1`] = `
   height: var(--switch-indicator-size);
   left: 0.25rem;
   bottom: 0.25rem;
-  background-color: #8697A2;
+  background-color: #232A33;
   border-radius: 50%;
   -webkit-transition: inherit;
   transition: inherit;
@@ -78,7 +80,6 @@ exports[`Switch renders as checked 1`] = `
 
 <label
   className="c0"
-  htmlFor="test-switch-2"
 >
   <input
     checked={true}
@@ -103,6 +104,8 @@ exports[`Switch renders by default 1`] = `
   bottom: 0;
   cursor: pointer;
   background-color: #353C44;
+  background-position: left 0.5rem center,right 0.5rem center;
+  background-repeat: no-repeat;
   border-radius: calc(var(--switch-width) + 0.125rem);
   -webkit-transition-property: background-color;
   transition-property: background-color;
@@ -120,7 +123,7 @@ exports[`Switch renders by default 1`] = `
   height: var(--switch-indicator-size);
   left: 0.25rem;
   bottom: 0.25rem;
-  background-color: #8697A2;
+  background-color: #232A33;
   border-radius: 50%;
   -webkit-transition: inherit;
   transition: inherit;
@@ -170,7 +173,6 @@ exports[`Switch renders by default 1`] = `
 
 <label
   className="c0"
-  htmlFor="test-switch-1"
 >
   <input
     className="c1"
