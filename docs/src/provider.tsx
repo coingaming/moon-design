@@ -16,6 +16,7 @@ export const DocsThemeContext = React.createContext({
   },
   themeKeys: [''],
   cycleTheme: () => {},
+  toggleColorScheme: () => {},
 });
 
 export const useDocsTheme = () => React.useContext(DocsThemeContext);
@@ -25,6 +26,18 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
 }) => {
   const [themeState, setThemeState] = React.useState('sportsbetDark');
 
+  /**
+   * Toggle between themes 'dark' and 'light' states
+   */
+  const toggleColorScheme = () => {
+    themeState.endsWith('Dark')
+      ? setThemeState(themeState.replace('Dark', 'Light'))
+      : setThemeState(themeState.replace('Light', 'Dark'));
+  };
+
+  /**
+   * Rotate through all themes
+   */
   const cycleTheme = () => {
     /* eslint-disable-next-line no-console */
     console.info('🎨 Theme: ', themeState, themes[themeState]);
@@ -39,7 +52,9 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   const themeKeys = Object.keys(themes);
 
   return (
-    <DocsThemeContext.Provider value={{ cycleTheme, setTheme, themeKeys }}>
+    <DocsThemeContext.Provider
+      value={{ cycleTheme, setTheme, themeKeys, toggleColorScheme }}
+    >
       <ThemeProvider theme={themes[themeState]} hasTransition>
         {children}
       </ThemeProvider>

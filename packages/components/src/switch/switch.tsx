@@ -1,7 +1,11 @@
 import * as React from 'react';
-import styled from 'styled-components';
-import { rem, uniqueId } from '@heathmont/sportsbet-utils';
+import styled, { CSSObject } from 'styled-components';
+import { rem, uniqueId, inlineSVG } from '@heathmont/sportsbet-utils';
 import { hideVisually } from 'polished';
+import { ColorScheme } from '@heathmont/sportsbet-themes';
+import { IconMoon, IconSun } from '@heathmont/sportsbet-assets';
+
+import { Inline } from '../inline/inline';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
@@ -9,8 +13,25 @@ const switchWidth = `var(${switchWidthProperty})`;
 const switchHeightProperty = '--switch-height';
 const switchHeight = `var(${switchHeightProperty})`;
 
-const Slider = styled.span(
-  ({ theme: { color, space, transitionDuration } }) => ({
+type SliderColorScheme = {
+  colorScheme?: boolean;
+};
+
+const indicatorBoxShadow = (
+  themeColorScheme: ColorScheme
+): CSSObject['boxShadow'] =>
+  `0px 2.3px 4px rgba(0,0,0,0.${themeColorScheme === 'dark' ? 408 : 108})`;
+
+const Caption = styled.span(({ theme: { color, fontWeight } }) => ({
+  color: color.trunks[100],
+  fontWeight: fontWeight.semibold,
+}));
+
+const Slider = styled.span<SliderColorScheme>(
+  ({
+    colorScheme,
+    theme: { color, colorScheme: themeColorScheme, space, transitionDuration },
+  }) => ({
     position: 'absolute',
     width: switchWidth,
     height: switchHeight,
@@ -19,7 +40,14 @@ const Slider = styled.span(
     right: 0,
     bottom: 0,
     cursor: 'pointer',
-    backgroundColor: color.goku[80],
+    backgroundColor: colorScheme ? color.gohan[100] : color.goku[80],
+    backgroundImage: colorScheme
+      ? `${inlineSVG(<IconMoon />)}, ${inlineSVG(<IconSun />)}`
+      : undefined,
+    backgroundPosition: `left ${rem(space.small)} center, right ${rem(
+      space.small
+    )} center`,
+    backgroundRepeat: 'no-repeat',
     borderRadius: `calc(${switchWidth} + ${rem(2)})`,
     transitionProperty: 'background-color',
     transitionDuration: `${transitionDuration.slow}s`,
@@ -32,7 +60,8 @@ const Slider = styled.span(
       height: 'var(--switch-indicator-size)',
       left: rem(space.xsmall),
       bottom: rem(space.xsmall),
-      backgroundColor: color.trunks[100],
+      backgroundColor: themeColorScheme ? color.goku[100] : color.trunks[100],
+      boxShadow: colorScheme ? indicatorBoxShadow(themeColorScheme) : undefined,
       borderRadius: '50%',
       transition: 'inherit',
       transitionProperty: 'background-color, transform',
@@ -51,57 +80,74 @@ const Label = styled.label(({ theme: { space } }) => ({
   flexShrink: 0,
 }));
 
-const Input = styled.input(({ theme: { color } }) => ({
-  ...hideVisually(),
-  [`&:checked + ${Slider}`]: {
-    backgroundColor: color.piccolo[100],
-    '&::before': {
-      backgroundColor: color.goten[100],
-      transform: `translateX(calc(${switchWidth} / 2))`,
+const Input = styled.input<SliderColorScheme>(
+  ({ colorScheme, theme: { color } }) => ({
+    ...hideVisually(),
+    [`&:checked + ${Slider}`]: {
+      backgroundColor: colorScheme ? undefined : color.piccolo[100],
+      '&::before': {
+        backgroundColor: colorScheme ? undefined : color.goten[100],
+        transform: `translateX(calc(${switchWidth} / 2))`,
+      },
     },
-  },
-}));
+  })
+);
 
-type ChangeHandler = (value: boolean) => void;
-const handleChange = (onChange: ChangeHandler) => (
-  event: React.ChangeEvent<HTMLInputElement>
-) => {
-  if (typeof onChange === 'function') {
-    onChange(event.target.checked);
-  }
+Input.defaultProps = {
+  type: 'checkbox',
 };
 
 type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;
 
 export type SwitchProps = {
   id?: HTMLInputProps['id'];
-  // As this is a React component, we need to pass the `className` prop to allow
-  // component styling with Styled Components.
-  // https://www.styled-components.com/docs/advanced#existing-css
-  className?: string;
   checked?: HTMLInputProps['checked'];
-  onChange?: ChangeHandler;
-};
+  className?: string;
+  captionUnchecked?: string;
+  captionChecked?: string;
+} & SliderColorScheme;
 
 export const Switch: React.FC<SwitchProps> = ({
-  checked,
-  id,
   className,
-  onChange,
+  captionChecked,
+  captionUnchecked,
+  id,
+  checked,
+  colorScheme,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
 
+  const labelProps = {
+    className,
+  };
+
+  const inputProps = {
+    id: autoId,
+    colorScheme,
+    checked,
+    ...props,
+  };
+
+  const sliderProps = { colorScheme };
+
+  if (!captionUnchecked && !captionChecked) {
+    return (
+      <Label {...labelProps}>
+        <Input {...inputProps} />
+        <Slider {...sliderProps} />
+      </Label>
+    );
+  }
+
   return (
-    <Label className={className} htmlFor={autoId} {...props}>
-      <Input
-        id={autoId}
-        as="input"
-        type="checkbox"
-        checked={checked}
-        onChange={onChange && handleChange(onChange)}
-      />
-      <Slider />
-    </Label>
+    <Inline space="small" css={{ overflow: 'visible' }}>
+      {captionUnchecked && <Caption>{captionUnchecked}</Caption>}
+      <Label {...labelProps}>
+        <Input {...inputProps} />
+        <Slider {...sliderProps} />
+      </Label>
+      {captionChecked && <Caption>{captionChecked}</Caption>}
+    </Inline>
   );
 };
