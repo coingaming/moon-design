@@ -40,7 +40,7 @@ const LabelContent = styled.span<LabelContentProps>(
       display: 'block',
       marginBottom: rem(theme.space.small),
       color: inputColors('label')(theme),
-      fontSize: rem(16),
+      fontSize: rem(theme.base.fontSize),
     },
     flex && {
       [mq(theme.breakpoint.small)]: {
