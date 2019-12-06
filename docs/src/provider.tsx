@@ -26,10 +26,17 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
 }) => {
   const [themeState, setThemeState] = React.useState('sportsbetDark');
 
+  const consoleInfoTheme = () =>
+    process.env.NODE_ENV !== 'production' &&
+    /* eslint-disable-next-line no-console */
+    console.info('🎨 Theme: ', themeState, themes[themeState]);
+
   /**
    * Toggle between themes 'dark' and 'light' states
    */
   const toggleColorScheme = () => {
+    consoleInfoTheme();
+
     themeState.endsWith('Dark')
       ? setThemeState(themeState.replace('Dark', 'Light'))
       : setThemeState(themeState.replace('Light', 'Dark'));
@@ -39,15 +46,17 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
    * Rotate through all themes
    */
   const cycleTheme = () => {
-    /* eslint-disable-next-line no-console */
-    console.info('🎨 Theme: ', themeState, themes[themeState]);
+    consoleInfoTheme();
     const themeKeys = [...Object.keys(themes || {})];
     const i = themeKeys.indexOf(themeState);
     const next = themeKeys[(i + 1) % themeKeys.length];
     setThemeState(next);
   };
 
-  const setTheme = (themeKey: string) => setThemeState(themes[themeKey]);
+  const setTheme = (themeKey: string) => {
+    consoleInfoTheme();
+    setThemeState(themes[themeKey]);
+  };
 
   const themeKeys = Object.keys(themes);
 
