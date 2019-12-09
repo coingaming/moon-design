@@ -3,6 +3,9 @@
  */
 
 export * from './provider';
+export * from './bitcasino/bitcasino-light';
+export * from './bitcasino/bitcasino-purple';
+export * from './bitcasino/bitcasino-shared';
 export * from './shared/shared';
 export * from './sportsbet/sportsbet-dark';
 export * from './sportsbet/sportsbet-light';
