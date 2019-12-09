@@ -32,6 +32,7 @@ const tooltipIconOffset = `calc(var(${tooltipSpace}) + ${tooltipIconSize})`;
 const tooltipAnimation = css`
   animation: ${slideUpFade} ${({ theme }) => theme.transitionDuration.default}s
     ease-in-out;
+  animation-fill-mode: forwards;
 `;
 
 /**
@@ -58,7 +59,6 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
       borderColor: color.beerus[100],
       borderRadius: rem(radius.small),
       color: !error ? color.bulma[100] : color.goten[100],
-      animationFillMode: 'forwards',
       willChange: 'transform',
       [`${IconClose}`]: {
         color: color.trunks[100],

@@ -3,19 +3,40 @@ import {
   ThemeProvider,
   sportsbetDark,
   sportsbetLight,
+  bitcasinoLight,
+  bitcasinoPurple,
+  Theme,
 } from '@heathmont/sportsbet-themes';
 
-const themes: any = {
-  sportsbetDark,
-  sportsbetLight,
+const themes: DocsThemes = {
+  sportsbet: {
+    dark: sportsbetDark,
+    light: sportsbetLight,
+  },
+  bitcasino: {
+    dark: bitcasinoPurple,
+    light: bitcasinoLight,
+  },
 };
 
+type DocsTheme = {
+  dark: Theme;
+  light: Theme;
+};
+
+type DocsThemes = {
+  sportsbet: DocsTheme;
+  bitcasino: DocsTheme;
+  [key: string]: DocsTheme;
+};
+
+type DocsBrands = keyof DocsThemes;
+
 export const DocsThemeContext = React.createContext({
-  setTheme: (themeKey: string) => {
+  setBrand: (themeKey: DocsBrands) => {
     themeKey;
   },
   themeKeys: [''],
-  cycleTheme: () => {},
   toggleColorScheme: () => {},
 });
 
@@ -24,12 +45,19 @@ export const useDocsTheme = () => React.useContext(DocsThemeContext);
 export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   children,
 }) => {
-  const [themeState, setThemeState] = React.useState('sportsbetDark');
+  const [themeState, setThemeState] = React.useState({
+    brand: 'sportsbet',
+    colorMode: 'dark',
+  });
 
   const consoleInfoTheme = () =>
     process.env.NODE_ENV !== 'production' &&
     /* eslint-disable-next-line no-console */
-    console.info('🎨 Theme: ', themeState, themes[themeState]);
+    console.info(
+      '🎨 Theme: ',
+      themeState,
+      themes[themeState.brand][themeState.colorMode]
+    );
 
   /**
    * Toggle between themes 'dark' and 'light' states
@@ -37,34 +65,27 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   const toggleColorScheme = () => {
     consoleInfoTheme();
 
-    themeState.endsWith('Dark')
-      ? setThemeState(themeState.replace('Dark', 'Light'))
-      : setThemeState(themeState.replace('Light', 'Dark'));
+    setThemeState({
+      brand: themeState.brand,
+      colorMode: themeState.colorMode === 'dark' ? 'light' : 'dark',
+    });
   };
 
-  /**
-   * Rotate through all themes
-   */
-  const cycleTheme = () => {
+  const setBrand = (themeKey: DocsBrands) => {
     consoleInfoTheme();
-    const themeKeys = [...Object.keys(themes || {})];
-    const i = themeKeys.indexOf(themeState);
-    const next = themeKeys[(i + 1) % themeKeys.length];
-    setThemeState(next);
-  };
-
-  const setTheme = (themeKey: string) => {
-    consoleInfoTheme();
-    setThemeState(themes[themeKey]);
+    setThemeState({ brand: themeKey, colorMode: themeState.colorMode });
   };
 
   const themeKeys = Object.keys(themes);
 
   return (
     <DocsThemeContext.Provider
-      value={{ cycleTheme, setTheme, themeKeys, toggleColorScheme }}
+      value={{ setBrand, themeKeys, toggleColorScheme }}
     >
-      <ThemeProvider theme={themes[themeState]} hasTransition>
+      <ThemeProvider
+        theme={themes[themeState.brand][themeState.colorMode]}
+        hasTransition
+      >
         {children}
       </ThemeProvider>
     </DocsThemeContext.Provider>
