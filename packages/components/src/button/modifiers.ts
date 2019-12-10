@@ -54,7 +54,7 @@ const buttonModifier = (key: ButtonModifiers) => ({ color }: Theme) => {
     },
     optional: {
       color: color.trunks[100],
-      backgroundColor: color.hit[80],
+      backgroundColor: color.gohan[80],
       ...buttonHover({
         color: color.bulma[100],
       }),
