@@ -19,15 +19,14 @@ const themes: DocsThemes = {
   },
 };
 
-type DocsTheme = {
+type DocsColorModes = {
   dark: Theme;
   light: Theme;
 };
 
 type DocsThemes = {
-  sportsbet: DocsTheme;
-  bitcasino: DocsTheme;
-  [key: string]: DocsTheme;
+  sportsbet: DocsColorModes;
+  bitcasino: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;

@@ -2,33 +2,54 @@ import * as React from 'react';
 import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
 import { LogoSportsbet, IconChevronDown } from '@heathmont/sportsbet-assets';
-import { inlineSVG } from '@heathmont/sportsbet-utils';
-import { Link, Tooltip } from '@heathmont/sportsbet-components';
+import { mq } from '@heathmont/sportsbet-utils';
 import { useTheme } from '@heathmont/sportsbet-themes';
 
 import { useDocsTheme } from '../../provider';
 
-const LogoLink = styled(Link.withComponent('button'))(
-  ({ theme: { color, space } }) => ({
-    display: 'block',
-    textAlign: 'left',
-    maxHeight: rem(40),
-    svg: {
-      width: '100%',
-      height: '100%',
-    },
-    verticalAlign: 'middle',
-    backgroundImage: inlineSVG(<IconChevronDown color={color.trunks[100]} />),
-    backgroundSize: rem(space.default),
-    paddingRight: rem(space.default * 2),
-    backgroundPosition: `right ${rem(space.default)} center`,
-    backgroundRepeat: 'no-repeat',
+const LogoContainer = styled.div(({ theme: { breakpoint, color, space } }) => ({
+  display: 'flex',
+  position: 'relative',
+  textAlign: 'left',
+  height: rem(40),
+  width: rem(240),
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  /* The logo */
+  'svg:first-child': {
+    width: 'auto',
+    height: '100%',
     /* Select all white paths in the logo to switch with themes */
-    'svg > path[fill*="#FFF"]': {
+    'path[fill*="#FFF"]': {
       fill: color.bulma[100],
     },
-  })
-);
+  },
+  [`${IconChevronDown}`]: {
+    fontSize: rem(18),
+    marginLeft: rem(space.default),
+    flexShrink: 0,
+    color: color.trunks[100],
+  },
+  [mq(breakpoint.medium)]: {
+    width: '100%',
+  },
+}));
+
+const BrandSelect = styled.select({
+  position: 'absolute',
+  appearance: 'none',
+  color: 'transparent',
+  width: '100%',
+  border: 'none',
+  backgroundColor: 'transparent',
+  height: '100%',
+  option: {
+    color: 'initial',
+  },
+  '&:hover': {
+    cursor: 'pointer',
+  },
+});
 
 const LogoBitcasino = () => (
   <svg
@@ -75,28 +96,18 @@ const LogoBitcasino = () => (
 export const Logo = () => {
   const { setBrand } = useDocsTheme();
   const { brand } = useTheme();
-  const [showTooltip, setShowTooltip] = React.useState(false);
-
-  const toggleTooltip = () =>
-    showTooltip ? setShowTooltip(false) : setShowTooltip(true);
-
-  const handleClick = () => {
-    brand === 'Sportsbet.io' ? setBrand('bitcasino') : setBrand('sportsbet');
-    toggleTooltip();
-  };
 
   return (
-    <LogoLink onClick={() => toggleTooltip()}>
-      {brand === 'Sportsbet.io' && <LogoSportsbet width="100%" height="auto" />}
+    <LogoContainer>
+      {brand === 'Sportsbet.io' && <LogoSportsbet height="100%" width="auto" />}
       {brand === 'Bitcasino.io' && <LogoBitcasino />}
 
-      <Tooltip active={showTooltip}>
-        Switch to {/* eslint-disable-next-line */}
-        <Link as="button" onClick={() => handleClick()}>
-          {brand === 'Sportsbet.io' ? 'Bitcasino.io' : 'Sportsbet.io'}
-        </Link>
-        ?
-      </Tooltip>
-    </LogoLink>
+      <IconChevronDown aria-hidden="true" />
+
+      <BrandSelect onChange={e => setBrand(e.target.value)}>
+        <option value="sportsbet">Sportsbet.io</option>
+        <option value="bitcasino">Bitcasino.io</option>
+      </BrandSelect>
+    </LogoContainer>
   );
 };
