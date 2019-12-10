@@ -38,7 +38,7 @@ const inputColors = (key: keyof InputColors) => ({ color }: Theme) => {
     placeholder: color.trunks[100],
     borderDefault: color.beerus[100],
     borderHover: color.beerus[20],
-    background: color.hit[100],
+    background: color.gohan[100],
     disabled: color.goku[80],
   };
 

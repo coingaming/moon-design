@@ -26,7 +26,7 @@ export const DialogOverlay = styled(ReachDialogOverlay)(
     bottom: '0',
     left: '0',
     overflow: 'hidden',
-    backgroundColor: color.hit[100] && rgba(color.hit[100], 0.75),
+    backgroundColor: color.gohan[100] && rgba(color.gohan[100], 0.75),
     zIndex: zIndex.dialog,
   })
 );

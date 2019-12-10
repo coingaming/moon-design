@@ -21,7 +21,7 @@ const SkipLink = styled.a(({ theme: { color, space } }) => ({
   left: rem(space.small),
   transform: 'translateY(-50%)',
   color: color.bulma[100],
-  backgroundColor: color.hit[80],
+  backgroundColor: color.gohan[80],
   '&:not(:focus)': {
     ...hideVisually(),
   },
