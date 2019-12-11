@@ -1,8 +1,13 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Checkbox } from '../checkbox';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const testProps = {
   label: 'I agree to the Terms & Conditions',
@@ -10,14 +15,16 @@ const testProps = {
 
 describe('Checkbox', () => {
   test('renders by default', () => {
-    const checkbox = create(<Checkbox id="Checkbox-Test1" {...testProps} />);
+    const checkbox = create(
+      renderWithTheme(<Checkbox id="Checkbox-Test1" {...testProps} />)
+    );
 
     expect(checkbox).toMatchSnapshot();
   });
 
   test('renders as disabled', () => {
     const checkbox = create(
-      <Checkbox id="Checkbox-Test2" disabled {...testProps} />
+      renderWithTheme(<Checkbox id="Checkbox-Test2" disabled {...testProps} />)
     );
 
     expect(checkbox).toMatchSnapshot();
@@ -25,7 +32,9 @@ describe('Checkbox', () => {
 
   test('renders with hidden aria-label', () => {
     const checkbox = create(
-      <Checkbox id="Checkbox-Test3" ariaLabel="This label is hidden" />
+      renderWithTheme(
+        <Checkbox id="Checkbox-Test3" ariaLabel="This label is hidden" />
+      )
     );
 
     expect(checkbox).toMatchSnapshot();
@@ -33,14 +42,16 @@ describe('Checkbox', () => {
 
   test('renders label with HTML', () => {
     const checkbox = create(
-      <Checkbox
-        id="Checkbox-Test4"
-        label={
-          <span>
-            This is a label with a <a href="#test">link</a>.
-          </span>
-        }
-      />
+      renderWithTheme(
+        <Checkbox
+          id="Checkbox-Test4"
+          label={
+            <span>
+              This is a label with a <a href="#test">link</a>.
+            </span>
+          }
+        />
+      )
     );
 
     expect(checkbox).toMatchSnapshot();

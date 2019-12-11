@@ -11,9 +11,9 @@ exports[`Select renders a select input with options 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -26,31 +26,31 @@ exports[`Select renders a select input with options 1`] = `
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-sc-1fhmtbh-0 dwCgBY'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c0::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c0:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c0::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c0:hover:not(:focus) {
-  border-color: #5A5F65;
+.c0:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {
@@ -121,9 +121,9 @@ exports[`Select renders as disabled for default select input 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -136,31 +136,31 @@ exports[`Select renders as disabled for default select input 1`] = `
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-sc-1fhmtbh-0 dwCgBY'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -182,6 +182,18 @@ exports[`Select renders as disabled for default select input 1`] = `
   cursor: pointer;
 }
 
+@supports (-moz-appearance:none) {
+  .c1 {
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width:31.25em) {
+  .c1 {
+    width: auto;
+  }
+}
+
 @media (min-width:31.25em) {
   .jHTYw .input__Input-sc-14xvxp6-0,
   .jHTYw .c0 {
@@ -197,18 +209,6 @@ exports[`Select renders as disabled for default select input 1`] = `
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
-  }
-}
-
-@supports (-moz-appearance:none) {
-  .c1 {
-    line-height: 1.375rem;
-  }
-}
-
-@media (min-width:31.25em) {
-  .c1 {
-    width: auto;
   }
 }
 
@@ -250,9 +250,9 @@ exports[`Select renders as full-width for default select input 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -265,31 +265,31 @@ exports[`Select renders as full-width for default select input 1`] = `
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-sc-1fhmtbh-0 dwCgBY'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -311,6 +311,12 @@ exports[`Select renders as full-width for default select input 1`] = `
   cursor: pointer;
 }
 
+@supports (-moz-appearance:none) {
+  .c1 {
+    line-height: 1.375rem;
+  }
+}
+
 @media (min-width:31.25em) {
   .jHTYw .input__Input-sc-14xvxp6-0,
   .jHTYw .c0 {
@@ -326,12 +332,6 @@ exports[`Select renders as full-width for default select input 1`] = `
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
-  }
-}
-
-@supports (-moz-appearance:none) {
-  .c1 {
-    line-height: 1.375rem;
   }
 }
 
@@ -362,13 +362,6 @@ exports[`Select renders as full-width for default select input 1`] = `
 `;
 
 exports[`Select renders with label above the input 1`] = `
-.c0 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
 .c1 {
   width: 100%;
   max-width: 100%;
@@ -379,9 +372,9 @@ exports[`Select renders with label above the input 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -394,31 +387,31 @@ exports[`Select renders with label above the input 1`] = `
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-sc-1fhmtbh-0 dwCgBY'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -438,6 +431,13 @@ exports[`Select renders with label above the input 1`] = `
 .c1:hover:enabled,
 .c1:focus:enabled {
   cursor: pointer;
+}
+
+.c0 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
 }
 
 @supports (-moz-appearance:none) {
@@ -488,13 +488,6 @@ exports[`Select renders with label above the input 1`] = `
 `;
 
 exports[`Select renders with label as a flex layout evenly spaced by default 1`] = `
-.c1 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
 .c3 {
   width: 100%;
   max-width: 100%;
@@ -505,9 +498,9 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -520,31 +513,31 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-sc-1fhmtbh-0 dwCgBY'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c3::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c3::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c3:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c3::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c3:hover:not(:focus) {
-  border-color: #5A5F65;
+.c3:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c3:not(:placeholder-shown):not([type="date"]):invalid {
@@ -564,6 +557,25 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
 .c3:hover:enabled,
 .c3:focus:enabled {
   cursor: pointer;
+}
+
+.c1 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+@supports (-moz-appearance:none) {
+  .c3 {
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width:31.25em) {
+  .c3 {
+    width: auto;
+  }
 }
 
 @media (min-width:31.25em) {
@@ -593,18 +605,6 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-  }
-}
-
-@supports (-moz-appearance:none) {
-  .c3 {
-    line-height: 1.375rem;
-  }
-}
-
-@media (min-width:31.25em) {
-  .c3 {
-    width: auto;
   }
 }
 
@@ -644,13 +644,6 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
 `;
 
 exports[`Select renders with label as a flex layout with adjusted input size 1`] = `
-.c1 {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #8697A2;
-  font-size: 1rem;
-}
-
 .c3 {
   width: 100%;
   max-width: 100%;
@@ -661,9 +654,9 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -676,31 +669,31 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   background-image: url("data:image/svg+xml,%3csvg width='1em' height='1em' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg' color='%238697A2' class='IconChevronDown-sc-1fhmtbh-0 dwCgBY'%3e%3cpath d='M17.377 0L10 7.014 2.624 0 0 2.5 10 12l10-9.502z' fill='currentColor' fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
   padding-right: 2.5rem;
   background-size: 0.625rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .c3::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c3::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c3:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c3::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c3:hover:not(:focus) {
-  border-color: #5A5F65;
+.c3:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c3:not(:placeholder-shown):not([type="date"]):invalid {
@@ -720,6 +713,25 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
 .c3:hover:enabled,
 .c3:focus:enabled {
   cursor: pointer;
+}
+
+.c1 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+@supports (-moz-appearance:none) {
+  .c3 {
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width:31.25em) {
+  .c3 {
+    width: auto;
+  }
 }
 
 @media (min-width:31.25em) {
@@ -758,18 +770,6 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
-  }
-}
-
-@supports (-moz-appearance:none) {
-  .c3 {
-    line-height: 1.375rem;
-  }
-}
-
-@media (min-width:31.25em) {
-  .c3 {
-    width: auto;
   }
 }
 

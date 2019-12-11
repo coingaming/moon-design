@@ -1,10 +1,20 @@
 import styled, { CSSObject } from 'styled-components';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { themed } from '@heathmont/sportsbet-utils';
+import { SpaceProps } from '@heathmont/sportsbet-themes';
+
+import { listItemStyleTypeNone } from '../lists/lists';
 
 type StackSpace = CSSObject['marginTop'] | CSSObject['gridGap'];
 
 export type StackProps = {
-  space?: StackSpace;
+  /**
+   * Excepts a string value, number or a theme key.
+   *
+   * Theme keys are returned as a `rem`-based unit.
+   *
+   * e.g. `<Stack space="large" />` returns `space.large` as a rem unit.
+   */
+  space?: SpaceProps | StackSpace;
 };
 
 export const stack = (space: StackSpace) => ({
@@ -21,8 +31,10 @@ export const stack = (space: StackSpace) => ({
       marginTop: space,
     },
   },
+  /* Ensure direct child list-items render without bullets */
+  '& > li': listItemStyleTypeNone,
 });
 
-export const Stack = styled.div<StackProps>(({ space = spacing('default') }) =>
-  stack(space)
+export const Stack = styled.div<StackProps>(({ theme, space = 'default' }) =>
+  stack(themed('space', space)(theme))
 );

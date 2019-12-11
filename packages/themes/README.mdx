@@ -1,0 +1,115 @@
+---
+name: Introduction
+menu: Themes
+route: /themes/introduction
+---
+
+import { ThemeList } from 'docs';
+
+# Introduction
+
+Themes hold the [design tokens](/tokens) for our individual brands and are an
+integral part of our UI.
+
+## Setup
+
+### 1. Choose a Theme
+
+Currently available themes include:
+
+<ThemeList />
+
+### 2. App Root
+
+Wrap your entire application with the `<ThemeProvider />`, providing your
+preferred theme via the `theme` prop.
+
+Be sure to include [Global](/global) styles, as these will inherit the theme and set the
+integral style foundations for your app.
+
+```jsx
+/* App.tsx */
+import * as React from 'react';
+import { Global } from '@heathmont/sportsbet-global';
+import { ThemeProvider, sportsbetDark } from '@heathmont/sportsbet-themes';
+
+export const App = () => (
+  <ThemeProvider theme={sportsbetDark}>
+    <React.Fragment>
+      <Global />
+      <main>{/* Your App… */}</main>
+    </React.Fragment>
+  </ThemeProvider>
+);
+```
+
+### 3. TypeScript Support
+
+If you're using TypeScript, you can extend styled-components' types to include
+our theming schema.
+
+To make use of extra features (such as auto-completion in VSCode), create a
+`d.ts` file with the following:
+
+```js
+/* types/styled-components.d.ts */
+import 'styled-components';
+import { Theme } from '@heathmont/sportsbet-themes';
+
+declare module 'styled-components' {
+  export interface DefaultTheme extends Theme {}
+}
+```
+
+## Using Themes
+
+### With Styled Components
+
+The theme context is included by default in styled components props, and can be
+implemented as follows:
+
+```jsx
+import styled from 'styled-components';
+
+/* Access `theme` from styled component props */
+const Example = styled.div(({ theme }) => ({
+  display: 'block',
+  color: theme.color.bulma[100],
+  padding: theme.space.default,
+}));
+
+/* Alternatively, destructure the theme properties… */
+const Example = styled.div(({ theme: { color, space } }) => ({
+  display: 'block',
+  color: color.bulma[100],
+  padding: space.default,
+}));
+```
+
+### Without Styled Components
+
+The `useTheme` helper function returns the current theme from the theme context:
+
+```jsx
+import * as React from 'react';
+import { useTheme } from '@heathmont/sportsbet-themes';
+
+const Example = () => {
+  const theme = useTheme();
+
+  return <p>{theme.brand}</p>; /* Returns the theme brand name. */
+};
+```
+
+or for more manual control:
+
+```jsx
+import * as React from 'react';
+import { ThemeContext } from '@heathmont/sportsbet-themes';
+
+const Example = () => {
+  const theme = React.useContext(ThemeContext);
+
+  return <p>{theme.brand}</p>; /* Returns the theme brand name. */
+};
+```

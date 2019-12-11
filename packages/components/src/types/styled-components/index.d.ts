@@ -6,3 +6,12 @@
 
 /* eslint-disable-next-line import/no-unresolved, no-unused-vars, @typescript-eslint/no-unused-vars */
 import * as types from 'styled-components/cssprop';
+import 'styled-components';
+import { Theme } from '@heathmont/sportsbet-themes';
+
+/**
+ * Tie up our theme with Styled Components
+ */
+declare module 'styled-components' {
+  export interface DefaultTheme extends Theme {}
+}

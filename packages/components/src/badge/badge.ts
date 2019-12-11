@@ -1,29 +1,37 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
-import { border, colors } from '@heathmont/sportsbet-tokens';
+import { rem, themed } from '@heathmont/sportsbet-utils';
+import { ColorProps } from '@heathmont/sportsbet-themes';
 
 import { badgeModifiers, BadgeModifiers } from './modifiers';
 
 type BadgeProps = {
-  color?: string;
-  backgroundColor?: string;
+  color?: ColorProps;
+  backgroundColor?: ColorProps;
   modifier?: BadgeModifiers;
 };
 
 const Badge = styled.span<BadgeProps>(
-  ({ color = colors.text, backgroundColor = colors.brand, modifier }) => ({
-    color,
-    backgroundColor,
-    padding: `${rem(2)} ${rem(7)}`,
+  ({ theme: { space, fontWeight, radius } }) => ({
+    padding: `${rem(space.xsmall / 2)} ${rem(space.small - 1)}`,
+    fontSize: rem(space.small),
+    lineHeight: 1.25,
+    fontWeight: fontWeight.bold,
     textAlign: 'center',
     textTransform: 'uppercase',
-    borderRadius: border.radius.largest,
-    fontSize: rem(8),
-    lineHeight: rem(10),
+    borderRadius: rem(radius.largest),
     letterSpacing: rem(0.5),
-    fontWeight: 700,
-    ...(modifier && badgeModifiers[modifier]),
+  }),
+  ({ modifier, theme: { color } }) =>
+    modifier && badgeModifiers(modifier, color),
+  /* If a color or backgroundColor is set, override the modifier styles. */
+  ({ color, backgroundColor, theme }) => ({
+    color: themed('color', color)(theme),
+    backgroundColor: themed('color', backgroundColor)(theme),
   })
 );
+
+Badge.defaultProps = {
+  modifier: 'active',
+};
 
 export { Badge, BadgeProps };
