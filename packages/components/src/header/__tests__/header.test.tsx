@@ -1,16 +1,23 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Header, HeaderTitle } from '../header';
 import { HeaderBack } from '../header-back';
 
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
+
 describe('Header', () => {
   test('renders correctly with title', () => {
     const header = create(
-      <Header>
-        <HeaderTitle>Page Title</HeaderTitle>
-      </Header>
+      renderWithTheme(
+        <Header>
+          <HeaderTitle>Page Title</HeaderTitle>
+        </Header>
+      )
     );
 
     expect(header).toMatchSnapshot();
@@ -18,10 +25,12 @@ describe('Header', () => {
 
   test('renders correctly with title and back button', () => {
     const header = create(
-      <Header>
-        <HeaderBack href="../">Back to Cashier</HeaderBack>
-        <HeaderTitle>Page Title</HeaderTitle>
-      </Header>
+      renderWithTheme(
+        <Header>
+          <HeaderBack href="../">Back to Cashier</HeaderBack>
+          <HeaderTitle>Page Title</HeaderTitle>
+        </Header>
+      )
     );
 
     expect(header).toMatchSnapshot();

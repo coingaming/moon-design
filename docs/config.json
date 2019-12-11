@@ -8,10 +8,11 @@
     "fonts",
     "global",
     "tokens",
+    "themes",
     "utils"
   ],
   "menuSections": [
-    "Tokens",
+    "Themes",
     "Global",
     "Assets",
     "Components",

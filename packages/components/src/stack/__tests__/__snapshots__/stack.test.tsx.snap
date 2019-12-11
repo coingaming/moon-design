@@ -1,6 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Stack renders with \`default\` spacing 1`] = `
+.c0 > li {
+  list-style-type: none;
+}
+
+.c0 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
 @supports (grid-gap:0) {
   .c0 {
     display: grid;
@@ -41,6 +50,15 @@ exports[`Stack renders with \`default\` spacing 1`] = `
 `;
 
 exports[`Stack renders with adjusted spacing 1`] = `
+.c0 > li {
+  list-style-type: none;
+}
+
+.c0 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
 @supports (grid-gap:0) {
   .c0 {
     display: grid;
@@ -51,6 +69,55 @@ exports[`Stack renders with adjusted spacing 1`] = `
 @supports not (grid-gap:0) {
   .c0 > * + * {
     margin-top: 30px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <h1>
+    Lorem Ipsum Dolor Sit Amet.
+  </h1>
+  <p>
+    Consectetur adipiscing elit. Nullam gravida ex tempor, ornare sapien a, sodales velit. Curabitur ac ultrices massa, eu scelerisque mauris.
+  </p>
+  <p>
+    Donec maximus purus at tempor elementum. Donec commodo aliquam metus, et vestibulum felis venenatis pellentesque.
+  </p>
+  <p>
+    Phasellus felis sem, convallis eget pretium vel, faucibus sit amet nulla. Fusce auctor nibh non libero sagittis, semper sagittis ipsum euismod.
+  </p>
+  <div>
+    <p>
+      Donec maximus purus at tempor elementum. Donec commodo aliquam metus, et vestibulum felis venenatis pellentesque.
+    </p>
+    <p>
+      Phasellus felis sem, convallis eget pretium vel, faucibus sit amet nulla. Fusce auctor nibh non libero sagittis, semper sagittis ipsum euismod.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Stack renders with theme key 1`] = `
+.c0 > li {
+  list-style-type: none;
+}
+
+.c0 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+@supports (grid-gap:0) {
+  .c0 {
+    display: grid;
+    grid-gap: 2rem;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c0 > * + * {
+    margin-top: 2rem;
   }
 }
 

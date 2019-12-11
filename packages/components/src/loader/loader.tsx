@@ -1,7 +1,11 @@
 import * as React from 'react';
-import styled, { css, CSSObject, keyframes } from 'styled-components';
-import { spacing } from '@heathmont/sportsbet-utils';
+import styled, { css, keyframes } from 'styled-components';
+import { rem, themed } from '@heathmont/sportsbet-utils';
+import { ColorProps } from '@heathmont/sportsbet-themes';
 
+/**
+ * Animation
+ */
 const ring = keyframes`
   0% {
     transform: rotate(0deg);
@@ -11,46 +15,58 @@ const ring = keyframes`
   }
 `;
 
-const Wrapper = styled('div')({
-  display: 'inline-block',
-  position: 'relative',
-  width: spacing(),
-  height: spacing(),
-});
-
-const common: CSSObject = {
-  boxSizing: 'border-box',
-  display: 'block',
-  position: 'absolute',
-  width: spacing(),
-  height: spacing(),
-  borderRadius: '50%',
-};
-
 const animation = css`
   animation: ${ring} 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
 `;
 
-const getBorder = (color: string) => ({
-  border: `2px solid ${color}`,
-  borderColor: `${color} transparent transparent transparent`,
-});
+/**
+ * Sub-components
+ */
+const LoaderContainer = styled.strong(({ theme: { space } }) => ({
+  display: 'inline-block',
+  position: 'relative',
+  width: rem(space.default),
+  height: rem(space.default),
+}));
 
+type LoaderRingProps = {
+  animationDelay: string;
+} & LoaderProps;
+
+const LoaderRing = styled.span<LoaderRingProps>(
+  ({ theme: { color, borderStyle, borderWidth } }) => ({
+    '--loader-color': color.piccolo[100],
+    display: 'block',
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    borderRadius: '50%',
+    boxSizing: 'border-box',
+    borderWidth: borderWidth * 2,
+    borderStyle,
+    borderColor: 'transparent',
+    borderTopColor: 'var(--loader-color)',
+  }),
+  animation,
+  ({ animationDelay }) => ({ animationDelay }),
+  ({ color, theme }) => ({ '--loader-color': themed('color', color)(theme) })
+);
+
+/**
+ * Component
+ */
 type LoaderProps = {
-  color: string;
+  color?: ColorProps;
 };
 
 export const Loader: React.FC<LoaderProps> = ({ color }) => (
-  <Wrapper>
-    <div
-      css={[common, getBorder(color), animation, { animationDelay: '-0.45s' }]}
-    />
-    <div
-      css={[common, getBorder(color), animation, { animationDelay: '-0.3s' }]}
-    />
-    <div
-      css={[common, getBorder(color), animation, { animationDelay: '-0.15s' }]}
-    />
-    <div css={[common, getBorder(color)]} />
-  </Wrapper>
+  <LoaderContainer role="progressbar">
+    {['-0.45s', '-0.3s', '-0.15s', '0s'].map(delay => (
+      <LoaderRing
+        key={`loader-${delay}`}
+        color={color}
+        animationDelay={delay}
+      />
+    ))}
+  </LoaderContainer>
 );

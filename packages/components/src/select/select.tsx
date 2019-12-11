@@ -2,14 +2,13 @@ import * as React from 'react';
 
 import { Label, LabelSizing } from '../private/label/label';
 
-import { SelectElement, selectWidthAuto } from './private/element';
+import { SelectElement, SelectElementProps } from './private/element';
 
 type SelectProps = LabelSizing &
   React.InputHTMLAttributes<HTMLSelectElement> & {
     label?: string;
-    fullWidth?: boolean;
     disabled?: boolean;
-  };
+  } & SelectElementProps;
 
 /**
  * Component
@@ -26,7 +25,7 @@ const Select: React.FC<SelectProps> = ({
   const SelectInput = (
     <SelectElement
       withIcon
-      css={[!fullWidth && selectWidthAuto]}
+      fullWidth={fullWidth}
       disabled={disabled}
       {...props}
     >

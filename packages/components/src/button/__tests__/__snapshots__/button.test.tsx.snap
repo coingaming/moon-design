@@ -6,19 +6,18 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders as acti
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #118BFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -32,18 +31,19 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders as acti
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Primary Button
 </button>
@@ -55,19 +55,18 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders with ho
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #118BFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -81,18 +80,19 @@ exports[`Button Modifiers Modifiers MockStates Highlight outline renders with ho
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Primary Button
 </button>
@@ -104,19 +104,18 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders as active 1`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #118BFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -130,18 +129,19 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders as active 1`] =
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Highlight Button
 </button>
@@ -153,19 +153,18 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders with hover 1`] 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #118BFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -179,18 +178,19 @@ exports[`Button Modifiers Modifiers MockStates Highlight renders with hover 1`] 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Highlight Button
 </button>
@@ -202,20 +202,18 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 1`] = 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   color: #8697A2;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -229,18 +227,19 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 1`] = 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Optional Button
 </button>
@@ -252,20 +251,18 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 2`] = 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   color: #8697A2;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -279,18 +276,19 @@ exports[`Button Modifiers Modifiers MockStates Optional renders as active 2`] = 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Optional Button
 </button>
@@ -302,20 +300,18 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 1`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   color: #8697A2;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -329,18 +325,19 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 1`] =
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Optional Button
 </button>
@@ -352,20 +349,18 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 2`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   color: #8697A2;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -379,18 +374,19 @@ exports[`Button Modifiers Modifiers MockStates Optional renders with hover 2`] =
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Optional Button
 </button>
@@ -402,18 +398,17 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders as active
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -428,18 +423,19 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders as active
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Primary Button
 </button>
@@ -451,18 +447,17 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders with hove
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -477,18 +472,19 @@ exports[`Button Modifiers Modifiers MockStates Primary outline renders with hove
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Primary Button
 </button>
@@ -500,18 +496,17 @@ exports[`Button Modifiers Modifiers MockStates Primary renders as active 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -526,18 +521,19 @@ exports[`Button Modifiers Modifiers MockStates Primary renders as active 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Primary Button
 </button>
@@ -549,18 +545,17 @@ exports[`Button Modifiers Modifiers MockStates Primary renders with hover 1`] = 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -575,18 +570,19 @@ exports[`Button Modifiers Modifiers MockStates Primary renders with hover 1`] = 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Primary Button
 </button>
@@ -598,19 +594,18 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 1`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #8697A2;
-  background-color: #31373F;
+  border-radius: 6.25rem;
+  color: #A4B1B9;
+  background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -624,18 +619,19 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 1`] =
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Secondary Button
 </button>
@@ -647,19 +643,18 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] =
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #8697A2;
-  background-color: #31373F;
+  border-radius: 6.25rem;
+  color: #A4B1B9;
+  background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -673,18 +668,19 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] =
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-active"
+  size="small"
 >
   Active Primary Button
 </button>
@@ -696,19 +692,18 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 1`] 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #8697A2;
-  background-color: #31373F;
+  border-radius: 6.25rem;
+  color: #A4B1B9;
+  background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -722,18 +717,19 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 1`] 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Secondary Button
 </button>
@@ -745,19 +741,18 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] 
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #8697A2;
-  background-color: #31373F;
+  border-radius: 6.25rem;
+  color: #A4B1B9;
+  background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -771,18 +766,19 @@ exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0 is-hover"
+  size="small"
 >
   Hover Primary Button
 </button>
@@ -794,19 +790,18 @@ exports[`Button Modifiers renders as highlight 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #118BFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -820,18 +815,19 @@ exports[`Button Modifiers renders as highlight 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Secondary Button
 </button>
@@ -843,20 +839,18 @@ exports[`Button Modifiers renders as optional 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   color: #8697A2;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
+  background-color: #31373F;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -870,18 +864,19 @@ exports[`Button Modifiers renders as optional 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Optional Button
 </button>
@@ -893,18 +888,17 @@ exports[`Button Modifiers renders as primary 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -919,18 +913,19 @@ exports[`Button Modifiers renders as primary 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Primary Button
 </button>
@@ -942,19 +937,18 @@ exports[`Button Modifiers renders as secondary 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #8697A2;
-  background-color: #31373F;
+  border-radius: 6.25rem;
+  color: #A4B1B9;
+  background-color: #1A212A;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -968,18 +962,19 @@ exports[`Button Modifiers renders as secondary 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Optional Button
 </button>
@@ -991,19 +986,18 @@ exports[`Button Modifiers renders outline as highlight 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #118BFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
@@ -1017,18 +1011,19 @@ exports[`Button Modifiers renders outline as highlight 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #41A2FF;
+  background-color: #3F91CA;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Highlight Button
 </button>
@@ -1040,116 +1035,16 @@ exports[`Button Modifiers renders outline as optional 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #8697A2;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFF;
-}
-
-<button
-  className="c0"
->
-  Optional Button
-</button>
-`;
-
-exports[`Button Modifiers renders outline as primary 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
-  border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3DDE83;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3DDE83;
-}
-
-<button
-  className="c0"
->
-  Primary Button
-</button>
-`;
-
-exports[`Button Modifiers renders outline as secondary 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
-  border-color: transparent;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   color: #8697A2;
   background-color: #31373F;
   font-size: 0.875rem;
@@ -1165,18 +1060,117 @@ exports[`Button Modifiers renders outline as secondary 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <button
   className="c0"
+  size="small"
+>
+  Optional Button
+</button>
+`;
+
+exports[`Button Modifiers renders outline as primary 1`] = `
+.c0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0CD664;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.5rem 2rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #66E59E;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #66E59E;
+}
+
+<button
+  className="c0"
+  size="small"
+>
+  Primary Button
+</button>
+`;
+
+exports[`Button Modifiers renders outline as secondary 1`] = `
+.c0 {
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #A4B1B9;
+  background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  padding: 0.5rem 2rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0"
+  size="small"
 >
   Secondary Button
 </button>
@@ -1188,18 +1182,17 @@ exports[`Button renders as an anchor tag 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -1214,19 +1207,20 @@ exports[`Button renders as an anchor tag 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <a
   className="c0"
   href="#some-anchor"
+  size="small"
 >
   Primary Button (Anchor)
 </a>
@@ -1238,18 +1232,17 @@ exports[`Button renders as disabled 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -1264,19 +1257,20 @@ exports[`Button renders as disabled 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0"
   disabled={true}
+  size="small"
 >
   Disabled Primary Button
 </button>
@@ -1287,24 +1281,23 @@ exports[`Button renders as fullWidth 1`] = `
   padding: 0.5rem 1.5rem;
   display: inline-block;
   vertical-align: middle;
+  width: 100%;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
-  width: 100%;
 }
 
 .c0:disabled,
@@ -1315,18 +1308,19 @@ exports[`Button renders as fullWidth 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Full Width Primary Button
 </button>
@@ -1338,18 +1332,17 @@ exports[`Button renders correctly 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
@@ -1364,18 +1357,19 @@ exports[`Button renders correctly 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Primary Button
 </button>
@@ -1387,23 +1381,22 @@ exports[`Button renders rounded 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  text-transform: uppercase;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
-  text-transform: uppercase;
 }
 
 .c0:disabled,
@@ -1414,18 +1407,19 @@ exports[`Button renders rounded 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Round Primary Button
 </button>
@@ -1437,23 +1431,22 @@ exports[`Button renders uppercased 1`] = `
   display: inline-block;
   vertical-align: middle;
   font-family: inherit;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.125rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  text-transform: uppercase;
   cursor: pointer;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
   border-color: transparent;
-  border-radius: 100px;
-  color: #FFF;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   padding: 0.5rem 2rem;
-  text-transform: uppercase;
 }
 
 .c0:disabled,
@@ -1464,18 +1457,19 @@ exports[`Button renders uppercased 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #3DDE83;
+  background-color: #66E59E;
 }
 
 <button
   className="c0"
+  size="small"
 >
   Uppercase Primary Button
 </button>
