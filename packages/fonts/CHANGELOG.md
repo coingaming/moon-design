@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.102.0](https://github.com/coingaming/sportsbet-design/compare/v0.101.0...v0.102.0) (2019-12-11)
+
+
+### Features
+
+* **themes:** add boxShadow, fontSize, maxWidth, opacity, zIndex ([6cf85dd](https://github.com/coingaming/sportsbet-design/commit/6cf85dd))
+
+
+
+
+
 # [0.101.0](https://github.com/coingaming/sportsbet-design/compare/v0.100.0...v0.101.0) (2019-12-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts

@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.102.0](https://github.com/coingaming/sportsbet-design/compare/v0.101.0...v0.102.0) (2019-12-11)
+
+
+### Bug Fixes
+
+* **form:** fix spacing, use Stack ([4e512ff](https://github.com/coingaming/sportsbet-design/commit/4e512ff))
+* **switch:** types ([a1948dd](https://github.com/coingaming/sportsbet-design/commit/a1948dd))
+* add keys to maps ([c1002d9](https://github.com/coingaming/sportsbet-design/commit/c1002d9))
+* align versions with changes in develop ([44a60f9](https://github.com/coingaming/sportsbet-design/commit/44a60f9))
+* amends based on PR feedback ([3c26727](https://github.com/coingaming/sportsbet-design/commit/3c26727))
+* dry up greens ([1fb61ed](https://github.com/coingaming/sportsbet-design/commit/1fb61ed))
+* extract map of options ([63d917c](https://github.com/coingaming/sportsbet-design/commit/63d917c))
+* only use package aliases in development mode ([89d2ad1](https://github.com/coingaming/sportsbet-design/commit/89d2ad1))
+* playground rendering ([c384b55](https://github.com/coingaming/sportsbet-design/commit/c384b55))
+* rem-ify border radius values ([05d742a](https://github.com/coingaming/sportsbet-design/commit/05d742a))
+* remove unnecessary eslint comments ([51b544c](https://github.com/coingaming/sportsbet-design/commit/51b544c))
+* revert eslint config ([b21dd7f](https://github.com/coingaming/sportsbet-design/commit/b21dd7f))
+* use heading component in palettes ([ca4fa9e](https://github.com/coingaming/sportsbet-design/commit/ca4fa9e))
+* use theme colors in examples ([588bccf](https://github.com/coingaming/sportsbet-design/commit/588bccf))
+
+
+### Features
+
+* update with master ([f753021](https://github.com/coingaming/sportsbet-design/commit/f753021))
+* **themes:** align version ([5d5981f](https://github.com/coingaming/sportsbet-design/commit/5d5981f))
+* change colors ([4d48688](https://github.com/coingaming/sportsbet-design/commit/4d48688))
+* **assets:** update to support themes ([a8b14d7](https://github.com/coingaming/sportsbet-design/commit/a8b14d7))
+* **docs:** update theme toggle design ([239196f](https://github.com/coingaming/sportsbet-design/commit/239196f))
+* **docs:** update to support latest themes ([cf5b3eb](https://github.com/coingaming/sportsbet-design/commit/cf5b3eb))
+* **global:** themeable styles ([686556c](https://github.com/coingaming/sportsbet-design/commit/686556c))
+* **switch:** colorScheme variant ([fa77d5e](https://github.com/coingaming/sportsbet-design/commit/fa77d5e))
+* **themes:** add bitcasino ([4f3a56f](https://github.com/coingaming/sportsbet-design/commit/4f3a56f))
+* **themes:** add boxShadow, fontSize, maxWidth, opacity, zIndex ([6cf85dd](https://github.com/coingaming/sportsbet-design/commit/6cf85dd))
+* implement new colors in docs components ([20b24ac](https://github.com/coingaming/sportsbet-design/commit/20b24ac))
+* **themes:** update colors again ([2668da1](https://github.com/coingaming/sportsbet-design/commit/2668da1))
+* reverse palettes to align with Figma ([dd8bc86](https://github.com/coingaming/sportsbet-design/commit/dd8bc86))
+* **themes:** update colors ([3d66ec6](https://github.com/coingaming/sportsbet-design/commit/3d66ec6))
+* introduce themes ([c37ab4c](https://github.com/coingaming/sportsbet-design/commit/c37ab4c))
+
+
+
+
+
 # [0.101.0](https://github.com/coingaming/sportsbet-design/compare/v0.100.0...v0.101.0) (2019-12-06)
 
 

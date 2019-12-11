@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.102.0](https://github.com/coingaming/sportsbet-design/compare/v0.101.0...v0.102.0) (2019-12-11)
+
+
+### Bug Fixes
+
+* add keys to maps ([c1002d9](https://github.com/coingaming/sportsbet-design/commit/c1002d9))
+* amends based on PR feedback ([3c26727](https://github.com/coingaming/sportsbet-design/commit/3c26727))
+* extract map of options ([63d917c](https://github.com/coingaming/sportsbet-design/commit/63d917c))
+* only use package aliases in development mode ([89d2ad1](https://github.com/coingaming/sportsbet-design/commit/89d2ad1))
+* playground rendering ([c384b55](https://github.com/coingaming/sportsbet-design/commit/c384b55))
+* rem-ify border radius values ([05d742a](https://github.com/coingaming/sportsbet-design/commit/05d742a))
+* remove unnecessary eslint comments ([51b544c](https://github.com/coingaming/sportsbet-design/commit/51b544c))
+* use heading component in palettes ([ca4fa9e](https://github.com/coingaming/sportsbet-design/commit/ca4fa9e))
+
+
+### Features
+
+* change colors ([4d48688](https://github.com/coingaming/sportsbet-design/commit/4d48688))
+* **docs:** update theme toggle design ([239196f](https://github.com/coingaming/sportsbet-design/commit/239196f))
+* **docs:** update to support latest themes ([cf5b3eb](https://github.com/coingaming/sportsbet-design/commit/cf5b3eb))
+* **switch:** colorScheme variant ([fa77d5e](https://github.com/coingaming/sportsbet-design/commit/fa77d5e))
+* **themes:** add bitcasino ([4f3a56f](https://github.com/coingaming/sportsbet-design/commit/4f3a56f))
+* implement new colors in docs components ([20b24ac](https://github.com/coingaming/sportsbet-design/commit/20b24ac))
+* **themes:** update colors again ([2668da1](https://github.com/coingaming/sportsbet-design/commit/2668da1))
+* reverse palettes to align with Figma ([dd8bc86](https://github.com/coingaming/sportsbet-design/commit/dd8bc86))
+
+
+
+
+
 # [0.101.0](https://github.com/coingaming/sportsbet-design/compare/v0.100.0...v0.101.0) (2019-12-06)
 
 **Note:** Version bump only for package docs
