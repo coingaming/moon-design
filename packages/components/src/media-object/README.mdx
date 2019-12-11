@@ -33,12 +33,16 @@ The `MediaObject` expects **two `html` elements** as children, and renders them 
 
 The `MediaObject` is customisable to suit a range of use-cases.
 
+Both `mediaWidth` and `gridGap` accept themed space keys (e.g. `large` returns
+the large themed `space` key in `rem`), a number (returned in `px`) or a string
+value (e.g. `"30px"` or `"1rem"`).
+
 ### Size
 
 Adjust the media content width via the `mediaWidth` prop.
 
 ```jsx react-live
-<MediaObject mediaWidth="3rem">
+<MediaObject mediaWidth="xlarge">
   <IconDuotoneChat />
 
   <div>
@@ -59,7 +63,7 @@ use of specific props to adjust the layout:
 - [`gridGap`](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
 
 ```jsx react-live
-<MediaObject alignItems="top" gridGap={spacing('large')}>
+<MediaObject alignItems="top" gridGap="large">
   <IconDuotoneChat />
 
   <div>

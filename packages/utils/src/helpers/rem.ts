@@ -1,11 +1,9 @@
-import { base } from '@heathmont/sportsbet-tokens';
 import polishedRem from 'polished/lib/helpers/rem';
+import { shared } from '@heathmont/sportsbet-themes';
 
-/**
- * @TODO: Once use of polished rem has been dropped, `base` will be set to the
- * base.fontSize token instead of base.spacing
- */
 export const rem = (
   value: string | number,
-  baseValue: string | number = base.spacing
-) => polishedRem(value, baseValue);
+  baseFontSize: string | number = 16
+) => {
+  return polishedRem(value, baseFontSize || shared.base.fontSize);
+};

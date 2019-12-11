@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { rem } from '@heathmont/sportsbet-utils';
-import { colors, border } from '@heathmont/sportsbet-tokens';
 
 import {
   inputBorder,
@@ -20,31 +19,31 @@ type InputProps = {
   error?: boolean;
 };
 
-export const Input = styled.input<InputProps>(props => [
+export const Input = styled.input<InputProps>(({ theme }) => [
   {
     width: '100%',
     maxWidth: '100%',
-    padding: `${rem(inputSpacingY)} ${rem(inputSpacingX)}`,
+    padding: `${rem(inputSpacingY(theme))} ${rem(inputSpacingX(theme))}`,
     appearance: 'none',
     font: 'inherit',
     fontSize: rem(inputFontSize),
     lineHeight: rem(inputLineHeight),
-    color: inputColors.text,
-    backgroundColor: inputColors.background,
-    border: inputBorder,
-    borderRadius: border.radius.small,
-    transition: `border-color ${inputAnimationSpeed} ease`,
+    color: inputColors('text')(theme),
+    backgroundColor: inputColors('background')(theme),
+    border: inputBorder(theme),
+    borderRadius: theme.radius.small,
+    transition: `border-color ${inputAnimationSpeed(theme)} ease`,
     WebkitAppearance: 'none',
     '&::placeholder': {
-      color: inputColors.placeholder,
+      color: inputColors('placeholder')(theme),
       opacity: 1,
     },
-    '&:hover:not(:focus)': {
-      borderColor: inputColors.border.hover,
+    '&:hover:not(:focus):not([disabled])': {
+      borderColor: inputColors('borderHover')(theme),
     },
     // date inputs will be marked as invalid by default
     '&:not(:placeholder-shown):not([type="date"]):invalid': {
-      borderColor: colors.error,
+      borderColor: theme.color.chiChi[100],
     },
     '&:invalid, :-moz-ui-invalid': {
       boxShadow: 'none', // Firefox Override
@@ -54,13 +53,15 @@ export const Input = styled.input<InputProps>(props => [
       cursor: 'not-allowed',
     },
   },
-  props.withIcon && {
-    paddingRight: rem(inputIconOffset),
-    backgroundPosition: `right ${rem(inputIconPosition)} center`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: rem(inputIconSize),
-  },
-  props.error && {
-    borderColor: colors.error,
-  },
+  ({ withIcon }) =>
+    withIcon && {
+      paddingRight: rem(inputIconOffset(theme)),
+      backgroundPosition: `right ${rem(inputIconPosition(theme))} center`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: rem(inputIconSize),
+    },
+  ({ error }) =>
+    error && {
+      borderColor: theme.color.chiChi[100],
+    },
 ]);

@@ -4,10 +4,10 @@ import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Assets from '@heathmont/sportsbet-assets';
 import * as Components from '@heathmont/sportsbet-components';
-import { border, colors, typography } from '@heathmont/sportsbet-tokens';
 import * as Utils from '@heathmont/sportsbet-utils';
+import { useTheme } from '@heathmont/sportsbet-themes';
 
-import { prismTheme, syntaxStyles } from './prism';
+import { prismTheme } from './prism';
 
 type CodeProps = {
   codeString: string;
@@ -15,77 +15,85 @@ type CodeProps = {
   'react-live'?: boolean;
 };
 
-const codeBorder = `${border.width}px solid ${colors.neutral[40]}`;
+const CodeWrapper = styled.div(
+  ({ theme: { border, color, radius, space } }) => ({
+    display: 'block',
+    border,
+    borderColor: color.beerus[100],
+    borderRadius: Utils.rem(radius.small),
+    position: 'relative',
+    overflow: 'hidden',
+    '.prism-code:focus': {
+      outline: 'none',
+      boxShadow: `inset 0 0 3px ${color.piccolo[100]}`,
+    },
+    pre: {
+      padding: Utils.rem(space.default),
+      overflow: 'auto',
+      marginBottom: '0',
+    },
+  })
+);
 
-const CodeWrapper = styled.div({
-  display: 'block',
-  border: codeBorder,
-  borderRadius: border.radius.small,
-  position: 'relative',
-  overflow: 'hidden',
-  '.prism-code:focus': {
-    outline: 'none',
-    boxShadow: `inset 0 0 3px ${colors.brand}`,
-  },
-  ...syntaxStyles,
-});
+const CodePreview = styled.div(
+  ({ theme: { border, color, fontFamily, space } }) => ({
+    padding: Utils.rem(space.large),
+    minHeight: Utils.rem(space.large),
+    fontFamily,
+    borderBottom: border,
+    borderColor: color.beerus[100],
+    overflowY: 'scroll',
+  })
+);
 
-const CodePreview = styled.div({
-  padding: Utils.spacing('large'),
-  minHeight: Utils.spacing('xlarge'),
-  fontFamily: typography.fontFamily,
-  borderBottom: codeBorder,
-  overflowY: 'scroll',
-});
-
-/* Ensures that we can use `css` props + not have to worry about wrapper divs */
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-
-export const Code = ({ codeString, ...props }: CodeProps) =>
-  /* eslint-disable-next-line react/destructuring-assignment */
-  props['react-live'] ? (
-    <CodeWrapper>
-      <LiveProvider
-        code={codeString}
-        scope={{
-          ...Assets,
-          ...Components,
-          ...Utils,
-          colors,
-          styled,
-        }}
-        theme={prismTheme}
-      >
-        <React.Fragment>
-          <CodePreview>
-            {typeof window !== 'undefined' && <LivePreview />}
-          </CodePreview>
-          <div css={{ overflowY: 'scroll' }}>
-            <LiveEditor />
-          </div>
-          <LiveError />
-        </React.Fragment>
-      </LiveProvider>
-    </CodeWrapper>
-  ) : (
-    <CodeWrapper>
-      <Highlight
-        {...defaultProps}
-        code={codeString}
-        language="jsx"
-        theme={prismTheme}
-      >
-        {({ className, style, tokens, getLineProps, getTokenProps }) => (
-          <pre className={className} style={style}>
-            {tokens.map((line, i) => (
-              <div {...getLineProps({ line, key: i })}>
-                {line.map((token, key) => (
-                  <span {...getTokenProps({ token, key })} />
-                ))}
-              </div>
-            ))}
-          </pre>
-        )}
-      </Highlight>
-    </CodeWrapper>
+export const Code = ({ codeString, ...props }: CodeProps) => {
+  return (
+    /* eslint-disable-next-line react/destructuring-assignment */
+    props['react-live'] ? (
+      <CodeWrapper>
+        <LiveProvider
+          code={codeString}
+          scope={{
+            ...Assets,
+            ...Components,
+            ...Utils,
+            useTheme,
+            styled,
+          }}
+          theme={prismTheme()}
+        >
+          <React.Fragment>
+            <CodePreview>
+              {typeof window !== 'undefined' && <LivePreview />}
+            </CodePreview>
+            <div css={{ overflowY: 'scroll' }}>
+              <LiveEditor />
+            </div>
+            <LiveError />
+          </React.Fragment>
+        </LiveProvider>
+      </CodeWrapper>
+    ) : (
+      <CodeWrapper>
+        <Highlight
+          {...defaultProps}
+          code={codeString}
+          language="jsx"
+          theme={prismTheme()}
+        >
+          {({ className, style, tokens, getLineProps, getTokenProps }) => (
+            <pre className={className} style={style}>
+              {tokens.map((line, i) => (
+                <div {...getLineProps({ line, key: i })}>
+                  {line.map((token, key) => (
+                    <span {...getTokenProps({ token, key })} />
+                  ))}
+                </div>
+              ))}
+            </pre>
+          )}
+        </Highlight>
+      </CodeWrapper>
+    )
   );
+};

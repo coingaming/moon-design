@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
 const path = require('path');
 
-const { colors } = require('@heathmont/sportsbet-tokens');
+const { sportsbetDark } = require('@heathmont/sportsbet-themes');
 
 const { siteTitle, description, author } = require('./config');
 
@@ -62,8 +62,8 @@ module.exports = {
         name: siteTitle,
         short_name: siteTitle,
         start_url: '/',
-        background_color: colors.brand,
-        theme_color: colors.brand,
+        background_color: sportsbetDark.color.piccolo[100],
+        theme_color: sportsbetDark.color.piccolo[100],
         display: 'minimal-ui',
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },

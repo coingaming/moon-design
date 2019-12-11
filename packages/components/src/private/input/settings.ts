@@ -1,37 +1,52 @@
-import {
-  animation,
-  border,
-  colors,
-  spacing,
-} from '@heathmont/sportsbet-tokens';
+import { Theme } from '@heathmont/sportsbet-themes';
 
-const inputBorderWidth = border.width;
-const inputAnimationSpeed = `${animation.speed.fast}s`;
+const inputBorderWidth = ({ borderWidth }: Theme) => borderWidth;
+const inputAnimationSpeed = ({ transitionDuration }: Theme) =>
+  `${transitionDuration.default}s`;
 
 const inputFontSize = 16;
 const inputLineHeight = inputFontSize * 1.5;
 
-const inputSpacingX = spacing.default - inputBorderWidth; // px
-const inputSpacingY = 10 - inputBorderWidth;
+const inputSpacingX = (theme: Theme) =>
+  theme.space.default - inputBorderWidth(theme); // px
+const inputSpacingY = (theme: Theme) => 10 - inputBorderWidth(theme); // px
 
 const inputIconSize = 20; // px
-const inputIconPosition = inputSpacingX;
-const inputIconOffset = inputIconSize + inputSpacingX + inputIconPosition;
+const inputIconPosition = (theme: Theme) => inputSpacingX(theme);
+const inputIconOffset = (theme: Theme) =>
+  inputIconSize + inputSpacingX(theme) + inputIconPosition(theme);
 
-const inputColors = {
-  label: colors.palette.trunks[100],
-  text: colors.neutral[10],
-  icon: colors.neutral[20],
-  placeholder: colors.palette.gohan[40],
-  border: {
-    default: colors.palette.gohan[80],
-    hover: colors.palette.gohan[60],
-  },
-  background: colors.palette.hit[80],
-  disabled: colors.neutral[50],
+type ColorValue = string | undefined;
+
+type InputColors = {
+  label: ColorValue;
+  text: ColorValue;
+  icon: ColorValue;
+  placeholder: ColorValue;
+  borderDefault: ColorValue;
+  borderHover: ColorValue;
+  background: ColorValue;
+  disabled: ColorValue;
+  [key: string]: ColorValue;
 };
 
-const inputBorder = `${inputBorderWidth}px solid ${inputColors.border.default}`;
+const inputColors = (key: keyof InputColors) => ({ color }: Theme) => {
+  const themedColor: InputColors = {
+    label: color.trunks[100],
+    text: color.bulma[100],
+    icon: color.trunks[100],
+    placeholder: color.trunks[100],
+    borderDefault: color.beerus[100],
+    borderHover: color.beerus[20],
+    background: color.gohan[100],
+    disabled: color.goku[80],
+  };
+
+  return themedColor[key];
+};
+
+const inputBorder = (theme: Theme) =>
+  `${inputBorderWidth(theme)}px solid ${inputColors('borderDefault')(theme)}`;
 
 export {
   inputAnimationSpeed,

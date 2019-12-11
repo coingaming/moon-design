@@ -2,8 +2,6 @@
 
 exports[`Container renders a rem-based container with number value 1`] = `
 .c0 {
-  padding-right: 1rem;
-  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
   max-width: 18.75rem;
@@ -14,55 +12,13 @@ exports[`Container renders a rem-based container with number value 1`] = `
 />
 `;
 
-exports[`Container renders container key 1`] = `
-.c0 {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 90rem;
-}
-
-<div
-  className="c0"
-/>
-`;
-
-exports[`Container renders correctly by default 1`] = `
-.c0 {
-  padding-right: 1rem;
-  padding-left: 1rem;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 64rem;
-}
-
-<div
-  className="c0"
-/>
-`;
-
-exports[`Container renders with custom padding key 1`] = `
-.c0 {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 64rem;
-}
-
-<div
-  className="c0"
-/>
-`;
-
 exports[`Container renders with custom padding number value 1`] = `
 .c0 {
-  padding-right: 3.125rem;
-  padding-left: 3.125rem;
   margin-right: auto;
   margin-left: auto;
-  max-width: 64rem;
+  padding-right: 3.125rem;
+  padding-left: 3.125rem;
+  max-width: 18.75rem;
 }
 
 <div
@@ -72,11 +28,9 @@ exports[`Container renders with custom padding number value 1`] = `
 
 exports[`Container renders with no padding 1`] = `
 .c0 {
-  padding-right: 0rem;
-  padding-left: 0rem;
   margin-right: auto;
   margin-left: auto;
-  max-width: 64rem;
+  max-width: 18.75rem;
 }
 
 <div

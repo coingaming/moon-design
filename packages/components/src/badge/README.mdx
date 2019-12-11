@@ -4,10 +4,6 @@ menu: Components
 route: /components/badge
 ---
 
-import { Badge } from '@heathmont/sportsbet-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { PropsTable } from 'docs';
-
 # Badge
 
 Small count and labeling component
@@ -16,12 +12,29 @@ Small count and labeling component
 <Badge>Active</Badge>
 ```
 
+## Modifiers
+
+```jsx react-live
+<Inline>
+  <Badge modifier="single">Single</Badge>
+  <Badge modifier="multi">Multi</Badge>
+  <Badge modifier="active">Active</Badge>
+  <Badge modifier="won">Won</Badge>
+  <Badge modifier="lost">Lost</Badge>
+  <Badge modifier="settled">Settled</Badge>
+  <Badge modifier="void">Void</Badge>
+  <Badge modifier="doubles">Doubles</Badge>
+  <Badge modifier="canceled">Canceled</Badge>
+  <Badge modifier="live">Live</Badge>
+</Inline>
+```
+
 ## Customizing colors
 
 You coud simply use `color` and `backgroundColor` props
 
 ```jsx react-live
-<Badge color={colors.error} backgroundColor={colors.neutral[10]}>
+<Badge color="piccolo.100" backgroundColor="bulma.100">
   Active
 </Badge>
 ```

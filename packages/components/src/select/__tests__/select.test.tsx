@@ -1,8 +1,13 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Select } from '../select';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const TestOptions = () => (
   <React.Fragment>
@@ -16,9 +21,11 @@ const TestOptions = () => (
 describe('Select', () => {
   test('renders a select input with options', () => {
     const select = create(
-      <Select>
-        <TestOptions />
-      </Select>
+      renderWithTheme(
+        <Select>
+          <TestOptions />
+        </Select>
+      )
     );
 
     expect(select).toMatchSnapshot();
@@ -27,9 +34,11 @@ describe('Select', () => {
   describe('renders with label', () => {
     test('above the input', () => {
       const select = create(
-        <Select label="Example label">
-          <TestOptions />
-        </Select>
+        renderWithTheme(
+          <Select label="Example label">
+            <TestOptions />
+          </Select>
+        )
       );
 
       expect(select).toMatchSnapshot();
@@ -38,9 +47,11 @@ describe('Select', () => {
     describe('as a flex layout', () => {
       test('evenly spaced by default', () => {
         const select = create(
-          <Select label="Example label" flex>
-            <TestOptions />
-          </Select>
+          renderWithTheme(
+            <Select label="Example label" flex>
+              <TestOptions />
+            </Select>
+          )
         );
 
         expect(select).toMatchSnapshot();
@@ -48,9 +59,11 @@ describe('Select', () => {
 
       test('with adjusted input size', () => {
         const select = create(
-          <Select label="Example label" flex inputGrow={2}>
-            <TestOptions />
-          </Select>
+          renderWithTheme(
+            <Select label="Example label" flex inputGrow={2}>
+              <TestOptions />
+            </Select>
+          )
         );
 
         expect(select).toMatchSnapshot();
@@ -61,9 +74,11 @@ describe('Select', () => {
   describe('renders as disabled', () => {
     test('for default select input', () => {
       const select = create(
-        <Select disabled>
-          <TestOptions />
-        </Select>
+        renderWithTheme(
+          <Select disabled>
+            <TestOptions />
+          </Select>
+        )
       );
 
       expect(select).toMatchSnapshot();
@@ -73,9 +88,11 @@ describe('Select', () => {
   describe('renders as full-width', () => {
     test('for default select input', () => {
       const select = create(
-        <Select fullWidth>
-          <TestOptions />
-        </Select>
+        renderWithTheme(
+          <Select fullWidth>
+            <TestOptions />
+          </Select>
+        )
       );
 
       expect(select).toMatchSnapshot();

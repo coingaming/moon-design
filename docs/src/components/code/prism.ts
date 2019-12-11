@@ -1,10 +1,6 @@
-import { CSSObject } from 'styled-components';
-import { colors } from '@heathmont/sportsbet-tokens';
+import { ThemeContext } from 'styled-components';
 import { PrismTheme } from 'prism-react-renderer';
-
-export const syntaxStyles: CSSObject = {
-  pre: { padding: '1em', overflow: 'auto', marginBottom: '0' },
-};
+import { useContext } from 'react';
 
 // Adjusted "Oceanic Next"
 // Author: Dmitri Voronianski (https://github.com/voronianski)
@@ -27,130 +23,134 @@ const prismThemeColors = {
   operator: '#fc929e',
 };
 
-export const prismTheme: PrismTheme = {
-  plain: {
-    backgroundColor: colors.background,
-    color: colors.text,
-    fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
-    fontSize: '0.8rem',
-    lineHeight: 1.5,
-    textAlign: 'left',
-    whiteSpace: 'pre',
-    wordSpacing: 'normal',
-    wordBreak: 'normal',
-    wordWrap: 'normal',
-    tabSize: '4',
-    hyphens: 'none',
-  },
-  styles: [
-    {
-      types: ['attr-name'],
-      style: {
-        color: prismThemeColors.keyword,
-      },
+export const prismTheme = (): PrismTheme => {
+  const theme = useContext(ThemeContext);
+
+  return {
+    plain: {
+      backgroundColor: theme.color.background,
+      color: theme.color.text,
+      fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
+      fontSize: '0.8rem',
+      lineHeight: 1.5,
+      textAlign: 'left',
+      whiteSpace: 'pre',
+      wordSpacing: 'normal',
+      wordBreak: 'normal',
+      wordWrap: 'normal',
+      tabSize: '4',
+      hyphens: 'none',
     },
-    {
-      types: ['attr-value'],
-      style: {
-        color: prismThemeColors.string,
+    styles: [
+      {
+        types: ['attr-name'],
+        style: {
+          color: prismThemeColors.keyword,
+        },
       },
-    },
-    {
-      types: ['comment', 'block-comment', 'prolog', 'doctype', 'cdata'],
-      style: {
-        color: prismThemeColors.comment,
+      {
+        types: ['attr-value'],
+        style: {
+          color: prismThemeColors.string,
+        },
       },
-    },
-    {
-      types: [
-        'property',
-        'number',
-        'function-name',
-        'constant',
-        'symbol',
-        'deleted',
-      ],
-      style: {
-        color: prismThemeColors.primitive,
+      {
+        types: ['comment', 'block-comment', 'prolog', 'doctype', 'cdata'],
+        style: {
+          color: prismThemeColors.comment,
+        },
       },
-    },
-    {
-      types: ['boolean'],
-      style: {
-        color: prismThemeColors.boolean,
+      {
+        types: [
+          'property',
+          'number',
+          'function-name',
+          'constant',
+          'symbol',
+          'deleted',
+        ],
+        style: {
+          color: prismThemeColors.primitive,
+        },
       },
-    },
-    {
-      types: ['tag'],
-      style: {
-        color: prismThemeColors.tag,
+      {
+        types: ['boolean'],
+        style: {
+          color: prismThemeColors.boolean,
+        },
       },
-    },
-    {
-      types: ['string'],
-      style: {
-        color: prismThemeColors.string,
+      {
+        types: ['tag'],
+        style: {
+          color: prismThemeColors.tag,
+        },
       },
-    },
-    {
-      types: ['punctuation'],
-      style: {
-        color: prismThemeColors.string,
+      {
+        types: ['string'],
+        style: {
+          color: prismThemeColors.string,
+        },
       },
-    },
-    {
-      types: ['selector', 'char', 'builtin', 'inserted'],
-      style: {
-        color: prismThemeColors.char,
+      {
+        types: ['punctuation'],
+        style: {
+          color: prismThemeColors.string,
+        },
       },
-    },
-    {
-      types: ['function'],
-      style: {
-        color: prismThemeColors.function,
+      {
+        types: ['selector', 'char', 'builtin', 'inserted'],
+        style: {
+          color: prismThemeColors.char,
+        },
       },
-    },
-    {
-      types: ['operator', 'entity', 'url', 'variable'],
-      style: {
-        color: prismThemeColors.variable,
+      {
+        types: ['function'],
+        style: {
+          color: prismThemeColors.function,
+        },
       },
-    },
-    {
-      types: ['keyword'],
-      style: {
-        color: prismThemeColors.keyword,
+      {
+        types: ['operator', 'entity', 'url', 'variable'],
+        style: {
+          color: prismThemeColors.variable,
+        },
       },
-    },
-    {
-      types: ['at-rule', 'class-name'],
-      style: {
-        color: prismThemeColors.className,
+      {
+        types: ['keyword'],
+        style: {
+          color: prismThemeColors.keyword,
+        },
       },
-    },
-    {
-      types: ['important'],
-      style: {
-        fontWeight: '400',
+      {
+        types: ['at-rule', 'class-name'],
+        style: {
+          color: prismThemeColors.className,
+        },
       },
-    },
-    {
-      types: ['bold'],
-      style: {
-        fontWeight: 'bold',
+      {
+        types: ['important'],
+        style: {
+          fontWeight: '400',
+        },
       },
-    },
-    {
-      types: ['italic'],
-      style: {
-        fontStyle: 'italic',
+      {
+        types: ['bold'],
+        style: {
+          fontWeight: 'bold',
+        },
       },
-    },
-    {
-      types: ['namespace'],
-      style: {
-        opacity: 0.7,
+      {
+        types: ['italic'],
+        style: {
+          fontStyle: 'italic',
+        },
       },
-    },
-  ],
+      {
+        types: ['namespace'],
+        style: {
+          opacity: 0.7,
+        },
+      },
+    ],
+  };
 };
