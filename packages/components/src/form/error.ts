@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { rem, spacing } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/sportsbet-utils';
 
-export const FormError = styled.p({
+export const FormError = styled.p(({ theme: { color, space } }) => ({
   display: 'inline-block',
-  marginTop: spacing('small'),
+  marginTop: rem(space.small),
   fontSize: rem(12),
-  color: colors.error,
-});
+  color: color.chiChi[100],
+}));
 
 FormError.defaultProps = {
   role: 'alert',

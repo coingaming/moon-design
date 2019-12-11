@@ -1,37 +1,47 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 
 import { Link } from '../link';
 
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
+
 describe('Link', () => {
   test('renders as a link by default', () => {
-    const link = create(<Link to="#test">I look like a link</Link>);
+    const link = create(
+      renderWithTheme(<Link href="#test">I look like a link</Link>)
+    );
 
     expect(link).toMatchSnapshot();
   });
 
   test('renders as a button if prop as="button" was passed', () => {
     const link = create(
-      <Link to="#test" as="button">
-        I look like a link, but really I'm a button
-      </Link>
+      renderWithTheme(
+        /* eslint-disable jsx-a11y/anchor-is-valid */
+        <Link as="button">I look like a link, but really I'm a button</Link>
+      )
     );
 
     expect(link).toMatchSnapshot();
   });
 
   test('renders as a anchor when `href` defined', () => {
-    const link = create(<Link to="#test-path">I'm a link</Link>);
+    const link = create(renderWithTheme(<Link href="#test">I'm a link</Link>));
 
     expect(link).toMatchSnapshot();
   });
 
   test('renders as a secondary', () => {
     const link = create(
-      <Link secondary to="#test-path">
-        I'm a secondary link
-      </Link>
+      renderWithTheme(
+        <Link href="#test" secondary>
+          I'm a secondary link
+        </Link>
+      )
     );
 
     expect(link).toMatchSnapshot();
@@ -39,9 +49,11 @@ describe('Link', () => {
 
   test('renders as a optional', () => {
     const link = create(
-      <Link optional to="#test-path">
-        I'm an optiona; link
-      </Link>
+      renderWithTheme(
+        <Link href="#test" optional>
+          I'm an optiona; link
+        </Link>
+      )
     );
 
     expect(link).toMatchSnapshot();
@@ -50,9 +62,11 @@ describe('Link', () => {
   describe('renders as disabled', () => {
     test('for anchor elements', () => {
       const link = create(
-        <Link to="#test-path" disabled>
-          I'm a link
-        </Link>
+        renderWithTheme(
+          <Link href="#test" disabled>
+            I'm a link
+          </Link>
+        )
       );
 
       expect(link).toMatchSnapshot();
@@ -60,9 +74,12 @@ describe('Link', () => {
 
     test('for button elements', () => {
       const link = create(
-        <Link as="button" to="#test" disabled>
-          I look like a link, but really I'm a button
-        </Link>
+        renderWithTheme(
+          /* eslint-disable jsx-a11y/anchor-is-valid */
+          <Link as="button" disabled>
+            I look like a link, but really I'm a button
+          </Link>
+        )
       );
 
       expect(link).toMatchSnapshot();

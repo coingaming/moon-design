@@ -1,15 +1,15 @@
 import { CSSObject } from 'styled-components';
-import { opacity } from '@heathmont/sportsbet-tokens';
+import { shared } from '@heathmont/sportsbet-themes';
 
-const defaultDisabled = {
-  cursor: 'not-allowed',
-  opacity: opacity.disabled,
-};
+/**
+ * Accepts either an opacity (as a number), or nested styles as a CSS Object.
+ */
+type DisabledProps = number | CSSObject;
 
-export const disabled = (styles: CSSObject = defaultDisabled) => {
-  return {
-    '&:disabled, &[disabled]': {
-      ...styles,
-    },
-  };
-};
+export const disabled = (styles?: DisabledProps) => ({
+  '&:disabled, &[disabled]': {
+    cursor: 'not-allowed',
+    opacity: typeof styles === 'number' ? styles : shared.opacity.disabled,
+    ...(typeof styles === 'object' && styles),
+  },
+});

@@ -19,9 +19,9 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -29,27 +29,27 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -221,9 +221,9 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -232,27 +232,27 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -408,9 +408,9 @@ exports[`TextInput renders correctly for other types 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -418,27 +418,27 @@ exports[`TextInput renders correctly for other types 1`] = `
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -602,9 +602,9 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -612,27 +612,27 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .c1::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c1::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c1:hover:not(:focus) {
-  border-color: #5A5F65;
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -681,9 +681,9 @@ exports[`TextInput renders correctly without a label 1`] = `
   font: inherit;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #1A212A;
-  border: 1px solid #3D434B;
+  border: 1px solid #31373F;
   border-radius: 4px;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
@@ -691,27 +691,27 @@ exports[`TextInput renders correctly without a label 1`] = `
 }
 
 .c0::-webkit-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c0::-moz-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c0:-ms-input-placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
 .c0::placeholder {
-  color: #6F7379;
+  color: #8697A2;
   opacity: 1;
 }
 
-.c0:hover:not(:focus) {
-  border-color: #5A5F65;
+.c0:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {

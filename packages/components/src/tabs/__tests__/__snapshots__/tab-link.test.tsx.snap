@@ -44,7 +44,7 @@ exports[`Nav - TabLink renders as a component 1`] = `
 .c0:active,
 .c0.active,
 .c0[aria-current=page] {
-  color: #FFF;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -110,7 +110,7 @@ exports[`Nav - TabLink renders as active 1`] = `
 .c0:active,
 .c0.active,
 .c0[aria-current=page] {
-  color: #FFF;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -175,7 +175,7 @@ exports[`Nav - TabLink renders as active 2`] = `
 .c0:active,
 .c0.active,
 .c0[aria-current=page] {
-  color: #FFF;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -241,7 +241,7 @@ exports[`Nav - TabLink renders as an anchor by default 1`] = `
 .c0:active,
 .c0.active,
 .c0[aria-current=page] {
-  color: #FFF;
+  color: #FFFFFF;
   cursor: pointer;
 }
 

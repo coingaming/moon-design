@@ -11,6 +11,10 @@ export * from './groupIcons/GroupIconCurrency';
 export { default as GroupIconSports } from './groupIcons/GroupIconSports';
 export * from './groupIcons/GroupIconSports';
 export {
+  default as GroupIconSportsColor,
+} from './groupIcons/GroupIconSportsColor';
+export * from './groupIcons/GroupIconSportsColor';
+export {
   default as GroupIconThirdParty,
 } from './groupIcons/GroupIconThirdParty';
 export * from './groupIcons/GroupIconThirdParty';
@@ -162,6 +166,8 @@ export { default as IconLoyalty0 } from './icons/IconLoyalty0';
 export * from './icons/IconLoyalty0';
 export { default as IconMenuHome } from './icons/IconMenuHome';
 export * from './icons/IconMenuHome';
+export { default as IconMoon } from './icons/IconMoon';
+export * from './icons/IconMoon';
 export { default as IconNotification } from './icons/IconNotification';
 export * from './icons/IconNotification';
 export {
@@ -204,6 +210,8 @@ export { default as IconSportsDarts } from './icons/IconSportsDarts';
 export * from './icons/IconSportsDarts';
 export { default as IconSportsESports } from './icons/IconSportsESports';
 export * from './icons/IconSportsESports';
+export { default as IconSportsFantasy } from './icons/IconSportsFantasy';
+export * from './icons/IconSportsFantasy';
 export { default as IconSportsFootBall } from './icons/IconSportsFootBall';
 export * from './icons/IconSportsFootBall';
 export { default as IconSportsGolf } from './icons/IconSportsGolf';
@@ -222,6 +230,8 @@ export {
   default as IconSportsMotorSports,
 } from './icons/IconSportsMotorSports';
 export * from './icons/IconSportsMotorSports';
+export { default as IconSportsPoker } from './icons/IconSportsPoker';
+export * from './icons/IconSportsPoker';
 export { default as IconSportsPolitics } from './icons/IconSportsPolitics';
 export * from './icons/IconSportsPolitics';
 export { default as IconSportsPool } from './icons/IconSportsPool';
@@ -248,10 +258,18 @@ export { default as IconSportsVolleyBall } from './icons/IconSportsVolleyBall';
 export * from './icons/IconSportsVolleyBall';
 export { default as IconSportsWaterPolo } from './icons/IconSportsWaterPolo';
 export * from './icons/IconSportsWaterPolo';
+export { default as IconStarFlag } from './icons/IconStarFlag';
+export * from './icons/IconStarFlag';
+export { default as IconStars } from './icons/IconStars';
+export * from './icons/IconStars';
 export { default as IconStats } from './icons/IconStats';
 export * from './icons/IconStats';
 export { default as IconSuccess } from './icons/IconSuccess';
 export * from './icons/IconSuccess';
+export { default as IconSun } from './icons/IconSun';
+export * from './icons/IconSun';
+export { default as IconSupport } from './icons/IconSupport';
+export * from './icons/IconSupport';
 export { default as IconTelegram } from './icons/IconTelegram';
 export * from './icons/IconTelegram';
 export { default as IconTwitter } from './icons/IconTwitter';

@@ -1,41 +1,40 @@
 import styled from 'styled-components';
-import { animation, colors } from '@heathmont/sportsbet-tokens';
 import { rem } from 'polished';
 
 import { underlineWidth, underlineOffset } from './private';
 
-export const TabLink = styled.a({
+export const TabLink = styled.a(({ theme }) => ({
   position: 'relative',
   padding: 0,
-  paddingBottom: `${underlineOffset}px`,
+  paddingBottom: `${underlineOffset(theme)}px`,
   margin: 0,
   fontSize: rem(14),
   lineHeight: 1.3,
   fontFamily: 'inherit',
   backgroundColor: 'transparent',
-  color: colors.neutral[20],
-  transition: `color ${animation.speed.fast}s ease`,
+  color: theme.color.trunks[100],
+  transition: `color ${theme.transitionDuration.default}s ease`,
   textDecoration: 'none',
   border: 0,
   appearance: 'none',
   '&:after': {
     content: '""',
     position: 'absolute',
-    height: `${underlineWidth}px`,
+    height: `${underlineWidth(theme)}px`,
     width: '100%',
     left: 0,
     right: 0,
     bottom: 0,
     margin: '0 auto',
-    backgroundColor: colors.brand,
+    backgroundColor: theme.color.piccolo[100],
     transform: 'scaleX(0)',
-    transition: `transform ${animation.speed.fast}s ease`,
+    transition: `transform ${theme.transitionDuration.default}s ease`,
   },
   '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
-    color: colors.neutral[10],
+    color: theme.color.bulma[100],
     cursor: 'pointer',
     '&:after': {
       transform: 'scaleX(1)',
     },
   },
-});
+}));

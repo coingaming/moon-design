@@ -1,9 +1,14 @@
 /* eslint-disable no-console */
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Tooltip } from '../tooltip';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const Caption = () => <p>Hi, I'm a Tooltip</p>;
 const testProps = { id: 'test-id' };
@@ -11,9 +16,11 @@ const testProps = { id: 'test-id' };
 describe('Tooltip', () => {
   test('renders hidden and left-aligned by default', () => {
     const tooltip = create(
-      <Tooltip {...testProps}>
-        <Caption />
-      </Tooltip>
+      renderWithTheme(
+        <Tooltip {...testProps}>
+          <Caption />
+        </Tooltip>
+      )
     );
 
     expect(tooltip).toMatchSnapshot();
@@ -21,9 +28,11 @@ describe('Tooltip', () => {
 
   test('renders as active when defined', () => {
     const tooltip = create(
-      <Tooltip active {...testProps}>
-        <Caption />
-      </Tooltip>
+      renderWithTheme(
+        <Tooltip active {...testProps}>
+          <Caption />
+        </Tooltip>
+      )
     );
 
     expect(tooltip).toMatchSnapshot();
@@ -32,9 +41,11 @@ describe('Tooltip', () => {
   describe('alignment', () => {
     test('right-aligned', () => {
       const tooltip = create(
-        <Tooltip active align="right" {...testProps}>
-          <Caption />
-        </Tooltip>
+        renderWithTheme(
+          <Tooltip active align="right" {...testProps}>
+            <Caption />
+          </Tooltip>
+        )
       );
 
       expect(tooltip).toMatchSnapshot();
@@ -44,14 +55,16 @@ describe('Tooltip', () => {
   describe('renders with close button if onClose handler was passed', () => {
     test('closeable', () => {
       const tooltip = create(
-        <Tooltip
-          onClose={() => {
-            console.log('Closed');
-          }}
-          {...testProps}
-        >
-          <Caption />
-        </Tooltip>
+        renderWithTheme(
+          <Tooltip
+            onClose={() => {
+              console.log('Closed');
+            }}
+            {...testProps}
+          >
+            <Caption />
+          </Tooltip>
+        )
       );
 
       expect(tooltip).toMatchSnapshot();
@@ -60,9 +73,11 @@ describe('Tooltip', () => {
 
   test('renders as an error', () => {
     const tooltip = create(
-      <Tooltip active error {...testProps}>
-        <Caption />
-      </Tooltip>
+      renderWithTheme(
+        <Tooltip active error {...testProps}>
+          <Caption />
+        </Tooltip>
+      )
     );
 
     expect(tooltip).toMatchSnapshot();

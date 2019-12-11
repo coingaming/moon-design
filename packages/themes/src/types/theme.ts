@@ -1,0 +1,36 @@
+import { Color } from './color';
+import { ColorScheme } from './color-scheme';
+import { Base } from './base';
+import { Brand } from './brand';
+import { Border, BorderWidth, BorderStyle } from './border';
+import { BoxShadow } from './box-shadow';
+import { Breakpoint } from './breakpoint';
+import { FontFace, FontFamily, FontSize, FontWeight } from './font';
+import { MaxWidth } from './max-width';
+import { Opacity } from './opacity';
+import { Radius } from './radius';
+import { Space } from './space';
+import { TransitionDuration } from './transition';
+import { ZIndex } from './z-index';
+
+export type Theme = {
+  brand: Brand;
+  colorScheme: ColorScheme;
+  base: Base;
+  border: Border;
+  borderWidth: BorderWidth;
+  borderStyle: BorderStyle;
+  boxShadow: BoxShadow;
+  breakpoint: Breakpoint;
+  color: Color;
+  fontFace?: FontFace;
+  fontFamily: FontFamily;
+  fontSize: FontSize;
+  fontWeight: FontWeight;
+  maxWidth: MaxWidth;
+  opacity: Opacity;
+  radius: Radius;
+  space: Space;
+  transitionDuration: TransitionDuration;
+  zIndex: ZIndex;
+};

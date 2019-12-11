@@ -16,7 +16,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -27,7 +27,7 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
 
 <a
   className="c0"
-  to="#test-path"
+  href="#test"
 >
   I'm a link
 </a>
@@ -49,7 +49,7 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -60,7 +60,6 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
 
 <button
   className="c0"
-  to="#test"
 >
   I look like a link, but really I'm a button
 </button>
@@ -82,7 +81,7 @@ exports[`Link renders as a link by default 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -93,7 +92,7 @@ exports[`Link renders as a link by default 1`] = `
 
 <a
   className="c0"
-  to="#test"
+  href="#test"
 >
   I look like a link
 </a>
@@ -116,7 +115,7 @@ exports[`Link renders as a optional 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -129,12 +128,12 @@ exports[`Link renders as a optional 1`] = `
 .c0:focus,
 .c0:active,
 .c0.active {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <a
   className="c0"
-  to="#test-path"
+  href="#test"
 >
   I'm an optiona; link
 </a>
@@ -157,7 +156,7 @@ exports[`Link renders as a secondary 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -168,7 +167,7 @@ exports[`Link renders as a secondary 1`] = `
 
 <a
   className="c0"
-  to="#test-path"
+  href="#test"
 >
   I'm a secondary link
 </a>
@@ -190,7 +189,7 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -202,7 +201,7 @@ exports[`Link renders as disabled for anchor elements 1`] = `
 <a
   className="c0"
   disabled={true}
-  to="#test-path"
+  href="#test"
 >
   I'm a link
 </a>
@@ -224,7 +223,7 @@ exports[`Link renders as disabled for button elements 1`] = `
 .c0:hover,
 .c0:focus,
 .c0:active {
-  color: #3DDE83;
+  color: #66E59E;
 }
 
 .c0:disabled,
@@ -236,7 +235,6 @@ exports[`Link renders as disabled for button elements 1`] = `
 <button
   className="c0"
   disabled={true}
-  to="#test"
 >
   I look like a link, but really I'm a button
 </button>
