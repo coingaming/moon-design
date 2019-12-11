@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.102.0](https://github.com/coingaming/sportsbet-design/compare/v0.101.0...v0.102.0) (2019-12-11)
+
+
+### Bug Fixes
+
+* use theme colors in examples ([588bccf](https://github.com/coingaming/sportsbet-design/commit/588bccf))
+
+
+### Features
+
+* update with master ([f753021](https://github.com/coingaming/sportsbet-design/commit/f753021))
+* **assets:** update to support themes ([a8b14d7](https://github.com/coingaming/sportsbet-design/commit/a8b14d7))
+* **switch:** colorScheme variant ([fa77d5e](https://github.com/coingaming/sportsbet-design/commit/fa77d5e))
+
+
+
+
+
 # [0.101.0](https://github.com/coingaming/sportsbet-design/compare/v0.100.0...v0.101.0) (2019-12-06)
 
 

@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.102.0](https://github.com/coingaming/sportsbet-design/compare/v0.101.0...v0.102.0) (2019-12-11)
+
+
+### Bug Fixes
+
+* **form:** fix spacing, use Stack ([4e512ff](https://github.com/coingaming/sportsbet-design/commit/4e512ff))
+* **switch:** types ([a1948dd](https://github.com/coingaming/sportsbet-design/commit/a1948dd))
+
+
+### Features
+
+* change colors ([4d48688](https://github.com/coingaming/sportsbet-design/commit/4d48688))
+* **switch:** colorScheme variant ([fa77d5e](https://github.com/coingaming/sportsbet-design/commit/fa77d5e))
+* **themes:** add bitcasino ([4f3a56f](https://github.com/coingaming/sportsbet-design/commit/4f3a56f))
+
+
+
+
+
 # [0.101.0](https://github.com/coingaming/sportsbet-design/compare/v0.100.0...v0.101.0) (2019-12-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
