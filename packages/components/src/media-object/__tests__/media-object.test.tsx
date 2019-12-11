@@ -1,19 +1,26 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { MediaObject } from '../media-object';
 
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
+
 describe('MediaObject', () => {
   test('renders with `default` settings', () => {
     const mediaObject = create(
-      <MediaObject>
-        <img alt="Example" src="https://via.placeholder.com/50C" />
-        <div>
-          <p>Live chat</p>
-          <p>We offer 24/7 support</p>
-        </div>
-      </MediaObject>
+      renderWithTheme(
+        <MediaObject>
+          <img alt="Example" src="https://via.placeholder.com/50C" />
+          <div>
+            <p>Live chat</p>
+            <p>We offer 24/7 support</p>
+          </div>
+        </MediaObject>
+      )
     );
 
     expect(mediaObject).toMatchSnapshot();
@@ -21,13 +28,24 @@ describe('MediaObject', () => {
 
   test('renders with custom CSS grid props', () => {
     const mediaObject = create(
-      <MediaObject gridGap="2rem" alignItems="top">
-        <img alt="Example" src="https://via.placeholder.com/50C" />
-        <div>
-          <p>Live chat</p>
-          <p>We offer 24/7 support</p>
-        </div>
-      </MediaObject>
+      renderWithTheme(
+        <React.Fragment>
+          <MediaObject gridGap="2rem" alignItems="top">
+            <img alt="Example" src="https://via.placeholder.com/50C" />
+            <div>
+              <p>Live chat</p>
+              <p>We offer 24/7 support</p>
+            </div>
+          </MediaObject>
+          <MediaObject gridGap="large" alignItems="top">
+            <img alt="Example" src="https://via.placeholder.com/50C" />
+            <div>
+              <p>Live chat</p>
+              <p>We offer 24/7 support</p>
+            </div>
+          </MediaObject>
+        </React.Fragment>
+      )
     );
 
     expect(mediaObject).toMatchSnapshot();
@@ -35,13 +53,24 @@ describe('MediaObject', () => {
 
   test('renders with custom media size', () => {
     const mediaObject = create(
-      <MediaObject mediaWidth="40px">
-        <img alt="Example" src="https://via.placeholder.com/50C" />
-        <div>
-          <p>Live chat</p>
-          <p>We offer 24/7 support</p>
-        </div>
-      </MediaObject>
+      renderWithTheme(
+        <React.Fragment>
+          <MediaObject mediaWidth="40px">
+            <img alt="Example" src="https://via.placeholder.com/50C" />
+            <div>
+              <p>Live chat</p>
+              <p>We offer 24/7 support</p>
+            </div>
+          </MediaObject>
+          <MediaObject mediaWidth="xlarge">
+            <img alt="Example" src="https://via.placeholder.com/50C" />
+            <div>
+              <p>Live chat</p>
+              <p>We offer 24/7 support</p>
+            </div>
+          </MediaObject>
+        </React.Fragment>
+      )
     );
 
     expect(mediaObject).toMatchSnapshot();
@@ -49,23 +78,25 @@ describe('MediaObject', () => {
 
   test('renders in reverse', () => {
     const mediaObject = create(
-      <div>
-        <MediaObject reverse>
-          <img alt="Example" src="https://via.placeholder.com/50C" />
-          <div>
-            <p>Live chat</p>
-            <p>We offer 24/7 support</p>
-          </div>
-        </MediaObject>
+      renderWithTheme(
+        <div>
+          <MediaObject reverse>
+            <img alt="Example" src="https://via.placeholder.com/50C" />
+            <div>
+              <p>Live chat</p>
+              <p>We offer 24/7 support</p>
+            </div>
+          </MediaObject>
 
-        <MediaObject reverse textAlign="right">
-          <img alt="Example" src="https://via.placeholder.com/50C" />
-          <div>
-            <p>Live chat</p>
-            <p>We offer 24/7 support</p>
-          </div>
-        </MediaObject>
-      </div>
+          <MediaObject reverse textAlign="right">
+            <img alt="Example" src="https://via.placeholder.com/50C" />
+            <div>
+              <p>Live chat</p>
+              <p>We offer 24/7 support</p>
+            </div>
+          </MediaObject>
+        </div>
+      )
     );
 
     expect(mediaObject).toMatchSnapshot();

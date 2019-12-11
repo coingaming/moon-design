@@ -1,8 +1,8 @@
 import * as React from 'react';
-import styled, { CSSObject } from 'styled-components';
-import { breakpoints, border } from '@heathmont/sportsbet-tokens';
+import styled from 'styled-components';
 import { inlineSVG, mq, rem } from '@heathmont/sportsbet-utils';
 import { IconChevronDown } from '@heathmont/sportsbet-assets';
+import { Theme } from '@heathmont/sportsbet-themes';
 
 import { Input } from '../../private/input/input';
 import {
@@ -13,33 +13,42 @@ import {
 } from '../../private/input/settings';
 
 const selectIconSize = 10; // px
-const selectIconOffset = selectIconSize + inputSpacingX * 2;
+const selectIconOffset = (theme: Theme) =>
+  selectIconSize + inputSpacingX(theme) * 2;
+
+export type SelectElementProps = {
+  fullWidth?: boolean;
+};
 
 /**
  * Styles
  */
-export const SelectElement = styled(Input.withComponent('select'))({
-  color: inputColors.label,
-  backgroundImage: inlineSVG(<IconChevronDown color={inputColors.icon} />),
-  paddingRight: rem(selectIconOffset),
-  backgroundSize: rem(selectIconSize),
-  borderRadius: border.radius.largest,
-  '&:hover:enabled, &:focus:enabled': {
-    cursor: 'pointer',
+export const SelectElement = styled(Input.withComponent('select'))<
+  SelectElementProps
+>(({ fullWidth, theme }) => [
+  {
+    color: inputColors('label')(theme),
+    backgroundImage: inlineSVG(
+      <IconChevronDown color={inputColors('icon')(theme)} />
+    ),
+    paddingRight: rem(selectIconOffset(theme)),
+    backgroundSize: rem(selectIconSize),
+    borderRadius: rem(theme.radius.largest),
+    '&:hover:enabled, &:focus:enabled': {
+      cursor: 'pointer',
+    },
+    /**
+     * Addresses a Firefox bug where line-height includes the border-width
+     * on Select elements
+     * https://bugzilla.mozilla.org/show_bug.cgi?id=1560824
+     */
+    '@supports (-moz-appearance:none)': {
+      lineHeight: rem(inputLineHeight - inputBorderWidth(theme) * 2),
+    },
   },
-  /**
-   * Addresses a Firefox bug where line-height includes the border-width
-   * on Select elements
-   * https://bugzilla.mozilla.org/show_bug.cgi?id=1560824
-   */
-  '@supports (-moz-appearance:none)': {
-    lineHeight: rem(inputLineHeight - inputBorderWidth * 2),
+  !fullWidth && {
+    [mq(theme.breakpoint.small)]: {
+      width: 'auto',
+    },
   },
-});
-
-/* Modifiers */
-export const selectWidthAuto: CSSObject = {
-  [mq(breakpoints.small)]: {
-    width: 'auto',
-  },
-};
+]);

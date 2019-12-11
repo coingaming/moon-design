@@ -18,29 +18,22 @@ elements by creating a new `class` selector.
 
 ```jsx react-live
 () => {
-  const Example = styled.div(({ css }) => css);
+  const Example = styled.div(({ theme: { borderStyle, color, space } }) => ({
+    height: rem(space.large),
+    borderStyle,
+    borderWidth: 3,
+    borderColor: color.trunks[100],
+  }));
 
   return (
     <Stack>
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Stack
-        css={{ padding: '1rem', border: `3px solid ${colors.neutral[20]}` }}
-      >
-        <Example
-          css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-        />
-        <Example
-          css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-        />
+      <Example />
+      <Example />
+      <Stack>
+        <Example />
+        <Example />
       </Stack>
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
+      <Example />
     </Stack>
   );
 };
@@ -86,28 +79,28 @@ const Example = styled.div({
 
 ## Space
 
-`Stack` uses the [`"default"`](/tokens#spacing) spacing token to set rhythm, but
-accepts other size values (such as [spacing utils](/utils/spacing)) for
-individual use-cases.
+`Stack` uses the [`"default"`](/themes/tokens#space) space theme token to set
+rhythm, but accepts other size values for individual use-cases.
+
+`space` accepts themed space keys (e.g. `large` returns the large themed `space`
+key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
+`"1rem"`).
 
 ```jsx react-live
 () => {
-  const Example = styled.div(({ css }) => css);
+  const Example = styled.div(({ theme: { borderStyle, color, space } }) => ({
+    height: rem(space.large),
+    borderStyle,
+    borderWidth: 3,
+    borderColor: color.trunks[100],
+  }));
 
   return (
-    <Stack space={spacing('small')}>
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
-      <Example
-        css={{ height: '2rem', border: `3px solid ${colors.neutral[20]}` }}
-      />
+    <Stack space="small">
+      <Example />
+      <Example />
+      <Example />
+      <Example />
     </Stack>
   );
 };
@@ -121,19 +114,24 @@ or for other spacing needs.
 
 ```jsx react-live
 () => {
-  const Example = styled.div(({ css }) => css);
+  const Example = styled.div(
+    ({ theme: { border, color, space }, padding }) => ({
+      border,
+      borderColor: color.trunks[100],
+      padding: padding && rem(space[padding]),
+    })
+  );
 
-  const NestedStack = styled(Stack)({
-    padding: '1rem',
-    border: `1px solid ${colors.neutral[20]}`,
-  });
+  const NestedStack = styled(Stack)(({ theme: { border, color, space } }) => ({
+    border,
+    borderColor: color.trunks[100],
+    padding: rem(space.default),
+  }));
 
   return (
     <Stack>
       <p>Stacks can be nested too.</p>
-      <Example
-        css={{ padding: '1rem', border: `1px solid ${colors.neutral[20]}` }}
-      >
+      <Example padding="default">
         <strong>Content unaffected by Stack.</strong>
         <p>
           Elements that are not direct children of the Stack, such as this one,
@@ -147,9 +145,7 @@ or for other spacing needs.
         <p>Such as this element.</p>
       </NestedStack>
 
-      <Example
-        css={{ height: '2rem', border: `1px solid ${colors.neutral[20]}` }}
-      />
+      <Example padding="medium" />
 
       <p>
         Further immediate children to the initial Stack will inherit spacing.

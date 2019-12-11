@@ -1,23 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CardBalance renders correctly 1`] = `
+.c0 > li {
+  list-style-type: none;
+}
+
+.c0 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c3 {
+  cursor: help;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
 .c2 {
-  margin-top: 0;
+  margin: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
 }
 
 .c1 {
-  margin-top: 0;
+  margin: 0;
   color: #8697A2;
   font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
-
-.c3 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1.0625rem;
   line-height: 1.25rem;
 }
 
@@ -34,7 +44,7 @@ exports[`CardBalance renders correctly 1`] = `
   }
 }
 
-<div
+<section
   className="c0"
 >
   <p
@@ -53,112 +63,152 @@ exports[`CardBalance renders correctly 1`] = `
       mBTC
     </abbr>
   </p>
-</div>
+</section>
 `;
 
 exports[`CardBalance renders correctly with a badge 1`] = `
-.c2 {
-  color: #FFF;
-  background-color: #0CD664;
+.c1 {
   padding: 0.125rem 0.4375rem;
+  font-size: 0.5rem;
+  line-height: 1.25;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  border-radius: 100px;
-  font-size: 0.5rem;
-  line-height: 0.625rem;
+  border-radius: 6.25rem;
   -webkit-letter-spacing: 0.03125rem;
   -moz-letter-spacing: 0.03125rem;
   -ms-letter-spacing: 0.03125rem;
   letter-spacing: 0.03125rem;
-  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #0CD664;
 }
 
-.c4 {
-  margin-top: 0;
-  font-size: 1.9375rem;
-  line-height: 2.375rem;
+.c2 > li {
+  list-style-type: none;
 }
 
-.c3 {
-  margin-top: 0;
-  color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
+.c2 > li:before {
+  position: absolute;
+  content: "\\200B";
 }
 
-.c1 {
-  margin-bottom: 1rem;
+.c0 > li {
+  list-style-type: none;
+}
+
+.c0 > li:before {
+  position: absolute;
+  content: "\\200B";
 }
 
 .c5 {
+  cursor: help;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.0625rem;
   line-height: 1.25rem;
 }
 
+.c4 {
+  margin: 0;
+  font-size: 1.9375rem;
+  line-height: 2.375rem;
+}
+
+.c3 {
+  margin: 0;
+  color: #8697A2;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
 @supports (grid-gap:0) {
-  .c0 {
+  .c2 {
     display: grid;
     grid-gap: 0;
   }
 }
 
 @supports not (grid-gap:0) {
-  .c0 > * + * {
+  .c2 > * + * {
     margin-top: 0;
+  }
+}
+
+@supports (grid-gap:0) {
+  .c0 {
+    display: grid;
+    grid-gap: 1rem;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c0 > * + * {
+    margin-top: 1rem;
   }
 }
 
 <div
   className="c0"
 >
-  <p
-    className="c1"
-  >
+  <span>
     <span
-      className="c2"
+      className="c1"
     >
       Active
     </span>
-  </p>
-  <p
-    className="c3"
+  </span>
+  <section
+    className="c2"
   >
-    Bitcoin
-  </p>
-  <p
-    className="c4"
-  >
-    1526.56 
-    <abbr
-      className="c5"
-      title="Millibitcoin"
+    <p
+      className="c3"
     >
-      mBTC
-    </abbr>
-  </p>
+      Bitcoin
+    </p>
+    <p
+      className="c4"
+    >
+      1526.56 
+      <abbr
+        className="c5"
+        title="Millibitcoin"
+      >
+        mBTC
+      </abbr>
+    </p>
+  </section>
 </div>
 `;
 
 exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
+.c0 > li {
+  list-style-type: none;
+}
+
+.c0 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c3 {
+  cursor: help;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
 .c2 {
-  margin-top: 0;
+  margin: 0;
   font-size: 1.9375rem;
   line-height: 2.375rem;
 }
 
 .c1 {
-  margin-top: 0;
+  margin: 0;
   color: #8697A2;
   font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
-
-.c3 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1.0625rem;
   line-height: 1.25rem;
 }
 
@@ -175,7 +225,7 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   }
 }
 
-<div
+<section
   className="c0"
 >
   <p
@@ -194,5 +244,5 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
       mBTC
     </abbr>
   </p>
-</div>
+</section>
 `;

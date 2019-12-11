@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
-import styled, { CSSObject } from 'styled-components';
-import { colors, typography } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import styled from 'styled-components';
+import { rem } from '@heathmont/sportsbet-utils';
 
 import { Frontmatter } from '../../types';
 
@@ -24,59 +23,68 @@ type MenuProps = {
 /**
  * Styles
  */
-const listItem: CSSObject = {
-  display: 'block',
-  marginTop: spacing('small'),
-};
+const MenuListItem = styled.li<{ section?: boolean }>(
+  ({ theme: { color, fontWeight, space }, section }) => [
+    {
+      display: 'block',
+      marginTop: rem(space.small),
+    },
+    section && {
+      fontSize: '1.2rem',
+      fontWeight: fontWeight.semibold,
+      color: color.trunks[100],
+    },
+  ]
+);
 
-const listSection: CSSObject = {
-  fontSize: '1.2rem',
-  fontWeight: typography.fontWeight.semibold,
-  color: colors.neutral[20],
-};
-
-const Link = styled(GatsbyLink)({
+const Link = styled(GatsbyLink)(({ theme: { color, fontWeight } }) => ({
   // @ts-ignore: &[aria-current=page]
-  color: colors.neutral[10],
+  color: color.bulma[100],
   textDecoration: 'none',
   '&[aria-current=page]': {
-    fontWeight: 600,
+    fontWeight: fontWeight.semibold,
   },
   '&:hover, &:active, &[aria-current=page]': {
-    color: colors.brand,
+    color: color.piccolo[100],
   },
-});
+}));
 
 /**
  * Components: Private
  */
 const SubMenu = ({ items, title }: MenuListProps & MenuProps) => (
-  <li css={listItem}>
-    {title && <span css={[listItem, listSection]}>{title}</span>}
+  <MenuListItem>
+    {title && (
+      <MenuListItem as="span" section>
+        {title}
+      </MenuListItem>
+    )}
     <MenuList nested>
       {items.map(item => (
         <MenuItem key={item.name} route={item.route} name={item.name} />
       ))}
     </MenuList>
-  </li>
+  </MenuListItem>
 );
 
 /**
  * Components: Exported
  */
-const MenuList = styled.ul(({ nested }: MenuListProps) => ({
-  margin: 0,
-  marginLeft: nested ? spacing() : 0,
-  listStyleType: 'none',
-}));
-
-const MenuItem = ({ route, name, section }: MenuItemProps) => (
-  <li css={[listItem, section && listSection]}>
-    <Link to={route}>{name}</Link>
-  </li>
+export const MenuList = styled.ul<{ nested?: boolean & MenuListProps }>(
+  ({ theme: { space }, nested }) => ({
+    margin: 0,
+    marginLeft: nested ? rem(space.default) : 0,
+    listStyleType: 'none',
+  })
 );
 
-const Menu = ({ items }: MenuProps) =>
+export const MenuItem = ({ route, name, section }: MenuItemProps) => (
+  <MenuListItem section={section}>
+    <Link to={route}>{name}</Link>
+  </MenuListItem>
+);
+
+export const Menu = ({ items }: MenuProps) =>
   items.map(item =>
     item.pages ? (
       <SubMenu key={item.name} title={item.name} items={item.pages} />
@@ -84,5 +92,3 @@ const Menu = ({ items }: MenuProps) =>
       <MenuItem key={item.name} route={item.route} name={item.name} section />
     )
   );
-
-export { MenuItem, Menu, MenuList };

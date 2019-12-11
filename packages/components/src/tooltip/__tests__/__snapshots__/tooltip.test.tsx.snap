@@ -2,41 +2,30 @@
 
 exports[`Tooltip alignment right-aligned 1`] = `
 .c1 {
-  z-index: 1;
+  --tooltip-space: 0.5rem;
   right: 0;
+  border: 1px solid;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  z-index: 1;
   position: absolute;
   max-width: 100%;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  background-color: #FFF;
-  border-radius: 4px;
-  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  padding: var(--tooltip-space);
+  margin-top: var(--tooltip-space);
+  background-color: #232A33;
+  border-color: #31373F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  will-change: transform;
+  -webkit-animation: gcKUNh 0.2s ease-in-out;
+  animation: gcKUNh 0.2s ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  will-change: transform;
-  -webkit-animation: gcKUNh 0.4s ease-in-out;
-  animation: gcKUNh 0.4s ease-in-out;
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
 }
 
-.c1,
-.c1::after {
-  color: #31373F;
-}
-
-.c1::after {
-  right: 1rem;
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
-  border-width: 0.5rem;
+.c1 .c3 {
+  color: #8697A2;
 }
 
 .c2 {
@@ -69,41 +58,30 @@ exports[`Tooltip alignment right-aligned 1`] = `
 
 exports[`Tooltip renders as active when defined 1`] = `
 .c1 {
-  z-index: 1;
+  --tooltip-space: 0.5rem;
   left: 0;
+  border: 1px solid;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  z-index: 1;
   position: absolute;
   max-width: 100%;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  background-color: #FFF;
-  border-radius: 4px;
-  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  padding: var(--tooltip-space);
+  margin-top: var(--tooltip-space);
+  background-color: #232A33;
+  border-color: #31373F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  will-change: transform;
+  -webkit-animation: gcKUNh 0.2s ease-in-out;
+  animation: gcKUNh 0.2s ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  will-change: transform;
-  -webkit-animation: gcKUNh 0.4s ease-in-out;
-  animation: gcKUNh 0.4s ease-in-out;
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
 }
 
-.c1,
-.c1::after {
-  color: #31373F;
-}
-
-.c1::after {
-  left: 1rem;
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
-  border-width: 0.5rem;
+.c1 .c3 {
+  color: #8697A2;
 }
 
 .c2 {
@@ -136,41 +114,30 @@ exports[`Tooltip renders as active when defined 1`] = `
 
 exports[`Tooltip renders as an error 1`] = `
 .c1 {
-  z-index: 1;
+  --tooltip-space: 0.5rem;
   left: 0;
+  border: 1px solid;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  z-index: 1;
   position: absolute;
   max-width: 100%;
-  padding: 0.5rem;
-  margin-top: 1rem;
+  padding: var(--tooltip-space);
+  margin-top: var(--tooltip-space);
   background-color: #FF4E64;
-  border-radius: 4px;
-  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  border-color: #31373F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  will-change: transform;
+  -webkit-animation: gcKUNh 0.2s ease-in-out;
+  animation: gcKUNh 0.2s ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  will-change: transform;
-  -webkit-animation: gcKUNh 0.4s ease-in-out;
-  animation: gcKUNh 0.4s ease-in-out;
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
 }
 
-.c1,
-.c1::after {
-  color: #FFF;
-}
-
-.c1::after {
-  left: 1rem;
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FF4E64;
-  border-width: 0.5rem;
+.c1 .c3 {
+  color: #8697A2;
 }
 
 .c2 {
@@ -203,39 +170,28 @@ exports[`Tooltip renders as an error 1`] = `
 
 exports[`Tooltip renders hidden and left-aligned by default 1`] = `
 .c1 {
-  z-index: 1;
+  --tooltip-space: 0.5rem;
   left: 0;
+  border: 1px solid;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  z-index: 1;
   position: absolute;
   max-width: 100%;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  background-color: #FFF;
-  border-radius: 4px;
-  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  padding: var(--tooltip-space);
+  margin-top: var(--tooltip-space);
+  background-color: #232A33;
+  border-color: #31373F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  will-change: transform;
+  -webkit-animation: gcKUNh 0.2s ease-in-out;
+  animation: gcKUNh 0.2s ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  will-change: transform;
-  -webkit-animation: gcKUNh 0.4s ease-in-out;
-  animation: gcKUNh 0.4s ease-in-out;
 }
 
-.c1,
-.c1::after {
-  color: #31373F;
-}
-
-.c1::after {
-  left: 1rem;
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
-  border-width: 0.5rem;
+.c1 .c3 {
+  color: #8697A2;
 }
 
 .c2 {
@@ -267,49 +223,46 @@ exports[`Tooltip renders hidden and left-aligned by default 1`] = `
 `;
 
 exports[`Tooltip renders with close button if onClose handler was passed closeable 1`] = `
-.c4 {
+.c5 {
   vertical-align: middle;
 }
 
 .c1 {
-  z-index: 1;
+  --tooltip-space: 0.5rem;
   left: 0;
+  border: 1px solid;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  z-index: 1;
   position: absolute;
   max-width: 100%;
-  padding: 0.5rem;
-  margin-top: 1rem;
-  background-color: #FFF;
-  border-radius: 4px;
-  box-shadow: 0 0 0.25rem 0 rgba(0,0,0,0.08),0 0.5rem 0.5rem 0 rgba(0,0,0,0.08),0 1rem 1rem 0 rgba(0,0,0,0.08);
+  padding: var(--tooltip-space);
+  margin-top: var(--tooltip-space);
+  background-color: #232A33;
+  border-color: #31373F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  will-change: transform;
+  -webkit-animation: gcKUNh 0.2s ease-in-out;
+  animation: gcKUNh 0.2s ease-in-out;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  will-change: transform;
-  -webkit-animation: gcKUNh 0.4s ease-in-out;
-  animation: gcKUNh 0.4s ease-in-out;
 }
 
-.c1,
-.c1::after {
-  color: #31373F;
+.c1 .c4 {
+  color: #8697A2;
 }
 
-.c1::after {
-  left: 1rem;
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
-  border-width: 0.5rem;
+.c6 .c4 {
+  color: #8697A2;
+}
+
+.c7 .c4 {
+  color: #8697A2;
 }
 
 .c2 {
   position: relative;
-  padding-right: 1.3rem;
+  padding-right: calc(var(--tooltip-space) + 0.8rem);
 }
 
 .c0 {
@@ -322,6 +275,10 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
   cursor: pointer;
   border: none;
   font-size: 1rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -351,8 +308,7 @@ exports[`Tooltip renders with close button if onClose handler was passed closeab
         className="c3"
       >
         <svg
-          className="c4"
-          color="#8697A2"
+          className="c4 c5"
           fontSize="inherit"
           height="1em"
           onClick={[Function]}

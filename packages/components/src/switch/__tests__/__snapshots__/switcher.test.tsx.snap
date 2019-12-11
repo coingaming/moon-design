@@ -1,59 +1,81 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Switch renders as checked 1`] = `
-.c0 {
-  position: relative;
-  display: inline-block;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: 4rem;
-  height: 2rem;
-}
-
-.c1 {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.c1:checked + .slider {
-  background-color: #0CD664;
-}
-
-.c1:checked + .slider:before {
-  background-color: #FFF;
-  -webkit-transform: translateX(32px);
-  -ms-transform: translateX(32px);
-  transform: translateX(32px);
-}
-
-.c2 {
+.c3 {
   position: absolute;
-  width: 4rem;
-  height: 2rem;
+  width: var(--switch-width);
+  height: var(--switch-height);
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: #31373F;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border-radius: 2.125rem;
+  background-color: #353C44;
+  background-position: left 0.5rem center,right 0.5rem center;
+  background-repeat: no-repeat;
+  border-radius: calc(var(--switch-width) + 0.125rem);
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
-.c2::before {
-  position: absolute;
+.c3::before {
+  --switch-indicator-size: calc(var(--switch-height) - 0.5rem);
   content: "";
-  height: 1.5rem;
-  width: 1.5rem;
+  position: absolute;
+  width: var(--switch-indicator-size);
+  height: var(--switch-indicator-size);
   left: 0.25rem;
   bottom: 0.25rem;
-  background-color: #8697A2;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background-color: #232A33;
   border-radius: 50%;
+  -webkit-transition: inherit;
+  transition: inherit;
+  -webkit-transition-property: background-color,-webkit-transform;
+  -webkit-transition-property: background-color,transform;
+  transition-property: background-color,transform;
+  will-change: transform;
+}
+
+.c0 {
+  --switch-width: 4rem;
+  --switch-height: 2rem;
+  position: relative;
+  display: inline-block;
+  width: var(--switch-width);
+  height: var(--switch-height);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c1:checked + .c2 {
+  background-color: #0CD664;
+}
+
+.c1:checked + .c2::before {
+  background-color: #FFFFFF;
+  -webkit-transform: translateX(calc(var(--switch-width) / 2));
+  -ms-transform: translateX(calc(var(--switch-width) / 2));
+  transform: translateX(calc(var(--switch-width) / 2));
 }
 
 <label
@@ -62,68 +84,91 @@ exports[`Switch renders as checked 1`] = `
   <input
     checked={true}
     className="c1"
+    id="test-switch-2"
     type="checkbox"
   />
   <span
-    className="c2 slider"
+    className="c2 c3"
   />
 </label>
 `;
 
 exports[`Switch renders by default 1`] = `
-.c0 {
-  position: relative;
-  display: inline-block;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: 4rem;
-  height: 2rem;
-}
-
-.c1 {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.c1:checked + .slider {
-  background-color: #0CD664;
-}
-
-.c1:checked + .slider:before {
-  background-color: #FFF;
-  -webkit-transform: translateX(32px);
-  -ms-transform: translateX(32px);
-  transform: translateX(32px);
-}
-
-.c2 {
+.c3 {
   position: absolute;
-  width: 4rem;
-  height: 2rem;
+  width: var(--switch-width);
+  height: var(--switch-height);
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: #31373F;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border-radius: 2.125rem;
+  background-color: #353C44;
+  background-position: left 0.5rem center,right 0.5rem center;
+  background-repeat: no-repeat;
+  border-radius: calc(var(--switch-width) + 0.125rem);
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
-.c2::before {
-  position: absolute;
+.c3::before {
+  --switch-indicator-size: calc(var(--switch-height) - 0.5rem);
   content: "";
-  height: 1.5rem;
-  width: 1.5rem;
+  position: absolute;
+  width: var(--switch-indicator-size);
+  height: var(--switch-indicator-size);
   left: 0.25rem;
   bottom: 0.25rem;
-  background-color: #8697A2;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background-color: #232A33;
   border-radius: 50%;
+  -webkit-transition: inherit;
+  transition: inherit;
+  -webkit-transition-property: background-color,-webkit-transform;
+  -webkit-transition-property: background-color,transform;
+  transition-property: background-color,transform;
+  will-change: transform;
+}
+
+.c0 {
+  --switch-width: 4rem;
+  --switch-height: 2rem;
+  position: relative;
+  display: inline-block;
+  width: var(--switch-width);
+  height: var(--switch-height);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c1:checked + .c2 {
+  background-color: #0CD664;
+}
+
+.c1:checked + .c2::before {
+  background-color: #FFFFFF;
+  -webkit-transform: translateX(calc(var(--switch-width) / 2));
+  -ms-transform: translateX(calc(var(--switch-width) / 2));
+  transform: translateX(calc(var(--switch-width) / 2));
 }
 
 <label
@@ -131,10 +176,11 @@ exports[`Switch renders by default 1`] = `
 >
   <input
     className="c1"
+    id="test-switch-1"
     type="checkbox"
   />
   <span
-    className="c2 slider"
+    className="c2 c3"
   />
 </label>
 `;

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { colors } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/sportsbet-utils';
 import { IconArrowLeft } from '@heathmont/sportsbet-assets';
 import styled from 'styled-components';
 
@@ -18,15 +17,19 @@ type HeaderBackProps = {
 };
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
-const HeaderBackLink = styled.a({
-  margin: `0 ${spacing()} 0 0`,
+const HeaderBackLink = styled.a(({ theme: { color, space } }) => ({
+  margin: `0 ${rem(space.small)} 0 0`,
   padding: 0,
   alignSelf: 'center',
   verticalAlign: 'middle',
   backgroundColor: 'transparent',
   border: 0,
   appearance: 'none',
-});
+  [`> ${IconArrowLeft}`]: {
+    color: color.piccolo[100],
+    fontSize: rem(space.medium),
+  },
+}));
 
 /**
  * Component
@@ -37,7 +40,7 @@ const HeaderBack: React.FC<HeaderBackProps> = ({
   ...props
 }) => (
   <HeaderBackLink as={element} {...props}>
-    <IconArrowLeft fontSize={spacing('medium')} color={colors.brand} />
+    <IconArrowLeft />
     <span css={hideVisually()}>{children}</span>
   </HeaderBackLink>
 );

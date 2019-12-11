@@ -5,7 +5,6 @@
 export * from './badge/badge';
 export * from './badge/modifiers';
 export * from './button/button';
-export * from './button/colors';
 export * from './button/modifiers';
 export * from './button/size';
 export * from './button/states';
@@ -24,7 +23,6 @@ export * from './form/form';
 export * from './header/header-back';
 export * from './header/header';
 export * from './heading/heading';
-export * from './heading/sizes';
 export * from './inline/inline';
 export * from './keyline/keyline';
 export * from './link/link';

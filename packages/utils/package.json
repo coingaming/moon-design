@@ -15,9 +15,15 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-tokens": "^0.101.0",
+    "@heathmont/sportsbet-themes": "^0.101.0",
+    "lodash.get": "4.4.2",
+    "lodash.has": "4.5.2",
     "mini-svg-data-uri": "1.0.3",
     "polished": "3.4.1"
+  },
+  "devDependencies": {
+    "@types/lodash.get": "4.4.6",
+    "@types/lodash.has": "4.5.6"
   },
   "peerDependencies": {
     "react": ">= 16.8.1",
