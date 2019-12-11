@@ -1,62 +1,70 @@
 import { CSSObject } from 'styled-components';
-import { colors, border } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { Theme } from '@heathmont/sportsbet-themes';
 
 import { buttonActive, buttonHover } from './states';
 
-type ButtonModifiers = 'primary' | 'highlight' | 'secondary' | 'optional';
+type ButtonModifiers = keyof ButtonModifierStyles;
+
+type ButtonModifierStyles = {
+  primary: CSSObject;
+  secondary: CSSObject;
+  highlight: CSSObject;
+  optional: CSSObject;
+};
 
 /**
- * buttonModifiers
+ * buttonModifier
  *
  * Styles that extend `buttonBase` to change the button's cosmetic appearance.
- * Accessed via `buttonModifiers[key]`.
+ * Accessed via `buttonModifiers(key)(theme)`.
  *
  * For usage guidelines, see the README.
  */
-const primary: CSSObject = {
-  color: colors.neutral[10],
-  backgroundColor: colors.brand,
-  ...buttonHover({
-    backgroundColor: colors.palette.piccolo[60],
-  }),
-  ...buttonActive({
-    backgroundColor: colors.palette.piccolo[60],
-  }),
-};
+const buttonModifier = (key: ButtonModifiers) => ({ color }: Theme) => {
+  const themedStyles: ButtonModifierStyles = {
+    primary: {
+      color: color.goten[100],
+      backgroundColor: color.piccolo[100],
+      ...buttonHover({
+        backgroundColor: color.piccolo[60],
+      }),
+      ...buttonActive({
+        backgroundColor: color.piccolo[60],
+      }),
+    },
+    secondary: {
+      color: color.trunks[20],
+      backgroundColor: color.gohan[100],
+      ...buttonHover({
+        color: color.bulma[100],
+      }),
+      ...buttonActive({
+        color: color.bulma[100],
+      }),
+    },
+    highlight: {
+      color: color.goten[100],
+      backgroundColor: color.whis[100],
+      ...buttonHover({
+        backgroundColor: color.whis[60],
+      }),
+      ...buttonActive({
+        backgroundColor: color.whis[60],
+      }),
+    },
+    optional: {
+      color: color.trunks[100],
+      backgroundColor: color.gohan[80],
+      ...buttonHover({
+        color: color.bulma[100],
+      }),
+      ...buttonActive({
+        color: color.bulma[100],
+      }),
+    },
+  };
 
-const highlight = {
-  color: colors.neutral[10],
-  backgroundColor: colors.palette.vegeta[100],
-  ...buttonHover({
-    backgroundColor: colors.palette.vegeta[60],
-  }),
-  ...buttonActive({
-    backgroundColor: colors.palette.vegeta[60],
-  }),
-};
-
-const secondary: CSSObject = {
-  color: colors.neutral[20],
-  backgroundColor: colors.neutral[70],
-  ...buttonHover({
-    color: colors.neutral[10],
-  }),
-  ...buttonActive({
-    color: colors.neutral[10],
-  }),
-};
-
-const optional: CSSObject = {
-  color: colors.neutral[20],
-  backgroundColor: colors.neutral[90],
-  border: `${border.width}px solid ${colors.neutral[70]}`,
-  ...buttonHover({
-    color: colors.neutral[10],
-  }),
-  ...buttonActive({
-    color: colors.neutral[10],
-  }),
+  return themedStyles[key];
 };
 
 /**
@@ -65,16 +73,11 @@ const optional: CSSObject = {
  * Removes user-agent `:focus` styles and generates a box-shadow using the
  * color provided.
  */
-export const buttonShadow: (color: string) => CSSObject = color => ({
+export const buttonShadow = (color: string) => ({
+  space,
+}: Theme): CSSObject => ({
   outline: 'none',
-  boxShadow: `0 0 ${spacing('default', 'px')} ${color}`,
+  boxShadow: `0 0 ${space.default}px ${color}`,
 });
 
-const buttonModifiers = {
-  primary,
-  highlight,
-  secondary,
-  optional,
-};
-
-export { buttonModifiers, ButtonModifiers };
+export { buttonModifier, ButtonModifiers };

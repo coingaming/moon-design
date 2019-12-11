@@ -1,8 +1,13 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 
 import { Stack } from '../stack';
+
+const renderWithTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
 
 const TestItems = () => (
   <>
@@ -36,9 +41,11 @@ const TestItems = () => (
 describe('Stack', () => {
   test('renders with `default` spacing', () => {
     const stack = create(
-      <Stack>
-        <TestItems />
-      </Stack>
+      renderWithTheme(
+        <Stack>
+          <TestItems />
+        </Stack>
+      )
     );
 
     expect(stack).toMatchSnapshot();
@@ -46,9 +53,23 @@ describe('Stack', () => {
 
   test('renders with adjusted spacing', () => {
     const stack = create(
-      <Stack space={30}>
-        <TestItems />
-      </Stack>
+      renderWithTheme(
+        <Stack space={30}>
+          <TestItems />
+        </Stack>
+      )
+    );
+
+    expect(stack).toMatchSnapshot();
+  });
+
+  test('renders with theme key', () => {
+    const stack = create(
+      renderWithTheme(
+        <Stack space="large">
+          <TestItems />
+        </Stack>
+      )
     );
 
     expect(stack).toMatchSnapshot();

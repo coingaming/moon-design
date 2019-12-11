@@ -1,7 +1,8 @@
-import { border } from '@heathmont/sportsbet-tokens';
+import { Theme } from '@heathmont/sportsbet-themes';
 
-const underlineWidth = border.width * 2; // 'px'
+const underlineWidth = ({ borderWidth }: Theme) => borderWidth * 2; // 'px'
 const totalUnderlineOffset = 16; // 'px'
-const underlineOffset = totalUnderlineOffset - underlineWidth; // 'px'
+const underlineOffset = (theme: Theme) =>
+  totalUnderlineOffset - underlineWidth(theme); // 'px'
 
 export { underlineOffset, underlineWidth };

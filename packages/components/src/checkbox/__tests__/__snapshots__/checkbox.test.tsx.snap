@@ -32,7 +32,7 @@ exports[`Checkbox renders as disabled 1`] = `
 }
 
 .c2::before {
-  background-color: #5A5F65;
+  background-color: #4D5359;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -45,8 +45,8 @@ exports[`Checkbox renders as disabled 1`] = `
 }
 
 .c2::after {
-  border: 1px solid #3D434B;
-  border-radius: 4px;
+  border: 1px solid #31373F;
+  border-radius: 0.25rem;
   background-color: transparent;
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -78,12 +78,12 @@ exports[`Checkbox renders as disabled 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #85EAB2;
+  background-color: #9EEFC1;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
 .c1:focus:enabled:not(:checked) + span::after {
-  border-color: #5A5F65;
+  border-color: #4D5359;
 }
 
 .c1:checked + span::after {
@@ -153,7 +153,7 @@ exports[`Checkbox renders by default 1`] = `
 }
 
 .c2::before {
-  background-color: #5A5F65;
+  background-color: #4D5359;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -166,8 +166,8 @@ exports[`Checkbox renders by default 1`] = `
 }
 
 .c2::after {
-  border: 1px solid #3D434B;
-  border-radius: 4px;
+  border: 1px solid #31373F;
+  border-radius: 0.25rem;
   background-color: transparent;
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -199,12 +199,12 @@ exports[`Checkbox renders by default 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #85EAB2;
+  background-color: #9EEFC1;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
 .c1:focus:enabled:not(:checked) + span::after {
-  border-color: #5A5F65;
+  border-color: #4D5359;
 }
 
 .c1:checked + span::after {
@@ -274,7 +274,7 @@ exports[`Checkbox renders label with HTML 1`] = `
 }
 
 .c2::before {
-  background-color: #5A5F65;
+  background-color: #4D5359;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -287,8 +287,8 @@ exports[`Checkbox renders label with HTML 1`] = `
 }
 
 .c2::after {
-  border: 1px solid #3D434B;
-  border-radius: 4px;
+  border: 1px solid #31373F;
+  border-radius: 0.25rem;
   background-color: transparent;
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -320,12 +320,12 @@ exports[`Checkbox renders label with HTML 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #85EAB2;
+  background-color: #9EEFC1;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
 .c1:focus:enabled:not(:checked) + span::after {
-  border-color: #5A5F65;
+  border-color: #4D5359;
 }
 
 .c1:checked + span::after {
@@ -403,7 +403,7 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 }
 
 .c2::before {
-  background-color: #5A5F65;
+  background-color: #4D5359;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -416,8 +416,8 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 }
 
 .c2::after {
-  border: 1px solid #3D434B;
-  border-radius: 4px;
+  border: 1px solid #31373F;
+  border-radius: 0.25rem;
   background-color: transparent;
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -449,12 +449,12 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #85EAB2;
+  background-color: #9EEFC1;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
 .c1:focus:enabled:not(:checked) + span::after {
-  border-color: #5A5F65;
+  border-color: #4D5359;
 }
 
 .c1:checked + span::after {

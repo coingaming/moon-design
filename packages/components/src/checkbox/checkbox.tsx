@@ -1,13 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import {
-  animation,
-  colors,
-  border,
-  spacing,
-} from '@heathmont/sportsbet-tokens';
 import { uniqueId, inlineSVG, rem } from '@heathmont/sportsbet-utils';
+import { Theme } from '@heathmont/sportsbet-themes';
 
 import { LabelText } from '../private/label/label';
 import {
@@ -18,8 +13,8 @@ import {
 
 import { CheckboxIcon } from './private/icon';
 
-const checkboxSize = spacing.default;
-const checkboxGap = spacing.xsmall * 3;
+const checkboxSize = (theme: Theme) => theme.space.default;
+const checkboxGap = (theme: Theme) => theme.space.xsmall * 3;
 
 /**
  * Checkbox Container
@@ -29,12 +24,12 @@ const checkboxGap = spacing.xsmall * 3;
  *
  * 1. Prevents the label collapsing without text
  */
-const CheckboxLabel = styled.label({
+const CheckboxLabel = styled.label(({ theme }) => ({
   display: 'inline-block',
   position: 'relative',
   alignItems: 'center',
-  minHeight: rem(checkboxSize) /* [1] */,
-});
+  minHeight: rem(checkboxSize(theme)) /* [1] */,
+}));
 
 /**
  * Checkbox Caption
@@ -43,23 +38,23 @@ const CheckboxLabel = styled.label({
  * caption to create a completely bespoke checkbox.
  * Interaction styles are handled by the prior adjacent hidden `input`.
  */
-const CheckboxCaption = styled.span({
+const CheckboxCaption = styled.span(({ theme }) => ({
   display: 'inline-block',
-  marginLeft: rem(checkboxSize + checkboxGap),
-  color: inputColors.label,
+  marginLeft: rem(checkboxSize(theme) + checkboxGap(theme)),
+  color: inputColors('label')(theme),
   '&::before, &::after': {
     content: '""',
     position: 'absolute',
-    width: rem(checkboxSize),
-    height: rem(checkboxSize),
-    top: rem(inputBorderWidth),
+    width: rem(checkboxSize(theme)),
+    height: rem(checkboxSize(theme)),
+    top: rem(inputBorderWidth(theme)),
     left: 0,
-    transitionDuration: `${animation.speed.fast}s`,
+    transitionDuration: `${theme.transitionDuration.default}s`,
     transitionTimingFunction: 'ease',
   },
   /* Pseudo Checkbox Circle */
   '&::before': {
-    backgroundColor: inputColors.border.hover,
+    backgroundColor: inputColors('borderHover')(theme),
     borderRadius: '50%',
     opacity: 0,
     transform: 'none',
@@ -68,12 +63,12 @@ const CheckboxCaption = styled.span({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: inputBorder,
-    borderRadius: border.radius.small,
+    border: inputBorder(theme),
+    borderRadius: rem(theme.radius.small),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
   },
-});
+}));
 
 /**
  * Checkbox Input
@@ -81,7 +76,7 @@ const CheckboxCaption = styled.span({
  * Hides the default input and handles interaction styles of the custom pseudo
  * checkbox on CheckboxCaption.
  */
-const CheckboxInput = styled.input({
+const CheckboxInput = styled.input(({ theme }) => ({
   ...hideVisually(),
   '&:hover:enabled, &:focus:enabled': {
     /* Show the Pseudo Checkbox Circle */
@@ -91,29 +86,31 @@ const CheckboxInput = styled.input({
     },
     '&:checked + span::before': {
       opacity: 0.1,
-      backgroundColor: colors.palette.piccolo[20] /* [1] */,
+      backgroundColor: theme.color.piccolo[20] /* [1] */,
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {
-      borderColor: inputColors.border.hover,
+      borderColor: inputColors('borderHover')(theme),
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
   '&:checked + span::after': {
-    backgroundImage: inlineSVG(<CheckboxIcon />),
+    backgroundImage: inlineSVG(
+      <CheckboxIcon color={theme.color.piccolo[100]} />
+    ),
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: rem(10),
-    borderColor: colors.brand,
+    borderColor: theme.color.piccolo[100],
   },
   '&[disabled] + span': {
-    color: inputColors.disabled,
+    color: inputColors('disabled')(theme),
     cursor: 'not-allowed',
     '&::after': {
-      borderColor: inputColors.disabled,
+      borderColor: inputColors('disabled')(theme),
     },
   },
-});
+}));
 
 /**
  * Checkbox Component

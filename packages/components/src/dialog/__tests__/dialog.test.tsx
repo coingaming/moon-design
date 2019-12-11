@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import { createGlobalStyle } from 'styled-components';
+import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Dialog } from '../dialog';
@@ -15,10 +16,12 @@ const Global = createGlobalStyle({ '&:root': { '--reach-dialog': 1 } });
  * https://ui.reach.tech/styling/
  */
 const Setup = ({ children }: any) => (
-  <>
-    <Global />
-    {children}
-  </>
+  <ThemeProvider theme={sportsbetDark}>
+    <>
+      <Global />
+      {children}
+    </>
+  </ThemeProvider>
 );
 
 const ExampleHeading = () => (

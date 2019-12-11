@@ -2,8 +2,7 @@ import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link, Stack } from '@heathmont/sportsbet-components';
-import { border, colors, typography } from '@heathmont/sportsbet-tokens';
-import { spacing } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/sportsbet-utils';
 
 import { Code } from '../components/code';
 import { Children } from '../types';
@@ -12,37 +11,36 @@ const maxWidth: CSSObject = {
   maxWidth: '40rem',
 };
 
-const Table = styled.table({
-  width: '100%',
-  ...maxWidth,
-  thead: {
-    color: colors.neutral[10],
-    fontWeight: typography.fontWeight.semibold,
-    borderBottom: `${border.width}px solid ${colors.neutral[20]}`,
-  },
-  'th, td': {
-    padding: `${spacing('small')} 0`,
-  },
-});
+const Table = styled.table(
+  ({ theme: { border, color, fontWeight, space } }) => ({
+    width: '100%',
+    ...maxWidth,
+    thead: {
+      color: color.bulma[100],
+      fontWeight: fontWeight.semibold,
+      borderBottom: border,
+      borderBottomColor: color.trunks[100],
+    },
+    'th, td': {
+      padding: `${rem(space.small)} 0`,
+    },
+  })
+);
 
-/**
- * Markdown-specific CSS
- * Investigate re-applying to `global`.
- */
-const markdownContent: CSSObject = {
+const MarkdownStack = styled(Stack)(({ theme: { space } }) => ({
   'ul, ol': {
     '&:not([class])': {
-      marginLeft: spacing(),
+      marginLeft: rem(space.default),
     },
   },
-};
+}));
 
 /**
  * Map custom components to HTML provided by MDX
  * See: https://mdxjs.com/getting-started/
  */
 export const mdxComponents = {
-  wrapper: (props: any) => <Stack css={markdownContent} {...props} />,
+  wrapper: (props: any) => <MarkdownStack {...props} />,
   h1: ({ children }: Children) => (
     <Heading size="alpha" as="h1">
       {children}

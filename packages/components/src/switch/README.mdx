@@ -8,9 +8,41 @@ import { Switch } from '@heathmont/sportsbet-components';
 
 # Switch
 
-A switch is simply an alternate appearance for a checkbox that simulates on/off
-instead of checked/unchecked.
+An alternate checkbox appearance for simulating on/off state.
 
 ```jsx react-live
 <Switch />
+```
+
+An additional variant of the `Switch` can be used to toggle the app's
+`colorScheme` between 'light' and 'dark'.
+
+```jsx react-live
+<Switch colorScheme />
+```
+
+## Captions
+
+For extra context, captions can be appended to the unchecked and checked
+positions of the switch.
+
+```jsx react-live
+<Switch captionUnchecked="ON" captionChecked="OFF" />
+```
+
+```jsx react-live
+<Switch colorScheme captionUnchecked="AM" captionChecked="PM" />
+```
+
+## State
+
+Any manipulation of state should be handled via `onChange`. Below is an example
+with React Hooks:
+
+```jsx react-live
+() => {
+  const [state, setState] = React.useState(true);
+
+  return <Switch checked={state} onChange={e => setState(e.target.checked)} />;
+};
 ```

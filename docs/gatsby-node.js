@@ -10,23 +10,25 @@ const { packages } = require('./config.json');
  * See https://www.gatsbyjs.org/docs/add-custom-webpack-config/
  */
 exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    node: {
-      fs: 'empty',
-    },
-    resolve: {
-      alias: packages.reduce((acc, packageName) => {
-        acc[`@heathmont/sportsbet-${packageName}`] = path.resolve(
-          __dirname,
-          '..',
-          'packages',
-          packageName,
-          'src'
-        );
-        return acc;
-      }, {}),
-    },
-  });
+  actions.setWebpackConfig(
+    process.env.NODE_ENV !== 'production' && {
+      node: {
+        fs: 'empty',
+      },
+      resolve: {
+        alias: packages.reduce((acc, packageName) => {
+          acc[`@heathmont/sportsbet-${packageName}`] = path.resolve(
+            __dirname,
+            '..',
+            'packages',
+            packageName,
+            'src'
+          );
+          return acc;
+        }, {}),
+      },
+    }
+  );
 };
 
 exports.createPages = ({ graphql, actions }) => {

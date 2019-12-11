@@ -19,11 +19,10 @@ exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -63,7 +62,7 @@ exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -82,9 +81,9 @@ exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -106,7 +105,7 @@ exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
@@ -221,11 +220,10 @@ exports[`Dialog footer renders with \`footer\` 1`] = `
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -265,7 +263,7 @@ exports[`Dialog footer renders with \`footer\` 1`] = `
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -284,9 +282,9 @@ exports[`Dialog footer renders with \`footer\` 1`] = `
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -320,7 +318,7 @@ exports[`Dialog footer renders with \`footer\` 1`] = `
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
@@ -444,11 +442,10 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -488,7 +485,7 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -508,9 +505,9 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -545,7 +542,7 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
@@ -678,11 +675,10 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -722,7 +718,7 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -742,9 +738,9 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -778,7 +774,7 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
@@ -903,11 +899,10 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -947,7 +942,7 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -968,9 +963,9 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -993,7 +988,7 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
@@ -1118,11 +1113,10 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -1162,7 +1156,7 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -1182,9 +1176,9 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -1207,7 +1201,7 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
@@ -1331,11 +1325,10 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
   text-decoration: none;
   cursor: pointer;
   color: #8697A2;
-  border-radius: 100px;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 6.25rem;
+  border: 1px solid;
   border-color: transparent;
-  background-color: #31373F;
+  background-color: #1A212A;
 }
 
 .c3:focus {
@@ -1375,7 +1368,7 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background-color: rgba(1,8,18,0.75);
+  background-color: rgba(26,33,42,0.75);
   z-index: 10000;
 }
 
@@ -1395,9 +1388,9 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
 .c2 {
   position: relative;
   outline: none;
-  border-radius: 4px;
-  color: #FFF;
-  background: #1F262F;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  background: #232A33;
   box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
 }
 
@@ -1419,7 +1412,7 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.25;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
