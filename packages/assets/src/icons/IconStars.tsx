@@ -1,5 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { ColorProps } from '@heathmont/sportsbet-themes';
+import { themed } from '@heathmont/sportsbet-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -33,23 +35,29 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: string;
-  circleColor?: string;
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
-const IconStars = styled(Svg)<IconProps>(({ backgroundColor, circleColor }) => [
-  {
-    verticalAlign: 'middle',
-  },
-  backgroundColor && {
-    backgroundColor,
-    padding: backgroundColor ? '0.25em' : 0,
-    overflow: 'visible',
-    borderRadius: '50%',
-  },
-  circleColor && {
-    circle: {
-      fill: circleColor,
+const IconStars = styled(Svg)<IconProps>(
+  ({ backgroundColor, circleColor, color, theme }) => [
+    {
+      verticalAlign: 'middle',
     },
-  },
-]);
+    backgroundColor && {
+      backgroundColor: themed('color', backgroundColor)(theme),
+      padding: backgroundColor ? '0.25em' : 0,
+      overflow: 'visible',
+      borderRadius: '50%',
+    },
+    color && {
+      color: themed('color', color)(theme),
+    },
+    circleColor && {
+      circle: {
+        fill: themed('color', circleColor)(theme),
+      },
+    },
+  ]
+);
 export default IconStars;
