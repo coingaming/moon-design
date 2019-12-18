@@ -1,5 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { ColorProps } from '@heathmont/sportsbet-themes';
+import { themed } from '@heathmont/sportsbet-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -17,7 +19,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={50.0002}
       rx={2.50001}
       transform="rotate(-180 105.003 70.0003)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.6}
@@ -27,7 +29,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.50001}
       transform="rotate(-180 95.0012 65.0003)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.4}
@@ -35,7 +37,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={40.0001}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 85.0032 14.9999)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.2}
@@ -43,7 +45,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={60.0003}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 75.0017 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.4}
@@ -51,7 +53,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={45.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 64.9992 24.9998)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.2}
@@ -59,7 +61,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={50.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 55.001 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.6}
@@ -67,7 +69,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.5}
       transform="matrix(-1 -4.89277e-08 -1.78445e-07 1 44.9993 14.9999)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.3}
@@ -75,7 +77,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={65.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 35.0012 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.2}
@@ -83,7 +85,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 24.9996 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.4}
@@ -91,7 +93,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 15.0015 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.6}
@@ -99,7 +101,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={45.0002}
       rx={2.5}
       transform="matrix(-1 -4.89277e-08 -1.78445e-07 1 5 19.9998)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       x={215}
@@ -108,7 +110,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={50.0002}
       rx={2.50001}
       transform="rotate(-180 215 70.0003)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.6}
@@ -118,7 +120,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={57.3789}
       rx={2.50001}
       transform="rotate(-180 205.002 62.3786)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.4}
@@ -126,7 +128,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={45.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 195 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.2}
@@ -134,7 +136,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={60.0003}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 185.002 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.4}
@@ -142,7 +144,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={60.0003}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 175.001 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.2}
@@ -150,7 +152,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={60.0003}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 165.002 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.6}
@@ -158,7 +160,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={70.0003}
       rx={2.5}
       transform="matrix(-1 -2.58096e-08 -1.5885e-07 1 155.001 0)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.3}
@@ -166,7 +168,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 145.002 14.9999)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.2}
@@ -174,7 +176,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 135.001 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.4}
@@ -182,7 +184,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={55.0002}
       rx={2.50001}
       transform="matrix(-1 -8.14215e-08 -1.07231e-07 1 125.003 9.99994)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <rect
       opacity={0.6}
@@ -190,19 +192,23 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       height={50.0002}
       rx={2.5}
       transform="matrix(-1 -4.89277e-08 -1.78445e-07 1 115.001 14.9999)"
-      fill="#0CD664"
+      fill="currentColor"
     />
   </svg>
 );
 
 type SvgProps = {
+  color?: ColorProps;
   height?: string | number;
   width?: string | number;
   fontSize?: string | number;
   verticalAlign?: string;
 };
 const PatternWave = styled(Svg)<SvgProps>(
-  ({ height, width, fontSize, verticalAlign }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
     height,
     width,
     fontSize,
@@ -211,5 +217,6 @@ const PatternWave = styled(Svg)<SvgProps>(
 );
 PatternWave.defaultProps = {
   verticalAlign: 'middle',
+  color: 'piccolo.100',
 };
 export default PatternWave;

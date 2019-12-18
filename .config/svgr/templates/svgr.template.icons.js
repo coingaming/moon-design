@@ -2,6 +2,16 @@
 /* eslint-disable no-shadow, @typescript-eslint/no-unused-vars */
 const prefix = componentName => componentName.name.replace('Svg', '');
 
+const customDefaultProps = {
+  IconInstagram: 'color: "bulma.100",',
+};
+
+const defaultProps = prefixCompName =>
+  customDefaultProps[prefixCompName] &&
+  `${prefixCompName}.defaultProps = {
+    ${customDefaultProps[prefixCompName]}
+  }`;
+
 function template(
   { template },
   opts,
@@ -11,33 +21,41 @@ function template(
   return typeScriptTpl.ast`
     import * as React from 'react';
     import styled from 'styled-components';
+    import { ColorProps } from '@heathmont/sportsbet-themes';
+    import { themed } from '@heathmont/sportsbet-utils';
 
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 
     type IconProps =  {
-      backgroundColor?: string;
-      circleColor?: string;
+      backgroundColor?: ColorProps;
+      circleColor?: ColorProps;
+      color?: ColorProps;
     };
 
     const ${prefix(componentName)} = styled(Svg)<IconProps>(
-      ({ backgroundColor, circleColor }) => [
+      ({ backgroundColor, circleColor, color, theme }) => [
         {
           verticalAlign: 'middle',
         },
         backgroundColor && {
-          backgroundColor,
+          backgroundColor: themed('color', backgroundColor)(theme),
           padding: backgroundColor ? '0.25em' : 0,
           overflow: 'visible',
           borderRadius: '50%',
         },
+        color && {
+          color: themed('color', color)(theme),
+        },
         circleColor && {
           circle: {
-            fill: circleColor,
+            fill: themed('color', circleColor)(theme),
           },
         },
       ]
     );
-    
+
+    ${defaultProps(prefix(componentName))}
+
     export default ${prefix(componentName)};
   `;
 }
