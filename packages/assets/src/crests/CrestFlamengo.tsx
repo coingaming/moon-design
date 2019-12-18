@@ -1,5 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { ColorProps } from '@heathmont/sportsbet-themes';
+import { themed } from '@heathmont/sportsbet-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -36,13 +38,17 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type SvgProps = {
+  color?: ColorProps;
   height?: string | number;
   width?: string | number;
   fontSize?: string | number;
   verticalAlign?: string;
 };
 const CrestFlamengo = styled(Svg)<SvgProps>(
-  ({ height, width, fontSize, verticalAlign }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
     height,
     width,
     fontSize,
