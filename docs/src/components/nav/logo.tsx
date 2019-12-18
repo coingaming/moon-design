@@ -19,10 +19,6 @@ const LogoContainer = styled.div(({ theme: { breakpoint, color, space } }) => ({
   'svg:first-child': {
     width: 'auto',
     height: '100%',
-    /* Select all white paths in the logo to switch with themes */
-    'path[fill*="#FFF"]': {
-      fill: color.bulma[100],
-    },
   },
   [`${IconChevronDown}`]: {
     fontSize: rem(18),
