@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.103.0](https://github.com/coingaming/sportsbet-design/compare/v0.102.0...v0.103.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* **docs:** remove path styles ([8510e22](https://github.com/coingaming/sportsbet-design/commit/8510e22))
+
+
+
+
+
 # [0.102.0](https://github.com/coingaming/sportsbet-design/compare/v0.101.0...v0.102.0) (2019-12-11)
 
 
