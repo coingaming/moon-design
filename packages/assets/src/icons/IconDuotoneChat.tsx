@@ -1,5 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { ColorProps } from '@heathmont/sportsbet-themes';
+import { themed } from '@heathmont/sportsbet-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -25,23 +27,27 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: string;
-  circleColor?: string;
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
 const IconDuotoneChat = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
     backgroundColor && {
-      backgroundColor,
+      backgroundColor: themed('color', backgroundColor)(theme),
       padding: backgroundColor ? '0.25em' : 0,
       overflow: 'visible',
       borderRadius: '50%',
     },
+    color && {
+      color: themed('color', color)(theme),
+    },
     circleColor && {
       circle: {
-        fill: circleColor,
+        fill: themed('color', circleColor)(theme),
       },
     },
   ]

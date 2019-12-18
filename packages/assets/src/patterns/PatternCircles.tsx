@@ -1,5 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { ColorProps } from '@heathmont/sportsbet-themes';
+import { themed } from '@heathmont/sportsbet-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -17,7 +19,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 15.0898 0.91)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       cx={15.0898}
@@ -25,7 +27,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 15.0898 5.62477)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -34,7 +36,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 15.0898 10.3485)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -43,7 +45,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 15.0898 12.7008)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -52,7 +54,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 13.0639 11.5296)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -61,7 +63,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 13.0639 6.73041)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -70,7 +72,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 13.0639 4.42833)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -79,7 +81,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 13.0639 2.0763)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -88,7 +90,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 11.038 0.91)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -97,7 +99,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 11.038 5.62477)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       cx={11.038}
@@ -105,7 +107,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 11.038 7.98915)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -114,7 +116,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 11.038 10.3485)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -123,7 +125,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 11.038 12.7008)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.45}
@@ -132,7 +134,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 11.038 15.0531)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -141,7 +143,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 9.00034 13.8885)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -150,7 +152,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 9.00034 9.15347)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -159,7 +161,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 9.00034 6.77678)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -168,7 +170,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 9.00034 4.42833)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -177,7 +179,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 9.00034 2.0763)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -186,7 +188,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 6.98441 0.91)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       cx={4.94675}
@@ -194,7 +196,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 4.94675 2.0763)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -203,7 +205,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 2.92838 0.91)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -212,7 +214,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 2.92838 3.25616)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.75}
@@ -221,7 +223,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 0.910189 4.42833)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -230,7 +232,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 0.910189 6.7909)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -239,7 +241,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 0.910189 9.15347)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -248,7 +250,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 0.910189 13.8885)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -257,7 +259,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 2.92838 7.98915)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -266,7 +268,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 2.92838 10.3485)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.75}
@@ -275,7 +277,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 2.92838 12.7078)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -284,7 +286,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 2.92838 15.0531)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -293,7 +295,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 4.94675 4.42833)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -302,7 +304,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 4.94675 6.7909)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -311,7 +313,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 4.94675 9.15347)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -320,7 +322,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 4.94675 11.5296)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -329,7 +331,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 4.94675 13.8885)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.5}
@@ -338,7 +340,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 6.98441 3.25616)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -347,7 +349,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 6.98441 7.98915)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       cx={6.98441}
@@ -355,7 +357,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 6.98441 10.3485)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.25}
@@ -364,7 +366,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 6.98441 12.7078)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.75}
@@ -373,7 +375,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 6.98441 15.0531)"
-      fill="#0CD664"
+      fill="currentColor"
     />
     <ellipse
       opacity={0.85}
@@ -382,19 +384,23 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       rx={0.91}
       ry={0.910184}
       transform="rotate(90 15.0898 15.0531)"
-      fill="#0CD664"
+      fill="currentColor"
     />
   </svg>
 );
 
 type SvgProps = {
+  color?: ColorProps;
   height?: string | number;
   width?: string | number;
   fontSize?: string | number;
   verticalAlign?: string;
 };
 const PatternCircles = styled(Svg)<SvgProps>(
-  ({ height, width, fontSize, verticalAlign }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
     height,
     width,
     fontSize,
@@ -403,5 +409,6 @@ const PatternCircles = styled(Svg)<SvgProps>(
 );
 PatternCircles.defaultProps = {
   verticalAlign: 'middle',
+  color: 'piccolo.100',
 };
 export default PatternCircles;
