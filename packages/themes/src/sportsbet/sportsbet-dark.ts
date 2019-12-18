@@ -6,6 +6,14 @@ const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
 
 const color = {
+  piccolo: {
+    100: '#0CD664',
+    80: '#50E190',
+    60: '#66E59E',
+    40: '#85EAB2',
+    20: '#9EEFC1',
+    10: '#B6F3D0',
+  },
   hit: {
     100: '#1A212A',
     80: '#31373F',
