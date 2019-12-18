@@ -12,6 +12,14 @@ const lights = {
 };
 
 const color = {
+  piccolo: {
+    100: '#15CA4F',
+    80: '#26E865',
+    60: '#52ED83',
+    40: '#7DF1A2',
+    20: '#A8F6C1',
+    10: '#D4FAE0',
+  },
   hit: lights,
   goku: {
     100: '#FFFFFF',
