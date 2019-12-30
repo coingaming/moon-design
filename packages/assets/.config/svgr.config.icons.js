@@ -1,5 +1,5 @@
-const base = require('../../../.config/svgr/svgr.config.base.js');
-const template = require('../../../.config/svgr/templates/svgr.template.icons.js');
+const base = require('./svgr.config.base.js');
+const template = require('./templates/svgr.template.icons.js');
 
 module.exports = {
   ...base,
