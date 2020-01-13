@@ -45,7 +45,7 @@ For performance benefits (such as code-splitting) we opted for creating individu
 
 We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/raw/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
 
-To update/add icons run: `yarn icons build`
+To update/add icons run: `cd ./packages/assets/ && yarn build:icons`
 
 - Runs SVGR based on the [config options](packages/icons/src/config/svgr.js).
 - Builds React `.tsx` files for each component with the [template](packages/icons/src/config/template.js).
