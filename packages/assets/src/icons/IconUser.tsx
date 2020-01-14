@@ -27,7 +27,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconsUser = styled(Svg)<IconProps>(
+const IconUser = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -48,4 +48,4 @@ const IconsUser = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconsUser;
+export default IconUser;
