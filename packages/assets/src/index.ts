@@ -164,6 +164,8 @@ export {
 export * from './icons/IconLeftArrowCurveRight';
 export { default as IconLine } from './icons/IconLine';
 export * from './icons/IconLine';
+export { default as IconLiveCasino } from './icons/IconLiveCasino';
+export * from './icons/IconLiveCasino';
 export { default as IconLiveChat } from './icons/IconLiveChat';
 export * from './icons/IconLiveChat';
 export { default as IconLogoPlain } from './icons/IconLogoPlain';
