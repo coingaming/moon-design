@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.105.0](https://github.com/coingaming/sportsbet-design/compare/v0.104.3...v0.105.0) (2020-01-15)
+
+
+### Features
+
+* live casino icon ([46bb54e](https://github.com/coingaming/sportsbet-design/commit/46bb54e))
+* tigger build ([d24948a](https://github.com/coingaming/sportsbet-design/commit/d24948a))
+
+
+
+
+
 ## [0.104.3](https://github.com/coingaming/sportsbet-design/compare/v0.104.2...v0.104.3) (2020-01-14)
 
 
