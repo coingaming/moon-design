@@ -156,6 +156,8 @@ export { default as IconHyperlink } from './icons/IconHyperlink';
 export * from './icons/IconHyperlink';
 export { default as IconInPlay } from './icons/IconInPlay';
 export * from './icons/IconInPlay';
+export { default as IconInfo } from './icons/IconInfo';
+export * from './icons/IconInfo';
 export { default as IconInstagram } from './icons/IconInstagram';
 export * from './icons/IconInstagram';
 export {
