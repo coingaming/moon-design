@@ -140,6 +140,8 @@ export { default as IconHyperlink } from './IconHyperlink';
 export * from './IconHyperlink';
 export { default as IconInPlay } from './IconInPlay';
 export * from './IconInPlay';
+export { default as IconInfo } from './IconInfo';
+export * from './IconInfo';
 export { default as IconInstagram } from './IconInstagram';
 export * from './IconInstagram';
 export { default as IconLeftArrowCurveRight } from './IconLeftArrowCurveRight';
