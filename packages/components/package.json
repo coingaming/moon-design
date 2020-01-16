@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-components",
   "sideEffects": false,
-  "version": "0.105.1",
+  "version": "0.106.0",
   "files": [
     "lib"
   ],
@@ -15,9 +15,9 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-assets": "^0.105.1",
-    "@heathmont/sportsbet-themes": "^0.105.0",
-    "@heathmont/sportsbet-utils": "^0.105.0",
+    "@heathmont/sportsbet-assets": "^0.106.0",
+    "@heathmont/sportsbet-themes": "^0.106.0",
+    "@heathmont/sportsbet-utils": "^0.106.0",
     "@reach/dialog": "0.3.0",
     "polished": "3.4.1"
   },
