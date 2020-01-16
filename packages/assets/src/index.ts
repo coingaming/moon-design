@@ -292,6 +292,8 @@ export { default as IconVkontakte } from './icons/IconVkontakte';
 export * from './icons/IconVkontakte';
 export { default as IconWallet } from './icons/IconWallet';
 export * from './icons/IconWallet';
+export { default as IconWand } from './icons/IconWand';
+export * from './icons/IconWand';
 export { default as IconWarning } from './icons/IconWarning';
 export * from './icons/IconWarning';
 export { default as IconYoutube } from './icons/IconYoutube';

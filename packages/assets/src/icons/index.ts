@@ -266,6 +266,8 @@ export { default as IconVkontakte } from './IconVkontakte';
 export * from './IconVkontakte';
 export { default as IconWallet } from './IconWallet';
 export * from './IconWallet';
+export { default as IconWand } from './IconWand';
+export * from './IconWand';
 export { default as IconWarning } from './IconWarning';
 export * from './IconWarning';
 export { default as IconYoutube } from './IconYoutube';
