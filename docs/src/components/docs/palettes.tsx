@@ -6,6 +6,7 @@ import { Inline, Stack, Heading } from '@heathmont/sportsbet-components';
 const Palette = styled.span<{ backgroundColor: string }>(
   ({ backgroundColor }) => ({
     display: 'flex',
+    flexDirection: 'column',
     borderRadius: '0.25rem',
     backgroundColor,
     width: '4rem',
@@ -16,6 +17,7 @@ const Palette = styled.span<{ backgroundColor: string }>(
 );
 
 const PaletteText = styled.span({
+  display: 'block',
   borderRadius: 'inherit',
   padding: '0.25em',
   fontSize: '0.6rem',
@@ -35,6 +37,7 @@ const ColorPalette: React.FC<any> = ({ colors }) => {
         <li key={colorName}>
           <Palette backgroundColor={colorValue}>
             <PaletteText>{colorName}</PaletteText>
+            <PaletteText>{colorValue}</PaletteText>
           </Palette>
         </li>
       ))}
