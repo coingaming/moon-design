@@ -13,12 +13,25 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0-2.049A7.951 7.951 0 1 0 12 4.05a7.951 7.951 0 0 0 0 15.902z"
-      fill="#fff"
+      d="M4.107 12.536L4 18.256c0 1.166.853 2.12 2.027 2.332 2.56.318 7.253.741 11.946 0C19.147 20.376 20 19.422 20 18.257l-.213-5.721c0-1.166-.96-2.013-2.134-2.225-2.56-.106-7.04-.424-11.413.106-1.173.106-2.027 1.06-2.133 2.119z"
+      stroke="currentColor"
+      strokeWidth={1.2}
+      strokeMiterlimit={10}
+      strokeLinecap="round"
     />
-    <path d="M6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#0CD664" />
+    <path
+      d="M16.267 10.31V7.345C16.267 5.014 14.24 3 11.893 3 9.547 3 7.52 4.907 7.52 7.344v2.967"
+      stroke="currentColor"
+      strokeWidth={1.2}
+      strokeMiterlimit={10}
+      strokeLinecap="round"
+    />
+    <path
+      d="M12 14v3.137"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+    />
   </svg>
 );
 
@@ -27,7 +40,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconSportsSpecial = styled(Svg)<IconProps>(
+const IconPadlock = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -48,4 +61,4 @@ const IconSportsSpecial = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconSportsSpecial;
+export default IconPadlock;
