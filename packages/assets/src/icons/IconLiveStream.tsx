@@ -7,18 +7,23 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 24 24"
+    viewBox="0 0 14 12"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0-2.049A7.951 7.951 0 1 0 12 4.05a7.951 7.951 0 0 0 0 15.902z"
-      fill="#fff"
+      d="M11.646 11c.196 0 .354.229.354.514 0 .286-.158.486-.354.486H2.413C2.177 12 2 11.857 2 11.514c0-.4.177-.514.433-.514h9.213zM5.254 3c.055.032.128.064.2.096 1.09.563 2.199 1.11 3.29 1.672.345.176.345.305-.019.482-1.09.562-2.162 1.109-3.253 1.655-.345.177-.472.113-.472-.241V3.305c0-.144 0-.289.254-.305z"
+      fill="currentColor"
     />
-    <path d="M6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#0CD664" />
+    <rect
+      x={0.5}
+      y={0.5}
+      width={13}
+      height={9}
+      rx={0.5}
+      stroke="currentColor"
+    />
   </svg>
 );
 
@@ -27,7 +32,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconSportsSpecial = styled(Svg)<IconProps>(
+const IconLiveStream = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -48,4 +53,4 @@ const IconSportsSpecial = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconSportsSpecial;
+export default IconLiveStream;

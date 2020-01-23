@@ -33,6 +33,28 @@ Tokens below are from the page's current theme: <ThemeCurrent/>.
 
 ## Colors
 
+Hex values present here only if you want to compare these values with provided colours from 3rd parties.
+
+Please **never use** Hex values, they won't change if you need theme support.
+
+Bad
+
+```
+const Component = styled.div({
+  color: #fff, // Will be white in dark and light modes
+  ...
+});
+```
+
+Good
+
+```
+const Component = styled.div(({ theme }) => ({
+  color: theme.color.trunks[100], // Proper color for dark and light modes
+  ...
+}));
+```
+
 <ThemePalettes />
 
 ## Font

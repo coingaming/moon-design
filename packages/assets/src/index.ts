@@ -170,6 +170,8 @@ export { default as IconLiveCasino } from './icons/IconLiveCasino';
 export * from './icons/IconLiveCasino';
 export { default as IconLiveChat } from './icons/IconLiveChat';
 export * from './icons/IconLiveChat';
+export { default as IconLiveStream } from './icons/IconLiveStream';
+export * from './icons/IconLiveStream';
 export { default as IconLogoPlain } from './icons/IconLogoPlain';
 export * from './icons/IconLogoPlain';
 export { default as IconLoyalty0 } from './icons/IconLoyalty0';
@@ -184,6 +186,8 @@ export {
   default as IconNotificationUnread,
 } from './icons/IconNotificationUnread';
 export * from './icons/IconNotificationUnread';
+export { default as IconPadlock } from './icons/IconPadlock';
+export * from './icons/IconPadlock';
 export { default as IconPlay } from './icons/IconPlay';
 export * from './icons/IconPlay';
 export { default as IconPriceBoost } from './icons/IconPriceBoost';
@@ -196,6 +200,8 @@ export { default as IconSearch } from './icons/IconSearch';
 export * from './icons/IconSearch';
 export { default as IconSettings } from './icons/IconSettings';
 export * from './icons/IconSettings';
+export { default as IconSportWidget } from './icons/IconSportWidget';
+export * from './icons/IconSportWidget';
 export {
   default as IconSportsAmericanFootBall,
 } from './icons/IconSportsAmericanFootBall';
@@ -274,6 +280,8 @@ export { default as IconStars } from './icons/IconStars';
 export * from './icons/IconStars';
 export { default as IconStats } from './icons/IconStats';
 export * from './icons/IconStats';
+export { default as IconStopwatch } from './icons/IconStopwatch';
+export * from './icons/IconStopwatch';
 export { default as IconSuccess } from './icons/IconSuccess';
 export * from './icons/IconSuccess';
 export { default as IconSun } from './icons/IconSun';
