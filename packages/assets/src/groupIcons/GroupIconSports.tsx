@@ -10,6 +10,7 @@ import IconSportsCricket from '../icons/IconSportsCricket';
 import IconSportsCycling from '../icons/IconSportsCycling';
 import IconSportsDarts from '../icons/IconSportsDarts';
 import IconSportsESports from '../icons/IconSportsESports';
+import IconSportsFeatured from '../icons/IconSportsFeatured';
 import IconSportsFootBall from '../icons/IconSportsFootBall';
 import IconSportsGolf from '../icons/IconSportsGolf';
 import IconSportsHandBall from '../icons/IconSportsHandBall';
@@ -43,6 +44,7 @@ export type GroupIconSportsName =
   | 'sport-cycling'
   | 'sport-darts'
   | 'sport-esports'
+  | 'sport-featured'
   | 'sport-football'
   | 'sport-golf'
   | 'sport-handball'
@@ -141,6 +143,13 @@ const GroupIconSports: React.FC<GroupIconSportsProps> &
       return (
         <IconSportsESports
           color={color || GroupIconSportsColor.eSports}
+          {...props}
+        />
+      );
+    case 'sport-featured':
+      return (
+        <IconSportsFeatured
+          color={color || GroupIconSportsColor.special}
           {...props}
         />
       );
