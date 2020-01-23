@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.108.0](https://github.com/coingaming/sportsbet-design/compare/v0.107.1...v0.108.0) (2020-01-23)
+
+
+### Features
+
+* group special icon ([463cf23](https://github.com/coingaming/sportsbet-design/commit/463cf23))
+
+
+
+
+
 ## [0.107.1](https://github.com/coingaming/sportsbet-design/compare/v0.107.0...v0.107.1) (2020-01-23)
 
 **Note:** Version bump only for package Sportsbet.io
