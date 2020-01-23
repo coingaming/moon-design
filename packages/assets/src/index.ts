@@ -228,6 +228,8 @@ export { default as IconSportsESports } from './icons/IconSportsESports';
 export * from './icons/IconSportsESports';
 export { default as IconSportsFantasy } from './icons/IconSportsFantasy';
 export * from './icons/IconSportsFantasy';
+export { default as IconSportsFeatured } from './icons/IconSportsFeatured';
+export * from './icons/IconSportsFeatured';
 export { default as IconSportsFootBall } from './icons/IconSportsFootBall';
 export * from './icons/IconSportsFootBall';
 export { default as IconSportsGolf } from './icons/IconSportsGolf';
