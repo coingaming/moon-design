@@ -46,7 +46,7 @@ exports[`Form renders a form combo 1`] = `
 .c9 {
   position: absolute;
   right: 0.28125rem;
-  bottom: 0.28125rem;
+  top: 0.28125rem;
 }
 
 .c6 {
@@ -231,7 +231,7 @@ exports[`Form renders a form combo without a label 1`] = `
 .c8 {
   position: absolute;
   right: 0.28125rem;
-  bottom: 0.28125rem;
+  top: 0.28125rem;
 }
 
 .c7 {

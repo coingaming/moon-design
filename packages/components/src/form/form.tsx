@@ -59,13 +59,10 @@ const FormComboInput = styled.div(({ theme: { radius } }) => ({
   },
 }));
 
-/**
- * 1. We want our button located in the same position as an Input Icon
- */
 const FormComboButton = styled.div(({ theme }) => ({
   position: 'absolute',
   right: rem(inputSpacingY(theme) / 2),
-  bottom: rem(inputSpacingY(theme) / 2) /* [1] */,
+  top: rem(inputSpacingY(theme) / 2),
 }));
 
 export {

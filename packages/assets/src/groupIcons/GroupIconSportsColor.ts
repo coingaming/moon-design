@@ -42,3 +42,5 @@ export const GroupIconSportsColor: { [key: string]: ColorValue } = {
   eSports: frieza[100],
   sinuca: raditz[100],
 };
+
+export default GroupIconSportsColor;
