@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.108.2](https://github.com/coingaming/sportsbet-design/compare/v0.108.1...v0.108.2) (2020-01-24)
+
+
+### Bug Fixes
+
+* update btc icon ([77cb7a7](https://github.com/coingaming/sportsbet-design/commit/77cb7a7))
+
+
+
+
+
 ## [0.108.1](https://github.com/coingaming/sportsbet-design/compare/v0.108.0...v0.108.1) (2020-01-24)
 
 **Note:** Version bump only for package @heathmont/sportsbet-assets
