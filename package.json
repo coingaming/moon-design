@@ -109,5 +109,6 @@
   "resolutions": {
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2"
-  }
+  },
+  "dependencies": {}
 }
