@@ -19,7 +19,9 @@
     "@heathmont/sportsbet-themes": "^0.108.0",
     "@heathmont/sportsbet-utils": "^0.108.0",
     "@reach/dialog": "0.3.0",
-    "polished": "3.4.1"
+    "polished": "3.4.1",
+    "scroll-into-view-if-needed": "2.2.22",
+    "smooth-scroll-into-view-if-needed": "1.1.27"
   },
   "devDependencies": {
     "@types/reach__dialog": "0.1.0"
