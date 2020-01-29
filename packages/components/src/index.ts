@@ -4,6 +4,7 @@
 
 export * from './badge/badge';
 export * from './badge/modifiers';
+export * from './behavior/withHorizontalScroll';
 export * from './button/button';
 export * from './button/modifiers';
 export * from './button/size';
