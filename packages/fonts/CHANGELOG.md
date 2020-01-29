@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.109.0](https://github.com/coingaming/sportsbet-design/compare/v0.108.2...v0.109.0) (2020-01-29)
+
+
+### Features
+
+* SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
+
+
+
+
+
 # [0.108.0](https://github.com/coingaming/sportsbet-design/compare/v0.107.1...v0.108.0) (2020-01-23)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
