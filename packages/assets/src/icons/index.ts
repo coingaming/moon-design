@@ -180,6 +180,8 @@ export { default as IconSearch } from './IconSearch';
 export * from './IconSearch';
 export { default as IconSettings } from './IconSettings';
 export * from './IconSettings';
+export { default as IconSlots } from './IconSlots';
+export * from './IconSlots';
 export { default as IconSportWidget } from './IconSportWidget';
 export * from './IconSportWidget';
 export {
