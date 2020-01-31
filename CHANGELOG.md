@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.111.1](https://github.com/coingaming/sportsbet-design/compare/v0.111.0...v0.111.1) (2020-01-31)
+
+
+### Bug Fixes
+
+* currency group icon ([c2e5d71](https://github.com/coingaming/sportsbet-design/commit/c2e5d71))
+
+
+
+
+
 # [0.111.0](https://github.com/coingaming/sportsbet-design/compare/v0.110.0...v0.111.0) (2020-01-31)
 
 
