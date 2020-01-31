@@ -32,6 +32,7 @@ import IconCurrencyUah from '../icons/IconCurrencyUah';
 import IconCurrencyUsd from '../icons/IconCurrencyUsd';
 import IconCurrencyVes from '../icons/IconCurrencyVes';
 import IconCurrencyVnd from '../icons/IconCurrencyVnd';
+import IconCurrencyXrp from '../icons/IconCurrencyXrp';
 
 type CurrencyName =
   | 'ARS'
@@ -65,7 +66,8 @@ type CurrencyName =
   | 'USD'
   | 'VES'
   | 'VND'
-  | 'TRX';
+  | 'TRX'
+  | 'XRP';
 
 export type GroupIconCurrencyProps = {
   color?: string;
@@ -105,6 +107,7 @@ const currencyIcons = {
   UAH: IconCurrencyUah,
   VES: IconCurrencyVes,
   VND: IconCurrencyVnd,
+  XRP: IconCurrencyXrp,
 };
 
 const GroupIconCurrency: React.FC<GroupIconCurrencyProps> &
