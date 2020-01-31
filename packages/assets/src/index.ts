@@ -126,6 +126,8 @@ export { default as IconCurrencyVes } from './icons/IconCurrencyVes';
 export * from './icons/IconCurrencyVes';
 export { default as IconCurrencyVnd } from './icons/IconCurrencyVnd';
 export * from './icons/IconCurrencyVnd';
+export { default as IconCurrencyXrp } from './icons/IconCurrencyXrp';
+export * from './icons/IconCurrencyXrp';
 export { default as IconDuotoneArrows } from './icons/IconDuotoneArrows';
 export * from './icons/IconDuotoneArrows';
 export { default as IconDuotoneChat } from './icons/IconDuotoneChat';
