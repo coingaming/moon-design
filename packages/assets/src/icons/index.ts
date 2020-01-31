@@ -110,6 +110,8 @@ export { default as IconCurrencyVes } from './IconCurrencyVes';
 export * from './IconCurrencyVes';
 export { default as IconCurrencyVnd } from './IconCurrencyVnd';
 export * from './IconCurrencyVnd';
+export { default as IconCurrencyXrp } from './IconCurrencyXrp';
+export * from './IconCurrencyXrp';
 export { default as IconDuotoneArrows } from './IconDuotoneArrows';
 export * from './IconDuotoneArrows';
 export { default as IconDuotoneChat } from './IconDuotoneChat';
