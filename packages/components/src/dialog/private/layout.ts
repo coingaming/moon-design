@@ -8,7 +8,12 @@ import { mq } from '@heathmont/sportsbet-utils';
 
 import { Inline } from '../../inline/inline';
 
-import { DialogFromTop, DialogLongForm, DialogMaxWidth } from './types';
+import {
+  DialogFromTop,
+  DialogLongForm,
+  DialogMaxWidth,
+  DialogScroll,
+} from './types';
 
 /* Styled Reach UI Dialog Components
   =========================================== */
@@ -18,14 +23,14 @@ import { DialogFromTop, DialogLongForm, DialogMaxWidth } from './types';
  * https://ui.reach.tech/dialog/
  */
 
-export const DialogOverlay = styled(ReachDialogOverlay)(
-  ({ theme: { color, zIndex } }) => ({
+export const DialogOverlay = styled(ReachDialogOverlay)<DialogScroll>(
+  ({ theme: { color, zIndex }, useFullPageScroll }) => ({
     position: 'fixed',
     top: '0',
     right: '0',
     bottom: '0',
     left: '0',
-    overflow: 'hidden',
+    overflow: useFullPageScroll ? 'auto' : 'hidden',
     backgroundColor: color.gohan[100] && rgba(color.gohan[100], 0.75),
     zIndex: zIndex.dialog,
   })
@@ -89,8 +94,8 @@ const mainMaxHeight = (margin: number) => ({
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
  *    padding with a pseudo element.
  */
-export const DialogMain = styled.main<DialogLongForm>(
-  ({ theme: { breakpoint, space } }) => [
+export const DialogMain = styled.main<DialogLongForm & DialogScroll>(
+  ({ theme: { breakpoint, space }, useFullPageScroll }) => [
     {
       paddingTop: rem(space.xlarge),
       paddingLeft: rem(space.large),
@@ -101,6 +106,8 @@ export const DialogMain = styled.main<DialogLongForm>(
         height: rem(space.large),
         display: 'block',
       },
+    },
+    !useFullPageScroll && {
       ...mainMaxHeight(0),
       [mq(breakpoint.small)]: {
         ...mainMaxHeight(4),
