@@ -14,6 +14,7 @@ import {
 
 export type DialogProps = {
   footer?: JSX.Element[] | JSX.Element;
+  isFixedFromTop?: boolean;
 } & ReachDialogProps &
   DialogLongForm &
   DialogMaxWidth;
@@ -25,9 +26,14 @@ export const Dialog: React.FC<DialogProps> = ({
   maxWidth,
   isOpen,
   onDismiss,
+  isFixedFromTop,
 }) => (
   <DialogOverlay isOpen={isOpen && isOpen} onDismiss={onDismiss && onDismiss}>
-    <DialogContent longForm={longForm} maxWidth={maxWidth}>
+    <DialogContent
+      longForm={longForm}
+      maxWidth={maxWidth}
+      isFixedFromTop={isFixedFromTop}
+    >
       <DialogContainer>
         <DialogToggle type="button" onClick={onDismiss && onDismiss}>
           <IconClose />

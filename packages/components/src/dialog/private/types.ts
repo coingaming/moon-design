@@ -5,3 +5,7 @@ export type DialogMaxWidth = {
 export type DialogLongForm = {
   longForm?: boolean;
 };
+
+export type DialogFromTop = {
+  isFixedFromTop?: boolean;
+};
