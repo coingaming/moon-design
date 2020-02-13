@@ -8,7 +8,7 @@ import { mq } from '@heathmont/sportsbet-utils';
 
 import { Inline } from '../../inline/inline';
 
-import { DialogLongForm, DialogMaxWidth } from './types';
+import { DialogFromTop, DialogLongForm, DialogMaxWidth } from './types';
 
 /* Styled Reach UI Dialog Components
   =========================================== */
@@ -35,7 +35,7 @@ export const DialogOverlay = styled(ReachDialogOverlay)(
  * 1. Arbitrary figure from design.
  */
 export const DialogContent = styled(ReachDialogContent)<
-  DialogMaxWidth & DialogLongForm
+  DialogMaxWidth & DialogLongForm & DialogFromTop
 >(({ theme: { space } }) => [
   {
     margin: '0 auto',
@@ -43,11 +43,13 @@ export const DialogContent = styled(ReachDialogContent)<
     maxWidth: rem(608) /* [1] */,
     padding: rem(space.default),
     outline: 'none',
-    top: '50%',
-    transform: 'translateY(-50%)',
   },
   ({ longForm }) => longForm && { maxWidth: rem(752) } /* [1] */,
   ({ maxWidth }) => ({ maxWidth }),
+  ({ isFixedFromTop }) =>
+    isFixedFromTop
+      ? { margin: '8vh auto' }
+      : { top: '50%', transform: 'translateY(-50%)' },
 ]);
 
 /* Layout
