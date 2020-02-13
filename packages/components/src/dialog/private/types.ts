@@ -9,3 +9,7 @@ export type DialogLongForm = {
 export type DialogFromTop = {
   isFixedFromTop?: boolean;
 };
+
+export type DialogScroll = {
+  useFullPageScroll?: boolean;
+};
