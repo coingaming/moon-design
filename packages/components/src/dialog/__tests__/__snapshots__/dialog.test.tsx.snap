@@ -495,11 +495,11 @@ exports[`Dialog footer renders with \`longForm\` template and \`footer\` 1`] = `
   max-width: 38rem;
   padding: 1rem;
   outline: none;
+  max-width: 47rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 47rem;
 }
 
 .c2 {
@@ -728,11 +728,11 @@ exports[`Dialog footer renders with \`maxWidth\` and \`footer\` 1`] = `
   max-width: 38rem;
   padding: 1rem;
   outline: none;
+  max-width: 420px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 420px;
 }
 
 .c2 {
@@ -952,12 +952,12 @@ exports[`Dialog longForm overriden by custom \`maxWidth\` 1`] = `
   max-width: 38rem;
   padding: 1rem;
   outline: none;
+  max-width: 47rem;
+  max-width: 420px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 47rem;
-  max-width: 420px;
 }
 
 .c2 {
@@ -1166,11 +1166,11 @@ exports[`Dialog longForm renders with \`longForm\` template 1`] = `
   max-width: 38rem;
   padding: 1rem;
   outline: none;
+  max-width: 47rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 47rem;
 }
 
 .c2 {
@@ -1378,11 +1378,11 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
   max-width: 38rem;
   padding: 1rem;
   outline: none;
+  max-width: 400px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 400px;
 }
 
 .c2 {
