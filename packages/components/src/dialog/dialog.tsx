@@ -3,7 +3,7 @@ import { IconClose } from '@heathmont/sportsbet-assets';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
-import { DialogLongForm, DialogMaxWidth } from './private/types';
+import { DialogFromTop, DialogLongForm, DialogMaxWidth } from './private/types';
 import {
   DialogContainer,
   DialogContent,
@@ -14,9 +14,9 @@ import {
 
 export type DialogProps = {
   footer?: JSX.Element[] | JSX.Element;
-  isFixedFromTop?: boolean;
 } & ReachDialogProps &
   DialogLongForm &
+  DialogFromTop &
   DialogMaxWidth;
 
 export const Dialog: React.FC<DialogProps> = ({
