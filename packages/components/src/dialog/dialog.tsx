@@ -7,20 +7,14 @@ import { DialogPosition, DialogMaxWidth } from './private/types';
 import {
   DialogContainer,
   DialogContent,
-  DialogFooter,
   DialogMain,
   DialogOverlay,
 } from './private/layout';
 
-export type DialogProps = {
-  footer?: JSX.Element[] | JSX.Element;
-} & ReachDialogProps &
-  DialogPosition &
-  DialogMaxWidth;
+export type DialogProps = ReachDialogProps & DialogPosition & DialogMaxWidth;
 
 export const Dialog: React.FC<DialogProps> = ({
   children,
-  footer,
   maxWidth,
   isOpen = false,
   onDismiss,
@@ -34,7 +28,6 @@ export const Dialog: React.FC<DialogProps> = ({
           <DialogToggleText>Close dialog</DialogToggleText>
         </DialogToggle>
         <DialogMain>{children}</DialogMain>
-        {footer && <DialogFooter>{footer}</DialogFooter>}
       </DialogContainer>
     </DialogContent>
   </DialogOverlay>

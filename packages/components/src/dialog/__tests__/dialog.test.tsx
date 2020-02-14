@@ -94,7 +94,7 @@ describe('Dialog', () => {
   test('renders with custom `maxWidth`', () => {
     const dialog = create(
       <Setup>
-        <Dialog isOpen maxWidth={400}>
+        <Dialog isOpen maxWidth="400">
           <ExampleHeading />
           <DialogText>
             Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
@@ -106,37 +106,5 @@ describe('Dialog', () => {
     );
 
     expect(dialog).toMatchSnapshot();
-  });
-
-  describe('footer', () => {
-    test('renders with `footer`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen footer={<button type="button">Close</button>}>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-
-    test('renders with `maxWidth` and `footer`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog
-            isOpen
-            footer={<button type="button">Close</button>}
-            maxWidth={420}
-          >
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
   });
 });
