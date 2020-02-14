@@ -9,10 +9,6 @@ route: /components/dialog
 A small pop-up window to display additional content or request action from the
 user.
 
-For consistency, make use of the additional `DialogHeading` and `DialogText`
-components for content; using these inside a [`Stack`](/components/stack)
-will offer the bonus of consistent vertical rhythm.
-
 ```jsx react-live
 () => {
   const [showDialog, setShowDialog] = React.useState(false);
@@ -26,11 +22,11 @@ will offer the bonus of consistent vertical rhythm.
         isOpen={showDialog}
         onDismiss={() => setShowDialog(false)}
         maxWidth="760px"
-        isFixedFromTop
+        position="TOP"
       >
         <Stack>
-          <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-          <DialogText>
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             blandit massa at lorem fermentum volutpat. Aliquam varius faucibus
             turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut
@@ -128,7 +124,7 @@ will offer the bonus of consistent vertical rhythm.
             dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
             per inceptos himenaeos.{' '}
-          </DialogText>
+          </p>
         </Stack>
       </Dialog>
     </>
@@ -146,50 +142,6 @@ Examples on this page show usage with
 [React Hooks](https://reactjs.org/docs/hooks-intro.html), but this could also be
 handled via higher-order components or libaries such as
 [Recompose](https://github.com/acdlite/recompose).
-
-## Footer
-
-For cases where a dialog requires additional action from the user, elements such
-as buttons can be passed into the `footer` prop.
-
-```jsx react-live
-() => {
-  const [showDialog, setShowDialog] = React.useState(false);
-  const open = () => setShowDialog(true);
-  const close = () => setShowDialog(false);
-
-  return (
-    <>
-      <Button modifier="secondary" onClick={open}>
-        Open Dialog
-      </Button>
-      <Dialog
-        isOpen={showDialog}
-        onDismiss={close}
-        footer={
-          <Inline space="small">
-            <Button modifier="primary" onClick={close}>
-              Save
-            </Button>
-            <Button modifier="secondary" onClick={close}>
-              Cancel
-            </Button>
-          </Inline>
-        }
-      >
-        <Stack>
-          <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-          <DialogText>
-            Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
-            laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
-            nisl volutpat, varius enim eu, semper augue.
-          </DialogText>
-        </Stack>
-      </Dialog>
-    </>
-  );
-};
-```
 
 ## Customization
 
