@@ -7,7 +7,7 @@ import {
 
 import { Inline } from '../../inline/inline';
 
-import { DialogFromTop, DialogMaxWidth } from './types';
+import { DialogPosition, DialogMaxWidth } from './types';
 
 /* Styled Reach UI Dialog Components
   =========================================== */
@@ -34,7 +34,7 @@ export const DialogOverlay = styled(ReachDialogOverlay)(
  * 1. Arbitrary figure from design.
  */
 export const DialogContent = styled(ReachDialogContent)<
-  DialogMaxWidth & DialogFromTop
+  DialogMaxWidth & DialogPosition
 >(({ theme: { space } }) => [
   {
     margin: '0 auto',
@@ -44,8 +44,8 @@ export const DialogContent = styled(ReachDialogContent)<
     outline: 'none',
   },
   ({ maxWidth }) => ({ maxWidth }),
-  ({ isFixedFromTop }) =>
-    isFixedFromTop
+  ({ position }) =>
+    position === 'TOP'
       ? { margin: '8vh auto' }
       : { top: '50%', transform: 'translateY(-50%)' },
 ]);
