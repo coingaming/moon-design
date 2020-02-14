@@ -108,52 +108,11 @@ describe('Dialog', () => {
     expect(dialog).toMatchSnapshot();
   });
 
-  describe('longForm', () => {
-    test('renders with `longForm` template', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen longForm>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-
-    test('overriden by custom `maxWidth`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen longForm maxWidth={420}>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-  });
-
   describe('footer', () => {
     test('renders with `footer`', () => {
       const dialog = create(
         <Setup>
           <Dialog isOpen footer={<button type="button">Close</button>}>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-
-    test('renders with `longForm` template and `footer`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen longForm footer={<button type="button">Close</button>}>
             <ExampleHeading />
             <ExampleText />
           </Dialog>
