@@ -2,6 +2,6 @@ export type DialogMaxWidth = {
   maxWidth?: string;
 };
 
-export type DialogFromTop = {
-  isFixedFromTop?: boolean;
+export type DialogPosition = {
+  position?: 'TOP' | 'CENTER';
 };
