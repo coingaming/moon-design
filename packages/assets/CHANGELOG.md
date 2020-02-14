@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/coingaming/sportsbet-design/compare/v1.1.0...v1.2.0) (2020-02-14)
+
+
+### Features
+
+* about icon ([a9b8a21](https://github.com/coingaming/sportsbet-design/commit/a9b8a21))
+
+
+
+
+
 # [1.1.0](https://github.com/coingaming/sportsbet-design/compare/v1.0.0...v1.1.0) (2020-02-14)
 
 
