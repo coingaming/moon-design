@@ -5,8 +5,6 @@ import {
   DialogContent as ReachDialogContent,
 } from '@reach/dialog';
 
-import { Inline } from '../../inline/inline';
-
 import { DialogPosition, DialogMaxWidth } from './types';
 
 /* Styled Reach UI Dialog Components
@@ -63,14 +61,6 @@ export const DialogContainer = styled.div(
     boxShadow: `0 ${rem(space.default)} ${rem(space.large)} rgba(0, 0, 0, 0.5)`,
   })
 );
-
-export const DialogFooter = styled.footer(({ theme: { space } }) => ({
-  padding: rem(space.default),
-  textAlign: 'right',
-  [`> ${Inline}`]: {
-    justifyContent: 'flex-end',
-  },
-}));
 
 /**
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
