@@ -318,6 +318,8 @@ export { default as IconWarning } from './icons/IconWarning';
 export * from './icons/IconWarning';
 export { default as IconYoutube } from './icons/IconYoutube';
 export * from './icons/IconYoutube';
+export { default as LogoBtcxe } from './logos/LogoBtcxe';
+export * from './logos/LogoBtcxe';
 export { default as LogoSportsbet } from './logos/LogoSportsbet';
 export * from './logos/LogoSportsbet';
 export { default as LogoSportsbetSponsor } from './logos/LogoSportsbetSponsor';
