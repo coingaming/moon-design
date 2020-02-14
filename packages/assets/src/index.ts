@@ -182,6 +182,8 @@ export { default as IconMenuHome } from './icons/IconMenuHome';
 export * from './icons/IconMenuHome';
 export { default as IconMoon } from './icons/IconMoon';
 export * from './icons/IconMoon';
+export { default as IconNews } from './icons/IconNews';
+export * from './icons/IconNews';
 export { default as IconNotification } from './icons/IconNotification';
 export * from './icons/IconNotification';
 export {
@@ -196,6 +198,8 @@ export { default as IconPriceBoost } from './icons/IconPriceBoost';
 export * from './icons/IconPriceBoost';
 export { default as IconProfile } from './icons/IconProfile';
 export * from './icons/IconProfile';
+export { default as IconPromotions } from './icons/IconPromotions';
+export * from './icons/IconPromotions';
 export { default as IconSbShield } from './icons/IconSbShield';
 export * from './icons/IconSbShield';
 export { default as IconSearch } from './icons/IconSearch';
