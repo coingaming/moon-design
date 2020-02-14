@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/coingaming/sportsbet-design/compare/v0.111.1...v1.0.0) (2020-02-14)
+
+
+### Bug Fixes
+
+* remove dialog typography ([052a88a](https://github.com/coingaming/sportsbet-design/commit/052a88a))
+* remove footer from dialog ([b184165](https://github.com/coingaming/sportsbet-design/commit/b184165))
+* **:pencil::** move scrollbar to page level. ([cfc887d](https://github.com/coingaming/sportsbet-design/commit/cfc887d))
+* **pencil:** remove longForm prop from dialog ([f8f50e8](https://github.com/coingaming/sportsbet-design/commit/f8f50e8))
+
+
+### Features
+
+* news and promotion icon ([bb7c51e](https://github.com/coingaming/sportsbet-design/commit/bb7c51e))
+
+
+### BREAKING CHANGES
+
+* can be styled in other ways. No need in this component
+* footer needs to be implemented in dialog content
+* **:pencil::** Scrollbar in dialog can be implemented in content styles
+* **pencil:** The longForm option has been removed.
+Dialog maxWidth and padding have to be configured via content styles
+
+
+
+
+
 ## [0.111.1](https://github.com/coingaming/sportsbet-design/compare/v0.111.0...v0.111.1) (2020-01-31)
 
 
