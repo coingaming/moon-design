@@ -5,7 +5,6 @@ import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Dialog } from '../dialog';
-import { DialogHeading, DialogText } from '../typography';
 
 const Global = createGlobalStyle({ '&:root': { '--reach-dialog': 1 } });
 
@@ -24,15 +23,13 @@ const Setup = ({ children }: any) => (
   </ThemeProvider>
 );
 
-const ExampleHeading = () => (
-  <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-);
+const ExampleHeading = () => <h1>Lorem ipsum dolor sit amet.</h1>;
 const ExampleText = () => (
-  <DialogText>
+  <p>
     Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet
     lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat,
     varius enim eu, semper augue.
-  </DialogText>
+  </p>
 );
 
 /**
@@ -96,11 +93,11 @@ describe('Dialog', () => {
       <Setup>
         <Dialog isOpen maxWidth="400">
           <ExampleHeading />
-          <DialogText>
+          <p>
             Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
             laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
             nisl volutpat, varius enim eu, semper augue.
-          </DialogText>
+          </p>
         </Dialog>
       </Setup>
     );
