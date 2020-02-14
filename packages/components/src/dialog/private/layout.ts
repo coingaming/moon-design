@@ -4,11 +4,8 @@ import {
   DialogOverlay as ReachDialogOverlay,
   DialogContent as ReachDialogContent,
 } from '@reach/dialog';
-import { mq } from '@heathmont/sportsbet-utils';
 
-import { Inline } from '../../inline/inline';
-
-import { DialogLongForm, DialogMaxWidth } from './types';
+import { DialogPosition, DialogMaxWidth } from './types';
 
 /* Styled Reach UI Dialog Components
   =========================================== */
@@ -25,7 +22,7 @@ export const DialogOverlay = styled(ReachDialogOverlay)(
     right: '0',
     bottom: '0',
     left: '0',
-    overflow: 'hidden',
+    overflow: 'auto',
     backgroundColor: color.gohan[100] && rgba(color.gohan[100], 0.75),
     zIndex: zIndex.dialog,
   })
@@ -35,7 +32,7 @@ export const DialogOverlay = styled(ReachDialogOverlay)(
  * 1. Arbitrary figure from design.
  */
 export const DialogContent = styled(ReachDialogContent)<
-  DialogMaxWidth & DialogLongForm
+  DialogMaxWidth & DialogPosition
 >(({ theme: { space } }) => [
   {
     margin: '0 auto',
@@ -43,11 +40,12 @@ export const DialogContent = styled(ReachDialogContent)<
     maxWidth: rem(608) /* [1] */,
     padding: rem(space.default),
     outline: 'none',
-    top: '50%',
-    transform: 'translateY(-50%)',
   },
-  ({ longForm }) => longForm && { maxWidth: rem(752) } /* [1] */,
   ({ maxWidth }) => ({ maxWidth }),
+  ({ position }) =>
+    position === 'TOP'
+      ? { margin: '8vh auto' }
+      : { top: '50%', transform: 'translateY(-50%)' },
 ]);
 
 /* Layout
@@ -64,60 +62,13 @@ export const DialogContainer = styled.div(
   })
 );
 
-export const DialogFooter = styled.footer(({ theme: { space } }) => ({
-  padding: rem(space.default),
-  textAlign: 'right',
-  [`> ${Inline}`]: {
-    justifyContent: 'flex-end',
-  },
-}));
-
-/**
- * Calculates the maxHeight of content based on the dialog margin `vh` value.
- * A `rem` value provides a rough estimation of both header & footer height.
- *
- * e.g. if we want the dialog to appear with an outer margin of `10vh`, we use
- *      ...mainMaxHeight(10).
- */
-const mainMaxHeight = (margin: number) => ({
-  maxHeight: `calc(${100 - margin * 2}vh - ${rem(100)})`,
-});
-
 /**
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
  *    padding with a pseudo element.
  */
-export const DialogMain = styled.main<DialogLongForm>(
-  ({ theme: { breakpoint, space } }) => [
-    {
-      paddingTop: rem(space.xlarge),
-      paddingLeft: rem(space.large),
-      paddingRight: rem(space.large),
-      overflow: 'auto',
-      '&:last-child::after': {
-        content: "''",
-        height: rem(space.large),
-        display: 'block',
-      },
-      ...mainMaxHeight(0),
-      [mq(breakpoint.small)]: {
-        ...mainMaxHeight(4),
-      },
-      [mq(breakpoint.medium)]: {
-        ...mainMaxHeight(8),
-      },
-      [mq(breakpoint.xlarge)]: {
-        ...mainMaxHeight(10),
-      },
-    },
-    ({ longForm }) =>
-      longForm && {
-        paddingTop: rem(space.default * 3),
-        [mq(breakpoint.medium)]: {
-          paddingTop: rem(space.default * 5),
-          paddingLeft: rem(space.default * 6),
-          paddingRight: rem(space.default * 6),
-        },
-      },
-  ]
-);
+export const DialogMain = styled.main(({ theme: { space } }) => ({
+  paddingTop: rem(space.xlarge),
+  paddingLeft: rem(space.large),
+  paddingRight: rem(space.large),
+  paddingBottom: rem(space.large),
+}));
