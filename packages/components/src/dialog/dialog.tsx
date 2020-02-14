@@ -3,7 +3,7 @@ import { IconClose } from '@heathmont/sportsbet-assets';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
-import { DialogFromTop, DialogMaxWidth } from './private/types';
+import { DialogPosition, DialogMaxWidth } from './private/types';
 import {
   DialogContainer,
   DialogContent,
@@ -15,7 +15,7 @@ import {
 export type DialogProps = {
   footer?: JSX.Element[] | JSX.Element;
 } & ReachDialogProps &
-  DialogFromTop &
+  DialogPosition &
   DialogMaxWidth;
 
 export const Dialog: React.FC<DialogProps> = ({
@@ -24,10 +24,10 @@ export const Dialog: React.FC<DialogProps> = ({
   maxWidth,
   isOpen = false,
   onDismiss,
-  isFixedFromTop,
+  position = 'CENTER',
 }) => (
   <DialogOverlay isOpen={isOpen && isOpen} onDismiss={onDismiss && onDismiss}>
-    <DialogContent maxWidth={maxWidth} isFixedFromTop={isFixedFromTop}>
+    <DialogContent maxWidth={maxWidth} position={position}>
       <DialogContainer>
         <DialogToggle type="button" onClick={onDismiss && onDismiss}>
           <IconClose />
