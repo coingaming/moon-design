@@ -4,11 +4,10 @@ import {
   DialogOverlay as ReachDialogOverlay,
   DialogContent as ReachDialogContent,
 } from '@reach/dialog';
-import { mq } from '@heathmont/sportsbet-utils';
 
 import { Inline } from '../../inline/inline';
 
-import { DialogFromTop, DialogMaxWidth, DialogScroll } from './types';
+import { DialogFromTop, DialogMaxWidth } from './types';
 
 /* Styled Reach UI Dialog Components
   =========================================== */
@@ -18,14 +17,14 @@ import { DialogFromTop, DialogMaxWidth, DialogScroll } from './types';
  * https://ui.reach.tech/dialog/
  */
 
-export const DialogOverlay = styled(ReachDialogOverlay)<DialogScroll>(
-  ({ theme: { color, zIndex }, useFullPageScroll }) => ({
+export const DialogOverlay = styled(ReachDialogOverlay)(
+  ({ theme: { color, zIndex } }) => ({
     position: 'fixed',
     top: '0',
     right: '0',
     bottom: '0',
     left: '0',
-    overflow: useFullPageScroll ? 'auto' : 'hidden',
+    overflow: 'auto',
     backgroundColor: color.gohan[100] && rgba(color.gohan[100], 0.75),
     zIndex: zIndex.dialog,
   })
@@ -74,44 +73,12 @@ export const DialogFooter = styled.footer(({ theme: { space } }) => ({
 }));
 
 /**
- * Calculates the maxHeight of content based on the dialog margin `vh` value.
- * A `rem` value provides a rough estimation of both header & footer height.
- *
- * e.g. if we want the dialog to appear with an outer margin of `10vh`, we use
- *      ...mainMaxHeight(10).
- */
-const mainMaxHeight = (margin: number) => ({
-  maxHeight: `calc(${100 - margin * 2}vh - ${rem(100)})`,
-});
-
-/**
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
  *    padding with a pseudo element.
  */
-export const DialogMain = styled.main<DialogScroll>(
-  ({ theme: { breakpoint, space }, useFullPageScroll }) => [
-    {
-      paddingTop: rem(space.xlarge),
-      paddingLeft: rem(space.large),
-      paddingRight: rem(space.large),
-      overflow: 'auto',
-      '&:last-child::after': {
-        content: "''",
-        height: rem(space.large),
-        display: 'block',
-      },
-    },
-    !useFullPageScroll && {
-      ...mainMaxHeight(0),
-      [mq(breakpoint.small)]: {
-        ...mainMaxHeight(4),
-      },
-      [mq(breakpoint.medium)]: {
-        ...mainMaxHeight(8),
-      },
-      [mq(breakpoint.xlarge)]: {
-        ...mainMaxHeight(10),
-      },
-    },
-  ]
-);
+export const DialogMain = styled.main(({ theme: { space } }) => ({
+  paddingTop: rem(space.xlarge),
+  paddingLeft: rem(space.large),
+  paddingRight: rem(space.large),
+  paddingBottom: rem(space.large),
+}));
