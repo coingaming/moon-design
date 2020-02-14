@@ -18,6 +18,8 @@ export {
   default as GroupIconThirdParty,
 } from './groupIcons/GroupIconThirdParty';
 export * from './groupIcons/GroupIconThirdParty';
+export { default as IconAbout } from './icons/IconAbout';
+export * from './icons/IconAbout';
 export { default as IconAdd } from './icons/IconAdd';
 export * from './icons/IconAdd';
 export { default as IconAllSports } from './icons/IconAllSports';
