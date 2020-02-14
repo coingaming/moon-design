@@ -3,12 +3,7 @@ import { IconClose } from '@heathmont/sportsbet-assets';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
-import {
-  DialogFromTop,
-  DialogLongForm,
-  DialogMaxWidth,
-  DialogScroll,
-} from './private/types';
+import { DialogFromTop, DialogMaxWidth, DialogScroll } from './private/types';
 import {
   DialogContainer,
   DialogContent,
@@ -20,7 +15,6 @@ import {
 export type DialogProps = {
   footer?: JSX.Element[] | JSX.Element;
 } & ReachDialogProps &
-  DialogLongForm &
   DialogFromTop &
   DialogScroll &
   DialogMaxWidth;
@@ -28,9 +22,8 @@ export type DialogProps = {
 export const Dialog: React.FC<DialogProps> = ({
   children,
   footer,
-  longForm,
   maxWidth,
-  isOpen,
+  isOpen = false,
   onDismiss,
   isFixedFromTop,
   useFullPageScroll,
@@ -40,17 +33,13 @@ export const Dialog: React.FC<DialogProps> = ({
     onDismiss={onDismiss && onDismiss}
     useFullPageScroll={useFullPageScroll}
   >
-    <DialogContent
-      longForm={longForm}
-      maxWidth={maxWidth}
-      isFixedFromTop={isFixedFromTop}
-    >
+    <DialogContent maxWidth={maxWidth} isFixedFromTop={isFixedFromTop}>
       <DialogContainer>
         <DialogToggle type="button" onClick={onDismiss && onDismiss}>
           <IconClose />
           <DialogToggleText>Close dialog</DialogToggleText>
         </DialogToggle>
-        <DialogMain longForm={longForm} useFullPageScroll={useFullPageScroll}>
+        <DialogMain useFullPageScroll={useFullPageScroll}>
           {children}
         </DialogMain>
         {footer && <DialogFooter>{footer}</DialogFooter>}
@@ -58,7 +47,3 @@ export const Dialog: React.FC<DialogProps> = ({
     </DialogContent>
   </DialogOverlay>
 );
-
-Dialog.defaultProps = {
-  isOpen: false,
-};

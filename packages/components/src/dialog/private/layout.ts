@@ -8,12 +8,7 @@ import { mq } from '@heathmont/sportsbet-utils';
 
 import { Inline } from '../../inline/inline';
 
-import {
-  DialogFromTop,
-  DialogLongForm,
-  DialogMaxWidth,
-  DialogScroll,
-} from './types';
+import { DialogFromTop, DialogMaxWidth, DialogScroll } from './types';
 
 /* Styled Reach UI Dialog Components
   =========================================== */
@@ -40,7 +35,7 @@ export const DialogOverlay = styled(ReachDialogOverlay)<DialogScroll>(
  * 1. Arbitrary figure from design.
  */
 export const DialogContent = styled(ReachDialogContent)<
-  DialogMaxWidth & DialogLongForm & DialogFromTop
+  DialogMaxWidth & DialogFromTop
 >(({ theme: { space } }) => [
   {
     margin: '0 auto',
@@ -49,7 +44,6 @@ export const DialogContent = styled(ReachDialogContent)<
     padding: rem(space.default),
     outline: 'none',
   },
-  ({ longForm }) => longForm && { maxWidth: rem(752) } /* [1] */,
   ({ maxWidth }) => ({ maxWidth }),
   ({ isFixedFromTop }) =>
     isFixedFromTop
@@ -94,7 +88,7 @@ const mainMaxHeight = (margin: number) => ({
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
  *    padding with a pseudo element.
  */
-export const DialogMain = styled.main<DialogLongForm & DialogScroll>(
+export const DialogMain = styled.main<DialogScroll>(
   ({ theme: { breakpoint, space }, useFullPageScroll }) => [
     {
       paddingTop: rem(space.xlarge),
@@ -119,14 +113,5 @@ export const DialogMain = styled.main<DialogLongForm & DialogScroll>(
         ...mainMaxHeight(10),
       },
     },
-    ({ longForm }) =>
-      longForm && {
-        paddingTop: rem(space.default * 3),
-        [mq(breakpoint.medium)]: {
-          paddingTop: rem(space.default * 5),
-          paddingLeft: rem(space.default * 6),
-          paddingRight: rem(space.default * 6),
-        },
-      },
   ]
 );
