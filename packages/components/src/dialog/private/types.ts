@@ -1,7 +1,7 @@
 export type DialogMaxWidth = {
-  maxWidth?: string | number;
+  maxWidth?: string;
 };
 
-export type DialogLongForm = {
-  longForm?: boolean;
+export type DialogPosition = {
+  position?: 'TOP' | 'CENTER';
 };

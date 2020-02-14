@@ -5,7 +5,6 @@ import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Dialog } from '../dialog';
-import { DialogHeading, DialogText } from '../typography';
 
 const Global = createGlobalStyle({ '&:root': { '--reach-dialog': 1 } });
 
@@ -24,15 +23,13 @@ const Setup = ({ children }: any) => (
   </ThemeProvider>
 );
 
-const ExampleHeading = () => (
-  <DialogHeading>Lorem ipsum dolor sit amet.</DialogHeading>
-);
+const ExampleHeading = () => <h1>Lorem ipsum dolor sit amet.</h1>;
 const ExampleText = () => (
-  <DialogText>
+  <p>
     Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec laoreet
     lectus. Proin at lacus quis justo mattis porta. Nulla sed nisl volutpat,
     varius enim eu, semper augue.
-  </DialogText>
+  </p>
 );
 
 /**
@@ -94,90 +91,17 @@ describe('Dialog', () => {
   test('renders with custom `maxWidth`', () => {
     const dialog = create(
       <Setup>
-        <Dialog isOpen maxWidth={400}>
+        <Dialog isOpen maxWidth="400">
           <ExampleHeading />
-          <DialogText>
+          <p>
             Consectetur adipiscing elit. Phasellus eget vulputate nibh, nec
             laoreet lectus. Proin at lacus quis justo mattis porta. Nulla sed
             nisl volutpat, varius enim eu, semper augue.
-          </DialogText>
+          </p>
         </Dialog>
       </Setup>
     );
 
     expect(dialog).toMatchSnapshot();
-  });
-
-  describe('longForm', () => {
-    test('renders with `longForm` template', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen longForm>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-
-    test('overriden by custom `maxWidth`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen longForm maxWidth={420}>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-  });
-
-  describe('footer', () => {
-    test('renders with `footer`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen footer={<button type="button">Close</button>}>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-
-    test('renders with `longForm` template and `footer`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog isOpen longForm footer={<button type="button">Close</button>}>
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
-
-    test('renders with `maxWidth` and `footer`', () => {
-      const dialog = create(
-        <Setup>
-          <Dialog
-            isOpen
-            footer={<button type="button">Close</button>}
-            maxWidth={420}
-          >
-            <ExampleHeading />
-            <ExampleText />
-          </Dialog>
-        </Setup>
-      );
-
-      expect(dialog).toMatchSnapshot();
-    });
   });
 });
