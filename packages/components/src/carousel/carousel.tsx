@@ -32,7 +32,7 @@ const CarouselWrapper = styled.div<any>({
  *
  * The list of Carousel Items, controlling overflow and scroll behavior.
  */
-const CarouselScroll = styled(Reel.withComponent('ul'))({
+const ItemsScrollWrapper = styled(Reel.withComponent('ul'))({
   scrollSnapType: 'proximity',
   scrollSnapDestination: '0 50%',
   scrollSnapPointsX: 'repeat(100%)',
@@ -43,7 +43,7 @@ const CarouselScroll = styled(Reel.withComponent('ul'))({
   },
 });
 
-CarouselScroll.defaultProps = {
+ItemsScrollWrapper.defaultProps = {
   space: 'default',
 };
 
@@ -68,7 +68,23 @@ type CarouselProps = {
   scrollTo?: number;
 };
 
+const DefaultScrollToLeftButton = props => (
+  <CarouselControl {...props}>
+    <CarouselControlCaption>Scroll Left</CarouselControlCaption>
+    <IconChevronLeft />
+  </CarouselControl>
+);
+
+const DefaultScrollToRightButton = props => (
+  <CarouselControl {...props}>
+    <CarouselControlCaption>Scroll Right</CarouselControlCaption>
+    <IconChevronLeft />
+  </CarouselControl>
+);
+
 export const Carousel: React.FC<CarouselProps> = ({
+  scrollToLeftButton,
+  scrollToRightButton,
   items,
   step,
   scrollTo,
@@ -91,11 +107,18 @@ export const Carousel: React.FC<CarouselProps> = ({
 
   return (
     <CarouselWrapper>
-      <CarouselControl onClick={scrollLeftToStep} disabled={!canScrollLeft}>
-        <CarouselControlCaption>Scroll Left</CarouselControlCaption>
-        <IconChevronLeft />
-      </CarouselControl>
-      <CarouselScroll ref={containerRef}>
+      {scrollToLeftButton ? (
+        scrollToLeftButton({
+          scrollToStep: scrollLeftToStep,
+          disabled: !canScrollLeft,
+        })
+      ) : (
+        <DefaultScrollToLeftButton
+          onClick={scrollLeftToStep}
+          disabled={!canScrollLeft}
+        />
+      )}
+      <ItemsScrollWrapper ref={containerRef}>
         {items.map(
           (item: React.ReactNode, index: string | number | undefined) => (
             // eslint-disable-next-line react/no-array-index-key
@@ -104,11 +127,18 @@ export const Carousel: React.FC<CarouselProps> = ({
             </CarouselScrollItem>
           )
         )}
-      </CarouselScroll>
-      <CarouselControl onClick={scrollRightToStep} disabled={!canScrollRight}>
-        <CarouselControlCaption>Scroll Right</CarouselControlCaption>
-        <IconChevronLeft />
-      </CarouselControl>
+      </ItemsScrollWrapper>
+      {scrollToRightButton ? (
+        scrollToRightButton({
+          scrollToStep: scrollRightToStep,
+          disabled: !canScrollRight,
+        })
+      ) : (
+        <DefaultScrollToRightButton
+          onClick={scrollRightToStep}
+          disabled={!canScrollRight}
+        />
+      )}
     </CarouselWrapper>
   );
 };
