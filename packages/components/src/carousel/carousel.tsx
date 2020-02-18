@@ -60,34 +60,44 @@ const CarouselScrollItem = styled.li<any>({
   },
 });
 
+const DefaultScrollToLeftButton = ({
+  scrollLeftCaption = 'Scroll Left',
+  ...rest
+}) => (
+  <CarouselControl {...rest}>
+    <CarouselControlCaption>{scrollLeftCaption}</CarouselControlCaption>
+    <IconChevronLeft />
+  </CarouselControl>
+);
+
+const DefaultScrollToRightButton = ({
+  scrollRightCaption = 'Scroll Right',
+  ...rest
+}) => (
+  <CarouselControl {...rest}>
+    <CarouselControlCaption>{scrollRightCaption}</CarouselControlCaption>
+    <IconChevronLeft />
+  </CarouselControl>
+);
+
 type CarouselProps = {
-  items: React.HTMLAttributes<HTMLElement>[];
+  items: any[];
   scrollToLeftButton?: any;
   scrollToRightButton?: any;
+  scrollLeftCaption?: any;
+  scrollRightCaption?: any;
   step?: number;
   scrollTo?: number;
 };
 
-const DefaultScrollToLeftButton = props => (
-  <CarouselControl {...props}>
-    <CarouselControlCaption>Scroll Left</CarouselControlCaption>
-    <IconChevronLeft />
-  </CarouselControl>
-);
-
-const DefaultScrollToRightButton = props => (
-  <CarouselControl {...props}>
-    <CarouselControlCaption>Scroll Right</CarouselControlCaption>
-    <IconChevronLeft />
-  </CarouselControl>
-);
-
 export const Carousel: React.FC<CarouselProps> = ({
-  scrollToLeftButton,
-  scrollToRightButton,
   items,
   step,
   scrollTo,
+  scrollToLeftButton,
+  scrollToRightButton,
+  scrollLeftCaption,
+  scrollRightCaption,
 }) => {
   const {
     itemRef,
@@ -116,6 +126,7 @@ export const Carousel: React.FC<CarouselProps> = ({
         <DefaultScrollToLeftButton
           onClick={scrollLeftToStep}
           disabled={!canScrollLeft}
+          scrollLeftCaption={scrollLeftCaption}
         />
       )}
       <ItemsScrollWrapper ref={containerRef}>
@@ -137,6 +148,7 @@ export const Carousel: React.FC<CarouselProps> = ({
         <DefaultScrollToRightButton
           onClick={scrollRightToStep}
           disabled={!canScrollRight}
+          scrollRightCaption={scrollRightCaption}
         />
       )}
     </CarouselWrapper>
