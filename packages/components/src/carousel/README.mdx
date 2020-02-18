@@ -10,33 +10,230 @@ An interactive extension of the [`Reel`](../reel) component to cycle through con
 
 ```jsx react-live
 () => {
-  const items = Array.from({ length: 5 }, (v, i) => i);
+  const items = Array.from({ length: 25 }, (value, index) => index);
 
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
     borderRadius: radius.small,
     background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   }));
 
   return (
-    <Carousel>
-      <CarouselControl>
-        <CarouselControlCaption>Scroll Left</CarouselControlCaption>
-        <IconChevronLeft />
-      </CarouselControl>
-      <CarouselScroll>
-        {items.map(item => (
-          <CarouselScrollItem>
-            <ExampleContent />
-          </CarouselScrollItem>
-        ))}
-      </CarouselScroll>
-      <CarouselControl>
-        <CarouselControlCaption>Scroll Right</CarouselControlCaption>
-        <IconChevronLeft />
-      </CarouselControl>
-    </Carousel>
+    <Carousel
+      scrollTo={9}
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
   );
 };
+```
+
+# Scrollable Components
+
+We have two types of scrollable components which have different views: **ScrollableBar** and ScrollableList.
+
+ScrollableBar and ScrollableList are interactive extension of the [`Reel`](../reel) component to cycle through content and use scrollable behaviour from withHorizontalScroll hook:
+
+##### **withHorizontalScroll hook**
+
+By invoking withHorizontalScroll, you will receive the following methods:
+
+- `containerRef` - set ref for scroll area (not necessary param, set browser viewport by default);
+
+- `itemRef` - set ref for each item inside scroll area (necessary param);
+
+- `scrollLeftToStep, scrollRightToStep` - scrolling with step setted as scrollStep;
+
+- `scrollToIndex` - func, scrolling to needed index: scrollToIndex(index);
+
+- `canScrollLeft, canScrollRight` - bool, settings show or hide arrows;
+
+withHorizontalScroll also has optional argument:
+
+- `scrollStep` - number, step for left and right scroll
+
+##### **ScrollableBar**
+
+```
+import * as React from 'react';
+import { withHorizontalScroll } from '@heathmont/sportsbet-components';
+import { IconChevronLeft } from '@heathmont/sportsbet-assets/icons';
+
+import {
+  ScrollableBarControlBtn,
+  ScrollableBarControlCaption,
+  ScrollableBarControlFade,
+  ScrollableBarControl,
+} from './private/controls';
+import {
+  ScrollableBarOverlay,
+  ScrollableBarItems,
+  ScrollableBarItem,
+} from './private/layout';
+
+export type ScrollableBarProps = {
+  items: JSX.Element[];
+  scrollLeftButton?: JSX.Element;
+  scrollRightButton?: JSX.Element;
+  hideControlsBreakpoint?: number;
+  step?: number;
+  scrollTo?: number;
+};
+
+const ScrollableBar: React.FC<ScrollableBarProps> = ({
+  scrollLeftButton,
+  scrollRightButton,
+  items,
+  hideControlsBreakpoint,
+  step,
+  scrollTo,
+}) => {
+  const {
+    itemRef,
+    scrollLeftToStep,
+    scrollRightToStep,
+    containerRef,
+    scrollToIndex,
+    canScrollLeft,
+    canScrollRight,
+  } = withHorizontalScroll({ scrollStep: step || 5 });
+
+  React.useEffect(() => {
+    if (scrollTo) scrollToIndex(scrollTo);
+  }, []);
+
+  const LeftArrow = scrollLeftButton || (
+    <ScrollableBarControlFade>
+      <ScrollableBarControlBtn onClick={scrollLeftToStep}>
+        <ScrollableBarControlCaption>Scroll Left</ScrollableBarControlCaption>
+        <IconChevronLeft />
+      </ScrollableBarControlBtn>
+    </ScrollableBarControlFade>
+  );
+
+  const RightArrow = scrollRightButton || (
+    <ScrollableBarControlFade right>
+      <ScrollableBarControlBtn right onClick={scrollRightToStep}>
+        <ScrollableBarControlCaption>Scroll Right</ScrollableBarControlCaption>
+        <IconChevronLeft />
+      </ScrollableBarControlBtn>
+    </ScrollableBarControlFade>
+  );
+
+  return (
+    <ScrollableBarOverlay ref={containerRef}>
+      <ScrollableBarControl hideControlsBreakpoint={hideControlsBreakpoint}>
+        {canScrollLeft ? LeftArrow : null}
+      </ScrollableBarControl>
+      <ScrollableBarItems>
+        {items.map(item => (
+          <ScrollableBarItem ref={itemRef}>{item}</ScrollableBarItem>
+        ))}
+      </ScrollableBarItems>
+      <ScrollableBarControl hideControlsBreakpoint={hideControlsBreakpoint}>
+        {canScrollRight ? RightArrow : null}
+      </ScrollableBarControl>
+    </ScrollableBarOverlay>
+  );
+};
+
+export default ScrollableBar;
+```
+
+##### **ScrollableList**
+
+```
+import * as React from 'react';
+import { withHorizontalScroll } from '@heathmont/sportsbet-components';
+import { IconChevronLeft } from '@heathmont/sportsbet-assets/icons';
+
+import {
+  ScrollableListControl,
+  ScrollableListControlCaption,
+  ScrollableListControls,
+} from './private/controls';
+import {
+  ScrollableListOverlay,
+  ScrollableListHeader,
+  ScrollableListTitle,
+  ScrollableListItems,
+  ScrollableListItem,
+} from './private/layout';
+
+export type ScrollableListProps = {
+  items: JSX.Element[];
+  scrollLeftButton?: JSX.Element;
+  scrollRightButton?: JSX.Element;
+  hideControlsBreakpoint?: number;
+  title?: JSX.Element;
+  step?: number;
+  scrollTo?: number;
+};
+
+const ScrollableList: React.FC<ScrollableListProps> = ({
+  title,
+  scrollLeftButton,
+  scrollRightButton,
+  hideControlsBreakpoint,
+  items,
+  step,
+  scrollTo,
+}) => {
+  const {
+    itemRef,
+    scrollLeftToStep,
+    scrollRightToStep,
+    containerRef,
+    scrollToIndex,
+    canScrollLeft,
+    canScrollRight,
+  } = withHorizontalScroll({ scrollStep: step || 5 });
+
+  React.useEffect(() => {
+    if (scrollTo) scrollToIndex(scrollTo);
+  }, []);
+
+  const LeftArrow = scrollLeftButton || (
+    <ScrollableListControl onClick={scrollLeftToStep} disabled={!canScrollLeft}>
+      <ScrollableListControlCaption>Scroll Left</ScrollableListControlCaption>
+      <IconChevronLeft />
+    </ScrollableListControl>
+  );
+
+  const RightArrow = scrollRightButton || (
+    <ScrollableListControl
+      right
+      onClick={scrollRightToStep}
+      disabled={!canScrollRight}
+    >
+      <ScrollableListControlCaption>Scroll Right</ScrollableListControlCaption>
+      <IconChevronLeft />
+    </ScrollableListControl>
+  );
+
+  return (
+    <ScrollableListOverlay>
+      <ScrollableListHeader>
+        <ScrollableListTitle>{title}</ScrollableListTitle>
+        <ScrollableListControls hideControlsBreakpoint={hideControlsBreakpoint}>
+          {LeftArrow}
+          {RightArrow}
+        </ScrollableListControls>
+      </ScrollableListHeader>
+      <ScrollableListItems ref={containerRef}>
+        {items.map(item => (
+          <ScrollableListItem ref={itemRef}>{item}</ScrollableListItem>
+        ))}
+      </ScrollableListItems>
+    </ScrollableListOverlay>
+  );
+};
+
+export default ScrollableList;
+
 ```
