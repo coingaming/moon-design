@@ -45,7 +45,3 @@ export const CarouselControl = styled.button<any>(
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
 export const CarouselControlCaption = styled.span<any>(hideVisually);
-
-// export const CarouselControlWrapper = (props) => {
-//   return {props.render(this.state)}
-// };
