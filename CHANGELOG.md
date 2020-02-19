@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/coingaming/sportsbet-design/compare/v1.2.0...v1.3.0) (2020-02-19)
+
+
+### Bug Fixes
+
+* **carousel:** fix build ([52fec17](https://github.com/coingaming/sportsbet-design/commit/52fec17))
+
+
+### Features
+
+* **carousel:** carousel rethink ([86dd818](https://github.com/coingaming/sportsbet-design/commit/86dd818))
+* **carousel:** customizable buttons for carousel ([f4063d9](https://github.com/coingaming/sportsbet-design/commit/f4063d9))
+* **checkbox:** make checkbox input border color more visible ([b54063f](https://github.com/coingaming/sportsbet-design/commit/b54063f)), closes [#SPO-5689](https://github.com/coingaming/sportsbet-design/issues/SPO-5689)
+
+
+
+
+
 # [1.2.0](https://github.com/coingaming/sportsbet-design/compare/v1.1.0...v1.2.0) (2020-02-14)
 
 
