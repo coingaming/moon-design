@@ -4,7 +4,6 @@
 
 export * from './badge/badge';
 export * from './badge/modifiers';
-export * from './behavior/withHorizontalScroll';
 export * from './button/button';
 export * from './button/modifiers';
 export * from './button/size';
@@ -14,7 +13,7 @@ export * from './card/card';
 export * from './card/utils';
 export * from './carousel/carousel';
 export * from './carousel/control';
-export * from './carousel/types';
+export * from './carousel/withHorizontalScroll';
 export * from './checkbox/checkbox';
 export * from './dialog/dialog';
 export * from './file-input/file-input';
