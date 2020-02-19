@@ -109,7 +109,9 @@ export const withHorizontalScroll = (options: Options) => {
   });
 
   const itemRef = (element: HTMLElement) => {
-    if (!element) return;
+    if (!element) {
+      return;
+    }
     itemRefs.push(element);
   };
 

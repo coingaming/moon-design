@@ -10,33 +10,91 @@ An interactive extension of the [`Reel`](../reel) component to cycle through con
 
 ```jsx react-live
 () => {
-  const items = Array.from({ length: 5 }, (v, i) => i);
+  const items = Array.from({ length: 25 }, (value, index) => index);
 
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
     borderRadius: radius.small,
     background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   }));
 
   return (
-    <Carousel>
-      <CarouselControl>
-        <CarouselControlCaption>Scroll Left</CarouselControlCaption>
-        <IconChevronLeft />
-      </CarouselControl>
-      <CarouselScroll>
-        {items.map(item => (
-          <CarouselScrollItem>
-            <ExampleContent />
-          </CarouselScrollItem>
-        ))}
-      </CarouselScroll>
-      <CarouselControl>
-        <CarouselControlCaption>Scroll Right</CarouselControlCaption>
-        <IconChevronLeft />
-      </CarouselControl>
-    </Carousel>
+    <Carousel
+      scrollTo={5}
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
   );
 };
+```
+
+## Carousel with customized arrows
+
+Use these props
+
+- `scrollToLeftButton`
+- `scrollToRightButton`
+
+They provide a function with `scrollToStep` and `disabled` arguments that you could use in your custom elements.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 25 }, (value, index) => index);
+
+  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
+    width: '20rem',
+    height: '12rem',
+    borderRadius: radius.small,
+    background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '2rem',
+  }));
+
+  return (
+    <Carousel
+      scrollToLeftButton={({ scrollToStep, disabled }) => (
+        <button disabled={disabled} onClick={scrollToStep}>
+          Scroll to left
+        </button>
+      )}
+      scrollToRightButton={({ scrollToStep, disabled }) => (
+        <button disabled={disabled} onClick={scrollToStep}>
+          Scroll to Right
+        </button>
+      )}
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
+  );
+};
+```
+
+## **withHorizontalScroll hook**
+
+By invoking withHorizontalScroll, you will receive the following methods:
+
+- `containerRef` - set ref for scroll area (not necessary param, set browser viewport by default);
+
+- `itemRef` - set ref for each item inside scroll area (necessary param);
+
+- `scrollLeftToStep, scrollRightToStep` - scrolling with step setted as scrollStep;
+
+- `scrollToIndex` - func, scrolling to needed index: scrollToIndex(index);
+
+- `canScrollLeft, canScrollRight` - bool, settings show or hide arrows;
+
+withHorizontalScroll also has optional argument:
+
+- `scrollStep` - number, step for left and right scroll
+
+```
+
 ```
