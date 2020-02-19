@@ -5,11 +5,7 @@ import { uniqueId, inlineSVG, rem } from '@heathmont/sportsbet-utils';
 import { Theme } from '@heathmont/sportsbet-themes';
 
 import { LabelText } from '../private/label/label';
-import {
-  inputBorder,
-  inputColors,
-  inputBorderWidth,
-} from '../private/input/settings';
+import { inputColors, inputBorderWidth } from '../private/input/settings';
 
 import { CheckboxIcon } from './private/icon';
 
@@ -63,7 +59,7 @@ const CheckboxCaption = styled.span(({ theme }) => ({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: inputBorder(theme),
+    border: `${inputBorderWidth(theme)}px solid ${theme.color.trunks[100]}`,
     borderRadius: rem(theme.radius.small),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
@@ -81,7 +77,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
   '&:hover:enabled, &:focus:enabled': {
     /* Show the Pseudo Checkbox Circle */
     '& + span::before': {
-      opacity: 0.2,
+      opacity: 0.5,
       transform: 'scale(2)',
     },
     '&:checked + span::before': {
@@ -90,7 +86,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {
-      borderColor: inputColors('borderHover')(theme),
+      borderColor: theme.color.trunks[100],
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
