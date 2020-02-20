@@ -79,8 +79,6 @@ exports[`CardBalance renders correctly with a badge 1`] = `
   -moz-letter-spacing: 0.03125rem;
   -ms-letter-spacing: 0.03125rem;
   letter-spacing: 0.03125rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
 }
 
 .c2 > li {
