@@ -2,12 +2,9 @@ import styled from 'styled-components';
 import { rem, themed } from '@heathmont/sportsbet-utils';
 import { ColorProps } from '@heathmont/sportsbet-themes';
 
-import { badgeModifiers, BadgeModifiers } from './modifiers';
-
 type BadgeProps = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
-  modifier?: BadgeModifiers;
 };
 
 const Badge = styled.span<BadgeProps>(
@@ -21,8 +18,6 @@ const Badge = styled.span<BadgeProps>(
     borderRadius: rem(radius.largest),
     letterSpacing: rem(0.5),
   }),
-  ({ modifier, theme: { color } }) =>
-    modifier && badgeModifiers(modifier, color),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({
     color: themed('color', color)(theme),
@@ -30,8 +25,6 @@ const Badge = styled.span<BadgeProps>(
   })
 );
 
-Badge.defaultProps = {
-  modifier: 'active',
-};
+Badge.defaultProps = {};
 
 export { Badge, BadgeProps };

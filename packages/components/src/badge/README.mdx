@@ -9,32 +9,25 @@ route: /components/badge
 Small count and labeling component
 
 ```jsx react-live
-<Badge>Active</Badge>
+<Badge color="bulma.100" backgroundColor="dodoria.100">
+  Active
+</Badge>
 ```
 
-## Modifiers
-
-```jsx react-live
-<Inline>
-  <Badge modifier="single">Single</Badge>
-  <Badge modifier="multi">Multi</Badge>
-  <Badge modifier="active">Active</Badge>
-  <Badge modifier="won">Won</Badge>
-  <Badge modifier="lost">Lost</Badge>
-  <Badge modifier="settled">Settled</Badge>
-  <Badge modifier="void">Void</Badge>
-  <Badge modifier="doubles">Doubles</Badge>
-  <Badge modifier="canceled">Canceled</Badge>
-  <Badge modifier="live">Live</Badge>
-</Inline>
-```
-
-## Customizing colors
+## Customize colours
 
 You coud simply use `color` and `backgroundColor` props
 
 ```jsx react-live
-<Badge color="piccolo.100" backgroundColor="bulma.100">
-  Active
-</Badge>
+<Inline>
+  <Badge color="bulma.100" backgroundColor="piccolo.100">
+    Active
+  </Badge>
+  <Badge color="krillin.100" backgroundColor="gohan.100">
+    Active
+  </Badge>
+  <Badge color="bulma.100" backgroundColor="dodoria.100">
+    Active
+  </Badge>
+</Inline>
 ```
