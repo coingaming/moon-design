@@ -13,8 +13,6 @@ exports[`Badge renders correctly 1`] = `
   -moz-letter-spacing: 0.03125rem;
   -ms-letter-spacing: 0.03125rem;
   letter-spacing: 0.03125rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
 }
 
 <span
@@ -37,8 +35,6 @@ exports[`Badge renders correctly with background color 1`] = `
   -moz-letter-spacing: 0.03125rem;
   -ms-letter-spacing: 0.03125rem;
   letter-spacing: 0.03125rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
   background-color: red;
 }
 
@@ -62,8 +58,6 @@ exports[`Badge renders correctly with color 1`] = `
   -moz-letter-spacing: 0.03125rem;
   -ms-letter-spacing: 0.03125rem;
   letter-spacing: 0.03125rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
   color: red;
 }
 
