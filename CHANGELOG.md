@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
+
+
+### Bug Fixes
+
+* **carousel:** scrollTo scrolls to full item ([8158924](https://github.com/coingaming/sportsbet-design/commit/8158924))
+
+
+### Features
+
+* **badge:** clean up modifiers ([e0a3563](https://github.com/coingaming/sportsbet-design/commit/e0a3563))
+* **carousel:** space prop (same as Reel) ([a549181](https://github.com/coingaming/sportsbet-design/commit/a549181))
+* **input:** introduce rounded prop ([ccaf6ea](https://github.com/coingaming/sportsbet-design/commit/ccaf6ea))
+
+
+### BREAKING CHANGES
+
+* **badge:** <Badge modifier="single">Single</Badge> is no longer available
+
+
+
+
+
 # [1.3.0](https://github.com/coingaming/sportsbet-design/compare/v1.2.0...v1.3.0) (2020-02-19)
 
 
