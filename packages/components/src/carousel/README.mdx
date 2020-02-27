@@ -33,7 +33,9 @@ An interactive extension of the [`Reel`](../reel) component to cycle through con
 };
 ```
 
-## Carousel with customized arrows
+## Customization
+
+### Carousel with customized arrows
 
 Use these props
 
@@ -76,6 +78,40 @@ They provide a function with `scrollToStep` and `disabled` arguments that you co
   );
 };
 ```
+
+### Space
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 5 }, (value, index) => index);
+
+  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
+    width: '20rem',
+    height: '12rem',
+    borderRadius: radius.small,
+    background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '2rem',
+  }));
+
+  return (
+    <Carousel
+      space="xlarge"
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
+  );
+};
+```
+
+Spacing between adjacent content can be adjusted via the `space` prop. Same as `Reel` component.
+
+`space` accepts themed space keys (e.g. `large` returns the large themed `space`
+key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
+`"1rem"`).
 
 ## **withHorizontalScroll hook**
 

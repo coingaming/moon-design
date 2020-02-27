@@ -739,3 +739,91 @@ exports[`TextInput renders correctly without a label 1`] = `
   type="text"
 />
 `;
+
+exports[`TextInput renders with rounded prop 1`] = `
+.c0 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5625rem 0.9375rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  border-color: #FF4E64;
+  border-radius: 100px;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
+}
+
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c1:invalid,
+.c1:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c1:focus {
+  border-color: #0CD664;
+  outline: none;
+}
+
+<label
+  className=""
+>
+  <span
+    className="c0"
+  >
+    Text
+  </span>
+  <input
+    className="c1"
+    placeholder=" "
+    type="text"
+  />
+</label>
+`;
