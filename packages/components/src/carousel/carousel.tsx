@@ -1,6 +1,7 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import styled, { CSSObject } from 'styled-components';
 import { IconChevronLeft } from '@heathmont/sportsbet-assets';
+import { SpaceProps } from '@heathmont/sportsbet-themes';
 
 import { Reel } from '../reel/reel';
 
@@ -88,6 +89,7 @@ type CarouselProps = {
   scrollRightCaption?: any;
   step?: number;
   scrollTo?: number;
+  space?: SpaceProps | CSSObject['margin'];
 };
 
 export const Carousel: React.FC<CarouselProps> = ({
@@ -98,6 +100,7 @@ export const Carousel: React.FC<CarouselProps> = ({
   scrollToRightButton,
   scrollLeftCaption,
   scrollRightCaption,
+  space,
 }) => {
   const {
     itemRef,
@@ -129,7 +132,7 @@ export const Carousel: React.FC<CarouselProps> = ({
           scrollLeftCaption={scrollLeftCaption}
         />
       )}
-      <ItemsScrollWrapper ref={containerRef}>
+      <ItemsScrollWrapper space={space} ref={containerRef}>
         {items.map(
           (item: React.ReactNode, index: string | number | undefined) => (
             // eslint-disable-next-line react/no-array-index-key
