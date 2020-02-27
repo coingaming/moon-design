@@ -1,6 +1,7 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import styled, { CSSObject } from 'styled-components';
 import { IconChevronLeft } from '@heathmont/sportsbet-assets';
+import { SpaceProps } from '@heathmont/sportsbet-themes';
 
 import { Reel } from '../reel/reel';
 
@@ -88,6 +89,7 @@ type CarouselProps = {
   scrollRightCaption?: any;
   step?: number;
   scrollTo?: number;
+  space?: SpaceProps | CSSObject['margin'];
 };
 
 export const Carousel: React.FC<CarouselProps> = ({
@@ -98,6 +100,7 @@ export const Carousel: React.FC<CarouselProps> = ({
   scrollToRightButton,
   scrollLeftCaption,
   scrollRightCaption,
+  space,
 }) => {
   const {
     itemRef,
@@ -110,7 +113,18 @@ export const Carousel: React.FC<CarouselProps> = ({
   } = withHorizontalScroll({ scrollStep: step || 5 });
 
   React.useEffect(() => {
-    if (scrollTo) {
+    if (!scrollTo) {
+      return;
+    }
+    // We scroll for another extra item because we defined our THRESHOLD = 0.75;
+    // It means that item will be visible for 75%.
+    // We scroll one more to guarantee 100% visibility.
+    // "items.length - 1" because indices start from 0.
+    if (scrollTo && scrollTo < items.length - 1) {
+      scrollToIndex(scrollTo + 1);
+    }
+    // No point for scroll another extra item because that's the last one
+    if (scrollTo && scrollTo === items.length - 1) {
       scrollToIndex(scrollTo);
     }
   }, []);
@@ -129,7 +143,7 @@ export const Carousel: React.FC<CarouselProps> = ({
           scrollLeftCaption={scrollLeftCaption}
         />
       )}
-      <ItemsScrollWrapper ref={containerRef}>
+      <ItemsScrollWrapper space={space} ref={containerRef}>
         {items.map(
           (item: React.ReactNode, index: string | number | undefined) => (
             // eslint-disable-next-line react/no-array-index-key
