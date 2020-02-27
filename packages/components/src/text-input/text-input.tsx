@@ -22,6 +22,7 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   type?: TextInputTypes;
   placeholder?: string;
   error?: boolean;
+  rounded?: boolean;
 };
 
 const TextInputElem = styled(Input)(({ theme: { color } }) => ({
@@ -43,17 +44,19 @@ const TextInput: React.FC<TextInputProps> = ({
   placeholder = ' ',
   label,
   error,
+  rounded,
   ...props
 }) => {
   const inputProps = {
     disabled,
     type,
     placeholder,
+    rounded,
     ...props,
   };
 
   const TextInputInner = () => (
-    <TextInputElem error={!!error} {...inputProps} />
+    <TextInputElem rounded={!!rounded} error={!!error} {...inputProps} />
   );
 
   if (!label) {
