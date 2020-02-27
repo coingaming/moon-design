@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-global",
   "sideEffects": false,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "files": [
     "lib"
   ],
@@ -15,8 +15,8 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/sportsbet-themes": "^1.0.0",
-    "@heathmont/sportsbet-utils": "^1.0.0",
+    "@heathmont/sportsbet-themes": "^2.0.0",
+    "@heathmont/sportsbet-utils": "^2.0.0",
     "focus-visible": "5.0.2"
   },
   "peerDependencies": {
