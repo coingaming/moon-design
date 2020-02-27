@@ -113,7 +113,18 @@ export const Carousel: React.FC<CarouselProps> = ({
   } = withHorizontalScroll({ scrollStep: step || 5 });
 
   React.useEffect(() => {
-    if (scrollTo) {
+    if (!scrollTo) {
+      return;
+    }
+    // We scroll for another extra item because we defined our THRESHOLD = 0.75;
+    // It means that item will be visible for 75%.
+    // We scroll one more to guarantee 100% visibility.
+    // "items.length - 1" because indices start from 0.
+    if (scrollTo && scrollTo < items.length - 1) {
+      scrollToIndex(scrollTo + 1);
+    }
+    // No point for scroll another extra item because that's the last one
+    if (scrollTo && scrollTo === items.length - 1) {
       scrollToIndex(scrollTo);
     }
   }, []);
