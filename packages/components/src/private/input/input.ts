@@ -17,6 +17,7 @@ import {
 type InputProps = {
   withIcon?: boolean;
   error?: boolean;
+  rounded?: boolean;
 };
 
 export const Input = styled.input<InputProps>(({ theme }) => [
@@ -63,5 +64,9 @@ export const Input = styled.input<InputProps>(({ theme }) => [
   ({ error }) =>
     error && {
       borderColor: theme.color.chiChi[100],
+    },
+  ({ rounded }) =>
+    rounded && {
+      borderRadius: theme.radius.largest,
     },
 ]);
