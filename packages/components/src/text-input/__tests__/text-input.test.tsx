@@ -79,4 +79,11 @@ describe('TextInput', () => {
     );
     expect(textInput).toMatchSnapshot();
   });
+
+  test('renders with rounded prop', () => {
+    const textInput = create(
+      renderWithTheme(<TextInput rounded label="Text" type="text" error />)
+    );
+    expect(textInput).toMatchSnapshot();
+  });
 });
