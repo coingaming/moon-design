@@ -1,7 +1,7 @@
 import { CSSObject } from 'styled-components';
 import { shared } from '@heathmont/sportsbet-themes';
 
-import { rem } from '../helpers/rem';
+import rem from '../helpers/rem';
 
 export const focusReset: CSSObject = {
   '&:focus': {
@@ -19,3 +19,5 @@ export const focus = (color: string | undefined = shared.color.whis[100]) => ({
     boxShadow: `0 0 ${rem(2)} ${rem(2)} ${color}`,
   },
 });
+
+export default focus;

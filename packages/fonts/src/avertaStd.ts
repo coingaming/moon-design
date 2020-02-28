@@ -56,7 +56,7 @@ const fontFace: CSSObject[] = [
   },
 ];
 
-export const avertaStd = {
+const avertaStd = {
   fontDirPath,
   fontFilePath,
   fontFamily,
@@ -66,3 +66,5 @@ export const avertaStd = {
   fontFace,
   unicodeRange,
 };
+
+export default avertaStd;

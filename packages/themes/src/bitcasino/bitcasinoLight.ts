@@ -1,6 +1,6 @@
 import { Theme } from '../types/theme';
 
-import { bitcasinoShared } from './bitcasino-shared';
+import bitcasinoShared from './bitcasinoShared';
 
 const color = {
   dende: {
@@ -55,7 +55,7 @@ const color = {
 
 const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
 
-export const bitcasinoLight: Theme = {
+const bitcasinoLight: Theme = {
   ...sharedTheme,
   color: {
     text: color.bulma[100],
@@ -65,3 +65,5 @@ export const bitcasinoLight: Theme = {
   },
   colorScheme: 'light',
 };
+
+export default bitcasinoLight;
