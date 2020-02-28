@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/sportsbet-utils';
-import { Switch } from '@heathmont/sportsbet-components';
+import { Switcher } from '@heathmont/sportsbet-components';
 
 import { useDocsTheme } from '../provider';
 
@@ -22,7 +22,7 @@ export const ThemeToggle = () => {
 
   return (
     <SwitchContainer>
-      <Switch
+      <Switcher
         onChange={e => handleChange(e)}
         checked={state}
         colorScheme
