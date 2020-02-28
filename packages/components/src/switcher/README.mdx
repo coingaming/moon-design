@@ -1,37 +1,37 @@
 ---
 name: Switch
 menu: Components
-route: /components/switch
+route: /components/switcher
 ---
 
-import { Switch } from '@heathmont/sportsbet-components';
+import { Switcher } from '@heathmont/sportsbet-components';
 
-# Switch
+# Switcher
 
 An alternate checkbox appearance for simulating on/off state.
 
 ```jsx react-live
-<Switch />
+<Switcher />
 ```
 
 An additional variant of the `Switch` can be used to toggle the app's
 `colorScheme` between 'light' and 'dark'.
 
 ```jsx react-live
-<Switch colorScheme />
+<Switcher colorScheme />
 ```
 
 ## Captions
 
 For extra context, captions can be appended to the unchecked and checked
-positions of the switch.
+positions of the switcher.
 
 ```jsx react-live
-<Switch captionUnchecked="ON" captionChecked="OFF" />
+<Switcher captionUnchecked="ON" captionChecked="OFF" />
 ```
 
 ```jsx react-live
-<Switch colorScheme captionUnchecked="AM" captionChecked="PM" />
+<Switcher colorScheme captionUnchecked="AM" captionChecked="PM" />
 ```
 
 ## State
@@ -43,6 +43,6 @@ with React Hooks:
 () => {
   const [state, setState] = React.useState(true);
 
-  return <Switch checked={state} onChange={e => setState(e.target.checked)} />;
+  return <Switcher checked={state} onChange={e => setState(e.target.checked)} />;
 };
 ```
