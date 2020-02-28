@@ -1,6 +1,6 @@
 import { CSSObject } from 'styled-components';
 
-export const focus: CSSObject = {
+const focus: CSSObject = {
   /**
    * Prevents an unwanted focus outline from appearing around elements that
    * might still respond to pointer events.
@@ -23,3 +23,5 @@ export const focus: CSSObject = {
     outline: 'none',
   },
 };
+
+export default focus;

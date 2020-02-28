@@ -1,6 +1,6 @@
 import { CSSObject } from 'styled-components';
 
-export const reset: CSSObject = {
+const reset: CSSObject = {
   /**
    * Remove all browser-default margins from certain elements.
    */
@@ -37,3 +37,5 @@ export const reset: CSSObject = {
     display: 'none !important',
   },
 };
+
+export default reset;
