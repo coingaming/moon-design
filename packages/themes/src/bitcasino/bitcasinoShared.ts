@@ -9,7 +9,7 @@ import {
   ColorShared,
   ColorHit,
 } from '../types/color';
-import { shared } from '../shared/shared';
+import shared from '../shared/shared';
 
 /**
  * Sportsbet Shared Theme Base
@@ -43,7 +43,7 @@ const blues = {
   10: '#88C5FF',
 };
 
-export const bitcasinoShared: BitcasinoShared = {
+const bitcasinoShared: BitcasinoShared = {
   ...sharedTheme,
   brand: 'Bitcasino.io',
   color: {
@@ -74,3 +74,5 @@ export const bitcasinoShared: BitcasinoShared = {
   },
   fontWeight: avertaStd.fontWeight,
 };
+
+export default bitcasinoShared;

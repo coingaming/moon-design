@@ -6,10 +6,12 @@ import { shared } from '@heathmont/sportsbet-themes';
  */
 type DisabledProps = number | CSSObject;
 
-export const disabled = (styles?: DisabledProps) => ({
+const disabled = (styles?: DisabledProps) => ({
   '&:disabled, &[disabled]': {
     cursor: 'not-allowed',
     opacity: typeof styles === 'number' ? styles : shared.opacity.disabled,
     ...(typeof styles === 'object' && styles),
   },
 });
+
+export default disabled;

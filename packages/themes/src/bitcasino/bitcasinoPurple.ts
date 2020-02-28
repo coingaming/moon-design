@@ -1,6 +1,6 @@
 import { Theme } from '../types/theme';
 
-import { bitcasinoShared } from './bitcasino-shared';
+import bitcasinoShared from './bitcasinoShared';
 
 const {
   /* Keys we don't need */
@@ -53,7 +53,7 @@ const color = {
   },
 };
 
-export const bitcasinoPurple: Theme = {
+const bitcasinoPurple: Theme = {
   ...sharedTheme,
   boxShadow,
   color: {
@@ -64,3 +64,5 @@ export const bitcasinoPurple: Theme = {
   },
   colorScheme: 'dark',
 };
+
+export default bitcasinoPurple;

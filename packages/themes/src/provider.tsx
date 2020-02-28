@@ -73,3 +73,5 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     </StyledThemeProvider>
   );
 };
+
+export default ThemeProvider;

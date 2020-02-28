@@ -16,3 +16,5 @@ export const ThemeTransition = createGlobalStyle`
     }
   }
 `;
+
+export default ThemeTransition;

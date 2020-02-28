@@ -1,6 +1,6 @@
 import { ColorShared } from '../../types/color';
 
-export const color: ColorShared = {
+const color: ColorShared = {
   krillin: {
     100: '#FFAB00',
     80: '#FFB319',
@@ -82,3 +82,5 @@ export const color: ColorShared = {
     10: '#FFF699',
   },
 };
+
+export default color;
