@@ -5,7 +5,7 @@ import 'jest-styled-components';
 
 const Example = styled.div<{ css: CSSObject }>(({ css }) => css);
 
-import { container } from '../container';
+import container from '../container';
 
 describe('Container', () => {
   test('renders a rem-based container with number value', () => {

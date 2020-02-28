@@ -1,6 +1,6 @@
 import { Theme } from '../types/theme';
 
-import { sportsbetShared } from './sportsbet-shared';
+import sportsbetShared from './sportsbetShared';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -65,7 +65,7 @@ const {
   ...sharedTheme
 } = sportsbetShared;
 
-export const sportsbetDark: Theme = {
+const sportsbetDark: Theme = {
   ...sharedTheme,
   boxShadow,
   color: {
@@ -76,3 +76,5 @@ export const sportsbetDark: Theme = {
   },
   colorScheme: 'dark',
 };
+
+export default sportsbetDark;

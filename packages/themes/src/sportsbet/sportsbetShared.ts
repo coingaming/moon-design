@@ -9,7 +9,7 @@ import {
   ColorTrunks,
   ColorShared,
 } from '../types/color';
-import { shared } from '../shared/shared';
+import shared from '../shared/shared';
 
 /**
  * Sportsbet Shared Theme Base
@@ -35,7 +35,7 @@ const {
   ...sharedTheme
 } = shared;
 
-export const sportsbetShared: SportsbetShared = {
+const sportsbetShared: SportsbetShared = {
   ...sharedTheme,
   brand: 'Sportsbet.io',
   color: {
@@ -80,3 +80,5 @@ export const sportsbetShared: SportsbetShared = {
   },
   fontWeight: avertaStd.fontWeight,
 };
+
+export default sportsbetShared;

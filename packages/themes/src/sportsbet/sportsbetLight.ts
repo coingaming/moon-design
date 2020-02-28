@@ -1,6 +1,6 @@
 import { Theme } from '../types/theme';
 
-import { sportsbetShared } from './sportsbet-shared';
+import sportsbetShared from './sportsbetShared';
 
 const lights = {
   100: '#F7F7F7',
@@ -50,7 +50,7 @@ const color = {
 
 const { color: sharedColor, ...sharedTheme } = sportsbetShared;
 
-export const sportsbetLight: Theme = {
+const sportsbetLight: Theme = {
   ...sharedTheme,
   color: {
     text: color.bulma[100],
@@ -60,3 +60,5 @@ export const sportsbetLight: Theme = {
   },
   colorScheme: 'light',
 };
+
+export default sportsbetLight;

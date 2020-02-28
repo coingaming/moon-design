@@ -2,12 +2,12 @@ import { CSSObject } from 'styled-components';
 import margin from 'polished/lib/shorthands/margin';
 import padding from 'polished/lib/shorthands/padding';
 
-import { rem } from '../../helpers/rem';
+import rem from '../../helpers/rem';
 
 type ContainerSize = CSSObject['maxWidth'];
 type PaddingSize = CSSObject['paddingLeft'];
 
-export const container = (
+const container = (
   size?: ContainerSize,
   paddingSize?: PaddingSize
 ): CSSObject => ({
@@ -15,3 +15,5 @@ export const container = (
   ...padding(null, paddingSize ? rem(paddingSize) : null),
   maxWidth: size ? rem(size) : undefined,
 });
+
+export default container;
