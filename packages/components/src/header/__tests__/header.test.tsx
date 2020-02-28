@@ -4,7 +4,7 @@ import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
 import { Header, HeaderTitle } from '../header';
-import { HeaderBack } from '../header-back';
+import { HeaderBack } from '../headerBack';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
