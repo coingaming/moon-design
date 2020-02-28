@@ -6,12 +6,7 @@ import { Theme } from '@heathmont/sportsbet-themes';
  * 1. Prevent automatic zooming of fonts on some mobile devices.
  * 2. Consistent font display behavior on OSX.
  */
-export const page = ({
-  color,
-  base,
-  fontFamily,
-  fontSize,
-}: Theme): CSSObject => ({
+const page = ({ color, base, fontFamily, fontSize }: Theme): CSSObject => ({
   html: {
     backgroundColor: color.background,
     fontSize: base.fontSize,
@@ -28,3 +23,5 @@ export const page = ({
     fontSize: rem(fontSize.body, base.fontSize),
   },
 });
+
+export default page;

@@ -1,6 +1,6 @@
 import { CSSObject } from 'styled-components';
 
-export const boxSizing: CSSObject = {
+const boxSizing: CSSObject = {
   html: {
     boxSizing: 'border-box',
   },
@@ -8,3 +8,5 @@ export const boxSizing: CSSObject = {
     boxSizing: 'inherit',
   },
 };
+
+export default boxSizing;

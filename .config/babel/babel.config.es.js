@@ -28,6 +28,9 @@ module.exports = {
       // "@heathmont/sportsbet-assets": {
       //   "transform": "@heathmont/sportsbet-assets/lib/es/${member}",
       // },
+      "@heathmont/sportsbet-global": {
+        "transform": "@heathmont/sportsbet-global/es/${member}",
+      },
       "@heathmont/sportsbet-fonts": {
         "transform": "@heathmont/sportsbet-fonts/es/${member}",
       },
