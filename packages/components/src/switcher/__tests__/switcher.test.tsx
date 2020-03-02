@@ -7,18 +7,18 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
 
-import { Switch } from '../switch';
+import { Switcher } from '../Switcher';
 
 describe('Switch', () => {
   test('renders by default', () => {
-    const checkbox = create(renderWithTheme(<Switch id="test-switch-1" />));
+    const checkbox = create(renderWithTheme(<Switcher id="test-switch-1" />));
 
     expect(checkbox).toMatchSnapshot();
   });
 
   test('renders as checked', () => {
     const checkbox = create(
-      renderWithTheme(<Switch id="test-switch-2" checked />)
+      renderWithTheme(<Switcher id="test-switch-2" checked />)
     );
 
     expect(checkbox).toMatchSnapshot();
