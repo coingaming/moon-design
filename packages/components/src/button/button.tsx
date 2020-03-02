@@ -192,3 +192,5 @@ Button.defaultProps = {
 };
 
 export { Button, ButtonProps };
+
+export default Button;

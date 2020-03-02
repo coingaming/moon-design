@@ -168,3 +168,5 @@ export const Carousel: React.FC<CarouselProps> = ({
     </CarouselWrapper>
   );
 };
+
+export default Carousel;

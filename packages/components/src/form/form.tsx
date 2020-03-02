@@ -73,3 +73,5 @@ export {
   FormComboInput,
   FormComboButton,
 };
+
+export default Form;

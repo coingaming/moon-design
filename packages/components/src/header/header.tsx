@@ -29,3 +29,5 @@ const HeaderTitle = styled.h1(
 );
 
 export { Header, HeaderTitle };
+
+export default Header;

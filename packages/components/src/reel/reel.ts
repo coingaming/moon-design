@@ -67,3 +67,5 @@ Reel.defaultProps = {
   height: 'auto',
   space: 'default',
 };
+
+export default Reel;

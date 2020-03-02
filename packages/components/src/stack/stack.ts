@@ -38,3 +38,5 @@ export const stack = (space: StackSpace) => ({
 export const Stack = styled.div<StackProps>(({ theme, space = 'default' }) =>
   stack(themed('space', space)(theme))
 );
+
+export default Stack;

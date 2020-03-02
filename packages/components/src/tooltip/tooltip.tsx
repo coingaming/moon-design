@@ -117,3 +117,5 @@ const Tooltip: React.FC<TooltipProps> = ({
 );
 
 export { Tooltip, TooltipProps };
+
+export default Tooltip;
