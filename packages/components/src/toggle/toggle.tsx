@@ -23,3 +23,5 @@ const Toggle = styled.button<ToggleProps>(
 );
 
 export { Toggle, ToggleProps };
+
+export default Toggle;

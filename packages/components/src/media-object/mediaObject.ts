@@ -53,3 +53,5 @@ export const MediaObject = styled.div<MediaObjectProps>(
     },
   ]
 );
+
+export default MediaObject;

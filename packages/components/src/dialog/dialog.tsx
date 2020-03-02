@@ -32,3 +32,5 @@ export const Dialog: React.FC<DialogProps> = ({
     </DialogContent>
   </DialogOverlay>
 );
+
+export default Dialog;

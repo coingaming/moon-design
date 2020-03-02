@@ -81,3 +81,5 @@ const FileInput: React.FC<FileInputProps> = ({
 );
 
 export { FileInput, FileInputProps };
+
+export default FileInput;

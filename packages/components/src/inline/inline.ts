@@ -48,3 +48,5 @@ export const Inline = styled.div<InlineProps>(
     fontSize,
   })
 );
+
+export default Inline;

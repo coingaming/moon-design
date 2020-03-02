@@ -62,3 +62,5 @@ export const Tabs: React.FC<TabsProps> = ({ id, items }) => {
   );
   /* eslint-enable react/no-array-index-key */
 };
+
+export default Tabs;
