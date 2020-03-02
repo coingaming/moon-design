@@ -191,6 +191,6 @@ Button.defaultProps = {
   size: 'small',
 };
 
-export { Button, ButtonProps };
+export { ButtonProps };
 
 export default Button;
