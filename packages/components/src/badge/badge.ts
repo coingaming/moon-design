@@ -7,7 +7,7 @@ export type BadgeProps = {
   backgroundColor?: ColorProps;
 };
 
-export const Badge = styled.span<BadgeProps>(
+const Badge = styled.span<BadgeProps>(
   ({ theme: { space, fontWeight, radius } }) => ({
     padding: `${rem(space.xsmall / 2)} ${rem(space.small - 1)}`,
     fontSize: rem(space.small),
