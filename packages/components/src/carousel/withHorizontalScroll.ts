@@ -128,3 +128,5 @@ export const withHorizontalScroll = (options: Options) => {
     canScrollRight: rightIndicator,
   };
 };
+
+export default withHorizontalScroll;

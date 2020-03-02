@@ -35,3 +35,5 @@ export const KeylineText = styled.p(
     },
   })
 );
+
+export default Keyline;

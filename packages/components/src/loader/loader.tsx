@@ -70,3 +70,5 @@ export const Loader: React.FC<LoaderProps> = ({ color }) => (
     ))}
   </LoaderContainer>
 );
+
+export default Loader;

@@ -47,3 +47,5 @@ export {
   listInline,
   listInlineItem,
 };
+
+export default listPlain;

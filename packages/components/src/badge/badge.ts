@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { rem, themed } from '@heathmont/sportsbet-utils';
 import { ColorProps } from '@heathmont/sportsbet-themes';
 
-type BadgeProps = {
+export type BadgeProps = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
 };
 
-const Badge = styled.span<BadgeProps>(
+export const Badge = styled.span<BadgeProps>(
   ({ theme: { space, fontWeight, radius } }) => ({
     padding: `${rem(space.xsmall / 2)} ${rem(space.small - 1)}`,
     fontSize: rem(space.small),
@@ -27,4 +27,4 @@ const Badge = styled.span<BadgeProps>(
 
 Badge.defaultProps = {};
 
-export { Badge, BadgeProps };
+export default Badge;

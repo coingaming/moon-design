@@ -83,3 +83,5 @@ export const Card = styled.div<CardProps>(
 Card.defaultProps = {
   template: 'front',
 };
+
+export default Card;
