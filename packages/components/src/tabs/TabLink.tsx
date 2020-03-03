@@ -3,7 +3,7 @@ import { rem } from 'polished';
 
 import { underlineWidth, underlineOffset } from './private';
 
-export const TabLink = styled.a(({ theme }) => ({
+const TabLink = styled.a(({ theme }) => ({
   position: 'relative',
   padding: 0,
   paddingBottom: `${underlineOffset(theme)}px`,
@@ -38,3 +38,5 @@ export const TabLink = styled.a(({ theme }) => ({
     },
   },
 }));
+
+export default TabLink;
