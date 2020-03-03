@@ -5,7 +5,7 @@ import { hideVisually } from 'polished';
 import { ColorScheme } from '@heathmont/sportsbet-themes';
 import { IconMoon, IconSun } from '@heathmont/sportsbet-assets';
 
-import { Inline } from '../inline/inline';
+import Inline from '../inline/Inline';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
