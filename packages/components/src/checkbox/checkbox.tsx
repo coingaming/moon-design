@@ -141,6 +141,6 @@ const Checkbox: React.FC<CheckboxProps> = ({
   );
 };
 
-export { Checkbox, CheckboxProps };
+export { CheckboxProps };
 
 export default Checkbox;

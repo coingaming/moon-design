@@ -13,7 +13,7 @@ import {
 
 export type DialogProps = ReachDialogProps & DialogPosition & DialogMaxWidth;
 
-export const Dialog: React.FC<DialogProps> = ({
+const Dialog: React.FC<DialogProps> = ({
   children,
   maxWidth,
   isOpen = false,

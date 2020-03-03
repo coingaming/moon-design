@@ -92,7 +92,7 @@ type CarouselProps = {
   space?: SpaceProps | CSSObject['margin'];
 };
 
-export const Carousel: React.FC<CarouselProps> = ({
+const Carousel: React.FC<CarouselProps> = ({
   items,
   step,
   scrollTo,

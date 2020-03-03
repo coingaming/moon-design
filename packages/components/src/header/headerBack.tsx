@@ -45,4 +45,4 @@ const HeaderBack: React.FC<HeaderBackProps> = ({
   </HeaderBackLink>
 );
 
-export { HeaderBack };
+export default HeaderBack;

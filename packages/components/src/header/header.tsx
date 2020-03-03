@@ -28,6 +28,6 @@ const HeaderTitle = styled.h1(
   })
 );
 
-export { Header, HeaderTitle };
+export { HeaderTitle };
 
 export default Header;
