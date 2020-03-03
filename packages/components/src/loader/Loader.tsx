@@ -59,7 +59,7 @@ type LoaderProps = {
   color?: ColorProps;
 };
 
-export const Loader: React.FC<LoaderProps> = ({ color }) => (
+const Loader: React.FC<LoaderProps> = ({ color }) => (
   <LoaderContainer role="progressbar">
     {['-0.45s', '-0.3s', '-0.15s', '0s'].map(delay => (
       <LoaderRing

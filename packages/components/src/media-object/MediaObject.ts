@@ -24,7 +24,7 @@ export type MediaObjectProps = {
   textAlign?: CSSObject['textAlign'];
 };
 
-export const MediaObject = styled.div<MediaObjectProps>(
+const MediaObject = styled.div<MediaObjectProps>(
   ({
     alignItems = 'center',
     gridGap = 'default',
