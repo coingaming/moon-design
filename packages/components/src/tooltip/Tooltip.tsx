@@ -3,7 +3,7 @@ import styled, { css, CSSObject } from 'styled-components';
 import { rem } from '@heathmont/sportsbet-utils';
 import { IconClose } from '@heathmont/sportsbet-assets';
 
-import { Toggle } from '../toggle/toggle';
+import Toggle from '../toggle/Toggle';
 
 import { slideUpFade } from './animation';
 
