@@ -4,7 +4,7 @@ import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem, uniqueId } from '@heathmont/sportsbet-utils';
 import { useTheme } from '@heathmont/sportsbet-themes';
 
-import { Reel } from '../reel/reel';
+import Reel from '../reel/Reel';
 
 import { underlineOffset } from './private';
 

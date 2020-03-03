@@ -4,7 +4,7 @@ import { disabled, rem } from '@heathmont/sportsbet-utils';
 import { IconSuccess, IconWarning } from '@heathmont/sportsbet-assets';
 import { useTheme } from '@heathmont/sportsbet-themes';
 
-import { Loader } from '../loader/loader';
+import Loader from '../loader/Loader';
 
 import { buttonModifier, ButtonModifiers } from './modifiers';
 import { buttonSize, ButtonSizes } from './size';
