@@ -4,7 +4,7 @@ import { rem } from '@heathmont/sportsbet-utils';
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-export const Keyline = styled.hr<any>(({ theme: { borderWidth, color } }) => ({
+const Keyline = styled.hr<any>(({ theme: { borderWidth, color } }) => ({
   display: 'block',
   borderWidth: `${borderWidth}px 0 0 0`,
   borderColor: color.beerus[100],

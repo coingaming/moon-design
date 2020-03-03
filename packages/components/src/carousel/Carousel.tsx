@@ -3,7 +3,7 @@ import styled, { CSSObject } from 'styled-components';
 import { IconChevronLeft } from '@heathmont/sportsbet-assets';
 import { SpaceProps } from '@heathmont/sportsbet-themes';
 
-import { Reel } from '../reel/reel';
+import Reel from '../reel/Reel';
 
 import { CarouselControl, CarouselControlCaption } from './control';
 import { withHorizontalScroll } from './withHorizontalScroll';

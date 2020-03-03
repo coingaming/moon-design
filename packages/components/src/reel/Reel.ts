@@ -21,7 +21,7 @@ export type ReelProps = {
  *
  * Based on the Reel component from every-layout.dev
  */
-export const Reel = styled.div<ReelProps>(({ height, space, theme }) => ({
+const Reel = styled.div<ReelProps>(({ height, space, theme }) => ({
   display: 'flex',
   overflowX: 'auto',
   overflowY: 'hidden',
