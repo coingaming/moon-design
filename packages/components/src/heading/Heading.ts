@@ -45,6 +45,6 @@ Heading.defaultProps = {
   color: 'bulma.100',
 };
 
-export { Heading, HeadingProps };
+export { HeadingProps };
 
 export default Heading;

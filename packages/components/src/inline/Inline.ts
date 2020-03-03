@@ -42,7 +42,7 @@ export const inline = (space: InlineSpace): CSSObject => ({
   '& > li': listItemStyleTypeNone,
 });
 
-export const Inline = styled.div<InlineProps>(
+const Inline = styled.div<InlineProps>(
   ({ fontSize, space = 'default', theme }) => ({
     ...inline(themed('space', space)(theme)),
     fontSize,
