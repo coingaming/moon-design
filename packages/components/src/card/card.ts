@@ -33,7 +33,7 @@ export type CardProps = {
 /**
  * Component
  */
-export const Card = styled.div<CardProps>(
+const Card = styled.div<CardProps>(
   ({
     active,
     backgroundIcon,

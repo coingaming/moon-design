@@ -70,6 +70,6 @@ const TextInput: React.FC<TextInputProps> = ({
   );
 };
 
-export { TextInput, TextInputProps };
+export { TextInputProps };
 
 export default TextInput;

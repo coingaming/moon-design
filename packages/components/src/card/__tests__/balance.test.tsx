@@ -8,7 +8,7 @@ const renderWithTheme = (component: JSX.Element) => (
 );
 
 import Badge from '../../badge/Badge';
-import { CardBalance } from '../balance';
+import CardBalance from '../CardBalance';
 
 describe('CardBalance', () => {
   test('renders correctly', () => {
