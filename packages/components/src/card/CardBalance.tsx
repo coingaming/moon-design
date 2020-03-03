@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/sportsbet-utils';
 
-import { Stack } from '../stack/stack';
+import Stack from '../stack/Stack';
 
 type Balance = {
   currency: string;

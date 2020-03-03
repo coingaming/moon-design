@@ -35,7 +35,7 @@ export const stack = (space: StackSpace) => ({
   '& > li': listItemStyleTypeNone,
 });
 
-export const Stack = styled.div<StackProps>(({ theme, space = 'default' }) =>
+const Stack = styled.div<StackProps>(({ theme, space = 'default' }) =>
   stack(themed('space', space)(theme))
 );
 
