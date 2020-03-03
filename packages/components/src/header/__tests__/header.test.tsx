@@ -3,8 +3,8 @@ import { create } from 'react-test-renderer';
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
-import { Header, HeaderTitle } from '../header';
-import { HeaderBack } from '../headerBack';
+import Header, { HeaderTitle } from '../Header';
+import HeaderBack from '../HeaderBack';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>

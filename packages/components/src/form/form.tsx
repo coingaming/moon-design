@@ -65,13 +65,6 @@ const FormComboButton = styled.div(({ theme }) => ({
   top: rem(inputSpacingY(theme) / 2),
 }));
 
-export {
-  Form,
-  FormProps,
-  FormItem,
-  FormCombo,
-  FormComboInput,
-  FormComboButton,
-};
+export { FormProps, FormItem, FormCombo, FormComboInput, FormComboButton };
 
 export default Form;
