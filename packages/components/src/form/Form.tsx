@@ -5,7 +5,7 @@ import { rem } from '@heathmont/sportsbet-utils';
 
 import { inputSpacingY } from '../private/input/settings';
 import { Input } from '../private/input/input';
-import { Stack } from '../stack/stack';
+import Stack from '../stack/Stack';
 
 /**
  * Types

@@ -39,7 +39,7 @@ type TabsProps = {
   items: any[];
 };
 
-export const Tabs: React.FC<TabsProps> = ({ id, items }) => {
+const Tabs: React.FC<TabsProps> = ({ id, items }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
   // We render everything except null or undefined items
   // tab != null filters both

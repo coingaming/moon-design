@@ -42,6 +42,6 @@ const Select: React.FC<SelectProps> = ({
   );
 };
 
-export { Select, SelectProps };
+export { SelectProps };
 
 export default Select;

@@ -4,7 +4,7 @@ import { create } from 'react-test-renderer';
 import 'jest-styled-components';
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 
-import { TabLink } from '../tabLink';
+import TabLink from '../TabLink';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
