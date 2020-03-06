@@ -4,9 +4,9 @@ import { IconChevronLeft } from '@heathmont/sportsbet-assets';
 import { SpaceProps } from '@heathmont/sportsbet-themes';
 
 import Reel from '../reel/Reel';
+import { withHorizontalScroll } from '../withHorizontalScroll/withHorizontalScroll';
 
 import { CarouselControl, CarouselControlCaption } from './control';
-import { withHorizontalScroll } from './withHorizontalScroll';
 /**
  * Settings
  *

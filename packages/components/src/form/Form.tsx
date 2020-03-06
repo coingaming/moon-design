@@ -1,10 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { rem } from '@heathmont/sportsbet-utils';
 
-import { inputSpacingY } from '../private/input/settings';
-import { Input } from '../private/input/input';
 import Stack from '../stack/Stack';
 
 /**
@@ -46,25 +43,6 @@ const Form: React.FC<FormProps> = ({
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-const FormItem = styled.li({});
-
-const FormCombo = styled.div({
-  display: 'block',
-  position: 'relative',
-});
-
-const FormComboInput = styled.div(({ theme: { radius } }) => ({
-  [`${Input}`]: {
-    borderRadius: rem(radius.largest),
-  },
-}));
-
-const FormComboButton = styled.div(({ theme }) => ({
-  position: 'absolute',
-  right: rem(inputSpacingY(theme) / 2),
-  top: rem(inputSpacingY(theme) / 2),
-}));
-
-export { FormProps, FormItem, FormCombo, FormComboInput, FormComboButton };
+export { FormProps };
 
 export default Form;
