@@ -3,14 +3,13 @@ import { create } from 'react-test-renderer';
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
-import Form, {
-  FormItem,
-  FormCombo,
-  FormComboInput,
-  FormComboButton,
-} from '../Form';
-import FormError from '../FormError';
-import TextInput from '../../text-input/TextInput';
+import Form from '../Form';
+import FormItem from '../../formItem/FormItem';
+import FormError from '../../formError/FormError';
+import FormCombo from '../../formCombo/FormCombo';
+import FormComboInput from '../../formComboInput/FormComboInput';
+import FormComboButton from '../../formComboButton/FormComboButton';
+import TextInput from '../../textInput/TextInput';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>

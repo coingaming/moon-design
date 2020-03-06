@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { findLastIndex, findIndex } from 'lodash'; // eslint-disable-line
 import scrollIntoView from 'scroll-into-view-if-needed';
 import smoothScrollIntoView from 'smooth-scroll-into-view-if-needed';
 
@@ -10,11 +9,18 @@ type Options = {
 };
 
 const findLastVisibleIndex = (childRefs: any[]): any => {
-  return findLastIndex(childRefs, child => child.getAttribute('visible'));
+  const reversedIndex = childRefs
+    // "reverse" mutates existing array, that's why we copy it via "slice"
+    .slice()
+    .reverse()
+    .findIndex(child => child.getAttribute('visible'));
+  const count = childRefs.length - 1;
+  const finalIndex = reversedIndex >= 0 ? count - reversedIndex : reversedIndex;
+  return finalIndex;
 };
 
 const findFirstVisibleIndex = (childRefs: any[]): any => {
-  return findIndex(childRefs, child => child.getAttribute('visible'));
+  return childRefs.findIndex(child => child.getAttribute('visible'));
 };
 
 const scrollToIndex = (itemRef: HTMLElement, scrollIntoViewSmoothly: any) => {
