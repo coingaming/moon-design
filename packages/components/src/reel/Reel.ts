@@ -2,7 +2,7 @@ import styled, { CSSObject } from 'styled-components';
 import { themed, rem } from '@heathmont/sportsbet-utils';
 import { SpaceProps } from '@heathmont/sportsbet-themes';
 
-import { listItemStyleTypeNone } from '../lists/lists';
+import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 
 export type ReelProps = {
   height?: CSSObject['height'];
