@@ -1,6 +1,5 @@
 import { Theme } from '../types/theme';
-
-import bitcasinoShared from './bitcasinoShared';
+import bitcasinoShared from '../bitcasinoShared/bitcasinoShared';
 
 const color = {
   dende: {
