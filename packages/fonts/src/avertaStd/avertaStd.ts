@@ -56,7 +56,7 @@ const fontFace: CSSObject[] = [
   },
 ];
 
-const avertaStd = {
+export const avertaStd = {
   fontDirPath,
   fontFilePath,
   fontFamily,
