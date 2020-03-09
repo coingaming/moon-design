@@ -1,6 +1,5 @@
 import { Theme } from '../types/theme';
-
-import sportsbetShared from './sportsbetShared';
+import sportsbetShared from '../sportsbetShared/sportsbetShared';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';

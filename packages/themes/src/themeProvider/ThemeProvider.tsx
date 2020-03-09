@@ -1,15 +1,12 @@
 import * as React from 'react';
-import {
-  ThemeProvider as StyledThemeProvider,
-  ThemeContext as StyledThemeContext,
-} from 'styled-components';
+import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
-import { Theme } from './types/theme';
+import { Theme } from '../types/theme';
 import {
   themeTransitionClass,
   themeTransitionDuration,
   ThemeTransition,
-} from './private/transition';
+} from '../themeTransition/ThemeTransition';
 
 /**
  * Rather than encouraging consumers to use `styled-components`' theming API
@@ -17,14 +14,6 @@ import {
  * change the underlying framework (e.g. another CSS-in-JS library), if
  * absolutely necessary.
  */
-
-/**
- * Theme Context
- *
- * Allow consumers to access theme values outside of `styled` functions.
- */
-export const ThemeContext: React.Context<any> = StyledThemeContext;
-export const useTheme = (): Theme => React.useContext(ThemeContext);
 
 /**
  * Theme Provider
@@ -37,7 +26,7 @@ export type ThemeProviderProps = {
   hasTransition?: boolean;
 };
 
-export const ThemeProvider: React.FC<ThemeProviderProps> = ({
+const ThemeProvider: React.FC<ThemeProviderProps> = ({
   children,
   theme,
   hasTransition,
