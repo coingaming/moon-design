@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import padding from 'polished/lib/shorthands/padding';
-import { inlineSVG, InlineSVGProps, rem } from '@heathmont/sportsbet-utils';
+import { inlineSvg, InlineSVGProps, rem } from '@heathmont/sportsbet-utils';
 
 import { cardGradientSizes } from './utils';
 
@@ -11,7 +11,7 @@ const backgroundSvg = (backgroundIcon: CardBackgroundIcon) =>
   backgroundIcon &&
   React.isValidElement(backgroundIcon) && {
     /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-    backgroundImage: inlineSVG(
+    backgroundImage: inlineSvg(
       React.cloneElement(backgroundIcon as React.ReactElement<any>, {
         /**
          * By setting the icon to white with `0.05` opacity, we can use

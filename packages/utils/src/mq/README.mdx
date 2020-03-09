@@ -1,0 +1,46 @@
+---
+name: mq
+menu: Utils
+route: /utils/mq
+---
+
+# MQ
+
+Returns a given pixel-based value (number) as an **upwards** direction media query in 'em'.
+
+```js
+import { mq } from '@heathmont/sportsbet-utils';
+```
+
+### Example
+
+`mq(500)` will return the following:
+
+```jsx react-live
+<p>{mq(500)}</p>
+```
+
+Passing the additional `mq(500, 'max-width')` parameter will return a breakpoint in the opposite direction.
+
+```jsx react-live
+<p>{mq(500, 'max-width')}</p>
+```
+
+### Usage
+
+With our breakpoint theme tokens, we can start to build-up our responsive styles:
+
+```jsx
+import styled from 'styled-components';
+import { mq } from '@heathmont/sportsbet-utils';
+
+/* Changes border from `red` to `blue` from 'small' breakpoint upwards */
+
+const Box = styled('div')`
+  border: 1px solid red;
+
+  ${mq(({ theme }) => theme.breakpoint.small)} {
+    border-color: blue;
+  }
+`;
+```

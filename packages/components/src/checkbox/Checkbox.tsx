@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { uniqueId, inlineSVG, rem } from '@heathmont/sportsbet-utils';
+import { uniqueId, inlineSvg, rem } from '@heathmont/sportsbet-utils';
 import { Theme } from '@heathmont/sportsbet-themes';
 
 import { LabelText } from '../private/label/label';
@@ -91,7 +91,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
   },
   /* Add the "check" to the Pseudo Checkbox */
   '&:checked + span::after': {
-    backgroundImage: inlineSVG(
+    backgroundImage: inlineSvg(
       <CheckboxIcon color={theme.color.piccolo[100]} />
     ),
     backgroundRepeat: 'no-repeat',

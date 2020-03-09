@@ -2,7 +2,7 @@ import { CSSObject } from 'styled-components';
 import margin from 'polished/lib/shorthands/margin';
 import padding from 'polished/lib/shorthands/padding';
 
-import rem from '../../helpers/rem';
+import rem from '../rem/rem';
 
 type ContainerSize = CSSObject['maxWidth'];
 type PaddingSize = CSSObject['paddingLeft'];
