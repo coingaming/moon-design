@@ -1,6 +1,5 @@
 import { Theme } from '../types/theme';
-
-import sportsbetShared from './sportsbetShared';
+import sportsbetShared from '../sportsbetShared/sportsbetShared';
 
 const lights = {
   100: '#F7F7F7',
