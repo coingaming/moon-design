@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
-import { rem, uniqueId, inlineSVG } from '@heathmont/sportsbet-utils';
+import { rem, uniqueId, inlineSvg } from '@heathmont/sportsbet-utils';
 import { hideVisually } from 'polished';
 import { ColorScheme } from '@heathmont/sportsbet-themes';
 import { IconMoon, IconSun } from '@heathmont/sportsbet-assets';
@@ -42,7 +42,7 @@ const Slider = styled.span<SliderColorScheme>(
     cursor: 'pointer',
     backgroundColor: colorScheme ? color.gohan[100] : color.goku[80],
     backgroundImage: colorScheme
-      ? `${inlineSVG(<IconMoon />)}, ${inlineSVG(<IconSun />)}`
+      ? `${inlineSvg(<IconMoon />)}, ${inlineSvg(<IconSun />)}`
       : undefined,
     backgroundPosition: `left ${rem(space.small)} center, right ${rem(
       space.small
