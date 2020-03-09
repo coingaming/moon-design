@@ -1,6 +1,6 @@
 import { useTheme, SpaceProps } from '@heathmont/sportsbet-themes';
 
-import rem from './rem';
+import rem from '../rem/rem';
 
 export type SpacingSize = SpaceProps | 0;
 export type SpacingUnit = string;
@@ -15,4 +15,4 @@ const spacing = (size: SpacingSize = 'default', unit?: SpacingUnit) => {
   return unit === 'px' ? `${space[size]}px` : rem(space[size]) || 0;
 };
 
-export default { spacing };
+export default spacing;

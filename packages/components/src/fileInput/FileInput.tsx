@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { inlineSVG, rem } from '@heathmont/sportsbet-utils';
+import { inlineSvg, rem } from '@heathmont/sportsbet-utils';
 import { IconUpload } from '@heathmont/sportsbet-assets';
 
 import { Input } from '../private/input/input';
@@ -42,7 +42,7 @@ const FileInputElement = styled(Input.withComponent('label'))(
       display: 'block',
       color: inputColors('label')(theme),
       cursor: 'pointer',
-      backgroundImage: inlineSVG(
+      backgroundImage: inlineSvg(
         <IconUpload color={inputColors('label')(theme)} />
       ),
       '&:focus-within': {

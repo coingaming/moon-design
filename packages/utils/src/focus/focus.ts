@@ -1,7 +1,7 @@
 import { CSSObject } from 'styled-components';
 import { shared } from '@heathmont/sportsbet-themes';
 
-import rem from '../helpers/rem';
+import rem from '../rem/rem';
 
 export const focusReset: CSSObject = {
   '&:focus': {

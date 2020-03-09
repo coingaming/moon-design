@@ -34,9 +34,6 @@ module.exports = {
       "@heathmont/sportsbet-themes": {
         "transform": "@heathmont/sportsbet-themes/es/${member}",
       },
-      "@heathmont/sportsbet-utils": {
-        "transform": "@heathmont/sportsbet-utils/es/${member}",
-      },
     }],
   ],
 };

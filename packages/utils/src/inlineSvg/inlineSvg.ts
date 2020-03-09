@@ -4,7 +4,7 @@ import miniSvgDataUri from 'mini-svg-data-uri';
 
 type InlineSVGProps = ReactElement<string>;
 
-const inlineSVG = (svg: InlineSVGProps) => {
+const inlineSvg = (svg: InlineSVGProps) => {
   const rendered = renderToStaticMarkup(svg);
   /*
     The issue is that we get smth like this for first render:
@@ -18,4 +18,6 @@ const inlineSVG = (svg: InlineSVGProps) => {
   return `url("${miniSvgDataUri(renderedSVG)}")`;
 };
 
-export { inlineSVG, InlineSVGProps };
+export { InlineSVGProps };
+
+export default inlineSvg;
