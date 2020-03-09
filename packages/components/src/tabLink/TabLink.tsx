@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
 
-import { underlineWidth, underlineOffset } from './private';
+import { underlineWidth, underlineOffset } from '../tabs/private';
 
 const TabLink = styled.a(({ theme }) => ({
   position: 'relative',
