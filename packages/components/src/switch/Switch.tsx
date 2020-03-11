@@ -108,7 +108,7 @@ export type SwitchProps = {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 } & SliderColorScheme;
 
-export const Switcher: React.FC<SwitchProps> = ({
+export const Switch: React.FC<SwitchProps> = ({
   className,
   captionChecked,
   captionUnchecked,
@@ -153,4 +153,4 @@ export const Switcher: React.FC<SwitchProps> = ({
   );
 };
 
-export default Switcher;
+export default Switch;
