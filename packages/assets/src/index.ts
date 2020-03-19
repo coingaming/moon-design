@@ -310,6 +310,8 @@ export { default as IconUser } from './icons/IconUser';
 export * from './icons/IconUser';
 export { default as IconUsers } from './icons/IconUsers';
 export * from './icons/IconUsers';
+export { default as IconVirtualSports } from './icons/IconVirtualSports';
+export * from './icons/IconVirtualSports';
 export { default as IconVkontakte } from './icons/IconVkontakte';
 export * from './icons/IconVkontakte';
 export { default as IconWallet } from './icons/IconWallet';
