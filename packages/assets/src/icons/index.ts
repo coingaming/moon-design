@@ -284,6 +284,8 @@ export { default as IconUser } from './IconUser';
 export * from './IconUser';
 export { default as IconUsers } from './IconUsers';
 export * from './IconUsers';
+export { default as IconVirtualSports } from './IconVirtualSports';
+export * from './IconVirtualSports';
 export { default as IconVkontakte } from './IconVkontakte';
 export * from './IconVkontakte';
 export { default as IconWallet } from './IconWallet';
