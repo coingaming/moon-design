@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/coingaming/sportsbet-design/compare/v2.0.0...v2.1.0) (2020-03-19)
+
+**Note:** Version bump only for package docs
+
+
+
+
+
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
 **Note:** Version bump only for package docs
