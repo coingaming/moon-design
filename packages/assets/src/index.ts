@@ -124,6 +124,8 @@ export { default as IconCurrencyUah } from './icons/IconCurrencyUah';
 export * from './icons/IconCurrencyUah';
 export { default as IconCurrencyUsd } from './icons/IconCurrencyUsd';
 export * from './icons/IconCurrencyUsd';
+export { default as IconCurrencyUsdt } from './icons/IconCurrencyUsdt';
+export * from './icons/IconCurrencyUsdt';
 export { default as IconCurrencyVes } from './icons/IconCurrencyVes';
 export * from './icons/IconCurrencyVes';
 export { default as IconCurrencyVnd } from './icons/IconCurrencyVnd';
