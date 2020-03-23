@@ -30,6 +30,7 @@ import IconCurrencyTrx from '../icons/IconCurrencyTrx';
 import IconCurrencyTry from '../icons/IconCurrencyTry';
 import IconCurrencyUah from '../icons/IconCurrencyUah';
 import IconCurrencyUsd from '../icons/IconCurrencyUsd';
+import IconCurrencyUsdt from '../icons/IconCurrencyUsdt';
 import IconCurrencyVes from '../icons/IconCurrencyVes';
 import IconCurrencyVnd from '../icons/IconCurrencyVnd';
 import IconCurrencyXrp from '../icons/IconCurrencyXrp';
@@ -64,6 +65,7 @@ type CurrencyName =
   | 'TRY'
   | 'UAH'
   | 'USD'
+  | 'USDT'
   | 'VES'
   | 'VND'
   | 'TRX'
@@ -104,6 +106,7 @@ const currencyIcons = {
   TRX: IconCurrencyTrx,
   TRY: IconCurrencyTry,
   USD: IconCurrencyUsd,
+  USDT: IconCurrencyUsdt,
   UAH: IconCurrencyUah,
   VES: IconCurrencyVes,
   VND: IconCurrencyVnd,
