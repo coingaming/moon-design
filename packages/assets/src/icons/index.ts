@@ -108,6 +108,8 @@ export { default as IconCurrencyUah } from './IconCurrencyUah';
 export * from './IconCurrencyUah';
 export { default as IconCurrencyUsd } from './IconCurrencyUsd';
 export * from './IconCurrencyUsd';
+export { default as IconCurrencyUsdt } from './IconCurrencyUsdt';
+export * from './IconCurrencyUsdt';
 export { default as IconCurrencyVes } from './IconCurrencyVes';
 export * from './IconCurrencyVes';
 export { default as IconCurrencyVnd } from './IconCurrencyVnd';
