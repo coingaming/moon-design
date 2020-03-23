@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "docs",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "Coingaming Group",
   "license": "MIT",
@@ -30,9 +30,9 @@
     }
   },
   "dependencies": {
-    "@heathmont/sportsbet-assets": "^2.1.0",
+    "@heathmont/sportsbet-assets": "^2.1.1",
     "@heathmont/sportsbet-cdn": "1.1.0",
-    "@heathmont/sportsbet-components": "^2.1.0",
+    "@heathmont/sportsbet-components": "^2.1.1",
     "@heathmont/sportsbet-fonts": "^2.0.0",
     "@heathmont/sportsbet-global": "^2.0.0",
     "@heathmont/sportsbet-themes": "^2.0.0",
