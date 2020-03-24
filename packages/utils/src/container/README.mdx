@@ -1,0 +1,77 @@
+---
+name: container
+menu: Utils
+route: /utils/container
+---
+
+# Container
+
+```js
+import { container } from '@heathmont/sportsbet-utils';
+```
+
+Returns a given [container "key"](/themes/tokens#container) value as a `rem`-based `max-width` unit with horizontal spacing.
+
+`container()` will also accept any pixel value (as a `number`) and convert to `rem`.
+
+```jsx react-live
+() => {
+  const { border, color, maxWidth } = useTheme();
+
+  const borderColor = { borderColor: color.bulma[100] };
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <>
+      <Example css={{ ...container(maxWidth.default), border, borderColor }}>
+        "default" Container
+      </Example>
+      <Example css={{ ...container(maxWidth.large), border, borderColor }}>
+        "large" Container
+      </Example>
+      <Example css={{ ...container(300), border, borderColor }}>
+        300px Container (in REM)
+      </Example>
+    </>
+  );
+};
+```
+
+## Padding
+
+By default, containers render padding on the `x` axis with the `default` spacing
+token.
+
+This padding can be altered in the second argument, either as a `spacing` token
+key or a pixel value (as a `number`) which will be convert to `rem`
+
+```jsx react-live
+() => {
+  const { border, color, maxWidth, space } = useTheme();
+
+  const borderColor = { borderColor: color.bulma[100] };
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <>
+      <Example
+        css={{
+          ...container(maxWidth.default, space.default),
+          border,
+          borderColor,
+        }}
+      >
+        "default" Container and "large" padding
+      </Example>
+      <Example
+        css={{ ...container(maxWidth.default, 50), border, borderColor }}
+      >
+        "default" Container and 50px padding (in REM)
+      </Example>
+      <Example css={{ ...container(maxWidth.default, 0), border, borderColor }}>
+        "default" Container with no padding
+      </Example>
+    </>
+  );
+};
+```

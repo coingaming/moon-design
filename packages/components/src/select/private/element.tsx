@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { inlineSVG, mq, rem } from '@heathmont/sportsbet-utils';
+import { inlineSvg, mq, rem } from '@heathmont/sportsbet-utils';
 import { IconChevronDown } from '@heathmont/sportsbet-assets';
 import { Theme } from '@heathmont/sportsbet-themes';
 
@@ -28,7 +28,7 @@ export const SelectElement = styled(Input.withComponent('select'))<
 >(({ fullWidth, theme }) => [
   {
     color: inputColors('label')(theme),
-    backgroundImage: inlineSVG(
+    backgroundImage: inlineSvg(
       <IconChevronDown color={inputColors('icon')(theme)} />
     ),
     paddingRight: rem(selectIconOffset(theme)),

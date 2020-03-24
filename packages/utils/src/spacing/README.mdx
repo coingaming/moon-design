@@ -1,0 +1,34 @@
+---
+name: spacing
+menu: Utils
+route: /utils/spacing
+---
+
+# Spacing
+
+### ⚠️**Deprecated**: please use `rem` with space values from your theme.
+
+Returns a given [spacing token "key"](/themes/tokens#space) value as a `rem` spacing unit.
+
+Using `spacing()` is encouraged over using the tokens directly and can be reset
+as `spacing(0)`.
+
+```jsx
+() => {
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <>
+      <Example css={{ padding: spacing(), border: '1px solid white' }}>
+        Default
+      </Example>
+      <Example css={{ padding: spacing('small'), border: '1px solid white' }}>
+        Small
+      </Example>
+      <Example css={{ padding: spacing('large'), border: '1px solid white' }}>
+        Large
+      </Example>
+    </>
+  );
+};
+```

@@ -3,7 +3,7 @@ import { create } from 'react-test-renderer';
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
-import { Toggle } from '../toggle';
+import Toggle from '../Toggle';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>

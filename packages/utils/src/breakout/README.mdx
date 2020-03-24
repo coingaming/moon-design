@@ -1,0 +1,30 @@
+---
+name: breakout
+menu: Utils
+route: /utils/breakout
+---
+
+# Breakout
+
+```js
+import { breakout } from '@heathmont/sportsbet-utils';
+```
+
+Quickly jump out of any parent's constraining `maxWidth` by applying the `breakout` mixin.
+
+```jsx react-live
+() => {
+  const { color } = useTheme();
+
+  const Example = styled.div(({ css }) => css);
+
+  return (
+    <Example css={{ ...container(), background: color.piccolo[100] }}>
+      <p>Bound by the Sportsbet container</p>
+      <Example css={{ ...breakout, background: color.chiChi[100] }}>
+        <p>Breakout from the parent container</p>
+      </Example>
+    </Example>
+  );
+};
+```
