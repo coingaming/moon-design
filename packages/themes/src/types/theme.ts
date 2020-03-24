@@ -1,17 +1,17 @@
 import { Color } from './color';
-import { ColorScheme } from './color-scheme';
+import { ColorScheme } from './colorScheme';
 import { Base } from './base';
 import { Brand } from './brand';
 import { Border, BorderWidth, BorderStyle } from './border';
-import { BoxShadow } from './box-shadow';
+import { BoxShadow } from './boxShadow';
 import { Breakpoint } from './breakpoint';
 import { FontFace, FontFamily, FontSize, FontWeight } from './font';
-import { MaxWidth } from './max-width';
+import { MaxWidth } from './maxWidth';
 import { Opacity } from './opacity';
 import { Radius } from './radius';
 import { Space } from './space';
 import { TransitionDuration } from './transition';
-import { ZIndex } from './z-index';
+import { ZIndex } from './zIndex';
 
 export type Theme = {
   brand: Brand;

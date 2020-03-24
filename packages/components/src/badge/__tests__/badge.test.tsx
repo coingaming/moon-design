@@ -7,7 +7,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
 
-import { Badge } from '../badge';
+import Badge from '../Badge';
 
 describe('Badge', () => {
   test('renders correctly', () => {

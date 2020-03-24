@@ -3,7 +3,7 @@ import { ColorShared } from '../types/color';
 import { Theme } from '../types/theme';
 import { Omit } from '../types/utils';
 
-import { color } from './private/color';
+import color from './private/color';
 
 /**
  * Shared Theme Base
@@ -33,7 +33,7 @@ const base: Base = {
 const borderStyle = 'solid';
 const borderWidth = 1;
 
-export const shared: Shared = {
+const shared: Shared = {
   base,
   borderStyle,
   borderWidth,
@@ -88,3 +88,5 @@ export const shared: Shared = {
     toggle: 1,
   },
 };
+
+export default shared;
