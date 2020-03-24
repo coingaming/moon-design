@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
+
+
+### Bug Fixes
+
+* rename files ([0a38e84](https://github.com/coingaming/sportsbet-design/commit/0a38e84))
+* **switch:** rename Switch to Switcher ([2107a61](https://github.com/coingaming/sportsbet-design/commit/2107a61))
+* fix tests imports ([699a738](https://github.com/coingaming/sportsbet-design/commit/699a738))
+
+
+### Features
+
+* force build ([71ac884](https://github.com/coingaming/sportsbet-design/commit/71ac884))
+* **switch:** rename back to switch ([6d36acf](https://github.com/coingaming/sportsbet-design/commit/6d36acf))
+* stack and inline Mixins ([1faaabc](https://github.com/coingaming/sportsbet-design/commit/1faaabc))
+* **list:** flat list structure ([21a6d48](https://github.com/coingaming/sportsbet-design/commit/21a6d48))
+* **tablink:** flat structure ([92bbc9d](https://github.com/coingaming/sportsbet-design/commit/92bbc9d))
+* **utils:** flat structure for utils ([da110f2](https://github.com/coingaming/sportsbet-design/commit/da110f2))
+* add index ([3b17130](https://github.com/coingaming/sportsbet-design/commit/3b17130))
+* default exports for components ([52910eb](https://github.com/coingaming/sportsbet-design/commit/52910eb))
+* flat structure ([c70e7ef](https://github.com/coingaming/sportsbet-design/commit/c70e7ef))
+* last tree shaking ([89861b6](https://github.com/coingaming/sportsbet-design/commit/89861b6))
+* more tree shaking ([2929148](https://github.com/coingaming/sportsbet-design/commit/2929148))
+* more tree shaking ([99b8a52](https://github.com/coingaming/sportsbet-design/commit/99b8a52))
+* more tree shaking ([618f7a0](https://github.com/coingaming/sportsbet-design/commit/618f7a0))
+* tree shaking ([25f3d12](https://github.com/coingaming/sportsbet-design/commit/25f3d12))
+* tree shaking for badge and button ([bec5931](https://github.com/coingaming/sportsbet-design/commit/bec5931))
+* tree shaking for Heading and Inline ([e49d570](https://github.com/coingaming/sportsbet-design/commit/e49d570))
+
+
+
+
+
 ## [2.1.1](https://github.com/coingaming/sportsbet-design/compare/v2.1.0...v2.1.1) (2020-03-23)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
