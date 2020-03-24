@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
+
+
+### Features
+
+* **global:** capitalize Global ([02445db](https://github.com/coingaming/sportsbet-design/commit/02445db))
+* **global:** flat structure ([619959f](https://github.com/coingaming/sportsbet-design/commit/619959f))
+* **globals:** tree shaking for globals ([15cf684](https://github.com/coingaming/sportsbet-design/commit/15cf684))
+
+
+
+
+
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
