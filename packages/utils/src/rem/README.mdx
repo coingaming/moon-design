@@ -1,0 +1,17 @@
+---
+name: rem
+menu: Utils
+route: /utils/rem
+---
+
+# REM
+
+An extension of [polished's `rem` function](https://polished.js.org/docs/#rem),
+returning a given string or number value as a `rem` unit based on **our
+[`base.fontSize` token](/themes/tokens#base)**.
+
+For example `rem(14)` or `rem('14px')` will return the following:
+
+```jsx react-live
+<p>{rem(14)}</p>
+```
