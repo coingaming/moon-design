@@ -3,7 +3,7 @@ import { create } from 'react-test-renderer';
 import 'jest-styled-components';
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 
-import { Stack } from '../stack';
+import Stack from '../Stack';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>

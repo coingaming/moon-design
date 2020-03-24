@@ -1,0 +1,43 @@
+---
+name: focus
+menu: Utils
+route: /utils/focus
+---
+
+# focus
+
+```js
+import { focus } from '@heathmont/sportsbet-utils';
+```
+
+Override browser-default `:focus` styles to the preferred appearance.
+
+```jsx react-live
+() => {
+  const ButtonExample = styled.button(({ css }) => css);
+  const { color } = useTheme();
+
+  return (
+    <>
+      <ButtonExample css={{ ...focus(color.piccolo[100]) }}>
+        Focus on to me
+      </ButtonExample>
+      <ButtonExample css={{ ...focus('rebeccapurple') }}>
+        Focus on to me
+      </ButtonExample>
+    </>
+  );
+};
+```
+
+If you just want to remove the browser default styles and create your own, you
+can make use of `focusReset`. It is **strongly** advised not to use this without
+alternative `:focus` styles.
+
+```jsx react-live
+() => {
+  const ButtonExample = styled.button(({ css }) => css);
+
+  return <ButtonExample css={{ ...focusReset }}>No focus styles</ButtonExample>;
+};
+```

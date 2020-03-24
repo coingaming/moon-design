@@ -1,0 +1,37 @@
+---
+name: disabled
+menu: Utils
+route: /utils/disabled
+---
+
+# Disabled
+
+```js
+import { disabled } from '@heathmont/sportsbet-utils';
+```
+
+Apply common disabled styles to UI elements such as buttons and forms.
+
+`disabled()` will also accept any CSS (as an object) and return it inside disabled selectors.
+
+```jsx react-live
+() => {
+  const { color } = useTheme();
+
+  const ButtonExample = styled.button(({ css }) => css);
+
+  return (
+    <>
+      <ButtonExample disabled css={{ ...disabled() }}>
+        Submit
+      </ButtonExample>
+      <ButtonExample
+        disabled
+        css={{ ...disabled(0.5, { color: color.bulma[100] }) }}
+      >
+        Submit
+      </ButtonExample>
+    </>
+  );
+};
+```
