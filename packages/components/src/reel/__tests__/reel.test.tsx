@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
-
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 
-import { Reel } from '../reel';
+import Reel from '../Reel';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
