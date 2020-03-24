@@ -8,7 +8,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
 
-import { Card } from '../card';
+import Card from '../Card';
 
 describe('Card', () => {
   test('renders with flex layout', () => {

@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
 import 'jest-styled-components';
 
-import { Dialog } from '../dialog';
+import Dialog from '../Dialog';
 
 const Global = createGlobalStyle({ '&:root': { '--reach-dialog': 1 } });
 

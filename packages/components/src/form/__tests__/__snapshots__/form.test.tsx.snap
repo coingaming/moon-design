@@ -364,13 +364,6 @@ exports[`Form renders correctly 1`] = `
   content: "\\200B";
 }
 
-.c4 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
 .c1 {
   border: 0;
 }
@@ -392,6 +385,13 @@ exports[`Form renders correctly 1`] = `
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
 }
 
 @supports (grid-gap:0) {
@@ -494,13 +494,6 @@ exports[`Form renders with HTML form attributes 1`] = `
   content: "\\200B";
 }
 
-.c4 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
 .c1 {
   border: 0;
 }
@@ -522,6 +515,13 @@ exports[`Form renders with HTML form attributes 1`] = `
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
 }
 
 @supports (grid-gap:0) {
@@ -626,13 +626,6 @@ exports[`Form renders with custom fullWidth 1`] = `
   content: "\\200B";
 }
 
-.c4 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
 .c1 {
   border: 0;
 }
@@ -654,6 +647,13 @@ exports[`Form renders with custom fullWidth 1`] = `
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
 }
 
 @supports (grid-gap:0) {
@@ -756,13 +756,6 @@ exports[`Form renders with custom maxWidth 1`] = `
   content: "\\200B";
 }
 
-.c4 {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-  color: #FF4E64;
-}
-
 .c1 {
   border: 0;
 }
@@ -785,6 +778,13 @@ exports[`Form renders with custom maxWidth 1`] = `
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
 }
 
 @supports (grid-gap:0) {
