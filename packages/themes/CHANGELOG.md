@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
+
+
+### Features
+
+* theme restructure ([55bd7a5](https://github.com/coingaming/sportsbet-design/commit/55bd7a5))
+* tree shaking ([25f3d12](https://github.com/coingaming/sportsbet-design/commit/25f3d12))
+
+
+
+
+
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-themes
