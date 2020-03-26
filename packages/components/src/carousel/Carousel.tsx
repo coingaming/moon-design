@@ -25,7 +25,7 @@ const currentScrollingSpec = `@supports (scroll-snap-align: start)`;
 const CarouselWrapper = styled.div<any>({
   position: 'relative',
   width: '100%',
-  overflowX: 'auto',
+  // overflowX: 'auto',
 });
 
 /**
@@ -63,23 +63,27 @@ const CarouselScrollItem = styled.li<any>({
 
 const DefaultScrollToLeftButton = ({
   scrollLeftCaption = 'Scroll Left',
+  disabled = false,
   ...rest
-}) => (
-  <CarouselControl {...rest}>
-    <CarouselControlCaption>{scrollLeftCaption}</CarouselControlCaption>
-    <IconChevronLeft />
-  </CarouselControl>
-);
+}) =>
+  disabled ? null : (
+    <CarouselControl {...rest}>
+      <CarouselControlCaption>{scrollLeftCaption}</CarouselControlCaption>
+      <IconChevronLeft />
+    </CarouselControl>
+  );
 
 const DefaultScrollToRightButton = ({
   scrollRightCaption = 'Scroll Right',
+  disabled = false,
   ...rest
-}) => (
-  <CarouselControl {...rest}>
-    <CarouselControlCaption>{scrollRightCaption}</CarouselControlCaption>
-    <IconChevronLeft />
-  </CarouselControl>
-);
+}) =>
+  disabled ? null : (
+    <CarouselControl {...rest}>
+      <CarouselControlCaption>{scrollRightCaption}</CarouselControlCaption>
+      <IconChevronLeft />
+    </CarouselControl>
+  );
 
 type CarouselProps = {
   items: any[];
