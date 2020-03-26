@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/coingaming/sportsbet-design/compare/v2.2.0...v2.2.1) (2020-03-26)
+
+
+### Bug Fixes
+
+* **carousel:** align with design changes ([c381f91](https://github.com/coingaming/sportsbet-design/commit/c381f91))
+
+
+
+
+
 # [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
 
 
