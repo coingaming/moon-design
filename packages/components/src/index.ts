@@ -76,6 +76,8 @@ export { default as Reel } from './reel/Reel';
 export * from './reel/Reel';
 export { default as Select } from './select/Select';
 export * from './select/Select';
+export { default as Snackbar } from './snackbar/Snackbar';
+export * from './snackbar/Snackbar';
 export { default as Stack } from './stack/Stack';
 export * from './stack/Stack';
 export { default as stackMixin } from './stackMixin/stackMixin';
