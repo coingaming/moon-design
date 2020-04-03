@@ -3,7 +3,7 @@ import { rem, mq } from '@heathmont/sportsbet-utils';
 import styled from 'styled-components';
 
 type SnackbarProps = {
-  message: string;
+  message: any;
   action?: any;
   autoHideDuration?: number; // ms
   isFixed?: boolean;
@@ -19,8 +19,6 @@ const SnackbarWrapper = styled.div<any>(
       position: 'fixed',
       left: 0,
       bottom: 0,
-      // left: rem(20),
-      // bottom: rem(20),
       zIndex: zIndex.dialog,
       margin: space.default,
     },
