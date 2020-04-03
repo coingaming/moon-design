@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://github.com/coingaming/sportsbet-design/compare/v2.3.0...v2.3.1) (2020-04-03)
+
+
+### Bug Fixes
+
+* update ts for snackbar ([c68d3ff](https://github.com/coingaming/sportsbet-design/commit/c68d3ff))
+
+
+
+
+
 # [2.3.0](https://github.com/coingaming/sportsbet-design/compare/v2.2.1...v2.3.0) (2020-03-31)
 
 
