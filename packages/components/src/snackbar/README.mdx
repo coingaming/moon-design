@@ -62,6 +62,35 @@ Use `autoHideDuration` if you want the Snackbar to automatically disappear from 
 />
 ```
 
+Use `isOpen` if you want to manually control appearing and disappearing.
+
+```jsx react-live
+<Snackbar
+  isOpen={false}
+  isFixed={false}
+  message={
+    <p>This item already have the label "Sport". You could add a new label.</p>
+  }
+  action={<Link href="#">Add</Link>}
+/>
+```
+
+Use `onDismiss` if you want to manually control appearing and disappearing.
+
+```jsx react-live
+<Snackbar
+  onDismiss={() => {
+    console.log('Snackbar was dismissed.');
+  }}
+  autoHideDuration={6000}
+  isFixed={false}
+  message={
+    <p>This item already have the label "Sport". You could add a new label.</p>
+  }
+  action={<Link href="#">Add</Link>}
+/>
+```
+
 ## Placement
 
 At the bottom of the UI
