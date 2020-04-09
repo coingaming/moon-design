@@ -4,9 +4,11 @@ import styled from 'styled-components';
 
 type SnackbarProps = {
   message: any;
+  isOpen?: boolean;
   action?: any;
   autoHideDuration?: number; // ms
   isFixed?: boolean;
+  onDismiss?: any;
 };
 
 const SnackbarWrapper = styled.div<any>(
@@ -55,10 +57,18 @@ const Snackbar: React.FC<SnackbarProps> = ({
   action,
   autoHideDuration,
   isFixed,
+  onDismiss,
+  isOpen = true,
 }) => {
-  const [visible, setVisible] = React.useState(true);
+  const [visible, setVisible] = React.useState(isOpen);
 
-  autoHideDuration && setTimeout(() => setVisible(false), autoHideDuration);
+  autoHideDuration &&
+    setTimeout(() => {
+      if (onDismiss && typeof onDismiss === 'function') {
+        onDismiss();
+      }
+      setVisible(false);
+    }, autoHideDuration);
 
   return visible ? (
     <SnackbarWrapper isActionExist={!!action} isFixed={isFixed}>
