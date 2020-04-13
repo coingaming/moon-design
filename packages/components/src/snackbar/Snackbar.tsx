@@ -62,6 +62,10 @@ const Snackbar: React.FC<SnackbarProps> = ({
 }) => {
   const [visible, setVisible] = React.useState(isOpen);
 
+  if (!visible) {
+    return null;
+  }
+
   autoHideDuration &&
     setTimeout(() => {
       if (onDismiss && typeof onDismiss === 'function') {
@@ -70,12 +74,12 @@ const Snackbar: React.FC<SnackbarProps> = ({
       setVisible(false);
     }, autoHideDuration);
 
-  return visible ? (
+  return (
     <SnackbarWrapper isActionExist={!!action} isFixed={isFixed}>
       {message && message}
       {action && action}
     </SnackbarWrapper>
-  ) : null;
+  );
 };
 
 export { SnackbarProps };
