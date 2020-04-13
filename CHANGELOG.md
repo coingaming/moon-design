@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.5.0](https://github.com/coingaming/sportsbet-design/compare/v2.4.1...v2.5.0) (2020-04-13)
+
+
+### Features
+
+* color fixes ([9513c86](https://github.com/coingaming/sportsbet-design/commit/9513c86))
+* SPO-5861 added icons for account menu ([7decfa6](https://github.com/coingaming/sportsbet-design/commit/7decfa6))
+
+
+
+
+
 ## [2.4.1](https://github.com/coingaming/sportsbet-design/compare/v2.4.0...v2.4.1) (2020-04-13)
 
 
