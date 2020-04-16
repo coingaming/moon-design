@@ -1,5 +1,9 @@
 import * as React from 'react';
-import { IconError, IconClose, IconWarning } from '@heathmont/sportsbet-assets';
+import {
+  IconError,
+  IconCloseSmall,
+  IconWarning,
+} from '@heathmont/sportsbet-assets';
 import { rem, mq } from '@heathmont/sportsbet-utils';
 import styled from 'styled-components';
 
@@ -51,7 +55,7 @@ const BannerWrapper = styled.div<any>(
             marginLeft: space.default,
           },
         }
-      : { justifyContent: 'center' },
+      : { justifyContent: 'left' },
   ]
 );
 
@@ -108,7 +112,7 @@ const Banner: React.FC<BannerProps> = ({
             setVisible(false);
           }}
         >
-          <IconClose fontSize="1rem" color="trunks.100" />
+          <IconCloseSmall fontSize="1rem" color="trunks.100" />
         </IconCloseWrapper>
       )}
     </BannerWrapper>
