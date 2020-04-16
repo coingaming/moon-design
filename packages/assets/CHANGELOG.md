@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/coingaming/sportsbet-design/compare/v2.5.0...v2.6.0) (2020-04-16)
+
+
+### Bug Fixes
+
+* closeable ([249f958](https://github.com/coingaming/sportsbet-design/commit/249f958))
+
+
+### Features
+
+* **banner:** introduce banner ([3376289](https://github.com/coingaming/sportsbet-design/commit/3376289))
+* **iconclose:** change size ([4d4d3fb](https://github.com/coingaming/sportsbet-design/commit/4d4d3fb))
+
+
+
+
+
 # [2.5.0](https://github.com/coingaming/sportsbet-design/compare/v2.4.1...v2.5.0) (2020-04-13)
 
 
