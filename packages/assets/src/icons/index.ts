@@ -126,6 +126,8 @@ export { default as IconDuotoneMail } from './IconDuotoneMail';
 export * from './IconDuotoneMail';
 export { default as IconEdit } from './IconEdit';
 export * from './IconEdit';
+export { default as IconError } from './IconError';
+export * from './IconError';
 export { default as IconFacebook } from './IconFacebook';
 export * from './IconFacebook';
 export { default as IconFilter } from './IconFilter';

@@ -1,0 +1,86 @@
+---
+name: Banner
+menu: Components
+route: /components/banner
+---
+
+import { Banner, Link } from '@heathmont/sportsbet-components';
+
+# Banner
+
+Banner provide brief messages about app processes.
+
+#### Usage
+
+Banner inform users of a process that an app has performed or will perform. They require user input to disappear.
+
+```jsx react-live
+<Banner
+  isFixed={false}
+  status="error"
+  message={<p>Error message or notification</p>}
+  action={<Link href="#">Add</Link>}
+/>
+```
+
+## Status
+
+```jsx react-live
+<Banner
+  status="error"
+  message={<p>Error message or notification</p>}
+  action={<Link href="#">Add</Link>}
+/>
+```
+
+```jsx react-live
+<Banner
+  status="warning"
+  message={<p>Error message or notification</p>}
+  action={<Link href="#">Add</Link>}
+/>
+```
+
+## Appearing and disappearing
+
+Banners appear without warning, and require user interaction.
+
+Use `isOpen` if you want to manually control appearing and disappearing.
+
+```jsx react-live
+<Banner
+  isOpen={false}
+  status="warning"
+  message={<p>Error message or notification</p>}
+  action={<Link href="#">Add</Link>}
+/>
+```
+
+Use `onDismiss` if you want to invoke a callback after disappearing.
+
+```jsx react-live
+<Banner
+  onDismiss={() => {
+    console.log('Banner was dismissed.');
+  }}
+  status="warning"
+  message={<p>Error message or notification</p>}
+  action={<Link href="#">Add</Link>}
+/>
+```
+
+## Placement
+
+Avoid placing a banner in front of frequently used touch targets or navigation.
+
+By default it has fixed position with same z-index as Dialog.
+
+If you want to disable isFixed
+
+```jsx react-live
+<Banner
+  position="bottom"
+  status="warning"
+  message={<p>Error message or notification</p>}
+/>
+```
