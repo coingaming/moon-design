@@ -1,0 +1,85 @@
+---
+name: Banner
+menu: Components
+route: /components/banner
+---
+
+import { Banner, Link } from '@heathmont/sportsbet-components';
+
+# Banner
+
+Banner provide brief messages about app processes.
+
+#### Usage
+
+Banner inform users of a process that an app has performed or will perform. They require user input to disappear.
+
+```jsx react-live
+<Banner
+  isFixed={false}
+  status="error"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+## Status
+
+```jsx react-live
+<Banner status="error" message={<p>Error message or notification</p>} />
+```
+
+```jsx react-live
+<Banner status="warning" message={<p>Error message or notification</p>} />
+```
+
+## isCloseable
+
+```jsx react-live
+<Banner
+  isCloseable={false}
+  status="warning"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+## Appearing and disappearing
+
+Banners appear without warning, and require user interaction.
+
+Use `isOpen` if you want to manually control appearing and disappearing.
+
+```jsx react-live
+<Banner
+  isOpen={false}
+  status="warning"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+Use `onDismiss` if you want to invoke a callback after disappearing.
+
+```jsx react-live
+<Banner
+  onDismiss={() => {
+    console.log('Banner was dismissed.');
+  }}
+  status="warning"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+## Placement
+
+Avoid placing a banner in front of frequently used touch targets or navigation.
+
+If you want to get fixed position with same z-index as Dialog.
+
+Use `position`. For now we support only "bottom" as a value.
+
+```jsx react-live
+<Banner
+  position="bottom"
+  status="warning"
+  message={<p>Error message or notification</p>}
+/>
+```
