@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/coingaming/sportsbet-design/compare/v2.5.0...v2.6.0) (2020-04-16)
+
+
+### Bug Fixes
+
+* banner docs ([4981724](https://github.com/coingaming/sportsbet-design/commit/4981724))
+* closeable ([249f958](https://github.com/coingaming/sportsbet-design/commit/249f958))
+* krillin.80 -> krillin.100 ([e206c46](https://github.com/coingaming/sportsbet-design/commit/e206c46))
+
+
+### Features
+
+* **banner:** introduce banner ([3376289](https://github.com/coingaming/sportsbet-design/commit/3376289))
+* **iconclose:** change size ([4d4d3fb](https://github.com/coingaming/sportsbet-design/commit/4d4d3fb))
+
+
+
+
+
 # [2.5.0](https://github.com/coingaming/sportsbet-design/compare/v2.4.1...v2.5.0) (2020-04-13)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
