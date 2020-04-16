@@ -64,6 +64,8 @@ export { default as IconCircle } from './icons/IconCircle';
 export * from './icons/IconCircle';
 export { default as IconClose } from './icons/IconClose';
 export * from './icons/IconClose';
+export { default as IconCloseSmall } from './icons/IconCloseSmall';
+export * from './icons/IconCloseSmall';
 export { default as IconCurrencyArs } from './icons/IconCurrencyArs';
 export * from './icons/IconCurrencyArs';
 export { default as IconCurrencyBdt } from './icons/IconCurrencyBdt';

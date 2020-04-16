@@ -48,6 +48,8 @@ export { default as IconCircle } from './IconCircle';
 export * from './IconCircle';
 export { default as IconClose } from './IconClose';
 export * from './IconClose';
+export { default as IconCloseSmall } from './IconCloseSmall';
+export * from './IconCloseSmall';
 export { default as IconCurrencyArs } from './IconCurrencyArs';
 export * from './IconCurrencyArs';
 export { default as IconCurrencyBdt } from './IconCurrencyBdt';
