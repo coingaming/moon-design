@@ -19,25 +19,26 @@ Banner inform users of a process that an app has performed or will perform. They
   isFixed={false}
   status="error"
   message={<p>Error message or notification</p>}
-  action={<Link href="#">Add</Link>}
 />
 ```
 
 ## Status
 
 ```jsx react-live
-<Banner
-  status="error"
-  message={<p>Error message or notification</p>}
-  action={<Link href="#">Add</Link>}
-/>
+<Banner status="error" message={<p>Error message or notification</p>} />
 ```
 
 ```jsx react-live
+<Banner status="warning" message={<p>Error message or notification</p>} />
+```
+
+## isCloseable
+
+```jsx react-live
 <Banner
+  isCloseable={false}
   status="warning"
   message={<p>Error message or notification</p>}
-  action={<Link href="#">Add</Link>}
 />
 ```
 
@@ -52,7 +53,6 @@ Use `isOpen` if you want to manually control appearing and disappearing.
   isOpen={false}
   status="warning"
   message={<p>Error message or notification</p>}
-  action={<Link href="#">Add</Link>}
 />
 ```
 
@@ -65,7 +65,6 @@ Use `onDismiss` if you want to invoke a callback after disappearing.
   }}
   status="warning"
   message={<p>Error message or notification</p>}
-  action={<Link href="#">Add</Link>}
 />
 ```
 
