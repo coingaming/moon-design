@@ -142,6 +142,8 @@ export { default as IconDuotoneMail } from './icons/IconDuotoneMail';
 export * from './icons/IconDuotoneMail';
 export { default as IconEdit } from './icons/IconEdit';
 export * from './icons/IconEdit';
+export { default as IconError } from './icons/IconError';
+export * from './icons/IconError';
 export { default as IconFacebook } from './icons/IconFacebook';
 export * from './icons/IconFacebook';
 export { default as IconFilter } from './icons/IconFilter';
