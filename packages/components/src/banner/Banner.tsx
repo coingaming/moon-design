@@ -59,10 +59,18 @@ const IconWrapper = styled.div({
   marginRight: rem(8),
 });
 
-const IconCloseWrapper = styled.div({
+const IconCloseWrapper = styled.div(({ theme }) => ({
+  backgroundColor: theme.color.goku[100],
+  borderRadius: theme.radius.largest,
   marginLeft: rem(20),
   cursor: 'pointer',
-});
+  width: rem(24),
+  height: rem(24),
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+}));
 
 const Banner: React.FC<BannerProps> = ({
   message,
@@ -100,11 +108,7 @@ const Banner: React.FC<BannerProps> = ({
             setVisible(false);
           }}
         >
-          <IconClose
-            fontSize="1.5rem"
-            color="trunks.100"
-            backgroundColor="goku.100"
-          />
+          <IconClose fontSize="1rem" color="trunks.100" />
         </IconCloseWrapper>
       )}
     </BannerWrapper>
