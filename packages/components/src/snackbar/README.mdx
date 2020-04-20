@@ -8,24 +8,23 @@ import { Snackbar, Link } from '@heathmont/sportsbet-components';
 
 # Snackbar
 
-Snackbars provide brief messages about app processes at the bottom of the screen.
+Short, time-based messages that slide in and out of a page.
+
+**Snackbar can overlap content.**
+
+Figma link: https://www.figma.com/file/S3q1SkVngbwHuwpxHKCsgtJj/Global?node-id=15490%3A252
 
 #### Usage
 
-Snackbars inform users of a process that an app has performed or will perform. They appear temporarily, towards the bottom of the screen. They shouldn’t interrupt the user experience, and they don’t require user input to disappear.
+Snackbar is used to give user feedback on the action or communicate changes in the system.
+
+#### Interaction
+
+Disappear automatically or can be dismissed by user.
 
 #### Frequency
 
 **Only one** snackbar may be displayed at a time.
-
-```jsx react-live
-<Snackbar
-  isFixed={false}
-  message={
-    <p>This item already have the label "Sport". You could add a new label.</p>
-  }
-/>
-```
 
 ## Actions
 
@@ -35,12 +34,39 @@ A snackbar can contain a single action. Because they disappear automatically, th
 
 ```jsx react-live
 <Snackbar
-  isFixed={false}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
   action={<Link href="#">Add</Link>}
 />
+```
+
+## Status
+
+Snackbar can't have both Icon and Action at the same time.
+
+#### Error
+
+```jsx react-live
+<Snackbar status="error" message={<p>Error message or notification</p>} />
+```
+
+#### Warning
+
+```jsx react-live
+<Snackbar status="warning" message={<p>Error message or notification</p>} />
+```
+
+#### Info
+
+```jsx react-live
+<Snackbar status="info" message={<p>Error message or notification</p>} />
+```
+
+#### Success
+
+```jsx react-live
+<Snackbar status="success" message={<p>Error message or notification</p>} />
 ```
 
 ## Appearing and disappearing
@@ -53,7 +79,6 @@ Use `autoHideDuration` if you want the Snackbar to automatically disappear from 
 
 ```jsx react-live
 <Snackbar
-  isFixed={false}
   autoHideDuration={6000}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
@@ -67,7 +92,6 @@ Use `isOpen` if you want to manually control appearing and disappearing.
 ```jsx react-live
 <Snackbar
   isOpen={false}
-  isFixed={false}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -75,15 +99,14 @@ Use `isOpen` if you want to manually control appearing and disappearing.
 />
 ```
 
-Use `onDismiss` if you want to manually control appearing and disappearing.
+Use `onClose` if you want to manually control appearing and disappearing.
 
 ```jsx react-live
 <Snackbar
-  onDismiss={() => {
+  onClose={() => {
     console.log('Snackbar was dismissed.');
   }}
   autoHideDuration={6000}
-  isFixed={false}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -103,9 +126,17 @@ If you want to disable isFixed
 
 ```jsx react-live
 <Snackbar
-  message={
-    <p>This item already have the label "Sport". You could add a new label.</p>
-  }
-  action={<Link href="#">Add</Link>}
+  position="bottom"
+  status="success"
+  message={<p>Deposit was successfull.</p>}
+/>
+```
+
+```jsx react-live
+<Snackbar
+  position="top"
+  status="success"
+  autoHideDuration={3000}
+  message={<p>Deposit was successfull.</p>}
 />
 ```
