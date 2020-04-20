@@ -10,10 +10,8 @@ import styled from 'styled-components';
 
 type BannerProps = {
   message: any;
-  isOpen?: boolean;
-  action?: any;
-  onDismiss?: any;
   status: 'error' | 'warning' | 'info';
+  onClose?: any;
   isCloseable?: boolean;
 };
 
@@ -56,12 +54,13 @@ const IconCloseWrapper = styled.div(({ theme }) => ({
 
 const Banner: React.FC<BannerProps> = ({
   message,
-  onDismiss,
-  isOpen = true,
+  onClose,
   status,
   isCloseable = false,
 }) => {
-  const [visible, setVisible] = React.useState(isOpen);
+  const [visible, setVisible] = React.useState(true);
+
+  const closeBanner = () => setVisible(false);
 
   if (!visible) {
     return null;
@@ -88,10 +87,10 @@ const Banner: React.FC<BannerProps> = ({
       {isCloseable && (
         <IconCloseWrapper
           onClick={() => {
-            if (onDismiss && typeof onDismiss === 'function') {
-              onDismiss();
+            if (onClose && typeof onClose === 'function') {
+              onClose();
             }
-            setVisible(false);
+            closeBanner();
           }}
         >
           <IconCloseSmall fontSize="1rem" color="trunks.100" />
