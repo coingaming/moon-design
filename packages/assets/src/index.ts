@@ -40,6 +40,8 @@ export { default as IconAsianView } from './icons/IconAsianView';
 export * from './icons/IconAsianView';
 export { default as IconAward } from './icons/IconAward';
 export * from './icons/IconAward';
+export { default as IconBannerInfo } from './icons/IconBannerInfo';
+export * from './icons/IconBannerInfo';
 export { default as IconBitcoinTalk } from './icons/IconBitcoinTalk';
 export * from './icons/IconBitcoinTalk';
 export { default as IconBombayClub } from './icons/IconBombayClub';
