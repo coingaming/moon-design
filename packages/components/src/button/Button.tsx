@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled, { css, keyframes } from 'styled-components';
 import { disabled, rem } from '@heathmont/sportsbet-utils';
-import { IconSuccess, IconWarning } from '@heathmont/sportsbet-assets';
+import { IconSuccess } from '@heathmont/sportsbet-assets';
 import { useTheme } from '@heathmont/sportsbet-themes';
 
 import Loader from '../loader/Loader';
@@ -154,23 +154,6 @@ const Button: React.FC<ButtonProps> = ({
           }}
         >
           <IconSuccess />
-        </div>
-      </div>
-    );
-  }
-  if (oops) {
-    content = (
-      <div css={{ position: 'relative' }}>
-        <div css={{ visibility: 'hidden' }}>{children}</div>
-        <div
-          css={{
-            position: 'absolute',
-            left: `calc(50% - ${rem(space.small)})`,
-            top: 0,
-            height: rem(space.default),
-          }}
-        >
-          <IconWarning />
         </div>
       </div>
     );
