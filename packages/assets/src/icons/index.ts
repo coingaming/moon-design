@@ -204,6 +204,8 @@ export { default as IconSettings } from './IconSettings';
 export * from './IconSettings';
 export { default as IconSlots } from './IconSlots';
 export * from './IconSlots';
+export { default as IconSnackbarSuccess } from './IconSnackbarSuccess';
+export * from './IconSnackbarSuccess';
 export { default as IconSportWidget } from './IconSportWidget';
 export * from './IconSportWidget';
 export {
