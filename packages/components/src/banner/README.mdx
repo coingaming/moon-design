@@ -48,18 +48,6 @@ Persist until dismissed by the user and may include a button or link.
 
 ## Appearing and disappearing
 
-Use `isOpen` if you want to manually control appearing and disappearing.
-
-```jsx react-live
-<Banner
-  isOpen={false}
-  status="warning"
-  message={<p>Error message or notification</p>}
-/>
-```
-
-#### isCloseable
-
 Banners appear without warning, and require user interaction.
 Use `isCloseable` prop to enable _close_ button.
 
@@ -71,12 +59,12 @@ Use `isCloseable` prop to enable _close_ button.
 />
 ```
 
-Use `onDismiss` if you want to invoke a callback after disappearing.
+Use `onClose` if you want to invoke a callback after disappearing.
 
 ```jsx react-live
 <Banner
   isCloseable={true}
-  onDismiss={() => {
+  onClose={() => {
     console.log('Banner was dismissed.');
   }}
   status="warning"
