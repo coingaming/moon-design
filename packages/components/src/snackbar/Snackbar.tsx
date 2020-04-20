@@ -12,7 +12,7 @@ type SnackbarProps = {
   message: any;
   alwaysVisible?: boolean;
   action?: any;
-  autoHideDuration?: number; // ms
+  timeout?: number; // ms
   position?: 'bottom' | 'top' | 'inline';
   status?: 'error' | 'warning' | 'info' | 'success';
   onClose?: any;
@@ -68,7 +68,7 @@ const IconWrapper = styled.div({
 const Snackbar: React.FC<SnackbarProps> = ({
   message,
   action,
-  autoHideDuration = 6000,
+  timeout = 6000,
   position = 'bottom',
   onClose,
   status,
@@ -86,7 +86,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
         onClose();
       }
       setVisible(false);
-    }, autoHideDuration);
+    }, timeout);
 
   return (
     <SnackbarWrapper position={position}>

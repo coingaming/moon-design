@@ -95,14 +95,14 @@ Snackbar can't have both Icon and Action at the same time.
 
 Snackbars appear without warning, and don't require user interaction.
 
-Use `autoHideDuration` if you want the Snackbar to automatically disappear from the screen after a minimum of four seconds, and a maximum of ten seconds.
+Use `timeout` if you want the Snackbar to automatically disappear from the screen after a minimum of four seconds, and a maximum of ten seconds.
 
-`autoHideDuration={6000}`
+`timeout={6000}`
 
 ```jsx react-live
 <Snackbar
   position="inline"
-  autoHideDuration={6000}
+  timeout={6000}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -131,7 +131,7 @@ Use `onClose` if you want to manually control appearing and disappearing.
   onClose={() => {
     console.log('Snackbar was dismissed.');
   }}
-  autoHideDuration={6000}
+  timeout={6000}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -162,8 +162,7 @@ If you want to disable isFixed
 <Snackbar
   position="top"
   status="success"
-  alwaysVisible={true}
-  autoHideDuration={6000}
+  timeout={6000}
   message={<p>Deposit was successfull.</p>}
 />
 ```
