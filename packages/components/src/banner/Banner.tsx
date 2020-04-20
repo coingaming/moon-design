@@ -3,61 +3,39 @@ import {
   IconError,
   IconCloseSmall,
   IconWarning,
+  IconBannerInfo,
 } from '@heathmont/sportsbet-assets';
-import { rem, mq } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/sportsbet-utils';
 import styled from 'styled-components';
 
 type BannerProps = {
   message: any;
   isOpen?: boolean;
   action?: any;
-  autoHideDuration?: number; // ms
   onDismiss?: any;
-  status: 'error' | 'warning';
-  position: 'bottom';
+  status: 'error' | 'warning' | 'info';
   isCloseable?: boolean;
 };
 
-const BannerWrapper = styled.div<any>(
-  ({
-    theme: { color, space, zIndex, breakpoint },
-    isCloseable,
-    position = true,
-  }) => [
-    position === 'bottom' && {
-      position: 'fixed',
-      left: 0,
-      bottom: 0,
-      zIndex: zIndex.dialog,
-      margin: space.default,
-    },
-    {
-      minWidth: rem(280),
-      width: `calc(100% - ${space.default * 2})`,
-      [mq(breakpoint.medium)]: {
-        width: 'fit-content',
-      },
-      padding: `${space.default}px ${rem(12)}`,
-      backgroundColor: color.hit[100],
-      borderRadius: rem(12),
-      display: 'flex',
-      flexDirection: 'row',
-      alignItems: 'center',
-      'P,  SPAN': {
-        fontSize: rem(14),
-        lineHeight: rem(20),
-      },
-    },
-    isCloseable
-      ? {
-          justifyContent: 'space-between',
-          '& > * + *': {
-            marginLeft: space.default,
-          },
-        }
-      : { justifyContent: 'left' },
-  ]
-);
+const BannerWrapper = styled.div<any>(({ theme: { color, space } }) => ({
+  minWidth: rem(280),
+  width: '100%',
+  padding: `${space.default}px ${rem(12)}`,
+  backgroundColor: color.hit[100],
+  borderRadius: rem(12),
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'left',
+  '& > * + *': {
+    marginLeft: rem(12),
+  },
+  alignItems: 'center',
+  'P,  SPAN': {
+    fontSize: rem(14),
+    lineHeight: rem(20),
+    margin: 0,
+  },
+}));
 
 const IconWrapper = styled.div({
   marginRight: rem(8),
@@ -66,7 +44,7 @@ const IconWrapper = styled.div({
 const IconCloseWrapper = styled.div(({ theme }) => ({
   backgroundColor: theme.color.goku[100],
   borderRadius: theme.radius.largest,
-  marginLeft: rem(20),
+  marginLeft: 'auto',
   cursor: 'pointer',
   width: rem(24),
   height: rem(24),
@@ -81,8 +59,7 @@ const Banner: React.FC<BannerProps> = ({
   onDismiss,
   isOpen = true,
   status,
-  isCloseable = true,
-  position,
+  isCloseable = false,
 }) => {
   const [visible, setVisible] = React.useState(isOpen);
 
@@ -91,7 +68,7 @@ const Banner: React.FC<BannerProps> = ({
   }
 
   return (
-    <BannerWrapper position={position}>
+    <BannerWrapper>
       {status === 'error' && (
         <IconWrapper>
           <IconError fontSize="1.5rem" />
@@ -100,6 +77,11 @@ const Banner: React.FC<BannerProps> = ({
       {status === 'warning' && (
         <IconWrapper>
           <IconWarning fontSize="1.5rem" color="krillin.100" />
+        </IconWrapper>
+      )}
+      {status === 'info' && (
+        <IconWrapper>
+          <IconBannerInfo fontSize="1.5rem" color="krillin.100" />
         </IconWrapper>
       )}
       {message && message}
