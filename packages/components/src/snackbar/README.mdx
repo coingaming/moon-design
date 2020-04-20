@@ -34,9 +34,11 @@ A snackbar can contain a single action. Because they disappear automatically, th
 
 ```jsx react-live
 <Snackbar
+  alwaysVisible={true}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
+  position="inline"
   action={<Link href="#">Add</Link>}
 />
 ```
@@ -48,25 +50,45 @@ Snackbar can't have both Icon and Action at the same time.
 #### Error
 
 ```jsx react-live
-<Snackbar status="error" message={<p>Error message or notification</p>} />
+<Snackbar
+  alwaysVisible={true}
+  position="inline"
+  status="error"
+  message={<p>Error message or notification</p>}
+/>
 ```
 
 #### Warning
 
 ```jsx react-live
-<Snackbar status="warning" message={<p>Error message or notification</p>} />
+<Snackbar
+  alwaysVisible={true}
+  position="inline"
+  status="warning"
+  message={<p>Error message or notification</p>}
+/>
 ```
 
 #### Info
 
 ```jsx react-live
-<Snackbar status="info" message={<p>Error message or notification</p>} />
+<Snackbar
+  alwaysVisible={true}
+  position="inline"
+  status="info"
+  message={<p>Error message or notification</p>}
+/>
 ```
 
 #### Success
 
 ```jsx react-live
-<Snackbar status="success" message={<p>Error message or notification</p>} />
+<Snackbar
+  alwaysVisible={true}
+  position="inline"
+  status="success"
+  message={<p>Error message or notification</p>}
+/>
 ```
 
 ## Appearing and disappearing
@@ -79,6 +101,7 @@ Use `autoHideDuration` if you want the Snackbar to automatically disappear from 
 
 ```jsx react-live
 <Snackbar
+  position="inline"
   autoHideDuration={6000}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
@@ -91,7 +114,8 @@ Use `isOpen` if you want to manually control appearing and disappearing.
 
 ```jsx react-live
 <Snackbar
-  isOpen={false}
+  alwaysVisible={true}
+  position="inline"
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -103,6 +127,7 @@ Use `onClose` if you want to manually control appearing and disappearing.
 
 ```jsx react-live
 <Snackbar
+  position="inline"
   onClose={() => {
     console.log('Snackbar was dismissed.');
   }}
@@ -128,6 +153,7 @@ If you want to disable isFixed
 <Snackbar
   position="bottom"
   status="success"
+  alwaysVisible={true}
   message={<p>Deposit was successfull.</p>}
 />
 ```
@@ -136,7 +162,8 @@ If you want to disable isFixed
 <Snackbar
   position="top"
   status="success"
-  autoHideDuration={3000}
+  alwaysVisible={true}
+  autoHideDuration={6000}
   message={<p>Deposit was successfull.</p>}
 />
 ```
