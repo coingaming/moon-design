@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/coingaming/sportsbet-design/compare/v2.6.0...v2.7.0) (2020-04-20)
+
+
+### Features
+
+* align snackbar ([f40f117](https://github.com/coingaming/sportsbet-design/commit/f40f117))
+* **banner:** align banner api ([52206d1](https://github.com/coingaming/sportsbet-design/commit/52206d1))
+
+
+
+
+
 # [2.6.0](https://github.com/coingaming/sportsbet-design/compare/v2.5.0...v2.6.0) (2020-04-16)
 
 
