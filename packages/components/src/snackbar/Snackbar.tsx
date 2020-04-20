@@ -10,19 +10,18 @@ import {
 
 type SnackbarProps = {
   message: any;
-  isOpen?: boolean;
+  alwaysVisible?: boolean;
   action?: any;
   autoHideDuration?: number; // ms
-  position?: 'bottom' | 'top';
-  status: 'error' | 'warning' | 'info' | 'success';
+  position?: 'bottom' | 'top' | 'inline';
+  status?: 'error' | 'warning' | 'info' | 'success';
   onClose?: any;
 };
 
 const SnackbarWrapper = styled.div<any>(
   ({ theme: { color, space, zIndex, breakpoint }, position }) => [
     { width: 'fit-content' },
-
-    position && {
+    (position === 'bottom' || position === 'top') && {
       position: 'fixed',
       left: '50%',
       transform: 'translate(-50%, 0)',
@@ -69,19 +68,19 @@ const IconWrapper = styled.div({
 const Snackbar: React.FC<SnackbarProps> = ({
   message,
   action,
-  autoHideDuration,
-  position,
+  autoHideDuration = 6000,
+  position = 'bottom',
   onClose,
   status,
-  isOpen = true,
+  alwaysVisible = false,
 }) => {
-  const [visible, setVisible] = React.useState(isOpen);
+  const [visible, setVisible] = React.useState(true);
 
   if (!visible) {
     return null;
   }
 
-  autoHideDuration &&
+  !alwaysVisible &&
     setTimeout(() => {
       if (onClose && typeof onClose === 'function') {
         onClose();
@@ -90,7 +89,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
     }, autoHideDuration);
 
   return (
-    <SnackbarWrapper isActionExist={!!action} position={position}>
+    <SnackbarWrapper position={position}>
       {status === 'error' && (
         <IconWrapper>
           <IconError fontSize="1.5rem" />
