@@ -24,6 +24,8 @@ export { default as IconAsianView } from './IconAsianView';
 export * from './IconAsianView';
 export { default as IconAward } from './IconAward';
 export * from './IconAward';
+export { default as IconBannerInfo } from './IconBannerInfo';
+export * from './IconBannerInfo';
 export { default as IconBitcoinTalk } from './IconBitcoinTalk';
 export * from './IconBitcoinTalk';
 export { default as IconBombayClub } from './IconBombayClub';
@@ -202,6 +204,8 @@ export { default as IconSettings } from './IconSettings';
 export * from './IconSettings';
 export { default as IconSlots } from './IconSlots';
 export * from './IconSlots';
+export { default as IconSnackbarSuccess } from './IconSnackbarSuccess';
+export * from './IconSnackbarSuccess';
 export { default as IconSportWidget } from './IconSportWidget';
 export * from './IconSportWidget';
 export {
