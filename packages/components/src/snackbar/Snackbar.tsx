@@ -68,26 +68,9 @@ const IconWrapper = styled.div({
 const Snackbar: React.FC<SnackbarProps> = ({
   message,
   action,
-  timeout = 6000,
   position = 'bottom',
-  onClose,
   status,
-  alwaysVisible = false,
 }) => {
-  const [visible, setVisible] = React.useState(true);
-
-  if (!visible) {
-    return null;
-  }
-
-  !alwaysVisible &&
-    setTimeout(() => {
-      if (onClose && typeof onClose === 'function') {
-        onClose();
-      }
-      setVisible(false);
-    }, timeout);
-
   return (
     <SnackbarWrapper position={position}>
       {status === 'error' && (

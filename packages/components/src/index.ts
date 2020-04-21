@@ -80,6 +80,8 @@ export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as Snackbar } from './snackbar/Snackbar';
 export * from './snackbar/Snackbar';
+export { default as useSnackbar } from './useSnackbar/useSnackbar';
+export * from './useSnackbar/useSnackbar';
 export { default as Stack } from './stack/Stack';
 export * from './stack/Stack';
 export { default as stackMixin } from './stackMixin/stackMixin';
