@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/coingaming/sportsbet-design/compare/v2.6.0...v2.7.0) (2020-04-20)
+
+
+### Bug Fixes
+
+* pr feedback ([9505e8d](https://github.com/coingaming/sportsbet-design/commit/9505e8d))
+* pr feedback ([cb276f5](https://github.com/coingaming/sportsbet-design/commit/cb276f5))
+* pr feedback ([ee325f5](https://github.com/coingaming/sportsbet-design/commit/ee325f5))
+
+
+### Features
+
+* align snackbar ([f40f117](https://github.com/coingaming/sportsbet-design/commit/f40f117))
+* **banner:** align banner api ([52206d1](https://github.com/coingaming/sportsbet-design/commit/52206d1))
+* remove exclamation mark ([8c0c7be](https://github.com/coingaming/sportsbet-design/commit/8c0c7be))
+
+
+
+
+
 # [2.6.0](https://github.com/coingaming/sportsbet-design/compare/v2.5.0...v2.6.0) (2020-04-16)
 
 
