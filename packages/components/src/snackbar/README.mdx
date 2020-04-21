@@ -34,7 +34,6 @@ A snackbar can contain a single action. Because they disappear automatically, th
 
 ```jsx react-live
 <Snackbar
-  alwaysVisible={true}
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -51,7 +50,6 @@ Snackbar can't have both Icon and Action at the same time.
 
 ```jsx react-live
 <Snackbar
-  alwaysVisible={true}
   position="inline"
   status="error"
   message={<p>Error message or notification</p>}
@@ -62,7 +60,6 @@ Snackbar can't have both Icon and Action at the same time.
 
 ```jsx react-live
 <Snackbar
-  alwaysVisible={true}
   position="inline"
   status="warning"
   message={<p>Error message or notification</p>}
@@ -73,7 +70,6 @@ Snackbar can't have both Icon and Action at the same time.
 
 ```jsx react-live
 <Snackbar
-  alwaysVisible={true}
   position="inline"
   status="info"
   message={<p>Error message or notification</p>}
@@ -84,7 +80,6 @@ Snackbar can't have both Icon and Action at the same time.
 
 ```jsx react-live
 <Snackbar
-  alwaysVisible={true}
   position="inline"
   status="success"
   message={<p>Error message or notification</p>}
@@ -95,48 +90,29 @@ Snackbar can't have both Icon and Action at the same time.
 
 Snackbars appear without warning, and don't require user interaction.
 
-Use `timeout` if you want the Snackbar to automatically disappear from the screen after a minimum of four seconds, and a maximum of ten seconds.
+Use `useSnackbar` hook if you want the Snackbar to automatically disappear from the screen after a minimum of 5 seconds, and a maximum of 10 seconds.
+By default it's a 5 seconds.
 
-`timeout={6000}`
-
-```jsx react-live
-<Snackbar
-  position="inline"
-  timeout={6000}
-  message={
-    <p>This item already have the label "Sport". You could add a new label.</p>
-  }
-  action={<Link href="#">Add</Link>}
-/>
-```
-
-Use `isOpen` if you want to manually control appearing and disappearing.
+`timeout={5000}`
 
 ```jsx react-live
-<Snackbar
-  alwaysVisible={true}
-  position="inline"
-  message={
-    <p>This item already have the label "Sport". You could add a new label.</p>
-  }
-  action={<Link href="#">Add</Link>}
-/>
-```
+() => {
+  const [Snackbar, displaySnackbar] = useSnackbar({
+    message: <p>Appearing and disappearing works!</p>,
+    timeout: 2000,
+    status: 'success',
+    position: 'top',
+  });
 
-Use `onClose` if you want to manually control appearing and disappearing.
-
-```jsx react-live
-<Snackbar
-  position="inline"
-  onClose={() => {
-    console.log('Snackbar was dismissed.');
-  }}
-  timeout={6000}
-  message={
-    <p>This item already have the label "Sport". You could add a new label.</p>
-  }
-  action={<Link href="#">Add</Link>}
-/>
+  return (
+    <>
+      <Button modifier="primary" onClick={displaySnackbar}>
+        Show snackbar
+      </Button>
+      {Snackbar}
+    </>
+  );
+};
 ```
 
 ## Placement
@@ -149,20 +125,16 @@ By default it has fixed position with same z-index as Dialog.
 
 If you want to disable isFixed
 
+`position="bottom" | "top"`
+
 ```jsx react-live
 <Snackbar
   position="bottom"
   status="success"
-  alwaysVisible={true}
   message={<p>Deposit was successfull.</p>}
 />
 ```
 
 ```jsx react-live
-<Snackbar
-  position="top"
-  status="success"
-  timeout={6000}
-  message={<p>Deposit was successfull.</p>}
-/>
+<Snackbar status="success" message={<p>Deposit was successfull.</p>} />
 ```
