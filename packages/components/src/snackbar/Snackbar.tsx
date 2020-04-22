@@ -26,8 +26,11 @@ const SnackbarWrapper = styled.div<any>(
       left: '50%',
       transform: 'translate(-50%, 0)',
       zIndex: zIndex.dialog,
-      margin: space.default,
+      marginBottom: space.default,
       maxWidth: `calc(100vw - ${space.default * 2}px)`,
+      [mq(breakpoint.medium)]: {
+        margin: space.default,
+      },
       [mq(breakpoint.large)]: {
         maxWidth: '50vw',
         width: 'fit-content',
@@ -48,18 +51,19 @@ const SnackbarWrapper = styled.div<any>(
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
-      'P,  SPAN': {
-        fontSize: rem(14),
-        lineHeight: 1.25,
-        color: color.hit[100],
-        margin: 0,
-      },
       '& > * + *': {
         marginLeft: space.default,
       },
     },
   ]
 );
+
+const MessageWrapper = styled.p(({ theme }) => ({
+  fontSize: rem(14),
+  lineHeight: 1.25,
+  color: theme.color.hit[100],
+  margin: 0,
+}));
 
 const IconWrapper = styled.div({
   marginRight: rem(8),
@@ -93,7 +97,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
           <IconSnackbarSuccess fontSize="1.5rem" color="krillin.100" />
         </IconWrapper>
       )}
-      {message && message}
+      {message && <MessageWrapper>{message}</MessageWrapper>}
       {action && action}
     </SnackbarWrapper>
   );
