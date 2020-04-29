@@ -370,6 +370,8 @@ export { default as LogoSportsbetSponsor } from './logos/LogoSportsbetSponsor';
 export * from './logos/LogoSportsbetSponsor';
 export { default as PatternCircles } from './patterns/PatternCircles';
 export * from './patterns/PatternCircles';
+export { default as PatternLines } from './patterns/PatternLines';
+export * from './patterns/PatternLines';
 export { default as PatternRipple } from './patterns/PatternRipple';
 export * from './patterns/PatternRipple';
 export { default as PatternSpeed } from './patterns/PatternSpeed';

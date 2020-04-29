@@ -4,6 +4,8 @@
 
 export { default as PatternCircles } from './PatternCircles';
 export * from './PatternCircles';
+export { default as PatternLines } from './PatternLines';
+export * from './PatternLines';
 export { default as PatternRipple } from './PatternRipple';
 export * from './PatternRipple';
 export { default as PatternSpeed } from './PatternSpeed';
