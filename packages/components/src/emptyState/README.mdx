@@ -23,12 +23,14 @@ How to use: https://coingaming.atlassian.net/wiki/spaces/CDS/pages/1849426063/Em
 Description of the component variant and its intended use.
 Repeat this variant section for any other component variants.
 
+Use <a href="/assets/duotones">Duotypes icons</a> as a placeholder icon.
+
 ```jsx react-live
 <EmptyState
   icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
   title="There are no bets"
   caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
-  cta={<Button>Check promotions</Button>}
+  action={<Button>Check promotions</Button>}
 />
 ```
 
@@ -38,12 +40,15 @@ Repeat this variant section for any other component variants.
 <EmptyState
   title="There are no bets"
   caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
-  cta={<Button>Check promotions</Button>}
+  action={<Button>Check promotions</Button>}
 />
 ```
 
 ```jsx react-live
-<EmptyState title="There are no bets" cta={<Button>Check promotions</Button>} />
+<EmptyState
+  title="There are no bets"
+  action={<Button>Check promotions</Button>}
+/>
 ```
 
 ```jsx react-live
@@ -55,4 +60,27 @@ Repeat this variant section for any other component variants.
 
 ```jsx react-live
 <EmptyState title="There are no bets" />
+```
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+/>
+```
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+  action={<Button>Check promotions</Button>}
+/>
+```
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+  caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
+/>
 ```
