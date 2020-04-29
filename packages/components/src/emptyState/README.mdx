@@ -1,0 +1,86 @@
+---
+name: Empty State
+menu: Components
+route: /components/empty-state
+---
+
+# Empty State
+
+Empty states are moments in a user’s experience with a product where there is **nothing to display**.
+
+A useful empty state will let the user know what’s happening, why it’s happening, and what to do about it.
+
+This is an opportunity to improve the user experience and consequently amplify business opportunities.
+
+Figma link: https://www.figma.com/file/S3q1SkVngbwHuwpxHKCsgtJj/Global?node-id=15965%3A930
+
+## How to use
+
+How to use: https://coingaming.atlassian.net/wiki/spaces/CDS/pages/1849426063/Empty+State
+
+## Examples
+
+Description of the component variant and its intended use.
+Repeat this variant section for any other component variants.
+
+Use <a href="/assets/duotones">Duotypes icons</a> as a placeholder icon.
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+  caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
+  action={<Button>Check promotions</Button>}
+/>
+```
+
+### Variants
+
+```jsx react-live
+<EmptyState
+  title="There are no bets"
+  caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
+  action={<Button>Check promotions</Button>}
+/>
+```
+
+```jsx react-live
+<EmptyState
+  title="There are no bets"
+  action={<Button>Check promotions</Button>}
+/>
+```
+
+```jsx react-live
+<EmptyState
+  title="There are no bets"
+  caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
+/>
+```
+
+```jsx react-live
+<EmptyState title="There are no bets" />
+```
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+/>
+```
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+  action={<Button>Check promotions</Button>}
+/>
+```
+
+```jsx react-live
+<EmptyState
+  icon={<CasinoBonus fontSize="10rem" color="piccolo.100" />}
+  title="There are no bets"
+  caption="Oh no! You have used up all your free bets. Participate in promotions to earn more."
+/>
+```
