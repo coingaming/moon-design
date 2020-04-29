@@ -6,8 +6,8 @@ import { rem, mq, inlineSvg } from '@heathmont/sportsbet-utils';
 type EmptyStateProps = {
   title: any;
   caption?: any;
-  icon: any;
-  cta: any;
+  icon?: any;
+  action?: any;
 };
 
 const Wrapper = styled.div(({ theme: { breakpoint, color } }) => ({
@@ -69,7 +69,7 @@ const CaptionWrapper = styled.p(({ theme: { color, breakpoint } }) => ({
   },
 }));
 
-const CtaWrapper = styled.div(({ theme: { breakpoint } }) => ({
+const ActionWrapper = styled.div(({ theme: { breakpoint } }) => ({
   marginTop: rem(32),
   [mq(breakpoint.large)]: {
     marginTop: 0,
@@ -81,7 +81,7 @@ const EmptyState: React.FC<EmptyStateProps> = ({
   title,
   caption,
   icon,
-  cta,
+  action,
 }) => {
   return (
     <Wrapper>
@@ -92,7 +92,7 @@ const EmptyState: React.FC<EmptyStateProps> = ({
           {caption && <CaptionWrapper>{caption}</CaptionWrapper>}
         </TextWrapper>
       )}
-      {cta && <CtaWrapper>{cta}</CtaWrapper>}
+      {action && <ActionWrapper>{action}</ActionWrapper>}
     </Wrapper>
   );
 };
