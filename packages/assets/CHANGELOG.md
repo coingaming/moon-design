@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/coingaming/sportsbet-design/compare/v2.8.1...v2.9.0) (2020-04-29)
+
+
+### Bug Fixes
+
+* **duotypes:** align ([c23d59a](https://github.com/coingaming/sportsbet-design/commit/c23d59a))
+
+
+### Features
+
+* **icons:** inrtoduce duotones ([9f2c98a](https://github.com/coingaming/sportsbet-design/commit/9f2c98a))
+* **patterns:** introduce lines pattern ([1c81db6](https://github.com/coingaming/sportsbet-design/commit/1c81db6))
+
+
+
+
+
 # [2.7.0](https://github.com/coingaming/sportsbet-design/compare/v2.6.0...v2.7.0) (2020-04-20)
 
 
