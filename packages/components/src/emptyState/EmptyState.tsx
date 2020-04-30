@@ -5,7 +5,7 @@ import { rem, mq, inlineSvg } from '@heathmont/sportsbet-utils';
 
 type EmptyStateProps = {
   title: any;
-  caption?: any;
+  message?: any;
   icon?: any;
   action?: any;
 };
@@ -58,7 +58,7 @@ const TitleWrapper = styled.p(({ theme: { fontWeight } }) => ({
   lineHeight: rem(28),
 }));
 
-const CaptionWrapper = styled.p(({ theme: { color, breakpoint } }) => ({
+const MessageWrapper = styled.p(({ theme: { color, breakpoint } }) => ({
   margin: 0,
   fontSize: rem(16),
   lineHeight: rem(24),
@@ -79,17 +79,17 @@ const ActionWrapper = styled.div(({ theme: { breakpoint } }) => ({
 
 const EmptyState: React.FC<EmptyStateProps> = ({
   title,
-  caption,
+  message,
   icon,
   action,
 }) => {
   return (
     <Wrapper>
       {icon && <IconWrapper>{icon}</IconWrapper>}
-      {(title || caption) && (
+      {(title || message) && (
         <TextWrapper>
           {title && <TitleWrapper>{title}</TitleWrapper>}
-          {caption && <CaptionWrapper>{caption}</CaptionWrapper>}
+          {message && <MessageWrapper>{message}</MessageWrapper>}
         </TextWrapper>
       )}
       {action && <ActionWrapper>{action}</ActionWrapper>}
