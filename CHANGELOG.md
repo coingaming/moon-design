@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.2](https://github.com/coingaming/sportsbet-design/compare/v2.9.1...v2.9.2) (2020-04-30)
+
+
+### Bug Fixes
+
+* **utils:** fix inlineSvg ([c6c956f](https://github.com/coingaming/sportsbet-design/commit/c6c956f))
+
+
+
+
+
 ## [2.9.1](https://github.com/coingaming/sportsbet-design/compare/v2.9.0...v2.9.1) (2020-04-30)
 
 
