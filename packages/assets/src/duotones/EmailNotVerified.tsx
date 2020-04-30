@@ -93,7 +93,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const EmailNonVerified = styled(Svg)<SvgProps>(
+const EmailNotVerified = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -104,7 +104,7 @@ const EmailNonVerified = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
-EmailNonVerified.defaultProps = {
+EmailNotVerified.defaultProps = {
   verticalAlign: 'middle',
 };
-export default EmailNonVerified;
+export default EmailNotVerified;
