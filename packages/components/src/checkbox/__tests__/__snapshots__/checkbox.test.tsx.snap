@@ -87,7 +87,7 @@ exports[`Checkbox renders as disabled 1`] = `
 }
 
 .c1:checked + span::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%230CD664%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0.625rem;
@@ -208,7 +208,7 @@ exports[`Checkbox renders by default 1`] = `
 }
 
 .c1:checked + span::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%230CD664%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0.625rem;
@@ -329,7 +329,7 @@ exports[`Checkbox renders label with HTML 1`] = `
 }
 
 .c1:checked + span::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%230CD664%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0.625rem;
@@ -458,7 +458,7 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 }
 
 .c1:checked + span::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='auto' fill='none' viewBox='0 0 20 14'%3e%3cpath fill='%230CD664' fill-rule='evenodd' d='M18 0c-.56 0-1.06.22-1.42.58L8 9.18l-4.58-4.6C3.06 4.22 2.56 4 2 4 .9 4 0 4.9 0 6c0 .56.22 1.06.58 1.42l6 6c.36.36.86.58 1.42.58.56 0 1.06-.22 1.42-.58l10-10c.36-.36.58-.86.58-1.42 0-1.1-.9-2-2-2z' clip-rule='evenodd'%3e%3c/path%3e%3c/svg%3e");
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%230CD664%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0.625rem;
