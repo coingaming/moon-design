@@ -4,18 +4,24 @@
 
 export { default as CasinoBonus } from './CasinoBonus';
 export * from './CasinoBonus';
-export { default as EmailNonVerified } from './EmailNonVerified';
-export * from './EmailNonVerified';
+export { default as EmailNotVerified } from './EmailNotVerified';
+export * from './EmailNotVerified';
 export { default as EmailVerified } from './EmailVerified';
 export * from './EmailVerified';
+export { default as EventEnded } from './EventEnded';
+export * from './EventEnded';
 export { default as FreeBets } from './FreeBets';
 export * from './FreeBets';
 export { default as NoBets } from './NoBets';
 export * from './NoBets';
+export { default as NoCasinoGames } from './NoCasinoGames';
+export * from './NoCasinoGames';
 export { default as NoData } from './NoData';
 export * from './NoData';
-export { default as NoFavorite } from './NoFavorite';
-export * from './NoFavorite';
+export { default as NoEvents } from './NoEvents';
+export * from './NoEvents';
+export { default as NoFavourites } from './NoFavourites';
+export * from './NoFavourites';
 export { default as NoMarkets } from './NoMarkets';
 export * from './NoMarkets';
 export { default as NoRewards } from './NoRewards';
