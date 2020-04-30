@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.1](https://github.com/coingaming/sportsbet-design/compare/v2.9.0...v2.9.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* caption -> message ([1e3663e](https://github.com/coingaming/sportsbet-design/commit/1e3663e))
+* update duotone icons ([d9d8152](https://github.com/coingaming/sportsbet-design/commit/d9d8152))
+
+
+
+
+
 # [2.9.0](https://github.com/coingaming/sportsbet-design/compare/v2.8.1...v2.9.0) (2020-04-29)
 
 
