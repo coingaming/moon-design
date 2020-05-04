@@ -16,6 +16,8 @@ export { default as IconArrowLeftRight } from './IconArrowLeftRight';
 export * from './IconArrowLeftRight';
 export { default as IconArrowRight } from './IconArrowRight';
 export * from './IconArrowRight';
+export { default as IconArrowTopRight } from './IconArrowTopRight';
+export * from './IconArrowTopRight';
 export { default as IconArrowUp } from './IconArrowUp';
 export * from './IconArrowUp';
 export { default as IconArrowUpDown } from './IconArrowUpDown';
