@@ -60,6 +60,8 @@ export { default as IconArrowLeftRight } from './icons/IconArrowLeftRight';
 export * from './icons/IconArrowLeftRight';
 export { default as IconArrowRight } from './icons/IconArrowRight';
 export * from './icons/IconArrowRight';
+export { default as IconArrowTopRight } from './icons/IconArrowTopRight';
+export * from './icons/IconArrowTopRight';
 export { default as IconArrowUp } from './icons/IconArrowUp';
 export * from './icons/IconArrowUp';
 export { default as IconArrowUpDown } from './icons/IconArrowUpDown';
