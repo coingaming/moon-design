@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.11.0](https://github.com/coingaming/sportsbet-design/compare/v2.10.0...v2.11.0) (2020-05-06)
+
+
+### Features
+
+* update duotones ([c34075d](https://github.com/coingaming/sportsbet-design/commit/c34075d))
+
+
+
+
+
 # [2.10.0](https://github.com/coingaming/sportsbet-design/compare/v2.9.2...v2.10.0) (2020-05-04)
 
 
