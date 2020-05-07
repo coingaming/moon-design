@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-global",
   "sideEffects": false,
-  "version": "2.2.0",
+  "version": "2.9.2",
   "files": [
     "lib"
   ],
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@heathmont/sportsbet-themes": "^2.2.0",
-    "@heathmont/sportsbet-utils": "^2.2.0",
+    "@heathmont/sportsbet-utils": "^2.9.2",
     "focus-visible": "5.0.2"
   },
   "peerDependencies": {

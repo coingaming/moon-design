@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/sportsbet-utils",
   "sideEffects": false,
-  "version": "2.2.0",
+  "version": "2.9.2",
   "files": [
     "lib"
   ],
@@ -18,7 +18,6 @@
     "@heathmont/sportsbet-themes": "^2.2.0",
     "lodash.get": "4.4.2",
     "lodash.has": "4.5.2",
-    "mini-svg-data-uri": "1.0.3",
     "polished": "3.4.1"
   },
   "devDependencies": {
