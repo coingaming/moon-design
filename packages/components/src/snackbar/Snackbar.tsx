@@ -1,82 +1,103 @@
 import * as React from 'react';
 import { rem, mq } from '@heathmont/sportsbet-utils';
 import styled from 'styled-components';
+import {
+  IconError,
+  IconWarning,
+  IconBannerInfo,
+  IconSnackbarSuccess,
+} from '@heathmont/sportsbet-assets';
 
 type SnackbarProps = {
   message: any;
-  isOpen?: boolean;
+  alwaysVisible?: boolean;
   action?: any;
-  autoHideDuration?: number; // ms
-  isFixed?: boolean;
-  onDismiss?: any;
+  timeout?: number; // ms
+  position?: 'bottom' | 'top' | 'inline';
+  status?: 'error' | 'warning' | 'info' | 'success';
+  onClose?: any;
 };
 
 const SnackbarWrapper = styled.div<any>(
-  ({
-    theme: { color, space, fontWeight, zIndex, breakpoint },
-    isActionExist,
-    isFixed = true,
-  }) => [
-    isFixed && {
+  ({ theme: { color, space, zIndex, breakpoint }, position }) => [
+    { width: 'fit-content' },
+    (position === 'bottom' || position === 'top') && {
       position: 'fixed',
-      left: 0,
-      bottom: 0,
+      left: '50%',
+      transform: 'translate(-50%, 0)',
       zIndex: zIndex.dialog,
-      margin: space.default,
+      marginBottom: space.default,
+      maxWidth: `calc(100vw - ${space.default * 2}px)`,
+      [mq(breakpoint.medium)]: {
+        margin: space.default,
+      },
+      [mq(breakpoint.large)]: {
+        maxWidth: '50vw',
+        width: 'fit-content',
+        left: 0,
+        transform: 'none',
+      },
+    },
+    position === 'bottom' && {
+      bottom: 0,
+    },
+    position === 'top' && {
+      top: '10%',
     },
     {
-      width: `calc(100% - ${space.default * 2})`,
-      [mq(breakpoint.medium)]: {
-        width: 'fit-content',
-      },
       padding: space.default,
-      backgroundColor: color.beerus[100],
-      borderRadius: rem(16),
+      backgroundColor: color.bulma[100],
+      borderRadius: rem(12),
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
-      'P,  SPAN': {
-        fontSize: rem(12),
-        lineHeight: rem(20),
-        fontWeight: fontWeight.semibold,
+      '& > * + *': {
+        marginLeft: space.default,
       },
     },
-    isActionExist
-      ? {
-          justifyContent: 'space-between',
-          '& > * + *': {
-            marginLeft: space.default,
-          },
-        }
-      : { justifyContent: 'center' },
   ]
 );
+
+const MessageWrapper = styled.p(({ theme }) => ({
+  fontSize: rem(14),
+  lineHeight: 1.25,
+  color: theme.color.hit[100],
+  margin: 0,
+}));
+
+const IconWrapper = styled.div({
+  marginRight: rem(8),
+});
 
 const Snackbar: React.FC<SnackbarProps> = ({
   message,
   action,
-  autoHideDuration,
-  isFixed,
-  onDismiss,
-  isOpen = true,
+  position = 'bottom',
+  status,
 }) => {
-  const [visible, setVisible] = React.useState(isOpen);
-
-  if (!visible) {
-    return null;
-  }
-
-  autoHideDuration &&
-    setTimeout(() => {
-      if (onDismiss && typeof onDismiss === 'function') {
-        onDismiss();
-      }
-      setVisible(false);
-    }, autoHideDuration);
-
   return (
-    <SnackbarWrapper isActionExist={!!action} isFixed={isFixed}>
-      {message && message}
+    <SnackbarWrapper position={position}>
+      {status === 'error' && (
+        <IconWrapper>
+          <IconError fontSize="1.5rem" />
+        </IconWrapper>
+      )}
+      {status === 'warning' && (
+        <IconWrapper>
+          <IconWarning fontSize="1.5rem" color="krillin.100" />
+        </IconWrapper>
+      )}
+      {status === 'info' && (
+        <IconWrapper>
+          <IconBannerInfo fontSize="1.5rem" color="krillin.100" />
+        </IconWrapper>
+      )}
+      {status === 'success' && (
+        <IconWrapper>
+          <IconSnackbarSuccess fontSize="1.5rem" color="krillin.100" />
+        </IconWrapper>
+      )}
+      {message && <MessageWrapper>{message}</MessageWrapper>}
       {action && action}
     </SnackbarWrapper>
   );

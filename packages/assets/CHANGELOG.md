@@ -3,6 +3,76 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.11.0](https://github.com/coingaming/sportsbet-design/compare/v2.10.0...v2.11.0) (2020-05-06)
+
+
+### Features
+
+* update duotones ([c34075d](https://github.com/coingaming/sportsbet-design/commit/c34075d))
+
+
+
+
+
+# [2.10.0](https://github.com/coingaming/sportsbet-design/compare/v2.9.2...v2.10.0) (2020-05-04)
+
+
+### Features
+
+* SPO-6002 added IconArrowTopRight ([39194a8](https://github.com/coingaming/sportsbet-design/commit/39194a8))
+
+
+
+
+
+## [2.9.2](https://github.com/coingaming/sportsbet-design/compare/v2.9.1...v2.9.2) (2020-04-30)
+
+**Note:** Version bump only for package @heathmont/sportsbet-assets
+
+
+
+
+
+## [2.9.1](https://github.com/coingaming/sportsbet-design/compare/v2.9.0...v2.9.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* update duotone icons ([d9d8152](https://github.com/coingaming/sportsbet-design/commit/d9d8152))
+
+
+
+
+
+# [2.9.0](https://github.com/coingaming/sportsbet-design/compare/v2.8.1...v2.9.0) (2020-04-29)
+
+
+### Bug Fixes
+
+* **duotypes:** align ([c23d59a](https://github.com/coingaming/sportsbet-design/commit/c23d59a))
+
+
+### Features
+
+* **icons:** inrtoduce duotones ([9f2c98a](https://github.com/coingaming/sportsbet-design/commit/9f2c98a))
+* **patterns:** introduce lines pattern ([1c81db6](https://github.com/coingaming/sportsbet-design/commit/1c81db6))
+
+
+
+
+
+# [2.7.0](https://github.com/coingaming/sportsbet-design/compare/v2.6.0...v2.7.0) (2020-04-20)
+
+
+### Features
+
+* align snackbar ([f40f117](https://github.com/coingaming/sportsbet-design/commit/f40f117))
+* **banner:** align banner api ([52206d1](https://github.com/coingaming/sportsbet-design/commit/52206d1))
+
+
+
+
+
 # [2.6.0](https://github.com/coingaming/sportsbet-design/compare/v2.5.0...v2.6.0) (2020-04-16)
 
 
