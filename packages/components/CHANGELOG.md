@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.11.2](https://github.com/coingaming/sportsbet-design/compare/v2.11.1...v2.11.2) (2020-05-11)
+
+
+### Bug Fixes
+
+* DSGN-11 remove background from empty state ([5ead594](https://github.com/coingaming/sportsbet-design/commit/5ead594))
+
+
+
+
+
 ## [2.11.1](https://github.com/coingaming/sportsbet-design/compare/v2.11.0...v2.11.1) (2020-05-08)
 
 
