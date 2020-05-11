@@ -1,7 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { PatternLines } from '@heathmont/sportsbet-assets';
-import { rem, mq, inlineSvg } from '@heathmont/sportsbet-utils';
+import { rem, mq } from '@heathmont/sportsbet-utils';
 
 type EmptyStateProps = {
   title: any;
@@ -19,9 +18,6 @@ const Wrapper = styled.div(({ theme: { breakpoint, color } }) => ({
   backgroundRepeat: 'no-repeat',
   backgroundPositionY: '-200px',
   backgroundPositionX: '-300px',
-  backgroundImage: inlineSvg(
-    <PatternLines fontSize="50rem" color={color.piccolo[100]} />
-  ),
   padding: rem(64),
   [mq(breakpoint.large)]: {
     flexDirection: 'row',
