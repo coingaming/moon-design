@@ -3,12 +3,13 @@ import { CSSObject } from 'styled-components';
 export type ColorValue = CSSObject['color'];
 
 export type ColorPalette = {
-  100: ColorValue;
-  80: ColorValue;
-  60: ColorValue;
-  40: ColorValue;
-  20: ColorValue;
-  10: ColorValue;
+  120?: ColorValue;
+  100?: ColorValue;
+  80?: ColorValue;
+  60?: ColorValue;
+  40?: ColorValue;
+  20?: ColorValue;
+  10?: ColorValue;
 };
 
 /**
@@ -66,7 +67,7 @@ export type ColorPopo = {
    *
    * Usage: link colors.
    */
-  popo: ColorPalette;
+  popo?: ColorPalette;
 };
 
 export type ColorGoku = {
