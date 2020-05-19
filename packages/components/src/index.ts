@@ -92,6 +92,8 @@ export { default as TabLink } from './tabLink/TabLink';
 export * from './tabLink/TabLink';
 export { default as Tabs } from './tabs/Tabs';
 export * from './tabs/Tabs';
+export { default as Input } from './textInput/Input';
+export * from './textInput/Input';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
 export { default as Toggle } from './toggle/Toggle';
