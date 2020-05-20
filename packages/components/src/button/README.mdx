@@ -10,7 +10,9 @@ import { PropsTable } from 'docs';
 
 # Button
 
-## Modifiers
+[Figma link](https://www.figma.com/file/S3q1SkVngbwHuwpxHKCsgtJj/Global?node-id=22%3A751)
+
+## Variants
 
 ### Primary
 
@@ -18,33 +20,14 @@ To be used where the the button would be the main call to action on the page.
 
 ```jsx react-live
 <Inline>
-  <Button modifier="primary">Default</Button>
-  <Button modifier="primary" mockState="hover">
+  <Button variant="primary">Default</Button>
+  <Button variant="primary" mockState="hover">
     Hover
   </Button>
-  <Button modifier="primary" mockState="active">
+  <Button variant="primary" mockState="active">
     Focus
   </Button>
-  <Button modifier="primary" disabled>
-    Disabled
-  </Button>
-</Inline>
-```
-
-### Highlight
-
-To be used where the the button would be a highlight call to action.
-
-```jsx react-live
-<Inline>
-  <Button modifier="highlight">Default</Button>
-  <Button modifier="highlight" mockState="hover">
-    Hover
-  </Button>
-  <Button modifier="highlight" mockState="active">
-    Focus
-  </Button>
-  <Button modifier="highlight" disabled>
+  <Button variant="primary" disabled>
     Disabled
   </Button>
 </Inline>
@@ -56,52 +39,153 @@ To be used where the the button would be a secondary call to action.
 
 ```jsx react-live
 <Inline>
-  <Button modifier="secondary">Default</Button>
-  <Button modifier="secondary" mockState="hover">
+  <Button variant="secondary">Default</Button>
+  <Button variant="secondary" mockState="hover">
     Hover
   </Button>
-  <Button modifier="secondary" mockState="active">
+  <Button variant="secondary" mockState="active">
     Focus
   </Button>
-  <Button modifier="secondary" disabled>
+  <Button variant="secondary" disabled>
     Disabled
   </Button>
 </Inline>
 ```
 
-### Optional
+### Tertiary
 
 To be used where the the button would be a optional call to action.
 
 ```jsx react-live
 <Inline>
-  <Button modifier="optional">Default</Button>
-  <Button modifier="optional" mockState="hover">
+  <Button variant="tertiary">Default</Button>
+  <Button variant="tertiary" mockState="hover">
     Hover
   </Button>
-  <Button modifier="optional" mockState="active">
+  <Button variant="tertiary" mockState="active">
     Focus
   </Button>
-  <Button modifier="optional" disabled>
+  <Button variant="tertiary" disabled>
     Disabled
   </Button>
 </Inline>
+```
+
+### Highlight
+
+To be used where the the button would be a highlight call to action.
+
+```jsx react-live
+<Inline>
+  <Button variant="highlight">Default</Button>
+  <Button variant="highlight" mockState="hover">
+    Hover
+  </Button>
+  <Button variant="highlight" mockState="active">
+    Focus
+  </Button>
+  <Button variant="highlight" disabled>
+    Disabled
+  </Button>
+</Inline>
+```
+
+### Animations
+
+```jsx react-live
+<Inline>
+  <Button variant="primary">Default</Button>
+  <Button progress variant="primary">
+    Default
+  </Button>
+  <Button success variant="primary">
+    Default
+  </Button>
+  <Button oops variant="primary">
+    Default
+  </Button>
+</Inline>
+```
+
+### Icons
+
+```jsx react-live
+<>
+  <Inline>
+    <Button
+      iconLeft={<IconProfile color="#fff" />}
+      variant="primary"
+      size="xsmall"
+    >
+      Default
+    </Button>
+    <Button
+      iconRight={<IconProfile color="#fff" />}
+      variant="primary"
+      size="xsmall"
+    >
+      Default
+    </Button>
+  </Inline>
+
+  <Inline>
+    <Button iconLeft={<IconProfile color="#fff" />} variant="primary">
+      Default
+    </Button>
+    <Button iconRight={<IconProfile color="#fff" />} variant="primary">
+      Default
+    </Button>
+  </Inline>
+
+  <Inline>
+    <Button
+      iconLeft={<IconProfile color="#fff" />}
+      variant="primary"
+      size="medium"
+    >
+      Default
+    </Button>
+    <Button
+      iconRight={<IconProfile color="#fff" />}
+      variant="primary"
+      size="medium"
+    >
+      Default
+    </Button>
+  </Inline>
+  <Inline>
+    <Button
+      iconLeft={<IconProfile color="#fff" />}
+      variant="primary"
+      size="large"
+    >
+      Default
+    </Button>
+    <Button
+      iconRight={<IconProfile color="#fff" />}
+      variant="primary"
+      size="large"
+    >
+      Default
+    </Button>
+  </Inline>
+</>
 ```
 
 ### Sizes
 
 ```jsx react-live
 <Inline>
-  <Button modifier="primary" size="xsmall">
+  <Button variant="primary" size="xsmall">
     Xsmall
   </Button>
-  <Button modifier="primary" size="small">
+  <Button variant="primary" size="small">
     Small
   </Button>
-  <Button modifier="primary" size="medium">
+  <Button variant="primary" size="medium">
     Medium
   </Button>
-  <Button modifier="primary" size="large">
+  <Button variant="primary" size="large">
     Large
   </Button>
 </Inline>
@@ -113,10 +197,10 @@ To be used where the the button caption would be uppercased.
 
 ```jsx react-live
 <Inline>
-  <Button modifier="primary" uppercase>
+  <Button variant="primary" uppercase>
     Uppercased primary
   </Button>
-  <Button modifier="secondary" uppercase>
+  <Button variant="secondary" uppercase>
     Uppercased secondary
   </Button>
 </Inline>
@@ -129,7 +213,7 @@ To be used where the the button caption would be uppercased.
 Stretches a button to fill the entire width of its container.
 
 ```jsx react-live
-<Button modifier="secondary" fullWidth>
+<Button variant="secondary" fullWidth>
   Full Width
 </Button>
 ```
@@ -145,11 +229,7 @@ By adding the `as="a"` attribute, Buttons can be rendered as `<a>` elements.
 Don't forget to pass `href="<url>"`
 
 ```jsx react-live
-<Button href="#" as="a" modifier="secondary">
+<Button href="#" as="a" variant="secondary">
   Secondary (Anchor)
 </Button>
 ```
-
-## Props
-
-<PropsTable of={Button} />
