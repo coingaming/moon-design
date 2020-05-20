@@ -12,17 +12,17 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 .c1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
@@ -211,20 +211,27 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
   font-size: 1rem;
 }
 
+.c2 {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
 .c1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
@@ -288,6 +295,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="text"
     />
+    <p
+      className="c2"
+      role="alert"
+    />
   </label>
   <label
     className=""
@@ -301,6 +312,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       className="c1"
       placeholder=" "
       type="date"
+    />
+    <p
+      className="c2"
+      role="alert"
     />
   </label>
   <label
@@ -316,6 +331,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="email"
     />
+    <p
+      className="c2"
+      role="alert"
+    />
   </label>
   <label
     className=""
@@ -329,6 +348,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       className="c1"
       placeholder=" "
       type="number"
+    />
+    <p
+      className="c2"
+      role="alert"
     />
   </label>
   <label
@@ -344,6 +367,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="password"
     />
+    <p
+      className="c2"
+      role="alert"
+    />
   </label>
   <label
     className=""
@@ -357,6 +384,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       className="c1"
       placeholder=" "
       type="search"
+    />
+    <p
+      className="c2"
+      role="alert"
     />
   </label>
   <label
@@ -372,6 +403,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       placeholder=" "
       type="tel"
     />
+    <p
+      className="c2"
+      role="alert"
+    />
   </label>
   <label
     className=""
@@ -385,6 +420,10 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
       className="c1"
       placeholder=" "
       type="url"
+    />
+    <p
+      className="c2"
+      role="alert"
     />
   </label>
 </fieldset>
@@ -401,17 +440,17 @@ exports[`TextInput renders correctly for other types 1`] = `
 .c1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
@@ -595,17 +634,17 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 .c1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
@@ -674,17 +713,17 @@ exports[`TextInput renders correctly without a label 1`] = `
 .c0 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
@@ -748,25 +787,31 @@ exports[`TextInput renders with rounded prop 1`] = `
   font-size: 1rem;
 }
 
+.c2 {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #FF4E64;
+}
+
 .c1 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
   border-color: #FF4E64;
-  border-radius: 100px;
 }
 
 .c1::-webkit-input-placeholder {
@@ -824,6 +869,10 @@ exports[`TextInput renders with rounded prop 1`] = `
     className="c1"
     placeholder=" "
     type="text"
+  />
+  <p
+    className="c2"
+    role="alert"
   />
 </label>
 `;
