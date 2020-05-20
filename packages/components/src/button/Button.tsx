@@ -63,6 +63,7 @@ const StyledButton = styled.button<ButtonProps>(
     borderRadius: rem(radius.largest),
     ...disabled(opacity.disabled),
   }),
+  ({ fullWidth }) => fullWidth && { position: 'relative' },
   ({ variant, theme }) => variant && buttonVariant(variant)(theme),
   ({ size, theme }) => size && buttonSize(size)(theme),
   ({ oops, theme: { color } }) =>
@@ -96,7 +97,7 @@ const StyledButton = styled.button<ButtonProps>(
   ]
 );
 
-const IconLeftWrapper = styled.span<any>(({ size }) => [
+const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
   {
     marginRight: rem(8),
   },
@@ -116,9 +117,33 @@ const IconLeftWrapper = styled.span<any>(({ size }) => [
     fontSize: rem(24),
     lineHeight: 1,
   },
+  fullWidth &&
+    size === 'xsmall' && {
+      position: 'absolute',
+      left: rem(8),
+      top: rem(6),
+    },
+  fullWidth &&
+    size === 'small' && {
+      position: 'absolute',
+      left: rem(12),
+      top: rem(10),
+    },
+  fullWidth &&
+    size === 'medium' && {
+      position: 'absolute',
+      left: rem(16),
+      top: rem(11),
+    },
+  fullWidth &&
+    size === 'large' && {
+      position: 'absolute',
+      left: rem(16),
+      top: rem(12),
+    },
 ]);
 
-const IconRightWrapper = styled.span<any>(({ size }) => [
+const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
   {
     marginLeft: rem(8),
   },
@@ -136,6 +161,30 @@ const IconRightWrapper = styled.span<any>(({ size }) => [
     fontSize: rem(24),
     lineHeight: 1,
   },
+  fullWidth &&
+    size === 'xsmall' && {
+      position: 'absolute',
+      right: rem(8),
+      top: rem(6),
+    },
+  fullWidth &&
+    size === 'small' && {
+      position: 'absolute',
+      right: rem(12),
+      top: rem(10),
+    },
+  fullWidth &&
+    size === 'medium' && {
+      position: 'absolute',
+      right: rem(16),
+      top: rem(11),
+    },
+  fullWidth &&
+    size === 'large' && {
+      position: 'absolute',
+      right: rem(16),
+      top: rem(12),
+    },
 ]);
 
 const Button: React.FC<ButtonProps> = ({
@@ -147,6 +196,7 @@ const Button: React.FC<ButtonProps> = ({
   iconLeft,
   iconRight,
   size,
+  fullWidth,
   ...props
 }) => {
   const { color, space } = useTheme();
@@ -194,12 +244,19 @@ const Button: React.FC<ButtonProps> = ({
       size={size}
       iconLeft={iconLeft}
       iconRight={iconRight}
+      fullWidth={fullWidth}
       {...props}
     >
-      {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
+      {iconLeft && (
+        <IconLeftWrapper size={size} fullWidth={fullWidth}>
+          {iconLeft}
+        </IconLeftWrapper>
+      )}
       {content}
       {iconRight && (
-        <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>
+        <IconRightWrapper size={size} fullWidth={fullWidth}>
+          {iconRight}
+        </IconRightWrapper>
       )}
     </StyledButton>
   );
