@@ -3,55 +3,66 @@ import { Theme } from '@heathmont/sportsbet-themes';
 
 import { buttonActive, buttonHover } from './states';
 
-type ButtonModifiers = keyof ButtonModifierStyles;
+type ButtonVariants = keyof ButtonVariantStyles;
 
-type ButtonModifierStyles = {
+type ButtonVariantStyles = {
   primary: CSSObject;
   secondary: CSSObject;
+  tertiary: CSSObject;
   highlight: CSSObject;
-  optional: CSSObject;
+  optional: CSSObject; // TODO remove
 };
 
 /**
- * buttonModifier
- *
  * Styles that extend `buttonBase` to change the button's cosmetic appearance.
- * Accessed via `buttonModifiers(key)(theme)`.
+ * Accessed via `buttonVariant(key)(theme)`.
  *
  * For usage guidelines, see the README.
  */
-const buttonModifier = (key: ButtonModifiers) => ({ color }: Theme) => {
-  const themedStyles: ButtonModifierStyles = {
+const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
+  const themedStyles: ButtonVariantStyles = {
     primary: {
       color: color.goten[100],
       backgroundColor: color.piccolo[100],
       ...buttonHover({
-        backgroundColor: color.piccolo[60],
+        backgroundColor: color.piccolo[80],
       }),
       ...buttonActive({
-        backgroundColor: color.piccolo[60],
+        backgroundColor: color.piccolo[100],
       }),
     },
     secondary: {
-      color: color.trunks[20],
+      color: color.bulma[100],
       backgroundColor: color.gohan[100],
       ...buttonHover({
-        color: color.bulma[100],
+        backgroundColor: color.gohan[80],
       }),
       ...buttonActive({
-        color: color.bulma[100],
+        backgroundColor: color.gohan[100],
+      }),
+    },
+    tertiary: {
+      color: color.bulma[100],
+      backgroundColor: color.gohan[80],
+      border: `1px solid ${color.piccolo[100]}`,
+      ...buttonHover({
+        backgroundColor: color.piccolo[100],
+      }),
+      ...buttonActive({
+        backgroundColor: color.piccolo[100],
       }),
     },
     highlight: {
       color: color.goten[100],
       backgroundColor: color.whis[100],
       ...buttonHover({
-        backgroundColor: color.whis[60],
+        backgroundColor: color.whis[80],
       }),
       ...buttonActive({
-        backgroundColor: color.whis[60],
+        backgroundColor: color.whis[100],
       }),
     },
+    // TODO remove
     optional: {
       color: color.trunks[100],
       backgroundColor: color.gohan[80],
@@ -80,4 +91,4 @@ export const buttonShadow = (color: string) => ({
   boxShadow: `0 0 ${space.default}px ${color}`,
 });
 
-export { buttonModifier, ButtonModifiers };
+export { buttonVariant, ButtonVariants };
