@@ -34,7 +34,7 @@ const CarouselWrapper = styled.div<any>({
  * The list of Carousel Items, controlling overflow and scroll behavior.
  */
 const ItemsScrollWrapper = styled(Reel.withComponent('ul'))({
-  scrollSnapType: 'proximity',
+  scrollSnapType: 'mandatory',
   scrollSnapDestination: '0 50%',
   scrollSnapPointsX: 'repeat(100%)',
   [currentScrollingSpec]: {

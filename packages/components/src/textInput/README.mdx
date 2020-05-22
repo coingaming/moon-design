@@ -4,102 +4,101 @@ menu: Components
 route: /components/text-input
 ---
 
-import { TextInput } from '@heathmont/sportsbet-components';
-import { PropsTable } from 'docs';
-
 # Text Input
 
-A standard method of collecting user-inputted information.
-
-Text inputs can be rendered without a label, but this should only be done if the
-form requirements are clear.
+The input component is used when you need to let users enter the text of some kind, such as their name or phone number etc.
 
 ```jsx react-live
 <TextInput label="Text Input" placeholder="e.g. username" />
 ```
 
+All text inputs must have visible labels/placeholder text.
+
+[Figma Link](https://www.figma.com/file/S3q1SkVngbwHuwpxHKCsgtJj/Global?node-id=5400%3A1634)
+
 ## Types
+
+For mobile, the usage of respected keyboards is recommended,
+f.e. if it’s likely that the user will need to enter a number and you want to bring up
+the numeric keypad on a mobile device.
 
 Text inputs support a range of input formats, some of which include automatic
 browser validation. These can be set by providing HTML input `type` attributtes:
 
 ```jsx react-live
-<Form maxWidth="25rem">
-  <FormItem>
-    <TextInput type="text" label="Text" placeholder="e.g. username" required />
-  </FormItem>
-  <FormItem>
-    <TextInput type="date" label="Date" />
-  </FormItem>
-  <FormItem>
-    <TextInput
-      type="email"
-      label="Email"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      required
-    />
-  </FormItem>
-  <FormItem>
-    <TextInput type="number" label="Number" placeholder="e.g. 1234" required />
-  </FormItem>
-  <FormItem>
-    <TextInput
-      type="password"
-      placeholder="Please enter your account password"
-      label="Password"
-    />
-  </FormItem>
-  <FormItem>
-    <TextInput type="search" label="Search" placeholder="e.g. EPL" required />
-  </FormItem>
-  <FormItem>
-    <TextInput
-      type="tel"
-      label="Telephone"
-      placeholder="e.g. +372 123 4567"
-      required
-    />
-  </FormItem>
-  <FormItem>
-    <TextInput
-      type="url"
-      label="URL"
-      placeholder="e.g. https://sportsbet.io"
-      required
-    />
-  </FormItem>
-</Form>
+<Stack style={{ maxWidth: '25rem' }}>
+  <TextInput type="text" label="Text" placeholder="e.g. username" />
+
+  <TextInput type="date" label="Date" />
+
+  <TextInput
+    type="email"
+    label="Email"
+    placeholder="e.g. jake.weary@sportsbet.io"
+  />
+
+  <TextInput type="number" label="Number" placeholder="e.g. 1234" required />
+
+  <TextInput
+    type="password"
+    placeholder="Please enter your account password"
+    label="Password"
+  />
+
+  <TextInput type="search" label="Search" placeholder="e.g. EPL" required />
+
+  <TextInput type="tel" label="Telephone" placeholder="e.g. +372 123 4567" />
+
+  <TextInput type="url" label="URL" placeholder="e.g. https://sportsbet.io" />
+</Stack>
 ```
 
-## States
+## Validation
 
 Text inputs offer different states to provide instant feedback to the user.
-
-### Validation
 
 Errors are automatically handled as part of the HTML input type validation, and
 can also be manually triggered via the `error` prop.
 
 ```jsx react-live
-<Form maxWidth="25rem">
-  <FormItem>
-    <TextInput
-      type="email"
-      label="Email (with default validation)"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      required
-    />
-  </FormItem>
-  <FormItem>
-    <TextInput
-      type="email"
-      label="Email (with error prop)"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      error
-    />
-    <FormError>Please enter a valid email address.</FormError>
-  </FormItem>
-</Form>
+<Stack style={{ maxWidth: '25rem' }}>
+  <TextInput
+    type="email"
+    label="Email (with default validation)"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    required
+  />
+
+  <TextInput
+    type="email"
+    label="Email (with error prop)"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    error
+  />
+
+  <TextInput
+    type="email"
+    label="Email (with error prop)"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    error="User already exist"
+  />
+</Stack>
+```
+
+### Icon
+
+SVG Icon can also be manually triggered via the `icon` prop.
+You could check icons [here](/assets/icons 'here').
+
+```jsx react-live
+<Stack style={{ maxWidth: '25rem' }}>
+  <TextInput
+    type="text"
+    label="Text"
+    placeholder="e.g. username"
+    icon={<IconGeneralInfo fontSize="10rem" color="#8697A2" />}
+  />
+</Stack>
 ```
 
 ### Disabled
@@ -115,23 +114,6 @@ preventing user interaction.
       label="Disabled Input"
       placeholder="e.g. username"
       disabled
-    />
-  </FormItem>
-</Form>
-```
-
-### Rounded
-
-Passing a `rounded` prop will render text input with largest border radius.
-
-```jsx react-live
-<Form maxWidth="25rem">
-  <FormItem>
-    <TextInput
-      rounded
-      type="text"
-      label="Rounded Input"
-      placeholder="e.g. username"
     />
   </FormItem>
 </Form>
