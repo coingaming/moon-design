@@ -26,8 +26,8 @@ const findFirstVisibleIndex = (childRefs: any[]): any => {
 const scrollToIndex = (itemRef: HTMLElement, scrollIntoViewSmoothly: any) => {
   if (itemRef) {
     scrollIntoViewSmoothly(itemRef, {
-      block: 'nearest',
-      inline: 'nearest',
+      block: 'center',
+      inline: 'center',
       behavior: 'smooth',
     });
   }
