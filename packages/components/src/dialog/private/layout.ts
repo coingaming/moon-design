@@ -4,6 +4,7 @@ import {
   DialogOverlay as ReachDialogOverlay,
   DialogContent as ReachDialogContent,
 } from '@reach/dialog';
+import { mq } from '@heathmont/sportsbet-utils';
 
 import { DialogPosition, DialogMaxWidth } from './types';
 
@@ -66,9 +67,13 @@ export const DialogContainer = styled.div(
  * 1. As bottom margins/paddings are ignored in `overflow: scroll;`, create the
  *    padding with a pseudo element.
  */
-export const DialogMain = styled.main(({ theme: { space } }) => ({
-  paddingTop: rem(space.xlarge),
-  paddingLeft: rem(space.large),
-  paddingRight: rem(space.large),
-  paddingBottom: rem(space.large),
+export const DialogMain = styled.main(({ theme: { space, breakpoint } }) => ({
+  paddingLeft: rem(20),
+  paddingRight: rem(20),
+  [mq(breakpoint.medium)]: {
+    paddingTop: rem(space.xlarge),
+    paddingLeft: rem(space.large),
+    paddingRight: rem(space.large),
+    paddingBottom: rem(space.large),
+  },
 }));
