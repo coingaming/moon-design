@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.12.0](https://github.com/coingaming/sportsbet-design/compare/v2.11.2...v2.12.0) (2020-05-20)
+
+
+### Bug Fixes
+
+* scroll carousel by one step ([7b29841](https://github.com/coingaming/sportsbet-design/commit/7b29841))
+* **chore:** align figma link ([e731ed5](https://github.com/coingaming/sportsbet-design/commit/e731ed5))
+
+
+### Features
+
+* **input:** bump snapshots ([5ebb9da](https://github.com/coingaming/sportsbet-design/commit/5ebb9da))
+* align inputs ([d26acd1](https://github.com/coingaming/sportsbet-design/commit/d26acd1))
+
+
+
+
+
 ## [2.11.2](https://github.com/coingaming/sportsbet-design/compare/v2.11.1...v2.11.2) (2020-05-11)
 
 
