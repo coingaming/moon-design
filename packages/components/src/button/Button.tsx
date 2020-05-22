@@ -14,7 +14,7 @@ import {
   buttonHover,
   buttonActive,
 } from './states';
-import { oopsAnimation } from './animation';
+import { oopsAnimation } from './oopsAnimation';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -65,7 +65,7 @@ const StyledButton = styled.button<ButtonProps>(
   }),
   ({ fullWidth }) => fullWidth && { position: 'relative' },
   ({ variant, theme }) => variant && buttonVariant(variant)(theme),
-  ({ size, theme }) => size && buttonSize(size)(theme),
+  ({ size }) => size && buttonSize(size)(),
   ({ oops, theme: { color } }) =>
     oops && [
       oopsAnimation,
