@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.12.0](https://github.com/coingaming/sportsbet-design/compare/v2.11.2...v2.12.0) (2020-05-20)
+
+
+### Bug Fixes
+
+* scroll carousel by one step ([7b29841](https://github.com/coingaming/sportsbet-design/commit/7b29841))
+* **chore:** align figma link ([e731ed5](https://github.com/coingaming/sportsbet-design/commit/e731ed5))
+
+
+### Features
+
+* **input:** bump snapshots ([5ebb9da](https://github.com/coingaming/sportsbet-design/commit/5ebb9da))
+* align inputs ([d26acd1](https://github.com/coingaming/sportsbet-design/commit/d26acd1))
+
+
+
+
+
+## [2.11.2](https://github.com/coingaming/sportsbet-design/compare/v2.11.1...v2.11.2) (2020-05-11)
+
+
+### Bug Fixes
+
+* DSGN-11 remove background from empty state ([5ead594](https://github.com/coingaming/sportsbet-design/commit/5ead594))
+
+
+
+
+
+## [2.11.1](https://github.com/coingaming/sportsbet-design/compare/v2.11.0...v2.11.1) (2020-05-08)
+
+
+### Bug Fixes
+
+* snackbar minWidth ([88a2960](https://github.com/coingaming/sportsbet-design/commit/88a2960))
+
+
+
+
+
 # [2.11.0](https://github.com/coingaming/sportsbet-design/compare/v2.10.0...v2.11.0) (2020-05-06)
 
 **Note:** Version bump only for package @heathmont/sportsbet-components
