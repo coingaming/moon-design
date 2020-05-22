@@ -12,7 +12,7 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('Button', () => {
   test('renders correctly', () => {
     const button = create(
-      renderWithTheme(<Button modifier="primary">Primary Button</Button>)
+      renderWithTheme(<Button variant="primary">Primary Button</Button>)
     );
 
     expect(button).toMatchSnapshot();
@@ -21,7 +21,7 @@ describe('Button', () => {
   test('renders as fullWidth', () => {
     const button = create(
       renderWithTheme(
-        <Button modifier="primary" fullWidth>
+        <Button variant="primary" fullWidth>
           Full Width Primary Button
         </Button>
       )
@@ -33,7 +33,7 @@ describe('Button', () => {
   test('renders as disabled', () => {
     const button = create(
       renderWithTheme(
-        <Button modifier="primary" disabled>
+        <Button variant="primary" disabled>
           Disabled Primary Button
         </Button>
       )
@@ -45,7 +45,7 @@ describe('Button', () => {
   test('renders rounded', () => {
     const button = create(
       renderWithTheme(
-        <Button round modifier="primary" uppercase>
+        <Button round variant="primary" uppercase>
           Round Primary Button
         </Button>
       )
@@ -57,7 +57,7 @@ describe('Button', () => {
   test('renders uppercased', () => {
     const button = create(
       renderWithTheme(
-        <Button modifier="primary" uppercase>
+        <Button variant="primary" uppercase>
           Uppercase Primary Button
         </Button>
       )
@@ -69,7 +69,7 @@ describe('Button', () => {
   test('renders as an anchor tag', () => {
     const button = create(
       renderWithTheme(
-        <Button modifier="primary" as="a" href="#some-anchor">
+        <Button variant="primary" as="a" href="#some-anchor">
           Primary Button (Anchor)
         </Button>
       )
@@ -78,10 +78,10 @@ describe('Button', () => {
     expect(button).toMatchSnapshot();
   });
 
-  describe('Modifiers', () => {
+  describe('variants', () => {
     test('renders as primary', () => {
       const button = create(
-        renderWithTheme(<Button modifier="primary">Primary Button</Button>)
+        renderWithTheme(<Button variant="primary">Primary Button</Button>)
       );
 
       expect(button).toMatchSnapshot();
@@ -89,7 +89,7 @@ describe('Button', () => {
 
     test('renders as highlight', () => {
       const button = create(
-        renderWithTheme(<Button modifier="highlight">Secondary Button</Button>)
+        renderWithTheme(<Button variant="highlight">Secondary Button</Button>)
       );
 
       expect(button).toMatchSnapshot();
@@ -97,7 +97,7 @@ describe('Button', () => {
 
     test('renders as secondary', () => {
       const button = create(
-        renderWithTheme(<Button modifier="secondary">Optional Button</Button>)
+        renderWithTheme(<Button variant="secondary">Optional Button</Button>)
       );
 
       expect(button).toMatchSnapshot();
@@ -105,17 +105,17 @@ describe('Button', () => {
 
     test('renders as optional', () => {
       const button = create(
-        renderWithTheme(<Button modifier="optional">Optional Button</Button>)
+        renderWithTheme(<Button variant="optional">Optional Button</Button>)
       );
 
       expect(button).toMatchSnapshot();
     });
 
-    describe('Modifiers MockStates', () => {
+    describe('variants MockStates', () => {
       test('Primary renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="primary" mockState="hover">
+            <Button variant="primary" mockState="hover">
               Hover Primary Button
             </Button>
           )
@@ -127,7 +127,7 @@ describe('Button', () => {
       test('Primary renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="primary" mockState="active">
+            <Button variant="primary" mockState="active">
               Active Primary Button
             </Button>
           )
@@ -139,7 +139,7 @@ describe('Button', () => {
       test('Highlight renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="highlight" mockState="hover">
+            <Button variant="highlight" mockState="hover">
               Hover Highlight Button
             </Button>
           )
@@ -151,7 +151,7 @@ describe('Button', () => {
       test('Highlight renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="highlight" mockState="active">
+            <Button variant="highlight" mockState="active">
               Active Highlight Button
             </Button>
           )
@@ -163,7 +163,7 @@ describe('Button', () => {
       test('Secondary renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="secondary" mockState="hover">
+            <Button variant="secondary" mockState="hover">
               Hover Secondary Button
             </Button>
           )
@@ -175,7 +175,7 @@ describe('Button', () => {
       test('Secondary renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="secondary" mockState="active">
+            <Button variant="secondary" mockState="active">
               Active Secondary Button
             </Button>
           )
@@ -187,7 +187,7 @@ describe('Button', () => {
       test('Optional renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="optional" mockState="hover">
+            <Button variant="optional" mockState="hover">
               Hover Optional Button
             </Button>
           )
@@ -199,7 +199,7 @@ describe('Button', () => {
       test('Optional renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="optional" mockState="active">
+            <Button variant="optional" mockState="active">
               Active Optional Button
             </Button>
           )
@@ -210,11 +210,11 @@ describe('Button', () => {
     });
   });
 
-  describe('Modifiers', () => {
+  describe('variants', () => {
     test('renders outline as primary', () => {
       const button = create(
         renderWithTheme(
-          <Button modifier="primary" outline>
+          <Button variant="primary" outline>
             Primary Button
           </Button>
         )
@@ -226,7 +226,7 @@ describe('Button', () => {
     test('renders outline as highlight', () => {
       const button = create(
         renderWithTheme(
-          <Button modifier="highlight" outline>
+          <Button variant="highlight" outline>
             Highlight Button
           </Button>
         )
@@ -238,7 +238,7 @@ describe('Button', () => {
     test('renders outline as secondary', () => {
       const button = create(
         renderWithTheme(
-          <Button modifier="secondary" outline>
+          <Button variant="secondary" outline>
             Secondary Button
           </Button>
         )
@@ -250,7 +250,7 @@ describe('Button', () => {
     test('renders outline as optional', () => {
       const button = create(
         renderWithTheme(
-          <Button modifier="optional" outline>
+          <Button variant="optional" outline>
             Optional Button
           </Button>
         )
@@ -259,11 +259,11 @@ describe('Button', () => {
       expect(button).toMatchSnapshot();
     });
 
-    describe('Modifiers MockStates', () => {
+    describe('variants MockStates', () => {
       test('Primary outline renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="primary" mockState="hover" outline>
+            <Button variant="primary" mockState="hover" outline>
               Hover Primary Button
             </Button>
           )
@@ -275,7 +275,7 @@ describe('Button', () => {
       test('Primary outline renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="primary" mockState="active" outline>
+            <Button variant="primary" mockState="active" outline>
               Active Primary Button
             </Button>
           )
@@ -287,7 +287,7 @@ describe('Button', () => {
       test('Highlight outline renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="highlight" mockState="hover" outline>
+            <Button variant="highlight" mockState="hover" outline>
               Hover Primary Button
             </Button>
           )
@@ -299,7 +299,7 @@ describe('Button', () => {
       test('Highlight outline renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="highlight" mockState="active" outline>
+            <Button variant="highlight" mockState="active">
               Active Primary Button
             </Button>
           )
@@ -311,7 +311,7 @@ describe('Button', () => {
       test('Secondary renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="secondary" mockState="hover" outline>
+            <Button variant="secondary" mockState="hover">
               Hover Primary Button
             </Button>
           )
@@ -323,7 +323,7 @@ describe('Button', () => {
       test('Secondary renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="secondary" mockState="active" outline>
+            <Button variant="secondary" mockState="active">
               Active Primary Button
             </Button>
           )
@@ -335,7 +335,7 @@ describe('Button', () => {
       test('Optional renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="optional" mockState="hover" outline>
+            <Button variant="optional" mockState="hover">
               Hover Optional Button
             </Button>
           )
@@ -347,7 +347,7 @@ describe('Button', () => {
       test('Optional renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button modifier="optional" mockState="active" outline>
+            <Button variant="optional" mockState="active">
               Active Optional Button
             </Button>
           )
