@@ -88,10 +88,17 @@ exports[`Dialog default renders as visible when \`showDialog\` is set to \`true\
 }
 
 .c6 {
-  padding-top: 2.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width:50em) {
+  .c6 {
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 <div>
@@ -249,10 +256,17 @@ exports[`Dialog renders with custom \`maxWidth\` 1`] = `
 }
 
 .c6 {
-  padding-top: 2.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width:50em) {
+  .c6 {
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 <div>
