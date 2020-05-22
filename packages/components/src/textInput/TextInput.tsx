@@ -2,7 +2,9 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 import { Label } from '../private/label/label';
-import { Input } from '../private/input/input';
+
+import { Input } from './Input';
+import { InputError } from './Error';
 
 /**
  * Types & Settings
@@ -65,7 +67,10 @@ const TextInput: React.FC<TextInputProps> = ({
 
   return (
     <Label text={label} disabled={disabled}>
-      {TextInputInner()}
+      <>
+        {TextInputInner()}
+        {error && <InputError>{error}</InputError>}
+      </>
     </Label>
   );
 };

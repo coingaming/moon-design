@@ -39,11 +39,11 @@ exports[`Form renders a form combo 1`] = `
   position: relative;
 }
 
-.c5 .c7 {
+.c5 .c9 {
   border-radius: 6.25rem;
 }
 
-.c9 {
+.c8 {
   position: absolute;
   right: 0.28125rem;
   top: 0.28125rem;
@@ -56,198 +56,20 @@ exports[`Form renders a form combo 1`] = `
   font-size: 1rem;
 }
 
-.c8 {
-  width: 100%;
-  max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font: inherit;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: #FFFFFF;
-  background-color: #1A212A;
-  border: 1px solid #31373F;
-  border-radius: 4px;
-  -webkit-transition: border-color 0.2s ease;
-  transition: border-color 0.2s ease;
-  -webkit-appearance: none;
-}
-
-.c8::-webkit-input-placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c8::-moz-placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c8:-ms-input-placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c8::placeholder {
-  color: #8697A2;
-  opacity: 1;
-}
-
-.c8:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
-}
-
-.c8:not(:placeholder-shown):not([type="date"]):invalid {
-  border-color: #FF4E64;
-}
-
-.c8:invalid,
-.c8:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-.c8:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.c8:focus {
-  border-color: #0CD664;
-  outline: none;
-}
-
-@supports (grid-gap:0) {
-  .c3 {
-    display: grid;
-    grid-gap: 1rem;
-  }
-}
-
-@supports not (grid-gap:0) {
-  .c3 > * + * {
-    margin-top: 1rem;
-  }
-}
-
-<form
-  className="c0"
->
-  <fieldset
-    className="c1"
-  >
-    <legend
-      className="c2"
-    >
-      2FA
-    </legend>
-    <ul
-      className="c3"
-    >
-      <li
-        className=""
-      >
-        <div
-          className="c4"
-        >
-          <div
-            className="c5"
-          >
-            <label
-              className=""
-            >
-              <span
-                className="c6"
-              >
-                Enable Two Factor Authentication
-              </span>
-              <input
-                className="c7 c8"
-                placeholder="Enter code"
-                type="text"
-              />
-            </label>
-          </div>
-          <div
-            className="c9"
-          >
-            <button
-              type="submit"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </fieldset>
-</form>
-`;
-
-exports[`Form renders a form combo without a label 1`] = `
-.c3 > li {
-  list-style-type: none;
-}
-
-.c3 > li:before {
-  position: absolute;
-  content: "\\200B";
-}
-
-.c1 {
-  border: 0;
-}
-
-.c0 {
-  max-width: 25rem;
-  width: auto;
-}
-
-.c2 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.c4 {
-  display: block;
-  position: relative;
-}
-
-.c5 .c6 {
-  border-radius: 6.25rem;
-}
-
-.c8 {
-  position: absolute;
-  right: 0.28125rem;
-  top: 0.28125rem;
-}
-
 .c7 {
   width: 100%;
   max-width: 100%;
-  padding: 0.5625rem 0.9375rem;
+  padding: 0.5rem 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: #FFFFFF;
   background-color: #1A212A;
   border: 1px solid #31373F;
-  border-radius: 4px;
+  border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   -webkit-appearance: none;
@@ -332,14 +154,192 @@ exports[`Form renders a form combo without a label 1`] = `
           <div
             className="c5"
           >
+            <label
+              className=""
+            >
+              <span
+                className="c6"
+              >
+                Enable Two Factor Authentication
+              </span>
+              <input
+                className="c7"
+                placeholder="Enter code"
+                type="text"
+              />
+            </label>
+          </div>
+          <div
+            className="c8"
+          >
+            <button
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </fieldset>
+</form>
+`;
+
+exports[`Form renders a form combo without a label 1`] = `
+.c3 > li {
+  list-style-type: none;
+}
+
+.c3 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c1 {
+  border: 0;
+}
+
+.c0 {
+  max-width: 25rem;
+  width: auto;
+}
+
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c4 {
+  display: block;
+  position: relative;
+}
+
+.c5 .c8 {
+  border-radius: 6.25rem;
+}
+
+.c7 {
+  position: absolute;
+  right: 0.28125rem;
+  top: 0.28125rem;
+}
+
+.c6 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.c6::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c6::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c6::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c6:hover:not(:focus):not([disabled]) {
+  border-color: #4D5359;
+}
+
+.c6:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c6:invalid,
+.c6:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c6:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c6:focus {
+  border-color: #0CD664;
+  outline: none;
+}
+
+@supports (grid-gap:0) {
+  .c3 {
+    display: grid;
+    grid-gap: 1rem;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c3 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+<form
+  className="c0"
+>
+  <fieldset
+    className="c1"
+  >
+    <legend
+      className="c2"
+    >
+      2FA
+    </legend>
+    <ul
+      className="c3"
+    >
+      <li
+        className=""
+      >
+        <div
+          className="c4"
+        >
+          <div
+            className="c5"
+          >
             <input
-              className="c6 c7"
+              className="c6"
               placeholder="Enter code"
               type="text"
             />
           </div>
           <div
-            className="c8"
+            className="c7"
           >
             <button
               type="submit"

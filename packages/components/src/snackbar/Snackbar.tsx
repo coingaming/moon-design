@@ -27,6 +27,7 @@ const SnackbarWrapper = styled.div<any>(
       transform: 'translate(-50%, 0)',
       zIndex: zIndex.dialog,
       marginBottom: space.default,
+      minWidth: rem(180),
       maxWidth: `calc(100vw - ${space.default * 2}px)`,
       [mq(breakpoint.medium)]: {
         margin: space.default,

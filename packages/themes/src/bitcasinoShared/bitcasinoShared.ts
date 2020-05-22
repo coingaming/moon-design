@@ -4,7 +4,6 @@ import { Theme } from '../types/theme';
 import { Omit } from '../types/utils';
 import {
   ColorPiccolo,
-  ColorPopo,
   ColorGoten,
   ColorShared,
   ColorHit,
@@ -19,7 +18,7 @@ import shared from '../shared/shared';
  */
 type OmitColorScheme = Omit<Theme, 'colorScheme'>;
 type BitcasinoShared = Omit<OmitColorScheme, 'color'> & {
-  color: ColorPiccolo & ColorPopo & ColorHit & ColorGoten & ColorShared;
+  color: ColorPiccolo & ColorHit & ColorGoten & ColorShared;
 };
 
 const {
@@ -34,37 +33,23 @@ const {
   ...sharedTheme
 } = shared;
 
-const blues = {
-  100: '#1084F2',
-  80: '#1084F2',
-  60: '#2997FF',
-  40: '#41A2FF',
-  20: '#58AEFF',
-  10: '#88C5FF',
-};
-
 const bitcasinoShared: BitcasinoShared = {
   ...sharedTheme,
   brand: 'Bitcasino.io',
   color: {
     ...color,
     piccolo: {
-      100: '#FF5111',
-      80: '#FF5111',
-      60: '#FF7441',
-      40: '#FF895F',
-      20: '#FFA382',
-      10: '#FFBEA6',
+      120: '#F54100',
+      100: '#FF4F0F',
+      80: '#FA642E',
     },
-    hit: blues,
-    popo: blues,
+    hit: {
+      120: '#0679E5',
+      100: '#1286F3',
+      80: '#2F92EE',
+    },
     goten: {
       100: '#FFFFFF',
-      80: '#F3F5F6',
-      60: '#EDEFF1',
-      40: '#E7EAEC',
-      20: '#DBE0E3',
-      10: '#CFD5DA',
     },
   },
   fontFace: avertaStd.fontFace,
