@@ -1,1191 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Modifiers Modifiers MockStates Highlight outline renders as active 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0F75BD;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3F91CA;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3F91CA;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Highlight outline renders with hover 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0F75BD;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3F91CA;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3F91CA;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Highlight renders as active 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0F75BD;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3F91CA;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3F91CA;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Highlight Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Highlight renders with hover 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0F75BD;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3F91CA;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3F91CA;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Highlight Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Optional renders as active 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #8697A2;
-  background-color: #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Optional Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Optional renders as active 2`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #8697A2;
-  background-color: #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Optional Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Optional renders with hover 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #8697A2;
-  background-color: #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Optional Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Optional renders with hover 2`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #8697A2;
-  background-color: #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Optional Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Primary outline renders as active 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #66E59E;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #66E59E;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Primary outline renders with hover 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #66E59E;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #66E59E;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Primary renders as active 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #66E59E;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #66E59E;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Primary renders with hover 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #66E59E;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #66E59E;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Secondary renders as active 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #A4B1B9;
-  background-color: #1A212A;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Secondary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Secondary renders as active 2`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #A4B1B9;
-  background-color: #1A212A;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-active"
-  size="small"
->
-  Active Primary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #A4B1B9;
-  background-color: #1A212A;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Secondary Button
-</button>
-`;
-
-exports[`Button Modifiers Modifiers MockStates Secondary renders with hover 2`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #A4B1B9;
-  background-color: #1A212A;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0 is-hover"
-  size="small"
->
-  Hover Primary Button
-</button>
-`;
-
-exports[`Button Modifiers renders as highlight 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0F75BD;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3F91CA;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3F91CA;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Secondary Button
-</button>
-`;
-
-exports[`Button Modifiers renders as optional 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #8697A2;
-  background-color: #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Optional Button
-</button>
-`;
-
-exports[`Button Modifiers renders as primary 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #66E59E;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #66E59E;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Primary Button
-</button>
-`;
-
-exports[`Button Modifiers renders as secondary 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #A4B1B9;
-  background-color: #1A212A;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Optional Button
-</button>
-`;
-
-exports[`Button Modifiers renders outline as highlight 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0F75BD;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #3F91CA;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #3F91CA;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Highlight Button
-</button>
-`;
-
-exports[`Button Modifiers renders outline as optional 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #8697A2;
-  background-color: #31373F;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Optional Button
-</button>
-`;
-
-exports[`Button Modifiers renders outline as primary 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #FFFFFF;
-  background-color: #0CD664;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  background-color: #66E59E;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  background-color: #66E59E;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Primary Button
-</button>
-`;
-
-exports[`Button Modifiers renders outline as secondary 1`] = `
-.c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  color: #A4B1B9;
-  background-color: #1A212A;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
-}
-
-.c0:disabled,
-.c0[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c0.is-hover:not([disabled]),
-.c0:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c0.is-active,
-.c0.has-focus,
-.c0:active,
-.c0:focus {
-  color: #FFFFFF;
-}
-
-<button
-  className="c0"
-  size="small"
->
-  Secondary Button
-</button>
-`;
-
 exports[`Button renders as an anchor tag 1`] = `
 .c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
@@ -1195,8 +13,8 @@ exports[`Button renders as an anchor tag 1`] = `
   color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .c0:disabled,
@@ -1207,14 +25,14 @@ exports[`Button renders as an anchor tag 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #66E59E;
+  background-color: #50E190;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #66E59E;
+  background-color: #0CD664;
 }
 
 <a
@@ -1228,14 +46,8 @@ exports[`Button renders as an anchor tag 1`] = `
 
 exports[`Button renders as disabled 1`] = `
 .c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
@@ -1245,8 +57,8 @@ exports[`Button renders as disabled 1`] = `
   color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .c0:disabled,
@@ -1257,14 +69,14 @@ exports[`Button renders as disabled 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #66E59E;
+  background-color: #50E190;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #66E59E;
+  background-color: #0CD664;
 }
 
 <button
@@ -1278,26 +90,21 @@ exports[`Button renders as disabled 1`] = `
 
 exports[`Button renders as fullWidth 1`] = `
 .c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
   width: 100%;
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid;
   border-color: transparent;
   border-radius: 6.25rem;
+  position: relative;
   color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .c0:disabled,
@@ -1308,14 +115,14 @@ exports[`Button renders as fullWidth 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #66E59E;
+  background-color: #50E190;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #66E59E;
+  background-color: #0CD664;
 }
 
 <button
@@ -1328,14 +135,8 @@ exports[`Button renders as fullWidth 1`] = `
 
 exports[`Button renders correctly 1`] = `
 .c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
@@ -1345,8 +146,8 @@ exports[`Button renders correctly 1`] = `
   color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .c0:disabled,
@@ -1357,14 +158,14 @@ exports[`Button renders correctly 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #66E59E;
+  background-color: #50E190;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #66E59E;
+  background-color: #0CD664;
 }
 
 <button
@@ -1377,14 +178,8 @@ exports[`Button renders correctly 1`] = `
 
 exports[`Button renders rounded 1`] = `
 .c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -1395,8 +190,8 @@ exports[`Button renders rounded 1`] = `
   color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .c0:disabled,
@@ -1407,14 +202,14 @@ exports[`Button renders rounded 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #66E59E;
+  background-color: #50E190;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #66E59E;
+  background-color: #0CD664;
 }
 
 <button
@@ -1427,14 +222,8 @@ exports[`Button renders rounded 1`] = `
 
 exports[`Button renders uppercased 1`] = `
 .c0 {
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
   font-family: inherit;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.125rem;
-  text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -1445,8 +234,8 @@ exports[`Button renders uppercased 1`] = `
   color: #FFFFFF;
   background-color: #0CD664;
   font-size: 0.875rem;
-  line-height: 1.0625rem;
-  padding: 0.5rem 2rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .c0:disabled,
@@ -1457,14 +246,14 @@ exports[`Button renders uppercased 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #66E59E;
+  background-color: #50E190;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #66E59E;
+  background-color: #0CD664;
 }
 
 <button
@@ -1472,5 +261,736 @@ exports[`Button renders uppercased 1`] = `
   size="small"
 >
   Uppercase Primary Button
+</button>
+`;
+
+exports[`Button variants renders as highlight 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #2783C4;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0F75BD;
+}
+
+<button
+  className="c0"
+  size="small"
+>
+  Secondary Button
+</button>
+`;
+
+exports[`Button variants renders as optional 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #8697A2;
+  background-color: #31373F;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0"
+  size="small"
+>
+  Optional Button
+</button>
+`;
+
+exports[`Button variants renders as primary 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0CD664;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #50E190;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0CD664;
+}
+
+<button
+  className="c0"
+  size="small"
+>
+  Primary Button
+</button>
+`;
+
+exports[`Button variants renders as secondary 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #31373F;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #1A212A;
+}
+
+<button
+  className="c0"
+  size="small"
+>
+  Optional Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Highlight outline renders as active 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #2783C4;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0F75BD;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Primary Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Highlight renders as active 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #2783C4;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0F75BD;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Highlight Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Highlight renders with hover 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0F75BD;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #2783C4;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0F75BD;
+}
+
+<button
+  className="c0 is-hover"
+  size="small"
+>
+  Hover Highlight Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Optional renders as active 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #8697A2;
+  background-color: #31373F;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Optional Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Optional renders as active 2`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #8697A2;
+  background-color: #31373F;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Optional Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Optional renders with hover 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #8697A2;
+  background-color: #31373F;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0 is-hover"
+  size="small"
+>
+  Hover Optional Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Optional renders with hover 2`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #8697A2;
+  background-color: #31373F;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0 is-hover"
+  size="small"
+>
+  Hover Optional Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Primary renders as active 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0CD664;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #50E190;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0CD664;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Primary Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Primary renders with hover 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #0CD664;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #50E190;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #0CD664;
+}
+
+<button
+  className="c0 is-hover"
+  size="small"
+>
+  Hover Primary Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Secondary renders as active 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #31373F;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #1A212A;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Secondary Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Secondary renders as active 2`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #31373F;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #1A212A;
+}
+
+<button
+  className="c0 is-active"
+  size="small"
+>
+  Active Primary Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Secondary renders with hover 1`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #31373F;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #1A212A;
+}
+
+<button
+  className="c0 is-hover"
+  size="small"
+>
+  Hover Secondary Button
+</button>
+`;
+
+exports[`Button variants variants MockStates Secondary renders with hover 2`] = `
+.c0 {
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.c0:disabled,
+.c0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  background-color: #31373F;
+}
+
+.c0.is-active,
+.c0.has-focus,
+.c0:active,
+.c0:focus {
+  background-color: #1A212A;
+}
+
+<button
+  className="c0 is-hover"
+  size="small"
+>
+  Hover Primary Button
 </button>
 `;
