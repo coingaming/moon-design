@@ -1,6 +1,6 @@
 import { CSSObject } from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
-import { Theme } from '@heathmont/sportsbet-themes';
+import { rem } from '@heathmont/moon-utils';
+import { Theme } from '@heathmont/moon-themes';
 
 /**
  * 1. Prevent automatic zooming of fonts on some mobile devices.

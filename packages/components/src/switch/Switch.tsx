@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
-import { rem, uniqueId, inlineSvg } from '@heathmont/sportsbet-utils';
+import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import { hideVisually } from 'polished';
-import { ColorScheme } from '@heathmont/sportsbet-themes';
-import { IconMoon, IconSun } from '@heathmont/sportsbet-assets';
+import { ColorScheme } from '@heathmont/moon-themes';
+import { IconMoon, IconSun } from '@heathmont/moon-assets';
 
 import Inline from '../inline/Inline';
 

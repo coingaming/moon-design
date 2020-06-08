@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { disabled, rem } from '@heathmont/sportsbet-utils';
-import { IconSuccess } from '@heathmont/sportsbet-assets';
-import { useTheme } from '@heathmont/sportsbet-themes';
+import { disabled, rem } from '@heathmont/moon-utils';
+import { IconSuccess } from '@heathmont/moon-assets';
+import { useTheme } from '@heathmont/moon-themes';
 
 import Loader from '../loader/Loader';
 

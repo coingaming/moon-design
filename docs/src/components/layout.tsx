@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import padding from 'polished/lib/shorthands/padding';
-import { Global } from '@heathmont/sportsbet-global';
-import { mq, rem } from '@heathmont/sportsbet-utils';
+import { Global } from '@heathmont/moon-global';
+import { mq, rem } from '@heathmont/moon-utils';
 
 import { Children } from '../types';
 

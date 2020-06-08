@@ -1,5 +1,5 @@
 import { CSSObject } from 'styled-components';
-import { Theme } from '@heathmont/sportsbet-themes';
+import { Theme } from '@heathmont/moon-themes';
 
 import { buttonActive, buttonHover } from './states';
 

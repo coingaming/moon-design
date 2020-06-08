@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/moon-utils';
 
 export const Playground = styled.div(
   ({ theme: { border, color, radius, space } }) => ({

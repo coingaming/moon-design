@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/sportsbet-themes';
-import { themed } from '@heathmont/sportsbet-utils';
+import { ColorProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -22,7 +22,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M16 8.9c-.28 0-.53.11-.71.29L11 13.49l-2.29-2.3a1.003 1.003 0 0 0-1.42 1.42l3 3c.18.18.43.29.71.29.28 0 .53-.11.71-.29l5-5A1.003 1.003 0 0 0 16 8.9z"
+      d="M16 8.9c-.28 0-.53.11-.71.29L11 13.49l-2.29-2.3a1.003 1.003 0 00-1.42 1.42l3 3c.18.18.43.29.71.29.28 0 .53-.11.71-.29l5-5A1.003 1.003 0 0016 8.9z"
       fill="#fff"
     />
   </svg>
