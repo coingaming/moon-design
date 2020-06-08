@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { rem, inlineSvg } from '@heathmont/sportsbet-utils';
+import { rem, inlineSvg } from '@heathmont/moon-utils';
 
 type InputProps = {
   withIcon?: boolean;

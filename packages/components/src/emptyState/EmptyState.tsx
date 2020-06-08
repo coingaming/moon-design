@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { rem, mq } from '@heathmont/sportsbet-utils';
+import { rem, mq } from '@heathmont/moon-utils';
 
 type EmptyStateProps = {
   title: any;

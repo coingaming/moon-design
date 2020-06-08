@@ -6,7 +6,7 @@ import {
   bitcasinoLight,
   bitcasinoPurple,
   Theme,
-} from '@heathmont/sportsbet-themes';
+} from '@heathmont/moon-themes';
 
 const themes: DocsThemes = {
   sportsbet: {

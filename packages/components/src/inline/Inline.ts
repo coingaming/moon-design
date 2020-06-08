@@ -1,6 +1,6 @@
 import styled, { CSSObject } from 'styled-components';
-import { themed } from '@heathmont/sportsbet-utils';
-import { SpaceProps } from '@heathmont/sportsbet-themes';
+import { themed } from '@heathmont/moon-utils';
+import { SpaceProps } from '@heathmont/moon-themes';
 
 import inlineMixin from '../inlineMixin/inlineMixin';
 

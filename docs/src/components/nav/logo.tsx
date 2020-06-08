@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
-import { LogoSportsbet, IconChevronDown } from '@heathmont/sportsbet-assets';
-import { mq } from '@heathmont/sportsbet-utils';
-import { useTheme } from '@heathmont/sportsbet-themes';
+import { LogoSportsbet, IconChevronDown } from '@heathmont/moon-assets';
+import { mq } from '@heathmont/moon-utils';
+import { useTheme } from '@heathmont/moon-themes';
 
 import { useDocsTheme } from '../../provider';
 

@@ -2,10 +2,10 @@ import * as React from 'react';
 import styled from 'styled-components';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
-import * as Assets from '@heathmont/sportsbet-assets';
-import * as Components from '@heathmont/sportsbet-components';
-import * as Utils from '@heathmont/sportsbet-utils';
-import { useTheme } from '@heathmont/sportsbet-themes';
+import * as Assets from '@heathmont/moon-assets';
+import * as Components from '@heathmont/moon-components';
+import * as Utils from '@heathmont/moon-utils';
+import { useTheme } from '@heathmont/moon-themes';
 
 import { prismTheme } from './prism';
 
