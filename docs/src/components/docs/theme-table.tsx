@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { useTheme } from '@heathmont/sportsbet-themes';
-import { rem } from '@heathmont/sportsbet-utils';
+import { useTheme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
 
 const Table = styled.table(
   ({ theme: { border, color, fontWeight, space } }) => ({

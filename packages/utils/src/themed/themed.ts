@@ -1,6 +1,6 @@
 import has from 'lodash.has';
 import get from 'lodash.get';
-import { Theme } from '@heathmont/sportsbet-themes';
+import { Theme } from '@heathmont/moon-themes';
 
 import rem from '../rem/rem';
 

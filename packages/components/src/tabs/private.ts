@@ -1,4 +1,4 @@
-import { Theme } from '@heathmont/sportsbet-themes';
+import { Theme } from '@heathmont/moon-themes';
 
 const underlineWidth = ({ borderWidth }: Theme) => borderWidth * 2; // 'px'
 const totalUnderlineOffset = 16; // 'px'

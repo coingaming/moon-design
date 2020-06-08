@@ -1,5 +1,5 @@
 import { CSSObject } from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/moon-utils';
 
 type ButtonSizes = keyof ButtonSizeStyles;
 

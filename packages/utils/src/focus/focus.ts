@@ -1,5 +1,5 @@
 import { CSSObject } from 'styled-components';
-import { shared } from '@heathmont/sportsbet-themes';
+import { shared } from '@heathmont/moon-themes';
 
 import rem from '../rem/rem';
 
