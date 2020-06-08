@@ -43,7 +43,7 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
     },
     tertiary: {
       color: color.bulma[100],
-      backgroundColor: color.gohan[80],
+      backgroundColor: 'inherit',
       border: `1px solid ${color.piccolo[100]}`,
       ...buttonHover({
         backgroundColor: color.piccolo[100],
