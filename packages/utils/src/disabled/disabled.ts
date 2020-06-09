@@ -1,5 +1,5 @@
 import { CSSObject } from 'styled-components';
-import { shared } from '@heathmont/sportsbet-themes';
+import { shared } from '@heathmont/moon-themes';
 
 /**
  * Accepts either an opacity (as a number), or nested styles as a CSS Object.

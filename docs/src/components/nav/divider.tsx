@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import margin from 'polished/lib/shorthands/margin';
-import { rem } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/moon-utils';
 
 export const Divider = styled.hr(
   ({ theme: { borderStyle, borderWidth, color, space } }) => ({

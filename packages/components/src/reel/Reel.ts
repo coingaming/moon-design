@@ -1,6 +1,6 @@
 import styled, { CSSObject } from 'styled-components';
-import { themed, rem } from '@heathmont/sportsbet-utils';
-import { SpaceProps } from '@heathmont/sportsbet-themes';
+import { themed, rem } from '@heathmont/moon-utils';
+import { SpaceProps } from '@heathmont/moon-themes';
 
 import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 

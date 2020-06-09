@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
-import { IconChevronLeft } from '@heathmont/sportsbet-assets';
-import { SpaceProps } from '@heathmont/sportsbet-themes';
+import { IconChevronLeft } from '@heathmont/moon-assets';
+import { SpaceProps } from '@heathmont/moon-themes';
 
 import Reel from '../reel/Reel';
 import { withHorizontalScroll } from '../withHorizontalScroll/withHorizontalScroll';

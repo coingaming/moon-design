@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/moon-utils';
 
 const FormError = styled.p(({ theme: { color, space } }) => ({
   display: 'inline-block',

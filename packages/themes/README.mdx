@@ -30,8 +30,8 @@ integral style foundations for your app.
 ```jsx
 /* App.tsx */
 import * as React from 'react';
-import { Global } from '@heathmont/sportsbet-global';
-import { ThemeProvider, sportsbetDark } from '@heathmont/sportsbet-themes';
+import { Global } from '@heathmont/moon-global';
+import { ThemeProvider, sportsbetDark } from '@heathmont/moon-themes';
 
 export const App = () => (
   <ThemeProvider theme={sportsbetDark}>
@@ -54,7 +54,7 @@ To make use of extra features (such as auto-completion in VSCode), create a
 ```js
 /* types/styled-components.d.ts */
 import 'styled-components';
-import { Theme } from '@heathmont/sportsbet-themes';
+import { Theme } from '@heathmont/moon-themes';
 
 declare module 'styled-components' {
   export interface DefaultTheme extends Theme {}
@@ -92,7 +92,7 @@ The `useTheme` helper function returns the current theme from the theme context:
 
 ```jsx
 import * as React from 'react';
-import { useTheme } from '@heathmont/sportsbet-themes';
+import { useTheme } from '@heathmont/moon-themes';
 
 const Example = () => {
   const theme = useTheme();
@@ -105,7 +105,7 @@ or for more manual control:
 
 ```jsx
 import * as React from 'react';
-import { ThemeContext } from '@heathmont/sportsbet-themes';
+import { ThemeContext } from '@heathmont/moon-themes';
 
 const Example = () => {
   const theme = React.useContext(ThemeContext);
