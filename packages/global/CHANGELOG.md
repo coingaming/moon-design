@@ -7,73 +7,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
 
-
-
-
-
 ## [2.9.2](https://github.com/coingaming/sportsbet-design/compare/v2.9.1...v2.9.2) (2020-04-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
 
-
-
-
-
 # [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
-
 
 ### Features
 
-* **global:** capitalize Global ([02445db](https://github.com/coingaming/sportsbet-design/commit/02445db))
-* **global:** flat structure ([619959f](https://github.com/coingaming/sportsbet-design/commit/619959f))
-* **globals:** tree shaking for globals ([15cf684](https://github.com/coingaming/sportsbet-design/commit/15cf684))
-
-
-
-
+- **global:** capitalize Global ([02445db](https://github.com/coingaming/sportsbet-design/commit/02445db))
+- **global:** flat structure ([619959f](https://github.com/coingaming/sportsbet-design/commit/619959f))
+- **globals:** tree shaking for globals ([15cf684](https://github.com/coingaming/sportsbet-design/commit/15cf684))
 
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
 
-
-
-
-
 # [1.0.0](https://github.com/coingaming/sportsbet-design/compare/v0.111.1...v1.0.0) (2020-02-14)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
-
-
-
-
 
 # [0.111.0](https://github.com/coingaming/sportsbet-design/compare/v0.110.0...v0.111.0) (2020-01-31)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
 
-
-
-
-
 # [0.110.0](https://github.com/coingaming/sportsbet-design/compare/v0.109.0...v0.110.0) (2020-01-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-global
 
-
-
-
-
 # [0.109.0](https://github.com/coingaming/sportsbet-design/compare/v0.108.2...v0.109.0) (2020-01-29)
-
 
 ### Features
 
-* SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
-
-
-
-
+- SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
 
 # [0.108.0](https://github.com/coingaming/sportsbet-design/compare/v0.107.1...v0.108.0) (2020-01-23)
 
