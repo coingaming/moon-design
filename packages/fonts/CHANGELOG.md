@@ -5,58 +5,32 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
 
-
 ### Features
 
-* **fonts:** flat structure ([8647242](https://github.com/coingaming/sportsbet-design/commit/8647242))
-* tree shaking ([25f3d12](https://github.com/coingaming/sportsbet-design/commit/25f3d12))
-
-
-
-
+- **fonts:** flat structure ([8647242](https://github.com/coingaming/sportsbet-design/commit/8647242))
+- tree shaking ([25f3d12](https://github.com/coingaming/sportsbet-design/commit/25f3d12))
 
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
 
-
-
-
-
 # [1.0.0](https://github.com/coingaming/sportsbet-design/compare/v0.111.1...v1.0.0) (2020-02-14)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
-
-
-
-
 
 # [0.111.0](https://github.com/coingaming/sportsbet-design/compare/v0.110.0...v0.111.0) (2020-01-31)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
 
-
-
-
-
 # [0.110.0](https://github.com/coingaming/sportsbet-design/compare/v0.109.0...v0.110.0) (2020-01-30)
 
 **Note:** Version bump only for package @heathmont/sportsbet-fonts
 
-
-
-
-
 # [0.109.0](https://github.com/coingaming/sportsbet-design/compare/v0.108.2...v0.109.0) (2020-01-29)
-
 
 ### Features
 
-* SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
-
-
-
-
+- SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
 
 # [0.108.0](https://github.com/coingaming/sportsbet-design/compare/v0.107.1...v0.108.0) (2020-01-23)
 
