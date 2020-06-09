@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { disabled } from '@heathmont/sportsbet-utils';
+import { disabled } from '@heathmont/moon-utils';
 
 type LinkProps = {
   disabled?: boolean;

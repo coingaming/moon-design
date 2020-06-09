@@ -21,8 +21,8 @@ function template(
   return typeScriptTpl.ast`
     import * as React from 'react';
     import styled from 'styled-components';
-    import { ColorProps } from '@heathmont/sportsbet-themes';
-    import { themed } from '@heathmont/sportsbet-utils';
+    import { ColorProps } from '@heathmont/moon-themes';
+    import { themed } from '@heathmont/moon-utils';
 
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 

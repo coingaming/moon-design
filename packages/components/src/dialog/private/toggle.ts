@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { hideVisually } from 'polished';
-import { focus, rem } from '@heathmont/sportsbet-utils';
+import { focus, rem } from '@heathmont/moon-utils';
 
 export const DialogToggle = styled.button(
   ({ theme: { border, color, opacity, radius, space } }) => ({

@@ -14,7 +14,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "@heathmont/sportsbet-*": ["./packages/*/src", "./docs/src"]
+      "@heathmont/moon-*": ["./packages/*/src", "./docs/src"]
     },
     "types": ["node", "jest"]
   }
