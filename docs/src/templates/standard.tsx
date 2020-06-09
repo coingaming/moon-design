@@ -1,15 +1,13 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-/* eslint-disable import/no-named-default */
-import { default as MDXRenderer } from 'gatsby-mdx/mdx-renderer';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
+/* eslint-disable import/no-named-default */
 import { default as Layout } from '../components/layout';
 /* eslint-enable */
 
 type MDX = {
-  code: {
-    body: string;
-  };
+  body: string;
 };
 
 type Data = {
@@ -21,7 +19,7 @@ type Data = {
 export default ({ data: { mdx } }: Data) => {
   return (
     <Layout>
-      <MDXRenderer>{mdx.code.body}</MDXRenderer>
+      <MDXRenderer>{mdx.body}</MDXRenderer>
     </Layout>
   );
 };
@@ -30,11 +28,9 @@ export const pageQuery = graphql`
   query($id: String) {
     mdx(id: { eq: $id }) {
       id
+      body
       frontmatter {
         title
-      }
-      code {
-        body
       }
     }
   }

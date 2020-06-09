@@ -17,7 +17,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       },
       resolve: {
         alias: packages.reduce((acc, packageName) => {
-          acc[`@heathmont/sportsbet-${packageName}`] = path.resolve(
+          acc[`@heathmont/moon-${packageName}`] = path.resolve(
             __dirname,
             '..',
             'packages',

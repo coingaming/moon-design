@@ -1,4 +1,4 @@
-import { avertaStd } from '@heathmont/sportsbet-fonts';
+import { avertaStd } from '@heathmont/moon-fonts';
 
 import { Theme } from '../types/theme';
 import { Omit } from '../types/utils';

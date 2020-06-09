@@ -4,7 +4,7 @@ import {
   DialogOverlay as ReachDialogOverlay,
   DialogContent as ReachDialogContent,
 } from '@reach/dialog';
-import { mq } from '@heathmont/sportsbet-utils';
+import { mq } from '@heathmont/moon-utils';
 
 import { DialogPosition, DialogMaxWidth } from './types';
 

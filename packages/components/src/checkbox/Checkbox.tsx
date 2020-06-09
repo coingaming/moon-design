@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { uniqueId, inlineSvg, rem } from '@heathmont/sportsbet-utils';
-import { Theme } from '@heathmont/sportsbet-themes';
+import { uniqueId, inlineSvg, rem } from '@heathmont/moon-utils';
+import { Theme } from '@heathmont/moon-themes';
 
 import { LabelText } from '../private/label/label';
 import { inputColors, inputBorderWidth } from '../private/input/settings';

@@ -1,4 +1,4 @@
-import { useTheme, SpaceProps } from '@heathmont/sportsbet-themes';
+import { useTheme, SpaceProps } from '@heathmont/moon-themes';
 
 import rem from '../rem/rem';
 
