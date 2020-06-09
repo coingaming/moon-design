@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
 const path = require('path');
 
-const { sportsbetDark } = require('@heathmont/moon-themes');
+// const { sportsbetDark } = require('@heathmont/moon-themes');
 
 const { siteTitle, description, author } = require('./config');
 
@@ -54,18 +54,18 @@ module.exports = {
       },
     },
     'gatsby-transformer-json',
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: siteTitle,
-        short_name: siteTitle,
-        start_url: '/',
-        background_color: sportsbetDark.color.piccolo[100],
-        theme_color: sportsbetDark.color.piccolo[100],
-        display: 'minimal-ui',
-        icon: 'src/images/icon.png', // This path is relative to the root of the site.
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: siteTitle,
+    //     short_name: siteTitle,
+    //     start_url: '/',
+    //     background_color: sportsbetDark.color.piccolo[100],
+    //     theme_color: sportsbetDark.color.piccolo[100],
+    //     display: 'minimal-ui',
+    //     icon: 'src/images/icon.png', // This path is relative to the root of the site.
+    //   },
+    // },
     `gatsby-plugin-typescript`,
     'gatsby-plugin-offline',
   ],
