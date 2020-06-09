@@ -24,252 +24,127 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.12.0](https://github.com/coingaming/sportsbet-design/compare/v2.11.2...v2.12.0) (2020-05-20)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.11.2](https://github.com/coingaming/sportsbet-design/compare/v2.11.1...v2.11.2) (2020-05-11)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.11.1](https://github.com/coingaming/sportsbet-design/compare/v2.11.0...v2.11.1) (2020-05-08)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [2.11.0](https://github.com/coingaming/sportsbet-design/compare/v2.10.0...v2.11.0) (2020-05-06)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.10.0](https://github.com/coingaming/sportsbet-design/compare/v2.9.2...v2.10.0) (2020-05-04)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.9.2](https://github.com/coingaming/sportsbet-design/compare/v2.9.1...v2.9.2) (2020-04-30)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.9.1](https://github.com/coingaming/sportsbet-design/compare/v2.9.0...v2.9.1) (2020-04-30)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [2.9.0](https://github.com/coingaming/sportsbet-design/compare/v2.8.1...v2.9.0) (2020-04-29)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.8.1](https://github.com/coingaming/sportsbet-design/compare/v2.8.0...v2.8.1) (2020-04-22)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [2.8.0](https://github.com/coingaming/sportsbet-design/compare/v2.7.0...v2.8.0) (2020-04-21)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.7.0](https://github.com/coingaming/sportsbet-design/compare/v2.6.0...v2.7.0) (2020-04-20)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [2.6.0](https://github.com/coingaming/sportsbet-design/compare/v2.5.0...v2.6.0) (2020-04-16)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.5.0](https://github.com/coingaming/sportsbet-design/compare/v2.4.1...v2.5.0) (2020-04-13)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.4.1](https://github.com/coingaming/sportsbet-design/compare/v2.4.0...v2.4.1) (2020-04-13)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.4.0](https://github.com/coingaming/sportsbet-design/compare/v2.3.1...v2.4.0) (2020-04-09)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.3.1](https://github.com/coingaming/sportsbet-design/compare/v2.3.0...v2.3.1) (2020-04-03)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.3.0](https://github.com/coingaming/sportsbet-design/compare/v2.2.1...v2.3.0) (2020-03-31)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.2.1](https://github.com/coingaming/sportsbet-design/compare/v2.2.0...v2.2.1) (2020-03-26)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.1.1](https://github.com/coingaming/sportsbet-design/compare/v2.1.0...v2.1.1) (2020-03-23)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.1.0](https://github.com/coingaming/sportsbet-design/compare/v2.0.0...v2.1.0) (2020-03-19)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [1.3.0](https://github.com/coingaming/sportsbet-design/compare/v1.2.0...v1.3.0) (2020-02-19)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [1.2.0](https://github.com/coingaming/sportsbet-design/compare/v1.1.0...v1.2.0) (2020-02-14)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [1.1.0](https://github.com/coingaming/sportsbet-design/compare/v1.0.0...v1.1.0) (2020-02-14)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [1.0.0](https://github.com/coingaming/sportsbet-design/compare/v0.111.1...v1.0.0) (2020-02-14)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [0.111.1](https://github.com/coingaming/sportsbet-design/compare/v0.111.0...v0.111.1) (2020-01-31)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [0.111.0](https://github.com/coingaming/sportsbet-design/compare/v0.110.0...v0.111.0) (2020-01-31)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.110.0](https://github.com/coingaming/sportsbet-design/compare/v0.109.0...v0.110.0) (2020-01-30)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [0.109.0](https://github.com/coingaming/sportsbet-design/compare/v0.108.2...v0.109.0) (2020-01-29)
-
 
 ### Features
 
-* SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
-
-
-
-
+- SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/sportsbet-design/issues/673)) ([65394cb](https://github.com/coingaming/sportsbet-design/commit/65394cb))
 
 ## [0.108.2](https://github.com/coingaming/sportsbet-design/compare/v0.108.1...v0.108.2) (2020-01-24)
 
