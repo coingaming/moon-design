@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { rem, themed } from '@heathmont/sportsbet-utils';
-import { ColorProps } from '@heathmont/sportsbet-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import { ColorProps } from '@heathmont/moon-themes';
 
 export type BadgeProps = {
   color?: ColorProps;

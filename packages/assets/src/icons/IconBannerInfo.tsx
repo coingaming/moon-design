@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/sportsbet-themes';
-import { themed } from '@heathmont/sportsbet-utils';
+import { ColorProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -14,7 +14,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   >
     <rect x={2} y={2} width={20} height={20} rx={10} fill="#1084F2" />
     <path
-      d="M12.234 8.46c-.392 0-.667-.08-.826-.238a.825.825 0 0 1-.224-.588V7.34c0-.233.075-.43.224-.588.159-.159.43-.238.812-.238.392 0 .663.08.812.238a.799.799 0 0 1 .238.588v.294c0 .233-.08.43-.238.588-.15.159-.415.238-.798.238zM9 15.768h2.464v-4.76H9V9.776h3.99v5.992h2.31V17H9v-1.232z"
+      d="M12.234 8.46c-.392 0-.667-.08-.826-.238a.825.825 0 01-.224-.588V7.34c0-.233.075-.43.224-.588.159-.159.43-.238.812-.238.392 0 .663.08.812.238a.799.799 0 01.238.588v.294c0 .233-.08.43-.238.588-.15.159-.415.238-.798.238zM9 15.768h2.464v-4.76H9V9.776h3.99v5.992h2.31V17H9v-1.232z"
       fill="#fff"
     />
   </svg>

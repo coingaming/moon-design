@@ -1,4 +1,4 @@
-import { Theme } from '@heathmont/sportsbet-themes';
+import { Theme } from '@heathmont/moon-themes';
 
 const inputBorderWidth = ({ borderWidth }: Theme) => borderWidth;
 const inputAnimationSpeed = ({ transitionDuration }: Theme) =>

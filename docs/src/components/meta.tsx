@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { graphql, StaticQuery } from 'gatsby';
 import { cdnUrl } from '@heathmont/sportsbet-cdn';
-import { avertaStd } from '@heathmont/sportsbet-fonts';
+import { avertaStd } from '@heathmont/moon-fonts';
 
 const metaQuery = graphql`
   query {

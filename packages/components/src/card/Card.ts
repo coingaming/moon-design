@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import padding from 'polished/lib/shorthands/padding';
-import { inlineSvg, InlineSVGProps, rem } from '@heathmont/sportsbet-utils';
+import { inlineSvg, InlineSVGProps, rem } from '@heathmont/moon-utils';
 
 import { cardGradientSizes } from './utils';
 

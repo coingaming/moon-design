@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
-import { IconCurrencyBtc } from '@heathmont/sportsbet-assets';
-import { sportsbetDark, ThemeProvider } from '@heathmont/sportsbet-themes';
+import { IconCurrencyBtc } from '@heathmont/moon-assets';
+import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>

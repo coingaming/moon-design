@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import styled from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/moon-utils';
 
 import { Frontmatter } from '../../types';
 
