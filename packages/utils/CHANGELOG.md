@@ -18,32 +18,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/sportsbet-utils
 
-
-
-
-
 ## [2.9.2](https://github.com/coingaming/sportsbet-design/compare/v2.9.1...v2.9.2) (2020-04-30)
-
 
 ### Bug Fixes
 
-* **utils:** fix inlineSvg ([c6c956f](https://github.com/coingaming/sportsbet-design/commit/c6c956f))
-
-
-
-
+- **utils:** fix inlineSvg ([c6c956f](https://github.com/coingaming/sportsbet-design/commit/c6c956f))
 
 # [2.2.0](https://github.com/coingaming/sportsbet-design/compare/v2.1.1...v2.2.0) (2020-03-24)
 
-
 ### Features
 
-* **utils:** flat structure for utils ([da110f2](https://github.com/coingaming/sportsbet-design/commit/da110f2))
-* tree shaking ([25f3d12](https://github.com/coingaming/sportsbet-design/commit/25f3d12))
-
-
-
-
+- **utils:** flat structure for utils ([da110f2](https://github.com/coingaming/sportsbet-design/commit/da110f2))
+- tree shaking ([25f3d12](https://github.com/coingaming/sportsbet-design/commit/25f3d12))
 
 # [2.0.0](https://github.com/coingaming/sportsbet-design/compare/v1.3.0...v2.0.0) (2020-02-27)
 
