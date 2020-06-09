@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/sportsbet-themes';
-import { themed } from '@heathmont/sportsbet-utils';
+import { ColorProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -23,7 +23,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path d="M10 0v12" stroke="#31373F" strokeMiterlimit={10} />
     <path
-      d="M0 3h3.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H0M20 3h-3.5a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5H20"
+      d="M0 3h3.5a.5.5 0 01.5.5v5a.5.5 0 01-.5.5H0M20 3h-3.5a.5.5 0 00-.5.5v5a.5.5 0 00.5.5H20"
       stroke="currentColor"
       strokeMiterlimit={10}
     />

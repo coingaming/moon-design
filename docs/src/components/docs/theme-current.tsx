@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useTheme } from '@heathmont/sportsbet-themes';
+import { useTheme } from '@heathmont/moon-themes';
 import styled from 'styled-components';
 
 const ColorScheme = styled.span({

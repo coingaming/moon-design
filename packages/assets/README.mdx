@@ -11,17 +11,17 @@ This package houses all **SVG assets** you might need to build a Sportsbet.io po
 ## Installing
 
 ```bash
-npm install --save @heathmont/sportsbet-assets
+npm install --save @heathmont/moon-assets
 ```
 
 ## Consuming
 
 ```javascript
-import { GroupIconCurrency } from '@heathmont/sportsbet-assets/groupIcons';
-import { CrestWatford } from '@heathmont/sportsbet-assets/crests';
-import { IconAdd } from '@heathmont/sportsbet-assets/icons';
-import { LogoSportsbet } from '@heathmont/sportsbet-assets/logos';
-import { PatternWave } from '@heathmont/sportsbet-assets/patterns';
+import { GroupIconCurrency } from '@heathmont/moon-assets/groupIcons';
+import { CrestWatford } from '@heathmont/moon-assets/crests';
+import { IconAdd } from '@heathmont/moon-assets/icons';
+import { LogoSportsbet } from '@heathmont/moon-assets/logos';
+import { PatternWave } from '@heathmont/moon-assets/patterns';
 ```
 
 - All **groupIcons** components should be imported from the subfolder **/groupIcons**
@@ -40,8 +40,8 @@ This library supports code splitting by using [a babel plugin](https://www.npmjs
 {
   "plugins": [
     ["transform-imports", {
-      "@heathmont/sportsbet-assets": {
-          "transform": "@heathmont/sportsbet-assets/lib/es/${member}",
+      "@heathmont/moon-assets": {
+          "transform": "@heathmont/moon-assets/lib/es/${member}",
           "preventFullImport": true
         }
     }]

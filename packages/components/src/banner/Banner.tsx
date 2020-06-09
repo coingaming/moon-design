@@ -4,8 +4,8 @@ import {
   IconCloseSmall,
   IconWarning,
   IconBannerInfo,
-} from '@heathmont/sportsbet-assets';
-import { rem } from '@heathmont/sportsbet-utils';
+} from '@heathmont/moon-assets';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type BannerProps = {

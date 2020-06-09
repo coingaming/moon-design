@@ -1,4 +1,4 @@
-import { polyfill } from '@heathmont/sportsbet-global';
+import { polyfill } from '@heathmont/moon-global';
 
 import { wrapRootElement as wrap } from './src/wrap-root-element';
 

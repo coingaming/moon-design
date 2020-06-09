@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { mq, rem } from '@heathmont/sportsbet-utils';
+import { mq, rem } from '@heathmont/moon-utils';
 
 import { Input } from '../input/input';
 import { inputColors } from '../input/settings';
