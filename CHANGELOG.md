@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.14.0](https://github.com/coingaming/sportsbet-design/compare/v2.13.0...v2.14.0) (2020-06-09)
+
+
+### Bug Fixes
+
+* build ([d457083](https://github.com/coingaming/sportsbet-design/commit/d4570833057271a5d47b99361139feb10fb075f9))
+* build -> yarn.lock ([90d2f9f](https://github.com/coingaming/sportsbet-design/commit/90d2f9f3b16148496a6fa7c06b780ca779db06c3))
+* update gatsby & fix build ([165dabd](https://github.com/coingaming/sportsbet-design/commit/165dabd2cacabf1f7c8e87114a9d81e038db9225))
+
+
+### Features
+
+* to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
+
+
+
+
+
 # [2.13.0](https://github.com/coingaming/sportsbet-design/compare/v2.12.0...v2.13.0) (2020-05-22)
 
 ### Features
