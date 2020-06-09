@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import styled from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
+import { rem } from '@heathmont/moon-utils';
 
 const KeylineText = styled.p(
   ({ theme: { borderWidth, color, space } }) => ({

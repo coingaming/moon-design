@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "Sportsbet.io",
+  "name": "moon-design",
   "scripts": {
     "start": "yarn docs dev",
     "commit": "git-cz",
     "build": "lerna exec --parallel --no-private -- yarn build && yarn build:index && yarn build:js && yarn build:types",
-    "build:index": "lerna exec --parallel --no-private --ignore '@heathmont/sportsbet-{global,assets}' -- barrelsby --config '$LERNA_ROOT_PATH/.config/barrelsby/barrelsby.json' --directory src",
+    "build:index": "lerna exec --parallel --no-private --ignore '@heathmont/moon-{global,assets}' -- barrelsby --config '$LERNA_ROOT_PATH/.config/barrelsby/barrelsby.json' --directory src",
     "build:js": "yarn build:js:es && yarn build:js:commonjs",
     "build:js:commonjs": "lerna exec --parallel --no-private -- babel --config-file '$LERNA_ROOT_PATH/.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
     "build:js:es": "lerna exec --parallel --no-private -- babel --config-file '$LERNA_ROOT_PATH/.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
@@ -16,9 +16,9 @@
     "nuke": "yarn clean && lerna clean --yes && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "yarn test:types && yarn test:jest",
-    "test:types": "lerna exec --scope '@heathmont/sportsbet-components' -- tsc --project ./tsconfig.test.json --noEmit",
+    "test:types": "lerna exec --scope '@heathmont/moon-components' -- tsc --project ./tsconfig.test.json --noEmit",
     "test:jest": "node --max_old_space_size=2048 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
-    "assets": "lerna run --scope @heathmont/sportsbet-assets --stream",
+    "assets": "lerna run --scope @heathmont/moon-assets --stream",
     "docs": "lerna run --scope docs --stream",
     "publish:packages": "lerna publish --yes",
     "publish:packages@beta": "lerna publish --canary --preid beta --no-push --dist-tag beta --force-publish",
@@ -77,7 +77,7 @@
     "@types/jest": "24.0.11",
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2",
-    "@types/react-test-renderer": "16.8.0",
+    "@types/react-test-renderer": "16.9.2",
     "@types/styled-components": "4.1.20",
     "@typescript-eslint/eslint-plugin": "1.11.0",
     "@typescript-eslint/parser": "1.11.0",
@@ -100,9 +100,9 @@
     "lerna": "3.16.4",
     "lint-staged": "9.2.3",
     "prettier": "1.18.2",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
-    "react-test-renderer": "16.10.2",
+    "react": ">= 16.10.2",
+    "react-dom": ">= 16.10.2",
+    "react-test-renderer": ">= 16.10.2",
     "rimraf": "3.0.0",
     "styled-components": "4.4.1",
     "typescript": "3.3.3"
@@ -110,6 +110,5 @@
   "resolutions": {
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2"
-  },
-  "dependencies": {}
+  }
 }

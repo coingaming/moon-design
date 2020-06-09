@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/sportsbet-themes';
-import { themed } from '@heathmont/sportsbet-utils';
+import { ColorProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -13,14 +13,14 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M22.574 3.699h10.733a2.464 2.464 0 0 1 2.464 2.464v14.194"
+      d="M22.574 3.699h10.733a2.464 2.464 0 012.464 2.464v14.194"
       stroke="currentColor"
       strokeMiterlimit={10}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
-      d="M5.603 20.357h33.165c.126 0 .232.106.232.232v.658c0 .884-.715 1.599-1.599 1.599H6.976a1.597 1.597 0 0 1-1.599-1.6v-.657a.226.226 0 0 1 .226-.232zM25.568 6.959H35.77"
+      d="M5.603 20.357h33.165c.126 0 .232.106.232.232v.658c0 .884-.715 1.599-1.599 1.599H6.976a1.597 1.597 0 01-1.599-1.6v-.657a.226.226 0 01.226-.232zM25.568 6.959H35.77"
       stroke="currentColor"
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -33,7 +33,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       strokeMiterlimit={10}
     />
     <path
-      d="M7.092 10.291l1.842-.59c2.505-.804 2.8-2.036 3.46-3.142.662-1.105.7-2.255 2.357-2.786M17.433 4.537l.973.5M12.77 8.998c-.818.994-1.743 1.656-2.959 2.046l-5.193 1.665M16.537 8.075a2.32 2.32 0 0 0 .023 2.226c.492.899.289 1.533-.174 2.372l4.225 1.773.723.987-.633 1.827M18.503 18.006l.264-1.71-3.537-.896-2.697.458-2.432-1.251"
+      d="M7.092 10.291l1.842-.59c2.505-.804 2.8-2.036 3.46-3.142.662-1.105.7-2.255 2.357-2.786M17.433 4.537l.973.5M12.77 8.998c-.818.994-1.743 1.656-2.959 2.046l-5.193 1.665M16.537 8.075a2.32 2.32 0 00.023 2.226c.492.899.289 1.533-.174 2.372l4.225 1.773.723.987-.633 1.827M18.503 18.006l.264-1.71-3.537-.896-2.697.458-2.432-1.251"
       stroke="currentColor"
       strokeWidth={0.832}
       strokeMiterlimit={10}

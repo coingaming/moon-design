@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { rem } from '@heathmont/sportsbet-utils';
-import { Switch } from '@heathmont/sportsbet-components';
+import { rem } from '@heathmont/moon-utils';
+import { Switch } from '@heathmont/moon-components';
 
 import { useDocsTheme } from '../provider';
 

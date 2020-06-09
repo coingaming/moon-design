@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
 const path = require('path');
 
-const { sportsbetDark } = require('@heathmont/sportsbet-themes');
+const { sportsbetDark } = require('@heathmont/moon-themes');
 
 const { siteTitle, description, author } = require('./config');
 
@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-mdx`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
           default: path.resolve('./src/components/layout.tsx'),

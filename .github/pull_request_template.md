@@ -48,5 +48,5 @@
 - [ ] I have updated the documentation accordingly.
 - [ ] I have added tests to cover my changes.
 
-[contributing]: https://github.com/coingaming/sportsbet-design/blob/master/CONTRIBUTING.md
-[code-style]: https://github.com/coingaming/sportsbet-design/blob/master/CONTRIBUTING.md#code-style
+[contributing]: https://github.com/coingaming/moon-design/blob/master/CONTRIBUTING.md
+[code-style]: https://github.com/coingaming/moon-design/blob/master/CONTRIBUTING.md#code-style

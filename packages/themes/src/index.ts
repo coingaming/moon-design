@@ -8,6 +8,8 @@ export { default as bitcasinoPurple } from './bitcasinoPurple/bitcasinoPurple';
 export * from './bitcasinoPurple/bitcasinoPurple';
 export { default as bitcasinoShared } from './bitcasinoShared/bitcasinoShared';
 export * from './bitcasinoShared/bitcasinoShared';
+export { default as bombay } from './bombay/bombay';
+export * from './bombay/bombay';
 export { default as shared } from './shared/shared';
 export * from './shared/shared';
 export { default as sportsbetDark } from './sportsbetDark/sportsbetDark';

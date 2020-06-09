@@ -1,4 +1,4 @@
-import { sportsbetShared, ColorValue } from '@heathmont/sportsbet-themes';
+import { sportsbetShared, ColorValue } from '@heathmont/moon-themes';
 
 const {
   krillin,

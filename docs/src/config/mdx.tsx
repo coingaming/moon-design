@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
-import { Heading, Link, Stack } from '@heathmont/sportsbet-components';
-import { rem } from '@heathmont/sportsbet-utils';
+import { Heading, Link, Stack } from '@heathmont/moon-components';
+import { rem } from '@heathmont/moon-utils';
 
 import { Code } from '../components/code';
 import { Children } from '../types';

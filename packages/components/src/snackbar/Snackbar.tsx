@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { rem, mq } from '@heathmont/sportsbet-utils';
+import { rem, mq } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import {
   IconError,
   IconWarning,
   IconBannerInfo,
   IconSnackbarSuccess,
-} from '@heathmont/sportsbet-assets';
+} from '@heathmont/moon-assets';
 
 type SnackbarProps = {
   message: any;

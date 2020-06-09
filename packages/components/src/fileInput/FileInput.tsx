@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-import { inlineSvg, rem } from '@heathmont/sportsbet-utils';
-import { IconUpload } from '@heathmont/sportsbet-assets';
+import { inlineSvg, rem } from '@heathmont/moon-utils';
+import { IconUpload } from '@heathmont/moon-assets';
 
 import { Input } from '../private/input/input';
 import { inputColors } from '../private/input/settings';
