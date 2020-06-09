@@ -3713,10 +3713,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-test-renderer@16.8.0":
-  version "16.8.0"
-  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.8.0.tgz#dbed6549f97a7f114b6920bf553a5db7e61bf83c"
-  integrity sha512-m563EQSTVB2g6h+FDUH2cgfiRdjL1KHVyi643EQQSFIblMPrWwJh/adqTcMS/FhJHvhEboR4pmhrhEXyHDDsmQ==
+"@types/react-test-renderer@16.9.2":
+  version "16.9.2"
+  resolved "https://registry.yarnpkg.com/@types/react-test-renderer/-/react-test-renderer-16.9.2.tgz#e1c408831e8183e5ad748fdece02214a7c2ab6c5"
+  integrity sha512-4eJr1JFLIAlWhzDkBCkhrOIWOvOxcCAfQh+jiKg7l/nNZcCIL2MHl2dZhogIFKyHzedVWHaVP1Yydq/Ruu4agw==
   dependencies:
     "@types/react" "*"
 
