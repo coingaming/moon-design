@@ -1,4 +1,4 @@
-# Sportsbet.io Design
+# Moon Design System
 
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
@@ -39,7 +39,7 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 `packages/`
 
 1. [**Assets**](packages/assets/README.md) - common rich media brand assets.
-2. [**Tokens**](packages/tokens/README.md) - raw data values that define the Sportsbet.io visual language.
+2. [**Tokens**](packages/tokens/README.md) - raw data values that define visual language.
 3. [**Global**](packages/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
 4. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
 5. [**Icons**](packages/components/README.mdx) - React components for each icon.
