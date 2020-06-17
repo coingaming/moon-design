@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Caption Elements renders as <span> by default 1`] = `
+.c0 {
+  font-size: 0.625rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  color: #FFFFFF;
+}
+
+<span
+  className="c0"
+  color="bulma.100"
+>
+  Caption
+</span>
+`;
+
+exports[`Caption renders default color 1`] = `
+.c0 {
+  font-size: 0.625rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  color: #FFFFFF;
+}
+
+<span
+  className="c0"
+  color="bulma.100"
+>
+  Caption
+</span>
+`;
+
+exports[`Caption renders with a color 1`] = `
+.c0 {
+  font-size: 0.625rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  color: #0CD664;
+}
+
+<span
+  className="c0"
+  color="piccolo.100"
+>
+  Caption
+</span>
+`;
