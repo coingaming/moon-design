@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.15.0](https://github.com/coingaming/sportsbet-design/compare/v2.14.1...v2.15.0) (2020-06-17)
+
+
+### Features
+
+* add text and caption components ([9fed086](https://github.com/coingaming/sportsbet-design/commit/9fed086ebdc6af7d5b1f67ce643d1d74b2f1b28b))
+
+
+
+
+
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-components
