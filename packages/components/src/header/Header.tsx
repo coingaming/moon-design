@@ -20,7 +20,7 @@ const HeaderTitle = styled.h1(
     margin: `0 ${rem(space.large)} 0 0`,
     fontSize: rem(20),
     lineHeight: rem(25),
-    fontWeight: fontWeight.bold,
+    fontWeight: fontWeight.semibold,
     [mq(breakpoint.small)]: {
       fontSize: rem(32),
       lineHeight: rem(39),
