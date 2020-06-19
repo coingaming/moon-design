@@ -46,13 +46,6 @@ export const Meta = () => (
             type="font/woff2"
             crossOrigin="anonymous"
           />
-          <link
-            rel="preload"
-            href={`${avertaStd.fontFilePath.bold}.woff2`}
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
-          />
         </Helmet>
       );
     }}

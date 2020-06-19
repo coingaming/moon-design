@@ -12,7 +12,7 @@ const Badge = styled.span<BadgeProps>(
     padding: `${rem(space.xsmall / 2)} ${rem(space.small - 1)}`,
     fontSize: rem(space.small),
     lineHeight: 1.25,
-    fontWeight: fontWeight.bold,
+    fontWeight: fontWeight.semibold,
     textTransform: 'uppercase',
     textAlign: 'center',
     borderRadius: rem(radius.largest),

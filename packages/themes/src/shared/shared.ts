@@ -56,7 +56,6 @@ const shared: Shared = {
   fontWeight: {
     normal: 400,
     semibold: 600,
-    bold: 700,
   },
   maxWidth: {
     default: 1024,

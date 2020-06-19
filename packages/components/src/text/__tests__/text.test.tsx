@@ -108,7 +108,7 @@ describe('Text', () => {
         expect(text).toMatchSnapshot();
       });
 
-      test('renders with bold font weight', () => {
+      test('renders with semibold font weight', () => {
         const text = create(renderWithTheme(<Text isBold>Text</Text>));
         expect(text).toMatchSnapshot();
       });
