@@ -52,24 +52,6 @@ export type ColorHit = {
   hit: ColorPalette;
 };
 
-export type ColorDende = {
-  /**
-   * Dende (Tertiary) | Optional
-   *
-   * Usage: tertiary button colors.
-   */
-  dende?: ColorPalette;
-};
-
-export type ColorPopo = {
-  /**
-   * Popo
-   *
-   * Usage: link colors.
-   */
-  popo?: ColorPalette;
-};
-
 export type ColorGoku = {
   /**
    * Goku
@@ -126,8 +108,6 @@ export type ColorTrunks = {
 
 export type ColorThemed = ColorPiccolo &
   ColorHit &
-  ColorDende &
-  ColorPopo &
   ColorGoku &
   ColorGohan &
   ColorBeerus &
