@@ -44,15 +44,16 @@ const color = {
 
 const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
 
-const slots: Theme = {
+const slotsDark: Theme = {
   ...sharedTheme,
+  brand: 'Slots.io',
   color: {
     text: color.bulma[100],
     background: color.goku[100],
-    ...color,
     ...sharedColor,
+    ...color,
   },
-  colorScheme: 'light',
+  colorScheme: 'dark',
 };
 
-export default slots;
+export default slotsDark;
