@@ -44,15 +44,16 @@ const color = {
 
 const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
 
-const bombay: Theme = {
+const bombayClub: Theme = {
   ...sharedTheme,
+  brand: 'BombayClub',
   color: {
     text: color.bulma[100],
     background: color.goku[100],
-    ...color,
     ...sharedColor,
+    ...color,
   },
   colorScheme: 'dark',
 };
 
-export default bombay;
+export default bombayClub;
