@@ -2,36 +2,49 @@ import { Theme } from '../types/theme';
 import bitcasinoShared from '../bitcasinoShared/bitcasinoShared';
 
 const color = {
+  piccolo: {
+    120: '#054CFF',
+    100: '#1A5BFF',
+    80: '#336BFA',
+  },
+  hit: {
+    120: '#FFFFFF',
+    100: '#FFFFFF',
+    80: '#FDFDFD',
+  },
+  goten: {
+    100: '#FFFFFF',
+  },
   goku: {
     100: '#F3F5F6',
-    80: '#EAEEF0',
-    60: '#E1E7EA',
-    40: '#D8E0E3',
-    10: '#C5D2D8',
+    80: '#E9EDEF',
+    60: '#E0E5E7',
+    40: '#D6DDE0',
+    20: '#CCD5D9',
   },
   gohan: {
     100: '#FFFFFF',
-    80: '#F7F7F7',
-    60: '#F0F0F0',
-    40: '#E8E8E8',
-    20: '#E0E0E0',
+    80: '#FDFDFD',
+    60: '#F3F5F6',
+    40: '#E9EDEF',
+    10: '#D6DDE0',
   },
   beerus: {
-    100: '#EAEEF0',
+    100: '#DBE0E3',
   },
   bulma: {
-    100: '#0F161F',
+    100: '#03060D',
   },
   trunks: {
     100: '#8697A2',
-    60: '#9FAAB2',
-    20: '#B7BEC3',
+    60: '#98A7B0',
+    20: '#A4B1B9',
   },
 };
 
 const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
 
-const bitcasinoLight: Theme = {
+const slots: Theme = {
   ...sharedTheme,
   color: {
     text: color.bulma[100],
@@ -42,4 +55,4 @@ const bitcasinoLight: Theme = {
   colorScheme: 'light',
 };
 
-export default bitcasinoLight;
+export default slots;
