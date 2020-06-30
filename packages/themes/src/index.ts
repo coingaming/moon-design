@@ -12,6 +12,8 @@ export { default as bombay } from './bombay/bombay';
 export * from './bombay/bombay';
 export { default as shared } from './shared/shared';
 export * from './shared/shared';
+export { default as slots } from './slots/slots';
+export * from './slots/slots';
 export { default as sportsbetDark } from './sportsbetDark/sportsbetDark';
 export * from './sportsbetDark/sportsbetDark';
 export { default as sportsbetLight } from './sportsbetLight/sportsbetLight';
