@@ -1,5 +1,6 @@
 import { Theme } from '../types/theme';
 import sportsbetShared from '../sportsbetShared/sportsbetShared';
+import sharedColor from '../shared/private/color';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -41,23 +42,14 @@ const color = {
   },
 };
 
-const {
-  /* Keys we don't need */
-  /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-  boxShadow: sharedBoxShadow,
-  // Keys we do need
-  color: sharedColor,
-  ...sharedTheme
-} = sportsbetShared;
-
 const sportsbetDark: Theme = {
-  ...sharedTheme,
+  ...sportsbetShared,
   boxShadow,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
-    ...color,
     ...sharedColor,
+    ...color,
   },
   colorScheme: 'dark',
 };
