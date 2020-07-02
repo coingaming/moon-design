@@ -50,7 +50,7 @@ export const ThemePalettes = () => {
 
   return (
     Object.entries(color)
-      // we filter beacuse we have text & background colours here as well
+      // we filter because we have text & background colours here as well
       // eslint-disable-next-line
       .filter(([_, colors]) => colors && typeof colors === 'object')
       .map(([colorKey, colors]) => {
