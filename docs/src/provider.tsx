@@ -4,7 +4,9 @@ import {
   sportsbetDark,
   sportsbetLight,
   bitcasinoLight,
-  bitcasinoPurple,
+  bitcasinoDark,
+  slotsLight,
+  slotsDark,
   Theme,
 } from '@heathmont/moon-themes';
 
@@ -14,8 +16,12 @@ const themes: DocsThemes = {
     light: sportsbetLight,
   },
   bitcasino: {
-    dark: bitcasinoPurple,
+    dark: bitcasinoDark,
     light: bitcasinoLight,
+  },
+  slots: {
+    dark: slotsDark,
+    light: slotsLight,
   },
 };
 
@@ -27,6 +33,7 @@ type DocsColorModes = {
 type DocsThemes = {
   sportsbet: DocsColorModes;
   bitcasino: DocsColorModes;
+  slots: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;
