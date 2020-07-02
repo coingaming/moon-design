@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
+
+
+### Bug Fixes
+
+* bump test snapshots ([fb0f2a6](https://github.com/coingaming/sportsbet-design/commit/fb0f2a670635f9d2cd376163bf0f9b095dfe9cc8))
+
+
+### Features
+
+* align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
+
+
+
+
+
 # [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
 
 **Note:** Version bump only for package @heathmont/moon-components
