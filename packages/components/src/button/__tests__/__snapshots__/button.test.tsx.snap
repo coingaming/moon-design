@@ -32,7 +32,7 @@ exports[`Button renders as an anchor tag 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <a
@@ -76,7 +76,7 @@ exports[`Button renders as disabled 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -122,7 +122,7 @@ exports[`Button renders as fullWidth 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -165,7 +165,7 @@ exports[`Button renders correctly 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -209,7 +209,7 @@ exports[`Button renders rounded 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -253,7 +253,7 @@ exports[`Button renders uppercased 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -297,6 +297,7 @@ exports[`Button variants renders as highlight 1`] = `
 .c0:active,
 .c0:focus {
   background-color: #0F75BD;
+  outline: none;
 }
 
 <button
@@ -340,6 +341,7 @@ exports[`Button variants renders as optional 1`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -382,7 +384,7 @@ exports[`Button variants renders as primary 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -426,6 +428,7 @@ exports[`Button variants renders as secondary 1`] = `
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -469,6 +472,7 @@ exports[`Button variants variants MockStates Highlight outline renders as active
 .c0:active,
 .c0:focus {
   background-color: #0F75BD;
+  outline: none;
 }
 
 <button
@@ -512,6 +516,7 @@ exports[`Button variants variants MockStates Highlight renders as active 1`] = `
 .c0:active,
 .c0:focus {
   background-color: #0F75BD;
+  outline: none;
 }
 
 <button
@@ -555,6 +560,7 @@ exports[`Button variants variants MockStates Highlight renders with hover 1`] = 
 .c0:active,
 .c0:focus {
   background-color: #0F75BD;
+  outline: none;
 }
 
 <button
@@ -598,6 +604,7 @@ exports[`Button variants variants MockStates Optional renders as active 1`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -641,6 +648,7 @@ exports[`Button variants variants MockStates Optional renders as active 2`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -684,6 +692,7 @@ exports[`Button variants variants MockStates Optional renders with hover 1`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -727,6 +736,7 @@ exports[`Button variants variants MockStates Optional renders with hover 2`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -769,7 +779,7 @@ exports[`Button variants variants MockStates Primary renders as active 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -812,7 +822,7 @@ exports[`Button variants variants MockStates Primary renders with hover 1`] = `
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  outline: none;
 }
 
 <button
@@ -856,6 +866,7 @@ exports[`Button variants variants MockStates Secondary renders as active 1`] = `
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -899,6 +910,7 @@ exports[`Button variants variants MockStates Secondary renders as active 2`] = `
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -942,6 +954,7 @@ exports[`Button variants variants MockStates Secondary renders with hover 1`] = 
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -985,6 +998,7 @@ exports[`Button variants variants MockStates Secondary renders with hover 2`] = 
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
