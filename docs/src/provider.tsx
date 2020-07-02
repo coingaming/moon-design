@@ -4,7 +4,7 @@ import {
   sportsbetDark,
   sportsbetLight,
   bitcasinoLight,
-  bitcasinoPurple,
+  bitcasinoDark,
   slotsLight,
   slotsDark,
   Theme,
@@ -16,7 +16,7 @@ const themes: DocsThemes = {
     light: sportsbetLight,
   },
   bitcasino: {
-    dark: bitcasinoPurple,
+    dark: bitcasinoDark,
     light: bitcasinoLight,
   },
   slots: {
