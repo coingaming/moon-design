@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
+
+
+### Bug Fixes
+
+* fix bombay and slots themes ([9b5276c](https://github.com/coingaming/sportsbet-design/commit/9b5276cfe09a37160abaab1cedf1dcb42525972c))
+
+
+### Features
+
+* align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
+* rename bitcasino purple to dark ([11d8a62](https://github.com/coingaming/sportsbet-design/commit/11d8a6279fa7a39c5227bf48acc8541965b045db))
+
+
+
+
+
 # [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
 
 
