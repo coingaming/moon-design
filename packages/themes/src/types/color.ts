@@ -52,24 +52,6 @@ export type ColorHit = {
   hit: ColorPalette;
 };
 
-export type ColorDende = {
-  /**
-   * Dende (Tertiary) | Optional
-   *
-   * Usage: tertiary button colors.
-   */
-  dende?: ColorPalette;
-};
-
-export type ColorPopo = {
-  /**
-   * Popo
-   *
-   * Usage: link colors.
-   */
-  popo?: ColorPalette;
-};
-
 export type ColorGoku = {
   /**
    * Goku
@@ -126,8 +108,6 @@ export type ColorTrunks = {
 
 export type ColorThemed = ColorPiccolo &
   ColorHit &
-  ColorDende &
-  ColorPopo &
   ColorGoku &
   ColorGohan &
   ColorBeerus &
@@ -135,34 +115,16 @@ export type ColorThemed = ColorPiccolo &
   ColorBulma &
   ColorTrunks;
 
-/* ColorShared
-  ============================================ */
+/* Various Shared Palettes */
 
 export type ColorShared = {
-  /**
-   * Krillin
-   *
-   * Usage: warning colors.
-   */
-  krillin: ColorPalette;
-  /**
-   * Chi-chi
-   *
-   * Usage: error colors.
-   */
-  chiChi: ColorPalette;
-  /**
-   * Roshi
-   *
-   * Usage: success colors.
-   */
-  roshi: ColorPalette;
-  /* Various Shared Palettes */
+  krillin: ColorPalette; // Warning colors
+  chiChi: ColorPalette; // Error colors
+  roshi: ColorPalette; // Success colors
   dodoria: ColorPalette;
   cell: ColorPalette;
   raditz: ColorPalette;
   whis: ColorPalette;
   frieza: ColorPalette;
   nappa: ColorPalette;
-  erasa: ColorPalette;
 };

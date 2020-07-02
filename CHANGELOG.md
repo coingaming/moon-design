@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
+
+
+### Bug Fixes
+
+* fix bitcasino beerus color ([3b127a4](https://github.com/coingaming/sportsbet-design/commit/3b127a4bc877b19cb3cce5b41e54883e10416827))
+* remove polyfill ([e2508db](https://github.com/coingaming/sportsbet-design/commit/e2508db3e5a53a2b011b6d1ed89cbcdb9b92292e))
+
+
+### Features
+
+* add slots theme ([0844cd2](https://github.com/coingaming/sportsbet-design/commit/0844cd2e06b02c7ff577f0a74ac75588f68bd601))
+
+
+
+
+
 # [2.15.0](https://github.com/coingaming/sportsbet-design/compare/v2.14.1...v2.15.0) (2020-06-17)
 
 
