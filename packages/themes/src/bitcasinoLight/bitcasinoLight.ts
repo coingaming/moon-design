@@ -17,7 +17,7 @@ const color = {
     20: '#E0E0E0',
   },
   beerus: {
-    100: '#D7DCDF',
+    100: '#EAEEF0',
   },
   bulma: {
     100: '#0F161F',
