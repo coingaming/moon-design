@@ -5,18 +5,12 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
@@ -38,18 +32,12 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
@@ -70,18 +58,12 @@ exports[`Link renders as a link by default 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
@@ -103,19 +85,13 @@ exports[`Link renders as a optional 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   color: #8697A2;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
@@ -144,19 +120,13 @@ exports[`Link renders as a secondary 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
   color: #8697A2;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
@@ -178,18 +148,12 @@ exports[`Link renders as disabled for anchor elements 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
@@ -212,18 +176,12 @@ exports[`Link renders as disabled for button elements 1`] = `
   display: inline-block;
   padding: 0;
   font: inherit;
-  color: #0CD664;
+  color: #0CD463;
   background-color: transparent;
   border: 0;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c0:hover,
-.c0:focus,
-.c0:active {
-  color: #66E59E;
 }
 
 .c0:disabled,
