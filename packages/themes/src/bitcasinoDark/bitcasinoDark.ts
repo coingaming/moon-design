@@ -41,7 +41,7 @@ const color = {
   },
 };
 
-const bitcasinoPurple: Theme = {
+const bitcasinoDark: Theme = {
   ...sharedTheme,
   boxShadow,
   color: {
@@ -53,4 +53,4 @@ const bitcasinoPurple: Theme = {
   colorScheme: 'dark',
 };
 
-export default bitcasinoPurple;
+export default bitcasinoDark;
