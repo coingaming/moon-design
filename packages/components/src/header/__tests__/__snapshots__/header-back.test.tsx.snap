@@ -20,7 +20,7 @@ exports[`Header - Back renders as a button 1`] = `
 }
 
 .c0 > .c1 {
-  color: #0CD664;
+  color: #0CD463;
   font-size: 1.5rem;
 }
 
@@ -84,7 +84,7 @@ exports[`Header - Back renders as a component 1`] = `
 }
 
 .c0 > .c1 {
-  color: #0CD664;
+  color: #0CD463;
   font-size: 1.5rem;
 }
 
@@ -148,7 +148,7 @@ exports[`Header - Back renders as an anchor by default 1`] = `
 }
 
 .c0 > .c1 {
-  color: #0CD664;
+  color: #0CD463;
   font-size: 1.5rem;
 }
 
