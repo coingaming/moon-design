@@ -28,7 +28,8 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
         backgroundColor: color.piccolo[80],
       }),
       ...buttonActive({
-        backgroundColor: color.piccolo[100],
+        backgroundColor: color.piccolo[120],
+        outline: 'none',
       }),
     },
     secondary: {
@@ -39,6 +40,7 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
       }),
       ...buttonActive({
         backgroundColor: color.gohan[100],
+        outline: 'none',
       }),
     },
     tertiary: {
@@ -46,10 +48,13 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
       backgroundColor: 'inherit',
       border: `1px solid ${color.piccolo[100]}`,
       ...buttonHover({
+        color: color.goten[100],
         backgroundColor: color.piccolo[100],
       }),
       ...buttonActive({
+        color: color.goten[100],
         backgroundColor: color.piccolo[100],
+        outline: 'none',
       }),
     },
     highlight: {
@@ -60,6 +65,7 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
       }),
       ...buttonActive({
         backgroundColor: color.whis[100],
+        outline: 'none',
       }),
     },
     // TODO remove
@@ -71,6 +77,7 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
       }),
       ...buttonActive({
         color: color.bulma[100],
+        outline: 'none',
       }),
     },
   };
