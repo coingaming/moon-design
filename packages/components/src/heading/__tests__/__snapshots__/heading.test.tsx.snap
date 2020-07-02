@@ -124,7 +124,7 @@ exports[`Heading renders with a color 1`] = `
   font-weight: 600;
   font-size: 2.5rem;
   line-height: 3rem;
-  color: #0CD664;
+  color: #0CD463;
 }
 
 <h1

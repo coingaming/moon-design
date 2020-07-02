@@ -68,7 +68,7 @@ exports[`Switch renders as checked 1`] = `
 }
 
 .c1:checked + .c2 {
-  background-color: #0CD664;
+  background-color: #0CD463;
 }
 
 .c1:checked + .c2::before {
@@ -161,7 +161,7 @@ exports[`Switch renders by default 1`] = `
 }
 
 .c1:checked + .c2 {
-  background-color: #0CD664;
+  background-color: #0CD463;
 }
 
 .c1:checked + .c2::before {
