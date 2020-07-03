@@ -8,9 +8,9 @@ const color = {
     80: '#336BFA',
   },
   hit: {
-    120: '#FFFFFF',
-    100: '#FFFFFF',
-    80: '#FDFDFD',
+    120: '#D6DDE0',
+    100: '#E0E5E7',
+    80: '#E8ECED',
   },
   goten: {
     100: '#FFFFFF',
