@@ -29,7 +29,7 @@ export const Input = styled.input<InputProps>(({ theme }) => [
       opacity: 1,
     },
     '&:hover:not(:focus):not([disabled])': {
-      borderColor: theme.color.beerus[20],
+      borderColor: theme.color.goku[40],
     },
     // date inputs will be marked as invalid by default
     '&:not(:placeholder-shown):not([type="date"]):invalid': {
