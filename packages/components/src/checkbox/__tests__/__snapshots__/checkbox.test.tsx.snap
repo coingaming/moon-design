@@ -32,7 +32,7 @@ exports[`Checkbox renders as disabled 1`] = `
 }
 
 .c2::before {
-  background-color: #4D5359;
+  background-color: #4C5159;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -78,6 +78,7 @@ exports[`Checkbox renders as disabled 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
+  background-color: #19E170;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -152,7 +153,7 @@ exports[`Checkbox renders by default 1`] = `
 }
 
 .c2::before {
-  background-color: #4D5359;
+  background-color: #4C5159;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -198,6 +199,7 @@ exports[`Checkbox renders by default 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
+  background-color: #19E170;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -272,7 +274,7 @@ exports[`Checkbox renders label with HTML 1`] = `
 }
 
 .c2::before {
-  background-color: #4D5359;
+  background-color: #4C5159;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -318,6 +320,7 @@ exports[`Checkbox renders label with HTML 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
+  background-color: #19E170;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -400,7 +403,7 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 }
 
 .c2::before {
-  background-color: #4D5359;
+  background-color: #4C5159;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: none;
@@ -446,6 +449,7 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
+  background-color: #19E170;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
