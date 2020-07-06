@@ -293,11 +293,16 @@ exports[`Button variants renders as highlight 1`] = `
   opacity: 0.35;
 }
 
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  opacity: 0.9;
+}
+
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
   outline: none;
 }
 
@@ -464,11 +469,16 @@ exports[`Button variants variants MockStates Highlight outline renders as active
   opacity: 0.35;
 }
 
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  opacity: 0.9;
+}
+
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
   outline: none;
 }
 
@@ -503,11 +513,16 @@ exports[`Button variants variants MockStates Highlight renders as active 1`] = `
   opacity: 0.35;
 }
 
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  opacity: 0.9;
+}
+
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
   outline: none;
 }
 
@@ -542,11 +557,16 @@ exports[`Button variants variants MockStates Highlight renders with hover 1`] = 
   opacity: 0.35;
 }
 
+.c0.is-hover:not([disabled]),
+.c0:hover:not([disabled]) {
+  opacity: 0.9;
+}
+
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
   outline: none;
 }
 
