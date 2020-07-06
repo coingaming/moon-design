@@ -1,6 +1,8 @@
+import { avertaStd } from '@heathmont/moon-fonts';
+
 import { Theme } from '../types/theme';
-import sportsbetShared from '../sportsbetShared/sportsbetShared';
-import sharedColor from '../shared/private/color';
+import sharedTokens from '../sharedTokens/sharedTokens';
+import supportColors from '../supportColors/supportColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -43,12 +45,19 @@ const color = {
 };
 
 const sportsbetDark: Theme = {
-  ...sportsbetShared,
+  ...sharedTokens,
+  brand: 'Sportsbet.io',
+  fontFace: avertaStd.fontFace,
+  fontFamily: avertaStd.fontStack,
+  fontSize: {
+    body: 14,
+  },
+  fontWeight: avertaStd.fontWeight,
   boxShadow,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
-    ...sharedColor,
+    ...supportColors,
     ...color,
   },
   colorScheme: 'dark',

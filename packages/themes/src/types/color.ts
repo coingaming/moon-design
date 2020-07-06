@@ -20,7 +20,7 @@ type SingletonColor = {
   100?: ColorValue;
 };
 
-type SustenanceColor = {
+type SupportingColor = {
   100?: ColorValue;
   10?: ColorValue;
 };
@@ -141,13 +141,13 @@ export type ColorThemed = ColorPiccolo &
 /* Various Shared Palettes */
 
 export type ColorShared = {
-  krillin: SustenanceColor; // Warning colors
-  chiChi: SustenanceColor; // Error colors
-  roshi: SustenanceColor; // Success colors
-  dodoria: SustenanceColor;
-  cell: SustenanceColor;
-  raditz: SustenanceColor;
-  whis: SustenanceColor;
-  frieza: SustenanceColor;
-  nappa: SustenanceColor;
+  krillin: SupportingColor; // Warning colors
+  chiChi: SupportingColor; // Error colors
+  roshi: SupportingColor; // Success colors
+  dodoria: SupportingColor;
+  cell: SupportingColor;
+  raditz: SupportingColor;
+  whis: SupportingColor;
+  frieza: SupportingColor;
+  nappa: SupportingColor;
 };

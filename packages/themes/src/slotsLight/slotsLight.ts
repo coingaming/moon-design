@@ -1,5 +1,6 @@
 import { Theme } from '../types/theme';
-import bitcasinoShared from '../bitcasinoShared/bitcasinoShared';
+import sharedTokens from '../sharedTokens/sharedTokens';
+import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
@@ -42,15 +43,13 @@ const color = {
   },
 };
 
-const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
-
 const slotsLight: Theme = {
-  ...sharedTheme,
+  ...sharedTokens,
   brand: 'Slots.io',
   color: {
     text: color.bulma[100],
     background: color.goku[100],
-    ...sharedColor,
+    ...supportColors,
     ...color,
   },
   colorScheme: 'light',
