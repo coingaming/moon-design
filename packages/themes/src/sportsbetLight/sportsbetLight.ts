@@ -1,6 +1,5 @@
 import { Theme } from '../types/theme';
-import sportsbetShared from '../sportsbetShared/sportsbetShared';
-import sharedColor from '../shared/private/color';
+import sportsbetDark from '../sportsbetDark/sportsbetDark';
 
 const color = {
   piccolo: {
@@ -40,11 +39,11 @@ const color = {
 };
 
 const sportsbetLight: Theme = {
-  ...sportsbetShared,
+  ...sportsbetDark,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
-    ...sharedColor,
+    ...sportsbetDark.color,
     ...color,
   },
   colorScheme: 'light',
