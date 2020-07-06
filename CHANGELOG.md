@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
+
+
+### Bug Fixes
+
+* fix slots secondary button color ([31335ec](https://github.com/coingaming/sportsbet-design/commit/31335ece8158f5f0aa8b69ca39f50ab7a7b63337))
+
+
+
+
+
 # [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
 
 
