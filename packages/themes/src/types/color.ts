@@ -2,6 +2,29 @@ import { CSSObject } from 'styled-components';
 
 export type ColorValue = CSSObject['color'];
 
+type InteractiveColor = {
+  120?: ColorValue;
+  100?: ColorValue;
+  80?: ColorValue;
+};
+
+type BackgroundColor = {
+  100?: ColorValue;
+  80?: ColorValue;
+  40?: ColorValue;
+  10?: ColorValue;
+};
+
+// For text & borders
+type SingletonColor = {
+  100?: ColorValue;
+};
+
+type SupportingColor = {
+  100?: ColorValue;
+  10?: ColorValue;
+};
+
 export type ColorPalette = {
   120?: ColorValue;
   100?: ColorValue;
@@ -40,7 +63,7 @@ export type ColorPiccolo = {
    *
    * Usage: primary button colors.
    */
-  piccolo: ColorPalette;
+  piccolo: InteractiveColor;
 };
 
 export type ColorHit = {
@@ -49,7 +72,7 @@ export type ColorHit = {
    *
    * Usage: secondary button colors.
    */
-  hit: ColorPalette;
+  hit: InteractiveColor;
 };
 
 export type ColorGoku = {
@@ -58,7 +81,7 @@ export type ColorGoku = {
    *
    * Usage: main background colors.
    */
-  goku: ColorPalette;
+  goku: BackgroundColor;
 };
 
 export type ColorGohan = {
@@ -67,7 +90,7 @@ export type ColorGohan = {
    *
    * Usage: secondary background colors.
    */
-  gohan: ColorPalette;
+  gohan: BackgroundColor;
 };
 
 export type ColorBeerus = {
@@ -76,7 +99,7 @@ export type ColorBeerus = {
    *
    * Usage: border colors.
    */
-  beerus: ColorPalette;
+  beerus: SingletonColor;
 };
 
 export type ColorGoten = {
@@ -85,7 +108,7 @@ export type ColorGoten = {
    *
    * Usage: button text, promotion card text & some cases body or headline text.
    */
-  goten: ColorPalette;
+  goten: SingletonColor;
 };
 
 export type ColorBulma = {
@@ -94,7 +117,7 @@ export type ColorBulma = {
    *
    * Usage: main body text.
    */
-  bulma: ColorPalette;
+  bulma: SingletonColor;
 };
 
 export type ColorTrunks = {
@@ -103,7 +126,7 @@ export type ColorTrunks = {
    *
    * Usage: secondary body text.
    */
-  trunks: ColorPalette;
+  trunks: SingletonColor;
 };
 
 export type ColorThemed = ColorPiccolo &
@@ -118,13 +141,13 @@ export type ColorThemed = ColorPiccolo &
 /* Various Shared Palettes */
 
 export type ColorShared = {
-  krillin: ColorPalette; // Warning colors
-  chiChi: ColorPalette; // Error colors
-  roshi: ColorPalette; // Success colors
-  dodoria: ColorPalette;
-  cell: ColorPalette;
-  raditz: ColorPalette;
-  whis: ColorPalette;
-  frieza: ColorPalette;
-  nappa: ColorPalette;
+  krillin: SupportingColor; // Warning colors
+  chiChi: SupportingColor; // Error colors
+  roshi: SupportingColor; // Success colors
+  dodoria: SupportingColor;
+  cell: SupportingColor;
+  raditz: SupportingColor;
+  whis: SupportingColor;
+  frieza: SupportingColor;
+  nappa: SupportingColor;
 };

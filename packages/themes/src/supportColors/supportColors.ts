@@ -1,14 +1,17 @@
-import { ColorShared } from '../../types/color';
+import { ColorShared } from '../types/color';
 
-const color: ColorShared = {
+const supportColors: ColorShared = {
+  // Warning colors
   krillin: {
     100: '#FFB319',
     10: '#FFE4AD',
   },
+  // Error colors
   chiChi: {
     100: '#FF4E64',
     10: '#FFA7B2',
   },
+  // Success colors
   roshi: {
     100: '#0CD664',
     10: '#B6F3D0',
@@ -39,4 +42,4 @@ const color: ColorShared = {
   },
 };
 
-export default color;
+export default supportColors;

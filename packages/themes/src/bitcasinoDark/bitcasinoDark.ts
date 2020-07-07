@@ -1,14 +1,8 @@
-import { Theme } from '../types/theme';
-import bitcasinoShared from '../bitcasinoShared/bitcasinoShared';
+import { avertaStd } from '@heathmont/moon-fonts';
 
-const {
-  /* Keys we don't need */
-  /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-  boxShadow: sharedBoxShadow,
-  // Keys we do need
-  color: sharedColor,
-  ...sharedTheme
-} = bitcasinoShared;
+import { Theme } from '../types/theme';
+import sharedTokens from '../sharedTokens/sharedTokens';
+import supportColors from '../supportColors/supportColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -42,13 +36,33 @@ const color = {
 };
 
 const bitcasinoDark: Theme = {
-  ...sharedTheme,
+  ...sharedTokens,
+  brand: 'Bitcasino.io',
+  fontFace: avertaStd.fontFace,
+  fontFamily: avertaStd.fontStack,
+  fontSize: {
+    body: 14,
+  },
+  fontWeight: avertaStd.fontWeight,
   boxShadow,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
+    ...supportColors,
+    piccolo: {
+      120: '#F54100',
+      100: '#FF4F0F',
+      80: '#FA642E',
+    },
+    hit: {
+      120: '#0679E5',
+      100: '#1286F3',
+      80: '#2F92EE',
+    },
+    goten: {
+      100: '#FFFFFF',
+    },
     ...color,
-    ...sharedColor,
   },
   colorScheme: 'dark',
 };
