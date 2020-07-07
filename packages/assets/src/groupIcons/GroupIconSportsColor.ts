@@ -1,14 +1,6 @@
-import { sportsbetShared, ColorValue } from '@heathmont/moon-themes';
+import { supportColors, ColorValue } from '@heathmont/moon-themes';
 
-const {
-  krillin,
-  cell,
-  dodoria,
-  whis,
-  raditz,
-  nappa,
-  frieza,
-} = sportsbetShared.color;
+const { krillin, cell, dodoria, whis, raditz, nappa, frieza } = supportColors;
 
 export const GroupIconSportsColor: { [key: string]: ColorValue } = {
   rugby: krillin[100],

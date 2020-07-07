@@ -13,6 +13,12 @@ exports[`Link renders as a anchor when \`href\` defined 1`] = `
   text-decoration: none;
 }
 
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
+}
+
 .c0:disabled,
 .c0[disabled] {
   cursor: not-allowed;
@@ -38,6 +44,12 @@ exports[`Link renders as a button if prop as="button" was passed 1`] = `
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
 }
 
 .c0:disabled,
@@ -66,6 +78,12 @@ exports[`Link renders as a link by default 1`] = `
   text-decoration: none;
 }
 
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
+}
+
 .c0:disabled,
 .c0[disabled] {
   cursor: not-allowed;
@@ -92,6 +110,12 @@ exports[`Link renders as a optional 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   color: #8697A2;
+}
+
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
 }
 
 .c0:disabled,
@@ -129,6 +153,12 @@ exports[`Link renders as a secondary 1`] = `
   color: #8697A2;
 }
 
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
+}
+
 .c0:disabled,
 .c0[disabled] {
   cursor: not-allowed;
@@ -154,6 +184,12 @@ exports[`Link renders as disabled for anchor elements 1`] = `
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
 }
 
 .c0:disabled,
@@ -182,6 +218,12 @@ exports[`Link renders as disabled for button elements 1`] = `
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
+}
+
+.c0:hover,
+.c0:focus,
+.c0:active {
+  color: #19E170;
 }
 
 .c0:disabled,
