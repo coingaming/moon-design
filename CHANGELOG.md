@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
+
+
+### Bug Fixes
+
+* **global:** remove focus polyfill from dependencies ([827bebf](https://github.com/coingaming/sportsbet-design/commit/827bebf39e8a436610d753215595f15c6e8ade05))
+
+
+
+
+
 ## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
 
 
