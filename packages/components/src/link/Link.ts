@@ -22,7 +22,7 @@ const Link = styled.a<LinkProps>(
       cursor: 'pointer',
       textDecoration: 'none',
       '&:hover, &:focus, &:active': {
-        color: color.piccolo[60],
+        color: color.piccolo[80],
       },
       ...disabled(opacity.disabled),
     },
