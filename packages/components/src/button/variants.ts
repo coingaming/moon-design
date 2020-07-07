@@ -61,10 +61,10 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
       color: color.goten[100],
       backgroundColor: color.whis[100],
       ...buttonHover({
-        backgroundColor: color.whis[80],
+        opacity: 0.9,
       }),
       ...buttonActive({
-        backgroundColor: color.whis[100],
+        opacity: 0.8,
         outline: 'none',
       }),
     },

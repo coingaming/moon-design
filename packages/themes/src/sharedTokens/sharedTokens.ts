@@ -1,9 +1,5 @@
-import { Base } from '../types/base';
-import { ColorShared } from '../types/color';
 import { Theme } from '../types/theme';
 import { Omit } from '../types/utils';
-
-import color from './private/color';
 
 /**
  * Shared Theme Base
@@ -18,23 +14,19 @@ import color from './private/color';
 type OmitBrand = Omit<Theme, 'brand'>;
 type OmitColorScheme = Omit<OmitBrand, 'colorScheme'>;
 
-type Shared = Omit<OmitColorScheme, 'color'> & {
-  color: ColorShared;
-};
-
-// Even though base is typed by `Theme` below, TypeScript complains if we don't
-// type `Base` beforehand.
-const base: Base = {
-  fontSize: 16,
-  lineHeight: 20,
-  space: 16,
-};
+type Shared = Omit<OmitColorScheme, 'color'>;
 
 const borderStyle = 'solid';
 const borderWidth = 1;
 
-const shared: Shared = {
-  base,
+const space = 16;
+
+const sharedTokens: Shared = {
+  base: {
+    space,
+    fontSize: 16,
+    lineHeight: 20,
+  },
   borderStyle,
   borderWidth,
   border: `${borderWidth}px ${borderStyle}`,
@@ -46,7 +38,6 @@ const shared: Shared = {
     large: 1080,
     xlarge: 1200,
   },
-  color,
   fontFace: undefined,
   fontFamily:
     '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
@@ -66,17 +57,17 @@ const shared: Shared = {
     disabled: 0.35,
   },
   radius: {
-    small: base.space * 0.25,
-    default: base.space * 0.5,
+    small: space * 0.25,
+    default: space * 0.5,
     largest: 100,
   },
   space: {
-    xsmall: base.space * 0.25,
-    small: base.space * 0.5,
-    default: base.space,
-    medium: base.space * 1.5,
-    large: base.space * 2,
-    xlarge: base.space * 2.5,
+    xsmall: space * 0.25,
+    small: space * 0.5,
+    default: space,
+    medium: space * 1.5,
+    large: space * 2,
+    xlarge: space * 2.5,
   },
   transitionDuration: {
     slow: 0.4,
@@ -89,4 +80,4 @@ const shared: Shared = {
   },
 };
 
-export default shared;
+export default sharedTokens;
