@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
+
+
+### Bug Fixes
+
+* colours ([373742b](https://github.com/coingaming/sportsbet-design/commit/373742b09fec9e282144163fe4e030936fdddca4))
+* fix ui tests ([4e68519](https://github.com/coingaming/sportsbet-design/commit/4e6851993cee14fcffbf77336e1b5693bbff499d))
+* snackbar desktop max-width ([f6bf5a3](https://github.com/coingaming/sportsbet-design/commit/f6bf5a32b592e096bcccb04b253e1301946a653e))
+
+
+### Features
+
+* update averta semibold to 500 ([04e6c33](https://github.com/coingaming/sportsbet-design/commit/04e6c3379fdc6a8a20a2c627fc32cf6f3f9f2b70))
+
+
+
+
+
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 
