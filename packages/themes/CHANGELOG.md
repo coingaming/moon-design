@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
+
+
+### Bug Fixes
+
+* slots fonts ([3a6e99d](https://github.com/coingaming/sportsbet-design/commit/3a6e99d0f5dcffd90c8a946028eb4365bf826c7e))
+
+
+
+
+
 # [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
 
 
