@@ -46,9 +46,9 @@ const bitcasinoDark: Theme = {
   fontWeight: avertaStd.fontWeight,
   boxShadow,
   color: {
+    ...supportColors,
     text: color.bulma[100],
     background: color.goku[100],
-    ...supportColors,
     piccolo: {
       120: '#F54100',
       100: '#FF4F0F',
