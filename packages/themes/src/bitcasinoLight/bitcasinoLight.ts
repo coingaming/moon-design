@@ -34,9 +34,9 @@ const { color: bitcasinoDarkColors } = bitcasinoDark;
 const bitcasinoLight: Theme = {
   ...bitcasinoDark,
   color: {
+    ...bitcasinoDarkColors,
     text: color.bulma[100],
     background: color.goku[100],
-    ...bitcasinoDarkColors,
     ...color,
   },
   colorScheme: 'light',
