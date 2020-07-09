@@ -1,3 +1,5 @@
+import { avertaStd } from '@heathmont/moon-fonts';
+
 import { Theme } from '../types/theme';
 import sharedTokens from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
@@ -46,6 +48,11 @@ const color = {
 const slotsDark: Theme = {
   ...sharedTokens,
   brand: 'Slots.io',
+  fontFace: avertaStd.fontFace,
+  fontFamily: avertaStd.fontStack,
+  fontSize: {
+    body: 14,
+  },
   color: {
     text: color.bulma[100],
     background: color.goku[100],
