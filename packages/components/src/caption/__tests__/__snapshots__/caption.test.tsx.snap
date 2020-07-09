@@ -49,7 +49,7 @@ exports[`Caption renders with a color 1`] = `
   -moz-letter-spacing: 0.0625rem;
   -ms-letter-spacing: 0.0625rem;
   letter-spacing: 0.0625rem;
-  color: #0CD664;
+  color: #0CD463;
 }
 
 <span

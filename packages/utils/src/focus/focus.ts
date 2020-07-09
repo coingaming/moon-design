@@ -1,5 +1,5 @@
 import { CSSObject } from 'styled-components';
-import { shared } from '@heathmont/moon-themes';
+import { supportColors } from '@heathmont/moon-themes';
 
 import rem from '../rem/rem';
 
@@ -12,7 +12,7 @@ export const focusReset: CSSObject = {
   },
 };
 
-export const focus = (color: string | undefined = shared.color.whis[100]) => ({
+export const focus = (color: string | undefined = supportColors.whis[100]) => ({
   ...focusReset,
   '&:focus': {
     outline: 'none' /* Duplicate `:focus` doesn't spread nice */,

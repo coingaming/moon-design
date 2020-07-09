@@ -65,7 +65,7 @@ Array [
 }
 
 .c0:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {
@@ -182,7 +182,7 @@ Array [
 }
 
 .c0:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {
@@ -297,7 +297,7 @@ Array [
 }
 
 .c0:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {
@@ -412,7 +412,7 @@ Array [
 }
 
 .c0:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {
@@ -529,7 +529,7 @@ Array [
 }
 
 .c0:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {

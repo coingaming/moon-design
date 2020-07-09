@@ -1,5 +1,6 @@
 import { Theme } from '../types/theme';
-import bitcasinoShared from '../bitcasinoShared/bitcasinoShared';
+import sharedTokens from '../sharedTokens/sharedTokens';
+import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
@@ -42,17 +43,16 @@ const color = {
   },
 };
 
-const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
-
-const bombay: Theme = {
-  ...sharedTheme,
+const bombayClub: Theme = {
+  ...sharedTokens,
+  brand: 'BombayClub',
   color: {
     text: color.bulma[100],
     background: color.goku[100],
+    ...supportColors,
     ...color,
-    ...sharedColor,
   },
   colorScheme: 'dark',
 };
 
-export default bombay;
+export default bombayClub;
