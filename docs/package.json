@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "docs",
-  "version": "2.18.0",
+  "version": "2.19.0",
   "repository": "https://github.com/coingaming/sportsbet-design",
   "author": "Coingaming Group",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "@heathmont/moon-assets": "^2.18.0",
     "@heathmont/moon-components": "^2.18.0",
     "@heathmont/moon-fonts": "^2.18.0",
-    "@heathmont/moon-global": "^2.18.0",
+    "@heathmont/moon-global": "^2.19.0",
     "@heathmont/moon-themes": "^2.18.0",
     "@heathmont/moon-utils": "^2.18.0",
     "@heathmont/sportsbet-cdn": "1.1.0",

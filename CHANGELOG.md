@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/coingaming/sportsbet-design/compare/v2.18.0...v2.19.0) (2020-07-09)
+
+
+### Features
+
+* global font display ([7d48866](https://github.com/coingaming/sportsbet-design/commit/7d488660e0398557db96cb7aa589f7b75c0dd8c5))
+
+
+
+
+
 # [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
 
 
