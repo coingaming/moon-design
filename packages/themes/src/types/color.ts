@@ -2,6 +2,29 @@ import { CSSObject } from 'styled-components';
 
 export type ColorValue = CSSObject['color'];
 
+type InteractiveColor = {
+  120?: ColorValue;
+  100?: ColorValue;
+  80?: ColorValue;
+};
+
+type BackgroundColor = {
+  100?: ColorValue;
+  80?: ColorValue;
+  40?: ColorValue;
+  10?: ColorValue;
+};
+
+// For text & borders
+type SingletonColor = {
+  100?: ColorValue;
+};
+
+type SupportingColor = {
+  100?: ColorValue;
+  10?: ColorValue;
+};
+
 export type ColorPalette = {
   120?: ColorValue;
   100?: ColorValue;
@@ -40,7 +63,7 @@ export type ColorPiccolo = {
    *
    * Usage: primary button colors.
    */
-  piccolo: ColorPalette;
+  piccolo: InteractiveColor;
 };
 
 export type ColorHit = {
@@ -49,25 +72,7 @@ export type ColorHit = {
    *
    * Usage: secondary button colors.
    */
-  hit: ColorPalette;
-};
-
-export type ColorDende = {
-  /**
-   * Dende (Tertiary) | Optional
-   *
-   * Usage: tertiary button colors.
-   */
-  dende?: ColorPalette;
-};
-
-export type ColorPopo = {
-  /**
-   * Popo
-   *
-   * Usage: link colors.
-   */
-  popo?: ColorPalette;
+  hit: InteractiveColor;
 };
 
 export type ColorGoku = {
@@ -76,7 +81,7 @@ export type ColorGoku = {
    *
    * Usage: main background colors.
    */
-  goku: ColorPalette;
+  goku: BackgroundColor;
 };
 
 export type ColorGohan = {
@@ -85,7 +90,7 @@ export type ColorGohan = {
    *
    * Usage: secondary background colors.
    */
-  gohan: ColorPalette;
+  gohan: BackgroundColor;
 };
 
 export type ColorBeerus = {
@@ -94,7 +99,7 @@ export type ColorBeerus = {
    *
    * Usage: border colors.
    */
-  beerus: ColorPalette;
+  beerus: SingletonColor;
 };
 
 export type ColorGoten = {
@@ -103,7 +108,7 @@ export type ColorGoten = {
    *
    * Usage: button text, promotion card text & some cases body or headline text.
    */
-  goten: ColorPalette;
+  goten: SingletonColor;
 };
 
 export type ColorBulma = {
@@ -112,7 +117,7 @@ export type ColorBulma = {
    *
    * Usage: main body text.
    */
-  bulma: ColorPalette;
+  bulma: SingletonColor;
 };
 
 export type ColorTrunks = {
@@ -121,13 +126,11 @@ export type ColorTrunks = {
    *
    * Usage: secondary body text.
    */
-  trunks: ColorPalette;
+  trunks: SingletonColor;
 };
 
 export type ColorThemed = ColorPiccolo &
   ColorHit &
-  ColorDende &
-  ColorPopo &
   ColorGoku &
   ColorGohan &
   ColorBeerus &
@@ -135,34 +138,16 @@ export type ColorThemed = ColorPiccolo &
   ColorBulma &
   ColorTrunks;
 
-/* ColorShared
-  ============================================ */
+/* Various Shared Palettes */
 
 export type ColorShared = {
-  /**
-   * Krillin
-   *
-   * Usage: warning colors.
-   */
-  krillin: ColorPalette;
-  /**
-   * Chi-chi
-   *
-   * Usage: error colors.
-   */
-  chiChi: ColorPalette;
-  /**
-   * Roshi
-   *
-   * Usage: success colors.
-   */
-  roshi: ColorPalette;
-  /* Various Shared Palettes */
-  dodoria: ColorPalette;
-  cell: ColorPalette;
-  raditz: ColorPalette;
-  whis: ColorPalette;
-  frieza: ColorPalette;
-  nappa: ColorPalette;
-  erasa: ColorPalette;
+  krillin: SupportingColor; // Warning colors
+  chiChi: SupportingColor; // Error colors
+  roshi: SupportingColor; // Success colors
+  dodoria: SupportingColor;
+  cell: SupportingColor;
+  raditz: SupportingColor;
+  whis: SupportingColor;
+  frieza: SupportingColor;
+  nappa: SupportingColor;
 };

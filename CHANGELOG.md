@@ -3,6 +3,63 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
+
+
+### Bug Fixes
+
+* **global:** remove focus polyfill from dependencies ([827bebf](https://github.com/coingaming/sportsbet-design/commit/827bebf39e8a436610d753215595f15c6e8ade05))
+
+
+
+
+
+## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
+
+
+### Bug Fixes
+
+* fix slots secondary button color ([31335ec](https://github.com/coingaming/sportsbet-design/commit/31335ece8158f5f0aa8b69ca39f50ab7a7b63337))
+
+
+
+
+
+# [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
+
+
+### Bug Fixes
+
+* bump test snapshots ([fb0f2a6](https://github.com/coingaming/sportsbet-design/commit/fb0f2a670635f9d2cd376163bf0f9b095dfe9cc8))
+* fix bombay and slots themes ([9b5276c](https://github.com/coingaming/sportsbet-design/commit/9b5276cfe09a37160abaab1cedf1dcb42525972c))
+
+
+### Features
+
+* align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
+* rename bitcasino purple to dark ([11d8a62](https://github.com/coingaming/sportsbet-design/commit/11d8a6279fa7a39c5227bf48acc8541965b045db))
+
+
+
+
+
+# [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
+
+
+### Bug Fixes
+
+* fix bitcasino beerus color ([3b127a4](https://github.com/coingaming/sportsbet-design/commit/3b127a4bc877b19cb3cce5b41e54883e10416827))
+* remove polyfill ([e2508db](https://github.com/coingaming/sportsbet-design/commit/e2508db3e5a53a2b011b6d1ed89cbcdb9b92292e))
+
+
+### Features
+
+* add slots theme ([0844cd2](https://github.com/coingaming/sportsbet-design/commit/0844cd2e06b02c7ff577f0a74ac75588f68bd601))
+
+
+
+
+
 # [2.15.0](https://github.com/coingaming/sportsbet-design/compare/v2.14.1...v2.15.0) (2020-06-17)
 
 

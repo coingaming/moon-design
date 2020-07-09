@@ -11,7 +11,7 @@ exports[`Button renders as an anchor tag 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -25,14 +25,15 @@ exports[`Button renders as an anchor tag 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <a
@@ -55,7 +56,7 @@ exports[`Button renders as disabled 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -69,14 +70,15 @@ exports[`Button renders as disabled 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -101,7 +103,7 @@ exports[`Button renders as fullWidth 1`] = `
   border-radius: 6.25rem;
   position: relative;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -115,14 +117,15 @@ exports[`Button renders as fullWidth 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -144,7 +147,7 @@ exports[`Button renders correctly 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -158,14 +161,15 @@ exports[`Button renders correctly 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -188,7 +192,7 @@ exports[`Button renders rounded 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -202,14 +206,15 @@ exports[`Button renders rounded 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -232,7 +237,7 @@ exports[`Button renders uppercased 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -246,14 +251,15 @@ exports[`Button renders uppercased 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -289,14 +295,15 @@ exports[`Button variants renders as highlight 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #2783C4;
+  opacity: 0.9;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
+  outline: none;
 }
 
 <button
@@ -340,6 +347,7 @@ exports[`Button variants renders as optional 1`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -361,7 +369,7 @@ exports[`Button variants renders as primary 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -375,14 +383,15 @@ exports[`Button variants renders as primary 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -426,6 +435,7 @@ exports[`Button variants renders as secondary 1`] = `
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -461,14 +471,15 @@ exports[`Button variants variants MockStates Highlight outline renders as active
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #2783C4;
+  opacity: 0.9;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
+  outline: none;
 }
 
 <button
@@ -504,14 +515,15 @@ exports[`Button variants variants MockStates Highlight renders as active 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #2783C4;
+  opacity: 0.9;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
+  outline: none;
 }
 
 <button
@@ -547,14 +559,15 @@ exports[`Button variants variants MockStates Highlight renders with hover 1`] = 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #2783C4;
+  opacity: 0.9;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0F75BD;
+  opacity: 0.8;
+  outline: none;
 }
 
 <button
@@ -598,6 +611,7 @@ exports[`Button variants variants MockStates Optional renders as active 1`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -641,6 +655,7 @@ exports[`Button variants variants MockStates Optional renders as active 2`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -684,6 +699,7 @@ exports[`Button variants variants MockStates Optional renders with hover 1`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -727,6 +743,7 @@ exports[`Button variants variants MockStates Optional renders with hover 2`] = `
 .c0:active,
 .c0:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 <button
@@ -748,7 +765,7 @@ exports[`Button variants variants MockStates Primary renders as active 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -762,14 +779,15 @@ exports[`Button variants variants MockStates Primary renders as active 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -791,7 +809,7 @@ exports[`Button variants variants MockStates Primary renders with hover 1`] = `
   border-color: transparent;
   border-radius: 6.25rem;
   color: #FFFFFF;
-  background-color: #0CD664;
+  background-color: #0CD463;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0.75rem 1.25rem;
@@ -805,14 +823,15 @@ exports[`Button variants variants MockStates Primary renders with hover 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #50E190;
+  background-color: #19E170;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #0CD664;
+  background-color: #02C556;
+  outline: none;
 }
 
 <button
@@ -856,6 +875,7 @@ exports[`Button variants variants MockStates Secondary renders as active 1`] = `
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -899,6 +919,7 @@ exports[`Button variants variants MockStates Secondary renders as active 2`] = `
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -942,6 +963,7 @@ exports[`Button variants variants MockStates Secondary renders with hover 1`] = 
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button
@@ -985,6 +1007,7 @@ exports[`Button variants variants MockStates Secondary renders with hover 2`] = 
 .c0:active,
 .c0:focus {
   background-color: #1A212A;
+  outline: none;
 }
 
 <button

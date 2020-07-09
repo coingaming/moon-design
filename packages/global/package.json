@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-global",
   "sideEffects": false,
-  "version": "2.14.1",
+  "version": "2.17.2",
   "files": [
     "lib"
   ],
@@ -15,9 +15,8 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^2.14.1",
-    "@heathmont/moon-utils": "^2.14.1",
-    "focus-visible": "5.0.2"
+    "@heathmont/moon-themes": "^2.17.2",
+    "@heathmont/moon-utils": "^2.17.2"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
