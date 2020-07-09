@@ -14,7 +14,7 @@ const fontStyle = 'normal';
 const fontDisplay = 'swap';
 const fontWeight = {
   normal: 400,
-  semibold: 600,
+  semibold: 500,
   bold: 700,
 };
 const unicodeRange =
