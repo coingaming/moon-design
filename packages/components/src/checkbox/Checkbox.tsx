@@ -82,7 +82,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
     },
     '&:checked + span::before': {
       opacity: 0.1,
-      backgroundColor: theme.color.piccolo[20] /* [1] */,
+      backgroundColor: theme.color.piccolo[80] /* [1] */,
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {

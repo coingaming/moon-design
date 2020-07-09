@@ -96,7 +96,7 @@ exports[`Form renders a form combo 1`] = `
 }
 
 .c7:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c7:not(:placeholder-shown):not([type="date"]):invalid {
@@ -114,7 +114,7 @@ exports[`Form renders a form combo 1`] = `
 }
 
 .c7:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 
@@ -274,7 +274,7 @@ exports[`Form renders a form combo without a label 1`] = `
 }
 
 .c6:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c6:not(:placeholder-shown):not([type="date"]):invalid {
@@ -292,7 +292,7 @@ exports[`Form renders a form combo without a label 1`] = `
 }
 
 .c6:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 

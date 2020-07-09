@@ -49,7 +49,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .c1:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -67,7 +67,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 
@@ -259,7 +259,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .c1:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -277,7 +277,7 @@ exports[`TextInput renders as an \`error\` when defined 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 
@@ -477,7 +477,7 @@ exports[`TextInput renders correctly for other types 1`] = `
 }
 
 .c1:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -495,7 +495,7 @@ exports[`TextInput renders correctly for other types 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 
@@ -671,7 +671,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .c1:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -689,7 +689,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 
@@ -750,7 +750,7 @@ exports[`TextInput renders correctly without a label 1`] = `
 }
 
 .c0:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c0:not(:placeholder-shown):not([type="date"]):invalid {
@@ -768,7 +768,7 @@ exports[`TextInput renders correctly without a label 1`] = `
 }
 
 .c0:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 
@@ -835,7 +835,7 @@ exports[`TextInput renders with rounded prop 1`] = `
 }
 
 .c1:hover:not(:focus):not([disabled]) {
-  border-color: #4D5359;
+  border-color: #4C5159;
 }
 
 .c1:not(:placeholder-shown):not([type="date"]):invalid {
@@ -853,7 +853,7 @@ exports[`TextInput renders with rounded prop 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD664;
+  border-color: #0CD463;
   outline: none;
 }
 

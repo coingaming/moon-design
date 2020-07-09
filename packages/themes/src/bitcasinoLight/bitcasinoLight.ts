@@ -1,5 +1,5 @@
 import { Theme } from '../types/theme';
-import bitcasinoShared from '../bitcasinoShared/bitcasinoShared';
+import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
 
 const color = {
   goku: {
@@ -17,7 +17,7 @@ const color = {
     20: '#E0E0E0',
   },
   beerus: {
-    100: '#D7DCDF',
+    100: '#EAEEF0',
   },
   bulma: {
     100: '#0F161F',
@@ -29,15 +29,15 @@ const color = {
   },
 };
 
-const { color: sharedColor, ...sharedTheme } = bitcasinoShared;
+const { color: bitcasinoDarkColors } = bitcasinoDark;
 
 const bitcasinoLight: Theme = {
-  ...sharedTheme,
+  ...bitcasinoDark,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
+    ...bitcasinoDarkColors,
     ...color,
-    ...sharedColor,
   },
   colorScheme: 'light',
 };

@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
+
+
+### Bug Fixes
+
+* **global:** remove focus polyfill from dependencies ([827bebf](https://github.com/coingaming/sportsbet-design/commit/827bebf39e8a436610d753215595f15c6e8ade05))
+
+
+
+
+
+## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
+
+**Note:** Version bump only for package @heathmont/moon-global
+
+
+
+
+
+# [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
+
+**Note:** Version bump only for package @heathmont/moon-global
+
+
+
+
+
+# [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
+
+
+### Bug Fixes
+
+* remove polyfill ([e2508db](https://github.com/coingaming/sportsbet-design/commit/e2508db3e5a53a2b011b6d1ed89cbcdb9b92292e))
+
+
+
+
+
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-global
