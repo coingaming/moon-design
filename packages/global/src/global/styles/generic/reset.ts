@@ -36,6 +36,15 @@ const reset: CSSObject = {
   '[hidden]': {
     display: 'none !important',
   },
+  /**
+   * Correct font display behavior
+   */
+  [`button, input, select`]: {
+    fontFamily: 'inherit',
+  },
+  [`b, strong`]: {
+    fontWeight: 500,
+  },
 };
 
 export default reset;
