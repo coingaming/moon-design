@@ -1,7 +1,7 @@
 import { Theme } from '../types/theme';
 import sportsbetDark from '../sportsbetDark/sportsbetDark';
 
-const color = {
+const lightColors = {
   piccolo: {
     120: '#02C556',
     100: '#0CD463',
@@ -41,10 +41,10 @@ const color = {
 const sportsbetLight: Theme = {
   ...sportsbetDark,
   color: {
-    text: color.bulma[100],
-    background: color.goku[100],
     ...sportsbetDark.color,
-    ...color,
+    text: lightColors.bulma[100],
+    background: lightColors.goku[100],
+    ...lightColors,
   },
   colorScheme: 'light',
 };
