@@ -6,17 +6,14 @@ type Props = {
   color?: ColorProps;
 };
 
-const Caption = styled.span<Props>(
-  {
-    fontSize: rem(10),
-    lineHeight: rem(16),
-    textTransform: 'uppercase',
-    letterSpacing: rem(1),
-  },
-  ({ color, theme }) => ({
-    color: themed('color', color)(theme),
-  })
-);
+const Caption = styled.span<Props>(({ color, theme }) => ({
+  color: themed('color', color)(theme),
+  fontSize: rem(10),
+  lineHeight: rem(16),
+  fontWeight: theme.fontWeight.semibold,
+  textTransform: 'uppercase',
+  letterSpacing: rem(1),
+}));
 
 Caption.defaultProps = {
   color: 'bulma.100',
