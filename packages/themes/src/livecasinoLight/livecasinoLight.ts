@@ -8,32 +8,45 @@ const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
 
 const color = {
-  goku: {
-    100: '#24033F',
-    80: '#320854',
-    40: '#4C1A75',
-    10: '#65348D',
+  piccolo: {
+    120: '#C20B37',
+    100: '#DD0D3F',
+    80: '#E12A56',
   },
-  gohan: {
-    100: '#3E0D68',
-    80: '#4B1679',
-    40: '#642E94',
-    20: '#713C9F',
+  hit: {
+    120: '#1D2036',
+    100: '#090D24',
+    80: '#303447',
   },
   beerus: {
-    100: '#521B81',
+    100: '#E5E9F0',
   },
-  bulma: {
+  goku: {
+    100: '#F2F7FF',
+    80: '#EAEEF0',
+    40: '#D8E0E3',
+    10: '#C5D2D8',
+  },
+  gohan: {
+    100: '#FFFFFF',
+    80: '#F7F7F7',
+    40: '#E8E8E8',
+    10: '#D9D9D9',
+  },
+  goten: {
     100: '#FFFFFF',
   },
+  bulma: {
+    100: '#0F161F',
+  },
   trunks: {
-    100: '#A18EB4',
+    100: '#8697A2',
   },
 };
 
-const bitcasinoDark: Theme = {
+const livecasinoLight: Theme = {
   ...sharedTokens,
-  brand: 'Bitcasino.io',
+  brand: 'Livecasino.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
@@ -42,25 +55,12 @@ const bitcasinoDark: Theme = {
   fontWeight: avertaStd.fontWeight,
   boxShadow,
   color: {
-    ...supportColors,
     text: color.bulma[100],
     background: color.goku[100],
-    piccolo: {
-      120: '#F54100',
-      100: '#FF4F0F',
-      80: '#FA642E',
-    },
-    hit: {
-      120: '#0679E5',
-      100: '#1286F3',
-      80: '#2F92EE',
-    },
-    goten: {
-      100: '#FFFFFF',
-    },
+    ...supportColors,
     ...color,
   },
-  colorScheme: 'dark',
+  colorScheme: 'light',
 };
 
-export default bitcasinoDark;
+export default livecasinoLight;
