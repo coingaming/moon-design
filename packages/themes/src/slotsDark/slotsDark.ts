@@ -21,14 +21,12 @@ const color = {
   goku: {
     100: '#F3F5F6',
     80: '#E9EDEF',
-    60: '#E0E5E7',
     40: '#D6DDE0',
-    20: '#CCD5D9',
+    10: '#CCD5D9',
   },
   gohan: {
     100: '#FFFFFF',
     80: '#FDFDFD',
-    60: '#F3F5F6',
     40: '#E9EDEF',
     10: '#D6DDE0',
   },
@@ -40,8 +38,6 @@ const color = {
   },
   trunks: {
     100: '#8697A2',
-    60: '#98A7B0',
-    20: '#A4B1B9',
   },
 };
 
