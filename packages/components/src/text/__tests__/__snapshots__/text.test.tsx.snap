@@ -240,12 +240,12 @@ exports[`Text Sizes Boldness renders default boldness 1`] = `
 </p>
 `;
 
-exports[`Text Sizes Boldness renders with bold font weight 1`] = `
+exports[`Text Sizes Boldness renders with semibold font weight 1`] = `
 .c0 {
   color: #FFFFFF;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 <p

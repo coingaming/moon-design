@@ -46,8 +46,7 @@ const sharedTokens: Shared = {
   },
   fontWeight: {
     normal: 400,
-    semibold: 500,
-    bold: 700,
+    semibold: 600,
   },
   maxWidth: {
     default: 1024,
