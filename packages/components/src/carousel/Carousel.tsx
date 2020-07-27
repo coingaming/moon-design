@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled, { CSSObject } from 'styled-components';
-import { IconChevronLeft } from '@heathmont/moon-assets';
 import { SpaceProps } from '@heathmont/moon-themes';
 
+import IconChevronLeft from '../private/icons/IconChevronLeft';
 import Reel from '../reel/Reel';
 import { withHorizontalScroll } from '../withHorizontalScroll/withHorizontalScroll';
 
