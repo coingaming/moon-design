@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { IconClose } from '@heathmont/moon-assets';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
+
+import IconClose from '../private/icons/IconClose';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
 import { DialogPosition, DialogMaxWidth } from './private/types';
