@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+
+
+
+
+## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+
+
+
+
+# [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
+
+
+### Bug Fixes
+
+* fix ui tests ([4e68519](https://github.com/coingaming/sportsbet-design/commit/4e6851993cee14fcffbf77336e1b5693bbff499d))
+* snackbar desktop max-width ([f6bf5a3](https://github.com/coingaming/sportsbet-design/commit/f6bf5a32b592e096bcccb04b253e1301946a653e))
+
+
+
+
+
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 **Note:** Version bump only for package @heathmont/moon-components

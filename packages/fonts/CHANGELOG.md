@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
+
+
+### Features
+
+* update averta semibold to 500 ([04e6c33](https://github.com/coingaming/sportsbet-design/commit/04e6c3379fdc6a8a20a2c627fc32cf6f3f9f2b70))
+
+
+
+
+
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-fonts

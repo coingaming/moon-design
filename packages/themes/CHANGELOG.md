@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
+
+
+### Bug Fixes
+
+* remove inexistent colors ([915f410](https://github.com/coingaming/sportsbet-design/commit/915f41095da3ec9e649a6794b4f07aa20dfbdd1f))
+
+
+### Features
+
+* add livecasinoLight theme ([b3820bb](https://github.com/coingaming/sportsbet-design/commit/b3820bb2755ebf856c5c88380882c59ff6b60271))
+
+
+
+
+
+## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
+
+
+### Bug Fixes
+
+* slots fonts ([3a6e99d](https://github.com/coingaming/sportsbet-design/commit/3a6e99d0f5dcffd90c8a946028eb4365bf826c7e))
+
+
+
+
+
+# [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
+
+
+### Bug Fixes
+
+* colours ([373742b](https://github.com/coingaming/sportsbet-design/commit/373742b09fec9e282144163fe4e030936fdddca4))
+
+
+### Features
+
+* update averta semibold to 500 ([04e6c33](https://github.com/coingaming/sportsbet-design/commit/04e6c3379fdc6a8a20a2c627fc32cf6f3f9f2b70))
+
+
+
+
+
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 **Note:** Version bump only for package @heathmont/moon-themes
