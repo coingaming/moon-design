@@ -1,10 +1,10 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { disabled, rem } from '@heathmont/moon-utils';
-import { IconSuccess } from '@heathmont/moon-assets';
 import { useTheme } from '@heathmont/moon-themes';
 
 import Loader from '../loader/Loader';
+import IconSuccess from '../private/icons/IconSuccess';
 
 import { buttonVariant, ButtonVariants } from './variants';
 import { buttonSize, ButtonSizes } from './size';
