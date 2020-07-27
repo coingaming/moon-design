@@ -2,6 +2,11 @@ import { Theme } from '../types/theme';
 import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
 
 const color = {
+  hit: {
+    120: '#E3EAED',
+    100: '#EBF0F2',
+    80: '#F6F8F9',
+  },
   goku: {
     100: '#F3F5F6',
     80: '#EAEEF0',
