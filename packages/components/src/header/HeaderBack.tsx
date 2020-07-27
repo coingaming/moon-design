@@ -1,9 +1,9 @@
 import * as React from 'react';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem } from '@heathmont/moon-utils';
-import { IconArrowLeft } from '@heathmont/moon-assets';
 import styled from 'styled-components';
 
+import IconArrowLeft from '../private/icons/IconArrowLeft';
 /**
  * Types
  *
