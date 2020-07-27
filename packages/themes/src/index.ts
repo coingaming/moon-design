@@ -8,6 +8,8 @@ export { default as bitcasinoLight } from './bitcasinoLight/bitcasinoLight';
 export * from './bitcasinoLight/bitcasinoLight';
 export { default as bombayClub } from './bombayClub/bombayClub';
 export * from './bombayClub/bombayClub';
+export { default as livecasinoLight } from './livecasinoLight/livecasinoLight';
+export * from './livecasinoLight/livecasinoLight';
 export { default as sharedTokens } from './sharedTokens/sharedTokens';
 export * from './sharedTokens/sharedTokens';
 export { default as slotsDark } from './slotsDark/slotsDark';

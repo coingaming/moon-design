@@ -23,7 +23,7 @@ exports[`Select renders a select input with options 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-ooev4u-0%20equBTQ%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-sc-9kp21a-0%20gcFRYP%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 6.25rem;
@@ -133,7 +133,7 @@ exports[`Select renders as disabled for default select input 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-ooev4u-0%20equBTQ%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-sc-9kp21a-0%20gcFRYP%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 6.25rem;
@@ -262,7 +262,7 @@ exports[`Select renders as full-width for default select input 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-ooev4u-0%20equBTQ%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-sc-9kp21a-0%20gcFRYP%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 6.25rem;
@@ -384,7 +384,7 @@ exports[`Select renders with label above the input 1`] = `
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-ooev4u-0%20equBTQ%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-sc-9kp21a-0%20gcFRYP%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 6.25rem;
@@ -510,7 +510,7 @@ exports[`Select renders with label as a flex layout evenly spaced by default 1`]
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-ooev4u-0%20equBTQ%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-sc-9kp21a-0%20gcFRYP%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 6.25rem;
@@ -666,7 +666,7 @@ exports[`Select renders with label as a flex layout with adjusted input size 1`]
   background-repeat: no-repeat;
   background-size: 1.25rem;
   color: #8697A2;
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-ooev4u-0%20equBTQ%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2020%2012%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20color%3D%22%238697A2%22%20class%3D%22IconChevronDown-sc-9kp21a-0%20gcFRYP%22%3E%3Cpath%20d%3D%22M17.377%200L10%207.014%202.624%200%200%202.5%2010%2012l10-9.502z%22%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
   padding-right: 2.5rem;
   background-size: 0.625rem;
   border-radius: 6.25rem;

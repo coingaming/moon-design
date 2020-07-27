@@ -15,6 +15,12 @@ describe('Caption', () => {
       const caption = create(renderWithTheme(<Caption>Caption</Caption>));
       expect(caption).toMatchSnapshot();
     });
+    test('renders as an element if "as" prop provided', () => {
+      const text = create(
+        renderWithTheme(<Caption as="p">Caption with Paragraph tag</Caption>)
+      );
+      expect(text).toMatchSnapshot();
+    });
   });
 
   test('renders default color', () => {
