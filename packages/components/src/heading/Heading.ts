@@ -11,12 +11,12 @@ const Heading = styled.p<HeadingProps>(
   ({ size, theme: { fontWeight } }) =>
     ({
       alpha: {
-        fontWeight: fontWeight.bold,
+        fontWeight: fontWeight.semibold,
         fontSize: rem(40),
         lineHeight: rem(48),
       },
       bravo: {
-        fontWeight: fontWeight.bold,
+        fontWeight: fontWeight.semibold,
         fontSize: rem(32),
         lineHeight: rem(40),
       },
