@@ -1,12 +1,11 @@
 import * as React from 'react';
-import {
-  IconError,
-  IconCloseSmall,
-  IconWarning,
-  IconBannerInfo,
-} from '@heathmont/moon-assets';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+
+import IconBannerInfo from '../private/icons/IconBannerInfo';
+import IconCloseSmall from '../private/icons/IconCloseSmall';
+import IconError from '../private/icons/IconError';
+import IconWarning from '../private/icons/IconWarning';
 
 type BannerProps = {
   message: any;
