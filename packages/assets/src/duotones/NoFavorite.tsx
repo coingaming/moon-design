@@ -70,7 +70,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const NoFavorite = (props): any => {
+const NoFavorite: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

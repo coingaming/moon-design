@@ -125,7 +125,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const TrackYourProgress = (props): any => {
+const TrackYourProgress: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

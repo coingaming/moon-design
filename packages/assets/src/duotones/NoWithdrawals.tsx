@@ -100,7 +100,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const NoWithdrawals = (props): any => {
+const NoWithdrawals: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };
