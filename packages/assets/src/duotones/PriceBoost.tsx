@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+const Svg = ({ secondaryColor, ...rest }: any) => (
   <svg
     width="1em"
     height="1em"
     viewBox="0 0 174 174"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...rest}
   >
     <path
       opacity={0.1}
@@ -24,13 +24,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M59.486 69.02V68.52H58.986H50.315C49.2391 68.52 48.3206 67.9149 47.9058 66.9145L47.444 67.106L47.9058 66.9145C47.4921 65.9167 47.7049 64.8528 48.4674 64.0637L78.6245 33.9066C80.0801 32.451 82.4618 32.4461 83.9511 33.9082C83.9516 33.9087 83.952 33.9091 83.9525 33.9096L113.848 63.8055C114.607 64.5644 114.823 65.6286 114.434 66.6013C114.044 67.5755 113.149 68.2057 112.074 68.2301L112.073 68.2301L102.213 68.4621L101.728 68.4735L101.725 68.9589L101.638 82.9949V82.998C101.638 83.3308 101.369 83.6 101.036 83.6C100.703 83.6 100.435 83.3314 100.434 82.9991C100.434 82.9987 100.434 82.9984 100.434 82.998L100.518 67.3041L112.034 67.026C112.881 67.0225 113.212 66.3496 113.28 66.2103C113.283 66.2059 113.285 66.2019 113.286 66.1986L112.839 65.975L113.286 66.1986C113.387 65.9972 113.62 65.2564 112.984 64.6585L83.0905 34.7654C82.0833 33.7582 80.4907 33.7582 79.4834 34.7654L49.3234 64.9254C48.6963 65.5526 48.931 66.254 49.0097 66.4507L49.0175 66.47L49.0268 66.4886C49.0283 66.4917 49.03 66.4951 49.0319 66.4989C49.1039 66.6445 49.4363 67.316 50.315 67.316H60.69V105.096C60.69 105.391 60.4295 105.669 60.088 105.669C59.7551 105.669 59.486 105.4 59.486 105.067V69.02Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M60.2622 119.241C59.9293 119.241 59.6602 118.972 59.6602 118.639V111.824C59.6602 111.491 59.9293 111.222 60.2622 111.222C60.595 111.222 60.8642 111.491 60.8642 111.824V118.639C60.8642 118.972 60.595 119.241 60.2622 119.241Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M51.4172 116.812C50.8082 116.812 50.3152 116.319 50.3152 115.71V97.121C50.3152 96.512 50.8082 96.019 51.4172 96.019C52.0262 96.019 52.5192 96.512 52.5192 97.121V115.71C52.5482 116.319 52.0262 116.812 51.4172 116.812Z"
@@ -38,13 +38,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M71.2819 94.243C70.9491 94.243 70.6799 93.9739 70.6799 93.641V75.052C70.6799 74.7191 70.9491 74.45 71.2819 74.45C71.6148 74.45 71.8839 74.7191 71.8839 75.052V93.641C71.8839 93.9739 71.6148 94.243 71.2819 94.243Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M60.2622 126.607C59.9293 126.607 59.6602 126.338 59.6602 126.005V125.077C59.6602 124.744 59.9293 124.475 60.2622 124.475C60.595 124.475 60.8642 124.744 60.8642 125.077V126.005C60.8642 126.338 60.595 126.607 60.2622 126.607Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M104.777 138.91C90.7121 138.91 79.2571 127.455 79.2571 113.39C79.2571 99.325 90.7121 87.87 104.777 87.87C118.842 87.87 130.297 99.325 130.297 113.39C130.297 127.484 118.842 138.91 104.777 138.91ZM104.777 90.074C91.9301 90.074 81.4611 100.543 81.4611 113.39C81.4611 126.237 91.9301 136.706 104.777 136.706C117.624 136.706 128.093 126.237 128.093 113.39C128.093 100.543 117.624 90.074 104.777 90.074Z"
@@ -80,7 +80,8 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const PriceBoost = styled(Svg)<SvgProps>(
+
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -91,6 +92,12 @@ const PriceBoost = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
+
+const PriceBoost: React.FC<any> = props => {
+  const theme = useTheme();
+  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+};
+
 PriceBoost.defaultProps = {
   verticalAlign: 'middle',
 };
