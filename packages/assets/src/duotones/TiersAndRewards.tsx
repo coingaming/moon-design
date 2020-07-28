@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+const Svg = ({ secondaryColor, ...rest }: any) => (
   <svg
     width="1em"
     height="1em"
     viewBox="0 0 174 174"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...rest}
   >
     <path
       opacity={0.1}
@@ -19,28 +19,28 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M90.9148 102.787C108.788 87.4707 116.595 66.7897 118.946 43.1413H55.0312C57.3139 66.7897 65.1891 87.4707 83.0396 102.787"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2.28267}
       strokeMiterlimit={10}
       strokeLinecap="round"
     />
     <path
       d="M78.1545 114.292C78.1545 110.092 95.8224 110.092 95.8224 114.292"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2.28267}
       strokeMiterlimit={10}
       strokeLinecap="round"
     />
     <path
       d="M67.1521 126.801H106.665"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2.28267}
       strokeMiterlimit={10}
       strokeLinecap="round"
     />
     <path
       d="M50.6256 91.7163C51.5034 92.5941 52.694 93.0872 53.9354 93.0872C55.1769 93.0872 56.3675 92.5941 57.2453 91.7163C58.1231 90.8384 58.6163 89.6478 58.6163 88.4064C58.6163 87.1649 58.1231 85.9743 57.2453 85.0965C57.2453 85.0965 27.4793 69.6885 28.1413 55.5587"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2.28267}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -54,7 +54,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M123.397 91.7163C122.519 92.5941 121.329 93.0872 120.087 93.0872C118.846 93.0872 117.655 92.5941 116.777 91.7163C115.9 90.8384 115.406 89.6478 115.406 88.4064C115.406 87.1649 115.9 85.9743 116.777 85.0965C116.777 85.0965 146.452 69.6885 145.859 55.5587"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2.28267}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -76,7 +76,8 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const TiersAndRewards = styled(Svg)<SvgProps>(
+
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -87,6 +88,12 @@ const TiersAndRewards = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
+
+const TiersAndRewards: React.FC<any> = props => {
+  const theme = useTheme();
+  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+};
+
 TiersAndRewards.defaultProps = {
   verticalAlign: 'middle',
 };

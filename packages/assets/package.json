@@ -27,7 +27,7 @@
     "build:index:below": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src --structure flat --exportDefault --location below --delete false",
     "build:index:top": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src --structure flat --exportDefault --location top",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
-    "build": "yarn build:crests && yarn build:duotones && yarn build:logos && yarn build:patterns && yarn build:icons && yarn build:index"
+    "build": "yarn build:crests && yarn build:logos && yarn build:patterns && yarn build:icons && yarn build:index"
   },
   "dependencies": {
     "@heathmont/moon-themes": "^2.21.0",

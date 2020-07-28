@@ -5,7 +5,7 @@ exports[`Caption Elements renders as <span> by default 1`] = `
   color: #FFFFFF;
   font-size: 0.625rem;
   line-height: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -26,7 +26,7 @@ exports[`Caption Elements renders as an element if "as" prop provided 1`] = `
   color: #FFFFFF;
   font-size: 0.625rem;
   line-height: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -47,7 +47,7 @@ exports[`Caption renders default color 1`] = `
   color: #FFFFFF;
   font-size: 0.625rem;
   line-height: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -68,7 +68,7 @@ exports[`Caption renders with a color 1`] = `
   color: #0CD463;
   font-size: 0.625rem;
   line-height: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
