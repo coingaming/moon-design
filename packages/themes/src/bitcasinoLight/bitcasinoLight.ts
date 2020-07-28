@@ -3,9 +3,9 @@ import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
 
 const color = {
   hit: {
-    120: '#E3EAED',
-    100: '#EBF0F2',
-    80: '#F6F8F9',
+    120: '#D9E3E8',
+    100: '#E3EAED',
+    80: '#EDF1F3',
   },
   goku: {
     100: '#F3F5F6',
@@ -17,7 +17,7 @@ const color = {
     100: '#FFFFFF',
     80: '#F7F7F7',
     40: '#E8E8E8',
-    20: '#E0E0E0',
+    10: '#D9D9D9',
   },
   beerus: {
     100: '#EAEEF0',
