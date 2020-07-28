@@ -117,7 +117,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const NoFreeBet = (props): any => {
+const NoFreeBet: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

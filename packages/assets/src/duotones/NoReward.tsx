@@ -145,7 +145,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const NoReward = (props): any => {
+const NoReward: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };
