@@ -101,7 +101,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const HustleToTop = (props): any => {
+const HustleToTop: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

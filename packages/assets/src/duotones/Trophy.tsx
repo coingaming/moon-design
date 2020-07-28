@@ -128,7 +128,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const Trophy = (props): any => {
+const Trophy: React.FC<any> = props => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };
