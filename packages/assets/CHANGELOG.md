@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.22.0](https://github.com/coingaming/sportsbet-design/compare/v2.21.0...v2.22.0) (2020-07-28)
+
+
+### Bug Fixes
+
+* **assets:** ts fix for duotone icons ([5d5f41e](https://github.com/coingaming/sportsbet-design/commit/5d5f41e8dff343e6509a2e90208b97fe3379c39f))
+
+
+### Features
+
+* **assets:** duotone icons ([51e180a](https://github.com/coingaming/sportsbet-design/commit/51e180a03a1ae330ea4734cff9673cefcee07f1e))
+
+
+
+
+
 # [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
 
 **Note:** Version bump only for package @heathmont/moon-assets
