@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+const Svg = ({ secondaryColor, ...rest }: any) => (
   <svg
     width="1em"
     height="1em"
     viewBox="0 0 174 174"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...rest}
   >
     <path
       opacity={0.1}
@@ -56,7 +56,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M43 124.275L56.169 105.941C57.0728 104.779 58.6221 104.521 59.784 105.296L64.1737 108.136C65.4648 108.911 67.0141 108.523 67.9178 107.362L86.3803 79.4742C87.4131 78.054 89.4789 77.7958 90.6408 79.0869L96.7089 85.6714C97.6127 86.5751 99.0329 86.8334 100.195 86.1878L105.101 83.0892C106.263 82.4437 107.683 82.5728 108.587 83.6057L116.85 92.7723C117.883 93.9343 119.819 93.9343 120.852 92.7723C121.885 91.6103 123.692 91.6103 124.725 92.7723L128.082 96.2582"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -64,7 +64,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M67.2725 123.747L75.9227 116.646C77.0847 115.742 78.7631 115.613 80.0542 116.387L82.3781 117.808C83.9274 118.711 85.9931 118.324 87.026 116.904L93.7396 108.124C95.1598 106.317 97.8711 106.317 99.2912 107.995L106.78 116.775C107.167 117.291 107.812 117.678 108.458 117.937L112.977 119.228C113.88 119.486 114.913 119.357 115.817 118.84L123.305 114.58"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -72,7 +72,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M52.6835 73.3688C54.2767 75.2071 56.7276 76.31 59.3012 76.31C62.2423 76.31 64.8159 74.962 66.409 72.7561C67.1443 73.1237 67.8796 73.2463 68.7374 73.2463C69.9629 73.2463 71.0659 72.8786 71.9237 72.2659C72.659 73.0012 73.6394 73.6139 74.8649 73.6139C77.0708 73.6139 78.7865 71.8982 78.7865 69.6924C78.7865 67.4865 77.0708 65.7708 74.8649 65.7708C74.4972 65.7708 74.2521 65.7708 74.007 65.8933C73.2718 63.81 71.1884 62.2169 68.7374 62.2169C68.0021 62.2169 67.3894 62.3394 66.7767 62.5845C65.1835 60.011 62.3649 58.4178 59.1786 58.4178C54.7669 58.4178 50.9678 61.7267 50.3551 65.8933C49.9874 65.7708 49.7423 65.7708 49.3747 65.7708C47.1688 65.7708 45.4531 67.4865 45.4531 69.6924C45.4531 71.2855 46.311 72.6335 47.659 73.2463"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -88,7 +88,8 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const HustleToTop = styled(Svg)<SvgProps>(
+
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -99,6 +100,12 @@ const HustleToTop = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
+
+const HustleToTop = (props): any => {
+  const theme = useTheme();
+  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+};
+
 HustleToTop.defaultProps = {
   verticalAlign: 'middle',
 };

@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+const Svg = ({ secondaryColor, ...rest }: any) => (
   <svg
     width="1em"
     height="1em"
     viewBox="0 0 174 174"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...rest}
   >
     <g filter="url(#filter0_d)">
       <path
@@ -24,18 +24,18 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       />
       <path
         d="M117.537 108.714C117.204 108.714 116.935 108.445 116.935 108.112V101.036C116.935 100.703 117.204 100.434 117.537 100.434C117.87 100.434 118.139 100.703 118.139 101.036V108.112C118.139 108.445 117.87 108.714 117.537 108.714Z"
-        fill="white"
-        stroke="white"
+        fill={secondaryColor}
+        stroke={secondaryColor}
       />
       <path
         d="M58.812 108.714C58.4791 108.714 58.21 108.445 58.21 108.112V52.635C58.21 48.6191 61.4951 45.334 65.511 45.334H110.867C114.883 45.334 118.168 48.6191 118.168 52.635V65.685C118.168 66.0178 117.899 66.287 117.566 66.287C117.233 66.287 116.964 66.0179 116.964 65.685V52.635C116.964 49.2849 114.246 46.567 110.896 46.567H65.482C62.1318 46.567 59.414 49.2849 59.414 52.635V108.112C59.414 108.445 59.1448 108.714 58.812 108.714Z"
-        fill="white"
-        stroke="white"
+        fill={secondaryColor}
+        stroke={secondaryColor}
       />
       <path
         d="M112.375 46.567C112.042 46.567 111.773 46.2979 111.773 45.965V43.5C111.773 41.5449 110.189 39.926 108.199 39.926H68.1501C66.195 39.926 64.5761 41.5098 64.5761 43.5V45.965C64.5761 46.2979 64.3069 46.567 63.9741 46.567C63.6412 46.567 63.3721 46.2979 63.3721 45.965V43.5C63.3721 40.8762 65.5262 38.722 68.1501 38.722H108.199C110.823 38.722 112.977 40.8762 112.977 43.5V45.965C112.977 46.2979 112.708 46.567 112.375 46.567Z"
-        fill="white"
-        stroke="white"
+        fill={secondaryColor}
+        stroke={secondaryColor}
       />
       <path
         d="M117.537 129.166C116.928 129.166 116.435 128.673 116.435 128.064V115.159C116.435 114.55 116.928 114.057 117.537 114.057C118.146 114.057 118.639 114.55 118.639 115.159V128.064C118.639 128.673 118.146 129.166 117.537 129.166Z"
@@ -59,13 +59,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       />
       <path
         d="M88.16 82.005C82.666 82.005 78.22 77.5318 78.22 72.065C78.22 66.5991 82.6941 62.125 88.16 62.125C93.6539 62.125 98.1 66.5982 98.1 72.065C98.1 77.5318 93.6539 82.005 88.16 82.005ZM88.16 63.329C83.3308 63.329 79.424 67.2359 79.424 72.065C79.424 76.8941 83.3308 80.801 88.16 80.801C92.9891 80.801 96.896 76.8941 96.896 72.065C96.896 67.2359 92.9891 63.329 88.16 63.329Z"
-        fill="white"
-        stroke="white"
+        fill={secondaryColor}
+        stroke={secondaryColor}
       />
       <path
         d="M103.327 97.23C102.994 97.23 102.725 96.9609 102.725 96.628C102.725 88.6089 96.2084 82.092 88.1892 82.092C80.1701 82.092 73.6532 88.6089 73.6532 96.628C73.6532 96.9609 73.3841 97.23 73.0512 97.23C72.7184 97.23 72.4492 96.9609 72.4492 96.628C72.4492 87.9432 79.5334 80.859 88.2182 80.859C96.8942 80.859 103.973 87.9287 103.987 96.6015C103.942 96.9699 103.646 97.23 103.327 97.23Z"
-        fill="white"
-        stroke="white"
+        fill={secondaryColor}
+        stroke={secondaryColor}
       />
       <path
         d="M123.83 97.846C115.826 97.846 109.33 91.35 109.33 83.346C109.33 75.342 115.826 68.846 123.83 68.846C131.834 68.846 138.33 75.342 138.33 83.346C138.33 91.35 131.834 97.846 123.83 97.846ZM123.83 71.079C117.073 71.079 111.563 76.589 111.563 83.346C111.563 90.103 117.073 95.613 123.83 95.613C130.587 95.613 136.097 90.103 136.097 83.346C136.126 76.589 130.616 71.079 123.83 71.079Z"
@@ -125,7 +125,8 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const NoBets = styled(Svg)<SvgProps>(
+
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -136,6 +137,12 @@ const NoBets = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
+
+const NoBets = (props): any => {
+  const theme = useTheme();
+  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+};
+
 NoBets.defaultProps = {
   verticalAlign: 'middle',
 };
