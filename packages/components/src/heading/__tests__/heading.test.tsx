@@ -11,89 +11,114 @@ const renderWithTheme = (component: JSX.Element) => (
 
 describe('Heading', () => {
   describe('Elements', () => {
-    test('renders as <p> if no "as" prop provided', () => {
-      const heading = create(
-        renderWithTheme(<Heading size="alpha">Aplha Heading</Heading>)
-      );
+    test('renders as <h3> if no "as" prop provided', () => {
+      const heading = create(renderWithTheme(<Heading>Text</Heading>));
       expect(heading).toMatchSnapshot();
     });
 
     test('renders as an element if "as" prop provided', () => {
       const heading = create(
-        renderWithTheme(
-          <Heading size="alpha" as="h2">
-            Alpha Heading
-          </Heading>
-        )
+        renderWithTheme(<Heading as="h6">Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
   });
 
   describe('Sizes', () => {
-    test('alpha size renders properly', () => {
+    test('renders default font size', () => {
+      const heading = create(renderWithTheme(<Heading>Heading</Heading>));
+      expect(heading).toMatchSnapshot();
+    });
+
+    test('16rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(
-          <Heading size="alpha" as="h1">
-            Aplha Heading
-          </Heading>
-        )
+        renderWithTheme(<Heading size={16}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
-    test('bravo size renders properly', () => {
+    test('18rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(
-          <Heading size="bravo" as="h1">
-            Bravo Heading
-          </Heading>
-        )
+        renderWithTheme(<Heading size={18}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
-    test('charlie size renders properly', () => {
+    test('20rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(
-          <Heading size="charlie" as="h1">
-            Charlie Heading
-          </Heading>
-        )
-      );
-      expect(heading).toMatchSnapshot();
-    });
-    test('delta size renders properly', () => {
-      const heading = create(
-        renderWithTheme(
-          <Heading size="delta" as="h1">
-            Delta Heading
-          </Heading>
-        )
+        renderWithTheme(<Heading size={20}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
-    test('echo size renders properly', () => {
+    test('24rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(
-          <Heading size="echo" as="h1">
-            Echo Heading
-          </Heading>
-        )
+        renderWithTheme(<Heading size={24}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
-  });
 
-  test('renders with a color', () => {
-    const heading = create(
-      renderWithTheme(
-        <Heading size="alpha" as="h1" color="piccolo.100">
-          Alpha Heading
-        </Heading>
-      )
-    );
-    expect(heading).toMatchSnapshot();
+    test('32rem size renders properly', () => {
+      const heading = create(
+        renderWithTheme(<Heading size={32}>Heading</Heading>)
+      );
+      expect(heading).toMatchSnapshot();
+    });
+
+    test('48rem size renders properly', () => {
+      const heading = create(
+        renderWithTheme(<Heading size={48}>Heading</Heading>)
+      );
+      expect(heading).toMatchSnapshot();
+    });
+
+    test('56rem size renders properly', () => {
+      const heading = create(
+        renderWithTheme(<Heading size={56}>Heading</Heading>)
+      );
+      expect(heading).toMatchSnapshot();
+    });
+
+    test('64rem size renders properly', () => {
+      const heading = create(
+        renderWithTheme(<Heading size={64}>Heading</Heading>)
+      );
+      expect(heading).toMatchSnapshot();
+    });
+
+    test('72rem size renders properly', () => {
+      const heading = create(
+        renderWithTheme(<Heading size={72}>Heading</Heading>)
+      );
+      expect(heading).toMatchSnapshot();
+    });
+
+    describe('Colors', () => {
+      test('renders default color', () => {
+        const heading = create(renderWithTheme(<Heading>Heading</Heading>));
+        expect(heading).toMatchSnapshot();
+      });
+
+      test('renders with a color', () => {
+        const heading = create(
+          renderWithTheme(<Heading color="piccolo.100">Heading</Heading>)
+        );
+        expect(heading).toMatchSnapshot();
+      });
+    });
+
+    describe('Boldness', () => {
+      test('renders default boldness', () => {
+        const heading = create(renderWithTheme(<Heading>Heading</Heading>));
+        expect(heading).toMatchSnapshot();
+      });
+
+      test('renders with regular font weight', () => {
+        const heading = create(
+          renderWithTheme(<Heading isRegular>Heading</Heading>)
+        );
+        expect(heading).toMatchSnapshot();
+      });
+    });
   });
 });
