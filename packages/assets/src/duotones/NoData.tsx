@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+const Svg = ({ secondaryColor, ...rest }: any) => (
   <svg
     width="1em"
     height="1em"
     viewBox="0 0 174 174"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...rest}
   >
     <path
       opacity={0.1}
@@ -35,43 +35,43 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M99.035 106.829H55.419C50.0402 106.829 45.682 102.471 45.682 97.092V85.579C45.682 82.8101 47.9521 80.54 50.721 80.54H115.855C118.624 80.54 120.894 82.8101 120.894 85.579V93.67C120.894 94.0028 120.625 94.272 120.292 94.272C119.959 94.272 119.69 94.0028 119.69 93.67V85.579C119.69 83.4758 117.958 81.744 115.855 81.744H50.721C48.586 81.744 46.886 83.4787 46.886 85.579V97.092C46.886 101.805 50.7059 105.625 55.419 105.625H99.035C99.3679 105.625 99.637 105.894 99.637 106.227C99.637 106.56 99.3679 106.829 99.035 106.829Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M56.405 99.463C56.0721 99.463 55.803 99.1938 55.803 98.861V88.45C55.803 88.1171 56.0721 87.848 56.405 87.848C56.7378 87.848 57.007 88.1171 57.007 88.45V98.861C57.007 99.1938 56.7378 99.463 56.405 99.463Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M67.541 99.463C67.2081 99.463 66.939 99.1939 66.939 98.861V88.45C66.939 88.1171 67.2081 87.848 67.541 87.848C67.8738 87.848 68.1429 88.1171 68.1429 88.45V98.861C68.1429 99.1938 67.8738 99.463 67.541 99.463Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M108.322 93.67H108.322L108.322 93.6638C108.29 91.0491 106.19 88.907 103.559 88.907C100.934 88.907 98.796 91.0448 98.796 93.67C98.796 96.2951 100.934 98.433 103.559 98.433C106.184 98.433 108.322 96.2951 108.322 93.67ZM103.559 99.637C100.268 99.637 97.592 96.9608 97.592 93.67C97.592 90.3791 100.268 87.703 103.559 87.703C106.849 87.703 109.525 90.378 109.526 93.6679C109.498 96.9633 106.818 99.637 103.559 99.637Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M83.2879 132.204C78.6631 132.204 74.9139 128.455 74.9139 123.83C74.9139 119.205 78.6631 115.456 83.2879 115.456C87.9128 115.456 91.6619 119.205 91.6619 123.83C91.6619 128.455 87.9128 132.204 83.2879 132.204ZM83.2879 116.66C79.3288 116.66 76.1179 119.871 76.1179 123.83C76.1179 127.789 79.3288 131 83.2879 131C87.2471 131 90.4579 127.789 90.4579 123.83C90.4579 119.871 87.2471 116.66 83.2879 116.66Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M83.288 116.66C82.9552 116.66 82.686 116.391 82.686 116.058V106.227C82.686 105.894 82.9552 105.625 83.288 105.625C83.6209 105.625 83.89 105.894 83.89 106.227V116.058C83.89 116.391 83.6209 116.66 83.288 116.66Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M75.516 124.432H56.405C56.0721 124.432 55.803 124.163 55.803 123.83C55.803 123.497 56.0721 123.228 56.405 123.228H75.516C75.8489 123.228 76.118 123.497 76.118 123.83C76.118 124.163 75.8489 124.432 75.516 124.432Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M96.715 124.432H91.06C90.7271 124.432 90.458 124.163 90.458 123.83C90.458 123.497 90.7271 123.228 91.06 123.228H96.715C97.0478 123.228 97.317 123.497 97.317 123.83C97.317 124.163 97.0478 124.432 96.715 124.432Z"
-      fill="white"
-      stroke="white"
+      fill={secondaryColor}
+      stroke={secondaryColor}
     />
     <path
       d="M121.568 139.2C110.751 139.2 101.964 130.413 101.964 119.596C101.964 108.779 110.751 99.992 121.568 99.992C132.385 99.992 141.172 108.779 141.172 119.596C141.172 130.413 132.385 139.2 121.568 139.2ZM121.568 102.225C111.969 102.225 104.168 110.026 104.168 119.625C104.168 129.224 111.969 137.025 121.568 137.025C131.167 137.025 138.968 129.224 138.968 119.625C138.968 110.026 131.167 102.225 121.568 102.225Z"
@@ -95,7 +95,8 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const NoData = styled(Svg)<SvgProps>(
+
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -106,6 +107,12 @@ const NoData = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
+
+const NoData = (props): any => {
+  const theme = useTheme();
+  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+};
+
 NoData.defaultProps = {
   verticalAlign: 'middle',
 };
