@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
+
+
+### Bug Fixes
+
+* fix caption component ([3348857](https://github.com/coingaming/sportsbet-design/commit/33488576f58ef4cf485c30e6305a7f5954f6db09))
+* fix caption component ([6de17d4](https://github.com/coingaming/sportsbet-design/commit/6de17d435133f064e68f3a0390286b2a9ec187fe))
+* update bitcasino hit color ([42ac1b0](https://github.com/coingaming/sportsbet-design/commit/42ac1b082d884a73728d414593ff6531d7f34902))
+* update ui tests ([adab67b](https://github.com/coingaming/sportsbet-design/commit/adab67b9cd6d0371d65e6103bc4a627c18cb68e6))
+
+
+### Features
+
+* icons importing ([9045dfd](https://github.com/coingaming/sportsbet-design/commit/9045dfd736d0f474642bbfb936a6333308d509f8))
+* remove averta 700 ([785af44](https://github.com/coingaming/sportsbet-design/commit/785af44619a9151ea9091fc19e469f0cdc3bd409))
+
+
+
+
+
 # [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
 
 
