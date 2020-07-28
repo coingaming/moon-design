@@ -8,8 +8,8 @@ const lightColors = {
     80: '#19E170',
   },
   hit: {
-    120: '#F7F7F7',
-    100: '#F7F7F7',
+    120: '#e8e8e8',
+    100: '#f0f0f0',
     80: '#F7F7F7',
   },
   beerus: {
