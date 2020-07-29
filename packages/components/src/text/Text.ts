@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
 
-import getFontSize from './getFontSize';
-import { Size } from './Size';
+import getFontSize from '../private/text/getFontSize';
+import { Size } from '../private/text/Size';
 
 type Props = {
   size?: Size;
