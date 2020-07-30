@@ -11,5 +11,4 @@ export type FontSize = {
 export type FontWeight = {
   normal: number;
   semibold: number;
-  bold: number;
 };

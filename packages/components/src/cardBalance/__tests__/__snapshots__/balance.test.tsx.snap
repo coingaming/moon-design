@@ -71,7 +71,7 @@ exports[`CardBalance renders correctly with a badge 1`] = `
   padding: 0.125rem 0.4375rem;
   font-size: 0.5rem;
   line-height: 1.25;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   border-radius: 6.25rem;

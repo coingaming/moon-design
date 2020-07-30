@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled, { css, CSSObject } from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-import { IconClose } from '@heathmont/moon-assets';
 
+import IconClose from '../private/icons/IconClose';
 import Toggle from '../toggle/Toggle';
 
 import { slideUpFade } from './animation';

@@ -2,19 +2,22 @@ import { Theme } from '../types/theme';
 import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
 
 const color = {
+  hit: {
+    120: '#D9E3E8',
+    100: '#E3EAED',
+    80: '#EDF1F3',
+  },
   goku: {
     100: '#F3F5F6',
     80: '#EAEEF0',
-    60: '#E1E7EA',
     40: '#D8E0E3',
     10: '#C5D2D8',
   },
   gohan: {
     100: '#FFFFFF',
     80: '#F7F7F7',
-    60: '#F0F0F0',
     40: '#E8E8E8',
-    20: '#E0E0E0',
+    10: '#D9D9D9',
   },
   beerus: {
     100: '#EAEEF0',
@@ -24,8 +27,6 @@ const color = {
   },
   trunks: {
     100: '#8697A2',
-    60: '#9FAAB2',
-    20: '#B7BEC3',
   },
 };
 
