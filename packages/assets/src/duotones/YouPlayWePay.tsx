@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+const Svg = ({ secondaryColor, ...rest }: any) => (
   <svg
     width="1em"
     height="1em"
     viewBox="0 0 174 174"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...rest}
   >
     <path
       opacity={0.1}
@@ -19,14 +19,14 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M88.5286 108.433H115.066V93.3612H96.8052L93.915 90.0848H76.9675H60.1515L57.2612 93.3612H39V108.433H65.1437"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M41.4961 93.3612V59.1555C41.4961 55.617 44.3864 52.7338 47.9335 52.7338H106.133C109.68 52.7338 112.57 55.617 112.57 59.1555V93.3612"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
@@ -80,77 +80,77 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M63.5833 103.046H58.5671C57.1278 103.046 56.0083 102.003 56.0083 100.662C56.0083 99.3214 57.1278 98.2784 58.5671 98.2784H95.67C97.1093 98.2784 98.2288 99.3214 98.2288 100.662C98.2288 102.003 97.1093 103.046 95.67 103.046H90.6666"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M48.9846 93.3612V62.9562C48.9846 61.7766 50.0356 60.7282 51.218 60.7282H102.849C104.031 60.7282 105.082 61.7766 105.082 62.9562V93.3612"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M112.702 86.1531V71.7369H119.402V79.4693C119.402 83.1388 116.38 86.1531 112.702 86.1531Z"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M119.402 73.9649V48.1667"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M119.402 48.1739C121.941 48.1739 124 46.1203 124 43.587C124 41.0537 121.941 39 119.402 39C116.862 39 114.804 41.0537 114.804 43.587C114.804 46.1203 116.862 48.1739 119.402 48.1739Z"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M67.1145 60.7282V90.0848"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M85.9011 60.7282V90.0848"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M48.9846 69.1158H67.1144"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M86.4268 69.1158H104.688"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M67.377 82.3525H85.6382"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinejoin="round"
     />
     <path
       d="M54.7651 76.586H60.8084L57.2613 86.4152"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -158,7 +158,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M73.5518 65.1925H79.595L76.0479 75.0217"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -166,7 +166,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M92.207 76.586H98.2503L94.7032 86.4152"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -237,7 +237,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M66.8684 118.803V126.273"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -245,7 +245,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M74.6196 121.014V133.464"
-      stroke="white"
+      stroke={secondaryColor}
       strokeWidth={2}
       strokeMiterlimit={10}
       strokeLinecap="round"
@@ -261,7 +261,8 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const YouPlayWePay = styled(Svg)<SvgProps>(
+
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -272,6 +273,12 @@ const YouPlayWePay = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
+
+const YouPlayWePay: React.FC<any> = props => {
+  const theme = useTheme();
+  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+};
+
 YouPlayWePay.defaultProps = {
   verticalAlign: 'middle',
 };
