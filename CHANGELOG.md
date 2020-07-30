@@ -3,6 +3,77 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/coingaming/sportsbet-design/compare/v2.22.0...v2.23.0) (2020-07-29)
+
+
+### Bug Fixes
+
+* fix font size ([e869d08](https://github.com/coingaming/sportsbet-design/commit/e869d088a7f550f564dd90af696593cca0770c82))
+* update hit color ([9a8447a](https://github.com/coingaming/sportsbet-design/commit/9a8447a1fa4cdf5987a49a599674369f8a174c61))
+* update some colors ([aba3f38](https://github.com/coingaming/sportsbet-design/commit/aba3f3800c0326788c1bb3236cd4a7052debe591))
+
+
+### Features
+
+* update heading ([ede0d99](https://github.com/coingaming/sportsbet-design/commit/ede0d9952f8930d0d60184dbd1dcc66d80b3de2a))
+
+
+
+
+
+# [2.22.0](https://github.com/coingaming/sportsbet-design/compare/v2.21.0...v2.22.0) (2020-07-28)
+
+
+### Bug Fixes
+
+* **assets:** ts fix for duotone icons ([5d5f41e](https://github.com/coingaming/sportsbet-design/commit/5d5f41e8dff343e6509a2e90208b97fe3379c39f))
+
+
+### Features
+
+* **assets:** duotone icons ([51e180a](https://github.com/coingaming/sportsbet-design/commit/51e180a03a1ae330ea4734cff9673cefcee07f1e))
+* update semibold to 500 ([a99b77c](https://github.com/coingaming/sportsbet-design/commit/a99b77c351032875bf990de9ec36b73af4a66848))
+
+
+
+
+
+# [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
+
+
+### Bug Fixes
+
+* fix caption component ([3348857](https://github.com/coingaming/sportsbet-design/commit/33488576f58ef4cf485c30e6305a7f5954f6db09))
+* fix caption component ([6de17d4](https://github.com/coingaming/sportsbet-design/commit/6de17d435133f064e68f3a0390286b2a9ec187fe))
+* update bitcasino hit color ([42ac1b0](https://github.com/coingaming/sportsbet-design/commit/42ac1b082d884a73728d414593ff6531d7f34902))
+* update ui tests ([adab67b](https://github.com/coingaming/sportsbet-design/commit/adab67b9cd6d0371d65e6103bc4a627c18cb68e6))
+
+
+### Features
+
+* icons importing ([9045dfd](https://github.com/coingaming/sportsbet-design/commit/9045dfd736d0f474642bbfb936a6333308d509f8))
+* remove averta 700 ([785af44](https://github.com/coingaming/sportsbet-design/commit/785af44619a9151ea9091fc19e469f0cdc3bd409))
+
+
+
+
+
+# [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
+
+
+### Bug Fixes
+
+* remove inexistent colors ([915f410](https://github.com/coingaming/sportsbet-design/commit/915f41095da3ec9e649a6794b4f07aa20dfbdd1f))
+
+
+### Features
+
+* add livecasinoLight theme ([b3820bb](https://github.com/coingaming/sportsbet-design/commit/b3820bb2755ebf856c5c88380882c59ff6b60271))
+
+
+
+
+
 ## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
 
 

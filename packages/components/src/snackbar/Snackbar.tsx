@@ -1,12 +1,11 @@
 import * as React from 'react';
 import { rem, mq } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import {
-  IconError,
-  IconWarning,
-  IconBannerInfo,
-  IconSnackbarSuccess,
-} from '@heathmont/moon-assets';
+
+import IconError from '../private/icons/IconError';
+import IconWarning from '../private/icons/IconWarning';
+import IconBannerInfo from '../private/icons/IconBannerInfo';
+import IconSnackbarSuccess from '../private/icons/IconSnackbarSuccess';
 
 type SnackbarProps = {
   message: any;

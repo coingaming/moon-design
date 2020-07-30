@@ -3,8 +3,9 @@ import styled, { CSSObject } from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import { hideVisually } from 'polished';
 import { ColorScheme } from '@heathmont/moon-themes';
-import { IconMoon, IconSun } from '@heathmont/moon-assets';
 
+import IconMoon from '../private/icons/IconMoon';
+import IconSun from '../private/icons/IconSun';
 import Inline from '../inline/Inline';
 
 const switchWidthProperty = '--switch-width';

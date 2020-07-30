@@ -23,7 +23,7 @@ exports[`Header renders correctly with title 1`] = `
   margin: 0 2rem 0 0;
   font-size: 1.25rem;
   line-height: 1.5625rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media (min-width:31.25em) {
@@ -67,7 +67,7 @@ exports[`Header renders correctly with title and back button 1`] = `
   margin: 0 2rem 0 0;
   font-size: 1.25rem;
   line-height: 1.5625rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .c3 {
