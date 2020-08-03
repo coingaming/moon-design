@@ -84,7 +84,9 @@ export { default as MediaObject } from './mediaObject/MediaObject';
 export * from './mediaObject/MediaObject';
 export { default as Path } from './progressIndicator/Path';
 export * from './progressIndicator/Path';
-export { default as ProgressBar } from './progressIndicator/ProgressIndicator';
+export {
+  default as ProgressIndicator,
+} from './progressIndicator/ProgressIndicator';
 export * from './progressIndicator/ProgressIndicator';
 export { default as Reel } from './reel/Reel';
 export * from './reel/Reel';
@@ -110,6 +112,10 @@ export { default as Input } from './textInput/Input';
 export * from './textInput/Input';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
+export {
+  default as TextProgressIndicator,
+} from './textProgressIndicator/TextProgressIndicator';
+export * from './textProgressIndicator/TextProgressIndicator';
 export { default as Toggle } from './toggle/Toggle';
 export * from './toggle/Toggle';
 export { default as Tooltip } from './tooltip/Tooltip';
