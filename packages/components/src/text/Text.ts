@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import { themed } from '@heathmont/moon-utils';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorNames } from '@heathmont/moon-themes';
 
 import getFontSize from '../private/text/getFontSize';
 import { Size } from '../private/text/Size';
 
 type Props = {
   size?: Size;
-  color?: ColorProps;
+  color?: ColorNames;
   isBold?: boolean;
 };
 
