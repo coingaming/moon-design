@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themed } from '@heathmont/moon-utils';
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorNames } from '@heathmont/moon-themes';
 
 import getFontSize from '../private/text/getFontSize';
 
@@ -8,7 +8,7 @@ import { HeadingSize } from './HeadingSize';
 
 type Props = {
   size?: HeadingSize;
-  color?: ColorProps;
+  color?: ColorNames;
   isRegular?: boolean;
 };
 
