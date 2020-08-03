@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/coingaming/sportsbet-design/compare/v2.23.0...v2.24.0) (2020-08-03)
+
+
+### Features
+
+* circular progress indicator ([c8f5e8f](https://github.com/coingaming/sportsbet-design/commit/c8f5e8f446b07b88bd9bfaa24ad98fdf754d5b57))
+* initial commit ([1c976d4](https://github.com/coingaming/sportsbet-design/commit/1c976d4ee874454d758c35fe52f7af6c2a2e2d6f))
+* text progress indicator ([02996c3](https://github.com/coingaming/sportsbet-design/commit/02996c3d7576cc497206758040580cfc58b4db5e))
+* ts colours coverage ([2a8357e](https://github.com/coingaming/sportsbet-design/commit/2a8357edc40f1662eb83eb5baf59f3d8859b1509))
+
+
+
+
+
 # [2.23.0](https://github.com/coingaming/sportsbet-design/compare/v2.22.0...v2.23.0) (2020-07-29)
 
 
