@@ -15,6 +15,7 @@ import {
   buttonActive,
 } from './states';
 import { oopsAnimation } from './oopsAnimation';
+import { pulseAnimation } from './pulseAnimation';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -28,6 +29,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   progress?: boolean;
   oops?: boolean;
   success?: boolean;
+  pulse?: boolean;
   // Manually added these because NavLinkProps extending causes TS errors
   to?: any;
   as?: any;
@@ -81,6 +83,13 @@ const StyledButton = styled.button<ButtonProps>(
         ...buttonActive({
           backgroundColor: color.chiChi[100],
         }),
+      },
+    ],
+  ({ pulse, theme: { color } }) =>
+    pulse && [
+      pulseAnimation,
+      {
+        boxShadow: `0 0 0 0 ${color.piccolo[100]}`,
       },
     ],
   ({ iconLeft, size }) => [
