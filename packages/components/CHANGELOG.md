@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.25.0](https://github.com/coingaming/sportsbet-design/compare/v2.24.1...v2.25.0) (2020-08-04)
+
+
+### Features
+
+* **button:** pulse animation ([a6d10db](https://github.com/coingaming/sportsbet-design/commit/a6d10dbd5c55bf888dc7dcba5366cefec5faa77b))
+
+
+
+
+
 ## [2.24.1](https://github.com/coingaming/sportsbet-design/compare/v2.24.0...v2.24.1) (2020-08-04)
 
 **Note:** Version bump only for package @heathmont/moon-components
