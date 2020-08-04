@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
 
 type ProgressbarProps = {
-  progress: number;
+  value: number;
   text?: JSX.Element;
   backgroundColor?: string;
 };
@@ -30,7 +30,7 @@ const CurrentProgress = styled.div(({ theme: { fontWeight, color } }) => ({
 }));
 
 const Progress = styled.div<ProgressbarProps>(
-  ({ theme, progress, backgroundColor }) => ({
+  ({ theme, value, backgroundColor }) => ({
     minWidth: rem(100),
     backgroundColor:
       themed('color', backgroundColor)(theme) || theme.color.goku['100'],
@@ -42,23 +42,23 @@ const Progress = styled.div<ProgressbarProps>(
       position: 'absolute',
       backgroundColor: theme.color.piccolo['100'],
       height: '100%',
-      width: `${progress}%`,
+      width: `${value}%`,
       borderRadius: rem(60),
     },
   })
 );
 
-const TextProgressIndicator: React.FC<ProgressbarProps> = ({
-  progress,
+const ProgressLinear: React.FC<ProgressbarProps> = ({
+  value,
   text,
   backgroundColor,
 }) => {
   return (
     <ProgressBarWrapper>
-      <Progress progress={progress} backgroundColor={backgroundColor} />
+      <Progress value={value} backgroundColor={backgroundColor} />
       <CurrentProgress>{text}</CurrentProgress>
     </ProgressBarWrapper>
   );
 };
 
-export default TextProgressIndicator;
+export default ProgressLinear;

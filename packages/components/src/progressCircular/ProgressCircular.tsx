@@ -8,25 +8,25 @@ const VIEWBOX_HEIGHT = 100;
 const STROKE_WIDTH = 12;
 const PATH_RADIUS = (VIEWBOX_HEIGHT - STROKE_WIDTH) / 2;
 
-const getPathRatio = (progress: number) => {
+const getPathRatio = (value: number) => {
   const minValue = 0;
   const maxValue = 100;
-  const boundedValue = Math.min(Math.max(progress, minValue), maxValue);
+  const boundedValue = Math.min(Math.max(value, minValue), maxValue);
   return (boundedValue - minValue) / (maxValue - minValue);
 };
 
 export type CircularProgressbarProps = {
-  progress: number;
+  value: number;
   className?: string;
 };
 
-const ProgressIndicator: React.FC<CircularProgressbarProps> = ({
-  progress,
+const ProgressCircular: React.FC<CircularProgressbarProps> = ({
+  value,
   ...props
 }) => {
   const { color } = useTheme();
 
-  const pathRatio = getPathRatio(progress);
+  const pathRatio = getPathRatio(value);
 
   return (
     <svg
@@ -50,12 +50,11 @@ const ProgressIndicator: React.FC<CircularProgressbarProps> = ({
         strokeWidth={STROKE_WIDTH}
         style={{
           stroke: color.piccolo[100],
-          transition:
-            progress === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',
+          transition: value === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',
         }}
       />
     </svg>
   );
 };
 
-export default ProgressIndicator;
+export default ProgressCircular;
