@@ -204,6 +204,40 @@ export { default as IconEdit } from './icons/IconEdit';
 export * from './icons/IconEdit';
 export { default as IconError } from './icons/IconError';
 export * from './icons/IconError';
+export {
+  default as IconESportsCallOfDuty,
+} from './icons/IconESportsCallOfDuty';
+export * from './icons/IconESportsCallOfDuty';
+export {
+  default as IconESportsCounterStrike,
+} from './icons/IconESportsCounterStrike';
+export * from './icons/IconESportsCounterStrike';
+export { default as IconESportsDota2 } from './icons/IconESportsDota2';
+export * from './icons/IconESportsDota2';
+export { default as IconESportsENba } from './icons/IconESportsENba';
+export * from './icons/IconESportsENba';
+export { default as IconESportsESport } from './icons/IconESportsESport';
+export * from './icons/IconESportsESport';
+export { default as IconESportsFootball } from './icons/IconESportsFootball';
+export * from './icons/IconESportsFootball';
+export {
+  default as IconESportsHearthstone,
+} from './icons/IconESportsHearthstone';
+export * from './icons/IconESportsHearthstone';
+export {
+  default as IconESportsLeagueOfLegends,
+} from './icons/IconESportsLeagueOfLegends';
+export * from './icons/IconESportsLeagueOfLegends';
+export { default as IconESportsOverwatch } from './icons/IconESportsOverwatch';
+export * from './icons/IconESportsOverwatch';
+export { default as IconESportsRainbow } from './icons/IconESportsRainbow';
+export * from './icons/IconESportsRainbow';
+export {
+  default as IconESportsRocketLeague,
+} from './icons/IconESportsRocketLeague';
+export * from './icons/IconESportsRocketLeague';
+export { default as IconESportsStarCraft } from './icons/IconESportsStarCraft';
+export * from './icons/IconESportsStarCraft';
 export { default as IconFacebook } from './icons/IconFacebook';
 export * from './icons/IconFacebook';
 export { default as IconFilter } from './icons/IconFilter';
