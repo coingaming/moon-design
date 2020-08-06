@@ -5,27 +5,15 @@ import { themed } from '@heathmont/moon-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width="28"
-    height="28"
+    width="1em"
+    height="1em"
     viewBox="0 0 28 28"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="M2.16943 8.13236C2.16943 7.51464 2.88687 7.24872 2.88687 7.24872H13.5626L10.956 10.2958L9.84796 9.26807H2.16943V8.13236Z"
-      fill="#0070FF"
-    />
-    <path
-      d="M13.7869 19.074C13.7869 19.074 14.3022 20.7582 12.8424 20.7582H0.970001L3.632 17.8219C4.09216 18.2878 4.70944 18.5653 5.36327 18.6003H9.62081L2.33286 9.73622H6.02808L13.7869 19.074Z"
-      fill="#0070FF"
-    />
-    <path
-      d="M27 7.0742H16.449L14.2939 9.35394H22.9558L23.4018 10.2099L27 7.0742Z"
-      fill="#0070FF"
-    />
-    <path
-      d="M24.0859 19.6363C16.1802 19.8274 18.2134 9.73344 18.2134 9.73344H14.4877C14.4877 9.73344 12.6097 14.0464 14.6429 17.3815C18.5015 23.7138 24.374 19.6252 24.374 19.6252L24.0859 19.6363Z"
+      d="M2.17 8.132c0-.617.717-.883.717-.883h10.676l-2.607 3.047-1.108-1.028H2.169V8.132zM13.787 19.074s.515 1.684-.945 1.684H.97l2.662-2.936a2.63 2.63 0 001.731.778h4.258L2.333 9.736h3.695l7.759 9.338zM27 7.074H16.449l-2.155 2.28h8.662l.446.856L27 7.074zM24.086 19.636c-7.906.191-5.873-9.903-5.873-9.903h-3.725s-1.878 4.313.155 7.648c3.858 6.333 9.731 2.244 9.731 2.244l-.288.011z"
       fill="#0070FF"
     />
   </svg>
@@ -33,9 +21,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 
 type IconProps = {
   backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
 const IconESportsStarCraft = styled(Svg)<IconProps>(
-  ({ backgroundColor, theme }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -44,6 +34,14 @@ const IconESportsStarCraft = styled(Svg)<IconProps>(
       padding: backgroundColor ? '0.25em' : 0,
       overflow: 'visible',
       borderRadius: '50%',
+    },
+    color && {
+      color: themed('color', color)(theme),
+    },
+    circleColor && {
+      circle: {
+        fill: themed('color', circleColor)(theme),
+      },
     },
   ]
 );
