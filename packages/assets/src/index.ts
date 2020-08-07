@@ -64,6 +64,8 @@ export { default as GroupIconCurrency } from './groupIcons/GroupIconCurrency';
 export * from './groupIcons/GroupIconCurrency';
 export { default as GroupIconSports } from './groupIcons/GroupIconSports';
 export * from './groupIcons/GroupIconSports';
+export { default as GroupIconESports } from './groupIcons/GroupIconESports';
+export * from './groupIcons/GroupIconESports';
 export {
   default as GroupIconSportsColor,
 } from './groupIcons/GroupIconSportsColor';
