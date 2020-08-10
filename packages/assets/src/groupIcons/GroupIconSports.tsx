@@ -30,6 +30,18 @@ import IconSportsTableTennis from '../icons/IconSportsTableTennis';
 import IconSportsTennis from '../icons/IconSportsTennis';
 import IconSportsVolleyBall from '../icons/IconSportsVolleyBall';
 import IconSportsWaterPolo from '../icons/IconSportsWaterPolo';
+import IconESportsCallOfDuty from '../icons/IconESportsCallOfDuty';
+import IconESportsCounterStrike from '../icons/IconESportsCounterStrike';
+import IconESportsDota2 from '../icons/IconESportsDota2';
+import IconESportsENba from '../icons/IconESportsENba';
+import IconESportsESport from '../icons/IconESportsESport';
+import IconESportsFootball from '../icons/IconESportsFootball';
+import IconESportsHearthstone from '../icons/IconESportsHearthstone';
+import IconESportsLeagueOfLegends from '../icons/IconESportsLeagueOfLegends';
+import IconESportsOverwatch from '../icons/IconESportsOverwatch';
+import IconESportsRainbow from '../icons/IconESportsRainbow';
+import IconESportsRocketLeague from '../icons/IconESportsRocketLeague';
+import IconESportsStarCraft from '../icons/IconESportsStarCraft';
 
 import { GroupIconSportsColor } from './GroupIconSportsColor';
 
@@ -66,7 +78,20 @@ export type GroupIconSportsName =
   | 'sport-horseracing'
   | 'sport-popular'
   | 'sport-rugby'
-  | 'sport-special';
+  // e-sports
+  | 'sport-special'
+  | 'sport-dota2'
+  | 'sport-counter-strike'
+  | 'sport-league-of-legends'
+  | 'sport-e-football'
+  | 'sport-call-of-duty'
+  | 'sport-overwatch'
+  | 'sport-rocket-league'
+  | 'sport-hearthstone'
+  | 'sport-star-craft'
+  | 'sport-e-nba'
+  | 'sport-rainbow'
+  | 'sport-e-sport';
 
 export type GroupIconSportsProps = {
   name: GroupIconSportsName;
@@ -254,6 +279,30 @@ const GroupIconSports: React.FC<GroupIconSportsProps> &
       return (
         <IconSportsWaterPolo color={color || GroupIconSportsColor.waterPolo} />
       );
+    case 'sport-dota2':
+      return <IconESportsDota2 {...props} />;
+    case 'sport-counter-strike':
+      return <IconESportsCounterStrike {...props} />;
+    case 'sport-league-of-legends':
+      return <IconESportsLeagueOfLegends {...props} />;
+    case 'sport-e-football':
+      return <IconESportsFootball {...props} />;
+    case 'sport-call-of-duty':
+      return <IconESportsCallOfDuty {...props} />;
+    case 'sport-overwatch':
+      return <IconESportsOverwatch {...props} />;
+    case 'sport-rocket-league':
+      return <IconESportsRocketLeague {...props} />;
+    case 'sport-hearthstone':
+      return <IconESportsHearthstone {...props} />;
+    case 'sport-star-craft':
+      return <IconESportsStarCraft {...props} />;
+    case 'sport-e-nba':
+      return <IconESportsENba {...props} />;
+    case 'sport-rainbow':
+      return <IconESportsRainbow {...props} />;
+    case 'sport-e-sport':
+      return <IconESportsESport {...props} />;
     default:
       return null;
   }
