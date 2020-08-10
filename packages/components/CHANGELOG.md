@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.26.2](https://github.com/coingaming/sportsbet-design/compare/v2.26.1...v2.26.2) (2020-08-10)
+
+
+### Bug Fixes
+
+* **assets:** e-Sports icons in GroupIconSports ([a8c3800](https://github.com/coingaming/sportsbet-design/commit/a8c3800ed6a62fefe740f7f0922a92db0c25da3c))
+
+
+
+
+
 ## [2.26.1](https://github.com/coingaming/sportsbet-design/compare/v2.26.0...v2.26.1) (2020-08-10)
 
 **Note:** Version bump only for package @heathmont/moon-components
