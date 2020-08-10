@@ -64,8 +64,6 @@ export { default as GroupIconCurrency } from './groupIcons/GroupIconCurrency';
 export * from './groupIcons/GroupIconCurrency';
 export { default as GroupIconSports } from './groupIcons/GroupIconSports';
 export * from './groupIcons/GroupIconSports';
-export { default as GroupIconESports } from './groupIcons/GroupIconESports';
-export * from './groupIcons/GroupIconESports';
 export {
   default as GroupIconSportsColor,
 } from './groupIcons/GroupIconSportsColor';
@@ -202,10 +200,6 @@ export { default as IconDuotoneCoins } from './icons/IconDuotoneCoins';
 export * from './icons/IconDuotoneCoins';
 export { default as IconDuotoneMail } from './icons/IconDuotoneMail';
 export * from './icons/IconDuotoneMail';
-export { default as IconEdit } from './icons/IconEdit';
-export * from './icons/IconEdit';
-export { default as IconError } from './icons/IconError';
-export * from './icons/IconError';
 export {
   default as IconESportsCallOfDuty,
 } from './icons/IconESportsCallOfDuty';
@@ -240,6 +234,10 @@ export {
 export * from './icons/IconESportsRocketLeague';
 export { default as IconESportsStarCraft } from './icons/IconESportsStarCraft';
 export * from './icons/IconESportsStarCraft';
+export { default as IconEdit } from './icons/IconEdit';
+export * from './icons/IconEdit';
+export { default as IconError } from './icons/IconError';
+export * from './icons/IconError';
 export { default as IconFacebook } from './icons/IconFacebook';
 export * from './icons/IconFacebook';
 export { default as IconFilter } from './icons/IconFilter';

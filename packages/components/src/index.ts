@@ -10,6 +10,8 @@ export { default as Button } from './button/Button';
 export * from './button/Button';
 export { default as oopsAnimation } from './button/oopsAnimation';
 export * from './button/oopsAnimation';
+export { default as pulseAnimation } from './button/pulseAnimation';
+export * from './button/pulseAnimation';
 export { default as size } from './button/size';
 export * from './button/size';
 export { default as states } from './button/states';
@@ -88,6 +90,8 @@ export {
   default as ProgressCircular,
 } from './progressCircular/ProgressCircular';
 export * from './progressCircular/ProgressCircular';
+export { default as ProgressLinear } from './progressLinear/ProgressLinear';
+export * from './progressLinear/ProgressLinear';
 export { default as Reel } from './reel/Reel';
 export * from './reel/Reel';
 export { default as Select } from './select/Select';
@@ -112,8 +116,6 @@ export { default as Input } from './textInput/Input';
 export * from './textInput/Input';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
-export { default as ProgressLinear } from './progressLinear/ProgressLinear';
-export * from './progressLinear/ProgressLinear';
 export { default as Toggle } from './toggle/Toggle';
 export * from './toggle/Toggle';
 export { default as Tooltip } from './tooltip/Tooltip';
