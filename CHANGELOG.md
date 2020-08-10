@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/coingaming/sportsbet-design/compare/v2.25.0...v2.26.0) (2020-08-06)
+
+
+### Features
+
+* **groupiconesports:** add eSports icons ([9342217](https://github.com/coingaming/sportsbet-design/commit/9342217d3a1ae4aa819e2450386ed641575576b8))
+
+
+
+
+
 # [2.25.0](https://github.com/coingaming/sportsbet-design/compare/v2.24.1...v2.25.0) (2020-08-04)
 
 
