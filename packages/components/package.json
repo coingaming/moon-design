@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-components",
   "sideEffects": false,
-  "version": "2.26.2",
+  "version": "2.26.3",
   "files": [
     "lib"
   ],
@@ -15,7 +15,7 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^2.26.2",
+    "@heathmont/moon-assets": "^2.26.3",
     "@heathmont/moon-themes": "^2.24.0",
     "@heathmont/moon-utils": "^2.24.0",
     "@reach/dialog": "0.3.0",
