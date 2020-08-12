@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.26.4](https://github.com/coingaming/sportsbet-design/compare/v2.26.3...v2.26.4) (2020-08-12)
+
+
+### Bug Fixes
+
+* **assets:** counter-strike icon colour ([f306fcc](https://github.com/coingaming/sportsbet-design/commit/f306fcc0b6551d85c06692e2b147d222a747e2a3))
+
+
+
+
+
 ## [2.26.3](https://github.com/coingaming/sportsbet-design/compare/v2.26.2...v2.26.3) (2020-08-11)
 
 
