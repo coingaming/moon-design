@@ -282,7 +282,9 @@ const GroupIconSports: React.FC<GroupIconSportsProps> &
     case 'sport-dota2':
       return <IconESportsDota2 {...props} />;
     case 'sport-counter-strike':
-      return <IconESportsCounterStrike {...props} />;
+      return (
+        <IconESportsCounterStrike color={color || 'bulma.100'} {...props} />
+      );
     case 'sport-league-of-legends':
       return <IconESportsLeagueOfLegends {...props} />;
     case 'sport-e-football':
