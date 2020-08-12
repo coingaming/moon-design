@@ -8,7 +8,6 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     width="1em"
     height="1em"
     viewBox="0 0 28 28"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
@@ -35,8 +34,8 @@ const IconESportsCounterStrike = styled(Svg)<IconProps>(
       overflow: 'visible',
       borderRadius: '50%',
     },
-    {
-      color: themed('color', color || theme.color.bulma[100])(theme),
+    color && {
+      color: themed('color', color)(theme),
     },
     circleColor && {
       circle: {
