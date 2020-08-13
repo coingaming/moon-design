@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.26.5](https://github.com/coingaming/sportsbet-design/compare/v2.26.4...v2.26.5) (2020-08-13)
+
+
+### Bug Fixes
+
+* **assets:** heartstone & rocket-league icons fix ([6068613](https://github.com/coingaming/sportsbet-design/commit/6068613f5c4ba9a510692d09105d92c51cd0a371))
+
+
+
+
+
 ## [2.26.4](https://github.com/coingaming/sportsbet-design/compare/v2.26.3...v2.26.4) (2020-08-12)
 
 
