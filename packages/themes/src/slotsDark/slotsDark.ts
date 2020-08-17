@@ -26,9 +26,9 @@ const color = {
   },
   gohan: {
     100: '#FFFFFF',
-    80: '#FDFDFD',
-    40: '#E9EDEF',
-    10: '#D6DDE0',
+    80: '#f7f7f7',
+    40: '#e8e8e8',
+    10: '#d9d9d9',
   },
   beerus: {
     100: '#DBE0E3',
