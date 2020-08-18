@@ -17,15 +17,15 @@ const lightColors = {
   },
   goku: {
     100: '#FFFFFF',
-    80: '#F3F5F6',
-    40: '#E7EAEC',
-    10: '#CFD5DA',
+    80: '#F1F2F3',
+    40: '#E0E3E6',
+    10: '#CED4D9',
   },
   gohan: {
     100: '#F7F7F7',
-    80: '#F7F7F7',
-    40: '#EBEBEB',
-    10: '#E0E0E0',
+    80: '#F0F0F0',
+    40: '#E0E0E0',
+    10: '#D1D1D1',
   },
   goten: {
     100: '#FFFFFF',
