@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
+
+
+### Bug Fixes
+
+* update Gohan color for Slots ([b1e23e7](https://github.com/coingaming/sportsbet-design/commit/b1e23e7d2ae306af81c5c3aea7d4cb965855100f))
+* update sportsber LightTheme Gohan and Goku colors ([55b2cb8](https://github.com/coingaming/sportsbet-design/commit/55b2cb81676c0b1589dacab1edf3d671d728710e))
+
+
+
+
+
 ## [2.26.5](https://github.com/coingaming/sportsbet-design/compare/v2.26.4...v2.26.5) (2020-08-13)
 
 
