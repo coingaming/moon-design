@@ -17,7 +17,9 @@ type TextInputTypes =
   | 'search'
   | 'tel'
   | 'text'
-  | 'url';
+  | 'url'
+  | 'time'
+  | 'datetime-local';
 
 type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
@@ -27,7 +29,7 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   rounded?: boolean;
 };
 
-const TextInputElem = styled(Input)(({ theme: { color } }) => ({
+const TextInputElem = styled(Input as any)(({ theme: { color } }) => ({
   '&:focus': {
     borderColor: color.piccolo[100],
     outline: 'none',

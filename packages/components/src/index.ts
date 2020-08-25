@@ -32,6 +32,8 @@ export { default as control } from './carousel/control';
 export * from './carousel/control';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
+export { default as Datepicker } from './datepicker/Datepicker';
+export * from './datepicker/Datepicker';
 export { default as Dialog } from './dialog/Dialog';
 export * from './dialog/Dialog';
 export { default as EmptyState } from './emptyState/EmptyState';
