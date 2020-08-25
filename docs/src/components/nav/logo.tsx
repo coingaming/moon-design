@@ -144,6 +144,7 @@ export const Logo = () => {
       {brand === 'Sportsbet.io' && <LogoSportsbet height="100%" width="auto" />}
       {brand === 'Bitcasino.io' && <LogoBitcasino />}
       {brand === 'Slots.io' && <LogoSlots />}
+      {brand === 'BombayClub' && <p>Bombay Club</p>}
 
       <IconChevronDown aria-hidden="true" />
 
@@ -151,6 +152,7 @@ export const Logo = () => {
         <option value="sportsbet">Sportsbet.io</option>
         <option value="bitcasino">Bitcasino.io</option>
         <option value="slots">Slots.io</option>
+        <option value="bombay">Bombay Club</option>
       </BrandSelect>
     </LogoContainer>
   );
