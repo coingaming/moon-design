@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.27.0](https://github.com/coingaming/sportsbet-design/compare/v2.26.6...v2.27.0) (2020-08-26)
+
+
+### Bug Fixes
+
+* bombay club theme ([9c37607](https://github.com/coingaming/sportsbet-design/commit/9c376070a38d48e8794ad795debe4448a5d04598))
+
+
+### Features
+
+* **textinput:** date-time and time TextInputs ([cfa94a0](https://github.com/coingaming/sportsbet-design/commit/cfa94a036921da41511fca8de6d914051f534ed7))
+* **themes:** introduce hub88 theme ([d803fc7](https://github.com/coingaming/sportsbet-design/commit/d803fc70c1f568286263b6f552836f7a9f18d307))
+
+
+
+
+
 ## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
 
 
