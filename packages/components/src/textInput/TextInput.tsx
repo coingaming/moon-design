@@ -11,12 +11,14 @@ import { InputError } from './Error';
  */
 type TextInputTypes =
   | 'date'
+  | 'datetime-local'
   | 'email'
   | 'number'
   | 'password'
   | 'search'
   | 'tel'
   | 'text'
+  | 'time'
   | 'url';
 
 type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
