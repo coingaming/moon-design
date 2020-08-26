@@ -8,6 +8,7 @@ import {
   slotsLight,
   slotsDark,
   bombayClub,
+  hub88,
   Theme,
 } from '@heathmont/moon-themes';
 
@@ -28,6 +29,10 @@ const themes: DocsThemes = {
     dark: bombayClub,
     light: bombayClub,
   },
+  hub88: {
+    dark: hub88,
+    light: hub88,
+  },
 };
 
 type DocsColorModes = {
@@ -40,6 +45,7 @@ type DocsThemes = {
   bitcasino: DocsColorModes;
   slots: DocsColorModes;
   bombay: DocsColorModes;
+  hub88: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;
