@@ -6,44 +6,44 @@ import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
-    120: '#CDA770',
-    100: '#CDAE7E',
-    80: '#CEB48D',
+    120: '#0045F5',
+    100: '#1757FF',
+    80: '#477BFF',
   },
   hit: {
-    120: '#2D2824',
-    100: '#3B3530',
-    80: '#48423C',
+    120: '#9EACB5',
+    100: '#AAB6BE',
+    80: '#C5CDD3',
   },
   goten: {
-    100: '#090E15',
-  },
-  goku: {
-    100: '#0B0D0E',
-    80: '#17191C',
-    40: '#2F3337',
-    10: '#484C51',
-  },
-  gohan: {
-    100: '#2D2925',
-    80: '#3A3631',
-    40: '#554F4A',
-    10: '#6e6863',
-  },
-  beerus: {
-    100: '#443F3C',
-  },
-  bulma: {
     100: '#FFFFFF',
   },
+  goku: {
+    100: '#F3F5F6',
+    80: '#FCFDFD',
+    40: '#FFFFFF',
+    10: '#FFFFFF',
+  },
+  gohan: {
+    100: '#F8FAFF',
+    80: '#F8FAFF',
+    40: '#F8FAFF',
+    10: '#F8FAFF',
+  },
+  beerus: {
+    100: '#E2E6E9',
+  },
+  bulma: {
+    100: '#010812',
+  },
   trunks: {
-    100: '#9A8565',
+    100: '#8697A2',
   },
 };
 
-const bombayClub: Theme = {
+const hub88: Theme = {
   ...sharedTokens,
-  brand: 'BombayClub',
+  brand: 'Hub88',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
@@ -58,4 +58,4 @@ const bombayClub: Theme = {
   colorScheme: 'dark',
 };
 
-export default bombayClub;
+export default hub88;
