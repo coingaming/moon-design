@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.27.0](https://github.com/coingaming/sportsbet-design/compare/v2.26.6...v2.27.0) (2020-08-26)
+
+
+### Features
+
+* **textinput:** date-time and time TextInputs ([cfa94a0](https://github.com/coingaming/sportsbet-design/commit/cfa94a036921da41511fca8de6d914051f534ed7))
+
+
+
+
+
 ## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
 
 **Note:** Version bump only for package @heathmont/moon-components
