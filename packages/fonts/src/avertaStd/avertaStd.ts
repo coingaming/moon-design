@@ -26,8 +26,7 @@ const fontFace: CSSObject[] = [
       fontDisplay,
       unicodeRange,
       fontWeight: fontWeight.normal,
-      src: `local("AvertaStd-Regular"), local("Averta Std Regular"),
-    url(${fontFilePath.regular}.woff2) format("woff2")`,
+      src: `local("AvertaStd-Regular"), local("Averta Std Regular"), url(${fontFilePath.regular}.woff2) format("woff2")`,
     },
   },
   {
@@ -37,8 +36,7 @@ const fontFace: CSSObject[] = [
       fontDisplay,
       unicodeRange,
       fontWeight: fontWeight.semibold,
-      src: `local("AvertaStd-Semibold"), local("Averta Std Semibold"),
-    url(${fontFilePath.semibold}.woff2) format("woff2")`,
+      src: `local("AvertaStd-Semibold"), local("Averta Std Semibold"), url(${fontFilePath.semibold}.woff2) format("woff2")`,
     },
   },
 ];
