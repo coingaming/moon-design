@@ -25,39 +25,36 @@ const SecondMonth = styled.div({
   marginRight: rem(11),
 });
 
-const LeftArrow = styled(IconArrowLeft as any)({
+const LeftArrow = styled(IconArrowLeft as any)(({ theme }) => ({
   cursor: 'pointer',
-  color: '#2b4bce',
+  color: theme.color.goten[100],
   position: 'absolute',
   left: '15px',
-});
+}));
 
-const RightArrow = styled(IconArrowRight as any)({
+const RightArrow = styled(IconArrowRight as any)(({ theme }) => ({
   cursor: 'pointer',
-  color: '#2b4bce',
+  color: theme.color.goten[100],
   position: 'absolute',
   right: '15px',
-});
+}));
 
-const SidebarWrapper = styled.div({
+const SidebarWrapper = styled.div(({ theme: { color } }) => ({
   width: rem(228),
-  background: 'white',
-});
+  background: color.goku[100],
+}));
 
-const PickerContainer = styled.div({
+const PickerContainer = styled.div(({ theme: { color } }) => ({
   display: 'flex',
   paddingTop: rem(16),
   borderRadius: rem(3),
-  backgroundColor: 'white',
+  backgroundColor: color.goku[100],
   boxShadow: `4px 4px 12px rgba(43, 75, 206, 0.04),
     0px 10px 18px rgba(43, 75, 206, 0.04)`,
   overflow: 'hidden',
-});
+}));
 
 export const Picker: React.FC<any> = ({
-  // months,
-  // nextView,
-  // prevView,
   weekDayLabels,
   onDayClick,
   onDayMouseEnter,
@@ -75,7 +72,6 @@ export const Picker: React.FC<any> = ({
   secondMonthYearLabel,
   firstMonth,
   secondMonth,
-  // displayedMonth,
   cursorDate,
   startDate,
   endDate,
