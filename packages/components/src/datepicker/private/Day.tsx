@@ -13,7 +13,7 @@ type DayStyledProps = {
 
 // TODO: check styles when selecting last month
 const DayStyled = styled.div<DayStyledProps>(
-  ({ isInRange, isInRangePreview, isStartEdge, isEndEdge, isToday }) => [
+  ({ theme, isInRange, isInRangePreview, isStartEdge, isEndEdge, isToday }) => [
     {
       width: rem(28),
       height: rem(28),
@@ -23,29 +23,21 @@ const DayStyled = styled.div<DayStyledProps>(
       boxSizing: 'border-box',
       fontWeight: 500,
       fontSize: rem(10),
-      color: '#2b4bce',
+      color: theme.color.bulma[100],
       userSelect: 'none',
       cursor: 'pointer',
-      // '&:hover': {
-      //   border: '1px solid #2b4bce',
-      //   borderRadius: rem(3),
-      // },
+      '&:hover': {
+        border: `1px solid ${theme.color.trunks[100]}`,
+        borderRadius: rem(3),
+      },
     },
-    isInRange && {
-      backgroundColor: '#e9eefa',
+    (isInRange || isInRangePreview) && {
+      backgroundColor: theme.color.goku[40],
     },
-    isInRangePreview && {
-      backgroundColor: '#e9eefa',
-    },
-    isStartEdge && {
-      background: '#2b4bce',
+    (isStartEdge || isEndEdge) && {
+      background: theme.color.piccolo[100],
       borderRadius: rem(3),
-      color: 'white',
-    },
-    isEndEdge && {
-      background: '#2b4bce',
-      borderRadius: rem(3),
-      color: 'white',
+      color: theme.color.bulma[100],
     },
     isToday && {
       fontWeight: 'bold',
@@ -57,14 +49,14 @@ type DayWrapperProps = {
   isInRange?: boolean;
 };
 
-const DayWrapper = styled.div<DayWrapperProps>(({ isInRange }) => [
+const DayWrapper = styled.div<DayWrapperProps>(({ theme, isInRange }) => [
   {
     paddingLeft: rem(12),
     marginBottom: rem(8),
     height: rem(28),
   },
   isInRange && {
-    background: '#e9eefa',
+    background: theme.color.goku[40],
   },
 ]);
 

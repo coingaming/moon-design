@@ -10,7 +10,7 @@ type RangeItemProps = {
   isSelected?: boolean;
 };
 
-const RangeItem = styled.li<RangeItemProps>(({ isSelected }) => ({
+const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   height: rem(36),
   width: '100%',
   listStyle: 'none',
@@ -23,11 +23,11 @@ const RangeItem = styled.li<RangeItemProps>(({ isSelected }) => ({
   fontWeight: 500,
   fontSize: rem(12),
   lineHeight: 1.33,
-  background: isSelected ? '#2846c0' : 'white',
-  color: isSelected ? 'white' : '#2846c0',
+  background: isSelected ? theme.color.goku[80] : theme.color.goku[100],
+  color: theme.color.bulma[100],
   '&:hover': {
-    background: '#e9eefa',
-    color: '#2846c0',
+    // color: theme.color.goku[80],
+    // background: theme.color.goku[80],
   },
 }));
 

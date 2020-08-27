@@ -10,17 +10,17 @@ import getMonth from 'date-fns/getMonth';
 
 import { Day } from './Day';
 
-const WeekDayName = styled.div({
+const WeekDayName = styled.div(({ theme }) => ({
   width: rem(40),
   height: rem(28),
   paddingLeft: rem(12),
-  color: '#97a8e9',
+  color: theme.color.bulma[100],
   fontWeight: 'bold',
   textTransform: 'uppercase',
   display: 'flex',
   justifyContent: 'center',
   userSelect: 'none',
-});
+}));
 
 const WeekDayContainer = styled.div({
   display: 'flex',
@@ -34,15 +34,15 @@ const MonthStyled = styled.div({
   flexWrap: 'wrap',
 });
 
-const MonthLabelCls = styled.div({
+const MonthLabelCls = styled.div(({ theme }) => ({
   fontWeight: 500,
   fontSize: rem(14),
-  color: '#2b4bce',
+  color: theme.color.bulma[100],
   marginBottom: rem(28),
   width: '100%',
   textAlign: 'center',
   userSelect: 'none',
-});
+}));
 
 type MonthProps = {
   monthLabel: string;
