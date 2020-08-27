@@ -11,6 +11,7 @@ import { InputError } from './Error';
  */
 type TextInputTypes =
   | 'date'
+  | 'datetime-local'
   | 'email'
   | 'number'
   | 'password'
@@ -19,7 +20,7 @@ type TextInputTypes =
   | 'text'
   | 'url'
   | 'time'
-  | 'datetime-local';
+  | 'url';
 
 type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: string;

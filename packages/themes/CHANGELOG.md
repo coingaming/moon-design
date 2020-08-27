@@ -3,170 +3,125 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.24.0](https://github.com/coingaming/sportsbet-design/compare/v2.23.0...v2.24.0) (2020-08-03)
-
+# [2.29.0](https://github.com/coingaming/sportsbet-design/compare/v2.28.0...v2.29.0) (2020-08-27)
 
 ### Features
 
-* ts colours coverage ([2a8357e](https://github.com/coingaming/sportsbet-design/commit/2a8357edc40f1662eb83eb5baf59f3d8859b1509))
+- **docs:** download tokens page ([0dc0197](https://github.com/coingaming/sportsbet-design/commit/0dc01979877a8e7c9822e38a86f84bd7c8939aa4))
 
+# [2.27.0](https://github.com/coingaming/sportsbet-design/compare/v2.26.6...v2.27.0) (2020-08-26)
 
+### Bug Fixes
 
+- bombay club theme ([9c37607](https://github.com/coingaming/sportsbet-design/commit/9c376070a38d48e8794ad795debe4448a5d04598))
 
+### Features
+
+- **themes:** introduce hub88 theme ([d803fc7](https://github.com/coingaming/sportsbet-design/commit/d803fc70c1f568286263b6f552836f7a9f18d307))
+
+## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
+
+### Bug Fixes
+
+- update Gohan color for Slots ([b1e23e7](https://github.com/coingaming/sportsbet-design/commit/b1e23e7d2ae306af81c5c3aea7d4cb965855100f))
+- update sportsber LightTheme Gohan and Goku colors ([55b2cb8](https://github.com/coingaming/sportsbet-design/commit/55b2cb81676c0b1589dacab1edf3d671d728710e))
+
+# [2.24.0](https://github.com/coingaming/sportsbet-design/compare/v2.23.0...v2.24.0) (2020-08-03)
+
+### Features
+
+- ts colours coverage ([2a8357e](https://github.com/coingaming/sportsbet-design/commit/2a8357edc40f1662eb83eb5baf59f3d8859b1509))
 
 # [2.23.0](https://github.com/coingaming/sportsbet-design/compare/v2.22.0...v2.23.0) (2020-07-29)
 
-
 ### Bug Fixes
 
-* update hit color ([9a8447a](https://github.com/coingaming/sportsbet-design/commit/9a8447a1fa4cdf5987a49a599674369f8a174c61))
-* update some colors ([aba3f38](https://github.com/coingaming/sportsbet-design/commit/aba3f3800c0326788c1bb3236cd4a7052debe591))
-
-
-
-
+- update hit color ([9a8447a](https://github.com/coingaming/sportsbet-design/commit/9a8447a1fa4cdf5987a49a599674369f8a174c61))
+- update some colors ([aba3f38](https://github.com/coingaming/sportsbet-design/commit/aba3f3800c0326788c1bb3236cd4a7052debe591))
 
 # [2.22.0](https://github.com/coingaming/sportsbet-design/compare/v2.21.0...v2.22.0) (2020-07-28)
 
-
 ### Features
 
-* update semibold to 500 ([a99b77c](https://github.com/coingaming/sportsbet-design/commit/a99b77c351032875bf990de9ec36b73af4a66848))
-
-
-
-
+- update semibold to 500 ([a99b77c](https://github.com/coingaming/sportsbet-design/commit/a99b77c351032875bf990de9ec36b73af4a66848))
 
 # [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
 
-
 ### Bug Fixes
 
-* update bitcasino hit color ([42ac1b0](https://github.com/coingaming/sportsbet-design/commit/42ac1b082d884a73728d414593ff6531d7f34902))
-* update ui tests ([adab67b](https://github.com/coingaming/sportsbet-design/commit/adab67b9cd6d0371d65e6103bc4a627c18cb68e6))
-
+- update bitcasino hit color ([42ac1b0](https://github.com/coingaming/sportsbet-design/commit/42ac1b082d884a73728d414593ff6531d7f34902))
+- update ui tests ([adab67b](https://github.com/coingaming/sportsbet-design/commit/adab67b9cd6d0371d65e6103bc4a627c18cb68e6))
 
 ### Features
 
-* remove averta 700 ([785af44](https://github.com/coingaming/sportsbet-design/commit/785af44619a9151ea9091fc19e469f0cdc3bd409))
-
-
-
-
+- remove averta 700 ([785af44](https://github.com/coingaming/sportsbet-design/commit/785af44619a9151ea9091fc19e469f0cdc3bd409))
 
 # [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
 
-
 ### Bug Fixes
 
-* remove inexistent colors ([915f410](https://github.com/coingaming/sportsbet-design/commit/915f41095da3ec9e649a6794b4f07aa20dfbdd1f))
-
+- remove inexistent colors ([915f410](https://github.com/coingaming/sportsbet-design/commit/915f41095da3ec9e649a6794b4f07aa20dfbdd1f))
 
 ### Features
 
-* add livecasinoLight theme ([b3820bb](https://github.com/coingaming/sportsbet-design/commit/b3820bb2755ebf856c5c88380882c59ff6b60271))
-
-
-
-
+- add livecasinoLight theme ([b3820bb](https://github.com/coingaming/sportsbet-design/commit/b3820bb2755ebf856c5c88380882c59ff6b60271))
 
 ## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
 
-
 ### Bug Fixes
 
-* slots fonts ([3a6e99d](https://github.com/coingaming/sportsbet-design/commit/3a6e99d0f5dcffd90c8a946028eb4365bf826c7e))
-
-
-
-
+- slots fonts ([3a6e99d](https://github.com/coingaming/sportsbet-design/commit/3a6e99d0f5dcffd90c8a946028eb4365bf826c7e))
 
 # [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
 
-
 ### Bug Fixes
 
-* colours ([373742b](https://github.com/coingaming/sportsbet-design/commit/373742b09fec9e282144163fe4e030936fdddca4))
-
+- colours ([373742b](https://github.com/coingaming/sportsbet-design/commit/373742b09fec9e282144163fe4e030936fdddca4))
 
 ### Features
 
-* update averta semibold to 500 ([04e6c33](https://github.com/coingaming/sportsbet-design/commit/04e6c3379fdc6a8a20a2c627fc32cf6f3f9f2b70))
-
-
-
-
+- update averta semibold to 500 ([04e6c33](https://github.com/coingaming/sportsbet-design/commit/04e6c3379fdc6a8a20a2c627fc32cf6f3f9f2b70))
 
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 **Note:** Version bump only for package @heathmont/moon-themes
 
-
-
-
-
 ## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
-
 
 ### Bug Fixes
 
-* fix slots secondary button color ([31335ec](https://github.com/coingaming/sportsbet-design/commit/31335ece8158f5f0aa8b69ca39f50ab7a7b63337))
-
-
-
-
+- fix slots secondary button color ([31335ec](https://github.com/coingaming/sportsbet-design/commit/31335ece8158f5f0aa8b69ca39f50ab7a7b63337))
 
 # [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
 
-
 ### Bug Fixes
 
-* fix bombay and slots themes ([9b5276c](https://github.com/coingaming/sportsbet-design/commit/9b5276cfe09a37160abaab1cedf1dcb42525972c))
-
+- fix bombay and slots themes ([9b5276c](https://github.com/coingaming/sportsbet-design/commit/9b5276cfe09a37160abaab1cedf1dcb42525972c))
 
 ### Features
 
-* align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
-* rename bitcasino purple to dark ([11d8a62](https://github.com/coingaming/sportsbet-design/commit/11d8a6279fa7a39c5227bf48acc8541965b045db))
-
-
-
-
+- align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
+- rename bitcasino purple to dark ([11d8a62](https://github.com/coingaming/sportsbet-design/commit/11d8a6279fa7a39c5227bf48acc8541965b045db))
 
 # [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
 
-
 ### Bug Fixes
 
-* fix bitcasino beerus color ([3b127a4](https://github.com/coingaming/sportsbet-design/commit/3b127a4bc877b19cb3cce5b41e54883e10416827))
-
+- fix bitcasino beerus color ([3b127a4](https://github.com/coingaming/sportsbet-design/commit/3b127a4bc877b19cb3cce5b41e54883e10416827))
 
 ### Features
 
-* add slots theme ([0844cd2](https://github.com/coingaming/sportsbet-design/commit/0844cd2e06b02c7ff577f0a74ac75588f68bd601))
-
-
-
-
+- add slots theme ([0844cd2](https://github.com/coingaming/sportsbet-design/commit/0844cd2e06b02c7ff577f0a74ac75588f68bd601))
 
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-themes
 
-
-
-
-
 # [2.14.0](https://github.com/coingaming/sportsbet-design/compare/v2.13.0...v2.14.0) (2020-06-09)
-
 
 ### Features
 
-* to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
-
-
-
-
+- to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
 
 # [2.12.0](https://github.com/coingaming/sportsbet-design/compare/v2.11.2...v2.12.0) (2020-05-20)
 

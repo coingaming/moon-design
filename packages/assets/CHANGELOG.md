@@ -3,194 +3,123 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.26.5](https://github.com/coingaming/sportsbet-design/compare/v2.26.4...v2.26.5) (2020-08-13)
+# [2.29.0](https://github.com/coingaming/sportsbet-design/compare/v2.28.0...v2.29.0) (2020-08-27)
 
+**Note:** Version bump only for package @heathmont/moon-assets
 
-### Bug Fixes
-
-* **assets:** heartstone & rocket-league icons fix ([6068613](https://github.com/coingaming/sportsbet-design/commit/6068613f5c4ba9a510692d09105d92c51cd0a371))
-
-
-
-
-
-## [2.26.4](https://github.com/coingaming/sportsbet-design/compare/v2.26.3...v2.26.4) (2020-08-12)
-
-
-### Bug Fixes
-
-* **assets:** counter-strike icon colour ([f306fcc](https://github.com/coingaming/sportsbet-design/commit/f306fcc0b6551d85c06692e2b147d222a747e2a3))
-
-
-
-
-
-## [2.26.3](https://github.com/coingaming/sportsbet-design/compare/v2.26.2...v2.26.3) (2020-08-11)
-
-
-### Bug Fixes
-
-* set special color for counter-strike ([fb64432](https://github.com/coingaming/sportsbet-design/commit/fb644321b30d7b63b099e1dd2aa0a45300085d75))
-
-
-
-
-
-## [2.26.2](https://github.com/coingaming/sportsbet-design/compare/v2.26.1...v2.26.2) (2020-08-10)
-
-
-### Bug Fixes
-
-* **assets:** e-Sports icons in GroupIconSports ([a8c3800](https://github.com/coingaming/sportsbet-design/commit/a8c3800ed6a62fefe740f7f0922a92db0c25da3c))
-
-
-
-
-
-## [2.26.1](https://github.com/coingaming/sportsbet-design/compare/v2.26.0...v2.26.1) (2020-08-10)
-
-
-### Bug Fixes
-
-* export GroupIconESports ([ccf2e05](https://github.com/coingaming/sportsbet-design/commit/ccf2e05e7d9d69489fe6376a3b3fbcb52fa72fd5))
-
-
-
-
-
-# [2.26.0](https://github.com/coingaming/sportsbet-design/compare/v2.25.0...v2.26.0) (2020-08-06)
-
+# [2.28.0](https://github.com/coingaming/sportsbet-design/compare/v2.27.0...v2.28.0) (2020-08-26)
 
 ### Features
 
-* **groupiconesports:** add eSports icons ([9342217](https://github.com/coingaming/sportsbet-design/commit/9342217d3a1ae4aa819e2450386ed641575576b8))
+- **assets:** arsenal & southampton logos ([bf4e723](https://github.com/coingaming/sportsbet-design/commit/bf4e723766eea329ef147f3a0d8e9ceb709d24db))
 
+# [2.27.0](https://github.com/coingaming/sportsbet-design/compare/v2.26.6...v2.27.0) (2020-08-26)
 
+**Note:** Version bump only for package @heathmont/moon-assets
 
+## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
 
+**Note:** Version bump only for package @heathmont/moon-assets
+
+## [2.26.5](https://github.com/coingaming/sportsbet-design/compare/v2.26.4...v2.26.5) (2020-08-13)
+
+### Bug Fixes
+
+- **assets:** heartstone & rocket-league icons fix ([6068613](https://github.com/coingaming/sportsbet-design/commit/6068613f5c4ba9a510692d09105d92c51cd0a371))
+
+## [2.26.4](https://github.com/coingaming/sportsbet-design/compare/v2.26.3...v2.26.4) (2020-08-12)
+
+### Bug Fixes
+
+- **assets:** counter-strike icon colour ([f306fcc](https://github.com/coingaming/sportsbet-design/commit/f306fcc0b6551d85c06692e2b147d222a747e2a3))
+
+## [2.26.3](https://github.com/coingaming/sportsbet-design/compare/v2.26.2...v2.26.3) (2020-08-11)
+
+### Bug Fixes
+
+- set special color for counter-strike ([fb64432](https://github.com/coingaming/sportsbet-design/commit/fb644321b30d7b63b099e1dd2aa0a45300085d75))
+
+## [2.26.2](https://github.com/coingaming/sportsbet-design/compare/v2.26.1...v2.26.2) (2020-08-10)
+
+### Bug Fixes
+
+- **assets:** e-Sports icons in GroupIconSports ([a8c3800](https://github.com/coingaming/sportsbet-design/commit/a8c3800ed6a62fefe740f7f0922a92db0c25da3c))
+
+## [2.26.1](https://github.com/coingaming/sportsbet-design/compare/v2.26.0...v2.26.1) (2020-08-10)
+
+### Bug Fixes
+
+- export GroupIconESports ([ccf2e05](https://github.com/coingaming/sportsbet-design/commit/ccf2e05e7d9d69489fe6376a3b3fbcb52fa72fd5))
+
+# [2.26.0](https://github.com/coingaming/sportsbet-design/compare/v2.25.0...v2.26.0) (2020-08-06)
+
+### Features
+
+- **groupiconesports:** add eSports icons ([9342217](https://github.com/coingaming/sportsbet-design/commit/9342217d3a1ae4aa819e2450386ed641575576b8))
 
 # [2.24.0](https://github.com/coingaming/sportsbet-design/compare/v2.23.0...v2.24.0) (2020-08-03)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.23.0](https://github.com/coingaming/sportsbet-design/compare/v2.22.0...v2.23.0) (2020-07-29)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.22.0](https://github.com/coingaming/sportsbet-design/compare/v2.21.0...v2.22.0) (2020-07-28)
-
 
 ### Bug Fixes
 
-* **assets:** ts fix for duotone icons ([5d5f41e](https://github.com/coingaming/sportsbet-design/commit/5d5f41e8dff343e6509a2e90208b97fe3379c39f))
-
+- **assets:** ts fix for duotone icons ([5d5f41e](https://github.com/coingaming/sportsbet-design/commit/5d5f41e8dff343e6509a2e90208b97fe3379c39f))
 
 ### Features
 
-* **assets:** duotone icons ([51e180a](https://github.com/coingaming/sportsbet-design/commit/51e180a03a1ae330ea4734cff9673cefcee07f1e))
-
-
-
-
+- **assets:** duotone icons ([51e180a](https://github.com/coingaming/sportsbet-design/commit/51e180a03a1ae330ea4734cff9673cefcee07f1e))
 
 # [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
 
 **Note:** Version bump only for package @heathmont/moon-assets
-
-
-
-
 
 ## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
 
 **Note:** Version bump only for package @heathmont/moon-assets
-
-
-
-
 
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 ## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
 
 **Note:** Version bump only for package @heathmont/moon-assets
-
-
-
-
 
 # [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
 
 **Note:** Version bump only for package @heathmont/moon-assets
-
-
-
-
 
 # [2.15.0](https://github.com/coingaming/sportsbet-design/compare/v2.14.1...v2.15.0) (2020-06-17)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.14.0](https://github.com/coingaming/sportsbet-design/compare/v2.13.0...v2.14.0) (2020-06-09)
-
 
 ### Features
 
-* to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
-
-
-
-
+- to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
 
 # [2.12.0](https://github.com/coingaming/sportsbet-design/compare/v2.11.2...v2.12.0) (2020-05-20)
 
