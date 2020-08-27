@@ -5,31 +5,27 @@ import format from 'date-fns/format';
 
 import { TextInput } from '../..';
 
-const InputsPanelStyled = styled.div({
+const InputsPanelStyled = styled.div(({ theme }) => ({
   height: rem(56),
-  background: '#e9eefa',
+  background: theme.color.goku[100],
   display: 'flex',
   alignItems: 'center',
   paddingLeft: rem(20),
   boxSizing: 'border-box',
   width: '100%',
   justifyContent: 'space-between',
-});
+}));
 
-const To = styled.span({
+const To = styled.span(({ theme }) => ({
   marginLeft: rem(18),
   marginRight: rem(18),
   fontWeight: 500,
   fontSize: rem(12),
   lineHeight: rem(16),
   textAlign: 'center',
-  color: '#2b4bce',
+  color: theme.color.bulma[100],
   userSelect: 'none',
-});
-
-// const ButtonsWrapper = styled.div({
-//   display: 'flex',
-// });
+}));
 
 const Inputs = styled.div({
   display: 'flex',
@@ -53,7 +49,6 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
           value={startDate && format(startDate, "yyyy-MM-dd'T'HH:mm:ss")}
         />
         <To>to</To>
-
         <TextInput
           type="datetime-local"
           value={endDate && format(endDate, "yyyy-MM-dd'T'HH:mm:ss")}
