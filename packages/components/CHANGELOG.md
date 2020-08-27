@@ -3,233 +3,150 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.26.5](https://github.com/coingaming/sportsbet-design/compare/v2.26.4...v2.26.5) (2020-08-13)
+# [2.29.0](https://github.com/coingaming/sportsbet-design/compare/v2.28.0...v2.29.0) (2020-08-27)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
+# [2.28.0](https://github.com/coingaming/sportsbet-design/compare/v2.27.0...v2.28.0) (2020-08-26)
 
+**Note:** Version bump only for package @heathmont/moon-components
 
+# [2.27.0](https://github.com/coingaming/sportsbet-design/compare/v2.26.6...v2.27.0) (2020-08-26)
 
+### Features
+
+- **textinput:** date-time and time TextInputs ([cfa94a0](https://github.com/coingaming/sportsbet-design/commit/cfa94a036921da41511fca8de6d914051f534ed7))
+
+## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+## [2.26.5](https://github.com/coingaming/sportsbet-design/compare/v2.26.4...v2.26.5) (2020-08-13)
+
+**Note:** Version bump only for package @heathmont/moon-components
 
 ## [2.26.4](https://github.com/coingaming/sportsbet-design/compare/v2.26.3...v2.26.4) (2020-08-12)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 ## [2.26.3](https://github.com/coingaming/sportsbet-design/compare/v2.26.2...v2.26.3) (2020-08-11)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 ## [2.26.2](https://github.com/coingaming/sportsbet-design/compare/v2.26.1...v2.26.2) (2020-08-10)
-
 
 ### Bug Fixes
 
-* **assets:** e-Sports icons in GroupIconSports ([a8c3800](https://github.com/coingaming/sportsbet-design/commit/a8c3800ed6a62fefe740f7f0922a92db0c25da3c))
-
-
-
-
+- **assets:** e-Sports icons in GroupIconSports ([a8c3800](https://github.com/coingaming/sportsbet-design/commit/a8c3800ed6a62fefe740f7f0922a92db0c25da3c))
 
 ## [2.26.1](https://github.com/coingaming/sportsbet-design/compare/v2.26.0...v2.26.1) (2020-08-10)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.26.0](https://github.com/coingaming/sportsbet-design/compare/v2.25.0...v2.26.0) (2020-08-06)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.25.0](https://github.com/coingaming/sportsbet-design/compare/v2.24.1...v2.25.0) (2020-08-04)
-
 
 ### Features
 
-* **button:** pulse animation ([a6d10db](https://github.com/coingaming/sportsbet-design/commit/a6d10dbd5c55bf888dc7dcba5366cefec5faa77b))
-
-
-
-
+- **button:** pulse animation ([a6d10db](https://github.com/coingaming/sportsbet-design/commit/a6d10dbd5c55bf888dc7dcba5366cefec5faa77b))
 
 ## [2.24.1](https://github.com/coingaming/sportsbet-design/compare/v2.24.0...v2.24.1) (2020-08-04)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.24.0](https://github.com/coingaming/sportsbet-design/compare/v2.23.0...v2.24.0) (2020-08-03)
-
 
 ### Features
 
-* circular progress indicator ([c8f5e8f](https://github.com/coingaming/sportsbet-design/commit/c8f5e8f446b07b88bd9bfaa24ad98fdf754d5b57))
-* initial commit ([1c976d4](https://github.com/coingaming/sportsbet-design/commit/1c976d4ee874454d758c35fe52f7af6c2a2e2d6f))
-* text progress indicator ([02996c3](https://github.com/coingaming/sportsbet-design/commit/02996c3d7576cc497206758040580cfc58b4db5e))
-* ts colours coverage ([2a8357e](https://github.com/coingaming/sportsbet-design/commit/2a8357edc40f1662eb83eb5baf59f3d8859b1509))
-
-
-
-
+- circular progress indicator ([c8f5e8f](https://github.com/coingaming/sportsbet-design/commit/c8f5e8f446b07b88bd9bfaa24ad98fdf754d5b57))
+- initial commit ([1c976d4](https://github.com/coingaming/sportsbet-design/commit/1c976d4ee874454d758c35fe52f7af6c2a2e2d6f))
+- text progress indicator ([02996c3](https://github.com/coingaming/sportsbet-design/commit/02996c3d7576cc497206758040580cfc58b4db5e))
+- ts colours coverage ([2a8357e](https://github.com/coingaming/sportsbet-design/commit/2a8357edc40f1662eb83eb5baf59f3d8859b1509))
 
 # [2.23.0](https://github.com/coingaming/sportsbet-design/compare/v2.22.0...v2.23.0) (2020-07-29)
 
-
 ### Bug Fixes
 
-* fix font size ([e869d08](https://github.com/coingaming/sportsbet-design/commit/e869d088a7f550f564dd90af696593cca0770c82))
-
+- fix font size ([e869d08](https://github.com/coingaming/sportsbet-design/commit/e869d088a7f550f564dd90af696593cca0770c82))
 
 ### Features
 
-* update heading ([ede0d99](https://github.com/coingaming/sportsbet-design/commit/ede0d9952f8930d0d60184dbd1dcc66d80b3de2a))
-
-
-
-
+- update heading ([ede0d99](https://github.com/coingaming/sportsbet-design/commit/ede0d9952f8930d0d60184dbd1dcc66d80b3de2a))
 
 # [2.22.0](https://github.com/coingaming/sportsbet-design/compare/v2.21.0...v2.22.0) (2020-07-28)
 
-
 ### Features
 
-* update semibold to 500 ([a99b77c](https://github.com/coingaming/sportsbet-design/commit/a99b77c351032875bf990de9ec36b73af4a66848))
-
-
-
-
+- update semibold to 500 ([a99b77c](https://github.com/coingaming/sportsbet-design/commit/a99b77c351032875bf990de9ec36b73af4a66848))
 
 # [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
 
-
 ### Bug Fixes
 
-* fix caption component ([3348857](https://github.com/coingaming/sportsbet-design/commit/33488576f58ef4cf485c30e6305a7f5954f6db09))
-* fix caption component ([6de17d4](https://github.com/coingaming/sportsbet-design/commit/6de17d435133f064e68f3a0390286b2a9ec187fe))
-* update ui tests ([adab67b](https://github.com/coingaming/sportsbet-design/commit/adab67b9cd6d0371d65e6103bc4a627c18cb68e6))
-
+- fix caption component ([3348857](https://github.com/coingaming/sportsbet-design/commit/33488576f58ef4cf485c30e6305a7f5954f6db09))
+- fix caption component ([6de17d4](https://github.com/coingaming/sportsbet-design/commit/6de17d435133f064e68f3a0390286b2a9ec187fe))
+- update ui tests ([adab67b](https://github.com/coingaming/sportsbet-design/commit/adab67b9cd6d0371d65e6103bc4a627c18cb68e6))
 
 ### Features
 
-* icons importing ([9045dfd](https://github.com/coingaming/sportsbet-design/commit/9045dfd736d0f474642bbfb936a6333308d509f8))
-* remove averta 700 ([785af44](https://github.com/coingaming/sportsbet-design/commit/785af44619a9151ea9091fc19e469f0cdc3bd409))
-
-
-
-
+- icons importing ([9045dfd](https://github.com/coingaming/sportsbet-design/commit/9045dfd736d0f474642bbfb936a6333308d509f8))
+- remove averta 700 ([785af44](https://github.com/coingaming/sportsbet-design/commit/785af44619a9151ea9091fc19e469f0cdc3bd409))
 
 # [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 ## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
-
 
 ### Bug Fixes
 
-* fix ui tests ([4e68519](https://github.com/coingaming/sportsbet-design/commit/4e6851993cee14fcffbf77336e1b5693bbff499d))
-* snackbar desktop max-width ([f6bf5a3](https://github.com/coingaming/sportsbet-design/commit/f6bf5a32b592e096bcccb04b253e1301946a653e))
-
-
-
-
+- fix ui tests ([4e68519](https://github.com/coingaming/sportsbet-design/commit/4e6851993cee14fcffbf77336e1b5693bbff499d))
+- snackbar desktop max-width ([f6bf5a3](https://github.com/coingaming/sportsbet-design/commit/f6bf5a32b592e096bcccb04b253e1301946a653e))
 
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 ## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
-
 
 ### Bug Fixes
 
-* bump test snapshots ([fb0f2a6](https://github.com/coingaming/sportsbet-design/commit/fb0f2a670635f9d2cd376163bf0f9b095dfe9cc8))
-
+- bump test snapshots ([fb0f2a6](https://github.com/coingaming/sportsbet-design/commit/fb0f2a670635f9d2cd376163bf0f9b095dfe9cc8))
 
 ### Features
 
-* align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
-
-
-
-
+- align colors ([dc2a16d](https://github.com/coingaming/sportsbet-design/commit/dc2a16d6d779fb9acb7591a1cb6a4a95dc1e511c))
 
 # [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.15.0](https://github.com/coingaming/sportsbet-design/compare/v2.14.1...v2.15.0) (2020-06-17)
-
 
 ### Features
 
-* add text and caption components ([9fed086](https://github.com/coingaming/sportsbet-design/commit/9fed086ebdc6af7d5b1f67ce643d1d74b2f1b28b))
-
-
-
-
+- add text and caption components ([9fed086](https://github.com/coingaming/sportsbet-design/commit/9fed086ebdc6af7d5b1f67ce643d1d74b2f1b28b))
 
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.14.0](https://github.com/coingaming/sportsbet-design/compare/v2.13.0...v2.14.0) (2020-06-09)
-
 
 ### Features
 
-* to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
-
-
-
-
+- to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
 
 # [2.13.0](https://github.com/coingaming/sportsbet-design/compare/v2.12.0...v2.13.0) (2020-05-22)
 

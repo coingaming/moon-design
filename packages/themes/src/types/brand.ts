@@ -3,4 +3,5 @@ export type Brand =
   | 'Bitcasino.io'
   | 'Slots.io'
   | 'BombayClub'
-  | 'Livecasino.io';
+  | 'Livecasino.io'
+  | 'Hub88';
