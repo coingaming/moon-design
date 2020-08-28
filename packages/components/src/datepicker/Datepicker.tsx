@@ -6,6 +6,7 @@ import format from 'date-fns/format';
 import isAfter from 'date-fns/isAfter';
 import isSameDay from 'date-fns/isSameDay';
 import startOfDay from 'date-fns/startOfDay';
+import isDate from 'date-fns/isDate';
 
 import { getMonthDays } from './private/helpers/getMonthDays';
 import { Picker } from './private/Picker';
@@ -68,6 +69,30 @@ const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
         hoveredDate: undefined,
         startDate: newStartDate,
       });
+    }
+  };
+
+  const setStartDate = (startDate: Date) => {
+    if (isDate(startDate) && startDate) {
+      setDates({
+        ...dates,
+        startDate,
+      });
+    } else {
+      // eslint-disable-next-line no-debugger
+      debugger;
+    }
+  };
+
+  const setEndDate = (endDate: Date) => {
+    if (isDate(endDate) && endDate) {
+      setDates({
+        ...dates,
+        endDate,
+      });
+    } else {
+      // eslint-disable-next-line no-debugger
+      debugger;
     }
   };
 
@@ -145,6 +170,8 @@ const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
       selectRange={selectRange}
       nextMonth={nextMonth}
       prevMonth={prevMonth}
+      setStartDate={setStartDate}
+      setEndDate={setEndDate}
     />
   );
 };

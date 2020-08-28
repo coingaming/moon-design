@@ -79,6 +79,8 @@ export const Picker: React.FC<any> = ({
   selectRange,
   nextMonth,
   prevMonth,
+  setStartDate,
+  setEndDate,
 }) => {
   const ranges = getRanges({});
 
@@ -120,7 +122,12 @@ export const Picker: React.FC<any> = ({
           </SecondMonth>
           <RightArrow onClick={nextMonth} />
         </MonthsContainer>
-        <InputsPanel startDate={startDate} endDate={endDate} />
+        <InputsPanel
+          startDate={startDate}
+          endDate={endDate}
+          setStartDate={setStartDate}
+          setEndDate={setEndDate}
+        />
         {/* <InputsPanel
           textInputs={textInputs}
           setUserInput={setUserInput}

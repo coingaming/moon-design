@@ -35,11 +35,15 @@ const Inputs = styled.div({
 type InputsPanelProps = {
   startDate: Date;
   endDate: Date;
+  setStartDate: any;
+  setEndDate: any;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
   startDate,
   endDate,
+  setStartDate,
+  setEndDate,
 }) => {
   return (
     <InputsPanelStyled>
@@ -47,11 +51,13 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         <TextInput
           type="datetime-local"
           value={startDate && format(startDate, "yyyy-MM-dd'T'HH:mm:ss")}
+          onChange={e => setStartDate(new Date(e.target.value))}
         />
         <To>to</To>
         <TextInput
           type="datetime-local"
           value={endDate && format(endDate, "yyyy-MM-dd'T'HH:mm:ss")}
+          onChange={e => setEndDate(new Date(e.target.value))}
         />
         {/* <To>UTC</To> */}
       </Inputs>
