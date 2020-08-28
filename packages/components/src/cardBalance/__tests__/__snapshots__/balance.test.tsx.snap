@@ -68,17 +68,17 @@ exports[`CardBalance renders correctly 1`] = `
 
 exports[`CardBalance renders correctly with a badge 1`] = `
 .c1 {
-  padding: 0.125rem 0.4375rem;
-  font-size: 0.5rem;
-  line-height: 1.25;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   border-radius: 6.25rem;
-  -webkit-letter-spacing: 0.03125rem;
-  -moz-letter-spacing: 0.03125rem;
-  -ms-letter-spacing: 0.03125rem;
-  letter-spacing: 0.03125rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  padding: 0 0.25rem;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
 }
 
 .c2 > li {
@@ -152,6 +152,7 @@ exports[`CardBalance renders correctly with a badge 1`] = `
   <span>
     <span
       className="c1"
+      size="xsmall"
     >
       Active
     </span>
