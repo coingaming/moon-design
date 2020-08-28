@@ -10,7 +10,7 @@ type ButtonVariantStyles = {
   secondary: CSSObject;
   tertiary: CSSObject;
   highlight: CSSObject;
-  optional: CSSObject; // TODO remove
+  default: CSSObject;
 };
 
 /**
@@ -34,12 +34,12 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
     },
     secondary: {
       color: color.bulma[100],
-      backgroundColor: color.gohan[100],
+      backgroundColor: color.hit[100],
       ...buttonHover({
-        backgroundColor: color.gohan[80],
+        backgroundColor: color.hit[80],
       }),
       ...buttonActive({
-        backgroundColor: color.gohan[100],
+        backgroundColor: color.hit[120],
         outline: 'none',
       }),
     },
@@ -68,10 +68,9 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
         outline: 'none',
       }),
     },
-    // TODO remove
-    optional: {
-      color: color.trunks[100],
-      backgroundColor: color.gohan[80],
+    default: {
+      color: color.bulma[100],
+      background: 'none',
       ...buttonHover({
         color: color.bulma[100],
       }),
