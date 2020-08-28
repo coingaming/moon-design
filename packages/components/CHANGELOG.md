@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.29.2](https://github.com/coingaming/sportsbet-design/compare/v2.29.1...v2.29.2) (2020-08-28)
+
+
+### Bug Fixes
+
+* fix button horizonal alignment ([fed61a3](https://github.com/coingaming/sportsbet-design/commit/fed61a3763f626d28dab7fa52981127f3015e1ef))
+
+
+
+
+
 ## [2.29.1](https://github.com/coingaming/sportsbet-design/compare/v2.29.0...v2.29.1) (2020-08-28)
 
 
