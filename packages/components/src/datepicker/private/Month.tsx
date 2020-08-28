@@ -7,6 +7,7 @@ import isFirstDayOfMonth from 'date-fns/isFirstDayOfMonth';
 import isWithinInterval from 'date-fns/isWithinInterval';
 import compareAsc from 'date-fns/compareAsc';
 import getMonth from 'date-fns/getMonth';
+import isDate from 'date-fns/isDate';
 
 import { Day } from './Day';
 
@@ -122,8 +123,8 @@ export const Month: React.FC<MonthProps> = ({
           isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
           isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
           isInRange={Boolean(
-            startDate &&
-              endDate &&
+            isDate(startDate) &&
+              isDate(endDate) &&
               isWithinInterval(day, {
                 start: startDate,
                 end: endDate,
