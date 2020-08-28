@@ -1,6 +1,8 @@
 import { CSSObject } from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
+import { ButtonVariants } from './variants';
+
 type ButtonSizes = keyof ButtonSizeStyles;
 
 type ButtonSizeStyles = {
@@ -16,27 +18,31 @@ type ButtonSizeStyles = {
  * Styles that extend `buttonBase` to change the button's cosmetic appearance.
  * Accessed via `buttonSize(key)(theme)`.
  */
-const buttonSize = (key: ButtonSizes) => () => {
+const buttonSize = (key: ButtonSizes) => (variant?: ButtonVariants) => {
   const themedStyles: ButtonSizeStyles = {
     xsmall: {
       fontSize: rem(12),
       lineHeight: rem(16),
-      padding: `${rem(8)} ${rem(16)}`,
+      height: variant === 'default' ? '' : rem(32),
+      padding: variant === 'default' ? 0 : `0 ${rem(16)}`,
     },
     small: {
       fontSize: rem(14),
-      lineHeight: rem(16),
-      padding: `${rem(12)} ${rem(20)}`,
+      lineHeight: rem(20),
+      height: variant === 'default' ? '' : rem(40),
+      padding: variant === 'default' ? 0 : `0 ${rem(20)}`,
     },
     medium: {
       fontSize: rem(16),
-      lineHeight: 1.5,
-      padding: `${rem(12)} ${rem(24)}`,
+      lineHeight: rem(24),
+      height: variant === 'default' ? '' : rem(48),
+      padding: variant === 'default' ? 0 : `0 ${rem(24)}`,
     },
     large: {
       fontSize: rem(18),
-      lineHeight: 1.33,
-      padding: `${rem(16)} ${rem(32)}`,
+      lineHeight: rem(24),
+      height: variant === 'default' ? '' : rem(56),
+      padding: variant === 'default' ? 0 : `0 ${rem(32)}`,
     },
   };
 
