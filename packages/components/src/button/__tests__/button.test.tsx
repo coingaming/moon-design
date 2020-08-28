@@ -42,30 +42,6 @@ describe('Button', () => {
     expect(button).toMatchSnapshot();
   });
 
-  test('renders rounded', () => {
-    const button = create(
-      renderWithTheme(
-        <Button round variant="primary" uppercase>
-          Round Primary Button
-        </Button>
-      )
-    );
-
-    expect(button).toMatchSnapshot();
-  });
-
-  test('renders uppercased', () => {
-    const button = create(
-      renderWithTheme(
-        <Button variant="primary" uppercase>
-          Uppercase Primary Button
-        </Button>
-      )
-    );
-
-    expect(button).toMatchSnapshot();
-  });
-
   test('renders as an anchor tag', () => {
     const button = create(
       renderWithTheme(
@@ -97,16 +73,14 @@ describe('Button', () => {
 
     test('renders as secondary', () => {
       const button = create(
-        renderWithTheme(<Button variant="secondary">Optional Button</Button>)
+        renderWithTheme(<Button variant="secondary">Secondary Button</Button>)
       );
 
       expect(button).toMatchSnapshot();
     });
 
-    test('renders as optional', () => {
-      const button = create(
-        renderWithTheme(<Button variant="optional">Optional Button</Button>)
-      );
+    test('renders as default', () => {
+      const button = create(renderWithTheme(<Button>Default Button</Button>));
 
       expect(button).toMatchSnapshot();
     });
@@ -184,24 +158,20 @@ describe('Button', () => {
         expect(button).toMatchSnapshot();
       });
 
-      test('Optional renders with hover', () => {
+      test('Default renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button variant="optional" mockState="hover">
-              Hover Optional Button
-            </Button>
+            <Button mockState="hover">Hover Default Button</Button>
           )
         );
 
         expect(button).toMatchSnapshot();
       });
 
-      test('Optional renders as active', () => {
+      test('Default renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button variant="optional" mockState="active">
-              Active Optional Button
-            </Button>
+            <Button mockState="active">Active Default Button</Button>
           )
         );
 
@@ -248,24 +218,20 @@ describe('Button', () => {
         expect(button).toMatchSnapshot();
       });
 
-      test('Optional renders with hover', () => {
+      test('Default renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button variant="optional" mockState="hover">
-              Hover Optional Button
-            </Button>
+            <Button mockState="hover">Hover Default Button</Button>
           )
         );
 
         expect(button).toMatchSnapshot();
       });
 
-      test('Optional renders as active', () => {
+      test('Default renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button variant="optional" mockState="active">
-              Active Optional Button
-            </Button>
+            <Button mockState="active">Active Default Button</Button>
           )
         );
 

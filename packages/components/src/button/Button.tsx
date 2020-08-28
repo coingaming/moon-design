@@ -20,12 +20,10 @@ import { pulseAnimation } from './pulseAnimation';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   href?: string;
-  variant: ButtonVariants;
+  variant?: ButtonVariants;
   size?: ButtonSizes;
   mockState?: ButtonMockState;
   fullWidth?: boolean;
-  uppercase?: boolean;
-  round?: boolean; // deprecacted
   progress?: boolean;
   oops?: boolean;
   success?: boolean;
@@ -50,24 +48,27 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
  */
 const StyledButton = styled.button<ButtonProps>(
   ({
-    theme: { border, fontWeight, opacity, radius },
+    theme: { border, fontWeight, opacity, radius, transitionDuration },
     fullWidth,
-    uppercase,
   }) => ({
+    display: 'inline-grid',
+    alignItems: 'center',
+    gridAutoFlow: 'column',
     width: fullWidth ? '100%' : undefined,
+    minHeight: rem(24),
     fontFamily: 'inherit', // Prevents links rendering as system fonts.
     fontWeight: fontWeight.semibold,
     textDecoration: 'none',
-    textTransform: uppercase ? 'uppercase' : undefined,
     cursor: 'pointer',
     border,
     borderColor: 'transparent',
     borderRadius: rem(radius.largest),
+    transition: `background-color ${transitionDuration.default}s`,
     ...disabled(opacity.disabled),
   }),
   ({ fullWidth }) => fullWidth && { position: 'relative' },
   ({ variant, theme }) => variant && buttonVariant(variant)(theme),
-  ({ size }) => size && buttonSize(size)(),
+  ({ size, variant }) => size && buttonSize(size)(variant),
   ({ oops, theme: { color } }) =>
     oops && [
       oopsAnimation,
@@ -272,7 +273,7 @@ const Button: React.FC<ButtonProps> = ({
 };
 
 Button.defaultProps = {
-  variant: 'primary',
+  variant: 'default',
   size: 'small',
 };
 
