@@ -53,6 +53,7 @@ const StyledButton = styled.button<ButtonProps>(
   }) => ({
     display: 'inline-grid',
     alignItems: 'center',
+    justifyContent: 'center',
     gridAutoFlow: 'column',
     width: fullWidth ? '100%' : undefined,
     minHeight: rem(24),
