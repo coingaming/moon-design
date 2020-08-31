@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.29.2](https://github.com/coingaming/sportsbet-design/compare/v2.29.1...v2.29.2) (2020-08-28)
+
+### Bug Fixes
+
+- fix button horizonal alignment ([fed61a3](https://github.com/coingaming/sportsbet-design/commit/fed61a3763f626d28dab7fa52981127f3015e1ef))
+
+## [2.29.1](https://github.com/coingaming/sportsbet-design/compare/v2.29.0...v2.29.1) (2020-08-28)
+
+### Bug Fixes
+
+- add default state to readme ([affbc7d](https://github.com/coingaming/sportsbet-design/commit/affbc7d0eb05c6a6fc3822a8b8ec72ad34f86518))
+- update Badge component ([d95be7a](https://github.com/coingaming/sportsbet-design/commit/d95be7a5f5bf510dc7f0e199ab813bff41be4b5e))
+- updated Button component ([6d2ddf5](https://github.com/coingaming/sportsbet-design/commit/6d2ddf5b70ada9d1791afdf9ebd13dbc04813f35))
+
 # [2.29.0](https://github.com/coingaming/sportsbet-design/compare/v2.28.0...v2.29.0) (2020-08-27)
 
 **Note:** Version bump only for package @heathmont/moon-components
