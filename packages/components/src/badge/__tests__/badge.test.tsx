@@ -29,4 +29,24 @@ describe('Badge', () => {
 
     expect(badge).toMatchSnapshot();
   });
+
+  test('renders correctly default size', () => {
+    const badge = create(
+      renderWithTheme(<Badge backgroundColor="red">Default size badge</Badge>)
+    );
+
+    expect(badge).toMatchSnapshot();
+  });
+
+  test('renders correctly small size', () => {
+    const badge = create(
+      renderWithTheme(
+        <Badge backgroundColor="red" size="small">
+          Default size badge
+        </Badge>
+      )
+    );
+
+    expect(badge).toMatchSnapshot();
+  });
 });

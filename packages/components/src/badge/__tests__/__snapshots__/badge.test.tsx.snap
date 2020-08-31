@@ -2,44 +2,94 @@
 
 exports[`Badge renders correctly 1`] = `
 .c0 {
-  padding: 0.125rem 0.4375rem;
-  font-size: 0.5rem;
-  line-height: 1.25;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   border-radius: 6.25rem;
-  -webkit-letter-spacing: 0.03125rem;
-  -moz-letter-spacing: 0.03125rem;
-  -ms-letter-spacing: 0.03125rem;
-  letter-spacing: 0.03125rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  padding: 0 0.25rem;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
 }
 
 <span
   className="c0"
+  size="xsmall"
 >
   Active
 </span>
 `;
 
-exports[`Badge renders correctly with background color 1`] = `
+exports[`Badge renders correctly default size 1`] = `
 .c0 {
-  padding: 0.125rem 0.4375rem;
-  font-size: 0.5rem;
-  line-height: 1.25;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   border-radius: 6.25rem;
-  -webkit-letter-spacing: 0.03125rem;
-  -moz-letter-spacing: 0.03125rem;
-  -ms-letter-spacing: 0.03125rem;
-  letter-spacing: 0.03125rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  padding: 0 0.25rem;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
   background-color: red;
 }
 
 <span
   className="c0"
+  size="xsmall"
+>
+  Default size badge
+</span>
+`;
+
+exports[`Badge renders correctly small size 1`] = `
+.c0 {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 6.25rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  padding: 0 0.5rem;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  background-color: red;
+}
+
+<span
+  className="c0"
+  size="small"
+>
+  Default size badge
+</span>
+`;
+
+exports[`Badge renders correctly with background color 1`] = `
+.c0 {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 6.25rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  padding: 0 0.25rem;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
+  background-color: red;
+}
+
+<span
+  className="c0"
+  size="xsmall"
 >
   Red background badge
 </span>
@@ -47,23 +97,24 @@ exports[`Badge renders correctly with background color 1`] = `
 
 exports[`Badge renders correctly with color 1`] = `
 .c0 {
-  padding: 0.125rem 0.4375rem;
-  font-size: 0.5rem;
-  line-height: 1.25;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   border-radius: 6.25rem;
-  -webkit-letter-spacing: 0.03125rem;
-  -moz-letter-spacing: 0.03125rem;
-  -ms-letter-spacing: 0.03125rem;
-  letter-spacing: 0.03125rem;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  padding: 0 0.25rem;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
   color: red;
 }
 
 <span
   className="c0"
   color="red"
+  size="xsmall"
 >
   Red badge
 </span>
