@@ -6,32 +6,32 @@ import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
-    120: '#0045F5',
-    100: '#1757FF',
-    80: '#477BFF',
+    120: '#2F8862',
+    100: '#39A275',
+    80: '#58C596',
   },
   hit: {
-    120: '#9EACB5',
-    100: '#AAB6BE',
-    80: '#C5CDD3',
+    120: '#EDEFF1',
+    100: '#FFFFFF',
+    80: '#F3F5F6',
   },
   goten: {
     100: '#FFFFFF',
   },
   goku: {
     100: '#F3F5F6',
-    80: '#FCFDFD',
-    40: '#FFFFFF',
-    10: '#FFFFFF',
+    80: '#EDEFF1',
+    40: '#E7EAEC',
+    10: '#DBE0E3',
   },
   gohan: {
-    100: '#F8FAFF',
-    80: '#F8FAFF',
-    40: '#F8FAFF',
-    10: '#F8FAFF',
+    100: '#FFFFFF',
+    80: '#E7EAEC',
+    40: '#CFD5DA',
+    10: '#C9D0D5',
   },
   beerus: {
-    100: '#E2E6E9',
+    100: '#DBE0E3',
   },
   bulma: {
     100: '#010812',
@@ -41,9 +41,9 @@ const color = {
   },
 };
 
-const hub88: Theme = {
+const aposta10Dark: Theme = {
   ...sharedTokens,
-  brand: 'Hub88',
+  brand: 'Aposta10',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
@@ -58,4 +58,4 @@ const hub88: Theme = {
   colorScheme: 'dark',
 };
 
-export default hub88;
+export default aposta10Dark;
