@@ -16,6 +16,8 @@ export { default as hub88 } from './hub88/hub88';
 export * from './hub88/hub88';
 export { default as livecasinoLight } from './livecasinoLight/livecasinoLight';
 export * from './livecasinoLight/livecasinoLight';
+export { default as luckyslots } from './luckyslots/luckyslots';
+export * from './luckyslots/luckyslots';
 export { default as sharedTokens } from './sharedTokens/sharedTokens';
 export * from './sharedTokens/sharedTokens';
 export { default as slotsDark } from './slotsDark/slotsDark';
