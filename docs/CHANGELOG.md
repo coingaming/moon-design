@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.30.0](https://github.com/coingaming/sportsbet-design/compare/v2.29.2...v2.30.0) (2020-09-02)
+
+
+### Features
+
+* Aposta10 theme ([7ebc0a0](https://github.com/coingaming/sportsbet-design/commit/7ebc0a0398df37f86045116d5a55051829df5ffb))
+
+
+
+
+
 ## [2.29.2](https://github.com/coingaming/sportsbet-design/compare/v2.29.1...v2.29.2) (2020-08-28)
 
 **Note:** Version bump only for package docs
