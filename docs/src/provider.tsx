@@ -7,8 +7,7 @@ import {
   bitcasinoDark,
   slotsLight,
   slotsDark,
-  luckyslotsLight,
-  luckyslotsDark,
+  luckyslots,
   bombayClub,
   aposta10Dark,
   aposta10Light,
@@ -30,8 +29,8 @@ const themes: DocsThemes = {
     light: slotsLight,
   },
   luckyslots: {
-    dark: luckyslotsDark,
-    light: luckyslotsLight,
+    dark: luckyslots,
+    light: luckyslots,
   },
   bombay: {
     dark: bombayClub,
