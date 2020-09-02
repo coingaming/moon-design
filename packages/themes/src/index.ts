@@ -12,6 +12,8 @@ export { default as bitcasinoLight } from './bitcasinoLight/bitcasinoLight';
 export * from './bitcasinoLight/bitcasinoLight';
 export { default as bombayClub } from './bombayClub/bombayClub';
 export * from './bombayClub/bombayClub';
+export { default as hub88 } from './hub88/hub88';
+export * from './hub88/hub88';
 export { default as livecasinoLight } from './livecasinoLight/livecasinoLight';
 export * from './livecasinoLight/livecasinoLight';
 export { default as sharedTokens } from './sharedTokens/sharedTokens';
