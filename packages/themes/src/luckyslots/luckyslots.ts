@@ -6,42 +6,42 @@ import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
-    120: '#0048FF',
-    100: '#1A5BFF',
-    80: '#3D71F5',
+    120: '#E00038',
+    100: '#FA003E',
+    80: '#F32055',
   },
   hit: {
-    120: '#b7bac3',
-    100: '#c0c2c9',
-    80: '#c8cad0',
+    120: '#E6EBF9',
+    100: '#FFFFFF',
+    80: '#F3F5FC',
   },
   goten: {
     100: '#FFFFFF',
   },
   goku: {
-    100: '#F3F5F6',
-    80: '#EAEEF0',
-    40: '#D8E0E3',
-    10: '#C4D2D9',
+    100: '#3133C4',
+    80: '#2528B6',
+    40: '#111397',
+    10: '#020473',
   },
   gohan: {
-    100: '#FFFFFF',
-    80: '#f7f7f7',
-    40: '#e8e8e8',
-    10: '#d9d9d9',
+    100: '#2A0D68',
+    80: '#351579',
+    40: '#4D2B97',
+    10: '#6745B0',
   },
   beerus: {
-    100: '#E7E7E7',
+    100: '#353B50',
   },
   bulma: {
-    100: '#03060C',
+    100: '#FFFFFF',
   },
   trunks: {
-    100: '#A6A6A6',
+    100: '#DBE2F5',
   },
 };
 
-const luckyslotsDark: Theme = {
+const luckyslots: Theme = {
   ...sharedTokens,
   brand: 'LuckySlots',
   fontFace: avertaStd.fontFace,
@@ -56,7 +56,7 @@ const luckyslotsDark: Theme = {
     ...supportColors,
     ...color,
   },
-  colorScheme: 'light',
+  colorScheme: 'dark',
 };
 
-export default luckyslotsDark;
+export default luckyslots;
