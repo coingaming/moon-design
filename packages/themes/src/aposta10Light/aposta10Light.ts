@@ -6,38 +6,38 @@ import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
-    120: '#2F8862',
+    120: '#2E9468',
     100: '#39A275',
-    80: '#58C596',
+    80: '#46AF81',
   },
   hit: {
-    120: '#EDEFF1',
+    120: '#F0F0F0',
     100: '#FFFFFF',
-    80: '#F3F5F6',
+    80: '#F7F7F7',
   },
   goten: {
     100: '#FFFFFF',
   },
   goku: {
-    100: '#010812',
-    80: '#1A212A',
-    40: '#272D36',
-    10: '#2E3540',
+    100: '#F4F5F6',
+    80: '#EBEEEF',
+    40: '#DADFE2',
+    10: '#C8D0D5',
   },
   gohan: {
-    100: '#272D36',
-    80: '#2E3540',
-    40: '#4A525E',
-    10: '#636B79',
+    100: '#FFFFFF',
+    80: '#F7F7F8',
+    40: '#E6E8EB',
+    10: '#D4D9DE',
   },
   beerus: {
-    100: '#4D5259',
+    100: '#DADFE2',
   },
   bulma: {
-    100: '#FFFFFF',
+    100: '#010913',
   },
   trunks: {
-    100: '#C9D0D5',
+    100: '#8697A2',
   },
 };
 
