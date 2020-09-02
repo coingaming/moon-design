@@ -10,6 +10,8 @@ import {
   slotsDark,
   bombayClub,
   hub88,
+  aposta10Dark,
+  aposta10Light,
 } from '@heathmont/moon-themes';
 import { Link } from '@heathmont/moon-components';
 
@@ -53,6 +55,8 @@ export const DownloadThemes = () => {
     slotsDark,
     bombayClub,
     hub88,
+    aposta10Dark,
+    aposta10Light,
   ];
 
   return themes.map(theme => (
