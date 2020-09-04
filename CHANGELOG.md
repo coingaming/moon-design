@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.31.0](https://github.com/coingaming/sportsbet-design/compare/v2.30.0...v2.31.0) (2020-09-02)
+
+### Bug Fixes
+
+- update luckyslots theme ([2f46925](https://github.com/coingaming/sportsbet-design/commit/2f4692566f03269ea3d276503c009c9b9a77a362))
+
+### Features
+
+- add luckyslots theme, update slots.io and aposta10 themes ([c782a4a](https://github.com/coingaming/sportsbet-design/commit/c782a4a27dc2c9740cf0e3be893c446d1889bb6a))
+
+# [2.30.0](https://github.com/coingaming/sportsbet-design/compare/v2.29.2...v2.30.0) (2020-09-02)
+
+### Features
+
+- Aposta10 theme ([7ebc0a0](https://github.com/coingaming/sportsbet-design/commit/7ebc0a0398df37f86045116d5a55051829df5ffb))
+
 ## [2.29.2](https://github.com/coingaming/sportsbet-design/compare/v2.29.1...v2.29.2) (2020-08-28)
 
 ### Bug Fixes
