@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import format from 'date-fns/format';
 
-import { TextInput } from '../..';
+import { Button, TextInput } from '../..';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   height: rem(56),
@@ -37,6 +37,7 @@ type InputsPanelProps = {
   endDate: Date;
   setStartDate: any;
   setEndDate: any;
+  onDateChange: any;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
@@ -44,7 +45,9 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   endDate,
   setStartDate,
   setEndDate,
+  onDateChange,
 }) => {
+  const apply = () => onDateChange({ startDate, endDate });
   return (
     <InputsPanelStyled>
       <Inputs>
@@ -61,6 +64,9 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         />
         {/* <To>UTC</To> */}
       </Inputs>
+      <Button variant="tertiary" onClick={apply}>
+        Apply
+      </Button>
       {/* <ButtonsWrapper>
         {!isRequired && (
           <Button onClick={onReset} Icon={CrossIcon} iconPosition="right">
