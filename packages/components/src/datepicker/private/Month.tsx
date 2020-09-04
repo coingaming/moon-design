@@ -123,7 +123,9 @@ export const Month: React.FC<MonthProps> = ({
           isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
           isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
           isInRange={Boolean(
-            isDate(startDate) &&
+            startDate &&
+              isDate(startDate) &&
+              endDate &&
               isDate(endDate) &&
               isWithinInterval(day, {
                 start: startDate,
