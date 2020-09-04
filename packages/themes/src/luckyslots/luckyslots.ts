@@ -6,49 +6,50 @@ import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
-    120: '#0048FF',
-    100: '#1A5BFF',
-    80: '#3D71F5',
+    120: '#E00038',
+    100: '#FA003E',
+    80: '#F32055',
   },
   hit: {
-    120: '#7C8192',
-    100: '#898D9A',
-    80: '#9598A3',
+    120: '#E6EBF9',
+    100: '#FFFFFF',
+    80: '#F3F5FC',
   },
   goten: {
     100: '#FFFFFF',
   },
   goku: {
-    100: '#232323',
-    80: '#303030',
-    40: '#4A4A4A',
-    10: '#636363',
+    100: '#3133C4',
+    80: '#2528B6',
+    40: '#111397',
+    10: '#020473',
   },
   gohan: {
-    100: '#1D1D1D',
-    80: '#292929',
-    40: '#363636',
-    10: '#4F4F4F',
+    100: '#2A0D68',
+    80: '#351579',
+    40: '#4D2B97',
+    10: '#6745B0',
   },
   beerus: {
-    100: '#333333',
+    100: '#353B50',
   },
   bulma: {
     100: '#FFFFFF',
   },
   trunks: {
-    100: '#9E9E9E',
+    100: '#DBE2F5',
   },
 };
 
-const slotsDark: Theme = {
+const luckyslots: Theme = {
   ...sharedTokens,
-  brand: 'Slots.io',
+  brand: 'LuckySlots',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
     body: 14,
   },
+  fontWeight: avertaStd.fontWeight,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
@@ -58,4 +59,4 @@ const slotsDark: Theme = {
   colorScheme: 'dark',
 };
 
-export default slotsDark;
+export default luckyslots;
