@@ -13,53 +13,97 @@ import endOfDay from 'date-fns/endOfDay';
 import subHours from 'date-fns/subHours';
 import addMinutes from 'date-fns/addMinutes';
 
-type WeekStartType = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
+import { DatesRange } from '../../types/datesRange';
+import { Config } from '../../types/config';
 
-export const getDatesFromRange = (
-  range: string,
-  weekStartsOn: WeekStartType = 1,
-  now = new Date()
-) => {
-  const lastWeek = subWeeks(now, 1);
-  const nextWeek = addWeeks(now, 1);
-  const lastMonth = subMonths(now, 1);
-  const nextMonth = addMonths(now, 1);
-  const today = now;
-  const yesterday = subDays(now, 1);
-  const tommorow = addDays(now, 1);
-  const offset = now.getTimezoneOffset();
+export const getDatesFromRange = ({
+  range,
+  fallbackStartDate,
+  fallbackEndDate,
+  config,
+}: {
+  range?: DatesRange;
+  fallbackStartDate?: Date;
+  fallbackEndDate?: Date;
+  config: Config;
+}): { startDate?: Date; endDate?: Date } => {
+  const now = new Date();
 
-  switch (range) {
-    case 'tommorow':
-      return [startOfDay(tommorow), endOfDay(tommorow)];
-    case 'nextWeek':
-      return [
-        startOfWeek(nextWeek, { weekStartsOn }),
-        endOfWeek(nextWeek, { weekStartsOn }),
-      ];
-    case 'nextMonth':
-      return [startOfMonth(nextMonth), endOfMonth(nextMonth)];
-    case 'last24hours':
-      return [addMinutes(subHours(now, 24), offset), addMinutes(now, offset)];
-    case 'today':
-      return [startOfDay(today), endOfDay(today)];
-    case 'yesterday':
-      return [startOfDay(yesterday), endOfDay(yesterday)];
-    case 'thisWeek':
-      return [
-        startOfWeek(now, { weekStartsOn }),
-        endOfWeek(now, { weekStartsOn }),
-      ];
-    case 'lastWeek':
-      return [
-        startOfWeek(lastWeek, { weekStartsOn }),
-        endOfWeek(lastWeek, { weekStartsOn }),
-      ];
-    case 'thisMonth':
-      return [startOfMonth(now), endOfMonth(now)];
-    case 'lastMonth':
-      return [startOfMonth(lastMonth), endOfMonth(lastMonth)];
-    default:
-      return [startOfDay(today), endOfDay(today)];
+  if (range === 'reset') {
+    return {
+      startDate: undefined,
+      endDate: undefined,
+    };
   }
+  if (range === 'lastMonth') {
+    const lastMonth = subMonths(now, 1);
+    return {
+      startDate: startOfMonth(lastMonth),
+      endDate: endOfMonth(lastMonth),
+    };
+  }
+  if (range === 'lastWeek') {
+    const lastWeek = subWeeks(now, 1);
+    return {
+      startDate: startOfWeek(lastWeek, config),
+      endDate: endOfWeek(lastWeek, config),
+    };
+  }
+  if (range === 'yesterday') {
+    const yesterday = subDays(now, 1);
+    return {
+      startDate: startOfDay(yesterday),
+      endDate: endOfDay(yesterday),
+    };
+  }
+  if (range === 'last24hours') {
+    const offset = now.getTimezoneOffset();
+    return {
+      startDate: addMinutes(subHours(now, 24), offset),
+      endDate: addMinutes(now, offset),
+    };
+  }
+  if (range === 'today') {
+    return {
+      startDate: startOfDay(now),
+      endDate: endOfDay(now),
+    };
+  }
+  if (range === 'tommorow') {
+    const tommorow = addDays(now, 1);
+    return {
+      startDate: startOfDay(tommorow),
+      endDate: endOfDay(tommorow),
+    };
+  }
+  if (range === 'thisWeek') {
+    return {
+      startDate: startOfWeek(now, config),
+      endDate: endOfWeek(now, config),
+    };
+  }
+  if (range === 'nextWeek') {
+    const nextWeek = addWeeks(now, 1);
+    return {
+      startDate: startOfWeek(nextWeek, config),
+      endDate: endOfWeek(nextWeek, config),
+    };
+  }
+  if (range === 'thisMonth') {
+    return {
+      startDate: startOfMonth(now),
+      endDate: endOfMonth(now),
+    };
+  }
+  if (range === 'nextMonth') {
+    const nextMonth = addMonths(now, 1);
+    return {
+      startDate: startOfMonth(nextMonth),
+      endDate: startOfMonth(nextMonth),
+    };
+  }
+  return {
+    startDate: fallbackStartDate,
+    endDate: fallbackEndDate,
+  };
 };

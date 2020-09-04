@@ -8,7 +8,6 @@ import IconArrowRight from '../../private/icons/IconArrowRight';
 
 import { Month } from './Month';
 import { Sidebar } from './Sidebar';
-import { getRanges } from './helpers/getRanges';
 import { InputsPanel } from './InputsPanel';
 
 const MonthsContainer = styled.div({
@@ -81,13 +80,12 @@ export const Picker: React.FC<any> = ({
   prevMonth,
   setStartDate,
   setEndDate,
+  onDateChange,
 }) => {
-  const ranges = getRanges({});
-
   return (
     <PickerContainer>
       <SidebarWrapper>
-        <Sidebar range={range} ranges={ranges} selectRange={selectRange} />
+        <Sidebar range={range} selectRange={selectRange} />
       </SidebarWrapper>
       <div>
         <MonthsContainer>
@@ -127,6 +125,7 @@ export const Picker: React.FC<any> = ({
           endDate={endDate}
           setStartDate={setStartDate}
           setEndDate={setEndDate}
+          onDateChange={onDateChange}
         />
         {/* <InputsPanel
           textInputs={textInputs}

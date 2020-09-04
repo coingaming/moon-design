@@ -2,6 +2,8 @@ import React from 'react';
 import { rem } from 'polished';
 import styled from 'styled-components';
 
+import { getRanges } from './helpers/getRanges';
+
 const SidebarList = styled.ul({
   padding: 0,
 });
@@ -33,15 +35,15 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
 
 type SidebarProps = {
   range: any;
-  ranges: any[];
   selectRange: any;
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({
   range: currentRange,
-  ranges,
   selectRange,
 }) => {
+  const ranges = getRanges({});
+
   return (
     <SidebarList>
       {ranges.map(range => (
