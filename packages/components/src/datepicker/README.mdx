@@ -16,5 +16,24 @@ weekStartsOn
 the index of the first day of the week (0 - Sunday)
 
 ```jsx react-live
-<Datepicker weekStartsOn={1} />
+<DateRangePicker
+  onDateChange={({ startDate, endDate }) => {
+    console.log(startDate, endDate);
+  }}
+  config={{
+    weekStartsOn: 1,
+  }}
+/>
+```
+
+```jsx react-live
+<DateRangePicker
+  onDateChange={({ startDate, endDate }) => {
+    console.log(startDate, endDate);
+  }}
+  range={'thisWeek'}
+  config={{
+    weekStartsOn: 1,
+  }}
+/>
 ```

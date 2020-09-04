@@ -12,38 +12,29 @@ import { getMonthDays } from './private/helpers/getMonthDays';
 import { Picker } from './private/Picker';
 import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
 import { getDatesFromRange } from './private/helpers/getDatesFromRange';
-
-type Range =
-  | 'reset'
-  | 'tommorow'
-  | 'nextWeek'
-  | 'nextMonth'
-  | 'last24hours'
-  | 'today'
-  | 'yesterday'
-  | 'thisWeek'
-  | 'lastWeek'
-  | 'thisMonth'
-  | 'lastMonth';
+import { DatesRange } from './types/datesRange';
+import { DateRangePickerProps } from './types/props';
 
 type DatepickerState = {
   startDate?: Date;
   endDate?: Date;
-  range: Range;
+  range?: DatesRange;
   hoveredDate?: Date;
   cursorDate: Date; // just to navigate between months
 };
 
-interface DatepickerProps {
-  weekStartsOn: any;
-}
-
-const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
+const Datepicker: React.FC<DateRangePickerProps> = ({
+  startDate: initialStartDate,
+  endDate: initialEndDate,
+  onDateChange,
+  config,
+  range,
+}) => {
   const currentDate = new Date();
 
   const [dates, setDates] = React.useState<DatepickerState>({
-    startDate: undefined,
-    endDate: undefined,
+    startDate: initialStartDate,
+    endDate: initialEndDate,
     range: 'reset',
     hoveredDate: undefined,
     cursorDate: currentDate,
@@ -112,14 +103,19 @@ const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
     }
   };
 
-  const selectRange = (range: Range) => {
-    const [newStartDate, newEndDate] = getDatesFromRange(range);
+  const selectRange = (newRange: DatesRange) => {
+    const { startDate, endDate } = getDatesFromRange({
+      range: newRange,
+      fallbackStartDate: dates.startDate,
+      fallbackEndDate: dates.endDate,
+      config,
+    });
     setDates({
       ...dates,
-      startDate: newStartDate,
-      endDate: newEndDate,
+      startDate,
+      endDate,
       hoveredDate: undefined,
-      range,
+      range: newRange,
     });
   };
 
@@ -137,12 +133,15 @@ const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
     });
   };
 
-  const firstMonth = getMonthDays({ date: dates.cursorDate, weekStartsOn });
+  const firstMonth = getMonthDays({
+    date: dates.cursorDate,
+    weekStartsOn: config.weekStartsOn,
+  });
 
   const nextMonthCurrentDate = addMonths(dates.cursorDate, 1);
   const secondMonth = getMonthDays({
     date: nextMonthCurrentDate,
-    weekStartsOn,
+    weekStartsOn: config.weekStartsOn,
   });
 
   const firstMonthLabel = format(dates.cursorDate, 'MMMM');
@@ -150,7 +149,7 @@ const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
   const secondMonthLabel = format(nextMonthCurrentDate, 'MMMM');
   const secondMonthYearLabel = format(nextMonthCurrentDate, 'yyyy');
 
-  const weekDayLabels = getWeekDayLabels({ weekStartsOn });
+  const weekDayLabels = getWeekDayLabels(config);
 
   return (
     <Picker
@@ -172,6 +171,8 @@ const Datepicker: React.FC<DatepickerProps> = ({ weekStartsOn }) => {
       prevMonth={prevMonth}
       setStartDate={setStartDate}
       setEndDate={setEndDate}
+      onDateChange={onDateChange}
+      range={range}
     />
   );
 };
