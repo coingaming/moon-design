@@ -25,7 +25,7 @@ export const getDatesFromRange = ({
   range?: DatesRange;
   fallbackStartDate?: Date;
   fallbackEndDate?: Date;
-  config: Config;
+  config?: Config;
 }): { startDate?: Date; endDate?: Date } => {
   const now = new Date();
 
