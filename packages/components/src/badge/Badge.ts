@@ -10,9 +10,9 @@ export type BadgeProps = {
 
 const Badge = styled.span<BadgeProps>(
   ({ theme: { fontWeight, radius } }) => ({
+    display: 'inline-flex',
     fontWeight: fontWeight.semibold,
     textTransform: 'uppercase',
-    textAlign: 'center',
     borderRadius: rem(radius.largest),
     letterSpacing: rem(1),
   }),
