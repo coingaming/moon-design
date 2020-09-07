@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import format from 'date-fns/format';
+import isValid from 'date-fns/isValid';
+import compareAsc from 'date-fns/compareAsc';
 
 import { Button, TextInput } from '../..';
 
@@ -43,45 +45,96 @@ type InputsPanelProps = {
 export const InputsPanel: React.FC<InputsPanelProps> = ({
   startDate,
   endDate,
+  onDateChange,
   setStartDate,
   setEndDate,
-  onDateChange,
 }) => {
+  const [inputStartDate, setInputStartDate] = React.useState(
+    startDate ? format(startDate, "yyyy-MM-dd'T'HH:mm") : undefined
+  );
+  const [inputEndDate, setInputEndDate] = React.useState(
+    endDate ? format(endDate, "yyyy-MM-dd'T'HH:mm") : undefined
+  );
+  const [hasStartDateError, setStartDateError] = React.useState('');
+  const [hasEndDateError, setEndDateError] = React.useState(false);
+  React.useEffect(() => {
+    setInputStartDate(startDate ? format(startDate, "yyyy-MM-dd'T'HH:mm") : '');
+    setInputEndDate(endDate ? format(endDate, "yyyy-MM-dd'T'HH:mm") : '');
+    const isStartDayBefore = compareAsc(startDate, endDate) === -1;
+    if (isStartDayBefore) {
+      setStartDateError('');
+      setEndDateError(false);
+    }
+    if (startDate && !endDate) {
+      setInputEndDate('');
+      setStartDateError('');
+      setEndDateError(true);
+    }
+  });
+
   const apply = () => onDateChange({ startDate, endDate });
   return (
     <InputsPanelStyled>
       <Inputs>
         <TextInput
+          error={hasStartDateError}
           type="datetime-local"
-          value={startDate && format(startDate, "yyyy-MM-dd'T'HH:mm:ss")}
-          onChange={e => setStartDate(new Date(e.target.value))}
+          value={inputStartDate}
+          onChange={e => {
+            e.preventDefault();
+            setInputStartDate(e.target.value);
+            const newStartDate = new Date(e.target.value);
+            const isValidDate = isValid(newStartDate);
+            if (!isValidDate) {
+              setStartDateError('Not valid date');
+              return;
+            }
+            if (isValidDate && endDate) {
+              const isStartDayBefore = compareAsc(newStartDate, endDate) === -1;
+              if (isStartDayBefore) {
+                setStartDate(newStartDate);
+                setStartDateError('');
+                setEndDateError(false);
+              } else {
+                setStartDateError('Should before');
+              }
+            }
+          }}
         />
         <To>to</To>
         <TextInput
+          error={hasEndDateError}
           type="datetime-local"
-          value={endDate && format(endDate, "yyyy-MM-dd'T'HH:mm:ss")}
-          onChange={e => setEndDate(new Date(e.target.value))}
+          value={inputEndDate}
+          onChange={e => {
+            e.preventDefault();
+            setInputEndDate(e.target.value);
+            const newEndDate = new Date(e.target.value);
+            const isValidDate = isValid(newEndDate);
+            if (!isValidDate) {
+              setEndDateError(true);
+              return;
+            }
+            if (isValidDate && startDate) {
+              const isStartDayBefore = compareAsc(startDate, newEndDate) === -1;
+              if (isStartDayBefore) {
+                setEndDate(newEndDate);
+                setStartDateError('');
+                setEndDateError(false);
+              } else {
+                setEndDateError(true);
+              }
+            }
+          }}
         />
-        {/* <To>UTC</To> */}
       </Inputs>
-      <Button variant="tertiary" onClick={apply}>
+      <Button
+        variant="tertiary"
+        onClick={apply}
+        disabled={!!hasStartDateError || !!hasEndDateError}
+      >
         Apply
       </Button>
-      {/* <ButtonsWrapper>
-        {!isRequired && (
-          <Button onClick={onReset} Icon={CrossIcon} iconPosition="right">
-            {'Reset'}
-          </Button>
-        )}
-        <Button
-          disabled={!isValidInputs}
-          onClick={onApply}
-          Icon={CheckmarkIcon}
-          iconPosition="right"
-        >
-          {'Apply'}
-        </Button>
-      </ButtonsWrapper> */}
     </InputsPanelStyled>
   );
 };
