@@ -81,11 +81,18 @@ export const Picker: React.FC<any> = ({
   setStartDate,
   setEndDate,
   onDateChange,
+  translations,
+  config,
 }) => {
   return (
     <PickerContainer>
       <SidebarWrapper>
-        <Sidebar range={range} selectRange={selectRange} />
+        <Sidebar
+          range={range}
+          selectRange={selectRange}
+          translations={translations}
+          config={config}
+        />
       </SidebarWrapper>
       <div>
         <MonthsContainer>

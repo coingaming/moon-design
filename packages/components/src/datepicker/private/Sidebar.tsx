@@ -36,23 +36,27 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
 type SidebarProps = {
   range: any;
   selectRange: any;
+  translations: any;
+  config: any;
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({
   range: currentRange,
   selectRange,
+  translations,
+  config,
 }) => {
-  const ranges = getRanges({});
+  const ranges = getRanges(config);
 
   return (
     <SidebarList>
       {ranges.map(range => (
         <RangeItem
-          key={range.label}
-          isSelected={range.id === currentRange}
-          onClick={() => selectRange(range.id)}
+          key={range}
+          isSelected={range === currentRange}
+          onClick={() => selectRange(range)}
         >
-          {range.label}
+          {translations[range]}
         </RangeItem>
       ))}
     </SidebarList>

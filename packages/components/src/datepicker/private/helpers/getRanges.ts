@@ -1,42 +1,7 @@
-const future = [
-  {
-    id: 'tommorow',
-    label: 'Tomorrow',
-  },
-  {
-    id: 'nextWeek',
-    label: 'Next week',
-  },
-  {
-    id: 'nextMonth',
-    label: 'Next month',
-  },
-];
+const future = ['tommorow', 'nextWeek', 'nextMonth'];
+const past = ['lastMonth', 'lastWeek', 'yesterday', 'thisWeek', 'thisMonth'];
 
-const past = [
-  {
-    id: 'yesterday',
-    label: 'Yesterday',
-  },
-  {
-    id: 'thisWeek',
-    label: 'This week',
-  },
-  {
-    id: 'lastWeek',
-    label: 'Last week',
-  },
-  {
-    id: 'thisMonth',
-    label: 'This month',
-  },
-  {
-    id: 'lastMonth',
-    label: 'Last month',
-  },
-];
-
-interface Args {
+interface GetRangesArgs {
   onlyFuture?: boolean;
   without24AndToday?: boolean;
 }
@@ -44,25 +9,12 @@ interface Args {
 export const getRanges = ({
   onlyFuture = false,
   without24AndToday = false,
-}: Args) => {
-  let range = [];
+}: GetRangesArgs) => {
   if (onlyFuture) {
-    range = future;
-  } else {
-    range = past;
-    if (!without24AndToday) {
-      range = [
-        {
-          id: 'last24hours',
-          label: 'Last 24 hours',
-        },
-        {
-          id: 'today',
-          label: 'Today',
-        },
-        ...range,
-      ];
-    }
+    return future;
   }
-  return range;
+  if (!without24AndToday) {
+    return [...past, 'last24hours', 'today'];
+  }
+  return past;
 };

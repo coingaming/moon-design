@@ -12,4 +12,4 @@ export const getWeekDayLabels = ({ weekStartsOn = 1 }: WeekStartType) =>
   eachDayOfInterval({
     start: startOfWeek(new Date(), { weekStartsOn }),
     end: endOfWeek(new Date(), { weekStartsOn }),
-  }).map(d => format(d, 'EEEEEE'));
+  }).map(day => format(day, 'EEEEEE'));

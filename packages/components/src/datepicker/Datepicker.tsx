@@ -29,6 +29,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   onDateChange,
   config,
   range,
+  translations,
 }) => {
   const [dates, setDates] = React.useState<DatepickerState>({
     startDate: initialStartDate,
@@ -43,6 +44,13 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       fallbackEndDate: initialEndDate,
     }),
   });
+  // React.useMemo(
+  //     onDateChange({
+  //       startDate: dates.startDate,
+  //       endDate: dates.endDate,
+  //       range: dates.range,
+  //     });
+  // );
 
   const selectDay = (selectedDate: Date) => {
     if (
@@ -179,6 +187,8 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       setEndDate={setEndDate}
       onDateChange={onDateChange}
       range={dates.range}
+      translations={translations}
+      config={config}
     />
   );
 };
