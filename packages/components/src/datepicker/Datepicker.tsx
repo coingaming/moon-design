@@ -6,7 +6,7 @@ import format from 'date-fns/format';
 import isAfter from 'date-fns/isAfter';
 import isSameDay from 'date-fns/isSameDay';
 import startOfDay from 'date-fns/startOfDay';
-import isDate from 'date-fns/isDate';
+import isValid from 'date-fns/isValid';
 
 import { getMonthDays } from './private/helpers/getMonthDays';
 import { Picker } from './private/Picker';
@@ -30,14 +30,18 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   config,
   range,
 }) => {
-  const currentDate = new Date();
-
   const [dates, setDates] = React.useState<DatepickerState>({
     startDate: initialStartDate,
     endDate: initialEndDate,
-    range: 'reset',
+    range,
     hoveredDate: undefined,
-    cursorDate: currentDate,
+    cursorDate: new Date(),
+    ...getDatesFromRange({
+      range,
+      config,
+      fallbackStartDate: initialStartDate,
+      fallbackEndDate: initialEndDate,
+    }),
   });
 
   const selectDay = (selectedDate: Date) => {
@@ -53,6 +57,14 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
         hoveredDate: undefined,
         endDate: newEndDate,
       });
+    } else if (dates.startDate && dates.endDate) {
+      const newStartDate = startOfDay(selectedDate);
+      setDates({
+        ...dates,
+        hoveredDate: undefined,
+        startDate: newStartDate,
+        endDate: undefined,
+      });
     } else {
       const newStartDate = startOfDay(selectedDate);
       setDates({
@@ -64,26 +76,20 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   };
 
   const setStartDate = (startDate: Date) => {
-    if (isDate(startDate) && startDate) {
+    if (isValid(startDate) && startDate) {
       setDates({
         ...dates,
         startDate,
       });
-    } else {
-      // eslint-disable-next-line no-debugger
-      debugger;
     }
   };
 
   const setEndDate = (endDate: Date) => {
-    if (isDate(endDate) && endDate) {
+    if (isValid(endDate) && endDate) {
       setDates({
         ...dates,
         endDate,
       });
-    } else {
-      // eslint-disable-next-line no-debugger
-      debugger;
     }
   };
 
@@ -172,7 +178,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       setStartDate={setStartDate}
       setEndDate={setEndDate}
       onDateChange={onDateChange}
-      range={range}
+      range={dates.range}
     />
   );
 };

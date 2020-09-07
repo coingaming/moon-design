@@ -26,13 +26,13 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
   type?: TextInputTypes;
   placeholder?: string;
-  error?: boolean;
+  error?: boolean | string;
   rounded?: boolean;
 };
 
-const TextInputElem = styled(Input as any)(({ theme: { color } }) => ({
+const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
   '&:focus': {
-    borderColor: color.piccolo[100],
+    borderColor: !error ? color.piccolo[100] : color.chiChi[100],
     outline: 'none',
   },
 }));
