@@ -1,7 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { getDatesFromRange } from './private/helpers/getDatesFromRange';
 import { DateRangePickerProps } from './types/props';
 import Datepicker from './Datepicker';
 
@@ -12,8 +11,8 @@ const DatepickerWrapper = styled.div({
 });
 
 const DateRangePicker: React.FC<DateRangePickerProps> = ({
-  startDate: initialStartDate,
-  endDate: initialEndDate,
+  startDate,
+  endDate,
   range,
   onDateChange,
   config,
@@ -21,13 +20,6 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
 }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const toggleDialog = () => setIsOpen(!isOpen);
-
-  const { startDate, endDate } = getDatesFromRange({
-    range,
-    config,
-    fallbackStartDate: initialStartDate,
-    fallbackEndDate: initialEndDate,
-  });
 
   return (
     <>

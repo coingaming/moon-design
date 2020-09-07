@@ -92,6 +92,7 @@ export const Picker: React.FC<any> = ({
           <LeftArrow onClick={prevMonth} />
           <FirstMonth>
             <Month
+              key="first"
               monthDays={firstMonth}
               monthLabel={firstMonthLabel}
               year={firstMonthYearLabel}
@@ -106,6 +107,7 @@ export const Picker: React.FC<any> = ({
           </FirstMonth>
           <SecondMonth>
             <Month
+              key="second"
               monthDays={secondMonth}
               monthLabel={secondMonthLabel}
               year={secondMonthYearLabel}
