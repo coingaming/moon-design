@@ -7,6 +7,7 @@ import compareAsc from 'date-fns/compareAsc';
 
 import { Button, TextInput } from '../..';
 import { Translations } from '../types/translations';
+import { Config } from '../types/config';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   height: rem(56),
@@ -43,6 +44,7 @@ type InputsPanelProps = {
   onDateChange: any;
   translations: Translations;
   apply: any;
+  config: Config;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
@@ -52,18 +54,22 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   setEndDate,
   translations,
   apply,
+  config,
 }) => {
+  const dateFormat = config.withHoursAndMinutes
+    ? "yyyy-MM-dd'T'HH:mm"
+    : 'yyyy-MM-dd';
   const [inputStartDate, setInputStartDate] = React.useState(
-    startDate ? format(startDate, "yyyy-MM-dd'T'HH:mm") : undefined
+    startDate ? format(startDate, dateFormat) : undefined
   );
   const [inputEndDate, setInputEndDate] = React.useState(
-    endDate ? format(endDate, "yyyy-MM-dd'T'HH:mm") : undefined
+    endDate ? format(endDate, dateFormat) : undefined
   );
   const [hasStartDateError, setStartDateError] = React.useState('');
   const [hasEndDateError, setEndDateError] = React.useState(false);
   React.useEffect(() => {
-    setInputStartDate(startDate ? format(startDate, "yyyy-MM-dd'T'HH:mm") : '');
-    setInputEndDate(endDate ? format(endDate, "yyyy-MM-dd'T'HH:mm") : '');
+    setInputStartDate(startDate ? format(startDate, dateFormat) : '');
+    setInputEndDate(endDate ? format(endDate, dateFormat) : '');
     const isStartDayBefore = compareAsc(startDate, endDate) === -1;
     if (isStartDayBefore) {
       setStartDateError('');
@@ -81,7 +87,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
       <Inputs>
         <TextInput
           error={hasStartDateError}
-          type="datetime-local"
+          type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
           value={inputStartDate}
           onChange={e => {
             e.preventDefault();
@@ -107,7 +113,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         <To>{translations.to}</To>
         <TextInput
           error={hasEndDateError}
-          type="datetime-local"
+          type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
           value={inputEndDate}
           onChange={e => {
             e.preventDefault();

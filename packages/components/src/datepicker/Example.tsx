@@ -21,6 +21,7 @@ const Example = () => {
         }}
         config={{
           weekStartsOn: 1,
+          withHoursAndMinutes: true,
         }}
       />
     </>

@@ -1,8 +1,8 @@
 import isValid from 'date-fns/isValid';
 import format from 'date-fns/format';
 
-const DateFormatWithTime = 'dd / MM / yyyy HH:mm';
-const DateFormat = 'dd / MM / yyyy';
+const DateFormatWithTime = 'dd/MM/yyyy HH:mm';
+const DateFormat = 'dd/MM/yyyy';
 
 export const getPlaceholder = ({
   startDate,
@@ -18,7 +18,9 @@ export const getPlaceholder = ({
     return translations[range];
   }
   if (isValid(startDate) && isValid(endDate)) {
-    const dateFormat = config.withTime ? DateFormatWithTime : DateFormat;
+    const dateFormat = config.withHoursAndMinutes
+      ? DateFormatWithTime
+      : DateFormat;
     return `${format(startDate, dateFormat)} - ${format(endDate, dateFormat)}`;
   }
   return translations.placeholder;

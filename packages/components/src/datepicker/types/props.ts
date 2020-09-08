@@ -3,6 +3,7 @@ import { Config } from './config';
 import { Translations } from './translations';
 
 export interface DateRangePickerProps {
+  format?: string;
   startDate?: Date;
   endDate?: Date;
   range?: DatesRange;
