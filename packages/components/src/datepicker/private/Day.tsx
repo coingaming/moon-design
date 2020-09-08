@@ -11,7 +11,6 @@ type DayStyledProps = {
   isToday?: boolean;
 };
 
-// TODO: check styles when selecting last month
 const DayStyled = styled.div<DayStyledProps>(
   ({ theme, isInRange, isInRangePreview, isStartEdge, isEndEdge, isToday }) => [
     {

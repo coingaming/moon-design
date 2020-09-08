@@ -131,6 +131,7 @@ export const Picker: React.FC<any> = ({
           onDateChange={onDateChange}
           translations={translations}
           apply={apply}
+          config={config}
         />
       </div>
     </PickerContainer>
