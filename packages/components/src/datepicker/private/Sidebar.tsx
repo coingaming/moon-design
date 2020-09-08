@@ -13,10 +13,9 @@ type RangeItemProps = {
 };
 
 const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
-  height: rem(36),
   width: '100%',
   listStyle: 'none',
-  padding: 0,
+  padding: `${rem(12)} 0`,
   display: 'flex',
   alignItems: 'center',
   paddingLeft: rem(16),

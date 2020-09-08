@@ -10,6 +10,7 @@ import { Translations } from '../types/translations';
 import { Config } from '../types/config';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
+  gridArea: 'inputs',
   height: rem(56),
   background: theme.color.goku[100],
   display: 'flex',
