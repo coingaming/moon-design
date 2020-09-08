@@ -6,6 +6,7 @@ import isValid from 'date-fns/isValid';
 import compareAsc from 'date-fns/compareAsc';
 
 import { Button, TextInput } from '../..';
+import { Translations } from '../types/translations';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   height: rem(56),
@@ -40,6 +41,7 @@ type InputsPanelProps = {
   setStartDate: any;
   setEndDate: any;
   onDateChange: any;
+  translations: Translations;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
@@ -48,6 +50,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   onDateChange,
   setStartDate,
   setEndDate,
+  translations,
 }) => {
   const [inputStartDate, setInputStartDate] = React.useState(
     startDate ? format(startDate, "yyyy-MM-dd'T'HH:mm") : undefined
@@ -101,7 +104,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
             }
           }}
         />
-        <To>to</To>
+        <To>{translations.to}</To>
         <TextInput
           error={hasEndDateError}
           type="datetime-local"
@@ -133,7 +136,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         onClick={apply}
         disabled={!!hasStartDateError || !!hasEndDateError}
       >
-        Apply
+        {translations.apply}
       </Button>
     </InputsPanelStyled>
   );

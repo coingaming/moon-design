@@ -57,14 +57,7 @@ export const Picker: React.FC<any> = ({
   weekDayLabels,
   onDayClick,
   onDayMouseEnter,
-  // onApply,
-  // textInputs,
-  // setUserInput,
   range,
-  // isRequired,
-  // onResetClick,
-  // isValidInputs,
-  // NEW arguments
   firstMonthLabel,
   firstMonthYearLabel,
   secondMonthLabel,
@@ -135,15 +128,8 @@ export const Picker: React.FC<any> = ({
           setStartDate={setStartDate}
           setEndDate={setEndDate}
           onDateChange={onDateChange}
+          translations={translations}
         />
-        {/* <InputsPanel
-          textInputs={textInputs}
-          setUserInput={setUserInput}
-          onReset={onResetClick}
-          isRequired={isRequired}
-          onApply={onApply}
-          isValidInputs={isValidInputs}
-        /> */}
       </div>
     </PickerContainer>
   );
