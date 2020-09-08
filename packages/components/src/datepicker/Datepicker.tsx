@@ -14,6 +14,7 @@ import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
 import { getDatesFromRange } from './private/helpers/getDatesFromRange';
 import { DatesRange } from './types/datesRange';
 import { DateRangePickerProps } from './types/props';
+import { getPlaceholder } from './private/helpers/getPlaceholder';
 
 type DatepickerState = {
   startDate?: Date;
@@ -30,6 +31,9 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   config,
   range,
   translations,
+  hasClickedOutside,
+  setIsOpen,
+  setPlaceholder,
 }) => {
   const [dates, setDates] = React.useState<DatepickerState>({
     startDate: initialStartDate,
@@ -44,13 +48,26 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       fallbackEndDate: initialEndDate,
     }),
   });
-  // React.useMemo(
-  //     onDateChange({
-  //       startDate: dates.startDate,
-  //       endDate: dates.endDate,
-  //       range: dates.range,
-  //     });
-  // );
+
+  React.useEffect(() => {
+    if (hasClickedOutside) {
+      onDateChange({
+        startDate: dates.startDate,
+        endDate: dates.endDate,
+        range: dates.range,
+      });
+      setPlaceholder(
+        getPlaceholder({
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          range: dates.range,
+          config,
+          translations,
+        })
+      );
+      setIsOpen(false);
+    }
+  });
 
   const selectDay = (selectedDate: Date) => {
     if (
@@ -64,6 +81,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
         ...dates,
         hoveredDate: undefined,
         endDate: newEndDate,
+        range: '',
       });
     } else if (dates.startDate && dates.endDate) {
       const newStartDate = startOfDay(selectedDate);
@@ -72,6 +90,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
         hoveredDate: undefined,
         startDate: newStartDate,
         endDate: undefined,
+        range: '',
       });
     } else {
       const newStartDate = startOfDay(selectedDate);
@@ -79,6 +98,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
         ...dates,
         hoveredDate: undefined,
         startDate: newStartDate,
+        range: '',
       });
     }
   };
@@ -88,6 +108,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       setDates({
         ...dates,
         startDate,
+        range: '',
       });
     }
   };
@@ -97,6 +118,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       setDates({
         ...dates,
         endDate,
+        range: '',
       });
     }
   };
@@ -130,6 +152,8 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       endDate,
       hoveredDate: undefined,
       range: newRange,
+      cursorDate:
+        newRange === 'lastMonth' ? subMonths(new Date(), 1) : dates.cursorDate,
     });
   };
 
@@ -149,13 +173,13 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
 
   const firstMonth = getMonthDays({
     date: dates.cursorDate,
-    weekStartsOn: config.weekStartsOn,
+    weekStartsOn: config && config.weekStartsOn,
   });
 
   const nextMonthCurrentDate = addMonths(dates.cursorDate, 1);
   const secondMonth = getMonthDays({
     date: nextMonthCurrentDate,
-    weekStartsOn: config.weekStartsOn,
+    weekStartsOn: config && config.weekStartsOn,
   });
 
   const firstMonthLabel = format(dates.cursorDate, 'MMMM');
@@ -163,7 +187,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   const secondMonthLabel = format(nextMonthCurrentDate, 'MMMM');
   const secondMonthYearLabel = format(nextMonthCurrentDate, 'yyyy');
 
-  const weekDayLabels = getWeekDayLabels(config);
+  const weekDayLabels = config && getWeekDayLabels(config);
 
   return (
     <Picker
