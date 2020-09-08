@@ -4,10 +4,10 @@ import DateRangePicker from './DateRangePicker';
 
 const Example = () => {
   const [initialStartDate, setStartDate] = React.useState(
-    new Date('December 17, 2020 03:24:00')
+    new Date('September 17, 2020 03:24:00')
   );
   const [initialEndDate, setEndDate] = React.useState(
-    new Date('December 27, 2020 03:24:00')
+    new Date('September 27, 2020 03:24:00')
   );
 
   return (
