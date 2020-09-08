@@ -1,4 +1,5 @@
 export type DatesRange =
+  | ''
   | 'reset'
   | 'lastMonth'
   | 'lastWeek'

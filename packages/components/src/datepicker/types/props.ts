@@ -1,10 +1,14 @@
 import { DatesRange } from './datesRange';
 import { Config } from './config';
+import { Translations } from './translations';
 
 export interface DateRangePickerProps {
   startDate?: Date;
   endDate?: Date;
   range?: DatesRange;
+  hasClickedOutside?: boolean;
+  setIsOpen?: any;
+  setPlaceholder?: any;
   onDateChange: ({
     startDate,
     endDate,
@@ -14,20 +18,6 @@ export interface DateRangePickerProps {
     endDate?: Date;
     range?: DatesRange;
   }) => any;
-  config: Config;
-  translations: {
-    placeholder: any;
-    apply: any;
-    reset: any;
-    lastMonth: any;
-    lastWeek: any;
-    last24hours: any;
-    yesterday: any;
-    today: any;
-    tommorow: any;
-    thisWeek: any;
-    nextWeek: any;
-    thisMonth: any;
-    nextMonth: any;
-  };
+  config?: Config;
+  translations?: Translations;
 }
