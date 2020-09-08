@@ -40,7 +40,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
     endDate: initialEndDate,
     range,
     hoveredDate: undefined,
-    cursorDate: new Date(),
+    cursorDate: initialStartDate ? new Date(initialStartDate) : new Date(),
     ...getDatesFromRange({
       range,
       config,
@@ -68,6 +68,24 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       setIsOpen(false);
     }
   });
+
+  const apply = () => {
+    onDateChange({
+      startDate: dates.startDate,
+      endDate: dates.endDate,
+      range: dates.range,
+    });
+    setPlaceholder(
+      getPlaceholder({
+        startDate: dates.startDate,
+        endDate: dates.endDate,
+        range: dates.range,
+        config,
+        translations,
+      })
+    );
+    setIsOpen(false);
+  };
 
   const selectDay = (selectedDate: Date) => {
     if (
@@ -152,8 +170,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       endDate,
       hoveredDate: undefined,
       range: newRange,
-      cursorDate:
-        newRange === 'lastMonth' ? subMonths(new Date(), 1) : dates.cursorDate,
+      cursorDate: startDate || dates.cursorDate,
     });
   };
 
@@ -213,6 +230,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       range={dates.range}
       translations={translations}
       config={config}
+      apply={apply}
     />
   );
 };
