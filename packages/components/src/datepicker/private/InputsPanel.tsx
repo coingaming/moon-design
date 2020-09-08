@@ -42,15 +42,16 @@ type InputsPanelProps = {
   setEndDate: any;
   onDateChange: any;
   translations: Translations;
+  apply: any;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
   startDate,
   endDate,
-  onDateChange,
   setStartDate,
   setEndDate,
   translations,
+  apply,
 }) => {
   const [inputStartDate, setInputStartDate] = React.useState(
     startDate ? format(startDate, "yyyy-MM-dd'T'HH:mm") : undefined
@@ -75,7 +76,6 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
     }
   });
 
-  const apply = () => onDateChange({ startDate, endDate });
   return (
     <InputsPanelStyled>
       <Inputs>
