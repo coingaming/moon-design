@@ -199,10 +199,22 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
     weekStartsOn: config && config.weekStartsOn,
   });
 
-  const firstMonthLabel = format(dates.cursorDate, 'MMMM');
-  const firstMonthYearLabel = format(dates.cursorDate, 'yyyy');
-  const secondMonthLabel = format(nextMonthCurrentDate, 'MMMM');
-  const secondMonthYearLabel = format(nextMonthCurrentDate, 'yyyy');
+  const firstMonthLabel = format(
+    dates.cursorDate,
+    (config && config.monthLabelFormat) || 'MMMM'
+  );
+  const firstMonthYearLabel = format(
+    dates.cursorDate,
+    (config && config.yearLabelFormat) || 'yyyy'
+  );
+  const secondMonthLabel = format(
+    nextMonthCurrentDate,
+    (config && config.monthLabelFormat) || 'MMMM'
+  );
+  const secondMonthYearLabel = format(
+    nextMonthCurrentDate,
+    (config && config.yearLabelFormat) || 'yyyy'
+  );
 
   const weekDayLabels = config && getWeekDayLabels(config);
 

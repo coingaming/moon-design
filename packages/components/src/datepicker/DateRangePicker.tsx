@@ -67,6 +67,9 @@ DateRangePicker.defaultProps = {
     nextMonth: 'Next month',
   },
   config: {
+    format: "yyyy-MM-dd'T'HH:mm",
+    monthLabelFormat: 'MMMM',
+    yearLabelFormat: 'yyyy',
     weekStartsOn: 1,
     withHoursAndMinutes: true,
     onlyFuture: false,
