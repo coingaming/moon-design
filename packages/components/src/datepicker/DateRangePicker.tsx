@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { useClickOutside } from 'react-click-outside-hook';
 
 import { DateRangePickerProps } from './types/props';
 import Datepicker from './Datepicker';
@@ -20,8 +19,8 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   config,
   translations,
 }) => {
-  const [ref, hasClickedOutside] = useClickOutside();
-  const [isOpen, setIsOpen] = React.useState(hasClickedOutside);
+  // const [ref, hasClickedOutside] = useClickOutside();
+  const [isOpen, setIsOpen] = React.useState(false);
   const [placeholder, setPlaceholder] = React.useState(
     getPlaceholder({ startDate, endDate, range, config, translations })
   );
@@ -31,7 +30,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
         {placeholder}
       </Button>
       {isOpen && (
-        <DatepickerWrapper ref={ref}>
+        <DatepickerWrapper>
           <Datepicker
             startDate={startDate}
             endDate={endDate}
@@ -39,7 +38,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
             config={config}
             onDateChange={onDateChange}
             translations={translations}
-            hasClickedOutside={hasClickedOutside}
+            // hasClickedOutside={hasClickedOutside}
             setIsOpen={setIsOpen}
             setPlaceholder={setPlaceholder}
           />
@@ -50,7 +49,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
 };
 
 DateRangePicker.defaultProps = {
-  range: 'reset',
+  range: '',
   translations: {
     to: 'To',
     placeholder: 'Select Dates',

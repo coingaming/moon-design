@@ -23,8 +23,6 @@ const Example = () => {
           weekStartsOn: 1,
         }}
       />
-      {initialStartDate.toDateString()}
-      {initialEndDate.toDateString()}
     </>
   );
 };

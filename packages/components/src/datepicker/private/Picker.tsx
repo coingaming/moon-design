@@ -76,6 +76,7 @@ export const Picker: React.FC<any> = ({
   onDateChange,
   translations,
   config,
+  apply,
 }) => {
   return (
     <PickerContainer>
@@ -129,6 +130,7 @@ export const Picker: React.FC<any> = ({
           setEndDate={setEndDate}
           onDateChange={onDateChange}
           translations={translations}
+          apply={apply}
         />
       </div>
     </PickerContainer>
