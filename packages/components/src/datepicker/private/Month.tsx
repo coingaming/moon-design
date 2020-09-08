@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem } from 'polished';
 import isSameDay from 'date-fns/isSameDay';
-import isMonday from 'date-fns/isMonday';
-import isFirstDayOfMonth from 'date-fns/isFirstDayOfMonth';
 import isWithinInterval from 'date-fns/isWithinInterval';
 import compareAsc from 'date-fns/compareAsc';
 import getMonth from 'date-fns/getMonth';
@@ -12,9 +10,8 @@ import isDate from 'date-fns/isDate';
 import { Day } from './Day';
 
 const WeekDayName = styled.div(({ theme }) => ({
-  width: rem(40),
   height: rem(28),
-  paddingLeft: rem(12),
+  width: rem(28),
   color: theme.color.bulma[100],
   fontWeight: 'bold',
   textTransform: 'uppercase',
@@ -23,17 +20,7 @@ const WeekDayName = styled.div(({ theme }) => ({
   userSelect: 'none',
 }));
 
-const WeekDayContainer = styled.div({
-  display: 'flex',
-  width: '100%',
-  paddingBottom: rem(16),
-});
-
-const MonthStyled = styled.div({
-  width: rem(281),
-  display: 'flex',
-  flexWrap: 'wrap',
-});
+const MonthStyled = styled.div({});
 
 const MonthLabelCls = styled.div(({ theme }) => ({
   fontWeight: 500,
@@ -88,6 +75,11 @@ const isInRangePreview = ({
   });
 };
 
+const Wrapper = styled.div({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(7, 1fr)',
+});
+
 export const Month: React.FC<MonthProps> = ({
   monthLabel,
   year,
@@ -103,38 +95,36 @@ export const Month: React.FC<MonthProps> = ({
   return (
     <MonthStyled>
       <MonthLabelCls>
-        {monthLabel} &nbsp; &nbsp; {year}
+        {monthLabel}&nbsp;&nbsp;{year}
       </MonthLabelCls>
-      <WeekDayContainer>
+      <Wrapper>
         {weekDayLabels.map(dayLabel => (
           <WeekDayName key={dayLabel}>{dayLabel}</WeekDayName>
         ))}
-      </WeekDayContainer>
-      {monthDays.map(day => (
-        <Day
-          key={day.date}
-          onDayClick={onDayClick}
-          onMouseEnter={onMouseEnter}
-          date={day}
-          isToday={isSameDay(day, new Date())}
-          isSameMonth={getMonth(day) === getMonth(cursorDate)}
-          isFirstDayOfWeek={isMonday(day)}
-          isFirstDayOfMonth={isFirstDayOfMonth(day)}
-          isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
-          isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
-          isInRange={Boolean(
-            startDate &&
-              isDate(startDate) &&
-              endDate &&
-              isDate(endDate) &&
-              isWithinInterval(day, {
-                start: startDate,
-                end: endDate,
-              })
-          )}
-          isInRangePreview={isInRangePreview({ startDate, hoveredDate, day })}
-        />
-      ))}
+        {monthDays.map(day => (
+          <Day
+            key={day.date}
+            onDayClick={onDayClick}
+            onMouseEnter={onMouseEnter}
+            date={day}
+            isToday={isSameDay(day, new Date())}
+            isSameMonth={getMonth(day) === getMonth(cursorDate)}
+            isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
+            isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
+            isInRange={Boolean(
+              startDate &&
+                isDate(startDate) &&
+                endDate &&
+                isDate(endDate) &&
+                isWithinInterval(day, {
+                  start: startDate,
+                  end: endDate,
+                })
+            )}
+            isInRangePreview={isInRangePreview({ startDate, hoveredDate, day })}
+          />
+        ))}
+      </Wrapper>
     </MonthStyled>
   );
 };

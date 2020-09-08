@@ -16,15 +16,17 @@ const DayStyled = styled.div<DayStyledProps>(
     {
       width: rem(28),
       height: rem(28),
+      padding: rem(theme.space.default),
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      boxSizing: 'border-box',
       fontWeight: 500,
       fontSize: rem(10),
       color: theme.color.bulma[100],
       userSelect: 'none',
       cursor: 'pointer',
+      boxSizing: 'border-box',
+      border: `1px solid transparent`, // to prevent jumping on hover
       '&:hover': {
         border: `1px solid ${theme.color.trunks[100]}`,
         borderRadius: rem(3),
@@ -44,28 +46,11 @@ const DayStyled = styled.div<DayStyledProps>(
   ]
 );
 
-type DayWrapperProps = {
-  isInRange?: boolean;
-};
-
-const DayWrapper = styled.div<DayWrapperProps>(({ theme, isInRange }) => [
-  {
-    paddingLeft: rem(12),
-    marginBottom: rem(8),
-    height: rem(28),
-  },
-  isInRange && {
-    background: theme.color.goku[40],
-  },
-]);
-
 const formatLabel = (date: Date) => format(date, 'd');
 
 type DayProps = {
   date: Date;
   isSameMonth: boolean;
-  isFirstDayOfWeek: boolean;
-  isFirstDayOfMonth: boolean;
   isStartEdge: boolean;
   isEndEdge: boolean;
   isInRange: boolean;
@@ -78,8 +63,6 @@ type DayProps = {
 export const Day: React.FC<DayProps> = ({
   date,
   isSameMonth,
-  isFirstDayOfWeek,
-  isFirstDayOfMonth,
   isStartEdge,
   isEndEdge,
   isInRange,
@@ -89,33 +72,20 @@ export const Day: React.FC<DayProps> = ({
   isToday,
 }) => {
   if (!isSameMonth) {
-    return (
-      <DayWrapper>
-        <DayStyled />
-      </DayWrapper>
-    );
+    return <DayStyled />;
   }
 
   return (
-    <DayWrapper
-      isInRange={
-        (isInRange || isInRangePreview) &&
-        !isStartEdge &&
-        !isFirstDayOfMonth &&
-        !isFirstDayOfWeek
-      }
+    <DayStyled
+      isStartEdge={isStartEdge}
+      isEndEdge={isEndEdge}
+      isInRange={isInRange}
+      isInRangePreview={isInRangePreview}
+      isToday={isToday}
+      onClick={() => onDayClick(date)}
+      onMouseEnter={() => onMouseEnter(date)}
     >
-      <DayStyled
-        isStartEdge={isStartEdge}
-        isEndEdge={isEndEdge}
-        isInRange={isInRange}
-        isInRangePreview={isInRangePreview}
-        isToday={isToday}
-        onClick={() => onDayClick(date)}
-        onMouseEnter={() => onMouseEnter(date)}
-      >
-        {formatLabel(date)}
-      </DayStyled>
-    </DayWrapper>
+      {formatLabel(date)}
+    </DayStyled>
   );
 };
