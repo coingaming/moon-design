@@ -7,15 +7,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 28 24"
+    viewBox="0 0 28 28"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M23.697 22a1.883 1.883 0 001.866-2.138L23.599 5.46A4 4 0 0019.636 2H8.364a4 4 0 00-3.963 3.46L2.437 19.862a1.884 1.884 0 003.513 1.17l3.604-6.489A3 3 0 0112.177 13h3.646a3 3 0 012.623 1.543l3.604 6.488c.332.598.963.969 1.647.969zm3.848-2.408a3.883 3.883 0 01-7.243 2.41l-3.605-6.488a1 1 0 00-.874-.514h-3.646a1 1 0 00-.874.514l-3.605 6.489a3.883 3.883 0 01-7.242-2.411L2.419 5.189A6 6 0 018.364 0h11.272a6 6 0 015.945 5.19l1.963 14.402z"
+      d="M0 9a1 1 0 002 0V3.41L12.586 14 2 24.59V19a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H3.419L14 15.415 24.581 26H19a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L15.414 14 26 3.41V9a1 1 0 102 0V1a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L14 12.585 3.419 2H9a1 1 0 100-2H1a1 1 0 00-1 1v8z"
       fill="currentColor"
     />
   </svg>
@@ -26,7 +24,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconGamepad = styled(Svg)<IconProps>(
+const IconExpand = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -47,4 +45,4 @@ const IconGamepad = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconGamepad;
+export default IconExpand;
