@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
-import Assets from '@heathmont/moon-assets';
-import Components from '@heathmont/moon-components';
-import Utils from '@heathmont/moon-utils';
+import * as Assets from '@heathmont/moon-assets';
+import * as Components from '@heathmont/moon-components';
+import * as Utils from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
 
 import { prismTheme } from './prism';
