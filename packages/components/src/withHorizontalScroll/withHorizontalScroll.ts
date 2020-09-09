@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import scrollIntoView from 'scroll-into-view-if-needed';
 import smoothScrollIntoView from 'smooth-scroll-into-view-if-needed';
 
