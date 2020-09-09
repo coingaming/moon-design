@@ -248,6 +248,8 @@ export { default as IconFilter } from './icons/IconFilter';
 export * from './icons/IconFilter';
 export { default as IconFreebet } from './icons/IconFreebet';
 export * from './icons/IconFreebet';
+export { default as IconGamepad } from './icons/IconGamepad';
+export * from './icons/IconGamepad';
 export { default as IconGeneralInfo } from './icons/IconGeneralInfo';
 export * from './icons/IconGeneralInfo';
 export { default as IconGift } from './icons/IconGift';

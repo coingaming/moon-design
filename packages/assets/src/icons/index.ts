@@ -168,6 +168,8 @@ export { default as IconFilter } from './IconFilter';
 export * from './IconFilter';
 export { default as IconFreebet } from './IconFreebet';
 export * from './IconFreebet';
+export { default as IconGamepad } from './IconGamepad';
+export * from './IconGamepad';
 export { default as IconGeneralInfo } from './IconGeneralInfo';
 export * from './IconGeneralInfo';
 export { default as IconGift } from './IconGift';
