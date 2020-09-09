@@ -2,9 +2,12 @@
 
 exports[`Badge renders correctly 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
   border-radius: 6.25rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -25,9 +28,12 @@ exports[`Badge renders correctly 1`] = `
 
 exports[`Badge renders correctly default size 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
   border-radius: 6.25rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -49,9 +55,12 @@ exports[`Badge renders correctly default size 1`] = `
 
 exports[`Badge renders correctly small size 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
   border-radius: 6.25rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -73,9 +82,12 @@ exports[`Badge renders correctly small size 1`] = `
 
 exports[`Badge renders correctly with background color 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
   border-radius: 6.25rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
@@ -97,9 +109,12 @@ exports[`Badge renders correctly with background color 1`] = `
 
 exports[`Badge renders correctly with color 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
   border-radius: 6.25rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
