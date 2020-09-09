@@ -8,6 +8,7 @@ import { getPlaceholder } from './private/helpers/getPlaceholder';
 import { Button } from '..';
 
 const DatepickerWrapper = styled.div({
+  width: 'fit-content',
   // position: 'relative',
 });
 
