@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 export const VIEWBOX_CENTER_X = 50;
 export const VIEWBOX_CENTER_Y = 50;

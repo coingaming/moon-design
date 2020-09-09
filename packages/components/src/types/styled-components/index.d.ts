@@ -5,7 +5,7 @@
  */
 
 /* eslint-disable-next-line import/no-unresolved, no-unused-vars, @typescript-eslint/no-unused-vars */
-import * as types from 'styled-components/cssprop';
+import types from 'styled-components/cssprop';
 import 'styled-components';
 import { Theme } from '@heathmont/moon-themes';
 
