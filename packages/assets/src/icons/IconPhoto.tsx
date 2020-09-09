@@ -7,7 +7,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 28 24"
+    viewBox="0 0 28 28"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
@@ -15,7 +15,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M23.697 22a1.883 1.883 0 001.866-2.138L23.599 5.46A4 4 0 0019.636 2H8.364a4 4 0 00-3.963 3.46L2.437 19.862a1.884 1.884 0 003.513 1.17l3.604-6.489A3 3 0 0112.177 13h3.646a3 3 0 012.623 1.543l3.604 6.488c.332.598.963.969 1.647.969zm3.848-2.408a3.883 3.883 0 01-7.243 2.41l-3.605-6.488a1 1 0 00-.874-.514h-3.646a1 1 0 00-.874.514l-3.605 6.489a3.883 3.883 0 01-7.242-2.411L2.419 5.189A6 6 0 018.364 0h11.272a6 6 0 015.945 5.19l1.963 14.402z"
+      d="M14 10a6 6 0 100 12 6 6 0 000-12zm-4 6a4 4 0 118 0 4 4 0 01-8 0z"
+      fill="currentColor"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M28 23V10.708C28 8.108 25.892 6 23.292 6a2.708 2.708 0 01-2.423-1.497L20 2.763A5 5 0 0015.528 0h-3.056A5 5 0 008 2.764l-.87 1.739A2.708 2.708 0 014.708 6 4.708 4.708 0 000 10.708V23a5 5 0 005 5h18a5 5 0 005-5zm-2-12.292V23a3 3 0 01-3 3H5a3 3 0 01-3-3V10.708A2.708 2.708 0 014.708 8 4.708 4.708 0 008.92 5.397l.87-1.739A3 3 0 0112.472 2h3.056a3 3 0 012.683 1.658l.87 1.74A4.708 4.708 0 0023.29 8 2.708 2.708 0 0126 10.708z"
       fill="currentColor"
     />
   </svg>
@@ -26,7 +32,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconGamepad = styled(Svg)<IconProps>(
+const IconPhoto = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -47,4 +53,4 @@ const IconGamepad = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconGamepad;
+export default IconPhoto;
