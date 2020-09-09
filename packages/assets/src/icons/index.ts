@@ -342,5 +342,7 @@ export { default as IconWand } from './IconWand';
 export * from './IconWand';
 export { default as IconWarning } from './IconWarning';
 export * from './IconWarning';
+export { default as IconWhatsapp } from './IconWhatsapp';
+export * from './IconWhatsapp';
 export { default as IconYoutube } from './IconYoutube';
 export * from './IconYoutube';
