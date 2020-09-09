@@ -68,9 +68,12 @@ exports[`CardBalance renders correctly 1`] = `
 
 exports[`CardBalance renders correctly with a badge 1`] = `
 .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
   border-radius: 6.25rem;
   -webkit-letter-spacing: 0.0625rem;
   -moz-letter-spacing: 0.0625rem;
