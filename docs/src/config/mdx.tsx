@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
 import { Heading, Link, Stack } from '@heathmont/moon-components';
