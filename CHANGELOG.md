@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.32.0](https://github.com/coingaming/sportsbet-design/compare/v2.31.0...v2.32.0) (2020-09-09)
+
+### Bug Fixes
+
+- fix badge component ([9a9dbfd](https://github.com/coingaming/sportsbet-design/commit/9a9dbfdcc71091d94a61f1d32f3163c12528aeed))
+- **security:** update bl@^4.0.3 ([52e5708](https://github.com/coingaming/sportsbet-design/commit/52e5708a3d7e3ade14e45f5ed3295e7ce1dee287))
+
+### Features
+
+- **assets:** add Whatsapp icon ([d2e60c2](https://github.com/coingaming/sportsbet-design/commit/d2e60c272d55ded73b616b53c8804be388b5054c))
+
 # [2.31.0](https://github.com/coingaming/sportsbet-design/compare/v2.30.0...v2.31.0) (2020-09-02)
 
 ### Bug Fixes
