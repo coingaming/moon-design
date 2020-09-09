@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
