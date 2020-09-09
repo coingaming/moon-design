@@ -9,20 +9,20 @@ import isDate from 'date-fns/isDate';
 
 import { Day } from './Day';
 
-const WeekDayName = styled.div(({ theme }) => ({
-  height: rem(28),
-  width: rem(28),
+const DayName = styled.div(({ theme }) => ({
+  height: rem(32),
   color: theme.color.bulma[100],
   fontWeight: 'bold',
   textTransform: 'uppercase',
-  display: 'flex',
-  justifyContent: 'center',
+  textAlign: 'center',
   userSelect: 'none',
 }));
 
-const MonthStyled = styled.div({});
+const MonthStyled = styled.div({
+  paddingTop: rem(12),
+});
 
-const MonthLabelCls = styled.div(({ theme }) => ({
+const MonthYearLabel = styled.div(({ theme }) => ({
   fontWeight: 500,
   fontSize: rem(14),
   color: theme.color.bulma[100],
@@ -75,7 +75,7 @@ const isInRangePreview = ({
   });
 };
 
-const Wrapper = styled.div({
+const Days = styled.div({
   display: 'grid',
   gridTemplateColumns: 'repeat(7, 1fr)',
 });
@@ -94,12 +94,12 @@ export const Month: React.FC<MonthProps> = ({
 }) => {
   return (
     <MonthStyled>
-      <MonthLabelCls>
+      <MonthYearLabel>
         {monthLabel}&nbsp;&nbsp;{year}
-      </MonthLabelCls>
-      <Wrapper>
+      </MonthYearLabel>
+      <Days>
         {weekDayLabels.map(dayLabel => (
-          <WeekDayName key={dayLabel}>{dayLabel}</WeekDayName>
+          <DayName key={dayLabel}>{dayLabel}</DayName>
         ))}
         {monthDays.map(day => (
           <Day
@@ -124,7 +124,7 @@ export const Month: React.FC<MonthProps> = ({
             isInRangePreview={isInRangePreview({ startDate, hoveredDate, day })}
           />
         ))}
-      </Wrapper>
+      </Days>
     </MonthStyled>
   );
 };
