@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import IconClose from '../private/icons/IconClose';

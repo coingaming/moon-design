@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { inlineSvg, mq, rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';

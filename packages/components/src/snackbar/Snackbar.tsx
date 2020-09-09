@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { rem, mq } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
