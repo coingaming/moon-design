@@ -10,15 +10,18 @@ import { Month } from './Month';
 import { Sidebar } from './Sidebar';
 import { InputsPanel } from './InputsPanel';
 
-const PickerContainer = styled.div(({ theme: { color } }) => ({
+const PickerContainer = styled.div(({ theme: { color, space, radius } }) => ({
   display: 'grid',
   gridTemplateAreas: `
-      "sidebar months"
-      "inputs inputs"
+      "sidebar firstMonth secondMonth"
+      "inputs  inputs     inputs"
     `,
+  gap: rem(space.default),
   paddingTop: rem(16),
-  borderRadius: rem(3),
+  borderRadius: radius.default,
+  padding: space.small,
   backgroundColor: color.goku[100],
+  // backgroundColor: 'blue',
   boxShadow: `4px 4px 12px rgba(43, 75, 206, 0.04),
     0px 10px 18px rgba(43, 75, 206, 0.04)`,
   overflow: 'hidden',
@@ -30,19 +33,16 @@ const SidebarWrapper = styled.div(({ theme: { color } }) => ({
   background: color.goku[100],
 }));
 
-const MonthsContainer = styled.div({
-  gridArea: 'months',
-  display: 'flex',
-  height: rem(306),
+const FirstMonth = styled.div({
+  gridArea: 'firstMonth',
+  maxWidth: rem(238),
   position: 'relative',
 });
 
-const FirstMonth = styled.div({
-  marginRight: rem(24),
-});
-
 const SecondMonth = styled.div({
-  // marginRight: rem(11),
+  gridArea: 'secondMonth',
+  maxWidth: rem(238),
+  position: 'relative',
 });
 
 const LeftArrow = styled(IconArrowLeft as any)(({ theme }) => ({
@@ -50,6 +50,7 @@ const LeftArrow = styled(IconArrowLeft as any)(({ theme }) => ({
   color: theme.color.bulma[100],
   position: 'absolute',
   left: rem(15),
+  fontSize: rem(16),
 }));
 
 const RightArrow = styled(IconArrowRight as any)(({ theme }) => ({
@@ -57,6 +58,7 @@ const RightArrow = styled(IconArrowRight as any)(({ theme }) => ({
   color: theme.color.bulma[100],
   position: 'absolute',
   right: rem(15),
+  fontSize: rem(16),
 }));
 
 export const Picker: React.FC<any> = ({
@@ -94,40 +96,38 @@ export const Picker: React.FC<any> = ({
           config={config}
         />
       </SidebarWrapper>
-      <MonthsContainer>
+      <FirstMonth>
         <LeftArrow onClick={prevMonth} />
-        <FirstMonth>
-          <Month
-            key="first"
-            monthDays={firstMonth}
-            monthLabel={firstMonthLabel}
-            year={firstMonthYearLabel}
-            weekDayLabels={weekDayLabels}
-            onDayClick={onDayClick}
-            onMouseEnter={onDayMouseEnter}
-            cursorDate={cursorDate}
-            startDate={startDate}
-            endDate={endDate}
-            hoveredDate={hoveredDate}
-          />
-        </FirstMonth>
-        <SecondMonth>
-          <Month
-            key="second"
-            monthDays={secondMonth}
-            monthLabel={secondMonthLabel}
-            year={secondMonthYearLabel}
-            weekDayLabels={weekDayLabels}
-            onDayClick={onDayClick}
-            onMouseEnter={onDayMouseEnter}
-            cursorDate={addMonths(cursorDate, 1)}
-            startDate={startDate}
-            endDate={endDate}
-            hoveredDate={hoveredDate}
-          />
-        </SecondMonth>
+        <Month
+          key="first"
+          monthDays={firstMonth}
+          monthLabel={firstMonthLabel}
+          year={firstMonthYearLabel}
+          weekDayLabels={weekDayLabels}
+          onDayClick={onDayClick}
+          onMouseEnter={onDayMouseEnter}
+          cursorDate={cursorDate}
+          startDate={startDate}
+          endDate={endDate}
+          hoveredDate={hoveredDate}
+        />
+      </FirstMonth>
+      <SecondMonth>
         <RightArrow onClick={nextMonth} />
-      </MonthsContainer>
+        <Month
+          key="second"
+          monthDays={secondMonth}
+          monthLabel={secondMonthLabel}
+          year={secondMonthYearLabel}
+          weekDayLabels={weekDayLabels}
+          onDayClick={onDayClick}
+          onMouseEnter={onDayMouseEnter}
+          cursorDate={addMonths(cursorDate, 1)}
+          startDate={startDate}
+          endDate={endDate}
+          hoveredDate={hoveredDate}
+        />
+      </SecondMonth>
       <InputsPanel
         startDate={startDate}
         endDate={endDate}

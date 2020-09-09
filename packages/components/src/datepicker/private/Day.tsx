@@ -14,8 +14,8 @@ type DayStyledProps = {
 const DayStyled = styled.div<DayStyledProps>(
   ({ theme, isInRange, isInRangePreview, isStartEdge, isEndEdge, isToday }) => [
     {
-      width: rem(28),
-      height: rem(28),
+      width: rem(32),
+      height: rem(32),
       padding: rem(theme.space.default),
       display: 'flex',
       alignItems: 'center',
@@ -46,6 +46,11 @@ const DayStyled = styled.div<DayStyledProps>(
   ]
 );
 
+const EmptyCell = styled.div({
+  width: rem(32),
+  height: rem(32),
+});
+
 const formatLabel = (date: Date) => format(date, 'd');
 
 type DayProps = {
@@ -72,7 +77,7 @@ export const Day: React.FC<DayProps> = ({
   isToday,
 }) => {
   if (!isSameMonth) {
-    return <DayStyled />;
+    return <EmptyCell />;
   }
 
   return (
