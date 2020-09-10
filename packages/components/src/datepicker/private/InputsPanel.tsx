@@ -1,40 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
 import compareAsc from 'date-fns/compareAsc';
+import { rem } from 'polished';
 
-import { Button, TextInput } from '../..';
+import Button from '../../button/Button';
+import TextInput from '../../textInput/TextInput';
+import inlineMixin from '../../inlineMixin/inlineMixin';
 import { Translations } from '../types/translations';
 import { Config } from '../types/config';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   gridArea: 'inputs',
-  height: rem(56),
-  background: theme.color.goku[100],
-  display: 'flex',
-  alignItems: 'center',
-  paddingLeft: rem(20),
-  boxSizing: 'border-box',
-  width: '100%',
-  justifyContent: 'space-between',
+  ...inlineMixin(theme.space.default),
 }));
 
-const To = styled.span(({ theme }) => ({
-  marginLeft: rem(18),
-  marginRight: rem(18),
-  fontWeight: 500,
-  fontSize: rem(12),
-  lineHeight: rem(16),
-  textAlign: 'center',
-  color: theme.color.bulma[100],
-  userSelect: 'none',
-}));
-
-const Inputs = styled.div({
-  display: 'flex',
-  alignItems: 'center',
+const StyledTextInput = styled(TextInput)({
+  maxWidth: rem(230),
 });
 
 type InputsPanelProps = {
@@ -45,6 +28,7 @@ type InputsPanelProps = {
   onDateChange: any;
   translations: Translations;
   apply: any;
+  reset: any;
   config: Config;
 };
 
@@ -56,6 +40,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   translations,
   apply,
   config,
+  reset,
 }) => {
   const dateFormat = config.withHoursAndMinutes
     ? "yyyy-MM-dd'T'HH:mm"
@@ -85,61 +70,62 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
 
   return (
     <InputsPanelStyled>
-      <Inputs>
-        <TextInput
-          error={hasStartDateError}
-          type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
-          value={inputStartDate}
-          onChange={e => {
-            e.preventDefault();
-            setInputStartDate(e.target.value);
-            const newStartDate = new Date(e.target.value);
-            const isValidDate = isValid(newStartDate);
-            if (!isValidDate) {
-              setStartDateError('Not valid date');
-              return;
+      <Button variant="tertiary" onClick={reset}>
+        {translations.reset}
+      </Button>
+      <StyledTextInput
+        error={hasStartDateError}
+        type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+        value={inputStartDate}
+        onChange={e => {
+          e.preventDefault();
+          setInputStartDate(e.target.value);
+          const newStartDate = new Date(e.target.value);
+          const isValidDate = isValid(newStartDate);
+          if (!isValidDate) {
+            setStartDateError('Not valid date');
+            return;
+          }
+          if (isValidDate && endDate) {
+            const isStartDayBefore = compareAsc(newStartDate, endDate) === -1;
+            if (isStartDayBefore) {
+              setStartDate(newStartDate);
+              setStartDateError('');
+              setEndDateError(false);
+            } else {
+              setStartDateError('Should before');
             }
-            if (isValidDate && endDate) {
-              const isStartDayBefore = compareAsc(newStartDate, endDate) === -1;
-              if (isStartDayBefore) {
-                setStartDate(newStartDate);
-                setStartDateError('');
-                setEndDateError(false);
-              } else {
-                setStartDateError('Should before');
-              }
-            }
-          }}
-        />
-        <To>{translations.to}</To>
-        <TextInput
-          error={hasEndDateError}
-          type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
-          value={inputEndDate}
-          onChange={e => {
-            e.preventDefault();
-            setInputEndDate(e.target.value);
-            const newEndDate = new Date(e.target.value);
-            const isValidDate = isValid(newEndDate);
-            if (!isValidDate) {
+          }
+        }}
+      />
+      <StyledTextInput
+        error={hasEndDateError}
+        type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+        value={inputEndDate}
+        onChange={e => {
+          e.preventDefault();
+          setInputEndDate(e.target.value);
+          const newEndDate = new Date(e.target.value);
+          const isValidDate = isValid(newEndDate);
+          if (!isValidDate) {
+            setEndDateError(true);
+            return;
+          }
+          if (isValidDate && startDate) {
+            const isStartDayBefore = compareAsc(startDate, newEndDate) === -1;
+            if (isStartDayBefore) {
+              setEndDate(newEndDate);
+              setStartDateError('');
+              setEndDateError(false);
+            } else {
               setEndDateError(true);
-              return;
             }
-            if (isValidDate && startDate) {
-              const isStartDayBefore = compareAsc(startDate, newEndDate) === -1;
-              if (isStartDayBefore) {
-                setEndDate(newEndDate);
-                setStartDateError('');
-                setEndDateError(false);
-              } else {
-                setEndDateError(true);
-              }
-            }
-          }}
-        />
-      </Inputs>
+          }
+        }}
+      />
+
       <Button
-        variant="tertiary"
+        variant="primary"
         onClick={apply}
         disabled={!!hasStartDateError || !!hasEndDateError}
       >

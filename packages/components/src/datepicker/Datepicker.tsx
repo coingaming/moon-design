@@ -141,6 +141,15 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
     }
   };
 
+  const reset = () => {
+    setDates({
+      startDate: undefined,
+      endDate: undefined,
+      range: '',
+      hoveredDate: undefined,
+      cursorDate: new Date(),
+    });
+  };
   // TODO - onClickOutsideHandler
 
   const hoverDay = (hoveredDate: Date) => {
@@ -243,6 +252,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       translations={translations}
       config={config}
       apply={apply}
+      reset={reset}
     />
   );
 };
