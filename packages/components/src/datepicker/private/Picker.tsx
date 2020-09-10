@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem } from 'polished';
 import addMonths from 'date-fns/addMonths';
+import { mq } from '@heathmont/moon-utils';
 
 import IconChevronLeft from '../../private/icons/IconChevronLeft';
 import IconChevronRight from '../../private/icons/IconChevronRight';
@@ -10,23 +11,35 @@ import { Month } from './Month';
 import { Sidebar } from './Sidebar';
 import { InputsPanel } from './InputsPanel';
 
-const PickerContainer = styled.div(({ theme: { color, space, radius } }) => ({
-  width: 'fit-content',
-  // position: 'relative',
-  display: 'grid',
-  gridTemplateAreas: `
-      "sidebar firstMonth secondMonth"
-      "inputs  inputs     inputs"
+const PickerContainer = styled.div(
+  ({ theme: { color, space, radius, breakpoint } }) => ({
+    width: 'fit-content',
+    // position: 'relative',
+    display: 'grid',
+    gridTemplateAreas: `
+      "sidebar"
+      "firstMonth"
+      "secondMonth"
+      "inputs"
     `,
-  gap: rem(space.default),
-  paddingTop: rem(16),
-  borderRadius: radius.default,
-  padding: space.small,
-  backgroundColor: color.goku[100],
-  boxShadow: `4px 4px 12px ${color.trunks[100]}0D,
-    0px 10px 18px ${color.trunks[100]}0D`,
-  overflow: 'hidden',
-}));
+    alignItems: 'center',
+    [mq(breakpoint.medium)]: {
+      gridTemplateAreas: `
+        "sidebar firstMonth secondMonth"
+        "inputs  inputs     inputs"
+      `,
+      gridTemplateColumns: '1fr 2fr 2fr',
+    },
+    paddingBottom: rem(space.default),
+    gap: rem(space.default),
+    borderRadius: radius.default,
+    padding: space.small,
+    backgroundColor: color.goku[100],
+    boxShadow: `4px 4px 12px ${color.hit[80]},
+      0px 10px 18px ${color.hit[80]}`,
+    overflow: 'hidden',
+  })
+);
 
 const FirstMonth = styled.div({
   gridArea: 'firstMonth',
@@ -46,7 +59,7 @@ const LeftArrow = styled(IconChevronLeft as any)(({ theme }) => ({
   position: 'absolute',
   left: rem(15),
   fontSize: rem(16),
-  top: rem(15),
+  top: rem(2),
 }));
 
 const RightArrow = styled(IconChevronRight as any)(({ theme }) => ({
@@ -55,7 +68,7 @@ const RightArrow = styled(IconChevronRight as any)(({ theme }) => ({
   position: 'absolute',
   right: rem(15),
   fontSize: rem(16),
-  top: rem(15),
+  top: rem(2),
 }));
 
 export const Picker: React.FC<any> = ({
