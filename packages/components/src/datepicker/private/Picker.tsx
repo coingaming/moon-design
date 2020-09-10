@@ -11,6 +11,8 @@ import { Sidebar } from './Sidebar';
 import { InputsPanel } from './InputsPanel';
 
 const PickerContainer = styled.div(({ theme: { color, space, radius } }) => ({
+  width: 'fit-content',
+  // position: 'relative',
   display: 'grid',
   gridTemplateAreas: `
       "sidebar firstMonth secondMonth"
@@ -63,28 +65,20 @@ const RightArrow = styled(IconChevronRight as any)(({ theme }) => ({
 }));
 
 export const Picker: React.FC<any> = ({
-  weekDayLabels,
+  datesState,
+  labels,
+  translations,
+  config,
   onDayClick,
   onDayMouseEnter,
-  range,
-  firstMonthLabel,
-  firstMonthYearLabel,
-  secondMonthLabel,
-  secondMonthYearLabel,
   firstMonth,
   secondMonth,
-  cursorDate,
-  startDate,
-  endDate,
-  hoveredDate,
   selectRange,
   nextMonth,
   prevMonth,
   setStartDate,
   setEndDate,
   onDateChange,
-  translations,
-  config,
   apply,
   reset,
 }) => {
@@ -92,7 +86,7 @@ export const Picker: React.FC<any> = ({
     <PickerContainer>
       <SidebarWrapper>
         <Sidebar
-          range={range}
+          range={datesState.range}
           selectRange={selectRange}
           translations={translations}
           config={config}
@@ -103,15 +97,15 @@ export const Picker: React.FC<any> = ({
         <Month
           key="first"
           monthDays={firstMonth}
-          monthLabel={firstMonthLabel}
-          year={firstMonthYearLabel}
-          weekDayLabels={weekDayLabels}
+          monthLabel={labels.firstMonthLabel}
+          year={labels.firstMonthYearLabel}
+          weekDayLabels={labels.weekDayLabels}
           onDayClick={onDayClick}
           onMouseEnter={onDayMouseEnter}
-          cursorDate={cursorDate}
-          startDate={startDate}
-          endDate={endDate}
-          hoveredDate={hoveredDate}
+          cursorDate={datesState.cursorDate}
+          startDate={datesState.startDate}
+          endDate={datesState.endDate}
+          hoveredDate={datesState.hoveredDate}
         />
       </FirstMonth>
       <SecondMonth>
@@ -119,21 +113,21 @@ export const Picker: React.FC<any> = ({
         <Month
           key="second"
           monthDays={secondMonth}
-          monthLabel={secondMonthLabel}
-          year={secondMonthYearLabel}
-          weekDayLabels={weekDayLabels}
+          monthLabel={labels.secondMonthLabel}
+          year={labels.secondMonthYearLabel}
+          weekDayLabels={labels.weekDayLabels}
           onDayClick={onDayClick}
           onMouseEnter={onDayMouseEnter}
-          cursorDate={addMonths(cursorDate, 1)}
-          startDate={startDate}
-          endDate={endDate}
-          hoveredDate={hoveredDate}
+          cursorDate={addMonths(datesState.cursorDate, 1)}
+          startDate={datesState.startDate}
+          endDate={datesState.endDate}
+          hoveredDate={datesState.hoveredDate}
         />
       </SecondMonth>
       <InputsPanel
         reset={reset}
-        startDate={startDate}
-        endDate={endDate}
+        startDate={datesState.startDate}
+        endDate={datesState.endDate}
         setStartDate={setStartDate}
         setEndDate={setEndDate}
         onDateChange={onDateChange}

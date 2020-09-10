@@ -8,4 +8,5 @@ export interface Config {
   withHoursAndMinutes?: boolean;
   onlyFuture?: boolean;
   without24AndToday?: boolean;
+  locale?: Locale;
 }
