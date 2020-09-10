@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { enGB } from 'date-fns/locale';
 
 import DateRangePicker from './DateRangePicker';
 
@@ -22,6 +23,7 @@ const Example = () => {
         config={{
           weekStartsOn: 1,
           withHoursAndMinutes: true,
+          locale: enGB,
         }}
       />
     </>
