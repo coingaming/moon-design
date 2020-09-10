@@ -14,9 +14,7 @@ type DayStyledProps = {
 const DayStyled = styled.div<DayStyledProps>(
   ({ theme, isInRange, isInRangePreview, isStartEdge, isEndEdge, isToday }) => [
     {
-      width: rem(32),
       height: rem(32),
-      padding: rem(theme.space.default),
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
@@ -33,7 +31,7 @@ const DayStyled = styled.div<DayStyledProps>(
       },
     },
     (isInRange || isInRangePreview) && {
-      backgroundColor: theme.color.goku[40],
+      backgroundColor: theme.color.goku[80],
     },
     (isStartEdge || isEndEdge) && {
       background: theme.color.piccolo[100],
@@ -47,7 +45,6 @@ const DayStyled = styled.div<DayStyledProps>(
 );
 
 const EmptyCell = styled.div({
-  width: rem(32),
   height: rem(32),
 });
 

@@ -18,10 +18,6 @@ const DayName = styled.div(({ theme }) => ({
   userSelect: 'none',
 }));
 
-const MonthStyled = styled.div({
-  paddingTop: rem(12),
-});
-
 const MonthYearLabel = styled.div(({ theme }) => ({
   fontSize: rem(14),
   lineHeight: rem(20),
@@ -93,7 +89,7 @@ export const Month: React.FC<MonthProps> = ({
   hoveredDate,
 }) => {
   return (
-    <MonthStyled>
+    <>
       <MonthYearLabel>
         {monthLabel}&nbsp;&nbsp;{year}
       </MonthYearLabel>
@@ -125,6 +121,6 @@ export const Month: React.FC<MonthProps> = ({
           />
         ))}
       </Days>
-    </MonthStyled>
+    </>
   );
 };
