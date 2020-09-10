@@ -4,9 +4,12 @@ import styled from 'styled-components';
 
 import { getRanges } from './helpers/getRanges';
 
-const SidebarList = styled.ul({
+const SidebarList = styled.ul(({ theme: { color } }) => ({
+  gridArea: 'sidebar',
+  maxWidth: rem(120),
+  background: color.goku[100],
   padding: 0,
-});
+}));
 
 type RangeItemProps = {
   isSelected?: boolean;

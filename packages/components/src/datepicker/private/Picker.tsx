@@ -28,12 +28,6 @@ const PickerContainer = styled.div(({ theme: { color, space, radius } }) => ({
   overflow: 'hidden',
 }));
 
-const SidebarWrapper = styled.div(({ theme: { color } }) => ({
-  gridArea: 'sidebar',
-  maxWidth: rem(120),
-  background: color.goku[100],
-}));
-
 const FirstMonth = styled.div({
   gridArea: 'firstMonth',
   maxWidth: rem(238),
@@ -84,14 +78,12 @@ export const Picker: React.FC<any> = ({
 }) => {
   return (
     <PickerContainer>
-      <SidebarWrapper>
-        <Sidebar
-          range={datesState.range}
-          selectRange={selectRange}
-          translations={translations}
-          config={config}
-        />
-      </SidebarWrapper>
+      <Sidebar
+        range={datesState.range}
+        selectRange={selectRange}
+        translations={translations}
+        config={config}
+      />
       <FirstMonth>
         <LeftArrow onClick={prevMonth} />
         <Month
