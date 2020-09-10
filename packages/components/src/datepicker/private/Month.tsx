@@ -23,10 +23,10 @@ const MonthStyled = styled.div({
 });
 
 const MonthYearLabel = styled.div(({ theme }) => ({
-  fontWeight: 500,
   fontSize: rem(14),
+  lineHeight: rem(20),
   color: theme.color.bulma[100],
-  marginBottom: rem(28),
+  marginBottom: rem(20),
   width: '100%',
   textAlign: 'center',
   userSelect: 'none',

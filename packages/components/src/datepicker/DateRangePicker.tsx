@@ -52,7 +52,6 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
 DateRangePicker.defaultProps = {
   range: '',
   translations: {
-    to: 'To',
     placeholder: 'Select Dates',
     apply: 'Apply',
     reset: 'Reset',

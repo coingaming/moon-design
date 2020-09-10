@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 import addMonths from 'date-fns/addMonths';
 
-import IconArrowLeft from '../../private/icons/IconArrowLeft';
-import IconArrowRight from '../../private/icons/IconArrowRight';
+import IconChevronLeft from '../../private/icons/IconChevronLeft';
+import IconChevronRight from '../../private/icons/IconChevronRight';
 
 import { Month } from './Month';
 import { Sidebar } from './Sidebar';
@@ -21,9 +21,8 @@ const PickerContainer = styled.div(({ theme: { color, space, radius } }) => ({
   borderRadius: radius.default,
   padding: space.small,
   backgroundColor: color.goku[100],
-  // backgroundColor: 'blue',
-  boxShadow: `4px 4px 12px rgba(43, 75, 206, 0.04),
-    0px 10px 18px rgba(43, 75, 206, 0.04)`,
+  boxShadow: `4px 4px 12px ${color.trunks[100]}0D,
+    0px 10px 18px ${color.trunks[100]}0D`,
   overflow: 'hidden',
 }));
 
@@ -45,20 +44,22 @@ const SecondMonth = styled.div({
   position: 'relative',
 });
 
-const LeftArrow = styled(IconArrowLeft as any)(({ theme }) => ({
+const LeftArrow = styled(IconChevronLeft as any)(({ theme }) => ({
   cursor: 'pointer',
   color: theme.color.bulma[100],
   position: 'absolute',
   left: rem(15),
   fontSize: rem(16),
+  top: rem(15),
 }));
 
-const RightArrow = styled(IconArrowRight as any)(({ theme }) => ({
+const RightArrow = styled(IconChevronRight as any)(({ theme }) => ({
   cursor: 'pointer',
   color: theme.color.bulma[100],
   position: 'absolute',
   right: rem(15),
   fontSize: rem(16),
+  top: rem(15),
 }));
 
 export const Picker: React.FC<any> = ({
@@ -85,6 +86,7 @@ export const Picker: React.FC<any> = ({
   translations,
   config,
   apply,
+  reset,
 }) => {
   return (
     <PickerContainer>
@@ -129,6 +131,7 @@ export const Picker: React.FC<any> = ({
         />
       </SecondMonth>
       <InputsPanel
+        reset={reset}
         startDate={startDate}
         endDate={endDate}
         setStartDate={setStartDate}
