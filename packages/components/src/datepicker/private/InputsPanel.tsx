@@ -4,21 +4,36 @@ import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
 import compareAsc from 'date-fns/compareAsc';
 import { rem } from 'polished';
+import { mq } from '@heathmont/moon-utils';
 
 import Button from '../../button/Button';
 import TextInput from '../../textInput/TextInput';
-import inlineMixin from '../../inlineMixin/inlineMixin';
 import { Translations } from '../types/translations';
 import { Config } from '../types/config';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   gridArea: 'inputs',
-  ...inlineMixin(theme.space.default),
+  display: 'flex',
+  flexDirection: 'column',
+  paddingTop: rem(theme.space.default),
+  [mq(theme.breakpoint.medium, 'max-width')]: {
+    '& > * + *': {
+      marginTop: rem(theme.space.default),
+    },
+  },
+  [mq(theme.breakpoint.medium)]: {
+    flexDirection: 'row',
+    '& > * + *': {
+      marginLeft: rem(theme.space.default),
+    },
+  },
 }));
 
-const StyledTextInput = styled(TextInput)({
-  maxWidth: rem(230),
-});
+const StyledTextInput = styled(TextInput)(({ theme: { breakpoint } }) => ({
+  [mq(breakpoint.medium)]: {
+    maxWidth: rem(230),
+  },
+}));
 
 type InputsPanelProps = {
   startDate: Date;
