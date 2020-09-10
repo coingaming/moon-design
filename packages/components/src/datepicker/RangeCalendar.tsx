@@ -24,7 +24,7 @@ type DatepickerState = {
   cursorDate: Date; // just to navigate between months
 };
 
-const Datepicker: React.FC<DateRangePickerProps> = ({
+const RangeCalendar: React.FC<DateRangePickerProps> = ({
   startDate: initialStartDate,
   endDate: initialEndDate,
   onDateChange,
@@ -35,12 +35,13 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   setIsOpen,
   setPlaceholder,
 }) => {
-  const [dates, setDates] = React.useState<DatepickerState>({
+  const [datesState, setDatesState] = React.useState<DatepickerState>({
     startDate: initialStartDate,
     endDate: initialEndDate,
     range,
     hoveredDate: undefined,
     cursorDate: initialStartDate ? new Date(initialStartDate) : new Date(),
+    // get "startDate" and "endDate" if "range" is defined
     ...getDatesFromRange({
       range,
       config,
@@ -52,15 +53,15 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   React.useEffect(() => {
     if (hasClickedOutside) {
       onDateChange({
-        startDate: dates.startDate,
-        endDate: dates.endDate,
-        range: dates.range,
+        startDate: datesState.startDate,
+        endDate: datesState.endDate,
+        range: datesState.range,
       });
       setPlaceholder(
         getPlaceholder({
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          range: dates.range,
+          startDate: datesState.startDate,
+          endDate: datesState.endDate,
+          range: datesState.range,
           config,
           translations,
         })
@@ -71,15 +72,15 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
 
   const apply = () => {
     onDateChange({
-      startDate: dates.startDate,
-      endDate: dates.endDate,
-      range: dates.range,
+      startDate: datesState.startDate,
+      endDate: datesState.endDate,
+      range: datesState.range,
     });
     setPlaceholder(
       getPlaceholder({
-        startDate: dates.startDate,
-        endDate: dates.endDate,
-        range: dates.range,
+        startDate: datesState.startDate,
+        endDate: datesState.endDate,
+        range: datesState.range,
         config,
         translations,
       })
@@ -89,22 +90,22 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
 
   const selectDay = (selectedDate: Date) => {
     if (
-      dates.startDate &&
-      !dates.endDate &&
-      (isSameDay(dates.startDate, selectedDate) ||
-        isAfter(selectedDate, dates.startDate))
+      datesState.startDate &&
+      !datesState.endDate &&
+      (isSameDay(datesState.startDate, selectedDate) ||
+        isAfter(selectedDate, datesState.startDate))
     ) {
       const newEndDate = endOfDay(selectedDate);
-      setDates({
-        ...dates,
+      setDatesState({
+        ...datesState,
         hoveredDate: undefined,
         endDate: newEndDate,
         range: '',
       });
-    } else if (dates.startDate && dates.endDate) {
+    } else if (datesState.startDate && datesState.endDate) {
       const newStartDate = startOfDay(selectedDate);
-      setDates({
-        ...dates,
+      setDatesState({
+        ...datesState,
         hoveredDate: undefined,
         startDate: newStartDate,
         endDate: undefined,
@@ -112,8 +113,8 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       });
     } else {
       const newStartDate = startOfDay(selectedDate);
-      setDates({
-        ...dates,
+      setDatesState({
+        ...datesState,
         hoveredDate: undefined,
         startDate: newStartDate,
         range: '',
@@ -123,8 +124,8 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
 
   const setStartDate = (startDate: Date) => {
     if (isValid(startDate) && startDate) {
-      setDates({
-        ...dates,
+      setDatesState({
+        ...datesState,
         startDate,
         range: '',
       });
@@ -133,8 +134,8 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
 
   const setEndDate = (endDate: Date) => {
     if (isValid(endDate) && endDate) {
-      setDates({
-        ...dates,
+      setDatesState({
+        ...datesState,
         endDate,
         range: '',
       });
@@ -142,7 +143,7 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   };
 
   const reset = () => {
-    setDates({
+    setDatesState({
       startDate: undefined,
       endDate: undefined,
       range: '',
@@ -150,17 +151,18 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       cursorDate: new Date(),
     });
   };
+
   // TODO - onClickOutsideHandler
 
   const hoverDay = (hoveredDate: Date) => {
     if (
-      dates.startDate &&
-      !dates.endDate &&
-      !isSameDay(hoveredDate, dates.startDate) &&
-      isAfter(hoveredDate, dates.startDate)
+      datesState.startDate &&
+      !datesState.endDate &&
+      !isSameDay(hoveredDate, datesState.startDate) &&
+      isAfter(hoveredDate, datesState.startDate)
     ) {
-      setDates({
-        ...dates,
+      setDatesState({
+        ...datesState,
         hoveredDate,
       });
     }
@@ -169,78 +171,78 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
   const selectRange = (newRange: DatesRange) => {
     const { startDate, endDate } = getDatesFromRange({
       range: newRange,
-      fallbackStartDate: dates.startDate,
-      fallbackEndDate: dates.endDate,
+      fallbackStartDate: datesState.startDate,
+      fallbackEndDate: datesState.endDate,
       config,
     });
-    setDates({
-      ...dates,
+    setDatesState({
+      ...datesState,
       startDate,
       endDate,
       hoveredDate: undefined,
       range: newRange,
-      cursorDate: startDate || dates.cursorDate,
+      cursorDate: startDate || datesState.cursorDate,
     });
   };
 
   const nextMonth = () => {
-    setDates({
-      ...dates,
-      cursorDate: addMonths(dates.cursorDate, 2),
+    setDatesState({
+      ...datesState,
+      cursorDate: addMonths(datesState.cursorDate, 2),
     });
   };
 
   const prevMonth = () => {
-    setDates({
-      ...dates,
-      cursorDate: subMonths(dates.cursorDate, 2),
+    setDatesState({
+      ...datesState,
+      cursorDate: subMonths(datesState.cursorDate, 2),
     });
   };
 
   const firstMonth = getMonthDays({
-    date: dates.cursorDate,
+    date: datesState.cursorDate,
     weekStartsOn: config && config.weekStartsOn,
   });
 
-  const nextMonthCurrentDate = addMonths(dates.cursorDate, 1);
+  const nextMonthCurrentDate = addMonths(datesState.cursorDate, 1);
   const secondMonth = getMonthDays({
     date: nextMonthCurrentDate,
     weekStartsOn: config && config.weekStartsOn,
   });
 
-  const firstMonthLabel = format(
-    dates.cursorDate,
-    (config && config.monthLabelFormat) || 'MMMM'
-  );
-  const firstMonthYearLabel = format(
-    dates.cursorDate,
-    (config && config.yearLabelFormat) || 'yyyy'
-  );
-  const secondMonthLabel = format(
-    nextMonthCurrentDate,
-    (config && config.monthLabelFormat) || 'MMMM'
-  );
-  const secondMonthYearLabel = format(
-    nextMonthCurrentDate,
-    (config && config.yearLabelFormat) || 'yyyy'
-  );
-
-  const weekDayLabels = config && getWeekDayLabels(config);
+  const labels = {
+    firstMonthLabel: format(
+      datesState.cursorDate,
+      (config && config.monthLabelFormat) || 'MMMM',
+      config
+    ),
+    firstMonthYearLabel: format(
+      datesState.cursorDate,
+      (config && config.yearLabelFormat) || 'yyyy',
+      config
+    ),
+    secondMonthLabel: format(
+      nextMonthCurrentDate,
+      (config && config.monthLabelFormat) || 'MMMM',
+      config
+    ),
+    secondMonthYearLabel: format(
+      nextMonthCurrentDate,
+      (config && config.yearLabelFormat) || 'yyyy',
+      config
+    ),
+    weekDayLabels: config && getWeekDayLabels(config),
+  };
 
   return (
     <Picker
-      weekDayLabels={weekDayLabels}
-      firstMonthLabel={firstMonthLabel}
-      firstMonthYearLabel={firstMonthYearLabel}
-      secondMonthLabel={secondMonthLabel}
-      secondMonthYearLabel={secondMonthYearLabel}
+      datesState={datesState}
+      labels={labels}
+      translations={translations}
+      config={config}
       onDayClick={selectDay}
       firstMonth={firstMonth}
       secondMonth={secondMonth}
-      cursorDate={dates.cursorDate}
-      startDate={dates.startDate}
-      endDate={dates.endDate}
-      hoveredDate={dates.hoveredDate}
       onDayMouseEnter={hoverDay}
       selectRange={selectRange}
       nextMonth={nextMonth}
@@ -248,13 +250,10 @@ const Datepicker: React.FC<DateRangePickerProps> = ({
       setStartDate={setStartDate}
       setEndDate={setEndDate}
       onDateChange={onDateChange}
-      range={dates.range}
-      translations={translations}
-      config={config}
       apply={apply}
       reset={reset}
     />
   );
 };
 
-export default Datepicker;
+export default RangeCalendar;

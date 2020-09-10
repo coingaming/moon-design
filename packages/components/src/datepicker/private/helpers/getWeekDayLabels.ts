@@ -5,11 +5,11 @@ import format from 'date-fns/format';
 
 interface WeekStartType {
   weekStartsOn?: 0 | 1 | 2 | 3 | 4 | 5 | 6;
+  locale?: Locale;
 }
 
-// TODO Localization
-export const getWeekDayLabels = ({ weekStartsOn = 1 }: WeekStartType) =>
+export const getWeekDayLabels = ({ weekStartsOn = 1, locale }: WeekStartType) =>
   eachDayOfInterval({
     start: startOfWeek(new Date(), { weekStartsOn }),
     end: endOfWeek(new Date(), { weekStartsOn }),
-  }).map(day => format(day, 'EEEEEE'));
+  }).map(day => format(day, 'EEEEE', { locale }));

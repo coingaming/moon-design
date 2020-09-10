@@ -1,16 +1,11 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import { enGB } from 'date-fns/locale';
 
 import { DateRangePickerProps } from './types/props';
-import Datepicker from './Datepicker';
+import RangeCalendar from './RangeCalendar';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
 
 import { Button } from '..';
-
-const DatepickerWrapper = styled.div({
-  width: 'fit-content',
-  // position: 'relative',
-});
 
 const DateRangePicker: React.FC<DateRangePickerProps> = ({
   startDate,
@@ -31,19 +26,17 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
         {placeholder}
       </Button>
       {isOpen && (
-        <DatepickerWrapper>
-          <Datepicker
-            startDate={startDate}
-            endDate={endDate}
-            range={range}
-            config={config}
-            onDateChange={onDateChange}
-            translations={translations}
-            // hasClickedOutside={hasClickedOutside}
-            setIsOpen={setIsOpen}
-            setPlaceholder={setPlaceholder}
-          />
-        </DatepickerWrapper>
+        <RangeCalendar
+          startDate={startDate}
+          endDate={endDate}
+          range={range}
+          config={config}
+          onDateChange={onDateChange}
+          translations={translations}
+          // hasClickedOutside={hasClickedOutside}
+          setIsOpen={setIsOpen}
+          setPlaceholder={setPlaceholder}
+        />
       )}
     </>
   );
@@ -74,6 +67,7 @@ DateRangePicker.defaultProps = {
     withHoursAndMinutes: true,
     onlyFuture: false,
     without24AndToday: false,
+    locale: enGB,
   },
 };
 
