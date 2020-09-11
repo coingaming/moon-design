@@ -22,8 +22,14 @@ describe('Avatar', () => {
     expect(avatar).toMatchSnapshot();
   });
 
-  test('renders correctly with user name', () => {
+  test('renders correctly with user name as a string', () => {
     const avatar = create(renderWithTheme(<Avatar name="JS" />));
+
+    expect(avatar).toMatchSnapshot();
+  });
+
+  test('renders correctly with user name as a JSX Element', () => {
+    const avatar = create(renderWithTheme(<Avatar name={<span>JS</span>} />));
 
     expect(avatar).toMatchSnapshot();
   });

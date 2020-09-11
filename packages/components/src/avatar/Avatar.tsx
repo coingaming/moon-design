@@ -6,7 +6,7 @@ import { IconUser } from '@heathmont/moon-assets';
 
 type AvatarProps = {
   imageUrl?: string;
-  name?: string;
+  name?: string | JSX.Element;
   color?: ColorProps;
   backgroundColor?: ColorProps;
   size?: 'xsmall' | 'small' | 'medium' | 'large';
@@ -63,7 +63,6 @@ const Avatar: React.FC<AvatarProps> = props => {
 
 Avatar.defaultProps = {
   imageUrl: '',
-  name: '',
   size: 'medium',
 };
 
