@@ -31,7 +31,6 @@ exports[`Avatar renders correctly 1`] = `
 
 <div
   className="c0"
-  name=""
   size="medium"
 >
   <svg
@@ -85,7 +84,6 @@ exports[`Avatar renders correctly with background color 1`] = `
 
 <div
   className="c0"
-  name=""
   size="medium"
 >
   <svg
@@ -138,7 +136,6 @@ exports[`Avatar renders correctly with large size 1`] = `
 
 <div
   className="c0"
-  name=""
   size="large"
 >
   <svg
@@ -191,7 +188,6 @@ exports[`Avatar renders correctly with medium size 1`] = `
 
 <div
   className="c0"
-  name=""
   size="medium"
 >
   <svg
@@ -244,7 +240,6 @@ exports[`Avatar renders correctly with small size 1`] = `
 
 <div
   className="c0"
-  name=""
   size="small"
 >
   <svg
@@ -293,12 +288,51 @@ exports[`Avatar renders correctly with user image 1`] = `
 
 <div
   className="c0"
-  name=""
   size="medium"
 />
 `;
 
-exports[`Avatar renders correctly with user name 1`] = `
+exports[`Avatar renders correctly with user name as a JSX Element 1`] = `
+.c0 {
+  border-radius: 50%;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url();
+  background-size: cover;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.375rem;
+}
+
+<div
+  className="c0"
+  name={
+    <span>
+      JS
+    </span>
+  }
+  size="medium"
+>
+  <span>
+    JS
+  </span>
+</div>
+`;
+
+exports[`Avatar renders correctly with user name as a string 1`] = `
 .c0 {
   border-radius: 50%;
   overflow: hidden;
@@ -363,7 +397,6 @@ exports[`Avatar renders correctly with xsmall size 1`] = `
 
 <div
   className="c0"
-  name=""
   size="xsmall"
 >
   <svg
