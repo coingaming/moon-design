@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
+
+
+### Bug Fixes
+
+* revert non-react imports ([30ec2e8](https://github.com/coingaming/sportsbet-design/commit/30ec2e8d09169bbf13176038e03b454b9a97e396))
+
+
+### Features
+
+* update React imports ([a6bcf72](https://github.com/coingaming/sportsbet-design/commit/a6bcf720965980f0585db7cefd4c729d6d7ac8d8))
+
+
+
+
+
 # [2.32.0](https://github.com/coingaming/sportsbet-design/compare/v2.31.0...v2.32.0) (2020-09-09)
 
 
