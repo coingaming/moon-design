@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { graphql, StaticQuery } from 'gatsby';
 import { cdnUrl } from '@heathmont/sportsbet-cdn';

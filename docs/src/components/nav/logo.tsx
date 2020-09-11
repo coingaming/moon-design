@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
 import { LogoSportsbet, IconChevronDown } from '@heathmont/moon-assets';

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import { hideVisually } from 'polished';

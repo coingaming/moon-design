@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { SpaceProps } from '@heathmont/moon-themes';
 

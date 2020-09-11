@@ -30,7 +30,7 @@ function template(
 ) {
   const typeScriptTpl = template.smart({ plugins: ['typescript'] });
   return typeScriptTpl.ast`
-    import * as React from 'react';
+    import React from 'react';
     import styled from 'styled-components';
     import { ColorProps } from '@heathmont/moon-themes';
     import { themed } from '@heathmont/moon-utils';
