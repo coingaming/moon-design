@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import IconBitcoinTalk from '../icons/IconBitcoinTalk';
 import IconFacebook from '../icons/IconFacebook';

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import IconSportsAmericanFootBall from '../icons/IconSportsAmericanFootBall';
 import IconSportsBadminton from '../icons/IconSportsBadminton';
