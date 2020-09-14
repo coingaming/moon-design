@@ -6,4 +6,5 @@ export type Brand =
   | 'BombayClub'
   | 'Livecasino.io'
   | 'Hub88'
-  | 'Aposta10';
+  | 'Aposta10'
+  | 'BTCXE';
