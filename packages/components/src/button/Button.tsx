@@ -226,7 +226,7 @@ const Button: React.FC<ButtonProps> = ({
             height: rem(space.default),
           }}
         >
-          <Loader color={color.bulma[100]} />
+          <Loader color={color.goten[100]} />
         </div>
       </div>
     );
