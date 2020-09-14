@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import IconBitcoinTalk from '../icons/IconBitcoinTalk';
 import IconFacebook from '../icons/IconFacebook';
@@ -8,6 +8,7 @@ import IconLine from '../icons/IconLine';
 import IconTelegram from '../icons/IconTelegram';
 import IconTwitter from '../icons/IconTwitter';
 import IconVkontakte from '../icons/IconVkontakte';
+import IconWhatsapp from '../icons/IconWhatsapp';
 import IconYoutube from '../icons/IconYoutube';
 
 export type GroupIconThirdPartyName =
@@ -19,6 +20,7 @@ export type GroupIconThirdPartyName =
   | 'telegram'
   | 'twitter'
   | 'vkontakte'
+  | 'whatsapp'
   | 'youtube';
 
 export type GroupIconThirdPartyProps = {
@@ -35,6 +37,7 @@ const thirdPartyIcons = {
   twitter: IconTwitter,
   vkontakte: IconVkontakte,
   youtube: IconYoutube,
+  whatsapp: IconWhatsapp,
 };
 
 const GroupIconThirdParty: React.FC<GroupIconThirdPartyProps> &
