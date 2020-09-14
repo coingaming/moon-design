@@ -35,7 +35,7 @@ type LoaderRingProps = {
 
 const LoaderRing = styled.span<LoaderRingProps>(
   ({ theme: { color, borderStyle, borderWidth } }) => ({
-    '--loader-color': color.bulma[100],
+    '--loader-color': color.piccolo[100],
     display: 'block',
     position: 'absolute',
     width: '100%',
