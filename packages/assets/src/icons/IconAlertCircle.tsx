@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
@@ -13,13 +13,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M20.727 10.687a1 1 0 00-1.454-1.374l-6.829 7.23-3.717-3.935a1 1 0 00-1.454 1.373l4.444 4.706a1 1 0 001.454 0l7.556-8z"
+      d="M14 21a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zM13 15a1 1 0 102 0V7a1 1 0 10-2 0v8z"
       fill="currentColor"
     />
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M14 0C6.268 0 0 6.268 0 14s6.268 14 14 14 14-6.268 14-14S21.732 0 14 0zM2 14C2 7.373 7.373 2 14 2s12 5.373 12 12-5.373 12-12 12S2 20.627 2 14z"
+      d="M0 14C0 6.268 6.268 0 14 0s14 6.268 14 14-6.268 14-14 14S0 21.732 0 14zM14 2C7.373 2 2 7.373 2 14s5.373 12 12 12 12-5.373 12-12S20.627 2 14 2z"
       fill="currentColor"
     />
   </svg>
@@ -30,7 +30,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconSuccess = styled(Svg)<IconProps>(
+const IconAlertCircle = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -51,4 +51,4 @@ const IconSuccess = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconSuccess;
+export default IconAlertCircle;
