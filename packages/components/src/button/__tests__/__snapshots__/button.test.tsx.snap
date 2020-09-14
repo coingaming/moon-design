@@ -2,16 +2,7 @@
 
 exports[`Button renders as an anchor tag 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -48,6 +39,21 @@ exports[`Button renders as an anchor tag 1`] = `
 .c0:focus {
   background-color: #02C556;
   outline: none;
+}
+
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 <a
@@ -55,22 +61,17 @@ exports[`Button renders as an anchor tag 1`] = `
   href="#some-anchor"
   size="small"
 >
-  Primary Button (Anchor)
+  <div
+    className="c1"
+  >
+    Primary Button (Anchor)
+  </div>
 </a>
 `;
 
 exports[`Button renders as disabled 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -109,18 +110,10 @@ exports[`Button renders as disabled 1`] = `
   outline: none;
 }
 
-<button
-  className="c0"
-  disabled={true}
-  size="small"
->
-  Disabled Primary Button
-</button>
-`;
-
-exports[`Button renders as fullWidth 1`] = `
-.c0 {
-  display: inline-grid;
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -129,7 +122,25 @@ exports[`Button renders as fullWidth 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  grid-auto-flow: column;
+  gap: 0.5rem;
+}
+
+<button
+  className="c0"
+  disabled={true}
+  size="small"
+>
+  <div
+    className="c1"
+  >
+    Disabled Primary Button
+  </div>
+</button>
+`;
+
+exports[`Button renders as fullWidth 1`] = `
+.c0 {
+  display: inline-block;
   width: 100%;
   min-height: 1.5rem;
   font-family: inherit;
@@ -170,26 +181,36 @@ exports[`Button renders as fullWidth 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0"
   size="small"
 >
-  Full Width Primary Button
+  <div
+    className="c1"
+  >
+    Full Width Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button renders correctly 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -228,26 +249,36 @@ exports[`Button renders correctly 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0"
   size="small"
 >
-  Primary Button
+  <div
+    className="c1"
+  >
+    Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants renders as default 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -285,26 +316,36 @@ exports[`Button variants renders as default 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0"
   size="small"
 >
-  Default Button
+  <div
+    className="c1"
+  >
+    Default Button
+  </div>
 </button>
 `;
 
 exports[`Button variants renders as highlight 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -343,26 +384,36 @@ exports[`Button variants renders as highlight 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0"
   size="small"
 >
-  Secondary Button
+  <div
+    className="c1"
+  >
+    Secondary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants renders as primary 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -401,26 +452,36 @@ exports[`Button variants renders as primary 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0"
   size="small"
 >
-  Primary Button
+  <div
+    className="c1"
+  >
+    Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants renders as secondary 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -457,28 +518,38 @@ exports[`Button variants renders as secondary 1`] = `
 .c0:focus {
   background-color: #11161D;
   outline: none;
+}
+
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 <button
   className="c0"
   size="small"
 >
-  Secondary Button
+  <div
+    className="c1"
+  >
+    Secondary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Default renders as active 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -516,26 +587,36 @@ exports[`Button variants variants MockStates Default renders as active 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Default Button
+  <div
+    className="c1"
+  >
+    Active Default Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Default renders as active 2`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -573,26 +654,36 @@ exports[`Button variants variants MockStates Default renders as active 2`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Default Button
+  <div
+    className="c1"
+  >
+    Active Default Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Default renders with hover 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -630,26 +721,36 @@ exports[`Button variants variants MockStates Default renders with hover 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-hover"
   size="small"
 >
-  Hover Default Button
+  <div
+    className="c1"
+  >
+    Hover Default Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Default renders with hover 2`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -687,26 +788,36 @@ exports[`Button variants variants MockStates Default renders with hover 2`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-hover"
   size="small"
 >
-  Hover Default Button
+  <div
+    className="c1"
+  >
+    Hover Default Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Highlight outline renders as active 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -745,26 +856,36 @@ exports[`Button variants variants MockStates Highlight outline renders as active
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Primary Button
+  <div
+    className="c1"
+  >
+    Active Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Highlight renders as active 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -803,26 +924,36 @@ exports[`Button variants variants MockStates Highlight renders as active 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Highlight Button
+  <div
+    className="c1"
+  >
+    Active Highlight Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Highlight renders with hover 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -861,26 +992,36 @@ exports[`Button variants variants MockStates Highlight renders with hover 1`] = 
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-hover"
   size="small"
 >
-  Hover Highlight Button
+  <div
+    className="c1"
+  >
+    Hover Highlight Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Primary renders as active 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -919,26 +1060,36 @@ exports[`Button variants variants MockStates Primary renders as active 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Primary Button
+  <div
+    className="c1"
+  >
+    Active Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Primary renders with hover 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -977,26 +1128,36 @@ exports[`Button variants variants MockStates Primary renders with hover 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-hover"
   size="small"
 >
-  Hover Primary Button
+  <div
+    className="c1"
+  >
+    Hover Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Secondary renders as active 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -1035,26 +1196,36 @@ exports[`Button variants variants MockStates Secondary renders as active 1`] = `
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Secondary Button
+  <div
+    className="c1"
+  >
+    Active Secondary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Secondary renders as active 2`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -1091,28 +1262,38 @@ exports[`Button variants variants MockStates Secondary renders as active 2`] = `
 .c0:focus {
   background-color: #11161D;
   outline: none;
+}
+
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 <button
   className="c0 is-active"
   size="small"
 >
-  Active Primary Button
+  <div
+    className="c1"
+  >
+    Active Primary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Secondary renders with hover 1`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -1151,26 +1332,36 @@ exports[`Button variants variants MockStates Secondary renders with hover 1`] = 
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-hover"
   size="small"
 >
-  Hover Secondary Button
+  <div
+    className="c1"
+  >
+    Hover Secondary Button
+  </div>
 </button>
 `;
 
 exports[`Button variants variants MockStates Secondary renders with hover 2`] = `
 .c0 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -1209,10 +1400,29 @@ exports[`Button variants variants MockStates Secondary renders with hover 2`] = 
   outline: none;
 }
 
+.c1 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 <button
   className="c0 is-hover"
   size="small"
 >
-  Hover Primary Button
+  <div
+    className="c1"
+  >
+    Hover Primary Button
+  </div>
 </button>
 `;
