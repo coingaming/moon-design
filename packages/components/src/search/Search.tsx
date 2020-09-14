@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import { SearchForm } from './private/components/Form';
 import { SearchInput, SearchInputIcon } from './private/components/Input';
