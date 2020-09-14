@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
+
+
+### Features
+
+* add btcxe theme ([e49afdf](https://github.com/coingaming/sportsbet-design/commit/e49afdfe2e3025185833266d573ccd507a75c25d))
+
+
+
+
+
 # [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
 
 ### Features
