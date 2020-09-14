@@ -1,0 +1,43 @@
+---
+name: Datepicker
+menu: Components
+route: /components/datepicker
+---
+
+# Datepicker
+
+Datepicker
+
+## Usage
+
+weekStartsOn
+(optional, default=0)
+0 | 1 | 2 | 3 | 4 | 5 | 6
+the index of the first day of the week (0 - Sunday)
+
+```jsx react-live
+<Example />
+```
+
+```jsx react-live
+<DateRangePicker
+  onDateChange={({ startDate, endDate }) => {
+    console.log(startDate, endDate);
+  }}
+  config={{
+    weekStartsOn: 1,
+  }}
+/>
+```
+
+```jsx react-live
+<DateRangePicker
+  onDateChange={({ startDate, endDate }) => {
+    console.log(startDate, endDate);
+  }}
+  range={'thisWeek'}
+  config={{
+    weekStartsOn: 1,
+  }}
+/>
+```
