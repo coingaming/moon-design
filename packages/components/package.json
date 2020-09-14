@@ -20,11 +20,13 @@
     "@heathmont/moon-utils": "^2.33.0",
     "@reach/dialog": "0.3.0",
     "polished": "3.4.1",
+    "react-paginate": "6.4.0",
     "scroll-into-view-if-needed": "2.2.22",
     "smooth-scroll-into-view-if-needed": "1.1.27"
   },
   "devDependencies": {
-    "@types/reach__dialog": "0.1.0"
+    "@types/reach__dialog": "0.1.0",
+    "@types/react-paginate": "^6.2.1"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
