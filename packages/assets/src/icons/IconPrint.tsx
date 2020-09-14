@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
@@ -13,13 +13,9 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M20.727 10.687a1 1 0 00-1.454-1.374l-6.829 7.23-3.717-3.935a1 1 0 00-1.454 1.373l4.444 4.706a1 1 0 001.454 0l7.556-8z"
-      fill="currentColor"
-    />
-    <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M14 0C6.268 0 0 6.268 0 14s6.268 14 14 14 14-6.268 14-14S21.732 0 14 0zM2 14C2 7.373 7.373 2 14 2s12 5.373 12 12-5.373 12-12 12S2 20.627 2 14z"
+      d="M3 5v3a3 3 0 00-3 3v9a3 3 0 003 3h1v2a3 3 0 003 3h14a3 3 0 003-3v-2h1a3 3 0 003-3v-9a3 3 0 00-3-3V5a5 5 0 00-5-5H8a5 5 0 00-5 5zm5-3a3 3 0 00-3 3v3h18V5a3 3 0 00-3-3H8zm16 19h1a1 1 0 001-1v-9a1 1 0 00-1-1H3a1 1 0 00-1 1v9a1 1 0 001 1h1v-2a3 3 0 013-3h14a3 3 0 013 3v2zM6 19a1 1 0 011-1h14a1 1 0 011 1v6a1 1 0 01-1 1H7a1 1 0 01-1-1v-6z"
       fill="currentColor"
     />
   </svg>
@@ -30,7 +26,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconSuccess = styled(Svg)<IconProps>(
+const IconPrint = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -51,4 +47,4 @@ const IconSuccess = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconSuccess;
+export default IconPrint;
