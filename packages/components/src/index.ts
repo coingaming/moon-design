@@ -84,6 +84,10 @@ export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as MediaObject } from './mediaObject/MediaObject';
 export * from './mediaObject/MediaObject';
+export { default as GoToPage } from './pagination/GoToPage';
+export * from './pagination/GoToPage';
+export { default as Pagination } from './pagination/Pagination';
+export * from './pagination/Pagination';
 export { default as Path } from './progressCircular/Path';
 export * from './progressCircular/Path';
 export {
