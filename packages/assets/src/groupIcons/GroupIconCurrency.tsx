@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import IconCurrencyArs from '../icons/IconCurrencyArs';
 import IconCurrencyBdt from '../icons/IconCurrencyBdt';
