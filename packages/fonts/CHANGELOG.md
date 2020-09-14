@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
+
+**Note:** Version bump only for package @heathmont/moon-fonts
+
+
+
+
+
 # [2.29.0](https://github.com/coingaming/sportsbet-design/compare/v2.28.0...v2.29.0) (2020-08-27)
 
 ### Features

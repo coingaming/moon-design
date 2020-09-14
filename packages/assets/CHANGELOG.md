@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
+
+
+### Bug Fixes
+
+* fix ios buttons ([c1eeb33](https://github.com/coingaming/sportsbet-design/commit/c1eeb3330f0eef3d034e23221e2a11f10c37457d))
+
+
+### Features
+
+* add first set of hub88 icons ([b122069](https://github.com/coingaming/sportsbet-design/commit/b1220693152f9bdbce2d4677e39f2def4a7cb75a))
+* initial commit - gamepad icon ([ff8c91d](https://github.com/coingaming/sportsbet-design/commit/ff8c91d5bb35644d2fc36c33691889b4a14bf905))
+
+
+
+
+
 # [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
 
 ### Features
