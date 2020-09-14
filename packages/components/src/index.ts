@@ -94,6 +94,8 @@ export { default as ProgressLinear } from './progressLinear/ProgressLinear';
 export * from './progressLinear/ProgressLinear';
 export { default as Reel } from './reel/Reel';
 export * from './reel/Reel';
+export { default as Search } from './search/Search';
+export * from './search/Search';
 export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as Snackbar } from './snackbar/Snackbar';
