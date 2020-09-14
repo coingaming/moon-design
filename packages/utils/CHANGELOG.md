@@ -5,161 +5,83 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
 
-
 ### Features
 
-* update React imports ([a6bcf72](https://github.com/coingaming/sportsbet-design/commit/a6bcf720965980f0585db7cefd4c729d6d7ac8d8))
-
-
-
-
+- update React imports ([a6bcf72](https://github.com/coingaming/sportsbet-design/commit/a6bcf720965980f0585db7cefd4c729d6d7ac8d8))
 
 # [2.31.0](https://github.com/coingaming/sportsbet-design/compare/v2.30.0...v2.31.0) (2020-09-02)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.30.0](https://github.com/coingaming/sportsbet-design/compare/v2.29.2...v2.30.0) (2020-09-02)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.29.0](https://github.com/coingaming/sportsbet-design/compare/v2.28.0...v2.29.0) (2020-08-27)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.27.0](https://github.com/coingaming/sportsbet-design/compare/v2.26.6...v2.27.0) (2020-08-26)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 ## [2.26.6](https://github.com/coingaming/sportsbet-design/compare/v2.26.5...v2.26.6) (2020-08-18)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.24.0](https://github.com/coingaming/sportsbet-design/compare/v2.23.0...v2.24.0) (2020-08-03)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.23.0](https://github.com/coingaming/sportsbet-design/compare/v2.22.0...v2.23.0) (2020-07-29)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.22.0](https://github.com/coingaming/sportsbet-design/compare/v2.21.0...v2.22.0) (2020-07-28)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.21.0](https://github.com/coingaming/sportsbet-design/compare/v2.20.0...v2.21.0) (2020-07-27)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.20.0](https://github.com/coingaming/sportsbet-design/compare/v2.19.1...v2.20.0) (2020-07-24)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 ## [2.19.1](https://github.com/coingaming/sportsbet-design/compare/v2.19.0...v2.19.1) (2020-07-09)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.18.0](https://github.com/coingaming/sportsbet-design/compare/v2.17.2...v2.18.0) (2020-07-09)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 ## [2.17.2](https://github.com/coingaming/sportsbet-design/compare/v2.17.1...v2.17.2) (2020-07-07)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 ## [2.17.1](https://github.com/coingaming/sportsbet-design/compare/v2.17.0...v2.17.1) (2020-07-03)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.17.0](https://github.com/coingaming/sportsbet-design/compare/v2.16.0...v2.17.0) (2020-07-02)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.16.0](https://github.com/coingaming/sportsbet-design/compare/v2.15.0...v2.16.0) (2020-06-30)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 ## [2.14.1](https://github.com/coingaming/sportsbet-design/compare/v2.14.0...v2.14.1) (2020-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.14.0](https://github.com/coingaming/sportsbet-design/compare/v2.13.0...v2.14.0) (2020-06-09)
-
 
 ### Features
 
-* to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
-
-
-
-
+- to the moon ([a60f8e8](https://github.com/coingaming/sportsbet-design/commit/a60f8e848eee9f336a2e0b3877c7d47ee9d6f381))
 
 # [2.12.0](https://github.com/coingaming/sportsbet-design/compare/v2.11.2...v2.12.0) (2020-05-20)
 
