@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
@@ -7,19 +7,15 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 28 28"
+    viewBox="0 0 27 27"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="M20.727 10.687a1 1 0 00-1.454-1.374l-6.829 7.23-3.717-3.935a1 1 0 00-1.454 1.373l4.444 4.706a1 1 0 001.454 0l7.556-8z"
-      fill="currentColor"
-    />
-    <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M14 0C6.268 0 0 6.268 0 14s6.268 14 14 14 14-6.268 14-14S21.732 0 14 0zM2 14C2 7.373 7.373 2 14 2s12 5.373 12 12-5.373 12-12 12S2 20.627 2 14z"
+      d="M25.336 17.79c.242-.96.37-1.964.37-2.997 0-5.223-3.279-9.678-7.889-11.421a4.45 4.45 0 00-8.634 0c-4.61 1.743-7.89 6.198-7.89 11.421 0 1.033.129 2.037.37 2.996a4.448 4.448 0 005.165 7.228A12.154 12.154 0 0013.5 27c2.46 0 4.754-.73 6.671-1.983a4.448 4.448 0 005.165-7.228zM11.052 4.447a2.448 2.448 0 114.896 0 2.448 2.448 0 01-4.896 0zM9.186 5.54a10.209 10.209 0 00-5.893 9.254c0 .726.076 1.434.22 2.116a4.448 4.448 0 014.747 6.645A10.156 10.156 0 0013.5 25c1.917 0 3.709-.528 5.24-1.446a4.448 4.448 0 014.747-6.645 10.209 10.209 0 00-5.674-11.37 4.45 4.45 0 01-8.627 0zM4.448 18.81a2.448 2.448 0 100 4.897 2.448 2.448 0 000-4.897zm15.655 2.449a2.448 2.448 0 114.897 0 2.448 2.448 0 01-4.896 0z"
       fill="currentColor"
     />
   </svg>
@@ -30,7 +26,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconSuccess = styled(Svg)<IconProps>(
+const IconShare = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -51,4 +47,4 @@ const IconSuccess = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconSuccess;
+export default IconShare;
