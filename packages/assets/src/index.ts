@@ -560,6 +560,8 @@ export { default as IconWand } from './icons/IconWand';
 export * from './icons/IconWand';
 export { default as IconWarning } from './icons/IconWarning';
 export * from './icons/IconWarning';
+export { default as IconWhatsapp } from './icons/IconWhatsapp';
+export * from './icons/IconWhatsapp';
 export { default as IconYoutube } from './icons/IconYoutube';
 export * from './icons/IconYoutube';
 export { default as LogoBtcxe } from './logos/LogoBtcxe';
