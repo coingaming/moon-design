@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { enGB } from 'date-fns/locale';
 
 import DateRangePicker from './DateRangePicker';
