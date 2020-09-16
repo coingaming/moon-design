@@ -45,15 +45,13 @@ const buttonVariant = (key: ButtonVariants) => ({ color }: Theme) => {
     },
     tertiary: {
       color: color.bulma[100],
-      backgroundColor: 'inherit',
-      border: `1px solid ${color.piccolo[100]}`,
+      backgroundColor: 'transparent',
+      border: `1px solid ${color.bulma[100]}`,
       ...buttonHover({
-        color: color.goten[100],
-        backgroundColor: color.piccolo[100],
+        backgroundColor: color.hit[80],
       }),
       ...buttonActive({
-        color: color.goten[100],
-        backgroundColor: color.piccolo[100],
+        backgroundColor: color.hit[120],
         outline: 'none',
       }),
     },
