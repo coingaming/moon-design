@@ -60,7 +60,7 @@ const btcxe: Theme = {
     ...supportColors,
     ...color,
   },
-  colorScheme: 'dark',
+  colorScheme: 'light',
 };
 
 export default btcxe;
