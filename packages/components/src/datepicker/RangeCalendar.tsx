@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import addMonths from 'date-fns/addMonths';
 import subMonths from 'date-fns/subMonths';
 import endOfDay from 'date-fns/endOfDay';
