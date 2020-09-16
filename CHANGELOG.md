@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.34.1](https://github.com/coingaming/sportsbet-design/compare/v2.34.0...v2.34.1) (2020-09-16)
+
+
+### Bug Fixes
+
+* change btcxe color scheme to light ([328d7e5](https://github.com/coingaming/sportsbet-design/commit/328d7e50b1cfe1431bf4f860a4a740f38ddb88be))
+* fix tertiary button, add checked state of checkbox ([17fa64e](https://github.com/coingaming/sportsbet-design/commit/17fa64e6201747c3887200d4296215d6e6f2b88d))
+
+
+
+
+
 # [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
 
 
