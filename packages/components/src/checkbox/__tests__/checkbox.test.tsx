@@ -30,10 +30,18 @@ describe('Checkbox', () => {
     expect(checkbox).toMatchSnapshot();
   });
 
+  test('renders as checked', () => {
+    const checkbox = create(
+      renderWithTheme(<Checkbox id="Checkbox-Test3" checked {...testProps} />)
+    );
+
+    expect(checkbox).toMatchSnapshot();
+  });
+
   test('renders with hidden aria-label', () => {
     const checkbox = create(
       renderWithTheme(
-        <Checkbox id="Checkbox-Test3" ariaLabel="This label is hidden" />
+        <Checkbox id="Checkbox-Test4" ariaLabel="This label is hidden" />
       )
     );
 
@@ -44,7 +52,7 @@ describe('Checkbox', () => {
     const checkbox = create(
       renderWithTheme(
         <Checkbox
-          id="Checkbox-Test4"
+          id="Checkbox-Test5"
           label={
             <span>
               This is a label with a <a href="#test">link</a>.
