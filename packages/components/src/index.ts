@@ -34,6 +34,10 @@ export { default as control } from './carousel/control';
 export * from './carousel/control';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
+export {
+  default as CheckboxMultiselect,
+} from './checkboxMultiselect/CheckboxMultiselect';
+export * from './checkboxMultiselect/CheckboxMultiselect';
 export { default as DateRangePicker } from './datepicker/DateRangePicker';
 export * from './datepicker/DateRangePicker';
 export { default as Example } from './datepicker/Example';
