@@ -34,3 +34,56 @@ Wrapper of different filters
   />
 </FilterDropdown>
 ```
+
+## With TreeCheckboxMultiselect filter
+
+```jsx react-live
+<FilterDropdown
+  searchPlaceholder="Search for a name..."
+  onSearchChange={value => console.log('onSearchChange:', value)}
+>
+  <CheckboxMultiselect
+    onChange={value => console.log('onChange:', value)}
+    clearSelectedLabel={<span>Clear selected items</span>}
+    value={[{ label: 'Game 2', value: 2 }]}
+    options={[
+      {
+        label: 'Game 1',
+        value: 1,
+        innerOptions: [
+          {
+            label: 'Game 1-1',
+            value: 11,
+            label: 'Game 1-2',
+            value: 12,
+          },
+        ],
+      },
+      {
+        label: 'Game 2',
+        value: 2,
+        innerOptions: [
+          {
+            label: 'Game 2-2',
+            value: 22,
+          },
+        ],
+      },
+      {
+        label: 'Game 3',
+        value: 3,
+        innerOptions: [
+          {
+            label: 'Game 3-1',
+            value: 31,
+            label: 'Game 3-2',
+            value: 32,
+            label: 'Game 3-3',
+            value: 33,
+          },
+        ],
+      },
+    ]}
+  />
+</FilterDropdown>
+```
