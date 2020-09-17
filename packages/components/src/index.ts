@@ -60,6 +60,8 @@ export { default as EmptyState } from './emptyState/EmptyState';
 export * from './emptyState/EmptyState';
 export { default as FileInput } from './fileInput/FileInput';
 export * from './fileInput/FileInput';
+export { default as FilterDropdown } from './filterDropdown/FilterDropdown';
+export * from './filterDropdown/FilterDropdown';
 export { default as Form } from './form/Form';
 export * from './form/Form';
 export { default as FormCombo } from './formCombo/FormCombo';
