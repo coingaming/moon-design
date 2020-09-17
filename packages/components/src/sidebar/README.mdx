@@ -1,0 +1,30 @@
+---
+name: Sidebar
+menu: Components
+route: /components/sidebar
+---
+
+import { Sidebar } from '@heathmont/moon-components';
+import {
+  IconChevronLeftRounded,
+  IconChevronRightRounded,
+  IconBitcoinTalk,
+} from '@heathmont/moon-assets/icons';
+
+# Sidebar
+
+Collapsible sidebar component
+
+```jsx react-live
+<Sidebar
+  collapseIcon={<IconChevronLeftRounded />}
+  expandIcon={<IconChevronRightRounded />}
+  logo={
+    <Inline fontSize="2rem">
+      <IconBitcoinTalk />
+    </Inline>
+  }
+>
+  Something
+</Sidebar>
+```
