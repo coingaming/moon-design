@@ -5,11 +5,12 @@ import styled from 'styled-components';
 import Checkbox from '../checkbox/Checkbox';
 import { CheckboxIcon } from '../checkbox/private/icon';
 
-import { getElementLabel } from './private/getElementLabel';
+import Toggle from './private/Toggle';
 
-type Option = {
+type Option = React.InputHTMLAttributes<HTMLInputElement> & {
   label: string | JSX.Element;
-  [key: string]: any;
+  value: any;
+  innerOptions?: Option[];
 };
 
 type CheckboxMultiselectProps = {
@@ -31,10 +32,10 @@ const ClearSelected = styled.a(({ theme }) => ({
   },
 }));
 
-const List = styled.ul<{ maxHeight: string | number }>(({ maxHeight }) => ({
+const List = styled.ul<{ maxHeight?: string | number }>(({ maxHeight }) => ({
   listStyle: 'none',
   maxHeight,
-  overflow: 'scroll',
+  overflow: maxHeight ? 'auto' : 'visible',
   paddingLeft: rem(8),
 }));
 
@@ -45,6 +46,10 @@ const ListItem = styled.li({
   },
   '&:last-child': {
     marginBottom: rem(12),
+  },
+  ul: {
+    paddingLeft: 0,
+    marginTop: rem(24),
   },
 });
 
@@ -70,21 +75,16 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = props => {
     onChange([]);
   };
 
-  const handleCheckboxChange = (option: Option, checked: boolean) => {
+  const handleCheckboxChange = (currentOption: Option, checked: boolean) => {
     const newValue = checked
-      ? [...actualValue, option]
-      : actualValue.filter(
-          ({ label }) =>
-            getElementLabel(label) !== getElementLabel(option.label)
-        );
+      ? [...actualValue, currentOption]
+      : actualValue.filter(option => option.value !== currentOption.value);
     setActualValue(newValue);
     onChange(newValue);
   };
 
-  const isChecked = (label: string | JSX.Element) =>
-    !!actualValue.find(
-      valueItem => getElementLabel(valueItem.label) === getElementLabel(label)
-    );
+  const isChecked = (optionValue: any) =>
+    !!actualValue.find(option => optionValue === option.value);
 
   return (
     <div>
@@ -95,14 +95,45 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = props => {
       )}
       <List maxHeight={maxHeight}>
         {options.map(option => (
-          <ListItem key={getElementLabel(option.label)}>
-            <CheckboxStyled
-              {...option}
-              checked={isChecked(option.label)}
-              onChange={event =>
-                handleCheckboxChange(option, event.target.checked)
-              }
-            />
+          <ListItem key={option.value}>
+            {option.innerOptions && option.innerOptions.length ? (
+              <Toggle
+                header={
+                  <CheckboxStyled
+                    {...option}
+                    checked={isChecked(option.value)}
+                    onChange={event =>
+                      handleCheckboxChange(option, event.target.checked)
+                    }
+                  />
+                }
+              >
+                <List>
+                  {option.innerOptions.map(innerOption => (
+                    <ListItem key={innerOption.value}>
+                      <CheckboxStyled
+                        {...innerOption}
+                        checked={isChecked(innerOption.value)}
+                        onChange={event =>
+                          handleCheckboxChange(
+                            innerOption,
+                            event.target.checked
+                          )
+                        }
+                      />
+                    </ListItem>
+                  ))}
+                </List>
+              </Toggle>
+            ) : (
+              <CheckboxStyled
+                {...option}
+                checked={isChecked(option.value)}
+                onChange={event =>
+                  handleCheckboxChange(option, event.target.checked)
+                }
+              />
+            )}
           </ListItem>
         ))}
       </List>
