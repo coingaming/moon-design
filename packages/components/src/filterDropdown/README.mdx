@@ -1,0 +1,36 @@
+---
+name: FilterDropdown
+menu: Components
+route: /components/filterDropdown
+---
+
+# FilterDropdown
+
+Wrapper of different filters
+
+```jsx react-live
+<FilterDropdown
+  searchPlaceholder="Search for a name..."
+  onSearchChange={value => console.log(value)}
+></FilterDropdown>
+```
+
+## With CheckboxMultiselect filter
+
+```jsx react-live
+<FilterDropdown
+  searchPlaceholder="Search for a name..."
+  onSearchChange={value => console.log('onSearchChange:', value)}
+>
+  <CheckboxMultiselect
+    onChange={value => console.log('onChange:', value)}
+    clearSelectedLabel={<span>Clear selected items</span>}
+    value={[{ label: 'Game 2', value: 2 }]}
+    options={[
+      { label: 'Game 1', value: 1 },
+      { label: 'Game 2', value: 2 },
+      { label: 'Game 3', value: 3 },
+    ]}
+  />
+</FilterDropdown>
+```
