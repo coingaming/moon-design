@@ -1,0 +1,120 @@
+---
+name: CheckboxMultiselect
+menu: Components
+route: /components/checkboxMultiselect
+---
+
+# CheckboxMultiselect
+
+Group of checkbox options
+
+```jsx react-live
+<CheckboxMultiselect
+  onChange={value => console.log(value)}
+  clearSelectedLabel={<span>Clear selected items</span>}
+  value={[]}
+  options={[
+    { label: 'Game 1' },
+    { label: 'Game 2' },
+    {
+      label: (
+        <span>
+          Game <b>3</b>
+        </span>
+      ),
+    },
+    {
+      label: (
+        <span>
+          Game <b>4</b>
+        </span>
+      ),
+    },
+    {
+      label: (
+        <span>
+          Game <b>5</b>
+        </span>
+      ),
+    },
+  ]}
+/>
+```
+
+## With preselected value
+
+```jsx react-live
+<CheckboxMultiselect
+  onChange={value => console.log(value)}
+  clearSelectedLabel={<span>Clear selected items</span>}
+  value={[
+    {
+      label: (
+        <span>
+          Game <b>1</b>
+        </span>
+      ),
+    },
+  ]}
+  options={[
+    {
+      label: (
+        <span>
+          Game <b>1</b>
+        </span>
+      ),
+    },
+    {
+      label: (
+        <span>
+          Game <b>2</b>
+        </span>
+      ),
+    },
+    {
+      label: (
+        <span>
+          Game <b>3</b>
+        </span>
+      ),
+    },
+    {
+      label: (
+        <span>
+          Game <b>4</b>
+        </span>
+      ),
+    },
+    {
+      label: (
+        <span>
+          Game <b>5</b>
+        </span>
+      ),
+    },
+  ]}
+/>
+```
+
+## Customize maxHeight
+
+```jsx react-live
+<CheckboxMultiselect
+  maxHeight={rem(100)}
+  onChange={value => console.log(value)}
+  clearSelectedLabel={<span>Clear selected items</span>}
+  value={[{ label: 'Game 2' }]}
+  options={[
+    { label: 'Game 1' },
+    { label: 'Game 2' },
+    { label: 'Game 3' },
+    { label: 'Game 4' },
+    { label: 'Game 5' },
+    { label: 'Game 6' },
+    { label: 'Game 7' },
+    { label: 'Game 8' },
+    { label: 'Game 9' },
+    { label: 'Game 10' },
+  ]}
+/>
+```
