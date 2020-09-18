@@ -45,8 +45,8 @@ exports[`CheckboxMultiselect renders by default 1`] = `
 }
 
 .c5::after {
-  border: 1px solid #8697A2;
-  border-radius: 0.25rem;
+  border: 0.125rem solid #8697A2;
+  border-radius: 0.125rem;
   background-color: transparent;
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -67,6 +67,17 @@ exports[`CheckboxMultiselect renders by default 1`] = `
   width: 1px;
 }
 
+.c3 + span {
+  cursor: pointer;
+}
+
+.c3 + span::after {
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0;
+}
+
 .c3:hover:enabled + span::before,
 .c3:focus:enabled + span::before {
   opacity: 0.5;
@@ -78,7 +89,7 @@ exports[`CheckboxMultiselect renders by default 1`] = `
 .c3:hover:enabled:checked + span::before,
 .c3:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #19E170;
+  background-color: #0CD463;
 }
 
 .c3:hover:enabled:not(:checked) + span::after,
@@ -87,20 +98,14 @@ exports[`CheckboxMultiselect renders by default 1`] = `
 }
 
 .c3:checked + span::after {
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%230CD463%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #0CD463;
   background-size: 0.625rem;
   border-color: #0CD463;
 }
 
 .c3[disabled] + span {
-  color: #353C44;
+  opacity: 0.5;
   cursor: not-allowed;
-}
-
-.c3[disabled] + span::after {
-  border-color: #353C44;
 }
 
 .c0 {
@@ -258,8 +263,8 @@ exports[`CheckboxMultiselect renders with inner options 1`] = `
 }
 
 .c9::after {
-  border: 1px solid #8697A2;
-  border-radius: 0.25rem;
+  border: 0.125rem solid #8697A2;
+  border-radius: 0.125rem;
   background-color: transparent;
   -webkit-transition-property: border-color;
   transition-property: border-color;
@@ -280,6 +285,17 @@ exports[`CheckboxMultiselect renders with inner options 1`] = `
   width: 1px;
 }
 
+.c7 + span {
+  cursor: pointer;
+}
+
+.c7 + span::after {
+  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0;
+}
+
 .c7:hover:enabled + span::before,
 .c7:focus:enabled + span::before {
   opacity: 0.5;
@@ -291,7 +307,7 @@ exports[`CheckboxMultiselect renders with inner options 1`] = `
 .c7:hover:enabled:checked + span::before,
 .c7:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #19E170;
+  background-color: #0CD463;
 }
 
 .c7:hover:enabled:not(:checked) + span::after,
@@ -300,20 +316,14 @@ exports[`CheckboxMultiselect renders with inner options 1`] = `
 }
 
 .c7:checked + span::after {
-  background-image: url('data:image/svg+xml;utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%25%22%20height%3D%22auto%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2014%22%3E%3Cpath%20fill%3D%22%230CD463%22%20fill-rule%3D%22evenodd%22%20d%3D%22M18%200c-.56%200-1.06.22-1.42.58L8%209.18l-4.58-4.6C3.06%204.22%202.56%204%202%204%20.9%204%200%204.9%200%206c0%20.56.22%201.06.58%201.42l6%206c.36.36.86.58%201.42.58.56%200%201.06-.22%201.42-.58l10-10c.36-.36.58-.86.58-1.42%200-1.1-.9-2-2-2z%22%20clip-rule%3D%22evenodd%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #0CD463;
   background-size: 0.625rem;
   border-color: #0CD463;
 }
 
 .c7[disabled] + span {
-  color: #353C44;
+  opacity: 0.5;
   cursor: not-allowed;
-}
-
-.c7[disabled] + span::after {
-  border-color: #353C44;
 }
 
 .c5 {
