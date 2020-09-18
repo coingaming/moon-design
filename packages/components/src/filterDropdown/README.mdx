@@ -87,3 +87,20 @@ Wrapper of different filters
   />
 </FilterDropdown>
 ```
+
+## Without search input
+
+```jsx react-live
+<FilterDropdown>
+  <CheckboxMultiselect
+    onChange={value => console.log('onChange:', value)}
+    clearSelectedLabel={<span>Clear selected items</span>}
+    value={[]}
+    options={[
+      { label: 'Game 1', value: 1 },
+      { label: 'Game 2', value: 2 },
+      { label: 'Game 3', value: 3 },
+    ]}
+  />
+</FilterDropdown>
+```

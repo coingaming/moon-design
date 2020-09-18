@@ -23,6 +23,12 @@ describe('FilterDropdown', () => {
     expect(filterDropdown).toMatchSnapshot();
   });
 
+  test('renders without search input', () => {
+    const filterDropdown = create(renderWithTheme(<FilterDropdown />));
+
+    expect(filterDropdown).toMatchSnapshot();
+  });
+
   describe('when renders with onSearchChange handler', () => {
     const onSearchChangeMock = jest.fn();
     let filterDropdown: ReactTestRenderer;
