@@ -27,6 +27,7 @@ const ClearSelected = styled.a(({ theme }) => ({
   fontWeight: theme.fontWeight.semibold,
   cursor: 'pointer',
   marginBottom: rem(10),
+  textDecoration: 'none',
   '&:hover, &:focus, &:active': {
     color: theme.color.piccolo[80],
   },
@@ -89,7 +90,7 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = props => {
   return (
     <div>
       {!!actualValue.length && (
-        <ClearSelected onClick={clearSelected}>
+        <ClearSelected href="#" onClick={clearSelected}>
           {clearSelectedLabel}
         </ClearSelected>
       )}
