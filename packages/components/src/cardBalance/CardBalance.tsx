@@ -28,7 +28,7 @@ const Unit = styled.abbr({
 
 const Title = styled.p({
   margin: 0,
-  fontSize: rem(31),
+  fontSize: rem(32),
   lineHeight: rem(38),
 });
 
