@@ -43,7 +43,7 @@ const Card = styled.div<CardProps>(
   }) => [
     {
       display: 'block',
-      minHeight: rem(170),
+      minHeight: rem(168),
       ...padding(rem(space.default), rem(space.medium)),
       position: 'relative',
       borderRadius: rem(radius.default),
