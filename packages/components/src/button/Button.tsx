@@ -62,6 +62,7 @@ const StyledButton = styled.button<ButtonProps>(
     borderColor: 'transparent',
     borderRadius: rem(radius.largest),
     transition: `background-color ${transitionDuration.default}s`,
+    whiteSpace: 'nowrap',
     ...disabled(opacity.disabled),
   }),
   ({ fullWidth }) => fullWidth && { position: 'relative' },
@@ -74,7 +75,7 @@ const StyledButton = styled.button<ButtonProps>(
         transform: 'translate3d(0, 0, 0)',
         backfaceVisibility: 'hidden',
         perspective: rem(1000),
-        color: color.bulma[100],
+        color: color.goten[100],
         backgroundColor: color.chiChi[100],
         ...buttonHover({
           backgroundColor: color.chiChi[100],
@@ -147,7 +148,7 @@ const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
     size === 'medium' && {
       position: 'absolute',
       left: rem(16),
-      top: rem(11),
+      top: rem(12),
     },
   fullWidth &&
     size === 'large' && {
@@ -188,7 +189,7 @@ const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
     size === 'medium' && {
       position: 'absolute',
       right: rem(16),
-      top: rem(11),
+      top: rem(12),
     },
   fullWidth &&
     size === 'large' && {
