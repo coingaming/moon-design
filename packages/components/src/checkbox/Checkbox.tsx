@@ -59,8 +59,8 @@ const CheckboxCaption = styled.span(({ theme }) => ({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: `${inputBorderWidth(theme)}px solid ${theme.color.trunks[100]}`,
-    borderRadius: rem(theme.radius.small),
+    border: `${rem(2)} solid ${theme.color.trunks[100]}`,
+    borderRadius: rem(2),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
   },
@@ -74,6 +74,17 @@ const CheckboxCaption = styled.span(({ theme }) => ({
  */
 const CheckboxInput = styled.input(({ theme }) => ({
   ...hideVisually(),
+  '& + span': {
+    cursor: 'pointer',
+    '&::after': {
+      backgroundImage: inlineSvg(
+        <CheckboxIcon color={theme.color.goten[100]} />
+      ),
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      backgroundSize: 0,
+    },
+  },
   '&:hover:enabled, &:focus:enabled': {
     /* Show the Pseudo Checkbox Circle */
     '& + span::before': {
@@ -82,7 +93,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
     },
     '&:checked + span::before': {
       opacity: 0.1,
-      backgroundColor: theme.color.piccolo[80] /* [1] */,
+      backgroundColor: theme.color.piccolo[100] /* [1] */,
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {
@@ -91,20 +102,13 @@ const CheckboxInput = styled.input(({ theme }) => ({
   },
   /* Add the "check" to the Pseudo Checkbox */
   '&:checked + span::after': {
-    backgroundImage: inlineSvg(
-      <CheckboxIcon color={theme.color.piccolo[100]} />
-    ),
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
+    backgroundColor: theme.color.piccolo[100],
     backgroundSize: rem(10),
     borderColor: theme.color.piccolo[100],
   },
   '&[disabled] + span': {
-    color: inputColors('disabled')(theme),
+    opacity: 0.5,
     cursor: 'not-allowed',
-    '&::after': {
-      borderColor: inputColors('disabled')(theme),
-    },
   },
 }));
 
@@ -133,7 +137,7 @@ const Checkbox: React.FC<CheckboxProps> = ({
         id={autoId}
         disabled={disabled}
         type="checkbox"
-        aria-label={ariaLabel && ariaLabel}
+        aria-label={ariaLabel}
         {...inputProps}
       />
       <CheckboxCaption>{label}</CheckboxCaption>
