@@ -145,6 +145,7 @@ export const Logo = () => {
       {brand === 'Bitcasino.io' && <LogoBitcasino />}
       {brand === 'Slots.io' && <LogoSlots />}
       {brand === 'LuckySlots' && <p>LuckySlots</p>}
+      {brand === 'Livecasino.io' && <p>Livecasino</p>}
       {brand === 'BombayClub' && <p>Bombay Club</p>}
       {brand === 'Hub88' && <p>Hub88</p>}
       {brand === 'Aposta10' && <p>Aposta10</p>}
@@ -156,6 +157,7 @@ export const Logo = () => {
         <option value="bitcasino">Bitcasino.io</option>
         <option value="slots">Slots.io</option>
         <option value="luckyslots">LuckySlots</option>
+        <option value="livecasino">Livecasino</option>
         <option value="bombay">Bombay Club</option>
         <option value="hub88">Hub88</option>
         <option value="aposta10">Aposta10</option>
