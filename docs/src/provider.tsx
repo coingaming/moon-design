@@ -8,6 +8,8 @@ import {
   slotsLight,
   slotsDark,
   luckyslots,
+  livecasinoDark,
+  livecasinoLight,
   bombayClub,
   aposta10Dark,
   aposta10Light,
@@ -31,6 +33,10 @@ const themes: DocsThemes = {
   luckyslots: {
     dark: luckyslots,
     light: luckyslots,
+  },
+  livecasino: {
+    dark: livecasinoDark,
+    light: livecasinoLight,
   },
   bombay: {
     dark: bombayClub,
@@ -56,6 +62,7 @@ type DocsThemes = {
   bitcasino: DocsColorModes;
   slots: DocsColorModes;
   luckyslots: DocsColorModes;
+  livecasino: DocsColorModes;
   bombay: DocsColorModes;
   hub88: DocsColorModes;
   aposta10: DocsColorModes;
