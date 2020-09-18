@@ -3,7 +3,7 @@
 exports[`Card Templates renders as front 1`] = `
 .c0 {
   display: block;
-  min-height: 10.625rem;
+  min-height: 10.5rem;
   padding-top: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
@@ -27,7 +27,7 @@ exports[`Card Templates renders as front 1`] = `
 exports[`Card Templates renders as front with backgroundIcon 1`] = `
 .c0 {
   display: block;
-  min-height: 10.625rem;
+  min-height: 10.5rem;
   padding-top: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
@@ -56,7 +56,7 @@ exports[`Card Templates renders as front with backgroundIcon 1`] = `
 exports[`Card Templates renders as outline 1`] = `
 .c0 {
   display: block;
-  min-height: 10.625rem;
+  min-height: 10.5rem;
   padding-top: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
@@ -81,7 +81,7 @@ exports[`Card Templates renders as outline 1`] = `
 exports[`Card renders with flex layout 1`] = `
 .c0 {
   display: block;
-  min-height: 10.625rem;
+  min-height: 10.5rem;
   padding-top: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
