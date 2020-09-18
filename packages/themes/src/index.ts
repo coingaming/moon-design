@@ -16,6 +16,8 @@ export { default as btcxe } from './btcxe/btcxe';
 export * from './btcxe/btcxe';
 export { default as hub88 } from './hub88/hub88';
 export * from './hub88/hub88';
+export { default as livecasinoDark } from './livecasinoDark/livecasinoDark';
+export * from './livecasinoDark/livecasinoDark';
 export { default as livecasinoLight } from './livecasinoLight/livecasinoLight';
 export * from './livecasinoLight/livecasinoLight';
 export { default as luckyslots } from './luckyslots/luckyslots';
