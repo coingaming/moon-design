@@ -14,37 +14,37 @@ const color = {
     80: '#E61E4D',
   },
   hit: {
-    120: '#E5E9F0',
-    100: '#FFFFFF',
-    80: '#F2F7FF',
+    120: '#101637',
+    100: '#090D25',
+    80: '#192048',
   },
   beerus: {
-    100: '#272A3E',
+    100: '#E5E9F0',
   },
   goku: {
-    100: '#00060E',
-    80: '#0F151C',
-    40: '#1F242B',
-    10: '#292E35',
+    100: '#F2F7FF',
+    80: '#EAEEF0',
+    40: '#D8E0E3',
+    10: '#C5D2D8',
   },
   gohan: {
-    100: '#090D24',
-    80: '#181C31',
-    40: '#272A3E',
-    10: '#303447',
+    100: '#FFFFFF',
+    80: '#F7F7F7',
+    40: '#E8E8E8',
+    10: '#D9D9D9',
   },
   goten: {
     100: '#FFFFFF',
   },
   bulma: {
-    100: '#FFFFFF',
+    100: '#0F161F',
   },
   trunks: {
     100: '#8697A2',
   },
 };
 
-const livecasinoLight: Theme = {
+const livecasinoDark: Theme = {
   ...sharedTokens,
   brand: 'Livecasino.io',
   fontFace: avertaStd.fontFace,
@@ -60,7 +60,7 @@ const livecasinoLight: Theme = {
     ...supportColors,
     ...color,
   },
-  colorScheme: 'light',
+  colorScheme: 'dark',
 };
 
-export default livecasinoLight;
+export default livecasinoDark;
