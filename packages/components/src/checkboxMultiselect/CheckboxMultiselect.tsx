@@ -18,7 +18,7 @@ type CheckboxMultiselectProps = {
   clearSelectedLabel: string | JSX.Element;
   value: Option[];
   options: Option[];
-  maxHeight: string | number;
+  maxHeight?: string | number;
 };
 
 const ClearSelected = styled.a(({ theme }) => ({
