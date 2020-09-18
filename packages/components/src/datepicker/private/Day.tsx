@@ -27,7 +27,7 @@ const DayStyled = styled.div<DayStyledProps>(
       border: `1px solid transparent`, // to prevent jumping on hover
       '&:hover': {
         border: `1px solid ${theme.color.trunks[100]}`,
-        borderRadius: rem(3),
+        borderRadius: rem(4),
       },
     },
     (isInRange || isInRangePreview) && {
@@ -35,7 +35,7 @@ const DayStyled = styled.div<DayStyledProps>(
     },
     (isStartEdge || isEndEdge) && {
       background: theme.color.piccolo[100],
-      borderRadius: rem(3),
+      borderRadius: rem(4),
       color: theme.color.bulma[100],
     },
     isToday && {
