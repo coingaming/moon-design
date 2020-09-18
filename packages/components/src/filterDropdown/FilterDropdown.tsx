@@ -6,7 +6,7 @@ import Search from './private/Search';
 
 type FilterDropdownProps = {
   searchPlaceholder?: string;
-  onSearchChange: (value: string) => void;
+  onSearchChange?: (value: string) => void;
   children?: JSX.Element | JSX.Element[];
 };
 
@@ -27,9 +27,11 @@ const FilterDropdown: React.FC<FilterDropdownProps> = props => {
   const { searchPlaceholder, onSearchChange, children } = props;
   return (
     <FilterDropdownWrapper>
-      <Header>
-        <Search placeholder={searchPlaceholder} onChange={onSearchChange} />
-      </Header>
+      {!!onSearchChange && (
+        <Header>
+          <Search placeholder={searchPlaceholder} onChange={onSearchChange} />
+        </Header>
+      )}
       {children}
     </FilterDropdownWrapper>
   );
