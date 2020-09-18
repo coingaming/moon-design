@@ -17,7 +17,6 @@ describe('CheckboxMultiselect', () => {
           onChange={() => {}}
           clearSelectedLabel={<span>Clear selected items</span>}
           value={[]}
-          maxHeight={250}
           options={[
             { label: 'Game 1', value: 1, id: '1' },
             { label: 'Game 2', value: 2, id: '2' },
@@ -37,7 +36,6 @@ describe('CheckboxMultiselect', () => {
           onChange={() => {}}
           clearSelectedLabel={<span>Clear selected items</span>}
           value={[]}
-          maxHeight={250}
           options={[
             {
               label: 'Game 1',
@@ -76,7 +74,6 @@ describe('CheckboxMultiselect', () => {
             onChange={onChangeMock}
             clearSelectedLabel={<span>Clear selected items</span>}
             value={[]}
-            maxHeight={250}
             options={[
               { label: 'Game 1', value: 1 },
               { label: 'Game 2', value: 2 },
@@ -112,7 +109,6 @@ describe('CheckboxMultiselect', () => {
             onChange={onChangeMock}
             clearSelectedLabel={<span>Clear selected items</span>}
             value={[{ label: 'Game 1', value: 1 }]}
-            maxHeight={250}
             options={[
               { label: 'Game 1', value: 1 },
               { label: 'Game 2', value: 2 },
