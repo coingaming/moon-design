@@ -42,7 +42,6 @@ const CodePreview = styled.div(
     fontFamily,
     borderBottom: border,
     borderColor: color.beerus[100],
-    overflowY: 'scroll',
   })
 );
 
