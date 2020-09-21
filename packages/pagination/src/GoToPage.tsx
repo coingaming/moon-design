@@ -1,10 +1,8 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
 import { rem } from '@heathmont/moon-utils';
 import { IconChevronRight } from '@heathmont/moon-assets';
+import { TextInput, Button } from '@heathmont/moon-components';
 import styled from 'styled-components';
-
-import TextInput from '../textInput/TextInput';
-import Button from '../button/Button';
 
 type GoToPageProps = {
   onChange: (page: number) => void;
