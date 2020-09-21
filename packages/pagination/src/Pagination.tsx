@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import ReactPaginate, { ReactPaginateProps } from 'react-paginate';
 import styled from 'styled-components';
 import { rem, mq } from '@heathmont/moon-utils';
-
-import Button from '../button/Button';
+import { Button } from '@heathmont/moon-components';
 
 import GoToPage from './GoToPage';
 
