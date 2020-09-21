@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/moon-themes",
-  "version": "2.33.0",
+  "version": "2.36.0",
   "sideEffects": false,
   "files": [
     "lib"
@@ -15,7 +15,7 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-fonts": "^2.29.0"
+    "@heathmont/moon-fonts": "^2.34.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
