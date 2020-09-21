@@ -51,11 +51,8 @@ const StyledButton = styled.button<ButtonProps>(
     theme: { border, fontWeight, opacity, radius, transitionDuration },
     fullWidth,
   }) => ({
-    display: 'inline-grid',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gridAutoFlow: 'column',
-    width: fullWidth ? '100%' : undefined,
+    display: 'inline-block',
+    width: fullWidth ? '100%' : '',
     minHeight: rem(24),
     fontFamily: 'inherit', // Prevents links rendering as system fonts.
     fontWeight: fontWeight.semibold,
@@ -65,6 +62,7 @@ const StyledButton = styled.button<ButtonProps>(
     borderColor: 'transparent',
     borderRadius: rem(radius.largest),
     transition: `background-color ${transitionDuration.default}s`,
+    whiteSpace: 'nowrap',
     ...disabled(opacity.disabled),
   }),
   ({ fullWidth }) => fullWidth && { position: 'relative' },
@@ -77,7 +75,7 @@ const StyledButton = styled.button<ButtonProps>(
         transform: 'translate3d(0, 0, 0)',
         backfaceVisibility: 'hidden',
         perspective: rem(1000),
-        color: color.bulma[100],
+        color: color.goten[100],
         backgroundColor: color.chiChi[100],
         ...buttonHover({
           backgroundColor: color.chiChi[100],
@@ -108,10 +106,16 @@ const StyledButton = styled.button<ButtonProps>(
   ]
 );
 
+const InnerContainer = styled.div({
+  display: 'grid',
+  height: '100%',
+  gridAutoFlow: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: rem(8),
+});
+
 const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
-  {
-    marginRight: rem(8),
-  },
   size === 'xsmall' && {
     fontSize: rem(16),
     lineHeight: 1,
@@ -144,7 +148,7 @@ const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
     size === 'medium' && {
       position: 'absolute',
       left: rem(16),
-      top: rem(11),
+      top: rem(12),
     },
   fullWidth &&
     size === 'large' && {
@@ -155,9 +159,6 @@ const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
 ]);
 
 const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
-  {
-    marginLeft: rem(8),
-  },
   size === 'xsmall' && {
     fontSize: rem(16),
   },
@@ -188,7 +189,7 @@ const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
     size === 'medium' && {
       position: 'absolute',
       right: rem(16),
-      top: rem(11),
+      top: rem(12),
     },
   fullWidth &&
     size === 'large' && {
@@ -226,7 +227,7 @@ const Button: React.FC<ButtonProps> = ({
             height: rem(space.default),
           }}
         >
-          <Loader color={color.bulma[100]} />
+          <Loader color={color.goten[100]} />
         </div>
       </div>
     );
@@ -258,17 +259,19 @@ const Button: React.FC<ButtonProps> = ({
       fullWidth={fullWidth}
       {...props}
     >
-      {iconLeft && (
-        <IconLeftWrapper size={size} fullWidth={fullWidth}>
-          {iconLeft}
-        </IconLeftWrapper>
-      )}
-      {content}
-      {iconRight && (
-        <IconRightWrapper size={size} fullWidth={fullWidth}>
-          {iconRight}
-        </IconRightWrapper>
-      )}
+      <InnerContainer>
+        {iconLeft && (
+          <IconLeftWrapper size={size} fullWidth={fullWidth}>
+            {iconLeft}
+          </IconLeftWrapper>
+        )}
+        {content}
+        {iconRight && (
+          <IconRightWrapper size={size} fullWidth={fullWidth}>
+            {iconRight}
+          </IconRightWrapper>
+        )}
+      </InnerContainer>
     </StyledButton>
   );
 };
