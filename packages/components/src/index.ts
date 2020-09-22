@@ -102,6 +102,8 @@ export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as MediaObject } from './mediaObject/MediaObject';
 export * from './mediaObject/MediaObject';
+export { default as NumberRange } from './numberRange/NumberRange';
+export * from './numberRange/NumberRange';
 export { default as Path } from './progressCircular/Path';
 export * from './progressCircular/Path';
 export {
