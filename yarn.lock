@@ -1426,6 +1426,14 @@
     "@types/react-paginate" "6.2.1"
     react-paginate "6.5.0"
 
+"@heathmont/moon-sidebar@2.34.2-alpha.3":
+  version "2.34.2-alpha.3"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-sidebar/-/moon-sidebar-2.34.2-alpha.3.tgz#7123714a478fad47b5b5d4f9b75ec9bc03c2b0ea"
+  integrity sha512-Hq3qV99ESNteIH+vDpJ6BlTk+pM97+8F6QXr2dopG2Q1B1CQ23JYvOUcLG4fBq8c1NQvliUGJElgDQhkgslSeA==
+  dependencies:
+    "@heathmont/moon-themes" "^2.34.2-alpha.3+332a2736"
+    "@heathmont/moon-utils" "^2.34.2-alpha.3+332a2736"
+
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
