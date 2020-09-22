@@ -7,45 +7,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.35.0](https://github.com/coingaming/sportsbet-design/compare/v2.34.1...v2.35.0) (2020-09-17)
-
 
 ### Features
 
-* **assets:** introduce country icons ([685f956](https://github.com/coingaming/sportsbet-design/commit/685f9562d72ef8ebd646be0e08e29ffe1014f75f))
-
-
-
-
+- **assets:** introduce country icons ([685f956](https://github.com/coingaming/sportsbet-design/commit/685f9562d72ef8ebd646be0e08e29ffe1014f75f))
 
 ## [2.34.1](https://github.com/coingaming/sportsbet-design/compare/v2.34.0...v2.34.1) (2020-09-16)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
-
 
 ### Bug Fixes
 
-* fix ios buttons ([c1eeb33](https://github.com/coingaming/sportsbet-design/commit/c1eeb3330f0eef3d034e23221e2a11f10c37457d))
-
+- fix ios buttons ([c1eeb33](https://github.com/coingaming/sportsbet-design/commit/c1eeb3330f0eef3d034e23221e2a11f10c37457d))
 
 ### Features
 
-* add first set of hub88 icons ([b122069](https://github.com/coingaming/sportsbet-design/commit/b1220693152f9bdbce2d4677e39f2def4a7cb75a))
-* initial commit - gamepad icon ([ff8c91d](https://github.com/coingaming/sportsbet-design/commit/ff8c91d5bb35644d2fc36c33691889b4a14bf905))
-
-
-
-
+- add first set of hub88 icons ([b122069](https://github.com/coingaming/sportsbet-design/commit/b1220693152f9bdbce2d4677e39f2def4a7cb75a))
+- initial commit - gamepad icon ([ff8c91d](https://github.com/coingaming/sportsbet-design/commit/ff8c91d5bb35644d2fc36c33691889b4a14bf905))
 
 # [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
 
