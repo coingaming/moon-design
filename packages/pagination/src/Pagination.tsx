@@ -26,6 +26,10 @@ const ItemsPerPage = styled.div(({ theme }) => ({
   fontSize: rem(12),
   fontWeight: theme.fontWeight.semibold,
   order: 0,
+  margin: `${rem(12)} 0`,
+  [mq(theme.breakpoint.small)]: {
+    margin: 0,
+  },
   [mq(theme.breakpoint.xlarge)]: {
     order: -1,
   },
@@ -47,6 +51,10 @@ const ReactPaginateWrapper = styled.div(({ theme }) => ({
     alignItems: 'center',
     justifyContent: 'center',
     margin: rem(10),
+    flexWrap: 'wrap',
+    [mq(theme.breakpoint.small)]: {
+      flexWrap: 'nowrap',
+    },
     '& > li:not(.previous):not(.next)': {
       margin: `0 ${rem(2)}`,
       borderRadius: '50%',
@@ -65,11 +73,24 @@ const ReactPaginateWrapper = styled.div(({ theme }) => ({
         },
       },
     },
+    '& > .previous, & > .next': {
+      marginTop: rem(10),
+      width: '100%',
+      textAlign: 'center',
+      order: 1,
+      [mq(theme.breakpoint.small)]: {
+        order: 0,
+      },
+    },
     '& > .previous': {
-      marginRight: rem(10),
+      [mq(theme.breakpoint.small)]: {
+        margin: `0 ${rem(10)} 0 0`,
+      },
     },
     '& > .next': {
-      marginLeft: rem(10),
+      [mq(theme.breakpoint.small)]: {
+        margin: `0 0 0 ${rem(10)}`,
+      },
     },
     '& > .disabled': {
       'button, button:hover': {
