@@ -20,7 +20,7 @@ const color = {
   },
   goku: {
     100: '#F3F5F6',
-    80: '#FCFDFD',
+    80: '#E9EDEF',
     40: '#FFFFFF',
     10: '#FFFFFF',
   },

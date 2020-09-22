@@ -31,7 +31,7 @@ const InputsPanelStyled = styled.div(({ theme }) => ({
 
 const StyledTextInput = styled(TextInput)(({ theme: { breakpoint } }) => ({
   [mq(breakpoint.medium)]: {
-    maxWidth: rem(230),
+    maxWidth: rem(228),
   },
 }));
 
