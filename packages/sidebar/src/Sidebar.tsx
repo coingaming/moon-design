@@ -5,7 +5,7 @@ import { CollapseTarget } from './private/CollapseTarget';
 import { OuterContainer } from './private/OuterContainer';
 
 type Props = {
-  initialState?: boolean;
+  isOpen?: boolean;
   collapseIcon: React.ReactNode;
   expandIcon: React.ReactNode;
   logo: React.ReactNode;
@@ -15,7 +15,7 @@ type Props = {
 
 const Sidebar: React.FC<Props> = ({
   children,
-  initialState = true,
+  isOpen: initialState = true,
   collapseIcon,
   expandIcon,
   logo,
