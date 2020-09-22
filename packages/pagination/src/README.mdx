@@ -1,0 +1,77 @@
+---
+name: Pagination
+menu: Components
+route: /components/pagination
+---
+
+# Pagination
+
+Pagination component based on [react-paginate](https://github.com/AdeleD/react-paginate).
+**_Page index is zero-based_**
+
+## Examples
+
+### With all props
+
+```jsx react-live
+<Pagination
+  pageCount={20}
+  pageRangeDisplayed={3}
+  marginPagesDisplayed={1}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
+  onPageChange={({ selected }) => alert(`selected: ${selected}`)}
+  initialPage={10}
+  disableInitialCallback={true}
+  itemsPerPageLabel={
+    <>
+      Showing 1 – 10 <span>of 100</span>
+    </>
+  }
+  goToPageLabel={'Go to page'}
+  showGoToPageSection={true}
+/>
+```
+
+### Without "items per page" and "go to page" sections
+
+```jsx react-live
+<Pagination
+  pageCount={30}
+  pageRangeDisplayed={5}
+  marginPagesDisplayed={1}
+  initialPage={15}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
+/>
+```
+
+### With previous and next buttons customization
+
+```jsx react-live
+<Pagination
+  pageCount={30}
+  pageRangeDisplayed={5}
+  marginPagesDisplayed={1}
+  initialPage={15}
+  previousButtonLabel={<IconChevronLeft />}
+  nextButtonLabel={<IconChevronRight />}
+/>
+```
+
+### With "items per page" section
+
+```jsx react-live
+<Pagination
+  itemsPerPageLabel={
+    <>
+      Showing 1 – 20 <span>of 100</span>
+    </>
+  }
+  pageCount={63}
+  pageRangeDisplayed={7}
+  marginPagesDisplayed={1}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
+/>
+```
