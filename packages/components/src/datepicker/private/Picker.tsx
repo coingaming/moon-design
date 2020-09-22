@@ -43,13 +43,13 @@ const PickerContainer = styled.div(
 
 const FirstMonth = styled.div({
   gridArea: 'firstMonth',
-  maxWidth: rem(238),
+  maxWidth: rem(236),
   position: 'relative',
 });
 
 const SecondMonth = styled.div({
   gridArea: 'secondMonth',
-  maxWidth: rem(238),
+  maxWidth: rem(236),
   position: 'relative',
 });
 
@@ -57,7 +57,7 @@ const LeftArrow = styled(IconChevronLeft as any)(({ theme }) => ({
   cursor: 'pointer',
   color: theme.color.bulma[100],
   position: 'absolute',
-  left: rem(15),
+  left: rem(16),
   fontSize: rem(16),
   top: rem(2),
 }));
@@ -66,7 +66,7 @@ const RightArrow = styled(IconChevronRight as any)(({ theme }) => ({
   cursor: 'pointer',
   color: theme.color.bulma[100],
   position: 'absolute',
-  right: rem(15),
+  right: rem(16),
   fontSize: rem(16),
   top: rem(2),
 }));
