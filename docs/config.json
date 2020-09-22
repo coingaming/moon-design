@@ -10,6 +10,7 @@
     "tokens",
     "themes",
     "pagination",
+    "sidebar",
     "utils"
   ],
   "menuSections": [
@@ -19,6 +20,7 @@
     "Components",
     "Utils",
     "Pagination",
-    "Private"
+    "Private",
+    "Sidebar"
   ]
 }

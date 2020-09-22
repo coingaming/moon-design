@@ -56,6 +56,11 @@ const hub88: Theme = {
     ...color,
   },
   colorScheme: 'dark',
+  space: {
+    ...sharedTokens.space,
+    medium: sharedTokens.base.space * 1.25,
+    large: sharedTokens.base.space * 1.5,
+  },
 };
 
 export default hub88;
