@@ -19,11 +19,11 @@ const HeaderTitle = styled.h1(
     display: 'inline-block',
     margin: `0 ${rem(space.large)} 0 0`,
     fontSize: rem(20),
-    lineHeight: rem(25),
+    lineHeight: rem(24),
     fontWeight: fontWeight.semibold,
     [mq(breakpoint.small)]: {
       fontSize: rem(32),
-      lineHeight: rem(39),
+      lineHeight: rem(40),
     },
   })
 );
