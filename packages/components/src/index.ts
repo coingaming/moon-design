@@ -10,7 +10,6 @@ export { default as Banner } from './banner/Banner';
 export * from './banner/Banner';
 export { default as Button } from './button/Button';
 export * from './button/Button';
-export * from './calendar/Calendar';
 export { default as oopsAnimation } from './button/oopsAnimation';
 export * from './button/oopsAnimation';
 export { default as pulseAnimation } from './button/pulseAnimation';
