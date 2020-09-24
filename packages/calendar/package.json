@@ -16,7 +16,10 @@
   },
   "dependencies": {
     "@heathmont/moon-themes": "^2.36.0",
-    "@heathmont/moon-utils": "^2.36.0"
+    "@heathmont/moon-utils": "^2.36.0",
+    "@heathmont/moon-components": "^2.36.0",
+    "@types/date-fns": "2.6.0",
+    "date-fns": "2.15.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
