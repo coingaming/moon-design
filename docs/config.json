@@ -9,6 +9,8 @@
     "global",
     "tokens",
     "themes",
+    "pagination",
+    "sidebar",
     "utils"
   ],
   "menuSections": [
@@ -17,6 +19,8 @@
     "Assets",
     "Components",
     "Utils",
-    "Private"
+    "Pagination",
+    "Private",
+    "Sidebar"
   ]
 }
