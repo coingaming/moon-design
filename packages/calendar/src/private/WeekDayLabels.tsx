@@ -6,7 +6,7 @@ import { getWeekDayLabels } from './getWeekDayLabels';
 
 type Props = {
   config: {
-    weekStartsOn?: number;
+    weekStartsOn?: 0 | 1 | 2 | 3 | 4 | 5 | 6;
     locale?: Locale;
   };
 };
