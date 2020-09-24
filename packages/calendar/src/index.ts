@@ -4,3 +4,6 @@
 
 export { default as Month } from './Month';
 export * from './Month';
+
+export { default as Week } from './Week';
+export * from './Week';
