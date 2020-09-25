@@ -5,38 +5,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 
-
 ### Features
 
-* add livecasino dark theme ([1d39592](https://github.com/coingaming/sportsbet-design/commit/1d39592c62625d8bf478823f1b1a4efb5bdddeb3))
-* add livecasino dark theme ([4988a88](https://github.com/coingaming/sportsbet-design/commit/4988a88bf0aebbc284d62d64e33c6f06e33ffe46))
-* add livecasino dark theme ([3493be3](https://github.com/coingaming/sportsbet-design/commit/3493be38813f16453f7610a47ec4c546ab4078dc))
-
-
-
-
+- add livecasino dark theme ([1d39592](https://github.com/coingaming/sportsbet-design/commit/1d39592c62625d8bf478823f1b1a4efb5bdddeb3))
+- add livecasino dark theme ([4988a88](https://github.com/coingaming/sportsbet-design/commit/4988a88bf0aebbc284d62d64e33c6f06e33ffe46))
+- add livecasino dark theme ([3493be3](https://github.com/coingaming/sportsbet-design/commit/3493be38813f16453f7610a47ec4c546ab4078dc))
 
 ## [2.34.1](https://github.com/coingaming/sportsbet-design/compare/v2.34.0...v2.34.1) (2020-09-16)
 
-
 ### Bug Fixes
 
-* change btcxe color scheme to light ([328d7e5](https://github.com/coingaming/sportsbet-design/commit/328d7e50b1cfe1431bf4f860a4a740f38ddb88be))
-
-
-
-
+- change btcxe color scheme to light ([328d7e5](https://github.com/coingaming/sportsbet-design/commit/328d7e50b1cfe1431bf4f860a4a740f38ddb88be))
 
 # [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
 
-
 ### Features
 
-* add btcxe theme ([e49afdf](https://github.com/coingaming/sportsbet-design/commit/e49afdfe2e3025185833266d573ccd507a75c25d))
-
-
-
-
+- add btcxe theme ([e49afdf](https://github.com/coingaming/sportsbet-design/commit/e49afdfe2e3025185833266d573ccd507a75c25d))
 
 # [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
 
