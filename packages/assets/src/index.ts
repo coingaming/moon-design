@@ -966,8 +966,14 @@ export { default as IconSportsFootBall } from './icons/IconSportsFootBall';
 export * from './icons/IconSportsFootBall';
 export { default as IconSportsGolf } from './icons/IconSportsGolf';
 export * from './icons/IconSportsGolf';
+export { default as IconSportsGreyhound } from './icons/IconSportsGreyhound';
+export * from './icons/IconSportsGreyhound';
 export { default as IconSportsHandBall } from './icons/IconSportsHandBall';
 export * from './icons/IconSportsHandBall';
+export { default as IconSportsHarness } from './icons/IconSportsHarness';
+export * from './icons/IconSportsHarness';
+export { default as IconSportsHorse } from './icons/IconSportsHorse';
+export * from './icons/IconSportsHorse';
 export {
   default as IconSportsHorseRacing,
 } from './icons/IconSportsHorseRacing';
