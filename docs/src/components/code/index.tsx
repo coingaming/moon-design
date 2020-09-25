@@ -5,6 +5,8 @@ import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import * as Assets from '@heathmont/moon-assets';
 import * as Components from '@heathmont/moon-components';
 import * as Utils from '@heathmont/moon-utils';
+import * as Pagination from '@heathmont/moon-pagination';
+import * as Sidebar from '@heathmont/moon-sidebar';
 import { useTheme } from '@heathmont/moon-themes';
 
 import { prismTheme } from './prism';
@@ -42,7 +44,6 @@ const CodePreview = styled.div(
     fontFamily,
     borderBottom: border,
     borderColor: color.beerus[100],
-    overflowY: 'scroll',
   })
 );
 
@@ -57,6 +58,8 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
             ...Assets,
             ...Components,
             ...Utils,
+            ...Pagination,
+            ...Sidebar,
             useTheme,
             styled,
           }}
