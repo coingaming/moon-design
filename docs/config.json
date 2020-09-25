@@ -11,6 +11,7 @@
     "themes",
     "pagination",
     "sidebar",
+    "calendar",
     "utils"
   ],
   "menuSections": [
@@ -21,6 +22,7 @@
     "Utils",
     "Pagination",
     "Private",
-    "Sidebar"
+    "Sidebar",
+    "Calendar"
   ]
 }
