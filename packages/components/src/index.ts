@@ -134,6 +134,8 @@ export { default as TabLink } from './tabLink/TabLink';
 export * from './tabLink/TabLink';
 export { default as Tabs } from './tabs/Tabs';
 export * from './tabs/Tabs';
+export { default as TagInput } from './tagInput/TagInput';
+export * from './tagInput/TagInput';
 export { default as Text } from './text/Text';
 export * from './text/Text';
 export { default as Error } from './textInput/Error';
