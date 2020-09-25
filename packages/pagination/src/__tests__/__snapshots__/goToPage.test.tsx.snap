@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoToPage renders correctly 1`] = `
+.c3 {
+  vertical-align: middle;
+  color: #8697A2;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4C5159;
+}
+
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c1:invalid,
+.c1:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c1:focus {
+  border-color: #0CD463;
+  outline: none;
+}
+
+.c2 {
+  display: inline-grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #FFFFFF;
+  background: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0;
+}
+
+.c2:disabled,
+.c2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c2.is-hover:not([disabled]),
+.c2:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c2.is-active,
+.c2.has-focus,
+.c2:active,
+.c2:focus {
+  color: #FFFFFF;
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 2rem;
+  font-weight: 500;
+}
+
+.c0 > input {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
+.c0 > button {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.25rem;
+  background-color: #353C44;
+}
+
+<form
+  className="c0"
+  onSubmit={[Function]}
+>
+   
+  <input
+    className="c1"
+    onChange={[Function]}
+    pattern="\\\\d+"
+    placeholder=" "
+    type="text"
+    value=""
+  />
+  <button
+    className="c2"
+    size="small"
+    type="submit"
+  >
+    <svg
+      className="c3"
+      color="trunks.100"
+      height="1em"
+      viewBox="0 0 12 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 2.623L7.014 10 0 17.376 2.5 20 12 10 2.498 0z"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </button>
+</form>
+`;
+
+exports[`GoToPage renders correctly with label 1`] = `
+.c3 {
+  vertical-align: middle;
+  color: #8697A2;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.c1::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c1:hover:not(:focus):not([disabled]) {
+  border-color: #4C5159;
+}
+
+.c1:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c1:invalid,
+.c1:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c1:focus {
+  border-color: #0CD463;
+  outline: none;
+}
+
+.c2 {
+  display: inline-grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #FFFFFF;
+  background: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0;
+}
+
+.c2:disabled,
+.c2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c2.is-hover:not([disabled]),
+.c2:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c2.is-active,
+.c2.has-focus,
+.c2:active,
+.c2:focus {
+  color: #FFFFFF;
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 2rem;
+  font-weight: 500;
+}
+
+.c0 > input {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
+.c0 > button {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.25rem;
+  background-color: #353C44;
+}
+
+<form
+  className="c0"
+  onSubmit={[Function]}
+>
+  Go to page
+   
+  <input
+    className="c1"
+    onChange={[Function]}
+    pattern="\\\\d+"
+    placeholder=" "
+    type="text"
+    value=""
+  />
+  <button
+    className="c2"
+    size="small"
+    type="submit"
+  >
+    <svg
+      className="c3"
+      color="trunks.100"
+      height="1em"
+      viewBox="0 0 12 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 2.623L7.014 10 0 17.376 2.5 20 12 10 2.498 0z"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </button>
+</form>
+`;
