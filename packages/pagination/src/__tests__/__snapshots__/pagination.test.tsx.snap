@@ -1,0 +1,1055 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders correctly 1`] = `
+.c2 {
+  display: inline-grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #FFFFFF;
+  background-color: #0CD463;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  height: 2.5rem;
+  padding: 0 1.25rem;
+}
+
+.c2:disabled,
+.c2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c2.is-hover:not([disabled]),
+.c2:hover:not([disabled]) {
+  background-color: #19E170;
+}
+
+.c2.is-active,
+.c2.has-focus,
+.c2:active,
+.c2:focus {
+  background-color: #02C556;
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c1 {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.c1 > ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0.625rem;
+}
+
+.c1 > ul > li:not(.previous):not(.next) {
+  margin: 0 0.125rem;
+  border-radius: 50%;
+}
+
+.c1 > ul > li:not(.previous):not(.next) > a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected {
+  background-color: #353C44;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected > a {
+  outline: none;
+}
+
+.c1 > ul > .previous {
+  margin-right: 0.625rem;
+}
+
+.c1 > ul > .next {
+  margin-left: 0.625rem;
+}
+
+.c1 > ul > .disabled button,
+.c1 > ul > .disabled button:hover {
+  cursor: default;
+  color: #8697A2;
+  background: none;
+  border-color: #31373F;
+}
+
+@media (min-width:75em) {
+  .c1 {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <ul
+      className=""
+    >
+      <li
+        className="previous"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Previous page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="small"
+          >
+            Previous
+          </button>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 1"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 11"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          11
+        </a>
+      </li>
+      <li
+        className="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 12 is your current page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          12
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 13"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          13
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 20"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          20
+        </a>
+      </li>
+      <li
+        className="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="small"
+          >
+            Next
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Pagination renders correctly with "go to page" section 1`] = `
+.c2 {
+  display: inline-grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #FFFFFF;
+  background-color: #0CD463;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  height: 2.5rem;
+  padding: 0 1.25rem;
+}
+
+.c2:disabled,
+.c2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c2.is-hover:not([disabled]),
+.c2:hover:not([disabled]) {
+  background-color: #19E170;
+}
+
+.c2.is-active,
+.c2.has-focus,
+.c2:active,
+.c2:focus {
+  background-color: #02C556;
+  outline: none;
+}
+
+.c5 {
+  display: inline-grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #FFFFFF;
+  background: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0;
+}
+
+.c5:disabled,
+.c5[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c5.is-hover:not([disabled]),
+.c5:hover:not([disabled]) {
+  color: #FFFFFF;
+}
+
+.c5.is-active,
+.c5.has-focus,
+.c5:active,
+.c5:focus {
+  color: #FFFFFF;
+  outline: none;
+}
+
+.c6 {
+  vertical-align: middle;
+  color: #8697A2;
+}
+
+.c4 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4:hover:not(:focus):not([disabled]) {
+  border-color: #4C5159;
+}
+
+.c4:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c4:invalid,
+.c4:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c4:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c4:focus {
+  border-color: #0CD463;
+  outline: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 2rem;
+  font-weight: 500;
+}
+
+.c3 > input {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
+.c3 > button {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.25rem;
+  background-color: #353C44;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c1 {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.c1 > ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0.625rem;
+}
+
+.c1 > ul > li:not(.previous):not(.next) {
+  margin: 0 0.125rem;
+  border-radius: 50%;
+}
+
+.c1 > ul > li:not(.previous):not(.next) > a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected {
+  background-color: #353C44;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected > a {
+  outline: none;
+}
+
+.c1 > ul > .previous {
+  margin-right: 0.625rem;
+}
+
+.c1 > ul > .next {
+  margin-left: 0.625rem;
+}
+
+.c1 > ul > .disabled button,
+.c1 > ul > .disabled button:hover {
+  cursor: default;
+  color: #8697A2;
+  background: none;
+  border-color: #31373F;
+}
+
+@media (min-width:75em) {
+  .c1 {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <ul
+      className=""
+    >
+      <li
+        className="previous"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Previous page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="small"
+          >
+            Previous
+          </button>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 1"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 11"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          11
+        </a>
+      </li>
+      <li
+        className="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 12 is your current page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          12
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 13"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          13
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 20"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          20
+        </a>
+      </li>
+      <li
+        className="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="small"
+          >
+            Next
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <form
+    className="c3"
+    onSubmit={[Function]}
+  >
+    Go to page
+     
+    <input
+      className="c4"
+      onChange={[Function]}
+      pattern="\\\\d+"
+      placeholder=" "
+      type="text"
+      value=""
+    />
+    <button
+      className="c5"
+      size="small"
+      type="submit"
+    >
+      <svg
+        className="c6"
+        color="trunks.100"
+        height="1em"
+        viewBox="0 0 12 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 2.623L7.014 10 0 17.376 2.5 20 12 10 2.498 0z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Pagination renders correctly with "items per page" section 1`] = `
+.c2 {
+  display: inline-grid;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  color: #FFFFFF;
+  background-color: #0CD463;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  height: 2.5rem;
+  padding: 0 1.25rem;
+}
+
+.c2:disabled,
+.c2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c2.is-hover:not([disabled]),
+.c2:hover:not([disabled]) {
+  background-color: #19E170;
+}
+
+.c2.is-active,
+.c2.has-focus,
+.c2:active,
+.c2:focus {
+  background-color: #02C556;
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c3 {
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+.c3 > span {
+  color: #8697A2;
+}
+
+.c1 {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.c1 > ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0.625rem;
+}
+
+.c1 > ul > li:not(.previous):not(.next) {
+  margin: 0 0.125rem;
+  border-radius: 50%;
+}
+
+.c1 > ul > li:not(.previous):not(.next) > a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected {
+  background-color: #353C44;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected > a {
+  outline: none;
+}
+
+.c1 > ul > .previous {
+  margin-right: 0.625rem;
+}
+
+.c1 > ul > .next {
+  margin-left: 0.625rem;
+}
+
+.c1 > ul > .disabled button,
+.c1 > ul > .disabled button:hover {
+  cursor: default;
+  color: #8697A2;
+  background: none;
+  border-color: #31373F;
+}
+
+@media (min-width:75em) {
+  .c3 {
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+}
+
+@media (min-width:75em) {
+  .c1 {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <ul
+      className=""
+    >
+      <li
+        className="previous"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Previous page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="small"
+          >
+            Previous
+          </button>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 1"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 11"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          11
+        </a>
+      </li>
+      <li
+        className="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 12 is your current page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          12
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 13"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          13
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 20"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          20
+        </a>
+      </li>
+      <li
+        className="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="small"
+          >
+            Next
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="c3"
+  >
+    Showing 1 – 10 
+    <span>
+      of 100
+    </span>
+  </div>
+</div>
+`;
