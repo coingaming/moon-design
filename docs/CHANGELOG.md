@@ -3,29 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
+
+### Features
+
+- add livecasino dark theme ([3493be3](https://github.com/coingaming/sportsbet-design/commit/3493be38813f16453f7610a47ec4c546ab4078dc))
+
 # [2.35.0](https://github.com/coingaming/sportsbet-design/compare/v2.34.1...v2.35.0) (2020-09-17)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.34.1](https://github.com/coingaming/sportsbet-design/compare/v2.34.0...v2.34.1) (2020-09-16)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 # [2.33.0](https://github.com/coingaming/sportsbet-design/compare/v2.32.0...v2.33.0) (2020-09-09)
 
