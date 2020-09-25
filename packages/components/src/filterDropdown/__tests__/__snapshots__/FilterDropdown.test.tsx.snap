@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDropdown renders by default 1`] = `
+.c2 {
+  position: relative;
+}
+
+.c3 {
+  width: 100%;
+  border: none;
+  font-size: 0.875rem;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 0.125rem 1.25rem 0.125rem 0;
+  caret-color: #0CD463;
+  outline: none;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #8697A2;
+}
+
+.c3::-moz-placeholder {
+  color: #8697A2;
+}
+
+.c3:-ms-input-placeholder {
+  color: #8697A2;
+}
+
+.c3::placeholder {
+  color: #8697A2;
+}
+
+.c4 {
+  vertical-align: middle;
+  position: absolute;
+  color: #8697A2;
+  width: 1rem;
+  height: 1rem;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0 {
+  background-color: #1A212A;
+  border-radius: 8px;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  overflow: hidden;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+}
+
+.c1 {
+  margin-bottom: 1.375rem;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        className="c3"
+        onChange={[Function]}
+        placeholder="Search for a name..."
+        type="text"
+        value=""
+      />
+      <svg
+        className="c4"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <path
+            d="M11.544 11.527a5.464 5.464 0 01-7.71 0 5.445 5.445 0 010-7.699 5.464 5.464 0 017.71 0 5.445 5.445 0 010 7.7m8.063 6.184l-5.614-5.635a7.641 7.641 0 001.385-4.4 7.64 7.64 0 00-2.252-5.428A7.672 7.672 0 007.69 0a7.672 7.672 0 00-5.437 2.249A7.641 7.641 0 000 7.678a7.641 7.641 0 002.252 5.429 7.672 7.672 0 005.437 2.249 7.672 7.672 0 004.406-1.384l5.614 5.635a1.344 1.344 0 001.898 0 1.339 1.339 0 000-1.895"
+            id="icon-search_svg__a"
+          />
+        </defs>
+        <use
+          fill="currentColor"
+          fillRule="evenodd"
+          xlinkHref="#icon-search_svg__a"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FilterDropdown renders without search input 1`] = `
+.c0 {
+  background-color: #1A212A;
+  border-radius: 8px;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+  overflow: hidden;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+}
+
+<div
+  className="c0"
+/>
+`;
