@@ -20,7 +20,7 @@ const color = {
   },
   goku: {
     100: '#F3F5F6',
-    80: '#FCFDFD',
+    80: '#E9EDEF',
     40: '#FFFFFF',
     10: '#FFFFFF',
   },
@@ -56,6 +56,11 @@ const hub88: Theme = {
     ...color,
   },
   colorScheme: 'dark',
+  space: {
+    ...sharedTokens.space,
+    medium: sharedTokens.base.space * 1.25,
+    large: sharedTokens.base.space * 1.5,
+  },
 };
 
 export default hub88;
