@@ -34,6 +34,10 @@ export { default as control } from './carousel/control';
 export * from './carousel/control';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
+export {
+  default as CheckboxMultiselect,
+} from './checkboxMultiselect/CheckboxMultiselect';
+export * from './checkboxMultiselect/CheckboxMultiselect';
 export { default as DateRangePicker } from './datepicker/DateRangePicker';
 export * from './datepicker/DateRangePicker';
 export { default as Example } from './datepicker/Example';
@@ -56,6 +60,8 @@ export { default as EmptyState } from './emptyState/EmptyState';
 export * from './emptyState/EmptyState';
 export { default as FileInput } from './fileInput/FileInput';
 export * from './fileInput/FileInput';
+export { default as FilterDropdown } from './filterDropdown/FilterDropdown';
+export * from './filterDropdown/FilterDropdown';
 export { default as Form } from './form/Form';
 export * from './form/Form';
 export { default as FormCombo } from './formCombo/FormCombo';
@@ -118,6 +124,10 @@ export { default as Search } from './search/Search';
 export * from './search/Search';
 export { default as Select } from './select/Select';
 export * from './select/Select';
+export {
+  default as SingleItemSelect,
+} from './singleItemSelect/SingleItemSelect';
+export * from './singleItemSelect/SingleItemSelect';
 export { default as Snackbar } from './snackbar/Snackbar';
 export * from './snackbar/Snackbar';
 export { default as Stack } from './stack/Stack';
