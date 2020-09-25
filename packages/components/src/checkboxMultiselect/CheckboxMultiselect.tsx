@@ -15,7 +15,7 @@ type Option = React.InputHTMLAttributes<HTMLInputElement> & {
 
 type CheckboxMultiselectProps = {
   onChange: (value: Option[]) => void;
-  clearSelectedLabel: string | JSX.Element;
+  clearSelectedLabel?: string | JSX.Element;
   value: Option[];
   options: Option[];
   maxHeight?: string | number;
@@ -89,7 +89,7 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = props => {
 
   return (
     <div>
-      {!!actualValue.length && (
+      {!!clearSelectedLabel && !!actualValue.length && (
         <ClearSelected href="#" onClick={clearSelected}>
           {clearSelectedLabel}
         </ClearSelected>
