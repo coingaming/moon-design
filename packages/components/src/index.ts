@@ -122,6 +122,10 @@ export { default as Search } from './search/Search';
 export * from './search/Search';
 export { default as Select } from './select/Select';
 export * from './select/Select';
+export {
+  default as SingleItemSelect,
+} from './singleItemSelect/SingleItemSelect';
+export * from './singleItemSelect/SingleItemSelect';
 export { default as Snackbar } from './snackbar/Snackbar';
 export * from './snackbar/Snackbar';
 export { default as Stack } from './stack/Stack';
