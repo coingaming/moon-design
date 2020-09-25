@@ -1,0 +1,50 @@
+---
+name: Number Range
+menu: Components
+route: /components/number-range
+---
+
+import { NumberRange } from '@heathmont/moon-components';
+import { PropsTable } from 'docs';
+
+# Number Range
+
+Filter for numerical "more than" and "less than"
+
+## Usage
+
+```jsx react-live
+<NumberRange
+  text="Enter a minimum, maximum or range limit"
+  lteLabel="Max"
+  gteLabel="Min"
+  value={{ gte: 16, lte: 20 }}
+  onChange={value => console.log(value)}
+  lteDisabled={false}
+  lteError={false}
+  gteDisabled={false}
+  gteError={false}
+  maxWidth={246}
+/>
+```
+
+## State
+
+```jsx react-live
+<NumberRange
+  text="Enter a minimum, maximum or range limit"
+  lteLabel="Max"
+  gteLabel="Min"
+  value={{ gte: 20, lte: 16 }}
+  onChange={value => console.log(value)}
+  lteDisabled={false}
+  lteError={'Cannot be less then gte'}
+  gteDisabled={false}
+  gteError={false}
+  maxWidth={246}
+/>
+```
+
+## Props
+
+<PropsTable of={NumberRange} />
