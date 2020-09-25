@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Number Range renders correctly 1`] = `
+.c3 {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #8697A2;
+  font-size: 1rem;
+}
+
+.c4 {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: #8697A2;
+  opacity: 1;
+}
+
+.c4:hover:not(:focus):not([disabled]) {
+  border-color: #4C5159;
+}
+
+.c4:not(:placeholder-shown):not([type="date"]):invalid {
+  border-color: #FF4E64;
+}
+
+.c4:invalid,
+.c4:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.c4:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c4:focus {
+  border-color: #0CD463;
+  outline: none;
+}
+
+.c1 {
+  color: #8697A2;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.c2 > li {
+  list-style-type: none;
+}
+
+.c2 > li:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+.c0 {
+  background: #232A33;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 15.375rem;
+  box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
+}
+
+.c0 > :first-child {
+  margin-bottom: 0.75rem;
+}
+
+@supports (grid-gap:0) {
+  .c2 {
+    display: grid;
+    grid-gap: 1rem;
+  }
+}
+
+@supports not (grid-gap:0) {
+  .c2 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1"
+    color="trunks.100"
+    size={12}
+  >
+    Enter a minimum, maximum or range limit
+  </p>
+  <div
+    className="c2"
+  >
+    <label
+      className=""
+    >
+      <span
+        className="c3"
+        disabled={false}
+      >
+        Min
+      </span>
+      <input
+        className="c4"
+        disabled={false}
+        onChange={[Function]}
+        placeholder=" "
+        type="number"
+        value={16}
+      />
+    </label>
+    <label
+      className=""
+    >
+      <span
+        className="c3"
+        disabled={false}
+      >
+        Max
+      </span>
+      <input
+        className="c4"
+        disabled={false}
+        onChange={[Function]}
+        placeholder=" "
+        type="number"
+        value={20}
+      />
+    </label>
+  </div>
+</div>
+`;
