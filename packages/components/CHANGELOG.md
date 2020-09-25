@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
+
+
+### Bug Fixes
+
+* add missing value prop ([9f0abb3](https://github.com/coingaming/sportsbet-design/commit/9f0abb31d5a4aaa386071169ac62a816ff509537))
+* fix @types/react-paginate package version ([028dec8](https://github.com/coingaming/sportsbet-design/commit/028dec8879d1fae2f9a467d1c5648495c61a4455))
+* update snapshots ([0f9a1c4](https://github.com/coingaming/sportsbet-design/commit/0f9a1c4a6b541709c2abfaf26d3681075efad7f4))
+
+
+### Features
+
+* **numberrange:** gte Lte Number filter ([8706ede](https://github.com/coingaming/sportsbet-design/commit/8706edef93a8783020868d8d0ada63eaed612942))
+* add CheckboxMultiselect component ([1c25709](https://github.com/coingaming/sportsbet-design/commit/1c25709214326646a79413450dc4ce4503487423))
+* add FilterDropdown component ([ab1fbf8](https://github.com/coingaming/sportsbet-design/commit/ab1fbf88a3dea64966b15d48ca8a95282b9e275b))
+* add pagination component ([44768cb](https://github.com/coingaming/sportsbet-design/commit/44768cba2a8e825939a380a9b1d3a0373230bbc4))
+* add react-paginate to dependencies ([695dbab](https://github.com/coingaming/sportsbet-design/commit/695dbabb4ccfe7b6823262aff65c29f2e6652d45))
+* add single item select ([54af663](https://github.com/coingaming/sportsbet-design/commit/54af6639d50513b2b187ca36131170f690f293e7))
+* add SingleItemSelect filter to FilterDropdown ([e85fa34](https://github.com/coingaming/sportsbet-design/commit/e85fa34fa6fccbb2830fd6570aba166a2a6bd9a9))
+* add tree view to CheckboxMultiselect ([07b850d](https://github.com/coingaming/sportsbet-design/commit/07b850d2d1e934a994aafbd21ced7249bad68c02))
+* separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
+
+
+
+
+
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 
 ### Bug Fixes
