@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagInput renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 3rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0.5rem 2.5rem 0.25rem 0.75rem;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+
+.c0:hover {
+  border-color: #4C5159;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`TagInput renders with error state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 3rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0.5rem 2.5rem 0.25rem 0.75rem;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  border-color: #FF4E64;
+}
+
+.c0:hover {
+  border-color: #4C5159;
+}
+
+.c0:hover {
+  border-color: #FF4E64;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`TagInput renders with focused state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 3rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0.5rem 2.5rem 0.25rem 0.75rem;
+  background-color: #1A212A;
+  border: 1px solid #31373F;
+  border-radius: 0.75rem;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  border-color: #0CD463;
+}
+
+.c0:hover {
+  border-color: #4C5159;
+}
+
+.c0:hover {
+  border-color: #0CD463;
+}
+
+<div
+  className="c0"
+/>
+`;
