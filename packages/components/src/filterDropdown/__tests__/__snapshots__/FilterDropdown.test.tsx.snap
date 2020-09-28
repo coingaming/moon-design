@@ -46,12 +46,15 @@ exports[`FilterDropdown renders by default 1`] = `
 }
 
 .c0 {
+  display: inline-block;
   background-color: #1A212A;
   border-radius: 8px;
   box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
   overflow: hidden;
   font-size: 0.875rem;
   padding: 0.75rem;
+  min-width: 15rem;
+  max-width: 100%;
 }
 
 .c1 {
@@ -100,12 +103,15 @@ exports[`FilterDropdown renders by default 1`] = `
 
 exports[`FilterDropdown renders without search input 1`] = `
 .c0 {
+  display: inline-block;
   background-color: #1A212A;
   border-radius: 8px;
   box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
   overflow: hidden;
   font-size: 0.875rem;
   padding: 0.75rem;
+  min-width: 15rem;
+  max-width: 100%;
 }
 
 <div
