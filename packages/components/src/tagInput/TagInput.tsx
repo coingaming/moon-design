@@ -2,6 +2,8 @@ import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
+import Bubble from '../bubble/Bubble';
+
 export const TagInputWrapper = styled.div({
   position: 'relative',
 });
@@ -84,8 +86,17 @@ export const TagRemove = styled.button(({ theme }) => ({
   cursor: 'pointer',
   marginLeft: rem(4),
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
+  position: 'relative',
+  outline: 'none',
+  '& > div': {
+    marginRight: rem(-12),
+    marginBottom: rem(28),
+  },
   '&:hover, &:focus': {
     color: theme.color.chiChi[100],
+    '& > div': {
+      opacity: 1,
+    },
   },
 }));
 
@@ -114,8 +125,16 @@ export const RemoveAllButton = styled.button(({ theme }) => ({
   right: rem(12),
   transform: 'translateY(-50%)',
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
+  outline: 'none',
+  '& > div': {
+    marginRight: rem(-8),
+    marginBottom: rem(24),
+  },
   '&:hover, &:focus': {
     color: theme.color.piccolo[100],
+    '& > div': {
+      opacity: 1,
+    },
   },
 }));
 
@@ -126,3 +145,12 @@ export const DropdownWrapper = styled.div({
   marginTop: rem(10),
   maxWidth: '100%',
 });
+
+export const RemoveBubble = styled(Bubble as any)(({ theme }) => ({
+  position: 'absolute',
+  bottom: '100%',
+  right: 0,
+  pointerEvents: 'none',
+  transition: `opacity ${theme.transitionDuration.default}s ease-in-out`,
+  opacity: 0,
+}));
