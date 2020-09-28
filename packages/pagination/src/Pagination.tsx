@@ -7,9 +7,8 @@ import { Button } from '@heathmont/moon-components';
 import GoToPage from './GoToPage';
 
 type PaginationProps = {
-  itemsPerPageLabel?: JSX.Element;
+  itemsPerPageLabel?: string | JSX.Element;
   goToPageLabel?: string | JSX.Element;
-  showGoToPageSection?: boolean;
   previousButtonLabel: string | JSX.Element;
   nextButtonLabel: string | JSX.Element;
 } & ReactPaginateProps;
@@ -107,7 +106,6 @@ const Pagination: React.FC<PaginationProps> = props => {
   const {
     itemsPerPageLabel,
     goToPageLabel,
-    showGoToPageSection,
     onPageChange,
     previousButtonLabel,
     nextButtonLabel,
@@ -136,16 +134,12 @@ const Pagination: React.FC<PaginationProps> = props => {
           {...props}
         />
       </ReactPaginateWrapper>
-      {itemsPerPageLabel && <ItemsPerPage>{itemsPerPageLabel}</ItemsPerPage>}
-      {showGoToPageSection && (
+      {!!itemsPerPageLabel && <ItemsPerPage>{itemsPerPageLabel}</ItemsPerPage>}
+      {!!goToPageLabel && (
         <GoToPage label={goToPageLabel} onChange={handleGoToPage} />
       )}
     </PaginationWrapper>
   );
-};
-
-Pagination.defaultProps = {
-  showGoToPageSection: false,
 };
 
 export default Pagination;
