@@ -110,6 +110,8 @@ export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as MediaObject } from './mediaObject/MediaObject';
 export * from './mediaObject/MediaObject';
+export { default as NumberRange } from './numberRange/NumberRange';
+export * from './numberRange/NumberRange';
 export { default as Path } from './progressCircular/Path';
 export * from './progressCircular/Path';
 export {
@@ -124,6 +126,10 @@ export { default as Search } from './search/Search';
 export * from './search/Search';
 export { default as Select } from './select/Select';
 export * from './select/Select';
+export {
+  default as SingleItemSelect,
+} from './singleItemSelect/SingleItemSelect';
+export * from './singleItemSelect/SingleItemSelect';
 export { default as Snackbar } from './snackbar/Snackbar';
 export * from './snackbar/Snackbar';
 export { default as Stack } from './stack/Stack';
