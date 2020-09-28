@@ -1,0 +1,236 @@
+---
+name: Tag Input
+menu: Components
+route: /components/tagInput
+---
+
+# TagInput
+
+Input field with tags and suggestions
+[Figma link](https://www.figma.com/file/rQDkupIZuIlueXNMoYObjt/Hub88-Templates?node-id=1942%3A12077)
+
+```jsx react-live
+<TagInputWrapper>
+  <TagInputMain>
+    <TagInputField placeholder="Hint text" />
+    <IconDropdown />
+  </TagInputMain>
+</TagInputWrapper>
+```
+
+### with visible dropdown
+
+```jsx react-live
+<TagInputWrapper>
+  <TagInputMain focused={true}>
+    <TagInputField placeholder="Hint text" />
+    <IconDropdown />
+  </TagInputMain>
+
+  <DropdownWrapper style={{ position: 'relative' }}>
+    <FilterDropdown>
+      <CheckboxMultiselect
+        onChange={value => console.log(value)}
+        value={[]}
+        options={[
+          { label: 'Label 1', value: 1 },
+          { label: 'Label 2', value: 2 },
+          { label: 'Label 3', value: 3 },
+        ]}
+      />
+    </FilterDropdown>
+  </DropdownWrapper>
+</TagInputWrapper>
+```
+
+### with selected tags
+
+```jsx react-live
+<TagInputWrapper>
+  <TagInputMain focused={true}>
+    <Tag>
+      Label 1
+      <TagRemove>
+        <IconCloseRounded />
+      </TagRemove>
+    </Tag>
+    <Tag>
+      Label 2
+      <TagRemove>
+        <IconCloseRounded />
+      </TagRemove>
+    </Tag>
+    <TagInputField />
+    <RemoveAllButton>
+      <IconCloseRounded />
+    </RemoveAllButton>
+  </TagInputMain>
+
+  <DropdownWrapper style={{ position: 'relative' }}>
+    <FilterDropdown>
+      <CheckboxMultiselect
+        onChange={value => console.log(value)}
+        value={[{ label: 'Label 1', value: 1 }, { label: 'Label 2', value: 2 }]}
+        options={[
+          { label: 'Label 1', value: 1 },
+          { label: 'Label 2', value: 2 },
+          { label: 'Label 3', value: 3 },
+        ]}
+      />
+    </FilterDropdown>
+  </DropdownWrapper>
+</TagInputWrapper>
+```
+
+### with notifications upon removal
+
+```jsx react-live
+<TagInputWrapper style={{ marginTop: 40 }}>
+  <TagInputMain focused={true}>
+    <Tag>
+      Label 1
+      <TagRemove>
+        <IconCloseRounded />
+        <RemoveBubble>Remove</RemoveBubble>
+      </TagRemove>
+    </Tag>
+    <Tag>
+      Label 2
+      <TagRemove autofocus>
+        <IconCloseRounded />
+        <RemoveBubble>Remove</RemoveBubble>
+      </TagRemove>
+    </Tag>
+    <TagInputField />
+    <RemoveAllButton>
+      <IconCloseRounded />
+      <RemoveBubble>Remove</RemoveBubble>
+    </RemoveAllButton>
+  </TagInputMain>
+
+  <DropdownWrapper style={{ position: 'relative' }}>
+    <FilterDropdown>
+      <CheckboxMultiselect
+        onChange={value => console.log(value)}
+        value={[{ label: 'Label 1', value: 1 }, { label: 'Label 2', value: 2 }]}
+        options={[
+          { label: 'Label 1', value: 1 },
+          { label: 'Label 2', value: 2 },
+          { label: 'Label 3', value: 3 },
+        ]}
+      />
+    </FilterDropdown>
+  </DropdownWrapper>
+</TagInputWrapper>
+```
+
+### with hidden dropdown
+
+```jsx react-live
+<TagInputWrapper>
+  <TagInputMain>
+    <Tag>Label 1</Tag>
+    <Tag>Label 2</Tag>
+    <TagInputField />
+    <IconDropdown />
+  </TagInputMain>
+</TagInputWrapper>
+```
+
+## Tag
+
+```jsx react-live
+<Tag>Label</Tag>
+```
+
+### with remove button
+
+```jsx react-live
+<Tag>
+  Label
+  <TagRemove>
+    <IconCloseRounded />
+  </TagRemove>
+</Tag>
+```
+
+## TagInputMain
+
+```jsx react-live
+<TagInputMain>
+  <TagInputField placeholder="Hint text" />
+  <IconDropdown />
+</TagInputMain>
+```
+
+### with tags
+
+```jsx react-live
+<TagInputMain>
+  <Tag>Label</Tag>
+  <Tag>Label with long text</Tag>
+  <TagInputField />
+  <IconDropdown />
+</TagInputMain>
+```
+
+### with many tags
+
+```jsx react-live
+<TagInputMain>
+  <Tag>Label</Tag>
+  <Tag>Label with long text</Tag>
+  <Tag>Label with long text</Tag>
+  <Tag>Label with long text</Tag>
+  <Tag>Label with long text</Tag>
+  <Tag>Label</Tag>
+  <Tag>Label with long text</Tag>
+  <TagInputField />
+  <IconDropdown />
+</TagInputMain>
+```
+
+### with focus
+
+```jsx react-live
+<TagInputMain focused={true}>
+  <TagInputField placeholder="Hint text" />
+  <RemoveAllButton>
+    <IconCloseRounded />
+  </RemoveAllButton>
+</TagInputMain>
+```
+
+### with error
+
+```jsx react-live
+<TagInputMain error={true}>
+  <TagInputField placeholder="Hint text" />
+  <RemoveAllButton>
+    <IconCloseRounded />
+  </RemoveAllButton>
+</TagInputMain>
+```
+
+### with focus and tags
+
+```jsx react-live
+<TagInputMain focused={true}>
+  <Tag>
+    Label
+    <TagRemove>
+      <IconCloseRounded />
+    </TagRemove>
+  </Tag>
+  <Tag>
+    Label with long text
+    <TagRemove>
+      <IconCloseRounded />
+    </TagRemove>
+  </Tag>
+  <TagInputField />
+  <RemoveAllButton>
+    <IconCloseRounded />
+  </RemoveAllButton>
+</TagInputMain>
+```
