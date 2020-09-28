@@ -1,0 +1,39 @@
+---
+name: SingleItemSelect
+menu: Components
+route: /components/singleItemSelect
+---
+
+# SingleItemSelect
+
+List of selectable options
+
+```jsx react-live
+<SingleItemSelect
+  onChange={value => console.log(value)}
+  value={2}
+  options={[
+    { label: 'Game 1', value: 1 },
+    { label: 'Game 2', value: 2 },
+    { label: 'Game 3', value: 3 },
+  ]}
+/>
+```
+
+## Customize maxHeight
+
+```jsx react-live
+<SingleItemSelect
+  onChange={value => console.log(value)}
+  maxHeight={rem(100)}
+  value={2}
+  options={[
+    { label: 'Game 1', value: 1 },
+    { label: 'Game 2', value: 2 },
+    { label: 'Game 3', value: 3 },
+    { label: 'Game 4', value: 4 },
+    { label: 'Game 5', value: 5 },
+    { label: 'Game 6', value: 6 },
+  ]}
+/>
+```

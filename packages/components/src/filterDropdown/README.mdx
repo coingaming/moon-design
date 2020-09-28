@@ -88,6 +88,33 @@ Wrapper of different filters
 </FilterDropdown>
 ```
 
+## With SingleItemSelect filter
+
+```jsx react-live
+<FilterDropdown
+  searchPlaceholder="Search for a name..."
+  onSearchChange={value => console.log('onSearchChange:', value)}
+>
+  <SingleItemSelect
+    onChange={value => console.log('onChange:', value)}
+    options={[
+      { label: 'Game 1', value: 1 },
+      { label: 'Game 2', value: 2 },
+      { label: 'Game 3', value: 3 },
+      { label: 'Game 2', value: 4 },
+      { label: 'Game 3', value: 5 },
+      { label: 'Game 4', value: 6 },
+      { label: 'Game 1', value: 11 },
+      { label: 'Game 2', value: 12 },
+      { label: 'Game 3', value: 13 },
+      { label: 'Game 2', value: 14 },
+      { label: 'Game 3', value: 15 },
+      { label: 'Game 4', value: 16 },
+    ]}
+  />
+</FilterDropdown>
+```
+
 ## Without search input
 
 ```jsx react-live
