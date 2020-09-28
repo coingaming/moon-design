@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
+
+
+### Bug Fixes
+
+* livecasino colours ([de0bc1c](https://github.com/coingaming/sportsbet-design/commit/de0bc1ce61cf44913d5aa898a90cb5bcb4546235))
+* make clearSelected link optional ([66829be](https://github.com/coingaming/sportsbet-design/commit/66829be5885d90cb30dfcb030ed42fcce5cbd7fb))
+* update max and min width ([7e5fe6c](https://github.com/coingaming/sportsbet-design/commit/7e5fe6c82e134c44574d6e4627e68ed6d6f0828f))
+
+
+### Features
+
+* add bubble component ([046c833](https://github.com/coingaming/sportsbet-design/commit/046c8337ab92c4b4496abb0ce808d43552341667))
+* add tag-input ([77017d3](https://github.com/coingaming/sportsbet-design/commit/77017d30012806d3dbf6634a9e700e167aada9b7))
+
+
+
+
+
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
 
 
