@@ -8,6 +8,8 @@ export { default as Badge } from './badge/Badge';
 export * from './badge/Badge';
 export { default as Banner } from './banner/Banner';
 export * from './banner/Banner';
+export { default as Bubble } from './bubble/Bubble';
+export * from './bubble/Bubble';
 export { default as Button } from './button/Button';
 export * from './button/Button';
 export { default as oopsAnimation } from './button/oopsAnimation';

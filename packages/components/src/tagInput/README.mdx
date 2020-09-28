@@ -82,6 +82,48 @@ Input field with tags and suggestions
 </TagInputWrapper>
 ```
 
+### with notifications upon removal
+
+```jsx react-live
+<TagInputWrapper style={{ marginTop: 40 }}>
+  <TagInputMain focused={true}>
+    <Tag>
+      Label 1
+      <TagRemove>
+        <IconCloseRounded />
+        <RemoveBubble>Remove</RemoveBubble>
+      </TagRemove>
+    </Tag>
+    <Tag>
+      Label 2
+      <TagRemove autofocus>
+        <IconCloseRounded />
+        <RemoveBubble>Remove</RemoveBubble>
+      </TagRemove>
+    </Tag>
+    <TagInputField />
+    <RemoveAllButton>
+      <IconCloseRounded />
+      <RemoveBubble>Remove</RemoveBubble>
+    </RemoveAllButton>
+  </TagInputMain>
+
+  <DropdownWrapper style={{ position: 'relative' }}>
+    <FilterDropdown>
+      <CheckboxMultiselect
+        onChange={value => console.log(value)}
+        value={[{ label: 'Label 1', value: 1 }, { label: 'Label 2', value: 2 }]}
+        options={[
+          { label: 'Label 1', value: 1 },
+          { label: 'Label 2', value: 2 },
+          { label: 'Label 3', value: 3 },
+        ]}
+      />
+    </FilterDropdown>
+  </DropdownWrapper>
+</TagInputWrapper>
+```
+
 ### with hidden dropdown
 
 ```jsx react-live
