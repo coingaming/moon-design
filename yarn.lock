@@ -1414,6 +1414,61 @@
     "@heathmont/eslint-config-sportsbet-prettier" "^0.1.1"
     "@heathmont/eslint-config-sportsbet-typescript" "^0.1.3"
 
+"@heathmont/moon-assets@2.36.0":
+  version "2.36.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-assets/-/moon-assets-2.36.0.tgz#4e8f5d39b6a8b741269a8e1ec2e0db9244f13f03"
+  integrity sha512-WJ0Pj7GnuDopdBeSkPPP9GrLnESpnemlYT3SGvcKPtTvmthyblw4uJj6lHLD9CQQfJl05AAxUPUPI4qUUl+Zww==
+  dependencies:
+    "@heathmont/moon-themes" "^2.36.0"
+    "@heathmont/moon-utils" "^2.36.0"
+
+"@heathmont/moon-assets@^2.38.1-alpha.1+2fb1bdef":
+  version "2.38.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-assets/-/moon-assets-2.38.1-alpha.1.tgz#10eda43037bde7f499238fd3b78af831b8b8c66c"
+  integrity sha512-KW1nDq/q086PRiSf0TUunsLytx5X5CyzOWAHoDI3T+E3CJ+2gAE8o0+BDK3vNzk45McumciT7DS3V8mM9Rg6wA==
+  dependencies:
+    "@heathmont/moon-themes" "^2.38.1-alpha.1+2fb1bdef"
+    "@heathmont/moon-utils" "^2.38.1-alpha.1+2fb1bdef"
+
+"@heathmont/moon-components@2.36.0":
+  version "2.36.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-components/-/moon-components-2.36.0.tgz#d491445f85c499a92e0b03161b095963b4165ea5"
+  integrity sha512-ORo5Ras8zWJd0SXT4m8bYwaG5zBSvoKyYB0YI2aW0lWBYJE7qtudwmfYHlxsqImSN5qF3OEmUre/tPtTqCeqIw==
+  dependencies:
+    "@heathmont/moon-assets" "^2.36.0"
+    "@heathmont/moon-themes" "^2.36.0"
+    "@heathmont/moon-utils" "^2.36.0"
+    "@reach/dialog" "0.3.0"
+    "@types/date-fns" "2.6.0"
+    date-fns "2.15.0"
+    polished "3.4.1"
+    react-click-outside-hook "1.1.1"
+    scroll-into-view-if-needed "2.2.22"
+    smooth-scroll-into-view-if-needed "1.1.27"
+
+"@heathmont/moon-components@^2.38.1-alpha.1+2fb1bdef":
+  version "2.38.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-components/-/moon-components-2.38.1-alpha.1.tgz#06e72d1473a07c9bae509bd098ab6a5e9b655c16"
+  integrity sha512-OmRFeEAqrYdeZH+KnCsO0pRHrcK17/hH8fbgwCg6phK+hBAIduYPbpQ1zcSq4mJHKLb12Aou8vAIerHXUNVn6Q==
+  dependencies:
+    "@heathmont/moon-assets" "^2.38.1-alpha.1+2fb1bdef"
+    "@heathmont/moon-themes" "^2.38.1-alpha.1+2fb1bdef"
+    "@heathmont/moon-utils" "^2.38.1-alpha.1+2fb1bdef"
+    "@reach/dialog" "0.3.0"
+    "@types/date-fns" "2.6.0"
+    date-fns "2.15.0"
+    polished "3.4.1"
+    react-click-outside-hook "1.1.1"
+    scroll-into-view-if-needed "2.2.22"
+    smooth-scroll-into-view-if-needed "1.1.27"
+
+"@heathmont/moon-fonts@^2.38.1-alpha.1+2fb1bdef":
+  version "2.38.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-fonts/-/moon-fonts-2.38.1-alpha.1.tgz#15fd297f0385b5a6bee609817736030255f9b543"
+  integrity sha512-tFhNrTK2AI3oq5USXGxui/kVHO4VzKjC2MAGfv6S8Jjy+gijgwN+24/isX16vqQFVX+DLpQ9U3zviXASPnSe7g==
+  dependencies:
+    "@heathmont/sportsbet-cdn" "1.1.0"
+
 "@heathmont/moon-pagination@2.33.1-beta.4":
   version "2.33.1-beta.4"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-pagination/-/moon-pagination-2.33.1-beta.4.tgz#75005b838e0efbe29d2e96efec7eef65c0e98736"
@@ -1433,6 +1488,42 @@
   dependencies:
     "@heathmont/moon-themes" "^2.34.2-alpha.3+332a2736"
     "@heathmont/moon-utils" "^2.34.2-alpha.3+332a2736"
+
+"@heathmont/moon-table@2.38.1-alpha.1":
+  version "2.38.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-table/-/moon-table-2.38.1-alpha.1.tgz#ae560d7ad7299dde71a90765dc696646e49707ee"
+  integrity sha512-lH8RvUazGVlJEH4hO3HekO6sA4lNKEuXBIZJm9X49w7YNyQhqocLoyAk7c3XqIAiGjWCCsaQnjKnLAKjIh6duA==
+  dependencies:
+    "@heathmont/moon-components" "^2.38.1-alpha.1+2fb1bdef"
+    "@heathmont/moon-themes" "^2.38.1-alpha.1+2fb1bdef"
+    "@heathmont/moon-utils" "^2.38.1-alpha.1+2fb1bdef"
+
+"@heathmont/moon-themes@^2.38.1-alpha.1+2fb1bdef":
+  version "2.38.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-2.38.1-alpha.1.tgz#85f9a9f4e21c10db137458b76ed13d5ddb0fe608"
+  integrity sha512-glgy4OJtAKLTGO51twJMps6FodYfDwfOoduLjtkO7jmraXjbj+BVYHMGqU+SibDrttRfPEWQFgn+M+XNcg4aBg==
+  dependencies:
+    "@heathmont/moon-fonts" "^2.38.1-alpha.1+2fb1bdef"
+
+"@heathmont/moon-utils@2.36.0":
+  version "2.36.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.36.0.tgz#771ee7d65299c8b2fc00c957bbf1c2043ae84196"
+  integrity sha512-S4cbbkr6JIX5r7szU5Ujk/UrYkCEJHYqIjyRfVn56UnwMhFo+p/K9D7Ua9AHc04BYhA7i29/BZk9AUjsZnHVYQ==
+  dependencies:
+    "@heathmont/moon-themes" "^2.36.0"
+    lodash.get "4.4.2"
+    lodash.has "4.5.2"
+    polished "3.4.1"
+
+"@heathmont/moon-utils@^2.38.1-alpha.1+2fb1bdef":
+  version "2.38.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.38.1-alpha.1.tgz#6182d963ee22539d0716621f76a391a86fb8a22f"
+  integrity sha512-YzB6aFWXuOW9ifAqTrfnCo8Lv+yMuK9QQhBd6jQ4SSUY9vu05J2eRx1UhQ4RAloOXL1nh8kqEAyxIejGeN2C+A==
+  dependencies:
+    "@heathmont/moon-themes" "^2.38.1-alpha.1+2fb1bdef"
+    lodash.get "4.4.2"
+    lodash.has "4.5.2"
+    polished "3.4.1"
 
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
@@ -3210,6 +3301,13 @@
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/@types/react-paginate/-/react-paginate-6.2.1.tgz#2329088d78010ea49661559c8467a24ecd942784"
   integrity sha512-+q8k1N0WzbMyOCsIEH/p5D6/KQD8dXYLzfvSvriYn//94icd2sqhAL2rWXkgwGvqHGCSTU9AoHtsWCJxPfquUQ==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-table@7.0.23":
+  version "7.0.23"
+  resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.0.23.tgz#77d10ac36be759f6598f2b185865905425b47833"
+  integrity sha512-1L2wFQVm6QcrSUbAdTUpk2PTYX5Wqx11Kh+wuN/kYYRWNI4OGpj3sIn3QAQ1jOwXKpyLMTL6lpEcUfKw2ZEieQ==
   dependencies:
     "@types/react" "*"
 
@@ -5250,6 +5348,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 clean-stack@^2.0.0:
   version "2.2.0"
@@ -14817,6 +14920,19 @@ react-style-singleton@^2.1.0:
     invariant "^2.2.4"
     tslib "^1.0.0"
 
+react-table-hoc-fixed-columns@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/react-table-hoc-fixed-columns/-/react-table-hoc-fixed-columns-2.3.3.tgz#77e903806216a62695f30935a8371ce46507f3bf"
+  integrity sha512-c6FyOAhPpIBxV5gPIbhNgDiZo/BPKyYcQzN3TUXAGYu4E6KG3yWwifiTY+M4SNPR2K2Bdv6US8wp1MkHAXRDNA==
+  dependencies:
+    classnames "^2.2.6"
+    uniqid "^5.0.3"
+
+react-table@7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.5.1.tgz#b6a9b46e52c0f37ff91717ac478f430c6a357e41"
+  integrity sha512-rprrUElCqvj79lyY2XbUoYLzwA5Mm4CGS8ElQ8OyzocvmkvCcmunvvfbpIg9Jm9HnMBjVZcVyPFPZ1BFelIBKw==
+
 "react-test-renderer@>= 16.10.2":
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.13.1.tgz#de25ea358d9012606de51e012d9742e7f0deabc1"
@@ -17522,6 +17638,11 @@ uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
+
+uniqid@^5.0.3:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.2.0.tgz#0d0589a7e9ce07116848126764fbff0b68e74329"
+  integrity sha512-LH8zsvwJ/GL6YtNfSOmMCrI9piraAUjBfw2MCvleNE6a4pVKJwXjG2+HWhkVeFcSg+nmaPKbMrMOoxwQluZ1Mg==
 
 uniqs@^2.0.0:
   version "2.0.0"
