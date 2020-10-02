@@ -11,14 +11,28 @@ import { Switch } from '@heathmont/moon-components';
 An alternate checkbox appearance for simulating on/off state.
 
 ```jsx react-live
-<Switch />
+() => {
+  const [state, setState] = React.useState(true);
+
+  return <Switch checked={state} onChange={e => setState(e.target.checked)} />;
+};
 ```
 
 An additional variant of the `Switch` can be used to toggle the app's
 `colorScheme` between 'light' and 'dark'.
 
 ```jsx react-live
-<Switch colorScheme />
+() => {
+  const [state, setState] = React.useState(true);
+
+  return (
+    <Switch
+      checked={state}
+      onChange={e => setState(e.target.checked)}
+      colorScheme
+    />
+  );
+};
 ```
 
 ## Captions
@@ -27,11 +41,34 @@ For extra context, captions can be appended to the unchecked and checked
 positions of the switch.
 
 ```jsx react-live
-<Switch captionUnchecked="ON" captionChecked="OFF" />
+() => {
+  const [state, setState] = React.useState(true);
+
+  return (
+    <Switch
+      checked={state}
+      onChange={e => setState(e.target.checked)}
+      captionUnchecked="OFF"
+      captionChecked="ON"
+    />
+  );
+};
 ```
 
 ```jsx react-live
-<Switch colorScheme captionUnchecked="AM" captionChecked="PM" />
+() => {
+  const [state, setState] = React.useState(true);
+
+  return (
+    <Switch
+      checked={state}
+      onChange={e => setState(e.target.checked)}
+      colorScheme
+      captionUnchecked="AM"
+      captionChecked="PM"
+    />
+  );
+};
 ```
 
 ## State
