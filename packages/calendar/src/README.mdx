@@ -4,16 +4,69 @@ menu: Components
 route: /Calendar/calendar
 ---
 
+Week and Month calendar components have the same api
+
+## Props
+
+| Name                |                  Type                  | Description                                                                       |
+| :------------------ | :------------------------------------: | :-------------------------------------------------------------------------------- |
+| cursorDate          |                  Date                  | **Required**. Will display month of cursorDate                                    |
+| config              | {weekStartsOn: number, locale: Locale} | **weekStartsOn** - first day of week(sunday=0), **locale** - Locale from date fns |
+| renderDayContent    |       (date:Date) => JSX.Element       | you can render something on the left to the day number                            |
+| renderNearDayNumber |       (date:Date) => JSX.Element       | you can render something under day number                                         |
+
 # Month
 
 ```jsx react-live
-<Month cursorDate={new Date()} />
+() => {
+  const isToday = someDate => {
+    const today = new Date();
+    return (
+      someDate.getDate() == today.getDate() &&
+      someDate.getMonth() == today.getMonth() &&
+      someDate.getFullYear() == today.getFullYear()
+    );
+  };
+
+  const renderDayContent = date => (isToday(date) ? 'today' : null);
+
+  const renderNearDayNumber = date => (isToday(date) ? 't' : null);
+
+  return (
+    <Month
+      cursorDate={new Date()}
+      renderDayContent={renderDayContent}
+      renderNearDayNumber={renderNearDayNumber}
+    />
+  );
+};
 ```
 
 # Week
 
 ```jsx react-live
-<div style={{ height: '800px' }}>
-  <Week cursorDate={new Date()} />
-</div>
+() => {
+  const isToday = someDate => {
+    const today = new Date();
+    return (
+      someDate.getDate() == today.getDate() &&
+      someDate.getMonth() == today.getMonth() &&
+      someDate.getFullYear() == today.getFullYear()
+    );
+  };
+
+  const renderDayContent = date => (isToday(date) ? 'today' : null);
+
+  const renderNearDayNumber = date => (isToday(date) ? 't' : null);
+
+  return (
+    <div style={{ height: '800px' }}>
+      <Week
+        cursorDate={new Date()}
+        renderDayContent={renderDayContent}
+        renderNearDayNumber={renderNearDayNumber}
+      />
+    </div>
+  );
+};
 ```
