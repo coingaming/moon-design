@@ -9,9 +9,24 @@ route: /Pagination/pagination
 Pagination component based on [react-paginate](https://github.com/AdeleD/react-paginate).
 **_Page index is zero-based_**
 
-## Examples
+[Figma link](https://www.figma.com/file/rQDkupIZuIlueXNMoYObjt/Hub88---Templates?node-id=165%3A14678)
 
-### With all props
+### Props
+
+| Name                   | &nbsp;&nbsp;&nbsp;&nbsp; |        Type         | &nbsp;&nbsp;&nbsp;&nbsp; | Description                                                                                |
+| :--------------------- | ------------------------ | :-----------------: | ------------------------ | :----------------------------------------------------------------------------------------- |
+| pageCount              |                          |       number        |                          | **Required**. The total number of pages.                                                   |
+| pageRangeDisplayed     |                          |       number        |                          | **Required**. The range of pages displayed.                                                |
+| marginPagesDisplayed   |                          |       number        |                          | **Required**. The number of pages to display for margins.                                  |
+| previousButtonLabel    |                          | string, JSX.Element |                          | Label for "previous" button                                                                |
+| nextButtonLabel        |                          | string, JSX.Element |                          | Label for "next" button                                                                    |
+| onPageChange           |                          |      function       |                          | The method to call when a page is clicked. Exposes the current page object as an argument. |
+| initialPage            |                          |       number        |                          | The initial page selected                                                                  |
+| disableInitialCallback |                          |       boolean       |                          | Disable onPageChange callback with initial page. **Default: false**                        |
+| itemsPerPageLabel      |                          | string, JSX.Element |                          | Component for showing items per page section. Hidden if empty                              |
+| goToPageLabel          |                          | string, JSX.Element |                          | Label for "Go to page" section. Hidden if empty                                            |
+
+## Examples
 
 ```jsx react-live
 <Pagination
@@ -20,7 +35,55 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   marginPagesDisplayed={1}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onPageChange={({ selected }) => alert(`selected: ${selected}`)}
+  onPageChange={({ selected }) => console.log(selected)}
+  initialPage={10}
+  disableInitialCallback={true}
+/>
+```
+
+### With "items per page" section
+
+```jsx react-live
+<Pagination
+  pageCount={20}
+  pageRangeDisplayed={3}
+  marginPagesDisplayed={1}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
+  initialPage={10}
+  disableInitialCallback={true}
+  itemsPerPageLabel={
+    <>
+      Showing 1 – 10 <span>of 100</span>
+    </>
+  }
+/>
+```
+
+### With "go to page" section
+
+```jsx react-live
+<Pagination
+  pageCount={20}
+  pageRangeDisplayed={3}
+  marginPagesDisplayed={1}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
+  initialPage={10}
+  disableInitialCallback={true}
+  goToPageLabel={'Go to page'}
+/>
+```
+
+### With "items per page" and "go to page" sections
+
+```jsx react-live
+<Pagination
+  pageCount={20}
+  pageRangeDisplayed={3}
+  marginPagesDisplayed={1}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
   initialPage={10}
   disableInitialCallback={true}
   itemsPerPageLabel={
@@ -29,24 +92,10 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
     </>
   }
   goToPageLabel={'Go to page'}
-  showGoToPageSection={true}
 />
 ```
 
-### Without "items per page" and "go to page" sections
-
-```jsx react-live
-<Pagination
-  pageCount={30}
-  pageRangeDisplayed={5}
-  marginPagesDisplayed={1}
-  initialPage={15}
-  previousButtonLabel="Previous"
-  nextButtonLabel="Next"
-/>
-```
-
-### With previous and next buttons customization
+### With previous and next buttons label customization
 
 ```jsx react-live
 <Pagination
@@ -59,18 +108,27 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
 />
 ```
 
-### With "items per page" section
+### With the first page selected
 
 ```jsx react-live
 <Pagination
-  itemsPerPageLabel={
-    <>
-      Showing 1 – 20 <span>of 100</span>
-    </>
-  }
-  pageCount={63}
-  pageRangeDisplayed={7}
+  pageCount={100}
+  pageRangeDisplayed={10}
   marginPagesDisplayed={1}
+  initialPage={0}
+  previousButtonLabel="Previous"
+  nextButtonLabel="Next"
+/>
+```
+
+### With the last page selected
+
+```jsx react-live
+<Pagination
+  pageCount={100}
+  pageRangeDisplayed={10}
+  marginPagesDisplayed={1}
+  initialPage={99}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
 />
