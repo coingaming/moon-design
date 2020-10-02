@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
+
+
+### Bug Fixes
+
+* ls hit colors in wrong order ([968d6dc](https://github.com/coingaming/sportsbet-design/commit/968d6dc96f143420af83fbb922290bbc2c4331af))
+* luckyslots hit color ([daeb219](https://github.com/coingaming/sportsbet-design/commit/daeb219dcda6a75f6eca6aafb7195277cb69b5d1))
+
+
+
+
+
 # [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
 
