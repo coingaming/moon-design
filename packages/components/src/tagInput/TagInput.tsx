@@ -4,6 +4,28 @@ import styled from 'styled-components';
 
 import Bubble from '../bubble/Bubble';
 
+export const RemoveBubble = styled(Bubble as any)(({ theme }) => ({
+  position: 'absolute',
+  bottom: '100%',
+  right: 0,
+  pointerEvents: 'none',
+  transition: `opacity ${theme.transitionDuration.default}s ease-in-out`,
+  opacity: 0,
+}));
+
+export const Tag = styled.div(({ theme }) => ({
+  display: 'inline-flex',
+  alignItems: 'center',
+  backgroundColor: theme.color.goku[100],
+  borderRadius: rem(8),
+  padding: rem(8),
+  color: theme.color.piccolo[100],
+  fontSize: rem(12),
+  height: rem(32),
+  fontWeight: theme.fontWeight.normal,
+  position: 'relative',
+}));
+
 export const TagInputWrapper = styled.div({
   position: 'relative',
 });
@@ -25,6 +47,9 @@ export const TagInputMain = styled.div<{ focused?: boolean; error?: boolean }>(
       transition: `border-color ${theme.transitionDuration.default}s ease`,
       '&:hover': {
         borderColor: theme.color.goku[40],
+      },
+      [Tag]: {
+        margin: `0 ${rem(4)} ${rem(4)} 0`,
       },
     },
     ({ focused }) =>
@@ -60,20 +85,6 @@ export const TagInputField = styled.input(({ theme }) => ({
   },
 }));
 
-export const Tag = styled.div(({ theme }) => ({
-  display: 'inline-flex',
-  alignItems: 'center',
-  backgroundColor: theme.color.goku[100],
-  borderRadius: rem(8),
-  padding: rem(8),
-  color: theme.color.piccolo[100],
-  fontSize: rem(12),
-  height: rem(32),
-  fontWeight: theme.fontWeight.semibold,
-  margin: `0 ${rem(4)} ${rem(4)} 0`,
-  position: 'relative',
-}));
-
 export const TagRemove = styled.button(({ theme }) => ({
   appearance: 'none',
   background: 'none',
@@ -88,13 +99,13 @@ export const TagRemove = styled.button(({ theme }) => ({
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
   position: 'relative',
   outline: 'none',
-  '& > div': {
+  [RemoveBubble]: {
     marginRight: rem(-12),
     marginBottom: rem(28),
   },
   '&:hover, &:focus': {
     color: theme.color.chiChi[100],
-    '& > div': {
+    [RemoveBubble]: {
       opacity: 1,
     },
   },
@@ -126,13 +137,13 @@ export const RemoveAllButton = styled.button(({ theme }) => ({
   transform: 'translateY(-50%)',
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
   outline: 'none',
-  '& > div': {
+  [RemoveBubble]: {
     marginRight: rem(-8),
     marginBottom: rem(24),
   },
   '&:hover, &:focus': {
     color: theme.color.piccolo[100],
-    '& > div': {
+    [RemoveBubble]: {
       opacity: 1,
     },
   },
@@ -145,12 +156,3 @@ export const DropdownWrapper = styled.div({
   marginTop: rem(10),
   maxWidth: '100%',
 });
-
-export const RemoveBubble = styled(Bubble as any)(({ theme }) => ({
-  position: 'absolute',
-  bottom: '100%',
-  right: 0,
-  pointerEvents: 'none',
-  transition: `opacity ${theme.transitionDuration.default}s ease-in-out`,
-  opacity: 0,
-}));
