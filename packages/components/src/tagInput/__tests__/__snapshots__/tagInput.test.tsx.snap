@@ -32,6 +32,10 @@ exports[`TagInput renders correctly 1`] = `
   border-color: #4C5159;
 }
 
+.c0 .c1 {
+  margin: 0 0.25rem 0.25rem 0;
+}
+
 <div
   className="c0"
 />
@@ -68,6 +72,10 @@ exports[`TagInput renders with error state 1`] = `
 
 .c0:hover {
   border-color: #4C5159;
+}
+
+.c0 .c1 {
+  margin: 0 0.25rem 0.25rem 0;
 }
 
 .c0:hover {
@@ -110,6 +118,10 @@ exports[`TagInput renders with focused state 1`] = `
 
 .c0:hover {
   border-color: #4C5159;
+}
+
+.c0 .c1 {
+  margin: 0 0.25rem 0.25rem 0;
 }
 
 .c0:hover {
