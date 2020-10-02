@@ -1,0 +1,65 @@
+---
+name: Tag List
+menu: Components
+route: /components/tagList
+---
+
+# TagList
+
+List of tags with expanding dropdown
+[Figma link](https://www.figma.com/file/rQDkupIZuIlueXNMoYObjt/Hub88---Templates?node-id=2017%3A0)
+
+```jsx react-live
+<TagListWrapper>
+  <List>
+    <Tag>Bender</Tag>
+    <Tag>Livegames</Tag>
+    <Tag>Bitcasino</Tag>
+  </List>
+</TagListWrapper>
+```
+
+## with "show more" button
+
+```jsx react-live
+<TagListWrapper>
+  <List>
+    <Tag>Bender</Tag>
+    <Tag>Livegames</Tag>
+    <Tag>Bitcasino</Tag>
+    <ShowMore>+6</ShowMore>
+  </List>
+</TagListWrapper>
+```
+
+## with expanded list
+
+```jsx react-live
+<Inline style={{ padding: '60px 16px' }}>
+  <TagListWrapper>
+    <List>
+      <Tag>Bender</Tag>
+      <Tag>Livegames</Tag>
+      <Tag>Bitcasino</Tag>
+      <ShowMore>+6</ShowMore>
+    </List>
+    <Dropdown>
+      <Tag>Bender</Tag>
+      <Tag>Livegames</Tag>
+      <Tag>Bitcasino</Tag>
+      <Tag>Luckuslots</Tag>
+      <Tag>Slots.io</Tag>
+      <Tag>Rocketpot</Tag>
+      <Tag>Betika</Tag>
+      <Tag>Sportbet</Tag>
+      <Tag>Chips</Tag>
+      <CopyWrapper>
+        <CopyButton>
+          <CopyBubble position="bottom">Copy</CopyBubble>
+          <IconCopy color="trunks.100" />
+        </CopyButton>
+      </CopyWrapper>
+    </Dropdown>
+  </TagListWrapper>
+</Inline>
+```
