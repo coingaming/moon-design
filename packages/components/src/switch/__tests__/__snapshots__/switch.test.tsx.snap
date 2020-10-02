@@ -10,7 +10,7 @@ exports[`Switch renders as checked 1`] = `
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: #353C44;
+  background-color: #1A212A;
   background-position: left 0.5rem center,right 0.5rem center;
   background-repeat: no-repeat;
   border-radius: calc(var(--switch-width) + 0.125rem);
@@ -103,7 +103,7 @@ exports[`Switch renders by default 1`] = `
   right: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: #353C44;
+  background-color: #1A212A;
   background-position: left 0.5rem center,right 0.5rem center;
   background-repeat: no-repeat;
   border-radius: calc(var(--switch-width) + 0.125rem);
@@ -175,6 +175,7 @@ exports[`Switch renders by default 1`] = `
   className="c0"
 >
   <input
+    checked={false}
     className="c1"
     id="test-switch-1"
     type="checkbox"
