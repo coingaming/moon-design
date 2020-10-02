@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
+
+
+### Bug Fixes
+
+* update switcher ([2b19387](https://github.com/coingaming/sportsbet-design/commit/2b193874ab0e1393c9859102682457b55d079c6a))
+* update switcher ([a128c69](https://github.com/coingaming/sportsbet-design/commit/a128c694d6c3d1b044c42d54a563070be08dda42))
+
+
+### Features
+
+* add tag list component ([cd680f1](https://github.com/coingaming/sportsbet-design/commit/cd680f16720a5d4103ee6d0047284a00f34e9724))
+
+
+
+
+
 # [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
 
