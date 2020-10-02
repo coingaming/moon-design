@@ -1,12 +1,12 @@
 import React from 'react';
-import styled, { CSSObject } from 'styled-components';
+import styled from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import { hideVisually } from 'polished';
-import { ColorScheme } from '@heathmont/moon-themes';
 
 import IconMoon from '../private/icons/IconMoon';
 import IconSun from '../private/icons/IconSun';
 import Inline from '../inline/Inline';
+import Caption from '../caption/Caption';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
@@ -17,16 +17,6 @@ const switchHeight = `var(${switchHeightProperty})`;
 type SliderColorScheme = {
   colorScheme?: boolean;
 };
-
-const indicatorBoxShadow = (
-  themeColorScheme: ColorScheme
-): CSSObject['boxShadow'] =>
-  `0px 2.3px 4px rgba(0,0,0,0.${themeColorScheme === 'dark' ? 408 : 108})`;
-
-const Caption = styled.span(({ theme: { color, fontWeight } }) => ({
-  color: color.trunks[100],
-  fontWeight: fontWeight.semibold,
-}));
 
 const Slider = styled.span<SliderColorScheme>(
   ({
@@ -41,7 +31,7 @@ const Slider = styled.span<SliderColorScheme>(
     right: 0,
     bottom: 0,
     cursor: 'pointer',
-    backgroundColor: colorScheme ? color.gohan[100] : color.goku[80],
+    backgroundColor: color.gohan[100],
     backgroundImage: colorScheme
       ? `${inlineSvg(<IconMoon />)}, ${inlineSvg(<IconSun />)}`
       : undefined,
@@ -62,7 +52,6 @@ const Slider = styled.span<SliderColorScheme>(
       left: rem(space.xsmall),
       bottom: rem(space.xsmall),
       backgroundColor: themeColorScheme ? color.goku[100] : color.trunks[100],
-      boxShadow: colorScheme ? indicatorBoxShadow(themeColorScheme) : undefined,
       borderRadius: '50%',
       transition: 'inherit',
       transitionProperty: 'background-color, transform',
@@ -98,10 +87,19 @@ Input.defaultProps = {
   type: 'checkbox',
 };
 
+const SwitcherCaption = styled(Caption as any)<{ checked: boolean }>(
+  ({ checked, theme: { color, transitionDuration } }) => [
+    { transition: `color ${transitionDuration.default}s` },
+    checked && {
+      color: checked ? color.trunks[100] : color.bulma[100],
+    },
+  ]
+);
+
 type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;
 
 export type SwitchProps = {
-  checked?: HTMLInputProps['checked'];
+  checked?: boolean;
   className?: string;
   captionUnchecked?: string;
   captionChecked?: string;
@@ -113,7 +111,7 @@ export const Switch: React.FC<SwitchProps> = ({
   className,
   captionChecked,
   captionUnchecked,
-  checked,
+  checked = false,
   colorScheme,
   id,
   ...props
@@ -144,12 +142,16 @@ export const Switch: React.FC<SwitchProps> = ({
 
   return (
     <Inline space="small" css={{ overflow: 'visible' }}>
-      {captionUnchecked && <Caption>{captionUnchecked}</Caption>}
+      {captionUnchecked && (
+        <SwitcherCaption checked={checked}>{captionUnchecked}</SwitcherCaption>
+      )}
       <Label {...labelProps}>
         <Input {...inputProps} />
         <Slider {...sliderProps} />
       </Label>
-      {captionChecked && <Caption>{captionChecked}</Caption>}
+      {captionChecked && (
+        <SwitcherCaption checked={!checked}>{captionChecked}</SwitcherCaption>
+      )}
     </Inline>
   );
 };
