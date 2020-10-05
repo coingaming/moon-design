@@ -78,9 +78,26 @@ Collapsible sidebar component
     });
   };
 
+  const defaultColumn = React.useMemo(
+    () => ({
+      minWidth: 100,
+      width: 150,
+      maxWidth: 400,
+    }),
+    []
+  );
+
   const columns = React.useMemo(() => columnsInitial, []);
   const data = React.useMemo(() => makeData(40), []);
 
-  return <Table columns={columns} data={data} />;
+  return (
+    <Table
+      columns={columns}
+      data={data}
+      defaultColumn={defaultColumn}
+      width={800}
+      height={400}
+    />
+  );
 };
 ```
