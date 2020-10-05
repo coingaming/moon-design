@@ -9,5 +9,78 @@ route: /table/table
 Collapsible sidebar component
 
 ```jsx react-live
-<Table />
+() => {
+  const columnsInitial = [
+    {
+      Header: 'Name',
+      Footer: 'Name',
+      sticky: 'left',
+      columns: [
+        {
+          Header: 'First Name',
+          Footer: 'First Name',
+          accessor: 'firstName',
+        },
+        {
+          Header: 'Last Name',
+          Footer: 'Last Name',
+          accessor: 'lastName',
+        },
+      ],
+    },
+    {
+      Header: 'Info',
+      Footer: 'Info',
+      columns: [
+        {
+          Header: 'Age',
+          Footer: 'age',
+          accessor: 'age',
+          width: 50,
+        },
+        {
+          Header: 'Visits',
+          Footer: 'Visits',
+          accessor: 'visits',
+          width: 60,
+        },
+        {
+          Header: 'Status',
+          Footer: 'Status',
+          accessor: 'status',
+        },
+      ],
+    },
+    {
+      Header: ' ',
+      Footer: ' ',
+      sticky: 'right',
+      columns: [
+        {
+          Header: 'Profile Progress',
+          Footer: 'Profile Progress',
+          accessor: 'progress',
+        },
+      ],
+    },
+  ];
+
+  const makeData = length => {
+    return Array.from('_'.repeat(length)).map(() => {
+      return {
+        firstName: 'Test',
+        lastName: 'Test',
+        age: Math.floor(Math.random() * 30),
+        visits: Math.floor(Math.random() * 100),
+        progress: Math.floor(Math.random() * 100),
+        status: Math.floor(Math.random() * 100),
+      };
+    });
+  };
+
+  const columns = React.useMemo(() => columnsInitial, []);
+  const data = React.useMemo(() => makeData(40), []);
+
+  return <Table columns={columns} data={data} />;
+};
 ```
