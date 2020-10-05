@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
 import compareAsc from 'date-fns/compareAsc';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import { mq } from '@heathmont/moon-utils';
 
 import Button from '../../button/Button';
