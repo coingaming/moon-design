@@ -1505,12 +1505,29 @@
   dependencies:
     "@heathmont/moon-fonts" "^2.38.1-alpha.1+2fb1bdef"
 
+"@heathmont/moon-themes@^2.39.0":
+  version "2.39.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-2.39.0.tgz#bf16fc1d93da5fc9c8c7500773716b205d39e07d"
+  integrity sha512-CCg9trRHiz72upv3kdHiRJD3CXj5zoyAdWHZ4DSfl1X2rfSsaZeve2mjefM8OPgCfS5+Ddz+LOxa/0k+C9xo+g==
+  dependencies:
+    "@heathmont/moon-fonts" "^2.37.0"
+
 "@heathmont/moon-utils@2.36.0":
   version "2.36.0"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.36.0.tgz#771ee7d65299c8b2fc00c957bbf1c2043ae84196"
   integrity sha512-S4cbbkr6JIX5r7szU5Ujk/UrYkCEJHYqIjyRfVn56UnwMhFo+p/K9D7Ua9AHc04BYhA7i29/BZk9AUjsZnHVYQ==
   dependencies:
     "@heathmont/moon-themes" "^2.36.0"
+    lodash.get "4.4.2"
+    lodash.has "4.5.2"
+    polished "3.4.1"
+
+"@heathmont/moon-utils@2.39.0":
+  version "2.39.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.39.0.tgz#d19aa0f35506a35f5c88e0a9201ed0316ff17300"
+  integrity sha512-08JrHhp098uqjSnQLTX311UwvPojTinrfKvZLmmNgTQe0aEksXQJH6sF8//kgjpC3KgAexC1EZWUe1U4zPV6rQ==
+  dependencies:
+    "@heathmont/moon-themes" "^2.39.0"
     lodash.get "4.4.2"
     lodash.has "4.5.2"
     polished "3.4.1"
