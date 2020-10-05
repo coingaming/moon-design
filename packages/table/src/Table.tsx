@@ -82,16 +82,13 @@ const Styles = styled.div`
   }
 `;
 
-const Table: React.FC<any> = ({ columns, data }) => {
-  const defaultColumn = React.useMemo(
-    () => ({
-      minWidth: 100,
-      width: 150,
-      maxWidth: 400,
-    }),
-    []
-  );
-
+const Table: React.FC<any> = ({
+  columns,
+  data,
+  defaultColumn,
+  width,
+  height,
+}) => {
   const {
     getTableProps,
     getTableBodyProps,
@@ -110,14 +107,14 @@ const Table: React.FC<any> = ({ columns, data }) => {
   );
 
   // Workaround as react-table footerGroups doesn't provide the same internal data than headerGroups
-  const footerGroups = headerGroups.slice().reverse();
+  // const footerGroups = headerGroups.slice().reverse();
 
   return (
     <Styles>
       <div
         {...getTableProps()}
         className="table sticky"
-        style={{ width: 800, height: 400 }}
+        style={{ width, height }}
       >
         <div className="header">
           {headerGroups.map(headerGroup => (
@@ -156,7 +153,7 @@ const Table: React.FC<any> = ({ columns, data }) => {
           })}
         </div>
 
-        <div className="footer">
+        {/* <div className="footer">
           {footerGroups.map(footerGroup => (
             <div {...footerGroup.getHeaderGroupProps()} className="tr">
               {footerGroup.headers.map(column => (
@@ -166,7 +163,7 @@ const Table: React.FC<any> = ({ columns, data }) => {
               ))}
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </Styles>
   );
