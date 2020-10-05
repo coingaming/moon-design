@@ -6,7 +6,9 @@ route: /table/table
 
 # Table
 
-Collapsible sidebar component
+Lightweight, fast and extendable table.
+
+Based on [react-table](https://github.com/tannerlinsley/react-table)
 
 ```jsx react-live
 () => {
@@ -42,17 +44,22 @@ Collapsible sidebar component
           Header: 'Visits',
           Footer: 'Visits',
           accessor: 'visits',
-          width: 60,
+        },
+        {
+          Header: 'Activity',
+          Footer: 'Activity',
+          accessor: 'activity',
         },
         {
           Header: 'Status',
           Footer: 'Status',
+          width: 60,
           accessor: 'status',
         },
       ],
     },
     {
-      Header: ' ',
+      Header: 'Progress',
       Footer: ' ',
       sticky: 'right',
       columns: [
@@ -70,10 +77,11 @@ Collapsible sidebar component
       return {
         firstName: 'Test',
         lastName: 'Test',
-        age: Math.floor(Math.random() * 30),
-        visits: Math.floor(Math.random() * 100),
-        progress: Math.floor(Math.random() * 100),
+        age: <span>{Math.floor(Math.random() * 30)}</span>,
+        visits: <span>{Math.floor(Math.random() * 100)}</span>,
+        progress: <span>{Math.floor(Math.random() * 100)}</span>,
         status: Math.floor(Math.random() * 100),
+        activity: Math.floor(Math.random() * 100),
       };
     });
   };
