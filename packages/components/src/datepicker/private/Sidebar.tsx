@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
 import { mq } from '@heathmont/moon-utils';
 

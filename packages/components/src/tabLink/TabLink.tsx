@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 
 import { underlineWidth, underlineOffset } from '../tabs/private';
 
