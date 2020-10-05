@@ -1,20 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import ReactTable, {
-  useTable,
-  useBlockLayout,
-  useResizeColumns,
-} from 'react-table';
-import withFixedColumns from 'react-table-hoc-fixed-columns';
-
-import makeData from './makeData';
+import { useTable, useBlockLayout, useResizeColumns } from 'react-table';
+import { useSticky } from 'react-table-sticky';
 
 const Styles = styled.div`
   padding: 1rem;
   .table {
-    display: inline-block;
-    border-spacing: 0;
-    border: 1px solid black;
     .tr {
       :last-child {
         .td {
@@ -22,40 +13,70 @@ const Styles = styled.div`
         }
       }
     }
+
     .th,
     .td {
-      background-color: #232a33;
-      margin: 0;
-      padding: 0.5rem;
-      border-bottom: 1px solid black;
-      border-right: 1px solid black;
-      ${'' /* In this example we use an absolutely position resizer,
-       so this is required. */}
-      position: relative;
-      &.sticky {
-        position: sticky !important;
-        left: 0;
-        top: 0;
-        z-index: 10;
-      }
+      padding: 5px;
+      color: black;
+      border-bottom: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      background-color: #fff;
+      overflow: hidden;
+
       :last-child {
         border-right: 0;
       }
+
       .resizer {
         display: inline-block;
-        background: #0cd463;
-        width: 10px;
+        width: 5px;
         height: 100%;
         position: absolute;
         right: 0;
         top: 0;
         transform: translateX(50%);
         z-index: 1;
-        ${'' /* prevents from scrolling while dragging on touch devices */}
-        touch-action:none;
+
         &.isResizing {
           background: red;
         }
+      }
+    }
+
+    &.sticky {
+      overflow: scroll;
+      .header,
+      .footer {
+        position: sticky;
+        z-index: 1;
+        width: fit-content;
+      }
+
+      .header {
+        top: 0;
+        box-shadow: 0px 3px 3px #ccc;
+      }
+
+      .footer {
+        bottom: 0;
+        box-shadow: 0px -3px 3px #ccc;
+      }
+
+      .body {
+        position: relative;
+        z-index: 0;
+      }
+
+      [data-sticky-td] {
+        position: sticky;
+      }
+
+      [data-sticky-last-left-td] {
+        box-shadow: 2px 0px 3px #ccc;
+      }
+
+      [data-sticky-first-right-td] {
+        box-shadow: -2px 0px 3px #ccc;
       }
     }
   }
@@ -64,7 +85,7 @@ const Styles = styled.div`
 const Table: React.FC<any> = ({ columns, data }) => {
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 30,
+      minWidth: 100,
       width: 150,
       maxWidth: 400,
     }),
@@ -84,185 +105,71 @@ const Table: React.FC<any> = ({ columns, data }) => {
       defaultColumn,
     },
     useBlockLayout,
-    useResizeColumns
+    useResizeColumns,
+    useSticky
   );
 
-  return (
-    <>
-      {/* <button onClick={resetResizing}>Reset Resizing</button> */}
-      <div style={{ overflowX: 'auto' }}>
-        <div {...getTableProps()} className="table">
-          <div>
-            {headerGroups.map(headerGroup => (
-              <div {...headerGroup.getHeaderGroupProps()} className="tr">
-                {headerGroup.headers.map((column, index) => (
-                  <div
-                    {...column.getHeaderProps()}
-                    className={`th ${index === 0 ? 'sticky' : ''}`}
-                  >
-                    {column.render('Header')}
-                    {/* Use column.getResizerProps to hook up the events correctly */}
-                    <div
-                      // @ts-ignore
-                      {...column.getResizerProps()}
-                      className={`resizer ${
-                        // @ts-ignore
-                        column.isResizing ? 'isResizing' : ''
-                      }`}
-                    />
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-
-          <div {...getTableBodyProps()}>
-            {rows.map((row, i) => {
-              prepareRow(row);
-              return (
-                <div {...row.getRowProps()} className="tr">
-                  {row.cells.map((cell, index) => {
-                    return (
-                      <div
-                        {...cell.getCellProps()}
-                        className={`td ${index === 0 ? 'sticky' : ''}`}
-                      >
-                        {cell.render('Cell')}
-                      </div>
-                    );
-                  })}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-      {/* <pre>
-        <code>{JSON.stringify(state, null, 2)}</code>
-      </pre> */}
-    </>
-  );
-};
-
-function App() {
-  const columns = React.useMemo(
-    () => [
-      {
-        Header: 'First Name',
-        accessor: 'firstName',
-        fixed: 'left',
-      },
-      {
-        Header: 'Last Name',
-        accessor: 'lastName',
-      },
-      {
-        Header: 'Age',
-        accessor: 'age',
-        width: 50,
-      },
-      {
-        Header: 'Visits',
-        accessor: 'visits',
-        width: 60,
-      },
-      {
-        Header: 'Status',
-        accessor: 'status',
-      },
-      {
-        Header: 'Profile Progress',
-        accessor: 'progress',
-      },
-      {
-        Header: 'Age 2',
-        accessor: 'age2',
-        width: 50,
-      },
-      {
-        Header: 'Visits 2',
-        accessor: 'visits2',
-        width: 60,
-      },
-      {
-        Header: 'Status 2',
-        accessor: 'status2',
-      },
-      {
-        Header: 'Profile Progress 2',
-        accessor: 'progress2',
-      },
-      // {
-      //   Header: 'Name',
-      //   columns: [
-      //     {
-      //       Header: 'First Name',
-      //       accessor: 'firstName',
-      //       fixed: 'left',
-      //     },
-      //     {
-      //       Header: 'Last Name',
-      //       accessor: 'lastName',
-      //     },
-      //   ],
-      // },
-      // {
-      //   Header: 'Info',
-      //   columns: [
-      //     {
-      //       Header: 'Age',
-      //       accessor: 'age',
-      //       width: 50,
-      //     },
-      //     {
-      //       Header: 'Visits',
-      //       accessor: 'visits',
-      //       width: 60,
-      //     },
-      //     {
-      //       Header: 'Status',
-      //       accessor: 'status',
-      //     },
-      //     {
-      //       Header: 'Profile Progress',
-      //       accessor: 'progress',
-      //     },
-      //   ],
-      // },
-      // {
-      //   Header: 'Info 2',
-      //   columns: [
-      //     {
-      //       Header: 'Age 2',
-      //       accessor: 'age2',
-      //       width: 50,
-      //     },
-      //     {
-      //       Header: 'Visits 2',
-      //       accessor: 'visits2',
-      //       width: 60,
-      //     },
-      //     {
-      //       Header: 'Status 2',
-      //       accessor: 'status2',
-      //     },
-      //     {
-      //       Header: 'Profile Progress 2',
-      //       accessor: 'progress2',
-      //     },
-      //   ],
-      // },
-    ],
-    []
-  );
-
-  const data = React.useMemo(() => makeData(10), []);
+  // Workaround as react-table footerGroups doesn't provide the same internal data than headerGroups
+  const footerGroups = headerGroups.slice().reverse();
 
   return (
     <Styles>
-      <Table columns={columns} data={data} />
+      <div
+        {...getTableProps()}
+        className="table sticky"
+        style={{ width: 800, height: 400 }}
+      >
+        <div className="header">
+          {headerGroups.map(headerGroup => (
+            <div {...headerGroup.getHeaderGroupProps()} className="tr">
+              {headerGroup.headers.map(column => (
+                <div {...column.getHeaderProps()} className="th">
+                  {column.render('Header')}
+                  <div
+                    // @ts-ignore
+                    {...column.getResizerProps()}
+                    className={`resizer ${
+                      // @ts-ignore
+                      column.isResizing ? 'isResizing' : ''
+                    }`}
+                  />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+
+        <div {...getTableBodyProps()} className="body">
+          {rows.map(row => {
+            prepareRow(row);
+            return (
+              <div {...row.getRowProps()} className="tr">
+                {row.cells.map(cell => {
+                  return (
+                    <div {...cell.getCellProps()} className="td">
+                      {cell.render('Cell')}
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="footer">
+          {footerGroups.map(footerGroup => (
+            <div {...footerGroup.getHeaderGroupProps()} className="tr">
+              {footerGroup.headers.map(column => (
+                <div {...column.getHeaderProps()} className="td">
+                  {column.render('Footer')}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
     </Styles>
   );
-}
+};
 
-export default App;
+export default Table;
