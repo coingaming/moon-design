@@ -1,0 +1,111 @@
+---
+name: Table
+menu: Table
+route: /table/table
+---
+
+# Table
+
+Lightweight, fast and extendable table.
+
+Based on [react-table](https://github.com/tannerlinsley/react-table)
+
+```jsx react-live
+() => {
+  const columnsInitial = [
+    {
+      Header: 'Name',
+      Footer: 'Name',
+      sticky: 'left',
+      columns: [
+        {
+          Header: 'First Name',
+          Footer: 'First Name',
+          accessor: 'firstName',
+        },
+        {
+          Header: 'Last Name',
+          Footer: 'Last Name',
+          accessor: 'lastName',
+        },
+      ],
+    },
+    {
+      Header: 'Info',
+      Footer: 'Info',
+      columns: [
+        {
+          Header: 'Age',
+          Footer: 'age',
+          accessor: 'age',
+          width: 50,
+        },
+        {
+          Header: 'Visits',
+          Footer: 'Visits',
+          accessor: 'visits',
+        },
+        {
+          Header: 'Activity',
+          Footer: 'Activity',
+          accessor: 'activity',
+        },
+        {
+          Header: 'Status',
+          Footer: 'Status',
+          width: 60,
+          accessor: 'status',
+        },
+      ],
+    },
+    {
+      Header: 'Progress',
+      Footer: ' ',
+      sticky: 'right',
+      columns: [
+        {
+          Header: 'Profile Progress',
+          Footer: 'Profile Progress',
+          accessor: 'progress',
+        },
+      ],
+    },
+  ];
+
+  const makeData = length => {
+    return Array.from('_'.repeat(length)).map(() => {
+      return {
+        firstName: 'Test',
+        lastName: 'Test',
+        age: <span>{Math.floor(Math.random() * 30)}</span>,
+        visits: <span>{Math.floor(Math.random() * 100)}</span>,
+        progress: <span>{Math.floor(Math.random() * 100)}</span>,
+        status: Math.floor(Math.random() * 100),
+        activity: Math.floor(Math.random() * 100),
+      };
+    });
+  };
+
+  const defaultColumn = React.useMemo(
+    () => ({
+      minWidth: 100,
+      width: 150,
+      maxWidth: 400,
+    }),
+    []
+  );
+
+  const columns = React.useMemo(() => columnsInitial, []);
+  const data = React.useMemo(() => makeData(40), []);
+
+  return (
+    <Table
+      columns={columns}
+      data={data}
+      defaultColumn={defaultColumn}
+      width={800}
+      height={400}
+    />
+  );
+};
+```

@@ -22,5 +22,8 @@ dist
 cache
 .cache
 
+# TypeScript cache
+*.tsbuildinfo
+
 # Gatsby
 public
