@@ -3,24 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
+
+**Note:** Version bump only for package @heathmont/moon-assets
+
 # [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
-
 
 ### Features
 
-* added horse racing sports icons ([d296930](https://github.com/coingaming/sportsbet-design/commit/d29693017551bf281109de686b055d1e0b2fb69a))
-
-
-
-
+- added horse racing sports icons ([d296930](https://github.com/coingaming/sportsbet-design/commit/d29693017551bf281109de686b055d1e0b2fb69a))
 
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 

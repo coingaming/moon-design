@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { rgba, rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
+import rgba from 'polished/lib/color/rgba';
 import {
   DialogOverlay as ReachDialogOverlay,
   DialogContent as ReachDialogContent,
