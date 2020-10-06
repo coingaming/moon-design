@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.40.0](https://github.com/coingaming/sportsbet-design/compare/v2.39.0...v2.40.0) (2020-10-06)
+
+
+### Bug Fixes
+
+* build ts ([74b01c5](https://github.com/coingaming/sportsbet-design/commit/74b01c57f174ccef5c7d7b1425051d508b091314))
+* fix import Switch in a test ([30883ab](https://github.com/coingaming/sportsbet-design/commit/30883abb76b17c797703072d0247195bf93100de))
+* fix slots dark theme ([e5a0657](https://github.com/coingaming/sportsbet-design/commit/e5a065768e25a16d864387f55ba2e7a8415c4982))
+* hide footer ([3543a13](https://github.com/coingaming/sportsbet-design/commit/3543a13fc504d18e5a9704700c6b8600a8433d53))
+* remove extra export ([a5112fd](https://github.com/coingaming/sportsbet-design/commit/a5112fde2f286ab2136025e16fa3bdc4d91ab85c))
+* update imports from 'polished' package ([90a432c](https://github.com/coingaming/sportsbet-design/commit/90a432c7d7ca1f9d1f4fe14ec41ea74f5de09012))
+
+
+### Features
+
+* initial commit ([2fb1bde](https://github.com/coingaming/sportsbet-design/commit/2fb1bdefb5049cb42b704eac313ed56de48660df))
+* initial table component ([5931f69](https://github.com/coingaming/sportsbet-design/commit/5931f6935d18a8db8c30ac022df5e70585b75c43))
+
+
+
+
+
 # [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
 ### Bug Fixes

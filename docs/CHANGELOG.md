@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.40.0](https://github.com/coingaming/sportsbet-design/compare/v2.39.0...v2.40.0) (2020-10-06)
+
+
+### Features
+
+* initial table component ([5931f69](https://github.com/coingaming/sportsbet-design/commit/5931f6935d18a8db8c30ac022df5e70585b75c43))
+
+
+
+
+
 # [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
 **Note:** Version bump only for package docs
