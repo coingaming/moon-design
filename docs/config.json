@@ -4,25 +4,27 @@
   "description": "Everything you need to know about the Moon Design System",
   "packages": [
     "assets",
+    "calendar",
     "components",
     "fonts",
     "global",
-    "tokens",
-    "themes",
     "pagination",
     "sidebar",
-    "calendar",
+    "table",
+    "themes",
+    "tokens",
     "utils"
   ],
   "menuSections": [
-    "Themes",
-    "Global",
     "Assets",
+    "Calendar",
     "Components",
-    "Utils",
+    "Global",
     "Pagination",
     "Private",
     "Sidebar",
-    "Calendar"
+    "Table",
+    "Themes",
+    "Utils"
   ]
 }
