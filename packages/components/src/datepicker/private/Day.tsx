@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import format from 'date-fns/format';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 
 type DayStyledProps = {
   isInRange?: boolean;

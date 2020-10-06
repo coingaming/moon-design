@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { hideVisually } from 'polished';
+import hideVisually from 'polished/lib/mixins/hideVisually';
 import { focus, rem } from '@heathmont/moon-utils';
 
 export const DialogToggle = styled.button(
