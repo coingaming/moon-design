@@ -32,22 +32,6 @@ const Styles = styled.div(({ theme: { color, space, radius } }) => ({
     },
     '&.sticky': {
       overflow: 'scroll',
-      '.header': {
-        position: 'sticky',
-        zIndex: 1,
-        width: 'fit-content',
-        top: 0,
-        borderRadius: radius.default,
-        backgroundColor: color.goku[100],
-      },
-      '.footer': {
-        position: 'sticky',
-        zIndex: 1,
-        width: 'fit-content',
-        bottom: 0,
-        borderRadius: radius.default,
-        backgroundColor: color.goku[100],
-      },
       '.body': {
         position: 'relative',
         zIndex: 0,
@@ -68,6 +52,20 @@ const Styles = styled.div(({ theme: { color, space, radius } }) => ({
   },
 }));
 
+const Header = styled.div(({ theme: { color, radius } }) => ({
+  position: 'sticky',
+  zIndex: 1,
+  width: 'fit-content',
+  top: 0,
+  borderRadius: radius.default,
+  backgroundColor: color.goku[100],
+}));
+
+const Body = styled.div({
+  position: 'relative',
+  zIndex: 0,
+});
+
 const TR = styled.div(({ theme: { color, radius } }) => ({
   borderRadius: radius.default,
   backgroundColor: color.gohan[100],
@@ -84,7 +82,7 @@ const TH = styled.div(({ theme: { color, space } }) => ({
   },
   '.resizer': {
     display: 'inline-block',
-    width: '5px',
+    width: rem(5),
     height: '100%',
     position: 'absolute',
     right: 0,
@@ -123,9 +121,6 @@ const Table: React.FC<any> = ({
     useSticky
   );
 
-  // Workaround as react-table footerGroups doesn't provide the same internal data than headerGroups
-  // const footerGroups = headerGroups.slice().reverse();
-
   return (
     <Styles>
       <div
@@ -133,9 +128,9 @@ const Table: React.FC<any> = ({
         className="table sticky"
         style={{ width, height }}
       >
-        <div className="header">
+        <Header>
           {headerGroups.map(headerGroup => (
-            <TR {...headerGroup.getHeaderGroupProps()} className="tr">
+            <TR {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map(column => (
                 <TH {...column.getHeaderProps()}>
                   {column.render('Header')}
@@ -151,13 +146,13 @@ const Table: React.FC<any> = ({
               ))}
             </TR>
           ))}
-        </div>
+        </Header>
 
-        <div {...getTableBodyProps()} className="body">
+        <Body {...getTableBodyProps()}>
           {rows.map(row => {
             prepareRow(row);
             return (
-              <TR {...row.getRowProps()} className="tr">
+              <TR {...row.getRowProps()}>
                 {row.cells.map(cell => {
                   return (
                     <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
@@ -166,19 +161,7 @@ const Table: React.FC<any> = ({
               </TR>
             );
           })}
-        </div>
-
-        {/* <div className="footer">
-          {footerGroups.map(footerGroup => (
-            <div {...footerGroup.getHeaderGroupProps()} className="tr">
-              {footerGroup.headers.map(column => (
-                <div {...column.getHeaderProps()} className="td">
-                  {column.render('Footer')}
-                </div>
-              ))}
-            </div>
-          ))}
-        </div> */}
+        </Body>
       </div>
     </Styles>
   );
