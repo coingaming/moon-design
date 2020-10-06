@@ -3,33 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
+
+**Note:** Version bump only for package docs
+
 # [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
-
 
 ### Bug Fixes
 
-* update gatsby ([1cc9a52](https://github.com/coingaming/sportsbet-design/commit/1cc9a529990597a8506eaef8fcefd3e3f8aa4852))
-
+- update gatsby ([1cc9a52](https://github.com/coingaming/sportsbet-design/commit/1cc9a529990597a8506eaef8fcefd3e3f8aa4852))
 
 ### Features
 
-* **calendar:** move calendar to separate package ([d8a433f](https://github.com/coingaming/sportsbet-design/commit/d8a433f631af091be0c07a27f1e857369915b212))
-* **month calendar:** month Calendar view ([27a9964](https://github.com/coingaming/sportsbet-design/commit/27a99643acb205799d4bb6391d3a9c51eb079580))
-* add to docs ([2758a0e](https://github.com/coingaming/sportsbet-design/commit/2758a0eb774006477c8dbfeee61332be7555766d))
-* remove overflowY: 'scroll' for code preview component ([9cb7fe2](https://github.com/coingaming/sportsbet-design/commit/9cb7fe25a104db3e90c62d21b30b98da351dcd2b))
-* separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
-
-
-
-
+- **calendar:** move calendar to separate package ([d8a433f](https://github.com/coingaming/sportsbet-design/commit/d8a433f631af091be0c07a27f1e857369915b212))
+- **month calendar:** month Calendar view ([27a9964](https://github.com/coingaming/sportsbet-design/commit/27a99643acb205799d4bb6391d3a9c51eb079580))
+- add to docs ([2758a0e](https://github.com/coingaming/sportsbet-design/commit/2758a0eb774006477c8dbfeee61332be7555766d))
+- remove overflowY: 'scroll' for code preview component ([9cb7fe2](https://github.com/coingaming/sportsbet-design/commit/9cb7fe25a104db3e90c62d21b30b98da351dcd2b))
+- separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
 
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 

@@ -3,62 +3,63 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
-
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
 ### Bug Fixes
 
-* livecasino colours ([de0bc1c](https://github.com/coingaming/sportsbet-design/commit/de0bc1ce61cf44913d5aa898a90cb5bcb4546235))
-* make clearSelected link optional ([66829be](https://github.com/coingaming/sportsbet-design/commit/66829be5885d90cb30dfcb030ed42fcce5cbd7fb))
-* update max and min width ([7e5fe6c](https://github.com/coingaming/sportsbet-design/commit/7e5fe6c82e134c44574d6e4627e68ed6d6f0828f))
-
+- ls hit colors in wrong order ([968d6dc](https://github.com/coingaming/sportsbet-design/commit/968d6dc96f143420af83fbb922290bbc2c4331af))
+- luckyslots hit color ([daeb219](https://github.com/coingaming/sportsbet-design/commit/daeb219dcda6a75f6eca6aafb7195277cb69b5d1))
+- update switcher ([2b19387](https://github.com/coingaming/sportsbet-design/commit/2b193874ab0e1393c9859102682457b55d079c6a))
+- update switcher ([a128c69](https://github.com/coingaming/sportsbet-design/commit/a128c694d6c3d1b044c42d54a563070be08dda42))
 
 ### Features
 
-* add bubble component ([046c833](https://github.com/coingaming/sportsbet-design/commit/046c8337ab92c4b4496abb0ce808d43552341667))
-* add tag-input ([77017d3](https://github.com/coingaming/sportsbet-design/commit/77017d30012806d3dbf6634a9e700e167aada9b7))
+- add tag list component ([cd680f1](https://github.com/coingaming/sportsbet-design/commit/cd680f16720a5d4103ee6d0047284a00f34e9724))
 
+# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
+### Bug Fixes
 
+- livecasino colours ([de0bc1c](https://github.com/coingaming/sportsbet-design/commit/de0bc1ce61cf44913d5aa898a90cb5bcb4546235))
+- make clearSelected link optional ([66829be](https://github.com/coingaming/sportsbet-design/commit/66829be5885d90cb30dfcb030ed42fcce5cbd7fb))
+- update max and min width ([7e5fe6c](https://github.com/coingaming/sportsbet-design/commit/7e5fe6c82e134c44574d6e4627e68ed6d6f0828f))
 
+### Features
+
+- add bubble component ([046c833](https://github.com/coingaming/sportsbet-design/commit/046c8337ab92c4b4496abb0ce808d43552341667))
+- add tag-input ([77017d3](https://github.com/coingaming/sportsbet-design/commit/77017d30012806d3dbf6634a9e700e167aada9b7))
 
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
 
-
 ### Bug Fixes
 
-* add missing value prop ([9f0abb3](https://github.com/coingaming/sportsbet-design/commit/9f0abb31d5a4aaa386071169ac62a816ff509537))
-* build site ([e7e1701](https://github.com/coingaming/sportsbet-design/commit/e7e170107c80707620ebbdfcfc1d3297db9023c1))
-* fix @types/react-paginate package version ([028dec8](https://github.com/coingaming/sportsbet-design/commit/028dec8879d1fae2f9a467d1c5648495c61a4455))
-* update gatsby ([1cc9a52](https://github.com/coingaming/sportsbet-design/commit/1cc9a529990597a8506eaef8fcefd3e3f8aa4852))
-* update goku.80 color for hub88 theme ([33f5150](https://github.com/coingaming/sportsbet-design/commit/33f5150e84ab0ae414c51ac3d59c824d4125f0a7))
-* update snapshots ([0f9a1c4](https://github.com/coingaming/sportsbet-design/commit/0f9a1c4a6b541709c2abfaf26d3681075efad7f4))
-
+- add missing value prop ([9f0abb3](https://github.com/coingaming/sportsbet-design/commit/9f0abb31d5a4aaa386071169ac62a816ff509537))
+- build site ([e7e1701](https://github.com/coingaming/sportsbet-design/commit/e7e170107c80707620ebbdfcfc1d3297db9023c1))
+- fix @types/react-paginate package version ([028dec8](https://github.com/coingaming/sportsbet-design/commit/028dec8879d1fae2f9a467d1c5648495c61a4455))
+- update gatsby ([1cc9a52](https://github.com/coingaming/sportsbet-design/commit/1cc9a529990597a8506eaef8fcefd3e3f8aa4852))
+- update goku.80 color for hub88 theme ([33f5150](https://github.com/coingaming/sportsbet-design/commit/33f5150e84ab0ae414c51ac3d59c824d4125f0a7))
+- update snapshots ([0f9a1c4](https://github.com/coingaming/sportsbet-design/commit/0f9a1c4a6b541709c2abfaf26d3681075efad7f4))
 
 ### Features
 
-* **calendar:** move calendar to separate package ([d8a433f](https://github.com/coingaming/sportsbet-design/commit/d8a433f631af091be0c07a27f1e857369915b212))
-* **month calendar:** month Calendar view ([27a9964](https://github.com/coingaming/sportsbet-design/commit/27a99643acb205799d4bb6391d3a9c51eb079580))
-* **numberrange:** gte Lte Number filter ([8706ede](https://github.com/coingaming/sportsbet-design/commit/8706edef93a8783020868d8d0ada63eaed612942))
-* **Sidebar:** initialState -> isOpen ([35c1fc4](https://github.com/coingaming/sportsbet-design/commit/35c1fc42727d20683ca3288746fb5f84d363b054))
-* **week calendar:** add week calendar view ([84b5cf8](https://github.com/coingaming/sportsbet-design/commit/84b5cf8c79f4c3d84e6999434fd9ba179957668c))
-* add CheckboxMultiselect component ([1c25709](https://github.com/coingaming/sportsbet-design/commit/1c25709214326646a79413450dc4ce4503487423))
-* add FilterDropdown component ([ab1fbf8](https://github.com/coingaming/sportsbet-design/commit/ab1fbf88a3dea64966b15d48ca8a95282b9e275b))
-* add pagination component ([44768cb](https://github.com/coingaming/sportsbet-design/commit/44768cba2a8e825939a380a9b1d3a0373230bbc4))
-* add react-paginate to dependencies ([695dbab](https://github.com/coingaming/sportsbet-design/commit/695dbabb4ccfe7b6823262aff65c29f2e6652d45))
-* add single item select ([54af663](https://github.com/coingaming/sportsbet-design/commit/54af6639d50513b2b187ca36131170f690f293e7))
-* add SingleItemSelect filter to FilterDropdown ([e85fa34](https://github.com/coingaming/sportsbet-design/commit/e85fa34fa6fccbb2830fd6570aba166a2a6bd9a9))
-* add to docs ([2758a0e](https://github.com/coingaming/sportsbet-design/commit/2758a0eb774006477c8dbfeee61332be7555766d))
-* add tree view to CheckboxMultiselect ([07b850d](https://github.com/coingaming/sportsbet-design/commit/07b850d2d1e934a994aafbd21ced7249bad68c02))
-* added horse racing sports icons ([d296930](https://github.com/coingaming/sportsbet-design/commit/d29693017551bf281109de686b055d1e0b2fb69a))
-* remove overflowY: 'scroll' for code preview component ([9cb7fe2](https://github.com/coingaming/sportsbet-design/commit/9cb7fe25a104db3e90c62d21b30b98da351dcd2b))
-* separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
-* sidebar package ([332a273](https://github.com/coingaming/sportsbet-design/commit/332a27362a0c434f8ac5397fef15bea5200a7938))
-* **sidebar:** collapsable sidebar component ([d5e822a](https://github.com/coingaming/sportsbet-design/commit/d5e822a7e666e2b5704243dca53312a9d2eefb3b))
-
-
-
-
+- **calendar:** move calendar to separate package ([d8a433f](https://github.com/coingaming/sportsbet-design/commit/d8a433f631af091be0c07a27f1e857369915b212))
+- **month calendar:** month Calendar view ([27a9964](https://github.com/coingaming/sportsbet-design/commit/27a99643acb205799d4bb6391d3a9c51eb079580))
+- **numberrange:** gte Lte Number filter ([8706ede](https://github.com/coingaming/sportsbet-design/commit/8706edef93a8783020868d8d0ada63eaed612942))
+- **Sidebar:** initialState -> isOpen ([35c1fc4](https://github.com/coingaming/sportsbet-design/commit/35c1fc42727d20683ca3288746fb5f84d363b054))
+- **week calendar:** add week calendar view ([84b5cf8](https://github.com/coingaming/sportsbet-design/commit/84b5cf8c79f4c3d84e6999434fd9ba179957668c))
+- add CheckboxMultiselect component ([1c25709](https://github.com/coingaming/sportsbet-design/commit/1c25709214326646a79413450dc4ce4503487423))
+- add FilterDropdown component ([ab1fbf8](https://github.com/coingaming/sportsbet-design/commit/ab1fbf88a3dea64966b15d48ca8a95282b9e275b))
+- add pagination component ([44768cb](https://github.com/coingaming/sportsbet-design/commit/44768cba2a8e825939a380a9b1d3a0373230bbc4))
+- add react-paginate to dependencies ([695dbab](https://github.com/coingaming/sportsbet-design/commit/695dbabb4ccfe7b6823262aff65c29f2e6652d45))
+- add single item select ([54af663](https://github.com/coingaming/sportsbet-design/commit/54af6639d50513b2b187ca36131170f690f293e7))
+- add SingleItemSelect filter to FilterDropdown ([e85fa34](https://github.com/coingaming/sportsbet-design/commit/e85fa34fa6fccbb2830fd6570aba166a2a6bd9a9))
+- add to docs ([2758a0e](https://github.com/coingaming/sportsbet-design/commit/2758a0eb774006477c8dbfeee61332be7555766d))
+- add tree view to CheckboxMultiselect ([07b850d](https://github.com/coingaming/sportsbet-design/commit/07b850d2d1e934a994aafbd21ced7249bad68c02))
+- added horse racing sports icons ([d296930](https://github.com/coingaming/sportsbet-design/commit/d29693017551bf281109de686b055d1e0b2fb69a))
+- remove overflowY: 'scroll' for code preview component ([9cb7fe2](https://github.com/coingaming/sportsbet-design/commit/9cb7fe25a104db3e90c62d21b30b98da351dcd2b))
+- separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
+- sidebar package ([332a273](https://github.com/coingaming/sportsbet-design/commit/332a27362a0c434f8ac5397fef15bea5200a7938))
+- **sidebar:** collapsable sidebar component ([d5e822a](https://github.com/coingaming/sportsbet-design/commit/d5e822a7e666e2b5704243dca53312a9d2eefb3b))
 
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 

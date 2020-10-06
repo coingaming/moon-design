@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rem } from 'polished';
+import rem from 'polished/lib/helpers/rem';
 import addMonths from 'date-fns/addMonths';
 import { mq } from '@heathmont/moon-utils';
 

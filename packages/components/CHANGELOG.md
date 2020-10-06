@@ -3,49 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
-
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
 ### Bug Fixes
 
-* make clearSelected link optional ([66829be](https://github.com/coingaming/sportsbet-design/commit/66829be5885d90cb30dfcb030ed42fcce5cbd7fb))
-* update max and min width ([7e5fe6c](https://github.com/coingaming/sportsbet-design/commit/7e5fe6c82e134c44574d6e4627e68ed6d6f0828f))
-
+- update switcher ([2b19387](https://github.com/coingaming/sportsbet-design/commit/2b193874ab0e1393c9859102682457b55d079c6a))
+- update switcher ([a128c69](https://github.com/coingaming/sportsbet-design/commit/a128c694d6c3d1b044c42d54a563070be08dda42))
 
 ### Features
 
-* add bubble component ([046c833](https://github.com/coingaming/sportsbet-design/commit/046c8337ab92c4b4496abb0ce808d43552341667))
-* add tag-input ([77017d3](https://github.com/coingaming/sportsbet-design/commit/77017d30012806d3dbf6634a9e700e167aada9b7))
+- add tag list component ([cd680f1](https://github.com/coingaming/sportsbet-design/commit/cd680f16720a5d4103ee6d0047284a00f34e9724))
 
+# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
+### Bug Fixes
 
+- make clearSelected link optional ([66829be](https://github.com/coingaming/sportsbet-design/commit/66829be5885d90cb30dfcb030ed42fcce5cbd7fb))
+- update max and min width ([7e5fe6c](https://github.com/coingaming/sportsbet-design/commit/7e5fe6c82e134c44574d6e4627e68ed6d6f0828f))
 
+### Features
+
+- add bubble component ([046c833](https://github.com/coingaming/sportsbet-design/commit/046c8337ab92c4b4496abb0ce808d43552341667))
+- add tag-input ([77017d3](https://github.com/coingaming/sportsbet-design/commit/77017d30012806d3dbf6634a9e700e167aada9b7))
 
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
 
-
 ### Bug Fixes
 
-* add missing value prop ([9f0abb3](https://github.com/coingaming/sportsbet-design/commit/9f0abb31d5a4aaa386071169ac62a816ff509537))
-* fix @types/react-paginate package version ([028dec8](https://github.com/coingaming/sportsbet-design/commit/028dec8879d1fae2f9a467d1c5648495c61a4455))
-* update snapshots ([0f9a1c4](https://github.com/coingaming/sportsbet-design/commit/0f9a1c4a6b541709c2abfaf26d3681075efad7f4))
-
+- add missing value prop ([9f0abb3](https://github.com/coingaming/sportsbet-design/commit/9f0abb31d5a4aaa386071169ac62a816ff509537))
+- fix @types/react-paginate package version ([028dec8](https://github.com/coingaming/sportsbet-design/commit/028dec8879d1fae2f9a467d1c5648495c61a4455))
+- update snapshots ([0f9a1c4](https://github.com/coingaming/sportsbet-design/commit/0f9a1c4a6b541709c2abfaf26d3681075efad7f4))
 
 ### Features
 
-* **numberrange:** gte Lte Number filter ([8706ede](https://github.com/coingaming/sportsbet-design/commit/8706edef93a8783020868d8d0ada63eaed612942))
-* add CheckboxMultiselect component ([1c25709](https://github.com/coingaming/sportsbet-design/commit/1c25709214326646a79413450dc4ce4503487423))
-* add FilterDropdown component ([ab1fbf8](https://github.com/coingaming/sportsbet-design/commit/ab1fbf88a3dea64966b15d48ca8a95282b9e275b))
-* add pagination component ([44768cb](https://github.com/coingaming/sportsbet-design/commit/44768cba2a8e825939a380a9b1d3a0373230bbc4))
-* add react-paginate to dependencies ([695dbab](https://github.com/coingaming/sportsbet-design/commit/695dbabb4ccfe7b6823262aff65c29f2e6652d45))
-* add single item select ([54af663](https://github.com/coingaming/sportsbet-design/commit/54af6639d50513b2b187ca36131170f690f293e7))
-* add SingleItemSelect filter to FilterDropdown ([e85fa34](https://github.com/coingaming/sportsbet-design/commit/e85fa34fa6fccbb2830fd6570aba166a2a6bd9a9))
-* add tree view to CheckboxMultiselect ([07b850d](https://github.com/coingaming/sportsbet-design/commit/07b850d2d1e934a994aafbd21ced7249bad68c02))
-* separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
-
-
-
-
+- **numberrange:** gte Lte Number filter ([8706ede](https://github.com/coingaming/sportsbet-design/commit/8706edef93a8783020868d8d0ada63eaed612942))
+- add CheckboxMultiselect component ([1c25709](https://github.com/coingaming/sportsbet-design/commit/1c25709214326646a79413450dc4ce4503487423))
+- add FilterDropdown component ([ab1fbf8](https://github.com/coingaming/sportsbet-design/commit/ab1fbf88a3dea64966b15d48ca8a95282b9e275b))
+- add pagination component ([44768cb](https://github.com/coingaming/sportsbet-design/commit/44768cba2a8e825939a380a9b1d3a0373230bbc4))
+- add react-paginate to dependencies ([695dbab](https://github.com/coingaming/sportsbet-design/commit/695dbabb4ccfe7b6823262aff65c29f2e6652d45))
+- add single item select ([54af663](https://github.com/coingaming/sportsbet-design/commit/54af6639d50513b2b187ca36131170f690f293e7))
+- add SingleItemSelect filter to FilterDropdown ([e85fa34](https://github.com/coingaming/sportsbet-design/commit/e85fa34fa6fccbb2830fd6570aba166a2a6bd9a9))
+- add tree view to CheckboxMultiselect ([07b850d](https://github.com/coingaming/sportsbet-design/commit/07b850d2d1e934a994aafbd21ced7249bad68c02))
+- separate package ([7219380](https://github.com/coingaming/sportsbet-design/commit/7219380f21dc0cb80e3a83f2e0ab7c8b1d00c014))
 
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 
