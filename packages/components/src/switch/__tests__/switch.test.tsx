@@ -7,7 +7,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
 
-import { Switch } from '../Switch';
+import Switch from '../Switch';
 
 describe('Switch', () => {
   test('renders by default', () => {
