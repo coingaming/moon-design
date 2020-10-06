@@ -87,7 +87,7 @@ Input.defaultProps = {
   type: 'checkbox',
 };
 
-const SwitcherCaption = styled(Caption as any)<{ checked: boolean }>(
+const SwitchCaption = styled(Caption as any)<{ checked: boolean }>(
   ({ checked, theme: { color, transitionDuration } }) => [
     { transition: `color ${transitionDuration.default}s` },
     checked && {
@@ -143,14 +143,14 @@ const Switch: React.FC<SwitchProps> = ({
   return (
     <Inline space="small" css={{ overflow: 'visible' }}>
       {captionUnchecked && (
-        <SwitcherCaption checked={checked}>{captionUnchecked}</SwitcherCaption>
+        <SwitchCaption checked={checked}>{captionUnchecked}</SwitchCaption>
       )}
       <Label {...labelProps}>
         <Input {...inputProps} />
         <Slider {...sliderProps} />
       </Label>
       {captionChecked && (
-        <SwitcherCaption checked={!checked}>{captionChecked}</SwitcherCaption>
+        <SwitchCaption checked={!checked}>{captionChecked}</SwitchCaption>
       )}
     </Inline>
   );
