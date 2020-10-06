@@ -1,0 +1,34 @@
+{
+  "name": "@heathmont/moon-table",
+  "sideEffects": false,
+  "version": "2.38.0",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/es/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/coingaming/sportsbet-design",
+  "author": "Coingaming Group",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'Handled by root package'"
+  },
+  "dependencies": {
+    "@heathmont/moon-components": "^2.38.0",
+    "@heathmont/moon-themes": "^2.38.0",
+    "@heathmont/moon-utils": "2.39.0",
+    "@types/react-table": "7.0.23",
+    "react-table": "7.5.1",
+    "react-table-hoc-fixed-columns": "2.3.3",
+    "react-table-sticky": "1.1.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.10.2",
+    "react-dom": ">= 16.10.2",
+    "styled-components": ">= 4.4.1"
+  },
+  "devDependencies": {
+    "@types/react-table": "^7.0.23"
+  }
+}
