@@ -3,32 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
-
+# [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
 ### Bug Fixes
 
-* livecasino colours ([de0bc1c](https://github.com/coingaming/sportsbet-design/commit/de0bc1ce61cf44913d5aa898a90cb5bcb4546235))
+- ls hit colors in wrong order ([968d6dc](https://github.com/coingaming/sportsbet-design/commit/968d6dc96f143420af83fbb922290bbc2c4331af))
+- luckyslots hit color ([daeb219](https://github.com/coingaming/sportsbet-design/commit/daeb219dcda6a75f6eca6aafb7195277cb69b5d1))
 
+# [2.38.0](https://github.com/coingaming/sportsbet-design/compare/v2.37.0...v2.38.0) (2020-09-28)
 
+### Bug Fixes
 
-
+- livecasino colours ([de0bc1c](https://github.com/coingaming/sportsbet-design/commit/de0bc1ce61cf44913d5aa898a90cb5bcb4546235))
 
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
 
-
 ### Bug Fixes
 
-* update goku.80 color for hub88 theme ([33f5150](https://github.com/coingaming/sportsbet-design/commit/33f5150e84ab0ae414c51ac3d59c824d4125f0a7))
-
+- update goku.80 color for hub88 theme ([33f5150](https://github.com/coingaming/sportsbet-design/commit/33f5150e84ab0ae414c51ac3d59c824d4125f0a7))
 
 ### Features
 
-* **sidebar:** collapsable sidebar component ([d5e822a](https://github.com/coingaming/sportsbet-design/commit/d5e822a7e666e2b5704243dca53312a9d2eefb3b))
-
-
-
-
+- **sidebar:** collapsable sidebar component ([d5e822a](https://github.com/coingaming/sportsbet-design/commit/d5e822a7e666e2b5704243dca53312a9d2eefb3b))
 
 # [2.36.0](https://github.com/coingaming/sportsbet-design/compare/v2.35.0...v2.36.0) (2020-09-18)
 

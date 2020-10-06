@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
-import { hideVisually } from 'polished';
+import hideVisually from 'polished/lib/mixins/hideVisually';
 
 import IconMoon from '../private/icons/IconMoon';
 import IconSun from '../private/icons/IconSun';
@@ -107,7 +107,7 @@ export type SwitchProps = {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 } & SliderColorScheme;
 
-export const Switch: React.FC<SwitchProps> = ({
+const Switch: React.FC<SwitchProps> = ({
   className,
   captionChecked,
   captionUnchecked,
