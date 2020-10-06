@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
-import { hideVisually } from 'polished';
+import hideVisually from 'polished/lib/mixins/hideVisually';
 
 import IconMoon from '../private/icons/IconMoon';
 import IconSun from '../private/icons/IconSun';
@@ -87,7 +87,7 @@ Input.defaultProps = {
   type: 'checkbox',
 };
 
-const SwitcherCaption = styled(Caption as any)<{ checked: boolean }>(
+const SwitchCaption = styled(Caption as any)<{ checked: boolean }>(
   ({ checked, theme: { color, transitionDuration } }) => [
     { transition: `color ${transitionDuration.default}s` },
     checked && {
@@ -107,7 +107,7 @@ export type SwitchProps = {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 } & SliderColorScheme;
 
-export const Switch: React.FC<SwitchProps> = ({
+const Switch: React.FC<SwitchProps> = ({
   className,
   captionChecked,
   captionUnchecked,
@@ -143,14 +143,14 @@ export const Switch: React.FC<SwitchProps> = ({
   return (
     <Inline space="small" css={{ overflow: 'visible' }}>
       {captionUnchecked && (
-        <SwitcherCaption checked={checked}>{captionUnchecked}</SwitcherCaption>
+        <SwitchCaption checked={checked}>{captionUnchecked}</SwitchCaption>
       )}
       <Label {...labelProps}>
         <Input {...inputProps} />
         <Slider {...sliderProps} />
       </Label>
       {captionChecked && (
-        <SwitcherCaption checked={!checked}>{captionChecked}</SwitcherCaption>
+        <SwitchCaption checked={!checked}>{captionChecked}</SwitchCaption>
       )}
     </Inline>
   );
