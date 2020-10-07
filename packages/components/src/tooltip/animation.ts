@@ -15,3 +15,5 @@ export const slideUpFade = keyframes`
     opacity: 0;
   }
 `;
+
+export default slideUpFade;
