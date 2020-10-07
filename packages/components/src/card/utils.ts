@@ -23,3 +23,5 @@ const cardGradientSizes = [
 ];
 
 export { cardGradients, cardGradientPositions, cardGradientSizes };
+
+export default { cardGradients, cardGradientPositions, cardGradientSizes };
