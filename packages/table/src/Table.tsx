@@ -1,53 +1,48 @@
 import React from 'react';
 import styled from 'styled-components';
+import rgba from 'polished/lib/color/rgba';
 import { useTable, useBlockLayout, useResizeColumns } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { rem } from '@heathmont/moon-utils';
 
-const Styles = styled.div(({ theme: { color, space, radius } }) => ({
-  padding: rem(space.small),
-  '.table': {
-    /**
-     * Scroll Behavior
-     * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
-     * 2. Auto-hide scrollbars on IE/Edge.
-     * 3. Create 'padding' around the scrollbar.
-     */
-    WebkitOverflowScrolling: 'touch',
-    scrollbarWidth: 'none' /* [1] */,
-    '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
-    '::-webkit-scrollbar': {
-      width: 12,
-      height: 12,
-      cursor: 'pointer',
+const TableWrapper = styled.div(({ theme: { color, radius } }) => ({
+  /**
+   * Scroll Behavior
+   * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
+   * 2. Auto-hide scrollbars on IE/Edge.
+   * 3. Create 'padding' around the scrollbar.
+   */
+  WebkitOverflowScrolling: 'touch',
+  scrollbarWidth: 'none' /* [1] */,
+  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
+  '::-webkit-scrollbar': {
+    width: 12,
+    height: 12,
+    cursor: 'pointer',
+  },
+  '::-webkit-scrollbar-thumb': {
+    backgroundColor: 'transparent',
+    backgroundClip: 'content-box' /* [3] */,
+    borderRadius: rem(radius.largest),
+    border: '3px solid transparent' /* [3] */,
+  },
+  ':hover::-webkit-scrollbar-thumb': {
+    backgroundColor: color.goku[40],
+  },
+  '&.sticky': {
+    overflow: 'scroll',
+    '.body': {
+      position: 'relative',
+      zIndex: 0,
     },
-    '::-webkit-scrollbar-thumb': {
-      backgroundColor: 'transparent',
-      backgroundClip: 'content-box' /* [3] */,
-      borderRadius: rem(radius.largest),
-      border: '3px solid transparent' /* [3] */,
+    '[data-sticky-td]': {
+      position: 'sticky',
     },
-    ':hover::-webkit-scrollbar-thumb': {
-      backgroundColor: color.goku[40],
+    '[data-sticky-last-left-td]': {
+      boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
     },
-    '&.sticky': {
-      overflow: 'scroll',
-      '.body': {
-        position: 'relative',
-        zIndex: 0,
-      },
-      '[data-sticky-td]': {
-        position: 'sticky',
-      },
-      '[data-sticky-last-left-th]': {
-        backgroundColor: color.gohan[100],
-      },
-      '[data-sticky-last-left-td]': {
-        backgroundColor: color.gohan[100],
-      },
-      '[data-sticky-first-right-td]': {
-        backgroundColor: color.gohan[100],
-      },
+    '[data-sticky-first-right-td]': {
+      boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
     },
   },
 }));
@@ -61,24 +56,20 @@ const Header = styled.div(({ theme: { color, radius } }) => ({
   backgroundColor: color.goku[100],
 }));
 
-const Body = styled.div({
-  position: 'relative',
-  zIndex: 0,
-});
-
-const TR = styled.div(({ theme: { color, radius } }) => ({
+const HeaderTR = styled.div(({ theme: { color, radius } }) => ({
   borderRadius: radius.default,
-  backgroundColor: color.gohan[100],
+  backgroundColor: color.goku[100],
   marginBottom: rem(2),
 }));
 
 const TH = styled.div(({ theme: { color, radius, space } }) => ({
-  padding: rem(space.default),
-  color: color.bulma[100],
-  backgroundColor: color.gohan[100],
+  padding: rem(space.small),
+  color: color.trunks[100],
+  backgroundColor: color.goku[100],
   borderRadius: radius.default,
   overflow: 'hidden',
   position: 'relative',
+  fontSize: rem(12),
   '&::after': {
     content: '""',
     position: 'absolute',
@@ -93,7 +84,7 @@ const TH = styled.div(({ theme: { color, radius, space } }) => ({
   },
   '.resizer': {
     display: 'inline-block',
-    width: rem(5),
+    width: rem(2),
     height: '100%',
     position: 'absolute',
     right: 0,
@@ -106,7 +97,41 @@ const TH = styled.div(({ theme: { color, radius, space } }) => ({
   },
 }));
 
-const TD = TH;
+const Body = styled.div({
+  position: 'relative',
+  zIndex: 0,
+});
+
+const BodyTR = styled.div(({ theme: { color, radius } }) => ({
+  borderRadius: radius.default,
+  backgroundColor: color.gohan[100],
+  marginBottom: rem(2),
+}));
+
+const TD = styled.div(({ theme: { color, radius, space } }) => ({
+  padding: rem(space.default),
+  paddingLeft: rem(space.small),
+  paddingRight: rem(space.small),
+  color: color.bulma[100],
+  backgroundColor: color.gohan[100],
+  borderRadius: radius.default,
+  overflow: 'hidden',
+  position: 'relative',
+  '&::after': {
+    content: '""',
+    position: 'absolute',
+    width: '1px',
+    backgroundColor: color.beerus[100],
+    height: '60%',
+    bottom: '20%',
+    right: 0,
+  },
+  '&:last-child': {
+    '&::after': {
+      width: 0,
+    },
+  },
+}));
 
 const Table: React.FC<any> = ({
   columns,
@@ -133,48 +158,44 @@ const Table: React.FC<any> = ({
   );
 
   return (
-    <Styles>
-      <div
-        {...getTableProps()}
-        className="table sticky"
-        style={{ width, height }}
-      >
-        <Header>
-          {headerGroups.map(headerGroup => (
-            <TR {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map(column => (
-                <TH {...column.getHeaderProps()}>
-                  {column.render('Header')}
-                  <div
+    <TableWrapper
+      {...getTableProps()}
+      className="sticky"
+      style={{ width, height }}
+    >
+      <Header>
+        {headerGroups.map(headerGroup => (
+          <HeaderTR {...headerGroup.getHeaderGroupProps()}>
+            {headerGroup.headers.map(column => (
+              <TH {...column.getHeaderProps()}>
+                {column.render('Header')}
+                <div
+                  // @ts-ignore
+                  {...column.getResizerProps()}
+                  className={`resizer ${
                     // @ts-ignore
-                    {...column.getResizerProps()}
-                    className={`resizer ${
-                      // @ts-ignore
-                      column.isResizing ? 'isResizing' : ''
-                    }`}
-                  />
-                </TH>
-              ))}
-            </TR>
-          ))}
-        </Header>
+                    column.isResizing ? 'isResizing' : ''
+                  }`}
+                />
+              </TH>
+            ))}
+          </HeaderTR>
+        ))}
+      </Header>
 
-        <Body {...getTableBodyProps()}>
-          {rows.map(row => {
-            prepareRow(row);
-            return (
-              <TR {...row.getRowProps()}>
-                {row.cells.map(cell => {
-                  return (
-                    <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
-                  );
-                })}
-              </TR>
-            );
-          })}
-        </Body>
-      </div>
-    </Styles>
+      <Body {...getTableBodyProps()}>
+        {rows.map(row => {
+          prepareRow(row);
+          return (
+            <BodyTR {...row.getRowProps()}>
+              {row.cells.map(cell => {
+                return <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>;
+              })}
+            </BodyTR>
+          );
+        })}
+      </Body>
+    </TableWrapper>
   );
 };
 
