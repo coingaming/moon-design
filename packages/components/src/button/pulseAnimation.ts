@@ -23,3 +23,5 @@ const pulse = keyframes`
 export const pulseAnimation = css`
   animation: ${pulse} 1.5s infinite;
 `;
+
+export default pulseAnimation;
