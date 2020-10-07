@@ -56,3 +56,5 @@ export const Input = styled.input<InputProps>(({ theme }) => [
       borderColor: theme.color.chiChi[100],
     },
 ]);
+
+export default Input;
