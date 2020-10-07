@@ -72,11 +72,21 @@ const TR = styled.div(({ theme: { color, radius } }) => ({
   marginBottom: rem(2),
 }));
 
-const TH = styled.div(({ theme: { color, space } }) => ({
+const TH = styled.div(({ theme: { color, radius, space } }) => ({
   padding: rem(space.default),
   color: color.bulma[100],
-  borderRight: `1px solid ${color.beerus[100]}`,
+  backgroundColor: color.gohan[100],
+  borderRadius: radius.default,
   overflow: 'hidden',
+  '&::after': {
+    content: '""',
+    position: 'absolute',
+    width: '1px',
+    backgroundColor: color.beerus[100],
+    height: '70%',
+    bottom: '15%',
+    right: 0,
+  },
   '&:last-child': {
     borderRight: 0,
   },
