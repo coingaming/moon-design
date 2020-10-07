@@ -17,7 +17,7 @@ import { DialogPosition, DialogMaxWidth } from './types';
  * https://ui.reach.tech/dialog/
  */
 
-export const DialogOverlay = styled(ReachDialogOverlay)(
+export const DialogOverlay = styled<any>(ReachDialogOverlay)(
   ({ theme: { color, zIndex } }) => ({
     position: 'fixed',
     top: '0',
