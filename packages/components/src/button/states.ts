@@ -49,3 +49,9 @@ const buttonActive = (styles: CSSObject) => ({
 });
 
 export { ButtonMockState, buttonMockStateClass, buttonHover, buttonActive };
+
+export default {
+  buttonMockStateClass,
+  buttonHover,
+  buttonActive,
+};

@@ -96,3 +96,5 @@ export const buttonShadow = (color: string) => ({
 });
 
 export { buttonVariant, ButtonVariants };
+
+export default { buttonVariant };

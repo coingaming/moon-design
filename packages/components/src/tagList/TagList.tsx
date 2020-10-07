@@ -24,7 +24,7 @@ export const TagListWrapper = styled.div(({ theme }) => ({
   },
 }));
 
-export const List = styled.div({
+export const TagListInternal = styled.div({
   [Tag]: {
     marginRight: rem(4),
     '&:last-child': {
@@ -121,3 +121,13 @@ export const CopyButton = styled.button(({ theme }) => ({
     },
   },
 }));
+
+export default {
+  CopyBubble,
+  TagListWrapper,
+  TagListInternal,
+  ShowMore,
+  Dropdown,
+  CopyWrapper,
+  CopyButton,
+};
