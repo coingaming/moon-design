@@ -50,3 +50,5 @@ const buttonSize = (key: ButtonSizes) => (variant?: ButtonVariants) => {
 };
 
 export { buttonSize, ButtonSizes };
+
+export default { buttonSize };

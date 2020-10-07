@@ -156,3 +156,15 @@ export const DropdownWrapper = styled.div({
   marginTop: rem(10),
   maxWidth: '100%',
 });
+
+export default {
+  RemoveBubble,
+  Tag,
+  TagInputWrapper,
+  TagInputMain,
+  TagInputField,
+  TagRemove,
+  IconDropdown,
+  RemoveAllButton,
+  DropdownWrapper,
+};
