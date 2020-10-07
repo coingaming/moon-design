@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.42.0](https://github.com/coingaming/sportsbet-design/compare/v2.41.0...v2.42.0) (2020-10-07)
+
+
+### Features
+
+* **dialog:** ability to disable scroll lock ([ad22d86](https://github.com/coingaming/sportsbet-design/commit/ad22d8683105738d8a779c6cbbb51327680998dd))
+
+
+
+
+
 # [2.41.0](https://github.com/coingaming/sportsbet-design/compare/v2.40.0...v2.41.0) (2020-10-07)
 
 
