@@ -11,3 +11,5 @@ export const InputError = styled.p(({ theme: { color, space } }) => ({
 InputError.defaultProps = {
   role: 'alert',
 };
+
+export default InputError;
