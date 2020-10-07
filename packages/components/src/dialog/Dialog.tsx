@@ -12,7 +12,11 @@ import {
   DialogOverlay,
 } from './private/layout';
 
-export type DialogProps = ReachDialogProps & DialogPosition & DialogMaxWidth;
+export type DialogProps = ReachDialogProps &
+  DialogPosition &
+  DialogMaxWidth & {
+    disableScrollLock?: boolean;
+  };
 
 const Dialog: React.FC<DialogProps> = ({
   children,
@@ -20,8 +24,13 @@ const Dialog: React.FC<DialogProps> = ({
   isOpen = false,
   onDismiss,
   position = 'CENTER',
+  disableScrollLock = false,
 }) => (
-  <DialogOverlay isOpen={isOpen && isOpen} onDismiss={onDismiss && onDismiss}>
+  <DialogOverlay
+    isOpen={isOpen && isOpen}
+    onDismiss={onDismiss && onDismiss}
+    dangerouslyBypassScrollLock={disableScrollLock}
+  >
     <DialogContent maxWidth={maxWidth} position={position}>
       <DialogContainer>
         <DialogToggle type="button" onClick={onDismiss && onDismiss}>
