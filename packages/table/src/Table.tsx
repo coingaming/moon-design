@@ -78,6 +78,7 @@ const TH = styled.div(({ theme: { color, radius, space } }) => ({
   backgroundColor: color.gohan[100],
   borderRadius: radius.default,
   overflow: 'hidden',
+  position: 'relative',
   '&::after': {
     content: '""',
     position: 'absolute',
