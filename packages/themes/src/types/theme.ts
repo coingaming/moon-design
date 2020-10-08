@@ -10,7 +10,7 @@ import { MaxWidth } from './maxWidth';
 import { Opacity } from './opacity';
 import { Radius } from './radius';
 import { Space } from './space';
-import { TransitionDuration } from './transition';
+import { TransitionDuration, Transition } from './transition';
 import { ZIndex } from './zIndex';
 
 export type Theme = {
@@ -32,5 +32,6 @@ export type Theme = {
   radius: Radius;
   space: Space;
   transitionDuration: TransitionDuration;
+  transition: Transition;
   zIndex: ZIndex;
 };
