@@ -21,6 +21,8 @@ const borderWidth = 1;
 
 const space = 16;
 
+const transitionDuration = 0.2;
+
 const sharedTokens: Shared = {
   base: {
     space,
@@ -69,8 +71,12 @@ const sharedTokens: Shared = {
     xlarge: space * 2.5,
   },
   transitionDuration: {
-    slow: 0.4,
-    default: 0.2,
+    slow: transitionDuration * 2,
+    default: transitionDuration,
+  },
+  transition: {
+    slow: `${transitionDuration * 2}s ease-in-out`,
+    default: `${transitionDuration}s ease-in-out`,
   },
   zIndex: {
     carouselControl: 5,
