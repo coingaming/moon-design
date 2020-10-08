@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
+
+
+### Bug Fixes
+
+* fix rem function ([ba7d583](https://github.com/coingaming/sportsbet-design/commit/ba7d583303d9b0add1d00e94a6e3d229c4825314))
+* revert rem function ([1daaa60](https://github.com/coingaming/sportsbet-design/commit/1daaa609c0b1e46f7aca10a4014a5eb32490f779))
+
+
+### Features
+
+* add rem checker, add transition to themes ([1d20c03](https://github.com/coingaming/sportsbet-design/commit/1d20c0354b16d3a3b4028ae302db515c237899e7))
+* warning is rem value isn't allowed ([d87fb2e](https://github.com/coingaming/sportsbet-design/commit/d87fb2e85d265918216dd50b791c1c866577160a))
+
+
+
+
+
 # [2.42.0](https://github.com/coingaming/sportsbet-design/compare/v2.41.0...v2.42.0) (2020-10-07)
 
 
