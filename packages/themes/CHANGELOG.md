@@ -5,25 +5,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 
-
 ### Features
 
-* add rem checker, add transition to themes ([1d20c03](https://github.com/coingaming/sportsbet-design/commit/1d20c0354b16d3a3b4028ae302db515c237899e7))
-
-
-
-
+- add rem checker, add transition to themes ([1d20c03](https://github.com/coingaming/sportsbet-design/commit/1d20c0354b16d3a3b4028ae302db515c237899e7))
 
 # [2.40.0](https://github.com/coingaming/sportsbet-design/compare/v2.39.0...v2.40.0) (2020-10-06)
 
-
 ### Bug Fixes
 
-* fix slots dark theme ([e5a0657](https://github.com/coingaming/sportsbet-design/commit/e5a065768e25a16d864387f55ba2e7a8415c4982))
-
-
-
-
+- fix slots dark theme ([e5a0657](https://github.com/coingaming/sportsbet-design/commit/e5a065768e25a16d864387f55ba2e7a8415c4982))
 
 # [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 

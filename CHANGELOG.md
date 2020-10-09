@@ -5,73 +5,50 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 
-
 ### Bug Fixes
 
-* fix rem function ([ba7d583](https://github.com/coingaming/sportsbet-design/commit/ba7d583303d9b0add1d00e94a6e3d229c4825314))
-* revert rem function ([1daaa60](https://github.com/coingaming/sportsbet-design/commit/1daaa609c0b1e46f7aca10a4014a5eb32490f779))
-
+- fix rem function ([ba7d583](https://github.com/coingaming/sportsbet-design/commit/ba7d583303d9b0add1d00e94a6e3d229c4825314))
+- revert rem function ([1daaa60](https://github.com/coingaming/sportsbet-design/commit/1daaa609c0b1e46f7aca10a4014a5eb32490f779))
 
 ### Features
 
-* add rem checker, add transition to themes ([1d20c03](https://github.com/coingaming/sportsbet-design/commit/1d20c0354b16d3a3b4028ae302db515c237899e7))
-* warning is rem value isn't allowed ([d87fb2e](https://github.com/coingaming/sportsbet-design/commit/d87fb2e85d265918216dd50b791c1c866577160a))
-
-
-
-
+- add rem checker, add transition to themes ([1d20c03](https://github.com/coingaming/sportsbet-design/commit/1d20c0354b16d3a3b4028ae302db515c237899e7))
+- warning is rem value isn't allowed ([d87fb2e](https://github.com/coingaming/sportsbet-design/commit/d87fb2e85d265918216dd50b791c1c866577160a))
 
 # [2.42.0](https://github.com/coingaming/sportsbet-design/compare/v2.41.0...v2.42.0) (2020-10-07)
 
-
 ### Features
 
-* **dialog:** ability to disable scroll lock ([ad22d86](https://github.com/coingaming/sportsbet-design/commit/ad22d8683105738d8a779c6cbbb51327680998dd))
-
-
-
-
+- **dialog:** ability to disable scroll lock ([ad22d86](https://github.com/coingaming/sportsbet-design/commit/ad22d8683105738d8a779c6cbbb51327680998dd))
 
 # [2.41.0](https://github.com/coingaming/sportsbet-design/compare/v2.40.0...v2.41.0) (2020-10-07)
 
-
 ### Bug Fixes
 
-* **table:** docs cleanup ([f8f7330](https://github.com/coingaming/sportsbet-design/commit/f8f7330848c341374476d919f37065d10f71890a))
-* position relative fot TD ([d709227](https://github.com/coingaming/sportsbet-design/commit/d709227a39b637e202b6d740725f6d3ddf8b2b74))
-* table borders & radius ([cbdb4d0](https://github.com/coingaming/sportsbet-design/commit/cbdb4d0f264fd9c55a892d77bcd3b9c172e40757))
-* table style ([ed1493e](https://github.com/coingaming/sportsbet-design/commit/ed1493e564c2015cfaa9b19be74344371df1bf33))
-
+- **table:** docs cleanup ([f8f7330](https://github.com/coingaming/sportsbet-design/commit/f8f7330848c341374476d919f37065d10f71890a))
+- position relative fot TD ([d709227](https://github.com/coingaming/sportsbet-design/commit/d709227a39b637e202b6d740725f6d3ddf8b2b74))
+- table borders & radius ([cbdb4d0](https://github.com/coingaming/sportsbet-design/commit/cbdb4d0f264fd9c55a892d77bcd3b9c172e40757))
+- table style ([ed1493e](https://github.com/coingaming/sportsbet-design/commit/ed1493e564c2015cfaa9b19be74344371df1bf33))
 
 ### Features
 
-* default exports ([b49feb4](https://github.com/coingaming/sportsbet-design/commit/b49feb403b95c255503664b72e04c4394bb483b8))
-
-
-
-
+- default exports ([b49feb4](https://github.com/coingaming/sportsbet-design/commit/b49feb403b95c255503664b72e04c4394bb483b8))
 
 # [2.40.0](https://github.com/coingaming/sportsbet-design/compare/v2.39.0...v2.40.0) (2020-10-06)
 
-
 ### Bug Fixes
 
-* build ts ([74b01c5](https://github.com/coingaming/sportsbet-design/commit/74b01c57f174ccef5c7d7b1425051d508b091314))
-* fix import Switch in a test ([30883ab](https://github.com/coingaming/sportsbet-design/commit/30883abb76b17c797703072d0247195bf93100de))
-* fix slots dark theme ([e5a0657](https://github.com/coingaming/sportsbet-design/commit/e5a065768e25a16d864387f55ba2e7a8415c4982))
-* hide footer ([3543a13](https://github.com/coingaming/sportsbet-design/commit/3543a13fc504d18e5a9704700c6b8600a8433d53))
-* remove extra export ([a5112fd](https://github.com/coingaming/sportsbet-design/commit/a5112fde2f286ab2136025e16fa3bdc4d91ab85c))
-* update imports from 'polished' package ([90a432c](https://github.com/coingaming/sportsbet-design/commit/90a432c7d7ca1f9d1f4fe14ec41ea74f5de09012))
-
+- build ts ([74b01c5](https://github.com/coingaming/sportsbet-design/commit/74b01c57f174ccef5c7d7b1425051d508b091314))
+- fix import Switch in a test ([30883ab](https://github.com/coingaming/sportsbet-design/commit/30883abb76b17c797703072d0247195bf93100de))
+- fix slots dark theme ([e5a0657](https://github.com/coingaming/sportsbet-design/commit/e5a065768e25a16d864387f55ba2e7a8415c4982))
+- hide footer ([3543a13](https://github.com/coingaming/sportsbet-design/commit/3543a13fc504d18e5a9704700c6b8600a8433d53))
+- remove extra export ([a5112fd](https://github.com/coingaming/sportsbet-design/commit/a5112fde2f286ab2136025e16fa3bdc4d91ab85c))
+- update imports from 'polished' package ([90a432c](https://github.com/coingaming/sportsbet-design/commit/90a432c7d7ca1f9d1f4fe14ec41ea74f5de09012))
 
 ### Features
 
-* initial commit ([2fb1bde](https://github.com/coingaming/sportsbet-design/commit/2fb1bdefb5049cb42b704eac313ed56de48660df))
-* initial table component ([5931f69](https://github.com/coingaming/sportsbet-design/commit/5931f6935d18a8db8c30ac022df5e70585b75c43))
-
-
-
-
+- initial commit ([2fb1bde](https://github.com/coingaming/sportsbet-design/commit/2fb1bdefb5049cb42b704eac313ed56de48660df))
+- initial table component ([5931f69](https://github.com/coingaming/sportsbet-design/commit/5931f6935d18a8db8c30ac022df5e70585b75c43))
 
 # [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 

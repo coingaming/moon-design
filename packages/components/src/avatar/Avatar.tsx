@@ -40,12 +40,12 @@ const AvatarWrapper = styled.div<AvatarProps>(
     size === 'medium' && {
       height: rem(40),
       width: rem(40),
-      fontSize: rem(22),
+      fontSize: rem(20),
     },
     size === 'large' && {
       height: rem(48),
       width: rem(48),
-      fontSize: rem(26),
+      fontSize: rem(24),
     },
   ]
 );
