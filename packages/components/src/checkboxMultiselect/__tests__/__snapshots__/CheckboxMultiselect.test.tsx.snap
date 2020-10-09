@@ -337,7 +337,7 @@ exports[`CheckboxMultiselect renders with inner options 1`] = `
 
 .c3 {
   position: relative;
-  padding-left: 2.1875rem;
+  padding-left: 2.25rem;
 }
 
 .c4 {
