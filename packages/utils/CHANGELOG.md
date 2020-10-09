@@ -5,22 +5,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 
-
 ### Features
 
-* warning is rem value isn't allowed ([d87fb2e](https://github.com/coingaming/sportsbet-design/commit/d87fb2e85d265918216dd50b791c1c866577160a))
-
-
-
-
+- warning is rem value isn't allowed ([d87fb2e](https://github.com/coingaming/sportsbet-design/commit/d87fb2e85d265918216dd50b791c1c866577160a))
 
 # [2.40.0](https://github.com/coingaming/sportsbet-design/compare/v2.39.0...v2.40.0) (2020-10-06)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
