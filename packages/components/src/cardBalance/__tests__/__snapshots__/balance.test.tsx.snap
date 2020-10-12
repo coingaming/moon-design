@@ -14,21 +14,21 @@ exports[`CardBalance renders correctly 1`] = `
   cursor: help;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: 1.0625rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c2 {
   margin: 0;
   font-size: 2rem;
-  line-height: 2.375rem;
+  line-height: 2.5rem;
 }
 
 .c1 {
   margin: 0;
   color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @supports (grid-gap:0) {
@@ -106,21 +106,21 @@ exports[`CardBalance renders correctly with a badge 1`] = `
   cursor: help;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: 1.0625rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c4 {
   margin: 0;
   font-size: 2rem;
-  line-height: 2.375rem;
+  line-height: 2.5rem;
 }
 
 .c3 {
   margin: 0;
   color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @supports (grid-gap:0) {
@@ -197,21 +197,21 @@ exports[`CardBalance renders with currency if no unitTitle provided 1`] = `
   cursor: help;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: 1.0625rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .c2 {
   margin: 0;
   font-size: 2rem;
-  line-height: 2.375rem;
+  line-height: 2.5rem;
 }
 
 .c1 {
   margin: 0;
   color: #8697A2;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @supports (grid-gap:0) {

@@ -76,7 +76,7 @@ export const TagInputField = styled.input(({ theme }) => ({
   outline: 'none',
   caretColor: theme.color.piccolo[100],
   color: theme.color.bulma[100],
-  minWidth: rem(50),
+  minWidth: rem(52),
   margin: `0 0 ${rem(4)} 0`,
   flex: 1,
   '&::placeholder': {
