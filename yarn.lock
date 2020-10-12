@@ -1414,69 +1414,6 @@
     "@heathmont/eslint-config-sportsbet-prettier" "^0.1.1"
     "@heathmont/eslint-config-sportsbet-typescript" "^0.1.3"
 
-"@heathmont/moon-assets@2.36.0":
-  version "2.36.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-assets/-/moon-assets-2.36.0.tgz#4e8f5d39b6a8b741269a8e1ec2e0db9244f13f03"
-  integrity sha512-WJ0Pj7GnuDopdBeSkPPP9GrLnESpnemlYT3SGvcKPtTvmthyblw4uJj6lHLD9CQQfJl05AAxUPUPI4qUUl+Zww==
-  dependencies:
-    "@heathmont/moon-themes" "^2.36.0"
-    "@heathmont/moon-utils" "^2.36.0"
-
-"@heathmont/moon-components@2.36.0":
-  version "2.36.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-components/-/moon-components-2.36.0.tgz#d491445f85c499a92e0b03161b095963b4165ea5"
-  integrity sha512-ORo5Ras8zWJd0SXT4m8bYwaG5zBSvoKyYB0YI2aW0lWBYJE7qtudwmfYHlxsqImSN5qF3OEmUre/tPtTqCeqIw==
-  dependencies:
-    "@heathmont/moon-assets" "^2.36.0"
-    "@heathmont/moon-themes" "^2.36.0"
-    "@heathmont/moon-utils" "^2.36.0"
-    "@reach/dialog" "0.3.0"
-    "@types/date-fns" "2.6.0"
-    date-fns "2.15.0"
-    polished "3.4.1"
-    react-click-outside-hook "1.1.1"
-    scroll-into-view-if-needed "2.2.22"
-    smooth-scroll-into-view-if-needed "1.1.27"
-
-"@heathmont/moon-pagination@2.33.1-beta.4":
-  version "2.33.1-beta.4"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-pagination/-/moon-pagination-2.33.1-beta.4.tgz#75005b838e0efbe29d2e96efec7eef65c0e98736"
-  integrity sha512-KGgLM75sj3VkfpKqOvg3C04dodqn9s1vJ3ak3QE9zgAYHpZXUk8VP5XrLJVAOe5cFwy9B+LMdDo/a5+u1RIo0A==
-  dependencies:
-    "@heathmont/moon-assets" "2.36.0"
-    "@heathmont/moon-components" "2.36.0"
-    "@heathmont/moon-themes" "^2.33.1-beta.4+260c4099"
-    "@heathmont/moon-utils" "2.36.0"
-    "@types/react-paginate" "6.2.1"
-    react-paginate "6.5.0"
-
-"@heathmont/moon-sidebar@2.34.2-alpha.3":
-  version "2.34.2-alpha.3"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-sidebar/-/moon-sidebar-2.34.2-alpha.3.tgz#7123714a478fad47b5b5d4f9b75ec9bc03c2b0ea"
-  integrity sha512-Hq3qV99ESNteIH+vDpJ6BlTk+pM97+8F6QXr2dopG2Q1B1CQ23JYvOUcLG4fBq8c1NQvliUGJElgDQhkgslSeA==
-  dependencies:
-    "@heathmont/moon-themes" "^2.34.2-alpha.3+332a2736"
-    "@heathmont/moon-utils" "^2.34.2-alpha.3+332a2736"
-
-"@heathmont/moon-table@2.38.1-alpha.1":
-  version "2.38.1-alpha.1"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-table/-/moon-table-2.38.1-alpha.1.tgz#ae560d7ad7299dde71a90765dc696646e49707ee"
-  integrity sha512-lH8RvUazGVlJEH4hO3HekO6sA4lNKEuXBIZJm9X49w7YNyQhqocLoyAk7c3XqIAiGjWCCsaQnjKnLAKjIh6duA==
-  dependencies:
-    "@heathmont/moon-components" "^2.38.1-alpha.1+2fb1bdef"
-    "@heathmont/moon-themes" "^2.38.1-alpha.1+2fb1bdef"
-    "@heathmont/moon-utils" "^2.38.1-alpha.1+2fb1bdef"
-
-"@heathmont/moon-utils@2.36.0":
-  version "2.36.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.36.0.tgz#771ee7d65299c8b2fc00c957bbf1c2043ae84196"
-  integrity sha512-S4cbbkr6JIX5r7szU5Ujk/UrYkCEJHYqIjyRfVn56UnwMhFo+p/K9D7Ua9AHc04BYhA7i29/BZk9AUjsZnHVYQ==
-  dependencies:
-    "@heathmont/moon-themes" "^2.36.0"
-    lodash.get "4.4.2"
-    lodash.has "4.5.2"
-    polished "3.4.1"
-
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
@@ -2619,13 +2556,6 @@
     prop-types "^15.7.2"
     tslib "^1.11.2"
 
-"@reach/component-component@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reach/component-component/-/component-component-0.3.0.tgz#ccf593e26132cbec0ad92774b80356dcf544d5c5"
-  integrity sha512-E93eOotshNv8dnXtOA/f7fMqGUJFTakBG1zEqmBo6BeLJhgP9t9wQrnkiyoU4HL/ou5LYfou8G4P3wQXbDoFFg==
-  dependencies:
-    prop-types "^15.7.2"
-
 "@reach/descendants@^0.10.3":
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/@reach/descendants/-/descendants-0.10.5.tgz#2611174e9e9b326dba548356221e2f8c8f5c8612"
@@ -2657,18 +2587,6 @@
     react-focus-lock "^2.3.1"
     react-remove-scroll "^2.3.0"
     tslib "^2.0.0"
-
-"@reach/dialog@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reach/dialog/-/dialog-0.3.0.tgz#4c2037d4164193a09efcc359ba51c20652091142"
-  integrity sha512-m994HoNlpwJSPBkTi3IVTJpKQ+Gbc5yOa7RawSYPBuScpxeigFEYpE1CCIz/KhS6hVf4St+iymohWBCGjO34RQ==
-  dependencies:
-    "@reach/component-component" "^0.3.0"
-    "@reach/portal" "^0.3.0"
-    "@reach/utils" "^0.3.0"
-    prop-types "^15.7.2"
-    react-focus-lock "^2.1.0"
-    react-remove-scroll "^2.0.4"
 
 "@reach/menu-button@0.10.3":
   version "0.10.3"
@@ -2724,13 +2642,6 @@
   dependencies:
     "@reach/utils" "0.11.2"
     tslib "^2.0.0"
-
-"@reach/portal@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reach/portal/-/portal-0.3.0.tgz#2f44180026830679dd1dd9d5e3b807f637fe96bf"
-  integrity sha512-et9AeykzUaCuGnkzViQRxe4FjQQp4PPm1nMZqizX4KnsVwvi66PpKCE7hC3Gsh2036lGl0xtqmuRW+dTVSjb2A==
-  dependencies:
-    "@reach/component-component" "^0.3.0"
 
 "@reach/rect@0.10.5", "@reach/rect@^0.10.3":
   version "0.10.5"
@@ -2793,11 +2704,6 @@
     "@types/warning" "^3.0.0"
     tslib "^2.0.0"
     warning "^4.0.3"
-
-"@reach/utils@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.3.0.tgz#2098181aab751f2275cacf219b02a6a8b455be85"
-  integrity sha512-dQA1acyNpwqy5ia5yt1lNjaAhm9rrzSurFtlJPoz7ARVPMV1yZ0yfmNotMwwgVbE5q1HnONqszK7oagH86m7Qw==
 
 "@reach/visually-hidden@^0.10.2":
   version "0.10.4"
@@ -14769,7 +14675,7 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-focus-lock@^2.1.0, react-focus-lock@^2.3.1:
+react-focus-lock@^2.3.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/react-focus-lock/-/react-focus-lock-2.4.1.tgz#e842cc93da736b5c5d331799012544295cbcee4f"
   integrity sha512-c5ZP56KSpj9EAxzScTqQO7bQQNPltf/W1ZEBDqNDOV1XOIwvAyHX0O7db9ekiAtxyKgnqZjQlLppVg94fUeL9w==
@@ -14876,7 +14782,7 @@ react-remove-scroll-bar@^2.1.0:
     react-style-singleton "^2.1.0"
     tslib "^1.0.0"
 
-react-remove-scroll@^2.0.4, react-remove-scroll@^2.3.0:
+react-remove-scroll@^2.3.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-remove-scroll/-/react-remove-scroll-2.4.0.tgz#190c16eb508c5927595935499e8f5dd9ab0e75cf"
   integrity sha512-BZIO3GaEs0Or1OhA5C//n1ibUP1HdjJmqUVUsOCMxwoIpaCocbB9TFKwHOkBa/nyYy3slirqXeiPYGwdSDiseA==
