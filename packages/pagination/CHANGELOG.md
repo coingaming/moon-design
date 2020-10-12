@@ -7,33 +7,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [2.42.0](https://github.com/coingaming/sportsbet-design/compare/v2.41.0...v2.42.0) (2020-10-07)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 # [2.41.0](https://github.com/coingaming/sportsbet-design/compare/v2.40.0...v2.41.0) (2020-10-07)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [2.40.0](https://github.com/coingaming/sportsbet-design/compare/v2.39.0...v2.40.0) (2020-10-06)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 # [2.39.0](https://github.com/coingaming/sportsbet-design/compare/v2.38.0...v2.39.0) (2020-10-02)
 
