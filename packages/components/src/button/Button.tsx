@@ -136,7 +136,7 @@ const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
     size === 'xsmall' && {
       position: 'absolute',
       left: rem(8),
-      top: rem(6),
+      top: rem(8),
     },
   fullWidth &&
     size === 'small' && {
@@ -177,7 +177,7 @@ const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
     size === 'xsmall' && {
       position: 'absolute',
       right: rem(8),
-      top: rem(6),
+      top: rem(8),
     },
   fullWidth &&
     size === 'small' && {

@@ -22,21 +22,21 @@ type CardBalanceProps = {
 const Unit = styled.abbr({
   cursor: 'help',
   textDecoration: 'none',
-  fontSize: rem(17),
-  lineHeight: rem(20),
+  fontSize: rem(16),
+  lineHeight: rem(24),
 });
 
 const Title = styled.p({
   margin: 0,
   fontSize: rem(32),
-  lineHeight: rem(38),
+  lineHeight: rem(40),
 });
 
 const Text = styled.p(({ theme: { color } }) => ({
   margin: 0,
   color: color.trunks[100],
-  fontSize: rem(15),
-  lineHeight: rem(20),
+  fontSize: rem(16),
+  lineHeight: rem(24),
 }));
 
 const Balance: React.FC<{ from: Balance }> = ({ from }) => {

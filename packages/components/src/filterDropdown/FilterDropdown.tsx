@@ -23,7 +23,7 @@ const FilterDropdownWrapper = styled.div(({ theme }) => ({
 }));
 
 const Header = styled.div({
-  marginBottom: rem(22),
+  marginBottom: rem(24),
 });
 
 const FilterDropdown: React.FC<FilterDropdownProps> = props => {
