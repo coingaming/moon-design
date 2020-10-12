@@ -26,7 +26,7 @@ exports[`Avatar renders correctly 1`] = `
   background-size: cover;
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 <div
@@ -79,7 +79,7 @@ exports[`Avatar renders correctly with background color 1`] = `
   background-size: cover;
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 <div
@@ -131,7 +131,7 @@ exports[`Avatar renders correctly with large size 1`] = `
   background-size: cover;
   height: 3rem;
   width: 3rem;
-  font-size: 1.625rem;
+  font-size: 1.5rem;
 }
 
 <div
@@ -183,7 +183,7 @@ exports[`Avatar renders correctly with medium size 1`] = `
   background-size: cover;
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 <div
@@ -283,7 +283,7 @@ exports[`Avatar renders correctly with user image 1`] = `
   background-size: cover;
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 <div
@@ -314,7 +314,7 @@ exports[`Avatar renders correctly with user name as a JSX Element 1`] = `
   background-size: cover;
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 <div
@@ -354,7 +354,7 @@ exports[`Avatar renders correctly with user name as a string 1`] = `
   background-size: cover;
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 <div

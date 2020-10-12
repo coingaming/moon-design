@@ -13,11 +13,11 @@ const ToggleWrapper = styled.div({
 
 const Header = styled.div({
   position: 'relative',
-  paddingLeft: rem(35),
+  paddingLeft: rem(36),
 });
 
 const Body = styled.div({
-  paddingLeft: rem(35),
+  paddingLeft: rem(36),
 });
 
 const Switch = styled.button<{ open: boolean }>(({ open, theme }) => ({
