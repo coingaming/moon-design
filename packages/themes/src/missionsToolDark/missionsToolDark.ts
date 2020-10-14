@@ -4,59 +4,63 @@ import { Theme } from '../types/theme';
 import sharedTokens from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 
+const boxShadow =
+  '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
+
 const color = {
   piccolo: {
-    120: '#1a7dff',
-    100: '#2e89ff',
-    80: '#4c95f6',
+    120: '#7946d8',
+    100: '#875dd5',
+    80: '#9573d4',
   },
   hit: {
-    120: '#b7bac3',
-    100: '#c0c2c9',
-    80: '#c8cad0',
+    120: '#a2b0b9',
+    100: '#abb7bf',
+    80: '#b5bec5',
   },
-  goten: {
-    100: '#FFFFFF',
+  beerus: {
+    100: '#e2e6e9',
   },
   goku: {
-    100: '#F3F5F6',
-    80: '#EAEEF0',
-    40: '#D8E0E3',
-    10: '#C4D2D9',
+    100: '#f3f5f6',
+    80: '#eaeef0',
+    40: '#d8e0e3',
+    10: '#c4d2d9',
   },
   gohan: {
-    100: '#FFFFFF',
+    100: '#ffffff',
     80: '#f7f7f7',
     40: '#e8e8e8',
     10: '#d9d9d9',
   },
-  beerus: {
-    100: '#E7E7E7',
+  goten: {
+    100: '#ffffff',
   },
   bulma: {
-    100: '#03060C',
+    100: '#010913',
   },
   trunks: {
-    100: '#A6A6A6',
+    100: '#8697a2',
   },
 };
 
-const slotsLight: Theme = {
+const missionsToolDark: Theme = {
   ...sharedTokens,
-  brand: 'Slots.io',
+  brand: 'MissionsTool',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
     body: 14,
   },
   fontWeight: avertaStd.fontWeight,
+  boxShadow,
   color: {
     text: color.bulma[100],
     background: color.goku[100],
     ...supportColors,
     ...color,
   },
-  colorScheme: 'light',
+  colorScheme: 'dark',
 };
 
-export default slotsLight;
+export default missionsToolDark;
