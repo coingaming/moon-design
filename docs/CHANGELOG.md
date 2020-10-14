@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
+
+
+### Bug Fixes
+
+* bump versions in docs ([7219487](https://github.com/coingaming/sportsbet-design/commit/7219487f421be859e18dc3cbfabb8bff433a63c3))
+
+
+### Features
+
+* add MissionsTool themes, fix piccolo for Slots ([ba882a3](https://github.com/coingaming/sportsbet-design/commit/ba882a3d42435833ee59b51c396f64d478ce0024))
+
+
+
+
+
 # [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
 
 
