@@ -7,4 +7,5 @@ export type Brand =
   | 'Livecasino.io'
   | 'Hub88'
   | 'Aposta10'
-  | 'BTCXE';
+  | 'BTCXE'
+  | 'MissionsTool';

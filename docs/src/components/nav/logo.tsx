@@ -149,6 +149,7 @@ export const Logo = () => {
       {brand === 'BombayClub' && <p>Bombay Club</p>}
       {brand === 'Hub88' && <p>Hub88</p>}
       {brand === 'Aposta10' && <p>Aposta10</p>}
+      {brand === 'MissionsTool' && <p>MissionsTool</p>}
 
       <IconChevronDown aria-hidden="true" />
 
@@ -161,6 +162,7 @@ export const Logo = () => {
         <option value="bombay">Bombay Club</option>
         <option value="hub88">Hub88</option>
         <option value="aposta10">Aposta10</option>
+        <option value="missionsTool">MissionsTool</option>
       </BrandSelect>
     </LogoContainer>
   );
