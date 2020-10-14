@@ -6,9 +6,9 @@ import supportColors from '../supportColors/supportColors';
 
 const color = {
   piccolo: {
-    120: '#0048FF',
-    100: '#1A5BFF',
-    80: '#3D71F5',
+    120: '#1a7dff',
+    100: '#2e89ff',
+    80: '#4c95f6',
   },
   hit: {
     120: '#7C8192',
