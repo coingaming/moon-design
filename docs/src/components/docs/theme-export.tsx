@@ -14,6 +14,8 @@ import {
   hub88,
   aposta10Dark,
   aposta10Light,
+  missionsToolDark,
+  missionsToolLight,
 } from '@heathmont/moon-themes';
 import { Link } from '@heathmont/moon-components';
 
@@ -61,6 +63,8 @@ export const DownloadThemes = () => {
     hub88,
     aposta10Dark,
     aposta10Light,
+    missionsToolDark,
+    missionsToolLight,
   ];
 
   return themes.map(theme => (
