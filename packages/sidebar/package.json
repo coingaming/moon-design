@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-sidebar",
   "sideEffects": false,
-  "version": "2.44.0",
+  "version": "2.45.0",
   "files": [
     "lib"
   ],
@@ -15,8 +15,8 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^2.44.0",
-    "@heathmont/moon-utils": "^2.44.0"
+    "@heathmont/moon-themes": "^2.45.0",
+    "@heathmont/moon-utils": "^2.45.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
