@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
+
+
+### Features
+
+* missions logo ([4916e4b](https://github.com/coingaming/sportsbet-design/commit/4916e4bb370d24d73a9cdf6def9463913015e114))
+
+
+
+
+
 # [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
 **Note:** Version bump only for package @heathmont/moon-assets

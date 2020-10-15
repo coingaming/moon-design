@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
+
+
+### Bug Fixes
+
+* range picker ([15dd445](https://github.com/coingaming/sportsbet-design/commit/15dd445ff6225464b024eb6407d9e793b41aed73))
+
+
+
+
+
 # [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
 
