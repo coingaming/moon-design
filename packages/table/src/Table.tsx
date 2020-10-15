@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import {
   useTable,
-  useBlockLayout,
   useResizeColumns,
   useExpanded,
+  useFlexLayout,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { rem } from '@heathmont/moon-utils';
@@ -157,7 +157,7 @@ const Table: React.FC<any> = ({
       data,
       defaultColumn,
     },
-    useBlockLayout,
+    useFlexLayout,
     useResizeColumns,
     useSticky,
     useExpanded
