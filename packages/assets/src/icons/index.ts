@@ -100,6 +100,8 @@ export { default as IconCode } from './IconCode';
 export * from './IconCode';
 export { default as IconCopy } from './IconCopy';
 export * from './IconCopy';
+export { default as IconCrypto } from './IconCrypto';
+export * from './IconCrypto';
 export { default as IconCurrencyArs } from './IconCurrencyArs';
 export * from './IconCurrencyArs';
 export { default as IconCurrencyBdt } from './IconCurrencyBdt';
