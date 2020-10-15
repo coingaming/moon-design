@@ -12,9 +12,10 @@ import { Sidebar } from './Sidebar';
 import { InputsPanel } from './InputsPanel';
 
 const PickerContainer = styled.div(
-  ({ theme: { color, space, radius, breakpoint } }) => ({
+  ({ theme: { color, space, radius, breakpoint, zIndex } }) => ({
     width: 'fit-content',
-    // position: 'relative',
+    position: 'absolute',
+    zIndex: zIndex.dialog,
     display: 'grid',
     gridTemplateAreas: `
       "sidebar"
@@ -29,6 +30,7 @@ const PickerContainer = styled.div(
         "inputs  inputs     inputs"
       `,
       gridTemplateColumns: '1fr 2fr 2fr',
+      alignItems: 'baseline',
     },
     paddingBottom: rem(space.default),
     gap: rem(space.default),
