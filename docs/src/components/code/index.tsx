@@ -26,7 +26,7 @@ const CodeWrapper = styled.div(
     borderColor: color.beerus[100],
     borderRadius: Utils.rem(radius.small),
     position: 'relative',
-    overflow: 'hidden',
+    // overflow: 'hidden',
     '.prism-code:focus': {
       outline: 'none',
       boxShadow: `inset 0 0 3px ${color.piccolo[100]}`,
