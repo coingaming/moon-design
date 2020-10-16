@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.47.0](https://github.com/coingaming/sportsbet-design/compare/v2.46.0...v2.47.0) (2020-10-16)
+
+
+### Bug Fixes
+
+* **table:** maxWidth & maxHeight ([d2e7cdd](https://github.com/coingaming/sportsbet-design/commit/d2e7cddfc95c2e9252422c0e8744cfe76dca1679))
+* **table:** useFlexLayout ([16084fe](https://github.com/coingaming/sportsbet-design/commit/16084feb414fbffcff73fd6a0317e4518c44adde))
+
+
+### Features
+
+* moon pay icons ([541a0ba](https://github.com/coingaming/sportsbet-design/commit/541a0baf48e1f3ec13957ccf599cd74e627b1a11))
+
+
+
+
+
 # [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
 
 

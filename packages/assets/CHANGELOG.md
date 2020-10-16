@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.47.0](https://github.com/coingaming/sportsbet-design/compare/v2.46.0...v2.47.0) (2020-10-16)
+
+
+### Features
+
+* moon pay icons ([541a0ba](https://github.com/coingaming/sportsbet-design/commit/541a0baf48e1f3ec13957ccf599cd74e627b1a11))
+
+
+
+
+
 # [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
 
 
