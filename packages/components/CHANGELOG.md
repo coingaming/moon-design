@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.47.1](https://github.com/coingaming/sportsbet-design/compare/v2.47.0...v2.47.1) (2020-10-16)
+
+
+### Bug Fixes
+
+* **reel:** docs container ([f36aa28](https://github.com/coingaming/sportsbet-design/commit/f36aa2894d2343d509a9d25b1d7f478240682fa1))
+
+
+
+
+
 # [2.47.0](https://github.com/coingaming/sportsbet-design/compare/v2.46.0...v2.47.0) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-components
