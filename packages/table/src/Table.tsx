@@ -55,7 +55,6 @@ const TableWrapper = styled.div(({ theme: { color, radius } }) => ({
 const Header = styled.div(({ theme: { color, radius } }) => ({
   position: 'sticky',
   zIndex: 1,
-  width: 'fit-content',
   top: 0,
   borderRadius: radius.default,
   backgroundColor: color.goku[100],
