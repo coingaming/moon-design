@@ -24,12 +24,20 @@ documentation of the "reel".
 
   const items = Array.from({ length: 50 }, (v, i) => i);
 
+  // imitates limited width
+  const Container = styled.div({
+    width: '700px',
+    overflow: 'hidden',
+  });
+
   return (
-    <Reel>
-      {items.map(item => (
-        <Example hueRotate={item} />
-      ))}
-    </Reel>
+    <Container>
+      <Reel>
+        {items.map(item => (
+          <Example hueRotate={item} />
+        ))}
+      </Reel>
+    </Container>
   );
 };
 ```
@@ -56,12 +64,20 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
 
   const items = Array.from({ length: 50 }, (v, i) => i);
 
+  // imitates limited width
+  const Container = styled.div({
+    width: '700px',
+    overflow: 'hidden',
+  });
+
   return (
-    <Reel space="large">
-      {items.map(item => (
-        <Example hueRotate={item} />
-      ))}
-    </Reel>
+    <Container>
+      <Reel space="large">
+        {items.map(item => (
+          <Example hueRotate={item} />
+        ))}
+      </Reel>
+    </Container>
   );
 };
 ```
@@ -72,15 +88,23 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
 () => {
   const placeholderImg = size => `https://www.placecage.com/${size}`;
 
+  // imitates limited width
+  const Container = styled.div({
+    width: '700px',
+    overflow: 'hidden',
+  });
+
   return (
-    <Reel height="20vh">
-      <img alt="" src={placeholderImg('200/400')} />
-      <img alt="" src={placeholderImg('400/300')} />
-      <img alt="" src={placeholderImg('200/200')} />
-      <img alt="" src={placeholderImg('150/200')} />
-      <img alt="" src={placeholderImg('450/300')} />
-      <img alt="" src={placeholderImg('200/200')} />
-    </Reel>
+    <Container>
+      <Reel height="20vh">
+        <img alt="" src={placeholderImg('200/400')} />
+        <img alt="" src={placeholderImg('400/300')} />
+        <img alt="" src={placeholderImg('200/200')} />
+        <img alt="" src={placeholderImg('150/200')} />
+        <img alt="" src={placeholderImg('450/300')} />
+        <img alt="" src={placeholderImg('200/200')} />
+      </Reel>
+    </Container>
   );
 };
 ```
@@ -102,14 +126,22 @@ list-item (`li`) elements will display without bullets.
 () => {
   const items = Array.from({ length: 20 }, (v, i) => i);
 
+  // imitates limited width
+  const Container = styled.div({
+    width: '700px',
+    overflow: 'hidden',
+  });
+
   return (
-    <Reel as="ul">
-      {items.map(item => (
-        <li>
-          <Button variant="primary">Item {item}</Button>
-        </li>
-      ))}
-    </Reel>
+    <Container>
+      <Reel as="ul">
+        {items.map(item => (
+          <li>
+            <Button variant="primary">Item {item}</Button>
+          </li>
+        ))}
+      </Reel>
+    </Container>
   );
 };
 ```
