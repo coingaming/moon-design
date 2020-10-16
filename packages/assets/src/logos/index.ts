@@ -10,3 +10,5 @@ export { default as LogoSportsbet } from './LogoSportsbet';
 export * from './LogoSportsbet';
 export { default as LogoSportsbetSponsor } from './LogoSportsbetSponsor';
 export * from './LogoSportsbetSponsor';
+export { default as MoonPay } from './MoonPay';
+export * from './MoonPay';
