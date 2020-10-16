@@ -144,6 +144,8 @@ const Table: React.FC<any> = ({
   defaultColumn,
   width,
   height,
+  maxWidth,
+  maxHeight,
 }) => {
   const {
     getTableProps,
@@ -167,7 +169,7 @@ const Table: React.FC<any> = ({
     <TableWrapper
       {...getTableProps()}
       className="sticky"
-      style={{ width, height }}
+      style={{ width, height, maxWidth, maxHeight }}
     >
       <Header>
         {headerGroups.map(headerGroup => (
