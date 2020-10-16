@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import {
   useTable,
-  useBlockLayout,
   useResizeColumns,
   useExpanded,
+  useFlexLayout,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { rem } from '@heathmont/moon-utils';
@@ -144,6 +144,8 @@ const Table: React.FC<any> = ({
   defaultColumn,
   width,
   height,
+  maxWidth,
+  maxHeight,
 }) => {
   const {
     getTableProps,
@@ -157,7 +159,7 @@ const Table: React.FC<any> = ({
       data,
       defaultColumn,
     },
-    useBlockLayout,
+    useFlexLayout,
     useResizeColumns,
     useSticky,
     useExpanded
@@ -167,7 +169,7 @@ const Table: React.FC<any> = ({
     <TableWrapper
       {...getTableProps()}
       className="sticky"
-      style={{ width, height }}
+      style={{ width, height, maxWidth, maxHeight }}
     >
       <Header>
         {headerGroups.map(headerGroup => (
