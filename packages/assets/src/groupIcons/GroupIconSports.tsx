@@ -42,6 +42,9 @@ import IconESportsOverwatch from '../icons/IconESportsOverwatch';
 import IconESportsRainbow from '../icons/IconESportsRainbow';
 import IconESportsRocketLeague from '../icons/IconESportsRocketLeague';
 import IconESportsStarCraft from '../icons/IconESportsStarCraft';
+import IconSportsGreyhound from '../icons/IconSportsGreyhound';
+import IconSportsHarness from '../icons/IconSportsHarness';
+import IconSportsHorse from '../icons/IconSportsHorse';
 
 import { GroupIconSportsColor } from './GroupIconSportsColor';
 
@@ -78,6 +81,9 @@ export type GroupIconSportsName =
   | 'sport-horseracing'
   | 'sport-popular'
   | 'sport-rugby'
+  | 'sport-greyhound'
+  | 'sport-harness'
+  | 'sport-horse'
   // e-sports
   | 'sport-special'
   | 'sport-dota2'
@@ -305,6 +311,12 @@ const GroupIconSports: React.FC<GroupIconSportsProps> &
       return <IconESportsRainbow {...props} />;
     case 'sport-e-sport':
       return <IconESportsESport {...props} />;
+    case 'sport-greyhound':
+      return <IconSportsGreyhound color={color || 'krillin.100'} {...props} />;
+    case 'sport-harness':
+      return <IconSportsHarness color={color || 'dodoria.100'} {...props} />;
+    case 'sport-horse':
+      return <IconSportsHorse color={color || 'whis.100'} {...props} />;
     default:
       return null;
   }
