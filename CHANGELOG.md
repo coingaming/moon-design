@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.48.0](https://github.com/coingaming/sportsbet-design/compare/v2.47.2...v2.48.0) (2020-10-19)
+
+
+### Features
+
+* added horse-racing icons in group ([bf415dc](https://github.com/coingaming/sportsbet-design/commit/bf415dc1af2b4c26a5d40dfb9451c2f2a3573d53))
+
+
+
+
+
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 
