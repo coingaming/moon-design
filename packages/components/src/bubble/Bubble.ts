@@ -26,7 +26,7 @@ const Bubble = styled.div<{ position?: string }>(({ theme }) => [
       position: 'absolute',
       top: '100%',
       right: rem(12),
-      marginTop: rem(-1),
+      marginTop: `-${rem(1)}`,
     },
   },
   ({ position }) =>
@@ -36,7 +36,7 @@ const Bubble = styled.div<{ position?: string }>(({ theme }) => [
         marginTop: 0,
         borderBottomWidth: rem(8),
         bottom: '100%',
-        marginBottom: rem(-1),
+        marginBottom: `-${rem(1)}`,
         borderTopWidth: 0,
         borderBottomColor: theme.color.hit[100],
       },
