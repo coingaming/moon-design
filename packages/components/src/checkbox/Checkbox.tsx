@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import { uniqueId, inlineSvg, rem } from '@heathmont/moon-utils';
@@ -122,15 +122,9 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   disabled?: boolean;
 };
 
-const Checkbox: React.FC<CheckboxProps> = ({
-  disabled = false,
-  ariaLabel,
-  id,
-  label,
-  ...inputProps
-}) => {
+const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
+  const { disabled = false, ariaLabel, id, label, ...inputProps } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
-
   return (
     <CheckboxLabel htmlFor={autoId}>
       <CheckboxInput
@@ -138,12 +132,13 @@ const Checkbox: React.FC<CheckboxProps> = ({
         disabled={disabled}
         type="checkbox"
         aria-label={ariaLabel}
+        ref={ref}
         {...inputProps}
       />
       <CheckboxCaption>{label}</CheckboxCaption>
     </CheckboxLabel>
   );
-};
+});
 
 export { CheckboxProps };
 
