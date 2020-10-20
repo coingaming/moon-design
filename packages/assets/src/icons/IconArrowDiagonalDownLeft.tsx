@@ -13,9 +13,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M13 10V7a3 3 0 00-3-3H7a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5h3a5 5 0 015 5zM28 10V7a3 3 0 00-3-3h-3a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5h-3a5 5 0 01-5-5V7a5 5 0 015-5h3a5 5 0 015 5zM13 25v-3a3 3 0 00-3-3H7a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5H7a5 5 0 01-5-5v-3a5 5 0 015-5h3a5 5 0 015 5zM28 25v-3a3 3 0 00-3-3h-3a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5h-3a5 5 0 01-5-5v-3a5 5 0 015-5h3a5 5 0 015 5z"
+      d="M2.286 29.7l.012.012c.22.22.519.317.807.288H17a1 1 0 100-2H5.423L29.707 3.707a1 1 0 10-1.414-1.414L4 26.595V15a1 1 0 10-2 0v14c0 .273.11.52.286.7z"
       fill="currentColor"
     />
   </svg>
@@ -26,7 +24,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconCard = styled(Svg)<IconProps>(
+const IconArrowDiagonalDownLeft = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -47,4 +45,4 @@ const IconCard = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconCard;
+export default IconArrowDiagonalDownLeft;

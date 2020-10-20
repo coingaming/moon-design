@@ -13,10 +13,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M13 10V7a3 3 0 00-3-3H7a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5h3a5 5 0 015 5zM28 10V7a3 3 0 00-3-3h-3a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5h-3a5 5 0 01-5-5V7a5 5 0 015-5h3a5 5 0 015 5zM13 25v-3a3 3 0 00-3-3H7a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5H7a5 5 0 01-5-5v-3a5 5 0 015-5h3a5 5 0 015 5zM28 25v-3a3 3 0 00-3-3h-3a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5h-3a5 5 0 01-5-5v-3a5 5 0 015-5h3a5 5 0 015 5z"
-      fill="currentColor"
+      d="M19.235 13l10-10M27.735 13H19.25V4.515M19 19l10.004 9.996M19 27.485V19h8.485M13.004 19.243L3 29.239M13.004 27.728v-8.485H4.518M13.007 13l-10-10M4.507 13h8.486V4.515"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -26,7 +27,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconCard = styled(Svg)<IconProps>(
+const IconCollapse = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -47,4 +48,4 @@ const IconCard = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconCard;
+export default IconCollapse;

@@ -15,7 +15,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M13 10V7a3 3 0 00-3-3H7a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5h3a5 5 0 015 5zM28 10V7a3 3 0 00-3-3h-3a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5h-3a5 5 0 01-5-5V7a5 5 0 015-5h3a5 5 0 015 5zM13 25v-3a3 3 0 00-3-3H7a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5H7a5 5 0 01-5-5v-3a5 5 0 015-5h3a5 5 0 015 5zM28 25v-3a3 3 0 00-3-3h-3a3 3 0 00-3 3v3a3 3 0 003 3h3a3 3 0 003-3zm2-3v3a5 5 0 01-5 5h-3a5 5 0 01-5-5v-3a5 5 0 015-5h3a5 5 0 015 5z"
+      d="M14.5 4C8.701 4 4 8.701 4 14.5S8.701 25 14.5 25c2.897 0 5.518-1.172 7.42-3.07A10.465 10.465 0 0025 14.5C25 8.701 20.299 4 14.5 4zM2 14.5C2 7.596 7.596 2 14.5 2S27 7.596 27 14.5c0 3.094-1.125 5.927-2.987 8.11l5.693 5.682a1 1 0 01-1.412 1.416l-5.696-5.685A12.454 12.454 0 0114.5 27C7.596 27 2 21.404 2 14.5z"
       fill="currentColor"
     />
   </svg>
@@ -26,7 +26,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconCard = styled(Svg)<IconProps>(
+const IconZoom = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -47,4 +47,4 @@ const IconCard = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconCard;
+export default IconZoom;

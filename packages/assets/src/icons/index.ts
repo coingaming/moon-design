@@ -17,9 +17,17 @@ export {
 } from './IconArrowDiagonalBottomLeft';
 export * from './IconArrowDiagonalBottomLeft';
 export {
+  default as IconArrowDiagonalDownLeft,
+} from './IconArrowDiagonalDownLeft';
+export * from './IconArrowDiagonalDownLeft';
+export {
   default as IconArrowDiagonalTopRight,
 } from './IconArrowDiagonalTopRight';
 export * from './IconArrowDiagonalTopRight';
+export {
+  default as IconArrowDiagonalUpRight,
+} from './IconArrowDiagonalUpRight';
+export * from './IconArrowDiagonalUpRight';
 export { default as IconArrowDiagonals } from './IconArrowDiagonals';
 export * from './IconArrowDiagonals';
 export { default as IconArrowDown } from './IconArrowDown';
@@ -108,6 +116,8 @@ export { default as IconCloseSmall } from './IconCloseSmall';
 export * from './IconCloseSmall';
 export { default as IconCode } from './IconCode';
 export * from './IconCode';
+export { default as IconCollapse } from './IconCollapse';
+export * from './IconCollapse';
 export { default as IconCopy } from './IconCopy';
 export * from './IconCopy';
 export { default as IconCredit } from './IconCredit';
@@ -516,3 +526,5 @@ export { default as IconWhatsapp } from './IconWhatsapp';
 export * from './IconWhatsapp';
 export { default as IconYoutube } from './IconYoutube';
 export * from './IconYoutube';
+export { default as IconZoom } from './IconZoom';
+export * from './IconZoom';
