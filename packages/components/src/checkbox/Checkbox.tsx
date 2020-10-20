@@ -115,12 +115,13 @@ const CheckboxInput = styled.input(({ theme }) => ({
 /**
  * Checkbox Component
  */
-type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
-  id?: string;
-  label?: LabelText;
-  ariaLabel?: string;
-  disabled?: boolean;
-};
+type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> &
+  React.RefAttributes<HTMLInputElement> & {
+    id?: string;
+    label?: LabelText;
+    ariaLabel?: string;
+    disabled?: boolean;
+  };
 
 const Checkbox: React.FC<CheckboxProps> = ({
   disabled = false,
