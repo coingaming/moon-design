@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import { Label, LabelSizing } from '../private/label/label';
 
 import { SelectElement, SelectElementProps } from './private/element';
 
 type SelectProps = LabelSizing &
-  React.InputHTMLAttributes<HTMLSelectElement> &
-  React.RefAttributes<HTMLSelectElement> & {
+  React.InputHTMLAttributes<HTMLSelectElement> & {
     label?: string;
     disabled?: boolean;
   } & SelectElementProps;
@@ -14,21 +13,23 @@ type SelectProps = LabelSizing &
 /**
  * Component
  */
-const Select: React.FC<SelectProps> = ({
-  children,
-  disabled,
-  label,
-  fullWidth,
-  flex,
-  inputGrow,
-  ...props
-}) => {
+const Select = forwardRef<HTMLSelectElement, SelectProps>((props, ref) => {
+  const {
+    children,
+    disabled,
+    label,
+    fullWidth,
+    flex,
+    inputGrow,
+    ...rest
+  } = props;
   const SelectInput = (
     <SelectElement
       withIcon
       fullWidth={fullWidth}
       disabled={disabled}
-      {...props}
+      ref={ref}
+      {...rest}
     >
       {children}
     </SelectElement>
@@ -41,7 +42,7 @@ const Select: React.FC<SelectProps> = ({
   ) : (
     SelectInput
   );
-};
+});
 
 export { SelectProps };
 
