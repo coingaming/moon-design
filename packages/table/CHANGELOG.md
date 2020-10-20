@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.49.0](https://github.com/coingaming/sportsbet-design/compare/v2.48.0...v2.49.0) (2020-10-20)
+
+**Note:** Version bump only for package @heathmont/moon-table
+
+
+
+
+
 # [2.48.0](https://github.com/coingaming/sportsbet-design/compare/v2.47.2...v2.48.0) (2020-10-19)
 
 **Note:** Version bump only for package @heathmont/moon-table
