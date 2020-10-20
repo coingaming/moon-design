@@ -22,13 +22,14 @@ type TextInputTypes =
   | 'time'
   | 'url';
 
-type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
-  label?: string;
-  type?: TextInputTypes;
-  placeholder?: string;
-  error?: boolean | string;
-  rounded?: boolean;
-};
+type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> &
+  React.RefAttributes<HTMLInputElement> & {
+    label?: string;
+    type?: TextInputTypes;
+    placeholder?: string;
+    error?: boolean | string;
+    rounded?: boolean;
+  };
 
 const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
   '&:focus': {

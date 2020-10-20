@@ -5,7 +5,8 @@ import { Label, LabelSizing } from '../private/label/label';
 import { SelectElement, SelectElementProps } from './private/element';
 
 type SelectProps = LabelSizing &
-  React.InputHTMLAttributes<HTMLSelectElement> & {
+  React.InputHTMLAttributes<HTMLSelectElement> &
+  React.RefAttributes<HTMLSelectElement> & {
     label?: string;
     disabled?: boolean;
   } & SelectElementProps;
