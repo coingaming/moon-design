@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 
 import { Label } from '../private/label/label';
@@ -22,14 +22,13 @@ type TextInputTypes =
   | 'time'
   | 'url';
 
-type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> &
-  React.RefAttributes<HTMLInputElement> & {
-    label?: string;
-    type?: TextInputTypes;
-    placeholder?: string;
-    error?: boolean | string;
-    rounded?: boolean;
-  };
+type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
+  label?: string;
+  type?: TextInputTypes;
+  placeholder?: string;
+  error?: boolean | string;
+  rounded?: boolean;
+};
 
 const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
   '&:focus': {
@@ -44,25 +43,31 @@ const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
  * 1. Leaving the placeholder as an empty string by default allows us to float
  *    the label when a user starts typing, even if a placeholder isn't defined.
  */
-const TextInput: React.FC<TextInputProps> = ({
-  type = 'text',
-  disabled,
-  placeholder = ' ',
-  label,
-  error,
-  rounded,
-  ...props
-}) => {
+const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
+  const {
+    type = 'text',
+    disabled,
+    placeholder = ' ',
+    label,
+    error,
+    rounded,
+    ...rest
+  } = props;
   const inputProps = {
     disabled,
     type,
     placeholder,
     rounded,
-    ...props,
+    ...rest,
   };
 
   const TextInputInner = () => (
-    <TextInputElem rounded={!!rounded} error={!!error} {...inputProps} />
+    <TextInputElem
+      rounded={!!rounded}
+      error={!!error}
+      ref={ref}
+      {...inputProps}
+    />
   );
 
   if (!label) {
@@ -77,7 +82,7 @@ const TextInput: React.FC<TextInputProps> = ({
       </>
     </Label>
   );
-};
+});
 
 export { TextInputProps };
 
