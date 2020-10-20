@@ -591,9 +591,17 @@ export {
 } from './icons/IconArrowDiagonalBottomLeft';
 export * from './icons/IconArrowDiagonalBottomLeft';
 export {
+  default as IconArrowDiagonalDownLeft,
+} from './icons/IconArrowDiagonalDownLeft';
+export * from './icons/IconArrowDiagonalDownLeft';
+export {
   default as IconArrowDiagonalTopRight,
 } from './icons/IconArrowDiagonalTopRight';
 export * from './icons/IconArrowDiagonalTopRight';
+export {
+  default as IconArrowDiagonalUpRight,
+} from './icons/IconArrowDiagonalUpRight';
+export * from './icons/IconArrowDiagonalUpRight';
 export { default as IconArrowDiagonals } from './icons/IconArrowDiagonals';
 export * from './icons/IconArrowDiagonals';
 export { default as IconArrowDown } from './icons/IconArrowDown';
@@ -688,6 +696,8 @@ export { default as IconCloseSmall } from './icons/IconCloseSmall';
 export * from './icons/IconCloseSmall';
 export { default as IconCode } from './icons/IconCode';
 export * from './icons/IconCode';
+export { default as IconCollapse } from './icons/IconCollapse';
+export * from './icons/IconCollapse';
 export { default as IconCopy } from './icons/IconCopy';
 export * from './icons/IconCopy';
 export { default as IconCredit } from './icons/IconCredit';
@@ -1112,6 +1122,8 @@ export { default as IconWhatsapp } from './icons/IconWhatsapp';
 export * from './icons/IconWhatsapp';
 export { default as IconYoutube } from './icons/IconYoutube';
 export * from './icons/IconYoutube';
+export { default as IconZoom } from './icons/IconZoom';
+export * from './icons/IconZoom';
 export { default as LogoBtcxe } from './logos/LogoBtcxe';
 export * from './logos/LogoBtcxe';
 export { default as LogoMissions } from './logos/LogoMissions';
