@@ -7,7 +7,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 23 28"
+    viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
@@ -15,7 +15,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M5.935.298A1 1 0 016.647 0H13a5 5 0 015 5 5 5 0 015 5v13a5 5 0 01-5 5h-8a5 5 0 01-5-5 5 5 0 01-5-5V6.727a1 1 0 01.288-.702L5.935.298zM16 5v13a3 3 0 01-3 3H5a3 3 0 01-3-3V9h6a1 1 0 001-1V2h4a3 3 0 013 3zM7 2.066V7H2.135L7 2.066zM10 26a3 3 0 01-3-3h6a5 5 0 005-5V7a3 3 0 013 3v13a3 3 0 01-3 3h-8z"
+      d="M9.935 2.298A1 1 0 0110.647 2H17a5 5 0 015 5 5 5 0 015 5v13a5 5 0 01-5 5h-8a5 5 0 01-5-5 5 5 0 01-5-5V8.727a1 1 0 01.288-.702l5.647-5.727zM20 7v13a3 3 0 01-3 3H9a3 3 0 01-3-3v-9h6a1 1 0 001-1V4h4a3 3 0 013 3zm-9-2.934V9H6.135L11 4.066zM14 28a3 3 0 01-3-3h6a5 5 0 005-5V9a3 3 0 013 3v13a3 3 0 01-3 3h-8z"
       fill="currentColor"
     />
   </svg>
