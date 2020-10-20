@@ -13,11 +13,8 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M12 20l8-8M15.374 8.697L19.46 4.61a5.5 5.5 0 017.778 7.778l-3.182 3.182m-7.57 7.571l-4.097 4.096a5.5 5.5 0 01-7.778-7.778L8.5 15.571"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      d="M10 4a1 1 0 100-2v2zm12-2a1 1 0 100 2V2zM2 10a1 1 0 102 0H2zm2 12a1 1 0 10-2 0h2zm24-12a1 1 0 102 0h-2zm2 12a1 1 0 10-2 0h2zm-8 6a1 1 0 100 2v-2zm-12 2a1 1 0 100-2v2zm-7-5h1-1zm7-23H7v2h3V2zm15 0h-3v2h3V2zM2 7v3h2V7H2zm0 15v3h2v-3H2zM28 7v3h2V7h-2zm0 15v3h2v-3h-2zm-3 6h-3v2h3v-2zm-15 0H7v2h3v-2zM25 4a3 3 0 013 3h2a5 5 0 00-5-5v2zM7 2a5 5 0 00-5 5h2a3 3 0 013-3V2zM2 25a5 5 0 005 5v-2a3 3 0 01-3-3H2zm26 0a3 3 0 01-3 3v2a5 5 0 005-5h-2z"
+      fill="currentColor"
     />
   </svg>
 );
@@ -27,7 +24,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconLink = styled(Svg)<IconProps>(
+const IconDetails = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -48,4 +45,4 @@ const IconLink = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconLink;
+export default IconDetails;
