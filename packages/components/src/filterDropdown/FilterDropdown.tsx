@@ -13,7 +13,7 @@ type FilterDropdownProps = {
 const FilterDropdownWrapper = styled.div(({ theme }) => ({
   display: 'inline-block',
   backgroundColor: theme.color.gohan[100],
-  borderRadius: theme.radius.default,
+  borderRadius: rem(theme.radius.default),
   boxShadow: theme.boxShadow,
   overflow: 'hidden',
   fontSize: rem(14),
