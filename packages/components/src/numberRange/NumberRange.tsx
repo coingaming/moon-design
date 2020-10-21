@@ -22,15 +22,14 @@ type Props = {
   gteLabel: string;
   gteDisabled: boolean;
   gteError?: boolean | string;
-  maxWidth: number;
+  maxWidth?: string | number;
 };
 
-const Container = styled.div<{ maxWidth: number }>(
-  ({ maxWidth, theme: { color, space, radius, boxShadow } }) => ({
+const Container = styled.div(
+  ({ theme: { color, space, radius, boxShadow } }) => ({
     background: color.gohan[100],
     padding: rem(space.default),
     borderRadius: rem(radius.default),
-    maxWidth: rem(maxWidth),
     boxShadow,
     '& > :first-child': {
       marginBottom: rem(12),
@@ -51,7 +50,7 @@ const NumberRange: React.FC<Props> = ({
   maxWidth = 248,
 }) => {
   return (
-    <Container maxWidth={maxWidth}>
+    <Container style={{ maxWidth }}>
       <Text color="trunks.100" size={12}>
         {text}
       </Text>
