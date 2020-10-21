@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.49.1](https://github.com/coingaming/sportsbet-design/compare/v2.49.0...v2.49.1) (2020-10-21)
+
+
+### Bug Fixes
+
+* fix background color ([81b98ab](https://github.com/coingaming/sportsbet-design/commit/81b98ab8789c2e81c745058e279c2e6b860e815f))
+* use maxWidth as inline style ([2040aa5](https://github.com/coingaming/sportsbet-design/commit/2040aa5197856281ef3d9a7ff3b4e51203e2d46a))
+
+
+
+
+
 # [2.49.0](https://github.com/coingaming/sportsbet-design/compare/v2.48.0...v2.49.0) (2020-10-20)
 
 
