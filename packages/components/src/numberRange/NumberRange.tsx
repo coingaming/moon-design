@@ -27,7 +27,7 @@ type Props = {
 
 const Container = styled.div<{ maxWidth: number }>(
   ({ maxWidth, theme: { color, space, radius, boxShadow } }) => ({
-    background: color.goku[100],
+    background: color.gohan[100],
     padding: rem(space.default),
     borderRadius: rem(radius.default),
     maxWidth: rem(maxWidth),
