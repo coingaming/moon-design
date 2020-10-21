@@ -86,10 +86,9 @@ exports[`Number Range renders correctly 1`] = `
 }
 
 .c0 {
-  background: #232A33;
+  background: #1A212A;
   padding: 1rem;
   border-radius: 0.5rem;
-  max-width: 15.375rem;
   box-shadow: 0px 2.4px 7.2px rgba(0,0,0,0.18),0px 12.8px 28.8px rgba(0,0,0,0.22);
 }
 
@@ -112,6 +111,11 @@ exports[`Number Range renders correctly 1`] = `
 
 <div
   className="c0"
+  style={
+    Object {
+      "maxWidth": 246,
+    }
+  }
 >
   <p
     className="c1"
