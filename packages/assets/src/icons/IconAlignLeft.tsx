@@ -7,13 +7,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 24 26"
+    viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="M24 1a1 1 0 01-1 1H1a1 1 0 010-2h22a1 1 0 011 1zM23 18a1 1 0 100-2H1a1 1 0 100 2h22zM12 26a1 1 0 100-2H1a1 1 0 100 2h11zM12 10a1 1 0 100-2H1a1 1 0 100 2h11z"
+      d="M28 4a1 1 0 01-1 1H5a1 1 0 010-2h22a1 1 0 011 1zM27 21a1 1 0 100-2H5a1 1 0 100 2h22zM16 29a1 1 0 100-2H5a1 1 0 100 2h11zM16 13a1 1 0 100-2H5a1 1 0 100 2h11z"
       fill="currentColor"
     />
   </svg>
