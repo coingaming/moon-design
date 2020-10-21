@@ -2,7 +2,73 @@
 
 exports[`SingleItemSelect renders by default 1`] = `
 .c0 {
-  max-height: 250px;
+  overflow: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0 -0.75rem;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 0.75rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.c1:hover,
+.c1:focus {
+  background-color: #232A33;
+}
+
+<ul
+  className="c0"
+  style={
+    Object {
+      "maxHeight": 250,
+    }
+  }
+>
+  <li>
+    <button
+      className="c1"
+      onClick={[Function]}
+      selected={false}
+    >
+      Game 1
+    </button>
+  </li>
+  <li>
+    <button
+      className="c1"
+      onClick={[Function]}
+      selected={false}
+    >
+      Game 2
+    </button>
+  </li>
+  <li>
+    <button
+      className="c1"
+      onClick={[Function]}
+      selected={false}
+    >
+      Game 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`SingleItemSelect renders with pre-selected value 1`] = `
+.c0 {
   overflow: auto;
   list-style: none;
   padding: 0;
@@ -48,6 +114,11 @@ exports[`SingleItemSelect renders by default 1`] = `
 
 <ul
   className="c0"
+  style={
+    Object {
+      "maxHeight": 250,
+    }
+  }
 >
   <li>
     <button

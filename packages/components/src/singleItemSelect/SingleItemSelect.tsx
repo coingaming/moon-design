@@ -1,5 +1,5 @@
 import { rem } from '@heathmont/moon-utils';
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 type Option = {
@@ -10,17 +10,16 @@ type Option = {
 type SingleItemSelectProps = {
   value?: any;
   options: Option[];
-  onChange: (option: Option) => void;
+  onChange: (value: any) => void;
   maxHeight?: string | number;
 };
 
-const List = styled.ul<{ maxHeight?: string | number }>(({ maxHeight }) => ({
-  maxHeight,
-  overflow: maxHeight ? 'auto' : 'visible',
+const List = styled.ul({
+  overflow: 'auto',
   listStyle: 'none',
   padding: 0,
   margin: `0 -${rem(12)}`,
-}));
+});
 
 const Option = styled.button<{ selected: boolean }>(({ selected, theme }) => ({
   fontSize: rem(14),
@@ -52,29 +51,20 @@ const SingleItemSelect: React.FC<SingleItemSelectProps> = ({
   value,
   onChange,
   maxHeight,
-}) => {
-  const [actualValue, setActualValue] = useState(value);
-
-  const handleOptionClick = (currentOption: Option) => {
-    setActualValue(currentOption.value);
-    onChange(currentOption.value);
-  };
-
-  return (
-    <List maxHeight={maxHeight}>
-      {options.map(option => (
-        <li key={option.value}>
-          <Option
-            selected={actualValue === option.value}
-            onClick={() => handleOptionClick(option)}
-          >
-            {option.label}
-          </Option>
-        </li>
-      ))}
-    </List>
-  );
-};
+}) => (
+  <List style={{ maxHeight }}>
+    {options.map(option => (
+      <li key={option.value}>
+        <Option
+          selected={value === option.value}
+          onClick={() => onChange(option.value)}
+        >
+          {option.label}
+        </Option>
+      </li>
+    ))}
+  </List>
+);
 
 SingleItemSelect.defaultProps = {
   maxHeight: 250,

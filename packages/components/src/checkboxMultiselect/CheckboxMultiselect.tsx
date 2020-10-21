@@ -1,144 +1,82 @@
-import { inlineSvg, rem } from '@heathmont/moon-utils';
-import React, { MouseEvent, useEffect, useState } from 'react';
+import { rem } from '@heathmont/moon-utils';
+import React from 'react';
 import styled from 'styled-components';
 
 import Checkbox from '../checkbox/Checkbox';
-import { CheckboxIcon } from '../checkbox/private/icon';
 
-import Toggle from './private/Toggle';
-
-type Option = React.InputHTMLAttributes<HTMLInputElement> & {
+type Option = {
   label: string | JSX.Element;
   value: any;
-  innerOptions?: Option[];
+  [key: string]: any;
 };
 
 type CheckboxMultiselectProps = {
-  onChange: (value: Option[]) => void;
-  clearSelectedLabel?: string | JSX.Element;
-  value: Option[];
+  value?: any[];
   options: Option[];
+  onChange: (value: any[]) => void;
   maxHeight?: string | number;
 };
 
-const ClearSelected = styled.a(({ theme }) => ({
-  display: 'inline-block',
-  color: theme.color.trunks[100],
-  fontWeight: theme.fontWeight.semibold,
-  cursor: 'pointer',
-  marginBottom: rem(10),
-  textDecoration: 'none',
-  '&:hover, &:focus, &:active': {
-    color: theme.color.piccolo[80],
-  },
-}));
-
-const List = styled.ul<{ maxHeight?: string | number }>(({ maxHeight }) => ({
+const List = styled.ul(() => ({
+  overflow: 'auto',
   listStyle: 'none',
+  padding: 0,
+  margin: `0 -${rem(12)}`,
+}));
+
+const Option = styled.label(({ theme }) => ({
+  display: 'flex',
+  alignItems: 'center',
+  fontSize: rem(14),
+  lineHeight: rem(20),
+  padding: `${rem(10)} ${rem(12)}`,
+  textDecoration: 'none',
+  outline: 'none',
+  border: 'none',
+  textAlign: 'left',
+  width: '100%',
+  cursor: 'pointer',
+  color: theme.color.bulma[100],
+  backgroundColor: 'transparent',
+  'span::before': {
+    display: 'none',
+  },
+  '&:hover, &:focus': {
+    backgroundColor: theme.color.goku[100],
+  },
+}));
+
+const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
+  options,
+  value = [],
+  onChange,
   maxHeight,
-  overflow: maxHeight ? 'auto' : 'visible',
-  paddingLeft: rem(8),
-}));
-
-const ListItem = styled.li({
-  margin: `${rem(24)} 0`,
-  '&:first-child': {
-    marginTop: rem(12),
-  },
-  '&:last-child': {
-    marginBottom: rem(12),
-  },
-  ul: {
-    paddingLeft: 0,
-    marginTop: rem(24),
-  },
-});
-
-const CheckboxStyled = styled(Checkbox)(({ theme }) => ({
-  '& + span::after': {
-    borderRadius: rem(2),
-  },
-  '&:checked + span::after': {
-    backgroundColor: theme.color.piccolo[100],
-    backgroundImage: inlineSvg(<CheckboxIcon color={theme.color.goten[100]} />),
-  },
-}));
-
-const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = props => {
-  const { clearSelectedLabel, options, onChange, maxHeight, value } = props;
-  const [actualValue, setActualValue] = useState(value);
-
-  useEffect(() => setActualValue(value), [value]);
-
-  const clearSelected = (event: MouseEvent) => {
-    event.preventDefault();
-    setActualValue([]);
-    onChange([]);
+}) => {
+  const onCheckboxChange = (optionValue: any) => {
+    if (value.includes(optionValue)) {
+      onChange(value.filter(currentValue => currentValue !== optionValue));
+    } else {
+      onChange([...value, optionValue]);
+    }
   };
-
-  const handleCheckboxChange = (currentOption: Option, checked: boolean) => {
-    const newValue = checked
-      ? [...actualValue, currentOption]
-      : actualValue.filter(option => option.value !== currentOption.value);
-    setActualValue(newValue);
-    onChange(newValue);
-  };
-
-  const isChecked = (optionValue: any) =>
-    !!actualValue.find(option => optionValue === option.value);
 
   return (
-    <div>
-      {!!clearSelectedLabel && !!actualValue.length && (
-        <ClearSelected href="#" onClick={clearSelected}>
-          {clearSelectedLabel}
-        </ClearSelected>
-      )}
-      <List maxHeight={maxHeight}>
-        {options.map(option => (
-          <ListItem key={option.value}>
-            {option.innerOptions && option.innerOptions.length ? (
-              <Toggle
-                header={
-                  <CheckboxStyled
-                    {...option}
-                    checked={isChecked(option.value)}
-                    onChange={event =>
-                      handleCheckboxChange(option, event.target.checked)
-                    }
-                  />
-                }
-              >
-                <List>
-                  {option.innerOptions.map(innerOption => (
-                    <ListItem key={innerOption.value}>
-                      <CheckboxStyled
-                        {...innerOption}
-                        checked={isChecked(innerOption.value)}
-                        onChange={event =>
-                          handleCheckboxChange(
-                            innerOption,
-                            event.target.checked
-                          )
-                        }
-                      />
-                    </ListItem>
-                  ))}
-                </List>
-              </Toggle>
-            ) : (
-              <CheckboxStyled
-                {...option}
-                checked={isChecked(option.value)}
-                onChange={event =>
-                  handleCheckboxChange(option, event.target.checked)
-                }
-              />
-            )}
-          </ListItem>
-        ))}
-      </List>
-    </div>
+    <List style={{ maxHeight }}>
+      {options.map(option => (
+        <li key={option.value}>
+          <Option>
+            <Checkbox
+              id={option.id}
+              checked={value.some(
+                currentValue => currentValue === option.value
+              )}
+              onChange={() => onCheckboxChange(option.value)}
+            />
+            {option.label}
+          </Option>
+        </li>
+      ))}
+    </List>
   );
 };
 
