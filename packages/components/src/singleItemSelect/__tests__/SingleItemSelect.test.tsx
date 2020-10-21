@@ -15,6 +15,24 @@ describe('SingleItemSelect', () => {
       renderWithTheme(
         <SingleItemSelect
           onChange={() => {}}
+          value=""
+          options={[
+            { label: 'Game 1', value: 1 },
+            { label: 'Game 2', value: 2 },
+            { label: 'Game 3', value: 3 },
+          ]}
+        />
+      )
+    );
+
+    expect(singleItemSelect).toMatchSnapshot();
+  });
+
+  test('renders with pre-selected value', () => {
+    const singleItemSelect = create(
+      renderWithTheme(
+        <SingleItemSelect
+          onChange={() => {}}
           value={2}
           options={[
             { label: 'Game 1', value: 1 },
