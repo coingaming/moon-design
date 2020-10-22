@@ -1293,7 +1293,6 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
       onSubmit={[Function]}
     >
       Go to page
-       
       <input
         className="c6"
         onChange={[Function]}
