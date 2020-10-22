@@ -2,16 +2,7 @@
 
 exports[`Pagination renders correctly 1`] = `
 .c2 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -23,12 +14,13 @@ exports[`Pagination renders correctly 1`] = `
   border-radius: 6.25rem;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
+  white-space: nowrap;
   color: #FFFFFF;
   background-color: #0CD463;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  height: 2.5rem;
-  padding: 0 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  height: 2rem;
+  padding: 0 1rem;
 }
 
 .c2:disabled,
@@ -50,6 +42,21 @@ exports[`Pagination renders correctly 1`] = `
   outline: none;
 }
 
+.c3 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -66,11 +73,31 @@ exports[`Pagination renders correctly 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c1 {
   width: 100%;
-  margin-bottom: 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c1 > ul {
@@ -88,6 +115,9 @@ exports[`Pagination renders correctly 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0.625rem;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .c1 > ul > li:not(.previous):not(.next) {
@@ -121,12 +151,11 @@ exports[`Pagination renders correctly 1`] = `
   outline: none;
 }
 
-.c1 > ul > .previous {
-  margin-right: 0.625rem;
-}
-
+.c1 > ul > .previous,
 .c1 > ul > .next {
-  margin-left: 0.625rem;
+  margin: 0.625rem 0;
+  width: 100%;
+  text-align: center;
 }
 
 .c1 > ul > .disabled button,
@@ -137,10 +166,40 @@ exports[`Pagination renders correctly 1`] = `
   border-color: #31373F;
 }
 
-@media (min-width:75em) {
+@media (min-width:50em) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
   .c1 {
     width: auto;
-    margin-bottom: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul > .previous {
+    margin: 0 0.625rem 0 0;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul > .next {
+    margin: 0 0 0 0.625rem;
   }
 }
 
@@ -150,9 +209,7 @@ exports[`Pagination renders correctly 1`] = `
   <div
     className="c1"
   >
-    <ul
-      className=""
-    >
+    <ul>
       <li
         className="previous"
       >
@@ -166,9 +223,13 @@ exports[`Pagination renders correctly 1`] = `
         >
           <button
             className="c2"
-            size="small"
+            size="xsmall"
           >
-            Previous
+            <div
+              className="c3"
+            >
+              Previous
+            </div>
           </button>
         </a>
       </li>
@@ -199,13 +260,13 @@ exports[`Pagination renders correctly 1`] = `
       <li>
         <a
           aria-current={null}
-          aria-label="Page 11"
+          aria-label="Page 9"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          11
+          9
         </a>
       </li>
       <li
@@ -213,25 +274,25 @@ exports[`Pagination renders correctly 1`] = `
       >
         <a
           aria-current="page"
-          aria-label="Page 12 is your current page"
+          aria-label="Page 10 is your current page"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          12
+          10
         </a>
       </li>
       <li>
         <a
           aria-current={null}
-          aria-label="Page 13"
+          aria-label="Page 11"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          13
+          11
         </a>
       </li>
       <li
@@ -271,9 +332,13 @@ exports[`Pagination renders correctly 1`] = `
         >
           <button
             className="c2"
-            size="small"
+            size="xsmall"
           >
-            Next
+            <div
+              className="c3"
+            >
+              Next
+            </div>
           </button>
         </a>
       </li>
@@ -282,18 +347,13 @@ exports[`Pagination renders correctly 1`] = `
 </div>
 `;
 
-exports[`Pagination renders correctly with "go to page" section 1`] = `
+exports[`Pagination renders correctly with "change page size" section 1`] = `
+.c8 {
+  vertical-align: middle;
+}
+
 .c2 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -305,12 +365,13 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   border-radius: 6.25rem;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
+  white-space: nowrap;
   color: #FFFFFF;
   background-color: #0CD463;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  height: 2.5rem;
-  padding: 0 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  height: 2rem;
+  padding: 0 1rem;
 }
 
 .c2:disabled,
@@ -332,17 +393,8 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   outline: none;
 }
 
-.c5 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+.c6 {
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -354,38 +406,462 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   border-radius: 6.25rem;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
+  white-space: nowrap;
   color: #FFFFFF;
-  background: none;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  padding: 0;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  height: 2rem;
+  padding: 0 1rem;
 }
 
-.c5:disabled,
-.c5[disabled] {
+.c6:disabled,
+.c6[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
-.c5.is-hover:not([disabled]),
-.c5:hover:not([disabled]) {
-  color: #FFFFFF;
+.c6.is-hover:not([disabled]),
+.c6:hover:not([disabled]) {
+  background-color: #242D38;
 }
 
-.c5.is-active,
-.c5.has-focus,
-.c5:active,
-.c5:focus {
-  color: #FFFFFF;
+.c6.is-active,
+.c6.has-focus,
+.c6:active,
+.c6:focus {
+  background-color: #11161D;
   outline: none;
 }
 
-.c6 {
-  vertical-align: middle;
-  color: #8697A2;
+.c3 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c4 {
+  margin: 0.625rem;
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 > ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0.625rem;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c1 > ul > li:not(.previous):not(.next) {
+  margin: 0 0.125rem;
+  border-radius: 50%;
+}
+
+.c1 > ul > li:not(.previous):not(.next) > a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected {
+  background-color: #353C44;
+}
+
+.c1 > ul > li:not(.previous):not(.next).selected > a {
+  outline: none;
+}
+
+.c1 > ul > .previous,
+.c1 > ul > .next {
+  margin: 0.625rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 > ul > .disabled button,
+.c1 > ul > .disabled button:hover {
+  cursor: default;
+  color: #8697A2;
+  background: none;
+  border-color: #31373F;
+}
+
+.c5 {
+  display: inline-block;
+  position: relative;
+}
+
+.c7 {
+  color: #8697A2;
+  background: none;
+  border-color: #31373F;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.c7:hover:not([disabled]),
+.c7:focus:not([disabled]) {
+  background: none;
+  color: #0CD463;
+}
+
+@media (min-width:50em) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 {
+    width: auto;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul > .previous {
+    margin: 0 0.625rem 0 0;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul > .next {
+    margin: 0 0 0 0.625rem;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <ul>
+      <li
+        className="previous"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Previous page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="xsmall"
+          >
+            <div
+              className="c3"
+            >
+              Previous
+            </div>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 1"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 9"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          9
+        </a>
+      </li>
+      <li
+        className="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 10 is your current page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          10
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 11"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          11
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 20"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          20
+        </a>
+      </li>
+      <li
+        className="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="c2"
+            size="xsmall"
+          >
+            <div
+              className="c3"
+            >
+              Next
+            </div>
+          </button>
+        </a>
+      </li>
+    </ul>
+    <div
+      className="c4"
+    >
+       
+      <div
+        className="c5"
+      >
+        <button
+          className="c6 c7"
+          onClick={[Function]}
+          size="xsmall"
+        >
+          <div
+            className="c3"
+          >
+            Rows: 
+            20
+            <svg
+              className="c8"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pagination renders correctly with "go to page" section 1`] = `
+.c8 {
+  vertical-align: middle;
+}
+
+.c2 {
+  display: inline-block;
+  min-height: 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 6.25rem;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+  color: #FFFFFF;
+  background-color: #0CD463;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  height: 2rem;
+  padding: 0 1rem;
+}
+
+.c2:disabled,
+.c2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.c2.is-hover:not([disabled]),
+.c2:hover:not([disabled]) {
+  background-color: #19E170;
+}
+
+.c2.is-active,
+.c2.has-focus,
+.c2:active,
+.c2:focus {
+  background-color: #02C556;
+  outline: none;
+}
+
+.c3 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.c6 {
   width: 100%;
   max-width: 100%;
   padding: 0.5rem 1rem;
@@ -404,76 +880,47 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   -webkit-appearance: none;
 }
 
-.c4::-webkit-input-placeholder {
+.c6::-webkit-input-placeholder {
   color: #8697A2;
   opacity: 1;
 }
 
-.c4::-moz-placeholder {
+.c6::-moz-placeholder {
   color: #8697A2;
   opacity: 1;
 }
 
-.c4:-ms-input-placeholder {
+.c6:-ms-input-placeholder {
   color: #8697A2;
   opacity: 1;
 }
 
-.c4::placeholder {
+.c6::placeholder {
   color: #8697A2;
   opacity: 1;
 }
 
-.c4:hover:not(:focus):not([disabled]) {
+.c6:hover:not(:focus):not([disabled]) {
   border-color: #4C5159;
 }
 
-.c4:not(:placeholder-shown):not([type="date"]):invalid {
+.c6:not(:placeholder-shown):not([type="date"]):invalid {
   border-color: #FF4E64;
 }
 
-.c4:invalid,
-.c4:-moz-ui-invalid {
+.c6:invalid,
+.c6:-moz-ui-invalid {
   box-shadow: none;
 }
 
-.c4:disabled {
+.c6:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.c4:focus {
+.c6:focus {
   border-color: #0CD463;
   outline: none;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 0.75rem;
-  height: 2rem;
-  font-weight: 500;
-}
-
-.c3 > input {
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  width: 2rem;
-  height: 2rem;
-  margin: 0 0.5rem;
-}
-
-.c3 > button {
-  height: 2rem;
-  width: 2rem;
-  padding: 0.25rem;
-  background-color: #353C44;
 }
 
 .c0 {
@@ -492,11 +939,35 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  margin: 0.625rem;
 }
 
 .c1 {
   width: 100%;
-  margin-bottom: 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c1 > ul {
@@ -514,6 +985,9 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0.625rem;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .c1 > ul > li:not(.previous):not(.next) {
@@ -547,12 +1021,11 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   outline: none;
 }
 
-.c1 > ul > .previous {
-  margin-right: 0.625rem;
-}
-
+.c1 > ul > .previous,
 .c1 > ul > .next {
-  margin-left: 0.625rem;
+  margin: 0.625rem 0;
+  width: 100%;
+  text-align: center;
 }
 
 .c1 > ul > .disabled button,
@@ -563,10 +1036,110 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   border-color: #31373F;
 }
 
-@media (min-width:75em) {
+.c7 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #232A33;
+  color: #8697A2;
+  -webkit-transition-property: color,background-color;
+  transition-property: color,background-color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.c7:hover,
+.c7:focus {
+  background-color: #0CD463;
+  color: #FFFFFF;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 2rem;
+  font-weight: 500;
+}
+
+.c5 > input {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
+.c5 > button {
+  height: 2rem;
+  width: 2rem;
+  padding: 0.25rem;
+  background-color: #353C44;
+  color: #8697A2;
+}
+
+.c5 > button:hover,
+.c5 > button:focus {
+  background-color: #0CD463;
+  color: #fff;
+}
+
+@media (min-width:50em) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
   .c1 {
     width: auto;
-    margin-bottom: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul > .previous {
+    margin: 0 0.625rem 0 0;
+  }
+}
+
+@media (min-width:50em) {
+  .c1 > ul > .next {
+    margin: 0 0 0 0.625rem;
   }
 }
 
@@ -576,9 +1149,7 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   <div
     className="c1"
   >
-    <ul
-      className=""
-    >
+    <ul>
       <li
         className="previous"
       >
@@ -592,9 +1163,13 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
         >
           <button
             className="c2"
-            size="small"
+            size="xsmall"
           >
-            Previous
+            <div
+              className="c3"
+            >
+              Previous
+            </div>
           </button>
         </a>
       </li>
@@ -625,13 +1200,13 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
       <li>
         <a
           aria-current={null}
-          aria-label="Page 11"
+          aria-label="Page 9"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          11
+          9
         </a>
       </li>
       <li
@@ -639,25 +1214,25 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
       >
         <a
           aria-current="page"
-          aria-label="Page 12 is your current page"
+          aria-label="Page 10 is your current page"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          12
+          10
         </a>
       </li>
       <li>
         <a
           aria-current={null}
-          aria-label="Page 13"
+          aria-label="Page 11"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          13
+          11
         </a>
       </li>
       <li
@@ -697,64 +1272,63 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
         >
           <button
             className="c2"
-            size="small"
+            size="xsmall"
           >
-            Next
+            <div
+              className="c3"
+            >
+              Next
+            </div>
           </button>
         </a>
       </li>
     </ul>
   </div>
-  <form
-    className="c3"
-    onSubmit={[Function]}
+  <div
+    className="c4"
   >
-    Go to page
      
-    <input
-      className="c4"
-      onChange={[Function]}
-      pattern="\\\\d+"
-      placeholder=" "
-      type="text"
-      value=""
-    />
-    <button
+    <form
       className="c5"
-      size="small"
-      type="submit"
+      onSubmit={[Function]}
     >
-      <svg
+      Go to page
+       
+      <input
         className="c6"
-        color="trunks.100"
-        height="1em"
-        viewBox="0 0 12 20"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        onChange={[Function]}
+        pattern="\\\\d+"
+        placeholder=" "
+        type="text"
+        value=""
+      />
+      <button
+        className="c7"
+        type="submit"
       >
-        <path
-          d="M0 2.623L7.014 10 0 17.376 2.5 20 12 10 2.498 0z"
-          fill="currentColor"
-          fillRule="evenodd"
-        />
-      </svg>
-    </button>
-  </form>
+        <svg
+          className="c8"
+          height="1em"
+          viewBox="0 0 12 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 2.623L7.014 10 0 17.376 2.5 20 12 10 2.498 0z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+    </form>
+     
+  </div>
 </div>
 `;
 
-exports[`Pagination renders correctly with "items per page" section 1`] = `
-.c2 {
-  display: inline-grid;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  grid-auto-flow: column;
+exports[`Pagination renders correctly with "page size" section 1`] = `
+.c3 {
+  display: inline-block;
   min-height: 1.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -766,31 +1340,47 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
   border-radius: 6.25rem;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
+  white-space: nowrap;
   color: #FFFFFF;
   background-color: #0CD463;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  height: 2.5rem;
-  padding: 0 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  height: 2rem;
+  padding: 0 1rem;
 }
 
-.c2:disabled,
-.c2[disabled] {
+.c3:disabled,
+.c3[disabled] {
   cursor: not-allowed;
   opacity: 0.35;
 }
 
-.c2.is-hover:not([disabled]),
-.c2:hover:not([disabled]) {
+.c3.is-hover:not([disabled]),
+.c3:hover:not([disabled]) {
   background-color: #19E170;
 }
 
-.c2.is-active,
-.c2.has-focus,
-.c2:active,
-.c2:focus {
+.c3.is-active,
+.c3.has-focus,
+.c3:active,
+.c3:focus {
   background-color: #02C556;
   outline: none;
+}
+
+.c4 {
+  display: grid;
+  height: 100%;
+  grid-auto-flow: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .c0 {
@@ -809,27 +1399,38 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-.c3 {
-  color: #FFFFFF;
-  font-size: 0.75rem;
-  font-weight: 500;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-}
-
-.c3 > span {
-  color: #8697A2;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c1 {
-  width: 100%;
-  margin-bottom: 0.625rem;
+  margin: 0.625rem;
 }
 
-.c1 > ul {
+.c2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 > ul {
   list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -844,14 +1445,17 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0.625rem;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.c1 > ul > li:not(.previous):not(.next) {
+.c2 > ul > li:not(.previous):not(.next) {
   margin: 0 0.125rem;
   border-radius: 50%;
 }
 
-.c1 > ul > li:not(.previous):not(.next) > a {
+.c2 > ul > li:not(.previous):not(.next) > a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -869,42 +1473,63 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
   cursor: pointer;
 }
 
-.c1 > ul > li:not(.previous):not(.next).selected {
+.c2 > ul > li:not(.previous):not(.next).selected {
   background-color: #353C44;
 }
 
-.c1 > ul > li:not(.previous):not(.next).selected > a {
+.c2 > ul > li:not(.previous):not(.next).selected > a {
   outline: none;
 }
 
-.c1 > ul > .previous {
-  margin-right: 0.625rem;
+.c2 > ul > .previous,
+.c2 > ul > .next {
+  margin: 0.625rem 0;
+  width: 100%;
+  text-align: center;
 }
 
-.c1 > ul > .next {
-  margin-left: 0.625rem;
-}
-
-.c1 > ul > .disabled button,
-.c1 > ul > .disabled button:hover {
+.c2 > ul > .disabled button,
+.c2 > ul > .disabled button:hover {
   cursor: default;
   color: #8697A2;
   background: none;
   border-color: #31373F;
 }
 
-@media (min-width:75em) {
-  .c3 {
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
+@media (min-width:50em) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 
-@media (min-width:75em) {
-  .c1 {
+@media (min-width:50em) {
+  .c2 {
     width: auto;
-    margin-bottom: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:50em) {
+  .c2 > ul {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width:50em) {
+  .c2 > ul > .previous {
+    margin: 0 0.625rem 0 0;
+  }
+}
+
+@media (min-width:50em) {
+  .c2 > ul > .next {
+    margin: 0 0 0 0.625rem;
   }
 }
 
@@ -914,9 +1539,17 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
   <div
     className="c1"
   >
-    <ul
-      className=""
-    >
+     
+    Showing 1 – 10 
+    <span>
+      of 100
+    </span>
+     
+  </div>
+  <div
+    className="c2"
+  >
+    <ul>
       <li
         className="previous"
       >
@@ -929,10 +1562,14 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
           tabIndex="0"
         >
           <button
-            className="c2"
-            size="small"
+            className="c3"
+            size="xsmall"
           >
-            Previous
+            <div
+              className="c4"
+            >
+              Previous
+            </div>
           </button>
         </a>
       </li>
@@ -963,13 +1600,13 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
       <li>
         <a
           aria-current={null}
-          aria-label="Page 11"
+          aria-label="Page 9"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          11
+          9
         </a>
       </li>
       <li
@@ -977,25 +1614,25 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
       >
         <a
           aria-current="page"
-          aria-label="Page 12 is your current page"
+          aria-label="Page 10 is your current page"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          12
+          10
         </a>
       </li>
       <li>
         <a
           aria-current={null}
-          aria-label="Page 13"
+          aria-label="Page 11"
           onClick={[Function]}
           onKeyPress={[Function]}
           role="button"
           tabIndex="0"
         >
-          13
+          11
         </a>
       </li>
       <li
@@ -1034,22 +1671,18 @@ exports[`Pagination renders correctly with "items per page" section 1`] = `
           tabIndex="0"
         >
           <button
-            className="c2"
-            size="small"
+            className="c3"
+            size="xsmall"
           >
-            Next
+            <div
+              className="c4"
+            >
+              Next
+            </div>
           </button>
         </a>
       </li>
     </ul>
-  </div>
-  <div
-    className="c3"
-  >
-    Showing 1 – 10 
-    <span>
-      of 100
-    </span>
   </div>
 </div>
 `;
