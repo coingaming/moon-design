@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.49.2](https://github.com/coingaming/sportsbet-design/compare/v2.49.1...v2.49.2) (2020-10-22)
+
+
+### Bug Fixes
+
+* remove empty space ([e3ea54e](https://github.com/coingaming/sportsbet-design/commit/e3ea54e1a31371f0b7f8ef582bf89a3a797b828f))
+
+
+
+
+
 ## [2.49.1](https://github.com/coingaming/sportsbet-design/compare/v2.49.0...v2.49.1) (2020-10-21)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
