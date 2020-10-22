@@ -87,7 +87,7 @@ const GoToPage: React.FC<GoToPageProps> = ({
 
   return (
     <Form onSubmit={handleSubmit}>
-      {children}{' '}
+      {children}
       <TextInput value={value} pattern="\d+" onChange={handleChange} />
       <CircleButton type="submit">
         <IconChevronRight />
