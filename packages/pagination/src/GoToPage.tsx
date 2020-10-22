@@ -1,13 +1,37 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
 import { rem } from '@heathmont/moon-utils';
 import { IconChevronRight } from '@heathmont/moon-assets';
-import { TextInput, Button } from '@heathmont/moon-components';
+import { TextInput } from '@heathmont/moon-components';
 import styled from 'styled-components';
 
 type GoToPageProps = {
   onChange: (page: number) => void;
-  label?: string | JSX.Element;
+  minPage?: number;
+  maxPage?: number;
 };
+
+const CircleButton = styled.button(
+  ({ theme }) => `
+  width: ${rem(32)};
+  height: ${rem(32)};
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: ${rem(12)};
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: ${theme.color.goku[100]};
+  color: ${theme.color.trunks[100]};
+  transition-property: color, background-color;
+  transition-duration: ${theme.transitionDuration.default}s;
+  &:hover, &:focus {
+    background-color: ${theme.color.piccolo[100]};
+    color: ${theme.color.goten[100]};
+  }
+`
+);
 
 const Form = styled.form(({ theme }) => ({
   display: 'flex',
@@ -27,30 +51,47 @@ const Form = styled.form(({ theme }) => ({
     width: rem(32),
     padding: rem(4),
     backgroundColor: theme.color.goku[80],
+    color: theme.color.trunks[100],
+    '&:hover, &:focus': {
+      backgroundColor: theme.color.piccolo[100],
+      color: '#fff',
+    },
   },
 }));
 
-const GoToPage: React.FC<GoToPageProps> = ({ label, onChange }) => {
-  const [page, setPage] = useState('');
+const GoToPage: React.FC<GoToPageProps> = ({
+  onChange,
+  maxPage,
+  minPage = 1,
+  children,
+}) => {
+  const [value, setValue] = useState('');
+
+  const getPageNumber = (pageNumber: number) => {
+    if (minPage && pageNumber < minPage) return minPage;
+    if (maxPage && pageNumber > maxPage) return maxPage;
+    return pageNumber;
+  };
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setPage(event.target.value);
+    setValue(event.target.value);
   };
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    const currentPage = Number(page);
+    const currentPage = Number(value);
     if (Number.isNaN(currentPage)) return;
-    onChange(currentPage);
-    setPage('');
+    onChange(getPageNumber(currentPage));
+    setValue('');
   };
 
   return (
     <Form onSubmit={handleSubmit}>
-      {label} <TextInput value={page} pattern="\d+" onChange={handleChange} />
-      <Button type="submit">
-        <IconChevronRight color="trunks.100" />
-      </Button>
+      {children}{' '}
+      <TextInput value={value} pattern="\d+" onChange={handleChange} />
+      <CircleButton type="submit">
+        <IconChevronRight />
+      </CircleButton>
     </Form>
   );
 };

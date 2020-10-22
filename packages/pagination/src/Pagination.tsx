@@ -1,48 +1,47 @@
-import React, { useState } from 'react';
-import ReactPaginate, { ReactPaginateProps } from 'react-paginate';
+import React from 'react';
+import ReactPaginate from 'react-paginate';
 import styled from 'styled-components';
 import { rem, mq } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
-import GoToPage from './GoToPage';
-
 type PaginationProps = {
-  itemsPerPageLabel?: string | JSX.Element;
-  goToPageLabel?: string | JSX.Element;
   previousButtonLabel: string | JSX.Element;
   nextButtonLabel: string | JSX.Element;
-} & ReactPaginateProps;
+  pageNumber: number;
+  onChange: (pageNumber: number) => void;
+  goToPageSection?: JSX.Element;
+  changePageSizeSection?: JSX.Element;
+  pageSizeSection?: JSX.Element;
+  pageCount: number;
+  pageRangeDisplayed: number;
+  marginPagesDisplayed: number;
+};
 
-const PaginationWrapper = styled.div({
+const PaginationWrapper = styled.div(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
   flexWrap: 'wrap',
-});
-
-const ItemsPerPage = styled.div(({ theme }) => ({
-  color: theme.color.bulma[100],
-  fontSize: rem(12),
-  fontWeight: theme.fontWeight.semibold,
-  order: 0,
-  margin: `${rem(12)} 0`,
-  [mq(theme.breakpoint.small)]: {
-    margin: 0,
-  },
-  [mq(theme.breakpoint.xlarge)]: {
-    order: -1,
-  },
-  '& > span': {
-    color: theme.color.trunks[100],
+  flexDirection: 'column',
+  [mq(theme.breakpoint.medium)]: {
+    flexDirection: 'row',
   },
 }));
 
+const SectionWrapper = styled.div({
+  margin: rem(10),
+});
+
 const ReactPaginateWrapper = styled.div(({ theme }) => ({
   width: '100%',
-  marginBottom: rem(10),
-  [mq(theme.breakpoint.xlarge)]: {
+  display: 'flex',
+  flexWrap: 'wrap',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flexDirection: 'column',
+  [mq(theme.breakpoint.medium)]: {
     width: 'auto',
-    marginBottom: 0,
+    flexDirection: 'row',
   },
   '& > ul': {
     listStyle: 'none',
@@ -51,7 +50,7 @@ const ReactPaginateWrapper = styled.div(({ theme }) => ({
     justifyContent: 'center',
     margin: rem(10),
     flexWrap: 'wrap',
-    [mq(theme.breakpoint.small)]: {
+    [mq(theme.breakpoint.medium)]: {
       flexWrap: 'nowrap',
     },
     '& > li:not(.previous):not(.next)': {
@@ -73,21 +72,17 @@ const ReactPaginateWrapper = styled.div(({ theme }) => ({
       },
     },
     '& > .previous, & > .next': {
-      marginTop: rem(10),
+      margin: `${rem(10)} 0`,
       width: '100%',
       textAlign: 'center',
-      order: 1,
-      [mq(theme.breakpoint.small)]: {
-        order: 0,
-      },
     },
     '& > .previous': {
-      [mq(theme.breakpoint.small)]: {
+      [mq(theme.breakpoint.medium)]: {
         margin: `0 ${rem(10)} 0 0`,
       },
     },
     '& > .next': {
-      [mq(theme.breakpoint.small)]: {
+      [mq(theme.breakpoint.medium)]: {
         margin: `0 0 0 ${rem(10)}`,
       },
     },
@@ -104,39 +99,47 @@ const ReactPaginateWrapper = styled.div(({ theme }) => ({
 
 const Pagination: React.FC<PaginationProps> = props => {
   const {
-    itemsPerPageLabel,
-    goToPageLabel,
-    onPageChange,
+    onChange,
     previousButtonLabel,
     nextButtonLabel,
+    pageNumber,
+    goToPageSection,
+    changePageSizeSection,
+    pageSizeSection,
     pageCount,
-    initialPage,
+    pageRangeDisplayed,
+    marginPagesDisplayed,
   } = props;
-  const [forcePage, setForcePage] = useState(initialPage);
-
-  const handleGoToPage = (page: number) => {
-    const currentPage = page - 1;
-    if (currentPage < 0 || currentPage > pageCount - 1) return;
-    if (onPageChange) onPageChange({ selected: currentPage });
-    setForcePage(currentPage);
-  };
-
   return (
     <PaginationWrapper>
+      {!!pageSizeSection && (
+        <SectionWrapper> {pageSizeSection} </SectionWrapper>
+      )}
       <ReactPaginateWrapper>
         <ReactPaginate
-          forcePage={forcePage}
-          containerClassName=""
+          forcePage={pageNumber - 1}
           previousLabel={
-            <Button variant="primary">{previousButtonLabel}</Button>
+            <Button variant="primary" size="xsmall">
+              {previousButtonLabel}
+            </Button>
           }
-          nextLabel={<Button variant="primary">{nextButtonLabel}</Button>}
-          {...props}
+          nextLabel={
+            <Button variant="primary" size="xsmall">
+              {nextButtonLabel}
+            </Button>
+          }
+          onPageChange={({ selected }) => onChange(selected + 1)}
+          disableInitialCallback
+          pageCount={pageCount}
+          pageRangeDisplayed={pageRangeDisplayed}
+          marginPagesDisplayed={marginPagesDisplayed}
         />
+        {!!changePageSizeSection && (
+          <SectionWrapper> {changePageSizeSection} </SectionWrapper>
+        )}
       </ReactPaginateWrapper>
-      {!!itemsPerPageLabel && <ItemsPerPage>{itemsPerPageLabel}</ItemsPerPage>}
-      {!!goToPageLabel && (
-        <GoToPage label={goToPageLabel} onChange={handleGoToPage} />
+      {!!goToPageSection && (
+        <SectionWrapper> {goToPageSection} </SectionWrapper>
       )}
     </PaginationWrapper>
   );
