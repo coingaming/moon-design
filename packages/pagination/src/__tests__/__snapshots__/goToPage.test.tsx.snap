@@ -3,7 +3,6 @@
 exports[`GoToPage renders correctly 1`] = `
 .c3 {
   vertical-align: middle;
-  color: #8697A2;
 }
 
 .c1 {
@@ -69,7 +68,13 @@ exports[`GoToPage renders correctly 1`] = `
 }
 
 .c2 {
-  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -78,42 +83,22 @@ exports[`GoToPage renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  grid-auto-flow: column;
-  min-height: 1.5rem;
-  font-family: inherit;
-  font-weight: 500;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  -webkit-transition: background-color 0.2s;
-  transition: background-color 0.2s;
-  color: #FFFFFF;
-  background: none;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.75rem;
   padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #232A33;
+  color: #8697A2;
+  -webkit-transition-property: color,background-color;
+  transition-property: color,background-color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
-.c2:disabled,
-.c2[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c2.is-hover:not([disabled]),
-.c2:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c2.is-active,
-.c2.has-focus,
-.c2:active,
+.c2:hover,
 .c2:focus {
+  background-color: #0CD463;
   color: #FFFFFF;
-  outline: none;
 }
 
 .c0 {
@@ -143,6 +128,13 @@ exports[`GoToPage renders correctly 1`] = `
   width: 2rem;
   padding: 0.25rem;
   background-color: #353C44;
+  color: #8697A2;
+}
+
+.c0 > button:hover,
+.c0 > button:focus {
+  background-color: #0CD463;
+  color: #fff;
 }
 
 <form
@@ -160,12 +152,10 @@ exports[`GoToPage renders correctly 1`] = `
   />
   <button
     className="c2"
-    size="small"
     type="submit"
   >
     <svg
       className="c3"
-      color="trunks.100"
       height="1em"
       viewBox="0 0 12 20"
       width="1em"
@@ -184,7 +174,6 @@ exports[`GoToPage renders correctly 1`] = `
 exports[`GoToPage renders correctly with label 1`] = `
 .c3 {
   vertical-align: middle;
-  color: #8697A2;
 }
 
 .c1 {
@@ -250,7 +239,13 @@ exports[`GoToPage renders correctly with label 1`] = `
 }
 
 .c2 {
-  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -259,42 +254,22 @@ exports[`GoToPage renders correctly with label 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  grid-auto-flow: column;
-  min-height: 1.5rem;
-  font-family: inherit;
-  font-weight: 500;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid;
-  border-color: transparent;
-  border-radius: 6.25rem;
-  -webkit-transition: background-color 0.2s;
-  transition: background-color 0.2s;
-  color: #FFFFFF;
-  background: none;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.75rem;
   padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #232A33;
+  color: #8697A2;
+  -webkit-transition-property: color,background-color;
+  transition-property: color,background-color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
-.c2:disabled,
-.c2[disabled] {
-  cursor: not-allowed;
-  opacity: 0.35;
-}
-
-.c2.is-hover:not([disabled]),
-.c2:hover:not([disabled]) {
-  color: #FFFFFF;
-}
-
-.c2.is-active,
-.c2.has-focus,
-.c2:active,
+.c2:hover,
 .c2:focus {
+  background-color: #0CD463;
   color: #FFFFFF;
-  outline: none;
 }
 
 .c0 {
@@ -324,6 +299,13 @@ exports[`GoToPage renders correctly with label 1`] = `
   width: 2rem;
   padding: 0.25rem;
   background-color: #353C44;
+  color: #8697A2;
+}
+
+.c0 > button:hover,
+.c0 > button:focus {
+  background-color: #0CD463;
+  color: #fff;
 }
 
 <form
@@ -342,12 +324,10 @@ exports[`GoToPage renders correctly with label 1`] = `
   />
   <button
     className="c2"
-    size="small"
     type="submit"
   >
     <svg
       className="c3"
-      color="trunks.100"
       height="1em"
       viewBox="0 0 12 20"
       width="1em"
