@@ -8,6 +8,8 @@ const renderWithTheme = (component: JSX.Element) => (
 );
 
 import Pagination from '../Pagination';
+import GoToPage from '../GoToPage';
+import ChangePageSize from '../ChangePageSize';
 
 describe('Pagination', () => {
   test('renders correctly', () => {
@@ -17,9 +19,10 @@ describe('Pagination', () => {
           pageCount={20}
           pageRangeDisplayed={3}
           marginPagesDisplayed={1}
-          initialPage={11}
+          pageNumber={10}
           previousButtonLabel="Previous"
           nextButtonLabel="Next"
+          onChange={() => {}}
         />
       )
     );
@@ -27,17 +30,18 @@ describe('Pagination', () => {
     expect(pagination).toMatchSnapshot();
   });
 
-  test('renders correctly with "items per page" section', () => {
+  test('renders correctly with "page size" section', () => {
     const pagination = create(
       renderWithTheme(
         <Pagination
           pageCount={20}
           pageRangeDisplayed={3}
           marginPagesDisplayed={1}
-          initialPage={11}
+          pageNumber={10}
           previousButtonLabel="Previous"
           nextButtonLabel="Next"
-          itemsPerPageLabel={
+          onChange={() => {}}
+          pageSizeSection={
             <>
               Showing 1 – 10 <span>of 100</span>
             </>
@@ -56,11 +60,15 @@ describe('Pagination', () => {
           pageCount={20}
           pageRangeDisplayed={3}
           marginPagesDisplayed={1}
-          initialPage={11}
+          pageNumber={10}
           previousButtonLabel="Previous"
           nextButtonLabel="Next"
-          showGoToPageSection
-          goToPageLabel="Go to page"
+          onChange={() => {}}
+          goToPageSection={
+            <GoToPage minPage={1} maxPage={20} onChange={() => {}}>
+              Go to page
+            </GoToPage>
+          }
         />
       )
     );
@@ -68,8 +76,40 @@ describe('Pagination', () => {
     expect(pagination).toMatchSnapshot();
   });
 
-  describe('when renders with onPageChange handler', () => {
-    const onPageChangeMock = jest.fn();
+  test('renders correctly with "change page size" section', () => {
+    const pagination = create(
+      renderWithTheme(
+        <Pagination
+          pageCount={20}
+          pageRangeDisplayed={3}
+          marginPagesDisplayed={1}
+          pageNumber={10}
+          previousButtonLabel="Previous"
+          nextButtonLabel="Next"
+          onChange={() => {}}
+          changePageSizeSection={
+            <ChangePageSize
+              pageSize={20}
+              onChange={() => {}}
+              options={[
+                { label: '10', value: 10 },
+                { label: '20', value: 20 },
+                { label: '50', value: 50 },
+                { label: '100', value: 100 },
+              ]}
+            >
+              Rows: {20}
+            </ChangePageSize>
+          }
+        />
+      )
+    );
+
+    expect(pagination).toMatchSnapshot();
+  });
+
+  describe('when renders with onChange handler', () => {
+    const onChangeMock = jest.fn();
     let pagination: ReactTestRenderer;
 
     beforeAll(() => {
@@ -79,20 +119,17 @@ describe('Pagination', () => {
             pageCount={20}
             pageRangeDisplayed={3}
             marginPagesDisplayed={1}
-            initialPage={11}
-            disableInitialCallback
+            pageNumber={10}
             previousButtonLabel="Previous"
             nextButtonLabel="Next"
-            showGoToPageSection
-            goToPageLabel="Go to page"
-            onPageChange={onPageChangeMock}
+            onChange={onChangeMock}
           />
         )
       );
     });
 
     afterEach(() => {
-      onPageChangeMock.mockClear();
+      onChangeMock.mockClear();
     });
 
     describe('and then clicking on the previous button', () => {
@@ -106,7 +143,7 @@ describe('Pagination', () => {
       });
 
       test('calls onPageChange handler with previous page', () => {
-        expect(onPageChangeMock).toHaveBeenCalledWith({ selected: 10 });
+        expect(onChangeMock).toHaveBeenCalledWith(9);
       });
     });
 
@@ -119,7 +156,7 @@ describe('Pagination', () => {
       });
 
       test('calls onPageChange handler with next page', () => {
-        expect(onPageChangeMock).toHaveBeenCalledWith({ selected: 11 });
+        expect(onChangeMock).toHaveBeenCalledWith(10);
       });
     });
 
@@ -132,32 +169,12 @@ describe('Pagination', () => {
       });
 
       test('calls onPageChange handler with first page', () => {
-        expect(onPageChangeMock).toHaveBeenCalledWith({ selected: 0 });
+        expect(onChangeMock).toHaveBeenCalledWith(1);
       });
 
       test('renders "previous" button with class name "disabled"', () => {
         const previousButton = pagination.root.findAllByType('li')[0];
         expect(previousButton.props.className).toBe('previous disabled');
-      });
-    });
-
-    describe('and then changing page using go to page form', () => {
-      beforeAll(() => {
-        const goToPageInput = pagination.root.findByType('input');
-        act(() => goToPageInput.props.onChange({ target: { value: '20' } }));
-        const goToPageForm = pagination.root.findByType('form');
-        act(() => goToPageForm.props.onSubmit({ preventDefault: () => {} }));
-      });
-
-      test('calls onPageChangeMock handler with last page', () => {
-        expect(onPageChangeMock).toHaveBeenCalledWith({ selected: 19 });
-      });
-
-      test('renders "next" button with class name "disabled"', () => {
-        const nextButton = pagination.root.findAllByType('li')[
-          pagination.root.findAllByType('li').length - 1
-        ];
-        expect(nextButton.props.className).toBe('next disabled');
       });
     });
   });

@@ -11,14 +11,20 @@ import GoToPage from '../GoToPage';
 
 describe('GoToPage', () => {
   test('renders correctly', () => {
-    const goToPage = create(renderWithTheme(<GoToPage onChange={() => {}} />));
+    const goToPage = create(
+      renderWithTheme(<GoToPage minPage={1} maxPage={20} onChange={() => {}} />)
+    );
 
     expect(goToPage).toMatchSnapshot();
   });
 
   test('renders correctly with label', () => {
     const goToPage = create(
-      renderWithTheme(<GoToPage onChange={() => {}} label="Go to page" />)
+      renderWithTheme(
+        <GoToPage minPage={1} maxPage={20} onChange={() => {}}>
+          Go to page
+        </GoToPage>
+      )
     );
 
     expect(goToPage).toMatchSnapshot();
@@ -29,7 +35,11 @@ describe('GoToPage', () => {
     let goToPage: ReactTestRenderer;
 
     beforeAll(() => {
-      goToPage = create(renderWithTheme(<GoToPage onChange={onChangeMock} />));
+      goToPage = create(
+        renderWithTheme(
+          <GoToPage minPage={1} maxPage={20} onChange={onChangeMock} />
+        )
+      );
     });
 
     afterEach(() => {
@@ -39,13 +49,39 @@ describe('GoToPage', () => {
     describe('and then entering a valid number', () => {
       beforeAll(() => {
         const input = goToPage.root.findByType('input');
-        act(() => input.props.onChange({ target: { value: '123' } }));
+        act(() => input.props.onChange({ target: { value: '10' } }));
         const form = goToPage.root.findByType('form');
         act(() => form.props.onSubmit({ preventDefault: () => {} }));
       });
 
       test('calls onChange handler', () => {
-        expect(onChangeMock).toHaveBeenCalledWith(123);
+        expect(onChangeMock).toHaveBeenCalledWith(10);
+      });
+    });
+
+    describe('and then entering a number that less than minPage', () => {
+      beforeAll(() => {
+        const input = goToPage.root.findByType('input');
+        act(() => input.props.onChange({ target: { value: '0' } }));
+        const form = goToPage.root.findByType('form');
+        act(() => form.props.onSubmit({ preventDefault: () => {} }));
+      });
+
+      test('calls onChange handler with minPage', () => {
+        expect(onChangeMock).toHaveBeenCalledWith(1);
+      });
+    });
+
+    describe('and then entering a number that more than maxPage', () => {
+      beforeAll(() => {
+        const input = goToPage.root.findByType('input');
+        act(() => input.props.onChange({ target: { value: '21' } }));
+        const form = goToPage.root.findByType('form');
+        act(() => form.props.onSubmit({ preventDefault: () => {} }));
+      });
+
+      test('calls onChange handler with maxPage', () => {
+        expect(onChangeMock).toHaveBeenCalledWith(20);
       });
     });
 
