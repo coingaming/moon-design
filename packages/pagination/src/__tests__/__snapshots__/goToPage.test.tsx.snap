@@ -141,7 +141,6 @@ exports[`GoToPage renders correctly 1`] = `
   className="c0"
   onSubmit={[Function]}
 >
-   
   <input
     className="c1"
     onChange={[Function]}
@@ -313,7 +312,6 @@ exports[`GoToPage renders correctly with label 1`] = `
   onSubmit={[Function]}
 >
   Go to page
-   
   <input
     className="c1"
     onChange={[Function]}
