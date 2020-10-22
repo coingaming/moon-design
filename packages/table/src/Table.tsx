@@ -88,15 +88,24 @@ const TH = styled.div(({ theme: { color, radius, space } }) => ({
   },
   '.resizer': {
     display: 'inline-block',
-    width: rem(2),
+    width: rem(8),
     height: '100%',
     position: 'absolute',
     right: 0,
     top: 0,
-    transform: 'translateX(50%)',
     zIndex: 1,
+    '&::after': {
+      content: '""',
+      position: 'absolute',
+      width: '1px',
+      height: '70%',
+      bottom: '15%',
+      right: 0,
+    },
     '&.isResizing': {
-      background: color.piccolo[100],
+      '&::after': {
+        background: color.piccolo[100],
+      },
     },
   },
 }));
