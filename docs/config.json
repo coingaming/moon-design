@@ -6,6 +6,7 @@
     "assets",
     "calendar",
     "components",
+    "core",
     "fonts",
     "global",
     "pagination",
@@ -16,7 +17,9 @@
     "utils"
   ],
   "menuSections": [
+    "Themes",
     "Assets",
+    "Core",
     "Calendar",
     "Components",
     "Global",
@@ -24,7 +27,6 @@
     "Private",
     "Sidebar",
     "Table",
-    "Themes",
     "Utils"
   ]
 }
