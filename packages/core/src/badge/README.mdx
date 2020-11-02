@@ -1,0 +1,46 @@
+---
+name: Badge
+menu: Components
+route: /components/badge
+---
+
+# Badge
+
+Default size count and labeling component
+
+```jsx react-live
+<Badge color="bulma.100" backgroundColor="dodoria.100">
+  Active
+</Badge>
+```
+
+## Customize colours
+
+You coud simply use `color` and `backgroundColor` props
+
+```jsx react-live
+<Inline>
+  <Badge color="bulma.100" backgroundColor="piccolo.100">
+    Active
+  </Badge>
+  <Badge color="krillin.100" backgroundColor="gohan.100">
+    Active
+  </Badge>
+  <Badge color="bulma.100" backgroundColor="dodoria.100">
+    Active
+  </Badge>
+</Inline>
+```
+
+## Customize size
+
+You coud simply use `size` prop. By default size is xSmall. You can change it to Small.
+
+```jsx react-live
+<Inline>
+  <Badge backgroundColor="piccolo.100">xSmall size</Badge>
+  <Badge backgroundColor="piccolo.100" size="small">
+    small size
+  </Badge>
+</Inline>
+```
