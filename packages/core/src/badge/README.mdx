@@ -1,32 +1,44 @@
 ---
 name: Badge
-menu: Core
+menu: Design System
 route: /core/badge
 ---
 
 # Badge
 
-Default size count and labeling component
+Small count and labeling component.
+
+## Usage:
+
+```
+import { Badge } from '@heathmont/moon-core';
+```
 
 ```jsx react-live
-<Badge color="bulma.100" backgroundColor="dodoria.100">
-  Active
-</Badge>
+<Badge>Active</Badge>
 ```
 
 ## Customize colours
 
-You coud simply use `color` and `backgroundColor` props
+You could use `color` and `backgroundColor` props.
+
+Default colours are:
+
+```
+color="goten.100"
+
+backgroundColor="piccolo.100"
+```
 
 ```jsx react-live
 <Inline>
-  <Badge color="bulma.100" backgroundColor="piccolo.100">
+  <Badge color="goten.100" backgroundColor="piccolo.100">
     Active
   </Badge>
   <Badge color="krillin.100" backgroundColor="gohan.100">
     Active
   </Badge>
-  <Badge color="bulma.100" backgroundColor="dodoria.100">
+  <Badge color="goten.100" backgroundColor="dodoria.100">
     Active
   </Badge>
 </Inline>
@@ -34,13 +46,21 @@ You coud simply use `color` and `backgroundColor` props
 
 ## Customize size
 
-You coud simply use `size` prop. By default size is xSmall. You can change it to Small.
+You could use `size` prop.
+
+By default size is `default`.
+
+Possible sizes are `small` and `default`.
+
+```
+size= "small" | "default"
+
+```
 
 ```jsx react-live
 <Inline>
-  <Badge backgroundColor="piccolo.100">xSmall size</Badge>
-  <Badge backgroundColor="piccolo.100" size="small">
-    small size
-  </Badge>
+  <Badge size="small">Small</Badge>
+  <Badge size="default">Default</Badge>
+  <Badge>Default</Badge>
 </Inline>
 ```
