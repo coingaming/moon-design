@@ -6,9 +6,38 @@ route: /components/badge
 
 # Badge
 
+### ⚠️ This component is deprecated.
+
+It's still available but planned for removal.
+
+Use design system [Badge](/core/badge) instead.
+
+## Migration guide
+
+### Set proper size
+
+Set `size="small"` if size wasn't set.
+
+```
+<Badge>Active</Badge> -> <Badge size="small">Active</Badge>
+```
+
+### Change size props
+
+`xsmall` -> `small`
+
+`small` -> `default`
+
+```
+<Badge size="xsmall">Example</Badge> -> <Badge size="small">Example</Badge>
+<Badge size="small">Example</Badge> -> <Badge>Example</Badge>
+```
+
+## Outdated documentation
+
 Default size count and labeling component
 
-```jsx react-live
+```
 <Badge color="bulma.100" backgroundColor="dodoria.100">
   Active
 </Badge>
@@ -18,7 +47,7 @@ Default size count and labeling component
 
 You coud simply use `color` and `backgroundColor` props
 
-```jsx react-live
+```
 <Inline>
   <Badge color="bulma.100" backgroundColor="piccolo.100">
     Active
@@ -36,7 +65,7 @@ You coud simply use `color` and `backgroundColor` props
 
 You coud simply use `size` prop. By default size is xSmall. You can change it to Small.
 
-```jsx react-live
+```
 <Inline>
   <Badge backgroundColor="piccolo.100">xSmall size</Badge>
   <Badge backgroundColor="piccolo.100" size="small">
