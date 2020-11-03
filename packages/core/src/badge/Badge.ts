@@ -5,7 +5,7 @@ import { ColorProps } from '@heathmont/moon-themes';
 export type BadgeProps = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
-  size?: 'xsmall' | 'small';
+  size?: 'small' | 'default';
 };
 
 const Badge = styled.span<BadgeProps>(
@@ -17,19 +17,27 @@ const Badge = styled.span<BadgeProps>(
     letterSpacing: rem(1), // TODO
   }),
   ({ size }) => ({
-    padding: size === 'small' ? `0 ${rem(8)}` : `0 ${rem(4)}`,
-    fontSize: size === 'small' ? rem(10) : rem(8),
-    lineHeight: size === 'small' ? rem(16) : rem(12),
+    padding: size === 'small' ? `0 ${rem(4)}` : `0 ${rem(8)}`,
+    fontSize: size === 'small' ? rem(8) : rem(10),
+    lineHeight: size === 'small' ? rem(12) : rem(16),
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({
-    color: themed('color', color)(theme),
+    color: color ? themed('color', color)(theme) : theme.color.goten[100],
     backgroundColor: themed('color', backgroundColor)(theme),
   })
 );
 
 Badge.defaultProps = {
-  size: 'xsmall',
+  size: 'default',
+  color: 'goten.100',
+  backgroundColor: 'piccolo.100',
 };
+
+/*
+default
+color - goten
+backgroundColor - piccolo.100
+*/
 
 export default Badge;
