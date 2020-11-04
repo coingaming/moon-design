@@ -56,7 +56,7 @@ The Checkbox input can be checked by passing the `checked` prop.
 
 You could use `color` prop to customize label.
 
-Default colours is `trunks.100`:
+Default colour is `trunks.100`:
 
 ```
 color="trunks.100"
@@ -64,7 +64,14 @@ color="trunks.100"
 ```
 
 ```jsx react-live
-<Checkbox label="Description of the checkbox's purpose." color="goten.100" />
+<Stack>
+  <Checkbox label="Description of the checkbox's purpose." />
+  <Checkbox label="Description of the checkbox's purpose." color="goten.100" />
+  <Checkbox
+    label="Description of the checkbox's purpose."
+    color="piccolo.100"
+  />
+</Stack>
 ```
 
 ### aria-label
