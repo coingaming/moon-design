@@ -5,7 +5,7 @@ import { ColorProps } from '@heathmont/moon-themes';
 export type BadgeProps = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
-  size?: 'small' | 'default';
+  size?: 'small';
 };
 
 const Badge = styled.span<BadgeProps>(
@@ -29,7 +29,6 @@ const Badge = styled.span<BadgeProps>(
 );
 
 Badge.defaultProps = {
-  size: 'default',
   color: 'goten.100',
   backgroundColor: 'piccolo.100',
 };
