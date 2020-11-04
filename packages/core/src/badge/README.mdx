@@ -1,0 +1,61 @@
+---
+name: Badge
+menu: Design System
+route: /core/badge
+---
+
+# Badge
+
+Small count and labeling component.
+
+## Usage:
+
+```
+import { Badge } from '@heathmont/moon-core';
+```
+
+```jsx react-live
+<Badge>Active</Badge>
+```
+
+## Customize colours
+
+You could use `color` and `backgroundColor` props.
+
+Default colours are:
+
+```
+color="goten.100"
+
+backgroundColor="piccolo.100"
+```
+
+```jsx react-live
+<Inline>
+  <Badge color="goten.100" backgroundColor="piccolo.100">
+    Active
+  </Badge>
+  <Badge color="krillin.100" backgroundColor="gohan.100">
+    Active
+  </Badge>
+  <Badge color="goten.100" backgroundColor="dodoria.100">
+    Active
+  </Badge>
+</Inline>
+```
+
+## Customize size
+
+You could use `size="small"` prop.
+
+```
+size= "small" | undefined
+
+```
+
+```jsx react-live
+<Inline>
+  <Badge size="small">Small</Badge>
+  <Badge>Default</Badge>
+</Inline>
+```
