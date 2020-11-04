@@ -14,7 +14,9 @@ Use design system [Badge](/core/badge) instead.
 
 ## Migration guide
 
-### Set proper size
+### 1. Set proper size
+
+Default size was increased.
 
 Set `size="small"` if size wasn't set.
 
@@ -22,11 +24,11 @@ Set `size="small"` if size wasn't set.
 <Badge>Active</Badge> -> <Badge size="small">Active</Badge>
 ```
 
-### Change size props
+### 2. Change size props
 
 `xsmall` -> `small`
 
-`small` -> `default`
+`small` -> `void`
 
 ```
 <Badge size="xsmall">Example</Badge> -> <Badge size="small">Example</Badge>
