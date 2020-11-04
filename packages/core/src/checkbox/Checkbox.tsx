@@ -1,45 +1,11 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import { uniqueId, inlineSvg, rem, hideVisually } from '@heathmont/moon-utils';
-import { Theme } from '@heathmont/moon-themes';
 
 import { CheckboxIcon } from './private/icon';
 
-const checkboxSize = (theme: Theme) => theme.space.default;
-const checkboxGap = (theme: Theme) => theme.space.xsmall * 3;
-
-const inputBorderWidth = ({ borderWidth }: Theme) => borderWidth;
-
 type LabelText = string | JSX.Element[] | JSX.Element;
 
-type ColorValue = string | undefined;
-
-type InputColors = {
-  label: ColorValue;
-  text: ColorValue;
-  icon: ColorValue;
-  placeholder: ColorValue;
-  borderDefault: ColorValue;
-  borderHover: ColorValue;
-  background: ColorValue;
-  disabled: ColorValue;
-  [key: string]: ColorValue;
-};
-
-const inputColors = (key: keyof InputColors) => ({ color }: Theme) => {
-  const themedColor: InputColors = {
-    label: color.trunks[100],
-    text: color.bulma[100],
-    icon: color.trunks[100],
-    placeholder: color.trunks[100],
-    borderDefault: color.beerus[100],
-    borderHover: color.goku[40],
-    background: color.gohan[100],
-    disabled: color.goku[80],
-  };
-
-  return themedColor[key];
-};
 /**
  * Checkbox Container
  *
@@ -48,11 +14,11 @@ const inputColors = (key: keyof InputColors) => ({ color }: Theme) => {
  *
  * 1. Prevents the label collapsing without text
  */
-const CheckboxLabel = styled.label(({ theme }) => ({
+const Label = styled.label(({ theme }) => ({
   display: 'inline-block',
   position: 'relative',
   alignItems: 'center',
-  minHeight: rem(checkboxSize(theme)) /* [1] */,
+  minHeight: theme.space.default /* [1] */,
 }));
 
 /**
@@ -62,23 +28,23 @@ const CheckboxLabel = styled.label(({ theme }) => ({
  * caption to create a completely bespoke checkbox.
  * Interaction styles are handled by the prior adjacent hidden `input`.
  */
-const CheckboxCaption = styled.span(({ theme }) => ({
+const Caption = styled.span(({ theme }) => ({
   display: 'inline-block',
-  marginLeft: rem(checkboxSize(theme) + checkboxGap(theme)),
-  color: inputColors('label')(theme),
+  marginLeft: rem(theme.space.default + theme.space.xsmall * 3),
+  color: theme.color.trunks[100],
   '&::before, &::after': {
     content: '""',
     position: 'absolute',
-    width: rem(checkboxSize(theme)),
-    height: rem(checkboxSize(theme)),
-    top: rem(inputBorderWidth(theme)),
+    width: rem(theme.space.default),
+    height: rem(theme.space.default),
+    top: theme.borderWidth,
     left: 0,
     transitionDuration: `${theme.transitionDuration.default}s`,
     transitionTimingFunction: 'ease',
   },
   /* Pseudo Checkbox Circle */
   '&::before': {
-    backgroundColor: inputColors('borderHover')(theme),
+    backgroundColor: theme.color.goku[40],
     borderRadius: '50%',
     opacity: 0,
     transform: 'none',
@@ -100,7 +66,7 @@ const CheckboxCaption = styled.span(({ theme }) => ({
  * Hides the default input and handles interaction styles of the custom pseudo
  * checkbox on CheckboxCaption.
  */
-const CheckboxInput = styled.input(({ theme }) => ({
+const Input = styled.input(({ theme }) => ({
   padding: rem(40),
   ...hideVisually(),
   '& + span': {
@@ -155,8 +121,8 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
   const { disabled = false, ariaLabel, id, label, ...inputProps } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
   return (
-    <CheckboxLabel htmlFor={autoId}>
-      <CheckboxInput
+    <Label htmlFor={autoId}>
+      <Input
         id={autoId}
         disabled={disabled}
         type="checkbox"
@@ -164,8 +130,8 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
         ref={ref}
         {...inputProps}
       />
-      <CheckboxCaption>{label}</CheckboxCaption>
-    </CheckboxLabel>
+      <Caption>{label}</Caption>
+    </Label>
   );
 });
 
