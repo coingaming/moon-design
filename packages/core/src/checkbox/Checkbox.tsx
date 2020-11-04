@@ -1,6 +1,13 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
-import { uniqueId, inlineSvg, rem, hideVisually } from '@heathmont/moon-utils';
+import {
+  uniqueId,
+  inlineSvg,
+  rem,
+  hideVisually,
+  themed,
+} from '@heathmont/moon-utils';
+import { ColorProps } from '@heathmont/moon-themes';
 
 import { CheckboxIcon } from './private/icon';
 
@@ -28,10 +35,10 @@ const Label = styled.label(({ theme }) => ({
  * caption to create a completely bespoke checkbox.
  * Interaction styles are handled by the prior adjacent hidden `input`.
  */
-const Caption = styled.span(({ theme }) => ({
+const Caption = styled.span(({ color, theme }) => ({
   display: 'inline-block',
   marginLeft: rem(theme.space.default + theme.space.xsmall * 3),
-  color: theme.color.trunks[100],
+  color: color ? themed('color', color)(theme) : theme.color.trunks[100],
   '&::before, &::after': {
     content: '""',
     position: 'absolute',
@@ -115,10 +122,18 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: LabelText;
   ariaLabel?: string;
   disabled?: boolean;
+  color?: ColorProps;
 };
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
-  const { disabled = false, ariaLabel, id, label, ...inputProps } = props;
+  const {
+    disabled = false,
+    ariaLabel,
+    id,
+    label,
+    color,
+    ...inputProps
+  } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
   return (
     <Label htmlFor={autoId}>
@@ -130,7 +145,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
         ref={ref}
         {...inputProps}
       />
-      <Caption>{label}</Caption>
+      <Caption color={color}>{label}</Caption>
     </Label>
   );
 });
