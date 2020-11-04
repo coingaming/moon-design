@@ -12,6 +12,8 @@ export { default as em } from './em/em';
 export * from './em/em';
 export { default as focus } from './focus/focus';
 export * from './focus/focus';
+export { default as hideVisually } from './hideVisually/hideVisually';
+export * from './hideVisually/hideVisually';
 export { default as inlineSvg } from './inlineSvg/inlineSvg';
 export * from './inlineSvg/inlineSvg';
 export { default as mq } from './mq/mq';
