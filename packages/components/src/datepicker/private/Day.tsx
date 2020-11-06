@@ -36,7 +36,7 @@ const DayStyled = styled.div<DayStyledProps>(
     (isStartEdge || isEndEdge) && {
       background: theme.color.piccolo[100],
       borderRadius: rem(4),
-      color: theme.color.bulma[100],
+      color: theme.color.goten[100],
     },
     isToday && {
       fontWeight: 'bold',
