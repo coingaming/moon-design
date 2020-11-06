@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import {
@@ -10,47 +10,53 @@ import {
 import { useSticky } from 'react-table-sticky';
 import { rem } from '@heathmont/moon-utils';
 
-const TableWrapper = styled.div(({ theme: { color, radius } }) => ({
-  /**
-   * Scroll Behavior
-   * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
-   * 2. Auto-hide scrollbars on IE/Edge.
-   * 3. Create 'padding' around the scrollbar.
-   */
-  WebkitOverflowScrolling: 'touch',
-  scrollbarWidth: 'none' /* [1] */,
-  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
-  '::-webkit-scrollbar': {
-    width: 12,
-    height: 12,
-    cursor: 'pointer',
-  },
-  '::-webkit-scrollbar-thumb': {
-    backgroundColor: 'transparent',
-    backgroundClip: 'content-box' /* [3] */,
-    borderRadius: rem(radius.largest),
-    border: '3px solid transparent' /* [3] */,
-  },
-  ':hover::-webkit-scrollbar-thumb': {
-    backgroundColor: color.goku[40],
-  },
-  '&.sticky': {
-    overflow: 'scroll',
-    '.body': {
-      position: 'relative',
-      zIndex: 0,
+const TableWrapper = styled.div<{ isScrollingLeft: boolean }>(
+  ({ theme: { color, radius }, isScrollingLeft }) => ({
+    /**
+     * Scroll Behavior
+     * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
+     * 2. Auto-hide scrollbars on IE/Edge.
+     * 3. Create 'padding' around the scrollbar.
+     */
+    WebkitOverflowScrolling: 'touch',
+    scrollbarWidth: 'none' /* [1] */,
+    '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
+    '::-webkit-scrollbar': {
+      width: 12,
+      height: 12,
+      cursor: 'pointer',
     },
-    '[data-sticky-td]': {
-      position: 'sticky',
+    '::-webkit-scrollbar-thumb': {
+      backgroundColor: 'transparent',
+      backgroundClip: 'content-box' /* [3] */,
+      borderRadius: rem(radius.largest),
+      border: '3px solid transparent' /* [3] */,
     },
-    '[data-sticky-last-left-td]': {
-      boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+    ':hover::-webkit-scrollbar-thumb': {
+      backgroundColor: color.goku[40],
     },
-    '[data-sticky-first-right-td]': {
-      boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+    '&.sticky': {
+      overflow: 'scroll',
+      '.body': {
+        position: 'relative',
+        zIndex: 0,
+      },
+      '[data-sticky-td]': {
+        position: 'sticky',
+      },
+      '[data-sticky-first-right-td]': {
+        boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+      },
+      ...(isScrollingLeft
+        ? {
+            '[data-sticky-last-left-td]': {
+              boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+            },
+          }
+        : {}),
     },
-  },
-}));
+  })
+);
 
 const Header = styled.div(({ theme: { color, radius } }) => ({
   position: 'sticky',
@@ -173,10 +179,16 @@ const Table: React.FC<any> = ({
     useExpanded
   );
 
+  const [isScrollingLeft, setIsScrollingLeft] = useState(false);
+  const handleScroll = (event: React.UIEvent<HTMLDivElement>) =>
+    setIsScrollingLeft((event.target as HTMLDivElement).scrollLeft !== 0);
+
   return (
     <TableWrapper
       {...getTableProps()}
+      onScroll={handleScroll}
       className="sticky"
+      isScrollingLeft={isScrollingLeft}
       style={{ width, height, maxWidth, maxHeight }}
     >
       <Header>
