@@ -10,53 +10,59 @@ import {
 import { useSticky } from 'react-table-sticky';
 import { rem } from '@heathmont/moon-utils';
 
-const TableWrapper = styled.div<{ isScrollingLeft: boolean }>(
-  ({ theme: { color, radius }, isScrollingLeft }) => ({
-    /**
-     * Scroll Behavior
-     * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
-     * 2. Auto-hide scrollbars on IE/Edge.
-     * 3. Create 'padding' around the scrollbar.
-     */
-    WebkitOverflowScrolling: 'touch',
-    scrollbarWidth: 'none' /* [1] */,
-    '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
-    '::-webkit-scrollbar': {
-      width: 12,
-      height: 12,
-      cursor: 'pointer',
+const TableWrapper = styled.div<{
+  isScrolledToLeft: boolean;
+  isScrolledToRight: boolean;
+}>(({ theme: { color, radius }, isScrolledToLeft, isScrolledToRight }) => ({
+  /**
+   * Scroll Behavior
+   * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
+   * 2. Auto-hide scrollbars on IE/Edge.
+   * 3. Create 'padding' around the scrollbar.
+   */
+  WebkitOverflowScrolling: 'touch',
+  scrollbarWidth: 'none' /* [1] */,
+  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
+  '::-webkit-scrollbar': {
+    width: 12,
+    height: 12,
+    cursor: 'pointer',
+  },
+  '::-webkit-scrollbar-thumb': {
+    backgroundColor: 'transparent',
+    backgroundClip: 'content-box' /* [3] */,
+    borderRadius: rem(radius.largest),
+    border: '3px solid transparent' /* [3] */,
+  },
+  ':hover::-webkit-scrollbar-thumb': {
+    backgroundColor: color.goku[40],
+  },
+  '&.sticky': {
+    overflow: 'scroll',
+    '.body': {
+      position: 'relative',
+      zIndex: 0,
     },
-    '::-webkit-scrollbar-thumb': {
-      backgroundColor: 'transparent',
-      backgroundClip: 'content-box' /* [3] */,
-      borderRadius: rem(radius.largest),
-      border: '3px solid transparent' /* [3] */,
+    '[data-sticky-td]': {
+      position: 'sticky',
     },
-    ':hover::-webkit-scrollbar-thumb': {
-      backgroundColor: color.goku[40],
-    },
-    '&.sticky': {
-      overflow: 'scroll',
-      '.body': {
-        position: 'relative',
-        zIndex: 0,
-      },
-      '[data-sticky-td]': {
-        position: 'sticky',
-      },
-      '[data-sticky-first-right-td]': {
-        boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-      },
-      ...(isScrollingLeft
-        ? {
-            '[data-sticky-last-left-td]': {
-              boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-            },
-          }
-        : {}),
-    },
-  })
-);
+    ...(!isScrolledToLeft
+      ? {
+          '[data-sticky-last-left-td]': {
+            boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+          },
+        }
+      : {}),
+
+    ...(!isScrolledToRight
+      ? {
+          '[data-sticky-first-right-td]': {
+            boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+          },
+        }
+      : {}),
+  },
+}));
 
 const Header = styled.div(({ theme: { color, radius } }) => ({
   position: 'sticky',
@@ -178,17 +184,26 @@ const Table: React.FC<any> = ({
     useSticky,
     useExpanded
   );
+  const [isScrolledToLeft, setIsScrolledToLeft] = useState(false);
+  const [isScrolledToRight, setIsScrolledToRight] = useState(false);
 
-  const [isScrollingLeft, setIsScrollingLeft] = useState(false);
-  const handleScroll = (event: React.UIEvent<HTMLDivElement>) =>
-    setIsScrollingLeft((event.target as HTMLDivElement).scrollLeft !== 0);
+  const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
+    const target = event.target as HTMLDivElement;
+    if (!target) return;
+
+    setIsScrolledToLeft(target.scrollLeft === 0);
+    setIsScrolledToRight(
+      target.scrollLeft + target.clientWidth === target.scrollWidth
+    );
+  };
 
   return (
     <TableWrapper
       {...getTableProps()}
       onScroll={handleScroll}
       className="sticky"
-      isScrollingLeft={isScrollingLeft}
+      isScrolledToLeft={isScrolledToLeft}
+      isScrolledToRight={isScrolledToRight}
       style={{ width, height, maxWidth, maxHeight }}
     >
       <Header>
