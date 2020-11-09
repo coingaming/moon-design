@@ -9,6 +9,7 @@ import * as Pagination from '@heathmont/moon-pagination';
 import * as Sidebar from '@heathmont/moon-sidebar';
 import * as Calendar from '@heathmont/moon-calendar';
 import * as Table from '@heathmont/moon-table';
+import * as Core from '@heathmont/moon-core';
 import { useTheme } from '@heathmont/moon-themes';
 
 import { prismTheme } from './prism';
@@ -59,6 +60,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
           scope={{
             ...Assets,
             ...Components,
+            ...Core,
             ...Utils,
             ...Pagination,
             ...Sidebar,
