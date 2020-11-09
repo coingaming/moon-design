@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
+
+
+### Bug Fixes
+
+* change value type to string to avoid leading zero ([705dc21](https://github.com/coingaming/sportsbet-design/commit/705dc21dd5b9e815e56c3faaf195eaf7eb3cadb7))
+* default badge size ([2e8d12b](https://github.com/coingaming/sportsbet-design/commit/2e8d12ba97659abbe6ae98f9cc26e4eea714977b))
+* fix console warnings ([d1be33a](https://github.com/coingaming/sportsbet-design/commit/d1be33ab902dae0e07c1916853b080d4326ac017))
+* fix datepicker day color for light themes ([faf0171](https://github.com/coingaming/sportsbet-design/commit/faf0171624fe6b460007a0d20817e553db57f685))
+
+
+### Features
+
+* move badge ([739022d](https://github.com/coingaming/sportsbet-design/commit/739022dc79e3fdba08bc35f80ce4c0f482032ca4))
+
+
+
+
+
 ## [2.49.1](https://github.com/coingaming/sportsbet-design/compare/v2.49.0...v2.49.1) (2020-10-21)
 
 
