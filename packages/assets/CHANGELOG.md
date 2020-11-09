@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
+
+
+### Features
+
+* add hub88 logos ([0c7f708](https://github.com/coingaming/sportsbet-design/commit/0c7f708f01cc442f6b5ad9ef5fab585b7d71f2d6))
+
+
+
+
+
 # [2.49.0](https://github.com/coingaming/sportsbet-design/compare/v2.48.0...v2.49.0) (2020-10-20)
 
 
