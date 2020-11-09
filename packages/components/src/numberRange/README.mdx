@@ -14,18 +14,27 @@ Filter for numerical "more than" and "less than"
 ## Usage
 
 ```jsx react-live
-<NumberRange
-  text="Enter a minimum, maximum or range limit"
-  lteLabel="Max"
-  gteLabel="Min"
-  value={{ gte: 16, lte: 20 }}
-  onChange={value => console.log(value)}
-  lteDisabled={false}
-  lteError={false}
-  gteDisabled={false}
-  gteError={false}
-  maxWidth={246}
-/>
+() => {
+  const [value, setValue] = React.useState({ gte: 16, lte: 20 });
+
+  return (
+    <NumberRange
+      text="Enter a minimum, maximum or range limit"
+      lteLabel="Max"
+      gteLabel="Min"
+      value={value}
+      onChange={newValue => {
+        console.log(newValue);
+        setValue(newValue);
+      }}
+      lteDisabled={false}
+      lteError={false}
+      gteDisabled={false}
+      gteError={false}
+      maxWidth={246}
+    />
+  );
+};
 ```
 
 ## State
