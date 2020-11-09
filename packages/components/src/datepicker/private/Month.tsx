@@ -94,12 +94,13 @@ export const Month: React.FC<MonthProps> = ({
         {monthLabel}&nbsp;&nbsp;{year}
       </MonthYearLabel>
       <Days>
-        {weekDayLabels.map(dayLabel => (
-          <DayName key={dayLabel}>{dayLabel}</DayName>
+        {weekDayLabels.map((dayLabel, weekIndex) => (
+          // eslint-disable-next-line react/no-array-index-key
+          <DayName key={`${dayLabel}-${weekIndex}`}>{dayLabel}</DayName>
         ))}
         {monthDays.map(day => (
           <Day
-            key={day.date}
+            key={day.getTime()}
             onDayClick={onDayClick}
             onMouseEnter={onMouseEnter}
             date={day}

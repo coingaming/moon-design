@@ -58,7 +58,7 @@ const NumberRange: React.FC<Props> = ({
         <TextInput
           type="number"
           label={gteLabel}
-          value={value.gte}
+          value={String(value.gte)}
           disabled={gteDisabled}
           onChange={e =>
             onChange({
@@ -71,7 +71,7 @@ const NumberRange: React.FC<Props> = ({
         <TextInput
           type="number"
           label={lteLabel}
-          value={value.lte}
+          value={String(value.lte)}
           disabled={lteDisabled}
           onChange={e =>
             onChange({

@@ -6,7 +6,9 @@ export const CollapseTarget = styled.div<{ isOpen: boolean }>(
     fontSize: rem(space.small),
     padding: rem(space.small),
     background: color.gohan[100],
-    transition: `opacity ${transitionDuration.slow}s ease-in-out`,
+    transitionProperty: 'opacity color',
+    transitionTimingFunction: 'ease-in-out',
+    transitionDuration: `${transitionDuration.slow}s`,
     borderRadius: '100%',
     display: 'flex',
     justifyContent: 'center',
@@ -14,6 +16,10 @@ export const CollapseTarget = styled.div<{ isOpen: boolean }>(
     cursor: 'pointer',
     opacity: isOpen ? 0 : 1,
     boxShadow,
+    color: color.trunks[100],
+    '&:hover': {
+      color: color.piccolo[100],
+    },
     ...(isOpen
       ? {
           position: 'absolute',
