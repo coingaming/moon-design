@@ -1,0 +1,41 @@
+---
+name: hideVisually
+menu: Utils
+route: /utils/hideVisually
+---
+
+# hideVisually
+
+CSS to hide content visually but remain accessible to screen readers.
+
+## Usage:
+
+```
+import { hideVisually } from '@heathmont/moon-utils';
+```
+
+```jsx
+const div = styled.div({
+  ...hideVisually(),
+});
+
+const div = styled.div`
+  ${hideVisually()};
+`;
+```
+
+## CSS as JS Output
+
+```
+'div': {
+  'border': '0',
+  'clip': 'rect(0 0 0 0)',
+  'height': '1px',
+  'margin': '-1px',
+  'overflow': 'hidden',
+  'padding': '0',
+  'position': 'absolute',
+  'whiteSpace': 'nowrap',
+  'width': '1px',
+}
+```

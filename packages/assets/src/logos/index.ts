@@ -4,6 +4,10 @@
 
 export { default as LogoBtcxe } from './LogoBtcxe';
 export * from './LogoBtcxe';
+export { default as LogoHub88 } from './LogoHub88';
+export * from './LogoHub88';
+export { default as LogoHub88Full } from './LogoHub88Full';
+export * from './LogoHub88Full';
 export { default as LogoMissions } from './LogoMissions';
 export * from './LogoMissions';
 export { default as LogoSportsbet } from './LogoSportsbet';
