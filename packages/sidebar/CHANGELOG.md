@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
+
+
+### Bug Fixes
+
+* fix hover color ([a9cfc94](https://github.com/coingaming/sportsbet-design/commit/a9cfc9408798a0500651a1eb44b72219cefa4907))
+
+
+
+
+
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-sidebar
