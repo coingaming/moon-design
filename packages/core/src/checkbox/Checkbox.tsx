@@ -1,155 +1,119 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
-import {
-  uniqueId,
-  inlineSvg,
-  rem,
-  hideVisually,
-  themed,
-} from '@heathmont/moon-utils';
-import { ColorProps } from '@heathmont/moon-themes';
+import { inlineSvg, rem, hideVisually } from '@heathmont/moon-utils';
 
 import { CheckboxIcon } from './private/icon';
 
-type LabelText = string | JSX.Element[] | JSX.Element;
+const BORDER_WIDTH = 2;
 
-/**
- * Checkbox Container
- *
- * Behaves as the outer interactive element of our checkbox input and label
- * content (set inside an additional `span`).
- *
- * 1. Prevents the label collapsing without text
- */
-const Label = styled.label(({ theme }) => ({
-  display: 'inline-block',
-  position: 'relative',
-  alignItems: 'center',
-  minHeight: theme.space.default /* [1] */,
-}));
+// Hide checkbox visually but remain accessible to screen readers.
+export const CheckboxHiddenInput = styled.input.attrs({ type: 'checkbox' })(
+  ({ theme }) => ({
+    ...hideVisually(),
+    '&:checked + figure::after': {
+      backgroundColor: theme.color.piccolo[100],
+      backgroundSize: rem(10),
+    },
+    '&:hover:enabled, &:focus:enabled': {
+      /* Show the Pseudo Checkbox Circle */
+      '& + figure::before': {
+        opacity: 0.2,
+        transform: 'scale(2)',
+        backgroundColor: theme.color.trunks[100],
+        transitionProperty: 'background-color, transform, opacity',
+        willChange: 'transform, opacity',
+      },
+      '&:checked + figure::before': {
+        opacity: 0.1,
+        backgroundColor: theme.color.piccolo[100] /* [1] */,
+      },
+      /* Adjust the Pseudo Checkbox */
+      '&:not(:checked) + figure::after': {
+        borderColor: theme.color.trunks[100],
+      },
+    },
+    '&:disabled ~ *': {
+      opacity: '0.5',
+      cursor: 'not-allowed',
+    },
+  })
+);
 
-/**
- * Checkbox Caption
- *
- * As styling of native checkboxes is limited, we use pseudo elements on the
- * caption to create a completely bespoke checkbox.
- * Interaction styles are handled by the prior adjacent hidden `input`.
- */
-const Caption = styled.span(({ color, theme }) => ({
-  display: 'inline-block',
-  marginLeft: rem(theme.space.default + theme.space.xsmall * 3),
-  color: color ? themed('color', color)(theme) : theme.color.trunks[100],
-  '&::before, &::after': {
-    content: '""',
-    position: 'absolute',
+export const CheckboxStyledInput: React.FC<any> = styled.figure(
+  ({ theme }) => ({
+    position: 'relative',
+    display: 'inline-block',
+    boxSizing: 'border-box',
     width: rem(theme.space.default),
     height: rem(theme.space.default),
-    top: theme.borderWidth,
-    left: 0,
-    transitionDuration: `${theme.transitionDuration.default}s`,
-    transitionTimingFunction: 'ease',
-  },
-  /* Pseudo Checkbox Circle */
-  '&::before': {
-    backgroundColor: theme.color.goku[40],
-    borderRadius: '50%',
-    opacity: 0,
-    transform: 'none',
-    transitionProperty: 'background-color, transform, opacity',
-    willChange: 'transform, opacity',
-  },
-  /* Psuedo Checkbox */
-  '&::after': {
-    border: `${rem(2)} solid ${theme.color.trunks[100]}`,
+    border: `${rem(BORDER_WIDTH)} solid ${theme.color.trunks[100]}`,
     borderRadius: rem(2),
-    backgroundColor: 'transparent',
-    transitionProperty: 'border-color',
-  },
-}));
-
-/**
- * Checkbox Input
- *
- * Hides the default input and handles interaction styles of the custom pseudo
- * checkbox on CheckboxCaption.
- */
-const Input = styled.input(({ theme }) => ({
-  padding: rem(40),
-  ...hideVisually(),
-  '& + span': {
-    cursor: 'pointer',
+    transitionDuration: `${theme.transitionDuration.default}s`,
+    /* Common styles for the Pseudo Checkbox Circle and "check" */
+    '&::before, &::after': {
+      content: '""',
+      position: 'absolute',
+      width: rem(theme.space.default),
+      height: rem(theme.space.default),
+      top: rem(-BORDER_WIDTH),
+      left: rem(-BORDER_WIDTH),
+      transitionTimingFunction: 'ease',
+    },
+    /* Show the Pseudo Checkbox Circle */
+    '&::before': {
+      transitionDuration: `${theme.transitionDuration.default}s`,
+      borderRadius: '50%',
+    },
+    /* Add the "check" to the Pseudo Checkbox */
     '&::after': {
+      display: 'inline-block',
       backgroundImage: inlineSvg(
         <CheckboxIcon color={theme.color.goten[100]} />
       ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
+      borderRadius: rem(2),
+      backgroundColor: 'transparent',
       backgroundSize: 0,
+      transitionProperty: 'border-color',
     },
-  },
-  '&:hover:enabled, &:focus:enabled': {
-    /* Show the Pseudo Checkbox Circle */
-    '& + span::before': {
-      opacity: 0.5,
-      transform: 'scale(2)',
-    },
-    '&:checked + span::before': {
-      opacity: 0.1,
-      backgroundColor: theme.color.piccolo[100] /* [1] */,
-    },
-    /* Adjust the Pseudo Checkbox */
-    '&:not(:checked) + span::after': {
-      borderColor: theme.color.trunks[100],
-    },
-  },
-  /* Add the "check" to the Pseudo Checkbox */
-  '&:checked + span::after': {
-    backgroundColor: theme.color.piccolo[100],
-    backgroundSize: rem(10),
-    borderColor: theme.color.piccolo[100],
-  },
-  '&[disabled] + span': {
-    opacity: 0.5,
-    cursor: 'not-allowed',
-  },
+  })
+);
+
+export const CheckboxLabel = styled.label(({ theme }) => ({
+  display: 'flex',
+  flexDirection: 'row',
+  gap: rem(theme.space.small),
+  width: 'fit-content',
 }));
 
-/**
- * Checkbox Component
- */
-type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
-  id?: string;
-  label?: LabelText;
-  ariaLabel?: string;
+export const CheckboxCaption = styled.span(({ theme }) => ({
+  color: theme.color.trunks[100],
+}));
+
+interface CheckboxProps {
   disabled?: boolean;
-  color?: ColorProps;
-};
+  ariaLabel?: string;
+  caption?: JSX.Element | string;
+  id?: string;
+}
 
-const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
-  const {
-    disabled = false,
-    ariaLabel,
-    id,
-    label,
-    color,
-    ...inputProps
-  } = props;
-  const autoId = id || `Checkbox-${uniqueId()}`;
-  return (
-    <Label htmlFor={autoId}>
-      <Input
-        id={autoId}
-        disabled={disabled}
-        type="checkbox"
-        aria-label={ariaLabel}
-        ref={ref}
-        {...inputProps}
-      />
-      <Caption color={color}>{label}</Caption>
-    </Label>
-  );
-});
-
-export { CheckboxProps };
+const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
+  ({ disabled, ariaLabel, caption, id, ...inputProps }, ref) => {
+    return (
+      <CheckboxLabel htmlFor={id}>
+        <CheckboxHiddenInput
+          disabled={disabled}
+          aria-label={ariaLabel}
+          id={id}
+          ref={ref}
+          {...inputProps}
+        />
+        <CheckboxStyledInput />
+        {caption && <CheckboxCaption>{caption}</CheckboxCaption>}
+      </CheckboxLabel>
+    );
+  }
+);
 
 export default Checkbox;

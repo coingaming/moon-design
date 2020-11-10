@@ -53,7 +53,7 @@ describe('Checkbox', () => {
       renderWithTheme(
         <Checkbox
           id="Checkbox-Test5"
-          label={
+          caption={
             <span>
               This is a label with a <a href="#test">link</a>.
             </span>
