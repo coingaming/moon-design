@@ -16,68 +16,33 @@ import { Checkbox } from '@heathmont/moon-core';
 ```
 
 ```jsx react-live
-<Checkbox label="I agree to receive bonus & marketing emails." />
-```
-
-```jsx react-live
-<Stack>
-  <Checkbox
-    label={
-      <React.Fragment>
-        I confirm that I am at least 18 years of age, and accept the
-        <Link href="#">Terms and Conditions</Link>.
-      </React.Fragment>
-    }
-  />
-</Stack>
+<Checkbox caption="I agree to receive bonus & marketing emails." />
 ```
 
 ## States
 
 ### Disabled
 
-The Checkbox input can be disabled by passing the `disabled` prop.
-
 ```jsx react-live
-<Checkbox disabled label="I agree to receive bonus & marketing emails." />
+<Checkbox disabled caption="I agree to receive bonus & marketing emails." />
 ```
 
 ### Checked
 
-The Checkbox input can be checked by passing the `checked` prop.
-
 ```jsx react-live
-<Checkbox checked label="I agree to receive bonus & marketing emails." />
+<Checkbox checked caption="I agree to receive bonus & marketing emails." />
 ```
 
 ## Props
 
-### Customize colours
+### Variants
 
-You could use `color` prop to customize label.
-
-Default colour is `trunks.100`:
-
-```
-color="trunks.100"
-
-```
-
-```jsx react-live
-<Stack>
-  <Checkbox label="Description of the checkbox's purpose." />
-  <Checkbox label="Description of the checkbox's purpose." color="goten.100" />
-  <Checkbox
-    label="Description of the checkbox's purpose."
-    color="piccolo.100"
-  />
-</Stack>
-```
+### TODO
 
 ### aria-label
 
-For use-cases where a label should be visually hidden, a descriptive `ariaLabel`
-must be defined.
+For use-cases where a caption should be visually hidden, a descriptive `ariaLabel`
+must be defined. It's an attribute designed to help assistive technology (e.g. screen readers).
 
 ```jsx react-live
 <Checkbox ariaLabel="Description of the checkbox's purpose." />
@@ -85,12 +50,39 @@ must be defined.
 
 ### ID
 
-By default, `Checkbox` automatically generates a unique ID. This can be
-overriden via `id`.
+`Checkbox` id can be overriden via `id` prop. That attribute helps old assistive technologies. (e.g. screen readers).
 
 ```jsx react-live
 <Checkbox
   id="example-id"
-  label="I agree to receive bonus & marketing emails."
+  caption="I agree to receive bonus & marketing emails."
 />
+```
+
+# Composed Custom Checkbox API
+
+With custom checkbox, you can choose between a high-level API where DOM elements are not individually exposed as components,
+or use the composed API to access each sub-component directly.
+
+⚠️ Please note: Always use `CheckboxHiddenInput` before `CheckboxStyledInput` (due to internal css selectors order)
+
+```
+import { CheckboxLabel, CheckboxHiddenInput, CheckboxStyledInput, CheckboxCaption} from '@heathmont/moon-core';
+```
+
+```jsx react-live
+() => {
+  const disabled = false;
+  const id = 'test-checkbox-id';
+  const caption = 'I agree to receive bonus & marketing emails.';
+  const ariaLabel = 'marketing emails';
+
+  return (
+    <CheckboxLabel htmlFor={id}>
+      <CheckboxHiddenInput disabled={disabled} aria-label={ariaLabel} id={id} />
+      <CheckboxStyledInput />
+      {caption && <CheckboxCaption>{caption}</CheckboxCaption>}
+    </CheckboxLabel>
+  );
+};
 ```
