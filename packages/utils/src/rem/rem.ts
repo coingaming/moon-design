@@ -1,7 +1,28 @@
 import polishedRem from 'polished/lib/helpers/rem';
 import { sharedTokens } from '@heathmont/moon-themes';
 
-const EXCEPTIONS = [1, 2, 10, 14, 18, '1px', '2px', '10px', '14px', '18px'];
+const EXCEPTIONS = [
+  -1,
+  -2,
+  -10,
+  -14,
+  -18,
+  '-1px',
+  '-2px',
+  '-10px',
+  '-14px',
+  '-18px',
+  1,
+  2,
+  10,
+  14,
+  18,
+  '1px',
+  '2px',
+  '10px',
+  '14px',
+  '18px',
+];
 
 const rem = (value: string | number, baseFontSize: string | number = 16) => {
   const isAlloved = EXCEPTIONS.includes(value);
