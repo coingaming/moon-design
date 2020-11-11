@@ -173,9 +173,10 @@ exports[`CheckboxMultiselect renders by default 1`] = `
         />
         <span
           className="c4"
-        />
+        >
+          Game 1
+        </span>
       </label>
-      Game 1
     </label>
   </li>
   <li>
@@ -196,9 +197,10 @@ exports[`CheckboxMultiselect renders by default 1`] = `
         />
         <span
           className="c4"
-        />
+        >
+          Game 2
+        </span>
       </label>
-      Game 2
     </label>
   </li>
   <li>
@@ -219,9 +221,10 @@ exports[`CheckboxMultiselect renders by default 1`] = `
         />
         <span
           className="c4"
-        />
+        >
+          Game 3
+        </span>
       </label>
-      Game 3
     </label>
   </li>
 </ul>
@@ -400,9 +403,10 @@ exports[`CheckboxMultiselect renders with pre-selected value 1`] = `
         />
         <span
           className="c4"
-        />
+        >
+          Game 1
+        </span>
       </label>
-      Game 1
     </label>
   </li>
   <li>
@@ -423,9 +427,10 @@ exports[`CheckboxMultiselect renders with pre-selected value 1`] = `
         />
         <span
           className="c4"
-        />
+        >
+          Game 2
+        </span>
       </label>
-      Game 2
     </label>
   </li>
   <li>
@@ -446,9 +451,10 @@ exports[`CheckboxMultiselect renders with pre-selected value 1`] = `
         />
         <span
           className="c4"
-        />
+        >
+          Game 3
+        </span>
       </label>
-      Game 3
     </label>
   </li>
 </ul>

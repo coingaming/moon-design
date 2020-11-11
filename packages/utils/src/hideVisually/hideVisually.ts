@@ -1,4 +1,6 @@
-const hideVisually = () => ({
+import { CSSObject } from 'styled-components';
+
+const hideVisually: () => CSSObject = () => ({
   border: '0',
   clip: 'rect(0 0 0 0)',
   height: '1px',
