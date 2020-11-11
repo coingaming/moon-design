@@ -142,7 +142,7 @@ exports[`Number Range renders correctly 1`] = `
         onChange={[Function]}
         placeholder=" "
         type="number"
-        value={16}
+        value="16"
       />
     </label>
     <label
@@ -160,7 +160,7 @@ exports[`Number Range renders correctly 1`] = `
         onChange={[Function]}
         placeholder=" "
         type="number"
-        value={20}
+        value="20"
       />
     </label>
   </div>

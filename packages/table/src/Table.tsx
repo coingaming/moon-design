@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import {
@@ -10,7 +10,10 @@ import {
 import { useSticky } from 'react-table-sticky';
 import { rem } from '@heathmont/moon-utils';
 
-const TableWrapper = styled.div(({ theme: { color, radius } }) => ({
+const TableWrapper = styled.div<{
+  isScrolledToLeft: boolean;
+  isScrolledToRight: boolean;
+}>(({ theme: { color, radius }, isScrolledToLeft, isScrolledToRight }) => ({
   /**
    * Scroll Behavior
    * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
@@ -43,12 +46,21 @@ const TableWrapper = styled.div(({ theme: { color, radius } }) => ({
     '[data-sticky-td]': {
       position: 'sticky',
     },
-    '[data-sticky-last-left-td]': {
-      boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-    },
-    '[data-sticky-first-right-td]': {
-      boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-    },
+    ...(!isScrolledToLeft
+      ? {
+          '[data-sticky-last-left-td]': {
+            boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+          },
+        }
+      : {}),
+
+    ...(!isScrolledToRight
+      ? {
+          '[data-sticky-first-right-td]': {
+            boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+          },
+        }
+      : {}),
   },
 }));
 
@@ -172,11 +184,26 @@ const Table: React.FC<any> = ({
     useSticky,
     useExpanded
   );
+  const [isScrolledToLeft, setIsScrolledToLeft] = useState(false);
+  const [isScrolledToRight, setIsScrolledToRight] = useState(false);
+
+  const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
+    const target = event.target as HTMLDivElement;
+    if (!target) return;
+
+    setIsScrolledToLeft(target.scrollLeft === 0);
+    setIsScrolledToRight(
+      target.scrollLeft + target.clientWidth === target.scrollWidth
+    );
+  };
 
   return (
     <TableWrapper
       {...getTableProps()}
+      onScroll={handleScroll}
       className="sticky"
+      isScrolledToLeft={isScrolledToLeft}
+      isScrolledToRight={isScrolledToRight}
       style={{ width, height, maxWidth, maxHeight }}
     >
       <Header>
