@@ -16,7 +16,7 @@ import { Checkbox } from '@heathmont/moon-core';
 ```
 
 ```jsx react-live
-<Checkbox caption="I agree to receive bonus & marketing emails." />
+<Checkbox label="I agree to receive bonus & marketing emails." />
 ```
 
 ## States
@@ -24,24 +24,31 @@ import { Checkbox } from '@heathmont/moon-core';
 ### Disabled
 
 ```jsx react-live
-<Checkbox disabled caption="I agree to receive bonus & marketing emails." />
+<Checkbox disabled label="I agree to receive bonus & marketing emails." />
 ```
 
 ### Checked
 
 ```jsx react-live
-<Checkbox checked caption="I agree to receive bonus & marketing emails." />
+<Checkbox checked label="I agree to receive bonus & marketing emails." />
 ```
 
 ## Props
 
 ### Variants
 
+```jsx react-live
+<Checkbox
+  variant="option"
+  label="I agree to receive bonus & marketing emails."
+/>
+```
+
 ### TODO
 
 ### aria-label
 
-For use-cases where a caption should be visually hidden, a descriptive `ariaLabel`
+For use-cases where a label should be visually hidden, a descriptive `ariaLabel`
 must be defined. It's an attribute designed to help assistive technology (e.g. screen readers).
 
 ```jsx react-live
@@ -55,7 +62,7 @@ must be defined. It's an attribute designed to help assistive technology (e.g. s
 ```jsx react-live
 <Checkbox
   id="example-id"
-  caption="I agree to receive bonus & marketing emails."
+  label="I agree to receive bonus & marketing emails."
 />
 ```
 
@@ -67,21 +74,26 @@ or use the composed API to access each sub-component directly.
 ⚠️ Please note: Always use `CheckboxHiddenInput` before `CheckboxStyledInput` (due to internal css selectors order)
 
 ```
-import { CheckboxLabel, CheckboxHiddenInput, CheckboxStyledInput, CheckboxCaption} from '@heathmont/moon-core';
+import {
+  CheckboxLabel,
+  CheckboxHiddenInput,
+  CheckboxStyledInput,
+  CheckboxCaption
+} from '@heathmont/moon-core';
 ```
 
 ```jsx react-live
 () => {
   const disabled = false;
   const id = 'test-checkbox-id';
-  const caption = 'I agree to receive bonus & marketing emails.';
+  const label = 'I agree to receive bonus & marketing emails.';
   const ariaLabel = 'marketing emails';
 
   return (
     <CheckboxLabel htmlFor={id}>
       <CheckboxHiddenInput disabled={disabled} aria-label={ariaLabel} id={id} />
       <CheckboxStyledInput />
-      {caption && <CheckboxCaption>{caption}</CheckboxCaption>}
+      {label && <CheckboxCaption>{label}</CheckboxCaption>}
     </CheckboxLabel>
   );
 };
