@@ -1,0 +1,46 @@
+---
+name: COMPONENT_NAME
+menu: Design System
+route: /core/COMPONENT_NAME
+---
+
+# COMPONENT_NAME
+
+COMPONENT_NAME description
+
+## Usage:
+
+```
+import { COMPONENT_NAME } from '@heathmont/moon-core';
+```
+
+```jsx react-live
+<COMPONENT_NAME />
+```
+
+## States
+
+### Disabled
+
+COMPONENT_NAME
+
+```jsx react-live
+<COMPONENT_NAME />
+```
+
+## Props
+
+### Customize colours
+
+You could use `color` prop to customize COMPONENT_NAME.
+
+Default colour is `trunks.100`:
+
+```
+color="trunks.100"
+
+```
+
+```jsx react-live
+<COMPONENT_NAME />
+```

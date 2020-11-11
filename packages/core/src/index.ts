@@ -4,3 +4,5 @@
 
 export { default as Badge } from './badge/Badge';
 export * from './badge/Badge';
+export { default as Checkbox } from './checkbox/Checkbox';
+export * from './checkbox/Checkbox';
