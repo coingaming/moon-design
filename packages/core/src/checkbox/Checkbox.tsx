@@ -4,6 +4,8 @@ import { inlineSvg, rem, hideVisually } from '@heathmont/moon-utils';
 
 import { CheckboxIcon } from './private/icon';
 
+type Variants = 'option';
+
 const BORDER_WIDTH = 2;
 
 // Hide checkbox visually but remain accessible to screen readers.
@@ -80,12 +82,30 @@ export const CheckboxStyledInput: React.FC<any> = styled.figure(
   })
 );
 
-export const CheckboxLabel = styled.label(({ theme }) => ({
-  display: 'flex',
-  flexDirection: 'row',
-  gap: rem(theme.space.small),
-  width: 'fit-content',
-}));
+interface CheckboxLabelProps {
+  variant?: Variants;
+}
+
+export const CheckboxLabel = styled.label<CheckboxLabelProps>(
+  ({ theme }) => ({
+    display: 'flex',
+    flexDirection: 'row',
+    gap: rem(theme.space.small),
+  }),
+  ({ variant, theme }) => {
+    if (variant === 'option') {
+      return {
+        padding: rem(20),
+        '&:hover': {
+          backgroundColor: theme.color.gohan[100],
+        },
+      };
+    }
+    return {
+      width: 'fit-content',
+    };
+  }
+);
 
 export const CheckboxCaption = styled.span(({ theme }) => ({
   color: theme.color.trunks[100],
@@ -94,14 +114,15 @@ export const CheckboxCaption = styled.span(({ theme }) => ({
 interface CheckboxProps {
   disabled?: boolean;
   ariaLabel?: string;
-  caption?: JSX.Element | string;
+  label?: JSX.Element | string;
   id?: string;
+  variant?: Variants;
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
-  ({ disabled, ariaLabel, caption, id, ...inputProps }, ref) => {
+  ({ disabled, ariaLabel, label, id, variant, ...inputProps }, ref) => {
     return (
-      <CheckboxLabel htmlFor={id}>
+      <CheckboxLabel htmlFor={id} variant={variant}>
         <CheckboxHiddenInput
           disabled={disabled}
           aria-label={ariaLabel}
@@ -110,7 +131,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           {...inputProps}
         />
         <CheckboxStyledInput />
-        {caption && <CheckboxCaption>{caption}</CheckboxCaption>}
+        {label && <CheckboxCaption>{label}</CheckboxCaption>}
       </CheckboxLabel>
     );
   }
