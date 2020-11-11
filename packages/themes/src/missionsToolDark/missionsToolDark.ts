@@ -60,6 +60,11 @@ const missionsToolDark: Theme = {
     ...supportColors,
     ...color,
   },
+  radius: {
+    small: 2,
+    default: 4,
+    largest: 8,
+  },
   colorScheme: 'dark',
 };
 
