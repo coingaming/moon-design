@@ -16,7 +16,31 @@ weekStartsOn
 the index of the first day of the week (0 - Sunday)
 
 ```jsx react-live
-<Example />
+() => {
+  const [initialStartDate, setStartDate] = React.useState(
+    new Date('September 17, 2020 03:24:00')
+  );
+  const [initialEndDate, setEndDate] = React.useState(
+    new Date('September 27, 2020 03:24:00')
+  );
+
+  return (
+    <>
+      <DateRangePicker
+        startDate={initialStartDate}
+        endDate={initialEndDate}
+        onDateChange={({ startDate, endDate }) => {
+          setStartDate(startDate);
+          setEndDate(endDate);
+        }}
+        config={{
+          weekStartsOn: 1,
+          withHoursAndMinutes: true,
+        }}
+      />
+    </>
+  );
+};
 ```
 
 ```jsx react-live

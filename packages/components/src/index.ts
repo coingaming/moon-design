@@ -42,8 +42,6 @@ export {
 export * from './checkboxMultiselect/CheckboxMultiselect';
 export { default as DateRangePicker } from './datepicker/DateRangePicker';
 export * from './datepicker/DateRangePicker';
-export { default as Example } from './datepicker/Example';
-export * from './datepicker/Example';
 export { default as RangeCalendar } from './datepicker/RangeCalendar';
 export * from './datepicker/RangeCalendar';
 export { default as config } from './datepicker/types/config';

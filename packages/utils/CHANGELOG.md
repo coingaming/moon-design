@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
+
+
+### Features
+
+* hideVisually utils ([5e3256c](https://github.com/coingaming/sportsbet-design/commit/5e3256c5e937d80d5da2f0428e6511cb732c0734))
+
+
+
+
+
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-utils
