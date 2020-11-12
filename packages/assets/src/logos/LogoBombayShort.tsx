@@ -5,7 +5,7 @@ import { themed } from '@heathmont/moon-utils';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width="auto"
+    width="1em"
     height="1em"
     viewBox="0 0 19 27"
     fill="none"
