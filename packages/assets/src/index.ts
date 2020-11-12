@@ -1150,6 +1150,8 @@ export { default as LogoMissions } from './logos/LogoMissions';
 export * from './logos/LogoMissions';
 export { default as LogoSlotsFull } from './logos/LogoSlotsFull';
 export * from './logos/LogoSlotsFull';
+export { default as LogoSlotsShort } from './logos/LogoSlotsShort';
+export * from './logos/LogoSlotsShort';
 export { default as LogoSportsbet } from './logos/LogoSportsbet';
 export * from './logos/LogoSportsbet';
 export { default as LogoSportsbetFull } from './logos/LogoSportsbetFull';
