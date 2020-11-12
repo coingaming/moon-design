@@ -66,7 +66,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const LogoSlots = styled(Svg)<SvgProps>(
+const LogoSlotsFull = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -77,7 +77,7 @@ const LogoSlots = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
-LogoSlots.defaultProps = {
+LogoSlotsFull.defaultProps = {
   verticalAlign: 'middle',
 };
-export default LogoSlots;
+export default LogoSlotsFull;
