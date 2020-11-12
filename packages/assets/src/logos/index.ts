@@ -28,6 +28,8 @@ export { default as LogoMissions } from './LogoMissions';
 export * from './LogoMissions';
 export { default as LogoSlotsFull } from './LogoSlotsFull';
 export * from './LogoSlotsFull';
+export { default as LogoSlotsShort } from './LogoSlotsShort';
+export * from './LogoSlotsShort';
 export { default as LogoSportsbet } from './LogoSportsbet';
 export * from './LogoSportsbet';
 export { default as LogoSportsbetFull } from './LogoSportsbetFull';
