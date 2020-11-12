@@ -30,7 +30,7 @@ type SvgProps = {
   fontSize?: string | number;
   verticalAlign?: string;
 };
-const LogoBitcasino = styled(Svg)<SvgProps>(
+const LogoBitcasinoFull = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -41,7 +41,7 @@ const LogoBitcasino = styled(Svg)<SvgProps>(
     verticalAlign,
   })
 );
-LogoBitcasino.defaultProps = {
+LogoBitcasinoFull.defaultProps = {
   verticalAlign: 'middle',
 };
-export default LogoBitcasino;
+export default LogoBitcasinoFull;
