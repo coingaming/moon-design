@@ -16,6 +16,8 @@ import {
   hub88,
   missionsToolDark,
   missionsToolLight,
+  moonDesignDark,
+  moonDesignLight,
   Theme,
 } from '@heathmont/moon-themes';
 
@@ -56,6 +58,10 @@ const themes: DocsThemes = {
     dark: missionsToolDark,
     light: missionsToolLight,
   },
+  moonDesign: {
+    dark: moonDesignDark,
+    light: moonDesignLight,
+  },
 };
 
 type DocsColorModes = {
@@ -73,6 +79,7 @@ type DocsThemes = {
   hub88: DocsColorModes;
   aposta10: DocsColorModes;
   missionsTool: DocsColorModes;
+  moonDesign: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;
@@ -91,8 +98,8 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   children,
 }) => {
   const [themeState, setThemeState] = React.useState({
-    brand: 'sportsbet',
-    colorMode: 'dark',
+    brand: 'moonDesign',
+    colorMode: 'light',
   });
 
   const consoleInfoTheme = () =>

@@ -6,7 +6,6 @@ import { rem } from '@heathmont/moon-utils';
 import { PagesData } from '../../types';
 
 import { transformSections } from './transform';
-import { Divider } from './divider';
 import { Logo } from './logo';
 import { Menu, MenuList, MenuItem } from './menu';
 
@@ -43,7 +42,6 @@ export const Nav = () => (
     render={(data: PagesData) => (
       <NavContainer>
         <Logo />
-        <Divider />
         <MenuList>
           <MenuItem route="/" name="Introduction" section />
           {/* TODO: Investigate IDE type issue highlighting */}
