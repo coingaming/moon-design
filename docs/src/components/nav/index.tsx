@@ -7,7 +7,7 @@ import { PagesData } from '../../types';
 
 import { transformSections } from './transform';
 import { Logo } from './logo';
-import { Menu, MenuList, MenuItem } from './menu';
+import { Menu, MenuList } from './menu';
 
 const sidebar = graphql`
   query {
@@ -32,21 +32,31 @@ const sidebar = graphql`
   }
 `;
 
-const NavContainer = styled.nav(({ theme: { space } }) => ({
-  padding: rem(space.default),
+const NavContainer = styled.nav(({ theme: { space, color } }) => ({
+  paddingTop: rem(24),
+  paddingBottom: rem(24),
+  paddingLeft: rem(32),
+  paddingRight: rem(32),
+  backgroundColor: color.gohan[100],
+  minWidth: rem(272),
 }));
+
+const NavContainerWrapper = styled.div({
+  padding: rem(32),
+});
 
 export const Nav = () => (
   <StaticQuery
     query={sidebar}
     render={(data: PagesData) => (
       <NavContainer>
-        <Logo />
-        <MenuList>
-          <MenuItem route="/" name="Introduction" section />
-          {/* TODO: Investigate IDE type issue highlighting */}
-          <Menu items={transformSections(data)} />
-        </MenuList>
+        <NavContainerWrapper>
+          <Logo />
+          <MenuList>
+            {/* TODO: Investigate IDE type issue highlighting */}
+            <Menu items={transformSections(data)} />
+          </MenuList>
+        </NavContainerWrapper>
       </NavContainer>
     )}
   />
