@@ -1436,16 +1436,6 @@
   dependencies:
     "@heathmont/moon-fonts" "^2.49.3-alpha.0+d9adf3b2"
 
-"@heathmont/moon-utils@^2.49.3-alpha.0+d9adf3b2":
-  version "2.49.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.49.3-alpha.0.tgz#2a3fb68eb344dda624b0a81062a40d2bb3199d58"
-  integrity sha512-q/73OD1oquxhQTlVYAnDKhEb3EytZXDmxcupUqlT+bkDkPTKNVN3VHHcIMJ1eRWuWnk6QhVG0QuMyWSOZ4+MWA==
-  dependencies:
-    "@heathmont/moon-themes" "^2.49.3-alpha.0+d9adf3b2"
-    lodash.get "4.4.2"
-    lodash.has "4.5.2"
-    polished "3.4.1"
-
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
