@@ -102,21 +102,10 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
     colorMode: 'light',
   });
 
-  const consoleInfoTheme = () =>
-    process.env.NODE_ENV !== 'production' &&
-    /* eslint-disable-next-line no-console */
-    console.info(
-      '🎨 Theme: ',
-      themeState,
-      themes[themeState.brand][themeState.colorMode]
-    );
-
   /**
    * Toggle between themes 'dark' and 'light' states
    */
   const toggleColorScheme = () => {
-    consoleInfoTheme();
-
     setThemeState({
       brand: themeState.brand,
       colorMode: themeState.colorMode === 'dark' ? 'light' : 'dark',
@@ -124,7 +113,6 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   };
 
   const setBrand = (themeKey: DocsBrands) => {
-    consoleInfoTheme();
     setThemeState({ brand: themeKey, colorMode: themeState.colorMode });
   };
 
