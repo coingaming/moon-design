@@ -8,4 +8,5 @@ export type Brand =
   | 'Hub88'
   | 'Aposta10'
   | 'BTCXE'
-  | 'MissionsTool';
+  | 'MissionsTool'
+  | 'MoonDesign';

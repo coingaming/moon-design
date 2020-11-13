@@ -12,6 +12,7 @@ import {
   LogoMissions,
   LogoSlotsFull,
   LogoSportsbetFull,
+  LogoMoonDesign,
 } from '@heathmont/moon-assets';
 import { mq } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
@@ -64,6 +65,7 @@ export const Logo = () => {
 
   return (
     <LogoContainer>
+      {brand === 'MoonDesign' && <LogoMoonDesign height="100%" width="auto" />}
       {brand === 'Sportsbet.io' && (
         <LogoSportsbetFull height="100%" width="auto" />
       )}
@@ -85,6 +87,7 @@ export const Logo = () => {
       <IconChevronDown aria-hidden="true" />
 
       <BrandSelect onChange={e => setBrand(e.target.value)}>
+        <option value="moondesign">Moon Design</option>
         <option value="sportsbet">Sportsbet.io</option>
         <option value="bitcasino">Bitcasino.io</option>
         <option value="slots">Slots.io</option>
