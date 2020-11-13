@@ -26,17 +26,18 @@ const LogoContainer = styled.div(({ theme: { breakpoint, color, space } }) => ({
   height: rem(40),
   width: rem(240),
   alignItems: 'center',
-  justifyContent: 'space-between',
+  marginBottom: rem(32),
+  maxHeight: rem(20),
   /* The logo */
   'svg:first-child': {
     width: 'auto',
     height: '100%',
   },
   [`${IconChevronDown}`]: {
-    fontSize: rem(18),
+    fontSize: rem(12),
     marginLeft: rem(space.default),
     flexShrink: 0,
-    color: color.trunks[100],
+    color: color.goten[100],
   },
   [mq(breakpoint.medium)]: {
     width: '100%',
@@ -57,6 +58,7 @@ const BrandSelect = styled.select({
   '&:hover': {
     cursor: 'pointer',
   },
+  outline: 'none',
 });
 
 export const Logo = () => {
@@ -65,7 +67,9 @@ export const Logo = () => {
 
   return (
     <LogoContainer>
-      {brand === 'MoonDesign' && <LogoMoonDesign height="100%" width="auto" />}
+      {brand === 'MoonDesign' && (
+        <LogoMoonDesign height="auto" width={rem(90)} color="goten.100" />
+      )}
       {brand === 'Sportsbet.io' && (
         <LogoSportsbetFull height="100%" width="auto" />
       )}
