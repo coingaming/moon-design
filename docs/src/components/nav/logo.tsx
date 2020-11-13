@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
 import {
   IconChevronDown,
+  LogoAposta10Full,
   LogoBitcasinoFull,
   LogoBombayFull,
   LogoHub88Full,
@@ -78,7 +79,7 @@ export const Logo = () => {
       )}
       {brand === 'BombayClub' && <LogoBombayFull width="100%" height="auto" />}
       {brand === 'Hub88' && <LogoHub88Full width="100%" height="auto" />}
-      {brand === 'Aposta10' && <p>Aposta10</p>}
+      {brand === 'Aposta10' && <LogoAposta10Full width="100%" height="auto" />}
       {brand === 'MissionsTool' && <LogoMissions fontSize="2rem" />}
 
       <IconChevronDown aria-hidden="true" />
