@@ -32,14 +32,13 @@ const MenuListItem = styled.li<{ section?: boolean }>(
     section && {
       fontSize: '1.2rem',
       fontWeight: fontWeight.semibold,
-      color: color.trunks[100],
+      color: color.goten[100],
     },
   ]
 );
 
 const Link = styled(GatsbyLink)(({ theme: { color, fontWeight } }) => ({
-  // @ts-ignore: &[aria-current=page]
-  color: color.bulma[100],
+  color: color.trunks[100],
   textDecoration: 'none',
   '&[aria-current=page]': {
     fontWeight: fontWeight.semibold,
@@ -52,31 +51,41 @@ const Link = styled(GatsbyLink)(({ theme: { color, fontWeight } }) => ({
 /**
  * Components: Private
  */
-const SubMenu = ({ items, title }: MenuListProps & MenuProps) => (
-  <MenuListItem>
-    {title && (
-      <MenuListItem as="span" section>
-        {title}
-      </MenuListItem>
-    )}
-    <MenuList nested>
-      {items.map(item => (
-        <MenuItem key={item.name} route={item.route} name={item.name} />
-      ))}
-    </MenuList>
-  </MenuListItem>
-);
+const SubMenuWrapper = styled.div({
+  marginBottom: rem(32),
+});
+
+const SubMenu = ({ items, title }: MenuListProps & MenuProps) => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  return (
+    <MenuListItem
+      onClick={() => {
+        setIsOpen(!isOpen);
+      }}
+    >
+      {title && (
+        <MenuListItem as="span" section>
+          {title}
+        </MenuListItem>
+      )}
+      {isOpen && (
+        <MenuList>
+          {items.map(item => (
+            <MenuItem key={item.name} route={item.route} name={item.name} />
+          ))}
+        </MenuList>
+      )}
+    </MenuListItem>
+  );
+};
 
 /**
  * Components: Exported
  */
-export const MenuList = styled.ul<{ nested?: boolean & MenuListProps }>(
-  ({ theme: { space }, nested }) => ({
-    margin: 0,
-    marginLeft: nested ? rem(space.default) : 0,
-    listStyleType: 'none',
-  })
-);
+export const MenuList = styled.ul({
+  margin: 0,
+  listStyleType: 'none',
+});
 
 export const MenuItem = ({ route, name, section }: MenuItemProps) => (
   <MenuListItem section={section}>
@@ -87,8 +96,12 @@ export const MenuItem = ({ route, name, section }: MenuItemProps) => (
 export const Menu = ({ items }: MenuProps) =>
   items.map(item =>
     item.pages ? (
-      <SubMenu key={item.name} title={item.name} items={item.pages} />
+      <SubMenuWrapper>
+        <SubMenu key={item.name} title={item.name} items={item.pages} />
+      </SubMenuWrapper>
     ) : (
-      <MenuItem key={item.name} route={item.route} name={item.name} section />
+      <SubMenuWrapper>
+        <MenuItem key={item.name} route={item.route} name={item.name} section />
+      </SubMenuWrapper>
     )
   );
