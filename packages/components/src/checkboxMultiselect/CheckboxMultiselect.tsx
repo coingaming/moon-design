@@ -71,8 +71,9 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
                 currentValue => currentValue === option.value
               )}
               onChange={() => onCheckboxChange(option.value)}
+              label={option.label}
             />
-            {option.label}
+            {/* {option.label} */}
           </Option>
         </li>
       ))}
