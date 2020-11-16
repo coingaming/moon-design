@@ -17,8 +17,8 @@ import {
   missionsToolDark,
   missionsToolLight,
   Theme,
-  moneyballComAuDark,
-  moneyballComAuLight,
+  moneyballDark,
+  moneyballLight,
 } from '@heathmont/moon-themes';
 
 const themes: DocsThemes = {
@@ -58,9 +58,9 @@ const themes: DocsThemes = {
     dark: missionsToolDark,
     light: missionsToolLight,
   },
-  moneyballComAu: {
-    dark: moneyballComAuDark,
-    light: moneyballComAuLight,
+  moneyball: {
+    dark: moneyballDark,
+    light: moneyballLight,
   },
 };
 
@@ -79,7 +79,7 @@ type DocsThemes = {
   hub88: DocsColorModes;
   aposta10: DocsColorModes;
   missionsTool: DocsColorModes;
-  moneyballComAu: DocsColorModes;
+  moneyball: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;

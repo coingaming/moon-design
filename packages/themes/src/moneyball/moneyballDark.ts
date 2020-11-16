@@ -44,9 +44,9 @@ const color = {
   },
 };
 
-const moneyballComAuDark: Theme = {
+const moneyballDark: Theme = {
   ...sharedTokens,
-  brand: 'Moneyball.com.au',
+  brand: 'Moneyball',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
@@ -63,4 +63,4 @@ const moneyballComAuDark: Theme = {
   colorScheme: 'dark',
 };
 
-export default moneyballComAuDark;
+export default moneyballDark;

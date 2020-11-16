@@ -40,14 +40,10 @@ export { default as sportsbetDark } from './sportsbetDark/sportsbetDark';
 export * from './sportsbetDark/sportsbetDark';
 export { default as sportsbetLight } from './sportsbetLight/sportsbetLight';
 export * from './sportsbetLight/sportsbetLight';
-export {
-  default as moneyballComAuLight,
-} from './moneyballComAu/moneyballComAuLight';
-export * from './moneyballComAu/moneyballComAuLight';
-export {
-  default as moneyballComAuDark,
-} from './moneyballComAu/moneyballComAuDark';
-export * from './moneyballComAu/moneyballComAuDark';
+export { default as moneyballLight } from './moneyball/moneyballLight';
+export * from './moneyball/moneyballLight';
+export { default as moneyballDark } from './moneyball/moneyballDark';
+export * from './moneyball/moneyballDark';
 export { default as supportColors } from './supportColors/supportColors';
 export * from './supportColors/supportColors';
 export { default as ThemeContext } from './themeContext/ThemeContext';
