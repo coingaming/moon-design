@@ -40,6 +40,8 @@ export { default as sportsbetDark } from './sportsbetDark/sportsbetDark';
 export * from './sportsbetDark/sportsbetDark';
 export { default as sportsbetLight } from './sportsbetLight/sportsbetLight';
 export * from './sportsbetLight/sportsbetLight';
+export { default as moneyballComAu } from './moneyballComAu/moneyballComAu';
+export * from './moneyballComAu/moneyballComAu';
 export { default as supportColors } from './supportColors/supportColors';
 export * from './supportColors/supportColors';
 export { default as ThemeContext } from './themeContext/ThemeContext';
