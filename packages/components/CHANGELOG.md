@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+
+### Bug Fixes
+
+* proper search onChange prop type ([df92698](https://github.com/coingaming/sportsbet-design/commit/df92698670412f5611bcbc3e0d4945bf6586b157))
+* ts for hideVisually ([11fe117](https://github.com/coingaming/sportsbet-design/commit/11fe11748083260f3ee82ca5b2c3c2123995e664))
+
+
+### Features
+
+* initial commit ([5ea50e6](https://github.com/coingaming/sportsbet-design/commit/5ea50e661bd42e9b693a1f39e8f84d110da71115))
+
+
+
+
+
 # [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
 
