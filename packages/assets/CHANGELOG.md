@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+
+### Bug Fixes
+
+* typography ([584b25f](https://github.com/coingaming/sportsbet-design/commit/584b25faaa404d5bdea003d097ba30a992eccff6))
+
+
+### Features
+
+* add casino logos ([adc226f](https://github.com/coingaming/sportsbet-design/commit/adc226f0668f13d7594a19000d63e45a3ec5250d))
+* align logos ([3db40fa](https://github.com/coingaming/sportsbet-design/commit/3db40fab821d3efa81a64215965085c49588d530))
+
+
+
+
+
 # [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
 
