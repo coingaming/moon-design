@@ -22,16 +22,16 @@ const color = {
     100: '#E6E6E6',
   },
   goku: {
-    100: '#FFFFFF',
-    80: '#FBFBFB',
-    40: '#F9F9F9',
-    10: '#F6F6F6',
-  },
-  gohan: {
     100: '#F7F7F7',
     80: '#F9F9F9',
     40: '#FCFCFC',
     10: '#FFFFFF',
+  },
+  gohan: {
+    100: '#FFFFFF',
+    80: '#FBFBFB',
+    40: '#F9F9F9',
+    10: '#F6F6F6',
   },
   goten: {
     100: '#FFFFFF',
