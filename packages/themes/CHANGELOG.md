@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+
+### Bug Fixes
+
+* replace goku with gohan and vice versa ([8fdf129](https://github.com/coingaming/sportsbet-design/commit/8fdf1295d85cc2ee3f58b5e89ead5b7948c38c2f))
+
+
+### Features
+
+* add moneyballComAu theme ([4ef338b](https://github.com/coingaming/sportsbet-design/commit/4ef338bc4fd4a8923ce595f1882947f94857e148))
+* radius for mission tool design ([d85d325](https://github.com/coingaming/sportsbet-design/commit/d85d325f69e58c8c34c0d7ef84ce944eb4550352))
+
+
+
+
+
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 
