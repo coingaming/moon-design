@@ -9,4 +9,4 @@ export type Brand =
   | 'Aposta10'
   | 'BTCXE'
   | 'MissionsTool'
-  | 'Moneyball.com.au';
+  | 'Moneyball';
