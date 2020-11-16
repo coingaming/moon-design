@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+**Note:** Version bump only for package @heathmont/moon-pagination
+
+
+
+
+
 # [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
