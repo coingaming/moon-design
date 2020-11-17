@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.52.0](https://github.com/coingaming/sportsbet-design/compare/v2.51.0...v2.52.0) (2020-11-17)
+
+
+### Features
+
+* add moneyball logo ([0de06cf](https://github.com/coingaming/sportsbet-design/commit/0de06cf7f5d482dadd94b83c6a6107789eeadc2a))
+
+
+
+
+
 # [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
 
 
