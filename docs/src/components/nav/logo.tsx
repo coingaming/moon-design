@@ -1,7 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
-import { LogoSportsbet, IconChevronDown } from '@heathmont/moon-assets';
+import {
+  LogoSportsbet,
+  IconChevronDown,
+  LogoMoneyball,
+} from '@heathmont/moon-assets';
 import { mq } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
 
@@ -150,7 +154,7 @@ export const Logo = () => {
       {brand === 'Hub88' && <p>Hub88</p>}
       {brand === 'Aposta10' && <p>Aposta10</p>}
       {brand === 'MissionsTool' && <p>MissionsTool</p>}
-      {brand === 'Moneyball' && <p>Moneyball</p>}
+      {brand === 'Moneyball' && <LogoMoneyball />}
 
       <IconChevronDown aria-hidden="true" />
 
