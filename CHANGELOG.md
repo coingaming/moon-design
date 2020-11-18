@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
+
+
+### Bug Fixes
+
+* change hit colors for moneyball ([3f55e79](https://github.com/coingaming/sportsbet-design/commit/3f55e792b98f946ce22e4bd0ea6db8cf23e2889c))
+
+
+
+
+
 # [2.52.0](https://github.com/coingaming/sportsbet-design/compare/v2.51.0...v2.52.0) (2020-11-17)
 
 
