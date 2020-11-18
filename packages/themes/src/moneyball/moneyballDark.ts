@@ -14,9 +14,9 @@ const color = {
     80: '#365AD8',
   },
   hit: {
-    120: '#E9CD37',
-    100: '#FBE25C',
-    80: '#FDEA85',
+    120: '#FFFFFF',
+    100: '#F6F6F6',
+    80: '#FBFBFB',
   },
   beerus: {
     100: '#E6E6E6',
