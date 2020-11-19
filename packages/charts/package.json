@@ -18,7 +18,9 @@
     "@heathmont/moon-assets": "^2.50.0",
     "@heathmont/moon-components": "^2.50.0",
     "@heathmont/moon-themes": "^2.47.2",
-    "@heathmont/moon-utils": "^2.50.0"
+    "@heathmont/moon-utils": "^2.50.0",
+    "react-use": "^15.3.4",
+    "recharts": "^2.0.0-beta.8"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
