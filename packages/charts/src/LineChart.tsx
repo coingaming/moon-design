@@ -113,7 +113,7 @@ const LineChart: React.FC<Props> = ({
         />
         <ResponsiveContainerCustomized height={containerHeight}>
           <RechartsLineChart data={data}>
-            <CartesianGrid />
+            <CartesianGrid stroke={themed('color', 'beerus.100')(theme)} />
             <RechartTooltip content={<Tooltip />} />
             <XAxis
               dataKey="date"
