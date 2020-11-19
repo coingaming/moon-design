@@ -6,8 +6,71 @@ route: /charts/charts
 
 # Charts
 
-WIP
+### LineChart
 
 ```jsx react-live
-<Charts />
+() => {
+  const options = [
+    {
+      title: 'Active players',
+      key: 'actives',
+      value: '3,174',
+      color: 'frieza.100',
+      yAxisId: 'left',
+      isActive: true,
+    },
+    {
+      title: 'Turnover',
+      key: 'turnover',
+      value: '12,174.23',
+      color: 'krillin.100',
+      yAxisId: 'left',
+      isActive: true,
+    },
+    {
+      title: 'GGR',
+      key: 'ggr',
+      value: '12,174.23',
+      color: 'roshi.100',
+      yAxisId: 'left',
+    },
+    {
+      title: 'Bets',
+      key: 'bets',
+      value: '3,174',
+      color: 'whis.100',
+      yAxisId: 'left',
+      isActive: true,
+    },
+    {
+      title: 'Margin',
+      key: 'margin',
+      value: '5.38%',
+      color: 'chiChi.100',
+      yAxisId: 'right',
+    },
+  ];
+
+  const data = Array.from({ length: 20 }, (v, i) => ({
+    date: `${i + 1}/10`,
+    turnover: Math.floor(Math.random() * 10000),
+    margin: Math.floor(Math.random() * 100),
+    ggr: Math.floor(Math.random() * 10000),
+    bets: Math.floor(Math.random() * 20000),
+    actives: Math.floor(Math.random() * 5000),
+  }));
+
+  return (
+    <LineChart
+      title="KPI Overview"
+      options={options}
+      data={data}
+      filter={<Filter title="by all devices">Test</Filter>}
+      hasUpdates={true}
+      onUpdate={() => console.log('onUpdate')}
+      onShare={() => console.log('onShare')}
+      onExpand={() => console.log('onExpand')}
+    />
+  );
+};
 ```
