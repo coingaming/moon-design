@@ -13,10 +13,10 @@ import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps, useTheme } from '@heathmont/moon-themes';
 
 import { Panel } from './private/Panel';
-import { LineIcon } from './private/icons/LineIcon';
 import { Selector } from './private/Selector';
 import { Tooltip } from './private/Tooltip';
 import { Header } from './private/Header';
+import ChartIcons from './ChartIcons';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => `
@@ -55,6 +55,7 @@ type Props = {
   filter?: React.ReactNode;
   containerHeight?: number;
   axisWidth?: number;
+  icon?: any;
 };
 
 const LineChart: React.FC<Props> = ({
@@ -68,6 +69,7 @@ const LineChart: React.FC<Props> = ({
   filter,
   containerHeight = 256,
   axisWidth = 40,
+  icon = <ChartIcons.Line />,
 }) => {
   const theme = useTheme();
   const initialActiveOptions = options
@@ -91,7 +93,7 @@ const LineChart: React.FC<Props> = ({
       onExpand={onExpand}
     >
       <>
-        <Header icon={<LineIcon />} title={title} filter={filter} />
+        <Header icon={icon} title={title} filter={filter} />
         <Selector
           activeOptions={activeOptions}
           options={options}

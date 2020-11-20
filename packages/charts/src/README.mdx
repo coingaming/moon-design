@@ -6,7 +6,7 @@ route: /charts/charts
 
 # Charts
 
-### LineChart
+## LineChart
 
 ```jsx react-live
 () => {
@@ -65,7 +65,18 @@ route: /charts/charts
       title="KPI Overview"
       options={options}
       data={data}
-      filter={<Filter title="by all devices">Test</Filter>}
+      filter={
+        <Filter title="by all devices">
+          <CheckboxMultiselect
+            onChange={() => {}}
+            value={['m', 'd']}
+            options={[
+              { label: 'Mobile', value: 'm' },
+              { label: 'Desktop', value: 'd' },
+            ]}
+          />
+        </Filter>
+      }
       hasUpdates={true}
       onUpdate={() => console.log('onUpdate')}
       onShare={() => console.log('onShare')}
@@ -75,25 +86,321 @@ route: /charts/charts
 };
 ```
 
-### PieChart
+## PieChart
 
 ```jsx react-live
 () => {
-  const data = [
+  const data1 = [
     { title: 'Desktop', value: 870, color: 'roshi.100' },
     { title: 'Mobile', value: 130, color: 'frieza.100' },
   ];
 
+  const data2 = [
+    {
+      title: 'Desktop',
+      value: +(Math.random() * 100).toFixed(4),
+      color: 'roshi.100',
+    },
+    {
+      title: 'Mobile',
+      value: +(Math.random() * 100).toFixed(4),
+      color: 'frieza.100',
+    },
+    {
+      title: 'Tablet',
+      value: +(Math.random() * 100).toFixed(4),
+      color: 'whis.100',
+    },
+    {
+      title: 'Unknown',
+      value: +(Math.random() * 100).toFixed(4),
+      color: 'krillin.100',
+    },
+  ];
+
   return (
-    <PieChart
-      title="Device Breakdown"
-      data={data}
-      filter={<Filter title="by GGR">Test</Filter>}
-      hasUpdates={true}
-      onUpdate={() => console.log('onUpdate')}
-      onShare={() => console.log('onShare')}
-      onExpand={() => console.log('onExpand')}
-    />
+    <Inline space="large" style={{ flexWrap: 'nowrap' }}>
+      <PieChart
+        title="Device Breakdown"
+        data={data1}
+        filter={
+          <Filter title="by GGR">
+            <SingleItemSelect
+              onChange={() => {}}
+              value="ggr"
+              options={[
+                { label: 'Active players', value: 'actives' },
+                { label: 'GGR', value: 'ggr' },
+                { label: 'Bets', value: 'bets' },
+              ]}
+            />
+          </Filter>
+        }
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+
+      <PieChart
+        title="Device Breakdown"
+        data={data2}
+        filter={
+          <Filter title="by GGR">
+            <SingleItemSelect
+              onChange={() => {}}
+              value="bets"
+              options={[
+                { label: 'Active players', value: 'actives' },
+                { label: 'GGR', value: 'ggr' },
+                { label: 'Bets', value: 'bets' },
+              ]}
+            />
+          </Filter>
+        }
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+    </Inline>
+  );
+};
+```
+
+## TableChart
+
+```jsx react-live
+() => {
+  const data = [
+    { title: <TableChartItem>Active players</TableChartItem>, value: '2,786' },
+    { title: <TableChartItem>Turnover</TableChartItem>, value: '€8,765.45' },
+    { title: <TableChartItem>GGR</TableChartItem>, value: '15,873.98' },
+    { title: <TableChartItem>Bets</TableChartItem>, value: '6,763' },
+    { title: <TableChartItem>Margin</TableChartItem>, value: '5.38%' },
+  ];
+
+  return (
+    <Inline space="large" style={{ flexWrap: 'nowrap' }}>
+      <TableChart
+        title="Yesterday"
+        icon={<ChartIcons.Time />}
+        filter={
+          <Filter title="by all devices">
+            <CheckboxMultiselect
+              onChange={() => {}}
+              value={['m', 'd']}
+              options={[
+                { label: 'Mobile', value: 'm' },
+                { label: 'Desktop', value: 'd' },
+              ]}
+            />
+          </Filter>
+        }
+        data={data}
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+
+      <TableChart
+        isActive={true}
+        title="Today"
+        icon={<ChartIcons.Time />}
+        filter={
+          <Filter title="by all devices">
+            <CheckboxMultiselect
+              onChange={() => {}}
+              value={['m', 'd']}
+              options={[
+                { label: 'Mobile', value: 'm' },
+                { label: 'Desktop', value: 'd' },
+              ]}
+            />
+          </Filter>
+        }
+        data={data}
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+    </Inline>
+  );
+};
+```
+
+```jsx react-live
+() => {
+  const dataPlayers = [
+    { title: <TableChartItem>C593088487</TableChartItem>, value: '6,222.405' },
+    { title: <TableChartItem>C593088487</TableChartItem>, value: '6,222.405' },
+    { title: <TableChartItem>C593088487</TableChartItem>, value: '6,222.405' },
+    { title: <TableChartItem>C593088487</TableChartItem>, value: '6,222.405' },
+    { title: <TableChartItem>C593088487</TableChartItem>, value: '6,222.405' },
+  ];
+
+  const dataSuppliers = [
+    {
+      title: (
+        <TableChartItem>
+          <LogoSportsbetShort width="24px" />
+          <Text size={14}>Sportsbet</Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <LogoHub88Short width="24px" />
+          <Text size={14}>Hub88</Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <LogoBitcasinoShort width="24px" />
+          <Text size={14}>Bitcasino</Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <LogoLuckyslotsShort width="24px" />
+          <Text size={14}>Luckyslots</Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <LogoSlotsShort width="24px" />
+          <Text size={14}>Slots</Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+  ];
+
+  const dataGames = [
+    {
+      title: (
+        <TableChartItem>
+          <Avatar imageUrl="https://www.fillmurray.com/24/24" size="xsmall" />
+          <Text size={14}>Reactoonz 2</Text>
+          <Text size={12} color="trunks.100">
+            Netent
+          </Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <Avatar imageUrl="https://www.fillmurray.com/26/26" size="xsmall" />
+          <Text size={14}>Golden Tsar</Text>
+          <Text size={12} color="trunks.100">
+            Red tiger
+          </Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <Avatar imageUrl="https://www.fillmurray.com/28/28" size="xsmall" />
+          <Text size={14}>Dragons</Text>
+          <Text size={12} color="trunks.100">
+            Microgaming
+          </Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <Avatar imageUrl="https://www.fillmurray.com/30/30" size="xsmall" />
+          <Text size={14}>Joker Max</Text>
+          <Text size={12} color="trunks.100">
+            Netent
+          </Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+    {
+      title: (
+        <TableChartItem>
+          <Avatar imageUrl="https://www.fillmurray.com/32/32" size="xsmall" />
+          <Text size={14}>Mad</Text>
+          <Text size={12} color="trunks.100">
+            Yggdrasil
+          </Text>
+        </TableChartItem>
+      ),
+      value: '6,222.405',
+    },
+  ];
+
+  const filter = (
+    <Filter title="by GGR">
+      <SingleItemSelect
+        onChange={() => {}}
+        value="ggr"
+        options={[
+          { label: 'Active players', value: 'actives' },
+          { label: 'GGR', value: 'ggr' },
+          { label: 'Bets', value: 'bets' },
+        ]}
+      />
+    </Filter>
+  );
+
+  return (
+    <Inline style={{ flexWrap: 'nowrap' }}>
+      <TableChart
+        title="Top Players"
+        icon={<ChartIcons.TopPlayers />}
+        filter={filter}
+        data={dataPlayers}
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+
+      <TableChart
+        title="Top Suppliers"
+        icon={<ChartIcons.TopSuppliers />}
+        filter={filter}
+        data={dataSuppliers}
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+
+      <TableChart
+        title="Top Games"
+        icon={<ChartIcons.TopGames />}
+        filter={filter}
+        data={dataGames}
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+    </Inline>
   );
 };
 ```
