@@ -22,9 +22,6 @@ type MenuProps = {
   items: [MenuItemProps];
 };
 
-/**
- * Styles
- */
 const MenuListItem = styled.li<{ section?: boolean }>(
   ({ theme: { color, fontWeight, space }, section }) => [
     {
@@ -34,46 +31,42 @@ const MenuListItem = styled.li<{ section?: boolean }>(
     section && {
       fontSize: rem(16),
       fontWeight: fontWeight.semibold,
-      color: color.goten[100],
+      color: color.trunks[100],
     },
   ]
 );
 
-const Link = styled(GatsbyLink)(({ theme: { color, fontWeight } }) => ({
+const Link = styled(GatsbyLink)(({ theme: { color } }) => ({
   fontSize: rem(16),
   color: color.trunks[100],
   textDecoration: 'none',
-  '&[aria-current=page]': {
-    fontWeight: fontWeight.semibold,
-  },
   '&:hover, &:active, &[aria-current=page]': {
-    color: color.piccolo[100],
+    color: color.bulma[100],
   },
 }));
 
 /**
  * Components: Private
  */
-const MenuSection = styled.li<{ isOpen?: boolean }>(({ theme, isOpen }) => [
+const MenuSection = styled.li<{ isOpen?: boolean }>(({ theme }) => [
   {
     borderRadius: theme.radius.small,
     paddingTop: rem(16),
     paddingBottom: rem(16),
-    '&:hover': {
-      backgroundColor: theme.color.goten[100],
-    },
+    // '&:hover': {
+    //   backgroundColor: theme.color.goku[100],
+    // },
   },
-  isOpen && {
-    // backgroundColor: theme.color.gohan[80],
-    backgroundColor: 'red',
-  },
+  // isOpen && {
+  //   backgroundColor: theme.color.goku[100],
+  // },
 ]);
 
 const Heading = styled.li(({ theme: { color, fontWeight, space } }) => ({
   display: 'block',
   fontSize: rem(16),
   fontWeight: fontWeight.semibold,
-  color: color.goten[100],
+  color: color.bulma[100],
 }));
 
 export const MenuList = styled.ul({
@@ -101,9 +94,9 @@ const SubMenu = ({ items, title, isActive }: MenuListProps & MenuProps) => {
         >
           <Heading>{title}</Heading>
           {isOpen ? (
-            <IconChevronDown color="red" fontSize="0.5rem" />
+            <IconChevronDown color="bulma.100" fontSize="0.5rem" />
           ) : (
-            <IconChevronRight color="red" fontSize="0.5rem" />
+            <IconChevronRight color="bulma.100" fontSize="0.5rem" />
           )}
         </HeadingWrapper>
       )}
