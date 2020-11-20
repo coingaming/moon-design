@@ -1,6 +1,6 @@
+import React from 'react';
 import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
-import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 
 const Container = styled.div(

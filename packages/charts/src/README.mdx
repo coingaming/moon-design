@@ -74,3 +74,26 @@ route: /charts/charts
   );
 };
 ```
+
+### PieChart
+
+```jsx react-live
+() => {
+  const data = [
+    { title: 'Desktop', value: 870, color: 'roshi.100' },
+    { title: 'Mobile', value: 130, color: 'frieza.100' },
+  ];
+
+  return (
+    <PieChart
+      title="Device Breakdown"
+      data={data}
+      filter={<Filter title="by GGR">Test</Filter>}
+      hasUpdates={true}
+      onUpdate={() => console.log('onUpdate')}
+      onShare={() => console.log('onShare')}
+      onExpand={() => console.log('onExpand')}
+    />
+  );
+};
+```
