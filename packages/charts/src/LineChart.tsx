@@ -10,13 +10,13 @@ import {
 } from 'recharts';
 import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
-import { Text } from '@heathmont/moon-components';
 import { ColorProps, useTheme } from '@heathmont/moon-themes';
 
 import { Panel } from './private/Panel';
 import { LineIcon } from './private/icons/LineIcon';
 import { Selector } from './private/Selector';
 import { Tooltip } from './private/Tooltip';
+import { Header } from './private/Header';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => `
@@ -32,16 +32,6 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
       opacity: 0;
     }
   }
-`
-);
-
-const Header = styled.div(
-  ({ theme }) => `
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: ${rem(theme.space.default)};
 `
 );
 
@@ -100,12 +90,8 @@ const LineChart: React.FC<Props> = ({
       onShare={onShare}
       onExpand={onExpand}
     >
-      <div>
-        <Header>
-          <LineIcon />
-          <Text size={20}>{title}</Text>
-          {filter}
-        </Header>
+      <>
+        <Header icon={<LineIcon />} title={title} filter={filter} />
         <Selector
           activeOptions={activeOptions}
           options={options}
@@ -146,6 +132,7 @@ const LineChart: React.FC<Props> = ({
                   type="linear"
                   yAxisId={activeOption.yAxisId}
                   dataKey={activeOption.key}
+                  name={activeOption.title}
                   stroke={themed('color', activeOption.color)(theme)}
                   dot={false}
                 />
@@ -153,7 +140,7 @@ const LineChart: React.FC<Props> = ({
             })}
           </RechartsLineChart>
         </ResponsiveContainerCustomized>
-      </div>
+      </>
     </Panel>
   );
 };

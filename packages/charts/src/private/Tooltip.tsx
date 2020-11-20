@@ -3,7 +3,7 @@ import { rem } from '@heathmont/moon-utils';
 import React from 'react';
 import styled from 'styled-components';
 
-const Wrapper = styled.div(
+const Container = styled.div(
   ({ theme }) => `
   display: inline-block;
   color: ${theme.color.goten[100]};
@@ -17,15 +17,36 @@ const Wrapper = styled.div(
 `
 );
 
+const Item = styled(Text)(
+  ({ theme }) => `
+  position: relative;
+  padding-left: ${rem(theme.space.default)};
+`
+);
+
+const ColorPreview = styled.div`
+  width: ${rem(8)};
+  height: ${rem(8)};
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+`;
+
 export const Tooltip = ({ payload, active }: any) => {
   if (!active || !payload) return null;
+
   return (
-    <Wrapper>
-      {payload.map((line: any) => (
-        <Text size={14} key={line.dataKey} style={{ color: line.color }}>
-          {line.name}: {line.value}
-        </Text>
+    <Container>
+      {payload.map((item: any) => (
+        <Item size={14} key={item.dataKey}>
+          <ColorPreview
+            style={{ background: item.payload.fill || item.color }}
+          />
+          {item.name} • {item.value}
+        </Item>
       ))}
-    </Wrapper>
+    </Container>
   );
 };
