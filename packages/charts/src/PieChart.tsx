@@ -12,9 +12,9 @@ import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 
 import { Panel } from './private/Panel';
-import { DevicesIcon } from './private/icons/DevicesIcon';
 import { Header } from './private/Header';
 import { Tooltip } from './private/Tooltip';
+import ChartIcons from './ChartIcons';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => `
@@ -42,6 +42,7 @@ type Props = {
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   containerHeight?: number;
+  icon?: any;
 };
 
 const PieChart: React.FC<Props> = ({
@@ -53,6 +54,7 @@ const PieChart: React.FC<Props> = ({
   hasUpdates = false,
   filter,
   containerHeight = 256,
+  icon = <ChartIcons.Devices />,
 }) => {
   const theme = useTheme();
   const [activeIndex, setActiveIndex] = useState(0);
@@ -116,7 +118,7 @@ const PieChart: React.FC<Props> = ({
       onExpand={onExpand}
     >
       <>
-        <Header icon={<DevicesIcon />} title={title} filter={filter} />
+        <Header icon={icon} title={title} filter={filter} />
         <ResponsiveContainerCustomized height={containerHeight}>
           <RechartPieChart>
             <RechartTooltip
