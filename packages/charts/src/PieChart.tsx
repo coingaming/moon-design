@@ -1,0 +1,157 @@
+import React, { useState } from 'react';
+import {
+  Pie,
+  Sector,
+  Cell,
+  PieChart as RechartPieChart,
+  Tooltip as RechartTooltip,
+  ResponsiveContainer,
+} from 'recharts';
+import styled from 'styled-components';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+
+import { Panel } from './private/Panel';
+import { DevicesIcon } from './private/icons/DevicesIcon';
+import { Header } from './private/Header';
+import { Tooltip } from './private/Tooltip';
+
+const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
+  ({ theme }) => `
+  .charts-title {
+    fill: ${theme.color.trunks[100]};
+    font-size: ${rem(14)};
+  }
+  .chart-percent {
+    fill: ${theme.color.bulma[100]};
+    font-size: ${rem(24)};
+  }
+`
+);
+
+type Props = {
+  title: string;
+  data: {
+    title: string;
+    value: number;
+    color: ColorProps;
+  }[];
+  onUpdate?: () => {};
+  onShare?: () => {};
+  onExpand?: () => {};
+  hasUpdates?: boolean;
+  filter?: React.ReactNode;
+  containerHeight?: number;
+};
+
+const PieChart: React.FC<Props> = ({
+  title,
+  data,
+  onUpdate,
+  onShare,
+  onExpand,
+  hasUpdates = false,
+  filter,
+  containerHeight = 256,
+}) => {
+  const theme = useTheme();
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const onMouseEnter = (event: any) => {
+    setActiveIndex(event['data-index']);
+  };
+
+  const renderActiveShape = ({
+    cx,
+    cy,
+    innerRadius,
+    outerRadius,
+    startAngle,
+    endAngle,
+    fill,
+    payload,
+    percent,
+  }: any) => {
+    const preparedPercent = +(percent * 100).toFixed(2);
+
+    return (
+      <g>
+        <circle cx={cx - 30} cy={cy - 15} r={4} fill={fill} />
+        <text
+          x={cx - 20}
+          y={cy}
+          dy={-10}
+          textAnchor="left"
+          className="charts-title"
+        >
+          {payload.title}
+        </text>
+        <text
+          x={cx}
+          y={cy}
+          dy={20}
+          textAnchor="middle"
+          className="chart-percent"
+        >
+          {preparedPercent}%
+        </text>
+        <Sector
+          cx={cx}
+          cy={cy}
+          innerRadius={innerRadius}
+          outerRadius={outerRadius + 2}
+          startAngle={startAngle}
+          endAngle={endAngle}
+          fill={fill}
+        />
+      </g>
+    );
+  };
+
+  return (
+    <Panel
+      hasUpdates={hasUpdates}
+      onUpdate={onUpdate}
+      onShare={onShare}
+      onExpand={onExpand}
+    >
+      <>
+        <Header icon={<DevicesIcon />} title={title} filter={filter} />
+        <ResponsiveContainerCustomized height={containerHeight}>
+          <RechartPieChart>
+            <RechartTooltip
+              coordinate={{
+                x: -20,
+                y: -20,
+              }}
+              content={<Tooltip />}
+            />
+            <Pie
+              activeIndex={activeIndex}
+              activeShape={renderActiveShape}
+              data={data}
+              innerRadius="75%"
+              outerRadius="98%"
+              startAngle={90}
+              endAngle={-270}
+              dataKey="value"
+              onMouseEnter={onMouseEnter}
+            >
+              {data.map((item, index) => (
+                <Cell
+                  key={item.title}
+                  stroke="none"
+                  data-index={index}
+                  name={item.title}
+                  fill={themed('color', item.color)(theme)}
+                />
+              ))}
+            </Pie>
+          </RechartPieChart>
+        </ResponsiveContainerCustomized>
+      </>
+    </Panel>
+  );
+};
+
+export default PieChart;
