@@ -3,24 +3,6 @@ import { rem } from '@heathmont/moon-utils';
 import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import React from 'react';
 
-const Container = styled.div(
-  ({ theme }) => `
-  display: flex;
-  flex-direction: column;
-  padding: ${rem(theme.space.default)};
-  background: ${theme.color.gohan[100]};
-  border-radius: ${rem(theme.space.default)};
-`
-);
-
-const Header = styled.div(
-  ({ theme }) => `
-  display: grid;
-  grid-template-columns: auto 1fr auto auto;
-  grid-column-gap: ${rem(theme.space.default)};
-`
-);
-
 const Button = styled.button<{ hasUpdates?: boolean }>(
   ({ hasUpdates, theme }) => `
   display: flex;
@@ -60,11 +42,44 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
 `
 );
 
+const Container = styled.div<{ isActive: boolean }>(
+  ({ theme, isActive }) => `
+  display: flex;
+  flex-direction: column;
+  padding: ${rem(theme.space.default)};
+  color: ${isActive ? theme.color.goten[100] : theme.color.bulma[100]};
+  background: ${isActive ? theme.color.piccolo[100] : theme.color.gohan[100]};
+  border-radius: ${rem(theme.space.default)};
+  width: 100%;
+  ${
+    isActive
+      ? `
+      ${Button} {
+        color: ${theme.color.goten[100]};
+        &:after {
+          background: ${theme.color.goten[100]};
+        }
+      }
+    `
+      : ''
+  }
+`
+);
+
+const Header = styled.div(
+  ({ theme }) => `
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  grid-column-gap: ${rem(theme.space.default)};
+`
+);
+
 type Props = {
   hasUpdates: boolean;
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  isActive?: boolean;
 };
 
 export const Panel: React.FC<Props> = ({
@@ -73,9 +88,10 @@ export const Panel: React.FC<Props> = ({
   onShare,
   onExpand,
   children,
+  isActive = false,
 }) => {
   return (
-    <Container>
+    <Container isActive={isActive}>
       <Header>
         {onUpdate && (
           <Button hasUpdates={hasUpdates} onClick={() => onUpdate()}>

@@ -5,19 +5,9 @@ import { FilterDropdown, Text } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import { useClickAway, useKey } from 'react-use';
 
-const Container = styled.div`
-  display: inline-block;
-  position: relative;
-`;
-
-const DropdownWrapper = styled.div(
+const Title = styled(Text)(
   ({ theme }) => `
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: ${rem(8)};
-  z-index: ${theme.zIndex.toggle};
+  color: ${theme.color.trunks[100]};
 `
 );
 
@@ -37,12 +27,50 @@ const Toggle = styled.button<{ isOpen: boolean }>(
 `
 );
 
+const Container = styled.div<{ isActive: boolean }>(
+  ({ isActive, theme }) => `
+  display: inline-block;
+  position: relative;
+
+  ${
+    isActive
+      ? `
+      ${Title} {
+        color: ${theme.color.goten[100]};
+      }
+      ${Toggle} {
+        color: ${theme.color.goten[100]};
+      }
+    `
+      : ''
+  }
+`
+);
+
+const DropdownWrapper = styled.div(
+  ({ theme }) => `
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: ${rem(8)};
+  color: ${theme.color.bulma[100]};
+  z-index: ${theme.zIndex.toggle};
+`
+);
+
 type Props = {
   forceOpen?: boolean;
   title: string;
+  isActive?: boolean;
 };
 
-const Filter: React.FC<Props> = ({ forceOpen = false, title, children }) => {
+const Filter: React.FC<Props> = ({
+  forceOpen = false,
+  isActive = false,
+  title,
+  children,
+}) => {
   const ref = useRef(null);
   const [isOpen, setIsOpen] = useState(forceOpen);
   useClickAway(ref, () => setIsOpen(false));
@@ -53,11 +81,9 @@ const Filter: React.FC<Props> = ({ forceOpen = false, title, children }) => {
   }, [setIsOpen, forceOpen]);
 
   return (
-    <Container ref={ref}>
+    <Container ref={ref} isActive={isActive}>
       <Toggle isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
-        <Text color="trunks.100" size={14}>
-          {title}
-        </Text>
+        <Title size={14}>{title}</Title>
         <IconChevronDownRounded />
       </Toggle>
       {isOpen && (
