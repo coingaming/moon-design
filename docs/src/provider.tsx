@@ -99,7 +99,7 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
 }) => {
   const [themeState, setThemeState] = React.useState({
     brand: 'moonDesign',
-    colorMode: 'light',
+    colorMode: 'dark',
   });
 
   /**

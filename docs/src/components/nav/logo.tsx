@@ -28,6 +28,7 @@ const LogoContainer = styled.div(({ theme: { breakpoint, color, space } }) => ({
   alignItems: 'center',
   marginBottom: rem(32),
   maxHeight: rem(20),
+  color: color.bulma[100],
   /* The logo */
   'svg:first-child': {
     width: 'auto',
@@ -37,7 +38,7 @@ const LogoContainer = styled.div(({ theme: { breakpoint, color, space } }) => ({
     fontSize: rem(12),
     marginLeft: rem(space.default),
     flexShrink: 0,
-    color: color.goten[100],
+    color: color.bulma[100],
   },
   [mq(breakpoint.medium)]: {
     width: '100%',
@@ -68,7 +69,7 @@ export const Logo = () => {
   return (
     <LogoContainer>
       {brand === 'MoonDesign' && (
-        <LogoMoonDesign height="auto" width={rem(90)} color="goten.100" />
+        <LogoMoonDesign height="auto" width={rem(90)} />
       )}
       {brand === 'Sportsbet.io' && (
         <LogoSportsbetFull height="100%" width="auto" />
