@@ -20,8 +20,13 @@ export const Cell = styled.td<{ wide?: boolean; align?: string }>(
 
 export const TableItem = styled.div`
   display: flex;
-  gap: ${rem(8)};
   align-items: center;
+  & > * {
+    margin-left: ${rem(8)};
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 `;
 
 export const Count = styled.span(
