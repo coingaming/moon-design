@@ -14,5 +14,3 @@ export { default as PieChart } from './PieChart';
 export * from './PieChart';
 export { default as TableChart } from './TableChart';
 export * from './TableChart';
-export { default as TableChartItem } from './TableChartItem';
-export * from './TableChartItem';

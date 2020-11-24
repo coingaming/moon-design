@@ -27,7 +27,7 @@ const Container = styled.div<{ isActive: boolean }>(
 type Props = {
   title: string;
   data: {
-    title: any;
+    label: any;
     value: any;
   }[];
   onUpdate?: () => {};
@@ -73,7 +73,7 @@ const TableChart: React.FC<Props> = ({
                     <Count>{index + 1}</Count>
                   </Cell>
                   <Cell wide>
-                    <TableItem>{item.title}</TableItem>
+                    <TableItem>{item.label}</TableItem>
                   </Cell>
                   <Cell align="right">{item.value}</Cell>
                 </tr>

@@ -33,7 +33,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
 type Props = {
   title: string;
   data: {
-    title: string;
+    label: any;
     value: number;
     color: ColorProps;
   }[];
@@ -88,7 +88,7 @@ const PieChart: React.FC<Props> = ({
           textAnchor="left"
           className="charts-title"
         >
-          {payload.title}
+          {payload.label}
         </text>
         <text
           x={cx}
@@ -145,10 +145,11 @@ const PieChart: React.FC<Props> = ({
             >
               {data.map((item, index) => (
                 <Cell
-                  key={item.title}
+                  // eslint-disable-next-line
+                  key={`${index}-${item.value}`}
                   stroke="none"
                   data-index={index}
-                  name={item.title}
+                  name={item.label}
                   fill={themed('color', item.color)(theme)}
                 />
               ))}
