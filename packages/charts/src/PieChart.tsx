@@ -63,17 +63,18 @@ const PieChart: React.FC<Props> = ({
     setActiveIndex(event['data-index']);
   };
 
-  const renderActiveShape = ({
-    cx,
-    cy,
-    innerRadius,
-    outerRadius,
-    startAngle,
-    endAngle,
-    fill,
-    payload,
-    percent,
-  }: any) => {
+  const renderActiveShape = (props: any) => {
+    const {
+      cx,
+      cy,
+      innerRadius,
+      outerRadius,
+      startAngle,
+      endAngle,
+      fill,
+      payload,
+      percent,
+    } = props;
     const preparedPercent = +(percent * 100).toFixed(2);
 
     return (
@@ -130,6 +131,7 @@ const PieChart: React.FC<Props> = ({
             />
             <Pie
               activeIndex={activeIndex}
+              // @ts-ignore
               activeShape={renderActiveShape}
               data={data}
               innerRadius="75%"
