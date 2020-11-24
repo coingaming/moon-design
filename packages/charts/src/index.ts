@@ -6,6 +6,8 @@ export { default as ChartIcons } from './ChartIcons';
 export * from './ChartIcons';
 export { default as Filter } from './Filter';
 export * from './Filter';
+export { default as GeoMapChart } from './GeoMapChart';
+export * from './GeoMapChart';
 export { default as LineChart } from './LineChart';
 export * from './LineChart';
 export { default as PieChart } from './PieChart';

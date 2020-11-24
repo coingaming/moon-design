@@ -26,7 +26,7 @@ const Button = styled.button<{ isActive?: boolean }>(
   border: none;
   will-change: background;
   transition: background ${theme.transitionDuration.default}s;
-  min-width: ${rem(122)};
+  min-width: ${rem(124)};
   &:hover {
     background: ${theme.color.goku[100]}
   }
