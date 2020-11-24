@@ -2,7 +2,7 @@ import { rem } from '@heathmont/moon-utils';
 import React from 'react';
 import styled from 'styled-components';
 
-import { Cell, Count, Table } from './Table';
+import { Cell, Count, Table, TableItem } from './Table';
 
 const Container = styled.div`
   flex: 1;
@@ -52,7 +52,9 @@ export const VerticalBar: React.FC<Props> = ({ data, color }) => {
                 <Cell>
                   <Count>{index + 1}</Count>
                 </Cell>
-                <Cell>{title}</Cell>
+                <Cell>
+                  <TableItem>{title}</TableItem>
+                </Cell>
                 <Cell wide>
                   <Bar>
                     <Line

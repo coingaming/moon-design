@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { Panel } from './private/Panel';
 import { Header } from './private/Header';
-import { Count, Table, Cell } from './private/Table';
+import { Count, Table, Cell, TableItem } from './private/Table';
 
 const Container = styled.div<{ isActive: boolean }>(
   ({ theme, isActive }) => `
@@ -72,7 +72,9 @@ const TableChart: React.FC<Props> = ({
                   <Cell>
                     <Count>{index + 1}</Count>
                   </Cell>
-                  <Cell wide>{item.title}</Cell>
+                  <Cell wide>
+                    <TableItem>{item.title}</TableItem>
+                  </Cell>
                   <Cell align="right">{item.value}</Cell>
                 </tr>
               ))}
