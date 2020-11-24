@@ -44,6 +44,7 @@ const Item = styled.li(
 const Container = styled.div<{ isActive: boolean }>(
   ({ theme, isActive }) => `
   display: flex;
+  height: 100%;
   overflow: auto;
   ${
     isActive
@@ -73,7 +74,7 @@ type Props = {
   onExpand?: () => {};
   hasUpdates?: boolean;
   filter?: React.ReactNode;
-  containerHeight?: number;
+  height?: string | number;
   icon?: any;
   isActive?: boolean;
 };
@@ -86,7 +87,7 @@ const TableChart: React.FC<Props> = ({
   onExpand,
   hasUpdates = false,
   filter,
-  containerHeight = 256,
+  height = 446,
   icon,
   isActive = false,
 }) => {
@@ -97,10 +98,11 @@ const TableChart: React.FC<Props> = ({
       onUpdate={onUpdate}
       onShare={onShare}
       onExpand={onExpand}
+      height={height}
     >
       <>
         <Header isActive={isActive} icon={icon} title={title} filter={filter} />
-        <Container style={{ height: containerHeight }} isActive={isActive}>
+        <Container isActive={isActive}>
           <List>
             {data.map((item, index) => (
               // eslint-disable-next-line react/no-array-index-key

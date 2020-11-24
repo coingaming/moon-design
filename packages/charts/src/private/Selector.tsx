@@ -6,6 +6,7 @@ import { ColorProps } from '@heathmont/moon-themes';
 const Container = styled.div(
   ({ theme }) => `
   display: flex;
+  flex-shrink: 0;
   flex-direction: row;
   align-items: center;
   justify-content: center;

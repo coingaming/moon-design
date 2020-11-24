@@ -13,9 +13,7 @@ const Title = styled(Text)(
 
 const Toggle = styled.button<{ isOpen: boolean }>(
   ({ isOpen, theme }) => `
-  display: inline-grid;
-  grid-template-columns: auto auto;
-  gap: ${rem(8)};
+  display: flex;
   font-size: ${rem(12)};
   align-items: center;
   color: ${isOpen ? theme.color.piccolo[100] : theme.color.trunks[100]};
@@ -24,6 +22,9 @@ const Toggle = styled.button<{ isOpen: boolean }>(
   padding: 0;
   margin: 0;
   cursor: pointer;
+  ${Title} {
+    margin-right: ${rem(8)};
+  }
 `
 );
 
