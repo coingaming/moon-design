@@ -2,35 +2,13 @@ import { rem } from '@heathmont/moon-utils';
 import React from 'react';
 import styled from 'styled-components';
 
+import { Cell, Count, Table } from './Table';
+
 const Container = styled.div`
   flex: 1;
   height: 100%;
   overflow: auto;
 `;
-
-const Table = styled.table`
-  width: 100%;
-  height: 100%;
-  table-layout: auto;
-`;
-
-const Cell = styled.td<{ wide?: boolean }>(
-  ({ wide }) => `
-  padding: ${rem(4)} ${rem(16)} ${rem(4)} 0;
-  width: ${wide ? '100%' : 'auto'};
-  &::last-child {
-    padding-right: 0;
-  }
-`
-);
-
-const Count = styled.span(
-  ({ theme }) => `
-  font-size: ${rem(12)};
-  line-height: ${rem(20)};
-  color: ${theme.color.trunks[100]}
-`
-);
 
 const Bar = styled.div`
   position: relative;
