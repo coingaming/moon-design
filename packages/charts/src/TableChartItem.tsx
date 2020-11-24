@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
 const TableChartItem = styled.div`
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
   grid-template-areas:
