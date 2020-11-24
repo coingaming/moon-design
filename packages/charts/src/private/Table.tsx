@@ -18,6 +18,12 @@ export const Cell = styled.td<{ wide?: boolean; align?: string }>(
 `
 );
 
+export const TableItem = styled.div`
+  display: flex;
+  gap: ${rem(8)};
+  align-items: center;
+`;
+
 export const Count = styled.span(
   ({ theme }) => `
   font-size: ${rem(12)};
