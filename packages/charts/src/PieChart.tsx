@@ -149,6 +149,7 @@ const PieChart: React.FC<Props> = ({
                   key={`${index}-${item.value}`}
                   stroke="none"
                   data-index={index}
+                  // @ts-ignore
                   name={item.label}
                   fill={themed('color', item.color)(theme)}
                 />
