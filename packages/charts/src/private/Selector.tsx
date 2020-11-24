@@ -48,7 +48,7 @@ const ColorPreview = styled.div<{ color?: ColorProps }>(
 `
 );
 
-const Title = styled.div(
+const Label = styled.div(
   ({ theme }) => `
   font-size: ${rem(12)};
   line-height: ${rem(24)};
@@ -68,7 +68,7 @@ type Props = {
   onChange: (key: string, isActive: boolean) => void;
   activeOptions: string[];
   options: {
-    title: string;
+    label: any;
     key: string;
     value: string | number;
     color: ColorProps;
@@ -92,7 +92,7 @@ export const Selector: React.FC<Props> = ({
             key={option.key}
           >
             <ColorPreview color={option.color} />
-            <Title>{option.title}</Title>
+            <Label>{option.label}</Label>
             <Value>{option.value}</Value>
           </Button>
         );

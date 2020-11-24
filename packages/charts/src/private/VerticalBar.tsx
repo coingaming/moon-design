@@ -33,8 +33,7 @@ const Line = styled.div(
 type Props = {
   color: string;
   data: {
-    title: string;
-    code: string;
+    label: string;
     value: number;
     opacity: number;
     percent: number;
@@ -46,30 +45,29 @@ export const VerticalBar: React.FC<Props> = ({ data, color }) => {
     <Container>
       <Table>
         <tbody>
-          {data.map(({ title, value, opacity, percent }, index: number) => {
-            return (
-              <tr key={`${title}-${value}`}>
-                <Cell>
-                  <Count>{index + 1}</Count>
-                </Cell>
-                <Cell>
-                  <TableItem>{title}</TableItem>
-                </Cell>
-                <Cell wide>
-                  <Bar>
-                    <Line
-                      style={{
-                        width: `${percent}%`,
-                        opacity,
-                        background: color,
-                      }}
-                    />
-                  </Bar>
-                </Cell>
-                <Cell>{value}</Cell>
-              </tr>
-            );
-          })}
+          {data.map(({ label, value, opacity, percent }, index: number) => (
+            // eslint-disable-next-line
+            <tr key={`${index}-${value}`}>
+              <Cell>
+                <Count>{index + 1}</Count>
+              </Cell>
+              <Cell>
+                <TableItem>{label}</TableItem>
+              </Cell>
+              <Cell wide>
+                <Bar>
+                  <Line
+                    style={{
+                      width: `${percent}%`,
+                      opacity,
+                      background: color,
+                    }}
+                  />
+                </Bar>
+              </Cell>
+              <Cell>{value}</Cell>
+            </tr>
+          ))}
         </tbody>
       </Table>
     </Container>
