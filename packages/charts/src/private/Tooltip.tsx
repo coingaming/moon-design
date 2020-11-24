@@ -41,12 +41,12 @@ export const Tooltip = ({ payload, active }: any) => {
   return (
     <TooltipWrapper>
       {payload.map((item: any) => (
-        <Item size={14} key={item.dataKey}>
+        <Item size={14} key={item.dataKey} as="div">
           <>
             <ColorPreview
               style={{ background: item.payload.fill || item.color }}
             />
-            {item.name} • {item.value}
+            {item.payload.label || item.name} • {item.value}
           </>
         </Item>
       ))}
