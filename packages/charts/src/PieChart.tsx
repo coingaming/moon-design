@@ -18,6 +18,7 @@ import ChartIcons from './ChartIcons';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => `
+  height: 100%;
   .charts-title {
     fill: ${theme.color.trunks[100]};
     font-size: ${rem(14)};
@@ -41,7 +42,7 @@ type Props = {
   onExpand?: () => {};
   hasUpdates?: boolean;
   filter?: React.ReactNode;
-  containerHeight?: number;
+  height?: string | number;
   icon?: any;
 };
 
@@ -53,7 +54,7 @@ const PieChart: React.FC<Props> = ({
   onExpand,
   hasUpdates = false,
   filter,
-  containerHeight = 256,
+  height = 446,
   icon = <ChartIcons.Devices />,
 }) => {
   const theme = useTheme();
@@ -117,10 +118,11 @@ const PieChart: React.FC<Props> = ({
       onUpdate={onUpdate}
       onShare={onShare}
       onExpand={onExpand}
+      height={height}
     >
       <>
         <Header icon={icon} title={title} filter={filter} />
-        <ResponsiveContainerCustomized height={containerHeight}>
+        <ResponsiveContainerCustomized>
           <RechartPieChart>
             <RechartTooltip
               coordinate={{
