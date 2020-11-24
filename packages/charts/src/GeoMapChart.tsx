@@ -52,7 +52,8 @@ const GeoMapChart: React.FC<Props> = ({
   const preparedData = data.map(item => ({
     ...item,
     percent: (item.value / maxValue) * 100,
-    opacity: +(item.value / maxValue).toFixed(2),
+    opacity:
+      item.value / maxValue < 0.2 ? 0.2 : +(item.value / maxValue).toFixed(2),
   }));
 
   return (
