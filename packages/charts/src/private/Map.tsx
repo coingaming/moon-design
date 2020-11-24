@@ -48,9 +48,11 @@ export const Map: React.FC<Props> = ({ data, color }) => {
         }}
       >
         {!!hoveredItem && (
-          <Item>
-            <ColorPreview style={{ background: color }} />
-            {hoveredItem.label} • {hoveredItem.value}
+          <Item size={14} as="div">
+            <>
+              <ColorPreview style={{ background: color }} />
+              {hoveredItem.label} • {hoveredItem.value}
+            </>
           </Item>
         )}
       </TooltipWrapper>
@@ -64,7 +66,7 @@ export const Map: React.FC<Props> = ({ data, color }) => {
       >
         <Geographies geography={worldMap}>
           {({ geographies }) =>
-            geographies.map((geography: any) => {
+            geographies.map((geography: any, index: number) => {
               const code = countryCode(geography.properties);
               const activeItem = data.find(item => item.code === code);
               const fillColor = activeItem ? color : defaultColor;
@@ -72,7 +74,8 @@ export const Map: React.FC<Props> = ({ data, color }) => {
 
               return (
                 <Geography
-                  key={code}
+                  // eslint-disable-next-line
+                  key={`${code}-${index}`}
                   geography={geography}
                   style={{
                     default: { fill: fillColor, outline: 'none', opacity },
