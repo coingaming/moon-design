@@ -69,6 +69,7 @@ const Container = styled.div<{ isActive: boolean }>(
 const Header = styled.div(
   ({ theme }) => `
   display: grid;
+  flex-shrink: 0;
   grid-template-columns: auto 1fr auto auto;
   grid-column-gap: ${rem(theme.space.default)};
 `
@@ -80,6 +81,7 @@ type Props = {
   onShare?: () => void;
   onExpand?: () => void;
   isActive?: boolean;
+  height?: string | number;
 };
 
 export const Panel: React.FC<Props> = ({
@@ -88,10 +90,11 @@ export const Panel: React.FC<Props> = ({
   onShare,
   onExpand,
   children,
+  height,
   isActive = false,
 }) => {
   return (
-    <Container isActive={isActive}>
+    <Container isActive={isActive} style={{ height }}>
       <Header>
         {onUpdate && (
           <Button hasUpdates={hasUpdates} onClick={() => onUpdate()}>

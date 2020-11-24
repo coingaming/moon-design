@@ -9,11 +9,15 @@ const Title = styled(Text)(
 `
 );
 
+const IconWrapper = styled.div`
+  height: ${rem(40)};
+`;
 const FilterWrapper = styled.div``;
 
 const Container = styled.div<{ isActive: boolean }>(
   ({ theme, isActive }) => `
   display: flex;
+  flex-shrink: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -48,7 +52,7 @@ export const Header: React.FC<Props> = ({
 }) => {
   return (
     <Container isActive={isActive}>
-      {icon}
+      <IconWrapper>{icon}</IconWrapper>
       <Title size={20}>{title}</Title>
       <FilterWrapper>{filter}</FilterWrapper>
     </Container>
