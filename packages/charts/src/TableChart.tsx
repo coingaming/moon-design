@@ -1,45 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 
 import { Panel } from './private/Panel';
 import { Header } from './private/Header';
-
-const List = styled.ol`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  list-style: none;
-  counter-reset: item-counter;
-`;
-
-const Item = styled.li(
-  ({ theme }) => `
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  counter-increment: item-counter;
-  padding-left: ${rem(24)};
-  position: relative;
-  font-size: ${rem(14)};
-  line-height: ${rem(20)};
-  color: ${theme.color.bulma[100]}
-  margin-bottom: ${rem(8)};
-  gap: ${rem(theme.space.default)};
-  &:before {
-    content: counter(item-counter);
-    position: absolute;
-    font-size: ${rem(12)};
-    line-height: ${rem(20)};
-    color: ${theme.color.trunks[100]}
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-`
-);
+import { Count, Table, Cell } from './private/Table';
 
 const Container = styled.div<{ isActive: boolean }>(
   ({ theme, isActive }) => `
@@ -49,14 +13,11 @@ const Container = styled.div<{ isActive: boolean }>(
   ${
     isActive
       ? `
-    ${Item} {
-      * {
-        color: ${theme.color.goten[100]};
+      tr {
+        * {
+          color: ${theme.color.goten[100]};
+        }
       }
-      &:before {
-        color: ${theme.color.goten[100]};
-      }
-    }
     `
       : ''
   }
@@ -103,15 +64,20 @@ const TableChart: React.FC<Props> = ({
       <>
         <Header isActive={isActive} icon={icon} title={title} filter={filter} />
         <Container isActive={isActive}>
-          <List>
-            {data.map((item, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <Item key={index}>
-                <div>{item.title}</div>
-                <div>{item.value}</div>
-              </Item>
-            ))}
-          </List>
+          <Table>
+            <tbody>
+              {data.map((item, index) => (
+                // eslint-disable-next-line
+                <tr key={index}>
+                  <Cell>
+                    <Count>{index + 1}</Count>
+                  </Cell>
+                  <Cell wide>{item.title}</Cell>
+                  <Cell align="right">{item.value}</Cell>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
         </Container>
       </>
     </Panel>
