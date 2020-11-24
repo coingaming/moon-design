@@ -10,8 +10,12 @@ import worldMap from './world-110m.json';
 
 const Container = styled.div`
   position: relative;
-  width: 100%;
+  width: 60%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 type Props = {
@@ -54,12 +58,9 @@ export const Map: React.FC<Props> = ({ data, color }) => {
       <ComposableMap
         projection="geoMercator"
         projectionConfig={{
-          scale: 100,
+          scale: 120,
           center: [0, 50],
         }}
-        width={800}
-        height={400}
-        style={{ width: '100%', height: '100%', overflow: 'hidden' }}
       >
         <Geographies geography={worldMap}>
           {({ geographies }) =>
