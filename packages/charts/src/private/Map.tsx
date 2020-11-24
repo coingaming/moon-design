@@ -21,7 +21,7 @@ const Container = styled.div`
 type Props = {
   color: string;
   data: {
-    title: string;
+    label: string;
     code: string;
     value: number;
     opacity: number;
@@ -50,7 +50,7 @@ export const Map: React.FC<Props> = ({ data, color }) => {
         {!!hoveredItem && (
           <Item>
             <ColorPreview style={{ background: color }} />
-            {hoveredItem.title} • {hoveredItem.value}
+            {hoveredItem.label} • {hoveredItem.value}
           </Item>
         )}
       </TooltipWrapper>

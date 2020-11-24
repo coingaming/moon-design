@@ -6,90 +6,13 @@ route: /charts/charts
 
 # Charts
 
-## GeoMapChart
-
-```jsx react-live
-() => {
-  const data = [
-    { title: 'Estonia', code: 'EST', value: 120 },
-    { title: 'Russia', code: 'RUS', value: 100 },
-    { title: 'Belarus', code: 'BLR', value: 80 },
-    { title: 'Argentina', code: 'ARG', value: 60 },
-    { title: 'USA', code: 'USA', value: 40 },
-  ];
-
-  return (
-    <GeoMapChart
-      title="Top Countries"
-      data={data}
-      filter={
-        <Filter title="by GGR">
-          <SingleItemSelect
-            onChange={() => {}}
-            value="ggr"
-            options={[
-              { label: 'Active players', value: 'actives' },
-              { label: 'GGR', value: 'ggr' },
-              { label: 'Bets', value: 'bets' },
-            ]}
-          />
-        </Filter>
-      }
-      hasUpdates={true}
-      onUpdate={() => console.log('onUpdate')}
-      onShare={() => console.log('onShare')}
-      onExpand={() => console.log('onExpand')}
-    />
-  );
-};
-```
-
-```jsx react-live
-() => {
-  const data = [
-    { title: 'Estonia', code: 'EST', value: 120 },
-    { title: 'Russia', code: 'RUS', value: 100 },
-    { title: 'Belarus', code: 'BLR', value: 80 },
-    { title: 'Argentina', code: 'ARG', value: 60 },
-    { title: 'USA', code: 'USA', value: 40 },
-  ];
-
-  return (
-    <Inline>
-      <GeoMapChart
-        title="Top Countries"
-        data={data}
-        compact={true}
-        filter={
-          <Filter title="by GGR">
-            <SingleItemSelect
-              onChange={() => {}}
-              value="ggr"
-              options={[
-                { label: 'Active players', value: 'actives' },
-                { label: 'GGR', value: 'ggr' },
-                { label: 'Bets', value: 'bets' },
-              ]}
-            />
-          </Filter>
-        }
-        hasUpdates={true}
-        onUpdate={() => console.log('onUpdate')}
-        onShare={() => console.log('onShare')}
-        onExpand={() => console.log('onExpand')}
-      />
-    </Inline>
-  );
-};
-```
-
 ## LineChart
 
 ```jsx react-live
 () => {
   const options = [
     {
-      title: 'Active players',
+      label: 'Active players',
       key: 'actives',
       value: '3,174',
       color: 'frieza.100',
@@ -97,7 +20,7 @@ route: /charts/charts
       isActive: true,
     },
     {
-      title: 'Turnover',
+      label: 'Turnover',
       key: 'turnover',
       value: '12,174.23',
       color: 'krillin.100',
@@ -105,14 +28,14 @@ route: /charts/charts
       isActive: true,
     },
     {
-      title: 'GGR',
+      label: 'GGR',
       key: 'ggr',
       value: '12,174.23',
       color: 'roshi.100',
       yAxisId: 'left',
     },
     {
-      title: 'Bets',
+      label: 'Bets',
       key: 'bets',
       value: '3,174',
       color: 'whis.100',
@@ -120,7 +43,7 @@ route: /charts/charts
       isActive: true,
     },
     {
-      title: 'Margin',
+      label: 'Margin',
       key: 'margin',
       value: '5.38%',
       color: 'chiChi.100',
@@ -168,28 +91,28 @@ route: /charts/charts
 ```jsx react-live
 () => {
   const data1 = [
-    { title: 'Desktop', value: 870, color: 'roshi.100' },
-    { title: 'Mobile', value: 130, color: 'frieza.100' },
+    { label: 'Desktop', value: 870, color: 'roshi.100' },
+    { label: 'Mobile', value: 130, color: 'frieza.100' },
   ];
 
   const data2 = [
     {
-      title: 'Desktop',
+      label: 'Desktop',
       value: +(Math.random() * 100).toFixed(4),
       color: 'roshi.100',
     },
     {
-      title: 'Mobile',
+      label: 'Mobile',
       value: +(Math.random() * 100).toFixed(4),
       color: 'frieza.100',
     },
     {
-      title: 'Tablet',
+      label: 'Tablet',
       value: +(Math.random() * 100).toFixed(4),
       color: 'whis.100',
     },
     {
-      title: 'Unknown',
+      label: 'Unknown',
       value: +(Math.random() * 100).toFixed(4),
       color: 'krillin.100',
     },
@@ -250,11 +173,11 @@ route: /charts/charts
 ```jsx react-live
 () => {
   const data = [
-    { title: <TableChartItem>Active players</TableChartItem>, value: '2,786' },
-    { title: <TableChartItem>Turnover</TableChartItem>, value: '€8,765.45' },
-    { title: <TableChartItem>GGR</TableChartItem>, value: '15,873.98' },
-    { title: <TableChartItem>Bets</TableChartItem>, value: '6,763' },
-    { title: <TableChartItem>Margin</TableChartItem>, value: '5.38%' },
+    { label: 'Active players', value: '2,786' },
+    { label: 'Turnover', value: '€8,765.45' },
+    { label: 'GGR', value: '15,873.98' },
+    { label: 'Bets', value: '6,763' },
+    { label: 'Margin', value: '5.38%' },
   ];
 
   return (
@@ -311,16 +234,16 @@ route: /charts/charts
 ```jsx react-live
 () => {
   const dataPlayers = [
-    { title: 'C593088487 C593088487', value: '6,222.405' },
-    { title: 'C593088487', value: '6,222.405' },
-    { title: 'C593088487', value: '6,222.405' },
-    { title: 'C593088487', value: '6,222.405' },
-    { title: 'C593088487', value: '6,222.405' },
+    { label: 'C593088487 C593088487', value: '6,222.405' },
+    { label: 'C593088487', value: '6,222.405' },
+    { label: 'C593088487', value: '6,222.405' },
+    { label: 'C593088487', value: '6,222.405' },
+    { label: 'C593088487', value: '6,222.405' },
   ];
 
   const dataSuppliers = [
     {
-      title: (
+      label: (
         <>
           <LogoSportsbetShort height="24px" width="24px" />
           <Text size={14}>Sportsbet</Text>
@@ -329,7 +252,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <LogoHub88Short height="24px" width="24px" />
           <Text size={14}>Hub88</Text>
@@ -338,7 +261,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <LogoBitcasinoShort height="24px" width="24px" />
           <Text size={14}>Bitcasino</Text>
@@ -347,7 +270,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <LogoLuckyslotsShort height="24px" width="24px" />
           <Text size={14}>Luckyslots</Text>
@@ -356,7 +279,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <LogoSlotsShort height="24px" width="24px" />
           <Text size={14}>Slots</Text>
@@ -368,7 +291,7 @@ route: /charts/charts
 
   const dataGames = [
     {
-      title: (
+      label: (
         <>
           <Avatar imageUrl="https://www.fillmurray.com/24/24" size="xsmall" />
           <div>
@@ -382,7 +305,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <Avatar imageUrl="https://www.fillmurray.com/26/26" size="xsmall" />
           <div>
@@ -396,7 +319,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <Avatar imageUrl="https://www.fillmurray.com/28/28" size="xsmall" />
           <div>
@@ -410,7 +333,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <Avatar imageUrl="https://www.fillmurray.com/30/30" size="xsmall" />
           <div>
@@ -424,7 +347,7 @@ route: /charts/charts
       value: '6,222.405',
     },
     {
-      title: (
+      label: (
         <>
           <Avatar imageUrl="https://www.fillmurray.com/32/32" size="xsmall" />
           <div>
@@ -488,6 +411,81 @@ route: /charts/charts
         onExpand={() => console.log('onExpand')}
       />
     </Inline>
+  );
+};
+```
+
+## GeoMapChart
+
+```jsx react-live
+() => {
+  const data = [
+    { label: 'Estonia', code: 'EST', value: 120 },
+    { label: 'Russia', code: 'RUS', value: 100 },
+    { label: 'Belarus', code: 'BLR', value: 80 },
+    { label: 'Argentina', code: 'ARG', value: 60 },
+    { label: 'USA', code: 'USA', value: 40 },
+  ];
+
+  return (
+    <GeoMapChart
+      title="Top Countries"
+      data={data}
+      filter={
+        <Filter title="by GGR">
+          <SingleItemSelect
+            onChange={() => {}}
+            value="ggr"
+            options={[
+              { label: 'Active players', value: 'actives' },
+              { label: 'GGR', value: 'ggr' },
+              { label: 'Bets', value: 'bets' },
+            ]}
+          />
+        </Filter>
+      }
+      hasUpdates={true}
+      onUpdate={() => console.log('onUpdate')}
+      onShare={() => console.log('onShare')}
+      onExpand={() => console.log('onExpand')}
+    />
+  );
+};
+```
+
+```jsx react-live
+() => {
+  const data = [
+    { label: 'Estonia', code: 'EST', value: 120 },
+    { label: 'Russia', code: 'RUS', value: 100 },
+    { label: 'Belarus', code: 'BLR', value: 80 },
+    { label: 'Argentina', code: 'ARG', value: 60 },
+    { label: 'USA', code: 'USA', value: 40 },
+  ];
+
+  return (
+    <GeoMapChart
+      title="Top Countries"
+      data={data}
+      compact={true}
+      filter={
+        <Filter title="by GGR">
+          <SingleItemSelect
+            onChange={() => {}}
+            value="ggr"
+            options={[
+              { label: 'Active players', value: 'actives' },
+              { label: 'GGR', value: 'ggr' },
+              { label: 'Bets', value: 'bets' },
+            ]}
+          />
+        </Filter>
+      }
+      hasUpdates={true}
+      onUpdate={() => console.log('onUpdate')}
+      onShare={() => console.log('onShare')}
+      onExpand={() => console.log('onExpand')}
+    />
   );
 };
 ```

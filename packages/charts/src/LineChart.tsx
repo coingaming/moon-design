@@ -42,7 +42,7 @@ type Props = {
     [key: string]: number;
   }[];
   options: {
-    title: string;
+    label: any;
     key: string;
     value: string | number;
     color: ColorProps;
@@ -136,7 +136,7 @@ const LineChart: React.FC<Props> = ({
                   type="linear"
                   yAxisId={activeOption.yAxisId}
                   dataKey={activeOption.key}
-                  name={activeOption.title}
+                  name={activeOption.label}
                   stroke={themed('color', activeOption.color)(theme)}
                   dot={false}
                 />
