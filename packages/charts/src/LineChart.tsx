@@ -20,6 +20,7 @@ import ChartIcons from './ChartIcons';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => `
+  height: 100%;
   .recharts-cartesian-axis {
     text {
       fill: ${theme.color.trunks[100]};
@@ -53,7 +54,7 @@ type Props = {
   onExpand?: () => {};
   hasUpdates?: boolean;
   filter?: React.ReactNode;
-  containerHeight?: number;
+  height?: string | number;
   axisWidth?: number;
   icon?: any;
 };
@@ -67,7 +68,7 @@ const LineChart: React.FC<Props> = ({
   onExpand,
   hasUpdates = false,
   filter,
-  containerHeight = 256,
+  height = 526,
   axisWidth = 40,
   icon = <ChartIcons.Line />,
 }) => {
@@ -91,6 +92,7 @@ const LineChart: React.FC<Props> = ({
       onUpdate={onUpdate}
       onShare={onShare}
       onExpand={onExpand}
+      height={height}
     >
       <>
         <Header icon={icon} title={title} filter={filter} />
@@ -99,7 +101,7 @@ const LineChart: React.FC<Props> = ({
           options={options}
           onChange={handleSelectorChange}
         />
-        <ResponsiveContainerCustomized height={containerHeight}>
+        <ResponsiveContainerCustomized>
           <RechartsLineChart data={data}>
             <CartesianGrid stroke={themed('color', 'beerus.100')(theme)} />
             <RechartTooltip content={<Tooltip />} />
