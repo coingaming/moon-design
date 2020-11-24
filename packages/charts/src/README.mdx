@@ -6,6 +6,83 @@ route: /charts/charts
 
 # Charts
 
+## GeoMapChart
+
+```jsx react-live
+() => {
+  const data = [
+    { title: 'Estonia', code: 'EST', value: 120 },
+    { title: 'Russia', code: 'RUS', value: 100 },
+    { title: 'Belarus', code: 'BLR', value: 80 },
+    { title: 'Argentina', code: 'ARG', value: 60 },
+    { title: 'USA', code: 'USA', value: 40 },
+  ];
+
+  return (
+    <GeoMapChart
+      title="Top Countries"
+      data={data}
+      filter={
+        <Filter title="by GGR">
+          <SingleItemSelect
+            onChange={() => {}}
+            value="ggr"
+            options={[
+              { label: 'Active players', value: 'actives' },
+              { label: 'GGR', value: 'ggr' },
+              { label: 'Bets', value: 'bets' },
+            ]}
+          />
+        </Filter>
+      }
+      hasUpdates={true}
+      onUpdate={() => console.log('onUpdate')}
+      onShare={() => console.log('onShare')}
+      onExpand={() => console.log('onExpand')}
+    />
+  );
+};
+```
+
+```jsx react-live
+() => {
+  const data = [
+    { title: 'Estonia', code: 'EST', value: 120 },
+    { title: 'Russia', code: 'RUS', value: 100 },
+    { title: 'Belarus', code: 'BLR', value: 80 },
+    { title: 'Argentina', code: 'ARG', value: 60 },
+    { title: 'USA', code: 'USA', value: 40 },
+  ];
+
+  return (
+    <Inline>
+      <GeoMapChart
+        title="Top Countries"
+        data={data}
+        compact={true}
+        filter={
+          <Filter title="by GGR">
+            <SingleItemSelect
+              onChange={() => {}}
+              value="ggr"
+              options={[
+                { label: 'Active players', value: 'actives' },
+                { label: 'GGR', value: 'ggr' },
+                { label: 'Bets', value: 'bets' },
+              ]}
+            />
+          </Filter>
+        }
+        hasUpdates={true}
+        onUpdate={() => console.log('onUpdate')}
+        onShare={() => console.log('onShare')}
+        onExpand={() => console.log('onExpand')}
+      />
+    </Inline>
+  );
+};
+```
+
 ## LineChart
 
 ```jsx react-live
