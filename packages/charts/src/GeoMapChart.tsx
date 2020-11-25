@@ -18,7 +18,7 @@ const Container = styled.div`
 type Props = {
   title: string;
   data: {
-    label: any;
+    label: string | React.ReactNode;
     code: string;
     value: number;
   }[];
