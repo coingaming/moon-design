@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
-import { Heading, Link, Stack } from '@heathmont/moon-components';
+import { Link, Stack } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 
 import { Code } from '../components/code';
@@ -27,7 +27,7 @@ const Table = styled.table(
   })
 );
 
-const MarkdownStack = styled(Stack)(({ theme: { space } }) => ({
+const MarkdownStack = styled(Stack as any)(({ theme: { space } }) => ({
   'ul, ol': {
     '&:not([class])': {
       marginLeft: rem(space.default),
@@ -41,32 +41,32 @@ const MarkdownStack = styled(Stack)(({ theme: { space } }) => ({
  */
 export const mdxComponents = {
   wrapper: (props: any) => <MarkdownStack {...props} />,
-  h1: ({ children }: Children) => (
-    <Heading size="alpha" as="h1">
-      {children}
-    </Heading>
-  ),
-  h2: ({ children }: Children) => (
-    <Heading size="bravo" as="h2">
-      {children}
-    </Heading>
-  ),
-  h3: ({ children }: Children) => (
-    <Heading size="charlie" as="h3">
-      {children}
-    </Heading>
-  ),
-  h4: ({ children }: Children) => (
-    <Heading size="delta" as="h4">
-      {children}
-    </Heading>
-  ),
-  h5: ({ children }: Children) => (
-    <Heading size="echo" as="h5">
-      {children}
-    </Heading>
-  ),
-  p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
+  // h1: ({ children }: Children) => (
+  //   <Heading size="alpha" as="h1">
+  //     {children}
+  //   </Heading>
+  // ),
+  // h2: ({ children }: Children) => (
+  //   <Heading size="bravo" as="h2">
+  //     {children}
+  //   </Heading>
+  // ),
+  // h3: ({ children }: Children) => (
+  //   <Heading size="charlie" as="h3">
+  //     {children}
+  //   </Heading>
+  // ),
+  // h4: ({ children }: Children) => (
+  //   <Heading size="delta" as="h4">
+  //     {children}
+  //   </Heading>
+  // ),
+  // h5: ({ children }: Children) => (
+  //   <Heading size="echo" as="h5">
+  //     {children}
+  //   </Heading>
+  // ),
+  p: ({ children }: Children) => <p style={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
   table: ({ children }: Children) => <Table>{children}</Table>,
   /* @TODO Revisit post-EPL */
