@@ -1429,20 +1429,6 @@
     "@heathmont/moon-themes" "^2.49.3-alpha.0+d9adf3b2"
     "@heathmont/moon-utils" "^2.49.3-alpha.0+d9adf3b2"
 
-"@heathmont/moon-fonts@^2.49.3-alpha.0+d9adf3b2":
-  version "2.49.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-fonts/-/moon-fonts-2.49.3-alpha.0.tgz#5e666833c9670faaf445aff0b29caeae0987483d"
-  integrity sha512-ikhvr4IkuQj9/mBflmtxBotGRHRIG8P5i5gXrWGnVldEJJXzUSFSXTpijjx8hFta8M9iQmvv3nligPNrEfMeew==
-  dependencies:
-    "@heathmont/sportsbet-cdn" "1.1.0"
-
-"@heathmont/moon-themes@^2.49.3-alpha.0+d9adf3b2":
-  version "2.49.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-2.49.3-alpha.0.tgz#dd303e627d535f54715e3ed7b172bd1eafa1df8c"
-  integrity sha512-tO2vaOfLAVR4bGAlP2MJhGoZ7DyqBKz3GoA08mst+N/MaGAW/HMcXMmbFKGKT02iA1N+HzQRHzdMBal2uSVtTA==
-  dependencies:
-    "@heathmont/moon-fonts" "^2.49.3-alpha.0+d9adf3b2"
-
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
