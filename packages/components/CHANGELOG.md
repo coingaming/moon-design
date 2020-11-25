@@ -3,112 +3,90 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
-
+# [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 ### Bug Fixes
 
-* change value type to string to avoid leading zero ([705dc21](https://github.com/coingaming/sportsbet-design/commit/705dc21dd5b9e815e56c3faaf195eaf7eb3cadb7))
-* default badge size ([2e8d12b](https://github.com/coingaming/sportsbet-design/commit/2e8d12ba97659abbe6ae98f9cc26e4eea714977b))
-* fix console warnings ([d1be33a](https://github.com/coingaming/sportsbet-design/commit/d1be33ab902dae0e07c1916853b080d4326ac017))
-* fix datepicker day color for light themes ([faf0171](https://github.com/coingaming/sportsbet-design/commit/faf0171624fe6b460007a0d20817e553db57f685))
+- remove type for children prop ([98e9183](https://github.com/coingaming/sportsbet-design/commit/98e91839137dac95ef945674e190657fde5b256a))
 
+## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+# [2.52.0](https://github.com/coingaming/sportsbet-design/compare/v2.51.0...v2.52.0) (2020-11-17)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+### Bug Fixes
+
+- proper search onChange prop type ([df92698](https://github.com/coingaming/sportsbet-design/commit/df92698670412f5611bcbc3e0d4945bf6586b157))
+- ts for hideVisually ([11fe117](https://github.com/coingaming/sportsbet-design/commit/11fe11748083260f3ee82ca5b2c3c2123995e664))
 
 ### Features
 
-* move badge ([739022d](https://github.com/coingaming/sportsbet-design/commit/739022dc79e3fdba08bc35f80ce4c0f482032ca4))
+- initial commit ([5ea50e6](https://github.com/coingaming/sportsbet-design/commit/5ea50e661bd42e9b693a1f39e8f84d110da71115))
 
+# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
+### Bug Fixes
 
+- change value type to string to avoid leading zero ([705dc21](https://github.com/coingaming/sportsbet-design/commit/705dc21dd5b9e815e56c3faaf195eaf7eb3cadb7))
+- default badge size ([2e8d12b](https://github.com/coingaming/sportsbet-design/commit/2e8d12ba97659abbe6ae98f9cc26e4eea714977b))
+- fix console warnings ([d1be33a](https://github.com/coingaming/sportsbet-design/commit/d1be33ab902dae0e07c1916853b080d4326ac017))
+- fix datepicker day color for light themes ([faf0171](https://github.com/coingaming/sportsbet-design/commit/faf0171624fe6b460007a0d20817e553db57f685))
 
+### Features
+
+- move badge ([739022d](https://github.com/coingaming/sportsbet-design/commit/739022dc79e3fdba08bc35f80ce4c0f482032ca4))
 
 ## [2.49.1](https://github.com/coingaming/sportsbet-design/compare/v2.49.0...v2.49.1) (2020-10-21)
 
-
 ### Bug Fixes
 
-* fix background color ([81b98ab](https://github.com/coingaming/sportsbet-design/commit/81b98ab8789c2e81c745058e279c2e6b860e815f))
-* use maxWidth as inline style ([2040aa5](https://github.com/coingaming/sportsbet-design/commit/2040aa5197856281ef3d9a7ff3b4e51203e2d46a))
-
-
-
-
+- fix background color ([81b98ab](https://github.com/coingaming/sportsbet-design/commit/81b98ab8789c2e81c745058e279c2e6b860e815f))
+- use maxWidth as inline style ([2040aa5](https://github.com/coingaming/sportsbet-design/commit/2040aa5197856281ef3d9a7ff3b4e51203e2d46a))
 
 # [2.49.0](https://github.com/coingaming/sportsbet-design/compare/v2.48.0...v2.49.0) (2020-10-20)
 
-
 ### Bug Fixes
 
-* negative value in rem() ([d1c5d20](https://github.com/coingaming/sportsbet-design/commit/d1c5d20274369682db6580be85ef42224b18835b))
-
-
-
-
+- negative value in rem() ([d1c5d20](https://github.com/coingaming/sportsbet-design/commit/d1c5d20274369682db6580be85ef42224b18835b))
 
 # [2.48.0](https://github.com/coingaming/sportsbet-design/compare/v2.47.2...v2.48.0) (2020-10-19)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 ## [2.47.1](https://github.com/coingaming/sportsbet-design/compare/v2.47.0...v2.47.1) (2020-10-16)
-
 
 ### Bug Fixes
 
-* **reel:** docs container ([f36aa28](https://github.com/coingaming/sportsbet-design/commit/f36aa2894d2343d509a9d25b1d7f478240682fa1))
-
-
-
-
+- **reel:** docs container ([f36aa28](https://github.com/coingaming/sportsbet-design/commit/f36aa2894d2343d509a9d25b1d7f478240682fa1))
 
 # [2.47.0](https://github.com/coingaming/sportsbet-design/compare/v2.46.0...v2.47.0) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
-
 
 ### Bug Fixes
 
-* range picker ([15dd445](https://github.com/coingaming/sportsbet-design/commit/15dd445ff6225464b024eb6407d9e793b41aed73))
-
-
-
-
+- range picker ([15dd445](https://github.com/coingaming/sportsbet-design/commit/15dd445ff6225464b024eb6407d9e793b41aed73))
 
 # [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
 **Note:** Version bump only for package @heathmont/moon-components
 
-
-
-
-
 # [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
-
 
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
-
-
-
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 

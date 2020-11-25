@@ -3,166 +3,160 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
-
+# [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 ### Bug Fixes
 
-* change value type to string to avoid leading zero ([705dc21](https://github.com/coingaming/sportsbet-design/commit/705dc21dd5b9e815e56c3faaf195eaf7eb3cadb7))
-* default badge size ([2e8d12b](https://github.com/coingaming/sportsbet-design/commit/2e8d12ba97659abbe6ae98f9cc26e4eea714977b))
-* fix console warnings ([d1be33a](https://github.com/coingaming/sportsbet-design/commit/d1be33ab902dae0e07c1916853b080d4326ac017))
-* fix datepicker day color for light themes ([faf0171](https://github.com/coingaming/sportsbet-design/commit/faf0171624fe6b460007a0d20817e553db57f685))
-* fix hover color ([a9cfc94](https://github.com/coingaming/sportsbet-design/commit/a9cfc9408798a0500651a1eb44b72219cefa4907))
-
+- build ([9a0127c](https://github.com/coingaming/sportsbet-design/commit/9a0127c55847072f83e2d02bdc193b5133a7b054))
+- fix grid color ([45d400a](https://github.com/coingaming/sportsbet-design/commit/45d400a2c50a5d74416b6d58c76a1d74b29e8582))
+- fix map width ([7b8f983](https://github.com/coingaming/sportsbet-design/commit/7b8f983ca8e22fb75ad5111d63b5dd19f7a9e5c3))
+- fix opacity calc ([8e01713](https://github.com/coingaming/sportsbet-design/commit/8e01713fe141c823f2cb4a51aca5740a605c2002))
+- fix recharts version ([3bfc12d](https://github.com/coingaming/sportsbet-design/commit/3bfc12d76340c6ce6e2ed4ffce7138f2e41406de))
+- fix spaces ([1369615](https://github.com/coingaming/sportsbet-design/commit/13696159fd6ee4e61ff6d3fbd23a80eac2097d5e))
+- fix tooltip warnings ([7c44241](https://github.com/coingaming/sportsbet-design/commit/7c4424148dad3575dd8630fe2430c0fd3ab50d27))
+- fix types ([3d8545c](https://github.com/coingaming/sportsbet-design/commit/3d8545c04a117be0d17cb0984040ed931660baad))
+- remove type for children prop ([98e9183](https://github.com/coingaming/sportsbet-design/commit/98e91839137dac95ef945674e190657fde5b256a))
+- World110m.tsx -> World110m.ts ([17fa59a](https://github.com/coingaming/sportsbet-design/commit/17fa59a2a43b59469778abce31557aef88ea2a0b))
 
 ### Features
 
-* add hub88 logos ([0c7f708](https://github.com/coingaming/sportsbet-design/commit/0c7f708f01cc442f6b5ad9ef5fab585b7d71f2d6))
-* hideVisually utils ([5e3256c](https://github.com/coingaming/sportsbet-design/commit/5e3256c5e937d80d5da2f0428e6511cb732c0734))
-* move badge ([739022d](https://github.com/coingaming/sportsbet-design/commit/739022dc79e3fdba08bc35f80ce4c0f482032ca4))
-* **core:** introduce core package ([d9adf3b](https://github.com/coingaming/sportsbet-design/commit/d9adf3b27b8c4438bb02cb56c4f1a7d1bcec0d98))
+- add Geo Map Chart ([063f1ff](https://github.com/coingaming/sportsbet-design/commit/063f1ff643e20574277dd2ed2aecd7a1a394745b))
+- add initial package ([e4417a5](https://github.com/coingaming/sportsbet-design/commit/e4417a51cc485684a96f33997bf058b5b4c42175))
+- add LineChart ([e8c73f5](https://github.com/coingaming/sportsbet-design/commit/e8c73f5ba0162c1ce36059066e5cb77b053c0ee3))
+- add PieChart ([d274a5f](https://github.com/coingaming/sportsbet-design/commit/d274a5fb537a89022eee9d628b71746febf4abe0))
+- add TableChart ([7a0d493](https://github.com/coingaming/sportsbet-design/commit/7a0d49310e6562c36b2451a37744fd57228946f6))
 
+## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
 
+### Bug Fixes
 
+- change hit colors for moneyball ([3f55e79](https://github.com/coingaming/sportsbet-design/commit/3f55e792b98f946ce22e4bd0ea6db8cf23e2889c))
 
+# [2.52.0](https://github.com/coingaming/sportsbet-design/compare/v2.51.0...v2.52.0) (2020-11-17)
+
+### Features
+
+- add moneyball logo ([0de06cf](https://github.com/coingaming/sportsbet-design/commit/0de06cf7f5d482dadd94b83c6a6107789eeadc2a))
+
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+### Bug Fixes
+
+- proper search onChange prop type ([df92698](https://github.com/coingaming/sportsbet-design/commit/df92698670412f5611bcbc3e0d4945bf6586b157))
+- replace goku with gohan and vice versa ([8fdf129](https://github.com/coingaming/sportsbet-design/commit/8fdf1295d85cc2ee3f58b5e89ead5b7948c38c2f))
+- ts for hideVisually ([11fe117](https://github.com/coingaming/sportsbet-design/commit/11fe11748083260f3ee82ca5b2c3c2123995e664))
+- typography ([584b25f](https://github.com/coingaming/sportsbet-design/commit/584b25faaa404d5bdea003d097ba30a992eccff6))
+
+### Features
+
+- add casino logos ([adc226f](https://github.com/coingaming/sportsbet-design/commit/adc226f0668f13d7594a19000d63e45a3ec5250d))
+- add moneyballComAu theme ([4ef338b](https://github.com/coingaming/sportsbet-design/commit/4ef338bc4fd4a8923ce595f1882947f94857e148))
+- align logos ([3db40fa](https://github.com/coingaming/sportsbet-design/commit/3db40fab821d3efa81a64215965085c49588d530))
+- initial checkbox ([8bcc2e2](https://github.com/coingaming/sportsbet-design/commit/8bcc2e28ff221aa4d9a5ee5a846c4e5d521d53f3))
+- radius for mission tool design ([d85d325](https://github.com/coingaming/sportsbet-design/commit/d85d325f69e58c8c34c0d7ef84ce944eb4550352))
+- **checkbox:** color supports ([61503f8](https://github.com/coingaming/sportsbet-design/commit/61503f840bdead57679e25e1f3d8468dcff2c511))
+- **rem:** negative rem values ([3f76e23](https://github.com/coingaming/sportsbet-design/commit/3f76e234366e8aab160acc28693f8419b2d4b1b8))
+- initial commit ([5ea50e6](https://github.com/coingaming/sportsbet-design/commit/5ea50e661bd42e9b693a1f39e8f84d110da71115))
+
+# [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
+
+### Bug Fixes
+
+- change value type to string to avoid leading zero ([705dc21](https://github.com/coingaming/sportsbet-design/commit/705dc21dd5b9e815e56c3faaf195eaf7eb3cadb7))
+- default badge size ([2e8d12b](https://github.com/coingaming/sportsbet-design/commit/2e8d12ba97659abbe6ae98f9cc26e4eea714977b))
+- fix console warnings ([d1be33a](https://github.com/coingaming/sportsbet-design/commit/d1be33ab902dae0e07c1916853b080d4326ac017))
+- fix datepicker day color for light themes ([faf0171](https://github.com/coingaming/sportsbet-design/commit/faf0171624fe6b460007a0d20817e553db57f685))
+- fix hover color ([a9cfc94](https://github.com/coingaming/sportsbet-design/commit/a9cfc9408798a0500651a1eb44b72219cefa4907))
+
+### Features
+
+- add hub88 logos ([0c7f708](https://github.com/coingaming/sportsbet-design/commit/0c7f708f01cc442f6b5ad9ef5fab585b7d71f2d6))
+- hideVisually utils ([5e3256c](https://github.com/coingaming/sportsbet-design/commit/5e3256c5e937d80d5da2f0428e6511cb732c0734))
+- move badge ([739022d](https://github.com/coingaming/sportsbet-design/commit/739022dc79e3fdba08bc35f80ce4c0f482032ca4))
+- **core:** introduce core package ([d9adf3b](https://github.com/coingaming/sportsbet-design/commit/d9adf3b27b8c4438bb02cb56c4f1a7d1bcec0d98))
 
 ## [2.49.2](https://github.com/coingaming/sportsbet-design/compare/v2.49.1...v2.49.2) (2020-10-22)
 
-
 ### Bug Fixes
 
-* remove empty space ([e3ea54e](https://github.com/coingaming/sportsbet-design/commit/e3ea54e1a31371f0b7f8ef582bf89a3a797b828f))
-
-
-
-
+- remove empty space ([e3ea54e](https://github.com/coingaming/sportsbet-design/commit/e3ea54e1a31371f0b7f8ef582bf89a3a797b828f))
 
 ## [2.49.1](https://github.com/coingaming/sportsbet-design/compare/v2.49.0...v2.49.1) (2020-10-21)
 
-
 ### Bug Fixes
 
-* fix background color ([81b98ab](https://github.com/coingaming/sportsbet-design/commit/81b98ab8789c2e81c745058e279c2e6b860e815f))
-* use maxWidth as inline style ([2040aa5](https://github.com/coingaming/sportsbet-design/commit/2040aa5197856281ef3d9a7ff3b4e51203e2d46a))
-
-
-
-
+- fix background color ([81b98ab](https://github.com/coingaming/sportsbet-design/commit/81b98ab8789c2e81c745058e279c2e6b860e815f))
+- use maxWidth as inline style ([2040aa5](https://github.com/coingaming/sportsbet-design/commit/2040aa5197856281ef3d9a7ff3b4e51203e2d46a))
 
 # [2.49.0](https://github.com/coingaming/sportsbet-design/compare/v2.48.0...v2.49.0) (2020-10-20)
 
-
 ### Bug Fixes
 
-* negative value in rem() ([d1c5d20](https://github.com/coingaming/sportsbet-design/commit/d1c5d20274369682db6580be85ef42224b18835b))
-
+- negative value in rem() ([d1c5d20](https://github.com/coingaming/sportsbet-design/commit/d1c5d20274369682db6580be85ef42224b18835b))
 
 ### Features
 
-* add new icons ([87e7f4e](https://github.com/coingaming/sportsbet-design/commit/87e7f4e4941f3d9385d681285c10ad2567e48d11))
-
-
-
-
+- add new icons ([87e7f4e](https://github.com/coingaming/sportsbet-design/commit/87e7f4e4941f3d9385d681285c10ad2567e48d11))
 
 # [2.48.0](https://github.com/coingaming/sportsbet-design/compare/v2.47.2...v2.48.0) (2020-10-19)
 
-
 ### Features
 
-* added horse-racing icons in group ([bf415dc](https://github.com/coingaming/sportsbet-design/commit/bf415dc1af2b4c26a5d40dfb9451c2f2a3573d53))
-
-
-
-
+- added horse-racing icons in group ([bf415dc](https://github.com/coingaming/sportsbet-design/commit/bf415dc1af2b4c26a5d40dfb9451c2f2a3573d53))
 
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
-
 ### Bug Fixes
 
-* fix colours on Hub88 theme ([de76d2f](https://github.com/coingaming/sportsbet-design/commit/de76d2f4822e1d046bc6e40d00a7d75dcf0c90c5))
-
-
-
-
+- fix colours on Hub88 theme ([de76d2f](https://github.com/coingaming/sportsbet-design/commit/de76d2f4822e1d046bc6e40d00a7d75dcf0c90c5))
 
 ## [2.47.1](https://github.com/coingaming/sportsbet-design/compare/v2.47.0...v2.47.1) (2020-10-16)
 
-
 ### Bug Fixes
 
-* **reel:** docs container ([f36aa28](https://github.com/coingaming/sportsbet-design/commit/f36aa2894d2343d509a9d25b1d7f478240682fa1))
-* **table:** remove fit-content width from header ([e3a723c](https://github.com/coingaming/sportsbet-design/commit/e3a723cf491e73aac725d2baf7ae857b88659f2f))
-
-
-
-
+- **reel:** docs container ([f36aa28](https://github.com/coingaming/sportsbet-design/commit/f36aa2894d2343d509a9d25b1d7f478240682fa1))
+- **table:** remove fit-content width from header ([e3a723c](https://github.com/coingaming/sportsbet-design/commit/e3a723cf491e73aac725d2baf7ae857b88659f2f))
 
 # [2.47.0](https://github.com/coingaming/sportsbet-design/compare/v2.46.0...v2.47.0) (2020-10-16)
 
-
 ### Bug Fixes
 
-* **table:** maxWidth & maxHeight ([d2e7cdd](https://github.com/coingaming/sportsbet-design/commit/d2e7cddfc95c2e9252422c0e8744cfe76dca1679))
-* **table:** useFlexLayout ([16084fe](https://github.com/coingaming/sportsbet-design/commit/16084feb414fbffcff73fd6a0317e4518c44adde))
-
+- **table:** maxWidth & maxHeight ([d2e7cdd](https://github.com/coingaming/sportsbet-design/commit/d2e7cddfc95c2e9252422c0e8744cfe76dca1679))
+- **table:** useFlexLayout ([16084fe](https://github.com/coingaming/sportsbet-design/commit/16084feb414fbffcff73fd6a0317e4518c44adde))
 
 ### Features
 
-* moon pay icons ([541a0ba](https://github.com/coingaming/sportsbet-design/commit/541a0baf48e1f3ec13957ccf599cd74e627b1a11))
-
-
-
-
+- moon pay icons ([541a0ba](https://github.com/coingaming/sportsbet-design/commit/541a0baf48e1f3ec13957ccf599cd74e627b1a11))
 
 # [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
 
-
 ### Bug Fixes
 
-* range picker ([15dd445](https://github.com/coingaming/sportsbet-design/commit/15dd445ff6225464b024eb6407d9e793b41aed73))
-
+- range picker ([15dd445](https://github.com/coingaming/sportsbet-design/commit/15dd445ff6225464b024eb6407d9e793b41aed73))
 
 ### Features
 
-* missions logo ([4916e4b](https://github.com/coingaming/sportsbet-design/commit/4916e4bb370d24d73a9cdf6def9463913015e114))
-
-
-
-
+- missions logo ([4916e4b](https://github.com/coingaming/sportsbet-design/commit/4916e4bb370d24d73a9cdf6def9463913015e114))
 
 # [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
-
 ### Bug Fixes
 
-* bump versions in docs ([7219487](https://github.com/coingaming/sportsbet-design/commit/7219487f421be859e18dc3cbfabb8bff433a63c3))
-
+- bump versions in docs ([7219487](https://github.com/coingaming/sportsbet-design/commit/7219487f421be859e18dc3cbfabb8bff433a63c3))
 
 ### Features
 
-* add MissionsTool themes, fix piccolo for Slots ([ba882a3](https://github.com/coingaming/sportsbet-design/commit/ba882a3d42435833ee59b51c396f64d478ce0024))
-
-
-
-
+- add MissionsTool themes, fix piccolo for Slots ([ba882a3](https://github.com/coingaming/sportsbet-design/commit/ba882a3d42435833ee59b51c396f64d478ce0024))
 
 # [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
 
-
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
 
 ### Features
 
-* expanded rows ([#928](https://github.com/coingaming/sportsbet-design/issues/928)) ([31e36eb](https://github.com/coingaming/sportsbet-design/commit/31e36eb3b095f517712bd43f415e8dd5d9888b12))
-
-
-
-
+- expanded rows ([#928](https://github.com/coingaming/sportsbet-design/issues/928)) ([31e36eb](https://github.com/coingaming/sportsbet-design/commit/31e36eb3b095f517712bd43f415e8dd5d9888b12))
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 

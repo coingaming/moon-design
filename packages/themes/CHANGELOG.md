@@ -3,38 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
-
+# [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 ### Bug Fixes
 
-* fix colours on Hub88 theme ([de76d2f](https://github.com/coingaming/sportsbet-design/commit/de76d2f4822e1d046bc6e40d00a7d75dcf0c90c5))
+- build ([9a0127c](https://github.com/coingaming/sportsbet-design/commit/9a0127c55847072f83e2d02bdc193b5133a7b054))
 
+## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
 
+### Bug Fixes
 
+- change hit colors for moneyball ([3f55e79](https://github.com/coingaming/sportsbet-design/commit/3f55e792b98f946ce22e4bd0ea6db8cf23e2889c))
 
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
 
-# [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
+### Bug Fixes
 
+- replace goku with gohan and vice versa ([8fdf129](https://github.com/coingaming/sportsbet-design/commit/8fdf1295d85cc2ee3f58b5e89ead5b7948c38c2f))
 
 ### Features
 
-* add MissionsTool themes, fix piccolo for Slots ([ba882a3](https://github.com/coingaming/sportsbet-design/commit/ba882a3d42435833ee59b51c396f64d478ce0024))
+- add moneyballComAu theme ([4ef338b](https://github.com/coingaming/sportsbet-design/commit/4ef338bc4fd4a8923ce595f1882947f94857e148))
+- radius for mission tool design ([d85d325](https://github.com/coingaming/sportsbet-design/commit/d85d325f69e58c8c34c0d7ef84ce944eb4550352))
 
-
-
-
-
-# [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
-
+## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
+- fix colours on Hub88 theme ([de76d2f](https://github.com/coingaming/sportsbet-design/commit/de76d2f4822e1d046bc6e40d00a7d75dcf0c90c5))
 
+# [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
+### Features
 
+- add MissionsTool themes, fix piccolo for Slots ([ba882a3](https://github.com/coingaming/sportsbet-design/commit/ba882a3d42435833ee59b51c396f64d478ce0024))
 
+# [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
+
+### Bug Fixes
+
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 
