@@ -4,76 +4,64 @@ import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import React from 'react';
 
 const Button = styled.button<{ hasUpdates?: boolean }>(
-  ({ hasUpdates, theme }) => `
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  border: none;
-  background: none;
-  width: ${rem(24)};
-  height: ${rem(24)};
-  font-size: ${rem(16)};
-  color: ${theme.color.trunks[100]};
-  cursor: pointer;
-  position: relative;
-  will-change: color;
-  transition: color ${theme.transitionDuration.default}s;
-  &:hover, &:focus {
-    color: ${theme.color.piccolo[100]};
-  }
-  ${
-    hasUpdates
-      ? `
-      &:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: ${rem(4)};
-        height: ${rem(4)};
-        border-radius: 50%;
-        background: ${theme.color.piccolo[100]};
-      }
-    `
-      : ''
-  }
-`
+  ({ hasUpdates, theme }) => ({
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 0,
+    margin: 0,
+    border: 'none',
+    background: 'none',
+    width: rem(24),
+    height: rem(24),
+    fontSize: rem(16),
+    color: theme.color.trunks[100],
+    cursor: 'pointer',
+    position: 'relative',
+    willChange: 'color',
+    transition: `color ${theme.transitionDuration.default}s`,
+    '&:hover, &:focus': {
+      color: theme.color.piccolo[100],
+    },
+    ...(hasUpdates && {
+      '&:after': {
+        content: '""',
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        width: rem(4),
+        height: rem(4),
+        borderRadius: '50%',
+        background: theme.color.piccolo[100],
+      },
+    }),
+  })
 );
 
-const Container = styled.div<{ isActive: boolean }>(
-  ({ theme, isActive }) => `
-  display: flex;
-  flex-direction: column;
-  padding: ${rem(theme.space.default)};
-  color: ${isActive ? theme.color.goten[100] : theme.color.bulma[100]};
-  background: ${isActive ? theme.color.piccolo[100] : theme.color.gohan[100]};
-  border-radius: ${rem(theme.space.default)};
-  width: 100%;
-  ${
-    isActive
-      ? `
-      ${Button} {
-        color: ${theme.color.goten[100]};
-        &:after {
-          background: ${theme.color.goten[100]};
-        }
-      }
-    `
-      : ''
-  }
-`
-);
+const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
+  display: 'flex',
+  flexDirection: 'column',
+  padding: rem(theme.space.default),
+  color: isActive ? theme.color.goten[100] : theme.color.bulma[100],
+  background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
+  borderRadius: rem(theme.space.default),
+  width: '100%',
+  ...(isActive && {
+    [Button]: {
+      color: theme.color.goten[100],
+      '&:after': {
+        background: theme.color.goten[100],
+      },
+    },
+  }),
+}));
 
-const Header = styled.div(
-  ({ theme }) => `
-  display: grid;
-  flex-shrink: 0;
-  grid-template-columns: auto 1fr auto auto;
-  grid-column-gap: ${rem(theme.space.default)};
-`
-);
+const Header = styled.div(({ theme }) => ({
+  display: 'grid',
+  flexShrink: 0,
+  gridTemplateColumns: 'auto 1fr auto auto',
+  gridColumnGap: rem(theme.space.default),
+}));
 
 type Props = {
   hasUpdates: boolean;
