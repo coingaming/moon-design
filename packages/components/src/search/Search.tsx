@@ -11,7 +11,6 @@ interface Result {
 
 export type SearchProps = {
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
-  onChange?: (e: React.FormEvent<HTMLInputElement>) => void;
   query?: string;
   results?: [Result];
   loadingMessage?: JSX.Element;
