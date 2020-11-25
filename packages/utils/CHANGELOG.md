@@ -7,71 +7,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 ## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
-
 
 ### Bug Fixes
 
-* ts for hideVisually ([11fe117](https://github.com/coingaming/sportsbet-design/commit/11fe11748083260f3ee82ca5b2c3c2123995e664))
-
+- ts for hideVisually ([11fe117](https://github.com/coingaming/sportsbet-design/commit/11fe11748083260f3ee82ca5b2c3c2123995e664))
 
 ### Features
 
-* **rem:** negative rem values ([3f76e23](https://github.com/coingaming/sportsbet-design/commit/3f76e234366e8aab160acc28693f8419b2d4b1b8))
-
-
-
-
+- **rem:** negative rem values ([3f76e23](https://github.com/coingaming/sportsbet-design/commit/3f76e234366e8aab160acc28693f8419b2d4b1b8))
 
 # [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
-
 ### Features
 
-* hideVisually utils ([5e3256c](https://github.com/coingaming/sportsbet-design/commit/5e3256c5e937d80d5da2f0428e6511cb732c0734))
-
-
-
-
+- hideVisually utils ([5e3256c](https://github.com/coingaming/sportsbet-design/commit/5e3256c5e937d80d5da2f0428e6511cb732c0734))
 
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
-
 
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
-
-
-
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 
