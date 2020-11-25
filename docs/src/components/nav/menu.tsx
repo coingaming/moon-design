@@ -62,7 +62,7 @@ const MenuSection = styled.li<{ isOpen?: boolean }>(({ theme }) => [
   // },
 ]);
 
-const Heading = styled.li(({ theme: { color, fontWeight, space } }) => ({
+const Heading = styled.li(({ theme: { color, fontWeight } }) => ({
   display: 'block',
   fontSize: rem(16),
   fontWeight: fontWeight.semibold,

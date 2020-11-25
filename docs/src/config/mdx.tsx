@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
-import { Heading, Link, Stack } from '@heathmont/moon-components';
+import { Link, Stack } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 
 import { Code } from '../components/code';
@@ -27,7 +27,7 @@ const Table = styled.table(
   })
 );
 
-const MarkdownStack = styled(Stack)(({ theme: { space } }) => ({
+const MarkdownStack = styled(Stack as any)(({ theme: { space } }) => ({
   'ul, ol': {
     '&:not([class])': {
       marginLeft: rem(space.default),
@@ -66,7 +66,7 @@ export const mdxComponents = {
   //     {children}
   //   </Heading>
   // ),
-  p: ({ children }: Children) => <p css={maxWidth}>{children}</p>,
+  p: ({ children }: Children) => <p style={maxWidth}>{children}</p>,
   a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
   table: ({ children }: Children) => <Table>{children}</Table>,
   /* @TODO Revisit post-EPL */
