@@ -6,24 +6,16 @@ import { Header } from './private/Header';
 import { Count, Table, Cell, TableItem } from './private/Table';
 import ChartIcons from './ChartIcons';
 
-const Container = styled.div<{ isActive: boolean }>(
-  ({ theme, isActive }) => `
-  display: flex;
-  height: 100%;
-  overflow: auto;
-  ${
-    isActive
-      ? `
-      tr {
-        * {
-          color: ${theme.color.goten[100]};
-        }
-      }
-    `
-      : ''
-  }
-`
-);
+const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
+  display: 'flex',
+  height: '100%',
+  overflow: 'auto',
+  ...(isActive && {
+    'tr *': {
+      color: theme.color.goten[100],
+    },
+  }),
+}));
 
 type Props = {
   title: string;

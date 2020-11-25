@@ -17,17 +17,17 @@ import { Tooltip } from './private/Tooltip';
 import ChartIcons from './ChartIcons';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
-  ({ theme }) => `
-  height: 100%;
-  .charts-title {
-    fill: ${theme.color.trunks[100]};
-    font-size: ${rem(14)};
-  }
-  .chart-percent {
-    fill: ${theme.color.bulma[100]};
-    font-size: ${rem(24)};
-  }
-`
+  ({ theme }) => ({
+    height: '100%',
+    '.charts-title': {
+      fill: theme.color.trunks[100],
+      fontSize: rem(14),
+    },
+    '.chart-percent': {
+      fill: theme.color.bulma[100],
+      fontSize: rem(24),
+    },
+  })
 );
 
 type Props = {
