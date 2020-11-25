@@ -33,7 +33,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
 type Props = {
   title: string;
   data: {
-    label: any;
+    label: string;
     value: number;
     color: ColorProps;
   }[];
@@ -43,7 +43,7 @@ type Props = {
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
-  icon?: any;
+  icon?: React.ReactNode;
 };
 
 const PieChart: React.FC<Props> = ({

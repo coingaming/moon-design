@@ -20,7 +20,7 @@ const Container = styled.div`
 type Props = {
   color: string;
   data: {
-    label: string;
+    label: string | React.ReactNode;
     code: string;
     value: number;
     opacity: number;
