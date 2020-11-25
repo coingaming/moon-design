@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
+
+
+### Bug Fixes
+
+* change hit colors for moneyball ([3f55e79](https://github.com/coingaming/sportsbet-design/commit/3f55e792b98f946ce22e4bd0ea6db8cf23e2889c))
+
+
+
+
+
+# [2.52.0](https://github.com/coingaming/sportsbet-design/compare/v2.51.0...v2.52.0) (2020-11-17)
+
+
+### Features
+
+* add moneyball logo ([0de06cf](https://github.com/coingaming/sportsbet-design/commit/0de06cf7f5d482dadd94b83c6a6107789eeadc2a))
+
+
+
+
+
+# [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
+
+
+### Bug Fixes
+
+* proper search onChange prop type ([df92698](https://github.com/coingaming/sportsbet-design/commit/df92698670412f5611bcbc3e0d4945bf6586b157))
+* replace goku with gohan and vice versa ([8fdf129](https://github.com/coingaming/sportsbet-design/commit/8fdf1295d85cc2ee3f58b5e89ead5b7948c38c2f))
+* ts for hideVisually ([11fe117](https://github.com/coingaming/sportsbet-design/commit/11fe11748083260f3ee82ca5b2c3c2123995e664))
+* typography ([584b25f](https://github.com/coingaming/sportsbet-design/commit/584b25faaa404d5bdea003d097ba30a992eccff6))
+
+
+### Features
+
+* add casino logos ([adc226f](https://github.com/coingaming/sportsbet-design/commit/adc226f0668f13d7594a19000d63e45a3ec5250d))
+* add moneyballComAu theme ([4ef338b](https://github.com/coingaming/sportsbet-design/commit/4ef338bc4fd4a8923ce595f1882947f94857e148))
+* align logos ([3db40fa](https://github.com/coingaming/sportsbet-design/commit/3db40fab821d3efa81a64215965085c49588d530))
+* initial checkbox ([8bcc2e2](https://github.com/coingaming/sportsbet-design/commit/8bcc2e28ff221aa4d9a5ee5a846c4e5d521d53f3))
+* radius for mission tool design ([d85d325](https://github.com/coingaming/sportsbet-design/commit/d85d325f69e58c8c34c0d7ef84ce944eb4550352))
+* **checkbox:** color supports ([61503f8](https://github.com/coingaming/sportsbet-design/commit/61503f840bdead57679e25e1f3d8468dcff2c511))
+* **rem:** negative rem values ([3f76e23](https://github.com/coingaming/sportsbet-design/commit/3f76e234366e8aab160acc28693f8419b2d4b1b8))
+* initial commit ([5ea50e6](https://github.com/coingaming/sportsbet-design/commit/5ea50e661bd42e9b693a1f39e8f84d110da71115))
+
+
+
+
+
 # [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
 
