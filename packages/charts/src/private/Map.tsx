@@ -7,15 +7,15 @@ import { themed } from '@heathmont/moon-utils';
 import { TooltipWrapper, Item, ColorPreview } from './Tooltip';
 import worldMap from './World110m';
 
-const Container = styled.div`
-  position: relative;
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
+const Container = styled.div({
+  position: 'relative',
+  width: '60%',
+  height: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+});
 
 type Props = {
   color: string;

@@ -19,21 +19,20 @@ import { Header } from './private/Header';
 import ChartIcons from './ChartIcons';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
-  ({ theme }) => `
-  height: 100%;
-  .recharts-cartesian-axis {
-    text {
-      fill: ${theme.color.trunks[100]};
-      font-size: ${rem(theme.space.small)};
-    }
-  }
-  .recharts-cartesian-grid-vertical {
-    line:first-child,
-    line:last-child {
-      opacity: 0;
-    }
-  }
-`
+  ({ theme }) => ({
+    height: '100%',
+    '.recharts-cartesian-axis': {
+      text: {
+        fill: theme.color.trunks[100],
+        fontSize: rem(theme.space.small),
+      },
+    },
+    '.recharts-cartesian-grid-vertical': {
+      'line:first-child, line:last-child': {
+        opacity: 0,
+      },
+    },
+  })
 );
 
 type Props = {

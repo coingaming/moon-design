@@ -4,31 +4,29 @@ import styled from 'styled-components';
 
 import { Cell, Count, Table, TableItem } from './Table';
 
-const Container = styled.div`
-  flex: 1;
-  height: 100%;
-  overflow: auto;
-`;
+const Container = styled.div({
+  flex: 1,
+  height: '100%',
+  overflow: 'auto',
+});
 
-const Bar = styled.div`
-  position: relative;
-  height: ${rem(20)};
-  display: block;
-  width: 100%;
-`;
+const Bar = styled.div({
+  position: 'relative',
+  height: rem(20),
+  display: 'block',
+  width: '100%',
+});
 
-const Line = styled.div(
-  ({ theme }) => `
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 0 ${rem(4)} ${rem(4)} 0;
-    will-change: width;
-    transaction: width ${theme.transitionDuration.slow}s ease;
-  `
-);
+const Line = styled.div(({ theme }) => ({
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  height: '100%',
+  width: 0,
+  borderRadius: `0 ${rem(4)} ${rem(4)} 0`,
+  willChange: 'width',
+  transaction: `width ${theme.transitionDuration.slow}s ease`,
+}));
 
 type Props = {
   color: string;
