@@ -30,6 +30,10 @@ export {
   default as missionsToolLight,
 } from './missionsToolLight/missionsToolLight';
 export * from './missionsToolLight/missionsToolLight';
+export { default as moneyballDark } from './moneyball/moneyballDark';
+export * from './moneyball/moneyballDark';
+export { default as moneyballLight } from './moneyball/moneyballLight';
+export * from './moneyball/moneyballLight';
 export { default as sharedTokens } from './sharedTokens/sharedTokens';
 export * from './sharedTokens/sharedTokens';
 export { default as slotsDark } from './slotsDark/slotsDark';
@@ -40,10 +44,6 @@ export { default as sportsbetDark } from './sportsbetDark/sportsbetDark';
 export * from './sportsbetDark/sportsbetDark';
 export { default as sportsbetLight } from './sportsbetLight/sportsbetLight';
 export * from './sportsbetLight/sportsbetLight';
-export { default as moneyballLight } from './moneyball/moneyballLight';
-export * from './moneyball/moneyballLight';
-export { default as moneyballDark } from './moneyball/moneyballDark';
-export * from './moneyball/moneyballDark';
 export { default as supportColors } from './supportColors/supportColors';
 export * from './supportColors/supportColors';
 export { default as ThemeContext } from './themeContext/ThemeContext';
