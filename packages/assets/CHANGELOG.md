@@ -7,127 +7,70 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 ## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.52.0](https://github.com/coingaming/sportsbet-design/compare/v2.51.0...v2.52.0) (2020-11-17)
-
 
 ### Features
 
-* add moneyball logo ([0de06cf](https://github.com/coingaming/sportsbet-design/commit/0de06cf7f5d482dadd94b83c6a6107789eeadc2a))
-
-
-
-
+- add moneyball logo ([0de06cf](https://github.com/coingaming/sportsbet-design/commit/0de06cf7f5d482dadd94b83c6a6107789eeadc2a))
 
 # [2.51.0](https://github.com/coingaming/sportsbet-design/compare/v2.50.0...v2.51.0) (2020-11-16)
 
-
 ### Bug Fixes
 
-* typography ([584b25f](https://github.com/coingaming/sportsbet-design/commit/584b25faaa404d5bdea003d097ba30a992eccff6))
-
+- typography ([584b25f](https://github.com/coingaming/sportsbet-design/commit/584b25faaa404d5bdea003d097ba30a992eccff6))
 
 ### Features
 
-* add casino logos ([adc226f](https://github.com/coingaming/sportsbet-design/commit/adc226f0668f13d7594a19000d63e45a3ec5250d))
-* align logos ([3db40fa](https://github.com/coingaming/sportsbet-design/commit/3db40fab821d3efa81a64215965085c49588d530))
-
-
-
-
+- add casino logos ([adc226f](https://github.com/coingaming/sportsbet-design/commit/adc226f0668f13d7594a19000d63e45a3ec5250d))
+- align logos ([3db40fa](https://github.com/coingaming/sportsbet-design/commit/3db40fab821d3efa81a64215965085c49588d530))
 
 # [2.50.0](https://github.com/coingaming/sportsbet-design/compare/v2.49.2...v2.50.0) (2020-11-09)
 
-
 ### Features
 
-* add hub88 logos ([0c7f708](https://github.com/coingaming/sportsbet-design/commit/0c7f708f01cc442f6b5ad9ef5fab585b7d71f2d6))
-
-
-
-
+- add hub88 logos ([0c7f708](https://github.com/coingaming/sportsbet-design/commit/0c7f708f01cc442f6b5ad9ef5fab585b7d71f2d6))
 
 # [2.49.0](https://github.com/coingaming/sportsbet-design/compare/v2.48.0...v2.49.0) (2020-10-20)
 
-
 ### Features
 
-* add new icons ([87e7f4e](https://github.com/coingaming/sportsbet-design/commit/87e7f4e4941f3d9385d681285c10ad2567e48d11))
-
-
-
-
+- add new icons ([87e7f4e](https://github.com/coingaming/sportsbet-design/commit/87e7f4e4941f3d9385d681285c10ad2567e48d11))
 
 # [2.48.0](https://github.com/coingaming/sportsbet-design/compare/v2.47.2...v2.48.0) (2020-10-19)
 
-
 ### Features
 
-* added horse-racing icons in group ([bf415dc](https://github.com/coingaming/sportsbet-design/commit/bf415dc1af2b4c26a5d40dfb9451c2f2a3573d53))
-
-
-
-
+- added horse-racing icons in group ([bf415dc](https://github.com/coingaming/sportsbet-design/commit/bf415dc1af2b4c26a5d40dfb9451c2f2a3573d53))
 
 ## [2.47.2](https://github.com/coingaming/sportsbet-design/compare/v2.47.1...v2.47.2) (2020-10-16)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.47.0](https://github.com/coingaming/sportsbet-design/compare/v2.46.0...v2.47.0) (2020-10-16)
-
 
 ### Features
 
-* moon pay icons ([541a0ba](https://github.com/coingaming/sportsbet-design/commit/541a0baf48e1f3ec13957ccf599cd74e627b1a11))
-
-
-
-
+- moon pay icons ([541a0ba](https://github.com/coingaming/sportsbet-design/commit/541a0baf48e1f3ec13957ccf599cd74e627b1a11))
 
 # [2.46.0](https://github.com/coingaming/sportsbet-design/compare/v2.45.0...v2.46.0) (2020-10-15)
 
-
 ### Features
 
-* missions logo ([4916e4b](https://github.com/coingaming/sportsbet-design/commit/4916e4bb370d24d73a9cdf6def9463913015e114))
-
-
-
-
+- missions logo ([4916e4b](https://github.com/coingaming/sportsbet-design/commit/4916e4bb370d24d73a9cdf6def9463913015e114))
 
 # [2.45.0](https://github.com/coingaming/sportsbet-design/compare/v2.44.0...v2.45.0) (2020-10-14)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [2.44.0](https://github.com/coingaming/sportsbet-design/compare/v2.43.0...v2.44.0) (2020-10-12)
-
 
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
-
-
-
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/sportsbet-design/issues/927)) ([3bda429](https://github.com/coingaming/sportsbet-design/commit/3bda429eedeebad0e7669abc2d10a109a245cb44))
 
 # [2.43.0](https://github.com/coingaming/sportsbet-design/compare/v2.42.0...v2.43.0) (2020-10-08)
 

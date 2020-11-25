@@ -22,13 +22,19 @@ An interactive extension of the [`Reel`](../reel) component to cycle through con
     justifyContent: 'center',
   }));
 
+  const Container = styled.div({
+    maxWidth: '600px',
+  });
+
   return (
-    <Carousel
-      scrollTo={5}
-      items={items.map((item, index) => (
-        <ExampleContent>{index}</ExampleContent>
-      ))}
-    />
+    <Container>
+      <Carousel
+        scrollTo={5}
+        items={items.map((item, index) => (
+          <ExampleContent>{index}</ExampleContent>
+        ))}
+      />
+    </Container>
   );
 };
 ```

@@ -9,4 +9,5 @@ export type Brand =
   | 'Aposta10'
   | 'BTCXE'
   | 'MissionsTool'
-  | 'Moneyball';
+  | 'Moneyball'
+  | 'MoonDesign';
