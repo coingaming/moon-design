@@ -39,7 +39,8 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
 type Props = {
   title: string;
   data: {
-    [key: string]: number;
+    date: string;
+    [key: string]: string | number;
   }[];
   options: {
     label: any;
