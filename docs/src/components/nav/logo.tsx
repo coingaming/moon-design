@@ -13,6 +13,7 @@ import {
   LogoSlotsFull,
   LogoSportsbetFull,
   LogoMoonDesign,
+  LogoMoneyball,
 } from '@heathmont/moon-assets';
 import { mq } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
@@ -88,6 +89,7 @@ export const Logo = () => {
       {brand === 'Hub88' && <LogoHub88Full width="100%" height="auto" />}
       {brand === 'Aposta10' && <LogoAposta10Full width="100%" height="auto" />}
       {brand === 'MissionsTool' && <LogoMissions fontSize="2rem" />}
+      {brand === 'Moneyball' && <LogoMoneyball />}
 
       <IconChevronDown aria-hidden="true" />
 
@@ -102,6 +104,7 @@ export const Logo = () => {
         <option value="hub88">Hub88</option>
         <option value="aposta10">Aposta10</option>
         <option value="missionsTool">MissionsTool</option>
+        <option value="moneyball">Moneyball</option>
       </BrandSelect>
     </LogoContainer>
   );

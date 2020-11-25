@@ -7,7 +7,6 @@ import Search from './private/Search';
 type FilterDropdownProps = {
   searchPlaceholder?: string;
   onSearchChange?: (value: string) => void;
-  children?: JSX.Element | JSX.Element[];
 };
 
 const FilterDropdownWrapper = styled.div(({ theme }) => ({

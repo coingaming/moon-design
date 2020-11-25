@@ -12,6 +12,7 @@
     "pagination",
     "sidebar",
     "table",
+    "charts",
     "themes",
     "tokens",
     "utils"
@@ -27,6 +28,7 @@
     "Private",
     "Sidebar",
     "Table",
+    "Charts",
     "Utils"
   ]
 }
