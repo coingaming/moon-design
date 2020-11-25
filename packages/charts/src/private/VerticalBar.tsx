@@ -33,7 +33,7 @@ const Line = styled.div(
 type Props = {
   color: string;
   data: {
-    label: string;
+    label: string | React.ReactNode;
     value: number;
     opacity: number;
     percent: number;
