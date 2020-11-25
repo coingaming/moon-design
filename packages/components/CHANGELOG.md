@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
+
+
+### Bug Fixes
+
+* remove type for children prop ([98e9183](https://github.com/coingaming/sportsbet-design/commit/98e91839137dac95ef945674e190657fde5b256a))
+
+
+
+
+
 ## [2.52.1](https://github.com/coingaming/sportsbet-design/compare/v2.52.0...v2.52.1) (2020-11-18)
 
 **Note:** Version bump only for package @heathmont/moon-components
