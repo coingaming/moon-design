@@ -5,8 +5,7 @@ import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
 import { TooltipWrapper, Item, ColorPreview } from './Tooltip';
-// @ts-ignore
-import worldMap from './world-110m.json';
+import worldMap from './World110m';
 
 const Container = styled.div`
   position: relative;
