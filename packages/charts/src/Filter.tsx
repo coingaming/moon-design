@@ -5,60 +5,47 @@ import { FilterDropdown, Text } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import { useClickAway, useKey } from 'react-use';
 
-const Title = styled(Text)(
-  ({ theme }) => `
-  color: ${theme.color.trunks[100]};
-`
-);
+const Title = styled(Text)(({ theme }) => ({
+  color: theme.color.trunks[100],
+}));
 
-const Toggle = styled.button<{ isOpen: boolean }>(
-  ({ isOpen, theme }) => `
-  display: flex;
-  font-size: ${rem(12)};
-  align-items: center;
-  color: ${isOpen ? theme.color.piccolo[100] : theme.color.trunks[100]};
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  ${Title} {
-    margin-right: ${rem(8)};
-  }
-`
-);
+const Toggle = styled.button<{ isOpen: boolean }>(({ isOpen, theme }) => ({
+  display: 'flex',
+  fontSize: rem(12),
+  alignItems: 'center',
+  color: isOpen ? theme.color.piccolo[100] : theme.color.trunks[100],
+  background: 'none',
+  border: 'none',
+  padding: 0,
+  margin: 0,
+  cursor: 'pointer',
+  [Title]: {
+    marginRight: rem(8),
+  },
+}));
 
-const Container = styled.div<{ isActive: boolean }>(
-  ({ isActive, theme }) => `
-  display: inline-block;
-  position: relative;
+const Container = styled.div<{ isActive: boolean }>(({ isActive, theme }) => ({
+  display: 'inline-block',
+  position: 'relative',
+  ...(isActive && {
+    [Title]: {
+      color: theme.color.goten[100],
+    },
+    [Toggle]: {
+      color: theme.color.goten[100],
+    },
+  }),
+}));
 
-  ${
-    isActive
-      ? `
-      ${Title} {
-        color: ${theme.color.goten[100]};
-      }
-      ${Toggle} {
-        color: ${theme.color.goten[100]};
-      }
-    `
-      : ''
-  }
-`
-);
-
-const DropdownWrapper = styled.div(
-  ({ theme }) => `
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: ${rem(8)};
-  color: ${theme.color.bulma[100]};
-  z-index: ${theme.zIndex.toggle};
-`
-);
+const DropdownWrapper = styled.div(({ theme }) => ({
+  position: 'absolute',
+  top: '100%',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  paddingTop: rem(8),
+  color: theme.color.bulma[100],
+  zIndex: theme.zIndex.toggle,
+}));
 
 type Props = {
   forceOpen?: boolean;

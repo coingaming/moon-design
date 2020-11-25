@@ -9,16 +9,16 @@ import ChartIcons from './ChartIcons';
 import { VerticalBar } from './private/VerticalBar';
 import { Map } from './private/Map';
 
-const Container = styled.div`
-  display: flex;
-  height: 100%;
-  overflow: hidden;
-`;
+const Container = styled.div({
+  display: 'flex',
+  height: '100%',
+  overflow: 'hidden',
+});
 
 type Props = {
   title: string;
   data: {
-    label: any;
+    label: string | React.ReactNode;
     code: string;
     value: number;
   }[];
