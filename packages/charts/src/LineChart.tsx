@@ -43,7 +43,7 @@ type Props = {
     [key: string]: string | number;
   }[];
   options: {
-    label: any;
+    label: string;
     key: string;
     value: string | number;
     color: ColorProps;
@@ -57,7 +57,7 @@ type Props = {
   filter?: React.ReactNode;
   height?: string | number;
   axisWidth?: number;
-  icon?: any;
+  icon?: React.ReactNode;
 };
 
 const LineChart: React.FC<Props> = ({
