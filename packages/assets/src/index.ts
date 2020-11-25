@@ -1152,6 +1152,8 @@ export { default as LogoLuckyslotsShort } from './logos/LogoLuckyslotsShort';
 export * from './logos/LogoLuckyslotsShort';
 export { default as LogoMissions } from './logos/LogoMissions';
 export * from './logos/LogoMissions';
+export { default as LogoMoneyball } from './logos/LogoMoneyball';
+export * from './logos/LogoMoneyball';
 export { default as LogoMoonDesign } from './logos/LogoMoonDesign';
 export * from './logos/LogoMoonDesign';
 export { default as LogoSlotsFull } from './logos/LogoSlotsFull';
