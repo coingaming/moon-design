@@ -32,7 +32,7 @@ const sidebar = graphql`
   }
 `;
 
-const NavContainer = styled.nav(({ theme: { space, color } }) => ({
+const NavContainer = styled.nav(({ theme: { color } }) => ({
   paddingTop: rem(24),
   paddingBottom: rem(24),
   paddingLeft: rem(32),
