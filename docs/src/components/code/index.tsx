@@ -9,6 +9,7 @@ import * as Pagination from '@heathmont/moon-pagination';
 import * as Sidebar from '@heathmont/moon-sidebar';
 import * as Calendar from '@heathmont/moon-calendar';
 import * as Table from '@heathmont/moon-table';
+import * as Charts from '@heathmont/moon-charts';
 import * as Core from '@heathmont/moon-core';
 import { useTheme } from '@heathmont/moon-themes';
 
@@ -66,6 +67,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
             ...Sidebar,
             ...Calendar,
             ...Table,
+            ...Charts,
             useTheme,
             styled,
           }}
