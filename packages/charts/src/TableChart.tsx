@@ -4,31 +4,24 @@ import styled from 'styled-components';
 import { Panel } from './private/Panel';
 import { Header } from './private/Header';
 import { Count, Table, Cell, TableItem } from './private/Table';
+import ChartIcons from './ChartIcons';
 
-const Container = styled.div<{ isActive: boolean }>(
-  ({ theme, isActive }) => `
-  display: flex;
-  height: 100%;
-  overflow: auto;
-  ${
-    isActive
-      ? `
-      tr {
-        * {
-          color: ${theme.color.goten[100]};
-        }
-      }
-    `
-      : ''
-  }
-`
-);
+const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
+  display: 'flex',
+  height: '100%',
+  overflow: 'auto',
+  ...(isActive && {
+    'tr *': {
+      color: theme.color.goten[100],
+    },
+  }),
+}));
 
 type Props = {
   title: string;
   data: {
-    label: any;
-    value: any;
+    label: string | React.ReactNode;
+    value: number | string | React.ReactNode;
   }[];
   onUpdate?: () => {};
   onShare?: () => {};
@@ -36,7 +29,7 @@ type Props = {
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
-  icon?: any;
+  icon?: React.ReactNode;
   isActive?: boolean;
 };
 
@@ -49,7 +42,7 @@ const TableChart: React.FC<Props> = ({
   hasUpdates = false,
   filter,
   height = 446,
-  icon,
+  icon = <ChartIcons.TopPlayers />,
   isActive = false,
 }) => {
   return (

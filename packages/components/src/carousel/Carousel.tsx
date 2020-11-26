@@ -25,7 +25,6 @@ const currentScrollingSpec = `@supports (scroll-snap-align: start)`;
 const CarouselWrapper = styled.div<any>({
   position: 'relative',
   width: '100%',
-  // overflowX: 'auto',
 });
 
 /**

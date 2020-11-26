@@ -16,6 +16,8 @@ import {
   hub88,
   missionsToolDark,
   missionsToolLight,
+  moonDesignDark,
+  moonDesignLight,
   Theme,
   moneyballDark,
   moneyballLight,
@@ -58,6 +60,10 @@ const themes: DocsThemes = {
     dark: missionsToolDark,
     light: missionsToolLight,
   },
+  moonDesign: {
+    dark: moonDesignDark,
+    light: moonDesignLight,
+  },
   moneyball: {
     dark: moneyballDark,
     light: moneyballLight,
@@ -79,6 +85,7 @@ type DocsThemes = {
   hub88: DocsColorModes;
   aposta10: DocsColorModes;
   missionsTool: DocsColorModes;
+  moonDesign: DocsColorModes;
   moneyball: DocsColorModes;
 };
 
@@ -98,25 +105,14 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   children,
 }) => {
   const [themeState, setThemeState] = React.useState({
-    brand: 'sportsbet',
+    brand: 'moonDesign',
     colorMode: 'dark',
   });
-
-  const consoleInfoTheme = () =>
-    process.env.NODE_ENV !== 'production' &&
-    /* eslint-disable-next-line no-console */
-    console.info(
-      '🎨 Theme: ',
-      themeState,
-      themes[themeState.brand][themeState.colorMode]
-    );
 
   /**
    * Toggle between themes 'dark' and 'light' states
    */
   const toggleColorScheme = () => {
-    consoleInfoTheme();
-
     setThemeState({
       brand: themeState.brand,
       colorMode: themeState.colorMode === 'dark' ? 'light' : 'dark',
@@ -124,7 +120,6 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   };
 
   const setBrand = (themeKey: DocsBrands) => {
-    consoleInfoTheme();
     setThemeState({ brand: themeKey, colorMode: themeState.colorMode });
   };
 
