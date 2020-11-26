@@ -113,7 +113,7 @@ exports[`TagInput renders with focused state 1`] = `
   border-radius: 0.75rem;
   -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c0:hover {
@@ -125,7 +125,7 @@ exports[`TagInput renders with focused state 1`] = `
 }
 
 .c0:hover {
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 <div
