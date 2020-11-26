@@ -3,14 +3,14 @@ import sportsbetDark from '../sportsbetDark/sportsbetDark';
 
 const lightColors = {
   piccolo: {
-    120: '#02C556',
-    100: '#0CD463',
-    80: '#19E170',
+    120: '#02C054',
+    100: '#0CCF61',
+    80: '#18DC6D',
   },
   hit: {
-    120: '#e8e8e8',
-    100: '#f0f0f0',
-    80: '#F7F7F7',
+    120: '#D6D8DB',
+    100: '#DFE0E2',
+    80: '#E7E8E9',
   },
   beerus: {
     100: '#E6E6E6',
@@ -34,7 +34,7 @@ const lightColors = {
     100: '#1A212A',
   },
   trunks: {
-    100: '#8697A2',
+    100: '#607680',
   },
 };
 
