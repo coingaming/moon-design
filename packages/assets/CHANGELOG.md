@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.54.0](https://github.com/coingaming/sportsbet-design/compare/v2.53.0...v2.54.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* update logos readme ([2ed3796](https://github.com/coingaming/sportsbet-design/commit/2ed3796450e45b54531915ac59e6c56ebb57fb12))
+
+
+### Features
+
+* added Aposta10 logo ([36dd487](https://github.com/coingaming/sportsbet-design/commit/36dd487f9038f06c1ce8961f2e7e295e1bf14078))
+* moon design initial commit ([f12dca3](https://github.com/coingaming/sportsbet-design/commit/f12dca3e20bc205a4aad2a9f9de94b3b445f79f3))
+
+
+
+
+
 # [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 **Note:** Version bump only for package @heathmont/moon-assets
