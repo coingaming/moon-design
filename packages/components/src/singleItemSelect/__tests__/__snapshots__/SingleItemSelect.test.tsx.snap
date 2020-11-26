@@ -109,7 +109,7 @@ exports[`SingleItemSelect renders with pre-selected value 1`] = `
   width: 100%;
   cursor: pointer;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 <ul
