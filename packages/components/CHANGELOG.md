@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.54.0](https://github.com/coingaming/sportsbet-design/compare/v2.53.0...v2.54.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* carousel centered ([c1978ba](https://github.com/coingaming/sportsbet-design/commit/c1978babd4acc5cd267a3a3135e0e8ac49640fdb))
+* carousel container ([1f79fe0](https://github.com/coingaming/sportsbet-design/commit/1f79fe0c2cf49e0591a09a49b57811fbb1cdccb5))
+
+
+
+
+
 # [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 ### Bug Fixes

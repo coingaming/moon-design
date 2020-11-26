@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.54.0](https://github.com/coingaming/sportsbet-design/compare/v2.53.0...v2.54.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* build ([f4d78ce](https://github.com/coingaming/sportsbet-design/commit/f4d78ce4fa19b17c48912d78e36054558ff1d81f))
+
+
+### Features
+
+* added Aposta10 logo ([36dd487](https://github.com/coingaming/sportsbet-design/commit/36dd487f9038f06c1ce8961f2e7e295e1bf14078))
+* docs ([464e674](https://github.com/coingaming/sportsbet-design/commit/464e674abab0cc3b9fa487becb818b7c6280f0dd))
+* docs improved ([6fcc808](https://github.com/coingaming/sportsbet-design/commit/6fcc80801ec331c65239ba20b8756e355c9f2527))
+* initial menu ([9102a84](https://github.com/coingaming/sportsbet-design/commit/9102a842af423238659b21e546c92bee837940f6))
+* mission theme ([cfe7ffc](https://github.com/coingaming/sportsbet-design/commit/cfe7ffc6d033ae710327ea7bf20666b54e708b41))
+* moon design initial commit ([f12dca3](https://github.com/coingaming/sportsbet-design/commit/f12dca3e20bc205a4aad2a9f9de94b3b445f79f3))
+
+
+
+
+
 # [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 ### Features
