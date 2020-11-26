@@ -65,7 +65,7 @@ exports[`Caption renders default color 1`] = `
 
 exports[`Caption renders with a color 1`] = `
 .c0 {
-  color: #0CD463;
+  color: #0CCF61;
   font-size: 0.625rem;
   line-height: 1rem;
   font-weight: 500;

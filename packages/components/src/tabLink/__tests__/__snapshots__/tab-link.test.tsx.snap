@@ -30,7 +30,7 @@ exports[`Nav - TabLink renders as a component 1`] = `
   right: 0;
   bottom: 0;
   margin: 0 auto;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -96,7 +96,7 @@ exports[`Nav - TabLink renders as active 1`] = `
   right: 0;
   bottom: 0;
   margin: 0 auto;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -161,7 +161,7 @@ exports[`Nav - TabLink renders as active 2`] = `
   right: 0;
   bottom: 0;
   margin: 0 auto;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -227,7 +227,7 @@ exports[`Nav - TabLink renders as an anchor by default 1`] = `
   right: 0;
   bottom: 0;
   margin: 0 auto;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
