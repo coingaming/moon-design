@@ -114,7 +114,7 @@ exports[`Form renders a form combo 1`] = `
 }
 
 .c7:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -292,7 +292,7 @@ exports[`Form renders a form combo without a label 1`] = `
 }
 
 .c6:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 

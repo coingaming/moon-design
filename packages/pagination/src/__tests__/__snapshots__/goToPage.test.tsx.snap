@@ -63,7 +63,7 @@ exports[`GoToPage renders correctly 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -97,7 +97,7 @@ exports[`GoToPage renders correctly 1`] = `
 
 .c2:hover,
 .c2:focus {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   color: #FFFFFF;
 }
 
@@ -133,7 +133,7 @@ exports[`GoToPage renders correctly 1`] = `
 
 .c0 > button:hover,
 .c0 > button:focus {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   color: #fff;
 }
 
@@ -233,7 +233,7 @@ exports[`GoToPage renders correctly with label 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -267,7 +267,7 @@ exports[`GoToPage renders correctly with label 1`] = `
 
 .c2:hover,
 .c2:focus {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   color: #FFFFFF;
 }
 
@@ -303,7 +303,7 @@ exports[`GoToPage renders correctly with label 1`] = `
 
 .c0 > button:hover,
 .c0 > button:focus {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   color: #fff;
 }
 

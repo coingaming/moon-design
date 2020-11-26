@@ -67,7 +67,7 @@ exports[`TextInput renders as \`disabled\` when defined 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -495,7 +495,7 @@ exports[`TextInput renders correctly for other types 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -689,7 +689,7 @@ exports[`TextInput renders correctly with \`text\` type by default 1`] = `
 }
 
 .c1:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -768,7 +768,7 @@ exports[`TextInput renders correctly without a label 1`] = `
 }
 
 .c0:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
