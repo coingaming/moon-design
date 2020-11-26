@@ -12,7 +12,7 @@ exports[`FilterDropdown renders by default 1`] = `
   background-color: transparent;
   color: #FFFFFF;
   padding: 0.125rem 1.25rem 0.125rem 0;
-  caret-color: #0CD463;
+  caret-color: #0CCF61;
   outline: none;
 }
 

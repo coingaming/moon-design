@@ -89,7 +89,7 @@ exports[`Header renders correctly with title and back button 1`] = `
 }
 
 .c1 > .c2 {
-  color: #0CD463;
+  color: #0CCF61;
   font-size: 1.5rem;
 }
 

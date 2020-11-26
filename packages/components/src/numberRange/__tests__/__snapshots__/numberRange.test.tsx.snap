@@ -66,7 +66,7 @@ exports[`Number Range renders correctly 1`] = `
 }
 
 .c4:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
