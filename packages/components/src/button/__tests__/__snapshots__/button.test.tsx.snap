@@ -16,7 +16,7 @@ exports[`Button renders as an anchor tag 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -31,14 +31,14 @@ exports[`Button renders as an anchor tag 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -86,7 +86,7 @@ exports[`Button renders as disabled 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -101,14 +101,14 @@ exports[`Button renders as disabled 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -158,7 +158,7 @@ exports[`Button renders as fullWidth 1`] = `
   white-space: nowrap;
   position: relative;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -173,14 +173,14 @@ exports[`Button renders as fullWidth 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -227,7 +227,7 @@ exports[`Button renders correctly 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -242,14 +242,14 @@ exports[`Button renders correctly 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -433,7 +433,7 @@ exports[`Button variants renders as primary 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -448,14 +448,14 @@ exports[`Button variants renders as primary 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -1050,7 +1050,7 @@ exports[`Button variants variants MockStates Primary renders as active 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -1065,14 +1065,14 @@ exports[`Button variants variants MockStates Primary renders as active 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -1119,7 +1119,7 @@ exports[`Button variants variants MockStates Primary renders with hover 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -1134,14 +1134,14 @@ exports[`Button variants variants MockStates Primary renders with hover 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 

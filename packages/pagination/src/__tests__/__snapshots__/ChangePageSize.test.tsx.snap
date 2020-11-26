@@ -78,7 +78,7 @@ exports[`ChangePageSize renders correctly 1`] = `
 .c2:hover:not([disabled]),
 .c2:focus:not([disabled]) {
   background: none;
-  color: #0CD463;
+  color: #0CCF61;
 }
 
 <div

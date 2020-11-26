@@ -89,7 +89,7 @@ exports[`Checkbox renders as checked 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -98,9 +98,9 @@ exports[`Checkbox renders as checked 1`] = `
 }
 
 .c1:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c1[disabled] + span {
@@ -216,7 +216,7 @@ exports[`Checkbox renders as disabled 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -225,9 +225,9 @@ exports[`Checkbox renders as disabled 1`] = `
 }
 
 .c1:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c1[disabled] + span {
@@ -342,7 +342,7 @@ exports[`Checkbox renders by default 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -351,9 +351,9 @@ exports[`Checkbox renders by default 1`] = `
 }
 
 .c1:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c1[disabled] + span {
@@ -468,7 +468,7 @@ exports[`Checkbox renders label with HTML 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -477,9 +477,9 @@ exports[`Checkbox renders label with HTML 1`] = `
 }
 
 .c1:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c1[disabled] + span {
@@ -602,7 +602,7 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 .c1:hover:enabled:checked + span::before,
 .c1:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c1:hover:enabled:not(:checked) + span::after,
@@ -611,9 +611,9 @@ exports[`Checkbox renders with hidden aria-label 1`] = `
 }
 
 .c1:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c1[disabled] + span {
