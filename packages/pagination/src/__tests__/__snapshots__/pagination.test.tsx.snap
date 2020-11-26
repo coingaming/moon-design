@@ -424,14 +424,14 @@ exports[`Pagination renders correctly with "change page size" section 1`] = `
 
 .c6.is-hover:not([disabled]),
 .c6:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c6.is-active,
 .c6.has-focus,
 .c6:active,
 .c6:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
