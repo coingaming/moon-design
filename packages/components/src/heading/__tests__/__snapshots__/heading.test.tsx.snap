@@ -240,7 +240,7 @@ exports[`Heading Sizes Colors renders default color 1`] = `
 
 exports[`Heading Sizes Colors renders with a color 1`] = `
 .c0 {
-  color: #0CD463;
+  color: #0CCF61;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;

@@ -16,7 +16,7 @@ exports[`Pagination renders correctly 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.75rem;
   line-height: 1rem;
   height: 2rem;
@@ -31,14 +31,14 @@ exports[`Pagination renders correctly 1`] = `
 
 .c2.is-hover:not([disabled]),
 .c2:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c2.is-active,
 .c2.has-focus,
 .c2:active,
 .c2:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -367,7 +367,7 @@ exports[`Pagination renders correctly with "change page size" section 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.75rem;
   line-height: 1rem;
   height: 2rem;
@@ -382,14 +382,14 @@ exports[`Pagination renders correctly with "change page size" section 1`] = `
 
 .c2.is-hover:not([disabled]),
 .c2:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c2.is-active,
 .c2.has-focus,
 .c2:active,
 .c2:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -424,14 +424,14 @@ exports[`Pagination renders correctly with "change page size" section 1`] = `
 
 .c6.is-hover:not([disabled]),
 .c6:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c6.is-active,
 .c6.has-focus,
 .c6:active,
 .c6:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
@@ -579,7 +579,7 @@ exports[`Pagination renders correctly with "change page size" section 1`] = `
 .c7:hover:not([disabled]),
 .c7:focus:not([disabled]) {
   background: none;
-  color: #0CD463;
+  color: #0CCF61;
 }
 
 @media (min-width:50em) {
@@ -820,7 +820,7 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.75rem;
   line-height: 1rem;
   height: 2rem;
@@ -835,14 +835,14 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
 
 .c2.is-hover:not([disabled]),
 .c2:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c2.is-active,
 .c2.has-focus,
 .c2:active,
 .c2:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
@@ -919,7 +919,7 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
 }
 
 .c6:focus {
-  border-color: #0CD463;
+  border-color: #0CCF61;
   outline: none;
 }
 
@@ -1066,7 +1066,7 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
 
 .c7:hover,
 .c7:focus {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   color: #FFFFFF;
 }
 
@@ -1102,7 +1102,7 @@ exports[`Pagination renders correctly with "go to page" section 1`] = `
 
 .c5 > button:hover,
 .c5 > button:focus {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   color: #fff;
 }
 
@@ -1341,7 +1341,7 @@ exports[`Pagination renders correctly with "page size" section 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #0CD463;
+  background-color: #0CCF61;
   font-size: 0.75rem;
   line-height: 1rem;
   height: 2rem;
@@ -1356,14 +1356,14 @@ exports[`Pagination renders correctly with "page size" section 1`] = `
 
 .c3.is-hover:not([disabled]),
 .c3:hover:not([disabled]) {
-  background-color: #19E170;
+  background-color: #18DC6D;
 }
 
 .c3.is-active,
 .c3.has-focus,
 .c3:active,
 .c3:focus {
-  background-color: #02C556;
+  background-color: #02C054;
   outline: none;
 }
 
