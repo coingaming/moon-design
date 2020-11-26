@@ -36,14 +36,14 @@ exports[`ChangePageSize renders correctly 1`] = `
 
 .c1.is-hover:not([disabled]),
 .c1:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c1.is-active,
 .c1.has-focus,
 .c1:active,
 .c1:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
@@ -78,7 +78,7 @@ exports[`ChangePageSize renders correctly 1`] = `
 .c2:hover:not([disabled]),
 .c2:focus:not([disabled]) {
   background: none;
-  color: #0CD463;
+  color: #0CCF61;
 }
 
 <div
