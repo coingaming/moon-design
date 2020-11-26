@@ -125,7 +125,8 @@ export const MenuItem = ({ route, name, section }: MenuItemProps) => (
 );
 
 export const Menu = ({ items }: MenuProps) => {
-  const locationPathname = window && window.location.pathname;
+  const locationPathname =
+    typeof window !== `undefined` ? window && window.location.pathname : null;
   const isCurrentLocation = (pages: [MenuItemProps]) => {
     return pages && pages.some(item => item.route === locationPathname);
   };
