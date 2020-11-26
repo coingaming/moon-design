@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.54.0](https://github.com/coingaming/sportsbet-design/compare/v2.53.0...v2.54.0) (2020-11-26)
+
+
+### Features
+
+* docs ([464e674](https://github.com/coingaming/sportsbet-design/commit/464e674abab0cc3b9fa487becb818b7c6280f0dd))
+* mission theme ([cfe7ffc](https://github.com/coingaming/sportsbet-design/commit/cfe7ffc6d033ae710327ea7bf20666b54e708b41))
+* moon design initial commit ([f12dca3](https://github.com/coingaming/sportsbet-design/commit/f12dca3e20bc205a4aad2a9f9de94b3b445f79f3))
+
+
+
+
+
 # [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 
 ### Bug Fixes
