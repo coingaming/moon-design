@@ -502,7 +502,7 @@ exports[`Button variants renders as secondary 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #1A212A;
+  background-color: #393E47;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -517,14 +517,14 @@ exports[`Button variants renders as secondary 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
@@ -1188,7 +1188,7 @@ exports[`Button variants variants MockStates Secondary renders as active 1`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #1A212A;
+  background-color: #393E47;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -1203,14 +1203,14 @@ exports[`Button variants variants MockStates Secondary renders as active 1`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
@@ -1257,7 +1257,7 @@ exports[`Button variants variants MockStates Secondary renders as active 2`] = `
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #1A212A;
+  background-color: #393E47;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -1272,14 +1272,14 @@ exports[`Button variants variants MockStates Secondary renders as active 2`] = `
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
@@ -1326,7 +1326,7 @@ exports[`Button variants variants MockStates Secondary renders with hover 1`] = 
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #1A212A;
+  background-color: #393E47;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -1341,14 +1341,14 @@ exports[`Button variants variants MockStates Secondary renders with hover 1`] = 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
@@ -1395,7 +1395,7 @@ exports[`Button variants variants MockStates Secondary renders with hover 2`] = 
   transition: background-color 0.2s;
   white-space: nowrap;
   color: #FFFFFF;
-  background-color: #1A212A;
+  background-color: #393E47;
   font-size: 0.875rem;
   line-height: 1.25rem;
   height: 2.5rem;
@@ -1410,14 +1410,14 @@ exports[`Button variants variants MockStates Secondary renders with hover 2`] = 
 
 .c0.is-hover:not([disabled]),
 .c0:hover:not([disabled]) {
-  background-color: #242D38;
+  background-color: #454A54;
 }
 
 .c0.is-active,
 .c0.has-focus,
 .c0:active,
 .c0:focus {
-  background-color: #11161D;
+  background-color: #2D3139;
   outline: none;
 }
 
