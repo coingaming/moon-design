@@ -4,3 +4,7 @@
 
 export { default as Banner } from './banner/Banner';
 export * from './banner/Banner';
+export { default as Snackbar } from './snackbar/Snackbar';
+export * from './snackbar/Snackbar';
+export { default as useSnackbar } from './useSnackbar/useSnackbar';
+export * from './useSnackbar/useSnackbar';
