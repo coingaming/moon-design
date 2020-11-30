@@ -1,22 +1,22 @@
 ---
-name: Snackbar
+name: Toast
 menu: Toolkit
-route: /notifications/snackbar
+route: /toolkit/toast
 ---
 
-import { Snackbar, Link } from '@heathmont/moon-components';
-
-# Snackbar
+# Toast
 
 Short, time-based messages that slide in and out of a page.
 
-**Snackbar can overlap content.**
+## Usage:
 
-[Figma link](https://www.figma.com/file/S3q1SkVngbwHuwpxHKCsgtJj/Global?node-id=15490%3A252)
+```
+import { Toast } from '@heathmont/moon-notifications';
+```
 
 #### Usage
 
-Snackbar is used to give user feedback on the action or communicate changes in the system.
+Toast is used to give user feedback on the action or communicate changes in the system.
 
 #### Interaction
 
@@ -24,16 +24,16 @@ Disappear automatically or can be dismissed by user.
 
 #### Frequency
 
-**Only one** snackbar may be displayed at a time.
+**Only one** Toast may be displayed at a time.
 
 ## Actions
 
-A snackbar can contain a single action. Because they disappear automatically, the action **shouldn’t** be “Dismiss” or “Cancel.
+A Toast can contain a single action. Because they disappear automatically, the action **shouldn’t** be “Dismiss” or “Cancel.
 
 **Use design system `Link`** component for actions.
 
 ```jsx react-live
-<Snackbar
+<Toast
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -43,16 +43,16 @@ A snackbar can contain a single action. Because they disappear automatically, th
 />
 ```
 
-## Status
+## variant
 
-Snackbar can't have both Icon and Action at the same time.
+Toast can't have both Icon and Action at the same time.
 
 #### Error
 
 ```jsx react-live
-<Snackbar
+<Toast
   position="inline"
-  status="error"
+  variant="error"
   message={<p>Error message or notification</p>}
 />
 ```
@@ -60,9 +60,9 @@ Snackbar can't have both Icon and Action at the same time.
 #### Warning
 
 ```jsx react-live
-<Snackbar
+<Toast
   position="inline"
-  status="warning"
+  variant="warning"
   message={<p>Error message or notification</p>}
 />
 ```
@@ -70,9 +70,9 @@ Snackbar can't have both Icon and Action at the same time.
 #### Info
 
 ```jsx react-live
-<Snackbar
+<Toast
   position="inline"
-  status="info"
+  variant="info"
   message={<p>Error message or notification</p>}
 />
 ```
@@ -80,9 +80,9 @@ Snackbar can't have both Icon and Action at the same time.
 #### Success
 
 ```jsx react-live
-<Snackbar
+<Toast
   position="inline"
-  status="success"
+  variant="success"
   message={<p>Error message or notification</p>}
 />
 ```
@@ -91,17 +91,17 @@ Snackbar can't have both Icon and Action at the same time.
 
 Snackbars appear without warning, and don't require user interaction.
 
-Use `useSnackbar` hook if you want the Snackbar to automatically disappear from the screen after a minimum of 5 seconds, and a maximum of 10 seconds.
+Use `useSnackbar` hook if you want the Toast to automatically disappear from the screen after a minimum of 5 seconds, and a maximum of 10 seconds.
 By default it's a 5 seconds.
 
 `timeout={5000}`
 
 ```jsx react-live
 () => {
-  const [Snackbar, displaySnackbar] = useSnackbar({
+  const [Toast, display] = useToast({
     message: <p>Appearing and disappearing works!</p>,
-    timeout: 2000,
-    status: 'success',
+    timeout: 14000,
+    variant: 'success',
     position: 'top',
     isCloseable: true,
     action: 'ADD',
@@ -109,10 +109,10 @@ By default it's a 5 seconds.
 
   return (
     <>
-      <Button variant="primary" onClick={displaySnackbar}>
-        Show snackbar
+      <Button variant="primary" onClick={display}>
+        Show Toast
       </Button>
-      {Snackbar}
+      {Toast}
     </>
   );
 };
@@ -122,7 +122,7 @@ By default it's a 5 seconds.
 
 At the bottom of the UI
 Snackbars should be placed at the bottom of a UI, in front of app content.
-Avoid placing a snackbar in front of frequently used touch targets or navigation.
+Avoid placing a Toast in front of frequently used touch targets or navigation.
 
 By default it has fixed position with same z-index as Dialog.
 
@@ -131,13 +131,13 @@ If you want to disable isFixed
 `position="bottom" | "top"`
 
 ```jsx react-live
-<Snackbar
+<Toast
   position="bottom"
-  status="success"
+  variant="success"
   message={<p>Deposit was successfull.</p>}
 />
 ```
 
 ```jsx react-live
-<Snackbar status="success" message={<p>Deposit was successfull.</p>} />
+<Toast variant="success" message={<p>Deposit was successfull.</p>} />
 ```
