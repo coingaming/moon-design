@@ -17,7 +17,7 @@ interface ToastProps {
 
 const Toast: React.FC<ToastProps> = ({
   variant,
-  position = 'bottom',
+  position,
   message,
   action,
   isCloseable,
