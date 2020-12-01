@@ -37,6 +37,7 @@
     "@heathmont/moon-core": "2.49.3-alpha.0",
     "@heathmont/moon-fonts": "^2.37.0",
     "@heathmont/moon-global": "^2.54.1",
+    "@heathmont/moon-notifications": "2.54.2-alpha.0",
     "@heathmont/moon-pagination": "^2.54.1",
     "@heathmont/moon-sidebar": "^2.54.1",
     "@heathmont/moon-table": "^2.54.1",
