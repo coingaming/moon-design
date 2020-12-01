@@ -11,6 +11,7 @@ import * as Calendar from '@heathmont/moon-calendar';
 import * as Table from '@heathmont/moon-table';
 import * as Charts from '@heathmont/moon-charts';
 import * as Core from '@heathmont/moon-core';
+import * as Notifications from '@heathmont/moon-notifications';
 import { useTheme } from '@heathmont/moon-themes';
 
 import { prismTheme } from './prism';
@@ -68,6 +69,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
             ...Calendar,
             ...Table,
             ...Charts,
+            ...Notifications,
             useTheme,
             styled,
           }}

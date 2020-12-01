@@ -1,0 +1,133 @@
+---
+name: Toast
+menu: Toolkit
+route: /toolkit/toast
+---
+
+# Toast
+
+Short, time-based messages that slide in and out of a page.
+
+## Usage:
+
+```
+import { Toast } from '@heathmont/moon-notifications';
+```
+
+### Interaction
+
+Toast is used to give user feedback on the action or communicate changes in the system.
+
+Disappear automatically or can be dismissed by user.
+
+## Actions
+
+A Toast can contain a single action. Because they disappear automatically, the action **shouldn’t** be “Dismiss” or “Cancel.
+
+**Use design system `Link`** component for actions.
+
+```jsx react-live
+<Toast
+  variant="warning"
+  message={
+    <p>This item already have the label "Sport". You could add a new label.</p>
+  }
+  position="inline"
+  action={<Link href="#">Add</Link>}
+  isCloseable={true}
+/>
+```
+
+## variant
+
+Toast can't have both Icon and Action at the same time.
+
+#### Error
+
+```jsx react-live
+<Toast
+  position="inline"
+  variant="error"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+#### Warning
+
+```jsx react-live
+<Toast
+  position="inline"
+  variant="warning"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+#### Info
+
+```jsx react-live
+<Toast
+  position="inline"
+  variant="info"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+#### Success
+
+```jsx react-live
+<Toast
+  position="inline"
+  variant="success"
+  message={<p>Error message or notification</p>}
+/>
+```
+
+## Appearing and disappearing
+
+Toast could appear without warning, and don't require user interaction.
+
+```jsx react-live
+() => {
+  const [Toast, display, hide] = useToast({
+    message: <p>Appearing and disappearing works!</p>,
+    timeout: 4000,
+    variant: 'success',
+    position: 'top',
+    isCloseable: true,
+    action: 'ADD',
+  });
+
+  return (
+    <>
+      <Button variant="primary" onClick={display}>
+        Show Toast
+      </Button>
+      {Toast}
+    </>
+  );
+};
+```
+
+## Placement
+
+At the bottom of the UI
+Toast should be placed at the bottom of a UI, in front of app content.
+Avoid placing a Toast in front of frequently used touch targets or navigation.
+
+By default it has inline position.
+
+It has same z-index as Dialog.
+
+`position="bottom" | "top"`
+
+```jsx react-live
+<Toast
+  position="bottom"
+  variant="success"
+  message={<p>Deposit was successfull.</p>}
+/>
+```
+
+```jsx react-live
+<Toast variant="success" message={<p>Deposit was successfull.</p>} />
+```
