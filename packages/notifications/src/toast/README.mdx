@@ -14,17 +14,11 @@ Short, time-based messages that slide in and out of a page.
 import { Toast } from '@heathmont/moon-notifications';
 ```
 
-#### Usage
+### Interaction
 
 Toast is used to give user feedback on the action or communicate changes in the system.
 
-#### Interaction
-
 Disappear automatically or can be dismissed by user.
-
-#### Frequency
-
-**Only one** Toast may be displayed at a time.
 
 ## Actions
 
@@ -34,6 +28,7 @@ A Toast can contain a single action. Because they disappear automatically, the a
 
 ```jsx react-live
 <Toast
+  variant="warning"
   message={
     <p>This item already have the label "Sport". You could add a new label.</p>
   }
@@ -89,18 +84,13 @@ Toast can't have both Icon and Action at the same time.
 
 ## Appearing and disappearing
 
-Snackbars appear without warning, and don't require user interaction.
-
-Use `useSnackbar` hook if you want the Toast to automatically disappear from the screen after a minimum of 5 seconds, and a maximum of 10 seconds.
-By default it's a 5 seconds.
-
-`timeout={5000}`
+Toast could appear without warning, and don't require user interaction.
 
 ```jsx react-live
 () => {
-  const [Toast, display] = useToast({
+  const [Toast, display, hide] = useToast({
     message: <p>Appearing and disappearing works!</p>,
-    timeout: 1000,
+    timeout: 4000,
     variant: 'success',
     position: 'top',
     isCloseable: true,
@@ -121,12 +111,12 @@ By default it's a 5 seconds.
 ## Placement
 
 At the bottom of the UI
-Snackbars should be placed at the bottom of a UI, in front of app content.
+Toast should be placed at the bottom of a UI, in front of app content.
 Avoid placing a Toast in front of frequently used touch targets or navigation.
 
-By default it has fixed position with same z-index as Dialog.
+By default it has inline position.
 
-If you want to disable isFixed
+It has same z-index as Dialog.
 
 `position="bottom" | "top"`
 
