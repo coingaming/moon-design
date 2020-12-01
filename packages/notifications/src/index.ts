@@ -14,7 +14,5 @@ export { default as ToastIcon } from './toast/ToastIcon';
 export * from './toast/ToastIcon';
 export { default as ToastMessage } from './toast/ToastMessage';
 export * from './toast/ToastMessage';
-export { default as useTimeout } from './useToast/useTimeout';
-export * from './useToast/useTimeout';
 export { default as useToast } from './useToast/useToast';
 export * from './useToast/useToast';
