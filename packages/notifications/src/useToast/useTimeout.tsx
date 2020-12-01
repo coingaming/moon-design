@@ -3,9 +3,9 @@ import { useEffect, useRef } from 'react';
 /** keep typescript happy */
 const noop = () => {};
 
-function useInterval(
+function useTimeout(
   callback: () => void,
-  delay: number | null | false,
+  delay: number | null | false | undefined,
   immediate?: boolean
 ) {
   const savedCallback = useRef(noop);
@@ -32,9 +32,9 @@ function useInterval(
       return undefined;
     }
     const tick = () => savedCallback.current();
-    const id = setInterval(tick, delay);
-    return () => clearInterval(id);
+    const id = setTimeout(tick, delay);
+    return () => clearTimeout(id);
   }, [delay]);
 }
 
-export default useInterval;
+export default useTimeout;
