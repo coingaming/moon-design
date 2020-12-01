@@ -31,14 +31,19 @@ const ToastContainer = styled.div<any>(
       top: '10%',
     },
     {
-      padding: space.default,
+      paddingTop: rem(12),
+      paddingBottom: rem(12),
+      paddingLeft: rem(space.default),
+      paddingRight: rem(space.default),
+      boxShadow:
+        '0px 6.4px 14px 0px rgba(0,0,0,0.52), 0px 1.2px 3.6px 0px rgba(0,0,0,0.4)',
       backgroundColor: color.bulma[100],
       borderRadius: rem(12),
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
       '& > * + *': {
-        marginLeft: rem(8),
+        marginLeft: rem(space.default),
       },
     },
   ]
