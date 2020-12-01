@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.55.0](https://github.com/coingaming/sportsbet-design/compare/v2.54.1...v2.55.0) (2020-12-01)
+
+
+### Features
+
+* initial functionality ([cf02a80](https://github.com/coingaming/sportsbet-design/commit/cf02a803946a3b8a11ac1eb8f4698862ae41b315))
+* introduce notifications ([97d33dc](https://github.com/coingaming/sportsbet-design/commit/97d33dced69211b742b83d03057dd7c6f5a4e794))
+
+
+
+
+
 ## [2.54.1](https://github.com/coingaming/sportsbet-design/compare/v2.54.0...v2.54.1) (2020-11-26)
 
 **Note:** Version bump only for package docs
