@@ -5,8 +5,8 @@ import { rem } from '@heathmont/moon-utils';
 import IconToastClose from '../private/icons/IconToastClose';
 
 const Wrapper = styled.button(({ theme }) => ({
-  backgroundColor: theme.color.goku[100],
-  border: `1px solid ${theme.color.goku[100]}`,
+  backgroundColor: theme.color.bulma[100],
+  border: `1px solid ${theme.color.trunks[100]}`,
   borderRadius: theme.radius.largest,
   cursor: 'pointer',
   minWidth: rem(24),
