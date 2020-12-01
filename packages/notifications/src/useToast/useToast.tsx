@@ -2,10 +2,35 @@ import React, { useEffect } from 'react';
 
 import Toast from '../toast/Toast';
 
-import useInterval from './useInterval';
+interface ToastProps {
+  message: React.Component;
+  variant?: 'error' | 'warning' | 'info' | 'success';
+  action?: React.Component;
+  position?: 'bottom' | 'top';
+  onClose?: any;
+  isCloseable?: boolean;
+  timeout?: number;
+}
 
-const useToast = ({ timeout, onClose, ...rest }: any): any => {
+const noop: any = () => {};
+
+const useToast = ({ onClose, timeout, ...rest }: ToastProps): any => {
   const [visible, setVisibility] = React.useState(false);
+  const timeoutRef = React.useRef<any>(noop);
+
+  useEffect(() => {
+    if (timeout) {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+      timeoutRef.current = setTimeout(() => {
+        timeoutRef.current = null;
+        setVisibility(false);
+      }, timeout);
+      return () => clearTimeout(timeoutRef.current);
+    }
+    return noop;
+  }, [visible]);
 
   const hide = () => {
     setVisibility(false);
@@ -17,12 +42,6 @@ const useToast = ({ timeout, onClose, ...rest }: any): any => {
   const display = () => {
     setVisibility(true);
   };
-
-  useInterval(hide, timeout);
-
-  // useEffect(() => {
-  //   setTimeout(hide, timeout);
-  // }, [timeout]);
 
   const ToastWithTimeout = visible ? <Toast onClose={hide} {...rest} /> : null;
 
