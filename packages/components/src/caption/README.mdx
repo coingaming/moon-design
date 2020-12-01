@@ -4,33 +4,16 @@ menu: Components
 route: /components/caption
 ---
 
-# Caption
+# ⚠️ This component is deprecated.
 
-Caption is a Span tag with predefined styles. No option available except of color
+It's still available but planned for removal.
 
-## color
+Use design system [Caption](/core/caption) instead.
 
-By default Caption color is bulma.100. You can use any color.
+## No API changes.
 
-Bulma.100 - is main text color. Trunks.100 - is secondary text color
+Just change the import.
 
-```jsx react-live
-<Stack>
-  <Caption>Caption with default color</Caption>
-  <Caption color="trunks.100">Caption with defined color</Caption>
-  <Caption color="piccolo.100">Caption with defined color</Caption>
-  <Caption color="krillin.100">Caption with defined color</Caption>
-</Stack>
 ```
-
-## as="p"
-
-By default Caption renders as Span tag. You can render it as Paragraph or Label tags, etc.
-
-```jsx react-live
-<Stack>
-  <Caption>Caption renders Span tag by default</Caption>
-  <Caption as="p">Caption renders Paragraph tag</Caption>
-  <Caption as="label">Caption renders Label tag</Caption>
-</Stack>
+import { Caption } from '@heathmont/moon-core';
 ```
