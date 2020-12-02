@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
+
+
+### Features
+
+* disable rem warnings for prod env ([46c9839](https://github.com/coingaming/sportsbet-design/commit/46c9839beeff000c8e47ed0a99ac1c4eb10f0e66))
+
+
+
+
+
 ## [2.54.1](https://github.com/coingaming/sportsbet-design/compare/v2.54.0...v2.54.1) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-utils
