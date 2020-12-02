@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
+
+
+### Features
+
+* add comms theme ([f3e3cab](https://github.com/coingaming/sportsbet-design/commit/f3e3cab1422f3cfbc9a793d6d73ced4e50d3be84))
+
+
+
+
+
 ## [2.54.1](https://github.com/coingaming/sportsbet-design/compare/v2.54.0...v2.54.1) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-assets

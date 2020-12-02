@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
+
+
+### Features
+
+* add comms theme ([f3e3cab](https://github.com/coingaming/sportsbet-design/commit/f3e3cab1422f3cfbc9a793d6d73ced4e50d3be84))
+* disable rem warnings for prod env ([46c9839](https://github.com/coingaming/sportsbet-design/commit/46c9839beeff000c8e47ed0a99ac1c4eb10f0e66))
+
+
+
+
+
 # [2.55.0](https://github.com/coingaming/sportsbet-design/compare/v2.54.1...v2.55.0) (2020-12-01)
 
 
