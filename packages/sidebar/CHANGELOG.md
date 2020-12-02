@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
+
+**Note:** Version bump only for package @heathmont/moon-sidebar
+
+
+
+
+
 ## [2.54.1](https://github.com/coingaming/sportsbet-design/compare/v2.54.0...v2.54.1) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-sidebar
