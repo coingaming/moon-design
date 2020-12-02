@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
+
+**Note:** Version bump only for package @heathmont/moon-notifications
+
+
+
+
+
 # [2.55.0](https://github.com/coingaming/sportsbet-design/compare/v2.54.1...v2.55.0) (2020-12-01)
 
 
