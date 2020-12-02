@@ -1,5 +1,5 @@
 {
-  "name": "@heathmont/moon-calendar",
+  "name": "@heathmont/moon-notifications",
   "sideEffects": false,
   "version": "2.55.0",
   "files": [
@@ -15,11 +15,8 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-components": "^2.55.0",
     "@heathmont/moon-themes": "^2.54.1",
-    "@heathmont/moon-utils": "^2.54.1",
-    "@types/date-fns": "2.6.0",
-    "date-fns": "2.15.0"
+    "@heathmont/moon-utils": "^2.54.1"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
