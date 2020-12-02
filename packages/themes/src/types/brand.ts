@@ -1,6 +1,7 @@
 export type Brand =
   | 'Sportsbet.io'
   | 'Bitcasino.io'
+  | 'Comms'
   | 'Slots.io'
   | 'LuckySlots'
   | 'BombayClub'
