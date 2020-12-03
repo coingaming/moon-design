@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.56.1](https://github.com/coingaming/sportsbet-design/compare/v2.56.0...v2.56.1) (2020-12-03)
+
+
+### Bug Fixes
+
+* dialog paddings ([db95dbb](https://github.com/coingaming/sportsbet-design/commit/db95dbb92fb0d7ac27d4bb20231f53faf9d57fab))
+
+
+
+
+
 # [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
 
 **Note:** Version bump only for package @heathmont/moon-components
