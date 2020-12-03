@@ -69,8 +69,7 @@ export const DialogContainer = styled.div(
  *    padding with a pseudo element.
  */
 export const DialogMain = styled.main(({ theme: { space, breakpoint } }) => ({
-  paddingLeft: rem(20),
-  paddingRight: rem(20),
+  padding: rem(20),
   [mq(breakpoint.medium)]: {
     paddingTop: rem(space.xlarge),
     paddingLeft: rem(space.large),
