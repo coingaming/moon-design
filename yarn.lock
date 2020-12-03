@@ -1361,13 +1361,6 @@
     "@heathmont/moon-themes" "^2.49.3-alpha.0+d9adf3b2"
     "@heathmont/moon-utils" "^2.49.3-alpha.0+d9adf3b2"
 
-"@heathmont/moon-fonts@^2.54.2-alpha.0+97d33dce":
-  version "2.54.2-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-fonts/-/moon-fonts-2.54.2-alpha.0.tgz#1bf2c1a9cc53e19e8ee36e7bd73357d4e3275bb2"
-  integrity sha512-+hn9SUukN9xwCy+W+zXCkrE+Z75JcJzLocgxNmB0EZtiLpDv2NerqZZMTuuVnImTuiwBX5NqW6KNSuNwPB4VHw==
-  dependencies:
-    "@heathmont/sportsbet-cdn" "1.1.0"
-
 "@heathmont/moon-notifications@2.54.2-alpha.0":
   version "2.54.2-alpha.0"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-notifications/-/moon-notifications-2.54.2-alpha.0.tgz#b9c30adccb48af5e21382c901bfee32eaf884b2d"
@@ -1375,23 +1368,6 @@
   dependencies:
     "@heathmont/moon-themes" "^2.54.2-alpha.0+97d33dce"
     "@heathmont/moon-utils" "^2.54.2-alpha.0+97d33dce"
-
-"@heathmont/moon-themes@^2.54.2-alpha.0+97d33dce":
-  version "2.54.2-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-2.54.2-alpha.0.tgz#cdb69003678cbf50aace42f9f2a2cb1a5cec6b97"
-  integrity sha512-OAr4Gxn3pFIQNH5h42vEVHQwIuQsvleUw43bSxngJDd494q2POplRC/VhJTD7M0y59VxXWxOJ3xWigJa9fo34A==
-  dependencies:
-    "@heathmont/moon-fonts" "^2.54.2-alpha.0+97d33dce"
-
-"@heathmont/moon-utils@^2.54.2-alpha.0+97d33dce":
-  version "2.54.2-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-2.54.2-alpha.0.tgz#8b42b74d7a720190b8677a633a961e652f8278df"
-  integrity sha512-nNMsnQ2z17kJIde2y1m7LIOsINcfypPoP7LKXLBth3YsQIop73srdq5YeIaCME2tXVS+Jpv6tocREgmYAywVVg==
-  dependencies:
-    "@heathmont/moon-themes" "^2.54.2-alpha.0+97d33dce"
-    lodash.get "4.4.2"
-    lodash.has "4.5.2"
-    polished "3.4.1"
 
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
