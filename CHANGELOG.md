@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.56.2](https://github.com/coingaming/sportsbet-design/compare/v2.56.1...v2.56.2) (2020-12-04)
+
+
+### Bug Fixes
+
+* ADD .yarn/ ([495c828](https://github.com/coingaming/sportsbet-design/commit/495c8283b7b5a54ef758f78b3cb0d3d6a1615f90))
+* dependencies ([cf53fc8](https://github.com/coingaming/sportsbet-design/commit/cf53fc8933ae9b191685a210675a12ca119990c4))
+
+
+
+
+
 ## [2.56.1](https://github.com/coingaming/sportsbet-design/compare/v2.56.0...v2.56.1) (2020-12-03)
 
 
