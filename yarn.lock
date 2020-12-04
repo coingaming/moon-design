@@ -1361,14 +1361,6 @@
     "@heathmont/moon-themes" "^2.49.3-alpha.0+d9adf3b2"
     "@heathmont/moon-utils" "^2.49.3-alpha.0+d9adf3b2"
 
-"@heathmont/moon-notifications@2.54.2-alpha.0":
-  version "2.54.2-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-notifications/-/moon-notifications-2.54.2-alpha.0.tgz#b9c30adccb48af5e21382c901bfee32eaf884b2d"
-  integrity sha512-bL4KVaqE5ZRyqDHAJt3d3957NtQY4KTBXyJ5LNBSCrJRL0SXEVwZNGUDtUnF2ZHH7Uyhr9OXUL8mRqXpDe6oow==
-  dependencies:
-    "@heathmont/moon-themes" "^2.54.2-alpha.0+97d33dce"
-    "@heathmont/moon-utils" "^2.54.2-alpha.0+97d33dce"
-
 "@heathmont/prettier-config-sportsbet@0.1.0", "@heathmont/prettier-config-sportsbet@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@heathmont/prettier-config-sportsbet/-/prettier-config-sportsbet-0.1.0.tgz#9cb72d881f838269c80a907ddf1ead5946633d96"
@@ -17479,10 +17471,10 @@ typescript@3.3.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3.tgz#f1657fc7daa27e1a8930758ace9ae8da31403221"
   integrity sha512-Y21Xqe54TBVp+VDSNbuDYdGw0BpoR/Q6wo/+35M8PAU0vipahnyduJWirxxdxjsAkS7hue53x2zp8gz7F05u0A==
 
-typescript@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
-  integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
+typescript@3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
 
 ua-parser-js@^0.7.18:
   version "0.7.22"
