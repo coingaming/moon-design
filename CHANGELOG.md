@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.56.3](https://github.com/coingaming/sportsbet-design/compare/v2.56.2...v2.56.3) (2020-12-07)
+
+
+### Bug Fixes
+
+* **toast:** typescript ([c8e80d7](https://github.com/coingaming/sportsbet-design/commit/c8e80d73b0bff691c298c1ffeb53a5ac5e611c37))
+
+
+
+
+
 ## [2.56.2](https://github.com/coingaming/sportsbet-design/compare/v2.56.1...v2.56.2) (2020-12-04)
 
 
