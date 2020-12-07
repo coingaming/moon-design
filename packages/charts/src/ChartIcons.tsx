@@ -5,6 +5,9 @@ import Line from './private/icons/LineIcon';
 import Devices from './private/icons/DevicesIcon';
 import Time from './private/icons/TimeIcon';
 import Countries from './private/icons/CountriesIcon';
+import LineChartLoading from './private/icons/LineChartLoadingIcon';
+import PieChartLoading from './private/icons/PieChartLoadingIcon';
+import BarChartLoading from './private/icons/BarChartLoadingIcon';
 
 export default {
   TopGames,
@@ -14,4 +17,7 @@ export default {
   Devices,
   Time,
   Countries,
+  LineChartLoading,
+  PieChartLoading,
+  BarChartLoading,
 };
