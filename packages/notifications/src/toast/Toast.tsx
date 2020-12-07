@@ -7,9 +7,9 @@ import ToastAction from './ToastAction';
 import ToastCloseButton from './ToastCloseButton';
 
 interface ToastProps {
-  message: React.Component;
+  message: any;
   variant?: 'error' | 'warning' | 'info' | 'success';
-  action?: React.Component;
+  action?: any;
   position?: 'bottom' | 'top';
   onClose?: any;
   isCloseable?: boolean;
