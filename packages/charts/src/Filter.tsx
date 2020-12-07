@@ -24,18 +24,10 @@ const Toggle = styled.button<{ isOpen: boolean }>(({ isOpen, theme }) => ({
   },
 }));
 
-const Container = styled.div<{ isActive: boolean }>(({ isActive, theme }) => ({
+const Container = styled.div({
   display: 'inline-block',
   position: 'relative',
-  ...(isActive && {
-    [Title]: {
-      color: theme.color.goten[100],
-    },
-    [Toggle]: {
-      color: theme.color.goten[100],
-    },
-  }),
-}));
+});
 
 const DropdownWrapper = styled.div(({ theme }) => ({
   position: 'absolute',
@@ -47,18 +39,17 @@ const DropdownWrapper = styled.div(({ theme }) => ({
   zIndex: theme.zIndex.toggle,
 }));
 
+type ChildrenProps = {
+  setIsOpen: (isOpen: boolean) => void;
+};
+
 type Props = {
   forceOpen?: boolean;
   title: string;
-  isActive?: boolean;
+  children: (props: ChildrenProps) => React.ReactNode;
 };
 
-const Filter: React.FC<Props> = ({
-  forceOpen = false,
-  isActive = false,
-  title,
-  children,
-}) => {
+const Filter: React.FC<Props> = ({ forceOpen = false, title, children }) => {
   const ref = useRef(null);
   const [isOpen, setIsOpen] = useState(forceOpen);
   useClickAway(ref, () => setIsOpen(false));
@@ -69,14 +60,14 @@ const Filter: React.FC<Props> = ({
   }, [setIsOpen, forceOpen]);
 
   return (
-    <Container ref={ref} isActive={isActive}>
+    <Container ref={ref}>
       <Toggle isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
         <Title size={14}>{title}</Title>
         <IconChevronDownRounded />
       </Toggle>
       {isOpen && (
         <DropdownWrapper>
-          <FilterDropdown>{children}</FilterDropdown>
+          <FilterDropdown>{children({ setIsOpen })}</FilterDropdown>
         </DropdownWrapper>
       )}
     </Container>
