@@ -3,9 +3,9 @@ import React, { useEffect } from 'react';
 import Toast from '../toast/Toast';
 
 interface ToastProps {
-  message: React.Component;
+  message: any;
   variant?: 'error' | 'warning' | 'info' | 'success';
-  action?: React.Component;
+  action?: any;
   position?: 'bottom' | 'top';
   onClose?: any;
   isCloseable?: boolean;
