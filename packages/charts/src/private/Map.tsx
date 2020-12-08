@@ -18,21 +18,29 @@ const Container = styled.div({
 });
 
 type Props = {
-  color: string;
   data: {
     label: string | React.ReactNode;
     code: string;
     value: number;
     opacity: number;
+    color: string;
   }[];
 };
 
-export const Map: React.FC<Props> = ({ data, color }) => {
+export const Map: React.FC<Props> = ({ data }) => {
   const theme = useTheme();
   const defaultColor = themed('color', 'goku.80')(theme);
   const tooltipRef = useRef(null);
   const [hoveredItem, setHoveredItem] = useState<any>(null);
-  const countryCode = (country: any) => country.ISO_A3;
+  const isCountryCode = (
+    code: string,
+    country: { ISO_A2: string; ISO_A3: string }
+  ) => {
+    if (!code) return false;
+    return code.length === 2
+      ? code === country.ISO_A2
+      : code === country.ISO_A3;
+  };
 
   return (
     <Container>
@@ -49,7 +57,7 @@ export const Map: React.FC<Props> = ({ data, color }) => {
         {!!hoveredItem && (
           <Item size={14} as="div">
             <>
-              <ColorPreview style={{ background: color }} />
+              <ColorPreview style={{ background: hoveredItem.color }} />
               {hoveredItem.label} • {hoveredItem.value}
             </>
           </Item>
@@ -66,15 +74,18 @@ export const Map: React.FC<Props> = ({ data, color }) => {
         <Geographies geography={worldMap}>
           {({ geographies }) =>
             geographies.map((geography: any, index: number) => {
-              const code = countryCode(geography.properties);
-              const activeItem = data.find(item => item.code === code);
-              const fillColor = activeItem ? color : defaultColor;
+              const country = geography.properties;
+              const activeItem = data.find(item =>
+                isCountryCode(item.code, country)
+              );
+              const fillColor = activeItem ? activeItem.color : defaultColor;
               const opacity = activeItem ? activeItem.opacity : 1;
 
               return (
                 <Geography
                   // eslint-disable-next-line
-                  key={`${code}-${index}`}
+                  key={`${country.ISO_A3}-${index}`}
+                  tabIndex={-1}
                   geography={geography}
                   style={{
                     default: { fill: fillColor, outline: 'none', opacity },

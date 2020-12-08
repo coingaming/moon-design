@@ -17,6 +17,7 @@ import { Selector } from './private/Selector';
 import { Tooltip } from './private/Tooltip';
 import { Header } from './private/Header';
 import ChartIcons from './ChartIcons';
+import { Loader } from './private/Loader';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
@@ -25,11 +26,6 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
       text: {
         fill: theme.color.trunks[100],
         fontSize: rem(theme.space.small),
-      },
-    },
-    '.recharts-cartesian-grid-vertical': {
-      'line:first-child, line:last-child': {
-        opacity: 0,
       },
     },
   })
@@ -43,20 +39,23 @@ type Props = {
   }[];
   options: {
     label: string;
-    key: string;
-    value: string | number;
+    dataKey: string;
+    value: number;
     color: ColorProps;
     yAxisId: string;
     isActive?: boolean;
   }[];
-  onUpdate?: () => {};
-  onShare?: () => {};
-  onExpand?: () => {};
+  onUpdate?: () => void;
+  onShare?: () => void;
+  onExpand?: () => void;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
   axisWidth?: number;
   icon?: React.ReactNode;
+  interval?: 'preserveStart' | 'preserveEnd' | 'preserveStartEnd' | number;
+  formatFn?: (props: { value: any; key: string }) => any;
+  loaderText?: string | React.ReactNode;
 };
 
 const LineChart: React.FC<Props> = ({
@@ -70,21 +69,26 @@ const LineChart: React.FC<Props> = ({
   filter,
   height = 526,
   axisWidth = 40,
+  interval,
   icon = <ChartIcons.Line />,
+  formatFn = ({ value }) => value,
+  loaderText = 'No data',
 }) => {
   const theme = useTheme();
   const initialActiveOptions = options
     .filter(({ isActive }) => isActive)
-    .map(({ key }) => key);
+    .map(({ dataKey }) => dataKey);
   const [activeOptions, setActiveOptions] = useState(initialActiveOptions);
 
-  const handleSelectorChange = (key: string, isActive: boolean) => {
+  const handleSelectorChange = (dataKey: string, isActive: boolean) => {
     setActiveOptions(
       isActive
-        ? [...activeOptions, key]
-        : activeOptions.filter(option => option !== key)
+        ? [...activeOptions, dataKey]
+        : activeOptions.filter(option => option !== dataKey)
     );
   };
+
+  const isLoading = !data.length;
 
   return (
     <Panel
@@ -96,54 +100,64 @@ const LineChart: React.FC<Props> = ({
     >
       <>
         <Header icon={icon} title={title} filter={filter} />
-        <Selector
-          activeOptions={activeOptions}
-          options={options}
-          onChange={handleSelectorChange}
-        />
-        <ResponsiveContainerCustomized>
-          <RechartsLineChart data={data}>
-            <CartesianGrid stroke={themed('color', 'beerus.100')(theme)} />
-            <RechartTooltip content={<Tooltip />} />
-            <XAxis
-              dataKey="date"
-              tickLine={false}
-              axisLine={false}
-              interval={0}
+        {isLoading ? (
+          <Loader icon={<ChartIcons.LineChartLoading />} title={loaderText} />
+        ) : (
+          <>
+            <Selector
+              activeOptions={activeOptions}
+              options={options}
+              onChange={handleSelectorChange}
+              formatFn={formatFn}
             />
-            <YAxis
-              yAxisId="left"
-              type="number"
-              tickLine={false}
-              axisLine={false}
-              width={axisWidth}
-            />
-            <YAxis
-              yAxisId="right"
-              orientation="right"
-              type="number"
-              tickLine={false}
-              axisLine={false}
-              width={axisWidth}
-            />
-
-            {activeOptions.map(option => {
-              const activeOption = options.find(({ key }) => key === option);
-              if (!activeOption) return null;
-              return (
-                <Line
-                  key={activeOption.key}
-                  type="linear"
-                  yAxisId={activeOption.yAxisId}
-                  dataKey={activeOption.key}
-                  name={activeOption.label}
-                  stroke={themed('color', activeOption.color)(theme)}
-                  dot={false}
+            <ResponsiveContainerCustomized>
+              <RechartsLineChart data={data}>
+                <CartesianGrid stroke={themed('color', 'beerus.100')(theme)} />
+                <RechartTooltip content={<Tooltip formatFn={formatFn} />} />
+                <XAxis
+                  dataKey="date"
+                  tickLine={false}
+                  axisLine={false}
+                  interval={interval}
+                  domain={['auto', 'auto']}
                 />
-              );
-            })}
-          </RechartsLineChart>
-        </ResponsiveContainerCustomized>
+                <YAxis
+                  yAxisId="left"
+                  type="number"
+                  tickLine={false}
+                  axisLine={false}
+                  width={axisWidth}
+                />
+                <YAxis
+                  yAxisId="right"
+                  orientation="right"
+                  type="number"
+                  tickLine={false}
+                  axisLine={false}
+                  width={axisWidth}
+                />
+
+                {activeOptions.map(option => {
+                  const activeOption = options.find(
+                    ({ dataKey }) => dataKey === option
+                  );
+                  if (!activeOption) return null;
+                  return (
+                    <Line
+                      key={activeOption.dataKey}
+                      type="linear"
+                      yAxisId={activeOption.yAxisId}
+                      dataKey={activeOption.dataKey}
+                      name={activeOption.label}
+                      stroke={themed('color', activeOption.color)(theme)}
+                      dot={false}
+                    />
+                  );
+                })}
+              </RechartsLineChart>
+            </ResponsiveContainerCustomized>
+          </>
+        )}
       </>
     </Panel>
   );
