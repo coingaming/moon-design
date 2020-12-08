@@ -45,6 +45,8 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   color: isActive ? theme.color.goten[100] : theme.color.bulma[100],
   background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
   borderRadius: rem(theme.space.default),
+  willChange: 'color, background',
+  transitions: `color ${theme.transitionDuration.default}s, background ${theme.transitionDuration.default}s`,
   width: '100%',
   ...(isActive && {
     [Button]: {
@@ -61,6 +63,7 @@ const Header = styled.div(({ theme }) => ({
   flexShrink: 0,
   gridTemplateColumns: 'auto 1fr auto auto',
   gridColumnGap: rem(theme.space.default),
+  minHeight: rem(24),
 }));
 
 type Props = {

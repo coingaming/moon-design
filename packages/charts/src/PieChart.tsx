@@ -15,6 +15,7 @@ import { Panel } from './private/Panel';
 import { Header } from './private/Header';
 import { Tooltip } from './private/Tooltip';
 import ChartIcons from './ChartIcons';
+import { Loader } from './private/Loader';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
@@ -36,14 +37,17 @@ type Props = {
     label: string;
     value: number;
     color: ColorProps;
+    dataKey: string;
   }[];
-  onUpdate?: () => {};
-  onShare?: () => {};
-  onExpand?: () => {};
+  onUpdate?: () => void;
+  onShare?: () => void;
+  onExpand?: () => void;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
   icon?: React.ReactNode;
+  formatFn?: (props: { value: any; key: string }) => any;
+  loaderText?: string | React.ReactNode;
 };
 
 const PieChart: React.FC<Props> = ({
@@ -56,6 +60,8 @@ const PieChart: React.FC<Props> = ({
   filter,
   height = 446,
   icon = <ChartIcons.Devices />,
+  formatFn = ({ value }) => value,
+  loaderText = 'No data',
 }) => {
   const theme = useTheme();
   const [activeIndex, setActiveIndex] = useState(0);
@@ -112,6 +118,8 @@ const PieChart: React.FC<Props> = ({
     );
   };
 
+  const isLoading = !data.length;
+
   return (
     <Panel
       hasUpdates={hasUpdates}
@@ -122,39 +130,45 @@ const PieChart: React.FC<Props> = ({
     >
       <>
         <Header icon={icon} title={title} filter={filter} />
-        <ResponsiveContainerCustomized>
-          <RechartPieChart>
-            <RechartTooltip
-              coordinate={{
-                x: -20,
-                y: -20,
-              }}
-              content={<Tooltip />}
-            />
-            <Pie
-              activeIndex={activeIndex}
-              // @ts-ignore
-              activeShape={renderActiveShape}
-              data={data}
-              innerRadius="75%"
-              outerRadius="98%"
-              startAngle={90}
-              endAngle={-270}
-              dataKey="value"
-              onMouseEnter={onMouseEnter}
-            >
-              {data.map((item, index) => (
-                <Cell
-                  // eslint-disable-next-line
-                  key={`${index}-${item.value}`}
-                  stroke="none"
-                  data-index={index}
-                  fill={themed('color', item.color)(theme)}
-                />
-              ))}
-            </Pie>
-          </RechartPieChart>
-        </ResponsiveContainerCustomized>
+
+        {isLoading ? (
+          <Loader icon={<ChartIcons.PieChartLoading />} title={loaderText} />
+        ) : (
+          <ResponsiveContainerCustomized>
+            <RechartPieChart>
+              <RechartTooltip
+                coordinate={{
+                  x: -20,
+                  y: -20,
+                }}
+                content={<Tooltip formatFn={formatFn} />}
+              />
+              <Pie
+                activeIndex={activeIndex}
+                // @ts-ignore
+                activeShape={renderActiveShape}
+                data={data}
+                innerRadius="75%"
+                outerRadius="98%"
+                startAngle={90}
+                endAngle={-270}
+                minAngle={5}
+                dataKey="value"
+                onMouseEnter={onMouseEnter}
+              >
+                {data.map((item, index) => (
+                  <Cell
+                    // eslint-disable-next-line
+                    key={`${index}-${item.value}`}
+                    stroke="none"
+                    data-index={index}
+                    fill={themed('color', item.color)(theme)}
+                  />
+                ))}
+              </Pie>
+            </RechartPieChart>
+          </ResponsiveContainerCustomized>
+        )}
       </>
     </Panel>
   );
