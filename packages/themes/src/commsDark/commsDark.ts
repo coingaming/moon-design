@@ -9,44 +9,35 @@ const boxShadow =
 
 const color = {
   piccolo: {
-    120: '#AFD5FF',
-    100: '#2896FE',
-    80: '#138BFF',
+    120: '#D6DDE0',
+    100: '#FFFFFF',
+    80: '#E9EDEF',
   },
   hit: {
-    120: '#4D5259',
-    100: '#FFFFFF',
-    80: '#F9FAFA',
+    120: '#1D2229',
+    100: '#272D36',
+    80: '#4D5259',
   },
   beerus: {
     100: '#4D5259',
   },
   goku: {
-    120: '#4D5259',
+    120: '#1D2229',
     100: '#141519',
-    80: '#000000',
+    80: '#8697A2',
+    10: '#000000',
   },
   gohan: {
-    120: '#1D2229',
     100: '#272D36',
-    80: '#4D5259',
   },
   goten: {
-    120: '#00EF99',
-    100: '#FF4E64',
-    80: '#885ED5',
-    60: '#FFF15C',
-    40: '#573496',
+    100: '#000000',
   },
   bulma: {
-    120: '#D6DDE0',
     100: '#FFFFFF',
-    80: '#E9EDEF',
   },
   trunks: {
-    120: '#AAB6BE',
     100: '#8697A2',
-    80: '#9EACB5',
   },
 };
 
@@ -67,9 +58,9 @@ const commsDark: Theme = {
     ...color,
   },
   radius: {
-    small: 2,
-    default: 4,
-    largest: 8,
+    small: 8,
+    default: 16,
+    largest: 24,
   },
   colorScheme: 'dark',
 };
