@@ -43,6 +43,7 @@
     "@heathmont/moon-table": "^2.56.1",
     "@heathmont/moon-themes": "^2.56.0",
     "@heathmont/moon-utils": "^2.56.0",
+    "@heathmont/moon-popover": "^2.56.0",
     "@heathmont/sportsbet-cdn": "1.1.0",
     "@mdx-js/mdx": "1.6.18",
     "@mdx-js/react": "1.6.18",
