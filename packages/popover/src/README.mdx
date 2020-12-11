@@ -1,0 +1,59 @@
+---
+name: Popover
+menu: Popover
+route: /popover/popover
+---
+
+# Popover
+
+| Name                | &nbsp;&nbsp; |      Type       | &nbsp;&nbsp; | Description                                         |
+| :------------------ | ------------ | :-------------: | ------------ | :-------------------------------------------------- |
+| content             |              | React.ReactNode |              | **Required**. Content of popover                    |
+| defaultState        |              |     boolean     |              | **Default: false**. Open/Closed popover by default  |
+| closeOnClickOutside |              |     boolean     |              | **Default: true**. Close popover if clicked outside |
+| placement           |              |    Placement    |              | Placement of popover                                |
+
+type Placement = 'top'
+| 'top-start'
+| 'top-end'
+| 'right'
+| 'right-start'
+| 'right-end'
+| 'bottom'
+| 'bottom-start'
+| 'bottom-end'
+| 'left'
+| 'left-start'
+| 'left-end'
+| 'auto'
+| 'auto-start'
+| 'auto-end';
+
+```jsx react-live
+<Inline>
+  <Popover
+    content={
+      <div>
+        <Heading size={20} style={{ marginBottom: 20 }}>
+          Agents
+        </Heading>
+        <Search
+          placeholder="Search"
+          results={[
+            {
+              title: <span>Agents</span>,
+              items: [
+                <span>First Agent</span>,
+                <span>Second Agent</span>,
+                <span>Third Agent</span>,
+              ],
+            },
+          ]}
+        />
+      </div>
+    }
+  >
+    <Button variant="primary">Toggle Popover</Button>
+  </Popover>
+</Inline>
+```
