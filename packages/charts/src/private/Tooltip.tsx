@@ -31,21 +31,52 @@ export const ColorPreview = styled.div({
   transform: 'translateY(-50%)',
 });
 
-export const Tooltip = ({ payload, active }: any) => {
+type Props = {
+  payload?: {
+    name: string;
+    dataKey: string;
+    color: string;
+    value: any;
+    payload: {
+      date?: string;
+      label?: string;
+      fill?: string;
+      dataKey?: string;
+    };
+  }[];
+  active?: boolean;
+  formatFn: (props: { value: any; key: string }) => any;
+};
+
+export const Tooltip: React.FC<Props> = ({ payload, active, formatFn }) => {
   if (!active || !payload) return null;
+
+  const date = payload[0] && payload[0].payload.date;
 
   return (
     <TooltipWrapper>
-      {payload.map((item: any) => (
-        <Item size={14} key={item.dataKey} as="div">
-          <>
-            <ColorPreview
-              style={{ background: item.payload.fill || item.color }}
-            />
-            {item.payload.label || item.name} • {item.value}
-          </>
+      {date && (
+        <Item size={12} as="div" color="trunks.100">
+          {date}:
         </Item>
-      ))}
+      )}
+      {payload.map(item => {
+        const color = item.payload.fill || item.color;
+        const label = item.payload.label || item.name;
+        const value = formatFn({
+          value: item.value,
+          key: item.payload.dataKey || item.dataKey,
+        });
+
+        return (
+          <Item size={14} key={item.dataKey} as="div">
+            <>
+              <ColorPreview style={{ background: color }} />
+              {label} • {value}
+            </>
+          </Item>
+        );
+      })}
     </TooltipWrapper>
   );
 };
