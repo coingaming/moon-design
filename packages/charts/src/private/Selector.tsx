@@ -6,18 +6,26 @@ import { ColorProps } from '@heathmont/moon-themes';
 const Container = styled.div(({ theme }) => ({
   display: 'flex',
   flexShrink: 0,
-  flexDirection: 'row',
   alignItems: 'center',
   justifyContent: 'center',
   marginBottom: rem(theme.space.default),
+  overflowX: 'auto',
 }));
+
+const List = styled.div({
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'flex-start',
+  maxWidth: '100%',
+});
 
 const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
   flexDirection: 'column',
+  flexShrink: 0,
   position: 'relative',
   margin: `0 ${rem(8)}`,
-  padding: `${rem(8)} ${rem(8)} ${rem(8)} ${rem(32)}`,
+  padding: `${rem(8)} ${rem(16)} ${rem(8)} ${rem(32)}`,
   cursor: 'pointer',
   background: isActive ? theme.color.goku[100] : 'none',
   borderRadius: rem(8),
@@ -55,9 +63,10 @@ const Value = styled.div(({ theme }) => ({
 type Props = {
   onChange: (key: string, isActive: boolean) => void;
   activeOptions: string[];
+  formatFn: (props: { value: any; key: string }) => any;
   options: {
     label: any;
-    key: string;
+    dataKey: string;
     value: string | number;
     color: ColorProps;
   }[];
@@ -67,24 +76,28 @@ export const Selector: React.FC<Props> = ({
   options,
   activeOptions,
   onChange,
+  formatFn,
 }) => {
   return (
     <Container>
-      {options.map(option => {
-        const isActive = activeOptions.includes(option.key);
+      <List>
+        {options.map(option => {
+          const isActive = activeOptions.includes(option.dataKey);
+          const value = formatFn({ value: option.value, key: option.dataKey });
 
-        return (
-          <Button
-            isActive={isActive}
-            onClick={() => onChange(option.key, !isActive)}
-            key={option.key}
-          >
-            <ColorPreview color={option.color} />
-            <Label>{option.label}</Label>
-            <Value>{option.value}</Value>
-          </Button>
-        );
-      })}
+          return (
+            <Button
+              isActive={isActive}
+              onClick={() => onChange(option.dataKey, !isActive)}
+              key={option.dataKey}
+            >
+              <ColorPreview color={option.color} />
+              <Label>{option.label}</Label>
+              <Value>{value}</Value>
+            </Button>
+          );
+        })}
+      </List>
     </Container>
   );
 };
