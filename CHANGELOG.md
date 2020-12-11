@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.56.5](https://github.com/coingaming/sportsbet-design/compare/v2.56.4...v2.56.5) (2020-12-11)
+
+
+### Bug Fixes
+
+* added on toggle to sidebar ([08c2c1a](https://github.com/coingaming/sportsbet-design/commit/08c2c1a3a859c6b673d7aee8e9088f0898260c2c))
+
+
+
+
+
 ## [2.56.4](https://github.com/coingaming/sportsbet-design/compare/v2.56.3...v2.56.4) (2020-12-08)
 
 **Note:** Version bump only for package moon-design
