@@ -6,25 +6,31 @@ route: /charts/geoMapChart
 
 # GeoMapChart
 
-| Name       | &nbsp;&nbsp; |      Type       | &nbsp;&nbsp; | Description                                                                      |
-| :--------- | ------------ | :-------------: | ------------ | :------------------------------------------------------------------------------- |
-| title      |              |     string      |              | **Required**. Chart title text                                                   |
-| data       |              |     Data[]      |              | **Required**. Array of data                                                      |
-| onUpdate   |              |    function     |              | Handler function when pressing the update button                                 |
-| onShare    |              |    function     |              | Handler function when pressing the share button                                  |
-| onExpand   |              |    function     |              | Handler function when pressing the expand button                                 |
-| hasUpdates |              |     boolean     |              | **Default: false**. If set true, the dot icon is displayed                       |
-| filter     |              | React.ReactNode |              | Placeholder for filter component                                                 |
-| height     |              | string, number  |              | **Default: 446**. Height of component                                            |
-| compact    |              |     boolean     |              | **Default: false**. If set true, the map component will not render               |
-| color      |              |   ColorProps    |              | **Default: "krillin.100"**. Highlight color                                      |
-| icon       |              | React.ReactNode |              | **Default: &lt;ChartIcons.Countries/&gt;**. Placeholder for chart icon component |
+Based on [react-simple-maps](https://github.com/zcreativelabs/react-simple-maps)
+
+| Name          | &nbsp;&nbsp; |          Type           | &nbsp;&nbsp; | Description                                                                      |
+| :------------ | ------------ | :---------------------: | ------------ | :------------------------------------------------------------------------------- |
+| title         |              |         string          |              | **Required**. Chart title text                                                   |
+| data          |              |         Data[]          |              | **Required**. Array of data                                                      |
+| onUpdate      |              |        function         |              | Handler function when pressing the update button                                 |
+| onShare       |              |        function         |              | Handler function when pressing the share button                                  |
+| onExpand      |              |        function         |              | Handler function when pressing the expand button                                 |
+| hasUpdates    |              |         boolean         |              | **Default: false**. If set true, the dot icon is displayed                       |
+| filter        |              |     React.ReactNode     |              | Placeholder for filter component                                                 |
+| height        |              |     string, number      |              | **Default: 446**. Height of component                                            |
+| compact       |              |         boolean         |              | **Default: false**. If set true, the map component will not render               |
+| positionColor |              |       ColorProps        |              | **Default: "krillin.100"**. Highlight color for positive values                  |
+| negativeColor |              |       ColorProps        |              | **Default: "whis.100"**. Highlight color for negative values                     |
+| icon          |              |     React.ReactNode     |              | **Default: &lt;ChartIcons.Countries/&gt;**. Placeholder for chart icon component |
+| loaderText    |              | string, React.ReactNode |              | **Default: "No data"**. The text for "no data" / "loading" states                |
+| formatFn      |              |        function         |              | The formatter function of data value                                             |
 
 ```
 Data {
-  label: string | React.ReactNode
-  code: string
-  value: number
+  label: string | React.ReactNode;
+  code: string;
+  value: number;
+  dataKey: string;
 }
 ```
 
@@ -38,27 +44,66 @@ Data {
     { label: 'USA', code: 'USA', value: 40 },
   ];
 
+  const filter = (
+    <Filter title="by GGR">
+      {() => (
+        <SingleItemSelect
+          onChange={() => {}}
+          value="ggr"
+          options={[
+            { label: 'Active players', value: 'actives' },
+            { label: 'GGR', value: 'ggr' },
+            { label: 'Bets', value: 'bets' },
+          ]}
+        />
+      )}
+    </Filter>
+  );
+
   return (
     <GeoMapChart
       title="Top Countries"
       data={data}
-      filter={
-        <Filter title="by GGR">
-          <SingleItemSelect
-            onChange={() => {}}
-            value="ggr"
-            options={[
-              { label: 'Active players', value: 'actives' },
-              { label: 'GGR', value: 'ggr' },
-              { label: 'Bets', value: 'bets' },
-            ]}
-          />
-        </Filter>
-      }
+      filter={filter}
       hasUpdates={true}
-      onUpdate={() => console.log('onUpdate')}
-      onShare={() => console.log('onShare')}
-      onExpand={() => console.log('onExpand')}
+      onUpdate={() => {}}
+      onShare={() => {}}
+      onExpand={() => {}}
+    />
+  );
+};
+```
+
+### Loading state
+
+```jsx react-live
+() => {
+  const filter = (
+    <Filter title="by GGR">
+      {() => (
+        <SingleItemSelect
+          onChange={() => {}}
+          value="ggr"
+          options={[
+            { label: 'Active players', value: 'actives' },
+            { label: 'GGR', value: 'ggr' },
+            { label: 'Bets', value: 'bets' },
+          ]}
+        />
+      )}
+    </Filter>
+  );
+
+  return (
+    <GeoMapChart
+      title="Top Countries"
+      data={[]}
+      filter={filter}
+      hasUpdates={true}
+      onUpdate={() => {}}
+      onShare={() => {}}
+      onExpand={() => {}}
+      loaderText="Loading..."
     />
   );
 };
@@ -66,7 +111,7 @@ Data {
 
 ```jsx react-live
 () => {
-  const data = [
+  const data1 = [
     {
       label: (
         <>
@@ -114,53 +159,93 @@ Data {
     },
   ];
 
+  const data2 = [
+    {
+      label: (
+        <>
+          <IconFlagEE /> <span>Estonia</span>
+        </>
+      ),
+      code: 'EST',
+      value: 120,
+    },
+    {
+      label: (
+        <>
+          <IconFlagRU /> <span>Russia</span>
+        </>
+      ),
+      code: 'RUS',
+      value: 100,
+    },
+    {
+      label: (
+        <>
+          <IconFlagBY /> <span>Belarus</span>
+        </>
+      ),
+      code: 'BLR',
+      value: -20,
+    },
+    {
+      label: (
+        <>
+          <IconFlagAR /> <span>Argentina</span>
+        </>
+      ),
+      code: 'ARG',
+      value: -60,
+    },
+    {
+      label: (
+        <>
+          <IconFlagUS /> <span>USA</span>
+        </>
+      ),
+      code: 'USA',
+      value: -100,
+    },
+  ];
+
+  const filter = (
+    <Filter title="by GGR">
+      {() => (
+        <SingleItemSelect
+          onChange={() => {}}
+          value="ggr"
+          options={[
+            { label: 'Active players', value: 'actives' },
+            { label: 'GGR', value: 'ggr' },
+            { label: 'Bets', value: 'bets' },
+          ]}
+        />
+      )}
+    </Filter>
+  );
+
   return (
     <Inline style={{ flexWrap: 'nowrap' }}>
       <GeoMapChart
         title="Top Countries"
-        data={data}
+        data={data1}
         compact={true}
-        filter={
-          <Filter title="by GGR">
-            <SingleItemSelect
-              onChange={() => {}}
-              value="ggr"
-              options={[
-                { label: 'Active players', value: 'actives' },
-                { label: 'GGR', value: 'ggr' },
-                { label: 'Bets', value: 'bets' },
-              ]}
-            />
-          </Filter>
-        }
+        filter={filter}
         hasUpdates={true}
-        onUpdate={() => console.log('onUpdate')}
-        onShare={() => console.log('onShare')}
-        onExpand={() => console.log('onExpand')}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
       />
 
       <GeoMapChart
         title="Top Countries"
-        data={data}
+        data={data2}
         compact={true}
         color="whis.100"
-        filter={
-          <Filter title="by GGR">
-            <SingleItemSelect
-              onChange={() => {}}
-              value="ggr"
-              options={[
-                { label: 'Active players', value: 'actives' },
-                { label: 'GGR', value: 'ggr' },
-                { label: 'Bets', value: 'bets' },
-              ]}
-            />
-          </Filter>
-        }
+        filter={filter}
         hasUpdates={true}
-        onUpdate={() => console.log('onUpdate')}
-        onShare={() => console.log('onShare')}
-        onExpand={() => console.log('onExpand')}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
       />
     </Inline>
   );
