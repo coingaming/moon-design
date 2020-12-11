@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import { Container } from './private/Container';
 import { CollapseTarget } from './private/CollapseTarget';
@@ -11,6 +11,7 @@ type Props = {
   logo: React.ReactNode;
   openWidth?: number;
   collapseWidth?: number;
+  onToggle?: (_: boolean) => void;
 };
 
 const Sidebar: React.FC<Props> = ({
@@ -21,8 +22,20 @@ const Sidebar: React.FC<Props> = ({
   logo,
   openWidth = 236,
   collapseWidth = 80,
+  onToggle,
 }) => {
   const [isOpen, setIsOpen] = useState(initialState);
+  const initialRender = useRef(true);
+  useEffect(() => {
+    if (!onToggle) {
+      return;
+    }
+    if (initialRender.current) {
+      initialRender.current = false;
+      return;
+    }
+    onToggle(isOpen);
+  }, [isOpen, onToggle]);
   return (
     <OuterContainer
       isOpen={isOpen}
