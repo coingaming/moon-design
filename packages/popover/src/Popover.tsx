@@ -21,9 +21,9 @@ type Placement =
   | 'auto-end';
 
 type Props = {
-  defaultState: boolean;
-  closeOnClickOutside: boolean;
-  placement: Placement;
+  defaultState?: boolean;
+  closeOnClickOutside?: boolean;
+  placement?: Placement;
   content: React.ReactNode;
 };
 
