@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import React from 'react';
+import { Loader } from '@heathmont/moon-components';
 
 const Button = styled.button<{ hasUpdates?: boolean }>(
   ({ hasUpdates, theme }) => ({
@@ -66,8 +67,13 @@ const Header = styled.div(({ theme }) => ({
   minHeight: rem(24),
 }));
 
+const IconRefreshStyled = styled(IconRefresh as any)({
+  transform: 'rotate(90deg)',
+});
+
 type Props = {
   hasUpdates: boolean;
+  isUpdating: boolean;
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
@@ -76,20 +82,28 @@ type Props = {
 };
 
 export const Panel: React.FC<Props> = ({
-  hasUpdates,
   onUpdate,
   onShare,
   onExpand,
   children,
   height,
+  hasUpdates,
+  isUpdating,
   isActive = false,
 }) => {
   return (
     <Container isActive={isActive} style={{ height }}>
       <Header>
         {onUpdate && (
-          <Button hasUpdates={hasUpdates} onClick={() => onUpdate()}>
-            <IconRefresh />
+          <Button
+            hasUpdates={hasUpdates && !isUpdating}
+            onClick={() => onUpdate()}
+          >
+            {isUpdating ? (
+              <Loader color="piccolo.100" />
+            ) : (
+              <IconRefreshStyled />
+            )}
           </Button>
         )}
         <div />
