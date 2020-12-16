@@ -42,6 +42,7 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
@@ -56,6 +57,7 @@ const PieChart: React.FC<Props> = ({
   onUpdate,
   onShare,
   onExpand,
+  isUpdating = false,
   hasUpdates = false,
   filter,
   height = 446,
@@ -122,6 +124,7 @@ const PieChart: React.FC<Props> = ({
 
   return (
     <Panel
+      isUpdating={isUpdating}
       hasUpdates={hasUpdates}
       onUpdate={onUpdate}
       onShare={onShare}
