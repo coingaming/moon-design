@@ -58,7 +58,7 @@ const GeoMapChart: React.FC<Props> = ({
   icon = <ChartIcons.Countries />,
   compact = false,
   positionColor = 'krillin.100',
-  negativeColor = 'whis.100',
+  negativeColor = 'chiChi.100',
   formatFn = ({ value }) => value,
   loaderText = 'No data',
 }) => {
