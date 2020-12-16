@@ -48,6 +48,7 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
@@ -65,6 +66,7 @@ const LineChart: React.FC<Props> = ({
   onUpdate,
   onShare,
   onExpand,
+  isUpdating = false,
   hasUpdates = false,
   filter,
   height = 526,
@@ -92,6 +94,7 @@ const LineChart: React.FC<Props> = ({
 
   return (
     <Panel
+      isUpdating={isUpdating}
       hasUpdates={hasUpdates}
       onUpdate={onUpdate}
       onShare={onShare}
