@@ -7,7 +7,6 @@ import { Panel } from './private/Panel';
 import { Header } from './private/Header';
 import ChartIcons from './ChartIcons';
 import { VerticalBar } from './private/VerticalBar';
-import { Map } from './private/Map';
 import { Loader } from './private/Loader';
 import { getAxisPosition, getBarChartData } from './private/utils';
 
@@ -15,12 +14,6 @@ const Container = styled.div({
   display: 'flex',
   height: '100%',
   overflow: 'hidden',
-});
-
-const BarChartContainer = styled.div({
-  flex: 1,
-  height: '100%',
-  overflow: 'auto',
 });
 
 type Props = {
@@ -39,14 +32,13 @@ type Props = {
   filter?: React.ReactNode;
   height?: string | number;
   icon?: any;
-  compact?: boolean;
   positiveColor?: ColorProps;
   negativeColor?: ColorProps;
   formatFn?: (props: { value: any; key: string }) => any;
   loaderText?: string | React.ReactNode;
 };
 
-const GeoMapChart: React.FC<Props> = ({
+const VerticalBarChart: React.FC<Props> = ({
   title,
   data,
   onUpdate,
@@ -85,20 +77,12 @@ const GeoMapChart: React.FC<Props> = ({
         <Header icon={icon} title={title} filter={filter} />
         <Container>
           {isLoading ? (
-            <Loader
-              icon={<ChartIcons.GeoMapChartLoading />}
-              title={loaderText}
-            />
+            <Loader icon={<ChartIcons.BarChartLoading />} title={loaderText} />
           ) : (
-            <>
-              <BarChartContainer>
-                <VerticalBar
-                  axisPosition={getAxisPosition(data)}
-                  data={chartData}
-                />
-              </BarChartContainer>
-              <Map data={chartData} />
-            </>
+            <VerticalBar
+              axisPosition={getAxisPosition(data)}
+              data={chartData}
+            />
           )}
         </Container>
       </>
@@ -106,4 +90,4 @@ const GeoMapChart: React.FC<Props> = ({
   );
 };
 
-export default GeoMapChart;
+export default VerticalBarChart;
