@@ -77,6 +77,7 @@ const LineChart: React.FC<Props> = ({
   loaderText = 'No data',
 }) => {
   const theme = useTheme();
+  const bgColor = themed('color', 'gohan.100')(theme);
   const initialActiveOptions = options
     .filter(({ isActive }) => isActive)
     .map(({ dataKey }) => dataKey);
@@ -129,7 +130,8 @@ const LineChart: React.FC<Props> = ({
                   yAxisId="left"
                   type="number"
                   tickLine={false}
-                  axisLine={false}
+                  axisLine
+                  stroke={bgColor}
                   width={axisWidth}
                   tickFormatter={value => formatFn({ value, key: 'leftAxis' })}
                 />
@@ -138,7 +140,8 @@ const LineChart: React.FC<Props> = ({
                   orientation="right"
                   type="number"
                   tickLine={false}
-                  axisLine={false}
+                  axisLine
+                  stroke={bgColor}
                   width={axisWidth}
                   tickFormatter={value => formatFn({ value, key: 'rightAxis' })}
                 />
