@@ -10,21 +10,31 @@ const Container = styled.div({
   height: '100%',
 });
 
-const Bar = styled.div<{ withNegative: boolean; isNegative: boolean }>(
-  ({ withNegative, isNegative }) => ({
-    position: 'relative',
-    height: rem(20),
-    display: 'block',
-    ...(withNegative
-      ? {
-          width: '50%',
-          transform: isNegative ? 'rotate(180deg)' : 'translateX(100%)',
-        }
-      : {
-          width: '100%',
-        }),
-  })
-);
+const Bar = styled.div<{
+  isNegative: boolean;
+  axisPosition: 'left' | 'center' | 'right';
+}>(({ isNegative, axisPosition }) => ({
+  position: 'relative',
+  height: rem(20),
+  display: 'block',
+  ...(axisPosition === 'left'
+    ? {
+        width: '100%',
+      }
+    : {}),
+  ...(axisPosition === 'center'
+    ? {
+        width: '50%',
+        transform: isNegative ? 'rotate(180deg)' : 'translateX(100%)',
+      }
+    : {}),
+  ...(axisPosition === 'right'
+    ? {
+        width: '100%',
+        transform: 'rotate(180deg)',
+      }
+    : {}),
+}));
 
 const Line = styled.div(({ theme }) => ({
   position: 'absolute',
@@ -56,10 +66,10 @@ type Props = {
     isNegative: boolean;
     color: string;
   }[];
-  withNegative: boolean;
+  axisPosition: 'left' | 'center' | 'right';
 };
 
-export const VerticalBar: React.FC<Props> = ({ data, withNegative }) => {
+export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
   return (
     <Container>
       <Table isAutoSize={data.length < 5}>
@@ -78,8 +88,8 @@ export const VerticalBar: React.FC<Props> = ({ data, withNegative }) => {
                   <TableItem>{label}</TableItem>
                 </Cell>
                 <Cell wide>
-                  {withNegative && <Center />}
-                  <Bar withNegative={withNegative} isNegative={isNegative}>
+                  {axisPosition === 'center' && <Center />}
+                  <Bar isNegative={isNegative} axisPosition={axisPosition}>
                     <Transition in appear timeout={0}>
                       {state => (
                         <Line

@@ -46,8 +46,6 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   color: isActive ? theme.color.goten[100] : theme.color.bulma[100],
   background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
   borderRadius: rem(theme.space.default),
-  willChange: 'color, background',
-  transitions: `color ${theme.transitionDuration.default}s, background ${theme.transitionDuration.default}s`,
   width: '100%',
   ...(isActive && {
     [Button]: {
