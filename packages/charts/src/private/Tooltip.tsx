@@ -65,13 +65,14 @@ export const Tooltip: React.FC<Props> = ({ payload, active, formatFn }) => {
       {payload.map(item => {
         const color = item.payload.fill || item.color;
         const label = item.payload.label || item.name;
+        const key = item.payload.dataKey || item.dataKey;
         const value = formatFn({
           value: item.value,
-          key: item.payload.dataKey || item.dataKey,
+          key,
         });
 
         return (
-          <Item>
+          <Item key={key}>
             <ColorPreview style={{ background: color }} />
             <Text size={12} as="span">
               {label}
