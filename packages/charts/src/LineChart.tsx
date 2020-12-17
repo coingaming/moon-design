@@ -123,6 +123,7 @@ const LineChart: React.FC<Props> = ({
                   axisLine={false}
                   interval={interval}
                   domain={['auto', 'auto']}
+                  tickFormatter={value => formatFn({ value, key: 'dateAxis' })}
                 />
                 <YAxis
                   yAxisId="left"
@@ -130,6 +131,7 @@ const LineChart: React.FC<Props> = ({
                   tickLine={false}
                   axisLine={false}
                   width={axisWidth}
+                  tickFormatter={value => formatFn({ value, key: 'leftAxis' })}
                 />
                 <YAxis
                   yAxisId="right"
@@ -138,6 +140,7 @@ const LineChart: React.FC<Props> = ({
                   tickLine={false}
                   axisLine={false}
                   width={axisWidth}
+                  tickFormatter={value => formatFn({ value, key: 'rightAxis' })}
                 />
 
                 {activeOptions.map(option => {
