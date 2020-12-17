@@ -4,6 +4,7 @@ import TopSuppliers from './private/icons/TopSuppliersIcon';
 import Line from './private/icons/LineIcon';
 import Devices from './private/icons/DevicesIcon';
 import Time from './private/icons/TimeIcon';
+import TimeInverted from './private/icons/TimeInvertedIcon';
 import Countries from './private/icons/CountriesIcon';
 import LineChartLoading from './private/icons/LineChartLoadingIcon';
 import PieChartLoading from './private/icons/PieChartLoadingIcon';
@@ -17,6 +18,7 @@ export default {
   Line,
   Devices,
   Time,
+  TimeInverted,
   Countries,
   LineChartLoading,
   PieChartLoading,
