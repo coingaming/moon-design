@@ -57,7 +57,12 @@ export const Map: React.FC<Props> = ({ data }) => {
         {!!hoveredItem && (
           <Item size={14} as="div">
             <>
-              <ColorPreview style={{ background: hoveredItem.color }} />
+              <ColorPreview
+                style={{
+                  background: hoveredItem.color,
+                  opacity: hoveredItem.opacity,
+                }}
+              />
               {hoveredItem.label} • {hoveredItem.value}
             </>
           </Item>

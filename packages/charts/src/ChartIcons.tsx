@@ -8,6 +8,7 @@ import Countries from './private/icons/CountriesIcon';
 import LineChartLoading from './private/icons/LineChartLoadingIcon';
 import PieChartLoading from './private/icons/PieChartLoadingIcon';
 import BarChartLoading from './private/icons/BarChartLoadingIcon';
+import GeoMapChartLoading from './private/icons/GeoMapChartLoadingIcon';
 
 export default {
   TopGames,
@@ -20,4 +21,5 @@ export default {
   LineChartLoading,
   PieChartLoading,
   BarChartLoading,
+  GeoMapChartLoading,
 };
