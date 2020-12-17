@@ -16,9 +16,15 @@ export const TooltipWrapper = styled.div(({ theme }) => ({
   pointerEvents: 'none',
 }));
 
-export const Item = styled(Text)(({ theme }) => ({
+export const Item = styled.div(({ theme }) => ({
   position: 'relative',
-  paddingLeft: rem(theme.space.default),
+  padding: `${rem(2)} 0 ${rem(2)} ${rem(theme.space.default)}`,
+  color: theme.color.trunks[100],
+}));
+
+const Date = styled.div(({ theme }) => ({
+  padding: `${rem(2)} 0`,
+  color: theme.color.trunks[100],
 }));
 
 export const ColorPreview = styled.div({
@@ -55,11 +61,7 @@ export const Tooltip: React.FC<Props> = ({ payload, active, formatFn }) => {
 
   return (
     <TooltipWrapper>
-      {date && (
-        <Item size={12} as="div" color="trunks.100">
-          {date}:
-        </Item>
-      )}
+      {date && <Date>{formatFn({ value: date, key: 'date' })}</Date>}
       {payload.map(item => {
         const color = item.payload.fill || item.color;
         const label = item.payload.label || item.name;
@@ -69,11 +71,12 @@ export const Tooltip: React.FC<Props> = ({ payload, active, formatFn }) => {
         });
 
         return (
-          <Item size={14} key={item.dataKey} as="div">
-            <>
-              <ColorPreview style={{ background: color }} />
-              {label} • {value}
-            </>
+          <Item>
+            <ColorPreview style={{ background: color }} />
+            <Text size={12} as="span">
+              {label}
+            </Text>{' '}
+            • {value}
           </Item>
         );
       })}

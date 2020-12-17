@@ -3,6 +3,7 @@ import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 import styled from 'styled-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import { Text } from '@heathmont/moon-components';
 
 import { TooltipWrapper, Item, ColorPreview } from './Tooltip';
 import worldMap from './World110m';
@@ -55,7 +56,7 @@ export const Map: React.FC<Props> = ({ data }) => {
         }}
       >
         {!!hoveredItem && (
-          <Item size={14} as="div">
+          <Item>
             <>
               <ColorPreview
                 style={{
@@ -63,7 +64,10 @@ export const Map: React.FC<Props> = ({ data }) => {
                   opacity: hoveredItem.opacity,
                 }}
               />
-              {hoveredItem.label} • {hoveredItem.value}
+              <Text size={12} as="span">
+                {hoveredItem.label}
+              </Text>{' '}
+              • {hoveredItem.value}
             </>
           </Item>
         )}
