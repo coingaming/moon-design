@@ -33,6 +33,7 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
@@ -47,6 +48,7 @@ const TableChart: React.FC<Props> = ({
   onUpdate,
   onShare,
   onExpand,
+  isUpdating = false,
   hasUpdates = false,
   filter,
   height = 446,
@@ -58,6 +60,7 @@ const TableChart: React.FC<Props> = ({
 
   return (
     <Panel
+      isUpdating={isUpdating}
       isActive={isActive}
       hasUpdates={hasUpdates}
       onUpdate={onUpdate}

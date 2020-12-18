@@ -92,6 +92,7 @@ export const Logo = () => {
       {brand === 'MissionsTool' && <LogoMissions fontSize="2rem" />}
       {brand === 'Moneyball' && <LogoMoneyball />}
       {brand === 'Comms' && <LogoCommsFull />}
+      {brand === 'ShangriLa.io' && 'ShangriLa.io'}
 
       <IconChevronDown aria-hidden="true" />
 
@@ -108,6 +109,7 @@ export const Logo = () => {
         <option value="missionsTool">MissionsTool</option>
         <option value="moneyball">Moneyball</option>
         <option value="comms">Comms</option>
+        <option value="shangrila">Shangri La</option>
       </BrandSelect>
     </LogoContainer>
   );
