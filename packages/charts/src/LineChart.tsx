@@ -48,6 +48,7 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
@@ -65,6 +66,7 @@ const LineChart: React.FC<Props> = ({
   onUpdate,
   onShare,
   onExpand,
+  isUpdating = false,
   hasUpdates = false,
   filter,
   height = 526,
@@ -75,6 +77,7 @@ const LineChart: React.FC<Props> = ({
   loaderText = 'No data',
 }) => {
   const theme = useTheme();
+  const bgColor = themed('color', 'gohan.100')(theme);
   const initialActiveOptions = options
     .filter(({ isActive }) => isActive)
     .map(({ dataKey }) => dataKey);
@@ -92,6 +95,7 @@ const LineChart: React.FC<Props> = ({
 
   return (
     <Panel
+      isUpdating={isUpdating}
       hasUpdates={hasUpdates}
       onUpdate={onUpdate}
       onShare={onShare}
@@ -120,21 +124,26 @@ const LineChart: React.FC<Props> = ({
                   axisLine={false}
                   interval={interval}
                   domain={['auto', 'auto']}
+                  tickFormatter={value => formatFn({ value, key: 'dateAxis' })}
                 />
                 <YAxis
                   yAxisId="left"
                   type="number"
                   tickLine={false}
-                  axisLine={false}
+                  axisLine
+                  stroke={bgColor}
                   width={axisWidth}
+                  tickFormatter={value => formatFn({ value, key: 'leftAxis' })}
                 />
                 <YAxis
                   yAxisId="right"
                   orientation="right"
                   type="number"
                   tickLine={false}
-                  axisLine={false}
+                  axisLine
+                  stroke={bgColor}
                   width={axisWidth}
+                  tickFormatter={value => formatFn({ value, key: 'rightAxis' })}
                 />
 
                 {activeOptions.map(option => {
