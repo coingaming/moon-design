@@ -1,12 +1,10 @@
 ---
-name: GeoMapChart
+name: VerticalBarChart
 menu: Charts
-route: /charts/geoMapChart
+route: /charts/verticalBarChart
 ---
 
-# GeoMapChart
-
-Based on [react-simple-maps](https://github.com/zcreativelabs/react-simple-maps)
+# VerticalBarChart
 
 | Name          | &nbsp;&nbsp; |          Type           | &nbsp;&nbsp; | Description                                                                      |
 | :------------ | ------------ | :---------------------: | ------------ | :------------------------------------------------------------------------------- |
@@ -61,50 +59,27 @@ Data {
   );
 
   return (
-    <GeoMapChart
-      title="Top Countries"
-      data={data}
-      filter={filter}
-      hasUpdates={true}
-      onUpdate={() => {}}
-      onShare={() => {}}
-      onExpand={() => {}}
-    />
-  );
-};
-```
+    <Inline style={{ flexWrap: 'nowrap' }}>
+      <VerticalBarChart
+        title="Top Countries"
+        data={[]}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
 
-### Loading state
-
-```jsx react-live
-() => {
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <GeoMapChart
-      title="Top Countries"
-      data={[]}
-      filter={filter}
-      hasUpdates={true}
-      onUpdate={() => {}}
-      onShare={() => {}}
-      onExpand={() => {}}
-      loaderText="Loading..."
-    />
+      <VerticalBarChart
+        title="Top Countries"
+        data={data}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
+    </Inline>
   );
 };
 ```
@@ -113,50 +88,24 @@ Data {
 
 ```jsx react-live
 () => {
-  const data = [
+  const dataPositive = [
     { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 60 },
-    { label: 'Belarus', code: 'BLR', value: 30 },
-    { label: 'Argentina', code: 'ARG', value: -80 },
-    { label: 'USA', code: 'USA', value: -100 },
+    { label: 'Russia', code: 'RUS', value: 100 },
+    { label: 'Belarus', code: 'BLR', value: 80 },
+    { label: 'Argentina', code: 'ARG', value: 60 },
+    { label: 'USA', code: 'USA', value: 40 },
   ];
 
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
+  const dataMix = [
+    { label: 'Estonia', code: 'EST', value: 120 },
+    { label: 'Russia', code: 'RUS', value: 100 },
+    { label: 'Belarus', code: 'BLR', value: 20 },
+    { label: 'Argentina', code: 'ARG', value: -60 },
+    { label: 'USA', code: 'USA', value: -80 },
+  ];
 
-  return (
-    <GeoMapChart
-      title="Top Countries"
-      data={data}
-      filter={filter}
-      hasUpdates={true}
-      onUpdate={() => {}}
-      onShare={() => {}}
-      onExpand={() => {}}
-    />
-  );
-};
-```
-
-### With only negative values
-
-```jsx react-live
-() => {
-  const data = [
-    { label: 'Estonia', code: 'EST', value: -20 },
+  const dataNegative = [
+    { label: 'Estonia', code: 'EST', value: -40 },
     { label: 'Russia', code: 'RUS', value: -60 },
     { label: 'Belarus', code: 'BLR', value: -80 },
     { label: 'Argentina', code: 'ARG', value: -100 },
@@ -180,15 +129,38 @@ Data {
   );
 
   return (
-    <GeoMapChart
-      title="Top Countries"
-      data={data}
-      filter={filter}
-      hasUpdates={true}
-      onUpdate={() => {}}
-      onShare={() => {}}
-      onExpand={() => {}}
-    />
+    <Inline style={{ flexWrap: 'nowrap' }}>
+      <VerticalBarChart
+        title="Top Countries"
+        data={dataPositive}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
+
+      <VerticalBarChart
+        title="Top Countries"
+        data={dataMix}
+        filter={filter}
+        isUpdating={true}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
+
+      <VerticalBarChart
+        title="Top Countries"
+        data={dataNegative}
+        filter={filter}
+        hasUpdates={false}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
+    </Inline>
   );
 };
 ```
