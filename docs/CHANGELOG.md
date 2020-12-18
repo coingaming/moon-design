@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
+
+
+### Bug Fixes
+
+* add Shangri La themes ([24c91b6](https://github.com/coingaming/sportsbet-design/commit/24c91b693eda434a91c9dd55cd17dbbe96218fb2))
+
+
+
+
+
 ## [2.57.1](https://github.com/coingaming/sportsbet-design/compare/v2.57.0...v2.57.1) (2020-12-15)
 
 **Note:** Version bump only for package docs
