@@ -16,6 +16,7 @@ Based on [recharts](https://github.com/recharts/recharts)
 | onUpdate   |              |                          function                          |              | Handler function when pressing the update button                            |
 | onShare    |              |                          function                          |              | Handler function when pressing the share button                             |
 | onExpand   |              |                          function                          |              | Handler function when pressing the expand button                            |
+| isUpdating |              |                          boolean                           |              | **Default: false**. If set true, the loader icon is displayed               |
 | hasUpdates |              |                          boolean                           |              | **Default: false**. If set true, the dot icon is displayed                  |
 | filter     |              |                      React.ReactNode                       |              | Placeholder for filter component                                            |
 | height     |              |                       string, number                       |              | **Default: 526**. Height of component                                       |
@@ -86,6 +87,10 @@ Data {
     },
   ];
 
+  const formatFn = ({ value, key }) => {
+    return key === 'date' ? 'Fri ' + value : value;
+  };
+
   const data = Array.from({ length: 20 }, (v, i) => ({
     date: `${i + 1}/10`,
     turnover: Math.floor(Math.random() * 10000),
@@ -117,6 +122,7 @@ Data {
       data={data}
       filter={filter}
       hasUpdates={true}
+      formatFn={formatFn}
       onUpdate={() => {}}
       onShare={() => {}}
       onExpand={() => {}}
