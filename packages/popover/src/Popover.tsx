@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Tippy from '@tippyjs/react/headless';
 
 import { PopoverContainer } from './private/layout';
@@ -25,6 +25,8 @@ type Props = {
   closeOnClickOutside?: boolean;
   placement?: Placement;
   content: React.ReactNode;
+  isOpen?: boolean;
+  onVisibilityChange: (open: boolean) => void;
 };
 
 const Popover: React.FC<Props> = ({
@@ -33,8 +35,19 @@ const Popover: React.FC<Props> = ({
   placement = 'top',
   content,
   children,
+  isOpen = false,
+  onVisibilityChange,
 }) => {
-  const [visible, setVisible] = useState(defaultState);
+  const [visible, setVisible] = useState(defaultState || isOpen);
+
+  useEffect(() => {
+    setVisible(isOpen);
+  }, [isOpen]);
+
+  useEffect(() => {
+    onVisibilityChange(visible);
+  }, [visible]);
+
   function handleChildClick(e: any) {
     e.preventDefault();
 
