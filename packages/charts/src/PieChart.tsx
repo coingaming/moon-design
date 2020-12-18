@@ -42,6 +42,7 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
@@ -56,6 +57,7 @@ const PieChart: React.FC<Props> = ({
   onUpdate,
   onShare,
   onExpand,
+  isUpdating = false,
   hasUpdates = false,
   filter,
   height = 446,
@@ -64,7 +66,8 @@ const PieChart: React.FC<Props> = ({
   loaderText = 'No data',
 }) => {
   const theme = useTheme();
-  const [activeIndex, setActiveIndex] = useState(0);
+  const colorShadow = themed('color', 'bulma.100')(theme);
+  const [activeIndex, setActiveIndex] = useState(data.length - 1);
 
   const onMouseEnter = (event: any) => {
     setActiveIndex(event['data-index']);
@@ -105,14 +108,33 @@ const PieChart: React.FC<Props> = ({
         >
           {preparedPercent}%
         </text>
+        <filter id="shadow">
+          <feDropShadow
+            dx="0"
+            dy="2"
+            stdDeviation="3"
+            floodColor={colorShadow}
+            floodOpacity="0.25"
+          />
+        </filter>
+        {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
         <Sector
           cx={cx}
           cy={cy}
           innerRadius={innerRadius}
-          outerRadius={outerRadius + 2}
+          outerRadius={outerRadius}
           startAngle={startAngle}
           endAngle={endAngle}
           fill={fill}
+          style={{ filter: 'url(#shadow)' }}
+          cornerRadius="100%"
+          onMouseOver={e => {
+            if (!e || !e.target) return;
+            const sector = e.target.closest('.recharts-pie-sector');
+            const container = sector.parentElement;
+            if (!container) return;
+            container.appendChild(sector);
+          }}
         />
       </g>
     );
@@ -122,6 +144,7 @@ const PieChart: React.FC<Props> = ({
 
   return (
     <Panel
+      isUpdating={isUpdating}
       hasUpdates={hasUpdates}
       onUpdate={onUpdate}
       onShare={onShare}
@@ -149,11 +172,13 @@ const PieChart: React.FC<Props> = ({
                 activeShape={renderActiveShape}
                 data={data}
                 innerRadius="75%"
-                outerRadius="98%"
+                outerRadius="100%"
                 startAngle={90}
                 endAngle={-270}
-                minAngle={5}
+                minAngle={40}
+                paddingAngle={-14}
                 dataKey="value"
+                cornerRadius="100%"
                 onMouseEnter={onMouseEnter}
               >
                 {data.map((item, index) => (
