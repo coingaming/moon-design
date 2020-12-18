@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
+
+
+### Bug Fixes
+
+* fix icons ([48b52b6](https://github.com/coingaming/sportsbet-design/commit/48b52b605200cbd704b5cd6132082cf10a904b81))
+* fix line chart issues ([21be127](https://github.com/coingaming/sportsbet-design/commit/21be12770cd9a9674fdff9662d57e059af96ddd3))
+
+
+
+
+
 # [2.57.0](https://github.com/coingaming/sportsbet-design/compare/v2.56.5...v2.57.0) (2020-12-14)
 
 **Note:** Version bump only for package @heathmont/moon-charts
