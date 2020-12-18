@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
+
+**Note:** Version bump only for package @heathmont/moon-core
+
+
+
+
+
 # [2.57.0](https://github.com/coingaming/sportsbet-design/compare/v2.56.5...v2.57.0) (2020-12-14)
 
 **Note:** Version bump only for package @heathmont/moon-core
