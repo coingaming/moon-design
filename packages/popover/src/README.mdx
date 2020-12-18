@@ -32,6 +32,8 @@ type Placement = 'top'
 ```jsx react-live
 <Inline>
   <Popover
+    isOpen={false}
+    onVisibilityChange={status => console.log('status: ', status)}
     content={
       <div>
         <Heading size={20} style={{ marginBottom: 20 }}>
