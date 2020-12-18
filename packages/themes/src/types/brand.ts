@@ -11,4 +11,5 @@ export type Brand =
   | 'BTCXE'
   | 'MissionsTool'
   | 'Moneyball'
-  | 'MoonDesign';
+  | 'MoonDesign'
+  | 'ShangriLa.io';

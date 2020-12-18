@@ -23,6 +23,8 @@ import {
   moneyballLight,
   commsDark,
   commsLight,
+  shangrilaLight,
+  shangrilaDark,
 } from '@heathmont/moon-themes';
 
 const themes: DocsThemes = {
@@ -74,6 +76,10 @@ const themes: DocsThemes = {
     dark: commsDark,
     light: commsLight,
   },
+  shangrila: {
+    dark: shangrilaDark,
+    light: shangrilaLight,
+  },
 };
 
 type DocsColorModes = {
@@ -94,6 +100,7 @@ type DocsThemes = {
   moonDesign: DocsColorModes;
   moneyball: DocsColorModes;
   comms: DocsColorModes;
+  shangrila: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;
