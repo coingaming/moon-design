@@ -16,6 +16,8 @@ import {
   aposta10Light,
   missionsToolDark,
   missionsToolLight,
+  shangrilaLight,
+  shangrilaDark,
 } from '@heathmont/moon-themes';
 import { Link } from '@heathmont/moon-components';
 
@@ -65,6 +67,8 @@ export const DownloadThemes = () => {
     aposta10Light,
     missionsToolDark,
     missionsToolLight,
+    shangrilaLight,
+    shangrilaDark,
   ];
 
   return themes.map(theme => (
