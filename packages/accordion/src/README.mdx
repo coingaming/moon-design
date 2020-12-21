@@ -1,0 +1,22 @@
+---
+name: Accordion
+menu: Accordion
+route: /accordion/accordion
+---
+
+# Accordion
+
+| Name                | &nbsp;&nbsp; |      Type       | &nbsp;&nbsp; | Description                                         |
+| :------------------ | ------------ | :-------------: | ------------ | :-------------------------------------------------- |
+| content             |              | React.ReactNode |              | **Required**. Content of popover                    |
+| defaultState        |              |     boolean     |              | **Default: false**. Open/Closed popover by default  |
+| closeOnClickOutside |              |     boolean     |              | **Default: true**. Close popover if clicked outside |
+| placement           |              |    Placement    |              | Placement of popover                                |
+
+```jsx react-live
+<Inline>
+  <Accordion title="Test">
+    <div>Hello</div>
+  </Accordion>
+</Inline>
+```

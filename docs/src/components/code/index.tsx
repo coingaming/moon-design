@@ -13,6 +13,7 @@ import * as Charts from '@heathmont/moon-charts';
 import * as Core from '@heathmont/moon-core';
 import * as Notifications from '@heathmont/moon-notifications';
 import * as Popover from '@heathmont/moon-popover';
+import * as Accordion from '@heathmont/moon-accordion';
 import { useTheme } from '@heathmont/moon-themes';
 
 import { prismTheme } from './prism';
@@ -72,6 +73,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
             ...Charts,
             ...Popover,
             ...Notifications,
+            ...Accordion,
             useTheme,
             styled,
           }}
