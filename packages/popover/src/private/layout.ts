@@ -7,7 +7,7 @@ export const PopoverContainer = styled.div(
     maxWidth: rem(600),
     minWidth: rem(300),
     padding: rem(24),
-    background: color.gohan[100],
+    background: color.goku[100],
     outline: 'none',
     borderRadius: rem(radius.default),
     color: color.bulma[100],
