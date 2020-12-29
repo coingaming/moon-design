@@ -1,5 +1,5 @@
 import { rem } from '@heathmont/moon-utils';
-import React from 'react';
+import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { Transition } from 'react-transition-group';
 
@@ -70,6 +70,8 @@ type Props = {
 };
 
 export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
+  const lineRef = useRef(null);
+
   return (
     <Container>
       <Table isAutoSize={data.length < 5}>
@@ -90,9 +92,10 @@ export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
                 <Cell wide>
                   {axisPosition === 'center' && <Center />}
                   <Bar isNegative={isNegative} axisPosition={axisPosition}>
-                    <Transition in appear timeout={0}>
+                    <Transition nodeRef={lineRef} in appear timeout={0}>
                       {state => (
                         <Line
+                          ref={lineRef}
                           style={{
                             width: `${state === 'entered' ? percent : 0}%`,
                             opacity,
