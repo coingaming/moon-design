@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { Transition } from 'react-transition-group';
 
@@ -57,6 +57,7 @@ const TableChart: React.FC<Props> = ({
   loaderText = 'No data',
 }) => {
   const isLoading = !data.length;
+  const rowRef = useRef(null);
 
   return (
     <Panel
@@ -82,9 +83,12 @@ const TableChart: React.FC<Props> = ({
               <tbody>
                 {data.map((item, index) => (
                   // eslint-disable-next-line
-                  <Transition key={index} in={true} appear timeout={100 * index}>
+                  <Transition nodeRef={rowRef} key={index} in={true} appear timeout={100 * index}>
                     {state => (
-                      <Row style={{ opacity: state === 'entered' ? 1 : 0 }}>
+                      <Row
+                        ref={rowRef}
+                        style={{ opacity: state === 'entered' ? 1 : 0 }}
+                      >
                         <Cell>
                           <Count>{index + 1}</Count>
                         </Cell>
