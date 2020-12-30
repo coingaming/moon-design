@@ -1,36 +1,56 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-export const Cell = styled.td<{
+export const Cell = styled.div<{
   wide?: boolean;
   align?: 'left' | 'center' | 'right';
-}>(({ wide, align }) => ({
+  opacity?: number;
+}>(({ wide, align, theme, opacity = 1 }) => ({
   padding: `${rem(4)} ${rem(8)}`,
   width: wide ? '100%' : 'auto',
   textAlign: align || 'left',
   position: 'relative',
-  '&:first-child': {
-    paddingLeft: 0,
-  },
-  '&:last-child': {
-    paddingRight: 0,
-  },
-}));
-
-export const Row = styled.tr(({ theme }) => ({
+  opacity,
   transition: `opacity ${theme.transitionDuration.slow}s ease`,
 }));
 
-export const Table = styled.table<{ isAutoSize?: boolean }>(
-  ({ isAutoSize }) => ({
+export const Table = styled.div<{ withAdditionalCell?: boolean }>(
+  ({ withAdditionalCell }) => ({
     width: '100%',
-    height: isAutoSize ? 'auto' : '100%',
-    tableLayout: 'auto',
-    ...(isAutoSize && {
-      [Cell]: {
-        padding: `${rem(16)} ${rem(8)}`,
-      },
-    }),
+    height: '100%',
+    display: 'grid',
+    gridTemplateColumns: withAdditionalCell
+      ? 'auto auto 1fr auto'
+      : 'auto 1fr auto',
+    gridTemplateRows: 'repeat(5, 1fr)',
+    justifyItems: 'stretch',
+    alignItems: 'center',
+    ...(withAdditionalCell
+      ? {
+          [Cell]: {
+            '&:nth-child(4n  + 1)': {
+              paddingLeft: 0,
+            },
+            '&:nth-child(4n)': {
+              paddingRight: 0,
+            },
+            '&:nth-child(4n + 3)': {
+              alignSelf: 'stretch',
+              display: 'flex',
+              alignItems: 'center',
+            },
+          },
+        }
+      : {
+          [Cell]: {
+            '&:nth-child(3n  + 1)': {
+              paddingLeft: 0,
+            },
+            '&:nth-child(3n)': {
+              paddingRight: 0,
+            },
+          },
+        }),
   })
 );
 
