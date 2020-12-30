@@ -74,45 +74,43 @@ export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
 
   return (
     <Container>
-      <Table isAutoSize={data.length < 5}>
-        <tbody>
-          {data.map(
-            (
-              { label, value, opacity, percent, isNegative, color },
-              index: number
-            ) => (
-              // eslint-disable-next-line
-            <tr key={`${index}-${value}`}>
-                <Cell>
-                  <Count>{index + 1}</Count>
-                </Cell>
-                <Cell>
-                  <TableItem>{label}</TableItem>
-                </Cell>
-                <Cell wide>
-                  {axisPosition === 'center' && <Center />}
-                  <Bar isNegative={isNegative} axisPosition={axisPosition}>
-                    <Transition nodeRef={lineRef} in appear timeout={0}>
-                      {state => (
-                        <Line
-                          ref={lineRef}
-                          style={{
-                            width: `${state === 'entered' ? percent : 0}%`,
-                            opacity,
-                            background: color,
-                          }}
-                        />
-                      )}
-                    </Transition>
-                  </Bar>
-                </Cell>
-                <Cell>
-                  <Value>{value}</Value>
-                </Cell>
-              </tr>
-            )
-          )}
-        </tbody>
+      <Table withAdditionalCell>
+        {data.map(
+          (
+            { label, value, opacity, percent, isNegative, color },
+            index: number
+          ) => (
+            // eslint-disable-next-line
+          <React.Fragment key={`${index}-${value}`}>
+              <Cell>
+                <Count>{index + 1}</Count>
+              </Cell>
+              <Cell>
+                <TableItem>{label}</TableItem>
+              </Cell>
+              <Cell wide>
+                {axisPosition === 'center' && <Center />}
+                <Bar isNegative={isNegative} axisPosition={axisPosition}>
+                  <Transition nodeRef={lineRef} in appear timeout={0}>
+                    {state => (
+                      <Line
+                        ref={lineRef}
+                        style={{
+                          width: `${state === 'entered' ? percent : 0}%`,
+                          opacity,
+                          background: color,
+                        }}
+                      />
+                    )}
+                  </Transition>
+                </Bar>
+              </Cell>
+              <Cell>
+                <Value>{value}</Value>
+              </Cell>
+            </React.Fragment>
+          )
+        )}
       </Table>
     </Container>
   );
