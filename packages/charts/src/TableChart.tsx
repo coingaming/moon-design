@@ -4,7 +4,7 @@ import { Transition } from 'react-transition-group';
 
 import { Panel } from './private/Panel';
 import { Header } from './private/Header';
-import { Count, Table, Row, Cell, TableItem, Value } from './private/Table';
+import { Count, Table, Cell, TableItem, Value } from './private/Table';
 import ChartIcons from './ChartIcons';
 import { Loader } from './private/Loader';
 
@@ -57,7 +57,7 @@ const TableChart: React.FC<Props> = ({
   loaderText = 'No data',
 }) => {
   const isLoading = !data.length;
-  const rowRef = useRef(null);
+  const firstCellRef = useRef(null);
 
   return (
     <Panel
@@ -79,30 +79,28 @@ const TableChart: React.FC<Props> = ({
           />
         ) : (
           <Container isActive={isActive}>
-            <Table isAutoSize={data.length < 5}>
-              <tbody>
-                {data.map((item, index) => (
-                  // eslint-disable-next-line
-                  <Transition nodeRef={rowRef} key={index} in={true} appear timeout={100 * index}>
-                    {state => (
-                      <Row
-                        ref={rowRef}
-                        style={{ opacity: state === 'entered' ? 1 : 0 }}
+            <Table>
+              {data.map((item, index) => (
+                // eslint-disable-next-line
+                <Transition nodeRef={firstCellRef} key={index} in={true} appear timeout={100 * index}>
+                  {state => (
+                    <>
+                      <Cell
+                        ref={firstCellRef}
+                        opacity={state === 'entered' ? 1 : 0}
                       >
-                        <Cell>
-                          <Count>{index + 1}</Count>
-                        </Cell>
-                        <Cell wide>
-                          <TableItem>{item.label}</TableItem>
-                        </Cell>
-                        <Cell align="right">
-                          <Value>{item.value}</Value>
-                        </Cell>
-                      </Row>
-                    )}
-                  </Transition>
-                ))}
-              </tbody>
+                        <Count>{index + 1}</Count>
+                      </Cell>
+                      <Cell wide opacity={state === 'entered' ? 1 : 0}>
+                        <TableItem>{item.label}</TableItem>
+                      </Cell>
+                      <Cell align="right" opacity={state === 'entered' ? 1 : 0}>
+                        <Value>{item.value}</Value>
+                      </Cell>
+                    </>
+                  )}
+                </Transition>
+              ))}
             </Table>
           </Container>
         )}
