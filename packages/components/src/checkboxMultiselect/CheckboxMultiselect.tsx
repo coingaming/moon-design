@@ -3,10 +3,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Checkbox from '../checkbox/Checkbox';
+import Inline from '../inline/Inline';
+import Text from '../text/Text';
 
 type Option = {
   label: string | JSX.Element;
   value: any;
+  count?: number;
   [key: string]: any;
 };
 
@@ -26,15 +29,16 @@ const List = styled.ul(() => ({
 
 const Option = styled.label(({ theme }) => ({
   display: 'flex',
+  flex: 1,
   alignItems: 'center',
   fontSize: rem(14),
   lineHeight: rem(20),
   padding: `${rem(10)} ${rem(12)}`,
+  margin: 0,
   textDecoration: 'none',
   outline: 'none',
   border: 'none',
   textAlign: 'left',
-  width: '100%',
   cursor: 'pointer',
   color: theme.color.bulma[100],
   backgroundColor: 'transparent',
@@ -63,7 +67,7 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
   return (
     <List style={{ maxHeight }}>
       {options.map(option => (
-        <li key={option.value}>
+        <Inline key={option.value} space="xsmall">
           <Option>
             <Checkbox
               id={option.id}
@@ -71,11 +75,16 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
                 currentValue => currentValue === option.value
               )}
               onChange={() => onCheckboxChange(option.value)}
+              disabled={option.count === undefined ? false : !option.count}
               label={option.label}
             />
-            {/* {option.label} */}
           </Option>
-        </li>
+          {option.count !== undefined && (
+            <Text size={14} color="trunks.100">
+              {option.count}
+            </Text>
+          )}
+        </Inline>
       ))}
     </List>
   );
