@@ -80,7 +80,7 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
             />
           </Option>
           {option.count !== undefined && (
-            <Text size={14} color="trunks.100">
+            <Text size={14} color="trunks.100" test-id="select-count">
               {option.count}
             </Text>
           )}
