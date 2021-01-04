@@ -43,3 +43,19 @@ Group of checkbox options
   ]}
 />
 ```
+
+Checkbox options with item count
+
+```jsx react-live
+<CheckboxMultiselect
+  onChange={value => console.log('value: ', value)}
+  value={['Banana', 'Pineapple']}
+  options={[
+    { label: 'Apple', value: 'Apple', count: 5 },
+    { label: 'Banana', value: 'Banana', count: 2 },
+    { label: 'Mango', value: 'Mango', count: 0 },
+    { label: 'Orange', value: 'Orange', count: 20 },
+    { label: 'Pineapple', value: 'Pineapple', count: 3 },
+  ]}
+/>
+```
