@@ -89,7 +89,7 @@ exports[`CheckboxMultiselect renders by default 1`] = `
 .c4:hover:enabled:checked + span::before,
 .c4:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c4:hover:enabled:not(:checked) + span::after,
@@ -98,9 +98,9 @@ exports[`CheckboxMultiselect renders by default 1`] = `
 }
 
 .c4:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c4[disabled] + span {
@@ -361,7 +361,7 @@ exports[`CheckboxMultiselect renders with pre-selected value 1`] = `
 .c4:hover:enabled:checked + span::before,
 .c4:focus:enabled:checked + span::before {
   opacity: 0.1;
-  background-color: #0CD463;
+  background-color: #0CCF61;
 }
 
 .c4:hover:enabled:not(:checked) + span::after,
@@ -370,9 +370,9 @@ exports[`CheckboxMultiselect renders with pre-selected value 1`] = `
 }
 
 .c4:checked + span::after {
-  background-color: #0CD463;
+  background-color: #0CCF61;
   background-size: 0.625rem;
-  border-color: #0CD463;
+  border-color: #0CCF61;
 }
 
 .c4[disabled] + span {
