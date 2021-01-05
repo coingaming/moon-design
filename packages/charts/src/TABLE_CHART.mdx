@@ -148,21 +148,23 @@ Data {
 
 ```jsx react-live
 () => {
+  const OverflowText = ({ children }) => (
+    <span
+      title={children}
+      style={{
+        maxWidth: '80px',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        whiteSpace: 'nowrap',
+      }}
+    >
+      {children}
+    </span>
+  );
+
   const dataPlayers = [
     {
-      label: (
-        <div
-          title="C593088487C593088487C593"
-          style={{
-            maxWidth: '100px',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
-          }}
-        >
-          C593088487C593088487C593
-        </div>
-      ),
+      label: <OverflowText> C593088487C593088487C593 </OverflowText>,
       value: '6,222.405',
     },
     { label: 'C593088487', value: '6,222.405' },
@@ -225,7 +227,9 @@ Data {
         <>
           <Avatar imageUrl="https://www.fillmurray.com/24/24" size="xsmall" />
           <div>
-            <Text size={14}>Reactoonz 2</Text>
+            <Text size={14}>
+              <OverflowText>Reactoonz 2 </OverflowText>
+            </Text>
             <Text size={12} color="trunks.100">
               Netent
             </Text>
@@ -239,7 +243,9 @@ Data {
         <>
           <Avatar imageUrl="https://www.fillmurray.com/26/26" size="xsmall" />
           <div>
-            <Text size={14}>Golden Tsar</Text>
+            <Text size={14}>
+              <OverflowText>Golden Tsar</OverflowText>
+            </Text>
             <Text size={12} color="trunks.100">
               Red tiger
             </Text>
@@ -253,7 +259,9 @@ Data {
         <>
           <Avatar imageUrl="https://www.fillmurray.com/28/28" size="xsmall" />
           <div>
-            <Text size={14}>Dragons</Text>
+            <Text size={14}>
+              <OverflowText>Dragons</OverflowText>
+            </Text>
             <Text size={12} color="trunks.100">
               Microgaming
             </Text>
@@ -267,7 +275,9 @@ Data {
         <>
           <Avatar imageUrl="https://www.fillmurray.com/30/30" size="xsmall" />
           <div>
-            <Text size={14}>Joker Max</Text>
+            <Text size={14}>
+              <OverflowText>Joker Max</OverflowText>
+            </Text>
             <Text size={12} color="trunks.100">
               Netent
             </Text>
@@ -281,7 +291,9 @@ Data {
         <>
           <Avatar imageUrl="https://www.fillmurray.com/32/32" size="xsmall" />
           <div>
-            <Text size={14}>Mad</Text>
+            <Text size={14}>
+              <OverflowText>Mad</OverflowText>
+            </Text>
             <Text size={12} color="trunks.100">
               Yggdrasil
             </Text>
