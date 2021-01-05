@@ -158,6 +158,10 @@ const TD = styled.div(({ theme: { color, radius, space } }) => ({
   },
 }));
 
+const HiddenTH = styled.div({
+  height: '1px',
+});
+
 const Table: React.FC<any> = ({
   columns,
   data,
@@ -184,6 +188,7 @@ const Table: React.FC<any> = ({
     useSticky,
     useExpanded
   );
+  const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const [isScrolledToLeft, setIsScrolledToLeft] = useState(false);
   const [isScrolledToRight, setIsScrolledToRight] = useState(false);
 
@@ -224,6 +229,15 @@ const Table: React.FC<any> = ({
             ))}
           </HeaderTR>
         ))}
+
+        <div {...lastHeaderGroup.getHeaderGroupProps()}>
+          {lastHeaderGroup.headers.map((column: any) => (
+            <HiddenTH
+              {...column.getHeaderProps()}
+              style={{ ...column.getHeaderProps().style, position: 'relative' }}
+            />
+          ))}
+        </div>
       </Header>
 
       <Body {...getTableBodyProps()}>
