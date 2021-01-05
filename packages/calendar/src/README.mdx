@@ -1,6 +1,6 @@
 ---
 name: Calendar
-menu: Components
+menu: Calendar
 route: /Calendar/calendar
 ---
 
@@ -12,6 +12,7 @@ Week and Month calendar components have the same api
 | :------------------ | :------------------------------------: | :-------------------------------------------------------------------------------- |
 | cursorDate          |                  Date                  | **Required**. Will display month of cursorDate                                    |
 | config              | {weekStartsOn: number, locale: Locale} | **weekStartsOn** - first day of week(sunday=0), **locale** - Locale from date fns |
+| renderDayProps      |         (date:Date) => object          | you can provide custom props to each day                                          |
 | renderDayContent    |       (date:Date) => JSX.Element       | you can render something on the left to the day number                            |
 | renderNearDayNumber |       (date:Date) => JSX.Element       | you can render something under day number                                         |
 
