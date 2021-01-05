@@ -1,0 +1,37 @@
+---
+name: Accordion
+menu: Accordion
+route: /accordion/accordion
+---
+
+# Accordion
+
+| Name          | &nbsp;&nbsp; |      Type       | &nbsp;&nbsp; | Description                                                 |
+| :------------ | ------------ | :-------------: | ------------ | :---------------------------------------------------------- |
+| title         |              |     string      |              | **Required**. Title of accordion                            |
+| openByDefault |              |     boolean     |              | **Default: false**. Expanded/collapsed accordion by default |
+| withArrow     |              |     boolean     |              | **Default: true**. Show expand/collapse chevron             |
+| disableOpen   |              |     boolean     |              | **Default: false**. Disable expand/collapse accordion       |
+| headerContent |              | React.ReactNode |              | Additional content to render in accordion header            |
+| children      |              | React.ReactNode |              | Content to show inside of accordion                         |
+
+```jsx react-live
+<Inline>
+  <Accordion
+    title="Test"
+    headerContent={
+      <div onClick={() => console.log('Clicked')}>Additional content</div>
+    }
+  >
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </div>
+  </Accordion>
+</Inline>
+```
