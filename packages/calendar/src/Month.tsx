@@ -18,6 +18,7 @@ type Props = {
     locale?: Locale;
   };
   cursorDate: Date;
+  renderDayProps?: (date: Date) => object;
   renderDayContent?: (date: Date) => React.ReactNode;
   renderNearDayNumber?: (date: Date) => React.ReactNode;
 };
@@ -25,6 +26,7 @@ type Props = {
 const Month: React.FC<Props> = ({
   config = {},
   cursorDate,
+  renderDayProps = () => {},
   renderDayContent = () => null,
   renderNearDayNumber = () => null,
 }) => {
@@ -38,7 +40,7 @@ const Month: React.FC<Props> = ({
       <WeekDayLabels config={conf} />
       {getMonthDays({ date: cursorDate, weekStartsOn: conf.weekStartsOn }).map(
         date => (
-          <Day key={date.toString()}>
+          <Day key={date.toString()} {...renderDayProps(date)}>
             <DayInner>
               <DayNumber>
                 <Text size={20} color={getDayNumberColor(cursorDate, date)}>
