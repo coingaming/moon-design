@@ -17,7 +17,8 @@
     "themes",
     "tokens",
     "utils",
-    "popover"
+    "popover",
+    "accordion"
   ],
   "menuSections": [
     "Themes",
@@ -33,6 +34,7 @@
     "Table",
     "Charts",
     "Utils",
-    "Popover"
+    "Popover",
+    "Accordion"
   ]
 }
