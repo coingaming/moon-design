@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* add test ([a685c93](https://github.com/coingaming/sportsbet-design/commit/a685c936c73add694f3b21f535e4cf7bc07e41eb))
+
+
+### Features
+
+* add item count in CheckboxMultiselect ([1bbd3ae](https://github.com/coingaming/sportsbet-design/commit/1bbd3aeaa6fbe6159c9c6dd6a7ecb6fea5a7a69c))
+
+
+
+
+
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 **Note:** Version bump only for package @heathmont/moon-components
