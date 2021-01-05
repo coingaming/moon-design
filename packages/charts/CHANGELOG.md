@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* fix Transition warnings ([3feb30d](https://github.com/coingaming/sportsbet-design/commit/3feb30d2746ccfc284a28aa2f286f6bd0c5047f6))
+
+
+
+
+
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 

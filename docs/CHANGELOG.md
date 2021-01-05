@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
+
+
+### Features
+
+* accordion component ([6cc5f35](https://github.com/coingaming/sportsbet-design/commit/6cc5f3517985e6fe3b1c4d42673516c216fab899))
+
+
+
+
+
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 

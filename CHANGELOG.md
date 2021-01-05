@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* add header row with position relative to fix scroll in safari and firefox ([663f926](https://github.com/coingaming/sportsbet-design/commit/663f9269eb87e8d543a30f0a0ce702794ae417c3))
+* add test ([a685c93](https://github.com/coingaming/sportsbet-design/commit/a685c936c73add694f3b21f535e4cf7bc07e41eb))
+* fix logo fill color ([c04e387](https://github.com/coingaming/sportsbet-design/commit/c04e3878f345c56d3254f63239e0a374a63982d7))
+* fix Transition warnings ([3feb30d](https://github.com/coingaming/sportsbet-design/commit/3feb30d2746ccfc284a28aa2f286f6bd0c5047f6))
+
+
+### Features
+
+* accordion component ([6cc5f35](https://github.com/coingaming/sportsbet-design/commit/6cc5f3517985e6fe3b1c4d42673516c216fab899))
+* accordion improvements ([642423c](https://github.com/coingaming/sportsbet-design/commit/642423ca9e598f3ec9fcbc57127a95b4cf7b0d97))
+* add item count in CheckboxMultiselect ([1bbd3ae](https://github.com/coingaming/sportsbet-design/commit/1bbd3aeaa6fbe6159c9c6dd6a7ecb6fea5a7a69c))
+* add popover external control ([f422f41](https://github.com/coingaming/sportsbet-design/commit/f422f41ce5696dd350b2301a1b4112a214d07612))
+* add renderDayProps ([773218e](https://github.com/coingaming/sportsbet-design/commit/773218edd2b1d06f27eab415ea556edccf737082))
+
+
+
+
+
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 

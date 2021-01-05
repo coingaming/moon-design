@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-charts",
   "sideEffects": false,
-  "version": "2.57.2",
+  "version": "2.58.0",
   "files": [
     "lib"
   ],
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@heathmont/moon-assets": "^2.57.2",
-    "@heathmont/moon-components": "^2.57.2",
+    "@heathmont/moon-components": "^2.58.0",
     "@heathmont/moon-themes": "^2.57.2",
     "@heathmont/moon-utils": "^2.57.2",
     "@types/react-simple-maps": "1.0.3",

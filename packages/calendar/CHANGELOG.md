@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
+
+
+### Features
+
+* add renderDayProps ([773218e](https://github.com/coingaming/sportsbet-design/commit/773218edd2b1d06f27eab415ea556edccf737082))
+
+
+
+
+
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
