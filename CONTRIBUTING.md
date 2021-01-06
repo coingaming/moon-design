@@ -22,7 +22,7 @@
 
 ### Designing
 
-Icons are designed in the [`.sketch` file](packages/icons/raw/icons/icons.sketch), with the exported 'original' Sketch-generated SVGs stored in the adjacent [`svg`](packages/assets/raw/svg) directory.
+Icons are exported from Figma and stored in the adjacent [`svg`](packages/assets/raw/svg) directory.
 
 Each icon **must**:
 
