@@ -17,7 +17,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "yarn test:types && yarn test:jest",
     "test:types": "lerna exec --scope '@heathmont/moon-components' -- tsc --project ./tsconfig.test.json --noEmit",
-    "test:jest": "node --max_old_space_size=2048 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
+    "test:jest": "node --max_old_space_size=4096 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
     "assets": "lerna run --scope @heathmont/moon-assets --stream",
     "docs": "lerna run --scope docs --stream",
     "publish:packages": "lerna publish --yes",
