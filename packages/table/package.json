@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-table",
   "sideEffects": false,
-  "version": "2.58.0",
+  "version": "2.59.0",
   "files": [
     "lib"
   ],
@@ -15,7 +15,7 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-components": "^2.58.0",
+    "@heathmont/moon-components": "^2.59.0",
     "@heathmont/moon-themes": "^2.57.2",
     "@heathmont/moon-utils": "^2.57.2",
     "@types/react-table": "7.0.23",
