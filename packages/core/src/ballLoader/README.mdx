@@ -1,0 +1,53 @@
+---
+name: Ball Loader
+menu: Design System
+route: /core/ball-loader
+---
+
+# Ball Loader
+
+Pure CSS loading animation.
+
+## Usage:
+
+```
+import { BallLoader } from '@heathmont/moon-core';
+```
+
+```jsx react-live
+<Inline>
+  <BallLoader />
+</Inline>
+```
+
+## Props
+
+### Customize colours
+
+You could use `firstColor`, `secondColor`, `thirdColor` and `fourthColor` props.
+
+Default colours are:
+
+```
+firstColor="chiChi.100"
+secondColor="piccolo.100"
+thirdColor="cell.100"
+fourthColor="frieza.100"
+```
+
+```jsx react-live
+<Inline>
+  <BallLoader
+    firstColor="piccolo.100"
+    secondColor="piccolo.100"
+    thirdColor="piccolo.100"
+    fourthColor="piccolo.100"
+  />
+  <BallLoader
+    firstColor="red"
+    secondColor="piccolo.100"
+    thirdColor="piccolo.100"
+    fourthColor="red"
+  />
+</Inline>
+```
