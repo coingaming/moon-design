@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.59.0](https://github.com/coingaming/sportsbet-design/compare/v2.58.0...v2.59.0) (2021-01-07)
+
+
+### Bug Fixes
+
+* **Popover:** optional props ([284c4d4](https://github.com/coingaming/sportsbet-design/commit/284c4d48bb35ce04b90fe518edfd5d77fd0c9408))
+
+
+
+
+
 # [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
 
 
