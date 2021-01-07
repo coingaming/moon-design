@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.62.0](https://github.com/coingaming/sportsbet-design/compare/v2.61.0...v2.62.0) (2021-01-07)
+
+
+### Features
+
+* Dialog Overlay ([15a2774](https://github.com/coingaming/sportsbet-design/commit/15a277445a1ff9240799e160ed72e18afff61dbc))
+
+
+
+
+
 # [2.61.0](https://github.com/coingaming/sportsbet-design/compare/v2.60.0...v2.61.0) (2021-01-07)
 
 
