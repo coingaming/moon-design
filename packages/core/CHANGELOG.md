@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.60.0](https://github.com/coingaming/sportsbet-design/compare/v2.59.0...v2.60.0) (2021-01-07)
+
+
+### Features
+
+* **ballLoader:** initial commit ([a288804](https://github.com/coingaming/sportsbet-design/commit/a28880417a6727dc25b50800f8111a5cc2ae012b))
+
+
+
+
+
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 **Note:** Version bump only for package @heathmont/moon-core
