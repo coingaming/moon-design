@@ -56,6 +56,8 @@ export { default as weekStartsOn } from './datepicker/types/weekStartsOn';
 export * from './datepicker/types/weekStartsOn';
 export { default as Dialog } from './dialog/Dialog';
 export * from './dialog/Dialog';
+export { default as DialogOverlay } from './dialogOverlay/DialogOverlay';
+export * from './dialogOverlay/DialogOverlay';
 export { default as EmptyState } from './emptyState/EmptyState';
 export * from './emptyState/EmptyState';
 export { default as FileInput } from './fileInput/FileInput';
