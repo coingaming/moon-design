@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.60.0](https://github.com/coingaming/sportsbet-design/compare/v2.59.0...v2.60.0) (2021-01-07)
+
+
+### Features
+
+* **ballLoader:** initial commit ([a288804](https://github.com/coingaming/sportsbet-design/commit/a28880417a6727dc25b50800f8111a5cc2ae012b))
+
+
+
+
+
+# [2.59.0](https://github.com/coingaming/sportsbet-design/compare/v2.58.0...v2.59.0) (2021-01-07)
+
+
+### Bug Fixes
+
+* **Popover:** optional props ([284c4d4](https://github.com/coingaming/sportsbet-design/commit/284c4d48bb35ce04b90fe518edfd5d77fd0c9408))
+
+
+### Features
+
+* **docs:** update icons ([7686871](https://github.com/coingaming/sportsbet-design/commit/768687151a5537f80ed41d411a89de7dbbfab527))
+
+
+
+
+
 # [2.58.0](https://github.com/coingaming/sportsbet-design/compare/v2.57.2...v2.58.0) (2021-01-05)
 
 
