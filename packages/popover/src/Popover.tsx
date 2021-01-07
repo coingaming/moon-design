@@ -26,7 +26,7 @@ type Props = {
   placement?: Placement;
   content: React.ReactNode;
   isOpen?: boolean;
-  onVisibilityChange: (open: boolean) => void;
+  onVisibilityChange?: (open: boolean) => void;
 };
 
 const Popover: React.FC<Props> = ({
@@ -45,7 +45,9 @@ const Popover: React.FC<Props> = ({
   }, [isOpen]);
 
   useEffect(() => {
-    onVisibilityChange(visible);
+    if (typeof onVisibilityChange === 'function') {
+      onVisibilityChange(visible);
+    }
   }, [visible]);
 
   function handleChildClick(e: any) {
