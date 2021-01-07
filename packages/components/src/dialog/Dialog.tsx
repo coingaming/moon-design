@@ -2,15 +2,11 @@ import React from 'react';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import IconClose from '../private/icons/IconClose';
+import DialogOverlay from '../dialogOverlay/DialogOverlay';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
 import { DialogPosition, DialogMaxWidth } from './private/types';
-import {
-  DialogContainer,
-  DialogContent,
-  DialogMain,
-  DialogOverlay,
-} from './private/layout';
+import { DialogContainer, DialogContent, DialogMain } from './private/layout';
 
 export type DialogProps = ReachDialogProps &
   DialogPosition &
