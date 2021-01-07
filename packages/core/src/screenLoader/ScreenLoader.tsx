@@ -105,7 +105,7 @@ type LoaderProps = {
   fourthColor?: ColorProps;
 };
 
-const BallLoader: React.FC<LoaderProps> = ({
+const ScreenLoader: React.FC<LoaderProps> = ({
   firstColor,
   secondColor,
   thirdColor,
@@ -123,4 +123,4 @@ const BallLoader: React.FC<LoaderProps> = ({
   );
 };
 
-export default BallLoader;
+export default ScreenLoader;
