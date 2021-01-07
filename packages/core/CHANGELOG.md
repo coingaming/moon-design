@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.61.0](https://github.com/coingaming/sportsbet-design/compare/v2.60.0...v2.61.0) (2021-01-07)
+
+
+### Features
+
+* BallLoader -> ScreenLoader ([b81b5ca](https://github.com/coingaming/sportsbet-design/commit/b81b5ca50acee21e58f06a2a4f90c61f3d5d43ac))
+
+
+
+
+
 # [2.60.0](https://github.com/coingaming/sportsbet-design/compare/v2.59.0...v2.60.0) (2021-01-07)
 
 
