@@ -1,0 +1,44 @@
+---
+name: Dialog Content
+menu: Components
+route: /components/dialog-content
+---
+
+# Dialog Content
+
+A small pop-up window to display additional content or request action from the
+user.
+
+```jsx react-live
+() => {
+  const [showDialog, setShowDialog] = React.useState(false);
+  const position = 'CENTER'; // or 'TOP'
+  const maxWidth = '760px';
+
+  return (
+    <>
+      <Button variant="secondary" onClick={() => setShowDialog(true)}>
+        Open Dialog
+      </Button>
+      <DialogOverlay isOpen={showDialog} onDismiss={() => setShowDialog(false)}>
+        <DialogContent maxWidth={maxWidth} position={position}>
+          <Heading size={24} as="h2">
+            Dialog Content is here
+          </Heading>
+        </DialogContent>
+      </DialogOverlay>
+    </>
+  );
+};
+```
+
+## State
+
+Dialog is a styled extension of Reach UI's "Dialog" component, with state
+handled via `isOpen` and `onDismiss`. More information on these props, can be
+found in the [Reach UI documentation](https://ui.reach.tech/dialog).
+
+Examples on this page show usage with
+[React Hooks](https://reactjs.org/docs/hooks-intro.html), but this could also be
+handled via higher-order components or libaries such as
+[Recompose](https://github.com/acdlite/recompose).
