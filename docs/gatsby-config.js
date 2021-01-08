@@ -1,9 +1,6 @@
-/* eslint-disable import/no-unresolved, @typescript-eslint/camelcase */
-const path = require('path');
-
 // const { sportsbetDark } = require('@heathmont/moon-themes');
 
-const { siteTitle, description, author } = require('./config');
+const { siteTitle, description, author } = require.resolve('./config');
 
 module.exports = {
   pathPrefix: `/assets`,
@@ -18,10 +15,9 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
-          default: path.resolve('./src/components/layout.tsx'),
+          default: require.resolve('./src/components/layout.tsx'),
         },
         extensions: ['.mdx'],
-        gatsbyRemarkPlugins: [{ resolve: 'gatsby-remark-autolink-headers' }],
       },
     },
     'gatsby-plugin-react-helmet',
