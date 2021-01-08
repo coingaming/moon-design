@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-assets",
   "sideEffects": false,
-  "version": "2.59.0",
+  "version": "2.63.0",
   "files": [
     "lib"
   ],
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@heathmont/moon-themes": "^2.57.2",
-    "@heathmont/moon-utils": "^2.57.2"
+    "@heathmont/moon-utils": "^2.63.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
