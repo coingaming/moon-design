@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.63.0](https://github.com/coingaming/sportsbet-design/compare/v2.62.0...v2.63.0) (2021-01-08)
+
+
+### Features
+
+* Dialog Content ([3ad888a](https://github.com/coingaming/sportsbet-design/commit/3ad888a86a8f6ce1ec7f80086fccf15bef39c29b))
+* disable rem warnings ([b2557a5](https://github.com/coingaming/sportsbet-design/commit/b2557a5db8034f06a962935da64119feb2667d7b))
+
+
+
+
+
 # [2.62.0](https://github.com/coingaming/sportsbet-design/compare/v2.61.0...v2.62.0) (2021-01-07)
 
 
