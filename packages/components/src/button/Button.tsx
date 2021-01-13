@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import { disabled, rem } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
@@ -199,18 +199,19 @@ const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
     },
 ]);
 
-const Button: React.FC<ButtonProps> = ({
-  children,
-  mockState,
-  progress,
-  oops,
-  success,
-  iconLeft,
-  iconRight,
-  size,
-  fullWidth,
-  ...props
-}) => {
+const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
+  const {
+    children,
+    mockState,
+    progress,
+    oops,
+    success,
+    iconLeft,
+    iconRight,
+    size,
+    fullWidth,
+    ...buttonProps
+  } = props;
   const { color, space } = useTheme();
 
   let content = children;
@@ -251,13 +252,14 @@ const Button: React.FC<ButtonProps> = ({
   }
   return (
     <StyledButton
+      ref={ref}
       oops={oops}
       className={mockState && buttonMockStateClass(mockState)}
       size={size}
       iconLeft={iconLeft}
       iconRight={iconRight}
       fullWidth={fullWidth}
-      {...props}
+      {...buttonProps}
     >
       <InnerContainer>
         {iconLeft && (
@@ -274,7 +276,7 @@ const Button: React.FC<ButtonProps> = ({
       </InnerContainer>
     </StyledButton>
   );
-};
+});
 
 Button.defaultProps = {
   variant: 'default',
