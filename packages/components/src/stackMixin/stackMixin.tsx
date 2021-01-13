@@ -20,6 +20,8 @@ const stackMixin = (space: StackSpace) => ({
   },
   /* Ensure direct child list-items render without bullets */
   '& > li': listItemStyleTypeNone,
+  /* Ensure the grid doesn't overflow the parent width */
+  gridTemplateColumns: 'minmax(100px,1fr)',
 });
 
 export default stackMixin;
