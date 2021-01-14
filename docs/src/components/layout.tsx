@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import padding from 'polished/lib/shorthands/padding';
 import { Global } from '@heathmont/moon-global';
 import { mq, rem } from '@heathmont/moon-utils';
 
@@ -25,12 +24,7 @@ const Grid = styled.div(({ theme: { breakpoint } }) => ({
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   padding: `${rem(space.large)} ${rem(space.default)}`,
   [mq(breakpoint.medium)]: {
-    ...padding(
-      rem(space.large),
-      rem(space.large),
-      rem(space.xlarge),
-      rem(space.large)
-    ),
+    padding: '3rem 2rem',
     margin: '0 auto',
     maxWidth: '900px',
     width: '100%',
