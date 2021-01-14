@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.64.0](https://github.com/coingaming/sportsbet-design/compare/v2.63.2...v2.64.0) (2021-01-14)
+
+
+### Bug Fixes
+
+* **docs:** main paddings ([b942e0c](https://github.com/coingaming/sportsbet-design/commit/b942e0c4f4fc16deb8b094d6058d51216d173101))
+
+
+### Features
+
+* images ([f07be1a](https://github.com/coingaming/sportsbet-design/commit/f07be1aeff29be9ea3fdffb4deff9a560395fdcb))
+* index - initial commit ([25fff27](https://github.com/coingaming/sportsbet-design/commit/25fff27cb01b2d45060fca20475460faff25a68c))
+
+
+
+
+
 ## [2.63.2](https://github.com/coingaming/sportsbet-design/compare/v2.63.1...v2.63.2) (2021-01-14)
 
 **Note:** Version bump only for package docs
