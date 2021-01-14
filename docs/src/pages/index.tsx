@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Global } from '@heathmont/moon-global';
+import { mq } from '@heathmont/moon-utils';
+
+import MoonImg from '../images/moon2.png';
+import EarthImg from '../images/earth.png';
+import BackgroundImg from '../images/back2.png';
 
 const Wrap = styled.div({
   margin: 0,
@@ -28,6 +33,9 @@ const Head = styled.div({
   svg: {
     display: 'block',
   },
+  [mq(767, 'max-width')]: {
+    top: '58px',
+  },
   span: {
     display: 'block',
     fontWeight: 'normal',
@@ -49,6 +57,15 @@ const LeftText = styled.div({
   top: '69%',
   left: '3.6%',
   zIndex: 5,
+  [mq(767, 'max-width')]: {
+    transform: 'none',
+    position: 'absolute',
+    top: 'auto',
+    bottom: '21px',
+    left: 0,
+    width: '100%',
+    textAlign: 'center',
+  },
 });
 
 const MainText = styled.div({
@@ -62,10 +79,21 @@ const MainText = styled.div({
   left: 0,
   top: '13vw',
   width: '100%',
+  [mq(767, 'max-width')]: {
+    fontSize: '96px',
+    lineHeight: '0.64',
+    left: 0,
+    top: '28.5vh',
+    width: '100%',
+  },
+
   span: {
     display: 'inline-block',
     verticalAlign: 'top',
     position: 'relative',
+    [mq(767, 'max-width')]: {
+      width: '320px',
+    },
   },
 });
 
@@ -80,6 +108,10 @@ const Moon = styled.div({
     display: 'block',
     width: '100%',
   },
+  [mq(767, 'max-width')]: {
+    top: '24vh',
+    width: '885px',
+  },
 });
 
 const Earth = styled.div({
@@ -90,10 +122,18 @@ const Earth = styled.div({
   img: {
     display: 'block',
     width: '28.48vw',
+    [mq(767, 'max-width')]: {
+      width: '390px',
+    },
+  },
+  [mq(767, 'max-width')]: {
+    top: '9%',
+    right: '18%',
+    left: 'auto',
   },
 });
 
-const Back = styled.div({
+const Back = styled.img({
   position: 'absolute',
   left: 0,
   right: 0,
@@ -101,7 +141,7 @@ const Back = styled.div({
   bottom: 0,
   width: '100%',
   height: '100%',
-  background: 'url(../img/back2.png) repeat center center',
+  background: `url(${BackgroundImg}) repeat center center`,
   opacity: 0.2,
   filter: 'invert(1)',
 });
@@ -133,9 +173,9 @@ export default function Home() {
           <span>coming soon</span>
         </MainText>
         <Moon id="scene1">
-          <img alt="moon" src="img/moon2.png" data-depth="0.2" />
+          <img alt="moon" src={MoonImg} data-depth="0.2" />
           <Earth data-depth="0.4">
-            <img alt="earth" src="img/earth.png" />
+            <img alt="earth" src={EarthImg} />
           </Earth>
         </Moon>
         <Back />
