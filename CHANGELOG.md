@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.63.1](https://github.com/coingaming/sportsbet-design/compare/v2.63.0...v2.63.1) (2021-01-14)
+
+
+### Bug Fixes
+
+* forwardRef on Button component ([3242bd1](https://github.com/coingaming/sportsbet-design/commit/3242bd101e1231b53acd2ef452f06b830b5faf81))
+* **icons:** align hub88 icons ([91c2ea8](https://github.com/coingaming/sportsbet-design/commit/91c2ea82d1137355e420ec9a5c267602f2f88828))
+
+
+
+
+
 # [2.63.0](https://github.com/coingaming/sportsbet-design/compare/v2.62.0...v2.63.0) (2021-01-08)
 
 
