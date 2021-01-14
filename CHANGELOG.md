@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.63.2](https://github.com/coingaming/sportsbet-design/compare/v2.63.1...v2.63.2) (2021-01-14)
+
+
+### Bug Fixes
+
+* stack gridTemplateColumns min value too high ([065649a](https://github.com/coingaming/sportsbet-design/commit/065649a0807c6602ff8b0fca77f70ab735cc45ff))
+* stack gridTemplateColumns min value too high ([0710321](https://github.com/coingaming/sportsbet-design/commit/0710321074cb5b58fc20cb8640453297ff140df7))
+
+
+
+
+
 ## [2.63.1](https://github.com/coingaming/sportsbet-design/compare/v2.63.0...v2.63.1) (2021-01-14)
 
 
