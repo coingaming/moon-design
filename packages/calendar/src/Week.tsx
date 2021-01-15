@@ -1,6 +1,7 @@
 import React from 'react';
 import { enGB } from 'date-fns/locale';
 import { Text } from '@heathmont/moon-components';
+import isWeekend from 'date-fns/isWeekend';
 
 import { WeekGrid } from './private/Week/WeekGrid';
 import { WeekDayLabels } from './private/WeekDayLabels';
@@ -8,11 +9,10 @@ import { getWeekDays } from './private/getWeekDays';
 import { WeekDay } from './private/Week/WeekDay';
 import { getDayNumberLabel } from './private/getDayNumberLabel';
 import { getDayNumberColor } from './private/getDayNumberColor';
-import { WeekDayContent } from './private/Week/WeekDayContent';
 import { DayNumber } from './private/DayNumber';
 
 type Props = {
-  config: {
+  config?: {
     weekStartsOn?: number;
     locale?: Locale;
   };
@@ -39,14 +39,18 @@ const Week: React.FC<Props> = ({
       <WeekDayLabels config={conf} />
       {getWeekDays({ cursorDate, weekStartsOn: conf.weekStartsOn }).map(
         date => (
-          <WeekDay key={date.toString()} {...renderDayProps(date)}>
+          <WeekDay
+            isWeekend={isWeekend(date)}
+            key={date.toString()}
+            {...renderDayProps(date)}
+          >
             <DayNumber>
               <Text size={20} color={getDayNumberColor(cursorDate, date)}>
                 {getDayNumberLabel(cursorDate, date)}
               </Text>
               {renderNearDayNumber(date)}
             </DayNumber>
-            <WeekDayContent>{renderDayContent(date)}</WeekDayContent>
+            {renderDayContent(date)}
           </WeekDay>
         )
       )}
