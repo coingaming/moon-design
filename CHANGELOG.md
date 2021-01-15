@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.65.0](https://github.com/coingaming/sportsbet-design/compare/v2.64.0...v2.65.0) (2021-01-15)
+
+
+### Features
+
+* **docs:** parallax ([e69ef8e](https://github.com/coingaming/sportsbet-design/commit/e69ef8ebffb5937b335fdf030f1006986c7adefb))
+
+
+
+
+
 # [2.64.0](https://github.com/coingaming/sportsbet-design/compare/v2.63.2...v2.64.0) (2021-01-14)
 
 
