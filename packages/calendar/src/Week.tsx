@@ -1,6 +1,7 @@
 import React from 'react';
 import { enGB } from 'date-fns/locale';
 import { Text } from '@heathmont/moon-components';
+import isWeekend from 'date-fns/isWeekend';
 
 import { WeekGrid } from './private/Week/WeekGrid';
 import { WeekDayLabels } from './private/WeekDayLabels';
@@ -39,7 +40,11 @@ const Week: React.FC<Props> = ({
       <WeekDayLabels config={conf} />
       {getWeekDays({ cursorDate, weekStartsOn: conf.weekStartsOn }).map(
         date => (
-          <WeekDay key={date.toString()} {...renderDayProps(date)}>
+          <WeekDay
+            isWeekend={isWeekend(date)}
+            key={date.toString()}
+            {...renderDayProps(date)}
+          >
             <DayNumber>
               <Text size={20} color={getDayNumberColor(cursorDate, date)}>
                 {getDayNumberLabel(cursorDate, date)}
