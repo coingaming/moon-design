@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.66.0](https://github.com/coingaming/sportsbet-design/compare/v2.65.0...v2.66.0) (2021-01-15)
+
+
+### Bug Fixes
+
+* set isScrolledToLeft true by default ([e7be11d](https://github.com/coingaming/sportsbet-design/commit/e7be11d2561b687d1058e24eec6d853074ac6a81))
+
+
+
+
+
 ## [2.63.2](https://github.com/coingaming/sportsbet-design/compare/v2.63.1...v2.63.2) (2021-01-14)
 
 **Note:** Version bump only for package @heathmont/moon-table
