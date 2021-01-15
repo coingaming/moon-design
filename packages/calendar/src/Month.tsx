@@ -1,19 +1,19 @@
 import React from 'react';
 import { Text } from '@heathmont/moon-components';
 import { enGB } from 'date-fns/locale';
+import isWeekend from 'date-fns/isWeekend';
 
 import { Month as MonthGrid } from './private/Month';
 import { WeekDayLabels } from './private/WeekDayLabels';
 import { Day } from './private/Month/Day';
 import { DayInner } from './private/Month/DayInner';
 import { DayNumber } from './private/DayNumber';
-import { DayContent } from './private/Month/DayContent';
 import { getDayNumberColor } from './private/getDayNumberColor';
 import { getDayNumberLabel } from './private/getDayNumberLabel';
 import { getMonthDays } from './private/getMonthDays';
 
 type Props = {
-  config: {
+  config?: {
     weekStartsOn?: number;
     locale?: Locale;
   };
@@ -41,14 +41,14 @@ const Month: React.FC<Props> = ({
       {getMonthDays({ date: cursorDate, weekStartsOn: conf.weekStartsOn }).map(
         date => (
           <Day key={date.toString()} {...renderDayProps(date)}>
-            <DayInner>
+            <DayInner isWeekend={isWeekend(date)}>
               <DayNumber>
                 <Text size={20} color={getDayNumberColor(cursorDate, date)}>
                   {getDayNumberLabel(cursorDate, date)}
                 </Text>
                 {renderNearDayNumber(date)}
               </DayNumber>
-              <DayContent>{renderDayContent(date)}</DayContent>
+              {renderDayContent(date)}
             </DayInner>
           </Day>
         )
