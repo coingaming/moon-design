@@ -8,13 +8,12 @@ import { WeekDayLabels } from './private/WeekDayLabels';
 import { Day } from './private/Month/Day';
 import { DayInner } from './private/Month/DayInner';
 import { DayNumber } from './private/DayNumber';
-import { DayContent } from './private/Month/DayContent';
 import { getDayNumberColor } from './private/getDayNumberColor';
 import { getDayNumberLabel } from './private/getDayNumberLabel';
 import { getMonthDays } from './private/getMonthDays';
 
 type Props = {
-  config: {
+  config?: {
     weekStartsOn?: number;
     locale?: Locale;
   };
@@ -49,7 +48,7 @@ const Month: React.FC<Props> = ({
                 </Text>
                 {renderNearDayNumber(date)}
               </DayNumber>
-              <DayContent>{renderDayContent(date)}</DayContent>
+              {renderDayContent(date)}
             </DayInner>
           </Day>
         )
