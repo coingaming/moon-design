@@ -64,25 +64,16 @@ const TableWrapper = styled.div<{
   },
 }));
 
-const Header = styled.div(({ theme: { color, radius } }) => ({
+const Header = styled.div({
   position: 'sticky',
   zIndex: 1,
   top: 0,
-  borderRadius: radius.default,
-  backgroundColor: color.goku[100],
-}));
+});
 
-const HeaderTR = styled.div(({ theme: { color, radius } }) => ({
-  borderRadius: radius.default,
-  backgroundColor: color.goku[100],
-  marginBottom: rem(2),
-}));
-
-const TH = styled.div(({ theme: { color, radius, space } }) => ({
+const TH = styled.div(({ theme: { color, space } }) => ({
   padding: rem(space.small),
   color: color.trunks[100],
   backgroundColor: color.goku[100],
-  borderRadius: radius.default,
   overflow: 'hidden',
   position: 'relative',
   fontSize: rem(12),
@@ -122,41 +113,75 @@ const TH = styled.div(({ theme: { color, radius, space } }) => ({
   },
 }));
 
+const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
+  ...(variant === 'calendar'
+    ? {
+        [TH]: {
+          '&:first-child': {
+            '&::after': {
+              display: 'none',
+            },
+          },
+        },
+      }
+    : {}),
+}));
+
 const Body = styled.div({
   position: 'relative',
   zIndex: 0,
 });
 
-const BodyTR = styled.div(({ theme: { color, radius } }) => ({
-  borderRadius: radius.default,
-  backgroundColor: color.gohan[100],
+const BodyTR = styled.div<{ variant?: string }>(() => ({
   marginBottom: rem(2),
 }));
 
-const TD = styled.div(({ theme: { color, radius, space } }) => ({
-  padding: rem(space.default),
-  paddingLeft: rem(space.small),
-  paddingRight: rem(space.small),
-  color: color.bulma[100],
-  backgroundColor: color.gohan[100],
-  borderRadius: radius.default,
-  overflow: 'hidden',
-  position: 'relative',
-  '&::after': {
-    content: '""',
-    position: 'absolute',
-    width: '1px',
-    backgroundColor: color.beerus[100],
-    height: '60%',
-    bottom: '20%',
-    right: 0,
-  },
-  '&:last-child': {
+const TD = styled.div<{ variant?: string }>(
+  ({ theme: { color, radius, space }, variant }) => ({
+    padding: rem(space.default),
+    paddingLeft: rem(space.small),
+    paddingRight: rem(space.small),
+    color: color.bulma[100],
+    backgroundColor: color.gohan[100],
+    overflow: 'hidden',
+    position: 'relative',
     '&::after': {
-      width: 0,
+      content: '""',
+      position: 'absolute',
+      width: '1px',
+      backgroundColor: color.beerus[100],
+      height: '60%',
+      bottom: '20%',
+      right: 0,
     },
-  },
-}));
+    '&:first-child': {
+      borderTopLeftRadius: radius.default,
+      borderBottomLeftRadius: radius.default,
+    },
+    '&:last-child': {
+      borderTopRightRadius: radius.default,
+      borderBottomRightRadius: radius.default,
+      '&::after': {
+        width: 0,
+      },
+    },
+    ...(variant === 'calendar'
+      ? {
+          '&:first-child': {
+            borderRadius: 0,
+            backgroundColor: color.goku[100],
+            '& + div': {
+              borderTopLeftRadius: radius.default,
+              borderBottomLeftRadius: radius.default,
+            },
+            '&::after': {
+              display: 'none',
+            },
+          },
+        }
+      : {}),
+  })
+);
 
 const HiddenTH = styled.div({
   height: '1px',
@@ -170,6 +195,7 @@ const Table: React.FC<any> = ({
   height,
   maxWidth,
   maxHeight,
+  variant,
 }) => {
   const {
     getTableProps,
@@ -213,7 +239,7 @@ const Table: React.FC<any> = ({
     >
       <Header>
         {headerGroups.map(headerGroup => (
-          <HeaderTR {...headerGroup.getHeaderGroupProps()}>
+          <HeaderTR {...headerGroup.getHeaderGroupProps()} variant={variant}>
             {headerGroup.headers.map(column => (
               <TH {...column.getHeaderProps()}>
                 {column.render('Header')}
@@ -244,9 +270,13 @@ const Table: React.FC<any> = ({
         {rows.map(row => {
           prepareRow(row);
           return (
-            <BodyTR {...row.getRowProps()}>
+            <BodyTR {...row.getRowProps()} variant={variant}>
               {row.cells.map(cell => {
-                return <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>;
+                return (
+                  <TD {...cell.getCellProps()} variant={variant}>
+                    {cell.render('Cell')}
+                  </TD>
+                );
               })}
             </BodyTR>
           );
