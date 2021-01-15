@@ -6,8 +6,9 @@ export const WeekDay = styled.div<{ isWeekend?: boolean }>(
     backgroundColor: isWeekend ? color.gohan[80] : color.gohan[100],
     padding: rem(space.default),
     border: `1px solid ${color.goku[100]}`,
-    overflow: 'hidden',
     boxSizing: 'border-box',
     borderRadius: rem(radius.default),
+    display: 'flex',
+    flexDirection: 'column',
   })
 );

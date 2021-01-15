@@ -10,6 +10,7 @@ export const DayInner = styled.div<{ isWeekend?: boolean }>(
     height: '100%',
     width: '100%',
     padding: rem(space.default),
-    overflow: 'hidden',
+    display: 'flex',
+    flexDirection: 'column',
   })
 );
