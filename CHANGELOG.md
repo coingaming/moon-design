@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.66.0](https://github.com/coingaming/sportsbet-design/compare/v2.65.0...v2.66.0) (2021-01-15)
+
+
+### Bug Fixes
+
+* set isScrolledToLeft true by default ([e7be11d](https://github.com/coingaming/sportsbet-design/commit/e7be11d2561b687d1058e24eec6d853074ac6a81))
+
+
+### Features
+
+* **AgeLimit:** introduce ([1e44193](https://github.com/coingaming/sportsbet-design/commit/1e44193ad3723f61250dd303265cb190eed70acf))
+* **assets:** currency icons ([7457d25](https://github.com/coingaming/sportsbet-design/commit/7457d25a375fd028a1b235c8577623ebc09c8069))
+
+
+
+
+
 # [2.65.0](https://github.com/coingaming/sportsbet-design/compare/v2.64.0...v2.65.0) (2021-01-15)
 
 
