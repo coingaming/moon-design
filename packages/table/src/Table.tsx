@@ -189,7 +189,7 @@ const Table: React.FC<any> = ({
     useExpanded
   );
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
-  const [isScrolledToLeft, setIsScrolledToLeft] = useState(false);
+  const [isScrolledToLeft, setIsScrolledToLeft] = useState(true);
   const [isScrolledToRight, setIsScrolledToRight] = useState(false);
 
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
