@@ -10,6 +10,76 @@ export { default as CrestSouthampton } from './crests/CrestSouthampton';
 export * from './crests/CrestSouthampton';
 export { default as CrestWatford } from './crests/CrestWatford';
 export * from './crests/CrestWatford';
+export {
+  default as IconAustralianDollar,
+} from './currencies/IconAustralianDollar';
+export * from './currencies/IconAustralianDollar';
+export { default as IconBitcoin } from './currencies/IconBitcoin';
+export * from './currencies/IconBitcoin';
+export { default as IconBrazilianReal } from './currencies/IconBrazilianReal';
+export * from './currencies/IconBrazilianReal';
+export { default as IconCanadianDollar } from './currencies/IconCanadianDollar';
+export * from './currencies/IconCanadianDollar';
+export { default as IconCardano } from './currencies/IconCardano';
+export * from './currencies/IconCardano';
+export { default as IconChilieanPeso } from './currencies/IconChilieanPeso';
+export * from './currencies/IconChilieanPeso';
+export { default as IconChineseYuan } from './currencies/IconChineseYuan';
+export * from './currencies/IconChineseYuan';
+export { default as IconDanishKrone } from './currencies/IconDanishKrone';
+export * from './currencies/IconDanishKrone';
+export { default as IconEthereum } from './currencies/IconEthereum';
+export * from './currencies/IconEthereum';
+export { default as IconEuro } from './currencies/IconEuro';
+export * from './currencies/IconEuro';
+export {
+  default as IconGbPoundSterling,
+} from './currencies/IconGbPoundSterling';
+export * from './currencies/IconGbPoundSterling';
+export { default as IconHongKongDollar } from './currencies/IconHongKongDollar';
+export * from './currencies/IconHongKongDollar';
+export { default as IconIcelandicKrona } from './currencies/IconIcelandicKrona';
+export * from './currencies/IconIcelandicKrona';
+export { default as IconIndianRupee } from './currencies/IconIndianRupee';
+export * from './currencies/IconIndianRupee';
+export { default as IconJapaneseYen } from './currencies/IconJapaneseYen';
+export * from './currencies/IconJapaneseYen';
+export { default as IconLitecoin } from './currencies/IconLitecoin';
+export * from './currencies/IconLitecoin';
+export {
+  default as IconNewTaiwanDollar,
+} from './currencies/IconNewTaiwanDollar';
+export * from './currencies/IconNewTaiwanDollar';
+export {
+  default as IconNewZealandDollar,
+} from './currencies/IconNewZealandDollar';
+export * from './currencies/IconNewZealandDollar';
+export { default as IconPolandZloty } from './currencies/IconPolandZloty';
+export * from './currencies/IconPolandZloty';
+export { default as IconRipple } from './currencies/IconRipple';
+export * from './currencies/IconRipple';
+export { default as IconRussianRuble } from './currencies/IconRussianRuble';
+export * from './currencies/IconRussianRuble';
+export {
+  default as IconSingaporeDollar,
+} from './currencies/IconSingaporeDollar';
+export * from './currencies/IconSingaporeDollar';
+export { default as IconSoc } from './currencies/IconSoc';
+export * from './currencies/IconSoc';
+export { default as IconSouthKoreanWon } from './currencies/IconSouthKoreanWon';
+export * from './currencies/IconSouthKoreanWon';
+export { default as IconSwedishKrona } from './currencies/IconSwedishKrona';
+export * from './currencies/IconSwedishKrona';
+export { default as IconSwissFranc } from './currencies/IconSwissFranc';
+export * from './currencies/IconSwissFranc';
+export { default as IconThaiBaht } from './currencies/IconThaiBaht';
+export * from './currencies/IconThaiBaht';
+export { default as IconTron } from './currencies/IconTron';
+export * from './currencies/IconTron';
+export { default as IconTurkishLira } from './currencies/IconTurkishLira';
+export * from './currencies/IconTurkishLira';
+export { default as IconUsaDollar } from './currencies/IconUsaDollar';
+export * from './currencies/IconUsaDollar';
 export { default as CasinoBonus } from './duotones/CasinoBonus';
 export * from './duotones/CasinoBonus';
 export { default as ClaimedReward } from './duotones/ClaimedReward';
