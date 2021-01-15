@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Global } from '@heathmont/moon-global';
 import { mq } from '@heathmont/moon-utils';
+import { useSpring, animated } from 'react-spring';
 
 import MoonImg from '../images/moon2.png';
 import EarthImg from '../images/earth.png';
@@ -146,11 +147,28 @@ const Back = styled.img({
   filter: 'invert(1)',
 });
 
+const calc = (x: number, y: number) => [
+  x - window.innerWidth / 2,
+  y - window.innerHeight / 2,
+];
+const trans1 = (x: number, y: number) => {
+  return `translate3d(${x / 10}px, ${-y / 10}px,0)`;
+};
+const trans2 = (x: number, y: number) =>
+  `translate3d(${x / 8 + 35}px,${y / 8 - 23}px,0)`;
+
 export default function Home() {
+  const [props, set] = useSpring(() => ({
+    xy: [0, 0],
+    config: { mass: 10, tension: 550, friction: 140 },
+  }));
+
   return (
     <>
       <Global />
-      <Wrap>
+      <Wrap
+        onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
+      >
         <Head>
           <svg
             width="92"
@@ -173,9 +191,18 @@ export default function Home() {
           <span>coming soon</span>
         </MainText>
         <Moon id="scene1">
-          <img alt="moon" src={MoonImg} data-depth="0.2" />
+          <animated.img
+            alt="moon"
+            src={MoonImg}
+            data-depth="0.2"
+            style={{ transform: props.xy.interpolate(trans1) }}
+          />
           <Earth data-depth="0.4">
-            <img alt="earth" src={EarthImg} />
+            <animated.img
+              alt="earth"
+              src={EarthImg}
+              style={{ transform: props.xy.interpolate(trans2) }}
+            />
           </Earth>
         </Moon>
         <Back />
