@@ -133,10 +133,6 @@ const Body = styled.div({
   zIndex: 0,
 });
 
-const BodyTR = styled.div<{ variant?: string }>(() => ({
-  marginBottom: rem(2),
-}));
-
 const TD = styled.div<{ variant?: string }>(
   ({ theme: { color, radius, space }, variant }) => ({
     padding: rem(space.default),
@@ -181,6 +177,24 @@ const TD = styled.div<{ variant?: string }>(
           },
         }
       : {}),
+  })
+);
+
+const BodyTR = styled.div<{ variant?: string }>(
+  ({ theme: { color }, variant }) => ({
+    marginBottom: rem(2),
+    '&:nth-child(even)': {
+      [TD]: {
+        backgroundColor: color.gohan[80],
+        ...(variant === 'calendar'
+          ? {
+              '&:first-child': {
+                backgroundColor: color.goku[100],
+              },
+            }
+          : {}),
+      },
+    },
   })
 );
 
