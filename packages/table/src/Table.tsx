@@ -5,6 +5,7 @@ import {
   useTable,
   useResizeColumns,
   useExpanded,
+  useBlockLayout,
   useFlexLayout,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
@@ -196,6 +197,7 @@ const Table: React.FC<any> = ({
   maxWidth,
   maxHeight,
   variant,
+  layout,
 }) => {
   const {
     getTableProps,
@@ -209,7 +211,7 @@ const Table: React.FC<any> = ({
       data,
       defaultColumn,
     },
-    useFlexLayout,
+    layout === 'block' ? useBlockLayout : useFlexLayout,
     useResizeColumns,
     useSticky,
     useExpanded
