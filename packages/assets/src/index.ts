@@ -1168,6 +1168,8 @@ export { default as LogoMoneyball } from './logos/LogoMoneyball';
 export * from './logos/LogoMoneyball';
 export { default as LogoMoonDesign } from './logos/LogoMoonDesign';
 export * from './logos/LogoMoonDesign';
+export { default as LogoPoweredByHub88 } from './logos/LogoPoweredByHub88';
+export * from './logos/LogoPoweredByHub88';
 export { default as LogoSlotsFull } from './logos/LogoSlotsFull';
 export * from './logos/LogoSlotsFull';
 export { default as LogoSlotsShort } from './logos/LogoSlotsShort';
