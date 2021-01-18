@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Global } from '@heathmont/moon-global';
-import { mq } from '@heathmont/moon-utils';
 import { useSpring, animated } from 'react-spring';
+import { Global } from '@heathmont/moon-global';
+import { mq, rem } from '@heathmont/moon-utils';
+import { Link, Inline, Badge } from '@heathmont/moon-components';
 
 import MoonImg from '../images/moon2.png';
 import EarthImg from '../images/earth.png';
@@ -25,17 +26,21 @@ const Wrap = styled.div({
 const Head = styled.div({
   position: 'absolute',
   left: 0,
-  top: '3.7vw',
+  top: '58px',
   zIndex: 5,
   width: '100%',
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'center',
+  justifyContent: 'start',
+  flexDirection: 'column',
+  marginLeft: 0,
   svg: {
     display: 'block',
   },
-  [mq(767, 'max-width')]: {
-    top: '58px',
+  [mq(767)]: {
+    top: '3.7vw',
+    marginLeft: rem(228),
+    flexDirection: 'row',
   },
   span: {
     display: 'block',
@@ -62,7 +67,7 @@ const LeftText = styled.div({
     transform: 'none',
     position: 'absolute',
     top: 'auto',
-    bottom: '21px',
+    bottom: '51px',
     left: 0,
     width: '100%',
     textAlign: 'center',
@@ -157,6 +162,27 @@ const trans1 = (x: number, y: number) => {
 const trans2 = (x: number, y: number) =>
   `translate3d(${x / 8 + 35}px,${y / 8 - 23}px,0)`;
 
+const HeadLink = styled(Link as any)({
+  color: '#FFFFFF',
+  '&:hover': {
+    color: '#939597',
+  },
+  display: 'flex',
+  alignItems: 'end',
+  span: {
+    color: '#000',
+    backgroundColor: '#fff',
+    marginLeft: rem(8),
+  },
+});
+
+const Nav = styled(Inline as any)({
+  marginLeft: rem(250),
+  [mq(767, 'max-width')]: {
+    margin: 0,
+  },
+});
+
 export default function Home() {
   const [props, set] = useSpring(() => ({
     xy: [0, 0],
@@ -185,6 +211,19 @@ export default function Home() {
             />
           </svg>
           <span>by Coingaming</span>
+          <Nav space="60px">
+            <HeadLink href="/core/badge">
+              Components
+              <Badge
+                color="piccolo.100"
+                backgroundColor="gohan.100"
+                size="small"
+              >
+                WIP
+              </Badge>
+            </HeadLink>
+            <HeadLink href="/assets/icons">Assets</HeadLink>
+          </Nav>
         </Head>
         <LeftText>open source design system</LeftText>
         <MainText>
