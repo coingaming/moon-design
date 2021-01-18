@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.67.0](https://github.com/coingaming/sportsbet-design/compare/v2.66.0...v2.67.0) (2021-01-18)
+
+
+### Features
+
+* **assets:** powered by hub88 ([61c15c1](https://github.com/coingaming/sportsbet-design/commit/61c15c1683a2df6a3d99592d7c247a041adbe3b1))
+
+
+
+
+
 # [2.66.0](https://github.com/coingaming/sportsbet-design/compare/v2.65.0...v2.66.0) (2021-01-15)
 
 
