@@ -202,6 +202,30 @@ const HiddenTH = styled.div({
   height: '1px',
 });
 
+const Footer = styled.div(({ theme: { color, radius, space } }) => ({
+  position: 'sticky',
+  zIndex: 1,
+  bottom: 0,
+  [HeaderTR]: {
+    '&:first-child': {
+      [TH]: {
+        boxShadow: `${rem(space.xsmall)} -${rem(space.xsmall)} ${rem(
+          space.small
+        )} ${rgba(color.trunks[100], 0.15)}, inset 0 1px 0 ${rgba(
+          color.trunks[100],
+          0.2
+        )}`,
+        '&:first-child': {
+          borderTopLeftRadius: radius.default,
+        },
+        '&:last-child': {
+          borderTopRightRadius: radius.default,
+        },
+      },
+    },
+  },
+}));
+
 const Table: React.FC<any> = ({
   columns,
   data,
@@ -212,11 +236,13 @@ const Table: React.FC<any> = ({
   maxHeight,
   variant,
   layout,
+  withFooter = false,
 }) => {
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
+    footerGroups,
     rows,
     prepareRow,
   } = useTable(
@@ -298,6 +324,29 @@ const Table: React.FC<any> = ({
           );
         })}
       </Body>
+
+      {withFooter && (
+        <Footer>
+          {footerGroups.map(footerGroup => (
+            <HeaderTR {...footerGroup.getFooterGroupProps()} variant={variant}>
+              {footerGroup.headers.map(column => (
+                <TH {...column.getFooterProps()}>
+                  {column.render('Footer')}
+
+                  <div
+                    // @ts-ignore
+                    {...column.getResizerProps()}
+                    className={`resizer ${
+                      // @ts-ignore
+                      column.isResizing ? 'isResizing' : ''
+                    }`}
+                  />
+                </TH>
+              ))}
+            </HeaderTR>
+          ))}
+        </Footer>
+      )}
     </TableWrapper>
   );
 };
