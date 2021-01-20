@@ -3,3 +3,5 @@ export type ZIndex = {
   dialog: number;
   toggle: number;
 };
+
+export default ZIndex;
