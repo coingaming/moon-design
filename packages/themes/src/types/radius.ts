@@ -3,3 +3,5 @@ export type Radius = {
   default: number;
   largest: number;
 };
+
+export default Radius;

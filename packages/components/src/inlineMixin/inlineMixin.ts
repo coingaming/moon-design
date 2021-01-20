@@ -2,13 +2,11 @@ import { CSSObject } from 'styled-components';
 
 import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 
-type InlineSpace = CSSObject['marginLeft'];
-
 /**
  * 1. If we don't know the exact value (i.e. not a `number`), use `calc` and let
  *    the browser calculate spacing.
  */
-const inlineMixin = (space: InlineSpace): CSSObject => ({
+const inlineMixin = (space: any): CSSObject => ({
   display: 'flex',
   flexWrap: 'wrap',
   overflow: 'hidden',
