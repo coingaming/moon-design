@@ -20,3 +20,5 @@ export type Space = {
   large: number /* px */;
   xlarge: number /* px */;
 };
+
+export default Space;

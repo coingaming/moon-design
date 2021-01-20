@@ -18,6 +18,6 @@
     "@heathmont/sportsbet-cdn": "1.1.0"
   },
   "peerDependencies": {
-    "styled-components": ">= 4.4.1"
+    "styled-components": ">= 5.2.1"
   }
 }
