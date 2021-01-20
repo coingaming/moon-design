@@ -180,9 +180,30 @@ const TD = styled.div<{ variant?: string }>(
   })
 );
 
-const BodyTR = styled.div<{ variant?: string }>(
-  ({ theme: { color }, variant }) => ({
+const BodyTR = styled.div<{ variant?: string; hasOnRowClickHandler: boolean }>(
+  ({ theme: { color, space }, variant, hasOnRowClickHandler }) => ({
     marginBottom: rem(2),
+    ...(hasOnRowClickHandler
+      ? {
+          '&:hover': {
+            zIndex: 1,
+            position: 'relative',
+            cursor: 'pointer',
+            [TD]: {
+              boxShadow: `${rem(space.small)} ${rem(space.xsmall)} ${rem(
+                space.default
+              )} ${rgba(color.trunks[100], 0.15)}`,
+              ...(variant === 'calendar'
+                ? {
+                    '&:first-child': {
+                      boxShadow: 'none',
+                    },
+                  }
+                : {}),
+            },
+          },
+        }
+      : {}),
     '&:nth-child(even)': {
       [TD]: {
         backgroundColor: color.gohan[80],
@@ -202,6 +223,30 @@ const HiddenTH = styled.div({
   height: '1px',
 });
 
+const Footer = styled.div(({ theme: { color, radius, space } }) => ({
+  position: 'sticky',
+  zIndex: 1,
+  bottom: 0,
+  [HeaderTR]: {
+    '&:first-child': {
+      [TH]: {
+        boxShadow: `${rem(space.xsmall)} -${rem(space.xsmall)} ${rem(
+          space.small
+        )} ${rgba(color.trunks[100], 0.15)}, inset 0 1px 0 ${rgba(
+          color.trunks[100],
+          0.2
+        )}`,
+        '&:first-child': {
+          borderTopLeftRadius: radius.default,
+        },
+        '&:last-child': {
+          borderTopRightRadius: radius.default,
+        },
+      },
+    },
+  },
+}));
+
 const Table: React.FC<any> = ({
   columns,
   data,
@@ -212,11 +257,14 @@ const Table: React.FC<any> = ({
   maxHeight,
   variant,
   layout,
+  withFooter = false,
+  onRowClick,
 }) => {
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
+    footerGroups,
     rows,
     prepareRow,
   } = useTable(
@@ -233,6 +281,7 @@ const Table: React.FC<any> = ({
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const [isScrolledToLeft, setIsScrolledToLeft] = useState(true);
   const [isScrolledToRight, setIsScrolledToRight] = useState(false);
+  const hasOnRowClickHandler = typeof onRowClick === 'function';
 
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
     const target = event.target as HTMLDivElement;
@@ -286,7 +335,12 @@ const Table: React.FC<any> = ({
         {rows.map(row => {
           prepareRow(row);
           return (
-            <BodyTR {...row.getRowProps()} variant={variant}>
+            <BodyTR
+              {...row.getRowProps()}
+              variant={variant}
+              onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
+              hasOnRowClickHandler={hasOnRowClickHandler}
+            >
               {row.cells.map(cell => {
                 return (
                   <TD {...cell.getCellProps()} variant={variant}>
@@ -298,6 +352,29 @@ const Table: React.FC<any> = ({
           );
         })}
       </Body>
+
+      {withFooter && (
+        <Footer>
+          {footerGroups.map(footerGroup => (
+            <HeaderTR {...footerGroup.getFooterGroupProps()} variant={variant}>
+              {footerGroup.headers.map(column => (
+                <TH {...column.getFooterProps()}>
+                  {column.render('Footer')}
+
+                  <div
+                    // @ts-ignore
+                    {...column.getResizerProps()}
+                    className={`resizer ${
+                      // @ts-ignore
+                      column.isResizing ? 'isResizing' : ''
+                    }`}
+                  />
+                </TH>
+              ))}
+            </HeaderTR>
+          ))}
+        </Footer>
+      )}
     </TableWrapper>
   );
 };
