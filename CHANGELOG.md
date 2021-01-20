@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.68.0](https://github.com/coingaming/sportsbet-design/compare/v2.67.0...v2.68.0) (2021-01-20)
+
+
+### Bug Fixes
+
+* **assets:** update duotones ([fea2cf7](https://github.com/coingaming/sportsbet-design/commit/fea2cf76f2a4b9e0d477b9e59769ba7240275149))
+
+
+### Features
+
+* add fixed footer ([fcddd85](https://github.com/coingaming/sportsbet-design/commit/fcddd859b7edccb72d119068200d2a9b4973c7c6))
+* add onRowClick handler ([e1b133e](https://github.com/coingaming/sportsbet-design/commit/e1b133e8e89759e77ba626478af3acf0fc8f10be))
+
+
+
+
+
 # [2.67.0](https://github.com/coingaming/sportsbet-design/compare/v2.66.0...v2.67.0) (2021-01-18)
 
 
