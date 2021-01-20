@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.66.0](https://github.com/coingaming/sportsbet-design/compare/v2.65.0...v2.66.0) (2021-01-15)
+
+
+### Features
+
+* **AgeLimit:** introduce ([1e44193](https://github.com/coingaming/sportsbet-design/commit/1e44193ad3723f61250dd303265cb190eed70acf))
+
+
+
+
+
 # [2.63.0](https://github.com/coingaming/sportsbet-design/compare/v2.62.0...v2.63.0) (2021-01-08)
 
 **Note:** Version bump only for package @heathmont/moon-core

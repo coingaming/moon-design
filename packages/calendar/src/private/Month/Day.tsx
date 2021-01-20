@@ -5,7 +5,6 @@ export const Day = styled.div(({ theme: { radius } }) => ({
   position: 'relative',
   boxSizing: 'border-box',
   border: '1px solid transparent',
-  overflow: 'hidden',
   '&:nth-child(8)': {
     borderTopLeftRadius: rem(radius.default),
   },
