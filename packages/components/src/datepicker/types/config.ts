@@ -10,3 +10,5 @@ export interface Config {
   without24AndToday?: boolean;
   locale?: any;
 }
+
+export default Config;

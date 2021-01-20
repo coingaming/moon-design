@@ -56,7 +56,7 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
       </tr>
     </thead>
     <tbody>
-      {options.map(option => (
+      {options && options.map(option => (
         <tr key={option.key}>
           <td>{option.property.toString()}</td>
           {/* eslint-disable-next-line no-nested-ternary */}
