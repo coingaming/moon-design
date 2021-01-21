@@ -6,7 +6,7 @@ import Checkbox from '../checkbox/Checkbox';
 import Inline from '../inline/Inline';
 import Text from '../text/Text';
 
-type Option = {
+type OptionType = {
   label: string | JSX.Element;
   value: any;
   count?: number;
@@ -15,7 +15,7 @@ type Option = {
 
 type CheckboxMultiselectProps = {
   value?: any[];
-  options: Option[];
+  options: OptionType[];
   onChange: (value: any[]) => void;
   maxHeight?: string | number;
 };

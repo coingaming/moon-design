@@ -5,7 +5,7 @@ import IconToastError from '../private/icons/IconToastError';
 import IconToastWarning from '../private/icons/IconToastWarning';
 import IconToastSuccess from '../private/icons/IconToastSuccess';
 
-export interface Variants {
+export interface VariantsInterface {
   variant?: 'error' | 'warning' | 'info' | 'success';
 }
 
@@ -16,7 +16,7 @@ const Variants = {
   success: <IconToastSuccess fontSize="1.5rem" />,
 };
 
-const ToastIcon: React.FC<Variants> = ({ variant }) => {
+const ToastIcon: React.FC<VariantsInterface> = ({ variant }) => {
   if (variant && variant in Variants) {
     return Variants[variant];
   }

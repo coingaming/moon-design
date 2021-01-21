@@ -13,3 +13,5 @@ export type Brand =
   | 'Moneyball'
   | 'MoonDesign'
   | 'ShangriLa.io';
+
+export default Brand;
