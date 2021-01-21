@@ -7,3 +7,5 @@ export type Transition = {
   slow: string;
   default: string;
 };
+
+export default Transition;

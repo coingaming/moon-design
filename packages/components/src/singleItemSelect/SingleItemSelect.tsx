@@ -2,14 +2,14 @@ import { rem } from '@heathmont/moon-utils';
 import React from 'react';
 import styled from 'styled-components';
 
-type Option = {
+type OptionType = {
   label: string | JSX.Element;
   value: any;
 };
 
 type SingleItemSelectProps = {
   value?: any;
-  options: Option[];
+  options: OptionType[];
   onChange: (value: any) => void;
   maxHeight?: string | number;
 };

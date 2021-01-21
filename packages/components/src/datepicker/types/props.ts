@@ -22,3 +22,5 @@ export interface DateRangePickerProps {
   config?: Config;
   translations?: Translations;
 }
+
+export default DateRangePickerProps;

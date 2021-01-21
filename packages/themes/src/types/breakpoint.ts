@@ -4,3 +4,5 @@ export type Breakpoint = {
   large: number /* in `px` */;
   xlarge: number /* in `px` */;
 };
+
+export default Breakpoint;
