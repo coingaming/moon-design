@@ -189,3 +189,5 @@ export type ColorShared = {
   frieza: SupportingColor;
   nappa: SupportingColor;
 };
+
+export default ColorThemed;
