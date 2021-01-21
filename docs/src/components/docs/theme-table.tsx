@@ -56,46 +56,47 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
       </tr>
     </thead>
     <tbody>
-      {options && options.map(option => (
-        <tr key={option.key}>
-          <td>{option.property.toString()}</td>
-          {/* eslint-disable-next-line no-nested-ternary */}
-          {typeof option.value === 'object' && option.key !== 'fontFace' ? (
-            <td colSpan={2}>
-              <Table>
-                <tbody>
-                  {Object.keys(option.value).map(variant => (
-                    <tr key={variant}>
-                      <th>
-                        {option.key}.{variant}
-                      </th>
-                      {/**
+      {options &&
+        options.map(option => (
+          <tr key={option.key}>
+            <td>{option.property.toString()}</td>
+            {/* eslint-disable-next-line no-nested-ternary */}
+            {typeof option.value === 'object' && option.key !== 'fontFace' ? (
+              <td colSpan={2}>
+                <Table>
+                  <tbody>
+                    {Object.keys(option.value).map(variant => (
+                      <tr key={variant}>
+                        <th>
+                          {option.key}.{variant}
+                        </th>
+                        {/**
                       * @TODO Create Index Signature for Themes
                       // @ts-ignore */}
-                      <td>{option.value[variant].toString()}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </Table>
-            </td>
-          ) : option.key === 'fontFace' ? (
-            <React.Fragment key={option.key}>
-              <td>{option.key}</td>
-              <td>Returns CSS @font-face declaration.</td>
-            </React.Fragment>
-          ) : (
-            <React.Fragment key={option.key}>
-              <td>{option.key}</td>
-              {/**
-               * Here the value is deliberately wrapped in a template
-               * string to sanitize the output and prevent React
-               * complaining about returning an object.
-               */}
-              <td>{option.value.toString()}</td>
-            </React.Fragment>
-          )}
-        </tr>
-      ))}
+                        <td>{option.value[variant].toString()}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              </td>
+            ) : option.key === 'fontFace' ? (
+              <React.Fragment key={option.key}>
+                <td>{option.key}</td>
+                <td>Returns CSS @font-face declaration.</td>
+              </React.Fragment>
+            ) : (
+              <React.Fragment key={option.key}>
+                <td>{option.key}</td>
+                {/**
+                 * Here the value is deliberately wrapped in a template
+                 * string to sanitize the output and prevent React
+                 * complaining about returning an object.
+                 */}
+                <td>{option.value.toString()}</td>
+              </React.Fragment>
+            )}
+          </tr>
+        ))}
     </tbody>
   </Table>
 );
