@@ -35,3 +35,5 @@ export type Theme = {
   transition: Transition;
   zIndex: ZIndex;
 };
+
+export default Theme;
