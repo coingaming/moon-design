@@ -12,3 +12,5 @@ export type FontWeight = {
   normal: number;
   semibold: number;
 };
+
+export default FontFace;
