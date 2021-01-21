@@ -13,3 +13,5 @@ export interface Translations {
   thisMonth: any;
   nextMonth: any;
 }
+
+export default Translations;
