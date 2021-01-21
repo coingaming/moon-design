@@ -41,7 +41,7 @@ type MonthProps = {
   hoveredDate?: Date;
 };
 
-interface isInRangePreview {
+interface isInRangePreviewInrerface {
   startDate?: Date;
   hoveredDate?: Date;
   day: Date;
@@ -51,7 +51,7 @@ const isInRangePreview = ({
   startDate,
   hoveredDate,
   day,
-}: isInRangePreview) => {
+}: isInRangePreviewInrerface) => {
   if (!startDate) {
     return false;
   }

@@ -11,3 +11,5 @@ export type DatesRange =
   | 'nextWeek'
   | 'thisMonth'
   | 'nextMonth';
+
+export default DatesRange;

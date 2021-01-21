@@ -24,3 +24,5 @@ export type Base = {
    */
   readonly lineHeight: number;
 };
+
+export default Base;
