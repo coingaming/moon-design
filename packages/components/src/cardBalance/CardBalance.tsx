@@ -4,7 +4,7 @@ import { rem } from '@heathmont/moon-utils';
 
 import Stack from '../stack/Stack';
 
-type Balance = {
+type BalanceType = {
   currency: string;
   value: string;
   unit: string;
@@ -12,7 +12,7 @@ type Balance = {
 };
 
 type CardBalanceProps = {
-  from: Balance;
+  from: BalanceType;
   badge?: JSX.Element;
 };
 
@@ -39,7 +39,7 @@ const Text = styled.p(({ theme: { color } }) => ({
   lineHeight: rem(24),
 }));
 
-const Balance: React.FC<{ from: Balance }> = ({ from }) => {
+const Balance: React.FC<{ from: BalanceType }> = ({ from }) => {
   return (
     <Stack as="section" space={0}>
       <Text>{from.currency}</Text>
