@@ -2,6 +2,7 @@ import React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import { ThemeProvider, moonDesignDark } from '@heathmont/moon-themes';
 import { IconChevronDown, IconChevronRight } from '@heathmont/moon-assets';
 
 import { Frontmatter } from '../../types';
@@ -22,52 +23,50 @@ type MenuProps = {
   items: [MenuItemProps];
 };
 
-const MenuListItem = styled.li<{ section?: boolean }>(
-  ({ theme: { color, fontWeight, space }, section }) => [
-    {
-      display: 'block',
-      marginTop: rem(space.small),
-    },
-    section && {
-      fontSize: rem(16),
-      fontWeight: fontWeight.semibold,
-      color: color.trunks[100],
-    },
-  ]
-);
+const MenuListItem = styled.li<{ section?: boolean }>(({ section }) => [
+  {
+    display: 'block',
+    marginTop: rem(4),
+  },
+  section && {
+    fontSize: rem(16),
+    fontWeight: 500,
+    color: '#8697A2',
+  },
+]);
 
-const Link = styled(GatsbyLink)(({ theme: { color } }) => ({
+const Link = styled(GatsbyLink)({
   fontSize: rem(16),
-  color: color.trunks[100],
+  color: '#8697A2',
   textDecoration: 'none',
   '&:hover, &:active, &[aria-current=page]': {
-    color: color.bulma[100],
+    color: '#fff',
   },
-}));
+});
 
 /**
  * Components: Private
  */
-const MenuSection = styled.li<{ isOpen?: boolean }>(({ theme }) => [
+const MenuSection = styled.li<{ isOpen?: boolean }>(
   {
-    borderRadius: theme.radius.small,
+    borderRadius: rem(4),
     paddingTop: rem(16),
     paddingBottom: rem(16),
     // '&:hover': {
     //   backgroundColor: theme.color.goku[100],
     // },
-  },
+  }
   // isOpen && {
   //   backgroundColor: theme.color.goku[100],
   // },
-]);
+);
 
-const Heading = styled.li(({ theme: { color, fontWeight } }) => ({
+const Heading = styled.li({
   display: 'block',
   fontSize: rem(16),
-  fontWeight: fontWeight.semibold,
-  color: color.bulma[100],
-}));
+  fontWeight: 500,
+  color: 'red',
+});
 
 export const MenuList = styled.ul({
   margin: 0,
@@ -131,12 +130,18 @@ export const Menu = ({ items }: MenuProps) => {
     return pages && pages.some(item => item.route === locationPathname);
   };
 
-  return items.map(item => (
-    <SubMenu
-      key={item.name}
-      title={item.name}
-      items={item.pages}
-      isActive={isCurrentLocation(item.pages)}
-    />
-  ));
+  return (
+    <ThemeProvider theme={moonDesignDark}>
+      <>
+        {items.map(item => (
+          <SubMenu
+            key={item.name}
+            title={item.name}
+            items={item.pages}
+            isActive={isCurrentLocation(item.pages)}
+          />
+        ))}
+      </>
+    </ThemeProvider>
+  );
 };
