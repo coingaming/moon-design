@@ -27,13 +27,13 @@ const Table = styled.table(
   })
 );
 
-const MarkdownStack = styled(Stack as any)(({ theme: { space } }) => ({
+const MarkdownStack = styled(Stack as any)({
   'ul, ol': {
     '&:not([class])': {
-      marginLeft: rem(space.default),
+      marginLeft: rem(16),
     },
   },
-}));
+});
 
 /**
  * Map custom components to HTML provided by MDX

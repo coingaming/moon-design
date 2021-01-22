@@ -8,8 +8,7 @@ import { mq } from '@heathmont/moon-utils';
 
 import Button from '../../button/Button';
 import TextInput from '../../textInput/TextInput';
-import { Translations } from '../types/translations';
-import { Config } from '../types/config';
+import { Config, Translations } from '../RangeCalendar';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   gridArea: 'inputs',
