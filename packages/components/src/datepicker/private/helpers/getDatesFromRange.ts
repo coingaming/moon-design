@@ -13,8 +13,21 @@ import endOfDay from 'date-fns/endOfDay';
 import subHours from 'date-fns/subHours';
 import addMinutes from 'date-fns/addMinutes';
 
-import { DatesRange } from '../../types/datesRange';
-import { Config } from '../../types/config';
+import { Config } from '../../RangeCalendar';
+
+export type DatesRange =
+  | ''
+  | 'reset'
+  | 'lastMonth'
+  | 'lastWeek'
+  | 'last24hours'
+  | 'yesterday'
+  | 'today'
+  | 'tommorow'
+  | 'thisWeek'
+  | 'nextWeek'
+  | 'thisMonth'
+  | 'nextMonth';
 
 export const getDatesFromRange = ({
   range,

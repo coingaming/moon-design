@@ -1,7 +1,6 @@
 import { avertaStd } from '@heathmont/moon-fonts';
 
-import { Theme } from '../types/theme';
-import sharedTokens from '../sharedTokens/sharedTokens';
+import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 
 const color = {
