@@ -1,6 +1,4 @@
-import { ThemeContext } from 'styled-components';
 import { PrismTheme } from 'prism-react-renderer';
-import { useContext } from 'react';
 
 // Adjusted "Oceanic Next"
 // Author: Dmitri Voronianski (https://github.com/voronianski)
@@ -24,12 +22,10 @@ const prismThemeColors = {
 };
 
 export const prismTheme = (): PrismTheme => {
-  const theme = useContext(ThemeContext);
-
   return {
     plain: {
-      backgroundColor: theme.color.background,
-      color: theme.color.text,
+      backgroundColor: 'red',
+      color: 'black',
       fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
       fontSize: '0.8rem',
       lineHeight: 1.5,

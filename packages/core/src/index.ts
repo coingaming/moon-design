@@ -12,8 +12,6 @@ export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
 export { default as Heading } from './heading/Heading';
 export * from './heading/Heading';
-export { default as HeadingSize } from './heading/HeadingSize';
-export * from './heading/HeadingSize';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as ScreenLoader } from './screenLoader/ScreenLoader';

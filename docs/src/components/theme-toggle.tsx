@@ -5,11 +5,11 @@ import { Switch } from '@heathmont/moon-components';
 
 import { useDocsTheme } from '../provider';
 
-const SwitchContainer = styled.div(({ theme: { space } }) => ({
+const SwitchContainer = styled.div({
   position: 'absolute',
-  top: rem(space.default),
-  right: rem(space.default),
-}));
+  top: rem(16),
+  right: rem(16),
+});
 
 export const ThemeToggle = () => {
   const { toggleColorScheme } = useDocsTheme();
