@@ -1,4 +1,4 @@
-import { Theme } from '../types/theme';
+import { Theme } from '../sharedTokens/sharedTokens';
 import sportsbetDark from '../sportsbetDark/sportsbetDark';
 
 const lightColors = {

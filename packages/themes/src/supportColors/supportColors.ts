@@ -1,4 +1,23 @@
-import { ColorShared } from '../types/color';
+import { CSSObject } from 'styled-components';
+
+export type ColorValue = CSSObject['color'];
+
+type SupportingColor = {
+  100?: ColorValue;
+  10?: ColorValue;
+};
+
+export type ColorShared = {
+  krillin: SupportingColor; // Warning colors
+  chiChi: SupportingColor; // Error colors
+  roshi: SupportingColor; // Success colors
+  dodoria: SupportingColor;
+  cell: SupportingColor;
+  raditz: SupportingColor;
+  whis: SupportingColor;
+  frieza: SupportingColor;
+  nappa: SupportingColor;
+};
 
 const supportColors: ColorShared = {
   // Warning colors

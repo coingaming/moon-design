@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 import { Global } from '@heathmont/moon-global';
 import { mq, rem } from '@heathmont/moon-utils';
-import { Link, Inline, Badge } from '@heathmont/moon-components';
+import { ThemeProvider, moonDesignDark } from '@heathmont/moon-themes';
+import { Inline, Badge } from '@heathmont/moon-components';
 
 import MoonImg from '../images/moon2.png';
 import EarthImg from '../images/earth.png';
@@ -162,8 +163,9 @@ const trans1 = (x: number, y: number) => {
 const trans2 = (x: number, y: number) =>
   `translate3d(${x / 8 + 35}px,${y / 8 - 23}px,0)`;
 
-const HeadLink = styled(Link as any)({
+const HeadLink = styled.a({
   color: '#FFFFFF',
+  textDecoration: 'none',
   '&:hover': {
     color: '#939597',
   },
@@ -192,60 +194,62 @@ export default function Home() {
   return (
     <>
       <Global />
-      <Wrap
-        onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
-      >
-        <Head>
-          <svg
-            width="92"
-            height="21"
-            viewBox="0 0 92 21"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M5.55793 20.182V7.6865C6.34629 6.22803 8.08068 5.08491 9.69681 5.08491C11.8648 5.08491 12.9685 6.42513 12.9685 9.14496V20.182H18.5264V7.76533C19.2754 6.22804 20.9309 5.08491 22.6259 5.08491C24.7939 5.08491 25.8976 6.42513 25.8976 9.14496V20.182H31.4555V7.88359C31.4555 2.71984 28.6568 0 24.4391 0C21.601 0 18.96 1.41905 17.6592 3.35053C16.8315 1.49788 14.5058 0 11.5495 0C9.02671 0 7.01639 0.985449 5.55793 2.91693V0.512434H0V20.182H5.55793ZM77.662 7.64708C78.608 6.18862 80.3818 5.08491 82.1162 5.08491C84.1659 5.08491 85.8609 6.22803 85.8609 9.26322V20.182H91.4188V8.1201C91.4188 3.0746 88.8172 0 84.2448 0C81.6038 0 79.4358 0.94603 77.662 2.87751V0.512434H72.104V20.182H77.662V7.64708ZM56.183 10.1276C56.183 15.6805 51.6815 20.182 46.1286 20.182C40.5758 20.182 36.0743 15.6805 36.0743 10.1276C36.0743 4.57473 40.5758 0.0732392 46.1286 0.0732392C51.6815 0.0732392 56.183 4.57473 56.183 10.1276ZM62.9211 6.88734C64.8028 6.88734 66.3282 5.36195 66.3282 3.48029C66.3282 1.59863 64.8028 0.0732392 62.9211 0.0732392C61.0395 0.0732392 59.5141 1.59863 59.5141 3.48029C59.5141 5.36195 61.0395 6.88734 62.9211 6.88734Z"
-              fill="white"
-            />
-          </svg>
-          <span>by Coingaming</span>
-          <Nav space="60px">
-            <HeadLink href="/core/badge">
-              Components
-              <Badge
-                color="piccolo.100"
-                backgroundColor="gohan.100"
-                size="small"
-              >
-                WIP
-              </Badge>
-            </HeadLink>
-            <HeadLink href="/assets/icons">Assets</HeadLink>
-          </Nav>
-        </Head>
-        <LeftText>open source design system</LeftText>
-        <MainText>
-          <span>coming soon</span>
-        </MainText>
-        <Moon id="scene1">
-          <animated.img
-            alt="moon"
-            src={MoonImg}
-            data-depth="0.2"
-            style={{ transform: props.xy.interpolate(trans1) }}
-          />
-          <Earth data-depth="0.4">
+      <ThemeProvider theme={moonDesignDark}>
+        <Wrap
+          onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
+        >
+          <Head>
+            <svg
+              width="92"
+              height="21"
+              viewBox="0 0 92 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M5.55793 20.182V7.6865C6.34629 6.22803 8.08068 5.08491 9.69681 5.08491C11.8648 5.08491 12.9685 6.42513 12.9685 9.14496V20.182H18.5264V7.76533C19.2754 6.22804 20.9309 5.08491 22.6259 5.08491C24.7939 5.08491 25.8976 6.42513 25.8976 9.14496V20.182H31.4555V7.88359C31.4555 2.71984 28.6568 0 24.4391 0C21.601 0 18.96 1.41905 17.6592 3.35053C16.8315 1.49788 14.5058 0 11.5495 0C9.02671 0 7.01639 0.985449 5.55793 2.91693V0.512434H0V20.182H5.55793ZM77.662 7.64708C78.608 6.18862 80.3818 5.08491 82.1162 5.08491C84.1659 5.08491 85.8609 6.22803 85.8609 9.26322V20.182H91.4188V8.1201C91.4188 3.0746 88.8172 0 84.2448 0C81.6038 0 79.4358 0.94603 77.662 2.87751V0.512434H72.104V20.182H77.662V7.64708ZM56.183 10.1276C56.183 15.6805 51.6815 20.182 46.1286 20.182C40.5758 20.182 36.0743 15.6805 36.0743 10.1276C36.0743 4.57473 40.5758 0.0732392 46.1286 0.0732392C51.6815 0.0732392 56.183 4.57473 56.183 10.1276ZM62.9211 6.88734C64.8028 6.88734 66.3282 5.36195 66.3282 3.48029C66.3282 1.59863 64.8028 0.0732392 62.9211 0.0732392C61.0395 0.0732392 59.5141 1.59863 59.5141 3.48029C59.5141 5.36195 61.0395 6.88734 62.9211 6.88734Z"
+                fill="white"
+              />
+            </svg>
+            <span>by Coingaming</span>
+            <Nav space="60px">
+              <HeadLink href="/core/badge">
+                Components
+                <Badge
+                  color="piccolo.100"
+                  backgroundColor="gohan.100"
+                  size="small"
+                >
+                  WIP
+                </Badge>
+              </HeadLink>
+              <HeadLink href="/assets/icons">Assets</HeadLink>
+            </Nav>
+          </Head>
+          <LeftText>open source design system</LeftText>
+          <MainText>
+            <span>coming soon</span>
+          </MainText>
+          <Moon id="scene1">
             <animated.img
-              alt="earth"
-              src={EarthImg}
-              style={{ transform: props.xy.interpolate(trans2) }}
+              alt="moon"
+              src={MoonImg}
+              data-depth="0.2"
+              style={{ transform: props.xy.interpolate(trans1) }}
             />
-          </Earth>
-        </Moon>
-        <Back />
-      </Wrap>
+            <Earth data-depth="0.4">
+              <animated.img
+                alt="earth"
+                src={EarthImg}
+                style={{ transform: props.xy.interpolate(trans2) }}
+              />
+            </Earth>
+          </Moon>
+          <Back />
+        </Wrap>
+      </ThemeProvider>
     </>
   );
 }
