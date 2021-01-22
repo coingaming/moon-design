@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ThemeContext from '../themeContext/ThemeContext';
-import { Theme } from '../types/theme';
+import { Theme } from '../sharedTokens/sharedTokens';
 
 /**
  * Theme Context

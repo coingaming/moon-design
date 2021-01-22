@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { enGB } from 'date-fns/locale';
 
-import { DateRangePickerProps } from './types/props';
-import RangeCalendar from './RangeCalendar';
+import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
 
 import { Button } from '..';
