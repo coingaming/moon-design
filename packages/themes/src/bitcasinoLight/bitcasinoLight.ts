@@ -1,4 +1,4 @@
-import { Theme } from '../types/theme';
+import { Theme } from '../sharedTokens/sharedTokens';
 import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
 
 const color = {
