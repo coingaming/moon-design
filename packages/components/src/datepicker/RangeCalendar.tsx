@@ -11,9 +11,10 @@ import isValid from 'date-fns/isValid';
 import { getMonthDays } from './private/helpers/getMonthDays';
 import { Picker } from './private/Picker';
 import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
-import { getDatesFromRange } from './private/helpers/getDatesFromRange';
-import { DatesRange } from './types/datesRange';
-import { DateRangePickerProps } from './types/props';
+import {
+  getDatesFromRange,
+  DatesRange,
+} from './private/helpers/getDatesFromRange';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
 
 type DatepickerState = {
@@ -23,6 +24,56 @@ type DatepickerState = {
   hoveredDate?: Date;
   cursorDate: Date; // just to navigate between months
 };
+
+export type WeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
+
+export interface Translations {
+  placeholder: any;
+  apply: any;
+  reset: any;
+  lastMonth: any;
+  lastWeek: any;
+  last24hours: any;
+  yesterday: any;
+  today: any;
+  tommorow: any;
+  thisWeek: any;
+  nextWeek: any;
+  thisMonth: any;
+  nextMonth: any;
+}
+
+export interface Config {
+  format?: string;
+  monthLabelFormat?: string;
+  yearLabelFormat?: string;
+  weekStartsOn?: WeekStartsOn;
+  withHoursAndMinutes?: boolean;
+  onlyFuture?: boolean;
+  without24AndToday?: boolean;
+  locale?: any;
+}
+
+export interface DateRangePickerProps {
+  format?: string;
+  startDate?: Date;
+  endDate?: Date;
+  range?: DatesRange;
+  hasClickedOutside?: boolean;
+  setIsOpen?: any;
+  setPlaceholder?: any;
+  onDateChange: ({
+    startDate,
+    endDate,
+    range,
+  }: {
+    startDate?: Date;
+    endDate?: Date;
+    range?: DatesRange;
+  }) => any;
+  config?: Config;
+  translations?: Translations;
+}
 
 const RangeCalendar: React.FC<DateRangePickerProps> = ({
   startDate: initialStartDate,
