@@ -21,7 +21,7 @@ const metaQuery = graphql`
 export const Meta = () => (
   <StaticQuery
     query={metaQuery}
-    render={data => {
+    render={(data) => {
       const config = data.allDocsJson.edges[0].node;
       return (
         <Helmet>

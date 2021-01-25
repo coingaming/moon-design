@@ -9,6 +9,6 @@ const inlineSvg = (svg: InlineSVGProps) => {
   return `url('data:image/svg+xml;utf8, ${encodedSVG}')`;
 };
 
-export { InlineSVGProps };
+export type { InlineSVGProps };
 
 export default inlineSvg;

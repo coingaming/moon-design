@@ -4,9 +4,12 @@ import { DialogProps as ReachDialogProps } from '@reach/dialog';
 import IconClose from '../private/icons/IconClose';
 import DialogOverlay from '../dialogOverlay/DialogOverlay';
 import DialogContent from '../dialogContent/DialogContent';
+import type {
+  DialogPosition,
+  DialogMaxWidth,
+} from '../dialogContent/DialogContent';
 
 import { DialogToggle, DialogToggleText } from './private/toggle';
-import { DialogPosition, DialogMaxWidth } from './private/types';
 import { DialogContainer, DialogMain } from './private/layout';
 
 export type DialogProps = ReachDialogProps &

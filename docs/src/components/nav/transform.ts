@@ -3,7 +3,7 @@ import { PagesData } from '../../types';
 export const transformSections = (data: PagesData) => {
   const sections = data.config.edges[0].node.menuSections;
 
-  return sections.map(section => {
+  return sections.map((section) => {
     const sectionPages = data.pages.edges
       .filter(({ node }) => node.frontmatter.menu === section)
       .map(({ node }) => ({
@@ -12,7 +12,7 @@ export const transformSections = (data: PagesData) => {
       .sort((a, b) => a.name.localeCompare(b.name));
 
     const sectionRoot = data.pages.edges.filter(
-      page => page.node.frontmatter.name === section
+      (page) => page.node.frontmatter.name === section
     )[0];
 
     const sectionMeta = sectionPages.length

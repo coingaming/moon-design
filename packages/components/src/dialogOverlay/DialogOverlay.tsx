@@ -6,7 +6,7 @@ import { DialogOverlay as ReachDialogOverlay } from '@reach/dialog';
  * For further info, see the Reach UI documentation:
  * https://ui.reach.tech/dialog/
  */
-const DialogOverlay = styled<any>(ReachDialogOverlay)(
+const DialogOverlay: any = styled<any>(ReachDialogOverlay)(
   ({ theme: { color, zIndex } }) => ({
     position: 'fixed',
     top: '0',

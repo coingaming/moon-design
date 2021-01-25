@@ -128,7 +128,7 @@ const PieChart: React.FC<Props> = ({
           fill={fill}
           style={{ filter: 'url(#shadow)' }}
           cornerRadius="100%"
-          onMouseOver={e => {
+          onMouseOver={(e) => {
             if (!e || !e.target) return;
             const sector = e.target.closest('.recharts-pie-sector');
             const container = sector.parentElement;

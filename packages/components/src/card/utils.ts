@@ -6,7 +6,7 @@ const cardGradients: string[] = [
     )`,
 ];
 
-const cardGradientPositions = [
+const cardGradientPositions: string[] = [
   'center',
   'center',
   'center',
@@ -14,7 +14,7 @@ const cardGradientPositions = [
   'center',
 ];
 
-const cardGradientSizes = [
+const cardGradientSizes: string[] = [
   'contain',
   'contain',
   'contain',

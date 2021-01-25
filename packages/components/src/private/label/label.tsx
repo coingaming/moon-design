@@ -97,4 +97,5 @@ const Label: React.FC<LabelProps> = ({
   /* eslint-enable jsx-a11y/label-has-associated-control */
 };
 
-export { Label, LabelText, LabelProps, LabelSizing };
+export type { LabelText, LabelProps, LabelSizing };
+export { Label };
