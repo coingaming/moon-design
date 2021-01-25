@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.70.0](https://github.com/coingaming/sportsbet-design/compare/v2.69.0...v2.70.0) (2021-01-25)
+
+
+### Features
+
+* update moon design theme ([d186b2f](https://github.com/coingaming/sportsbet-design/commit/d186b2f2eefbd503ddf33cb89d0fdec92820c2e6))
+
+
+
+
+
 # [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
 
 
