@@ -1,7 +1,7 @@
 ---
 name: Calendar
-menu: Calendar
-route: /Calendar/calendar
+menu: Toolkit
+route: /toolkit/calendar
 ---
 
 Week and Month calendar components have the same api
@@ -20,7 +20,7 @@ Week and Month calendar components have the same api
 
 ```jsx react-live
 () => {
-  const isToday = someDate => {
+  const isToday = (someDate) => {
     const today = new Date();
     return (
       someDate.getDate() == today.getDate() &&
@@ -29,9 +29,9 @@ Week and Month calendar components have the same api
     );
   };
 
-  const renderDayContent = date => (isToday(date) ? 'today' : null);
+  const renderDayContent = (date) => (isToday(date) ? 'today' : null);
 
-  const renderNearDayNumber = date => (isToday(date) ? 't' : null);
+  const renderNearDayNumber = (date) => (isToday(date) ? 't' : null);
 
   return (
     <Month
@@ -47,7 +47,7 @@ Week and Month calendar components have the same api
 
 ```jsx react-live
 () => {
-  const isToday = someDate => {
+  const isToday = (someDate) => {
     const today = new Date();
     return (
       someDate.getDate() == today.getDate() &&
@@ -56,9 +56,9 @@ Week and Month calendar components have the same api
     );
   };
 
-  const renderDayContent = date => (isToday(date) ? 'today' : null);
+  const renderDayContent = (date) => (isToday(date) ? 'today' : null);
 
-  const renderNearDayNumber = date => (isToday(date) ? 't' : null);
+  const renderNearDayNumber = (date) => (isToday(date) ? 't' : null);
 
   return (
     <div style={{ height: '800px' }}>
