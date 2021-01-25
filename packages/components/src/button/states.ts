@@ -50,11 +50,7 @@ const buttonActive = (styles: CSSObject) => ({
 
 export type { ButtonMockState };
 
-export {
-  buttonMockStateClass,
-  buttonHover,
-  buttonActive,
-};
+export { buttonMockStateClass, buttonHover, buttonActive };
 
 export default {
   buttonMockStateClass,

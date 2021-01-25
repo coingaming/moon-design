@@ -99,7 +99,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const MoneyBack: React.FC<any> = props => {
+const MoneyBack: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

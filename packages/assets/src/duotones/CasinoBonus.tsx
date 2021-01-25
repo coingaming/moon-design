@@ -99,7 +99,7 @@ const Component = styled(Svg)(
   })
 );
 
-const CasinoBonus: React.FC<any> = props => {
+const CasinoBonus: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

@@ -62,7 +62,7 @@ export const Tooltip: React.FC<Props> = ({ payload, active, formatFn }) => {
   return (
     <TooltipWrapper>
       {date && <Date>{formatFn({ value: date, key: 'date' })}</Date>}
-      {payload.map(item => {
+      {payload.map((item) => {
         const color = item.payload.fill || item.color;
         const label = item.payload.label || item.name;
         const key = item.payload.dataKey || item.dataKey;

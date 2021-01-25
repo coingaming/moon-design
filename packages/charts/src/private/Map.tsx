@@ -84,7 +84,7 @@ export const Map: React.FC<Props> = ({ data }) => {
           {({ geographies }) =>
             geographies.map((geography: any, index: number) => {
               const country = geography.properties;
-              const activeItem = data.find(item =>
+              const activeItem = data.find((item) =>
                 isCountryCode(item.code, country)
               );
               const fillColor = activeItem ? activeItem.color : defaultColor;
@@ -104,7 +104,7 @@ export const Map: React.FC<Props> = ({ data }) => {
                   onMouseLeave={() => {
                     setHoveredItem(null);
                   }}
-                  onMouseMove={event => {
+                  onMouseMove={(event) => {
                     setHoveredItem(activeItem);
                     const ref = tooltipRef && tooltipRef.current;
                     if (!ref) return;

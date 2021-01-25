@@ -23,9 +23,9 @@ export type SelectElementProps = {
 /**
  * Styles
  */
-export const SelectElement = styled(Input.withComponent('select'))<
-  SelectElementProps
->(({ fullWidth, theme }) => [
+export const SelectElement = styled(
+  Input.withComponent('select')
+)<SelectElementProps>(({ fullWidth, theme }) => [
   {
     color: inputColors('label')(theme),
     backgroundImage: inlineSvg(
