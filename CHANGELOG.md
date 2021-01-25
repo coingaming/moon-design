@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
+
+
+### Bug Fixes
+
+* eslint update ([628564d](https://github.com/coingaming/sportsbet-design/commit/628564dbfb1814ab33116e3995771d14aaa57d2c))
+* index ([a857d4f](https://github.com/coingaming/sportsbet-design/commit/a857d4f298c0e08fa0dc172c77efcbe081aafc5e))
+* theme-table ([12d0e80](https://github.com/coingaming/sportsbet-design/commit/12d0e80010fc694d12d81f02be0656fe7a589d87))
+* ts build ([d1f861b](https://github.com/coingaming/sportsbet-design/commit/d1f861b98aec0fee6b41a7793429440cedda3a46))
+* **build:** ts & docs ([22b1db2](https://github.com/coingaming/sportsbet-design/commit/22b1db295a9a42640c94628a0c0eb45b3d2ccacb))
+
+
+### Features
+
+* ts bump ([087aa88](https://github.com/coingaming/sportsbet-design/commit/087aa88e087bcda468ad9c11ac4dccc3e2c671d1))
+* ts update ([8a7eb73](https://github.com/coingaming/sportsbet-design/commit/8a7eb733936ed791173c5170348c1e3f96d43660))
+* **ci:** node 15 version ([69a01a5](https://github.com/coingaming/sportsbet-design/commit/69a01a5a97edf789749c3bcd9b9ecaf6d6f13b1f))
+* **ci:** update .node-version ([81eef36](https://github.com/coingaming/sportsbet-design/commit/81eef360c25a25dd21d5316ebd5f61bdfbe935c9))
+* upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
+
+
+
+
+
 # [2.68.0](https://github.com/coingaming/sportsbet-design/compare/v2.67.0...v2.68.0) (2021-01-20)
 
 

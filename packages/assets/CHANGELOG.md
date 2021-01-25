@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
+
+
+### Features
+
+* ts bump ([087aa88](https://github.com/coingaming/sportsbet-design/commit/087aa88e087bcda468ad9c11ac4dccc3e2c671d1))
+* ts update ([8a7eb73](https://github.com/coingaming/sportsbet-design/commit/8a7eb733936ed791173c5170348c1e3f96d43660))
+* upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
+
+
+
+
+
 # [2.68.0](https://github.com/coingaming/sportsbet-design/compare/v2.67.0...v2.68.0) (2021-01-20)
 
 
