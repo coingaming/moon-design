@@ -8,11 +8,7 @@ import IconSuccess from '../private/icons/IconSuccess';
 
 import { buttonVariant, ButtonVariants } from './variants';
 import { buttonSize, ButtonSizes } from './size';
-import {
-  buttonMockStateClass,
-  buttonHover,
-  buttonActive,
-} from './states';
+import { buttonMockStateClass, buttonHover, buttonActive } from './states';
 import type { ButtonMockState } from './states';
 import { oopsAnimation } from './oopsAnimation';
 import { pulseAnimation } from './pulseAnimation';

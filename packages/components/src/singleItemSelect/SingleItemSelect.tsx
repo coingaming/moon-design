@@ -53,7 +53,7 @@ const SingleItemSelect: React.FC<SingleItemSelectProps> = ({
   maxHeight,
 }) => (
   <List style={{ maxHeight }}>
-    {options.map(option => (
+    {options.map((option) => (
       <li key={option.value}>
         <Option
           selected={value === option.value}

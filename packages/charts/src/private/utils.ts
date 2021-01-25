@@ -24,10 +24,16 @@ export const getBarChartData = ({
   positiveColor,
   negativeColor,
 }: GetBarChartDataProps) => {
-  const maxValue = Math.max.apply(null, data.map(({ value }) => value));
-  const minValue = Math.min.apply(null, data.map(({ value }) => value));
+  const maxValue = Math.max.apply(
+    null,
+    data.map(({ value }) => value)
+  );
+  const minValue = Math.min.apply(
+    null,
+    data.map(({ value }) => value)
+  );
 
-  return data.map(item => {
+  return data.map((item) => {
     const normalizedValue = getNormalizedValue(item.value, maxValue, minValue);
     const valueToOpacity = normalizedValue < 0.3 ? 0.3 : normalizedValue;
 
@@ -43,8 +49,14 @@ export const getBarChartData = ({
 };
 
 export const getAxisPosition = (data: { value: number }[]) => {
-  const maxValue = Math.max.apply(null, data.map(({ value }) => value));
-  const minValue = Math.min.apply(null, data.map(({ value }) => value));
+  const maxValue = Math.max.apply(
+    null,
+    data.map(({ value }) => value)
+  );
+  const minValue = Math.min.apply(
+    null,
+    data.map(({ value }) => value)
+  );
 
   if (maxValue <= 0) {
     return 'right';
