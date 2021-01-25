@@ -26,13 +26,9 @@ export { default as livecasinoLight } from './livecasinoLight/livecasinoLight';
 export * from './livecasinoLight/livecasinoLight';
 export { default as luckyslots } from './luckyslots/luckyslots';
 export * from './luckyslots/luckyslots';
-export {
-  default as missionsToolDark,
-} from './missionsToolDark/missionsToolDark';
+export { default as missionsToolDark } from './missionsToolDark/missionsToolDark';
 export * from './missionsToolDark/missionsToolDark';
-export {
-  default as missionsToolLight,
-} from './missionsToolLight/missionsToolLight';
+export { default as missionsToolLight } from './missionsToolLight/missionsToolLight';
 export * from './missionsToolLight/missionsToolLight';
 export { default as moneyballDark } from './moneyball/moneyballDark';
 export * from './moneyball/moneyballDark';

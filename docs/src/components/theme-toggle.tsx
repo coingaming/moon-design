@@ -23,7 +23,7 @@ export const ThemeToggle = () => {
   return (
     <SwitchContainer>
       <Switch
-        onChange={e => handleChange(e)}
+        onChange={(e) => handleChange(e)}
         checked={state}
         colorScheme
         captionUnchecked="AM"

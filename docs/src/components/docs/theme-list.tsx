@@ -7,7 +7,7 @@ export const ThemeList = () => {
 
   return (
     <ul>
-      {themes.map(themeKey => (
+      {themes.map((themeKey) => (
         <li>{themeKey}</li>
       ))}
     </ul>

@@ -131,7 +131,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const InviteFriends: React.FC<any> = props => {
+const InviteFriends: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

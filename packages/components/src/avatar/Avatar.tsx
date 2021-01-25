@@ -50,7 +50,7 @@ const AvatarWrapper = styled.div<AvatarProps>(
   ]
 );
 
-const Avatar: React.FC<AvatarProps> = props => {
+const Avatar: React.FC<AvatarProps> = (props) => {
   const { name, imageUrl, color } = props;
   if (imageUrl) return <AvatarWrapper {...props} />;
 

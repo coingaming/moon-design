@@ -1,8 +1,8 @@
-import { supportColors, ColorValue } from '@heathmont/moon-themes';
+import { supportColors } from '@heathmont/moon-themes';
 
 const { krillin, cell, dodoria, whis, raditz, nappa, frieza } = supportColors;
 
-export const GroupIconSportsColor: { [key: string]: ColorValue } = {
+export const GroupIconSportsColor: { [key: string]: any } = {
   rugby: krillin[100],
   horseRacing: cell[100],
   americanFootBall: krillin[100],
