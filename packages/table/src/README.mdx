@@ -1,7 +1,7 @@
 ---
 name: Table
-menu: Table
-route: /table/table
+menu: Toolkit
+route: /toolkit/table
 ---
 
 # Table
@@ -67,7 +67,7 @@ Table supports `width`, `height`, `maxWidth` and `maxHeight` properties.
     },
   ];
 
-  const makeData = length => {
+  const makeData = (length) => {
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
@@ -188,7 +188,7 @@ Table supports `width`, `height`, `maxWidth` and `maxHeight` properties.
     },
   ];
 
-  const makeData = length => {
+  const makeData = (length) => {
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
@@ -271,7 +271,7 @@ Table supports `width`, `height`, `maxWidth` and `maxHeight` properties.
     },
   ];
 
-  const makeData = length => {
+  const makeData = (length) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
         date: <strong>January {(index + 1) % 30}, 2020</strong>,
@@ -365,7 +365,7 @@ Table supports `width`, `height`, `maxWidth` and `maxHeight` properties.
     },
   ];
 
-  const makeData = length => {
+  const makeData = (length) => {
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
@@ -442,7 +442,7 @@ Table supports `width`, `height`, `maxWidth` and `maxHeight` properties.
     },
   ];
 
-  const makeData = length => {
+  const makeData = (length) => {
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
@@ -475,7 +475,7 @@ Table supports `width`, `height`, `maxWidth` and `maxHeight` properties.
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      onRowClick={row => console.log(row)}
+      onRowClick={(row) => console.log(row)}
     />
   );
 };
