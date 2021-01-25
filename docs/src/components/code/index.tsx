@@ -15,7 +15,6 @@ import * as Notifications from '@heathmont/moon-notifications';
 import * as Popover from '@heathmont/moon-popover';
 import * as Accordion from '@heathmont/moon-accordion';
 import { useTheme } from '@heathmont/moon-themes';
-import { avertaStd } from '@heathmont/moon-fonts';
 
 import { prismTheme } from './prism';
 
@@ -25,30 +24,35 @@ type CodeProps = {
   'react-live'?: boolean;
 };
 
-const CodeWrapper = styled.div({
-  display: 'block',
-  border: '1px solid #31373F',
-  borderRadius: Utils.rem(2),
-  position: 'relative',
-  // overflow: 'hidden',
-  '.prism-code:focus': {
-    outline: 'none',
-    boxShadow: 'inset 0 0 3px red',
-  },
-  pre: {
-    padding: Utils.rem(16),
-    overflow: 'auto',
-    marginBottom: '0',
-  },
-});
+const CodeWrapper = styled.div(
+  ({ theme: { border, color, radius, space } }) => ({
+    display: 'block',
+    border,
+    borderColor: color.beerus[100],
+    borderRadius: Utils.rem(radius.small),
+    position: 'relative',
+    // overflow: 'hidden',
+    '.prism-code:focus': {
+      outline: 'none',
+      boxShadow: `inset 0 0 3px ${color.piccolo[100]}`,
+    },
+    pre: {
+      padding: Utils.rem(space.default),
+      overflow: 'auto',
+      marginBottom: '0',
+    },
+  })
+);
 
-const CodePreview = styled.div({
-  padding: Utils.rem(32),
-  minHeight: Utils.rem(32),
-  fontFamily: avertaStd.fontStack,
-  borderBottom: '1px solid #31373F',
-  borderColor: '#31373F',
-});
+const CodePreview = styled.div(
+  ({ theme: { border, color, fontFamily, space } }) => ({
+    padding: Utils.rem(space.large),
+    minHeight: Utils.rem(space.large),
+    fontFamily,
+    borderBottom: border,
+    borderColor: color.beerus[100],
+  })
+);
 
 export const Code = ({ codeString, ...props }: CodeProps) => {
   return (
