@@ -25,7 +25,7 @@ const Header = styled.div({
   marginBottom: rem(24),
 });
 
-const FilterDropdown: React.FC<FilterDropdownProps> = props => {
+const FilterDropdown: React.FC<FilterDropdownProps> = (props) => {
   const { searchPlaceholder, onSearchChange, children } = props;
   return (
     <FilterDropdownWrapper>

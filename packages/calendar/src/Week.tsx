@@ -38,7 +38,7 @@ const Week: React.FC<Props> = ({
     <WeekGrid>
       <WeekDayLabels config={conf} />
       {getWeekDays({ cursorDate, weekStartsOn: conf.weekStartsOn }).map(
-        date => (
+        (date) => (
           <WeekDay
             isWeekend={isWeekend(date)}
             key={date.toString()}

@@ -87,7 +87,7 @@ const LineChart: React.FC<Props> = ({
     setActiveOptions(
       isActive
         ? [...activeOptions, dataKey]
-        : activeOptions.filter(option => option !== dataKey)
+        : activeOptions.filter((option) => option !== dataKey)
     );
   };
 
@@ -124,7 +124,9 @@ const LineChart: React.FC<Props> = ({
                   axisLine={false}
                   interval={interval}
                   domain={['auto', 'auto']}
-                  tickFormatter={value => formatFn({ value, key: 'dateAxis' })}
+                  tickFormatter={(value) =>
+                    formatFn({ value, key: 'dateAxis' })
+                  }
                 />
                 <YAxis
                   yAxisId="left"
@@ -133,7 +135,9 @@ const LineChart: React.FC<Props> = ({
                   axisLine
                   stroke={bgColor}
                   width={axisWidth}
-                  tickFormatter={value => formatFn({ value, key: 'leftAxis' })}
+                  tickFormatter={(value) =>
+                    formatFn({ value, key: 'leftAxis' })
+                  }
                 />
                 <YAxis
                   yAxisId="right"
@@ -143,10 +147,12 @@ const LineChart: React.FC<Props> = ({
                   axisLine
                   stroke={bgColor}
                   width={axisWidth}
-                  tickFormatter={value => formatFn({ value, key: 'rightAxis' })}
+                  tickFormatter={(value) =>
+                    formatFn({ value, key: 'rightAxis' })
+                  }
                 />
 
-                {activeOptions.map(option => {
+                {activeOptions.map((option) => {
                   const activeOption = options.find(
                     ({ dataKey }) => dataKey === option
                   );

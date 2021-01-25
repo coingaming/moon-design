@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-const FormItem = styled.li({});
+const FormItem: any = styled.li({});
 
 export default FormItem;

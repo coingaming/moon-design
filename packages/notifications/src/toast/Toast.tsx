@@ -33,6 +33,6 @@ const Toast: React.FC<ToastProps> = ({
   );
 };
 
-export { ToastProps };
+export type { ToastProps };
 
 export default Toast;

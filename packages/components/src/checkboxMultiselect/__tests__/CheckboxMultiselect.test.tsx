@@ -93,7 +93,7 @@ describe('CheckboxMultiselect', () => {
     );
 
     const countItems = checkboxMultiselect.root.findAll(
-      el => el.props['test-id'] === 'select-count'
+      (el) => el.props['test-id'] === 'select-count'
     );
     expect(countItems).toBeDefined();
   });

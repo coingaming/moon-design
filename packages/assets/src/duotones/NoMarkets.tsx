@@ -128,7 +128,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const NoMarkets: React.FC<any> = props => {
+const NoMarkets: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

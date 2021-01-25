@@ -92,7 +92,7 @@ export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
                 {axisPosition === 'center' && <Center />}
                 <Bar isNegative={isNegative} axisPosition={axisPosition}>
                   <Transition nodeRef={lineRef} in appear timeout={0}>
-                    {state => (
+                    {(state) => (
                       <Line
                         ref={lineRef}
                         style={{

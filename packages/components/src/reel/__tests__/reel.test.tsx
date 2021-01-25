@@ -17,7 +17,7 @@ describe('Reel', () => {
     const reel = create(
       renderWithTheme(
         <Reel>
-          {items.map(item => (
+          {items.map((item) => (
             <div key={item}>Item {item}</div>
           ))}
         </Reel>
@@ -31,7 +31,7 @@ describe('Reel', () => {
     const reel = create(
       renderWithTheme(
         <Reel space={30}>
-          {items.map(item => (
+          {items.map((item) => (
             <div key={item}>Item {item}</div>
           ))}
         </Reel>
@@ -45,7 +45,7 @@ describe('Reel', () => {
     const reel = create(
       renderWithTheme(
         <Reel height="10vh">
-          {items.map(item => (
+          {items.map((item) => (
             <img key={item} alt={`Test ${item}`} src="" />
           ))}
         </Reel>
@@ -59,7 +59,7 @@ describe('Reel', () => {
     const reel = create(
       renderWithTheme(
         <Reel as="ul">
-          {items.map(item => (
+          {items.map((item) => (
             <li key={item}>Item {item}</li>
           ))}
         </Reel>

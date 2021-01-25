@@ -100,7 +100,7 @@ const Component = styled(Svg)(
   })
 );
 
-const ClaimedReward: React.FC<any> = props => {
+const ClaimedReward: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };

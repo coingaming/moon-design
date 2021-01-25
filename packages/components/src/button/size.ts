@@ -49,6 +49,7 @@ const buttonSize = (key: ButtonSizes) => (variant?: ButtonVariants) => {
   return themedStyles[key];
 };
 
-export { buttonSize, ButtonSizes };
+export type { ButtonSizes };
+export { buttonSize };
 
 export default { buttonSize };

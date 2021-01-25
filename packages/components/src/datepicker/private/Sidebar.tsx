@@ -56,7 +56,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
   return (
     <SidebarList>
-      {ranges.map(range => (
+      {ranges.map((range) => (
         <RangeItem
           key={range}
           isSelected={range === currentRange}

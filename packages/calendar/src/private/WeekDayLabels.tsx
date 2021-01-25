@@ -13,7 +13,7 @@ type Props = {
 
 export const WeekDayLabels: React.FC<Props> = ({ config }) => (
   <>
-    {getWeekDayLabels(config).map(weekDayName => (
+    {getWeekDayLabels(config).map((weekDayName) => (
       <WeekDayName key={weekDayName}>
         <Text size={12} color="trunks.100">
           {weekDayName}

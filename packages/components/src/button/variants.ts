@@ -95,6 +95,7 @@ export const buttonShadow = (color: string) => ({
   boxShadow: `0 0 ${space.default}px ${color}`,
 });
 
-export { buttonVariant, ButtonVariants };
+export type { ButtonVariants };
+export { buttonVariant };
 
 export default { buttonVariant };

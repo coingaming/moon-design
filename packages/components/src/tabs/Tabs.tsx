@@ -44,7 +44,7 @@ const Tabs: React.FC<TabsProps> = ({ id, items }) => {
   // We render everything except null or undefined items
   // tab != null filters both
   const nonEmptyTabs = Array.isArray(items)
-    ? items.filter(tab => tab != null)
+    ? items.filter((tab) => tab != null)
     : [];
 
   const { space } = useTheme();
