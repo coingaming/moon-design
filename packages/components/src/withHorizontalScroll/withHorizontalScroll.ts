@@ -75,7 +75,7 @@ const showHideIndicator = (
   firstVisibleIndex > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
 };
 
-export const withHorizontalScroll = (options: Options) => {
+export const withHorizontalScroll = (options: Options): any => {
   const [leftIndicator, setLeftIndicator] = React.useState(false);
   const [rightIndicator, setRightIndicator] = React.useState(false);
   const containerRef = React.useRef(null);

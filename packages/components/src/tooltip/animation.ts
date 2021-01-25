@@ -1,6 +1,6 @@
 import { keyframes } from 'styled-components';
 
-export const slideUpFade = keyframes`
+export const slideUpFade: any = keyframes`
   from {
     transform: translateY(0);
     opacity: 1;
