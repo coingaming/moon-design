@@ -303,9 +303,9 @@ const Table: React.FC<any> = ({
       style={{ width, height, maxWidth, maxHeight }}
     >
       <Header>
-        {headerGroups.map(headerGroup => (
+        {headerGroups.map((headerGroup) => (
           <HeaderTR {...headerGroup.getHeaderGroupProps()} variant={variant}>
-            {headerGroup.headers.map(column => (
+            {headerGroup.headers.map((column) => (
               <TH {...column.getHeaderProps()}>
                 {column.render('Header')}
                 <div
@@ -332,7 +332,7 @@ const Table: React.FC<any> = ({
       </Header>
 
       <Body {...getTableBodyProps()}>
-        {rows.map(row => {
+        {rows.map((row) => {
           prepareRow(row);
           return (
             <BodyTR
@@ -341,7 +341,7 @@ const Table: React.FC<any> = ({
               onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
               hasOnRowClickHandler={hasOnRowClickHandler}
             >
-              {row.cells.map(cell => {
+              {row.cells.map((cell) => {
                 return (
                   <TD {...cell.getCellProps()} variant={variant}>
                     {cell.render('Cell')}
@@ -355,9 +355,9 @@ const Table: React.FC<any> = ({
 
       {withFooter && (
         <Footer>
-          {footerGroups.map(footerGroup => (
+          {footerGroups.map((footerGroup) => (
             <HeaderTR {...footerGroup.getFooterGroupProps()} variant={variant}>
-              {footerGroup.headers.map(column => (
+              {footerGroup.headers.map((column) => (
                 <TH {...column.getFooterProps()}>
                   {column.render('Footer')}
 

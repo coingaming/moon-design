@@ -55,7 +55,7 @@
     "gatsby-plugin-offline": "3.2.28",
     "gatsby-plugin-react-helmet": "3.3.11",
     "gatsby-plugin-styled-components": "3.3.11",
-    "gatsby-plugin-typescript": "2.4.20",
+    "gatsby-plugin-typescript": "2.11.0",
     "gatsby-remark-autolink-headers": "2.3.13",
     "gatsby-source-filesystem": "2.3.30",
     "gatsby-transformer-json": "2.4.12",
@@ -67,6 +67,6 @@
     "react-helmet": "5.2.0",
     "react-live": "2.2.2",
     "react-spring": "8.0.27",
-    "styled-components": "4.4.1"
+    "styled-components": "5.2.1"
   }
 }

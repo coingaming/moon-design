@@ -97,7 +97,7 @@ const ReactPaginateWrapper = styled.div(({ theme }) => ({
   },
 }));
 
-const Pagination: React.FC<PaginationProps> = props => {
+const Pagination: React.FC<PaginationProps> = (props) => {
   const {
     onChange,
     previousButtonLabel,
