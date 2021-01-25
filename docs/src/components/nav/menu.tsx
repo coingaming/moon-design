@@ -127,13 +127,13 @@ export const Menu = ({ items }: MenuProps) => {
   const locationPathname =
     typeof window !== `undefined` ? window && window.location.pathname : null;
   const isCurrentLocation = (pages: [MenuItemProps]) => {
-    return pages && pages.some(item => item.route === locationPathname);
+    return pages && pages.some((item) => item.route === locationPathname);
   };
 
   return (
     <ThemeProvider theme={moonDesignDark}>
       <>
-        {items.map(item => (
+        {items.map((item) => (
           <SubMenu
             key={item.name}
             title={item.name}

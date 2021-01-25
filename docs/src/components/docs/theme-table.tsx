@@ -17,7 +17,7 @@ const Table = styled.table(({ theme: { color } }) => ({
   // of the first row.
   '> thead': {
     borderBottom: '1px solid',
-    borderColor: '#31373F',
+    borderColor: color.beerus[100],
     th: {
       paddingBottom: rem(4),
     },
@@ -55,7 +55,7 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
     </thead>
     <tbody>
       {options &&
-        options.map(option => (
+        options.map((option) => (
           <tr key={option.key}>
             <td>{option.property.toString()}</td>
             {/* eslint-disable-next-line no-nested-ternary */}
@@ -63,7 +63,7 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
               <td colSpan={2}>
                 <Table>
                   <tbody>
-                    {Object.keys(option.value).map(variant => (
+                    {Object.keys(option.value).map((variant) => (
                       <tr key={variant}>
                         <th>
                           {option.key}.{variant}
@@ -109,7 +109,7 @@ export const ThemeTable: React.FC<{ property: string | [] }> = ({
   }
 
   if (Array.isArray(property)) {
-    const options = property.map(option => ({
+    const options = property.map((option) => ({
       property: option,
       key: option,
       value: theme[option],
@@ -122,7 +122,7 @@ export const ThemeTable: React.FC<{ property: string | [] }> = ({
       <ThemePropsTable
         // @TODO Create Index Signature for Themes
         // @ts-ignore
-        options={Object.keys(theme[property]).map(option => ({
+        options={Object.keys(theme[property]).map((option) => ({
           property: option,
           key: `${property}.${option}`,
           // @TODO Create Index Signature for Themes

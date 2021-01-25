@@ -89,7 +89,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const TiersAndRewards: React.FC<any> = props => {
+const TiersAndRewards: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };
