@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import padding from 'polished/lib/shorthands/padding';
-import { inlineSvg, InlineSVGProps, rem } from '@heathmont/moon-utils';
+import { inlineSvg, rem } from '@heathmont/moon-utils';
 
 import { cardGradientSizes } from './utils';
 
-type CardBackgroundIcon = InlineSVGProps | false | undefined;
+// type CardBackgroundIcon = InlineSVGProps | false | undefined;
 
-const backgroundSvg = (backgroundIcon: CardBackgroundIcon) =>
+const backgroundSvg = (backgroundIcon: any) =>
   backgroundIcon &&
   React.isValidElement(backgroundIcon) && {
     /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -24,7 +24,7 @@ const backgroundSvg = (backgroundIcon: CardBackgroundIcon) =>
   };
 
 export type CardProps = {
-  backgroundIcon?: CardBackgroundIcon;
+  backgroundIcon?: any;
   template: 'front' | 'outline';
   flex?: boolean;
   active?: boolean;
