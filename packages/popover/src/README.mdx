@@ -1,7 +1,7 @@
 ---
 name: Popover
-menu: Popover
-route: /popover/popover
+menu: Toolkit
+route: /toolkit/popover
 ---
 
 # Popover
@@ -33,7 +33,7 @@ type Placement = 'top'
 <Inline>
   <Popover
     isOpen={false}
-    onVisibilityChange={status => console.log('status: ', status)}
+    onVisibilityChange={(status) => console.log('status: ', status)}
     content={
       <div>
         <Heading size={20} style={{ marginBottom: 20 }}>
