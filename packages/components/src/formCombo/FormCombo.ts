@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const FormCombo = styled.div({
+const FormCombo: any = styled.div({
   display: 'block',
   position: 'relative',
 });

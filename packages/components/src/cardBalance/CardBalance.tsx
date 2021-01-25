@@ -66,6 +66,6 @@ const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) =>
     <Balance from={from} />
   );
 
-export { CardBalanceProps };
+export type { CardBalanceProps };
 
 export default CardBalance;

@@ -43,6 +43,6 @@ const Form: React.FC<FormProps> = ({
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.
  */
-export { FormProps };
+export type { FormProps };
 
 export default Form;

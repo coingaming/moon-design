@@ -81,7 +81,7 @@ export const Selector: React.FC<Props> = ({
   return (
     <Container>
       <List>
-        {options.map(option => {
+        {options.map((option) => {
           const isActive = activeOptions.includes(option.dataKey);
           const value = formatFn({ value: option.value, key: option.dataKey });
 

@@ -80,6 +80,6 @@ const FileInput: React.FC<FileInputProps> = ({
   </React.Fragment>
 );
 
-export { FileInputProps };
+export type { FileInputProps };
 
 export default FileInput;

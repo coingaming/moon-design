@@ -3,7 +3,8 @@ import { themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
 
 import getFontSize from '../private/text/getFontSize';
-import { Size } from '../private/text/Size';
+
+export type Size = 10 | 12 | 14 | 16 | 18 | 20 | 24 | 32 | 48 | 56 | 64 | 72;
 
 type Props = {
   size?: Size;

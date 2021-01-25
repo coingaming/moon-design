@@ -19,7 +19,7 @@ type PathProps = {
 const getPathDescription = (
   pathRadius: number,
   center: Coordinate = { x: VIEWBOX_CENTER_X, y: VIEWBOX_CENTER_Y }
-) => {
+): string => {
   return `
       M ${center.x},${center.y}
       m 0,-${pathRadius}

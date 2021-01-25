@@ -61,7 +61,7 @@ type LoaderProps = {
 
 const Loader: React.FC<LoaderProps> = ({ color }) => (
   <LoaderContainer role="progressbar">
-    {['-0.45s', '-0.3s', '-0.15s', '0s'].map(delay => (
+    {['-0.45s', '-0.3s', '-0.15s', '0s'].map((delay) => (
       <LoaderRing
         key={`loader-${delay}`}
         color={color}
