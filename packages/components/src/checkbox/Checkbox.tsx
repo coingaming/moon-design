@@ -140,6 +140,6 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
   );
 });
 
-export { CheckboxProps };
+export type { CheckboxProps };
 
 export default Checkbox;
