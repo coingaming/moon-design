@@ -44,6 +44,6 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>((props, ref) => {
   );
 });
 
-export { SelectProps };
+export type { SelectProps };
 
 export default Select;

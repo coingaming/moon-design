@@ -11,13 +11,11 @@ import isValid from 'date-fns/isValid';
 import { getMonthDays } from './private/helpers/getMonthDays';
 import { Picker } from './private/Picker';
 import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
-import {
-  getDatesFromRange,
-  DatesRange,
-} from './private/helpers/getDatesFromRange';
+import { getDatesFromRange } from './private/helpers/getDatesFromRange';
+import type { DatesRange } from './private/helpers/getDatesFromRange';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
 
-type DatepickerState = {
+export type DatepickerState = {
   startDate?: Date;
   endDate?: Date;
   range?: DatesRange;

@@ -27,9 +27,7 @@ const PaletteText = styled.span({
 });
 
 const ColorPalette: React.FC<any> = ({ colors }) => {
-  const reversedSubColors = Object.entries(colors)
-    .slice()
-    .reverse();
+  const reversedSubColors = Object.entries(colors).slice().reverse();
 
   return (
     <Inline as="ul">

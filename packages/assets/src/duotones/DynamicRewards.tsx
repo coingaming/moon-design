@@ -85,7 +85,7 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const DynamicRewards: React.FC<any> = props => {
+const DynamicRewards: React.FC<any> = (props) => {
   const theme = useTheme();
   return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
 };
