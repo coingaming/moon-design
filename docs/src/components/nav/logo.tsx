@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
 import {
   IconChevronDown,
@@ -17,7 +17,7 @@ import {
   LogoCommsFull,
 } from '@heathmont/moon-assets';
 import { mq } from '@heathmont/moon-utils';
-import { moonDesignDark, useTheme } from '@heathmont/moon-themes';
+import { useTheme } from '@heathmont/moon-themes';
 
 import { useDocsTheme } from '../../provider';
 
@@ -69,54 +69,48 @@ export const Logo = () => {
   const { brand } = useTheme();
 
   return (
-    <ThemeProvider theme={moonDesignDark}>
-      <LogoContainer>
-        {brand === 'MoonDesign' && (
-          <LogoMoonDesign height="auto" width={rem(90)} />
-        )}
-        {brand === 'Sportsbet.io' && (
-          <LogoSportsbetFull height="100%" width="auto" />
-        )}
-        {brand === 'Bitcasino.io' && (
-          <LogoBitcasinoFull height="100%" width="auto" />
-        )}
-        {brand === 'Slots.io' && <LogoSlotsFull width="100%" height="auto" />}
-        {brand === 'LuckySlots' && (
-          <LogoLuckyslotsFull width="100%" height="auto" />
-        )}
-        {brand === 'Livecasino.io' && (
-          <LogoLivecasinoFull width="100%" height="auto" />
-        )}
-        {brand === 'BombayClub' && (
-          <LogoBombayFull width="100%" height="auto" />
-        )}
-        {brand === 'Hub88' && <LogoHub88Full width="100%" height="auto" />}
-        {brand === 'Aposta10' && (
-          <LogoAposta10Full width="100%" height="auto" />
-        )}
-        {brand === 'MissionsTool' && <LogoMissions fontSize="2rem" />}
-        {brand === 'Moneyball' && <LogoMoneyball />}
-        {brand === 'Comms' && <LogoCommsFull />}
-        {brand === 'ShangriLa.io' && 'ShangriLa.io'}
+    <LogoContainer>
+      {brand === 'MoonDesign' && (
+        <LogoMoonDesign height="auto" width={rem(90)} />
+      )}
+      {brand === 'Sportsbet.io' && (
+        <LogoSportsbetFull height="100%" width="auto" />
+      )}
+      {brand === 'Bitcasino.io' && (
+        <LogoBitcasinoFull height="100%" width="auto" />
+      )}
+      {brand === 'Slots.io' && <LogoSlotsFull width="100%" height="auto" />}
+      {brand === 'LuckySlots' && (
+        <LogoLuckyslotsFull width="100%" height="auto" />
+      )}
+      {brand === 'Livecasino.io' && (
+        <LogoLivecasinoFull width="100%" height="auto" />
+      )}
+      {brand === 'BombayClub' && <LogoBombayFull width="100%" height="auto" />}
+      {brand === 'Hub88' && <LogoHub88Full width="100%" height="auto" />}
+      {brand === 'Aposta10' && <LogoAposta10Full width="100%" height="auto" />}
+      {brand === 'MissionsTool' && <LogoMissions fontSize="2rem" />}
+      {brand === 'Moneyball' && <LogoMoneyball />}
+      {brand === 'Comms' && <LogoCommsFull />}
+      {brand === 'ShangriLa.io' && 'ShangriLa.io'}
 
-        <IconChevronDown aria-hidden="true" />
+      <IconChevronDown aria-hidden="true" />
 
-        <BrandSelect onChange={(e) => setBrand(e.target.value)}>
-          <option value="moondesign">Moon Design</option>
-          <option value="sportsbet">Sportsbet.io</option>
-          <option value="bitcasino">Bitcasino.io</option>
-          <option value="slots">Slots.io</option>
-          <option value="luckyslots">LuckySlots</option>
-          <option value="livecasino">Livecasino</option>
-          <option value="bombay">Bombay Club</option>
-          <option value="hub88">Hub88</option>
-          <option value="aposta10">Aposta10</option>
-          <option value="missionsTool">MissionsTool</option>
-          <option value="moneyball">Moneyball</option>
-          <option value="comms">Comms</option>
-          <option value="shangrila">Shangri La</option>
-        </BrandSelect>
-      </LogoContainer>
-    </ThemeProvider>
+      <BrandSelect onChange={(e) => setBrand(e.target.value)}>
+        <option value="moondesign">Moon Design</option>
+        <option value="sportsbet">Sportsbet.io</option>
+        <option value="bitcasino">Bitcasino.io</option>
+        <option value="slots">Slots.io</option>
+        <option value="luckyslots">LuckySlots</option>
+        <option value="livecasino">Livecasino</option>
+        <option value="bombay">Bombay Club</option>
+        <option value="hub88">Hub88</option>
+        <option value="aposta10">Aposta10</option>
+        <option value="missionsTool">MissionsTool</option>
+        <option value="moneyball">Moneyball</option>
+        <option value="comms">Comms</option>
+        <option value="shangrila">Shangri La</option>
+      </BrandSelect>
+    </LogoContainer>
   );
 };

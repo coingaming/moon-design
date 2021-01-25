@@ -8,38 +8,38 @@ const boxShadow =
 
 const color = {
   piccolo: {
-    120: 'hsl(236, 48%, 6%)',
-    100: '#080917', // hsl(236, 48%, 6%)
-    80: 'hsl(236, 48%, 16%)',
+    120: '#E5E5E5',
+    100: '#FFFFFF',
+    80: '#E5E5E5',
   },
   hit: {
-    120: '#353C44',
-    100: '#4C5159',
-    80: '#62676D',
+    120: '#292929',
+    100: '#0B0B0B',
+    80: '#292929',
   },
   beerus: {
-    100: '#31373F',
+    100: '#1F1F1F',
   },
   goku: {
-    100: '#f0f0f0',
-    80: '#353C44',
-    40: '#4C5159',
-    10: '#62676D',
+    100: '#000000',
+    80: '#000000',
+    40: '#000000',
+    10: '#000000',
   },
   gohan: {
-    100: '#080917',
-    80: '#31373F',
-    40: '#5F646A',
-    10: '#8C9095',
+    100: '#0B0B0B',
+    80: '#0B0B0B',
+    40: '#0B0B0B',
+    10: '#0B0B0B',
   },
   goten: {
-    100: '#fff',
+    100: '#000000',
   },
   bulma: {
-    100: '#fff',
+    100: '#FFFFFF',
   },
   trunks: {
-    100: '#8697A2',
+    100: '#999CA0',
   },
 };
 
@@ -54,7 +54,7 @@ const moonDesignDark: Theme = {
   fontWeight: avertaStd.fontWeight,
   boxShadow,
   color: {
-    text: color.gohan[100],
+    text: color.bulma[100],
     background: color.goku[100],
     ...supportColors,
     ...color,
