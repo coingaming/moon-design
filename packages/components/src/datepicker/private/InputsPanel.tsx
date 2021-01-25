@@ -91,7 +91,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         error={hasStartDateError}
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
         value={inputStartDate}
-        onChange={e => {
+        onChange={(e) => {
           e.preventDefault();
           setInputStartDate(e.target.value);
           const newStartDate = new Date(e.target.value);
@@ -116,7 +116,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         error={hasEndDateError}
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
         value={inputEndDate}
-        onChange={e => {
+        onChange={(e) => {
           e.preventDefault();
           setInputEndDate(e.target.value);
           const newEndDate = new Date(e.target.value);

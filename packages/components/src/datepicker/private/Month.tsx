@@ -98,7 +98,7 @@ export const Month: React.FC<MonthProps> = ({
           // eslint-disable-next-line react/no-array-index-key
           <DayName key={`${dayLabel}-${weekIndex}`}>{dayLabel}</DayName>
         ))}
-        {monthDays.map(day => (
+        {monthDays.map((day) => (
           <Day
             key={day.getTime()}
             onDayClick={onDayClick}

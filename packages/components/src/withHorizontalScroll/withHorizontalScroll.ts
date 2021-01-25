@@ -13,14 +13,14 @@ const findLastVisibleIndex = (childRefs: any[]): any => {
     // "reverse" mutates existing array, that's why we copy it via "slice"
     .slice()
     .reverse()
-    .findIndex(child => child.getAttribute('visible'));
+    .findIndex((child) => child.getAttribute('visible'));
   const count = childRefs.length - 1;
   const finalIndex = reversedIndex >= 0 ? count - reversedIndex : reversedIndex;
   return finalIndex;
 };
 
 const findFirstVisibleIndex = (childRefs: any[]): any => {
-  return childRefs.findIndex(child => child.getAttribute('visible'));
+  return childRefs.findIndex((child) => child.getAttribute('visible'));
 };
 
 const scrollToIndex = (itemRef: HTMLElement, scrollIntoViewSmoothly: any) => {
@@ -100,7 +100,7 @@ export const withHorizontalScroll = (options: Options): any => {
       }
     );
 
-    itemRefs.forEach(item => {
+    itemRefs.forEach((item) => {
       observer.observe(item);
     });
   }, []);

@@ -60,7 +60,7 @@ const NumberRange: React.FC<Props> = ({
           label={gteLabel}
           value={String(value.gte)}
           disabled={gteDisabled}
-          onChange={e =>
+          onChange={(e) =>
             onChange({
               gte: Number(e.target.value),
               lte: value.lte,
@@ -73,7 +73,7 @@ const NumberRange: React.FC<Props> = ({
           label={lteLabel}
           value={String(value.lte)}
           disabled={lteDisabled}
-          onChange={e =>
+          onChange={(e) =>
             onChange({
               lte: Number(e.target.value),
               gte: value.gte,

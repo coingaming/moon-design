@@ -35,7 +35,7 @@ const Switch = styled.button<{ open: boolean }>(({ open, theme }) => ({
   justifyContent: 'center',
 }));
 
-const Toggle: React.FC<ToggleProps> = props => {
+const Toggle: React.FC<ToggleProps> = (props) => {
   const { header, children } = props;
   const [open, setOpen] = useState(false);
 

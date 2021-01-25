@@ -101,7 +101,7 @@ export const Logo = () => {
 
         <IconChevronDown aria-hidden="true" />
 
-        <BrandSelect onChange={e => setBrand(e.target.value)}>
+        <BrandSelect onChange={(e) => setBrand(e.target.value)}>
           <option value="moondesign">Moon Design</option>
           <option value="sportsbet">Sportsbet.io</option>
           <option value="bitcasino">Bitcasino.io</option>
