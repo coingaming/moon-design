@@ -3,38 +3,40 @@ import styled from 'styled-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 
-const Table = styled.table(({ theme: { color } }) => ({
-  width: '100%',
-  tableLayout: 'fixed',
-  maxWidth: '40rem',
-  textAlign: 'left',
-  td: {
-    wordBreak: 'break-word',
-    padding: `${rem(2)} 0`,
-    verticalAlign: 'top',
-  },
-  // Create header spacing by adding padding to bottom of table header and top
-  // of the first row.
-  '> thead': {
-    borderBottom: '1px solid',
-    borderColor: color.beerus[100],
-    th: {
-      paddingBottom: rem(4),
+const Table: any = styled.table(
+  ({ theme: { border, color, fontWeight, space } }) => ({
+    width: '100%',
+    tableLayout: 'fixed',
+    maxWidth: '40rem',
+    textAlign: 'left',
+    td: {
+      wordBreak: 'break-word',
+      padding: `${rem(space.xsmall)} 0`,
+      verticalAlign: 'top',
     },
-  },
-  'tr:first-child td': {
-    paddingTop: rem(4),
-  },
-  // For nested Tables, prevent double padding and remove default th styles.
-  '& &': {
-    'tr:first-child > td, tr:last-child > td': {
-      padding: 0,
+    // Create header spacing by adding padding to bottom of table header and top
+    // of the first row.
+    '> thead': {
+      borderBottom: border,
+      borderColor: color.beerus[100],
+      th: {
+        paddingBottom: rem(space.small),
+      },
     },
-    th: {
-      fontWeight: 400,
+    'tr:first-child td': {
+      paddingTop: rem(space.small),
     },
-  },
-}));
+    // For nested Tables, prevent double padding and remove default th styles.
+    '& &': {
+      'tr:first-child > td, tr:last-child > td': {
+        padding: 0,
+      },
+      th: {
+        fontWeight: fontWeight.normal,
+      },
+    },
+  })
+);
 
 type ThemePropsTableProps = {
   options: {
