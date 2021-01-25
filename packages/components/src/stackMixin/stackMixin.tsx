@@ -1,10 +1,10 @@
-import { CSSObject } from 'styled-components';
+import type { CSSObject } from 'styled-components';
 
 import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 
 type StackSpace = CSSObject['marginTop'] | CSSObject['gridGap'];
 
-const stackMixin = (space: StackSpace) => ({
+const stackMixin = (space: StackSpace): CSSObject => ({
   /**
    * If a browser supports the `grid-gap` property, let's use it.
    * Otherwise, fallback to the lobotomized owl selector to style children.

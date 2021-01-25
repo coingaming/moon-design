@@ -36,9 +36,7 @@ export { default as control } from './carousel/control';
 export * from './carousel/control';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
-export {
-  default as CheckboxMultiselect,
-} from './checkboxMultiselect/CheckboxMultiselect';
+export { default as CheckboxMultiselect } from './checkboxMultiselect/CheckboxMultiselect';
 export * from './checkboxMultiselect/CheckboxMultiselect';
 export { default as DateRangePicker } from './datepicker/DateRangePicker';
 export * from './datepicker/DateRangePicker';
@@ -88,9 +86,7 @@ export { default as listInline } from './listInline/listInline';
 export * from './listInline/listInline';
 export { default as listInlineItem } from './listInlineItem/listInlineItem';
 export * from './listInlineItem/listInlineItem';
-export {
-  default as listItemStyleTypeNone,
-} from './listItemStyleTypeNone/listItemStyleTypeNone';
+export { default as listItemStyleTypeNone } from './listItemStyleTypeNone/listItemStyleTypeNone';
 export * from './listItemStyleTypeNone/listItemStyleTypeNone';
 export { default as listPlain } from './listPlain/listPlain';
 export * from './listPlain/listPlain';
@@ -104,9 +100,7 @@ export { default as NumberRange } from './numberRange/NumberRange';
 export * from './numberRange/NumberRange';
 export { default as Path } from './progressCircular/Path';
 export * from './progressCircular/Path';
-export {
-  default as ProgressCircular,
-} from './progressCircular/ProgressCircular';
+export { default as ProgressCircular } from './progressCircular/ProgressCircular';
 export * from './progressCircular/ProgressCircular';
 export { default as ProgressLinear } from './progressLinear/ProgressLinear';
 export * from './progressLinear/ProgressLinear';
@@ -116,9 +110,7 @@ export { default as Search } from './search/Search';
 export * from './search/Search';
 export { default as Select } from './select/Select';
 export * from './select/Select';
-export {
-  default as SingleItemSelect,
-} from './singleItemSelect/SingleItemSelect';
+export { default as SingleItemSelect } from './singleItemSelect/SingleItemSelect';
 export * from './singleItemSelect/SingleItemSelect';
 export { default as Snackbar } from './snackbar/Snackbar';
 export * from './snackbar/Snackbar';
@@ -152,7 +144,5 @@ export { default as animation } from './tooltip/animation';
 export * from './tooltip/animation';
 export { default as useSnackbar } from './useSnackbar/useSnackbar';
 export * from './useSnackbar/useSnackbar';
-export {
-  default as withHorizontalScroll,
-} from './withHorizontalScroll/withHorizontalScroll';
+export { default as withHorizontalScroll } from './withHorizontalScroll/withHorizontalScroll';
 export * from './withHorizontalScroll/withHorizontalScroll';

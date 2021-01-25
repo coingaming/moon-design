@@ -36,6 +36,6 @@ const Link = styled.a<LinkProps>(
   ]
 );
 
-export { LinkProps };
+export type { LinkProps };
 
 export default Link;

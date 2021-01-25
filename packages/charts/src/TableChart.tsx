@@ -83,7 +83,7 @@ const TableChart: React.FC<Props> = ({
               {data.map((item, index) => (
                 // eslint-disable-next-line
                 <Transition nodeRef={firstCellRef} key={index} in={true} appear timeout={100 * index}>
-                  {state => (
+                  {(state) => (
                     <>
                       <Cell
                         ref={firstCellRef}
