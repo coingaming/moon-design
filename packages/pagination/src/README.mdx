@@ -1,7 +1,7 @@
 ---
 name: Pagination
-menu: Components
-route: /Pagination/pagination
+menu: Toolkit
+route: /toolkit/pagination
 ---
 
 # Pagination
@@ -35,7 +35,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={10}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
 />
 ```
 
@@ -49,7 +49,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={10}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
   pageSizeSection={
     <Text size={12} as="strong">
       Showing 1 – 10{' '}
@@ -71,12 +71,12 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={10}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
   goToPageSection={
     <GoToPage
       minPage={1}
       maxPage={20}
-      onChange={value => console.log('GoToPage: ', value)}
+      onChange={(value) => console.log('GoToPage: ', value)}
     >
       Go to page
     </GoToPage>
@@ -94,11 +94,11 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={10}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
   changePageSizeSection={
     <ChangePageSize
       pageSize={20}
-      onChange={value => console.log('Change page size: ', value)}
+      onChange={(value) => console.log('Change page size: ', value)}
       options={[
         { label: '10', value: 10 },
         { label: '20', value: 20 },
@@ -122,7 +122,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={10}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
   pageSizeSection={
     <Text size={12} as="strong">
       Showing 1 – 10{' '}
@@ -135,7 +135,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
     <GoToPage
       minPage={1}
       maxPage={20}
-      onChange={value => console.log('GoToPage: ', value)}
+      onChange={(value) => console.log('GoToPage: ', value)}
     >
       Go to page
     </GoToPage>
@@ -143,7 +143,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   changePageSizeSection={
     <ChangePageSize
       pageSize={20}
-      onChange={value => console.log('Change page size: ', value)}
+      onChange={(value) => console.log('Change page size: ', value)}
       options={[
         { label: '10', value: 10 },
         { label: '20', value: 20 },
@@ -167,7 +167,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={10}
   previousButtonLabel={<IconChevronLeft />}
   nextButtonLabel={<IconChevronRight />}
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
 />
 ```
 
@@ -181,7 +181,7 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={1}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
 />
 ```
 
@@ -195,6 +195,6 @@ Pagination component based on [react-paginate](https://github.com/AdeleD/react-p
   pageNumber={20}
   previousButtonLabel="Previous"
   nextButtonLabel="Next"
-  onChange={value => console.log('pageNumber: ', value)}
+  onChange={(value) => console.log('pageNumber: ', value)}
 />
 ```
