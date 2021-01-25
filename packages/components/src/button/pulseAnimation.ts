@@ -1,6 +1,6 @@
 import { css, keyframes } from 'styled-components';
 
-const pulse = keyframes`
+const pulse: any = keyframes`
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
@@ -20,7 +20,7 @@ const pulse = keyframes`
   }
 `;
 
-export const pulseAnimation = css`
+export const pulseAnimation: any = css`
   animation: ${pulse} 1.5s infinite;
 `;
 

@@ -1,6 +1,6 @@
 import { CSSObject } from 'styled-components';
 
-import { ColorShared, ColorValue } from '../supportColors/supportColors';
+import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
  * Shared Theme Base
@@ -12,10 +12,10 @@ import { ColorShared, ColorValue } from '../supportColors/supportColors';
  * palettes here.
  */
 
-type OmitBrand = Omit<Theme, 'brand'>;
-type OmitColorScheme = Omit<OmitBrand, 'colorScheme'>;
+// type OmitBrand = Omit<Theme, 'brand'>;
+// type OmitColorScheme = Omit<OmitBrand, 'colorScheme'>;
 
-type Shared = Omit<OmitColorScheme, 'color'>;
+// type Shared = Omit<OmitColorScheme, 'color'>;
 
 const borderStyle = 'solid';
 const borderWidth = 1;
@@ -322,16 +322,13 @@ export type Brand =
 
 export type ColorScheme = 'light' | 'dark';
 
-export type Theme = {
-  brand: Brand;
-  colorScheme: ColorScheme;
+export type SharedTheme = {
   base: Base;
   border: Border;
   borderWidth: BorderWidth;
   borderStyle: BorderStyle;
   boxShadow: BoxShadow;
   breakpoint: Breakpoint;
-  color: Color;
   fontFace?: FontFace;
   fontFamily: FontFamily;
   fontSize: FontSize;
@@ -345,7 +342,13 @@ export type Theme = {
   zIndex: ZIndex;
 };
 
-const sharedTokens: Shared = {
+export type Theme = SharedTheme & {
+  brand: Brand;
+  colorScheme: ColorScheme;
+  color: Color;
+};
+
+const sharedTokens: SharedTheme = {
   base: {
     space,
     fontSize: 16,

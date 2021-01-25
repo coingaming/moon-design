@@ -99,6 +99,6 @@ const Banner: React.FC<BannerProps> = ({
   );
 };
 
-export { BannerProps };
+export type { BannerProps };
 
 export default Banner;

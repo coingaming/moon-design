@@ -22,6 +22,6 @@ const Toggle = styled.button<ToggleProps>(
   ]
 );
 
-export { ToggleProps };
+export type { ToggleProps };
 
 export default Toggle;
