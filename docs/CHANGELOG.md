@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.71.0](https://github.com/coingaming/sportsbet-design/compare/v2.70.0...v2.71.0) (2021-01-25)
+
+
+### Features
+
+* nav structure ([9c5fd37](https://github.com/coingaming/sportsbet-design/commit/9c5fd37e32979d7839eb110adce9663946013a57))
+
+
+
+
+
 # [2.70.0](https://github.com/coingaming/sportsbet-design/compare/v2.69.0...v2.70.0) (2021-01-25)
 
 
