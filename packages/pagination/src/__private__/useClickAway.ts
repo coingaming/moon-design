@@ -20,10 +20,10 @@ const useClickAway = <E extends Event = Event>(
       const { current: el } = ref;
       el && !el.contains(event.target) && savedCallback.current(event);
     };
-    events.forEach(eventName => on(document, eventName, handler));
+    events.forEach((eventName) => on(document, eventName, handler));
 
     return () => {
-      events.forEach(eventName => off(document, eventName, handler));
+      events.forEach((eventName) => off(document, eventName, handler));
     };
   }, [events, ref]);
 };

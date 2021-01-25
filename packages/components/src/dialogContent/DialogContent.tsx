@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
 import { DialogContent as ReachDialogContent } from '@reach/dialog';
 
-interface DialogMaxWidth {
+export interface DialogMaxWidth {
   maxWidth?: string;
 }
 
-interface DialogPosition {
+export interface DialogPosition {
   position?: 'TOP' | 'CENTER';
 }
 

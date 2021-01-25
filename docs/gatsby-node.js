@@ -50,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         // Boilerplate to handle errors
         if (result.errors) {
           /* eslint-disable-next-line no-console */

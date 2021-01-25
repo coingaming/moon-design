@@ -4,6 +4,8 @@
     "composite": true,
     "declaration": true,
     "declarationMap": true,
+    "isolatedModules": true,
+    "emitDeclarationOnly": true,
     "sourceMap": true,
     "esModuleInterop": true,
     "target": "es5",

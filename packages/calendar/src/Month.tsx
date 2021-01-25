@@ -39,7 +39,7 @@ const Month: React.FC<Props> = ({
     <MonthGrid>
       <WeekDayLabels config={conf} />
       {getMonthDays({ date: cursorDate, weekStartsOn: conf.weekStartsOn }).map(
-        date => (
+        (date) => (
           <Day key={date.toString()} {...renderDayProps(date)}>
             <DayInner isWeekend={isWeekend(date)}>
               <DayNumber>

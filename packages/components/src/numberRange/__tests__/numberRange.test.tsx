@@ -19,7 +19,7 @@ describe('Number Range', () => {
           lteLabel="Max"
           gteLabel="Min"
           value={{ gte: 16, lte: 20 }}
-          onChange={value => console.log(value)}
+          onChange={(value) => console.log(value)}
           lteDisabled={false}
           lteError={false}
           gteDisabled={false}

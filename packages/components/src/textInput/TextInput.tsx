@@ -84,6 +84,6 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
   );
 });
 
-export { TextInputProps };
+export type { TextInputProps };
 
 export default TextInput;
