@@ -1196,6 +1196,8 @@ export { default as LogoSlotsShort } from './logos/LogoSlotsShort';
 export * from './logos/LogoSlotsShort';
 export { default as LogoSportsbet } from './logos/LogoSportsbet';
 export * from './logos/LogoSportsbet';
+export { default as LogoSportsbetCanada } from './logos/LogoSportsbetCanada';
+export * from './logos/LogoSportsbetCanada';
 export { default as LogoSportsbetFull } from './logos/LogoSportsbetFull';
 export * from './logos/LogoSportsbetFull';
 export { default as LogoSportsbetShort } from './logos/LogoSportsbetShort';
