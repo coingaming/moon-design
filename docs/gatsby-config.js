@@ -64,5 +64,6 @@ module.exports = {
     // },
     `gatsby-plugin-typescript`,
     'gatsby-plugin-offline',
+    'gatsby-plugin-postcss',
   ],
 };
