@@ -40,6 +40,8 @@ export { default as LogoMoonDesign } from './LogoMoonDesign';
 export * from './LogoMoonDesign';
 export { default as LogoPoweredByHub88 } from './LogoPoweredByHub88';
 export * from './LogoPoweredByHub88';
+export { default as LogoSbIo } from './LogoSbIo';
+export * from './LogoSbIo';
 export { default as LogoSlotsFull } from './LogoSlotsFull';
 export * from './LogoSlotsFull';
 export { default as LogoSlotsShort } from './LogoSlotsShort';
