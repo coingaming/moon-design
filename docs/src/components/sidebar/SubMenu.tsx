@@ -8,7 +8,9 @@ const SubMenuItem = ({ title, route }) => {
   return (
     <a
       href={route}
-      className={`${isCurrent ? "bg-gray-100 text-gray-900" : ""} group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50`}
+      className={`${
+        isCurrent ? 'bg-gray-100 text-piccolo' : ''
+      } group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-piccolo rounded-md hover:text-gray-900 hover:bg-gray-50`}
     >
       {title}
     </a>
@@ -22,12 +24,13 @@ export const SubMenu = ({ title, items, isActive }) => {
   return (
     <div className="space-y-1">
       <button
+        type="button"
         onClick={toggleExpand}
         className={`group w-full flex items-center pl-2 pr-1 py-2 text-sm font-medium rounded-md ${
           isActive
-            ? 'bg-gray-100 text-gray-900'
-            : 'bg-white text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-        } focus:outline-none focus:ring-2 focus:ring-indigo-500`}
+            ? 'bg-gray-100 text-piccolo'
+            : 'bg-white text-piccolo hover:text-piccolo hover:bg-gray-50'
+        } focus:outline-none`}
       >
         {/* Heroicon name: users */}
         <svg
@@ -39,17 +42,17 @@ export const SubMenu = ({ title, items, isActive }) => {
           aria-hidden="true"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
           />
         </svg>
         {title}
         <svg
           className={`${
-            isExpanded ? 'text-gray-400 rotate-90' : 'text-gray-300'
-          } ml-auto h-5 w-5 transform group-hover:text-gray-400 transition-colors ease-in-out duration-150`}
+            isExpanded ? 'text-piccolo rotate-90' : 'text-gray-300'
+          } ml-auto h-5 w-5 transform group-hover:text-piccolo transition-colors ease-in-out duration-150`}
           viewBox="0 0 20 20"
           aria-hidden="true"
         >

@@ -41,33 +41,28 @@ const MarkdownStack = styled(Stack as any)({
  */
 export const mdxComponents = {
   wrapper: (props: any) => <MarkdownStack {...props} />,
-  // h1: ({ children }: Children) => (
-  //   <Heading size="alpha" as="h1">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h2: ({ children }: Children) => (
-  //   <Heading size="bravo" as="h2">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h3: ({ children }: Children) => (
-  //   <Heading size="charlie" as="h3">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h4: ({ children }: Children) => (
-  //   <Heading size="delta" as="h4">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h5: ({ children }: Children) => (
-  //   <Heading size="echo" as="h5">
-  //     {children}
-  //   </Heading>
-  // ),
-  p: ({ children }: Children) => <p style={maxWidth}>{children}</p>,
-  a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
+  h1: ({ children }: Children) => (
+    <h1 className="text-bulma text-4xl">{children}</h1>
+  ),
+  h2: ({ children }: Children) => (
+    <h2 className="text-bulma text-3xl">{children}</h2>
+  ),
+  h3: ({ children }: Children) => (
+    <h3 className="text-bulma text-2xl">{children}</h3>
+  ),
+  h4: ({ children }: Children) => (
+    <h4 className="text-bulma text-xl">{children}</h4>
+  ),
+  h5: ({ children }: Children) => (
+    <h5 className="text-bulma text-lg">{children}</h5>
+  ),
+  p: ({ children }: Children) => <p className="text-bulma mb-16">{children}</p>,
+  a: ({ children, ...props }: Children) => (
+    <a {...props} className="text-bulma">
+      {children}
+    </a>
+  ),
+  li: ({ children }: Children) => <li className="bg-pink text-bulma">{children}</li>,
   table: ({ children }: Children) => <Table>{children}</Table>,
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
