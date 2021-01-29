@@ -62,7 +62,9 @@ export const mdxComponents = {
       {children}
     </a>
   ),
-  li: ({ children }: Children) => <li className="bg-pink text-bulma">{children}</li>,
+  li: ({ children }: Children) => (
+    <li className="bg-pink text-bulma">{children}</li>
+  ),
   table: ({ children }: Children) => <Table>{children}</Table>,
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
