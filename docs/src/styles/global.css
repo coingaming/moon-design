@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Averta Std';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+  /* src: url('/fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+    url('/fonts/OpenSans-Regular-webfont.woff') format('woff'); */
+  src: local('AvertaStd-Regular'), local('Averta Std Regular'),
+    url('https://sportsbet.io/sportsbet-io/files/fonts/averta-std/regular.woff2')
+      format('woff2');
+}
+
+:root {
+  --piccolo-120: #e5e5e5;
+  --piccolo: #ffffff;
+  --piccolo-80: #e5e5e5;
+
+  --hit-120: #292929;
+  --hit: #0b0b0b;
+  --hit-80: #292929;
+
+  --beerus: #1f1f1f;
+
+  --goku: #000000;
+  --goku-80: #000000;
+  --goku-40: #000000;
+  --goku-10: #000000;
+
+  --gohan: #0b0b0b;
+  --gohan-80: #0b0b0b;
+  --gohan-40: #0b0b0b;
+  --gohan-10: #0b0b0b;
+
+  --goten: #000000;
+
+  --bulma: #ffffff;
+
+  --trunks: #999ca0;
+}
