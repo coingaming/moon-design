@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.74.0](https://github.com/coingaming/sportsbet-design/compare/v2.73.0...v2.74.0) (2021-02-01)
+
+
+### Bug Fixes
+
+* remove overeflow hidden ([a38057d](https://github.com/coingaming/sportsbet-design/commit/a38057d98b4a0388a18cf60fd60ad54d4e710f71))
+
+
+### Features
+
+* SBC-1 update canadian logo ([9489e93](https://github.com/coingaming/sportsbet-design/commit/9489e93f5f2c94e64df525c2af17d27451bedb31))
+
+
+
+
+
 # [2.73.0](https://github.com/coingaming/sportsbet-design/compare/v2.72.0...v2.73.0) (2021-01-28)
 
 
