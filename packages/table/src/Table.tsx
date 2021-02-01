@@ -75,7 +75,6 @@ const TH = styled.div(({ theme: { color, space } }) => ({
   padding: rem(space.small),
   color: color.trunks[100],
   backgroundColor: color.goku[100],
-  overflow: 'hidden',
   position: 'relative',
   fontSize: rem(12),
   '&::after': {
@@ -140,7 +139,6 @@ const TD = styled.div<{ variant?: string }>(
     paddingRight: rem(space.small),
     color: color.bulma[100],
     backgroundColor: color.gohan[100],
-    overflow: 'hidden',
     position: 'relative',
     '&::after': {
       content: '""',
