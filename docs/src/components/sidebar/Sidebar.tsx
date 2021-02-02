@@ -37,7 +37,7 @@ type MenuItemProps = Frontmatter & {
   pages?: any;
 };
 
-export const Sidebar: React.FC<any> = ({ toggleTheme }) => {
+export const Sidebar: React.FC<any> = () => {
   const locationPathname =
     typeof window !== `undefined` ? window && window.location.pathname : null;
   const isCurrentLocation = (pages: [MenuItemProps]) => {
@@ -53,7 +53,6 @@ export const Sidebar: React.FC<any> = ({ toggleTheme }) => {
         <div className="flex flex-col flex-grow border-r border-gray-200 pt-5 pb-4 bg-gohan overflow-y-auto">
           <div className="flex items-center flex-shrink-0 px-4">
             <img
-              onClick={toggleTheme}
               className="h-8 w-auto"
               src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
               alt="Workflow"
