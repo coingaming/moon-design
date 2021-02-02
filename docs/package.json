@@ -56,6 +56,7 @@
     "gatsby-plugin-offline": "3.2.28",
     "gatsby-plugin-postcss": "3.6.0",
     "gatsby-plugin-react-helmet": "3.3.11",
+    "gatsby-plugin-react-svg": "3.0.0",
     "gatsby-plugin-styled-components": "3.3.11",
     "gatsby-plugin-typescript": "2.11.0",
     "gatsby-remark-autolink-headers": "2.3.13",
