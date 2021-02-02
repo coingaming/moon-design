@@ -1,26 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Global } from '@heathmont/moon-global';
 import { mq, rem } from '@heathmont/moon-utils';
 
 import { Children } from '../types';
 
-import { Nav } from './nav';
-import { Meta } from './meta';
-import { ThemeToggle } from './theme-toggle';
 import { Sidebar } from './sidebar/Sidebar';
-
-const Grid = styled.div(({ theme: { breakpoint } }) => ({
-  [mq(breakpoint.medium)]: {
-    display: 'grid',
-    gridTemplateColumns: '16rem minmax(0, 1fr)',
-    gridTemplateAreas: `
-      "nav main"
-    `,
-    minHeight: '100vh',
-    width: '100vw',
-  },
-}));
 
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   padding: `${rem(space.large)} ${rem(space.default)}`,
@@ -32,25 +16,26 @@ const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   },
 }));
 
-// export default ({ children }: Children) => (
-//   <React.Fragment>
-//     <Global />
-//     <Meta />
-//     <Grid>
-//       <ThemeToggle />
-//       <Nav />
-//       <Main>{children}</Main>
-//     </Grid>
-//   </React.Fragment>
-// );
+const themes = {
+  moonDark: 'theme-moon-dark',
+  moonLight: 'theme-moon-light',
+};
 
 export default ({ children }: Children) => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
+  const [theme, setTheme] = React.useState(themes.moonDark);
+  const toggleTheme = (): void => {
+    if (theme === themes.moonDark) {
+      setTheme(themes.moonLight);
+    } else {
+      setTheme(themes.moonDark);
+    }
+  };
   const closeSidebar = () => setIsSidebarOpen(false);
   const openSidebar = () => setIsSidebarOpen(true);
 
   return (
-    <div className="h-screen flex overflow-hidden bg-white">
+    <div className={`${theme} h-screen flex overflow-hidden bg-white`}>
       {isSidebarOpen && (
         <div className="md:hidden">
           <div className="fixed inset-0 flex z-40">
@@ -83,7 +68,7 @@ export default ({ children }: Children) => {
                   </svg>
                 </button>
               </div>
-              <Sidebar />
+              <Sidebar toggleTheme={toggleTheme} />
             </div>
           </div>
         </div>
@@ -91,7 +76,7 @@ export default ({ children }: Children) => {
 
       <div className="hidden md:flex md:flex-shrink-0">
         <div className="flex flex-col w-64">
-          <Sidebar />
+          <Sidebar toggleTheme={toggleTheme} />
         </div>
       </div>
       <div className="flex flex-col w-0 flex-1 overflow-hidden">
