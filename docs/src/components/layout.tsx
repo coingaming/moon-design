@@ -5,6 +5,7 @@ import { mq, rem } from '@heathmont/moon-utils';
 import { Children } from '../types';
 
 import { Sidebar } from './sidebar/Sidebar';
+import { DarkModeSwitcher } from './DarkModeSwitch';
 
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   padding: `${rem(space.large)} ${rem(space.default)}`,
@@ -68,7 +69,7 @@ export default ({ children }: Children) => {
                   </svg>
                 </button>
               </div>
-              <Sidebar toggleTheme={toggleTheme} />
+              <Sidebar />
             </div>
           </div>
         </div>
@@ -76,7 +77,7 @@ export default ({ children }: Children) => {
 
       <div className="hidden md:flex md:flex-shrink-0">
         <div className="flex flex-col w-64">
-          <Sidebar toggleTheme={toggleTheme} />
+          <Sidebar />
         </div>
       </div>
       <div className="flex flex-col w-0 flex-1 overflow-hidden">
@@ -109,6 +110,10 @@ export default ({ children }: Children) => {
           tabIndex={0}
         >
           <div className="py-6">
+            <DarkModeSwitcher
+              toggle={toggleTheme}
+              isEnabled={theme === themes.moonDark}
+            />
             <Main>{children}</Main>
           </div>
         </main>
