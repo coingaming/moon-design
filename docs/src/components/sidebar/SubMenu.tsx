@@ -1,4 +1,6 @@
 import React from 'react';
+import IconPicture from '../../assets/svg/icons/icon-picture.svg';
+import IconChartArea from '../../assets/svg/icons/icon-chart-area.svg';
 
 const SubMenuItem = ({ title, route }) => {
   const locationPathname =
@@ -33,7 +35,7 @@ export const SubMenu = ({ title, items, isActive }) => {
         } focus:outline-none`}
       >
         {/* Heroicon name: users */}
-        <svg
+        {/* <svg
           className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -47,7 +49,10 @@ export const SubMenu = ({ title, items, isActive }) => {
             strokeWidth="2"
             d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
           />
-        </svg>
+        </svg> */}
+        {/* <IconPicture className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" /> */}
+        <IconChartArea className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+
         {title}
         <svg
           className={`${
