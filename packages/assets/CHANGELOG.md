@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.75.0](https://github.com/coingaming/sportsbet-design/compare/v2.74.0...v2.75.0) (2021-02-03)
+
+
+### Features
+
+* SBC-7 update sbio logo ([0c30588](https://github.com/coingaming/sportsbet-design/commit/0c30588566e078782b00b2065a379da4b9aefa2a))
+
+
+
+
+
 # [2.74.0](https://github.com/coingaming/sportsbet-design/compare/v2.73.0...v2.74.0) (2021-02-01)
 
 
