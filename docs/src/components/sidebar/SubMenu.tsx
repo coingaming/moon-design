@@ -1,6 +1,14 @@
 import React from 'react';
+
 import IconPicture from '../../assets/svg/icons/icon-picture.svg';
 import IconChartArea from '../../assets/svg/icons/icon-chart-area.svg';
+import IconSliders from '../../assets/svg/icons/icon-sliders.svg';
+import IconTag from '../../assets/svg/icons/icon-tag.svg';
+import IconTable from '../../assets/svg/icons/icon-table.svg';
+import IconPrint from '../../assets/svg/icons/icon-print.svg';
+import IconGlobe from '../../assets/svg/icons/icon-globe.svg';
+import IconStarEmpty from '../../assets/svg/icons/icon-star-empty.svg';
+import IconSettings from '../../assets/svg/icons/icon-settings.svg';
 
 const SubMenuItem = ({ title, route }) => {
   const locationPathname =
@@ -19,10 +27,41 @@ const SubMenuItem = ({ title, route }) => {
   );
 };
 
+const SubMenuIcons = {
+  Themes: (
+    <IconSliders className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Assets: (
+    <IconPicture className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  'Design System': (
+    <IconTag className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Toolkit: (
+    <IconTable className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Components: (
+    <IconPrint className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Global: (
+    <IconGlobe className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Private: (
+    <IconStarEmpty className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Charts: (
+    <IconChartArea className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  Utils: (
+    <IconSettings className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+  ),
+  //   <IconStarEmpty />
+};
+
 export const SubMenu = ({ title, items, isActive }) => {
   const [isExpanded, setIsExpanded] = React.useState(isActive);
   const toggleExpand = () => setIsExpanded(!isExpanded);
-
+  console.log(title);
   return (
     <div className="space-y-1">
       <button
@@ -51,8 +90,9 @@ export const SubMenu = ({ title, items, isActive }) => {
           />
         </svg> */}
         {/* <IconPicture className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" /> */}
-        <IconChartArea className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-
+        {SubMenuIcons[title] || (
+          <IconStarEmpty className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
+        )}
         {title}
         <svg
           className={`${
