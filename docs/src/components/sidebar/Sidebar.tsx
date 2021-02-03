@@ -58,7 +58,7 @@ export const Sidebar: React.FC<any> = () => {
               src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
               alt="Workflow"
             /> */}
-            <IconLogoMoonDesign className="h-8 text-piccolo w-auto"/>
+            <IconLogoMoonDesign className="h-8 text-piccolo w-auto" />
           </div>
           <div className="mt-5 flex-grow flex flex-col">
             <nav className="flex-1 px-2 space-y-1 bg-hit" aria-label="Sidebar">
