@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
 
@@ -6,6 +6,7 @@ import { Children } from '../types';
 
 import { Sidebar } from './sidebar/Sidebar';
 import { DarkModeSwitcher } from './DarkModeSwitch';
+import useLocalStorage from './useLocalStorage';
 
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   padding: `${rem(space.large)} ${rem(space.default)}`,
@@ -24,11 +25,19 @@ const themes = {
 
 export default ({ children }: Children) => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
-  const [theme, setTheme] = React.useState(themes.moonDark);
+  const [localStorageTheme, setLocalStorageTheme] = useLocalStorage(
+    'mode',
+    'dark'
+  );
+  const [theme, setTheme] = React.useState(
+    localStorageTheme === 'dark' ? themes.moonDark : themes.moonLight
+  );
   const toggleTheme = (): void => {
     if (theme === themes.moonDark) {
+      setLocalStorageTheme('light');
       setTheme(themes.moonLight);
     } else {
+      setLocalStorageTheme('dark');
       setTheme(themes.moonDark);
     }
   };
