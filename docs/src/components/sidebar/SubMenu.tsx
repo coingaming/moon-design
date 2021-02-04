@@ -55,7 +55,9 @@ export const SubMenu: React.FC<ISubMenu> = ({ title, items, isActive }) => {
         type="button"
         onClick={toggleExpand}
         className={`group w-full flex items-center pl-2 pr-1 py-2 text-sm font-medium rounded-md ${
-          isActive ? 'text-piccolo bg-gohan-80' : 'text-piccolo hover:bg-gohan-80'
+          isActive
+            ? 'text-piccolo bg-gohan-80'
+            : 'text-piccolo hover:bg-gohan-80'
         } focus:outline-none`}
       >
         {SubMenuIcons[title] || <IconStarEmpty className=" mr-3 h-6 w-6" />}
