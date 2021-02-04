@@ -51,7 +51,7 @@ export const Sidebar: React.FC<any> = () => {
     <StaticQuery
       query={sidebar}
       render={(data: PagesData) => (
-        <div className="flex flex-col flex-grow border-r border-gray-200 pt-5 pb-4 bg-gohan overflow-y-auto">
+        <div className="flex flex-col flex-grow pt-5 pb-4 bg-gohan overflow-y-auto">
           <div className="flex items-center flex-shrink-0 px-4">
             {/* <img
               className="h-8 w-auto"
