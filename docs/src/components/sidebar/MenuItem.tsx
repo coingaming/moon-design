@@ -3,7 +3,6 @@ import React from 'react';
 export const MenuItem = ({ title, isActive }) => {
   return (
     <div className="space-y-1">
-      {/* Current: "bg-gray-100 text-gray-900", Default: "bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900" */}
       <a
         href="#"
         className="text-piccolo group w-full flex items-center pl-2 py-2 text-sm font-medium rounded-md"

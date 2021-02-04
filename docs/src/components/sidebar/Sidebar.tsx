@@ -52,16 +52,11 @@ export const Sidebar: React.FC<any> = () => {
       query={sidebar}
       render={(data: PagesData) => (
         <div className="flex flex-col flex-grow pt-5 pb-4 bg-gohan overflow-y-auto">
-          <div className="flex items-center flex-shrink-0 px-4">
-            {/* <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-              alt="Workflow"
-            /> */}
+          <a href="/" className="flex items-center flex-shrink-0 px-4">
             <IconLogoMoonDesign className="h-8 text-piccolo w-auto" />
-          </div>
+          </a>
           <div className="mt-5 flex-grow flex flex-col">
-            <nav className="flex-1 px-2 space-y-1 bg-hit" aria-label="Sidebar">
+            <nav className="flex-1 px-2 space-y-1 bg-gohan" aria-label="Sidebar">
               {transformSections(data).map((item) => {
                 if (!item.pages) {
                   return (
