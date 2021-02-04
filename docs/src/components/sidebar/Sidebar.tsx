@@ -56,7 +56,10 @@ export const Sidebar: React.FC<any> = () => {
             <IconLogoMoonDesign className="h-8 text-piccolo w-auto" />
           </a>
           <div className="mt-5 flex-grow flex flex-col">
-            <nav className="flex-1 px-2 space-y-1 bg-gohan" aria-label="Sidebar">
+            <nav
+              className="flex-1 px-2 space-y-1 bg-gohan"
+              aria-label="Sidebar"
+            >
               {transformSections(data).map((item) => {
                 if (!item.pages) {
                   return (
