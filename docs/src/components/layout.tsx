@@ -36,7 +36,7 @@ export default ({ children }: Children) => {
   const openSidebar = () => setIsSidebarOpen(true);
 
   return (
-    <div className={`${theme} h-screen flex overflow-hidden bg-white`}>
+    <div className={`${theme} h-screen flex overflow-hidden`}>
       {isSidebarOpen && (
         <div className="md:hidden">
           <div className="fixed inset-0 flex z-40">
@@ -44,7 +44,7 @@ export default ({ children }: Children) => {
               <div className="absolute inset-0 bg-gray-600 opacity-75" />
             </div>
 
-            <div className="relative flex-1 flex flex-col max-w-xs w-full bg-white">
+            <div className="relative flex-1 flex flex-col max-w-xs w-full">
               <div className="absolute top-0 right-0 -mr-12 pt-2">
                 <button
                   type="button"
@@ -53,7 +53,7 @@ export default ({ children }: Children) => {
                 >
                   <span className="sr-only">Close sidebar</span>
                   <svg
-                    className="h-6 w-6 text-white"
+                    className="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
