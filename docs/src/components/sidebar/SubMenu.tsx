@@ -5,7 +5,7 @@ import IconChartArea from '../../assets/svg/icons/icon-chart-area.svg';
 import IconSliders from '../../assets/svg/icons/icon-sliders.svg';
 import IconTag from '../../assets/svg/icons/icon-tag.svg';
 import IconTable from '../../assets/svg/icons/icon-table.svg';
-import IconPrint from '../../assets/svg/icons/icon-print.svg';
+import IconListNumbered from '../../assets/svg/icons/icon-list-numbered.svg';
 import IconGlobe from '../../assets/svg/icons/icon-globe.svg';
 import IconStarEmpty from '../../assets/svg/icons/icon-star-empty.svg';
 import IconSettings from '../../assets/svg/icons/icon-settings.svg';
@@ -19,8 +19,8 @@ const SubMenuItem = ({ title, route }) => {
     <a
       href={route}
       className={`${
-        isCurrent ? 'bg-gray-100 text-piccolo' : ''
-      } group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-piccolo rounded-md hover:text-gray-900 hover:bg-gray-50`}
+        isCurrent ? 'bg-hit-80' : ''
+      } hover:bg-hit-80 group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-piccolo rounded-md`}
     >
       {title}
     </a>
@@ -28,37 +28,24 @@ const SubMenuItem = ({ title, route }) => {
 };
 
 const SubMenuIcons = {
-  Themes: (
-    <IconSliders className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Assets: (
-    <IconPicture className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  'Design System': (
-    <IconTag className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Toolkit: (
-    <IconTable className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Components: (
-    <IconPrint className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Global: (
-    <IconGlobe className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Private: (
-    <IconStarEmpty className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Charts: (
-    <IconChartArea className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
-  Utils: (
-    <IconSettings className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-  ),
+  Themes: <IconSliders className="mr-3 h-6 w-6" />,
+  Assets: <IconPicture className="mr-3 h-6 w-6" />,
+  'Design System': <IconTag className="mr-3 h-6 w-6" />,
+  Toolkit: <IconTable className="mr-3 h-6 w-6" />,
+  Components: <IconListNumbered className="mr-3 h-6 w-6" />,
+  Global: <IconGlobe className="mr-3 h-6 w-6" />,
+  Private: <IconStarEmpty className="mr-3 h-6 w-6" />,
+  Charts: <IconChartArea className="mr-3 h-6 w-6" />,
+  Utils: <IconSettings className="mr-3 h-6 w-6" />,
   //   <IconStarEmpty />
 };
+interface ISubMenu {
+  title: string;
+  items: Element[];
+  isActive: boolean;
+}
 
-export const SubMenu = ({ title, items, isActive }) => {
+export const SubMenu: React.FC<ISubMenu> = ({ title, items, isActive }) => {
   const [isExpanded, setIsExpanded] = React.useState(isActive);
   const toggleExpand = () => setIsExpanded(!isExpanded);
   console.log(title);
@@ -69,30 +56,11 @@ export const SubMenu = ({ title, items, isActive }) => {
         onClick={toggleExpand}
         className={`group w-full flex items-center pl-2 pr-1 py-2 text-sm font-medium rounded-md ${
           isActive
-            ? 'bg-gray-100 text-piccolo'
-            : 'bg-white text-piccolo hover:text-piccolo hover:bg-gray-50'
+            ? 'text-piccolo bg-hit-80'
+            : 'text-piccolo hover:bg-hit-80'
         } focus:outline-none`}
       >
-        {/* Heroicon name: users */}
-        {/* <svg
-          className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          aria-hidden="true"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-          />
-        </svg> */}
-        {/* <IconPicture className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" /> */}
-        {SubMenuIcons[title] || (
-          <IconStarEmpty className="text-gray-400 group-hover:text-gray-500 mr-3 h-6 w-6" />
-        )}
+        {SubMenuIcons[title] || <IconStarEmpty className=" mr-3 h-6 w-6" />}
         {title}
         <svg
           className={`${
