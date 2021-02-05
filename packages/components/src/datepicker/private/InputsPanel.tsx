@@ -84,7 +84,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
 
   return (
     <InputsPanelStyled>
-      <Button variant="tertiary" onClick={reset}>
+      <Button type="button" variant="tertiary" onClick={reset}>
         {translations.reset}
       </Button>
       <StyledTextInput
@@ -140,6 +140,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
 
       <Button
         variant="primary"
+        type="button"
         onClick={apply}
         disabled={!!hasStartDateError || !!hasEndDateError}
       >
