@@ -66,7 +66,7 @@ export default ({ data: { mdx } }: Data) => {
           route={mdx.frontmatter.route}
         />
       </div>
-      <nav className="bg-gohan text-bulma text-sm px-8 py-4 rounded mb-12 md:absolute md:right-8 md:top-16">
+      <nav className="bg-gohan text-bulma text-sm px-8 py-4 rounded mb-12 md:fixed md:right-8 md:top-16">
         <h5 className="text-bulma font-semibold mb-2">Summary:</h5>
         <Navigation mainItems={mdx.tableOfContents.items} />
       </nav>

@@ -48,7 +48,6 @@ interface ISubMenu {
 export const SubMenu: React.FC<ISubMenu> = ({ title, items, isActive }) => {
   const [isExpanded, setIsExpanded] = React.useState(isActive);
   const toggleExpand = () => setIsExpanded(!isExpanded);
-  console.log(title);
   return (
     <div className="space-y-1">
       <button
