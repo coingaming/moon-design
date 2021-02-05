@@ -50,6 +50,7 @@ export interface Config {
   onlyFuture?: boolean;
   without24AndToday?: boolean;
   locale?: any;
+  ranges?: DatesRange[];
 }
 
 export interface DateRangePickerProps {
