@@ -3,10 +3,11 @@ import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
 
 import { Children } from '../types';
+import { useDocsTheme } from '../provider';
 
 import { Sidebar } from './sidebar/Sidebar';
 import { DarkModeSwitcher } from './DarkModeSwitch';
-import useLocalStorage from './useLocalStorage';
+
 
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   // padding: `${rem(space.large)} ${rem(space.default)}`,
@@ -26,27 +27,13 @@ const themes = {
 
 export default ({ children }: Children) => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
-  const [localStorageTheme, setLocalStorageTheme] = useLocalStorage(
-    'mode',
-    'dark'
-  );
-  const [theme, setTheme] = React.useState(
-    localStorageTheme === 'dark' ? themes.moonDark : themes.moonLight
-  );
-  const toggleTheme = (): void => {
-    if (theme === themes.moonDark) {
-      setLocalStorageTheme('light');
-      setTheme(themes.moonLight);
-    } else {
-      setLocalStorageTheme('dark');
-      setTheme(themes.moonDark);
-    }
-  };
+  const { toggleColorScheme, getColorMode } = useDocsTheme();
   const closeSidebar = () => setIsSidebarOpen(false);
   const openSidebar = () => setIsSidebarOpen(true);
-
+  const className =
+    getColorMode() === 'dark' ? 'theme-moon-dark' : 'theme-moon-light';
   return (
-    <div className={`${theme} h-screen flex overflow-hidden`}>
+    <div className={`${className} h-screen flex overflow-hidden`}>
       {isSidebarOpen && (
         <div className="md:hidden">
           <div className="fixed inset-0 flex z-40">
@@ -121,8 +108,8 @@ export default ({ children }: Children) => {
         >
           <div className="py-6">
             <DarkModeSwitcher
-              toggle={toggleTheme}
-              isEnabled={theme === themes.moonDark}
+              toggle={toggleColorScheme}
+              isEnabled={getColorMode() === themes.moonDark}
             />
             <Main>{children}</Main>
           </div>
