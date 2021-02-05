@@ -9,7 +9,8 @@ import {
   useFlexLayout,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
-import { rem } from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
+import { ColorNames } from '@heathmont/moon-themes';
 
 const TableWrapper = styled.div<{
   isScrolledToLeft: boolean;
@@ -71,47 +72,55 @@ const Header = styled.div({
   top: 0,
 });
 
-const TH = styled.div(({ theme: { color, space } }) => ({
-  padding: rem(space.small),
-  color: color.trunks[100],
-  backgroundColor: color.goku[100],
-  position: 'relative',
-  fontSize: rem(12),
-  '&::after': {
-    content: '""',
-    position: 'absolute',
-    width: '1px',
-    backgroundColor: color.beerus[100],
-    height: '70%',
-    bottom: '15%',
-    right: 0,
-  },
-  '&:last-child': {
-    borderRight: 0,
-  },
-  '.resizer': {
-    display: 'inline-block',
-    width: rem(8),
-    height: '100%',
-    position: 'absolute',
-    right: 0,
-    top: 0,
-    zIndex: 1,
+const TH = styled.div<{
+  headerBackgroundColor?: ColorNames;
+}>(
+  ({ theme, headerBackgroundColor }) => ({
+    backgroundColor: headerBackgroundColor
+      ? themed('color', headerBackgroundColor)(theme)
+      : theme.color.goku[100],
+  }),
+  ({ theme: { color, space } }) => ({
+    padding: rem(space.small),
+    color: color.trunks[100],
+    position: 'relative',
+    fontSize: rem(12),
     '&::after': {
       content: '""',
       position: 'absolute',
       width: '1px',
+      backgroundColor: color.beerus[100],
       height: '70%',
       bottom: '15%',
       right: 0,
     },
-    '&.isResizing': {
+    '&:last-child': {
+      borderRight: 0,
+    },
+    '.resizer': {
+      display: 'inline-block',
+      width: rem(8),
+      height: '100%',
+      position: 'absolute',
+      right: 0,
+      top: 0,
+      zIndex: 1,
       '&::after': {
-        background: color.piccolo[100],
+        content: '""',
+        position: 'absolute',
+        width: '1px',
+        height: '70%',
+        bottom: '15%',
+        right: 0,
+      },
+      '&.isResizing': {
+        '&::after': {
+          background: color.piccolo[100],
+        },
       },
     },
-  },
-}));
+  })
+);
 
 const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
   ...(variant === 'calendar'
@@ -132,13 +141,20 @@ const Body = styled.div({
   zIndex: 0,
 });
 
-const TD = styled.div<{ variant?: string }>(
+const TD = styled.div<{
+  variant?: string;
+  defaultRowBackgroundColor?: ColorNames;
+}>(
+  ({ theme, defaultRowBackgroundColor }) => ({
+    backgroundColor: defaultRowBackgroundColor
+      ? themed('color', defaultRowBackgroundColor)(theme)
+      : theme.color.gohan[100],
+  }),
   ({ theme: { color, radius, space }, variant }) => ({
     padding: rem(space.default),
     paddingLeft: rem(space.small),
     paddingRight: rem(space.small),
     color: color.bulma[100],
-    backgroundColor: color.gohan[100],
     position: 'relative',
     '&::after': {
       content: '""',
@@ -178,7 +194,20 @@ const TD = styled.div<{ variant?: string }>(
   })
 );
 
-const BodyTR = styled.div<{ variant?: string; hasOnRowClickHandler: boolean }>(
+const BodyTR = styled.div<{
+  variant?: string;
+  hasOnRowClickHandler: boolean;
+  evenRowBackgroundColor?: ColorNames;
+}>(
+  ({ theme, evenRowBackgroundColor }) => ({
+    '&:nth-child(even)': {
+      [TD]: {
+        backgroundColor: evenRowBackgroundColor
+          ? themed('color', evenRowBackgroundColor)(theme)
+          : theme.color.gohan[80],
+      },
+    },
+  }),
   ({ theme: { color, space }, variant, hasOnRowClickHandler }) => ({
     marginBottom: rem(2),
     ...(hasOnRowClickHandler
@@ -204,7 +233,6 @@ const BodyTR = styled.div<{ variant?: string; hasOnRowClickHandler: boolean }>(
       : {}),
     '&:nth-child(even)': {
       [TD]: {
-        backgroundColor: color.gohan[80],
         ...(variant === 'calendar'
           ? {
               '&:first-child': {
@@ -257,6 +285,9 @@ const Table: React.FC<any> = ({
   layout,
   withFooter = false,
   onRowClick,
+  defaultRowBackgroundColor,
+  evenRowBackgroundColor,
+  headerBackgroundColor,
 }) => {
   const {
     getTableProps,
@@ -304,7 +335,10 @@ const Table: React.FC<any> = ({
         {headerGroups.map((headerGroup) => (
           <HeaderTR {...headerGroup.getHeaderGroupProps()} variant={variant}>
             {headerGroup.headers.map((column) => (
-              <TH {...column.getHeaderProps()}>
+              <TH
+                {...column.getHeaderProps()}
+                headerBackgroundColor={headerBackgroundColor}
+              >
                 {column.render('Header')}
                 <div
                   // @ts-ignore
@@ -338,10 +372,15 @@ const Table: React.FC<any> = ({
               variant={variant}
               onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
               hasOnRowClickHandler={hasOnRowClickHandler}
+              evenRowBackgroundColor={evenRowBackgroundColor}
             >
               {row.cells.map((cell) => {
                 return (
-                  <TD {...cell.getCellProps()} variant={variant}>
+                  <TD
+                    {...cell.getCellProps()}
+                    variant={variant}
+                    defaultRowBackgroundColor={defaultRowBackgroundColor}
+                  >
                     {cell.render('Cell')}
                   </TD>
                 );
