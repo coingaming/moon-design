@@ -9,10 +9,11 @@ import { DarkModeSwitcher } from './DarkModeSwitch';
 import useLocalStorage from './useLocalStorage';
 
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
-  padding: `${rem(space.large)} ${rem(space.default)}`,
+  // padding: `${rem(space.large)} ${rem(space.default)}`,
   [mq(breakpoint.medium)]: {
-    padding: '3rem 2rem',
-    margin: '0 auto',
+    paddingLeft: '2rem',
+    paddingRight: '2rem',
+    // margin: 'auto',
     maxWidth: '900px',
     width: '100%',
   },
