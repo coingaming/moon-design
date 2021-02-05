@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
 
@@ -116,7 +116,7 @@ export default ({ children }: Children) => {
         </div>
         <main
           className="bg-goku -1 relative z-0 overflow-y-auto focus:outline-none"
-          tabIndex={0}
+          // tabIndex={0}
         >
           <div className="py-6">
             <DarkModeSwitcher
