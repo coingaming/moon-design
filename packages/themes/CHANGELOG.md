@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.76.0](https://github.com/coingaming/sportsbet-design/compare/v2.75.0...v2.76.0) (2021-02-05)
+
+
+### Features
+
+* **themes:** Popo color was added ([0e974af](https://github.com/coingaming/sportsbet-design/commit/0e974afa4b431ec76c9033da4b1463929a4cb71b))
+
+
+
+
+
 # [2.70.0](https://github.com/coingaming/sportsbet-design/compare/v2.69.0...v2.70.0) (2021-01-25)
 
 
