@@ -7,6 +7,10 @@ type SupportingColor = {
   10?: ColorValue;
 };
 
+type SingletonColor = {
+  100: ColorValue;
+};
+
 export type ColorShared = {
   krillin: SupportingColor; // Warning colors
   chiChi: SupportingColor; // Error colors
@@ -17,6 +21,7 @@ export type ColorShared = {
   whis: SupportingColor;
   frieza: SupportingColor;
   nappa: SupportingColor;
+  popo: SingletonColor; // Black color
 };
 
 const supportColors: ColorShared = {
@@ -58,6 +63,9 @@ const supportColors: ColorShared = {
   nappa: {
     100: '#725550',
     10: '#B8AAA7',
+  },
+  popo: {
+    100: '#000',
   },
 };
 
