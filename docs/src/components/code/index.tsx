@@ -27,9 +27,9 @@ type CodeProps = {
 const CodeWrapper = styled.div(
   ({ theme: { border, color, radius, space } }) => ({
     display: 'block',
-    border,
+    // border,
+    borderBottom: `1px solid ${Utils.rem(radius.small)}`,
     borderColor: color.beerus[100],
-    borderRadius: Utils.rem(radius.small),
     position: 'relative',
     // overflow: 'hidden',
     '.prism-code:focus': {
