@@ -69,7 +69,9 @@ hr {
   [`b, strong`]: {
     fontWeight: 500,
   }, */
-*/ .theme-moon-dark {
+/* */
+
+.theme-moon-dark {
   --piccolo-120: #e5e5e5;
   --piccolo: #ffffff;
   --piccolo-80: #e5e5e5;
