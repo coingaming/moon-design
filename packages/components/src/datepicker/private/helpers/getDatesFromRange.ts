@@ -112,7 +112,7 @@ export const getDatesFromRange = ({
     const nextMonth = addMonths(now, 1);
     return {
       startDate: startOfMonth(nextMonth),
-      endDate: startOfMonth(nextMonth),
+      endDate: endOfMonth(nextMonth),
     };
   }
   return {
