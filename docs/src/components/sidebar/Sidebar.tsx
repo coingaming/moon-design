@@ -1,9 +1,8 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-import { PagesData } from '../../types';
+import { PagesData, Frontmatter } from '../../types';
 import { transformSections } from '../nav/transform';
-import { Frontmatter } from '../../types';
 import IconLogoMoonDesign from '../../assets/svg/logos/logo-moon-design.svg';
 
 import { MenuItem } from './MenuItem';
@@ -66,6 +65,7 @@ export const Sidebar: React.FC<any> = () => {
                     <MenuItem
                       key={item.name}
                       title={item.name}
+                      route={item.route}
                       isActive={isCurrentLocation(item.route)}
                     />
                   );
