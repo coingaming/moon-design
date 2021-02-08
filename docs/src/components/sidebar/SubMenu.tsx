@@ -20,7 +20,7 @@ const SubMenuItem = ({ title, route }) => {
       href={route}
       className={`${
         isCurrent ? 'bg-gohan-80 hover:bg-gohan-40' : 'hover:bg-gohan-80'
-      }  group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-piccolo rounded-md`}
+      }  group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-bulma rounded-md`}
     >
       {title}
     </a>
@@ -54,17 +54,15 @@ export const SubMenu: React.FC<ISubMenu> = ({ title, items, isActive }) => {
         type="button"
         onClick={toggleExpand}
         className={`group w-full flex items-center pl-2 pr-1 py-2 text-sm font-medium rounded-md ${
-          isActive
-            ? 'text-piccolo bg-gohan-80'
-            : 'text-piccolo hover:bg-gohan-80'
+          isActive ? 'text-bulma bg-gohan-80' : 'text-bulma hover:bg-gohan-80'
         } focus:outline-none`}
       >
         {SubMenuIcons[title] || <IconStarEmpty className=" mr-3 h-6 w-6" />}
         {title}
         <svg
           className={`${
-            isExpanded ? 'text-piccolo rotate-90' : 'text-gray-300'
-          } ml-auto h-5 w-5 transform group-hover:text-piccolo transition-colors ease-in-out duration-150`}
+            isExpanded ? 'text-bulma rotate-90' : 'text-gray-300'
+          } ml-auto h-5 w-5 transform transition-colors ease-in-out duration-150`}
           viewBox="0 0 20 20"
           aria-hidden="true"
         >
