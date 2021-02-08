@@ -65,3 +65,18 @@ the index of the first day of the week (0 - Sunday)
   }}
 />
 ```
+
+## With custom ranges list
+
+```jsx react-live
+<DateRangePicker
+  onDateChange={({ startDate, endDate }) => {
+    console.log(startDate, endDate);
+  }}
+  range={'today'}
+  config={{
+    weekStartsOn: 1,
+    ranges: ['lastMonth', 'today', 'nextWeek', 'nextMonth'],
+  }}
+/>
+```
