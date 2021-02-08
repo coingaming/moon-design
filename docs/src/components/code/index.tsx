@@ -24,25 +24,22 @@ type CodeProps = {
   'react-live'?: boolean;
 };
 
-const CodeWrapper = styled.div(
-  ({ theme: { border, color, radius, space } }) => ({
-    display: 'block',
-    // border,
-    borderBottom: `1px solid ${Utils.rem(radius.small)}`,
-    borderColor: color.beerus[100],
-    position: 'relative',
-    // overflow: 'hidden',
-    '.prism-code:focus': {
-      outline: 'none',
-      boxShadow: `inset 0 0 3px ${color.piccolo[100]}`,
-    },
-    pre: {
-      padding: Utils.rem(space.default),
-      overflow: 'auto',
-      marginBottom: '0',
-    },
-  })
-);
+const CodeWrapper = styled.div(({ theme: { color, radius, space } }) => ({
+  display: 'block',
+  borderBottom: `1px solid ${Utils.rem(radius.small)}`,
+  borderColor: color.beerus[100],
+  position: 'relative',
+  // overflow: 'hidden',
+  '.prism-code:focus': {
+    outline: 'none',
+    boxShadow: `inset 0 0 3px ${color.piccolo[100]}`,
+  },
+  pre: {
+    padding: Utils.rem(space.default),
+    overflow: 'auto',
+    marginBottom: '0',
+  },
+}));
 
 const CodePreview = styled.div(
   ({ theme: { border, color, fontFamily, space } }) => ({

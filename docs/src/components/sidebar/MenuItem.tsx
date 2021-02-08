@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const MenuItem = ({ title, isActive }) => {
+export const MenuItem = ({ title, route }) => {
   return (
     <div className="space-y-1">
       <a
-        href="#"
+        href={route}
         className="text-piccolo group w-full flex items-center pl-2 py-2 text-sm font-medium rounded-md"
       >
         {/* Current: "text-gray-600", Default: "text-gray-400 group-hover:text-gray-500" */}
