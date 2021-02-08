@@ -39,38 +39,6 @@ hr {
   padding: 0;
 }
 
-/* /**
-   * Remove trailing margins from nested lists and common block items
-   */
-/* 'li >': {
-    'ul, ol, p, blockquote': {
-      marginTop: 0,
-    },
-  }, */
-/**
-   * Set default <table>s behavior.
-   */
-/* table: {
-    borderCollapse: 'collapse',
-    borderSpacing: 0,
-  }, */
-/**
-   * Correct display behavior of the 'hidden' attribute.
-   */
-/* '[hidden]': {
-    display: 'none !important',
-  }, */
-/**
-   * Correct font display behavior
-   */
-/* [`button, input, select`]: {
-    fontFamily: 'inherit',
-  },
-  [`b, strong`]: {
-    fontWeight: 500,
-  }, */
-/* */
-
 .theme-moon-dark {
   --piccolo-120: #e5e5e5;
   --piccolo: #ffffff;
@@ -123,6 +91,118 @@ hr {
   --goten: #ffffff;
 
   --bulma: #000000;
+
+  --trunks: #999ca0;
+}
+
+.bitcasino-dark {
+  --piccolo-120: #e5e5e5;
+  --piccolo: #ffffff;
+  --piccolo-80: #e5e5e5;
+
+  --hit-120: #292929;
+  --hit: #0b0b0b;
+  --hit-80: #292929;
+
+  --beerus: #1f1f1f;
+
+  --goku: #000000;
+  --goku-80: #000000;
+  --goku-40: #000000;
+  --goku-10: #000000;
+
+  --gohan: #0b0b0b;
+  --gohan-80: #292929;
+  --gohan-40: #292929;
+  --gohan-10: #0b0b0b;
+
+  --goten: #000000;
+
+  --bulma: #ffffff;
+
+  --trunks: #999ca0;
+}
+
+.bitcasino-light {
+  --piccolo-120: #e5e5e5;
+  --piccolo: #ffffff;
+  --piccolo-80: #e5e5e5;
+
+  --hit-120: #292929;
+  --hit: #0b0b0b;
+  --hit-80: #292929;
+
+  --beerus: #1f1f1f;
+
+  --goku: #000000;
+  --goku-80: #000000;
+  --goku-40: #000000;
+  --goku-10: #000000;
+
+  --gohan: #0b0b0b;
+  --gohan-80: #292929;
+  --gohan-40: #292929;
+  --gohan-10: #0b0b0b;
+
+  --goten: #000000;
+
+  --bulma: #ffffff;
+
+  --trunks: #999ca0;
+}
+
+.sportsbet-dark {
+  --piccolo-120: #e5e5e5;
+  --piccolo: #ffffff;
+  --piccolo-80: #e5e5e5;
+
+  --hit-120: #292929;
+  --hit: #0b0b0b;
+  --hit-80: #292929;
+
+  --beerus: #1f1f1f;
+
+  --goku: #000000;
+  --goku-80: #000000;
+  --goku-40: #000000;
+  --goku-10: #000000;
+
+  --gohan: #0b0b0b;
+  --gohan-80: #292929;
+  --gohan-40: #292929;
+  --gohan-10: #0b0b0b;
+
+  --goten: #000000;
+
+  --bulma: #ffffff;
+
+  --trunks: #999ca0;
+}
+
+.sportsbet-light {
+  --piccolo-120: #e5e5e5;
+  --piccolo: #ffffff;
+  --piccolo-80: #e5e5e5;
+
+  --hit-120: #292929;
+  --hit: #0b0b0b;
+  --hit-80: #292929;
+
+  --beerus: #1f1f1f;
+
+  --goku: #000000;
+  --goku-80: #000000;
+  --goku-40: #000000;
+  --goku-10: #000000;
+
+  --gohan: #0b0b0b;
+  --gohan-80: #292929;
+  --gohan-40: #292929;
+  --gohan-10: #0b0b0b;
+
+  --goten: #000000;
+
+  --bulma: #ffffff;
 
   --trunks: #999ca0;
 }
