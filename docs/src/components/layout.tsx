@@ -8,7 +8,6 @@ import { useDocsTheme } from '../provider';
 import { Sidebar } from './sidebar/Sidebar';
 import { DarkModeSwitcher } from './DarkModeSwitch';
 
-
 const Main = styled.main(({ theme: { breakpoint, space } }) => ({
   // padding: `${rem(space.large)} ${rem(space.default)}`,
   [mq(breakpoint.medium)]: {
@@ -109,7 +108,7 @@ export default ({ children }: Children) => {
           <div className="py-6">
             <DarkModeSwitcher
               toggle={toggleColorScheme}
-              isEnabled={getColorMode() === themes.moonDark}
+              isEnabled={getColorMode() === 'dark'}
             />
             <Main>{children}</Main>
           </div>
