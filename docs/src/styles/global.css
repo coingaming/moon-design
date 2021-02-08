@@ -95,7 +95,7 @@ hr {
   --trunks: #999ca0;
 }
 
-.bitcasino-dark {
+.theme-bitcasino-dark {
   --piccolo-120: #f54100;
   --piccolo: #ff4f0f;
   --piccolo-80: #fa642e;
@@ -123,7 +123,7 @@ hr {
   --trunks: #a18eb4;
 }
 
-.bitcasino-light {
+.theme-bitcasino-light {
   --piccolo-120: #f54100;
   --piccolo: #ff4f0f;
   --piccolo-80: #fa642e;
@@ -151,7 +151,7 @@ hr {
   --trunks: #8697a2;
 }
 
-.sportsbet-dark {
+.theme-sportsbet-dark {
   --piccolo-120: #02c054;
   --piccolo: #0ccf61;
   --piccolo-80: #18dc6d;
@@ -179,7 +179,7 @@ hr {
   --trunks: #8697a2;
 }
 
-.sportsbet-light {
+.theme-sportsbet-light {
   --piccolo-120: #02c054;
   --piccolo: #0ccf61;
   --piccolo-80: #18dc6d;
