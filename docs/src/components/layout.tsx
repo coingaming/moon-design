@@ -7,6 +7,7 @@ import { useDocsTheme } from '../provider';
 
 import { Sidebar } from './sidebar/Sidebar';
 import { DarkModeSwitcher } from './DarkModeSwitch';
+import ThemeSwitcher from './ThemeSwitch';
 
 const Main = styled.main(({ theme: { breakpoint } }) => ({
   [mq(breakpoint.medium)]: {
@@ -22,13 +23,49 @@ const Main = styled.main(({ theme: { breakpoint } }) => ({
 //   moonLight: 'theme-moon-light',
 // };
 
+const getClassName = ({ brand, colorMode }) => {
+  if (brand === 'moonDesign') {
+    if (colorMode === 'dark') {
+      return 'theme-moon-dark';
+    }
+    if (colorMode === 'light') {
+      return 'theme-moon-light';
+    }
+  }
+  if (brand === 'sportsbet') {
+    if (colorMode === 'dark') {
+      return 'theme-sportsbet-dark';
+    }
+    if (colorMode === 'light') {
+      return 'theme-sportsbet-light';
+    }
+  }
+  if (brand === 'bitcasino') {
+    if (colorMode === 'dark') {
+      return 'theme-bitcasino-dark';
+    }
+    if (colorMode === 'light') {
+      return 'theme-bitcasino-light';
+    }
+  }
+  return 'theme-moon-dark';
+};
+
 export default ({ children }: Children) => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
-  const { toggleColorScheme, getColorMode } = useDocsTheme();
+  const {
+    toggleColorScheme,
+    getColorMode,
+    setBrand,
+    getBrand,
+    themeKeys,
+  } = useDocsTheme();
   const closeSidebar = () => setIsSidebarOpen(false);
   const openSidebar = () => setIsSidebarOpen(true);
-  const className =
-    getColorMode() === 'dark' ? 'theme-moon-dark' : 'theme-moon-light';
+  const className = getClassName({
+    brand: getBrand(),
+    colorMode: getColorMode(),
+  });
   return (
     <div className={`${className} h-screen flex overflow-hidden`}>
       {isSidebarOpen && (
@@ -108,6 +145,7 @@ export default ({ children }: Children) => {
               toggle={toggleColorScheme}
               isEnabled={getColorMode() === 'dark'}
             />
+            <ThemeSwitcher themeKeys={themeKeys} setBrand={setBrand} />
             <Main>{children}</Main>
           </div>
         </main>

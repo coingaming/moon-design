@@ -114,6 +114,7 @@ export const DocsThemeContext = React.createContext({
   themeKeys: [''],
   toggleColorScheme: () => {},
   getColorMode: () => null,
+  getBrand: () => null,
 });
 
 export const useDocsTheme = () => React.useContext(DocsThemeContext);
@@ -125,8 +126,12 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
     'mode',
     'dark'
   );
+  const [localStorageBrand, setLocalStorageBrand] = useLocalStorage(
+    'brand',
+    'moonDesign'
+  );
   const [themeState, setThemeState] = React.useState({
-    brand: 'moonDesign',
+    brand: localStorageBrand,
     colorMode: localStorageMode,
   });
 
@@ -142,15 +147,17 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   };
 
   const setBrand = (themeKey: DocsBrands) => {
+    setLocalStorageBrand(themeKey);
     setThemeState({ brand: themeKey, colorMode: themeState.colorMode });
   };
 
   const getColorMode = () => themeState.colorMode;
+  const getBrand = () => themeState.brand;
   const themeKeys = Object.keys(themes);
 
   return (
     <DocsThemeContext.Provider
-      value={{ setBrand, themeKeys, toggleColorScheme, getColorMode }}
+      value={{ setBrand, themeKeys, toggleColorScheme, getColorMode, getBrand }}
     >
       <ThemeProvider
         theme={themes[themeState.brand][themeState.colorMode]}
