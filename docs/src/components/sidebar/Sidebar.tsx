@@ -52,7 +52,7 @@ export const Sidebar: React.FC<any> = () => {
       render={(data: PagesData) => (
         <div className="flex flex-col flex-grow pt-5 pb-4 bg-gohan overflow-y-auto">
           <a href="/" className="flex items-center flex-shrink-0 px-4">
-            <IconLogoMoonDesign className="h-8 text-piccolo w-auto" />
+            <IconLogoMoonDesign className="h-8 w-auto text-bulma" />
           </a>
           <div className="mt-5 flex-grow flex flex-col">
             <nav
