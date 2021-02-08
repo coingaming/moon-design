@@ -116,7 +116,7 @@ export const DarkModeSwitcher: React.FC<IDarkModeSwitcher> = ({
       <span
         className={`${
           isEnabled ? 'translate-x-5' : 'translate-x-0'
-        } bg-gohan pointer-events-none relative inline-block h-5 w-5 rounded-full shadow transform ring-0 transition ease-in-out duration-200`}
+        } bg-gohan-80 pointer-events-none relative inline-block h-5 w-5 rounded-full shadow transform ring-0 transition ease-in-out duration-200`}
       >
         <span
           className={`${
