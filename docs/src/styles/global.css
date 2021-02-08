@@ -96,113 +96,113 @@ hr {
 }
 
 .bitcasino-dark {
-  --piccolo-120: #e5e5e5;
-  --piccolo: #ffffff;
-  --piccolo-80: #e5e5e5;
+  --piccolo-120: #f54100;
+  --piccolo: #ff4f0f;
+  --piccolo-80: #fa642e;
 
-  --hit-120: #292929;
-  --hit: #0b0b0b;
-  --hit-80: #292929;
+  --hit-120: #572385;
+  --hit: #642e94;
+  --hit-80: #7139a2;
 
-  --beerus: #1f1f1f;
+  --beerus: #521b81;
 
-  --goku: #000000;
-  --goku-80: #000000;
-  --goku-40: #000000;
-  --goku-10: #000000;
+  --goku: #24033f;
+  --goku-80: #320854;
+  --goku-40: #4c1a75;
+  --goku-10: #65348d;
 
-  --gohan: #0b0b0b;
-  --gohan-80: #292929;
-  --gohan-40: #292929;
-  --gohan-10: #0b0b0b;
+  --gohan: #3e0d68;
+  --gohan-80: #4b1679;
+  --gohan-40: #642e94;
+  --gohan-10: #7e48ad;
 
-  --goten: #000000;
+  --goten: #ffffff;
 
   --bulma: #ffffff;
 
-  --trunks: #999ca0;
+  --trunks: #a18eb4;
 }
 
 .bitcasino-light {
-  --piccolo-120: #e5e5e5;
-  --piccolo: #ffffff;
-  --piccolo-80: #e5e5e5;
+  --piccolo-120: #f54100;
+  --piccolo: #ff4f0f;
+  --piccolo-80: #fa642e;
 
-  --hit-120: #292929;
-  --hit: #0b0b0b;
-  --hit-80: #292929;
+  --hit-120: #d9e3e8;
+  --hit: #e3eaed;
+  --hit-80: #edf1f3;
 
-  --beerus: #1f1f1f;
+  --beerus: #eaeef0;
 
-  --goku: #000000;
-  --goku-80: #000000;
-  --goku-40: #000000;
-  --goku-10: #000000;
+  --goku: #f3f5f6;
+  --goku-80: #eaeef0;
+  --goku-40: #d8e0e3;
+  --goku-10: #c5d2d8;
 
-  --gohan: #0b0b0b;
-  --gohan-80: #292929;
-  --gohan-40: #292929;
-  --gohan-10: #0b0b0b;
+  --gohan: #ffffff;
+  --gohan-80: #f7f7f7;
+  --gohan-40: #e8e8e8;
+  --gohan-10: #d9d9d9;
 
-  --goten: #000000;
+  --goten: #ffffff;
 
-  --bulma: #ffffff;
+  --bulma: #0f161f;
 
-  --trunks: #999ca0;
+  --trunks: #8697a2;
 }
 
 .sportsbet-dark {
-  --piccolo-120: #e5e5e5;
-  --piccolo: #ffffff;
-  --piccolo-80: #e5e5e5;
+  --piccolo-120: #02c054;
+  --piccolo: #0ccf61;
+  --piccolo-80: #18dc6d;
 
-  --hit-120: #292929;
-  --hit: #0b0b0b;
-  --hit-80: #292929;
+  --hit-120: #2d3139;
+  --hit: #393e47;
+  --hit-80: #454a54;
 
-  --beerus: #1f1f1f;
+  --beerus: #31373f;
 
-  --goku: #000000;
-  --goku-80: #000000;
-  --goku-40: #000000;
-  --goku-10: #000000;
+  --goku: #232a33;
+  --goku-80: #353c44;
+  --goku-40: #4c5159;
+  --goku-10: #62676d;
 
-  --gohan: #0b0b0b;
-  --gohan-80: #292929;
-  --gohan-40: #292929;
-  --gohan-10: #0b0b0b;
+  --gohan: #1a212a;
+  --gohan-80: #31373f;
+  --gohan-40: #5f646a;
+  --gohan-10: #8c9095;
 
-  --goten: #000000;
+  --goten: #ffffff;
 
   --bulma: #ffffff;
 
-  --trunks: #999ca0;
+  --trunks: #8697a2;
 }
 
 .sportsbet-light {
-  --piccolo-120: #e5e5e5;
-  --piccolo: #ffffff;
-  --piccolo-80: #e5e5e5;
+  --piccolo-120: #02c054;
+  --piccolo: #0ccf61;
+  --piccolo-80: #18dc6d;
 
-  --hit-120: #292929;
-  --hit: #0b0b0b;
-  --hit-80: #292929;
+  --hit-120: #d6d8db;
+  --hit: #dfe0e2;
+  --hit-80: #e7e8e9;
 
-  --beerus: #1f1f1f;
+  --beerus: #e6e6e6;
 
-  --goku: #000000;
-  --goku-80: #000000;
-  --goku-40: #000000;
-  --goku-10: #000000;
+  --goku: #ffffff;
+  --goku-80: #f1f2f3;
+  --goku-40: #e0e3e6;
+  --goku-10: #ced4d9;
 
-  --gohan: #0b0b0b;
-  --gohan-80: #292929;
-  --gohan-40: #292929;
-  --gohan-10: #0b0b0b;
+  --gohan: #f7f7f7;
+  --gohan-80: #f0f0f0;
+  --gohan-40: #e0e0e0;
+  --gohan-10: #d1d1d1;
 
-  --goten: #000000;
+  --goten: #ffffff;
 
-  --bulma: #ffffff;
+  --bulma: #1a212a;
 
-  --trunks: #999ca0;
+  --trunks: #607680;
 }

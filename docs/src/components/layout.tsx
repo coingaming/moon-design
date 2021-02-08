@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { mq, rem } from '@heathmont/moon-utils';
+import { mq } from '@heathmont/moon-utils';
 
 import { Children } from '../types';
 import { useDocsTheme } from '../provider';
@@ -8,21 +8,19 @@ import { useDocsTheme } from '../provider';
 import { Sidebar } from './sidebar/Sidebar';
 import { DarkModeSwitcher } from './DarkModeSwitch';
 
-const Main = styled.main(({ theme: { breakpoint, space } }) => ({
-  // padding: `${rem(space.large)} ${rem(space.default)}`,
+const Main = styled.main(({ theme: { breakpoint } }) => ({
   [mq(breakpoint.medium)]: {
     paddingLeft: '2rem',
     paddingRight: '2rem',
-    // margin: 'auto',
     maxWidth: '900px',
     width: '100%',
   },
 }));
 
-const themes = {
-  moonDark: 'theme-moon-dark',
-  moonLight: 'theme-moon-light',
-};
+// const themes = {
+//   moonDark: 'theme-moon-dark',
+//   moonLight: 'theme-moon-light',
+// };
 
 export default ({ children }: Children) => {
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
