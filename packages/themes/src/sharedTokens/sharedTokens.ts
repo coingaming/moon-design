@@ -184,7 +184,8 @@ export type ColorNames =
   | 'frieza.100'
   | 'frieza.10'
   | 'nappa.100'
-  | 'nappa.10';
+  | 'nappa.10'
+  | 'popo.100';
 
 export type ColorBase = {
   text: ColorValue;
