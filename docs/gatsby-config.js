@@ -12,12 +12,28 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
           default: require.resolve('./src/components/layout.tsx'),
         },
         extensions: ['.mdx'],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+            },
+          },
+        ],
       },
     },
     'gatsby-plugin-react-helmet',
@@ -64,5 +80,6 @@ module.exports = {
     // },
     `gatsby-plugin-typescript`,
     'gatsby-plugin-offline',
+    'gatsby-plugin-postcss',
   ],
 };
