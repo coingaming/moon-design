@@ -27,6 +27,8 @@ import {
   shangrilaDark,
 } from '@heathmont/moon-themes';
 
+import useLocalStorage from './components/useLocalStorage';
+
 const themes: DocsThemes = {
   sportsbet: {
     dark: sportsbetDark,
@@ -111,6 +113,8 @@ export const DocsThemeContext = React.createContext({
   },
   themeKeys: [''],
   toggleColorScheme: () => {},
+  getColorMode: () => null,
+  getBrand: () => null,
 });
 
 export const useDocsTheme = () => React.useContext(DocsThemeContext);
@@ -118,15 +122,24 @@ export const useDocsTheme = () => React.useContext(DocsThemeContext);
 export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   children,
 }) => {
+  const [localStorageMode, setLocalStorageMode] = useLocalStorage(
+    'mode',
+    'dark'
+  );
+  const [localStorageBrand, setLocalStorageBrand] = useLocalStorage(
+    'brand',
+    'moonDesign'
+  );
   const [themeState, setThemeState] = React.useState({
-    brand: 'moonDesign',
-    colorMode: 'dark',
+    brand: localStorageBrand,
+    colorMode: localStorageMode,
   });
 
   /**
    * Toggle between themes 'dark' and 'light' states
    */
   const toggleColorScheme = () => {
+    setLocalStorageMode(themeState.colorMode === 'dark' ? 'light' : 'dark');
     setThemeState({
       brand: themeState.brand,
       colorMode: themeState.colorMode === 'dark' ? 'light' : 'dark',
@@ -134,14 +147,17 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   };
 
   const setBrand = (themeKey: DocsBrands) => {
+    setLocalStorageBrand(themeKey);
     setThemeState({ brand: themeKey, colorMode: themeState.colorMode });
   };
 
+  const getColorMode = () => themeState.colorMode;
+  const getBrand = () => themeState.brand;
   const themeKeys = Object.keys(themes);
 
   return (
     <DocsThemeContext.Provider
-      value={{ setBrand, themeKeys, toggleColorScheme }}
+      value={{ setBrand, themeKeys, toggleColorScheme, getColorMode, getBrand }}
     >
       <ThemeProvider
         theme={themes[themeState.brand][themeState.colorMode]}
