@@ -10,6 +10,8 @@ import { DarkModeSwitcher } from './DarkModeSwitch';
 import ThemeSwitcher from './ThemeSwitch';
 
 const Main = styled.main(({ theme: { breakpoint } }) => ({
+  paddingLeft: '1rem',
+  paddingRight: '1rem',
   [mq(breakpoint.medium)]: {
     paddingLeft: '2rem',
     paddingRight: '2rem',
@@ -80,7 +82,7 @@ export default ({ children }: Children) => {
                 <button
                   type="button"
                   onClick={closeSidebar}
-                  className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-1 focus:ring-inset focus:ring-trunks"
+                  className="ml-1 flex text-bulma bg-goku items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-1 focus:ring-inset focus:ring-trunks"
                 >
                   <span className="sr-only">Close sidebar</span>
                   <svg
@@ -112,7 +114,7 @@ export default ({ children }: Children) => {
         </div>
       </div>
       <div className="flex flex-col w-0 flex-1 overflow-hidden">
-        <div className="md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3">
+        <div className="md:hidden text-bulma bg-goku pl-1 pt-1 sm:pl-3 sm:pt-3">
           <button
             type="button"
             onClick={openSidebar}
