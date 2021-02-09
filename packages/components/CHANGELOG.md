@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.77.0](https://github.com/coingaming/sportsbet-design/compare/v2.76.0...v2.77.0) (2021-02-08)
+
+
+### Bug Fixes
+
+* fix end date for next month range ([b97d3e2](https://github.com/coingaming/sportsbet-design/commit/b97d3e271a5212305853ba296b9927b49b3d4401))
+
+
+### Features
+
+* add custom ranges list to config ([01db269](https://github.com/coingaming/sportsbet-design/commit/01db26961123b8d813cf020275ec734471ad165d))
+
+
+
+
+
+# [2.76.0](https://github.com/coingaming/sportsbet-design/compare/v2.75.0...v2.76.0) (2021-02-05)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+
+
+
+
+# [2.75.0](https://github.com/coingaming/sportsbet-design/compare/v2.74.0...v2.75.0) (2021-02-03)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+
+
+
+
+# [2.74.0](https://github.com/coingaming/sportsbet-design/compare/v2.73.0...v2.74.0) (2021-02-01)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+
+
+
+
+# [2.73.0](https://github.com/coingaming/sportsbet-design/compare/v2.72.0...v2.73.0) (2021-01-28)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+
+
+
+
 # [2.72.0](https://github.com/coingaming/sportsbet-design/compare/v2.71.0...v2.72.0) (2021-01-26)
 
 **Note:** Version bump only for package @heathmont/moon-components

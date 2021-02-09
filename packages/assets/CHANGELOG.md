@@ -3,6 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.76.0](https://github.com/coingaming/sportsbet-design/compare/v2.75.0...v2.76.0) (2021-02-05)
+
+**Note:** Version bump only for package @heathmont/moon-assets
+
+
+
+
+
+# [2.75.0](https://github.com/coingaming/sportsbet-design/compare/v2.74.0...v2.75.0) (2021-02-03)
+
+
+### Features
+
+* SBC-7 update sbio logo ([0c30588](https://github.com/coingaming/sportsbet-design/commit/0c30588566e078782b00b2065a379da4b9aefa2a))
+
+
+
+
+
+# [2.74.0](https://github.com/coingaming/sportsbet-design/compare/v2.73.0...v2.74.0) (2021-02-01)
+
+
+### Features
+
+* SBC-1 update canadian logo ([9489e93](https://github.com/coingaming/sportsbet-design/commit/9489e93f5f2c94e64df525c2af17d27451bedb31))
+
+
+
+
+
+# [2.73.0](https://github.com/coingaming/sportsbet-design/compare/v2.72.0...v2.73.0) (2021-01-28)
+
+
+### Features
+
+* SBC-1 add sbio logo ([7042da2](https://github.com/coingaming/sportsbet-design/commit/7042da2a3ae05c9ca221490e8971b16f59c6b5b6))
+
+
+
+
+
 # [2.72.0](https://github.com/coingaming/sportsbet-design/compare/v2.71.0...v2.72.0) (2021-01-26)
 
 
