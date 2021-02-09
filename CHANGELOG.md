@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
+
+
+### Bug Fixes
+
+* theming ([e066b73](https://github.com/coingaming/sportsbet-design/commit/e066b7357f91ed5072c7788d0062eb8efbd19add))
+* **Checkbox:** center aligned ([967db0a](https://github.com/coingaming/sportsbet-design/commit/967db0a206bf3e44e4f8dce2596c97ce8889a873))
+* hover ([3aa31bd](https://github.com/coingaming/sportsbet-design/commit/3aa31bd3efd23a2743dba3170ed561207159fee8))
+* hover ([7cb828f](https://github.com/coingaming/sportsbet-design/commit/7cb828fcfd2a95b81d660b90d659497ace6c7460))
+
+
+### Features
+
+* **docs:** theme switch ([2e5c4ce](https://github.com/coingaming/sportsbet-design/commit/2e5c4ceb45006d90c856adfd49a0a753b34f925f))
+* bitcasino & sportsbet initial themes ([3fbb743](https://github.com/coingaming/sportsbet-design/commit/3fbb7436b5542af39ba876ecc2657630ce3ebc29))
+* colors initial ([587766d](https://github.com/coingaming/sportsbet-design/commit/587766d1db16abaf5fae45d487a2dc4e3dd58981))
+* colors initial ([49dfe52](https://github.com/coingaming/sportsbet-design/commit/49dfe5284a65e15ce61866d0e5a83b27be41368d))
+* initial commit ([5124ec5](https://github.com/coingaming/sportsbet-design/commit/5124ec578498e7cbdbe3a128fe180164d9f2512d))
+* layout ([c48c580](https://github.com/coingaming/sportsbet-design/commit/c48c580722a8a81326aba264b8fafa2facffeace))
+* sidebar hover colours ([ab16b08](https://github.com/coingaming/sportsbet-design/commit/ab16b080b4c14a4b13cd568537be548a7f413ae9))
+* sidebar icons ([bc089f6](https://github.com/coingaming/sportsbet-design/commit/bc089f6d1adf9087b731797529bda60a67a285e6))
+* sidebar initial commit ([0b0f64b](https://github.com/coingaming/sportsbet-design/commit/0b0f64b6b66c2b544b8d9a1e9fd8c63a6cffa8ca))
+* sidebar logic ([90aa902](https://github.com/coingaming/sportsbet-design/commit/90aa90279e23254d1d1e676ebfbbe83d1c23efed))
+* svg icons ([99afe6f](https://github.com/coingaming/sportsbet-design/commit/99afe6f69de39595c18d42662f508ac39c61221f))
+* switch background color ([9c04c9e](https://github.com/coingaming/sportsbet-design/commit/9c04c9ed011c0625fea0b52bae9830a20162f7b7))
+* theme in local storage ([a796f50](https://github.com/coingaming/sportsbet-design/commit/a796f504cc909d708c7485cdf5b40f5823b96bea))
+* theming ([3c6548f](https://github.com/coingaming/sportsbet-design/commit/3c6548f2f356912e49fd946ef0403d0fd5a9c5b7))
+* **docs:** breadcrumbs ([2a6cb5c](https://github.com/coingaming/sportsbet-design/commit/2a6cb5cf20f02077534c64c6cb8d74bf0224b709))
+* **docs:** layout was redone ([ca5d28f](https://github.com/coingaming/sportsbet-design/commit/ca5d28f5ec733c5eb3c36c9a569402acdcb69f9b))
+* **docs:** side navbar ([97dabbb](https://github.com/coingaming/sportsbet-design/commit/97dabbb86266e6997b0648db8e09b2eef4d42a07))
+* **docs:** sidemenu works ([f5f74f7](https://github.com/coingaming/sportsbet-design/commit/f5f74f73187d34fa416c605118fdf65ff48bb87a))
+* switcher initial ([9fc4c10](https://github.com/coingaming/sportsbet-design/commit/9fc4c10d011f64fcde4a787850478f4f862fa305))
+
+
+
+
+
 # [2.77.0](https://github.com/coingaming/sportsbet-design/compare/v2.76.0...v2.77.0) (2021-02-08)
 
 
