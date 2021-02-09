@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { CSSObject } from 'styled-components';
 import { preToCodeBlock } from 'mdx-utils';
-import { Link, Stack } from '@heathmont/moon-components';
+import { Stack } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 
 import { Code } from '../components/code';
@@ -35,39 +35,51 @@ const MarkdownStack = styled(Stack as any)({
   },
 });
 
+interface mdxComponentProps {
+  id: string;
+  children: Children;
+}
+
 /**
  * Map custom components to HTML provided by MDX
  * See: https://mdxjs.com/getting-started/
  */
 export const mdxComponents = {
   wrapper: (props: any) => <MarkdownStack {...props} />,
-  // h1: ({ children }: Children) => (
-  //   <Heading size="alpha" as="h1">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h2: ({ children }: Children) => (
-  //   <Heading size="bravo" as="h2">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h3: ({ children }: Children) => (
-  //   <Heading size="charlie" as="h3">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h4: ({ children }: Children) => (
-  //   <Heading size="delta" as="h4">
-  //     {children}
-  //   </Heading>
-  // ),
-  // h5: ({ children }: Children) => (
-  //   <Heading size="echo" as="h5">
-  //     {children}
-  //   </Heading>
-  // ),
-  p: ({ children }: Children) => <p style={maxWidth}>{children}</p>,
-  a: ({ children, ...props }: Children) => <Link {...props}>{children}</Link>,
+  h1: ({ children, id }: mdxComponentProps) => (
+    <h1 id={id} className="text-bulma text-4xl">
+      {children}
+    </h1>
+  ),
+  h2: ({ children, id }: mdxComponentProps) => (
+    <h1 id={id} className="text-bulma text-3xl">
+      {children}
+    </h1>
+  ),
+  h3: ({ children, id }: mdxComponentProps) => (
+    <h1 id={id} className="text-bulma text-2xl">
+      {children}
+    </h1>
+  ),
+  h4: ({ children, id }: mdxComponentProps) => (
+    <h1 id={id} className="text-bulma text-xl">
+      {children}
+    </h1>
+  ),
+  h5: ({ children, id }: mdxComponentProps) => (
+    <h1 id={id} className="text-bulma text-lg">
+      {children}
+    </h1>
+  ),
+  p: ({ children }: Children) => <p className="text-bulma mb-4">{children}</p>,
+  a: ({ children, ...props }: Children) => (
+    <a {...props} className="text-bulma">
+      {children}
+    </a>
+  ),
+  li: ({ children }: Children) => (
+    <li className="bg-pink text-bulma">{children}</li>
+  ),
   table: ({ children }: Children) => <Table>{children}</Table>,
   /* @TODO Revisit post-EPL */
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
