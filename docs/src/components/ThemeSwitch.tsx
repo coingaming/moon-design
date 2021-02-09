@@ -1,5 +1,10 @@
 import React from 'react';
-import { LogoSportsbetShort, LogoBitcasinoShort } from '@heathmont/moon-assets';
+import {
+  LogoSportsbetShort,
+  LogoBitcasinoShort,
+  LogoDrop,
+  LogoMoonDesignShort,
+} from '@heathmont/moon-assets';
 
 const ThemeSwitcher = ({ setBrand, themeKeys }) => {
   const [isOpened, setIsOpened] = React.useState(false);
@@ -13,9 +18,9 @@ const ThemeSwitcher = ({ setBrand, themeKeys }) => {
         onClick={toggle}
         type="button"
         aria-pressed="false"
-        className="fixed bottom-4 right-4 text-bulma bg-gohan inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none"
+        className="fixed bottom-4 text-bulma bg-gohan hover:bg-gohan-80 right-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none"
       >
-        Theme Switch
+        <LogoDrop fontSize="2rem" />
       </button>
       {isOpened && (
         <div className="fixed bottom-16 right-4">
@@ -31,7 +36,9 @@ const ThemeSwitcher = ({ setBrand, themeKeys }) => {
               {themeKey === 'bitcasino' && (
                 <LogoBitcasinoShort fontSize="1rem" />
               )}
-              {themeKey === 'moonDesign' && <div>Moon.io</div>}
+              {themeKey === 'moonDesign' && (
+                <LogoMoonDesignShort fontSize="1rem" />
+              )}
             </button>
           ))}
         </div>
