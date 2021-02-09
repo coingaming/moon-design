@@ -90,6 +90,7 @@ export const CheckboxLabel = styled.label<CheckboxLabelProps>(
   ({ theme }) => ({
     display: 'flex',
     flexDirection: 'row',
+    alignItems: 'center',
     gap: rem(theme.space.small),
   }),
   ({ variant, theme }) => {
