@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 import { useSpring, animated } from 'react-spring';
 import { Global } from '@heathmont/moon-global';
 import { mq, rem } from '@heathmont/moon-utils';
@@ -163,7 +164,7 @@ const trans1 = (x: number, y: number) => {
 const trans2 = (x: number, y: number) =>
   `translate3d(${x / 8 + 35}px,${y / 8 - 23}px,0)`;
 
-const HeadLink = styled.a({
+const HeadLink = styled(Link)({
   color: '#FFFFFF',
   textDecoration: 'none',
   '&:hover': {
@@ -215,7 +216,7 @@ export default function Home() {
             </svg>
             <span>by Coingaming</span>
             <Nav space="60px">
-              <HeadLink href="/core/badge">
+              <HeadLink to="/core/badge">
                 Components
                 <Badge
                   color="piccolo.100"
@@ -225,7 +226,7 @@ export default function Home() {
                   WIP
                 </Badge>
               </HeadLink>
-              <HeadLink href="/assets/icons">Assets</HeadLink>
+              <HeadLink to="/assets/icons">Assets</HeadLink>
             </Nav>
           </Head>
           <LeftText>open source design system</LeftText>

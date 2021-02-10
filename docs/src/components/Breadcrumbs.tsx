@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Breadcrumbs = ({ menu, name, route }) => {
   return (
@@ -9,7 +10,7 @@ const Breadcrumbs = ({ menu, name, route }) => {
             })} */}
         <li>
           <div>
-            <a href="/" className="text-trunks hover:text-piccolo">
+            <Link to="/" className="text-trunks hover:text-piccolo">
               <svg
                 className="flex-shrink-0 h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +21,7 @@ const Breadcrumbs = ({ menu, name, route }) => {
                 <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
               </svg>
               <span className="sr-only">Home</span>
-            </a>
+            </Link>
           </div>
         </li>
         <li>
