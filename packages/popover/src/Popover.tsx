@@ -72,9 +72,7 @@ const Popover: React.FC<Props> = ({
       render={(attrs) => {
         return (
           <div className="box" tabIndex={-1} {...attrs}>
-            <PopoverContainer className={className}>
-              {content}
-            </PopoverContainer>
+            <PopoverContainer className={className}>{content}</PopoverContainer>
           </div>
         );
       }}
