@@ -24,7 +24,7 @@ const List = styled.ul(() => ({
   overflow: 'auto',
   listStyle: 'none',
   padding: 0,
-  margin: `0 -${rem(12)}`,
+  margin: `0 0 0 -${rem(12)}`,
 }));
 
 const Option = styled.label(({ theme }) => ({
@@ -58,7 +58,7 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
 }) => {
   const onCheckboxChange = (optionValue: any) => {
     if (value.includes(optionValue)) {
-      onChange(value.filter((currentValue) => currentValue !== optionValue));
+      onChange(value.filter(currentValue => currentValue !== optionValue));
     } else {
       onChange([...value, optionValue]);
     }
@@ -66,13 +66,13 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
 
   return (
     <List style={{ maxHeight }}>
-      {options.map((option) => (
+      {options.map(option => (
         <Inline key={option.value} space="xsmall">
           <Option>
             <Checkbox
               id={option.id}
               checked={value.some(
-                (currentValue) => currentValue === option.value
+                currentValue => currentValue === option.value
               )}
               onChange={() => onCheckboxChange(option.value)}
               disabled={option.count === undefined ? false : !option.count}
