@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.79.2](https://github.com/coingaming/sportsbet-design/compare/v2.79.1...v2.79.2) (2021-02-10)
+
+
+### Bug Fixes
+
+* gatsby-plugin-remove-trailing-slashes ([131905c](https://github.com/coingaming/sportsbet-design/commit/131905c5c15de631650338561015d8eda4c7bc1a))
+
+
+
+
+
 ## [2.79.1](https://github.com/coingaming/sportsbet-design/compare/v2.79.0...v2.79.1) (2021-02-10)
 
 
