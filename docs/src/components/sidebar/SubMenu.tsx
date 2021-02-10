@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import IconPicture from '../../assets/svg/icons/icon-picture.svg';
 import IconChartArea from '../../assets/svg/icons/icon-chart-area.svg';
@@ -14,16 +15,15 @@ const SubMenuItem = ({ title, route }) => {
   const locationPathname =
     typeof window !== `undefined` ? window && window.location.pathname : null;
   const isCurrent = locationPathname?.includes(route);
-
   return (
-    <a
-      href={route}
+    <Link
+      to={route}
       className={`${
         isCurrent ? 'bg-gohan-80 hover:bg-gohan-40' : 'hover:bg-gohan-80'
       }  group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-bulma rounded-md`}
     >
       {title}
-    </a>
+    </Link>
   );
 };
 
