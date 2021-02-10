@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 /* eslint-disable import/no-named-default */
@@ -40,7 +40,7 @@ const Navigation = ({ mainItems }) => {
           return (
             <>
               <div>
-                <a href={url}>{title}</a>
+                <Link to={url}>{title}</Link>
               </div>
               <div className="ml-4">{subItems}</div>
             </>
@@ -48,7 +48,7 @@ const Navigation = ({ mainItems }) => {
         }
         return (
           <div>
-            <a href={url}>{title}</a>
+            <Link to={url}>{title}</Link>
           </div>
         );
       })}

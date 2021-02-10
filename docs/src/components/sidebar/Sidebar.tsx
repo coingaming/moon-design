@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
 
 import { PagesData, Frontmatter } from '../../types';
 import { transformSections } from '../nav/transform';
@@ -51,9 +51,9 @@ export const Sidebar: React.FC<any> = () => {
       query={sidebar}
       render={(data: PagesData) => (
         <div className="flex flex-col flex-grow pt-5 pb-4 bg-gohan overflow-y-auto">
-          <a href="/" className="flex items-center flex-shrink-0 px-4">
+          <Link to="/" className="flex items-center flex-shrink-0 px-4">
             <IconLogoMoonDesign className="h-8 w-auto text-bulma" />
-          </a>
+          </Link>
           <div className="mt-5 flex-grow flex flex-col">
             <nav
               className="flex-1 px-2 space-y-1 bg-gohan"
