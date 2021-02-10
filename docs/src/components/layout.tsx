@@ -69,7 +69,7 @@ export default ({ children }: Children) => {
     colorMode: getColorMode(),
   });
   return (
-    <div className={`${className} h-screen flex overflow-hidden`}>
+    <div className={`${className} bg-goku h-screen flex overflow-hidden`}>
       {isSidebarOpen && (
         <div className="md:hidden">
           <div className="fixed inset-0 flex z-40">
