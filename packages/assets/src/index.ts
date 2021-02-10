@@ -752,6 +752,8 @@ export { default as IconCredit } from './icons/IconCredit';
 export * from './icons/IconCredit';
 export { default as IconCrypto } from './icons/IconCrypto';
 export * from './icons/IconCrypto';
+export { default as IconCurrencyAda } from './icons/IconCurrencyAda';
+export * from './icons/IconCurrencyAda';
 export { default as IconCurrencyArs } from './icons/IconCurrencyArs';
 export * from './icons/IconCurrencyArs';
 export { default as IconCurrencyBdt } from './icons/IconCurrencyBdt';
