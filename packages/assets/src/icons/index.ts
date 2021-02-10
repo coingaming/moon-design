@@ -122,6 +122,8 @@ export { default as IconCredit } from './IconCredit';
 export * from './IconCredit';
 export { default as IconCrypto } from './IconCrypto';
 export * from './IconCrypto';
+export { default as IconCurrencyAda } from './IconCurrencyAda';
+export * from './IconCurrencyAda';
 export { default as IconCurrencyArs } from './IconCurrencyArs';
 export * from './IconCurrencyArs';
 export { default as IconCurrencyBdt } from './IconCurrencyBdt';
