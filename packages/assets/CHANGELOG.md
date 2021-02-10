@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.80.0](https://github.com/coingaming/sportsbet-design/compare/v2.79.2...v2.80.0) (2021-02-10)
+
+
+### Features
+
+* ADA GroupIconCurrency ([10c73a7](https://github.com/coingaming/sportsbet-design/commit/10c73a7e7654773211bad98d4a69976c682366f6))
+
+
+
+
+
 # [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
 
 
