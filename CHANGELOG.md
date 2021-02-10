@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.79.0](https://github.com/coingaming/sportsbet-design/compare/v2.78.0...v2.79.0) (2021-02-10)
+
+
+### Features
+
+* added className to make popover extensible ([bc6f69a](https://github.com/coingaming/sportsbet-design/commit/bc6f69a8813a0b5efcb49a3a648850e4823ffb04))
+
+
+
+
+
 # [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
 
 
