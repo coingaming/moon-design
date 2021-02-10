@@ -25,6 +25,7 @@ type Props = {
   closeOnClickOutside?: boolean;
   placement?: Placement;
   content: React.ReactNode;
+  className?: string;
   isOpen?: boolean;
   onVisibilityChange?: (open: boolean) => void;
 };
@@ -35,6 +36,7 @@ const Popover: React.FC<Props> = ({
   placement = 'top',
   content,
   children,
+  className,
   isOpen = false,
   onVisibilityChange,
 }) => {
@@ -70,7 +72,9 @@ const Popover: React.FC<Props> = ({
       render={(attrs) => {
         return (
           <div className="box" tabIndex={-1} {...attrs}>
-            <PopoverContainer>{content}</PopoverContainer>
+            <PopoverContainer className={className}>
+              {content}
+            </PopoverContainer>
           </div>
         );
       }}
