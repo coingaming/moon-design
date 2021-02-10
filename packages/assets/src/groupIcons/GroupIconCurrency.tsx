@@ -1,5 +1,6 @@
 import React from 'react';
 
+import IconCurrencyAda from '../icons/IconCurrencyAda';
 import IconCurrencyArs from '../icons/IconCurrencyArs';
 import IconCurrencyBdt from '../icons/IconCurrencyBdt';
 import IconCurrencyBob from '../icons/IconCurrencyBob';
@@ -36,7 +37,8 @@ import IconCurrencyVnd from '../icons/IconCurrencyVnd';
 import IconCurrencyXrp from '../icons/IconCurrencyXrp';
 
 type CurrencyName =
-  | 'ARS'
+  | 'ADA'
+  | 'ARS' // Argentinian Peso
   | 'BDT'
   | 'BOB'
   | 'BRL'
@@ -77,6 +79,7 @@ export type GroupIconCurrencyProps = {
 };
 
 const currencyIcons = {
+  ADA: IconCurrencyAda,
   ARS: IconCurrencyArs,
   BDT: IconCurrencyBdt,
   BOB: IconCurrencyBob,
