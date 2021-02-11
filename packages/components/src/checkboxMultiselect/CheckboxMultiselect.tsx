@@ -24,7 +24,7 @@ const List = styled.ul(() => ({
   overflow: 'auto',
   listStyle: 'none',
   padding: 0,
-  margin: `0 -${rem(12)}`,
+  margin: `0 0 0 -${rem(12)}`,
 }));
 
 const Option = styled.label(({ theme }) => ({
