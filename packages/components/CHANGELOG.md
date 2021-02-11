@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.81.0](https://github.com/coingaming/sportsbet-design/compare/v2.80.0...v2.81.0) (2021-02-11)
+
+
+### Bug Fixes
+
+* linting ([d61a3e1](https://github.com/coingaming/sportsbet-design/commit/d61a3e17ab47696cc983245ca9934b25194d97b3))
+* margin when there is count ([bcef5c5](https://github.com/coingaming/sportsbet-design/commit/bcef5c5c7cde5abd8a666530a336424f1f8d2d9b))
+
+
+
+
+
 # [2.80.0](https://github.com/coingaming/sportsbet-design/compare/v2.79.2...v2.80.0) (2021-02-10)
 
 **Note:** Version bump only for package @heathmont/moon-components
