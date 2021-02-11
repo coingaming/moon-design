@@ -28,7 +28,7 @@ export const prismTheme = (): PrismTheme => {
 
   return {
     plain: {
-      backgroundColor: theme.color.background,
+      backgroundColor: theme.color.gohan[100],
       color: theme.color.text,
       fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
       fontSize: '0.8rem',
