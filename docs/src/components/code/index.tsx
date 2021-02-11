@@ -24,10 +24,9 @@ type CodeProps = {
   'react-live'?: boolean;
 };
 
-const CodeWrapper = styled.div(({ theme: { color, radius, space } }) => ({
+const CodeWrapper = styled.div(({ theme: { color, space } }) => ({
   display: 'block',
-  borderBottom: `1px solid ${Utils.rem(radius.small)}`,
-  borderColor: color.beerus[100],
+  backgroundColor: color.gohan[100],
   position: 'relative',
   // overflow: 'hidden',
   '.prism-code:focus': {
@@ -41,15 +40,12 @@ const CodeWrapper = styled.div(({ theme: { color, radius, space } }) => ({
   },
 }));
 
-const CodePreview = styled.div(
-  ({ theme: { border, color, fontFamily, space } }) => ({
-    padding: Utils.rem(space.large),
-    minHeight: Utils.rem(space.large),
-    fontFamily,
-    borderBottom: border,
-    borderColor: color.beerus[100],
-  })
-);
+const CodePreview = styled.div(({ theme: { color, fontFamily, space } }) => ({
+  padding: Utils.rem(space.large),
+  minHeight: Utils.rem(space.large),
+  fontFamily,
+  borderBottom: `1px solid ${color.beerus[100]}`,
+}));
 
 export const Code = ({ codeString, ...props }: CodeProps) => {
   return (
