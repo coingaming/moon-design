@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.82.0](https://github.com/coingaming/sportsbet-design/compare/v2.81.0...v2.82.0) (2021-02-12)
+
+
+### Features
+
+* **Carousel:** first and last visible indices ([9714bf4](https://github.com/coingaming/sportsbet-design/commit/9714bf4d84862c049c1fc0895bf29f3a09a38ba6))
+
+
+
+
+
 # [2.81.0](https://github.com/coingaming/sportsbet-design/compare/v2.80.0...v2.81.0) (2021-02-11)
 
 
