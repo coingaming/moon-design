@@ -39,6 +39,36 @@ An interactive extension of the [`Reel`](../reel) component to cycle through con
 };
 ```
 
+## Visible indices
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 5 }, (value, index) => index);
+  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
+    width: '20rem',
+    height: '12rem',
+    borderRadius: radius.small,
+    background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '2rem',
+  }));
+  return (
+    <Carousel
+      space="xlarge"
+      items={({ firstVisibleIndex, lastVisibleIndex }) =>
+        items.map((item, index) => (
+          <ExampleContent>
+            {firstVisibleIndex}, {lastVisibleIndex}
+          </ExampleContent>
+        ))
+      }
+    />
+  );
+};
+```
+
 ## Customization
 
 ### Carousel with customized arrows
