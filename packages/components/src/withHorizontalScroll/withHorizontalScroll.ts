@@ -61,10 +61,14 @@ const scrollRightToStep = (
 const showHideIndicator = (
   itemRefs: HTMLElement[],
   setLeftIndicator: (isShow: boolean) => void,
-  setRightIndicator: (isShow: boolean) => void
+  setRightIndicator: (isShow: boolean) => void,
+  setFirstVisibleIndex: (index: number) => void,
+  setLastVisibleIndex: (index: number) => void
 ) => {
   const firstVisibleIndex = findFirstVisibleIndex(itemRefs);
   const lastVisibleIndex = findLastVisibleIndex(itemRefs);
+  setFirstVisibleIndex(firstVisibleIndex);
+  setLastVisibleIndex(lastVisibleIndex);
   if (lastVisibleIndex === -1 && firstVisibleIndex === -1) {
     setLeftIndicator(false);
     setRightIndicator(false);
@@ -78,6 +82,8 @@ const showHideIndicator = (
 export const withHorizontalScroll = (options: Options): any => {
   const [leftIndicator, setLeftIndicator] = React.useState(false);
   const [rightIndicator, setRightIndicator] = React.useState(false);
+  const [firstVisibleIndex, setFirstVisibleIndex] = React.useState(-1);
+  const [lastVisibleIndex, setLastVisibleIndex] = React.useState(-1);
   const containerRef = React.useRef(null);
 
   const { scrollStep } = options;
@@ -91,7 +97,13 @@ export const withHorizontalScroll = (options: Options): any => {
           entry.intersectionRatio >= THRESHOLD
             ? entry.target.setAttribute('visible', 'true')
             : entry.target.removeAttribute('visible');
-          showHideIndicator(itemRefs, setLeftIndicator, setRightIndicator);
+          showHideIndicator(
+            itemRefs,
+            setLeftIndicator,
+            setRightIndicator,
+            setFirstVisibleIndex,
+            setLastVisibleIndex
+          );
         });
       },
       {
@@ -124,6 +136,8 @@ export const withHorizontalScroll = (options: Options): any => {
   return {
     itemRef,
     containerRef,
+    firstVisibleIndex,
+    lastVisibleIndex,
     scrollLeftToStep: () =>
       scrollLeftToStep(scrollStep || 0, itemRefs, scrollIntoViewSmoothly),
     scrollRightToStep: () =>
