@@ -84,8 +84,8 @@ const DefaultScrollToRightButton = ({
     </CarouselControl>
   );
 
-type CarouselProps = {
-  items: any[];
+interface CarouselProps {
+  items: any;
   scrollToLeftButton?: any;
   scrollToRightButton?: any;
   scrollLeftCaption?: any;
@@ -93,7 +93,7 @@ type CarouselProps = {
   step?: number;
   scrollTo?: number;
   space?: SpaceProps | CSSObject['margin'];
-};
+}
 
 const Carousel: React.FC<CarouselProps> = ({
   items,
@@ -113,6 +113,8 @@ const Carousel: React.FC<CarouselProps> = ({
     scrollToIndex,
     canScrollLeft,
     canScrollRight,
+    firstVisibleIndex,
+    lastVisibleIndex,
   } = withHorizontalScroll({ scrollStep: step || 5 });
 
   React.useEffect(() => {
@@ -147,14 +149,23 @@ const Carousel: React.FC<CarouselProps> = ({
         />
       )}
       <ItemsScrollWrapper space={space} ref={containerRef}>
-        {items.map(
-          (item: React.ReactNode, index: string | number | undefined) => (
-            // eslint-disable-next-line react/no-array-index-key
-            <CarouselScrollItem key={index} ref={itemRef}>
-              {item}
-            </CarouselScrollItem>
-          )
-        )}
+        {typeof items === 'function'
+          ? items({ firstVisibleIndex, lastVisibleIndex }).map(
+              (item: React.ReactNode, index: string | number | undefined) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <CarouselScrollItem key={index} ref={itemRef}>
+                  {item}
+                </CarouselScrollItem>
+              )
+            )
+          : items.map(
+              (item: React.ReactNode, index: string | number | undefined) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <CarouselScrollItem key={index} ref={itemRef}>
+                  {item}
+                </CarouselScrollItem>
+              )
+            )}
       </ItemsScrollWrapper>
       {scrollToRightButton ? (
         scrollToRightButton({
