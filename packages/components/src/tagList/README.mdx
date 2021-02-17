@@ -11,11 +11,11 @@ List of tags with expanding dropdown
 
 ```jsx react-live
 <TagListWrapper>
-  <List>
+  <TagListInternal>
     <Tag>Bender</Tag>
     <Tag>Livegames</Tag>
     <Tag>Bitcasino</Tag>
-  </List>
+  </TagListInternal>
 </TagListWrapper>
 ```
 
@@ -23,36 +23,30 @@ List of tags with expanding dropdown
 
 ```jsx react-live
 <TagListWrapper>
-  <List>
+  <TagListInternal>
     <Tag>Bender</Tag>
     <Tag>Livegames</Tag>
     <Tag>Bitcasino</Tag>
     <ShowMore>+6</ShowMore>
-  </List>
+  </TagListInternal>
 </TagListWrapper>
 ```
 
 ## with expanded list
 
 ```jsx react-live
-<Inline style={{ padding: '60px 16px' }}>
+<Inline style={{ padding: '100px 16px' }}>
   <TagListWrapper>
-    <List>
+    <TagListInternal>
       <Tag>Bender</Tag>
       <Tag>Livegames</Tag>
       <Tag>Bitcasino</Tag>
       <ShowMore>+6</ShowMore>
-    </List>
-    <Dropdown>
-      <Tag>Bender</Tag>
-      <Tag>Livegames</Tag>
-      <Tag>Bitcasino</Tag>
-      <Tag>Luckuslots</Tag>
-      <Tag>Slots.io</Tag>
-      <Tag>Rocketpot</Tag>
-      <Tag>Betika</Tag>
-      <Tag>Sportbet</Tag>
-      <Tag>Chips</Tag>
+    </TagListInternal>
+    <Dropdown style={{ width: '120%' }}>
+      {Array.from({ length: 30 }).map((_, i) => (
+        <Tag key={`${i}`}>Item {i}</Tag>
+      ))}
       <CopyWrapper>
         <CopyButton>
           <CopyBubble position="bottom">Copy</CopyBubble>

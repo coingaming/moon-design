@@ -1,4 +1,3 @@
-import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -11,6 +10,7 @@ export const RemoveBubble = styled(Bubble as any)(({ theme }) => ({
   pointerEvents: 'none',
   transition: `opacity ${theme.transitionDuration.default}s ease-in-out`,
   opacity: 0,
+  width: 'auto',
 }));
 
 export const Tag = styled.div(({ theme }) => ({
@@ -19,55 +19,13 @@ export const Tag = styled.div(({ theme }) => ({
   backgroundColor: theme.color.goku[100],
   borderRadius: rem(8),
   padding: rem(8),
-  color: theme.color.piccolo[100],
+  color: theme.color.bulma[100],
   fontSize: rem(12),
-  height: rem(32),
+  minHeight: rem(30),
   fontWeight: theme.fontWeight.normal,
   position: 'relative',
+  gap: rem(6),
 }));
-
-export const TagInputWrapper = styled.div({
-  position: 'relative',
-});
-
-export const TagInputMain = styled.div<{ focused?: boolean; error?: boolean }>(
-  ({ theme }) => [
-    {
-      display: 'flex',
-      width: '100%',
-      minHeight: rem(48),
-      alignItems: 'center',
-      justifyContent: 'flex-start',
-      flexWrap: 'wrap',
-      position: 'relative',
-      padding: `${rem(8)} ${rem(40)} ${rem(4)} ${rem(12)}`,
-      backgroundColor: theme.color.gohan[100],
-      border: `${theme.borderWidth}px solid ${theme.color.beerus[100]}`,
-      borderRadius: rem(12),
-      transition: `border-color ${theme.transitionDuration.default}s ease`,
-      '&:hover': {
-        borderColor: theme.color.goku[40],
-      },
-      [Tag]: {
-        margin: `0 ${rem(4)} ${rem(4)} 0`,
-      },
-    },
-    ({ focused }) =>
-      focused && {
-        borderColor: theme.color.piccolo[100],
-        '&:hover': {
-          borderColor: theme.color.piccolo[100],
-        },
-      },
-    ({ error }) =>
-      error && {
-        borderColor: theme.color.chiChi[100],
-        '&:hover': {
-          borderColor: theme.color.chiChi[100],
-        },
-      },
-  ]
-);
 
 export const TagInputField = styled.input(({ theme }) => ({
   fontSize: rem(16),
@@ -85,6 +43,62 @@ export const TagInputField = styled.input(({ theme }) => ({
   },
 }));
 
+export const TagInputWrapper = styled.div({
+  position: 'relative',
+});
+
+export const TagInputMain = styled.div<{
+  focused?: boolean;
+  error?: boolean;
+  disabled?: boolean;
+}>(({ theme }) => [
+  {
+    display: 'flex',
+    width: '100%',
+    minHeight: rem(48),
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    flexWrap: 'wrap',
+    position: 'relative',
+    padding: `${rem(8)} ${rem(40)} ${rem(4)} ${rem(12)}`,
+    backgroundColor: theme.color.gohan[100],
+    border: `${theme.borderWidth}px solid ${theme.color.beerus[100]}`,
+    borderRadius: rem(theme.radius.default),
+    transition: `border-color ${theme.transitionDuration.default}s ease`,
+    '&:hover': {
+      borderColor: theme.color.goku[40],
+    },
+    '&:focus-within': {
+      borderColor: theme.color.piccolo[100],
+    },
+    [Tag]: {
+      margin: `0 ${rem(4)} ${rem(4)} 0`,
+    },
+  },
+  ({ focused }) =>
+    focused && {
+      borderColor: theme.color.piccolo[100],
+      '&:hover': {
+        borderColor: theme.color.piccolo[100],
+      },
+    },
+  ({ error }) =>
+    error && {
+      borderColor: theme.color.chiChi[100],
+      '&:focus-within, &:hover': {
+        borderColor: theme.color.chiChi[100],
+      },
+    },
+  ({ disabled }) =>
+    disabled && {
+      opacity: 0.5,
+      cursor: 'not-allowed',
+      [TagInputField]: {
+        cursor: 'not-allowed',
+      },
+    },
+]);
+
 export const TagRemove = styled.button(({ theme }) => ({
   appearance: 'none',
   background: 'none',
@@ -93,15 +107,14 @@ export const TagRemove = styled.button(({ theme }) => ({
   fontSize: rem(16),
   display: 'inline-flex',
   alignItems: 'center',
-  color: theme.color.piccolo[100],
+  color: theme.color.trunks[100],
   cursor: 'pointer',
-  marginLeft: rem(4),
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
   position: 'relative',
   outline: 'none',
   [RemoveBubble]: {
     marginRight: rem(-12),
-    marginBottom: rem(28),
+    marginBottom: rem(18),
   },
   '&:hover, &:focus': {
     color: theme.color.chiChi[100],
@@ -111,34 +124,32 @@ export const TagRemove = styled.button(({ theme }) => ({
   },
 }));
 
-export const IconDropdown = styled(IconChevronDownRounded as any)(
-  ({ theme }) => ({
-    position: 'absolute',
-    top: '50%',
-    right: rem(18),
-    fontSize: rem(12),
-    transform: 'translateY(-50%)',
-    color: theme.color.trunks[100],
-  })
-);
+export const ArrowContainer = styled.div(({ theme }) => ({
+  position: 'absolute',
+  top: '50%',
+  right: rem(18),
+  fontSize: rem(16),
+  transform: 'translateY(-50%)',
+  color: theme.color.trunks[100],
+}));
 
 export const RemoveAllButton = styled.button(({ theme }) => ({
   background: 'none',
   border: 'none',
   padding: 0,
-  fontSize: rem(24),
+  fontSize: rem(16),
   color: theme.color.trunks[100],
   cursor: 'pointer',
   display: 'flex',
   alignItems: 'center',
   position: 'absolute',
-  top: '50%',
-  right: rem(12),
-  transform: 'translateY(-50%)',
+  top: rem(16),
+  right: rem(16),
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
   outline: 'none',
+  whiteSpace: 'nowrap',
   [RemoveBubble]: {
-    marginRight: rem(-8),
+    marginRight: rem(-12),
     marginBottom: rem(24),
   },
   '&:hover, &:focus': {
@@ -164,7 +175,7 @@ export default {
   TagInputMain,
   TagInputField,
   TagRemove,
-  IconDropdown,
+  ArrowContainer,
   RemoveAllButton,
   DropdownWrapper,
 };
