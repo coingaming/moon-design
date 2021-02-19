@@ -7,6 +7,8 @@ import Search from './private/Search';
 type FilterDropdownProps = {
   searchPlaceholder?: string;
   onSearchChange?: (value: string) => void;
+  minWidth?: number | string;
+  width?: number | string;
 };
 
 const FilterDropdownWrapper = styled.div(({ theme }) => ({
@@ -17,18 +19,21 @@ const FilterDropdownWrapper = styled.div(({ theme }) => ({
   overflow: 'hidden',
   fontSize: rem(14),
   padding: rem(12),
-  minWidth: rem(240),
-  maxWidth: '100%',
 }));
 
 const Header = styled.div({
   marginBottom: rem(24),
 });
 
-const FilterDropdown: React.FC<FilterDropdownProps> = (props) => {
-  const { searchPlaceholder, onSearchChange, children } = props;
+const FilterDropdown: React.FC<FilterDropdownProps> = ({
+  searchPlaceholder,
+  onSearchChange,
+  children,
+  minWidth = rem(240),
+  width = 'auto',
+}) => {
   return (
-    <FilterDropdownWrapper>
+    <FilterDropdownWrapper style={{ width, minWidth }}>
       {!!onSearchChange && (
         <Header>
           <Search placeholder={searchPlaceholder} onChange={onSearchChange} />

@@ -13,7 +13,9 @@ Input field with tags and suggestions
 <TagInputWrapper>
   <TagInputMain>
     <TagInputField placeholder="Hint text" />
-    <IconDropdown />
+    <ArrowContainer>
+      <IconChevronDownRounded />
+    </ArrowContainer>
   </TagInputMain>
 </TagInputWrapper>
 ```
@@ -24,13 +26,15 @@ Input field with tags and suggestions
 <TagInputWrapper>
   <TagInputMain focused={true}>
     <TagInputField placeholder="Hint text" />
-    <IconDropdown />
+    <ArrowContainer>
+      <IconChevronDownRounded />
+    </ArrowContainer>
   </TagInputMain>
 
   <DropdownWrapper style={{ position: 'relative' }}>
-    <FilterDropdown>
+    <FilterDropdown width="100%">
       <CheckboxMultiselect
-        onChange={value => console.log(value)}
+        onChange={(value) => console.log(value)}
         value={[]}
         options={[
           { label: 'Label 1', value: 1 },
@@ -67,10 +71,13 @@ Input field with tags and suggestions
   </TagInputMain>
 
   <DropdownWrapper style={{ position: 'relative' }}>
-    <FilterDropdown>
+    <FilterDropdown width="100%">
       <CheckboxMultiselect
-        onChange={value => console.log(value)}
-        value={[{ label: 'Label 1', value: 1 }, { label: 'Label 2', value: 2 }]}
+        onChange={(value) => console.log(value)}
+        value={[
+          { label: 'Label 1', value: 1 },
+          { label: 'Label 2', value: 2 },
+        ]}
         options={[
           { label: 'Label 1', value: 1 },
           { label: 'Label 2', value: 2 },
@@ -109,10 +116,13 @@ Input field with tags and suggestions
   </TagInputMain>
 
   <DropdownWrapper style={{ position: 'relative' }}>
-    <FilterDropdown>
+    <FilterDropdown width="100%">
       <CheckboxMultiselect
-        onChange={value => console.log(value)}
-        value={[{ label: 'Label 1', value: 1 }, { label: 'Label 2', value: 2 }]}
+        onChange={(value) => console.log(value)}
+        value={[
+          { label: 'Label 1', value: 1 },
+          { label: 'Label 2', value: 2 },
+        ]}
         options={[
           { label: 'Label 1', value: 1 },
           { label: 'Label 2', value: 2 },
@@ -132,7 +142,9 @@ Input field with tags and suggestions
     <Tag>Label 1</Tag>
     <Tag>Label 2</Tag>
     <TagInputField />
-    <IconDropdown />
+    <ArrowContainer>
+      <IconChevronDownRounded />
+    </ArrowContainer>
   </TagInputMain>
 </TagInputWrapper>
 ```
@@ -159,7 +171,9 @@ Input field with tags and suggestions
 ```jsx react-live
 <TagInputMain>
   <TagInputField placeholder="Hint text" />
-  <IconDropdown />
+  <ArrowContainer>
+    <IconChevronDownRounded />
+  </ArrowContainer>
 </TagInputMain>
 ```
 
@@ -170,7 +184,9 @@ Input field with tags and suggestions
   <Tag>Label</Tag>
   <Tag>Label with long text</Tag>
   <TagInputField />
-  <IconDropdown />
+  <ArrowContainer>
+    <IconChevronDownRounded />
+  </ArrowContainer>
 </TagInputMain>
 ```
 
@@ -186,7 +202,9 @@ Input field with tags and suggestions
   <Tag>Label</Tag>
   <Tag>Label with long text</Tag>
   <TagInputField />
-  <IconDropdown />
+  <ArrowContainer>
+    <IconChevronDownRounded />
+  </ArrowContainer>
 </TagInputMain>
 ```
 
@@ -209,6 +227,17 @@ Input field with tags and suggestions
   <RemoveAllButton>
     <IconCloseRounded />
   </RemoveAllButton>
+</TagInputMain>
+```
+
+### with disabled
+
+```jsx react-live
+<TagInputMain disabled={true}>
+  <TagInputField placeholder="Hint text" disabled />
+  <ArrowContainer>
+    <IconChevronDownRounded />
+  </ArrowContainer>
 </TagInputMain>
 ```
 

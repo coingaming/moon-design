@@ -11,7 +11,7 @@ Wrapper of different filters
 ```jsx react-live
 <FilterDropdown
   searchPlaceholder="Search for a name..."
-  onSearchChange={value => console.log(value)}
+  onSearchChange={(value) => console.log(value)}
 ></FilterDropdown>
 ```
 
@@ -26,6 +26,17 @@ Wrapper of different filters
 </FilterDropdown>
 ```
 
+## With width="100%"
+
+```jsx react-live
+<FilterDropdown width="100%">
+  <Text>
+    Lorem ipsum dolor sit amet, consectetur <br />
+    adipiscing elit. Praesent volutpat.
+  </Text>
+</FilterDropdown>
+```
+
 ## With CheckboxMultiselect filter
 
 ```jsx react-live
@@ -33,7 +44,7 @@ Wrapper of different filters
   <FilterDropdown>
     <CheckboxMultiselect
       maxHeight={150}
-      onChange={value => console.log('onChange:', value)}
+      onChange={(value) => console.log('onChange:', value)}
       value={[]}
       options={[
         { label: 'Game 1', value: 1 },
@@ -47,11 +58,11 @@ Wrapper of different filters
 
   <FilterDropdown
     searchPlaceholder="Search for a name..."
-    onSearchChange={value => console.log('onSearchChange:', value)}
+    onSearchChange={(value) => console.log('onSearchChange:', value)}
   >
     <CheckboxMultiselect
       maxHeight={150}
-      onChange={value => console.log('onChange:', value)}
+      onChange={(value) => console.log('onChange:', value)}
       value={[]}
       options={[
         { label: 'Game 1', value: 1 },
@@ -65,7 +76,7 @@ Wrapper of different filters
 
   <FilterDropdown
     searchPlaceholder="Search for a name..."
-    onSearchChange={value => console.log('onSearchChange:', value)}
+    onSearchChange={(value) => console.log('onSearchChange:', value)}
   >
     <Link secondary>Clear selected items</Link>
     <br />
@@ -73,7 +84,7 @@ Wrapper of different filters
 
     <CheckboxMultiselect
       maxHeight={150}
-      onChange={value => console.log('onChange:', value)}
+      onChange={(value) => console.log('onChange:', value)}
       value={[2, 4]}
       options={[
         { label: 'Game 1', value: 1 },
@@ -94,7 +105,7 @@ Wrapper of different filters
   <FilterDropdown>
     <SingleItemSelect
       maxHeight={150}
-      onChange={value => console.log('onChange:', value)}
+      onChange={(value) => console.log('onChange:', value)}
       value=""
       options={[
         { label: 'Game 1', value: 1 },
@@ -108,11 +119,11 @@ Wrapper of different filters
 
   <FilterDropdown
     searchPlaceholder="Search for a name..."
-    onSearchChange={value => console.log('onSearchChange:', value)}
+    onSearchChange={(value) => console.log('onSearchChange:', value)}
   >
     <SingleItemSelect
       maxHeight={150}
-      onChange={value => console.log('onChange:', value)}
+      onChange={(value) => console.log('onChange:', value)}
       value=""
       options={[
         { label: 'Game 1', value: 1 },
@@ -126,11 +137,11 @@ Wrapper of different filters
 
   <FilterDropdown
     searchPlaceholder="Search for a name..."
-    onSearchChange={value => console.log('onSearchChange:', value)}
+    onSearchChange={(value) => console.log('onSearchChange:', value)}
   >
     <SingleItemSelect
       maxHeight={150}
-      onChange={value => console.log('onChange:', value)}
+      onChange={(value) => console.log('onChange:', value)}
       value={2}
       options={[
         { label: 'Game 1', value: 1 },
