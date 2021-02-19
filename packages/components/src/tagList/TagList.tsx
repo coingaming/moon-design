@@ -19,14 +19,17 @@ export const CopyBubble = styled(Bubble as any)(({ theme }) => ({
 export const TagListWrapper = styled.div(({ theme }) => ({
   display: 'inline-block',
   position: 'relative',
+  marginBottom: rem(-4),
   [Tag]: {
     color: theme.color.bulma[100],
   },
 }));
 
 export const TagListInternal = styled.div({
+  display: 'flex',
+  flexWrap: 'wrap',
   [Tag]: {
-    marginRight: rem(4),
+    margin: `0 ${rem(4)} ${rem(4)} 0`,
     '&:last-child': {
       marginRight: 0,
     },
@@ -41,12 +44,13 @@ export const ShowMore = styled.button(({ theme }) => ({
   padding: rem(8),
   color: theme.color.bulma[100],
   fontSize: rem(12),
-  height: rem(32),
+  height: rem(30),
   fontWeight: theme.fontWeight.normal,
   position: 'relative',
   cursor: 'pointer',
   border: 'none',
   transition: `color ${theme.transitionDuration.default}s ease, background-color ${theme.transitionDuration.default}s ease`,
+  marginBottom: rem(4),
   '&:hover, &:focus': {
     color: theme.color.goten[100],
     backgroundColor: theme.color.piccolo[100],
@@ -54,16 +58,20 @@ export const ShowMore = styled.button(({ theme }) => ({
 }));
 
 export const Dropdown = styled.div(({ theme }) => ({
+  display: 'flex',
+  flexWrap: 'wrap',
   background: theme.color.goten[100],
   borderRadius: theme.radius.default,
   boxShadow: theme.boxShadow,
   position: 'absolute',
-  top: '50%',
-  left: rem(-16),
-  width: `calc(100% + ${rem(32)})`,
-  transform: 'translateY(-50%)',
   padding: `${rem(8)} ${rem(44)} ${rem(4)} ${rem(12)}`,
-  minWidth: rem(280),
+  width: '100%',
+  maxHeight: rem(160),
+  overflow: 'auto',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  zIndex: theme.zIndex.toggle,
   [Tag]: {
     margin: `0 ${rem(4)} ${rem(4)} 0`,
   },
