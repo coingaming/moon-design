@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { rem, mq } from '@heathmont/moon-utils';
+import { rem, mq, themed } from '@heathmont/moon-utils';
 
 const ToastContainer = styled.div<any>(
-  ({ theme: { color, space, zIndex, breakpoint }, position }) => [
+  ({ backgroundColor, theme, position }) => [
     {
       width: 'fit-content',
     },
@@ -10,14 +10,14 @@ const ToastContainer = styled.div<any>(
       position: 'fixed',
       left: '50%',
       transform: 'translate(-50%, 0)',
-      zIndex: zIndex.dialog,
-      marginBottom: space.default,
+      zIndex: theme.zIndex.dialog,
+      marginBottom: theme.space.default,
       minWidth: rem(180),
-      maxWidth: `calc(100vw - ${space.small * 2}px)`,
-      [mq(breakpoint.medium)]: {
-        margin: space.default,
+      maxWidth: `calc(100vw - ${theme.space.small * 2}px)`,
+      [mq(theme.breakpoint.medium)]: {
+        margin: theme.space.default,
       },
-      [mq(breakpoint.large)]: {
+      [mq(theme.breakpoint.large)]: {
         maxWidth: '30%',
         width: 'fit-content',
         left: 0,
@@ -33,17 +33,18 @@ const ToastContainer = styled.div<any>(
     {
       paddingTop: rem(12),
       paddingBottom: rem(12),
-      paddingLeft: rem(space.default),
-      paddingRight: rem(space.default),
+      paddingLeft: rem(theme.space.default),
+      paddingRight: rem(theme.space.default),
       boxShadow:
         '0px 6.4px 14px 0px rgba(0,0,0,0.52), 0px 1.2px 3.6px 0px rgba(0,0,0,0.4)',
-      backgroundColor: color.bulma[100],
+      backgroundColor:
+        themed('color', backgroundColor)(theme) || theme.color.bulma[100],
       borderRadius: rem(12),
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
       '& > * + *': {
-        marginLeft: rem(space.default),
+        marginLeft: rem(theme.space.default),
       },
     },
   ]
