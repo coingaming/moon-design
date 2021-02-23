@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.83.0](https://github.com/coingaming/sportsbet-design/compare/v2.82.1...v2.83.0) (2021-02-23)
+
+
+### Features
+
+* toast colors ([5fa4b2b](https://github.com/coingaming/sportsbet-design/commit/5fa4b2bd3414361797ff9e968850179ef0077609))
+
+
+
+
+
 # [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
 
 **Note:** Version bump only for package @heathmont/moon-notifications
