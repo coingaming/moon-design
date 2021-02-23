@@ -82,6 +82,25 @@ Toast can't have both Icon and Action at the same time.
 />
 ```
 
+### Customize colours
+
+You could use `backgroundColor` prop.
+
+Default colours are:
+
+```
+backgroundColor="bulma.100"
+```
+
+```jsx react-live
+<Toast
+  position="inline"
+  variant="success"
+  message={<p>Error message or notification</p>}
+  backgroundColor="piccolo.100"
+/>
+```
+
 ## Appearing and disappearing
 
 Toast could appear without warning, and don't require user interaction.
