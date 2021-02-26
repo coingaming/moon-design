@@ -57,7 +57,7 @@ DateRangePicker.defaultProps = {
     last24hours: 'Last 24 hours',
     yesterday: 'Yesterday',
     today: 'Today',
-    tommorow: 'Tommorow',
+    tomorrow: 'Tomorrow',
     thisWeek: 'This week',
     nextWeek: 'Next week',
     thisMonth: 'This month',
