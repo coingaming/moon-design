@@ -34,7 +34,7 @@ export interface Translations {
   last24hours: any;
   yesterday: any;
   today: any;
-  tommorow: any;
+  tomorrow: any;
   thisWeek: any;
   nextWeek: any;
   thisMonth: any;
