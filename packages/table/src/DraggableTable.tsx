@@ -8,8 +8,6 @@ import {
   useBlockLayout,
   useFlexLayout,
 } from 'react-table';
-import { DndProvider, useDrag, useDrop } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
 import { useSticky } from 'react-table-sticky';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
@@ -196,63 +194,56 @@ const TD = styled.div<{
   })
 );
 
-// start here
-const DND_ITEM_TYPE = 'rowDnd';
-
-const Row = ({ row, index, moveRow }) => {
-  const dropRef = React.useRef(null);
-  const dragRef = React.useRef(null);
-
-  const [, drop] = useDrop({
-    accept: DND_ITEM_TYPE,
-    hover(item, monitor) {
-      if (!dropRef.current) {
-        return;
-      }
-      const dragIndex = item.index;
-      const hoverIndex = index;
-      if (dragIndex === hoverIndex) {
-        return;
-      }
-      const hoverBoundingRect = dropRef.current.getBoundingClientRect();
-      const hoverMiddleY =
-        (hoverBoundingRect.bottom - hoverBoundingRect.top) / 2;
-      const clientOffset = monitor.getClientOffset();
-      const hoverClientY = clientOffset.y - hoverBoundingRect.top;
-      if (dragIndex < hoverIndex && hoverClientY < hoverMiddleY) {
-        return;
-      }
-      if (dragIndex > hoverIndex && hoverClientY > hoverMiddleY) {
-        return;
-      }
-      moveRow(dragIndex, hoverIndex);
-
-      // item.index = hoverIndex;
+const BodyTR = styled.div<{
+  variant?: string;
+  hasOnRowClickHandler: boolean;
+  evenRowBackgroundColor?: ColorNames;
+}>(
+  ({ theme, evenRowBackgroundColor }) => ({
+    '&:nth-child(even)': {
+      [TD]: {
+        backgroundColor: evenRowBackgroundColor
+          ? themed('color', evenRowBackgroundColor)(theme)
+          : theme.color.gohan[80],
+      },
     },
-  });
-
-  const [{ isDragging }, drag, preview] = useDrag({
-    item: { type: DND_ITEM_TYPE, index },
-    collect: (monitor) => ({
-      isDragging: !!monitor.isDragging(),
-    }),
-  });
-
-  const opacity = isDragging ? 0 : 1;
-
-  preview(drop(dropRef));
-  drag(dragRef);
-
-  return (
-    <tr ref={dropRef} style={{ opacity }}>
-      <td ref={dragRef}>move</td>
-      {row.cells.map((cell) => {
-        return <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>;
-      })}
-    </tr>
-  );
-};
-// end here
+  }),
+  ({ theme: { color, space }, variant, hasOnRowClickHandler }) => ({
+    marginBottom: rem(2),
+    ...(hasOnRowClickHandler
+      ? {
+          '&:hover': {
+            zIndex: 1,
+            position: 'relative',
+            cursor: 'pointer',
+            [TD]: {
+              boxShadow: `${rem(space.small)} ${rem(space.xsmall)} ${rem(
+                space.default
+              )} ${rgba(color.trunks[100], 0.15)}`,
+              ...(variant === 'calendar'
+                ? {
+                    '&:first-child': {
+                      boxShadow: 'none',
+                    },
+                  }
+                : {}),
+            },
+          },
+        }
+      : {}),
+    '&:nth-child(even)': {
+      [TD]: {
+        ...(variant === 'calendar'
+          ? {
+              '&:first-child': {
+                backgroundColor: color.goku[100],
+              },
+            }
+          : {}),
+      },
+    },
+  })
+);
 
 const HiddenTH = styled.div({
   height: '1px',
@@ -294,6 +285,7 @@ const Table: React.FC<any> = ({
   layout,
   withFooter = false,
   onRowClick,
+  defaultRowBackgroundColor,
   evenRowBackgroundColor,
   headerBackgroundColor,
 }) => {
@@ -320,18 +312,6 @@ const Table: React.FC<any> = ({
   const [isScrolledToRight, setIsScrolledToRight] = useState(false);
   const hasOnRowClickHandler = typeof onRowClick === 'function';
 
-  const moveRow = (dragIndex, hoverIndex) => {
-    const dragRecord = records[dragIndex];
-    setRecords(
-      update(records, {
-        $splice: [
-          [dragIndex, 1],
-          [hoverIndex, 0, dragRecord],
-        ],
-      })
-    );
-  };
-
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
     const target = event.target as HTMLDivElement;
     if (!target) return;
@@ -343,24 +323,81 @@ const Table: React.FC<any> = ({
   };
 
   return (
-    <DndProvider backend={HTML5Backend}>
-      <TableWrapper
-        {...getTableProps()}
-        onScroll={handleScroll}
-        className="sticky"
-        isScrolledToLeft={isScrolledToLeft}
-        isScrolledToRight={isScrolledToRight}
-        style={{ width, height, maxWidth, maxHeight }}
-      >
-        <Header>
-          {headerGroups.map((headerGroup) => (
-            <HeaderTR {...headerGroup.getHeaderGroupProps()} variant={variant}>
-              {headerGroup.headers.map((column) => (
-                <TH
-                  {...column.getHeaderProps()}
-                  headerBackgroundColor={headerBackgroundColor}
-                >
-                  {column.render('Header')}
+    <TableWrapper
+      {...getTableProps()}
+      onScroll={handleScroll}
+      className="sticky"
+      isScrolledToLeft={isScrolledToLeft}
+      isScrolledToRight={isScrolledToRight}
+      style={{ width, height, maxWidth, maxHeight }}
+    >
+      <Header>
+        {headerGroups.map((headerGroup) => (
+          <HeaderTR {...headerGroup.getHeaderGroupProps()} variant={variant}>
+            {headerGroup.headers.map((column) => (
+              <TH
+                {...column.getHeaderProps()}
+                headerBackgroundColor={headerBackgroundColor}
+              >
+                {column.render('Header')}
+                <div
+                  // @ts-ignore
+                  {...column.getResizerProps()}
+                  className={`resizer ${
+                    // @ts-ignore
+                    column.isResizing ? 'isResizing' : ''
+                  }`}
+                />
+              </TH>
+            ))}
+          </HeaderTR>
+        ))}
+
+        <div {...lastHeaderGroup.getHeaderGroupProps()}>
+          {lastHeaderGroup.headers.map((column: any) => (
+            <HiddenTH
+              {...column.getHeaderProps()}
+              style={{ ...column.getHeaderProps().style, position: 'relative' }}
+            />
+          ))}
+        </div>
+      </Header>
+
+      <Body {...getTableBodyProps()}>
+        {rows.map((row) => {
+          prepareRow(row);
+          return (
+            <BodyTR
+              {...row.getRowProps()}
+              variant={variant}
+              onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
+              hasOnRowClickHandler={hasOnRowClickHandler}
+              evenRowBackgroundColor={evenRowBackgroundColor}
+            >
+              {row.cells.map((cell) => {
+                return (
+                  <TD
+                    {...cell.getCellProps()}
+                    variant={variant}
+                    defaultRowBackgroundColor={defaultRowBackgroundColor}
+                  >
+                    {cell.render('Cell')}
+                  </TD>
+                );
+              })}
+            </BodyTR>
+          );
+        })}
+      </Body>
+
+      {withFooter && (
+        <Footer>
+          {footerGroups.map((footerGroup) => (
+            <HeaderTR {...footerGroup.getFooterGroupProps()} variant={variant}>
+              {footerGroup.headers.map((column) => (
+                <TH {...column.getFooterProps()}>
+                  {column.render('Footer')}
+
                   <div
                     // @ts-ignore
                     {...column.getResizerProps()}
@@ -373,67 +410,9 @@ const Table: React.FC<any> = ({
               ))}
             </HeaderTR>
           ))}
-
-          <div {...lastHeaderGroup.getHeaderGroupProps()}>
-            {lastHeaderGroup.headers.map((column: any) => (
-              <HiddenTH
-                {...column.getHeaderProps()}
-                style={{
-                  ...column.getHeaderProps().style,
-                  position: 'relative',
-                }}
-              />
-            ))}
-          </div>
-        </Header>
-
-        <Body {...getTableBodyProps()}>
-          {rows.map(
-            (row, index) =>
-              prepareRow(row) || (
-                <Row
-                  index={index}
-                  row={row}
-                  moveRow={moveRow}
-                  {...row.getRowProps()}
-                  variant={variant}
-                  onClick={
-                    hasOnRowClickHandler ? () => onRowClick(row) : undefined
-                  }
-                  hasOnRowClickHandler={hasOnRowClickHandler}
-                  evenRowBackgroundColor={evenRowBackgroundColor}
-                />
-              )
-          )}
-        </Body>
-
-        {withFooter && (
-          <Footer>
-            {footerGroups.map((footerGroup) => (
-              <HeaderTR
-                {...footerGroup.getFooterGroupProps()}
-                variant={variant}
-              >
-                {footerGroup.headers.map((column) => (
-                  <TH {...column.getFooterProps()}>
-                    {column.render('Footer')}
-
-                    <div
-                      // @ts-ignore
-                      {...column.getResizerProps()}
-                      className={`resizer ${
-                        // @ts-ignore
-                        column.isResizing ? 'isResizing' : ''
-                      }`}
-                    />
-                  </TH>
-                ))}
-              </HeaderTR>
-            ))}
-          </Footer>
-        )}
-      </TableWrapper>
-    </DndProvider>
+        </Footer>
+      )}
+    </TableWrapper>
   );
 };
 
