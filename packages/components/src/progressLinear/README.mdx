@@ -13,11 +13,48 @@ A progress indicator is a visual representation of a user’s progress through a
 ## Usage
 
 ```jsx react-live
-<ProgressLinear
-  value={30}
-  text="Progress"
-  backgroundColor="hit.100"
-/>
+<ProgressLinear value={30} text="Progress" backgroundColor="hit.100" />
+```
+
+### height
+
+Default value:
+
+```
+height = 12
+```
+
+```jsx react-live
+<Inline>
+  <ProgressLinear value={30} text="Progress" backgroundColor="hit.100" />
+  <ProgressLinear
+    value={30}
+    text="Progress"
+    backgroundColor="hit.100"
+    height={5}
+  />
+</Inline>
+```
+
+### fontSize
+
+Default value:
+
+```
+fontSize = 10
+```
+
+```jsx react-live
+<Inline>
+  <ProgressLinear value={30} text="Progress" backgroundColor="hit.100" />
+  <ProgressLinear
+    value={30}
+    text="Progress"
+    backgroundColor="hit.100"
+    height={5}
+    fontSize={5}
+  />
+</Inline>
 ```
 
 ## See also
