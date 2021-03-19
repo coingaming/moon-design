@@ -10,7 +10,7 @@ type Props = {
   size?: Size;
   color?: ColorNames;
   isBold?: boolean;
-  textAlign?: 'left' | 'right' | 'center';
+  textAlign?: TextAlign;
 };
 
 const Text = styled.p<Props>(
