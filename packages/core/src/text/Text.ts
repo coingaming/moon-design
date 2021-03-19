@@ -10,6 +10,7 @@ type Props = {
   size?: Size;
   color?: ColorNames;
   isBold?: boolean;
+  textAlign?: TextAlign;
 };
 
 const Text = styled.p<Props>(
@@ -17,6 +18,10 @@ const Text = styled.p<Props>(
     color: themed('color', color)(theme),
   }),
   ({ size = 16 }) => getFontSize(size),
+  ({ textAlign }) =>
+    textAlign && {
+      textAlign,
+    },
   ({ isBold, theme: { fontWeight } }) =>
     isBold && {
       fontWeight: fontWeight.semibold,

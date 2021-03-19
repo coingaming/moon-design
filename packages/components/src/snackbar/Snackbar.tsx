@@ -7,7 +7,11 @@ import IconWarning from '../private/icons/IconWarning';
 import IconBannerInfo from '../private/icons/IconBannerInfo';
 import IconSnackbarSuccess from '../private/icons/IconSnackbarSuccess';
 
-type SnackbarProps = {
+type TextProps = {
+  textAlign?: 'left' | 'right' | 'center';
+};
+
+type SnackbarProps = TextProps & {
   message: any;
   alwaysVisible?: boolean;
   action?: any;
@@ -58,12 +62,17 @@ const SnackbarWrapper = styled.div<any>(
   ]
 );
 
-const MessageWrapper = styled.p(({ theme }) => ({
-  fontSize: rem(14),
-  lineHeight: 1.25,
-  color: theme.color.hit[100],
-  margin: 0,
-}));
+const MessageWrapper = styled.p<TextProps>(({ theme, textAlign }) => [
+  {
+    fontSize: rem(14),
+    lineHeight: 1.25,
+    color: theme.color.hit[100],
+    margin: 0,
+  },
+  textAlign && {
+    textAlign,
+  },
+]);
 
 const IconWrapper = styled.div({
   marginRight: rem(8),
@@ -74,6 +83,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
   action,
   position = 'bottom',
   status,
+  textAlign,
 }) => {
   return (
     <SnackbarWrapper position={position}>
@@ -97,7 +107,9 @@ const Snackbar: React.FC<SnackbarProps> = ({
           <IconSnackbarSuccess fontSize="1.5rem" color="krillin.100" />
         </IconWrapper>
       )}
-      {message && <MessageWrapper>{message}</MessageWrapper>}
+      {message && (
+        <MessageWrapper textAlign={textAlign}>{message}</MessageWrapper>
+      )}
       {action && action}
     </SnackbarWrapper>
   );
