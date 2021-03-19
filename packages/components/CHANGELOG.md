@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.84.0](https://github.com/coingaming/sportsbet-design/compare/v2.83.0...v2.84.0) (2021-03-19)
+
+
+### Bug Fixes
+
+* added text align to heading ([acdeb26](https://github.com/coingaming/sportsbet-design/commit/acdeb268cbbad23b3ba2224c4f255e353b7fd871))
+* added text align to snackbar ([fe9d11e](https://github.com/coingaming/sportsbet-design/commit/fe9d11edbca1fe7d124c33bf61594e411376b6e5))
+* сorrect spelling ([e92262a](https://github.com/coingaming/sportsbet-design/commit/e92262acaebefa370cbb6de4b52f2396dfb37f4a))
+
+
+### Features
+
+* **Circular:** strokeWidth ([cfbb4c7](https://github.com/coingaming/sportsbet-design/commit/cfbb4c719764475acc6216727ca351fa6a4015fc))
+
+
+
+
+
 ## [2.82.1](https://github.com/coingaming/sportsbet-design/compare/v2.82.0...v2.82.1) (2021-02-19)
 
 
