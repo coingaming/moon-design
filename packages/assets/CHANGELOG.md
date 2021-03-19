@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.84.0](https://github.com/coingaming/sportsbet-design/compare/v2.83.0...v2.84.0) (2021-03-19)
+
+
+### Features
+
+* add group currency component for new currency items ([76fb808](https://github.com/coingaming/sportsbet-design/commit/76fb80884db40c01c3e870cfd6defaac04636dec))
+
+
+
+
+
 # [2.80.0](https://github.com/coingaming/sportsbet-design/compare/v2.79.2...v2.80.0) (2021-02-10)
 
 
