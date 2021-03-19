@@ -6,35 +6,39 @@ type ProgressbarProps = {
   value: number;
   text?: JSX.Element;
   backgroundColor?: string;
+  height?: number;
+  fontSize?: number;
 };
 
 const ProgressBarWrapper = styled.div({
   position: 'relative',
 });
 
-const CurrentProgress = styled.div(({ theme: { fontWeight, color } }) => ({
-  position: 'absolute',
-  top: 0,
-  left: '50%',
-  transform: 'translateX(-50%)',
-  color: color.bulma[100],
-  fontSize: rem(10),
-  lineHeight: rem(12),
-  letterSpacing: 1,
-  fontWeight: fontWeight.semibold,
-  textTransform: 'uppercase',
-  whiteSpace: 'nowrap',
-  textShadow: `-${rem(1)} 0 ${color.gohan['100']}, 0 ${rem(1)} ${
-    color.gohan['100']
-  }, ${rem(1)} 0 ${color.gohan['100']}, 0 -${rem(1)} ${color.gohan['100']}`,
-}));
+const CurrentProgress = styled.div<{ lineHeight?: number; fontSize?: number }>(
+  ({ lineHeight = 12, fontSize = 10, theme: { fontWeight, color } }) => ({
+    position: 'absolute',
+    top: 0,
+    left: '50%',
+    transform: 'translateX(-50%)',
+    color: color.bulma[100],
+    fontSize: rem(fontSize),
+    lineHeight: rem(lineHeight),
+    letterSpacing: 1,
+    fontWeight: fontWeight.semibold,
+    textTransform: 'uppercase',
+    whiteSpace: 'nowrap',
+    textShadow: `-${rem(1)} 0 ${color.gohan['100']}, 0 ${rem(1)} ${
+      color.gohan['100']
+    }, ${rem(1)} 0 ${color.gohan['100']}, 0 -${rem(1)} ${color.gohan['100']}`,
+  })
+);
 
 const Progress = styled.div<ProgressbarProps>(
-  ({ theme, value, backgroundColor }) => ({
+  ({ theme, value, backgroundColor, height = 12 }) => ({
     minWidth: rem(100),
     backgroundColor:
       themed('color', backgroundColor)(theme) || theme.color.goku['100'],
-    height: rem(12),
+    height: rem(height),
     position: 'relative',
     borderRadius: rem(60),
     '&::before': {
@@ -52,11 +56,19 @@ const ProgressLinear: React.FC<ProgressbarProps> = ({
   value,
   text,
   backgroundColor,
+  height,
+  fontSize,
 }) => {
   return (
     <ProgressBarWrapper>
-      <Progress value={value} backgroundColor={backgroundColor} />
-      <CurrentProgress>{text}</CurrentProgress>
+      <Progress
+        height={height}
+        value={value}
+        backgroundColor={backgroundColor}
+      />
+      <CurrentProgress lineHeight={height} fontSize={fontSize}>
+        {text}
+      </CurrentProgress>
     </ProgressBarWrapper>
   );
 };
