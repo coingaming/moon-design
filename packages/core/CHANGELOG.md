@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.84.0](https://github.com/coingaming/sportsbet-design/compare/v2.83.0...v2.84.0) (2021-03-19)
+
+
+### Bug Fixes
+
+* added text align property to text ([1d87cbe](https://github.com/coingaming/sportsbet-design/commit/1d87cbec44e1d3c7d2f4ce80dcb4b6af80db99fc))
+* added text align to heading ([acdeb26](https://github.com/coingaming/sportsbet-design/commit/acdeb268cbbad23b3ba2224c4f255e353b7fd871))
+
+
+
+
+
 # [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
 
 
