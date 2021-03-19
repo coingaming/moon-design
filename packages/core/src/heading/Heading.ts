@@ -10,6 +10,7 @@ type Props = {
   size?: HeadingSize;
   color?: ColorNames;
   isRegular?: boolean;
+  textAlign?: TextAlign;
 };
 
 const Heading = styled.h3<Props>(
@@ -17,6 +18,7 @@ const Heading = styled.h3<Props>(
     color: themed('color', color)(theme),
   }),
   ({ size = 16 }) => getFontSize(size),
+  ({ textAlign }) => textAlign && { textAlign },
   ({ isRegular, theme: { fontWeight } }) =>
     isRegular
       ? {
