@@ -23,7 +23,7 @@ export type DatesRange =
   | 'last24hours'
   | 'yesterday'
   | 'today'
-  | 'tommorow'
+  | 'tomorrow'
   | 'thisWeek'
   | 'nextWeek'
   | 'thisMonth'
@@ -82,11 +82,11 @@ export const getDatesFromRange = ({
       endDate: endOfDay(now),
     };
   }
-  if (range === 'tommorow') {
-    const tommorow = addDays(now, 1);
+  if (range === 'tomorrow') {
+    const tomorrow = addDays(now, 1);
     return {
-      startDate: startOfDay(tommorow),
-      endDate: endOfDay(tommorow),
+      startDate: startOfDay(tomorrow),
+      endDate: endOfDay(tomorrow),
     };
   }
   if (range === 'thisWeek') {
