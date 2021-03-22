@@ -244,6 +244,107 @@ And header background color: `headerBackgroundColor`
 };
 ```
 
+## Expanded rows with custom content
+
+```jsx react-live
+() => {
+  const columnsInitial = [
+    {
+      id: 'expander',
+      sticky: 'left',
+      Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => (
+        <span {...getToggleAllRowsExpandedProps()}>
+          Expand
+          {isAllRowsExpanded ? '👇' : '👉'}
+        </span>
+      ),
+      Cell: ({ row }) => <span>{row.isExpanded ? '👇' : '👉'}</span>,
+    },
+    {
+      Header: 'First Name',
+      accessor: 'firstName',
+    },
+    {
+      Header: 'Age',
+      accessor: 'age',
+      width: 50,
+    },
+    {
+      Header: 'Visits',
+      accessor: 'visits',
+    },
+    {
+      Header: 'Activity',
+      accessor: 'activity',
+    },
+    {
+      Header: 'Status',
+      width: 60,
+      accessor: 'status',
+    },
+    {
+      Header: 'Profile Progress',
+      Footer: 'Profile Progress',
+      accessor: 'progress',
+      sticky: 'right',
+    },
+  ];
+
+  const makeData = (length) => {
+    return Array.from('_'.repeat(length)).map(() => {
+      return {
+        firstName: 'Test',
+        age: <span>{Math.floor(Math.random() * 30)}</span>,
+        visits: <span>{Math.floor(Math.random() * 100)}</span>,
+        progress: <span>{Math.floor(Math.random() * 100)}</span>,
+        status: Math.floor(Math.random() * 100),
+        activity: Math.floor(Math.random() * 100),
+      };
+    });
+  };
+
+  const defaultColumn = React.useMemo(
+    () => ({
+      minWidth: 100,
+      width: 150,
+      maxWidth: 400,
+    }),
+    []
+  );
+
+  const columns = React.useMemo(() => columnsInitial, []);
+  const data = React.useMemo(() => makeData(40), []);
+
+  return (
+    <Table
+      columns={columns}
+      data={data}
+      defaultColumn={defaultColumn}
+      width={800}
+      height={400}
+      onRowClick={(row) => row.toggleRowExpanded()}
+      renderRowSubComponent={(row) => {
+        return (
+          <BodyTR {...row.getRowProps()} key={row.getRowProps().key + '1'}>
+            {!!row.cells.length &&
+              row.cells.map((cell) => {
+                return (
+                  <TD
+                    {...cell.getCellProps()}
+                    defaultRowBackgroundColor="frieza.10"
+                  >
+                    Custom content
+                  </TD>
+                );
+              })}
+          </BodyTR>
+        );
+      }}
+    />
+  );
+};
+```
+
 ## Variant="calendar"
 
 ```jsx react-live
@@ -324,6 +425,7 @@ And header background color: `headerBackgroundColor`
       width={800}
       height={400}
       variant="calendar"
+      headerBackgroundColor="gohan.100"
     />
   );
 };
