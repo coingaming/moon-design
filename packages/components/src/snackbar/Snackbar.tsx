@@ -7,22 +7,26 @@ import IconWarning from '../private/icons/IconWarning';
 import IconBannerInfo from '../private/icons/IconBannerInfo';
 import IconSnackbarSuccess from '../private/icons/IconSnackbarSuccess';
 
-type TextProps = {
-  textAlign?: 'left' | 'right' | 'center';
+type SnackbarWrapperProps = {
+  justifyContent?: 'flex-start' | 'center' | 'flex-end';
+  position?: 'bottom' | 'top' | 'inline';
 };
 
-type SnackbarProps = TextProps & {
+type SnackbarProps = SnackbarWrapperProps & {
   message: any;
   alwaysVisible?: boolean;
   action?: any;
   timeout?: number; // ms
-  position?: 'bottom' | 'top' | 'inline';
   status?: 'error' | 'warning' | 'info' | 'success';
   onClose?: any;
 };
 
-const SnackbarWrapper = styled.div<any>(
-  ({ theme: { color, space, zIndex, breakpoint }, position }) => [
+const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
+  ({
+    theme: { color, space, zIndex, breakpoint },
+    position,
+    justifyContent,
+  }) => [
     { width: 'fit-content' },
     (position === 'bottom' || position === 'top') && {
       position: 'fixed',
@@ -48,6 +52,9 @@ const SnackbarWrapper = styled.div<any>(
     position === 'top' && {
       top: '10%',
     },
+    justifyContent && {
+      justifyContent,
+    },
     {
       padding: space.default,
       backgroundColor: color.bulma[100],
@@ -62,15 +69,12 @@ const SnackbarWrapper = styled.div<any>(
   ]
 );
 
-const MessageWrapper = styled.p<TextProps>(({ theme, textAlign }) => [
+const MessageWrapper = styled.p(({ theme }) => [
   {
     fontSize: rem(14),
     lineHeight: 1.25,
     color: theme.color.hit[100],
     margin: 0,
-  },
-  textAlign && {
-    textAlign,
   },
 ]);
 
@@ -83,10 +87,10 @@ const Snackbar: React.FC<SnackbarProps> = ({
   action,
   position = 'bottom',
   status,
-  textAlign,
+  justifyContent,
 }) => {
   return (
-    <SnackbarWrapper position={position}>
+    <SnackbarWrapper position={position} justifyContent={justifyContent}>
       {status === 'error' && (
         <IconWrapper>
           <IconError fontSize="1.5rem" />
@@ -107,9 +111,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
           <IconSnackbarSuccess fontSize="1.5rem" color="krillin.100" />
         </IconWrapper>
       )}
-      {message && (
-        <MessageWrapper textAlign={textAlign}>{message}</MessageWrapper>
-      )}
+      {message && <MessageWrapper>{message}</MessageWrapper>}
       {action && action}
     </SnackbarWrapper>
   );
