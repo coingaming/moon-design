@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react';
 import styled from 'styled-components';
-import rgba from 'polished/lib/color/rgba';
 import {
   useTable,
   useResizeColumns,
@@ -12,156 +11,43 @@ import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import update from 'immutability-helper';
 import { useSticky } from 'react-table-sticky';
-import { rem, themed } from '@heathmont/moon-utils';
-import { ColorNames } from '@heathmont/moon-themes';
+import {
+  TableWrapper,
+  Header,
+  TH,
+  HeaderTR,
+  Body,
+  BodyTR,
+  TD,
+  HiddenTH,
+  Footer,
+} from '@heathmont/moon-table';
 
 import IconDrag from './private/icons/IconDrag';
 
-const TableWrapper = styled.div<{
-  isScrolledToLeft: boolean;
-  isScrolledToRight: boolean;
-}>(({ theme: { color, radius }, isScrolledToLeft, isScrolledToRight }) => ({
-  /**
-   * Scroll Behavior
-   * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
-   * 2. Auto-hide scrollbars on IE/Edge.
-   * 3. Create 'padding' around the scrollbar.
-   */
-  WebkitOverflowScrolling: 'touch',
-  scrollbarWidth: 'none' /* [1] */,
-  '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
-  '::-webkit-scrollbar': {
-    width: 12,
-    height: 12,
-    cursor: 'pointer',
-  },
-  '::-webkit-scrollbar-thumb': {
-    backgroundColor: 'transparent',
-    backgroundClip: 'content-box' /* [3] */,
-    borderRadius: rem(radius.largest),
-    border: '3px solid transparent' /* [3] */,
-  },
-  ':hover::-webkit-scrollbar-thumb': {
-    backgroundColor: color.goku[40],
-  },
-  '&.sticky': {
-    overflow: 'scroll',
-    '.body': {
-      position: 'relative',
-      zIndex: 0,
-    },
-    '[data-sticky-td]': {
-      position: 'sticky',
-    },
-    ...(!isScrolledToLeft
-      ? {
-          '[data-sticky-last-left-td]': {
-            boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-          },
-        }
-      : {}),
-
-    ...(!isScrolledToRight
-      ? {
-          '[data-sticky-first-right-td]': {
-            boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-          },
-        }
-      : {}),
-  },
-}));
-
-const Header = styled.div({
-  position: 'sticky',
-  zIndex: 1,
-  top: 0,
-});
-
-const TH = styled.div<{
-  headerBackgroundColor?: ColorNames;
-}>(
-  ({ theme, headerBackgroundColor }) => ({
-    backgroundColor: headerBackgroundColor
-      ? themed('color', headerBackgroundColor)(theme)
-      : theme.color.goku[100],
-  }),
-  ({ theme: { color, space } }) => ({
-    padding: rem(space.small),
-    color: color.trunks[100],
-    position: 'relative',
-    fontSize: rem(12),
-    '&::after': {
-      content: '""',
-      position: 'absolute',
-      width: '1px',
-      backgroundColor: color.beerus[100],
-      height: '70%',
-      bottom: '15%',
-      right: 0,
-    },
-    '&:last-child': {
-      borderRight: 0,
-    },
-    '.resizer': {
-      display: 'inline-block',
-      width: rem(8),
-      height: '100%',
-      position: 'absolute',
-      right: 0,
-      top: 0,
-      zIndex: 1,
-      '&::after': {
-        content: '""',
-        position: 'absolute',
-        width: '1px',
-        height: '70%',
-        bottom: '15%',
-        right: 0,
-      },
-      '&.isResizing': {
-        '&::after': {
-          background: color.piccolo[100],
-        },
-      },
-    },
-  })
-);
-
-const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
+const DndTD = styled(TD)<{
+  variant?: string;
+  dragIndicator?: boolean;
+}>(({ theme: { color }, variant, dragIndicator }) => ({
   ...(variant === 'calendar'
     ? {
-        [TH]: {
-          '&:first-child': {
-            '&::after': {
-              display: 'none',
-            },
+        '&:first-child, &:nth-child(2)': {
+          borderRadius: 0,
+          backgroundColor: color.goku[100],
+          '&::after': {
+            display: 'none',
           },
         },
       }
     : {}),
+  ...(dragIndicator && { cursor: 'grab' }),
 }));
 
-const Body = styled.div({
-  position: 'relative',
-  zIndex: 0,
-});
-
-const BodyTR = styled.div<{
+const DndBodyTR = styled(BodyTR)<{
   variant?: string;
   hasOnRowClickHandler: boolean;
-  evenRowBackgroundColor?: ColorNames;
 }>(
-  ({ theme, evenRowBackgroundColor }) => ({
-    '&:nth-child(even)': {
-      [TD]: {
-        backgroundColor: evenRowBackgroundColor
-          ? themed('color', evenRowBackgroundColor)(theme)
-          : theme.color.gohan[80],
-      },
-    },
-  }),
-  ({ theme: { color, space }, variant, hasOnRowClickHandler }) => ({
-    marginBottom: rem(2),
+  ({ theme: { color }, variant, hasOnRowClickHandler }) => ({
     ...(hasOnRowClickHandler
       ? {
           '&:hover': {
@@ -169,9 +55,6 @@ const BodyTR = styled.div<{
             position: 'relative',
             cursor: 'pointer',
             [TD]: {
-              boxShadow: `${rem(space.small)} ${rem(space.xsmall)} ${rem(
-                space.default
-              )} ${rgba(color.trunks[100], 0.15)}`,
               ...(variant === 'calendar'
                 ? {
                     '&:first-child, &:nth-child(2)': {
@@ -200,92 +83,6 @@ const BodyTR = styled.div<{
   'flex: 1 0 auto;'
 );
 
-const TD = styled.div<{
-  variant?: string;
-  defaultRowBackgroundColor?: ColorNames;
-  dragIndicator?: boolean;
-}>(
-  ({ theme, defaultRowBackgroundColor }) => ({
-    backgroundColor: defaultRowBackgroundColor
-      ? themed('color', defaultRowBackgroundColor)(theme)
-      : theme.color.gohan[100],
-  }),
-  ({ theme: { color, radius, space }, variant, dragIndicator }) => ({
-    padding: rem(space.default),
-    paddingLeft: rem(space.small),
-    paddingRight: rem(space.small),
-    color: color.bulma[100],
-    position: 'relative',
-    '&::after': {
-      content: '""',
-      position: 'absolute',
-      width: '1px',
-      backgroundColor: color.beerus[100],
-      height: '60%',
-      bottom: '20%',
-      right: 0,
-    },
-    '&:first-child': {
-      borderTopLeftRadius: radius.default,
-      borderBottomLeftRadius: radius.default,
-      '&::after': {
-        display: 'none',
-      },
-    },
-    '&:last-child': {
-      borderTopRightRadius: radius.default,
-      borderBottomRightRadius: radius.default,
-      '&::after': {
-        width: 0,
-      },
-    },
-    ...(variant === 'calendar'
-      ? {
-          '&:first-child, &:nth-child(2)': {
-            borderRadius: 0,
-            backgroundColor: color.goku[100],
-            '& + div': {
-              borderTopLeftRadius: radius.default,
-              borderBottomLeftRadius: radius.default,
-            },
-            '&::after': {
-              display: 'none',
-            },
-          },
-        }
-      : {}),
-    ...(dragIndicator && { cursor: 'grab' }),
-  })
-);
-
-const HiddenTH = styled.div({
-  height: '1px',
-});
-
-const Footer = styled.div(({ theme: { color, radius, space } }) => ({
-  position: 'sticky',
-  zIndex: 1,
-  bottom: 0,
-  [HeaderTR]: {
-    '&:first-child': {
-      [TH]: {
-        boxShadow: `${rem(space.xsmall)} -${rem(space.xsmall)} ${rem(
-          space.small
-        )} ${rgba(color.trunks[100], 0.15)}, inset 0 1px 0 ${rgba(
-          color.trunks[100],
-          0.2
-        )}`,
-        '&:first-child': {
-          borderTopLeftRadius: radius.default,
-        },
-        '&:last-child': {
-          borderTopRightRadius: radius.default,
-        },
-      },
-    },
-  },
-}));
-
 const DND_ITEM_TYPE = 'rowDnd';
 
 const Row: React.FC<any> = ({
@@ -299,25 +96,21 @@ const Row: React.FC<any> = ({
 }) => {
   const dropRef = React.useRef<HTMLDivElement>(null);
   const dragRef = React.useRef(null);
-
   const [, drop] = useDrop({
     accept: DND_ITEM_TYPE,
     hover(item: any, monitor) {
       if (!dropRef.current) return;
-
-      const dragIndex = item.index;
+      const dragItem = item;
+      const dragIndex = dragItem.index;
       const hoverIndex = index;
       if (dragIndex === hoverIndex) return;
-
       const hoverBoundingRect = dropRef?.current?.getBoundingClientRect();
       const hoverRowCenter =
         (hoverBoundingRect.bottom - hoverBoundingRect.top) / 2;
-
       const clientOffset = monitor.getClientOffset();
       const hoverRowPosition = clientOffset
         ? clientOffset.y - hoverBoundingRect.top
         : 0;
-
       if (
         (dragIndex < hoverIndex && hoverRowPosition < hoverRowCenter) ||
         (dragIndex > hoverIndex && hoverRowPosition > hoverRowCenter)
@@ -325,8 +118,7 @@ const Row: React.FC<any> = ({
         return;
       }
       moveRow(dragIndex, hoverIndex);
-
-      item.index = hoverIndex;
+      dragItem.index = hoverIndex;
     },
   });
 
@@ -342,27 +134,27 @@ const Row: React.FC<any> = ({
   drag(dragRef);
 
   return (
-    <BodyTR
+    <DndBodyTR
       ref={dropRef}
       variant={variant}
       hasOnRowClickHandler={hasOnRowClickHandler}
       evenRowBackgroundColor={evenRowBackgroundColor}
       style={{ opacity: isDragging ? 0.5 : 1 }}
     >
-      <TD ref={dragRef} dragIndicator>
+      <DndTD ref={dragRef} dragIndicator>
         <IconDrag fontSize="1.2rem" />
-      </TD>
+      </DndTD>
       {row.cells.map((cell: any) => {
         return (
-          <TD
+          <DndTD
             {...cell.getCellProps()}
             onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
           >
             {cell.render('Cell')}
-          </TD>
+          </DndTD>
         );
       })}
-    </BodyTR>
+    </DndBodyTR>
   );
 };
 
