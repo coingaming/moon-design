@@ -17,6 +17,7 @@
   "dependencies": {
     "@heathmont/moon-components": "^2.82.1",
     "@heathmont/moon-themes": "^2.78.0",
+    "@heathmont/moon-table": "^2.82.1",
     "@heathmont/moon-utils": "^2.78.0",
     "@types/react-table": "7.0.23",
     "immutability-helper": "^3.1.1",
