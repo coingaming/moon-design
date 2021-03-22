@@ -322,7 +322,7 @@ And header background color: `headerBackgroundColor`
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      onRowClick={(row) => row.toggleRowExpanded()}
+      getOnRowClickHandler={() => (row) => row.toggleRowExpanded()}
       renderRowSubComponent={(row) => {
         return (
           <BodyTR {...row.getRowProps()} key={row.getRowProps().key + '1'}>
@@ -515,41 +515,74 @@ And header background color: `headerBackgroundColor`
 };
 ```
 
-## With onRowClick handler
+## With getOnRowClickHandler handler
 
 ```jsx react-live
 () => {
   const columnsInitial = [
     {
-      Header: 'First Name',
-      accessor: 'firstName',
+      Header: 'Expand',
+      sticky: 'left',
+      columns: [
+        {
+          id: 'expander',
+          Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => (
+            <span {...getToggleAllRowsExpandedProps()}>
+              {isAllRowsExpanded ? '👇' : '👉'}
+            </span>
+          ),
+          Cell: ({ row }) =>
+            row.canExpand ? (
+              <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
+                {row.isExpanded ? '👇' : '👉'}
+              </span>
+            ) : null,
+        },
+      ],
     },
     {
-      Header: 'Last Name',
-      accessor: 'lastName',
+      Header: 'Name',
+      sticky: 'left',
+      columns: [
+        {
+          Header: 'First Name',
+          accessor: 'firstName',
+        },
+      ],
     },
     {
-      Header: 'Age',
-      accessor: 'age',
-      width: 50,
+      Header: 'Info',
+      columns: [
+        {
+          Header: 'Age',
+          accessor: 'age',
+          width: 50,
+        },
+        {
+          Header: 'Visits',
+          accessor: 'visits',
+        },
+        {
+          Header: 'Activity',
+          accessor: 'activity',
+        },
+        {
+          Header: 'Status',
+          width: 60,
+          accessor: 'status',
+        },
+      ],
     },
     {
-      Header: 'Visits',
-      accessor: 'visits',
-    },
-    {
-      Header: 'Activity',
-      accessor: 'activity',
-    },
-    {
-      Header: 'Status',
-      width: 60,
-      accessor: 'status',
-    },
-    {
-      Header: 'Profile Progress',
-      Footer: 'Profile Progress',
-      accessor: 'progress',
+      Header: 'Progress',
+      sticky: 'right',
+      columns: [
+        {
+          Header: 'Profile Progress',
+          Footer: 'Profile Progress',
+          accessor: 'progress',
+        },
+      ],
     },
   ];
 
@@ -557,12 +590,21 @@ And header background color: `headerBackgroundColor`
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
-        lastName: 'Test',
         age: <span>{Math.floor(Math.random() * 30)}</span>,
         visits: <span>{Math.floor(Math.random() * 100)}</span>,
         progress: <span>{Math.floor(Math.random() * 100)}</span>,
         status: Math.floor(Math.random() * 100),
         activity: Math.floor(Math.random() * 100),
+        subRows: [
+          {
+            firstName: 'Sub Test',
+            age: <span>{Math.floor(Math.random() * 30)}</span>,
+            visits: <span>{Math.floor(Math.random() * 100)}</span>,
+            progress: <span>{Math.floor(Math.random() * 100)}</span>,
+            status: Math.floor(Math.random() * 100),
+            activity: Math.floor(Math.random() * 100),
+          },
+        ],
       };
     });
   };
@@ -586,7 +628,9 @@ And header background color: `headerBackgroundColor`
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      onRowClick={(row) => console.log(row)}
+      getOnRowClickHandler={(row) =>
+        row.canExpand ? () => row.toggleRowExpanded() : undefined
+      }
     />
   );
 };
