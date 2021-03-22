@@ -140,7 +140,7 @@ const Body = styled.div({
   zIndex: 0,
 });
 
-const TD = styled.div<{
+export const TD = styled.div<{
   variant?: string;
   defaultRowBackgroundColor?: ColorNames;
   headerBackgroundColor?: ColorNames;
@@ -192,7 +192,7 @@ const TD = styled.div<{
   })
 );
 
-const BodyTR = styled.div<{
+export const BodyTR = styled.div<{
   variant?: string;
   hasOnRowClickHandler: boolean;
   headerBackgroundColor?: ColorNames;
@@ -280,6 +280,7 @@ const Table: React.FC<any> = ({
   defaultRowBackgroundColor = 'gohan.100',
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
+  renderRowSubComponent,
 }) => {
   const {
     getTableProps,
@@ -288,6 +289,7 @@ const Table: React.FC<any> = ({
     footerGroups,
     rows,
     prepareRow,
+    visibleColumns,
   } = useTable(
     {
       columns,
@@ -383,6 +385,9 @@ const Table: React.FC<any> = ({
                   );
                 })}
               </BodyTR>
+              {row.isExpanded &&
+                !!renderRowSubComponent &&
+                renderRowSubComponent(row, rowProps, visibleColumns)}
             </Fragment>
           );
         })}
