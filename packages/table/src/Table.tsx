@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import styled from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
+import tint from 'polished/lib/color/tint';
 import {
   useTable,
   useResizeColumns,
@@ -76,9 +77,7 @@ const TH = styled.div<{
   headerBackgroundColor?: ColorNames;
 }>(
   ({ theme, headerBackgroundColor }) => ({
-    backgroundColor: headerBackgroundColor
-      ? themed('color', headerBackgroundColor)(theme)
-      : theme.color.goku[100],
+    backgroundColor: themed('color', headerBackgroundColor)(theme),
   }),
   ({ theme: { color, space } }) => ({
     padding: rem(space.small),
@@ -144,34 +143,33 @@ const Body = styled.div({
 const TD = styled.div<{
   variant?: string;
   defaultRowBackgroundColor?: ColorNames;
+  headerBackgroundColor?: ColorNames;
 }>(
   ({ theme, defaultRowBackgroundColor }) => ({
-    backgroundColor: defaultRowBackgroundColor
-      ? themed('color', defaultRowBackgroundColor)(theme)
-      : theme.color.gohan[100],
+    backgroundColor: themed('color', defaultRowBackgroundColor)(theme),
   }),
-  ({ theme: { color, radius, space }, variant }) => ({
-    padding: rem(space.default),
-    paddingLeft: rem(space.small),
-    paddingRight: rem(space.small),
-    color: color.bulma[100],
+  ({ theme, variant, headerBackgroundColor }) => ({
+    padding: rem(theme.space.default),
+    paddingLeft: rem(theme.space.small),
+    paddingRight: rem(theme.space.small),
+    color: theme.color.bulma[100],
     position: 'relative',
     '&::after': {
       content: '""',
       position: 'absolute',
       width: '1px',
-      backgroundColor: color.beerus[100],
+      backgroundColor: theme.color.beerus[100],
       height: '60%',
       bottom: '20%',
       right: 0,
     },
     '&:first-child': {
-      borderTopLeftRadius: radius.default,
-      borderBottomLeftRadius: radius.default,
+      borderTopLeftRadius: theme.radius.default,
+      borderBottomLeftRadius: theme.radius.default,
     },
     '&:last-child': {
-      borderTopRightRadius: radius.default,
-      borderBottomRightRadius: radius.default,
+      borderTopRightRadius: theme.radius.default,
+      borderBottomRightRadius: theme.radius.default,
       '&::after': {
         width: 0,
       },
@@ -180,10 +178,10 @@ const TD = styled.div<{
       ? {
           '&:first-child': {
             borderRadius: 0,
-            backgroundColor: color.goku[100],
+            backgroundColor: themed('color', headerBackgroundColor)(theme),
             '& + div': {
-              borderTopLeftRadius: radius.default,
-              borderBottomLeftRadius: radius.default,
+              borderTopLeftRadius: theme.radius.default,
+              borderBottomLeftRadius: theme.radius.default,
             },
             '&::after': {
               display: 'none',
@@ -197,50 +195,44 @@ const TD = styled.div<{
 const BodyTR = styled.div<{
   variant?: string;
   hasOnRowClickHandler: boolean;
+  headerBackgroundColor?: ColorNames;
   evenRowBackgroundColor?: ColorNames;
 }>(
   ({ theme, evenRowBackgroundColor }) => ({
     '&:nth-child(even)': {
       [TD]: {
-        backgroundColor: evenRowBackgroundColor
-          ? themed('color', evenRowBackgroundColor)(theme)
-          : theme.color.gohan[80],
+        backgroundColor: themed('color', evenRowBackgroundColor)(theme),
       },
     },
   }),
-  ({ theme: { color, space }, variant, hasOnRowClickHandler }) => ({
+  ({ theme, variant, hasOnRowClickHandler, headerBackgroundColor }) => ({
     marginBottom: rem(2),
     ...(hasOnRowClickHandler
       ? {
           '&:hover': {
-            zIndex: 1,
-            position: 'relative',
             cursor: 'pointer',
             [TD]: {
-              boxShadow: `${rem(space.small)} ${rem(space.xsmall)} ${rem(
-                space.default
-              )} ${rgba(color.trunks[100], 0.15)}`,
               ...(variant === 'calendar'
                 ? {
-                    '&:first-child': {
-                      boxShadow: 'none',
+                    '&:not(:first-child)': {
+                      backgroundColor: tint(0.75, theme.color.piccolo[100]),
                     },
                   }
-                : {}),
+                : {
+                    backgroundColor: tint(0.75, theme.color.piccolo[100]),
+                  }),
             },
           },
         }
       : {}),
-    '&:nth-child(even)': {
-      [TD]: {
-        ...(variant === 'calendar'
-          ? {
-              '&:first-child': {
-                backgroundColor: color.goku[100],
-              },
-            }
-          : {}),
-      },
+    [TD]: {
+      ...(variant === 'calendar'
+        ? {
+            '&:first-child': {
+              backgroundColor: themed('color', headerBackgroundColor)(theme),
+            },
+          }
+        : {}),
     },
   })
 );
@@ -285,9 +277,9 @@ const Table: React.FC<any> = ({
   layout,
   withFooter = false,
   onRowClick,
-  defaultRowBackgroundColor,
-  evenRowBackgroundColor,
-  headerBackgroundColor,
+  defaultRowBackgroundColor = 'gohan.100',
+  evenRowBackgroundColor = 'gohan.80',
+  headerBackgroundColor = 'goku.100',
 }) => {
   const {
     getTableProps,
@@ -364,28 +356,34 @@ const Table: React.FC<any> = ({
       </Header>
 
       <Body {...getTableBodyProps()}>
-        {rows.map((row) => {
+        {rows.map((row: any) => {
           prepareRow(row);
+          const rowProps = row.getRowProps();
           return (
-            <BodyTR
-              {...row.getRowProps()}
-              variant={variant}
-              onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
-              hasOnRowClickHandler={hasOnRowClickHandler}
-              evenRowBackgroundColor={evenRowBackgroundColor}
-            >
-              {row.cells.map((cell) => {
-                return (
-                  <TD
-                    {...cell.getCellProps()}
-                    variant={variant}
-                    defaultRowBackgroundColor={defaultRowBackgroundColor}
-                  >
-                    {cell.render('Cell')}
-                  </TD>
-                );
-              })}
-            </BodyTR>
+            <Fragment key={`${row.id}-${rowProps.key}`}>
+              <BodyTR
+                {...rowProps}
+                variant={variant}
+                onClick={
+                  hasOnRowClickHandler ? () => onRowClick(row) : undefined
+                }
+                hasOnRowClickHandler={hasOnRowClickHandler}
+                headerBackgroundColor={headerBackgroundColor}
+                evenRowBackgroundColor={evenRowBackgroundColor}
+              >
+                {row.cells.map((cell: any) => {
+                  return (
+                    <TD
+                      {...cell.getCellProps()}
+                      variant={variant}
+                      defaultRowBackgroundColor={defaultRowBackgroundColor}
+                    >
+                      {cell.render('Cell')}
+                    </TD>
+                  );
+                })}
+              </BodyTR>
+            </Fragment>
           );
         })}
       </Body>
@@ -395,7 +393,10 @@ const Table: React.FC<any> = ({
           {footerGroups.map((footerGroup) => (
             <HeaderTR {...footerGroup.getFooterGroupProps()} variant={variant}>
               {footerGroup.headers.map((column) => (
-                <TH {...column.getFooterProps()}>
+                <TH
+                  {...column.getFooterProps()}
+                  headerBackgroundColor={headerBackgroundColor}
+                >
                   {column.render('Footer')}
 
                   <div
