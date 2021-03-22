@@ -276,7 +276,7 @@ const Table: React.FC<any> = ({
   variant,
   layout,
   withFooter = false,
-  onRowClick,
+  getOnRowClickHandler = () => undefined,
   defaultRowBackgroundColor = 'gohan.100',
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
@@ -304,7 +304,6 @@ const Table: React.FC<any> = ({
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const [isScrolledToLeft, setIsScrolledToLeft] = useState(true);
   const [isScrolledToRight, setIsScrolledToRight] = useState(false);
-  const hasOnRowClickHandler = typeof onRowClick === 'function';
 
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
     const target = event.target as HTMLDivElement;
@@ -361,13 +360,18 @@ const Table: React.FC<any> = ({
         {rows.map((row: any) => {
           prepareRow(row);
           const rowProps = row.getRowProps();
+          const onRowClickHandler = getOnRowClickHandler(row);
+          const hasOnRowClickHandler = typeof onRowClickHandler === 'function';
+
           return (
             <Fragment key={`${row.id}-${rowProps.key}`}>
               <BodyTR
                 {...rowProps}
                 variant={variant}
                 onClick={
-                  hasOnRowClickHandler ? () => onRowClick(row) : undefined
+                  hasOnRowClickHandler
+                    ? () => onRowClickHandler(row)
+                    : undefined
                 }
                 hasOnRowClickHandler={hasOnRowClickHandler}
                 headerBackgroundColor={headerBackgroundColor}
