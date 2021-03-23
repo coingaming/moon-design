@@ -54,7 +54,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   translations,
   apply,
   config,
-  reset,
+  // reset,
 }) => {
   const dateFormat = config.withHoursAndMinutes
     ? "yyyy-MM-dd'T'HH:mm"
@@ -84,9 +84,9 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
 
   return (
     <InputsPanelStyled>
-      <Button type="button" variant="tertiary" onClick={reset}>
+      {/* <Button type="button" variant="tertiary" onClick={reset}>
         {translations.reset}
-      </Button>
+      </Button> */}
       <StyledTextInput
         error={hasStartDateError}
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}

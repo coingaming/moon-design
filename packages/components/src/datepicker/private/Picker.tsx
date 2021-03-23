@@ -27,9 +27,9 @@ const PickerContainer = styled.div(
     [mq(breakpoint.medium)]: {
       gridTemplateAreas: `
         "sidebar firstMonth secondMonth"
-        "inputs  inputs     inputs"
+        "sidebar  inputs     inputs"
       `,
-      gridTemplateColumns: '1fr 2fr 2fr',
+      gridTemplateColumns: '2fr 3fr 3fr',
       alignItems: 'baseline',
     },
     paddingBottom: rem(space.default),
