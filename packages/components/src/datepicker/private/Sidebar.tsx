@@ -14,7 +14,8 @@ const SidebarList = styled.ul(({ theme: { color, breakpoint } }) => ({
   flexWrap: 'wrap',
   [mq(breakpoint.medium)]: {
     flexDirection: 'column',
-    maxWidth: rem(120),
+    maxWidth: '100%',
+    // maxWidth: rem(120),
   },
 }));
 
@@ -23,6 +24,7 @@ type RangeItemProps = {
 };
 
 const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
+  position: 'relative',
   listStyle: 'none',
   padding: rem(8),
   boxSizing: 'border-box',
@@ -37,6 +39,34 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   '&:hover': {
     background: theme.color.goku[80],
   },
+  '&:hover:before': {
+    content: "''",
+    display: 'block',
+    position: 'absolute',
+    zIndex: 1,
+    left: 0,
+    top: 0,
+    bottom: 0,
+    width: rem(4),
+    height: '100%',
+    backgroundColor: theme.color.bulma[100],
+    borderRadius: rem(4),
+  },
+  '&:before': isSelected
+    ? {
+        content: "''",
+        display: 'block',
+        position: 'absolute',
+        zIndex: 1,
+        left: 0,
+        top: 0,
+        bottom: 0,
+        width: rem(4),
+        height: '100%',
+        backgroundColor: theme.color.bulma[100],
+        borderRadius: rem(4),
+      }
+    : '',
 }));
 
 type SidebarProps = {
