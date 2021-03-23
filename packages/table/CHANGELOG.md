@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.85.0](https://github.com/coingaming/sportsbet-design/compare/v2.84.1...v2.85.0) (2021-03-23)
+
+
+### Bug Fixes
+
+* fix table colors ([1ea4394](https://github.com/coingaming/sportsbet-design/commit/1ea439471a5d9585d91c68d7347c077fe1b5aab3))
+
+
+### Features
+
+* add renderRowSubComponent ([e9fa7e5](https://github.com/coingaming/sportsbet-design/commit/e9fa7e5f7028283026aa79489af3dbcb38914db1))
+* update getOnRowClickHandler prop ([afebb49](https://github.com/coingaming/sportsbet-design/commit/afebb49183a9907679f82ff93f5999a54b380cc2))
+
+
+
+
+
 ## [2.84.1](https://github.com/coingaming/sportsbet-design/compare/v2.84.0...v2.84.1) (2021-03-22)
 
 **Note:** Version bump only for package @heathmont/moon-table

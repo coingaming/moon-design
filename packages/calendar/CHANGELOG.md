@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.85.0](https://github.com/coingaming/sportsbet-design/compare/v2.84.1...v2.85.0) (2021-03-23)
+
+**Note:** Version bump only for package @heathmont/moon-calendar
+
+
+
+
+
 ## [2.84.1](https://github.com/coingaming/sportsbet-design/compare/v2.84.0...v2.84.1) (2021-03-22)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
