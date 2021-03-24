@@ -89,6 +89,7 @@ const Row: React.FC<any> = ({
   row,
   index,
   moveRow,
+  dropRow,
   variant,
   onRowClick,
   hasOnRowClickHandler,
@@ -96,6 +97,7 @@ const Row: React.FC<any> = ({
 }) => {
   const dropRef = React.useRef<HTMLDivElement>(null);
   const dragRef = React.useRef(null);
+
   const [, drop] = useDrop({
     accept: DND_ITEM_TYPE,
     hover(item: any, monitor) {
@@ -119,6 +121,9 @@ const Row: React.FC<any> = ({
       }
       moveRow(dragIndex, hoverIndex);
       dragItem.index = hoverIndex;
+    },
+    drop() {
+      dropRow();
     },
   });
 
@@ -190,6 +195,8 @@ const DraggableTable: React.FC<any> = ({
     },
     [records]
   );
+
+  const dropRow = () => rows;
 
   const {
     getTableProps,
@@ -283,6 +290,7 @@ const DraggableTable: React.FC<any> = ({
                 {...row.getRowProps()}
                 variant={variant}
                 moveRow={moveRow}
+                dropRow={dropRow}
                 onRowClick={onRowClick}
                 hasOnRowClickHandler={hasOnRowClickHandler}
                 evenRowBackgroundColor={evenRowBackgroundColor}
