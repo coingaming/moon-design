@@ -52,17 +52,17 @@ export const mdxComponents = {
     </h1>
   ),
   h2: ({ children, id }: mdxComponentProps) => (
-    <h1 id={id} className="text-bulma text-3xl">
+    <h1 id={id} className="text-bulma text-2xl mt-8">
       {children}
     </h1>
   ),
   h3: ({ children, id }: mdxComponentProps) => (
-    <h1 id={id} className="text-bulma text-2xl">
+    <h1 id={id} className="text-bulma text-xl mt-4">
       {children}
     </h1>
   ),
   h4: ({ children, id }: mdxComponentProps) => (
-    <h1 id={id} className="text-bulma text-xl">
+    <h1 id={id} className="text-bulma text-lg mt-2">
       {children}
     </h1>
   ),

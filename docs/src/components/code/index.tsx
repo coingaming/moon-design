@@ -16,6 +16,8 @@ import * as Popover from '@heathmont/moon-popover';
 import * as Accordion from '@heathmont/moon-accordion';
 import { useTheme } from '@heathmont/moon-themes';
 
+import * as DraggableTable from '../../../../packages/draggabletable/src';
+
 import { prismTheme } from './prism';
 
 type CodeProps = {
@@ -63,6 +65,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
             ...Sidebar,
             ...Calendar,
             ...Table,
+            ...DraggableTable,
             ...Charts,
             ...Popover,
             ...Notifications,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 
-import { PagesData, Frontmatter } from '../../types';
+import { PagesData } from '../../types';
 import { transformSections } from '../nav/transform';
 import IconLogoMoonDesign from '../../assets/svg/logos/logo-moon-design.svg';
 
@@ -31,21 +31,13 @@ const sidebar = graphql`
   }
 `;
 
-type MenuItemProps = Frontmatter & {
-  section?: boolean;
-  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  pages?: any;
-};
+// type MenuItemProps = Frontmatter & {
+//   section?: boolean;
+//   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+//   pages?: any;
+// };
 
 export const Sidebar: React.FC<any> = () => {
-  const locationPathname =
-    typeof window !== `undefined` ? window && window.location.pathname : null;
-  const isCurrentLocation = (pages: [MenuItemProps]) => {
-    return (
-      pages && pages.some((item) => locationPathname?.includes(item.route))
-    );
-  };
-
   return (
     <StaticQuery
       query={sidebar}
@@ -66,7 +58,7 @@ export const Sidebar: React.FC<any> = () => {
                       key={item.name}
                       title={item.name}
                       route={item.route}
-                      isActive={isCurrentLocation(item.route)}
+                      isActive={false}
                     />
                   );
                 }
@@ -75,7 +67,7 @@ export const Sidebar: React.FC<any> = () => {
                     key={item.name}
                     title={item.name}
                     items={item.pages}
-                    isActive={isCurrentLocation(item.pages)}
+                    isActive={false}
                   />
                 );
               })}
