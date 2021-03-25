@@ -13,16 +13,19 @@
     "pagination",
     "sidebar",
     "table",
+    "draggabletable",
     "charts",
     "themes",
     "tokens",
     "utils",
     "popover",
-    "accordion"
+    "accordion",
+    "atomic"
   ],
   "menuSections": [
     "Themes",
     "Assets",
+    "Atomic",
     "Design System",
     "Toolkit",
     "Components",
