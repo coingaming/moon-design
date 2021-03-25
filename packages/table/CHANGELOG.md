@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
+
+
+### Bug Fixes
+
+* **draggabletable:** import draggabletable styles from table component ([4df5b5b](https://github.com/coingaming/sportsbet-design/commit/4df5b5bbc8cb906c8c2f2e2d59171a26049f9deb))
+
+
+### Features
+
+* **draggabletable:** add draggabletable component to moon-theme ([bc28ad4](https://github.com/coingaming/sportsbet-design/commit/bc28ad4d0c1216c715607ab8b44abc28b3dbb68e))
+* **draggabletable:** add draggabletable to moon-theme ([7e738a9](https://github.com/coingaming/sportsbet-design/commit/7e738a909042ca3d1b21c684b148828cbfb94950))
+* BASE1-1021 add react-dnd to table component ([6a8e83f](https://github.com/coingaming/sportsbet-design/commit/6a8e83fc29a4fcbe81affb2d69a97e4f73e6cbb8))
+
+
+
+
+
 # [2.85.0](https://github.com/coingaming/sportsbet-design/compare/v2.84.1...v2.85.0) (2021-03-23)
 
 
