@@ -626,6 +626,8 @@ export { default as IconFlagZW } from './flags/IconFlagZW';
 export * from './flags/IconFlagZW';
 export { default as GroupIconCurrency } from './groupIcons/GroupIconCurrency';
 export * from './groupIcons/GroupIconCurrency';
+export { default as GroupIconPrimaryCurrency } from './groupIcons/GroupIconPrimaryCurrency';
+export * from './groupIcons/GroupIconPrimaryCurrency';
 export { default as GroupIconSports } from './groupIcons/GroupIconSports';
 export * from './groupIcons/GroupIconSports';
 export { default as GroupIconSportsColor } from './groupIcons/GroupIconSportsColor';
