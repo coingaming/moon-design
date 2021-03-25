@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
+
+
+### Features
+
+* B1M2-388 tailwind components previes alignments ([093101e](https://github.com/coingaming/sportsbet-design/commit/093101e98aec61fdb3fa3e7ecd3d04134d06ebf2))
+* **draggabletable:** add draggabletable component to moon-theme ([bc28ad4](https://github.com/coingaming/sportsbet-design/commit/bc28ad4d0c1216c715607ab8b44abc28b3dbb68e))
+
+
+
+
+
 # [2.85.0](https://github.com/coingaming/sportsbet-design/compare/v2.84.1...v2.85.0) (2021-03-23)
 
 **Note:** Version bump only for package docs
