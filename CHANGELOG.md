@@ -3,6 +3,56 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.85.0](https://github.com/coingaming/sportsbet-design/compare/v2.84.1...v2.85.0) (2021-03-23)
+
+
+### Bug Fixes
+
+* fix table colors ([1ea4394](https://github.com/coingaming/sportsbet-design/commit/1ea439471a5d9585d91c68d7347c077fe1b5aab3))
+
+
+### Features
+
+* add renderRowSubComponent ([e9fa7e5](https://github.com/coingaming/sportsbet-design/commit/e9fa7e5f7028283026aa79489af3dbcb38914db1))
+* align datepicker component [B1M2-368] ([64dcf49](https://github.com/coingaming/sportsbet-design/commit/64dcf49fee1805c788c401215b39229e28fbeca0))
+* update getOnRowClickHandler prop ([afebb49](https://github.com/coingaming/sportsbet-design/commit/afebb49183a9907679f82ff93f5999a54b380cc2))
+
+
+
+
+
+## [2.84.1](https://github.com/coingaming/sportsbet-design/compare/v2.84.0...v2.84.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* snackbar justify content ([d6fb18f](https://github.com/coingaming/sportsbet-design/commit/d6fb18f64ac50a48413d105cdaaec3bc5bc26432))
+
+
+
+
+
+# [2.84.0](https://github.com/coingaming/sportsbet-design/compare/v2.83.0...v2.84.0) (2021-03-19)
+
+
+### Bug Fixes
+
+* added text align property to text ([1d87cbe](https://github.com/coingaming/sportsbet-design/commit/1d87cbec44e1d3c7d2f4ce80dcb4b6af80db99fc))
+* added text align to heading ([acdeb26](https://github.com/coingaming/sportsbet-design/commit/acdeb268cbbad23b3ba2224c4f255e353b7fd871))
+* added text align to snackbar ([fe9d11e](https://github.com/coingaming/sportsbet-design/commit/fe9d11edbca1fe7d124c33bf61594e411376b6e5))
+* fix chart buttons ([9d85b9e](https://github.com/coingaming/sportsbet-design/commit/9d85b9e87de656fbeec884a5b25373e15d31fc3b))
+* сorrect spelling ([e92262a](https://github.com/coingaming/sportsbet-design/commit/e92262acaebefa370cbb6de4b52f2396dfb37f4a))
+
+
+### Features
+
+* **Circular:** strokeWidth ([cfbb4c7](https://github.com/coingaming/sportsbet-design/commit/cfbb4c719764475acc6216727ca351fa6a4015fc))
+* add group currency component for new currency items ([76fb808](https://github.com/coingaming/sportsbet-design/commit/76fb80884db40c01c3e870cfd6defaac04636dec))
+
+
+
+
+
 # [2.83.0](https://github.com/coingaming/sportsbet-design/compare/v2.82.1...v2.83.0) (2021-02-23)
 
 
