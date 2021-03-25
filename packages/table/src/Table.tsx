@@ -13,7 +13,7 @@ import { useSticky } from 'react-table-sticky';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
 
-const TableWrapper = styled.div<{
+export const TableWrapper = styled.div<{
   isScrolledToLeft: boolean;
   isScrolledToRight: boolean;
 }>(({ theme: { color, radius }, isScrolledToLeft, isScrolledToRight }) => ({
@@ -67,13 +67,13 @@ const TableWrapper = styled.div<{
   },
 }));
 
-const Header = styled.div({
+export const Header = styled.div({
   position: 'sticky',
   zIndex: 1,
   top: 0,
 });
 
-const TH = styled.div<{
+export const TH = styled.div<{
   headerBackgroundColor?: ColorNames;
 }>(
   ({ theme, headerBackgroundColor }) => ({
@@ -121,7 +121,7 @@ const TH = styled.div<{
   })
 );
 
-const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
+export const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
   ...(variant === 'calendar'
     ? {
         [TH]: {
@@ -135,7 +135,7 @@ const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
     : {}),
 }));
 
-const Body = styled.div({
+export const Body = styled.div({
   position: 'relative',
   zIndex: 0,
 });
@@ -237,11 +237,11 @@ export const BodyTR = styled.div<{
   })
 );
 
-const HiddenTH = styled.div({
+export const HiddenTH = styled.div({
   height: '1px',
 });
 
-const Footer = styled.div(({ theme: { color, radius, space } }) => ({
+export const Footer = styled.div(({ theme: { color, radius, space } }) => ({
   position: 'sticky',
   zIndex: 1,
   bottom: 0,
