@@ -34,7 +34,7 @@ export const prismTheme = (): PrismTheme => {
       fontSize: '0.8rem',
       lineHeight: 1.5,
       textAlign: 'left',
-      whiteSpace: 'pre',
+      // whiteSpace: 'pre',
       wordSpacing: 'normal',
       wordBreak: 'normal',
       wordWrap: 'normal',

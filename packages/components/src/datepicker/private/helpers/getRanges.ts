@@ -1,6 +1,6 @@
 import { DatesRange } from './getDatesFromRange';
 
-const future = ['tommorow', 'nextWeek', 'nextMonth'];
+const future = ['tomorrow', 'nextWeek', 'nextMonth'];
 const past = ['lastMonth', 'lastWeek', 'yesterday', 'thisWeek', 'thisMonth'];
 
 interface GetRangesArgs {

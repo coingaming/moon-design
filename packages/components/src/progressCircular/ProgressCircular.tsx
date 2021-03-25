@@ -3,11 +3,6 @@ import { useTheme } from '@heathmont/moon-themes';
 
 import Path from './Path';
 
-const VIEWBOX_WIDTH = 100;
-const VIEWBOX_HEIGHT = 100;
-const STROKE_WIDTH = 12;
-const PATH_RADIUS = (VIEWBOX_HEIGHT - STROKE_WIDTH) / 2;
-
 const getPathRatio = (value: number) => {
   const minValue = 0;
   const maxValue = 100;
@@ -17,13 +12,20 @@ const getPathRatio = (value: number) => {
 
 export type CircularProgressbarProps = {
   value: number;
+  fontSize?: any;
+  strokeWidth?: number;
   className?: string;
 };
 
 const ProgressCircular: React.FC<CircularProgressbarProps> = ({
   value,
+  strokeWidth = 12,
   ...props
 }) => {
+  const VIEWBOX_WIDTH = 100;
+  const VIEWBOX_HEIGHT = 100;
+  const PATH_RADIUS = (VIEWBOX_HEIGHT - strokeWidth) / 2;
+
   const { color } = useTheme();
 
   const pathRatio = getPathRatio(value);
@@ -41,13 +43,13 @@ const ProgressCircular: React.FC<CircularProgressbarProps> = ({
       <Path
         dashRatio={1}
         pathRadius={PATH_RADIUS}
-        strokeWidth={STROKE_WIDTH}
+        strokeWidth={strokeWidth}
         style={{ stroke: color.goku[80] }}
       />
       <Path
         dashRatio={pathRatio}
         pathRadius={PATH_RADIUS}
-        strokeWidth={STROKE_WIDTH}
+        strokeWidth={strokeWidth}
         style={{
           stroke: color.piccolo[100],
           transition: value === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',
