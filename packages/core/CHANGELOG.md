@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
+
+
+### Features
+
+* B1M2-408 basic Button with 4 variants ([97ec67e](https://github.com/coingaming/sportsbet-design/commit/97ec67e66eb2138e495bf5822978e9a1e6df06c0))
+
+
+
+
+
 # [2.84.0](https://github.com/coingaming/sportsbet-design/compare/v2.83.0...v2.84.0) (2021-03-19)
 
 
