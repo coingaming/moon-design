@@ -125,12 +125,6 @@ export const MenuItem = ({ route, name, section }: MenuItemProps) => (
 );
 
 export const Menu = ({ items }: MenuProps) => {
-  const locationPathname =
-    typeof window !== `undefined` ? window && window.location.pathname : null;
-  const isCurrentLocation = (pages: [MenuItemProps]) => {
-    return pages && pages.some((item) => item.route === locationPathname);
-  };
-
   return (
     <>
       {items.map((item) => (
@@ -138,7 +132,7 @@ export const Menu = ({ items }: MenuProps) => {
           key={item.name}
           title={item.name}
           items={item.pages}
-          isActive={isCurrentLocation(item.pages)}
+          isActive={false}
         />
       ))}
     </>
