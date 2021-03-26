@@ -79,8 +79,8 @@ module.exports = {
     //   },
     // },
     `gatsby-plugin-typescript`,
-    'gatsby-plugin-offline',
-    'gatsby-plugin-postcss',
+    // 'gatsby-plugin-offline',
+    // 'gatsby-plugin-postcss',
     `gatsby-plugin-remove-trailing-slashes`,
   ],
 };
