@@ -9,12 +9,8 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
-  },
-  "workspaces": {
-    "nohoist": [
-      "gatsby"
-    ]
+    "serve": "gatsby serve",
+    "tailwind": "npx tailwindcss-cli@latest build -o src/components/tailwind.css"
   },
   "eslintConfig": {
     "parserOptions": {
