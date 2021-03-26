@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.86.1](https://github.com/coingaming/sportsbet-design/compare/v2.86.0...v2.86.1) (2021-03-26)
+
+
+### Bug Fixes
+
+* tailwind production B1M2-420 ([3a0c522](https://github.com/coingaming/sportsbet-design/commit/3a0c52205950ce4c7b43c81249a2f53fca64b900))
+
+
+
+
+
 # [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
 
 
