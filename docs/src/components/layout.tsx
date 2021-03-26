@@ -9,6 +9,8 @@ import { Sidebar } from './sidebar/Sidebar';
 import { DarkModeSwitcher } from './DarkModeSwitch';
 import ThemeSwitcher from './ThemeSwitch';
 
+import './tailwind.css';
+
 const Main = styled.main(({ theme: { breakpoint } }) => ({
   paddingLeft: '1rem',
   paddingRight: '1rem',
