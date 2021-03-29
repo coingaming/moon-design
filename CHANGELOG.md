@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.87.0](https://github.com/coingaming/sportsbet-design/compare/v2.86.1...v2.87.0) (2021-03-29)
+
+
+### Bug Fixes
+
+* align "textAlign" prop ([9c29ef1](https://github.com/coingaming/sportsbet-design/commit/9c29ef1b140475821e42cd268bf300d89f685483))
+* types.d.ts ([29aceb9](https://github.com/coingaming/sportsbet-design/commit/29aceb9d3b74d44561d6839d3d1043c382ed0850))
+
+
+### Features
+
+* **Select:** rtl support ([1d4f00e](https://github.com/coingaming/sportsbet-design/commit/1d4f00e09577ec1b9e8a328a3aeb2448ce2238c8))
+* dir='rtl' ([693aab4](https://github.com/coingaming/sportsbet-design/commit/693aab4b6d47c13b381ba6a502a7466915b14a31))
+* **Caption:** rightAlign ([b45a5b5](https://github.com/coingaming/sportsbet-design/commit/b45a5b5cd8dad90df6bf10f56587522d3d3ba34f))
+* **Inline:** right align ([afe9734](https://github.com/coingaming/sportsbet-design/commit/afe97344071fdf9432318bae05e33da83bcc8fba))
+* **Text:** update docs ([39b4a29](https://github.com/coingaming/sportsbet-design/commit/39b4a297d71ecaf834aeb4316040871e400112f7))
+
+
+
+
+
 ## [2.86.1](https://github.com/coingaming/sportsbet-design/compare/v2.86.0...v2.86.1) (2021-03-26)
 
 
