@@ -89,7 +89,7 @@ list-item (`li`) elements will display without bullets.
 };
 ```
 
-## Right Align
+## justifyContent
 
 Using `rightAlign`, we can quickly align everything to right.
 
@@ -98,7 +98,7 @@ Using `rightAlign`, we can quickly align everything to right.
   const items = Array.from({ length: 3 }, (v, i) => i);
 
   return (
-    <Inline as="ul" rightAlign>
+    <Inline as="ul" justifyContent="flex-end">
       {items.map((item) => (
         <li>
           <Button variant="tertiary">Item {item}</Button>
