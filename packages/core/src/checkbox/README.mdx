@@ -98,3 +98,23 @@ import {
   );
 };
 ```
+
+## Right aligned
+
+```jsx react-live
+() => {
+  const id2 = 'test-checkbox-right-id';
+  const label = 'آراء وتحليلات.';
+  const ariaLabel = 'marketing emails';
+
+  return (
+    <Inline justifyContent="flex-end">
+      <CheckboxLabel htmlFor={id2} dir="rtl">
+        {label && <CheckboxCaption>{label}</CheckboxCaption>}
+        <CheckboxHiddenInput aria-label={ariaLabel} id={id2} />
+        <CheckboxStyledInput />
+      </CheckboxLabel>
+    </Inline>
+  );
+};
+```
