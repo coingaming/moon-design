@@ -40,10 +40,8 @@ By default font weight is regular. You can make it bolder.
 
 ```jsx react-live
 <Stack>
-  <Text size={24}>Text with default font weight</Text>
-  <Text size={24} isBold>
-    Text with font-weight: semibold
-  </Text>
+  <Text>Text with default font weight</Text>
+  <Text isBold>Text with font-weight: semibold</Text>
 </Stack>
 ```
 
@@ -53,13 +51,9 @@ By default Text renders as Paragraph tag. You can render it as Span or Label tag
 
 ```jsx react-live
 <Stack>
-  <Text size={24}>Text renders Paragraph tag by default</Text>
-  <Text size={24} as="span">
-    Text renders Span tag
-  </Text>
-  <Text size={24} as="label">
-    Text renders Label tag
-  </Text>
+  <Text>Text renders Paragraph tag by default</Text>
+  <Text as="span">Text renders Span tag</Text>
+  <Text as="label">Text renders Label tag</Text>
 </Stack>
 ```
 
@@ -71,15 +65,28 @@ Bulma.100 - is main text color. Trunks.100 - is secondary text color
 
 ```jsx react-live
 <Stack>
-  <Text size={24}>Text with default color</Text>
-  <Text size={24} color="trunks.100">
+  <Text>Text with default color</Text>
+  <Text color="trunks.100">Text with defined color</Text>
+  <Text color="piccolo.100">Text with defined color</Text>
+  <Text color="krillin.100">Text with defined color</Text>
+</Stack>
+```
+
+## textAlign
+
+```jsx react-live
+<Stack>
+  <Text textAlign="right" dir="rtl">
+    آراء وتحليلات.
+  </Text>
+  <Text textAlign="right" color="trunks.100">
     Text with defined color
   </Text>
-  <Text size={24} color="piccolo.100">
-    Text with defined color
+  <Text textAlign="right" dir="rtl" color="piccolo.100">
+    آراء وتحليلات.
   </Text>
-  <Text size={24} color="krillin.100">
-    Text with defined color
+  <Text textAlign="right" dir="rtl" color="krillin.100">
+    آراء وتحليلات.
   </Text>
 </Stack>
 ```
