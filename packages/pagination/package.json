@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-pagination",
   "sideEffects": false,
-  "version": "2.86.0",
+  "version": "2.87.0",
   "files": [
     "lib"
   ],
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@heathmont/moon-assets": "^2.86.0",
-    "@heathmont/moon-components": "^2.86.0",
+    "@heathmont/moon-components": "^2.87.0",
     "@heathmont/moon-themes": "^2.78.0",
     "@heathmont/moon-utils": "^2.78.0",
     "@types/react-paginate": "6.2.1",
