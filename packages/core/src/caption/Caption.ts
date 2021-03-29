@@ -4,16 +4,20 @@ import { ColorProps } from '@heathmont/moon-themes';
 
 type Props = {
   color?: ColorProps;
+  rightAlign?: boolean;
 };
 
-const Caption = styled.span<Props>(({ color, theme }) => ({
-  color: themed('color', color)(theme),
-  fontSize: rem(10),
-  lineHeight: rem(16),
-  fontWeight: theme.fontWeight.semibold,
-  textTransform: 'uppercase',
-  letterSpacing: rem(1),
-}));
+const Caption = styled.span<Props>(({ color, rightAlign, theme }) => [
+  {
+    color: themed('color', color)(theme),
+    fontSize: rem(10),
+    lineHeight: rem(16),
+    fontWeight: theme.fontWeight.semibold,
+    textTransform: 'uppercase',
+    letterSpacing: rem(1),
+  },
+  rightAlign && { textAlign: 'right' },
+]);
 
 Caption.defaultProps = {
   color: 'bulma.100',
