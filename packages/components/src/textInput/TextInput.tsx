@@ -28,7 +28,7 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   placeholder?: string;
   error?: boolean | string;
   rounded?: boolean;
-  dir?: string;
+  dir?: 'ltr' | 'rtl' | 'auto';
 };
 
 const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
