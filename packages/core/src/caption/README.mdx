@@ -34,3 +34,20 @@ By default Caption renders as Span tag. You can render it as Paragraph or Label 
   <Caption as="label">Caption renders Label tag</Caption>
 </Stack>
 ```
+
+## textAlign
+
+```jsx react-live
+<Stack>
+  <Caption textAlign="right">Caption renders Span tag by default</Caption>
+  <Caption dir="rtl" textAlign="right" as="p">
+    آراء وتحليلات.
+  </Caption>
+  <Caption dir="rtl" textAlign="right" color="piccolo.100">
+    Caption with defined color
+  </Caption>
+  <Caption dir="rtl" textAlign="right" color="krillin.100">
+    آراء وتحليلات.
+  </Caption>
+</Stack>
+```
