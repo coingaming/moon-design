@@ -16,11 +16,12 @@ export type InlineProps = {
    * e.g. `<Stack space="large" />` returns `space.large` as a rem unit.
    */
   space?: SpaceProps | InlineSpace;
+  rightAlign?: boolean;
 };
 
 const Inline = styled.div<InlineProps>(
-  ({ fontSize, space = 'default', theme }) => ({
-    ...inlineMixin(themed('space', space)(theme)),
+  ({ fontSize, rightAlign, space = 'default', theme }) => ({
+    ...inlineMixin(themed('space', space)(theme), rightAlign),
     fontSize,
   })
 );

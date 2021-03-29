@@ -6,11 +6,11 @@ import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNon
  * 1. If we don't know the exact value (i.e. not a `number`), use `calc` and let
  *    the browser calculate spacing.
  */
-const inlineMixin = (space: any): CSSObject => ({
+const inlineMixin = (space: any, rightAlign?: boolean): CSSObject => ({
   display: 'flex',
   flexWrap: 'wrap',
   overflow: 'hidden',
-  justifyContent: 'flex-start',
+  justifyContent: rightAlign ? 'flex-end' : 'flex-start',
   alignItems: 'center',
   margin:
     space && typeof space === 'number'
