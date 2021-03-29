@@ -26,7 +26,7 @@ Inline ensures content gracefully adapts to changes in layout, with adjustable s
 
   return (
     <Inline>
-      {items.map(item => (
+      {items.map((item) => (
         <Example hueRotate={item} />
       ))}
     </Inline>
@@ -58,7 +58,7 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
 
   return (
     <Inline space="large">
-      {items.map(item => (
+      {items.map((item) => (
         <Example hueRotate={item} />
       ))}
     </Inline>
@@ -79,7 +79,27 @@ list-item (`li`) elements will display without bullets.
 
   return (
     <Inline as="ul">
-      {items.map(item => (
+      {items.map((item) => (
+        <li>
+          <Button variant="tertiary">Item {item}</Button>
+        </li>
+      ))}
+    </Inline>
+  );
+};
+```
+
+## justifyContent
+
+Using `rightAlign`, we can quickly align everything to right.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 3 }, (v, i) => i);
+
+  return (
+    <Inline as="ul" justifyContent="flex-end">
+      {items.map((item) => (
         <li>
           <Button variant="tertiary">Item {item}</Button>
         </li>

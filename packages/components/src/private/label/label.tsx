@@ -29,13 +29,14 @@ type LabelProps = LabelSizing & {
   text: LabelText;
   inline?: boolean;
   htmlFor?: string;
+  dir?: 'ltr' | 'rtl' | 'auto';
 };
 
 /**
  * Styles
  */
 const LabelContent = styled.span<LabelContentProps>(
-  ({ disabled, flex, theme }) => [
+  ({ disabled, flex, dir, theme }) => [
     {
       display: 'block',
       marginBottom: rem(theme.space.small),
@@ -51,6 +52,9 @@ const LabelContent = styled.span<LabelContentProps>(
     },
     disabled && {
       opacity: 0.5,
+    },
+    dir === 'rtl' && {
+      textAlign: 'right',
     },
   ]
 );
@@ -80,15 +84,18 @@ const Label: React.FC<LabelProps> = ({
   children,
   inline,
   inputGrow = 1,
+  dir,
   ...props
 }) => {
   /* Disable as this is handled in the consumer */
   /* eslint-disable jsx-a11y/label-has-associated-control */
   return inline ? (
-    <label {...props}>{text}</label>
+    <label dir={dir} {...props}>
+      {text}
+    </label>
   ) : (
     <LabelFlex flex={flex} inputGrow={inputGrow} {...props}>
-      <LabelContent disabled={disabled} flex={flex}>
+      <LabelContent dir={dir} disabled={disabled} flex={flex}>
         {text}
       </LabelContent>
       {React.Children.only(children)}
