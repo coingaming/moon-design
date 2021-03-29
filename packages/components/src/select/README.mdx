@@ -100,6 +100,23 @@ Select inputs that cannot be interacted with should be given a `disabled` state.
 </Select>
 ```
 
-## Props
+## Right aligned
 
-<PropsTable of={Select} />
+```jsx react-live
+<Inline justifyContent="flex-end">
+  <Select dir="rtl">
+    <option dir="rtl" value="">
+      آراء وتحليلات.
+    </option>
+    <option dir="rtl" value="never-gonna">
+      Never gonna
+    </option>
+    <option dir="rtl" value="give-you-up">
+      give you up
+    </option>
+    <option dir="rtl" value="let-you-down">
+      let you down.
+    </option>
+  </Select>
+</Inline>
+```

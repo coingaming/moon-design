@@ -28,6 +28,7 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   placeholder?: string;
   error?: boolean | string;
   rounded?: boolean;
+  dir?: 'ltr' | 'rtl' | 'auto';
 };
 
 const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
@@ -51,6 +52,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
     label,
     error,
     rounded,
+    dir,
     ...rest
   } = props;
   const inputProps = {
@@ -58,6 +60,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
     type,
     placeholder,
     rounded,
+    dir,
     ...rest,
   };
 
@@ -66,6 +69,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
       rounded={!!rounded}
       error={!!error}
       ref={ref}
+      dir={dir}
       {...inputProps}
     />
   );
@@ -75,7 +79,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
   }
 
   return (
-    <Label text={label} disabled={disabled}>
+    <Label dir={dir} text={label} disabled={disabled}>
       <>
         {TextInputInner()}
         {error && <InputError>{error}</InputError>}
