@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.88.0](https://github.com/coingaming/sportsbet-design/compare/v2.87.0...v2.88.0) (2021-03-31)
+
+
+### Features
+
+* basic checkbox ([1a08d48](https://github.com/coingaming/sportsbet-design/commit/1a08d48bb82b063f2a1c3e869250ef67f1764a74))
+* cleanup outdated docs B1M2-432 ([36fcc7c](https://github.com/coingaming/sportsbet-design/commit/36fcc7c7920f654eb18ac50307aec33ab6a33ec8))
+
+
+
+
+
 # [2.87.0](https://github.com/coingaming/sportsbet-design/compare/v2.86.1...v2.87.0) (2021-03-29)
 
 
