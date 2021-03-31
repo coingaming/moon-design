@@ -45,6 +45,7 @@
     "@heathmont/sportsbet-cdn": "1.1.0",
     "@mdx-js/mdx": "1.6.18",
     "@mdx-js/react": "1.6.18",
+    "@tailwindcss/forms": "0.3.2",
     "autoprefixer": "10.2.3",
     "gatsby": "2.24.63",
     "gatsby-cli": "2.12.99",
