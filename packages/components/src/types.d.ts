@@ -1,0 +1,18 @@
+type JustifyContent =
+  | 'center'
+  | 'start'
+  | 'end'
+  | 'flex-start'
+  | 'flex-end'
+  | 'left'
+  | 'right'
+  | 'normal'
+  | 'space-between'
+  | 'space-around'
+  | 'space-evenly'
+  | 'stretch'
+  | 'safe center'
+  | 'unsafe center'
+  | 'inherit'
+  | 'initial'
+  | 'unset';

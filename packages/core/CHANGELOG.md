@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.88.0](https://github.com/coingaming/sportsbet-design/compare/v2.87.0...v2.88.0) (2021-03-31)
+
+
+### Features
+
+* basic checkbox ([1a08d48](https://github.com/coingaming/sportsbet-design/commit/1a08d48bb82b063f2a1c3e869250ef67f1764a74))
+* cleanup outdated docs B1M2-432 ([36fcc7c](https://github.com/coingaming/sportsbet-design/commit/36fcc7c7920f654eb18ac50307aec33ab6a33ec8))
+
+
+
+
+
+# [2.87.0](https://github.com/coingaming/sportsbet-design/compare/v2.86.1...v2.87.0) (2021-03-29)
+
+
+### Bug Fixes
+
+* align "textAlign" prop ([9c29ef1](https://github.com/coingaming/sportsbet-design/commit/9c29ef1b140475821e42cd268bf300d89f685483))
+
+
+### Features
+
+* dir='rtl' ([693aab4](https://github.com/coingaming/sportsbet-design/commit/693aab4b6d47c13b381ba6a502a7466915b14a31))
+* **Caption:** rightAlign ([b45a5b5](https://github.com/coingaming/sportsbet-design/commit/b45a5b5cd8dad90df6bf10f56587522d3d3ba34f))
+* **Text:** update docs ([39b4a29](https://github.com/coingaming/sportsbet-design/commit/39b4a297d71ecaf834aeb4316040871e400112f7))
+
+
+
+
+
 # [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
 
 
