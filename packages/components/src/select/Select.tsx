@@ -8,6 +8,7 @@ type SelectProps = LabelSizing &
   React.InputHTMLAttributes<HTMLSelectElement> & {
     label?: string;
     disabled?: boolean;
+    dir?: 'ltr' | 'rtl' | 'auto';
   } & SelectElementProps;
 
 /**
@@ -21,6 +22,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>((props, ref) => {
     fullWidth,
     flex,
     inputGrow,
+    dir,
     ...rest
   } = props;
   const SelectInput = (
@@ -28,6 +30,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>((props, ref) => {
       withIcon
       fullWidth={fullWidth}
       disabled={disabled}
+      dir={dir}
       ref={ref}
       {...rest}
     >
@@ -36,7 +39,13 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>((props, ref) => {
   );
 
   return label ? (
-    <Label disabled={disabled} text={label} flex={flex} inputGrow={inputGrow}>
+    <Label
+      dir={dir}
+      disabled={disabled}
+      text={label}
+      flex={flex}
+      inputGrow={inputGrow}
+    >
       {SelectInput}
     </Label>
   ) : (
