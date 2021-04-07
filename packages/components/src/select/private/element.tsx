@@ -9,6 +9,7 @@ import {
   inputSpacingX,
   inputLineHeight,
   inputBorderWidth,
+  inputIconPosition,
 } from '../../private/input/settings';
 import IconChevronDown from '../../private/icons/IconChevronDown';
 
@@ -25,7 +26,7 @@ export type SelectElementProps = {
  */
 export const SelectElement = styled(
   Input.withComponent('select')
-)<SelectElementProps>(({ fullWidth, theme }) => [
+)<SelectElementProps>(({ fullWidth, dir, theme }) => [
   {
     color: inputColors('label')(theme),
     backgroundImage: inlineSvg(
@@ -50,5 +51,8 @@ export const SelectElement = styled(
     [mq(theme.breakpoint.small)]: {
       width: 'auto',
     },
+  },
+  dir === 'rtl' && {
+    backgroundPosition: `left ${rem(inputIconPosition(theme))} center`,
   },
 ]);
