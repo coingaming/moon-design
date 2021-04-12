@@ -26,9 +26,9 @@ Icons are exported from Figma and stored in the adjacent [`svg`](packages/assets
 
 Each icon **must**:
 
-- have it's own `20×20` artboard.
-  - in other words, a `viewBox` that is **at least `20`** on one axis:
-    - good: `viewBox="0 0 20 18"`, `viewBox="0 0 20 20"`.
+- have it's own `32×32` artboard.
+  - in other words, a `viewBox` that is **at least `32`** on one axis:
+    - good: `viewBox="0 0 32 18"`, `viewBox="0 0 32 32"`.
     - bad: `viewbox="0 0 20 34"`.
 - contain only one exportable layer, which has:
   1. a single path or group.
