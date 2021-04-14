@@ -19,12 +19,11 @@ export const TableWrapper = styled.div<{
 }>(({ theme: { color, radius }, isScrolledToLeft, isScrolledToRight }) => ({
   /**
    * Scroll Behavior
-   * 1. Hide Scrollbars on browsers that don't support custom scrollbars.
    * 2. Auto-hide scrollbars on IE/Edge.
    * 3. Create 'padding' around the scrollbar.
    */
   WebkitOverflowScrolling: 'touch',
-  scrollbarWidth: 'none' /* [1] */,
+  scrollbarWidth: 'thin',
   '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
   '::-webkit-scrollbar': {
     width: 12,
