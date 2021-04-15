@@ -122,8 +122,8 @@ const Row: React.FC<any> = ({
       moveRow(dragIndex, hoverIndex);
       dragItem.index = hoverIndex;
     },
-    drop() {
-      dropRow();
+    drop(item: any) {
+      dropRow(row.id, item.index);
     },
   });
 
@@ -175,6 +175,7 @@ const DraggableTable: React.FC<any> = ({
   layout,
   withFooter = false,
   onRowClick,
+  onDropRow,
   evenRowBackgroundColor,
   headerBackgroundColor,
 }) => {
@@ -196,7 +197,7 @@ const DraggableTable: React.FC<any> = ({
     [records]
   );
 
-  const dropRow = () => rows;
+  const dropRow = (rowId: any, index: any) => onDropRow(rowId, index);
 
   const {
     getTableProps,
