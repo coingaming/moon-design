@@ -80,7 +80,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
       setStartDateError('');
       setEndDateError(true);
     }
-  });
+  }, [startDate, endDate]);
 
   return (
     <InputsPanelStyled>
