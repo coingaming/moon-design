@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.88.1](https://github.com/coingaming/sportsbet-design/compare/v2.88.0...v2.88.1) (2021-04-15)
+
+
+### Bug Fixes
+
+* fix missing scrollbar in FF ([2de5ad8](https://github.com/coingaming/sportsbet-design/commit/2de5ad841519671cb0658b008391448d612bad0a))
+
+
+
+
+
 # [2.88.0](https://github.com/coingaming/sportsbet-design/compare/v2.87.0...v2.88.0) (2021-03-31)
 
 **Note:** Version bump only for package @heathmont/moon-table
