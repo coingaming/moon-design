@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.89.0](https://github.com/coingaming/sportsbet-design/compare/v2.88.1...v2.89.0) (2021-04-20)
+
+
+### Features
+
+* update Rugby & AFL sport icons B1M2-698 ([d84bda7](https://github.com/coingaming/sportsbet-design/commit/d84bda7b301e597a4278f99aefcac31bab27f934))
+
+
+
+
+
 ## [2.88.1](https://github.com/coingaming/sportsbet-design/compare/v2.88.0...v2.88.1) (2021-04-15)
 
 
