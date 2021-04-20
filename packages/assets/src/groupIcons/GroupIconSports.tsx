@@ -22,6 +22,7 @@ import IconSportsPolitics from '../icons/IconSportsPolitics';
 import IconSportsPool from '../icons/IconSportsPool';
 import IconSportsPopular from '../icons/IconSportsPopular';
 import IconSportsRugby from '../icons/IconSportsRugby';
+import IconSportsAfl from '../icons/IconSportsAfl';
 import IconSportsSki from '../icons/IconSportsSki';
 import IconSportsSnooker from '../icons/IconSportsSnooker';
 import IconSportsSpecial from '../icons/IconSportsSpecial';
@@ -84,6 +85,7 @@ export type GroupIconSportsName =
   | 'sport-greyhound'
   | 'sport-harness'
   | 'sport-horse'
+  | 'sport-afl'
   // e-sports
   | 'sport-special'
   | 'sport-dota2'
@@ -252,6 +254,10 @@ const GroupIconSports: React.FC<GroupIconSportsProps> &
           color={color || GroupIconSportsColor.rugby}
           {...props}
         />
+      );
+    case 'sport-afl':
+      return (
+        <IconSportsAfl color={color || GroupIconSportsColor.afl} {...props} />
       );
     case 'sport-sinuca':
       return <IconSportsSnooker color={color || GroupIconSportsColor.sinuca} />;
