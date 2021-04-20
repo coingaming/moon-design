@@ -1024,6 +1024,8 @@ export { default as IconSnackbarSuccess } from './icons/IconSnackbarSuccess';
 export * from './icons/IconSnackbarSuccess';
 export { default as IconSportWidget } from './icons/IconSportWidget';
 export * from './icons/IconSportWidget';
+export { default as IconSportsAfl } from './icons/IconSportsAfl';
+export * from './icons/IconSportsAfl';
 export { default as IconSportsAmericanFootBall } from './icons/IconSportsAmericanFootBall';
 export * from './icons/IconSportsAmericanFootBall';
 export { default as IconSportsBadminton } from './icons/IconSportsBadminton';
