@@ -392,6 +392,8 @@ export { default as IconSnackbarSuccess } from './IconSnackbarSuccess';
 export * from './IconSnackbarSuccess';
 export { default as IconSportWidget } from './IconSportWidget';
 export * from './IconSportWidget';
+export { default as IconSportsAfl } from './IconSportsAfl';
+export * from './IconSportsAfl';
 export { default as IconSportsAmericanFootBall } from './IconSportsAmericanFootBall';
 export * from './IconSportsAmericanFootBall';
 export { default as IconSportsBadminton } from './IconSportsBadminton';
