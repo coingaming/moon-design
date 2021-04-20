@@ -13,7 +13,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M5.203 29.075a42.97 42.97 0 0013.713 13.722M15.47 24.439c-2.539 3.99-3.188 7.892-1.3 9.755 1.903 1.876 5.842 1.149 9.83-1.495M29.049 5.212A42.968 42.968 0 0142.76 18.934M25.036 15.439c3.738-2.269 7.327-2.807 9.117-1.042 1.744 1.721 1.322 5.185-.756 8.85"
+      d="M5.65 42.452c.937.903 2.287 1.2 3.58 1.357 3.757.456 9.767.333 16.642-3.076a33.068 33.068 0 0014.863-14.874c3.445-6.925 3.532-12.99 3.059-16.764-.151-1.203-.306-2.005-1.148-2.878v0c-.966-1.003-2.664-1.905-4.049-2.056-3.786-.413-9.719-.247-16.469 3.115A33.069 33.069 0 007.265 22.15c-3.371 6.776-3.527 12.73-3.088 16.517.16 1.384.469 2.818 1.473 3.785v0zM25.503 27.448l-3.273-3.27M27.775 25.021l-3.273-3.27M22.888 30.035l-3.256-3.444M26.83 19.363l3.344 3.36"
       stroke="currentColor"
       strokeWidth={1.5}
       strokeMiterlimit={10}
@@ -21,9 +21,9 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       strokeLinejoin="round"
     />
     <path
-      d="M7.719 43.01c3.295.673 10.098 1.276 18.106-2.695a32.242 32.242 0 0014.492-14.502c3.968-7.978 3.366-14.786 2.693-18.119a3.487 3.487 0 00-2.729-2.73c-3.33-.638-10.133-1.241-18.106 2.73A32.242 32.242 0 007.683 22.196C3.715 30.174 4.317 36.982 4.99 40.315a3.493 3.493 0 002.729 2.694zM18.916 29.068l9.597-9.415"
+      d="M41.902 6.434C40.3 9.638 26.208 23.142 23.673 25.679 21.138 28.216 9.203 40.398 6 42"
       stroke="currentColor"
-      strokeWidth={1.5}
+      strokeWidth={1.6}
       strokeMiterlimit={10}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -36,7 +36,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconSportsRugby = styled(Svg)<IconProps>(
+const IconSportsAfl = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
@@ -57,4 +57,4 @@ const IconSportsRugby = styled(Svg)<IconProps>(
     },
   ]
 );
-export default IconSportsRugby;
+export default IconSportsAfl;
