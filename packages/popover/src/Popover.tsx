@@ -28,6 +28,7 @@ type Props = {
   className?: string;
   isOpen?: boolean;
   onVisibilityChange?: (open: boolean) => void;
+  padding?: number;
 };
 
 const Popover: React.FC<Props> = ({
@@ -39,6 +40,7 @@ const Popover: React.FC<Props> = ({
   className,
   isOpen = false,
   onVisibilityChange,
+  padding,
 }) => {
   const [visible, setVisible] = useState(defaultState || isOpen);
 
@@ -72,7 +74,9 @@ const Popover: React.FC<Props> = ({
       render={(attrs) => {
         return (
           <div className="box" tabIndex={-1} {...attrs}>
-            <PopoverContainer className={className}>{content}</PopoverContainer>
+            <PopoverContainer className={className} padding={padding}>
+              {content}
+            </PopoverContainer>
           </div>
         );
       }}
