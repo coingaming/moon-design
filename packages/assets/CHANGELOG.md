@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.90.0](https://github.com/coingaming/sportsbet-design/compare/v2.89.1...v2.90.0) (2021-04-26)
+
+
+### Bug Fixes
+
+* lint issues ([5eacfcd](https://github.com/coingaming/sportsbet-design/commit/5eacfcddc18b122c5e2a65816af6a7c4fc0bc39a))
+
+
+### Features
+
+* new Reward Icon ([d5de2a0](https://github.com/coingaming/sportsbet-design/commit/d5de2a0f959386e46ce552d30c8d77f020f50039))
+
+
+
+
+
 # [2.89.0](https://github.com/coingaming/sportsbet-design/compare/v2.88.1...v2.89.0) (2021-04-20)
 
 
