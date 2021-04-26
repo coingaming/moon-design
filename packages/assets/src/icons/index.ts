@@ -12,21 +12,13 @@ export { default as IconAlignLeft } from './IconAlignLeft';
 export * from './IconAlignLeft';
 export { default as IconAllSports } from './IconAllSports';
 export * from './IconAllSports';
-export {
-  default as IconArrowDiagonalBottomLeft,
-} from './IconArrowDiagonalBottomLeft';
+export { default as IconArrowDiagonalBottomLeft } from './IconArrowDiagonalBottomLeft';
 export * from './IconArrowDiagonalBottomLeft';
-export {
-  default as IconArrowDiagonalDownLeft,
-} from './IconArrowDiagonalDownLeft';
+export { default as IconArrowDiagonalDownLeft } from './IconArrowDiagonalDownLeft';
 export * from './IconArrowDiagonalDownLeft';
-export {
-  default as IconArrowDiagonalTopRight,
-} from './IconArrowDiagonalTopRight';
+export { default as IconArrowDiagonalTopRight } from './IconArrowDiagonalTopRight';
 export * from './IconArrowDiagonalTopRight';
-export {
-  default as IconArrowDiagonalUpRight,
-} from './IconArrowDiagonalUpRight';
+export { default as IconArrowDiagonalUpRight } from './IconArrowDiagonalUpRight';
 export * from './IconArrowDiagonalUpRight';
 export { default as IconArrowDiagonals } from './IconArrowDiagonals';
 export * from './IconArrowDiagonals';
@@ -224,9 +216,7 @@ export { default as IconDuotoneMail } from './IconDuotoneMail';
 export * from './IconDuotoneMail';
 export { default as IconESportsCallOfDuty } from './IconESportsCallOfDuty';
 export * from './IconESportsCallOfDuty';
-export {
-  default as IconESportsCounterStrike,
-} from './IconESportsCounterStrike';
+export { default as IconESportsCounterStrike } from './IconESportsCounterStrike';
 export * from './IconESportsCounterStrike';
 export { default as IconESportsDota2 } from './IconESportsDota2';
 export * from './IconESportsDota2';
@@ -238,9 +228,7 @@ export { default as IconESportsFootball } from './IconESportsFootball';
 export * from './IconESportsFootball';
 export { default as IconESportsHearthstone } from './IconESportsHearthstone';
 export * from './IconESportsHearthstone';
-export {
-  default as IconESportsLeagueOfLegends,
-} from './IconESportsLeagueOfLegends';
+export { default as IconESportsLeagueOfLegends } from './IconESportsLeagueOfLegends';
 export * from './IconESportsLeagueOfLegends';
 export { default as IconESportsOverwatch } from './IconESportsOverwatch';
 export * from './IconESportsOverwatch';
@@ -408,9 +396,7 @@ export { default as IconSportWidget } from './IconSportWidget';
 export * from './IconSportWidget';
 export { default as IconSportsAfl } from './IconSportsAfl';
 export * from './IconSportsAfl';
-export {
-  default as IconSportsAmericanFootBall,
-} from './IconSportsAmericanFootBall';
+export { default as IconSportsAmericanFootBall } from './IconSportsAmericanFootBall';
 export * from './IconSportsAmericanFootBall';
 export { default as IconSportsBadminton } from './IconSportsBadminton';
 export * from './IconSportsBadminton';
