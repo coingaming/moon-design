@@ -10,9 +10,7 @@ export { default as CrestSouthampton } from './crests/CrestSouthampton';
 export * from './crests/CrestSouthampton';
 export { default as CrestWatford } from './crests/CrestWatford';
 export * from './crests/CrestWatford';
-export {
-  default as IconAustralianDollar,
-} from './currencies/IconAustralianDollar';
+export { default as IconAustralianDollar } from './currencies/IconAustralianDollar';
 export * from './currencies/IconAustralianDollar';
 export { default as IconBitcoin } from './currencies/IconBitcoin';
 export * from './currencies/IconBitcoin';
@@ -32,9 +30,7 @@ export { default as IconEthereum } from './currencies/IconEthereum';
 export * from './currencies/IconEthereum';
 export { default as IconEuro } from './currencies/IconEuro';
 export * from './currencies/IconEuro';
-export {
-  default as IconGbPoundSterling,
-} from './currencies/IconGbPoundSterling';
+export { default as IconGbPoundSterling } from './currencies/IconGbPoundSterling';
 export * from './currencies/IconGbPoundSterling';
 export { default as IconHongKongDollar } from './currencies/IconHongKongDollar';
 export * from './currencies/IconHongKongDollar';
@@ -46,13 +42,9 @@ export { default as IconJapaneseYen } from './currencies/IconJapaneseYen';
 export * from './currencies/IconJapaneseYen';
 export { default as IconLitecoin } from './currencies/IconLitecoin';
 export * from './currencies/IconLitecoin';
-export {
-  default as IconNewTaiwanDollar,
-} from './currencies/IconNewTaiwanDollar';
+export { default as IconNewTaiwanDollar } from './currencies/IconNewTaiwanDollar';
 export * from './currencies/IconNewTaiwanDollar';
-export {
-  default as IconNewZealandDollar,
-} from './currencies/IconNewZealandDollar';
+export { default as IconNewZealandDollar } from './currencies/IconNewZealandDollar';
 export * from './currencies/IconNewZealandDollar';
 export { default as IconPolandZloty } from './currencies/IconPolandZloty';
 export * from './currencies/IconPolandZloty';
@@ -60,9 +52,7 @@ export { default as IconRipple } from './currencies/IconRipple';
 export * from './currencies/IconRipple';
 export { default as IconRussianRuble } from './currencies/IconRussianRuble';
 export * from './currencies/IconRussianRuble';
-export {
-  default as IconSingaporeDollar,
-} from './currencies/IconSingaporeDollar';
+export { default as IconSingaporeDollar } from './currencies/IconSingaporeDollar';
 export * from './currencies/IconSingaporeDollar';
 export { default as IconSoc } from './currencies/IconSoc';
 export * from './currencies/IconSoc';
@@ -636,19 +626,13 @@ export { default as IconFlagZW } from './flags/IconFlagZW';
 export * from './flags/IconFlagZW';
 export { default as GroupIconCurrency } from './groupIcons/GroupIconCurrency';
 export * from './groupIcons/GroupIconCurrency';
-export {
-  default as GroupIconPrimaryCurrency,
-} from './groupIcons/GroupIconPrimaryCurrency';
+export { default as GroupIconPrimaryCurrency } from './groupIcons/GroupIconPrimaryCurrency';
 export * from './groupIcons/GroupIconPrimaryCurrency';
 export { default as GroupIconSports } from './groupIcons/GroupIconSports';
 export * from './groupIcons/GroupIconSports';
-export {
-  default as GroupIconSportsColor,
-} from './groupIcons/GroupIconSportsColor';
+export { default as GroupIconSportsColor } from './groupIcons/GroupIconSportsColor';
 export * from './groupIcons/GroupIconSportsColor';
-export {
-  default as GroupIconThirdParty,
-} from './groupIcons/GroupIconThirdParty';
+export { default as GroupIconThirdParty } from './groupIcons/GroupIconThirdParty';
 export * from './groupIcons/GroupIconThirdParty';
 export { default as IconAbout } from './icons/IconAbout';
 export * from './icons/IconAbout';
@@ -660,21 +644,13 @@ export { default as IconAlignLeft } from './icons/IconAlignLeft';
 export * from './icons/IconAlignLeft';
 export { default as IconAllSports } from './icons/IconAllSports';
 export * from './icons/IconAllSports';
-export {
-  default as IconArrowDiagonalBottomLeft,
-} from './icons/IconArrowDiagonalBottomLeft';
+export { default as IconArrowDiagonalBottomLeft } from './icons/IconArrowDiagonalBottomLeft';
 export * from './icons/IconArrowDiagonalBottomLeft';
-export {
-  default as IconArrowDiagonalDownLeft,
-} from './icons/IconArrowDiagonalDownLeft';
+export { default as IconArrowDiagonalDownLeft } from './icons/IconArrowDiagonalDownLeft';
 export * from './icons/IconArrowDiagonalDownLeft';
-export {
-  default as IconArrowDiagonalTopRight,
-} from './icons/IconArrowDiagonalTopRight';
+export { default as IconArrowDiagonalTopRight } from './icons/IconArrowDiagonalTopRight';
 export * from './icons/IconArrowDiagonalTopRight';
-export {
-  default as IconArrowDiagonalUpRight,
-} from './icons/IconArrowDiagonalUpRight';
+export { default as IconArrowDiagonalUpRight } from './icons/IconArrowDiagonalUpRight';
 export * from './icons/IconArrowDiagonalUpRight';
 export { default as IconArrowDiagonals } from './icons/IconArrowDiagonals';
 export * from './icons/IconArrowDiagonals';
@@ -740,21 +716,15 @@ export { default as IconChartSegment } from './icons/IconChartSegment';
 export * from './icons/IconChartSegment';
 export { default as IconChevronDown } from './icons/IconChevronDown';
 export * from './icons/IconChevronDown';
-export {
-  default as IconChevronDownRounded,
-} from './icons/IconChevronDownRounded';
+export { default as IconChevronDownRounded } from './icons/IconChevronDownRounded';
 export * from './icons/IconChevronDownRounded';
 export { default as IconChevronLeft } from './icons/IconChevronLeft';
 export * from './icons/IconChevronLeft';
-export {
-  default as IconChevronLeftRounded,
-} from './icons/IconChevronLeftRounded';
+export { default as IconChevronLeftRounded } from './icons/IconChevronLeftRounded';
 export * from './icons/IconChevronLeftRounded';
 export { default as IconChevronRight } from './icons/IconChevronRight';
 export * from './icons/IconChevronRight';
-export {
-  default as IconChevronRightRounded,
-} from './icons/IconChevronRightRounded';
+export { default as IconChevronRightRounded } from './icons/IconChevronRightRounded';
 export * from './icons/IconChevronRightRounded';
 export { default as IconChevronUp } from './icons/IconChevronUp';
 export * from './icons/IconChevronUp';
@@ -876,13 +846,9 @@ export { default as IconDuotoneCoins } from './icons/IconDuotoneCoins';
 export * from './icons/IconDuotoneCoins';
 export { default as IconDuotoneMail } from './icons/IconDuotoneMail';
 export * from './icons/IconDuotoneMail';
-export {
-  default as IconESportsCallOfDuty,
-} from './icons/IconESportsCallOfDuty';
+export { default as IconESportsCallOfDuty } from './icons/IconESportsCallOfDuty';
 export * from './icons/IconESportsCallOfDuty';
-export {
-  default as IconESportsCounterStrike,
-} from './icons/IconESportsCounterStrike';
+export { default as IconESportsCounterStrike } from './icons/IconESportsCounterStrike';
 export * from './icons/IconESportsCounterStrike';
 export { default as IconESportsDota2 } from './icons/IconESportsDota2';
 export * from './icons/IconESportsDota2';
@@ -892,21 +858,15 @@ export { default as IconESportsESport } from './icons/IconESportsESport';
 export * from './icons/IconESportsESport';
 export { default as IconESportsFootball } from './icons/IconESportsFootball';
 export * from './icons/IconESportsFootball';
-export {
-  default as IconESportsHearthstone,
-} from './icons/IconESportsHearthstone';
+export { default as IconESportsHearthstone } from './icons/IconESportsHearthstone';
 export * from './icons/IconESportsHearthstone';
-export {
-  default as IconESportsLeagueOfLegends,
-} from './icons/IconESportsLeagueOfLegends';
+export { default as IconESportsLeagueOfLegends } from './icons/IconESportsLeagueOfLegends';
 export * from './icons/IconESportsLeagueOfLegends';
 export { default as IconESportsOverwatch } from './icons/IconESportsOverwatch';
 export * from './icons/IconESportsOverwatch';
 export { default as IconESportsRainbow } from './icons/IconESportsRainbow';
 export * from './icons/IconESportsRainbow';
-export {
-  default as IconESportsRocketLeague,
-} from './icons/IconESportsRocketLeague';
+export { default as IconESportsRocketLeague } from './icons/IconESportsRocketLeague';
 export * from './icons/IconESportsRocketLeague';
 export { default as IconESportsStarCraft } from './icons/IconESportsStarCraft';
 export * from './icons/IconESportsStarCraft';
@@ -968,9 +928,7 @@ export { default as IconInfoCircle } from './icons/IconInfoCircle';
 export * from './icons/IconInfoCircle';
 export { default as IconInstagram } from './icons/IconInstagram';
 export * from './icons/IconInstagram';
-export {
-  default as IconLeftArrowCurveRight,
-} from './icons/IconLeftArrowCurveRight';
+export { default as IconLeftArrowCurveRight } from './icons/IconLeftArrowCurveRight';
 export * from './icons/IconLeftArrowCurveRight';
 export { default as IconLifeRing } from './icons/IconLifeRing';
 export * from './icons/IconLifeRing';
@@ -1022,9 +980,7 @@ export { default as IconNews } from './icons/IconNews';
 export * from './icons/IconNews';
 export { default as IconNotification } from './icons/IconNotification';
 export * from './icons/IconNotification';
-export {
-  default as IconNotificationUnread,
-} from './icons/IconNotificationUnread';
+export { default as IconNotificationUnread } from './icons/IconNotificationUnread';
 export * from './icons/IconNotificationUnread';
 export { default as IconPadlock } from './icons/IconPadlock';
 export * from './icons/IconPadlock';
@@ -1072,9 +1028,7 @@ export { default as IconSportWidget } from './icons/IconSportWidget';
 export * from './icons/IconSportWidget';
 export { default as IconSportsAfl } from './icons/IconSportsAfl';
 export * from './icons/IconSportsAfl';
-export {
-  default as IconSportsAmericanFootBall,
-} from './icons/IconSportsAmericanFootBall';
+export { default as IconSportsAmericanFootBall } from './icons/IconSportsAmericanFootBall';
 export * from './icons/IconSportsAmericanFootBall';
 export { default as IconSportsBadminton } from './icons/IconSportsBadminton';
 export * from './icons/IconSportsBadminton';
@@ -1112,17 +1066,13 @@ export { default as IconSportsHarness } from './icons/IconSportsHarness';
 export * from './icons/IconSportsHarness';
 export { default as IconSportsHorse } from './icons/IconSportsHorse';
 export * from './icons/IconSportsHorse';
-export {
-  default as IconSportsHorseRacing,
-} from './icons/IconSportsHorseRacing';
+export { default as IconSportsHorseRacing } from './icons/IconSportsHorseRacing';
 export * from './icons/IconSportsHorseRacing';
 export { default as IconSportsIceHockey } from './icons/IconSportsIceHockey';
 export * from './icons/IconSportsIceHockey';
 export { default as IconSportsMma } from './icons/IconSportsMma';
 export * from './icons/IconSportsMma';
-export {
-  default as IconSportsMotorSports,
-} from './icons/IconSportsMotorSports';
+export { default as IconSportsMotorSports } from './icons/IconSportsMotorSports';
 export * from './icons/IconSportsMotorSports';
 export { default as IconSportsPoker } from './icons/IconSportsPoker';
 export * from './icons/IconSportsPoker';
@@ -1142,9 +1092,7 @@ export { default as IconSportsSpecial } from './icons/IconSportsSpecial';
 export * from './icons/IconSportsSpecial';
 export { default as IconSportsSquash } from './icons/IconSportsSquash';
 export * from './icons/IconSportsSquash';
-export {
-  default as IconSportsTableTennis,
-} from './icons/IconSportsTableTennis';
+export { default as IconSportsTableTennis } from './icons/IconSportsTableTennis';
 export * from './icons/IconSportsTableTennis';
 export { default as IconSportsTennis } from './icons/IconSportsTennis';
 export * from './icons/IconSportsTennis';
