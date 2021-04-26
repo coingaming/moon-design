@@ -374,6 +374,8 @@ export { default as IconPromotions } from './IconPromotions';
 export * from './IconPromotions';
 export { default as IconRefresh } from './IconRefresh';
 export * from './IconRefresh';
+export { default as IconReward } from './IconReward';
+export * from './IconReward';
 export { default as IconRow } from './IconRow';
 export * from './IconRow';
 export { default as IconSbShield } from './IconSbShield';

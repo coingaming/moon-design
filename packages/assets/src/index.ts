@@ -1006,6 +1006,8 @@ export { default as IconPromotions } from './icons/IconPromotions';
 export * from './icons/IconPromotions';
 export { default as IconRefresh } from './icons/IconRefresh';
 export * from './icons/IconRefresh';
+export { default as IconReward } from './icons/IconReward';
+export * from './icons/IconReward';
 export { default as IconRow } from './icons/IconRow';
 export * from './icons/IconRow';
 export { default as IconSbShield } from './icons/IconSbShield';
