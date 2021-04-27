@@ -11,6 +11,8 @@ import { CheckboxIcon } from './private/icon';
 
 const checkboxSize = (theme: Theme) => theme.space.default;
 const checkboxGap = (theme: Theme) => theme.space.xsmall * 3;
+const captionMargin = (theme: Theme) =>
+  rem(checkboxSize(theme) + checkboxGap(theme));
 
 /**
  * Checkbox Container
@@ -34,9 +36,11 @@ const CheckboxLabel = styled.label(({ theme }) => ({
  * caption to create a completely bespoke checkbox.
  * Interaction styles are handled by the prior adjacent hidden `input`.
  */
-const CheckboxCaption = styled.span(({ theme }) => ({
+const CheckboxCaption = styled.span(({ theme, dir }) => ({
   display: 'inline-block',
-  marginLeft: rem(checkboxSize(theme) + checkboxGap(theme)),
+  ...(dir === 'rtl'
+    ? { marginRight: captionMargin(theme) }
+    : { marginLeft: captionMargin(theme) }),
   color: inputColors('label')(theme),
   '&::before, &::after': {
     content: '""',
@@ -44,7 +48,7 @@ const CheckboxCaption = styled.span(({ theme }) => ({
     width: rem(checkboxSize(theme)),
     height: rem(checkboxSize(theme)),
     top: rem(inputBorderWidth(theme)),
-    left: 0,
+    ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     transitionDuration: `${theme.transitionDuration.default}s`,
     transitionTimingFunction: 'ease',
   },
@@ -120,10 +124,11 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: LabelText;
   ariaLabel?: string;
   disabled?: boolean;
+  dir?: 'ltr' | 'rtl' | 'auto';
 };
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
-  const { disabled = false, ariaLabel, id, label, ...inputProps } = props;
+  const { disabled = false, ariaLabel, id, label, dir, ...inputProps } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
   return (
     <CheckboxLabel htmlFor={autoId}>
@@ -135,7 +140,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
         ref={ref}
         {...inputProps}
       />
-      <CheckboxCaption>{label}</CheckboxCaption>
+      <CheckboxCaption dir={dir}>{label}</CheckboxCaption>
     </CheckboxLabel>
   );
 });
