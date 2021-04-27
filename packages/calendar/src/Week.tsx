@@ -20,14 +20,18 @@ type Props = {
   renderDayProps?: (date: Date) => object;
   renderDayContent?: (date: Date) => React.ReactNode;
   renderNearDayNumber?: (date: Date) => React.ReactNode;
+  renderWeekDayLabel?: (label: string, index: number) => React.ReactNode;
+  isWeekendMinimized?: boolean;
 };
 
 const Week: React.FC<Props> = ({
   config = {},
   cursorDate,
-  renderDayProps = () => {},
-  renderDayContent = () => null,
-  renderNearDayNumber = () => null,
+  renderDayProps = () => ({}),
+  renderNearDayNumber,
+  renderDayContent,
+  renderWeekDayLabel,
+  isWeekendMinimized = false,
 }) => {
   const conf = {
     weekStartsOn: 1 as any,
@@ -35,8 +39,11 @@ const Week: React.FC<Props> = ({
     ...config,
   };
   return (
-    <WeekGrid>
-      <WeekDayLabels config={conf} />
+    <WeekGrid
+      weekStartsOn={conf.weekStartsOn}
+      isWeekendMinimized={isWeekendMinimized}
+    >
+      <WeekDayLabels config={conf} renderWeekDayLabel={renderWeekDayLabel} />
       {getWeekDays({ cursorDate, weekStartsOn: conf.weekStartsOn }).map(
         (date) => (
           <WeekDay
@@ -48,9 +55,9 @@ const Week: React.FC<Props> = ({
               <Text size={20} color={getDayNumberColor(cursorDate, date)}>
                 {getDayNumberLabel(cursorDate, date)}
               </Text>
-              {renderNearDayNumber(date)}
+              {renderNearDayNumber ? renderNearDayNumber(date) : null}
             </DayNumber>
-            {renderDayContent(date)}
+            {renderDayContent ? renderDayContent(date) : null}
           </WeekDay>
         )
       )}
