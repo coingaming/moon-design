@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 
 import { getGridTemplateColumns } from '../getGridTemplateColumns';
 
@@ -14,6 +13,6 @@ export const WeekGrid = styled.div<{
     weekStartsOn,
     isWeekendMinimized,
   })};
-  grid-template-rows: ${rem(24)} auto;
+  grid-template-rows: auto 1fr;
 `
 );
