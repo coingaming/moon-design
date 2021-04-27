@@ -8,13 +8,15 @@ Week and Month calendar components have the same api
 
 ## Props
 
-| Name                |                  Type                  | Description                                                                       |
-| :------------------ | :------------------------------------: | :-------------------------------------------------------------------------------- |
-| cursorDate          |                  Date                  | **Required**. Will display month of cursorDate                                    |
-| config              | {weekStartsOn: number, locale: Locale} | **weekStartsOn** - first day of week(sunday=0), **locale** - Locale from date fns |
-| renderDayProps      |         (date:Date) => object          | you can provide custom props to each day                                          |
-| renderDayContent    |       (date:Date) => JSX.Element       | you can render something on the left to the day number                            |
-| renderNearDayNumber |       (date:Date) => JSX.Element       | you can render something under day number                                         |
+| Name                |                     Type                     | Description                                                                       |
+| :------------------ | :------------------------------------------: | :-------------------------------------------------------------------------------- |
+| cursorDate          |                     Date                     | **Required**. Will display month of cursorDate                                    |
+| config              |    {weekStartsOn: number, locale: Locale}    | **weekStartsOn** - first day of week(sunday=0), **locale** - Locale from date fns |
+| renderDayProps      |            (date:Date) => object             | you can provide custom props to each day                                          |
+| renderDayContent    |          (date:Date) => JSX.Element          | you can render something on the left to the day number                            |
+| renderNearDayNumber |          (date:Date) => JSX.Element          | you can render something under day number                                         |
+| renderWeekDayLabel  | (label:string, index: number) => JSX.Element | render custom weekday label                                                       |
+| isWeekendMinimized  |                   boolean                    | state of minimizing weekend                                                       |
 
 # Month
 
@@ -43,6 +45,42 @@ Week and Month calendar components have the same api
 };
 ```
 
+# Month with minimizing weekends
+
+```jsx react-live
+() => {
+  const [isWeekendMinimized, setIsWeekendMinimized] = React.useState(false);
+
+  const renderWeekDayLabel = (label, index) => (
+    <Inline justifyContent="center">
+      <Text size={12} color="trunks.100">
+        {label}
+      </Text>
+      {index === 5 ? (
+        <IconArrowDiagonals
+          color="trunks.100"
+          onClick={() => setIsWeekendMinimized(!isWeekendMinimized)}
+        />
+      ) : null}
+      {index === 6 ? (
+        <IconArrowDiagonals
+          color="trunks.100"
+          onClick={() => setIsWeekendMinimized(!isWeekendMinimized)}
+        />
+      ) : null}
+    </Inline>
+  );
+
+  return (
+    <Month
+      cursorDate={new Date()}
+      renderWeekDayLabel={renderWeekDayLabel}
+      isWeekendMinimized={isWeekendMinimized}
+    />
+  );
+};
+```
+
 # Week
 
 ```jsx react-live
@@ -66,6 +104,44 @@ Week and Month calendar components have the same api
         cursorDate={new Date()}
         renderDayContent={renderDayContent}
         renderNearDayNumber={renderNearDayNumber}
+      />
+    </div>
+  );
+};
+```
+
+# Week with minimizing weekends
+
+```jsx react-live
+() => {
+  const [isWeekendMinimized, setIsWeekendMinimized] = React.useState(false);
+
+  const renderWeekDayLabel = (label, index) => (
+    <Inline justifyContent="center">
+      <Text size={12} color="trunks.100">
+        {label}
+      </Text>
+      {index === 5 ? (
+        <IconArrowDiagonals
+          color="trunks.100"
+          onClick={() => setIsWeekendMinimized(!isWeekendMinimized)}
+        />
+      ) : null}
+      {index === 6 ? (
+        <IconArrowDiagonals
+          color="trunks.100"
+          onClick={() => setIsWeekendMinimized(!isWeekendMinimized)}
+        />
+      ) : null}
+    </Inline>
+  );
+
+  return (
+    <div style={{ height: '800px' }}>
+      <Week
+        cursorDate={new Date()}
+        renderWeekDayLabel={renderWeekDayLabel}
+        isWeekendMinimized={isWeekendMinimized}
       />
     </div>
   );
