@@ -3,7 +3,7 @@ import { Text } from '@heathmont/moon-components';
 import { enGB } from 'date-fns/locale';
 import isWeekend from 'date-fns/isWeekend';
 
-import { Month as MonthGrid } from './private/Month';
+import { MonthGrid } from './private/Month/MonthGrid';
 import { WeekDayLabels } from './private/WeekDayLabels';
 import { Day } from './private/Month/Day';
 import { DayInner } from './private/Month/DayInner';
@@ -21,14 +21,18 @@ type Props = {
   renderDayProps?: (date: Date) => object;
   renderDayContent?: (date: Date) => React.ReactNode;
   renderNearDayNumber?: (date: Date) => React.ReactNode;
+  renderWeekDayLabel?: (label: string, index: number) => React.ReactNode;
+  isWeekendMinimized?: boolean;
 };
 
 const Month: React.FC<Props> = ({
   config = {},
   cursorDate,
-  renderDayProps = () => {},
-  renderDayContent = () => null,
-  renderNearDayNumber = () => null,
+  renderDayProps = () => ({}),
+  renderDayContent,
+  renderNearDayNumber,
+  renderWeekDayLabel,
+  isWeekendMinimized = false,
 }) => {
   const conf = {
     weekStartsOn: 1 as any,
@@ -36,8 +40,11 @@ const Month: React.FC<Props> = ({
     ...config,
   };
   return (
-    <MonthGrid>
-      <WeekDayLabels config={conf} />
+    <MonthGrid
+      weekStartsOn={conf.weekStartsOn}
+      isWeekendMinimized={isWeekendMinimized}
+    >
+      <WeekDayLabels config={conf} renderWeekDayLabel={renderWeekDayLabel} />
       {getMonthDays({ date: cursorDate, weekStartsOn: conf.weekStartsOn }).map(
         (date) => (
           <Day key={date.toString()} {...renderDayProps(date)}>
@@ -46,9 +53,9 @@ const Month: React.FC<Props> = ({
                 <Text size={20} color={getDayNumberColor(cursorDate, date)}>
                   {getDayNumberLabel(cursorDate, date)}
                 </Text>
-                {renderNearDayNumber(date)}
+                {renderNearDayNumber ? renderNearDayNumber(date) : null}
               </DayNumber>
-              {renderDayContent(date)}
+              {renderDayContent ? renderDayContent(date) : null}
             </DayInner>
           </Day>
         )
