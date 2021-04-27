@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.91.0](https://github.com/coingaming/sportsbet-design/compare/v2.90.1...v2.91.0) (2021-04-27)
+
+
+### Bug Fixes
+
+* fix grid template rows ([d3c5288](https://github.com/coingaming/sportsbet-design/commit/d3c5288714da5ec85df886275054b9059683d599))
+* fix RTL checkbox ([22e8f68](https://github.com/coingaming/sportsbet-design/commit/22e8f681bcb41d75f4571d917f8dea114691ee1c))
+
+
+### Features
+
+* add weekend minimizing ([a476e63](https://github.com/coingaming/sportsbet-design/commit/a476e632852009855d6eaed9470a6fd314967a4a))
+
+
+
+
+
 ## [2.90.1](https://github.com/coingaming/sportsbet-design/compare/v2.90.0...v2.90.1) (2021-04-27)
 
 
