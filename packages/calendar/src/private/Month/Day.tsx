@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
 export const Day = styled.div(({ theme: { radius } }) => ({
+  display: 'flex',
   position: 'relative',
   boxSizing: 'border-box',
   border: '1px solid transparent',
@@ -20,6 +21,7 @@ export const Day = styled.div(({ theme: { radius } }) => ({
   '&::before': {
     content: '""',
     display: 'block',
+    width: 0,
     paddingTop: '100%',
   },
 }));
