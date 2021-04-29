@@ -31,7 +31,13 @@ Week and Month calendar components have the same api
     );
   };
 
-  const renderDayContent = (date) => (isToday(date) ? 'today' : null);
+  const renderDayContent = (date) =>
+    isToday(date) ? (
+      <div>
+        today <br />
+        <br /> with long content
+      </div>
+    ) : null;
 
   const renderNearDayNumber = (date) => (isToday(date) ? 't' : null);
 
