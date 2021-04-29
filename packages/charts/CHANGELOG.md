@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.92.0](https://github.com/coingaming/sportsbet-design/compare/v2.91.0...v2.92.0) (2021-04-29)
+
+
+### Bug Fixes
+
+* fix chart container height ([e103faf](https://github.com/coingaming/sportsbet-design/commit/e103faf709cdb0796f24d0828a45dbb72348160b))
+
+
+
+
+
 # [2.91.0](https://github.com/coingaming/sportsbet-design/compare/v2.90.1...v2.91.0) (2021-04-27)
 
 **Note:** Version bump only for package @heathmont/moon-charts
