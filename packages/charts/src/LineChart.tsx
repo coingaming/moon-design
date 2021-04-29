@@ -22,6 +22,7 @@ import { Loader } from './private/Loader';
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
     height: '100%',
+    display: 'flex',
     '.recharts-cartesian-axis': {
       text: {
         fill: theme.color.trunks[100],
