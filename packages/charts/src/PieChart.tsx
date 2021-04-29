@@ -20,6 +20,7 @@ import { Loader } from './private/Loader';
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
     height: '100%',
+    display: 'flex',
     '.charts-title': {
       fill: theme.color.trunks[100],
       fontSize: rem(14),
