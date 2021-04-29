@@ -196,6 +196,7 @@ export const BodyTR = styled.div<{
   hasOnRowClickHandler: boolean;
   headerBackgroundColor?: ColorNames;
   evenRowBackgroundColor?: ColorNames;
+  depth?: number;
 }>(
   ({ theme, evenRowBackgroundColor }) => ({
     '&:nth-child(even)': {
@@ -204,8 +205,11 @@ export const BodyTR = styled.div<{
       },
     },
   }),
-  ({ theme, variant, hasOnRowClickHandler, headerBackgroundColor }) => ({
-    marginBottom: rem(2),
+  ({ theme, variant, hasOnRowClickHandler, headerBackgroundColor, depth }) => ({
+    marginTop: variant === 'calendar' && depth === 0 ? rem(8) : rem(2),
+    '&:first-child': {
+      marginTop: 0,
+    },
     ...(hasOnRowClickHandler
       ? {
           '&:hover': {
@@ -366,6 +370,7 @@ const Table: React.FC<any> = ({
             <Fragment key={`${row.id}-${rowProps.key}`}>
               <BodyTR
                 {...rowProps}
+                depth={row.depth}
                 variant={variant}
                 onClick={
                   hasOnRowClickHandler
