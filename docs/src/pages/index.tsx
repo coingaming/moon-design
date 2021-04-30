@@ -76,35 +76,6 @@ const LeftText = styled.div({
   },
 });
 
-const MainText = styled.div({
-  fontWeight: 'normal',
-  fontSize: '11.46vw',
-  lineHeight: '1.24',
-  textAlign: 'center',
-  letterSpacing: '-0.05em',
-  color: '#FFFFFF',
-  position: 'absolute',
-  left: 0,
-  top: '13vw',
-  width: '100%',
-  [mq(767, 'max-width')]: {
-    fontSize: '96px',
-    lineHeight: '0.64',
-    left: 0,
-    top: '28.5vh',
-    width: '100%',
-  },
-
-  span: {
-    display: 'inline-block',
-    verticalAlign: 'top',
-    position: 'relative',
-    [mq(767, 'max-width')]: {
-      width: '320px',
-    },
-  },
-});
-
 const Moon = styled.div({
   position: 'absolute',
   left: '50%',
@@ -218,21 +189,11 @@ export default function Home() {
             <Nav space="60px">
               <HeadLink to="/core/badge">
                 Components
-                <Badge
-                  color="piccolo.100"
-                  backgroundColor="gohan.100"
-                  size="small"
-                >
-                  WIP
-                </Badge>
               </HeadLink>
               <HeadLink to="/assets/icons">Assets</HeadLink>
             </Nav>
           </Head>
           <LeftText>open source design system</LeftText>
-          <MainText>
-            <span>coming soon</span>
-          </MainText>
           <Moon id="scene1">
             <animated.img
               alt="moon"
