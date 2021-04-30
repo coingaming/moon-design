@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.93.0](https://github.com/coingaming/sportsbet-design/compare/v2.92.0...v2.93.0) (2021-04-30)
+
+
+### Features
+
+* update row space for calendar variant ([7c84b42](https://github.com/coingaming/sportsbet-design/commit/7c84b423c5d350e59aa7934af01461017404d462))
+
+
+
+
+
 # [2.92.0](https://github.com/coingaming/sportsbet-design/compare/v2.91.0...v2.92.0) (2021-04-29)
 
 
