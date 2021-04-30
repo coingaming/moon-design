@@ -5,7 +5,7 @@ import { useSpring, animated } from 'react-spring';
 import { Global } from '@heathmont/moon-global';
 import { mq, rem } from '@heathmont/moon-utils';
 import { ThemeProvider, moonDesignDark } from '@heathmont/moon-themes';
-import { Inline, Badge } from '@heathmont/moon-components';
+import { Inline } from '@heathmont/moon-components';
 
 import MoonImg from '../images/moon2.png';
 import EarthImg from '../images/earth.png';
@@ -187,9 +187,7 @@ export default function Home() {
             </svg>
             <span>by Coingaming</span>
             <Nav space="60px">
-              <HeadLink to="/core/badge">
-                Components
-              </HeadLink>
+              <HeadLink to="/core/badge">Components</HeadLink>
               <HeadLink to="/assets/icons">Assets</HeadLink>
             </Nav>
           </Head>
