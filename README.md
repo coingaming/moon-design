@@ -9,7 +9,6 @@
 ## Resources
 
 - 📖 [Documentation](https://design.sportsbet.io)
-- 🏗 [Playground](https://design.sportsbet.io/playground)
 
 ## Contents
 
