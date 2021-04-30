@@ -5,7 +5,7 @@ import { useSpring, animated } from 'react-spring';
 import { Global } from '@heathmont/moon-global';
 import { mq, rem } from '@heathmont/moon-utils';
 import { ThemeProvider, moonDesignDark } from '@heathmont/moon-themes';
-import { Inline, Badge } from '@heathmont/moon-components';
+import { Inline } from '@heathmont/moon-components';
 
 import MoonImg from '../images/moon2.png';
 import EarthImg from '../images/earth.png';
@@ -73,35 +73,6 @@ const LeftText = styled.div({
     left: 0,
     width: '100%',
     textAlign: 'center',
-  },
-});
-
-const MainText = styled.div({
-  fontWeight: 'normal',
-  fontSize: '11.46vw',
-  lineHeight: '1.24',
-  textAlign: 'center',
-  letterSpacing: '-0.05em',
-  color: '#FFFFFF',
-  position: 'absolute',
-  left: 0,
-  top: '13vw',
-  width: '100%',
-  [mq(767, 'max-width')]: {
-    fontSize: '96px',
-    lineHeight: '0.64',
-    left: 0,
-    top: '28.5vh',
-    width: '100%',
-  },
-
-  span: {
-    display: 'inline-block',
-    verticalAlign: 'top',
-    position: 'relative',
-    [mq(767, 'max-width')]: {
-      width: '320px',
-    },
   },
 });
 
@@ -216,23 +187,11 @@ export default function Home() {
             </svg>
             <span>by Coingaming</span>
             <Nav space="60px">
-              <HeadLink to="/core/badge">
-                Components
-                <Badge
-                  color="piccolo.100"
-                  backgroundColor="gohan.100"
-                  size="small"
-                >
-                  WIP
-                </Badge>
-              </HeadLink>
+              <HeadLink to="/core/badge">Components</HeadLink>
               <HeadLink to="/assets/icons">Assets</HeadLink>
             </Nav>
           </Head>
           <LeftText>open source design system</LeftText>
-          <MainText>
-            <span>coming soon</span>
-          </MainText>
           <Moon id="scene1">
             <animated.img
               alt="moon"

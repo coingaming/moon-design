@@ -1,13 +1,14 @@
 # Moon Design System
 
+<img width="1440" alt="0 0 - Cover" src="https://user-images.githubusercontent.com/232199/116694400-e75ab680-a9c7-11eb-8de6-71b3e2ba7038.png">
+
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
-[![CircleCI](https://circleci.com/gh/coingaming/sportsbet-design.svg?style=svg&circle-token=ac2a5739dd256e22f8051c19548bc06aec8b4350)](https://circleci.com/gh/coingaming/sportsbet-design)
+[![CircleCI](https://circleci.com/gh/coingaming/moon-design.svg?style=svg&circle-token=ac2a5739dd256e22f8051c19548bc06aec8b4350)](https://circleci.com/gh/coingaming/sportsbet-design)
 
 ## Resources
 
 - 📖 [Documentation](https://design.sportsbet.io)
-- 🏗 [Playground](https://design.sportsbet.io/playground)
 
 ## Contents
 
