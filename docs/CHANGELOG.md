@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.94.0](https://github.com/coingaming/sportsbet-design/compare/v2.93.0...v2.94.0) (2021-04-30)
+
+
+### Bug Fixes
+
+* remove badge from index ([42e4b03](https://github.com/coingaming/sportsbet-design/commit/42e4b03c700b324343e5db35f4f42272624bdbf1))
+
+
+### Features
+
+* Remove 'coming soon' from index ([315e2b5](https://github.com/coingaming/sportsbet-design/commit/315e2b57135930fe1284372a063e70cd5c9593e8))
+
+
+
+
+
 # [2.93.0](https://github.com/coingaming/sportsbet-design/compare/v2.92.0...v2.93.0) (2021-04-30)
 
 **Note:** Version bump only for package docs
