@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.94.1](https://github.com/coingaming/sportsbet-design/compare/v2.94.0...v2.94.1) (2021-05-03)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+
+
+
+
 # [2.92.0](https://github.com/coingaming/sportsbet-design/compare/v2.91.0...v2.92.0) (2021-04-29)
 
 

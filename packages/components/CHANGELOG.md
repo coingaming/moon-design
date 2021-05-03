@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.94.1](https://github.com/coingaming/sportsbet-design/compare/v2.94.0...v2.94.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* trigger release ([88b5a44](https://github.com/coingaming/sportsbet-design/commit/88b5a4438c86f084d37ef6808d7515741259044c))
+
+
+
+
+
 # [2.91.0](https://github.com/coingaming/sportsbet-design/compare/v2.90.1...v2.91.0) (2021-04-27)
 
 
