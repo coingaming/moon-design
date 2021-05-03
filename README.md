@@ -60,10 +60,10 @@
 
 ## Architecture
 
-Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/sportsbet-` packages:
+Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/moon-` packages:
 
 1. [`docs/`](#docs) - style guide and documentation
-2. [`packages/`](#design-system) - the Sportsbet.io design system
+2. [`packages/`](#design-system) - Moon Design System
 
 Packages are developed inside their respective `src` folders, utilising [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the [TypeScript compiler](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#compiling-your-code) on build/publish.
 
