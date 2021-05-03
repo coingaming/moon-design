@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.94.1](https://github.com/coingaming/sportsbet-design/compare/v2.94.0...v2.94.1) (2021-05-03)
+
+**Note:** Version bump only for package @heathmont/moon-popover
+
+
+
+
+
 # [2.91.0](https://github.com/coingaming/sportsbet-design/compare/v2.90.1...v2.91.0) (2021-04-27)
 
 **Note:** Version bump only for package @heathmont/moon-popover
