@@ -9,17 +9,22 @@
 
 ### Installing Moon Design
 
-1. Install the above [prerequisites](#prerequisites).
-2. Clone the repository:
-
-   ```sh
-   git clone git@github.com:coingaming/moon-design.git
-   ```
-
-3. Install dependencies and link local packages together:
+1. Install dependencies and link local packages together:
 
    ```sh
    yarn
+   ```
+
+2. Compile and build all packages:
+
+   ```sh
+   yarn build
+   ```
+
+3. Run locally at [`:8000`](http://localhost:8000) with hot reloading:
+
+   ```sh
+   yarn start
    ```
 
 ## Using Moon Design
