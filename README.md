@@ -6,13 +6,13 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 [![CircleCI](https://circleci.com/gh/coingaming/moon-design.svg?style=svg&circle-token=ac2a5739dd256e22f8051c19548bc06aec8b4350)](https://circleci.com/gh/coingaming/sportsbet-design)
 
-### Setup
+### Installing Moon Design
 
 1. Install the above [prerequisites](#prerequisites).
 2. Clone the repository:
 
    ```sh
-   git clone git@github.com:coingaming/sportsbet-design.git
+   git clone git@github.com:coingaming/moon-design.git
    ```
 
 3. Install dependencies and link local packages together:
