@@ -21,7 +21,7 @@ const Badge = styled.span<BadgeProps>(
     fontSize: size === 'small' ? rem(10) : rem(8),
     lineHeight: size === 'small' ? rem(16) : rem(12),
   }),
-  /* If a color or backgroundColor is set, override the modifier styles. */
+  /* If a color or backgroundColor is set, override styles. */
   ({ color, backgroundColor, theme }) => ({
     color: themed('color', color)(theme),
     backgroundColor: themed('color', backgroundColor)(theme),
