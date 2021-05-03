@@ -7,7 +7,7 @@
 
 
 
-### Installing Moon Design
+## Installing Moon Design
 
 1. Install dependencies and link local packages together:
 
@@ -41,7 +41,7 @@
 - `yarn clean` - removes all generated `lib` folders.
 - `yarn nuke` - removes all generated `lib` folders **and** `node_modules`.
 - `yarn publish:packages` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
-  - Additional `@beta` suffix creates a tagged release for testing purposes.
+  - Additional `@alpha` and `@beta` suffixes create a tagged release for testing purposes.
 - `yarn update:packages` - a wizard to update Lerna package dependencies.
 
 ## Resources
