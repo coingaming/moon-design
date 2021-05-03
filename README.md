@@ -21,7 +21,7 @@
    yarn
    ```
 
-## Usage
+## Using Moon Design
 
 - `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000) with hot reloading.
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
