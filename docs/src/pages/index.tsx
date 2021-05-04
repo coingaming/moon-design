@@ -11,6 +11,35 @@ import MoonImg from '../images/moon2.png';
 import EarthImg from '../images/earth.png';
 import BackgroundImg from '../images/back2.png';
 
+const MainText = styled.div({
+  fontWeight: 'normal',
+  fontSize: '11.46vw',
+  lineHeight: '1.24',
+  textAlign: 'center',
+  letterSpacing: '-0.05em',
+  color: '#FFFFFF',
+  position: 'absolute',
+  left: 0,
+  top: '13vw',
+  width: '100%',
+  [mq(767, 'max-width')]: {
+    fontSize: '96px',
+    lineHeight: '0.64',
+    left: 0,
+    top: '28.5vh',
+    width: '100%',
+  },
+
+  span: {
+    display: 'inline-block',
+    verticalAlign: 'top',
+    position: 'relative',
+    [mq(767, 'max-width')]: {
+      width: '320px',
+    },
+  },
+});
+
 const Wrap = styled.div({
   margin: 0,
   height: '100vh',
@@ -192,6 +221,9 @@ export default function Home() {
             </Nav>
           </Head>
           <LeftText>open source design system</LeftText>
+          <MainText>
+            <span>design system</span>
+          </MainText>
           <Moon id="scene1">
             <animated.img
               alt="moon"
