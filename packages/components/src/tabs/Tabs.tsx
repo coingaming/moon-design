@@ -37,9 +37,10 @@ const Tab = styled.li({});
 type TabsProps = {
   id?: string;
   items: any[];
+  dir?: 'ltr' | 'rtl' | 'auto';
 };
 
-const Tabs: React.FC<TabsProps> = ({ id, items }) => {
+const Tabs: React.FC<TabsProps> = ({ id, items, dir }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
   // We render everything except null or undefined items
   // tab != null filters both
@@ -53,7 +54,7 @@ const Tabs: React.FC<TabsProps> = ({ id, items }) => {
   return (
     <TabNav>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
-      <TabList space={rem(space.medium)}>
+      <TabList dir={dir} space={rem(space.medium)}>
         {Array.isArray(nonEmptyTabs) &&
           nonEmptyTabs.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
       </TabList>
