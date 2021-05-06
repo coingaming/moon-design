@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.96.0](https://github.com/coingaming/sportsbet-design/compare/v2.95.0...v2.96.0) (2021-05-06)
+
+
+### Features
+
+* rtl for Reel ([f31fc0b](https://github.com/coingaming/sportsbet-design/commit/f31fc0bb86a549be6e9f5c9a29208d3c3c370153))
+* RTL for tabs ([604d693](https://github.com/coingaming/sportsbet-design/commit/604d6936819d59da990310e56f881bbfbe3be4a9))
+
+
+
+
+
 ## [2.94.1](https://github.com/coingaming/sportsbet-design/compare/v2.94.0...v2.94.1) (2021-05-03)
 
 
