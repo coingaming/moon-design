@@ -33,7 +33,7 @@ documentation of the "reel".
   return (
     <Container>
       <Reel>
-        {items.map(item => (
+        {items.map((item) => (
           <Example hueRotate={item} />
         ))}
       </Reel>
@@ -73,7 +73,7 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
   return (
     <Container>
       <Reel space="large">
-        {items.map(item => (
+        {items.map((item) => (
           <Example hueRotate={item} />
         ))}
       </Reel>
@@ -86,7 +86,7 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
 
 ```jsx react-live
 () => {
-  const placeholderImg = size => `https://www.placecage.com/${size}`;
+  const placeholderImg = (size) => `https://www.placecage.com/${size}`;
 
   // imitates limited width
   const Container = styled.div({
@@ -103,6 +103,32 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
         <img alt="" src={placeholderImg('150/200')} />
         <img alt="" src={placeholderImg('450/300')} />
         <img alt="" src={placeholderImg('200/200')} />
+      </Reel>
+    </Container>
+  );
+};
+```
+
+## Right To Left
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 20 }, (v, i) => i);
+
+  // imitates limited width
+  const Container = styled.div({
+    width: '700px',
+    overflow: 'hidden',
+  });
+
+  return (
+    <Container>
+      <Reel as="ul" dir="rtl">
+        {items.map((item) => (
+          <li>
+            <Button variant="primary">Item {item}</Button>
+          </li>
+        ))}
       </Reel>
     </Container>
   );
@@ -135,7 +161,7 @@ list-item (`li`) elements will display without bullets.
   return (
     <Container>
       <Reel as="ul">
-        {items.map(item => (
+        {items.map((item) => (
           <li>
             <Button variant="primary">Item {item}</Button>
           </li>
