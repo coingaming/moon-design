@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Tippy from '@tippyjs/react/headless';
+import { ColorNames } from '@heathmont/moon-themes';
 
 import { PopoverContainer } from './private/layout';
 
@@ -29,6 +30,7 @@ type Props = {
   isOpen?: boolean;
   onVisibilityChange?: (open: boolean) => void;
   padding?: number;
+  backgroundColor?: ColorNames;
 };
 
 const Popover: React.FC<Props> = ({
@@ -41,6 +43,7 @@ const Popover: React.FC<Props> = ({
   isOpen = false,
   onVisibilityChange,
   padding,
+  backgroundColor,
 }) => {
   const [visible, setVisible] = useState(defaultState || isOpen);
 
@@ -74,7 +77,11 @@ const Popover: React.FC<Props> = ({
       render={(attrs) => {
         return (
           <div className="box" tabIndex={-1} {...attrs}>
-            <PopoverContainer className={className} padding={padding}>
+            <PopoverContainer
+              className={className}
+              padding={padding}
+              backgroundColor={backgroundColor}
+            >
               {content}
             </PopoverContainer>
           </div>
