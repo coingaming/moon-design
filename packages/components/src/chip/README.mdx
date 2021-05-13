@@ -1,0 +1,113 @@
+---
+name: Chip
+menu: Design System
+route: /core/chip
+---
+
+# Chip
+
+Chips are compact little units that represent actions, filters or choices. When shown, they allow users to prompt actions, filter games/content and choose options.
+
+## Usage:
+
+```
+import { Chip } from '@heathmont/moon-core';
+```
+
+```jsx react-live
+<Inline>
+  <Chip>Chip</Chip>
+</Inline>
+```
+
+## Props
+
+### Customize size
+
+You could use `size="small"` prop.
+
+```
+size= "small" | "medium"
+
+```
+
+```jsx react-live
+<Inline>
+  <Chip size="small">Small</Chip>
+  <Chip>Medium</Chip>
+</Inline>
+```
+
+### Control the status
+
+You could use `active` to activate the Chip as a prop.
+
+```
+active
+
+```
+
+```jsx react-live
+<Inline>
+  <Chip active>Active</Chip>
+</Inline>
+```
+
+### Insert Icons to left, right or both sides
+
+```
+iconLeft={<IconProfile />}
+iconRight={<IconProfile />}
+
+```
+
+```jsx react-live
+<>
+  <Inline>
+    <Chip size="small" iconLeft={<IconProfile />}>
+      Small
+    </Chip>
+    <Chip size="small" iconRight={<IconProfile />}>
+      Small
+    </Chip>
+    <Chip size="small" iconLeft={<IconProfile />} iconRight={<IconProfile />}>
+      Small
+    </Chip>
+  </Inline>
+
+  <Inline>
+    <Chip size="small" iconLeft={<IconProfile />} active>
+      Small
+    </Chip>
+    <Chip size="small" iconRight={<IconProfile />} active>
+      Small
+    </Chip>
+    <Chip
+      size="small"
+      iconLeft={<IconProfile />}
+      iconRight={<IconProfile />}
+      active
+    >
+      Small
+    </Chip>
+  </Inline>
+  <Inline>
+    <Chip iconLeft={<IconProfile />}>Medium</Chip>
+    <Chip iconRight={<IconProfile />}>Medium</Chip>
+    <Chip iconLeft={<IconProfile />} iconRight={<IconProfile />}>
+      Medium
+    </Chip>
+  </Inline>
+  <Inline>
+    <Chip iconLeft={<IconProfile />} active>
+      Medium
+    </Chip>
+    <Chip iconRight={<IconProfile />} active>
+      Medium
+    </Chip>
+    <Chip iconLeft={<IconProfile />} iconRight={<IconProfile />} active>
+      Medium
+    </Chip>
+  </Inline>
+</>
+```
