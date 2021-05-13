@@ -61,3 +61,66 @@ size= "small" | undefined
   <Badge>Default</Badge>
 </Inline>
 ```
+
+### Insert Icons to left, right or both sides
+
+```
+iconLeft={<IconProfile />}
+iconRight={<IconProfile />}
+```
+
+```jsx react-live
+<>
+  <Inline>
+    <Badge
+      size="small"
+      color="goten.100"
+      backgroundColor="piccolo.100"
+      iconLeft={<IconProfile />}
+    >
+      Active
+    </Badge>
+    <Badge
+      size="small"
+      color="goten.100"
+      backgroundColor="piccolo.100"
+      iconRight={<IconProfile />}
+    >
+      Active
+    </Badge>
+    <Badge
+      size="small"
+      color="goten.100"
+      backgroundColor="piccolo.100"
+      iconLeft={<IconProfile />}
+      iconRight={<IconProfile />}
+    >
+      Active
+    </Badge>
+  </Inline>
+  <Inline>
+    <Badge
+      color="goten.100"
+      backgroundColor="piccolo.100"
+      iconLeft={<IconProfile />}
+    >
+      Active
+    </Badge>
+    <Badge
+      color="goten.100"
+      backgroundColor="piccolo.100"
+      iconRight={<IconProfile />}
+    >
+      Active
+    </Badge>
+    <Badge
+      color="goten.100"
+      backgroundColor="piccolo.100"
+      iconLeft={<IconProfile />}
+      iconRight={<IconProfile />}
+    >
+      Active
+    </Badge>
+  </Inline>
+</>
+```
