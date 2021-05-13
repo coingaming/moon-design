@@ -39,8 +39,6 @@ const Chip: React.FC<ChipProps> = ({
   iconLeft,
   iconRight,
 }) => {
-  console.log(active, size, iconLeft, iconRight, children);
-
   return (
     <StyledChip
       active={active}
