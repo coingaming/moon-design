@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
@@ -5,12 +6,15 @@ import { ColorProps } from '@heathmont/moon-themes';
 export type BadgeProps = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
+  iconLeft?: React.ReactElement;
+  iconRight?: React.ReactElement;
   size?: 'small';
 };
 
-const Badge = styled.span<BadgeProps>(
+const StyledBadge = styled.span<BadgeProps>(
   ({ theme: { fontWeight, radius } }) => ({
     display: 'inline-flex',
+    alignItems: 'center',
     fontWeight: fontWeight.semibold,
     textTransform: 'uppercase',
     borderRadius: rem(radius.largest),
@@ -28,9 +32,42 @@ const Badge = styled.span<BadgeProps>(
   })
 );
 
-Badge.defaultProps = {
+StyledBadge.defaultProps = {
   color: 'goten.100',
   backgroundColor: 'piccolo.100',
+};
+
+const IconRightWrapper = styled.span<BadgeProps>`
+  margin-left: ${rem(8)};
+`;
+
+const IconLeftWrapper = styled.span<BadgeProps>`
+  margin-right: ${rem(8)};
+`;
+
+const Badge: React.FC<BadgeProps> = ({
+  children,
+  color,
+  backgroundColor,
+  iconLeft,
+  iconRight,
+  size,
+}) => {
+  return (
+    <StyledBadge
+      backgroundColor={backgroundColor}
+      color={color}
+      iconLeft={iconLeft}
+      iconRight={iconRight}
+      size={size}
+    >
+      {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
+      {children}
+      {iconRight && (
+        <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>
+      )}
+    </StyledBadge>
+  );
 };
 
 /*
