@@ -12,6 +12,7 @@ import { getAxisPosition, getBarChartData } from './private/utils';
 
 const Container = styled.div({
   display: 'flex',
+  flexGrow: 1,
   height: '100%',
   overflow: 'hidden',
 });
