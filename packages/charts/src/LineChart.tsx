@@ -23,6 +23,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
     height: '100%',
     display: 'flex',
+    flexGrow: 1,
     '.recharts-cartesian-axis': {
       text: {
         fill: theme.color.trunks[100],

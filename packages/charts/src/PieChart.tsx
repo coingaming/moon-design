@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Pie,
   Sector,
@@ -21,6 +21,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
     height: '100%',
     display: 'flex',
+    flexGrow: 1,
     '.charts-title': {
       fill: theme.color.trunks[100],
       fontSize: rem(14),
@@ -68,7 +69,13 @@ const PieChart: React.FC<Props> = ({
 }) => {
   const theme = useTheme();
   const colorShadow = themed('color', 'bulma.100')(theme);
-  const [activeIndex, setActiveIndex] = useState(data.length - 1);
+  const [activeIndex, setActiveIndex] = useState(
+    data.length ? data.length - 1 : 0
+  );
+
+  useEffect(() => setActiveIndex(data.length ? data.length - 1 : 0), [
+    data.length,
+  ]);
 
   const onMouseEnter = (event: any) => {
     setActiveIndex(event['data-index']);
