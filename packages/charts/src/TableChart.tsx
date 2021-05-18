@@ -12,6 +12,7 @@ const CustomLoader = styled(Loader)({});
 
 const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
+  flexGrow: 1,
   height: '100%',
   overflow: 'auto',
   ...(isActive && {
@@ -19,6 +20,9 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
       color: theme.color.goten[100],
     },
     [`${CustomLoader} p`]: {
+      color: theme.color.goten[100],
+    },
+    [`${Count}`]: {
       color: theme.color.goten[100],
     },
   }),
