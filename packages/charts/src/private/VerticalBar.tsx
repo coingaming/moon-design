@@ -71,6 +71,7 @@ type Props = {
 
 export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
   const lineRef = useRef(null);
+  const minWidth = 5;
 
   return (
     <Container>
@@ -79,37 +80,43 @@ export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
           (
             { label, value, opacity, percent, isNegative, color },
             index: number
-          ) => (
-            // eslint-disable-next-line
-          <React.Fragment key={`${index}-${value}`}>
-              <Cell>
-                <Count>{index + 1}</Count>
-              </Cell>
-              <Cell>
-                <TableItem>{label}</TableItem>
-              </Cell>
-              <Cell wide>
-                {axisPosition === 'center' && <Center />}
-                <Bar isNegative={isNegative} axisPosition={axisPosition}>
-                  <Transition nodeRef={lineRef} in appear timeout={0}>
-                    {(state) => (
-                      <Line
-                        ref={lineRef}
-                        style={{
-                          width: `${state === 'entered' ? percent : 0}%`,
-                          opacity,
-                          background: color,
-                        }}
-                      />
-                    )}
-                  </Transition>
-                </Bar>
-              </Cell>
-              <Cell>
-                <Value>{value}</Value>
-              </Cell>
-            </React.Fragment>
-          )
+          ) => {
+            const percentWidth = percent < minWidth ? minWidth : percent;
+
+            return (
+              // eslint-disable-next-line
+            <React.Fragment key={`${index}-${value}`}>
+                <Cell>
+                  <Count>{index + 1}</Count>
+                </Cell>
+                <Cell>
+                  <TableItem>{label}</TableItem>
+                </Cell>
+                <Cell wide>
+                  {axisPosition === 'center' && <Center />}
+                  <Bar isNegative={isNegative} axisPosition={axisPosition}>
+                    <Transition nodeRef={lineRef} in appear timeout={0}>
+                      {(state) => (
+                        <Line
+                          ref={lineRef}
+                          style={{
+                            width: `${
+                              state === 'entered' ? percentWidth : minWidth
+                            }%`,
+                            opacity,
+                            background: color,
+                          }}
+                        />
+                      )}
+                    </Transition>
+                  </Bar>
+                </Cell>
+                <Cell>
+                  <Value>{value}</Value>
+                </Cell>
+              </React.Fragment>
+            );
+          }
         )}
       </Table>
     </Container>
