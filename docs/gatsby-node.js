@@ -62,7 +62,7 @@ exports.createPages = ({ graphql, actions }) => {
           createPage({
             path: node.frontmatter.route,
             // This component will wrap our MDX content
-            component: path.resolve(`./src/templates/standard.tsx`),
+            component: path.resolve('./src/templates/standard.tsx'),
             // We can use the values in this context in
             // our page layout component
             context: { id: node.id },
