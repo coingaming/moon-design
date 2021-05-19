@@ -30,7 +30,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
       fill: theme.color.bulma[100],
       fontSize: rem(24),
     },
-  })
+  }),
 );
 
 type Props = {
@@ -70,7 +70,7 @@ const PieChart: React.FC<Props> = ({
   const theme = useTheme();
   const colorShadow = themed('color', 'bulma.100')(theme);
   const [activeIndex, setActiveIndex] = useState(
-    data.length ? data.length - 1 : 0
+    data.length ? data.length - 1 : 0,
   );
 
   useEffect(() => setActiveIndex(data.length ? data.length - 1 : 0), [
@@ -125,7 +125,6 @@ const PieChart: React.FC<Props> = ({
             floodOpacity="0.25"
           />
         </filter>
-        {/* eslint-disable-next-line jsx-a11y/mouse-events-have-key-events */}
         <Sector
           cx={cx}
           cy={cy}

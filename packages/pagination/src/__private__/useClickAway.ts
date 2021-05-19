@@ -9,7 +9,7 @@ const defaultEvents = ['mousedown', 'touchstart'];
 const useClickAway = <E extends Event = Event>(
   ref: RefObject<HTMLElement | null>,
   onClickAway: (event: E) => void,
-  events: string[] = defaultEvents
+  events: string[] = defaultEvents,
 ) => {
   const savedCallback = useRef(onClickAway);
   useEffect(() => {
