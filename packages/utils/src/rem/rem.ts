@@ -26,7 +26,7 @@ const EXCEPTIONS = [
 ];
 */
 
-const rem = (value: string | number, baseFontSize: string | number = 16) => {
+const rem = (value: string | number, baseFontSize: string | number = 16) =>
   // const isNotAlloved = !EXCEPTIONS.includes(value);
   // const isNotDivisibleBy4 = !(typeof value === 'number' && value % 4 === 0);
   // const isNotProduction = process.env.NODE_ENV !== 'production';
@@ -36,7 +36,5 @@ const rem = (value: string | number, baseFontSize: string | number = 16) => {
   //     `ATTENTION! You've used rem(${value}) which is out of Moon DS range! Please check documentation.`
   //   );
   // }
-  return polishedRem(value, baseFontSize || sharedTokens.base.fontSize);
-};
-
+  polishedRem(value, baseFontSize || sharedTokens.base.fontSize);
 export default rem;

@@ -19,8 +19,8 @@ describe('Tooltip', () => {
       renderWithTheme(
         <Tooltip {...testProps}>
           <Caption />
-        </Tooltip>
-      )
+        </Tooltip>,
+      ),
     );
 
     expect(tooltip).toMatchSnapshot();
@@ -31,8 +31,8 @@ describe('Tooltip', () => {
       renderWithTheme(
         <Tooltip active {...testProps}>
           <Caption />
-        </Tooltip>
-      )
+        </Tooltip>,
+      ),
     );
 
     expect(tooltip).toMatchSnapshot();
@@ -44,8 +44,8 @@ describe('Tooltip', () => {
         renderWithTheme(
           <Tooltip active align="right" {...testProps}>
             <Caption />
-          </Tooltip>
-        )
+          </Tooltip>,
+        ),
       );
 
       expect(tooltip).toMatchSnapshot();
@@ -63,8 +63,8 @@ describe('Tooltip', () => {
             {...testProps}
           >
             <Caption />
-          </Tooltip>
-        )
+          </Tooltip>,
+        ),
       );
 
       expect(tooltip).toMatchSnapshot();
@@ -76,8 +76,8 @@ describe('Tooltip', () => {
       renderWithTheme(
         <Tooltip active error {...testProps}>
           <Caption />
-        </Tooltip>
-      )
+        </Tooltip>,
+      ),
     );
 
     expect(tooltip).toMatchSnapshot();

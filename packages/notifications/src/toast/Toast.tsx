@@ -27,16 +27,14 @@ const Toast: React.FC<ToastProps> = ({
   onClose,
   backgroundColor,
   actionColor,
-}) => {
-  return (
+}) => (
     <ToastContainer backgroundColor={backgroundColor} position={position}>
       {variant && <ToastIcon variant={variant} />}
       {message && <ToastMessage>{message}</ToastMessage>}
       {action && <ToastAction actionColor={actionColor}>{action}</ToastAction>}
       {isCloseable && <ToastCloseButton onClick={onClose} />}
     </ToastContainer>
-  );
-};
+);
 
 export type { ToastProps };
 

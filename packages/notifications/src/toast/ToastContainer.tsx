@@ -47,7 +47,7 @@ const ToastContainer = styled.div<any>(
         marginLeft: rem(theme.space.default),
       },
     },
-  ]
+  ],
 );
 
 export default ToastContainer;

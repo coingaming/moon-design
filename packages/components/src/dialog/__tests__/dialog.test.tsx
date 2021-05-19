@@ -35,17 +35,13 @@ const ExampleText = () => (
 /**
  * Mocks
  */
-jest.mock('@reach/portal', () => {
-  return ({ children, ref }: any) => <div ref={ref}>{children}</div>;
-});
+jest.mock('@reach/portal', () => ({ children, ref }: any) => <div ref={ref}>{children}</div>);
 
-jest.mock('react-focus-lock', () => {
-  return ({ children, ref }: any) => (
+jest.mock('react-focus-lock', () => ({ children, ref }: any) => (
     <div ref={ref} style={{}}>
       {children}
     </div>
-  );
-});
+));
 
 jest.mock('react-dom', () => ({
   findDOMNode() {
@@ -68,7 +64,7 @@ describe('Dialog', () => {
             <ExampleHeading />
             <ExampleText />
           </Dialog>
-        </Setup>
+        </Setup>,
       );
 
       expect(dialog).toMatchSnapshot();

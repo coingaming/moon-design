@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Highlight, { defaultProps } from 'prism-react-renderer';
-import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
+import {
+  LiveProvider, LiveEditor, LiveError, LivePreview,
+} from 'react-live';
 import * as Assets from '@heathmont/moon-assets';
 import * as Components from '@heathmont/moon-components';
 import * as Utils from '@heathmont/moon-utils';
@@ -49,10 +51,9 @@ const CodePreview = styled.div(({ theme: { color, fontFamily, space } }) => ({
   borderBottom: `1px solid ${color.beerus[100]}`,
 }));
 
-export const Code = ({ codeString, ...props }: CodeProps) => {
-  return (
-    /* eslint-disable-next-line react/destructuring-assignment */
-    props['react-live'] ? (
+export const Code = ({ codeString, ...props }: CodeProps) => (
+  /* eslint-disable-next-line react/destructuring-assignment */
+  props['react-live'] ? (
       <CodeWrapper>
         <LiveProvider
           code={codeString}
@@ -86,7 +87,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
           </React.Fragment>
         </LiveProvider>
       </CodeWrapper>
-    ) : (
+  ) : (
       <CodeWrapper>
         <Highlight
           {...defaultProps}
@@ -94,7 +95,9 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
           language="jsx"
           theme={prismTheme()}
         >
-          {({ className, style, tokens, getLineProps, getTokenProps }) => (
+          {({
+            className, style, tokens, getLineProps, getTokenProps,
+          }) => (
             <pre className={className} style={style}>
               {tokens.map((line, i) => (
                 <div {...getLineProps({ line, key: i })}>
@@ -107,6 +110,5 @@ export const Code = ({ codeString, ...props }: CodeProps) => {
           )}
         </Highlight>
       </CodeWrapper>
-    )
-  );
-};
+  )
+);

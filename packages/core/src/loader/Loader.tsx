@@ -49,7 +49,7 @@ const LoaderRing = styled.span<LoaderRingProps>(
   }),
   animation,
   ({ animationDelay }) => ({ animationDelay }),
-  ({ color, theme }) => ({ '--loader-color': themed('color', color)(theme) })
+  ({ color, theme }) => ({ '--loader-color': themed('color', color)(theme) }),
 );
 
 /**

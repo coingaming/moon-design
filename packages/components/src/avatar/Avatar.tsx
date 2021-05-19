@@ -13,7 +13,9 @@ type AvatarProps = {
 };
 
 const AvatarWrapper = styled.div<AvatarProps>(
-  ({ size, imageUrl, color, backgroundColor, theme }) => [
+  ({
+    size, imageUrl, color, backgroundColor, theme,
+  }) => [
     {
       color: themed('color', color)(theme),
       backgroundColor: themed('color', backgroundColor)(theme),
@@ -47,7 +49,7 @@ const AvatarWrapper = styled.div<AvatarProps>(
       width: rem(48),
       fontSize: rem(24),
     },
-  ]
+  ],
 );
 
 const Avatar: React.FC<AvatarProps> = (props) => {
