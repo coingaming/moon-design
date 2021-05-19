@@ -13,7 +13,7 @@ const Palette = styled.span<{ backgroundColor: string }>(
     height: '4rem',
     alignItems: 'center',
     justifyContent: 'center',
-  })
+  }),
 );
 
 const PaletteText = styled.span({
@@ -51,15 +51,13 @@ export const ThemePalettes = () => {
       // we filter because we have text & background colours here as well
       // eslint-disable-next-line
       .filter(([_, colors]) => colors && typeof colors === 'object')
-      .map(([colorKey, colors]) => {
-        return (
+      .map(([colorKey, colors]) => (
           <Stack as="li" key={colorKey}>
             <Heading as="h3" size="charlie">
               {colorKey}
             </Heading>
             <ColorPalette colors={colors} />
           </Stack>
-        );
-      })
+      ))
   );
 };

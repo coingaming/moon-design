@@ -12,7 +12,11 @@ const maxWidth: CSSObject = {
 };
 
 const Table = styled.table(
-  ({ theme: { border, color, fontWeight, space } }) => ({
+  ({
+    theme: {
+      border, color, fontWeight, space,
+    },
+  }) => ({
     width: '100%',
     ...maxWidth,
     thead: {
@@ -24,7 +28,7 @@ const Table = styled.table(
     'th, td': {
       padding: `${rem(space.small)} 0`,
     },
-  })
+  }),
 );
 
 const MarkdownStack = styled(Stack as any)({

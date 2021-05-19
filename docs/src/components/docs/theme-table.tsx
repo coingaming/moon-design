@@ -4,7 +4,11 @@ import { useTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 
 const Table: any = styled.table(
-  ({ theme: { border, color, fontWeight, space } }) => ({
+  ({
+    theme: {
+      border, color, fontWeight, space,
+    },
+  }) => ({
     width: '100%',
     tableLayout: 'fixed',
     maxWidth: '40rem',
@@ -35,7 +39,7 @@ const Table: any = styled.table(
         fontWeight: fontWeight.normal,
       },
     },
-  })
+  }),
 );
 
 type ThemePropsTableProps = {
@@ -56,8 +60,8 @@ const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
       </tr>
     </thead>
     <tbody>
-      {options &&
-        options.map((option) => (
+      {options
+        && options.map((option) => (
           <tr key={option.key}>
             <td>{option.property.toString()}</td>
             {/* eslint-disable-next-line no-nested-ternary */}
