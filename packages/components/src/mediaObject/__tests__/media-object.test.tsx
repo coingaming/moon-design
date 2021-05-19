@@ -19,8 +19,8 @@ describe('MediaObject', () => {
             <p>Live chat</p>
             <p>We offer 24/7 support</p>
           </div>
-        </MediaObject>
-      )
+        </MediaObject>,
+      ),
     );
 
     expect(mediaObject).toMatchSnapshot();
@@ -44,8 +44,8 @@ describe('MediaObject', () => {
               <p>We offer 24/7 support</p>
             </div>
           </MediaObject>
-        </React.Fragment>
-      )
+        </React.Fragment>,
+      ),
     );
 
     expect(mediaObject).toMatchSnapshot();
@@ -69,8 +69,8 @@ describe('MediaObject', () => {
               <p>We offer 24/7 support</p>
             </div>
           </MediaObject>
-        </React.Fragment>
-      )
+        </React.Fragment>,
+      ),
     );
 
     expect(mediaObject).toMatchSnapshot();
@@ -95,8 +95,8 @@ describe('MediaObject', () => {
               <p>We offer 24/7 support</p>
             </div>
           </MediaObject>
-        </div>
-      )
+        </div>,
+      ),
     );
 
     expect(mediaObject).toMatchSnapshot();

@@ -29,7 +29,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoMoonDesign = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -37,7 +39,7 @@ const LogoMoonDesign = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 LogoMoonDesign.defaultProps = {
   verticalAlign: 'middle',
