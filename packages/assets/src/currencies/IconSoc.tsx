@@ -40,7 +40,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconSoc = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -48,7 +50,7 @@ const IconSoc = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 IconSoc.defaultProps = {
   verticalAlign: 'middle',

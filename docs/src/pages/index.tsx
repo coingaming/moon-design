@@ -158,9 +158,7 @@ const calc = (x: number, y: number) => [
   x - window.innerWidth / 2,
   y - window.innerHeight / 2,
 ];
-const trans1 = (x: number, y: number) => {
-  return `translate3d(${x / 10}px, ${-y / 10}px,0)`;
-};
+const trans1 = (x: number, y: number) => `translate3d(${x / 10}px, ${-y / 10}px,0)`;
 const trans2 = (x: number, y: number) =>
   `translate3d(${x / 8 + 35}px,${y / 8 - 23}px,0)`;
 

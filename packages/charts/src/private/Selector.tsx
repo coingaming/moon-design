@@ -77,8 +77,7 @@ export const Selector: React.FC<Props> = ({
   activeOptions,
   onChange,
   formatFn,
-}) => {
-  return (
+}) => (
     <Container>
       <List>
         {options.map((option) => {
@@ -99,5 +98,4 @@ export const Selector: React.FC<Props> = ({
         })}
       </List>
     </Container>
-  );
-};
+);

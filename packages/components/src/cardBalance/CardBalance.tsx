@@ -39,8 +39,7 @@ const Text = styled.p(({ theme: { color } }) => ({
   lineHeight: rem(24),
 }));
 
-const Balance: React.FC<{ from: BalanceType }> = ({ from }) => {
-  return (
+const Balance: React.FC<{ from: BalanceType }> = ({ from }) => (
     <Stack as="section" space={0}>
       <Text>{from.currency}</Text>
 
@@ -49,14 +48,13 @@ const Balance: React.FC<{ from: BalanceType }> = ({ from }) => {
         <Unit title={from.unitTitle || from.currency}>{from.unit}</Unit>
       </Title>
     </Stack>
-  );
-};
+);
 
 /**
  * Component
  */
 const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) =>
-  badge ? (
+  (badge ? (
     <Stack>
       {badge && <span>{badge}</span>}
 
@@ -64,7 +62,7 @@ const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) =>
     </Stack>
   ) : (
     <Balance from={from} />
-  );
+  ));
 
 export type { CardBalanceProps };
 

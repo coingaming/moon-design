@@ -12,7 +12,7 @@ export const transformSections = (data: PagesData) => {
       .sort((a, b) => a.name.localeCompare(b.name));
 
     const sectionRoot = data.pages.edges.filter(
-      (page) => page.node.frontmatter.name === section
+      (page) => page.node.frontmatter.name === section,
     )[0];
 
     const sectionMeta = sectionPages.length

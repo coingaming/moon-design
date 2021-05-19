@@ -11,16 +11,14 @@ import IconGlobe from '../../assets/svg/icons/icon-globe.svg';
 import IconStarEmpty from '../../assets/svg/icons/icon-star-empty.svg';
 import IconSettings from '../../assets/svg/icons/icon-settings.svg';
 
-const SubMenuItem = ({ title, route }) => {
-  return (
+const SubMenuItem = ({ title, route }) => (
     <Link
       to={route}
       className="hover:bg-gohan-80 group w-full flex items-center pl-11 pr-2 py-2 text-sm font-medium text-bulma rounded-md"
     >
       {title}
     </Link>
-  );
-};
+);
 
 const SubMenuIcons = {
   Themes: <IconSliders className="mr-3 h-6 w-6" />,
@@ -71,15 +69,13 @@ export const SubMenu: React.FC<ISubMenu> = ({ title, items, isActive }) => {
             (subMenuItem: {
               name: string | number | undefined;
               route: string;
-            }) => {
-              return (
+            }) => (
                 <SubMenuItem
                   key={subMenuItem.name}
                   title={subMenuItem.name}
                   route={subMenuItem.route}
                 />
-              );
-            }
+            ),
           )}
         </div>
       )}
