@@ -41,7 +41,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconRipple = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -49,7 +51,7 @@ const IconRipple = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 IconRipple.defaultProps = {
   verticalAlign: 'middle',

@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { enGB } from 'date-fns/locale';
 
+import { Button } from '..';
+
 import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
-
-import { Button } from '..';
 
 const Wrapper = styled.div({
   position: 'relative',
@@ -22,7 +22,9 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   // const [ref, hasClickedOutside] = useClickOutside();
   const [isOpen, setIsOpen] = React.useState(false);
   const [placeholder, setPlaceholder] = React.useState(
-    getPlaceholder({ startDate, endDate, range, config, translations })
+    getPlaceholder({
+      startDate, endDate, range, config, translations,
+    }),
   );
   return (
     <Wrapper>

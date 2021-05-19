@@ -29,16 +29,14 @@ const Form: React.FC<FormProps> = ({
   maxWidth,
   fullWidth,
   ...props
-}) => {
-  return (
+}) => (
     <form css={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
       <Fieldset>
         <legend css={hideVisually()}>{legend}</legend>
         <Stack as="ul">{children}</Stack>
       </Fieldset>
     </form>
-  );
-};
+);
 
 /**
  * `<any>` justification: https://coingaming.atlassian.net/browse/SPO-4963.

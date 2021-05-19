@@ -35,7 +35,7 @@ export const Map: React.FC<Props> = ({ data }) => {
   const [hoveredItem, setHoveredItem] = useState<any>(null);
   const isCountryCode = (
     code: string,
-    country: { ISO_A2: string; ISO_A3: string }
+    country: { ISO_A2: string; ISO_A3: string },
   ) => {
     if (!code) return false;
     return code.length === 2
@@ -85,8 +85,7 @@ export const Map: React.FC<Props> = ({ data }) => {
             geographies.map((geography: any, index: number) => {
               const country = geography.properties;
               const activeItem = data.find((item) =>
-                isCountryCode(item.code, country)
-              );
+                isCountryCode(item.code, country));
               const fillColor = activeItem ? activeItem.color : defaultColor;
               const opacity = activeItem ? activeItem.opacity : 1;
 
@@ -112,10 +111,8 @@ export const Map: React.FC<Props> = ({ data }) => {
                     const parentRect = ref.parentNode.getBoundingClientRect();
                     // @ts-ignore
                     const tooltipRect = ref.getBoundingClientRect();
-                    const x =
-                      event.clientX - parentRect.left - tooltipRect.width / 2;
-                    const y =
-                      event.clientY - parentRect.top - tooltipRect.height * 1.2;
+                    const x = event.clientX - parentRect.left - tooltipRect.width / 2;
+                    const y = event.clientY - parentRect.top - tooltipRect.height * 1.2;
                     // @ts-ignore
                     ref.style.transform = `translate(${x}px, ${y}px)`;
                   }}

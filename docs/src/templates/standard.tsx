@@ -2,10 +2,8 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-/* eslint-disable import/no-named-default */
 import { default as Layout } from '../components/layout';
 import Breadcrumbs from '../components/Breadcrumbs';
-/* eslint-enable */
 
 type MDX = {
   body: string;
@@ -30,8 +28,7 @@ type Data = {
   };
 };
 
-const Navigation = ({ mainItems }) => {
-  return (
+const Navigation = ({ mainItems }) => (
     <div className="">
       {mainItems.map(({ url, title, items }) => {
         // const Link = () => ;
@@ -53,11 +50,9 @@ const Navigation = ({ mainItems }) => {
         );
       })}
     </div>
-  );
-};
+);
 
-export default ({ data: { mdx } }: Data) => {
-  return (
+export default ({ data: { mdx } }: Data) => (
     <Layout>
       <div className="mb-8">
         <Breadcrumbs
@@ -72,8 +67,7 @@ export default ({ data: { mdx } }: Data) => {
       </nav>
       <MDXRenderer>{mdx.body}</MDXRenderer>
     </Layout>
-  );
-};
+);
 
 export const pageQuery = graphql`
   query($id: String) {

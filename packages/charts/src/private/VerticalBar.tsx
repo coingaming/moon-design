@@ -3,7 +3,9 @@ import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { Transition } from 'react-transition-group';
 
-import { Cell, Count, Table, TableItem, Value } from './Table';
+import {
+  Cell, Count, Table, TableItem, Value,
+} from './Table';
 
 const Container = styled.div({
   width: '100%',
@@ -19,20 +21,20 @@ const Bar = styled.div<{
   display: 'block',
   ...(axisPosition === 'left'
     ? {
-        width: '100%',
-      }
+      width: '100%',
+    }
     : {}),
   ...(axisPosition === 'center'
     ? {
-        width: '50%',
-        transform: isNegative ? 'rotate(180deg)' : 'translateX(100%)',
-      }
+      width: '50%',
+      transform: isNegative ? 'rotate(180deg)' : 'translateX(100%)',
+    }
     : {}),
   ...(axisPosition === 'right'
     ? {
-        width: '100%',
-        transform: 'rotate(180deg)',
-      }
+      width: '100%',
+      transform: 'rotate(180deg)',
+    }
     : {}),
 }));
 
@@ -78,13 +80,15 @@ export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
       <Table withAdditionalCell>
         {data.map(
           (
-            { label, value, opacity, percent, isNegative, color },
-            index: number
+            {
+              label, value, opacity, percent, isNegative, color,
+            },
+            index: number,
           ) => {
             const percentWidth = percent < minWidth ? minWidth : percent;
 
             return (
-              // eslint-disable-next-line
+            // eslint-disable-next-line
             <React.Fragment key={`${index}-${value}`}>
                 <Cell>
                   <Count>{index + 1}</Count>
@@ -116,7 +120,7 @@ export const VerticalBar: React.FC<Props> = ({ data, axisPosition }) => {
                 </Cell>
               </React.Fragment>
             );
-          }
+          },
         )}
       </Table>
     </Container>
