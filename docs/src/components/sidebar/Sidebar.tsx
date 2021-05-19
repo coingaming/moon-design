@@ -37,8 +37,7 @@ const sidebar = graphql`
 //   pages?: any;
 // };
 
-export const Sidebar: React.FC<any> = () => {
-  return (
+export const Sidebar: React.FC<any> = () => (
     <StaticQuery
       query={sidebar}
       render={(data: PagesData) => (
@@ -76,5 +75,4 @@ export const Sidebar: React.FC<any> = () => {
         </div>
       )}
     />
-  );
-};
+);

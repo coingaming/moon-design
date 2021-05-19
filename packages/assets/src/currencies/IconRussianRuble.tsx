@@ -35,7 +35,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconRussianRuble = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -43,7 +45,7 @@ const IconRussianRuble = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 IconRussianRuble.defaultProps = {
   verticalAlign: 'middle',
