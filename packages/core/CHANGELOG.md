@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
+
+
+### Bug Fixes
+
+* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
+
+
+### Features
+
+* **badge:** add icons to badges ([0ed4543](https://github.com/coingaming/sportsbet-design/commit/0ed45434b7287ffd38a4de56ce48586f64fe4b55))
+
+
+
+
+
 # [2.88.0](https://github.com/coingaming/sportsbet-design/compare/v2.87.0...v2.88.0) (2021-03-31)
 
 

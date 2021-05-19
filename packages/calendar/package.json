@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-calendar",
   "sideEffects": false,
-  "version": "2.96.0",
+  "version": "2.97.0",
   "files": [
     "lib"
   ],
@@ -15,9 +15,9 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-components": "^2.96.0",
-    "@heathmont/moon-themes": "^2.78.0",
-    "@heathmont/moon-utils": "^2.78.0",
+    "@heathmont/moon-components": "^2.97.0",
+    "@heathmont/moon-themes": "^2.97.0",
+    "@heathmont/moon-utils": "^2.97.0",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.15.0"
   },
