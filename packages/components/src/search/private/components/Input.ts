@@ -44,7 +44,7 @@ export const SearchInput = styled.input(({ theme }) => {
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
     transitionDuration: `${theme.transitionDuration.default}s`,
-    '&, &::placeholder': {
+    '&::placeholder': {
       color: 'inherit',
     },
     '&:hover, &:focus': {
