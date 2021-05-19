@@ -62,5 +62,7 @@ export { default as LogoSportsbetShort } from './LogoSportsbetShort';
 export * from './LogoSportsbetShort';
 export { default as LogoSportsbetSponsor } from './LogoSportsbetSponsor';
 export * from './LogoSportsbetSponsor';
+export { default as LogoUtorg } from './LogoUtorg';
+export * from './LogoUtorg';
 export { default as MoonPay } from './MoonPay';
 export * from './MoonPay';
