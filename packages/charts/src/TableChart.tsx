@@ -4,7 +4,9 @@ import { Transition } from 'react-transition-group';
 
 import { Panel } from './private/Panel';
 import { Header } from './private/Header';
-import { Count, Table, Cell, TableItem, Value } from './private/Table';
+import {
+  Count, Table, Cell, TableItem, Value,
+} from './private/Table';
 import ChartIcons from './ChartIcons';
 import { Loader } from './private/Loader';
 

@@ -74,8 +74,7 @@ const Popover: React.FC<Props> = ({
           setVisible(false);
         }
       }}
-      render={(attrs) => {
-        return (
+      render={(attrs) => (
           <div className="box" tabIndex={-1} {...attrs}>
             <PopoverContainer
               className={className}
@@ -85,8 +84,7 @@ const Popover: React.FC<Props> = ({
               {content}
             </PopoverContainer>
           </div>
-        );
-      }}
+      )}
     >
       <div
         role="menu"

@@ -31,7 +31,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconSwissFranc = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -39,7 +41,7 @@ const IconSwissFranc = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 IconSwissFranc.defaultProps = {
   verticalAlign: 'middle',

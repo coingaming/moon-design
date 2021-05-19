@@ -102,7 +102,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconGoogle = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -120,6 +122,6 @@ const IconGoogle = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconGoogle;

@@ -27,13 +27,11 @@ export const Loader: React.FC<Props> = ({
   icon,
   title,
   color = 'trunks.100',
-}) => {
-  return (
+}) => (
     <Container>
       {icon}
       <Title size={14} color={color}>
         {title}
       </Title>
     </Container>
-  );
-};
+);
