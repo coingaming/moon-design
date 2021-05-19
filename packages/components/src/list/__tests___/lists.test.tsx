@@ -3,7 +3,9 @@ import styled, { CSSObject } from 'styled-components';
 import 'jest-styled-components';
 import { create } from 'react-test-renderer';
 
-import { listPlain, listPlainItem, listInline, listInlineItem } from '../..';
+import {
+  listPlain, listPlainItem, listInline, listInlineItem,
+} from '../..';
 
 const Example = styled.div<{ css: CSSObject }>(({ css }) => css);
 
@@ -34,7 +36,7 @@ describe('Lists', () => {
               Item 3
             </Example>
           </Example>
-        </div>
+        </div>,
       );
 
       expect(list).toMatchSnapshot();
@@ -67,7 +69,7 @@ describe('Lists', () => {
               Item 3
             </Example>
           </Example>
-        </div>
+        </div>,
       );
 
       expect(list).toMatchSnapshot();

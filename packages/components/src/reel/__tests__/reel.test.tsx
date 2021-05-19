@@ -20,8 +20,8 @@ describe('Reel', () => {
           {items.map((item) => (
             <div key={item}>Item {item}</div>
           ))}
-        </Reel>
-      )
+        </Reel>,
+      ),
     );
 
     expect(reel).toMatchSnapshot();
@@ -34,8 +34,8 @@ describe('Reel', () => {
           {items.map((item) => (
             <div key={item}>Item {item}</div>
           ))}
-        </Reel>
-      )
+        </Reel>,
+      ),
     );
 
     expect(reel).toMatchSnapshot();
@@ -48,8 +48,8 @@ describe('Reel', () => {
           {items.map((item) => (
             <img key={item} alt={`Test ${item}`} src="" />
           ))}
-        </Reel>
-      )
+        </Reel>,
+      ),
     );
 
     expect(reel).toMatchSnapshot();
@@ -62,8 +62,8 @@ describe('Reel', () => {
           {items.map((item) => (
             <li key={item}>Item {item}</li>
           ))}
-        </Reel>
-      )
+        </Reel>,
+      ),
     );
 
     expect(reel).toMatchSnapshot();

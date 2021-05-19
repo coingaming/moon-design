@@ -21,8 +21,8 @@ describe('CardBalance', () => {
             unit: 'mBTC',
             unitTitle: 'Millibitcoin',
           }}
-        />
-      )
+        />,
+      ),
     );
 
     expect(balance).toMatchSnapshot();
@@ -37,8 +37,8 @@ describe('CardBalance', () => {
             value: '1526.56',
             unit: 'mBTC',
           }}
-        />
-      )
+        />,
+      ),
     );
 
     expect(balance).toMatchSnapshot();
@@ -55,8 +55,8 @@ describe('CardBalance', () => {
             unit: 'mBTC',
             unitTitle: 'Millibitcoin',
           }}
-        />
-      )
+        />,
+      ),
     );
 
     expect(balance).toMatchSnapshot();

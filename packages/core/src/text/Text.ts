@@ -25,7 +25,7 @@ const Text = styled.p<Props>(
   ({ isBold, theme: { fontWeight } }) =>
     isBold && {
       fontWeight: fontWeight.semibold,
-    }
+    },
 );
 
 Text.defaultProps = {
