@@ -43,8 +43,8 @@ const ThemeProvider: React.FC<ThemeProviderProps> = ({
       /* Add the theme class, then remove once transitioned. */
       document && document.documentElement.classList.add(themeTransitionClass);
       setTimeout(() => {
-        document &&
-          document.documentElement.classList.remove(themeTransitionClass);
+        document
+          && document.documentElement.classList.remove(themeTransitionClass);
       }, themeTransitionDuration + 10);
 
       return themeObject;

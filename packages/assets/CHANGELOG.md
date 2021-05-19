@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
+
+
+### Bug Fixes
+
+* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
+* utorg logo updated ([25ebfd0](https://github.com/coingaming/sportsbet-design/commit/25ebfd036618962504c266766c584d8666b7e44d))
+
+
+### Features
+
+* utorg logo [BASE1-1441] ([b60b4d3](https://github.com/coingaming/sportsbet-design/commit/b60b4d39648a4e587e9b967dc1d6d64663a1d153))
+
+
+
+
+
 ## [2.90.1](https://github.com/coingaming/sportsbet-design/compare/v2.90.0...v2.90.1) (2021-04-27)
 
 

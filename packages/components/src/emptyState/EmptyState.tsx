@@ -78,8 +78,7 @@ const EmptyState: React.FC<EmptyStateProps> = ({
   message,
   icon,
   action,
-}) => {
-  return (
+}) => (
     <Wrapper>
       {icon && <IconWrapper>{icon}</IconWrapper>}
       {(title || message) && (
@@ -90,7 +89,6 @@ const EmptyState: React.FC<EmptyStateProps> = ({
       )}
       {action && <ActionWrapper>{action}</ActionWrapper>}
     </Wrapper>
-  );
-};
+);
 
 export default EmptyState;

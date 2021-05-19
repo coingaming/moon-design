@@ -19,12 +19,10 @@ const Wrapper = styled.button(({ theme }) => ({
   alignItems: 'center',
 }));
 
-const ToastCloseButton: React.FC<any> = (props) => {
-  return (
+const ToastCloseButton: React.FC<any> = (props) => (
     <Wrapper {...props}>
       <IconToastClose fontSize="1rem" color="trunks.100" />
     </Wrapper>
-  );
-};
+);
 
 export default ToastCloseButton;

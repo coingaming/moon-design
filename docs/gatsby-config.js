@@ -3,14 +3,14 @@
 const { siteTitle, description, author } = require.resolve('./config');
 
 module.exports = {
-  pathPrefix: `/assets`,
+  pathPrefix: '/assets',
   siteMetadata: {
     title: siteTitle,
     description,
     author,
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
+    'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
@@ -20,7 +20,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-plugin-mdx',
       options: {
         defaultLayouts: {
           default: require.resolve('./src/components/layout.tsx'),
@@ -28,7 +28,7 @@ module.exports = {
         extensions: ['.mdx'],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-autolink-headers`,
+            resolve: 'gatsby-remark-autolink-headers',
             options: {
               icon: false,
             },
@@ -38,16 +38,16 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `design`,
+        name: 'design',
         path: `${__dirname}/../packages/`,
         ignore: [
           '**/\\.*',
@@ -59,9 +59,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `config`,
+        name: 'config',
         path: `${__dirname}/config.json`,
       },
     },
@@ -78,9 +78,9 @@ module.exports = {
     //     icon: 'src/images/icon.png', // This path is relative to the root of the site.
     //   },
     // },
-    `gatsby-plugin-typescript`,
+    'gatsby-plugin-typescript',
     // 'gatsby-plugin-offline',
     // 'gatsby-plugin-postcss',
-    `gatsby-plugin-remove-trailing-slashes`,
+    'gatsby-plugin-remove-trailing-slashes',
   ],
 };

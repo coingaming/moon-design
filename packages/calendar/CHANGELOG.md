@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
+
+
+### Bug Fixes
+
+* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
+
+
+
+
+
 # [2.96.0](https://github.com/coingaming/sportsbet-design/compare/v2.95.0...v2.96.0) (2021-05-06)
 
 **Note:** Version bump only for package @heathmont/moon-calendar

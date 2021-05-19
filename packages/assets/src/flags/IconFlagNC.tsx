@@ -11,7 +11,7 @@ const Flag = styled.span<Props>(({ fontSize }) => ({
 
 // New Caledonia
 const IconFlagNC: React.FC<Props> = ({ fontSize, ...props }) => (
-  // eslint-disable-next-line jsx-a11y/accessible-emoji
+  // eslint-disable-next-line
   <Flag role="img" aria-label="flag-nc" fontSize={fontSize} {...props}>
     🇳🇨
   </Flag>

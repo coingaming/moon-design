@@ -25,7 +25,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconArrowRight = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -43,6 +45,6 @@ const IconArrowRight = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconArrowRight;
