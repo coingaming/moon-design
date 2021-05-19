@@ -194,7 +194,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const CrestArsenal = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -202,7 +204,7 @@ const CrestArsenal = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 CrestArsenal.defaultProps = {
   verticalAlign: 'middle',

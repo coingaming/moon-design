@@ -16,8 +16,8 @@ describe('Header', () => {
       renderWithTheme(
         <Header>
           <HeaderTitle>Page Title</HeaderTitle>
-        </Header>
-      )
+        </Header>,
+      ),
     );
 
     expect(header).toMatchSnapshot();
@@ -29,8 +29,8 @@ describe('Header', () => {
         <Header>
           <HeaderBack href="../">Back to Cashier</HeaderBack>
           <HeaderTitle>Page Title</HeaderTitle>
-        </Header>
-      )
+        </Header>,
+      ),
     );
 
     expect(header).toMatchSnapshot();

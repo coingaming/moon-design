@@ -47,7 +47,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoCommsFull = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -55,7 +57,7 @@ const LogoCommsFull = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 LogoCommsFull.defaultProps = {
   verticalAlign: 'middle',

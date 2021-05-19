@@ -38,7 +38,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconESportsHearthstone = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -56,6 +58,6 @@ const IconESportsHearthstone = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconESportsHearthstone;

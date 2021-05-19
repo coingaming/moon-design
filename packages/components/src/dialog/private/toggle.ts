@@ -3,7 +3,11 @@ import hideVisually from 'polished/lib/mixins/hideVisually';
 import { focus, rem } from '@heathmont/moon-utils';
 
 export const DialogToggle = styled.button(
-  ({ theme: { border, color, opacity, radius, space } }) => ({
+  ({
+    theme: {
+      border, color, opacity, radius, space,
+    },
+  }) => ({
     position: 'absolute',
     top: rem(space.default),
     right: rem(space.default),
@@ -23,7 +27,7 @@ export const DialogToggle = styled.button(
       cursor: 'not-allowed',
       opacity: opacity.disabled,
     },
-  })
+  }),
 );
 
 export const DialogToggleText = styled.span(hideVisually);

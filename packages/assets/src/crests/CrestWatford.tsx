@@ -125,7 +125,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const CrestWatford = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -133,7 +135,7 @@ const CrestWatford = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 CrestWatford.defaultProps = {
   verticalAlign: 'middle',

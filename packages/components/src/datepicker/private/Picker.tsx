@@ -12,7 +12,11 @@ import { Sidebar } from './Sidebar';
 import { InputsPanel } from './InputsPanel';
 
 const PickerContainer = styled.div(
-  ({ theme: { color, space, radius, breakpoint, zIndex } }) => ({
+  ({
+    theme: {
+      color, space, radius, breakpoint, zIndex,
+    },
+  }) => ({
     width: 'fit-content',
     position: 'absolute',
     zIndex: zIndex.dialog,
@@ -40,7 +44,7 @@ const PickerContainer = styled.div(
     boxShadow: `4px 4px 12px ${color.hit[80]},
       0px 10px 18px ${color.hit[80]}`,
     overflow: 'hidden',
-  })
+  }),
 );
 
 const FirstMonth = styled.div({
@@ -90,8 +94,7 @@ export const Picker: React.FC<any> = ({
   onDateChange,
   apply,
   reset,
-}) => {
-  return (
+}) => (
     <PickerContainer>
       <Sidebar
         range={datesState.range}
@@ -143,5 +146,4 @@ export const Picker: React.FC<any> = ({
         config={config}
       />
     </PickerContainer>
-  );
-};
+);

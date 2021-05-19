@@ -11,7 +11,7 @@ const Flag = styled.span<Props>(({ fontSize }) => ({
 
 // United States Minor Outlying Islands
 const IconFlagUM: React.FC<Props> = ({ fontSize, ...props }) => (
-  // eslint-disable-next-line jsx-a11y/accessible-emoji
+  // eslint-disable-next-line
   <Flag role="img" aria-label="flag-um" fontSize={fontSize} {...props}>
     🇺🇲
   </Flag>
