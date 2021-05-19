@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = ({ secondaryColor, ...rest }: any) => {
-  return (
+const Svg = ({ secondaryColor, ...rest }: any) => (
     <svg
       width="1em"
       height="1em"
@@ -84,11 +83,12 @@ const Svg = ({ secondaryColor, ...rest }: any) => {
         stroke={secondaryColor}
       />
     </svg>
-  );
-};
+);
 
 const Component = styled(Svg)(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -96,7 +96,7 @@ const Component = styled(Svg)(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 
 const CasinoBonus: React.FC<any> = (props) => {

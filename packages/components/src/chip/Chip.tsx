@@ -19,9 +19,9 @@ const StyledChip = styled.div<ChipProps>`
   line-height: ${({ size }) => (size === 'small' ? rem(16) : rem(20))};
   font-size: ${({ size }) => (size === 'small' ? rem(12) : rem(14))};
   background: ${({ theme, active }) =>
-    active ? theme.color.frieza[10] : theme.color.goten[100]};
+    (active ? theme.color.frieza[10] : theme.color.goten[100])};
   color: ${({ theme, active }) =>
-    active ? theme.color.frieza[100] : theme.color.bulma[100]};
+    (active ? theme.color.frieza[100] : theme.color.bulma[100])};
 `;
 
 const IconRightWrapper = styled.span<ChipProps>`
@@ -38,8 +38,7 @@ const Chip: React.FC<ChipProps> = ({
   size,
   iconLeft,
   iconRight,
-}) => {
-  return (
+}) => (
     <StyledChip
       active={active}
       iconLeft={iconLeft}
@@ -52,7 +51,6 @@ const Chip: React.FC<ChipProps> = ({
         <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>
       )}
     </StyledChip>
-  );
-};
+);
 
 export default Chip;

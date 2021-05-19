@@ -21,8 +21,7 @@ interface SearchResultsProps {
 export const SearchResults: React.FC<SearchResultsProps> = ({
   loadingMessage,
   results,
-}) => {
-  return (
+}) => (
     <Results>
       {loadingMessage && !results && (
         <ResultsItem>
@@ -30,8 +29,8 @@ export const SearchResults: React.FC<SearchResultsProps> = ({
         </ResultsItem>
       )}
 
-      {results &&
-        results.map((result, index) => (
+      {results
+        && results.map((result, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <ResultsItem key={index}>
             <ResultsItemText>{result.title}</ResultsItemText>
@@ -46,5 +45,4 @@ export const SearchResults: React.FC<SearchResultsProps> = ({
           </ResultsItem>
         ))}
     </Results>
-  );
-};
+);

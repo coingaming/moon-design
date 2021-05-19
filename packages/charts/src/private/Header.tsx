@@ -41,12 +41,10 @@ export const Header: React.FC<Props> = ({
   filter,
   title,
   isActive = false,
-}) => {
-  return (
+}) => (
     <Container isActive={isActive}>
       <IconWrapper>{icon}</IconWrapper>
       <Title size={20}>{title}</Title>
       <FilterWrapper>{filter}</FilterWrapper>
     </Container>
-  );
-};
+);

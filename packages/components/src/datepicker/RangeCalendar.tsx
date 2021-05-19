@@ -12,8 +12,9 @@ import { getMonthDays } from './private/helpers/getMonthDays';
 import { Picker } from './private/Picker';
 import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
 import { getDatesFromRange } from './private/helpers/getDatesFromRange';
-import type { DatesRange } from './private/helpers/getDatesFromRange';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
+
+import type { DatesRange } from './private/helpers/getDatesFromRange';
 
 export type DatepickerState = {
   startDate?: Date;
@@ -114,7 +115,7 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
           range: datesState.range,
           config,
           translations,
-        })
+        }),
       );
       setIsOpen(false);
     }
@@ -133,17 +134,17 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
         range: datesState.range,
         config,
         translations,
-      })
+      }),
     );
     setIsOpen(false);
   };
 
   const selectDay = (selectedDate: Date) => {
     if (
-      datesState.startDate &&
-      !datesState.endDate &&
-      (isSameDay(datesState.startDate, selectedDate) ||
-        isAfter(selectedDate, datesState.startDate))
+      datesState.startDate
+      && !datesState.endDate
+      && (isSameDay(datesState.startDate, selectedDate)
+        || isAfter(selectedDate, datesState.startDate))
     ) {
       const newEndDate = endOfDay(selectedDate);
       setDatesState({
@@ -206,10 +207,10 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
 
   const hoverDay = (hoveredDate: Date) => {
     if (
-      datesState.startDate &&
-      !datesState.endDate &&
-      !isSameDay(hoveredDate, datesState.startDate) &&
-      isAfter(hoveredDate, datesState.startDate)
+      datesState.startDate
+      && !datesState.endDate
+      && !isSameDay(hoveredDate, datesState.startDate)
+      && isAfter(hoveredDate, datesState.startDate)
     ) {
       setDatesState({
         ...datesState,
@@ -264,22 +265,22 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
     firstMonthLabel: format(
       datesState.cursorDate,
       (config && config.monthLabelFormat) || 'MMMM',
-      config
+      config,
     ),
     firstMonthYearLabel: format(
       datesState.cursorDate,
       (config && config.yearLabelFormat) || 'yyyy',
-      config
+      config,
     ),
     secondMonthLabel: format(
       nextMonthCurrentDate,
       (config && config.monthLabelFormat) || 'MMMM',
-      config
+      config,
     ),
     secondMonthYearLabel: format(
       nextMonthCurrentDate,
       (config && config.yearLabelFormat) || 'yyyy',
-      config
+      config,
     ),
     weekDayLabels: config && getWeekDayLabels(config),
   };

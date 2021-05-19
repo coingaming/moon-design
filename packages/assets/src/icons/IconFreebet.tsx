@@ -32,7 +32,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconFreebet = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -50,6 +52,6 @@ const IconFreebet = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconFreebet;

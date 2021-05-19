@@ -33,7 +33,7 @@ const MenuListItem = styled.li<{ section?: boolean }>(
       fontWeight: fontWeight.semibold,
       color: color.trunks[100],
     },
-  ]
+  ],
 );
 
 const Link = styled(GatsbyLink)(({ theme: { color } }) => ({
@@ -124,8 +124,7 @@ export const MenuItem = ({ route, name, section }: MenuItemProps) => (
   </MenuListItem>
 );
 
-export const Menu = ({ items }: MenuProps) => {
-  return (
+export const Menu = ({ items }: MenuProps) => (
     <>
       {items.map((item) => (
         <SubMenu
@@ -136,5 +135,4 @@ export const Menu = ({ items }: MenuProps) => {
         />
       ))}
     </>
-  );
-};
+);

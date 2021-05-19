@@ -9,7 +9,7 @@ type PaddingSize = CSSObject['paddingLeft'];
 
 const container = (
   size?: ContainerSize,
-  paddingSize?: PaddingSize
+  paddingSize?: PaddingSize,
 ): CSSObject => ({
   ...margin(null, 'auto'),
   ...padding(null, paddingSize ? rem(paddingSize) : null),

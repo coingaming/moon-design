@@ -38,7 +38,7 @@ export const CheckboxHiddenInput = styled.input.attrs({ type: 'checkbox' })(
       opacity: '0.5',
       cursor: 'not-allowed',
     },
-  })
+  }),
 );
 
 export const CheckboxStyledInput: React.FC<any> = styled.figure(
@@ -70,7 +70,7 @@ export const CheckboxStyledInput: React.FC<any> = styled.figure(
     '&::after': {
       display: 'inline-block',
       backgroundImage: inlineSvg(
-        <CheckboxIcon color={theme.color.goten[100]} />
+        <CheckboxIcon color={theme.color.goten[100]} />,
       ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
@@ -79,7 +79,7 @@ export const CheckboxStyledInput: React.FC<any> = styled.figure(
       backgroundSize: 0,
       transitionProperty: 'border-color',
     },
-  })
+  }),
 );
 
 interface CheckboxLabelProps {
@@ -105,7 +105,7 @@ export const CheckboxLabel = styled.label<CheckboxLabelProps>(
     return {
       width: 'fit-content',
     };
-  }
+  },
 );
 
 export const CheckboxCaption = styled.span(({ theme }) => ({
@@ -121,8 +121,9 @@ interface CheckboxProps {
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
-  ({ disabled, ariaLabel, label, id, variant, ...inputProps }, ref) => {
-    return (
+  ({
+    disabled, ariaLabel, label, id, variant, ...inputProps
+  }, ref) => (
       <CheckboxLabel htmlFor={id} variant={variant}>
         <CheckboxHiddenInput
           disabled={disabled}
@@ -134,8 +135,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         <CheckboxStyledInput />
         {label && <CheckboxCaption>{label}</CheckboxCaption>}
       </CheckboxLabel>
-    );
-  }
+  ),
 );
 
 export default Checkbox;

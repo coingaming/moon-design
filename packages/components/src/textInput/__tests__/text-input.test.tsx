@@ -12,7 +12,7 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput', () => {
   test('renders correctly with `text` type by default', () => {
     const textInput = create(
-      renderWithTheme(<TextInput label="Example Input" />)
+      renderWithTheme(<TextInput label="Example Input" />),
     );
 
     expect(textInput).toMatchSnapshot();
@@ -20,7 +20,7 @@ describe('TextInput', () => {
 
   test('renders correctly without a label', () => {
     const textInput = create(
-      renderWithTheme(<TextInput placeholder="Enter code" />)
+      renderWithTheme(<TextInput placeholder="Enter code" />),
     );
 
     expect(textInput).toMatchSnapshot();
@@ -38,8 +38,8 @@ describe('TextInput', () => {
           <TextInput label="Search" type="search" required />
           <TextInput label="Telephone" type="tel" required />
           <TextInput label="URL" type="url" required />
-        </fieldset>
-      )
+        </fieldset>,
+      ),
     );
     expect(textInput).toMatchSnapshot();
   });
@@ -56,8 +56,8 @@ describe('TextInput', () => {
           <TextInput label="Search" type="search" disabled />
           <TextInput label="Telephone" type="tel" disabled />
           <TextInput label="URL" type="url" disabled />
-        </fieldset>
-      )
+        </fieldset>,
+      ),
     );
     expect(textInput).toMatchSnapshot();
   });
@@ -74,15 +74,15 @@ describe('TextInput', () => {
           <TextInput label="Search" type="search" error />
           <TextInput label="Telephone" type="tel" error />
           <TextInput label="URL" type="url" error />
-        </fieldset>
-      )
+        </fieldset>,
+      ),
     );
     expect(textInput).toMatchSnapshot();
   });
 
   test('renders with rounded prop', () => {
     const textInput = create(
-      renderWithTheme(<TextInput rounded label="Text" type="text" error />)
+      renderWithTheme(<TextInput rounded label="Text" type="text" error />),
     );
     expect(textInput).toMatchSnapshot();
   });
