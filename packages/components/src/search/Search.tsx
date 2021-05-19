@@ -25,8 +25,7 @@ const Search: React.FC<SearchProps> = ({
   results,
   loadingMessage,
   ...props
-}) => {
-  return (
+}) => (
     <SearchForm onSubmit={onSubmit}>
       <SearchInput
         value={query}
@@ -43,7 +42,6 @@ const Search: React.FC<SearchProps> = ({
       )}
       <input type="submit" hidden />
     </SearchForm>
-  );
-};
+);
 
 export default Search;

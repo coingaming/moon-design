@@ -10,8 +10,7 @@ const ThemeSwitcher = ({ setBrand, themeKeys }) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
   const filteredThemeKeys = themeKeys.filter((themeKey) =>
-    ['sportsbet', 'bitcasino', 'moonDesign'].includes(themeKey)
-  );
+    ['sportsbet', 'bitcasino', 'moonDesign'].includes(themeKey));
   return (
     <>
       <button

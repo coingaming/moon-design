@@ -59,7 +59,7 @@ const Week: React.FC<Props> = ({
             </DayNumber>
             {renderDayContent ? renderDayContent(date) : null}
           </WeekDay>
-        )
+        ),
       )}
     </WeekGrid>
   );

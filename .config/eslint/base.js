@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint-config-airbnb'].map(require.resolve),
+  // extends: ['eslint-config-airbnb'],
   settings: {
     react: {
       version: 'detect',

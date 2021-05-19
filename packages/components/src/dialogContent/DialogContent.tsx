@@ -25,9 +25,9 @@ const DialogContent = styled(ReachDialogContent)<
   },
   ({ maxWidth }) => ({ maxWidth }),
   ({ position }) =>
-    position === 'TOP'
+    (position === 'TOP'
       ? { margin: '8vh auto' }
-      : { top: '50%', transform: 'translateY(-50%)' },
+      : { top: '50%', transform: 'translateY(-50%)' }),
 ]);
 
 export default DialogContent;
