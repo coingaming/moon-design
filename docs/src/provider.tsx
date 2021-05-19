@@ -25,7 +25,6 @@ import {
   commsLight,
   shangrilaLight,
   shangrilaDark,
-  empire,
 } from '@heathmont/moon-themes';
 
 import useLocalStorage from './components/useLocalStorage';
@@ -83,10 +82,6 @@ const themes: DocsThemes = {
     dark: shangrilaDark,
     light: shangrilaLight,
   },
-  empire: {
-    dark: empire,
-    light: empire,
-  },
 };
 
 type DocsColorModes = {
@@ -108,7 +103,6 @@ type DocsThemes = {
   moneyball: DocsColorModes;
   comms: DocsColorModes;
   shangrila: DocsColorModes;
-  empire: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;
