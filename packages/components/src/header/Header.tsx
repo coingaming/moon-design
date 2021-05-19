@@ -25,7 +25,7 @@ const HeaderTitle = styled.h1(
       fontSize: rem(32),
       lineHeight: rem(40),
     },
-  })
+  }),
 );
 
 export { HeaderTitle };

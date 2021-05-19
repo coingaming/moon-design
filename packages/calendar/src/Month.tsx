@@ -58,7 +58,7 @@ const Month: React.FC<Props> = ({
               {renderDayContent ? renderDayContent(date) : null}
             </DayInner>
           </Day>
-        )
+        ),
       )}
     </MonthGrid>
   );

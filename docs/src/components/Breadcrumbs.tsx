@@ -38,7 +38,6 @@ const Breadcrumbs = ({ menu, name, route }) => (
               clipRule="evenodd"
             />
           </svg>
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a
             href="#"
             className="ml-4 text-sm font-medium text-trunks hover:text-piccolo"

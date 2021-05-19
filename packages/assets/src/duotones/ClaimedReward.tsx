@@ -89,7 +89,9 @@ const Svg = ({ secondaryColor, ...rest }: any) => (
 );
 
 const Component = styled(Svg)(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -97,7 +99,7 @@ const Component = styled(Svg)(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 
 const ClaimedReward: React.FC<any> = (props) => {

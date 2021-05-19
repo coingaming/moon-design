@@ -22,12 +22,12 @@ exports.onCreateWebpackConfig = ({ actions }) => {
             '..',
             'packages',
             packageName,
-            'src'
+            'src',
           );
           return acc;
         }, {}),
       },
-    }
+    },
   );
 };
 
@@ -49,7 +49,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
           }
-        `
+        `,
       ).then((result) => {
         // Boilerplate to handle errors
         if (result.errors) {
@@ -68,7 +68,7 @@ exports.createPages = ({ graphql, actions }) => {
             context: { id: node.id },
           });
         });
-      })
+      }),
     );
   });
 };

@@ -34,7 +34,7 @@ export const SearchInput = styled.input(({ theme }) => {
     paddingBottom: 0,
     paddingLeft: rem(
       paddingX + theme.space.default + theme.space.small,
-      fontSize
+      fontSize,
     ),
     textOverflow: 'ellipsis',
     overflow: 'hidden',

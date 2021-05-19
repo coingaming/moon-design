@@ -66,7 +66,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoLuckyslotsFull = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -74,7 +76,7 @@ const LogoLuckyslotsFull = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 LogoLuckyslotsFull.defaultProps = {
   verticalAlign: 'middle',

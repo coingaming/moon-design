@@ -16,8 +16,8 @@ describe('FilterDropdown', () => {
         <FilterDropdown
           searchPlaceholder="Search for a name..."
           onSearchChange={() => {}}
-        />
-      )
+        />,
+      ),
     );
 
     expect(filterDropdown).toMatchSnapshot();
@@ -39,8 +39,8 @@ describe('FilterDropdown', () => {
           <FilterDropdown
             searchPlaceholder="Search for a name..."
             onSearchChange={onSearchChangeMock}
-          />
-        )
+          />,
+        ),
       );
     });
 
@@ -48,8 +48,7 @@ describe('FilterDropdown', () => {
       beforeAll(() => {
         const searchInput = filterDropdown.root.findByType('input');
         act(() =>
-          searchInput.props.onChange({ target: { value: 'searchValue' } })
-        );
+          searchInput.props.onChange({ target: { value: 'searchValue' } }));
       });
 
       test('calls onSearchChange handler with value', () => {

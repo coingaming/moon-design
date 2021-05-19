@@ -5,8 +5,7 @@ import { useTheme } from '@heathmont/moon-themes';
 // @ts-ignore
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = ({ secondaryColor, ...props }: any) => {
-  return (
+const Svg = ({ secondaryColor, ...props }: any) => (
     <svg
       width="139"
       height="37"
@@ -110,11 +109,12 @@ const Svg = ({ secondaryColor, ...props }: any) => {
         fill="#0CCF61"
       />
     </svg>
-  );
-};
+);
 
 const Component = styled(Svg)(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -122,7 +122,7 @@ const Component = styled(Svg)(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 
 const LogoSportsbetCanada: React.FC<any> = (props) => {

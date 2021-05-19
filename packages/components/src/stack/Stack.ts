@@ -18,7 +18,6 @@ export type StackProps = {
 };
 
 const Stack = styled.div<StackProps>(({ theme, space = 'default' }) =>
-  stackMixin(themed('space', space)(theme))
-);
+  stackMixin(themed('space', space)(theme)));
 
 export default Stack;
