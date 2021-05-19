@@ -1,5 +1,11 @@
+const path = require('path');
+
 module.exports = {
-  extends: ['@heathmont/eslint-config-sportsbet'],
+  extends: [
+    path.resolve('.config/eslint/base.js'),
+    path.resolve('.config/eslint/typescript.js'),
+    path.resolve('.config/eslint/prettier.js'),
+  ].map(require.resolve),
   env: {
     browser: true,
     node: true,

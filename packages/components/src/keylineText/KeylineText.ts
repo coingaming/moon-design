@@ -24,7 +24,7 @@ const KeylineText = styled.p(
     '&::after': {
       marginLeft: rem(space.medium),
     },
-  })
+  }),
 );
 
 export default KeylineText;
