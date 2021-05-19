@@ -23,7 +23,9 @@ type SnackbarProps = SnackbarWrapperProps & {
 
 const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
   ({
-    theme: { color, space, zIndex, breakpoint },
+    theme: {
+      color, space, zIndex, breakpoint,
+    },
     position,
     justifyContent,
   }) => [
@@ -66,7 +68,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
         marginLeft: space.default,
       },
     },
-  ]
+  ],
 );
 
 const MessageWrapper = styled.p(({ theme }) => [
@@ -88,8 +90,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
   position = 'bottom',
   status,
   justifyContent,
-}) => {
-  return (
+}) => (
     <SnackbarWrapper position={position} justifyContent={justifyContent}>
       {status === 'error' && (
         <IconWrapper>
@@ -114,8 +115,7 @@ const Snackbar: React.FC<SnackbarProps> = ({
       {message && <MessageWrapper>{message}</MessageWrapper>}
       {action && action}
     </SnackbarWrapper>
-  );
-};
+);
 
 export type { SnackbarProps };
 

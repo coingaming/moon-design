@@ -90,7 +90,9 @@ type SvgProps = {
 };
 
 const Component = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -98,7 +100,7 @@ const Component = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 
 const HustleToTop: React.FC<any> = (props) => {

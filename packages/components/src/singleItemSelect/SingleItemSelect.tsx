@@ -34,16 +34,16 @@ const Option = styled.button<{ selected: boolean }>(({ selected, theme }) => ({
   cursor: 'pointer',
   ...(selected
     ? {
-        color: theme.color.goten[100],
-        backgroundColor: theme.color.piccolo[100],
-      }
+      color: theme.color.goten[100],
+      backgroundColor: theme.color.piccolo[100],
+    }
     : {
-        color: theme.color.bulma[100],
-        backgroundColor: 'transparent',
-        '&:hover, &:focus': {
-          backgroundColor: theme.color.goku[100],
-        },
-      }),
+      color: theme.color.bulma[100],
+      backgroundColor: 'transparent',
+      '&:hover, &:focus': {
+        backgroundColor: theme.color.goku[100],
+      },
+    }),
 }));
 
 const SingleItemSelect: React.FC<SingleItemSelectProps> = ({

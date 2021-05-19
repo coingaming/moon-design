@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
@@ -24,7 +23,7 @@ const KeylineText = styled.p(
     '&::after': {
       marginLeft: rem(space.medium),
     },
-  })
+  }),
 );
 
 export default KeylineText;

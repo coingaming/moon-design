@@ -16,7 +16,7 @@ const Caption = styled.span<Props>(
     textTransform: 'uppercase',
     letterSpacing: rem(1),
   }),
-  ({ textAlign }) => textAlign && { textAlign }
+  ({ textAlign }) => textAlign && { textAlign },
 );
 
 Caption.defaultProps = {

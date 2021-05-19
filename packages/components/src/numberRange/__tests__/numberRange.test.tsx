@@ -25,8 +25,8 @@ describe('Number Range', () => {
           gteDisabled={false}
           gteError={false}
           maxWidth={246}
-        />
-      )
+        />,
+      ),
     );
 
     expect(NumberRangeEl).toMatchSnapshot();

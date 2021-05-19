@@ -13,7 +13,7 @@ import { CarouselControl, CarouselControlCaption } from './control';
  * If a browser supports the new scroll snap specification, use the styles
  * and disable legacy spec (keyed with 👴)
  */
-const currentScrollingSpec = `@supports (scroll-snap-align: start)`;
+const currentScrollingSpec = '@supports (scroll-snap-align: start)';
 
 /**
  * Carousel
@@ -65,24 +65,24 @@ const DefaultScrollToLeftButton = ({
   disabled = false,
   ...rest
 }) =>
-  disabled ? null : (
+  (disabled ? null : (
     <CarouselControl {...rest}>
       <CarouselControlCaption>{scrollLeftCaption}</CarouselControlCaption>
       <IconChevronLeft />
     </CarouselControl>
-  );
+  ));
 
 const DefaultScrollToRightButton = ({
   scrollRightCaption = 'Scroll Right',
   disabled = false,
   ...rest
 }) =>
-  disabled ? null : (
+  (disabled ? null : (
     <CarouselControl {...rest}>
       <CarouselControlCaption>{scrollRightCaption}</CarouselControlCaption>
       <IconChevronLeft />
     </CarouselControl>
-  );
+  ));
 
 interface CarouselProps {
   items: any;
@@ -151,21 +151,21 @@ const Carousel: React.FC<CarouselProps> = ({
       <ItemsScrollWrapper space={space} ref={containerRef}>
         {typeof items === 'function'
           ? items({ firstVisibleIndex, lastVisibleIndex }).map(
-              (item: React.ReactNode, index: string | number | undefined) => (
+            (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
                   {item}
                 </CarouselScrollItem>
-              )
-            )
+            ),
+          )
           : items.map(
-              (item: React.ReactNode, index: string | number | undefined) => (
+            (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
                   {item}
                 </CarouselScrollItem>
-              )
-            )}
+            ),
+          )}
       </ItemsScrollWrapper>
       {scrollToRightButton ? (
         scrollToRightButton({

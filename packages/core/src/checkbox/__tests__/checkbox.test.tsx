@@ -16,7 +16,7 @@ const testProps = {
 describe('Checkbox', () => {
   test('renders by default', () => {
     const checkbox = create(
-      renderWithTheme(<Checkbox id="Checkbox-Test1" {...testProps} />)
+      renderWithTheme(<Checkbox id="Checkbox-Test1" {...testProps} />),
     );
 
     expect(checkbox).toMatchSnapshot();
@@ -24,7 +24,7 @@ describe('Checkbox', () => {
 
   test('renders as disabled', () => {
     const checkbox = create(
-      renderWithTheme(<Checkbox id="Checkbox-Test2" disabled {...testProps} />)
+      renderWithTheme(<Checkbox id="Checkbox-Test2" disabled {...testProps} />),
     );
 
     expect(checkbox).toMatchSnapshot();
@@ -32,7 +32,7 @@ describe('Checkbox', () => {
 
   test('renders as checked', () => {
     const checkbox = create(
-      renderWithTheme(<Checkbox id="Checkbox-Test3" checked {...testProps} />)
+      renderWithTheme(<Checkbox id="Checkbox-Test3" checked {...testProps} />),
     );
 
     expect(checkbox).toMatchSnapshot();
@@ -41,8 +41,8 @@ describe('Checkbox', () => {
   test('renders with hidden aria-label', () => {
     const checkbox = create(
       renderWithTheme(
-        <Checkbox id="Checkbox-Test4" ariaLabel="This label is hidden" />
-      )
+        <Checkbox id="Checkbox-Test4" ariaLabel="This label is hidden" />,
+      ),
     );
 
     expect(checkbox).toMatchSnapshot();
@@ -58,8 +58,8 @@ describe('Checkbox', () => {
               This is a label with a <a href="#test">link</a>.
             </span>
           }
-        />
-      )
+        />,
+      ),
     );
 
     expect(checkbox).toMatchSnapshot();

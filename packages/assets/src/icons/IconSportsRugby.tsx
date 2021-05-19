@@ -37,7 +37,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconSportsRugby = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -55,6 +57,6 @@ const IconSportsRugby = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconSportsRugby;

@@ -39,10 +39,10 @@ const reset: CSSObject = {
   /**
    * Correct font display behavior
    */
-  [`button, input, select`]: {
+  'button, input, select': {
     fontFamily: 'inherit',
   },
-  [`b, strong`]: {
+  'b, strong': {
     fontWeight: 500,
   },
 };

@@ -124,11 +124,11 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
 }) => {
   const [localStorageMode, setLocalStorageMode] = useLocalStorage(
     'mode',
-    'dark'
+    'dark',
   );
   const [localStorageBrand, setLocalStorageBrand] = useLocalStorage(
     'brand',
-    'moonDesign'
+    'moonDesign',
   );
   const [themeState, setThemeState] = React.useState({
     brand: localStorageBrand,
@@ -157,7 +157,9 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
 
   return (
     <DocsThemeContext.Provider
-      value={{ setBrand, themeKeys, toggleColorScheme, getColorMode, getBrand }}
+      value={{
+        setBrand, themeKeys, toggleColorScheme, getColorMode, getBrand,
+      }}
     >
       <ThemeProvider
         theme={themes[themeState.brand][themeState.colorMode]}

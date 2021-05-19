@@ -22,12 +22,12 @@ exports.onCreateWebpackConfig = ({ actions }) => {
             '..',
             'packages',
             packageName,
-            'src'
+            'src',
           );
           return acc;
         }, {}),
       },
-    }
+    },
   );
 };
 
@@ -49,7 +49,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
           }
-        `
+        `,
       ).then((result) => {
         // Boilerplate to handle errors
         if (result.errors) {
@@ -62,13 +62,13 @@ exports.createPages = ({ graphql, actions }) => {
           createPage({
             path: node.frontmatter.route,
             // This component will wrap our MDX content
-            component: path.resolve(`./src/templates/standard.tsx`),
+            component: path.resolve('./src/templates/standard.tsx'),
             // We can use the values in this context in
             // our page layout component
             context: { id: node.id },
           });
         });
-      })
+      }),
     );
   });
 };

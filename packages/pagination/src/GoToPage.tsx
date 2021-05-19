@@ -30,7 +30,7 @@ const CircleButton = styled.button(
     background-color: ${theme.color.piccolo[100]};
     color: ${theme.color.goten[100]};
   }
-`
+`,
 );
 
 const Form = styled.form(({ theme }) => ({

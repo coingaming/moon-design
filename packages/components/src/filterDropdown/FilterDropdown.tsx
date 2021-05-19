@@ -31,8 +31,7 @@ const FilterDropdown: React.FC<FilterDropdownProps> = ({
   children,
   minWidth = rem(240),
   width = 'auto',
-}) => {
-  return (
+}) => (
     <FilterDropdownWrapper style={{ width, minWidth }}>
       {!!onSearchChange && (
         <Header>
@@ -41,7 +40,6 @@ const FilterDropdown: React.FC<FilterDropdownProps> = ({
       )}
       {children}
     </FilterDropdownWrapper>
-  );
-};
+);
 
 export default FilterDropdown;
