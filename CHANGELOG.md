@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.97.1](https://github.com/coingaming/moon-design/compare/v2.97.0...v2.97.1) (2021-05-19)
+
+
+### Bug Fixes
+
+* release fix ([d29ad36](https://github.com/coingaming/moon-design/commit/d29ad36622023f3ff332c7299347142c97ff8edb))
+* release trigger ([6f83b21](https://github.com/coingaming/moon-design/commit/6f83b21229d363e94a952b66616eee7a30695677))
+
+
+
+
+
 # [2.97.0](https://github.com/coingaming/moon-design/compare/v2.96.1...v2.97.0) (2021-05-19)
 
 
