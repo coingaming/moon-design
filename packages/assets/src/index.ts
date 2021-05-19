@@ -1220,6 +1220,8 @@ export { default as LogoSportsbetShort } from './logos/LogoSportsbetShort';
 export * from './logos/LogoSportsbetShort';
 export { default as LogoSportsbetSponsor } from './logos/LogoSportsbetSponsor';
 export * from './logos/LogoSportsbetSponsor';
+export { default as LogoUtorg } from './logos/LogoUtorg';
+export * from './logos/LogoUtorg';
 export { default as MoonPay } from './logos/MoonPay';
 export * from './logos/MoonPay';
 export { default as PatternCircles } from './patterns/PatternCircles';
