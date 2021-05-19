@@ -53,7 +53,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
         background: theme.color.piccolo[100],
       },
     }),
-  })
+  }),
 );
 
 const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
@@ -105,8 +105,7 @@ export const Panel: React.FC<Props> = ({
   hasUpdates,
   isUpdating,
   isActive = false,
-}) => {
-  return (
+}) => (
     <Container isActive={isActive} style={{ height }}>
       <Header>
         {onUpdate && (
@@ -135,5 +134,4 @@ export const Panel: React.FC<Props> = ({
       </Header>
       {children}
     </Container>
-  );
-};
+);
