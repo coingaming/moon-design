@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
+
+
+### Bug Fixes
+
+* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
+* use internal eslint config ([61a8bcb](https://github.com/coingaming/sportsbet-design/commit/61a8bcb05c76afd64e0a7316eeff27e2e2ad8509))
+* **chip:** remove unnecessary console debug ([109ab20](https://github.com/coingaming/sportsbet-design/commit/109ab2010691a74d9c1ec83e76c4eab96be36349))
+* get inherit color for search placeholder from input [B1M2-1322] ([a17728e](https://github.com/coingaming/sportsbet-design/commit/a17728eb623b545a30eeec43266f1c84972f23a7))
+
+
+### Features
+
+* utorg logo [BASE1-1441] ([b60b4d3](https://github.com/coingaming/sportsbet-design/commit/b60b4d39648a4e587e9b967dc1d6d64663a1d153))
+* **chip:** add Chip component ([8439dfc](https://github.com/coingaming/sportsbet-design/commit/8439dfcecb1f4f1f11df850d51a918aa1e7d9387))
+
+
+
+
+
 # [2.96.0](https://github.com/coingaming/sportsbet-design/compare/v2.95.0...v2.96.0) (2021-05-06)
 
 
