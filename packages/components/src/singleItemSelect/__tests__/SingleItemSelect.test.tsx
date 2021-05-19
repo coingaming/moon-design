@@ -21,8 +21,8 @@ describe('SingleItemSelect', () => {
             { label: 'Game 2', value: 2 },
             { label: 'Game 3', value: 3 },
           ]}
-        />
-      )
+        />,
+      ),
     );
 
     expect(singleItemSelect).toMatchSnapshot();
@@ -39,8 +39,8 @@ describe('SingleItemSelect', () => {
             { label: 'Game 2', value: 2 },
             { label: 'Game 3', value: 3 },
           ]}
-        />
-      )
+        />,
+      ),
     );
 
     expect(singleItemSelect).toMatchSnapshot();
@@ -61,8 +61,8 @@ describe('SingleItemSelect', () => {
               { label: 'Game 2', value: 2 },
               { label: 'Game 3', value: 3 },
             ]}
-          />
-        )
+          />,
+        ),
       );
     });
 

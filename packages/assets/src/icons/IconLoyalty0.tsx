@@ -30,7 +30,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconLoyalty0 = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -48,6 +50,6 @@ const IconLoyalty0 = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconLoyalty0;

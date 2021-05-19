@@ -44,8 +44,8 @@ describe('Stack', () => {
       renderWithTheme(
         <Stack>
           <TestItems />
-        </Stack>
-      )
+        </Stack>,
+      ),
     );
 
     expect(stack).toMatchSnapshot();
@@ -56,8 +56,8 @@ describe('Stack', () => {
       renderWithTheme(
         <Stack space={30}>
           <TestItems />
-        </Stack>
-      )
+        </Stack>,
+      ),
     );
 
     expect(stack).toMatchSnapshot();
@@ -68,8 +68,8 @@ describe('Stack', () => {
       renderWithTheme(
         <Stack space="large">
           <TestItems />
-        </Stack>
-      )
+        </Stack>,
+      ),
     );
 
     expect(stack).toMatchSnapshot();

@@ -31,7 +31,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconPromotions = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -49,6 +51,6 @@ const IconPromotions = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconPromotions;

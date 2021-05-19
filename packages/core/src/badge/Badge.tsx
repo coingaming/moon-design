@@ -29,7 +29,7 @@ const StyledBadge = styled.span<BadgeProps>(
   ({ color, backgroundColor, theme }) => ({
     color: color ? themed('color', color)(theme) : theme.color.goten[100],
     backgroundColor: themed('color', backgroundColor)(theme),
-  })
+  }),
 );
 
 StyledBadge.defaultProps = {
@@ -52,8 +52,7 @@ const Badge: React.FC<BadgeProps> = ({
   iconLeft,
   iconRight,
   size,
-}) => {
-  return (
+}) => (
     <StyledBadge
       backgroundColor={backgroundColor}
       color={color}
@@ -67,8 +66,7 @@ const Badge: React.FC<BadgeProps> = ({
         <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>
       )}
     </StyledBadge>
-  );
-};
+);
 
 /*
 default

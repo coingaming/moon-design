@@ -12,7 +12,7 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('Button', () => {
   test('renders correctly', () => {
     const button = create(
-      renderWithTheme(<Button variant="primary">Primary Button</Button>)
+      renderWithTheme(<Button variant="primary">Primary Button</Button>),
     );
 
     expect(button).toMatchSnapshot();
@@ -23,8 +23,8 @@ describe('Button', () => {
       renderWithTheme(
         <Button variant="primary" fullWidth>
           Full Width Primary Button
-        </Button>
-      )
+        </Button>,
+      ),
     );
 
     expect(button).toMatchSnapshot();
@@ -35,8 +35,8 @@ describe('Button', () => {
       renderWithTheme(
         <Button variant="primary" disabled>
           Disabled Primary Button
-        </Button>
-      )
+        </Button>,
+      ),
     );
 
     expect(button).toMatchSnapshot();
@@ -47,8 +47,8 @@ describe('Button', () => {
       renderWithTheme(
         <Button variant="primary" as="a" href="#some-anchor">
           Primary Button (Anchor)
-        </Button>
-      )
+        </Button>,
+      ),
     );
 
     expect(button).toMatchSnapshot();
@@ -57,7 +57,7 @@ describe('Button', () => {
   describe('variants', () => {
     test('renders as primary', () => {
       const button = create(
-        renderWithTheme(<Button variant="primary">Primary Button</Button>)
+        renderWithTheme(<Button variant="primary">Primary Button</Button>),
       );
 
       expect(button).toMatchSnapshot();
@@ -65,7 +65,7 @@ describe('Button', () => {
 
     test('renders as highlight', () => {
       const button = create(
-        renderWithTheme(<Button variant="highlight">Secondary Button</Button>)
+        renderWithTheme(<Button variant="highlight">Secondary Button</Button>),
       );
 
       expect(button).toMatchSnapshot();
@@ -73,7 +73,7 @@ describe('Button', () => {
 
     test('renders as secondary', () => {
       const button = create(
-        renderWithTheme(<Button variant="secondary">Secondary Button</Button>)
+        renderWithTheme(<Button variant="secondary">Secondary Button</Button>),
       );
 
       expect(button).toMatchSnapshot();
@@ -91,8 +91,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="primary" mockState="hover">
               Hover Primary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -103,8 +103,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="primary" mockState="active">
               Active Primary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -115,8 +115,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="highlight" mockState="hover">
               Hover Highlight Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -127,8 +127,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="highlight" mockState="active">
               Active Highlight Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -139,8 +139,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="secondary" mockState="hover">
               Hover Secondary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -151,8 +151,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="secondary" mockState="active">
               Active Secondary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -161,8 +161,8 @@ describe('Button', () => {
       test('Default renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button mockState="hover">Hover Default Button</Button>
-          )
+            <Button mockState="hover">Hover Default Button</Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -171,8 +171,8 @@ describe('Button', () => {
       test('Default renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button mockState="active">Active Default Button</Button>
-          )
+            <Button mockState="active">Active Default Button</Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -187,8 +187,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="highlight" mockState="active">
               Active Primary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -199,8 +199,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="secondary" mockState="hover">
               Hover Primary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -211,8 +211,8 @@ describe('Button', () => {
           renderWithTheme(
             <Button variant="secondary" mockState="active">
               Active Primary Button
-            </Button>
-          )
+            </Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -221,8 +221,8 @@ describe('Button', () => {
       test('Default renders with hover', () => {
         const button = create(
           renderWithTheme(
-            <Button mockState="hover">Hover Default Button</Button>
-          )
+            <Button mockState="hover">Hover Default Button</Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
@@ -231,8 +231,8 @@ describe('Button', () => {
       test('Default renders as active', () => {
         const button = create(
           renderWithTheme(
-            <Button mockState="active">Active Default Button</Button>
-          )
+            <Button mockState="active">Active Default Button</Button>,
+          ),
         );
 
         expect(button).toMatchSnapshot();
