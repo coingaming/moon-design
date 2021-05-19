@@ -19,13 +19,13 @@ const Heading = styled.h3<Props>(
   }),
   ({ size = 16 }) => getFontSize(size),
   ({ isRegular, theme: { fontWeight } }) =>
-    isRegular
+    (isRegular
       ? {
-          fontWeight: fontWeight.normal,
-        }
+        fontWeight: fontWeight.normal,
+      }
       : {
-          fontWeight: fontWeight.semibold,
-        }
+        fontWeight: fontWeight.semibold,
+      }),
 );
 
 Heading.defaultProps = {

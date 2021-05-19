@@ -4,7 +4,6 @@
  * https://github.com/DefinitelyTyped/DefinitelyTyped/issues/31245#issuecomment-463640878
  */
 
-/* eslint-disable-next-line import/no-unresolved, no-unused-vars, @typescript-eslint/no-unused-vars */
 import * as types from 'styled-components/cssprop';
 import 'styled-components';
 import { Theme } from '@heathmont/moon-themes';

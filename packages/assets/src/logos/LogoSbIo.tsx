@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = ({ secondaryColor, ...props }: any) => {
-  return (
+const Svg = ({ secondaryColor, ...props }: any) => (
     <svg
       width="53"
       height="20"
@@ -22,11 +21,12 @@ const Svg = ({ secondaryColor, ...props }: any) => {
         fill="#2ADD4D"
       />
     </svg>
-  );
-};
+);
 
 const Component = styled(Svg)(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -34,7 +34,7 @@ const Component = styled(Svg)(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 
 const LogoSbIo: React.FC<any> = (props) => {

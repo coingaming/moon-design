@@ -29,7 +29,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconLiveCasino = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -47,6 +49,6 @@ const IconLiveCasino = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconLiveCasino;

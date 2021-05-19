@@ -26,7 +26,11 @@ type Props = {
 };
 
 const Container = styled.div(
-  ({ theme: { color, space, radius, boxShadow } }) => ({
+  ({
+    theme: {
+      color, space, radius, boxShadow,
+    },
+  }) => ({
     background: color.gohan[100],
     padding: rem(space.default),
     borderRadius: rem(radius.default),
@@ -34,7 +38,7 @@ const Container = styled.div(
     '& > :first-child': {
       marginBottom: rem(12),
     },
-  })
+  }),
 );
 
 const NumberRange: React.FC<Props> = ({
@@ -48,8 +52,7 @@ const NumberRange: React.FC<Props> = ({
   value,
   onChange,
   maxWidth = 248,
-}) => {
-  return (
+}) => (
     <Container style={{ maxWidth }}>
       <Text color="trunks.100" size={12}>
         {text}
@@ -83,7 +86,6 @@ const NumberRange: React.FC<Props> = ({
         />
       </Stack>
     </Container>
-  );
-};
+);
 
 export default NumberRange;

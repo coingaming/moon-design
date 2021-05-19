@@ -55,8 +55,8 @@ const Tabs: React.FC<TabsProps> = ({ id, items, dir }) => {
     <TabNav>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
       <TabList dir={dir} space={rem(space.medium)}>
-        {Array.isArray(nonEmptyTabs) &&
-          nonEmptyTabs.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
+        {Array.isArray(nonEmptyTabs)
+          && nonEmptyTabs.map((tab, index) => <Tab key={index}>{tab}</Tab>)}
       </TabList>
       <span id={autoId} />
     </TabNav>

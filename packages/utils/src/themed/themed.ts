@@ -5,7 +5,7 @@ import { Theme } from '@heathmont/moon-themes';
 import rem from '../rem/rem';
 
 const themed = (key: keyof Theme, value: string | number | undefined) => (
-  theme: Theme
+  theme: Theme,
 ) => {
   const path = `${key}.${value}`;
   if (has(theme, path)) {

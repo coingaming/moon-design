@@ -6,7 +6,9 @@ import { Theme } from '@heathmont/moon-themes';
  * 1. Prevent automatic zooming of fonts on some mobile devices.
  * 2. Consistent font display behavior on OSX.
  */
-const page = ({ color, base, fontFamily, fontSize }: Theme): CSSObject => ({
+const page = ({
+  color, base, fontFamily, fontSize,
+}: Theme): CSSObject => ({
   html: {
     backgroundColor: color.background,
     fontSize: base.fontSize,
