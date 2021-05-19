@@ -18,8 +18,6 @@ export { default as commsDark } from './commsDark/commsDark';
 export * from './commsDark/commsDark';
 export { default as commsLight } from './commsLight/commsLight';
 export * from './commsLight/commsLight';
-export { default as empire } from './empire/empire';
-export * from './empire/empire';
 export { default as hub88 } from './hub88/hub88';
 export * from './hub88/hub88';
 export { default as livecasinoDark } from './livecasinoDark/livecasinoDark';
