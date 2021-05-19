@@ -44,7 +44,7 @@ export const CarouselControl = styled.button<any>(
       left: 'auto',
       right: '-14px',
       svg: {
-        transform: `rotate(180deg) ` /* [2] */,
+        transform: 'rotate(180deg) ' /* [2] */,
       },
     },
     '&:hover': {
