@@ -205,7 +205,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const PatternWave = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -213,7 +215,7 @@ const PatternWave = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 PatternWave.defaultProps = {
   verticalAlign: 'middle',

@@ -87,8 +87,7 @@ export const Month: React.FC<MonthProps> = ({
   startDate,
   endDate,
   hoveredDate,
-}) => {
-  return (
+}) => (
     <>
       <MonthYearLabel>
         {monthLabel}&nbsp;&nbsp;{year}
@@ -109,19 +108,18 @@ export const Month: React.FC<MonthProps> = ({
             isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
             isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
             isInRange={Boolean(
-              startDate &&
-                isDate(startDate) &&
-                endDate &&
-                isDate(endDate) &&
-                isWithinInterval(day, {
+              startDate
+                && isDate(startDate)
+                && endDate
+                && isDate(endDate)
+                && isWithinInterval(day, {
                   start: startDate,
                   end: endDate,
-                })
+                }),
             )}
             isInRangePreview={isInRangePreview({ startDate, hoveredDate, day })}
           />
         ))}
       </Days>
     </>
-  );
-};
+);

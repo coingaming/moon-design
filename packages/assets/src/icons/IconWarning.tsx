@@ -27,7 +27,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconWarning = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -45,6 +47,6 @@ const IconWarning = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconWarning;

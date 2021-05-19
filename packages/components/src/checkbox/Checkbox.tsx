@@ -82,7 +82,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
     cursor: 'pointer',
     '&::after': {
       backgroundImage: inlineSvg(
-        <CheckboxIcon color={theme.color.goten[100]} />
+        <CheckboxIcon color={theme.color.goten[100]} />,
       ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
@@ -128,7 +128,9 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
 };
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
-  const { disabled = false, ariaLabel, id, label, dir, ...inputProps } = props;
+  const {
+    disabled = false, ariaLabel, id, label, dir, ...inputProps
+  } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
   return (
     <CheckboxLabel htmlFor={autoId}>

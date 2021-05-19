@@ -30,7 +30,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
         fontSize: rem(theme.space.small),
       },
     },
-  })
+  }),
 );
 
 type Props = {
@@ -89,7 +89,7 @@ const LineChart: React.FC<Props> = ({
     setActiveOptions(
       isActive
         ? [...activeOptions, dataKey]
-        : activeOptions.filter((option) => option !== dataKey)
+        : activeOptions.filter((option) => option !== dataKey),
     );
   };
 
@@ -156,7 +156,7 @@ const LineChart: React.FC<Props> = ({
 
                 {activeOptions.map((option) => {
                   const activeOption = options.find(
-                    ({ dataKey }) => dataKey === option
+                    ({ dataKey }) => dataKey === option,
                   );
                   if (!activeOption) return null;
                   return (

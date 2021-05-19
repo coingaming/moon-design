@@ -35,8 +35,7 @@ const IconMoon = () => (
   </svg>
 );
 
-const IconSun = () => {
-  return (
+const IconSun = () => (
     <svg
       className="rounded-full h-3 w-3 text-indigo-600"
       viewBox="0 0 22 22"
@@ -98,14 +97,12 @@ const IconSun = () => {
         fill="#FFB319"
       />
     </svg>
-  );
-};
+);
 
 export const DarkModeSwitcher: React.FC<IDarkModeSwitcher> = ({
   isEnabled,
   toggle,
-}) => {
-  return (
+}) => (
     <button
       onClick={toggle}
       type="button"
@@ -140,5 +137,4 @@ export const DarkModeSwitcher: React.FC<IDarkModeSwitcher> = ({
         </span>
       </span>
     </button>
-  );
-};
+);

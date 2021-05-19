@@ -2,7 +2,11 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
 export const Playground = styled.div(
-  ({ theme: { border, color, radius, space } }) => ({
+  ({
+    theme: {
+      border, color, radius, space,
+    },
+  }) => ({
     border,
     position: 'relative',
     padding: rem(space.default),
@@ -11,5 +15,5 @@ export const Playground = styled.div(
     overflow: 'auto',
     resize: 'horizontal',
     width: '100%',
-  })
+  }),
 );

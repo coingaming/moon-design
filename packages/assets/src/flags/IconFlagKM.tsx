@@ -11,7 +11,7 @@ const Flag = styled.span<Props>(({ fontSize }) => ({
 
 // Comoros
 const IconFlagKM: React.FC<Props> = ({ fontSize, ...props }) => (
-  // eslint-disable-next-line jsx-a11y/accessible-emoji
+  // eslint-disable-next-line
   <Flag role="img" aria-label="flag-km" fontSize={fontSize} {...props}>
     🇰🇲
   </Flag>

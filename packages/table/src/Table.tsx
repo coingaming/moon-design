@@ -50,18 +50,18 @@ export const TableWrapper = styled.div<{
     },
     ...(!isScrolledToLeft
       ? {
-          '[data-sticky-last-left-td]': {
-            boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-          },
-        }
+        '[data-sticky-last-left-td]': {
+          boxShadow: `6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+        },
+      }
       : {}),
 
     ...(!isScrolledToRight
       ? {
-          '[data-sticky-first-right-td]': {
-            boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
-          },
-        }
+        '[data-sticky-first-right-td]': {
+          boxShadow: `-6px 0px 9px -10px ${rgba(color.trunks[100], 0.9)}`,
+        },
+      }
       : {}),
   },
 }));
@@ -117,20 +117,20 @@ export const TH = styled.div<{
         },
       },
     },
-  })
+  }),
 );
 
 export const HeaderTR = styled.div<{ variant?: string }>(({ variant }) => ({
   ...(variant === 'calendar'
     ? {
-        [TH]: {
-          '&:first-child': {
-            '&::after': {
-              display: 'none',
-            },
+      [TH]: {
+        '&:first-child': {
+          '&::after': {
+            display: 'none',
           },
         },
-      }
+      },
+    }
     : {}),
 }));
 
@@ -175,20 +175,20 @@ export const TD = styled.div<{
     },
     ...(variant === 'calendar'
       ? {
-          '&:first-child': {
-            borderRadius: 0,
-            backgroundColor: themed('color', headerBackgroundColor)(theme),
-            '& + div': {
-              borderTopLeftRadius: theme.radius.default,
-              borderBottomLeftRadius: theme.radius.default,
-            },
-            '&::after': {
-              display: 'none',
-            },
+        '&:first-child': {
+          borderRadius: 0,
+          backgroundColor: themed('color', headerBackgroundColor)(theme),
+          '& + div': {
+            borderTopLeftRadius: theme.radius.default,
+            borderBottomLeftRadius: theme.radius.default,
           },
-        }
+          '&::after': {
+            display: 'none',
+          },
+        },
+      }
       : {}),
-  })
+  }),
 );
 
 export const BodyTR = styled.div<{
@@ -205,39 +205,41 @@ export const BodyTR = styled.div<{
       },
     },
   }),
-  ({ theme, variant, hasOnRowClickHandler, headerBackgroundColor, depth }) => ({
+  ({
+    theme, variant, hasOnRowClickHandler, headerBackgroundColor, depth,
+  }) => ({
     marginTop: variant === 'calendar' && depth === 0 ? rem(8) : rem(2),
     '&:first-child': {
       marginTop: 0,
     },
     ...(hasOnRowClickHandler
       ? {
-          '&:hover': {
-            cursor: 'pointer',
-            [TD]: {
-              ...(variant === 'calendar'
-                ? {
-                    '&:not(:first-child)': {
-                      backgroundColor: tint(0.75, theme.color.piccolo[100]),
-                    },
-                  }
-                : {
-                    backgroundColor: tint(0.75, theme.color.piccolo[100]),
-                  }),
-            },
+        '&:hover': {
+          cursor: 'pointer',
+          [TD]: {
+            ...(variant === 'calendar'
+              ? {
+                '&:not(:first-child)': {
+                  backgroundColor: tint(0.75, theme.color.piccolo[100]),
+                },
+              }
+              : {
+                backgroundColor: tint(0.75, theme.color.piccolo[100]),
+              }),
           },
-        }
+        },
+      }
       : {}),
     [TD]: {
       ...(variant === 'calendar'
         ? {
-            '&:first-child': {
-              backgroundColor: themed('color', headerBackgroundColor)(theme),
-            },
-          }
+          '&:first-child': {
+            backgroundColor: themed('color', headerBackgroundColor)(theme),
+          },
+        }
         : {}),
     },
-  })
+  }),
 );
 
 export const HiddenTH = styled.div({
@@ -252,10 +254,10 @@ export const Footer = styled.div(({ theme: { color, radius, space } }) => ({
     '&:first-child': {
       [TH]: {
         boxShadow: `${rem(space.xsmall)} -${rem(space.xsmall)} ${rem(
-          space.small
+          space.small,
         )} ${rgba(color.trunks[100], 0.15)}, inset 0 1px 0 ${rgba(
           color.trunks[100],
-          0.2
+          0.2,
         )}`,
         '&:first-child': {
           borderTopLeftRadius: radius.default,
@@ -302,7 +304,7 @@ const Table: React.FC<any> = ({
     layout === 'block' ? useBlockLayout : useFlexLayout,
     useResizeColumns,
     useSticky,
-    useExpanded
+    useExpanded,
   );
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const [isScrolledToLeft, setIsScrolledToLeft] = useState(true);
@@ -314,7 +316,7 @@ const Table: React.FC<any> = ({
 
     setIsScrolledToLeft(target.scrollLeft === 0);
     setIsScrolledToRight(
-      target.scrollLeft + target.clientWidth === target.scrollWidth
+      target.scrollLeft + target.clientWidth === target.scrollWidth,
     );
   };
 
@@ -325,7 +327,9 @@ const Table: React.FC<any> = ({
       className="sticky"
       isScrolledToLeft={isScrolledToLeft}
       isScrolledToRight={isScrolledToRight}
-      style={{ width, height, maxWidth, maxHeight }}
+      style={{
+        width, height, maxWidth, maxHeight,
+      }}
     >
       <Header>
         {headerGroups.map((headerGroup) => (
@@ -381,8 +385,7 @@ const Table: React.FC<any> = ({
                 headerBackgroundColor={headerBackgroundColor}
                 evenRowBackgroundColor={evenRowBackgroundColor}
               >
-                {row.cells.map((cell: any) => {
-                  return (
+                {row.cells.map((cell: any) => (
                     <TD
                       {...cell.getCellProps()}
                       variant={variant}
@@ -390,12 +393,11 @@ const Table: React.FC<any> = ({
                     >
                       {cell.render('Cell')}
                     </TD>
-                  );
-                })}
+                ))}
               </BodyTR>
-              {row.isExpanded &&
-                !!renderRowSubComponent &&
-                renderRowSubComponent(row, rowProps, visibleColumns)}
+              {row.isExpanded
+                && !!renderRowSubComponent
+                && renderRowSubComponent(row, rowProps, visibleColumns)}
             </Fragment>
           );
         })}
