@@ -29,7 +29,9 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconSportsBiathlon = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+  ({
+    backgroundColor, circleColor, color, theme,
+  }) => [
     {
       verticalAlign: 'middle',
     },
@@ -47,6 +49,6 @@ const IconSportsBiathlon = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
+  ],
 );
 export default IconSportsBiathlon;

@@ -9,5 +9,5 @@ export const DayInner = styled.div<{ isWeekend?: boolean }>(
     padding: rem(space.default),
     display: 'flex',
     flexDirection: 'column',
-  })
+  }),
 );

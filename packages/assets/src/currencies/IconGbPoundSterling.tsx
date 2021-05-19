@@ -34,7 +34,9 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconGbPoundSterling = styled(Svg)<SvgProps>(
-  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
+  ({
+    color, height, width, fontSize, verticalAlign, theme,
+  }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -42,7 +44,7 @@ const IconGbPoundSterling = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  })
+  }),
 );
 IconGbPoundSterling.defaultProps = {
   verticalAlign: 'middle',
