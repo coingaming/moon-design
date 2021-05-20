@@ -108,9 +108,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoBtcxe = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -118,7 +116,7 @@ const LogoBtcxe = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 
 LogoBtcxe.defaultProps = {

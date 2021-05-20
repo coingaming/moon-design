@@ -47,9 +47,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconEthereum = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -57,7 +55,7 @@ const IconEthereum = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconEthereum.defaultProps = {
   verticalAlign: 'middle',
