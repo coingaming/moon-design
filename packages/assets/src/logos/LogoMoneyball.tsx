@@ -35,9 +35,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoMoneyball = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -45,7 +43,7 @@ const LogoMoneyball = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoMoneyball.defaultProps = {
   verticalAlign: 'middle',

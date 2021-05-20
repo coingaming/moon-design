@@ -31,9 +31,7 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconSuccessCircle = styled(Svg)<IconProps>(
-  ({
-    backgroundColor, circleColor, color, theme,
-  }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -51,6 +49,6 @@ const IconSuccessCircle = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ],
+  ]
 );
 export default IconSuccessCircle;

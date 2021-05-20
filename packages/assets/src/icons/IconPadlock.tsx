@@ -41,9 +41,7 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconPadlock = styled(Svg)<IconProps>(
-  ({
-    backgroundColor, circleColor, color, theme,
-  }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -61,6 +59,6 @@ const IconPadlock = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ],
+  ]
 );
 export default IconPadlock;

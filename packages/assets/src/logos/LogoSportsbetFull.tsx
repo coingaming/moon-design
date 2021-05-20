@@ -12,7 +12,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <title>Sportsbet.io</title>
+    <title>{'Sportsbet.io'}</title>
     <path
       fill="currentColor"
       fillRule="evenodd"
@@ -42,9 +42,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoSportsbetFull = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -52,7 +50,7 @@ const LogoSportsbetFull = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoSportsbetFull.defaultProps = {
   verticalAlign: 'middle',
