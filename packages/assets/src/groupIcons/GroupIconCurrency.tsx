@@ -118,9 +118,9 @@ const currencyIcons = {
 
 const GroupIconCurrency: React.FC<GroupIconCurrencyProps> &
   React.SVGProps<SVGSVGElement> = ({ color, name, ...props }) =>
-    React.createElement(currencyIcons[name], {
-      ...props,
-      color: color || 'goku.60',
-    });
+  React.createElement(currencyIcons[name], {
+    ...props,
+    color: color || 'goku.60',
+  });
 
 export default GroupIconCurrency;

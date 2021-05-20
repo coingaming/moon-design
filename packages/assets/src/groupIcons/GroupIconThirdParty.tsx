@@ -41,6 +41,7 @@ const thirdPartyIcons = {
 };
 
 const GroupIconThirdParty: React.FC<GroupIconThirdPartyProps> &
-  React.SVGProps<SVGSVGElement> = ({ name, ...props }) => React.createElement(thirdPartyIcons[name], { ...props });
+  React.SVGProps<SVGSVGElement> = ({ name, ...props }) =>
+  React.createElement(thirdPartyIcons[name], { ...props });
 
 export default GroupIconThirdParty;

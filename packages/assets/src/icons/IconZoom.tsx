@@ -27,9 +27,7 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconZoom = styled(Svg)<IconProps>(
-  ({
-    backgroundColor, circleColor, color, theme,
-  }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -47,6 +45,6 @@ const IconZoom = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ],
+  ]
 );
 export default IconZoom;

@@ -35,9 +35,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconNewTaiwanDollar = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -45,7 +43,7 @@ const IconNewTaiwanDollar = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconNewTaiwanDollar.defaultProps = {
   verticalAlign: 'middle',
