@@ -53,9 +53,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconChilieanPeso = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -63,7 +61,7 @@ const IconChilieanPeso = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconChilieanPeso.defaultProps = {
   verticalAlign: 'middle',
