@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.97.2](https://github.com/coingaming/moon-design/compare/v2.97.1...v2.97.2) (2021-05-20)
+
+
+### Bug Fixes
+
+* add LAB logo to docs B1M2-1619 ([0710f67](https://github.com/coingaming/moon-design/commit/0710f67b8f1dd0cf3d595ce2039a253356224969))
+* prettier & LAB logo B1M2-1619 ([cb752b2](https://github.com/coingaming/moon-design/commit/cb752b263976e9d212d30eec532446ec62aad2eb))
+
+
+
+
+
 ## [2.97.1](https://github.com/coingaming/moon-design/compare/v2.97.0...v2.97.1) (2021-05-19)
 
 
