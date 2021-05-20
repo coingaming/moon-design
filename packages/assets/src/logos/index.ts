@@ -30,6 +30,8 @@ export { default as LogoHub88Full } from './LogoHub88Full';
 export * from './LogoHub88Full';
 export { default as LogoHub88Short } from './LogoHub88Short';
 export * from './LogoHub88Short';
+export { default as LogoLabFull } from './LogoLabFull';
+export * from './LogoLabFull';
 export { default as LogoLivecasinoFull } from './LogoLivecasinoFull';
 export * from './LogoLivecasinoFull';
 export { default as LogoLuckyslotsFull } from './LogoLuckyslotsFull';

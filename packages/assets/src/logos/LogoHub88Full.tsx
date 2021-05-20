@@ -55,9 +55,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoHub88Full = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -65,7 +63,7 @@ const LogoHub88Full = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoHub88Full.defaultProps = {
   verticalAlign: 'middle',

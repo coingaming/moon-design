@@ -185,9 +185,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoBombayFull = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -195,7 +193,7 @@ const LogoBombayFull = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoBombayFull.defaultProps = {
   verticalAlign: 'middle',
