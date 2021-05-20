@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  extends: "eslint:recommended",
+  extends: ["eslint:recommended", "prettier"],
   env: {
     browser: true,
     node: true,
