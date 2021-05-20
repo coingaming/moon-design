@@ -45,9 +45,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const CrestFlamengo = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -55,7 +53,7 @@ const CrestFlamengo = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 CrestFlamengo.defaultProps = {
   verticalAlign: 'middle',

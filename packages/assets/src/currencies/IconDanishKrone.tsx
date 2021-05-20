@@ -53,9 +53,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconDanishKrone = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -63,7 +61,7 @@ const IconDanishKrone = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconDanishKrone.defaultProps = {
   verticalAlign: 'middle',

@@ -29,9 +29,7 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconInstagram = styled(Svg)<IconProps>(
-  ({
-    backgroundColor, circleColor, color, theme,
-  }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -49,7 +47,7 @@ const IconInstagram = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ],
+  ]
 );
 IconInstagram.defaultProps = {
   color: 'bulma.100',
