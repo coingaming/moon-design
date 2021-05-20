@@ -36,9 +36,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconTron = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -46,7 +44,7 @@ const IconTron = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconTron.defaultProps = {
   verticalAlign: 'middle',

@@ -110,9 +110,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const PatternSpeed = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -120,7 +118,7 @@ const PatternSpeed = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 PatternSpeed.defaultProps = {
   verticalAlign: 'middle',

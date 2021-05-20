@@ -46,9 +46,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoMissions = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -56,7 +54,7 @@ const LogoMissions = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoMissions.defaultProps = {
   verticalAlign: 'middle',
