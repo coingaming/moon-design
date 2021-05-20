@@ -28,9 +28,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconCardano = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -38,7 +36,7 @@ const IconCardano = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconCardano.defaultProps = {
   verticalAlign: 'middle',

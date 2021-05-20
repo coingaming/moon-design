@@ -35,9 +35,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconPolandZloty = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -45,7 +43,7 @@ const IconPolandZloty = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconPolandZloty.defaultProps = {
   verticalAlign: 'middle',

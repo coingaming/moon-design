@@ -31,9 +31,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoSlotsShort = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -41,7 +39,7 @@ const LogoSlotsShort = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoSlotsShort.defaultProps = {
   verticalAlign: 'middle',
