@@ -24,9 +24,7 @@ type IconProps = {
   color?: ColorProps;
 };
 const IconEdit = styled(Svg)<IconProps>(
-  ({
-    backgroundColor, circleColor, color, theme,
-  }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -44,6 +42,6 @@ const IconEdit = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ],
+  ]
 );
 export default IconEdit;

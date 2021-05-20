@@ -36,9 +36,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const IconJapaneseYen = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -46,7 +44,7 @@ const IconJapaneseYen = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 IconJapaneseYen.defaultProps = {
   verticalAlign: 'middle',

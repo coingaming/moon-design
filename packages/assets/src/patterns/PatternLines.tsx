@@ -134,9 +134,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const PatternLines = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -144,7 +142,7 @@ const PatternLines = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 PatternLines.defaultProps = {
   verticalAlign: 'middle',

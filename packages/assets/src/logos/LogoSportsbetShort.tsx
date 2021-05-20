@@ -33,9 +33,7 @@ type SvgProps = {
   verticalAlign?: string;
 };
 const LogoSportsbetShort = styled(Svg)<SvgProps>(
-  ({
-    color, height, width, fontSize, verticalAlign, theme,
-  }) => ({
+  ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
     }),
@@ -43,7 +41,7 @@ const LogoSportsbetShort = styled(Svg)<SvgProps>(
     width,
     fontSize,
     verticalAlign,
-  }),
+  })
 );
 LogoSportsbetShort.defaultProps = {
   verticalAlign: 'middle',
