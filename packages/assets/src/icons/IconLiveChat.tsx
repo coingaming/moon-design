@@ -24,12 +24,14 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps;
-  circleColor?: ColorProps;
-  color?: ColorProps;
+  backgroundColor?: ColorProps,
+  circleColor?: ColorProps,
+  color?: ColorProps,
 };
-const IconLiveChat = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+const IconLiveChat =
+  styled(Svg) <
+  IconProps >
+  (({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -47,6 +49,5 @@ const IconLiveChat = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
-);
+  ]);
 export default IconLiveChat;
