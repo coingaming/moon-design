@@ -55,6 +55,15 @@ aliases:
       name: 'Pushing docker docs image with branch name'
       command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
 
+  setup_github_ssh: &setup_github_ssh
+    run:
+      name: 'Setting up github SSH key'
+      command: |
+        mkdir -p ~/.ssh
+        echo "$ROBOT_SSH_KEY" | base64 -d > ~/.ssh/id_rsa.robot && chmod 600 ~/.ssh/id_rsa.robot && ssh-add ~/.ssh/id_rsa.robot
+        echo -e "Host github.com\n Hostname github.com\n IdentityFile ~/.ssh/id_rsa.robot\n IdentitiesOnly yes" > ~/.ssh/config
+        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
   setup_git_config: &setup_git_config
     run:
       name: 'Setting up git config'
@@ -136,6 +145,7 @@ jobs:
   publish:
     <<: *default
     steps:
+      - *setup_github_ssh
       - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
       - *setup_git_config
       - run: git branch --set-upstream-to=origin/master master
