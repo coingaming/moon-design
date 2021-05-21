@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/coingaming/sportsbet-design",
+  "repository": "https://github.com/coingaming/moon-design",
   "author": "Coingaming Group",
   "license": "MIT",
   "scripts": {
