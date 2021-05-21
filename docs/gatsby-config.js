@@ -1,5 +1,3 @@
-// const { sportsbetDark } = require('@heathmont/moon-themes');
-
 const { siteTitle, description, author } = require.resolve('./config');
 
 module.exports = {

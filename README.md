@@ -43,10 +43,6 @@
   - Additional `@alpha` and `@beta` suffixes create a tagged release for testing purposes.
 - `yarn update:packages` - a wizard to update Lerna package dependencies.
 
-## Resources
-
-- 📖 [Documentation](https://design.sportsbet.io)
-
 ## Contents
 
 1. [Architecture](#architecture)
@@ -89,7 +85,7 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 2. Clone the repository:
 
    ```sh
-   git clone git@github.com:coingaming/sportsbet-design.git
+   git clone git@github.com:coingaming/moon-design.git
    ```
 
 3. Install dependencies and link local packages together:

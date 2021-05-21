@@ -43,7 +43,7 @@ Any changes to this Sketch file should be committed **as well as** the Sketch-ge
 
 For performance benefits (such as code-splitting) we opted for creating individual React components for **each** icon, rather than one single component.
 
-We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/raw/svg) to React components in [`sportsbet-icons`](packages/icons/README.mdx).
+We make use of [SVGR](https://www.smooth-code.com/open-source/svgr/), to transform the above SVG icons in [`assets`](packages/assets/raw/svg) to React components in [`moon-icons`](packages/icons/README.mdx).
 
 To update/add icons run: `yarn assets build`
 
@@ -245,12 +245,12 @@ These styles should be **flat**/**stateless** and not bound by any form of funct
 
 Thanks to [Lerna and Commitizen](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits), we can generate version bumps and CHANGELOGs for each package and release automatically.
 
-1. Assuming that all changes to be released have followed the [Git Workflow outlined above](#workflow), raise a pull request from [`develop` into `master`](https://github.com/coingaming/sportsbet-packages/compare/master...develop).
+1. Assuming that all changes to be released have followed the [Git Workflow outlined above](#workflow), raise a pull request from [`develop` into `master`](https://github.com/coingaming/moon-design/compare/master...develop).
 2. Ensure the pull request is up to date with `master`.
 3. Obtain at least 1 approval.
-4. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/sportsbet-design).
+4. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/moon-design).
 
-   - If successful, a new [tag](https://github.com/coingaming/sportsbet-packages/releases) will be visible, along with new package versions on NPM.
+   - If successful, a new [tag](https://github.com/coingaming/moon-design/releases) will be visible, along with new package versions on NPM.
 
 5. Communicate the release to the team!
 
