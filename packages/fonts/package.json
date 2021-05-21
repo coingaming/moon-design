@@ -14,9 +14,7 @@
   "scripts": {
     "build": "echo 'Handled by root package'"
   },
-  "dependencies": {
-    "@heathmont/sportsbet-cdn": "1.1.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "styled-components": ">= 5.2.1"
   }

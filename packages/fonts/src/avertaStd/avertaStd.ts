@@ -1,6 +1,7 @@
 import { CSSObject } from 'styled-components';
-import { cdnUrl } from '@heathmont/sportsbet-cdn';
 
+// TODO set font URL in the App instead
+const cdnUrl = "https://sportsbet.io/sportsbet-io/files";
 const fontDirPath = `${cdnUrl}/fonts/averta-std`;
 const fontFilePath = {
   regular: `${fontDirPath}/regular`,

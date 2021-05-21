@@ -89,7 +89,7 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 2. Clone the repository:
 
    ```sh
-   git clone git@github.com:coingaming/sportsbet-design.git
+   git clone git@github.com:coingaming/moon-design.git
    ```
 
 3. Install dependencies and link local packages together:
