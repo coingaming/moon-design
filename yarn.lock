@@ -1425,13 +1425,6 @@
     "@heathmont/moon-themes" "^2.49.3-alpha.0+d9adf3b2"
     "@heathmont/moon-utils" "^2.49.3-alpha.0+d9adf3b2"
 
-"@heathmont/sportsbet-cdn@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/sportsbet-cdn/-/sportsbet-cdn-1.1.0.tgz#c80da3732284aa9b3af8e9865454a95946ead2d5"
-  integrity sha512-L3rtq8wRlX22koee7Ez7gxyXonHg79QxhZLxSqBurcPXZekqryM8lip5UqvOT6eFGIw1JqxoUd99/vfPCT9gtw==
-  dependencies:
-    typescript "3.3.3"
-
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -18335,11 +18328,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3.tgz#f1657fc7daa27e1a8930758ace9ae8da31403221"
-  integrity sha512-Y21Xqe54TBVp+VDSNbuDYdGw0BpoR/Q6wo/+35M8PAU0vipahnyduJWirxxdxjsAkS7hue53x2zp8gz7F05u0A==
 
 typescript@4.1.3:
   version "4.1.3"
