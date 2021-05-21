@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { graphql, StaticQuery } from 'gatsby';
-import { cdnUrl } from '@heathmont/sportsbet-cdn';
 import { avertaStd } from '@heathmont/moon-fonts';
 
 const metaQuery = graphql`
@@ -30,8 +29,9 @@ export const Meta = () => (
           <title>{config.siteTitle}</title>
           <meta name="description" content={config.description} />
           <meta name="author" content={config.author} />
-          <link rel="preconnect" href={cdnUrl} crossOrigin="true" />
-          <link rel="dns-prefetch" href={cdnUrl} />
+          {/* TODO: Enable font loading optimisations*/}
+          {/* <link rel="preconnect" href={cdnUrl} crossOrigin="true" />
+          <link rel="dns-prefetch" href={cdnUrl} /> */}
           <link
             rel="preload"
             href={`${avertaStd.fontFilePath.regular}.woff2`}
