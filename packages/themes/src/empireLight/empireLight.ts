@@ -1,5 +1,4 @@
 import { avertaStd } from '@heathmont/moon-fonts';
-
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 
