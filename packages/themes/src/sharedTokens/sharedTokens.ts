@@ -319,7 +319,8 @@ export type Brand =
   | 'MissionsTool'
   | 'Moneyball'
   | 'MoonDesign'
-  | 'ShangriLa.io';
+  | 'ShangriLa.io'
+  | 'Empire.io';
 
 export type ColorScheme = 'light' | 'dark';
 
