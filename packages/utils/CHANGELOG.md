@@ -3,111 +3,110 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
-
+# 3.0.0 (2021-05-25)
 
 ### Bug Fixes
 
-* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
+- amend test paths ([718591b](https://github.com/coingaming/moon-design/commit/718591baa29bf781bde630e85e805f6ed4fe73bd))
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- move styled-components to peerDeps ([4aeb111](https://github.com/coingaming/moon-design/commit/4aeb111984680ffa7c1ca3ccce117e111a6ebfbf))
+- rename package repos ([0c50706](https://github.com/coingaming/moon-design/commit/0c50706a64a8898aa9cfff08ff0535d9f2dab356))
+- switch to single imports for polished ([f004b69](https://github.com/coingaming/moon-design/commit/f004b694e2a0a8f17fefb731819ed6ee6a2ffe9d))
+- ts build ([3f92071](https://github.com/coingaming/moon-design/commit/3f920719c289433c4f33b7db2050c5c74582de33))
+- ts for hideVisually ([e93c145](https://github.com/coingaming/moon-design/commit/e93c145143a88a36220c228fb3337e903f736cca))
+- **utils:** fix inlineSvg ([a8d2d72](https://github.com/coingaming/moon-design/commit/a8d2d724eddc1db00bb56383e0d69a8b5cf8415a))
 
+### Features
 
+- added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([dfae640](https://github.com/coingaming/moon-design/commit/dfae6401f0fa74c7663229d56dc6b1f7f229218a))
+- added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([#636](https://github.com/coingaming/moon-design/issues/636)) ([02ddbad](https://github.com/coingaming/moon-design/commit/02ddbada63c89d15685878e8be91e2843a39ac5d))
+- disable rem warnings ([d3a21b9](https://github.com/coingaming/moon-design/commit/d3a21b9b01d524d0d1252a8c280e4c5a0b57c059))
+- disable rem warnings for prod env ([8bedd2b](https://github.com/coingaming/moon-design/commit/8bedd2bea1b21fd96b6bc13c29e343ef67516736))
+- hideVisually utils ([ee65d28](https://github.com/coingaming/moon-design/commit/ee65d28c13f182975808f34dfa7b9ffacf07ae19))
+- remove polished `rem` references ([8cfc52b](https://github.com/coingaming/moon-design/commit/8cfc52b0a94246e70d127c9ddcac4b38250ba177))
+- SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/moon-design/issues/673)) ([0dc7d44](https://github.com/coingaming/moon-design/commit/0dc7d445616a995134b30c4751d6e3779f365289))
+- to the moon ([080425a](https://github.com/coingaming/moon-design/commit/080425aed8f0071cca4003fc4024bf89f432b58d))
+- tree shaking ([36250e4](https://github.com/coingaming/moon-design/commit/36250e49402ce7ca750d48f152a5e074a4edc455))
+- ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+- **button:** add button component ([300beec](https://github.com/coingaming/moon-design/commit/300beec7a18fae07c9c5d390e2d3722a1550bd75))
+- **demo:** utilise breakpoint tokens and `mq` ([b092c60](https://github.com/coingaming/moon-design/commit/b092c60666207dfea26fe7b76b6b48c1fe4fa3ac))
+- **project:** setup monorepo ([93148ee](https://github.com/coingaming/moon-design/commit/93148ee85241fdbfa8b4f2684f9343e528609a5b))
+- **rem:** negative rem values ([4901039](https://github.com/coingaming/moon-design/commit/49010393c1255088ff59b5cbca0d437ca17fc8c7))
+- update React imports ([0f1c3f9](https://github.com/coingaming/moon-design/commit/0f1c3f9e9c7c6f58395d006cc657334c222b46e6))
+- warning is rem value isn't allowed ([1d45c8b](https://github.com/coingaming/moon-design/commit/1d45c8bdd833d5920842fc4bee45e61422b310bd))
+- **backgroundSVG:** helper for inline SVG backgroundImages ([d687237](https://github.com/coingaming/moon-design/commit/d687237810267fb8b227a5b3ff3d7d1b394891b7))
+- **dependencies:** update polished ([903c3b6](https://github.com/coingaming/moon-design/commit/903c3b60ee643076ec425c5aae1453f1ab6add5a))
+- **select:** add select component ([194e503](https://github.com/coingaming/moon-design/commit/194e503c48f68229c5d25a62e4c6247f8e75092d))
+- **utils:** add hyphenate function ([8cb106e](https://github.com/coingaming/moon-design/commit/8cb106e3593b82836b7277a2965349465ef77782))
+- **utils:** add spacing ([4b4ea1b](https://github.com/coingaming/moon-design/commit/4b4ea1b8118279d7f5a56bd646527d094468f231))
+- **utils:** flat structure for utils ([8e3247f](https://github.com/coingaming/moon-design/commit/8e3247fbfcd1f4b55f5bbcdc5ee872dbb8687b35))
+- **utils:** generate barrel file ([226dca3](https://github.com/coingaming/moon-design/commit/226dca38210b3f195b40cd51eed05eda55c513b8))
+- **utils:** initialise package, add media queries ([957eac7](https://github.com/coingaming/moon-design/commit/957eac7666fa23f26fe967a54bd046d7e752f270))
+- **utils:** introduce rhythm ([204bfba](https://github.com/coingaming/moon-design/commit/204bfba6b3ed33f0edc83606661128347d8ce859))
+- **utils:** refactor utils structure, introduce `em` and `rem` ([0692ffe](https://github.com/coingaming/moon-design/commit/0692ffec6a67f66cb6d16a1fd98009d18bf77683))
 
+### Performance Improvements
 
+- ensure only `lib` directories are published ([1f4ce49](https://github.com/coingaming/moon-design/commit/1f4ce491ff08dd76fd806d0ded3c039f578f212e))
+
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
+
+### Bug Fixes
+
+- eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
 
 # [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.76.0](https://github.com/coingaming/sportsbet-design/compare/v2.75.0...v2.76.0) (2021-02-05)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.70.0](https://github.com/coingaming/sportsbet-design/compare/v2.69.0...v2.70.0) (2021-01-25)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
-
 
 ### Bug Fixes
 
-* ts build ([d1f861b](https://github.com/coingaming/sportsbet-design/commit/d1f861b98aec0fee6b41a7793429440cedda3a46))
-
+- ts build ([d1f861b](https://github.com/coingaming/sportsbet-design/commit/d1f861b98aec0fee6b41a7793429440cedda3a46))
 
 ### Features
 
-* ts bump ([087aa88](https://github.com/coingaming/sportsbet-design/commit/087aa88e087bcda468ad9c11ac4dccc3e2c671d1))
-* upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
-
-
-
-
+- ts bump ([087aa88](https://github.com/coingaming/sportsbet-design/commit/087aa88e087bcda468ad9c11ac4dccc3e2c671d1))
+- upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
 
 # [2.63.0](https://github.com/coingaming/sportsbet-design/compare/v2.62.0...v2.63.0) (2021-01-08)
 
-
 ### Features
 
-* disable rem warnings ([b2557a5](https://github.com/coingaming/sportsbet-design/commit/b2557a5db8034f06a962935da64119feb2667d7b))
-
-
-
-
+- disable rem warnings ([b2557a5](https://github.com/coingaming/sportsbet-design/commit/b2557a5db8034f06a962935da64119feb2667d7b))
 
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.57.0](https://github.com/coingaming/sportsbet-design/compare/v2.56.5...v2.57.0) (2020-12-14)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
-
 
 ### Features
 
-* disable rem warnings for prod env ([46c9839](https://github.com/coingaming/sportsbet-design/commit/46c9839beeff000c8e47ed0a99ac1c4eb10f0e66))
-
-
-
-
+- disable rem warnings for prod env ([46c9839](https://github.com/coingaming/sportsbet-design/commit/46c9839beeff000c8e47ed0a99ac1c4eb10f0e66))
 
 ## [2.54.1](https://github.com/coingaming/sportsbet-design/compare/v2.54.0...v2.54.1) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-utils
 
-
-
-
-
 # [2.54.0](https://github.com/coingaming/sportsbet-design/compare/v2.53.0...v2.54.0) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-utils
-
-
-
-
 
 # [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 

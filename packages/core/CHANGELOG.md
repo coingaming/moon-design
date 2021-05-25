@@ -3,205 +3,156 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
-
+# 3.0.0 (2021-05-25)
 
 ### Bug Fixes
 
-* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
-
+- added text align property to text ([d154450](https://github.com/coingaming/moon-design/commit/d15445016f136769473af4876691c6aa92272666))
+- added text align to heading ([4376e1b](https://github.com/coingaming/moon-design/commit/4376e1beb7108dfe0eb074cc275d7ab9b9326ea4))
+- align "textAlign" prop ([3e81463](https://github.com/coingaming/moon-design/commit/3e814635a0c6622bfb83b5f130fdd5d5022b0638))
+- default badge size ([bc991f1](https://github.com/coingaming/moon-design/commit/bc991f1b1e649453c9c10575f7fe71d6c01a5678))
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- **build:** ts & docs ([1791f3a](https://github.com/coingaming/moon-design/commit/1791f3af005a504d71871266ce6588b78ba19bd7))
+- **Checkbox:** center aligned ([ae36d21](https://github.com/coingaming/moon-design/commit/ae36d214092355f3862045d07337350ac7a25cdb))
+- typography ([58bf08d](https://github.com/coingaming/moon-design/commit/58bf08d03c1d8218112d3101747c0b62cbce287a))
 
 ### Features
 
-* **badge:** add icons to badges ([0ed4543](https://github.com/coingaming/sportsbet-design/commit/0ed45434b7287ffd38a4de56ce48586f64fe4b55))
+- **badge:** add icons to badges ([d8deca5](https://github.com/coingaming/moon-design/commit/d8deca56c552cc868dc2c6d861171489082450ab))
+- B1M2-408 basic Button with 4 variants ([1b3b123](https://github.com/coingaming/moon-design/commit/1b3b123fabd4e2adc8f3f43b898e6b6555609fc8))
+- basic checkbox ([e65e511](https://github.com/coingaming/moon-design/commit/e65e5116d5f40be54bee047709120be2bb5cf41c))
+- cleanup outdated docs B1M2-432 ([3304206](https://github.com/coingaming/moon-design/commit/33042065757a40ec35f2c94adb13aa2054099f19))
+- dir='rtl' ([29f4c9d](https://github.com/coingaming/moon-design/commit/29f4c9d30c9d6974679c4aceeee7dd7c3403d96c))
+- **AgeLimit:** introduce ([4e65e15](https://github.com/coingaming/moon-design/commit/4e65e156164e14cd5e4c0dd67d2cb057f79041a4))
+- **ballLoader:** initial commit ([2000b61](https://github.com/coingaming/moon-design/commit/2000b613444021bae3f61f33a942ee3f035e4a94))
+- **Caption:** rightAlign ([f3acbdd](https://github.com/coingaming/moon-design/commit/f3acbddc650311d720d742d14859c9d51574df8e))
+- **checkbox:** color supports ([642bf00](https://github.com/coingaming/moon-design/commit/642bf004ce93c3e2c721f17f9769466b277f0adb))
+- **core:** introduce core package ([c9a0799](https://github.com/coingaming/moon-design/commit/c9a079957c51ba7017af6beeb9d17d0d29b57e6a))
+- **docs:** side navbar ([10d7892](https://github.com/coingaming/moon-design/commit/10d7892133dfbfaf487541c74644231b8bbc5b53))
+- **Text:** update docs ([499e2ec](https://github.com/coingaming/moon-design/commit/499e2ec3c0364265ce6175cdefb112a8b10fc6bc))
+- BallLoader -> ScreenLoader ([4480864](https://github.com/coingaming/moon-design/commit/4480864102c588fac2709a702d2b98bfb34525b9))
+- initial checkbox ([94aac1e](https://github.com/coingaming/moon-design/commit/94aac1e66718958906e659c3be73918033292c6a))
+- initial commit ([340fb25](https://github.com/coingaming/moon-design/commit/340fb25ff943611bd244f74dd387b81fb447cfed))
+- move badge ([da7dd4e](https://github.com/coingaming/moon-design/commit/da7dd4e4c08fddd150f66390b1e9d8cee8dc8234))
+- ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+- ts update ([9506a7d](https://github.com/coingaming/moon-design/commit/9506a7d2a6d7fbf1c265e552b69f963a4721b7bc))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+- **rem:** negative rem values ([4901039](https://github.com/coingaming/moon-design/commit/49010393c1255088ff59b5cbca0d437ca17fc8c7))
 
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
 
+### Bug Fixes
 
+- eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
 
+### Features
+
+- **badge:** add icons to badges ([0ed4543](https://github.com/coingaming/sportsbet-design/commit/0ed45434b7287ffd38a4de56ce48586f64fe4b55))
 
 # [2.88.0](https://github.com/coingaming/sportsbet-design/compare/v2.87.0...v2.88.0) (2021-03-31)
 
-
 ### Features
 
-* basic checkbox ([1a08d48](https://github.com/coingaming/sportsbet-design/commit/1a08d48bb82b063f2a1c3e869250ef67f1764a74))
-* cleanup outdated docs B1M2-432 ([36fcc7c](https://github.com/coingaming/sportsbet-design/commit/36fcc7c7920f654eb18ac50307aec33ab6a33ec8))
-
-
-
-
+- basic checkbox ([1a08d48](https://github.com/coingaming/sportsbet-design/commit/1a08d48bb82b063f2a1c3e869250ef67f1764a74))
+- cleanup outdated docs B1M2-432 ([36fcc7c](https://github.com/coingaming/sportsbet-design/commit/36fcc7c7920f654eb18ac50307aec33ab6a33ec8))
 
 # [2.87.0](https://github.com/coingaming/sportsbet-design/compare/v2.86.1...v2.87.0) (2021-03-29)
 
-
 ### Bug Fixes
 
-* align "textAlign" prop ([9c29ef1](https://github.com/coingaming/sportsbet-design/commit/9c29ef1b140475821e42cd268bf300d89f685483))
-
+- align "textAlign" prop ([9c29ef1](https://github.com/coingaming/sportsbet-design/commit/9c29ef1b140475821e42cd268bf300d89f685483))
 
 ### Features
 
-* dir='rtl' ([693aab4](https://github.com/coingaming/sportsbet-design/commit/693aab4b6d47c13b381ba6a502a7466915b14a31))
-* **Caption:** rightAlign ([b45a5b5](https://github.com/coingaming/sportsbet-design/commit/b45a5b5cd8dad90df6bf10f56587522d3d3ba34f))
-* **Text:** update docs ([39b4a29](https://github.com/coingaming/sportsbet-design/commit/39b4a297d71ecaf834aeb4316040871e400112f7))
-
-
-
-
+- dir='rtl' ([693aab4](https://github.com/coingaming/sportsbet-design/commit/693aab4b6d47c13b381ba6a502a7466915b14a31))
+- **Caption:** rightAlign ([b45a5b5](https://github.com/coingaming/sportsbet-design/commit/b45a5b5cd8dad90df6bf10f56587522d3d3ba34f))
+- **Text:** update docs ([39b4a29](https://github.com/coingaming/sportsbet-design/commit/39b4a297d71ecaf834aeb4316040871e400112f7))
 
 # [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
 
-
 ### Features
 
-* B1M2-408 basic Button with 4 variants ([97ec67e](https://github.com/coingaming/sportsbet-design/commit/97ec67e66eb2138e495bf5822978e9a1e6df06c0))
-
-
-
-
+- B1M2-408 basic Button with 4 variants ([97ec67e](https://github.com/coingaming/sportsbet-design/commit/97ec67e66eb2138e495bf5822978e9a1e6df06c0))
 
 # [2.84.0](https://github.com/coingaming/sportsbet-design/compare/v2.83.0...v2.84.0) (2021-03-19)
 
-
 ### Bug Fixes
 
-* added text align property to text ([1d87cbe](https://github.com/coingaming/sportsbet-design/commit/1d87cbec44e1d3c7d2f4ce80dcb4b6af80db99fc))
-* added text align to heading ([acdeb26](https://github.com/coingaming/sportsbet-design/commit/acdeb268cbbad23b3ba2224c4f255e353b7fd871))
-
-
-
-
+- added text align property to text ([1d87cbe](https://github.com/coingaming/sportsbet-design/commit/1d87cbec44e1d3c7d2f4ce80dcb4b6af80db99fc))
+- added text align to heading ([acdeb26](https://github.com/coingaming/sportsbet-design/commit/acdeb268cbbad23b3ba2224c4f255e353b7fd871))
 
 # [2.78.0](https://github.com/coingaming/sportsbet-design/compare/v2.77.0...v2.78.0) (2021-02-09)
 
-
 ### Bug Fixes
 
-* **Checkbox:** center aligned ([967db0a](https://github.com/coingaming/sportsbet-design/commit/967db0a206bf3e44e4f8dce2596c97ce8889a873))
-
+- **Checkbox:** center aligned ([967db0a](https://github.com/coingaming/sportsbet-design/commit/967db0a206bf3e44e4f8dce2596c97ce8889a873))
 
 ### Features
 
-* **docs:** side navbar ([97dabbb](https://github.com/coingaming/sportsbet-design/commit/97dabbb86266e6997b0648db8e09b2eef4d42a07))
-
-
-
-
+- **docs:** side navbar ([97dabbb](https://github.com/coingaming/sportsbet-design/commit/97dabbb86266e6997b0648db8e09b2eef4d42a07))
 
 # [2.76.0](https://github.com/coingaming/sportsbet-design/compare/v2.75.0...v2.76.0) (2021-02-05)
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 # [2.70.0](https://github.com/coingaming/sportsbet-design/compare/v2.69.0...v2.70.0) (2021-01-25)
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 # [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
-
 
 ### Bug Fixes
 
-* **build:** ts & docs ([22b1db2](https://github.com/coingaming/sportsbet-design/commit/22b1db295a9a42640c94628a0c0eb45b3d2ccacb))
-
+- **build:** ts & docs ([22b1db2](https://github.com/coingaming/sportsbet-design/commit/22b1db295a9a42640c94628a0c0eb45b3d2ccacb))
 
 ### Features
 
-* ts bump ([087aa88](https://github.com/coingaming/sportsbet-design/commit/087aa88e087bcda468ad9c11ac4dccc3e2c671d1))
-* ts update ([8a7eb73](https://github.com/coingaming/sportsbet-design/commit/8a7eb733936ed791173c5170348c1e3f96d43660))
-* upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
-
-
-
-
+- ts bump ([087aa88](https://github.com/coingaming/sportsbet-design/commit/087aa88e087bcda468ad9c11ac4dccc3e2c671d1))
+- ts update ([8a7eb73](https://github.com/coingaming/sportsbet-design/commit/8a7eb733936ed791173c5170348c1e3f96d43660))
+- upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
 
 # [2.66.0](https://github.com/coingaming/sportsbet-design/compare/v2.65.0...v2.66.0) (2021-01-15)
 
-
 ### Features
 
-* **AgeLimit:** introduce ([1e44193](https://github.com/coingaming/sportsbet-design/commit/1e44193ad3723f61250dd303265cb190eed70acf))
-
-
-
-
+- **AgeLimit:** introduce ([1e44193](https://github.com/coingaming/sportsbet-design/commit/1e44193ad3723f61250dd303265cb190eed70acf))
 
 # [2.63.0](https://github.com/coingaming/sportsbet-design/compare/v2.62.0...v2.63.0) (2021-01-08)
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 # [2.61.0](https://github.com/coingaming/sportsbet-design/compare/v2.60.0...v2.61.0) (2021-01-07)
-
 
 ### Features
 
-* BallLoader -> ScreenLoader ([b81b5ca](https://github.com/coingaming/sportsbet-design/commit/b81b5ca50acee21e58f06a2a4f90c61f3d5d43ac))
-
-
-
-
+- BallLoader -> ScreenLoader ([b81b5ca](https://github.com/coingaming/sportsbet-design/commit/b81b5ca50acee21e58f06a2a4f90c61f3d5d43ac))
 
 # [2.60.0](https://github.com/coingaming/sportsbet-design/compare/v2.59.0...v2.60.0) (2021-01-07)
 
-
 ### Features
 
-* **ballLoader:** initial commit ([a288804](https://github.com/coingaming/sportsbet-design/commit/a28880417a6727dc25b50800f8111a5cc2ae012b))
-
-
-
-
+- **ballLoader:** initial commit ([a288804](https://github.com/coingaming/sportsbet-design/commit/a28880417a6727dc25b50800f8111a5cc2ae012b))
 
 ## [2.57.2](https://github.com/coingaming/sportsbet-design/compare/v2.57.1...v2.57.2) (2020-12-18)
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 # [2.57.0](https://github.com/coingaming/sportsbet-design/compare/v2.56.5...v2.57.0) (2020-12-14)
 
 **Note:** Version bump only for package @heathmont/moon-core
-
-
-
-
 
 # [2.56.0](https://github.com/coingaming/sportsbet-design/compare/v2.55.0...v2.56.0) (2020-12-02)
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 ## [2.54.1](https://github.com/coingaming/sportsbet-design/compare/v2.54.0...v2.54.1) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 # [2.54.0](https://github.com/coingaming/sportsbet-design/compare/v2.53.0...v2.54.0) (2020-11-26)
 
 **Note:** Version bump only for package @heathmont/moon-core
-
-
-
-
 
 # [2.53.0](https://github.com/coingaming/sportsbet-design/compare/v2.52.1...v2.53.0) (2020-11-25)
 

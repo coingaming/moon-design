@@ -3,132 +3,86 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-05-25)
+
+### Bug Fixes
+
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- **draggabletable:** add callback if a row is dropped ([ee5ad73](https://github.com/coingaming/moon-design/commit/ee5ad7332b3c0d363e10d1f81c2c23913402613c))
+- **draggabletable:** add callback to receive the table data after drop a row ([d0f7412](https://github.com/coingaming/moon-design/commit/d0f7412bef4fd822292604dada499e02bea16017))
+- **draggabletable:** import draggabletable styles from table component ([137f355](https://github.com/coingaming/moon-design/commit/137f355eb7393449e322e9e8fb87347a91d5970e))
+
+### Features
+
+- **draggabletable:** add draggabletable component to moon-theme ([d028575](https://github.com/coingaming/moon-design/commit/d0285756b08b4195b61e227732a60695d6f33efc))
+
 ## [2.97.2](https://github.com/coingaming/sportsbet-design/compare/v2.97.1...v2.97.2) (2021-05-20)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
-
-
-
-
 
 ## [2.97.1](https://github.com/coingaming/sportsbet-design/compare/v2.97.0...v2.97.1) (2021-05-19)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 # [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
-
 
 ### Bug Fixes
 
-* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
-
-
-
-
+- eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
 
 # [2.96.0](https://github.com/coingaming/sportsbet-design/compare/v2.95.0...v2.96.0) (2021-05-06)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 ## [2.94.1](https://github.com/coingaming/sportsbet-design/compare/v2.94.0...v2.94.1) (2021-05-03)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
-
-
-
-
 
 # [2.93.0](https://github.com/coingaming/sportsbet-design/compare/v2.92.0...v2.93.0) (2021-04-30)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 # [2.91.0](https://github.com/coingaming/sportsbet-design/compare/v2.90.1...v2.91.0) (2021-04-27)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
-
-
-
-
 
 ## [2.90.1](https://github.com/coingaming/sportsbet-design/compare/v2.90.0...v2.90.1) (2021-04-27)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 # [2.90.0](https://github.com/coingaming/sportsbet-design/compare/v2.89.1...v2.90.0) (2021-04-26)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
-
-
-
-
 
 # [2.89.0](https://github.com/coingaming/sportsbet-design/compare/v2.88.1...v2.89.0) (2021-04-20)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 ## [2.88.1](https://github.com/coingaming/sportsbet-design/compare/v2.88.0...v2.88.1) (2021-04-15)
-
 
 ### Bug Fixes
 
-* **draggabletable:** add callback if a row is dropped ([e818d5c](https://github.com/coingaming/sportsbet-design/commit/e818d5c3eb3cd5eb8162b18463ca7d1b311debd4))
-
-
-
-
+- **draggabletable:** add callback if a row is dropped ([e818d5c](https://github.com/coingaming/sportsbet-design/commit/e818d5c3eb3cd5eb8162b18463ca7d1b311debd4))
 
 # [2.88.0](https://github.com/coingaming/sportsbet-design/compare/v2.87.0...v2.88.0) (2021-03-31)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 # [2.87.0](https://github.com/coingaming/sportsbet-design/compare/v2.86.1...v2.87.0) (2021-03-29)
 
 **Note:** Version bump only for package @heathmont/moon-draggabletable
 
-
-
-
-
 # [2.86.0](https://github.com/coingaming/sportsbet-design/compare/v2.85.0...v2.86.0) (2021-03-25)
-
 
 ### Bug Fixes
 
-* **draggabletable:** add callback to receive the table data after drop a row ([391bcac](https://github.com/coingaming/sportsbet-design/commit/391bcac70b2ebaa5d88f1f5d0cfeb5b0c8302310))
-* **draggabletable:** import draggabletable styles from table component ([4df5b5b](https://github.com/coingaming/sportsbet-design/commit/4df5b5bbc8cb906c8c2f2e2d59171a26049f9deb))
-
+- **draggabletable:** add callback to receive the table data after drop a row ([391bcac](https://github.com/coingaming/sportsbet-design/commit/391bcac70b2ebaa5d88f1f5d0cfeb5b0c8302310))
+- **draggabletable:** import draggabletable styles from table component ([4df5b5b](https://github.com/coingaming/sportsbet-design/commit/4df5b5bbc8cb906c8c2f2e2d59171a26049f9deb))
 
 ### Features
 
-* **draggabletable:** add draggabletable component to moon-theme ([bc28ad4](https://github.com/coingaming/sportsbet-design/commit/bc28ad4d0c1216c715607ab8b44abc28b3dbb68e))
-
-
-
-
+- **draggabletable:** add draggabletable component to moon-theme ([bc28ad4](https://github.com/coingaming/sportsbet-design/commit/bc28ad4d0c1216c715607ab8b44abc28b3dbb68e))
 
 ## [2.82.1](https://github.com/coingaming/sportsbet-design/compare/v2.82.0...v2.82.1) (2021-02-19)
 
