@@ -1417,14 +1417,6 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@heathmont/moon-core@2.49.3-alpha.0":
-  version "2.49.3-alpha.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-core/-/moon-core-2.49.3-alpha.0.tgz#a2a55f00cc330a903bcf04f11ea343eab52b7ad0"
-  integrity sha512-wp8/3N9soERdWdC5Lda/7bEx7Fj+hCS5FSsvYlhi/ciUjq9PTMo+fbbdMSGskPHs/L4V8xBxJAgQnHGeu88QIA==
-  dependencies:
-    "@heathmont/moon-themes" "^2.49.3-alpha.0+d9adf3b2"
-    "@heathmont/moon-utils" "^2.49.3-alpha.0+d9adf3b2"
-
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
