@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-05-25)
+
+
+### Bug Fixes
+
+* add header row with position relative to fix scroll in safari and firefox ([ecb02a2](https://github.com/coingaming/moon-design/commit/ecb02a2a9773156bb90962cbdf7a8a0297dae835))
+* build ts ([2b62b02](https://github.com/coingaming/moon-design/commit/2b62b028b4d34ae9fea76f9a2a7b66dd7b079597))
+* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+* fix missing scrollbar in FF ([6d1e278](https://github.com/coingaming/moon-design/commit/6d1e2787218902d4a595edf02075b4004e4511bd))
+* fix table colors ([ebffb57](https://github.com/coingaming/moon-design/commit/ebffb574fcfb5b388e59d8feab3c27b815c07a40))
+* hide footer ([ecf70cf](https://github.com/coingaming/moon-design/commit/ecf70cff312fafc1455d8abd15be00ca6bcb9e34))
+* rename package repos ([0c50706](https://github.com/coingaming/moon-design/commit/0c50706a64a8898aa9cfff08ff0535d9f2dab356))
+* **draggabletable:** import draggabletable styles from table component ([137f355](https://github.com/coingaming/moon-design/commit/137f355eb7393449e322e9e8fb87347a91d5970e))
+* position relative fot TD ([1c10c2c](https://github.com/coingaming/moon-design/commit/1c10c2cc4fb8c278b225e67865a4519ab5ebd4b0))
+* remove overeflow hidden ([aeda9ff](https://github.com/coingaming/moon-design/commit/aeda9ffebbb74997ece736e77281b6e6e25de5c9))
+* set isScrolledToLeft true by default ([9112e9f](https://github.com/coingaming/moon-design/commit/9112e9fee932dee4e8dfb370918f8b1951efd53e))
+* **table:** docs cleanup ([c836e10](https://github.com/coingaming/moon-design/commit/c836e10ce2d003479beb3efc88f38480ea79cd65))
+* **table:** maxWidth & maxHeight ([6bb57cf](https://github.com/coingaming/moon-design/commit/6bb57cf0c1b5b2f38755b94a7855295d89061ae3))
+* **table:** remove fit-content width from header ([bac3843](https://github.com/coingaming/moon-design/commit/bac384313ecd05fa75b3bfa50551b5c5102f32e7))
+* **table:** useFlexLayout ([c8dcae4](https://github.com/coingaming/moon-design/commit/c8dcae4fd7e731277d32bc9544ffdd8bca1ea516))
+* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
+* table borders & radius ([6423765](https://github.com/coingaming/moon-design/commit/6423765d321c5b613d6aab42e3bcd83a06aefefc))
+* table style ([9bea7b4](https://github.com/coingaming/moon-design/commit/9bea7b4c755f2dfef20fa001f04b07c7a85607b4))
+
+
+### Features
+
+* add fixed footer ([da2b891](https://github.com/coingaming/moon-design/commit/da2b891b56a51495532667939d1db1bd21098258))
+* add onRowClick handler ([5bd7b9f](https://github.com/coingaming/moon-design/commit/5bd7b9f4db30a24969cd6b3754369c091b084a6b))
+* add renderRowSubComponent ([0f61dad](https://github.com/coingaming/moon-design/commit/0f61dadc1724a640f618ce44bb4c5b021a58516e))
+* BASE1-1021 add react-dnd to table component ([2066930](https://github.com/coingaming/moon-design/commit/2066930ffa23cfa947198d1cc4c1a42198cc61a9))
+* expanded rows ([#928](https://github.com/coingaming/moon-design/issues/928)) ([bf51f5b](https://github.com/coingaming/moon-design/commit/bf51f5b3763ed875f7f7d33cb62ad16664434d4a))
+* initial commit ([72242f6](https://github.com/coingaming/moon-design/commit/72242f668f65a446e24f45c87aa567ee126bfea7))
+* initial table component ([0e4fac4](https://github.com/coingaming/moon-design/commit/0e4fac4cdd9238ddc350751da9a097d668573d38))
+* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+* update getOnRowClickHandler prop ([de7dea3](https://github.com/coingaming/moon-design/commit/de7dea30159b7ee725f618a0adcef4ed01f1c530))
+* update row space for calendar variant ([06716ec](https://github.com/coingaming/moon-design/commit/06716ecf5c8f34198e7806486fadd1e00c626447))
+* **draggabletable:** add draggabletable component to moon-theme ([d028575](https://github.com/coingaming/moon-design/commit/d0285756b08b4195b61e227732a60695d6f33efc))
+* **draggabletable:** add draggabletable to moon-theme ([94bf453](https://github.com/coingaming/moon-design/commit/94bf453b1ce13d5dbd6433d49bbac623e7a533c2))
+* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+
+
+
+
+
 ## [2.97.2](https://github.com/coingaming/sportsbet-design/compare/v2.97.1...v2.97.2) (2021-05-20)
 
 **Note:** Version bump only for package @heathmont/moon-table
