@@ -3,35 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
-
+# 3.0.0 (2021-05-25)
 
 ### Bug Fixes
 
-* eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
-
-
-
-
-
-# [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
-
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- merge related issues, sideEffects got removed ([0c1b36c](https://github.com/coingaming/moon-design/commit/0c1b36cd3efba3d6b6f6b7ec5785b846609004ec))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- move styled-components to peerDeps ([4aeb111](https://github.com/coingaming/moon-design/commit/4aeb111984680ffa7c1ca3ccce117e111a6ebfbf))
 
 ### Features
 
-* upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
+- added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([dfae640](https://github.com/coingaming/moon-design/commit/dfae6401f0fa74c7663229d56dc6b1f7f229218a))
+- remove cdn link package ([22eab28](https://github.com/coingaming/moon-design/commit/22eab288dc8c1215c497974ab5f11b109d35ad22))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+- **docs:** download tokens page ([cddb829](https://github.com/coingaming/moon-design/commit/cddb82996b9198bdfc8308aff30a81823f12bcb5))
+- added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([#636](https://github.com/coingaming/moon-design/issues/636)) ([02ddbad](https://github.com/coingaming/moon-design/commit/02ddbada63c89d15685878e8be91e2843a39ac5d))
+- remove averta 700 ([52e1b00](https://github.com/coingaming/moon-design/commit/52e1b00fa4c653d093609e8faad5ddfda4096a38))
+- SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/moon-design/issues/673)) ([0dc7d44](https://github.com/coingaming/moon-design/commit/0dc7d445616a995134b30c4751d6e3779f365289))
+- to the moon ([080425a](https://github.com/coingaming/moon-design/commit/080425aed8f0071cca4003fc4024bf89f432b58d))
+- tree shaking ([36250e4](https://github.com/coingaming/moon-design/commit/36250e49402ce7ca750d48f152a5e074a4edc455))
+- update averta semibold to 500 ([ef664fc](https://github.com/coingaming/moon-design/commit/ef664fc7b36d7fe2c70c9a8fde021ec2ab8c406d))
+- update semibold to 500 ([7f2153f](https://github.com/coingaming/moon-design/commit/7f2153f0b6f14131fa4795042529c79122aa5963))
+- **fonts:** flat structure ([c1bd284](https://github.com/coingaming/moon-design/commit/c1bd28416231d66c1e58cb8772d03b5446dee404))
+- **fonts:** generate barrel file ([9824555](https://github.com/coingaming/moon-design/commit/982455516b04d9bbf1b8dcfbebc6d84f14291244))
+- **themes:** add boxShadow, fontSize, maxWidth, opacity, zIndex ([de27f7f](https://github.com/coingaming/moon-design/commit/de27f7f0ace241c2de1043e7199281d328bf8b8d))
 
+# [2.97.0](https://github.com/coingaming/sportsbet-design/compare/v2.96.1...v2.97.0) (2021-05-19)
 
+### Bug Fixes
 
+- eslint ([a21a029](https://github.com/coingaming/sportsbet-design/commit/a21a029f567ae4467d0b6034a4d98d8ecd221ab5))
 
+# [2.69.0](https://github.com/coingaming/sportsbet-design/compare/v2.68.0...v2.69.0) (2021-01-25)
+
+### Features
+
+- upgrade typescript initial ([5b323eb](https://github.com/coingaming/sportsbet-design/commit/5b323eb084770fd4134547d1abbab007ba6fcf7c))
 
 # [2.37.0](https://github.com/coingaming/sportsbet-design/compare/v2.36.0...v2.37.0) (2020-09-25)
 
 **Note:** Version bump only for package @heathmont/moon-fonts
-
-
-
-
 
 # [2.34.0](https://github.com/coingaming/sportsbet-design/compare/v2.33.0...v2.34.0) (2020-09-14)
 
