@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-fonts",
   "sideEffects": false,
-  "version": "2.97.0",
+  "version": "3.0.0",
   "main": "lib/index.js",
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
@@ -14,7 +14,6 @@
   "scripts": {
     "build": "echo 'Handled by root package'"
   },
-  "dependencies": {},
   "peerDependencies": {
     "styled-components": ">= 5.2.1"
   }

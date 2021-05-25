@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-05-25)
+
+
+### Bug Fixes
+
+* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+* rename package repos ([0c50706](https://github.com/coingaming/moon-design/commit/0c50706a64a8898aa9cfff08ff0535d9f2dab356))
+* **Popover:** optional props ([a81fc9e](https://github.com/coingaming/moon-design/commit/a81fc9e5eeeebd4277a0fc0a2d6f0575d3533291))
+
+
+### Features
+
+* **popover:** add colorBackground prop to popover ([98a7929](https://github.com/coingaming/moon-design/commit/98a79293133e740f111923eb5b2c0246e767f061))
+* add basic popover component ([18326b0](https://github.com/coingaming/moon-design/commit/18326b02ebfe1a63ab63edef709288c22eeac300))
+* add popover external control ([fd0a058](https://github.com/coingaming/moon-design/commit/fd0a0585c766633ad7ff3bad8eff5f6ef9267fea))
+* added className to make popover extensible ([8aef4a4](https://github.com/coingaming/moon-design/commit/8aef4a4aabc17d99af864405ae1d37cef2ef4c0a))
+* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+
+
+
+
+
 ## [2.97.2](https://github.com/coingaming/sportsbet-design/compare/v2.97.1...v2.97.2) (2021-05-20)
 
 **Note:** Version bump only for package @heathmont/moon-popover
