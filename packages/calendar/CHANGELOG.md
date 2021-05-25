@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-05-25)
+
+
+### Bug Fixes
+
+* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
+* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+* fix grid template rows ([143b739](https://github.com/coingaming/moon-design/commit/143b73949b4d97abd5a12aa2ed6929501e9e5adb))
+* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+
+
+### Features
+
+* add auto height to rows ([e1c7633](https://github.com/coingaming/moon-design/commit/e1c76336c99fd85a9d946e0844f3cf26b84f0341))
+* add renderDayProps ([d38b7da](https://github.com/coingaming/moon-design/commit/d38b7daeddd873bb00548f3ccc1bb55b3d556484))
+* add weekend minimizing ([8d01c72](https://github.com/coingaming/moon-design/commit/8d01c727ef07011cd56fdcd71a6c99ff120316c5))
+* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+* **calendar:** move calendar to separate package ([3d79b45](https://github.com/coingaming/moon-design/commit/3d79b45d89e445a65f83e78ccbacd80dbbd13550))
+* **month calendar:** month Calendar view ([c3deb7d](https://github.com/coingaming/moon-design/commit/c3deb7d051c53395fba442734e712ecfbf4e0940))
+* **week calendar:** add week calendar view ([92a7834](https://github.com/coingaming/moon-design/commit/92a783420e485428efc8c729fd4b539f9dabe845))
+
+
+
+
+
 ## [2.97.2](https://github.com/coingaming/sportsbet-design/compare/v2.97.1...v2.97.2) (2021-05-20)
 
 **Note:** Version bump only for package @heathmont/moon-calendar

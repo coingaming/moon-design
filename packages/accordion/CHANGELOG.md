@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-05-25)
+
+
+### Bug Fixes
+
+* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+
+
+### Features
+
+* accordion component ([e85173b](https://github.com/coingaming/moon-design/commit/e85173b71db2cf9d6bbd035e6ede5c2e9dd86e51))
+* accordion improvements ([66664c4](https://github.com/coingaming/moon-design/commit/66664c4eea2510165f37a2d7e46c13f179b6e479))
+* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+
+
+
+
+
 ## [2.97.2](https://github.com/coingaming/sportsbet-design/compare/v2.97.1...v2.97.2) (2021-05-20)
 
 **Note:** Version bump only for package @heathmont/moon-accordion

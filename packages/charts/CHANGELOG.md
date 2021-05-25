@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-05-25)
+
+
+### Bug Fixes
+
+* build ([d3fb9f0](https://github.com/coingaming/moon-design/commit/d3fb9f04ab4666c0ce67e5bb9e496838dcc28d98))
+* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+* fix chart buttons ([df813d9](https://github.com/coingaming/moon-design/commit/df813d92ba4256d2ebd838cc79fb21745f21464d))
+* fix chart container height ([4714730](https://github.com/coingaming/moon-design/commit/47147307c39a6ce8f013464d880f85e1c265281c))
+* fix chart container height ([54df700](https://github.com/coingaming/moon-design/commit/54df70014b6b85465deb8141e5b0188b39f83d2b))
+* fix grid color ([d20330e](https://github.com/coingaming/moon-design/commit/d20330eb13901b9126439286cd71d2933aefd653))
+* fix icons ([2b33b8b](https://github.com/coingaming/moon-design/commit/2b33b8bce812b06baad7d1183167b27f1a8ccd95))
+* fix line chart issues ([466ea3b](https://github.com/coingaming/moon-design/commit/466ea3b1e81f8128a7790c4b11ffccc6efa6943d))
+* fix map width ([03af943](https://github.com/coingaming/moon-design/commit/03af943f97d405af9bd515dd0937076d634802f2))
+* fix opacity calc ([34156c1](https://github.com/coingaming/moon-design/commit/34156c199e6752f9a98cbb19c9d958c8d4c89a59))
+* fix recharts version ([35b4fd3](https://github.com/coingaming/moon-design/commit/35b4fd359e5053724cb094c3c07e501813d8a7d3))
+* fix spaces ([05727d4](https://github.com/coingaming/moon-design/commit/05727d4ec02e22c73d8971b4dd8ec94bf74d3807))
+* fix tooltip warnings ([3a4998c](https://github.com/coingaming/moon-design/commit/3a4998c2ea69c75dbde33e28a8d94cabd4b53e97))
+* fix Transition warnings ([b8b82fe](https://github.com/coingaming/moon-design/commit/b8b82fed7f6972c3b9e1548c05db289f88ba6a51))
+* fix types ([97dd68a](https://github.com/coingaming/moon-design/commit/97dd68a9e8189fbf49f405e2cd0c5d59aa6a2e39))
+* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+* World110m.tsx -> World110m.ts ([60186dd](https://github.com/coingaming/moon-design/commit/60186ddc615d647620e78ab824e1678cc0a09a56))
+
+
+### Features
+
+* add Geo Map Chart ([df76173](https://github.com/coingaming/moon-design/commit/df76173d9b66a91011db47eaa96fc9bfb821be03))
+* add initial package ([31432bb](https://github.com/coingaming/moon-design/commit/31432bbabde83f3a87ad314688143b8615728e18))
+* add LineChart ([4451706](https://github.com/coingaming/moon-design/commit/4451706d46fe5b9f3ac82da2a8ce7a5f889bf387))
+* add PieChart ([4c135fe](https://github.com/coingaming/moon-design/commit/4c135fe9f467a22deb4509ed5562000df2f0bf42))
+* add TableChart ([3665149](https://github.com/coingaming/moon-design/commit/366514984ced29155ba27eac3bc72e61fd77e573))
+* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+
+
+
+
+
 ## [2.97.2](https://github.com/coingaming/sportsbet-design/compare/v2.97.1...v2.97.2) (2021-05-20)
 
 **Note:** Version bump only for package @heathmont/moon-charts
