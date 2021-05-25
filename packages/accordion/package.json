@@ -15,10 +15,10 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^3.0.0",
-    "@heathmont/moon-components": "^3.0.0",
-    "@heathmont/moon-themes": "^3.0.0",
-    "@heathmont/moon-utils": "^3.0.0"
+    "@heathmont/moon-assets": "^2.97.2",
+    "@heathmont/moon-components": "^2.97.2",
+    "@heathmont/moon-themes": "^2.97.2",
+    "@heathmont/moon-utils": "^2.97.2"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
