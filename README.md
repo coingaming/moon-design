@@ -28,7 +28,7 @@
 
 ## Using Moon Design
 
-- `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000) with hot reloading.
+- `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000).
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
