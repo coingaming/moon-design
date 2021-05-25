@@ -5,6 +5,32 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 3.0.0 (2021-05-25)
 
+
+### Bug Fixes
+
+* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
+* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+* fix tests ([f286182](https://github.com/coingaming/moon-design/commit/f286182074e02b4bce6424df2284c9a15348b9f9))
+* fix tests ([2fa5971](https://github.com/coingaming/moon-design/commit/2fa5971961a03ffdcc10ed28a84f9cec263d6a98))
+* remove empty space ([0d505c3](https://github.com/coingaming/moon-design/commit/0d505c3f614f406420f48d2b23422e302757b3d5))
+* rename package repos ([0c50706](https://github.com/coingaming/moon-design/commit/0c50706a64a8898aa9cfff08ff0535d9f2dab356))
+* revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
+* update gatsby ([b966e21](https://github.com/coingaming/moon-design/commit/b966e21b5875c015eb09bca18ba945a8f8945f40))
+
+
+### Features
+
+* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+* separate package ([602eda2](https://github.com/coingaming/moon-design/commit/602eda25154d1068d8bc29f644b9964676510cfd))
+* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+
+
+
+
+
+# 3.0.0 (2021-05-25)
+
 ### Bug Fixes
 
 - add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
