@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-assets",
   "sideEffects": false,
-  "version": "2.97.2",
+  "version": "3.0.0",
   "files": [
     "lib"
   ],
@@ -31,8 +31,8 @@
     "build": "yarn build:crests && yarn build:currencies && yarn build:logos && yarn build:patterns && yarn build:icons && yarn build:index"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^2.97.2",
-    "@heathmont/moon-utils": "^2.97.2"
+    "@heathmont/moon-themes": "^3.0.0",
+    "@heathmont/moon-utils": "^3.0.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
