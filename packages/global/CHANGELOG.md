@@ -3,6 +3,61 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.0.0 (2021-05-26)
+
+
+### Bug Fixes
+
+* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+* merge related issues, sideEffects got removed ([fe8f2af](https://github.com/coingaming/moon-design/commit/fe8f2af1f39b7ed72bb63eccf5d0dde123718b64))
+* move styled-components to peerDeps ([3dbce31](https://github.com/coingaming/moon-design/commit/3dbce31648445b3b303a4ed0a4a081a851832341))
+* remove polyfill ([0b85a64](https://github.com/coingaming/moon-design/commit/0b85a647aeb01f7b325ad5f22eabd13a51aa7e0a))
+* rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
+* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+* **focus-visible:** switch to exact version ([196684b](https://github.com/coingaming/moon-design/commit/196684b27b6a3b73ede0f3a291c2519525f9b291))
+* **global:** prefixes for font smoothing ([e132329](https://github.com/coingaming/moon-design/commit/e1323296aa71c13c41a296fe121592b23c6c0d08))
+* **global:** remove focus polyfill from dependencies ([da78d28](https://github.com/coingaming/moon-design/commit/da78d287575743c47ce37a869c0118b4dcccf3b3))
+* switch css() to CSSObject type ([5682af5](https://github.com/coingaming/moon-design/commit/5682af5d31c01f284fd3b8bfba07a1c057140d80))
+* switch to single imports for polished ([c4e7d0c](https://github.com/coingaming/moon-design/commit/c4e7d0c75e6f8ded7581ee9ec05d1b6ed9f7893c))
+* **page:** switch text-rendering method ([4f46ffd](https://github.com/coingaming/moon-design/commit/4f46ffd69f2099ba29c19259b67f95cc7daed4f8))
+
+
+### Features
+
+* global font display ([e7a55b3](https://github.com/coingaming/moon-design/commit/e7a55b3e148ffc4151a47d80d071cee117732b5a))
+* SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/moon-design/issues/673)) ([816b031](https://github.com/coingaming/moon-design/commit/816b031f965e200a2fba9ec8edeb5178e691957a))
+* to the moon ([4b23191](https://github.com/coingaming/moon-design/commit/4b23191c644b96ef34ff12bb0555599d9cafac32))
+* update React imports ([2c08aab](https://github.com/coingaming/moon-design/commit/2c08aaba907b32af7331b83bc691bd505eee8f23))
+* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+* **dependencies:** update polished ([5c152ae](https://github.com/coingaming/moon-design/commit/5c152ae70813137744c5843c51cf55f0a6a9e35d))
+* **dialog:** create component ([643e5de](https://github.com/coingaming/moon-design/commit/643e5def0390b61f14004d9b820faa7ec89bc604))
+* **global:** add elements ([91bd278](https://github.com/coingaming/moon-design/commit/91bd2783dae80360c94040639aae5d4b826492a5))
+* **global:** capitalize Global ([a0a60a7](https://github.com/coingaming/moon-design/commit/a0a60a7820f4460fbeaac61105fcfa6fb4748763))
+* **global:** enable focus-visible polyfil ([38e5ae1](https://github.com/coingaming/moon-design/commit/38e5ae146aaf39e2ffc38fb122c42204aae5e0a7))
+* **global:** flat structure ([43f9ad4](https://github.com/coingaming/moon-design/commit/43f9ad4faa9fb5c0b0f56834e6af1054876ca677))
+* **global:** themeable styles ([ad9aab2](https://github.com/coingaming/moon-design/commit/ad9aab2945bba502f91a214709ca13ae0dc10369))
+* **globals:** tree shaking for globals ([061358d](https://github.com/coingaming/moon-design/commit/061358d046fd0ee4cd38b22dbc2d87fc459062e6))
+* **themes:** add boxShadow, fontSize, maxWidth, opacity, zIndex ([4174ae5](https://github.com/coingaming/moon-design/commit/4174ae547f6d1f8b5c81189c206a6993908e178b))
+* added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([d92cdc6](https://github.com/coingaming/moon-design/commit/d92cdc6e71355b002734631077c806783a871d01))
+* added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([#636](https://github.com/coingaming/moon-design/issues/636)) ([f6b64d3](https://github.com/coingaming/moon-design/commit/f6b64d311976ea00eaa120ff5106110260f52e16))
+* remove polished `rem` references ([0584bbb](https://github.com/coingaming/moon-design/commit/0584bbb02c76abf0588a7f4f6180977431059f9b))
+* **global:** Global element for consuming styles, rename polyfill ([885d88b](https://github.com/coingaming/moon-design/commit/885d88b24e5703ad38f2e6ca23c2abf11acbea12))
+* **global:** implement vertical and horizontal rhythm ([5342832](https://github.com/coingaming/moon-design/commit/5342832f776f85c041402449adafd6b43edfab26))
+* **global:** initialise with generic styles ([62d9b76](https://github.com/coingaming/moon-design/commit/62d9b76ee6eaf525dd2045c3f0b15cb3cec9d5e0))
+* **headings:** introduce headings, initial commit ([3065322](https://github.com/coingaming/moon-design/commit/30653227979aea6dabee81b1c87286dbbbc273ce))
+* **project:** setup monorepo ([fb70f35](https://github.com/coingaming/moon-design/commit/fb70f350d0546de55123c4048a1c6774dac35de5))
+* **tokens:** add fontFamily ([6baf8ef](https://github.com/coingaming/moon-design/commit/6baf8ef24912e61d14294e68bbfc71e70f6fe4aa))
+
+
+### Performance Improvements
+
+* ensure only `lib` directories are published ([09b6876](https://github.com/coingaming/moon-design/commit/09b68768ff527ab38d35f153bf65d00cb5e559f1))
+
+
+
+
+
 # 4.0.0 (2021-05-26)
 
 

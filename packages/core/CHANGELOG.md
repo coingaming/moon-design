@@ -3,6 +3,50 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.0.0 (2021-05-26)
+
+
+### Bug Fixes
+
+* added text align property to text ([1ca4d39](https://github.com/coingaming/moon-design/commit/1ca4d39844d165b09252d352efd611b87af4f852))
+* added text align to heading ([b723f2b](https://github.com/coingaming/moon-design/commit/b723f2b4b943b387c7723ddef832a4cb7527ad64))
+* align "textAlign" prop ([9557e44](https://github.com/coingaming/moon-design/commit/9557e441a11c2d7b755f1d7e5b9773e042f3c31c))
+* default badge size ([3482ec4](https://github.com/coingaming/moon-design/commit/3482ec4b6b66afb4f881a9084bfbc85552998e06))
+* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+* **build:** ts & docs ([d858f3f](https://github.com/coingaming/moon-design/commit/d858f3fd835faf76aaff8ba9f35efe762134a8dc))
+* **Checkbox:** center aligned ([68d7957](https://github.com/coingaming/moon-design/commit/68d7957291c099e071098803f24b5e673180e8b0))
+* typography ([abe6203](https://github.com/coingaming/moon-design/commit/abe62031def2d8a2da9d754678c463b2ca16d2c8))
+
+
+### Features
+
+* **badge:** add icons to badges ([8698bf6](https://github.com/coingaming/moon-design/commit/8698bf62fb4b2ad6fe30a4ff92d6e7710bbfce81))
+* B1M2-408 basic Button with 4 variants ([ce5f176](https://github.com/coingaming/moon-design/commit/ce5f176f8382af2c653c2ed850127ee297edef5b))
+* basic checkbox ([e8d5745](https://github.com/coingaming/moon-design/commit/e8d5745a887cfe8572fcae8fe8e37ab17a43b258))
+* cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
+* dir='rtl' ([63ac3a1](https://github.com/coingaming/moon-design/commit/63ac3a1167c42312053e8d0baf17e2aa795b4973))
+* **AgeLimit:** introduce ([6428dd5](https://github.com/coingaming/moon-design/commit/6428dd5b240919c5e355b9802f1862be8ec56353))
+* **ballLoader:** initial commit ([8c8a030](https://github.com/coingaming/moon-design/commit/8c8a0302af4e435ab6a6a9f18edba3726660d04e))
+* **Caption:** rightAlign ([0eb1629](https://github.com/coingaming/moon-design/commit/0eb16291caacc2f98a095ce09f1313373815a7fb))
+* **checkbox:** color supports ([d37018f](https://github.com/coingaming/moon-design/commit/d37018f05b2e0978b3f01efe21396cbf9f3c0764))
+* **core:** introduce core package ([8ff3780](https://github.com/coingaming/moon-design/commit/8ff37804ef3249c036d3d72e3cd8409b5eb24164))
+* **docs:** side navbar ([ade97d2](https://github.com/coingaming/moon-design/commit/ade97d26ef9550a18ac66b31f337d64cdb7ea1ac))
+* **Text:** update docs ([bbda65c](https://github.com/coingaming/moon-design/commit/bbda65c29ecc022303138d01882fb5aba53f8bab))
+* BallLoader -> ScreenLoader ([d425e22](https://github.com/coingaming/moon-design/commit/d425e221172087ba789663b834f12b4a629e533e))
+* initial checkbox ([cd281b9](https://github.com/coingaming/moon-design/commit/cd281b92fa9bdfc06efd04f3de27fe82e04354cb))
+* initial commit ([d1db1c4](https://github.com/coingaming/moon-design/commit/d1db1c4f3bfc0823e36af84e1adcaf5bf9bb3b55))
+* move badge ([8a8acb9](https://github.com/coingaming/moon-design/commit/8a8acb909428eec3e4ab5348ceda472878b7d9f9))
+* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+* ts update ([7d35b9c](https://github.com/coingaming/moon-design/commit/7d35b9c4ee8f1546a2ccbfcae942b44fea3472ca))
+* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+* **rem:** negative rem values ([16fea17](https://github.com/coingaming/moon-design/commit/16fea177bda5ea641f6db4f7e82092b0b75f77cd))
+
+
+
+
+
 # 4.0.0 (2021-05-26)
 
 

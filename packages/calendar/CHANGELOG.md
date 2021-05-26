@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.0.0 (2021-05-26)
+
+
+### Bug Fixes
+
+* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+* fix grid template rows ([b2a3176](https://github.com/coingaming/moon-design/commit/b2a3176061c712c10212ba150a09e3a30905868c))
+* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+
+
+### Features
+
+* add auto height to rows ([cbccc91](https://github.com/coingaming/moon-design/commit/cbccc918e7f010f03663d2d2258be0c6a5bc7b2f))
+* add renderDayProps ([674010b](https://github.com/coingaming/moon-design/commit/674010bfee53377caef567cfe1e231408afc7d0f))
+* add weekend minimizing ([944dff2](https://github.com/coingaming/moon-design/commit/944dff210b8072cf6a7b338cee8f1ece507e2577))
+* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+* **calendar:** move calendar to separate package ([4d25014](https://github.com/coingaming/moon-design/commit/4d25014071d77cbcaa52b082700299245dc34483))
+* **month calendar:** month Calendar view ([4aa931c](https://github.com/coingaming/moon-design/commit/4aa931c91e56e386e708b76f60532db040fca83b))
+* **week calendar:** add week calendar view ([6f98538](https://github.com/coingaming/moon-design/commit/6f98538fa7ee342f3e6e6862ea83b87853358e89))
+
+
+
+
+
 # 4.0.0 (2021-05-26)
 
 
