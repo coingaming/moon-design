@@ -1,6 +1,45 @@
-import Head from 'next/head';
+import fs from 'fs';
+import path from 'path';
 
-export default function Home() {
+import React from 'react';
+import Head from 'next/head';
+import { bundleMDX } from 'mdx-bundler';
+import { getMDXComponent } from 'mdx-bundler/client';
+
+export async function getStaticProps(context: any) {
+  const fileBuffer= await fs.promises
+    .readFile(path.join('docs', 'test.mdx'));
+
+  const res = fileBuffer.toString().trim();
+
+  console.log('mdx', res);
+  const resultNew = await bundleMDX(res, {
+    files: {
+      './demo.tsx': `
+  import * as React from 'react'
+
+  function Demo() {
+    return <div>Neat demo!</div>
+  }
+
+  export default Demo
+      `,
+    },
+  });
+
+  const { code, frontmatter } = resultNew;
+  console.log('code: ', code);
+  console.log('frontmatter: ', frontmatter);
+  return {
+    props: {
+      code,
+      frontmatter,
+    },
+  };
+}
+
+export default function Home({ code, frontmatter }) {
+  const Component = React.useMemo(() => getMDXComponent(code), [code]);
   return (
     <>
       <Head>
@@ -10,7 +49,8 @@ export default function Home() {
       </Head>
 
       <main className="px-32 py-20">
-        <h1 className="text-3xl">Moon Design System</h1>
+        <h1 className="text-xl">{frontmatter.title}</h1>
+        <Component />
       </main>
     </>
   );
