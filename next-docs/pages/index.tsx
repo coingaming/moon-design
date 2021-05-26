@@ -9,8 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>Moon Design System</h1>
+      <main className="px-32 py-20">
+        <h1 className="text-3xl">Moon Design System</h1>
       </main>
     </>
   );
