@@ -54,6 +54,11 @@ const empireLight: Theme = {
     ...supportColors,
     ...color,
   },
+  radius: {
+    small: 4,
+    default: 8,
+    largest: 8,
+  },
   colorScheme: 'light',
 };
 
