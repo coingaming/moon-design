@@ -97,26 +97,6 @@ The different types of branches should be named as follows:
 1. `git checkout your-branch`
 1. `git rebase develop`
 
-#### Rebasing pull requests example
-
-1. Pick your base commit, where you want add all other commits on top of.
-
-   > `git log`
-   >
-   > or the more visually friendly
-   >
-   > `git log --oneline --graph --all --decorate -n 30`
-
-1. `git rebase -i hash` - launches interactive shell where you choose your commits to squash
-1. `git push -f` - force push your git changes
-
-#### Merge or Rebase
-
-**Use merge - not rebase** whenever you've already pushed.
-
-Never use `git rebase` on public branches.
-Consider using `git rebase` only if you want to [avoid spaghetti-history](https://stackoverflow.com/a/21539012/3748398) in your local branch.
-
 #### Feature Flags
 
 Long-lived feature branches present problems when you need to build code on top of unfinished work. Merge unfinished features into the `develop` branch (following the steps [outline above](#workflow)) so others can build off their work, but keep them hidden from your users and testers behind feature flags. Enable the flag in development to use the feature without the changes affecting anyone else. Once the feature is finished, you can remove the flags or use them to roll out to selected users and testers.
