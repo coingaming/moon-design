@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2021-05-26)
+
+
+### Bug Fixes
+
+* build ([69d0482](https://github.com/coingaming/moon-design/commit/69d0482432bddb40ef59bd4803a36cfc1f9f3ac5))
+* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+* eslint update ([0a817e8](https://github.com/coingaming/moon-design/commit/0a817e82987192b96bbf0834637c2bfd0a9f0560))
+* remove useTimeout.tsx ([f0ccf14](https://github.com/coingaming/moon-design/commit/f0ccf14e89fc0c23ce05679c3ccc8c8bc88ffab8))
+* rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
+* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+* **toast:** typescript ([2101856](https://github.com/coingaming/moon-design/commit/21018564b26a09097fff3b70053ad41c3629ab04))
+* toast design alighments ([e75ca98](https://github.com/coingaming/moon-design/commit/e75ca98997739698e700110324fb330d442e00d2))
+* update readme ([1f53fed](https://github.com/coingaming/moon-design/commit/1f53fed6c2e0828477a71fe43eda5d4e812f986c))
+
+
+### Features
+
+* initial functionality ([71f49ff](https://github.com/coingaming/moon-design/commit/71f49ff23c82c0a6a2b816ce41cedf3c668bdebc))
+* introduce notifications ([f194787](https://github.com/coingaming/moon-design/commit/f1947872389bd94c5e6af2cd778f91fd081d4508))
+* toast ([777bdfc](https://github.com/coingaming/moon-design/commit/777bdfcb197aad8338a56fc84f925280dc0fb58d))
+* toast ([690428d](https://github.com/coingaming/moon-design/commit/690428d501efbac9528d967071442b5861d482bd))
+* toast colors ([dbeedbf](https://github.com/coingaming/moon-design/commit/dbeedbff67564b3ab3783d0b3f8474cc5195109b))
+* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+* ts update ([7d35b9c](https://github.com/coingaming/moon-design/commit/7d35b9c4ee8f1546a2ccbfcae942b44fea3472ca))
+* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+
+
+
+
+
 # 3.0.0 (2021-05-25)
 
 
