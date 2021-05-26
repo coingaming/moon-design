@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2021-05-26)
+
+
+### Bug Fixes
+
+* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+* added on toggle to sidebar ([a235773](https://github.com/coingaming/moon-design/commit/a2357731dd283bd920ca2902356a2dc6e80c3b22))
+* build site ([3faf406](https://github.com/coingaming/moon-design/commit/3faf406a913d1582991e291988258aa6cf441a3d))
+* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+* fix hover color ([cd3927a](https://github.com/coingaming/moon-design/commit/cd3927a195b922b3ac3b89e36e2a18e226b683c2))
+* rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
+* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+
+
+### Features
+
+* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+* **Sidebar:** initialState -> isOpen ([9358ebf](https://github.com/coingaming/moon-design/commit/9358ebf61dea6043f96006b6357155c5ed455060))
+* sidebar package ([ce4a765](https://github.com/coingaming/moon-design/commit/ce4a76527af047f91cfc35f2697dda485ead6e31))
+
+
+
+
+
 # 3.0.0 (2021-05-25)
 
 

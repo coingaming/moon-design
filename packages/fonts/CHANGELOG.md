@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2021-05-26)
+
+
+### Bug Fixes
+
+* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+* merge related issues, sideEffects got removed ([fe8f2af](https://github.com/coingaming/moon-design/commit/fe8f2af1f39b7ed72bb63eccf5d0dde123718b64))
+* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+* move styled-components to peerDeps ([3dbce31](https://github.com/coingaming/moon-design/commit/3dbce31648445b3b303a4ed0a4a081a851832341))
+* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+
+
+### Features
+
+* added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([d92cdc6](https://github.com/coingaming/moon-design/commit/d92cdc6e71355b002734631077c806783a871d01))
+* remove cdn link package ([8427f15](https://github.com/coingaming/moon-design/commit/8427f15ebbc37c88515db27bbe3fd8b3762b7b60))
+* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+* **docs:** download tokens page ([eefa51b](https://github.com/coingaming/moon-design/commit/eefa51b54a9fa716614178a2e96231a0e6b17ef6))
+* added es modules build ([#635](https://github.com/coingaming/moon-design/issues/635)) ([#636](https://github.com/coingaming/moon-design/issues/636)) ([f6b64d3](https://github.com/coingaming/moon-design/commit/f6b64d311976ea00eaa120ff5106110260f52e16))
+* remove averta 700 ([e10b0ab](https://github.com/coingaming/moon-design/commit/e10b0ab8d29dafdfe1afa50b999f9d4702e5ca22))
+* SPO-5437 added scrollable behaviour ([#673](https://github.com/coingaming/moon-design/issues/673)) ([816b031](https://github.com/coingaming/moon-design/commit/816b031f965e200a2fba9ec8edeb5178e691957a))
+* to the moon ([4b23191](https://github.com/coingaming/moon-design/commit/4b23191c644b96ef34ff12bb0555599d9cafac32))
+* tree shaking ([af5a26d](https://github.com/coingaming/moon-design/commit/af5a26dba7f7a818763c8d0171c5ba0749c28400))
+* update averta semibold to 500 ([fa5acf9](https://github.com/coingaming/moon-design/commit/fa5acf94b9bb0d240f85c87b78037aaa4d53053d))
+* update semibold to 500 ([713626b](https://github.com/coingaming/moon-design/commit/713626b7474f88d859851b470dc07b8782b08720))
+* **fonts:** flat structure ([5542bd5](https://github.com/coingaming/moon-design/commit/5542bd5455c8d64177000e4bc2fcc81085e1a475))
+* **fonts:** generate barrel file ([a5a25dc](https://github.com/coingaming/moon-design/commit/a5a25dc7d25fdf67fe265dadb72095f9dd09d3cb))
+* **themes:** add boxShadow, fontSize, maxWidth, opacity, zIndex ([4174ae5](https://github.com/coingaming/moon-design/commit/4174ae547f6d1f8b5c81189c206a6993908e178b))
+
+
+
+
+
 # 3.0.0 (2021-05-25)
 
 
