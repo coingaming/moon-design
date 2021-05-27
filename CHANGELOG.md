@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.1](https://github.com/coingaming/moon-design/compare/v5.0.0...v5.0.1) (2021-05-27)
+
+
+### Bug Fixes
+
+* empire colors ([#1218](https://github.com/coingaming/moon-design/issues/1218)) ([8510427](https://github.com/coingaming/moon-design/commit/8510427d791b74ae5d91f87a814dcd6f2d7b65f8))
+
+
+
+
+
 # 5.0.0 (2021-05-26)
 
 
