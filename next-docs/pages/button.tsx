@@ -7,23 +7,38 @@ import { bundleMDX } from 'mdx-bundler';
 import { getMDXComponent } from 'mdx-bundler/client';
 
 export async function getStaticProps(context: any) {
-  const fileBuffer= await fs.promises
-    .readFile(path.join('docs', 'test.mdx'));
+  const mdxFileBuffer = await fs.promises.readFile(
+    path.join('docs', 'button.mdx')
+  );
+  const mdxFile = mdxFileBuffer.toString().trim();
 
-  const res = fileBuffer.toString().trim();
+  const componentFileBuffer = await fs.promises.readFile(
+    path.join('../packages/components/src/button/', 'Button.tsx')
+  );
+  const componentFile = componentFileBuffer.toString().trim();
 
-  console.log('mdx', res);
-  const resultNew = await bundleMDX(res, {
+  //   const resultNew = await bundleMDX(mdxFile, {
+  //     files: {
+  //       './demo.tsx': `
+  //   import * as React from 'react'
+
+  //   function Demo() {
+  //     return <button
+  //     type="button"
+  //     class="inline-flex items-center px-4 py-3 border border-transparent leading-6 font-medium rounded-full text-goten bg-blue-500 hover:bg-piccolo-80 focus:outline-none"
+  //   >
+  //     Button text
+  //   </button>
+  //   }
+
+  //   export default Demo
+  //       `,
+  //     },
+  //   });
+
+  const resultNew = await bundleMDX(mdxFile, {
     files: {
-      './demo.tsx': `
-  import * as React from 'react'
-
-  function Demo() {
-    return <h2>Neat demo!!!!!! 222</h2>
-  }
-
-  export default Demo
-      `,
+      './button.tsx': componentFile,
     },
   });
 
