@@ -6,7 +6,7 @@ const color = {
   piccolo: {
     120: '#e6b400',
     100: '#ffc800',
-    80: '#f4c725',
+    80: '#f9ca1f',
   },
   hit: {
     120: '#e6e6e6',
