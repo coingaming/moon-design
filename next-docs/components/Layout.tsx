@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
+import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 
 export default function Layout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -38,6 +39,7 @@ export default function Layout({ children }) {
             {/* TODO Add icon */}
             {/* <MenuAlt2Icon className="h-6 w-6" aria-hidden="true" /> */}
           </button>
+          <Breadcrumbs />
 
           <main className="flex-1 relative overflow-y-auto focus:outline-none">
             <div className="py-6 px-4 sm:px-6 md:px-0">{children}</div>
