@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.2](https://github.com/coingaming/moon-design/compare/v5.0.1...v5.0.2) (2021-05-28)
+
+
+### Bug Fixes
+
+* B1M2-1729 add boundry option into withHorizantalScroll ([#1220](https://github.com/coingaming/moon-design/issues/1220)) ([e8367ba](https://github.com/coingaming/moon-design/commit/e8367ba4d6e166877c8ea8f0cda78a5d09e47723))
+
+
+
+
+
 ## [5.0.1](https://github.com/coingaming/moon-design/compare/v5.0.0...v5.0.1) (2021-05-27)
 
 
