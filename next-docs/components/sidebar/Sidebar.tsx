@@ -1,7 +1,7 @@
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
+import NextLink from 'next/link';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -21,6 +21,28 @@ const navigation = [
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
 }
+
+interface LinkProps {
+  href: string;
+  isActive: boolean;
+  isSubMenu?: boolean;
+}
+
+const Link: React.FC<LinkProps> = ({ href, children, isActive, isSubMenu }) => (
+  <NextLink href={href}>
+    <a
+      className={classNames(
+        isActive
+          ? 'bg-gray-100 text-gray-900'
+          : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
+        isSubMenu ? 'pl-10' : 'pl-7',
+        'group w-full flex items-center pr-2 py-2 text-sm font-medium rounded-md'
+      )}
+    >
+      {children}
+    </a>
+  </NextLink>
+);
 
 export default function Sidebar() {
   const { pathname } = useRouter();
@@ -43,17 +65,9 @@ export default function Sidebar() {
           {navigation.map((item) =>
             !item.children ? (
               <div key={item.name}>
-                <a
-                  href={item.href}
-                  className={classNames(
-                    isCurrent(item.href)
-                      ? 'bg-gray-100 text-gray-900'
-                      : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-                    'group w-full flex items-center pl-7 pr-2 py-2 text-sm font-medium rounded-md'
-                  )}
-                >
+                <Link href={item.href} isActive={isCurrent(item.href)}>
                   {item.name}
-                </a>
+                </Link>
               </div>
             ) : (
               <Disclosure
@@ -86,18 +100,14 @@ export default function Sidebar() {
                     </Disclosure.Button>
                     <Disclosure.Panel className="space-y-1">
                       {item.children.map((subItem) => (
-                        <a
+                        <Link
                           key={subItem.name}
                           href={subItem.href}
-                          className={classNames(
-                            isCurrent(subItem.href)
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-                            'group w-full flex items-center pl-10 pr-2 py-2 text-sm font-medium rounded-md '
-                          )}
+                          isActive={isCurrent(subItem.href)}
+                          isSubMenu
                         >
                           {subItem.name}
-                        </a>
+                        </Link>
                       ))}
                     </Disclosure.Panel>
                   </>
