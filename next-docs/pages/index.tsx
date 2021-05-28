@@ -7,8 +7,7 @@ import { bundleMDX } from 'mdx-bundler';
 import { getMDXComponent } from 'mdx-bundler/client';
 
 export async function getStaticProps(context: any) {
-  const fileBuffer= await fs.promises
-    .readFile(path.join('docs', 'test.mdx'));
+  const fileBuffer = await fs.promises.readFile(path.join('docs', 'test.mdx'));
 
   const res = fileBuffer.toString().trim();
 
@@ -41,17 +40,9 @@ export async function getStaticProps(context: any) {
 export default function Home({ code, frontmatter }) {
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
   return (
-    <>
-      <Head>
-        <title>Moon Design System</title>
-        <meta name="description" content="Moon Design System" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="px-32 py-20">
-        <h1 className="text-xl">{frontmatter.title}</h1>
-        <Component />
-      </main>
-    </>
+    <main className="px-32 py-20">
+      <h1 className="text-xl">{frontmatter.title}</h1>
+      <Component />
+    </main>
   );
 }
