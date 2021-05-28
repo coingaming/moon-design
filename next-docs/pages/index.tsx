@@ -40,9 +40,9 @@ export async function getStaticProps(context: any) {
 export default function Home({ code, frontmatter }) {
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
   return (
-    <main className="px-32 py-20">
+    <>
       <h1 className="text-xl">{frontmatter.title}</h1>
       <Component />
-    </main>
+    </>
   );
 }

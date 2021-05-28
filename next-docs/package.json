@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "1.2.0",
     "@heathmont/moon-core": "5.0.0",
     "@heathmont/moon-themes": "5.0.1",
     "@heathmont/moon-utils": "5.0.0",

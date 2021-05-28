@@ -1470,6 +1470,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@headlessui/react@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.2.0.tgz#e48652bfce82ddf73d7f331faeb9db6526ee6874"
+  integrity sha512-19DkLz8gDgbi+WvkoTzi9vs0NK9TJf94vbYhMzB4LYJo03Kili0gmvXT9CiKZoxXZ7YAvy/b1U1oQKEnjWrqxw==
+
 "@heathmont/moon-themes@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-5.0.1.tgz#0ca75d51b391f1df16942c59c5eea5fcf15abadb"
