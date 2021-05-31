@@ -7,6 +7,13 @@ import LogoMoonDesign from '@heathmont/moon-assets/src/logos/LogoMoonDesign';
 const navigation = [
   { name: 'Home', href: '/' },
   {
+    name: 'Getting Started',
+    href: '/start/getting-started',
+    children: [
+      { name: 'Global Reset', href: '/start/reset' },
+    ],
+  },
+  {
     name: 'React',
     children: [
       { name: 'Badge', href: '/react/badge' },
