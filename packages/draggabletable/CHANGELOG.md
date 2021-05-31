@@ -3,68 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 5.0.0 (2021-05-26)
+## [5.0.2](https://github.com/coingaming/moon-design/compare/v5.0.1...v5.0.2) (2021-05-28)
 
+**Note:** Version bump only for package @heathmont/moon-draggabletable
+
+## [5.0.1](https://github.com/coingaming/moon-design/compare/v5.0.0...v5.0.1) (2021-05-27)
+
+**Note:** Version bump only for package @heathmont/moon-draggabletable
+
+# 5.0.0 (2021-05-26)
 
 ### Bug Fixes
 
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-* **draggabletable:** add callback if a row is dropped ([38676d8](https://github.com/coingaming/moon-design/commit/38676d8f422a932c88b12814cf997b86bfe2613c))
-* **draggabletable:** add callback to receive the table data after drop a row ([a52d048](https://github.com/coingaming/moon-design/commit/a52d0488905c081019de37353951589b5cdf841c))
-* **draggabletable:** import draggabletable styles from table component ([48c11f9](https://github.com/coingaming/moon-design/commit/48c11f9c257416daae47ace0d7bf4062527c3b5b))
-
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+- **draggabletable:** add callback if a row is dropped ([38676d8](https://github.com/coingaming/moon-design/commit/38676d8f422a932c88b12814cf997b86bfe2613c))
+- **draggabletable:** add callback to receive the table data after drop a row ([a52d048](https://github.com/coingaming/moon-design/commit/a52d0488905c081019de37353951589b5cdf841c))
+- **draggabletable:** import draggabletable styles from table component ([48c11f9](https://github.com/coingaming/moon-design/commit/48c11f9c257416daae47ace0d7bf4062527c3b5b))
 
 ### Features
 
-* **draggabletable:** add draggabletable component to moon-theme ([4f4534e](https://github.com/coingaming/moon-design/commit/4f4534e47b318b2e4ccf075d115b6ce140f9727d))
-
-
-
-
+- **draggabletable:** add draggabletable component to moon-theme ([4f4534e](https://github.com/coingaming/moon-design/commit/4f4534e47b318b2e4ccf075d115b6ce140f9727d))
 
 # 4.0.0 (2021-05-26)
 
-
 ### Bug Fixes
 
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-* **draggabletable:** add callback if a row is dropped ([38676d8](https://github.com/coingaming/moon-design/commit/38676d8f422a932c88b12814cf997b86bfe2613c))
-* **draggabletable:** add callback to receive the table data after drop a row ([a52d048](https://github.com/coingaming/moon-design/commit/a52d0488905c081019de37353951589b5cdf841c))
-* **draggabletable:** import draggabletable styles from table component ([48c11f9](https://github.com/coingaming/moon-design/commit/48c11f9c257416daae47ace0d7bf4062527c3b5b))
-
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+- **draggabletable:** add callback if a row is dropped ([38676d8](https://github.com/coingaming/moon-design/commit/38676d8f422a932c88b12814cf997b86bfe2613c))
+- **draggabletable:** add callback to receive the table data after drop a row ([a52d048](https://github.com/coingaming/moon-design/commit/a52d0488905c081019de37353951589b5cdf841c))
+- **draggabletable:** import draggabletable styles from table component ([48c11f9](https://github.com/coingaming/moon-design/commit/48c11f9c257416daae47ace0d7bf4062527c3b5b))
 
 ### Features
 
-* **draggabletable:** add draggabletable component to moon-theme ([4f4534e](https://github.com/coingaming/moon-design/commit/4f4534e47b318b2e4ccf075d115b6ce140f9727d))
-
-
-
-
+- **draggabletable:** add draggabletable component to moon-theme ([4f4534e](https://github.com/coingaming/moon-design/commit/4f4534e47b318b2e4ccf075d115b6ce140f9727d))
 
 # 3.0.0 (2021-05-25)
 
-
 ### Bug Fixes
 
-* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
-* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
-* revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
-* **draggabletable:** add callback if a row is dropped ([ee5ad73](https://github.com/coingaming/moon-design/commit/ee5ad7332b3c0d363e10d1f81c2c23913402613c))
-* **draggabletable:** add callback to receive the table data after drop a row ([d0f7412](https://github.com/coingaming/moon-design/commit/d0f7412bef4fd822292604dada499e02bea16017))
-* **draggabletable:** import draggabletable styles from table component ([137f355](https://github.com/coingaming/moon-design/commit/137f355eb7393449e322e9e8fb87347a91d5970e))
-
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
+- **draggabletable:** add callback if a row is dropped ([ee5ad73](https://github.com/coingaming/moon-design/commit/ee5ad7332b3c0d363e10d1f81c2c23913402613c))
+- **draggabletable:** add callback to receive the table data after drop a row ([d0f7412](https://github.com/coingaming/moon-design/commit/d0f7412bef4fd822292604dada499e02bea16017))
+- **draggabletable:** import draggabletable styles from table component ([137f355](https://github.com/coingaming/moon-design/commit/137f355eb7393449e322e9e8fb87347a91d5970e))
 
 ### Features
 
-* **draggabletable:** add draggabletable component to moon-theme ([d028575](https://github.com/coingaming/moon-design/commit/d0285756b08b4195b61e227732a60695d6f33efc))
-
-
-
-
+- **draggabletable:** add draggabletable component to moon-theme ([d028575](https://github.com/coingaming/moon-design/commit/d0285756b08b4195b61e227732a60695d6f33efc))
 
 # 3.0.0 (2021-05-25)
 

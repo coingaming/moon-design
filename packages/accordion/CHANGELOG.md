@@ -3,68 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 5.0.0 (2021-05-26)
+## [5.0.2](https://github.com/coingaming/moon-design/compare/v5.0.1...v5.0.2) (2021-05-28)
 
+**Note:** Version bump only for package @heathmont/moon-accordion
+
+## [5.0.1](https://github.com/coingaming/moon-design/compare/v5.0.0...v5.0.1) (2021-05-27)
+
+**Note:** Version bump only for package @heathmont/moon-accordion
+
+# 5.0.0 (2021-05-26)
 
 ### Bug Fixes
 
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
 
 ### Features
 
-* accordion component ([6fa4cf3](https://github.com/coingaming/moon-design/commit/6fa4cf3f41519b155eb9ebba0d79460b5b8ef344))
-* accordion improvements ([2045e0e](https://github.com/coingaming/moon-design/commit/2045e0e5706e0be2de97e250f478925e98d1ca1f))
-* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-
-
-
-
+- accordion component ([6fa4cf3](https://github.com/coingaming/moon-design/commit/6fa4cf3f41519b155eb9ebba0d79460b5b8ef344))
+- accordion improvements ([2045e0e](https://github.com/coingaming/moon-design/commit/2045e0e5706e0be2de97e250f478925e98d1ca1f))
+- nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
 
 # 4.0.0 (2021-05-26)
 
-
 ### Bug Fixes
 
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
 
 ### Features
 
-* accordion component ([6fa4cf3](https://github.com/coingaming/moon-design/commit/6fa4cf3f41519b155eb9ebba0d79460b5b8ef344))
-* accordion improvements ([2045e0e](https://github.com/coingaming/moon-design/commit/2045e0e5706e0be2de97e250f478925e98d1ca1f))
-* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-
-
-
-
+- accordion component ([6fa4cf3](https://github.com/coingaming/moon-design/commit/6fa4cf3f41519b155eb9ebba0d79460b5b8ef344))
+- accordion improvements ([2045e0e](https://github.com/coingaming/moon-design/commit/2045e0e5706e0be2de97e250f478925e98d1ca1f))
+- nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
 
 # 3.0.0 (2021-05-25)
 
-
 ### Bug Fixes
 
-* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
-* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
-* revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
-
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
 
 ### Features
 
-* accordion component ([e85173b](https://github.com/coingaming/moon-design/commit/e85173b71db2cf9d6bbd035e6ede5c2e9dd86e51))
-* accordion improvements ([66664c4](https://github.com/coingaming/moon-design/commit/66664c4eea2510165f37a2d7e46c13f179b6e479))
-* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
-* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
-
-
-
-
+- accordion component ([e85173b](https://github.com/coingaming/moon-design/commit/e85173b71db2cf9d6bbd035e6ede5c2e9dd86e51))
+- accordion improvements ([66664c4](https://github.com/coingaming/moon-design/commit/66664c4eea2510165f37a2d7e46c13f179b6e479))
+- nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
 
 # 3.0.0 (2021-05-25)
 
