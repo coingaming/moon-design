@@ -23,7 +23,7 @@ export default function Layout({ children }) {
           </div>
         </div>
 
-        <div className="flex-1 max-w-4xl mx-auto w-0 flex flex-col md:px-8 xl:px-0">
+        <div className="flex-1 max-w-4xl mx-auto mt-8 w-0 flex flex-col md:px-8 xl:px-0">
           {/* Opens sidebar on mobile */}
           <button
             className="md:hidden border-r h-16 w-16 border-gray-200 px-4 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden"

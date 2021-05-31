@@ -2,16 +2,15 @@ import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-import LogoMoonDesign from '@heathmont/moon-assets/src/logos/LogoMoonDesign';
+import {version} from '../../../packages/core/package.json';
+
 
 const navigation = [
   { name: 'Home', href: '/' },
   {
     name: 'Getting Started',
     href: '/start/getting-started',
-    children: [
-      { name: 'Global Reset', href: '/start/reset' },
-    ],
+    children: [{ name: 'Global Reset', href: '/start/reset' }],
   },
   {
     name: 'React',
@@ -43,8 +42,8 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive, isSubMenu }) => (
         isActive
           ? 'bg-gray-100 text-gray-900'
           : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-        isSubMenu ? 'pl-10' : 'pl-7',
-        'group w-full flex items-center pr-2 py-2 text-sm font-medium rounded-md'
+        isSubMenu ? 'pl-4' : 'pl-2',
+        'text-lg group w-full flex items-center py-2 text-sm font-medium rounded-md'
       )}
     >
       {children}
@@ -59,8 +58,8 @@ export default function Sidebar() {
     items.some((item: { href: string }) => isCurrent(item.href));
 
   return (
-    <div className="flex flex-col flex-grow border-r border-gray-200 pt-5 pb-4 bg-white overflow-y-auto">
-      <div className="flex items-center flex-shrink-0 px-4">
+    <div className="flex flex-col flex-grow pt-8 px-6 bg-white overflow-y-auto">
+      <div className="flex items-center flex-shrink-0 pl-2 mb-12">
         {/* LOGO */}
         <svg
           width="89"
@@ -77,8 +76,8 @@ export default function Sidebar() {
           />
         </svg>
       </div>
-      <div className="mt-5 flex-grow flex flex-col">
-        <nav className="flex-1 px-2 space-y-1 bg-white" aria-label="Sidebar">
+      <div className="flex-grow flex flex-col">
+        <nav className="flex-1 space-y-1 bg-white" aria-label="Sidebar">
           {navigation.map((item) =>
             !item.children ? (
               <div key={item.name}>
@@ -100,20 +99,20 @@ export default function Sidebar() {
                         isCurrent(item.href)
                           ? 'bg-gray-100 text-gray-900'
                           : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-                        'group w-full flex items-center pr-2 py-2 text-left text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500'
+                        'text-lg pl-2 group w-full flex justify-between items-center pr-2 py-2 text-left text-sm font-medium rounded-md focus:outline-none'
                       )}
                     >
+                      {item.name}
                       <svg
                         className={classNames(
                           open ? 'text-gray-400 rotate-90' : 'text-gray-300',
-                          'mr-2 flex-shrink-0 h-5 w-5 transform group-hover:text-gray-400 transition-colors ease-in-out duration-150'
+                          'flex-shrink-0 h-5 w-5 transform group-hover:text-gray-400 transition-colors ease-in-out duration-150'
                         )}
                         viewBox="0 0 20 20"
                         aria-hidden="true"
                       >
                         <path d="M6 6L14 10L6 14V6Z" fill="currentColor" />
                       </svg>
-                      {item.name}
                     </Disclosure.Button>
                     <Disclosure.Panel className="space-y-1">
                       {item.children.map((subItem) => (
@@ -132,6 +131,7 @@ export default function Sidebar() {
               </Disclosure>
             )
           )}
+          {version}
         </nav>
       </div>
     </div>
