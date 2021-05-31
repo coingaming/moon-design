@@ -43,16 +43,26 @@ export default function SidebarTransition({ children, isOpen, setIsOpen }) {
             >
               <div className="absolute top-0 right-0 -mr-12 pt-2">
                 <button
-                  className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                  className="ml-1 flex items-center justify-center rounded-full focus:outline-none"
                   onClick={() => setIsOpen(false)}
                 >
                   <span className="sr-only">Close sidebar</span>
-                  Close
-                  {/* TODO Add close Icon */}
-                  {/* <XIcon
-                        className="h-6 w-6 text-white"
-                        aria-hidden="true"
-                      /> */}
+                  <svg
+                    className="h-6 w-6"
+                    aria-hidden="true"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </button>
               </div>
             </Transition.Child>
