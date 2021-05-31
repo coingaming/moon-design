@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Averta Std';
+  font-style: 'normal';
+  font-display: 'swap';
+  font-weight: 400;
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+  src: 'local("AvertaStd-Regular"), local("Averta Std Regular"), url(https://sportsbet.io/sportsbet-io/files/regular.woff2) format("woff2")';
+}
+
+@font-face {
+  font-family: 'Averta Std';
+  font-style: 'normal';
+  font-display: 'swap';
+  font-weight: 500;
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+  src: 'local("AvertaStd-Semibold"), local("Averta Std Semibold"), url(https://sportsbet.io/sportsbet-io/files/semibold.woff2) format("woff2")';
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Averta Std', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-size-adjust: 80%; /* Prevent automatic zooming of fonts on some mobile devices. */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; /* Consistent font display behavior on OSX. */
+  -moz-osx-font-smoothing: grayscale; /* Consistent font display behavior on OSX. */
 }
 
 a {
@@ -17,4 +37,89 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/**
+  * Prevents an unwanted focus outline from appearing around elements that
+  * might still respond to pointer events.
+  * https://github.com/chris-pearce/backpack.css
+  */
+[tabindex=\'-1\']:focus {
+  outline: none;
+}
+
+/**
+   * Removes the outline in cases where the UA determines via heuristics that
+   * the focus should not be visible. This is mainly for ensuring that a focus
+   * indicator (a "focus ring") does not render for mouse users.
+   * https://github.com/chris-pearce/backpack.css
+   */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+/* If the browser doesn't support `:focus-visible`, use the polyfil */
+.js-focus-visible *:focus:not(.focus-visible) {
+  outline: none;
+}
+
+/**
+   * Remove all browser-default margins from certain elements.
+   */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+  * Remove trailing margins from nested lists and common block items
+  */
+li > ul,
+li > ol,
+blockquote {
+  margin-top: 0;
+}
+
+/**
+  * Set default <table>s behavior.
+  */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+  * Correct font display behavior
+  */
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+b,
+strong {
+  font-weight: 500;
 }

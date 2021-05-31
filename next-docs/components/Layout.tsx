@@ -10,12 +10,6 @@ export default function Layout({ children }) {
   const openSidebar = () => setSidebarOpen(true);
   return (
     <>
-      <Head>
-        <title>Moon Design System</title>
-        <meta name="description" content="Moon Design System" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <div className="h-screen bg-white overflow-hidden flex">
         {/* Dynamic sidebar with transition for mobile */}
         <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>

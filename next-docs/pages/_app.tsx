@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="Moon Design System" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Layout>
         <Component {...pageProps} />
       </Layout>
