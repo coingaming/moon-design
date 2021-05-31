@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 // const pages = [
 //   { name: 'Projects', href: '#', current: false },
@@ -14,13 +15,11 @@ export default function Breadcrumbs() {
       <ol className="flex items-center space-x-4">
         <li>
           <div className="flex items-center">
-            <a
-              href="/"
-              className="text-xs leading-4  text-gray-500 hover:text-gray-700"
-            >
-              <span className="sr-only">Home</span>
-              Moon.io
-            </a>
+            <Link href="/">
+              <a className="text-xs leading-4 text-gray-500 hover:text-gray-700">
+                Moon.io
+              </a>
+            </Link>
           </div>
         </li>
         {pages.length > 0 &&

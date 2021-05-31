@@ -2,7 +2,8 @@ import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-import {version} from '../../../packages/core/package.json';
+
+import {version} from '../../../lerna.json';
 
 
 const navigation = [
