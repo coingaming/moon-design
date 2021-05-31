@@ -16,7 +16,7 @@ export default function Breadcrumbs() {
         <li>
           <div className="flex items-center">
             <Link href="/">
-              <a className="text-xs leading-4 text-gray-500 hover:text-gray-700">
+              <a className="text-sm leading-4 text-gray-500 hover:text-gray-700">
                 Moon.io
               </a>
             </Link>
@@ -44,7 +44,7 @@ export default function Breadcrumbs() {
 
                 <a
                   href="#"
-                  className="ml-3 text-xs leading-4 text-gray-500 hover:text-gray-700"
+                  className="ml-3 text-sm leading-4 text-gray-500 hover:text-gray-700"
                   // aria-current={page.current ? 'page' : undefined}
                 >
                   {page && page[0].toUpperCase() + page.slice(1)}

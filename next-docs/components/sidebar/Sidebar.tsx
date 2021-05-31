@@ -3,8 +3,7 @@ import { Disclosure } from '@headlessui/react';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
 
-import {version} from '../../../lerna.json';
-
+import { version } from '../../../lerna.json';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -43,8 +42,8 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive, isSubMenu }) => (
         isActive
           ? 'bg-gray-100 text-gray-900'
           : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-        isSubMenu ? 'pl-4' : 'pl-2',
-        'text-lg group w-full flex items-center py-2 text-sm font-medium rounded-md'
+        isSubMenu ? 'pl-7' : '',
+        'text-lg px-3 py-2 leading-7 group w-full flex items-center py-2 text-sm font-medium rounded-md'
       )}
     >
       {children}
@@ -100,7 +99,7 @@ export default function Sidebar() {
                         isCurrent(item.href)
                           ? 'bg-gray-100 text-gray-900'
                           : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-                        'text-lg pl-2 group w-full flex justify-between items-center pr-2 py-2 text-left text-sm font-medium rounded-md focus:outline-none'
+                        'text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left text-sm font-medium rounded-md focus:outline-none'
                       )}
                     >
                       {item.name}
@@ -132,7 +131,10 @@ export default function Sidebar() {
               </Disclosure>
             )
           )}
-          {version}
+          <div className="mt-4 px-3 py-2 text-sm leading-5 text-gray-500">
+            <p>Moon.io version:</p>
+            <p>{version}</p>
+          </div>
         </nav>
       </div>
     </div>
