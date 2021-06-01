@@ -37,8 +37,8 @@ export default function Breadcrumbs() {
                   <path
                     d="M13 10L19 16L13 22"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
 

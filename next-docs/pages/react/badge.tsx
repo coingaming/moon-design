@@ -6,15 +6,13 @@ import { ThemeProvider, sportsbetDark } from '@heathmont/moon-themes';
 
 export default function PageBadge() {
   return (
-    <ThemeProvider theme={sportsbetDark}>
-      <>
-        <h1>Badge</h1>
-        <p>Small count and labeling component.</p>
-        <Badge>Active</Badge>
-        <Badge color="goten.100" backgroundColor="piccolo.100">
-          Active
-        </Badge>
-      </>
-    </ThemeProvider>
+    <>
+      <h1>Badge</h1>
+      <p>Small count and labeling component.</p>
+      <Badge>Active</Badge>
+      <Badge color="goten.100" backgroundColor="piccolo.100">
+        Active
+      </Badge>
+    </>
   );
 }

@@ -1475,12 +1475,23 @@
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.2.0.tgz#e48652bfce82ddf73d7f331faeb9db6526ee6874"
   integrity sha512-19DkLz8gDgbi+WvkoTzi9vs0NK9TJf94vbYhMzB4LYJo03Kili0gmvXT9CiKZoxXZ7YAvy/b1U1oQKEnjWrqxw==
 
-"@heathmont/moon-themes@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-5.0.1.tgz#0ca75d51b391f1df16942c59c5eea5fcf15abadb"
-  integrity sha512-1Vb61Q9yBCBPCalte4VMTxjBaTfuaWQRJ9GtQ6ec6pQj5S/1o85emrWgo/MODTTe+ktuGqdKKeSoNkkMISlgJw==
+"@heathmont/moon-core@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-core/-/moon-core-5.0.0.tgz#8bcaa577c15f25954b434cabf7d27aef4f3f428e"
+  integrity sha512-rztExRLTfJE5xXSyyb+OnhfcmVrV117iHalzvU/gq9eBPGjoiCm2nAKBcPQ9Ldo50HmZmMhZJeI1NJEhIXuVHw==
   dependencies:
-    "@heathmont/moon-fonts" "^5.0.0"
+    "@heathmont/moon-themes" "^5.0.0"
+    "@heathmont/moon-utils" "^5.0.0"
+
+"@heathmont/moon-utils@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-5.0.0.tgz#2537003cd584dd55a291f751c1e937497e4beb21"
+  integrity sha512-8bN+ZDr5V3gnFTS/k2BnHhEnZIMQDNPpWgh9G7qUbF7zQ50TzpjbCjVUVVKpUKDsr7SlWp1/PoDS1PNyUwWTPw==
+  dependencies:
+    "@heathmont/moon-themes" "^5.0.0"
+    lodash.get "4.4.2"
+    lodash.has "4.5.2"
+    polished "3.4.1"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"

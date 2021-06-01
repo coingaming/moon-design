@@ -59,8 +59,8 @@ export default function SidebarTransition({ children, isOpen, setIsOpen }) {
                     <path
                       d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </button>
