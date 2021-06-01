@@ -7,14 +7,46 @@ import { useDocsTheme } from './themes/DocsThemeProvider';
 import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
 
+const getClassName = ({ brand, colorMode }) => {
+  if (brand === 'moonDesign') {
+    if (colorMode === 'dark') {
+      return 'theme-moon-dark';
+    }
+    if (colorMode === 'light') {
+      return 'theme-moon-light';
+    }
+  }
+  if (brand === 'sportsbet') {
+    if (colorMode === 'dark') {
+      return 'theme-sportsbet-dark';
+    }
+    if (colorMode === 'light') {
+      return 'theme-sportsbet-light';
+    }
+  }
+  if (brand === 'bitcasino') {
+    if (colorMode === 'dark') {
+      return 'theme-bitcasino-dark';
+    }
+    if (colorMode === 'light') {
+      return 'theme-bitcasino-light';
+    }
+  }
+  return 'theme-moon-dark';
+};
+
 export default function Layout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { toggleColorScheme, getColorMode, setBrand, getBrand, themeKeys } =
     useDocsTheme();
   const openSidebar = () => setSidebarOpen(true);
+  const className = getClassName({
+    brand: getBrand(),
+    colorMode: getColorMode(),
+  });
 
   return (
-    <div className="h-screen bg-white overflow-hidden flex">
+    <div className={`${className} h-screen bg-white overflow-hidden flex`}>
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
