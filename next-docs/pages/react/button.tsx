@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 
 import { Button } from '@heathmont/moon-components';
-import { ThemeProvider, sportsbetDark } from '@heathmont/moon-themes';
-import PreviewSwitch from '../../components/codePreview/PreviewSwitch';
+import PreviewSwitch from '../../components/codePreview/Switch';
+import Preview from '../../components/codePreview/Preview';
 
 export default function PageBadge() {
   return (
@@ -22,17 +22,14 @@ export default function PageBadge() {
         </p>
       </section>
       <section className="mt-6">
-        <div className="flex flex-row items-center justify-between">
-          <h2 className="text-2xl">Primary</h2>
-          <PreviewSwitch />
-        </div>
-        <div className="mt-4">
-          <div className="bg-white overflow-hidden shadow sm:rounded-lg">
-            <div className="px-4 py-5 sm:p-6">
-              <Button variant="primary">Active</Button>
-            </div>
-          </div>
-        </div>
+        <Preview
+          title="Primary"
+          preview={<Button variant="primary">Active</Button>}
+          code={`import { Button } from '@heathmont/moon-components';
+
+<Button variant="primary">Active</Button>`
+}
+        />
       </section>
     </>
   );

@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
 }
@@ -21,10 +19,14 @@ const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   </button>
 );
 
-export default function PreviewSwitch() {
-  const [isPreviewActive, setActive] = useState(true);
-  const setPreviewActive = () => setActive(true);
-  const setCodeActive = () => setActive(false);
+export default function PreviewSwitch({
+  isPreviewActive,
+  setPreviewActive,
+  setCodeActive,
+}) {
+  // const [isPreviewActive, setActive] = useState(true);
+  // const setPreviewActive = () => setActive(true);
+  // const setCodeActive = () => setActive(false);
 
   return (
     <div className="p-0.5 rounded-lg flex bg-gray-300">
