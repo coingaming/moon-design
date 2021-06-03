@@ -46,7 +46,7 @@ export default function Layout({ children }) {
   });
 
   return (
-    <div className={`${className} h-screen bg-white overflow-hidden flex`}>
+    <div className={`${className} h-screen bg-background overflow-hidden flex`}>
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />

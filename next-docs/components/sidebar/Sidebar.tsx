@@ -4,26 +4,7 @@ import { useRouter } from 'next/router';
 import NextLink from 'next/link';
 
 import { version } from '../../../lerna.json';
-
-const navigation = [
-  { name: 'Home', href: '/' },
-  {
-    name: 'Getting Started',
-    href: '/start/getting-started',
-    children: [{ name: 'Global Reset', href: '/start/reset' }],
-  },
-  {
-    name: 'React',
-    children: [
-      { name: 'Badge', href: '/react/badge' },
-      { name: 'Avatar', href: '/react/avatar' },
-    ],
-  },
-  {
-    name: 'Atomic',
-    children: [{ name: 'Button', href: '/atomic/button' }],
-  },
-];
+import navigation from './navigation';
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -40,8 +21,8 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive, isSubMenu }) => (
     <a
       className={classNames(
         isActive
-          ? 'bg-gray-100 text-gray-900'
-          : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
+          ? 'text-gray-900'
+          : 'text-gray-600 hover:text-gray-900',
         isSubMenu ? 'pl-7' : '',
         'text-lg px-3 py-2 leading-7 group w-full flex items-center py-2 text-sm font-medium rounded-md'
       )}
@@ -58,7 +39,7 @@ export default function Sidebar() {
     items.some((item: { href: string }) => isCurrent(item.href));
 
   return (
-    <div className="flex flex-col flex-grow pt-8 px-6 bg-white overflow-y-auto">
+    <div className="flex flex-col flex-grow pt-8 px-6 bg-background overflow-y-auto">
       <div className="flex items-center flex-shrink-0 pl-2 mb-12">
         {/* LOGO */}
         <svg
@@ -77,7 +58,7 @@ export default function Sidebar() {
         </svg>
       </div>
       <div className="flex-grow flex flex-col">
-        <nav className="flex-1 space-y-1 bg-white" aria-label="Sidebar">
+        <nav className="flex-1 space-y-1" aria-label="Sidebar">
           {navigation.map((item) =>
             !item.children ? (
               <div key={item.name}>
@@ -97,8 +78,8 @@ export default function Sidebar() {
                     <Disclosure.Button
                       className={classNames(
                         isCurrent(item.href)
-                          ? 'bg-gray-100 text-gray-900'
-                          : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
+                          ? 'text-gray-900'
+                          : 'text-gray-600 hover:text-gray-900',
                         'text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left text-sm font-medium rounded-md focus:outline-none'
                       )}
                     >

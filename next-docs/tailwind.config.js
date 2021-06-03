@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        background: '#E5E5E5',
         transparent: 'transparent',
         current: 'currentColor',
         piccolo: {
