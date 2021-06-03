@@ -30,7 +30,7 @@ export default function Preview({ title, preview, code }) {
       </div>
       <div
         className={classNames(
-          isPreviewActive ? 'bg-white' : 'bg-black text-white overflow-x-scroll',
+          isPreviewActive ? 'bg-white flex justify-center' : 'bg-black text-white overflow-x-scroll',
           'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6'
         )}
       >
