@@ -1,0 +1,164 @@
+---
+name: Modal
+menu: Components
+route: /components/modal
+---
+
+# Modal
+
+A small pop-up window to display additional content or request action from the
+user.
+
+Available Props
+
+- backgroundColor
+- borderRadius
+- buttonClose
+- clickOutsideClose
+- content
+- disableOverlay
+- glassBackground
+- padding
+- size
+
+## Examples
+
+### Default behaviour and options
+
+```jsx react-live
+() => {
+  const [showModal, setShowModal] = React.useState(false);
+
+  return (
+    <>
+      <Button variant="primary" onClick={() => setShowModal(true)}>
+        Show Modal
+      </Button>
+      <Modal
+        isOpen={showModal}
+        handleClose={() => setShowModal(false)}
+        buttonClose
+        clickOutsideClose
+        size="small"
+        padding={16}
+        borderRadius={16}
+        content={
+          <Stack>
+            <Heading as="h1" size="bravo">
+              Lorem Ipsum Dolor Sit Amet.
+            </Heading>
+            <Text>
+              Consectetur adipiscing elit. Nullam gravida ex tempor, ornare
+              sapien a, sodales velit. Curabitur ac ultrices massa, eu
+              scelerisque mauris.
+            </Text>
+            <Text>
+              Donec maximus purus at tempor elementum. Donec commodo aliquam
+              metus, et vestibulum felis venenatis pellentesque. Donec malesuada
+              diam nec magna maximus semper. In iaculis nunc erat, in dignissim
+              tortor facilisis id. Nulla sit amet auctor nisi, eu porttitor
+              tortor. Suspendisse congue porta magna, vel euismod eros tempus a.
+              Vestibulum consequat consequat vulputate. Vivamus fringilla
+              malesuada purus in consectetur.
+            </Text>
+          </Stack>
+        }
+      />
+    </>
+  );
+};
+```
+
+### With overlay background disabled
+
+```jsx react-live
+() => {
+  const [showModal, setShowModal] = React.useState(false);
+
+  return (
+    <>
+      <Button variant="primary" onClick={() => setShowModal(true)}>
+        Show Modal
+      </Button>
+      <Modal
+        isOpen={showModal}
+        handleClose={() => setShowModal(false)}
+        buttonClose
+        clickOutsideClose
+        size="small"
+        padding={16}
+        borderRadius={16}
+        disableOverlay
+        content={
+          <Stack>
+            <Heading as="h1" size="bravo">
+              Lorem Ipsum Dolor Sit Amet.
+            </Heading>
+            <Text>
+              Consectetur adipiscing elit. Nullam gravida ex tempor, ornare
+              sapien a, sodales velit. Curabitur ac ultrices massa, eu
+              scelerisque mauris.
+            </Text>
+            <Text>
+              Donec maximus purus at tempor elementum. Donec commodo aliquam
+              metus, et vestibulum felis venenatis pellentesque. Donec malesuada
+              diam nec magna maximus semper. In iaculis nunc erat, in dignissim
+              tortor facilisis id. Nulla sit amet auctor nisi, eu porttitor
+              tortor. Suspendisse congue porta magna, vel euismod eros tempus a.
+              Vestibulum consequat consequat vulputate. Vivamus fringilla
+              malesuada purus in consectetur.
+            </Text>
+          </Stack>
+        }
+      />
+    </>
+  );
+};
+```
+
+### With glassbackground style
+
+```jsx react-live
+() => {
+  const [showModal, setShowModal] = React.useState(false);
+
+  return (
+    <>
+      <Button variant="primary" onClick={() => setShowModal(true)}>
+        Show Modal
+      </Button>
+      <Modal
+        isOpen={showModal}
+        handleClose={() => setShowModal(false)}
+        buttonClose
+        clickOutsideClose
+        size="small"
+        padding={16}
+        borderRadius={16}
+        glassBackground
+        content={
+          <Stack>
+            <Heading as="h1" size="bravo">
+              Lorem Ipsum Dolor Sit Amet.
+            </Heading>
+            <Text>
+              Consectetur adipiscing elit. Nullam gravida ex tempor, ornare
+              sapien a, sodales velit. Curabitur ac ultrices massa, eu
+              scelerisque mauris.
+            </Text>
+            <Text>
+              Donec maximus purus at tempor elementum. Donec commodo aliquam
+              metus, et vestibulum felis venenatis pellentesque. Donec malesuada
+              diam nec magna maximus semper. In iaculis nunc erat, in dignissim
+              tortor facilisis id. Nulla sit amet auctor nisi, eu porttitor
+              tortor. Suspendisse congue porta magna, vel euismod eros tempus a.
+              Vestibulum consequat consequat vulputate. Vivamus fringilla
+              malesuada purus in consectetur.
+            </Text>
+          </Stack>
+        }
+      />
+    </>
+  );
+};
+```
