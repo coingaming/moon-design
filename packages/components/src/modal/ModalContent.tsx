@@ -68,28 +68,24 @@ const ModalContent: React.FC<Props> = ({
   size,
 }) => {
   return (
-    <>
-      {isOpen && (
-        <Content
-          backgroundColor={backgroundColor}
-          borderRadius={borderRadius}
-          isOpen={isOpen}
-          className={className}
-          glassBackground={glassBackground}
-          padding={padding}
-          size={size}
-        >
-          {buttonClose && (
-            <ButtonClose
-              fontSize="0.750rem"
-              color="bulma.100"
-              onClick={handleClose}
-            />
-          )}
-          {content}
-        </Content>
+    <Content
+      backgroundColor={backgroundColor}
+      borderRadius={borderRadius}
+      isOpen={isOpen}
+      className={className}
+      glassBackground={glassBackground}
+      padding={padding}
+      size={size}
+    >
+      {buttonClose && (
+        <ButtonClose
+          fontSize="0.750rem"
+          color="bulma.100"
+          onClick={handleClose}
+        />
       )}
-    </>
+      {content}
+    </Content>
   );
 };
 

@@ -10,7 +10,7 @@ type Props = {
   buttonClose?: boolean;
   content?: React.ReactNode;
   className?: string;
-  clickOutsideClose: boolean;
+  clickOutsideClose?: boolean;
   disableOverlay?: boolean;
   glassBackground?: boolean;
   handleClose?: () => void;

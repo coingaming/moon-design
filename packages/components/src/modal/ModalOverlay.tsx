@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 type Props = {
-  clickOutsideClose: boolean;
+  clickOutsideClose?: boolean;
   disableOverlay?: boolean;
   glassBackground?: boolean;
   handleClose?: () => void;
