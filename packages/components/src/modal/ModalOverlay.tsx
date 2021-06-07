@@ -6,7 +6,6 @@ type Props = {
   disableOverlay?: boolean;
   glassBackground?: boolean;
   handleClose?: () => void;
-  isOpen?: boolean;
 };
 
 const fadeOpen = keyframes`

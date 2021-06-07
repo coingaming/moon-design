@@ -12,7 +12,6 @@ type Props = {
   content?: React.ReactNode;
   glassBackground?: boolean;
   handleClose?: () => void;
-  isOpen?: boolean;
   padding?: string | number;
   size?: 'small' | 'medium' | 'large';
 };
@@ -63,7 +62,6 @@ const ModalContent: React.FC<Props> = ({
   content,
   glassBackground,
   handleClose,
-  isOpen,
   padding,
   size,
 }) => {
@@ -71,7 +69,6 @@ const ModalContent: React.FC<Props> = ({
     <Content
       backgroundColor={backgroundColor}
       borderRadius={borderRadius}
-      isOpen={isOpen}
       className={className}
       glassBackground={glassBackground}
       padding={padding}

@@ -64,7 +64,6 @@ const Modal: React.FC<Props> = ({
             disableOverlay={disableOverlay}
             glassBackground={glassBackground}
             handleClose={handleClose}
-            isOpen={isOpen}
           />
           <ModalContent
             backgroundColor={backgroundColor}
@@ -74,7 +73,6 @@ const Modal: React.FC<Props> = ({
             content={content}
             handleClose={handleClose}
             glassBackground={glassBackground}
-            isOpen={isOpen}
             padding={padding}
             size={size}
           />
