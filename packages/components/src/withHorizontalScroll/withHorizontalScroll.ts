@@ -159,20 +159,20 @@ export const withHorizontalScroll = (options: Options): any => {
         scrollStep || 0,
         itemRefs,
         scrollIntoViewSmoothly,
-        scrollInContainer && containerRef?.current
+        scrollInContainer && containerRef && containerRef.current
       ),
     scrollRightToStep: () =>
       scrollRightToStep(
         scrollStep || 0,
         itemRefs,
         scrollIntoViewSmoothly,
-        scrollInContainer && containerRef?.current
+        scrollInContainer && containerRef && containerRef.current
       ),
     scrollToIndex: (index: number) =>
       scrollToIndex(
         itemRefs[index],
         scrollIntoViewSmoothly,
-        scrollInContainer && containerRef?.current
+        scrollInContainer && containerRef && containerRef.current
       ),
     canScrollLeft: leftIndicator,
     canScrollRight: rightIndicator,
