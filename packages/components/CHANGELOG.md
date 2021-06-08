@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/coingaming/moon-design/compare/v5.0.2...v5.1.0) (2021-06-08)
+
+
+### Bug Fixes
+
+* optional chaining ([#1224](https://github.com/coingaming/moon-design/issues/1224)) ([12e89dd](https://github.com/coingaming/moon-design/commit/12e89dd3fc45225fa9dfc748737cae3cb1ea8957))
+
+
+### Features
+
+* COMMS-3071 add modal component ([#1222](https://github.com/coingaming/moon-design/issues/1222)) ([405cf05](https://github.com/coingaming/moon-design/commit/405cf05550a2ad3e8b0c261620daecdf6b9b15f4))
+
+
+
+
+
 ## [5.0.2](https://github.com/coingaming/moon-design/compare/v5.0.1...v5.0.2) (2021-05-28)
 
 
