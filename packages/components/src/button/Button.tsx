@@ -86,10 +86,10 @@ const StyledButton = styled.button<ButtonProps>(
     ],
   ({ pulse, theme: { color } }) =>
     pulse && [
-      pulseAnimation,
       {
         boxShadow: `0 0 0 0 ${color.piccolo[100]}`,
       },
+      pulseAnimation
     ],
   ({ iconLeft, size }) => [
     iconLeft && size === 'xsmall' && { paddingLeft: rem(8) },
