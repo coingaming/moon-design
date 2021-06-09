@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.1](https://github.com/coingaming/moon-design/compare/v5.1.0...v5.1.1) (2021-06-09)
+
+### Bug Fixes
+
+- table colours ([#1226](https://github.com/coingaming/moon-design/issues/1226)) ([d7f2742](https://github.com/coingaming/moon-design/commit/d7f274254f1d9c0444196a757edb93aa5352e557))
+
 # [5.1.0](https://github.com/coingaming/moon-design/compare/v5.0.2...v5.1.0) (2021-06-08)
 
 **Note:** Version bump only for package docs

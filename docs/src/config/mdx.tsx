@@ -12,11 +12,8 @@ const maxWidth: CSSObject = {
 };
 
 const Table = styled.table(
-  ({
-    theme: {
-      border, color, fontWeight, space,
-    },
-  }) => ({
+  ({ theme: { border, color, fontWeight, space } }) => ({
+    backgroundColor: 'red',
     width: '100%',
     ...maxWidth,
     thead: {
@@ -26,9 +23,11 @@ const Table = styled.table(
       borderBottomColor: color.trunks[100],
     },
     'th, td': {
+      backgroundColor: 'red',
       padding: `${rem(space.small)} 0`,
+      color: color.bulma[100],
     },
-  }),
+  })
 );
 
 const MarkdownStack = styled(Stack as any)({
@@ -81,12 +80,7 @@ export const mdxComponents = {
       {children}
     </a>
   ),
-  li: ({ children }: Children) => (
-    <li className="bg-pink text-bulma">{children}</li>
-  ),
-  table: ({ children }: Children) => <Table>{children}</Table>,
-  /* @TODO Revisit post-EPL */
-  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  li: ({ children }: Children) => <li className="text-bulma">{children}</li>,
   pre: (props: any) => {
     const codeProps = preToCodeBlock(props);
     return codeProps ? <Code {...codeProps} /> : <pre {...props} />;
