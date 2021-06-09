@@ -51,7 +51,7 @@ type ThemePropsTableProps = {
 };
 
 const ThemePropsTable: React.FC<ThemePropsTableProps> = ({ options }) => (
-  <Table>
+  <Table className="text-bulma">
     <thead>
       <tr>
         <th>Property</th>
