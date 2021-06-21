@@ -9,7 +9,7 @@ export default function PageAvatar() {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Avatar</h1>
         <p className="text-lg mt-4">
-          Component for displaying user profile image or placeholder if no image
+          Component for displaying user profile image or placeholder if no image.
         </p>
       </section>
 
