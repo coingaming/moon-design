@@ -8,10 +8,10 @@ const navigation = [
   {
     name: 'Components',
     children: [
-      { name: 'Badge', href: '/react/badge' },
-      { name: 'Button', href: '/react/button' },
-      { name: 'Avatar', href: '/react/avatar' },
-      { name: 'Charts', href: '/react/charts' },
+      { name: 'Badge', href: '/components/badge' },
+      { name: 'Button', href: '/components/button' },
+      { name: 'Avatar', href: '/components/avatar' },
+      { name: 'Charts', href: '/components/charts' },
     ],
   },
   {
