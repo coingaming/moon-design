@@ -6,11 +6,12 @@ const navigation = [
     children: [{ name: 'Global Reset', href: '/start/reset' }],
   },
   {
-    name: 'React',
+    name: 'Components',
     children: [
       { name: 'Badge', href: '/react/badge' },
       { name: 'Button', href: '/react/button' },
       { name: 'Avatar', href: '/react/avatar' },
+      { name: 'Charts', href: '/react/charts' },
     ],
   },
   {
