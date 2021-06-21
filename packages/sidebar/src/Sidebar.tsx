@@ -12,6 +12,7 @@ type Props = {
   openWidth?: number;
   collapseWidth?: number;
   onToggle?: (_: boolean) => void;
+  onStateChange?: (state: boolean) => void
 };
 
 const Sidebar: React.FC<Props> = ({
@@ -23,6 +24,7 @@ const Sidebar: React.FC<Props> = ({
   openWidth = 236,
   collapseWidth = 80,
   onToggle,
+  onStateChange
 }) => {
   const [isOpen, setIsOpen] = useState(initialState);
   const initialRender = useRef(true);
@@ -36,13 +38,19 @@ const Sidebar: React.FC<Props> = ({
     }
     onToggle(isOpen);
   }, [isOpen, onToggle]);
+
+  const handleStateChange = (state: boolean) => {
+    setIsOpen(state)
+    if (onStateChange) onStateChange(state)
+  }
+
   return (
     <OuterContainer
       isOpen={isOpen}
       openWidth={openWidth}
       collapseWidth={collapseWidth}
     >
-      <CollapseTarget onClick={() => setIsOpen(!isOpen)} isOpen={isOpen}>
+      <CollapseTarget onClick={() => handleStateChange(!isOpen)} isOpen={isOpen}>
         {isOpen ? collapseIcon : expandIcon}
       </CollapseTarget>
       {isOpen ? <Container>{children}</Container> : logo}

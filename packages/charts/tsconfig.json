@@ -2,7 +2,8 @@
   "extends": "../../.config/ts/tsconfig.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "lib"
+    "outDir": "lib",
+    "skipLibCheck": true
   },
   "include": ["src"],
   "exclude": ["src/**/__tests__"]

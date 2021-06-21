@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.2](https://github.com/coingaming/moon-design/compare/v5.1.1...v5.1.2) (2021-06-09)
+
+### Bug Fixes
+
+- fix pulsating button ([#1228](https://github.com/coingaming/moon-design/issues/1228)) ([3796fb6](https://github.com/coingaming/moon-design/commit/3796fb6d5149f15b80c1a6dfcd8b7f7a7bcdaac6))
+
 # [5.1.0](https://github.com/coingaming/moon-design/compare/v5.0.2...v5.1.0) (2021-06-08)
 
 ### Bug Fixes

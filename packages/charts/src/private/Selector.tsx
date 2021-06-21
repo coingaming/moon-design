@@ -34,8 +34,11 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
   transition: `background ${theme.transitionDuration.default}s`,
   minWidth: rem(124),
   '&:hover': {
-    background: theme.color.goku[100],
+    background: theme.color.goku[80],
   },
+  '&:active': {
+    background: theme.color.goku[40]
+  }
 }));
 
 const ColorPreview = styled.div<{ color?: ColorProps }>(({ theme, color }) => ({
