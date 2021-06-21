@@ -8,9 +8,9 @@ const navigation = [
   {
     name: 'Components',
     children: [
+      { name: 'Avatar', href: '/components/avatar' },
       { name: 'Badge', href: '/components/badge' },
       { name: 'Button', href: '/components/button' },
-      { name: 'Avatar', href: '/components/avatar' },
       { name: 'Charts', href: '/components/charts' },
     ],
   },
