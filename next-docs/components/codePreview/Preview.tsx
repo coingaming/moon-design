@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import PreviewSwitch from './Switch';
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
-}
+import classNames from '../../utils/classNames';
+import PreviewSwitch from './Switch';
 
 const Code = ({ code }) => {
   return (

@@ -12,7 +12,13 @@ const navigation = [
       { name: 'Badge', href: '/components/badge' },
       { name: 'Button', href: '/components/button' },
       { name: 'Carousel', href: '/components/carousel' },
-      { name: 'Charts', href: '/components/charts' },
+      {
+        name: 'Charts',
+        children: [
+          { name: 'Line Chart', href: '/components/charts/lineChart' },
+          { name: 'Pie Chart', href: '/components/charts/pieChart' }
+        ],
+      },
     ],
   },
   {

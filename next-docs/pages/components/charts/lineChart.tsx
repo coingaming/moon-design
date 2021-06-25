@@ -2,7 +2,7 @@ import React from 'react';
 import { CheckboxMultiselect } from '@heathmont/moon-components';
 import { Filter, LineChart } from '@heathmont/moon-charts';
 
-export default function PageAvatar() {
+export default function PageLineChart() {
   const options = [
     {
       label: 'Active players',

@@ -1,6 +1,4 @@
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
-}
+import classNames from "../../utils/classNames";
 
 const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   children,
