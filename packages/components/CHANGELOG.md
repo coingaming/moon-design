@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.2.0](https://github.com/coingaming/moon-design/compare/v5.1.3...v5.2.0) (2021-06-29)
+
+
+### Features
+
+* snackbar component - add maxWidth prop ([#1233](https://github.com/coingaming/moon-design/issues/1233)) ([8ab812a](https://github.com/coingaming/moon-design/commit/8ab812a0db09177ee451c2d2b0aa0e2f8aca0c62))
+
+
+
+
+
 ## [5.1.2](https://github.com/coingaming/moon-design/compare/v5.1.1...v5.1.2) (2021-06-09)
 
 
