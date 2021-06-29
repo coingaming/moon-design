@@ -10,6 +10,7 @@ import IconSnackbarSuccess from '../private/icons/IconSnackbarSuccess';
 type SnackbarWrapperProps = {
   justifyContent?: 'flex-start' | 'center' | 'flex-end';
   position?: 'bottom' | 'top' | 'inline';
+  maxWidth?: string;
 };
 
 type SnackbarProps = SnackbarWrapperProps & {
@@ -28,6 +29,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
     },
     position,
     justifyContent,
+    maxWidth,
   }) => [
     { width: 'fit-content' },
     (position === 'bottom' || position === 'top') && {
@@ -37,7 +39,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
       zIndex: zIndex.dialog,
       marginBottom: space.default,
       minWidth: rem(180),
-      maxWidth: `calc(100vw - ${space.default * 2}px)`,
+      maxWidth: maxWidth || `calc(100vw - ${space.default * 2}px)`,
       [mq(breakpoint.medium)]: {
         margin: space.default,
       },
@@ -90,8 +92,9 @@ const Snackbar: React.FC<SnackbarProps> = ({
   position = 'bottom',
   status,
   justifyContent,
+  maxWidth,
 }) => (
-    <SnackbarWrapper position={position} justifyContent={justifyContent}>
+    <SnackbarWrapper position={position} justifyContent={justifyContent} maxWidth={maxWidth}>
       {status === 'error' && (
         <IconWrapper>
           <IconError fontSize="1.5rem" />
