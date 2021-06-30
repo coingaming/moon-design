@@ -44,7 +44,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
         margin: space.default,
       },
       [mq(breakpoint.large)]: {
-        maxWidth: '20vw',
+        maxWidth: maxWidth || '20vw',
         width: 'fit-content',
         left: 0,
         transform: 'none',
