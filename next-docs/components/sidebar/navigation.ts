@@ -8,6 +8,7 @@ const navigation = [
   {
     name: 'Components',
     children: [
+      { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
       { name: 'Badge', href: '/components/badge' },
       { name: 'Button', href: '/components/button' },
@@ -16,18 +17,47 @@ const navigation = [
         name: 'Charts',
         children: [
           { name: 'Geo map', href: '/components/charts/geoMapChart' },
-          { name: 'Line', href: '/components/charts/lineChart' },
-          { name: 'Pie', href: '/components/charts/pieChart' },
-          { name: 'Table', href: '/components/charts/tableChart' },
-          { name: 'Vertical bar', href: '/components/charts/verticalBarChart' },
+          { name: 'Line', href: '/components/charts/lineChart' }, // TODO
+          { name: 'Pie', href: '/components/charts/pieChart' }, // TODO
+          { name: 'Table', href: '/components/charts/tableChart' }, // TODO
+          { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
         ],
       },
+      { name: 'Checkbox', href: '/components/checkbox' },
+      { name: 'Datepicker', href: '/components/datepicker' },
+      {
+        name: 'Dialog',
+        children: [
+          { name: 'Dialog', href: '/components/dialog/dialog' }, // TODO
+          { name: 'Dialog Content', href: '/components/dialog/dialogContent' }, // TODO
+          { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' }, // TODO
+        ],
+      },
+      // Dropdown
+      { name: 'Loader', href: '/components/loader' }, // TODO
+      { name: 'Pagination', href: '/components/pagination' }, // TODO
+      { name: 'Select', href: '/components/select' }, // TODO
+      { name: 'Search', href: '/components/search' }, // TODO
+      { name: 'Tabs', href: '/components/tabs' }, // TODO
+      {
+        name: 'Table',
+        children: [
+          { name: 'Table', href: '/components/table/table' }, // TODO
+        ],
+      },
+      { name: 'TextInput', href: '/components/textInput' }, // TODO
+      { name: 'Toggle', href: '/components/toggle' }, // TODO
+      { name: 'Tooltip', href: '/components/tooltip' }, // TODO
+
+      // Caption
+      // Heading
+      // Text
     ],
   },
-  {
-    name: 'Atomic',
-    children: [{ name: 'Button', href: '/atomic/button' }],
-  },
+  // {
+  //   name: 'Atomic',
+  //   children: [{ name: 'Button', href: '/atomic/button' }],
+  // },
 ];
 
 export default navigation;

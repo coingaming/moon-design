@@ -1,106 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-const props = [
-  {
-    name: 'title',
-    type: 'string',
-    required: true,
-    default: '-',
-    description: 'Chart title text',
-  },
-  {
-    name: 'data',
-    type: 'Data[]',
-    required: true,
-    default: '-',
-    description: 'Required. Array of data',
-  },
-  {
-    name: 'onUpdate',
-    type: 'function',
-    required: false,
-    default: '-',
-    description: 'Handler function when pressing the update button',
-  },
-  {
-    name: 'onShare',
-    type: 'function',
-    required: false,
-    default: '-',
-    description: 'Handler function when pressing the share button',
-  },
-  {
-    name: 'onExpand',
-    type: 'function',
-    required: false,
-    default: '-',
-    description: 'Handler function when pressing the expand button',
-  },
-  {
-    name: 'isUpdating',
-    type: 'boolean',
-    required: false,
-    default: 'false',
-    description: 'If set true, the loader icon is displayed',
-  },
-  {
-    name: 'hasUpdates',
-    type: 'boolean',
-    required: false,
-    default: 'false',
-    description: 'If set true, the dot icon is displayed',
-  },
-  {
-    name: 'filter',
-    type: 'React.ReactNode',
-    required: false,
-    default: '-',
-    description: 'Placeholder for filter component',
-  },
-  {
-    name: 'height',
-    type: 'string, number',
-    required: false,
-    default: '446',
-    description: 'Height of component',
-  },
-  {
-    name: 'positiveColor',
-    type: 'ColorProps',
-    required: false,
-    default: 'krillin.100',
-    description: 'Highlight color for positive values',
-  },
-  {
-    name: 'negativeColor',
-    type: 'ColorProps',
-    required: false,
-    default: 'whis.100',
-    description: 'Highlight color for negative values',
-  },
-  {
-    name: 'icon',
-    type: 'React.ReactNode',
-    required: false,
-    default: '<ChartIcons.Countries />',
-    description: 'Placeholder for chart icon component',
-  },
-  {
-    name: 'loaderText',
-    type: 'string, React.ReactNode',
-    required: false,
-    default: 'No data',
-    description: 'The text for "no data" / "loading" states',
-  },
-  {
-    name: 'formatFn',
-    type: 'function',
-    required: false,
-    default: '-',
-    description: 'The formatter function of data value',
-  },
-];
-
-export default function Table() {
+export default function Table({ data }) {
   return (
     <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -143,26 +41,26 @@ export default function Table() {
                 </tr>
               </thead>
               <tbody>
-                {props.map((person, personIdx) => (
+                {data.map((prop, propIdx) => (
                   <tr
-                    key={person.email}
-                    className={personIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+                    key={prop.email}
+                    className={propIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
                   >
                     <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                      {person.name}
+                      {prop.name}
                     </td>
 
                     <td className="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {person.type}
+                      {prop.type}
                     </td>
                     <td className="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {person.required ? 'Yes' : 'No'}
+                      {prop.required ? 'Yes' : 'No'}
                     </td>
                     <td className="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {person.default}
+                      {prop.default}
                     </td>
                     <td className="px-4 py-4 text-sm text-gray-500">
-                      {person.description}
+                      {prop.description}
                     </td>
                   </tr>
                 ))}
