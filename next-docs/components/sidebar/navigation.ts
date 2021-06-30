@@ -3,7 +3,7 @@ const navigation = [
   {
     name: 'Getting Started',
     href: '/start/getting-started',
-    children: [{ name: 'Global Reset', href: '/start/reset' }],
+    children: [{ name: 'Reset', href: '/start/reset' }],
   },
   {
     name: 'Components',
@@ -28,26 +28,26 @@ const navigation = [
       {
         name: 'Dialog',
         children: [
-          { name: 'Dialog', href: '/components/dialog/dialog' }, // TODO
-          { name: 'Dialog Content', href: '/components/dialog/dialogContent' }, // TODO
-          { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' }, // TODO
+          { name: 'Dialog', href: '/components/dialog/dialog' }, // TODO code
+          { name: 'Dialog Content', href: '/components/dialog/dialogContent' }, // TODO code
+          { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' }, // TODO code
         ],
       },
       // Dropdown
       { name: 'Loader', href: '/components/loader' }, // TODO
       { name: 'Pagination', href: '/components/pagination' }, // TODO
-      { name: 'Select', href: '/components/select' }, // TODO
-      { name: 'Search', href: '/components/search' }, // TODO
-      { name: 'Tabs', href: '/components/tabs' }, // TODO
-      {
-        name: 'Table',
-        children: [
-          { name: 'Table', href: '/components/table/table' }, // TODO
-        ],
-      },
-      { name: 'TextInput', href: '/components/textInput' }, // TODO
-      { name: 'Toggle', href: '/components/toggle' }, // TODO
-      { name: 'Tooltip', href: '/components/tooltip' }, // TODO
+      // { name: 'Select', href: '/components/select' }, // TODO
+      // { name: 'Search', href: '/components/search' }, // TODO
+      // { name: 'Tabs', href: '/components/tabs' }, // TODO
+      // {
+      //   name: 'Table',
+      //   children: [
+      //     { name: 'Table', href: '/components/table/table' }, // TODO
+      //   ],
+      // },
+      // { name: 'TextInput', href: '/components/textInput' }, // TODO
+      // { name: 'Toggle', href: '/components/toggle' }, // TODO
+      // { name: 'Tooltip', href: '/components/tooltip' }, // TODO
 
       // Caption
       // Heading
