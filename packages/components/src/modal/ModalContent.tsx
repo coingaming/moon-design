@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import IconClose from '../private/icons/IconClose';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
@@ -14,15 +14,28 @@ type Props = {
   handleClose?: () => void;
   padding?: string | number;
   size?: 'small' | 'medium' | 'large';
+  showUnmountAnimation?: boolean;
 };
 
 const fadeOpen = keyframes`
-  0% { opacity: 0; transform:scale(0.3); }
+  0% { opacity: 0; transform:scale(0.8); }
   100% { opacity: 1; transform:scale(1); }
 `;
 
+const fadeClose = keyframes`
+  0% { opacity: 1; transform:scale(1); }
+  100% { opacity: 0; transform:scale(0.9); }
+`;
+
 const Content = styled.div<Props>`
-  animation: ${fadeOpen} 0.2s ease-in-out;
+  animation: ${({ showUnmountAnimation }) =>
+    showUnmountAnimation
+      ? css`
+          ${fadeClose} 0.2s ease-in-out
+        `
+      : css`
+          ${fadeOpen} 0.2s ease-in-out
+        `};
   background: ${({ backgroundColor, glassBackground, theme }) =>
     glassBackground
       ? 'rgba(255,255,255,0.4)'
@@ -42,7 +55,6 @@ const Content = styled.div<Props>`
     glassBackground ? 'blur(10px)' : 'none'};
   position: absolute;
   transition: all 2s;
-
   width: 100%;
   z-index: 99;
 `;
@@ -64,6 +76,7 @@ const ModalContent: React.FC<Props> = ({
   handleClose,
   padding,
   size,
+  showUnmountAnimation,
 }) => {
   return (
     <Content
@@ -73,6 +86,7 @@ const ModalContent: React.FC<Props> = ({
       glassBackground={glassBackground}
       padding={padding}
       size={size}
+      showUnmountAnimation={showUnmountAnimation}
     >
       {buttonClose && (
         <ButtonClose
