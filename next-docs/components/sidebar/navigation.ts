@@ -17,10 +17,10 @@ const navigation = [
         name: 'Charts',
         children: [
           { name: 'Geo map', href: '/components/charts/geoMapChart' },
-          { name: 'Line', href: '/components/charts/lineChart' }, // TODO
-          { name: 'Pie', href: '/components/charts/pieChart' }, // TODO
-          { name: 'Table', href: '/components/charts/tableChart' }, // TODO
-          { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
+          // { name: 'Line', href: '/components/charts/lineChart' }, // TODO
+          // { name: 'Pie', href: '/components/charts/pieChart' }, // TODO
+          // { name: 'Table', href: '/components/charts/tableChart' }, // TODO
+          // { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
         ],
       },
       { name: 'Checkbox', href: '/components/checkbox' },
@@ -34,7 +34,7 @@ const navigation = [
         ],
       },
       // Dropdown
-      { name: 'Loader', href: '/components/loader' }, // TODO
+      { name: 'Loader', href: '/components/loader' },
       { name: 'Pagination', href: '/components/pagination' }, // TODO
       // { name: 'Select', href: '/components/select' }, // TODO
       // { name: 'Search', href: '/components/search' }, // TODO

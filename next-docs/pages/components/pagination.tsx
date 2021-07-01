@@ -141,6 +141,22 @@ export default function PagePagination() {
           ]}
         />
       </section>
+
+
+      {/* With the "page size" section */}
+
+
+      {/* With the "go to page" section */}
+
+      {/* With the "change page size" section */}
+
+      {/* With all sections */}
+
+      {/* With previous and next buttons label customization */}
+
+      {/* With the first page selected */}
+
+      {/* With the last page selected */}
     </>
   );
 }

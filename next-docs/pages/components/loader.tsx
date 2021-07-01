@@ -35,7 +35,7 @@ export default function PageLoader() {
       {/* Default */}
       <section className="mt-8">
         <Preview
-          title="Loader"
+          title="Default"
           preview={<Example />}
           code={`import { Loader } from '@heathmont/moon-core';
 import { Inline } from '@heathmont/moon-components';
@@ -51,7 +51,7 @@ import { Inline } from '@heathmont/moon-components';
       {/* Customization */}
       <section className="mt-8">
         <Preview
-          title="Customization"
+          title="Colours"
           preview={<ExampleCustomization />}
           code={`import { Loader } from '@heathmont/moon-core';
 import { Inline } from '@heathmont/moon-components';
