@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.2](https://github.com/coingaming/moon-design/compare/v5.2.1...v5.2.2) (2021-07-01)
+
+
+### Bug Fixes
+
+* **modal:** add portals to render modal on body and unmount animation ([#1237](https://github.com/coingaming/moon-design/issues/1237)) ([44927f8](https://github.com/coingaming/moon-design/commit/44927f81843090e3b6e134dfe8c11e6bb41b9ab6))
+
+
+
+
+
 ## [5.2.1](https://github.com/coingaming/moon-design/compare/v5.2.0...v5.2.1) (2021-06-30)
 
 
