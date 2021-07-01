@@ -19,8 +19,10 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive }) => (
   <NextLink href={href}>
     <a
       className={classNames(
-        isActive ? 'text-gray-900' : 'text-gray-600 hover:text-gray-900',
-        'text-lg px-3 py-2 leading-7 group w-full flex items-center py-2 text-sm font-medium rounded-md'
+        isActive
+          ? 'text-active font-bold bg-active-80'
+          : 'text-black hover:text-active hover:bg-active-80',
+        'text-lg px-3 py-2 w-min whitespace-nowrap leading-7 group w-full flex items-center py-2 font-medium rounded-md transition-colors ease-in-out duration-150'
       )}
     >
       {children}
@@ -28,7 +30,10 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive }) => (
   </NextLink>
 );
 
-const recursiveIsCurrent = (item: { href: string; children?: any }): boolean => {
+const recursiveIsCurrent = (item: {
+  href: string;
+  children?: any;
+}): boolean => {
   const { pathname } = useRouter();
 
   const isCurrent = item.href === pathname;
@@ -64,7 +69,7 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
     >
       {({ open }) => (
         <>
-          <Disclosure.Button className="text-gray-600 hover:text-gray-900 text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left text-sm font-medium rounded-md focus:outline-none">
+          <Disclosure.Button className="text-black hover:text-active hover:bg-active-80 text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left font-medium rounded-md focus:outline-none transition-colors ease-in-out duration-150">
             {item.name}
             <Arrow isOpen={open} />
           </Disclosure.Button>
@@ -83,7 +88,7 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col flex-grow pt-8 px-6 bg-background overflow-y-auto">
+    <div className="flex flex-col flex-grow pt-8 px-6 bg-white overflow-y-auto">
       <div className="flex items-center flex-shrink-0 pl-2 mb-12">
         <Logo />
       </div>

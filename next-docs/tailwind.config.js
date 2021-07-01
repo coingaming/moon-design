@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors: {
         background: '#E5E5E5',
+        active: {
+          DEFAULT: '#4E46B4',
+          80: 'rgba(78, 70, 180, 0.1)',
+        },
         transparent: 'transparent',
         current: 'currentColor',
         piccolo: {

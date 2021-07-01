@@ -30,6 +30,10 @@ body {
   -moz-osx-font-smoothing: grayscale; /* Consistent font display behavior on OSX. */
 }
 
+body {
+  background-color: black;
+}
+
 a {
   color: inherit;
   text-decoration: none;
