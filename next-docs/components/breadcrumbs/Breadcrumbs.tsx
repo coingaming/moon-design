@@ -10,6 +10,9 @@ export default function Breadcrumbs() {
   const { pathname } = useRouter();
 
   const [_, ...pages] = pathname === '/' ? [] : pathname.split('/');
+  if (pathname === '/') {
+    return null;
+  }
   return (
     <nav className="flex" aria-label="Breadcrumb">
       <ol className="flex items-center space-x-4">

@@ -30,9 +30,26 @@ body {
   -moz-osx-font-smoothing: grayscale; /* Consistent font display behavior on OSX. */
 }
 
+/* Custom styles */
 body {
   background-color: black;
 }
+
+.for-designers {
+  height: 32.5rem;
+  width: 23rem;
+  top: 50px;
+  right: 23rem;
+}
+
+.for-developers {
+  height: 32.5rem;
+  width: 23rem;
+  top: 35.6rem;
+  right: 0;
+}
+
+/* End of custom styles */
 
 a {
   color: inherit;

@@ -3,12 +3,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      inset: {
+        60: '60px',
+        250: '15rem',
+        380: '380px',
+      },
       colors: {
-        background: '#E5E5E5',
+        background: '#F4F4F4',
         active: {
           DEFAULT: '#4E46B4',
           80: 'rgba(78, 70, 180, 0.1)',
+          60: '#E9E7F9',
         },
+        designer: 'rgba(52, 72, 240, 0.9)',
+        developer: 'rgba(149, 241, 213, 0.9)',
         transparent: 'transparent',
         current: 'currentColor',
         piccolo: {
