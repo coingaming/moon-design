@@ -11,6 +11,7 @@ type SnackbarWrapperProps = {
   justifyContent?: 'flex-start' | 'center' | 'flex-end';
   position?: 'bottom' | 'top' | 'inline';
   maxWidth?: string;
+  minWidth?: string;
 };
 
 type SnackbarProps = SnackbarWrapperProps & {
@@ -24,12 +25,11 @@ type SnackbarProps = SnackbarWrapperProps & {
 
 const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
   ({
-    theme: {
-      color, space, zIndex, breakpoint,
-    },
+    theme: { color, space, zIndex, breakpoint },
     position,
     justifyContent,
     maxWidth,
+    minWidth,
   }) => [
     { width: 'fit-content' },
     (position === 'bottom' || position === 'top') && {
@@ -38,7 +38,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
       transform: 'translate(-50%, 0)',
       zIndex: zIndex.dialog,
       marginBottom: space.default,
-      minWidth: rem(180),
+      minWidth: minWidth || rem(180),
       maxWidth: maxWidth || `calc(100vw - ${space.default * 2}px)`,
       [mq(breakpoint.medium)]: {
         margin: space.default,
@@ -93,31 +93,37 @@ const Snackbar: React.FC<SnackbarProps> = ({
   status,
   justifyContent,
   maxWidth,
+  minWidth,
 }) => (
-    <SnackbarWrapper position={position} justifyContent={justifyContent} maxWidth={maxWidth}>
-      {status === 'error' && (
-        <IconWrapper>
-          <IconError fontSize="1.5rem" />
-        </IconWrapper>
-      )}
-      {status === 'warning' && (
-        <IconWrapper>
-          <IconWarning fontSize="1.5rem" color="krillin.100" />
-        </IconWrapper>
-      )}
-      {status === 'info' && (
-        <IconWrapper>
-          <IconBannerInfo fontSize="1.5rem" color="krillin.100" />
-        </IconWrapper>
-      )}
-      {status === 'success' && (
-        <IconWrapper>
-          <IconSnackbarSuccess fontSize="1.5rem" color="krillin.100" />
-        </IconWrapper>
-      )}
-      {message && <MessageWrapper>{message}</MessageWrapper>}
-      {action && action}
-    </SnackbarWrapper>
+  <SnackbarWrapper
+    position={position}
+    justifyContent={justifyContent}
+    maxWidth={maxWidth}
+    minWidth={minWidth}
+  >
+    {status === 'error' && (
+      <IconWrapper>
+        <IconError fontSize="1.5rem" />
+      </IconWrapper>
+    )}
+    {status === 'warning' && (
+      <IconWrapper>
+        <IconWarning fontSize="1.5rem" color="krillin.100" />
+      </IconWrapper>
+    )}
+    {status === 'info' && (
+      <IconWrapper>
+        <IconBannerInfo fontSize="1.5rem" color="krillin.100" />
+      </IconWrapper>
+    )}
+    {status === 'success' && (
+      <IconWrapper>
+        <IconSnackbarSuccess fontSize="1.5rem" color="krillin.100" />
+      </IconWrapper>
+    )}
+    {message && <MessageWrapper>{message}</MessageWrapper>}
+    {action && action}
+  </SnackbarWrapper>
 );
 
 export type { SnackbarProps };
