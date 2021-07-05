@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.3](https://github.com/coingaming/moon-design/compare/v5.2.2...v5.2.3) (2021-07-05)
+
+
+### Bug Fixes
+
+* snackbar min width ([#1239](https://github.com/coingaming/moon-design/issues/1239)) ([3a57579](https://github.com/coingaming/moon-design/commit/3a575796f768a1719ef47a098ca19065ad7e8063))
+
+
+
+
+
 ## [5.2.2](https://github.com/coingaming/moon-design/compare/v5.2.1...v5.2.2) (2021-07-01)
 
 
