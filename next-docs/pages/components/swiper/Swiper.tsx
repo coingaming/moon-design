@@ -6,44 +6,19 @@ import SwiperItem from './SwiperItem';
 
 const SwiperCarousel = () => (
   <Swiper
-    slidesPerView={4}
-    spaceBetween={30}
+    slidesPerView={3}
+    spaceBetween={300}
     centeredSlides={false}
     pagination={{
       clickable: true,
     }}
-    className="my-12"
+    className="my-12 mySwiper"
   >
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
-    <SwiperSlide>
-      <SwiperItem />
-    </SwiperSlide>
+    {Array.from({ length: 10 }, (value, index) => (
+      <SwiperSlide className="w-max">
+        <SwiperItem />
+      </SwiperSlide>
+    ))}
   </Swiper>
 );
 

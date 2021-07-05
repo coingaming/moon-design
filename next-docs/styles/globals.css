@@ -52,6 +52,7 @@ body {
 }
 
 .future {
+  /* TODO rem based */
   width: 1040px;
   min-height: 248px;
 }
@@ -59,6 +60,12 @@ body {
 .hover-border:hover {
   border-radius: 100px;
   /* transition: border-radius 150ms; */
+}
+
+.carousel-item {
+  width: 468px;
+  height: 292px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .breakout {

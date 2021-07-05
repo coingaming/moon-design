@@ -25,8 +25,8 @@ module.exports = {
           60: '#E9E7F9',
         },
         designer: 'rgba(52, 72, 240, 0.9)',
-        bgdesigner: 'rgba(0, 0, 0, 0.6)',
-        bgdeveloper: 'rgba(255, 255, 255, 0.6)',
+        bgdesigner: 'rgba(0, 0, 0, 0.6)', // active item colour
+        bgdeveloper: 'rgba(255, 255, 255, 0.6)', // active item colour
         developer: 'rgba(149, 241, 213, 0.9)',
         transparent: 'transparent',
         current: 'currentColor',

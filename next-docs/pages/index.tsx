@@ -25,8 +25,10 @@ export default function Home() {
       <h2 className="mt-24 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg z-20">
         Updates.
       </h2>
-      <p className="text-4xl tracking-tight bg-background relative z-10 w-min whitespace-nowrap
-       pr-4 py-1 bg-opacity-25 z-20">
+      <p
+        className="text-4xl tracking-tight bg-background relative z-10 w-min whitespace-nowrap
+       pr-4 py-1 bg-opacity-25 z-20"
+      >
         Explore our community features
       </p>
 
@@ -45,9 +47,22 @@ export default function Home() {
         <Image src={imageMoon} alt="Moon" />
       </div>
 
-      <section className="mt-96">
+      <section className="mt-50">
         <Future />
       </section>
+
+      <h2 className="mt-24 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg z-20">
+        In the Spotlight.
+      </h2>
+      <p
+        className="text-4xl tracking-tight bg-background relative z-10 w-min whitespace-nowrap
+       pr-4 py-1 bg-opacity-25 z-20"
+      >
+        The team who design Moon.
+      </p>
+      <div className="breakout">
+        <SwiperCarousel />
+      </div>
     </>
   );
 }
