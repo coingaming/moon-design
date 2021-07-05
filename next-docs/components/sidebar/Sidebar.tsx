@@ -86,11 +86,19 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
   );
 };
 
+const LogoLink = () => (
+  <NextLink href="/">
+    <a>
+      <Logo />
+    </a>
+  </NextLink>
+);
+
 export default function Sidebar() {
   return (
-    <div className="flex flex-col flex-grow pt-8 px-6 bg-white overflow-y-auto">
+    <div className="flex flex-col flex-grow pt-16 px-6 bg-white overflow-y-auto">
       <div className="flex items-center flex-shrink-0 pl-2 mb-12">
-        <Logo />
+        <LogoLink />
       </div>
       <div className="flex-grow flex flex-col">
         <nav className="flex-1 space-y-1" aria-label="Sidebar">

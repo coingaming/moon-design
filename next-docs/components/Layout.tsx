@@ -46,7 +46,9 @@ export default function Layout({ children }) {
   });
 
   return (
-    <div className={`${className} h-screen bg-background overflow-hidden flex rounded-tl-3xl rounded-tr-3xl`}>
+    <div
+      className={`${className} h-screen bg-background overflow-hidden flex rounded-tl-3xl rounded-tr-3xl`}
+    >
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
@@ -90,6 +92,7 @@ export default function Layout({ children }) {
           <Breadcrumbs />
         </div>
 
+        {/* TODO overflow-y-auto */}
         <main className="flex-1 relative overflow-y-auto focus:outline-none">
           <DarkLightModeSwitcher
             toggle={toggleColorScheme}

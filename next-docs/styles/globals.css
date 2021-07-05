@@ -49,6 +49,15 @@ body {
   right: 0;
 }
 
+.future {
+  width: 1040px;
+  min-height: 248px;
+}
+
+.breakout {
+  /* margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%); */
+}
 /* End of custom styles */
 
 a {

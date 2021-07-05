@@ -2,7 +2,10 @@ import React from 'react';
 
 import Image from 'next/image';
 import imageMoon from '../public/moon.png';
+
 import SwiperCarousel from './components/swiper/Swiper';
+import Future from '../components/landing/Future';
+import TopRightArrowIcon from '../components/icons/TopRightArrowIcon';
 
 export default function Home() {
   return (
@@ -18,14 +21,16 @@ export default function Home() {
         integrity of their user experience and optimize design and development
         resources.
       </p>
-      <h2 className="mt-24 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg">
+      <h2 className="mt-24 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg z-20">
         Updates.
       </h2>
-      <p className="text-4xl tracking-tight bg-background relative z-10 w-min whitespace-nowrap rounded-lg pr-4 py-1 bg-opacity-25">
+      <p className="text-4xl tracking-tight bg-background relative z-10 w-min whitespace-nowrap rounded-lg pr-4 py-1 bg-opacity-25 z-20">
         Explore our community features
       </p>
 
-      <SwiperCarousel />
+      <div className="breakout">
+        <SwiperCarousel />
+      </div>
 
       {/* For designers */}
       <div className="md:fixed for-designers p-8 text-white rounded-t-lg rounded-bl-lg bg-designer z-20">
@@ -44,6 +49,10 @@ export default function Home() {
           />
         </svg>
 
+        <div className="absolute top-11 right-11 text-white z-20">
+          <TopRightArrowIcon />
+        </div>
+
         <h2 className="text-2xl mb-7">For designers.</h2>
         <div>
           <a>Getting Started</a>
@@ -59,9 +68,13 @@ export default function Home() {
       </div>
 
       {/* Moon image */}
-      <div className="fixed right-0 top-250">
+      <div className="fixed right-0 top-250 z-10 w-5/12">
         <Image src={imageMoon} alt="Moon" />
       </div>
+
+      <section className="mt-96">
+        <Future />
+      </section>
     </>
   );
 }
