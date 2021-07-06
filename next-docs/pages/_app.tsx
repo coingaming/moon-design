@@ -1,7 +1,10 @@
-import '../styles/globals.css';
-import '../styles/themes.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+
+import '../styles/globals.css';
+import '../styles/reset.css';
+import '../styles/themes.css';
+import '../styles/custom.css';
 
 import Layout from '../components/Layout';
 import React from 'react';
