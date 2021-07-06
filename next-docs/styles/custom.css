@@ -31,13 +31,50 @@ body {
 }
 
 .carousel-item {
-  width: 468px;
+  min-width: 468px;
   height: 292px;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.breakout {
-  /* margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%); */
+.carousel-item--vertical {
+  min-width: 276px;
+  height: 448px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-/* End of custom styles */
+
+.reel {
+  /**
+     * Scroll Behavior
+     */
+  --webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+  scrollbar-width: none; /* Hide Scrollbars on browsers that don't support custom scrollbars. */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* Auto-hide scrollbars on IE/Edge. */
+}
+
+/*
+.reel::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+*/
+
+/*
+.reel::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box; /* Create 'padding' around the scrollbar. */
+/*
+  border-radius: 0.5rem;
+  border: 3px solid transparent; /* Create 'padding' around the scrollbar. */
+/*
+}
+*/
+
+/* .reel:hover::-webkit-scrollbar-thumb {
+  background-color: gray;
+} */
+
+.breakout {
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
