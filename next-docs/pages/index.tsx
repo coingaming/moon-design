@@ -3,10 +3,12 @@ import React from 'react';
 import Image from 'next/image';
 import imageMoon from '../public/moon.png';
 
-import SwiperCarousel from './components/swiper/Swiper';
-import Future from '../components/landing/Future';
-import ForDesigners from '../components/landing/ForDesigners';
-import ForDevelopers from '../components/landing/ForDevelopers';
+import Future from '../components/facing/Future';
+import ForDesigners from '../components/facing/ForDesigners';
+import ForDevelopers from '../components/facing/ForDevelopers';
+import Contributors from '../components/facing/Contributors';
+import News from '../components/facing/News';
+import Logo from '../components/sidebar/Logo';
 
 const OpenSourceBadge = () => (
   <span className="block w-min whitespace-nowrap mb-8 text-active bg-active-80 uppercase tracking-widest py-2 px-4 rounded-lg font-bold">
@@ -29,7 +31,7 @@ const Header = () => (
 
 const SubHeader = ({ title, description }) => (
   <>
-    <h2 className="mt-24 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg z-20">
+    <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg z-20">
       {title}
     </h2>
     <p
@@ -39,6 +41,15 @@ const SubHeader = ({ title, description }) => (
       {description}
     </p>
   </>
+);
+
+const Footer = () => (
+  <footer className="flex items-center">
+    <div className="mr-36"><Logo /></div>
+    <a className="mr-16 hover:underline cursor-pointer">Slack</a>
+    <a className="hover:underline cursor-pointer">Medium</a>
+    <p className="ml-auto mr-36">With the help of Coingaming</p>
+  </footer>
 );
 
 export default function Home() {
@@ -53,8 +64,8 @@ export default function Home() {
         description="Explore our community features"
       />
 
-      <div className="breakout">
-        <SwiperCarousel />
+      <div className="mt-12">
+        <News />
       </div>
 
       <ForDesigners />
@@ -66,7 +77,7 @@ export default function Home() {
         <Image src={imageMoon} alt="Moon" />
       </div>
 
-      <section className="mt-50">
+      <section className="mt-20">
         <Future />
       </section>
 
@@ -75,8 +86,12 @@ export default function Home() {
         description="The team who design Moon."
       />
 
-      <div className="breakout">
-        <SwiperCarousel />
+      <div className="mt-12">
+        <Contributors />
+      </div>
+
+      <div className="mt-36">
+        <Footer />
       </div>
     </>
   );

@@ -51,13 +51,11 @@ body {
   -ms-overflow-style: -ms-autohiding-scrollbar; /* Auto-hide scrollbars on IE/Edge. */
 }
 
-/*
 .reel::-webkit-scrollbar {
   width: 12px;
   height: 12px;
   cursor: pointer;
 }
-*/
 
 /*
 .reel::-webkit-scrollbar-thumb {
@@ -73,8 +71,3 @@ body {
 /* .reel:hover::-webkit-scrollbar-thumb {
   background-color: gray;
 } */
-
-.breakout {
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-}

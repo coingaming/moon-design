@@ -1,9 +1,15 @@
 import React from 'react';
-import SwiperItem from './SwiperItem';
+import CardArticle from './CardArticle';
+import FacingReel from './FacingReel';
+import SwiperItem from './swiper/SwiperItem';
 
-const SwiperCarousel = () => (
-  <div className="flex flex-row gap-8 overflow-x-auto reel">
-    <SwiperItem />
+const News = () => (
+  <FacingReel>
+    <CardArticle
+      title="How moon organises work in
+      figma to improve collaboration"
+      section=".tools"
+    />
 
     <div className="mt-8">
       <SwiperItem variant="vertical" />
@@ -21,7 +27,7 @@ const SwiperCarousel = () => (
     <SwiperItem />
 
     <SwiperItem variant="vertical" />
-  </div>
+  </FacingReel>
 );
 
-export default SwiperCarousel;
+export default News;

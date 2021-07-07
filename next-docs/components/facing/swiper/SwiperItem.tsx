@@ -8,7 +8,7 @@ const SwiperItem: React.FC<Props> = ({ variant }) => (
   <div
     className={classNames(
       variant === 'vertical' ? 'carousel-item--vertical' : 'carousel-item',
-      ` relative flex flex-col justify-end px-6 pt-4 pb-8 bg-red-500 rounded-lg`
+      ` relative flex flex-col justify-end px-6 pt-4 pb-8 bg-white rounded-lg`
     )}
   >
     <p className="absolute top-12 left-10 transform -rotate-90 origin-bottom-left w-min font-semibold">
