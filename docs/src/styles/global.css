@@ -206,3 +206,31 @@ hr {
 
   --trunks: #607680;
 }
+
+.theme-hub88 {
+  --piccolo-120: #054cff;
+  --piccolo: #1a5bff;
+  --piccolo-80: #386ef5;
+
+  --hit-120: #a4afb6;
+  --hit: #abb7bf;
+  --hit-80: #b5bec5;
+
+  --beerus: #ffffff;
+
+  --goku: #f3f5f6;
+  --goku-80: #eaeef0;
+  --goku-40: #d8e0e3;
+  --goku-10: #c4d2d9;
+
+  --gohan: #ffffff;
+  --gohan-80: #f6f7f8;
+  --gohan-40: #e4e8ec;
+  --gohan-10: #d1d9e0;
+
+  --goten: #e2e6e9;
+
+  --bulma: #010913;
+
+  --trunks: #8697a2;
+}
