@@ -12,7 +12,7 @@ import {
 import { useSticky } from 'react-table-sticky';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
-import { Minimap } from './Minimap';
+import { Minimap } from './__private__/Minimap';
 
 export const OuterWrapper = styled.div({
   position: 'relative',
