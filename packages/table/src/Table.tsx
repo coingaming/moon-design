@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, Fragment, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import rgba from 'polished/lib/color/rgba';
 import tint from 'polished/lib/color/tint';
@@ -12,6 +12,13 @@ import {
 import { useSticky } from 'react-table-sticky';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
+import { Minimap } from './Minimap';
+
+export const OuterWrapper = styled.div({
+  position: 'relative',
+  height: '100%',
+  width: '100%'
+})
 
 export const TableWrapper = styled.div<{
   isScrolledToLeft: boolean;
@@ -270,7 +277,26 @@ export const Footer = styled.div(({ theme: { color, radius, space } }) => ({
   },
 }));
 
-const Table: React.FC<any> = ({
+type Props = {
+  columns: any
+  data: any
+  defaultColumn?: any
+  width?: any
+  height?: any
+  maxWidth?: any
+  maxHeight?: any
+  variant?: string
+  layout?: string
+  withFooter?: boolean
+  withMinimap?: boolean
+  getOnRowClickHandler?: (row: any) => (row: any) => void | undefined
+  defaultRowBackgroundColor?: ColorNames
+  evenRowBackgroundColor?: ColorNames
+  headerBackgroundColor?: ColorNames
+  renderRowSubComponent?: (row: any, rowProps: any, visibleColumns: any) => any
+}
+
+const Table: React.FC<Props> = ({
   columns,
   data,
   defaultColumn,
@@ -281,6 +307,7 @@ const Table: React.FC<any> = ({
   variant,
   layout,
   withFooter = false,
+  withMinimap = false,
   getOnRowClickHandler = () => undefined,
   defaultRowBackgroundColor = 'gohan.100',
   evenRowBackgroundColor = 'gohan.80',
@@ -307,26 +334,39 @@ const Table: React.FC<any> = ({
     useExpanded,
   );
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
-  const [isScrolledToLeft, setIsScrolledToLeft] = useState(true);
-  const [isScrolledToRight, setIsScrolledToRight] = useState(false);
+  const tableRef = useRef<HTMLDivElement>(null);
+  const footerRef = useRef<HTMLDivElement>(null);
+
+  const [scrollState, setScrollState] = useState({
+    scrolledToLeft: true,
+    scrolledToRight: true,
+  });
+
+  useEffect(() => {
+    if (!tableRef?.current) return
+    setScrollState(oldScrollState => ({...oldScrollState, scrolledToRight: tableRef.current!.scrollLeft + tableRef.current!.clientWidth === tableRef.current!.scrollWidth }))
+  }, [tableRef])
+
 
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
-    const target = event.target as HTMLDivElement;
-    if (!target) return;
+    if (!event.currentTarget) return;
 
-    setIsScrolledToLeft(target.scrollLeft === 0);
-    setIsScrolledToRight(
-      target.scrollLeft + target.clientWidth === target.scrollWidth,
-    );
+    const scrolledToLeft = event.currentTarget.scrollLeft === 0
+    const scrolledToRight = event.currentTarget.scrollLeft + event.currentTarget.clientWidth === event.currentTarget.scrollWidth
+
+    if (scrolledToLeft !== scrollState.scrolledToLeft || scrolledToRight !== scrollState.scrolledToRight) {
+      setScrollState({ scrolledToLeft, scrolledToRight })
+    }
   };
 
-  return (
+  const tableComponent = (
     <TableWrapper
       {...getTableProps()}
+      ref={tableRef}
       onScroll={handleScroll}
       className="sticky"
-      isScrolledToLeft={isScrolledToLeft}
-      isScrolledToRight={isScrolledToRight}
+      isScrolledToLeft={scrollState.scrolledToLeft}
+      isScrolledToRight={scrollState.scrolledToRight}
       style={{
         width, height, maxWidth, maxHeight,
       }}
@@ -378,7 +418,7 @@ const Table: React.FC<any> = ({
                 variant={variant}
                 onClick={
                   hasOnRowClickHandler
-                    ? () => onRowClickHandler(row)
+                    ? () => { if (onRowClickHandler) onRowClickHandler(row) }
                     : undefined
                 }
                 hasOnRowClickHandler={hasOnRowClickHandler}
@@ -404,7 +444,7 @@ const Table: React.FC<any> = ({
       </Body>
 
       {withFooter && (
-        <Footer>
+        <Footer ref={footerRef}>
           {footerGroups.map((footerGroup) => (
             <HeaderTR {...footerGroup.getFooterGroupProps()} variant={variant}>
               {footerGroup.headers.map((column) => (
@@ -430,6 +470,17 @@ const Table: React.FC<any> = ({
       )}
     </TableWrapper>
   );
+
+  if (withMinimap) {
+    return (
+      <OuterWrapper>
+        {tableComponent}
+        <Minimap numberOfColumns={visibleColumns.length} tableRef={tableRef} footerRef={footerRef} />
+      </OuterWrapper>
+    )
+  } else {
+    return tableComponent
+  }
 };
 
 export default Table;
