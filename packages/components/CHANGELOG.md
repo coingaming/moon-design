@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.3.1](https://github.com/coingaming/moon-design/compare/v5.3.0...v5.3.1) (2021-07-08)
+
+
+### Bug Fixes
+
+* KeylineText color | BASE1-1597 ([#1245](https://github.com/coingaming/moon-design/issues/1245)) ([87f7ef7](https://github.com/coingaming/moon-design/commit/87f7ef7306d3f5379cd1af7e0cb4103a428fd470))
+
+
+
+
+
 # [5.3.0](https://github.com/coingaming/moon-design/compare/v5.2.3...v5.3.0) (2021-07-08)
 
 
