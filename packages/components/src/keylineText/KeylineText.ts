@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import Caption from '../caption/Caption';
 
-const KeylineText = styled.p(
+const KeylineText = styled(Caption)<any>(
   ({ theme: { borderWidth, color, space } }) => ({
     display: 'flex',
-    color: color.bulma[100],
     width: '100%',
     alignItems: 'center',
-    textTransform: 'uppercase',
+    whiteSpace: 'nowrap',
     '&::before, &::after': {
       content: '""',
       display: 'inline-block',
@@ -15,13 +15,12 @@ const KeylineText = styled.p(
       flex: '0 1 auto',
       height: borderWidth,
       backgroundColor: color.beerus[100],
-      whiteSpace: 'nowrap',
     },
     '&::before': {
-      marginRight: rem(space.medium),
+      marginRight: rem(space.small),
     },
     '&::after': {
-      marginLeft: rem(space.medium),
+      marginLeft: rem(space.small),
     },
   }),
 );
