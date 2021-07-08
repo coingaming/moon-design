@@ -50,6 +50,7 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
+  onSelectorChange?: (activeOptions: string[], dataKey: string, isActive: boolean) => void
   isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
@@ -68,6 +69,7 @@ const LineChart: React.FC<Props> = ({
   onUpdate,
   onShare,
   onExpand,
+  onSelectorChange,
   isUpdating = false,
   hasUpdates = false,
   filter,
@@ -86,11 +88,15 @@ const LineChart: React.FC<Props> = ({
   const [activeOptions, setActiveOptions] = useState(initialActiveOptions);
 
   const handleSelectorChange = (dataKey: string, isActive: boolean) => {
-    setActiveOptions(
-      isActive
-        ? [...activeOptions, dataKey]
-        : activeOptions.filter((option) => option !== dataKey),
-    );
+    const newActiveOptions = isActive
+      ? [...activeOptions, dataKey]
+      : activeOptions.filter((option) => option !== dataKey)
+
+    setActiveOptions(newActiveOptions);
+
+    if (onSelectorChange) {
+      onSelectorChange(newActiveOptions, dataKey, isActive)
+    }
   };
 
   const isLoading = !data.length;
