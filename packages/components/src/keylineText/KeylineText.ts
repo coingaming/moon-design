@@ -8,6 +8,7 @@ const KeylineText = styled(Caption)<any>(
     width: '100%',
     alignItems: 'center',
     whiteSpace: 'nowrap',
+    color: color.trunks[100],
     '&::before, &::after': {
       content: '""',
       display: 'inline-block',
