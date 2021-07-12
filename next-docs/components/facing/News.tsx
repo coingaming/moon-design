@@ -1,7 +1,6 @@
 import React from 'react';
 import CardArticle from './CardArticle';
 import FacingReel from './FacingReel';
-import SwiperItem from './swiper/SwiperItem';
 
 const News = () => (
   <FacingReel>
@@ -12,21 +11,42 @@ const News = () => (
     />
 
     <div className="mt-8">
-      <SwiperItem variant="vertical" />
+      <CardArticle
+        variant="vertical"
+        title="How moon organises work in
+      figma to improve collaboration"
+        section=".tools"
+      />
     </div>
 
-    <div className="mt-16">
-      <SwiperItem variant="horizontal" />
+    <CardArticle
+      title="How moon organises work in
+      figma to improve collaboration"
+      section=".tools"
+    />
+
+    <div className="mt-8">
+      <CardArticle
+        variant="vertical"
+        title="How moon organises work in
+      figma to improve collaboration"
+        section=".tools"
+      />
     </div>
+    <CardArticle
+      title="How moon organises work in
+      figma to improve collaboration"
+      section=".tools"
+    />
 
-    <SwiperItem variant="vertical" />
-
-    <SwiperItem />
-    <SwiperItem variant="vertical" />
-
-    <SwiperItem />
-
-    <SwiperItem variant="vertical" />
+    <div className="mt-8">
+      <CardArticle
+        variant="vertical"
+        title="How moon organises work in
+      figma to improve collaboration"
+        section=".tools"
+      />
+    </div>
   </FacingReel>
 );
 

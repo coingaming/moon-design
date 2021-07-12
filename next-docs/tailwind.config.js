@@ -9,6 +9,7 @@ module.exports = {
       inset: {
         60: '60px',
         250: '15rem',
+        300: '390px',
         380: '380px',
       },
       colors: {
