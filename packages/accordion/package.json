@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-accordion",
   "sideEffects": false,
-  "version": "5.5.0",
+  "version": "5.5.1",
   "files": [
     "lib"
   ],
@@ -15,8 +15,8 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^5.5.0",
-    "@heathmont/moon-components": "^5.5.0",
+    "@heathmont/moon-assets": "^5.5.1",
+    "@heathmont/moon-components": "^5.5.1",
     "@heathmont/moon-themes": "^5.0.1",
     "@heathmont/moon-utils": "^5.0.1"
   },

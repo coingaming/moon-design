@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
+
+
+### Bug Fixes
+
+* B1M2-2632 fix missing imports for stop, start icons ([#1255](https://github.com/coingaming/moon-design/issues/1255)) ([f041859](https://github.com/coingaming/moon-design/commit/f0418592526d7361d75c45575703c23ebf48bab9))
+
+
+
+
+
 # [5.5.0](https://github.com/coingaming/moon-design/compare/v5.4.0...v5.5.0) (2021-07-13)
 
 
