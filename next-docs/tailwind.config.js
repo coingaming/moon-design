@@ -3,15 +3,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        'future': "url('/public/future.png')",
-      }),
-      inset: {
-        60: '60px',
-        250: '15rem',
-        300: '390px',
-        380: '380px',
-      },
       colors: {
         background: '#F4F4F4',
         border: {
