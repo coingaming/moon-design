@@ -13,19 +13,21 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M0.125 20.13V1.9479C0.125 0.659612 1.56984 -0.100421 2.63144 0.62943L16.1623 9.9319C17.0992 10.576 17.0842 11.9643 16.1337 12.588L2.60285 21.4677C1.53884 22.1659 0.125 21.4027 0.125 20.13Z"
+      d="M.125 20.13V1.948C.125.66 1.57-.1 2.631.629l13.531 9.303a1.6 1.6 0 01-.028 2.656l-13.531 8.88c-1.064.698-2.478-.065-2.478-1.338z"
       fill="currentColor"
     />
   </svg>
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps;
-  circleColor?: ColorProps;
-  color?: ColorProps;
+  backgroundColor?: ColorProps,
+  circleColor?: ColorProps,
+  color?: ColorProps,
 };
-export const IconStart = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+const IconStart =
+  styled(Svg) <
+  IconProps >
+  (({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -43,6 +45,5 @@ export const IconStart = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
-);
+  ]);
 export default IconStart;
