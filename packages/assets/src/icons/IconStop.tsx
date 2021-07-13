@@ -13,23 +13,25 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <rect
-      x="0.875"
-      y="0.875"
-      width="20.25"
-      height="20.25"
-      rx="4"
+      x={0.875}
+      y={0.875}
+      width={20.25}
+      height={20.25}
+      rx={4}
       fill="currentColor"
     />
   </svg>
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps;
-  circleColor?: ColorProps;
-  color?: ColorProps;
+  backgroundColor?: ColorProps,
+  circleColor?: ColorProps,
+  color?: ColorProps,
 };
-export const IconStop = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+const IconStop =
+  styled(Svg) <
+  IconProps >
+  (({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -47,6 +49,5 @@ export const IconStop = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
-);
+  ]);
 export default IconStop;
