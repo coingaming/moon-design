@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/coingaming/moon-design/compare/v5.3.2...v5.4.0) (2021-07-13)
+
+
+### Features
+
+* Add a Sao Paulo logo to the system B1M2-2626 ([#1251](https://github.com/coingaming/moon-design/issues/1251)) ([75e29d3](https://github.com/coingaming/moon-design/commit/75e29d371740151946761dc3ffc471b4b7c708d6))
+
+
+
+
+
 ## [5.3.2](https://github.com/coingaming/moon-design/compare/v5.3.1...v5.3.2) (2021-07-08)
 
 **Note:** Version bump only for package moon-design
