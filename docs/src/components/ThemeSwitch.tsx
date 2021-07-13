@@ -4,13 +4,14 @@ import {
   LogoBitcasinoShort,
   LogoDrop,
   LogoMoonDesignShort,
+  LogoHub88Short,
 } from '@heathmont/moon-assets';
 
 const ThemeSwitcher = ({ setBrand, themeKeys }) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
   const filteredThemeKeys = themeKeys.filter((themeKey) =>
-    ['sportsbet', 'bitcasino', 'moonDesign'].includes(themeKey));
+    ['sportsbet', 'bitcasino', 'moonDesign', 'hub88'].includes(themeKey));
   return (
     <>
       <button
@@ -25,6 +26,7 @@ const ThemeSwitcher = ({ setBrand, themeKeys }) => {
         <div className="fixed bottom-16 right-4">
           {filteredThemeKeys.map((themeKey) => (
             <button
+              key={themeKey}
               type="button"
               onClick={() => setBrand(themeKey)}
               className="p-2 rounded-full ml-4 text-bulma bg-gohan hover:bg-gohan-80 inline-flex items-center justify-center"
@@ -37,6 +39,9 @@ const ThemeSwitcher = ({ setBrand, themeKeys }) => {
               )}
               {themeKey === 'moonDesign' && (
                 <LogoMoonDesignShort fontSize="1rem" />
+              )}
+              {themeKey === 'hub88' && (
+                <LogoHub88Short fontSize="1rem" />
               )}
             </button>
           ))}

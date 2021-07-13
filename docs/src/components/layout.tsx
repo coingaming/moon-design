@@ -52,6 +52,9 @@ const getClassName = ({ brand, colorMode }) => {
       return 'theme-bitcasino-light';
     }
   }
+  if (brand === 'hub88') {
+    return 'theme-hub88';
+  }
   return 'theme-moon-dark';
 };
 

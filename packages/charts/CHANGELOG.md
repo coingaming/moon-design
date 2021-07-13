@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/coingaming/moon-design/compare/v5.3.2...v5.4.0) (2021-07-13)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+## [5.3.1](https://github.com/coingaming/moon-design/compare/v5.3.0...v5.3.1) (2021-07-08)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+# [5.3.0](https://github.com/coingaming/moon-design/compare/v5.2.3...v5.3.0) (2021-07-08)
+
+### Features
+
+- add onSelectorChange helper ([#1241](https://github.com/coingaming/moon-design/issues/1241)) ([7d1716b](https://github.com/coingaming/moon-design/commit/7d1716b3f7f682a1d3649485d35aa44adcc67ada))
+
+## [5.2.3](https://github.com/coingaming/moon-design/compare/v5.2.2...v5.2.3) (2021-07-05)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+## [5.2.2](https://github.com/coingaming/moon-design/compare/v5.2.1...v5.2.2) (2021-07-01)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+## [5.2.1](https://github.com/coingaming/moon-design/compare/v5.2.0...v5.2.1) (2021-06-30)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+# [5.2.0](https://github.com/coingaming/moon-design/compare/v5.1.3...v5.2.0) (2021-06-29)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
 ## [5.1.3](https://github.com/coingaming/moon-design/compare/v5.1.2...v5.1.3) (2021-06-21)
 
 **Note:** Version bump only for package @heathmont/moon-charts

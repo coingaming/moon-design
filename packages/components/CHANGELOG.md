@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.4.0](https://github.com/coingaming/moon-design/compare/v5.3.2...v5.4.0) (2021-07-13)
+
+**Note:** Version bump only for package @heathmont/moon-components
+
+## [5.3.1](https://github.com/coingaming/moon-design/compare/v5.3.0...v5.3.1) (2021-07-08)
+
+### Bug Fixes
+
+- KeylineText color | BASE1-1597 ([#1245](https://github.com/coingaming/moon-design/issues/1245)) ([87f7ef7](https://github.com/coingaming/moon-design/commit/87f7ef7306d3f5379cd1af7e0cb4103a428fd470))
+
+# [5.3.0](https://github.com/coingaming/moon-design/compare/v5.2.3...v5.3.0) (2021-07-08)
+
+### Bug Fixes
+
+- KeylineText component ([#1242](https://github.com/coingaming/moon-design/issues/1242)) ([#1243](https://github.com/coingaming/moon-design/issues/1243)) ([5a0bd65](https://github.com/coingaming/moon-design/commit/5a0bd6596ccb17fb004c3a4cbb341775eb100816))
+
+## [5.2.3](https://github.com/coingaming/moon-design/compare/v5.2.2...v5.2.3) (2021-07-05)
+
+### Bug Fixes
+
+- snackbar min width ([#1239](https://github.com/coingaming/moon-design/issues/1239)) ([3a57579](https://github.com/coingaming/moon-design/commit/3a575796f768a1719ef47a098ca19065ad7e8063))
+
+## [5.2.2](https://github.com/coingaming/moon-design/compare/v5.2.1...v5.2.2) (2021-07-01)
+
+### Bug Fixes
+
+- **modal:** add portals to render modal on body and unmount animation ([#1237](https://github.com/coingaming/moon-design/issues/1237)) ([44927f8](https://github.com/coingaming/moon-design/commit/44927f81843090e3b6e134dfe8c11e6bb41b9ab6))
+
+## [5.2.1](https://github.com/coingaming/moon-design/compare/v5.2.0...v5.2.1) (2021-06-30)
+
+### Bug Fixes
+
+- snackbar large endpoint max width ([#1235](https://github.com/coingaming/moon-design/issues/1235)) ([8a9f8f4](https://github.com/coingaming/moon-design/commit/8a9f8f4f3beaab9032dcd123bd7df8c32cfd40d0))
+
+# [5.2.0](https://github.com/coingaming/moon-design/compare/v5.1.3...v5.2.0) (2021-06-29)
+
+### Features
+
+- snackbar component - add maxWidth prop ([#1233](https://github.com/coingaming/moon-design/issues/1233)) ([8ab812a](https://github.com/coingaming/moon-design/commit/8ab812a0db09177ee451c2d2b0aa0e2f8aca0c62))
+
 ## [5.1.2](https://github.com/coingaming/moon-design/compare/v5.1.1...v5.1.2) (2021-06-09)
 
 ### Bug Fixes

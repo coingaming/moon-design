@@ -8,23 +8,24 @@ route: /charts/lineChart
 
 Based on [recharts](https://github.com/recharts/recharts)
 
-| Name       | &nbsp;&nbsp; |                            Type                            | &nbsp;&nbsp; | Description                                                                 |
-| :--------- | ------------ | :--------------------------------------------------------: | ------------ | :-------------------------------------------------------------------------- |
-| title      |              |                           string                           |              | **Required**. Chart title text                                              |
-| data       |              |                           Data[]                           |              | **Required**. Array of data                                                 |
-| options    |              |                          Option[]                          |              | **Required**. Array of available chart options                              |
-| onUpdate   |              |                          function                          |              | Handler function when pressing the update button                            |
-| onShare    |              |                          function                          |              | Handler function when pressing the share button                             |
-| onExpand   |              |                          function                          |              | Handler function when pressing the expand button                            |
-| isUpdating |              |                          boolean                           |              | **Default: false**. If set true, the loader icon is displayed               |
-| hasUpdates |              |                          boolean                           |              | **Default: false**. If set true, the dot icon is displayed                  |
-| filter     |              |                      React.ReactNode                       |              | Placeholder for filter component                                            |
-| height     |              |                       string, number                       |              | **Default: 526**. Height of component                                       |
-| axisWidth  |              |                           number                           |              | **Default: 40**. The width of axis                                          |
-| icon       |              |                      React.ReactNode                       |              | **Default: &lt;ChartIcons.Line/&gt;**. Placeholder for chart icon component |
-| loaderText |              |                  string, React.ReactNode                   |              | **Default: "No data"**. The text for "no data" / "loading" states           |
-| formatFn   |              |                          function                          |              | The formatter function of data value                                        |
-| interval   |              | "preserveStart", "preserveEnd", "preserveStartEnd", number |              | If set 0, all the ticks will be shown                                       |
+| Name             | &nbsp;&nbsp; |                            Type                            | &nbsp;&nbsp; | Description                                                                 |
+| :--------------- | ------------ | :--------------------------------------------------------: | ------------ | :-------------------------------------------------------------------------- |
+| title            |              |                           string                           |              | **Required**. Chart title text                                              |
+| data             |              |                           Data[]                           |              | **Required**. Array of data                                                 |
+| options          |              |                          Option[]                          |              | **Required**. Array of available chart options                              |
+| onUpdate         |              |                          function                          |              | Handler function when pressing the update button                            |
+| onShare          |              |                          function                          |              | Handler function when pressing the share button                             |
+| onExpand         |              |                          function                          |              | Handler function when pressing the expand button                            |
+| onSelectorChange |              |                          function                          |              | Handler function when selector state is changed                             |
+| isUpdating       |              |                          boolean                           |              | **Default: false**. If set true, the loader icon is displayed               |
+| hasUpdates       |              |                          boolean                           |              | **Default: false**. If set true, the dot icon is displayed                  |
+| filter           |              |                      React.ReactNode                       |              | Placeholder for filter component                                            |
+| height           |              |                       string, number                       |              | **Default: 526**. Height of component                                       |
+| axisWidth        |              |                           number                           |              | **Default: 40**. The width of axis                                          |
+| icon             |              |                      React.ReactNode                       |              | **Default: &lt;ChartIcons.Line/&gt;**. Placeholder for chart icon component |
+| loaderText       |              |                  string, React.ReactNode                   |              | **Default: "No data"**. The text for "no data" / "loading" states           |
+| formatFn         |              |                          function                          |              | The formatter function of data value                                        |
+| interval         |              | "preserveStart", "preserveEnd", "preserveStartEnd", number |              | If set 0, all the ticks will be shown                                       |
 
 ```
 Data {

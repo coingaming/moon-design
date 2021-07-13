@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import styled from 'styled-components';
 import ModalOverlay from './ModalOverlay';
 import ModalContent from './ModalContent';
@@ -17,6 +18,7 @@ type Props = {
   isOpen?: boolean;
   padding?: string | number;
   size?: 'small' | 'medium' | 'large';
+  showAnimation: boolean;
 };
 
 const ModalWrapper = styled.div`
@@ -25,7 +27,6 @@ const ModalWrapper = styled.div`
   align-items: center;
   position: fixed;
   inset: 0;
-  z-index: 9;
 `;
 
 const Modal: React.FC<Props> = ({
@@ -42,9 +43,11 @@ const Modal: React.FC<Props> = ({
   padding,
   size,
 }) => {
+  const [showUnmountAnimation, setShowUnmountAnimation] = useState(false);
+
   const closeOnEscapeKeyDown = (e: any) => {
     if ((e.charCode || e.keyCode) === 27) {
-      handleClose && handleClose();
+      closeAnimation();
     }
   };
 
@@ -55,28 +58,42 @@ const Modal: React.FC<Props> = ({
     };
   }, []);
 
+  const closeAnimation = () => {
+    setShowUnmountAnimation(true);
+    setTimeout(() => {
+      setShowUnmountAnimation(false);
+      handleClose && handleClose();
+    }, 200);
+  };
+
+  if (!isOpen) {
+    return null;
+  }
+
   return (
     <>
-      {isOpen && (
-        <ModalWrapper>
+      {createPortal(
+        <ModalWrapper className={className}>
           <ModalOverlay
             clickOutsideClose={clickOutsideClose}
             disableOverlay={disableOverlay}
             glassBackground={glassBackground}
-            handleClose={handleClose}
+            handleClose={closeAnimation}
+            showUnmountAnimation={showUnmountAnimation}
           />
           <ModalContent
             backgroundColor={backgroundColor}
             borderRadius={borderRadius}
             buttonClose={buttonClose}
-            className={className}
             content={content}
-            handleClose={handleClose}
+            handleClose={closeAnimation}
             glassBackground={glassBackground}
             padding={padding}
             size={size}
+            showUnmountAnimation={showUnmountAnimation}
           />
-        </ModalWrapper>
+        </ModalWrapper>,
+        document.body
       )}
     </>
   );
