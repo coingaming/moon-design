@@ -13,13 +13,13 @@ const MoonAndEarthAnimation = () => {
   const { scrollYProgress } = useViewportScroll();
   const earthScale = useTransform(
     scrollYProgress,
-    (scrollYProgress) => 1 + scrollYProgress * 4
+    (scrollYProgress) => 0.3 + scrollYProgress * 2
   );
   const moonScale = useTransform(
     scrollYProgress,
-    (scrollYProgress) => 1 - scrollYProgress * 0.7
+    (scrollYProgress) => 1 - scrollYProgress * 0.6
   );
-  const right = useTransform(scrollYProgress, [0, 1], [0, -300]);
+  const right = useTransform(scrollYProgress, [0, 1], [-100, -300]);
 
   return (
     <>
