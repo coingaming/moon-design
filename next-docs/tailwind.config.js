@@ -56,6 +56,46 @@ module.exports = {
         trunks: {
           DEFAULT: 'var(--trunks)',
         },
+        // support colours
+        krillin: {
+          DEFAULT: 'var(--krillin)',
+          10: 'var(--krillin-10)',
+        },
+        chiChi: {
+          DEFAULT: 'var(--chiChi)',
+          10: 'var(--chiChi-10)',
+        },
+        roshi: {
+          DEFAULT: 'var(--roshi)',
+          10: 'var(--roshi-10)',
+        },
+        dodoria: {
+          DEFAULT: 'var(--dodoria)',
+          10: 'var(--dodoria-10)',
+        },
+        cell: {
+          DEFAULT: 'var(--cell)',
+          10: 'var(--cell-10)',
+        },
+        raditz: {
+          DEFAULT: 'var(--raditz)',
+          10: 'var(--raditz-10)',
+        },
+        whis: {
+          DEFAULT: 'var(--whis)',
+          10: 'var(--whis-10)',
+        },
+        frieza: {
+          DEFAULT: 'var(--frieza)',
+          10: 'var(--frieza-10)',
+        },
+        nappa: {
+          DEFAULT: 'var(--nappa)',
+          10: 'var(--nappa-10)',
+        },
+        popo: {
+          DEFAULT: 'var(--popo)',
+        },
       },
     },
   },

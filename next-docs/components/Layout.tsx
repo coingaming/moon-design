@@ -47,7 +47,7 @@ export default function Layout({ children }) {
 
   return (
     <div
-      className={`${className} bg-background overflow-hidden flex rounded-tl-3xl rounded-tr-3xl`}
+      className={`${className} support-colors bg-background overflow-hidden flex rounded-tl-3xl rounded-tr-3xl`}
     >
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>

@@ -1,3 +1,34 @@
+.support-colors {
+  --krillin: #ffb319;
+  --krillin-10: #ffe4ad;
+
+  --chiChi: #ff4e64;
+  --chiChi-10: #ffa7b2;
+
+  --roshi: #0cd664;
+  --roshi-10: #b6f3d0;
+
+  --dodoria: #d33030;
+  --dodoria-10: #e99797;
+
+  --cell: #0ab758;
+  --cell-10: #84dbab;
+
+  --raditz: #b3804a;
+  --raditz-10: #d9bfa4;
+
+  --whis: #0f75bd;
+  --whis-10: #87bade;
+
+  --frieza: #5c33cf;
+  --frieza-10: #b6a3e9;
+
+  --nappa: #725550;
+  --nappa-10: #b8aaa7;
+
+  --popo: #000;
+}
+
 .theme-moon-dark {
   --piccolo-120: #e5e5e5;
   --piccolo: #ffffff;
