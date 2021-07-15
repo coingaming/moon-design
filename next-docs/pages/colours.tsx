@@ -8,7 +8,13 @@ const ColorUsage: React.FC<{}> = ({ children }) => (
   <p className="text-lg mt-4">{children}</p>
 );
 
-const Palette = ({ colors }: any) => {
+interface PalleteColorProp {
+  className: string; // eg. bg-piccolo-80
+  value: 10 | 40 | 80 | 100 | 120;
+  description?: string;
+}
+
+const Palette = ({ colors }: { colors: PalleteColorProp[] }) => {
   return (
     <div className="flex gap-4 items-start ">
       {colors.map((color) => (
@@ -16,7 +22,7 @@ const Palette = ({ colors }: any) => {
           <div
             className={`${color.className} w-40 h-40 rounded-xl border border-black`}
           />
-          <span>{color.variant}</span>
+          <span>{color.description}</span>
           <span>{color.value}</span>
         </div>
       ))}
@@ -41,9 +47,9 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-piccolo-80', variant: 'hover', value: '80' },
-              { className: 'bg-piccolo', variant: 'default', value: '100' },
-              { className: 'bg-piccolo-120', variant: 'active', value: '120' },
+              { className: 'bg-piccolo-80', description: 'hover', value: 80 },
+              { className: 'bg-piccolo', description: 'default', value: 100 },
+              { className: 'bg-piccolo-120', description: 'active', value: 120 },
             ]}
           />
         </div>
@@ -54,9 +60,9 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-hit-80', variant: 'hover', value: '80' },
-              { className: 'bg-hit', variant: 'default', value: '100' },
-              { className: 'bg-hit-120', variant: 'active', value: '120' },
+              { className: 'bg-hit-80', description: 'hover', value: 80 },
+              { className: 'bg-hit', description: 'default', value: 100 },
+              { className: 'bg-hit-120', description: 'active', value: 120 },
             ]}
           />
         </div>
@@ -65,7 +71,7 @@ export default function PageColours() {
         <ColorName>Beerus</ColorName>
         <ColorUsage>Border color</ColorUsage>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-beerus', value: '100' }]} />
+          <Palette colors={[{ className: 'bg-beerus', value: 100 }]} />
         </div>
       </section>
       <section className="mt-8">
@@ -74,10 +80,10 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-goku', value: '100' },
-              { className: 'bg-goku-80', value: '80' },
-              { className: 'bg-goku-40', value: '40' },
-              { className: 'bg-goku-10', value: '10' },
+              { className: 'bg-goku', value: 100 },
+              { className: 'bg-goku-80', value: 80 },
+              { className: 'bg-goku-40', value: 40 },
+              { className: 'bg-goku-10', value: 10 },
             ]}
           />
         </div>
@@ -88,10 +94,10 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-gohan', value: '100' },
-              { className: 'bg-gohan-80', value: '80' },
-              { className: 'bg-gohan-40', value: '40' },
-              { className: 'bg-gohan-10', value: '10' },
+              { className: 'bg-gohan', value: 100 },
+              { className: 'bg-gohan-80', value: 80 },
+              { className: 'bg-gohan-40', value: 40 },
+              { className: 'bg-gohan-10', value: 10 },
             ]}
           />
         </div>
@@ -103,21 +109,21 @@ export default function PageColours() {
           text.
         </ColorUsage>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-goten', value: '100' }]} />
+          <Palette colors={[{ className: 'bg-goten', value: 100 }]} />
         </div>
       </section>
       <section className="mt-8">
         <ColorName>Bulma</ColorName>
         <ColorUsage>Main body text</ColorUsage>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-bulma', value: '100' }]} />
+          <Palette colors={[{ className: 'bg-bulma', value: 100 }]} />
         </div>
       </section>
       <section className="mt-8">
         <ColorName>Trunks</ColorName>
         <ColorUsage>Secondary body text</ColorUsage>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-trunks', value: '100' }]} />
+          <Palette colors={[{ className: 'bg-trunks', value: 100 }]} />
         </div>
       </section>
       <h2 className="text-3xl font-semibold mt-8">Support colours</h2>
@@ -128,8 +134,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-krillin', value: '100' },
-              { className: 'bg-krillin-10', value: '10' },
+              { className: 'bg-krillin', value: 100 },
+              { className: 'bg-krillin-10', value: 10 },
             ]}
           />
         </div>
@@ -141,21 +147,20 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-chiChi', value: '100' },
-              { className: 'bg-chiChi-10', value: '10' },
+              { className: 'bg-chiChi', value: 100 },
+              { className: 'bg-chiChi-10', value: 10 },
             ]}
           />
         </div>
       </section>
-
 
       <section className="mt-8">
         <ColorName>Roshi</ColorName>
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-roshi', value: '100' },
-              { className: 'bg-roshi-10', value: '10' },
+              { className: 'bg-roshi', value: 100 },
+              { className: 'bg-roshi-10', value: 10 },
             ]}
           />
         </div>
@@ -166,8 +171,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-dodoria', value: '100' },
-              { className: 'bg-dodoria-10', value: '10' },
+              { className: 'bg-dodoria', value: 100 },
+              { className: 'bg-dodoria-10', value: 10 },
             ]}
           />
         </div>
@@ -178,8 +183,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-cell', value: '100' },
-              { className: 'bg-cell-10', value: '10' },
+              { className: 'bg-cell', value: 100 },
+              { className: 'bg-cell-10', value: 10 },
             ]}
           />
         </div>
@@ -190,8 +195,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-raditz', value: '100' },
-              { className: 'bg-raditz-10', value: '10' },
+              { className: 'bg-raditz', value: 100 },
+              { className: 'bg-raditz-10', value: 10 },
             ]}
           />
         </div>
@@ -202,8 +207,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-whis', value: '100' },
-              { className: 'bg-whis-10', value: '10' },
+              { className: 'bg-whis', value: 100 },
+              { className: 'bg-whis-10', value: 10 },
             ]}
           />
         </div>
@@ -214,8 +219,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-frieza', value: '100' },
-              { className: 'bg-frieza-10', value: '10' },
+              { className: 'bg-frieza', value: 100 },
+              { className: 'bg-frieza-10', value: 10 },
             ]}
           />
         </div>
@@ -226,8 +231,8 @@ export default function PageColours() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-nappa', value: '100' },
-              { className: 'bg-nappa-10', value: '10' },
+              { className: 'bg-nappa', value: 100 },
+              { className: 'bg-nappa-10', value: 10 },
             ]}
           />
         </div>
@@ -237,11 +242,7 @@ export default function PageColours() {
         <ColorName>Popo</ColorName>
         <ColorUsage>Black colour</ColorUsage>
         <div className="mt-4">
-          <Palette
-            colors={[
-              { className: 'bg-popo', value: '100' },
-            ]}
-          />
+          <Palette colors={[{ className: 'bg-popo', value: 100 }]} />
         </div>
       </section>
     </>
