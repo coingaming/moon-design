@@ -46,7 +46,7 @@ const CardContributor: React.FC<Props> = ({ variant, name, imageSrc }) => (
       }
     >
       <Image
-        className="z-10 rounded-lg"
+        className="rounded-lg"
         alt={name}
         src={imageSrc}
         layout="fill"

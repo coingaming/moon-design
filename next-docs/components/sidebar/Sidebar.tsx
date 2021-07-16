@@ -96,7 +96,7 @@ const LogoLink = () => (
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col flex-grow pt-16 px-6 bg-white overflow-y-auto">
+    <div className="fixed h-screen w-72 flex flex-col flex-grow py-16 px-6 bg-white overflow-y-scroll">
       <div className="flex items-center flex-shrink-0 pl-2 mb-12">
         <LogoLink />
       </div>

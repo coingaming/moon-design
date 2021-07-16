@@ -30,12 +30,12 @@ const Header = () => (
 
 const SubHeader = ({ title, description }) => (
   <>
-    <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative z-10 w-min whitespace-nowrap py-1 rounded-lg z-20">
+    <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative w-min whitespace-nowrap py-1 rounded-lg">
       {title}
     </h2>
     <p
-      className="text-4xl tracking-tight bg-background relative z-10 w-min whitespace-nowrap
-       pr-4 py-1 bg-opacity-25 z-20"
+      className="text-4xl tracking-tight bg-background relative w-min whitespace-nowrap
+       pr-4 py-1 "
     >
       {description}
     </p>
