@@ -8,7 +8,7 @@ const InternalText: React.FC<{}> = ({ children }) => (
 
 const TextSizesPreview = () => (
   <Preview
-    title="Text sizes & colors"
+    title="Text sizes &amp; colors"
     preview={
       <div className="flex flex-col gap-4 w-full">
         <Text>Text with default font size and color</Text>
@@ -53,7 +53,7 @@ const TextSizesPreview = () => (
 
 const HeadingPreview = () => (
   <Preview
-    title="Heading sizes & colors"
+    title="Heading sizes &amp; colors"
     preview={
       <div className="flex flex-col gap-4 w-full">
         <Heading>Heading with default font size</Heading>
