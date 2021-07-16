@@ -19,7 +19,7 @@ const MoonAndEarthAnimation = () => {
     scrollYProgress,
     (scrollYProgress) => 1 - scrollYProgress * 0.6
   );
-  const right = useTransform(scrollYProgress, [0, 1], [-100, -300]);
+  const right = useTransform(scrollYProgress, [0, 1], [-100, -500]);
 
   return (
     <>

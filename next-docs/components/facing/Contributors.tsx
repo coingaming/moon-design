@@ -22,12 +22,12 @@ const Contributors = () => (
       name="Dima Nikolaenko"
       imageSrc={imageDimaNikolaenko}
     />
-    <CardContributor name="Pavel Navolochko" imageSrc={imagePavelNavolochko} />
     <CardContributor
       variant="tiny"
-      name="Mikita Lisavets"
-      imageSrc={imageMikitaLisavets}
+      name="Pavel Navolochko"
+      imageSrc={imagePavelNavolochko}
     />
+    <CardContributor name="Mikita Lisavets" imageSrc={imageMikitaLisavets} />
   </FacingReel>
 );
 
