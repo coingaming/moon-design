@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.2](https://github.com/coingaming/moon-design/compare/v5.5.1...v5.5.2) (2021-07-16)
+
+
+### Bug Fixes
+
+* clear timeout on unmount ([#1257](https://github.com/coingaming/moon-design/issues/1257)) ([#1258](https://github.com/coingaming/moon-design/issues/1258)) ([85602d2](https://github.com/coingaming/moon-design/commit/85602d2bdf78e73595167df3a651bf389197a65e))
+
+
+
+
+
 ## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
 
 
