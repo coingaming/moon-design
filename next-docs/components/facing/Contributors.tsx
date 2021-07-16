@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 import CardContributor from './CardContibutor';
 import FacingReel from './FacingReel';
@@ -12,65 +11,22 @@ import imagePavelNavolochko from '../../public/contributors/pavelnavolochko.png'
 
 const Contributors = () => (
   <FacingReel>
+    <CardContributor name="Karl Kallavus" imageSrc={imageKarlKallavus} />
     <CardContributor
-      name="Karl Kallavus"
-      image={
-        <Image
-          className="z-10 rounded-lg w-max h-max"
-          alt="Karl Kallavus"
-          src={imageKarlKallavus}
-          layout="intrinsic"
-          quality={100}
-        />
-      }
-    />
-    <CardContributor
+      variant="tiny"
       name="Egert Tamm"
-      image={
-        <Image
-          className="z-10 rounded-lg w-max h-max"
-          alt="Egert Tamm"
-          src={imageEgertTamm}
-          layout="intrinsic"
-          quality={100}
-        />
-      }
+      imageSrc={imageEgertTamm}
     />
     <CardContributor
+      variant="tall"
       name="Dima Nikolaenko"
-      image={
-        <Image
-          className="z-10 rounded-lg w-max h-max"
-          alt="Dima Nikolaenko"
-          src={imageDimaNikolaenko}
-          layout="intrinsic"
-          quality={100}
-        />
-      }
+      imageSrc={imageDimaNikolaenko}
     />
+    <CardContributor name="Pavel Navolochko" imageSrc={imagePavelNavolochko} />
     <CardContributor
-      name="Pavel Navolochko"
-      image={
-        <Image
-          className="z-10 rounded-lg w-max h-max"
-          alt="Pavel Navolochko"
-          src={imagePavelNavolochko}
-          layout="intrinsic"
-          quality={100}
-        />
-      }
-    />
-    <CardContributor
+      variant="tiny"
       name="Mikita Lisavets"
-      image={
-        <Image
-          className="z-10 rounded-lg w-max h-max"
-          alt="Mikita Lisavets"
-          src={imageMikitaLisavets}
-          layout="intrinsic"
-          quality={100}
-        />
-      }
+      imageSrc={imageMikitaLisavets}
     />
   </FacingReel>
 );

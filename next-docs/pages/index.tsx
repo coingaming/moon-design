@@ -7,6 +7,7 @@ import Contributors from '../components/facing/Contributors';
 import News from '../components/facing/News';
 import Logo from '../components/sidebar/Logo';
 import MoonAndEarthAnimation from '../components/facing/MoonAndEarth';
+import Footer from '../components/Footer';
 
 const OpenSourceBadge = () => (
   <span className="block w-min whitespace-nowrap mb-8 text-active bg-active-80 uppercase tracking-widest py-2 px-4 rounded-lg font-bold">
@@ -41,17 +42,6 @@ const SubHeader = ({ title, description }) => (
   </>
 );
 
-const Footer = () => (
-  <footer className="flex items-center">
-    <div className="mr-36">
-      <Logo />
-    </div>
-    <a className="mr-16 hover:underline cursor-pointer">Slack</a>
-    <a className="hover:underline cursor-pointer">Medium</a>
-    <p className="ml-auto mr-36">With the help of Coingaming</p>
-  </footer>
-);
-
 export default function Home() {
   return (
     <>
@@ -84,10 +74,6 @@ export default function Home() {
 
       <div className="mt-12">
         <Contributors />
-      </div>
-
-      <div className="mt-36">
-        <Footer />
       </div>
     </>
   );

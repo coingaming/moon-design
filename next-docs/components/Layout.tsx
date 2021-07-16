@@ -6,6 +6,7 @@ import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import { useDocsTheme } from './themes/DocsThemeProvider';
 import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
+import Footer from './Footer';
 
 const getClassName = ({ brand, colorMode }) => {
   if (brand === 'moonDesign') {
@@ -101,6 +102,10 @@ export default function Layout({ children }) {
 
           <BrandThemeSelector themeKeys={themeKeys} setBrand={setBrand} />
           <div className="py-6 px-4 sm:px-6 md:px-0">{children}</div>
+
+          <div className="mt-36 mb-24">
+            <Footer />
+          </div>
         </main>
       </div>
     </div>

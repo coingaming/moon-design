@@ -1,5 +1,5 @@
 const navigation = [
-  { name: 'Home', href: '/' },
+  // { name: 'Home', href: '/' },
   { name: 'Colours Palette', href: '/colours' },
   { name: 'Typography', href: '/typography' },
   {
