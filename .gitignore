@@ -32,7 +32,7 @@ cache
 *.tsbuildinfo
 
 # Gatsby
-public
+docs/public/
 
 # next.js
 /.next/
