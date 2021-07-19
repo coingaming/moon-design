@@ -104,6 +104,7 @@ export const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns 
     current.addEventListener('scroll', handleUpdateViewport, { passive: true })
     return () => {
       current.removeEventListener('scroll', handleUpdateViewport)
+      clearTimeout(timeoutId)
     }
   }, [tableRef, handleUpdateViewport])
 
