@@ -54,7 +54,7 @@ const navigation = [
       //     { name: 'Table', href: '/components/table/table' }, // TODO
       //   ],
       // },
-      // { name: 'TextInput', href: '/components/textInput' }, // TODO
+      { name: 'TextInput', href: '/components/textInput' }, // TODO
       // { name: 'Toggle', href: '/components/toggle' }, // TODO
       // { name: 'Tooltip', href: '/components/tooltip' }, // TODO
     ],
