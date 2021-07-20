@@ -41,11 +41,11 @@ const navigation = [
       {
         name: 'Progress',
         children: [
-          { name: 'Circular', href: '/components/progress/circular' }, // TODO code
-          { name: 'Linear', href: '/components/progress/linear' }, // TODO code
+          { name: 'Circular', href: '/components/progress/circular' },
+          { name: 'Linear', href: '/components/progress/linear' },
         ],
       },
-      // { name: 'Select', href: '/components/select' }, // TODO
+      { name: 'Select', href: '/components/select' }, // TODO
       // { name: 'Search', href: '/components/search' }, // TODO
       // { name: 'Tabs', href: '/components/tabs' }, // TODO
       // {
