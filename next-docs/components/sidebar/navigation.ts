@@ -38,6 +38,13 @@ const navigation = [
       // Dropdown
       { name: 'Loader', href: '/components/loader' },
       { name: 'Pagination', href: '/components/pagination' }, // TODO
+      {
+        name: 'Progress',
+        children: [
+          { name: 'Circular', href: '/components/progress/circular' }, // TODO code
+          { name: 'Linear', href: '/components/progress/linear' }, // TODO code
+        ],
+      },
       // { name: 'Select', href: '/components/select' }, // TODO
       // { name: 'Search', href: '/components/search' }, // TODO
       // { name: 'Tabs', href: '/components/tabs' }, // TODO
@@ -50,10 +57,6 @@ const navigation = [
       // { name: 'TextInput', href: '/components/textInput' }, // TODO
       // { name: 'Toggle', href: '/components/toggle' }, // TODO
       // { name: 'Tooltip', href: '/components/tooltip' }, // TODO
-
-      // Caption
-      // Heading
-      // Text
     ],
   },
   // {
