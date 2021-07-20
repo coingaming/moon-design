@@ -62,7 +62,7 @@ export default function Layout({ children }) {
         </div>
       </div>
 
-      <div className="flex-1 mx-32 md:mt-8 w-0 flex flex-col md:px-8 xl:px-0 ">
+      <div className="min-h-screen flex-1 mx-32 md:mt-8 w-0 flex flex-col md:px-8 xl:px-0">
         {/* Opens sidebar on mobile */}
         <div className="md:hidden flex flex-row align-center">
           <button
@@ -94,7 +94,7 @@ export default function Layout({ children }) {
         </div>
 
         {/* TODO overflow-y-auto */}
-        <main className="flex-1 relative overflow-y-auto focus:outline-none">
+        <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
           <DarkLightModeSwitcher
             toggle={toggleColorScheme}
             isEnabled={getColorMode() === 'dark'}
@@ -103,7 +103,7 @@ export default function Layout({ children }) {
           <BrandThemeSelector themeKeys={themeKeys} setBrand={setBrand} />
           <div className="py-6 px-4 sm:px-6 md:px-0">{children}</div>
 
-          <div className="mt-36 mb-24">
+          <div className="mt-auto mb-24">
             <Footer />
           </div>
         </main>
