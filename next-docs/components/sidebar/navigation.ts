@@ -45,9 +45,9 @@ const navigation = [
           { name: 'Linear', href: '/components/progress/linear' },
         ],
       },
-      { name: 'Search', href: '/components/search' }, // TODO
+      { name: 'Search', href: '/components/search' },
       { name: 'Select', href: '/components/select' },
-      // { name: 'Tabs', href: '/components/tabs' }, // TODO
+      { name: 'Tabs', href: '/components/tabs' },
       // {
       //   name: 'Table',
       //   children: [
