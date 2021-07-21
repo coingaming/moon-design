@@ -19,7 +19,7 @@ const navigation = [
         name: 'Charts',
         children: [
           { name: 'Geo map', href: '/components/charts/geoMapChart' },
-          // { name: 'Line', href: '/components/charts/lineChart' }, // TODO
+          { name: 'Line', href: '/components/charts/lineChart' },
           // { name: 'Pie', href: '/components/charts/pieChart' }, // TODO
           // { name: 'Table', href: '/components/charts/tableChart' }, // TODO
           // { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
