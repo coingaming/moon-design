@@ -47,6 +47,7 @@ const navigation = [
       },
       { name: 'Search', href: '/components/search' },
       { name: 'Select', href: '/components/select' },
+      { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
       // {
       //   name: 'Table',
@@ -54,8 +55,7 @@ const navigation = [
       //     { name: 'Table', href: '/components/table/table' }, // TODO
       //   ],
       // },
-      { name: 'TextInput', href: '/components/textInput' }, // TODO
-      // { name: 'Toggle', href: '/components/toggle' }, // TODO
+      { name: 'TextInput', href: '/components/textInput' },
       // { name: 'Tooltip', href: '/components/tooltip' }, // TODO
     ],
   },
