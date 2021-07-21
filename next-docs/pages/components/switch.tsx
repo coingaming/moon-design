@@ -130,8 +130,10 @@ export default function PageSwitch() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Checkbox</h1>
-        <p className="text-lg mt-4">Checkbox.</p>
+        <h1 className="text-5xl font-semibold">Switch</h1>
+        <p className="text-lg mt-4">
+          An alternate checkbox appearance for simulating on/off state.
+        </p>
       </section>
 
       {/* Default */}

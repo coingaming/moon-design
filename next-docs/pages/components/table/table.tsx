@@ -1,16 +1,14 @@
 import React from 'react';
 
-import { Checkbox } from '@heathmont/moon-core';
+import { Tooltip } from '@heathmont/moon-components';
 
-import Preview from '../../components/codePreview/Preview';
+import Preview from '../../../components/codePreview/Preview';
 
-const Example = () => {
-  return (
-    <Checkbox label="I agree to receive bonus & marketing emails." />
-  );
+const PreviewTooltip = () => {
+  return <Preview title="Default" preview={<></>} code={``} />;
 };
 
-export default function PageDialogContent() {
+export default function PageTooltip() {
   return (
     <>
       <section className="mt-8">
@@ -20,7 +18,7 @@ export default function PageDialogContent() {
 
       {/* Default */}
       <section className="mt-8">
-        <Example />
+        <PreviewTooltip />
       </section>
     </>
   );
