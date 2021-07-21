@@ -488,13 +488,6 @@ export default function PageLineChart() {
               description: 'Height of component',
             },
             {
-              name: 'height',
-              type: 'string, number',
-              required: false,
-              default: '526',
-              description: 'Height of component',
-            },
-            {
               name: 'axisWidth',
               type: 'number',
               required: false,
