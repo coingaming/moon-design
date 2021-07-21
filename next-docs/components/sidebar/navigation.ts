@@ -21,7 +21,7 @@ const navigation = [
           { name: 'Geo map', href: '/components/charts/geoMapChart' },
           { name: 'Line', href: '/components/charts/lineChart' },
           { name: 'Pie', href: '/components/charts/pieChart' },
-          // { name: 'Table', href: '/components/charts/tableChart' }, // TODO
+          { name: 'Table', href: '/components/charts/tableChart' },
           // { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
         ],
       },

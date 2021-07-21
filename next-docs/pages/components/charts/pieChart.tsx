@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Filter, PieChart } from '@heathmont/moon-charts';
+import { Filter, PieChart, ChartIcons } from '@heathmont/moon-charts';
 import { Inline } from '@heathmont/moon-components';
 
 import Preview from '../../../components/codePreview/Preview';
@@ -314,7 +314,7 @@ export default function PageLineChart() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Line chart</h1>
+        <h1 className="text-5xl font-semibold">Pie chart</h1>
         <p className="text-lg mt-4">
           Based on{' '}
           <a className="underline" href="https://www.react-simple-maps.io/">
@@ -400,7 +400,7 @@ export default function PageLineChart() {
               name: 'icon',
               type: 'React.ReactNode',
               required: false,
-              default: '<ChartIcons.Devices />',
+              default: <ChartIcons.Devices />,
               description: 'Placeholder for chart icon component',
             },
             {
