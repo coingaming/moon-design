@@ -52,6 +52,10 @@ export default function PageGeoMapChart() {
           Based on{' '}
           <a className="underline" href="https://www.react-simple-maps.io/">
             react-simple-maps
+          </a>{' '}
+          and{' '}
+          <a className="underline" href="https://recharts.org/en-US/">
+            Recharts
           </a>
           .
         </p>

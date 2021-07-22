@@ -194,7 +194,7 @@ const TableChartExample = () => {
   );
 
   return (
-    <Inline style={{ flexWrap: 'nowrap' }}>
+    <div className="w-full flex flex-row gap-36">
       <TableChart
         title="Top Players"
         icon={<ChartIcons.TopPlayers />}
@@ -228,7 +228,7 @@ const TableChartExample = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-    </Inline>
+    </div>
   );
 };
 
@@ -485,7 +485,7 @@ const TableChartLoadingExample = () => {
   );
 
   return (
-    <Inline style={{ flexWrap: 'nowrap' }}>
+    <div className="w-full flex flex-row gap-36">
       <TableChart
         title="Yesterday"
         icon={<ChartIcons.Time />}
@@ -508,7 +508,7 @@ const TableChartLoadingExample = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-    </Inline>
+    </div>
   );
 };
 
@@ -705,8 +705,8 @@ export default function PageLineChart() {
         <h1 className="text-5xl font-semibold">Table chart</h1>
         <p className="text-lg mt-4">
           Based on{' '}
-          <a className="underline" href="https://www.react-simple-maps.io/">
-            react-simple-maps
+          <a className="underline" href="https://recharts.org/en-US/">
+            Recharts
           </a>
           .
         </p>

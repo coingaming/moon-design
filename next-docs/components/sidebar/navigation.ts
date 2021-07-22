@@ -22,7 +22,7 @@ const navigation = [
           { name: 'Line', href: '/components/charts/lineChart' },
           { name: 'Pie', href: '/components/charts/pieChart' },
           { name: 'Table', href: '/components/charts/tableChart' },
-          // { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
+          { name: 'Vertical bar', href: '/components/charts/verticalBarChart' }, // TODO
         ],
       },
       { name: 'Checkbox', href: '/components/checkbox' },

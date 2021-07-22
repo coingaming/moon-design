@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Filter, LineChart } from '@heathmont/moon-charts';
-import { CheckboxMultiselect, Inline } from '@heathmont/moon-components';
+import { CheckboxMultiselect } from '@heathmont/moon-components';
 
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
@@ -255,7 +255,7 @@ const LineChartLoading = () => {
   );
 
   return (
-    <Inline style={{ flexWrap: 'nowrap' }}>
+    <div className="w-full flex flex-row gap-36">
       <div style={{ width: '50%' }}>
         <LineChart
           title="KPI Overview"
@@ -281,7 +281,7 @@ const LineChartLoading = () => {
           onExpand={() => {}}
         />
       </div>
-    </Inline>
+    </div>
   );
 };
 
@@ -401,8 +401,8 @@ export default function PageLineChart() {
         <h1 className="text-5xl font-semibold">Line chart</h1>
         <p className="text-lg mt-4">
           Based on{' '}
-          <a className="underline" href="https://www.react-simple-maps.io/">
-            react-simple-maps
+          <a className="underline" href="https://recharts.org/en-US/">
+            Recharts
           </a>
           .
         </p>
