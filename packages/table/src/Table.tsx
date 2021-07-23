@@ -8,6 +8,7 @@ import {
   useExpanded,
   useBlockLayout,
   useFlexLayout,
+  TableInstance,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { rem, themed } from '@heathmont/moon-utils';
@@ -294,6 +295,7 @@ type Props = {
   evenRowBackgroundColor?: ColorNames
   headerBackgroundColor?: ColorNames
   renderRowSubComponent?: (row: any, rowProps: any, visibleColumns: any) => any
+  expandedByDefault?: boolean
 }
 
 const Table: React.FC<Props> = ({
@@ -313,6 +315,7 @@ const Table: React.FC<Props> = ({
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
   renderRowSubComponent,
+  expandedByDefault
 }) => {
   const {
     getTableProps,
@@ -322,17 +325,18 @@ const Table: React.FC<Props> = ({
     rows,
     prepareRow,
     visibleColumns,
+    toggleAllRowsExpanded
   } = useTable(
     {
       columns,
       data,
-      defaultColumn,
+      defaultColumn
     },
     layout === 'block' ? useBlockLayout : useFlexLayout,
     useResizeColumns,
     useSticky,
     useExpanded,
-  );
+  ) as TableInstance & { toggleAllRowsExpanded: (isExpanded?: boolean) => void };
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
@@ -341,6 +345,11 @@ const Table: React.FC<Props> = ({
     scrolledToLeft: true,
     scrolledToRight: true,
   });
+
+  useEffect(() => {
+    if (expandedByDefault === undefined) return
+    toggleAllRowsExpanded(expandedByDefault)
+  }, [expandedByDefault, toggleAllRowsExpanded])
 
   useEffect(() => {
     if (!tableRef?.current) return
