@@ -3,6 +3,7 @@ import { SingleItemSelect } from '@heathmont/moon-components';
 
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import CodeSnippet from '../../../components/CodeSnippet';
 import Table from '../../../components/Table';
 
 const ExampleGeoMapChart = () => {
@@ -214,14 +215,14 @@ import { SingleItemSelect } from '@heathmont/moon-components';
       </section>
 
       <section className="mt-8">
-        <pre className="bg-gray-50 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500 ">
+        <CodeSnippet>
           {`Data {
   label: string | React.ReactNode;
   code: string;
   value: number;
   dataKey: string;
 }`}
-        </pre>
+        </CodeSnippet>
       </section>
     </>
   );

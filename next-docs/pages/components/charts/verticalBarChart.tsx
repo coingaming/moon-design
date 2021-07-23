@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { Filter, VerticalBarChart, ChartIcons } from '@heathmont/moon-charts';
+import { Filter, VerticalBarChart } from '@heathmont/moon-charts';
 import { SingleItemSelect } from '@heathmont/moon-components';
 
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
+import CodeSnippet from '../../../components/CodeSnippet';
 
 const VerticalBarChartExample = () => {
   const dataPositive = [
@@ -83,7 +84,9 @@ const VerticalBarChartExample = () => {
   );
 };
 
-const VerticalBarChartCode = `
+const VerticalBarChartCode = `import { Filter, VerticalBarChart } from '@heathmont/moon-charts';
+import { SingleItemSelect } from '@heathmont/moon-components';
+
 () => {
   const dataPositive = [
     { label: 'Estonia', code: 'EST', value: 120 },
@@ -168,6 +171,84 @@ const PreviewTableChartActive = () => {
       title="Various data"
       preview={<VerticalBarChartExample />}
       code={VerticalBarChartCode}
+    />
+  );
+};
+
+const TableChartNoDataExample = () => {
+  const filter = (
+    <Filter title="by GGR">
+      {() => (
+        <SingleItemSelect
+          onChange={() => {}}
+          value="ggr"
+          options={[
+            { label: 'Active players', value: 'actives' },
+            { label: 'GGR', value: 'ggr' },
+            { label: 'Bets', value: 'bets' },
+          ]}
+        />
+      )}
+    </Filter>
+  );
+
+  return (
+    <div className="w-full flex flex-row gap-36">
+      <VerticalBarChart
+        title="Top Countries"
+        data={[]}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
+    </div>
+  );
+};
+
+const TableChartNoDataCode = `import { Filter, VerticalBarChart } from '@heathmont/moon-charts';
+import { SingleItemSelect } from '@heathmont/moon-components';
+
+() => {
+  const filter = (
+    <Filter title="by GGR">
+      {() => (
+        <SingleItemSelect
+          onChange={() => {}}
+          value="ggr"
+          options={[
+            { label: 'Active players', value: 'actives' },
+            { label: 'GGR', value: 'ggr' },
+            { label: 'Bets', value: 'bets' },
+          ]}
+        />
+      )}
+    </Filter>
+  );
+
+  return (
+    <div className="w-full flex flex-row gap-36">
+      <VerticalBarChart
+        title="Top Countries"
+        data={[]}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
+    </div>
+  );
+};
+`;
+
+const PreviewTableChartNoData = () => {
+  return (
+    <Preview
+      title="No data"
+      preview={<TableChartNoDataExample />}
+      code={TableChartNoDataCode}
     />
   );
 };
@@ -295,6 +376,24 @@ export default function PageVerticalBarChart() {
             },
           ]}
         />
+      </section>
+
+      <section className="mt-8">
+        <h2 className="text-2xl">Types</h2>
+        <section className="mt-4">
+          <CodeSnippet>
+            {`Data {
+  label: string | React.ReactNode;
+  code: string;
+  value: number;
+  dataKey: string;
+}`}
+          </CodeSnippet>
+        </section>
+      </section>
+
+      <section className="mt-8">
+        <PreviewTableChartNoData />
       </section>
     </>
   );
