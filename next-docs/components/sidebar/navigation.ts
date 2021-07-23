@@ -4,8 +4,10 @@ const navigation = [
   { name: 'Typography', href: '/typography' },
   {
     name: 'Getting Started',
-    href: '/start/getting-started',
-    children: [{ name: 'Reset', href: '/start/reset' }],
+    children: [
+      { name: 'Tokens', href: '/start/tokens' },
+      { name: 'Reset', href: '/start/reset' },
+    ],
   },
   {
     name: 'Components',
