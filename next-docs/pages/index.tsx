@@ -58,8 +58,8 @@ export default function Home() {
         <News />
       </div>
 
-      <ForDesigners />
-      <ForDevelopers />
+      {/* <ForDesigners />
+      <ForDevelopers /> */}
 
       <MoonAndEarthAnimation />
 

@@ -95,12 +95,16 @@ export default function Layout({ children }) {
 
         {/* TODO overflow-y-auto */}
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-          <DarkLightModeSwitcher
-            toggle={toggleColorScheme}
-            isEnabled={getColorMode() === 'dark'}
+          <BrandThemeSelector
+            themeKeys={themeKeys}
+            setBrand={setBrand}
+            darkLight={
+              <DarkLightModeSwitcher
+                toggle={toggleColorScheme}
+                isEnabled={getColorMode() === 'dark'}
+              />
+            }
           />
-
-          <BrandThemeSelector themeKeys={themeKeys} setBrand={setBrand} />
           <div className="py-6 px-4 sm:px-6 md:px-0">{children}</div>
 
           <div className="mt-auto mb-24">

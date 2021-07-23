@@ -107,7 +107,7 @@ const DarkLightModeSwitcher: React.FC<IDarkModeSwitcher> = ({
     onClick={toggle}
     type="button"
     aria-pressed="false"
-    className="fixed top-4 right-4 bg-grey-500 inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none"
+    className="bg-white inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none"
   >
     <span className="sr-only">Change dark or light theme</span>
     <span
