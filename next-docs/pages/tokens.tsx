@@ -1,5 +1,5 @@
 import React from 'react';
-import TokenTable from '../../components/TokenTable';
+import TokenTable from '../components/TokenTable';
 
 const Text: React.FC<{}> = ({ children }) => (
   <p className="text-lg mt-4">{children}</p>

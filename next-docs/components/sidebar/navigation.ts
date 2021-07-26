@@ -1,14 +1,10 @@
 const navigation = [
   // { name: 'Home', href: '/' },
+  { name: 'Getting Started', href: '/getting-started' },
+  { name: 'How to contribute', href: '/how-to-contribute'},
   { name: 'Colours Palette', href: '/colours' },
   { name: 'Typography', href: '/typography' },
-  {
-    name: 'Getting Started',
-    children: [
-      { name: 'Tokens', href: '/start/tokens' },
-      { name: 'Reset', href: '/start/reset' },
-    ],
-  },
+  { name: 'Tokens', href: '/tokens' },
   {
     name: 'Components',
     children: [
