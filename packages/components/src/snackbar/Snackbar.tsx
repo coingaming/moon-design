@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem, mq } from '@heathmont/moon-utils';
+import { rem, mq, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 import IconError from '../private/icons/IconError';
@@ -12,6 +12,7 @@ type SnackbarWrapperProps = {
   position?: 'bottom' | 'top' | 'inline';
   maxWidth?: string;
   minWidth?: string;
+  bgColor?: string;
 };
 
 type SnackbarProps = SnackbarWrapperProps & {
@@ -25,11 +26,13 @@ type SnackbarProps = SnackbarWrapperProps & {
 
 const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
   ({
+    theme,
     theme: { color, space, zIndex, breakpoint },
     position,
     justifyContent,
     maxWidth,
     minWidth,
+    bgColor,
   }) => [
     { width: 'fit-content' },
     (position === 'bottom' || position === 'top') && {
@@ -61,7 +64,9 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
     },
     {
       padding: space.default,
-      backgroundColor: color.bulma[100],
+      backgroundColor: bgColor
+        ? themed('color', bgColor)(theme)
+        : color.bulma[100],
       borderRadius: rem(12),
       display: 'flex',
       flexDirection: 'row',
@@ -70,7 +75,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
         marginLeft: space.default,
       },
     },
-  ],
+  ]
 );
 
 const MessageWrapper = styled.p(({ theme }) => [
@@ -94,12 +99,14 @@ const Snackbar: React.FC<SnackbarProps> = ({
   justifyContent,
   maxWidth,
   minWidth,
+  bgColor,
 }) => (
   <SnackbarWrapper
     position={position}
     justifyContent={justifyContent}
     maxWidth={maxWidth}
     minWidth={minWidth}
+    bgColor={bgColor}
   >
     {status === 'error' && (
       <IconWrapper>
