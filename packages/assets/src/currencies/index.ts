@@ -18,6 +18,8 @@ export { default as IconChineseYuan } from './IconChineseYuan';
 export * from './IconChineseYuan';
 export { default as IconDanishKrone } from './IconDanishKrone';
 export * from './IconDanishKrone';
+export { default as IconDogecoin } from './IconDogecoin';
+export * from './IconDogecoin';
 export { default as IconEthereum } from './IconEthereum';
 export * from './IconEthereum';
 export { default as IconEuro } from './IconEuro';
