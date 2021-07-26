@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
+
+### Features
+
+- doge to groupIcons ([#1262](https://github.com/coingaming/moon-design/issues/1262)) ([d93d7d4](https://github.com/coingaming/moon-design/commit/d93d7d4e8b590deda8af3b7449e47ff7de3f173e))
+
+# [5.6.0](https://github.com/coingaming/moon-design/compare/v5.5.2...v5.6.0) (2021-07-26)
+
+### Features
+
+- Dogecoin icon ([#1260](https://github.com/coingaming/moon-design/issues/1260)) ([fe054a8](https://github.com/coingaming/moon-design/commit/fe054a849d2cc6fbb7b987c9424c70a88696fe9a))
+
 ## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
 
 ### Bug Fixes

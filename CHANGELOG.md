@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.8.0](https://github.com/coingaming/moon-design/compare/v5.7.0...v5.8.0) (2021-07-26)
+
+### Features
+
+- snackbar custom background color ([#1264](https://github.com/coingaming/moon-design/issues/1264)) ([1edfd3f](https://github.com/coingaming/moon-design/commit/1edfd3f17e6c0337ac59fa7dba4d4a58f523e02f))
+
+# [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
+
+### Features
+
+- doge to groupIcons ([#1262](https://github.com/coingaming/moon-design/issues/1262)) ([d93d7d4](https://github.com/coingaming/moon-design/commit/d93d7d4e8b590deda8af3b7449e47ff7de3f173e))
+
+# [5.6.0](https://github.com/coingaming/moon-design/compare/v5.5.2...v5.6.0) (2021-07-26)
+
+### Bug Fixes
+
+- clear timeout on unmount ([#1257](https://github.com/coingaming/moon-design/issues/1257)) ([5f0f75c](https://github.com/coingaming/moon-design/commit/5f0f75c29d8a1998a6c308fd1224949529ce20d2))
+
+### Features
+
+- add expandedByDefault prop ([#1259](https://github.com/coingaming/moon-design/issues/1259)) ([f80d39c](https://github.com/coingaming/moon-design/commit/f80d39cfd6463009b1059693b149d13d7c25e430))
+- Dogecoin icon ([#1260](https://github.com/coingaming/moon-design/issues/1260)) ([fe054a8](https://github.com/coingaming/moon-design/commit/fe054a849d2cc6fbb7b987c9424c70a88696fe9a))
+
+## [5.5.2](https://github.com/coingaming/moon-design/compare/v5.5.1...v5.5.2) (2021-07-16)
+
+### Bug Fixes
+
+- clear timeout on unmount ([#1257](https://github.com/coingaming/moon-design/issues/1257)) ([#1258](https://github.com/coingaming/moon-design/issues/1258)) ([85602d2](https://github.com/coingaming/moon-design/commit/85602d2bdf78e73595167df3a651bf389197a65e))
+
 ## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
 
 ### Bug Fixes

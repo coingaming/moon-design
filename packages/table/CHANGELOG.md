@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.8.0](https://github.com/coingaming/moon-design/compare/v5.7.0...v5.8.0) (2021-07-26)
+
+**Note:** Version bump only for package @heathmont/moon-table
+
+# [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
+
+**Note:** Version bump only for package @heathmont/moon-table
+
+# [5.6.0](https://github.com/coingaming/moon-design/compare/v5.5.2...v5.6.0) (2021-07-26)
+
+### Bug Fixes
+
+- clear timeout on unmount ([#1257](https://github.com/coingaming/moon-design/issues/1257)) ([5f0f75c](https://github.com/coingaming/moon-design/commit/5f0f75c29d8a1998a6c308fd1224949529ce20d2))
+
+### Features
+
+- add expandedByDefault prop ([#1259](https://github.com/coingaming/moon-design/issues/1259)) ([f80d39c](https://github.com/coingaming/moon-design/commit/f80d39cfd6463009b1059693b149d13d7c25e430))
+
+## [5.5.2](https://github.com/coingaming/moon-design/compare/v5.5.1...v5.5.2) (2021-07-16)
+
+### Bug Fixes
+
+- clear timeout on unmount ([#1257](https://github.com/coingaming/moon-design/issues/1257)) ([#1258](https://github.com/coingaming/moon-design/issues/1258)) ([85602d2](https://github.com/coingaming/moon-design/commit/85602d2bdf78e73595167df3a651bf389197a65e))
+
 ## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-table
