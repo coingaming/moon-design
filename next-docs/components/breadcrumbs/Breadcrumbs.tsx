@@ -15,7 +15,7 @@ export default function Breadcrumbs() {
   }
   return (
     <nav className="flex" aria-label="Breadcrumb">
-      <ol className="flex items-center space-x-4">
+      <ol className="flex flex-wrap items-center space-x-4">
         <li>
           <div className="flex items-center">
             <Link href="/">

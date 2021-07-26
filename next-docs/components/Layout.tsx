@@ -62,7 +62,7 @@ export default function Layout({ children }) {
         </div>
       </div>
 
-      <div className="min-h-screen flex-1 mx-32 md:mt-8 w-0 flex flex-col md:px-8 xl:px-0">
+      <div className="min-h-screen flex-1 md:mx-32 md:mt-8 w-0 flex flex-col md:px-8 xl:px-0">
         {/* Opens sidebar on mobile */}
         <div className="md:hidden flex flex-row align-center">
           <button
@@ -107,7 +107,7 @@ export default function Layout({ children }) {
           />
           <div className="py-6 px-4 sm:px-6 md:px-0">{children}</div>
 
-          <div className="mt-auto mb-24">
+          <div className="mt-auto py-8 px-4 md:pt-24">
             <Footer />
           </div>
         </main>
