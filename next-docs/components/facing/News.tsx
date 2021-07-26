@@ -5,45 +5,16 @@ import FacingReel from './FacingReel';
 const News = () => (
   <FacingReel>
     <CardArticle
-      title="How moon organises work in
-      figma to improve collaboration"
+      href="/getting-started"
+      title="Learn how to get Moon Design System up and running in your project."
       section=".tools"
     />
 
     <div className="mt-8">
       <CardArticle
+        href="/colours"
         variant="vertical"
-        title="How moon organises work in
-      figma to improve collaboration"
-        section=".tools"
-      />
-    </div>
-
-    <CardArticle
-      title="How moon organises work in
-      figma to improve collaboration"
-      section=".tools"
-    />
-
-    <div className="mt-8">
-      <CardArticle
-        variant="vertical"
-        title="How moon organises work in
-      figma to improve collaboration"
-        section=".tools"
-      />
-    </div>
-    <CardArticle
-      title="How moon organises work in
-      figma to improve collaboration"
-      section=".tools"
-    />
-
-    <div className="mt-8">
-      <CardArticle
-        variant="vertical"
-        title="How moon organises work in
-      figma to improve collaboration"
+        title="Customizing color palette for your project."
         section=".tools"
       />
     </div>
