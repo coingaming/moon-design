@@ -7,6 +7,7 @@ import classNames from '../../utils/classNames';
 
 interface Props {
   variant?: 'tiny' | 'tall';
+  title?: string;
   imageSrc: any;
   name: string;
 }
@@ -31,7 +32,12 @@ const variants = {
     maxHeight: rem(460),
   },
 };
-const CardContributor: React.FC<Props> = ({ variant, name, imageSrc }) => (
+const CardContributor: React.FC<Props> = ({
+  variant,
+  name,
+  title,
+  imageSrc,
+}) => (
   <div
     className={classNames(
       variant === 'tiny' ? 'mt-20' : '',
@@ -45,6 +51,9 @@ const CardContributor: React.FC<Props> = ({ variant, name, imageSrc }) => (
         variant && variant in variants ? variants[variant] : variants.default
       }
     >
+      <div className="list-item absolute bottom-8 left-full whitespace-nowrap text-white text-2xl transform origin-bottom-left -rotate-90 z-10 font-semibold">
+        {title}
+      </div>
       <Image
         className="rounded-lg"
         alt={name}

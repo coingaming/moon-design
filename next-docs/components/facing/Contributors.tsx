@@ -11,23 +11,26 @@ import imagePavelNavolochko from '../../public/contributors/pavelnavolochko.png'
 
 const Contributors = () => (
   <FacingReel>
-    <CardContributor name="Karl Kallavus" imageSrc={imageKarlKallavus} />
+    <CardContributor name="Karl Kallavus" title="Lead Developer" imageSrc={imageKarlKallavus} />
     <CardContributor
       variant="tiny"
       name="Egert Tamm"
+      title="Art Director"
       imageSrc={imageEgertTamm}
     />
     <CardContributor
       variant="tall"
       name="Dima Nikolaenko"
+      title="Lead Product Designer"
       imageSrc={imageDimaNikolaenko}
     />
     <CardContributor
       variant="tiny"
       name="Pavel Navolochko"
+      title="Head of Design"
       imageSrc={imagePavelNavolochko}
     />
-    <CardContributor name="Mikita Lisavets" imageSrc={imageMikitaLisavets} />
+    <CardContributor name="Mikita Lisavets" title="Developer" imageSrc={imageMikitaLisavets} />
   </FacingReel>
 );
 
