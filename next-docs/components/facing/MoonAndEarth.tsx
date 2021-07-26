@@ -26,7 +26,7 @@ const MoonAndEarthAnimation = () => {
       {/* Earth background image */}
       <motion.div
         style={{ scale: earthScale, top: 300, right }}
-        className="origin-top-left fixed z-20 w-5/12"
+        className="origin-top-left fixed z-30 w-5/12"
       >
         <Image src={imageEarth} alt="Earth" />
       </motion.div>
@@ -34,7 +34,7 @@ const MoonAndEarthAnimation = () => {
       {/* Moon background image */}
       <motion.div
         style={{ scale: moonScale, top: 250, right }}
-        className="origin-top-left fixed z-10 w-5/12"
+        className="origin-top-left fixed z-20 w-5/12"
       >
         <Image src={imageMoon} alt="Moon" />
       </motion.div>
