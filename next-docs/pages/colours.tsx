@@ -132,7 +132,7 @@ export default function PageColours() {
       </section>
       <h2 className="text-3xl font-semibold mt-8">Support colours</h2>
 
-      <div className="flex gap-40 flex-wrap">
+      <div className="flex gap-40 flex-wrap items-end">
         <section className="mt-8">
           <ColorName>Krillin</ColorName>
           <ColorUsage>Warning colours</ColorUsage>
