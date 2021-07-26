@@ -3,6 +3,7 @@
   "name": "moon-design",
   "scripts": {
     "start": "yarn docs dev",
+    "next": "lerna run --scope next-docs",
     "commit": "git-cz",
     "build": "lerna exec --parallel --no-private -- yarn build && yarn build:index && yarn build:js && yarn build:types",
     "build:index": "lerna exec --parallel --no-private --ignore '@heathmont/moon-{global,assets}' -- barrelsby --config '$LERNA_ROOT_PATH/.config/barrelsby/barrelsby.json' --directory src",
@@ -26,6 +27,7 @@
   },
   "workspaces": [
     "docs",
+    "next-docs",
     "packages/*"
   ],
   "config": {
@@ -102,8 +104,8 @@
     "lerna": "3.16.4",
     "lint-staged": "9.2.3",
     "prettier": "2.3.0",
-    "react": ">= 16.10.2",
-    "react-dom": ">= 16.10.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-test-renderer": ">= 16.10.2",
     "rimraf": "3.0.0",
     "styled-components": "5.2.1",

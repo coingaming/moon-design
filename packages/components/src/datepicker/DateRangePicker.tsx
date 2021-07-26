@@ -12,6 +12,7 @@ const Wrapper = styled.div({
 });
 
 const DateRangePicker: React.FC<DateRangePickerProps> = ({
+  isOpenByDefault,
   startDate,
   endDate,
   range,
@@ -20,7 +21,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   translations,
 }) => {
   // const [ref, hasClickedOutside] = useClickOutside();
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(isOpenByDefault);
   const [placeholder, setPlaceholder] = React.useState(
     getPlaceholder({
       startDate, endDate, range, config, translations,
@@ -50,6 +51,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
 
 DateRangePicker.defaultProps = {
   range: '',
+  isOpenByDefault: false,
   translations: {
     placeholder: 'Select Dates',
     apply: 'Apply',

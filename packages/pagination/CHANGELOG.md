@@ -7,207 +7,125 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 # [5.6.0](https://github.com/coingaming/moon-design/compare/v5.5.2...v5.6.0) (2021-07-26)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 ## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 # [5.5.0](https://github.com/coingaming/moon-design/compare/v5.4.0...v5.5.0) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [5.4.0](https://github.com/coingaming/moon-design/compare/v5.3.2...v5.4.0) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 ## [5.3.1](https://github.com/coingaming/moon-design/compare/v5.3.0...v5.3.1) (2021-07-08)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [5.3.0](https://github.com/coingaming/moon-design/compare/v5.2.3...v5.3.0) (2021-07-08)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 ## [5.2.3](https://github.com/coingaming/moon-design/compare/v5.2.2...v5.2.3) (2021-07-05)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 ## [5.2.2](https://github.com/coingaming/moon-design/compare/v5.2.1...v5.2.2) (2021-07-01)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 ## [5.2.1](https://github.com/coingaming/moon-design/compare/v5.2.0...v5.2.1) (2021-06-30)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [5.2.0](https://github.com/coingaming/moon-design/compare/v5.1.3...v5.2.0) (2021-06-29)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 ## [5.1.2](https://github.com/coingaming/moon-design/compare/v5.1.1...v5.1.2) (2021-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # [5.1.0](https://github.com/coingaming/moon-design/compare/v5.0.2...v5.1.0) (2021-06-08)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
-
-
-
-
 
 ## [5.0.2](https://github.com/coingaming/moon-design/compare/v5.0.1...v5.0.2) (2021-05-28)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 ## [5.0.1](https://github.com/coingaming/moon-design/compare/v5.0.0...v5.0.1) (2021-05-27)
 
 **Note:** Version bump only for package @heathmont/moon-pagination
 
-
-
-
-
 # 5.0.0 (2021-05-26)
-
 
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* fix tests ([6bc34a9](https://github.com/coingaming/moon-design/commit/6bc34a9f0bfd397739684a7413814a0e31b41fac))
-* fix tests ([3567de2](https://github.com/coingaming/moon-design/commit/3567de2c4df655c602df39c3b0efa1ef590fd251))
-* remove empty space ([04ad8ee](https://github.com/coingaming/moon-design/commit/04ad8ee233ce1999cbd105fde9e1b69a84b905d8))
-* rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-* update gatsby ([4d97a9e](https://github.com/coingaming/moon-design/commit/4d97a9e32b11df5bf462185caade62557ecdbe28))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- fix tests ([6bc34a9](https://github.com/coingaming/moon-design/commit/6bc34a9f0bfd397739684a7413814a0e31b41fac))
+- fix tests ([3567de2](https://github.com/coingaming/moon-design/commit/3567de2c4df655c602df39c3b0efa1ef590fd251))
+- remove empty space ([04ad8ee](https://github.com/coingaming/moon-design/commit/04ad8ee233ce1999cbd105fde9e1b69a84b905d8))
+- rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+- update gatsby ([4d97a9e](https://github.com/coingaming/moon-design/commit/4d97a9e32b11df5bf462185caade62557ecdbe28))
 
 ### Features
 
-* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
-* separate package ([0e6393c](https://github.com/coingaming/moon-design/commit/0e6393c289e19a91acb9e5215766034e2610af2a))
-* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-
-
-
-
+- nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+- separate package ([0e6393c](https://github.com/coingaming/moon-design/commit/0e6393c289e19a91acb9e5215766034e2610af2a))
+- ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
 
 # 4.0.0 (2021-05-26)
 
-
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* fix tests ([6bc34a9](https://github.com/coingaming/moon-design/commit/6bc34a9f0bfd397739684a7413814a0e31b41fac))
-* fix tests ([3567de2](https://github.com/coingaming/moon-design/commit/3567de2c4df655c602df39c3b0efa1ef590fd251))
-* remove empty space ([04ad8ee](https://github.com/coingaming/moon-design/commit/04ad8ee233ce1999cbd105fde9e1b69a84b905d8))
-* rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-* update gatsby ([4d97a9e](https://github.com/coingaming/moon-design/commit/4d97a9e32b11df5bf462185caade62557ecdbe28))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- fix tests ([6bc34a9](https://github.com/coingaming/moon-design/commit/6bc34a9f0bfd397739684a7413814a0e31b41fac))
+- fix tests ([3567de2](https://github.com/coingaming/moon-design/commit/3567de2c4df655c602df39c3b0efa1ef590fd251))
+- remove empty space ([04ad8ee](https://github.com/coingaming/moon-design/commit/04ad8ee233ce1999cbd105fde9e1b69a84b905d8))
+- rename package repos ([6079f90](https://github.com/coingaming/moon-design/commit/6079f9097a48ec954fb5a9fce62e1d5d477eaf36))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+- update gatsby ([4d97a9e](https://github.com/coingaming/moon-design/commit/4d97a9e32b11df5bf462185caade62557ecdbe28))
 
 ### Features
 
-* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
-* separate package ([0e6393c](https://github.com/coingaming/moon-design/commit/0e6393c289e19a91acb9e5215766034e2610af2a))
-* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-
-
-
-
+- nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+- separate package ([0e6393c](https://github.com/coingaming/moon-design/commit/0e6393c289e19a91acb9e5215766034e2610af2a))
+- ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
 
 # 3.0.0 (2021-05-25)
 
-
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
-* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
-* fix tests ([f286182](https://github.com/coingaming/moon-design/commit/f286182074e02b4bce6424df2284c9a15348b9f9))
-* fix tests ([2fa5971](https://github.com/coingaming/moon-design/commit/2fa5971961a03ffdcc10ed28a84f9cec263d6a98))
-* remove empty space ([0d505c3](https://github.com/coingaming/moon-design/commit/0d505c3f614f406420f48d2b23422e302757b3d5))
-* rename package repos ([0c50706](https://github.com/coingaming/moon-design/commit/0c50706a64a8898aa9cfff08ff0535d9f2dab356))
-* revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
-* update gatsby ([b966e21](https://github.com/coingaming/moon-design/commit/b966e21b5875c015eb09bca18ba945a8f8945f40))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- fix tests ([f286182](https://github.com/coingaming/moon-design/commit/f286182074e02b4bce6424df2284c9a15348b9f9))
+- fix tests ([2fa5971](https://github.com/coingaming/moon-design/commit/2fa5971961a03ffdcc10ed28a84f9cec263d6a98))
+- remove empty space ([0d505c3](https://github.com/coingaming/moon-design/commit/0d505c3f614f406420f48d2b23422e302757b3d5))
+- rename package repos ([0c50706](https://github.com/coingaming/moon-design/commit/0c50706a64a8898aa9cfff08ff0535d9f2dab356))
+- revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
+- update gatsby ([b966e21](https://github.com/coingaming/moon-design/commit/b966e21b5875c015eb09bca18ba945a8f8945f40))
 
 ### Features
 
-* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
-* separate package ([602eda2](https://github.com/coingaming/moon-design/commit/602eda25154d1068d8bc29f644b9964676510cfd))
-* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
-* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
-
-
-
-
+- nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+- separate package ([602eda2](https://github.com/coingaming/moon-design/commit/602eda25154d1068d8bc29f644b9964676510cfd))
+- ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
 
 # 3.0.0 (2021-05-25)
 
