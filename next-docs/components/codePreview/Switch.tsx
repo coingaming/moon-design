@@ -21,7 +21,7 @@ export default function PreviewSwitch({
   isPreviewActive,
   setPreviewActive,
   setCodeActive,
-}) {
+}: any) {
   // const [isPreviewActive, setActive] = useState(true);
   // const setPreviewActive = () => setActive(true);
   // const setCodeActive = () => setActive(false);

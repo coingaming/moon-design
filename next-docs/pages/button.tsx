@@ -53,7 +53,7 @@ export async function getStaticProps(context: any) {
   };
 }
 
-export default function Home({ code, frontmatter }) {
+export default function Home({ code, frontmatter }: any) {
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
   return (
     <>

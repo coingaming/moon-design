@@ -1,7 +1,9 @@
 import React from 'react';
 import CodeSnippet from '../components/CodeSnippet';
 
-const Text = ({ children }) => <p className="text-lg mt-4">{children}</p>;
+const Text: React.FC<{}> = ({ children }) => (
+  <p className="text-lg mt-4">{children}</p>
+);
 
 export default function PageBadge() {
   return (

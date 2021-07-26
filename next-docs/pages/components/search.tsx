@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import { Search } from '@heathmont/moon-components';

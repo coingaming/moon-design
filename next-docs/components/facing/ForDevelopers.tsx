@@ -2,7 +2,7 @@ import React from 'react';
 
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
-const Link = ({ children }) => {
+const Link: React.FC<{}> = ({ children }) => {
   return (
     <button className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-borderDev hover:bg-bgdeveloper hover:border-bgdeveloper hover-border transition-colors">
       {children}

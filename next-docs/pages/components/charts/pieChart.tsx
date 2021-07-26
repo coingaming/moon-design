@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import { Filter, PieChart, ChartIcons } from '@heathmont/moon-charts';

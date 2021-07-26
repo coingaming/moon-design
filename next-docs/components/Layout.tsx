@@ -8,7 +8,7 @@ import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
 import Footer from './Footer';
 
-const getClassName = ({ brand, colorMode }) => {
+const getClassName = ({ brand, colorMode }: any) => {
   if (brand === 'moonDesign') {
     if (colorMode === 'dark') {
       return 'theme-moon-dark';
@@ -36,7 +36,7 @@ const getClassName = ({ brand, colorMode }) => {
   return 'theme-moon-dark';
 };
 
-export default function Layout({ children }) {
+export default function Layout({ children }: any) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { toggleColorScheme, getColorMode, setBrand, getBrand, themeKeys } =
     useDocsTheme();

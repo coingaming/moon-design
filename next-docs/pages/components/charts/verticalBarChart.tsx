@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import { Filter, VerticalBarChart } from '@heathmont/moon-charts';

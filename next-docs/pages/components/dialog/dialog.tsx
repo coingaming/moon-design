@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Dialog, Button, Stack } from '@heathmont/moon-components';
 
-import Preview from '../../components/codePreview/Preview';
+import Preview from '../../../components/codePreview/Preview';
 
 const Example = () => {
   const [showDialog, setShowDialog] = React.useState(false);

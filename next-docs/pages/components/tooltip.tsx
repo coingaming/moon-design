@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import { Form, FormItem, TextInput, Tooltip } from '@heathmont/moon-components';

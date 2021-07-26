@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import { Carousel } from '@heathmont/moon-components';

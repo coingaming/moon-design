@@ -20,9 +20,9 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive }) => (
     <a
       className={classNames(
         isActive
-          ? 'text-active font-bold bg-active-80'
+          ? 'text-active bg-active-80'
           : 'text-black hover:text-active hover:bg-active-80',
-        'text-lg px-3 py-2 w-min whitespace-nowrap leading-7 group w-full flex items-center py-2 font-medium rounded-md transition-colors ease-in-out duration-150'
+        'text-lg px-3 py-2 w-min whitespace-nowrap leading-7 group w-full flex items-center py-2 rounded-md transition-colors ease-in-out duration-150'
       )}
     >
       {children}
@@ -69,7 +69,7 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
     >
       {({ open }) => (
         <>
-          <Disclosure.Button className="text-black hover:text-active hover:bg-active-80 text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left font-medium rounded-md focus:outline-none transition-colors ease-in-out duration-150">
+          <Disclosure.Button className="text-black hover:text-active hover:bg-active-80 text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left rounded-md focus:outline-none transition-colors ease-in-out duration-150">
             {item.name}
             <Arrow isOpen={open} />
           </Disclosure.Button>

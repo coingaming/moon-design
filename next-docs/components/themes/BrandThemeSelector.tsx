@@ -5,10 +5,10 @@ import {
   LogoMoonDesignShort,
 } from '@heathmont/moon-assets';
 
-const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }) => {
+const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
-  const filteredThemeKeys = themeKeys.filter((themeKey) =>
+  const filteredThemeKeys = themeKeys.filter((themeKey: any) =>
     ['sportsbet', 'bitcasino', 'moonDesign'].includes(themeKey)
   );
   return (
@@ -38,7 +38,7 @@ const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }) => {
       {isOpened && (
         <>
           <div className="fixed bottom-16 right-4">
-            {filteredThemeKeys.map((themeKey) => (
+            {filteredThemeKeys.map((themeKey: any) => (
               <button
                 type="button"
                 onClick={() => setBrand(themeKey)}
