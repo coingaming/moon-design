@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.8.0](https://github.com/coingaming/moon-design/compare/v5.7.0...v5.8.0) (2021-07-26)
+
+
+### Features
+
+* snackbar custom background color ([#1264](https://github.com/coingaming/moon-design/issues/1264)) ([1edfd3f](https://github.com/coingaming/moon-design/commit/1edfd3f17e6c0337ac59fa7dba4d4a58f523e02f))
+
+
+
+
+
 # [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
 
 
