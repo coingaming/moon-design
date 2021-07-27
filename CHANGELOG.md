@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.8.2](https://github.com/coingaming/moon-design/compare/v5.8.1...v5.8.2) (2021-07-27)
+
+
+### Bug Fixes
+
+* remove .dockerignore ([f42f9c8](https://github.com/coingaming/moon-design/commit/f42f9c8b002f4edec8fec0fd07e8ad5d4261cbcc))
+* remove <Version /> ([4f2c739](https://github.com/coingaming/moon-design/commit/4f2c739fd13eb574ed7edc2fab76053bf2660bf3))
+
+
+
+
+
 ## [5.8.1](https://github.com/coingaming/moon-design/compare/v5.8.0...v5.8.1) (2021-07-27)
 
 
