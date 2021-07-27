@@ -24,6 +24,7 @@ aliases:
         - node_modules
         - packages/*/node_modules/*
         - docs/node_modules/*
+        - next-docs/node_modules/*
 
   install_token: &install_token
     run:
@@ -92,6 +93,7 @@ jobs:
           paths:
             - node_modules
             - docs/node_modules/*
+            - next-docs/node_modules/*
             - packages/*/node_modules/*
 
   lint:
@@ -122,11 +124,11 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
-      - run: yarn docs build
+      - run: yarn next build
       - persist_to_workspace:
           root: ./
           paths:
-            - docs/public
+            - next-docs/public
 
   build_docs_and_push:
     <<: *default
