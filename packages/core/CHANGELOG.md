@@ -7,141 +7,119 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-core
 
-
-
-
-
 # 5.0.0 (2021-05-26)
-
 
 ### Bug Fixes
 
-* added text align property to text ([1ca4d39](https://github.com/coingaming/moon-design/commit/1ca4d39844d165b09252d352efd611b87af4f852))
-* added text align to heading ([b723f2b](https://github.com/coingaming/moon-design/commit/b723f2b4b943b387c7723ddef832a4cb7527ad64))
-* align "textAlign" prop ([9557e44](https://github.com/coingaming/moon-design/commit/9557e441a11c2d7b755f1d7e5b9773e042f3c31c))
-* default badge size ([3482ec4](https://github.com/coingaming/moon-design/commit/3482ec4b6b66afb4f881a9084bfbc85552998e06))
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-* **build:** ts & docs ([d858f3f](https://github.com/coingaming/moon-design/commit/d858f3fd835faf76aaff8ba9f35efe762134a8dc))
-* **Checkbox:** center aligned ([68d7957](https://github.com/coingaming/moon-design/commit/68d7957291c099e071098803f24b5e673180e8b0))
-* typography ([abe6203](https://github.com/coingaming/moon-design/commit/abe62031def2d8a2da9d754678c463b2ca16d2c8))
-
+- added text align property to text ([1ca4d39](https://github.com/coingaming/moon-design/commit/1ca4d39844d165b09252d352efd611b87af4f852))
+- added text align to heading ([b723f2b](https://github.com/coingaming/moon-design/commit/b723f2b4b943b387c7723ddef832a4cb7527ad64))
+- align "textAlign" prop ([9557e44](https://github.com/coingaming/moon-design/commit/9557e441a11c2d7b755f1d7e5b9773e042f3c31c))
+- default badge size ([3482ec4](https://github.com/coingaming/moon-design/commit/3482ec4b6b66afb4f881a9084bfbc85552998e06))
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+- **build:** ts & docs ([d858f3f](https://github.com/coingaming/moon-design/commit/d858f3fd835faf76aaff8ba9f35efe762134a8dc))
+- **Checkbox:** center aligned ([68d7957](https://github.com/coingaming/moon-design/commit/68d7957291c099e071098803f24b5e673180e8b0))
+- typography ([abe6203](https://github.com/coingaming/moon-design/commit/abe62031def2d8a2da9d754678c463b2ca16d2c8))
 
 ### Features
 
-* **badge:** add icons to badges ([8698bf6](https://github.com/coingaming/moon-design/commit/8698bf62fb4b2ad6fe30a4ff92d6e7710bbfce81))
-* B1M2-408 basic Button with 4 variants ([ce5f176](https://github.com/coingaming/moon-design/commit/ce5f176f8382af2c653c2ed850127ee297edef5b))
-* basic checkbox ([e8d5745](https://github.com/coingaming/moon-design/commit/e8d5745a887cfe8572fcae8fe8e37ab17a43b258))
-* cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
-* dir='rtl' ([63ac3a1](https://github.com/coingaming/moon-design/commit/63ac3a1167c42312053e8d0baf17e2aa795b4973))
-* **AgeLimit:** introduce ([6428dd5](https://github.com/coingaming/moon-design/commit/6428dd5b240919c5e355b9802f1862be8ec56353))
-* **ballLoader:** initial commit ([8c8a030](https://github.com/coingaming/moon-design/commit/8c8a0302af4e435ab6a6a9f18edba3726660d04e))
-* **Caption:** rightAlign ([0eb1629](https://github.com/coingaming/moon-design/commit/0eb16291caacc2f98a095ce09f1313373815a7fb))
-* **checkbox:** color supports ([d37018f](https://github.com/coingaming/moon-design/commit/d37018f05b2e0978b3f01efe21396cbf9f3c0764))
-* **core:** introduce core package ([8ff3780](https://github.com/coingaming/moon-design/commit/8ff37804ef3249c036d3d72e3cd8409b5eb24164))
-* **docs:** side navbar ([ade97d2](https://github.com/coingaming/moon-design/commit/ade97d26ef9550a18ac66b31f337d64cdb7ea1ac))
-* **Text:** update docs ([bbda65c](https://github.com/coingaming/moon-design/commit/bbda65c29ecc022303138d01882fb5aba53f8bab))
-* BallLoader -> ScreenLoader ([d425e22](https://github.com/coingaming/moon-design/commit/d425e221172087ba789663b834f12b4a629e533e))
-* initial checkbox ([cd281b9](https://github.com/coingaming/moon-design/commit/cd281b92fa9bdfc06efd04f3de27fe82e04354cb))
-* initial commit ([d1db1c4](https://github.com/coingaming/moon-design/commit/d1db1c4f3bfc0823e36af84e1adcaf5bf9bb3b55))
-* move badge ([8a8acb9](https://github.com/coingaming/moon-design/commit/8a8acb909428eec3e4ab5348ceda472878b7d9f9))
-* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
-* ts update ([7d35b9c](https://github.com/coingaming/moon-design/commit/7d35b9c4ee8f1546a2ccbfcae942b44fea3472ca))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-* **rem:** negative rem values ([16fea17](https://github.com/coingaming/moon-design/commit/16fea177bda5ea641f6db4f7e82092b0b75f77cd))
-
-
-
-
+- **badge:** add icons to badges ([8698bf6](https://github.com/coingaming/moon-design/commit/8698bf62fb4b2ad6fe30a4ff92d6e7710bbfce81))
+- B1M2-408 basic Button with 4 variants ([ce5f176](https://github.com/coingaming/moon-design/commit/ce5f176f8382af2c653c2ed850127ee297edef5b))
+- basic checkbox ([e8d5745](https://github.com/coingaming/moon-design/commit/e8d5745a887cfe8572fcae8fe8e37ab17a43b258))
+- cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
+- dir='rtl' ([63ac3a1](https://github.com/coingaming/moon-design/commit/63ac3a1167c42312053e8d0baf17e2aa795b4973))
+- **AgeLimit:** introduce ([6428dd5](https://github.com/coingaming/moon-design/commit/6428dd5b240919c5e355b9802f1862be8ec56353))
+- **ballLoader:** initial commit ([8c8a030](https://github.com/coingaming/moon-design/commit/8c8a0302af4e435ab6a6a9f18edba3726660d04e))
+- **Caption:** rightAlign ([0eb1629](https://github.com/coingaming/moon-design/commit/0eb16291caacc2f98a095ce09f1313373815a7fb))
+- **checkbox:** color supports ([d37018f](https://github.com/coingaming/moon-design/commit/d37018f05b2e0978b3f01efe21396cbf9f3c0764))
+- **core:** introduce core package ([8ff3780](https://github.com/coingaming/moon-design/commit/8ff37804ef3249c036d3d72e3cd8409b5eb24164))
+- **docs:** side navbar ([ade97d2](https://github.com/coingaming/moon-design/commit/ade97d26ef9550a18ac66b31f337d64cdb7ea1ac))
+- **Text:** update docs ([bbda65c](https://github.com/coingaming/moon-design/commit/bbda65c29ecc022303138d01882fb5aba53f8bab))
+- BallLoader -> ScreenLoader ([d425e22](https://github.com/coingaming/moon-design/commit/d425e221172087ba789663b834f12b4a629e533e))
+- initial checkbox ([cd281b9](https://github.com/coingaming/moon-design/commit/cd281b92fa9bdfc06efd04f3de27fe82e04354cb))
+- initial commit ([d1db1c4](https://github.com/coingaming/moon-design/commit/d1db1c4f3bfc0823e36af84e1adcaf5bf9bb3b55))
+- move badge ([8a8acb9](https://github.com/coingaming/moon-design/commit/8a8acb909428eec3e4ab5348ceda472878b7d9f9))
+- ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+- ts update ([7d35b9c](https://github.com/coingaming/moon-design/commit/7d35b9c4ee8f1546a2ccbfcae942b44fea3472ca))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+- **rem:** negative rem values ([16fea17](https://github.com/coingaming/moon-design/commit/16fea177bda5ea641f6db4f7e82092b0b75f77cd))
 
 # 4.0.0 (2021-05-26)
 
-
 ### Bug Fixes
 
-* added text align property to text ([1ca4d39](https://github.com/coingaming/moon-design/commit/1ca4d39844d165b09252d352efd611b87af4f852))
-* added text align to heading ([b723f2b](https://github.com/coingaming/moon-design/commit/b723f2b4b943b387c7723ddef832a4cb7527ad64))
-* align "textAlign" prop ([9557e44](https://github.com/coingaming/moon-design/commit/9557e441a11c2d7b755f1d7e5b9773e042f3c31c))
-* default badge size ([3482ec4](https://github.com/coingaming/moon-design/commit/3482ec4b6b66afb4f881a9084bfbc85552998e06))
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-* **build:** ts & docs ([d858f3f](https://github.com/coingaming/moon-design/commit/d858f3fd835faf76aaff8ba9f35efe762134a8dc))
-* **Checkbox:** center aligned ([68d7957](https://github.com/coingaming/moon-design/commit/68d7957291c099e071098803f24b5e673180e8b0))
-* typography ([abe6203](https://github.com/coingaming/moon-design/commit/abe62031def2d8a2da9d754678c463b2ca16d2c8))
-
+- added text align property to text ([1ca4d39](https://github.com/coingaming/moon-design/commit/1ca4d39844d165b09252d352efd611b87af4f852))
+- added text align to heading ([b723f2b](https://github.com/coingaming/moon-design/commit/b723f2b4b943b387c7723ddef832a4cb7527ad64))
+- align "textAlign" prop ([9557e44](https://github.com/coingaming/moon-design/commit/9557e441a11c2d7b755f1d7e5b9773e042f3c31c))
+- default badge size ([3482ec4](https://github.com/coingaming/moon-design/commit/3482ec4b6b66afb4f881a9084bfbc85552998e06))
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
+- **build:** ts & docs ([d858f3f](https://github.com/coingaming/moon-design/commit/d858f3fd835faf76aaff8ba9f35efe762134a8dc))
+- **Checkbox:** center aligned ([68d7957](https://github.com/coingaming/moon-design/commit/68d7957291c099e071098803f24b5e673180e8b0))
+- typography ([abe6203](https://github.com/coingaming/moon-design/commit/abe62031def2d8a2da9d754678c463b2ca16d2c8))
 
 ### Features
 
-* **badge:** add icons to badges ([8698bf6](https://github.com/coingaming/moon-design/commit/8698bf62fb4b2ad6fe30a4ff92d6e7710bbfce81))
-* B1M2-408 basic Button with 4 variants ([ce5f176](https://github.com/coingaming/moon-design/commit/ce5f176f8382af2c653c2ed850127ee297edef5b))
-* basic checkbox ([e8d5745](https://github.com/coingaming/moon-design/commit/e8d5745a887cfe8572fcae8fe8e37ab17a43b258))
-* cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
-* dir='rtl' ([63ac3a1](https://github.com/coingaming/moon-design/commit/63ac3a1167c42312053e8d0baf17e2aa795b4973))
-* **AgeLimit:** introduce ([6428dd5](https://github.com/coingaming/moon-design/commit/6428dd5b240919c5e355b9802f1862be8ec56353))
-* **ballLoader:** initial commit ([8c8a030](https://github.com/coingaming/moon-design/commit/8c8a0302af4e435ab6a6a9f18edba3726660d04e))
-* **Caption:** rightAlign ([0eb1629](https://github.com/coingaming/moon-design/commit/0eb16291caacc2f98a095ce09f1313373815a7fb))
-* **checkbox:** color supports ([d37018f](https://github.com/coingaming/moon-design/commit/d37018f05b2e0978b3f01efe21396cbf9f3c0764))
-* **core:** introduce core package ([8ff3780](https://github.com/coingaming/moon-design/commit/8ff37804ef3249c036d3d72e3cd8409b5eb24164))
-* **docs:** side navbar ([ade97d2](https://github.com/coingaming/moon-design/commit/ade97d26ef9550a18ac66b31f337d64cdb7ea1ac))
-* **Text:** update docs ([bbda65c](https://github.com/coingaming/moon-design/commit/bbda65c29ecc022303138d01882fb5aba53f8bab))
-* BallLoader -> ScreenLoader ([d425e22](https://github.com/coingaming/moon-design/commit/d425e221172087ba789663b834f12b4a629e533e))
-* initial checkbox ([cd281b9](https://github.com/coingaming/moon-design/commit/cd281b92fa9bdfc06efd04f3de27fe82e04354cb))
-* initial commit ([d1db1c4](https://github.com/coingaming/moon-design/commit/d1db1c4f3bfc0823e36af84e1adcaf5bf9bb3b55))
-* move badge ([8a8acb9](https://github.com/coingaming/moon-design/commit/8a8acb909428eec3e4ab5348ceda472878b7d9f9))
-* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
-* ts update ([7d35b9c](https://github.com/coingaming/moon-design/commit/7d35b9c4ee8f1546a2ccbfcae942b44fea3472ca))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-* **rem:** negative rem values ([16fea17](https://github.com/coingaming/moon-design/commit/16fea177bda5ea641f6db4f7e82092b0b75f77cd))
-
-
-
-
+- **badge:** add icons to badges ([8698bf6](https://github.com/coingaming/moon-design/commit/8698bf62fb4b2ad6fe30a4ff92d6e7710bbfce81))
+- B1M2-408 basic Button with 4 variants ([ce5f176](https://github.com/coingaming/moon-design/commit/ce5f176f8382af2c653c2ed850127ee297edef5b))
+- basic checkbox ([e8d5745](https://github.com/coingaming/moon-design/commit/e8d5745a887cfe8572fcae8fe8e37ab17a43b258))
+- cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
+- dir='rtl' ([63ac3a1](https://github.com/coingaming/moon-design/commit/63ac3a1167c42312053e8d0baf17e2aa795b4973))
+- **AgeLimit:** introduce ([6428dd5](https://github.com/coingaming/moon-design/commit/6428dd5b240919c5e355b9802f1862be8ec56353))
+- **ballLoader:** initial commit ([8c8a030](https://github.com/coingaming/moon-design/commit/8c8a0302af4e435ab6a6a9f18edba3726660d04e))
+- **Caption:** rightAlign ([0eb1629](https://github.com/coingaming/moon-design/commit/0eb16291caacc2f98a095ce09f1313373815a7fb))
+- **checkbox:** color supports ([d37018f](https://github.com/coingaming/moon-design/commit/d37018f05b2e0978b3f01efe21396cbf9f3c0764))
+- **core:** introduce core package ([8ff3780](https://github.com/coingaming/moon-design/commit/8ff37804ef3249c036d3d72e3cd8409b5eb24164))
+- **docs:** side navbar ([ade97d2](https://github.com/coingaming/moon-design/commit/ade97d26ef9550a18ac66b31f337d64cdb7ea1ac))
+- **Text:** update docs ([bbda65c](https://github.com/coingaming/moon-design/commit/bbda65c29ecc022303138d01882fb5aba53f8bab))
+- BallLoader -> ScreenLoader ([d425e22](https://github.com/coingaming/moon-design/commit/d425e221172087ba789663b834f12b4a629e533e))
+- initial checkbox ([cd281b9](https://github.com/coingaming/moon-design/commit/cd281b92fa9bdfc06efd04f3de27fe82e04354cb))
+- initial commit ([d1db1c4](https://github.com/coingaming/moon-design/commit/d1db1c4f3bfc0823e36af84e1adcaf5bf9bb3b55))
+- move badge ([8a8acb9](https://github.com/coingaming/moon-design/commit/8a8acb909428eec3e4ab5348ceda472878b7d9f9))
+- ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+- ts update ([7d35b9c](https://github.com/coingaming/moon-design/commit/7d35b9c4ee8f1546a2ccbfcae942b44fea3472ca))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+- **rem:** negative rem values ([16fea17](https://github.com/coingaming/moon-design/commit/16fea177bda5ea641f6db4f7e82092b0b75f77cd))
 
 # 3.0.0 (2021-05-25)
 
-
 ### Bug Fixes
 
-* added text align property to text ([d154450](https://github.com/coingaming/moon-design/commit/d15445016f136769473af4876691c6aa92272666))
-* added text align to heading ([4376e1b](https://github.com/coingaming/moon-design/commit/4376e1beb7108dfe0eb074cc275d7ab9b9326ea4))
-* align "textAlign" prop ([3e81463](https://github.com/coingaming/moon-design/commit/3e814635a0c6622bfb83b5f130fdd5d5022b0638))
-* default badge size ([bc991f1](https://github.com/coingaming/moon-design/commit/bc991f1b1e649453c9c10575f7fe71d6c01a5678))
-* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
-* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
-* revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
-* **build:** ts & docs ([1791f3a](https://github.com/coingaming/moon-design/commit/1791f3af005a504d71871266ce6588b78ba19bd7))
-* **Checkbox:** center aligned ([ae36d21](https://github.com/coingaming/moon-design/commit/ae36d214092355f3862045d07337350ac7a25cdb))
-* typography ([58bf08d](https://github.com/coingaming/moon-design/commit/58bf08d03c1d8218112d3101747c0b62cbce287a))
-
+- added text align property to text ([d154450](https://github.com/coingaming/moon-design/commit/d15445016f136769473af4876691c6aa92272666))
+- added text align to heading ([4376e1b](https://github.com/coingaming/moon-design/commit/4376e1beb7108dfe0eb074cc275d7ab9b9326ea4))
+- align "textAlign" prop ([3e81463](https://github.com/coingaming/moon-design/commit/3e814635a0c6622bfb83b5f130fdd5d5022b0638))
+- default badge size ([bc991f1](https://github.com/coingaming/moon-design/commit/bc991f1b1e649453c9c10575f7fe71d6c01a5678))
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
+- **build:** ts & docs ([1791f3a](https://github.com/coingaming/moon-design/commit/1791f3af005a504d71871266ce6588b78ba19bd7))
+- **Checkbox:** center aligned ([ae36d21](https://github.com/coingaming/moon-design/commit/ae36d214092355f3862045d07337350ac7a25cdb))
+- typography ([58bf08d](https://github.com/coingaming/moon-design/commit/58bf08d03c1d8218112d3101747c0b62cbce287a))
 
 ### Features
 
-* **badge:** add icons to badges ([d8deca5](https://github.com/coingaming/moon-design/commit/d8deca56c552cc868dc2c6d861171489082450ab))
-* B1M2-408 basic Button with 4 variants ([1b3b123](https://github.com/coingaming/moon-design/commit/1b3b123fabd4e2adc8f3f43b898e6b6555609fc8))
-* basic checkbox ([e65e511](https://github.com/coingaming/moon-design/commit/e65e5116d5f40be54bee047709120be2bb5cf41c))
-* cleanup outdated docs B1M2-432 ([3304206](https://github.com/coingaming/moon-design/commit/33042065757a40ec35f2c94adb13aa2054099f19))
-* dir='rtl' ([29f4c9d](https://github.com/coingaming/moon-design/commit/29f4c9d30c9d6974679c4aceeee7dd7c3403d96c))
-* **AgeLimit:** introduce ([4e65e15](https://github.com/coingaming/moon-design/commit/4e65e156164e14cd5e4c0dd67d2cb057f79041a4))
-* **ballLoader:** initial commit ([2000b61](https://github.com/coingaming/moon-design/commit/2000b613444021bae3f61f33a942ee3f035e4a94))
-* **Caption:** rightAlign ([f3acbdd](https://github.com/coingaming/moon-design/commit/f3acbddc650311d720d742d14859c9d51574df8e))
-* **checkbox:** color supports ([642bf00](https://github.com/coingaming/moon-design/commit/642bf004ce93c3e2c721f17f9769466b277f0adb))
-* **core:** introduce core package ([c9a0799](https://github.com/coingaming/moon-design/commit/c9a079957c51ba7017af6beeb9d17d0d29b57e6a))
-* **docs:** side navbar ([10d7892](https://github.com/coingaming/moon-design/commit/10d7892133dfbfaf487541c74644231b8bbc5b53))
-* **Text:** update docs ([499e2ec](https://github.com/coingaming/moon-design/commit/499e2ec3c0364265ce6175cdefb112a8b10fc6bc))
-* BallLoader -> ScreenLoader ([4480864](https://github.com/coingaming/moon-design/commit/4480864102c588fac2709a702d2b98bfb34525b9))
-* initial checkbox ([94aac1e](https://github.com/coingaming/moon-design/commit/94aac1e66718958906e659c3be73918033292c6a))
-* initial commit ([340fb25](https://github.com/coingaming/moon-design/commit/340fb25ff943611bd244f74dd387b81fb447cfed))
-* move badge ([da7dd4e](https://github.com/coingaming/moon-design/commit/da7dd4e4c08fddd150f66390b1e9d8cee8dc8234))
-* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
-* ts update ([9506a7d](https://github.com/coingaming/moon-design/commit/9506a7d2a6d7fbf1c265e552b69f963a4721b7bc))
-* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
-* **rem:** negative rem values ([4901039](https://github.com/coingaming/moon-design/commit/49010393c1255088ff59b5cbca0d437ca17fc8c7))
-
-
-
-
+- **badge:** add icons to badges ([d8deca5](https://github.com/coingaming/moon-design/commit/d8deca56c552cc868dc2c6d861171489082450ab))
+- B1M2-408 basic Button with 4 variants ([1b3b123](https://github.com/coingaming/moon-design/commit/1b3b123fabd4e2adc8f3f43b898e6b6555609fc8))
+- basic checkbox ([e65e511](https://github.com/coingaming/moon-design/commit/e65e5116d5f40be54bee047709120be2bb5cf41c))
+- cleanup outdated docs B1M2-432 ([3304206](https://github.com/coingaming/moon-design/commit/33042065757a40ec35f2c94adb13aa2054099f19))
+- dir='rtl' ([29f4c9d](https://github.com/coingaming/moon-design/commit/29f4c9d30c9d6974679c4aceeee7dd7c3403d96c))
+- **AgeLimit:** introduce ([4e65e15](https://github.com/coingaming/moon-design/commit/4e65e156164e14cd5e4c0dd67d2cb057f79041a4))
+- **ballLoader:** initial commit ([2000b61](https://github.com/coingaming/moon-design/commit/2000b613444021bae3f61f33a942ee3f035e4a94))
+- **Caption:** rightAlign ([f3acbdd](https://github.com/coingaming/moon-design/commit/f3acbddc650311d720d742d14859c9d51574df8e))
+- **checkbox:** color supports ([642bf00](https://github.com/coingaming/moon-design/commit/642bf004ce93c3e2c721f17f9769466b277f0adb))
+- **core:** introduce core package ([c9a0799](https://github.com/coingaming/moon-design/commit/c9a079957c51ba7017af6beeb9d17d0d29b57e6a))
+- **docs:** side navbar ([10d7892](https://github.com/coingaming/moon-design/commit/10d7892133dfbfaf487541c74644231b8bbc5b53))
+- **Text:** update docs ([499e2ec](https://github.com/coingaming/moon-design/commit/499e2ec3c0364265ce6175cdefb112a8b10fc6bc))
+- BallLoader -> ScreenLoader ([4480864](https://github.com/coingaming/moon-design/commit/4480864102c588fac2709a702d2b98bfb34525b9))
+- initial checkbox ([94aac1e](https://github.com/coingaming/moon-design/commit/94aac1e66718958906e659c3be73918033292c6a))
+- initial commit ([340fb25](https://github.com/coingaming/moon-design/commit/340fb25ff943611bd244f74dd387b81fb447cfed))
+- move badge ([da7dd4e](https://github.com/coingaming/moon-design/commit/da7dd4e4c08fddd150f66390b1e9d8cee8dc8234))
+- ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+- ts update ([9506a7d](https://github.com/coingaming/moon-design/commit/9506a7d2a6d7fbf1c265e552b69f963a4721b7bc))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+- **rem:** negative rem values ([4901039](https://github.com/coingaming/moon-design/commit/49010393c1255088ff59b5cbca0d437ca17fc8c7))
 
 # 3.0.0 (2021-05-25)
 

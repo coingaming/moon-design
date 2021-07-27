@@ -7,213 +7,131 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 # [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 # [5.6.0](https://github.com/coingaming/moon-design/compare/v5.5.2...v5.6.0) (2021-07-26)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 ## [5.5.1](https://github.com/coingaming/moon-design/compare/v5.5.0...v5.5.1) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 # [5.5.0](https://github.com/coingaming/moon-design/compare/v5.4.0...v5.5.0) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 # [5.4.0](https://github.com/coingaming/moon-design/compare/v5.3.2...v5.4.0) (2021-07-13)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 ## [5.3.1](https://github.com/coingaming/moon-design/compare/v5.3.0...v5.3.1) (2021-07-08)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 # [5.3.0](https://github.com/coingaming/moon-design/compare/v5.2.3...v5.3.0) (2021-07-08)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 ## [5.2.3](https://github.com/coingaming/moon-design/compare/v5.2.2...v5.2.3) (2021-07-05)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 ## [5.2.2](https://github.com/coingaming/moon-design/compare/v5.2.1...v5.2.2) (2021-07-01)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 ## [5.2.1](https://github.com/coingaming/moon-design/compare/v5.2.0...v5.2.1) (2021-06-30)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 # [5.2.0](https://github.com/coingaming/moon-design/compare/v5.1.3...v5.2.0) (2021-06-29)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 ## [5.1.2](https://github.com/coingaming/moon-design/compare/v5.1.1...v5.1.2) (2021-06-09)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 # [5.1.0](https://github.com/coingaming/moon-design/compare/v5.0.2...v5.1.0) (2021-06-08)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
-
-
-
-
 
 ## [5.0.2](https://github.com/coingaming/moon-design/compare/v5.0.1...v5.0.2) (2021-05-28)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 ## [5.0.1](https://github.com/coingaming/moon-design/compare/v5.0.0...v5.0.1) (2021-05-27)
 
 **Note:** Version bump only for package @heathmont/moon-calendar
 
-
-
-
-
 # 5.0.0 (2021-05-26)
-
 
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* fix grid template rows ([b2a3176](https://github.com/coingaming/moon-design/commit/b2a3176061c712c10212ba150a09e3a30905868c))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- fix grid template rows ([b2a3176](https://github.com/coingaming/moon-design/commit/b2a3176061c712c10212ba150a09e3a30905868c))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
 
 ### Features
 
-* add auto height to rows ([cbccc91](https://github.com/coingaming/moon-design/commit/cbccc918e7f010f03663d2d2258be0c6a5bc7b2f))
-* add renderDayProps ([674010b](https://github.com/coingaming/moon-design/commit/674010bfee53377caef567cfe1e231408afc7d0f))
-* add weekend minimizing ([944dff2](https://github.com/coingaming/moon-design/commit/944dff210b8072cf6a7b338cee8f1ece507e2577))
-* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
-* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-* **calendar:** move calendar to separate package ([4d25014](https://github.com/coingaming/moon-design/commit/4d25014071d77cbcaa52b082700299245dc34483))
-* **month calendar:** month Calendar view ([4aa931c](https://github.com/coingaming/moon-design/commit/4aa931c91e56e386e708b76f60532db040fca83b))
-* **week calendar:** add week calendar view ([6f98538](https://github.com/coingaming/moon-design/commit/6f98538fa7ee342f3e6e6862ea83b87853358e89))
-
-
-
-
+- add auto height to rows ([cbccc91](https://github.com/coingaming/moon-design/commit/cbccc918e7f010f03663d2d2258be0c6a5bc7b2f))
+- add renderDayProps ([674010b](https://github.com/coingaming/moon-design/commit/674010bfee53377caef567cfe1e231408afc7d0f))
+- add weekend minimizing ([944dff2](https://github.com/coingaming/moon-design/commit/944dff210b8072cf6a7b338cee8f1ece507e2577))
+- nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+- ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+- **calendar:** move calendar to separate package ([4d25014](https://github.com/coingaming/moon-design/commit/4d25014071d77cbcaa52b082700299245dc34483))
+- **month calendar:** month Calendar view ([4aa931c](https://github.com/coingaming/moon-design/commit/4aa931c91e56e386e708b76f60532db040fca83b))
+- **week calendar:** add week calendar view ([6f98538](https://github.com/coingaming/moon-design/commit/6f98538fa7ee342f3e6e6862ea83b87853358e89))
 
 # 4.0.0 (2021-05-26)
 
-
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
-* eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
-* fix grid template rows ([b2a3176](https://github.com/coingaming/moon-design/commit/b2a3176061c712c10212ba150a09e3a30905868c))
-* more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
-* revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([ac458e6](https://github.com/coingaming/moon-design/commit/ac458e6ffea672bb8596bcca4a71496e51c5dcfe))
+- eslint ([278d2e5](https://github.com/coingaming/moon-design/commit/278d2e5f89a228301e522b07c94899f0ab68c616))
+- fix grid template rows ([b2a3176](https://github.com/coingaming/moon-design/commit/b2a3176061c712c10212ba150a09e3a30905868c))
+- more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
+- revert version ([0930842](https://github.com/coingaming/moon-design/commit/09308425226674a3ba3e53a843625d38ef5ddc6f))
 
 ### Features
 
-* add auto height to rows ([cbccc91](https://github.com/coingaming/moon-design/commit/cbccc918e7f010f03663d2d2258be0c6a5bc7b2f))
-* add renderDayProps ([674010b](https://github.com/coingaming/moon-design/commit/674010bfee53377caef567cfe1e231408afc7d0f))
-* add weekend minimizing ([944dff2](https://github.com/coingaming/moon-design/commit/944dff210b8072cf6a7b338cee8f1ece507e2577))
-* nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
-* ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
-* upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-* **calendar:** move calendar to separate package ([4d25014](https://github.com/coingaming/moon-design/commit/4d25014071d77cbcaa52b082700299245dc34483))
-* **month calendar:** month Calendar view ([4aa931c](https://github.com/coingaming/moon-design/commit/4aa931c91e56e386e708b76f60532db040fca83b))
-* **week calendar:** add week calendar view ([6f98538](https://github.com/coingaming/moon-design/commit/6f98538fa7ee342f3e6e6862ea83b87853358e89))
-
-
-
-
+- add auto height to rows ([cbccc91](https://github.com/coingaming/moon-design/commit/cbccc918e7f010f03663d2d2258be0c6a5bc7b2f))
+- add renderDayProps ([674010b](https://github.com/coingaming/moon-design/commit/674010bfee53377caef567cfe1e231408afc7d0f))
+- add weekend minimizing ([944dff2](https://github.com/coingaming/moon-design/commit/944dff210b8072cf6a7b338cee8f1ece507e2577))
+- nav structure ([9b54c9a](https://github.com/coingaming/moon-design/commit/9b54c9afeed791b03e0a89e3e7b6e4c3a128ff3d))
+- ts bump ([4dacce9](https://github.com/coingaming/moon-design/commit/4dacce99cadb71540d0d57d3c6abe18178f4f69f))
+- upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
+- **calendar:** move calendar to separate package ([4d25014](https://github.com/coingaming/moon-design/commit/4d25014071d77cbcaa52b082700299245dc34483))
+- **month calendar:** month Calendar view ([4aa931c](https://github.com/coingaming/moon-design/commit/4aa931c91e56e386e708b76f60532db040fca83b))
+- **week calendar:** add week calendar view ([6f98538](https://github.com/coingaming/moon-design/commit/6f98538fa7ee342f3e6e6862ea83b87853358e89))
 
 # 3.0.0 (2021-05-25)
 
-
 ### Bug Fixes
 
-* add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
-* eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
-* fix grid template rows ([143b739](https://github.com/coingaming/moon-design/commit/143b73949b4d97abd5a12aa2ed6929501e9e5adb))
-* more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
-* revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
-
+- add 1px and 2px to rem, add documentation ([#927](https://github.com/coingaming/moon-design/issues/927)) ([88bc8d1](https://github.com/coingaming/moon-design/commit/88bc8d1ceae26fb9c47729a76c9165c9de82acb6))
+- eslint ([343a655](https://github.com/coingaming/moon-design/commit/343a655be8d13c797bc187893f9d47721f57cbf5))
+- fix grid template rows ([143b739](https://github.com/coingaming/moon-design/commit/143b73949b4d97abd5a12aa2ed6929501e9e5adb))
+- more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
+- revert version ([320b3ba](https://github.com/coingaming/moon-design/commit/320b3baf32a6312784d84524f30bc0ecc48d7e01))
 
 ### Features
 
-* add auto height to rows ([e1c7633](https://github.com/coingaming/moon-design/commit/e1c76336c99fd85a9d946e0844f3cf26b84f0341))
-* add renderDayProps ([d38b7da](https://github.com/coingaming/moon-design/commit/d38b7daeddd873bb00548f3ccc1bb55b3d556484))
-* add weekend minimizing ([8d01c72](https://github.com/coingaming/moon-design/commit/8d01c727ef07011cd56fdcd71a6c99ff120316c5))
-* nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
-* ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
-* upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
-* **calendar:** move calendar to separate package ([3d79b45](https://github.com/coingaming/moon-design/commit/3d79b45d89e445a65f83e78ccbacd80dbbd13550))
-* **month calendar:** month Calendar view ([c3deb7d](https://github.com/coingaming/moon-design/commit/c3deb7d051c53395fba442734e712ecfbf4e0940))
-* **week calendar:** add week calendar view ([92a7834](https://github.com/coingaming/moon-design/commit/92a783420e485428efc8c729fd4b539f9dabe845))
-
-
-
-
+- add auto height to rows ([e1c7633](https://github.com/coingaming/moon-design/commit/e1c76336c99fd85a9d946e0844f3cf26b84f0341))
+- add renderDayProps ([d38b7da](https://github.com/coingaming/moon-design/commit/d38b7daeddd873bb00548f3ccc1bb55b3d556484))
+- add weekend minimizing ([8d01c72](https://github.com/coingaming/moon-design/commit/8d01c727ef07011cd56fdcd71a6c99ff120316c5))
+- nav structure ([658e2cf](https://github.com/coingaming/moon-design/commit/658e2cfa2f01123b651ee9f3ba5ea2e604d66ce8))
+- ts bump ([5dc9647](https://github.com/coingaming/moon-design/commit/5dc96473bfe72eace2b2a878fd53fe3a24c7f726))
+- upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
+- **calendar:** move calendar to separate package ([3d79b45](https://github.com/coingaming/moon-design/commit/3d79b45d89e445a65f83e78ccbacd80dbbd13550))
+- **month calendar:** month Calendar view ([c3deb7d](https://github.com/coingaming/moon-design/commit/c3deb7d051c53395fba442734e712ecfbf4e0940))
+- **week calendar:** add week calendar view ([92a7834](https://github.com/coingaming/moon-design/commit/92a783420e485428efc8c729fd4b539f9dabe845))
 
 # 3.0.0 (2021-05-25)
 

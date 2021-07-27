@@ -55,6 +55,7 @@ export interface Config {
 }
 
 export interface DateRangePickerProps {
+  isOpenByDefault?: boolean;
   format?: string;
   startDate?: Date;
   endDate?: Date;
