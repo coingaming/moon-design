@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 
 import React from 'react';
-import Head from 'next/head';
 import { bundleMDX } from 'mdx-bundler';
 import { getMDXComponent } from 'mdx-bundler/client';
 
@@ -11,14 +10,14 @@ export async function getStaticProps(context: any) {
 
   const res = fileBuffer.toString().trim();
 
-  console.log('mdx', res);
+  // console.log('mdx', res);
   const resultNew = await bundleMDX(res, {
     files: {
       './demo.tsx': `
   import * as React from 'react'
 
   function Demo() {
-    return <h2>Neat demo!!!!!! 222</h2>
+    return <h2>Neat demo!</h2>
   }
 
   export default Demo
@@ -27,8 +26,8 @@ export async function getStaticProps(context: any) {
   });
 
   const { code, frontmatter } = resultNew;
-  console.log('code: ', code);
-  console.log('frontmatter: ', frontmatter);
+  // console.log('code: ', code);
+  // console.log('frontmatter: ', frontmatter);
   return {
     props: {
       code,
