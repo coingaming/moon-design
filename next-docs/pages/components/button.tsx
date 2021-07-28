@@ -1,8 +1,9 @@
 import React from 'react';
 
 import { Button } from '@heathmont/moon-components';
+import { IconProfile } from '@heathmont/moon-assets';
+
 import Preview from '../../components/codePreview/Preview';
-import IconProfile from '@heathmont/moon-assets/lib/icons/IconProfile';
 
 export default function PageButton() {
   return (

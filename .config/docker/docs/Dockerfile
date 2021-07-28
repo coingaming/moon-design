@@ -1,10 +1,14 @@
-# Install dependencies only when needed
-FROM node:14-alpine3.14 AS deps
+FROM alpine/git AS git
+WORKDIR /app
+RUN git clone https://github.com/coingaming/moon-design.git
+
+
+FROM node:alpine AS runner
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
-COPY . .
-RUN cd next-docs
+COPY --from=git /app/moon-design ./moon-design
+WORKDIR /app/moon-design/next-docs
 RUN yarn install --ignore-scripts --frozen-lockfile
 ENV NODE_ENV production
 RUN yarn build
@@ -16,9 +20,9 @@ USER nextjs
 
 EXPOSE 3000
 
-# Next.js collects completely anonymous telemetry data about general usage.
-# Learn more here: https://nextjs.org/telemetry
-# Uncomment the following line in case you want to disable telemetry.
+# # Next.js collects completely anonymous telemetry data about general usage.
+# # Learn more here: https://nextjs.org/telemetry
+# # Uncomment the following line in case you want to disable telemetry.
 ENV NEXT_TELEMETRY_DISABLED 1
 
 CMD ["yarn", "start"]
