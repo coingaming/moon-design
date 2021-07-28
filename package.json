@@ -86,7 +86,6 @@
     "@typescript-eslint/parser": "4.14.0",
     "babel-jest": "24.3.1",
     "babel-plugin-styled-components": "1.10.6",
-    "babel-plugin-transform-imports": "2.0.0",
     "barrelsby": "2.2.0",
     "commander": "4.0.1",
     "commitizen": "4.0.3",
