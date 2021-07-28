@@ -1,6 +1,6 @@
 import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 
-import type { CSSObject } from 'styled-components';
+import { CSSObject } from 'styled-components';
 
 type StackSpace = CSSObject['marginTop'] | CSSObject['gridGap'];
 

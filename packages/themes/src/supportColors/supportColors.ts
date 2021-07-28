@@ -2,16 +2,16 @@ import { CSSObject } from 'styled-components';
 
 export type ColorValue = CSSObject['color'];
 
-type SupportingColor = {
+interface SupportingColor {
   100?: ColorValue;
   10?: ColorValue;
 };
 
-type SingletonColor = {
+interface SingletonColor {
   100: ColorValue;
 };
 
-export type ColorShared = {
+export interface ColorShared {
   krillin: SupportingColor; // Warning colors
   chiChi: SupportingColor; // Error colors
   roshi: SupportingColor; // Success colors

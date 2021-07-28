@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
-import IconToastClose from '../private/icons/IconToastClose';
+import IconToastClose from '../icons/IconToastClose';
 
 const Wrapper = styled.button(({ theme }) => ({
   backgroundColor: theme.color.bulma[100],

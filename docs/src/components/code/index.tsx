@@ -80,7 +80,7 @@ export const Code = ({ codeString, ...props }: CodeProps) => (
             <CodePreview>
               {typeof window !== 'undefined' && <LivePreview />}
             </CodePreview>
-            <div css={{ overflowY: 'scroll' }}>
+            <div style={{ overflowY: 'scroll' }}>
               <LiveEditor />
             </div>
             <LiveError />

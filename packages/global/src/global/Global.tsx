@@ -10,7 +10,7 @@ export type GlobalProps = {
   styles?: CSSObject | CSSObject[];
 };
 
-const Global = createGlobalStyle<GlobalProps>(({ styles, theme }) => [
+const Global = createGlobalStyle<any>(({ styles, theme }) => [
   config,
   theme.fontFace && theme.fontFace,
   boxSizing,

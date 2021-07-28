@@ -41,7 +41,7 @@ const HeaderBack: React.FC<HeaderBackProps> = ({
 }) => (
   <HeaderBackLink as={element} {...props}>
     <IconArrowLeft />
-    <span css={hideVisually()}>{children}</span>
+    <span style={hideVisually()}>{children}</span>
   </HeaderBackLink>
 );
 

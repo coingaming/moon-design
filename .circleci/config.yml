@@ -23,10 +23,9 @@ aliases:
       paths:
         - node_modules
         - packages/*/node_modules/*
-        - docs/node_modules/*
         - next-docs/node_modules/*
 
-  install_token: &install_token
+  install_npm_token: &install_npm_token
     run:
       name: 'Setting up private repository NPM access'
       command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
@@ -58,7 +57,7 @@ aliases:
 
   docker_push_docs_branch: &docker_push_docs_branch
     run:
-      name: 'Pushing docker docs image with branch name'
+      name: 'Pushing docker next-docs image with branch name'
       command: docker push heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH
 
   setup_github_ssh: &setup_github_ssh
@@ -85,7 +84,7 @@ jobs:
     steps:
       - checkout
       - *restore_cache
-      - *install_token
+      - *install_npm_token
       - *install_deps
       - *save_cache
       - persist_to_workspace:
@@ -118,7 +117,7 @@ jobs:
           paths:
             - packages/*/lib/*
 
-  build_site:
+  build_storybook:
     <<: *default
     steps:
       - checkout
@@ -160,7 +159,7 @@ jobs:
       - run: git pull
       - attach_workspace:
           at: ./
-      - *install_token
+      - *install_npm_token
       - run: yarn publish:packages
       - run:
           name: 'Update `develop` with `master`'
@@ -208,7 +207,7 @@ workflows:
           requires:
             - dependencies
 
-      - build_site:
+      - build_storybook:
           context: global
           filters:
             branches:
@@ -241,8 +240,7 @@ workflows:
             - dependencies
             - build
             - lint
-            # - test
-            - build_site
+            - build_storybook
 
       - publish:
           context: global
@@ -250,7 +248,9 @@ workflows:
             branches:
               only: master
           requires:
-            - build_docs_and_push
+            - dependencies
+            - build
+            - lint
 
       - tag_master_image:
           context: global

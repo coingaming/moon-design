@@ -1,23 +1,23 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "composite": true,
+    "allowJs": true,
+    "skipLibCheck": true,
     "declaration": true,
     "declarationMap": true,
-    "isolatedModules": true,
-    "emitDeclarationOnly": true,
-    "sourceMap": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
     "esModuleInterop": true,
-    "target": "es5",
-    "module": "commonjs",
-    "jsx": "react",
+    "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": "../",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "paths": {
-      "@heathmont/moon-*": ["./packages/*/src", "./docs/src"]
-    },
-    "types": ["node", "jest"]
-  }
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "target": "es5",
+    "baseUrl": "../"
+  },
+  "paths": {
+    "@heathmont/moon-*": ["./packages/*/src", "./docs/src"]
+  },
+  "exclude": ["node_modules"]
 }

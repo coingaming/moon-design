@@ -73,7 +73,7 @@ const FileInput: React.FC<FileInputProps> = ({
         id={id}
         type="file"
         aria-describedby={labelID(id)}
-        css={hideVisually()}
+        style={hideVisually()}
         {...props}
       />
     </FileInputElement>

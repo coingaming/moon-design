@@ -46,6 +46,8 @@ export { default as shangrilaDark } from './shangrilaDark/shangrilaDark';
 export * from './shangrilaDark/shangrilaDark';
 export { default as shangrilaLight } from './shangrilaLight/shangrilaLight';
 export * from './shangrilaLight/shangrilaLight';
+export { default as avertaStd } from './sharedTokens/avertaStd';
+export * from './sharedTokens/avertaStd';
 export { default as sharedTokens } from './sharedTokens/sharedTokens';
 export * from './sharedTokens/sharedTokens';
 export { default as slotsDark } from './slotsDark/slotsDark';

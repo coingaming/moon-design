@@ -143,7 +143,7 @@ const Switch: React.FC<SwitchProps> = ({
   }
 
   return (
-    <Inline space="small" css={{ overflow: 'visible' }}>
+    <Inline space="small" style={{ overflow: 'visible' }}>
       {captionUnchecked && (
         <SwitchCaption checked={checked}>{captionUnchecked}</SwitchCaption>
       )}

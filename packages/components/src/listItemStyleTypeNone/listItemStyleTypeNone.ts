@@ -1,4 +1,4 @@
-import type { CSSObject } from 'styled-components';
+import { CSSObject } from 'styled-components';
 
 const listItemStyleTypeNone: CSSObject = {
   listStyleType: 'none',

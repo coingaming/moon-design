@@ -14,9 +14,7 @@
   "scripts": {
     "build": "echo 'Handled by root package'"
   },
-  "dependencies": {
-    "@heathmont/moon-fonts": "^5.0.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": ">= 16.10.2",
     "react-dom": ">= 16.10.2",

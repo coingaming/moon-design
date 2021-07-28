@@ -30,9 +30,9 @@ const Form: React.FC<FormProps> = ({
   fullWidth,
   ...props
 }) => (
-    <form css={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
+    <form style={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
       <Fieldset>
-        <legend css={hideVisually()}>{legend}</legend>
+        <legend style={hideVisually()}>{legend}</legend>
         <Stack as="ul">{children}</Stack>
       </Fieldset>
     </form>
