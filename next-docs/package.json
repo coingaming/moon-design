@@ -10,6 +10,7 @@
   "dependencies": {
     "@headlessui/react": "1.2.0",
     "@heathmont/moon-charts": "5.1.0",
+    "@heathmont/moon-components": "5.8.1",
     "@heathmont/moon-core": "5.0.0",
     "@heathmont/moon-themes": "^5.8.1",
     "@heathmont/moon-utils": "5.0.0",
