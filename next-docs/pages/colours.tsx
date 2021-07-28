@@ -36,8 +36,7 @@ export default function PageColours() {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Colours</h1>
         <ColorUsage>
-          Please never use Hex values, they won't change if you need theme
-          support.
+          Please never use Hex values if you need theme support.
         </ColorUsage>
       </section>
       <h2 className="text-3xl font-semibold mt-8">Main colours</h2>
