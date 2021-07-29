@@ -12,7 +12,7 @@
     "build:types": "lerna exec --no-private -- tsc --project tsconfig.json --declarationMap",
     "watch:js": "yarn build:js --watch",
     "watch:types": "lerna exec --parallel --no-private -- tsc --watch --noEmit",
-    "clean": "rimraf packages/**/lib docs/{lib,dist,.cache,public}",
+    "clean": "rimraf packages/**/lib next-docs/{lib,dist,.cache}",
     "nuke": "yarn clean && lerna clean --yes && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "yarn test:types && yarn test:jest",
