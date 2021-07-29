@@ -35,7 +35,7 @@
 
 ## Using Moon Design
 
-- `yarn next start` - serve the docs locally at [`:8000`](http://localhost:8000).
+- `yarn next start` - serve the docs locally at [`:3000`](http://localhost:3000).
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
@@ -124,7 +124,7 @@ Our project's style guide and documentation is built using [Next.js](https://nex
 
 ## Usage
 
-- `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000) with hot reloading.
+- `yarn start` - serve the docs locally at [`:3000`](http://localhost:3000) with hot reloading.
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
