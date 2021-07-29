@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/moon-themes",
-  "version": "5.8.1",
+  "version": "5.8.3",
   "sideEffects": false,
   "files": [
     "lib"
@@ -14,7 +14,6 @@
   "scripts": {
     "build": "echo 'Handled by root package'"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": ">= 16.10.2",
     "react-dom": ">= 16.10.2",

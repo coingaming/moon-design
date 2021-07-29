@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
+
+
+### Bug Fixes
+
+* Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
+
+
+
+
+
 ## [5.8.1](https://github.com/coingaming/moon-design/compare/v5.8.0...v5.8.1) (2021-07-27)
 
 **Note:** Version bump only for package @heathmont/moon-components

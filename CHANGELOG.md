@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
+
+
+### Bug Fixes
+
+* cache ([96efd03](https://github.com/coingaming/moon-design/commit/96efd03ecb3724f1c83ab935719f4f19a76e7247))
+* ci ([54ce4e0](https://github.com/coingaming/moon-design/commit/54ce4e0ef5bbb2ffd7dd69a013c0b2abbccce48d))
+* ci ([a7f2b1c](https://github.com/coingaming/moon-design/commit/a7f2b1cfdb80dae9f52f271e14bd395323006471))
+* ci ([5161c26](https://github.com/coingaming/moon-design/commit/5161c2643be554daed0d3a40113ccdc324be87c9))
+* ci docker_layer_caching ([08363a8](https://github.com/coingaming/moon-design/commit/08363a83e0a995182541416a909f7f9432350e69))
+* deps ([371d256](https://github.com/coingaming/moon-design/commit/371d25651e54bf1d634bc69d6271f69027ed23cc))
+* deps ([ed18b74](https://github.com/coingaming/moon-design/commit/ed18b745be9e6faa9fe68a3509253a81dfb17e09))
+* disable babel-plugin-transform-imports ([73bb723](https://github.com/coingaming/moon-design/commit/73bb723836f281cb5c955d8861c9f4a0cf12e903))
+* docker node 14 version ([aae4362](https://github.com/coingaming/moon-design/commit/aae4362faf2259b2fe5e93128a906c5e1771c422))
+* dockerfile ([3a13d0f](https://github.com/coingaming/moon-design/commit/3a13d0fb36837372970be3526f64b698ec9eb14f))
+* Dockerfile ([33e920c](https://github.com/coingaming/moon-design/commit/33e920c8a1f91540b588b4b691a01626e17ae9ec))
+* next docs ts ([6e2fea3](https://github.com/coingaming/moon-design/commit/6e2fea349d310b7c2e5f9a771f7495d399deffaa))
+* Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
+* withTM ([167c659](https://github.com/coingaming/moon-design/commit/167c659f77ed1fa3b94e15375240693dc1f03cd4))
+* yarn.lock ([cfcda85](https://github.com/coingaming/moon-design/commit/cfcda85ec994a0861f3e88b6c3bc5595cf9e8f4e))
+
+
+### Reverts
+
+* Revert "fix: remove .dockerignore" ([724a1f8](https://github.com/coingaming/moon-design/commit/724a1f87089c2479174529d82f0c4dc1acedf09d))
+
+
+
+
+
 ## [5.8.2](https://github.com/coingaming/moon-design/compare/v5.8.1...v5.8.2) (2021-07-27)
 
 

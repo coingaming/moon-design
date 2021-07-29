@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
+
+
+### Bug Fixes
+
+* cache ([96efd03](https://github.com/coingaming/moon-design/commit/96efd03ecb3724f1c83ab935719f4f19a76e7247))
+* deps ([371d256](https://github.com/coingaming/moon-design/commit/371d25651e54bf1d634bc69d6271f69027ed23cc))
+* deps ([ed18b74](https://github.com/coingaming/moon-design/commit/ed18b745be9e6faa9fe68a3509253a81dfb17e09))
+* docker node 14 version ([aae4362](https://github.com/coingaming/moon-design/commit/aae4362faf2259b2fe5e93128a906c5e1771c422))
+* Dockerfile ([33e920c](https://github.com/coingaming/moon-design/commit/33e920c8a1f91540b588b4b691a01626e17ae9ec))
+* next docs ts ([6e2fea3](https://github.com/coingaming/moon-design/commit/6e2fea349d310b7c2e5f9a771f7495d399deffaa))
+* withTM ([167c659](https://github.com/coingaming/moon-design/commit/167c659f77ed1fa3b94e15375240693dc1f03cd4))
+
+
+
+
+
 ## [5.8.2](https://github.com/coingaming/moon-design/compare/v5.8.1...v5.8.2) (2021-07-27)
 
 
