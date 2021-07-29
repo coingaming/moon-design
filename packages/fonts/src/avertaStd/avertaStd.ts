@@ -1,8 +1,8 @@
 import { CSSObject } from 'styled-components';
 
 // TODO set font URL in the App instead
-const cdnUrl = "https://sportsbet.io/sportsbet-io/files";
-const fontDirPath = `${cdnUrl}/fonts/averta-std`;
+const cdnUrl: string = "https://sportsbet.io/sportsbet-io/files";
+const fontDirPath: string = `${cdnUrl}/fonts/averta-std`;
 const fontFilePath = {
   regular: `${fontDirPath}/regular`,
   semibold: `${fontDirPath}/semibold`,

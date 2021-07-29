@@ -17,11 +17,11 @@ module.exports = {
         ssr: true,
       },
     ],
-    ["transform-imports", {
-      "lodash": {
-        "transform": "lodash/${member}",
-        "preventFullImport": true
-      },
-    }],
+    // ["transform-imports", {
+    //   "lodash": {
+    //     "transform": "lodash/${member}",
+    //     "preventFullImport": true
+    //   },
+    // }],
   ],
 };

@@ -1,5 +1,3 @@
-import { CSSObject } from 'styled-components';
-
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -78,8 +76,6 @@ export type MaxWidth = {
   large: number /* px */;
 };
 
-export type FontFace = CSSObject | CSSObject[] | undefined;
-
 export type FontFamily = string;
 
 export type FontSize = {
@@ -98,13 +94,13 @@ export type Breakpoint = {
   xlarge: number /* in `px` */;
 };
 
-export type BoxShadow = CSSObject['boxShadow'];
+export type BoxShadow = string;
 
 export type BorderWidth = number;
 
-export type BorderStyle = CSSObject['borderStyle'];
+export type BorderStyle = string;
 
-export type Border = CSSObject['border'];
+export type Border = string;
 
 type InteractiveColor = {
   120?: ColorValue;
@@ -134,17 +130,6 @@ export type ColorPalette = {
   10?: ColorValue;
 };
 
-/**
- * Color Props
- *
- * Access colors via dot notation where supported.
- *
- * Usage: `key.variant`
- * e.g. `piccolo.100`
- *
- * TODO: Type dot notation.
- */
-export type ColorProps = ColorValue;
 
 export type Color = ColorBase & ColorThemed & ColorShared;
 
@@ -186,6 +171,18 @@ export type ColorNames =
   | 'nappa.100'
   | 'nappa.10'
   | 'popo.100';
+
+/**
+ * Color Props
+ *
+ * Access colors via dot notation where supported.
+ *
+ * Usage: `key.variant`
+ * e.g. `piccolo.100`
+ *
+ * TODO: Type dot notation.
+ */
+ export type ColorProps = ColorNames | string;
 
 export type ColorBase = {
   text: ColorValue;
@@ -278,7 +275,7 @@ export type ColorThemed = ColorPiccolo &
 
 /* Various Shared Palettes */
 
-export type Base = {
+export interface Base {
   /**
    * ⚠️ Immutable
    *
@@ -303,7 +300,7 @@ export type Base = {
    * adjusted to suit your font-face use-case.
    */
   readonly lineHeight: number;
-};
+}
 
 export type Brand =
   | 'Sportsbet.io'
@@ -324,14 +321,14 @@ export type Brand =
 
 export type ColorScheme = 'light' | 'dark';
 
-export type SharedTheme = {
+export interface SharedTheme {
   base: Base;
   border: Border;
   borderWidth: BorderWidth;
   borderStyle: BorderStyle;
   boxShadow: BoxShadow;
   breakpoint: Breakpoint;
-  fontFace?: FontFace;
+  fontFace?: any;
   fontFamily: FontFamily;
   fontSize: FontSize;
   fontWeight: FontWeight;
@@ -342,7 +339,7 @@ export type SharedTheme = {
   transitionDuration: TransitionDuration;
   transition: Transition;
   zIndex: ZIndex;
-};
+}
 
 export type Theme = SharedTheme & {
   brand: Brand;

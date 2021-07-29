@@ -1,12 +1,7 @@
-import { CSSObject } from 'styled-components';
 import { sharedTokens } from '@heathmont/moon-themes';
 
-/**
- * Accepts either an opacity (as a number), or nested styles as a CSS Object.
- */
-type DisabledProps = number | CSSObject;
-
-const disabled = (styles?: DisabledProps) => ({
+// TODO Deprecate this util
+const disabled = (styles: any) => ({
   '&:disabled, &[disabled]': {
     cursor: 'not-allowed',
     opacity:

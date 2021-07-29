@@ -1,4 +1,4 @@
-import type { CSSObject } from 'styled-components';
+import { CSSObject } from 'styled-components';
 
 const listInline: CSSObject = {
   display: 'inline-block',

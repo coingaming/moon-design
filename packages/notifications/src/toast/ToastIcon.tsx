@@ -1,9 +1,9 @@
 import React from 'react';
 
-import IconToastInfo from '../private/icons/IconToastInfo';
-import IconToastError from '../private/icons/IconToastError';
-import IconToastWarning from '../private/icons/IconToastWarning';
-import IconToastSuccess from '../private/icons/IconToastSuccess';
+import IconToastInfo from '../icons/IconToastInfo';
+import IconToastError from '../icons/IconToastError';
+import IconToastWarning from '../icons/IconToastWarning';
+import IconToastSuccess from '../icons/IconToastSuccess';
 
 export interface VariantsInterface {
   variant?: 'error' | 'warning' | 'info' | 'success';

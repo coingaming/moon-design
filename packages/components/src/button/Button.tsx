@@ -217,10 +217,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
 
   if (progress) {
     content = (
-      <div css={{ position: 'relative' }}>
-        <div css={{ visibility: 'hidden' }}>{children}</div>
+      <div style={{ position: 'relative' }}>
+        <div style={{ visibility: 'hidden' }}>{children}</div>
         <div
-          css={{
+          style={{
             position: 'absolute',
             left: `calc(50% - ${rem(space.small)})`,
             top: 0,
@@ -234,10 +234,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
   }
   if (success) {
     content = (
-      <div css={{ position: 'relative' }}>
-        <div css={{ visibility: 'hidden' }}>{children}</div>
+      <div style={{ position: 'relative' }}>
+        <div style={{ visibility: 'hidden' }}>{children}</div>
         <div
-          css={{
+          style={{
             position: 'absolute',
             left: `calc(50% - ${rem(space.small)})`,
             top: 0,

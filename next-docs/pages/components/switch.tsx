@@ -14,7 +14,7 @@ const PreviewSwitch = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e) => setState(e.target.checked)}
+            onChange={(e: any) => setState(e.target.checked)}
           />
           ;
         </>
@@ -40,7 +40,7 @@ const PreviewSwitchTheme = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e) => setState(e.target.checked)}
+            onChange={(e: any) => setState(e.target.checked)}
             colorScheme
           />
         </>
@@ -70,7 +70,7 @@ const PreviewSwitchCaption = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e) => setState(e.target.checked)}
+            onChange={(e: any) => setState(e.target.checked)}
             captionUnchecked="OFF"
             captionChecked="ON"
           />
@@ -102,7 +102,7 @@ const PreviewSwitchThemeCaption = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e) => setState(e.target.checked)}
+            onChange={(e: any) => setState(e.target.checked)}
             colorScheme
             captionUnchecked="AM"
             captionChecked="PM"

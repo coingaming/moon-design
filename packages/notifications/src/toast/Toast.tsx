@@ -1,11 +1,10 @@
 import React from 'react';
-import { ColorProps } from '@heathmont/moon-themes';
-
 import ToastContainer from './ToastContainer';
 import ToastIcon from './ToastIcon';
 import ToastMessage from './ToastMessage';
 import ToastAction from './ToastAction';
 import ToastCloseButton from './ToastCloseButton';
+import { ColorProps } from '@heathmont/moon-themes';
 
 interface ToastProps {
   message: any;
@@ -28,12 +27,12 @@ const Toast: React.FC<ToastProps> = ({
   backgroundColor,
   actionColor,
 }) => (
-    <ToastContainer backgroundColor={backgroundColor} position={position}>
-      {variant && <ToastIcon variant={variant} />}
-      {message && <ToastMessage>{message}</ToastMessage>}
-      {action && <ToastAction actionColor={actionColor}>{action}</ToastAction>}
-      {isCloseable && <ToastCloseButton onClick={onClose} />}
-    </ToastContainer>
+  <ToastContainer backgroundColor={backgroundColor} position={position}>
+    {variant && <ToastIcon variant={variant} />}
+    {message && <ToastMessage>{message}</ToastMessage>}
+    {action && <ToastAction actionColor={actionColor}>{action}</ToastAction>}
+    {isCloseable && <ToastCloseButton onClick={onClose} />}
+  </ToastContainer>
 );
 
 export type { ToastProps };

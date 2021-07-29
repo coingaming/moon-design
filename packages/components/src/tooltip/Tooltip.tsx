@@ -103,13 +103,13 @@ const Tooltip: React.FC<TooltipProps> = ({
     aria-hidden={!active}
     role="tooltip"
     id={id}
-    css={{ position: 'relative' }}
+    style={{ position: 'relative' }}
   >
     <TooltipBubble active={active} {...props}>
       <TooltipCaption onClose={onClose}>
         {children}
         {typeof onClose === 'function' && (
-          <Toggle topRight={false} css={tooltipToggle}>
+          <Toggle topRight={false} style={tooltipToggle}>
             <IconClose onClick={onClose} fontSize="inherit" />
           </Toggle>
         )}

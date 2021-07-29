@@ -1,11 +1,8 @@
-import { useTheme, SpaceProps } from '@heathmont/moon-themes';
+import { useTheme } from '@heathmont/moon-themes';
 
 import rem from '../rem/rem';
 
-export type SpacingSize = SpaceProps | 0;
-export type SpacingUnit = string;
-
-const spacing = (size: SpacingSize = 'default', unit?: SpacingUnit) => {
+const spacing = (size: any = 'default', unit?: string) => {
   const { space } = useTheme();
 
   if (size === 0) {
