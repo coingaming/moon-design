@@ -9,8 +9,8 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY --from=git /app/moon-design ./moon-design
 WORKDIR /app/moon-design
-ENV NODE_ENV production
 RUN yarn
+RUN yarn global add lerna
 RUN yarn build
 RUN yarn next build
 
