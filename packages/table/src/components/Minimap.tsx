@@ -58,7 +58,7 @@ type Props = {
 let timeoutId: any
 const TIMEOUT = 150
 
-export const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
+const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
   const [styles, setStyles] = useState({});
   const [visible, setVisible] = useState(false);
   const [footerHeight, setFooterHeight] = useState(0);
@@ -117,3 +117,5 @@ export const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns 
     </Wrapper>
   )
 }
+
+export default Minimap
