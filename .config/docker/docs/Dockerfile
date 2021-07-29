@@ -8,10 +8,11 @@ FROM node:alpine AS runner
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY --from=git /app/moon-design ./moon-design
-WORKDIR /app/moon-design/next-docs
-RUN yarn install --ignore-scripts --frozen-lockfile
+WORKDIR /app/moon-design
 ENV NODE_ENV production
+RUN yarn install
 RUN yarn build
+RUN yarn next build
 
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
