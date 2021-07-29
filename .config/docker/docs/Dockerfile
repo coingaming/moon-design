@@ -10,7 +10,6 @@ WORKDIR /app
 COPY --from=git /app/moon-design ./moon-design
 WORKDIR /app/moon-design
 RUN yarn
-RUN yarn global add lerna
 RUN yarn build
 RUN yarn next build
 
