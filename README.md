@@ -21,11 +21,16 @@
    ```sh
    yarn build
    ```
-
-3. Run locally at [`:8000`](http://localhost:8000) with hot reloading:
+3. Compile and build storybook:
 
    ```sh
-   yarn start
+   yarn next build
+   ```
+
+4. Run locally at [`:3000`](http://localhost:3000):
+
+   ```sh
+   yarn next start
    ```
 
 ## Using Moon Design
