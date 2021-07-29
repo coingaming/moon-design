@@ -25,7 +25,7 @@ const Badge = styled.span<BadgeProps>(
   ({ color, backgroundColor, theme }) => ({
     color: themed('color', color)(theme),
     backgroundColor: themed('color', backgroundColor)(theme),
-  }),
+  })
 );
 
 Badge.defaultProps = {
