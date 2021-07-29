@@ -65,24 +65,24 @@ const DefaultScrollToLeftButton = ({
   disabled = false,
   ...rest
 }) =>
-  (disabled ? null : (
+  disabled ? null : (
     <CarouselControl {...rest}>
       <CarouselControlCaption>{scrollLeftCaption}</CarouselControlCaption>
       <IconChevronLeft />
     </CarouselControl>
-  ));
+  );
 
 const DefaultScrollToRightButton = ({
   scrollRightCaption = 'Scroll Right',
   disabled = false,
   ...rest
 }) =>
-  (disabled ? null : (
+  disabled ? null : (
     <CarouselControl {...rest}>
       <CarouselControlCaption>{scrollRightCaption}</CarouselControlCaption>
       <IconChevronLeft />
     </CarouselControl>
-  ));
+  );
 
 interface CarouselProps {
   items: any;
@@ -93,6 +93,8 @@ interface CarouselProps {
   step?: number;
   scrollTo?: number;
   space?: SpaceProps | CSSObject['margin'];
+  onFirstVisibleIndexUpdated?: (visibleIndex: number) => void;
+  onLastVisibleIndexUpdated?: (visibleIndex: number) => void;
 }
 
 const Carousel: React.FC<CarouselProps> = ({
@@ -104,6 +106,8 @@ const Carousel: React.FC<CarouselProps> = ({
   scrollLeftCaption,
   scrollRightCaption,
   space,
+  onFirstVisibleIndexUpdated,
+  onLastVisibleIndexUpdated,
 }) => {
   const {
     itemRef,
@@ -134,6 +138,20 @@ const Carousel: React.FC<CarouselProps> = ({
     }
   }, []);
 
+  React.useEffect(() => {
+    if (!onFirstVisibleIndexUpdated) {
+      return;
+    }
+    onFirstVisibleIndexUpdated(firstVisibleIndex);
+  }, [firstVisibleIndex]);
+
+  React.useEffect(() => {
+    if (!onLastVisibleIndexUpdated) {
+      return;
+    }
+    onLastVisibleIndexUpdated(lastVisibleIndex);
+  }, [lastVisibleIndex]);
+
   return (
     <CarouselWrapper>
       {scrollToLeftButton ? (
@@ -151,21 +169,21 @@ const Carousel: React.FC<CarouselProps> = ({
       <ItemsScrollWrapper space={space} ref={containerRef}>
         {typeof items === 'function'
           ? items({ firstVisibleIndex, lastVisibleIndex }).map(
-            (item: React.ReactNode, index: string | number | undefined) => (
+              (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
                   {item}
                 </CarouselScrollItem>
-            ),
-          )
+              )
+            )
           : items.map(
-            (item: React.ReactNode, index: string | number | undefined) => (
+              (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
                   {item}
                 </CarouselScrollItem>
-            ),
-          )}
+              )
+            )}
       </ItemsScrollWrapper>
       {scrollToRightButton ? (
         scrollToRightButton({
