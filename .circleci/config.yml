@@ -136,8 +136,7 @@ jobs:
       - attach_workspace:
           at: ./
       - setup_remote_docker:
-          version: 19.03.13
-          docker_layer_caching: true
+          version: 20.10.6
       - *docker_build_docs_branch
       - *docker_login
       - *docker_push_docs_branch
@@ -146,8 +145,7 @@ jobs:
     <<: *default
     steps:
       - setup_remote_docker:
-          version: 19.03.13
-          docker_layer_caching: true
+          version: 20.10.6
       - *docker_login
       - *docker_pull_master_image
       - *docker_tag_master_image

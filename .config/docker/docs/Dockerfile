@@ -10,7 +10,7 @@ WORKDIR /app
 COPY --from=git /app/moon-design ./moon-design
 WORKDIR /app/moon-design
 ENV NODE_ENV production
-RUN yarn install
+RUN yarn
 RUN yarn build
 RUN yarn next build
 
