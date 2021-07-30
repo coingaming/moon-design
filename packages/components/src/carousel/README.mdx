@@ -143,6 +143,64 @@ They provide a function with `scrollToStep` and `disabled` arguments that you co
 };
 ```
 
+### Horizontal Edge Gap
+
+Add space before the first item and after the last item.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 5 }, (value, index) => index);
+
+  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
+    width: '20rem',
+    height: '12rem',
+    borderRadius: radius.small,
+    background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '2rem',
+  }));
+
+  return (
+    <Carousel
+      horizontalEdgeGap={20}
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
+  );
+};
+```
+
+### Hide Scrollbar
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 5 }, (value, index) => index);
+
+  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
+    width: '20rem',
+    height: '12rem',
+    borderRadius: radius.small,
+    background: color.goku[80],
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '2rem',
+  }));
+
+  return (
+    <Carousel
+      hideScrollbar
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
+  );
+};
+```
+
 Spacing between adjacent content can be adjusted via the `space` prop. Same as `Reel` component.
 
 `space` accepts themed space keys (e.g. `large` returns the large themed `space`

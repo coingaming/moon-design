@@ -23,53 +23,64 @@ Table supports custom row background colors:
 
 And header background color: `headerBackgroundColor`
 
+## Default table
+
 ```jsx react-live
 () => {
   const columnsInitial = [
     {
       Header: 'Name',
       sticky: 'left',
+      Footer: 'Name footer',
       columns: [
         {
           Header: 'First Name',
           accessor: 'firstName',
+          Footer: '',
         },
         {
           Header: 'Last Name',
           accessor: 'lastName',
+          Footer: '',
         },
       ],
     },
     {
       Header: 'Info',
+      Footer: 'Info footer',
       columns: [
         {
           Header: 'Age',
           accessor: 'age',
           width: 50,
+          Footer: '',
         },
         {
           Header: 'Visits',
           accessor: 'visits',
+          Footer: '',
         },
         {
           Header: 'Activity',
           accessor: 'activity',
+          Footer: '',
         },
         {
           Header: 'Status',
           width: 60,
           accessor: 'status',
+          Footer: '',
         },
       ],
     },
     {
       Header: 'Progress',
       sticky: 'right',
+      Footer: 'Progress footer',
       columns: [
         {
           Header: 'Profile Progress',
-          Footer: 'Profile Progress',
+          Footer: '',
           accessor: 'progress',
         },
       ],
@@ -109,6 +120,7 @@ And header background color: `headerBackgroundColor`
       defaultColumn={defaultColumn}
       width={800}
       height={400}
+      withFooter={true}
     />
   );
 };
@@ -239,19 +251,118 @@ And header background color: `headerBackgroundColor`
       defaultColumn={defaultColumn}
       width={800}
       height={400}
+      defaultRowBackgroundColor="gohan.40"
+      evenRowBackgroundColor="gohan.80"
     />
   );
 };
 ```
 
-## Expanded rows with custom content
+## Expanded rows (with deep nesting)
+
+```jsx react-live
+() => {
+  const columnsInitial = [
+    {
+      accessor: 'expander',
+      width: 60,
+      Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => (
+        <span {...getToggleAllRowsExpandedProps()}>
+          {isAllRowsExpanded ? '👇' : '👉'}
+        </span>
+      ),
+      Cell: ({ row }) =>
+        row.canExpand ? (
+          <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
+            {row.isExpanded ? '👇' : '👉'}
+          </span>
+        ) : null,
+    },
+    {
+      Header: 'Name',
+      accessor: 'firstName',
+    },
+    {
+      Header: 'Age',
+      accessor: 'age',
+      width: 50,
+    },
+    {
+      Header: 'Visits',
+      accessor: 'visits',
+    },
+    {
+      Header: 'Activity',
+      accessor: 'activity',
+    },
+  ];
+
+  const makeData = (length) => {
+    return Array.from('_'.repeat(length)).map(() => {
+      return {
+        firstName: 'Test',
+        age: <span>{Math.floor(Math.random() * 30)}</span>,
+        visits: <span>{Math.floor(Math.random() * 100)}</span>,
+        activity: Math.floor(Math.random() * 100),
+        subRows: Array.from('_'.repeat(3)).map(() => ({
+          firstName: 'Sub Test',
+          age: <span>{Math.floor(Math.random() * 30)}</span>,
+          visits: <span>{Math.floor(Math.random() * 100)}</span>,
+          activity: Math.floor(Math.random() * 100),
+          subRows: Array.from('_'.repeat(3)).map(() => ({
+            firstName: 'Sub Test 2',
+            age: <span>{Math.floor(Math.random() * 30)}</span>,
+            visits: <span>{Math.floor(Math.random() * 100)}</span>,
+            activity: Math.floor(Math.random() * 100),
+            subRows: Array.from('_'.repeat(3)).map(() => ({
+              firstName: 'Sub Test 2',
+              age: <span>{Math.floor(Math.random() * 30)}</span>,
+              visits: <span>{Math.floor(Math.random() * 100)}</span>,
+              activity: Math.floor(Math.random() * 100),
+            })),
+          })),
+        })),
+      };
+    });
+  };
+
+  const defaultColumn = React.useMemo(
+    () => ({
+      minWidth: 100,
+      width: 150,
+      maxWidth: 400,
+    }),
+    []
+  );
+
+  const columns = React.useMemo(() => columnsInitial, []);
+  const data = React.useMemo(() => makeData(20), []);
+
+  return (
+    <Table
+      columns={columns}
+      data={data}
+      defaultColumn={defaultColumn}
+      width={800}
+      height={400}
+      defaultRowBackgroundColor="gohan.40"
+      evenRowBackgroundColor="gohan.80"
+      getOnRowClickHandler={(row) =>
+        row.canExpand ? () => row.toggleRowExpanded() : undefined
+      }
+    />
+  );
+};
+```
+
+## Expanded rows (with custom content)
 
 ```jsx react-live
 () => {
   const columnsInitial = [
     {
       id: 'expander',
-      sticky: 'left',
+      width: 50,
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => (
         <span {...getToggleAllRowsExpandedProps()}>
           Expand
@@ -269,25 +380,6 @@ And header background color: `headerBackgroundColor`
       accessor: 'age',
       width: 50,
     },
-    {
-      Header: 'Visits',
-      accessor: 'visits',
-    },
-    {
-      Header: 'Activity',
-      accessor: 'activity',
-    },
-    {
-      Header: 'Status',
-      width: 60,
-      accessor: 'status',
-    },
-    {
-      Header: 'Profile Progress',
-      Footer: 'Profile Progress',
-      accessor: 'progress',
-      sticky: 'right',
-    },
   ];
 
   const makeData = (length) => {
@@ -295,10 +387,6 @@ And header background color: `headerBackgroundColor`
       return {
         firstName: 'Test',
         age: <span>{Math.floor(Math.random() * 30)}</span>,
-        visits: <span>{Math.floor(Math.random() * 100)}</span>,
-        progress: <span>{Math.floor(Math.random() * 100)}</span>,
-        status: Math.floor(Math.random() * 100),
-        activity: Math.floor(Math.random() * 100),
       };
     });
   };
@@ -322,315 +410,26 @@ And header background color: `headerBackgroundColor`
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      getOnRowClickHandler={() => (row) => row.toggleRowExpanded()}
-      renderRowSubComponent={(row) => {
+      defaultRowBackgroundColor="gohan.40"
+      evenRowBackgroundColor="gohan.80"
+      getOnRowClickHandler={(row) =>
+        row.depth === 0 ? () => row.toggleRowExpanded() : undefined
+      }
+      renderRowSubComponent={({ row, backgroundColor }) => {
         return (
-          <BodyTR {...row.getRowProps()} key={row.getRowProps().key + '1'}>
-            {!!row.cells.length &&
-              row.cells.map((cell) => {
-                return (
-                  <TD
-                    {...cell.getCellProps()}
-                    defaultRowBackgroundColor="frieza.10"
-                  >
-                    Custom content
-                  </TD>
-                );
-              })}
+          <BodyTR
+            {...row.getRowProps()}
+            key={row.getRowProps().key + '1'}
+            hasParent={true}
+            isLastRow={true}
+            backgroundColor={backgroundColor}
+          >
+            <TD style={{ width: '100%', textAlign: 'center' }}>
+              Custom content
+            </TD>
           </BodyTR>
         );
       }}
-    />
-  );
-};
-```
-
-## Variant="calendar"
-
-```jsx react-live
-() => {
-  const columnsInitial = [
-    {
-      Header: '',
-      accessor: 'date',
-      sticky: 'left',
-      width: 160,
-    },
-    {
-      Header: 'Age',
-      accessor: 'age',
-      width: 100,
-    },
-    {
-      Header: 'Visits',
-      accessor: 'visits',
-    },
-    {
-      Header: 'Activity',
-      accessor: 'activity',
-    },
-    {
-      Header: 'Status',
-      width: 100,
-      accessor: 'status',
-    },
-    {
-      Header: 'Profile Progress',
-      Footer: 'Profile Progress',
-      accessor: 'progress',
-    },
-  ];
-
-  const makeData = (length) => {
-    return Array.from('_'.repeat(length)).map((_, index) => {
-      return {
-        date: <strong>January {(index + 1) % 30}, 2020</strong>,
-        age: <span>{Math.floor(Math.random() * 30)}</span>,
-        visits: <span>{Math.floor(Math.random() * 100)}</span>,
-        progress: <span>{Math.floor(Math.random() * 100)}</span>,
-        status: Math.floor(Math.random() * 100),
-        activity: Math.floor(Math.random() * 100),
-        expanded: true,
-        subRows: [
-          {
-            date: '',
-            age: <span>{Math.floor(Math.random() * 30)}</span>,
-            visits: <span>{Math.floor(Math.random() * 100)}</span>,
-            progress: <span>{Math.floor(Math.random() * 100)}</span>,
-            status: Math.floor(Math.random() * 100),
-            activity: Math.floor(Math.random() * 100),
-          },
-        ],
-      };
-    });
-  };
-
-  const defaultColumn = React.useMemo(
-    () => ({
-      minWidth: 100,
-      width: 260,
-      maxWidth: 400,
-    }),
-    []
-  );
-
-  const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(30), []);
-
-  return (
-    <Table
-      columns={columns}
-      data={data}
-      defaultColumn={defaultColumn}
-      width={800}
-      height={400}
-      variant="calendar"
-      headerBackgroundColor="gohan.100"
-    />
-  );
-};
-```
-
-## With footer
-
-```jsx react-live
-() => {
-  const columnsInitial = [
-    {
-      Header: 'First Name',
-      accessor: 'firstName',
-      Footer: 'Footer First Name',
-    },
-    {
-      Header: 'Last Name',
-      accessor: 'lastName',
-      Footer: 'Footer Last Name',
-    },
-    {
-      Header: 'Age',
-      accessor: 'age',
-      width: 50,
-      Footer: 'Footer Age',
-    },
-    {
-      Header: 'Visits',
-      accessor: 'visits',
-      Footer: 'Footer Visits',
-    },
-    {
-      Header: 'Activity',
-      accessor: 'activity',
-      Footer: 'Footer Activity',
-    },
-    {
-      Header: 'Status',
-      width: 60,
-      accessor: 'status',
-      Footer: 'Footer Status',
-    },
-    {
-      Header: 'Profile Progress',
-      Footer: 'Profile Progress',
-      accessor: 'progress',
-      Footer: 'Footer Profile Progress',
-    },
-  ];
-
-  const makeData = (length) => {
-    return Array.from('_'.repeat(length)).map(() => {
-      return {
-        firstName: 'Test',
-        lastName: 'Test',
-        age: <span>{Math.floor(Math.random() * 30)}</span>,
-        visits: <span>{Math.floor(Math.random() * 100)}</span>,
-        progress: <span>{Math.floor(Math.random() * 100)}</span>,
-        status: Math.floor(Math.random() * 100),
-        activity: Math.floor(Math.random() * 100),
-      };
-    });
-  };
-
-  const defaultColumn = React.useMemo(
-    () => ({
-      minWidth: 100,
-      width: 150,
-      maxWidth: 400,
-    }),
-    []
-  );
-
-  const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(40), []);
-
-  return (
-    <Table
-      columns={columns}
-      data={data}
-      defaultColumn={defaultColumn}
-      width={800}
-      height={400}
-      withFooter={true}
-    />
-  );
-};
-```
-
-## With getOnRowClickHandler handler
-
-```jsx react-live
-() => {
-  const columnsInitial = [
-    {
-      Header: 'Expand',
-      sticky: 'left',
-      columns: [
-        {
-          id: 'expander',
-          Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }) => (
-            <span {...getToggleAllRowsExpandedProps()}>
-              {isAllRowsExpanded ? '👇' : '👉'}
-            </span>
-          ),
-          Cell: ({ row }) =>
-            row.canExpand ? (
-              <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
-                {row.isExpanded ? '👇' : '👉'}
-              </span>
-            ) : null,
-        },
-      ],
-    },
-    {
-      Header: 'Name',
-      sticky: 'left',
-      columns: [
-        {
-          Header: 'First Name',
-          accessor: 'firstName',
-        },
-      ],
-    },
-    {
-      Header: 'Info',
-      columns: [
-        {
-          Header: 'Age',
-          accessor: 'age',
-          width: 50,
-        },
-        {
-          Header: 'Visits',
-          accessor: 'visits',
-        },
-        {
-          Header: 'Activity',
-          accessor: 'activity',
-        },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
-        },
-      ],
-    },
-    {
-      Header: 'Progress',
-      sticky: 'right',
-      columns: [
-        {
-          Header: 'Profile Progress',
-          Footer: 'Profile Progress',
-          accessor: 'progress',
-        },
-      ],
-    },
-  ];
-
-  const makeData = (length) => {
-    return Array.from('_'.repeat(length)).map(() => {
-      return {
-        firstName: 'Test',
-        age: <span>{Math.floor(Math.random() * 30)}</span>,
-        visits: <span>{Math.floor(Math.random() * 100)}</span>,
-        progress: <span>{Math.floor(Math.random() * 100)}</span>,
-        status: Math.floor(Math.random() * 100),
-        activity: Math.floor(Math.random() * 100),
-        subRows: [
-          {
-            firstName: 'Sub Test',
-            age: <span>{Math.floor(Math.random() * 30)}</span>,
-            visits: <span>{Math.floor(Math.random() * 100)}</span>,
-            progress: <span>{Math.floor(Math.random() * 100)}</span>,
-            status: Math.floor(Math.random() * 100),
-            activity: Math.floor(Math.random() * 100),
-          },
-        ],
-      };
-    });
-  };
-
-  const defaultColumn = React.useMemo(
-    () => ({
-      minWidth: 100,
-      width: 150,
-      maxWidth: 400,
-    }),
-    []
-  );
-
-  const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(40), []);
-
-  return (
-    <Table
-      columns={columns}
-      data={data}
-      defaultColumn={defaultColumn}
-      width={800}
-      height={400}
-      getOnRowClickHandler={(row) =>
-        row.canExpand ? () => row.toggleRowExpanded() : undefined
-      }
     />
   );
 };
@@ -725,6 +524,87 @@ And header background color: `headerBackgroundColor`
       width={800}
       height={400}
       withMinimap
+    />
+  );
+};
+```
+
+## Variants
+
+### "calendar"
+
+```jsx react-live
+() => {
+  const columnsInitial = [
+    {
+      Header: '',
+      accessor: 'date',
+      sticky: 'left',
+      width: 160,
+      withRowSpan: true,
+    },
+    {
+      Header: 'Age',
+      accessor: 'age',
+      width: 100,
+    },
+    {
+      Header: 'Visits',
+      accessor: 'visits',
+    },
+    {
+      Header: 'Activity',
+      accessor: 'activity',
+    },
+    {
+      Header: 'Status',
+      width: 100,
+      accessor: 'status',
+    },
+    {
+      Header: 'Profile Progress',
+      Footer: 'Profile Progress',
+      accessor: 'progress',
+    },
+  ];
+
+  const makeData = (length) => {
+    return Array.from('_'.repeat(length)).map((_, index) => {
+      return {
+        date: `January ${Math.floor(index / 5) + 1}, 2020`,
+        age: <span>{Math.floor(Math.random() * 30)}</span>,
+        visits: <span>{Math.floor(Math.random() * 100)}</span>,
+        progress: <span>{Math.floor(Math.random() * 100)}</span>,
+        status: Math.floor(Math.random() * 100),
+        activity: Math.floor(Math.random() * 100),
+      };
+    });
+  };
+
+  const defaultColumn = React.useMemo(
+    () => ({
+      minWidth: 100,
+      width: 260,
+      maxWidth: 400,
+    }),
+    []
+  );
+
+  const columns = React.useMemo(() => columnsInitial, []);
+  const data = React.useMemo(() => makeData(30), []);
+
+  return (
+    <Table
+      columns={columns}
+      data={data}
+      defaultColumn={defaultColumn}
+      width={800}
+      height={400}
+      variant="calendar"
+      getOnRowClickHandler={(row) => () => {}}
+      headerBackgroundColor="gohan.100"
+      defaultRowBackgroundColor="gohan.40"
+      evenRowBackgroundColor="gohan.80"
     />
   );
 };

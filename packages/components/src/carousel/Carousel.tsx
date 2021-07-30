@@ -7,6 +7,7 @@ import Reel from '../reel/Reel';
 import { withHorizontalScroll } from '../withHorizontalScroll/withHorizontalScroll';
 
 import { CarouselControl, CarouselControlCaption } from './control';
+import { rem } from '@heathmont/moon-utils';
 /**
  * Settings
  *
@@ -32,16 +33,32 @@ const CarouselWrapper = styled.div<any>({
  *
  * The list of Carousel Items, controlling overflow and scroll behavior.
  */
-const ItemsScrollWrapper = styled(Reel.withComponent('ul'))({
-  scrollSnapType: 'mandatory',
-  scrollSnapDestination: '0 50%',
-  scrollSnapPointsX: 'repeat(100%)',
-  [currentScrollingSpec]: {
-    scrollSnapType: 'x mandatory',
-    scrollSnapDestination: 'unset' /* 👴 */,
-    scrollSnapPointsX: 'unset' /* 👴 */,
-  },
-});
+const ItemsScrollWrapper = styled(Reel.withComponent('ul'))<{
+  horizontalEdgeGap: CarouselProps['horizontalEdgeGap'];
+  hideScrollbar: CarouselProps['hideScrollbar'];
+}>(
+  ({ horizontalEdgeGap }) =>
+    horizontalEdgeGap && {
+      padding: `0 ${rem(horizontalEdgeGap)}`,
+      margin: `0 ${rem(-horizontalEdgeGap)}`,
+    },
+  ({ hideScrollbar }) =>
+    hideScrollbar && {
+      '&::-webkit-scrollbar': { display: 'none' },
+      '-ms-overflow-style': 'none',
+      scrollbarWidth: 'none',
+    },
+  {
+    scrollSnapType: 'mandatory',
+    scrollSnapDestination: '0 50%',
+    scrollSnapPointsX: 'repeat(100%)',
+    [currentScrollingSpec]: {
+      scrollSnapType: 'x mandatory',
+      scrollSnapDestination: 'unset' /* 👴 */,
+      scrollSnapPointsX: 'unset' /* 👴 */,
+    },
+  }
+);
 
 ItemsScrollWrapper.defaultProps = {
   space: 'default',
@@ -65,24 +82,24 @@ const DefaultScrollToLeftButton = ({
   disabled = false,
   ...rest
 }) =>
-  (disabled ? null : (
+  disabled ? null : (
     <CarouselControl {...rest}>
       <CarouselControlCaption>{scrollLeftCaption}</CarouselControlCaption>
       <IconChevronLeft />
     </CarouselControl>
-  ));
+  );
 
 const DefaultScrollToRightButton = ({
   scrollRightCaption = 'Scroll Right',
   disabled = false,
   ...rest
 }) =>
-  (disabled ? null : (
+  disabled ? null : (
     <CarouselControl {...rest}>
       <CarouselControlCaption>{scrollRightCaption}</CarouselControlCaption>
       <IconChevronLeft />
     </CarouselControl>
-  ));
+  );
 
 interface CarouselProps {
   items: any;
@@ -93,6 +110,8 @@ interface CarouselProps {
   step?: number;
   scrollTo?: number;
   space?: SpaceProps | CSSObject['margin'];
+  horizontalEdgeGap?: number;
+  hideScrollbar?: boolean;
 }
 
 const Carousel: React.FC<CarouselProps> = ({
@@ -104,6 +123,8 @@ const Carousel: React.FC<CarouselProps> = ({
   scrollLeftCaption,
   scrollRightCaption,
   space,
+  horizontalEdgeGap,
+  hideScrollbar,
 }) => {
   const {
     itemRef,
@@ -148,24 +169,29 @@ const Carousel: React.FC<CarouselProps> = ({
           scrollLeftCaption={scrollLeftCaption}
         />
       )}
-      <ItemsScrollWrapper space={space} ref={containerRef}>
+      <ItemsScrollWrapper
+        space={space}
+        ref={containerRef}
+        horizontalEdgeGap={horizontalEdgeGap}
+        hideScrollbar={hideScrollbar}
+      >
         {typeof items === 'function'
           ? items({ firstVisibleIndex, lastVisibleIndex }).map(
-            (item: React.ReactNode, index: string | number | undefined) => (
+              (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
                   {item}
                 </CarouselScrollItem>
-            ),
-          )
+              )
+            )
           : items.map(
-            (item: React.ReactNode, index: string | number | undefined) => (
+              (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
                   {item}
                 </CarouselScrollItem>
-            ),
-          )}
+              )
+            )}
       </ItemsScrollWrapper>
       {scrollToRightButton ? (
         scrollToRightButton({

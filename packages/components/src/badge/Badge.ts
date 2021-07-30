@@ -10,7 +10,7 @@ export type BadgeProps = {
 
 const Badge = styled.span<BadgeProps>(
   ({ theme: { fontWeight, radius } }) => ({
-    display: 'inline-flex',
+    display: 'flex',
     fontWeight: fontWeight.semibold,
     textTransform: 'uppercase',
     borderRadius: rem(radius.largest),
@@ -25,7 +25,7 @@ const Badge = styled.span<BadgeProps>(
   ({ color, backgroundColor, theme }) => ({
     color: themed('color', color)(theme),
     backgroundColor: themed('color', backgroundColor)(theme),
-  }),
+  })
 );
 
 Badge.defaultProps = {
