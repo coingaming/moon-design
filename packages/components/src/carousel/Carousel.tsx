@@ -40,6 +40,7 @@ const ItemsScrollWrapper = styled(Reel.withComponent('ul'))<{
   ({ horizontalEdgeGap }) =>
     horizontalEdgeGap && {
       padding: `0 ${rem(horizontalEdgeGap)}`,
+      margin: `0 ${rem(-horizontalEdgeGap)}`,
     },
   ({ hideScrollbar }) =>
     hideScrollbar && {
