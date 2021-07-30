@@ -1009,7 +1009,7 @@
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.2.0.tgz#e48652bfce82ddf73d7f331faeb9db6526ee6874"
   integrity sha512-19DkLz8gDgbi+WvkoTzi9vs0NK9TJf94vbYhMzB4LYJo03Kili0gmvXT9CiKZoxXZ7YAvy/b1U1oQKEnjWrqxw==
 
-"@heathmont/moon-assets@^5.0.1", "@heathmont/moon-assets@^5.8.3":
+"@heathmont/moon-assets@^5.0.0", "@heathmont/moon-assets@^5.0.1", "@heathmont/moon-assets@^5.8.3":
   version "5.8.3"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-assets/-/moon-assets-5.8.3.tgz#7495b0ba35eed4518f968b6e251a920ae4a3f3dd"
   integrity sha512-yVI321Zw2XuqQU8Rn4MliGc/1GbtRrY8Y0WAqNzD4hr5eEpHjYCR4LL+ZBOCFlRitoR1Anqwco07AVz/nJwjJA==
@@ -1034,7 +1034,7 @@
     react-use "15.3.8"
     recharts "1.8.5"
 
-"@heathmont/moon-components@^5.1.0":
+"@heathmont/moon-components@^5.0.0", "@heathmont/moon-components@^5.1.0":
   version "5.8.3"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-components/-/moon-components-5.8.3.tgz#270910928b4308ceed3a43995b76c4af326c60df"
   integrity sha512-aWGyk7t4JqKV4R2EZg+0L1d9UA0AUT/d8zXr0/12qg+CwFfFuK87TjOKR17x2s7SJ6DfEpX2Uv1ZwqIqHvtgBw==
@@ -1057,6 +1057,18 @@
   dependencies:
     "@heathmont/moon-themes" "^5.0.0"
     "@heathmont/moon-utils" "^5.0.0"
+
+"@heathmont/moon-pagination@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-pagination/-/moon-pagination-5.0.0.tgz#3d51d42eae5b2de8442a2374032ada8d5190c154"
+  integrity sha512-ljBFQUedMJ5gaGKcGRyD4qknX9ygWuZsZc/+bmAsTmWfE21Wuumijvealg807/bI2BpYa9VtXHvHYsE0hbjkdw==
+  dependencies:
+    "@heathmont/moon-assets" "^5.0.0"
+    "@heathmont/moon-components" "^5.0.0"
+    "@heathmont/moon-themes" "^5.0.0"
+    "@heathmont/moon-utils" "^5.0.0"
+    "@types/react-paginate" "6.2.1"
+    react-paginate "6.5.0"
 
 "@heathmont/moon-themes@^5.0.0", "@heathmont/moon-themes@^5.0.1", "@heathmont/moon-themes@^5.8.3":
   version "5.8.3"
