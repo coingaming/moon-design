@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/coingaming/moon-design/compare/v6.0.0...v6.1.0) (2021-07-30)
+
+
+### Bug Fixes
+
+* next deps ([7bc73b2](https://github.com/coingaming/moon-design/commit/7bc73b2a4710e421e23fddc56e98dd8d69f69419))
+* start on port 80 ([2050673](https://github.com/coingaming/moon-design/commit/2050673970fd28bd009740e2a6252e9375ca25de))
+
+
+### Features
+
+* update deps ([8934c4c](https://github.com/coingaming/moon-design/commit/8934c4c9629054a42dbb02eae2e48dc634249d3e))
+
+
+
+
+
 # [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
 
 **Note:** Version bump only for package next-docs

@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/coingaming/moon-design/compare/v6.0.0...v6.1.0) (2021-07-30)
+
+
+### Bug Fixes
+
+* build docker with cache ([f7a5c58](https://github.com/coingaming/moon-design/commit/f7a5c58b036a818c1dc85736f3522ab495fd5d03))
+* Dockerfile ([3102ccc](https://github.com/coingaming/moon-design/commit/3102cccfc4adf749dc8a001aef292ec242af3d2b))
+* next deps ([7bc73b2](https://github.com/coingaming/moon-design/commit/7bc73b2a4710e421e23fddc56e98dd8d69f69419))
+* start on port 80 ([2050673](https://github.com/coingaming/moon-design/commit/2050673970fd28bd009740e2a6252e9375ca25de))
+* yarn.lock update ([60f6183](https://github.com/coingaming/moon-design/commit/60f6183459a8a100306c0a761c060dad6cb7fc54))
+
+
+### Features
+
+* update deps ([8934c4c](https://github.com/coingaming/moon-design/commit/8934c4c9629054a42dbb02eae2e48dc634249d3e))
+* update node to 16.6.0 and yarn ([8d940bc](https://github.com/coingaming/moon-design/commit/8d940bc0f907ebda0bf92eb254d92c03f3bc03fd))
+* update nuke ([a19afb8](https://github.com/coingaming/moon-design/commit/a19afb87224e881eec7e9928861085c93a622a54))
+* use circleci/node:16.5.0 ([8fdc770](https://github.com/coingaming/moon-design/commit/8fdc770698ef9175843dc46d21f547b0065eced9))
+
+
+
+
+
 # [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
 
 
