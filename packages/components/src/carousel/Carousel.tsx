@@ -95,6 +95,7 @@ interface CarouselProps {
   space?: SpaceProps | CSSObject['margin'];
   onFirstVisibleIndexUpdated?: (visibleIndex: number) => void;
   onLastVisibleIndexUpdated?: (visibleIndex: number) => void;
+  receiveScrollCommand?: (command: (scrollToIndex: number) => void) => void;
 }
 
 const Carousel: React.FC<CarouselProps> = ({
@@ -108,6 +109,7 @@ const Carousel: React.FC<CarouselProps> = ({
   space,
   onFirstVisibleIndexUpdated,
   onLastVisibleIndexUpdated,
+  receiveScrollCommand,
 }) => {
   const {
     itemRef,
@@ -121,21 +123,25 @@ const Carousel: React.FC<CarouselProps> = ({
     lastVisibleIndex,
   } = withHorizontalScroll({ scrollStep: step || 5 });
 
-  React.useEffect(() => {
-    if (!scrollTo) {
-      return;
-    }
+  const doScroll = (toItemIndex: number) => {
     // We scroll for another extra item because we defined our THRESHOLD = 0.75;
     // It means that item will be visible for 75%.
     // We scroll one more to guarantee 100% visibility.
     // "items.length - 1" because indices start from 0.
-    if (scrollTo && scrollTo < items.length - 1) {
-      scrollToIndex(scrollTo + 1);
+    if (toItemIndex && toItemIndex < items.length - 1) {
+      scrollToIndex(toItemIndex + 1);
     }
     // No point for scroll another extra item because that's the last one
-    if (scrollTo && scrollTo === items.length - 1) {
-      scrollToIndex(scrollTo);
+    if (toItemIndex && toItemIndex === items.length - 1) {
+      scrollToIndex(toItemIndex);
     }
+  };
+
+  React.useEffect(() => {
+    if (!scrollTo) {
+      return;
+    }
+    doScroll(scrollTo);
   }, []);
 
   React.useEffect(() => {
@@ -151,6 +157,13 @@ const Carousel: React.FC<CarouselProps> = ({
     }
     onLastVisibleIndexUpdated(lastVisibleIndex);
   }, [lastVisibleIndex]);
+
+  React.useEffect(() => {
+    if (!receiveScrollCommand) {
+      return;
+    }
+    receiveScrollCommand(doScroll);
+  }, [receiveScrollCommand]);
 
   return (
     <CarouselWrapper>
