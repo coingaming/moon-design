@@ -1,7 +1,7 @@
 aliases:
   default: &default
     docker:
-      - image: circleci/node:15
+      - image: circleci/node:16.5.0
 
   install_deps: &install_deps
     run:
@@ -33,7 +33,7 @@ aliases:
   docker_build_docs_branch: &docker_build_docs_branch
     run:
       name: 'Building docker docs image from branch'
-      command: docker build --no-cache -f .config/docker/docs/Dockerfile -t heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH .
+      command: docker build -f .config/docker/docs/Dockerfile -t heathmont/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH .
 
   docker_pull_master_image: &docker_pull_master_image
     run:
