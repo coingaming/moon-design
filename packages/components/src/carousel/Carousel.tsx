@@ -123,7 +123,7 @@ const Carousel: React.FC<CarouselProps> = ({
   scrollLeftCaption,
   scrollRightCaption,
   space,
-  horizontalEdgeGap = 60,
+  horizontalEdgeGap,
   hideScrollbar,
 }) => {
   const {
