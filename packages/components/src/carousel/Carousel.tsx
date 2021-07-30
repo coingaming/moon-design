@@ -40,6 +40,7 @@ const ItemsScrollWrapper = styled(Reel.withComponent('ul'))<{
   ({ horizontalEdgeGap }) =>
     horizontalEdgeGap && {
       padding: `0 ${rem(horizontalEdgeGap)}`,
+      margin: `0 ${rem(-horizontalEdgeGap)}`,
     },
   ({ hideScrollbar }) =>
     hideScrollbar && {
@@ -122,7 +123,7 @@ const Carousel: React.FC<CarouselProps> = ({
   scrollLeftCaption,
   scrollRightCaption,
   space,
-  horizontalEdgeGap,
+  horizontalEdgeGap = 60,
   hideScrollbar,
 }) => {
   const {
