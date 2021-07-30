@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
+
+
+* Feature/table refactoring (#1269) ([20c746b](https://github.com/coingaming/moon-design/commit/20c746bbf13d8b6654bb1a3831396e2ec1adbeec)), closes [#1269](https://github.com/coingaming/moon-design/issues/1269)
+
+
+### BREAKING CHANGES
+
+* Changing props api
+
+* docs: update table documentation
+
+* fix: update Draggable table
+
+
+
+
+
 ## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
 
 

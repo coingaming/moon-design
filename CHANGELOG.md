@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
+
+
+### Bug Fixes
+
+* add Carousel negative margin | BASE1-1671 ([#1273](https://github.com/coingaming/moon-design/issues/1273)) ([de71621](https://github.com/coingaming/moon-design/commit/de71621a48fdcb6a29b4b2bf67b3f4952df9e5dc))
+
+
+### Features
+
+* fix Badge, add props to Carousel | BASE1-1671 ([#1272](https://github.com/coingaming/moon-design/issues/1272)) ([e6cca21](https://github.com/coingaming/moon-design/commit/e6cca215ce39c32e05d510363e5c1a6ed00e6e4a))
+* remove docs source ([#1271](https://github.com/coingaming/moon-design/issues/1271)) ([4cf4005](https://github.com/coingaming/moon-design/commit/4cf4005a114c34a7726f7e6845e551a573694712))
+
+
+* Feature/table refactoring (#1269) ([20c746b](https://github.com/coingaming/moon-design/commit/20c746bbf13d8b6654bb1a3831396e2ec1adbeec)), closes [#1269](https://github.com/coingaming/moon-design/issues/1269)
+
+
+### BREAKING CHANGES
+
+* Changing props api
+
+* docs: update table documentation
+
+* fix: update Draggable table
+
+
+
+
+
 ## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
 
 

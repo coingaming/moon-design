@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
+
+
+### Features
+
+* fix Badge, add props to Carousel | BASE1-1671 ([#1272](https://github.com/coingaming/moon-design/issues/1272)) ([e6cca21](https://github.com/coingaming/moon-design/commit/e6cca215ce39c32e05d510363e5c1a6ed00e6e4a))
+
+
+
+
+
 ## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
 
 
