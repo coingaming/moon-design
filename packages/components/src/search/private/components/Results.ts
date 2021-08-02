@@ -26,6 +26,7 @@ export const Results = styled.ul(
       borderWidth, boxShadow, fontWeight, color, radius, space,
     },
   }) => ({
+    backgroundColor: 'black',
     fontSize: 'inherit',
     fontWeight: fontWeight.normal,
     position: 'absolute',
@@ -104,7 +105,7 @@ export const ResultsLink = styled.div(({ theme }) => [
     fontWeight: theme.fontWeight.normal,
     appearance: 'none',
     border: 0,
-    backgroundColor: 'transparent',
+    backgroundColor: 'red',
     color: theme.color.bulma[100],
     textDecoration: 'none',
     cursor: 'pointer',
