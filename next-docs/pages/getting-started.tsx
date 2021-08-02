@@ -23,7 +23,7 @@ export default function PageBadge() {
         <h2 className="text-3xl font-semibold">Set up Theme</h2>
         <Text>{`Wrap your entire application with the <ThemeProvider />, providing your preferred theme via the theme prop.`}</Text>
         <Text>
-          Be sure to include global styles, as these will inherit the theme and
+          Be sure to include global styles and font-face definitions, as these will inherit the theme and
           set the integral style foundations for your app.
         </Text>
 
