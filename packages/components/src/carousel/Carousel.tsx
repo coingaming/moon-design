@@ -93,9 +93,6 @@ interface CarouselProps {
   step?: number;
   scrollTo?: number;
   space?: SpaceProps | CSSObject['margin'];
-  onFirstVisibleIndexUpdated?: (visibleIndex: number) => void;
-  onLastVisibleIndexUpdated?: (visibleIndex: number) => void;
-  receiveScrollCommand?: (command: (scrollToIndex: number) => void) => void;
 }
 
 const Carousel: React.FC<CarouselProps> = ({
@@ -107,9 +104,6 @@ const Carousel: React.FC<CarouselProps> = ({
   scrollLeftCaption,
   scrollRightCaption,
   space,
-  onFirstVisibleIndexUpdated,
-  onLastVisibleIndexUpdated,
-  receiveScrollCommand,
 }) => {
   const {
     itemRef,
@@ -144,33 +138,15 @@ const Carousel: React.FC<CarouselProps> = ({
     doScroll(scrollTo);
   }, []);
 
-  React.useEffect(() => {
-    if (!onFirstVisibleIndexUpdated) {
-      return;
-    }
-    onFirstVisibleIndexUpdated(firstVisibleIndex);
-  }, [firstVisibleIndex]);
-
-  React.useEffect(() => {
-    if (!onLastVisibleIndexUpdated) {
-      return;
-    }
-    onLastVisibleIndexUpdated(lastVisibleIndex);
-  }, [lastVisibleIndex]);
-
-  React.useEffect(() => {
-    if (!receiveScrollCommand) {
-      return;
-    }
-    receiveScrollCommand(doScroll);
-  }, [receiveScrollCommand]);
-
   return (
     <CarouselWrapper>
       {scrollToLeftButton ? (
         scrollToLeftButton({
           scrollToStep: scrollLeftToStep,
           disabled: !canScrollLeft,
+          firstVisibleIndex,
+          lastVisibleIndex,
+          scrollCommand: doScroll,
         })
       ) : (
         <DefaultScrollToLeftButton
@@ -202,6 +178,9 @@ const Carousel: React.FC<CarouselProps> = ({
         scrollToRightButton({
           scrollToStep: scrollRightToStep,
           disabled: !canScrollRight,
+          firstVisibleIndex,
+          lastVisibleIndex,
+          scrollCommand: doScroll,
         })
       ) : (
         <DefaultScrollToRightButton
