@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/coingaming/moon-design/compare/v6.1.0...v6.2.0) (2021-08-02)
+
+
+### Features
+
+* trigger build ([dd788ad](https://github.com/coingaming/moon-design/commit/dd788ade3afa1b9a6b39e00a800b9379cdc75db9))
+
+
+
+
+
 # [6.1.0](https://github.com/coingaming/moon-design/compare/v6.0.0...v6.1.0) (2021-07-30)
 
 
