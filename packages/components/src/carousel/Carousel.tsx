@@ -112,6 +112,7 @@ interface CarouselProps {
   space?: SpaceProps | CSSObject['margin'];
   horizontalEdgeGap?: number;
   hideScrollbar?: boolean;
+  sampleProp?: boolean;
 }
 
 const Carousel: React.FC<CarouselProps> = ({
@@ -125,6 +126,7 @@ const Carousel: React.FC<CarouselProps> = ({
   space,
   horizontalEdgeGap,
   hideScrollbar,
+  sampleProp,
 }) => {
   const {
     itemRef,
