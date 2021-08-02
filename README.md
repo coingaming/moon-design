@@ -22,15 +22,21 @@
    yarn build
    ```
 
-3. Run locally at [`:8000`](http://localhost:8000) with hot reloading:
+3. Compile and build storybook:
 
    ```sh
-   yarn start
+   yarn next build
+   ```
+
+4. Run locally at [`:3000`](http://localhost:3000):
+
+   ```sh
+   yarn next start
    ```
 
 ## Using Moon Design
 
-- `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000).
+- `yarn next start` - serve the docs locally at [`:3000`](http://localhost:3000).
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
@@ -47,7 +53,7 @@
 
 ## Resources
 
-- 📖 [Documentation](https://design.sportsbet.io)
+- 📖 [Documentation](https://moon.io)
 
 ## Contents
 
@@ -63,27 +69,26 @@
 
 Our [Lerna](https://github.com/lerna/lerna) monorepo publishes key layers as individual `@heathmont/moon-` packages:
 
-1. [`docs/`](#docs) - style guide and documentation
+1. [`next-docs/`](#docs) - style guide and documentation
 2. [`packages/`](#design-system) - Moon Design System
 
 Packages are developed inside their respective `src` folders, utilising [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the [TypeScript compiler](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#compiling-your-code) on build/publish.
 
 ### Docs
 
-`docs/`
+`next-docs/`
 
-Our project's style guide and documentation is built using [Gatsby](https://www.gatsbyjs.org/) inside its own individual package directory. See [usage](#docs-2) for more info.
+Our project's style guide and documentation is built using [Next.js](https://nextjs.org/) inside its own individual package directory.
 
 ### Design System
 
 `packages/`
 
 1. [**Assets**](packages/assets/README.md) - common rich media brand assets.
-2. [**Tokens**](packages/tokens/README.md) - raw data values that define visual language.
-3. [**Global**](packages/global/README.mdx) - a tiny, crucial set of global styles to provide a solid and consistent foundation.
-4. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
-5. [**Icons**](packages/components/README.mdx) - React components for each icon.
-6. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
+2. [**Themes**](packages/themes/README.mdx) - theming feature
+3. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
+4. [**Icons**](packages/components/README.mdx) - React components for each icon.
+5. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
 
 ### Setup
 
@@ -100,9 +105,27 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
    yarn
    ```
 
+4. Build packages:
+
+   ```sh
+   yarn build
+   ```
+
+5. Build storybook:
+
+   ```sh
+   yarn next build
+   ```
+
+6. Run storybook:
+
+   ```sh
+   yarn next start
+   ```
+
 ## Usage
 
-- `yarn start` - serve the docs locally at [`:8000`](http://localhost:8000) with hot reloading.
+- `yarn start` - serve the docs locally at [`:3000`](http://localhost:3000) with hot reloading.
 - `yarn commit` - CLI to write git commits in our [preferred format](CONTRIBUTING#commits).
 - `yarn build` - compiles a distributable `lib` folder for each package.
   - Additional [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) can be appended to the command.
@@ -116,13 +139,6 @@ Our project's style guide and documentation is built using [Gatsby](https://www.
 - `yarn publish:packages` - bumps package versions based on the [conventional commits specification](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits) and publishes.
   - Additional `@beta` suffix creates a tagged release for testing purposes.
 - `yarn update:packages` - a wizard to update Lerna package dependencies.
-
-### Docs
-
-- `yarn docs:build` - generates a static production build of the style guide in `.docs/public`.
-- `yarn docs:serve` - serves files created by the build script at [localhost:9000](http://localhost:9000/).
-
-[Static](https://www.gatsbyjs.org/docs/static-folder/) assets (such as fonts) are automatically copied over from [`packages/assets`](packages/assets/README.md) before build.
 
 ## Contributing
 

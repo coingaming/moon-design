@@ -93,7 +93,7 @@ const Row: React.FC<any> = ({
   variant,
   onRowClick,
   hasOnRowClickHandler,
-  evenRowBackgroundColor,
+  backgroundColor,
 }) => {
   const dropRef = React.useRef<HTMLDivElement>(null);
   const dragRef = React.useRef(null);
@@ -142,7 +142,7 @@ const Row: React.FC<any> = ({
       ref={dropRef}
       variant={variant}
       hasOnRowClickHandler={hasOnRowClickHandler}
-      evenRowBackgroundColor={evenRowBackgroundColor}
+      backgroundColor={backgroundColor}
       style={{ opacity: isDragging ? 0.5 : 1 }}
     >
       <DndTD ref={dragRef} dragIndicator>
@@ -173,8 +173,9 @@ const DraggableTable: React.FC<any> = ({
   withFooter = false,
   onRowClick,
   onDropRow,
-  evenRowBackgroundColor,
-  headerBackgroundColor,
+  defaultRowBackgroundColor = 'gohan.100',
+  evenRowBackgroundColor = 'gohan.80',
+  headerBackgroundColor = 'goku.100',
 }) => {
   const HTML5BE = HTML5Backend;
   const [records, setRecords] = React.useState(data);
@@ -244,7 +245,7 @@ const DraggableTable: React.FC<any> = ({
       >
         <Header>
           {headerGroups.map((headerGroup) => (
-            <HeaderTR {...headerGroup.getHeaderGroupProps()} variant={variant}>
+            <HeaderTR {...headerGroup.getHeaderGroupProps()}>
               <TH>
                 <IconDrag header="header" fontSize="1.2rem" />
               </TH>
@@ -283,6 +284,7 @@ const DraggableTable: React.FC<any> = ({
         <Body {...getTableBodyProps()}>
           {rows.map((row, index) => {
             prepareRow(row);
+            const backgroundColor = index % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor
             return (
               <Row
                 index={index}
@@ -293,7 +295,7 @@ const DraggableTable: React.FC<any> = ({
                 dropRow={dropRow}
                 onRowClick={onRowClick}
                 hasOnRowClickHandler={hasOnRowClickHandler}
-                evenRowBackgroundColor={evenRowBackgroundColor}
+                backgroundColor={backgroundColor}
               />
             );
           })}
@@ -304,7 +306,6 @@ const DraggableTable: React.FC<any> = ({
             {footerGroups.map((footerGroup) => (
               <HeaderTR
                 {...footerGroup.getFooterGroupProps()}
-                variant={variant}
               >
                 {footerGroup.headers.map((column) => (
                   <TH {...column.getFooterProps()}>

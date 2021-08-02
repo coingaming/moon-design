@@ -1,7 +1,7 @@
 aliases:
   default: &default
     docker:
-      - image: circleci/node:15
+      - image: circleci/node:16.5.0
 
   install_deps: &install_deps
     run:
@@ -135,7 +135,9 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
-      - setup_remote_docker
+      - setup_remote_docker:
+          version: 20.10.6
+          docker_layer_caching: true
       - *docker_build_docs_branch
       - *docker_login
       - *docker_push_docs_branch
@@ -143,7 +145,9 @@ jobs:
   tag_master_image:
     <<: *default
     steps:
-      - setup_remote_docker
+      - setup_remote_docker:
+          version: 20.10.6
+          docker_layer_caching: true
       - *docker_login
       - *docker_pull_master_image
       - *docker_tag_master_image

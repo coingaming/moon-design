@@ -3,13 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
+
+### Bug Fixes
+
+- add Carousel negative margin | BASE1-1671 ([#1273](https://github.com/coingaming/moon-design/issues/1273)) ([de71621](https://github.com/coingaming/moon-design/commit/de71621a48fdcb6a29b4b2bf67b3f4952df9e5dc))
+
+### Features
+
+- fix Badge, add props to Carousel | BASE1-1671 ([#1272](https://github.com/coingaming/moon-design/issues/1272)) ([e6cca21](https://github.com/coingaming/moon-design/commit/e6cca215ce39c32e05d510363e5c1a6ed00e6e4a))
+
+## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
+
+### Bug Fixes
+
+- Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
+
 ## [5.8.1](https://github.com/coingaming/moon-design/compare/v5.8.0...v5.8.1) (2021-07-27)
 
 **Note:** Version bump only for package @heathmont/moon-components
-
-
-
-
 
 # [5.8.0](https://github.com/coingaming/moon-design/compare/v5.7.0...v5.8.0) (2021-07-26)
 

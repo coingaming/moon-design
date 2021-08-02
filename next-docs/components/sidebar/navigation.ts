@@ -8,7 +8,7 @@ const navigation = [
   {
     name: 'Components',
     children: [
-      // { name: 'Accordion', href: '/components/accordion' },
+      { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
       { name: 'Badge', href: '/components/badge' },
       { name: 'Button', href: '/components/button' },
