@@ -116,6 +116,8 @@ export { default as Reel } from './reel/Reel';
 export * from './reel/Reel';
 export { default as Search } from './search/Search';
 export * from './search/Search';
+export { default as SearchPopup } from './searchPopup/SearchPopup';
+export * from './searchPopup/SearchPopup';
 export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as SingleItemSelect } from './singleItemSelect/SingleItemSelect';

@@ -1,0 +1,68 @@
+---
+name: SearchPopup
+menu: Components
+route: /components/searchPopup
+---
+
+# SearchPopup
+
+An elegant search component.
+
+## Query
+
+Use `query` prop to define query string
+
+`onChange` and `onSubmit` handlers are provided.
+
+<SearchPopup
+  placeholder="Search"
+  onChange={(e) => {
+    console.log(e.target.value);
+  }}
+  onSubmit={(e) => {
+    console.log('Submitted');
+  }}
+/>
+
+### Results
+
+Pass results to `results` prop.
+
+```jsx react-live
+<SearchPopup
+  placeholder="Search"
+  onChange={(e) => {
+    console.log(e.target.value);
+  }}
+  onSubmit={(e) => {
+    console.log('Submitted');
+  }}
+  results={[
+    <span
+      onClick={() => {
+        console.log('Click');
+      }}
+    >
+      First Game
+    </span>,
+    <span>Second Game</span>,
+    <span>Third Game</span>,
+  ]}
+/>
+```
+
+### Loading Message
+
+Pass `loadingMessage`.
+loadingMessage has a priority and even if you define results
+they won't be rendered.
+
+```jsx react-live
+<SearchPopup
+  placeholder="Search"
+  onChange={(e) => {
+    console.log(e.target.value);
+  }}
+  loadingMessage={<p>Loading...</p>}
+/>
+```
