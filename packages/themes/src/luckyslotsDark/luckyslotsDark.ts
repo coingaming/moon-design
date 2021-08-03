@@ -9,8 +9,8 @@ const color = {
     80: '#F32055',
   },
   hit: {
-    120: '#696987',
-    100: '#51516C',
+    120: '#51516C',
+    100: '#696987',
     80: '#7F7F9E',
   },
   goten: {
@@ -29,7 +29,7 @@ const color = {
     10: '#646D86',
   },
   beerus: {
-    100: '#353B50',
+    100: '##525260, 100%',
   },
   bulma: {
     100: '#FFFFFF',
@@ -52,6 +52,10 @@ const luckyslotsDark: Theme = {
     text: color.bulma[100],
     background: color.goku[100],
     ...supportColors,
+    frieza: {
+      100: '#262FB7',
+      10: '#5159C5',
+    },
     ...color,
   },
   colorScheme: 'dark',
