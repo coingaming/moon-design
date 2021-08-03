@@ -56,15 +56,15 @@ export default function Layout({ children }: any) {
       </SidebarTransition>
 
       {/* Static sidebar for desktop, hidden for mobile */}
-      <div className="hidden md:flex md:flex-shrink-0">
+      <div className="hidden lg:flex lg:flex-shrink-0">
         <div className="w-64 flex flex-col">
           <Sidebar />
         </div>
       </div>
 
-      <div className="min-h-screen flex-1 md:mx-32 md:mt-8 w-0 flex flex-col md:px-8 xl:px-0">
+      <div className="min-h-screen flex-1 lg:mx-32 lg:mt-8 w-0 flex flex-col lg:px-8 xl:px-0">
         {/* Opens sidebar on mobile */}
-        <div className="md:hidden flex flex-row align-center">
+        <div className="lg:hidden flex flex-row align-center">
           <button
             className="p-4 text-gray-500 focus:outline-none"
             onClick={openSidebar}
@@ -89,7 +89,7 @@ export default function Layout({ children }: any) {
 
           <Breadcrumbs />
         </div>
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Breadcrumbs />
         </div>
 
@@ -105,9 +105,9 @@ export default function Layout({ children }: any) {
               />
             }
           />
-          <div className="py-6 px-4 sm:px-6 md:px-0">{children}</div>
+          <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
 
-          <div className="mt-auto py-8 px-4 md:pt-24">
+          <div className="mt-auto py-8 px-4 lg:pt-24">
             <Footer />
           </div>
         </main>
