@@ -19,12 +19,6 @@ body {
   right: 0;
 }
 
-.future {
-  /* TODO rem based */
-  width: 1040px;
-  min-height: 248px;
-}
-
 .hover-border:hover {
   border-radius: 100px;
   /* transition: border-radius 150ms; */
@@ -56,18 +50,3 @@ body {
   height: 12px;
   cursor: pointer;
 }
-
-/*
-.reel::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  background-clip: content-box; /* Create 'padding' around the scrollbar. */
-/*
-  border-radius: 0.5rem;
-  border: 3px solid transparent; /* Create 'padding' around the scrollbar. */
-/*
-}
-*/
-
-/* .reel:hover::-webkit-scrollbar-thumb {
-  background-color: gray;
-} */
