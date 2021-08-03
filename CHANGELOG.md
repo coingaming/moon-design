@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/coingaming/moon-design/compare/v6.2.0...v6.3.0) (2021-08-03)
+
+
+### Features
+
+* luckyslotsDark & luckyslotsLight themes ([#1281](https://github.com/coingaming/moon-design/issues/1281)) ([8e05eab](https://github.com/coingaming/moon-design/commit/8e05eab4aba2b30839b5515255b2bf37df0fa743))
+
+
+
+
+
 # [6.2.0](https://github.com/coingaming/moon-design/compare/v6.1.0...v6.2.0) (2021-08-02)
 
 

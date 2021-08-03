@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/coingaming/moon-design/compare/v6.2.0...v6.3.0) (2021-08-03)
+
+**Note:** Version bump only for package @heathmont/moon-charts
+
+
+
+
+
 # [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
 
 **Note:** Version bump only for package @heathmont/moon-charts
