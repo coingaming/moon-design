@@ -118,6 +118,8 @@ export interface CheckboxProps {
   label?: JSX.Element | string;
   id?: string;
   variant?: Variants;
+  checked?: boolean;
+  onClick?: any;
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
