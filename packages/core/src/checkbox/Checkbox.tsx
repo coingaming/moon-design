@@ -112,7 +112,7 @@ export const CheckboxCaption = styled.span(({ theme }) => ({
   color: theme.color.trunks[100],
 }));
 
-interface CheckboxProps {
+export interface CheckboxProps {
   disabled?: boolean;
   ariaLabel?: string;
   label?: JSX.Element | string;
