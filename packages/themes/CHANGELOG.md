@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.1](https://github.com/coingaming/moon-design/compare/v6.3.0...v6.3.1) (2021-08-03)
+
+
+### Bug Fixes
+
+* update luckyslots colours ([facdbdb](https://github.com/coingaming/moon-design/commit/facdbdb9efc21980ba79b47c9591e17aa7f9307c))
+
+
+
+
+
 # [6.3.0](https://github.com/coingaming/moon-design/compare/v6.2.0...v6.3.0) (2021-08-03)
 
 
