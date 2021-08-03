@@ -9,33 +9,33 @@ const color = {
     80: '#F32055',
   },
   hit: {
-    120: '#696987',
-    100: '#51516C',
-    80: '#7F7F9E',
+    120: '#C5D0E7',
+    100: '#D6E0F4',
+    80: '#ECF2FF',
   },
   goten: {
     100: '#FFFFFF',
   },
   goku: {
-    100: '#232432',
-    80: '#303245',
-    40: '#3B3D51',
-    10: '#4A4C65',
+    100: '#F6F9FF',
+    80: '#E9EFFC',
+    40: '#DDE6F5',
+    10: '#D0DCF1',
   },
   gohan: {
-    100: '#3A3A50',
-    80: '#4A5167',
-    40: '#555E75',
-    10: '#646D86',
+    100: '#FFFFFF',
+    80: '#F7F8FB',
+    40: '#F1F5FC',
+    10: '#E3EAF6',
   },
   beerus: {
-    100: '#353B50',
+    100: '#E4E9F4',
   },
   bulma: {
-    100: '#FFFFFF',
+    100: '#111042',
   },
   trunks: {
-    100: '#DBE2F5',
+    100: '#8693A2',
   },
 };
 
@@ -52,6 +52,10 @@ const luckyslotsDark: Theme = {
     text: color.bulma[100],
     background: color.goku[100],
     ...supportColors,
+    frieza: {
+      100: '#262FB7',
+      10: '#5159C5',
+    },
     ...color,
   },
   colorScheme: 'light',
