@@ -110,7 +110,7 @@ interface CarouselProps {
   step?: number;
   scrollTo?: number;
   space?: SpaceProps | CSSObject['margin'];
-  horizontalEdgeGap?: number;
+  horizontalEdgeGap?: number | boolean;
   hideScrollbar?: boolean;
 }
 
