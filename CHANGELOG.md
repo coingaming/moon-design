@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.2](https://github.com/coingaming/moon-design/compare/v6.3.1...v6.3.2) (2021-08-03)
+
+
+### Bug Fixes
+
+* responsive Future block ([705e540](https://github.com/coingaming/moon-design/commit/705e5401e4f750edf46b6ed2cb2b0038214cb50b))
+* Responsive sidebar ([e916c51](https://github.com/coingaming/moon-design/commit/e916c513bcbfc5f23f6585b1c2483b75948193d8))
+
+
+
+
+
 ## [6.3.1](https://github.com/coingaming/moon-design/compare/v6.3.0...v6.3.1) (2021-08-03)
 
 
