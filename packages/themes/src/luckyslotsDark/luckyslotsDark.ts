@@ -2,11 +2,6 @@ import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 
-/*
-  This theme is a legacy and would be removed soon
-  Use luckySlotsDark and luckslotsLight
-*/
-
 const color = {
   piccolo: {
     120: '#E00038',
@@ -14,24 +9,24 @@ const color = {
     80: '#F32055',
   },
   hit: {
-    120: '#4345B5',
-    100: '#5456E2',
-    80: '#7678E8',
+    120: '#696987',
+    100: '#51516C',
+    80: '#7F7F9E',
   },
   goten: {
     100: '#FFFFFF',
   },
   goku: {
-    100: '#3133C4',
-    80: '#2528B6',
-    40: '#111397',
-    10: '#020473',
+    100: '#232432',
+    80: '#303245',
+    40: '#3B3D51',
+    10: '#4A4C65',
   },
   gohan: {
-    100: '#2A0D68',
-    80: '#351579',
-    40: '#4D2B97',
-    10: '#6745B0',
+    100: '#3A3A50',
+    80: '#4A5167',
+    40: '#555E75',
+    10: '#646D86',
   },
   beerus: {
     100: '#353B50',
@@ -44,7 +39,7 @@ const color = {
   },
 };
 
-const luckyslots: Theme = {
+const luckyslotsDark: Theme = {
   ...sharedTokens,
   brand: 'LuckySlots',
   fontFace: avertaStd.fontFace,
@@ -62,4 +57,4 @@ const luckyslots: Theme = {
   colorScheme: 'dark',
 };
 
-export default luckyslots;
+export default luckyslotsDark;
