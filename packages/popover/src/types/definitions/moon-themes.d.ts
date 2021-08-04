@@ -308,7 +308,8 @@ declare module '@heathmont/moon-themes' {
       | 'Moneyball'
       | 'MoonDesign'
       | 'ShangriLa.io'
-      | 'Empire.io';
+      | 'Empire.io'
+      | 'Tajcasino';
 
     export type ColorScheme = 'light' | 'dark';
 
