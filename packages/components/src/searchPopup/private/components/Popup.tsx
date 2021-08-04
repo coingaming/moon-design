@@ -33,7 +33,7 @@ export type PopupProps = {
     closeButtonText?: string,
     closePopup: () => void,
     isOpen: boolean,
-    title?: string | JSX.Element,
+    title?: JSX.Element,
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
 const Popup: React.FC<PopupProps> = ({ children, closeButtonText = "Close", closePopup, isOpen, title }) => {

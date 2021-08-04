@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 
 import { SearchPopup } from '@heathmont/moon-components';
@@ -9,10 +8,10 @@ const PreviewSearchPopup = () => {
       <SearchPopup
         placeholder="Search results"
         closeButtonText="Close"
-        onChange={(e) => {
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
-        onSubmit={(e) => {
+        onSubmit={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log('Submitted');
         }}
         results={[
