@@ -23,13 +23,12 @@ export const SearchResults: React.FC<SearchResultsProps> = ({
         </ResultsItem>
       )}
 
-      {JSON.stringify(results)}
+      <p>Here are the results</p>
 
       {results
         && results.map((result, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <ResultsItem key={index}>
-
             <ResultsItemText>{index}</ResultsItemText>
             <ResultsLink>{result}</ResultsLink>
           </ResultsItem>

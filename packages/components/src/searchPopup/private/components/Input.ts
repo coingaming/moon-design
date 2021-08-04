@@ -11,7 +11,6 @@ const searchInputActive = ':focus:not(:placeholder-shown)';
 
 export const SearchInputIcon = styled(IconSearch as any)(({ theme }) => ({
   zIndex: zIndex.searchIcon,
-  color: theme.color.trunks[100],
   position: 'absolute',
   fontSize: rem(theme.space.default),
   top: '50%',
@@ -27,7 +26,8 @@ export const SearchInput = styled.input(({ theme }) => {
     fontSize: rem(fontSize),
     width: '100%',
     lineHeight: rem(height, fontSize),
-    border: 0,
+    border: `1px solid transparent`,
+    outline: 'none',
     position: 'relative',
     paddingTop: 0,
     paddingRight: rem(paddingX, fontSize),
@@ -38,7 +38,7 @@ export const SearchInput = styled.input(({ theme }) => {
     ),
     textOverflow: 'ellipsis',
     overflow: 'hidden',
-    borderRadius: theme.radius.largest,
+    borderRadius: theme.radius.small,
     backgroundColor: theme.color.gohan[100],
     color: theme.color.trunks[100],
     zIndex: zIndex.searchInput,
@@ -53,9 +53,10 @@ export const SearchInput = styled.input(({ theme }) => {
         color: theme.color.piccolo[100],
       },
     },
-    [`&${searchInputActive}`]: {
+    [`&${searchInputActive}, .popup-open &`]: {
       zIndex: zIndex.searchInputActive,
       maxWidth: '100%',
+      borderColor: 'green',
     },
   };
 });

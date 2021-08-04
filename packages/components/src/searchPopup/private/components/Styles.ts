@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
+import { mq, rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
 import { inputConfig } from './settings';
@@ -29,5 +29,8 @@ export const ModalClose = styled(Button)(({ theme }) => {
         marginLeft: rem(theme.space.small, fontSize),
         display: 'flex',
         flex: 0,
+        [mq(theme.breakpoint.medium, 'min-width')]: {
+            display: 'none',
+        },
     };
 });

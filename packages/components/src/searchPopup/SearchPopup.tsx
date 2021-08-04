@@ -11,11 +11,11 @@ export type SearchPopupProps = {
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
-  results?: [JSX.Element];
+  results?: [JSX.Element] | undefined;
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
 const SearchPopup: React.FC<SearchPopupProps> = ({
-  closeButtonText = "Sulge",
+  closeButtonText = "Clear",
   loadingMessage,
   onChange,
   onSubmit,
