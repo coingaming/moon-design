@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.4.0](https://github.com/coingaming/moon-design/compare/v6.3.3...v6.4.0) (2021-08-04)
+
+
+### Features
+
+* add tajCasino themes ([#1289](https://github.com/coingaming/moon-design/issues/1289)) ([01131e6](https://github.com/coingaming/moon-design/commit/01131e67a20482b05b3fcf80b755ba1e4ef27de6))
+
+
+
+
+
 ## [6.3.3](https://github.com/coingaming/moon-design/compare/v6.3.2...v6.3.3) (2021-08-03)
 
 **Note:** Version bump only for package @heathmont/moon-components
