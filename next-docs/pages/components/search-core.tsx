@@ -10,30 +10,70 @@ const PreviewSearch = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
-        size="small"
+        suurus="medium"
         onSubmit={(e: React.FormEvent) => {
           console.log('Submitted', e);
         }}
-        results={[
-          {
-            title: <span>Games</span>,
-            items: [
-              <span
-                onClick={() => {
-                  console.log('Click');
-                }}
-              >
-                First Game
-              </span>
-            ],
-          },
-          {
-            title: <span>Providers</span>,
-            items: [
-              <span>Provider One</span>
-            ],
-          },
-        ]}
+        searchResults={{
+          links: [
+            {
+              title: <span>Games</span>,
+              items: [
+                <span
+                  onClick={() => {
+                    console.log('Click');
+                  }}
+                >
+                  First Game
+                </span>,
+                <span>Provider One</span>
+              ]
+            },
+            {
+              title: <span>Links 2</span>,
+              items: [
+                <span
+                  onClick={() => {
+                    console.log('Click');
+                  }}
+                >
+                  First Game
+                </span>,
+                <span>Provider One</span>
+              ]
+            },
+          ],
+          categories: [
+            {
+              title: <span>Games</span>,
+              items: [
+                <span
+                  onClick={() => {
+                    console.log('Click');
+                  }}
+                >
+                  First Game
+                </span>,
+                <span>Provider One</span>
+              ]
+            },
+          ],
+          items: [
+            {
+              title: <span>Games</span>,
+              items: [
+                <span
+                  onClick={() => {
+                    console.log('Click');
+                  }}
+                >
+                  First Game
+                </span>,
+                <span>Provider One</span>
+              ]
+            },
+          ]
+        }}
       />
     </div>
   );

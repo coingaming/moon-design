@@ -26,7 +26,7 @@ Use `query` prop to define query string
 
 ### Results
 
-Pass results to `results` prop.
+Pass searchResults to `searchResults` prop.
 
 ```jsx react-live
 <Search
@@ -37,7 +37,7 @@ Pass results to `results` prop.
   onSubmit={(e) => {
     console.log('Submitted');
   }}
-  results={[
+  searchResults={[
     {
       title: <span>Games</span>,
       items: [
@@ -61,7 +61,7 @@ Pass results to `results` prop.
 ### Loading Message
 
 Pass `loadingMessage`.
-loadingMessage has a priority and even if you define results
+loadingMessage has a priority and even if you define searchResults
 they won't be rendered.
 
 ```jsx react-live

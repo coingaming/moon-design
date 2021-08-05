@@ -2,23 +2,18 @@ import React, { useRef, useState } from 'react';
 
 import { SearchForm } from './private/components/Form';
 import { SearchInput, SearchInputIcon, SearchClearIcon, SearchBox, SearchCloseButton } from './private/components/Input';
-import { SearchResults } from './private/components/SearchResults';
-
-interface Result {
-  title: JSX.Element;
-  items?: [JSX.Element];
-}
+import { SearchResults, SearchResultTypes } from './private/components/SearchResults';
 
 export type SearchProps = {
   buttonText?: string,
   loadingMessage?: JSX.Element;
-  onChange?: (e: React.FormEvent<HTMLFormElement>) => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
-  results?: [Result];
+  searchResults?: SearchResultTypes;
   showButton?: boolean,
-  size?: 'small' | 'medium',
+  suurus?: 'small' | 'medium',
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
 const Search: React.FC<SearchProps> = ({
@@ -28,9 +23,9 @@ const Search: React.FC<SearchProps> = ({
   onSubmit,
   placeholder,
   query = '',
-  results,
+  searchResults,
   showButton = true,
-  size,
+  suurus,
   ...props
 }) => {
   const [searchStr, setSearchStr] = useState(query);
@@ -47,7 +42,7 @@ const Search: React.FC<SearchProps> = ({
 
   return (
     <SearchForm onSubmit={onSubmit}>
-      <SearchBox size={size}>
+      <SearchBox suurus={suurus}>
         <SearchInput
           autoComplete="off"
           onChange={searchChange}
@@ -60,8 +55,8 @@ const Search: React.FC<SearchProps> = ({
         />
         <SearchInputIcon />
         {searchStr && <button type="reset" onClick={clearSearch}><SearchClearIcon /></button>}
-        {(results || loadingMessage) && (
-          <SearchResults loadingMessage={loadingMessage} results={results} />
+        {(searchResults || loadingMessage) && (
+          <SearchResults loadingMessage={loadingMessage} searchResults={searchResults} />
         )}
         <input type="submit" hidden />
       </SearchBox>

@@ -97,14 +97,24 @@ export const SearchInput = styled.input(({ theme }) => {
 
 export const SearchInputActive = `${SearchInput}${searchInputActive}`;
 
-export const SearchBox = styled.div(({ size, theme }) => ({
-  display: 'flex',
-  position: 'relative',
-  height: size === 'small' ? rem(40) : rem(48),
-  fontSize: rem(theme.space.default),
-  overflow: 'visible',
-  width: '100%',
-}));
+export type SearchBoxProps = {
+  suurus?: 'small' | 'medium';
+};
+
+export const SearchBox = styled.span<SearchBoxProps>(
+  ({ theme }) => ({
+    display: 'flex',
+    position: 'relative',
+    fontSize: rem(theme.space.default),
+    overflow: 'visible',
+    width: '100%',
+  }),
+  ({ suurus }) => ({
+    height: suurus === 'small' ? rem(40) : rem(48),
+  }),
+);
+
+
 
 export const SearchCloseButton = styled(Button)(({ theme }) => {
   const { fontSize } = theme.base;

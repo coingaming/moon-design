@@ -64,7 +64,7 @@ export const ResultsItem = styled.li(({ theme: { color } }) => ({
 
 /**
  * Results Group
- * Nested list of grouped search results, e.g. sports events or help articles.
+ * Nested list of grouped search searchResults, e.g. sports events or help articles.
  */
 export const ResultsGroup = styled.ul({
   margin: 0,
@@ -73,7 +73,7 @@ export const ResultsGroup = styled.ul({
 
 /**
  * resultsContent
- * Internal layout of result list items/links.
+ * Internal layout of searchResults list items/links.
  */
 export const resultsContent = ({ space }: Theme): CSSObject => ({
   display: 'block',
@@ -93,7 +93,7 @@ export const ResultsItemText = styled.span(({ theme }) =>
 
 /**
  * ResultsLink
- * Each result items interactive element wrapper.
+ * Each searchResults items interactive element wrapper.
  */
 export const ResultsLink = styled.div(({ theme }) => [
   resultsContent(theme),
