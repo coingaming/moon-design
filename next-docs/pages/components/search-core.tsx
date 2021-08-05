@@ -4,12 +4,13 @@ import { Search } from '@heathmont/moon-core';
 
 const PreviewSearch = () => {
   return (
-    <div className="h-96">
+    <div className="h-96 bg-white p-4">
       <Search
         placeholder="Core Search"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
+        size="small"
         onSubmit={(e: React.FormEvent) => {
           console.log('Submitted', e);
         }}
@@ -40,7 +41,7 @@ const PreviewSearch = () => {
 
 const PreviewSearchLoading = () => {
   return (
-    <div className="h-40">
+    <div className="h-40 bg-white p-4">
       <Search
         placeholder="Search"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {

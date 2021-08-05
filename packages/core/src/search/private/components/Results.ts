@@ -1,5 +1,5 @@
 import styled, { CSSObject } from 'styled-components';
-import { em } from '@heathmont/moon-utils';
+import { em, rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
 
 import { inputConfig, zIndex } from './settings';
@@ -31,13 +31,10 @@ export const Results = styled.ul(
     position: 'absolute',
     margin: 0,
     listStyleType: 'none',
-    top: 0,
+    top: rem(48 + 20),
     left: 0,
     zIndex: zIndex.searchResults,
-    width: '100%',
-    padding: 0,
-    paddingTop: em(inputConfig.height + space.small),
-    paddingBottom: em(space.small),
+    padding: `${rem(8)} ${rem(4)} ${rem(4)}`,
     '&::before': {
       borderRadius: em(radius.default),
       borderWidth,

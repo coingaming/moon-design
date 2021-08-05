@@ -11,7 +11,7 @@ import { zIndex } from './settings';
  * We aren't using Design System form because we use focus-within logic here
  */
 export const SearchForm = styled.form(({ theme }) => ({
-  fontSize: rem(theme.space.default),
+  display: 'flex',
   position: 'relative',
   overflow: 'visible',
   width: '100%',
