@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Search } from '@heathmont/moon-core';
+import { IconProfile } from '@heathmont/moon-assets';
 
 const PreviewSearch = () => {
   return (
@@ -10,70 +11,43 @@ const PreviewSearch = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
-        suurus="medium"
+        size="medium"
         onSubmit={(e: React.FormEvent) => {
           console.log('Submitted', e);
         }}
-        searchResults={{
-          links: [
-            {
-              title: <span>Games</span>,
-              items: [
-                <span
-                  onClick={() => {
-                    console.log('Click');
-                  }}
-                >
-                  First Game
-                </span>,
-                <span>Provider One</span>
-              ]
-            },
-            {
-              title: <span>Links 2</span>,
-              items: [
-                <span
-                  onClick={() => {
-                    console.log('Click');
-                  }}
-                >
-                  First Game
-                </span>,
-                <span>Provider One</span>
-              ]
-            },
-          ],
-          categories: [
-            {
-              title: <span>Games</span>,
-              items: [
-                <span
-                  onClick={() => {
-                    console.log('Click');
-                  }}
-                >
-                  First Game
-                </span>,
-                <span>Provider One</span>
-              ]
-            },
-          ],
-          items: [
-            {
-              title: <span>Games</span>,
-              items: [
-                <span
-                  onClick={() => {
-                    console.log('Click');
-                  }}
-                >
-                  First Game
-                </span>,
-                <span>Provider One</span>
-              ]
-            },
-          ]
-        }}
+        results={
+          {
+            title: <span>Recent searches</span>,
+            items: [
+              <span
+                onClick={() => {
+                  console.log('Click');
+                }}
+                style={{ display: 'flex', gap: '10px' }}
+              >
+                <IconProfile /> First Game
+              </span>,
+              <span style={{ display: 'flex', gap: '10px' }}><IconProfile /> Second Game</span>,
+              <span style={{ display: 'flex', gap: '10px' }}><IconProfile /> Third Game</span>,
+            ],
+          }
+        }
+        tabs={
+          {
+            title: <span>Tabs</span>,
+            items: [
+              <button
+                onClick={() => {
+                  console.log('Click');
+                }}
+              >
+                First Game
+              </button>,
+              <button>Second Game</button>,
+              <button>Third Game</button>,
+            ],
+          }
+        }
       />
     </div>
   );

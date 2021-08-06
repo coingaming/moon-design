@@ -1,20 +1,22 @@
 import React, { useRef, useState } from 'react';
 
 import { SearchForm } from './private/components/Form';
-import { SearchInput, SearchInputIcon, SearchClearIcon, SearchBox, SearchCloseButton } from './private/components/Input';
-import { SearchResults, SearchResultTypes } from './private/components/SearchResults';
+import { SearchInput, SearchInputIcon, SearchClearIcon, SearchBox } from './private/components/Input';
+import { SearchResults, Result } from './private/components/SearchResults';
+import Popup from './private/components/Popup';
 
-export type SearchProps = {
-  buttonText?: string,
+interface SearchProps {
+  buttonText?: string;
+  results?: Result;
   loadingMessage?: JSX.Element;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
-  searchResults?: SearchResultTypes;
-  showButton?: boolean,
-  suurus?: 'small' | 'medium',
-} & React.InputHTMLAttributes<HTMLInputElement>;
+  showButton?: boolean;
+  size?: 'small' | 'medium';
+  tabs?: Result;
+};
 
 const Search: React.FC<SearchProps> = ({
   buttonText = 'Clear',
@@ -23,11 +25,13 @@ const Search: React.FC<SearchProps> = ({
   onSubmit,
   placeholder,
   query = '',
-  searchResults,
+  results,
   showButton = true,
-  suurus,
+  size,
+  tabs,
   ...props
 }) => {
+  const [popupOpen, setPopupOpen] = useState(false);
   const [searchStr, setSearchStr] = useState(query);
   const search = useRef(null);
 
@@ -37,31 +41,50 @@ const Search: React.FC<SearchProps> = ({
   }
 
   const clearSearch = () => {
+    console.log('clearSearch');
     setSearchStr('');
   }
 
+  const closePopup = () => {
+    console.log('close popup');
+    setPopupOpen(false);
+  }
+
+  const openPopup = () => {
+    setPopupOpen(true)
+  }
+
   return (
-    <SearchForm onSubmit={onSubmit}>
-      <SearchBox suurus={suurus}>
-        <SearchInput
-          autoComplete="off"
-          onChange={searchChange}
-          placeholder={placeholder}
-          required
-          type="text"
-          value={searchStr}
-          ref={search}
-          {...props}
-        />
-        <SearchInputIcon />
-        {searchStr && <button type="reset" onClick={clearSearch}><SearchClearIcon /></button>}
-        {(searchResults || loadingMessage) && (
-          <SearchResults loadingMessage={loadingMessage} searchResults={searchResults} />
+    <Popup
+      isOpen={popupOpen}
+      closePopup={closePopup}
+      title={
+        <SearchForm onSubmit={onSubmit}>
+          <SearchBox size={size}>
+            <SearchInput
+              autoComplete="off"
+              onChange={searchChange}
+              onFocus={openPopup}
+              placeholder={placeholder}
+              ref={search}
+              required
+              type="text"
+              value={searchStr}
+              {...props}
+            />
+            <SearchInputIcon />
+            {searchStr && <button onClick={clearSearch}><SearchClearIcon /></button>}
+            <input type="submit" hidden />
+          </SearchBox>
+        </SearchForm>
+      }
+    >
+      <>
+        {popupOpen && (results || loadingMessage || tabs) && (
+          <SearchResults {...{ results, loadingMessage, size, tabs }} />
         )}
-        <input type="submit" hidden />
-      </SearchBox>
-      {showButton && <SearchCloseButton>{buttonText}</SearchCloseButton>}
-    </SearchForm>
+      </>
+    </Popup>
   );
 }
 

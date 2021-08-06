@@ -1,23 +1,18 @@
+import React from 'react';
 import styled from 'styled-components';
-import { mq, rem } from '@heathmont/moon-utils';
+
 import { Button } from '@heathmont/moon-components';
+import { mq, rem } from '@heathmont/moon-utils';
 
 import IconClose from '../../../private/icons/IconErrorCircle';
 import IconMenu from '../../../private/icons/IconMenu';
 import IconSearch from '../../../private/icons/IconSearch';
-
-import { inputConfig, zIndex } from './settings';
+import { COLOR_ACTIVE, BG_SEARCH_INPUT, COLOR_PLACEHOLDER, COLOR_TEXT, COLOR_BORDER_HOVER, inputConfig, zIndex } from './settings';
 
 const { height, paddingX, transition } = inputConfig;
 
 const searchInputActive = ':focus:not(:placeholder-shown)';
 const searchInputActiveWithin = ':focus-within:not(:placeholder-shown)';
-
-const COLOR_ACTIVE = '#4E46B4';
-const BG_SEARCH_INPUT = '#F5F5F5';
-const COLOR_PLACEHOLDER = '#999CA0';
-const COLOR_TEXT = '#000000';
-const COLOR_BORDER_HOVER = '#EBEBEB';
 
 export const SearchClearIcon = styled(IconClose as any)(({ theme }) => ({
   zIndex: zIndex.searchIcon,
@@ -52,7 +47,7 @@ export const SearchMenuIcon = styled(IconMenu as any)(({ theme }) => ({
   transform: 'translateY(-50%)',
 }));
 
-export const SearchInput = styled.input(({ theme }) => {
+export const SearchInput = styled.input<React.InputHTMLAttributes<HTMLInputElement>>(({ theme }) => {
   const fontSize = '14px';
 
   return {
@@ -98,7 +93,7 @@ export const SearchInput = styled.input(({ theme }) => {
 export const SearchInputActive = `${SearchInput}${searchInputActive}`;
 
 export type SearchBoxProps = {
-  suurus?: 'small' | 'medium';
+  size?: 'small' | 'medium';
 };
 
 export const SearchBox = styled.span<SearchBoxProps>(
@@ -109,8 +104,8 @@ export const SearchBox = styled.span<SearchBoxProps>(
     overflow: 'visible',
     width: '100%',
   }),
-  ({ suurus }) => ({
-    height: suurus === 'small' ? rem(40) : rem(48),
+  ({ size }) => ({
+    height: size === 'small' ? rem(40) : rem(48),
   }),
 );
 
