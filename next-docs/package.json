@@ -1,6 +1,6 @@
 {
   "name": "next-docs",
-  "version": "6.4.1",
+  "version": "6.4.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
