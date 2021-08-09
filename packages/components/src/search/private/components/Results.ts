@@ -19,7 +19,7 @@ export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
 /**
  * Search Results List
  */
- export const Results = styled.ul(
+export const Results = styled.ul(
   ({ theme }) => resultsInactive(theme),
   ({
     theme: {
