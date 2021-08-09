@@ -48,9 +48,6 @@ const IconHub88 =
   styled(Svg) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
-    {
-      verticalAlign: 'middle',
-    },
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
       padding: backgroundColor ? '0.25em' : 0,
