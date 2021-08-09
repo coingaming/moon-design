@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.4.3](https://github.com/coingaming/moon-design/compare/v6.4.2...v6.4.3) (2021-08-09)
+
+
+### Bug Fixes
+
+* getting-started.tsx peer deps ([#1296](https://github.com/coingaming/moon-design/issues/1296)) ([46e0afa](https://github.com/coingaming/moon-design/commit/46e0afaf9bc84a5a789878e3eca5bac014334b02))
+
+
+
+
+
 ## [6.4.2](https://github.com/coingaming/moon-design/compare/v6.4.1...v6.4.2) (2021-08-09)
 
 
