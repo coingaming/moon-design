@@ -3,166 +3,124 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.4.1](https://github.com/coingaming/moon-design/compare/v6.4.0...v6.4.1) (2021-08-05)
+
+### Bug Fixes
+
+- update Livecasino themes [B1M2-3095] ([#1291](https://github.com/coingaming/moon-design/issues/1291)) ([ec87e27](https://github.com/coingaming/moon-design/commit/ec87e27007bbc777ee5c6fb74234d0eaa3f9f5c3))
+
+# [6.4.0](https://github.com/coingaming/moon-design/compare/v6.3.3...v6.4.0) (2021-08-04)
+
+### Features
+
+- add tajCasino themes ([#1289](https://github.com/coingaming/moon-design/issues/1289)) ([01131e6](https://github.com/coingaming/moon-design/commit/01131e67a20482b05b3fcf80b755ba1e4ef27de6))
+
 ## [6.3.3](https://github.com/coingaming/moon-design/compare/v6.3.2...v6.3.3) (2021-08-03)
 
 **Note:** Version bump only for package moon-design
 
-
-
-
-
 ## [6.3.2](https://github.com/coingaming/moon-design/compare/v6.3.1...v6.3.2) (2021-08-03)
-
 
 ### Bug Fixes
 
-* responsive Future block ([705e540](https://github.com/coingaming/moon-design/commit/705e5401e4f750edf46b6ed2cb2b0038214cb50b))
-* Responsive sidebar ([e916c51](https://github.com/coingaming/moon-design/commit/e916c513bcbfc5f23f6585b1c2483b75948193d8))
-
-
-
-
+- responsive Future block ([705e540](https://github.com/coingaming/moon-design/commit/705e5401e4f750edf46b6ed2cb2b0038214cb50b))
+- Responsive sidebar ([e916c51](https://github.com/coingaming/moon-design/commit/e916c513bcbfc5f23f6585b1c2483b75948193d8))
 
 ## [6.3.1](https://github.com/coingaming/moon-design/compare/v6.3.0...v6.3.1) (2021-08-03)
 
-
 ### Bug Fixes
 
-* update luckyslots colours ([facdbdb](https://github.com/coingaming/moon-design/commit/facdbdb9efc21980ba79b47c9591e17aa7f9307c))
-
-
-
-
+- update luckyslots colours ([facdbdb](https://github.com/coingaming/moon-design/commit/facdbdb9efc21980ba79b47c9591e17aa7f9307c))
 
 # [6.3.0](https://github.com/coingaming/moon-design/compare/v6.2.0...v6.3.0) (2021-08-03)
 
-
 ### Features
 
-* luckyslotsDark & luckyslotsLight themes ([#1281](https://github.com/coingaming/moon-design/issues/1281)) ([8e05eab](https://github.com/coingaming/moon-design/commit/8e05eab4aba2b30839b5515255b2bf37df0fa743))
-
-
-
-
+- luckyslotsDark & luckyslotsLight themes ([#1281](https://github.com/coingaming/moon-design/issues/1281)) ([8e05eab](https://github.com/coingaming/moon-design/commit/8e05eab4aba2b30839b5515255b2bf37df0fa743))
 
 # [6.2.0](https://github.com/coingaming/moon-design/compare/v6.1.0...v6.2.0) (2021-08-02)
 
-
 ### Features
 
-* trigger build ([dd788ad](https://github.com/coingaming/moon-design/commit/dd788ade3afa1b9a6b39e00a800b9379cdc75db9))
-
-
-
-
+- trigger build ([dd788ad](https://github.com/coingaming/moon-design/commit/dd788ade3afa1b9a6b39e00a800b9379cdc75db9))
 
 # [6.1.0](https://github.com/coingaming/moon-design/compare/v6.0.0...v6.1.0) (2021-07-30)
 
-
 ### Bug Fixes
 
-* build docker with cache ([f7a5c58](https://github.com/coingaming/moon-design/commit/f7a5c58b036a818c1dc85736f3522ab495fd5d03))
-* Dockerfile ([3102ccc](https://github.com/coingaming/moon-design/commit/3102cccfc4adf749dc8a001aef292ec242af3d2b))
-* next deps ([7bc73b2](https://github.com/coingaming/moon-design/commit/7bc73b2a4710e421e23fddc56e98dd8d69f69419))
-* start on port 80 ([2050673](https://github.com/coingaming/moon-design/commit/2050673970fd28bd009740e2a6252e9375ca25de))
-* yarn.lock update ([60f6183](https://github.com/coingaming/moon-design/commit/60f6183459a8a100306c0a761c060dad6cb7fc54))
-
+- build docker with cache ([f7a5c58](https://github.com/coingaming/moon-design/commit/f7a5c58b036a818c1dc85736f3522ab495fd5d03))
+- Dockerfile ([3102ccc](https://github.com/coingaming/moon-design/commit/3102cccfc4adf749dc8a001aef292ec242af3d2b))
+- next deps ([7bc73b2](https://github.com/coingaming/moon-design/commit/7bc73b2a4710e421e23fddc56e98dd8d69f69419))
+- start on port 80 ([2050673](https://github.com/coingaming/moon-design/commit/2050673970fd28bd009740e2a6252e9375ca25de))
+- yarn.lock update ([60f6183](https://github.com/coingaming/moon-design/commit/60f6183459a8a100306c0a761c060dad6cb7fc54))
 
 ### Features
 
-* update deps ([8934c4c](https://github.com/coingaming/moon-design/commit/8934c4c9629054a42dbb02eae2e48dc634249d3e))
-* update node to 16.6.0 and yarn ([8d940bc](https://github.com/coingaming/moon-design/commit/8d940bc0f907ebda0bf92eb254d92c03f3bc03fd))
-* update nuke ([a19afb8](https://github.com/coingaming/moon-design/commit/a19afb87224e881eec7e9928861085c93a622a54))
-* use circleci/node:16.5.0 ([8fdc770](https://github.com/coingaming/moon-design/commit/8fdc770698ef9175843dc46d21f547b0065eced9))
-
-
-
-
+- update deps ([8934c4c](https://github.com/coingaming/moon-design/commit/8934c4c9629054a42dbb02eae2e48dc634249d3e))
+- update node to 16.6.0 and yarn ([8d940bc](https://github.com/coingaming/moon-design/commit/8d940bc0f907ebda0bf92eb254d92c03f3bc03fd))
+- update nuke ([a19afb8](https://github.com/coingaming/moon-design/commit/a19afb87224e881eec7e9928861085c93a622a54))
+- use circleci/node:16.5.0 ([8fdc770](https://github.com/coingaming/moon-design/commit/8fdc770698ef9175843dc46d21f547b0065eced9))
 
 # [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
 
-
 ### Bug Fixes
 
-* add Carousel negative margin | BASE1-1671 ([#1273](https://github.com/coingaming/moon-design/issues/1273)) ([de71621](https://github.com/coingaming/moon-design/commit/de71621a48fdcb6a29b4b2bf67b3f4952df9e5dc))
-
+- add Carousel negative margin | BASE1-1671 ([#1273](https://github.com/coingaming/moon-design/issues/1273)) ([de71621](https://github.com/coingaming/moon-design/commit/de71621a48fdcb6a29b4b2bf67b3f4952df9e5dc))
 
 ### Features
 
-* fix Badge, add props to Carousel | BASE1-1671 ([#1272](https://github.com/coingaming/moon-design/issues/1272)) ([e6cca21](https://github.com/coingaming/moon-design/commit/e6cca215ce39c32e05d510363e5c1a6ed00e6e4a))
-* remove docs source ([#1271](https://github.com/coingaming/moon-design/issues/1271)) ([4cf4005](https://github.com/coingaming/moon-design/commit/4cf4005a114c34a7726f7e6845e551a573694712))
+- fix Badge, add props to Carousel | BASE1-1671 ([#1272](https://github.com/coingaming/moon-design/issues/1272)) ([e6cca21](https://github.com/coingaming/moon-design/commit/e6cca215ce39c32e05d510363e5c1a6ed00e6e4a))
+- remove docs source ([#1271](https://github.com/coingaming/moon-design/issues/1271)) ([4cf4005](https://github.com/coingaming/moon-design/commit/4cf4005a114c34a7726f7e6845e551a573694712))
 
-
-* Feature/table refactoring (#1269) ([20c746b](https://github.com/coingaming/moon-design/commit/20c746bbf13d8b6654bb1a3831396e2ec1adbeec)), closes [#1269](https://github.com/coingaming/moon-design/issues/1269)
-
+- Feature/table refactoring (#1269) ([20c746b](https://github.com/coingaming/moon-design/commit/20c746bbf13d8b6654bb1a3831396e2ec1adbeec)), closes [#1269](https://github.com/coingaming/moon-design/issues/1269)
 
 ### BREAKING CHANGES
 
-* Changing props api
+- Changing props api
 
-* docs: update table documentation
+- docs: update table documentation
 
-* fix: update Draggable table
-
-
-
-
+- fix: update Draggable table
 
 ## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
 
-
 ### Bug Fixes
 
-* cache ([96efd03](https://github.com/coingaming/moon-design/commit/96efd03ecb3724f1c83ab935719f4f19a76e7247))
-* ci ([54ce4e0](https://github.com/coingaming/moon-design/commit/54ce4e0ef5bbb2ffd7dd69a013c0b2abbccce48d))
-* ci ([a7f2b1c](https://github.com/coingaming/moon-design/commit/a7f2b1cfdb80dae9f52f271e14bd395323006471))
-* ci ([5161c26](https://github.com/coingaming/moon-design/commit/5161c2643be554daed0d3a40113ccdc324be87c9))
-* ci docker_layer_caching ([08363a8](https://github.com/coingaming/moon-design/commit/08363a83e0a995182541416a909f7f9432350e69))
-* deps ([371d256](https://github.com/coingaming/moon-design/commit/371d25651e54bf1d634bc69d6271f69027ed23cc))
-* deps ([ed18b74](https://github.com/coingaming/moon-design/commit/ed18b745be9e6faa9fe68a3509253a81dfb17e09))
-* disable babel-plugin-transform-imports ([73bb723](https://github.com/coingaming/moon-design/commit/73bb723836f281cb5c955d8861c9f4a0cf12e903))
-* docker node 14 version ([aae4362](https://github.com/coingaming/moon-design/commit/aae4362faf2259b2fe5e93128a906c5e1771c422))
-* dockerfile ([3a13d0f](https://github.com/coingaming/moon-design/commit/3a13d0fb36837372970be3526f64b698ec9eb14f))
-* Dockerfile ([33e920c](https://github.com/coingaming/moon-design/commit/33e920c8a1f91540b588b4b691a01626e17ae9ec))
-* next docs ts ([6e2fea3](https://github.com/coingaming/moon-design/commit/6e2fea349d310b7c2e5f9a771f7495d399deffaa))
-* Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
-* withTM ([167c659](https://github.com/coingaming/moon-design/commit/167c659f77ed1fa3b94e15375240693dc1f03cd4))
-* yarn.lock ([cfcda85](https://github.com/coingaming/moon-design/commit/cfcda85ec994a0861f3e88b6c3bc5595cf9e8f4e))
-
+- cache ([96efd03](https://github.com/coingaming/moon-design/commit/96efd03ecb3724f1c83ab935719f4f19a76e7247))
+- ci ([54ce4e0](https://github.com/coingaming/moon-design/commit/54ce4e0ef5bbb2ffd7dd69a013c0b2abbccce48d))
+- ci ([a7f2b1c](https://github.com/coingaming/moon-design/commit/a7f2b1cfdb80dae9f52f271e14bd395323006471))
+- ci ([5161c26](https://github.com/coingaming/moon-design/commit/5161c2643be554daed0d3a40113ccdc324be87c9))
+- ci docker_layer_caching ([08363a8](https://github.com/coingaming/moon-design/commit/08363a83e0a995182541416a909f7f9432350e69))
+- deps ([371d256](https://github.com/coingaming/moon-design/commit/371d25651e54bf1d634bc69d6271f69027ed23cc))
+- deps ([ed18b74](https://github.com/coingaming/moon-design/commit/ed18b745be9e6faa9fe68a3509253a81dfb17e09))
+- disable babel-plugin-transform-imports ([73bb723](https://github.com/coingaming/moon-design/commit/73bb723836f281cb5c955d8861c9f4a0cf12e903))
+- docker node 14 version ([aae4362](https://github.com/coingaming/moon-design/commit/aae4362faf2259b2fe5e93128a906c5e1771c422))
+- dockerfile ([3a13d0f](https://github.com/coingaming/moon-design/commit/3a13d0fb36837372970be3526f64b698ec9eb14f))
+- Dockerfile ([33e920c](https://github.com/coingaming/moon-design/commit/33e920c8a1f91540b588b4b691a01626e17ae9ec))
+- next docs ts ([6e2fea3](https://github.com/coingaming/moon-design/commit/6e2fea349d310b7c2e5f9a771f7495d399deffaa))
+- Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
+- withTM ([167c659](https://github.com/coingaming/moon-design/commit/167c659f77ed1fa3b94e15375240693dc1f03cd4))
+- yarn.lock ([cfcda85](https://github.com/coingaming/moon-design/commit/cfcda85ec994a0861f3e88b6c3bc5595cf9e8f4e))
 
 ### Reverts
 
-* Revert "fix: remove .dockerignore" ([724a1f8](https://github.com/coingaming/moon-design/commit/724a1f87089c2479174529d82f0c4dc1acedf09d))
-
-
-
-
+- Revert "fix: remove .dockerignore" ([724a1f8](https://github.com/coingaming/moon-design/commit/724a1f87089c2479174529d82f0c4dc1acedf09d))
 
 ## [5.8.2](https://github.com/coingaming/moon-design/compare/v5.8.1...v5.8.2) (2021-07-27)
 
-
 ### Bug Fixes
 
-* remove .dockerignore ([f42f9c8](https://github.com/coingaming/moon-design/commit/f42f9c8b002f4edec8fec0fd07e8ad5d4261cbcc))
-* remove <Version /> ([4f2c739](https://github.com/coingaming/moon-design/commit/4f2c739fd13eb574ed7edc2fab76053bf2660bf3))
-
-
-
-
+- remove .dockerignore ([f42f9c8](https://github.com/coingaming/moon-design/commit/f42f9c8b002f4edec8fec0fd07e8ad5d4261cbcc))
+- remove <Version /> ([4f2c739](https://github.com/coingaming/moon-design/commit/4f2c739fd13eb574ed7edc2fab76053bf2660bf3))
 
 ## [5.8.1](https://github.com/coingaming/moon-design/compare/v5.8.0...v5.8.1) (2021-07-27)
 
-
 ### Bug Fixes
 
-* cleanup ([0b13537](https://github.com/coingaming/moon-design/commit/0b1353788c3a1d3de6b8563994f36ea346a375d1))
-* Dockerfile ([41e587a](https://github.com/coingaming/moon-design/commit/41e587aacbda65978c00be8d0d4ae10105cebae4))
-* remove button and markdown tsx ([e9f6eee](https://github.com/coingaming/moon-design/commit/e9f6eeea46cd00ccd7ae78fc8f97faf5eb68e65b))
-* update circleci/config.yml ([07036ef](https://github.com/coingaming/moon-design/commit/07036ef4b289140fd06b87bbc2488b276df5054e))
-
-
-
-
+- cleanup ([0b13537](https://github.com/coingaming/moon-design/commit/0b1353788c3a1d3de6b8563994f36ea346a375d1))
+- Dockerfile ([41e587a](https://github.com/coingaming/moon-design/commit/41e587aacbda65978c00be8d0d4ae10105cebae4))
+- remove button and markdown tsx ([e9f6eee](https://github.com/coingaming/moon-design/commit/e9f6eeea46cd00ccd7ae78fc8f97faf5eb68e65b))
+- update circleci/config.yml ([07036ef](https://github.com/coingaming/moon-design/commit/07036ef4b289140fd06b87bbc2488b276df5054e))
 
 # [5.8.0](https://github.com/coingaming/moon-design/compare/v5.7.0...v5.8.0) (2021-07-26)
 
