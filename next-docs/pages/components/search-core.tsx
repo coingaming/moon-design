@@ -34,7 +34,7 @@ const PreviewSearch = () => {
         }
         tabs={
           {
-            title: <span>Tabs</span>,
+            title: <span>I'm looking for...</span>,
             items: [
               <button
                 onClick={() => {
@@ -45,6 +45,11 @@ const PreviewSearch = () => {
               </button>,
               <button>Second Game</button>,
               <button>Third Game</button>,
+              <button style={{ display: 'flex', gap: '10px' }}><IconProfile /> Third Game</button>,
+              <button style={{ display: 'flex', gap: '10px' }}><IconProfile /> Third Game</button>,
+              <button style={{ display: 'flex', gap: '10px' }}><IconProfile /> Third Game</button>,
+              <button style={{ display: 'flex', gap: '10px' }}><IconProfile /> Third Game</button>,
+              <button style={{ display: 'flex', gap: '10px' }}><IconProfile /> Third Game</button>,
             ],
           }
         }

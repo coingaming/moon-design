@@ -3,11 +3,12 @@ import React from 'react';
 import {
   Results,
   ResultsGroup,
-  ResultsItem,
-  ResultsItemText,
+  ResultsTitle,
   ResultsLink,
   ResultsTab,
-} from './Results';
+  TabsGroup,
+  ResultsBlock,
+} from './Styles';
 
 interface SearchResultsProps {
   results?: Result;
@@ -15,7 +16,6 @@ interface SearchResultsProps {
   tabs?: Result;
   size?: 'small' | 'medium';
 }
-
 
 export interface Result {
   items?: JSX.Element[];
@@ -30,38 +30,37 @@ export const SearchResults: React.FC<SearchResultsProps> = ({
 }) => (
   <Results size={size}>
     {loadingMessage && !tabs && !results && (
-      <ResultsItem>
-        <ResultsItemText>{loadingMessage}</ResultsItemText>
-      </ResultsItem>
+      <ResultsBlock>
+        <ResultsTitle>{loadingMessage}</ResultsTitle>
+      </ResultsBlock>
     )}
 
-    {!!tabs &&
-        <ResultsItem>
-          <ResultsItemText>{tabs.title}</ResultsItemText>
-          {tabs.items && (
-            <ResultsGroup>
-              {tabs.items.map((item, itemIndex) => (
-                // eslint-disable-next-line react/no-array-index-key
-                <ResultsTab key={itemIndex}>{item}</ResultsTab>
-              ))}
-            </ResultsGroup>
-          )}
-        </ResultsItem>
-      }
+    {!!tabs && (
+      <ResultsBlock>
+        <ResultsTitle>{tabs.title}</ResultsTitle>
+        {tabs.items && (
+          <TabsGroup>
+            {tabs.items.map((item, itemIndex) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <ResultsTab key={itemIndex}>{item}</ResultsTab>
+            ))}
+          </TabsGroup>
+        )}
+      </ResultsBlock>
+    )}
 
-    {!!results &&
-        <ResultsItem>
-          <ResultsItemText>{results.title}</ResultsItemText>
-          {results.items && (
-            <ResultsGroup>
-              {results.items.map((item, itemIndex) => (
-                // eslint-disable-next-line react/no-array-index-key
-                <ResultsLink key={itemIndex}>{item}</ResultsLink>
-              ))}
-            </ResultsGroup>
-          )}
-        </ResultsItem>
-      }
-
+    {!!results && (
+      <ResultsBlock>
+        <ResultsTitle>{results.title}</ResultsTitle>
+        {results.items && (
+          <ResultsGroup>
+            {results.items.map((item, itemIndex) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <ResultsLink key={itemIndex}>{item}</ResultsLink>
+            ))}
+          </ResultsGroup>
+        )}
+      </ResultsBlock>
+    )}
   </Results>
 );

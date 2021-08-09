@@ -14,12 +14,12 @@ export const zIndex = {
 
 export const popupConfig = {
   padding: 16,
-}
+};
 
 export const menuConfig = {
   menuGap: 8,
   padding: 12,
-}
+};
 
 export const inputConfig = {
   height: 40, // lineHeight + paddingY + padding Y

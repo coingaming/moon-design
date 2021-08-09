@@ -1,22 +1,27 @@
 import React, { useRef, useState } from 'react';
 
-import { SearchForm } from './private/components/Form';
-import { SearchInput, SearchInputIcon, SearchClearIcon, SearchBox } from './private/components/Input';
-import { SearchResults, Result } from './private/components/SearchResults';
 import Popup from './private/components/Popup';
+import { Result, SearchResults } from './private/components/SearchResults';
+import { SearchForm } from './private/components/Form';
+import {
+  SearchInput,
+  SearchInputIcon,
+  SearchClearIcon,
+  SearchBox,
+} from './private/components/Input';
 
 interface SearchProps {
   buttonText?: string;
-  results?: Result;
   loadingMessage?: JSX.Element;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
+  results?: Result;
   showButton?: boolean;
   size?: 'small' | 'medium';
   tabs?: Result;
-};
+}
 
 const Search: React.FC<SearchProps> = ({
   buttonText = 'Clear',
@@ -38,21 +43,21 @@ const Search: React.FC<SearchProps> = ({
   const searchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchStr(e.target.value);
     onChange && onChange(e);
-  }
+  };
 
   const clearSearch = () => {
     console.log('clearSearch');
     setSearchStr('');
-  }
+  };
 
   const closePopup = () => {
     console.log('close popup');
     setPopupOpen(false);
-  }
+  };
 
   const openPopup = () => {
-    setPopupOpen(true)
-  }
+    setPopupOpen(true);
+  };
 
   return (
     <Popup
@@ -73,7 +78,11 @@ const Search: React.FC<SearchProps> = ({
               {...props}
             />
             <SearchInputIcon />
-            {searchStr && <button onClick={clearSearch}><SearchClearIcon /></button>}
+            {searchStr && (
+              <button onClick={clearSearch}>
+                <SearchClearIcon />
+              </button>
+            )}
             <input type="submit" hidden />
           </SearchBox>
         </SearchForm>
@@ -86,6 +95,6 @@ const Search: React.FC<SearchProps> = ({
       </>
     </Popup>
   );
-}
+};
 
 export default Search;
