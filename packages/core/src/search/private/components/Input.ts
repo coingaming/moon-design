@@ -7,6 +7,7 @@ import { mq, rem } from '@heathmont/moon-utils';
 import IconClose from '../../../private/icons/IconErrorCircle';
 import IconMenu from '../../../private/icons/IconMenu';
 import IconSearch from '../../../private/icons/IconSearch';
+import { SearchInputSize } from './SearchResults';
 import {
   BG_SEARCH_INPUT,
   COLOR_ACTIVE,
@@ -19,10 +20,8 @@ import {
 
 const { height, paddingX, transition } = inputConfig;
 
-const searchInputActive = ':focus:not(:placeholder-shown)';
-
 export type SearchBoxProps = {
-  size?: 'small' | 'medium';
+  size?: SearchInputSize;
 };
 
 export const SearchClearIcon = styled(IconClose as any)(
@@ -98,8 +97,6 @@ export const SearchInput = styled.input<
     },
   };
 });
-
-export const SearchInputActive = `${SearchInput}${searchInputActive}`;
 
 export const SearchBox = styled.span<SearchBoxProps>(
   ({ theme: { space } }) => ({

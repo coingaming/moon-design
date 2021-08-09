@@ -2,19 +2,21 @@ import React from 'react';
 
 import {
   Results,
+  ResultsBlock,
   ResultsGroup,
-  ResultsTitle,
   ResultsLink,
   ResultsTab,
+  ResultsTitle,
   TabsGroup,
-  ResultsBlock,
 } from './Styles';
 
+export type SearchInputSize = 'small' | 'medium';
+
 interface SearchResultsProps {
-  results?: Result;
   loadingMessage?: JSX.Element;
+  results?: Result;
+  size?: SearchInputSize;
   tabs?: Result;
-  size?: 'small' | 'medium';
 }
 
 export interface Result {

@@ -1,13 +1,13 @@
 import React, { useRef, useState } from 'react';
 
 import Popup from './private/components/Popup';
-import { Result, SearchResults } from './private/components/SearchResults';
+import { Result, SearchInputSize, SearchResults } from './private/components/SearchResults';
 import { SearchForm } from './private/components/Form';
 import {
+  SearchBox,
+  SearchClearIcon,
   SearchInput,
   SearchInputIcon,
-  SearchClearIcon,
-  SearchBox,
 } from './private/components/Input';
 
 interface SearchProps {
@@ -19,7 +19,7 @@ interface SearchProps {
   query?: string;
   results?: Result;
   showButton?: boolean;
-  size?: 'small' | 'medium';
+  size?: SearchInputSize;
   tabs?: Result;
 }
 

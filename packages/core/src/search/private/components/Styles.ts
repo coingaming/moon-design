@@ -9,6 +9,7 @@ import {
   menuConfig,
   zIndex,
 } from './settings';
+import { SearchInputSize } from './SearchResults';
 
 const { height, paddingX } = inputConfig;
 
@@ -43,7 +44,7 @@ export const ModalClose = styled(Button)(
 /**
  * Search Results List
  */
-export const Results = styled.ul<{ size?: 'small' | 'medium' }>(
+export const Results = styled.ul<{ size?: SearchInputSize }>(
   ({
     theme: { breakpoint, borderWidth, boxShadow, fontWeight, color, radius },
     size,
