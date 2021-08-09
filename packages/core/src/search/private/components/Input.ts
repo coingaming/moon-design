@@ -18,11 +18,13 @@ import {
   zIndex,
 } from './settings';
 
-const { height, paddingX, transition } = inputConfig;
+const { paddingX, transition } = inputConfig;
 
 export type SearchBoxProps = {
   size?: SearchInputSize;
 };
+
+const searchInputActive = ':focus:not(:placeholder-shown)';
 
 export const SearchClearIcon = styled(IconClose as any)(
   ({ theme: { space } }) => ({
@@ -38,13 +40,14 @@ export const SearchClearIcon = styled(IconClose as any)(
 
 export const SearchInputIcon = styled(IconSearch as any)(
   ({ theme: { space } }) => ({
-    zIndex: zIndex.searchIcon,
-    color: COLOR_TEXT,
     position: 'absolute',
-    fontSize: rem(14),
     top: '50%',
     left: rem(space.default),
     transform: 'translateY(-50%)',
+    zIndex: zIndex.searchIcon,
+    fontSize: rem(14),
+    color: COLOR_TEXT,
+    pointerEvents: 'none',
   })
 );
 
@@ -69,7 +72,7 @@ export const SearchInput = styled.input<
     fontWeight: fontWeight.normal,
     fontSize: rem(14),
     width: '100%',
-    lineHeight: rem(height, 14),
+    lineHeight: rem(14),
     border: '2px solid transparent',
     position: 'relative',
     paddingTop: 0,
@@ -115,7 +118,7 @@ export const SearchCloseButton = styled(Button)(
   ({ theme: { breakpoint, base, fontWeight, space } }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
-    lineHeight: rem(height, base.fontSize),
+    lineHeight: rem(base.fontSize),
     border: '2px solid transparent',
     color: COLOR_ACTIVE,
     position: 'relative',

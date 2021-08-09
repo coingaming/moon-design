@@ -11,7 +11,7 @@ import {
 } from './settings';
 import { SearchInputSize } from './SearchResults';
 
-const { height, paddingX } = inputConfig;
+const { paddingX } = inputConfig;
 
 /**
  * Search Styles
@@ -27,7 +27,7 @@ export const ModalClose = styled(Button)(
   ({ theme: { base, breakpoint, fontWeight, space } }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
-    lineHeight: rem(height, base.fontSize),
+    lineHeight: rem(base.fontSize),
     border: 0,
     position: 'relative',
     overflow: 'visible',

@@ -45,7 +45,8 @@ const Search: React.FC<SearchProps> = ({
     onChange && onChange(e);
   };
 
-  const clearSearch = () => {
+  const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
+    e.preventDefault();
     console.log('clearSearch');
     setSearchStr('');
   };
