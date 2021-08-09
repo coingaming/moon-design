@@ -10,24 +10,21 @@ type SvgProps = {
   height?: string | number;
   width?: string | number;
   fontSize?: string | number;
-  verticalAlign?: string;
 };
 const LogoHub88Full = styled(Svg)<SvgProps>(({
   color,
   height,
   width,
   fontSize,
-  verticalAlign,
   theme
 }) => ({ ...(color && {
     color: themed('color', color)(theme)
   }),
   height,
   width,
-  fontSize,
-  verticalAlign
+  fontSize
 }));
 LogoHub88Full.defaultProps = {
-    verticalAlign: "middle",
+    
   };
 export default LogoHub88Full;

@@ -10,24 +10,21 @@ type SvgProps = {
   height?: string | number;
   width?: string | number;
   fontSize?: string | number;
-  verticalAlign?: string;
 };
 const LogoSportsbet = styled(Svg)<SvgProps>(({
   color,
   height,
   width,
   fontSize,
-  verticalAlign,
   theme
 }) => ({ ...(color && {
     color: themed('color', color)(theme)
   }),
   height,
   width,
-  fontSize,
-  verticalAlign
+  fontSize
 }));
 LogoSportsbet.defaultProps = {
-    verticalAlign: "middle",color: "bulma.100",
+    color: "bulma.100",
   };
 export default LogoSportsbet;
