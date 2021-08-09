@@ -20,11 +20,24 @@ export default function PageBadge() {
       </section>
 
       <section className="mt-8">
+        <h2 className="text-3xl font-semibold mt-8">Peer dependencies</h2>
+        <Text>
+          Your project should include "react", "react-dom" and
+          "styled-components" as its dependency.
+        </Text>
+        <Text>using npm</Text>
+        <CodeSnippet>{`npm i react react-dom styled-components`}</CodeSnippet>
+        <Text>using yarn</Text>
+        <CodeSnippet>{`yarn add react react-dom styled-components`}</CodeSnippet>
+      </section>
+
+      <section className="mt-8">
         <h2 className="text-3xl font-semibold">Set up Theme</h2>
         <Text>{`Wrap your entire application with the <ThemeProvider />, providing your preferred theme via the theme prop.`}</Text>
         <Text>
-          Be sure to include global styles and font-face definitions, as these will inherit the theme and
-          set the integral style foundations for your app.
+          Be sure to include global styles and font-face definitions, as these
+          will inherit the theme and set the integral style foundations for your
+          app.
         </Text>
 
         <CodeSnippet>{`/* Your App.tsx */
