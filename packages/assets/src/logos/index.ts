@@ -34,6 +34,8 @@ export { default as LogoLabFull } from './LogoLabFull';
 export * from './LogoLabFull';
 export { default as LogoLivecasinoFull } from './LogoLivecasinoFull';
 export * from './LogoLivecasinoFull';
+export { default as LogoLivecasinoShort } from './LogoLivecasinoShort';
+export * from './LogoLivecasinoShort';
 export { default as LogoLuckyslotsFull } from './LogoLuckyslotsFull';
 export * from './LogoLuckyslotsFull';
 export { default as LogoLuckyslotsShort } from './LogoLuckyslotsShort';
