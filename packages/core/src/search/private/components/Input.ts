@@ -115,7 +115,7 @@ export const SearchCloseButton = styled(Button)(
   ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
-    lineHeight: rem(base.fontSize),
+    lineHeight: 1,
     border: '2px solid transparent',
     color: color.piccolo[100],
     position: 'relative',

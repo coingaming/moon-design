@@ -19,7 +19,7 @@ export const ModalClose = styled(Button)(
   ({ theme: { base, breakpoint, fontWeight, space } }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
-    lineHeight: rem(base.fontSize),
+    lineHeight: 1,
     border: 0,
     position: 'relative',
     overflow: 'visible',
