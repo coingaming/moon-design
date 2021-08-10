@@ -1,0 +1,85 @@
+---
+name: Search
+menu: Core
+route: /core/search
+---
+
+# Search
+
+An elegant search component.
+
+## Query
+
+Use `query` prop to define query string
+
+`onChange` and `onSubmit` handlers are provided.
+
+<Search
+  placeholder="Search"
+  onChange={(e) => {
+    console.log(e.target.value);
+  }}
+  onSubmit={(e) => {
+    console.log('Submitted');
+  }}
+/>
+
+### Results
+
+Pass searchResults to `searchResults` prop.
+
+```jsx react-live
+<Search
+  placeholder="Search"
+  onChange={(e) => {
+    console.log(e.target.value);
+  }}
+  onSubmit={(e) => {
+    console.log('Submitted');
+  }}
+  tabs={
+    {
+      title: <span>Categories</span>,
+      items: [
+        <span
+          onClick={() => {
+            console.log('Click');
+          }}
+        >
+          First cat
+        </span>,
+      ],
+    },
+  }
+  results={
+    {
+      title: <span>Games</span>,
+      items: [
+        <span
+          onClick={() => {
+            console.log('Click');
+          }}
+        >
+          First Game
+        </span>,
+      ],
+    },
+  }
+/>
+```
+
+### Loading Message
+
+Pass `loadingMessage`.
+loadingMessage has a priority and even if you define searchResults
+they won't be rendered.
+
+```jsx react-live
+<Search
+  placeholder="Search"
+  onChange={(e) => {
+    console.log(e.target.value);
+  }}
+  loadingMessage={<p>Loading...</p>}
+/>
+```
