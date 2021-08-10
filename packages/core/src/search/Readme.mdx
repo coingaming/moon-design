@@ -1,7 +1,7 @@
 ---
 name: Search
 menu: Core
-route: /components/search
+route: /core/search
 ---
 
 # Search
@@ -37,7 +37,21 @@ Pass searchResults to `searchResults` prop.
   onSubmit={(e) => {
     console.log('Submitted');
   }}
-  searchResults={[
+  tabs={
+    {
+      title: <span>Categories</span>,
+      items: [
+        <span
+          onClick={() => {
+            console.log('Click');
+          }}
+        >
+          First cat
+        </span>,
+      ],
+    },
+  }
+  results={
     {
       title: <span>Games</span>,
       items: [
@@ -50,11 +64,7 @@ Pass searchResults to `searchResults` prop.
         </span>,
       ],
     },
-    {
-      title: <span>Providers</span>,
-      items: [<span>Provider One</span>],
-    },
-  ]}
+  }
 />
 ```
 
