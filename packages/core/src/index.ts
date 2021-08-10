@@ -16,5 +16,7 @@ export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as ScreenLoader } from './screenLoader/ScreenLoader';
 export * from './screenLoader/ScreenLoader';
+export { default as Search } from './search/Search';
+export * from './search/Search';
 export { default as Text } from './text/Text';
 export * from './text/Text';
