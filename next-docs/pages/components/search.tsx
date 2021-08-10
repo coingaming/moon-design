@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { Search } from '@heathmont/moon-core';
+// import { Search } from '@heathmont/moon-core';
 import { IconProfile } from '@heathmont/moon-assets';
 
+/*
 const PreviewSearch = () => {
   return (
     <div className="h-96 bg-white p-4">
@@ -73,6 +74,7 @@ const PreviewSearchLoading = () => {
   );
 };
 
+*/
 export default function PageSearch() {
   return (
     <>
@@ -84,11 +86,11 @@ export default function PageSearch() {
       {/* Default */}
       <section className="mt-8">
         <h2 className="text-2xl mb-4">Search component default values</h2>
-        <PreviewSearch />
+        {/* <PreviewSearch /> */}
       </section>
       <section className="mt-8">
         <h2 className="text-2xl mb-4">Search loading</h2>
-        <PreviewSearchLoading />
+        {/* <PreviewSearchLoading /> */}
       </section>
     </>
   );
