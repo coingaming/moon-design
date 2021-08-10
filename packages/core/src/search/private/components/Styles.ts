@@ -2,13 +2,7 @@ import styled from 'styled-components';
 import { em, mq, rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
-import {
-  COLOR_TEXT,
-  COLOR_ACTIVE,
-  inputConfig,
-  menuConfig,
-  zIndex,
-} from './settings';
+import { inputConfig, menuConfig, zIndex } from './settings';
 import { SearchInputSize } from './SearchResults';
 
 const { paddingX } = inputConfig;
@@ -189,7 +183,7 @@ export const ResultsLink = styled(resultsContent)(
     width: '100%',
     '&:hover, &:focus': {
       backgroundColor: color.goku[100],
-      color: COLOR_TEXT,
+      color: color.bulma[100],
     },
     '& > *': {
       width: '100%',
@@ -205,16 +199,16 @@ export const ResultsLink = styled(resultsContent)(
   })
 );
 
-export const ResultsTab = styled(resultsContent)({
+export const ResultsTab = styled(resultsContent)(({ theme: { color } }) => ({
   display: 'inline-block',
   'a, button': {
     padding: `${rem(4)} ${rem(8)}`,
     fontSize: rem(14),
     lineHeight: rem(24),
-    color: COLOR_TEXT,
+    color: color.bulma[100],
     '&:hover, &:focus, &:active': {
-      backgroundColor: COLOR_ACTIVE,
-      color: '#fff',
+      backgroundColor: color.piccolo[100],
+      color: color.gohan[100],
     },
   },
-});
+}));

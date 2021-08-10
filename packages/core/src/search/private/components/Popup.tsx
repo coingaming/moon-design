@@ -28,6 +28,7 @@ export const StyledPopup = styled.div(
         right: 0,
         bottom: 0,
         left: 0,
+        background: 'transparent',
         padding: rem(popupConfig.padding),
       },
     },

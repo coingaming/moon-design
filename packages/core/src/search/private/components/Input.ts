@@ -9,11 +9,6 @@ import IconMenu from '../../../private/icons/IconMenu';
 import IconSearch from '../../../private/icons/IconSearch';
 import { SearchInputSize } from './SearchResults';
 import {
-  BG_SEARCH_INPUT,
-  COLOR_ACTIVE,
-  COLOR_BORDER_HOVER,
-  COLOR_PLACEHOLDER,
-  COLOR_TEXT,
   inputConfig,
   zIndex,
 } from './settings';
@@ -27,9 +22,9 @@ export type SearchBoxProps = {
 const searchInputActive = ':focus:not(:placeholder-shown)';
 
 export const SearchClearIcon = styled(IconClose as any)(
-  ({ theme: { space } }) => ({
+  ({ theme: { color, space } }) => ({
     zIndex: zIndex.searchIcon,
-    color: COLOR_TEXT,
+    color: color.bulma[100],
     position: 'absolute',
     fontSize: rem(14),
     top: '50%',
@@ -39,22 +34,22 @@ export const SearchClearIcon = styled(IconClose as any)(
 );
 
 export const SearchInputIcon = styled(IconSearch as any)(
-  ({ theme: { space } }) => ({
+  ({ theme: { color, space } }) => ({
     position: 'absolute',
     top: '50%',
     left: rem(space.default),
     transform: 'translateY(-50%)',
     zIndex: zIndex.searchIcon,
     fontSize: rem(14),
-    color: COLOR_TEXT,
+    color: color.bulma[100],
     pointerEvents: 'none',
   })
 );
 
 export const SearchMenuIcon = styled(IconMenu as any)(
-  ({ theme: { space } }) => ({
+  ({ theme: { color, space } }) => ({
     zIndex: zIndex.searchIcon,
-    color: COLOR_TEXT,
+    color: color.bulma[100],
     position: 'absolute',
     fontSize: rem(14),
     top: '50%',
@@ -65,7 +60,7 @@ export const SearchMenuIcon = styled(IconMenu as any)(
 
 export const SearchInput = styled.input<
   React.InputHTMLAttributes<HTMLInputElement>
->(({ theme: { fontWeight, radius, space, transitionDuration } }) => {
+>(({ theme: { color, fontWeight, radius, space, transitionDuration } }) => {
   const fontSize = '14px';
 
   return {
@@ -82,8 +77,8 @@ export const SearchInput = styled.input<
     textOverflow: 'ellipsis',
     overflow: 'hidden',
     borderRadius: radius.default,
-    backgroundColor: BG_SEARCH_INPUT,
-    color: COLOR_PLACEHOLDER,
+    backgroundColor: color.goku[100],
+    color: color.trunks[100],
     outline: 0,
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
@@ -92,11 +87,11 @@ export const SearchInput = styled.input<
       color: 'inherit',
     },
     '&:hover': {
-      borderColor: COLOR_BORDER_HOVER,
+      borderColor: color.beerus[100],
     },
     '&:active, &:focus': {
-      borderColor: COLOR_ACTIVE,
-      color: COLOR_TEXT,
+      borderColor: color.piccolo[100],
+      color: color.bulma[100],
     },
   };
 });
@@ -115,12 +110,12 @@ export const SearchBox = styled.span<SearchBoxProps>(
 );
 
 export const SearchCloseButton = styled(Button)(
-  ({ theme: { breakpoint, base, fontWeight, space } }) => ({
+  ({ theme: { breakpoint, base, color, fontWeight, space } }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
     lineHeight: rem(base.fontSize),
     border: '2px solid transparent',
-    color: COLOR_ACTIVE,
+    color: color.piccolo[100],
     position: 'relative',
     overflow: 'visible',
     padding: `0 ${rem(24)}`,
