@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
+
+
+### Bug Fixes
+
+* build ([b87df16](https://github.com/coingaming/moon-design/commit/b87df166b8dc64a2108c09d911d33dae3d7e0c1c))
+
+
+
+
+
 ## [6.4.4](https://github.com/coingaming/moon-design/compare/v6.4.3...v6.4.4) (2021-08-10)
 
 
