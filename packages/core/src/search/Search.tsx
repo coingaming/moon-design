@@ -22,7 +22,6 @@ interface SearchProps {
   placeholder?: string;
   query?: string;
   results?: Result;
-  showButton?: boolean;
   size?: SearchInputSize;
   tabs?: Result;
 }
@@ -35,7 +34,6 @@ const Search: React.FC<SearchProps> = ({
   placeholder,
   query = '',
   results,
-  showButton = true,
   size = 'medium',
   tabs,
   ...props
