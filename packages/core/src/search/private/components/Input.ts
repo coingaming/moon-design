@@ -84,7 +84,7 @@ export const SearchInput = styled.input<
     borderRadius: radius.default,
     backgroundColor: BG_SEARCH_INPUT,
     color: COLOR_PLACEHOLDER,
-    outlineColor: COLOR_ACTIVE,
+    outline: 0,
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
     transitionDuration: `${transitionDuration.default}s`,
