@@ -1,7 +1,11 @@
 import React, { useRef, useState } from 'react';
 
 import Popup from './private/components/Popup';
-import { Result, SearchInputSize, SearchResults } from './private/components/SearchResults';
+import {
+  Result,
+  SearchInputSize,
+  SearchResults,
+} from './private/components/SearchResults';
 import { SearchForm } from './private/components/Form';
 import {
   SearchBox,
@@ -11,7 +15,7 @@ import {
 } from './private/components/Input';
 
 interface SearchProps {
-  buttonText?: string;
+  closeButton?: JSX.Element;
   loadingMessage?: JSX.Element;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
@@ -24,7 +28,7 @@ interface SearchProps {
 }
 
 const Search: React.FC<SearchProps> = ({
-  buttonText = 'Clear',
+  closeButton,
   loadingMessage,
   onChange,
   onSubmit,
@@ -32,7 +36,7 @@ const Search: React.FC<SearchProps> = ({
   query = '',
   results,
   showButton = true,
-  size,
+  size = 'medium',
   tabs,
   ...props
 }) => {
@@ -60,8 +64,9 @@ const Search: React.FC<SearchProps> = ({
 
   return (
     <Popup
-      isOpen={popupOpen}
+      closeButton={closeButton}
       closePopup={closePopup}
+      isOpen={popupOpen}
       title={
         <SearchForm onSubmit={onSubmit}>
           <SearchBox size={size}>

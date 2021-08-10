@@ -37,7 +37,7 @@ export const StyledPopup = styled.div(
 
 export type PopupProps = {
   children?: JSX.Element;
-  closeButtonText?: string;
+  closeButton?: JSX.Element;
   closePopup: () => void;
   isOpen: boolean;
   title: JSX.Element;
@@ -45,7 +45,7 @@ export type PopupProps = {
 
 const Popup: React.FC<PopupProps> = ({
   children,
-  closeButtonText = 'Close',
+  closeButton,
   closePopup,
   isOpen,
   title,
@@ -83,7 +83,7 @@ const Popup: React.FC<PopupProps> = ({
       <FlexWrapper>
         {title}
         {isOpen ? (
-          <ModalClose onClick={closePopup}>{closeButtonText}</ModalClose>
+          <ModalClose onClick={closePopup}>{closeButton}</ModalClose>
         ) : null}
       </FlexWrapper>
       {isOpen && children && (

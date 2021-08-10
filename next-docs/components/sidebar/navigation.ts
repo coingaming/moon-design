@@ -44,7 +44,6 @@ const navigation = [
         ],
       },
       { name: 'Search', href: '/components/search' },
-      { name: 'Search Core', href: '/components/search-core' },
       { name: 'Select', href: '/components/select' },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
