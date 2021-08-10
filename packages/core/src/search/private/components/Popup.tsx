@@ -59,7 +59,6 @@ const Popup: React.FC<PopupProps> = ({
   const clickListener = useCallback(
     (e: MouseEvent) => {
       e.stopPropagation();
-      console.log('clickListener', ref.current);
       if (ref.current && !(ref.current! as any).contains(e.target)) {
         closePopup();
       }

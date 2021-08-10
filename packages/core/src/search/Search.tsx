@@ -46,13 +46,11 @@ const Search: React.FC<SearchProps> = ({
   };
 
   const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
-    e.preventDefault();
-    console.log('clearSearch');
+    e.stopPropagation();
     setSearchStr('');
   };
 
   const closePopup = () => {
-    console.log('close popup');
     setPopupOpen(false);
   };
 
