@@ -6,16 +6,14 @@ export const zIndex = {
 
 export const popupConfig = {
   padding: 16,
-};
-
-export const menuConfig = {
-  menuGap: 8,
-  padding: 12,
+  borderRadius: 12,
 };
 
 export const inputConfig = {
-  lineHeight: 20,
-  paddingY: 10,
-  paddingX: 20,
+  borderWidth: 2,
   transition: 'color ease, background-color ease',
+  padding: {
+    small: 12,
+    medium: 20,
+  },
 };

@@ -8,8 +8,8 @@ const PreviewSearch = () => {
     <div className="h-96 bg-white p-4">
       <Search
         closeButton={<span>Clear</span>}
-        placeholder="Core Search"
-        size="medium"
+        placeholder="Search"
+        size="small"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
