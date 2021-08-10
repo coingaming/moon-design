@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.4.4](https://github.com/coingaming/moon-design/compare/v6.4.3...v6.4.4) (2021-08-10)
+
+
+### Bug Fixes
+
+* console error warning for react props ([#1298](https://github.com/coingaming/moon-design/issues/1298)) ([9efef0a](https://github.com/coingaming/moon-design/commit/9efef0a3c2f1842dd1928401022b16de199c2b9d))
+
+
+
+
+
 ## [6.4.3](https://github.com/coingaming/moon-design/compare/v6.4.2...v6.4.3) (2021-08-09)
 
 
