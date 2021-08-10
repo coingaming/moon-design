@@ -77,7 +77,7 @@ const Search: React.FC<SearchProps> = ({
               {...props}
             />
             <SearchInputIcon />
-            {searchStr && (
+            {searchStr && popupOpen && (
               <button onClick={clearSearch}>
                 <SearchClearIcon />
               </button>
