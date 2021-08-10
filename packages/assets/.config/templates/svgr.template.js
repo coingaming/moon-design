@@ -2,7 +2,9 @@
 /* eslint-disable no-shadow, @typescript-eslint/no-unused-vars */
 const prefix = (componentName) => componentName.name.replace('Svg', '');
 
-const sharedDefaultProps = 'verticalAlign: "middle",';
+// e.g
+// const sharedDefaultProps = 'verticalAlign: "middle",';
+const sharedDefaultProps = '';
 
 const customDefaultProps = {
   LogoSportsbet: 'color: "bulma.100",',
@@ -42,17 +44,15 @@ function template(
       height?: string | number;
       width?: string | number;
       fontSize?: string | number;
-      verticalAlign?: string,
     };
 
     const ${prefix(componentName)} =
       styled(Svg)<SvgProps >
-      (({ color, height, width, fontSize, verticalAlign, theme }) => ({
+      (({ color, height, width, fontSize, theme }) => ({
         ...(color && { color: themed('color', color)(theme) }),
         height,
         width,
         fontSize,
-        verticalAlign
       }));
 
     ${defaultProps(prefix(componentName))}

@@ -1200,6 +1200,8 @@ export { default as LogoLabFull } from './logos/LogoLabFull';
 export * from './logos/LogoLabFull';
 export { default as LogoLivecasinoFull } from './logos/LogoLivecasinoFull';
 export * from './logos/LogoLivecasinoFull';
+export { default as LogoLivecasinoShort } from './logos/LogoLivecasinoShort';
+export * from './logos/LogoLivecasinoShort';
 export { default as LogoLuckyslotsFull } from './logos/LogoLuckyslotsFull';
 export * from './logos/LogoLuckyslotsFull';
 export { default as LogoLuckyslotsShort } from './logos/LogoLuckyslotsShort';
