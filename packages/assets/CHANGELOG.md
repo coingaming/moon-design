@@ -3,59 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [6.3.3](https://github.com/coingaming/moon-design/compare/v6.3.2...v6.3.3) (2021-08-03)
+## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
+## [6.4.4](https://github.com/coingaming/moon-design/compare/v6.4.3...v6.4.4) (2021-08-10)
 
+### Bug Fixes
 
+- add livecasino short logo, update full logo [B1M2-3102] ([#1300](https://github.com/coingaming/moon-design/issues/1300)) ([ada1d78](https://github.com/coingaming/moon-design/commit/ada1d7877ca746123644e0bbfa9dca5e76dbbe40))
+- add livecasino short logo, update full logo [B1M2-3102] ([#1301](https://github.com/coingaming/moon-design/issues/1301)) ([58e138e](https://github.com/coingaming/moon-design/commit/58e138e8c2aee0abacffa50fd66a109221f1b571))
+- assets template for vertical align ([#1299](https://github.com/coingaming/moon-design/issues/1299)) ([e02502b](https://github.com/coingaming/moon-design/commit/e02502b4e403697a99f73997626ed4ce2029ef0a))
 
+## [6.4.1](https://github.com/coingaming/moon-design/compare/v6.4.0...v6.4.1) (2021-08-05)
+
+**Note:** Version bump only for package @heathmont/moon-assets
+
+# [6.4.0](https://github.com/coingaming/moon-design/compare/v6.3.3...v6.4.0) (2021-08-04)
+
+### Features
+
+- add tajCasino themes ([#1289](https://github.com/coingaming/moon-design/issues/1289)) ([01131e6](https://github.com/coingaming/moon-design/commit/01131e67a20482b05b3fcf80b755ba1e4ef27de6))
+
+## [6.3.3](https://github.com/coingaming/moon-design/compare/v6.3.2...v6.3.3) (2021-08-03)
+
+**Note:** Version bump only for package @heathmont/moon-assets
 
 ## [6.3.1](https://github.com/coingaming/moon-design/compare/v6.3.0...v6.3.1) (2021-08-03)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [6.3.0](https://github.com/coingaming/moon-design/compare/v6.2.0...v6.3.0) (2021-08-03)
 
 **Note:** Version bump only for package @heathmont/moon-assets
 
-
-
-
-
 # [6.0.0](https://github.com/coingaming/moon-design/compare/v5.8.3...v6.0.0) (2021-07-30)
-
 
 ### Features
 
-* remove docs source ([#1271](https://github.com/coingaming/moon-design/issues/1271)) ([4cf4005](https://github.com/coingaming/moon-design/commit/4cf4005a114c34a7726f7e6845e551a573694712))
-
-
-
-
+- remove docs source ([#1271](https://github.com/coingaming/moon-design/issues/1271)) ([4cf4005](https://github.com/coingaming/moon-design/commit/4cf4005a114c34a7726f7e6845e551a573694712))
 
 ## [5.8.3](https://github.com/coingaming/moon-design/compare/v5.8.2...v5.8.3) (2021-07-29)
 
-
 ### Bug Fixes
 
-* Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
-
-
-
-
+- Typescript ([c6193eb](https://github.com/coingaming/moon-design/commit/c6193eb40dd4302693e721eca4d66b63a3ba2489))
 
 ## [5.8.1](https://github.com/coingaming/moon-design/compare/v5.8.0...v5.8.1) (2021-07-27)
 
 **Note:** Version bump only for package @heathmont/moon-assets
-
-
-
-
 
 # [5.7.0](https://github.com/coingaming/moon-design/compare/v5.6.0...v5.7.0) (2021-07-26)
 

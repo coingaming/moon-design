@@ -75,7 +75,7 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
           </Disclosure.Button>
           <Disclosure.Panel className="space-y-1">
             {item.children.map((subItem: any) => (
-              <div className="pl-7">
+              <div key={item.name} className="pl-7">
                 <RecursiveNavItem item={subItem} />
               </div>
             ))}
@@ -103,7 +103,7 @@ export default function Sidebar() {
       <div className="flex-grow flex flex-col">
         <nav className="flex-1 space-y-1" aria-label="Sidebar">
           {navigation.map((item) => (
-            <RecursiveNavItem item={item} />
+            <RecursiveNavItem key={item.name} item={item} />
           ))}
           {/* <Version /> */}
         </nav>

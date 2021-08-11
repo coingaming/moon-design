@@ -10,24 +10,21 @@ type SvgProps = {
   height?: string | number;
   width?: string | number;
   fontSize?: string | number;
-  verticalAlign?: string;
 };
 const IconDogecoin = styled(Svg)<SvgProps>(({
   color,
   height,
   width,
   fontSize,
-  verticalAlign,
   theme
 }) => ({ ...(color && {
     color: themed('color', color)(theme)
   }),
   height,
   width,
-  fontSize,
-  verticalAlign
+  fontSize
 }));
 IconDogecoin.defaultProps = {
-    verticalAlign: "middle",
+    
   };
 export default IconDogecoin;

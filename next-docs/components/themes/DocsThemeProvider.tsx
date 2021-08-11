@@ -27,6 +27,8 @@ import {
   shangrilaDark,
   empireLight,
   empireDark,
+  tajCasinoLight,
+  tajCasinoDark,
 } from '@heathmont/moon-themes';
 
 const themes: DocsThemes = {
@@ -86,6 +88,10 @@ const themes: DocsThemes = {
     dark: empireDark,
     light: empireLight,
   },
+  tajCasino: {
+    dark: tajCasinoDark,
+    light: tajCasinoLight,
+  },
 };
 
 interface DocsColorModes {
@@ -108,6 +114,7 @@ interface DocsThemes {
   comms: DocsColorModes;
   shangrila: DocsColorModes;
   empire: DocsColorModes;
+  tajCasino: DocsColorModes;
 };
 
 type DocsBrands = keyof DocsThemes;

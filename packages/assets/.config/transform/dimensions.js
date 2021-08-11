@@ -2,9 +2,9 @@
  * Transform Dimensions
  *
  * Set icon sizing to `em` for easy resizing via `font-size`.
- * 
+ *
  * Examples:
- * 
+ *
  * If the width is larger than the height, set the width to `1em` and the height
  * to `auto`.
  * Before: <svg foo="bar" width="320" height="200" />
@@ -73,11 +73,11 @@ module.exports = ({ types: t }) => ({
           width:
             attrInitialValues.width >= attrInitialValues.height
               ? '1em'
-              : 'auto',
+              : '100%',
           height:
             attrInitialValues.height >= attrInitialValues.width
               ? '1em'
-              : 'auto',
+              : '100%',
         };
 
         /**
