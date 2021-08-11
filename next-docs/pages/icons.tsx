@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowsRefresh } from '@heathmont/moon-icons';
+// import { ArrowsRefresh } from '@heathmont/moon-icons';
 
 import CodeSnippet from '../components/CodeSnippet';
 
@@ -14,7 +14,7 @@ export default function PageIcons() {
         <h1 className="text-5xl font-semibold">Icons</h1>
         <h2 className="text-3xl font-semibold mt-8">Installation</h2>
 
-        <ArrowsRefresh fontSize="2rem"/>
+        {/* <ArrowsRefresh fontSize="2rem"/> */}
 
         <Text>using npm</Text>
         <CodeSnippet>{`npm i @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>
