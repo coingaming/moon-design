@@ -162,6 +162,8 @@ export const resultsContent = styled.li(
       display: 'inline-flex',
       alignItems: 'center',
       padding: rem(12),
+      background: 'transparent',
+      border: 'none',
     },
   })
 );
