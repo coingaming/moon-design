@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
+
+
+### Bug Fixes
+
+* update logo-luckyslots-full with dynamic colors. [B1M2-3194] ([#1308](https://github.com/coingaming/moon-design/issues/1308)) ([4e20aab](https://github.com/coingaming/moon-design/commit/4e20aabcec8fcba57769503958352112241f960d))
+
+
+
+
+
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
 **Note:** Version bump only for package moon-design
