@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @heathmont/moon-sidebar
 
-
-
-
-
 ## [6.4.1](https://github.com/coingaming/moon-design/compare/v6.4.0...v6.4.1) (2021-08-05)
 
 **Note:** Version bump only for package @heathmont/moon-sidebar

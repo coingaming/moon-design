@@ -10,12 +10,9 @@ import {
   TabsGroup,
 } from './Styles';
 
-export type SearchInputSize = 'small' | 'medium';
-
 interface SearchResultsProps {
   loadingMessage?: JSX.Element;
   results?: Result;
-  size?: SearchInputSize;
   tabs?: Result;
 }
 
@@ -27,10 +24,9 @@ export interface Result {
 export const SearchResults: React.FC<SearchResultsProps> = ({
   loadingMessage,
   results,
-  size,
   tabs,
 }) => (
-  <Results size={size}>
+  <Results>
     {loadingMessage && !tabs && !results && (
       <ResultsBlock>
         <ResultsTitle>{loadingMessage}</ResultsTitle>

@@ -1,17 +1,15 @@
 import React, { useRef, useState } from 'react';
 
 import Popup from './private/components/Popup';
-import {
-  Result,
-  SearchInputSize,
-  SearchResults,
-} from './private/components/SearchResults';
+import { Result, SearchResults } from './private/components/SearchResults';
 import { SearchForm } from './private/components/Form';
 import {
   SearchBox,
   SearchClearIcon,
   SearchInput,
   SearchInputIcon,
+  SearchInputSize,
+  SearchClearButton,
 } from './private/components/Input';
 
 interface SearchProps {
@@ -82,9 +80,9 @@ const Search: React.FC<SearchProps> = ({
             />
             <SearchInputIcon inputSize={size} />
             {searchStr && popupOpen && (
-              <button onClick={clearSearch}>
+              <SearchClearButton onClick={clearSearch}>
                 <SearchClearIcon />
-              </button>
+              </SearchClearButton>
             )}
             <input type="submit" hidden />
           </SearchBox>

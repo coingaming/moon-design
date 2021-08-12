@@ -2,29 +2,40 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Button } from '@heathmont/moon-components';
-import { mq, rem } from '@heathmont/moon-utils';
+import { rem } from '@heathmont/moon-utils';
 
 import IconClose from '../../../private/icons/IconErrorCircle';
 import IconMenu from '../../../private/icons/IconMenu';
 import IconSearch from '../../../private/icons/IconSearch';
-import { SearchInputSize } from './SearchResults';
 import { inputConfig, zIndex } from './settings';
 
 const { borderWidth, padding, transition } = inputConfig;
+
+export type SearchInputSize = 'small' | 'medium';
 
 export type SearchBoxProps = {
   size?: SearchInputSize;
 };
 
+export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
+  position: 'absolute',
+  top: 0,
+  right: borderWidth,
+  height: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: `0 ${rem(space.small)}`,
+  border: 'none',
+  background: 'transparent',
+  appearance: 'none',
+  zIndex: zIndex.searchIcon,
+}));
+
 export const SearchClearIcon = styled(IconClose)<React.SVGProps<SVGSVGElement>>(
   ({ theme: { color, fontSize, space } }) => ({
-    zIndex: zIndex.searchIcon,
     color: color.bulma[100],
-    position: 'absolute',
     fontSize: rem(fontSize.body),
-    top: '50%',
-    right: rem(space.default),
-    transform: 'translateY(-50%)',
     width: space.default,
     height: space.default,
   })
@@ -108,24 +119,5 @@ export const SearchBox = styled.span<SearchBoxProps>(
   }),
   ({ size }) => ({
     height: size === 'small' ? rem(40) : rem(48),
-  })
-);
-
-export const SearchCloseButton = styled(Button)(
-  ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
-    fontWeight: fontWeight.normal,
-    fontSize: rem(base.fontSize),
-    lineHeight: 1,
-    border: '2px solid transparent',
-    color: color.piccolo[100],
-    position: 'relative',
-    overflow: 'visible',
-    padding: `0 ${rem(24)}`,
-    marginLeft: rem(space.small, base.fontSize),
-    display: 'flex',
-    flex: 0,
-    [mq(breakpoint.medium, 'min-width')]: {
-      display: 'none',
-    },
   })
 );

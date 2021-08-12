@@ -5,61 +5,36 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [6.4.6](https://github.com/coingaming/moon-design/compare/v6.4.5...v6.4.6) (2021-08-11)
 
-
 ### Bug Fixes
 
-* search component preview ([24d4b9d](https://github.com/coingaming/moon-design/commit/24d4b9df5e0030e65379c3b6cf37d1d2df92e4a3))
-
-
-
-
+- search component preview ([24d4b9d](https://github.com/coingaming/moon-design/commit/24d4b9df5e0030e65379c3b6cf37d1d2df92e4a3))
 
 ## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
 
-
 ### Bug Fixes
 
-* build ([b87df16](https://github.com/coingaming/moon-design/commit/b87df166b8dc64a2108c09d911d33dae3d7e0c1c))
-
-
-
-
+- build ([b87df16](https://github.com/coingaming/moon-design/commit/b87df166b8dc64a2108c09d911d33dae3d7e0c1c))
 
 ## [6.4.4](https://github.com/coingaming/moon-design/compare/v6.4.3...v6.4.4) (2021-08-10)
 
-
 ### Bug Fixes
 
-* add livecasino short logo, update full logo [B1M2-3102] ([#1300](https://github.com/coingaming/moon-design/issues/1300)) ([ada1d78](https://github.com/coingaming/moon-design/commit/ada1d7877ca746123644e0bbfa9dca5e76dbbe40))
-* add livecasino short logo, update full logo [B1M2-3102] ([#1301](https://github.com/coingaming/moon-design/issues/1301)) ([58e138e](https://github.com/coingaming/moon-design/commit/58e138e8c2aee0abacffa50fd66a109221f1b571))
-* assets template for vertical align ([#1299](https://github.com/coingaming/moon-design/issues/1299)) ([e02502b](https://github.com/coingaming/moon-design/commit/e02502b4e403697a99f73997626ed4ce2029ef0a))
-* console error warning for react props ([#1298](https://github.com/coingaming/moon-design/issues/1298)) ([9efef0a](https://github.com/coingaming/moon-design/commit/9efef0a3c2f1842dd1928401022b16de199c2b9d))
-
-
-
-
+- add livecasino short logo, update full logo [B1M2-3102] ([#1300](https://github.com/coingaming/moon-design/issues/1300)) ([ada1d78](https://github.com/coingaming/moon-design/commit/ada1d7877ca746123644e0bbfa9dca5e76dbbe40))
+- add livecasino short logo, update full logo [B1M2-3102] ([#1301](https://github.com/coingaming/moon-design/issues/1301)) ([58e138e](https://github.com/coingaming/moon-design/commit/58e138e8c2aee0abacffa50fd66a109221f1b571))
+- assets template for vertical align ([#1299](https://github.com/coingaming/moon-design/issues/1299)) ([e02502b](https://github.com/coingaming/moon-design/commit/e02502b4e403697a99f73997626ed4ce2029ef0a))
+- console error warning for react props ([#1298](https://github.com/coingaming/moon-design/issues/1298)) ([9efef0a](https://github.com/coingaming/moon-design/commit/9efef0a3c2f1842dd1928401022b16de199c2b9d))
 
 ## [6.4.3](https://github.com/coingaming/moon-design/compare/v6.4.2...v6.4.3) (2021-08-09)
 
-
 ### Bug Fixes
 
-* getting-started.tsx peer deps ([#1296](https://github.com/coingaming/moon-design/issues/1296)) ([46e0afa](https://github.com/coingaming/moon-design/commit/46e0afaf9bc84a5a789878e3eca5bac014334b02))
-
-
-
-
+- getting-started.tsx peer deps ([#1296](https://github.com/coingaming/moon-design/issues/1296)) ([46e0afa](https://github.com/coingaming/moon-design/commit/46e0afaf9bc84a5a789878e3eca5bac014334b02))
 
 ## [6.4.2](https://github.com/coingaming/moon-design/compare/v6.4.1...v6.4.2) (2021-08-09)
 
-
 ### Bug Fixes
 
-* code snippet overflow ([#1294](https://github.com/coingaming/moon-design/issues/1294)) ([559ad51](https://github.com/coingaming/moon-design/commit/559ad51e03c1d9ba8f01c262fc236e39f868d96f))
-
-
-
-
+- code snippet overflow ([#1294](https://github.com/coingaming/moon-design/issues/1294)) ([559ad51](https://github.com/coingaming/moon-design/commit/559ad51e03c1d9ba8f01c262fc236e39f868d96f))
 
 ## [6.4.1](https://github.com/coingaming/moon-design/compare/v6.4.0...v6.4.1) (2021-08-05)
 
