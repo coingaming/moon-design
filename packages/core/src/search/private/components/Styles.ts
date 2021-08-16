@@ -29,6 +29,9 @@ export const ModalClose = styled(Button)(
     fontSize: rem(base.fontSize),
     overflow: 'visible',
     color: color.bulma[100],
+    ['&:hover:not([disabled])']: {
+      color: color.bulma[100],
+    },
     [mq(breakpoint.medium, 'min-width')]: {
       display: 'none',
     },
@@ -50,7 +53,7 @@ export const Results = styled.ul<{ size?: SearchInputSize }>(
       space,
     },
   }) => ({
-    position: 'relative',
+    position: 'absolute',
     left: 0,
     top: rem(space.small),
     display: 'flex',
