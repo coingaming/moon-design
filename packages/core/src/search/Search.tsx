@@ -1,39 +1,35 @@
 import React, { useRef, useState } from 'react';
 
 import Popup from './private/components/Popup';
-import { Result, SearchResults } from './private/components/SearchResults';
+import { SearchResults } from './private/components/SearchResults';
 import { SearchForm } from './private/components/Form';
 import {
   SearchBox,
+  SearchClearButton,
   SearchClearIcon,
   SearchInput,
   SearchInputIcon,
   SearchInputSize,
-  SearchClearButton,
 } from './private/components/Input';
 
 interface SearchProps {
   closeButton?: JSX.Element;
-  loadingMessage?: JSX.Element;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
-  results?: Result;
+  results?: JSX.Element;
   size?: SearchInputSize;
-  tabs?: Result;
 }
 
 const Search: React.FC<SearchProps> = ({
   closeButton,
-  loadingMessage,
   onChange,
   onSubmit,
   placeholder,
   query = '',
   results,
   size = 'medium',
-  tabs,
   ...props
 }) => {
   const [popupOpen, setPopupOpen] = useState(false);
@@ -90,8 +86,8 @@ const Search: React.FC<SearchProps> = ({
       }
     >
       <>
-        {popupOpen && (results || loadingMessage || tabs) && (
-          <SearchResults {...{ results, loadingMessage, size, tabs }} />
+        {popupOpen && results && (
+          <SearchResults results={results} />
         )}
       </>
     </Popup>
