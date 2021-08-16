@@ -34,7 +34,7 @@ export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
 
 export const SearchClearIcon = styled(IconClose)<React.SVGProps<SVGSVGElement>>(
   ({ theme: { color, fontSize, space } }) => ({
-    color: color.bulma[100],
+    color: color.trunks[100],
     fontSize: rem(fontSize.body),
     width: space.default,
     height: space.default,
@@ -50,7 +50,7 @@ export const SearchInputIcon = styled(IconSearch)<
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
   fontSize: rem(fontSize.body),
-  color: color.bulma[100],
+  color: color.trunks[100],
   pointerEvents: 'none',
   width: space.default,
   height: space.default,
@@ -61,7 +61,7 @@ export const SearchMenuIcon = styled(IconMenu)<React.SVGProps<SVGSVGElement>>(
     position: 'absolute',
     top: '50%',
     right: rem(space.default),
-    color: color.bulma[100],
+    color: color.trunks[100],
     fontSize: rem(fontSize.body),
     transform: 'translateY(-50%)',
     zIndex: zIndex.searchIcon,
@@ -71,17 +71,17 @@ export const SearchMenuIcon = styled(IconMenu)<React.SVGProps<SVGSVGElement>>(
 );
 
 export const SearchInput = styled.input<
-  React.InputHTMLAttributes<HTMLInputElement> & { inputSize: SearchInputSize }
+  React.InputHTMLAttributes<HTMLInputElement> & { hasBorder: boolean, inputSize: SearchInputSize }
 >(
   ({
     inputSize,
+    hasBorder,
     theme: { color, fontSize, fontWeight, radius, space, transitionDuration },
   }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(fontSize.body),
     width: '100%',
     lineHeight: 1,
-    border: `${rem(borderWidth)} solid ${color.beerus[100]}`,
     position: 'relative',
     paddingTop: 0,
     paddingRight: rem(padding[inputSize] + space.default),
@@ -89,9 +89,10 @@ export const SearchInput = styled.input<
     paddingLeft: rem(2 * padding[inputSize] + space.default),
     textOverflow: 'ellipsis',
     overflow: 'hidden',
-    borderRadius: radius.default,
     backgroundColor: color.goku[100],
     color: color.trunks[100],
+    border: hasBorder && `${rem(borderWidth)} solid transparent`,
+    borderRadius: radius.default,
     outline: 0,
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
@@ -99,8 +100,13 @@ export const SearchInput = styled.input<
     '&::placeholder': {
       color: 'inherit',
     },
+    '&:hover': {
+      backgroundColor: color.gohan[100],
+      borderColor: hasBorder && color.beerus[100],
+    },
     '&:active, &:focus': {
-      borderColor: color.piccolo[100],
+      backgroundColor: color.gohan[100],
+      borderColor: hasBorder && color.piccolo[100],
       color: color.bulma[100],
     },
   })
@@ -114,7 +120,7 @@ export const SearchBox = styled.span<SearchBoxProps>(
     overflow: 'visible',
     width: '100%',
   }),
-  ({ size }) => ({
-    height: size === 'small' ? rem(40) : rem(48),
+  ({ size }) => !!size && ({
+    height: rem(inputConfig.height[size]),
   })
 );
