@@ -16,4 +16,8 @@ export const inputConfig = {
     small: 12,
     medium: 20,
   },
+  height: {
+    small: 40,
+    medium: 48,
+  },
 };

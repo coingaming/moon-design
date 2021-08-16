@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
+
+
+### Features
+
+* add DOGE icon ([#1313](https://github.com/coingaming/moon-design/issues/1313)) ([73d5c3e](https://github.com/coingaming/moon-design/commit/73d5c3e2d9ffdae98ca1c9696fb4176806ebcfe3))
+
+
+
+
+
 ## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
 
 
