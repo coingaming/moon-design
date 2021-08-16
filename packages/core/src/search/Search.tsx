@@ -14,7 +14,7 @@ import {
 
 interface SearchProps {
   closeButton?: JSX.Element;
-  hasBorder: boolean;
+  hasBorder?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onClear?: () => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;

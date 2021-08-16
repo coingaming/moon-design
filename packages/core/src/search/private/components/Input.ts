@@ -89,7 +89,7 @@ export const SearchInput = styled.input<
     paddingLeft: rem(2 * padding[inputSize] + space.default),
     textOverflow: 'ellipsis',
     overflow: 'hidden',
-    backgroundColor: color.goku[100],
+    backgroundColor: hasBorder ? color.goku[100] : color.gohan[100],
     color: color.trunks[100],
     borderRadius: radius.default,
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',

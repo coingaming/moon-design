@@ -5,11 +5,12 @@ import { IconProfile } from '@heathmont/moon-assets';
 
 const PreviewSearch = () => {
   return (
-    <div className="h-96 bg-red-600 p-4">
+    <div className="h-96 bg-white p-4">
       <Search
         closeButton={<span>Clear</span>}
         placeholder="Search"
         size="small"
+        hasBorder={false}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
