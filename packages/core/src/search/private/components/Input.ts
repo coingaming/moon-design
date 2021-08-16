@@ -74,8 +74,8 @@ export const SearchInput = styled.input<
   React.InputHTMLAttributes<HTMLInputElement> & { hasBorder: boolean, inputSize: SearchInputSize }
 >(
   ({
-    inputSize,
     hasBorder,
+    inputSize,
     theme: { color, fontSize, fontWeight, radius, space, transitionDuration },
   }) => ({
     fontWeight: fontWeight.normal,
@@ -91,8 +91,8 @@ export const SearchInput = styled.input<
     overflow: 'hidden',
     backgroundColor: color.goku[100],
     color: color.trunks[100],
-    border: hasBorder && `${rem(borderWidth)} solid transparent`,
     borderRadius: radius.default,
+    border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
@@ -102,11 +102,11 @@ export const SearchInput = styled.input<
     },
     '&:hover': {
       backgroundColor: color.gohan[100],
-      borderColor: hasBorder && color.beerus[100],
+      borderColor: color.beerus[100],
     },
     '&:active, &:focus': {
       backgroundColor: color.gohan[100],
-      borderColor: hasBorder && color.piccolo[100],
+      borderColor: color.piccolo[100],
       color: color.bulma[100],
     },
   })
