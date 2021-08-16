@@ -24,13 +24,20 @@ const rename = (name) => {
   // toUpperCase
   // "Time=stopwatch-timer" -> "Time=Stopwatch-Timer"
   const upperCased = replace(
-    /(^|\=|-|\s)(\S)/g,
+    /(^|\=|-|\(|\s)(\S)/g,
     (s) => s.toUpperCase(),
     trimmedType
   );
+  // toUpperCase after "(" parentheses
+  // Type="Hand (pointing)" -> "Type="Hand (Pointing)"
+  const upperCasedParentheses = replace(
+    /(^|\()(\S)/g,
+    (s) => s.toUpperCase(),
+    upperCased
+  );
   // get rid of "=", "-", ":" etc
   // "Time=Stopwatch-Timer" -> "TimeStopwatchTimer"
-  const trimmed = replace(/\=|-|:|\s/g, '', upperCased);
+  const trimmed = replace(/\=|-|:|\(|\)|\s/g, '', upperCasedParentheses);
   return trimmed;
 };
 
