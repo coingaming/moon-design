@@ -14,7 +14,9 @@ import {
 
 interface SearchProps {
   closeButton?: JSX.Element;
+  hasBorder?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onClear?: () => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
@@ -24,7 +26,9 @@ interface SearchProps {
 
 const Search: React.FC<SearchProps> = ({
   closeButton,
+  hasBorder = true,
   onChange,
+  onClear,
   onSubmit,
   placeholder,
   query = '',
@@ -44,6 +48,7 @@ const Search: React.FC<SearchProps> = ({
   const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
     e.stopPropagation();
     setSearchStr('');
+    onClear && onClear();
   };
 
   const closePopup = () => {
@@ -64,6 +69,7 @@ const Search: React.FC<SearchProps> = ({
           <SearchBox size={size}>
             <SearchInput
               autoComplete="off"
+              hasBorder={hasBorder}
               inputSize={size}
               onChange={searchChange}
               onFocus={openPopup}
