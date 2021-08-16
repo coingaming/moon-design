@@ -16,54 +16,25 @@ const PreviewSearch = () => {
         onSubmit={(e: React.FormEvent) => {
           console.log('Submitted', e);
         }}
-        results={{
-          title: <span>Recent searches</span>,
-          items: [
-            <span
-              onClick={() => {
-                console.log('Click');
-              }}
-              style={{ display: 'flex', gap: '10px' }}
-            >
+        results={
+          <>
+            <li>Categories</li>
+            <li>
+              <button>Btn 1</button>
+              <button>Btn 1</button>
+            </li>
+            <li>Recent Searches</li>
+            <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
               <IconProfile /> First Game
-            </span>,
-            <span style={{ display: 'flex', gap: '10px' }}>
+            </li>
+            <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
               <IconProfile /> Second Game
-            </span>,
-            <span style={{ display: 'flex', gap: '10px' }}>
+            </li>
+            <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
               <IconProfile /> Third Game
-            </span>,
-          ],
-        }}
-        tabs={{
-          title: <span>I'm looking for...</span>,
-          items: [
-            <button
-              onClick={() => {
-                console.log('Click');
-              }}
-            >
-              First Game
-            </button>,
-            <button>Second Game</button>,
-            <button>Third Game</button>,
-            <button style={{ display: 'flex', gap: '10px' }}>
-              <IconProfile /> Third Game
-            </button>,
-            <button style={{ display: 'flex', gap: '10px' }}>
-              <IconProfile /> Third Game
-            </button>,
-            <button style={{ display: 'flex', gap: '10px' }}>
-              <IconProfile /> Third Game
-            </button>,
-            <button style={{ display: 'flex', gap: '10px' }}>
-              <IconProfile /> Third Game
-            </button>,
-            <button style={{ display: 'flex', gap: '10px' }}>
-              <IconProfile /> Third Game
-            </button>,
-          ],
-        }}
+            </li>
+          </>
+        }
       />
     </div>
   );
@@ -77,7 +48,7 @@ const PreviewSearchLoading = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
-        loadingMessage={<p>Loading...</p>}
+        results={<li>Loading...</li>}
       />
     </div>
   );

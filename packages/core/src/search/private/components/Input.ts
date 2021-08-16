@@ -81,7 +81,7 @@ export const SearchInput = styled.input<
     fontSize: rem(fontSize.body),
     width: '100%',
     lineHeight: 1,
-    border: `${rem(borderWidth)} solid transparent`,
+    border: `${rem(borderWidth)} solid ${color.beerus[100]}`,
     position: 'relative',
     paddingTop: 0,
     paddingRight: rem(padding[inputSize] + space.default),
@@ -98,9 +98,6 @@ export const SearchInput = styled.input<
     transitionDuration: `${transitionDuration.default}s`,
     '&::placeholder': {
       color: 'inherit',
-    },
-    '&:hover': {
-      borderColor: color.beerus[100],
     },
     '&:active, &:focus': {
       borderColor: color.piccolo[100],
