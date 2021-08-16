@@ -8,8 +8,9 @@ import IconCurrencyBrl from '../icons/IconCurrencyBrl';
 import IconCurrencyBtc from '../icons/IconCurrencyBtc';
 import IconCurrencyCad from '../icons/IconCurrencyCad';
 import IconCurrencyClp from '../icons/IconCurrencyClp';
-import IconCurrencyCrc from '../icons/IconCurrencyCrc';
 import IconCurrencyCny from '../icons/IconCurrencyCny';
+import IconCurrencyCrc from '../icons/IconCurrencyCrc';
+import IconCurrencyDoge from '../icons/IconCurrencyDoge';
 import IconCurrencyEth from '../icons/IconCurrencyEth';
 import IconCurrencyEur from '../icons/IconCurrencyEur';
 import IconCurrencyGel from '../icons/IconCurrencyGel';
@@ -47,6 +48,7 @@ type CurrencyName =
   | 'CLP'
   | 'CRC'
   | 'CNY'
+  | 'DOGE'
   | 'ETH'
   | 'EUR'
   | 'GEL'
@@ -89,6 +91,7 @@ const currencyIcons = {
   CLP: IconCurrencyClp,
   CRC: IconCurrencyCrc,
   CNY: IconCurrencyCny,
+  DOGE: IconCurrencyDoge,
   ETH: IconCurrencyEth,
   EUR: IconCurrencyEur,
   GEL: IconCurrencyGel,
