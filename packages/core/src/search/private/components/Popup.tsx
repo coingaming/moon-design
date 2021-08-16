@@ -85,9 +85,7 @@ const Popup: React.FC<PopupProps> = ({
           <ModalClose onClick={closePopup}>{closeButton}</ModalClose>
         ) : null}
       </FlexWrapper>
-      {isOpen && children && (
-        <FlexWrapper className="mt-4">{children}</FlexWrapper>
-      )}
+      {isOpen && children && <FlexWrapper>{children}</FlexWrapper>}
     </StyledPopup>
   );
 };

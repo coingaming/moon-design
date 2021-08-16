@@ -3,21 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
+
+**Note:** Version bump only for package @heathmont/moon-popover
+
+
+
+
+
+## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
+
+**Note:** Version bump only for package @heathmont/moon-popover
+
+
+
+
+
 ## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
 
 **Note:** Version bump only for package @heathmont/moon-popover
 
-
-
-
-
 ## [6.4.4](https://github.com/coingaming/moon-design/compare/v6.4.3...v6.4.4) (2021-08-10)
 
 **Note:** Version bump only for package @heathmont/moon-popover
-
-
-
-
 
 ## [6.4.1](https://github.com/coingaming/moon-design/compare/v6.4.0...v6.4.1) (2021-08-05)
 
