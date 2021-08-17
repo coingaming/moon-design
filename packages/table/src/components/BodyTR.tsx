@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { rem, themed } from '@heathmont/moon-utils';
-import TD from "./TD";
 import tint from 'polished/lib/color/tint';
 import { ColorNames } from '@heathmont/moon-themes';
+
+import TD from "./TD";
 
 const BodyTR = styled.div<{
   onClick?: any;
@@ -93,10 +94,10 @@ const BodyTR = styled.div<{
         ? {
           [TD]: {
             '&:first-child': {
-              borderBottomLeftRadius: theme.radius.default,
+              borderBottomLeftRadius: rem(theme.radius.default),
             },
             '&:last-child': {
-              borderBottomRightRadius: theme.radius.default,
+              borderBottomRightRadius: rem(theme.radius.default),
             }
           }
         }

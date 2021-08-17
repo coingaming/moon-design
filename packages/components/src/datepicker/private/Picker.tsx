@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import rem from 'polished/lib/helpers/rem';
 import addMonths from 'date-fns/addMonths';
-import { mq } from '@heathmont/moon-utils';
+import { mq, rem} from '@heathmont/moon-utils';
 
 import IconChevronLeft from '../../private/icons/IconChevronLeft';
 import IconChevronRight from '../../private/icons/IconChevronRight';
@@ -38,7 +37,7 @@ const PickerContainer = styled.div(
     },
     paddingBottom: rem(space.default),
     gap: rem(space.default),
-    borderRadius: radius.default,
+    borderRadius: rem(radius.default),
     padding: space.small,
     backgroundColor: color.goku[100],
     boxShadow: `4px 4px 12px ${color.hit[80]},
