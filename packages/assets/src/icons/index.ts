@@ -142,6 +142,8 @@ export { default as IconCurrencyCny } from './IconCurrencyCny';
 export * from './IconCurrencyCny';
 export { default as IconCurrencyCrc } from './IconCurrencyCrc';
 export * from './IconCurrencyCrc';
+export { default as IconCurrencyDoge } from './IconCurrencyDoge';
+export * from './IconCurrencyDoge';
 export { default as IconCurrencyEth } from './IconCurrencyEth';
 export * from './IconCurrencyEth';
 export { default as IconCurrencyEur } from './IconCurrencyEur';

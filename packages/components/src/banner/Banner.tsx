@@ -40,7 +40,7 @@ const IconWrapper = styled.div({
 
 const IconCloseWrapper = styled.div(({ theme }) => ({
   backgroundColor: theme.color.goku[100],
-  borderRadius: theme.radius.largest,
+  borderRadius: rem(theme.radius.largest),
   marginLeft: 'auto',
   cursor: 'pointer',
   width: rem(24),

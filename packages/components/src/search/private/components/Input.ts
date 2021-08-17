@@ -38,7 +38,7 @@ export const SearchInput = styled.input(({ theme }) => {
     ),
     textOverflow: 'ellipsis',
     overflow: 'hidden',
-    borderRadius: theme.radius.largest,
+    borderRadius: rem(theme.radius.largest),
     backgroundColor: theme.color.gohan[100],
     color: theme.color.trunks[100],
     zIndex: zIndex.searchInput,

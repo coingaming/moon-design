@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import rgba from 'polished/lib/color/rgba';
 import { rem, themed } from '@heathmont/moon-utils';
+
 import BodyTR from "./BodyTR";
 import TD from "./TD";
 import TH from "./TH";
@@ -81,8 +82,8 @@ const TableWrapper = styled.div<{
               display: 'none',
             },
             '& + div': {
-              borderTopLeftRadius: theme.radius.default,
-              borderBottomLeftRadius: theme.radius.default,
+              borderTopLeftRadius: rem(theme.radius.default),
+              borderBottomLeftRadius: rem(theme.radius.default),
             },
           }
         }

@@ -7,7 +7,7 @@ import IconToastClose from '../icons/IconToastClose';
 const Wrapper = styled.button(({ theme }) => ({
   backgroundColor: theme.color.bulma[100],
   border: `1px solid ${theme.color.trunks[100]}`,
-  borderRadius: theme.radius.largest,
+  borderRadius: rem(theme.radius.largest),
   cursor: 'pointer',
   minWidth: rem(24),
   minHeight: rem(24),
