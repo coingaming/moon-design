@@ -75,6 +75,8 @@ export const Results = styled.ul(
     [mq(breakpoint.medium, 'min-width')]: {
       width: 'auto',
       minWidth: '300px',
+      maxWidth: '100%',
+      boxSizing: 'border-box',
       padding: `${rem(space.small)} ${rem(space.xsmall)}`,
       '&::before': {
         borderRadius: em(radius.default),
