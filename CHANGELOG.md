@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
+
+
+### Bug Fixes
+
+* border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+* build ([98f97b3](https://github.com/coingaming/moon-design/commit/98f97b3baf79830693fd56e7a8b77f1573a6144c))
+
+
+### Features
+
+* IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
+
+
+
+
+
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
+
+
+### Features
+
+* IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
+
+
+
+
+
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
 
