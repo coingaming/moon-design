@@ -1050,6 +1050,14 @@
     scroll-into-view-if-needed "2.2.22"
     smooth-scroll-into-view-if-needed "1.1.27"
 
+"@heathmont/moon-core@^6.5.1-alpha.1":
+  version "6.5.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-core/-/moon-core-6.5.1-alpha.1.tgz#492e944efc43d8fac739d402a44ea28af2484467"
+  integrity sha512-tmW+xLvsTVtlTnrxFtyqAlxOjKDjnIQ77BPdivYfEchKpMmLMOKXpvGgg4Wf14yHWAmVftC1PKQ/sQexRWuPNw==
+  dependencies:
+    "@heathmont/moon-themes" "^6.5.1-alpha.1+97b99007"
+    "@heathmont/moon-utils" "^6.5.1-alpha.1+97b99007"
+
 "@heathmont/moon-pagination@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-pagination/-/moon-pagination-5.0.0.tgz#3d51d42eae5b2de8442a2374032ada8d5190c154"
@@ -1067,6 +1075,11 @@
   resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-5.8.3.tgz#853ddca4bface50bb0638f3e57017f8479e5e1c3"
   integrity sha512-r3N5fpKq2SJozCfomZhyrHxJ/Hd+dnjZ5LVyn8DNIHRb+I6gu8eloNEgql2tOUa5ayiQEVdjZcoIpbRgJLRu2g==
 
+"@heathmont/moon-themes@^6.5.1-alpha.1+97b99007":
+  version "6.5.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-6.5.1-alpha.1.tgz#8aaf845309c1004a02e64c124f040dfae5b49d40"
+  integrity sha512-ihVAZSGe4grKDdr0EZVTj3wNq//QZnQWDWzczK03Z4AFBcaHm+GsLEpFnfxn04p01zOjKIICGGevGkrA3fk0ew==
+
 "@heathmont/moon-utils@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-5.0.0.tgz#2537003cd584dd55a291f751c1e937497e4beb21"
@@ -1083,6 +1096,16 @@
   integrity sha512-/Oxek9qDmBq/1gKRMm0jUMUjxEz84QjDKDM/lP0ZXA3SIFSuw1an2XLd5+bLGqNPKceM4TiF2mhiQbwIyEvGCg==
   dependencies:
     "@heathmont/moon-themes" "^5.8.3"
+    lodash.get "4.4.2"
+    lodash.has "4.5.2"
+    polished "3.4.1"
+
+"@heathmont/moon-utils@^6.5.1-alpha.1+97b99007":
+  version "6.5.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-6.5.1-alpha.1.tgz#d2ea15a633700d8aac902d306825939a7a06eae6"
+  integrity sha512-RnoL4FQi0RUyydpLzx9gCDkOELKJl9RyR6xFPlvlGTh1SfyUXXdDal3QYCRIcK4ouf0sOoKRBp7ccLkcAJWr3A==
+  dependencies:
+    "@heathmont/moon-themes" "^6.5.1-alpha.1+97b99007"
     lodash.get "4.4.2"
     lodash.has "4.5.2"
     polished "3.4.1"

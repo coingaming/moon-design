@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import { em, mq, rem } from '@heathmont/moon-utils';
+import { mq, rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
 import { zIndex } from './settings';
-import { SearchInputSize } from './Input';
 
 /**
  * Search Styles
@@ -77,7 +76,7 @@ export const Results = styled.ul(
       minWidth: '300px',
       padding: `${rem(space.small)} ${rem(space.xsmall)}`,
       '&::before': {
-        borderRadius: em(radius.default),
+        borderRadius: rem(radius.default),
         borderWidth,
         content: "' '",
         position: 'absolute',

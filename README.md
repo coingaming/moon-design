@@ -21,13 +21,20 @@
    ```sh
    yarn build
    ```
-3. Compile and build storybook:
+   
+3. Run storybook for development:
+
+   ```sh
+   yarn next dev
+   ```
+   
+4. Compile and build storybook:
 
    ```sh
    yarn next build
    ```
 
-4. Run locally at [`:3000`](http://localhost:3000):
+5. Run locally at [`:3000`](http://localhost:3000):
 
    ```sh
    yarn next start
