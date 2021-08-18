@@ -4,11 +4,13 @@ import { Button } from '@heathmont/moon-components';
 
 import { zIndex } from './settings';
 
-/**
- * Search Styles
- * The functional container for the search component.
- * We aren't using Design System form because we use focus-within logic here
- */
+export const SearchForm = styled.form({
+  display: 'flex',
+  position: 'relative',
+  overflow: 'visible',
+  width: '100%',
+});
+
 export const FlexWrapper = styled.div(({ theme: { space } }) => ({
   position: 'relative',
   display: 'flex',
@@ -27,9 +29,9 @@ export const ModalClose = styled(Button)(
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
     overflow: 'visible',
-    color: color.bulma[100],
+    color: color.piccolo[100],
     ['&:hover:not([disabled])']: {
-      color: color.bulma[100],
+      color: color.piccolo[100],
     },
     [mq(breakpoint.medium, 'min-width')]: {
       display: 'none',
@@ -37,19 +39,9 @@ export const ModalClose = styled(Button)(
   })
 );
 
-/**
- * Search Results List
- */
 export const Results = styled.div(
   ({
-    theme: {
-      borderWidth,
-      boxShadow,
-      breakpoint,
-      color,
-      radius,
-      space,
-    },
+    theme: { borderWidth, boxShadow, breakpoint, color, radius, space },
   }) => ({
     position: 'absolute',
     left: 0,
@@ -63,21 +55,12 @@ export const Results = styled.div(
       maxWidth: '100%',
       boxSizing: 'border-box',
       padding: `${rem(space.small)} ${rem(space.xsmall)}`,
-      '&::before': {
-        borderRadius: rem(radius.default),
-        borderWidth,
-        content: "' '",
-        position: 'absolute',
-        height: '100%',
-        width: '100%',
-        backgroundColor: color.gohan[100],
-        boxShadow,
-        top: `-${borderWidth}px`,
-        left: `-${borderWidth}px`,
-        borderStyle: 'solid',
-        borderColor: color.beerus[100],
-        zIndex: -1,
-      },
+      borderRadius: rem(radius.default),
+      borderWidth,
+      borderStyle: 'solid',
+      borderColor: color.beerus[100],
+      backgroundColor: color.gohan[100],
+      boxShadow,
     },
   })
 );

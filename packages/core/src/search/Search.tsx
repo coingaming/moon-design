@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 
 import Popup from './private/components/Popup';
 import { SearchResults } from './private/components/SearchResults';
-import { SearchForm } from './private/components/Form';
+import { SearchForm } from './private/components/Styles';
 import {
   SearchBox,
   SearchClearButton,
