@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.7.3](https://github.com/coingaming/moon-design/compare/v6.7.2...v6.7.3) (2021-08-18)
+
+
+### Bug Fixes
+
+* B1M2-2163 styling fixes for search component in mobile ([#1326](https://github.com/coingaming/moon-design/issues/1326)) ([0e7f202](https://github.com/coingaming/moon-design/commit/0e7f20231fa14527b5a7a27e6e0cd9fa2c903d2a))
+
+
+
+
+
 ## [6.7.2](https://github.com/coingaming/moon-design/compare/v6.7.1...v6.7.2) (2021-08-18)
 
 
