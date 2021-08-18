@@ -1,15 +1,24 @@
 import React from 'react';
+import { get } from 'lodash';
 import {
   LogoSportsbetShort,
   LogoBitcasinoShort,
   LogoMoonDesignShort,
+  LogoBetaddaShort
 } from '@heathmont/moon-assets';
+
+const Logos = {
+  sportsbet: <LogoSportsbetShort fontSize="1rem" />,
+  bitcasino: <LogoBitcasinoShort fontSize="1rem" />,
+  moonDesign: <LogoMoonDesignShort fontSize="1rem" />,
+  betadda: <LogoBetaddaShort fontSize="1rem" />,
+}
 
 const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
   const filteredThemeKeys = themeKeys.filter((themeKey: any) =>
-    ['sportsbet', 'bitcasino', 'moonDesign'].includes(themeKey)
+    ['sportsbet', 'bitcasino', 'moonDesign', 'betadda'].includes(themeKey)
   );
   return (
     <>
@@ -38,23 +47,20 @@ const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
       {isOpened && (
         <>
           <div className="fixed bottom-16 right-4">
-            {filteredThemeKeys.map((themeKey: any) => (
-              <button
-                type="button"
-                onClick={() => setBrand(themeKey)}
-                className="p-2 rounded-full ml-4 text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center"
-              >
-                {themeKey === 'sportsbet' && (
-                  <LogoSportsbetShort fontSize="1rem" />
-                )}
-                {themeKey === 'bitcasino' && (
-                  <LogoBitcasinoShort fontSize="1rem" />
-                )}
-                {themeKey === 'moonDesign' && (
-                  <LogoMoonDesignShort fontSize="1rem" />
-                )}
-              </button>
-            ))}
+            {filteredThemeKeys.map((themeKey: any) => {
+              const Logo = get(Logos, themeKey, Logos.moonDesign);
+              return (
+                <button
+                  key={themeKey}
+                  type="button"
+                  onClick={() => setBrand(themeKey)}
+                  className="p-2 rounded-full ml-4 text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center"
+                >
+                  {Logo}
+                </button>
+              );
+            }
+            )}
           </div>
           <div className="fixed bottom-28 right-4">{darkLight}</div>
         </>
