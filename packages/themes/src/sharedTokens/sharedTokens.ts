@@ -306,6 +306,7 @@ export type Base = {
 };
 
 export type Brand =
+  | 'Betadda'
   | 'Sportsbet.io'
   | 'Bitcasino.io'
   | 'Comms'

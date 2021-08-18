@@ -22,38 +22,21 @@ const Main = styled.main(({ theme: { breakpoint } }) => ({
   },
 }));
 
-// const themes = {
-//   moonDark: 'theme-moon-dark',
-//   moonLight: 'theme-moon-light',
-// };
+const brandMap: any = {
+  moonDesign: 'moon',
+  sportsbet: 'sportsbet',
+  bitcasino: 'bitcasino',
+  betadda: 'betadda',
+  hub88: 'hub88',
+}
 
-const getClassName = ({ brand, colorMode }) => {
-  if (brand === 'moonDesign') {
-    if (colorMode === 'dark') {
-      return 'theme-moon-dark';
-    }
-    if (colorMode === 'light') {
-      return 'theme-moon-light';
-    }
-  }
-  if (brand === 'sportsbet') {
-    if (colorMode === 'dark') {
-      return 'theme-sportsbet-dark';
-    }
-    if (colorMode === 'light') {
-      return 'theme-sportsbet-light';
-    }
-  }
-  if (brand === 'bitcasino') {
-    if (colorMode === 'dark') {
-      return 'theme-bitcasino-dark';
-    }
-    if (colorMode === 'light') {
-      return 'theme-bitcasino-light';
-    }
-  }
-  if (brand === 'hub88') {
-    return 'theme-hub88';
+const singleThemedBrands = [brandMap.hub88];
+
+const getClassName = ({ brand, colorMode }: any) => {
+  const brandName = brandMap[brand];
+  const singleThemed = singleThemedBrands.includes(brandName);
+  if (brandName) {
+    return singleThemed ? `theme-${brandName}` : `theme-${brandName}-${colorMode}`;
   }
   return 'theme-moon-dark';
 };
@@ -145,7 +128,7 @@ export default ({ children }: Children) => {
         </div>
         <main
           className="bg-goku -1 relative z-0 overflow-y-auto focus:outline-none"
-          // tabIndex={0}
+        // tabIndex={0}
         >
           <div className="py-6">
             <DarkModeSwitcher

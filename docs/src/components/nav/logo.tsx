@@ -15,6 +15,7 @@ import {
   LogoMoonDesign,
   LogoMoneyball,
   LogoCommsFull,
+  LogoBetaddaFull,
 } from '@heathmont/moon-assets';
 import { mq } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
@@ -76,6 +77,9 @@ export const Logo = () => {
       {brand === 'Sportsbet.io' && (
         <LogoSportsbetFull height="100%" width="auto" />
       )}
+      {brand === 'Betadda' && (
+        <LogoBetaddaFull height="100%" />
+      )}
       {brand === 'Bitcasino.io' && (
         <LogoBitcasinoFull height="100%" width="auto" />
       )}
@@ -112,6 +116,7 @@ export const Logo = () => {
         <option value="comms">Comms</option>
         <option value="shangrila">Shangri La</option>
         <option value="empire">Empire</option>
+        <option value="betadda">Betadda</option>
       </BrandSelect>
     </LogoContainer>
   );

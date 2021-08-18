@@ -7,10 +7,20 @@ import {
   LogoHub88Short,
 } from '@heathmont/moon-assets';
 
-const ThemeSwitcher = ({ setBrand, themeKeys }) => {
+type InnerProps = {
+  setBrand: any,
+  themeKeys: string[],
+}
+const Logo = {
+  sportsbet: <LogoSportsbetShort fontSize="1rem" />,
+  bitcasino: <LogoBitcasinoShort fontSize="1rem" />,
+  moonDesign: <LogoMoonDesignShort fontSize="1rem" />,
+  hub88: <LogoHub88Short fontSize="1rem" />,
+}
+const ThemeSwitcher = ({ setBrand, themeKeys }: InnerProps) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
-  const filteredThemeKeys = themeKeys.filter((themeKey) =>
+  const filteredThemeKeys = themeKeys.filter((themeKey: string) =>
     ['sportsbet', 'bitcasino', 'moonDesign', 'hub88'].includes(themeKey));
   return (
     <>
@@ -24,25 +34,15 @@ const ThemeSwitcher = ({ setBrand, themeKeys }) => {
       </button>
       {isOpened && (
         <div className="fixed bottom-16 right-4">
-          {filteredThemeKeys.map((themeKey) => (
+          {filteredThemeKeys.map((themeKey: string) => (
             <button
               key={themeKey}
               type="button"
               onClick={() => setBrand(themeKey)}
               className="p-2 rounded-full ml-4 text-bulma bg-gohan hover:bg-gohan-80 inline-flex items-center justify-center"
             >
-              {themeKey === 'sportsbet' && (
-                <LogoSportsbetShort fontSize="1rem" />
-              )}
-              {themeKey === 'bitcasino' && (
-                <LogoBitcasinoShort fontSize="1rem" />
-              )}
-              {themeKey === 'moonDesign' && (
-                <LogoMoonDesignShort fontSize="1rem" />
-              )}
-              {themeKey === 'hub88' && (
-                <LogoHub88Short fontSize="1rem" />
-              )}
+              {/* @ts-ignore */}
+              {Logo[themeKey]}
             </button>
           ))}
         </div>
