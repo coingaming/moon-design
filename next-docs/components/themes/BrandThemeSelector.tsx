@@ -1,5 +1,4 @@
 import React from 'react';
-import { get } from 'lodash';
 import {
   LogoSportsbetShort,
   LogoBitcasinoShort,
@@ -7,7 +6,7 @@ import {
   LogoBetaddaShort
 } from '@heathmont/moon-assets';
 
-const Logos = {
+const Logos: any = {
   sportsbet: <LogoSportsbetShort fontSize="1rem" />,
   bitcasino: <LogoBitcasinoShort fontSize="1rem" />,
   moonDesign: <LogoMoonDesignShort fontSize="1rem" />,
@@ -48,7 +47,7 @@ const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
         <>
           <div className="fixed bottom-16 right-4">
             {filteredThemeKeys.map((themeKey: any) => {
-              const Logo = get(Logos, themeKey, Logos.moonDesign);
+              const Logo = Logos[themeKey] || Logos.moonDesign;
               return (
                 <button
                   key={themeKey}
