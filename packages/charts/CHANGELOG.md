@@ -3,37 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.7.0](https://github.com/coingaming/moon-design/compare/v6.6.0...v6.7.0) (2021-08-18)
+
+### Features
+
+- B1M2-3279 add betadda theme ([#1320](https://github.com/coingaming/moon-design/issues/1320)) ([767922f](https://github.com/coingaming/moon-design/commit/767922faebd709d444e796953f75b6765cf842c4))
+
 # [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
 
 **Note:** Version bump only for package @heathmont/moon-charts
-
-
-
-
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
 **Note:** Version bump only for package @heathmont/moon-charts
 
-
-
-
-
 ## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
 
 **Note:** Version bump only for package @heathmont/moon-charts
 
-
-
-
-
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
 **Note:** Version bump only for package @heathmont/moon-charts
-
-
-
-
 
 ## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
 

@@ -3,49 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
-
+# [6.7.0](https://github.com/coingaming/moon-design/compare/v6.6.0...v6.7.0) (2021-08-18)
 
 ### Bug Fixes
 
-* border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
-* build ([98f97b3](https://github.com/coingaming/moon-design/commit/98f97b3baf79830693fd56e7a8b77f1573a6144c))
+- bump nextjs to 11.1.0 ([278ff27](https://github.com/coingaming/moon-design/commit/278ff278f593c5c5ab5ca48125b52f9ba78ac487))
 
+### Features
 
+- B1M2-3279 add betadda theme ([#1320](https://github.com/coingaming/moon-design/issues/1320)) ([767922f](https://github.com/coingaming/moon-design/commit/767922faebd709d444e796953f75b6765cf842c4))
 
+# [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
 
+### Bug Fixes
+
+- border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+- build ([98f97b3](https://github.com/coingaming/moon-design/commit/98f97b3baf79830693fd56e7a8b77f1573a6144c))
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
 **Note:** Version bump only for package next-docs
 
-
-
-
-
 ## [6.4.9](https://github.com/coingaming/moon-design/compare/v6.4.8...v6.4.9) (2021-08-16)
 
 **Note:** Version bump only for package next-docs
-
-
-
-
 
 ## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
 
 **Note:** Version bump only for package next-docs
 
-
-
-
-
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
 **Note:** Version bump only for package next-docs
-
-
-
-
 
 ## [6.4.6](https://github.com/coingaming/moon-design/compare/v6.4.5...v6.4.6) (2021-08-11)
 
