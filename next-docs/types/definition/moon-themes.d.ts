@@ -343,6 +343,8 @@ declare module '@heathmont/moon-themes' {
   export const ThemeProvider: any;
   export const sportsbetDark: Theme;
   export const sportsbetLight: Theme;
+  export const betaddaDark: Theme;
+  export const betaddaLight: Theme;
   export const bitcasinoLight: Theme;
   export const bitcasinoDark: Theme;
   export const slotsLight: Theme;

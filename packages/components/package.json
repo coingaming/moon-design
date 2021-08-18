@@ -15,9 +15,9 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^6.6.0",
-    "@heathmont/moon-themes": "^6.6.0",
-    "@heathmont/moon-utils": "^6.6.0",
+    "@heathmont/moon-assets": "^6.7.0",
+    "@heathmont/moon-themes": "^6.7.0",
+    "@heathmont/moon-utils": "^6.7.0",
     "@reach/dialog": "0.11.2",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.15.0",

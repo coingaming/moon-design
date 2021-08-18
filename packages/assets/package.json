@@ -31,8 +31,8 @@
     "build": "yarn build:crests && yarn build:currencies && yarn build:logos && yarn build:patterns && yarn build:icons && yarn build:index"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^6.6.0",
-    "@heathmont/moon-utils": "^6.6.0"
+    "@heathmont/moon-themes": "^6.7.0",
+    "@heathmont/moon-utils": "^6.7.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",

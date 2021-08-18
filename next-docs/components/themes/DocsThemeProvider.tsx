@@ -3,6 +3,8 @@ import {
   ThemeProvider,
   sportsbetDark,
   sportsbetLight,
+  betaddaDark,
+  betaddaLight,
   bitcasinoLight,
   bitcasinoDark,
   slotsLight,
@@ -35,6 +37,10 @@ const themes: DocsThemes = {
   sportsbet: {
     dark: sportsbetDark,
     light: sportsbetLight,
+  },
+  betadda: {
+    dark: betaddaDark,
+    light: betaddaLight,
   },
   bitcasino: {
     dark: bitcasinoDark,
@@ -103,6 +109,7 @@ interface DocsThemes {
   sportsbet: DocsColorModes;
   bitcasino: DocsColorModes;
   slots: DocsColorModes;
+  betadda: DocsColorModes;
   luckyslots: DocsColorModes;
   livecasino: DocsColorModes;
   bombay: DocsColorModes;

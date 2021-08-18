@@ -15,7 +15,7 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^6.6.0",
+    "@heathmont/moon-themes": "^6.7.0",
     "lodash.get": "4.4.2",
     "lodash.has": "4.5.2",
     "polished": "3.4.1"
