@@ -295,6 +295,7 @@ declare module '@heathmont/moon-themes' {
 
   export type Brand =
     | 'Sportsbet.io'
+    | 'Betadda'
     | 'Bitcasino.io'
     | 'Comms'
     | 'Slots.io'

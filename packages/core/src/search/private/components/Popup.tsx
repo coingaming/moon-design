@@ -10,7 +10,7 @@ import { popupConfig } from './settings';
  * The functional container for the search component.
  */
 export const StyledPopup = styled.div(
-  ({ theme: { base, breakpoint, color, zIndex } }) => ({
+  ({ theme: { base, breakpoint, color, space, zIndex } }) => ({
     background: 'transparent',
     position: 'relative',
     padding: 0,
@@ -28,7 +28,7 @@ export const StyledPopup = styled.div(
         bottom: 0,
         left: 0,
         background: color.goten[100],
-        padding: rem(popupConfig.padding),
+        padding: rem(space.default),
       },
     },
   })
