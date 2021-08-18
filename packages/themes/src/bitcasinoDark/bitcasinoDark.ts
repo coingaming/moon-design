@@ -43,6 +43,11 @@ const bitcasinoDark: Theme = {
   },
   fontWeight: avertaStd.fontWeight,
   boxShadow,
+  radius: {
+    small: 4,
+    default: 8,
+    largest: 8,
+  },
   color: {
     ...supportColors,
     text: color.bulma[100],

@@ -21,7 +21,7 @@ export const Input = styled.input<InputProps>(({ theme }) => [
     color: theme.color.bulma[100],
     backgroundColor: theme.color.gohan[100],
     border: `${theme.borderWidth}px solid ${theme.color.beerus[100]}`,
-    borderRadius: rem(12),
+    borderRadius: rem(theme.radius.largest),
     transition: `border-color ${theme.transitionDuration.default}s ease`,
     WebkitAppearance: 'none',
     '&::placeholder': {
