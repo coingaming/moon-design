@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import format from 'date-fns/format';
-import rem from 'polished/lib/helpers/rem';
+import { rem } from '@heathmont/moon-utils';
 
 type DayStyledProps = {
   isInRange?: boolean;
@@ -29,7 +29,7 @@ const DayStyled = styled.div<DayStyledProps>(
       border: '1px solid transparent', // to prevent jumping on hover
       '&:hover': {
         border: `1px solid ${theme.color.trunks[100]}`,
-        borderRadius: theme.radius.largest,
+        borderRadius: rem(theme.radius.largest),
       },
     },
     (isInRange || isInRangePreview) && {
@@ -37,7 +37,7 @@ const DayStyled = styled.div<DayStyledProps>(
     },
     (isStartEdge || isEndEdge) && {
       background: theme.color.piccolo[100],
-      borderRadius: theme.radius.largest,
+      borderRadius: rem(theme.radius.largest),
       color: theme.color.goten[100],
     },
     isToday && {
@@ -52,19 +52,19 @@ const DayWrapper = styled.div<DayStyledProps>(
   }) => [
     isStartEdge && {
       backgroundColor: theme.color.goku[80],
-      borderTopLeftRadius: theme.radius.largest,
-      borderBottomLeftRadius: theme.radius.largest,
+      borderTopLeftRadius: rem(theme.radius.largest),
+      borderBottomLeftRadius: rem(theme.radius.largest),
     },
     isEndEdge && {
       backgroundColor: theme.color.goku[80],
-      borderTopRightRadius: theme.radius.largest,
-      borderBottomRightRadius: theme.radius.largest,
+      borderTopRightRadius: rem(theme.radius.largest),
+      borderBottomRightRadius: rem(theme.radius.largest),
     },
     isInRangePreview && {
       backgroundColor: theme.color.goku[80],
       '&:hover': {
-        borderTopRightRadius: theme.radius.largest,
-        borderBottomRightRadius: theme.radius.largest,
+        borderTopRightRadius: rem(theme.radius.largest),
+        borderBottomRightRadius: rem(theme.radius.largest),
       },
     },
   ],

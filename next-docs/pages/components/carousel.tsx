@@ -1,9 +1,10 @@
 // @ts-nocheck
 import React from 'react';
-
 import { Carousel } from '@heathmont/moon-components';
-import Preview from '../../components/codePreview/Preview';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+
+import Preview from '../../components/codePreview/Preview';
 
 const Example = () => {
   const items = Array.from({ length: 25 }, (value, index) => index);
@@ -11,7 +12,7 @@ const Example = () => {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -40,7 +41,7 @@ const ExampleCustomizedArrows = () => {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -73,7 +74,7 @@ const ExampleSpace = () => {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -96,7 +97,7 @@ const ExampleVisible = () => {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -145,7 +146,7 @@ export default function PageCarousel() {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -188,7 +189,7 @@ export default function PageCarousel() {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -235,7 +236,7 @@ export default function PageCarousel() {
   const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
     width: '20rem',
     height: '12rem',
-    borderRadius: radius.small,
+    borderRadius: rem(radius.small),
     background: color.goku[80],
     display: 'flex',
     alignItems: 'center',
@@ -272,7 +273,7 @@ export default function PageCarousel() {
     const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
       width: '20rem',
       height: '12rem',
-      borderRadius: radius.small,
+      borderRadius: rem(radius.small),
       background: color.goku[80],
       display: 'flex',
       alignItems: 'center',

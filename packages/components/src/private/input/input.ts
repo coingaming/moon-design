@@ -32,7 +32,7 @@ export const Input = styled.input<InputProps>(({ theme }) => [
     color: inputColors('text')(theme),
     backgroundColor: inputColors('background')(theme),
     border: inputBorder(theme),
-    borderRadius: theme.radius.small,
+    borderRadius: rem(theme.radius.small),
     transition: `border-color ${inputAnimationSpeed(theme)} ease`,
     WebkitAppearance: 'none',
     '&::placeholder': {
@@ -67,6 +67,6 @@ export const Input = styled.input<InputProps>(({ theme }) => [
     },
   ({ rounded }) =>
     rounded && {
-      borderRadius: theme.radius.largest,
+      borderRadius: rem(theme.radius.largest),
     },
 ]);

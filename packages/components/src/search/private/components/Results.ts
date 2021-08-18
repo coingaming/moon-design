@@ -1,5 +1,5 @@
 import styled, { CSSObject } from 'styled-components';
-import { em } from '@heathmont/moon-utils';
+import { em, rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
 
 import { inputConfig, zIndex } from './settings';
@@ -39,7 +39,7 @@ export const Results = styled.ul(
     paddingTop: em(inputConfig.height + space.small),
     paddingBottom: em(space.small),
     '&::before': {
-      borderRadius: em(radius.default),
+      borderRadius: rem(radius.default),
       borderWidth,
       content: "' '",
       position: 'absolute',

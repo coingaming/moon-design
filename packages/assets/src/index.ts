@@ -778,6 +778,8 @@ export { default as IconCurrencyCny } from './icons/IconCurrencyCny';
 export * from './icons/IconCurrencyCny';
 export { default as IconCurrencyCrc } from './icons/IconCurrencyCrc';
 export * from './icons/IconCurrencyCrc';
+export { default as IconCurrencyDoge } from './icons/IconCurrencyDoge';
+export * from './icons/IconCurrencyDoge';
 export { default as IconCurrencyEth } from './icons/IconCurrencyEth';
 export * from './icons/IconCurrencyEth';
 export { default as IconCurrencyEur } from './icons/IconCurrencyEur';

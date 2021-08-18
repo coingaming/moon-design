@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Button } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 
@@ -91,7 +90,7 @@ export const SearchInput = styled.input<
     overflow: 'hidden',
     backgroundColor: hasBorder ? color.goku[100] : color.gohan[100],
     color: color.trunks[100],
-    borderRadius: radius.default,
+    borderRadius: rem(radius.default),
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,

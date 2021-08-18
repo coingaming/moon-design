@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { em, mq, rem } from '@heathmont/moon-utils';
+import { mq, rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
 import { zIndex } from './settings';
@@ -64,7 +64,7 @@ export const Results = styled.div(
       boxSizing: 'border-box',
       padding: `${rem(space.small)} ${rem(space.xsmall)}`,
       '&::before': {
-        borderRadius: em(radius.default),
+        borderRadius: rem(radius.default),
         borderWidth,
         content: "' '",
         position: 'absolute',
