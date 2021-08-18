@@ -13,10 +13,10 @@ const brandMap: any = {
   sportsbet: 'sportsbet',
   bitcasino: 'bitcasino',
   betadda: 'betadda',
-  hub88: 'hub88',
+  // hub88: 'hub88', <-- previously was used for the old design
 }
 
-const singleThemedBrands = [brandMap.hub88];
+const singleThemedBrands: any[] = [];
 
 const getClassName = ({ brand, colorMode }: any) => {
   const brandName = brandMap[brand];
