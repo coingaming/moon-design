@@ -5,55 +5,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [6.7.0](https://github.com/coingaming/moon-design/compare/v6.6.0...v6.7.0) (2021-08-18)
 
-
 ### Features
 
-* B1M2-3279 add betadda theme ([#1320](https://github.com/coingaming/moon-design/issues/1320)) ([767922f](https://github.com/coingaming/moon-design/commit/767922faebd709d444e796953f75b6765cf842c4))
-
-
-
-
+- B1M2-3279 add betadda theme ([#1320](https://github.com/coingaming/moon-design/issues/1320)) ([767922f](https://github.com/coingaming/moon-design/commit/767922faebd709d444e796953f75b6765cf842c4))
 
 # [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
 
-
 ### Features
 
-* IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
-
-
-
-
+- IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
-
 ### Features
 
-* add DOGE icon ([#1313](https://github.com/coingaming/moon-design/issues/1313)) ([73d5c3e](https://github.com/coingaming/moon-design/commit/73d5c3e2d9ffdae98ca1c9696fb4176806ebcfe3))
-
-
-
-
+- add DOGE icon ([#1313](https://github.com/coingaming/moon-design/issues/1313)) ([73d5c3e](https://github.com/coingaming/moon-design/commit/73d5c3e2d9ffdae98ca1c9696fb4176806ebcfe3))
 
 ## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
 
-
 ### Bug Fixes
 
-* update logo-luckyslots-full with dynamic colors. [B1M2-3194] ([#1308](https://github.com/coingaming/moon-design/issues/1308)) ([4e20aab](https://github.com/coingaming/moon-design/commit/4e20aabcec8fcba57769503958352112241f960d))
-
-
-
-
+- update logo-luckyslots-full with dynamic colors. [B1M2-3194] ([#1308](https://github.com/coingaming/moon-design/issues/1308)) ([4e20aab](https://github.com/coingaming/moon-design/commit/4e20aabcec8fcba57769503958352112241f960d))
 
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
 **Note:** Version bump only for package @heathmont/moon-assets
-
-
-
-
 
 ## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
 
