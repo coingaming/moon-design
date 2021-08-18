@@ -1,7 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { Search } from '@heathmont/moon-core';
 import { IconProfile } from '@heathmont/moon-assets';
+import { rem } from '@heathmont/moon-utils';
+
+const Dropdown = styled.ul(({ theme: { space } }) => ({
+  display: 'flex',
+  flexDirection: 'column',
+  gap: rem(space.xsmall),
+  listStyle: 'none',
+  li: {
+    padding: rem(space.small),
+  },
+}));
 
 const PreviewSearch = () => {
   return (
@@ -21,7 +33,7 @@ const PreviewSearch = () => {
           console.log('Clear results');
         }}
         results={
-          <>
+          <Dropdown>
             <li>Categories</li>
             <li>
               <button>Btn 1</button>
@@ -37,7 +49,7 @@ const PreviewSearch = () => {
             <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
               <IconProfile /> Third Game
             </li>
-          </>
+          </Dropdown>
         }
       />
     </div>
@@ -52,7 +64,11 @@ const PreviewSearchLoading = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
-        results={<li>Loading...</li>}
+        results={
+          <Dropdown>
+            <li>Loading...</li>
+          </Dropdown>
+        }
       />
     </div>
   );
