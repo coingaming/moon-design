@@ -9,7 +9,7 @@ import IconMenu from '../../../private/icons/IconMenu';
 import IconSearch from '../../../private/icons/IconSearch';
 import { inputConfig, zIndex } from './settings';
 
-const { borderWidth, padding, transition } = inputConfig;
+const { borderWidth, padding } = inputConfig;
 
 export type SearchInputSize = 'small' | 'medium';
 
@@ -95,8 +95,6 @@ export const SearchInput = styled.input<
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,
-    transition: `${transition}, max-width ease`,
-    transitionDuration: `${transitionDuration.default}s`,
     '&::placeholder': {
       color: 'inherit',
     },
