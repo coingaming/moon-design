@@ -8,30 +8,21 @@ import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
 import Footer from './Footer';
 
+const brandMap: any = {
+  moonDesign: 'moon',
+  sportsbet: 'sportsbet',
+  bitcasino: 'bitcasino',
+  betadda: 'betadda',
+  // hub88: 'hub88', <-- previously was used for the old design
+}
+
+const singleThemedBrands: any[] = [];
+
 const getClassName = ({ brand, colorMode }: any) => {
-  if (brand === 'moonDesign') {
-    if (colorMode === 'dark') {
-      return 'theme-moon-dark';
-    }
-    if (colorMode === 'light') {
-      return 'theme-moon-light';
-    }
-  }
-  if (brand === 'sportsbet') {
-    if (colorMode === 'dark') {
-      return 'theme-sportsbet-dark';
-    }
-    if (colorMode === 'light') {
-      return 'theme-sportsbet-light';
-    }
-  }
-  if (brand === 'bitcasino') {
-    if (colorMode === 'dark') {
-      return 'theme-bitcasino-dark';
-    }
-    if (colorMode === 'light') {
-      return 'theme-bitcasino-light';
-    }
+  const brandName = brandMap[brand];
+  const singleThemed = singleThemedBrands.includes(brandName);
+  if (brandName) {
+    return singleThemed ? `theme-${brandName}` : `theme-${brandName}-${colorMode}`;
   }
   return 'theme-moon-dark';
 };
