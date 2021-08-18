@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from '@heathmont/moon-components';
-import { rem } from '@heathmont/moon-utils';
+import { mq, rem } from '@heathmont/moon-utils';
 
 import IconClose from '../../../private/icons/IconErrorCircle';
 import IconMenu from '../../../private/icons/IconMenu';
@@ -70,12 +70,15 @@ export const SearchMenuIcon = styled(IconMenu)<React.SVGProps<SVGSVGElement>>(
 );
 
 export const SearchInput = styled.input<
-  React.InputHTMLAttributes<HTMLInputElement> & { hasBorder: boolean, inputSize: SearchInputSize }
+  React.InputHTMLAttributes<HTMLInputElement> & {
+    hasBorder: boolean;
+    inputSize: SearchInputSize;
+  }
 >(
   ({
     hasBorder,
     inputSize,
-    theme: { color, fontSize, fontWeight, radius, space, transitionDuration },
+    theme: { breakpoint, color, fontSize, fontWeight, radius, space },
   }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(fontSize.body),
@@ -106,6 +109,11 @@ export const SearchInput = styled.input<
       borderColor: color.piccolo[100],
       color: color.bulma[100],
     },
+    [mq(breakpoint.medium, 'max-width')]: {
+      '.popup-open &': {
+        borderColor: color.piccolo[100],
+      },
+    },
   })
 );
 
@@ -117,7 +125,8 @@ export const SearchBox = styled.span<SearchBoxProps>(
     overflow: 'visible',
     width: '100%',
   }),
-  ({ size }) => !!size && ({
-    height: rem(inputConfig.height[size]),
-  })
+  ({ size }) =>
+    !!size && {
+      height: rem(inputConfig.height[size]),
+    }
 );
