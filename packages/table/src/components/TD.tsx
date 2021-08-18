@@ -18,12 +18,12 @@ const TD = styled.div(
       right: 0,
     },
     '&:first-child': {
-      borderTopLeftRadius: theme.radius.default,
-      borderBottomLeftRadius: theme.radius.default,
+      borderTopLeftRadius: rem(theme.radius.default),
+      borderBottomLeftRadius: rem(theme.radius.default),
     },
     '&:last-child': {
-      borderTopRightRadius: theme.radius.default,
-      borderBottomRightRadius: theme.radius.default,
+      borderTopRightRadius: rem(theme.radius.default),
+      borderBottomRightRadius: rem(theme.radius.default),
       '&::after': {
         width: 0,
       },

@@ -1,41 +1,50 @@
 import avertaStd from '../sharedTokens/avertaStd';
+
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 
 const boxShadow = '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
 
 const color = {
+  piccolo: {
+    120: '#E68A2E',
+    100: '#FF9933',
+    80: '#FFA347',
+  },
   hit: {
-    120: '#572385',
-    100: '#642E94',
-    80: '#7139A2',
-  },
-  goku: {
-    100: '#24033F',
-    80: '#320854',
-    40: '#4C1A75',
-    10: '#65348D',
-  },
-  gohan: {
-    100: '#3E0D68',
-    80: '#4B1679',
-    40: '#642E94',
-    10: '#7E48AD',
+    120: '#19930E',
+    100: '#1CA30F',
+    80: '#33AC27',
   },
   beerus: {
-    100: '#521B81',
+    100: '#40464F',
+  },
+  goku: {
+    100: '#272E37',
+    80: '#353C44',
+    40: '#4C5159',
+    10: '#62676D',
+  },
+  gohan: {
+    100: '#1A212A',
+    80: '#31373F',
+    40: '#5F646A',
+    10: '#8C9095',
+  },
+  goten: {
+    100: '#FFFFFF',
   },
   bulma: {
     100: '#FFFFFF',
   },
   trunks: {
-    100: '#A18EB4',
+    100: '#97A2AE',
   },
 };
 
-const bitcasinoDark: Theme = {
+const betaddaDark: Theme = {
   ...sharedTokens,
-  brand: 'Bitcasino.io',
+  brand: 'Betadda',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
   fontSize: {
@@ -43,26 +52,13 @@ const bitcasinoDark: Theme = {
   },
   fontWeight: avertaStd.fontWeight,
   boxShadow,
-  radius: {
-    small: 4,
-    default: 8,
-    largest: 8,
-  },
   color: {
-    ...supportColors,
     text: color.bulma[100],
     background: color.goku[100],
-    piccolo: {
-      120: '#F54100',
-      100: '#FF4F0F',
-      80: '#FA642E',
-    },
-    goten: {
-      100: '#FFFFFF',
-    },
+    ...supportColors,
     ...color,
   },
   colorScheme: 'dark',
 };
 
-export default bitcasinoDark;
+export default betaddaDark;

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Button } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 
@@ -9,7 +8,7 @@ import IconMenu from '../../../private/icons/IconMenu';
 import IconSearch from '../../../private/icons/IconSearch';
 import { inputConfig, zIndex } from './settings';
 
-const { borderWidth, padding, transition } = inputConfig;
+const { borderWidth, padding } = inputConfig;
 
 export type SearchInputSize = 'small' | 'medium';
 
@@ -91,12 +90,10 @@ export const SearchInput = styled.input<
     overflow: 'hidden',
     backgroundColor: hasBorder ? color.goku[100] : color.gohan[100],
     color: color.trunks[100],
-    borderRadius: radius.default,
+    borderRadius: rem(radius.default),
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,
-    transition: `${transition}, max-width ease`,
-    transitionDuration: `${transitionDuration.default}s`,
     '&::placeholder': {
       color: 'inherit',
     },

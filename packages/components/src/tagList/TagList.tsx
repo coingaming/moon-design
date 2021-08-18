@@ -61,7 +61,7 @@ export const Dropdown = styled.div(({ theme }) => ({
   display: 'flex',
   flexWrap: 'wrap',
   background: theme.color.goten[100],
-  borderRadius: theme.radius.default,
+  borderRadius: rem(theme.radius.default),
   boxShadow: theme.boxShadow,
   position: 'absolute',
   padding: `${rem(8)} ${rem(44)} ${rem(4)} ${rem(12)}`,
