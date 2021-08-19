@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import {
   FilesFile,
@@ -364,8 +364,8 @@ const Icon: React.FC<{ name: string; onClick: any; selectedIcons: string[] }> =
 
 const ImportHelper: React.FC<{ text: string }> = ({ text }) => (
   <>
-  <h2 className="text-3xl font-semibold mt-8">Importing</h2>
-  <div className="mt-4 px-4 py-3 bg-white rounded-lg">{text}</div>
+    <h2 className="text-3xl font-semibold mt-8">Importing</h2>
+    <div className="mt-4 px-4 py-3 bg-white rounded-lg">{text}</div>
   </>
 );
 
@@ -406,6 +406,11 @@ export default function PageIcons() {
         ) : null}
       </section>
 
+      <section className="mt-8">
+        <SubHeader>Sizes &amp; colours</SubHeader>
+
+        <FilesFile color="piccolo.100" fontSize="4rem" />
+      </section>
       <section className="mt-8">
         <SubHeader>Files</SubHeader>
         <Block>
