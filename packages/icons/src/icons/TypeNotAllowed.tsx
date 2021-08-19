@@ -18,7 +18,10 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
         fill="url(#TypeNotAllowed_svg__paint0_linear)"
       />
       <path d="M7 16.02V0l11.59 11.62h-7.04l-.15.12L7 16.02z" fill="#fff" />
-      <path d="M8 2.41V13.6l2.97-2.87.16-.14h5.03L8 2.41z" fill="#000" />
+      <path
+        d="M8 2.41V13.6l2.97-2.87.16-.14h5.03L8 2.41z"
+        fill="currentColor"
+      />
     </g>
     <defs>
       <linearGradient

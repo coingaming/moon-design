@@ -12,8 +12,8 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <rect x={19} y={6} width={6.5} height={20} rx={2} stroke="#000" />
-    <rect x={6.5} y={6} width={6.5} height={20} rx={2} stroke="#000" />
+    <rect x={19} y={6} width={6.5} height={20} rx={2} stroke="currentColor" />
+    <rect x={6.5} y={6} width={6.5} height={20} rx={2} stroke="currentColor" />
   </svg>
 );
 

@@ -14,14 +14,14 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M12.378 7.805a8.97 8.97 0 11-4.87 5.392"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={0.897}
       strokeMiterlimit={10}
     />
     <circle
       r={3.644}
       transform="matrix(1 0 0 -1 10.144 10.674)"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth={0.897}
       strokeMiterlimit={10}
     />

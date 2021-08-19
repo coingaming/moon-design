@@ -23,7 +23,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       />
       <path
         d="M16.43 23l1.766-.941-2.775-5.202h3.604L11 8.814v11.188l2.53-2.442 2.9 5.44z"
-        fill="#000"
+        fill="currentColor"
       />
     </g>
     <defs>
