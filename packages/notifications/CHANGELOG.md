@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.7.2](https://github.com/coingaming/moon-design/compare/v6.7.1...v6.7.2) (2021-08-18)
+
+### Bug Fixes
+
+- remove lodash from nextjs app ([#1324](https://github.com/coingaming/moon-design/issues/1324)) ([c9b51be](https://github.com/coingaming/moon-design/commit/c9b51bea797c85794ec96f4a91029861fc08ecf7))
+
+## [6.7.1](https://github.com/coingaming/moon-design/compare/v6.7.0...v6.7.1) (2021-08-18)
+
+### Bug Fixes
+
+- B1M2-3279 docs for new theme ([#1322](https://github.com/coingaming/moon-design/issues/1322)) ([85d020a](https://github.com/coingaming/moon-design/commit/85d020a101df9976481ef70b904a273941c9412c))
+
 # [6.7.0](https://github.com/coingaming/moon-design/compare/v6.6.0...v6.7.0) (2021-08-18)
 
 **Note:** Version bump only for package @heathmont/moon-notifications

@@ -1066,16 +1066,6 @@
   resolved "https://registry.yarnpkg.com/@heathmont/moon-themes/-/moon-themes-5.8.3.tgz#853ddca4bface50bb0638f3e57017f8479e5e1c3"
   integrity sha512-r3N5fpKq2SJozCfomZhyrHxJ/Hd+dnjZ5LVyn8DNIHRb+I6gu8eloNEgql2tOUa5ayiQEVdjZcoIpbRgJLRu2g==
 
-"@heathmont/moon-utils@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-5.0.0.tgz#2537003cd584dd55a291f751c1e937497e4beb21"
-  integrity sha512-8bN+ZDr5V3gnFTS/k2BnHhEnZIMQDNPpWgh9G7qUbF7zQ50TzpjbCjVUVVKpUKDsr7SlWp1/PoDS1PNyUwWTPw==
-  dependencies:
-    "@heathmont/moon-themes" "^5.0.0"
-    lodash.get "4.4.2"
-    lodash.has "4.5.2"
-    polished "3.4.1"
-
 "@heathmont/moon-utils@^5.0.0", "@heathmont/moon-utils@^5.0.1", "@heathmont/moon-utils@^5.8.3":
   version "5.8.3"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-utils/-/moon-utils-5.8.3.tgz#d5ac705032753a8a386a9cb39c7d237a78623ef3"

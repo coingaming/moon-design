@@ -5,10 +5,6 @@ import { mq, rem } from '@heathmont/moon-utils';
 import { FlexWrapper, ModalClose } from './Styles';
 import { popupConfig } from './settings';
 
-/**
- * Search Popup
- * The functional container for the search component.
- */
 export const StyledPopup = styled.div(
   ({ theme: { base, breakpoint, color, space, zIndex } }) => ({
     background: 'transparent',
@@ -81,7 +77,7 @@ const Popup: React.FC<PopupProps> = ({
     <StyledPopup className={isOpen ? 'popup-open' : ''} ref={ref}>
       <FlexWrapper>
         {title}
-        {isOpen ? (
+        {!!closeButton && isOpen ? (
           <ModalClose onClick={closePopup}>{closeButton}</ModalClose>
         ) : null}
       </FlexWrapper>

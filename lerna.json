@@ -1,6 +1,6 @@
 {
   "packages": ["docs", "next-docs", "packages/*"],
-  "version": "6.7.0",
+  "version": "6.7.3",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
