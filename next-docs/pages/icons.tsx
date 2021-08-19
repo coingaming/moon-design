@@ -329,12 +329,8 @@ import {
   TypeZoomOut,
 } from '@heathmont/moon-icons';
 
-import CodeSnippet from '../components/CodeSnippet';
 import classNames from '../utils/classNames';
 
-const Text: React.FC<{}> = ({ children }) => (
-  <p className="text-lg mt-4">{children}</p>
-);
 
 const Block: React.FC = ({ children }) => (
   <div className="flex flex-row flex-wrap gap-4 bg-white mt-4 px-4 py-3 rounded-lg">
@@ -365,7 +361,7 @@ const Icon: React.FC<{ name: string; onClick: any; selectedIcons: string[] }> =
 const ImportHelper: React.FC<{ text: string }> = ({ text }) => (
   <>
     <h2 className="text-3xl font-semibold mt-8">Importing</h2>
-    <div className="mt-4 px-4 py-3 bg-white rounded-lg">{text}</div>
+    <pre className="overflow-scroll bg-white mt-4 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500">{text}</pre>
   </>
 );
 
@@ -400,8 +396,8 @@ export default function PageIcons() {
         {displaySelectedIconsImport ? (
           <ImportHelper
             text={`import {
-              ${selectedIcons.join(', ')}
-            } from '@heathmont/moon-icons';`}
+  ${selectedIcons.join(', ')}
+} from '@heathmont/moon-icons';`}
           />
         ) : null}
       </section>
