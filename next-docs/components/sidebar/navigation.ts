@@ -5,6 +5,7 @@ const navigation = [
   { name: 'Colours Palette', href: '/colours' },
   { name: 'Typography', href: '/typography' },
   { name: 'Tokens', href: '/tokens' },
+  { name: 'Icons', href: '/icons' },
   {
     name: 'Components',
     children: [

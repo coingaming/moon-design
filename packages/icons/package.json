@@ -1,0 +1,42 @@
+{
+  "name": "@heathmont/moon-icons",
+  "sideEffects": false,
+  "version": "6.4.5",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/es/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/coingaming/moon-design",
+  "author": "Coingaming Group",
+  "license": "MIT",
+  "scripts": {
+    "build:icons": "svgr --ext tsx --config-file ./.config/svgr.config.icons.js -d src/icons raw/imported",
+    "build:index": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src --structure flat --exportDefault",
+    "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
+    "build": "yarn build:icons && yarn build:index"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "@types/ramda": "^0.26.39",
+    "@types/rimraf": "^2.0.3",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "argparse": "2.0.1",
+    "axios": "0.21.1",
+    "fs": "^0.0.1-security",
+    "figma-js": "1.14.0",
+    "figma-transformer": "2.1.0",
+    "ramda": "0.27.1",
+    "rimraf": "3.0.2"
+  },
+  "dependencies": {
+    "@heathmont/moon-themes": "^6.4.5",
+    "@heathmont/moon-utils": "^6.4.5"
+  },
+  "peerDependencies": {
+    "react": ">= 16.10.2",
+    "react-dom": ">= 16.10.2",
+    "styled-components": ">= 5.2.1"
+  }
+}
