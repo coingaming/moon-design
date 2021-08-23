@@ -5,7 +5,7 @@ const Text: React.FC<{}> = ({ children }) => (
   <p className="text-lg mt-4">{children}</p>
 );
 
-export default function PageBadge() {
+export default function PageGettingStarted() {
   return (
     <>
       <section className="mt-8">

@@ -19,6 +19,7 @@
     "test:types": "lerna exec --scope '@heathmont/moon-components' -- tsc --project ./tsconfig.test.json --noEmit",
     "test:jest": "node --max_old_space_size=4096 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
     "assets": "lerna run --scope @heathmont/moon-assets --stream",
+    "icons": "lerna run --scope @heathmont/moon-icons --stream",
     "publish:packages": "lerna publish --yes",
     "publish:packages@beta": "lerna publish --canary --preid beta --no-push --dist-tag beta --force-publish",
     "publish:packages@alpha": "lerna publish --canary --preid alpha --no-push --dist-tag beta --force-publish"

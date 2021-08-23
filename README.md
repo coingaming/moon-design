@@ -21,13 +21,13 @@
    ```sh
    yarn build
    ```
-   
+
 3. Run storybook for development:
 
    ```sh
    yarn next dev
    ```
-   
+
 4. Compile and build storybook:
 
    ```sh
