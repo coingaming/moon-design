@@ -397,13 +397,13 @@ export default function PageIcons() {
 
   const props = { fontSize: '2rem' };
 
-  const addIconToSelected = (iconName: string) =>
-    selectedIcons.concat(iconName);
+  const addIconToSelected: (iconName: string) => string[] = (iconName) =>
+    (selectedIcons as string[]).concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>
     selectedIcons.filter((name) => name !== removedIconName);
 
-  const toggleSelectedIcons = (iconName: string) => {
-    if (selectedIcons.includes(iconName)) {
+  const toggleSelectedIcons: (iconName: string) => string[] = (iconName) => {
+    if ((selectedIcons as string[]).includes(iconName)) {
       return removeIconFromSelected(iconName);
     }
     return addIconToSelected(iconName);
@@ -411,7 +411,8 @@ export default function PageIcons() {
 
   const displaySelectedIconsImport = selectedIcons.length > 0;
 
-  const onClick = (iconName) => setSelectedIcons(toggleSelectedIcons(iconName));
+  const onClick = (iconName: string) =>
+    (setSelectedIcons as any)(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
 
   return (
