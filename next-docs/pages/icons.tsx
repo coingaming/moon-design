@@ -329,8 +329,9 @@ import {
   TypeZoomOut,
 } from '@heathmont/moon-icons';
 
-import classNames from '../utils/classNames';
+import Preview from '../components/codePreview/Preview';
 
+import classNames from '../utils/classNames';
 
 const Block: React.FC = ({ children }) => (
   <div className="flex flex-row flex-wrap gap-4 bg-white mt-4 px-4 py-3 rounded-lg">
@@ -339,7 +340,7 @@ const Block: React.FC = ({ children }) => (
 );
 
 const SubHeader: React.FC = ({ children }) => (
-  <h2 className="text-3xl font-semibold mt-8">{children}</h2>
+  <h2 className="text-2xl mt-8">{children}</h2>
 );
 
 const Icon: React.FC<{ name: string; onClick: any; selectedIcons: string[] }> =
@@ -360,9 +361,35 @@ const Icon: React.FC<{ name: string; onClick: any; selectedIcons: string[] }> =
 
 const ImportHelper: React.FC<{ text: string }> = ({ text }) => (
   <>
-    <h2 className="text-3xl font-semibold mt-8">Importing</h2>
-    <pre className="overflow-scroll bg-white mt-4 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500">{text}</pre>
+    <h2 className="text-2xl font-semibold mt-8">Importing</h2>
+    <pre className="overflow-scroll bg-white mt-4 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500">
+      {text}
+    </pre>
   </>
+);
+
+const TextSizesPreview = () => (
+  <Preview
+    title="Sizes &amp; colours"
+    preview={
+      <div className="flex items-center gap-20">
+        <FilesCopy fontSize="1rem" />
+        <FilesCopy fontSize="2rem" />
+        <FilesCopy fontSize="3rem" />
+        <FilesCopy fontSize="3rem" color="cell.100" />
+      </div>
+    }
+    code={`import { FilesCopy } from '@heathmont/moon-icons';
+
+<FilesCopy fontSize="1rem" />
+<FilesCopy fontSize="2rem" />
+<FilesCopy fontSize="3rem" />
+<FilesCopy fontSize="3rem" color="cell.100"/>`}
+  />
+);
+
+const InternalText: React.FC<{}> = ({ children }) => (
+  <p className="text-lg mt-4 font-bold">{children}</p>
 );
 
 export default function PageIcons() {
@@ -392,21 +419,22 @@ export default function PageIcons() {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Icons</h1>
         {/* <h2 className="text-3xl font-semibold mt-8">Using</h2> */}
-
-        {displaySelectedIconsImport ? (
-          <ImportHelper
-            text={`import {
-  ${selectedIcons.join(', ')}
-} from '@heathmont/moon-icons';`}
-          />
-        ) : null}
       </section>
 
       <section className="mt-8">
-        <SubHeader>Sizes &amp; colours</SubHeader>
-
-        <FilesFile color="piccolo.100" fontSize="4rem" />
+        <TextSizesPreview />
       </section>
+
+      <InternalText>Click on the icons to see how to import them.</InternalText>
+
+      {displaySelectedIconsImport ? (
+        <ImportHelper
+          text={`import {
+  ${selectedIcons.join(', ')}
+} from '@heathmont/moon-icons';`}
+        />
+      ) : null}
+
       <section className="mt-8">
         <SubHeader>Files</SubHeader>
         <Block>
