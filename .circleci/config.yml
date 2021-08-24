@@ -233,6 +233,16 @@ workflows:
             - dependencies
             - build
 
+      - publish:
+          context: global
+          filters:
+            branches:
+              only: master
+          requires:
+            - dependencies
+            - build
+            - lint
+
       - build_docs_and_push:
           context: global
           filters:
@@ -244,17 +254,8 @@ workflows:
             - dependencies
             - build
             - lint
+            - publish
             - build_storybook
-
-      - publish:
-          context: global
-          filters:
-            branches:
-              only: master
-          requires:
-            - dependencies
-            - build
-            - lint
 
       - tag_master_image:
           context: global
