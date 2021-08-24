@@ -426,7 +426,7 @@ export default function PageIcons() {
         <TextSizesPreview />
       </section>
 
-      <InternalText>Click on the icons to see how to import them.</InternalText>
+      <InternalText>Please select icons for Import</InternalText>
 
       {displaySelectedIconsImport ? (
         <ImportHelper
