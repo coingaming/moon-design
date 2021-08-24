@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
 type ChipProps = {
-  active?: boolean;
+  isActive?: boolean;
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: 'small' | 'medium';
@@ -18,10 +18,10 @@ const StyledChip = styled.div<ChipProps>`
   padding: ${rem(8)};
   line-height: ${({ size }) => (size === 'small' ? rem(16) : rem(20))};
   font-size: ${({ size }) => (size === 'small' ? rem(12) : rem(14))};
-  background: ${({ theme, active }) =>
-    (active ? theme.color.frieza[10] : theme.color.goten[100])};
-  color: ${({ theme, active }) =>
-    (active ? theme.color.frieza[100] : theme.color.bulma[100])};
+  background: ${({ theme, isActive }) =>
+    isActive ? theme.color.frieza[10] : theme.color.goten[100]};
+  color: ${({ theme, isActive }) =>
+    isActive ? theme.color.frieza[100] : theme.color.bulma[100]};
 `;
 
 const IconRightWrapper = styled.span<ChipProps>`
@@ -34,23 +34,21 @@ const IconLeftWrapper = styled.span<ChipProps>`
 
 const Chip: React.FC<ChipProps> = ({
   children,
-  active,
+  isActive,
   size,
   iconLeft,
   iconRight,
 }) => (
-    <StyledChip
-      active={active}
-      iconLeft={iconLeft}
-      iconRight={iconRight}
-      size={size}
-    >
-      {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
-      {children}
-      {iconRight && (
-        <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>
-      )}
-    </StyledChip>
+  <StyledChip
+    isActive={isActive}
+    iconLeft={iconLeft}
+    iconRight={iconRight}
+    size={size}
+  >
+    {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
+    {children}
+    {iconRight && <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>}
+  </StyledChip>
 );
 
 export default Chip;
