@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import { rgba } from 'polished';
 
 type ChipProps = {
   isActive?: boolean;
@@ -9,28 +10,47 @@ type ChipProps = {
   size?: 'small' | 'medium';
 };
 
-const StyledChip = styled.div<ChipProps>`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: ${rem(8)};
-  padding: ${rem(8)};
-  line-height: ${({ size }) => (size === 'small' ? rem(16) : rem(20))};
-  font-size: ${({ size }) => (size === 'small' ? rem(12) : rem(14))};
-  background: ${({ theme, isActive }) =>
-    isActive ? theme.color.frieza[10] : theme.color.goten[100]};
-  color: ${({ theme, isActive }) =>
-    isActive ? theme.color.frieza[100] : theme.color.bulma[100]};
-`;
+const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
+  {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: `${rem(8)}`,
+    padding: `${rem(8)}`,
+    transition: `${theme.transitionDuration.default}s`,
+    '&:hover': {
+        background: rgba(theme.color.piccolo[100], 0.2),
+        color: theme.color.piccolo[100]
+    }
+  },
+  size === 'small' && {
+    lineHeight: `${rem(16)}`,
+    fontSize: `${rem(12)}`,
+  },
+  size === 'medium' && {
+    lineHeight: `${rem(20)}`,
+    fontSize: `${rem(14)}`,
+  },
+  isActive && {
+    background: rgba(theme.color.piccolo[100], 0.2),
+    color: theme.color.piccolo[100],
+    cursor: ''
+  },
+  !isActive && {
+    background: theme.color.gohan[100],
+    color: theme.color.trunks[100],
+    cursor: 'pointer'
+  },
+]);
 
-const IconRightWrapper = styled.span<ChipProps>`
-  margin-left: ${rem(8)};
-`;
+const IconLeftWrapper = styled.span<ChipProps>({
+  marginLeft: `${rem(8)}`,
+});
 
-const IconLeftWrapper = styled.span<ChipProps>`
-  margin-right: ${rem(8)};
-`;
+const IconRightWrapper = styled.span<ChipProps>({
+  marginLeft: `${rem(8)}`,
+});
 
 const Chip: React.FC<ChipProps> = ({
   children,
