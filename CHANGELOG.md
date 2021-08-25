@@ -3,21 +3,116 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [6.7.1](https://github.com/coingaming/moon-design/compare/v6.7.0...v6.7.1) (2021-08-18)
+## [6.9.1](https://github.com/coingaming/moon-design/compare/v6.9.0...v6.9.1) (2021-08-25)
 
 
 ### Bug Fixes
 
-* B1M2-3279 docs for new theme ([#1322](https://github.com/coingaming/moon-design/issues/1322)) ([85d020a](https://github.com/coingaming/moon-design/commit/85d020a101df9976481ef70b904a273941c9412c))
+* fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
 
 
 
 
+
+# [6.9.0](https://github.com/coingaming/moon-design/compare/v6.8.2...v6.9.0) (2021-08-24)
+
+
+### Bug Fixes
+
+* **ci:** publish for build_docs_and_push ([ba1346d](https://github.com/coingaming/moon-design/commit/ba1346d88477b5783c2970479bba3f5abae46a94))
+
+
+### Features
+
+* update Contributors ([#1333](https://github.com/coingaming/moon-design/issues/1333)) ([354c2f4](https://github.com/coingaming/moon-design/commit/354c2f422a4bff07f7b0cfa10fbe11c142ebb38e))
+
+
+
+
+
+## [6.8.2](https://github.com/coingaming/moon-design/compare/v6.8.1...v6.8.2) (2021-08-24)
+
+
+### Bug Fixes
+
+* icons page, trigger build ([93ce029](https://github.com/coingaming/moon-design/commit/93ce029c9b9d43bde3333b9e88c013bbeb5f130e))
+
+
+
+
+
+## [6.8.1](https://github.com/coingaming/moon-design/compare/v6.8.0...v6.8.1) (2021-08-23)
+
+
+### Bug Fixes
+
+* ts for icons ([10ae791](https://github.com/coingaming/moon-design/commit/10ae79101d41adb764b108913900210d0baf293e))
+* ts for icons page ([151db3c](https://github.com/coingaming/moon-design/commit/151db3ca9d984f831d536943b5e2e73aaf68c285))
+
+
+
+
+
+# [6.8.0](https://github.com/coingaming/moon-design/compare/v6.7.3...v6.8.0) (2021-08-23)
+
+
+### Features
+
+* icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
+
+
+
+
+
+## [6.7.3](https://github.com/coingaming/moon-design/compare/v6.7.2...v6.7.3) (2021-08-18)
+
+### Bug Fixes
+
+<<<<<<< HEAD
+
+- bump nextjs to 11.1.0 ([278ff27](https://github.com/coingaming/moon-design/commit/278ff278f593c5c5ab5ca48125b52f9ba78ac487))
+
+### Features
+
+- # B1M2-3279 add betadda theme ([#1320](https://github.com/coingaming/moon-design/issues/1320)) ([767922f](https://github.com/coingaming/moon-design/commit/767922faebd709d444e796953f75b6765cf842c4))
+
+* B1M2-2163 styling fixes for search component in mobile ([#1326](https://github.com/coingaming/moon-design/issues/1326)) ([0e7f202](https://github.com/coingaming/moon-design/commit/0e7f20231fa14527b5a7a27e6e0cd9fa2c903d2a))
+
+> > > > > > > develop
+
+## [6.7.2](https://github.com/coingaming/moon-design/compare/v6.7.1...v6.7.2) (2021-08-18)
+
+### Bug Fixes
+
+<<<<<<< HEAD
+
+- border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+- # build ([98f97b3](https://github.com/coingaming/moon-design/commit/98f97b3baf79830693fd56e7a8b77f1573a6144c))
+
+* remove lodash from nextjs app ([#1324](https://github.com/coingaming/moon-design/issues/1324)) ([c9b51be](https://github.com/coingaming/moon-design/commit/c9b51bea797c85794ec96f4a91029861fc08ecf7))
+
+> > > > > > > develop
+
+<<<<<<< HEAD
+
+- # IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
+
+## [6.7.1](https://github.com/coingaming/moon-design/compare/v6.7.0...v6.7.1) (2021-08-18)
+
+### Bug Fixes
+
+- B1M2-3279 docs for new theme ([#1322](https://github.com/coingaming/moon-design/issues/1322)) ([85d020a](https://github.com/coingaming/moon-design/commit/85d020a101df9976481ef70b904a273941c9412c))
+  > > > > > > > develop
 
 # [6.7.0](https://github.com/coingaming/moon-design/compare/v6.6.0...v6.7.0) (2021-08-18)
 
 ### Bug Fixes
 
+<<<<<<< HEAD
+
+### Features
+
+- # add DOGE icon ([#1313](https://github.com/coingaming/moon-design/issues/1313)) ([73d5c3e](https://github.com/coingaming/moon-design/commit/73d5c3e2d9ffdae98ca1c9696fb4176806ebcfe3))
 - bump nextjs to 11.1.0 ([278ff27](https://github.com/coingaming/moon-design/commit/278ff278f593c5c5ab5ca48125b52f9ba78ac487))
 
 ### Features
@@ -33,9 +128,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
+> > > > > > > develop
+
 - IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
+
+# <<<<<<< HEAD
 
 ### Features
 
@@ -44,6 +143,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [6.4.9](https://github.com/coingaming/moon-design/compare/v6.4.8...v6.4.9) (2021-08-16)
 
 **Note:** Version bump only for package moon-design
+
+> > > > > > > develop
 
 ## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
 
