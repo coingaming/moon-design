@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.10.0](https://github.com/coingaming/moon-design/compare/v6.9.2...v6.10.0) (2021-08-25)
+
+
+### Features
+
+* update tokens & colours pages ([#1339](https://github.com/coingaming/moon-design/issues/1339)) ([f7255ee](https://github.com/coingaming/moon-design/commit/f7255ee2fd4a268b863573ead37e0d6845901b3a))
+
+
+
+
+
 ## [6.9.2](https://github.com/coingaming/moon-design/compare/v6.9.1...v6.9.2) (2021-08-25)
 
 **Note:** Version bump only for package moon-design
