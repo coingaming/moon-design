@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import coloursImg from '../public/illustartions/colors.png';
 
 const ColorName: React.FC<{}> = ({ children }) => (
   <h2 className="text-2xl">{children}</h2>
@@ -35,10 +37,37 @@ export default function PageColours() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Colours</h1>
-        <ColorUsage>
-          Please never use Hex values, they won't change if you need theme
-          support.
-        </ColorUsage>
+
+        <div className="mt-8 flex flex-row justify-between gap-20">
+          <div className="">
+            <ColorUsage>
+              Our design system is decentralized and built for multi-product
+              purposes. Having different-color naming conventions and numbers
+              etc... makes it harder to maintain it.
+            </ColorUsage>
+
+            <ColorUsage>
+              For that, we made a decision to give our colours unique names.
+            </ColorUsage>
+
+            <ColorUsage>
+              Meet the <span className="font-bold">Dragon Ball Z approach</span>
+              .
+            </ColorUsage>
+
+            <ColorUsage>
+              Each color name is assigned for specific purpose and for each
+              product these values are different.
+            </ColorUsage>
+
+            <ColorUsage>
+              Please never use Hex values, they won't change if you need theme
+              support.
+            </ColorUsage>
+          </div>
+
+          <Image className="rounded-lg" src={coloursImg} alt="Colours usage" />
+        </div>
       </section>
       <h2 className="text-3xl font-semibold mt-8">Main colours</h2>
       <section className="mt-4">
