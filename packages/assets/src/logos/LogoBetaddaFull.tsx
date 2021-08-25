@@ -74,8 +74,6 @@ const LogoBetaddaFull = styled(Svg)<SvgProps>(
     fontSize,
   })
 );
-LogoBetaddaFull.defaultProps = {};
-
 
 LogoBetaddaFull.defaultProps = {
   color: 'goku.100',
