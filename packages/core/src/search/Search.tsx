@@ -12,7 +12,7 @@ import {
   SearchInputSize,
 } from './private/components/Input';
 
-interface SearchProps {
+export interface SearchProps {
   closeButton?: JSX.Element;
   hasBorder?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
