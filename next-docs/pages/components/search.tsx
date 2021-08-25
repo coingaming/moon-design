@@ -21,8 +21,6 @@ const PreviewSearch = () => {
       <Search
         closeButton={<span>Clear</span>}
         placeholder="Search"
-        size="small"
-        hasBorder={false}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
         }}
