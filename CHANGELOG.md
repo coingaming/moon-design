@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.10.2](https://github.com/coingaming/moon-design/compare/v6.10.1...v6.10.2) (2021-08-25)
+
+
+### Bug Fixes
+
+* fix default prop ([#1342](https://github.com/coingaming/moon-design/issues/1342)) ([73a48d3](https://github.com/coingaming/moon-design/commit/73a48d32d3ffeea69b566b06d8ac1c74ea088d7c))
+
+
+
+
+
 ## [6.10.1](https://github.com/coingaming/moon-design/compare/v6.10.0...v6.10.1) (2021-08-25)
 
 

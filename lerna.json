@@ -4,7 +4,7 @@
     "next-docs",
     "packages/*"
   ],
-  "version": "6.10.1",
+  "version": "6.10.2",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {

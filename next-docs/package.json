@@ -1,6 +1,6 @@
 {
   "name": "next-docs",
-  "version": "6.10.1",
+  "version": "6.10.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@headlessui/react": "1.2.0",
-    "@heathmont/moon-accordion": "^6.9.1",
-    "@heathmont/moon-assets": "^6.9.1",
+    "@heathmont/moon-accordion": "^6.10.2",
+    "@heathmont/moon-assets": "^6.10.2",
     "@heathmont/moon-charts": "5.1.0",
-    "@heathmont/moon-components": "^6.9.1",
+    "@heathmont/moon-components": "^6.10.2",
     "@heathmont/moon-core": "^6.9.2",
     "@heathmont/moon-icons": "^6.4.7-alpha.16",
     "@heathmont/moon-pagination": "5.0.0",
-    "@heathmont/moon-table": "^6.9.1",
+    "@heathmont/moon-table": "^6.10.2",
     "@heathmont/moon-themes": "^6.8.0",
     "@heathmont/moon-utils": "^6.8.0",
     "@types/react": "17.0.8",
