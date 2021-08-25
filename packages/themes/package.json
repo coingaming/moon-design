@@ -12,7 +12,11 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "scripts": {
-    "build": "echo 'Handled by root package'"
+    "build": "pnpm run build:index && pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",
+    "build:index": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src",
+    "build:js:commonjs": "babel --config-file '../../.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
+    "build:js:es": "babel --config-file '../../.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
+    "build:types": "tsc --project tsconfig.json --declarationMap"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
