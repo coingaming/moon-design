@@ -1,8 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
+import NextLink from 'next/link';
+
+import tokenImg from '../public/illustartions/tokens.png';
 import TokenTable from '../components/TokenTable';
 
 const Text: React.FC<{}> = ({ children }) => (
   <p className="text-lg mt-4">{children}</p>
+);
+
+const ListItem: React.FC<{}> = ({ children }) => (
+  <li className="text-lg mt-4">{children}</li>
 );
 
 export default function PageTokens() {
@@ -10,10 +18,73 @@ export default function PageTokens() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Tokens</h1>
-        <Text>
-          Design tokens are collections of user-interface information that
-          define our product.
-        </Text>
+
+        <div className="mt-8">
+          <Text>
+            Design tokens are{' '}
+            <span className="font-bold">
+              all the values needed to construct and maintain a design system{' '}
+            </span>
+            — spacing, color, typography, object styles, animation, etc.
+          </Text>
+          <Text>
+            These can represent anything defined by design: a color as a HEX
+            value, an opacity as a number, an animation ease as Bezier
+            coordinates.
+          </Text>
+
+          <Text>
+            They’re used in place of hard-coded values in order to ensure
+            flexibility and unity across all multi-product experiences.
+          </Text>
+
+          <Text>
+            Design tokens are directly integrated into our component libraries.
+            They cover the various options of platform scales, color themes, and
+            more.
+          </Text>
+        </div>
+
+        <div className="mt-8 flex flex-row justify-between gap-20">
+          <div className="">
+            <h3 className="text-xl text-black font-bold">
+              How to create your own custom theme based and use it for your
+              product.
+            </h3>
+
+            <ul className="list-decimal list-inside">
+              <ListItem>
+                Create your product{' '}
+                <NextLink href="https://github.com/coingaming/moon-design/tree/develop/packages/themes/src">
+                  <a className="underline">theme template file</a>
+                </NextLink>
+                .
+              </ListItem>
+
+              <ListItem>
+                Check the{' '}
+                <NextLink href="/colours">
+                  <a className="underline">guide for colours</a>
+                </NextLink>
+                .
+              </ListItem>
+
+              <ListItem>Replace colour values one by one.</ListItem>
+
+              <ListItem>Change the values to your product ones.</ListItem>
+
+              <ListItem>Publish your changes.</ListItem>
+
+              <ListItem>
+                Share tokens with your product front-end developers.
+              </ListItem>
+
+              <ListItem>Enjoy your new theme! 🎉</ListItem>
+            </ul>
+          </div>
+
+          <Image className="rounded-lg" src={tokenImg} alt="Colours usage" />
+        </div>
       </section>
       <h2 className="text-3xl font-semibold mt-8">Base</h2>
       <section className="mt-4">
