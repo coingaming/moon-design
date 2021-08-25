@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.9.1](https://github.com/coingaming/moon-design/compare/v6.9.0...v6.9.1) (2021-08-25)
+
+
+### Bug Fixes
+
+* fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
+
+
+
+
+
 # [6.9.0](https://github.com/coingaming/moon-design/compare/v6.8.2...v6.9.0) (2021-08-24)
 
 
