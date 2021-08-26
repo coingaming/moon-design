@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import { Button } from '@heathmont/moon-components';
+import {
+  GenericClose,
+  GenericMenu,
+  GenericSearch,
+} from '@heathmont/moon-icons';
 import { mq, rem } from '@heathmont/moon-utils';
 
-import IconClose from '../../../private/icons/IconErrorCircle';
-import IconMenu from '../../../private/icons/IconMenu';
-import IconSearch from '../../../private/icons/IconSearch';
 import { inputConfig, zIndex } from './settings';
 
 const { borderWidth, padding } = inputConfig;
@@ -31,16 +34,16 @@ export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
   zIndex: zIndex.searchIcon,
 }));
 
-export const SearchClearIcon = styled(IconClose)<React.SVGProps<SVGSVGElement>>(
-  ({ theme: { color, fontSize, space } }) => ({
-    color: color.trunks[100],
-    fontSize: rem(fontSize.body),
-    width: space.default,
-    height: space.default,
-  })
-);
+export const SearchClearIcon = styled(GenericClose)<
+  React.SVGProps<SVGSVGElement>
+>(({ theme: { color, fontSize, space } }) => ({
+  color: color.trunks[100],
+  fontSize: rem(fontSize.body),
+  width: space.default,
+  height: space.default,
+}));
 
-export const SearchInputIcon = styled(IconSearch)<
+export const SearchInputIcon = styled(GenericSearch)<
   React.SVGProps<SVGSVGElement> & { inputSize: SearchInputSize }
 >(({ inputSize, theme: { color, fontSize, space } }) => ({
   position: 'absolute',
@@ -55,19 +58,19 @@ export const SearchInputIcon = styled(IconSearch)<
   height: space.default,
 }));
 
-export const SearchMenuIcon = styled(IconMenu)<React.SVGProps<SVGSVGElement>>(
-  ({ theme: { color, fontSize, space } }) => ({
-    position: 'absolute',
-    top: '50%',
-    right: rem(space.default),
-    color: color.trunks[100],
-    fontSize: rem(fontSize.body),
-    transform: 'translateY(-50%)',
-    zIndex: zIndex.searchIcon,
-    width: space.default,
-    height: space.default,
-  })
-);
+export const SearchMenuIcon = styled(GenericMenu)<
+  React.SVGProps<SVGSVGElement>
+>(({ theme: { color, fontSize, space } }) => ({
+  position: 'absolute',
+  top: '50%',
+  right: rem(space.default),
+  color: color.trunks[100],
+  fontSize: rem(fontSize.body),
+  transform: 'translateY(-50%)',
+  zIndex: zIndex.searchIcon,
+  width: space.default,
+  height: space.default,
+}));
 
 export const SearchInput = styled.input<
   React.InputHTMLAttributes<HTMLInputElement> & {
