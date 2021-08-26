@@ -54,7 +54,6 @@ export const Results = styled.div(
       right: 0,
     },
     [mq(breakpoint.medium, 'min-width')]: {
-      width: 'auto',
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',
