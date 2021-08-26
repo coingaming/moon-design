@@ -157,7 +157,7 @@ const HeadingTagPreview = () => (
 <Heading size={24} as="h6">
   Heading renders H6 tag
 </Heading>
-  `}
+`}
   />
 );
 

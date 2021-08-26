@@ -3,6 +3,74 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.10.2](https://github.com/coingaming/moon-design/compare/v6.10.1...v6.10.2) (2021-08-25)
+
+
+### Bug Fixes
+
+* fix default prop ([#1342](https://github.com/coingaming/moon-design/issues/1342)) ([73a48d3](https://github.com/coingaming/moon-design/commit/73a48d32d3ffeea69b566b06d8ac1c74ea088d7c))
+
+
+
+
+
+## [6.10.1](https://github.com/coingaming/moon-design/compare/v6.10.0...v6.10.1) (2021-08-25)
+
+
+### Bug Fixes
+
+* typography page ([eda1ebc](https://github.com/coingaming/moon-design/commit/eda1ebc3fdc2f50356f5ff1b7b4705c7744997e0))
+
+
+
+
+
+# [6.10.0](https://github.com/coingaming/moon-design/compare/v6.9.2...v6.10.0) (2021-08-25)
+
+
+### Features
+
+* update tokens & colours pages ([#1339](https://github.com/coingaming/moon-design/issues/1339)) ([f7255ee](https://github.com/coingaming/moon-design/commit/f7255ee2fd4a268b863573ead37e0d6845901b3a))
+
+
+
+
+
+## [6.9.2](https://github.com/coingaming/moon-design/compare/v6.9.1...v6.9.2) (2021-08-25)
+
+**Note:** Version bump only for package moon-design
+
+
+
+
+
+## [6.9.1](https://github.com/coingaming/moon-design/compare/v6.9.0...v6.9.1) (2021-08-25)
+
+
+### Bug Fixes
+
+* fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
+
+
+
+
+
+# [6.9.0](https://github.com/coingaming/moon-design/compare/v6.8.2...v6.9.0) (2021-08-24)
+
+
+### Bug Fixes
+
+* **ci:** publish for build_docs_and_push ([ba1346d](https://github.com/coingaming/moon-design/commit/ba1346d88477b5783c2970479bba3f5abae46a94))
+
+
+### Features
+
+* update Contributors ([#1333](https://github.com/coingaming/moon-design/issues/1333)) ([354c2f4](https://github.com/coingaming/moon-design/commit/354c2f422a4bff07f7b0cfa10fbe11c142ebb38e))
+
+
+
+
+
 ## [6.8.2](https://github.com/coingaming/moon-design/compare/v6.8.1...v6.8.2) (2021-08-24)
 
 
