@@ -40,26 +40,22 @@ export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
 
 export const SearchClearIcon = styled(GenericClose)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { color, fontSize, space } }) => ({
+>(({ theme: { base, color } }) => ({
   color: color.trunks[100],
-  fontSize: rem(fontSize.body),
-  width: space.default,
-  height: space.default,
+  fontSize: rem(base.lineHeight),
 }));
 
 export const SearchInputIcon = styled(GenericSearch)<
   React.SVGProps<SVGSVGElement> & { inputSize: SearchInputSize }
->(({ inputSize, theme: { color, fontSize, space } }) => ({
+>(({ inputSize, theme: { base, color } }) => ({
   position: 'absolute',
   top: '50%',
   left: rem(padding[inputSize] + borderWidth),
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
-  fontSize: rem(fontSize.body),
+  fontSize: rem(base.lineHeight),
   color: color.trunks[100],
   pointerEvents: 'none',
-  width: space.default,
-  height: space.default,
   '[dir=rtl] &': {
     left: 'auto',
     right: rem(padding[inputSize] + borderWidth),
@@ -68,16 +64,14 @@ export const SearchInputIcon = styled(GenericSearch)<
 
 export const SearchMenuIcon = styled(GenericMenu)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { color, fontSize, space } }) => ({
+>(({ theme: { base, color, space } }) => ({
   position: 'absolute',
   top: '50%',
   right: rem(space.default),
   color: color.trunks[100],
-  fontSize: rem(fontSize.body),
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
-  width: space.default,
-  height: space.default,
+  fontSize: rem(base.lineHeight),
   '[dir=rtl] &': {
     left: rem(space.default),
     right: 'auto',
