@@ -9,6 +9,7 @@ const sharedDefaultProps = '';
 const customDefaultProps = {
   LogoSportsbet: 'color: "bulma.100",',
   LogoSportsbetSponsor: 'color: "bulma.100",',
+  LogoBetaddaFull: 'color: "goku.100",',
   PatternCircles: 'color: "piccolo.100",',
   PatternRipple: 'color: "piccolo.100",',
   PatternSpeed: 'color: "piccolo.100",',

@@ -1041,14 +1041,6 @@
     scroll-into-view-if-needed "2.2.22"
     smooth-scroll-into-view-if-needed "1.1.27"
 
-"@heathmont/moon-icons@^6.4.7-alpha.16":
-  version "6.4.7-alpha.16"
-  resolved "https://registry.yarnpkg.com/@heathmont/moon-icons/-/moon-icons-6.4.7-alpha.16.tgz#72f5b7fa31fa4000a0c708d48321c851353e00f9"
-  integrity sha512-I/8j4rpBe0QxsBXr25qHaZBdr11qeDvvo8dpn1l/CdjX58tDVTMi/TLtCv0nf2c3cRmRXYjbbDlOK7m80Yy7WA==
-  dependencies:
-    "@heathmont/moon-themes" "^6.4.7-alpha.16+830c3df0"
-    "@heathmont/moon-utils" "^6.4.7-alpha.16+830c3df0"
-
 "@heathmont/moon-pagination@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@heathmont/moon-pagination/-/moon-pagination-5.0.0.tgz#3d51d42eae5b2de8442a2374032ada8d5190c154"
