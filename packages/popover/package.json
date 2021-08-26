@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-popover",
   "sideEffects": false,
-  "version": "6.9.1",
+  "version": "6.10.2",
   "files": [
     "lib"
   ],
@@ -15,8 +15,8 @@
     "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^6.9.1",
-    "@heathmont/moon-components": "^6.9.1",
+    "@heathmont/moon-assets": "^6.10.2",
+    "@heathmont/moon-components": "^6.10.2",
     "@heathmont/moon-themes": "^6.8.0",
     "@heathmont/moon-utils": "^6.8.0",
     "@tippyjs/react": "4.2.0",
