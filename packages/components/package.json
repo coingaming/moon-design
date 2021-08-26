@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-components",
   "sideEffects": false,
-  "version": "6.8.0",
+  "version": "6.10.2",
   "files": [
     "lib"
   ],
@@ -12,15 +12,10 @@
   "author": "Coingaming Group",
   "license": "MIT",
   "scripts": {
-    "build": "yarn build:index && yarn build:js && yarn build:types",
-    "build:index": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src",
-    "build:js": "yarn build:js:es && yarn build:js:commonjs",
-    "build:js:commonjs": "babel --config-file '../../.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
-    "build:js:es": "babel --config-file '../../.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
-    "build:types": "tsc --project tsconfig.json --declarationMap"
+    "build": "echo 'Handled by root package'"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^6.8.0",
+    "@heathmont/moon-assets": "^6.10.2",
     "@heathmont/moon-themes": "^6.8.0",
     "@heathmont/moon-utils": "^6.8.0",
     "@reach/dialog": "0.11.2",
