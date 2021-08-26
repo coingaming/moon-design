@@ -36,7 +36,7 @@ const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
 ]);
 
 const IconLeftWrapper = styled.span<ChipProps>({
-  marginLeft: rem(8),
+  marginRight: rem(8),
 });
 
 const IconRightWrapper = styled.span<ChipProps>({
