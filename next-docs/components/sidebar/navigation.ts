@@ -25,6 +25,7 @@ const navigation = [
         ],
       },
       { name: 'Checkbox', href: '/components/checkbox' },
+      { name: 'Chip', href: '/components/chip' },
       { name: 'Datepicker', href: '/components/datepicker' },
       {
         name: 'Dialog',
