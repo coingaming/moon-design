@@ -16,7 +16,7 @@ const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: `${rem(8)}`,
+    borderRadius: `${rem(theme.radius.default)}`,
     padding: `${rem(8)}`,
     transition: `${theme.transitionDuration.default}s`,
     '&:hover': {
@@ -24,32 +24,23 @@ const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
         color: theme.color.piccolo[100]
     }
   },
-  size === 'small' && {
-    lineHeight: `${rem(16)}`,
-    fontSize: `${rem(12)}`,
-  },
-  size === 'medium' && {
-    lineHeight: `${rem(20)}`,
-    fontSize: `${rem(14)}`,
-  },
-  isActive && {
-    background: rgba(theme.color.piccolo[100], 0.2),
-    color: theme.color.piccolo[100],
-    cursor: ''
-  },
-  !isActive && {
-    background: theme.color.gohan[100],
-    color: theme.color.trunks[100],
-    cursor: 'pointer'
-  },
+  ({ size }) => ({
+    fontSize: size === 'small' ? rem(12) : rem(14),
+    lineHeight: size === 'small' ? `${rem(16)}` : rem(20),
+  }),
+  ({ isActive, theme }) => ({
+    background: isActive ? rgba(theme.color.piccolo[100], 0.2) : theme.color.gohan[100],
+    color: isActive ? theme.color.piccolo[100] : theme.color.trunks[100],
+    cursor: isActive ? 'auto' : 'pointer'
+  }),
 ]);
 
 const IconLeftWrapper = styled.span<ChipProps>({
-  marginLeft: `${rem(8)}`,
+  marginLeft: rem(8),
 });
 
 const IconRightWrapper = styled.span<ChipProps>({
-  marginLeft: `${rem(8)}`,
+  marginLeft: rem(8),
 });
 
 const Chip: React.FC<ChipProps> = ({
