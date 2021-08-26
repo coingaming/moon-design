@@ -32,6 +32,10 @@ export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
   background: 'transparent',
   appearance: 'none',
   zIndex: zIndex.searchIcon,
+  '[dir=rtl] &': {
+    right: 'auto',
+    left: borderWidth,
+  },
 }));
 
 export const SearchClearIcon = styled(GenericClose)<
@@ -56,6 +60,10 @@ export const SearchInputIcon = styled(GenericSearch)<
   pointerEvents: 'none',
   width: space.default,
   height: space.default,
+  '[dir=rtl] &': {
+    left: 'auto',
+    right: rem(padding[inputSize] + borderWidth),
+  },
 }));
 
 export const SearchMenuIcon = styled(GenericMenu)<
@@ -70,6 +78,10 @@ export const SearchMenuIcon = styled(GenericMenu)<
   zIndex: zIndex.searchIcon,
   width: space.default,
   height: space.default,
+  '[dir=rtl] &': {
+    left: rem(space.default),
+    right: 'auto',
+  },
 }));
 
 export const SearchInput = styled.input<
@@ -100,6 +112,10 @@ export const SearchInput = styled.input<
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,
+    '[dir=rtl] &': {
+      paddingLeft: rem(padding[inputSize] + space.default),
+      paddingRight: rem(2 * padding[inputSize] + space.default),
+    },
     '&::placeholder': {
       color: 'inherit',
     },

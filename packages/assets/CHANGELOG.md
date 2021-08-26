@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.10.3](https://github.com/coingaming/moon-design/compare/v6.10.2...v6.10.3) (2021-08-26)
+
+
+### Bug Fixes
+
+* LogoBetaddaFull colours ([#1348](https://github.com/coingaming/moon-design/issues/1348)) ([69762b3](https://github.com/coingaming/moon-design/commit/69762b3b81935785d31890e3b8a20c16be5b1f74))
+
+
+
+
+
 ## [6.10.2](https://github.com/coingaming/moon-design/compare/v6.10.1...v6.10.2) (2021-08-25)
 
 

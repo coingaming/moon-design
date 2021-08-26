@@ -49,6 +49,10 @@ export const Results = styled.div(
     color: color.trunks[100],
     width: '100%',
     zIndex: zIndex.searchResults,
+    '[dir=rtl] &': {
+      left: 'auto',
+      right: 0,
+    },
     [mq(breakpoint.medium, 'min-width')]: {
       width: 'auto',
       minWidth: '300px',
