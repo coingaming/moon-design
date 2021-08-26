@@ -66,11 +66,11 @@ const Search: React.FC<SearchProps> = ({
       isOpen={popupOpen}
       title={
         <SearchForm onSubmit={onSubmit}>
-          <SearchBox size={size}>
+          <SearchBox $size={size}>
             <SearchInput
+              $size={size}
               autoComplete="off"
               hasBorder={hasBorder}
-              inputSize={size}
               onChange={searchChange}
               onFocus={openPopup}
               placeholder={placeholder}
@@ -80,7 +80,7 @@ const Search: React.FC<SearchProps> = ({
               value={searchStr}
               {...props}
             />
-            <SearchInputIcon inputSize={size} />
+            <SearchInputIcon $size={size} />
             {searchStr && popupOpen && (
               <SearchClearButton onClick={clearSearch}>
                 <SearchClearIcon />
