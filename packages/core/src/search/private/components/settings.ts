@@ -18,4 +18,5 @@ export const inputConfig = {
     small: 40,
     medium: 48,
   },
+  transition: 'color ease, background-color ease',
 };
