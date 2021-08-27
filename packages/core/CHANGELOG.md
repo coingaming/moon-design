@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.11.0](https://github.com/coingaming/moon-design/compare/v6.10.3...v6.11.0) (2021-08-27)
+
+
+### Bug Fixes
+
+* use @heathmont/moon-icons ([#1350](https://github.com/coingaming/moon-design/issues/1350)) ([a9ac35d](https://github.com/coingaming/moon-design/commit/a9ac35db813c212c1babedb7f0cdbaf174a6c21d))
+
+
+
+
+
 ## [6.10.3](https://github.com/coingaming/moon-design/compare/v6.10.2...v6.10.3) (2021-08-26)
 
 **Note:** Version bump only for package @heathmont/moon-core
