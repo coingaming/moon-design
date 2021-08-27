@@ -27,12 +27,13 @@ const findFirstVisibleIndex = (childRefs: any[]): any => {
 const scrollToIndex = (
   itemRef: HTMLElement,
   scrollIntoViewSmoothly: any,
-  containerRef?: any
+  containerRef?: any,
+  scrollStep?: number
 ) => {
   if (itemRef) {
     scrollIntoViewSmoothly(itemRef, {
       block: 'nearest',
-      inline: 'nearest',
+      inline: scrollStep === 1 ? 'center' : 'nearest',
       behavior: 'smooth',
       boundary: containerRef,
     });
@@ -43,7 +44,7 @@ const scrollLeftToStep = (
   scrollStep: number,
   itemRefs: HTMLElement[],
   scrollIntoViewSmoothly: any,
-  containerRef?: any,
+  containerRef?: any
 ) => {
   const firstVisibleIndex = findFirstVisibleIndex(itemRefs);
   const actualScrollForIndex =
@@ -51,7 +52,8 @@ const scrollLeftToStep = (
   scrollToIndex(
     itemRefs[actualScrollForIndex],
     scrollIntoViewSmoothly,
-    containerRef
+    containerRef,
+    scrollStep
   );
 };
 
@@ -59,7 +61,7 @@ const scrollRightToStep = (
   scrollStep: number,
   itemRefs: HTMLElement[],
   scrollIntoViewSmoothly: any,
-  containerRef?: any,
+  containerRef?: any
 ) => {
   const lastVisibleIndex = findLastVisibleIndex(itemRefs);
   const lastIndex = itemRefs.length - 1;
@@ -70,7 +72,8 @@ const scrollRightToStep = (
   scrollToIndex(
     itemRefs[actualScrollForIndex],
     scrollIntoViewSmoothly,
-    containerRef
+    containerRef,
+    scrollStep
   );
 };
 
