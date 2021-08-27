@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.11.1](https://github.com/coingaming/moon-design/compare/v6.11.0...v6.11.1) (2021-08-27)
+
+
+### Bug Fixes
+
+* carousel freezing when step equal one [B1M2-2794] ([#1352](https://github.com/coingaming/moon-design/issues/1352)) ([011e199](https://github.com/coingaming/moon-design/commit/011e199246f6220552fd91158276db7b35343527))
+
+
+
+
+
 # [6.11.0](https://github.com/coingaming/moon-design/compare/v6.10.3...v6.11.0) (2021-08-27)
 
 
