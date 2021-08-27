@@ -83,7 +83,7 @@ export const SearchInput = styled.input<
   ({
     hasBorder,
     $size,
-    theme: { breakpoint, color, fontSize, fontWeight, radius, space },
+    theme: { breakpoint, color, fontSize, fontWeight, radius, space, transitionDuration },
   }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(fontSize.body),
@@ -96,12 +96,14 @@ export const SearchInput = styled.input<
     paddingLeft: rem(2 * padding[$size] + space.default),
     textOverflow: 'ellipsis',
     overflow: 'hidden',
-    backgroundColor: hasBorder ? color.goku[100] : color.gohan[100],
+    backgroundColor: color.goku[100],
     color: color.trunks[100],
     borderRadius: rem(radius.default),
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,
+    transition: `${inputConfig.transition}`,
+    transitionDuration: `${transitionDuration.default}s`,
     '[dir=rtl] &': {
       paddingLeft: rem(padding[$size] + space.default),
       paddingRight: rem(2 * padding[$size] + space.default),
