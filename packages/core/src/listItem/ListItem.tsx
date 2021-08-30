@@ -50,10 +50,10 @@ const ElementLeftWrapper = styled.span<ListItemProps>({
   marginRight: rem(8),
 });
 
-const ElementRightWrapper = styled.span<ListItemProps>(({ size }) => ({
+const ElementRightWrapper = styled.span<ListItemProps>({
   gridArea: 'meta',
   marginLeft: rem(8),
-}));
+});
 
 const MetaWrapper = styled.span<ListItemProps>(({ theme }) => ({
   gridArea: 'meta',
