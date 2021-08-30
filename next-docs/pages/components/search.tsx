@@ -16,6 +16,7 @@ const Dropdown = styled.ul(({ theme: { space } }) => ({
 }));
 
 const PreviewSearch = () => {
+  const [otsing, setOtsing] = React.useState('');
   return (
     <div className="h-96 bg-white p-4">
       <Search
@@ -23,31 +24,43 @@ const PreviewSearch = () => {
         placeholder="Search"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           console.log(e.target.value);
+          setOtsing(e.target.value);
         }}
         onSubmit={(e: React.FormEvent) => {
           console.log('Submitted', e);
         }}
-        onClear={() => {
-          console.log('Clear results');
+        onClear={(e) => {
+          console.log('Clear results', e);
+          setOtsing('');
         }}
         results={
-          <Dropdown>
-            <li>Categories</li>
-            <li>
-              <button>Btn 1</button>
-              <button>Btn 1</button>
-            </li>
-            <li>Recent Searches</li>
-            <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-              <IconProfile /> First Game
-            </li>
-            <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-              <IconProfile /> Second Game
-            </li>
-            <li style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-              <IconProfile /> Third Game
-            </li>
-          </Dropdown>
+          otsing ? (
+            <Dropdown>
+              <li>Categories</li>
+              <li>
+                <button>Btn 1</button>
+                <button>Btn 1</button>
+              </li>
+              <li>Recent Searches</li>
+              <li
+                style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
+              >
+                <IconProfile /> First Game
+              </li>
+              <li
+                style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
+              >
+                <IconProfile /> Second Game
+              </li>
+              <li
+                style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
+              >
+                <IconProfile /> Third Game
+              </li>
+            </Dropdown>
+          ) : (
+            <p>No results</p>
+          )
         }
       />
     </div>

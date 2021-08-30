@@ -81,9 +81,17 @@ export const SearchInput = styled.input<
   }
 >(
   ({
-    hasBorder,
     $size,
-    theme: { breakpoint, color, fontSize, fontWeight, radius, space, transitionDuration },
+    hasBorder,
+    theme: {
+      breakpoint,
+      color,
+      fontSize,
+      fontWeight,
+      radius,
+      space,
+      transitionDuration,
+    },
   }) => ({
     fontWeight: fontWeight.normal,
     fontSize: rem(fontSize.body),
@@ -121,7 +129,7 @@ export const SearchInput = styled.input<
       color: color.bulma[100],
     },
     [mq(breakpoint.medium, 'max-width')]: {
-      '.popup-open &': {
+      [':focus:not(:placeholder-shown)']: {
         borderColor: color.piccolo[100],
       },
     },
@@ -129,9 +137,8 @@ export const SearchInput = styled.input<
 );
 
 export const SearchBox = styled.span<{
-    $size: SearchInputSize;
-  }
->(({ $size, theme: { fontSize } }) => ({
+  $size: SearchInputSize;
+}>(({ $size, theme: { fontSize } }) => ({
   display: 'flex',
   position: 'relative',
   fontSize: rem(fontSize.body),
