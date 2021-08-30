@@ -23,14 +23,10 @@ const PreviewSearch = () => {
         closeButton={<span>Clear</span>}
         placeholder="Search"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-          console.log(e.target.value);
           setOtsing(e.target.value);
         }}
-        onSubmit={(e: React.FormEvent) => {
-          console.log('Submitted', e);
-        }}
-        onClear={(e) => {
-          console.log('Clear results', e);
+        onSubmit={() => {}}
+        onClear={() => {
           setOtsing('');
         }}
         results={
@@ -72,9 +68,7 @@ const PreviewSearchLoading = () => {
     <div className="h-40 bg-white p-4">
       <Search
         placeholder="Search"
-        onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-          console.log(e.target.value);
-        }}
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) => {}}
         results={
           <Dropdown>
             <li>Loading...</li>
