@@ -68,7 +68,6 @@ const PreviewSearchLoading = () => {
     <div className="h-40 bg-white p-4">
       <Search
         placeholder="Search"
-        onChange={(e: React.ChangeEvent<HTMLInputElement>) => {}}
         results={
           <Dropdown>
             <li>Loading...</li>
