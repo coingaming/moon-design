@@ -15,7 +15,7 @@ const { borderWidth, padding } = inputConfig;
 
 export type SearchInputSize = 'small' | 'medium';
 
-export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
+export const SearchClearButton = styled(Button)(({ theme: { color, space } }) => ({
   position: 'absolute',
   top: 0,
   right: borderWidth,
@@ -28,6 +28,9 @@ export const SearchClearButton = styled(Button)(({ theme: { space } }) => ({
   background: 'transparent',
   appearance: 'none',
   zIndex: zIndex.searchIcon,
+  ':focus svg': {
+    color: color.bulma[100],
+  },
   '[dir=rtl] &': {
     right: 'auto',
     left: borderWidth,
