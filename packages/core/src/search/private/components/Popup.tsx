@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
 
@@ -13,11 +13,11 @@ export const StyledPopup = styled.div(
     borderRadius: rem(popupConfig.borderRadius),
     fontSize: rem(base.fontSize),
     lineHeight: rem(24),
-    ['&.popup-open']: {
+    [':focus-within']: {
       zIndex: zIndex.dialog,
     },
     [mq(breakpoint.medium, 'max-width')]: {
-      ['&.popup-open']: {
+      [':focus-within']: {
         position: 'fixed',
         top: 0,
         right: 0,
@@ -34,7 +34,6 @@ export type PopupProps = {
   children?: JSX.Element;
   closeButton?: JSX.Element;
   closePopup: () => void;
-  isOpen: boolean;
   title: JSX.Element;
 };
 
@@ -42,46 +41,30 @@ const Popup: React.FC<PopupProps> = ({
   children,
   closeButton,
   closePopup,
-  isOpen,
   title,
 }) => {
-  const ref = useRef(null);
   const escapeListener = useCallback((e: KeyboardEvent) => {
     if (e.key === 'Escape') {
       closePopup();
     }
   }, []);
 
-  const clickListener = useCallback(
-    (e: MouseEvent) => {
-      e.stopPropagation();
-      if (ref.current && !(ref.current! as any).contains(e.target)) {
-        closePopup();
-      }
-    },
-    [ref.current]
-  );
-
   useEffect(() => {
-    // Attach the listeners on component mount.
-    document.addEventListener('click', clickListener);
     document.addEventListener('keyup', escapeListener);
-    // Detach the listeners on component unmount.
     return () => {
-      document.removeEventListener('click', clickListener);
       document.removeEventListener('keyup', escapeListener);
     };
   }, []);
 
   return (
-    <StyledPopup className={isOpen ? 'popup-open' : ''} ref={ref}>
+    <StyledPopup className="popup">
       <FlexWrapper>
         {title}
-        {!!closeButton && isOpen ? (
+        {closeButton ? (
           <ModalClose onClick={closePopup}>{closeButton}</ModalClose>
         ) : null}
       </FlexWrapper>
-      {isOpen && children && <FlexWrapper>{children}</FlexWrapper>}
+      {children && <FlexWrapper>{children}</FlexWrapper>}
     </StyledPopup>
   );
 };

@@ -16,12 +16,9 @@ Use `query` prop to define query string
 
 <Search
   placeholder="Search"
-  onChange={(e) => {
-    console.log(e.target.value);
-  }}
-  onSubmit={(e) => {
-    console.log('Submitted');
-  }}
+  onChange={() => {}}
+  onSubmit={() => {}}
+  onClear={() => {}}
 />
 
 ### Results
@@ -31,20 +28,14 @@ Pass searchResults to `searchResults` prop.
 ```jsx react-live
 <Search
   placeholder="Search"
-  onChange={(e) => {
-    console.log(e.target.value);
-  }}
-  onSubmit={(e) => {
-    console.log('Submitted');
-  }}
+  onChange={() => {}}
+  onSubmit={() => {}}
   tabs={
     {
       title: <span>Categories</span>,
       items: [
         <span
-          onClick={() => {
-            console.log('Click');
-          }}
+          onClick={() => {}}
         >
           First cat
         </span>,
@@ -56,9 +47,7 @@ Pass searchResults to `searchResults` prop.
       title: <span>Games</span>,
       items: [
         <span
-          onClick={() => {
-            console.log('Click');
-          }}
+          onClick={() => {}}
         >
           First Game
         </span>,
@@ -77,9 +66,7 @@ they won't be rendered.
 ```jsx react-live
 <Search
   placeholder="Search"
-  onChange={(e) => {
-    console.log(e.target.value);
-  }}
+  onChange={() => {}}
   loadingMessage={<p>Loading...</p>}
 />
 ```

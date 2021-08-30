@@ -4,6 +4,8 @@ import { Button } from '@heathmont/moon-components';
 
 import { zIndex } from './settings';
 
+const focusOutsideSearchPopup = '.popup:not(:focus-within)';
+
 export const SearchForm = styled.form({
   display: 'flex',
   position: 'relative',
@@ -30,6 +32,9 @@ export const ModalClose = styled(Button)(
     fontSize: rem(base.fontSize),
     overflow: 'visible',
     color: color.piccolo[100],
+    [`${focusOutsideSearchPopup} &`]: {
+      display: 'none',
+    },
     ['&:hover:not([disabled])']: {
       color: color.piccolo[100],
     },
@@ -49,6 +54,9 @@ export const Results = styled.div(
     color: color.trunks[100],
     width: '100%',
     zIndex: zIndex.searchResults,
+    [`${focusOutsideSearchPopup} &`]: {
+      display: 'none',
+    },
     '[dir=rtl] &': {
       left: 'auto',
       right: 0,
