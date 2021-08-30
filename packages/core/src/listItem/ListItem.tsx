@@ -33,7 +33,7 @@ const StyledListItem = styled.div<ListItemProps>(
   }),
   ({ size }) => ({
     fontSize: size === 'medium' ? rem(14) : rem(16),
-    padding: size === 'medium' ? `${rem(8)} ${rem(12)}` : rem(12),
+    padding: size === 'medium' ? `${rem(8)}` : rem(12),
   }),
   ({ color, backgroundColor, theme }) => ({
     color: color ? themed('color', color)(theme) : theme.color.bulma[100],
@@ -45,28 +45,28 @@ const MainWrapper = styled.div<ListItemProps>({
   gridArea: 'main',
 });
 
-const ElementLeftWrapper = styled.span<ListItemProps>(({ size }) => ({
+const ElementLeftWrapper = styled.span<ListItemProps>({
   gridArea: 'icon',
-  marginRight: size === 'medium' ? rem(12) : rem(14),
-}));
+  marginRight: rem(8),
+});
 
 const ElementRightWrapper = styled.span<ListItemProps>(({ size }) => ({
   gridArea: 'meta',
-  marginLeft: size === 'medium' ? rem(12) : rem(14),
+  marginLeft: rem(8),
 }));
 
-const MetaWrapper = styled.span<ListItemProps>(({ size, theme }) => ({
+const MetaWrapper = styled.span<ListItemProps>(({ theme }) => ({
   gridArea: 'meta',
   color: theme.color.trunks[100],
   fontSize: rem(12),
   lineHeight: rem(16),
-  marginLeft: size === 'medium' ? rem(12) : rem(14),
+  marginLeft: rem(8),
   alignSelf: 'center',
 }));
 
-const SubtextWrapper = styled.div<ListItemProps>(({ size, theme }) => ({
+const SubtextWrapper = styled.div<ListItemProps>(({ theme }) => ({
   gridArea: 'description',
-  fontSize: size === 'medium' ? rem(10) : rem(12),
+  fontSize: rem(12),
   lineHeight: rem(16),
   color: theme.color.trunks[100],
   display: 'flex',
