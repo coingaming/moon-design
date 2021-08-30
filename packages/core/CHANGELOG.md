@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.11.2](https://github.com/coingaming/moon-design/compare/v6.11.1...v6.11.2) (2021-08-30)
+
+
+### Bug Fixes
+
+* focus outside will close popup (even when using TAB) ([#1356](https://github.com/coingaming/moon-design/issues/1356)) ([d51dc64](https://github.com/coingaming/moon-design/commit/d51dc64dfaee19dfb2f993c2d0e3b0cc79a7b594))
+
+
+
+
+
 ## [6.11.1](https://github.com/coingaming/moon-design/compare/v6.11.0...v6.11.1) (2021-08-27)
 
 
