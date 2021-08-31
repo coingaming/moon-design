@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { DraggableTable } from '@heathmont/moon-draggabletable';
 import Preview from '../../components/codePreview/Preview';
