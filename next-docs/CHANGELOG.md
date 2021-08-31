@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.12.2](https://github.com/coingaming/moon-design/compare/v6.12.1...v6.12.2) (2021-08-31)
+
+
+### Bug Fixes
+
+* added moon-draggabletable to package ([#1364](https://github.com/coingaming/moon-design/issues/1364)) ([863102a](https://github.com/coingaming/moon-design/commit/863102a400eda7f0a3d2b7b31f4b0182d5502763))
+* type for dragable page ([#1363](https://github.com/coingaming/moon-design/issues/1363)) ([3df0856](https://github.com/coingaming/moon-design/commit/3df085678c48f1a701dc140495376c2743919da0))
+* use row object in onDropRow event ([#1362](https://github.com/coingaming/moon-design/issues/1362)) ([ebd64b1](https://github.com/coingaming/moon-design/commit/ebd64b1c10856479f0a771ddb01357dabaa3fbdf))
+
+
+
+
+
 ## [6.12.1](https://github.com/coingaming/moon-design/compare/v6.12.0...v6.12.1) (2021-08-31)
 
 **Note:** Version bump only for package next-docs
