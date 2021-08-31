@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.12.0](https://github.com/coingaming/moon-design/compare/v6.11.2...v6.12.0) (2021-08-31)
+
+
+### Features
+
+* b1 m2 3620 add keyboard navigation to search ([#1358](https://github.com/coingaming/moon-design/issues/1358)) ([b0dc8ca](https://github.com/coingaming/moon-design/commit/b0dc8ca3b0bb286b6bf13c42f083c3f36d8ee894))
+
+
+
+
+
 ## [6.11.2](https://github.com/coingaming/moon-design/compare/v6.11.1...v6.11.2) (2021-08-30)
 
 
