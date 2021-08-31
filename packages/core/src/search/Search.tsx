@@ -17,6 +17,8 @@ export interface SearchProps {
   hasBorder?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onClear?: (e: React.MouseEvent<HTMLElement>) => void;
+  onKeyDown?: (e: React.KeyboardEvent<HTMLElement>) => void;
+  onKeyUp?: (e: React.KeyboardEvent<HTMLElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
@@ -29,6 +31,8 @@ const Search: React.FC<SearchProps> = ({
   hasBorder = true,
   onChange,
   onClear,
+  onKeyDown,
+  onKeyUp,
   onSubmit,
   placeholder,
   query = '',
@@ -69,6 +73,8 @@ const Search: React.FC<SearchProps> = ({
               autoComplete="off"
               hasBorder={hasBorder}
               onChange={searchChange}
+              onKeyDown={onKeyDown}
+              onKeyUp={onKeyUp}
               placeholder={placeholder}
               ref={search}
               required
