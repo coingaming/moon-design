@@ -66,7 +66,7 @@ const Search: React.FC<SearchProps> = ({
       closeButton={closeButton}
       closePopup={closePopup}
       title={
-        <SearchForm onSubmit={onSubmit}>
+        <SearchForm onSubmit={onSubmit} noValidate>
           <SearchBox $size={size}>
             <SearchInput
               $size={size}
