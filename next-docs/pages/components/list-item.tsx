@@ -4,6 +4,10 @@ import { ListItem } from '@heathmont/moon-core';
 import { IconClaps } from '@heathmont/moon-assets';
 import Preview from '../../components/codePreview/Preview';
 
+const SubText: React.FC = () => (
+  <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
+);
+
 export default function PageListItem() {
   return (
     <>
@@ -55,27 +59,41 @@ export default function PageListItem() {
         <Preview
           title="Icon and Meta"
           preview={
-            <div className="flex justify-around items-center w-full">
-              <ListItem backgroundColor="goku.100" elementLeft={<IconClaps />}>
-                Single line item
-              </ListItem>
-              <ListItem backgroundColor="goku.100" elementRight={<IconClaps />}>
-                Single line item
-              </ListItem>
-              <ListItem
-                backgroundColor="goku.100"
-                elementLeft={<IconClaps />}
-                elementRight={<IconClaps />}
-              >
-                Single line item
-              </ListItem>
-              <ListItem
-                backgroundColor="goku.100"
-                isMeta
-                elementRight={<>Meta</>}
-              >
-                Single line item
-              </ListItem>
+            <div className="flex justify-around items-center w-full flex-wrap">
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem
+                  backgroundColor="goku.100"
+                  elementLeft={<IconClaps />}
+                >
+                  Single line item
+                </ListItem>
+              </div>
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem
+                  backgroundColor="goku.100"
+                  elementRight={<IconClaps />}
+                >
+                  Single line item
+                </ListItem>
+              </div>
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem
+                  backgroundColor="goku.100"
+                  elementLeft={<IconClaps />}
+                  elementRight={<IconClaps />}
+                >
+                  Single line item
+                </ListItem>
+              </div>
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem
+                  backgroundColor="goku.100"
+                  isMeta
+                  elementRight={<>Meta</>}
+                >
+                  Single line item
+                </ListItem>
+              </div>
             </div>
           }
           code={`import { ListItem } from '@heathmont/moon-core';
@@ -113,26 +131,9 @@ export default function PageListItem() {
         <Preview
           preview={
             <div className="flex justify-around items-center w-full">
-              <ListItem
-                subtext={
-                  <>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
-                  </>
-                }
-              >
-                Two lines item
-              </ListItem>
+              <ListItem subtext={<SubText />}>Two lines item</ListItem>
               <div className="w-96">
-                <ListItem
-                  backgroundColor="goku.100"
-                  subtext={
-                    <>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
-                    </>
-                  }
-                >
+                <ListItem backgroundColor="goku.100" subtext={<SubText />}>
                   Two lines item
                 </ListItem>
               </div>
@@ -159,30 +160,21 @@ export default function PageListItem() {
         <Preview
           title="Size (by default: large)"
           preview={
-            <div className="flex justify-around items-center w-full">
-              <ListItem
-                backgroundColor="goku.100"
-                subtext={
-                  <>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
-                  </>
-                }
-              >
-                Large
-              </ListItem>
-              <ListItem
-                size="medium"
-                backgroundColor="goku.100"
-                subtext={
-                  <>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
-                  </>
-                }
-              >
-                Medium
-              </ListItem>
+            <div className="flex justify-around items-center w-full flex-wrap">
+              <div className="m-0.5">
+                <ListItem backgroundColor="goku.100" subtext={<SubText />}>
+                  Large
+                </ListItem>
+              </div>
+              <div className="m-0.5">
+                <ListItem
+                  size="medium"
+                  backgroundColor="goku.100"
+                  subtext={<SubText />}
+                >
+                  Medium
+                </ListItem>
+              </div>
             </div>
           }
           code={`import { ListItem } from '@heathmont/moon-core';
@@ -208,61 +200,41 @@ export default function PageListItem() {
         <Preview
           title="Icon and Meta"
           preview={
-            <div className="flex justify-around items-center w-full">
-              <div className="w-72">
+            <div className="flex justify-around items-center w-full flex-wrap">
+              <div className="w-72 m-0.5">
                 <ListItem
                   backgroundColor="goku.100"
                   elementLeft={<IconClaps />}
-                  subtext={
-                    <>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
-                    </>
-                  }
+                  subtext={<SubText />}
                 >
                   Two lines item
                 </ListItem>
               </div>
-              <div className="w-72">
+              <div className="w-72 m-0.5">
                 <ListItem
                   backgroundColor="goku.100"
                   elementRight={<IconClaps />}
-                  subtext={
-                    <>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
-                    </>
-                  }
+                  subtext={<SubText />}
                 >
                   Two lines item
                 </ListItem>
               </div>
-              <div className="w-72">
+              <div className="w-72 m-0.5">
                 <ListItem
                   backgroundColor="goku.100"
                   elementLeft={<IconClaps />}
                   elementRight={<IconClaps />}
-                  subtext={
-                    <>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
-                    </>
-                  }
+                  subtext={<SubText />}
                 >
                   Two lines item
                 </ListItem>
               </div>
-              <div className="w-72">
+              <div className="w-72 m-0.5">
                 <ListItem
                   backgroundColor="goku.100"
                   isMeta
                   elementRight={<>Meta</>}
-                  subtext={
-                    <>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
-                    </>
-                  }
+                  subtext={<SubText />}
                 >
                   Two lines item
                 </ListItem>
