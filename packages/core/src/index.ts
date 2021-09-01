@@ -12,6 +12,8 @@ export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
 export { default as Heading } from './heading/Heading';
 export * from './heading/Heading';
+export { default as ListItem } from './listItem/ListItem';
+export * from './listItem/ListItem';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as ScreenLoader } from './screenLoader/ScreenLoader';
