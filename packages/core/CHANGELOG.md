@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.13.0](https://github.com/coingaming/moon-design/compare/v6.12.2...v6.13.0) (2021-09-02)
+
+
+### Features
+
+* addd ListItem component [B1M2-3510] ([#1345](https://github.com/coingaming/moon-design/issues/1345)) ([7ae210e](https://github.com/coingaming/moon-design/commit/7ae210e02522ea19c2e9f5e0146498ecbcdde137))
+
+
+
+
+
 # [6.12.0](https://github.com/coingaming/moon-design/compare/v6.11.2...v6.12.0) (2021-08-31)
 
 
