@@ -9,7 +9,6 @@ export type TabLinkProps = {
   count?: string;
   size?: 'small' | 'medium';
   isTop?: boolean;
-  fullWidth?: boolean;
   href?: string;
 };
 
