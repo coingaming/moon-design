@@ -11,9 +11,9 @@ const TopRightArrowIcon = () => (
     <path
       d="M2 30.5L30.4891 2M30.4891 2H15.1459M30.4891 2L30.4891 17.3432"
       stroke="currentColor"
-      stroke-width="3"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

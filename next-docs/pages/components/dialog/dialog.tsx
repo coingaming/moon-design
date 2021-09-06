@@ -1,4 +1,5 @@
 import React from 'react';
+import '@reach/dialog/styles.css';
 
 import { Dialog, Button, Stack } from '@heathmont/moon-components';
 
@@ -130,21 +131,45 @@ export default function PageDialog() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Dialog</h1>
-        <p className="text-lg mt-4">The modal dialog (or modal as we call it) is used to capture attention so users are informed about a task, critical information or a decision they have to make. It usually resides on the top of a page.
+        <p className="text-lg mt-4">
+          The modal dialog (or modal as we call it) is used to capture attention
+          so users are informed about a task, critical information or a decision
+          they have to make. It usually resides on the top of a page.
+        </p>
+        <p className="text-lg mt-4">
+          When modals are active, users are unable to see the content that’s
+          currently on the page. They also won’t be able to return to what they
+          were previously doing until the modal is dismissed or a task/decision
+          is completed.
+        </p>
+        <p className="text-lg mt-4">
+          As experienced astronauts, we recommend using modals sparingly. They
+          are effective when used correctly, but they can also be disruptive.
+        </p>
 
-<p className="text-lg mt-4">When modals are active, users are unable to see the content that’s currently on the page. They also won’t be able to return to what they were previously doing until the modal is dismissed or a task/decision is completed.</p>
+        <p className="text-lg mt-4 font-bold">When to use a modal dialog</p>
+        <p className="text-lg">
+          Modals should only be used when an almost-instant response is required
+          from the user. The task within the modal should also be short and
+          non-recurring. Should the task be a recurring one, this has to be done
+          differently.
+        </p>
 
-<p className="text-lg mt-4">As experienced astronauts, we recommend using modals sparingly. They are effective when used correctly, but they can also be disruptive.</p>
+        <p className="text-lg mt-4 font-bold">
+          Presenting critical information
+        </p>
+        <p className="text-lg">
+          Use modals to present critical urgent information to the user, e.g.
+          system errors or something that has happened as a result of their
+          action.
+        </p>
 
-<p className="text-lg mt-4 font-bold">When to use a modal dialog</p>
-Modals should only be used when an almost-instant response is required from the user. The task within the modal should also be short and non-recurring. Should the task be a recurring one, this has to be done differently.
-
-<p className="text-lg mt-4 font-bold">Presenting critical information</p>
-Use modals to present critical urgent information to the user, e.g. system errors or something that has happened as a result of their action.
-
-<p className="text-lg mt-4 font-bold">Confirming user decisions</p>
-Confirming user decisions can be done with a modal. It’s important to ensure that the decision, and any potential actions that may result from it, is clearly explained within the modal.
-</p>
+        <p className="text-lg mt-4 font-bold">Confirming user decisions</p>
+        <p className="text-lg">
+          Confirming user decisions can be done with a modal. It’s important to
+          ensure that the decision, and any potential actions that may result
+          from it, is clearly explained within the modal.
+        </p>
       </section>
 
       {/* Default */}
