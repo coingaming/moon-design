@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+import React, { ChangeEvent, useCallback, useRef, useState } from 'react';
+import { debounce } from 'lodash';
 
 import Popup from './private/components/Popup';
 import { SearchResults } from './private/components/SearchResults';
@@ -43,9 +44,17 @@ const Search: React.FC<SearchProps> = ({
   const [searchStr, setSearchStr] = useState(query);
   const search = useRef<HTMLInputElement>(null);
 
-  const searchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const debouncedOnChange = useCallback(
+    debounce((e: ChangeEvent<HTMLInputElement>) => {
+      onChange && onChange(e);
+    }, 300),
+    [onChange]
+  );
+
+  const searchChange = (e: ChangeEvent<HTMLInputElement>) => {
+    e.persist();
     setSearchStr(e.target.value);
-    onChange && onChange(e);
+    debouncedOnChange(e);
   };
 
   const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
