@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 
-type TabLinkFillProps = {
+type Props = {
   elementLeft?: React.ReactElement;
   size?: 'small' | 'medium';
 };
 
-const TabLinkFillStyle = styled.a<TabLinkFillProps>(({ theme, size }) => ({
+const TabLinkFillContainer = styled.a<Props>(({ theme, size }) => ({
   display: 'flex',
   alignItems: 'center',
   padding: `${size === 'small' ? rem(4) : rem(8)} ${rem(8)}`,
@@ -34,4 +34,4 @@ const TabLinkFillStyle = styled.a<TabLinkFillProps>(({ theme, size }) => ({
   },
 }));
 
-export default TabLinkFillStyle;
+export default TabLinkFillContainer;

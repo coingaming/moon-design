@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem, uniqueId } from '@heathmont/moon-utils';
 
-import Reel from '../reel/Reel';
 import SkipLink from './styles/SkipLink';
+import TabNav from './styles/TabNav';
+import TabList from './styles/TabList';
 
-type TabsProps = {
+export type TabsProps = {
   id?: string;
   items: any[];
   isTop?: boolean;
@@ -14,26 +15,6 @@ type TabsProps = {
   isContainer?: boolean;
 };
 
-const TabNav = styled.nav<{ isContainer?: boolean }>(({ isContainer }) => [
-  {
-    position: 'relative',
-    width: '100%',
-  },
-  isContainer && {
-    display: 'flex',
-  },
-]);
-
-const TabList = styled(Reel.withComponent('ul'))<{ isContainer?: boolean }>(
-  ({ theme: { border, color }, isContainer }) => [
-    isContainer && {
-      padding: rem(4),
-      border: border,
-      borderColor: color.beerus[100],
-      borderRadius: rem(8),
-    },
-  ]
-);
 const Tab = styled.li({});
 
 const Tabs: React.FC<TabsProps> = ({

@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
 
-type TabLinkProps = {
+type Props = {
   elementLeft?: React.ReactElement;
   size?: 'small' | 'medium';
   isTop?: boolean;
   paddingSize?: string;
 };
 
-const TabLinkStyle = styled.a<TabLinkProps>(({ theme, paddingSize, isTop }) => [
+const TabLinkContainer = styled.a<Props>(({ theme, paddingSize, isTop }) => [
   {
     display: 'flex',
     alignItems: 'center',
@@ -54,4 +54,4 @@ const TabLinkStyle = styled.a<TabLinkProps>(({ theme, paddingSize, isTop }) => [
   },
 ]);
 
-export default TabLinkStyle;
+export default TabLinkContainer;

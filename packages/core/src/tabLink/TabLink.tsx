@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
-import TabLinkStyle from './TabLinkStyle';
+import TabLinkContainer from './styles/TabLinkContainer';
 
 export type TabLinkProps = {
   elementLeft?: React.ReactElement;
@@ -28,7 +28,7 @@ const TabLink: React.FC<TabLinkProps> = ({
   count,
   isTop,
 }) => (
-  <TabLinkStyle
+  <TabLinkContainer
     size={size}
     isTop={isTop}
     href={href}
@@ -37,7 +37,7 @@ const TabLink: React.FC<TabLinkProps> = ({
     {elementLeft && <ElementLeftWrapper>{elementLeft}</ElementLeftWrapper>}
     {children}
     {count && <CountWrapper>{count}</CountWrapper>}
-  </TabLinkStyle>
+  </TabLinkContainer>
 );
 
 export default TabLink;
