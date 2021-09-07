@@ -17,7 +17,11 @@ const ExampleDisabled = () => {
 
 const ExampleChecked = () => {
   return (
-    <Checkbox checked label="I agree to receive bonus & marketing emails." />
+    <Checkbox
+      checked
+      label="I agree to receive bonus & marketing emails."
+      readOnly
+    />
   );
 };
 
@@ -72,7 +76,7 @@ export default function PageAccordion() {
           preview={<ExampleChecked />}
           code={`import { Checkbox } from '@heathmont/moon-core';
 
-<Checkbox checked label="I agree to receive bonus & marketing emails." />
+<Checkbox checked readOnly label="I agree to receive bonus & marketing emails." />
 `}
         />
       </section>

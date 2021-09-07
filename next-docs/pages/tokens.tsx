@@ -100,16 +100,10 @@ export default function PageTokens() {
               key: 'base.fontSize',
               value: 16,
             },
-
             {
               name: 'lineHeight',
               key: 'base.lineHeight',
               value: 20,
-            },
-            {
-              name: 'fontSize',
-              key: 'base.fontSize',
-              value: 16,
             },
           ]}
         />

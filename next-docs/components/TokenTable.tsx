@@ -31,7 +31,7 @@ export default function TokenTable({ data }: any) {
               <tbody>
                 {data.map((prop: any, propIdx: any) => (
                   <tr
-                    key={prop.name}
+                    key={prop.key}
                     className={propIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
                   >
                     <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
