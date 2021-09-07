@@ -13,11 +13,11 @@ export type TabLinkProps = {
 };
 
 const ElementLeftWrapper = styled.div({
-  marginRight: rem(8),
+  marginInlineEnd: rem(8),
 });
 
 const CountWrapper = styled.span({
-  marginLeft: rem(8),
+  marginInlineStart: rem(8),
 });
 
 const TabLink: React.FC<TabLinkProps> = ({
