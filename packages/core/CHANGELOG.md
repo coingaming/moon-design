@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.14.0](https://github.com/coingaming/moon-design/compare/v6.13.0...v6.14.0) (2021-09-08)
+
+
+### Features
+
+* add additional functionality for dialog [B1M2-3675] ([#1366](https://github.com/coingaming/moon-design/issues/1366)) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
+* add New Tabs in core [B1M2-3511] ([#1372](https://github.com/coingaming/moon-design/issues/1372)) ([505771f](https://github.com/coingaming/moon-design/commit/505771f956375d81d2a65da21e58dca6caa0ad72))
+
+
+
+
+
 # [6.13.0](https://github.com/coingaming/moon-design/compare/v6.12.2...v6.13.0) (2021-09-02)
 
 ### Features
