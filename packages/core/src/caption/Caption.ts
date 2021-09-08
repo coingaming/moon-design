@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
 
-type Props = {
+export type CaptionProps = {
   color?: ColorProps;
   textAlign?: TextAlign;
 };
 
-const Caption = styled.span<Props>(
+const Caption = styled.span<CaptionProps>(
   ({ color, theme }) => ({
     color: themed('color', color)(theme),
     fontSize: rem(10),
@@ -16,7 +16,7 @@ const Caption = styled.span<Props>(
     textTransform: 'uppercase',
     letterSpacing: rem(1),
   }),
-  ({ textAlign }) => textAlign && { textAlign },
+  ({ textAlign }) => textAlign && { textAlign }
 );
 
 Caption.defaultProps = {

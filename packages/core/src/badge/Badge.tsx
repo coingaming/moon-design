@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
+import { rem } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+
+import Container from './styles/Container';
 
 export type BadgeProps = {
   color?: ColorProps;
@@ -11,39 +13,9 @@ export type BadgeProps = {
   size?: 'small';
 };
 
-const StyledBadge = styled.span<BadgeProps>(
-  ({ theme: { fontWeight, radius } }) => ({
-    display: 'flex',
-    alignItems: 'center',
-    fontWeight: fontWeight.semibold,
-    textTransform: 'uppercase',
-    borderRadius: rem(radius.largest),
-    letterSpacing: rem(1), // TODO
-  }),
-  ({ size }) => ({
-    padding: size === 'small' ? `0 ${rem(4)}` : `0 ${rem(8)}`,
-    fontSize: size === 'small' ? rem(8) : rem(10),
-    lineHeight: size === 'small' ? rem(12) : rem(16),
-  }),
-  /* If a color or backgroundColor is set, override the modifier styles. */
-  ({ color, backgroundColor, theme }) => ({
-    color: color ? themed('color', color)(theme) : theme.color.goten[100],
-    backgroundColor: themed('color', backgroundColor)(theme),
-  }),
-);
+const IconRightWrapper = styled.span<BadgeProps>({ marginLeft: rem(8) });
 
-StyledBadge.defaultProps = {
-  color: 'goten.100',
-  backgroundColor: 'piccolo.100',
-};
-
-const IconRightWrapper = styled.span<BadgeProps>`
-  margin-left: ${rem(8)};
-`;
-
-const IconLeftWrapper = styled.span<BadgeProps>`
-  margin-right: ${rem(8)};
-`;
+const IconLeftWrapper = styled.span<BadgeProps>({ marginRight: rem(8) });
 
 const Badge: React.FC<BadgeProps> = ({
   children,
@@ -53,19 +25,17 @@ const Badge: React.FC<BadgeProps> = ({
   iconRight,
   size,
 }) => (
-    <StyledBadge
-      backgroundColor={backgroundColor}
-      color={color}
-      iconLeft={iconLeft}
-      iconRight={iconRight}
-      size={size}
-    >
-      {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
-      {children}
-      {iconRight && (
-        <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>
-      )}
-    </StyledBadge>
+  <Container
+    backgroundColor={backgroundColor}
+    color={color}
+    iconLeft={iconLeft}
+    iconRight={iconRight}
+    size={size}
+  >
+    {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
+    {children}
+    {iconRight && <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>}
+  </Container>
 );
 
 /*

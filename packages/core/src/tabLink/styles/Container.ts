@@ -8,7 +8,7 @@ type Props = {
   paddingSize?: string;
 };
 
-const TabLinkContainer = styled.a<Props>(({ theme, paddingSize, isTop }) => [
+const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
   {
     display: 'flex',
     alignItems: 'center',
@@ -54,4 +54,4 @@ const TabLinkContainer = styled.a<Props>(({ theme, paddingSize, isTop }) => [
   },
 ]);
 
-export default TabLinkContainer;
+export default Container;
