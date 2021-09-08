@@ -8,16 +8,6 @@
   If it fixes an open issue, please link to the issue here.
 -->
 
-## Types of changes
-
-<!---
-  What types of changes does your code introduce? Put an `x` in all the boxes that apply:
--->
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
-
 ## Checklist
 
 <!---
@@ -26,15 +16,7 @@
   We're here to help!
 -->
 
-- [ ] I have read the [**contributing guidelines**][contributing].
-- [ ] My code follows the [code style][code-style] of this project.
-- [ ] All new and existing tests passed.
-- [ ] My HTML markup is valid and meets [W3C standards](https://validator.w3.org/).
-- [ ] My styles avoid hard-coded 'magic' values and make use of the design tokens available in themes.
-- [ ] My code meets the [A11Y Web Accessibility Checklist](https://a11yproject.com/checklist). If not, please add justification documentation.
-- [ ] My change requires a change to the documentation.
-- [ ] I have updated the documentation accordingly.
-- [ ] I have added tests to cover my changes.
+- [ ] You attached screenshots or added description about changes
+- [ ] You use [conventional commits naming](https://www.conventionalcommits.org/en/v1.0.0/), e.g. `fix: your changes description [TicketNumber]`, `feat: your feature name [TicketNumber]`
+- [ ] You have updated the documentation accordingly.
 
-[contributing]: https://github.com/coingaming/moon-design/blob/master/CONTRIBUTING.md
-[code-style]: https://github.com/coingaming/moon-design/blob/master/CONTRIBUTING.md#code-style

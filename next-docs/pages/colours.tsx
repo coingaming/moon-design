@@ -19,8 +19,8 @@ interface PalleteColorProp {
 const Palette = ({ colors }: { colors: PalleteColorProp[] }) => {
   return (
     <div className="flex gap-4 items-start ">
-      {colors.map((color) => (
-        <div className="flex flex-col justify-center items-center">
+      {colors.map((color, index) => (
+        <div className="flex flex-col justify-center items-center" key={index}>
           <div
             className={`${color.className} w-40 h-40 rounded-xl border border-black`}
           />
