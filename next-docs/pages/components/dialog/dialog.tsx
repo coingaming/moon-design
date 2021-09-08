@@ -5,6 +5,74 @@ import { Dialog, Button, Stack } from '@heathmont/moon-components';
 
 import Preview from '../../../components/codePreview/Preview';
 
+const ExampleWithHeader = () => {
+  const [showDialog, setShowDialog] = React.useState(false);
+
+  return (
+    <>
+      <Button variant="secondary" onClick={() => setShowDialog(true)}>
+        Open Dialog
+      </Button>
+      <Dialog
+        isOpen={showDialog}
+        onDismiss={() => setShowDialog(false)}
+        maxWidth="760px"
+        position="TOP"
+        heading={
+          <>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+          </>
+        }
+      >
+        <Stack>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            blandit massa at lorem fermentum volutpat. Aliquam varius faucibus
+            turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut
+            lobortis ultricies mauris eget volutpat. Aliquam aliquam nisl in
+            nulla sagittis, eget viverra est ullamcorper. Morbi vel eros sed
+            mauris dignissim congue et nec ligula. Duis quis tellus a est
+            facilisis finibus. Duis varius libero id arcu pretium, et ultrices
+            diam tincidunt.
+          </p>
+        </Stack>
+      </Dialog>
+    </>
+  );
+};
+
+const ExampleWithoutCloseButton = () => {
+  const [showDialog, setShowDialog] = React.useState(false);
+
+  return (
+    <>
+      <Button variant="secondary" onClick={() => setShowDialog(true)}>
+        Open Dialog
+      </Button>
+      <Dialog
+        isOpen={showDialog}
+        onDismiss={() => setShowDialog(false)}
+        maxWidth="760px"
+        position="TOP"
+        hideCloseButton
+      >
+        <Stack>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            blandit massa at lorem fermentum volutpat. Aliquam varius faucibus
+            turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut
+            lobortis ultricies mauris eget volutpat. Aliquam aliquam nisl in
+            nulla sagittis, eget viverra est ullamcorper. Morbi vel eros sed
+            mauris dignissim congue et nec ligula. Duis quis tellus a est
+            facilisis finibus. Duis varius libero id arcu pretium, et ultrices
+            diam tincidunt.
+          </p>
+        </Stack>
+      </Dialog>
+    </>
+  );
+};
+
 const Example = () => {
   const [showDialog, setShowDialog] = React.useState(false);
 
@@ -173,8 +241,25 @@ export default function PageDialog() {
       </section>
 
       {/* Default */}
-      <section className="mt-8">
+      <section className="mt-12">
+        <p className="text-lg mb-4 font-bold">Default example</p>
         <Example />
+      </section>
+
+      <section className="mt-8">
+        <p className="text-lg mb-4 font-bold">Example with separate header</p>
+        <p className="mb-4">
+          You can set header for dialog use prop: `heading` .
+        </p>
+        <ExampleWithHeader />
+      </section>
+
+      <section className="mt-8">
+        <p className="text-lg mb-4 font-bold">Example without close button</p>
+        <p className="mb-4">
+          You can hide close button for dialog use prop: `hideCloseButton` .
+        </p>
+        <ExampleWithoutCloseButton />
       </section>
     </>
   );
