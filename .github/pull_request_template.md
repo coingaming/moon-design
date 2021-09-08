@@ -16,8 +16,7 @@
   We're here to help!
 -->
 
-- [ ] You follow angular naming convention for all commits, for example (e.g. `fix: main changes [TicketNumber]`)
-- [ ] Your code follows the code style of this project.
-- [ ] You have updated the documentation accordingly.
 - [ ] You attached screenshots or added description about changes
+- [ ] You use [conventional commits naming](https://www.conventionalcommits.org/en/v1.0.0/), e.g. `fix: your changes description [TicketNumber]`, `feat: your feature name [TicketNumber]`
+- [ ] You have updated the documentation accordingly.
 
