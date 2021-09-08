@@ -3,192 +3,121 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [6.12.2](https://github.com/coingaming/moon-design/compare/v6.12.1...v6.12.2) (2021-08-31)
-
+# [6.13.0](https://github.com/coingaming/moon-design/compare/v6.12.2...v6.13.0) (2021-09-02)
 
 ### Bug Fixes
 
-* added moon-draggabletable to package ([#1364](https://github.com/coingaming/moon-design/issues/1364)) ([863102a](https://github.com/coingaming/moon-design/commit/863102a400eda7f0a3d2b7b31f4b0182d5502763))
-* type for dragable page ([#1363](https://github.com/coingaming/moon-design/issues/1363)) ([3df0856](https://github.com/coingaming/moon-design/commit/3df085678c48f1a701dc140495376c2743919da0))
-* use row object in onDropRow event ([#1362](https://github.com/coingaming/moon-design/issues/1362)) ([ebd64b1](https://github.com/coingaming/moon-design/commit/ebd64b1c10856479f0a771ddb01357dabaa3fbdf))
+- remove list-item page ([#1367](https://github.com/coingaming/moon-design/issues/1367)) ([5f5fa2a](https://github.com/coingaming/moon-design/commit/5f5fa2a4b91e0f06475c3189a23b8013f34cf943))
 
+### Features
 
+- addd ListItem component [B1M2-3510] ([#1345](https://github.com/coingaming/moon-design/issues/1345)) ([7ae210e](https://github.com/coingaming/moon-design/commit/7ae210e02522ea19c2e9f5e0146498ecbcdde137))
 
+## [6.12.2](https://github.com/coingaming/moon-design/compare/v6.12.1...v6.12.2) (2021-08-31)
 
+### Bug Fixes
+
+- added moon-draggabletable to package ([#1364](https://github.com/coingaming/moon-design/issues/1364)) ([863102a](https://github.com/coingaming/moon-design/commit/863102a400eda7f0a3d2b7b31f4b0182d5502763))
+- type for dragable page ([#1363](https://github.com/coingaming/moon-design/issues/1363)) ([3df0856](https://github.com/coingaming/moon-design/commit/3df085678c48f1a701dc140495376c2743919da0))
+- use row object in onDropRow event ([#1362](https://github.com/coingaming/moon-design/issues/1362)) ([ebd64b1](https://github.com/coingaming/moon-design/commit/ebd64b1c10856479f0a771ddb01357dabaa3fbdf))
 
 ## [6.12.1](https://github.com/coingaming/moon-design/compare/v6.12.0...v6.12.1) (2021-08-31)
 
-
 ### Bug Fixes
 
-* fix betadda logo color ([#1360](https://github.com/coingaming/moon-design/issues/1360)) ([63e9083](https://github.com/coingaming/moon-design/commit/63e90833acbb6e35d5e880eb0769a22c04e9337c))
-
-
-
-
+- fix betadda logo color ([#1360](https://github.com/coingaming/moon-design/issues/1360)) ([63e9083](https://github.com/coingaming/moon-design/commit/63e90833acbb6e35d5e880eb0769a22c04e9337c))
 
 # [6.12.0](https://github.com/coingaming/moon-design/compare/v6.11.2...v6.12.0) (2021-08-31)
 
-
 ### Features
 
-* b1 m2 3620 add keyboard navigation to search ([#1358](https://github.com/coingaming/moon-design/issues/1358)) ([b0dc8ca](https://github.com/coingaming/moon-design/commit/b0dc8ca3b0bb286b6bf13c42f083c3f36d8ee894))
-
-
-
-
+- b1 m2 3620 add keyboard navigation to search ([#1358](https://github.com/coingaming/moon-design/issues/1358)) ([b0dc8ca](https://github.com/coingaming/moon-design/commit/b0dc8ca3b0bb286b6bf13c42f083c3f36d8ee894))
 
 ## [6.11.2](https://github.com/coingaming/moon-design/compare/v6.11.1...v6.11.2) (2021-08-30)
 
-
 ### Bug Fixes
 
-* focus outside will close popup (even when using TAB) ([#1356](https://github.com/coingaming/moon-design/issues/1356)) ([d51dc64](https://github.com/coingaming/moon-design/commit/d51dc64dfaee19dfb2f993c2d0e3b0cc79a7b594))
-
-
-
-
+- focus outside will close popup (even when using TAB) ([#1356](https://github.com/coingaming/moon-design/issues/1356)) ([d51dc64](https://github.com/coingaming/moon-design/commit/d51dc64dfaee19dfb2f993c2d0e3b0cc79a7b594))
 
 ## [6.11.1](https://github.com/coingaming/moon-design/compare/v6.11.0...v6.11.1) (2021-08-27)
 
-
 ### Bug Fixes
 
-* B1M2-3594 input background and transition ([#1354](https://github.com/coingaming/moon-design/issues/1354)) ([15207c1](https://github.com/coingaming/moon-design/commit/15207c1b89cc371918c9be1e77518fc6ec18ed18))
-* carousel freezing when step equal one [B1M2-2794] ([#1352](https://github.com/coingaming/moon-design/issues/1352)) ([011e199](https://github.com/coingaming/moon-design/commit/011e199246f6220552fd91158276db7b35343527))
-
-
-
-
+- B1M2-3594 input background and transition ([#1354](https://github.com/coingaming/moon-design/issues/1354)) ([15207c1](https://github.com/coingaming/moon-design/commit/15207c1b89cc371918c9be1e77518fc6ec18ed18))
+- carousel freezing when step equal one [B1M2-2794] ([#1352](https://github.com/coingaming/moon-design/issues/1352)) ([011e199](https://github.com/coingaming/moon-design/commit/011e199246f6220552fd91158276db7b35343527))
 
 # [6.11.0](https://github.com/coingaming/moon-design/compare/v6.10.3...v6.11.0) (2021-08-27)
 
-
 ### Bug Fixes
 
-* use @heathmont/moon-icons ([#1350](https://github.com/coingaming/moon-design/issues/1350)) ([a9ac35d](https://github.com/coingaming/moon-design/commit/a9ac35db813c212c1babedb7f0cdbaf174a6c21d))
-
+- use @heathmont/moon-icons ([#1350](https://github.com/coingaming/moon-design/issues/1350)) ([a9ac35d](https://github.com/coingaming/moon-design/commit/a9ac35db813c212c1babedb7f0cdbaf174a6c21d))
 
 ### Features
 
-* Add the Chip component [B1M2-3517]  ([#1346](https://github.com/coingaming/moon-design/issues/1346)) ([feff622](https://github.com/coingaming/moon-design/commit/feff6228e16e2e9e0e03ed258e45c272227490af))
-
-
-
-
+- Add the Chip component [B1M2-3517] ([#1346](https://github.com/coingaming/moon-design/issues/1346)) ([feff622](https://github.com/coingaming/moon-design/commit/feff6228e16e2e9e0e03ed258e45c272227490af))
 
 ## [6.10.3](https://github.com/coingaming/moon-design/compare/v6.10.2...v6.10.3) (2021-08-26)
 
-
 ### Bug Fixes
 
-* LogoBetaddaFull colours ([#1348](https://github.com/coingaming/moon-design/issues/1348)) ([69762b3](https://github.com/coingaming/moon-design/commit/69762b3b81935785d31890e3b8a20c16be5b1f74))
-
-
-
-
+- LogoBetaddaFull colours ([#1348](https://github.com/coingaming/moon-design/issues/1348)) ([69762b3](https://github.com/coingaming/moon-design/commit/69762b3b81935785d31890e3b8a20c16be5b1f74))
 
 ## [6.10.2](https://github.com/coingaming/moon-design/compare/v6.10.1...v6.10.2) (2021-08-25)
 
-
 ### Bug Fixes
 
-* fix default prop ([#1342](https://github.com/coingaming/moon-design/issues/1342)) ([73a48d3](https://github.com/coingaming/moon-design/commit/73a48d32d3ffeea69b566b06d8ac1c74ea088d7c))
-
-
-
-
+- fix default prop ([#1342](https://github.com/coingaming/moon-design/issues/1342)) ([73a48d3](https://github.com/coingaming/moon-design/commit/73a48d32d3ffeea69b566b06d8ac1c74ea088d7c))
 
 ## [6.10.1](https://github.com/coingaming/moon-design/compare/v6.10.0...v6.10.1) (2021-08-25)
 
-
 ### Bug Fixes
 
-* typography page ([eda1ebc](https://github.com/coingaming/moon-design/commit/eda1ebc3fdc2f50356f5ff1b7b4705c7744997e0))
-
-
-
-
+- typography page ([eda1ebc](https://github.com/coingaming/moon-design/commit/eda1ebc3fdc2f50356f5ff1b7b4705c7744997e0))
 
 # [6.10.0](https://github.com/coingaming/moon-design/compare/v6.9.2...v6.10.0) (2021-08-25)
 
-
 ### Features
 
-* update tokens & colours pages ([#1339](https://github.com/coingaming/moon-design/issues/1339)) ([f7255ee](https://github.com/coingaming/moon-design/commit/f7255ee2fd4a268b863573ead37e0d6845901b3a))
-
-
-
-
+- update tokens & colours pages ([#1339](https://github.com/coingaming/moon-design/issues/1339)) ([f7255ee](https://github.com/coingaming/moon-design/commit/f7255ee2fd4a268b863573ead37e0d6845901b3a))
 
 ## [6.9.2](https://github.com/coingaming/moon-design/compare/v6.9.1...v6.9.2) (2021-08-25)
 
 **Note:** Version bump only for package moon-design
 
-
-
-
-
 ## [6.9.1](https://github.com/coingaming/moon-design/compare/v6.9.0...v6.9.1) (2021-08-25)
-
 
 ### Bug Fixes
 
-* fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
-
-
-
-
+- fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
 
 # [6.9.0](https://github.com/coingaming/moon-design/compare/v6.8.2...v6.9.0) (2021-08-24)
 
-
 ### Bug Fixes
 
-* **ci:** publish for build_docs_and_push ([ba1346d](https://github.com/coingaming/moon-design/commit/ba1346d88477b5783c2970479bba3f5abae46a94))
-
+- **ci:** publish for build_docs_and_push ([ba1346d](https://github.com/coingaming/moon-design/commit/ba1346d88477b5783c2970479bba3f5abae46a94))
 
 ### Features
 
-* update Contributors ([#1333](https://github.com/coingaming/moon-design/issues/1333)) ([354c2f4](https://github.com/coingaming/moon-design/commit/354c2f422a4bff07f7b0cfa10fbe11c142ebb38e))
-
-
-
-
+- update Contributors ([#1333](https://github.com/coingaming/moon-design/issues/1333)) ([354c2f4](https://github.com/coingaming/moon-design/commit/354c2f422a4bff07f7b0cfa10fbe11c142ebb38e))
 
 ## [6.8.2](https://github.com/coingaming/moon-design/compare/v6.8.1...v6.8.2) (2021-08-24)
 
-
 ### Bug Fixes
 
-* icons page, trigger build ([93ce029](https://github.com/coingaming/moon-design/commit/93ce029c9b9d43bde3333b9e88c013bbeb5f130e))
-
-
-
-
+- icons page, trigger build ([93ce029](https://github.com/coingaming/moon-design/commit/93ce029c9b9d43bde3333b9e88c013bbeb5f130e))
 
 ## [6.8.1](https://github.com/coingaming/moon-design/compare/v6.8.0...v6.8.1) (2021-08-23)
 
-
 ### Bug Fixes
 
-* ts for icons ([10ae791](https://github.com/coingaming/moon-design/commit/10ae79101d41adb764b108913900210d0baf293e))
-* ts for icons page ([151db3c](https://github.com/coingaming/moon-design/commit/151db3ca9d984f831d536943b5e2e73aaf68c285))
-
-
-
-
+- ts for icons ([10ae791](https://github.com/coingaming/moon-design/commit/10ae79101d41adb764b108913900210d0baf293e))
+- ts for icons page ([151db3c](https://github.com/coingaming/moon-design/commit/151db3ca9d984f831d536943b5e2e73aaf68c285))
 
 # [6.8.0](https://github.com/coingaming/moon-design/compare/v6.7.3...v6.8.0) (2021-08-23)
 
-
 ### Features
 
-* icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
-
-
-
-
+- icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
 
 ## [6.7.3](https://github.com/coingaming/moon-design/compare/v6.7.2...v6.7.3) (2021-08-18)
 

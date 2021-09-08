@@ -75,7 +75,7 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
           </Disclosure.Button>
           <Disclosure.Panel className="space-y-1">
             {item.children.map((subItem: any) => (
-              <div key={item.name} className="pl-7">
+              <div key={subItem.name} className="pl-7">
                 <RecursiveNavItem item={subItem} />
               </div>
             ))}

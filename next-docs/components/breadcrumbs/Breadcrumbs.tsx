@@ -26,8 +26,8 @@ export default function Breadcrumbs() {
           </div>
         </li>
         {pages.length > 0 &&
-          pages.map((page) => (
-            <li key={page}>
+          pages.map((page, index) => (
+            <li key={page + index}>
               <div className="flex items-center">
                 <svg
                   className="flex-shrink-0 h-5 w-5 text-gray-500"

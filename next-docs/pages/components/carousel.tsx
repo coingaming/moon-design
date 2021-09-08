@@ -90,7 +90,7 @@ const ExampleSpace = () => {
       ))}
     />
   );
-}
+};
 
 const ExampleVisible = () => {
   const items = Array.from({ length: 5 }, (value, index) => index);
