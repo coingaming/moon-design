@@ -91,7 +91,7 @@ const PreviewTabsVariant = () => {
 const PreviewTabsFill = () => {
   return (
     <Preview
-      title="Tabs (Filled)"
+      title="Filled"
       preview={
         <Tabs
           items={[
@@ -174,25 +174,23 @@ export default function PageTabsNew() {
           with horizontal scrolling.
         </p>
         <p className="text-lg mt-4">
-          TabLink or TabLinkFill components provides the tab interaction.
+          TabLink or TabLinkFill components provides the tab interaction. The
+          components renders as an anchor tag, accepting the standard
+          attributes. You also can wrap these components in custom Link
+          component for a specific router.
         </p>
-        <p className="text-lg mt-4">
-          There are three types of Tabs items:
-          <ol className="ml-4">
-            <li>1. Underline: top or bottom (TabLink);</li>
-            <li>2. Filled (TabLinkFill);</li>
-            <li>3. Segment control (TabLinkFill);</li>
-          </ol>
+        <p className="text-lg mt-8">
+          Below provides examples of different Tabs types:
         </p>
       </section>
 
       {/* Default */}
-      <section className="mt-8">
-        <PreviewTabs title="Tabs (Underline bottom)" />
+      <section className="mt-4">
+        <PreviewTabs title="Underline" />
       </section>
 
       <section className="mt-8">
-        <PreviewTabs title="Tabs (Underline top)" isTop />
+        <PreviewTabs title="Overline" isTop />
       </section>
 
       <section className="mt-8">
@@ -211,7 +209,7 @@ export default function PageTabsNew() {
         <PreviewTabsVariant />
       </section>
 
-      <section className="mt-8">
+      <section className="mt-14">
         <h2 className="text-2xl mb-4">Props for Tabs component</h2>
         <Table
           data={[
@@ -221,7 +219,7 @@ export default function PageTabsNew() {
               required: true,
               default: '-',
               description:
-                'TabLink or TabLinkFill components provides the tab interaction',
+                'TabLink/TabLinkFill or any other component provide the tab interaction',
             },
             {
               name: 'size',
