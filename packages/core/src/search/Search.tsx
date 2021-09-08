@@ -2,8 +2,7 @@ import React, { ChangeEvent, useCallback, useRef, useState } from 'react';
 import { debounce } from 'lodash';
 
 import Popup from './private/components/Popup';
-import { SearchResults } from './private/components/SearchResults';
-import { SearchForm } from './private/components/Styles';
+import { Results, SearchForm } from './private/components/Styles';
 import {
   SearchBox,
   SearchClearButton,
@@ -42,6 +41,7 @@ const Search: React.FC<SearchProps> = ({
   ...props
 }) => {
   const [searchStr, setSearchStr] = useState(query);
+  const [isActive, setIsActive] = useState(false);
   const search = useRef<HTMLInputElement>(null);
 
   const debouncedOnChange = useCallback(
@@ -59,21 +59,21 @@ const Search: React.FC<SearchProps> = ({
 
   const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
     setSearchStr('');
-    search.current && search.current.focus();
+    search.current?.focus();
     onClear && onClear(e);
   };
 
+  const openPopup = () => setIsActive(true);
+
   const closePopup = () => {
-    if (search.current) {
-      search.current.focus();
-      search.current.blur();
-    }
+    setIsActive(false);
   };
 
   return (
     <Popup
       closeButton={closeButton}
       closePopup={closePopup}
+      isActive={isActive}
       title={
         <SearchForm onSubmit={onSubmit} noValidate>
           <SearchBox $size={size}>
@@ -82,6 +82,7 @@ const Search: React.FC<SearchProps> = ({
               autoComplete="off"
               hasBorder={hasBorder}
               onChange={searchChange}
+              onFocus={openPopup}
               onKeyDown={onKeyDown}
               onKeyUp={onKeyUp}
               placeholder={placeholder}
@@ -102,7 +103,7 @@ const Search: React.FC<SearchProps> = ({
         </SearchForm>
       }
     >
-      {results && <SearchResults results={results} />}
+      {results && <Results>{results}</Results>}
     </Popup>
   );
 };

@@ -25,14 +25,16 @@ const PreviewSearch = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           setOtsing(e.target.value);
         }}
-        onSubmit={() => {}}
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
         onClear={() => {
           setOtsing('');
         }}
         results={
           otsing ? (
             <Dropdown>
-              <li>Categories</li>
+              <li><a href="https://uptime.eu">test</a></li>
               <li>
                 <button>Btn 1</button>
                 <button>Btn 1</button>
