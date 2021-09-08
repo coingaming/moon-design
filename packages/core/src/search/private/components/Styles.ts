@@ -1,6 +1,7 @@
-import styled from 'styled-components';
-import { mq, rem } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 import { Button } from '@heathmont/moon-components';
+import { Theme } from '@heathmont/moon-themes';
+import { mq, rem } from '@heathmont/moon-utils';
 
 import { zIndex } from './settings';
 
@@ -23,7 +24,7 @@ export const FlexWrapper = styled.div(({ theme: { space } }) => ({
 export const ModalClose = styled(Button)(
   ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
     position: 'relative',
-    display: 'flex',
+    display: 'none',
     flex: 0,
     border: 0,
     lineHeight: 1,
@@ -32,19 +33,36 @@ export const ModalClose = styled(Button)(
     fontSize: rem(base.fontSize),
     overflow: 'visible',
     color: color.piccolo[100],
-    [`${focusOutsideSearchPopup} &`]: {
-      display: 'none',
-    },
     ['&:hover:not([disabled])']: {
       color: color.piccolo[100],
     },
-    [mq(breakpoint.medium, 'min-width')]: {
-      display: 'none',
+    [mq(breakpoint.medium, 'max-width')]: {
+      '.active &': {
+        display: 'flex',
+      },
     },
   })
 );
 
+export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
+  opacity: 0,
+  visibility: 'hidden',
+  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s`,
+});
+
+export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
+  opacity: 1,
+  visibility: 'visible',
+  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s`,
+});
+
 export const Results = styled.div(
+  ({ theme }) => ({
+    ['.active &']: resultsActive(theme),
+    [mq(theme.breakpoint.medium, 'min-width')]: {
+      [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
+    },
+  }),
   ({
     theme: { borderWidth, boxShadow, breakpoint, color, radius, space },
   }) => ({
@@ -54,9 +72,6 @@ export const Results = styled.div(
     color: color.trunks[100],
     width: '100%',
     zIndex: zIndex.searchResults,
-    [`${focusOutsideSearchPopup} &`]: {
-      display: 'none',
-    },
     '[dir=rtl] &': {
       left: 'auto',
       right: 0,
