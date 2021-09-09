@@ -59,7 +59,7 @@ const Search: React.FC<SearchProps> = ({
 
   const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
     setSearchStr('');
-    search.current?.focus();
+    search.current && search.current.focus();
     onClear && onClear(e);
   };
 
