@@ -43,15 +43,15 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const CrestFlamengo = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const CrestFlamengo = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 CrestFlamengo.defaultProps = {};
 export default CrestFlamengo;

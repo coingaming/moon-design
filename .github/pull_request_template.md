@@ -1,6 +1,6 @@
 <!--- Provide a general summary of your changes in the title above -->
 
-## Screenshot and description 
+## Screenshot and description
 
 <!---
   Describe your changes in detail.
@@ -19,4 +19,3 @@
 - [ ] You attached screenshots or added description about changes
 - [ ] You use [conventional commits naming](https://www.conventionalcommits.org/en/v1.0.0/), e.g. `fix: your changes description [TicketNumber]`, `feat: your feature name [TicketNumber]`
 - [ ] You have updated the documentation accordingly.
-

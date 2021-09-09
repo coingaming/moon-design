@@ -5,11 +5,11 @@ export type ColorValue = CSSObject['color'];
 interface SupportingColor {
   100?: ColorValue;
   10?: ColorValue;
-};
+}
 
 interface SingletonColor {
   100: ColorValue;
-};
+}
 
 export interface ColorShared {
   krillin: SupportingColor; // Warning colors
@@ -22,7 +22,7 @@ export interface ColorShared {
   frieza: SupportingColor;
   nappa: SupportingColor;
   popo: SingletonColor; // Black color
-};
+}
 
 const supportColors: ColorShared = {
   // Warning colors

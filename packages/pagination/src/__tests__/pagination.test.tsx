@@ -23,8 +23,8 @@ describe('Pagination', () => {
           previousButtonLabel="Previous"
           nextButtonLabel="Next"
           onChange={() => {}}
-        />,
-      ),
+        />
+      )
     );
 
     expect(pagination).toMatchSnapshot();
@@ -46,8 +46,8 @@ describe('Pagination', () => {
               Showing 1 – 10 <span>of 100</span>
             </>
           }
-        />,
-      ),
+        />
+      )
     );
 
     expect(pagination).toMatchSnapshot();
@@ -69,8 +69,8 @@ describe('Pagination', () => {
               Go to page
             </GoToPage>
           }
-        />,
-      ),
+        />
+      )
     );
 
     expect(pagination).toMatchSnapshot();
@@ -101,8 +101,8 @@ describe('Pagination', () => {
               Rows: {20}
             </ChangePageSize>
           }
-        />,
-      ),
+        />
+      )
     );
 
     expect(pagination).toMatchSnapshot();
@@ -123,8 +123,8 @@ describe('Pagination', () => {
             previousButtonLabel="Previous"
             nextButtonLabel="Next"
             onChange={onChangeMock}
-          />,
-        ),
+          />
+        )
       );
     });
 
@@ -138,7 +138,8 @@ describe('Pagination', () => {
           'aria-label': 'Previous page',
         });
         act(() =>
-          previousPageLink.props.onKeyPress({ preventDefault: () => {} }));
+          previousPageLink.props.onKeyPress({ preventDefault: () => {} })
+        );
       });
 
       test('calls onPageChange handler with previous page', () => {

@@ -130,7 +130,6 @@ export type ColorPalette = {
   10?: ColorValue;
 };
 
-
 export type Color = ColorBase & ColorThemed & ColorShared;
 
 export type ColorNames =
@@ -182,7 +181,7 @@ export type ColorNames =
  *
  * TODO: Type dot notation.
  */
- export type ColorProps = ColorNames | string;
+export type ColorProps = ColorNames | string;
 
 export type ColorBase = {
   text: ColorValue;

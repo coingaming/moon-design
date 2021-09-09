@@ -23,7 +23,7 @@ Filter for numerical "more than" and "less than"
       lteLabel="Max"
       gteLabel="Min"
       value={value}
-      onChange={newValue => {
+      onChange={(newValue) => {
         console.log(newValue);
         setValue(newValue);
       }}
@@ -45,7 +45,7 @@ Filter for numerical "more than" and "less than"
   lteLabel="Max"
   gteLabel="Min"
   value={{ gte: 20, lte: 16 }}
-  onChange={value => console.log(value)}
+  onChange={(value) => console.log(value)}
   lteDisabled={false}
   lteError={'Cannot be less then gte'}
   gteDisabled={false}

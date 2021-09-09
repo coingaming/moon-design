@@ -30,12 +30,12 @@ const Form: React.FC<FormProps> = ({
   fullWidth,
   ...props
 }) => (
-    <form style={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
-      <Fieldset>
-        <legend style={hideVisually()}>{legend}</legend>
-        <Stack as="ul">{children}</Stack>
-      </Fieldset>
-    </form>
+  <form style={{ maxWidth, width: fullWidth ? '100%' : 'auto' }} {...props}>
+    <Fieldset>
+      <legend style={hideVisually()}>{legend}</legend>
+      <Stack as="ul">{children}</Stack>
+    </Fieldset>
+  </form>
 );
 
 /**

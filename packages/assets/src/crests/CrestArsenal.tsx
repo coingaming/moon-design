@@ -192,15 +192,15 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const CrestArsenal = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const CrestArsenal = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 CrestArsenal.defaultProps = {};
 export default CrestArsenal;

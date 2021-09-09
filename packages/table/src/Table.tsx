@@ -6,7 +6,7 @@ import {
   useBlockLayout,
   useFlexLayout,
   TableInstance,
-  PluginHook
+  PluginHook,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { ColorNames } from '@heathmont/moon-themes';
@@ -24,34 +24,34 @@ import renderRows from './utils/renderRows';
 import useRowSpan, { RowSpanHeader } from './hooks/useRowSpan';
 import renderSpanRows from './utils/renderSpanRows';
 
-export type TableLayout = 'block'
+export type TableLayout = 'block';
 
-export type TableVariant = 'calendar'
+export type TableVariant = 'calendar';
 
 export type RowSubComponentProps = {
-  row: any,
-  backgroundColor: ColorNames
-}
+  row: any;
+  backgroundColor: ColorNames;
+};
 
 export type TableProps = {
-  columns: any
-  data: any
-  defaultColumn?: any
-  width?: string | number
-  height?: string | number
-  maxWidth?: string | number
-  maxHeight?: string | number
-  variant?: TableVariant
-  layout?: TableLayout
-  withFooter?: boolean
-  withMinimap?: boolean
-  expandedByDefault?: boolean
-  defaultRowBackgroundColor?: ColorNames
-  evenRowBackgroundColor?: ColorNames
-  headerBackgroundColor?: ColorNames
-  renderRowSubComponent?: (props: RowSubComponentProps) => any
-  getOnRowClickHandler?: (row: any) => any
-}
+  columns: any;
+  data: any;
+  defaultColumn?: any;
+  width?: string | number;
+  height?: string | number;
+  maxWidth?: string | number;
+  maxHeight?: string | number;
+  variant?: TableVariant;
+  layout?: TableLayout;
+  withFooter?: boolean;
+  withMinimap?: boolean;
+  expandedByDefault?: boolean;
+  defaultRowBackgroundColor?: ColorNames;
+  evenRowBackgroundColor?: ColorNames;
+  headerBackgroundColor?: ColorNames;
+  renderRowSubComponent?: (props: RowSubComponentProps) => any;
+  getOnRowClickHandler?: (row: any) => any;
+};
 
 const Table: React.FC<TableProps> = ({
   columns,
@@ -70,15 +70,15 @@ const Table: React.FC<TableProps> = ({
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
   renderRowSubComponent,
-  getOnRowClickHandler = () => undefined
+  getOnRowClickHandler = () => undefined,
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
     variant === 'calendar' ? useRowSpan : undefined,
     useResizeColumns,
     useSticky,
-    useExpanded
-  ].filter(plugin => !!plugin) as PluginHook<{}>[]
+    useExpanded,
+  ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
     getTableProps,
@@ -89,25 +89,28 @@ const Table: React.FC<TableProps> = ({
     prepareRow,
     visibleColumns,
     toggleAllRowsExpanded,
-    rowSpanHeaders
+    rowSpanHeaders,
   } = useTable(
     {
       columns,
       data,
-      defaultColumn
+      defaultColumn,
     },
     ...plugins
-  ) as TableInstance & { toggleAllRowsExpanded: (isExpanded?: boolean) => void, rowSpanHeaders: RowSpanHeader[] };
+  ) as TableInstance & {
+    toggleAllRowsExpanded: (isExpanded?: boolean) => void;
+    rowSpanHeaders: RowSpanHeader[];
+  };
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
 
-  const { scrollState, handleScroll } = useScrollState(tableRef)
+  const { scrollState, handleScroll } = useScrollState(tableRef);
 
   useEffect(() => {
-    if (expandedByDefault === undefined) return
-    toggleAllRowsExpanded(expandedByDefault)
-  }, [expandedByDefault, toggleAllRowsExpanded])
+    if (expandedByDefault === undefined) return;
+    toggleAllRowsExpanded(expandedByDefault);
+  }, [expandedByDefault, toggleAllRowsExpanded]);
 
   const renderTableComponent = () => (
     <TableWrapper
@@ -118,7 +121,10 @@ const Table: React.FC<TableProps> = ({
       isScrolledToLeft={scrollState.scrolledToLeft}
       isScrolledToRight={scrollState.scrolledToRight}
       style={{
-        width, height, maxWidth, maxHeight,
+        width,
+        height,
+        maxWidth,
+        maxHeight,
       }}
       variant={variant}
       defaultRowBackgroundColor={defaultRowBackgroundColor}
@@ -136,9 +142,7 @@ const Table: React.FC<TableProps> = ({
                 {column.render('Header')}
                 <div
                   {...column.getResizerProps()}
-                  className={`resizer ${
-                    column.isResizing ? 'isResizing' : ''
-                  }`}
+                  className={`resizer ${column.isResizing ? 'isResizing' : ''}`}
                 />
               </TH>
             ))}
@@ -148,7 +152,7 @@ const Table: React.FC<TableProps> = ({
       </Header>
 
       <Body {...getTableBodyProps()}>
-        { variant === 'calendar'
+        {variant === 'calendar'
           ? renderSpanRows({
               rows,
               prepareRow,
@@ -163,9 +167,8 @@ const Table: React.FC<TableProps> = ({
               getOnRowClickHandler,
               evenRowBackgroundColor,
               defaultRowBackgroundColor,
-              renderRowSubComponent
-            })
-        }
+              renderRowSubComponent,
+            })}
       </Body>
 
       {withFooter && (
@@ -198,11 +201,15 @@ const Table: React.FC<TableProps> = ({
     return (
       <OuterWrapper>
         {renderTableComponent()}
-        <Minimap numberOfColumns={visibleColumns.length} tableRef={tableRef} footerRef={footerRef} />
+        <Minimap
+          numberOfColumns={visibleColumns.length}
+          tableRef={tableRef}
+          footerRef={footerRef}
+        />
       </OuterWrapper>
-    )
+    );
   } else {
-    return renderTableComponent()
+    return renderTableComponent();
   }
 };
 

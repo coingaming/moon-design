@@ -79,16 +79,16 @@ const EmptyState: React.FC<EmptyStateProps> = ({
   icon,
   action,
 }) => (
-    <Wrapper>
-      {icon && <IconWrapper>{icon}</IconWrapper>}
-      {(title || message) && (
-        <TextWrapper>
-          {title && <TitleWrapper>{title}</TitleWrapper>}
-          {message && <MessageWrapper>{message}</MessageWrapper>}
-        </TextWrapper>
-      )}
-      {action && <ActionWrapper>{action}</ActionWrapper>}
-    </Wrapper>
+  <Wrapper>
+    {icon && <IconWrapper>{icon}</IconWrapper>}
+    {(title || message) && (
+      <TextWrapper>
+        {title && <TitleWrapper>{title}</TitleWrapper>}
+        {message && <MessageWrapper>{message}</MessageWrapper>}
+      </TextWrapper>
+    )}
+    {action && <ActionWrapper>{action}</ActionWrapper>}
+  </Wrapper>
 );
 
 export default EmptyState;

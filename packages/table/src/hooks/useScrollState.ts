@@ -1,4 +1,4 @@
-import { RefObject, useEffect, useState } from "react";
+import { RefObject, useEffect, useState } from 'react';
 
 const useScrollState = (tableRef: RefObject<HTMLDivElement | null>) => {
   const [scrollState, setScrollState] = useState({
@@ -7,26 +7,35 @@ const useScrollState = (tableRef: RefObject<HTMLDivElement | null>) => {
   });
 
   useEffect(() => {
-    if (!tableRef?.current) return
-    setScrollState(oldScrollState => ({...oldScrollState, scrolledToRight: tableRef.current!.scrollLeft + tableRef.current!.clientWidth === tableRef.current!.scrollWidth }))
-  }, [tableRef])
+    if (!tableRef?.current) return;
+    setScrollState((oldScrollState) => ({
+      ...oldScrollState,
+      scrolledToRight:
+        tableRef.current!.scrollLeft + tableRef.current!.clientWidth ===
+        tableRef.current!.scrollWidth,
+    }));
+  }, [tableRef]);
 
   const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
     if (!event.currentTarget) return;
 
-    const scrolledToLeft = event.currentTarget.scrollLeft === 0
-    const scrolledToRight = event.currentTarget.scrollLeft + event.currentTarget.clientWidth === event.currentTarget.scrollWidth
+    const scrolledToLeft = event.currentTarget.scrollLeft === 0;
+    const scrolledToRight =
+      event.currentTarget.scrollLeft + event.currentTarget.clientWidth ===
+      event.currentTarget.scrollWidth;
 
-    if (scrolledToLeft !== scrollState.scrolledToLeft || scrolledToRight !== scrollState.scrolledToRight) {
-      setScrollState({ scrolledToLeft, scrolledToRight })
+    if (
+      scrolledToLeft !== scrollState.scrolledToLeft ||
+      scrolledToRight !== scrollState.scrolledToRight
+    ) {
+      setScrollState({ scrolledToLeft, scrolledToRight });
     }
   };
 
-  
   return {
     scrollState,
-    handleScroll
-  }
-}
+    handleScroll,
+  };
+};
 
-export default useScrollState
+export default useScrollState;

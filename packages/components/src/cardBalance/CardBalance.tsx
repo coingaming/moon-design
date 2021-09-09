@@ -40,21 +40,21 @@ const Text = styled.p(({ theme: { color } }) => ({
 }));
 
 const Balance: React.FC<{ from: BalanceType }> = ({ from }) => (
-    <Stack as="section" space={0}>
-      <Text>{from.currency}</Text>
+  <Stack as="section" space={0}>
+    <Text>{from.currency}</Text>
 
-      <Title>
-        {`${from.value} `}
-        <Unit title={from.unitTitle || from.currency}>{from.unit}</Unit>
-      </Title>
-    </Stack>
+    <Title>
+      {`${from.value} `}
+      <Unit title={from.unitTitle || from.currency}>{from.unit}</Unit>
+    </Title>
+  </Stack>
 );
 
 /**
  * Component
  */
 const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) =>
-  (badge ? (
+  badge ? (
     <Stack>
       {badge && <span>{badge}</span>}
 
@@ -62,7 +62,7 @@ const CardBalance: React.FC<CardBalanceProps> = ({ from, badge }) =>
     </Stack>
   ) : (
     <Balance from={from} />
-  ));
+  );
 
 export type { CardBalanceProps };
 

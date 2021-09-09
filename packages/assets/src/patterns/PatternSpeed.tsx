@@ -108,16 +108,16 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const PatternSpeed = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const PatternSpeed = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 PatternSpeed.defaultProps = {
   color: 'piccolo.100',
 };

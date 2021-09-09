@@ -24,8 +24,12 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   const [isOpen, setIsOpen] = React.useState(isOpenByDefault);
   const [placeholder, setPlaceholder] = React.useState(
     getPlaceholder({
-      startDate, endDate, range, config, translations,
-    }),
+      startDate,
+      endDate,
+      range,
+      config,
+      translations,
+    })
   );
   return (
     <Wrapper>

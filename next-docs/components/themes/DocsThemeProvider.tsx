@@ -103,7 +103,7 @@ const themes: DocsThemes = {
 interface DocsColorModes {
   dark: Theme;
   light: Theme;
-};
+}
 
 interface DocsThemes {
   sportsbet: DocsColorModes;
@@ -122,7 +122,7 @@ interface DocsThemes {
   shangrila: DocsColorModes;
   empire: DocsColorModes;
   tajCasino: DocsColorModes;
-};
+}
 
 type DocsBrands = keyof DocsThemes;
 
@@ -180,13 +180,14 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   return (
     <DocsThemeContext.Provider
       value={{
-        setBrand, themeKeys, toggleColorScheme, getColorMode, getBrand,
+        setBrand,
+        themeKeys,
+        toggleColorScheme,
+        getColorMode,
+        getBrand,
       }}
     >
-      <ThemeProvider
-        theme={theme}
-        hasTransition
-      >
+      <ThemeProvider theme={theme} hasTransition>
         {children}
       </ThemeProvider>
     </DocsThemeContext.Provider>

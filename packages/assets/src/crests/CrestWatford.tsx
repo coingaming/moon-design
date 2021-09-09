@@ -123,15 +123,15 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const CrestWatford = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const CrestWatford = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 CrestWatford.defaultProps = {};
 export default CrestWatford;

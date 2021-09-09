@@ -35,15 +35,15 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const CrestSaoPaulo = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const CrestSaoPaulo = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 CrestSaoPaulo.defaultProps = {};
 export default CrestSaoPaulo;

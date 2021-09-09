@@ -43,9 +43,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
     active,
     align = 'left',
     error,
-    theme: {
-      border, boxShadow, color, radius, space, zIndex,
-    },
+    theme: { border, boxShadow, color, radius, space, zIndex },
   }) => [
     {
       [tooltipSpace]: rem(space.small),
@@ -70,7 +68,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
     active && {
       animationDirection: 'reverse',
     },
-  ],
+  ]
 );
 
 const TooltipCaption = styled.div<TooltipBubbleProps>(({ onClose }) => [

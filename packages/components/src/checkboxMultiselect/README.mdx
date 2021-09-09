@@ -10,7 +10,7 @@ Group of checkbox options
 
 ```jsx react-live
 <CheckboxMultiselect
-  onChange={value => console.log('value: ', value)}
+  onChange={(value) => console.log('value: ', value)}
   value={['Game 1', 'Game 3']}
   options={[
     { label: 'Game 1', value: 'Game 1' },
@@ -27,7 +27,7 @@ Group of checkbox options
 ```jsx react-live
 <CheckboxMultiselect
   maxHeight={rem(100)}
-  onChange={value => console.log('value: ', value)}
+  onChange={(value) => console.log('value: ', value)}
   value={['Game 2']}
   options={[
     { label: 'Game 1', value: 'Game 1' },
@@ -48,7 +48,7 @@ Checkbox options with item count
 
 ```jsx react-live
 <CheckboxMultiselect
-  onChange={value => console.log('value: ', value)}
+  onChange={(value) => console.log('value: ', value)}
   value={['Banana', 'Pineapple']}
   options={[
     { label: 'Apple', value: 'Apple', count: 5 },

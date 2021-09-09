@@ -22,7 +22,7 @@
     "@types/ramda": "^0.26.39",
     "@types/rimraf": "^2.0.3",
     "argparse": "2.0.1",
-    "axios": "0.21.1",
+    "axios": "0.21.4",
     "figma-js": "1.14.0",
     "figma-transformer": "2.1.0",
     "fs": "^0.0.1-security",

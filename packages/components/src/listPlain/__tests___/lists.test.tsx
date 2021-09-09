@@ -37,7 +37,7 @@ describe('Lists', () => {
               Item 3
             </Example>
           </Example>
-        </div>,
+        </div>
       );
 
       expect(list).toMatchSnapshot();
@@ -70,7 +70,7 @@ describe('Lists', () => {
               Item 3
             </Example>
           </Example>
-        </div>,
+        </div>
       );
 
       expect(list).toMatchSnapshot();
