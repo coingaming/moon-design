@@ -7,6 +7,18 @@ import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';
 
+export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
+  opacity: 0,
+  visibility: 'hidden',
+  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s`,
+});
+
+export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
+  opacity: 1,
+  visibility: 'visible',
+  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s`,
+});
+
 export const SearchForm = styled.form({
   display: 'flex',
   position: 'relative',
@@ -43,18 +55,6 @@ export const ModalClose = styled(Button)(
     },
   })
 );
-
-export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
-  opacity: 0,
-  visibility: 'hidden',
-  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s`,
-});
-
-export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
-  opacity: 1,
-  visibility: 'visible',
-  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s`,
-});
 
 export const Results = styled.div(
   ({ theme }) => ({

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Search } from '@heathmont/moon-core';
 import { IconProfile } from '@heathmont/moon-assets';
+import { Search } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 
 const Dropdown = styled.ul(({ theme: { space } }) => ({
@@ -16,25 +16,24 @@ const Dropdown = styled.ul(({ theme: { space } }) => ({
 }));
 
 const PreviewSearch = () => {
-  const [otsing, setOtsing] = React.useState('');
+  const [searchString, setSearchString] = React.useState('');
   return (
     <div className="h-96 bg-white p-4">
       <Search
         closeButton={<span>Clear</span>}
         placeholder="Search"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-          setOtsing(e.target.value);
+          setSearchString(e.target.value);
         }}
         onSubmit={(e) => {
           e.preventDefault();
         }}
         onClear={() => {
-          setOtsing('');
+          setSearchString('');
         }}
         results={
-          otsing ? (
+          searchString ? (
             <Dropdown>
-              <li><a href="https://uptime.eu">test</a></li>
               <li>
                 <button>Btn 1</button>
                 <button>Btn 1</button>
@@ -57,7 +56,9 @@ const PreviewSearch = () => {
               </li>
             </Dropdown>
           ) : (
-            <p>No results</p>
+            <li>
+              <span>No results</span>
+            </li>
           )
         }
       />

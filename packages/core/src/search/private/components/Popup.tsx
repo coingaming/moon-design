@@ -1,26 +1,9 @@
 import React, { useCallback, useEffect } from 'react';
-import styled, { CSSObject } from 'styled-components';
-import { Theme } from '@heathmont/moon-themes';
+import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
 
-import { FlexWrapper, ModalClose } from './Styles';
+import { FlexWrapper, ModalClose, resultsActive } from './Styles';
 import { popupConfig } from './settings';
-
-export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
-  opacity: 0,
-  visibility: 'hidden',
-  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s`,
-});
-
-export const resultsActive = ({
-  transitionDuration,
-  zIndex,
-}: Theme): CSSObject => ({
-  opacity: 1,
-  visibility: 'visible',
-  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s`,
-  zIndex: zIndex.dialog,
-});
 
 export const StyledPopup = styled.div(
   ({ theme: { base, breakpoint, color, space, zIndex } }) => ({
@@ -45,7 +28,10 @@ export const StyledPopup = styled.div(
   }),
   ({ theme }) => ({
     [mq(theme.breakpoint.medium, 'min-width')]: {
-      [':focus-within']: resultsActive(theme),
+      [':focus-within']: {
+        ...resultsActive(theme),
+        zIndex: theme.zIndex.dialog,
+      }
     },
   })
 );
