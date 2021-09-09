@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
-import TabLinkContainer from './styles/TabLinkContainer';
+import Container from './styles/Container';
 
-export type TabLinkProps = {
+export interface TabLinkProps {
   elementLeft?: React.ReactElement;
   count?: string;
   size?: 'small' | 'medium';
   isTop?: boolean;
   href?: string;
-};
+}
 
 const ElementLeftWrapper = styled.div({
   marginInlineEnd: rem(8),
@@ -28,7 +28,7 @@ const TabLink: React.FC<TabLinkProps> = ({
   count,
   isTop,
 }) => (
-  <TabLinkContainer
+  <Container
     size={size}
     isTop={isTop}
     href={href}
@@ -37,7 +37,7 @@ const TabLink: React.FC<TabLinkProps> = ({
     {elementLeft && <ElementLeftWrapper>{elementLeft}</ElementLeftWrapper>}
     {children}
     {count && <CountWrapper>{count}</CountWrapper>}
-  </TabLinkContainer>
+  </Container>
 );
 
 export default TabLink;

@@ -2,7 +2,7 @@ import React, { useCallback, useEffect } from 'react';
 import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
 
-import { FlexWrapper, ModalClose } from './Styles';
+import { FlexWrapper, ModalClose, resultsActive } from './Styles';
 import { popupConfig } from './settings';
 
 export const StyledPopup = styled.div(
@@ -13,11 +13,8 @@ export const StyledPopup = styled.div(
     borderRadius: rem(popupConfig.borderRadius),
     fontSize: rem(base.fontSize),
     lineHeight: rem(24),
-    [':focus-within']: {
-      zIndex: zIndex.dialog,
-    },
     [mq(breakpoint.medium, 'max-width')]: {
-      [':focus-within']: {
+      '&.active': {
         position: 'fixed',
         top: 0,
         right: 0,
@@ -25,7 +22,16 @@ export const StyledPopup = styled.div(
         left: 0,
         background: color.goten[100],
         padding: rem(space.default),
+        zIndex: zIndex.dialog,
       },
+    },
+  }),
+  ({ theme }) => ({
+    [mq(theme.breakpoint.medium, 'min-width')]: {
+      [':focus-within']: {
+        ...resultsActive(theme),
+        zIndex: theme.zIndex.dialog,
+      }
     },
   })
 );
@@ -34,6 +40,7 @@ export type PopupProps = {
   children?: JSX.Element;
   closeButton?: JSX.Element;
   closePopup: () => void;
+  isActive: boolean;
   title: JSX.Element;
 };
 
@@ -41,6 +48,7 @@ const Popup: React.FC<PopupProps> = ({
   children,
   closeButton,
   closePopup,
+  isActive,
   title,
 }) => {
   const escapeListener = useCallback((e: KeyboardEvent) => {
@@ -57,7 +65,7 @@ const Popup: React.FC<PopupProps> = ({
   }, []);
 
   return (
-    <StyledPopup className="popup">
+    <StyledPopup className={`popup ${isActive ? 'active' : ''}`}>
       <FlexWrapper>
         {title}
         {closeButton ? (

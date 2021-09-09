@@ -13,9 +13,13 @@ export interface DialogPosition {
 /**
  * 1. Arbitrary figure from design.
  */
-const DialogContent = styled(ReachDialogContent)<
-  DialogMaxWidth & DialogPosition
->(({ theme: { space } }) => [
+const DialogContent = styled(ReachDialogContent)
+  .withConfig({
+    shouldForwardProp: (prop) => !['maxWidth'].includes(prop),
+  })
+  .attrs({
+    'aria-labelledby': 'Dialog content',
+  })<DialogMaxWidth & DialogPosition>(({ theme: { space } }) => [
   {
     margin: '0 auto',
     position: 'relative',
@@ -25,9 +29,9 @@ const DialogContent = styled(ReachDialogContent)<
   },
   ({ maxWidth }) => ({ maxWidth }),
   ({ position }) =>
-    (position === 'TOP'
+    position === 'TOP'
       ? { margin: '8vh auto' }
-      : { top: '50%', transform: 'translateY(-50%)' }),
+      : { top: '50%', transform: 'translateY(-50%)' },
 ]);
 
 export default DialogContent;

@@ -6,14 +6,14 @@ import SkipLink from './styles/SkipLink';
 import TabNav from './styles/TabNav';
 import TabList from './styles/TabList';
 
-export type TabsProps = {
+export interface TabsProps {
   id?: string;
   items: any[];
   isTop?: boolean;
   size?: 'small' | 'medium';
   dir?: 'ltr' | 'rtl' | 'auto';
   isContainer?: boolean;
-};
+}
 
 const Tab = styled.li({});
 
