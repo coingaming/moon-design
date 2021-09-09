@@ -429,14 +429,14 @@ export default function PageAvatar() {
               name: 'color',
               type: 'ColorProps',
               required: false,
-              default: 'goten.100',
+              default: '-',
               description: 'Text color',
             },
             {
               name: 'backgroundColor',
               type: 'ColorProps',
               required: false,
-              default: 'bulma.100',
+              default: '-',
               description: 'Background color',
             },
           ]}
