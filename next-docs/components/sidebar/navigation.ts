@@ -1,7 +1,7 @@
 const navigation = [
   // { name: 'Home', href: '/' },
   { name: 'Getting Started', href: '/getting-started' },
-  { name: 'How to contribute', href: '/how-to-contribute'},
+  { name: 'How to contribute', href: '/how-to-contribute' },
   { name: 'Colours Palette', href: '/colours' },
   { name: 'Typography', href: '/typography' },
   { name: 'Tokens', href: '/tokens' },
@@ -36,6 +36,7 @@ const navigation = [
         ],
       },
       // Dropdown
+      { name: 'Label', href: '/components/label' },
       { name: 'Loader', href: '/components/loader' },
       { name: 'Pagination', href: '/components/pagination' }, // TODO
       {

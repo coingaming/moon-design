@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link';
 
 import { Badge } from '@heathmont/moon-core';
 
@@ -8,8 +9,15 @@ export default function PageBadge() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Badge</h1>
+        <h1 className="text-5xl font-semibold">Badge (Deprecated)</h1>
         <p className="text-lg mt-4">Small count and labeling component.</p>
+        <p className="text-lg mt-4">
+          ! Please use new{' '}
+          <NextLink href={'/components/label'}>
+            <a className="text-active">Label</a>
+          </NextLink>{' '}
+          component instead of Badge
+        </p>
       </section>
 
       {/* Colours */}
