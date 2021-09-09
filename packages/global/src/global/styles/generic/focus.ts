@@ -6,7 +6,7 @@ const focus: CSSObject = {
    * might still respond to pointer events.
    * https://github.com/chris-pearce/backpack.css
    */
-  '[tabindex=\'-1\']:focus': {
+  "[tabindex='-1']:focus": {
     outline: 'none',
   },
   /**

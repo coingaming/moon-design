@@ -28,10 +28,10 @@ export const Loader: React.FC<Props> = ({
   title,
   color = 'trunks.100',
 }) => (
-    <Container>
-      {icon}
-      <Title size={14} color={color}>
-        {title}
-      </Title>
-    </Container>
+  <Container>
+    {icon}
+    <Title size={14} color={color}>
+      {title}
+    </Title>
+  </Container>
 );

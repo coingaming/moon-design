@@ -55,7 +55,7 @@ export const CarouselControl = styled.button<any>(
       opacity: opacity.disabled,
     },
     // ...focus(color.piccolo[100]),
-  }),
+  })
 );
 
 /**

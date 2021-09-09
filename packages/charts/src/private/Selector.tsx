@@ -37,8 +37,8 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
     background: theme.color.goku[80],
   },
   '&:active': {
-    background: theme.color.goku[40]
-  }
+    background: theme.color.goku[40],
+  },
 }));
 
 const ColorPreview = styled.div<{ color?: ColorProps }>(({ theme, color }) => ({
@@ -81,24 +81,24 @@ export const Selector: React.FC<Props> = ({
   onChange,
   formatFn,
 }) => (
-    <Container>
-      <List>
-        {options.map((option) => {
-          const isActive = activeOptions.includes(option.dataKey);
-          const value = formatFn({ value: option.value, key: option.dataKey });
+  <Container>
+    <List>
+      {options.map((option) => {
+        const isActive = activeOptions.includes(option.dataKey);
+        const value = formatFn({ value: option.value, key: option.dataKey });
 
-          return (
-            <Button
-              isActive={isActive}
-              onClick={() => onChange(option.dataKey, !isActive)}
-              key={option.dataKey}
-            >
-              <ColorPreview color={option.color} />
-              <Label>{option.label}</Label>
-              <Value>{value}</Value>
-            </Button>
-          );
-        })}
-      </List>
-    </Container>
+        return (
+          <Button
+            isActive={isActive}
+            onClick={() => onChange(option.dataKey, !isActive)}
+            key={option.dataKey}
+          >
+            <ColorPreview color={option.color} />
+            <Label>{option.label}</Label>
+            <Value>{value}</Value>
+          </Button>
+        );
+      })}
+    </List>
+  </Container>
 );

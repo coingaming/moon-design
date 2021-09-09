@@ -41,7 +41,7 @@ export default function PageChip() {
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
-  
+
 <Chip>Lion</Chip>
 <Chip>Tiger</Chip>
 <Chip>Jaguar</Chip>
@@ -61,10 +61,10 @@ export default function PageChip() {
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
-  
+
 <Chip size="small">Small</Chip>
 <Chip size="medium">Medium</Chip>
-<Chip>Default</Chip>     
+<Chip>Default</Chip>
   `}
         />
       </section>
@@ -80,9 +80,9 @@ export default function PageChip() {
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
-  
+
 <Chip isActive={true}>Active</Chip>
-<Chip>Inactive</Chip>        
+<Chip>Inactive</Chip>
   `}
         />
       </section>
@@ -104,7 +104,7 @@ export default function PageChip() {
 
 <Chip iconLeft={(<MediaMusic />)}>Left Icon</Chip>
 <Chip iconRight={(<OtherSun />)}>Right Icon</Chip>
-<Chip iconRight={<SoftwareDownload />} iconLeft={<MediaMusic />}>Left/Right Icons</Chip>          
+<Chip iconRight={<SoftwareDownload />} iconLeft={<MediaMusic />}>Left/Right Icons</Chip>
   `}
         />
       </section>

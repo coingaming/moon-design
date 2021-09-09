@@ -40,16 +40,16 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const LogoSportsbet = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const LogoSportsbet = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 LogoSportsbet.defaultProps = {
   color: 'bulma.100',
 };

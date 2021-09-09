@@ -5,81 +5,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [6.15.0](https://github.com/coingaming/moon-design/compare/v6.14.0...v6.15.0) (2021-09-09)
 
-
 ### Bug Fixes
 
-* console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
-
-
-
-
+- console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
 
 # [6.14.0](https://github.com/coingaming/moon-design/compare/v6.13.0...v6.14.0) (2021-09-08)
 
 **Note:** Version bump only for package @heathmont/moon-charts
 
-
-
-
-
 ## [6.12.1](https://github.com/coingaming/moon-design/compare/v6.12.0...v6.12.1) (2021-08-31)
 
 **Note:** Version bump only for package @heathmont/moon-charts
-
-
-
-
 
 ## [6.11.1](https://github.com/coingaming/moon-design/compare/v6.11.0...v6.11.1) (2021-08-27)
 
 **Note:** Version bump only for package @heathmont/moon-charts
 
-
-
-
-
 # [6.11.0](https://github.com/coingaming/moon-design/compare/v6.10.3...v6.11.0) (2021-08-27)
 
 **Note:** Version bump only for package @heathmont/moon-charts
-
-
-
-
 
 ## [6.10.3](https://github.com/coingaming/moon-design/compare/v6.10.2...v6.10.3) (2021-08-26)
 
 **Note:** Version bump only for package @heathmont/moon-charts
 
-
-
-
-
 ## [6.10.2](https://github.com/coingaming/moon-design/compare/v6.10.1...v6.10.2) (2021-08-25)
 
 **Note:** Version bump only for package @heathmont/moon-charts
-
-
-
-
 
 ## [6.9.1](https://github.com/coingaming/moon-design/compare/v6.9.0...v6.9.1) (2021-08-25)
 
 **Note:** Version bump only for package @heathmont/moon-charts
 
-
-
-
-
 # [6.8.0](https://github.com/coingaming/moon-design/compare/v6.7.3...v6.8.0) (2021-08-23)
-
 
 ### Features
 
-* icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
-
-
-
-
+- icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
 
 ## [6.7.2](https://github.com/coingaming/moon-design/compare/v6.7.1...v6.7.2) (2021-08-18)
 

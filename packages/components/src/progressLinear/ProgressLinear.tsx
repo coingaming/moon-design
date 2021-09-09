@@ -30,13 +30,11 @@ const CurrentProgress = styled.div<{ lineHeight?: number; fontSize?: number }>(
     textShadow: `-${rem(1)} 0 ${color.gohan['100']}, 0 ${rem(1)} ${
       color.gohan['100']
     }, ${rem(1)} 0 ${color.gohan['100']}, 0 -${rem(1)} ${color.gohan['100']}`,
-  }),
+  })
 );
 
 const Progress = styled.div<ProgressbarProps>(
-  ({
-    theme, value, backgroundColor, height = 12,
-  }) => ({
+  ({ theme, value, backgroundColor, height = 12 }) => ({
     minWidth: rem(100),
     backgroundColor:
       themed('color', backgroundColor)(theme) || theme.color.goku['100'],
@@ -51,7 +49,7 @@ const Progress = styled.div<ProgressbarProps>(
       width: `${value}%`,
       borderRadius: rem(60),
     },
-  }),
+  })
 );
 
 const ProgressLinear: React.FC<ProgressbarProps> = ({
@@ -61,16 +59,12 @@ const ProgressLinear: React.FC<ProgressbarProps> = ({
   height,
   fontSize,
 }) => (
-    <ProgressBarWrapper>
-      <Progress
-        height={height}
-        value={value}
-        backgroundColor={backgroundColor}
-      />
-      <CurrentProgress lineHeight={height} fontSize={fontSize}>
-        {text}
-      </CurrentProgress>
-    </ProgressBarWrapper>
+  <ProgressBarWrapper>
+    <Progress height={height} value={value} backgroundColor={backgroundColor} />
+    <CurrentProgress lineHeight={height} fontSize={fontSize}>
+      {text}
+    </CurrentProgress>
+  </ProgressBarWrapper>
 );
 
 export default ProgressLinear;

@@ -51,7 +51,7 @@ const MediaObject = styled.div<MediaObjectProps>(
         direction: 'ltr',
       },
     },
-  ],
+  ]
 );
 
 export default MediaObject;

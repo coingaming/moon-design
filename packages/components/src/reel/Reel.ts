@@ -22,9 +22,7 @@ export type ReelProps = {
  *
  * Based on the Reel component from every-layout.dev
  */
-const Reel = styled.div<ReelProps>(({
-  height, space, theme, dir,
-}) => [
+const Reel = styled.div<ReelProps>(({ height, space, theme, dir }) => [
   {
     display: 'flex',
     overflowX: 'auto',
@@ -65,15 +63,15 @@ const Reel = styled.div<ReelProps>(({
   },
   dir === 'rtl'
     ? {
-      '& > * + *': {
-        marginRight: themed('space', space)(theme),
-      },
-    }
+        '& > * + *': {
+          marginRight: themed('space', space)(theme),
+        },
+      }
     : {
-      '& > * + *': {
-        marginLeft: themed('space', space)(theme),
+        '& > * + *': {
+          marginLeft: themed('space', space)(theme),
+        },
       },
-    },
 ]);
 
 Reel.defaultProps = {

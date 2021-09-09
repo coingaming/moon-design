@@ -807,7 +807,6 @@ export default function PageLineChart() {
               default: 'No data',
               description: 'The text for "no data" / "loading" states',
             },
-
           ]}
         />
       </section>
@@ -815,7 +814,7 @@ export default function PageLineChart() {
       <section className="mt-8">
         <h2 className="text-2xl">Types</h2>
         <section className="mt-4">
-         <CodeSnippet>
+          <CodeSnippet>
             {`Data {
   label: string | React.ReactNode
   value: number | string | React.ReactNode

@@ -58,7 +58,6 @@ export default function PagePagination() {
       <section className="mt-8">
         <h2 className="text-2xl mb-4">Props</h2>
         <Table
-
           data={[
             {
               name: 'pageCount',
@@ -94,7 +93,6 @@ export default function PagePagination() {
               required: false,
               default: '-',
               description: 'Label for "next" button',
-
             },
             /*
 
@@ -107,7 +105,8 @@ export default function PagePagination() {
               type: 'function',
               required: false,
               default: '-',
-              description: 'The method to call when a page is clicked. Exposes the current page object as an argument.',
+              description:
+                'The method to call when a page is clicked. Exposes the current page object as an argument.',
             },
             {
               name: 'pageNumber',
@@ -137,14 +136,11 @@ export default function PagePagination() {
               default: '-',
               description: 'Placeholder for "change page size" component',
             },
-
           ]}
         />
       </section>
 
-
       {/* With the "page size" section */}
-
 
       {/* With the "go to page" section */}
 

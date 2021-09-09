@@ -64,16 +64,16 @@ type SvgProps = {
   width?: string | number;
   fontSize?: string | number;
 };
-const LogoBetaddaFull = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['verticalAlign'].includes(prop),
-})<SvgProps>(({ color, height, width, fontSize, theme }) => ({
-  ...(color && {
-    color: themed('color', color)(theme),
-  }),
-  height,
-  width,
-  fontSize,
-}));
+const LogoBetaddaFull = styled(Svg)<SvgProps>(
+  ({ color, height, width, fontSize, theme }) => ({
+    ...(color && {
+      color: themed('color', color)(theme),
+    }),
+    height,
+    width,
+    fontSize,
+  })
+);
 LogoBetaddaFull.defaultProps = {
   color: 'bulma.100',
 };

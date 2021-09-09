@@ -1,7 +1,7 @@
 const getNormalizedValue = (
   value: number,
   maxValue: number,
-  minValue: number,
+  minValue: number
 ) => (value === 0 ? 0 : value / (value > 0 ? maxValue : minValue));
 
 type GetBarChartDataProps = {
@@ -24,11 +24,11 @@ export const getBarChartData = ({
 }: GetBarChartDataProps) => {
   const maxValue = Math.max.apply(
     null,
-    data.map(({ value }) => value),
+    data.map(({ value }) => value)
   );
   const minValue = Math.min.apply(
     null,
-    data.map(({ value }) => value),
+    data.map(({ value }) => value)
   );
 
   return data.map((item) => {
@@ -49,11 +49,11 @@ export const getBarChartData = ({
 export const getAxisPosition = (data: { value: number }[]) => {
   const maxValue = Math.max.apply(
     null,
-    data.map(({ value }) => value),
+    data.map(({ value }) => value)
   );
   const minValue = Math.min.apply(
     null,
-    data.map(({ value }) => value),
+    data.map(({ value }) => value)
   );
 
   if (maxValue <= 0) {

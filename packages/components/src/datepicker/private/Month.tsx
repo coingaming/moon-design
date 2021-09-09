@@ -88,38 +88,38 @@ export const Month: React.FC<MonthProps> = ({
   endDate,
   hoveredDate,
 }) => (
-    <>
-      <MonthYearLabel>
-        {monthLabel}&nbsp;&nbsp;{year}
-      </MonthYearLabel>
-      <Days>
-        {weekDayLabels.map((dayLabel, weekIndex) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <DayName key={`${dayLabel}-${weekIndex}`}>{dayLabel}</DayName>
-        ))}
-        {monthDays.map((day) => (
-          <Day
-            key={day.getTime()}
-            onDayClick={onDayClick}
-            onMouseEnter={onMouseEnter}
-            date={day}
-            isToday={isSameDay(day, new Date())}
-            isSameMonth={getMonth(day) === getMonth(cursorDate)}
-            isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
-            isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
-            isInRange={Boolean(
-              startDate
-                && isDate(startDate)
-                && endDate
-                && isDate(endDate)
-                && isWithinInterval(day, {
-                  start: startDate,
-                  end: endDate,
-                }),
-            )}
-            isInRangePreview={isInRangePreview({ startDate, hoveredDate, day })}
-          />
-        ))}
-      </Days>
-    </>
+  <>
+    <MonthYearLabel>
+      {monthLabel}&nbsp;&nbsp;{year}
+    </MonthYearLabel>
+    <Days>
+      {weekDayLabels.map((dayLabel, weekIndex) => (
+        // eslint-disable-next-line react/no-array-index-key
+        <DayName key={`${dayLabel}-${weekIndex}`}>{dayLabel}</DayName>
+      ))}
+      {monthDays.map((day) => (
+        <Day
+          key={day.getTime()}
+          onDayClick={onDayClick}
+          onMouseEnter={onMouseEnter}
+          date={day}
+          isToday={isSameDay(day, new Date())}
+          isSameMonth={getMonth(day) === getMonth(cursorDate)}
+          isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
+          isEndEdge={Boolean(endDate && isSameDay(endDate, day))}
+          isInRange={Boolean(
+            startDate &&
+              isDate(startDate) &&
+              endDate &&
+              isDate(endDate) &&
+              isWithinInterval(day, {
+                start: startDate,
+                end: endDate,
+              })
+          )}
+          isInRangePreview={isInRangePreview({ startDate, hoveredDate, day })}
+        />
+      ))}
+    </Days>
+  </>
 );

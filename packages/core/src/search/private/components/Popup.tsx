@@ -31,7 +31,7 @@ export const StyledPopup = styled.div(
       [':focus-within']: {
         ...resultsActive(theme),
         zIndex: theme.zIndex.dialog,
-      }
+      },
     },
   })
 );

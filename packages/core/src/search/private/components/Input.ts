@@ -15,27 +15,29 @@ const { borderWidth, padding } = inputConfig;
 
 export type SearchInputSize = 'small' | 'medium';
 
-export const SearchClearButton = styled(Button)(({ theme: { color, space } }) => ({
-  position: 'absolute',
-  top: 0,
-  right: borderWidth,
-  height: '100%',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  padding: `0 ${rem(space.small)}`,
-  border: 'none',
-  background: 'transparent',
-  appearance: 'none',
-  zIndex: zIndex.searchIcon,
-  ':focus svg': {
-    color: color.bulma[100],
-  },
-  '[dir=rtl] &': {
-    right: 'auto',
-    left: borderWidth,
-  },
-}));
+export const SearchClearButton = styled(Button)(
+  ({ theme: { color, space } }) => ({
+    position: 'absolute',
+    top: 0,
+    right: borderWidth,
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: `0 ${rem(space.small)}`,
+    border: 'none',
+    background: 'transparent',
+    appearance: 'none',
+    zIndex: zIndex.searchIcon,
+    ':focus svg': {
+      color: color.bulma[100],
+    },
+    '[dir=rtl] &': {
+      right: 'auto',
+      left: borderWidth,
+    },
+  })
+);
 
 export const SearchClearIcon = styled(GenericClose)<
   React.SVGProps<SVGSVGElement>

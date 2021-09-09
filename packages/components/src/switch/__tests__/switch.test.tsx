@@ -18,7 +18,7 @@ describe('Switch', () => {
 
   test('renders as checked', () => {
     const checkbox = create(
-      renderWithTheme(<Switch id="test-switch-2" checked />),
+      renderWithTheme(<Switch id="test-switch-2" checked />)
     );
 
     expect(checkbox).toMatchSnapshot();
