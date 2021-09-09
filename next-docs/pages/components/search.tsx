@@ -56,9 +56,11 @@ const PreviewSearch = () => {
               </li>
             </Dropdown>
           ) : (
-            <li>
-              <span>No results</span>
-            </li>
+            <Dropdown>
+              <li>
+                <span>No results</span>
+              </li>
+            </Dropdown>
           )
         }
       />

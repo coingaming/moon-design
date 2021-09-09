@@ -65,9 +65,7 @@ const Search: React.FC<SearchProps> = ({
 
   const openPopup = () => setIsActive(true);
 
-  const closePopup = () => {
-    setIsActive(false);
-  };
+  const closePopup = () => setIsActive(false);
 
   return (
     <Popup
@@ -94,7 +92,7 @@ const Search: React.FC<SearchProps> = ({
             />
             <SearchInputIcon $size={size} />
             {searchStr && (
-              <SearchClearButton onClick={clearSearch}>
+              <SearchClearButton onClick={clearSearch} tabIndex="-1">
                 <SearchClearIcon />
               </SearchClearButton>
             )}
