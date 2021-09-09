@@ -15,7 +15,7 @@ import {
 export interface SearchProps {
   closeButton?: JSX.Element;
   hasBorder?: boolean;
-  isOpen: boolean;
+  isOpen?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onClear?: (e: React.MouseEvent<HTMLElement>) => void;
   onKeyDown?: (e: React.KeyboardEvent<HTMLElement>) => void;
