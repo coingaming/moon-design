@@ -4,12 +4,12 @@ import { themed } from '@heathmont/moon-utils';
 
 import Container from './styles/Container';
 
-export type ScreenLoaderProps = {
+export interface ScreenLoaderProps {
   firstColor?: ColorProps;
   secondColor?: ColorProps;
   thirdColor?: ColorProps;
   fourthColor?: ColorProps;
-};
+}
 
 const ScreenLoader: React.FC<ScreenLoaderProps> = ({
   firstColor,

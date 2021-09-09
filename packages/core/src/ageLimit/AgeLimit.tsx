@@ -4,7 +4,7 @@ import { ColorProps, useTheme } from '@heathmont/moon-themes';
 
 import Container from './styles/Container';
 import Caption from './styles/Caption';
-interface AgeLimitProps {
+export interface AgeLimitProps {
   caption: any;
   color?: ColorProps;
 }

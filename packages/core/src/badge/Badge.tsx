@@ -5,13 +5,13 @@ import { ColorProps } from '@heathmont/moon-themes';
 
 import Container from './styles/Container';
 
-export type BadgeProps = {
+export interface BadgeProps {
   color?: ColorProps;
   backgroundColor?: ColorProps;
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: 'small';
-};
+}
 
 const IconRightWrapper = styled.span<BadgeProps>({ marginLeft: rem(8) });
 

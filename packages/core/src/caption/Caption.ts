@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
 
-export type CaptionProps = {
+export interface CaptionProps {
   color?: ColorProps;
   textAlign?: TextAlign;
-};
+}
 
 const Caption = styled.span<CaptionProps>(
   ({ color, theme }) => ({

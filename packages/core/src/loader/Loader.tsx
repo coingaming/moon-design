@@ -4,9 +4,9 @@ import { ColorProps } from '@heathmont/moon-themes';
 import LoaderRing from './styles/LoaderRing';
 import Container from './styles/Container';
 
-export type LoaderProps = {
+export interface LoaderProps {
   color?: ColorProps;
-};
+}
 
 const Loader: React.FC<LoaderProps> = ({ color }) => (
   <Container role="progressbar">

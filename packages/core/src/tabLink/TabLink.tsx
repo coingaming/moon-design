@@ -4,13 +4,13 @@ import { rem } from '@heathmont/moon-utils';
 
 import Container from './styles/Container';
 
-export type TabLinkProps = {
+export interface TabLinkProps {
   elementLeft?: React.ReactElement;
   count?: string;
   size?: 'small' | 'medium';
   isTop?: boolean;
   href?: string;
-};
+}
 
 const ElementLeftWrapper = styled.div({
   marginInlineEnd: rem(8),
