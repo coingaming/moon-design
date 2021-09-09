@@ -75,15 +75,15 @@ const Popover: React.FC<Props> = ({
         }
       }}
       render={(attrs) => (
-          <div className="box" tabIndex={-1} {...attrs}>
-            <PopoverContainer
-              className={className}
-              padding={padding}
-              backgroundColor={backgroundColor}
-            >
-              {content}
-            </PopoverContainer>
-          </div>
+        <div className="box" tabIndex={-1} {...attrs}>
+          <PopoverContainer
+            className={className}
+            padding={padding}
+            backgroundColor={backgroundColor}
+          >
+            {content}
+          </PopoverContainer>
+        </div>
       )}
     >
       <div

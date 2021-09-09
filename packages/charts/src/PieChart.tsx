@@ -30,7 +30,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
       fill: theme.color.bulma[100],
       fontSize: rem(24),
     },
-  }),
+  })
 );
 
 type Props = {
@@ -70,12 +70,13 @@ const PieChart: React.FC<Props> = ({
   const theme = useTheme();
   const colorShadow = themed('color', 'bulma.100')(theme);
   const [activeIndex, setActiveIndex] = useState(
-    data.length ? data.length - 1 : 0,
+    data.length ? data.length - 1 : 0
   );
 
-  useEffect(() => setActiveIndex(data.length ? data.length - 1 : 0), [
-    data.length,
-  ]);
+  useEffect(
+    () => setActiveIndex(data.length ? data.length - 1 : 0),
+    [data.length]
+  );
 
   const onMouseEnter = (event: any) => {
     setActiveIndex(event['data-index']);

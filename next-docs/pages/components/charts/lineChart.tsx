@@ -395,7 +395,6 @@ return (
   );
 };
 
-
 export default function PageLineChart() {
   return (
     <>
@@ -531,7 +530,7 @@ export default function PageLineChart() {
       <section className="mt-8">
         <h2 className="text-2xl">Types</h2>
         <section className="mt-4">
-         <CodeSnippet>
+          <CodeSnippet>
             {`Data {
   date: string
   [key: string]: string | number
@@ -540,7 +539,7 @@ export default function PageLineChart() {
         </section>
 
         <section className="mt-4">
-         <CodeSnippet>
+          <CodeSnippet>
             {`Option {
   label: string;
   dataKey: string;

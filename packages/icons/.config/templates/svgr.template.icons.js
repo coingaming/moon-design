@@ -1,12 +1,12 @@
 /* Disable rules due to SVGR's setup */
 /* eslint-disable no-shadow, @typescript-eslint/no-unused-vars */
-const prefix = componentName => componentName.name.replace('Svg', '');
+const prefix = (componentName) => componentName.name.replace('Svg', '');
 
 const customDefaultProps = {
   IconInstagram: 'color: "bulma.100",',
 };
 
-const defaultProps = prefixCompName =>
+const defaultProps = (prefixCompName) =>
   customDefaultProps[prefixCompName] &&
   `${prefixCompName}.defaultProps = {
     ${customDefaultProps[prefixCompName]}

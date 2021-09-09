@@ -40,9 +40,7 @@ const ButtonDefault = styled(Button)(({ theme }) => ({
   },
 }));
 
-const ChangePageSize = ({
-  children, pageSize, onChange, options,
-}: any) => {
+const ChangePageSize = ({ children, pageSize, onChange, options }: any) => {
   const ref = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 

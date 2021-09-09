@@ -21,16 +21,14 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-interface IconProps  {
+interface IconProps {
   backgroundColor?: ColorProps;
   circleColor?: ColorProps;
   color?: ColorProps;
-};
+}
 
 const IconToastWarning = styled(Svg)<IconProps>(
-  ({
-    backgroundColor, circleColor, color, theme,
-  }) => [
+  ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
     },
@@ -48,6 +46,6 @@ const IconToastWarning = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ],
+  ]
 );
 export default IconToastWarning;

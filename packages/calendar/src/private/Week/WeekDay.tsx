@@ -10,5 +10,5 @@ export const WeekDay = styled.div<{ isWeekend?: boolean }>(
     borderRadius: rem(radius.default),
     display: 'flex',
     flexDirection: 'column',
-  }),
+  })
 );

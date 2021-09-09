@@ -14,8 +14,6 @@ export { default as Heading } from './heading/Heading';
 export * from './heading/Heading';
 export { default as Label } from './label/Label';
 export * from './label/Label';
-export { default as LabelContainer } from './label/styles/LabelContainer';
-export * from './label/styles/LabelContainer';
 export { default as ListItem } from './listItem/ListItem';
 export * from './listItem/ListItem';
 export { default as Loader } from './loader/Loader';

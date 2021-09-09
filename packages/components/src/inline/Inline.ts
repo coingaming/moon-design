@@ -22,12 +22,10 @@ export type InlineProps = {
 };
 
 const Inline = styled.div<InlineProps>(
-  ({
-    fontSize, justifyContent, space = 'default', theme,
-  }) => ({
+  ({ fontSize, justifyContent, space = 'default', theme }) => ({
     ...inlineMixin(themed('space', space)(theme), justifyContent),
     fontSize,
-  }),
+  })
 );
 
 export default Inline;

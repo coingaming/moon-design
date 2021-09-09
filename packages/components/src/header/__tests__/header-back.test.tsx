@@ -19,7 +19,7 @@ const TestLink = ({ children, ...props }: { children: string }) => (
 describe('Header - Back', () => {
   test('renders as an anchor by default', () => {
     const headerBack = create(
-      renderWithTheme(<HeaderBack href="#">Sample link</HeaderBack>),
+      renderWithTheme(<HeaderBack href="#">Sample link</HeaderBack>)
     );
 
     expect(headerBack).toMatchSnapshot();
@@ -30,8 +30,8 @@ describe('Header - Back', () => {
       renderWithTheme(
         <HeaderBack element="button" onClick={() => console.log('clicked')}>
           Sample link
-        </HeaderBack>,
-      ),
+        </HeaderBack>
+      )
     );
 
     expect(headerBack).toMatchSnapshot();
@@ -39,7 +39,7 @@ describe('Header - Back', () => {
 
   test('renders as a component', () => {
     const headerBack = create(
-      renderWithTheme(<HeaderBack element={TestLink}>Sample link</HeaderBack>),
+      renderWithTheme(<HeaderBack element={TestLink}>Sample link</HeaderBack>)
     );
 
     expect(headerBack).toMatchSnapshot();

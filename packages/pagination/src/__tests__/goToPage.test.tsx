@@ -12,7 +12,7 @@ import GoToPage from '../GoToPage';
 describe('GoToPage', () => {
   test('renders correctly', () => {
     const goToPage = create(
-      renderWithTheme(<GoToPage minPage={1} maxPage={20} onChange={() => {}} />),
+      renderWithTheme(<GoToPage minPage={1} maxPage={20} onChange={() => {}} />)
     );
 
     expect(goToPage).toMatchSnapshot();
@@ -23,8 +23,8 @@ describe('GoToPage', () => {
       renderWithTheme(
         <GoToPage minPage={1} maxPage={20} onChange={() => {}}>
           Go to page
-        </GoToPage>,
-      ),
+        </GoToPage>
+      )
     );
 
     expect(goToPage).toMatchSnapshot();
@@ -37,8 +37,8 @@ describe('GoToPage', () => {
     beforeAll(() => {
       goToPage = create(
         renderWithTheme(
-          <GoToPage minPage={1} maxPage={20} onChange={onChangeMock} />,
-        ),
+          <GoToPage minPage={1} maxPage={20} onChange={onChangeMock} />
+        )
       );
     });
 

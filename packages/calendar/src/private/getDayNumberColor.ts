@@ -4,7 +4,7 @@ import { ColorNames } from '@heathmont/moon-themes';
 
 export const getDayNumberColor = (
   cursorDate: Date,
-  dayDate: Date,
+  dayDate: Date
 ): ColorNames => {
   if (isToday(dayDate)) {
     return 'piccolo.100';

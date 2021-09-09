@@ -8,8 +8,8 @@ import { cardGradientSizes } from './utils';
 // type CardBackgroundIcon = InlineSVGProps | false | undefined;
 
 const backgroundSvg = (backgroundIcon: any) =>
-  backgroundIcon
-  && React.isValidElement(backgroundIcon) && {
+  backgroundIcon &&
+  React.isValidElement(backgroundIcon) && {
     /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
     backgroundImage: inlineSvg(
       React.cloneElement(backgroundIcon as React.ReactElement<any>, {
@@ -19,7 +19,7 @@ const backgroundSvg = (backgroundIcon: any) =>
          * the color may be.
          */
         color: 'rgba(255, 255, 255, 0.05)',
-      }),
+      })
     ),
   };
 
@@ -39,9 +39,7 @@ const Card = styled.div<CardProps>(
     backgroundIcon,
     flex,
     template,
-    theme: {
-      border, color, radius, space,
-    },
+    theme: { border, color, radius, space },
   }) => [
     {
       display: 'block',
@@ -62,8 +60,8 @@ const Card = styled.div<CardProps>(
       justifyContent: 'space-between',
       alignItems: 'alignContent',
     },
-    template
-      && {
+    template &&
+      {
         front: [
           { backgroundColor: color.gohan[100] },
           backgroundIcon && {
@@ -79,7 +77,7 @@ const Card = styled.div<CardProps>(
           borderColor: color.beerus[100],
         },
       }[template],
-  ],
+  ]
 );
 
 Card.defaultProps = {

@@ -3,7 +3,7 @@ import {
   LogoSportsbetShort,
   LogoBitcasinoShort,
   LogoMoonDesignShort,
-  LogoBetaddaShort
+  LogoBetaddaShort,
 } from '@heathmont/moon-assets';
 
 const Logos: any = {
@@ -11,7 +11,7 @@ const Logos: any = {
   bitcasino: <LogoBitcasinoShort fontSize="1rem" />,
   moonDesign: <LogoMoonDesignShort fontSize="1rem" />,
   betadda: <LogoBetaddaShort fontSize="1rem" />,
-}
+};
 
 const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
   const [isOpened, setIsOpened] = React.useState(false);
@@ -58,8 +58,7 @@ const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
                   {Logo}
                 </button>
               );
-            }
-            )}
+            })}
           </div>
           <div className="fixed bottom-28 right-4">{darkLight}</div>
         </>

@@ -18,7 +18,7 @@ type PathProps = {
 
 const getPathDescription = (
   pathRadius: number,
-  center: Coordinate = { x: VIEWBOX_CENTER_X, y: VIEWBOX_CENTER_Y },
+  center: Coordinate = { x: VIEWBOX_CENTER_X, y: VIEWBOX_CENTER_Y }
 ): string => `
       M ${center.x},${center.y}
       m 0,-${pathRadius}
@@ -49,12 +49,12 @@ const Path: React.FC<PathProps> = ({
   style,
   center,
 }) => (
-    <path
-      style={{ ...style, ...getDashStyle({ pathRadius, dashRatio }) }}
-      d={getPathDescription(pathRadius, center)}
-      strokeWidth={strokeWidth}
-      fillOpacity={0}
-    />
+  <path
+    style={{ ...style, ...getDashStyle({ pathRadius, dashRatio }) }}
+    d={getPathDescription(pathRadius, center)}
+    strokeWidth={strokeWidth}
+    fillOpacity={0}
+  />
 );
 
 export default Path;

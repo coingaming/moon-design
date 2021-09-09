@@ -3,71 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [6.15.0](https://github.com/coingaming/moon-design/compare/v6.14.0...v6.15.0) (2021-09-09)
-
+# [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
 
 ### Bug Fixes
 
-* console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
+- icons rebuild ([f89eb35](https://github.com/coingaming/moon-design/commit/f89eb3567ed94fad3380fa306731eb4ab6f1713d))
 
+# [6.15.0](https://github.com/coingaming/moon-design/compare/v6.14.0...v6.15.0) (2021-09-09)
 
+### Bug Fixes
 
-
+- console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
 
 ## [6.12.1](https://github.com/coingaming/moon-design/compare/v6.12.0...v6.12.1) (2021-08-31)
 
-
 ### Bug Fixes
 
-* fix betadda logo color ([#1360](https://github.com/coingaming/moon-design/issues/1360)) ([63e9083](https://github.com/coingaming/moon-design/commit/63e90833acbb6e35d5e880eb0769a22c04e9337c))
-
-
-
-
+- fix betadda logo color ([#1360](https://github.com/coingaming/moon-design/issues/1360)) ([63e9083](https://github.com/coingaming/moon-design/commit/63e90833acbb6e35d5e880eb0769a22c04e9337c))
 
 ## [6.10.3](https://github.com/coingaming/moon-design/compare/v6.10.2...v6.10.3) (2021-08-26)
 
-
 ### Bug Fixes
 
-* LogoBetaddaFull colours ([#1348](https://github.com/coingaming/moon-design/issues/1348)) ([69762b3](https://github.com/coingaming/moon-design/commit/69762b3b81935785d31890e3b8a20c16be5b1f74))
-
-
-
-
+- LogoBetaddaFull colours ([#1348](https://github.com/coingaming/moon-design/issues/1348)) ([69762b3](https://github.com/coingaming/moon-design/commit/69762b3b81935785d31890e3b8a20c16be5b1f74))
 
 ## [6.10.2](https://github.com/coingaming/moon-design/compare/v6.10.1...v6.10.2) (2021-08-25)
 
-
 ### Bug Fixes
 
-* fix default prop ([#1342](https://github.com/coingaming/moon-design/issues/1342)) ([73a48d3](https://github.com/coingaming/moon-design/commit/73a48d32d3ffeea69b566b06d8ac1c74ea088d7c))
-
-
-
-
+- fix default prop ([#1342](https://github.com/coingaming/moon-design/issues/1342)) ([73a48d3](https://github.com/coingaming/moon-design/commit/73a48d32d3ffeea69b566b06d8ac1c74ea088d7c))
 
 ## [6.9.1](https://github.com/coingaming/moon-design/compare/v6.9.0...v6.9.1) (2021-08-25)
 
-
 ### Bug Fixes
 
-* fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
-
-
-
-
+- fix betadda logo on white theme background ([#1335](https://github.com/coingaming/moon-design/issues/1335)) ([03cca39](https://github.com/coingaming/moon-design/commit/03cca394040278cebc38490282a1db586d8042d1))
 
 # [6.8.0](https://github.com/coingaming/moon-design/compare/v6.7.3...v6.8.0) (2021-08-23)
 
-
 ### Features
 
-* icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
-
-
-
-
+- icons ([#1305](https://github.com/coingaming/moon-design/issues/1305)) ([5b68731](https://github.com/coingaming/moon-design/commit/5b687318609712e9dd421855c517335d03d789a4))
 
 ## [6.7.2](https://github.com/coingaming/moon-design/compare/v6.7.1...v6.7.2) (2021-08-18)
 

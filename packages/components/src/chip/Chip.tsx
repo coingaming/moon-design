@@ -20,18 +20,20 @@ const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
     padding: `${rem(8)}`,
     transition: `${theme.transitionDuration.default}s`,
     '&:hover': {
-        background: rgba(theme.color.piccolo[100], 0.2),
-        color: theme.color.piccolo[100]
-    }
+      background: rgba(theme.color.piccolo[100], 0.2),
+      color: theme.color.piccolo[100],
+    },
   },
   ({ size }) => ({
     fontSize: size === 'small' ? rem(12) : rem(14),
     lineHeight: size === 'small' ? `${rem(16)}` : rem(20),
   }),
   ({ isActive, theme }) => ({
-    background: isActive ? rgba(theme.color.piccolo[100], 0.2) : theme.color.gohan[100],
+    background: isActive
+      ? rgba(theme.color.piccolo[100], 0.2)
+      : theme.color.gohan[100],
     color: isActive ? theme.color.piccolo[100] : theme.color.trunks[100],
-    cursor: isActive ? 'auto' : 'pointer'
+    cursor: isActive ? 'auto' : 'pointer',
   }),
 ]);
 

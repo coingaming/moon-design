@@ -19,7 +19,7 @@ const TestLink = ({ children, ...props }: { children: string }) => (
 describe('Nav - TabLink', () => {
   test('renders as an anchor by default', () => {
     const tabLink = create(
-      renderWithTheme(<TabLink href="#">Sample link</TabLink>),
+      renderWithTheme(<TabLink href="#">Sample link</TabLink>)
     );
 
     expect(tabLink).toMatchSnapshot();
@@ -27,7 +27,7 @@ describe('Nav - TabLink', () => {
 
   test('renders as active', () => {
     const tabLink = create(
-      renderWithTheme(<TabLink className="active">Sample link</TabLink>),
+      renderWithTheme(<TabLink className="active">Sample link</TabLink>)
     );
 
     expect(tabLink).toMatchSnapshot();
@@ -35,7 +35,7 @@ describe('Nav - TabLink', () => {
 
   test('renders as a component', () => {
     const tabLink = create(
-      renderWithTheme(<TabLink as={TestLink}>Sample link</TabLink>),
+      renderWithTheme(<TabLink as={TestLink}>Sample link</TabLink>)
     );
 
     expect(tabLink).toMatchSnapshot();
@@ -43,7 +43,7 @@ describe('Nav - TabLink', () => {
 
   test('renders as active', () => {
     const tabLink = create(
-      renderWithTheme(<TabLink href="#">Sample link</TabLink>),
+      renderWithTheme(<TabLink href="#">Sample link</TabLink>)
     );
 
     expect(tabLink).toMatchSnapshot();

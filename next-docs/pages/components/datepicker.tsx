@@ -42,9 +42,13 @@ export default function PageDatepicker() {
 
       {/* Default */}
       <section className="mt-8">
-      <Preview
+        <Preview
           title="Datepicker"
-          preview={<div className="h-96 w-full"><Example /></div>}
+          preview={
+            <div className="h-96 w-full">
+              <Example />
+            </div>
+          }
           code={`import { Datepicker } from '@heathmont/moon-components';
 
 const [initialStartDate, setStartDate] = React.useState(

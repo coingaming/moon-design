@@ -17,7 +17,7 @@ describe('Caption', () => {
     });
     test('renders as an element if "as" prop provided', () => {
       const text = create(
-        renderWithTheme(<Caption as="p">Caption with Paragraph tag</Caption>),
+        renderWithTheme(<Caption as="p">Caption with Paragraph tag</Caption>)
       );
       expect(text).toMatchSnapshot();
     });
@@ -30,7 +30,7 @@ describe('Caption', () => {
 
   test('renders with a color', () => {
     const caption = create(
-      renderWithTheme(<Caption color="piccolo.100">Caption</Caption>),
+      renderWithTheme(<Caption color="piccolo.100">Caption</Caption>)
     );
     expect(caption).toMatchSnapshot();
   });

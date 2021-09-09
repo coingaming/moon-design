@@ -24,7 +24,7 @@ describe('Badge', () => {
 
   test('renders correctly with background color', () => {
     const badge = create(
-      renderWithTheme(<Badge backgroundColor="red">Red background badge</Badge>),
+      renderWithTheme(<Badge backgroundColor="red">Red background badge</Badge>)
     );
 
     expect(badge).toMatchSnapshot();
@@ -32,7 +32,7 @@ describe('Badge', () => {
 
   test('renders correctly default size', () => {
     const badge = create(
-      renderWithTheme(<Badge backgroundColor="red">Default size badge</Badge>),
+      renderWithTheme(<Badge backgroundColor="red">Default size badge</Badge>)
     );
 
     expect(badge).toMatchSnapshot();
@@ -43,8 +43,8 @@ describe('Badge', () => {
       renderWithTheme(
         <Badge backgroundColor="red" size="small">
           Default size badge
-        </Badge>,
-      ),
+        </Badge>
+      )
     );
 
     expect(badge).toMatchSnapshot();

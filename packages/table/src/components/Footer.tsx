@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import rgba from 'polished/lib/color/rgba';
 
-import HeaderTR from "./HeaderTR";
-import TH from "./TH";
+import HeaderTR from './HeaderTR';
+import TH from './TH';
 
 const Footer = styled.div(({ theme: { color, radius } }) => ({
   position: 'sticky',
@@ -24,4 +24,4 @@ const Footer = styled.div(({ theme: { color, radius } }) => ({
   },
 }));
 
-export default Footer
+export default Footer;
