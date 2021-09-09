@@ -1,6 +1,6 @@
 {
   "name": "next-docs",
-  "version": "6.16.0",
+  "version": "6.16.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
     "@heathmont/moon-assets": "^6.16.0",
     "@heathmont/moon-charts": "5.1.0",
     "@heathmont/moon-components": "^6.16.0",
-    "@heathmont/moon-core": "^6.16.0",
+    "@heathmont/moon-core": "^6.16.1",
     "@heathmont/moon-draggabletable": "^6.16.0",
     "@heathmont/moon-icons": "^6.16.0",
     "@heathmont/moon-pagination": "5.0.0",
