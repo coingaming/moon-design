@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
+
+
+### Bug Fixes
+
+* bump dependencies ([0099ecb](https://github.com/coingaming/moon-design/commit/0099ecb779965e30ca1a8d15fc8c4c14188c3e5b))
+
+
+### Features
+
+* added info in docs for chip [B1M2-3877] ([#1382](https://github.com/coingaming/moon-design/issues/1382)) ([d70ad00](https://github.com/coingaming/moon-design/commit/d70ad005574cc9750fe3c41cc3c93eb5f5b03e37))
+
+
+
+
+
 ## [6.15.1](https://github.com/coingaming/moon-design/compare/v6.15.0...v6.15.1) (2021-09-09)
 
 **Note:** Version bump only for package next-docs
