@@ -10,7 +10,7 @@ const listItemStyleTypeNone: CSSObject = {
   },
 };
 
-export type ReelProps = {
+export interface ReelProps {
   height?: CSSObject['height'];
   /**
    * Excepts a string value, number or a theme key.
@@ -21,7 +21,7 @@ export type ReelProps = {
    */
   space?: SpaceProps | CSSObject['margin'];
   dir?: 'ltr' | 'rtl' | 'auto';
-};
+}
 
 /**
  * Reel

@@ -7,7 +7,7 @@ type Props = {
   size?: 'small' | 'medium';
 };
 
-const TabLinkFillContainer = styled.a<Props>(({ theme, size }) => ({
+const Container = styled.a<Props>(({ theme, size }) => ({
   display: 'flex',
   alignItems: 'center',
   padding: `${size === 'small' ? rem(4) : rem(8)} ${rem(8)}`,
@@ -34,4 +34,4 @@ const TabLinkFillContainer = styled.a<Props>(({ theme, size }) => ({
   },
 }));
 
-export default TabLinkFillContainer;
+export default Container;
