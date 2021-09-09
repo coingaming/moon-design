@@ -45,9 +45,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
  */
 const StyledButton = styled.button<ButtonProps>(
   ({
-    theme: {
-      border, fontWeight, opacity, radius, transitionDuration,
-    },
+    theme: { border, fontWeight, opacity, radius, transitionDuration },
     fullWidth,
   }) => ({
     display: 'inline-block',
@@ -89,7 +87,7 @@ const StyledButton = styled.button<ButtonProps>(
       {
         boxShadow: `0 0 0 0 ${color.piccolo[100]}`,
       },
-      pulseAnimation
+      pulseAnimation,
     ],
   ({ iconLeft, size }) => [
     iconLeft && size === 'xsmall' && { paddingLeft: rem(8) },
@@ -102,7 +100,7 @@ const StyledButton = styled.button<ButtonProps>(
     iconRight && size === 'small' && { paddingRight: rem(12) },
     iconRight && size === 'medium' && { paddingRight: rem(16) },
     iconRight && size === 'large' && { paddingRight: rem(16) },
-  ],
+  ]
 );
 
 const InnerContainer = styled.div({
@@ -131,30 +129,30 @@ const IconLeftWrapper = styled.span<any>(({ size, fullWidth }) => [
     fontSize: rem(24),
     lineHeight: 1,
   },
-  fullWidth
-    && size === 'xsmall' && {
-    position: 'absolute',
-    left: rem(8),
-    top: rem(8),
-  },
-  fullWidth
-    && size === 'small' && {
-    position: 'absolute',
-    left: rem(12),
-    top: rem(10),
-  },
-  fullWidth
-    && size === 'medium' && {
-    position: 'absolute',
-    left: rem(16),
-    top: rem(12),
-  },
-  fullWidth
-    && size === 'large' && {
-    position: 'absolute',
-    left: rem(16),
-    top: rem(12),
-  },
+  fullWidth &&
+    size === 'xsmall' && {
+      position: 'absolute',
+      left: rem(8),
+      top: rem(8),
+    },
+  fullWidth &&
+    size === 'small' && {
+      position: 'absolute',
+      left: rem(12),
+      top: rem(10),
+    },
+  fullWidth &&
+    size === 'medium' && {
+      position: 'absolute',
+      left: rem(16),
+      top: rem(12),
+    },
+  fullWidth &&
+    size === 'large' && {
+      position: 'absolute',
+      left: rem(16),
+      top: rem(12),
+    },
 ]);
 
 const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
@@ -172,30 +170,30 @@ const IconRightWrapper = styled.span<any>(({ size, fullWidth }) => [
     fontSize: rem(24),
     lineHeight: 1,
   },
-  fullWidth
-    && size === 'xsmall' && {
-    position: 'absolute',
-    right: rem(8),
-    top: rem(8),
-  },
-  fullWidth
-    && size === 'small' && {
-    position: 'absolute',
-    right: rem(12),
-    top: rem(10),
-  },
-  fullWidth
-    && size === 'medium' && {
-    position: 'absolute',
-    right: rem(16),
-    top: rem(12),
-  },
-  fullWidth
-    && size === 'large' && {
-    position: 'absolute',
-    right: rem(16),
-    top: rem(12),
-  },
+  fullWidth &&
+    size === 'xsmall' && {
+      position: 'absolute',
+      right: rem(8),
+      top: rem(8),
+    },
+  fullWidth &&
+    size === 'small' && {
+      position: 'absolute',
+      right: rem(12),
+      top: rem(10),
+    },
+  fullWidth &&
+    size === 'medium' && {
+      position: 'absolute',
+      right: rem(16),
+      top: rem(12),
+    },
+  fullWidth &&
+    size === 'large' && {
+      position: 'absolute',
+      right: rem(16),
+      top: rem(12),
+    },
 ]);
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
