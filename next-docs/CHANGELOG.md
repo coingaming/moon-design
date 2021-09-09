@@ -3,40 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [6.15.0](https://github.com/coingaming/moon-design/compare/v6.14.0...v6.15.0) (2021-09-09)
+## [6.15.1](https://github.com/coingaming/moon-design/compare/v6.15.0...v6.15.1) (2021-09-09)
 
+**Note:** Version bump only for package next-docs
+
+# [6.15.0](https://github.com/coingaming/moon-design/compare/v6.14.0...v6.15.0) (2021-09-09)
 
 ### Bug Fixes
 
-* B1M2-3838 search in ios ([#1378](https://github.com/coingaming/moon-design/issues/1378)) ([adc62d6](https://github.com/coingaming/moon-design/commit/adc62d6e6cbbd136bb9635520c43fbe55edd454d))
-* console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
-
+- B1M2-3838 search in ios ([#1378](https://github.com/coingaming/moon-design/issues/1378)) ([adc62d6](https://github.com/coingaming/moon-design/commit/adc62d6e6cbbd136bb9635520c43fbe55edd454d))
+- console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
 
 ### Features
 
-* add Label component [B1M2-3518] ([#1375](https://github.com/coingaming/moon-design/issues/1375)) ([29797ab](https://github.com/coingaming/moon-design/commit/29797ab3e70e149acc3ab566eb9535b6163a5071))
-
-
-
-
+- add Label component [B1M2-3518] ([#1375](https://github.com/coingaming/moon-design/issues/1375)) ([29797ab](https://github.com/coingaming/moon-design/commit/29797ab3e70e149acc3ab566eb9535b6163a5071))
 
 # [6.14.0](https://github.com/coingaming/moon-design/compare/v6.13.0...v6.14.0) (2021-09-08)
 
-
 ### Bug Fixes
 
-* add list-item page [B1M2-3510] ([#1369](https://github.com/coingaming/moon-design/issues/1369)) ([23bdbcd](https://github.com/coingaming/moon-design/commit/23bdbcdf1ea77d6a2311fd4078fe22ff8703af6a))
-* Fix console warnings in docs B1M2-3721 ([#1371](https://github.com/coingaming/moon-design/issues/1371)) ([20eb4b2](https://github.com/coingaming/moon-design/commit/20eb4b274333d5e8112e59215dff531ed6ece2b2))
-
+- add list-item page [B1M2-3510] ([#1369](https://github.com/coingaming/moon-design/issues/1369)) ([23bdbcd](https://github.com/coingaming/moon-design/commit/23bdbcdf1ea77d6a2311fd4078fe22ff8703af6a))
+- Fix console warnings in docs B1M2-3721 ([#1371](https://github.com/coingaming/moon-design/issues/1371)) ([20eb4b2](https://github.com/coingaming/moon-design/commit/20eb4b274333d5e8112e59215dff531ed6ece2b2))
 
 ### Features
 
-* add additional functionality for dialog [B1M2-3675] ([#1366](https://github.com/coingaming/moon-design/issues/1366)) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
-* add New Tabs in core [B1M2-3511] ([#1372](https://github.com/coingaming/moon-design/issues/1372)) ([505771f](https://github.com/coingaming/moon-design/commit/505771f956375d81d2a65da21e58dca6caa0ad72))
-
-
-
-
+- add additional functionality for dialog [B1M2-3675] ([#1366](https://github.com/coingaming/moon-design/issues/1366)) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
+- add New Tabs in core [B1M2-3511] ([#1372](https://github.com/coingaming/moon-design/issues/1372)) ([505771f](https://github.com/coingaming/moon-design/commit/505771f956375d81d2a65da21e58dca6caa0ad72))
 
 # [6.13.0](https://github.com/coingaming/moon-design/compare/v6.12.2...v6.13.0) (2021-09-02)
 
