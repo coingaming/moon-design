@@ -47,7 +47,7 @@ const Search: React.FC<SearchProps> = ({
   ...props
 }) => {
   const [searchStr, setSearchStr] = useState(query);
-  const [isActive, setIsActive] = useState(isOpen || false);
+  const [isActive, setIsActive] = useState(isOpen);
   const search = useRef<HTMLInputElement>(null);
 
   useEffect(() => setIsActive(isOpen), [isOpen]);
