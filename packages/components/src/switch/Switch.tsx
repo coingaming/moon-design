@@ -21,9 +21,7 @@ type SliderColorScheme = {
 const Slider = styled.span<SliderColorScheme>(
   ({
     colorScheme,
-    theme: {
-      color, colorScheme: themeColorScheme, space, transitionDuration,
-    },
+    theme: { color, colorScheme: themeColorScheme, space, transitionDuration },
   }) => ({
     position: 'absolute',
     width: switchWidth,
@@ -38,7 +36,7 @@ const Slider = styled.span<SliderColorScheme>(
       ? `${inlineSvg(<IconMoon />)}, ${inlineSvg(<IconSun />)}`
       : undefined,
     backgroundPosition: `left ${rem(space.small)} center, right ${rem(
-      space.small,
+      space.small
     )} center`,
     backgroundRepeat: 'no-repeat',
     borderRadius: `calc(${switchWidth} + ${rem(2)})`,
@@ -59,7 +57,7 @@ const Slider = styled.span<SliderColorScheme>(
       transitionProperty: 'background-color, transform',
       willChange: 'transform',
     },
-  }),
+  })
 );
 
 const Label = styled.label(({ theme: { space } }) => ({
@@ -82,7 +80,7 @@ const Input = styled.input<SliderColorScheme>(
         transform: `translateX(calc(${switchWidth} / 2))`,
       },
     },
-  }),
+  })
 );
 
 Input.defaultProps = {
@@ -95,7 +93,7 @@ const SwitchCaption = styled(Caption as any)<{ checked: boolean }>(
     checked && {
       color: checked ? color.trunks[100] : color.bulma[100],
     },
-  ],
+  ]
 );
 
 type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;

@@ -13,8 +13,8 @@ describe('Sidebar', () => {
   test('renders by default', () => {
     const sidebar = create(
       renderWithTheme(
-        <Sidebar collapseIcon={<div />} expandIcon={<div />} logo={<div />} />,
-      ),
+        <Sidebar collapseIcon={<div />} expandIcon={<div />} logo={<div />} />
+      )
     );
 
     expect(sidebar).toMatchSnapshot();
@@ -28,8 +28,8 @@ describe('Sidebar', () => {
           collapseIcon={<div />}
           expandIcon={<div />}
           logo={<div />}
-        />,
-      ),
+        />
+      )
     );
 
     expect(sidebar).toMatchSnapshot();

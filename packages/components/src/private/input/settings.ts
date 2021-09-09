@@ -30,20 +30,22 @@ type InputColors = {
   [key: string]: ColorValue;
 };
 
-const inputColors = (key: keyof InputColors) => ({ color }: Theme) => {
-  const themedColor: InputColors = {
-    label: color.trunks[100],
-    text: color.bulma[100],
-    icon: color.trunks[100],
-    placeholder: color.trunks[100],
-    borderDefault: color.beerus[100],
-    borderHover: color.goku[40],
-    background: color.gohan[100],
-    disabled: color.goku[80],
-  };
+const inputColors =
+  (key: keyof InputColors) =>
+  ({ color }: Theme) => {
+    const themedColor: InputColors = {
+      label: color.trunks[100],
+      text: color.bulma[100],
+      icon: color.trunks[100],
+      placeholder: color.trunks[100],
+      borderDefault: color.beerus[100],
+      borderHover: color.goku[40],
+      background: color.gohan[100],
+      disabled: color.goku[80],
+    };
 
-  return themedColor[key];
-};
+    return themedColor[key];
+  };
 
 const inputBorder = (theme: Theme) =>
   `${inputBorderWidth(theme)}px solid ${inputColors('borderDefault')(theme)}`;

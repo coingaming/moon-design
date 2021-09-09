@@ -7,9 +7,7 @@ export const OuterContainer = styled.div<{
   isOpen: boolean;
   openWidth: number;
   collapseWidth: number;
-}>(({
-  isOpen, openWidth, collapseWidth, theme: { space },
-}) => ({
+}>(({ isOpen, openWidth, collapseWidth, theme: { space } }) => ({
   height: isOpen ? '100vh' : rem(2 * space.large),
   width: rem(isOpen ? openWidth : collapseWidth),
   paddingRight: rem(0.75 * space.default),
@@ -20,9 +18,9 @@ export const OuterContainer = styled.div<{
   ...(isOpen
     ? {}
     : {
-      display: 'flex',
-      flexDirection: 'row-reverse',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }),
+        display: 'flex',
+        flexDirection: 'row-reverse',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }),
 }));

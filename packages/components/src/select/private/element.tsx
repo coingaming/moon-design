@@ -25,12 +25,12 @@ export type SelectElementProps = {
  * Styles
  */
 export const SelectElement = styled(
-  Input.withComponent('select'),
+  Input.withComponent('select')
 )<SelectElementProps>(({ fullWidth, dir, theme }) => [
   {
     color: inputColors('label')(theme),
     backgroundImage: inlineSvg(
-      <IconChevronDown color={inputColors('icon')(theme)} />,
+      <IconChevronDown color={inputColors('icon')(theme)} />
     ),
     paddingRight: rem(selectIconOffset(theme)),
     backgroundSize: rem(selectIconSize),

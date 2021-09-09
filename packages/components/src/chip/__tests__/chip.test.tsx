@@ -38,8 +38,8 @@ describe('Chip', () => {
   test('renders correctly with Left Icon', () => {
     const chip = create(
       renderWithTheme(
-        <Chip iconLeft={<IconProfile />}>Chip with left icon</Chip>,
-      ),
+        <Chip iconLeft={<IconProfile />}>Chip with left icon</Chip>
+      )
     );
 
     expect(chip).toMatchSnapshot();
@@ -48,8 +48,8 @@ describe('Chip', () => {
   test('renders correctly with Right Icon', () => {
     const chip = create(
       renderWithTheme(
-        <Chip iconRight={<IconProfile />}>Chip with right icon</Chip>,
-      ),
+        <Chip iconRight={<IconProfile />}>Chip with right icon</Chip>
+      )
     );
 
     expect(chip).toMatchSnapshot();
@@ -60,8 +60,8 @@ describe('Chip', () => {
       renderWithTheme(
         <Chip iconLeft={<IconProfile />} iconRight={<IconProfile />}>
           Chip with icons on both sides
-        </Chip>,
-      ),
+        </Chip>
+      )
     );
 
     expect(chip).toMatchSnapshot();

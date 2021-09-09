@@ -19,7 +19,9 @@ const CardArcticle: React.FC<Props> = ({ variant, title, section, href }) => (
       <p className="absolute top-12 left-10 transform -rotate-90 origin-bottom-left w-min font-semibold">
         {section}
       </p>
-      <p className="group-hover:underline text-2xl font-semibold tracking-tight w-10/12">{title}</p>
+      <p className="group-hover:underline text-2xl font-semibold tracking-tight w-10/12">
+        {title}
+      </p>
     </a>
   </Link>
 );

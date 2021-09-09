@@ -1,7 +1,11 @@
 import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
-export default function SidebarTransition({ children, isOpen, setIsOpen }: any) {
+export default function SidebarTransition({
+  children,
+  isOpen,
+  setIsOpen,
+}: any) {
   return (
     <Transition.Root show={isOpen} as={Fragment}>
       <Dialog

@@ -22,9 +22,7 @@ export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
 export const Results = styled.ul(
   ({ theme }) => resultsInactive(theme),
   ({
-    theme: {
-      borderWidth, boxShadow, fontWeight, color, radius, space,
-    },
+    theme: { borderWidth, boxShadow, fontWeight, color, radius, space },
   }) => ({
     fontSize: 'inherit',
     fontWeight: fontWeight.normal,
@@ -53,7 +51,7 @@ export const Results = styled.ul(
       borderColor: color.beerus[100],
       zIndex: -1,
     },
-  }),
+  })
 );
 
 /**
@@ -92,7 +90,8 @@ export const resultsContent = ({ space }: Theme): CSSObject => ({
  * Any text inside Results that isn't a link, should be wrapped with this.
  */
 export const ResultsItemText = styled.span(({ theme }) =>
-  resultsContent(theme));
+  resultsContent(theme)
+);
 
 /**
  * ResultsLink

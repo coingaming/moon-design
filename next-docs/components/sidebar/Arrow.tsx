@@ -1,4 +1,4 @@
-import classNames from "../../utils/classNames";
+import classNames from '../../utils/classNames';
 
 const Arrow: React.FC<{ isOpen: boolean }> = ({ isOpen }) => (
   <svg

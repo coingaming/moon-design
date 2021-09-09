@@ -50,8 +50,8 @@ describe('Form', () => {
       renderWithTheme(
         <Form legend="Sign up">
           <TestFormItems />
-        </Form>,
-      ),
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -62,8 +62,8 @@ describe('Form', () => {
       renderWithTheme(
         <Form legend="Sign up" action="#" method="post" autocomplete="on">
           <TestFormItems />
-        </Form>,
-      ),
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -74,8 +74,8 @@ describe('Form', () => {
       renderWithTheme(
         <Form legend="Sign up" maxWidth="30rem">
           <TestFormItems />
-        </Form>,
-      ),
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -86,8 +86,8 @@ describe('Form', () => {
       renderWithTheme(
         <Form legend="Sign up" fullWidth>
           <TestFormItems />
-        </Form>,
-      ),
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -112,8 +112,8 @@ describe('Form', () => {
               </FormComboButton>
             </FormCombo>
           </FormItem>
-        </Form>,
-      ),
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
@@ -135,8 +135,8 @@ describe('Form', () => {
               </FormComboButton>
             </FormCombo>
           </FormItem>
-        </Form>,
-      ),
+        </Form>
+      )
     );
 
     expect(form).toMatchSnapshot();
