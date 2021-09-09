@@ -16,10 +16,10 @@ Use `query` prop to define query string
 
 <Search
   placeholder="Search"
-  onChange={e => {
+  onChange={(e) => {
     console.log(e.target.value);
   }}
-  onSubmit={e => {
+  onSubmit={(e) => {
     console.log('Submitted');
   }}
 />
@@ -31,10 +31,10 @@ Pass results to `results` prop.
 ```jsx react-live
 <Search
   placeholder="Search"
-  onChange={e => {
+  onChange={(e) => {
     console.log(e.target.value);
   }}
-  onSubmit={e => {
+  onSubmit={(e) => {
     console.log('Submitted');
   }}
   results={[
@@ -73,7 +73,7 @@ they won't be rendered.
 ```jsx react-live
 <Search
   placeholder="Search"
-  onChange={e => {
+  onChange={(e) => {
     console.log(e.target.value);
   }}
   loadingMessage={<p>Loading...</p>}

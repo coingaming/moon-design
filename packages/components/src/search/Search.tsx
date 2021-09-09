@@ -26,22 +26,22 @@ const Search: React.FC<SearchProps> = ({
   loadingMessage,
   ...props
 }) => (
-    <SearchForm onSubmit={onSubmit}>
-      <SearchInput
-        value={query}
-        placeholder={placeholder}
-        type="text"
-        autoComplete="off"
-        required
-        onChange={onChange}
-        {...props}
-      />
-      <SearchInputIcon />
-      {(results || loadingMessage) && (
-        <SearchResults loadingMessage={loadingMessage} results={results} />
-      )}
-      <input type="submit" hidden />
-    </SearchForm>
+  <SearchForm onSubmit={onSubmit}>
+    <SearchInput
+      value={query}
+      placeholder={placeholder}
+      type="text"
+      autoComplete="off"
+      required
+      onChange={onChange}
+      {...props}
+    />
+    <SearchInputIcon />
+    {(results || loadingMessage) && (
+      <SearchResults loadingMessage={loadingMessage} results={results} />
+    )}
+    <input type="submit" hidden />
+  </SearchForm>
 );
 
 export default Search;

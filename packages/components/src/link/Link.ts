@@ -33,7 +33,7 @@ const Link = styled.a<LinkProps>(
         color: color.bulma[100],
       },
     },
-  ],
+  ]
 );
 
 export type { LinkProps };

@@ -20,14 +20,12 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps,
-  circleColor?: ColorProps,
-  color?: ColorProps,
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
-const GenericLoyalty =
-  styled(Svg) <
-  IconProps >
-  (({ backgroundColor, circleColor, color, theme }) => [
+const GenericLoyalty = styled(Svg)<IconProps>(
+  ({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
       padding: backgroundColor ? '0.25em' : 0,
@@ -42,5 +40,6 @@ const GenericLoyalty =
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]);
+  ]
+);
 export default GenericLoyalty;

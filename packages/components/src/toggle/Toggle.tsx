@@ -19,7 +19,7 @@ const Toggle = styled.button<ToggleProps>(
       top: rem(space.default),
       right: rem(space.default),
     },
-  ],
+  ]
 );
 
 export type { ToggleProps };

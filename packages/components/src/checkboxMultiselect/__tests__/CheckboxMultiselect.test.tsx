@@ -21,8 +21,8 @@ describe('CheckboxMultiselect', () => {
             { label: 'Game 2', value: 2, id: '2' },
             { label: 'Game 3', value: 3, id: '3' },
           ]}
-        />,
-      ),
+        />
+      )
     );
 
     expect(checkboxMultiselect).toMatchSnapshot();
@@ -39,8 +39,8 @@ describe('CheckboxMultiselect', () => {
             { label: 'Game 2', value: 2, id: '2' },
             { label: 'Game 3', value: 3, id: '3' },
           ]}
-        />,
-      ),
+        />
+      )
     );
 
     expect(checkboxMultiselect).toMatchSnapshot();
@@ -61,8 +61,8 @@ describe('CheckboxMultiselect', () => {
               { label: 'Game 2', value: 2, id: '2' },
               { label: 'Game 3', value: 3, id: '3' },
             ]}
-          />,
-        ),
+          />
+        )
       );
     });
 
@@ -86,18 +86,24 @@ describe('CheckboxMultiselect', () => {
           value={[]}
           options={[
             {
-              label: 'Game 1', value: 1, id: '1', count: 1,
+              label: 'Game 1',
+              value: 1,
+              id: '1',
+              count: 1,
             },
             {
-              label: 'Game 2', value: 2, id: '2', count: 5,
+              label: 'Game 2',
+              value: 2,
+              id: '2',
+              count: 5,
             },
           ]}
-        />,
-      ),
+        />
+      )
     );
 
     const countItems = checkboxMultiselect.root.findAll(
-      (el) => el.props['test-id'] === 'select-count',
+      (el) => el.props['test-id'] === 'select-count'
     );
     expect(countItems).toBeDefined();
   });

@@ -17,8 +17,8 @@ describe('Card', () => {
         <Card template="front" flex>
           <p>Some content</p>
           <p>Some other content</p>
-        </Card>,
-      ),
+        </Card>
+      )
     );
 
     expect(card).toMatchSnapshot();
@@ -30,8 +30,8 @@ describe('Card', () => {
         renderWithTheme(
           <Card template="front">
             <p>Some content</p>
-          </Card>,
-        ),
+          </Card>
+        )
       );
 
       expect(card).toMatchSnapshot();
@@ -42,8 +42,8 @@ describe('Card', () => {
         renderWithTheme(
           <Card template="front" backgroundIcon={<IconCurrencyBtc />}>
             <p>Some content</p>
-          </Card>,
-        ),
+          </Card>
+        )
       );
 
       expect(card).toMatchSnapshot();
@@ -54,8 +54,8 @@ describe('Card', () => {
         renderWithTheme(
           <Card template="outline">
             <p>Some content</p>
-          </Card>,
-        ),
+          </Card>
+        )
       );
 
       expect(card).toMatchSnapshot();

@@ -13,7 +13,7 @@ export const DialogContainer = styled.div(
     color: color.bulma[100],
     background: color.goku[100],
     boxShadow: `0 ${rem(space.default)} ${rem(space.large)} rgba(0, 0, 0, 0.5)`,
-  }),
+  })
 );
 
 /**
