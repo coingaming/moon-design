@@ -10,13 +10,15 @@ const focusOutsideSearchPopup = '.popup:not(:focus-within)';
 export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
   opacity: 0,
   visibility: 'hidden',
-  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s`,
+  maxHeight: 0,
+  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
 });
 
 export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
   opacity: 1,
   visibility: 'visible',
-  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s`,
+  maxHeight: '100vh',
+  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
 });
 
 export const SearchForm = styled.form({
@@ -58,7 +60,10 @@ export const ModalClose = styled(Button)(
 
 export const Results = styled.div(
   ({ theme }) => ({
-    ['.active &']: resultsActive(theme),
+    [mq(theme.breakpoint.medium, 'max-width')]: {
+      ...resultsInactive(theme),
+      ['.active &']: resultsActive(theme),
+    },
     [mq(theme.breakpoint.medium, 'min-width')]: {
       [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
     },

@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useCallback, useRef, useState } from 'react';
+import React, { ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { debounce } from 'lodash';
 
 import Popup from './private/components/Popup';
@@ -15,6 +15,7 @@ import {
 export interface SearchProps {
   closeButton?: JSX.Element;
   hasBorder?: boolean;
+  isOpen: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onClear?: (e: React.MouseEvent<HTMLElement>) => void;
   onKeyDown?: (e: React.KeyboardEvent<HTMLElement>) => void;
@@ -34,6 +35,7 @@ const Search: React.FC<SearchProps> = ({
   onKeyDown,
   onKeyUp,
   onSubmit,
+  isOpen,
   placeholder,
   query = '',
   results,
@@ -41,8 +43,10 @@ const Search: React.FC<SearchProps> = ({
   ...props
 }) => {
   const [searchStr, setSearchStr] = useState(query);
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(isOpen || false);
   const search = useRef<HTMLInputElement>(null);
+
+  useEffect(() => setIsActive(isOpen), [isOpen]);
 
   const debouncedOnChange = useCallback(
     debounce((e: ChangeEvent<HTMLInputElement>) => {
