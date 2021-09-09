@@ -1,10 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import {
-  useViewportScroll,
-  useTransform,
-  motion,
-} from 'framer-motion';
+import { useViewportScroll, useTransform, motion } from 'framer-motion';
 
 import imageMoon from '../../public/moon.png';
 import imageEarth from '../../public/earth.png';

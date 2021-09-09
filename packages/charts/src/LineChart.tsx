@@ -30,7 +30,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
         fontSize: rem(theme.space.small),
       },
     },
-  }),
+  })
 );
 
 type Props = {
@@ -50,7 +50,11 @@ type Props = {
   onUpdate?: () => void;
   onShare?: () => void;
   onExpand?: () => void;
-  onSelectorChange?: (activeOptions: string[], dataKey: string, isActive: boolean) => void
+  onSelectorChange?: (
+    activeOptions: string[],
+    dataKey: string,
+    isActive: boolean
+  ) => void;
   isUpdating?: boolean;
   hasUpdates?: boolean;
   filter?: React.ReactNode;
@@ -90,12 +94,12 @@ const LineChart: React.FC<Props> = ({
   const handleSelectorChange = (dataKey: string, isActive: boolean) => {
     const newActiveOptions = isActive
       ? [...activeOptions, dataKey]
-      : activeOptions.filter((option) => option !== dataKey)
+      : activeOptions.filter((option) => option !== dataKey);
 
     setActiveOptions(newActiveOptions);
 
     if (onSelectorChange) {
-      onSelectorChange(newActiveOptions, dataKey, isActive)
+      onSelectorChange(newActiveOptions, dataKey, isActive);
     }
   };
 
@@ -162,7 +166,7 @@ const LineChart: React.FC<Props> = ({
 
                 {activeOptions.map((option) => {
                   const activeOption = options.find(
-                    ({ dataKey }) => dataKey === option,
+                    ({ dataKey }) => dataKey === option
                   );
                   if (!activeOption) return null;
                   return (

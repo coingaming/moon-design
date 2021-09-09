@@ -12,7 +12,7 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('Nav', () => {
   test('renders correctly', () => {
     const tabLink = create(
-      renderWithTheme(<Tabs id="test-tabs" items={[0, 1, 2, 3, 4]} />),
+      renderWithTheme(<Tabs id="test-tabs" items={[0, 1, 2, 3, 4]} />)
     );
 
     expect(tabLink).toMatchSnapshot();

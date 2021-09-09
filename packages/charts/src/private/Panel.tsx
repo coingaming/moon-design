@@ -53,7 +53,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
         background: theme.color.piccolo[100],
       },
     }),
-  }),
+  })
 );
 
 const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
@@ -106,32 +106,28 @@ export const Panel: React.FC<Props> = ({
   isUpdating,
   isActive = false,
 }) => (
-    <Container isActive={isActive} style={{ height }}>
-      <Header>
-        {onUpdate && (
-          <Button
-            hasUpdates={hasUpdates && !isUpdating}
-            onClick={() => onUpdate()}
-          >
-            {isUpdating ? (
-              <Loader color="piccolo.100" />
-            ) : (
-              <IconRefreshStyled />
-            )}
-          </Button>
-        )}
-        <div />
-        {onShare && (
-          <Button onClick={() => onShare()}>
-            <IconDownload />
-          </Button>
-        )}
-        {onExpand && (
-          <Button onClick={() => onExpand()}>
-            <IconExpand />
-          </Button>
-        )}
-      </Header>
-      {children}
-    </Container>
+  <Container isActive={isActive} style={{ height }}>
+    <Header>
+      {onUpdate && (
+        <Button
+          hasUpdates={hasUpdates && !isUpdating}
+          onClick={() => onUpdate()}
+        >
+          {isUpdating ? <Loader color="piccolo.100" /> : <IconRefreshStyled />}
+        </Button>
+      )}
+      <div />
+      {onShare && (
+        <Button onClick={() => onShare()}>
+          <IconDownload />
+        </Button>
+      )}
+      {onExpand && (
+        <Button onClick={() => onExpand()}>
+          <IconExpand />
+        </Button>
+      )}
+    </Header>
+    {children}
+  </Container>
 );

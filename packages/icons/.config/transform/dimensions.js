@@ -29,7 +29,7 @@ module.exports = ({ types: t }) => ({
     JSXOpeningElement: {
       enter(path) {
         if (
-          !['svg', 'Svg'].some(element =>
+          !['svg', 'Svg'].some((element) =>
             path.get('name').isJSXIdentifier({ name: element })
           )
         )
@@ -42,12 +42,14 @@ module.exports = ({ types: t }) => ({
          * Check if a JSX attribute matches the required attributes above, and
          * return `true` if tests.
          */
-        const isRequiredAttr = attributePath => {
+        const isRequiredAttr = (attributePath) => {
           if (!attributePath.isJSXAttribute()) {
             return false;
           }
 
-          return requiredAttrs.find(attr => attr === attributePath.node.name.name);
+          return requiredAttrs.find(
+            (attr) => attr === attributePath.node.name.name
+          );
         };
 
         /**
@@ -57,10 +59,10 @@ module.exports = ({ types: t }) => ({
         const attrInitialValues = Object.assign(
           {},
           ...path.get('attributes').map(
-            attributePath =>
+            (attributePath) =>
               isRequiredAttr(attributePath) && {
-                [attributePath.node.name.name]: attributePath.get('value').node
-                  .expression.value,
+                [attributePath.node.name.name]:
+                  attributePath.get('value').node.expression.value,
               }
           )
         );
@@ -83,7 +85,7 @@ module.exports = ({ types: t }) => ({
         /**
          * Replace the initial values with the new values.
          */
-        path.get('attributes').forEach(attributePath => {
+        path.get('attributes').forEach((attributePath) => {
           if (!isRequiredAttr(attributePath)) return;
           const name = attributePath.node.name.name;
           const index = requiredAttrs.indexOf(name);

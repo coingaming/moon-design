@@ -23,8 +23,8 @@ describe('Inline', () => {
       renderWithTheme(
         <Inline>
           <TestItems />
-        </Inline>,
-      ),
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();
@@ -35,8 +35,8 @@ describe('Inline', () => {
       renderWithTheme(
         <Inline space={30}>
           <TestItems />
-        </Inline>,
-      ),
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();
@@ -47,8 +47,8 @@ describe('Inline', () => {
       renderWithTheme(
         <Inline fontSize={16}>
           <TestItems />
-        </Inline>,
-      ),
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();
@@ -67,8 +67,8 @@ describe('Inline', () => {
           <li>
             <button type="button">Button 3</button>
           </li>
-        </Inline>,
-      ),
+        </Inline>
+      )
     );
 
     expect(inline).toMatchSnapshot();

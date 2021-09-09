@@ -425,7 +425,7 @@ export default function PageLineChart() {
       <section className="mt-8">
         <h2 className="text-2xl">Types</h2>
         <section className="mt-4">
-         <CodeSnippet>
+          <CodeSnippet>
             {`Data {
   label: string
   value: number

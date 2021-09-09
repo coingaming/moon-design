@@ -1,7 +1,7 @@
 export type RowSpanHeader = {
-  id: string
-  value?: any
-}
+  id: string;
+  value?: any;
+};
 
 const useInstance = (instance: any) => {
   const { allColumns } = instance;
@@ -12,18 +12,15 @@ const useInstance = (instance: any) => {
     const { id, withRowSpan } = column;
 
     if (withRowSpan !== undefined) {
-      rowSpanHeaders = [
-        ...rowSpanHeaders,
-        { id, value: null }
-      ];
+      rowSpanHeaders = [...rowSpanHeaders, { id, value: null }];
     }
   });
 
   Object.assign(instance, { rowSpanHeaders });
-}
+};
 
 const useRowSpan = (hooks: any) => {
-  hooks.useInstance.push(useInstance)
-}
+  hooks.useInstance.push(useInstance);
+};
 
-export default useRowSpan
+export default useRowSpan;

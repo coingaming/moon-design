@@ -26,8 +26,8 @@ describe('ChangePageSize', () => {
           options={pageSizeOptions}
         >
           Rows: 20
-        </ChangePageSize>,
-      ),
+        </ChangePageSize>
+      )
     );
 
     expect(changePageSize).toMatchSnapshot();
@@ -46,8 +46,8 @@ describe('ChangePageSize', () => {
             options={pageSizeOptions}
           >
             Rows: 20
-          </ChangePageSize>,
-        ),
+          </ChangePageSize>
+        )
       );
     });
 

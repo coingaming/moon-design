@@ -14,5 +14,5 @@ export const WeekGrid = styled.div<{
     isWeekendMinimized,
   })};
   grid-template-rows: auto 1fr;
-`,
+`
 );

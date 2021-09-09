@@ -43,7 +43,7 @@ const FileInputElement = styled(Input.withComponent('label'))(
       color: inputColors('label')(theme),
       cursor: 'pointer',
       backgroundImage: inlineSvg(
-        <IconUpload color={inputColors('label')(theme)} />,
+        <IconUpload color={inputColors('label')(theme)} />
       ),
       '&:focus-within': {
         borderColor: inputColors('label')(theme),
@@ -52,7 +52,7 @@ const FileInputElement = styled(Input.withComponent('label'))(
     error && {
       borderColor: theme.color.chiChi[100],
     },
-  ],
+  ]
 );
 
 /**

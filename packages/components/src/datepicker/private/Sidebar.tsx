@@ -54,18 +54,18 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   },
   '&:before': isSelected
     ? {
-      content: "''",
-      display: 'block',
-      position: 'absolute',
-      zIndex: 1,
-      left: 0,
-      top: 0,
-      bottom: 0,
-      width: rem(4),
-      height: '100%',
-      backgroundColor: theme.color.bulma[100],
-      borderRadius: rem(4),
-    }
+        content: "''",
+        display: 'block',
+        position: 'absolute',
+        zIndex: 1,
+        left: 0,
+        top: 0,
+        bottom: 0,
+        width: rem(4),
+        height: '100%',
+        backgroundColor: theme.color.bulma[100],
+        borderRadius: rem(4),
+      }
     : '',
 }));
 

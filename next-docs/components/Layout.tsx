@@ -14,7 +14,7 @@ const brandMap: any = {
   bitcasino: 'bitcasino',
   betadda: 'betadda',
   // hub88: 'hub88', <-- previously was used for the old design
-}
+};
 
 const singleThemedBrands: any[] = [];
 
@@ -22,7 +22,9 @@ const getClassName = ({ brand, colorMode }: any) => {
   const brandName = brandMap[brand];
   const singleThemed = singleThemedBrands.includes(brandName);
   if (brandName) {
-    return singleThemed ? `theme-${brandName}` : `theme-${brandName}-${colorMode}`;
+    return singleThemed
+      ? `theme-${brandName}`
+      : `theme-${brandName}-${colorMode}`;
   }
   return 'theme-moon-dark';
 };

@@ -21,14 +21,12 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps,
-  circleColor?: ColorProps,
-  color?: ColorProps,
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
-const OtherFrame =
-  styled(Svg) <
-  IconProps >
-  (({ backgroundColor, circleColor, color, theme }) => [
+const OtherFrame = styled(Svg)<IconProps>(
+  ({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
       padding: backgroundColor ? '0.25em' : 0,
@@ -43,5 +41,6 @@ const OtherFrame =
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]);
+  ]
+);
 export default OtherFrame;

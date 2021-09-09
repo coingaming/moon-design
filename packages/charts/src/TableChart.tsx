@@ -4,9 +4,7 @@ import { Transition } from 'react-transition-group';
 
 import { Panel } from './private/Panel';
 import { Header } from './private/Header';
-import {
-  Count, Table, Cell, TableItem, Value,
-} from './private/Table';
+import { Count, Table, Cell, TableItem, Value } from './private/Table';
 import ChartIcons from './ChartIcons';
 import { Loader } from './private/Loader';
 
@@ -88,7 +86,13 @@ const TableChart: React.FC<Props> = ({
             <Table>
               {data.map((item, index) => (
                 // eslint-disable-next-line
-                <Transition nodeRef={firstCellRef} key={index} in={true} appear timeout={100 * index}>
+                <Transition
+                  nodeRef={firstCellRef}
+                  key={index}
+                  in={true}
+                  appear
+                  timeout={100 * index}
+                >
                   {(state) => (
                     <>
                       <Cell

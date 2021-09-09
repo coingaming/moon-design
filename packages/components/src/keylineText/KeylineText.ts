@@ -23,7 +23,7 @@ const KeylineText = styled(Caption)<any>(
     '&::after': {
       marginLeft: rem(space.small),
     },
-  }),
+  })
 );
 
 export default KeylineText;

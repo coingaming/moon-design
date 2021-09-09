@@ -27,7 +27,7 @@ export type JustifyContent =
  */
 const inlineMixin = (
   space: any,
-  justifyContent?: JustifyContent,
+  justifyContent?: JustifyContent
 ): CSSObject => ({
   display: 'flex',
   flexWrap: 'wrap',

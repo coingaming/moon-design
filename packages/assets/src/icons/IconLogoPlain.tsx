@@ -28,14 +28,12 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps,
-  circleColor?: ColorProps,
-  color?: ColorProps,
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
-const IconLogoPlain =
-  styled(Svg) <
-  IconProps >
-  (({ backgroundColor, circleColor, color, theme }) => [
+const IconLogoPlain = styled(Svg)<IconProps>(
+  ({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
       padding: backgroundColor ? '0.25em' : 0,
@@ -50,5 +48,6 @@ const IconLogoPlain =
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]);
+  ]
+);
 export default IconLogoPlain;

@@ -40,7 +40,7 @@ export default function PageChip() {
             <div className="flex justify-around items-center w-full">
               <Chip size="small">Small</Chip>
               <Chip size="medium">Medium</Chip>
-              <Chip>Default</Chip>              
+              <Chip>Default</Chip>
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
@@ -60,7 +60,6 @@ export default function PageChip() {
             <div className="flex justify-around items-center w-full">
               <Chip isActive={true}>Active</Chip>
               <Chip isActive={false}>Inactive</Chip>
-                           
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
@@ -77,8 +76,8 @@ export default function PageChip() {
           title="Icons"
           preview={
             <div className="flex justify-around items-center w-full">
-              <Chip iconLeft={(<MediaMusic />)}>Left Icon</Chip>
-              <Chip iconRight={(<SoftwareDownload />)}>Right Icon</Chip>                 
+              <Chip iconLeft={<MediaMusic />}>Left Icon</Chip>
+              <Chip iconRight={<SoftwareDownload />}>Right Icon</Chip>
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
