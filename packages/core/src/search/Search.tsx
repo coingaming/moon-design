@@ -16,8 +16,10 @@ export interface SearchProps {
   closeButton?: JSX.Element;
   hasBorder?: boolean;
   isOpen?: boolean;
+  onBlur?: (e: React.FocusEvent<HTMLInputElement>) => void;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onClear?: (e: React.MouseEvent<HTMLElement>) => void;
+  onFocus?: (e: React.FocusEvent<HTMLInputElement>) => void;
   onKeyDown?: (e: React.KeyboardEvent<HTMLElement>) => void;
   onKeyUp?: (e: React.KeyboardEvent<HTMLElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
@@ -30,12 +32,14 @@ export interface SearchProps {
 const Search: React.FC<SearchProps> = ({
   closeButton,
   hasBorder = true,
+  isOpen = false,
+  onBlur,
   onChange,
   onClear,
+  onFocus,
   onKeyDown,
   onKeyUp,
   onSubmit,
-  isOpen = false,
   placeholder,
   query = '',
   results,
@@ -67,6 +71,13 @@ const Search: React.FC<SearchProps> = ({
     onClear && onClear(e);
   };
 
+  const handleFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+    openPopup();
+    onFocus && onFocus(e);
+  }
+
+  const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => onBlur && onBlur(e);
+
   const openPopup = () => setIsActive(true);
 
   const closePopup = () => setIsActive(false);
@@ -83,8 +94,9 @@ const Search: React.FC<SearchProps> = ({
               $size={size}
               autoComplete="off"
               hasBorder={hasBorder}
+              onBlur={handleBlur}
               onChange={searchChange}
-              onFocus={openPopup}
+              onFocus={handleFocus}
               onKeyDown={onKeyDown}
               onKeyUp={onKeyUp}
               placeholder={placeholder}
