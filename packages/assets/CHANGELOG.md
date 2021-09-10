@@ -5,14 +5,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
 
-
 ### Bug Fixes
 
-* icons rebuild ([f89eb35](https://github.com/coingaming/moon-design/commit/f89eb3567ed94fad3380fa306731eb4ab6f1713d))
-
-
-
-
+- icons rebuild ([f89eb35](https://github.com/coingaming/moon-design/commit/f89eb3567ed94fad3380fa306731eb4ab6f1713d))
 
 # [6.15.0](https://github.com/coingaming/moon-design/compare/v6.14.0...v6.15.0) (2021-09-09)
 
