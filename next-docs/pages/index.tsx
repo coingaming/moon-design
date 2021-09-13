@@ -21,7 +21,7 @@ const Header = () => (
       Moon design system.
     </h1>
     <p className="text-2xl max-w-2xl mt-4 tracking-tight">
-      Moon is Coingaming's product design system that helps us maintain the
+      Moon is Yolo Group product design system that helps us maintain the
       integrity of their user experience and optimize design and development
       resources.
     </p>
