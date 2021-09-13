@@ -9,7 +9,7 @@
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
-  "author": "Coingaming Group",
+  "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
     "build": "echo 'Handled by root package'"
