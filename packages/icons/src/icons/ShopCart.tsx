@@ -21,12 +21,14 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps;
-  circleColor?: ColorProps;
-  color?: ColorProps;
+  backgroundColor?: ColorProps,
+  circleColor?: ColorProps,
+  color?: ColorProps,
 };
-const ShopCart = styled(Svg)<IconProps>(
-  ({ backgroundColor, circleColor, color, theme }) => [
+const ShopCart =
+  styled(Svg) <
+  IconProps >
+  (({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
       padding: backgroundColor ? '0.25em' : 0,
@@ -41,6 +43,5 @@ const ShopCart = styled(Svg)<IconProps>(
         fill: themed('color', circleColor)(theme),
       },
     },
-  ]
-);
+  ]);
 export default ShopCart;
