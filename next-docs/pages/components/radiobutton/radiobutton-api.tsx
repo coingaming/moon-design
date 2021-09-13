@@ -71,7 +71,8 @@ export default function RadioButtonPage() {
         <Preview
           title="List Item with Radio button"
           preview={<Example />}
-          code={`import { RadioButton } from '@heathmont/moon-core';
+          code={`import { RadioButtonLabel, RadioButtonInput, ListItem  } from '@heathmont/moon-core';
+          
 <RadioButtonLabel id="age1">
   <ListItem backgroundColor="goku.100" elementRight={<RadioButtonInput name="age" ariaLabel="0 - 30" id="age1" />}>
     0 - 30
