@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
+
+
+### Features
+
+* .prettierignore for icons and assets ([#1396](https://github.com/coingaming/moon-design/issues/1396)) ([55cb3e4](https://github.com/coingaming/moon-design/commit/55cb3e414497276e978460c168c9ae9a199bcb5f))
+* rename coingaming to yolo ([#1395](https://github.com/coingaming/moon-design/issues/1395)) ([b180ea3](https://github.com/coingaming/moon-design/commit/b180ea33125a56b0c22e4b6094bc82e86c774571))
+
+
+
+
+
 # [6.17.0](https://github.com/coingaming/moon-design/compare/v6.16.3...v6.17.0) (2021-09-10)
 
 
