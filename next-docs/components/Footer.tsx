@@ -13,7 +13,7 @@ const Footer = () => (
       Github
     </a>
     {/* <a className="hover:underline cursor-pointer">Medium</a> */}
-    <p className="">With the help of Coingaming</p>
+    <p className="">With the help of Yolo Group</p>
   </footer>
 );
 
