@@ -14,7 +14,9 @@ An alternate checkbox appearance for simulating on/off state.
 () => {
   const [state, setState] = React.useState(true);
 
-  return <Switch checked={state} onChange={e => setState(e.target.checked)} />;
+  return (
+    <Switch checked={state} onChange={(e) => setState(e.target.checked)} />
+  );
 };
 ```
 
@@ -28,7 +30,7 @@ An additional variant of the `Switch` can be used to toggle the app's
   return (
     <Switch
       checked={state}
-      onChange={e => setState(e.target.checked)}
+      onChange={(e) => setState(e.target.checked)}
       colorScheme
     />
   );
@@ -47,7 +49,7 @@ positions of the switch.
   return (
     <Switch
       checked={state}
-      onChange={e => setState(e.target.checked)}
+      onChange={(e) => setState(e.target.checked)}
       captionUnchecked="OFF"
       captionChecked="ON"
     />
@@ -62,7 +64,7 @@ positions of the switch.
   return (
     <Switch
       checked={state}
-      onChange={e => setState(e.target.checked)}
+      onChange={(e) => setState(e.target.checked)}
       colorScheme
       captionUnchecked="AM"
       captionChecked="PM"
@@ -80,6 +82,8 @@ with React Hooks:
 () => {
   const [state, setState] = React.useState(true);
 
-  return <Switch checked={state} onChange={e => setState(e.target.checked)} />;
+  return (
+    <Switch checked={state} onChange={(e) => setState(e.target.checked)} />
+  );
 };
 ```

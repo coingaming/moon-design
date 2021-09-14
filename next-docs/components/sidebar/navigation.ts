@@ -1,7 +1,7 @@
 const navigation = [
   // { name: 'Home', href: '/' },
   { name: 'Getting Started', href: '/getting-started' },
-  { name: 'How to contribute', href: '/how-to-contribute'},
+  { name: 'How to contribute', href: '/how-to-contribute' },
   { name: 'Colours Palette', href: '/colours' },
   { name: 'Typography', href: '/typography' },
   { name: 'Tokens', href: '/tokens' },
@@ -25,6 +25,7 @@ const navigation = [
         ],
       },
       { name: 'Checkbox', href: '/components/checkbox' },
+      { name: 'Chip', href: '/components/chip' },
       { name: 'Datepicker', href: '/components/datepicker' },
       {
         name: 'Dialog',
@@ -35,6 +36,7 @@ const navigation = [
         ],
       },
       // Dropdown
+      { name: 'Label', href: '/components/label' },
       { name: 'Loader', href: '/components/loader' },
       { name: 'Pagination', href: '/components/pagination' }, // TODO
       {
@@ -42,6 +44,16 @@ const navigation = [
         children: [
           { name: 'Circular', href: '/components/progress/circular' },
           { name: 'Linear', href: '/components/progress/linear' },
+        ],
+      },
+      {
+        name: 'RadioButton',
+        children: [
+          { name: 'RadioButton', href: '/components/radiobutton/radiobutton' }, // TODO code
+          {
+            name: 'RadioButton API',
+            href: '/components/radiobutton/radiobutton-api',
+          }, // TODO code
         ],
       },
       { name: 'Search', href: '/components/search' },

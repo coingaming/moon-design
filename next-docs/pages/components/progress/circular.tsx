@@ -37,9 +37,7 @@ export default function PageProgressLinear() {
       <section className="mt-8">
         <Preview
           title="Examples"
-          preview={
-              <ExampleProgressLinear />
-          }
+          preview={<ExampleProgressLinear />}
           code={`import { ProgressCircular } from '@heathmont/moon-components';
 
 <ProgressCircular value={30} fontSize="5rem" strokeWidth={12} />

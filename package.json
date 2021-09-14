@@ -19,10 +19,6 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "prettier": {
-    "trailingComma": "es5",
-    "singleQuote": true
-  },
   "eslintConfig": {
     "root": true,
     "extends": [

@@ -24,8 +24,8 @@ describe('Select', () => {
       renderWithTheme(
         <Select>
           <TestOptions />
-        </Select>,
-      ),
+        </Select>
+      )
     );
 
     expect(select).toMatchSnapshot();
@@ -37,8 +37,8 @@ describe('Select', () => {
         renderWithTheme(
           <Select label="Example label">
             <TestOptions />
-          </Select>,
-        ),
+          </Select>
+        )
       );
 
       expect(select).toMatchSnapshot();
@@ -50,8 +50,8 @@ describe('Select', () => {
           renderWithTheme(
             <Select label="Example label" flex>
               <TestOptions />
-            </Select>,
-          ),
+            </Select>
+          )
         );
 
         expect(select).toMatchSnapshot();
@@ -62,8 +62,8 @@ describe('Select', () => {
           renderWithTheme(
             <Select label="Example label" flex inputGrow={2}>
               <TestOptions />
-            </Select>,
-          ),
+            </Select>
+          )
         );
 
         expect(select).toMatchSnapshot();
@@ -77,8 +77,8 @@ describe('Select', () => {
         renderWithTheme(
           <Select disabled>
             <TestOptions />
-          </Select>,
-        ),
+          </Select>
+        )
       );
 
       expect(select).toMatchSnapshot();
@@ -91,8 +91,8 @@ describe('Select', () => {
         renderWithTheme(
           <Select fullWidth>
             <TestOptions />
-          </Select>,
-        ),
+          </Select>
+        )
       );
 
       expect(select).toMatchSnapshot();

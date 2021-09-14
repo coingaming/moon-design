@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-utils",
   "sideEffects": false,
-  "version": "6.8.0",
+  "version": "6.18.0",
   "files": [
     "lib"
   ],
@@ -9,7 +9,7 @@
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
-  "author": "Coingaming Group",
+  "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",
@@ -19,7 +19,7 @@
     "build:types": "tsc --project tsconfig.json --declarationMap"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^6.8.0",
+    "@heathmont/moon-themes": "^6.18.0",
     "lodash.get": "4.4.2",
     "lodash.has": "4.5.2",
     "polished": "3.4.1"

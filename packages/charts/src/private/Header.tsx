@@ -42,9 +42,9 @@ export const Header: React.FC<Props> = ({
   title,
   isActive = false,
 }) => (
-    <Container isActive={isActive}>
-      <IconWrapper>{icon}</IconWrapper>
-      <Title size={20}>{title}</Title>
-      <FilterWrapper>{filter}</FilterWrapper>
-    </Container>
+  <Container isActive={isActive}>
+    <IconWrapper>{icon}</IconWrapper>
+    <Title size={20}>{title}</Title>
+    <FilterWrapper>{filter}</FilterWrapper>
+  </Container>
 );

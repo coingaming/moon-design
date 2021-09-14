@@ -72,7 +72,7 @@ const CheckboxMultiselect: React.FC<CheckboxMultiselectProps> = ({
             <Checkbox
               id={option.id}
               checked={value.some(
-                (currentValue) => currentValue === option.value,
+                (currentValue) => currentValue === option.value
               )}
               onChange={() => onCheckboxChange(option.value)}
               disabled={option.count === undefined ? false : !option.count}

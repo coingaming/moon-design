@@ -2,11 +2,7 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
 export const CollapseTarget = styled.div<{ isOpen: boolean }>(
-  ({
-    isOpen, theme: {
-      space, color, transitionDuration, boxShadow,
-    },
-  }) => ({
+  ({ isOpen, theme: { space, color, transitionDuration, boxShadow } }) => ({
     fontSize: rem(space.small),
     padding: rem(space.small),
     background: color.gohan[100],
@@ -26,13 +22,13 @@ export const CollapseTarget = styled.div<{ isOpen: boolean }>(
     },
     ...(isOpen
       ? {
-        position: 'absolute',
-        top: rem(space.large),
-        transform: 'translateY(-50%)',
-        right: 0,
-      }
+          position: 'absolute',
+          top: rem(space.large),
+          transform: 'translateY(-50%)',
+          right: 0,
+        }
       : {
-        marginLeft: rem(space.small),
-      }),
-  }),
+          marginLeft: rem(space.small),
+        }),
+  })
 );

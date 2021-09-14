@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/moon-themes",
-  "version": "6.8.0",
+  "version": "6.18.0",
   "sideEffects": false,
   "files": [
     "lib"
@@ -9,7 +9,7 @@
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
-  "author": "Coingaming Group",
+  "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",

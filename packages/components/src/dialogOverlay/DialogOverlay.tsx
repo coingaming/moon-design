@@ -16,7 +16,7 @@ const DialogOverlay: any = styled<any>(ReachDialogOverlay)(
     overflow: 'auto',
     backgroundColor: color.gohan[100] && rgba(color.gohan[100], 0.75),
     zIndex: zIndex.dialog,
-  }),
+  })
 );
 
 export default DialogOverlay;

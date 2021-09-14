@@ -1,4 +1,4 @@
-import classNames from "../../utils/classNames";
+import classNames from '../../utils/classNames';
 
 const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   children,

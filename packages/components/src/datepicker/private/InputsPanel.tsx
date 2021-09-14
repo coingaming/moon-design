@@ -60,10 +60,10 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
     ? "yyyy-MM-dd'T'HH:mm"
     : 'yyyy-MM-dd';
   const [inputStartDate, setInputStartDate] = React.useState(
-    startDate ? format(startDate, dateFormat) : '',
+    startDate ? format(startDate, dateFormat) : ''
   );
   const [inputEndDate, setInputEndDate] = React.useState(
-    endDate ? format(endDate, dateFormat) : '',
+    endDate ? format(endDate, dateFormat) : ''
   );
   const [hasStartDateError, setStartDateError] = React.useState('');
   const [hasEndDateError, setEndDateError] = React.useState(false);

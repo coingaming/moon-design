@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Header = styled.div({
   position: 'sticky',
@@ -6,4 +6,4 @@ const Header = styled.div({
   top: 0,
 });
 
-export default Header
+export default Header;

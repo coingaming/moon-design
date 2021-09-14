@@ -36,9 +36,7 @@ type LabelProps = LabelSizing & {
  * Styles
  */
 const LabelContent = styled.span<LabelContentProps>(
-  ({
-    disabled, flex, dir, theme,
-  }) => [
+  ({ disabled, flex, dir, theme }) => [
     {
       display: 'block',
       marginBottom: rem(theme.space.small),
@@ -58,7 +56,7 @@ const LabelContent = styled.span<LabelContentProps>(
     dir === 'rtl' && {
       textAlign: 'right',
     },
-  ],
+  ]
 );
 
 const LabelFlex = styled.label<LabelSizing>(
@@ -73,7 +71,7 @@ const LabelFlex = styled.label<LabelSizing>(
           },
         }),
       },
-    },
+    }
 );
 
 /**
@@ -89,7 +87,7 @@ const Label: React.FC<LabelProps> = ({
   dir,
   ...props
 }) =>
-  (inline ? (
+  inline ? (
     <label dir={dir} {...props}>
       {text}
     </label>
@@ -100,8 +98,6 @@ const Label: React.FC<LabelProps> = ({
       </LabelContent>
       {React.Children.only(children)}
     </LabelFlex>
-  ))
-;
-
+  );
 export type { LabelText, LabelProps, LabelSizing };
 export { Label };

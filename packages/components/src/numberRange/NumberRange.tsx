@@ -26,11 +26,7 @@ type Props = {
 };
 
 const Container = styled.div(
-  ({
-    theme: {
-      color, space, radius, boxShadow,
-    },
-  }) => ({
+  ({ theme: { color, space, radius, boxShadow } }) => ({
     background: color.gohan[100],
     padding: rem(space.default),
     borderRadius: rem(radius.default),
@@ -38,7 +34,7 @@ const Container = styled.div(
     '& > :first-child': {
       marginBottom: rem(12),
     },
-  }),
+  })
 );
 
 const NumberRange: React.FC<Props> = ({
@@ -53,39 +49,39 @@ const NumberRange: React.FC<Props> = ({
   onChange,
   maxWidth = 248,
 }) => (
-    <Container style={{ maxWidth }}>
-      <Text color="trunks.100" size={12}>
-        {text}
-      </Text>
-      <Stack>
-        <TextInput
-          type="number"
-          label={gteLabel}
-          value={String(value.gte)}
-          disabled={gteDisabled}
-          onChange={(e) =>
-            onChange({
-              gte: Number(e.target.value),
-              lte: value.lte,
-            })
-          }
-          error={gteError}
-        />
-        <TextInput
-          type="number"
-          label={lteLabel}
-          value={String(value.lte)}
-          disabled={lteDisabled}
-          onChange={(e) =>
-            onChange({
-              lte: Number(e.target.value),
-              gte: value.gte,
-            })
-          }
-          error={lteError}
-        />
-      </Stack>
-    </Container>
+  <Container style={{ maxWidth }}>
+    <Text color="trunks.100" size={12}>
+      {text}
+    </Text>
+    <Stack>
+      <TextInput
+        type="number"
+        label={gteLabel}
+        value={String(value.gte)}
+        disabled={gteDisabled}
+        onChange={(e) =>
+          onChange({
+            gte: Number(e.target.value),
+            lte: value.lte,
+          })
+        }
+        error={gteError}
+      />
+      <TextInput
+        type="number"
+        label={lteLabel}
+        value={String(value.lte)}
+        disabled={lteDisabled}
+        onChange={(e) =>
+          onChange({
+            lte: Number(e.target.value),
+            gte: value.gte,
+          })
+        }
+        error={lteError}
+      />
+    </Stack>
+  </Container>
 );
 
 export default NumberRange;

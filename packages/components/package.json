@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-components",
   "sideEffects": false,
-  "version": "6.10.2",
+  "version": "6.18.0",
   "files": [
     "lib"
   ],
@@ -9,7 +9,7 @@
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
-  "author": "Coingaming Group",
+  "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",
@@ -19,9 +19,9 @@
     "build:types": "tsc --project tsconfig.json --declarationMap"
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^6.10.2",
-    "@heathmont/moon-themes": "^6.8.0",
-    "@heathmont/moon-utils": "^6.8.0",
+    "@heathmont/moon-assets": "^6.18.0",
+    "@heathmont/moon-themes": "^6.18.0",
+    "@heathmont/moon-utils": "^6.18.0",
     "@reach/dialog": "0.11.2",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.15.0",

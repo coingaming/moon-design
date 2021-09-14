@@ -2,5 +2,5 @@
   "delete": true,
   "singleQuotes": true,
   "exportDefault": true,
-  "exclude": ["private", "__test__", "__tests__", "^.*\\.d.ts$"]
+  "exclude": ["private", "__test__", "__tests__", "^.*\\.d.ts$", "styles"]
 }

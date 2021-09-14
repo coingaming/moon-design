@@ -1,8 +1,25 @@
-import styled from 'styled-components';
-import { mq, rem } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 import { Button } from '@heathmont/moon-components';
+import { Theme } from '@heathmont/moon-themes';
+import { mq, rem } from '@heathmont/moon-utils';
 
 import { zIndex } from './settings';
+
+const focusOutsideSearchPopup = '.popup:not(:focus-within)';
+
+export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
+  opacity: 0,
+  visibility: 'hidden',
+  maxHeight: 0,
+  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+});
+
+export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
+  opacity: 1,
+  visibility: 'visible',
+  maxHeight: '100vh',
+  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+});
 
 export const SearchForm = styled.form({
   display: 'flex',
@@ -21,7 +38,7 @@ export const FlexWrapper = styled.div(({ theme: { space } }) => ({
 export const ModalClose = styled(Button)(
   ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
     position: 'relative',
-    display: 'flex',
+    display: 'none',
     flex: 0,
     border: 0,
     lineHeight: 1,
@@ -33,13 +50,24 @@ export const ModalClose = styled(Button)(
     ['&:hover:not([disabled])']: {
       color: color.piccolo[100],
     },
-    [mq(breakpoint.medium, 'min-width')]: {
-      display: 'none',
+    [mq(breakpoint.medium, 'max-width')]: {
+      '.active &': {
+        display: 'flex',
+      },
     },
   })
 );
 
 export const Results = styled.div(
+  ({ theme }) => ({
+    [mq(theme.breakpoint.medium, 'max-width')]: {
+      ...resultsInactive(theme),
+      ['.active &']: resultsActive(theme),
+    },
+    [mq(theme.breakpoint.medium, 'min-width')]: {
+      [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
+    },
+  }),
   ({
     theme: { borderWidth, boxShadow, breakpoint, color, radius, space },
   }) => ({
@@ -49,8 +77,11 @@ export const Results = styled.div(
     color: color.trunks[100],
     width: '100%',
     zIndex: zIndex.searchResults,
+    '[dir=rtl] &': {
+      left: 'auto',
+      right: 0,
+    },
     [mq(breakpoint.medium, 'min-width')]: {
-      width: 'auto',
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',

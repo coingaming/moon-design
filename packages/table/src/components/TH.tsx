@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import { ColorNames } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 
@@ -47,7 +47,7 @@ const TH = styled.div<{
         },
       },
     },
-  }),
+  })
 );
 
-export default TH
+export default TH;

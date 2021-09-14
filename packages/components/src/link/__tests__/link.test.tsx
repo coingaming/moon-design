@@ -12,7 +12,7 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('Link', () => {
   test('renders as a link by default', () => {
     const link = create(
-      renderWithTheme(<Link href="#test">I look like a link</Link>),
+      renderWithTheme(<Link href="#test">I look like a link</Link>)
     );
 
     expect(link).toMatchSnapshot();
@@ -21,8 +21,8 @@ describe('Link', () => {
   test('renders as a button if prop as="button" was passed', () => {
     const link = create(
       renderWithTheme(
-        <Link as="button">I look like a link, but really I'm a button</Link>,
-      ),
+        <Link as="button">I look like a link, but really I'm a button</Link>
+      )
     );
 
     expect(link).toMatchSnapshot();
@@ -39,8 +39,8 @@ describe('Link', () => {
       renderWithTheme(
         <Link href="#test" secondary>
           I'm a secondary link
-        </Link>,
-      ),
+        </Link>
+      )
     );
 
     expect(link).toMatchSnapshot();
@@ -51,8 +51,8 @@ describe('Link', () => {
       renderWithTheme(
         <Link href="#test" optional>
           I'm an optiona; link
-        </Link>,
-      ),
+        </Link>
+      )
     );
 
     expect(link).toMatchSnapshot();
@@ -64,8 +64,8 @@ describe('Link', () => {
         renderWithTheme(
           <Link href="#test" disabled>
             I'm a link
-          </Link>,
-        ),
+          </Link>
+        )
       );
 
       expect(link).toMatchSnapshot();
@@ -76,8 +76,8 @@ describe('Link', () => {
         renderWithTheme(
           <Link as="button" disabled>
             I look like a link, but really I'm a button
-          </Link>,
-        ),
+          </Link>
+        )
       );
 
       expect(link).toMatchSnapshot();

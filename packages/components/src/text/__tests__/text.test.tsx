@@ -96,7 +96,7 @@ describe('Text', () => {
 
       test('renders with a color', () => {
         const text = create(
-          renderWithTheme(<Text color="piccolo.100">Text</Text>),
+          renderWithTheme(<Text color="piccolo.100">Text</Text>)
         );
         expect(text).toMatchSnapshot();
       });

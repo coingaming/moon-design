@@ -1,8 +1,8 @@
-import React, { useRef, useState } from 'react';
+import React, { ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
+import { debounce } from 'lodash';
 
 import Popup from './private/components/Popup';
-import { SearchResults } from './private/components/SearchResults';
-import { SearchForm } from './private/components/Styles';
+import { Results, SearchForm } from './private/components/Styles';
 import {
   SearchBox,
   SearchClearButton,
@@ -15,8 +15,13 @@ import {
 export interface SearchProps {
   closeButton?: JSX.Element;
   hasBorder?: boolean;
+  isOpen?: boolean;
+  onBlur?: (e: React.FocusEvent<HTMLInputElement>) => void;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  onClear?: () => void;
+  onClear?: (e: React.MouseEvent<HTMLElement>) => void;
+  onFocus?: (e: React.FocusEvent<HTMLInputElement>) => void;
+  onKeyDown?: (e: React.KeyboardEvent<HTMLElement>) => void;
+  onKeyUp?: (e: React.KeyboardEvent<HTMLElement>) => void;
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
@@ -27,8 +32,13 @@ export interface SearchProps {
 const Search: React.FC<SearchProps> = ({
   closeButton,
   hasBorder = true,
+  isOpen = false,
+  onBlur,
   onChange,
   onClear,
+  onFocus,
+  onKeyDown,
+  onKeyUp,
   onSubmit,
   placeholder,
   query = '',
@@ -36,43 +46,59 @@ const Search: React.FC<SearchProps> = ({
   size = 'medium',
   ...props
 }) => {
-  const [popupOpen, setPopupOpen] = useState(false);
   const [searchStr, setSearchStr] = useState(query);
-  const search = useRef(null);
+  const [isActive, setIsActive] = useState(isOpen);
+  const search = useRef<HTMLInputElement>(null);
 
-  const searchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  useEffect(() => setIsActive(isOpen), [isOpen]);
+
+  const debouncedOnChange = useCallback(
+    debounce((e: ChangeEvent<HTMLInputElement>) => {
+      onChange && onChange(e);
+    }, 300),
+    [onChange]
+  );
+
+  const searchChange = (e: ChangeEvent<HTMLInputElement>) => {
+    e.persist();
     setSearchStr(e.target.value);
-    onChange && onChange(e);
+    debouncedOnChange(e);
   };
 
   const clearSearch = (e: React.MouseEvent<HTMLElement>) => {
-    e.stopPropagation();
     setSearchStr('');
-    onClear && onClear();
+    search.current && search.current.focus();
+    onClear && onClear(e);
   };
 
-  const closePopup = () => {
-    setPopupOpen(false);
-  };
+  const handleFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+    openPopup();
+    onFocus && onFocus(e);
+  }
 
-  const openPopup = () => {
-    setPopupOpen(true);
-  };
+  const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => onBlur && onBlur(e);
+
+  const openPopup = () => setIsActive(true);
+
+  const closePopup = () => setIsActive(false);
 
   return (
     <Popup
       closeButton={closeButton}
       closePopup={closePopup}
-      isOpen={popupOpen}
+      isActive={isActive}
       title={
-        <SearchForm onSubmit={onSubmit}>
-          <SearchBox size={size}>
+        <SearchForm onSubmit={onSubmit} noValidate>
+          <SearchBox $size={size}>
             <SearchInput
+              $size={size}
               autoComplete="off"
               hasBorder={hasBorder}
-              inputSize={size}
+              onBlur={handleBlur}
               onChange={searchChange}
-              onFocus={openPopup}
+              onFocus={handleFocus}
+              onKeyDown={onKeyDown}
+              onKeyUp={onKeyUp}
               placeholder={placeholder}
               ref={search}
               required
@@ -80,9 +106,9 @@ const Search: React.FC<SearchProps> = ({
               value={searchStr}
               {...props}
             />
-            <SearchInputIcon inputSize={size} />
-            {searchStr && popupOpen && (
-              <SearchClearButton onClick={clearSearch}>
+            <SearchInputIcon $size={size} />
+            {searchStr && (
+              <SearchClearButton onClick={clearSearch} tabIndex="-1">
                 <SearchClearIcon />
               </SearchClearButton>
             )}
@@ -91,11 +117,7 @@ const Search: React.FC<SearchProps> = ({
         </SearchForm>
       }
     >
-      <>
-        {popupOpen && results && (
-          <SearchResults results={results} />
-        )}
-      </>
+      {results && <Results>{results}</Results>}
     </Popup>
   );
 };

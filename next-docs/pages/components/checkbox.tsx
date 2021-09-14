@@ -2,6 +2,12 @@
 import React from 'react';
 
 import { Checkbox } from '@heathmont/moon-core';
+import {
+  RadioButton,
+  RadioButtonLabel,
+  RadioButtonInput,
+} from '@heathmont/moon-core';
+import { ListItem } from '@heathmont/moon-core';
 
 import Preview from '../../components/codePreview/Preview';
 
@@ -17,7 +23,11 @@ const ExampleDisabled = () => {
 
 const ExampleChecked = () => {
   return (
-    <Checkbox checked label="I agree to receive bonus & marketing emails." />
+    <Checkbox
+      checked
+      label="I agree to receive bonus & marketing emails."
+      readOnly
+    />
   );
 };
 
@@ -72,7 +82,7 @@ export default function PageAccordion() {
           preview={<ExampleChecked />}
           code={`import { Checkbox } from '@heathmont/moon-core';
 
-<Checkbox checked label="I agree to receive bonus & marketing emails." />
+<Checkbox checked readOnly label="I agree to receive bonus & marketing emails." />
 `}
         />
       </section>
@@ -82,6 +92,40 @@ export default function PageAccordion() {
         <Preview
           title="Aria label"
           preview={<ExampleAriaLabel />}
+          code={`import { Checkbox } from '@heathmont/moon-core';
+
+<Checkbox ariaLabel="Description of the checkbox's purpose." />
+`}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Aria label"
+          preview={
+            <div className="flex flex-col">
+              <RadioButton name="test" label="RadioButton" disabled />
+              <RadioButton name="test" />
+              <div className="mt-2 mb-2">
+                <ListItem
+                  backgroundColor="goku.100"
+                  elementRight={<RadioButton name="test" />}
+                >
+                  Single line item
+                </ListItem>
+              </div>
+              <div>
+                <RadioButtonLabel>
+                  <ListItem
+                    backgroundColor="goku.100"
+                    elementRight={<RadioButtonInput />}
+                  >
+                    Single line item
+                  </ListItem>
+                </RadioButtonLabel>
+              </div>
+            </div>
+          }
           code={`import { Checkbox } from '@heathmont/moon-core';
 
 <Checkbox ariaLabel="Description of the checkbox's purpose." />

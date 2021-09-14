@@ -12,5 +12,5 @@ export const MonthGrid = styled.div<{
     weekStartsOn,
     isWeekendMinimized,
   })};
-`,
+`
 );

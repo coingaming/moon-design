@@ -177,7 +177,11 @@ export default function PageButton() {
       <section className="mt-8">
         <Preview
           title="Full width"
-          preview={<Button fullWidth variant="primary">Action</Button>}
+          preview={
+            <Button fullWidth variant="primary">
+              Action
+            </Button>
+          }
           code={`import { Button } from '@heathmont/moon-components';
 
 <Button fullWidth variant="primary">Action</Button>`}

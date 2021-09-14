@@ -31,14 +31,14 @@ const DndTD = styled(TD)<{
 }>(({ theme: { color }, variant, dragIndicator }) => ({
   ...(variant === 'calendar'
     ? {
-      '&:first-child, &:nth-child(2)': {
-        borderRadius: 0,
-        backgroundColor: color.goku[100],
-        '&::after': {
-          display: 'none',
+        '&:first-child, &:nth-child(2)': {
+          borderRadius: 0,
+          backgroundColor: color.goku[100],
+          '&::after': {
+            display: 'none',
+          },
         },
-      },
-    }
+      }
     : {}),
   ...(dragIndicator && { cursor: 'grab' }),
 }));
@@ -50,37 +50,37 @@ const DndBodyTR = styled(BodyTR)<{
   ({ theme: { color }, variant, hasOnRowClickHandler }) => ({
     ...(hasOnRowClickHandler
       ? {
-        '&:hover': {
-          zIndex: 1,
-          position: 'relative',
-          cursor: 'pointer',
-          [TD]: {
-            ...(variant === 'calendar'
-              ? {
-                '&:first-child, &:nth-child(2)': {
-                  boxShadow: 'none',
-                },
-              }
-              : {}),
+          '&:hover': {
+            zIndex: 1,
+            position: 'relative',
+            cursor: 'pointer',
+            [TD]: {
+              ...(variant === 'calendar'
+                ? {
+                    '&:first-child, &:nth-child(2)': {
+                      boxShadow: 'none',
+                    },
+                  }
+                : {}),
+            },
           },
-        },
-      }
+        }
       : {}),
     '&:nth-child(even), &:nth-child(odd)': {
       [TD]: {
         ...(variant === 'calendar'
           ? {
-            '&:first-child, &:nth-child(2)': {
-              backgroundColor: color.goku[100],
-              borderRadius: 0,
-            },
-          }
+              '&:first-child, &:nth-child(2)': {
+                backgroundColor: color.goku[100],
+                borderRadius: 0,
+              },
+            }
           : {}),
       },
     },
   }),
   'display: flex;',
-  'flex: 1 0 auto;',
+  'flex: 1 0 auto;'
 );
 
 const DND_ITEM_TYPE = 'rowDnd';
@@ -107,14 +107,15 @@ const Row: React.FC<any> = ({
       const hoverIndex = index;
       if (dragIndex === hoverIndex) return;
       const hoverBoundingRect = dropRef?.current?.getBoundingClientRect();
-      const hoverRowCenter = (hoverBoundingRect.bottom - hoverBoundingRect.top) / 2;
+      const hoverRowCenter =
+        (hoverBoundingRect.bottom - hoverBoundingRect.top) / 2;
       const clientOffset = monitor.getClientOffset();
       const hoverRowPosition = clientOffset
         ? clientOffset.y - hoverBoundingRect.top
         : 0;
       if (
-        (dragIndex < hoverIndex && hoverRowPosition < hoverRowCenter)
-        || (dragIndex > hoverIndex && hoverRowPosition > hoverRowCenter)
+        (dragIndex < hoverIndex && hoverRowPosition < hoverRowCenter) ||
+        (dragIndex > hoverIndex && hoverRowPosition > hoverRowCenter)
       ) {
         return;
       }
@@ -122,7 +123,7 @@ const Row: React.FC<any> = ({
       dragItem.index = hoverIndex;
     },
     drop(item: any) {
-      dropRow(row.id, item.index);
+      dropRow(row, item.index);
     },
   });
 
@@ -149,12 +150,12 @@ const Row: React.FC<any> = ({
         <IconDrag fontSize="1.2rem" />
       </DndTD>
       {row.cells.map((cell: any) => (
-          <DndTD
-            {...cell.getCellProps()}
-            onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
-          >
-            {cell.render('Cell')}
-          </DndTD>
+        <DndTD
+          {...cell.getCellProps()}
+          onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
+        >
+          {cell.render('Cell')}
+        </DndTD>
       ))}
     </DndBodyTR>
   );
@@ -189,13 +190,13 @@ const DraggableTable: React.FC<any> = ({
             [dragIndex, 1],
             [hoverIndex, 0, dragRecord],
           ],
-        }),
+        })
       );
     },
-    [records],
+    [records]
   );
 
-  const dropRow = (rowId: any, index: any) => onDropRow(rowId, index);
+  const dropRow = (row: any, index: any) => onDropRow(row, index);
 
   const {
     getTableProps,
@@ -213,7 +214,7 @@ const DraggableTable: React.FC<any> = ({
     layout === 'block' ? useBlockLayout : useFlexLayout,
     useResizeColumns,
     useSticky,
-    useExpanded,
+    useExpanded
   );
 
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
@@ -227,7 +228,7 @@ const DraggableTable: React.FC<any> = ({
 
     setIsScrolledToLeft(target.scrollLeft === 0);
     setIsScrolledToRight(
-      target.scrollLeft + target.clientWidth === target.scrollWidth,
+      target.scrollLeft + target.clientWidth === target.scrollWidth
     );
   };
 
@@ -240,7 +241,10 @@ const DraggableTable: React.FC<any> = ({
         isScrolledToLeft={isScrolledToLeft}
         isScrolledToRight={isScrolledToRight}
         style={{
-          width, height, maxWidth, maxHeight,
+          width,
+          height,
+          maxWidth,
+          maxHeight,
         }}
       >
         <Header>
@@ -284,7 +288,8 @@ const DraggableTable: React.FC<any> = ({
         <Body {...getTableBodyProps()}>
           {rows.map((row, index) => {
             prepareRow(row);
-            const backgroundColor = index % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor
+            const backgroundColor =
+              index % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor;
             return (
               <Row
                 index={index}
@@ -304,9 +309,7 @@ const DraggableTable: React.FC<any> = ({
         {withFooter && (
           <Footer>
             {footerGroups.map((footerGroup) => (
-              <HeaderTR
-                {...footerGroup.getFooterGroupProps()}
-              >
+              <HeaderTR {...footerGroup.getFooterGroupProps()}>
                 {footerGroup.headers.map((column) => (
                   <TH {...column.getFooterProps()}>
                     {column.render('Footer')}

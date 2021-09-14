@@ -13,7 +13,7 @@ export const AccordionContent = styled.div(
   ({ isOpen }: { isOpen: boolean }) => ({
     overflow: 'hidden',
     height: isOpen ? '100%' : '0',
-  }),
+  })
 );
 
 export const ChildrenWrapper = styled.div(() => ({
@@ -31,7 +31,7 @@ export const AccordionHeader = styled.div<{ disabled?: boolean }>(
     '> *:first-child': {
       flex: 1,
     },
-  }),
+  })
 );
 
 export const AccordionToggle = styled.button(
@@ -45,7 +45,7 @@ export const AccordionToggle = styled.button(
     color: color.trunks[100],
     borderColor: 'transparent',
     backgroundColor: color.gohan[100],
-  }),
+  })
 );
 
 export const Divider = styled.div(({ theme: { color } }) => ({

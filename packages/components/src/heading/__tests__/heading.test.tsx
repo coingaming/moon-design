@@ -18,7 +18,7 @@ describe('Heading', () => {
 
     test('renders as an element if "as" prop provided', () => {
       const heading = create(
-        renderWithTheme(<Heading as="h6">Heading</Heading>),
+        renderWithTheme(<Heading as="h6">Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
@@ -32,63 +32,63 @@ describe('Heading', () => {
 
     test('16rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={16}>Heading</Heading>),
+        renderWithTheme(<Heading size={16}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('18rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={18}>Heading</Heading>),
+        renderWithTheme(<Heading size={18}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('20rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={20}>Heading</Heading>),
+        renderWithTheme(<Heading size={20}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('24rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={24}>Heading</Heading>),
+        renderWithTheme(<Heading size={24}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('32rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={32}>Heading</Heading>),
+        renderWithTheme(<Heading size={32}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('48rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={48}>Heading</Heading>),
+        renderWithTheme(<Heading size={48}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('56rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={56}>Heading</Heading>),
+        renderWithTheme(<Heading size={56}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('64rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={64}>Heading</Heading>),
+        renderWithTheme(<Heading size={64}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
 
     test('72rem size renders properly', () => {
       const heading = create(
-        renderWithTheme(<Heading size={72}>Heading</Heading>),
+        renderWithTheme(<Heading size={72}>Heading</Heading>)
       );
       expect(heading).toMatchSnapshot();
     });
@@ -101,7 +101,7 @@ describe('Heading', () => {
 
       test('renders with a color', () => {
         const heading = create(
-          renderWithTheme(<Heading color="piccolo.100">Heading</Heading>),
+          renderWithTheme(<Heading color="piccolo.100">Heading</Heading>)
         );
         expect(heading).toMatchSnapshot();
       });
@@ -115,7 +115,7 @@ describe('Heading', () => {
 
       test('renders with regular font weight', () => {
         const heading = create(
-          renderWithTheme(<Heading isRegular>Heading</Heading>),
+          renderWithTheme(<Heading isRegular>Heading</Heading>)
         );
         expect(heading).toMatchSnapshot();
       });
