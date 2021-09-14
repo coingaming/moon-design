@@ -104,6 +104,13 @@ export default function RadioButtonPage() {
               description: 'Represent a caption for an item',
             },
             {
+              name: 'name',
+              type: 'string',
+              required: false,
+              default: '-',
+              description: 'Represent name for an item',
+            },
+            {
               name: 'ariaLabel',
               type: 'string',
               required: false,
