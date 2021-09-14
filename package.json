@@ -6,7 +6,7 @@
     "commit": "git-cz",
     "build": "pnpm -r run build --filter ./packages ",
     "clean": "rimraf packages/**/lib next-docs/{lib,dist,.cache}",
-    "nuke": "pnpm run clean && rimraf node_modules/ && rimraf next-docs/.next/ && rimraf next-docs/node_modules/",
+    "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "assets": "lerna run --scope @heathmont/moon-assets --stream",
     "icons": "lerna run --scope @heathmont/moon-icons --stream",
