@@ -5,33 +5,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
-
 ### Features
 
-* rename coingaming to yolo ([#1395](https://github.com/coingaming/moon-design/issues/1395)) ([b180ea3](https://github.com/coingaming/moon-design/commit/b180ea33125a56b0c22e4b6094bc82e86c774571))
-
-
-
-
+- rename coingaming to yolo ([#1395](https://github.com/coingaming/moon-design/issues/1395)) ([b180ea3](https://github.com/coingaming/moon-design/commit/b180ea33125a56b0c22e4b6094bc82e86c774571))
 
 # [6.17.0](https://github.com/coingaming/moon-design/compare/v6.16.3...v6.17.0) (2021-09-10)
 
-
 ### Features
 
-* add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
-
-
-
-
+- add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
 
 ## [6.16.3](https://github.com/coingaming/moon-design/compare/v6.16.2...v6.16.3) (2021-09-10)
 
 **Note:** Version bump only for package next-docs
-
-
-
-
 
 ## [6.16.2](https://github.com/coingaming/moon-design/compare/v6.16.1...v6.16.2) (2021-09-09)
 
