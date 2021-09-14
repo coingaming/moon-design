@@ -32,10 +32,7 @@ export default function PageDialogHeader() {
                 <Header>Title of the modal</Header>
               </div>
               <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header
-                  isCloseButton={true}
-                  onClose={() => console.log('onClose')}
-                >
+                <Header closeButton={<ControlsClose fontSize={rem(32)} />}>
                   Title of the modal
                 </Header>
               </div>
