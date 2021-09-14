@@ -53,7 +53,7 @@
     }
   },
   "lint-staged": {
-    "*.{json,html,css,md,mdx,yml}": [
+    "*.{json,html,css,mdx,yml}": [
       "yarn prettier --write",
       "git add"
     ],
