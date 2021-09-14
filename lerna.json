@@ -1,9 +1,5 @@
 {
-  "packages": [
-    "docs",
-    "next-docs",
-    "packages/*"
-  ],
+  "packages": ["docs", "next-docs", "packages/*"],
   "version": "6.18.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
