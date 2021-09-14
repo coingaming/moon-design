@@ -10,6 +10,8 @@ export { default as Caption } from './caption/Caption';
 export * from './caption/Caption';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
+export { default as Header } from './header/Header';
+export * from './header/Header';
 export { default as Heading } from './heading/Heading';
 export * from './heading/Heading';
 export { default as Label } from './label/Label';
