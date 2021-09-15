@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.19.2](https://github.com/coingaming/moon-design/compare/v6.19.1...v6.19.2) (2021-09-15)
+
+
+### Bug Fixes
+
+* ts issue for radioButton [B1M2-3880] ([#1402](https://github.com/coingaming/moon-design/issues/1402)) ([3cfda50](https://github.com/coingaming/moon-design/commit/3cfda505c99a349093f22039992933ff95131807))
+* ts-nocheck for radiobutton ([f5b4eb2](https://github.com/coingaming/moon-design/commit/f5b4eb288bec8bc5a611b95160683d0c2e6f2a9e))
+
+
+
+
+
 ## [6.19.1](https://github.com/coingaming/moon-design/compare/v6.19.0...v6.19.1) (2021-09-14)
 
 
