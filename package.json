@@ -2,8 +2,7 @@
   "private": true,
   "name": "moon-design",
   "scripts": {
-    "watch": "pnpm -r run chokidar --filter ./packages",
-    "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run clean:docs\" ",
+    "watch": "pnpm --filter ./packages --parallel -r run chokidar ",
     "next": "pnpm run --filter next-docs",
     "commit": "git-cz",
     "build": "pnpm -r run build --filter ./packages",
