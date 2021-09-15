@@ -1,40 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
+import { rem } from '@heathmont/moon-utils';
 
-import { rem } from 'polished';
+import Container from './styles/Container';
+import RightWrapper from './styles/RightWrapper';
 
-interface HeaderProps {
+export interface HeaderProps {
   backButton?: JSX.Element;
   closeButton?: JSX.Element;
   icons?: JSX.Element[];
+  isDivider?: boolean;
 }
-
-const Container = styled.div(({ theme: { color, fontWeight } }) => ({
-  width: '100%',
-  display: 'flex',
-  alignItems: 'flex-start',
-  justifyContent: 'space-between',
-  fontSize: rem(18),
-  lineHeight: rem(24),
-  color: color.bulma[100],
-  fontWeight: fontWeight.semibold,
-}));
 
 const Label = styled.div({
   paddingTop: rem(4),
-});
-
-const RightWrapper = styled.div({
-  display: 'flex',
-  alignItems: 'center',
-  fontSize: rem(32),
 });
 
 const IconWrapper = styled.span({
   marginLeft: rem(8),
 });
 
-const ControlsChevronLeftIcon = styled.div({
+const BackButtonIcon = styled.div({
   cursor: 'pointer',
   marginRight: rem(8),
   minWidth: rem(32),
@@ -50,22 +36,19 @@ const Header: React.FC<HeaderProps> = ({
   backButton,
   closeButton,
   icons,
-}) => {
-  return (
-    <Container>
-      {backButton && (
-        <ControlsChevronLeftIcon>{backButton}</ControlsChevronLeftIcon>
-      )}
-      <Label>{children}</Label>
-      <RightWrapper>
-        {icons &&
-          icons.map((item, index) => (
-            <IconWrapper key={`hicon-${index}`}>{item}</IconWrapper>
-          ))}
-        {closeButton && <ControlsCloseIcon>{closeButton}</ControlsCloseIcon>}
-      </RightWrapper>
-    </Container>
-  );
-};
+  isDivider,
+}) => (
+  <Container isDivider={isDivider}>
+    {backButton && <BackButtonIcon>{backButton}</BackButtonIcon>}
+    <Label>{children}</Label>
+    <RightWrapper>
+      {icons &&
+        icons.map((item, index) => (
+          <IconWrapper key={`hicon-${index}`}>{item}</IconWrapper>
+        ))}
+      {closeButton && <ControlsCloseIcon>{closeButton}</ControlsCloseIcon>}
+    </RightWrapper>
+  </Container>
+);
 
 export default Header;
