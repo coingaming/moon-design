@@ -21,10 +21,10 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-assets": "^6.19.0",
-    "@heathmont/moon-components": "^6.19.0",
-    "@heathmont/moon-themes": "^6.19.0",
-    "@heathmont/moon-utils": "^6.19.0",
+    "@heathmont/moon-assets": "workspace:^6.19.0",
+    "@heathmont/moon-components": "workspace:^6.19.0",
+    "@heathmont/moon-themes": "workspace:^6.19.0",
+    "@heathmont/moon-utils": "workspace:^6.19.0",
     "@types/react-paginate": "6.2.1",
     "react-paginate": "6.5.0"
   },

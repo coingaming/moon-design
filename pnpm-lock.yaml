@@ -45,7 +45,7 @@ importers:
       prettier: 2.3.0
       react: 17.0.2
       react-dom: 17.0.2
-      react-test-renderer: '>= 16.10.2'
+      react-test-renderer: ^17.0.2
       rimraf: 3.0.0
       styled-components: 5.2.1
       typescript: 4.1.3
@@ -152,10 +152,10 @@ importers:
 
   packages/accordion:
     specifiers:
-      '@heathmont/moon-assets': ^6.19.0
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-assets': workspace:^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
@@ -164,17 +164,17 @@ importers:
 
   packages/assets:
     specifiers:
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/calendar:
     specifiers:
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
     dependencies:
@@ -186,10 +186,10 @@ importers:
 
   packages/charts:
     specifiers:
-      '@heathmont/moon-assets': ^6.19.0
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-assets': workspace:^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@types/react-simple-maps': 1.0.3
       '@types/react-transition-group': 4.4.0
       react-simple-maps: 2.3.0
@@ -210,9 +210,9 @@ importers:
 
   packages/components:
     specifiers:
-      '@heathmont/moon-assets': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-assets': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@reach/dialog': 0.11.2
       '@types/date-fns': 2.6.0
       '@types/reach__dialog': 0.1.1
@@ -251,15 +251,15 @@ importers:
 
   packages/draggabletable:
     specifiers:
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-table': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-table': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@types/react-table': 7.0.23
       immutability-helper: ^3.1.1
       polished: 4.0.1
-      react-dnd: ^14.0.1
-      react-dnd-html5-backend: ^14.0.0
+      react-dnd: ^14.0.3
+      react-dnd-html5-backend: ^14.0.1
       react-table: 7.5.1
       react-table-hoc-fixed-columns: 2.3.3
       react-table-sticky: 1.1.3
@@ -282,19 +282,19 @@ importers:
 
   packages/global:
     specifiers:
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/icons:
     specifiers:
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
-      '@types/node': ^13.1.6
-      '@types/ramda': ^0.26.39
-      '@types/rimraf': ^2.0.3
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
+      '@types/node': ^13.13.52
+      '@types/ramda': ^0.26.44
+      '@types/rimraf': ^2.0.5
       argparse: 2.0.1
       axios: 0.21.4
       figma-js: 1.14.0
@@ -302,7 +302,7 @@ importers:
       fs: ^0.0.1-security
       ramda: 0.27.1
       rimraf: 3.0.2
-      ts-node-dev: ^1.0.0-pre.44
+      ts-node-dev: ^1.1.8
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
@@ -321,18 +321,18 @@ importers:
 
   packages/notifications:
     specifiers:
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/pagination:
     specifiers:
-      '@heathmont/moon-assets': ^6.19.0
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-assets': workspace:^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@types/react-paginate': 6.2.1
       react-paginate: 6.5.0
     dependencies:
@@ -345,10 +345,10 @@ importers:
 
   packages/popover:
     specifiers:
-      '@heathmont/moon-assets': ^6.19.0
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-assets': workspace:^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@tippyjs/react': 4.2.0
       polished: 3.4.1
     dependencies:
@@ -361,17 +361,17 @@ importers:
 
   packages/sidebar:
     specifiers:
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/table:
     specifiers:
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-components': workspace:^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
+      '@heathmont/moon-utils': workspace:^6.19.0
       '@types/react-table': 7.0.23
       polished: 4.0.1
       react-table: 7.5.1
@@ -392,7 +392,7 @@ importers:
 
   packages/utils:
     specifiers:
-      '@heathmont/moon-themes': ^6.19.0
+      '@heathmont/moon-themes': workspace:^6.19.0
       '@types/lodash.get': 4.4.6
       '@types/lodash.has': 4.5.6
       lodash.get: 4.4.2

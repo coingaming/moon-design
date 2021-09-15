@@ -21,8 +21,8 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-themes": "^6.19.0",
-    "@heathmont/moon-utils": "^6.19.0"
+    "@heathmont/moon-themes": "workspace:^6.19.0",
+    "@heathmont/moon-utils": "workspace:^6.19.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
