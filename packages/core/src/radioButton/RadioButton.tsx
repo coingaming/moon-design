@@ -5,14 +5,14 @@ import RadioButtonHiddenInput from './styles/RadioButtonHiddenInput';
 import RadioButtonStyledInput from './styles/RadioButtonStyledInput';
 import RadioButtonLabel from './RadioButtonLabel';
 
-export interface RadioButtonProps {
+export type RadioButtonProps = React.InputHTMLAttributes<HTMLInputElement> & {
   disabled?: boolean;
   ariaLabel?: string;
   label?: JSX.Element | string;
   id?: string;
   checked?: boolean;
   onClick?: any;
-}
+};
 
 const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
   ({ disabled, ariaLabel, id, label, ...inputProps }, ref) => (
@@ -20,11 +20,13 @@ const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
       <RadioButtonHiddenInput
         id={id}
         key={id}
+        type="radio"
         disabled={disabled}
         aria-label={ariaLabel}
         ref={ref}
         {...inputProps}
       />
+
       <RadioButtonStyledInput />
       {label && <RadioButtonCaption>{label}</RadioButtonCaption>}
     </RadioButtonLabel>

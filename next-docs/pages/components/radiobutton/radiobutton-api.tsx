@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 import {
@@ -72,7 +73,7 @@ export default function RadioButtonPage() {
           title="List Item with Radio button"
           preview={<Example />}
           code={`import { RadioButtonLabel, RadioButtonInput, ListItem  } from '@heathmont/moon-core';
-          
+
 <RadioButtonLabel id="age1">
   <ListItem backgroundColor="goku.100" elementRight={<RadioButtonInput name="age" ariaLabel="0 - 30" id="age1" />}>
     0 - 30
@@ -125,6 +126,13 @@ export default function RadioButtonPage() {
               required: false,
               default: '-',
               description: 'Represent a caption for an item',
+            },
+            {
+              name: 'name',
+              type: 'string',
+              required: false,
+              default: '-',
+              description: 'Represent name for an item',
             },
             {
               name: 'ariaLabel',
