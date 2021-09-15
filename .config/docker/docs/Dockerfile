@@ -4,7 +4,7 @@ FROM node:16.5-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY next-docs ./
-RUN npm install -g pnpm
+RUN npm install -g pnpm@latest
 RUN pnpm i
 
 # Rebuild the source code only when needed
