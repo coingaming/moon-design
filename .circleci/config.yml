@@ -1,7 +1,7 @@
 aliases:
   default: &default
     docker:
-      - image: circleci/node:16.5.0
+      - image: znck/pnpm:latest
 
   install_deps: &install_deps
     run:

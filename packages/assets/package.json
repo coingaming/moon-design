@@ -33,7 +33,7 @@
     "build:js:commonjs": "babel --config-file '../../.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
     "build:js:es": "babel --config-file '../../.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
     "build:types": "tsc --project tsconfig.json --declarationMap",
-    "build": "pnpm run build:assets && pnpm build:code && pnpm run build:index",
+    "build": "pnpm run build:assets && pnpm run build:code && pnpm run build:index",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
