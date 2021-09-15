@@ -106,7 +106,7 @@ const Row: React.FC<any> = ({
       const dragIndex = dragItem.index;
       const hoverIndex = index;
       if (dragIndex === hoverIndex) return;
-      const hoverBoundingRect = dropRef?.current?.getBoundingClientRect();
+      const hoverBoundingRect = dropRef.current.getBoundingClientRect();
       const hoverRowCenter =
         (hoverBoundingRect.bottom - hoverBoundingRect.top) / 2;
       const clientOffset = monitor.getClientOffset();
