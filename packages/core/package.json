@@ -21,9 +21,9 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-icons": "workspace:*",
-    "@heathmont/moon-themes": "workspace:*",
-    "@heathmont/moon-utils": "workspace:*",
+    "@heathmont/moon-icons": "workspace:^6.19.0",
+    "@heathmont/moon-themes": "workspace:^6.19.0",
+    "@heathmont/moon-utils": "workspace:^6.19.0",
     "polished": "^4.1.3"
   },
   "peerDependencies": {

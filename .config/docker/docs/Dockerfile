@@ -5,7 +5,7 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY next-docs ./
 RUN npm install -g pnpm@latest
-RUN pnpm i
+RUN pnpm i --ignore-scripts --prod
 
 # Rebuild the source code only when needed
 FROM node:16.5-alpine AS builder
