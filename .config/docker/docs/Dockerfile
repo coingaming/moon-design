@@ -4,14 +4,15 @@ FROM node:16.5-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY next-docs ./
-RUN yarn
+RUN npm install -g pnpm
+RUN pnpm i
 
 # Rebuild the source code only when needed
 FROM node:16.5-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/ .
-ENV NEXT_TELEMETRY_DISABLED 1
-RUN yarn build
+RUN npm install -g pnpm
+RUN pnpm run build
 
 ENV NODE_ENV production
 
@@ -19,7 +20,7 @@ ENV NODE_ENV production
 # Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line in case you want to disable telemetry.
 ENV NEXT_TELEMETRY_DISABLED 1
-CMD ["yarn", "start"]
+CMD ["pnpm", "run", "start"]
 
 # Production image, copy all the files and run next
 # FROM node:16.5-alpine AS runner

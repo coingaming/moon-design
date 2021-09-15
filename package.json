@@ -2,32 +2,18 @@
   "private": true,
   "name": "moon-design",
   "scripts": {
-    "next": "lerna run --scope next-docs",
+    "watch": "pnpm --filter ./packages --parallel -r run chokidar ",
+    "next": "pnpm run --filter next-docs",
     "commit": "git-cz",
-    "build": "lerna exec --parallel --no-private -- yarn build && yarn build:index && yarn build:js && yarn build:types",
-    "build:index": "lerna exec --parallel --no-private --ignore '@heathmont/moon-{global,assets}' -- barrelsby --config '$LERNA_ROOT_PATH/.config/barrelsby/barrelsby.json' --directory src",
-    "build:js": "yarn build:js:es && yarn build:js:commonjs",
-    "build:js:commonjs": "lerna exec --parallel --no-private -- babel --config-file '$LERNA_ROOT_PATH/.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
-    "build:js:es": "lerna exec --parallel --no-private -- babel --config-file '$LERNA_ROOT_PATH/.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
-    "build:types": "lerna exec --no-private -- tsc --project tsconfig.json --declarationMap",
-    "watch:js": "yarn build:js --watch",
-    "watch:types": "lerna exec --parallel --no-private -- tsc --watch --noEmit",
-    "clean": "rimraf packages/**/lib next-docs/{lib,dist,.cache}",
-    "nuke": "yarn clean && lerna clean --yes && rimraf node_modules/ && rimraf next-docs/.next/ && rimraf next-docs/node_modules/",
+    "build": "pnpm -r run build --filter ./packages",
+    "clean": "rimraf packages/**/lib && pnpm run clean:docs",
+    "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
+    "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "test": "yarn test:types && yarn test:jest",
-    "test:types": "lerna exec --scope '@heathmont/moon-components' -- tsc --project ./tsconfig.test.json --noEmit",
-    "test:jest": "node --max_old_space_size=4096 ./node_modules/.bin/jest --config .config/jest/jest.config.js --verbose --logHeapUsage",
-    "assets": "lerna run --scope @heathmont/moon-assets --stream",
-    "icons": "lerna run --scope @heathmont/moon-icons --stream",
     "publish:packages": "lerna publish --yes",
     "publish:packages@beta": "lerna publish --canary --preid beta --no-push --dist-tag beta --force-publish",
     "publish:packages@alpha": "lerna publish --canary --preid alpha --no-push --dist-tag beta --force-publish"
   },
-  "workspaces": [
-    "next-docs",
-    "packages/*"
-  ],
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -81,6 +67,7 @@
     "babel-jest": "24.3.1",
     "babel-plugin-styled-components": "1.10.6",
     "barrelsby": "2.2.0",
+    "chokidar-cli": "3.0.0",
     "commander": "4.0.1",
     "commitizen": "4.0.3",
     "concurrently": "4.1.2",
