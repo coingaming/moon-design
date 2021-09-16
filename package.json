@@ -10,9 +10,7 @@
     "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "publish:packages": "pnpm publish -r --filter ./packages",
-    "publish:beta": "pnpm publish -r --tag beta --access public --force --filter ./packages ",
-    "publish:alpha": "pnpm publish -r --tag alpha --access public --force --filter ./packages"
+    "publish:packages": "pnpm publish -r --filter ./packages --access public"
   },
   "config": {
     "commitizen": {

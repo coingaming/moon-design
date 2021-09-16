@@ -1,18 +1,25 @@
 # Change Log
 
+## 7.0.0
+
+### Major Changes
+
+- switch to pnpm
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.0.0
+  - @heathmont/moon-utils@7.0.0
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # [6.19.0](https://github.com/coingaming/moon-design/compare/v6.18.0...v6.19.0) (2021-09-14)
 
-
 ### Features
 
-* added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
-
-
-
-
+- added RadioButton [B1M2-3880](<[#1398](https://github.com/coingaming/moon-design/issues/1398)>) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
@@ -25,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
+- add status for avatar [B1M2-3872](<[#1390](https://github.com/coingaming/moon-design/issues/1390)>) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
 
 # [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
 
@@ -37,7 +44,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
+- console warnings [B1M2-3721_B1M2-3723_B1M2-3724](<[#1377](https://github.com/coingaming/moon-design/issues/1377)>) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
 
 ## [6.12.1](https://github.com/coingaming/moon-design/compare/v6.12.0...v6.12.1) (2021-08-31)
 
@@ -103,7 +110,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- update logo-luckyslots-full with dynamic colors. [B1M2-3194] ([#1308](https://github.com/coingaming/moon-design/issues/1308)) ([4e20aab](https://github.com/coingaming/moon-design/commit/4e20aabcec8fcba57769503958352112241f960d))
+- update logo-luckyslots-full with dynamic colors. [B1M2-3194](<[#1308](https://github.com/coingaming/moon-design/issues/1308)>) ([4e20aab](https://github.com/coingaming/moon-design/commit/4e20aabcec8fcba57769503958352112241f960d))
 
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
@@ -117,8 +124,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- add livecasino short logo, update full logo [B1M2-3102] ([#1300](https://github.com/coingaming/moon-design/issues/1300)) ([ada1d78](https://github.com/coingaming/moon-design/commit/ada1d7877ca746123644e0bbfa9dca5e76dbbe40))
-- add livecasino short logo, update full logo [B1M2-3102] ([#1301](https://github.com/coingaming/moon-design/issues/1301)) ([58e138e](https://github.com/coingaming/moon-design/commit/58e138e8c2aee0abacffa50fd66a109221f1b571))
+- add livecasino short logo, update full logo [B1M2-3102](<[#1300](https://github.com/coingaming/moon-design/issues/1300)>) ([ada1d78](https://github.com/coingaming/moon-design/commit/ada1d7877ca746123644e0bbfa9dca5e76dbbe40))
+- add livecasino short logo, update full logo [B1M2-3102](<[#1301](https://github.com/coingaming/moon-design/issues/1301)>) ([58e138e](https://github.com/coingaming/moon-design/commit/58e138e8c2aee0abacffa50fd66a109221f1b571))
 - assets template for vertical align ([#1299](https://github.com/coingaming/moon-design/issues/1299)) ([e02502b](https://github.com/coingaming/moon-design/commit/e02502b4e403697a99f73997626ed4ce2029ef0a))
 
 ## [6.4.1](https://github.com/coingaming/moon-design/compare/v6.4.0...v6.4.1) (2021-08-05)
@@ -269,7 +276,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - update duotones ([1da716b](https://github.com/coingaming/moon-design/commit/1da716bfb00ccf8611819602c71ed52295d30419))
 - update Rugby & AFL sport icons B1M2-698 ([59f7d59](https://github.com/coingaming/moon-design/commit/59f7d59f757d4381a9d132d611547cc278b9391f))
 - upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-- utorg logo [BASE1-1441] ([4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf))
+- utorg logo [BASE1-1441](<[4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf)>)
 - **assets:** add Whatsapp icon ([b692df6](https://github.com/coingaming/moon-design/commit/b692df653b5838cd1c74184a43c806994e7c463a))
 - **assets:** arsenal & southampton logos ([43d8d2d](https://github.com/coingaming/moon-design/commit/43d8d2da9c809005d5683d674b943c8a6f42be45))
 - **assets:** currency icons ([3564366](https://github.com/coingaming/moon-design/commit/3564366af0a61d95420712f648a049eda1a1418e))
@@ -401,7 +408,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - update duotones ([1da716b](https://github.com/coingaming/moon-design/commit/1da716bfb00ccf8611819602c71ed52295d30419))
 - update Rugby & AFL sport icons B1M2-698 ([59f7d59](https://github.com/coingaming/moon-design/commit/59f7d59f757d4381a9d132d611547cc278b9391f))
 - upgrade typescript initial ([cec64cb](https://github.com/coingaming/moon-design/commit/cec64cb2e0d21c06e05daafac6e8e784fa4a3c1e))
-- utorg logo [BASE1-1441] ([4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf))
+- utorg logo [BASE1-1441](<[4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf)>)
 - **assets:** add Whatsapp icon ([b692df6](https://github.com/coingaming/moon-design/commit/b692df653b5838cd1c74184a43c806994e7c463a))
 - **assets:** arsenal & southampton logos ([43d8d2d](https://github.com/coingaming/moon-design/commit/43d8d2da9c809005d5683d674b943c8a6f42be45))
 - **assets:** currency icons ([3564366](https://github.com/coingaming/moon-design/commit/3564366af0a61d95420712f648a049eda1a1418e))
@@ -533,7 +540,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - update duotones ([7484306](https://github.com/coingaming/moon-design/commit/7484306c1e1700c12096bea1476b1a5e2e629f5b))
 - update Rugby & AFL sport icons B1M2-698 ([b849027](https://github.com/coingaming/moon-design/commit/b84902793c9b53b9626a69eae95bdb7318d50e00))
 - upgrade typescript initial ([545ed38](https://github.com/coingaming/moon-design/commit/545ed38a6b0e99905665114f30edbc8371a75fdc))
-- utorg logo [BASE1-1441] ([6d400d0](https://github.com/coingaming/moon-design/commit/6d400d0c2101b369310d84263559d7d9b5958c0b))
+- utorg logo [BASE1-1441](<[6d400d0](https://github.com/coingaming/moon-design/commit/6d400d0c2101b369310d84263559d7d9b5958c0b)>)
 - **assets:** add Whatsapp icon ([c4315da](https://github.com/coingaming/moon-design/commit/c4315da9ab3a9f7f9aea485a8fd7e2d0c071528d))
 - **assets:** arsenal & southampton logos ([d2f5b75](https://github.com/coingaming/moon-design/commit/d2f5b7559fc2cdbecb85a1c77a67a52cd3cb910b))
 - **assets:** currency icons ([e30cada](https://github.com/coingaming/moon-design/commit/e30cada6bac5f7c5dfb455bf7444ba46a1d5a697))
