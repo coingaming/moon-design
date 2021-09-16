@@ -34,12 +34,6 @@
    pnpm run next dev
    ```
 
-3. Run storybook for development:
-
-   ```sh
-   pnpm run next dev
-   ```
-
 4. Hot Module Replacement:
 
    ```sh
