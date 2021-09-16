@@ -1,18 +1,26 @@
 # Change Log
 
+## 7.0.0
+
+### Major Changes
+
+- switch to pnpm
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.0.0
+  - @heathmont/moon-themes@7.0.0
+  - @heathmont/moon-utils@7.0.0
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # [6.19.0](https://github.com/coingaming/moon-design/compare/v6.18.0...v6.19.0) (2021-09-14)
 
-
 ### Features
 
-* added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
-
-
-
-
+- added RadioButton [B1M2-3880](<[#1398](https://github.com/coingaming/moon-design/issues/1398)>) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
@@ -24,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
+- add status for avatar [B1M2-3872](<[#1390](https://github.com/coingaming/moon-design/issues/1390)>) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
 
 # [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
 
@@ -34,13 +42,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- console warnings [B1M2-3721_B1M2-3723_B1M2-3724] ([#1377](https://github.com/coingaming/moon-design/issues/1377)) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
+- console warnings [B1M2-3721_B1M2-3723_B1M2-3724](<[#1377](https://github.com/coingaming/moon-design/issues/1377)>) ([ea7deb0](https://github.com/coingaming/moon-design/commit/ea7deb0de46081fa1d89c0ff0b33baa9556481db))
 
 # [6.14.0](https://github.com/coingaming/moon-design/compare/v6.13.0...v6.14.0) (2021-09-08)
 
 ### Features
 
-- add additional functionality for dialog [B1M2-3675] ([#1366](https://github.com/coingaming/moon-design/issues/1366)) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
+- add additional functionality for dialog [B1M2-3675](<[#1366](https://github.com/coingaming/moon-design/issues/1366)>) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
 
 ## [6.12.1](https://github.com/coingaming/moon-design/compare/v6.12.0...v6.12.1) (2021-08-31)
 
@@ -50,13 +58,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- carousel freezing when step equal one [B1M2-2794] ([#1352](https://github.com/coingaming/moon-design/issues/1352)) ([011e199](https://github.com/coingaming/moon-design/commit/011e199246f6220552fd91158276db7b35343527))
+- carousel freezing when step equal one [B1M2-2794](<[#1352](https://github.com/coingaming/moon-design/issues/1352)>) ([011e199](https://github.com/coingaming/moon-design/commit/011e199246f6220552fd91158276db7b35343527))
 
 # [6.11.0](https://github.com/coingaming/moon-design/compare/v6.10.3...v6.11.0) (2021-08-27)
 
 ### Features
 
-- Add the Chip component [B1M2-3517] ([#1346](https://github.com/coingaming/moon-design/issues/1346)) ([feff622](https://github.com/coingaming/moon-design/commit/feff6228e16e2e9e0e03ed258e45c272227490af))
+- Add the Chip component [B1M2-3517](<[#1346](https://github.com/coingaming/moon-design/issues/1346)>) ([feff622](https://github.com/coingaming/moon-design/commit/feff6228e16e2e9e0e03ed258e45c272227490af))
 
 ## [6.10.3](https://github.com/coingaming/moon-design/compare/v6.10.2...v6.10.3) (2021-08-26)
 
@@ -98,7 +106,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+- border radiuses, update Bitcasino radius token [BASE1-1723](<[21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343)>)
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
@@ -270,7 +278,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - fix tests ([6bc34a9](https://github.com/coingaming/moon-design/commit/6bc34a9f0bfd397739684a7413814a0e31b41fac))
 - fix tests ([3567de2](https://github.com/coingaming/moon-design/commit/3567de2c4df655c602df39c3b0efa1ef590fd251))
 - forwardRef on Button component ([6e69187](https://github.com/coingaming/moon-design/commit/6e6918736ec8ee26283a9bc92bb60e8aa9aa6203))
-- get inherit color for search placeholder from input [B1M2-1322] ([37fabd0](https://github.com/coingaming/moon-design/commit/37fabd0b4515a6ca70b2d4ffd9f6a3c675adeabe))
+- get inherit color for search placeholder from input [B1M2-1322](<[37fabd0](https://github.com/coingaming/moon-design/commit/37fabd0b4515a6ca70b2d4ffd9f6a3c675adeabe)>)
 - linting ([9d6e1d3](https://github.com/coingaming/moon-design/commit/9d6e1d339017398e5175835fd0ec052854259624))
 - margin when there is count ([8cbda76](https://github.com/coingaming/moon-design/commit/8cbda76a3742a699b7ee36b15b0cd0cebe6dc85d))
 - more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
@@ -394,7 +402,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - add item count in CheckboxMultiselect ([d5df32b](https://github.com/coingaming/moon-design/commit/d5df32b6ebdd6c6ed542023ec22383d1c5fef9c1))
 - add SingleItemSelect filter to FilterDropdown ([0bc6380](https://github.com/coingaming/moon-design/commit/0bc63800d9782774cd1ff4adac25c1f0556c5e13))
 - add tag list component ([0b1057b](https://github.com/coingaming/moon-design/commit/0b1057b0008d3ceced9f36802d0f20d4fc553455))
-- utorg logo [BASE1-1441] ([4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf))
+- utorg logo [BASE1-1441](<[4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf)>)
 - **chip:** add Chip component ([bc52396](https://github.com/coingaming/moon-design/commit/bc52396a21f3d3738d9a674d9c4118c23dc0884b))
 - add CheckboxMultiselect component ([90bfaf8](https://github.com/coingaming/moon-design/commit/90bfaf82cff5a66b90e770ad59dbc0acc38168fb))
 - add pagination component ([0c8e8da](https://github.com/coingaming/moon-design/commit/0c8e8da0cf6606138318400ada65fc1755dd1d44))
@@ -402,7 +410,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - add single item select ([52167f9](https://github.com/coingaming/moon-design/commit/52167f9f86f24cc9f9adca21bae0fc40abf58b89))
 - add tag-input ([cfd53ee](https://github.com/coingaming/moon-design/commit/cfd53ee2bb623c2c2f67b88ecaec2b9f645ca956))
 - add tree view to CheckboxMultiselect ([d97e5c8](https://github.com/coingaming/moon-design/commit/d97e5c8ec372c1bec38f3d848ca6437ae34fcd59))
-- align datepicker component [B1M2-368] ([ee5a6f9](https://github.com/coingaming/moon-design/commit/ee5a6f9cef82b908702a8ed501be5e29ac1e2e37))
+- align datepicker component [B1M2-368](<[ee5a6f9](https://github.com/coingaming/moon-design/commit/ee5a6f9cef82b908702a8ed501be5e29ac1e2e37)>)
 - cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
 - default exports ([478f547](https://github.com/coingaming/moon-design/commit/478f547f362b0645748354f1985a59c3b42a050d))
 - deprecate caption ([01ec9c1](https://github.com/coingaming/moon-design/commit/01ec9c15e673c3cbd64f78a20680cb36ed2d086b))
@@ -574,7 +582,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - fix tests ([6bc34a9](https://github.com/coingaming/moon-design/commit/6bc34a9f0bfd397739684a7413814a0e31b41fac))
 - fix tests ([3567de2](https://github.com/coingaming/moon-design/commit/3567de2c4df655c602df39c3b0efa1ef590fd251))
 - forwardRef on Button component ([6e69187](https://github.com/coingaming/moon-design/commit/6e6918736ec8ee26283a9bc92bb60e8aa9aa6203))
-- get inherit color for search placeholder from input [B1M2-1322] ([37fabd0](https://github.com/coingaming/moon-design/commit/37fabd0b4515a6ca70b2d4ffd9f6a3c675adeabe))
+- get inherit color for search placeholder from input [B1M2-1322](<[37fabd0](https://github.com/coingaming/moon-design/commit/37fabd0b4515a6ca70b2d4ffd9f6a3c675adeabe)>)
 - linting ([9d6e1d3](https://github.com/coingaming/moon-design/commit/9d6e1d339017398e5175835fd0ec052854259624))
 - margin when there is count ([8cbda76](https://github.com/coingaming/moon-design/commit/8cbda76a3742a699b7ee36b15b0cd0cebe6dc85d))
 - more package repo updates ([31918cb](https://github.com/coingaming/moon-design/commit/31918cbaede25c45048160e18cf6dcfb383a3523))
@@ -698,7 +706,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - add item count in CheckboxMultiselect ([d5df32b](https://github.com/coingaming/moon-design/commit/d5df32b6ebdd6c6ed542023ec22383d1c5fef9c1))
 - add SingleItemSelect filter to FilterDropdown ([0bc6380](https://github.com/coingaming/moon-design/commit/0bc63800d9782774cd1ff4adac25c1f0556c5e13))
 - add tag list component ([0b1057b](https://github.com/coingaming/moon-design/commit/0b1057b0008d3ceced9f36802d0f20d4fc553455))
-- utorg logo [BASE1-1441] ([4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf))
+- utorg logo [BASE1-1441](<[4f97a95](https://github.com/coingaming/moon-design/commit/4f97a95a55f83807cc28520e59ddc20f0cfbb3bf)>)
 - **chip:** add Chip component ([bc52396](https://github.com/coingaming/moon-design/commit/bc52396a21f3d3738d9a674d9c4118c23dc0884b))
 - add CheckboxMultiselect component ([90bfaf8](https://github.com/coingaming/moon-design/commit/90bfaf82cff5a66b90e770ad59dbc0acc38168fb))
 - add pagination component ([0c8e8da](https://github.com/coingaming/moon-design/commit/0c8e8da0cf6606138318400ada65fc1755dd1d44))
@@ -706,7 +714,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - add single item select ([52167f9](https://github.com/coingaming/moon-design/commit/52167f9f86f24cc9f9adca21bae0fc40abf58b89))
 - add tag-input ([cfd53ee](https://github.com/coingaming/moon-design/commit/cfd53ee2bb623c2c2f67b88ecaec2b9f645ca956))
 - add tree view to CheckboxMultiselect ([d97e5c8](https://github.com/coingaming/moon-design/commit/d97e5c8ec372c1bec38f3d848ca6437ae34fcd59))
-- align datepicker component [B1M2-368] ([ee5a6f9](https://github.com/coingaming/moon-design/commit/ee5a6f9cef82b908702a8ed501be5e29ac1e2e37))
+- align datepicker component [B1M2-368](<[ee5a6f9](https://github.com/coingaming/moon-design/commit/ee5a6f9cef82b908702a8ed501be5e29ac1e2e37)>)
 - cleanup outdated docs B1M2-432 ([acfb7da](https://github.com/coingaming/moon-design/commit/acfb7dad8967dfd5a941b872e231bf26aedbb907))
 - default exports ([478f547](https://github.com/coingaming/moon-design/commit/478f547f362b0645748354f1985a59c3b42a050d))
 - deprecate caption ([01ec9c1](https://github.com/coingaming/moon-design/commit/01ec9c15e673c3cbd64f78a20680cb36ed2d086b))
@@ -878,7 +886,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - fix tests ([f286182](https://github.com/coingaming/moon-design/commit/f286182074e02b4bce6424df2284c9a15348b9f9))
 - fix tests ([2fa5971](https://github.com/coingaming/moon-design/commit/2fa5971961a03ffdcc10ed28a84f9cec263d6a98))
 - forwardRef on Button component ([532fa04](https://github.com/coingaming/moon-design/commit/532fa0446e42c673724be0dce54876ae7f15ef72))
-- get inherit color for search placeholder from input [B1M2-1322] ([5388590](https://github.com/coingaming/moon-design/commit/5388590a0d616571cf2a927a521a9d3e0b32b5a1))
+- get inherit color for search placeholder from input [B1M2-1322](<[5388590](https://github.com/coingaming/moon-design/commit/5388590a0d616571cf2a927a521a9d3e0b32b5a1)>)
 - linting ([a6e1095](https://github.com/coingaming/moon-design/commit/a6e10959f5f5624880b63a0f68d7e53c95ccb421))
 - margin when there is count ([3bdab2d](https://github.com/coingaming/moon-design/commit/3bdab2d025a44b305a13a769b49c01665dde93ad))
 - more package repo updates ([7bde925](https://github.com/coingaming/moon-design/commit/7bde9250507c8330260914f31971c66740482e81))
@@ -1002,7 +1010,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - add item count in CheckboxMultiselect ([5e9ba0c](https://github.com/coingaming/moon-design/commit/5e9ba0ccdb3a01cd6055fdabef90c2250a0f844e))
 - add SingleItemSelect filter to FilterDropdown ([552c65e](https://github.com/coingaming/moon-design/commit/552c65ec9cca3d8a5d2b6358c239f5b354bd0600))
 - add tag list component ([535e7a8](https://github.com/coingaming/moon-design/commit/535e7a8df43d8c3eab8aa9db038e507ba8dbef3c))
-- utorg logo [BASE1-1441] ([6d400d0](https://github.com/coingaming/moon-design/commit/6d400d0c2101b369310d84263559d7d9b5958c0b))
+- utorg logo [BASE1-1441](<[6d400d0](https://github.com/coingaming/moon-design/commit/6d400d0c2101b369310d84263559d7d9b5958c0b)>)
 - **chip:** add Chip component ([2f87d99](https://github.com/coingaming/moon-design/commit/2f87d991c900526dd60d770afc2c0fd143c5a2f5))
 - add CheckboxMultiselect component ([e57851c](https://github.com/coingaming/moon-design/commit/e57851c10e0ce53281e5cff2f7b08d2b3a0e3125))
 - add pagination component ([a7820cf](https://github.com/coingaming/moon-design/commit/a7820cfb009c5908aacae209e1605a2ec355a8d6))
@@ -1010,7 +1018,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - add single item select ([e11f1cb](https://github.com/coingaming/moon-design/commit/e11f1cbf131bc5519208b96c2d9f372d2c41c24b))
 - add tag-input ([2b5aad3](https://github.com/coingaming/moon-design/commit/2b5aad358c44d1035606bb04b7757c53ddcca1ce))
 - add tree view to CheckboxMultiselect ([12d65c3](https://github.com/coingaming/moon-design/commit/12d65c39fa0940f3229cb511e9ad939d740b7aca))
-- align datepicker component [B1M2-368] ([073de20](https://github.com/coingaming/moon-design/commit/073de20fdafd81c297b4f1c723cb830134b31b39))
+- align datepicker component [B1M2-368](<[073de20](https://github.com/coingaming/moon-design/commit/073de20fdafd81c297b4f1c723cb830134b31b39)>)
 - cleanup outdated docs B1M2-432 ([3304206](https://github.com/coingaming/moon-design/commit/33042065757a40ec35f2c94adb13aa2054099f19))
 - default exports ([6a5cd85](https://github.com/coingaming/moon-design/commit/6a5cd851f0e65aca46f19e3f0167d379e98d4ffe))
 - deprecate caption ([51dc9ab](https://github.com/coingaming/moon-design/commit/51dc9ab4a6eb8632f486472cb34bba71772cced8))
