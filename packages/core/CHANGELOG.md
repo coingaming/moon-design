@@ -1,29 +1,38 @@
 # Change Log
 
+## 7.0.0
+
+### Major Changes
+
+- switch to pnpm
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons@7.0.0
+  - @heathmont/moon-themes@7.0.0
+  - @heathmont/moon-utils@7.0.0
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [6.19.1](https://github.com/coingaming/moon-design/compare/v6.19.0...v6.19.1) (2021-09-14)
-
+## [6.19.2](https://github.com/coingaming/moon-design/compare/v6.19.1...v6.19.2) (2021-09-15)
 
 ### Bug Fixes
 
-* add name prop to radioButton [B1M2-3880] ([#1400](https://github.com/coingaming/moon-design/issues/1400)) ([3c411a9](https://github.com/coingaming/moon-design/commit/3c411a99ea0edf3d447e04df4cccb40b0404da6a))
+- ts issue for radioButton [B1M2-3880](<[#1402](https://github.com/coingaming/moon-design/issues/1402)>) ([3cfda50](https://github.com/coingaming/moon-design/commit/3cfda505c99a349093f22039992933ff95131807))
 
+## [6.19.1](https://github.com/coingaming/moon-design/compare/v6.19.0...v6.19.1) (2021-09-14)
 
+### Bug Fixes
 
-
+- add name prop to radioButton [B1M2-3880](<[#1400](https://github.com/coingaming/moon-design/issues/1400)>) ([3c411a9](https://github.com/coingaming/moon-design/commit/3c411a99ea0edf3d447e04df4cccb40b0404da6a))
 
 # [6.19.0](https://github.com/coingaming/moon-design/compare/v6.18.0...v6.19.0) (2021-09-14)
 
-
 ### Features
 
-* added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
-
-
-
-
+- added RadioButton [B1M2-3880](<[#1398](https://github.com/coingaming/moon-design/issues/1398)>) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
@@ -35,7 +44,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
+- add status for avatar [B1M2-3872](<[#1390](https://github.com/coingaming/moon-design/issues/1390)>) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
 
 ## [6.16.3](https://github.com/coingaming/moon-design/compare/v6.16.2...v6.16.3) (2021-09-10)
 
@@ -67,21 +76,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add Label component [B1M2-3518] ([#1375](https://github.com/coingaming/moon-design/issues/1375)) ([29797ab](https://github.com/coingaming/moon-design/commit/29797ab3e70e149acc3ab566eb9535b6163a5071))
-- changed folder structure for core [B1M2-3866] ([#1376](https://github.com/coingaming/moon-design/issues/1376)) ([2e63f70](https://github.com/coingaming/moon-design/commit/2e63f708df3c4cc60a214908329baaf1cb507ae7))
+- add Label component [B1M2-3518](<[#1375](https://github.com/coingaming/moon-design/issues/1375)>) ([29797ab](https://github.com/coingaming/moon-design/commit/29797ab3e70e149acc3ab566eb9535b6163a5071))
+- changed folder structure for core [B1M2-3866](<[#1376](https://github.com/coingaming/moon-design/issues/1376)>) ([2e63f70](https://github.com/coingaming/moon-design/commit/2e63f708df3c4cc60a214908329baaf1cb507ae7))
 
 # [6.14.0](https://github.com/coingaming/moon-design/compare/v6.13.0...v6.14.0) (2021-09-08)
 
 ### Features
 
-- add additional functionality for dialog [B1M2-3675] ([#1366](https://github.com/coingaming/moon-design/issues/1366)) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
-- add New Tabs in core [B1M2-3511] ([#1372](https://github.com/coingaming/moon-design/issues/1372)) ([505771f](https://github.com/coingaming/moon-design/commit/505771f956375d81d2a65da21e58dca6caa0ad72))
+- add additional functionality for dialog [B1M2-3675](<[#1366](https://github.com/coingaming/moon-design/issues/1366)>) ([8e373ae](https://github.com/coingaming/moon-design/commit/8e373ae985b2542dd904b8a7b1c79e929a8572c2))
+- add New Tabs in core [B1M2-3511](<[#1372](https://github.com/coingaming/moon-design/issues/1372)>) ([505771f](https://github.com/coingaming/moon-design/commit/505771f956375d81d2a65da21e58dca6caa0ad72))
 
 # [6.13.0](https://github.com/coingaming/moon-design/compare/v6.12.2...v6.13.0) (2021-09-02)
 
 ### Features
 
-- addd ListItem component [B1M2-3510] ([#1345](https://github.com/coingaming/moon-design/issues/1345)) ([7ae210e](https://github.com/coingaming/moon-design/commit/7ae210e02522ea19c2e9f5e0146498ecbcdde137))
+- addd ListItem component [B1M2-3510](<[#1345](https://github.com/coingaming/moon-design/issues/1345)>) ([7ae210e](https://github.com/coingaming/moon-design/commit/7ae210e02522ea19c2e9f5e0146498ecbcdde137))
 
 # [6.12.0](https://github.com/coingaming/moon-design/compare/v6.11.2...v6.12.0) (2021-08-31)
 
@@ -149,7 +158,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+- border radiuses, update Bitcasino radius token [BASE1-1723](<[21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343)>)
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
 
