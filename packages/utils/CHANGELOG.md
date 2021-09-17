@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.1.0
+
+### Minor Changes
+
+- Introduce Header & Footer
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.1.0
+
 ## 7.0.0
 
 ### Major Changes

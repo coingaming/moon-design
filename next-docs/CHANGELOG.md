@@ -1,5 +1,26 @@
 # Change Log
 
+## 7.1.0
+
+### Minor Changes
+
+- Introduce Header & Footer
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.1.0
+  - @heathmont/moon-assets@7.1.0
+  - @heathmont/moon-charts@7.1.0
+  - @heathmont/moon-components@7.1.0
+  - @heathmont/moon-core@7.1.0
+  - @heathmont/moon-draggabletable@7.1.0
+  - @heathmont/moon-icons@7.1.0
+  - @heathmont/moon-pagination@7.1.0
+  - @heathmont/moon-table@7.1.0
+  - @heathmont/moon-themes@7.1.0
+  - @heathmont/moon-utils@7.1.0
+
 ## 7.0.0
 
 ### Major Changes
