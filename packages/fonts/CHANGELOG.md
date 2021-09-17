@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.1.0
+
+### Minor Changes
+
+- Introduce Header & Footer
+
 ## 7.0.0
 
 ### Major Changes
