@@ -10,9 +10,7 @@
     "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "publish:packages": "lerna publish --yes",
-    "publish:packages@beta": "lerna publish --canary --preid beta --no-push --dist-tag beta --force-publish",
-    "publish:packages@alpha": "lerna publish --canary --preid alpha --no-push --dist-tag beta --force-publish"
+    "publish:packages": "pnpm publish --no-git-checks -r --filter ./packages --access public"
   },
   "config": {
     "commitizen": {
@@ -55,6 +53,7 @@
     "@babel/preset-env": "7.6.3",
     "@babel/preset-react": "7.6.3",
     "@babel/preset-typescript": "7.12.7",
+    "@changesets/cli": "^2.17.0",
     "@svgr/cli": "4.1.0",
     "@svgr/plugin-jsx": "4.1.0",
     "@types/jest": "24.0.11",

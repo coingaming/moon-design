@@ -12,6 +12,12 @@ const Footer = () => (
     >
       Github
     </a>
+    <a
+      className="hover:underline cursor-pointer"
+      href="https://www.figma.com/community/file/1002945721703152933"
+    >
+      Figma Community
+    </a>
     {/* <a className="hover:underline cursor-pointer">Medium</a> */}
     <p className="">With the help of Yolo Group</p>
   </footer>

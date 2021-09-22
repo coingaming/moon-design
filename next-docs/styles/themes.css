@@ -141,6 +141,62 @@
   --trunks: #8697a2;
 }
 
+.theme-betadda-dark {
+  --piccolo-120: #e68a2e;
+  --piccolo: #ff9933;
+  --piccolo-80: #ffa347;
+
+  --hit-120: #19930e;
+  --hit: #1ca30f;
+  --hit-80: #33ac27;
+
+  --beerus: #40464f;
+
+  --goku: #272e37;
+  --goku-80: #353c44;
+  --goku-40: #4c5159;
+  --goku-10: #62676d;
+
+  --gohan: #1a212a;
+  --gohan-80: #31373f;
+  --gohan-40: #5f646a;
+  --gohan-10: #8c9095;
+
+  --goten: #ffffff;
+
+  --bulma: #ffffff;
+
+  --trunks: #97a2ae;
+}
+
+.theme-betadda-light {
+  --piccolo-120: #e68a2e;
+  --piccolo: #ff9933;
+  --piccolo-80: #ffa347;
+
+  --hit-120: #19930e;
+  --hit: #1ca30f;
+  --hit-80: #33ac27;
+
+  --beerus: #e4e6e9;
+
+  --goku: #ffffff;
+  --goku-80: #f1f2f3;
+  --goku-40: #e0e3e6;
+  --goku-10: #ced4d9;
+
+  --gohan: #f2f3f7;
+  --gohan-80: #e8e9ed;
+  --gohan-40: #dfe0e3;
+  --gohan-10: #d5d6d9;
+
+  --goten: #ffffff;
+
+  --bulma: #1a212a;
+
+  --trunks: #63717b;
+}
+
 .theme-sportsbet-dark {
   --piccolo-120: #02c054;
   --piccolo: #0ccf61;

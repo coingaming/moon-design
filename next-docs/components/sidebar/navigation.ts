@@ -33,6 +33,8 @@ const navigation = [
           { name: 'Dialog', href: '/components/dialog/dialog' }, // TODO code
           { name: 'Dialog Content', href: '/components/dialog/dialogContent' }, // TODO code
           { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' }, // TODO code
+          { name: 'Dialog Header', href: '/components/dialog/header' }, // TODO code
+          { name: 'Dialog Footer', href: '/components/dialog/footer' }, // TODO code
         ],
       },
       // Dropdown

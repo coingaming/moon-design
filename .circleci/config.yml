@@ -117,18 +117,6 @@ jobs:
           paths:
             - packages/*/lib/*
 
-  build_storybook:
-    <<: *default
-    steps:
-      - checkout
-      - attach_workspace:
-          at: ./
-      - run: pnpm run next build
-      - persist_to_workspace:
-          root: ./
-          paths:
-            - next-docs/public
-
   build_docs_and_push:
     <<: *default
     steps:
@@ -164,7 +152,7 @@ jobs:
       - attach_workspace:
           at: ./
       - *install_npm_token
-      - run: yarn publish:packages
+      - run: pnpm run publish:packages
       - run:
           name: 'Update `develop` with `master`'
           command: |
@@ -211,17 +199,6 @@ workflows:
           requires:
             - dependencies
 
-      - build_storybook:
-          context: global
-          filters:
-            branches:
-              only:
-                - develop
-                - master
-          requires:
-            - dependencies
-            - build
-
       - lint:
           context: global
           filters:
@@ -242,20 +219,6 @@ workflows:
             - dependencies
             - build
             - lint
-
-      - build_docs_and_push:
-          context: global
-          filters:
-            branches:
-              only:
-                - develop
-                - master
-          requires:
-            - dependencies
-            - build
-            - lint
-            - publish
-            - build_storybook
 
       - tag_master_image:
           context: global

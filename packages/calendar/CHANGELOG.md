@@ -1,18 +1,52 @@
 # Change Log
 
+## 7.2.0
+
+### Minor Changes
+
+- Added dark betadda theme, fixed docs
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.2.0
+  - @heathmont/moon-themes@7.2.0
+  - @heathmont/moon-utils@7.2.0
+
+## 7.1.0
+
+### Minor Changes
+
+- Introduce Header & Footer
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.1.0
+  - @heathmont/moon-themes@7.1.0
+  - @heathmont/moon-utils@7.1.0
+
+## 7.0.0
+
+### Major Changes
+
+- switch to pnpm
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.0.0
+  - @heathmont/moon-themes@7.0.0
+  - @heathmont/moon-utils@7.0.0
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # [6.19.0](https://github.com/coingaming/moon-design/compare/v6.18.0...v6.19.0) (2021-09-14)
 
-
 ### Features
 
-* added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
-
-
-
-
+- added RadioButton [B1M2-3880](<[#1398](https://github.com/coingaming/moon-design/issues/1398)>) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
@@ -24,7 +58,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
+- add status for avatar [B1M2-3872](<[#1390](https://github.com/coingaming/moon-design/issues/1390)>) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
 
 # [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
 

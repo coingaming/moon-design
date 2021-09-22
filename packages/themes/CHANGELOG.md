@@ -1,18 +1,31 @@
 # Change Log
 
+## 7.2.0
+
+### Minor Changes
+
+- Added dark betadda theme, fixed docs
+
+## 7.1.0
+
+### Minor Changes
+
+- Introduce Header & Footer
+
+## 7.0.0
+
+### Major Changes
+
+- switch to pnpm
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # [6.19.0](https://github.com/coingaming/moon-design/compare/v6.18.0...v6.19.0) (2021-09-14)
 
-
 ### Features
 
-* added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
-
-
-
-
+- added RadioButton [B1M2-3880](<[#1398](https://github.com/coingaming/moon-design/issues/1398)>) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
@@ -24,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add status for avatar [B1M2-3872] ([#1390](https://github.com/coingaming/moon-design/issues/1390)) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
+- add status for avatar [B1M2-3872](<[#1390](https://github.com/coingaming/moon-design/issues/1390)>) ([b947129](https://github.com/coingaming/moon-design/commit/b9471296aef15e26af5402361587a2717205c191))
 
 # [6.16.0](https://github.com/coingaming/moon-design/compare/v6.15.1...v6.16.0) (2021-09-09)
 
@@ -50,7 +63,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+- border radiuses, update Bitcasino radius token [BASE1-1723](<[21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343)>)
   s
 
 ### Bug Fixes
@@ -69,7 +82,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
+- border radiuses, update Bitcasino radius token [BASE1-1723](<[21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343)>)
 
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
@@ -85,7 +98,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- update Livecasino themes [B1M2-3095] ([#1291](https://github.com/coingaming/moon-design/issues/1291)) ([ec87e27](https://github.com/coingaming/moon-design/commit/ec87e27007bbc777ee5c6fb74234d0eaa3f9f5c3))
+- update Livecasino themes [B1M2-3095](<[#1291](https://github.com/coingaming/moon-design/issues/1291)>) ([ec87e27](https://github.com/coingaming/moon-design/commit/ec87e27007bbc777ee5c6fb74234d0eaa3f9f5c3))
 
 # [6.4.0](https://github.com/coingaming/moon-design/compare/v6.3.3...v6.4.0) (2021-08-04)
 
