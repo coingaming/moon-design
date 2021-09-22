@@ -30,6 +30,8 @@ export { default as ScreenLoader } from './screenLoader/ScreenLoader';
 export * from './screenLoader/ScreenLoader';
 export { default as Search } from './search/Search';
 export * from './search/Search';
+export { default as SingleSelect } from './singleSelect/SingleSelect';
+export * from './singleSelect/SingleSelect';
 export { default as TabLink } from './tabLink/TabLink';
 export * from './tabLink/TabLink';
 export { default as TabLinkFill } from './tabLinkFill/TabLinkFill';

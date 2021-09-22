@@ -13,7 +13,10 @@ export default function PageListItem() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">List Item</h1>
-        <p className="text-lg mt-4">List item component</p>
+        <p className="text-lg mt-4">
+          List item component. The List item width is determined by the width of
+          the parent container.
+        </p>
       </section>
       <section className="mt-8 text-center">
         <h2 className="text-2xl font-semibold">Single line item</h2>
@@ -21,9 +24,13 @@ export default function PageListItem() {
       <section className="mt-2">
         <Preview
           preview={
-            <div className="flex justify-around items-center w-full">
-              <ListItem>Single line item</ListItem>
-              <ListItem backgroundColor="goku.100">Single line item</ListItem>
+            <div className="flex justify-around items-center w-full min-w-min flex-wrap">
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem>Single line item</ListItem>
+              </div>
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem backgroundColor="goku.100">Single line item</ListItem>
+              </div>
             </div>
           }
           code={`import { ListItem } from '@heathmont/moon-core';
@@ -38,11 +45,15 @@ export default function PageListItem() {
         <Preview
           title="Size (by default: large)"
           preview={
-            <div className="flex justify-around items-center w-full">
-              <ListItem backgroundColor="goku.100">Large</ListItem>
-              <ListItem size="medium" backgroundColor="goku.100">
-                Medium
-              </ListItem>
+            <div className="flex justify-around items-center w-full min-w-min flex-wrap">
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem backgroundColor="goku.100">Large</ListItem>
+              </div>
+              <div className="m-0.5 min-w-full sm:min-w-min">
+                <ListItem size="medium" backgroundColor="goku.100">
+                  Medium
+                </ListItem>
+              </div>
             </div>
           }
           code={`import { ListItem } from '@heathmont/moon-core';
@@ -130,9 +141,11 @@ export default function PageListItem() {
       <section className="mt-2">
         <Preview
           preview={
-            <div className="flex justify-around items-center w-full">
-              <ListItem subtext={<SubText />}>Two lines item</ListItem>
-              <div className="w-96">
+            <div className="flex justify-around items-center w-full min-w-min flex-wrap">
+              <div className="min-w-full sm:min-w-min mb-2">
+                <ListItem subtext={<SubText />}>Two lines item</ListItem>
+              </div>
+              <div className="sm:w-96">
                 <ListItem backgroundColor="goku.100" subtext={<SubText />}>
                   Two lines item
                 </ListItem>

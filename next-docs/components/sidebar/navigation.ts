@@ -58,6 +58,7 @@ const navigation = [
       },
       { name: 'Search', href: '/components/search' },
       { name: 'Select', href: '/components/select' },
+      { name: 'Single Select', href: '/components/singleSelect' },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
       // {

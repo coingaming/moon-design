@@ -18,6 +18,7 @@ const RadioButtonInput = forwardRef<HTMLInputElement, RadioButtonInputProps>(
       <RadioButtonHiddenInput
         id={id}
         key={id}
+        type="radio"
         name={name}
         disabled={disabled}
         aria-label={ariaLabel}
