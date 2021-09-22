@@ -21,8 +21,8 @@ const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
       <ListboxButtonWrapper
         arrow={<ControlsChevronDown fontSize={rem(24)} color="bulma.100" />}
         disabled={disabled}
-        isExpanded={isExpanded}
-        inputSize={inputSize}
+        isexpanded={isExpanded ? 'true' : undefined}
+        inputsize={inputSize}
       >
         {controlledValue}
       </ListboxButtonWrapper>
@@ -32,8 +32,8 @@ const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
     <ListboxButtonWrapper
       arrow={<ControlsChevronDown fontSize={rem(24)} color="bulma.100" />}
       disabled={disabled}
-      isExpanded={isExpanded}
-      inputSize={inputSize}
+      isexpanded={isExpanded ? 'true' : undefined}
+      inputsize={inputSize}
     />
   );
 };

@@ -95,17 +95,17 @@ importers:
   next-docs:
     specifiers:
       '@headlessui/react': 1.2.0
-      '@heathmont/moon-accordion': ^6.19.0
-      '@heathmont/moon-assets': ^6.19.0
-      '@heathmont/moon-charts': ^6.19.0
-      '@heathmont/moon-components': ^6.19.0
-      '@heathmont/moon-core': ^6.19.0
-      '@heathmont/moon-draggabletable': ^6.19.0
-      '@heathmont/moon-icons': ^6.19.0
-      '@heathmont/moon-pagination': ^6.19.0
-      '@heathmont/moon-table': ^6.19.0
-      '@heathmont/moon-themes': ^6.19.0
-      '@heathmont/moon-utils': ^6.19.0
+      '@heathmont/moon-accordion': workspace:^
+      '@heathmont/moon-assets': workspace:^
+      '@heathmont/moon-charts': workspace:^
+      '@heathmont/moon-components': workspace:^
+      '@heathmont/moon-core': workspace:^
+      '@heathmont/moon-draggabletable': workspace:^
+      '@heathmont/moon-icons': workspace:^
+      '@heathmont/moon-pagination': workspace:^
+      '@heathmont/moon-table': workspace:^
+      '@heathmont/moon-themes': workspace:^
+      '@heathmont/moon-utils': workspace:^
       '@types/react': 16.9.9
       '@types/styled-components': 5.1.7
       autoprefixer: 10.2.5
@@ -123,17 +123,17 @@ importers:
       typescript: 4.3.4
     dependencies:
       '@headlessui/react': 1.2.0_react@17.0.2
-      '@heathmont/moon-accordion': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-assets': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-charts': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-components': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-core': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-draggabletable': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-icons': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-pagination': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-table': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
+      '@heathmont/moon-accordion': link:../packages/accordion
+      '@heathmont/moon-assets': link:../packages/assets
+      '@heathmont/moon-charts': link:../packages/charts
+      '@heathmont/moon-components': link:../packages/components
+      '@heathmont/moon-core': link:../packages/core
+      '@heathmont/moon-draggabletable': link:../packages/draggabletable
+      '@heathmont/moon-icons': link:../packages/icons
+      '@heathmont/moon-pagination': link:../packages/pagination
+      '@heathmont/moon-table': link:../packages/table
+      '@heathmont/moon-themes': link:../packages/themes
+      '@heathmont/moon-utils': link:../packages/utils
       '@types/react': 16.9.9
       '@types/styled-components': 5.1.7
       autoprefixer: 10.2.5_postcss@8.3.0
@@ -1593,215 +1593,6 @@ packages:
       react: '>=16'
     dependencies:
       react: 17.0.2
-    dev: false
-
-  /@heathmont/moon-accordion/6.21.0_d75f9da446a1e43c91adebdbf5ce5e37:
-    resolution: {integrity: sha512-Gc2pUvpIvP1q/CjWdZ19ogWSv8u0e/pccoTD0mvyekcId20/qjrAD91oSoDqVSOA7+oywmC+UC2IM5S6f8U1Vg==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-assets': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-components': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
-  /@heathmont/moon-assets/6.21.0_bbdb8d52999b72a1711e5d621e13b66d:
-    resolution: {integrity: sha512-pJ96PtUYDE2SUfyip3Rl81lRA60NCFVRPjqNHAqF2FD5dFFKDLH+l6pYrOObSXi7qTf05zgiUYm4/z2SzsqnGg==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    dev: false
-
-  /@heathmont/moon-charts/6.21.0_d75f9da446a1e43c91adebdbf5ce5e37:
-    resolution: {integrity: sha512-mMjGMCiXVZDUtCm/L/LDrejvrPUhH+7DSDjmopeTaJ38GWev5y4HpTJrGiV5q+5TsSc8plaJcW+Liob8GK1rhQ==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-assets': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-components': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@types/react-simple-maps': 1.0.3
-      '@types/react-transition-group': 4.4.0
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-simple-maps: 2.3.0_react-dom@17.0.2+react@17.0.2
-      react-transition-group: 4.4.1_react-dom@17.0.2+react@17.0.2
-      react-use: 15.3.8_react-dom@17.0.2+react@17.0.2
-      recharts: 2.0.9_react-dom@17.0.2+react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-      - prop-types
-    dev: false
-
-  /@heathmont/moon-components/6.21.0_d75f9da446a1e43c91adebdbf5ce5e37:
-    resolution: {integrity: sha512-TF00gHLjHHoVxPUYIV43s8FKlluTXFTTDNcGXgdIFiQyQMYc9BlE2k0DpPzc00juaUU/Y7GylYpt/rMBeAnDTw==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-assets': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@reach/dialog': 0.11.2_0cc356502e7af4363659826c703a2bfa
-      '@types/date-fns': 2.6.0
-      date-fns: 2.15.0
-      polished: 4.1.3
-      react: 17.0.2
-      react-click-outside-hook: 1.1.1
-      react-dom: 17.0.2_react@17.0.2
-      scroll-into-view-if-needed: 2.2.22
-      smooth-scroll-into-view-if-needed: 1.1.27
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
-  /@heathmont/moon-core/6.21.0_bbdb8d52999b72a1711e5d621e13b66d:
-    resolution: {integrity: sha512-SdlYdDsaiUgsVX1WT16gVl/0UBs50DrZQmo9xH9+Troqnl3cabwGNdtMs+dcS4p0ThxmHxGg+H45MiM5V6QVaQ==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-icons': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      polished: 4.1.3
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    dev: false
-
-  /@heathmont/moon-draggabletable/6.21.0_d75f9da446a1e43c91adebdbf5ce5e37:
-    resolution: {integrity: sha512-P2ZopAQEpQP2SYfiQLUwb7UQv48A6wQVgeaP0pBJjBf1/Xtf/VXTkf8+IlMx5msi2v1ncDXB40UJLMgPICoHZQ==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-components': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-table': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@types/react-table': 7.0.23
-      immutability-helper: 3.1.1
-      polished: 4.0.1
-      react: 17.0.2
-      react-dnd: 14.0.3_@types+react@16.9.9+react@17.0.2
-      react-dnd-html5-backend: 14.0.1
-      react-dom: 17.0.2_react@17.0.2
-      react-table: 7.5.1_react@17.0.2
-      react-table-hoc-fixed-columns: 2.3.3_react-dom@17.0.2+react@17.0.2
-      react-table-sticky: 1.1.3
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    transitivePeerDependencies:
-      - '@types/hoist-non-react-statics'
-      - '@types/node'
-      - '@types/react'
-    dev: false
-
-  /@heathmont/moon-icons/6.21.0_bbdb8d52999b72a1711e5d621e13b66d:
-    resolution: {integrity: sha512-wV2V9KWi22RdhXX0ix/lVaAyZ5fAUWc/O4F0y0DnOWluL+6lo4C1QTuu084twY7JDeuvvFRQOZf0fOB3VOUDbA==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    dev: false
-
-  /@heathmont/moon-pagination/6.21.0_d75f9da446a1e43c91adebdbf5ce5e37:
-    resolution: {integrity: sha512-XGd52EfNeodpfPD2C3MHJNT0CubH+4hmrtVcRTlmCoX0Y4oi4SstKNLr7eh/7XrwuvMZJ+3qB+3G9hMu78/e0Q==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-assets': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-components': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@types/react-paginate': 6.2.1
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-paginate: 6.5.0_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
-  /@heathmont/moon-table/6.21.0_d75f9da446a1e43c91adebdbf5ce5e37:
-    resolution: {integrity: sha512-hiEH3sLuhfNEipGabzSyfksQq2xZBpxSTSUfw+YLSzHg5IaW2URAXBt22xcEMyFk+arifEnFWUH/G/R17iKS+A==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-components': 6.21.0_d75f9da446a1e43c91adebdbf5ce5e37
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@heathmont/moon-utils': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      '@types/react-table': 7.0.23
-      polished: 4.0.1
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-table: 7.5.1_react@17.0.2
-      react-table-hoc-fixed-columns: 2.3.3_react-dom@17.0.2+react@17.0.2
-      react-table-sticky: 1.1.3
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
-  /@heathmont/moon-themes/6.21.0_bbdb8d52999b72a1711e5d621e13b66d:
-    resolution: {integrity: sha512-VfOH2k4Lj5oZNzaqD+RWc6vZWcE2pYds9j3rBY7trSSt86Ua8R6pDybOhozi4Pxj/1cRzlGha/+R4/8QHkvNFQ==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-    dev: false
-
-  /@heathmont/moon-utils/6.21.0_bbdb8d52999b72a1711e5d621e13b66d:
-    resolution: {integrity: sha512-pw5q5AOPF63IboCPExyNwiPrww4dUCPtQfof7Zoq/7yuOnszkiBsOcNrNgbpboapol/TeCkZVor7OgF6vKUI6g==}
-    peerDependencies:
-      react: '>= 16.10.2'
-      react-dom: '>= 16.10.2'
-      styled-components: '>= 5.2.1'
-    dependencies:
-      '@heathmont/moon-themes': 6.21.0_bbdb8d52999b72a1711e5d621e13b66d
-      lodash.get: 4.4.2
-      lodash.has: 4.5.2
-      polished: 3.4.1
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
     dev: false
 
   /@jest/console/24.9.0:

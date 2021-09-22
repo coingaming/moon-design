@@ -5,23 +5,23 @@ import { ListboxButton, ListboxButtonProps } from '@reach/listbox';
 interface ListboxButtonWrapperProps extends ListboxButtonProps {
   disabled?: boolean;
   ref?: any;
-  inputSize?: 'small' | 'medium';
-  isExpanded?: boolean;
+  inputsize?: 'small' | 'medium';
+  isexpanded?: string;
 }
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
   ({
     theme: { border, color, radius, transitionDuration },
     disabled,
-    isExpanded,
-    inputSize,
+    isexpanded,
+    inputsize,
   }) => [
     {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
       backgroundColor: color.gohan[100],
-      padding: inputSize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
+      padding: inputsize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
       border: border,
       borderColor: color.gohan[100],
       borderRadius: rem(radius.largest),
@@ -47,7 +47,7 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
         lineHeight: rem(24),
       },
     },
-    isExpanded && {
+    isexpanded && {
       '& span[data-reach-listbox-arrow]': {
         transform: 'rotate(180deg)',
       },

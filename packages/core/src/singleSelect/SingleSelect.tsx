@@ -35,7 +35,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       defaultValue={defaultValue}
       onChange={onChange}
       ref={ref}
-      inputSize={inputSize}
+      inputsize={inputSize}
     >
       {({ isExpanded }) => (
         <SingleSelectWithContext

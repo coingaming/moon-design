@@ -604,7 +604,7 @@ const [value, setValue] = React.useState(options[1]);
               <div className="flex justify-around items-center w-96">
                 <SingleSelect
                   options={optionsAsString}
-                  search={<div className="">Search component</div>}
+                  search={<div>Search component</div>}
                 />
               </div>
             </div>

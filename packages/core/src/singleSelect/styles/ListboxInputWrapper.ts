@@ -6,19 +6,19 @@ import React from 'react';
 interface ListboxInputWrapperProps extends ListboxInputProps {
   disabled?: boolean;
   ref?: any;
-  inputSize?: 'small' | 'medium';
+  inputsize?: 'small' | 'medium';
 }
 
 const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
   ({
     theme: { color, borderWidth, radius, transitionDuration },
     disabled,
-    inputSize,
+    inputsize,
   }) => [
     {
       width: '100%',
       maxWidth: '100%',
-      fontSize: inputSize === 'medium' ? rem(14) : rem(16),
+      fontSize: inputsize === 'medium' ? rem(14) : rem(16),
       lineHeight: rem(24),
       color: color.bulma[100],
       border: `${borderWidth}px solid ${color.beerus[100]}`,
