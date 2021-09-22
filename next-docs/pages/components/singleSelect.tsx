@@ -637,6 +637,48 @@ const options = [
         />
       </section>
 
+      {/*Placeholder*/}
+      <section className="mt-8">
+        <Preview
+          title="Placeholder"
+          preview={
+            <div className="flex flex-col justify-around items-center">
+              <div className="flex justify-around items-center w-96">
+                <SingleSelect
+                  options={optionsAsString}
+                  placeholderValue={<div>Choose an option</div>}
+                />
+              </div>
+            </div>
+          }
+          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: <ListItem>Option 1</ListItem>,
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: <ListItem>Option 2</ListItem>,
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: <ListItem>Option 3</ListItem>,
+  },
+];
+
+<SingleSelect 
+  options={options}
+  placeholderValue={<div>Choose an option</div>}
+/>
+`}
+        />
+      </section>
+
       <section className="mt-14">
         <h2 className="text-2xl mb-4">Props for SingleSelect component</h2>
         <Table
@@ -691,6 +733,13 @@ const options = [
               required: false,
               default: '-',
               description: 'Slot for search element',
+            },
+            {
+              name: 'placeholderValue',
+              type: 'JSX.Element',
+              required: false,
+              default: '-',
+              description: 'Placeholder element',
             },
           ]}
         />

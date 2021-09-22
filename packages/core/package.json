@@ -24,6 +24,7 @@
     "@heathmont/moon-icons": "workspace:^6.19.0",
     "@heathmont/moon-themes": "workspace:^6.19.0",
     "@heathmont/moon-utils": "workspace:^6.19.0",
+    "@reach/listbox": "^0.16.1",
     "polished": "^4.1.3"
   },
   "peerDependencies": {

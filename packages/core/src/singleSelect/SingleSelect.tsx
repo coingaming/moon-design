@@ -13,6 +13,7 @@ export interface SingleSelectProps
   inputSize?: 'small' | 'medium';
   search?: JSX.Element;
   controlledValue?: string;
+  placeholderValue?: JSX.Element;
 }
 
 const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
@@ -25,6 +26,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       inputSize,
       search,
       controlledValue,
+      placeholderValue,
     },
     ref
   ) => (
@@ -43,6 +45,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
           inputSize={inputSize}
           search={search}
           controlledValue={controlledValue}
+          placeholderValue={placeholderValue}
         />
       )}
     </ListboxInputWrapper>

@@ -7,6 +7,7 @@ import Option from '../private/OptionType';
 
 interface OptionsProps {
   options: Option[];
+  placeholderValue?: JSX.Element;
 }
 
 const ListboxListWrapper = styled(ListboxList)({
@@ -27,8 +28,15 @@ const ListboxOptionWrapper = styled(ListboxOption)(({ theme: { color } }) => ({
   },
 }));
 
-const Options: React.FC<OptionsProps> = ({ options }) => (
+const Placeholder = styled(ListboxOption)({
+  display: 'none',
+});
+
+const Options: React.FC<OptionsProps> = ({ options, placeholderValue }) => (
   <ListboxListWrapper>
+    {placeholderValue && (
+      <Placeholder value="placeholder">{placeholderValue}</Placeholder>
+    )}
     {options.map((option) => {
       const { value, label, element } = option;
       return (

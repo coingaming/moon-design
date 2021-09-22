@@ -14,6 +14,7 @@ interface SingleSelectWithContextProps
   inputSize?: 'small' | 'medium';
   search?: JSX.Element;
   controlledValue?: string;
+  placeholderValue?: JSX.Element;
 }
 
 const SingleSelectWithContext: React.FC<SingleSelectWithContextProps> = ({
@@ -23,6 +24,7 @@ const SingleSelectWithContext: React.FC<SingleSelectWithContextProps> = ({
   inputSize,
   search,
   controlledValue,
+  placeholderValue,
 }) => (
   <>
     <ListboxButtonComponent
@@ -33,7 +35,7 @@ const SingleSelectWithContext: React.FC<SingleSelectWithContextProps> = ({
     />
     <ListboxPopoverWrapper>
       {search && <SearchWrapper>search</SearchWrapper>}
-      <Options options={options} />
+      <Options options={options} placeholderValue={placeholderValue} />
     </ListboxPopoverWrapper>
   </>
 );

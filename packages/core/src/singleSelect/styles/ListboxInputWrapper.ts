@@ -31,6 +31,9 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
         outline: 'none',
         borderColor: color.piccolo[100],
       },
+      '&[data-value="placeholder"]': {
+        color: color.trunks[100],
+      },
     },
     disabled && {
       opacity: 0.3,
