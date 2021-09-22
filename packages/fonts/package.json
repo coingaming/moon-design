@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-fonts",
   "sideEffects": false,
-  "version": "7.1.0",
+  "version": "7.2.0",
   "main": "lib/index.js",
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",

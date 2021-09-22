@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-components",
   "sideEffects": false,
-  "version": "7.1.0",
+  "version": "7.2.0",
   "files": [
     "lib"
   ],
@@ -21,9 +21,9 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-assets": "workspace:^7.1.0",
-    "@heathmont/moon-themes": "workspace:^7.1.0",
-    "@heathmont/moon-utils": "workspace:^7.1.0",
+    "@heathmont/moon-assets": "workspace:^7.2.0",
+    "@heathmont/moon-themes": "workspace:^7.2.0",
+    "@heathmont/moon-utils": "workspace:^7.2.0",
     "@reach/dialog": "0.11.2",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.15.0",

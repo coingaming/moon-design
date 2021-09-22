@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.2.0
+
+### Minor Changes
+
+- Added dark betadda theme, fixed docs
+
 ## 7.1.0
 
 ### Minor Changes
