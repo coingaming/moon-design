@@ -1,5 +1,17 @@
 # Change Log
 
+## 7.2.0
+
+### Minor Changes
+
+- Added dark betadda theme, fixed docs
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.2.0
+  - @heathmont/moon-utils@7.2.0
+
 ## 7.1.0
 
 ### Minor Changes
