@@ -32,9 +32,11 @@ export default function PageHowToContribute() {
         <CodeSnippet>{`pnpm run build`}</CodeSnippet>
 
         <Text>Run storybook for development with Hot Module Replacement:</Text>
-        <CodeSnippet>{`pnpm run watch`}</CodeSnippet>
-        <CodeSnippet>{`pnpm run next dev`}</CodeSnippet>
 
+        <CodeSnippet>{`pnpm run next dev`}</CodeSnippet>
+        <Text>For Hot Module Replacement run in parallel in separate tab:</Text>
+
+        <CodeSnippet>{`pnpm run watch`}</CodeSnippet>
         <Text>Build and run storybook for production at localhost:80:</Text>
         <CodeSnippet>{`pnpm run next build`}</CodeSnippet>
         <CodeSnippet>{`pnpm run next start`}</CodeSnippet>
