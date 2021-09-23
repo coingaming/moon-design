@@ -37,13 +37,33 @@ const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
   }),
 ]);
 
-const IconLeftWrapper = styled.span<ChipProps>({
-  marginRight: rem(8),
-});
+const IconLeftWrapper = styled.span<
+  ChipProps & { isOnlyIcons?: boolean; isOnlyLeftIcon?: boolean }
+>(({ isOnlyIcons, isOnlyLeftIcon }) => [
+  {
+    marginRight: rem(4),
+  },
+  isOnlyIcons && {
+    marginRight: rem(2),
+  },
+  isOnlyLeftIcon && {
+    marginRight: 0,
+  },
+]);
 
-const IconRightWrapper = styled.span<ChipProps>({
-  marginLeft: rem(8),
-});
+const IconRightWrapper = styled.span<
+  ChipProps & { isOnlyIcons?: boolean; isOnlyRightIcon?: boolean }
+>(({ isOnlyIcons, isOnlyRightIcon }) => [
+  {
+    marginLeft: rem(4),
+  },
+  isOnlyIcons && {
+    marginLeft: rem(2),
+  },
+  isOnlyRightIcon && {
+    marginLeft: 0,
+  },
+]);
 
 const Chip: React.FC<ChipProps> = ({
   children,
@@ -58,9 +78,25 @@ const Chip: React.FC<ChipProps> = ({
     iconRight={iconRight}
     size={size}
   >
-    {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
+    {iconLeft && (
+      <IconLeftWrapper
+        size={size}
+        isOnlyIcons={!children}
+        isOnlyLeftIcon={!children && !iconRight}
+      >
+        {iconLeft}
+      </IconLeftWrapper>
+    )}
     {children}
-    {iconRight && <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>}
+    {iconRight && (
+      <IconRightWrapper
+        size={size}
+        isOnlyIcons={!children}
+        isOnlyRightIcon={!children && !iconLeft}
+      >
+        {iconRight}
+      </IconRightWrapper>
+    )}
   </StyledChip>
 );
 
