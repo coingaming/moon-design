@@ -253,6 +253,46 @@ const options = [
         />
       </section>
 
+      {/* with Label */}
+      <section className="mt-8">
+        <Preview
+          title="With Label"
+          preview={
+            <div className="flex flex-col">
+              <div className="flex justify-around items-center w-96">
+                <SingleSelect
+                  options={optionsAsString}
+                  label="Input label text"
+                  labelId="label-opt-id"
+                />
+              </div>
+            </div>
+          }
+          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: <ListItem>Option 1</ListItem>,
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: <ListItem>Option 2</ListItem>,
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: <ListItem>Option 3</ListItem>,
+  },
+];
+
+<SingleSelect options={options} label="Input label text" labelId="label-opt-id"/>
+`}
+        />
+      </section>
+
       {/* Options as ListItem component */}
       <section className="mt-8">
         <Preview
@@ -740,6 +780,20 @@ const options = [
               required: false,
               default: '-',
               description: 'Placeholder element',
+            },
+            {
+              name: 'label',
+              type: 'JSX.Element | string',
+              required: false,
+              default: '-',
+              description: 'Single select title',
+            },
+            {
+              name: 'labelId',
+              type: 'string',
+              required: false,
+              default: '-',
+              description: 'Id for title',
             },
           ]}
         />
