@@ -5,6 +5,7 @@ import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
 
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
+import { rem } from '@heathmont/moon-utils';
 
 export default function PageChip() {
   return (
@@ -93,18 +94,40 @@ export default function PageChip() {
           title="Icons"
           preview={
             <div className="flex justify-around items-center w-full">
-              <Chip iconLeft={<MediaMusic />}>Left Icon</Chip>
-              <Chip iconRight={<SoftwareDownload />}>Right Icon</Chip>
-              <Chip iconRight={<SoftwareDownload />} iconLeft={<MediaMusic />}>
+              <Chip iconLeft={<MediaMusic fontSize={rem(24)} />}>
+                Left Icon
+              </Chip>
+              <Chip iconRight={<SoftwareDownload fontSize={rem(24)} />}>
+                Right Icon
+              </Chip>
+              <Chip
+                iconRight={<SoftwareDownload fontSize={rem(24)} />}
+                iconLeft={<MediaMusic fontSize={rem(24)} />}
+              >
                 Left/Right Icons
               </Chip>
+              <Chip
+                iconRight={<SoftwareDownload fontSize={rem(24)} />}
+                iconLeft={<MediaMusic fontSize={rem(24)} />}
+              />
+              <Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} />
             </div>
           }
           code={`import { Chip } from '@heathmont/moon-components';
+import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
+import { rem } from '@heathmont/moon-utils';
 
-<Chip iconLeft={(<MediaMusic />)}>Left Icon</Chip>
-<Chip iconRight={(<OtherSun />)}>Right Icon</Chip>
-<Chip iconRight={<SoftwareDownload />} iconLeft={<MediaMusic />}>Left/Right Icons</Chip>
+<Chip iconLeft={<MediaMusic fontSize={rem(24)} />}>Left Icon</Chip>
+
+<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />}>Right Icon</Chip>
+
+<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} iconLeft={<MediaMusic fontSize={rem(24)} />}/>
+  Left/Right Icons
+</Chip>
+
+<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} iconLeft={<MediaMusic fontSize={rem(24)} />}/>
+
+<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} />
   `}
         />
       </section>
