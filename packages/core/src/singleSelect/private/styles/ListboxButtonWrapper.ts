@@ -7,6 +7,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
   ref?: any;
   inputsize?: 'small' | 'medium';
   isexpanded?: string;
+  error?: string;
 }
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
@@ -15,6 +16,7 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
     disabled,
     isexpanded,
     inputsize,
+    error,
   }) => [
     {
       display: 'flex',
@@ -23,7 +25,7 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       backgroundColor: color.gohan[100],
       padding: inputsize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
       border: border,
-      borderColor: color.gohan[100],
+      borderColor: error ? color.chiChi[100] : color.gohan[100],
       borderRadius: rem(radius.largest),
       transition: `border-color ${transitionDuration.default}s ease`,
       WebkitAppearance: 'none',
@@ -38,10 +40,10 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: color.piccolo[100],
+        borderColor: error ? color.chiChi[100] : color.piccolo[100],
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.beerus[100],
+        borderColor: error ? color.chiChi[100] : color.beerus[100],
       },
       '@supports (-moz-appearance:none)': {
         lineHeight: rem(24),

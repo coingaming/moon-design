@@ -293,6 +293,49 @@ const options = [
         />
       </section>
 
+      {/* with Hint */}
+      <section className="mt-8">
+        <Preview
+          title="With Hint Text and error"
+          preview={
+            <div className="flex flex-col">
+              <div className="flex justify-around items-center w-96">
+                <SingleSelect
+                  options={optionsAsString}
+                  isError
+                  hintText="Informative message holder"
+                />
+              </div>
+            </div>
+          }
+          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: <ListItem>Option 1</ListItem>,
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: <ListItem>Option 2</ListItem>,
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: <ListItem>Option 3</ListItem>,
+  },
+];
+
+<SingleSelect options={options} 
+  isError
+  hintText="Informative message holder"
+/>
+`}
+        />
+      </section>
+
       {/* Options as ListItem component */}
       <section className="mt-8">
         <Preview
@@ -794,6 +837,20 @@ const options = [
               required: false,
               default: '-',
               description: 'Id for title',
+            },
+            {
+              name: 'hintText',
+              type: 'JSX.Element | string',
+              required: false,
+              default: '-',
+              description: 'Informative message under select',
+            },
+            {
+              name: 'isError',
+              type: 'boolean',
+              required: false,
+              default: '-',
+              description: 'Set error state for select',
             },
           ]}
         />

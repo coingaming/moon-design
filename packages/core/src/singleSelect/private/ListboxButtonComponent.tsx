@@ -8,6 +8,7 @@ interface ListboxButtonContainerProps {
   isExpanded?: boolean;
   inputSize?: 'small' | 'medium';
   controlledValue?: string;
+  error?: boolean;
 }
 
 const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
@@ -15,6 +16,7 @@ const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
   isExpanded,
   inputSize,
   controlledValue,
+  error,
 }) => {
   if (controlledValue) {
     return (
@@ -23,6 +25,7 @@ const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
         disabled={disabled}
         isexpanded={isExpanded ? 'true' : undefined}
         inputsize={inputSize}
+        error={error ? 'true' : undefined}
       >
         {controlledValue}
       </ListboxButtonWrapper>
@@ -34,6 +37,7 @@ const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
       disabled={disabled}
       isexpanded={isExpanded ? 'true' : undefined}
       inputsize={inputSize}
+      error={error ? 'true' : undefined}
     />
   );
 };

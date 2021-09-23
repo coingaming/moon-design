@@ -2,6 +2,7 @@ import React, { forwardRef } from 'react';
 import ListboxInputWrapper from './styles/ListboxInputWrapper';
 import Container from './styles/Container';
 import SelectLabel from './styles/SelectLabel';
+import HintText from './styles/HintText';
 import SingleSelectWithContext from './private/SingleSelectWithContext';
 import Option from './private/OptionType';
 
@@ -17,6 +18,8 @@ export interface SingleSelectProps
   placeholderValue?: JSX.Element;
   label?: JSX.Element | string;
   labelId?: string;
+  hintText?: JSX.Element | string;
+  isError?: boolean;
 }
 
 const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
@@ -32,6 +35,8 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       placeholderValue,
       label,
       labelId,
+      hintText,
+      isError,
     },
     ref
   ) => (
@@ -44,6 +49,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
         ref={ref}
         inputsize={inputSize}
         aria-labelledby={labelId}
+        error={isError ? 'true' : undefined}
       >
         {({ isExpanded }) => (
           <SingleSelectWithContext
@@ -54,9 +60,11 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
             search={search}
             controlledValue={controlledValue}
             placeholderValue={placeholderValue}
+            error={isError}
           />
         )}
       </ListboxInputWrapper>
+      {hintText && <HintText isError={isError}>{hintText}</HintText>}
     </Container>
   )
 );
