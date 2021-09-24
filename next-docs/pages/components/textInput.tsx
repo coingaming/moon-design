@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TextInput } from '@heathmont/moon-components';
+import { TextInput } from '@heathmont/moon-core';
 
 import Preview from '../../components/codePreview/Preview';
 
@@ -12,7 +12,20 @@ const PreviewTextInput = () => {
         <div className="flex flex-col gap-4">
           <TextInput type="text" label="Text" placeholder="e.g. username" />
 
-          <TextInput type="date" label="Date" />
+          <TextInput
+            type="text"
+            label="This input is quite long"
+            placeholder="e.g. username"
+          />
+
+          <TextInput
+            type="text"
+            label="Text"
+            placeholder="e.g. username2"
+            size="medium"
+          />
+
+          <TextInput type="date" label="Date" error />
 
           <TextInput type="datetime-local" label="Date and time" />
 
