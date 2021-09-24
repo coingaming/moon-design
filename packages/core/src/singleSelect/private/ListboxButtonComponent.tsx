@@ -1,45 +1,34 @@
 import React from 'react';
-import { ControlsChevronDown } from '@heathmont/moon-icons/lib';
-import { rem } from '@heathmont/moon-utils';
-import ListboxButtonWrapper from './styles/ListboxButtonWrapper';
+
+import Primary from './variants/Primary';
+import Secondary from './variants/Secondary';
+import PrimaryControled from './variants/PrimaryControled';
+import SecondaryControled from './variants/SecondaryControled';
 
 interface ListboxButtonContainerProps {
+  variant?: 'primary' | 'secondary';
   disabled?: boolean;
   isExpanded?: boolean;
   inputSize?: 'small' | 'medium';
   controlledValue?: string;
   error?: boolean;
+  selectLabel?: JSX.Element | string;
 }
 
-const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = ({
-  disabled,
-  isExpanded,
-  inputSize,
-  controlledValue,
-  error,
-}) => {
-  if (controlledValue) {
-    return (
-      <ListboxButtonWrapper
-        arrow={<ControlsChevronDown fontSize={rem(24)} color="bulma.100" />}
-        disabled={disabled}
-        isexpanded={isExpanded ? 'true' : undefined}
-        inputsize={inputSize}
-        error={error ? 'true' : undefined}
-      >
-        {controlledValue}
-      </ListboxButtonWrapper>
-    );
+const ListboxButtonComponent: React.FC<ListboxButtonContainerProps> = (
+  props
+) => {
+  const { variant, controlledValue } = props;
+  if (variant === 'secondary') {
+    if (controlledValue) {
+      return <SecondaryControled {...props} />;
+    }
+    return <Secondary {...props} />;
   }
-  return (
-    <ListboxButtonWrapper
-      arrow={<ControlsChevronDown fontSize={rem(24)} color="bulma.100" />}
-      disabled={disabled}
-      isexpanded={isExpanded ? 'true' : undefined}
-      inputsize={inputSize}
-      error={error ? 'true' : undefined}
-    />
-  );
+  if (controlledValue) {
+    return <PrimaryControled {...props} />;
+  }
+  return <Primary {...props} />;
 };
 
 export default ListboxButtonComponent;

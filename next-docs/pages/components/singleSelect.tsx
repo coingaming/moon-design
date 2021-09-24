@@ -10,6 +10,7 @@ import {
 } from '@heathmont/moon-core';
 import { MediaHeadphones } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
+import { Chip } from '@heathmont/moon-components';
 
 const optionsAsString = [
   {
@@ -198,11 +199,25 @@ const Example = () => {
   return (
     <SingleSelect
       options={options}
+      variant="primary"
       onChange={setValue}
       controlledValue={
         options.find((element) => element.value === value.value)?.value || ''
       }
     />
+  );
+};
+
+const TopContent = () => {
+  return (
+    <>
+      <ListItem color="trunks.100">List item (Categories)</ListItem>
+      <div className="flex flex-around pr-4 pl-4">
+        <Chip isActive={true}>$link</Chip>
+        <Chip>$link</Chip>
+        <Chip>$link</Chip>
+      </div>
+    </>
   );
 };
 
@@ -220,11 +235,11 @@ export default function PageSelectSingle() {
       {/* Default */}
       <section className="mt-8">
         <Preview
-          title="Default"
+          title="Primary variant"
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
-                <SingleSelect options={optionsAsString} />
+                <SingleSelect options={optionsAsString} variant="primary" />
               </div>
             </div>
           }
@@ -248,7 +263,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} />
+<SingleSelect options={options} variant='primary'/>
 `}
         />
       </section>
@@ -256,12 +271,13 @@ const options = [
       {/* with Label */}
       <section className="mt-8">
         <Preview
-          title="With Label"
+          title="Primary variant with Label"
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
                 <SingleSelect
                   options={optionsAsString}
+                  variant="primary"
                   label="Input label text"
                   labelId="label-opt-id"
                 />
@@ -288,7 +304,92 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} label="Input label text" labelId="label-opt-id"/>
+<SingleSelect options={options} variant='primary' label="Input label text" labelId="label-opt-id"/>
+`}
+        />
+      </section>
+
+      {/*Placeholder*/}
+      <section className="mt-8">
+        <Preview
+          title="Primary variant with placeholder"
+          preview={
+            <div className="flex flex-col justify-around items-center">
+              <div className="flex justify-around items-center w-96">
+                <SingleSelect
+                  options={optionsAsString}
+                  variant="primary"
+                  placeholderValue={<div>Choose an option</div>}
+                />
+              </div>
+            </div>
+          }
+          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: <ListItem>Option 1</ListItem>,
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: <ListItem>Option 2</ListItem>,
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: <ListItem>Option 3</ListItem>,
+  },
+];
+
+<SingleSelect 
+  options={options}
+  variant='primary'
+  placeholderValue={<div>Choose an option</div>}
+/>
+`}
+        />
+      </section>
+
+      {/* Secondary */}
+      <section className="mt-8">
+        <Preview
+          title="Secondary variant with inner label and placeholder"
+          preview={
+            <div className="flex flex-col">
+              <div className="flex justify-around items-center w-96">
+                <SingleSelect
+                  options={optionsAsString}
+                  variant="secondary"
+                  label="Input label text"
+                  placeholderValue={<div>Choose an option</div>}
+                />
+              </div>
+            </div>
+          }
+          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: <ListItem>Option 1</ListItem>,
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: <ListItem>Option 2</ListItem>,
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: <ListItem>Option 3</ListItem>,
+  },
+];
+
+<SingleSelect options={options} variant="secondary" placeholderValue={<div>Choose an option</div>}/>
 `}
         />
       </section>
@@ -302,6 +403,7 @@ const options = [
               <div className="flex justify-around items-center w-96">
                 <SingleSelect
                   options={optionsAsString}
+                  variant="primary"
                   isError
                   hintText="Informative message holder"
                 />
@@ -328,7 +430,9 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} 
+<SingleSelect 
+  options={options} 
+  variant='primary'
   isError
   hintText="Informative message holder"
 />
@@ -343,7 +447,7 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96 mb-4">
-                <SingleSelect options={options} />
+                <SingleSelect options={options} variant="primary" />
               </div>
             </div>
           }
@@ -378,7 +482,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} />
+<SingleSelect options={options} variant='primary'/>
           `}
         />
       </section>
@@ -390,7 +494,7 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96 ">
-                <SingleSelect options={options2} />
+                <SingleSelect options={options2} variant="primary" />
               </div>
             </div>
           }
@@ -425,7 +529,7 @@ const options = [
   },
 ]; 
 
-<SingleSelect options={options} />
+<SingleSelect options={options} variant='primary'/>
           `}
         />
       </section>
@@ -437,7 +541,7 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
-                <SingleSelect options={optionsRadioBtn} />
+                <SingleSelect options={optionsRadioBtn} variant="primary" />
               </div>
             </div>
           }
@@ -484,10 +588,11 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} />
+<SingleSelect options={options} variant='primary'/>
 `}
         />
       </section>
+
       {/* Disabled */}
       <section className="mt-8">
         <Preview
@@ -495,7 +600,11 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
-                <SingleSelect options={optionsAsString} disabled />
+                <SingleSelect
+                  options={optionsAsString}
+                  variant="primary"
+                  disabled
+                />
               </div>
             </div>
           }
@@ -519,7 +628,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} disabled/>
+<SingleSelect options={options} variant='primary' disabled/>
           `}
         />
       </section>
@@ -531,10 +640,18 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96 mb-4">
-                <SingleSelect options={optionsAsString} inputSize="small" />
+                <SingleSelect
+                  options={optionsAsString}
+                  variant="primary"
+                  inputSize="small"
+                />
               </div>
               <div className="flex justify-around items-center w-96">
-                <SingleSelect options={optionsAsString} inputSize="medium" />
+                <SingleSelect
+                  options={optionsAsString}
+                  variant="primary"
+                  inputSize="medium"
+                />
               </div>
             </div>
           }
@@ -558,9 +675,9 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} inputSize="small"/>
+<SingleSelect options={options} variant='primary' inputSize="small"/>
 
-<SingleSelect options={options} inputSize="medium"/>
+<SingleSelect options={options} variant='primary' inputSize="medium"/>
           `}
         />
       </section>
@@ -574,6 +691,7 @@ const options = [
               <div className="flex justify-around items-center w-96">
                 <SingleSelect
                   options={optionsWithoutLabel}
+                  variant="primary"
                   defaultValue={'Option 3'}
                 />
               </div>
@@ -605,7 +723,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} defaultValue={'Option 3'}/>
+<SingleSelect options={options} variant='primary' defaultValue={'Option 3'}/>
           `}
         />
       </section>
@@ -664,6 +782,7 @@ const [value, setValue] = React.useState(options[1]);
 
 <SingleSelect 
   options={options}
+  variant='primary'
   onChange={setValue}
   controlledValue={
     options.find((element) => element.value === value.value)?.value || ''
@@ -676,7 +795,7 @@ const [value, setValue] = React.useState(options[1]);
       {/* Witn Search slot*/}
       <section className="mt-8">
         <Preview
-          title="Slot prop for Search"
+          title="Slot props"
           preview={
             <div className="flex flex-col justify-around items-center">
               <p className="mb-4 sm:w-3/5 lg:w-3/4 text-center">
@@ -687,12 +806,18 @@ const [value, setValue] = React.useState(options[1]);
               <div className="flex justify-around items-center w-96">
                 <SingleSelect
                   options={optionsAsString}
-                  search={<div>Search component</div>}
+                  variant="primary"
+                  search={<div className="p-4">Search component</div>}
+                  titleOptions={
+                    <ListItem color="trunks.100">List item (title)</ListItem>
+                  }
+                  topContent={<TopContent />}
                 />
               </div>
             </div>
           }
           code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
+import { Chip } from '@heathmont/moon-components';
 
 const options = [
   {
@@ -712,51 +837,25 @@ const options = [
   },
 ];
 
-<SingleSelect 
-  options={options}
-  search={<div>Search component</div>}
-/>
-`}
-        />
-      </section>
-
-      {/*Placeholder*/}
-      <section className="mt-8">
-        <Preview
-          title="Placeholder"
-          preview={
-            <div className="flex flex-col justify-around items-center">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  placeholderValue={<div>Choose an option</div>}
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
+const TopContent = () => (
+  <>
+    <ListItem color="trunks.100">List item (Categories)</ListItem>
+    <div className="flex flex-around pr-4 pl-4">
+      <Chip isActive={true}>$link</Chip>
+      <Chip>$link</Chip>
+      <Chip>$link</Chip>
+    </div>
+  </>
+);
 
 <SingleSelect 
   options={options}
-  placeholderValue={<div>Choose an option</div>}
+  variant='primary'
+  search={<div className="p-4">Search component</div>}
+  topContent={<TopContent />}
+  titleOptions={
+    <ListItem color="trunks.100">List item (title)</ListItem>
+  }
 />
 `}
         />
@@ -772,6 +871,13 @@ const options = [
               required: true,
               default: '-',
               description: 'Option for the listbox',
+            },
+            {
+              name: 'variant',
+              type: 'primary | secondary',
+              required: true,
+              default: '-',
+              description: 'Different variant of single select',
             },
             {
               name: 'disabled',
@@ -816,6 +922,20 @@ const options = [
               required: false,
               default: '-',
               description: 'Slot for search element',
+            },
+            {
+              name: 'topContent',
+              type: 'JSX.Element',
+              required: false,
+              default: '-',
+              description: 'Slot for content under search element',
+            },
+            {
+              name: 'titleOptions',
+              type: 'JSX.Element',
+              required: false,
+              default: '-',
+              description: 'Slot for option`s title ',
             },
             {
               name: 'placeholderValue',

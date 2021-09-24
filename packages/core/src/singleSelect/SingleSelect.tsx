@@ -9,23 +9,27 @@ import Option from './private/OptionType';
 export interface SingleSelectProps
   extends React.InputHTMLAttributes<HTMLSelectElement> {
   options: Option[];
+  variant: 'primary' | 'secondary';
   disabled?: boolean;
   defaultValue?: string;
   onChange?: any;
   inputSize?: 'small' | 'medium';
   search?: JSX.Element;
+  topContent?: JSX.Element;
   controlledValue?: string;
   placeholderValue?: JSX.Element;
   label?: JSX.Element | string;
   labelId?: string;
   hintText?: JSX.Element | string;
   isError?: boolean;
+  titleOptions?: JSX.Element | string;
 }
 
 const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
   (
     {
       options,
+      variant,
       disabled,
       defaultValue,
       onChange,
@@ -37,11 +41,15 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       labelId,
       hintText,
       isError,
+      topContent,
+      titleOptions,
     },
     ref
   ) => (
     <Container>
-      {label && <SelectLabel id={labelId}>{label}</SelectLabel>}
+      {label && variant === 'primary' && (
+        <SelectLabel id={labelId}>{label}</SelectLabel>
+      )}
       <ListboxInputWrapper
         disabled={disabled}
         defaultValue={defaultValue}
@@ -58,9 +66,13 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
             disabled={disabled}
             inputSize={inputSize}
             search={search}
+            topContent={topContent}
             controlledValue={controlledValue}
             placeholderValue={placeholderValue}
             error={isError}
+            variant={variant}
+            label={label}
+            titleOptions={titleOptions}
           />
         )}
       </ListboxInputWrapper>

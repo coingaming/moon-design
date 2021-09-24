@@ -8,6 +8,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
   inputsize?: 'small' | 'medium';
   isexpanded?: string;
   error?: string;
+  variant?: 'primary' | 'secondary';
 }
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
@@ -17,6 +18,7 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
     isexpanded,
     inputsize,
     error,
+    variant,
   }) => [
     {
       display: 'flex',
@@ -48,6 +50,9 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       '@supports (-moz-appearance:none)': {
         lineHeight: rem(24),
       },
+    },
+    variant === 'secondary' && {
+      padding: `${rem(7)} ${rem(15)}`,
     },
     isexpanded && {
       '& span[data-reach-listbox-arrow]': {
