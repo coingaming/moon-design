@@ -212,7 +212,7 @@ const TopContent = () => {
   return (
     <>
       <ListItem color="trunks.100">List item (Categories)</ListItem>
-      <div className="flex flex-around pr-4 pl-4">
+      <div className="flex flex-around px-4 gap-x-1.5">
         <Chip isActive={true}>$link</Chip>
         <Chip>$link</Chip>
         <Chip>$link</Chip>
@@ -235,7 +235,7 @@ export default function PageSelectSingle() {
       {/* Default */}
       <section className="mt-8">
         <Preview
-          title="Primary variant"
+          title="Primary"
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
@@ -271,7 +271,7 @@ const options = [
       {/* with Label */}
       <section className="mt-8">
         <Preview
-          title="Primary variant with Label"
+          title="Primary with Label"
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
@@ -312,7 +312,7 @@ const options = [
       {/*Placeholder*/}
       <section className="mt-8">
         <Preview
-          title="Primary variant with placeholder"
+          title="Primary with placeholder"
           preview={
             <div className="flex flex-col justify-around items-center">
               <div className="flex justify-around items-center w-96">
@@ -356,7 +356,7 @@ const options = [
       {/* Secondary */}
       <section className="mt-8">
         <Preview
-          title="Secondary variant with inner label and placeholder"
+          title="Secondary with inner label and placeholder"
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96">
@@ -840,7 +840,7 @@ const options = [
 const TopContent = () => (
   <>
     <ListItem color="trunks.100">List item (Categories)</ListItem>
-    <div className="flex flex-around pr-4 pl-4">
+    <div className="flex flex-around px-4 gap-x-1.5">
       <Chip isActive={true}>$link</Chip>
       <Chip>$link</Chip>
       <Chip>$link</Chip>
