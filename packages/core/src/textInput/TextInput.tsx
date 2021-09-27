@@ -1,10 +1,8 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 
-// import Label from './styles/Label';
-
 import { Input } from './Input';
-import { InputError } from './Error';
+import { HintText } from './HintText';
 
 import { rem } from '@heathmont/moon-utils';
 
@@ -30,7 +28,8 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
   type?: TextInputTypes;
   placeholder?: string;
-  error?: boolean | string;
+  hintText?: JSX.Element | string;
+  isError?: boolean;
   rounded?: boolean;
   dir?: 'ltr' | 'rtl' | 'auto';
 };
@@ -71,9 +70,11 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
     disabled,
     placeholder = ' ',
     label,
-    error,
+    hintText,
+    isError,
     rounded,
     dir,
+    // @ts-ignore
     ...rest
   } = props;
   const inputProps = {
@@ -89,7 +90,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
     <Input
       size={size}
       rounded={!!rounded}
-      error={!!error}
+      error={isError}
       ref={ref}
       dir={dir}
       id={id}
@@ -105,17 +106,16 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
       </Container>
     );
   }
-  if (!label) {
-    return TextInputInner();
-  }
 
   return (
     <Container>
-      <Label dir={dir} htmlFor={id}>
-        {label}
-      </Label>
+      {label && (
+        <Label dir={dir} htmlFor={id}>
+          {label}
+        </Label>
+      )}
       {TextInputInner()}
-      {error && <InputError>{error}</InputError>}
+      {hintText && <HintText isError={isError}>{hintText}</HintText>}
     </Container>
   );
 });

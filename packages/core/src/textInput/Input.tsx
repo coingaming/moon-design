@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { rem, inlineSvg } from '@heathmont/moon-utils';
+import { rgba } from 'polished';
 
 type InputProps = {
   size?: 'xsmall' | 'small' | 'medium';
@@ -17,6 +18,7 @@ export const Input = styled.input<InputProps>(
     error,
   }) => [
     {
+      display: 'block',
       width: '100%',
       maxWidth: '100%',
       padding: `${rem(7)} ${rem(16)}`,
@@ -38,15 +40,21 @@ export const Input = styled.input<InputProps>(
         opacity: 1,
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.goku[40],
+        borderColor: rgba(color.piccolo[100], 0.12),
+        borderWidth: rem(2),
+        padding: `${rem(6)} ${rem(15)}`,
       },
       '&:focus': {
         borderColor: !error ? color.piccolo[100] : color.chiChi[100],
+        borderWidth: rem(2),
+        padding: `${rem(6)} ${rem(15)}`,
         outline: 'none',
       },
       // date inputs will be marked as invalid by default
       '&:not(:placeholder-shown):not([type="date"]):invalid': {
         borderColor: color.chiChi[100],
+        borderWidth: rem(2),
+        padding: `${rem(6)} ${rem(15)}`,
       },
       '&:invalid, :-moz-ui-invalid': {
         boxShadow: 'none', // Firefox Override
@@ -62,6 +70,15 @@ export const Input = styled.input<InputProps>(
     },
     size === 'small' && {
       padding: `${rem(11)} ${rem(16)}`,
+      '&:hover:not(:focus):not([disabled])': {
+        padding: `${rem(10)} ${rem(16)}`,
+      },
+      '&:focus': {
+        padding: `${rem(10)} ${rem(16)}`,
+      },
+      '&:not(:placeholder-shown):not([type="date"]):invalid': {
+        padding: `${rem(10)} ${rem(16)}`,
+      },
     },
     size === 'medium' && {
       padding: `${rem(23)} ${rem(16)} ${rem(7)}`,
@@ -73,6 +90,15 @@ export const Input = styled.input<InputProps>(
         marginTop: rem(-7),
         fontSize: rem(14),
         lineHeight: rem(14),
+      },
+      '&:hover:not(:focus):not([disabled])': {
+        padding: `${rem(22)} ${rem(16)} ${rem(6)}`,
+      },
+      '&:focus': {
+        padding: `${rem(22)} ${rem(16)} ${rem(6)}`,
+      },
+      '&:not(:placeholder-shown):not([type="date"]):invalid': {
+        padding: `${rem(22)} ${rem(16)} ${rem(6)}`,
       },
     },
     ({ icon }) =>
