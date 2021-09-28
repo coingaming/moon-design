@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
-export const HintText = styled.p<{ isError?: boolean }>(
-  ({ theme: { color, space }, isError }) => ({
+const HintText = styled.p<{ isError?: boolean }>(
+  ({ theme: { color }, isError }) => ({
     display: 'inline-block',
     marginTop: rem(8),
     fontSize: rem(12),
