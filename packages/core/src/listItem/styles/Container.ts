@@ -15,6 +15,7 @@ type Props = {
 const Container = styled.div<Props>(
   ({ theme: { radius }, isMeta }) => ({
     display: 'grid',
+    width: '100%',
     gridTemplateAreas: isMeta
       ? `
         "icon main meta"
