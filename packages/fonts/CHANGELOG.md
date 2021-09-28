@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.3.0
+
+### Minor Changes
+
+- TextInput & Table
+
 ## 7.2.0
 
 ### Minor Changes
