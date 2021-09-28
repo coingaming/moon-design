@@ -71,12 +71,12 @@ const navigation = [
       },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
-      // {
-      //   name: 'Table',
-      //   children: [
-      //     { name: 'Table', href: '/components/table/table' }, // TODO
-      //   ],
-      // },
+      {
+        name: 'Table',
+        children: [
+          { name: 'Table', href: '/components/table/table' },
+        ],
+      },
       { name: 'TextInput', href: '/components/textInput' },
       { name: 'Tooltip', href: '/components/tooltip' },
     ],
