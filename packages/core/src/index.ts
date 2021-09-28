@@ -44,3 +44,5 @@ export { default as Tabs } from './tabs/Tabs';
 export * from './tabs/Tabs';
 export { default as Text } from './text/Text';
 export * from './text/Text';
+export { default as TextInput } from './textInput/TextInput';
+export * from './textInput/TextInput';
