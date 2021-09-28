@@ -51,16 +51,24 @@ const navigation = [
       {
         name: 'RadioButton',
         children: [
-          { name: 'RadioButton', href: '/components/radiobutton/radiobutton' }, // TODO code
+          { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
           {
             name: 'RadioButton API',
             href: '/components/radiobutton/radiobutton-api',
-          }, // TODO code
+          },
         ],
       },
       { name: 'Search', href: '/components/search' },
-      { name: 'Select', href: '/components/select' },
-      { name: 'Single Select', href: '/components/singleSelect' },
+      {
+        name: 'Select',
+        children: [
+          { name: 'Select', href: '/components/select/select' },
+          {
+            name: 'Single Select',
+            href: '/components/select/singleSelect',
+          },
+        ],
+      },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
       // {

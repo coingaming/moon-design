@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import Preview from '../../../components/codePreview/Preview';
+import Table from '../../../components/Table';
 import {
   SingleSelect,
   ListItem,
@@ -344,7 +344,7 @@ const options = [
   },
 ];
 
-<SingleSelect 
+<SingleSelect
   options={options}
   variant='primary'
   placeholderValue={<div>Choose an option</div>}
@@ -430,8 +430,8 @@ const options = [
   },
 ];
 
-<SingleSelect 
-  options={options} 
+<SingleSelect
+  options={options}
   variant='primary'
   isError
   hintText="Informative message holder"
@@ -505,8 +505,8 @@ const options = [
     value: 'Option 1',
     label: 'Option 1',
     element: (
-      <ListItem 
-        isMeta 
+      <ListItem
+        isMeta
         elementRight={<>Meta</>}
         subtext={<>Lorem Ipsum is simply dummy text of the printing and typesettingindustry</>}
       >
@@ -518,8 +518,8 @@ const options = [
     value: 'Option 2',
     label: 'Option 2',
     element: (
-      <ListItem 
-        isMeta 
+      <ListItem
+        isMeta
         elementRight={<>Meta</>}
         subtext={<>Lorem Ipsum is simply dummy text of the printing and typesettingindustry</>}
       >
@@ -527,7 +527,7 @@ const options = [
       </ListItem>
     ),
   },
-]; 
+];
 
 <SingleSelect options={options} variant='primary'/>
           `}
@@ -749,7 +749,7 @@ const options = [
           }
           code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
 import { MediaHeadphones } from '@heathmont/moon-icons';
-          
+
 const options = [
   {
     value: 'Option 1',
@@ -780,7 +780,7 @@ const options = [
 
 const [value, setValue] = React.useState(options[1]);
 
-<SingleSelect 
+<SingleSelect
   options={options}
   variant='primary'
   onChange={setValue}
@@ -848,7 +848,7 @@ const TopContent = () => (
   </>
 );
 
-<SingleSelect 
+<SingleSelect
   options={options}
   variant='primary'
   search={<div className="p-4">Search component</div>}
