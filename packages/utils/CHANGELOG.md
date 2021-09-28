@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.3.0
+
+### Minor Changes
+
+- TextInput & Table
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.3.0
+
 ## 7.2.0
 
 ### Minor Changes

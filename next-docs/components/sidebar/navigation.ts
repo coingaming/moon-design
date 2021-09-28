@@ -33,8 +33,8 @@ const navigation = [
           { name: 'Dialog', href: '/components/dialog/dialog' }, // TODO code
           { name: 'Dialog Content', href: '/components/dialog/dialogContent' }, // TODO code
           { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' }, // TODO code
-          { name: 'Dialog Header', href: '/components/dialog/header' }, // TODO code
-          { name: 'Dialog Footer', href: '/components/dialog/footer' }, // TODO code
+          { name: 'Dialog Header', href: '/components/dialog/header' },
+          { name: 'Dialog Footer', href: '/components/dialog/footer' },
         ],
       },
       // Dropdown
@@ -51,31 +51,36 @@ const navigation = [
       {
         name: 'RadioButton',
         children: [
-          { name: 'RadioButton', href: '/components/radiobutton/radiobutton' }, // TODO code
+          { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
           {
             name: 'RadioButton API',
             href: '/components/radiobutton/radiobutton-api',
-          }, // TODO code
+          },
         ],
       },
       { name: 'Search', href: '/components/search' },
-      { name: 'Select', href: '/components/select' },
+      {
+        name: 'Select',
+        children: [
+          { name: 'Select', href: '/components/select/select' },
+          {
+            name: 'Single Select',
+            href: '/components/select/singleSelect',
+          },
+        ],
+      },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
-      // {
-      //   name: 'Table',
-      //   children: [
-      //     { name: 'Table', href: '/components/table/table' }, // TODO
-      //   ],
-      // },
+      {
+        name: 'Table',
+        children: [
+          { name: 'Table', href: '/components/table/table' },
+        ],
+      },
       { name: 'TextInput', href: '/components/textInput' },
       { name: 'Tooltip', href: '/components/tooltip' },
     ],
   },
-  // {
-  //   name: 'Atomic',
-  //   children: [{ name: 'Button', href: '/atomic/button' }],
-  // },
 ];
 
 export default navigation;
