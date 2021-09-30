@@ -62,7 +62,7 @@ export default function PageListItem() {
 
 <ListItem size="medium" backgroundColor="goku.100">
   Medium
-</ListItem> 
+</ListItem>
 `}
         />
       </section>

@@ -22,18 +22,15 @@
   },
   "dependencies": {
     "@heathmont/moon-core": "workspace:^7.3.0",
-    "downshift": "6.1.7",
-    "emotion": "11.0.0",
-    "match-sorter": "6.3.1",
-    "react-emotion": "10.0.0",
-    "starwars-names": "1.6.0"
+    "@heathmont/moon-components": "workspace:^7.3.0",
+    "@heathmont/moon-icons": "workspace:^7.3.0",
+    "@heathmont/moon-utils": "workspace:^7.3.0",
+    "downshift": "6.1.7"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
     "react-dom": ">= 16.10.2",
     "styled-components": ">= 5.2.1"
   },
-  "devDependencies": {
-    "@types/react-table": "^7.0.23"
-  }
+  "devDependencies": {}
 }

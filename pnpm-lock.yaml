@@ -104,6 +104,7 @@ importers:
       '@heathmont/moon-core': workspace:^7.3.0
       '@heathmont/moon-draggabletable': workspace:^7.3.0
       '@heathmont/moon-icons': workspace:^7.3.0
+      '@heathmont/moon-multiselect': workspace:^7.3.0
       '@heathmont/moon-pagination': workspace:^7.3.0
       '@heathmont/moon-table': workspace:^7.3.0
       '@heathmont/moon-themes': workspace:^7.3.0
@@ -132,8 +133,9 @@ importers:
       '@heathmont/moon-core': link:../packages/core
       '@heathmont/moon-draggabletable': link:../packages/draggabletable
       '@heathmont/moon-icons': link:../packages/icons
+      '@heathmont/moon-multiselect': link:../packages/multiselect
       '@heathmont/moon-pagination': link:../packages/pagination
-      '@heathmont/moon-table': link:../packages/multiselect
+      '@heathmont/moon-table': link:../packages/table
       '@heathmont/moon-themes': link:../packages/themes
       '@heathmont/moon-utils': link:../packages/utils
       '@types/react': 16.9.9
@@ -269,7 +271,7 @@ importers:
       react-table-sticky: 1.1.3
     dependencies:
       '@heathmont/moon-components': link:../components
-      '@heathmont/moon-table': link:../multiselect
+      '@heathmont/moon-table': link:../table
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-table': 7.0.23
@@ -325,12 +327,17 @@ importers:
 
   packages/multiselect:
     specifiers:
+      '@heathmont/moon-components': workspace:^7.3.0
       '@heathmont/moon-core': workspace:^7.3.0
-      '@types/react-table': ^7.0.23
+      '@heathmont/moon-icons': workspace:^7.3.0
+      '@heathmont/moon-utils': workspace:^7.3.0
+      downshift: 6.1.7
     dependencies:
+      '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
-    devDependencies:
-      '@types/react-table': 7.0.23
+      '@heathmont/moon-icons': link:../icons
+      '@heathmont/moon-utils': link:../utils
+      downshift: 6.1.7_react@17.0.2
 
   packages/notifications:
     specifiers:
@@ -3499,6 +3506,7 @@ packages:
     resolution: {integrity: sha512-1L2wFQVm6QcrSUbAdTUpk2PTYX5Wqx11Kh+wuN/kYYRWNI4OGpj3sIn3QAQ1jOwXKpyLMTL6lpEcUfKw2ZEieQ==}
     dependencies:
       '@types/react': 16.9.9
+    dev: false
 
   /@types/react-test-renderer/16.9.2:
     resolution: {integrity: sha512-4eJr1JFLIAlWhzDkBCkhrOIWOvOxcCAfQh+jiKg7l/nNZcCIL2MHl2dZhogIFKyHzedVWHaVP1Yydq/Ruu4agw==}
@@ -6127,6 +6135,19 @@ packages:
     dependencies:
       is-obj: 2.0.0
     dev: true
+
+  /downshift/6.1.7_react@17.0.2:
+    resolution: {integrity: sha512-cVprZg/9Lvj/uhYRxELzlu1aezRcgPWBjTvspiGTVEU64gF5pRdSRKFVLcxqsZC637cLAGMbL40JavEfWnqgNg==}
+    peerDependencies:
+      react: '>=16.12.0'
+    dependencies:
+      '@babel/runtime': 7.15.4
+      compute-scroll-into-view: 1.0.17
+      prop-types: 15.7.2
+      react: 17.0.2
+      react-is: 17.0.2
+      tslib: 2.3.1
+    dev: false
 
   /duplexer/0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}

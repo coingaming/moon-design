@@ -37,8 +37,8 @@ const navigation = [
           { name: 'Dialog Footer', href: '/components/dialog/footer' },
         ],
       },
-      // Dropdown
       { name: 'Label', href: '/components/label' },
+      { name: 'List Item', href: '/components/listItem' },
       { name: 'Loader', href: '/components/loader' },
       { name: 'Pagination', href: '/components/pagination' }, // TODO
       {
@@ -66,6 +66,10 @@ const navigation = [
           {
             name: 'Single Select',
             href: '/components/select/singleSelect',
+          },
+          {
+            name: 'Multi Select',
+            href: '/components/select/multiSelect',
           },
         ],
       },
