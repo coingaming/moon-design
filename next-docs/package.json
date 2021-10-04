@@ -16,7 +16,7 @@
     "@heathmont/moon-core": "workspace:^7.3.0",
     "@heathmont/moon-draggabletable": "workspace:^7.3.0",
     "@heathmont/moon-icons": "workspace:^7.3.0",
-    "@heathmont/moon-multiselect": "workspace:^7.3.0",
+    "@heathmont/moon-select": "workspace:^7.3.0",
     "@heathmont/moon-pagination": "workspace:^7.3.0",
     "@heathmont/moon-table": "workspace:^7.3.0",
     "@heathmont/moon-themes": "workspace:^7.3.0",

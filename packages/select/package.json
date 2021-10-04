@@ -1,5 +1,5 @@
 {
-  "name": "@heathmont/moon-multiselect",
+  "name": "@heathmont/moon-select",
   "sideEffects": false,
   "version": "7.3.0",
   "files": [
@@ -25,6 +25,7 @@
     "@heathmont/moon-components": "workspace:^7.3.0",
     "@heathmont/moon-icons": "workspace:^7.3.0",
     "@heathmont/moon-utils": "workspace:^7.3.0",
+    "@reach/listbox": "^0.16.1",
     "downshift": "6.1.7"
   },
   "peerDependencies": {
