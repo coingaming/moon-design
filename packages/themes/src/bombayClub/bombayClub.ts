@@ -41,6 +41,11 @@ const color = {
 
 const bombayClub: Theme = {
   ...sharedTokens,
+  radius: {
+    small: 4,
+    default: 8,
+    largest: 8,
+  },
   brand: 'BombayClub',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
