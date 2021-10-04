@@ -156,13 +156,13 @@ importers:
 
   packages/accordion:
     specifiers:
-      '@heathmont/moon-assets': workspace:^7.3.0
       '@heathmont/moon-components': workspace:^7.3.0
+      '@heathmont/moon-icons': workspace:^7.3.0
       '@heathmont/moon-themes': workspace:^7.3.0
       '@heathmont/moon-utils': workspace:^7.3.0
     dependencies:
-      '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
+      '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
