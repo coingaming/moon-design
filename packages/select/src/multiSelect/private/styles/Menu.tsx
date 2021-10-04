@@ -14,6 +14,7 @@ const Menu = styled.ul(({ theme }) => ({
   borderLeft: `${rem(1)} solid ${theme.color.trunks[100]}`,
   borderRight: `${rem(1)} solid ${theme.color.trunks[100]}`,
   borderRadius: rem(theme.radius.default),
+  boxShadow: theme.boxShadow,
 }));
 
 export default Menu;

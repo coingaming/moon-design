@@ -358,7 +358,7 @@ const sharedTokens: SharedTheme = {
   borderWidth,
   border: `${borderWidth}px ${borderStyle}`,
   boxShadow:
-    '0px 1.2px 3.6px rgba(0, 0, 0, 0.108), 0px 6.4px 14.4px rgba(0, 0, 0, 0.132)',
+    '0px 0px 1px 0px #00000066, 0px 8px 24px -6px #00000029',
   breakpoint: {
     small: 500,
     medium: 800,

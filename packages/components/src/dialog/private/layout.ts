@@ -6,13 +6,13 @@ import { mq } from '@heathmont/moon-utils';
   =========================================== */
 
 export const DialogContainer = styled.div<{ variant?: 'default' | 'new' }>(
-  ({ theme: { color, radius, space }, variant }) => ({
+  ({ theme: { color, radius, boxShadow }, variant }) => ({
     position: 'relative',
     outline: 'none',
     borderRadius: variant === 'new' ? rem(16) : rem(radius.small),
     color: color.bulma[100],
     background: variant === 'new' ? color.gohan[100] : color.goku[100],
-    boxShadow: `0 ${rem(space.default)} ${rem(space.large)} rgba(0, 0, 0, 0.5)`,
+    boxShadow: boxShadow,
   })
 );
 
