@@ -105,6 +105,7 @@ importers:
       '@heathmont/moon-draggabletable': workspace:^7.3.0
       '@heathmont/moon-icons': workspace:^7.3.0
       '@heathmont/moon-pagination': workspace:^7.3.0
+      '@heathmont/moon-select': workspace:^7.3.0
       '@heathmont/moon-table': workspace:^7.3.0
       '@heathmont/moon-themes': workspace:^7.3.0
       '@heathmont/moon-utils': workspace:^7.3.0
@@ -133,6 +134,7 @@ importers:
       '@heathmont/moon-draggabletable': link:../packages/draggabletable
       '@heathmont/moon-icons': link:../packages/icons
       '@heathmont/moon-pagination': link:../packages/pagination
+      '@heathmont/moon-select': link:../packages/select
       '@heathmont/moon-table': link:../packages/table
       '@heathmont/moon-themes': link:../packages/themes
       '@heathmont/moon-utils': link:../packages/utils
@@ -362,6 +364,20 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@tippyjs/react': 4.2.0_react-dom@17.0.2+react@17.0.2
       polished: 3.4.1
+
+  packages/select:
+    specifiers:
+      '@heathmont/moon-components': workspace:^7.3.0
+      '@heathmont/moon-core': workspace:^7.3.0
+      '@heathmont/moon-icons': workspace:^7.3.0
+      '@heathmont/moon-utils': workspace:^7.3.0
+      '@reach/listbox': ^0.16.1
+    dependencies:
+      '@heathmont/moon-components': link:../components
+      '@heathmont/moon-core': link:../core
+      '@heathmont/moon-icons': link:../icons
+      '@heathmont/moon-utils': link:../utils
+      '@reach/listbox': 0.16.1_react-dom@17.0.2+react@17.0.2
 
   packages/sidebar:
     specifiers:

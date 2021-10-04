@@ -13,6 +13,7 @@ export interface CheckboxProps {
   variant?: Variants;
   checked?: boolean;
   onClick?: any;
+  onChange?: any;
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
