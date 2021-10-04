@@ -25,8 +25,7 @@
     "@heathmont/moon-components": "workspace:^7.3.0",
     "@heathmont/moon-icons": "workspace:^7.3.0",
     "@heathmont/moon-utils": "workspace:^7.3.0",
-    "@reach/listbox": "^0.16.1",
-    "downshift": "6.1.7"
+    "@reach/listbox": "^0.16.1"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",

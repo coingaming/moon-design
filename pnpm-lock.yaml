@@ -372,14 +372,12 @@ importers:
       '@heathmont/moon-icons': workspace:^7.3.0
       '@heathmont/moon-utils': workspace:^7.3.0
       '@reach/listbox': ^0.16.1
-      downshift: 6.1.7
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-utils': link:../utils
       '@reach/listbox': 0.16.1_react-dom@17.0.2+react@17.0.2
-      downshift: 6.1.7_react@17.0.2
 
   packages/sidebar:
     specifiers:
@@ -6137,19 +6135,6 @@ packages:
     dependencies:
       is-obj: 2.0.0
     dev: true
-
-  /downshift/6.1.7_react@17.0.2:
-    resolution: {integrity: sha512-cVprZg/9Lvj/uhYRxELzlu1aezRcgPWBjTvspiGTVEU64gF5pRdSRKFVLcxqsZC637cLAGMbL40JavEfWnqgNg==}
-    peerDependencies:
-      react: '>=16.12.0'
-    dependencies:
-      '@babel/runtime': 7.15.4
-      compute-scroll-into-view: 1.0.17
-      prop-types: 15.7.2
-      react: 17.0.2
-      react-is: 17.0.2
-      tslib: 2.3.1
-    dev: false
 
   /duplexer/0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}

@@ -15,6 +15,7 @@ import Label from './private/styles/Label';
 import ListItem from './private/styles/ListItem';
 import Menu from './private/styles/Menu';
 import Container from './private/styles/Container';
+import OuterContainer from '../private/styles/Container';
 
 interface Option {
   value: string;
@@ -86,7 +87,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
 
   const isEmptySelectedItems = selectedItems && selectedItems.length === 0;
   return (
-    <>
+    <OuterContainer>
       <Container onClick={toggleExpanded}>
         <Stack space={isEmptySelectedItems ? 0 : rem(8)}>
           {label && (
@@ -139,7 +140,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
           {footer && footer}
         </Menu>
       ) : null}
-    </>
+    </OuterContainer>
   );
 };
 
