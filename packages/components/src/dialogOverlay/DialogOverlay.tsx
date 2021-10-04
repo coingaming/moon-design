@@ -7,14 +7,14 @@ import { DialogOverlay as ReachDialogOverlay } from '@reach/dialog';
  * https://ui.reach.tech/dialog/
  */
 const DialogOverlay: any = styled<any>(ReachDialogOverlay)(
-  ({ theme: { color, zIndex } }) => ({
+  ({ theme: { zIndex } }) => ({
     position: 'fixed',
     top: '0',
     right: '0',
     bottom: '0',
     left: '0',
     overflow: 'auto',
-    backgroundColor: color.gohan[100] && rgba(color.gohan[100], 0.75),
+    backgroundColor:  'rgba(0, 0, 0, 0.56)',
     zIndex: zIndex.dialog,
   })
 );
