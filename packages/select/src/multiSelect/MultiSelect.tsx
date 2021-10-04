@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
-import { useCombobox, useMultipleSelection } from 'downshift';
 import { Badge } from '@heathmont/moon-core';
 import {
   ControlsClose,
@@ -13,47 +11,20 @@ import { Stack } from '@heathmont/moon-components';
 
 import SearchWrapper from '../private/styles/SearchWrapper';
 
-const Label = styled.label(({ theme }) => ({
-  fontSize: rem(12),
-  lineHeight: 1.5,
-  color: theme.color.trunks[100],
-}));
+import Label from './private/styles/Label';
+import ListItem from './private/styles/ListItem';
+import Menu from './private/styles/Menu';
+import Container from './private/styles/Container';
 
-const Container = styled.div(({ theme }) => ({
-  width: '100%',
-  maxWidth: '100%',
-  position: 'relative',
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  border: `${rem(1)} solid ${theme.color.trunks[100]}`,
-  '&:focus': {
-    background: 'none',
-    border: `${rem(1)} solid ${theme.color.piccolo[100]}`,
-  },
-  borderRadius: rem(theme.radius.default),
-  padding: `${rem(10)} ${rem(16)}`,
-  cursor: 'pointer',
-}));
-
-const Menu = styled.ul(({ theme }) => ({
-  width: '100%',
-  overflowY: 'auto',
-  borderTop: 0,
-  background: 'white',
-  position: 'absolute',
-  listStyle: 'none',
-  padding: 0,
-  left: 0,
-  borderRadius: rem(theme.radius.default),
-}));
-
-type Option = {
+interface Option {
   value: string;
   label?: string;
-  element: JSX.Element | string;
-};
+  element: ({
+    isSelected,
+  }: {
+    isSelected: boolean;
+  }) => JSX.Element | JSX.Element | string;
+}
 
 interface MultiSelectProps {
   items: Option[];
@@ -61,7 +32,7 @@ interface MultiSelectProps {
   search?: React.ReactNode;
   footer?: React.ReactNode;
   initialSelectedItems?: Option[] | undefined;
-  initialIsExpanded?: boolean;
+  isExpanded?: boolean;
 }
 
 const MultiSelect: React.FC<MultiSelectProps> = ({
@@ -70,12 +41,12 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
   search,
   footer,
   initialSelectedItems,
-  initialIsExpanded,
+  isExpanded,
 }) => {
   const [selectedItems, setSelectedItems] = useState(initialSelectedItems);
-  const [isExpanded, setIsExpanded] = useState(initialIsExpanded);
+  const [isExpandedInner, setIsExpanded] = useState(isExpanded);
 
-  const toggleExpanded = () => setIsExpanded(!isExpanded);
+  const toggleExpanded = () => setIsExpanded(!isExpandedInner);
 
   const addSelectedItem = (selectedItem: Option) => {
     const isAlreadySelected = (selectedItems as Option[]).find(
@@ -106,11 +77,24 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
     }
   };
 
+  const isSelectedItem = (selectedItem: Option) => {
+    const isSelectedItem = !!(selectedItems as Option[]).find(
+      (item) => item.value === selectedItem.value
+    );
+    return isSelectedItem;
+  };
+
+  const isEmptySelectedItems = selectedItems && selectedItems.length === 0;
   return (
     <>
       <Container onClick={toggleExpanded}>
-        <Stack space={rem(8)}>
-          {label && <Label>{label}</Label>}
+        <Stack space={isEmptySelectedItems ? 0 : rem(8)}>
+          {label && (
+            <Label variant={isEmptySelectedItems ? 'isEmpty' : 'default'}>
+              {label}
+            </Label>
+          )}
+
           <Inline space={rem(4)}>
             {(selectedItems as Option[]).map((selectedItem, index) => (
               <Badge key={`selected-item-${index}`}>
@@ -128,31 +112,33 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
           </Inline>
         </Stack>
 
-        {isExpanded ? (
+        {isExpandedInner ? (
           <ControlsChevronUp fontSize={rem(24)} aria-label={'Toggle menu'} />
         ) : (
           <ControlsChevronDown fontSize={rem(24)} aria-label={'Toggle menu'} />
         )}
       </Container>
 
-      {isExpanded && (
+      {isExpandedInner ? (
         <Menu>
           {search ? <SearchWrapper>{search}</SearchWrapper> : null}
           {/* {topContent && topContent} */}
           {items.map((item: any, index: number) => (
-            <li
+            <ListItem
               onClick={(e) => {
                 e.preventDefault();
                 toggleSelectedItem(item);
               }}
               key={`${item.value}-${index}`}
             >
-              {item.element}
-            </li>
+              {typeof item.element === 'function'
+                ? item.element({ isSelected: isSelectedItem(item) })
+                : item.element}
+            </ListItem>
           ))}
           {footer && footer}
         </Menu>
-      )}
+      ) : null}
     </>
   );
 };

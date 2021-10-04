@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ListItem } from '@heathmont/moon-core';
+import { Checkbox, ListItem } from '@heathmont/moon-core';
 import { IconClaps } from '@heathmont/moon-assets';
 import Preview from '../../components/codePreview/Preview';
 
@@ -290,6 +290,24 @@ export default function PageListItem() {
   Two lines item
 </ListItem>
 `}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Checkbox"
+          preview={
+            <div className="flex justify-around items-center w-full flex-wrap">
+              <div className="w-72 m-0.5">
+                <ListItem
+                  elementRight={<Checkbox />}
+                  subtext={<SubText />}
+                >
+                  Two lines item
+                </ListItem>
+              </div>
+            </div>
+          }
         />
       </section>
     </>

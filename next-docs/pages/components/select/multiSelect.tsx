@@ -1,165 +1,40 @@
 import React from 'react';
 
 import { MultiSelect } from '@heathmont/moon-select';
-import {
-  RadioButtonLabel,
-  ListItem,
-  RadioButtonInput,
-  Footer,
-} from '@heathmont/moon-core';
+import { ListItem, Footer, Checkbox } from '@heathmont/moon-core';
 import { Button } from '@heathmont/moon-components';
+
+const SubText: React.FC = () => (
+  <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
+);
 
 const options = [
   {
     value: 'Option 1',
     label: 'Option 1',
-    element: (
-      <RadioButtonLabel id="Option1">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 1"
-              id="Option1"
-            />
-          }
-        >
-          Option 1
-        </ListItem>
-      </RadioButtonLabel>
+    element: ({ isSelected }: any) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 1
+      </ListItem>
     ),
   },
   {
     value: 'Option 2',
     label: 'Option 2',
-    element: (
-      <RadioButtonLabel id="Option2">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 2"
-              id="Option2"
-            />
-          }
-        >
-          Option 2
-        </ListItem>
-      </RadioButtonLabel>
-    ),
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: (
-      <RadioButtonLabel id="Option3">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 3"
-              id="Option3"
-            />
-          }
-        >
-          Option 3
-        </ListItem>
-      </RadioButtonLabel>
-    ),
-  },
-  {
-    value: 'Option 4',
-    label: 'Option 4',
-    element: (
-      <RadioButtonLabel id="Option4">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 4"
-              id="Option4"
-            />
-          }
-        >
-          Option 4
-        </ListItem>
-      </RadioButtonLabel>
-    ),
-  },
-  {
-    value: 'Option 5',
-    label: 'Option 5',
-    element: (
-      <RadioButtonLabel id="Option5">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 5"
-              id="Option5"
-            />
-          }
-        >
-          Option 5
-        </ListItem>
-      </RadioButtonLabel>
-    ),
-  },
-  {
-    value: 'Option 6',
-    label: 'Option 6',
-    element: (
-      <RadioButtonLabel id="Option6">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 6"
-              id="Option6"
-            />
-          }
-        >
-          Option 6
-        </ListItem>
-      </RadioButtonLabel>
-    ),
-  },
-  {
-    value: 'Option 7',
-    label: 'Option 7',
-    element: (
-      <RadioButtonLabel id="Option2">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 7"
-              id="Option7"
-            />
-          }
-        >
-          Option 7
-        </ListItem>
-      </RadioButtonLabel>
-    ),
-  },
-  {
-    value: 'Option 8',
-    label: 'Option 8',
-    element: (
-      <RadioButtonLabel id="Option8">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 8"
-              id="Option8"
-            />
-          }
-        >
-          Option 8
-        </ListItem>
-      </RadioButtonLabel>
+    element: ({ isSelected }: any) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 2
+      </ListItem>
     ),
   },
 ];
@@ -181,6 +56,7 @@ export default function PageMultiSelect() {
       {/* Default */}
       <section className="mt-8">
         <MultiSelect
+          isExpanded={true}
           items={options}
           label={<span>Choose some elements:</span>}
           search={<div className="p-4">Search component</div>}
@@ -206,7 +82,6 @@ export default function PageMultiSelect() {
             />
           }
           initialSelectedItems={[]}
-          initialIsExpanded={false}
         />
       </section>
     </>
