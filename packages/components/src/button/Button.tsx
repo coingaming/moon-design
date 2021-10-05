@@ -37,6 +37,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   // Icons
   iconLeft?: any;
   iconRight?: any;
+  isIcon?: boolean;
 };
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
@@ -100,6 +101,16 @@ const StyledButton = styled.button<ButtonProps>(
     iconRight && size === 'small' && { paddingRight: rem(12) },
     iconRight && size === 'medium' && { paddingRight: rem(16) },
     iconRight && size === 'large' && { paddingRight: rem(16) },
+  ],
+  ({ isIcon, size }) => [
+    isIcon &&
+      size === 'xsmall' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(32) },
+    isIcon &&
+      size === 'small' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(40) },
+    isIcon &&
+      size === 'medium' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(48) },
+    isIcon &&
+      size === 'large' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(56) },
   ]
 );
 
