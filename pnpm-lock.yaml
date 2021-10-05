@@ -105,6 +105,7 @@ importers:
       '@heathmont/moon-draggabletable': workspace:^7.3.0
       '@heathmont/moon-icons': workspace:^7.3.0
       '@heathmont/moon-pagination': workspace:^7.3.0
+      '@heathmont/moon-popover': workspace:^7.3.0
       '@heathmont/moon-table': workspace:^7.3.0
       '@heathmont/moon-themes': workspace:^7.3.0
       '@heathmont/moon-utils': workspace:^7.3.0
@@ -133,6 +134,7 @@ importers:
       '@heathmont/moon-draggabletable': link:../packages/draggabletable
       '@heathmont/moon-icons': link:../packages/icons
       '@heathmont/moon-pagination': link:../packages/pagination
+      '@heathmont/moon-popover': link:../packages/popover
       '@heathmont/moon-table': link:../packages/table
       '@heathmont/moon-themes': link:../packages/themes
       '@heathmont/moon-utils': link:../packages/utils

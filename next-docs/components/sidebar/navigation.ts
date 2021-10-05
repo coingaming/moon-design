@@ -49,6 +49,10 @@ const navigation = [
         ],
       },
       {
+        name: 'Popover',
+        href: '/components/popover',
+      },
+      {
         name: 'RadioButton',
         children: [
           { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
@@ -77,9 +81,7 @@ const navigation = [
       { name: 'Tabs', href: '/components/tabs' },
       {
         name: 'Table',
-        children: [
-          { name: 'Table', href: '/components/table/table' },
-        ],
+        children: [{ name: 'Table', href: '/components/table/table' }],
       },
       { name: 'TextInput', href: '/components/textInput' },
       { name: 'Tooltip', href: '/components/tooltip' },
