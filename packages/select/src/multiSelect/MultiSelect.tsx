@@ -24,7 +24,7 @@ interface Option {
     isSelected,
   }: {
     isSelected: boolean;
-  }) => JSX.Element | JSX.Element | string;
+  }) => JSX.Element | string;
 }
 
 interface MultiSelectProps {
@@ -32,8 +32,9 @@ interface MultiSelectProps {
   label: React.ReactNode;
   search?: React.ReactNode;
   footer?: React.ReactNode;
-  initialSelectedItems?: Option[] | undefined;
+  initialSelectedItems: string[];
   isExpanded?: boolean;
+  onChange?: (newSelectedItems: string[]) => any;
 }
 
 const MultiSelect: React.FC<MultiSelectProps> = ({
@@ -41,35 +42,42 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
   label,
   search,
   footer,
-  initialSelectedItems,
+  initialSelectedItems = [],
   isExpanded,
+  onChange,
 }) => {
   const [selectedItems, setSelectedItems] = useState(initialSelectedItems);
   const [isExpandedInner, setIsExpanded] = useState(isExpanded);
 
   const toggleExpanded = () => setIsExpanded(!isExpandedInner);
 
-  const addSelectedItem = (selectedItem: Option) => {
-    const isAlreadySelected = (selectedItems as Option[]).find(
-      (item) => item.value === selectedItem.value
+  const addSelectedItem = (selectedItem: string) => {
+    const isAlreadySelected = selectedItems.find(
+      (item) => item === selectedItem
     );
     if (isAlreadySelected) {
       return;
     }
-    setSelectedItems([...(selectedItems as Option[]), selectedItem]);
+    const newSelectedItems = [...selectedItems, selectedItem];
+    if (typeof onChange === 'function') {
+      onChange(newSelectedItems);
+    }
+    setSelectedItems(newSelectedItems);
   };
 
-  const removeSelectedItem = (selectedItem: Option) => {
-    setSelectedItems(
-      (selectedItems as Option[]).filter(
-        (item) => item.value !== selectedItem.value
-      )
+  const removeSelectedItem = (selectedItem: string) => {
+    const newSelectedItems = selectedItems.filter(
+      (item) => item !== selectedItem
     );
+    if (typeof onChange === 'function') {
+      onChange(newSelectedItems);
+    }
+    setSelectedItems(newSelectedItems);
   };
 
-  const toggleSelectedItem = (selectedItem: Option) => {
-    const isAlreadySelected = !!(selectedItems as Option[]).find(
-      (item) => item.value === selectedItem.value
+  const toggleSelectedItem = (selectedItem: string) => {
+    const isAlreadySelected = !!selectedItems.find(
+      (item) => item === selectedItem
     );
     if (isAlreadySelected) {
       removeSelectedItem(selectedItem);
@@ -78,11 +86,8 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
     }
   };
 
-  const isSelectedItem = (selectedItem: Option) => {
-    const isSelectedItem = !!(selectedItems as Option[]).find(
-      (item) => item.value === selectedItem.value
-    );
-    return isSelectedItem;
+  const isSelectedItem = (currentItem: string) => {
+    return !!selectedItems.find((item) => item === currentItem);
   };
 
   const isEmptySelectedItems = selectedItems && selectedItems.length === 0;
@@ -97,9 +102,9 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
           )}
 
           <Inline space={rem(4)}>
-            {(selectedItems as Option[]).map((selectedItem, index) => (
+            {selectedItems.map((selectedItem, index) => (
               <Badge key={`selected-item-${index}`}>
-                {selectedItem.value}
+                {selectedItem}
                 <ControlsClose
                   fontSize="1rem"
                   style={{ cursor: 'pointer' }}
@@ -128,12 +133,12 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
             <ListItem
               onClick={(e) => {
                 e.preventDefault();
-                toggleSelectedItem(item);
+                toggleSelectedItem(item.value);
               }}
               key={`${item.value}-${index}`}
             >
               {typeof item.element === 'function'
-                ? item.element({ isSelected: isSelectedItem(item) })
+                ? item.element({ isSelected: isSelectedItem(item.value) })
                 : item.element}
             </ListItem>
           ))}

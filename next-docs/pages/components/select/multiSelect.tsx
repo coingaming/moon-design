@@ -6,16 +6,18 @@ import { Button } from '@heathmont/moon-components';
 
 import Table from '../../../components/Table';
 import Preview from '../../../components/codePreview/Preview';
+import CodeSnippet from '../../../components/CodeSnippet';
 
 const SubText: React.FC = () => (
   <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
 );
 
+
 const options = [
   {
     value: 'Option 1',
     label: 'Option 1',
-    element: ({ isSelected }: any) => (
+    element: ({ isSelected }: { isSelected: boolean }) => (
       <ListItem
         elementRight={
           <Checkbox checked={isSelected} onChange={() => console.log('test')} />
@@ -29,7 +31,7 @@ const options = [
   {
     value: 'Option 2',
     label: 'Option 2',
-    element: ({ isSelected }: any) => (
+    element: ({ isSelected }: { isSelected: boolean }) => (
       <ListItem
         elementRight={
           <Checkbox checked={isSelected} onChange={() => console.log('test')} />
@@ -43,7 +45,7 @@ const options = [
   {
     value: 'Option 3',
     label: 'Option 3',
-    element: ({ isSelected }: any) => (
+    element: ({ isSelected }: { isSelected: boolean }) => (
       <ListItem
         elementRight={
           <Checkbox checked={isSelected} onChange={() => console.log('test')} />
@@ -56,9 +58,91 @@ const options = [
   },
 ];
 
+const code = `import { MultiSelect } from '@heathmont/moon-select';
+import { ListItem, Footer, Checkbox } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-components';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 1
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 2
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 3
+      </ListItem>
+    ),
+  },
+];
+
+
+<MultiSelect
+  onChange={console.log}
+  isExpanded={true}
+  items={options}
+  label={<span>Choose some elements:</span>}
+  search={<div className="p-4">Search component</div>}
+  footer={
+    <Footer
+      primButton={
+        <Button fullWidth variant="primary" size="small">
+          Button
+        </Button>
+      }
+      secButton={
+        <Button fullWidth variant="tertiary" size="small">
+          Button
+        </Button>
+      }
+      tertButton={
+        <Button fullWidth variant="secondary" size="small">
+          Button
+        </Button>
+      }
+      isDivider
+      size="small"
+    />
+  }
+  initialSelectedItems={['Option 1']}
+/>
+`;
+
 const Example = () => {
   return (
     <MultiSelect
+      onChange={console.log}
       isExpanded={true}
       items={options}
       label={<span>Choose some elements:</span>}
@@ -66,17 +150,17 @@ const Example = () => {
       footer={
         <Footer
           primButton={
-            <Button fullWidth variant="secondary" size="xsmall">
+            <Button fullWidth variant="primary" size="small">
               Button
             </Button>
           }
           secButton={
-            <Button fullWidth variant="tertiary" size="xsmall">
+            <Button fullWidth variant="tertiary" size="small">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="tertiary" size="xsmall">
+            <Button fullWidth variant="secondary" size="small">
               Button
             </Button>
           }
@@ -84,7 +168,7 @@ const Example = () => {
           size="small"
         />
       }
-      initialSelectedItems={[options[0]]}
+      initialSelectedItems={['Option 1']}
     />
   );
 };
@@ -110,8 +194,7 @@ export default function PageMultiSelect() {
               <Example />
             </div>
           }
-          code={`
-        test`}
+          code={code}
         />
       </section>
 
@@ -161,8 +244,28 @@ export default function PageMultiSelect() {
               default: 'false',
               description: 'is expanded',
             },
+            {
+              name: 'onChange',
+              type: '(selectedItems: string[]) => any;',
+              required: false,
+              default: '-',
+              description: 'onChange callback',
+            },
           ]}
         />
+      </section>
+
+      <section className="mt-8">
+        <CodeSnippet>
+          {`Option {
+value: string;
+label?: string;
+element: ({
+  isSelected: boolean,
+}) => JSX.Element | string;
+}
+`}
+        </CodeSnippet>
       </section>
     </>
   );
