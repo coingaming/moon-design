@@ -22,6 +22,8 @@ export { default as ListItem } from './listItem/ListItem';
 export * from './listItem/ListItem';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
+export { default as MultiSelect } from './multiSelect/MultiSelect';
+export * from './multiSelect/MultiSelect';
 export { default as RadioButton } from './radioButton/RadioButton';
 export * from './radioButton/RadioButton';
 export { default as RadioButtonInput } from './radioButton/RadioButtonInput';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MultiSelect } from '@heathmont/moon-select';
+import { MultiSelect } from '@heathmont/moon-core';
 import { ListItem, Footer, Checkbox } from '@heathmont/moon-core';
 import { Button } from '@heathmont/moon-components';
 
@@ -11,7 +11,6 @@ import CodeSnippet from '../../../components/CodeSnippet';
 const SubText: React.FC = () => (
   <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
 );
-
 
 const options = [
   {
@@ -58,8 +57,7 @@ const options = [
   },
 ];
 
-const code = `import { MultiSelect } from '@heathmont/moon-select';
-import { ListItem, Footer, Checkbox } from '@heathmont/moon-core';
+const code = `import { MultiSelect, ListItem, Footer, Checkbox } from '@heathmont/moon-core';
 import { Button } from '@heathmont/moon-components';
 
 const options = [
@@ -150,17 +148,17 @@ const Example = () => {
       footer={
         <Footer
           primButton={
-            <Button fullWidth variant="primary" size="small">
+            <Button variant="primary" size="xsmall">
               Button
             </Button>
           }
           secButton={
-            <Button fullWidth variant="tertiary" size="small">
+            <Button variant="tertiary" size="xsmall">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="secondary" size="small">
+            <Button variant="secondary" size="xsmall">
               Button
             </Button>
           }

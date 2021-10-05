@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
-import { Badge } from '@heathmont/moon-core';
+import Badge from '../badge/Badge';
 import {
   ControlsClose,
   ControlsChevronUp,
   ControlsChevronDown,
-} from '@heathmont/moon-icons';
-import { Inline } from '@heathmont/moon-components';
+} from '@heathmont/moon-icons/lib';
 import { rem } from '@heathmont/moon-utils';
-import { Stack } from '@heathmont/moon-components';
+import { Inline, Stack } from '@heathmont/moon-components/lib';
 
-import SearchWrapper from '../private/styles/SearchWrapper';
+import SearchWrapper from './private/styles/SearchWrapper';
 
 import Label from './private/styles/Label';
 import ListItem from './private/styles/ListItem';
 import Menu from './private/styles/Menu';
 import Container from './private/styles/Container';
-import OuterContainer from '../private/styles/Container';
+import OuterContainer from './private/styles/OuterContainer';
 
 interface Option {
   value: string;
