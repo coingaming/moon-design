@@ -29,6 +29,58 @@ const [state, setState] = useState(true);
   );
 };
 
+const PreviewSwitchSizes = () => {
+  const [state, setState] = useState(true);
+
+  return (
+    <Preview
+      title="Sizes"
+      preview={
+        <div className="flex gap-20 items-center">
+          <Switch
+            size="xs"
+            checked={state}
+            onChange={(e: any) => setState(e.target.checked)}
+          />
+          <Switch
+            size="md"
+            checked={state}
+            onChange={(e: any) => setState(e.target.checked)}
+          />
+          <Switch
+            size="lg"
+            checked={state}
+            onChange={(e: any) => setState(e.target.checked)}
+          />
+        </div>
+      }
+      code={`import { useState } from 'react'
+import { Switch } from '@heathmont/moon-components';
+
+const [state, setState] = useState(true);
+
+<Switch
+  size="xs"
+  checked={state}
+  onChange={(e: any) => setState(e.target.checked)}
+/>
+
+<Switch
+  size="md"
+  checked={state}
+  onChange={(e: any) => setState(e.target.checked)}
+/>
+
+<Switch
+  size="lg"
+  checked={state}
+  onChange={(e: any) => setState(e.target.checked)}
+/>
+`}
+    />
+  );
+};
+
 const PreviewSwitchTheme = () => {
   const [state, setState] = useState(true);
 
@@ -138,6 +190,11 @@ export default function PageSwitch() {
       {/* Default */}
       <section className="mt-8">
         <PreviewSwitch />
+      </section>
+
+      {/* Default */}
+      <section className="mt-8">
+        <PreviewSwitchSizes />
       </section>
 
       <section className="mt-8">
