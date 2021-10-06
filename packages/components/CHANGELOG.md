@@ -1,5 +1,18 @@
 # Change Log
 
+## 7.5.0
+
+### Minor Changes
+
+- Fix shadows & colors
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.5.0
+  - @heathmont/moon-themes@7.5.0
+  - @heathmont/moon-utils@7.5.0
+
 ## 7.4.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.0
+
+### Minor Changes
+
+- Fix shadows & colors
+
 ## 7.4.0
 
 ### Minor Changes
