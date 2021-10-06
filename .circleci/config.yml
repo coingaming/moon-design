@@ -220,6 +220,19 @@ workflows:
             - build
             - lint
 
+      - build_docs_and_push:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+            - build
+            - lint
+            - publish
+
       - tag_master_image:
           context: global
           filters:
