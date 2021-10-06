@@ -381,7 +381,7 @@ const Icon: React.FC<{ name: string; onClick: any; selectedIcons: string[] }> =
         onClick={() => onClick(name)}
         className={classNames(
           isShown ? 'text-active bg-active-80' : 'text-gray-400',
-          'relative flex flex-col items-center text-sm cursor-pointer rounded-md'
+          'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active'
         )}
       >
         {children}
