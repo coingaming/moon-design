@@ -21,6 +21,6 @@ const Container = styled.div<{ isExpandedInner: boolean }>(
     padding: `${rem(10)} ${rem(16)}`,
     cursor: 'pointer',
   })
-) as React.FC<{}>;
+) as React.FC<any>;
 
 export default Container;
