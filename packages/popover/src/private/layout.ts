@@ -16,7 +16,7 @@ export const PopoverContainer = styled.div<PopoverContainerProps>(
     background: `${
       backgroundColor !== undefined
         ? themed('color', backgroundColor)(theme)
-        : themed('color', 'goku.100')(theme)
+        : themed('color', 'gohan.100')(theme)
     }`,
     outline: 'none',
     borderRadius: rem(radius.default),

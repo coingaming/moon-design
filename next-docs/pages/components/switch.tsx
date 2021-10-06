@@ -16,7 +16,6 @@ const PreviewSwitch = () => {
             checked={state}
             onChange={(e: any) => setState(e.target.checked)}
           />
-          ;
         </>
       }
       code={`import { useState } from 'react'

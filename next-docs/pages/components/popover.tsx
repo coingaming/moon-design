@@ -4,7 +4,7 @@ import { Popover } from '@heathmont/moon-popover/lib';
 
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import { Heading } from '@heathmont/moon-core';
+import { Footer, Heading } from '@heathmont/moon-core';
 import { Search, Button } from '@heathmont/moon-components';
 import CodeSnippet from '../../components/CodeSnippet';
 
@@ -19,18 +19,25 @@ const Example = () => {
           <Heading size={20} style={{ marginBottom: 20 }}>
             Agents
           </Heading>
-          <Search
-            placeholder="Search"
-            results={[
-              {
-                title: <span>Agents</span>,
-                items: [
-                  <span>First Agent</span>,
-                  <span>Second Agent</span>,
-                  <span>Third Agent</span>,
-                ],
-              },
-            ]}
+
+          <Footer
+            primButton={
+              <Button fullWidth variant="primary" size="xsmall">
+                Button
+              </Button>
+            }
+            secButton={
+              <Button fullWidth variant="tertiary" size="xsmall">
+                Button
+              </Button>
+            }
+            tertButton={
+              <Button fullWidth variant="secondary" size="xsmall">
+                Button
+              </Button>
+            }
+            isDivider
+            size="small"
           />
         </div>
       }

@@ -327,7 +327,7 @@ export interface SharedTheme {
   border: Border;
   borderWidth: BorderWidth;
   borderStyle: BorderStyle;
-  boxShadow: BoxShadow;
+  boxShadow: BoxShadow; // legacy
   breakpoint: Breakpoint;
   fontFace?: any;
   fontFamily: FontFamily;
@@ -340,6 +340,12 @@ export interface SharedTheme {
   transitionDuration: TransitionDuration;
   transition: Transition;
   zIndex: ZIndex;
+  shadows: {
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+  };
 }
 
 export type Theme = SharedTheme & {
@@ -359,6 +365,12 @@ const sharedTokens: SharedTheme = {
   border: `${borderWidth}px ${borderStyle}`,
   boxShadow:
     '0px 0px 1px 0px #00000066, 0px 8px 24px -6px #00000029',
+  shadows: {
+    sm: '0px 0px 1px 0px #00000066, 0px 6px 6px -6px #00000029',
+    md: '0px 0px 1px 0px #00000066, 0px 12px 12px -6px #00000029',
+    lg: '0px 0px 1px 0px #00000066, 0px 8px 24px -6px #00000029',
+    xl: '0px 0px 1px 0px #00000033, 0px 0px 32px -8px #0000001F, 0px 32px 32px -8px #00000014',
+  },
   breakpoint: {
     small: 500,
     medium: 800,
