@@ -69,7 +69,7 @@ export const Results = styled.div(
     },
   }),
   ({
-    theme: { borderWidth, boxShadow, breakpoint, color, radius, space },
+    theme: { borderWidth, shadows, breakpoint, color, radius, space },
   }) => ({
     position: 'absolute',
     left: 0,
@@ -91,7 +91,7 @@ export const Results = styled.div(
       borderStyle: 'solid',
       borderColor: color.beerus[100],
       backgroundColor: color.gohan[100],
-      boxShadow,
+      boxShadow: shadows.lg,
     },
   })
 );
