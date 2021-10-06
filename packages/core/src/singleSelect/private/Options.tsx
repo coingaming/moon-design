@@ -24,7 +24,7 @@ const ListboxOptionWrapper = styled(ListboxOption)(({ theme: { color } }) => ({
   cursor: 'pointer',
   borderRadius: rem(4),
   '&:hover': {
-    backgroundColor: color.hit[80],
+    backgroundColor: color.goku[100],
   },
 }));
 

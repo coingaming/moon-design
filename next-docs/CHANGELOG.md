@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.5.0
+
+### Minor Changes
+
+- Fix shadows & colors
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.5.0
+  - @heathmont/moon-assets@7.5.0
+  - @heathmont/moon-charts@7.5.0
+  - @heathmont/moon-components@7.5.0
+  - @heathmont/moon-core@7.5.0
+  - @heathmont/moon-draggabletable@7.5.0
+  - @heathmont/moon-icons@7.5.0
+  - @heathmont/moon-pagination@7.5.0
+  - @heathmont/moon-popover@7.5.0
+  - @heathmont/moon-table@7.5.0
+  - @heathmont/moon-themes@7.5.0
+  - @heathmont/moon-utils@7.5.0
+
 ## 7.4.0
 
 ### Minor Changes

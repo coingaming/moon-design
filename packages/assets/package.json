@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-assets",
   "sideEffects": false,
-  "version": "7.4.0",
+  "version": "7.5.0",
   "files": [
     "lib"
   ],
@@ -37,8 +37,8 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-themes": "workspace:^7.4.0",
-    "@heathmont/moon-utils": "workspace:^7.4.0"
+    "@heathmont/moon-themes": "workspace:^7.5.0",
+    "@heathmont/moon-utils": "workspace:^7.5.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",

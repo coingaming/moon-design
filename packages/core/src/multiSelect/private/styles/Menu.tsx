@@ -10,11 +10,8 @@ const Menu = styled.ul(({ theme }) => ({
   listStyle: 'none',
   padding: 0,
   left: 0,
-  borderBottom: `${rem(1)} solid ${theme.color.trunks[100]}`,
-  borderLeft: `${rem(1)} solid ${theme.color.trunks[100]}`,
-  borderRight: `${rem(1)} solid ${theme.color.trunks[100]}`,
   borderRadius: rem(theme.radius.default),
-  boxShadow: theme.boxShadow,
+  boxShadow: theme.shadows.lg,
 }));
 
 export default Menu;

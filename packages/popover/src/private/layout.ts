@@ -9,7 +9,7 @@ interface PopoverContainerProps {
 }
 
 export const PopoverContainer = styled.div<PopoverContainerProps>(
-  ({ theme: { color, radius, boxShadow }, padding, backgroundColor, theme }) => ({
+  ({ theme: { color, radius, shadows }, padding, backgroundColor, theme }) => ({
     maxWidth: rem(600),
     minWidth: rem(300),
     padding: `${padding !== undefined ? rem(padding) : rem(24)}`,
@@ -21,6 +21,6 @@ export const PopoverContainer = styled.div<PopoverContainerProps>(
     outline: 'none',
     borderRadius: rem(radius.default),
     color: color.bulma[100],
-    boxShadow: boxShadow,
+    boxShadow: shadows.lg,
   })
 );

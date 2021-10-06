@@ -11,7 +11,6 @@ const navigation = [
     children: [
       { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
-      { name: 'Badge', href: '/components/badge' },
       { name: 'Button', href: '/components/button' },
       { name: 'Carousel', href: '/components/carousel' },
       {
@@ -80,10 +79,7 @@ const navigation = [
       },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
-      {
-        name: 'Table',
-        children: [{ name: 'Table', href: '/components/table/table' }],
-      },
+      { name: 'Table', href: '/components/table/table' },
       { name: 'TextInput', href: '/components/textInput' },
       { name: 'Tooltip', href: '/components/tooltip' },
     ],

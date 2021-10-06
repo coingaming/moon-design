@@ -4,12 +4,12 @@ import { ListboxPopover, ListboxPopoverProps } from '@reach/listbox';
 import React from 'react';
 
 const ListboxPopoverWrapper = styled(ListboxPopover)<ListboxPopoverProps>(
-  ({ theme: { color, boxShadow } }) => ({
+  ({ theme: { color, shadows } }) => ({
     backgroundColor: color.gohan[100],
     borderRadius: rem(12),
     padding: `${rem(8)} 0`,
     marginTop: rem(6),
-    boxShadow: boxShadow,
+    boxShadow: shadows.lg,
   })
 ) as React.FC<ListboxPopoverProps>;
 
