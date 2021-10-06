@@ -48,3 +48,5 @@ export { default as Text } from './text/Text';
 export * from './text/Text';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
+export { default as Tooltip } from './tooltip/Tooltip';
+export * from './tooltip/Tooltip';
