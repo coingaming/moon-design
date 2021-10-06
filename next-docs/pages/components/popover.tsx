@@ -4,21 +4,30 @@ import { Popover } from '@heathmont/moon-popover/lib';
 
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import { Footer, Heading } from '@heathmont/moon-core';
-import { Search, Button } from '@heathmont/moon-components';
+import { Footer, Heading, Text } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-components';
 import CodeSnippet from '../../components/CodeSnippet';
 
 const Example = () => {
   return (
     <Popover
+      padding={0}
       placement="bottom"
       isOpen={false}
       onVisibilityChange={(status) => console.log('status: ', status)}
       content={
         <div>
-          <Heading size={20} style={{ marginBottom: 20 }}>
-            Agents
-          </Heading>
+          <div className="p-8 space-y-4">
+            <Heading size={20}>Agents</Heading>
+            <Text size={14}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Ex
+            </Text>
+          </div>
 
           <Footer
             primButton={
@@ -48,32 +57,47 @@ const Example = () => {
 };
 
 const code = `import { Popover } from '@heathmont/moon-popover/lib';
-import { Heading } from '@heathmont/moon-core';
-import { Search, Button } from '@heathmont/moon-components';
+import { Footer, Heading, Text } from '@heathmont/moon-core';
 
 <Popover
+  padding={0}
   placement="bottom"
   isOpen={false}
   onVisibilityChange={(status) => console.log('status: ', status)}
   content={
-    <div>
-      <Heading size={20} style={{ marginBottom: 20 }}>
-        Agents
-      </Heading>
-      <Search
-        placeholder="Search"
-        results={[
-          {
-            title: <span>Agents</span>,
-            items: [
-              <span>First Agent</span>,
-              <span>Second Agent</span>,
-              <span>Third Agent</span>,
-            ],
-          },
-        ]}
+    <>
+      <div className="p-8 space-y-4">
+        <Heading size={20}>Agents</Heading>
+        <Text size={14}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Ex
+        </Text>
+      </div>
+
+      <Footer
+        primButton={
+          <Button fullWidth variant="primary" size="xsmall">
+            Button
+          </Button>
+        }
+        secButton={
+          <Button fullWidth variant="tertiary" size="xsmall">
+            Button
+          </Button>
+        }
+        tertButton={
+          <Button fullWidth variant="secondary" size="xsmall">
+            Button
+          </Button>
+        }
+        isDivider
+        size="small"
       />
-    </div>
+    </>
   }
 >
   <Button variant="primary">Toggle Popover</Button>
@@ -99,14 +123,7 @@ export default function PagePopover() {
 
       {/* Default */}
       <section className="mt-8">
-        <Preview
-          title="Pagination"
-          preview={<Example />}
-          code={`import { Popover } from '@heathmont/moon-popover';
-
-
-`}
-        />
+        <Preview title="Default" preview={<Example />} code={code} />
       </section>
 
       <section className="mt-14">
