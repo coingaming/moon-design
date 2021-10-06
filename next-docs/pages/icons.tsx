@@ -30,6 +30,8 @@ import {
   FilesExport,
   ArrowsTopRight,
   ArrowsUp,
+  ArrowsLeftShort,
+  ArrowsRightShort,
   ArrowsDown,
   ArrowsTransfer,
   ArrowsReply,
@@ -49,6 +51,7 @@ import {
   ArrowsLeftCurved,
   ArrowsLeft,
   ArrowsRight,
+  ControlsExpandAlt,
   ControlsClose,
   ControlsCloseSmall,
   ControlsPlus,
@@ -327,6 +330,33 @@ import {
   TypeMove,
   TypeZoomIn,
   TypeZoomOut,
+  GenericBetslip,
+  GenericLightningBolt,
+  SecurityQrCode,
+  SoftwareClear,
+  SportESoccer,
+  SportVolleyball,
+  SportSpecialSports,
+  SportFormula1,
+  SportEnba,
+  TextHashtag,
+  TravelAirplane,
+  TravelAirplaneDown,
+  TravelAirplaneUp,
+  TravelBeachChair,
+  TravelBed,
+  TravelBill,
+  TravelHotel,
+  TravelLuggage,
+  TravelMeal,
+  TravelPassport,
+  TravelPlug,
+  TravelRest,
+  TravelRoom,
+  TravelSeats,
+  TravelSuitcase,
+  TravelSwimmingPool,
+  TravelWiFi,
 } from '@heathmont/moon-icons';
 
 import Preview from '../components/codePreview/Preview';
@@ -533,6 +563,12 @@ export default function PageIcons() {
           <Icon {...wrapperProps} name="ArrowsDown">
             <ArrowsDown {...props} />
           </Icon>
+          <Icon {...wrapperProps} name="ArrowsLeftShort">
+            <ArrowsLeftShort {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="ArrowsRightShort">
+            <ArrowsRightShort {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="ArrowsTransfer">
             <ArrowsTransfer {...props} />
           </Icon>
@@ -591,6 +627,9 @@ export default function PageIcons() {
 
         <SubHeader>Controls</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="ControlsExpandAlt">
+            <ControlsExpandAlt {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="ControlsClose">
             <ControlsClose {...props} />
           </Icon>
@@ -957,6 +996,9 @@ export default function PageIcons() {
 
         <SubHeader>Text</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="TextHashtag">
+            <TextHashtag {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="TextCut">
             <TextCut {...props} />
           </Icon>
@@ -1064,6 +1106,9 @@ export default function PageIcons() {
 
         <SubHeader>Software</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="SoftwareClear">
+            <SoftwareClear {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="SoftwareCode">
             <SoftwareCode {...props} />
           </Icon>
@@ -1116,6 +1161,12 @@ export default function PageIcons() {
 
         <SubHeader>Generic</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="GenericBetslip">
+            <GenericBetslip {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="GenericLightningBolt">
+            <GenericLightningBolt {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="GenericHome">
             <GenericHome {...props} />
           </Icon>
@@ -1264,6 +1315,9 @@ export default function PageIcons() {
 
         <SubHeader>Security</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="SecurityQrCode">
+            <SecurityQrCode {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="SecurityLock">
             <SecurityLock {...props} />
           </Icon>
@@ -1295,6 +1349,21 @@ export default function PageIcons() {
 
         <SubHeader>Sport</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="SportESoccer">
+            <SportESoccer {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SportEnba">
+            <SportEnba {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SportFormula1">
+            <SportFormula1 {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SportSpecialSports">
+            <SportSpecialSports {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SportVolleyball">
+            <SportVolleyball {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="SportCricket">
             <SportCricket {...props} />
           </Icon>
@@ -1488,6 +1557,61 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="TypeZoomOut">
             <TypeZoomOut {...props} />
+          </Icon>
+        </Block>
+
+        <SubHeader>Travel</SubHeader>
+        <Block>
+          <Icon {...wrapperProps} name="TravelAirplane">
+            <TravelAirplane {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelAirplaneDown">
+            <TravelAirplaneDown {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelAirplaneUp">
+            <TravelAirplaneUp {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelBeachChair">
+            <TravelBeachChair {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelBed">
+            <TravelBed {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelBill">
+            <TravelBill {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelHotel">
+            <TravelHotel {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelLuggage">
+            <TravelLuggage {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelMeal">
+            <TravelMeal {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelPassport">
+            <TravelPassport {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelPlug">
+            <TravelPlug {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelRest">
+            <TravelRest {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelRoom">
+            <TravelRoom {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelSeats">
+            <TravelSeats {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelSuitcase">
+            <TravelSuitcase {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelSwimmingPool">
+            <TravelSwimmingPool {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TravelWiFi">
+            <TravelWiFi {...props} />
           </Icon>
         </Block>
       </section>

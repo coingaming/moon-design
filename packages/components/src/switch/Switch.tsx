@@ -18,6 +18,8 @@ type SliderColorScheme = {
   colorScheme?: boolean;
 };
 
+type Size = 'xs' | 'md' | 'lg';
+
 const Slider = styled.span<SliderColorScheme>(
   ({
     colorScheme,
@@ -60,28 +62,54 @@ const Slider = styled.span<SliderColorScheme>(
   })
 );
 
-const Label = styled.label(({ theme: { space } }) => ({
-  [switchWidthProperty]: rem(space.large * 2),
-  [switchHeightProperty]: rem(space.large),
+const getLabelWidth = (size: Size) => {
+  if (size === 'xs') {
+    return rem(28);
+  }
+  if (size === 'md') {
+    return rem(40);
+  }
+  if (size === 'lg') {
+    return rem(56);
+  }
+};
+
+const getLabelHeight = (size: Size) => {
+  if (size === 'xs') {
+    return rem(16);
+  }
+  if (size === 'md') {
+    return rem(24);
+  }
+  if (size === 'lg') {
+    return rem(32);
+  }
+};
+
+const Label = styled.label<{ size: Size }>(({ theme: { space }, size }) => ({
+  [switchWidthProperty]: size ? getLabelWidth(size) : rem(space.large * 2),
+  [switchHeightProperty]: size ? getLabelHeight(size) : rem(space.large),
+
   position: 'relative',
   display: 'inline-block',
   width: switchWidth,
   height: switchHeight,
   flexShrink: 0,
-}));
+})) as React.FC<{}>;
 
 const Input = styled.input<SliderColorScheme>(
-  ({ colorScheme, theme: { color } }) => ({
+  ({ colorScheme, theme: { color }, size }) => ({
     ...hideVisually(),
     [`&:checked + ${Slider}`]: {
       backgroundColor: colorScheme ? undefined : color.piccolo[100],
       '&::before': {
+        // left: rem(-2),
         backgroundColor: colorScheme ? undefined : color.goten[100],
-        transform: `translateX(calc(${switchWidth} / 2))`,
+        transform: `translateX(calc(${switchWidth} / ${ size ? 2.5 : 2}))`,
       },
     },
   })
-);
+) as React.FC<{}>;
 
 Input.defaultProps = {
   type: 'checkbox',
@@ -105,6 +133,7 @@ export type SwitchProps = {
   captionChecked?: string;
   id?: HTMLInputProps['id'];
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  size?: Size;
 } & SliderColorScheme;
 
 const Switch: React.FC<SwitchProps> = ({
@@ -114,18 +143,21 @@ const Switch: React.FC<SwitchProps> = ({
   checked = false,
   colorScheme,
   id,
+  size,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
 
   const labelProps = {
     className,
+    size,
   };
 
   const inputProps = {
     id: autoId,
     colorScheme,
     checked,
+    size,
     ...props,
   };
 

@@ -1,5 +1,18 @@
 # Change Log
 
+## 7.4.0
+
+### Minor Changes
+
+- Huge Comms Update & Release
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.4.0
+  - @heathmont/moon-themes@7.4.0
+  - @heathmont/moon-utils@7.4.0
+
 ## 7.3.0
 
 ### Minor Changes

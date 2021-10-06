@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Button } from '@heathmont/moon-components';
 import { IconProfile } from '@heathmont/moon-assets';
+import { NotificationsBellRinging } from '@heathmont/moon-icons';
 
 import Preview from '../../components/codePreview/Preview';
 
@@ -170,6 +171,48 @@ export default function PageButton() {
 >
   Default
 </Button>`}
+        />
+      </section>
+
+      {/* Is Icon */}
+      <section className="mt-8">
+        <Preview
+          title="isIcon"
+          preview={
+            <div className="flex justify-around w-full items-center">
+              <Button isIcon variant="primary" size="xsmall">
+                <NotificationsBellRinging fontSize="1.5rem" />
+              </Button>
+              <Button isIcon variant="primary" size="small">
+                <NotificationsBellRinging fontSize="2rem" />
+              </Button>
+              <Button isIcon variant="primary" size="medium">
+                <NotificationsBellRinging fontSize="2.5rem" />
+              </Button>
+              <Button isIcon variant="primary" size="large">
+                <NotificationsBellRinging fontSize="3rem" />
+              </Button>
+            </div>
+          }
+          code={`import { Button } from '@heathmont/moon-components';
+import { NotificationsBellRinging } from '@heathmont/moon-icons';
+
+<Button isIcon variant="primary" size="xsmall">
+  <NotificationsBellRinging fontSize="1.5rem" />
+</Button>
+
+<Button isIcon variant="primary" size="small">
+  <NotificationsBellRinging fontSize="2rem" />
+</Button>
+
+<Button isIcon variant="primary" size="medium">
+  <NotificationsBellRinging fontSize="2.5rem" />
+</Button>
+
+<Button isIcon variant="primary" size="large">
+  <NotificationsBellRinging fontSize="3rem" />
+</Button>
+`}
         />
       </section>
 

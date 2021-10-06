@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Heading } from '@heathmont/moon-components';
-import { IconChevronDown, IconChevronUp } from '@heathmont/moon-assets';
+import ControlsChevronDown from '@heathmont/moon-icons/lib/icons/ControlsChevronDown';
+import ControlsChevronUp from '@heathmont/moon-icons/lib/icons/ControlsChevronUp';
+
 
 import {
   AccordionWrapper,
@@ -48,7 +50,6 @@ const Accordion = ({
         {headerContent && (
           <React.Fragment>
             {headerContent}
-            <Divider />
           </React.Fragment>
         )}
         {withArrow && (
@@ -57,7 +58,11 @@ const Accordion = ({
             onClick={handleState}
             disabled={disableOpen}
           >
-            {isOpen ? <IconChevronUp /> : <IconChevronDown />}
+            {isOpen ? (
+              <ControlsChevronUp fontSize="2rem" color="bulma.100" />
+            ) : (
+              <ControlsChevronDown fontSize="2rem" color="bulma.100" />
+            )}
           </AccordionToggle>
         )}
       </AccordionHeader>

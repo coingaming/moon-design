@@ -37,8 +37,8 @@ const navigation = [
           { name: 'Dialog Footer', href: '/components/dialog/footer' },
         ],
       },
-      // Dropdown
       { name: 'Label', href: '/components/label' },
+      { name: 'List Item', href: '/components/listItem' },
       { name: 'Loader', href: '/components/loader' },
       { name: 'Pagination', href: '/components/pagination' }, // TODO
       {
@@ -49,15 +49,20 @@ const navigation = [
         ],
       },
       {
-        name: 'RadioButton',
-        children: [
-          { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
-          {
-            name: 'RadioButton API',
-            href: '/components/radiobutton/radiobutton-api',
-          },
-        ],
+        name: 'Popover',
+        href: '/components/popover',
       },
+      { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
+      // {
+      //   name: 'RadioButton',
+      //   children: [
+      //     { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
+      //     {
+      //       name: 'RadioButton API',
+      //       href: '/components/radiobutton/radiobutton-api',
+      //     },
+      //   ],
+      // },
       { name: 'Search', href: '/components/search' },
       {
         name: 'Select',
@@ -67,15 +72,17 @@ const navigation = [
             name: 'Single Select',
             href: '/components/select/singleSelect',
           },
+          {
+            name: 'Multi Select',
+            href: '/components/select/multiSelect',
+          },
         ],
       },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
       {
         name: 'Table',
-        children: [
-          { name: 'Table', href: '/components/table/table' },
-        ],
+        children: [{ name: 'Table', href: '/components/table/table' }],
       },
       { name: 'TextInput', href: '/components/textInput' },
       { name: 'Tooltip', href: '/components/tooltip' },

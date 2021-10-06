@@ -9,18 +9,18 @@ interface PopoverContainerProps {
 }
 
 export const PopoverContainer = styled.div<PopoverContainerProps>(
-  ({ theme: { color, radius, space }, padding, backgroundColor, theme }) => ({
+  ({ theme: { color, radius, boxShadow }, padding, backgroundColor, theme }) => ({
     maxWidth: rem(600),
     minWidth: rem(300),
     padding: `${padding !== undefined ? rem(padding) : rem(24)}`,
     background: `${
       backgroundColor !== undefined
         ? themed('color', backgroundColor)(theme)
-        : themed('color', 'goku.100')(theme)
+        : themed('color', 'gohan.100')(theme)
     }`,
     outline: 'none',
     borderRadius: rem(radius.default),
     color: color.bulma[100],
-    boxShadow: `0 0 ${rem(space.xlarge)} ${rgba(color.trunks[100], 0.3)}`,
+    boxShadow: boxShadow,
   })
 );

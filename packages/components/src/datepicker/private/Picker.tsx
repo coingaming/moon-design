@@ -11,7 +11,7 @@ import { Sidebar } from './Sidebar';
 import { InputsPanel } from './InputsPanel';
 
 const PickerContainer = styled.div(
-  ({ theme: { color, space, radius, breakpoint, zIndex } }) => ({
+  ({ theme: { color, space, radius, breakpoint, zIndex, boxShadow } }) => ({
     width: 'fit-content',
     position: 'absolute',
     zIndex: zIndex.dialog,
@@ -36,8 +36,7 @@ const PickerContainer = styled.div(
     borderRadius: rem(radius.default),
     padding: space.small,
     backgroundColor: color.goku[100],
-    boxShadow: `4px 4px 12px ${color.hit[80]},
-      0px 10px 18px ${color.hit[80]}`,
+    boxShadow: boxShadow,
     overflow: 'hidden',
   })
 );

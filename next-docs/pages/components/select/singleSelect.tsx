@@ -3,10 +3,10 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import {
-  SingleSelect,
   ListItem,
   RadioButtonLabel,
   RadioButtonInput,
+  SingleSelect
 } from '@heathmont/moon-core';
 import { MediaHeadphones } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';

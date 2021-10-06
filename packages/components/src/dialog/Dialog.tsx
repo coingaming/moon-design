@@ -20,6 +20,7 @@ export type DialogProps = ReachDialogProps &
     disableScrollLock?: boolean;
     heading?: React.ReactElement;
     hideCloseButton?: boolean;
+    variant?: 'default' | 'new';
   };
 
 const DialogToggleComponent: React.FC<DialogProps> = ({
@@ -66,6 +67,7 @@ const Dialog: React.FC<DialogProps> = ({
   disableScrollLock = false,
   heading,
   hideCloseButton = false,
+  variant,
 }) => (
   <DialogOverlay
     isOpen={isOpen && isOpen}
@@ -73,14 +75,14 @@ const Dialog: React.FC<DialogProps> = ({
     dangerouslyBypassScrollLock={disableScrollLock}
   >
     <DialogContent maxWidth={maxWidth} position={position}>
-      <DialogContainer>
+      <DialogContainer variant={variant}>
         {!heading && (
           <DialogToggleComponent
             onDismiss={onDismiss}
             hideCloseButton={hideCloseButton}
           />
         )}
-        <DialogMain>
+        <DialogMain variant={variant}>
           {heading && (
             <DialogHeaderComponent
               onDismiss={onDismiss}
