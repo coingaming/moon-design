@@ -92,7 +92,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
   const isEmptySelectedItems = selectedItems && selectedItems.length === 0;
   return (
     <OuterContainer>
-      <Container onClick={toggleExpanded}>
+      <Container onClick={toggleExpanded} isExpandedInner={isExpandedInner}>
         <Stack space={isEmptySelectedItems ? 0 : rem(8)}>
           {label && (
             <Label variant={isEmptySelectedItems ? 'isEmpty' : 'default'}>
