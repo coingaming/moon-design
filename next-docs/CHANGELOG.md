@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.4.0
+
+### Minor Changes
+
+- Huge Comms Update & Release
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.4.0
+  - @heathmont/moon-assets@7.4.0
+  - @heathmont/moon-charts@7.4.0
+  - @heathmont/moon-components@7.4.0
+  - @heathmont/moon-core@7.4.0
+  - @heathmont/moon-draggabletable@7.4.0
+  - @heathmont/moon-icons@7.4.0
+  - @heathmont/moon-pagination@7.4.0
+  - @heathmont/moon-popover@7.4.0
+  - @heathmont/moon-table@7.4.0
+  - @heathmont/moon-themes@7.4.0
+  - @heathmont/moon-utils@7.4.0
+
 ## 7.3.0
 
 ### Minor Changes
