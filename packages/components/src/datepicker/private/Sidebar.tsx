@@ -7,7 +7,7 @@ import { getRanges } from './helpers/getRanges';
 
 const SidebarList = styled.ul(({ theme: { color, breakpoint } }) => ({
   gridArea: 'sidebar',
-  background: color.goku[100],
+  background: color.gohan[100],
   padding: 0,
   display: 'flex',
   flexDirection: 'row',
@@ -31,7 +31,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   cursor: 'pointer',
   fontSize: rem(14),
   lineHeight: rem(20),
-  background: isSelected ? theme.color.goku[80] : theme.color.goku[100],
+  background: isSelected ? theme.color.gohan[80] : theme.color.gohan[100],
   color: theme.color.bulma[100],
   [mq(theme.breakpoint.small)]: {
     paddingLeft: rem(16),
