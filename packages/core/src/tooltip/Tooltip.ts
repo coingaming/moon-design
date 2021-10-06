@@ -12,35 +12,36 @@ const Tooltip = styled.div<{ position?: string }>(({ theme }) => [
     padding: rem(12),
     borderRadius: rem(4),
     position: 'relative',
-    boxShadow: theme.boxShadow,
-
-    '&::after': {
-      content: '""',
-      borderColor: 'transparent',
-      borderTopColor: theme.color.hit[100],
-      borderWidth: rem(8),
-      borderBottomWidth: 0,
-      borderStyle: 'solid',
-      width: 0,
-      height: 0,
-      position: 'absolute',
-      top: '100%',
-      left: rem(12),
-      marginTop: `-${rem(1)}`,
-    },
+    boxShadow: theme.shadows.sm,
+    // '&::after': {
+    //   content: '""',
+    //   borderColor: 'transparent',
+    //   borderTopColor: theme.color.hit[100],
+    //   borderWidth: rem(8),
+    //   borderBottomWidth: 0,
+    //   borderStyle: 'solid',
+    //   width: 0,
+    //   height: 0,
+    //   position: 'absolute',
+    //   top: '100%',
+    //   left: rem(12),
+    //   marginTop: `-${rem(1)}`,
+    //   // boxShadow: theme.shadows.sm,
+    // },
   },
-  ({ position }) =>
-    position === 'bottom' && {
-      '&::after': {
-        top: 'initial',
-        marginTop: 0,
-        borderBottomWidth: rem(8),
-        bottom: '100%',
-        marginBottom: `-${rem(1)}`,
-        borderTopWidth: 0,
-        borderBottomColor: theme.color.hit[100],
-      },
-    },
+  // ({ position }) =>
+  //   position === 'bottom' && {
+  //     '&::after': {
+  //       top: 'initial',
+  //       marginTop: 0,
+  //       borderBottomWidth: rem(8),
+  //       bottom: '100%',
+  //       marginBottom: `-${rem(1)}`,
+  //       borderTopWidth: 0,
+  //       borderBottomColor: theme.color.hit[100],
+  //       // boxShadow: theme.shadows.sm,
+  //     },
+  //   },
 ]);
 
 export default Tooltip;

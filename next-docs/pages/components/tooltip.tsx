@@ -13,9 +13,6 @@ const PreviewTooltip = () => {
           <Tooltip>
             <Text size={14}>Text with font size 14</Text>
           </Tooltip>
-          <Tooltip position="bottom">
-            <Text size={14}>Bottom</Text>
-          </Tooltip>
         </div>
       }
       code={`import { Tooltip, Text } from '@heathmont/moon-core';
@@ -24,9 +21,6 @@ const PreviewTooltip = () => {
   <Text size={14}>Text with font size 14</Text>
 </Tooltip>
 
-<Tooltip position="bottom">
-  <Text size={14}>Bottom</Text>
-</Tooltip>
 `}
     />
   );
