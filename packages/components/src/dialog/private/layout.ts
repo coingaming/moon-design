@@ -20,8 +20,8 @@ export const DialogContainer = styled.div<{ variant?: 'default' | 'new' }>(
  *    padding with a pseudo element.
  */
 export const DialogMain = styled.main<{ variant?: 'default' | 'new' }>(
-  ({ theme: { space, breakpoint, boxShadow }, variant }) => ({
-    boxShadow,
+  ({ theme: { space, breakpoint, shadows }, variant }) => ({
+    boxShadow: shadows.lg,
     padding: variant === 'new' ? 0 : rem(20),
     [mq(breakpoint.medium)]: {
       paddingTop: variant === 'new' ? 0 : rem(space.xlarge),
