@@ -65,7 +65,7 @@ const DefaultTablePreview = () => {
     },
   ];
 
-  const makeData = (length) => {
+  const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
@@ -186,7 +186,7 @@ const ExpandedRowTablePreview = () => {
     },
   ];
 
-  const makeData = (length) => {
+  const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map(() => {
       return {
         firstName: 'Test',
