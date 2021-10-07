@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.5.1
+
+### Patch Changes
+
+- Sportsadda theme
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.5.1
+
 ## 7.5.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.1
+
+### Patch Changes
+
+- Sportsadda theme
+
 ## 7.5.0
 
 ### Minor Changes

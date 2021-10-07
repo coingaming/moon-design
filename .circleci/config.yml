@@ -237,6 +237,11 @@ workflows:
           context: global
           filters:
             branches:
-              ignore: /.*/
-            tags:
-              only: /^v.*/
+              only:
+                - master
+          requires:
+            - dependencies
+            - build
+            - lint
+            - publish
+            - build_docs_and_push
