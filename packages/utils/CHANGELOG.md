@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.5.2
+
+### Patch Changes
+
+- Circleci
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.5.2
+
 ## 7.5.1
 
 ### Patch Changes
