@@ -236,13 +236,7 @@ workflows:
       - tag_master_image:
           context: global
           filters:
-            tags:
-              only: /^v.*/
             branches:
               ignore: /.*/
-          requires:
-            - dependencies
-            - build
-            - lint
-            - publish
-            - build_docs_and_push
+            tags:
+              only: /^v.*/
