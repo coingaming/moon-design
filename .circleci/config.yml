@@ -236,9 +236,10 @@ workflows:
       - tag_master_image:
           context: global
           filters:
+            tags:
+              only: /^v.*/
             branches:
-              only:
-                - master
+              ignore: /.*/
           requires:
             - dependencies
             - build
