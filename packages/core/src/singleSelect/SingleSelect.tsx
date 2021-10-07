@@ -59,7 +59,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
         aria-labelledby={labelId}
         error={isError ? 'true' : undefined}
       >
-        {({ isExpanded }) => (
+        {({ value, isExpanded }) => (
           <SingleSelectWithContext
             isExpanded={isExpanded}
             options={options}
@@ -73,6 +73,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
             variant={variant}
             label={label}
             titleOptions={titleOptions}
+            selectedValue={value}
           />
         )}
       </ListboxInputWrapper>
