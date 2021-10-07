@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.5.3
+
+### Patch Changes
+
+- fix circleci
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.5.3
+  - @heathmont/moon-assets@7.5.3
+  - @heathmont/moon-charts@7.5.3
+  - @heathmont/moon-components@7.5.3
+  - @heathmont/moon-core@7.5.3
+  - @heathmont/moon-draggabletable@7.5.3
+  - @heathmont/moon-icons@7.5.3
+  - @heathmont/moon-pagination@7.5.3
+  - @heathmont/moon-popover@7.5.3
+  - @heathmont/moon-table@7.5.3
+  - @heathmont/moon-themes@7.5.3
+  - @heathmont/moon-utils@7.5.3
+
 ## 7.5.2
 
 ### Patch Changes
