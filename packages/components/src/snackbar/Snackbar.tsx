@@ -82,7 +82,7 @@ const MessageWrapper = styled.p(({ theme }) => [
   {
     fontSize: rem(14),
     lineHeight: 1.25,
-    color: theme.color.hit[100],
+    color: theme.color.gohan[100],
     margin: 0,
   },
 ]);
