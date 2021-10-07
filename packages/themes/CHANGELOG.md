@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.2
+
+### Patch Changes
+
+- Circleci
+
 ## 7.5.1
 
 ### Patch Changes

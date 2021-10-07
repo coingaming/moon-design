@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.5.2
+
+### Patch Changes
+
+- Circleci
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.5.2
+  - @heathmont/moon-components@7.5.2
+  - @heathmont/moon-themes@7.5.2
+  - @heathmont/moon-utils@7.5.2
+
 ## 7.5.1
 
 ### Patch Changes
