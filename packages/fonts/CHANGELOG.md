@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.3
+
+### Patch Changes
+
+- fix circleci
+
 ## 7.5.2
 
 ### Patch Changes
