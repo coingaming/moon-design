@@ -240,9 +240,3 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v.*/
-          requires:
-            - dependencies
-            - build
-            - lint
-            - publish
-            - build_docs_and_push
