@@ -174,6 +174,77 @@ const Example = () => {
   );
 };
 
+const ExampleDisabled = () => {
+  return (
+    <MultiSelect
+      onChange={console.log}
+      isExpanded={true}
+      items={options}
+      label={<span>Choose some elements:</span>}
+      search={<div className="p-4">Search component</div>}
+      disabled={true}
+      footer={
+        <Footer
+          primButton={
+            <Button variant="primary" size="xsmall">
+              Button
+            </Button>
+          }
+          secButton={
+            <Button variant="tertiary" size="xsmall">
+              Button
+            </Button>
+          }
+          tertButton={
+            <Button variant="secondary" size="xsmall">
+              Button
+            </Button>
+          }
+          isDivider
+          size="small"
+        />
+      }
+      initialSelectedItems={['Option 1']}
+    />
+  );
+};
+
+const ExampleError = () => {
+  return (
+    <MultiSelect
+      onChange={console.log}
+      isExpanded={true}
+      items={options}
+      label={<span>Choose some elements:</span>}
+      search={<div className="p-4">Search component</div>}
+      hintText="Informative message holder"
+      error={true}
+      footer={
+        <Footer
+          primButton={
+            <Button variant="primary" size="xsmall">
+              Button
+            </Button>
+          }
+          secButton={
+            <Button variant="tertiary" size="xsmall">
+              Button
+            </Button>
+          }
+          tertButton={
+            <Button variant="secondary" size="xsmall">
+              Button
+            </Button>
+          }
+          isDivider
+          size="small"
+        />
+      }
+      initialSelectedItems={['Option 1']}
+    />
+  );
+};
+
 export default function PageMultiSelect() {
   return (
     <>
@@ -193,6 +264,32 @@ export default function PageMultiSelect() {
           preview={
             <div className="h-96 w-72">
               <Example />
+            </div>
+          }
+          code={code}
+        />
+      </section>
+
+      {/* Disabled */}
+      <section className="mt-8">
+        <Preview
+          title="Disabled"
+          preview={
+            <div className="w-72">
+              <ExampleDisabled />
+            </div>
+          }
+          code={code}
+        />
+      </section>
+
+      {/* Error */}
+      <section className="mt-8">
+        <Preview
+          title="Error"
+          preview={
+            <div className="h-96 w-72">
+              <ExampleError />
             </div>
           }
           code={code}

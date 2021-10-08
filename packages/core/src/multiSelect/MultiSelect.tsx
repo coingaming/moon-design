@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Badge from '../badge/Badge';
 import {
   ControlsClose,
@@ -17,6 +17,8 @@ import InputWrapper from './styles/InputWrapper';
 import InnerContainer from './styles/InnerContainer';
 import Container from './styles/Container';
 import HintText from './styles/HintText';
+
+import useOutsideClicker from './private/useOutsideClicker';
 
 interface Option {
   value: string;
@@ -57,6 +59,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
   const [isExpandedInner, setIsExpanded] = useState(
     disabled ? false : isExpanded
   );
+  const wrapperRef = useRef(null);
 
   const toggleExpanded = () =>
     setIsExpanded(disabled ? false : !isExpandedInner);
@@ -102,9 +105,12 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
   };
 
   const isEmptySelectedItems = selectedItems && selectedItems.length === 0;
+
+  useOutsideClicker(wrapperRef, toggleExpanded);
+
   return (
     <Container>
-      <InnerContainer>
+      <InnerContainer ref={wrapperRef}>
         <InputWrapper
           onClick={toggleExpanded}
           isExpandedInner={isExpandedInner}
