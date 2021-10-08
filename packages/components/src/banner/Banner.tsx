@@ -18,7 +18,7 @@ const BannerWrapper = styled.div<any>(({ theme: { color, space } }) => ({
   minWidth: rem(280),
   width: '100%',
   padding: `${space.default}px ${rem(12)}`,
-  backgroundColor: color.hit[100],
+  backgroundColor: color.gohan[100],
   borderRadius: rem(12),
   display: 'flex',
   flexDirection: 'row',
