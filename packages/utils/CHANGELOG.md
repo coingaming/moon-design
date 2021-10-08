@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.5.4
+
+### Patch Changes
+
+- Add version to next docs
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.5.4
+
 ## 7.5.3
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.4
+
+### Patch Changes
+
+- Add version to next docs
+
 ## 7.5.3
 
 ### Patch Changes
