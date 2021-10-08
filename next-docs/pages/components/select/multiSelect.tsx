@@ -145,9 +145,6 @@ const Example = () => {
       items={options}
       label={<span>Choose some elements:</span>}
       search={<div className="p-4">Search component</div>}
-      // hintText="Informative message holder"
-      // disabled={true}
-      // error={true}
       footer={
         <Footer
           primButton={
@@ -209,6 +206,86 @@ const ExampleDisabled = () => {
   );
 };
 
+const codeDisabled = `import { MultiSelect, ListItem, Footer, Checkbox } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-components';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 1
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 2
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 3
+      </ListItem>
+    ),
+  },
+];
+
+
+<MultiSelect
+  onChange={console.log}
+  items={options}
+  disabled={true}
+  label={<span>Choose some elements:</span>}
+  search={<div className="p-4">Search component</div>}
+  footer={
+    <Footer
+      primButton={
+        <Button fullWidth variant="primary" size="small">
+          Button
+        </Button>
+      }
+      secButton={
+        <Button fullWidth variant="tertiary" size="small">
+          Button
+        </Button>
+      }
+      tertButton={
+        <Button fullWidth variant="secondary" size="small">
+          Button
+        </Button>
+      }
+      isDivider
+      size="small"
+    />
+  }
+  initialSelectedItems={['Option 1']}
+/>
+`;
+
 const ExampleError = () => {
   return (
     <MultiSelect
@@ -245,6 +322,89 @@ const ExampleError = () => {
   );
 };
 
+const codeError = `import { MultiSelect, ListItem, Footer, Checkbox } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-components';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 1
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 2
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 3
+      </ListItem>
+    ),
+  },
+];
+
+
+<MultiSelect
+  onChange={console.log}
+  isExpanded={true}
+  items={options}
+  disabled={true}
+  label={<span>Choose some elements:</span>}
+  search={<div className="p-4">Search component</div>}
+  hintText="Informative message holder"
+  error={true}
+  footer={
+    <Footer
+      primButton={
+        <Button fullWidth variant="primary" size="small">
+          Button
+        </Button>
+      }
+      secButton={
+        <Button fullWidth variant="tertiary" size="small">
+          Button
+        </Button>
+      }
+      tertButton={
+        <Button fullWidth variant="secondary" size="small">
+          Button
+        </Button>
+      }
+      isDivider
+      size="small"
+    />
+  }
+  initialSelectedItems={['Option 1']}
+/>
+`;
+
 export default function PageMultiSelect() {
   return (
     <>
@@ -279,7 +439,7 @@ export default function PageMultiSelect() {
               <ExampleDisabled />
             </div>
           }
-          code={code}
+          code={codeDisabled}
         />
       </section>
 
@@ -292,7 +452,7 @@ export default function PageMultiSelect() {
               <ExampleError />
             </div>
           }
-          code={code}
+          code={codeError}
         />
       </section>
 
