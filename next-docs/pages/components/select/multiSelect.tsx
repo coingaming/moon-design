@@ -145,6 +145,9 @@ const Example = () => {
       items={options}
       label={<span>Choose some elements:</span>}
       search={<div className="p-4">Search component</div>}
+      // hintText="Informative message holder"
+      // disabled={true}
+      // error={true}
       footer={
         <Footer
           primButton={

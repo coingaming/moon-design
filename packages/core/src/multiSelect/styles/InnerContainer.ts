@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const OuterContainer = styled.div({
+const InnerContainer = styled.div({
   width: '100%',
   maxWidth: '100%',
   position: 'relative',
 });
 
-export default OuterContainer;
+export default InnerContainer;

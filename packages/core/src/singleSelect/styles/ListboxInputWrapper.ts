@@ -24,7 +24,7 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
       lineHeight: rem(24),
       color: color.bulma[100],
       border: `${borderWidth}px solid`,
-      borderColor: error ? color.chiChi[100] : color.beerus[100],
+      borderColor: color.beerus[100],
       borderRadius: rem(radius.largest),
       transition: `border-color ${transitionDuration.default}s ease`,
       '&:focus, &:focus-visible': {
@@ -32,10 +32,22 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: error ? color.chiChi[100] : color.piccolo[100],
+        borderColor: color.piccolo[100],
       },
       '&[data-value="placeholder"]': {
         color: color.trunks[100],
+      },
+      '&[data-state="expanded"]': {
+        borderColor: color.piccolo[100],
+      },
+    },
+    error && {
+      borderColor: color.chiChi[100],
+      '&:focus:not([disabled])': {
+        borderColor: color.chiChi[100],
+      },
+      '&[data-state="expanded"]': {
+        borderColor: color.chiChi[100],
       },
     },
     disabled && {
