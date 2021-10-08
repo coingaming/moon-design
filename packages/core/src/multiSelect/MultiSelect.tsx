@@ -32,9 +32,9 @@ interface Option {
 
 interface MultiSelectProps {
   items: Option[];
-  label: React.ReactNode;
-  search?: React.ReactNode;
-  footer?: React.ReactNode;
+  label: JSX.Element | string;
+  search?: JSX.Element;
+  footer?: JSX.Element;
   initialSelectedItems: string[];
   isExpanded?: boolean;
   disabled?: boolean;
