@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.5
+
+### Patch Changes
+
+- Fix background for Banner
+
 ## 7.5.4
 
 ### Patch Changes

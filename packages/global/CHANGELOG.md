@@ -1,5 +1,14 @@
 # Change Log
 
+## 7.5.5
+
+### Patch Changes
+
+- Fix background for Banner
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.5.5
+  - @heathmont/moon-utils@7.5.5
+
 ## 7.5.4
 
 ### Patch Changes
