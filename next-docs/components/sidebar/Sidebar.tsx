@@ -8,7 +8,7 @@ import classNames from '../../utils/classNames';
 import navigation from './navigation';
 import Arrow from './Arrow';
 import Logo from './Logo';
-// import Version from './Version';
+import Version from './Version';
 
 interface LinkProps {
   href: string;
@@ -105,7 +105,7 @@ export default function Sidebar() {
           {navigation.map((item) => (
             <RecursiveNavItem key={item.name} item={item} />
           ))}
-          {/* <Version /> */}
+          <Version />
         </nav>
       </div>
     </div>
