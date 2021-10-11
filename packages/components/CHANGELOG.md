@@ -1,5 +1,15 @@
 # Change Log
 
+## 7.5.6
+
+### Patch Changes
+
+- MultiSelect alignments
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.5.6
+  - @heathmont/moon-themes@7.5.6
+  - @heathmont/moon-utils@7.5.6
+
 ## 7.5.5
 
 ### Patch Changes

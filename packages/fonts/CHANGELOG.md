@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.5.6
+
+### Patch Changes
+
+- MultiSelect alignments
+
 ## 7.5.5
 
 ### Patch Changes
