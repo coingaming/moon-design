@@ -171,6 +171,240 @@ const Example = () => {
   );
 };
 
+const ExampleDisabled = () => {
+  return (
+    <MultiSelect
+      onChange={console.log}
+      isExpanded={true}
+      items={options}
+      label={<span>Choose some elements:</span>}
+      search={<div className="p-4">Search component</div>}
+      disabled={true}
+      footer={
+        <Footer
+          primButton={
+            <Button variant="primary" size="xsmall">
+              Button
+            </Button>
+          }
+          secButton={
+            <Button variant="tertiary" size="xsmall">
+              Button
+            </Button>
+          }
+          tertButton={
+            <Button variant="secondary" size="xsmall">
+              Button
+            </Button>
+          }
+          isDivider
+          size="small"
+        />
+      }
+      initialSelectedItems={['Option 1']}
+    />
+  );
+};
+
+const codeDisabled = `import { MultiSelect, ListItem, Footer, Checkbox } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-components';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 1
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 2
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 3
+      </ListItem>
+    ),
+  },
+];
+
+
+<MultiSelect
+  onChange={console.log}
+  items={options}
+  disabled={true}
+  label={<span>Choose some elements:</span>}
+  search={<div className="p-4">Search component</div>}
+  footer={
+    <Footer
+      primButton={
+        <Button fullWidth variant="primary" size="small">
+          Button
+        </Button>
+      }
+      secButton={
+        <Button fullWidth variant="tertiary" size="small">
+          Button
+        </Button>
+      }
+      tertButton={
+        <Button fullWidth variant="secondary" size="small">
+          Button
+        </Button>
+      }
+      isDivider
+      size="small"
+    />
+  }
+  initialSelectedItems={['Option 1']}
+/>
+`;
+
+const ExampleError = () => {
+  return (
+    <MultiSelect
+      onChange={console.log}
+      isExpanded={true}
+      items={options}
+      label={<span>Choose some elements:</span>}
+      search={<div className="p-4">Search component</div>}
+      hintText="Informative message holder"
+      error={true}
+      footer={
+        <Footer
+          primButton={
+            <Button variant="primary" size="xsmall">
+              Button
+            </Button>
+          }
+          secButton={
+            <Button variant="tertiary" size="xsmall">
+              Button
+            </Button>
+          }
+          tertButton={
+            <Button variant="secondary" size="xsmall">
+              Button
+            </Button>
+          }
+          isDivider
+          size="small"
+        />
+      }
+      initialSelectedItems={['Option 1']}
+    />
+  );
+};
+
+const codeError = `import { MultiSelect, ListItem, Footer, Checkbox } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-components';
+
+const options = [
+  {
+    value: 'Option 1',
+    label: 'Option 1',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 1
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 2',
+    label: 'Option 2',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 2
+      </ListItem>
+    ),
+  },
+  {
+    value: 'Option 3',
+    label: 'Option 3',
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <Checkbox checked={isSelected} onChange={() => console.log('test')} />
+        }
+        subtext={<SubText />}
+      >
+        Option 3
+      </ListItem>
+    ),
+  },
+];
+
+
+<MultiSelect
+  onChange={console.log}
+  isExpanded={true}
+  items={options}
+  disabled={true}
+  label={<span>Choose some elements:</span>}
+  search={<div className="p-4">Search component</div>}
+  hintText="Informative message holder"
+  error={true}
+  footer={
+    <Footer
+      primButton={
+        <Button fullWidth variant="primary" size="small">
+          Button
+        </Button>
+      }
+      secButton={
+        <Button fullWidth variant="tertiary" size="small">
+          Button
+        </Button>
+      }
+      tertButton={
+        <Button fullWidth variant="secondary" size="small">
+          Button
+        </Button>
+      }
+      isDivider
+      size="small"
+    />
+  }
+  initialSelectedItems={['Option 1']}
+/>
+`;
+
 export default function PageMultiSelect() {
   return (
     <>
@@ -196,6 +430,32 @@ export default function PageMultiSelect() {
         />
       </section>
 
+      {/* Disabled */}
+      <section className="mt-8">
+        <Preview
+          title="Disabled"
+          preview={
+            <div className="w-72">
+              <ExampleDisabled />
+            </div>
+          }
+          code={codeDisabled}
+        />
+      </section>
+
+      {/* Error */}
+      <section className="mt-8">
+        <Preview
+          title="Error"
+          preview={
+            <div className="h-96 w-72">
+              <ExampleError />
+            </div>
+          }
+          code={codeError}
+        />
+      </section>
+
       <section className="mt-14">
         <h2 className="text-2xl mb-4">Props</h2>
         <Table
@@ -209,21 +469,21 @@ export default function PageMultiSelect() {
             },
             {
               name: 'label',
-              type: 'string | React.ReactNode;',
+              type: 'JSX.Element | string',
               required: true,
               default: '-',
               description: `Label title`,
             },
             {
               name: 'search',
-              type: 'React.ReactNode',
+              type: 'JSX.Element',
               required: false,
               default: '-',
               description: 'Search element slot.',
             },
             {
               name: 'footer',
-              type: 'React.ReactNode',
+              type: 'JSX.Element',
               required: false,
               default: '-',
               description: 'Footer element slot.',

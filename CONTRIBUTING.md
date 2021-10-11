@@ -130,82 +130,54 @@ Linting will catch any further non-formatting issues:
 
 ### Component Structure
 
-#### File Structure
-
-Separate concerns on a component basis, rather than the more traditional "style vs. function".
-
-With [Styled Components](https://www.styled-components.com/) we can take advantage of keeping style, markup and logic tightly bound together as a single `.tsx` file. A component file should be defined in the following order:
-
-1. Imports
-1. External (e.g. `node_modules`)
-1. Internal (i.e. a different package from the design system)
-1. Component partials
-1. Styles
-1. Settings (e.g. `const`)
-1. Helper functions
-1. Markup / logic
-1. Exports
-
-#### Documentation
-
-Each component/consumable feature **must** have a README that follows the appropriate package's pre-defined `.templates/`:
-
-- [`packages/components`](packages/components/.templates/README.mdx)
-
-This should be written in [`.mdx`](https://mdxjs.com/) syntax, which will be included automatically in the [Style Guide](./README.md#style-guide).
-
 #### Directory Structure
+
+Before contributing new component in design system need to determine should it be put to core package or should be created new package for this component. For this you need follow the rule: if the components has complicated logic or some external dependencies - for it should be created new package.
+
+Please stick to a directory style to make things visually easier to track new component: 
+- the new component should be placed in separate folder and be given corresponding name (more details about the naming below);
+- styled component shoud be placed in `styles` folder.  But only the ones used for this folder component. If any component down the tree needs styled stuff, they should have their own folder for it;
+- all component's logic better to moove to the hook and create a folder or file with the hook name;
+- all the nested components should be placed in folder `private`;
+- from the main file should be exported outside, only one component and it's interface;
 
 For a basic component, the directory structure would look something like this:
 
 ```
 +————————————+
-│   Button   │
+│   Badge    │
 +————————————+
 
 
 components
-├── button
-│   ├── README.mdx
-│   └── index.js
+├── badge
+│   ├── styles
+│       ├── Container.ts
+│   └── Badge.tsx
 └── …
 ```
 
 For larger components, consider breaking down into smaller partials:
 
 ```
-+——ComponentName——+
-│                 │
-│      Title      │
-│                 │
-+—————————————————+
-│                 │
-│     Caption     │
-│                 │
-+—————————————————+
-
 
 components
-├── button
-├── component-name
-│   ├── caption.tsx
-│   ├── index.ts
-│   ├── README.mdx
-│   ├── settings.ts
-│   ├── title.tsx
-│   └── utils.ts
+├── singleSelect
+│   ├── private
+│       ├── styles
+│           ├── SearchWrapper.ts
+│       ├── Options.tsx
+│       ├── SingleSelectWithContext.tsx
+│   ├── styles
+│       ├── Container.ts
+│       ├── SelectLabel.ts
+│   └── SingleSelect.tsx
 └── …
 ```
 
-**`settings`**
+!! Any styled components created should be .ts and not .tsx. The same goes for custom hooks, if you need to make them .tsx, it means they are not just styled components anymore.
 
-Common constants/raw values that can be re-used across the different component partials.
-
-**`utils`**
-
-Styles that are unique to the `component` but need to be shared across the partials.
-
-These styles should be **flat**/**stateless** and not bound by any form of functionality, making use of the `CSSObject` type from [Styled Components](https://www.styled-components.com/) for compatibility.
+!! All what was placed in `private` and `styled` folders exlude from export outside, baced on barrelsby config.
 
 #### Naming
 
@@ -217,9 +189,13 @@ These styles should be **flat**/**stateless** and not bound by any form of funct
 
     For example: `<ComponentNameTitle/>`
 
-- **Flat re-usable styles** should be defined in **camelCase** to differentiate.
 
-  - For example: `<div css={componentNameSizing}/>`
+#### Documentation
+
+Each component feature must have a corresponding description page in `next-docs/pages/components` with code exepmples of all possible states.
+
+- [`next-docs/pages/components`](next-docs/pages/components)
+
 
 ## Release Process
 
