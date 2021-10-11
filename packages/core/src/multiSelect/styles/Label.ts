@@ -7,7 +7,7 @@ interface Props {
 
 const Label = styled.label<Props>(({ theme, variant }) => ({
   fontSize: variant === 'isEmpty' ? rem(16) : rem(12),
-  lineHeight: 1.5,
+  lineHeight: rem(16),
   color: theme.color.trunks[100],
 }));
 

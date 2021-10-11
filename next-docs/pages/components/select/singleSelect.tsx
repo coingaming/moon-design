@@ -2,12 +2,7 @@ import React from 'react';
 
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-import {
-  ListItem,
-  RadioButtonLabel,
-  RadioButtonInput,
-  SingleSelect
-} from '@heathmont/moon-core';
+import { ListItem, RadioButton, SingleSelect } from '@heathmont/moon-core';
 import { MediaHeadphones } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import { Chip } from '@heathmont/moon-components';
@@ -156,39 +151,39 @@ const optionsRadioBtn = [
   {
     value: 'Option 1',
     label: 'Option 1',
-    element: (
-      <RadioButtonLabel id="Option1">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 1"
-              id="Option1"
-            />
-          }
-        >
-          Option 1
-        </ListItem>
-      </RadioButtonLabel>
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <RadioButton
+            name="options"
+            ariaLabel="Option 1"
+            id="Option1"
+            checked={isSelected}
+            onChange={() => console.log('test')}
+          />
+        }
+      >
+        Option 1
+      </ListItem>
     ),
   },
   {
     value: 'Option 2',
     label: 'Option 2',
-    element: (
-      <RadioButtonLabel id="Option2">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 2"
-              id="Option2"
-            />
-          }
-        >
-          Option 2
-        </ListItem>
-      </RadioButtonLabel>
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <RadioButton
+            name="options"
+            ariaLabel="Option 2"
+            id="Option2"
+            checked={isSelected}
+            onChange={() => console.log('test')}
+          />
+        }
+      >
+        Option 2
+      </ListItem>
     ),
   },
 ];
@@ -545,45 +540,45 @@ const options = [
               </div>
             </div>
           }
-          code={`import { SingleSelect, ListItem, RadioButtonLabel, RadioButtonInput, } from '@heathmont/moon-core';
+          code={`import { SingleSelect, ListItem, RadioButton } from '@heathmont/moon-core';
 
 const options = [
   {
     value: 'Option 1',
     label: 'Option 1',
-    element: (
-      <RadioButtonLabel id="Option1">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 1"
-              id="Option1"
-            />
-          }
-        >
-          Option 1
-        </ListItem>
-      </RadioButtonLabel>
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <RadioButton
+            name="options"
+            ariaLabel="Option 1"
+            id="Option1"
+            checked={isSelected}
+            onChange={() => console.log('test')}
+          />
+        }
+      >
+        Option 1
+      </ListItem>
     ),
   },
   {
     value: 'Option 2',
     label: 'Option 2',
-    element: (
-      <RadioButtonLabel id="Option2">
-        <ListItem
-          elementRight={
-            <RadioButtonInput
-              name="options"
-              ariaLabel="Option 2"
-              id="Option2"
-            />
-          }
-        >
-          Option 2
-        </ListItem>
-      </RadioButtonLabel>
+    element: ({ isSelected }: { isSelected: boolean }) => (
+      <ListItem
+        elementRight={
+          <RadioButton
+            name="options"
+            ariaLabel="Option 2"
+            id="Option2"
+            checked={isSelected}
+            onChange={() => console.log('test')}
+          />
+        }
+      >
+        Option 2
+      </ListItem>
     ),
   },
 ];

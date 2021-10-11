@@ -8,6 +8,7 @@ import Option from '../private/OptionType';
 interface OptionsProps {
   options: Option[];
   placeholderValue?: JSX.Element;
+  selectedValue: string | null;
 }
 
 const ListboxListWrapper = styled(ListboxList)({
@@ -32,7 +33,11 @@ const Placeholder = styled(ListboxOption)({
   display: 'none',
 });
 
-const Options: React.FC<OptionsProps> = ({ options, placeholderValue }) => (
+const Options: React.FC<OptionsProps> = ({
+  options,
+  placeholderValue,
+  selectedValue,
+}) => (
   <ListboxListWrapper>
     {placeholderValue && (
       <Placeholder value="placeholder">{placeholderValue}</Placeholder>
@@ -41,7 +46,9 @@ const Options: React.FC<OptionsProps> = ({ options, placeholderValue }) => (
       const { value, label, element } = option;
       return (
         <ListboxOptionWrapper value={value} label={label} key={value}>
-          {element}
+          {typeof element === 'function'
+            ? element({ isSelected: value === selectedValue })
+            : element}
         </ListboxOptionWrapper>
       );
     })}
