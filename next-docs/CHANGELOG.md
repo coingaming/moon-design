@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.5.6
+
+### Patch Changes
+
+- MultiSelect alignments
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.5.6
+  - @heathmont/moon-assets@7.5.6
+  - @heathmont/moon-charts@7.5.6
+  - @heathmont/moon-components@7.5.6
+  - @heathmont/moon-core@7.5.6
+  - @heathmont/moon-draggabletable@7.5.6
+  - @heathmont/moon-icons@7.5.6
+  - @heathmont/moon-pagination@7.5.6
+  - @heathmont/moon-popover@7.5.6
+  - @heathmont/moon-table@7.5.6
+  - @heathmont/moon-themes@7.5.6
+  - @heathmont/moon-utils@7.5.6
+
 ## 7.5.5
 
 ### Patch Changes
