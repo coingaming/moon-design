@@ -80,6 +80,6 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       {hintText && <HintText isError={isError}>{hintText}</HintText>}
     </Container>
   )
-);
+) as React.ElementType;
 
 export default SingleSelect;
