@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.5.7
+
+### Patch Changes
+
+- fix ts
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.5.7
+  - @heathmont/moon-table@7.5.7
+  - @heathmont/moon-themes@7.5.7
+  - @heathmont/moon-utils@7.5.7
+
 ## 7.5.6
 
 ### Patch Changes
