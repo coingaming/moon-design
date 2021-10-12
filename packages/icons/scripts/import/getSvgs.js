@@ -24,7 +24,7 @@ const rename = (name) => {
   // toUpperCase
   // "Time=stopwatch-timer" -> "Time=Stopwatch-Timer"
   const upperCased = replace(
-    /(^|\=|-|\(|\s)(\S)/g,
+    /(^|=|-|\(|\s)(\S)/g,
     (s) => s.toUpperCase(),
     trimmedType
   );
@@ -37,7 +37,7 @@ const rename = (name) => {
   );
   // get rid of "=", "-", ":" etc
   // "Time=Stopwatch-Timer" -> "TimeStopwatchTimer"
-  const trimmed = replace(/\=|-|:|\(|\)|\s/g, '', upperCasedParentheses);
+  const trimmed = replace(/=|-|:|\(|\)|\s/g, '', upperCasedParentheses);
   return trimmed;
 };
 
