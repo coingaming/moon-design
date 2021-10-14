@@ -7,8 +7,15 @@ interface Props {
   title: string;
   section: string;
   href: string;
+  author?: string;
 }
-const CardArcticle: React.FC<Props> = ({ variant, title, section, href }) => (
+const CardArcticle: React.FC<Props> = ({
+  variant,
+  title,
+  section,
+  href,
+  author,
+}) => (
   <Link href={href}>
     <a
       className={classNames(
@@ -19,6 +26,11 @@ const CardArcticle: React.FC<Props> = ({ variant, title, section, href }) => (
       <p className="absolute top-12 left-10 transform -rotate-90 origin-bottom-left w-min font-semibold">
         {section}
       </p>
+      {author && (
+        <p className="absolute top-1 right-4 transform -rotate-90 origin-bottom-right w-max font-semibold">
+          {author}
+        </p>
+      )}
       <p className="group-hover:underline text-2xl font-semibold tracking-tight w-10/12">
         {title}
       </p>
