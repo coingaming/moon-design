@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.6.0
+
+### Minor Changes
+
+- New border radiuses
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.6.0
+
 ## 7.5.7
 
 ### Patch Changes

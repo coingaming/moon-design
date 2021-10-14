@@ -67,6 +67,14 @@ export type Radius = {
   largest: number;
 };
 
+export type BorderRadius = {
+  small: number;
+  medium: number;
+  large: number;
+  xLarge: number;
+  circle: number;
+};
+
 export type Opacity = {
   disabled: number;
 };
@@ -335,7 +343,7 @@ export interface SharedTheme {
   fontWeight: FontWeight;
   maxWidth: MaxWidth;
   opacity: Opacity;
-  radius: Radius;
+  radius: Radius | BorderRadius;
   space: Space;
   transitionDuration: TransitionDuration;
   transition: Transition;
