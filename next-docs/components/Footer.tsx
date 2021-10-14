@@ -18,6 +18,12 @@ const Footer = () => (
     >
       Figma Community
     </a>
+    <a
+      className="hover:underline cursor-pointer"
+      href="https://moonds.medium.com/"
+    >
+      Medium
+    </a>
     {/* <a className="hover:underline cursor-pointer">Medium</a> */}
     <p className="">With the help of Yolo Group</p>
   </footer>
