@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.6.0
+
+### Minor Changes
+
+- New border radiuses
+
 ## 7.5.7
 
 ### Patch Changes

@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.6.0
+
+### Minor Changes
+
+- New border radiuses
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons@7.6.0
+  - @heathmont/moon-themes@7.6.0
+  - @heathmont/moon-accordion@7.6.0
+  - @heathmont/moon-assets@7.6.0
+  - @heathmont/moon-charts@7.6.0
+  - @heathmont/moon-components@7.6.0
+  - @heathmont/moon-core@7.6.0
+  - @heathmont/moon-draggabletable@7.6.0
+  - @heathmont/moon-pagination@7.6.0
+  - @heathmont/moon-popover@7.6.0
+  - @heathmont/moon-table@7.6.0
+  - @heathmont/moon-utils@7.6.0
+
 ## 7.5.7
 
 ### Patch Changes
