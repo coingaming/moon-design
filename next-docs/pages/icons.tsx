@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import {
+  ArrowsBoost,
   ArrowsBottomLeft,
   ArrowsBottomRight,
   ArrowsChevronDownDouble,
@@ -15,6 +16,7 @@ import {
   ArrowsLeftCurved,
   ArrowsLeftShort,
   ArrowsRefresh,
+  ArrowsRemoveBoost,
   ArrowsReply,
   ArrowsRight,
   ArrowsRightCurved,
@@ -139,6 +141,7 @@ import {
   GenericMinus,
   GenericMultiBet,
   GenericNews,
+  GenericPending,
   GenericPicture,
   GenericPlus,
   GenericSearch,
@@ -149,6 +152,7 @@ import {
   GenericStar,
   GenericTag,
   GenericTicket,
+  GenericTrophy,
   GenericUpload,
   GenericUser,
   GenericUsers,
@@ -218,6 +222,7 @@ import {
   SecurityLock,
   SecurityMagnet,
   SecurityQrCode,
+  SecuritySecurityAttention,
   SecurityShield,
   SecurityShieldSecured,
   SecurityUmbrella,
@@ -307,6 +312,7 @@ import {
   TextIncreaseIndent,
   TextItalic,
   TextLeftAlign,
+  TextListView,
   TextMarker,
   TextMath,
   TextNumbersList,
@@ -469,6 +475,9 @@ export default function PageIcons() {
       <section className="mt-8">
         <SubHeader>Arrows</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="ArrowsBoost">
+            <ArrowsBoost {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="ArrowsBottomLeft">
             <ArrowsBottomLeft {...props} />
           </Icon>
@@ -510,6 +519,9 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="ArrowsRefresh">
             <ArrowsRefresh {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="ArrowsRemoveBoost">
+            <ArrowsRemoveBoost {...props} />
           </Icon>
           <Icon {...wrapperProps} name="ArrowsReply">
             <ArrowsReply {...props} />
@@ -907,6 +919,9 @@ export default function PageIcons() {
           <Icon {...wrapperProps} name="GenericNews">
             <GenericNews {...props} />
           </Icon>
+          <Icon {...wrapperProps} name="GenericPending">
+            <GenericPending {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="GenericPicture">
             <GenericPicture {...props} />
           </Icon>
@@ -936,6 +951,9 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="GenericTicket">
             <GenericTicket {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="GenericTrophy">
+            <GenericTrophy {...props} />
           </Icon>
           <Icon {...wrapperProps} name="GenericUpload">
             <GenericUpload {...props} />
@@ -1167,6 +1185,9 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="SecurityQrCode">
             <SecurityQrCode {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SecuritySecurityAttention">
+            <SecuritySecurityAttention {...props} />
           </Icon>
           <Icon {...wrapperProps} name="SecurityShield">
             <SecurityShield {...props} />
@@ -1450,6 +1471,9 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="TextLeftAlign">
             <TextLeftAlign {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TextListView">
+            <TextListView {...props} />
           </Icon>
           <Icon {...wrapperProps} name="TextMarker">
             <TextMarker {...props} />

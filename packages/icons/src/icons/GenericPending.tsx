@@ -15,14 +15,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
       stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
     />
     <path
-      d="M11 15l4 4.5 5.222-6.667"
+      d="M12.8 16h-.6m3.987 0h-.6m4.213 0h-.6"
       stroke="currentColor"
       strokeLinecap="round"
-      strokeLinejoin="round"
     />
   </svg>
 );
@@ -32,7 +29,7 @@ type IconProps = {
   circleColor?: ColorProps,
   color?: ColorProps,
 };
-const GenericCheckRounded =
+const GenericPending =
   styled(Svg) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
@@ -51,4 +48,4 @@ const GenericCheckRounded =
       },
     },
   ]);
-export default GenericCheckRounded;
+export default GenericPending;

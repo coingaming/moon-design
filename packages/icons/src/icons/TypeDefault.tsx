@@ -13,7 +13,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <g
-      filter="url(#TypeDefault_svg__filter0_d)"
+      filter="url(#TypeDefault_svg__filter0_d_2567:571)"
       fillRule="evenodd"
       clipRule="evenodd"
     >
@@ -28,7 +28,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="TypeDefault_svg__filter0_d"
+        id="TypeDefault_svg__filter0_d_2567:571"
         x={-2}
         y={-1}
         width={36}
@@ -45,8 +45,15 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
         <feOffset dy={1} />
         <feGaussianBlur stdDeviation={1} />
         <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4049 0" />
-        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
-        <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+        <feBlend
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_2567:571"
+        />
+        <feBlend
+          in="SourceGraphic"
+          in2="effect1_dropShadow_2567:571"
+          result="shape"
+        />
       </filter>
     </defs>
   </svg>

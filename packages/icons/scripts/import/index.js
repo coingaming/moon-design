@@ -50,8 +50,8 @@ exporter
     exporter.downloadSvgs({
       svgsData,
       saveDirectory: dir || SAVE_DIRECTORY,
-      isClearDirectory: clean, // doing rm -rf for SAVE_DIRECTORY
-      isIconsNameDisplayed: false, // display all icons name to console
+      isClearDirectory: true, // doing rm -rf for SAVE_DIRECTORY
+      isIconsNameDisplayed: true, // display all icons name to console
     })
   );
 
