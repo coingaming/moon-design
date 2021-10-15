@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.7.0
+
+### Minor Changes
+
+- Update icons
+
 ## 7.6.1
 
 ### Patch Changes
