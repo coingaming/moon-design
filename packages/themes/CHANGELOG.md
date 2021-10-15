@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.6.1
+
+### Patch Changes
+
+- Fix border TS
+
 ## 7.6.0
 
 ### Minor Changes

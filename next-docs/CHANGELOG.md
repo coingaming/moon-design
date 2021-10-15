@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.6.1
+
+### Patch Changes
+
+- Fix border TS
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.6.1
+  - @heathmont/moon-assets@7.6.1
+  - @heathmont/moon-charts@7.6.1
+  - @heathmont/moon-components@7.6.1
+  - @heathmont/moon-core@7.6.1
+  - @heathmont/moon-draggabletable@7.6.1
+  - @heathmont/moon-icons@7.6.1
+  - @heathmont/moon-pagination@7.6.1
+  - @heathmont/moon-popover@7.6.1
+  - @heathmont/moon-table@7.6.1
+  - @heathmont/moon-themes@7.6.1
+  - @heathmont/moon-utils@7.6.1
+
 ## 7.6.0
 
 ### Minor Changes
