@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.6.1
+
+### Patch Changes
+
+- Fix border TS
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.6.1
+  - @heathmont/moon-components@7.6.1
+  - @heathmont/moon-themes@7.6.1
+  - @heathmont/moon-utils@7.6.1
+
 ## 7.6.0
 
 ### Minor Changes
