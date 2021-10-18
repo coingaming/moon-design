@@ -1,17 +1,20 @@
-import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
+import { ColorProps } from '@heathmont/moon-themes';
 import { mq } from '@heathmont/moon-utils';
 
 /* Layout
   =========================================== */
 
-export const DialogContainer = styled.div<{ variant?: 'default' | 'new' }>(
-  ({ theme: { color, radius, boxShadow }, variant }) => ({
+export const DialogContainer = styled.div<{ variant?: 'default' | 'new', backgroundColor?: ColorProps }>(
+  ( { backgroundColor, theme: { color, radius, boxShadow }, variant }) => ({
+    boxShadow,
     position: 'relative',
     outline: 'none',
     borderRadius: variant === 'new' ? rem(16) : rem(radius.small),
     color: color.bulma[100],
     background: variant === 'new' ? color.gohan[100] : color.goku[100],
+    backgroundColor,  
   })
 );
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { ColorProps } from '@heathmont/moon-themes';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
 import IconClose from '../private/icons/IconClose';
@@ -17,6 +18,7 @@ import type {
 export type DialogProps = ReachDialogProps &
   DialogPosition &
   DialogMaxWidth & {
+    backgroundColor?: ColorProps;
     disableScrollLock?: boolean;
     heading?: React.ReactElement;
     hideCloseButton?: boolean;
@@ -24,9 +26,10 @@ export type DialogProps = ReachDialogProps &
   };
 
 const DialogToggleComponent: React.FC<DialogProps> = ({
-  onDismiss,
+  backgroundColor,
   heading,
   hideCloseButton,
+  onDismiss,
 }) => {
   if (hideCloseButton) {
     return null;
@@ -36,6 +39,7 @@ const DialogToggleComponent: React.FC<DialogProps> = ({
       type="button"
       onClick={onDismiss && onDismiss}
       heading={!!heading}
+      backgroundColor={backgroundColor}
     >
       <IconClose />
       <DialogToggleText>Close dialog</DialogToggleText>
@@ -59,14 +63,15 @@ const DialogHeaderComponent: React.FC<DialogProps> = ({
 );
 
 const Dialog: React.FC<DialogProps> = ({
+  backgroundColor,
   children,
-  maxWidth,
-  isOpen = false,
-  onDismiss,
-  position = 'CENTER',
   disableScrollLock = false,
   heading,
   hideCloseButton = false,
+  isOpen = false,
+  maxWidth,
+  onDismiss,
+  position = 'CENTER',
   variant,
 }) => (
   <DialogOverlay
@@ -75,11 +80,12 @@ const Dialog: React.FC<DialogProps> = ({
     dangerouslyBypassScrollLock={disableScrollLock}
   >
     <DialogContent maxWidth={maxWidth} position={position}>
-      <DialogContainer variant={variant}>
+      <DialogContainer backgroundColor={backgroundColor} variant={variant}>
         {!heading && (
           <DialogToggleComponent
-            onDismiss={onDismiss}
+            backgroundColor={backgroundColor}
             hideCloseButton={hideCloseButton}
+            onDismiss={onDismiss}
           />
         )}
         <DialogMain variant={variant}>
