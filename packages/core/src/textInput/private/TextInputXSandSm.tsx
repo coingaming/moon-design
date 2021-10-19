@@ -31,7 +31,6 @@ const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
     isError,
     ref,
     dir,
-    // @ts-ignore
     ...rest
   } = props;
   const inputProps = {

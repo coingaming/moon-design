@@ -176,7 +176,6 @@ const PieChart: React.FC<Props> = ({
               />
               <Pie
                 activeIndex={activeIndex}
-                // @ts-ignore
                 activeShape={renderActiveShape}
                 data={data}
                 innerRadius="75%"

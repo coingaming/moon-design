@@ -263,7 +263,7 @@ importers:
       '@heathmont/moon-table': workspace:^7.7.0
       '@heathmont/moon-themes': workspace:^7.7.0
       '@heathmont/moon-utils': workspace:^7.7.0
-      '@types/react-table': 7.0.23
+      '@types/react-table': 7.7.6
       immutability-helper: ^3.1.1
       polished: 4.0.1
       react-dnd: ^14.0.3
@@ -276,7 +276,7 @@ importers:
       '@heathmont/moon-table': link:../table
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-      '@types/react-table': 7.0.23
+      '@types/react-table': 7.7.6
       immutability-helper: 3.1.1
       polished: 4.0.1
       react-dnd: 14.0.3_@types+react@16.9.9+react@17.0.2
@@ -380,7 +380,7 @@ importers:
       '@heathmont/moon-components': workspace:^7.7.0
       '@heathmont/moon-themes': workspace:^7.7.0
       '@heathmont/moon-utils': workspace:^7.7.0
-      '@types/react-table': 7.0.23
+      '@types/react-table': 7.7.6
       polished: 4.0.1
       react-table: 7.5.1
       react-table-hoc-fixed-columns: 2.3.3
@@ -389,7 +389,7 @@ importers:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-      '@types/react-table': 7.0.23
+      '@types/react-table': 7.7.6
       polished: 4.0.1
       react-table: 7.5.1_react@17.0.2
       react-table-hoc-fixed-columns: 2.3.3_react-dom@17.0.2+react@17.0.2
@@ -3490,8 +3490,8 @@ packages:
       '@types/react': 16.9.9
     dev: false
 
-  /@types/react-table/7.0.23:
-    resolution: {integrity: sha512-1L2wFQVm6QcrSUbAdTUpk2PTYX5Wqx11Kh+wuN/kYYRWNI4OGpj3sIn3QAQ1jOwXKpyLMTL6lpEcUfKw2ZEieQ==}
+  /@types/react-table/7.7.6:
+    resolution: {integrity: sha512-ZMFHh1sG5AGDmhVRpz9mgGByGmBFAqnZ7QnyqGa5iAlKtcSC3vb/gul47lM0kJ1uvlawc+qN5k+++pe+GBdJ+g==}
     dependencies:
       '@types/react': 16.9.9
     dev: false
