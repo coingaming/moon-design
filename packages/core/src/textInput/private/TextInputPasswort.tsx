@@ -35,7 +35,6 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
     dir,
     showPasswordText,
     ref,
-    // @ts-ignore
     ...rest
   } = props;
 

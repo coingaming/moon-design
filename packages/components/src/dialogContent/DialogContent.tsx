@@ -21,7 +21,7 @@ const DialogContent = styled(ReachDialogContent)
     'aria-labelledby': 'Dialog content',
   })<DialogMaxWidth & DialogPosition>(({ theme: { space } }) => [
   {
-    background: 'rgb(107 107 107)',
+    background: 'transparent',
     margin: '0 auto',
     position: 'relative',
     maxWidth: rem(608) /* [1] */,

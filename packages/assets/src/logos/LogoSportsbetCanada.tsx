@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// @ts-ignore
 import { useTheme } from '@heathmont/moon-themes';
-// @ts-ignore
 import { themed } from '@heathmont/moon-utils';
 
 const Svg = ({ secondaryColor, ...props }: any) => (

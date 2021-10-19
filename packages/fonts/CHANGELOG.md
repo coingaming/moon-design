@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.7.1
+
+### Patch Changes
+
+- Fix TS-ignore
+
 ## 7.7.0
 
 ### Minor Changes
