@@ -23,6 +23,7 @@ export interface SingleSelectProps
   hintText?: JSX.Element | string;
   isError?: boolean;
   titleOptions?: JSX.Element | string;
+  zIndexOptions?: number;
 }
 
 const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
@@ -43,6 +44,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       isError,
       topContent,
       titleOptions,
+      zIndexOptions,
     },
     ref
   ) => (
@@ -74,6 +76,7 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
             label={label}
             titleOptions={titleOptions}
             selectedValue={value}
+            zIndexOptions={zIndexOptions}
           />
         )}
       </ListboxInputWrapper>

@@ -21,6 +21,7 @@ interface SingleSelectWithContextProps
   label?: JSX.Element | string;
   titleOptions?: JSX.Element | string;
   selectedValue: string | null;
+  zIndexOptions?: number;
 }
 
 const SingleSelectWithContext: React.FC<SingleSelectWithContextProps> = ({
@@ -37,6 +38,7 @@ const SingleSelectWithContext: React.FC<SingleSelectWithContextProps> = ({
   topContent,
   titleOptions,
   selectedValue,
+  zIndexOptions,
 }) => (
   <>
     <ListboxButtonComponent
@@ -48,7 +50,7 @@ const SingleSelectWithContext: React.FC<SingleSelectWithContextProps> = ({
       variant={variant}
       selectLabel={label}
     />
-    <ListboxPopoverWrapper>
+    <ListboxPopoverWrapper zIndexOptions={zIndexOptions}>
       {search && <SearchWrapper>{search}</SearchWrapper>}
       {topContent && topContent}
       {titleOptions && titleOptions}
