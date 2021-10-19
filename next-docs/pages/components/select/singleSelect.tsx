@@ -481,7 +481,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} variant='primary'/>
+<SingleSelect options={options} variant='primary' zIndexOptions={100}/>
           `}
         />
       </section>
