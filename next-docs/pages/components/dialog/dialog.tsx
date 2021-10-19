@@ -270,7 +270,7 @@ const ExampleWithoutCloseButton = () => {
         code={`import { Dialog, Button, Stack } from '@heathmont/moon-components';
 
 const [showDialog, setShowDialog] = React.useState(false);
-      
+
 <Button variant="primary" onClick={() => setShowDialog(true)}>
   Open Dialog
 </Button>
@@ -360,7 +360,7 @@ const [showDialog, setShowDialog] = React.useState(false);
       libero id arcu pretium, et ultrices diam tincidunt.
     </p>
   </Stack>
-</Dialog>        
+</Dialog>
         `}
       />
     </>
@@ -623,7 +623,7 @@ const [showDialog, setShowDialog] = React.useState(false);
       litora torquent per conubia nostra, per inceptos himenaeos.{' '}
     </p>
   </Stack>
-</Dialog>        
+</Dialog>
         `}
       />
     </>
