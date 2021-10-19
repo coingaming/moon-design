@@ -219,7 +219,6 @@ importers:
       '@heathmont/moon-utils': workspace:^7.7.1
       '@reach/dialog': 0.16.2
       '@types/date-fns': 2.6.0
-      '@types/reach__dialog': 0.1.1
       '@types/react-click-outside-hook': 1.0.0
       date-fns: 2.15.0
       polished: 4.1.3
@@ -238,7 +237,6 @@ importers:
       scroll-into-view-if-needed: 2.2.22
       smooth-scroll-into-view-if-needed: 1.1.27
     devDependencies:
-      '@types/reach__dialog': 0.1.1
       '@types/react-click-outside-hook': 1.0.0
 
   packages/core:
@@ -3434,12 +3432,6 @@ packages:
     resolution: {integrity: sha512-s0cj9rylWw+Ax/AnttCQzMrLZGq/OxAIZgrkRLK1QHJIF6Qabd0//acMCFM6+Xb8Bi8p8PkT2fqpaQveRju/kA==}
     dependencies:
       ts-toolbelt: 6.15.5
-    dev: true
-
-  /@types/reach__dialog/0.1.1:
-    resolution: {integrity: sha512-hTHF+EvkpV1cyycWzhYMJ/FUnaK7Vroa+BrNLJrrOGHnmzh6EKTYyVDsjOPWZIv3FN9tO9v8u9I6AvjY0XoXGw==}
-    dependencies:
-      '@types/react': 16.9.9
     dev: true
 
   /@types/react-click-outside-hook/1.0.0:
