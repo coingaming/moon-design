@@ -108,7 +108,7 @@ const Table: React.FC<TableProps> = ({
   const { scrollState, handleScroll } = useScrollState(tableRef);
 
   useEffect(() => {
-    if (expandedByDefault === undefined || !data?.length) return;
+    if (expandedByDefault === undefined || !data || !data.length) return;
     toggleAllRowsExpanded(expandedByDefault);
   }, [expandedByDefault, data, toggleAllRowsExpanded]);
 

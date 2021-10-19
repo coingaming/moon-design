@@ -21,13 +21,15 @@ const renderRows = ({
   getOnRowClickHandler,
   renderRowSubComponent,
 }: RenderRowsProps) => {
-  return rows?.map((row: any, index: number) => {
+  if (!rows) return;
+  return rows.map((row: any, index: number) => {
     prepareRow(row);
     const rowProps = row.getRowProps();
     const onRowClickHandler = getOnRowClickHandler(row);
     const hasOnRowClickHandler = typeof onRowClickHandler === 'function';
-    const rowId = row?.id?.split('.');
-    const nextRowId = rows[index + 1]?.id?.split('.') || [];
+    const rowId = row.id ? row.id.split('.') : [];
+    const nextRow = rows[index + 1];
+    const nextRowId = nextRow && nextRow.id ? nextRow.id.split('.') : [];
 
     const mainRowIndex = Number(rowId[0]);
     const backgroundColor =

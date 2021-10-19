@@ -7,7 +7,7 @@ const useScrollState = (tableRef: RefObject<HTMLDivElement | null>) => {
   });
 
   useEffect(() => {
-    if (!tableRef?.current) return;
+    if (!tableRef || !tableRef.current) return;
     setScrollState((oldScrollState) => ({
       ...oldScrollState,
       scrolledToRight:
