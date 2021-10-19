@@ -12,6 +12,7 @@ interface OptionsProps {
 }
 
 const ListboxListWrapper = styled(ListboxList)({
+  listStyle: 'none',
   padding: `0 ${rem(4)}`,
   '&:focus-visible': {
     outline: 'none',
