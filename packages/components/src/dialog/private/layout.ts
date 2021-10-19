@@ -14,7 +14,7 @@ export const DialogContainer = styled.div<{ variant?: 'default' | 'new', backgro
     borderRadius: variant === 'new' ? rem(16) : rem(radius.small),
     color: color.bulma[100],
     background: variant === 'new' ? color.gohan[100] : color.goku[100],
-    backgroundColor,  
+    backgroundColor,
   })
 );
 
