@@ -976,7 +976,7 @@ const TopContent = () => (
               type: 'number',
               required: false,
               default: '10',
-              description: 'Set custom x-index for options container',
+              description: 'Set custom z-index for options container',
             },
           ]}
         />
