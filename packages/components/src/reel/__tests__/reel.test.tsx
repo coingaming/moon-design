@@ -9,7 +9,6 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
 
-// @ts-ignore
 const items = Array.from({ length: 10 }, (v, i) => i);
 
 describe('Reel', () => {

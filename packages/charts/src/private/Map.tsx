@@ -31,7 +31,7 @@ type Props = {
 export const Map: React.FC<Props> = ({ data }) => {
   const theme = useTheme();
   const defaultColor = themed('color', 'goku.80')(theme);
-  const tooltipRef = useRef(null);
+  const tooltipRef = useRef<HTMLDivElement>(null);
   const [hoveredItem, setHoveredItem] = useState<any>(null);
   const isCountryCode = (
     code: string,
@@ -108,15 +108,14 @@ export const Map: React.FC<Props> = ({ data }) => {
                     setHoveredItem(activeItem);
                     const ref = tooltipRef && tooltipRef.current;
                     if (!ref) return;
-                    // @ts-ignore
-                    const parentRect = ref.parentNode.getBoundingClientRect();
-                    // @ts-ignore
+                    const parentElement = ref.parentElement;
+                    if (!parentElement) return;
+                    const parentRect = parentElement.getBoundingClientRect();
                     const tooltipRect = ref.getBoundingClientRect();
                     const x =
                       event.clientX - parentRect.left - tooltipRect.width / 2;
                     const y =
                       event.clientY - parentRect.top - tooltipRect.height * 1.2;
-                    // @ts-ignore
                     ref.style.transform = `translate(${x}px, ${y}px)`;
                   }}
                 />

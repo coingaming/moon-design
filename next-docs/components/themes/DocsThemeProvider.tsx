@@ -174,8 +174,9 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
   const getColorMode: any = () => themeState.colorMode;
   const getBrand: any = () => themeState.brand;
   const themeKeys = Object.keys(themes);
-  // @ts-ignore
-  const theme = themes[themeState.brand][themeState.colorMode];
+
+  const docTheme = themes[themeState.brand as keyof DocsThemes];
+  const theme = docTheme[themeState.colorMode as keyof typeof docTheme];
 
   return (
     <DocsThemeContext.Provider

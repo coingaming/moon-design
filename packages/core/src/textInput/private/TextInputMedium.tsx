@@ -32,7 +32,6 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
     isError,
     ref,
     dir,
-    // @ts-ignore
     ...rest
   } = props;
   const inputProps = {

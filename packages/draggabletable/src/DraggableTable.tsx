@@ -260,10 +260,8 @@ const DraggableTable: React.FC<any> = ({
                 >
                   {column.render('Header')}
                   <div
-                    // @ts-ignore
                     {...column.getResizerProps()}
                     className={`resizer ${
-                      // @ts-ignore
                       column.isResizing ? 'isResizing' : ''
                     }`}
                   />
@@ -315,10 +313,8 @@ const DraggableTable: React.FC<any> = ({
                     {column.render('Footer')}
 
                     <div
-                      // @ts-ignore
                       {...column.getResizerProps()}
                       className={`resizer ${
-                        // @ts-ignore
                         column.isResizing ? 'isResizing' : ''
                       }`}
                     />
