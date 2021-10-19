@@ -13,7 +13,7 @@ export interface DialogPosition {
 /**
  * 1. Arbitrary figure from design.
  */
-const DialogContent = styled(ReachDialogContent)
+const DialogContent: React.FC<any> = styled(ReachDialogContent)
   .withConfig({
     shouldForwardProp: (prop) => !['maxWidth'].includes(prop),
   })

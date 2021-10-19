@@ -22,7 +22,7 @@ export const DialogToggle = styled.button<DialogToggleProps>(
     borderRadius: rem(radius.largest),
     border,
     borderColor: 'transparent',
-    backgroundColor: backgroundColor ?? color.gohan[100],
+    backgroundColor: backgroundColor ? backgroundColor : color.gohan[100],
     ...focus(color.piccolo[100]),
     '&:disabled, &[disabled]': {
       cursor: 'not-allowed',

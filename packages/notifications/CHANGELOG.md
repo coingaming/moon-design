@@ -1,5 +1,14 @@
 # Change Log
 
+## 7.7.2
+
+### Patch Changes
+
+- bump reach-ui
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.7.2
+  - @heathmont/moon-utils@7.7.2
+
 ## 7.7.1
 
 ### Patch Changes
