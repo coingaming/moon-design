@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.8.0
+
+### Minor Changes
+
+- fix SingleItem list display
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.8.0
+  - @heathmont/moon-assets@7.8.0
+  - @heathmont/moon-charts@7.8.0
+  - @heathmont/moon-components@7.8.0
+  - @heathmont/moon-core@7.8.0
+  - @heathmont/moon-draggabletable@7.8.0
+  - @heathmont/moon-icons@7.8.0
+  - @heathmont/moon-pagination@7.8.0
+  - @heathmont/moon-popover@7.8.0
+  - @heathmont/moon-table@7.8.0
+  - @heathmont/moon-themes@7.8.0
+  - @heathmont/moon-utils@7.8.0
+
 ## 7.7.2
 
 ### Patch Changes

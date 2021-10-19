@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.8.0
+
+### Minor Changes
+
+- fix SingleItem list display
+
 ## 7.7.2
 
 ### Patch Changes

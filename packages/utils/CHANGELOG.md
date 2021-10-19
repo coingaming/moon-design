@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.8.0
+
+### Minor Changes
+
+- fix SingleItem list display
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.8.0
+
 ## 7.7.2
 
 ### Patch Changes
