@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.7.1
+
+### Patch Changes
+
+- Fix TS-ignore
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.7.1
+
 ## 7.7.0
 
 ### Minor Changes
