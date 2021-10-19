@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.7.2
+
+### Patch Changes
+
+- bump reach-ui
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.7.2
+  - @heathmont/moon-core@7.7.2
+  - @heathmont/moon-accordion@7.7.2
+  - @heathmont/moon-assets@7.7.2
+  - @heathmont/moon-charts@7.7.2
+  - @heathmont/moon-draggabletable@7.7.2
+  - @heathmont/moon-icons@7.7.2
+  - @heathmont/moon-pagination@7.7.2
+  - @heathmont/moon-popover@7.7.2
+  - @heathmont/moon-table@7.7.2
+  - @heathmont/moon-themes@7.7.2
+  - @heathmont/moon-utils@7.7.2
+
 ## 7.7.1
 
 ### Patch Changes
