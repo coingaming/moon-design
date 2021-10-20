@@ -462,7 +462,11 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96 mb-4">
-                <SingleSelect options={options} variant="primary" />
+                <SingleSelect
+                  options={options}
+                  variant="primary"
+                  zIndexOptions={100}
+                />
               </div>
             </div>
           }
@@ -497,7 +501,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} variant='primary'/>
+<SingleSelect options={options} variant='primary' zIndexOptions={100}/>
           `}
         />
       </section>
@@ -986,6 +990,13 @@ const TopContent = () => (
               required: false,
               default: '-',
               description: 'Set error state for select',
+            },
+            {
+              name: 'zIndexOptions',
+              type: 'number',
+              required: false,
+              default: '10',
+              description: 'Set custom z-index for options container',
             },
           ]}
         />

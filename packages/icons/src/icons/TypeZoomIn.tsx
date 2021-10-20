@@ -7,12 +7,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeZoomIn_svg__filter0_d_2567:567)">
+    <g filter="url(#TypeZoomIn_svg__a)">
       <path
         d="M19.412 13.604a5.844 5.844 0 11-11.687 0 5.844 5.844 0 0111.687 0z"
         fill="#fff"
@@ -22,13 +21,13 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
         stroke="currentColor"
       />
       <path
-        d="M16.756 12.542H14.63v-2.125h-2.125v2.125H10.38v2.104h2.125v2.146h2.125v-2.146h2.125v-2.104zM18.406 16.944l-1.503 1.503 5.793 5.792 1.502-1.502-5.792-5.793z"
+        d="M16.756 12.542H14.63v-2.125h-2.125v2.125H10.38v2.104h2.125v2.146h2.125v-2.146h2.125v-2.104zm1.65 4.402l-1.503 1.503 5.793 5.792 1.502-1.502-5.792-5.793z"
         fill="currentColor"
       />
     </g>
     <defs>
       <filter
-        id="TypeZoomIn_svg__filter0_d_2567:567"
+        id="TypeZoomIn_svg__a"
         x={-2}
         y={0}
         width={36}
