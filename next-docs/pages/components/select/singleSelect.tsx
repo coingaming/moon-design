@@ -207,7 +207,7 @@ const Example = () => {
     return '';
   };
 
-  const getElementValue = (option: Option | undefined) => {
+  const getOptionValue = (option: Option | undefined) => {
     return option ? option.value : '';
   };
 
@@ -216,7 +216,7 @@ const Example = () => {
       options={options}
       variant="primary"
       onChange={setValue}
-      controlledValue={getElementValue(
+      controlledValue={getOptionValue(
         options.find((element) => findElement(element, value))
       )}
     />
