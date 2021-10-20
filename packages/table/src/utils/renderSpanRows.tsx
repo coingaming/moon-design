@@ -21,19 +21,31 @@ const renderSpanRows = ({
   defaultRowBackgroundColor,
   rowSpanHeaders,
 }: RenderSpanRowsProps) => {
-  return rows?.map((row: any, index: number) => {
+  if (!rows) return;
+  return rows.map((row: any, index: number) => {
     prepareRow(row);
 
     const onRowClickHandler = getOnRowClickHandler(row);
     const hasOnRowClickHandler = typeof onRowClickHandler === 'function';
     const backgroundColor =
       index % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor;
-    const isRowSpanned = rowSpanHeaders?.some((rowSpanHeader: any) =>
-      row.cells.some(
-        (cell: any) =>
-          rowSpanHeader.id === cell.column?.id &&
-          rowSpanHeader.value === cell.value
-      )
+    const isRowSpanned =
+      rowSpanHeaders &&
+      rowSpanHeaders.some((rowSpanHeader: any) =>
+        row.cells.some(
+          (cell: any) =>
+            cell.column &&
+            rowSpanHeader.id === cell.column.id &&
+            rowSpanHeader.value === cell.value
+        )
+      );
+
+    const makeCellForRowSpanned = (cell: any) => (
+      <TD {...cell.getCellProps()} />
+    );
+
+    const makeCellForNormalRow = (cell: any) => (
+      <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
     );
 
     return (
@@ -46,16 +58,22 @@ const renderSpanRows = ({
         }
       >
         {row.cells.map((cell: any) => {
-          const rowSpanHeader = rowSpanHeaders?.find(
-            (rowSpanHeader) => rowSpanHeader?.id === cell.column?.id
-          );
-          const isRowSpanned = rowSpanHeader?.value === cell.value;
+          if (!rowSpanHeaders) return makeCellForNormalRow(cell);
 
-          if (isRowSpanned) return <TD {...cell.getCellProps()} />;
+          const rowSpanHeader = rowSpanHeaders.find(
+            (rowSpanHeader) =>
+              rowSpanHeader &&
+              cell.column &&
+              rowSpanHeader.id === cell.column.id
+          );
+          const isRowSpanned =
+            rowSpanHeader && rowSpanHeader.value === cell.value;
+
+          if (isRowSpanned) return makeCellForRowSpanned(cell);
 
           if (rowSpanHeader) rowSpanHeader.value = cell.value;
 
-          return <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>;
+          return makeCellForNormalRow(cell);
         })}
       </BodyTR>
     );

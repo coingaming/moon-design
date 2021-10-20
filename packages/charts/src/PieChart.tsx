@@ -138,9 +138,10 @@ const PieChart: React.FC<Props> = ({
           cornerRadius={100}
           onMouseOver={(e) => {
             if (!e || !e.currentTarget) return;
-            const sector = e.currentTarget?.closest('.recharts-pie-sector');
-            const container = sector?.parentElement;
-            if (!container || !sector) return;
+            const sector = e.currentTarget.closest('.recharts-pie-sector');
+            if (!sector || !sector.parentElement) return;
+            const container = sector.parentElement;
+            if (!container) return;
             container.appendChild(sector);
           }}
         />

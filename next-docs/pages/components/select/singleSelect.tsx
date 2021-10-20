@@ -25,7 +25,13 @@ const optionsAsString = [
   },
 ];
 
-const options = [
+interface Option {
+  value: string;
+  label: string;
+  element: ListItem;
+}
+
+const options: Option[] = [
   {
     value: 'Option 1',
     label: 'Option 1',
@@ -191,14 +197,19 @@ const optionsRadioBtn = [
 const Example = () => {
   const [value, setValue] = React.useState(options[1]);
 
+  const findElement = (element: Option, value: Option) => {
+    const isFound = element.value === value.value;
+    if (isFound) {
+      return value;
+    }
+    return '';
+  };
   return (
     <SingleSelect
       options={options}
       variant="primary"
       onChange={setValue}
-      controlledValue={
-        options.find((element) => element.value === value.value)?.value || ''
-      }
+      controlledValue={options.find((element) => findElement(element, value))}
     />
   );
 };
