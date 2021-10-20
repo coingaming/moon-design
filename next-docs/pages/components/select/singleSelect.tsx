@@ -28,7 +28,9 @@ const optionsAsString = [
 interface Option {
   value: string;
   label: string;
-  element: ListItem;
+  element:
+    | (({ isSelected }: { isSelected: boolean }) => JSX.Element | string)
+    | JSX.Element;
 }
 
 const options: Option[] = [
@@ -204,12 +206,19 @@ const Example = () => {
     }
     return '';
   };
+
+  const getElementValue = (option: Option | undefined) => {
+    return option ? option.value : '';
+  };
+
   return (
     <SingleSelect
       options={options}
       variant="primary"
       onChange={setValue}
-      controlledValue={options.find((element) => findElement(element, value))}
+      controlledValue={getElementValue(
+        options.find((element) => findElement(element, value))
+      )}
     />
   );
 };
