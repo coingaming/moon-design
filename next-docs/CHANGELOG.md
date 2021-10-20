@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.9.0
+
+### Minor Changes
+
+- Fix TS
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-charts@7.9.0
+  - @heathmont/moon-core@7.9.0
+  - @heathmont/moon-icons@7.9.0
+  - @heathmont/moon-table@7.9.0
+  - @heathmont/moon-themes@7.9.0
+  - @heathmont/moon-accordion@7.9.0
+  - @heathmont/moon-assets@7.9.0
+  - @heathmont/moon-components@7.9.0
+  - @heathmont/moon-draggabletable@7.9.0
+  - @heathmont/moon-pagination@7.9.0
+  - @heathmont/moon-popover@7.9.0
+  - @heathmont/moon-utils@7.9.0
+
 ## 7.8.0
 
 ### Minor Changes

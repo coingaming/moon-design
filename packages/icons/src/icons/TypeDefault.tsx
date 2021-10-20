@@ -7,16 +7,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g
-      filter="url(#TypeDefault_svg__filter0_d_2567:571)"
-      fillRule="evenodd"
-      clipRule="evenodd"
-    >
+    <g filter="url(#TypeDefault_svg__a)" fillRule="evenodd" clipRule="evenodd">
       <path
         d="M16.148 24.473l1.863-1.003 1.614-.84-2.567-4.815h4.332L10.01 6.407v16.015l3.316-3.221 2.822 5.272z"
         fill="#fff"
@@ -28,7 +23,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="TypeDefault_svg__filter0_d_2567:571"
+        id="TypeDefault_svg__a"
         x={-2}
         y={-1}
         width={36}

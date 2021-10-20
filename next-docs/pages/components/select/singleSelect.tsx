@@ -25,7 +25,15 @@ const optionsAsString = [
   },
 ];
 
-const options = [
+interface Option {
+  value: string;
+  label: string;
+  element:
+    | (({ isSelected }: { isSelected: boolean }) => JSX.Element | string)
+    | JSX.Element;
+}
+
+const options: Option[] = [
   {
     value: 'Option 1',
     label: 'Option 1',
@@ -191,14 +199,26 @@ const optionsRadioBtn = [
 const Example = () => {
   const [value, setValue] = React.useState(options[1]);
 
+  const findElement = (element: Option, value: Option) => {
+    const isFound = element.value === value.value;
+    if (isFound) {
+      return value;
+    }
+    return '';
+  };
+
+  const getOptionValue = (option: Option | undefined) => {
+    return option ? option.value : '';
+  };
+
   return (
     <SingleSelect
       options={options}
       variant="primary"
       onChange={setValue}
-      controlledValue={
-        options.find((element) => element.value === value.value)?.value || ''
-      }
+      controlledValue={getOptionValue(
+        options.find((element) => findElement(element, value))
+      )}
     />
   );
 };
@@ -442,7 +462,11 @@ const options = [
           preview={
             <div className="flex flex-col">
               <div className="flex justify-around items-center w-96 mb-4">
-                <SingleSelect options={options} variant="primary" />
+                <SingleSelect
+                  options={options}
+                  variant="primary"
+                  zIndexOptions={100}
+                />
               </div>
             </div>
           }
@@ -477,7 +501,7 @@ const options = [
   },
 ];
 
-<SingleSelect options={options} variant='primary'/>
+<SingleSelect options={options} variant='primary' zIndexOptions={100}/>
           `}
         />
       </section>
@@ -966,6 +990,13 @@ const TopContent = () => (
               required: false,
               default: '-',
               description: 'Set error state for select',
+            },
+            {
+              name: 'zIndexOptions',
+              type: 'number',
+              required: false,
+              default: '10',
+              description: 'Set custom z-index for options container',
             },
           ]}
         />

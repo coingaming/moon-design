@@ -7,12 +7,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
-    viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeMove_svg__filter0_d_2567:569)">
+    <g filter="url(#TypeMove_svg__a)">
       <path
         d="M16 8l-8 8 5.23 5.22L16 24l8-8-8-8zm-2 11h-1v-1h1v1zm0-5h-1v-1h1v1zm5 5h-1v-1h1v1zm-1-6h1v1h-1v-1z"
         fill="#fff"
@@ -28,7 +27,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="TypeMove_svg__filter0_d_2567:569"
+        id="TypeMove_svg__a"
         x={-2}
         y={0}
         width={36}

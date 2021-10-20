@@ -24,6 +24,7 @@ const transitionDuration = 0.2;
 
 export type ZIndex = {
   carouselControl: number;
+  selectOptions: number;
   dialog: number;
   toggle: number;
 };
@@ -363,8 +364,7 @@ const sharedTokens: SharedTheme = {
   borderStyle,
   borderWidth,
   border: `${borderWidth}px ${borderStyle}`,
-  boxShadow:
-    '0px 0px 1px 0px #00000066, 0px 8px 24px -6px #00000029',
+  boxShadow: '0px 0px 1px 0px #00000066, 0px 8px 24px -6px #00000029',
   shadows: {
     sm: '0px 0px 1px 0px #00000066, 0px 6px 6px -6px #00000029',
     md: '0px 0px 1px 0px #00000066, 0px 12px 12px -6px #00000029',
@@ -417,6 +417,7 @@ const sharedTokens: SharedTheme = {
   },
   zIndex: {
     carouselControl: 5,
+    selectOptions: 10,
     dialog: 10000,
     toggle: 1,
   },

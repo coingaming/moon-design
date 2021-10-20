@@ -94,12 +94,12 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
   }, [tableRef]);
 
   useEffect(() => {
-    if (!footerRef?.current) return;
+    if (!footerRef || !footerRef.current) return;
     setFooterHeight(footerRef.current.clientHeight);
   }, [footerRef, setFooterHeight]);
 
   useEffect(() => {
-    if (!tableRef?.current) return;
+    if (!tableRef || !tableRef.current) return;
     const current = tableRef.current;
 
     handleUpdateViewport();

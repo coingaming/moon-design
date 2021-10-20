@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.9.0
+
+### Minor Changes
+
+- Fix TS
+
 ## 7.8.0
 
 ### Minor Changes

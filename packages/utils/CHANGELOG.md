@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.9.0
+
+### Minor Changes
+
+- Fix TS
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.9.0
+
 ## 7.8.0
 
 ### Minor Changes
