@@ -103,6 +103,11 @@ const DefaultTablePreview = () => {
   );
 };
 
+interface HeaderProps {
+  isAllRowsExpanded: boolean;
+  getToggleAllRowsExpandedProps: () => React.HTMLAttributes<HTMLSpanElement>;
+}
+
 const ExpandedRowTablePreview = () => {
   const columnsInitial = [
     {
@@ -115,7 +120,7 @@ const ExpandedRowTablePreview = () => {
           Header: ({
             getToggleAllRowsExpandedProps,
             isAllRowsExpanded,
-          }: any) => (
+          }: HeaderProps) => (
             <span {...getToggleAllRowsExpandedProps()}>
               {isAllRowsExpanded ? '👇' : '👉'}
             </span>

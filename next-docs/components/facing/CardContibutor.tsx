@@ -8,7 +8,7 @@ import classNames from '../../utils/classNames';
 interface Props {
   variant?: 'tiny' | 'tall';
   title?: string;
-  imageSrc: any;
+  imageSrc: StaticImageData;
   name: string;
 }
 

@@ -100,7 +100,7 @@ const PreviewDraggableTable = () => {
               tags: 'UK, DE',
             },
           ]}
-          onDropRow={(row: any, index: number) => {}}
+          onDropRow={(row: JSX.Element, index: number) => {}}
         />
       }
     />

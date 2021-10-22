@@ -124,9 +124,17 @@ interface DocsThemes {
   tajCasino: DocsColorModes;
 }
 
-type DocsBrands = keyof DocsThemes;
+export type DocsBrands = keyof DocsThemes;
 
-export const DocsThemeContext = React.createContext({
+interface DocsThemeContextFields {
+  setBrand: (themeKey: DocsBrands) => void;
+  themeKeys: string[];
+  toggleColorScheme: () => void;
+  getColorMode: () => string | null;
+  getBrand: () => DocsBrands | null;
+}
+
+export const DocsThemeContext = React.createContext<DocsThemeContextFields>({
   setBrand: (themeKey: DocsBrands) => {
     themeKey;
   },
@@ -171,8 +179,8 @@ export const DocsThemeProvider: React.FC<{ children: React.ReactChild }> = ({
     setThemeState({ brand: themeKey, colorMode: themeState.colorMode });
   };
 
-  const getColorMode: any = () => themeState.colorMode;
-  const getBrand: any = () => themeState.brand;
+  const getColorMode = () => themeState.colorMode;
+  const getBrand = () => themeState.brand as DocsBrands;
   const themeKeys = Object.keys(themes);
 
   const docTheme = themes[themeState.brand as keyof DocsThemes];

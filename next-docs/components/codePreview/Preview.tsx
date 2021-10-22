@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 import classNames from '../../utils/classNames';
 import PreviewSwitch from './Switch';
 
-const Code: React.FC<any> = ({ code }) => {
+interface CodeProps {
+  code: string;
+}
+
+const Code: React.FC<CodeProps> = ({ code }: CodeProps) => {
   return (
     <pre>
       <code>{code}</code>
@@ -11,7 +15,13 @@ const Code: React.FC<any> = ({ code }) => {
   );
 };
 
-export default function Preview({ title, preview, code }: any) {
+interface PreviewProps {
+  title?: string;
+  preview: React.ReactNode;
+  code?: string;
+}
+
+export default function Preview({ title, preview, code }: PreviewProps) {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
@@ -34,13 +44,7 @@ export default function Preview({ title, preview, code }: any) {
           'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6'
         )}
       >
-        {isPreviewActive ? (
-          <>{preview}</>
-        ) : (
-          <>
-            <Code code={code} />
-          </>
-        )}
+        {isPreviewActive ? <>{preview}</> : <>{code && <Code code={code} />}</>}
       </div>
     </>
   );
