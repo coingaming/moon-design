@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.9.1
+
+### Patch Changes
+
+- Fix icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.9.1
+
 ## 7.9.0
 
 ### Minor Changes

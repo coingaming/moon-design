@@ -218,9 +218,12 @@ import {
   OtherSmile,
   OtherSun,
   OtherWater,
+  SecurityBetIncurance,
   SecurityKey,
   SecurityLock,
   SecurityMagnet,
+  SecurityPassport,
+  SecurityPassportAlert,
   SecurityQrCode,
   SecuritySecurityAttention,
   SecurityShield,
@@ -355,6 +358,7 @@ import {
   TravelWiFi,
   TypeClosedHand,
   TypeDefault,
+  TypeDrag,
   TypeHandPointing,
   TypeHelp,
   TypeMove,
@@ -1174,6 +1178,9 @@ export default function PageIcons() {
 
         <SubHeader>Security</SubHeader>
         <Block>
+          <Icon {...wrapperProps} name="SecurityBetIncurance">
+            <SecurityBetIncurance {...props} />
+          </Icon>
           <Icon {...wrapperProps} name="SecurityKey">
             <SecurityKey {...props} />
           </Icon>
@@ -1182,6 +1189,12 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="SecurityMagnet">
             <SecurityMagnet {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SecurityPassport">
+            <SecurityPassport {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="SecurityPassportAlert">
+            <SecurityPassportAlert {...props} />
           </Icon>
           <Icon {...wrapperProps} name="SecurityQrCode">
             <SecurityQrCode {...props} />
@@ -1612,6 +1625,9 @@ export default function PageIcons() {
           </Icon>
           <Icon {...wrapperProps} name="TypeDefault">
             <TypeDefault {...props} />
+          </Icon>
+          <Icon {...wrapperProps} name="TypeDrag">
+            <TypeDrag {...props} />
           </Icon>
           <Icon {...wrapperProps} name="TypeHandPointing">
             <TypeHandPointing {...props} />
