@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.9.1
+
+### Patch Changes
+
+- Fix icons
+
 ## 7.9.0
 
 ### Minor Changes

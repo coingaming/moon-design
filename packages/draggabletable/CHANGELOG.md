@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.9.1
+
+### Patch Changes
+
+- Fix icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.9.1
+  - @heathmont/moon-table@7.9.1
+  - @heathmont/moon-themes@7.9.1
+  - @heathmont/moon-utils@7.9.1
+
 ## 7.9.0
 
 ### Minor Changes
