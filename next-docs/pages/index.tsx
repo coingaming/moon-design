@@ -28,7 +28,15 @@ const Header = () => (
   </>
 );
 
-const SubHeader: React.FC<any> = ({ title, description }) => (
+interface SubHeaderProps {
+  title: string;
+  description: string;
+}
+
+const SubHeader: React.FC<SubHeaderProps> = ({
+  title,
+  description,
+}: SubHeaderProps) => (
   <>
     <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative w-min whitespace-nowrap py-1 rounded-lg">
       {title}

@@ -1,4 +1,14 @@
-export default function TokenTable({ data }: any) {
+interface Data {
+  name: string;
+  key: string;
+  value: number | string;
+}
+
+interface TokenTableProps {
+  data: Data[];
+}
+
+export default function TokenTable({ data }: TokenTableProps) {
   return (
     <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -29,7 +39,7 @@ export default function TokenTable({ data }: any) {
                 </tr>
               </thead>
               <tbody>
-                {data.map((prop: any, propIdx: any) => (
+                {data.map((prop: Data, propIdx: number) => (
                   <tr
                     key={prop.key}
                     className={propIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}

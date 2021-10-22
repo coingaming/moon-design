@@ -3,12 +3,12 @@ import React, { useState } from 'react';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
-import { useDocsTheme } from './themes/DocsThemeProvider';
+import { DocsBrands, useDocsTheme } from './themes/DocsThemeProvider';
 import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
 import Footer from './Footer';
 
-const brandMap: any = {
+const brandMap = {
   moonDesign: 'moon',
   sportsbet: 'sportsbet',
   bitcasino: 'bitcasino',
@@ -16,10 +16,16 @@ const brandMap: any = {
   // hub88: 'hub88', <-- previously was used for the old design
 };
 
-const singleThemedBrands: any[] = [];
+export type Brand = keyof typeof brandMap | null;
+interface GetClassNameProps {
+  brand: Brand | null;
+  colorMode: string | null;
+}
 
-const getClassName = ({ brand, colorMode }: any) => {
-  const brandName = brandMap[brand];
+const singleThemedBrands: string[] = [];
+
+const getClassName = ({ brand, colorMode }: GetClassNameProps) => {
+  const brandName = brand ? brandMap[brand] : '';
   const singleThemed = singleThemedBrands.includes(brandName);
   if (brandName) {
     return singleThemed
@@ -29,13 +35,17 @@ const getClassName = ({ brand, colorMode }: any) => {
   return 'theme-moon-dark';
 };
 
-export default function Layout({ children }: any) {
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export default function Layout({ children }: LayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { toggleColorScheme, getColorMode, setBrand, getBrand, themeKeys } =
     useDocsTheme();
   const openSidebar = () => setSidebarOpen(true);
   const className = getClassName({
-    brand: getBrand(),
+    brand: getBrand() as Brand,
     colorMode: getColorMode(),
   });
 

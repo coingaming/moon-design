@@ -5,18 +5,31 @@ import {
   LogoMoonDesignShort,
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
+import { DocsBrands } from './DocsThemeProvider';
 
-const Logos: any = {
+const Logos = {
   sportsbet: <LogoSportsbetShort fontSize="1rem" />,
   bitcasino: <LogoBitcasinoShort fontSize="1rem" />,
   moonDesign: <LogoMoonDesignShort fontSize="1rem" />,
   betadda: <LogoBetaddaShort fontSize="1rem" />,
 };
 
-const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
+type LogosKeys = keyof typeof Logos;
+
+interface BrandThemeSelectorProps {
+  setBrand: (v: DocsBrands) => void;
+  themeKeys: string[];
+  darkLight: JSX.Element;
+}
+
+const BrandThemeSelector = ({
+  setBrand,
+  themeKeys,
+  darkLight,
+}: BrandThemeSelectorProps) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
-  const filteredThemeKeys = themeKeys.filter((themeKey: any) =>
+  const filteredThemeKeys = themeKeys.filter((themeKey: string) =>
     ['sportsbet', 'bitcasino', 'moonDesign', 'betadda'].includes(themeKey)
   );
   return (
@@ -46,13 +59,13 @@ const BrandThemeSelector = ({ setBrand, themeKeys, darkLight }: any) => {
       {isOpened && (
         <>
           <div className="fixed bottom-16 right-4">
-            {filteredThemeKeys.map((themeKey: any) => {
-              const Logo = Logos[themeKey] || Logos.moonDesign;
+            {filteredThemeKeys.map((themeKey: string) => {
+              const Logo = Logos[themeKey as LogosKeys] || Logos.moonDesign;
               return (
                 <button
                   key={themeKey}
                   type="button"
-                  onClick={() => setBrand(themeKey)}
+                  onClick={() => setBrand(themeKey as DocsBrands)}
                   className="p-2 rounded-full ml-4 text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center"
                 >
                   {Logo}

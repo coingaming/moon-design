@@ -1,11 +1,17 @@
 import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
+interface SidebarTransitionProps {
+  children: React.ReactNode;
+  isOpen: boolean;
+  setIsOpen: (v: boolean) => void;
+}
+
 export default function SidebarTransition({
   children,
   isOpen,
   setIsOpen,
-}: any) {
+}: SidebarTransitionProps) {
   return (
     <Transition.Root show={isOpen} as={Fragment}>
       <Dialog
