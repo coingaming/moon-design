@@ -2,9 +2,10 @@ import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 
 interface InputWrapperProps {
-  isExpandedInner: boolean;
-  disabled: boolean;
-  error: boolean;
+  isExpandedInner: boolean | undefined;
+  disabled: boolean | undefined;
+  error: boolean | undefined;
+  onClick: () => void;
 }
 
 const InputWrapper = styled.div<InputWrapperProps>(

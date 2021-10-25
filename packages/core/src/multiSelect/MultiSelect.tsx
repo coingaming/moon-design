@@ -39,7 +39,7 @@ interface MultiSelectProps {
   isExpanded?: boolean;
   disabled?: boolean;
   error?: boolean;
-  onChange?: (newSelectedItems: string[]) => any;
+  onChange?: (newSelectedItems: string[]) => void;
   hintText?: JSX.Element | string;
 }
 
@@ -134,7 +134,9 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
                   <ControlsClose
                     fontSize="1rem"
                     style={{ cursor: disabled ? 'default' : 'pointer' }}
-                    onClick={(e: any) => {
+                    onClick={(
+                      e: React.MouseEvent<SVGSVGElement, MouseEvent>
+                    ) => {
                       e.stopPropagation();
                       removeSelectedItem(selectedItem);
                     }}
@@ -159,7 +161,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
             {search ? <SearchWrapper>{search}</SearchWrapper> : null}
             {/* {topContent && topContent} */}
             <ul>
-              {items.map((item: any, index: number) => (
+              {items.map((item: Option, index: number) => (
                 <ListItem
                   onClick={(e) => {
                     e.preventDefault();
