@@ -8,7 +8,7 @@ import TabList from './styles/TabList';
 
 export interface TabsProps {
   id?: string;
-  items: any[];
+  items: JSX.Element[];
   isTop?: boolean;
   size?: 'small' | 'medium';
   dir?: 'ltr' | 'rtl' | 'auto';

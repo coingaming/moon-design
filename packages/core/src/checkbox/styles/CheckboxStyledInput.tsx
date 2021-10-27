@@ -5,7 +5,7 @@ import { CheckboxIcon } from '../private/icon';
 
 const BORDER_WIDTH = 2;
 
-const CheckboxStyledInput: React.FC<any> = styled.figure(({ theme }) => ({
+const CheckboxStyledInput = styled.figure(({ theme }) => ({
   position: 'relative',
   display: 'inline-block',
   boxSizing: 'border-box',

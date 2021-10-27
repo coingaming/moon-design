@@ -9,7 +9,7 @@ export interface RadioButtonInputProps {
   name?: string;
   id?: string;
   checked?: boolean;
-  onClick?: any;
+  onClick?: () => void;
 }
 
 const RadioButtonInput = forwardRef<HTMLInputElement, RadioButtonInputProps>(

@@ -1,11 +1,11 @@
 import { ListboxInput, ListboxInputProps } from '@reach/listbox';
 import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-import React from 'react';
+import React, { Ref } from 'react';
 
 interface ListboxInputWrapperProps extends ListboxInputProps {
   disabled?: boolean;
-  ref?: any;
+  ref?: Ref<HTMLSelectElement>;
   inputsize?: 'small' | 'medium';
   error?: string;
 }

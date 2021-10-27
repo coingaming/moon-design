@@ -11,7 +11,7 @@ interface SingleSelectWithContextProps
   variant?: 'primary' | 'secondary';
   disabled?: boolean;
   isExpanded?: boolean;
-  onChange?: any;
+  onChange?: (e: React.ChangeEvent) => void;
   inputSize?: 'small' | 'medium';
   search?: JSX.Element;
   topContent?: JSX.Element;

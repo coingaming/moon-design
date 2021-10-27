@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 
-const Container = styled.div({}) as React.FC<any>;
+const Container = styled.div({});
 
 export default Container;
