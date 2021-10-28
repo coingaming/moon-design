@@ -5,6 +5,7 @@ import SelectLabel from './styles/SelectLabel';
 import HintText from './styles/HintText';
 import SingleSelectWithContext from './private/SingleSelectWithContext';
 import Option from './private/OptionType';
+import { ListboxInputProps } from '@reach/listbox';
 
 export interface SingleSelectProps
   extends React.InputHTMLAttributes<HTMLSelectElement> {
@@ -12,7 +13,7 @@ export interface SingleSelectProps
   variant: 'primary' | 'secondary';
   disabled?: boolean;
   defaultValue?: string;
-  onChange?: any;
+  onChange?: (e: React.ChangeEvent<HTMLSelectElement>) => void;
   inputSize?: 'small' | 'medium';
   search?: JSX.Element;
   topContent?: JSX.Element;
@@ -26,7 +27,10 @@ export interface SingleSelectProps
   zIndexOptions?: number;
 }
 
-const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
+const SingleSelect = forwardRef<
+  HTMLSelectElement,
+  SingleSelectProps & ListboxInputProps
+>(
   (
     {
       options,
@@ -47,42 +51,44 @@ const SingleSelect = forwardRef<HTMLSelectElement, SingleSelectProps>(
       zIndexOptions,
     },
     ref
-  ) => (
-    <Container>
-      {label && variant === 'primary' && (
-        <SelectLabel id={labelId}>{label}</SelectLabel>
-      )}
-      <ListboxInputWrapper
-        disabled={disabled}
-        defaultValue={defaultValue}
-        onChange={onChange}
-        ref={ref}
-        inputsize={inputSize}
-        aria-labelledby={labelId}
-        error={isError ? 'true' : undefined}
-      >
-        {({ value, isExpanded }) => (
-          <SingleSelectWithContext
-            isExpanded={isExpanded}
-            options={options}
-            disabled={disabled}
-            inputSize={inputSize}
-            search={search}
-            topContent={topContent}
-            controlledValue={controlledValue}
-            placeholderValue={placeholderValue}
-            error={isError}
-            variant={variant}
-            label={label}
-            titleOptions={titleOptions}
-            selectedValue={value}
-            zIndexOptions={zIndexOptions}
-          />
+  ) => {
+    return (
+      <Container>
+        {label && variant === 'primary' && (
+          <SelectLabel id={labelId}>{label}</SelectLabel>
         )}
-      </ListboxInputWrapper>
-      {hintText && <HintText isError={isError}>{hintText}</HintText>}
-    </Container>
-  )
+        <ListboxInputWrapper
+          disabled={disabled}
+          defaultValue={defaultValue}
+          onChange={onChange}
+          ref={ref}
+          inputsize={inputSize}
+          aria-labelledby={labelId}
+          error={isError ? 'true' : undefined}
+        >
+          {({ value, isExpanded }) => (
+            <SingleSelectWithContext
+              isExpanded={isExpanded}
+              options={options}
+              disabled={disabled}
+              inputSize={inputSize}
+              search={search}
+              topContent={topContent}
+              controlledValue={controlledValue}
+              placeholderValue={placeholderValue}
+              error={isError}
+              variant={variant}
+              label={label}
+              titleOptions={titleOptions}
+              selectedValue={value}
+              zIndexOptions={zIndexOptions}
+            />
+          )}
+        </ListboxInputWrapper>
+        {hintText && <HintText isError={isError}>{hintText}</HintText>}
+      </Container>
+    );
+  }
 ) as React.ElementType;
 
 export default SingleSelect;

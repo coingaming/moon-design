@@ -17,11 +17,17 @@ const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   </button>
 );
 
+interface PreviewSwitchProps {
+  isPreviewActive: boolean;
+  setPreviewActive: () => void;
+  setCodeActive: () => void;
+}
+
 export default function PreviewSwitch({
   isPreviewActive,
   setPreviewActive,
   setCodeActive,
-}: any) {
+}: PreviewSwitchProps) {
   // const [isPreviewActive, setActive] = useState(true);
   // const setPreviewActive = () => setActive(true);
   // const setCodeActive = () => setActive(false);

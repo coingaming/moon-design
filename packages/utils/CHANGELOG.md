@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.9.2
+
+### Patch Changes
+
+- Fix docs
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.9.2
+
 ## 7.9.1
 
 ### Patch Changes

@@ -14,7 +14,9 @@ const PreviewSwitch = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
           />
         </>
       }
@@ -40,17 +42,23 @@ const PreviewSwitchSizes = () => {
           <Switch
             size="xs"
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
           />
           <Switch
             size="md"
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
           />
           <Switch
             size="lg"
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
           />
         </div>
       }
@@ -91,7 +99,9 @@ const PreviewSwitchTheme = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
             colorScheme
           />
         </>
@@ -121,7 +131,9 @@ const PreviewSwitchCaption = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
             captionUnchecked="OFF"
             captionChecked="ON"
           />
@@ -153,7 +165,9 @@ const PreviewSwitchThemeCaption = () => {
         <>
           <Switch
             checked={state}
-            onChange={(e: any) => setState(e.target.checked)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setState(e.target.checked)
+            }
             colorScheme
             captionUnchecked="AM"
             captionChecked="PM"

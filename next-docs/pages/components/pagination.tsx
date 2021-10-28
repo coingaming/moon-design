@@ -14,7 +14,9 @@ const Example = () => {
       pageNumber={10}
       previousButtonLabel="Previous"
       nextButtonLabel="Next"
-      onChange={(value: any) => console.log('pageNumber: ', value)}
+      onChange={(value: React.ChangeEvent) =>
+        console.log('pageNumber: ', value)
+      }
     />
   );
 };

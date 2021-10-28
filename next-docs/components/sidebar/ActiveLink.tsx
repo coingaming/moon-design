@@ -1,9 +1,20 @@
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
+import Link, { LinkProps } from 'next/link';
 import React, { Children } from 'react';
 
-const ActiveLink: React.FC<any> = ({ children, activeClassName, ...props }) => {
+type ActiveLinkProps = Partial<React.PropsWithChildren<LinkProps>> & {
+  href: string;
+  as: string;
+  children: JSX.Element;
+  activeClassName: string;
+};
+
+const ActiveLink: React.FC<ActiveLinkProps> = ({
+  children,
+  activeClassName,
+  ...props
+}: ActiveLinkProps) => {
   const router = useRouter();
   const child = Children.only(children);
   const childClassName = child.props.className || '';

@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.9.2
+
+### Patch Changes
+
+- Fix docs
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@7.9.2
+  - @heathmont/moon-accordion@7.9.2
+  - @heathmont/moon-assets@7.9.2
+  - @heathmont/moon-charts@7.9.2
+  - @heathmont/moon-components@7.9.2
+  - @heathmont/moon-draggabletable@7.9.2
+  - @heathmont/moon-icons@7.9.2
+  - @heathmont/moon-pagination@7.9.2
+  - @heathmont/moon-popover@7.9.2
+  - @heathmont/moon-table@7.9.2
+  - @heathmont/moon-themes@7.9.2
+  - @heathmont/moon-utils@7.9.2
+
 ## 7.9.1
 
 ### Patch Changes

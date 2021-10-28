@@ -383,21 +383,31 @@ const SubHeader: React.FC = ({ children }) => (
   <h2 className="text-2xl mt-8">{children}</h2>
 );
 
-const Icon: React.FC<{ name: string; onClick: any; selectedIcons: string[] }> =
-  ({ children, name, onClick, selectedIcons }) => {
-    const isShown = selectedIcons.includes(name);
-    return (
-      <div
-        onClick={() => onClick(name)}
-        className={classNames(
-          isShown ? 'text-active bg-active-80' : 'text-gray-400',
-          'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active'
-        )}
-      >
-        {children}
-      </div>
-    );
-  };
+interface IconProps {
+  name: string;
+  onClick: (v: string) => void;
+  selectedIcons: string[];
+}
+
+const Icon: React.FC<IconProps> = ({
+  children,
+  name,
+  onClick,
+  selectedIcons,
+}) => {
+  const isShown = selectedIcons.includes(name);
+  return (
+    <div
+      onClick={() => onClick(name)}
+      className={classNames(
+        isShown ? 'text-active bg-active-80' : 'text-gray-400',
+        'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active'
+      )}
+    >
+      {children}
+    </div>
+  );
+};
 
 const ImportHelper: React.FC<{ text: string }> = ({ text }) => (
   <>
@@ -433,17 +443,17 @@ const InternalText: React.FC<{}> = ({ children }) => (
 );
 
 export default function PageIcons() {
-  const [selectedIcons, setSelectedIcons] = useState([]);
+  const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
 
   const props = { fontSize: '2rem' };
 
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
-    (selectedIcons as string[]).concat(iconName);
+    selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>
     selectedIcons.filter((name) => name !== removedIconName);
 
   const toggleSelectedIcons: (iconName: string) => string[] = (iconName) => {
-    if ((selectedIcons as string[]).includes(iconName)) {
+    if (selectedIcons.includes(iconName)) {
       return removeIconFromSelected(iconName);
     }
     return addIconToSelected(iconName);
@@ -452,7 +462,7 @@ export default function PageIcons() {
   const displaySelectedIconsImport = selectedIcons.length > 0;
 
   const onClick = (iconName: string) =>
-    (setSelectedIcons as any)(toggleSelectedIcons(iconName));
+    setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
 
   return (

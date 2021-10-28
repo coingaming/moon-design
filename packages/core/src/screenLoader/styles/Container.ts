@@ -1,5 +1,6 @@
 import styled, { css, keyframes } from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import { ColorProps } from '@heathmont/moon-themes';
 /**
  * Animations
  */
@@ -57,7 +58,14 @@ const ball2Animation = css`
   animation: ${ball2} 1s infinite;
 `;
 
-const Container = styled.div<any>`
+interface ContainerProps {
+  firstColor: ColorProps;
+  secondColor: ColorProps;
+  thirdColor: ColorProps;
+  fourthColor: ColorProps;
+}
+
+const Container = styled.div<ContainerProps>`
   --first-color: ${({ theme, firstColor }) =>
     firstColor || theme.color.chiChi[100]};
   --second-color: ${({ theme, secondColor }) =>

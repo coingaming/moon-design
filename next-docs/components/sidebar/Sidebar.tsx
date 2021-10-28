@@ -13,9 +13,10 @@ import Version from './Version';
 interface LinkProps {
   href: string;
   isActive: boolean;
+  children: React.ReactNode;
 }
 
-const Link: React.FC<LinkProps> = ({ href, children, isActive }) => (
+const Link: React.FC<LinkProps> = ({ href, children, isActive }: LinkProps) => (
   <NextLink href={href}>
     <a
       className={classNames(
@@ -30,10 +31,13 @@ const Link: React.FC<LinkProps> = ({ href, children, isActive }) => (
   </NextLink>
 );
 
-const recursiveIsCurrent = (item: {
+interface ItemType {
+  name: string;
   href: string;
-  children?: any;
-}): boolean => {
+  children?: ItemType[];
+}
+
+const recursiveIsCurrent = (item: ItemType): boolean => {
   const { pathname } = useRouter();
 
   const isCurrent = item.href === pathname;
@@ -43,19 +47,24 @@ const recursiveIsCurrent = (item: {
   if (!item.children) {
     return false;
   }
-  return item.children.some((item: { href: string; children?: any }) =>
-    recursiveIsCurrent(item)
-  );
+  return item.children.some((item: ItemType) => recursiveIsCurrent(item));
 };
 
-const RecursiveNavItem: React.FC<any> = ({ item }) => {
-  const { pathname } = useRouter();
-  const isCurrent = item.href === pathname;
+interface RecursiveNavItemProps {
+  item: ItemType;
+}
 
-  if (!item.children) {
+const RecursiveNavItem: React.FC<RecursiveNavItemProps> = ({
+  item,
+}: RecursiveNavItemProps) => {
+  const { name, href, children } = item;
+  const { pathname } = useRouter();
+  const isCurrent = href === pathname;
+
+  if (!children) {
     return (
-      <Link key={item.name} href={item.href} isActive={isCurrent}>
-        {item.name}
+      <Link key={name} href={href} isActive={isCurrent}>
+        {name}
       </Link>
     );
   }
@@ -63,18 +72,18 @@ const RecursiveNavItem: React.FC<any> = ({ item }) => {
   return (
     <Disclosure
       as="div"
-      key={item.name}
+      key={name}
       className="space-y-1"
       defaultOpen={recursiveIsCurrent(item)}
     >
       {({ open }) => (
         <>
           <Disclosure.Button className="text-black hover:text-active hover:bg-active-80 text-lg px-3 py-2 leading-7 group w-full flex justify-between items-center pr-2 py-2 text-left rounded-md focus:outline-none transition-colors ease-in-out duration-150">
-            {item.name}
+            {name}
             <Arrow isOpen={open} />
           </Disclosure.Button>
           <Disclosure.Panel className="space-y-1">
-            {item.children.map((subItem: any) => (
+            {children.map((subItem: ItemType) => (
               <div key={subItem.name} className="pl-7">
                 <RecursiveNavItem item={subItem} />
               </div>
@@ -103,7 +112,14 @@ export default function Sidebar() {
       <div className="flex-grow flex flex-col">
         <nav className="flex-1 space-y-1" aria-label="Sidebar">
           {navigation.map((item) => (
-            <RecursiveNavItem key={item.name} item={item} />
+            <RecursiveNavItem
+              key={item.name}
+              item={{
+                name: item.name,
+                href: item.href ?? '',
+                children: item.children as ItemType[],
+              }}
+            />
           ))}
           <Version />
         </nav>

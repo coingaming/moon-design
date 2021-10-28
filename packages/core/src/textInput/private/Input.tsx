@@ -6,7 +6,7 @@ type InputProps = {
   inputSize: 'xsmall' | 'small' | 'medium';
   withIcon?: boolean;
   error?: boolean;
-  icon?: any;
+  icon?: string;
   iconColor?: string;
   type?: string;
 };

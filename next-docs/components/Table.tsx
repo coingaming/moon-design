@@ -1,4 +1,15 @@
-export default function Table({ data }: any) {
+interface Data {
+  name: string;
+  type: string;
+  required: boolean;
+  default: string;
+  description: string;
+}
+interface TableProps {
+  data: Data[];
+}
+
+export default function Table({ data }: TableProps) {
   return (
     <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -41,7 +52,7 @@ export default function Table({ data }: any) {
                 </tr>
               </thead>
               <tbody>
-                {data.map((prop: any, propIdx: any) => (
+                {data.map((prop: Data, propIdx: number) => (
                   <tr
                     key={prop.name}
                     className={propIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}

@@ -4,7 +4,7 @@ import { ListboxButton, ListboxButtonProps } from '@reach/listbox';
 
 interface ListboxButtonWrapperProps extends ListboxButtonProps {
   disabled?: boolean;
-  ref?: any;
+  ref?: JSX.Element;
   inputsize?: 'small' | 'medium';
   isexpanded?: string;
   error?: string;

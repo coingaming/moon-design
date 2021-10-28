@@ -11,7 +11,7 @@ export type RadioButtonProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label?: JSX.Element | string;
   id?: string;
   checked?: boolean;
-  onClick?: any;
+  onClick?: () => void;
 };
 
 const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
