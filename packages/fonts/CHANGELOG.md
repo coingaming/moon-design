@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.9.2
+
+### Patch Changes
+
+- Fix docs
+
 ## 7.9.1
 
 ### Patch Changes
