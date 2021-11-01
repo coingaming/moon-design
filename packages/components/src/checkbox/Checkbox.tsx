@@ -10,7 +10,7 @@ import { inputColors, inputBorderWidth } from '../private/input/settings';
 import { CheckboxIcon } from './private/icon';
 
 const checkboxSize = (theme: Theme) => theme.space.default;
-const checkboxGap = (theme: Theme) => theme.space.xsmall * 3;
+const checkboxGap = (theme: Theme) => theme.space.xsmall * 2;
 const captionMargin = (theme: Theme) =>
   rem(checkboxSize(theme) + checkboxGap(theme));
 
