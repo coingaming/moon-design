@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.9.4
+
+### Patch Changes
+
+- Sportsbet theme update
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.9.4
+  - @heathmont/moon-icons@7.9.4
+  - @heathmont/moon-themes@7.9.4
+  - @heathmont/moon-utils@7.9.4
+
+## 7.9.3
+
+### Patch Changes
+
+- Fix checkbox
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.9.3
+  - @heathmont/moon-icons@7.9.3
+  - @heathmont/moon-themes@7.9.3
+  - @heathmont/moon-utils@7.9.3
+
 ## 7.9.2
 
 ### Patch Changes

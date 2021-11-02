@@ -10,7 +10,7 @@ import { inputColors, inputBorderWidth } from '../private/input/settings';
 import { CheckboxIcon } from './private/icon';
 
 const checkboxSize = (theme: Theme) => theme.space.default;
-const checkboxGap = (theme: Theme) => theme.space.xsmall * 3;
+const checkboxGap = (theme: Theme) => theme.space.xsmall * 2;
 const captionMargin = (theme: Theme) =>
   rem(checkboxSize(theme) + checkboxGap(theme));
 
@@ -125,16 +125,26 @@ type CheckboxProps = React.InputHTMLAttributes<HTMLInputElement> & {
   ariaLabel?: string;
   disabled?: boolean;
   dir?: 'ltr' | 'rtl' | 'auto';
+  key?: string;
 };
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
-  const { disabled = false, ariaLabel, id, label, dir, ...inputProps } = props;
+  const {
+    disabled = false,
+    ariaLabel,
+    id,
+    label,
+    dir,
+    key,
+    ...inputProps
+  } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
+  const checkboxKey = key ?? autoId;
   return (
     <CheckboxLabel htmlFor={autoId}>
       <CheckboxInput
         id={autoId}
-        key={autoId}
+        key={checkboxKey}
         disabled={disabled}
         type="checkbox"
         aria-label={ariaLabel}
