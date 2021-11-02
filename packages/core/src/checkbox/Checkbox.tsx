@@ -1,9 +1,8 @@
 import React, { forwardRef } from 'react';
 
 import CheckboxLabel from './styles/CheckboxLabel';
-import CheckboxHiddenInput from './styles/CheckboxHiddenInput';
-import CheckboxStyledInput from './styles/CheckboxStyledInput';
 import CheckboxCaption from './styles/CheckboxCaption';
+import CheckboxInput from './styles/CheckboxInput';
 
 export interface CheckboxProps {
   disabled?: boolean;
@@ -14,20 +13,20 @@ export interface CheckboxProps {
   checked?: boolean;
   onClick?: () => void;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  dir?: 'ltr' | 'rtl' | 'auto';
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
-  ({ disabled, ariaLabel, label, id, variant, ...inputProps }, ref) => (
+  ({ disabled, ariaLabel, label, id, variant, dir, ...inputProps }, ref) => (
     <CheckboxLabel htmlFor={id} variant={variant}>
-      <CheckboxHiddenInput
+      <CheckboxInput
+        id={id}
         disabled={disabled}
         aria-label={ariaLabel}
-        id={id}
         ref={ref}
         {...inputProps}
       />
-      <CheckboxStyledInput />
-      {label && <CheckboxCaption>{label}</CheckboxCaption>}
+      <CheckboxCaption dir={dir}>{label}</CheckboxCaption>
     </CheckboxLabel>
   )
 );
