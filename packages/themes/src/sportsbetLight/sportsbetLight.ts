@@ -36,6 +36,10 @@ const lightColors = {
   trunks: {
     100: '#607680',
   },
+  whis: {
+    100: '#1DA1F2',
+    10: '#19A9E2',
+  }
 };
 
 const sportsbetLight: Theme = {
