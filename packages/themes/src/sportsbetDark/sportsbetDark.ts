@@ -40,6 +40,10 @@ const color = {
   trunks: {
     100: '#8697A2',
   },
+  whis: {
+    100: '#1da1f2',
+    10: '#19a9e2',
+  }
 };
 
 const sportsbetDark: Theme = {
