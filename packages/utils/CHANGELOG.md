@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.9.4
+
+### Patch Changes
+
+- Sportsbet theme update
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.9.4
+
 ## 7.9.3
 
 ### Patch Changes
