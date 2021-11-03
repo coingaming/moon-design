@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { ColorProps, useTheme } from '@heathmont/moon-themes';
+import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import { SvgProps } from './Props/SvgProps';
 
-const Svg = ({ secondaryColor, ...rest }: any) => (
+const Svg = ({ secondaryColor, ...rest }: SvgProps) => (
   <svg
     width="1em"
     height="1em"
@@ -121,14 +122,6 @@ const Svg = ({ secondaryColor, ...rest }: any) => (
   </svg>
 );
 
-type SvgProps = {
-  color?: ColorProps;
-  height?: string | number;
-  width?: string | number;
-  fontSize?: string | number;
-  verticalAlign?: string;
-};
-
 const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
@@ -141,9 +134,11 @@ const Component = styled(Svg)<SvgProps>(
   })
 );
 
-const Gift: React.FC<any> = (props) => {
+const Gift: React.FC<SvgProps> = (props) => {
   const theme = useTheme();
-  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+  const secondaryColor = theme.color.bulma[100];
+  const attributes = { ...props, secondaryColor } as any;
+  return <Component {...attributes} />;
 };
 
 Gift.defaultProps = {
