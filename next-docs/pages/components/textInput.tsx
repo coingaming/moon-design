@@ -763,7 +763,7 @@ export default function PageTextInput() {
               name: 'backgroundColor',
               type: 'ColorProps',
               required: false,
-              default: 'inherit',
+              default: 'transparent',
               description: 'Background color',
             },
           ]}

@@ -35,7 +35,7 @@ const Input = styled.input.attrs(({ type }) => ({
       fontSize: rem(16),
       lineHeight: rem(24),
       color: color.bulma[100],
-      backgroundColor: !backgroundColor ? 'inherit' : backgroundColor,
+      backgroundColor: !backgroundColor ? 'transparent' : backgroundColor,
       position: 'relative',
       zIndex: 2,
       border: `${borderWidth}px solid`,
