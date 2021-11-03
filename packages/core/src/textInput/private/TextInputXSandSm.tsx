@@ -4,6 +4,7 @@ import Input from './Input';
 import HintText from './HintText';
 import Container from '../styles/Container';
 import Label from '../styles/Label';
+import { ColorProps } from '@heathmont/moon-themes';
 
 interface TextInputXSandSmProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -17,6 +18,7 @@ interface TextInputXSandSmProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   ref: React.Ref<HTMLInputElement>;
+  backgroundColor?: ColorProps;
 }
 
 const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
@@ -31,6 +33,7 @@ const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
     isError,
     ref,
     dir,
+    backgroundColor,
     ...rest
   } = props;
   const inputProps = {
@@ -48,6 +51,7 @@ const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
         </Label>
       )}
       <Input
+        backgroundColor={backgroundColor}
         inputSize={inputSize}
         error={isError}
         ref={ref}
