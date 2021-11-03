@@ -10,7 +10,7 @@ type ChipProps = {
   size?: 'small' | 'medium';
 };
 
-const StyledChip = styled.div<ChipProps>(({ isActive, size, theme }) => [
+const StyledChip = styled.button<ChipProps>(({ isActive, size, theme }) => [
   {
     display: 'flex',
     flexDirection: 'row',
@@ -71,12 +71,14 @@ const Chip: React.FC<ChipProps> = ({
   size,
   iconLeft,
   iconRight,
+  ...rest
 }) => (
   <StyledChip
     isActive={isActive}
     iconLeft={iconLeft}
     iconRight={iconRight}
     size={size}
+    {...rest}
   >
     {iconLeft && (
       <IconLeftWrapper
