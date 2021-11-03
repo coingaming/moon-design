@@ -119,7 +119,7 @@ const Table: React.FC<TableProps> = ({
       {...getTableProps()}
       ref={tableRef}
       onScroll={handleScroll}
-      className="sticky"
+      className={isSticky ? "sticky" : undefined}
       isScrolledToLeft={scrollState.scrolledToLeft}
       isScrolledToRight={scrollState.scrolledToRight}
       style={{
