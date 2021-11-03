@@ -7,6 +7,7 @@ import Inner from '../styles/Inner';
 import Label from '../styles/Label';
 import LabelInner from '../styles/LabelInner';
 import ShowPassword from '../styles/ShowPassword';
+import { ColorProps } from '@heathmont/moon-themes';
 
 interface TextInputPasswordProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -20,6 +21,7 @@ interface TextInputPasswordProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   ref: React.Ref<HTMLInputElement>;
+  backgroundColor?: ColorProps;
 }
 
 const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
@@ -35,6 +37,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
     dir,
     showPasswordText,
     ref,
+    backgroundColor,
     ...rest
   } = props;
 
@@ -56,6 +59,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
       <Container disabled={disabled}>
         <Inner>
           <Input
+            backgroundColor={backgroundColor}
             inputSize={inputSize}
             type={passwordShown ? 'text' : 'password'}
             error={isError}
@@ -81,6 +85,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
       )}
       <Inner>
         <Input
+          backgroundColor={backgroundColor}
           inputSize={inputSize}
           type={passwordShown ? 'text' : 'password'}
           error={isError}

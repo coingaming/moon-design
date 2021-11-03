@@ -759,6 +759,13 @@ export default function PageTextInput() {
               description:
                 'Only for input type password. Text for toggle button: show/hide password',
             },
+            {
+              name: 'backgroundColor',
+              type: 'ColorProps',
+              required: false,
+              default: 'inherit',
+              description: 'Background color',
+            },
           ]}
         />
       </section>

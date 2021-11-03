@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { rem, inlineSvg } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
+import { ColorProps } from '@heathmont/moon-themes';
 
 type InputProps = {
   inputSize: 'xsmall' | 'small' | 'medium';
@@ -9,6 +10,7 @@ type InputProps = {
   icon?: string;
   iconColor?: string;
   type?: string;
+  backgroundColor?: ColorProps;
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -20,6 +22,7 @@ const Input = styled.input.attrs(({ type }) => ({
     error,
     icon,
     type,
+    backgroundColor,
   }) => [
     {
       display: 'block',
@@ -32,7 +35,7 @@ const Input = styled.input.attrs(({ type }) => ({
       fontSize: rem(16),
       lineHeight: rem(24),
       color: color.bulma[100],
-      backgroundColor: 'transparent',
+      backgroundColor: !backgroundColor ? 'inherit' : backgroundColor,
       position: 'relative',
       zIndex: 2,
       border: `${borderWidth}px solid`,

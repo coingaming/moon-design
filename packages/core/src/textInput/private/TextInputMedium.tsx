@@ -5,6 +5,7 @@ import HintText from './HintText';
 import Container from '../styles/Container';
 import Inner from '../styles/Inner';
 import LabelInner from '../styles/LabelInner';
+import { ColorProps } from '@heathmont/moon-themes';
 
 interface TextInputMediumProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -18,6 +19,7 @@ interface TextInputMediumProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   ref: React.Ref<HTMLInputElement>;
+  backgroundColor?: ColorProps;
 }
 
 const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
@@ -32,6 +34,7 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
     isError,
     ref,
     dir,
+    backgroundColor,
     ...rest
   } = props;
   const inputProps = {
@@ -45,6 +48,7 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
     <Container disabled={disabled}>
       <Inner>
         <Input
+          backgroundColor={backgroundColor}
           inputSize={inputSize}
           error={isError}
           ref={ref}
