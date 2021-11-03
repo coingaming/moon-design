@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
-import { SvgProps } from './Props/SvgProps';
+import SvgProps from './private/SvgProps';
 
 const Svg = ({ secondaryColor, ...rest }: SvgProps) => (
   <svg

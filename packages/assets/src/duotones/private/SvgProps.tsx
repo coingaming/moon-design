@@ -8,3 +8,5 @@ export type SvgProps = React.SVGProps<SVGSVGElement> & {
   verticalAlign?: string;
   secondaryColor: string;
 };
+
+export default SvgProps;
