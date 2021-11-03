@@ -64,6 +64,10 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
   const toggleExpanded = () =>
     setIsExpanded(disabled ? false : !isExpandedInner);
 
+  const close = () => {
+    setIsExpanded(false);
+  }
+
   const addSelectedItem = (selectedItem: string) => {
     const isAlreadySelected = selectedItems.find(
       (item) => item === selectedItem
@@ -106,7 +110,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
 
   const isEmptySelectedItems = selectedItems && selectedItems.length === 0;
 
-  useOutsideClicker(wrapperRef, toggleExpanded);
+  useOutsideClicker(wrapperRef, close);
 
   return (
     <Container>

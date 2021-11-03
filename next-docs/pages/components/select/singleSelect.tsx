@@ -2,7 +2,7 @@ import React from 'react';
 
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-import { ListItem, RadioButton, SingleSelect } from '@heathmont/moon-core';
+import { ListItem, RadioButton, SingleSelect, TextInput } from '@heathmont/moon-core';
 import { MediaHeadphones } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import { Chip } from '@heathmont/moon-components';
@@ -468,41 +468,10 @@ const options = [
                   zIndexOptions={100}
                 />
               </div>
+              <TextInput type="text" inputSize="medium" />
             </div>
           }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-import { MediaHeadphones } from '@heathmont/moon-icons';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem elementLeft={<MediaHeadphones fontSize={rem(24)} />Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem elementLeft={<MediaHeadphones fontSize={rem(24)} />Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem elementLeft={<MediaHeadphones fontSize={rem(24)} />Option 3</ListItem>,
-  },
-  {
-    value: 'Option 4',
-    label: 'Option 4',
-    element: <ListItem elementLeft={<MediaHeadphones fontSize={rem(24)} />Option 4</ListItem>,
-  },
-  {
-    value: 'Option 5',
-    label: 'Option 5',
-    element: <ListItem elementLeft={<MediaHeadphones fontSize={rem(24)} />Option 5</ListItem>,
-  },
-];
-
-<SingleSelect options={options} variant='primary' zIndexOptions={100}/>
-          `}
+          code={``}
         />
       </section>
 
