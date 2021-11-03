@@ -116,7 +116,7 @@ export default function Sidebar() {
               key={item.name}
               item={{
                 name: item.name,
-                href: item.href ?? '',
+                href: (item.href == null) ? '' : item.href,
                 children: item.children as ItemType[],
               }}
             />

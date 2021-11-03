@@ -139,7 +139,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>((props, ref) => {
     ...inputProps
   } = props;
   const autoId = id || `Checkbox-${uniqueId()}`;
-  const checkboxKey = key ?? autoId;
+  const checkboxKey = (key == null ) ? autoId : key;
   return (
     <CheckboxLabel htmlFor={autoId}>
       <CheckboxInput
