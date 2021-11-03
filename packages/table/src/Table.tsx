@@ -50,6 +50,7 @@ export type TableProps = {
   defaultRowBackgroundColor?: ColorNames;
   evenRowBackgroundColor?: ColorNames;
   headerBackgroundColor?: ColorNames;
+  isSticky?: boolean;
   isSorting?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => any;
   getOnRowClickHandler?: (row: any) => any;
@@ -71,6 +72,7 @@ const Table: React.FC<TableProps> = ({
   defaultRowBackgroundColor = 'gohan.100',
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
+  isSticky = true,
   isSorting = false,
   renderRowSubComponent,
   getOnRowClickHandler = () => undefined,
@@ -79,7 +81,7 @@ const Table: React.FC<TableProps> = ({
     layout === 'block' ? useBlockLayout : useFlexLayout,
     variant === 'calendar' ? useRowSpan : undefined,
     useResizeColumns,
-    useSticky,
+    isSticky ? useSticky : undefined,
     useExpanded,
     isSorting ? useSortBy : undefined,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
@@ -121,7 +123,7 @@ const Table: React.FC<TableProps> = ({
       {...getTableProps()}
       ref={tableRef}
       onScroll={handleScroll}
-      className="sticky"
+      className={isSticky ? "sticky" : undefined}
       isScrolledToLeft={scrollState.scrolledToLeft}
       isScrolledToRight={scrollState.scrolledToRight}
       style={{
