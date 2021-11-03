@@ -50,6 +50,7 @@ export type TableProps = {
   defaultRowBackgroundColor?: ColorNames;
   evenRowBackgroundColor?: ColorNames;
   headerBackgroundColor?: ColorNames;
+  isSorting?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => any;
   getOnRowClickHandler?: (row: any) => any;
 };
@@ -70,6 +71,7 @@ const Table: React.FC<TableProps> = ({
   defaultRowBackgroundColor = 'gohan.100',
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
+  isSorting = false,
   renderRowSubComponent,
   getOnRowClickHandler = () => undefined,
 }) => {
@@ -79,7 +81,7 @@ const Table: React.FC<TableProps> = ({
     useResizeColumns,
     useSticky,
     useExpanded,
-    useSortBy,
+    isSorting ? useSortBy : undefined,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
