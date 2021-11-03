@@ -49,6 +49,7 @@ export type TableProps = {
   defaultRowBackgroundColor?: ColorNames;
   evenRowBackgroundColor?: ColorNames;
   headerBackgroundColor?: ColorNames;
+  isSticky?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => any;
   getOnRowClickHandler?: (row: any) => any;
 };
@@ -69,6 +70,7 @@ const Table: React.FC<TableProps> = ({
   defaultRowBackgroundColor = 'gohan.100',
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
+  isSticky = true,
   renderRowSubComponent,
   getOnRowClickHandler = () => undefined,
 }) => {
@@ -76,7 +78,7 @@ const Table: React.FC<TableProps> = ({
     layout === 'block' ? useBlockLayout : useFlexLayout,
     variant === 'calendar' ? useRowSpan : undefined,
     useResizeColumns,
-    useSticky,
+    isSticky ? useSticky : undefined,
     useExpanded,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
