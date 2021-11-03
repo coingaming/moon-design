@@ -5,6 +5,7 @@ import {
   useExpanded,
   useBlockLayout,
   useFlexLayout,
+  useSortBy,
   TableInstance,
   PluginHook,
 } from 'react-table';
@@ -78,6 +79,7 @@ const Table: React.FC<TableProps> = ({
     useResizeColumns,
     useSticky,
     useExpanded,
+    useSortBy,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
