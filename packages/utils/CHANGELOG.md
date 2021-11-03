@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.9.5
+
+### Patch Changes
+
+- Fixes for comms
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.9.5
+
 ## 7.9.4
 
 ### Patch Changes

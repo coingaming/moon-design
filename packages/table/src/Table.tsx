@@ -5,6 +5,7 @@ import {
   useExpanded,
   useBlockLayout,
   useFlexLayout,
+  useSortBy,
   TableInstance,
   PluginHook,
 } from 'react-table';
@@ -50,6 +51,7 @@ export type TableProps = {
   evenRowBackgroundColor?: ColorNames;
   headerBackgroundColor?: ColorNames;
   isSticky?: boolean;
+  isSorting?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => any;
   getOnRowClickHandler?: (row: any) => any;
 };
@@ -71,6 +73,7 @@ const Table: React.FC<TableProps> = ({
   evenRowBackgroundColor = 'gohan.80',
   headerBackgroundColor = 'goku.100',
   isSticky = true,
+  isSorting = false,
   renderRowSubComponent,
   getOnRowClickHandler = () => undefined,
 }) => {
@@ -80,6 +83,7 @@ const Table: React.FC<TableProps> = ({
     useResizeColumns,
     isSticky ? useSticky : undefined,
     useExpanded,
+    isSorting ? useSortBy : undefined,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {

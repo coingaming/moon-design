@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.9.5
+
+### Patch Changes
+
+- Fixes for comms
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.9.5
+  - @heathmont/moon-core@7.9.5
+  - @heathmont/moon-accordion@7.9.5
+  - @heathmont/moon-assets@7.9.5
+  - @heathmont/moon-charts@7.9.5
+  - @heathmont/moon-draggabletable@7.9.5
+  - @heathmont/moon-icons@7.9.5
+  - @heathmont/moon-pagination@7.9.5
+  - @heathmont/moon-popover@7.9.5
+  - @heathmont/moon-table@7.9.5
+  - @heathmont/moon-themes@7.9.5
+  - @heathmont/moon-utils@7.9.5
+
 ## 7.9.4
 
 ### Patch Changes
