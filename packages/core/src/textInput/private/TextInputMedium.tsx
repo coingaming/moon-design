@@ -47,7 +47,6 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
   return (
     <Container disabled={disabled}>
       <Inner>
-        <LabelInner>{label}</LabelInner>
         <Input
           backgroundColor={backgroundColor}
           inputSize={inputSize}
@@ -57,6 +56,7 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
           isLabelPresent={!!label}
           {...inputProps}
         />
+        <LabelInner>{label}</LabelInner>
       </Inner>
       {hintText && <HintText isError={isError}>{hintText}</HintText>}
     </Container>

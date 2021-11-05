@@ -65,6 +65,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
             error={isError}
             ref={ref}
             id={id}
+            isLabelPresent={!!label}
             {...inputProps}
           />
           <LabelInner>{label}</LabelInner>

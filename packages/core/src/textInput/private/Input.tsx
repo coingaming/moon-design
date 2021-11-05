@@ -95,7 +95,7 @@ const Input = styled.input.attrs(({ type }) => ({
         : `${rem(15)} ${rem(14)} ${rem(15)}`,
       paddingRight: type === 'password' ? rem(55) : rem(15),
       '&:not(:focus):placeholder-shown + label': {
-        top: '50%',
+        top: '30%',
         marginTop: rem(-7),
         fontSize: rem(14),
         lineHeight: rem(14),
