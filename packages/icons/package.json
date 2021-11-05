@@ -13,11 +13,11 @@
   "license": "MIT",
   "scripts": {
     "build:icons": "svgr --ext tsx --config-file ./.config/svgr.config.icons.js -d src/icons raw/imported",
-    "build:index": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src --structure flat --exportDefault",
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src --structure flat --exportDefault",
     "lint": "eslint --fix src --ext .js,.jsx,.ts,.tsx",
     "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",
-    "build:js:commonjs": "babel --config-file '../../.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
-    "build:js:es": "babel --config-file '../../.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
+    "build:js:commonjs": "babel --config-file ../../.config/babel/babel.config.js src --out-dir lib --source-maps --extensions .ts,.tsx",
+    "build:js:es": "babel --config-file ../../.config/babel/babel.config.es.js src --out-dir lib/es --source-maps --extensions .ts,.tsx",
     "build:types": "tsc --project tsconfig.json --declarationMap",
     "build": "pnpm run build:icons && pnpm run build:code && pnpm run build:index",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
