@@ -1,6 +1,4 @@
 import React from 'react';
-import { Avatar } from '@heathmont/moon-components';
-import useSWR from 'swr';
 
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
@@ -10,10 +8,10 @@ import Fallbacks from '../../public/examples/avatar/Letter';
 import Colours from '../../public/examples/avatar/Colours';
 import Statuses from '../../public/examples/avatar/Statuses';
 import StatusPositions from '../../public/examples/avatar/StatusPositions';
+import useExamples from '../../utils/useExamples';
 
 export default function PageAvatar() {
-  const fetcher = (url: string) => fetch(url).then((res) => res.json());
-  const { data } = useSWR('/api/avatar', fetcher);
+  const examples = useExamples('Avatar');
 
   return (
     <>
@@ -30,7 +28,7 @@ export default function PageAvatar() {
         <Preview
           title="Image avatars"
           preview={<Image />}
-          code={data && data.result ? data.result.Image : 'Loading'}
+          code={examples ? examples.Image : 'Loading'}
         />
       </section>
 
@@ -39,7 +37,7 @@ export default function PageAvatar() {
         <Preview
           title="Letter avatars"
           preview={<Letter />}
-          code={data && data.result ? data.result.Letter : 'Loading'}
+          code={examples ? examples.Letter : 'Loading'}
         />
       </section>
 
@@ -48,7 +46,7 @@ export default function PageAvatar() {
         <Preview
           title="Fallbacks"
           preview={<Fallbacks />}
-          code={data && data.result ? data.result.Fallbacks : 'Loading'}
+          code={examples ? examples.Fallbacks : 'Loading'}
         />
       </section>
 
@@ -57,7 +55,7 @@ export default function PageAvatar() {
         <Preview
           title="Different colours"
           preview={<Colours />}
-          code={data && data.result ? data.result.Colours : 'Loading'}
+          code={examples ? examples.Colours : 'Loading'}
         />
       </section>
 
@@ -66,7 +64,7 @@ export default function PageAvatar() {
         <Preview
           title="With status"
           preview={<Statuses />}
-          code={data && data.result ? data.result.Statuses : 'Loading'}
+          code={examples ? examples.Statuses : 'Loading'}
         />
       </section>
 
@@ -75,7 +73,7 @@ export default function PageAvatar() {
         <Preview
           title="Status Position"
           preview={<StatusPositions />}
-          code={data && data.result ? data.result.StatusPositions : 'Loading'}
+          code={examples ? examples.StatusPositions : 'Loading'}
         />
       </section>
 

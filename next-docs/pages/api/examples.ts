@@ -5,7 +5,7 @@ import path from 'path';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 type Data = {
-  result: Object;
+  examples: Object;
 };
 
 function readFromFile(pathToFile: string) {
@@ -21,30 +21,37 @@ function readFromFile(pathToFile: string) {
   });
 }
 
-export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
-  const dirRelativeToPublicFolder = 'examples/avatar';
-  const dir = path.resolve('./public', dirRelativeToPublicFolder);
+const getFilesFromDirectory = async (dirPath: string) => {
   /*
     filenames:
     'Colours.tsx',
     'Fallbacks.tsx',
     ...
   */
-  const filenames = fs.readdirSync(dir);
+  const filenames = fs.readdirSync(dirPath);
 
   const trimmedFilenames = filenames.map(
     (filenames) => filenames.split('.tsx')[0]
   );
+
   const fileSources = filenames.map((fileName) => {
-    const pathToSourceCode = path.join('/', dir, fileName);
+    const pathToSourceCode = path.join('/', dirPath, fileName);
     return readFromFile(pathToSourceCode);
   });
 
   const settledFileSources = await Promise.all(fileSources);
 
-  const result = settledFileSources.reduce((acc: Object, source, index) => {
+  return settledFileSources.reduce((acc: Object, source, index) => {
     return { [trimmedFilenames[index]]: source, ...acc };
   }, {});
+};
 
-  res.status(200).json({ result });
+export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
+  const { component } = req.query;
+  const dirRelativeToPublicFolder = 'examples';
+
+  const dirPath = path.resolve('./public', dirRelativeToPublicFolder, component as string);
+
+  const examples = await getFilesFromDirectory(dirPath);
+  res.status(200).json({ examples });
 };
