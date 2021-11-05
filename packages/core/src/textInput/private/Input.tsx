@@ -11,6 +11,7 @@ type InputProps = {
   iconColor?: string;
   type?: string;
   backgroundColor?: ColorProps;
+  isLabelPresent?: boolean;
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -23,6 +24,7 @@ const Input = styled.input.attrs(({ type }) => ({
     icon,
     type,
     backgroundColor,
+    isLabelPresent,
   }) => [
     {
       display: 'block',
@@ -88,11 +90,10 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     inputSize === 'medium' && {
-      padding: `${rem(23)} ${rem(15)} ${rem(7)}`,
+      padding: `${isLabelPresent ? rem(23) : rem(15)} ${rem(15)} ${
+        isLabelPresent ? rem(7) : rem(15)
+      }`,
       paddingRight: type === 'password' ? rem(55) : rem(15),
-      '&:not(:focus)::placeholder': {
-        opacity: 0,
-      },
       '&:not(:focus):placeholder-shown + label': {
         top: '50%',
         marginTop: rem(-7),
@@ -100,11 +101,15 @@ const Input = styled.input.attrs(({ type }) => ({
         lineHeight: rem(14),
       },
       '&:hover:not(:focus):not([disabled])': {
-        padding: `${rem(22)} ${rem(14)} ${rem(6)}`,
+        padding: `${isLabelPresent ? rem(22) : rem(14)} ${rem(14)} ${
+          isLabelPresent ? rem(6) : rem(14)
+        }`,
         paddingRight: type === 'password' ? rem(55) : rem(14),
       },
       '&:focus': {
-        padding: `${rem(22)} ${rem(14)} ${rem(6)}`,
+        padding: `${isLabelPresent ? rem(22) : rem(14)} ${rem(14)} ${
+          isLabelPresent ? rem(6) : rem(14)
+        }`,
         paddingRight: type === 'password' ? rem(55) : rem(14),
       },
       '&:not(:placeholder-shown):not([type="date"]):invalid': {
