@@ -9,6 +9,7 @@ const LabelInner = styled.label(({ theme: { color, transitionDuration } }) => ({
   color: color.trunks[100],
   top: rem(11),
   zIndex: 3,
+  pointerEvents: 'none',
   transition: `all ${transitionDuration.default}s ease`,
 }));
 

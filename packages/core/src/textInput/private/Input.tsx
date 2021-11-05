@@ -90,9 +90,9 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     inputSize === 'medium' && {
-      padding: `${isLabelPresent ? rem(23) : rem(15)} ${rem(15)} ${
-        isLabelPresent ? rem(7) : rem(15)
-      }`,
+      padding: isLabelPresent
+        ? `${rem(23)} ${rem(15)} ${rem(7)}`
+        : `${rem(15)} ${rem(14)} ${rem(15)}`,
       paddingRight: type === 'password' ? rem(55) : rem(15),
       '&:not(:focus):placeholder-shown + label': {
         top: '50%',
@@ -101,9 +101,9 @@ const Input = styled.input.attrs(({ type }) => ({
         lineHeight: rem(14),
       },
       '&:hover:not(:focus):not([disabled])': {
-        padding: `${isLabelPresent ? rem(22) : rem(14)} ${rem(14)} ${
-          isLabelPresent ? rem(6) : rem(14)
-        }`,
+        padding: isLabelPresent
+          ? `${rem(22)} ${rem(14)} ${rem(6)}`
+          : `${rem(14)} ${rem(14)} ${rem(14)}`,
         paddingRight: type === 'password' ? rem(55) : rem(14),
       },
       '&:focus': {
