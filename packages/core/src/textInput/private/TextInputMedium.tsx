@@ -28,7 +28,7 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
     inputSize,
     type,
     disabled,
-    placeholder = ' ',
+    placeholder,
     label,
     hintText,
     isError,
