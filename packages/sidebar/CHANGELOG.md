@@ -1,5 +1,14 @@
 # Change Log
 
+## 7.10.1
+
+### Patch Changes
+
+- New docs preview & assets/icons props fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.10.1
+  - @heathmont/moon-utils@7.10.1
+
 ## 7.10.0
 
 ### Minor Changes
