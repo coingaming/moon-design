@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-calendar",
   "sideEffects": false,
-  "version": "7.9.5",
+  "version": "7.10.0",
   "files": [
     "lib"
   ],
@@ -13,17 +13,17 @@
   "license": "MIT",
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:code",
-    "build:index": "barrelsby --config '../../.config/barrelsby/barrelsby.json' --directory src",
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
     "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",
-    "build:js:commonjs": "babel --config-file '../../.config/babel/babel.config.js' src --out-dir lib --source-maps --extensions '.ts,.tsx'",
-    "build:js:es": "babel --config-file '../../.config/babel/babel.config.es.js' src --out-dir lib/es --source-maps --extensions '.ts,.tsx'",
+    "build:js:commonjs": "babel --config-file ../../.config/babel/babel.config.js src --out-dir lib --source-maps --extensions .ts,.tsx",
+    "build:js:es": "babel --config-file ../../.config/babel/babel.config.es.js src --out-dir lib/es --source-maps --extensions .ts,.tsx",
     "build:types": "tsc --project tsconfig.json --declarationMap",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-components": "workspace:^7.9.5",
-    "@heathmont/moon-themes": "workspace:^7.9.5",
-    "@heathmont/moon-utils": "workspace:^7.9.5",
+    "@heathmont/moon-components": "workspace:^7.10.0",
+    "@heathmont/moon-themes": "workspace:^7.10.0",
+    "@heathmont/moon-utils": "workspace:^7.10.0",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.15.0"
   },

@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.10.0
+
+### Minor Changes
+
+- Fix windows build
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.10.0
+  - @heathmont/moon-assets@7.10.0
+  - @heathmont/moon-charts@7.10.0
+  - @heathmont/moon-components@7.10.0
+  - @heathmont/moon-core@7.10.0
+  - @heathmont/moon-draggabletable@7.10.0
+  - @heathmont/moon-icons@7.10.0
+  - @heathmont/moon-pagination@7.10.0
+  - @heathmont/moon-popover@7.10.0
+  - @heathmont/moon-table@7.10.0
+  - @heathmont/moon-themes@7.10.0
+  - @heathmont/moon-utils@7.10.0
+
 ## 7.9.5
 
 ### Patch Changes

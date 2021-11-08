@@ -3,6 +3,7 @@ import TextInputTypes from './private/TextInputTypes';
 import TextInputPasswort from './private/TextInputPasswort';
 import TextInputMedium from './private/TextInputMedium';
 import TextInputXSandSm from './private/TextInputXSandSm';
+import { ColorProps } from '@heathmont/moon-themes';
 
 export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -15,6 +16,7 @@ export interface TextInputProps
   isError?: boolean;
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
+  backgroundColor?: ColorProps;
 }
 
 const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {

@@ -1,5 +1,18 @@
 # Change Log
 
+## 7.10.0
+
+### Minor Changes
+
+- Fix windows build
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.10.0
+  - @heathmont/moon-themes@7.10.0
+  - @heathmont/moon-utils@7.10.0
+
 ## 7.9.5
 
 ### Patch Changes
