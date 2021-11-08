@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.10.1
+
+### Patch Changes
+
+- New docs preview & assets/icons props fix
+
 ## 7.10.0
 
 ### Minor Changes
