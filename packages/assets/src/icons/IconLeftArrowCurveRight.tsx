@@ -32,7 +32,9 @@ type IconProps = {
   color?: ColorProps,
 };
 const IconLeftArrowCurveRight =
-  styled(Svg) <
+  styled(Svg).withConfig({
+    shouldForwardProp: prop => !['backgroundColor'].includes(prop),
+  }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {
