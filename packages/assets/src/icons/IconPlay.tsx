@@ -27,9 +27,7 @@ type IconProps = {
   circleColor?: ColorProps;
   color?: ColorProps;
 };
-const IconPlay = styled(Svg).withConfig({
-  shouldForwardProp: (prop) => !['backgroundColor'].includes(prop),
-})<IconProps>(({ backgroundColor, circleColor, color, theme }) => [
+const IconPlay = styled(Svg)<IconProps>(({ backgroundColor, circleColor, color, theme }) => [
   backgroundColor && {
     backgroundColor: themed('color', backgroundColor)(theme),
     padding: backgroundColor ? '0.25em' : 0,
