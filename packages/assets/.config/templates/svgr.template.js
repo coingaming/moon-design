@@ -37,24 +37,27 @@ function template(
     import styled from 'styled-components';
     import { ColorProps } from '@heathmont/moon-themes';
     import { themed } from '@heathmont/moon-utils';
+    import SvgProps from './private/SvgProps';
 
     const Svg = (props: React.SVGProps<SVGSVGElement>) => ${jsx};
 
-    type SvgProps = {
-      color?: ColorProps;
-      height?: string | number;
-      width?: string | number;
-      fontSize?: string | number;
-    };
-
-    const ${prefix(componentName)} =
+    const Component =
       styled(Svg)<SvgProps >
       (({ color, height, width, fontSize, theme }) => ({
         ...(color && { color: themed('color', color)(theme) }),
         height,
         width,
         fontSize,
-      }));
+        verticalAlign,
+      })
+    );
+    
+    const ${prefix(componentName)}: React.FC<SvgProps > = (props) => {
+      const theme = useTheme();
+      const secondaryColor = theme.color.bulma[100];
+      const attributes = { ...props, secondaryColor } as any;
+      return <Component {...attributes} />;
+    };  
 
     ${defaultProps(prefix(componentName))}
 

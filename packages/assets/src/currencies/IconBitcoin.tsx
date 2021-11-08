@@ -2,15 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import SvgProps from './private/SvgProps';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M23.6408 14.9029C22.0379 21.3315 15.5261 25.2438 9.09602 23.6407C2.66859 22.038 -1.24421 15.5266 0.359461 9.09838C1.96163 2.66907 8.47346 -1.24364 14.9016 0.359095C21.3313 1.96183 25.2437 8.47401 23.6408 14.9029Z" fill="#FF9A1F" /><path d="M16.9713 10.6283C17.2001 9.1572 16.0352 8.36639 14.4424 7.83884L14.9591 5.84609L13.6976 5.54379L13.1945 7.48402C12.8629 7.40456 12.5222 7.3296 12.1838 7.25532L12.6904 5.3023L11.4296 5L10.9125 6.99205C10.638 6.93194 10.3685 6.87252 10.1069 6.80999L10.1084 6.80377L8.36859 6.38607L8.033 7.68163C8.033 7.68163 8.969 7.88789 8.94924 7.90067C9.46018 8.02332 9.55252 8.34841 9.53707 8.60614L8.94852 10.8763C8.98373 10.885 9.02937 10.8974 9.07967 10.9167C9.03763 10.9067 8.99272 10.8957 8.94637 10.885L8.12138 14.0651C8.05886 14.2144 7.90041 14.4382 7.54325 14.3533C7.55583 14.3709 6.62629 14.1332 6.62629 14.1332L6 15.5217L7.6417 15.9152C7.94712 15.9888 8.24642 16.0658 8.54106 16.1384L8.01898 18.1539L9.27909 18.4562L9.79614 16.4621C10.1404 16.5519 10.4745 16.6348 10.8015 16.7129L10.2862 18.6977L11.5478 19L12.0699 16.9883C14.2211 17.3797 15.8387 17.2218 16.5196 15.351C17.0683 13.8447 16.4923 12.9758 15.3605 12.4092C16.1847 12.2265 16.8056 11.7051 16.9713 10.6283ZM14.0888 14.5146C13.699 16.0209 11.0613 15.2066 10.2061 15.0024L10.8989 12.3322C11.754 12.5374 14.4963 12.9437 14.0888 14.5146ZM14.4791 10.6065C14.1233 11.9767 11.9279 11.2805 11.2158 11.1099L11.8439 8.68803C12.556 8.8587 14.8495 9.17723 14.4791 10.6065Z" fill="white" /></svg>;
 
-type SvgProps = {
-  color?: ColorProps;
-  height?: string | number;
-  width?: string | number;
-  fontSize?: string | number;
-};
 const IconBitcoin = styled(Svg)<SvgProps>(({
   color,
   height,
@@ -22,8 +17,19 @@ const IconBitcoin = styled(Svg)<SvgProps>(({
   }),
   height,
   width,
-  fontSize
+  fontSize,
+  verticalAlign
 }));
+
+const CasinoBonus: React.FC<SvgProps> = props => {
+  const theme = useTheme();
+  const secondaryColor = theme.color.bulma[100];
+  const attributes = ({ ...props,
+    secondaryColor
+  } as any);
+  return null;
+};
+
 IconBitcoin.defaultProps = {
     
   };
