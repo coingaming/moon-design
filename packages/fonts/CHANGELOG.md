@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.10.0
+
+### Minor Changes
+
+- Fix windows build
+
 ## 7.9.5
 
 ### Patch Changes
