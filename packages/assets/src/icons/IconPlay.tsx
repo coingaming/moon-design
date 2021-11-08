@@ -23,27 +23,26 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps,
-  circleColor?: ColorProps,
-  color?: ColorProps,
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
-const IconPlay =
-  styled(Svg) <
-  IconProps >
-  (({ backgroundColor, circleColor, color, theme }) => [
-    backgroundColor && {
-      backgroundColor: themed('color', backgroundColor)(theme),
-      padding: backgroundColor ? '0.25em' : 0,
-      overflow: 'visible',
-      borderRadius: '50%',
+const IconPlay = styled(Svg).withConfig({
+  shouldForwardProp: (prop) => !['backgroundColor'].includes(prop),
+})<IconProps>(({ backgroundColor, circleColor, color, theme }) => [
+  backgroundColor && {
+    backgroundColor: themed('color', backgroundColor)(theme),
+    padding: backgroundColor ? '0.25em' : 0,
+    overflow: 'visible',
+    borderRadius: '50%',
+  },
+  color && {
+    color: themed('color', color)(theme),
+  },
+  circleColor && {
+    circle: {
+      fill: themed('color', circleColor)(theme),
     },
-    color && {
-      color: themed('color', color)(theme),
-    },
-    circleColor && {
-      circle: {
-        fill: themed('color', circleColor)(theme),
-      },
-    },
-  ]);
+  },
+]);
 export default IconPlay;
