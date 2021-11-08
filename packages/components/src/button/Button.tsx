@@ -44,7 +44,10 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 /**
  * Component
  */
-const StyledButton = styled.button<ButtonProps>(
+const StyledButton = styled.button.withConfig({
+  shouldForwardProp: (prop) =>
+    !['fullWidth', 'iconRight', 'iconLeft'].includes(prop),
+})<ButtonProps>(
   ({
     theme: { border, fontWeight, opacity, radius, transitionDuration },
     fullWidth,
@@ -104,13 +107,29 @@ const StyledButton = styled.button<ButtonProps>(
   ],
   ({ isIcon, size }) => [
     isIcon &&
-      size === 'xsmall' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(32) },
+      size === 'xsmall' && {
+        paddingLeft: rem(3),
+        paddingRight: rem(3),
+        height: rem(32),
+      },
     isIcon &&
-      size === 'small' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(40) },
+      size === 'small' && {
+        paddingLeft: rem(3),
+        paddingRight: rem(3),
+        height: rem(40),
+      },
     isIcon &&
-      size === 'medium' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(48) },
+      size === 'medium' && {
+        paddingLeft: rem(3),
+        paddingRight: rem(3),
+        height: rem(48),
+      },
     isIcon &&
-      size === 'large' && { paddingLeft: rem(3), paddingRight: rem(3), height: rem(56) },
+      size === 'large' && {
+        paddingLeft: rem(3),
+        paddingRight: rem(3),
+        height: rem(56),
+      },
   ]
 );
 
