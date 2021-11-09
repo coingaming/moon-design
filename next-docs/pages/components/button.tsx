@@ -1,12 +1,23 @@
 import React from 'react';
 
 import { Button } from '@heathmont/moon-components';
-import { IconProfile } from '@heathmont/moon-assets';
-import { NotificationsBellRinging } from '@heathmont/moon-icons';
+
+import Primary from '../../public/examples/button/Primary';
+import Secondary from '../../public/examples/button/Secondary';
+import Tertiary from '../../public/examples/button/Tertiary';
+import Default from '../../public/examples/button/Default';
+import Sizes from '../../public/examples/button/Sizes';
+import Animations from '../../public/examples/button/Animations';
+import Icons from '../../public/examples/button/Icons';
+import IsIcon from '../../public/examples/button/IsIcon';
+import FullWidth from '../../public/examples/button/FullWidth';
 
 import Preview from '../../components/codePreview/Preview';
+import useExamples from '../../utils/useExamples';
 
 export default function PageButton() {
+  const examples = useExamples('Button');
+
   return (
     <>
       <section className="mt-8">
@@ -26,118 +37,48 @@ export default function PageButton() {
       <section className="mt-8">
         <Preview
           title="Primary"
-          preview={<Button variant="primary">Primary</Button>}
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button variant="primary">Active</Button>`}
+          preview={<Primary />}
+          code={examples ? examples.Primary : 'Loading'}
         />
       </section>
       {/* Secondary */}
       <section className="mt-8">
         <Preview
           title="Secondary"
-          preview={<Button variant="secondary">Secondary</Button>}
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button variant="secondary">Secondary</Button>`}
+          preview={<Secondary />}
+          code={examples ? examples.Secondary : 'Loading'}
         />
       </section>
       {/* Tertiary */}
       <section className="mt-8">
         <Preview
           title="Tertiary"
-          preview={<Button variant="tertiary">Tertiary</Button>}
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button variant="tertiary">Tertiary</Button>`}
+          preview={<Tertiary />}
+          code={examples ? examples.Tertiary : 'Loading'}
         />
       </section>
       {/* Default */}
       <section className="mt-8">
         <Preview
           title="Default"
-          preview={<Button variant="default">Default</Button>}
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button variant="default">Default</Button>`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
       {/* Sizes */}
       <section className="mt-8">
         <Preview
           title="Sizes"
-          preview={
-            <div className="flex justify-around w-full items-center">
-              <Button variant="primary" size="xsmall">
-                Xsmall
-              </Button>
-              <Button variant="primary" size="small">
-                Small
-              </Button>
-              <Button variant="primary" size="medium">
-                Medium
-              </Button>
-              <Button variant="primary" size="large">
-                Large
-              </Button>
-            </div>
-          }
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button variant="primary" size="xsmall">
-  Xsmall
-</Button>
-
-<Button variant="primary" size="small">
-  Small
-</Button>
-
-<Button variant="primary" size="medium">
-  Medium
-</Button>
-
-<Button variant="primary" size="large">
-  Large
-</Button>`}
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
       {/* Animations */}
       <section className="mt-8">
         <Preview
           title="Animations"
-          preview={
-            <div className="flex justify-around w-full">
-              <Button progress variant="primary">
-                Default
-              </Button>
-              <Button success variant="primary">
-                Default
-              </Button>
-              <Button oops variant="primary">
-                Default
-              </Button>
-              <Button pulse variant="primary">
-                Default
-              </Button>
-            </div>
-          }
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button progress variant="primary">
-  Default
-</Button>
-
-<Button success variant="primary">
-  Default
-</Button>
-
-<Button oops variant="primary">
-  Default
-</Button>
-
-<Button pulse variant="primary">
-  Default
-</Button>`}
+          preview={<Animations />}
+          code={examples ? examples.Animations : 'Loading'}
         />
       </section>
 
@@ -146,31 +87,8 @@ export default function PageButton() {
       <section className="mt-8">
         <Preview
           title="Leading and trailing icons"
-          preview={
-            <div className="flex justify-around w-full">
-              <Button iconLeft={<IconProfile color="#fff" />} variant="primary">
-                Default
-              </Button>
-              <Button
-                iconRight={<IconProfile color="#fff" />}
-                variant="primary"
-              >
-                Default
-              </Button>
-            </div>
-          }
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button iconLeft={<IconProfile color="#fff" />} variant="primary">
-  Default
-</Button>
-
-<Button
-  iconRight={<IconProfile color="#fff" />}
-  variant="primary"
->
-  Default
-</Button>`}
+          preview={<Icons />}
+          code={examples ? examples.Icons : 'Loading'}
         />
       </section>
 
@@ -178,41 +96,8 @@ export default function PageButton() {
       <section className="mt-8">
         <Preview
           title="isIcon"
-          preview={
-            <div className="flex justify-around w-full items-center">
-              <Button isIcon variant="primary" size="xsmall">
-                <NotificationsBellRinging fontSize="1.5rem" />
-              </Button>
-              <Button isIcon variant="primary" size="small">
-                <NotificationsBellRinging fontSize="2rem" />
-              </Button>
-              <Button isIcon variant="primary" size="medium">
-                <NotificationsBellRinging fontSize="2.5rem" />
-              </Button>
-              <Button isIcon variant="primary" size="large">
-                <NotificationsBellRinging fontSize="3rem" />
-              </Button>
-            </div>
-          }
-          code={`import { Button } from '@heathmont/moon-components';
-import { NotificationsBellRinging } from '@heathmont/moon-icons';
-
-<Button isIcon variant="primary" size="xsmall">
-  <NotificationsBellRinging fontSize="1.5rem" />
-</Button>
-
-<Button isIcon variant="primary" size="small">
-  <NotificationsBellRinging fontSize="2rem" />
-</Button>
-
-<Button isIcon variant="primary" size="medium">
-  <NotificationsBellRinging fontSize="2.5rem" />
-</Button>
-
-<Button isIcon variant="primary" size="large">
-  <NotificationsBellRinging fontSize="3rem" />
-</Button>
-`}
+          preview={<IsIcon />}
+          code={examples ? examples.IsIcon : 'Loading'}
         />
       </section>
 
@@ -220,14 +105,8 @@ import { NotificationsBellRinging } from '@heathmont/moon-icons';
       <section className="mt-8">
         <Preview
           title="Full width"
-          preview={
-            <Button fullWidth variant="primary">
-              Action
-            </Button>
-          }
-          code={`import { Button } from '@heathmont/moon-components';
-
-<Button fullWidth variant="primary">Action</Button>`}
+          preview={<FullWidth />}
+          code={examples ? examples.FullWidth : 'Loading'}
         />
       </section>
     </>
