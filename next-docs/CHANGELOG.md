@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.10.2
+
+### Patch Changes
+
+- Fix Props for Duotone Icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.10.2
+  - @heathmont/moon-accordion@7.10.2
+  - @heathmont/moon-charts@7.10.2
+  - @heathmont/moon-components@7.10.2
+  - @heathmont/moon-core@7.10.2
+  - @heathmont/moon-draggabletable@7.10.2
+  - @heathmont/moon-icons@7.10.2
+  - @heathmont/moon-pagination@7.10.2
+  - @heathmont/moon-popover@7.10.2
+  - @heathmont/moon-table@7.10.2
+  - @heathmont/moon-themes@7.10.2
+  - @heathmont/moon-utils@7.10.2
+
 ## 7.10.1
 
 ### Patch Changes

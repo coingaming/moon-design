@@ -6,7 +6,7 @@ export type SvgProps = React.SVGProps<SVGSVGElement> & {
   width?: string | number;
   fontSize?: string | number;
   verticalAlign?: string;
-  secondaryColor: string;
+  secondaryColor?: string;
 };
 
 export default SvgProps;
