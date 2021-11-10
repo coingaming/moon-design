@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
@@ -69,6 +69,7 @@ export default function Layout({ children }: LayoutProps) {
         {/* Opens sidebar on mobile */}
         <div className="lg:hidden flex flex-row align-center">
           <button
+            type="button"
             className="p-4 text-gray-500 focus:outline-none"
             onClick={openSidebar}
           >
