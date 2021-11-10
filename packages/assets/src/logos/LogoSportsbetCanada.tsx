@@ -1,9 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useTheme } from '@heathmont/moon-themes';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 
-const Svg = ({ secondaryColor, ...props }: any) => (
+type SvgProps = React.SVGProps<SVGSVGElement> & {
+  color?: ColorProps;
+  height?: string | number;
+  width?: string | number;
+  fontSize?: string | number;
+  verticalAlign?: string;
+  secondaryColor: string;
+};
+
+const Svg = ({ secondaryColor, ...props }: SvgProps) => (
   <svg
     width="139"
     height="37"
@@ -109,7 +118,7 @@ const Svg = ({ secondaryColor, ...props }: any) => (
   </svg>
 );
 
-const Component = styled(Svg)(
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -121,9 +130,11 @@ const Component = styled(Svg)(
   })
 );
 
-const LogoSportsbetCanada: React.FC<any> = (props) => {
+const LogoSportsbetCanada: React.FC<SvgProps> = (props) => {
   const theme = useTheme();
-  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+  const secondaryColor = theme.color.bulma[100];
+  const attributes = { ...props, secondaryColor } as any;
+  return <Component {...attributes} />;
 };
 
 LogoSportsbetCanada.defaultProps = {

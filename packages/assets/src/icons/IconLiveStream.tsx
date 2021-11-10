@@ -33,7 +33,9 @@ type IconProps = {
   color?: ColorProps,
 };
 const IconLiveStream =
-  styled(Svg) <
+  styled(Svg).withConfig({
+    shouldForwardProp: prop => !['backgroundColor'].includes(prop),
+  }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {

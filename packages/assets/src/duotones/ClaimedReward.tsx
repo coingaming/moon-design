@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import SvgProps from './private/SvgProps';
 
-const Svg = ({ secondaryColor, ...rest }: any) => (
+const Svg = ({ secondaryColor, ...rest }: SvgProps) => (
   <svg
     width="1em"
     height="1em"
@@ -88,7 +89,7 @@ const Svg = ({ secondaryColor, ...rest }: any) => (
   </svg>
 );
 
-const Component = styled(Svg)(
+const Component = styled(Svg)<SvgProps>(
   ({ color, height, width, fontSize, verticalAlign, theme }) => ({
     ...(color && {
       color: themed('color', color)(theme),
@@ -100,9 +101,11 @@ const Component = styled(Svg)(
   })
 );
 
-const ClaimedReward: React.FC<any> = (props) => {
+const ClaimedReward: React.FC<SvgProps> = (props) => {
   const theme = useTheme();
-  return <Component secondaryColor={theme.color.bulma[100]} {...props} />;
+  const secondaryColor = theme.color.bulma[100];
+  const attributes = { ...props, secondaryColor } as any;
+  return <Component {...attributes} />;
 };
 
 ClaimedReward.defaultProps = {

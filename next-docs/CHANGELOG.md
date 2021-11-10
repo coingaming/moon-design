@@ -1,5 +1,65 @@
 # Change Log
 
+## 7.10.2
+
+### Patch Changes
+
+- Fix Props for Duotone Icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.10.2
+  - @heathmont/moon-accordion@7.10.2
+  - @heathmont/moon-charts@7.10.2
+  - @heathmont/moon-components@7.10.2
+  - @heathmont/moon-core@7.10.2
+  - @heathmont/moon-draggabletable@7.10.2
+  - @heathmont/moon-icons@7.10.2
+  - @heathmont/moon-pagination@7.10.2
+  - @heathmont/moon-popover@7.10.2
+  - @heathmont/moon-table@7.10.2
+  - @heathmont/moon-themes@7.10.2
+  - @heathmont/moon-utils@7.10.2
+
+## 7.10.1
+
+### Patch Changes
+
+- New docs preview & assets/icons props fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.10.1
+  - @heathmont/moon-components@7.10.1
+  - @heathmont/moon-accordion@7.10.1
+  - @heathmont/moon-charts@7.10.1
+  - @heathmont/moon-core@7.10.1
+  - @heathmont/moon-draggabletable@7.10.1
+  - @heathmont/moon-icons@7.10.1
+  - @heathmont/moon-pagination@7.10.1
+  - @heathmont/moon-popover@7.10.1
+  - @heathmont/moon-table@7.10.1
+  - @heathmont/moon-themes@7.10.1
+  - @heathmont/moon-utils@7.10.1
+
+## 7.10.0
+
+### Minor Changes
+
+- Fix windows build
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.10.0
+  - @heathmont/moon-assets@7.10.0
+  - @heathmont/moon-charts@7.10.0
+  - @heathmont/moon-components@7.10.0
+  - @heathmont/moon-core@7.10.0
+  - @heathmont/moon-draggabletable@7.10.0
+  - @heathmont/moon-icons@7.10.0
+  - @heathmont/moon-pagination@7.10.0
+  - @heathmont/moon-popover@7.10.0
+  - @heathmont/moon-table@7.10.0
+  - @heathmont/moon-themes@7.10.0
+  - @heathmont/moon-utils@7.10.0
+
 ## 7.9.5
 
 ### Patch Changes
