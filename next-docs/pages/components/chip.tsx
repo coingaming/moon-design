@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Chip } from '@heathmont/moon-components';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 

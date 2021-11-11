@@ -1,662 +1,19 @@
 import React from 'react';
-import { TextInput } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 
-const PreviewTextInputXS = () => {
-  return (
-    <>
-      <section className="mt-8">
-        <Preview
-          title="xsmall (Default)"
-          preview={
-            <div className="flex flex-col gap-4">
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="xsmall"
-                  label="Label text"
-                  placeholder="Placeholder"
-                />
-
-                <TextInput
-                  type="text"
-                  inputSize="xsmall"
-                  placeholder="Placeholder"
-                />
-              </div>
-
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="xsmall"
-                  label="Label text"
-                  placeholder="Placeholder"
-                  hintText="Informative message holder"
-                />
-
-                <TextInput
-                  type="text"
-                  placeholder="Placeholder"
-                  inputSize="xsmall"
-                  hintText="Informative message holder"
-                />
-              </div>
-
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="xsmall"
-                  label="Disabled"
-                  placeholder="Placeholder"
-                  hintText="Informative message holder"
-                  disabled
-                />
-
-                <TextInput
-                  type="text"
-                  label="Error"
-                  placeholder="Placeholder"
-                  inputSize="xsmall"
-                  hintText="Informative message holder"
-                  isError
-                />
-              </div>
-            </div>
-          }
-          code={`import { TextInput } from '@heathmont/moon-core';
-
-<TextInput
-  type="text"
-  inputSize="xsmall"
-  label="Label text"
-  placeholder="Placeholder"
-/>
-
-<TextInput type="text" inputSize="xsmall" placeholder="Placeholder" />
-
-<TextInput
-  type="text"
-  inputSize="xsmall"
-  label="Label text"
-  placeholder="Placeholder"
-  hintText="Informative message holder"
-/>
-
-<TextInput
-  type="text"
-  placeholder="Placeholder"
-  inputSize="xsmall"
-  hintText="Informative message holder"
-/>
-
-<TextInput
-  type="text"
-  inputSize="xsmall"
-  label="Disabled"
-  placeholder="Placeholder"
-  hintText="Informative message holder"
-  disabled
-/>
-
-<TextInput
-  type="text"
-  label="Error"
-  placeholder="Placeholder"
-  inputSize="xsmall"
-  hintText="Informative message holder"
-  isError
-/>
-`}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="xsmall (Types)"
-          preview={
-            <div className="flex flex-col gap-4">
-              <TextInput type="date" label="Date" inputSize="xsmall" />
-              <TextInput
-                type="datetime-local"
-                inputSize="xsmall"
-                label="Date and time"
-              />
-
-              <TextInput
-                type="email"
-                inputSize="xsmall"
-                label="Email"
-                placeholder="e.g. jake.weary@sportsbet.io"
-              />
-
-              <TextInput
-                type="number"
-                inputSize="xsmall"
-                label="Number"
-                placeholder="e.g. 1234"
-                required
-              />
-
-              <TextInput
-                type="password"
-                inputSize="xsmall"
-                placeholder="Please enter your account password"
-                label="Password"
-                showPasswordText="Show"
-              />
-
-              <TextInput
-                type="search"
-                inputSize="xsmall"
-                label="Search"
-                placeholder="e.g. EPL"
-                required
-              />
-
-              <TextInput
-                type="tel"
-                inputSize="xsmall"
-                label="Telephone"
-                placeholder="e.g. +372 123 4567"
-              />
-
-              <TextInput type="time" inputSize="xsmall" label="Time" />
-
-              <TextInput
-                type="url"
-                inputSize="xsmall"
-                label="URL"
-                placeholder="e.g. https://sportsbet.io"
-              />
-            </div>
-          }
-          code={`import { TextInput } from '@heathmont/moon-core';
-
-<TextInput type="date" label="Date" inputSize="xsmall" />
-
-<TextInput type="datetime-local" inputSize="xsmall" label="Date and time" />
-
-<TextInput
-  type="email"
-  inputSize="xsmall"
-  label="Email"
-  placeholder="e.g. jake.weary@sportsbet.io"
-/>
-
-<TextInput
-  type="number"
-  inputSize="xsmall"
-  label="Number"
-  placeholder="e.g. 1234"
-  required
-/>
-
-<TextInput
-  type="password"
-  inputSize="xsmall"
-  placeholder="Please enter your account password"
-  label="Password"
-  showPasswordText="Show"
-/>
-
-<TextInput
-  type="search"
-  inputSize="xsmall"
-  label="Search"
-  placeholder="e.g. EPL"
-  required
-/>
-
-<TextInput
-  type="tel"
-  inputSize="xsmall"
-  label="Telephone"
-  placeholder="e.g. +372 123 4567"
-/>
-
-<TextInput type="time" inputSize="xsmall" label="Time" />
-
-<TextInput
-  type="url"
-  inputSize="xsmall"
-  label="URL"
-  placeholder="e.g. https://sportsbet.io"
-/>
-`}
-        />
-      </section>
-    </>
-  );
-};
-
-const PreviewTextInputS = () => {
-  return (
-    <>
-      <section className="mt-8">
-        <Preview
-          title="small (Default)"
-          preview={
-            <div className="flex flex-col gap-4">
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="small"
-                  label="Label text"
-                  placeholder="Placeholder"
-                />
-
-                <TextInput
-                  type="text"
-                  inputSize="small"
-                  placeholder="Placeholder"
-                />
-              </div>
-
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="small"
-                  label="Label text"
-                  placeholder="Placeholder"
-                  hintText="Informative message holder"
-                />
-
-                <TextInput
-                  type="text"
-                  placeholder="Placeholder"
-                  inputSize="small"
-                  hintText="Informative message holder"
-                />
-              </div>
-
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="small"
-                  label="Disabled"
-                  placeholder="Placeholder"
-                  hintText="Informative message holder"
-                  disabled
-                />
-
-                <TextInput
-                  type="text"
-                  label="Error"
-                  placeholder="Placeholder"
-                  inputSize="small"
-                  hintText="Informative message holder"
-                  isError
-                />
-              </div>
-            </div>
-          }
-          code={`import { TextInput } from '@heathmont/moon-core';
-
-<TextInput
-  type="text"
-  inputSize="small"
-  label="Label text"
-  placeholder="Placeholder"
-/>
-
-<TextInput type="text" inputSize="xsmall" placeholder="Placeholder" />
-
-<TextInput
-  type="text"
-  inputSize="small"
-  label="Label text"
-  placeholder="Placeholder"
-  hintText="Informative message holder"
-/>
-
-<TextInput
-  type="text"
-  placeholder="Placeholder"
-  inputSize="small"
-  hintText="Informative message holder"
-/>
-
-<TextInput
-  type="text"
-  inputSize="small"
-  label="Disabled"
-  placeholder="Placeholder"
-  hintText="Informative message holder"
-  disabled
-/>
-
-<TextInput
-  type="text"
-  label="Error"
-  placeholder="Placeholder"
-  inputSize="small"
-  hintText="Informative message holder"
-  isError
-/>
-`}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="small (Types)"
-          preview={
-            <div className="flex flex-col gap-4">
-              <TextInput type="date" label="Date" inputSize="small" />
-              <TextInput
-                type="datetime-local"
-                inputSize="small"
-                label="Date and time"
-              />
-
-              <TextInput
-                type="email"
-                inputSize="small"
-                label="Email"
-                placeholder="e.g. jake.weary@sportsbet.io"
-              />
-
-              <TextInput
-                type="number"
-                inputSize="small"
-                label="Number"
-                placeholder="e.g. 1234"
-                required
-              />
-
-              <TextInput
-                type="password"
-                inputSize="small"
-                placeholder="Please enter your account password"
-                label="Password"
-                showPasswordText="Show"
-              />
-
-              <TextInput
-                type="search"
-                inputSize="small"
-                label="Search"
-                placeholder="e.g. EPL"
-                required
-              />
-
-              <TextInput
-                type="tel"
-                inputSize="small"
-                label="Telephone"
-                placeholder="e.g. +372 123 4567"
-              />
-
-              <TextInput type="time" inputSize="xsmall" label="Time" />
-
-              <TextInput
-                type="url"
-                inputSize="small"
-                label="URL"
-                placeholder="e.g. https://sportsbet.io"
-              />
-            </div>
-          }
-          code={`import { TextInput } from '@heathmont/moon-core';
-
-<TextInput type="date" label="Date" inputSize="xsmall" />
-
-<TextInput type="datetime-local" inputSize="xsmall" label="Date and time" />
-
-<TextInput
-  type="email"
-  inputSize="small"
-  label="Email"
-  placeholder="e.g. jake.weary@sportsbet.io"
-/>
-
-<TextInput
-  type="number"
-  inputSize="small"
-  label="Number"
-  placeholder="e.g. 1234"
-  required
-/>
-
-<TextInput
-  type="password"
-  inputSize="small"
-  placeholder="Please enter your account password"
-  label="Password"
-  showPasswordText="Show"
-/>
-
-<TextInput
-  type="search"
-  inputSize="small"
-  label="Search"
-  placeholder="e.g. EPL"
-  required
-/>
-
-<TextInput
-  type="tel"
-  inputSize="small"
-  label="Telephone"
-  placeholder="e.g. +372 123 4567"
-/>
-
-<TextInput type="time" inputSize="xsmall" label="Time" />
-
-<TextInput
-  type="url"
-  inputSize="small"
-  label="URL"
-  placeholder="e.g. https://sportsbet.io"
-/>
-`}
-        />
-      </section>
-    </>
-  );
-};
-
-const PreviewTextInputM = () => {
-  return (
-    <>
-      <section className="mt-8">
-        <Preview
-          title="medium (Default)"
-          preview={
-            <div className="flex flex-col gap-4">
-              <p>Text input medium size should always be with label</p>
-              <TextInput
-                type="text"
-                inputSize="medium"
-                label="Label text"
-                placeholder="Placeholder"
-              />
-
-              <TextInput
-                type="text"
-                inputSize="medium"
-                label="Label text"
-                placeholder="Placeholder"
-                hintText="Informative message holder"
-              />
-
-              <div className="flex gap-4 mb-4 items-end">
-                <TextInput
-                  type="text"
-                  inputSize="medium"
-                  label="Disabled"
-                  placeholder="Placeholder"
-                  hintText="Informative message holder"
-                  disabled
-                />
-
-                <TextInput
-                  type="text"
-                  label="Error"
-                  placeholder="Placeholder"
-                  inputSize="medium"
-                  hintText="Informative message holder"
-                  isError
-                />
-              </div>
-            </div>
-          }
-          code={`import { TextInput } from '@heathmont/moon-core';
-
-<TextInput
-  type="text"
-  inputSize="medium"
-  label="Label text"
-  placeholder="Placeholder"
-/>
-
-<TextInput
-  type="text"
-  inputSize="medium"
-  label="Label text"
-  placeholder="Placeholder"
-  hintText="Informative message holder"
-/>
-
-<TextInput
-  type="text"
-  inputSize="medium"
-  label="Disabled"
-  placeholder="Placeholder"
-  hintText="Informative message holder"
-  disabled
-/>
-
-<TextInput
-  type="text"
-  label="Error"
-  placeholder="Placeholder"
-  inputSize="medium"
-  hintText="Informative message holder"
-  isError
-/>
-`}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="medium (Types)"
-          preview={
-            <div className="flex flex-col gap-4">
-              <TextInput type="date" label="Date" inputSize="medium" />
-              <TextInput
-                type="datetime-local"
-                inputSize="medium"
-                label="Date and time"
-              />
-
-              <TextInput
-                type="email"
-                inputSize="medium"
-                label="Email"
-                placeholder="e.g. jake.weary@sportsbet.io"
-              />
-
-              <TextInput
-                type="number"
-                inputSize="medium"
-                label="Number"
-                placeholder="e.g. 1234"
-                required
-              />
-
-              <TextInput
-                type="password"
-                inputSize="medium"
-                placeholder="Please enter your account password"
-                label="Password"
-                showPasswordText="Show"
-              />
-
-              <TextInput
-                type="search"
-                inputSize="medium"
-                label="Search"
-                placeholder="e.g. EPL"
-                required
-              />
-
-              <TextInput
-                type="tel"
-                inputSize="medium"
-                label="Telephone"
-                placeholder="e.g. +372 123 4567"
-              />
-
-              <TextInput type="time" inputSize="medium" label="Time" />
-
-              <TextInput
-                type="url"
-                inputSize="medium"
-                label="URL"
-                placeholder="e.g. https://sportsbet.io"
-              />
-            </div>
-          }
-          code={`import { TextInput } from '@heathmont/moon-core';
-
-<TextInput type="date" label="Date" inputSize="medium" />
-
-<TextInput type="datetime-local" inputSize="medium" label="Date and time" />
-
-<TextInput
-  type="email"
-  inputSize="medium"
-  label="Email"
-  placeholder="e.g. jake.weary@sportsbet.io"
-/>
-
-<TextInput
-  type="number"
-  inputSize="medium"
-  label="Number"
-  placeholder="e.g. 1234"
-  required
-/>
-
-<TextInput
-  type="password"
-  inputSize="medium"
-  placeholder="Please enter your account password"
-  label="Password"
-  showPasswordText="Show"
-/>
-
-<TextInput
-  type="search"
-  inputSize="medium"
-  label="Search"
-  placeholder="e.g. EPL"
-  required
-/>
-
-<TextInput
-  type="tel"
-  inputSize="medium"
-  label="Telephone"
-  placeholder="e.g. +372 123 4567"
-/>
-
-<TextInput type="time" inputSize="medium" label="Time" />
-
-<TextInput
-  type="url"
-  inputSize="medium"
-  label="URL"
-  placeholder="e.g. https://sportsbet.io"
-/>
-`}
-        />
-      </section>
-    </>
-  );
-};
+import Xs from '../../public/examples/textinput/Xs';
+import XsTypes from '../../public/examples/textinput/XsTypes';
+import InputS from '../../public/examples/textinput/InputS';
+import InputSTypes from '../../public/examples/textinput/InputSTypes';
+import InputM from '../../public/examples/textinput/InputM';
+import InputMTypes from '../../public/examples/textinput/InputMTypes';
+
+import useExamples from '../../utils/useExamples';
 
 export default function PageTextInput() {
+  const examples = useExamples('TextInput');
+
   return (
     <>
       <section className="mt-8">
@@ -685,17 +42,56 @@ export default function PageTextInput() {
 
       {/* XS */}
       <section className="mt-8">
-        <PreviewTextInputXS />
+        <section className="mt-8">
+          <Preview
+            title="xsmall (Default)"
+            preview={<Xs />}
+            code={examples ? examples.Xs : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="xsmall (Types)"
+            preview={<XsTypes />}
+            code={examples ? examples.XsTypes : 'Loading'}
+          />
+        </section>
       </section>
 
       {/* S */}
       <section className="mt-8">
-        <PreviewTextInputS />
+        <section className="mt-8">
+          <Preview
+            title="small (Default)"
+            preview={<InputS />}
+            code={examples ? examples.InputS : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="small (Types)"
+            preview={<InputSTypes />}
+            code={examples ? examples.InputSTypes : 'Loading'}
+          />
+        </section>
       </section>
 
       {/* M */}
       <section className="mt-8">
-        <PreviewTextInputM />
+        <section className="mt-8">
+          <Preview
+            title="medium (Default)"
+            preview={<InputM />}
+            code={examples ? examples.InputM : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="medium (Types)"
+            preview={<InputMTypes />}
+            code={examples ? examples.InputM : 'Loading'}
+          />
+        </section>
       </section>
 
       <section className="mt-14">

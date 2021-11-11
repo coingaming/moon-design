@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Button } from '@heathmont/moon-components';
-
 import Primary from '../../public/examples/button/Primary';
 import Secondary from '../../public/examples/button/Secondary';
 import Tertiary from '../../public/examples/button/Tertiary';
