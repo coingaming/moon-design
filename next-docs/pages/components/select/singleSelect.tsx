@@ -2,28 +2,28 @@ import React from 'react';
 
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-import { ListItem, RadioButton, SingleSelect, TextInput } from '@heathmont/moon-core';
+import {
+  ListItem,
+  RadioButton,
+  SingleSelect,
+  TextInput,
+} from '@heathmont/moon-core';
 import { MediaHeadphones } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import { Chip } from '@heathmont/moon-components';
 
-const optionsAsString = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
+import Default from '../../../public/examples/select/singleSelect/Default';
+import Label from '../../../public/examples/select/singleSelect/Label';
+import Placeholders from '../../../public/examples/select/singleSelect/Placeholders';
+import Secondary from '../../../public/examples/select/singleSelect/Secondary';
+import Hint from '../../../public/examples/select/singleSelect/Hint';
+import OptionsAsList from '../../../public/examples/select/singleSelect/OptionsAsList';
+import OptionsAsList2 from '../../../public/examples/select/singleSelect/OptionsAsList2';
+import OptionsAsList3 from '../../../public/examples/select/singleSelect/OptionsAsList3';
+import Disabled from '../../../public/examples/select/singleSelect/Disabled';
+import InputSize from '../../../public/examples/select/singleSelect/InputSize';
+
+import useExamples from '../../../utils/useExamples';
 
 interface Option {
   value: string;
@@ -81,45 +81,6 @@ const options: Option[] = [
   },
 ];
 
-const options2 = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: (
-      <ListItem
-        isMeta
-        elementRight={<>Meta</>}
-        subtext={
-          <>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </>
-        }
-      >
-        Option 1
-      </ListItem>
-    ),
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: (
-      <ListItem
-        isMeta
-        elementRight={<>Meta</>}
-        subtext={
-          <>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry
-          </>
-        }
-      >
-        Option 2
-      </ListItem>
-    ),
-  },
-];
-
 const optionsWithoutLabel = [
   {
     value: 'Option 1',
@@ -150,47 +111,6 @@ const optionsWithoutLabel = [
     element: (
       <ListItem elementRight={<MediaHeadphones fontSize={rem(24)} />}>
         Option 4
-      </ListItem>
-    ),
-  },
-];
-
-const optionsRadioBtn = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: ({ isSelected }: { isSelected: boolean }) => (
-      <ListItem
-        elementRight={
-          <RadioButton
-            name="options"
-            ariaLabel="Option 1"
-            id="Option1"
-            checked={isSelected}
-            onChange={() => console.log('test')}
-          />
-        }
-      >
-        Option 1
-      </ListItem>
-    ),
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: ({ isSelected }: { isSelected: boolean }) => (
-      <ListItem
-        elementRight={
-          <RadioButton
-            name="options"
-            ariaLabel="Option 2"
-            id="Option2"
-            checked={isSelected}
-            onChange={() => console.log('test')}
-          />
-        }
-      >
-        Option 2
       </ListItem>
     ),
   },
@@ -237,6 +157,8 @@ const TopContent = () => {
 };
 
 export default function PageSelectSingle() {
+  const examples = useExamples('SingleSelect');
+
   return (
     <>
       <section className="mt-8">
@@ -251,35 +173,8 @@ export default function PageSelectSingle() {
       <section className="mt-8">
         <Preview
           title="Primary"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect options={optionsAsString} variant="primary" />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect options={options} variant='primary'/>
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -287,40 +182,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="Primary with Label"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="primary"
-                  label="Input label text"
-                  labelId="label-opt-id"
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect options={options} variant='primary' label="Input label text" labelId="label-opt-id"/>
-`}
+          preview={<Label />}
+          code={examples ? examples.Label : 'Loading'}
         />
       </section>
 
@@ -328,43 +191,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="Primary with placeholder"
-          preview={
-            <div className="flex flex-col justify-around items-center">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="primary"
-                  placeholderValue={<div>Choose an option</div>}
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect
-  options={options}
-  variant='primary'
-  placeholderValue={<div>Choose an option</div>}
-/>
-`}
+          preview={<Placeholders />}
+          code={examples ? examples.Placeholders : 'Loading'}
         />
       </section>
 
@@ -372,40 +200,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="Secondary with inner label and placeholder"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="secondary"
-                  label="Input label text"
-                  placeholderValue={<div>Choose an option</div>}
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect options={options} variant="secondary" placeholderValue={<div>Choose an option</div>}/>
-`}
+          preview={<Secondary />}
+          code={examples ? examples.Secondary : 'Loading'}
         />
       </section>
 
@@ -413,45 +209,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="With Hint Text and error"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="primary"
-                  isError
-                  hintText="Informative message holder"
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect
-  options={options}
-  variant='primary'
-  isError
-  hintText="Informative message holder"
-/>
-`}
+          preview={<Hint />}
+          code={examples ? examples.Hint : 'Loading'}
         />
       </section>
 
@@ -459,19 +218,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="A selectable option as component"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96 mb-4">
-                <SingleSelect
-                  options={options}
-                  variant="primary"
-                  zIndexOptions={100}
-                />
-              </div>
-              <TextInput type="text" inputSize="medium" />
-            </div>
-          }
-          code={``}
+          preview={<OptionsAsList />}
+          code={examples ? examples.OptionsAsList : 'Loading'}
         />
       </section>
 
@@ -479,46 +227,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96 ">
-                <SingleSelect options={options2} variant="primary" />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: (
-      <ListItem
-        isMeta
-        elementRight={<>Meta</>}
-        subtext={<>Lorem Ipsum is simply dummy text of the printing and typesettingindustry</>}
-      >
-        Option 1
-      </ListItem>
-    ),
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: (
-      <ListItem
-        isMeta
-        elementRight={<>Meta</>}
-        subtext={<>Lorem Ipsum is simply dummy text of the printing and typesettingindustry</>}
-      >
-        Option 2
-      </ListItem>
-    ),
-  },
-];
-
-<SingleSelect options={options} variant='primary'/>
-          `}
+          preview={<OptionsAsList2 />}
+          code={examples ? examples.OptionsAsList2 : 'Loading'}
         />
       </section>
 
@@ -526,58 +236,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect options={optionsRadioBtn} variant="primary" />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem, RadioButton } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: ({ isSelected }: { isSelected: boolean }) => (
-      <ListItem
-        elementRight={
-          <RadioButton
-            name="options"
-            ariaLabel="Option 1"
-            id="Option1"
-            checked={isSelected}
-            onChange={() => console.log('test')}
-          />
-        }
-      >
-        Option 1
-      </ListItem>
-    ),
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: ({ isSelected }: { isSelected: boolean }) => (
-      <ListItem
-        elementRight={
-          <RadioButton
-            name="options"
-            ariaLabel="Option 2"
-            id="Option2"
-            checked={isSelected}
-            onChange={() => console.log('test')}
-          />
-        }
-      >
-        Option 2
-      </ListItem>
-    ),
-  },
-];
-
-<SingleSelect options={options} variant='primary'/>
-`}
+          preview={<OptionsAsList3 />}
+          code={examples ? examples.OptionsAsList3 : 'Loading'}
         />
       </section>
 
@@ -585,39 +245,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="Disabled"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="primary"
-                  disabled
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect options={options} variant='primary' disabled/>
-          `}
+          preview={<Disabled />}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
@@ -625,48 +254,8 @@ const options = [
       <section className="mt-8">
         <Preview
           title="Input size (small by default)"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96 mb-4">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="primary"
-                  inputSize="small"
-                />
-              </div>
-              <div className="flex justify-around items-center w-96">
-                <SingleSelect
-                  options={optionsAsString}
-                  variant="primary"
-                  inputSize="medium"
-                />
-              </div>
-            </div>
-          }
-          code={`import { SingleSelect, ListItem } from '@heathmont/moon-core';
-
-const options = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-    element: <ListItem>Option 1</ListItem>,
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-    element: <ListItem>Option 2</ListItem>,
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-    element: <ListItem>Option 3</ListItem>,
-  },
-];
-
-<SingleSelect options={options} variant='primary' inputSize="small"/>
-
-<SingleSelect options={options} variant='primary' inputSize="medium"/>
-          `}
+          preview={<InputSize />}
+          code={examples ? examples.InputSize : 'Loading'}
         />
       </section>
 
