@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { Search } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
+import { IconProfile } from '@heathmont/moon-assets';
 
 const Dropdown = styled.ul(({ theme: { space } }) => ({
   display: 'flex',
