@@ -1,13 +1,18 @@
 import React from 'react';
 
-import { Chip } from '@heathmont/moon-components';
-import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import { rem } from '@heathmont/moon-utils';
+
+import Default from '../../public/examples/chip/Default';
+import Sizes from '../../public/examples/chip/Sizes';
+import States from '../../public/examples/chip/States';
+import Icons from '../../public/examples/chip/Icons';
+
+import useExamples from '../../utils/useExamples';
 
 export default function PageChip() {
+  const examples = useExamples('Chip');
+
   return (
     <>
       <section className="mt-8">
@@ -34,19 +39,8 @@ export default function PageChip() {
       <section className="mt-8">
         <Preview
           title="Default"
-          preview={
-            <div className="flex justify-around items-center w-full">
-              <Chip>Lion</Chip>
-              <Chip>Tiger</Chip>
-              <Chip>Jaguar</Chip>
-            </div>
-          }
-          code={`import { Chip } from '@heathmont/moon-components';
-
-<Chip>Lion</Chip>
-<Chip>Tiger</Chip>
-<Chip>Jaguar</Chip>
-  `}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -54,19 +48,8 @@ export default function PageChip() {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          preview={
-            <div className="flex justify-around items-center w-full">
-              <Chip size="small">Small</Chip>
-              <Chip size="medium">Medium</Chip>
-              <Chip>Default</Chip>
-            </div>
-          }
-          code={`import { Chip } from '@heathmont/moon-components';
-
-<Chip size="small">Small</Chip>
-<Chip size="medium">Medium</Chip>
-<Chip>Default</Chip>
-  `}
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
 
@@ -74,17 +57,8 @@ export default function PageChip() {
       <section className="mt-8">
         <Preview
           title="States"
-          preview={
-            <div className="flex justify-around items-center w-full">
-              <Chip isActive={true}>Active</Chip>
-              <Chip>Inactive</Chip>
-            </div>
-          }
-          code={`import { Chip } from '@heathmont/moon-components';
-
-<Chip isActive={true}>Active</Chip>
-<Chip>Inactive</Chip>
-  `}
+          preview={<States />}
+          code={examples ? examples.States : 'Loading'}
         />
       </section>
 
@@ -92,43 +66,8 @@ export default function PageChip() {
       <section className="mt-8">
         <Preview
           title="Icons"
-          preview={
-            <div className="flex justify-around items-center w-full">
-              <Chip iconLeft={<MediaMusic fontSize={rem(24)} />}>
-                Left Icon
-              </Chip>
-              <Chip iconRight={<SoftwareDownload fontSize={rem(24)} />}>
-                Right Icon
-              </Chip>
-              <Chip
-                iconRight={<SoftwareDownload fontSize={rem(24)} />}
-                iconLeft={<MediaMusic fontSize={rem(24)} />}
-              >
-                Left/Right Icons
-              </Chip>
-              <Chip
-                iconRight={<SoftwareDownload fontSize={rem(24)} />}
-                iconLeft={<MediaMusic fontSize={rem(24)} />}
-              />
-              <Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} />
-            </div>
-          }
-          code={`import { Chip } from '@heathmont/moon-components';
-import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
-import { rem } from '@heathmont/moon-utils';
-
-<Chip iconLeft={<MediaMusic fontSize={rem(24)} />}>Left Icon</Chip>
-
-<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />}>Right Icon</Chip>
-
-<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} iconLeft={<MediaMusic fontSize={rem(24)} />}/>
-  Left/Right Icons
-</Chip>
-
-<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} iconLeft={<MediaMusic fontSize={rem(24)} />}/>
-
-<Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} />
-  `}
+          preview={<Icons />}
+          code={examples ? examples.Icons : 'Loading'}
         />
       </section>
       <section className="mt-14">

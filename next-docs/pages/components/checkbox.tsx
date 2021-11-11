@@ -1,41 +1,19 @@
 // @ts-nocheck
 import React from 'react';
 
-import { Checkbox } from '@heathmont/moon-core';
-import {
-  RadioButton,
-  RadioButtonLabel,
-  RadioButtonInput,
-} from '@heathmont/moon-core';
-import { ListItem } from '@heathmont/moon-core';
+import Example from '../../public/examples/checkbox/Example';
+import Disabled from '../../public/examples/checkbox/Disabled';
+import Checked from '../../public/examples/checkbox/Checked';
+import AriaLabel from '../../public/examples/checkbox/AriaLabel';
+import AriaLabelList from '../../public/examples/checkbox/AriaLabelList';
 
 import Preview from '../../components/codePreview/Preview';
 
-const Example = () => {
-  return <Checkbox label="I agree to receive bonus & marketing emails." />;
-};
-
-const ExampleDisabled = () => {
-  return (
-    <Checkbox disabled label="I agree to receive bonus & marketing emails." />
-  );
-};
-
-const ExampleChecked = () => {
-  return (
-    <Checkbox
-      checked
-      label="I agree to receive bonus & marketing emails."
-      readOnly
-    />
-  );
-};
-
-const ExampleAriaLabel = () => {
-  return <Checkbox ariaLabel="Description of the checkbox's purpose." />;
-};
+import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
+  const examples = useExamples('Checkbox');
+
   return (
     <>
       <section className="mt-8">
@@ -56,10 +34,7 @@ export default function PageAccordion() {
         <Preview
           title="Checkbox"
           preview={<Example />}
-          code={`import { Checkbox } from '@heathmont/moon-core';
-
-<Checkbox disabled label="I agree to receive bonus & marketing emails." />
-`}
+          code={examples ? examples.Example : 'Loading'}
         />
       </section>
 
@@ -67,11 +42,8 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Disabled"
-          preview={<ExampleDisabled />}
-          code={`import { Checkbox } from '@heathmont/moon-core';
-
-<Checkbox disabled label="I agree to receive bonus & marketing emails." />
-`}
+          preview={<Disabled />}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
@@ -79,11 +51,8 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Checked"
-          preview={<ExampleChecked />}
-          code={`import { Checkbox } from '@heathmont/moon-core';
-
-<Checkbox checked readOnly label="I agree to receive bonus & marketing emails." />
-`}
+          preview={<Checked />}
+          code={examples ? examples.Checked : 'Loading'}
         />
       </section>
 
@@ -91,45 +60,16 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Aria label"
-          preview={<ExampleAriaLabel />}
-          code={`import { Checkbox } from '@heathmont/moon-core';
-
-<Checkbox ariaLabel="Description of the checkbox's purpose." />
-`}
+          preview={<AriaLabel />}
+          code={examples ? examples.AriaLabel : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
           title="Aria label"
-          preview={
-            <div className="flex flex-col">
-              <RadioButton name="test" label="RadioButton" disabled />
-              <RadioButton name="test" />
-              <div className="mt-2 mb-2">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementRight={<RadioButton name="test" />}
-                >
-                  Single line item
-                </ListItem>
-              </div>
-              <div>
-                <RadioButtonLabel>
-                  <ListItem
-                    backgroundColor="goku.100"
-                    elementRight={<RadioButtonInput />}
-                  >
-                    Single line item
-                  </ListItem>
-                </RadioButtonLabel>
-              </div>
-            </div>
-          }
-          code={`import { Checkbox } from '@heathmont/moon-core';
-
-<Checkbox ariaLabel="Description of the checkbox's purpose." />
-`}
+          preview={<AriaLabelList />}
+          code={examples ? examples.AriaLabelList : 'Loading'}
         />
       </section>
     </>
