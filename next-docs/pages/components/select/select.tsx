@@ -8,7 +8,7 @@ import Preview from '../../../components/codePreview/Preview';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
-  const examples = useExamples('Select');
+  const examples = useExamples('select/Select');
 
   return (
     <>

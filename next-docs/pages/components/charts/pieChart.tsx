@@ -1,317 +1,20 @@
 // @ts-nocheck
 import React from 'react';
 
-import { Filter, PieChart, ChartIcons } from '@heathmont/moon-charts';
+import { ChartIcons } from '@heathmont/moon-charts';
 
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
 
-const PieChartExample = () => {
-  const data1 = [
-    { label: 'Desktop', value: 870, dataKey: 'ggr', color: 'roshi.100' },
-    { label: 'Mobile', value: 130, dataKey: 'ggr', color: 'frieza.100' },
-  ];
+import Default from '../../../public/examples/charts/piechart/Default';
+import Loading from '../../../public/examples/charts/piechart/Loading';
 
-  const data2 = [
-    {
-      label: 'Desktop',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'roshi.100',
-    },
-    {
-      label: 'Mobile',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'frieza.100',
-    },
-    {
-      label: 'Tablet',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'whis.100',
-    },
-    {
-      label: 'Unknown',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'krillin.100',
-    },
-  ];
-
-  const formatter = ({ value }) => {
-    return '$' + value;
-  };
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <div className="w-full flex flex-row gap-36">
-      <PieChart
-        title="Device Breakdown"
-        data={data1}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-      />
-
-      <PieChart
-        title="Device Breakdown"
-        data={data2}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-      />
-    </div>
-  );
-};
-
-const PieChartCode = `import { Filter, PieChart } from '@heathmont/moon-charts';
-import { Inline } from '@heathmont/moon-components';
-
-() => {
-  const data1 = [
-    { label: 'Desktop', value: 870, dataKey: 'ggr', color: 'roshi.100' },
-    { label: 'Mobile', value: 130, dataKey: 'ggr', color: 'frieza.100' },
-  ];
-
-  const data2 = [
-    {
-      label: 'Desktop',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'roshi.100',
-    },
-    {
-      label: 'Mobile',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'frieza.100',
-    },
-    {
-      label: 'Tablet',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'whis.100',
-    },
-    {
-      label: 'Unknown',
-      value: +(Math.random() * 100).toFixed(4),
-      dataKey: 'ggr',
-      color: 'krillin.100',
-    },
-  ];
-
-  const formatter = ({ value }) => {
-    return '$' + value;
-  };
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <Inline space="large" style={{ flexWrap: 'nowrap' }}>
-      <PieChart
-        title="Device Breakdown"
-        data={data1}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-      />
-
-      <PieChart
-        title="Device Breakdown"
-        data={data2}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-      />
-    </Inline>
-  );
-};
-`;
-
-const PreviewPieChart = () => {
-  return (
-    <Preview
-      title="Default"
-      preview={
-        <>
-          <PieChartExample />
-        </>
-      }
-      code={PieChartCode}
-    />
-  );
-};
-
-const PieChartLoadingExample = () => {
-  const data = [
-    { label: 'Desktop', value: 870, dataKey: 'ggr', color: 'roshi.100' },
-    { label: 'Mobile', value: 130, dataKey: 'ggr', color: 'frieza.100' },
-  ];
-
-  const formatter = ({ value }) => {
-    return '$' + value;
-  };
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <div className="w-full flex flex-row gap-36">
-      <PieChart
-        title="Device Breakdown"
-        data={[]}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-        loaderText="Loading..."
-      />
-
-      <PieChart
-        title="Device Breakdown"
-        data={data}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-      />
-    </div>
-  );
-};
-
-const PieChartLoadingCode = `import { Filter, PieChart } from '@heathmont/moon-charts';
-import { Inline } from '@heathmont/moon-components';
-
-() => {
-  const data = [
-    { label: 'Desktop', value: 870, dataKey: 'ggr', color: 'roshi.100' },
-    { label: 'Mobile', value: 130, dataKey: 'ggr', color: 'frieza.100' },
-  ];
-
-  const formatter = ({ value }) => {
-    return '$' + value;
-  };
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <Inline style={{ flexWrap: 'nowrap' }}>
-      <PieChart
-        title="Device Breakdown"
-        data={[]}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-        loaderText="Loading..."
-      />
-
-      <PieChart
-        title="Device Breakdown"
-        data={data}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-        formatFn={formatter}
-      />
-    </Inline>
-  );
-};
-`;
-
-const PreviewPieChartLoading = () => {
-  return (
-    <Preview
-      title="Loading"
-      preview={
-        <>
-          <PieChartLoadingExample />
-        </>
-      }
-      code={PieChartLoadingCode}
-    />
-  );
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function PageLineChart() {
+  const examples = useExamples('charts/PieChart');
+
   return (
     <>
       <section className="mt-8">
@@ -327,7 +30,11 @@ export default function PageLineChart() {
 
       {/* Default */}
       <section className="mt-8">
-        <PreviewPieChart />
+        <Preview
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
 
       <section className="mt-8">
@@ -437,7 +144,11 @@ export default function PageLineChart() {
       </section>
 
       <section className="mt-8">
-        <PreviewPieChartLoading />
+        <Preview
+          title="Loading"
+          preview={<Loading />}
+          code={examples ? examples.Loading : 'Loading'}
+        />
       </section>
     </>
   );

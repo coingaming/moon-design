@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ListItem, SingleSelect, TextInput } from '@heathmont/moon-core';
+import { ListItem, SingleSelect } from '@heathmont/moon-core';
 
 const options2 = [
   {
