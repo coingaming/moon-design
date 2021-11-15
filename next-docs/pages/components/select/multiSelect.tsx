@@ -11,7 +11,7 @@ import Error from '../../../public/examples/select/multiselect/Error';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageMultiSelect() {
-  const examples = useExamples('MultiSelect');
+  const examples = useExamples('select/MultiSelect');
 
   return (
     <>
