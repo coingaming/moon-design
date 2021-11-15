@@ -32,7 +32,9 @@ function template(
       color?: ColorProps;
     };
 
-    const ${prefix(componentName)} = styled(Svg)<IconProps>(
+    const ${prefix(componentName)} = styled(Svg).withConfig({
+      shouldForwardProp: (prop) => !['backgroundColor', 'circleColor', 'color'].includes(prop),
+    })<IconProps>(     
       ({ backgroundColor, circleColor, color, theme }) => [
         backgroundColor && {
           backgroundColor: themed('color', backgroundColor)(theme),
