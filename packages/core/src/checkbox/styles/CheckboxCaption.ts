@@ -18,7 +18,7 @@ const checkboxSize = (theme: Theme) => theme.space.default;
 const checkboxGap = (theme: Theme) => theme.space.xsmall * 2;
 const captionMargin = (theme: Theme) =>
   rem(checkboxSize(theme) + checkboxGap(theme));
-const fontSize = (theme: Theme) => theme.fontSize;
+const fontSize = (theme: Theme) => theme.fontSize.body;
 const inputColors =
   (key: keyof InputColors) =>
   ({ color }: Theme) => {
@@ -47,7 +47,7 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
     position: 'absolute',
     width: rem(checkboxSize(theme)),
     height: rem(checkboxSize(theme)),
-    top: (rem(fontSize(theme)) - rem(checkboxSize(theme))) / 2,
+    top: rem(checkboxSize(theme) / 4),
     ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     transitionDuration: `${theme.transitionDuration.default}s`,
     transitionTimingFunction: 'ease',
