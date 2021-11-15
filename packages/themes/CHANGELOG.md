@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.10.2
+
+### Patch Changes
+
+- Fix Props for Duotone Icons
+
 ## 7.10.1
 
 ### Patch Changes
