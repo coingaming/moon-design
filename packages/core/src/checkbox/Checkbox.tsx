@@ -14,6 +14,7 @@ export interface CheckboxProps {
   onClick?: () => void;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   dir?: 'ltr' | 'rtl' | 'auto';
+  readOnly?: boolean;
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(

@@ -1,4 +1,4 @@
-import { Badge } from '@heathmont/moon-components';
+import { Badge } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex justify-around items-center w-full">

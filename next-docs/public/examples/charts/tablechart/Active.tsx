@@ -1,11 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import { Filter, TableChart, ChartIcons } from '@heathmont/moon-charts';
-import {
-  Avatar,
-  CheckboxMultiselect,
-  Inline,
-} from '@heathmont/moon-components';
+import { CheckboxMultiselect, Inline } from '@heathmont/moon-components';
 
 const Example = () => {
   const data = [

@@ -1,4 +1,4 @@
-import { Checkbox } from '@heathmont/moon-components';
+import { Checkbox } from '@heathmont/moon-core';
 
 const Example = () => (
   <Checkbox disabled label="I agree to receive bonus & marketing emails." />
