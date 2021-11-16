@@ -19,13 +19,13 @@ const DialogContent: React.FC<any> = styled(ReachDialogContent)
   })
   .attrs({
     'aria-labelledby': 'Dialog content',
-  })<DialogMaxWidth & DialogPosition>(({ theme: { space } }) => [
+  })<DialogMaxWidth & DialogPosition>(() => [
   {
     background: 'transparent',
     margin: '0 auto',
     position: 'relative',
     maxWidth: rem(608) /* [1] */,
-    padding: rem(space.default),
+    padding: 0,
     outline: 'none',
   },
   ({ maxWidth }) => ({ maxWidth }),
