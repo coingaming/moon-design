@@ -38,7 +38,8 @@ type IconProps = {
 };
 const IconHistory =
   styled(Svg).withConfig({
-    shouldForwardProp: prop => !['backgroundColor'].includes(prop),
+    shouldForwardProp: prop =>
+      !['backgroundColor', 'circleColor', 'color'].includes(prop),
   }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
