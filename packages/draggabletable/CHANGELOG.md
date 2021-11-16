@@ -1,5 +1,19 @@
 # Change Log
 
+## 7.11.0
+
+### Minor Changes
+
+- Fix checkbox
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.11.0
+  - @heathmont/moon-table@7.11.0
+  - @heathmont/moon-themes@7.11.0
+  - @heathmont/moon-utils@7.11.0
+
 ## 7.10.2
 
 ### Patch Changes
