@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
-import { DocsBrands, useDocsTheme } from './themes/DocsThemeProvider';
+import { useDocsTheme } from './themes/DocsThemeProvider';
 import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
 import Footer from './Footer';
