@@ -6,37 +6,15 @@ import { RadioButton } from '@heathmont/moon-core';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 
-const Example = () => {
-  return (
-    <div className="flex flex-col">
-      <h4 className="mb-2">Please select your age:</h4>
-      <div className="mb-2 ml-2">
-        <RadioButton name="age" label="0 - 30" ariaLabel="0 - 30" id="age1" />
-      </div>
-      <div className="mb-2 ml-2">
-        <RadioButton name="age" label="31 - 60" ariaLabel="31 - 60" id="age2" />
-      </div>
-      <div className="mb-2 ml-2">
-        <RadioButton
-          name="age"
-          label="61 - 100"
-          ariaLabel="61 - 100"
-          id="age3"
-        />
-      </div>
-    </div>
-  );
-};
+import Default from '../../../public/examples/radiobutton/radiobutton/Default';
+import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
+import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 
-const ExampleDisabled = () => {
-  return <RadioButton disabled label="Disabled radio button" />;
-};
-
-const ExampleChecked = () => {
-  return <RadioButton checked label="Checked radio button" readOnly />;
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
+  const examples = useExamples('RadioButton');
+
   return (
     <>
       <section className="mt-8">
@@ -52,13 +30,8 @@ export default function RadioButtonPage() {
       <section className="mt-8">
         <Preview
           title="RadioButton"
-          preview={<Example />}
-          code={`import { RadioButton } from '@heathmont/moon-core';
-
-<RadioButton name="age" label="0 - 30" ariaLabel="0 - 30" id="age1" />
-<RadioButton name="age" label="31 - 60" ariaLabel="31 - 60" id="age2" />
-<RadioButton name="age" label="61 - 100" ariaLabel="61 - 100" id="age3" />
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -66,11 +39,8 @@ export default function RadioButtonPage() {
       <section className="mt-8">
         <Preview
           title="Disabled"
-          preview={<ExampleDisabled />}
-          code={`import { RadioButton } from '@heathmont/moon-core';
-
-<RadioButton disabled label="Disabled radio button" />
-`}
+          preview={<Disabled />}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
@@ -78,11 +48,8 @@ export default function RadioButtonPage() {
       <section className="mt-8">
         <Preview
           title="Checked"
-          preview={<ExampleChecked />}
-          code={`import { RadioButton } from '@heathmont/moon-core';
-
-<RadioButton checked label="Checked radio button" readOnly />
-`}
+          preview={<Checked />}
+          code={examples ? examples.Checked : 'Loading'}
         />
       </section>
 

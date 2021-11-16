@@ -117,6 +117,20 @@ jobs:
           paths:
             - packages/*/lib/*
 
+  build_docs:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Running next build
+          command: pnpm run next build
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - packages/*/lib/*
+
   build_docs_and_push:
     <<: *default
     steps:
@@ -174,6 +188,11 @@ workflows:
           requires:
             - dependencies
       - lint:
+          context: global
+          requires:
+            - dependencies
+            - build
+      - build_docs:
           context: global
           requires:
             - dependencies
