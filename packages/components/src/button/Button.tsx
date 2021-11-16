@@ -38,6 +38,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   iconLeft?: any;
   iconRight?: any;
   isIcon?: boolean;
+  disabled?: boolean;
 };
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
@@ -237,6 +238,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
     iconRight,
     size,
     fullWidth,
+    disabled,
     ...buttonProps
   } = props;
   const { color, space } = useTheme();
@@ -277,11 +279,18 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
       </div>
     );
   }
+
+  const mockstateClass = mockState ? buttonMockStateClass(mockState) : '';
+  const classNames = [mockState, mockstateClass];
+  if (disabled) {
+    classNames.push('disabled');
+  }
+
   return (
     <StyledButton
       ref={ref}
       oops={oops}
-      className={mockState && buttonMockStateClass(mockState)}
+      className={classNames}
       size={size}
       iconLeft={iconLeft}
       iconRight={iconRight}
