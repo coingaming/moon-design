@@ -5,16 +5,17 @@ import styled from 'styled-components';
 
 const Example = () => {
   const items = Array.from({ length: 5 }, (value, index) => index);
-  const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
+  const ExampleContent = styled.div({
     width: '20rem',
     height: '12rem',
-    borderRadius: rem(radius.small),
-    background: color.goku[80],
+    borderRadius: rem(4),
+    background: 'gray',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: '2rem',
-  }));
+  });
+
   return (
     <div className="flex justify-around items-center w-full">
       <Carousel
