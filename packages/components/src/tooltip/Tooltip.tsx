@@ -78,7 +78,7 @@ const TooltipCaption = styled.div<TooltipBubbleProps>(({ onClose }) => [
   },
 ]);
 
-const tooltipToggle: CSSObject = {
+const tooltipToggle: React.CSSProperties = {
   display: 'inline-flex',
   position: 'absolute',
   top: '50%',
