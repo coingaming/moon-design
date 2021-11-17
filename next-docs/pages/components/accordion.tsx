@@ -1,33 +1,13 @@
-// @ts-nocheck
 import React from 'react';
-
-import { Accordion } from '@heathmont/moon-accordion';
+import Example from '../../public/examples/accordion/Accordion';
 
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-
-const Example = () => {
-  return (
-    <Accordion
-      title="Test"
-      headerContent={
-        <div onClick={() => console.log('Clicked')}>Additional content</div>
-      }
-    >
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </div>
-    </Accordion>
-  );
-};
+import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
+  const examples = useExamples('Accordion');
+
   return (
     <>
       <section className="mt-8">
@@ -49,25 +29,7 @@ export default function PageAccordion() {
         <Preview
           title="Accordion"
           preview={<Example />}
-          code={`import { Accordion } from '@heathmont/moon-accordion';
-
-<Accordion
-  title="Test"
-  headerContent={
-    <div onClick={() => console.log('Clicked')}>Additional content</div>
-  }
->
-  <div>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.
-  </div>
-</Accordion>
-`}
+          code={examples.Accordion ? examples.Accordion : 'Loading'}
         />
       </section>
       <section className="mt-8">

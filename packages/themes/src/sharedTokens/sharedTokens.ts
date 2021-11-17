@@ -1,3 +1,4 @@
+import { CSSObject } from 'styled-components';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -330,7 +331,7 @@ export interface SharedTheme {
   borderStyle: BorderStyle;
   boxShadow: BoxShadow; // legacy
   breakpoint: Breakpoint;
-  fontFace?: any;
+  fontFace?: CSSObject[];
   fontFamily: FontFamily;
   fontSize: FontSize;
   fontWeight: FontWeight;

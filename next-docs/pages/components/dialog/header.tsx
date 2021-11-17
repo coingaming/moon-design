@@ -1,18 +1,19 @@
 import React from 'react';
 
-import { Header } from '@heathmont/moon-core';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-import {
-  FilesGlasses,
-  FilesPrint,
-  ControlsChevronLeft,
-  ControlsClose,
-} from '@heathmont/moon-icons';
-import { rem } from '@heathmont/moon-utils';
+
+import Example1 from '../../../public/examples/dialog/header/Example1';
+import Example2 from '../../../public/examples/dialog/header/Example2';
+import Example3 from '../../../public/examples/dialog/header/Example3';
+import Example4 from '../../../public/examples/dialog/header/Example4';
+import Example5 from '../../../public/examples/dialog/header/Example5';
+
+import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogHeader() {
+  const examples = useExamples('dialog/Header');
+
   return (
     <>
       <section className="mt-8">
@@ -26,163 +27,40 @@ export default function PageDialogHeader() {
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header>Title of the modal</Header>
-              </div>
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header closeButton={<ControlsClose fontSize={rem(32)} />}>
-                  Title of the modal
-                </Header>
-              </div>
-            </div>
-          }
-          code={`import { Header } from '@heathmont/moon-core';
-import { ControlsClose } from '@heathmont/moon-icons';
-
-<Header>Title of the modal</Header>
-
-<Header closeButton={<ControlsClose fontSize={rem(32)} />}>
-  Title of the modal
-</Header>       
-`}
+          preview={<Example1 />}
+          code={examples ? examples.Example1 : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header
-                  backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-                  closeButton={<ControlsClose fontSize={rem(32)} />}
-                >
-                  Title of the modal
-                </Header>
-              </div>
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header
-                  backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-                  closeButton={<ControlsClose fontSize={rem(32)} />}
-                />
-              </div>
-            </div>
-          }
-          code={`import { Header } from '@heathmont/moon-core';
-import { ControlsClose, ControlsChevronLeft } from '@heathmont/moon-icons';
-
-<Header
-  backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-  closeButton={<ControlsClose fontSize={rem(32)} />}
->
-  Title of the modal
-</Header>
-
-<Header
-  backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-  closeButton={<ControlsClose fontSize={rem(32)} />}
-/>      
-`}
+          preview={<Example2 />}
+          code={examples ? examples.Example2 : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header
-                  closeButton={<ControlsClose fontSize={rem(32)} />}
-                  icons={[<FilesGlasses />, <FilesPrint />]}
-                >
-                  Title of the modal
-                </Header>
-              </div>
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4">
-                <Header
-                  closeButton={<ControlsClose fontSize={rem(32)} />}
-                  icons={[<FilesGlasses />, <FilesPrint />]}
-                />
-              </div>
-            </div>
-          }
-          code={`import { Header } from '@heathmont/moon-core';
-import { ControlsClose, FilesGlasses, FilesPrint } from '@heathmont/moon-icons';
-
-<Header
-  closeButton={<ControlsClose fontSize={rem(32)} />}
-  icons={[<FilesGlasses />, <FilesPrint />]}
->
-  Title of the modal
-</Header>
-
-<Header
-  closeButton={<ControlsClose fontSize={rem(32)} />}
-  icons={[<FilesGlasses />, <FilesPrint />]}
-/>     
-`}
+          preview={<Example3 />}
+          code={examples ? examples.Example3 : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex justify-around items-center w-full max-w-screen-sm">
-              <Header
-                backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-                closeButton={<ControlsClose fontSize={rem(32)} />}
-                icons={[<FilesGlasses />, <FilesPrint />]}
-              >
-                Title of the modal title of the modal title of the modal
-              </Header>
-            </div>
-          }
-          code={`import { Header } from '@heathmont/moon-core';
-import { ControlsClose, FilesGlasses, FilesPrint } from '@heathmont/moon-icons';
-
-<Header
-  backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-  closeButton={<ControlsClose fontSize={rem(32)} />}
-  icons={[<FilesGlasses />, <FilesPrint />]}
->
-  Title of the modal title of the modal title of the modal
-</Header>     
-`}
+          preview={<Example4 />}
+          code={examples ? examples.Example4 : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
           title=""
-          preview={
-            <div className="flex justify-around items-center w-full max-w-screen-sm">
-              <Header
-                backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-                closeButton={<ControlsClose fontSize={rem(32)} />}
-                icons={[<FilesGlasses />, <FilesPrint />]}
-                isDivider={true}
-              >
-                Title of the modal title of the modal title of the modal
-              </Header>
-            </div>
-          }
-          code={`import { Header } from '@heathmont/moon-core';
-import { ControlsClose, FilesGlasses, FilesPrint } from '@heathmont/moon-icons';
-
-<Header
-  backButton={<ControlsChevronLeft fontSize={rem(32)} />}
-  closeButton={<ControlsClose fontSize={rem(32)} />}
-  icons={[<FilesGlasses />, <FilesPrint />]}
-  isDivider={true}
->
-  Title of the modal title of the modal title of the modal
-</Header>     
-`}
+          preview={<Example5 />}
+          code={examples ? examples.Example5 : 'Loading'}
         />
       </section>
 

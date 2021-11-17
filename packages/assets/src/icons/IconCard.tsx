@@ -27,7 +27,10 @@ type IconProps = {
   color?: ColorProps,
 };
 const IconCard =
-  styled(Svg) <
+  styled(Svg).withConfig({
+    shouldForwardProp: prop =>
+      !['backgroundColor', 'circleColor', 'color'].includes(prop),
+  }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {

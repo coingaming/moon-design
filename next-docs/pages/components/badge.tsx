@@ -1,11 +1,15 @@
 import React from 'react';
 import NextLink from 'next/link';
 
-import { Badge } from '@heathmont/moon-core';
+import Colours from '../../public/examples/badge/Colours';
+import Sizes from '../../public/examples/badge/Sizes';
 
 import Preview from '../../components/codePreview/Preview';
+import useExamples from '../../utils/useExamples';
 
 export default function PageBadge() {
+  const examples = useExamples('Badge');
+
   return (
     <>
       <section className="mt-8">
@@ -24,33 +28,8 @@ export default function PageBadge() {
       <section className="mt-8">
         <Preview
           title="Colours"
-          preview={
-            <div className="flex justify-around items-center w-full">
-              <Badge color="goten.100" backgroundColor="piccolo.100">
-                Active
-              </Badge>
-              <Badge color="piccolo.100" backgroundColor="trunks.100">
-                Active
-              </Badge>
-              <Badge color="goten.100" backgroundColor="dodoria.100">
-                Active
-              </Badge>
-            </div>
-          }
-          code={`import { Badge } from '@heathmont/moon-core';
-
-<Badge color="goten.100" backgroundColor="piccolo.100">
-  Active
-</Badge>
-
-<Badge color="piccolo.100" backgroundColor="trunks.100">
-  Active
-</Badge>
-
-<Badge color="goten.100" backgroundColor="dodoria.100">
-  Active
-</Badge>
-`}
+          preview={<Colours />}
+          code={examples ? examples.Colours : 'Loading'}
         />
       </section>
 
@@ -58,18 +37,8 @@ export default function PageBadge() {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          preview={
-            <div className="flex justify-around items-center w-full">
-              <Badge size="small">Small</Badge>
-              <Badge>Default</Badge>
-            </div>
-          }
-          code={`import { Badge } from '@heathmont/moon-core';
-
-<Badge size="small">Small</Badge>
-
-<Badge>Default</Badge>
-`}
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
     </>

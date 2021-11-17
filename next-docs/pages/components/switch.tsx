@@ -1,197 +1,16 @@
-import { useState } from 'react';
-
-import { Switch } from '@heathmont/moon-components';
+import Default from '../../public/examples/switch/Default';
+import Sizes from '../../public/examples/switch/Sizes';
+import Theme from '../../public/examples/switch/Theme';
+import Caption from '../../public/examples/switch/Caption';
+import ThemeCaption from '../../public/examples/switch/ThemeCaption';
 
 import Preview from '../../components/codePreview/Preview';
 
-const PreviewSwitch = () => {
-  const [state, setState] = useState(true);
-
-  return (
-    <Preview
-      title="Default"
-      preview={
-        <>
-          <Switch
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-          />
-        </>
-      }
-      code={`import { useState } from 'react'
-import { Switch } from '@heathmont/moon-components';
-
-const [state, setState] = useState(true);
-
-<Switch checked={state} onChange={e => setState(e.target.checked)} />
-`}
-    />
-  );
-};
-
-const PreviewSwitchSizes = () => {
-  const [state, setState] = useState(true);
-
-  return (
-    <Preview
-      title="Sizes"
-      preview={
-        <div className="flex gap-20 items-center">
-          <Switch
-            size="xs"
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-          />
-          <Switch
-            size="md"
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-          />
-          <Switch
-            size="lg"
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-          />
-        </div>
-      }
-      code={`import { useState } from 'react'
-import { Switch } from '@heathmont/moon-components';
-
-const [state, setState] = useState(true);
-
-<Switch
-  size="xs"
-  checked={state}
-  onChange={(e: any) => setState(e.target.checked)}
-/>
-
-<Switch
-  size="md"
-  checked={state}
-  onChange={(e: any) => setState(e.target.checked)}
-/>
-
-<Switch
-  size="lg"
-  checked={state}
-  onChange={(e: any) => setState(e.target.checked)}
-/>
-`}
-    />
-  );
-};
-
-const PreviewSwitchTheme = () => {
-  const [state, setState] = useState(true);
-
-  return (
-    <Preview
-      title="Dark &amp; Light mode"
-      preview={
-        <>
-          <Switch
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-            colorScheme
-          />
-        </>
-      }
-      code={`import { useState } from 'react'
-import { Switch } from '@heathmont/moon-components';
-
-const [state, setState] = useState(true);
-
-<Switch
-  checked={state}
-  onChange={(e) => setState(e.target.checked)}
-  colorScheme
-/>
-`}
-    />
-  );
-};
-
-const PreviewSwitchCaption = () => {
-  const [state, setState] = useState(true);
-
-  return (
-    <Preview
-      title="With captions"
-      preview={
-        <>
-          <Switch
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-            captionUnchecked="OFF"
-            captionChecked="ON"
-          />
-        </>
-      }
-      code={`import { useState } from 'react'
-import { Switch } from '@heathmont/moon-components';
-
-const [state, setState] = useState(true);
-
-<Switch
-  checked={state}
-  onChange={e => setState(e.target.checked)}
-  captionUnchecked="OFF"
-  captionChecked="ON"
-/>
-`}
-    />
-  );
-};
-
-const PreviewSwitchThemeCaption = () => {
-  const [state, setState] = useState(true);
-
-  return (
-    <Preview
-      title="Dark &amp; Light mode with captions"
-      preview={
-        <>
-          <Switch
-            checked={state}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-              setState(e.target.checked)
-            }
-            colorScheme
-            captionUnchecked="AM"
-            captionChecked="PM"
-          />
-        </>
-      }
-      code={`import { useState } from 'react'
-import { Switch } from '@heathmont/moon-components';
-
-const [state, setState] = useState(true);
-
-<Switch
-      checked={state}
-      onChange={e => setState(e.target.checked)}
-      colorScheme
-      captionUnchecked="AM"
-      captionChecked="PM"
-    />
-`}
-    />
-  );
-};
+import useExamples from '../../utils/useExamples';
 
 export default function PageSwitch() {
+  const examples = useExamples('Switch');
+
   return (
     <>
       <section className="mt-8">
@@ -203,24 +22,44 @@ export default function PageSwitch() {
 
       {/* Default */}
       <section className="mt-8">
-        <PreviewSwitch />
+        <Preview
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
 
-      {/* Default */}
+      {/* Sizes */}
       <section className="mt-8">
-        <PreviewSwitchSizes />
+        <Preview
+          title="Sizes"
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
+        />
       </section>
 
       <section className="mt-8">
-        <PreviewSwitchTheme />
+        <Preview
+          title="Dark &amp; Light mode"
+          preview={<Theme />}
+          code={examples ? examples.Theme : 'Loading'}
+        />
       </section>
 
       <section className="mt-8">
-        <PreviewSwitchCaption />
+        <Preview
+          title="With captions"
+          preview={<Caption />}
+          code={examples ? examples.Caption : 'Loading'}
+        />
       </section>
 
       <section className="mt-8">
-        <PreviewSwitchThemeCaption />
+        <Preview
+          title="Dark &amp; Light mode with captions"
+          preview={<ThemeCaption />}
+          code={examples ? examples.ThemeCaption : 'Loading'}
+        />
       </section>
     </>
   );

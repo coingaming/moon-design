@@ -1,27 +1,15 @@
 import React from 'react';
 
-import { Pagination } from '@heathmont/moon-pagination';
+import Default from '../../public/examples/pagination/Default';
 
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 
-const Example = () => {
-  return (
-    <Pagination
-      pageCount={20}
-      pageRangeDisplayed={3}
-      marginPagesDisplayed={1}
-      pageNumber={10}
-      previousButtonLabel="Previous"
-      nextButtonLabel="Next"
-      onChange={(value: React.ChangeEvent) =>
-        console.log('pageNumber: ', value)
-      }
-    />
-  );
-};
+import useExamples from '../../utils/useExamples';
 
 export default function PagePagination() {
+  const examples = useExamples('Pagination');
+
   return (
     <>
       <section className="mt-8">
@@ -42,19 +30,8 @@ export default function PagePagination() {
       <section className="mt-8">
         <Preview
           title="Pagination"
-          preview={<Example />}
-          code={`import { Pagination } from '@heathmont/moon-pagination';
-
-<Pagination
-  pageCount={20}
-  pageRangeDisplayed={3}
-  marginPagesDisplayed={1}
-  pageNumber={10}
-  previousButtonLabel="Previous"
-  nextButtonLabel="Next"
-  onChange={(value) => console.log('pageNumber: ', value)}
-/>
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
       <section className="mt-8">

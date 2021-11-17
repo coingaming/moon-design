@@ -33,7 +33,10 @@ type IconProps = {
   color?: ColorProps,
 };
 const IconDesktop =
-  styled(Svg) <
+  styled(Svg).withConfig({
+    shouldForwardProp: prop =>
+      !['backgroundColor', 'circleColor', 'color'].includes(prop),
+  }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {

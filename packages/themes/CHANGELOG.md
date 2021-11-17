@@ -1,5 +1,29 @@
 # Change Log
 
+## 7.11.0
+
+### Minor Changes
+
+- Fix checkbox
+
+## 7.10.2
+
+### Patch Changes
+
+- Fix Props for Duotone Icons
+
+## 7.10.1
+
+### Patch Changes
+
+- New docs preview & assets/icons props fix
+
+## 7.10.0
+
+### Minor Changes
+
+- Fix windows build
+
 ## 7.9.5
 
 ### Patch Changes

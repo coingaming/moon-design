@@ -1,12 +1,17 @@
 import React from 'react';
 
-import { Footer } from '@heathmont/moon-core';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-import { Button } from '@heathmont/moon-components';
+
+import ButtonXs from '../../../public/examples/dialog/footer/ButtonXs';
+import ButtonSm from '../../../public/examples/dialog/footer/ButtonSm';
+import Size from '../../../public/examples/dialog/footer/Size';
+
+import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogFooter() {
+  const examples = useExamples('dialog/Footer');
+
   return (
     <>
       <section className="mt-8">
@@ -21,120 +26,8 @@ export default function PageDialogFooter() {
       <section className="mt-8">
         <Preview
           title="Buttons size: xs"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4"></div>
-            </div>
-          }
-          code={`import { Footer } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
-
-<Footer primButton={<Button fullWidth variant="primary" size="xsmall">Button</Button>}
-
-<Footer 
-  primButton={<Button fullWidth variant="primary" size="xsmall">Button</Button>}
-  secButton={<Button fullWidth variant="tertiary" size="xsmall">Button</Button>}
-/>
-
-<Footer
-  primButton={<Button fullWidth variant="primary" size="xsmall">Button</Button>}
-  secButton={<Button fullWidth variant="tertiary" size="xsmall">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="xsmall">Button</Button>}
-/>
-
-<Footer
-  primButton={<Button fullWidth variant="primary" size="xsmall">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="xsmall">Button</Button>}
-/>
-
-<Footer
-  secButton={<Button fullWidth variant="tertiary" size="xsmall">Button</Button>}
-/>
-
-<Footer
-  secButton={<Button fullWidth variant="tertiary" size="xsmall">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="xsmall">Button</Button>}
-/>
-`}
+          preview={<ButtonXs />}
+          code={examples ? examples.ButtonXs : 'Loading'}
         />
       </section>
 
@@ -142,120 +35,8 @@ import { Button } from '@heathmont/moon-components';
       <section className="mt-8">
         <Preview
           title="Buttons size: sm"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="small">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="small">
-                      Button
-                    </Button>
-                  }
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="small">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="small">
-                      Button
-                    </Button>
-                  }
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="small">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="small">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="small">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="small">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="small">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="small">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="small">
-                      Button
-                    </Button>
-                  }
-                />
-              </div>
-              <div className="flex justify-around items-center w-full max-w-screen-sm mb-4"></div>
-            </div>
-          }
-          code={`import { Footer } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
-          
-<Footer primButton={<Button fullWidth variant="primary" size="small">Button</Button>}
-          
-<Footer 
-  primButton={<Button fullWidth variant="primary" size="small">Button</Button>}
-  secButton={<Button fullWidth variant="tertiary" size="small">Button</Button>}
-/>
-
-<Footer
-  primButton={<Button fullWidth variant="primary" size="small">Button</Button>}
-  secButton={<Button fullWidth variant="tertiary" size="small">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="small">Button</Button>}
-/>
-
-<Footer
-  primButton={<Button fullWidth variant="primary" size="small">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="small">Button</Button>}
-/>
-
-<Footer
-  secButton={<Button fullWidth variant="tertiary" size="small">Button</Button>}
-/>
-
-<Footer
-  secButton={<Button fullWidth variant="tertiary" size="small">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="small">Button</Button>}
-/>
-`}
+          preview={<ButtonSm />}
+          code={examples ? examples.ButtonSm : 'Loading'}
         />
       </section>
 
@@ -263,69 +44,8 @@ import { Button } from '@heathmont/moon-components';
       <section className="mt-8">
         <Preview
           title="Size and Divider"
-          preview={
-            <div className="flex flex-col">
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="small">
-                      Button
-                    </Button>
-                  }
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="small">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="small">
-                      Button
-                    </Button>
-                  }
-                  isDivider={true}
-                />
-              </div>
-              <div className="flex justify-around items-center w-96 mb-4">
-                <Footer
-                  primButton={
-                    <Button fullWidth variant="primary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  secButton={
-                    <Button fullWidth variant="tertiary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  tertButton={
-                    <Button fullWidth variant="secondary" size="xsmall">
-                      Button
-                    </Button>
-                  }
-                  isDivider={true}
-                  size="small"
-                />
-              </div>
-            </div>
-          }
-          code={`import { Footer } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
-
-<Footer
-  primButton={<Button fullWidth variant="primary" size="small">Button</Button>}
-  secButton={<Button fullWidth variant="tertiary" size="small">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="small">Button</Button>}
-  isDivider
-/>
-
-<Footer
-  primButton={<Button fullWidth variant="primary" size="xsmall">Button</Button>}
-  secButton={<Button fullWidth variant="tertiary" size="xsmall">Button</Button>}
-  tertButton={<Button fullWidth variant="secondary" size="xsmall">Button</Button>}
-  isDivider
-  size="small"
-/>
-`}
+          preview={<Size />}
+          code={examples ? examples.Size : 'Loading'}
         />
       </section>
 
