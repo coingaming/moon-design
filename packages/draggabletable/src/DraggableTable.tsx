@@ -6,6 +6,10 @@ import {
   useExpanded,
   useBlockLayout,
   useFlexLayout,
+  Column,
+  Row,
+  Cell,
+  HeaderGroup,
 } from 'react-table';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
@@ -24,6 +28,7 @@ import {
 } from '@heathmont/moon-table';
 
 import IconDrag from './private/icons/IconDrag';
+import { ColorProps } from '@heathmont/moon-themes';
 
 const DndTD = styled(TD)<{
   variant?: string;
@@ -85,7 +90,18 @@ const DndBodyTR = styled(BodyTR)<{
 
 const DND_ITEM_TYPE = 'rowDnd';
 
-const Row: React.FC<any> = ({
+interface RowProps<D extends object = {}> {
+  row: Row<D>;
+  index: number;
+  moveRow: (dragIndex: number, hoverIndex: number) => void;
+  dropRow: (row: Row<D>, index: number) => void;
+  variant: string;
+  onRowClick: (row: Row<D>) => void;
+  hasOnRowClickHandler: boolean;
+  backgroundColor: ColorProps;
+}
+
+const MRow: React.FC<RowProps> = ({
   row,
   index,
   moveRow,
@@ -100,7 +116,7 @@ const Row: React.FC<any> = ({
 
   const [, drop] = useDrop({
     accept: DND_ITEM_TYPE,
-    hover(item: any, monitor) {
+    hover(item: Row<{}>, monitor) {
       if (!dropRef.current) return;
       const dragItem = item;
       const dragIndex = dragItem.index;
@@ -122,7 +138,7 @@ const Row: React.FC<any> = ({
       moveRow(dragIndex, hoverIndex);
       dragItem.index = hoverIndex;
     },
-    drop(item: any) {
+    drop(item: Row<{}>) {
       dropRow(row, item.index);
     },
   });
@@ -149,7 +165,7 @@ const Row: React.FC<any> = ({
       <DndTD ref={dragRef} dragIndicator>
         <IconDrag fontSize="1.2rem" />
       </DndTD>
-      {row.cells.map((cell: any) => (
+      {row.cells.map((cell: Cell<{}>) => (
         <DndTD
           {...cell.getCellProps()}
           onClick={hasOnRowClickHandler ? () => onRowClick(row) : undefined}
@@ -161,7 +177,25 @@ const Row: React.FC<any> = ({
   );
 };
 
-const DraggableTable: React.FC<any> = ({
+interface DraggableTableProps<D extends object = {}> {
+  columns: ReadonlyArray<Column<D>>;
+  data: readonly D[];
+  defaultColumn?: Partial<Column<D>>;
+  width?: string | number;
+  height?: string | number;
+  maxWidth?: string | number;
+  maxHeight?: string | number;
+  variant: string;
+  layout?: string;
+  withFooter?: boolean;
+  onRowClick: (row: Row<D>) => void;
+  onDropRow: (row: Row<D>, index: number) => void;
+  defaultRowBackgroundColor?: ColorProps;
+  evenRowBackgroundColor?: ColorProps;
+  headerBackgroundColor?: ColorProps;
+}
+
+const DraggableTable: React.FC<DraggableTableProps> = ({
   columns,
   data,
   defaultColumn,
@@ -196,7 +230,7 @@ const DraggableTable: React.FC<any> = ({
     [records]
   );
 
-  const dropRow = (row: any, index: any) => onDropRow(row, index);
+  const dropRow = (row: Row<{}>, index: number) => onDropRow(row, index);
 
   const {
     getTableProps,
@@ -271,7 +305,7 @@ const DraggableTable: React.FC<any> = ({
           ))}
 
           <div {...lastHeaderGroup.getHeaderGroupProps()}>
-            {lastHeaderGroup.headers.map((column: any) => (
+            {lastHeaderGroup.headers.map((column: HeaderGroup<{}>) => (
               <HiddenTH
                 {...column.getHeaderProps()}
                 style={{
@@ -289,7 +323,7 @@ const DraggableTable: React.FC<any> = ({
             const backgroundColor =
               index % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor;
             return (
-              <Row
+              <MRow
                 index={index}
                 row={row}
                 {...row.getRowProps()}

@@ -82,7 +82,7 @@ const Header = styled.div(({ theme }) => ({
   minHeight: rem(24),
 }));
 
-const IconRefreshStyled = styled(IconRefresh as any)({
+const IconRefreshStyled = styled(IconRefresh)({
   transform: 'rotate(90deg)',
 });
 

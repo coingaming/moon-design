@@ -66,7 +66,7 @@ const Value = styled.div(({ theme }) => ({
 type Props = {
   onChange: (key: string, isActive: boolean) => void;
   activeOptions: string[];
-  formatFn: (props: { value: any; key: string }) => any;
+  formatFn: (props: { value: string | number; key: string }) => any;
   options: {
     label: any;
     dataKey: string;
