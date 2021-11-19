@@ -11,7 +11,7 @@ type GetBarChartDataProps = {
     dataKey: string;
     value: number;
   }[];
-  formatFn: (props: { value: any; key: string }) => any;
+  formatFn: (props: { value: number; key: string }) => any;
   positiveColor: string;
   negativeColor: string;
 };

@@ -32,10 +32,10 @@ type Props = {
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
-  icon?: any;
+  icon?: JSX.Element;
   positiveColor?: ColorProps;
   negativeColor?: ColorProps;
-  formatFn?: (props: { value: any; key: string }) => any;
+  formatFn?: (props: { value: number; key: string }) => any;
   loaderText?: string | React.ReactNode;
 };
 
