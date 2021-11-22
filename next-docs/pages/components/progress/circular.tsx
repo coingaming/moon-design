@@ -7,7 +7,7 @@ import Default from '../../../public/examples/progress/circular/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageProgressLinear() {
-  const examples = useExamples('progress/Circular');
+  const examples = useExamples('progress/circular');
 
   return (
     <>

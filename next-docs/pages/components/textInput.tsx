@@ -2,17 +2,17 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 
-import Xs from '../../public/examples/textinput/Xs';
-import XsTypes from '../../public/examples/textinput/XsTypes';
-import InputS from '../../public/examples/textinput/InputS';
-import InputSTypes from '../../public/examples/textinput/InputSTypes';
-import InputM from '../../public/examples/textinput/InputM';
-import InputMTypes from '../../public/examples/textinput/InputMTypes';
+import Xs from '../../public/examples/textInput/Xs';
+import XsTypes from '../../public/examples/textInput/XsTypes';
+import InputS from '../../public/examples/textInput/InputS';
+import InputSTypes from '../../public/examples/textInput/InputSTypes';
+import InputM from '../../public/examples/textInput/InputM';
+import InputMTypes from '../../public/examples/textInput/InputMTypes';
 
 import useExamples from '../../utils/useExamples';
 
 export default function PageTextInput() {
-  const examples = useExamples('TextInput');
+  const examples = useExamples('textInput');
 
   return (
     <>

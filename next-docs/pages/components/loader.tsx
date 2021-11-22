@@ -8,7 +8,7 @@ import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageLoader() {
-  const examples = useExamples('Loader');
+  const examples = useExamples('loader');
 
   return (
     <>

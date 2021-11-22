@@ -2,18 +2,18 @@ import React from 'react';
 
 import Preview from '../../components/codePreview/Preview';
 
-import SingleLineItem from '../../public/examples/listitem/SingleLineItem';
-import SingleLineItemSize from '../../public/examples/listitem/SingleLineItemSize';
-import SingleLineItemIcon from '../../public/examples/listitem/SingleLineItemIcon';
-import TwoLineItems from '../../public/examples/listitem/TwoLineItems';
-import TwoLineItemsSize from '../../public/examples/listitem/TwoLineItemsSize';
-import TwoLineItemsIcon from '../../public/examples/listitem/TwoLineItemsIcon';
-import TwoLineItemsCheckbox from '../../public/examples/listitem/TwoLineItemsCheckbox';
+import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
+import SingleLineItemSize from '../../public/examples/listItem/SingleLineItemSize';
+import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
+import TwoLineItems from '../../public/examples/listItem/TwoLineItems';
+import TwoLineItemsSize from '../../public/examples/listItem/TwoLineItemsSize';
+import TwoLineItemsIcon from '../../public/examples/listItem/TwoLineItemsIcon';
+import TwoLineItemsCheckbox from '../../public/examples/listItem/TwoLineItemsCheckbox';
 
 import useExamples from '../../utils/useExamples';
 
 export default function PageListItem() {
-  const examples = useExamples('ListItem');
+  const examples = useExamples('listItem');
 
   return (
     <>

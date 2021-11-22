@@ -6,7 +6,7 @@ import Table from '../../components/Table';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
-  const examples = useExamples('Accordion');
+  const examples = useExamples('accordion');
 
   return (
     <>

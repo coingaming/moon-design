@@ -15,7 +15,7 @@ import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageButton() {
-  const examples = useExamples('Button');
+  const examples = useExamples('button');
 
   return (
     <>

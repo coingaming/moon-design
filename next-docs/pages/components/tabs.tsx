@@ -13,7 +13,7 @@ import Table from '../../components/Table';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTabsNew() {
-  const examples = useExamples('Tabs');
+  const examples = useExamples('tabs');
 
   return (
     <>

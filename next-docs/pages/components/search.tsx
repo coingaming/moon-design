@@ -5,7 +5,7 @@ import PreviewSearchLoading from '../../public/examples/search/PreviewSearchLoad
 import useExamples from '../../utils/useExamples';
 
 export default function PageSearch() {
-  const examples = useExamples('Search');
+  const examples = useExamples('search');
 
   return (
     <>

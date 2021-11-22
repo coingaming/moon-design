@@ -5,13 +5,13 @@ import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
 
-import Active from '../../../public/examples/charts/verticalchart/Active';
-import NoData from '../../../public/examples/charts/verticalchart/NoData';
+import Active from '../../../public/examples/charts/verticalChart/Active';
+import NoData from '../../../public/examples/charts/verticalChart/NoData';
 
 import useExamples from '../../../utils/useExamples';
 
 export default function PageVerticalBarChart() {
-  const examples = useExamples('charts/VerticalChart');
+  const examples = useExamples('charts/verticalChart');
 
   return (
     <>

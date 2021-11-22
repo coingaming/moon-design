@@ -9,7 +9,7 @@ import Default from '../../../public/examples/radiobutton/radiobutton-api/Defaul
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
-  const examples = useExamples('RadioButtonApi');
+  const examples = useExamples('radiobutton-api');
 
   return (
     <>
