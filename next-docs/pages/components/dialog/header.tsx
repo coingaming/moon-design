@@ -12,7 +12,7 @@ import Example5 from '../../../public/examples/dialog/header/Example5';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogHeader() {
-  const examples = useExamples('dialog/Header');
+  const examples = useExamples('dialog/header');
 
   return (
     <>

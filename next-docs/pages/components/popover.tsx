@@ -10,7 +10,7 @@ import CodeSnippet from '../../components/CodeSnippet';
 import useExamples from '../../utils/useExamples';
 
 export default function PagePopover() {
-  const examples = useExamples('Popover');
+  const examples = useExamples('popover');
 
   return (
     <>

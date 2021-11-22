@@ -11,7 +11,7 @@ import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {
-  const examples = useExamples('Carousel');
+  const examples = useExamples('carousel');
 
   return (
     <>

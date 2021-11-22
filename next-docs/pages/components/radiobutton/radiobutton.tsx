@@ -13,7 +13,7 @@ import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
-  const examples = useExamples('RadioButton');
+  const examples = useExamples('radiobutton/radiobutton');
 
   return (
     <>

@@ -12,7 +12,7 @@ import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
-  const examples = useExamples('Checkbox');
+  const examples = useExamples('checkbox');
 
   return (
     <>

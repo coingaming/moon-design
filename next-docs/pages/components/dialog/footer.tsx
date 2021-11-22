@@ -10,7 +10,7 @@ import Size from '../../../public/examples/dialog/footer/Size';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogFooter() {
-  const examples = useExamples('dialog/Footer');
+  const examples = useExamples('dialog/footer');
 
   return (
     <>

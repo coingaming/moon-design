@@ -1,12 +1,12 @@
 // @ts-nocheck
 import React from 'react';
 
-import Default from '../../public/examples/datepicker/Default';
+import Default from '../../public/examples/datePicker/Default';
 import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageDatepicker() {
-  const examples = useExamples('DatePicker');
+  const examples = useExamples('datePicker');
 
   return (
     <>

@@ -8,7 +8,7 @@ import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageBadge() {
-  const examples = useExamples('Badge');
+  const examples = useExamples('badge');
 
   return (
     <>

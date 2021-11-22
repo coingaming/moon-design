@@ -8,7 +8,7 @@ import Table from '../../components/Table';
 import useExamples from '../../utils/useExamples';
 
 export default function PagePagination() {
-  const examples = useExamples('Pagination');
+  const examples = useExamples('pagination');
 
   return (
     <>

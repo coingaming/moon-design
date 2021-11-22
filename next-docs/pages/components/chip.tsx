@@ -11,7 +11,7 @@ import Icons from '../../public/examples/chip/Icons';
 import useExamples from '../../utils/useExamples';
 
 export default function PageChip() {
-  const examples = useExamples('Chip');
+  const examples = useExamples('chip');
 
   return (
     <>

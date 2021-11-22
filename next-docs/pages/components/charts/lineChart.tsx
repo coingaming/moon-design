@@ -5,13 +5,13 @@ import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
 
-import Default from '../../../public/examples/charts/linechart/Default';
-import Loading from '../../../public/examples/charts/linechart/Loading';
+import Default from '../../../public/examples/charts/lineChart/Default';
+import Loading from '../../../public/examples/charts/lineChart/Loading';
 
 import useExamples from '../../../utils/useExamples';
 
 export default function PageLineChart() {
-  const examples = useExamples('charts/LineChart');
+  const examples = useExamples('charts/lineChart');
 
   return (
     <>

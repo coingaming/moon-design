@@ -50,7 +50,11 @@ export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   const { component } = req.query;
   const dirRelativeToPublicFolder = 'examples';
 
-  const dirPath = path.resolve('./public', dirRelativeToPublicFolder, component as string);
+  const dirPath = path.resolve(
+    './public',
+    dirRelativeToPublicFolder,
+    component as string
+  );
 
   const examples = await getFilesFromDirectory(dirPath);
   res.status(200).json({ examples });

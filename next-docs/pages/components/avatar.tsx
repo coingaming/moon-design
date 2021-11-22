@@ -11,7 +11,7 @@ import StatusPositions from '../../public/examples/avatar/StatusPositions';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAvatar() {
-  const examples = useExamples('Avatar');
+  const examples = useExamples('avatar');
 
   return (
     <>
