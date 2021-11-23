@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.12.0
+
+### Minor Changes
+
+- Fix examples
+
 ## 7.11.1
 
 ### Patch Changes

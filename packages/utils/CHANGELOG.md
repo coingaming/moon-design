@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.12.0
+
+### Minor Changes
+
+- Fix examples
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.12.0
+
 ## 7.11.1
 
 ### Patch Changes
