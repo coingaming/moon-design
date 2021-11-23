@@ -13,7 +13,7 @@ import MiniMap from '../../../public/examples/table/MiniMap';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTable() {
-  const examples = useExamples('Table');
+  const examples = useExamples('table');
 
   return (
     <>

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Default from '../../../public/examples/dialog/dialogcontent/Default';
+import Default from '../../../public/examples/dialog/dialogContent/Default';
 
 import Preview from '../../../components/codePreview/Preview';
 
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogContent() {
-  const examples = useExamples('dialog/DialogContent');
+  const examples = useExamples('dialog/dialogContent');
 
   return (
     <>

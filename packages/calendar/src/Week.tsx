@@ -5,7 +5,7 @@ import isWeekend from 'date-fns/isWeekend';
 
 import { WeekGrid } from './private/Week/WeekGrid';
 import { WeekDayLabels } from './private/WeekDayLabels';
-import { getWeekDays } from './private/getWeekDays';
+import { getWeekDays, WeekStartsOn } from './private/getWeekDays';
 import { WeekDay } from './private/Week/WeekDay';
 import { getDayNumberLabel } from './private/getDayNumberLabel';
 import { getDayNumberColor } from './private/getDayNumberColor';
@@ -13,7 +13,7 @@ import { DayNumber } from './private/DayNumber';
 
 type Props = {
   config?: {
-    weekStartsOn?: number;
+    weekStartsOn?: WeekStartsOn;
     locale?: Locale;
   };
   cursorDate: Date;
@@ -34,7 +34,7 @@ const Week: React.FC<Props> = ({
   isWeekendMinimized = false,
 }) => {
   const conf = {
-    weekStartsOn: 1 as any,
+    weekStartsOn: 1 as WeekStartsOn,
     locale: enGB,
     ...config,
   };

@@ -2,6 +2,7 @@
 import React from 'react';
 
 import { DateRangePicker } from '@heathmont/moon-components';
+import { rem } from '@heathmont/moon-utils';
 
 const Example = () => {
   const [initialStartDate, setStartDate] = React.useState(
@@ -12,7 +13,7 @@ const Example = () => {
   );
 
   return (
-    <div className="h-96 w-full">
+    <div style={{height: rem(400), width: "100%"}}>
       <DateRangePicker
         isOpenByDefault={true}
         startDate={initialStartDate}

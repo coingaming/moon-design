@@ -20,7 +20,7 @@ import Slot from '../../../public/examples/select/singleSelect/Slot';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelectSingle() {
-  const examples = useExamples('select/SingleSelect');
+  const examples = useExamples('select/singleSelect');
 
   return (
     <>

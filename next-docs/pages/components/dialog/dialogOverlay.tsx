@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Default from '../../../public/examples/dialog/dialogoverlay/Default';
+import Default from '../../../public/examples/dialog/dialogOverlay/Default';
 
 import Preview from '../../../components/codePreview/Preview';
 
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogOverlay() {
-  const examples = useExamples('dialog/DialogOverlay');
+  const examples = useExamples('dialog/dialogOverlay');
 
   return (
     <>

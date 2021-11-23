@@ -14,7 +14,7 @@ import NoBackground from '../../../public/examples/dialog/dialog/NoBackground';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialog() {
-  const examples = useExamples('dialog/Dialog');
+  const examples = useExamples('dialog/dialog');
 
   return (
     <>

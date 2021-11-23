@@ -10,7 +10,7 @@ import SizesList from '../../public/examples/label/SizesList';
 import useExamples from '../../utils/useExamples';
 
 export default function PageLabel() {
-  const examples = useExamples('Label');
+  const examples = useExamples('label');
 
   return (
     <>

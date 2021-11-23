@@ -7,13 +7,13 @@ import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
 
-import Default from '../../../public/examples/charts/piechart/Default';
-import Loading from '../../../public/examples/charts/piechart/Loading';
+import Default from '../../../public/examples/charts/pieChart/Default';
+import Loading from '../../../public/examples/charts/pieChart/Loading';
 
 import useExamples from '../../../utils/useExamples';
 
 export default function PageLineChart() {
-  const examples = useExamples('charts/PieChart');
+  const examples = useExamples('charts/pieChart');
 
   return (
     <>

@@ -9,7 +9,7 @@ import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageSwitch() {
-  const examples = useExamples('Switch');
+  const examples = useExamples('switch');
 
   return (
     <>

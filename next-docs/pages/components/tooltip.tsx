@@ -7,7 +7,7 @@ import Default from '../../public/examples/tooltip/Default';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {
-  const examples = useExamples('Tooltip');
+  const examples = useExamples('tooltip');
 
   return (
     <>

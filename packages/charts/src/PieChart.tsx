@@ -78,7 +78,7 @@ const PieChart: React.FC<Props> = ({
     [data.length]
   );
 
-  const onMouseEnter = (event: any) => {
+  const onMouseEnter = (event: React.MouseEvent & { 'data-index': number }) => {
     setActiveIndex(event['data-index']);
   };
 

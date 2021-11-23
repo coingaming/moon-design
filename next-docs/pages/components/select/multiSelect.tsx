@@ -4,14 +4,14 @@ import Table from '../../../components/Table';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 
-import Default from '../../../public/examples/select/multiselect/Default';
-import Disabled from '../../../public/examples/select/multiselect/Disabled';
-import Error from '../../../public/examples/select/multiselect/Error';
+import Default from '../../../public/examples/select/multiSelect/Default';
+import Disabled from '../../../public/examples/select/multiSelect/Disabled';
+import Error from '../../../public/examples/select/multiSelect/Error';
 
 import useExamples from '../../../utils/useExamples';
 
 export default function PageMultiSelect() {
-  const examples = useExamples('select/MultiSelect');
+  const examples = useExamples('select/multiSelect');
 
   return (
     <>
