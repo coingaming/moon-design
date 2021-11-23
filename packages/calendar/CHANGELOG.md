@@ -1,5 +1,15 @@
 # Change Log
 
+## 7.12.1
+
+### Patch Changes
+
+- Fix dialog
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.12.1
+  - @heathmont/moon-themes@7.12.1
+  - @heathmont/moon-utils@7.12.1
+
 ## 7.12.0
 
 ### Minor Changes
