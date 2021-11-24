@@ -1,5 +1,30 @@
 # Change Log
 
+## 7.13.0
+
+### Minor Changes
+
+- Carousel selected item prop
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.13.0
+  - @heathmont/moon-icons@7.13.0
+  - @heathmont/moon-themes@7.13.0
+  - @heathmont/moon-utils@7.13.0
+
+## 7.12.1
+
+### Patch Changes
+
+- Fix dialog
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.12.1
+  - @heathmont/moon-icons@7.12.1
+  - @heathmont/moon-themes@7.12.1
+  - @heathmont/moon-utils@7.12.1
+
 ## 7.12.0
 
 ### Minor Changes
