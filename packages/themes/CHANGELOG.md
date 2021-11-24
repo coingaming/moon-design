@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.13.0
+
+### Minor Changes
+
+- Carousel selected item prop
+
 ## 7.12.1
 
 ### Patch Changes
