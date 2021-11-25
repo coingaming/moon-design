@@ -36,6 +36,10 @@ const lightColors = {
   trunks: {
     100: '#63717B',
   },
+  whis: {
+    100: '#1DA1F2',
+    10: '#19A9E2',
+  },
 };
 
 const betaddaLight: Theme = {
