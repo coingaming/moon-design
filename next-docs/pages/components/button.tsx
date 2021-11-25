@@ -9,7 +9,6 @@ import Animations from '../../public/examples/button/Animations';
 import Icons from '../../public/examples/button/Icons';
 import IsIcon from '../../public/examples/button/IsIcon';
 import FullWidth from '../../public/examples/button/FullWidth';
-import Disabled from '../../public/examples/button/Disabled';
 
 import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
@@ -106,15 +105,6 @@ export default function PageButton() {
           title="Full width"
           preview={<FullWidth />}
           code={examples ? examples.FullWidth : 'Loading'}
-        />
-      </section>
-
-      {/* Disabled */}
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
     </>
