@@ -1,5 +1,16 @@
 # Change Log
 
+## 7.15.0
+
+### Minor Changes
+
+- Feat Sorting Table initial
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.15.0
+
 ## 7.14.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.15.0
+
+### Minor Changes
+
+- Feat Sorting Table initial
+
 ## 7.14.0
 
 ### Minor Changes

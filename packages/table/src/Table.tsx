@@ -82,8 +82,8 @@ const Table: React.FC<TableProps> = ({
     variant === 'calendar' ? useRowSpan : undefined,
     useResizeColumns,
     isSticky ? useSticky : undefined,
-    useExpanded,
     isSorting ? useSortBy : undefined,
+    useExpanded,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
@@ -123,7 +123,7 @@ const Table: React.FC<TableProps> = ({
       {...getTableProps()}
       ref={tableRef}
       onScroll={handleScroll}
-      className={isSticky ? "sticky" : undefined}
+      className={isSticky ? 'sticky' : undefined}
       isScrolledToLeft={scrollState.scrolledToLeft}
       isScrolledToRight={scrollState.scrolledToRight}
       style={{
@@ -140,18 +140,35 @@ const Table: React.FC<TableProps> = ({
       <Header>
         {headerGroups.map((headerGroup) => (
           <HeaderTR {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column: any) => (
-              <TH
-                {...column.getHeaderProps()}
-                headerBackgroundColor={headerBackgroundColor}
-              >
-                {column.render('Header')}
-                <div
-                  {...column.getResizerProps()}
-                  className={`resizer ${column.isResizing ? 'isResizing' : ''}`}
-                />
-              </TH>
-            ))}
+            {headerGroup.headers.map((column: any) =>
+              isSorting ? (
+                <TH
+                  {...column.getHeaderProps(column.getSortByToggleProps())}
+                  headerBackgroundColor={headerBackgroundColor}
+                >
+                  {column.render('Header')}
+                  <div
+                    {...column.getResizerProps()}
+                    className={`resizer ${
+                      column.isResizing ? 'isResizing' : ''
+                    }`}
+                  />
+                </TH>
+              ) : (
+                <TH
+                  {...column.getHeaderProps()}
+                  headerBackgroundColor={headerBackgroundColor}
+                >
+                  {column.render('Header')}
+                  <div
+                    {...column.getResizerProps()}
+                    className={`resizer ${
+                      column.isResizing ? 'isResizing' : ''
+                    }`}
+                  />
+                </TH>
+              )
+            )}
           </HeaderTR>
         ))}
         <HiddenTR lastHeaderGroup={lastHeaderGroup} />
