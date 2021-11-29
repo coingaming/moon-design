@@ -1,5 +1,27 @@
 # Change Log
 
+## 7.15.0
+
+### Minor Changes
+
+- Feat Sorting Table initial
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.15.0
+  - @heathmont/moon-assets@7.15.0
+  - @heathmont/moon-charts@7.15.0
+  - @heathmont/moon-components@7.15.0
+  - @heathmont/moon-core@7.15.0
+  - @heathmont/moon-draggabletable@7.15.0
+  - @heathmont/moon-icons@7.15.0
+  - @heathmont/moon-pagination@7.15.0
+  - @heathmont/moon-popover@7.15.0
+  - @heathmont/moon-table@7.15.0
+  - @heathmont/moon-themes@7.15.0
+  - @heathmont/moon-utils@7.15.0
+
 ## 7.14.0
 
 ### Minor Changes
