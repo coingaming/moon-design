@@ -82,8 +82,8 @@ const Table: React.FC<TableProps> = ({
     variant === 'calendar' ? useRowSpan : undefined,
     useResizeColumns,
     isSticky ? useSticky : undefined,
-    useExpanded,
     isSorting ? useSortBy : undefined,
+    useExpanded,
   ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
