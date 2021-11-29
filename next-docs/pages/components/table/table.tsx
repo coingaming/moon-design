@@ -4,6 +4,7 @@ import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/Table';
 
 import Default from '../../../public/examples/table/Default';
+import Sorting from '../../../public/examples/table/Sorting';
 import ExpandedRow from '../../../public/examples/table/ExpandedRow';
 import DeepTable from '../../../public/examples/table/DeepTable';
 import CustomContent from '../../../public/examples/table/CustomContent';
@@ -55,6 +56,19 @@ export default function PageTable() {
             </div>
           }
           code={examples ? examples.ExpandedRow : 'Loading'}
+        />
+      </section>
+
+       {/* Sorting */}
+       <section className="mt-8">
+        <Preview
+          title="With Sorting"
+          preview={
+            <div className="flex justify-around items-center w-full">
+              <Sorting />
+            </div>
+          }
+          code={examples ? examples.Sorting : 'Loading'}
         />
       </section>
 
