@@ -1,11 +1,8 @@
 import { supportColors } from '@heathmont/moon-themes';
-import { CSSObject } from 'styled-components';
 
 const { krillin, cell, dodoria, whis, raditz, nappa, frieza } = supportColors;
 
-export const GroupIconSportsColor: {
-  [key: string]: CSSObject['color'] | undefined;
-} = {
+export const GroupIconSportsColor: { [key: string]: any } = {
   rugby: krillin[100],
   horseRacing: cell[100],
   americanFootBall: krillin[100],
