@@ -69,6 +69,20 @@ export default function PagePopover() {
               default: '-',
               description: 'Placement of popover.',
             },
+            {
+              name: 'minWidth',
+              type: 'number',
+              required: false,
+              default: '300',
+              description: 'min-width value of popover (px)',
+            },
+            {
+              name: 'maxWidth',
+              type: 'number',
+              required: false,
+              default: '600',
+              description: 'max-width value of popover (px)',
+            },
           ]}
         />
       </section>
