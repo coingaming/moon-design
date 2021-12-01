@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import React from 'react';
 import renderer, { act } from 'react-test-renderer';
 import Accordion from '../Accordion';
@@ -17,7 +21,7 @@ describe('Accordion', () => {
 
   it('expands', () => {
     act(() => {
-      const button = testInstance.findByType('button')
+      const button = testInstance.findByType('button');
       button.props.onClick();
     });
 
