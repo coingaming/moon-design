@@ -97,20 +97,18 @@ importers:
   next-docs:
     specifiers:
       '@headlessui/react': 1.2.0
-      '@heathmont/moon-accordion': workspace:^7.15.0
-      '@heathmont/moon-assets': workspace:^7.15.0
-      '@heathmont/moon-charts': workspace:^7.15.0
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-core': workspace:^7.15.0
-      '@heathmont/moon-draggabletable': workspace:^7.15.0
-      '@heathmont/moon-icons': workspace:^7.15.0
-      '@heathmont/moon-pagination': workspace:^7.15.0
-      '@heathmont/moon-popover': workspace:^7.15.0
-      '@heathmont/moon-table': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
-      '@testing-library/jest-dom': ^5.15.1
-      '@testing-library/react': ^12.1.2
+      '@heathmont/moon-accordion': workspace:^7.15.1
+      '@heathmont/moon-assets': workspace:^7.15.1
+      '@heathmont/moon-charts': workspace:^7.15.1
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-core': workspace:^7.15.1
+      '@heathmont/moon-draggabletable': workspace:^7.15.1
+      '@heathmont/moon-icons': workspace:^7.15.1
+      '@heathmont/moon-pagination': workspace:^7.15.1
+      '@heathmont/moon-popover': workspace:^7.15.1
+      '@heathmont/moon-table': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/react': 16.9.9
       '@types/styled-components': 5.1.7
       autoprefixer: 10.2.5
@@ -144,8 +142,6 @@ importers:
       '@heathmont/moon-table': link:../packages/table
       '@heathmont/moon-themes': link:../packages/themes
       '@heathmont/moon-utils': link:../packages/utils
-      '@testing-library/jest-dom': 5.15.1
-      '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
       '@types/react': 16.9.9
       '@types/styled-components': 5.1.7
       autoprefixer: 10.2.5_postcss@8.3.0
@@ -168,10 +164,10 @@ importers:
 
   packages/accordion:
     specifiers:
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-icons': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-icons': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-icons': link:../icons
@@ -180,17 +176,17 @@ importers:
 
   packages/assets:
     specifiers:
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/calendar:
     specifiers:
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
     dependencies:
@@ -202,10 +198,10 @@ importers:
 
   packages/charts:
     specifiers:
-      '@heathmont/moon-assets': workspace:^7.15.0
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-assets': workspace:^7.15.1
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/react-simple-maps': 1.0.3
       '@types/react-transition-group': 4.4.0
       react-simple-maps: 2.3.0
@@ -226,9 +222,9 @@ importers:
 
   packages/components:
     specifiers:
-      '@heathmont/moon-assets': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-assets': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@reach/dialog': 0.16.2
       '@types/date-fns': 2.6.0
       '@types/react-click-outside-hook': 1.0.0
@@ -253,10 +249,10 @@ importers:
 
   packages/core:
     specifiers:
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-icons': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-icons': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@reach/listbox': 0.16.2
       polished: ^4.1.3
     dependencies:
@@ -269,10 +265,10 @@ importers:
 
   packages/draggabletable:
     specifiers:
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-table': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-table': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/react-table': 7.7.6
       immutability-helper: ^3.1.1
       polished: 4.0.1
@@ -300,16 +296,16 @@ importers:
 
   packages/global:
     specifiers:
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/icons:
     specifiers:
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/node': ^13.13.52
       '@types/ramda': ^0.26.44
       '@types/rimraf': ^2.0.5
@@ -339,18 +335,18 @@ importers:
 
   packages/notifications:
     specifiers:
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/pagination:
     specifiers:
-      '@heathmont/moon-assets': workspace:^7.15.0
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-assets': workspace:^7.15.1
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/react-paginate': 6.2.1
       react-paginate: 6.5.0
     dependencies:
@@ -363,10 +359,10 @@ importers:
 
   packages/popover:
     specifiers:
-      '@heathmont/moon-assets': workspace:^7.15.0
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-assets': workspace:^7.15.1
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@tippyjs/react': 4.2.0
       polished: 3.4.1
     dependencies:
@@ -379,17 +375,17 @@ importers:
 
   packages/sidebar:
     specifiers:
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/table:
     specifiers:
-      '@heathmont/moon-components': workspace:^7.15.0
-      '@heathmont/moon-themes': workspace:^7.15.0
-      '@heathmont/moon-utils': workspace:^7.15.0
+      '@heathmont/moon-components': workspace:^7.15.1
+      '@heathmont/moon-themes': workspace:^7.15.1
+      '@heathmont/moon-utils': workspace:^7.15.1
       '@types/react-table': 7.7.6
       polished: 4.0.1
       react-table: 7.5.1
@@ -410,7 +406,7 @@ importers:
 
   packages/utils:
     specifiers:
-      '@heathmont/moon-themes': workspace:^7.15.0
+      '@heathmont/moon-themes': workspace:^7.15.1
       '@types/lodash.get': 4.4.6
       '@types/lodash.has': 4.5.6
       lodash.get: 4.4.2
@@ -1338,14 +1334,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/runtime-corejs3/7.16.3:
-    resolution: {integrity: sha512-IAdDC7T0+wEB4y2gbIL0uOXEYpiZEeuFUTVbdGq+UwCcF35T/tS8KrmMomEwEc5wBbyfH3PJVpTSUqrhPDXFcQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      core-js-pure: 3.19.2
-      regenerator-runtime: 0.13.9
-    dev: false
-
   /@babel/runtime/7.15.3:
     resolution: {integrity: sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==}
     engines: {node: '>=6.9.0'}
@@ -1923,6 +1911,7 @@ packages:
       '@types/node': 16.9.1
       '@types/yargs': 16.0.4
       chalk: 4.1.2
+    dev: true
 
   /@lerna/add/3.16.2:
     resolution: {integrity: sha512-RAAaF8aODPogj2Ge9Wj3uxPFIBGpog9M+HwSuq03ZnkkO831AmasCTJDqV+GEpl1U2DvnhZQEwHpWmTT0uUeEw==}
@@ -3145,48 +3134,6 @@ packages:
       svgo: 1.3.2
     dev: true
 
-  /@testing-library/dom/8.11.1:
-    resolution: {integrity: sha512-3KQDyx9r0RKYailW2MiYrSSKEfH0GTkI51UGEvJenvcoDoeRYs0PZpi2SXqtnMClQvCqdtTTpOfFETDTVADpAg==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@babel/code-frame': 7.14.5
-      '@babel/runtime': 7.15.4
-      '@types/aria-query': 4.2.2
-      aria-query: 5.0.0
-      chalk: 4.1.2
-      dom-accessibility-api: 0.5.10
-      lz-string: 1.4.4
-      pretty-format: 27.2.0
-    dev: false
-
-  /@testing-library/jest-dom/5.15.1:
-    resolution: {integrity: sha512-kmj8opVDRE1E4GXyLlESsQthCXK7An28dFWxhiMwD7ZUI7ZxA6sjdJRxLerD9Jd8cHX4BDc1jzXaaZKqzlUkvg==}
-    engines: {node: '>=8', npm: '>=6', yarn: '>=1'}
-    dependencies:
-      '@babel/runtime': 7.15.4
-      '@types/testing-library__jest-dom': 5.14.1
-      aria-query: 4.2.2
-      chalk: 3.0.0
-      css: 3.0.0
-      css.escape: 1.5.1
-      dom-accessibility-api: 0.5.10
-      lodash: 4.17.21
-      redent: 3.0.0
-    dev: false
-
-  /@testing-library/react/12.1.2_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-ihQiEOklNyHIpo2Y8FREkyD1QAea054U0MVbwH1m8N9TxeFz+KoJ9LkqoKqJlzx2JDm56DVwaJ1r36JYxZM05g==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      react: '*'
-      react-dom: '*'
-    dependencies:
-      '@babel/runtime': 7.15.4
-      '@testing-library/dom': 8.11.1
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    dev: false
-
   /@tippyjs/react/4.2.0_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-T6UcHtwtGkvgsBQ4bNp8BtXGxa2ujfOkWUogYkRtN4UVJ2QRgDdFoJeaPxdndnVYFEa2uTVxSFxs8QkSkZ2Gdw==}
     peerDependencies:
@@ -3196,10 +3143,6 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tippy.js: 6.3.1
-    dev: false
-
-  /@types/aria-query/4.2.2:
-    resolution: {integrity: sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==}
     dev: false
 
   /@types/babel__core/7.1.16:
@@ -3295,17 +3238,20 @@ packages:
     resolution: {integrity: sha512-c3mAZEuK0lvBp8tmuL74XRKn1+y2dcwOUpH7x4WrF6gk1GIgiluDRgMYQtw2OFcBvAJWlt6ASU3tSqxp0Uu0Aw==}
     dependencies:
       '@types/istanbul-lib-report': 3.0.0
+    dev: true
 
   /@types/jest-diff/24.3.0:
     resolution: {integrity: sha512-vx1CRDeDUwQ0Pc7v+hS61O1ETA81kD04IMEC0hS1kPyVtHDdZrokAvpF7MT9VI/fVSzicelUZNCepDvhRV1PeA==}
     deprecated: This is a stub types definition. jest-diff provides its own type definitions, so you do not need this installed.
     dependencies:
       jest-diff: 27.2.0
+    dev: true
 
   /@types/jest/24.0.11:
     resolution: {integrity: sha512-2kLuPC5FDnWIDvaJBzsGTBQaBbnDweznicvK7UGYzlIJP4RJR2a4A/ByLUXEyEgag6jz8eHdlWExGDtH3EYUXQ==}
     dependencies:
       '@types/jest-diff': 24.3.0
+    dev: true
 
   /@types/js-cookie/2.2.6:
     resolution: {integrity: sha512-+oY0FDTO2GYKEV0YPvSshGq9t7YozVkgvXLty7zogQNuCxBhT9/3INX9Q7H1aRZ4SUDRXAKlJuA4EA5nTt7SNw==}
@@ -3457,12 +3403,6 @@ packages:
       '@types/react': 16.9.9
       csstype: 3.0.9
 
-  /@types/testing-library__jest-dom/5.14.1:
-    resolution: {integrity: sha512-Gk9vaXfbzc5zCXI9eYE9BI5BNHEp4D3FWjgqBE/ePGYElLAP+KvxBcsdkwfIVvezs605oiyd/VrpiHe3Oeg+Aw==}
-    dependencies:
-      '@types/jest': 24.0.11
-    dev: false
-
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
@@ -3494,6 +3434,7 @@ packages:
     resolution: {integrity: sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==}
     dependencies:
       '@types/yargs-parser': 20.2.1
+    dev: true
 
   /@typescript-eslint/eslint-plugin/4.14.0_980e7d90d2d08155204a38366bd3b934:
     resolution: {integrity: sha512-IJ5e2W7uFNfg4qh9eHkHRUCbgZ8VKtGwD07kannJvM5t/GU8P8+24NX8gi3Hf5jST5oWPY8kyV1s/WtfiZ4+Ww==}
@@ -3782,6 +3723,7 @@ packages:
   /ansi-styles/5.2.0:
     resolution: {integrity: sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==}
     engines: {node: '>=10'}
+    dev: true
 
   /any-observable/0.3.0:
     resolution: {integrity: sha512-/FQM1EDkTsf63Ub2C6O7GuYFDsSXUwsaZDurV0np41ocwq0jthUAYCmhBX9f+KwlaCgIuWyr/4WlUQUBfKfZog==}
@@ -3840,19 +3782,6 @@ packages:
       ast-types-flow: 0.0.7
       commander: 2.20.3
     dev: true
-
-  /aria-query/4.2.2:
-    resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
-    engines: {node: '>=6.0'}
-    dependencies:
-      '@babel/runtime': 7.15.4
-      '@babel/runtime-corejs3': 7.16.3
-    dev: false
-
-  /aria-query/5.0.0:
-    resolution: {integrity: sha512-V+SM7AbUwJ+EBnB8+DXs0hPZHO0W6pqBcc0dW90OwtVG02PswOu/teuARoLQjdDOH+t9pJgGnW5/Qmouf3gPJg==}
-    engines: {node: '>=6.0'}
-    dev: false
 
   /arr-diff/4.0.0:
     resolution: {integrity: sha1-1kYQdP6/7HHn4VI1dhoyml3HxSA=}
@@ -4569,6 +4498,7 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
 
   /chalk/4.0.0:
     resolution: {integrity: sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==}
@@ -5072,11 +5002,6 @@ packages:
       semver: 7.0.0
     dev: true
 
-  /core-js-pure/3.19.2:
-    resolution: {integrity: sha512-5LkcgQEy8pFeVnd/zomkUBSwnmIxuF1C8E9KrMAbOc8f34IBT9RGvTYeNDdp1PnvMJrrVhvk1hg/yVV5h/znlg==}
-    requiresBuild: true
-    dev: false
-
   /core-util-is/1.0.2:
     resolution: {integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=}
 
@@ -5247,14 +5172,6 @@ packages:
       source-map-resolve: 0.5.3
       urix: 0.1.0
     dev: true
-
-  /css/3.0.0:
-    resolution: {integrity: sha512-DG9pFfwOrzc+hawpmqX/dHYHJG+Bsdb0klhyi1sDneOgGOXy9wQIC8hzyVp1e4NRYDBdxcylvywPkkXCHAzTyQ==}
-    dependencies:
-      inherits: 2.0.4
-      source-map: 0.6.1
-      source-map-resolve: 0.6.0
-    dev: false
 
   /cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
@@ -5717,6 +5634,7 @@ packages:
   /diff-sequences/27.0.6:
     resolution: {integrity: sha512-ag6wfpBFyNXZ0p8pcuIDS//D8H062ZQJ3fzYxjpmeKjnz8W4pekL3AI8VohmyZmsWW2PWaHgjsmqR6L13101VQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
+    dev: true
 
   /diff/4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
@@ -5770,10 +5688,6 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
-
-  /dom-accessibility-api/0.5.10:
-    resolution: {integrity: sha512-Xu9mD0UjrJisTmv7lmVSDMagQcU9R5hwAbxsaAE/35XPnPLJobbuREfV/rraiSaEj/UOvgrzQs66zyTWTlyd+g==}
-    dev: false
 
   /dom-helpers/3.4.0:
     resolution: {integrity: sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==}
@@ -7434,6 +7348,7 @@ packages:
   /indent-string/4.0.0:
     resolution: {integrity: sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==}
     engines: {node: '>=8'}
+    dev: true
 
   /infer-owner/1.0.4:
     resolution: {integrity: sha512-IClj+Xz94+d7irH5qRyfJonOdfTzuDaifE6ZPWfx0N0+/ATZCbuTPq2prFl526urkQd90WyUKIh1DfBQ2hMz9A==}
@@ -8026,6 +7941,7 @@ packages:
       diff-sequences: 27.0.6
       jest-get-type: 27.0.6
       pretty-format: 27.2.0
+    dev: true
 
   /jest-docblock/24.9.0:
     resolution: {integrity: sha512-F1DjdpDMJMA1cN6He0FNYNZlo3yYmOtRUnktrT9Q37njYzC5WEaDdmbynIgy0L/IvXvvgsG8OsqhLPXTpfmZAA==}
@@ -8075,6 +7991,7 @@ packages:
   /jest-get-type/27.0.6:
     resolution: {integrity: sha512-XTkK5exIeUbbveehcSR8w0bhH+c0yloW/Wpl+9vZrjzztCPWrxhHwkIFpZzCt71oRBsgxmuUfxEqOYoZI2macg==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
+    dev: true
 
   /jest-haste-map/24.9.0:
     resolution: {integrity: sha512-kfVFmsuWui2Sj1Rp1AJ4D9HqJwE4uwTlS/vO+eRUaMmd54BFpli2XhMQnPC2k4cHFVbB2Q2C+jtI1AGLgEnCjQ==}
@@ -8860,11 +8777,6 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lz-string/1.4.4:
-    resolution: {integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=}
-    hasBin: true
-    dev: false
-
   /macos-release/2.5.0:
     resolution: {integrity: sha512-EIgv+QZ9r+814gjJj0Bt5vSLJLzswGmSUbUpbi9AIr/fsN2IWFBl2NucV9PAiek+U1STK468tEkxmVYUtuAN3g==}
     engines: {node: '>=6'}
@@ -9113,6 +9025,7 @@ packages:
   /min-indent/1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
+    dev: true
 
   /minimalistic-assert/1.0.1:
     resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
@@ -10378,6 +10291,7 @@ packages:
       ansi-regex: 5.0.1
       ansi-styles: 5.2.0
       react-is: 17.0.2
+    dev: true
 
   /pretty-hrtime/1.0.3:
     resolution: {integrity: sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=}
@@ -11147,6 +11061,7 @@ packages:
     dependencies:
       indent-string: 4.0.0
       strip-indent: 3.0.0
+    dev: true
 
   /reduce-css-calc/2.1.8:
     resolution: {integrity: sha512-8liAVezDmUcH+tdzoEGrhfbGcP7nOV4NkGE3a74+qqvE7nt9i4sKLGBuZNOnpI4WiGksiNPklZxva80061QiPg==}
@@ -11753,13 +11668,6 @@ packages:
       source-map-url: 0.4.1
       urix: 0.1.0
 
-  /source-map-resolve/0.6.0:
-    resolution: {integrity: sha512-KXBr9d/fO/bWo97NXsPIAW1bFSBOuCnjbNTBMO7N59hsv5i9yzRDfcYwwt0l04+VqnKC+EwzvJZIP/qkuMgR/w==}
-    dependencies:
-      atob: 2.1.2
-      decode-uri-component: 0.2.0
-    dev: false
-
   /source-map-support/0.5.20:
     resolution: {integrity: sha512-n1lZZ8Ve4ksRqizaBQgxXDgKwttHDhyfQjA6YZZn8+AroHbsIz+JjwxQDxbp+7y5OYCI8t1Yk7etjD9CRd2hIw==}
     dependencies:
@@ -12157,6 +12065,7 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       min-indent: 1.0.1
+    dev: true
 
   /strip-json-comments/2.0.1:
     resolution: {integrity: sha1-PFMZQukIwml8DsNEhYwobHygpgo=}
