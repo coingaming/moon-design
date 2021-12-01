@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 80"
+    "start": "next start -p 80",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
   },
   "dependencies": {
     "@headlessui/react": "1.2.0",
@@ -21,16 +23,21 @@
     "@heathmont/moon-table": "workspace:^7.15.1",
     "@heathmont/moon-themes": "workspace:^7.15.1",
     "@heathmont/moon-utils": "workspace:^7.15.1",
+    "@testing-library/jest-dom": "^5.15.1",
     "@types/react": "16.9.9",
     "@types/styled-components": "5.1.7",
     "autoprefixer": "10.2.5",
+    "babel-jest": "24.3.1",
     "framer-motion": "4.1.17",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "24.3.1",
     "lodash": "^4.17.21",
     "next": "11.1.2",
     "next-transpile-modules": "8.0.0",
     "postcss": "8.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-test-renderer": "^17.0.2",
     "styled-components": "5.2.1",
     "swiper": "6.7.5",
     "swr": "^1.0.1",
