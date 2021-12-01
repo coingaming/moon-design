@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.15.1
+
+### Patch Changes
+
+- Revert assets ts fixes & Popover min & max width
+
 ## 7.15.0
 
 ### Minor Changes

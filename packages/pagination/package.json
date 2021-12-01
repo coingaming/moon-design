@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-pagination",
   "sideEffects": false,
-  "version": "7.15.0",
+  "version": "7.15.1",
   "files": [
     "lib"
   ],
@@ -21,10 +21,10 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-assets": "workspace:^7.15.0",
-    "@heathmont/moon-components": "workspace:^7.15.0",
-    "@heathmont/moon-themes": "workspace:^7.15.0",
-    "@heathmont/moon-utils": "workspace:^7.15.0",
+    "@heathmont/moon-assets": "workspace:^7.15.1",
+    "@heathmont/moon-components": "workspace:^7.15.1",
+    "@heathmont/moon-themes": "workspace:^7.15.1",
+    "@heathmont/moon-utils": "workspace:^7.15.1",
     "@types/react-paginate": "6.2.1",
     "react-paginate": "6.5.0"
   },

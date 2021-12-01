@@ -1,5 +1,15 @@
 # Change Log
 
+## 7.15.1
+
+### Patch Changes
+
+- Revert assets ts fixes & Popover min & max width
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.15.1
+  - @heathmont/moon-components@7.15.1
+  - @heathmont/moon-utils@7.15.1
+
 ## 7.15.0
 
 ### Minor Changes
