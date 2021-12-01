@@ -6,12 +6,14 @@ import { ColorNames } from '@heathmont/moon-themes';
 interface PopoverContainerProps {
   padding?: number;
   backgroundColor?: ColorNames;
+  minWidth?: number;
+  maxWidth?: number;
 }
 
 export const PopoverContainer = styled.div<PopoverContainerProps>(
-  ({ theme: { color, radius, shadows }, padding, backgroundColor, theme }) => ({
-    maxWidth: rem(600),
-    minWidth: rem(300),
+  ({ theme: { color, radius, shadows }, padding, backgroundColor, theme, minWidth, maxWidth}) => ({
+    maxWidth: rem(maxWidth),
+    minWidth: rem(minWidth),
     padding: `${padding !== undefined ? rem(padding) : rem(24)}`,
     background: `${
       backgroundColor !== undefined
