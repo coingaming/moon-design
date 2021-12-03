@@ -27,4 +27,13 @@ describe('Accordion', () => {
 
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+
+  it('collapses', () => {
+    act(() => {
+      const button = testInstance.findByType('button');
+      button.props.onClick();
+    });
+
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
