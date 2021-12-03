@@ -103,6 +103,14 @@ jobs:
           at: ./
       - run: pnpm run lint
 
+  test:
+    <<: *default
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run: pnpm run next test:ci
+
   build:
     <<: *default
     steps:
@@ -187,6 +195,11 @@ workflows:
           context: global
           requires:
             - dependencies
+      - test:
+          context: global
+          requires:
+            - dependencies
+            - build
       - lint:
           context: global
           requires:
@@ -219,6 +232,17 @@ workflows:
             - dependencies
 
       - lint:
+          context: global
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - dependencies
+            - build
+
+      - test:
           context: global
           filters:
             branches:
