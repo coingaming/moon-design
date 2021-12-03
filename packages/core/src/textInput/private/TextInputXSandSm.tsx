@@ -1,15 +1,16 @@
 import React from 'react';
-import TextInputTypes from './TextInputTypes';
+import TextInputTypes from './types/TextInputTypes';
 import Input from './Input';
 import HintText from './HintText';
 import Container from '../styles/Container';
 import Label from '../styles/Label';
 import { ColorProps } from '@heathmont/moon-themes';
+import TextInputSizeType from './types/SizeTypes';
 
 interface TextInputXSandSmProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: 'xsmall' | 'small' | 'medium';
+  inputSize: TextInputSizeType;
   label?: JSX.Element | string;
   type: TextInputTypes;
   placeholder?: string;
@@ -51,11 +52,11 @@ const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
         </Label>
       )}
       <Input
-        backgroundColor={backgroundColor}
         inputSize={inputSize}
         error={isError}
         ref={ref}
         id={id}
+        bgColor={backgroundColor}
         {...inputProps}
       />
       {hintText && <HintText isError={isError}>{hintText}</HintText>}

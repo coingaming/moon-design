@@ -51,6 +51,17 @@ const Example = () => (
         isError
       />
     </div>
+
+    <div className="flex gap-4 mb-4 items-end">
+      <TextInput
+        type="text"
+        inputSize="xsmall"
+        label="Input with background color"
+        placeholder="Placeholder"
+        hintText="Informative message holder"
+        backgroundColor="goku.10"
+      />
+    </div>
   </div>
 );
 

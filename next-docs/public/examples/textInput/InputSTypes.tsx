@@ -45,7 +45,7 @@ const Example = () => (
       placeholder="e.g. +372 123 4567"
     />
 
-    <TextInput type="time" inputSize="xsmall" label="Time" />
+    <TextInput type="time" inputSize="small" label="Time" />
 
     <TextInput
       type="url"

@@ -1,11 +1,13 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
+import { ColorProps } from '@heathmont/moon-themes';
 
-const Inner = styled.div(({ theme: { radius } }) => ({
+const Inner = styled.div<{ bgColor?: ColorProps }>(({ theme, bgColor }) => ({
   width: '100%',
   maxWidth: '100%',
   position: 'relative',
-  borderRadius: rem(radius.largest),
+  borderRadius: rem(theme.radius.largest),
+  backgroundColor: !bgColor ? 'transparent' : themed('color', bgColor)(theme),
 }));
 
 export default Inner;
