@@ -34,8 +34,15 @@ const getFilesFromDirectory = async (dirPath: string) => {
     (filenames) => filenames.split('.tsx')[0]
   );
 
-  const fileSources = filenames.map((fileName) => {
-    const pathToSourceCode = path.join('/', dirPath, fileName);
+  const filePaths = filenames.map((fileName) => {
+    return path.join('/', dirPath, fileName);
+  });
+
+  const onlyFilePaths = filePaths.filter((fileName) => {
+    return fs.lstatSync(fileName).isFile()
+  });
+
+  const fileSources = onlyFilePaths.map((pathToSourceCode) => {
     return readFromFile(pathToSourceCode);
   });
 
