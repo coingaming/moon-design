@@ -10,7 +10,7 @@ import Size from '../private/enums/Size';
 export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: TextInputSizeType;
+  inputSize: TextInputSizeType | string;
   type: TextInputTypes;
   label?: JSX.Element | string;
   placeholder?: string;

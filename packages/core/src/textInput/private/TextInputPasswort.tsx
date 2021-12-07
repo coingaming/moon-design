@@ -14,7 +14,7 @@ import Size from '../../private/enums/Size';
 interface TextInputPasswordProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: TextInputSizeType;
+  inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
   type: TextInputTypes;
   placeholder?: string;

@@ -6,7 +6,7 @@ import TextInputSizeType from './types/SizeTypes';
 import Size from '../../private/enums/Size';
 
 type InputProps = {
-  inputSize: TextInputSizeType;
+  inputSize: TextInputSizeType | string;
   withIcon?: boolean;
   error?: boolean;
   icon?: string;
