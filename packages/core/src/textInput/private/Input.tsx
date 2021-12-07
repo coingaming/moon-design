@@ -114,10 +114,10 @@ const Input = styled.input.attrs(({ type }) => ({
         paddingTop: rem(20),
         fontSize: rem(14),
         lineHeight: rem(20),
-        '&:not(:focus)::placeholder': {
+        '&:not(:focus):not([disabled])::placeholder': {
           opacity: 0,
         },
-        '&:not(:focus):placeholder-shown + label': {
+        '&:not(:focus):not([disabled]):placeholder-shown + label': {
           top: '50%',
           marginTop: rem(-7),
           fontSize: rem(14),

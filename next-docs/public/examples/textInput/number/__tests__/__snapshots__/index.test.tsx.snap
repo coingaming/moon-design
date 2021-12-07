@@ -1,0 +1,549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput: type Number renders disabled 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 ftPOyc"
+      disabled={true}
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 jMIxPA"
+        disabled={true}
+        placeholder=" "
+        type="number"
+        value="123"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 ftPOyc"
+      disabled={true}
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 fhwmXa"
+        disabled={true}
+        placeholder=" "
+        type="number"
+        value="123"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 ftPOyc"
+      disabled={true}
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 eqOeQv"
+          disabled={true}
+          placeholder=" "
+          type="number"
+          value="123"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Number renders error 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 cGnxQV"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 gliQQD"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 eboaxH"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 gliQQD"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 dDzGyK"
+          placeholder="e.g. 1234"
+          type="number"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 gliQQD"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Number renders readOnly 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 jMIxPA"
+        placeholder=" "
+        readOnly={true}
+        type="number"
+        value="1234"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 fhwmXa"
+        placeholder=" "
+        readOnly={true}
+        type="number"
+        value="1234"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 eqOeQv"
+          placeholder=" "
+          readOnly={true}
+          type="number"
+          value="1234"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Number renders with hint 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 jMIxPA"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 fhwmXa"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 eqOeQv"
+          placeholder="e.g. 1234"
+          type="number"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Number renders with label 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 jMIxPA"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 fhwmXa"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 eqOeQv"
+          placeholder="e.g. 1234"
+          type="number"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Number renders without label 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <input
+        className="Input-qkdgvx-0 jMIxPA"
+        placeholder="xsmall e.g. 1234"
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <input
+        className="Input-qkdgvx-0 fhwmXa"
+        placeholder="small e.g. 1234"
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 fsASYM"
+          placeholder="medium e.g. 1234"
+          type="number"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Number supports background colour 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 bANpzK"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 jFwBec"
+        placeholder="e.g. 1234"
+        type="number"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 dKhopI"
+      >
+        <input
+          className="Input-qkdgvx-0 eqOeQv"
+          placeholder="e.g. 1234"
+          type="number"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
