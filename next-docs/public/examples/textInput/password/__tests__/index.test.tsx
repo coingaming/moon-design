@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import renderer from 'react-test-renderer';
+import renderer, { act } from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 
 import PasswordWithLabel from '../PasswordWithLabel';

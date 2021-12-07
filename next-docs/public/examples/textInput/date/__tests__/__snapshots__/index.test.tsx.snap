@@ -5,7 +5,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 ftPOyc"
@@ -31,7 +31,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 ftPOyc"
@@ -43,7 +43,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         disabled={true}
         placeholder=" "
         type="date"
@@ -57,7 +57,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 ftPOyc"
@@ -67,7 +67,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           disabled={true}
           placeholder=" "
           type="date"
@@ -94,7 +94,7 @@ exports[`TextInput: type Date renders error 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -118,7 +118,7 @@ exports[`TextInput: type Date renders error 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -129,7 +129,7 @@ exports[`TextInput: type Date renders error 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 hiJSVK"
+        className="Input-qkdgvx-0 fKxCuv"
         placeholder="Placeholder"
         type="date"
       />
@@ -142,7 +142,7 @@ exports[`TextInput: type Date renders error 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -151,7 +151,7 @@ exports[`TextInput: type Date renders error 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 liUDyj"
+          className="Input-qkdgvx-0 eJaiIp"
           placeholder="Placeholder"
           type="date"
         />
@@ -177,7 +177,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -202,7 +202,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -213,7 +213,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder=" "
         readOnly={true}
         type="date"
@@ -227,7 +227,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -236,7 +236,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder=" "
           readOnly={true}
           type="date"
@@ -263,7 +263,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -287,7 +287,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -298,7 +298,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder="Placeholder"
         type="date"
       />
@@ -311,7 +311,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -320,7 +320,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder="Placeholder"
           type="date"
         />
@@ -346,7 +346,7 @@ exports[`TextInput: type Date renders with label 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -364,7 +364,7 @@ exports[`TextInput: type Date renders with label 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -375,14 +375,14 @@ exports[`TextInput: type Date renders with label 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder="Placeholder"
         type="date"
       />
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -391,7 +391,7 @@ exports[`TextInput: type Date renders with label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder="Placeholder"
           type="date"
         />
@@ -411,7 +411,7 @@ exports[`TextInput: type Date renders without label 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -424,20 +424,20 @@ exports[`TextInput: type Date renders without label 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
     >
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder="small"
         type="date"
       />
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -446,7 +446,7 @@ exports[`TextInput: type Date renders without label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 iZYQRx"
+          className="Input-qkdgvx-0 ehNhvs"
           placeholder="medium"
           type="date"
         />
@@ -464,7 +464,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
   className="flex gap-4 items-end"
 >
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -488,7 +488,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -499,7 +499,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 eRgNAh"
+        className="Input-qkdgvx-0 jstzOA"
         placeholder="Placeholder"
         type="date"
       />
@@ -512,7 +512,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
     </div>
   </div>
   <div
-    className="m-4"
+    className="m-4 w-52"
   >
     <div
       className="Container-sc-1f49upb-0 iPTTwu"
@@ -521,7 +521,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 dKhopI"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder="Placeholder"
           type="date"
         />

@@ -44,7 +44,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 fhwmXa"
+        className="Input-qkdgvx-0 eMIKoP"
         disabled={true}
         placeholder=" "
         type="number"
@@ -69,7 +69,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 eqOeQv"
+          className="Input-qkdgvx-0 jMWiTV"
           disabled={true}
           placeholder=" "
           type="number"
@@ -132,7 +132,7 @@ exports[`TextInput: type Number renders error 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 eboaxH"
+        className="Input-qkdgvx-0 cuMlsa"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Number renders error 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 dDzGyK"
+          className="Input-qkdgvx-0 jQAVuk"
           placeholder="e.g. 1234"
           type="number"
         />
@@ -217,7 +217,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 fhwmXa"
+        className="Input-qkdgvx-0 eMIKoP"
         placeholder=" "
         readOnly={true}
         type="number"
@@ -241,7 +241,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 eqOeQv"
+          className="Input-qkdgvx-0 jMWiTV"
           placeholder=" "
           readOnly={true}
           type="number"
@@ -304,7 +304,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 fhwmXa"
+        className="Input-qkdgvx-0 eMIKoP"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 eqOeQv"
+          className="Input-qkdgvx-0 jMWiTV"
           placeholder="e.g. 1234"
           type="number"
         />
@@ -381,7 +381,7 @@ exports[`TextInput: type Number renders with label 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 fhwmXa"
+        className="Input-qkdgvx-0 eMIKoP"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Number renders with label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 eqOeQv"
+          className="Input-qkdgvx-0 jMWiTV"
           placeholder="e.g. 1234"
           type="number"
         />
@@ -436,7 +436,7 @@ exports[`TextInput: type Number renders without label 1`] = `
       className="Container-sc-1f49upb-0 iPTTwu"
     >
       <input
-        className="Input-qkdgvx-0 fhwmXa"
+        className="Input-qkdgvx-0 eMIKoP"
         placeholder="small e.g. 1234"
         type="number"
       />
@@ -452,7 +452,7 @@ exports[`TextInput: type Number renders without label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 fsASYM"
+          className="Input-qkdgvx-0 cuaOwd"
           placeholder="medium e.g. 1234"
           type="number"
         />
@@ -505,7 +505,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 jFwBec"
+        className="Input-qkdgvx-0 jzClLd"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -527,7 +527,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 dKhopI"
       >
         <input
-          className="Input-qkdgvx-0 eqOeQv"
+          className="Input-qkdgvx-0 jMWiTV"
           placeholder="e.g. 1234"
           type="number"
         />

@@ -4,7 +4,7 @@ import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex gap-4 items-end">
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="time"
         inputSize="xsmall"
@@ -14,7 +14,7 @@ const Example = () => (
         backgroundColor="goku.10"
       />
     </div>
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="time"
         inputSize="small"
@@ -24,7 +24,7 @@ const Example = () => (
         backgroundColor="goku.10"
       />
     </div>
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="time"
         inputSize="medium"

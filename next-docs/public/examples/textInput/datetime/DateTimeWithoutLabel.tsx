@@ -4,17 +4,17 @@ import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex gap-4 items-end">
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="datetime-local"
         inputSize="xsmall"
         placeholder="xsmall"
       />
     </div>
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput type="datetime-local" inputSize="small" placeholder="small" />
     </div>
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="datetime-local"
         inputSize="medium"

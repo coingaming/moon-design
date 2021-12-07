@@ -4,7 +4,7 @@ import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex gap-4 items-end">
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="date"
         inputSize="xsmall"
@@ -12,7 +12,7 @@ const Example = () => (
         placeholder="Placeholder"
       />
     </div>
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="date"
         inputSize="small"
@@ -20,7 +20,7 @@ const Example = () => (
         placeholder="Placeholder"
       />
     </div>
-    <div className="m-4">
+    <div className="m-4 w-52">
       <TextInput
         type="date"
         inputSize="medium"

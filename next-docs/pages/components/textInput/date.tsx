@@ -50,7 +50,7 @@ export default function PageDateInput() {
         </p>
       </section>
 
-      {/* Text */}
+      {/* Date */}
       <section className="mt-8">
         <section className="mt-8">
           <Preview

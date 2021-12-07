@@ -59,14 +59,13 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
   if (inputSize === Size.MEDIUM) {
     return (
       <Container disabled={disabled}>
-        <Inner>
+        <Inner bgColor={backgroundColor}>
           <Input
             inputSize={inputSize}
             type={passwordShown ? 'text' : 'password'}
             error={isError}
             ref={ref}
             id={id}
-            bgColor={backgroundColor}
             isLabel={!!label}
             isPassword={true}
             {...inputProps}

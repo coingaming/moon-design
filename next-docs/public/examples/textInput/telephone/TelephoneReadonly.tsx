@@ -7,7 +7,7 @@ const Example = () => (
     <div className="m-4">
       <TextInput
         type="tel"
-        value="Read only text"
+        value="+372 123 4567"
         inputSize="xsmall"
         label="xsmall"
         hintText="Informative message holder"
@@ -17,7 +17,7 @@ const Example = () => (
     <div className="m-4">
       <TextInput
         type="tel"
-        value="Read only text"
+        value="+372 123 4567"
         inputSize="small"
         label="small"
         hintText="Informative message holder"
@@ -27,7 +27,7 @@ const Example = () => (
     <div className="m-4">
       <TextInput
         type="tel"
-        value="Read only text"
+        value="+372 123 4567"
         inputSize="medium"
         label="medium"
         hintText="Informative message holder"

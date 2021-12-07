@@ -44,7 +44,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         disabled={true}
         placeholder=" "
         type="tel"
@@ -69,7 +69,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           disabled={true}
           placeholder=" "
           type="tel"
@@ -132,7 +132,7 @@ exports[`TextInput: type Tel renders error 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 hiJSVK"
+        className="Input-qkdgvx-0 fKxCuv"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Tel renders error 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 liUDyj"
+          className="Input-qkdgvx-0 eJaiIp"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
@@ -195,7 +195,7 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
         placeholder=" "
         readOnly={true}
         type="tel"
-        value="Read only text"
+        value="+372 123 4567"
       />
       <p
         className="HintText-sc-1e9hzxr-0 jqaInz"
@@ -217,11 +217,11 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder=" "
         readOnly={true}
         type="tel"
-        value="Read only text"
+        value="+372 123 4567"
       />
       <p
         className="HintText-sc-1e9hzxr-0 jqaInz"
@@ -241,11 +241,11 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder=" "
           readOnly={true}
           type="tel"
-          value="Read only text"
+          value="+372 123 4567"
         />
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
@@ -304,7 +304,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
@@ -381,7 +381,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
@@ -436,7 +436,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
       className="Container-sc-1f49upb-0 iPTTwu"
     >
       <input
-        className="Input-qkdgvx-0 grZGSz"
+        className="Input-qkdgvx-0 izGTPy"
         placeholder="small"
         type="tel"
       />
@@ -452,7 +452,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 iZYQRx"
+          className="Input-qkdgvx-0 ehNhvs"
           placeholder="medium"
           type="tel"
         />
@@ -505,7 +505,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
         small
       </label>
       <input
-        className="Input-qkdgvx-0 eRgNAh"
+        className="Input-qkdgvx-0 jstzOA"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -527,7 +527,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 dKhopI"
       >
         <input
-          className="Input-qkdgvx-0 crVbWq"
+          className="Input-qkdgvx-0 ekauWU"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />

@@ -96,6 +96,10 @@ const Input = styled.input.attrs(({ type }) => ({
     inputSize === Size.SMALL && {
       height: rem(48),
       lineHeight: rem(48),
+      '&::-webkit-datetime-edit': {
+        height: rem(46),
+        lineHeight: rem(46),
+      },
       '&::-webkit-date-and-time-value': {
         paddingTop: rem(10),
       },
@@ -104,6 +108,10 @@ const Input = styled.input.attrs(({ type }) => ({
       height: rem(56),
       fontSize: rem(14),
       lineHeight: rem(56),
+      '&::-webkit-datetime-edit': {
+        height: rem(54),
+        lineHeight: rem(54),
+      },
       '&::-webkit-date-and-time-value': {
         paddingTop: rem(16),
       },
@@ -124,6 +132,8 @@ const Input = styled.input.attrs(({ type }) => ({
           lineHeight: rem(14),
         },
         '&::-webkit-datetime-edit': {
+          height: rem(36),
+          fontSize: rem(14),
           lineHeight: rem(34),
         },
         '&::-webkit-date-and-time-value': {
