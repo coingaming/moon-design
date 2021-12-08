@@ -22,7 +22,7 @@ interface TextInputXSandSmProps
   backgroundColor?: ColorProps;
 }
 
-const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
+const TextInputXsmallSmall: React.FC<TextInputXSandSmProps> = (props) => {
   const {
     id,
     inputSize,
@@ -64,4 +64,4 @@ const TextInputXSandSm: React.FC<TextInputXSandSmProps> = (props) => {
   );
 };
 
-export default TextInputXSandSm;
+export default TextInputXsmallSmall;
