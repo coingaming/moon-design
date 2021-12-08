@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start -p 80",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest -w 1 --ci"
   },
   "dependencies": {
     "@headlessui/react": "1.2.0",
