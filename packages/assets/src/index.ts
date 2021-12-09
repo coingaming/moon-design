@@ -690,6 +690,8 @@ export { default as IconBitcoinTalk } from './icons/IconBitcoinTalk';
 export * from './icons/IconBitcoinTalk';
 export { default as IconBombayClub } from './icons/IconBombayClub';
 export * from './icons/IconBombayClub';
+export { default as IconBtc } from './icons/IconBtc';
+export * from './icons/IconBtc';
 export { default as IconBurger } from './icons/IconBurger';
 export * from './icons/IconBurger';
 export { default as IconCalendar } from './icons/IconCalendar';
