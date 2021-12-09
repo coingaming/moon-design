@@ -24,7 +24,7 @@ export default function PageSelect() {
       </section>
 
       {/* Default */}
-      <section className="mt-8">
+      <section className="mt-8 h-96">
         <Preview
           title="Examples"
           preview={<Default />}

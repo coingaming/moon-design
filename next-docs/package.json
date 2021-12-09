@@ -23,6 +23,7 @@
     "@heathmont/moon-table": "workspace:^7.15.1",
     "@heathmont/moon-themes": "workspace:^7.15.1",
     "@heathmont/moon-utils": "workspace:^7.15.1",
+    "@heathmont/moon-select": "workspace:^7.15.1",
     "@testing-library/jest-dom": "^5.15.1",
     "@types/react": "16.9.9",
     "@types/styled-components": "5.1.7",
