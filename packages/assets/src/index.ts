@@ -1222,6 +1222,8 @@ export { default as LogoMoonDesign } from './logos/LogoMoonDesign';
 export * from './logos/LogoMoonDesign';
 export { default as LogoMoonDesignShort } from './logos/LogoMoonDesignShort';
 export * from './logos/LogoMoonDesignShort';
+export { default as LogoPaxful } from './logos/LogoPaxful';
+export * from './logos/LogoPaxful';
 export { default as LogoPoweredByHub88 } from './logos/LogoPoweredByHub88';
 export * from './logos/LogoPoweredByHub88';
 export { default as LogoSbIo } from './logos/LogoSbIo';
