@@ -1,5 +1,24 @@
 # Change Log
 
+## 7.15.2
+
+### Patch Changes
+
+- Add assets logos
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.15.2
+  - @heathmont/moon-accordion@7.15.2
+  - @heathmont/moon-charts@7.15.2
+  - @heathmont/moon-components@7.15.2
+  - @heathmont/moon-core@7.15.2
+  - @heathmont/moon-draggabletable@7.15.2
+  - @heathmont/moon-icons@7.15.2
+  - @heathmont/moon-pagination@7.15.2
+  - @heathmont/moon-popover@7.15.2
+  - @heathmont/moon-table@7.15.2
+  - @heathmont/moon-themes@7.15.2
+  - @heathmont/moon-utils@7.15.2
+
 ## 7.15.1
 
 ### Patch Changes

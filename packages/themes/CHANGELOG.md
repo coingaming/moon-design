@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.15.2
+
+### Patch Changes
+
+- Add assets logos
+
 ## 7.15.1
 
 ### Patch Changes
