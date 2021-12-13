@@ -54,6 +54,8 @@ export { default as IconBitcoinTalk } from './IconBitcoinTalk';
 export * from './IconBitcoinTalk';
 export { default as IconBombayClub } from './IconBombayClub';
 export * from './IconBombayClub';
+export { default as IconBtc } from './IconBtc';
+export * from './IconBtc';
 export { default as IconBurger } from './IconBurger';
 export * from './IconBurger';
 export { default as IconCalendar } from './IconCalendar';

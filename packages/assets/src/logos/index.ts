@@ -52,6 +52,8 @@ export { default as LogoMoonDesign } from './LogoMoonDesign';
 export * from './LogoMoonDesign';
 export { default as LogoMoonDesignShort } from './LogoMoonDesignShort';
 export * from './LogoMoonDesignShort';
+export { default as LogoPaxful } from './LogoPaxful';
+export * from './LogoPaxful';
 export { default as LogoPoweredByHub88 } from './LogoPoweredByHub88';
 export * from './LogoPoweredByHub88';
 export { default as LogoSbIo } from './LogoSbIo';

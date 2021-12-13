@@ -1,5 +1,14 @@
 # Change Log
 
+## 7.15.2
+
+### Patch Changes
+
+- Add assets logos
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.15.2
+  - @heathmont/moon-utils@7.15.2
+
 ## 7.15.1
 
 ### Patch Changes
