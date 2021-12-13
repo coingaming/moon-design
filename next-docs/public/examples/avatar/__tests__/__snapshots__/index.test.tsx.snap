@@ -13,7 +13,7 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
       size="xsmall"
     >
       <svg
-        className="sc-hoXqvr dkHyId"
+        className="sc-leCWtA dfCHmj"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -41,7 +41,7 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
       size="small"
     >
       <svg
-        className="sc-hoXqvr dkHyId"
+        className="sc-leCWtA dfCHmj"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -69,7 +69,7 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
       size="medium"
     >
       <svg
-        className="sc-hoXqvr dkHyId"
+        className="sc-leCWtA dfCHmj"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -97,7 +97,7 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
       size="large"
     >
       <svg
-        className="sc-hoXqvr dkHyId"
+        className="sc-leCWtA dfCHmj"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -489,7 +489,7 @@ exports[`Avatar supports different colours 1`] = `
       size="medium"
     >
       <svg
-        className="sc-hoXqvr dkHyId"
+        className="sc-leCWtA dfCHmj"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -517,7 +517,7 @@ exports[`Avatar supports different colours 1`] = `
       size="medium"
     >
       <svg
-        className="sc-hoXqvr kMkPcw"
+        className="sc-leCWtA ksIRiC"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
