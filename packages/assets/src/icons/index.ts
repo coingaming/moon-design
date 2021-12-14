@@ -200,6 +200,8 @@ export { default as IconCursor } from './IconCursor';
 export * from './IconCursor';
 export { default as IconData } from './IconData';
 export * from './IconData';
+export { default as IconDebitCards } from './IconDebitCards';
+export * from './IconDebitCards';
 export { default as IconDelete } from './IconDelete';
 export * from './IconDelete';
 export { default as IconDesktop } from './IconDesktop';

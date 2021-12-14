@@ -2,7 +2,7 @@
 
 exports[`Button renders "Full width" variant 1`] = `
 <button
-  className="sc-jnHOtz kksRib"
+  className="sc-kkeJPq kufJQA"
   size="small"
   variant="primary"
 >
@@ -16,7 +16,7 @@ exports[`Button renders "Full width" variant 1`] = `
 
 exports[`Button renders Default variant 1`] = `
 <button
-  className="sc-jnHOtz jvZRyE"
+  className="sc-kkeJPq fSsWMv"
   size="small"
   variant="primary"
 >
@@ -30,7 +30,7 @@ exports[`Button renders Default variant 1`] = `
 
 exports[`Button renders Primary variant 1`] = `
 <button
-  className="sc-jnHOtz jvZRyE"
+  className="sc-kkeJPq fSsWMv"
   size="small"
   variant="primary"
 >
@@ -44,7 +44,7 @@ exports[`Button renders Primary variant 1`] = `
 
 exports[`Button renders Secondary variant 1`] = `
 <button
-  className="sc-jnHOtz ciUMui"
+  className="sc-kkeJPq kNVvDN"
   size="small"
   variant="secondary"
 >
@@ -58,7 +58,7 @@ exports[`Button renders Secondary variant 1`] = `
 
 exports[`Button renders Tertiary variant 1`] = `
 <button
-  className="sc-jnHOtz dZiFNO"
+  className="sc-kkeJPq kbfEcF"
   size="small"
   variant="tertiary"
 >
@@ -75,7 +75,7 @@ exports[`Button renders different animations 1`] = `
   className="flex justify-around w-full"
 >
   <button
-    className="sc-jnHOtz jvZRyE"
+    className="sc-kkeJPq fSsWMv"
     size="small"
     variant="primary"
   >
@@ -134,7 +134,7 @@ exports[`Button renders different animations 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz jvZRyE"
+    className="sc-kkeJPq fSsWMv"
     size="small"
     variant="primary"
   >
@@ -185,7 +185,7 @@ exports[`Button renders different animations 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz hHANFi"
+    className="sc-kkeJPq liQrjd"
     oops={true}
     size="small"
     variant="primary"
@@ -197,7 +197,7 @@ exports[`Button renders different animations 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz bLnYtT"
+    className="sc-kkeJPq iLdicc"
     pulse={true}
     size="small"
     variant="primary"
@@ -216,7 +216,7 @@ exports[`Button renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-jnHOtz cCTGzz"
+    className="sc-kkeJPq iVOdVY"
     size="xsmall"
     variant="primary"
   >
@@ -227,7 +227,7 @@ exports[`Button renders different sizes 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz jvZRyE"
+    className="sc-kkeJPq fSsWMv"
     size="small"
     variant="primary"
   >
@@ -238,7 +238,7 @@ exports[`Button renders different sizes 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz fWuUj"
+    className="sc-kkeJPq gQqPU"
     size="medium"
     variant="primary"
   >
@@ -249,7 +249,7 @@ exports[`Button renders different sizes 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz ceOxGQ"
+    className="sc-kkeJPq jwkwbL"
     size="large"
     variant="primary"
   >
@@ -267,7 +267,7 @@ exports[`Button renders leading and trailing icons 1`] = `
   className="flex justify-around w-full"
 >
   <button
-    className="sc-jnHOtz fveZtI"
+    className="sc-kkeJPq jqyxLz"
     size="small"
     variant="primary"
   >
@@ -279,7 +279,7 @@ exports[`Button renders leading and trailing icons 1`] = `
         size="small"
       >
         <svg
-          className="sc-eJBYSJ hsnBaA"
+          className="sc-fFYUoA hbiAMT"
           fill="none"
           height="1em"
           viewBox="0 0 20 20"
@@ -298,7 +298,7 @@ exports[`Button renders leading and trailing icons 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz gPIwkT"
+    className="sc-kkeJPq cTKjzY"
     size="small"
     variant="primary"
   >
@@ -311,7 +311,7 @@ exports[`Button renders leading and trailing icons 1`] = `
         size="small"
       >
         <svg
-          className="sc-eJBYSJ hsnBaA"
+          className="sc-fFYUoA hbiAMT"
           fill="none"
           height="1em"
           viewBox="0 0 20 20"
@@ -336,7 +336,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-jnHOtz eLopWq"
+    className="sc-kkeJPq dWqXcl"
     isIcon={true}
     size="xsmall"
     variant="primary"
@@ -345,7 +345,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
       className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
     >
       <svg
-        className="sc-gdlBQy"
+        className="sc-dTGQxN"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -361,7 +361,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz dCQPUq"
+    className="sc-kkeJPq eeDnYJ"
     isIcon={true}
     size="small"
     variant="primary"
@@ -370,7 +370,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
       className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
     >
       <svg
-        className="sc-gdlBQy"
+        className="sc-dTGQxN"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -386,7 +386,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz cPXbof"
+    className="sc-kkeJPq cYpfXk"
     isIcon={true}
     size="medium"
     variant="primary"
@@ -395,7 +395,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
       className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
     >
       <svg
-        className="sc-gdlBQy"
+        className="sc-dTGQxN"
         fill="none"
         fontSize="2.5rem"
         height="1em"
@@ -411,7 +411,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
     </div>
   </button>
   <button
-    className="sc-jnHOtz drUwxH"
+    className="sc-kkeJPq fYBgIg"
     isIcon={true}
     size="large"
     variant="primary"
@@ -420,7 +420,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
       className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
     >
       <svg
-        className="sc-gdlBQy"
+        className="sc-dTGQxN"
         fill="none"
         fontSize="3rem"
         height="1em"
