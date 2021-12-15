@@ -1,7 +1,6 @@
 import React from 'react';
 
-import Default from '../../../public/examples/select/select/Default';
-import Label from '../../../public/examples/select/select/Label';
+import WithLabel from '../../../public/examples/select/singleReactSelect/WithLabel';
 
 import Preview from '../../../components/codePreview/Preview';
 
@@ -15,6 +14,9 @@ export default function PageSelect() {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Select</h1>
         <p className="text-lg mt-4">
+          This Single Select based on react-select library.
+        </p>
+        <p className="text-lg mt-4">
           By default, Select stretches to full width on small devices.
         </p>
         <p className="text-lg mt-4">
@@ -23,20 +25,12 @@ export default function PageSelect() {
         </p>
       </section>
 
-      {/* Default */}
+      {/* WithLabel */}
       <section className="mt-8">
         <Preview
-          title="Examples"
-          preview={<Default />}
+          title="With Label"
+          preview={<WithLabel />}
           code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="with label"
-          preview={<Label />}
-          code={examples ? examples.Label : 'Loading'}
         />
       </section>
     </>

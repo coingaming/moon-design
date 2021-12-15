@@ -1,188 +1,37 @@
 // @ts-nocheck
 import React, { useEffect, useRef } from 'react';
-import ReactSelect, {
-  components,
-  ValueContainerProps,
-  MultiValueRemoveProps,
-  MultiValueProps,
-  ClearIndicatorProps,
-  ControlProps,
-  SingleValueProps,
-  MenuProps,
-  StylesConfig,
-  Props as ReactSelectProps,
-  DropdownIndicatorProps,
-} from 'react-select';
-import { useTheme, Theme } from '@heathmont/moon-themes';
-import { rem } from '@heathmont/moon-utils';
-import {
-  ControlsChevronDown,
-  ControlsChevronUp,
-  ControlsClose,
-} from '@heathmont/moon-icons';
-import { Label } from '@heathmont/moon-core';
+import ReactSelect, { Props as ReactSelectProps } from 'react-select';
+import { useTheme } from '@heathmont/moon-themes';
+
+import Menu from './private/Menu';
+import DropdownIndicator from './private/DropdownIndicator';
+import Control from './private/Control';
+import ValueContainer from './private/ValueContainer';
+import SingleValue from './private/SingleValue';
+import MultiValue from './private/MultiValue';
+import MultiValueRemove from './private/MultiValueRemove';
+import MultiValueContainer from './private/MultiValueContainer';
+import ClearIndicator from './private/ClearIndicator';
+import IndicatorSeparator from './private/IndicatorSeparator';
+import SelectContainer from './private/SelectContainer';
+import Placeholder from './private/Placeholder';
+
+import CustomStyles from './styles/CustomStyles';
 
 export type BaseOptionType = {
   label: string;
   value: string | number;
 };
 
-const customStyles: StylesConfig = {
-  menu: (provided, state) => {
-    const { theme, menuWidth } = state.selectProps['data-customProps'];
-    return {
-      ...provided,
-      minWidth: '300px',
-      padding: rem(theme.space.xsmall),
-      boxShadow:
-        '0px 8px 24px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4)',
-      ...(menuWidth ? { width: `${menuWidth}px` } : {}),
-    };
-  },
-  option: (provided, state) => {
-    const { theme } = state.selectProps['data-customProps'];
-    return {
-      ...provided,
-      borderRadius: rem(theme.radius.small),
-      padding: rem(theme.space.default),
-      cursor: 'pointer',
-    };
-  },
-  control: (provided, state) => ({
-    ...provided,
-    ...(state.selectProps['data-customProps'].isCustomControl
-      ? { position: 'absolute', opacity: 0 }
-      : {}),
-  }),
-  valueContainer: (provided, state) => ({
-    ...provided,
-    gridArea: '2 / 1 / 2 / 3',
-    padding: '6px 8px',
-    ...(state.isMulti
-      ? { flexDirection: 'column', alignItems: 'flex-start' }
-      : {}),
-  }),
-  singleValue: (provided) => ({
-    ...provided,
-    gridArea: '2 / 1 / 2 / 3',
-    fontSize: '16px',
-  }),
-  placeholder: (provided) => ({
-    ...provided,
-    gridArea: '2 / 1 / 2 / 3',
-    fontSize: '16px',
-  }),
-  multiValueRemove: () => ({
-    width: '16px',
-    height: '16px',
-    cursor: 'pointer',
-  }),
-  input: (provided) => ({
-    ...provided,
-    padding: 0,
-    fontSize: '16px',
-    margin: '0 2px',
-  }),
-};
-
-type DataCustomProps = {
-  isCustomControl: boolean;
-  menuHeader: React.ReactNode;
-  menuFooter: React.ReactNode;
-  menuWidth: number | undefined;
-  label: string;
-  theme: Theme;
-  leftSlot: React.ReactNode;
-};
-
-const Menu = ({
-  children,
-  ...rest
-}: MenuProps<{ 'data-customProps'?: DataCustomProps }>) => {
-  console.log('rest', rest);
-  //
-  return (
-    <components.Menu {...rest}>
-      {rest.selectProps['data-customProps']?.menuHeader || null}
-      {children}
-      {rest.selectProps['data-customProps']?.menuFooter || null}
-    </components.Menu>
-  );
-};
-
-const DropdownIndicator = ({ ...rest }: DropdownIndicatorProps) => {
-  const IndicatorComponent = rest.selectProps.menuIsOpen
-    ? ControlsChevronUp
-    : ControlsChevronDown;
-  return <IndicatorComponent style={{ marginRight: '8px' }} fontSize="2rem" />;
-};
-
-const IndicatorSeparator = () => null;
-
-const Control = ({ children, ...rest }: ControlProps) => {
-  const leftSlot = rest.selectProps['data-customProps']?.leftSlot;
-  return (
-    <components.Control {...rest}>
-      {leftSlot && <div>{leftSlot}</div>}
-      {children}
-    </components.Control>
-  );
-};
-
-const ValueContainer = ({ children, ...rest }: ValueContainerProps) => (
-  <components.ValueContainer {...rest}>
-    <div
-      style={{
-        gridArea: '1 / 1 / 2 / 3',
-        fontSize: '12px',
-        margin: '0 2px',
-        color: rest.theme.colors.primary75,
-      }}
-    >
-      {rest.selectProps['data-customProps'].label}
-    </div>
-    <div
-      style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        gap: '8px',
-        padding: '4px 0',
-      }}
-    >
-      {children}
-    </div>
-  </components.ValueContainer>
-);
-const MultiValue = ({ children, ...rest }: MultiValueProps) => (
-  <components.MultiValue {...rest}>{children}</components.MultiValue>
-);
-
-const SingleValue = ({
-  children,
-  ...rest
-}: SingleValueProps<BaseOptionType>) => {
-  const leftSlot = rest.selectProps['data-customProps']?.leftSlot;
-  return (
-    <components.SingleValue {...rest}>
-      {leftSlot ? rest.data.label : children}
-    </components.SingleValue>
-  );
-};
-
-const MultiValueRemove = ({ ...rest }: MultiValueRemoveProps) => (
-  <components.MultiValueRemove {...rest}>
-    <ControlsClose fontSize="1rem" color="goten.100" />
-  </components.MultiValueRemove>
-);
-
-const MultiValueContainer = (props) => (
-  <Label iconRight={props.children[1]}>{props.data.label}</Label>
-);
-const ClearIndicator = ({ ...rest }: ClearIndicatorProps) => (
-  <components.ClearIndicator {...rest}>
-    <ControlsClose style={{ cursor: 'pointer' }} fontSize="1.5rem" />
-  </components.ClearIndicator>
-);
+// type DataCustomProps = {
+//   isCustomControl: boolean;
+//   menuHeader: React.ReactNode;
+//   menuFooter: React.ReactNode;
+//   menuWidth: number | undefined;
+//   label: string;
+//   theme: Theme;
+//   leftSlot: React.ReactNode;
+// };
 
 type SelectProps<T> = {
   isCustomControl?: boolean;
@@ -191,7 +40,10 @@ type SelectProps<T> = {
   menuWidth?: number;
   label: string;
   leftSlot?: React.ReactNode;
-  'data-customProps'?: {};
+  hintSlot?: JSX.Element | string;
+  placeholderSlot?: JSX.Element | string;
+  size?: 'large' | 'xLarge';
+  numberVisibleItems?: number;
 } & ReactSelectProps<T>;
 
 const Select = <T extends BaseOptionType>({
@@ -202,7 +54,11 @@ const Select = <T extends BaseOptionType>({
   menuWidth,
   label,
   leftSlot,
+  hintSlot,
+  placeholderSlot,
+  numberVisibleItems,
   isSearchable = false,
+  size = 'large',
   ...rest
 }: SelectProps<T>) => {
   const menuRef = useRef(null);
@@ -216,7 +72,7 @@ const Select = <T extends BaseOptionType>({
     <ReactSelect
       {...rest}
       ref={menuRef}
-      styles={customStyles}
+      styles={CustomStyles}
       isSearchable={isSearchable}
       menuIsOpen={menuIsOpen}
       components={{
@@ -230,6 +86,8 @@ const Select = <T extends BaseOptionType>({
         ClearIndicator,
         Control,
         SingleValue,
+        SelectContainer,
+        Placeholder,
       }}
       data-customProps={{
         isCustomControl,
@@ -239,6 +97,10 @@ const Select = <T extends BaseOptionType>({
         label,
         theme: moonTheme,
         leftSlot,
+        hintSlot,
+        placeholderSlot,
+        size,
+        numberVisibleItems,
       }}
       theme={(theme) => ({
         ...theme,
@@ -248,9 +110,17 @@ const Select = <T extends BaseOptionType>({
           primary25: moonTheme.color.goku[100] as string,
           primary50: moonTheme.color.hit[80] as string,
           primary75: moonTheme.color.trunks[100] as string,
-          primary: moonTheme.color.piccolo[100] as string,
+          primary: moonTheme.color.piccolo[100] as string, // border focused
           danger: moonTheme.color.chiChi[100] as string,
           dangerLight: moonTheme.color.chiChi[10] as string,
+          neutral0: moonTheme.color.gohan[100] as string, // bg
+          neutral5: moonTheme.color.gohan[100] as string, // bg disabled
+          neutral10: moonTheme.color.beerus[100] as string, // border disabled
+          neutral20: moonTheme.color.beerus[100] as string, // border
+          neutral30: moonTheme.color.beerus[100] as string, // border hover
+          neutral40: moonTheme.color.bulma[100] as string, // value disabled
+          neutral50: moonTheme.color.trunks[100] as string, // placeholder
+          neutral80: moonTheme.color.bulma[100] as string, // value
         },
       })}
     />

@@ -75,6 +75,14 @@ const navigation = [
             name: 'Multi Select',
             href: '/components/select/multiSelect',
           },
+          {
+            name: 'Single Select (react)',
+            href: '/components/select/singleReactSelect',
+          },
+          {
+            name: 'Multi Select (react)',
+            href: '/components/select/multiReactSelect',
+          },
         ],
       },
       { name: 'Switch', href: '/components/switch' },
