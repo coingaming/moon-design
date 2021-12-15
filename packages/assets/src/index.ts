@@ -836,6 +836,8 @@ export { default as IconCursor } from './icons/IconCursor';
 export * from './icons/IconCursor';
 export { default as IconData } from './icons/IconData';
 export * from './icons/IconData';
+export { default as IconDebitCards } from './icons/IconDebitCards';
+export * from './icons/IconDebitCards';
 export { default as IconDelete } from './icons/IconDelete';
 export * from './icons/IconDelete';
 export { default as IconDesktop } from './icons/IconDesktop';
