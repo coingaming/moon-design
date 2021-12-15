@@ -1,5 +1,20 @@
 # Change Log
 
+## 7.16.0
+
+### Minor Changes
+
+- 4e2ea1a2: Added debit-cards icon
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [4e2ea1a2]
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.16.0
+  - @heathmont/moon-themes@7.16.0
+  - @heathmont/moon-utils@7.16.0
+
 ## 7.15.2
 
 ### Patch Changes
