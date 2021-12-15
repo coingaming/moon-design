@@ -28,7 +28,7 @@ exports[`Accordion collapses 1`] = `
       type="button"
     >
       <svg
-        className="sc-jnHOtz hRpPsu"
+        className="sc-bWNSNh kgXdZd"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -87,7 +87,7 @@ exports[`Accordion expands 1`] = `
       type="button"
     >
       <svg
-        className="sc-kkeJPq bsWufl"
+        className="sc-cTkOiY cxqQAA"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -146,7 +146,7 @@ exports[`Accordion renders 1`] = `
       type="button"
     >
       <svg
-        className="sc-jnHOtz hRpPsu"
+        className="sc-bWNSNh kgXdZd"
         fill="none"
         fontSize="2rem"
         height="1em"
