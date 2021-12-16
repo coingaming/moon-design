@@ -1,5 +1,21 @@
 # Change Log
 
+## 7.16.0
+
+### Minor Changes
+
+- 4e2ea1a2: Added debit-cards icon
+
+### Patch Changes
+
+- Bump version
+
+## 7.15.2
+
+### Patch Changes
+
+- Add assets logos
+
 ## 7.15.1
 
 ### Patch Changes
