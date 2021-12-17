@@ -4,13 +4,14 @@
 
 1. [When does a component go in the design system?](#when-does-a-component-go-in-the-design-system)
 2. [Release Process](#release-process)
-3. [Maintaining Assets](#maintaining-assets)
-4. [Git Strategy](#git-strategy)
-5. [Code Standards](#code-standards)
-6. [Code Style](#code-style)
-7. [Rules](#rules)
-8. [Build process](#build-process)
-9. [ES Modules](#es-modules)
+3. [Prerelease Process](#prerelease-process)
+4. [Maintaining Assets](#maintaining-assets)
+5. [Git Strategy](#git-strategy)
+6. [Code Standards](#code-standards)
+7. [Code Style](#code-style)
+8. [Rules](#rules)
+9. [Build process](#build-process)
+10. [ES Modules](#es-modules)
 
 ---
 
@@ -35,6 +36,26 @@ Thanks to [changeset](https://github.com/changesets/changesets), we can generate
 8. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/moon-design).
 9. Tag a version and push your tag (`git tag vX.X.X` and `git push && git push --tags`)
 10. Communicate the release to the team!
+
+## Prerelease Process
+
+A prerelease workflow might look something like this:
+
+```
+pnpm changeset pre enter alpha
+pnpm changeset
+pnpm changeset version
+pnpm install
+
+git checkout -b "feat/prerelease"
+git add .
+git commit -m "Enter prerelease mode and version packages"
+
+pnpm changeset publish
+git push --follow-tags
+
+pnpm changeset pre exit
+```
 
 
 ## Icons
