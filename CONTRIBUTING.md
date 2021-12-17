@@ -37,7 +37,11 @@ Thanks to [changeset](https://github.com/changesets/changesets), we can generate
 9. Tag a version and push your tag (`git tag vX.X.X` and `git push && git push --tags`)
 10. Communicate the release to the team!
 
-## Prerelease Process
+## Prerelease Process 
+
+You might want to release a version of your packages before you do an actual release, Changesets lets you do this but there are some caveats because of the complexity that monorepos add that are important to understand.
+
+When you want to do a prerelease, you need to enter prerelease mode. You can do that with the pre enter <tag>. The tag that you need to pass is used in versions(e.g. 1.0.0-beta.0) and for the npm dist tag.
 
 A prerelease workflow might look something like this:
 
