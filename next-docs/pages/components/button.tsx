@@ -1,16 +1,17 @@
 import React from 'react';
 
-import Primary from '../../public/examples/button/Primary';
-import Secondary from '../../public/examples/button/Secondary';
-import Tertiary from '../../public/examples/button/Tertiary';
-import Default from '../../public/examples/button/Default';
-import Sizes from '../../public/examples/button/Sizes';
+import Preview from '../../components/codePreview/Preview';
 import Animations from '../../public/examples/button/Animations';
+import Default from '../../public/examples/button/Default';
+import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
 import IsIcon from '../../public/examples/button/IsIcon';
-import FullWidth from '../../public/examples/button/FullWidth';
+import NewButton from '../../public/examples/button/NewButton';
+import Primary from '../../public/examples/button/Primary';
+import Secondary from '../../public/examples/button/Secondary';
+import Sizes from '../../public/examples/button/Sizes';
+import Tertiary from '../../public/examples/button/Tertiary';
 
-import Preview from '../../components/codePreview/Preview';
 import useExamples from '../../utils/useExamples';
 
 export default function PageButton() {
@@ -30,6 +31,14 @@ export default function PageButton() {
           Buttons are clickable elements with label text that describe the
           action that will happen when the users interact with it.
         </p>
+      </section>
+      {/* New Buttons */}
+      <section className="mt-8">
+        <Preview
+          title="New Buttons"
+          preview={<NewButton />}
+          code={examples ? examples.NewButton : 'Loading'}
+        />
       </section>
       {/* Primary */}
       <section className="mt-8">

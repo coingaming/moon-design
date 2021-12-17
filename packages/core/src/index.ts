@@ -6,6 +6,8 @@ export { default as AgeLimit } from './ageLimit/AgeLimit';
 export * from './ageLimit/AgeLimit';
 export { default as Badge } from './badge/Badge';
 export * from './badge/Badge';
+export { default as Button } from './button/Button';
+export * from './button/Button';
 export { default as Caption } from './caption/Caption';
 export * from './caption/Caption';
 export { default as Checkbox } from './checkbox/Checkbox';

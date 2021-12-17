@@ -1,3 +1,4 @@
+import { rem } from '@heathmont/moon-utils';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -349,11 +350,14 @@ export interface SharedTheme {
   };
 }
 
-export type Theme = SharedTheme & {
-  brand: Brand;
-  colorScheme: ColorScheme;
-  color: Color;
-};
+export interface SharedThemeNew {}
+
+export type Theme = SharedTheme &
+  SharedThemeNew & {
+    brand: Brand;
+    colorScheme: ColorScheme;
+    color: Color;
+  };
 
 const sharedTokens: SharedTheme = {
   base: {
@@ -420,6 +424,36 @@ const sharedTokens: SharedTheme = {
     selectOptions: 10,
     dialog: 10000,
     toggle: 1,
+  },
+};
+
+export const sharedTokensNew: SharedThemeNew = {
+  border: `${rem(borderWidth)} ${borderStyle}`,
+  breakpoint: {
+    small: rem(640),
+    medium: rem(768),
+    large: rem(1024),
+    xlarge: rem(1280),
+    twoxlarge: rem(1536),
+  },
+  fontSize: {
+    body: rem(16),
+  },
+  fontWeight: {
+    normal: 400,
+    semibold: 500,
+  },
+  opacity: {
+    disabled: 0.32,
+  },
+  size: {
+    twoxsmall: rem(16),
+    xsmall: rem(24),
+    small: rem(32),
+    medium: rem(40),
+    large: rem(48),
+    xlarge: rem(56),
+    twoxlarge: rem(64),
   },
 };
 
