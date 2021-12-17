@@ -1,30 +1,40 @@
 import React from 'react';
-import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import Preview from '../../../components/codePreview/Preview';
+import Table from '../../../components/Table';
 
-import Xs from '../../public/examples/textInput/Xs';
-import XsTypes from '../../public/examples/textInput/XsTypes';
-import InputS from '../../public/examples/textInput/InputS';
-import InputSTypes from '../../public/examples/textInput/InputSTypes';
-import InputM from '../../public/examples/textInput/InputM';
-import InputMTypes from '../../public/examples/textInput/InputMTypes';
+import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
+import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
+import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
+import UrlDisabled from '../../../public/examples/textInput/url/UrlDisabled';
+import UrlError from '../../../public/examples/textInput/url/UrlError';
+import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
+import UrlReadonly from '../../../public/examples/textInput/url/UrlReadonly';
 
-import useExamples from '../../utils/useExamples';
+import useExamples from '../../../utils/useExamples';
 
-export default function PageTextInput() {
-  const examples = useExamples('textInput');
-
+export default function PageUrlInput() {
+  const examples = useExamples('textInput/text');
   return (
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">TextInput</h1>
         <p className="text-lg mt-4">
-          The input component is used when you need to let users enter the text
-          of some kind, such as their name or phone number etc.
+          The TextInput wrapper component is used when you need to let users
+          enter the text of some kind, such as their name or phone number etc.
         </p>
 
         <p className="text-lg mt-4">
-          All text inputs must have visible labels/placeholder text.
+          All TextInput could include visible labels, placeholder, hint text.
+          Also, all standard form attributes are supported e.g. required,
+          disabled, readonly. Input inside TextInput wrapper component has a
+          transparent background but could be configured by props.
+        </p>
+
+        <p className="text-lg mt-4">
+          TextInput comes with three sizes: xsmall, small and medium, which are
+          configured by required prop inputSize. TextInput xsmall and small
+          sizes have an outside label view, while TextInput medium size has an
+          inner label view.
         </p>
 
         <p className="text-lg mt-4">
@@ -34,62 +44,61 @@ export default function PageTextInput() {
         </p>
 
         <p className="text-lg mt-4">
-          Text inputs support a range of input formats, some of which include
+          The TextInput support a range of input formats, some of which include
           automatic browser validation. These can be set by providing HTML input
-          type attributtes:
+          type attributte.
         </p>
       </section>
 
-      {/* XS */}
+      {/* Text */}
       <section className="mt-8">
         <section className="mt-8">
           <Preview
-            title="xsmall (Default)"
-            preview={<Xs />}
-            code={examples ? examples.Xs : 'Loading'}
+            title="Label"
+            preview={<UrlWithLabel />}
+            code={examples ? examples.UrlWithLabel : 'Loading'}
           />
         </section>
         <section className="mt-8">
           <Preview
-            title="xsmall (Types)"
-            preview={<XsTypes />}
-            code={examples ? examples.XsTypes : 'Loading'}
-          />
-        </section>
-      </section>
-
-      {/* S */}
-      <section className="mt-8">
-        <section className="mt-8">
-          <Preview
-            title="small (Default)"
-            preview={<InputS />}
-            code={examples ? examples.InputS : 'Loading'}
+            title="Without Label"
+            preview={<UrlWithoutLabel />}
+            code={examples ? examples.UrlWithoutLabel : 'Loading'}
           />
         </section>
         <section className="mt-8">
           <Preview
-            title="small (Types)"
-            preview={<InputSTypes />}
-            code={examples ? examples.InputSTypes : 'Loading'}
-          />
-        </section>
-      </section>
-
-      {/* M */}
-      <section className="mt-8">
-        <section className="mt-8">
-          <Preview
-            title="medium (Default)"
-            preview={<InputM />}
-            code={examples ? examples.InputM : 'Loading'}
+            title="Hint message"
+            preview={<UrlWithHint />}
+            code={examples ? examples.UrlWithHint : 'Loading'}
           />
         </section>
         <section className="mt-8">
           <Preview
-            title="medium (Types)"
-            preview={<InputMTypes />}
-            code={examples ? examples.InputM : 'Loading'}
+            title="Disabled"
+            preview={<UrlDisabled />}
+            code={examples ? examples.UrlDisabled : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Error"
+            preview={<UrlError />}
+            code={examples ? examples.UrlError : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Input with background color"
+            preview={<UrlBgColor />}
+            code={examples ? examples.UrlBgColor : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Readonly"
+            preview={<UrlReadonly />}
+            code={examples ? examples.UrlReadonly : 'Loading'}
           />
         </section>
       </section>

@@ -1,0 +1,549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput: type Url renders disabled 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 ftPOyc"
+      disabled={true}
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 dInVWZ"
+        disabled={true}
+        placeholder=" "
+        type="url"
+        value="https://sportsbet.io"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 ftPOyc"
+      disabled={true}
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 izGTPy"
+        disabled={true}
+        placeholder=" "
+        type="url"
+        value="https://sportsbet.io"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 ftPOyc"
+      disabled={true}
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 ekauWU"
+          disabled={true}
+          placeholder=" "
+          type="url"
+          value="https://sportsbet.io"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Url renders error 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 fCNdsc"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 gliQQD"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 fKxCuv"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 gliQQD"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 eJaiIp"
+          placeholder="e.g. https://sportsbet.io"
+          type="url"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 gliQQD"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Url renders readOnly 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 dInVWZ"
+        placeholder=" "
+        readOnly={true}
+        type="url"
+        value="https://sportsbet.io"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 izGTPy"
+        placeholder=" "
+        readOnly={true}
+        type="url"
+        value="https://sportsbet.io"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 ekauWU"
+          placeholder=" "
+          readOnly={true}
+          type="url"
+          value="https://sportsbet.io"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Url renders with hint 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 dInVWZ"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 izGTPy"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 ekauWU"
+          placeholder="e.g. https://sportsbet.io"
+          type="url"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Url renders with label 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 dInVWZ"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 izGTPy"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 ekauWU"
+          placeholder="e.g. https://sportsbet.io"
+          type="url"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Url renders without label 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <input
+        className="Input-qkdgvx-0 dInVWZ"
+        placeholder="xsmall"
+        type="url"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <input
+        className="Input-qkdgvx-0 izGTPy"
+        placeholder="small"
+        type="url"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 bMgBMq"
+      >
+        <input
+          className="Input-qkdgvx-0 ehNhvs"
+          placeholder="medium"
+          type="url"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Url supports background colour 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        xsmall
+      </label>
+      <input
+        className="Input-qkdgvx-0 bVigKL"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 irIYEK"
+      >
+        small
+      </label>
+      <input
+        className="Input-qkdgvx-0 jstzOA"
+        placeholder="e.g. https://sportsbet.io"
+        type="url"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 iPTTwu"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 dKhopI"
+      >
+        <input
+          className="Input-qkdgvx-0 ekauWU"
+          placeholder="e.g. https://sportsbet.io"
+          type="url"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 bMijKN"
+        >
+          medium
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 jqaInz"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
