@@ -428,25 +428,25 @@ const sharedTokens: SharedTheme = {
 };
 
 export const sharedTokensNew: SharedThemeNew = {
-  border: `${rem(borderWidth)} ${borderStyle}`,
-  breakpoint: {
+  borderNew: `${rem(borderWidth)} ${borderStyle}`,
+  breakpointNew: {
     small: rem(640),
     medium: rem(768),
     large: rem(1024),
     xlarge: rem(1280),
     twoxlarge: rem(1536),
   },
-  fontSize: {
+  fontSizeNew: {
     body: rem(16),
   },
-  fontWeight: {
+  fontWeightNew: {
     normal: 400,
     semibold: 500,
   },
-  opacity: {
+  opacityNew: {
     disabled: 0.32,
   },
-  size: {
+  sizeNew: {
     twoxsmall: rem(16),
     xsmall: rem(24),
     small: rem(32),
