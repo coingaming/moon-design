@@ -20,6 +20,9 @@
     "build:types": "tsc --project tsconfig.json --declarationMap",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
+  "dependencies": {
+    "@heathmont/moon-utils": "workspace:^7.16.0"
+  },
   "peerDependencies": {
     "react": ">= 16.10.2",
     "react-dom": ">= 16.10.2",
