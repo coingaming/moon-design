@@ -2,9 +2,9 @@ import React from 'react';
 import Size from '../private/enums/Size';
 import ButtonComponent from './styles/ButtonComponent';
 
-export type ButtonSizes = Size.SMALL | Size.MEDIUM | Size.LARGE | Size.XLARGE;
-export type ButtonVariants = 'fill' | 'stroke' | 'fillSecondary' | 'ghost';
-export type ButtonIcons = 'left' | 'right' | 'only';
+type ButtonSizes = Size.SMALL | Size.MEDIUM | Size.LARGE | Size.XLARGE;
+type ButtonVariants = 'fill' | 'stroke' | 'fillSecondary' | 'ghost';
+type ButtonIcons = 'left' | 'right' | 'only';
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({
   disabled,
 }) => (
   <ButtonComponent
-    size={size}
+    size={size as ButtonSizes}
     variant={variant}
     icon={icon}
     iconSize={iconSize}
