@@ -123,7 +123,6 @@ importers:
       react-dom: 17.0.2
       react-test-renderer: ^17.0.2
       styled-components: 5.2.1
-      swiper: 6.7.5
       swr: ^1.0.1
       tailwindcss: 2.1.2
       typescript: 4.3.4
@@ -157,7 +156,6 @@ importers:
       react-dom: 17.0.2_react@17.0.2
       react-test-renderer: 17.0.2_react@17.0.2
       styled-components: 5.2.1_react-dom@17.0.2+react@17.0.2
-      swiper: 6.7.5
       swr: 1.0.1_react@17.0.2
       tailwindcss: 2.1.2_bce0498cf0c3ab962ab667a3a4ae1b48
       typescript: 4.3.4
@@ -4513,12 +4511,6 @@ packages:
       domelementtype: 2.2.0
       entities: 2.2.0
     dev: true
-
-  /dom7/3.0.0:
-    resolution: {integrity: sha512-oNlcUdHsC4zb7Msx7JN3K0Nro1dzJ48knvBOnDPKJ2GV9wl1i5vydJZUSyOfrkKFDZEud/jBsTk92S/VGSAe/g==}
-    dependencies:
-      ssr-window: 3.0.0
-    dev: false
 
   /domain-browser/1.2.0:
     resolution: {integrity: sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==}
@@ -9544,10 +9536,6 @@ packages:
       safer-buffer: 2.1.2
       tweetnacl: 0.14.5
 
-  /ssr-window/3.0.0:
-    resolution: {integrity: sha512-q+8UfWDg9Itrg0yWK7oe5p/XRCJpJF9OBtXfOPgSJl+u3Xd5KI328RUEvUqSMVM9CiQUEf1QdBzJMkYGErj9QA==}
-    dev: false
-
   /stable/0.1.8:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
     dev: true
@@ -9923,15 +9911,6 @@ packages:
       unquote: 1.1.1
       util.promisify: 1.0.1
     dev: true
-
-  /swiper/6.7.5:
-    resolution: {integrity: sha512-KaTjO93tZyMpxWHaey+T+H/JeePMZV/joZWhZaor76Xk+rPGmjOz1S8mXSyrRkaW0p0LOJYeWGB8d0gYxSSV/Q==}
-    engines: {node: '>= 4.7.0'}
-    requiresBuild: true
-    dependencies:
-      dom7: 3.0.0
-      ssr-window: 3.0.0
-    dev: false
 
   /swr/1.0.1_react@17.0.2:
     resolution: {integrity: sha512-EPQAxSjoD4IaM49rpRHK0q+/NzcwoT8c0/Ylu/u3/6mFj/CWnQVjNJ0MV2Iuw/U+EJSd2TX5czdAwKPYZIG0YA==}
