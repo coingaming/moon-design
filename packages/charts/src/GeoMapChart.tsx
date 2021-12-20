@@ -39,7 +39,7 @@ type Props = {
   hasUpdates?: boolean;
   filter?: React.ReactNode;
   height?: string | number;
-  icon?: any;
+  icon?: JSX.Element;
   compact?: boolean;
   positiveColor?: ColorProps;
   negativeColor?: ColorProps;

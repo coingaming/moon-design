@@ -1,31 +1,18 @@
 import React from 'react';
 
-import { ProgressLinear } from '@heathmont/moon-components';
 import Preview from '../../../components/codePreview/Preview';
 
-const ExampleProgressLinear = () => {
-  return (
-    <div className="flex justify-around items-center w-full">
-      <ProgressLinear
-        value={30}
-        text={<span>Progress</span>}
-        backgroundColor="hit.100"
-      />
-      <ProgressLinear
-        value={30}
-        text={<span>Progress</span>}
-        backgroundColor="hit.100"
-        height={5}
-      />
-    </div>
-  );
-};
+import Default from '../../../public/examples/progress/linear/Default';
+
+import useExamples from '../../../utils/useExamples';
 
 export default function PageProgressLinear() {
+  const examples = useExamples('progress/linear');
+
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Progress Circular</h1>
+        <h1 className="text-5xl font-semibold">Progress Linear</h1>
         <p className="text-lg mt-4">
           A progress indicator is a visual representation of a user’s progress
           through a set of steps, guiding toward the completion of a specified
@@ -41,21 +28,8 @@ export default function PageProgressLinear() {
       <section className="mt-8">
         <Preview
           title="Examples"
-          preview={<ExampleProgressLinear />}
-          code={`import { ProgressLinear } from '@heathmont/moon-components';
-
-<ProgressLinear
-  value={30}
-  text={<span>Progress</span>}
-  backgroundColor="hit.100"
-/>
-<ProgressLinear
-  value={30}
-  text={<span>Progress</span>}
-  backgroundColor="hit.100"
-  height={5}
-/>
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
     </>

@@ -28,11 +28,24 @@ type Props = {
   }[];
 };
 
-export const Map: React.FC<Props> = ({ data }) => {
+interface MapData {
+  label: string | React.ReactNode;
+  code: string;
+  value: number;
+  opacity: number;
+  color: string;
+}
+
+interface MapProps {
+  data: MapData[];
+}
+
+export const Map: React.FC<MapProps> = ({ data }) => {
   const theme = useTheme();
   const defaultColor = themed('color', 'goku.80')(theme);
   const tooltipRef = useRef<HTMLDivElement>(null);
-  const [hoveredItem, setHoveredItem] = useState<any>(null);
+  const [hoveredItem, setHoveredItem] =
+    useState<MapData | null | undefined>(null);
   const isCountryCode = (
     code: string,
     country: { ISO_A2: string; ISO_A3: string }

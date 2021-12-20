@@ -1,16 +1,17 @@
 import React from 'react';
-import TextInputTypes from './TextInputTypes';
+import TextInputTypes from './types/TextInputTypes';
 import Input from './Input';
 import HintText from './HintText';
 import Container from '../styles/Container';
 import Inner from '../styles/Inner';
 import LabelInner from '../styles/LabelInner';
 import { ColorProps } from '@heathmont/moon-themes';
+import TextInputSizeType from './types/SizeTypes';
 
 interface TextInputMediumProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: 'xsmall' | 'small' | 'medium';
+  inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
   type: TextInputTypes;
   placeholder?: string;
@@ -46,13 +47,13 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
   };
   return (
     <Container disabled={disabled}>
-      <Inner>
+      <Inner bgColor={backgroundColor}>
         <Input
-          backgroundColor={backgroundColor}
           inputSize={inputSize}
           error={isError}
           ref={ref}
           id={id}
+          isLabel={!!label}
           {...inputProps}
         />
         <LabelInner>{label}</LabelInner>

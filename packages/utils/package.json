@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-utils",
   "sideEffects": false,
-  "version": "7.10.2",
+  "version": "7.16.0",
   "files": [
     "lib"
   ],
@@ -21,7 +21,7 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-themes": "workspace:^7.10.2",
+    "@heathmont/moon-themes": "workspace:^7.16.0",
     "lodash.get": "4.4.2",
     "lodash.has": "4.5.2",
     "polished": "3.4.1"

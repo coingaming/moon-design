@@ -2,8 +2,10 @@ import startOfWeek from 'date-fns/startOfWeek';
 import endOfWeek from 'date-fns/endOfWeek';
 import eachDayOfInterval from 'date-fns/eachDayOfInterval';
 
-interface WeekStartType {
-  weekStartsOn?: 0 | 1 | 2 | 3 | 4 | 5 | 6;
+export type WeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6;
+
+export interface WeekStartType {
+  weekStartsOn?: WeekStartsOn;
   cursorDate: Date;
 }
 

@@ -1,19 +1,14 @@
 import React from 'react';
 
-import { ProgressCircular } from '@heathmont/moon-components';
 import Preview from '../../../components/codePreview/Preview';
 
-const ExampleProgressLinear = () => {
-  return (
-    <div className="flex justify-around items-center w-full">
-      <ProgressCircular value={30} fontSize="5rem" strokeWidth={12} />
-      <ProgressCircular value={40} fontSize="8rem" strokeWidth={12} />
-      <ProgressCircular value={60} fontSize="5rem" strokeWidth={2} />
-    </div>
-  );
-};
+import Default from '../../../public/examples/progress/circular/Default';
+
+import useExamples from '../../../utils/useExamples';
 
 export default function PageProgressLinear() {
+  const examples = useExamples('progress/circular');
+
   return (
     <>
       <section className="mt-8">
@@ -37,13 +32,8 @@ export default function PageProgressLinear() {
       <section className="mt-8">
         <Preview
           title="Examples"
-          preview={<ExampleProgressLinear />}
-          code={`import { ProgressCircular } from '@heathmont/moon-components';
-
-<ProgressCircular value={30} fontSize="5rem" strokeWidth={12} />
-<ProgressCircular value={40} fontSize="8rem" strokeWidth={12} />
-<ProgressCircular value={60} fontSize="5rem" strokeWidth={2} />
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
     </>

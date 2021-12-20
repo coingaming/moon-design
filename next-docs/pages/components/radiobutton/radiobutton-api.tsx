@@ -1,60 +1,16 @@
 // @ts-nocheck
 import React from 'react';
 
-import {
-  RadioButtonLabel,
-  RadioButtonInput,
-  ListItem,
-} from '@heathmont/moon-core';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 
-const Example = () => {
-  return (
-    <div className="flex flex-col">
-      <h4 className="mb-2">Please select your age:</h4>
-      <div className="mb-2">
-        <RadioButtonLabel id="age1">
-          <ListItem
-            backgroundColor="goku.100"
-            elementRight={
-              <RadioButtonInput name="age" ariaLabel="0 - 30" id="age1" />
-            }
-          >
-            0 - 30
-          </ListItem>
-        </RadioButtonLabel>
-      </div>
-      <div className="mb-2">
-        <RadioButtonLabel id="age2">
-          <ListItem
-            backgroundColor="goku.100"
-            elementRight={
-              <RadioButtonInput name="age" ariaLabel="0 - 30" id="age2" />
-            }
-          >
-            31 - 60
-          </ListItem>
-        </RadioButtonLabel>
-      </div>
-      <div className="mb-2">
-        <RadioButtonLabel id="age3">
-          <ListItem
-            backgroundColor="goku.100"
-            elementRight={
-              <RadioButtonInput name="age" ariaLabel="61 - 100" id="age3" />
-            }
-          >
-            31 - 60
-          </ListItem>
-        </RadioButtonLabel>
-      </div>
-    </div>
-  );
-};
+import Default from '../../../public/examples/radiobutton/radiobutton-api/Default';
+
+import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
+  const examples = useExamples('radiobutton-api');
+
   return (
     <>
       <section className="mt-8">
@@ -71,27 +27,8 @@ export default function RadioButtonPage() {
       <section className="mt-8">
         <Preview
           title="List Item with Radio button"
-          preview={<Example />}
-          code={`import { RadioButtonLabel, RadioButtonInput, ListItem  } from '@heathmont/moon-core';
-
-<RadioButtonLabel id="age1">
-  <ListItem backgroundColor="goku.100" elementRight={<RadioButtonInput name="age" ariaLabel="0 - 30" id="age1" />}>
-    0 - 30
-  </ListItem>
-</RadioButtonLabel>
-
-<RadioButtonLabel id="age2">
-  <ListItem backgroundColor="goku.100" elementRight={<RadioButtonInput name="age" ariaLabel="31 - 60" id="age2" />}>
-    31 - 60
-  </ListItem>
-</RadioButtonLabel>
-
-<RadioButtonLabel id="age3">
-  <ListItem backgroundColor="goku.100" elementRight={<RadioButtonInput name="age" ariaLabel="0 - 30" id="age3" />}>
-    0 - 30
-  </ListItem>
-</RadioButtonLabel>
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 

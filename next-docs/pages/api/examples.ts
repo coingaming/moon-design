@@ -34,8 +34,15 @@ const getFilesFromDirectory = async (dirPath: string) => {
     (filenames) => filenames.split('.tsx')[0]
   );
 
-  const fileSources = filenames.map((fileName) => {
-    const pathToSourceCode = path.join('/', dirPath, fileName);
+  const filePaths = filenames.map((fileName) => {
+    return path.join('/', dirPath, fileName);
+  });
+
+  const onlyFilePaths = filePaths.filter((fileName) => {
+    return fs.lstatSync(fileName).isFile()
+  });
+
+  const fileSources = onlyFilePaths.map((pathToSourceCode) => {
     return readFromFile(pathToSourceCode);
   });
 
@@ -50,7 +57,11 @@ export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   const { component } = req.query;
   const dirRelativeToPublicFolder = 'examples';
 
-  const dirPath = path.resolve('./public', dirRelativeToPublicFolder, component as string);
+  const dirPath = path.resolve(
+    './public',
+    dirRelativeToPublicFolder,
+    component as string
+  );
 
   const examples = await getFilesFromDirectory(dirPath);
   res.status(200).json({ examples });

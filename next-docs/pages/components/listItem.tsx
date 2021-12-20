@@ -1,14 +1,20 @@
 import React from 'react';
 
-import { Checkbox, ListItem } from '@heathmont/moon-core';
-import { IconClaps } from '@heathmont/moon-assets';
 import Preview from '../../components/codePreview/Preview';
 
-const SubText: React.FC = () => (
-  <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
-);
+import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
+import SingleLineItemSize from '../../public/examples/listItem/SingleLineItemSize';
+import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
+import TwoLineItems from '../../public/examples/listItem/TwoLineItems';
+import TwoLineItemsSize from '../../public/examples/listItem/TwoLineItemsSize';
+import TwoLineItemsIcon from '../../public/examples/listItem/TwoLineItemsIcon';
+import TwoLineItemsCheckbox from '../../public/examples/listItem/TwoLineItemsCheckbox';
+
+import useExamples from '../../utils/useExamples';
 
 export default function PageListItem() {
+  const examples = useExamples('listItem');
+
   return (
     <>
       <section className="mt-8">
@@ -23,116 +29,22 @@ export default function PageListItem() {
       </section>
       <section className="mt-2">
         <Preview
-          preview={
-            <div className="flex justify-around items-center w-full min-w-min flex-wrap">
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem>Single line item</ListItem>
-              </div>
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem backgroundColor="goku.100">Single line item</ListItem>
-              </div>
-            </div>
-          }
-          code={`import { ListItem } from '@heathmont/moon-core';
-
-<ListItem>Single line item</ListItem>
-
-<ListItem backgroundColor="goku.100">Single line item</ListItem>
-`}
+          preview={<SingleLineItem />}
+          code={examples ? examples.SingleLineItem : 'Loading'}
         />
       </section>
       <section className="mt-8">
         <Preview
           title="Size (by default: large)"
-          preview={
-            <div className="flex justify-around items-center w-full min-w-min flex-wrap">
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem backgroundColor="goku.100">Large</ListItem>
-              </div>
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem size="medium" backgroundColor="goku.100">
-                  Medium
-                </ListItem>
-              </div>
-            </div>
-          }
-          code={`import { ListItem } from '@heathmont/moon-core';
-
-<ListItem backgroundColor="goku.100">Large</ListItem>
-
-<ListItem size="medium" backgroundColor="goku.100">
-  Medium
-</ListItem>
-`}
+          preview={<SingleLineItemSize />}
+          code={examples ? examples.SingleLineItemSize : 'Loading'}
         />
       </section>
       <section className="mt-8">
         <Preview
           title="Icon and Meta"
-          preview={
-            <div className="flex justify-around items-center w-full flex-wrap">
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementLeft={<IconClaps />}
-                >
-                  Single line item
-                </ListItem>
-              </div>
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementRight={<IconClaps />}
-                >
-                  Single line item
-                </ListItem>
-              </div>
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementLeft={<IconClaps />}
-                  elementRight={<IconClaps />}
-                >
-                  Single line item
-                </ListItem>
-              </div>
-              <div className="m-0.5 min-w-full sm:min-w-min">
-                <ListItem
-                  backgroundColor="goku.100"
-                  isMeta
-                  elementRight={<>Meta</>}
-                >
-                  Single line item
-                </ListItem>
-              </div>
-            </div>
-          }
-          code={`import { ListItem } from '@heathmont/moon-core';
-
-<ListItem backgroundColor="goku.100" elementLeft={<IconClaps />}>
-  Single line item
-</ListItem>
-
-<ListItem backgroundColor="goku.100" elementRight={<IconClaps />}>
-  Single line item
-</ListItem>
-
-<ListItem
-  backgroundColor="goku.100"
-  elementLeft={<IconClaps />}
-  elementRight={<IconClaps />}
->
-  Single line item
-</ListItem>
-
-<ListItem
-  backgroundColor="goku.100"
-  isMeta
-  elementRight={<>Meta</>}
->
-  Single line item
-</ListItem>
-`}
+          preview={<SingleLineItemIcon />}
+          code={examples ? examples.SingleLineItemIcon : 'Loading'}
         />
       </section>
       <section className="mt-10 text-center">
@@ -140,174 +52,30 @@ export default function PageListItem() {
       </section>
       <section className="mt-2">
         <Preview
-          preview={
-            <div className="flex justify-around items-center w-full min-w-min flex-wrap">
-              <div className="min-w-full sm:min-w-min mb-2">
-                <ListItem subtext={<SubText />}>Two lines item</ListItem>
-              </div>
-              <div className="sm:w-96">
-                <ListItem backgroundColor="goku.100" subtext={<SubText />}>
-                  Two lines item
-                </ListItem>
-              </div>
-            </div>
-          }
-          code={`import { ListItem } from '@heathmont/moon-core';
-
-<ListItem
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Two lines item
-</ListItem>
-
-<ListItem
-  backgroundColor="goku.100"
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Two lines item
-</ListItem>
-`}
+          preview={<TwoLineItems />}
+          code={examples ? examples.TwoLineItems : 'Loading'}
         />
       </section>
       <section className="mt-8">
         <Preview
           title="Size (by default: large)"
-          preview={
-            <div className="flex justify-around items-center w-full flex-wrap">
-              <div className="m-0.5">
-                <ListItem backgroundColor="goku.100" subtext={<SubText />}>
-                  Large
-                </ListItem>
-              </div>
-              <div className="m-0.5">
-                <ListItem
-                  size="medium"
-                  backgroundColor="goku.100"
-                  subtext={<SubText />}
-                >
-                  Medium
-                </ListItem>
-              </div>
-            </div>
-          }
-          code={`import { ListItem } from '@heathmont/moon-core';
-
-<ListItem
-  backgroundColor="goku.100"
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Large
-</ListItem>
-
-<ListItem
-  size="medium"
-  backgroundColor="goku.100"
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Medium
-</ListItem>
-`}
+          preview={<TwoLineItemsSize />}
+          code={examples ? examples.TwoLineItemsSize : 'Loading'}
         />
       </section>
       <section className="mt-8">
         <Preview
           title="Icon and Meta"
-          preview={
-            <div className="flex justify-around items-center w-full flex-wrap">
-              <div className="w-72 m-0.5">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementLeft={<IconClaps />}
-                  subtext={<SubText />}
-                >
-                  Two lines item
-                </ListItem>
-              </div>
-              <div className="w-72 m-0.5">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementRight={<IconClaps />}
-                  subtext={<SubText />}
-                >
-                  Two lines item
-                </ListItem>
-              </div>
-              <div className="w-72 m-0.5">
-                <ListItem
-                  backgroundColor="goku.100"
-                  elementLeft={<IconClaps />}
-                  elementRight={<IconClaps />}
-                  subtext={<SubText />}
-                >
-                  Two lines item
-                </ListItem>
-              </div>
-              <div className="w-72 m-0.5">
-                <ListItem
-                  backgroundColor="goku.100"
-                  isMeta
-                  elementRight={<>Meta</>}
-                  subtext={<SubText />}
-                >
-                  Two lines item
-                </ListItem>
-              </div>
-            </div>
-          }
-          code={`import { ListItem } from '@heathmont/moon-core';
-
-<ListItem
-  backgroundColor="goku.100"
-  elementLeft={<IconClaps />}
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Two lines item
-</ListItem>
-
-<ListItem
-  backgroundColor="goku.100"
-  elementRight={<IconClaps />}
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Two lines item
-</ListItem>
-
-<ListItem
-  backgroundColor="goku.100"
-  elementLeft={<IconClaps />}
-  elementRight={<IconClaps />}
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Two lines item
-</ListItem>
-
-<ListItem
-  backgroundColor="goku.100"
-  isMeta
-  elementRight={<>Meta</>}
-  subtext={<>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>}
->
-  Two lines item
-</ListItem>
-`}
+          preview={<TwoLineItemsIcon />}
+          code={examples ? examples.TwoLineItemsIcon : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
           title="Checkbox"
-          preview={
-            <div className="flex justify-around items-center w-full flex-wrap">
-              <div className="w-72 m-0.5">
-                <ListItem
-                  elementRight={<Checkbox />}
-                  subtext={<SubText />}
-                >
-                  Two lines item
-                </ListItem>
-              </div>
-            </div>
-          }
+          preview={<TwoLineItemsCheckbox />}
+          code={examples ? examples.TwoLineItemsCheckbox : 'Loading'}
         />
       </section>
     </>

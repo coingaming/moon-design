@@ -1,36 +1,14 @@
 import React from 'react';
 
-import { Checkbox, Heading } from '@heathmont/moon-core';
-import {
-  Button,
-  DialogOverlay,
-  DialogContent,
-} from '@heathmont/moon-components';
+import Default from '../../../public/examples/dialog/dialogContent/Default';
 
 import Preview from '../../../components/codePreview/Preview';
 
-const Example = () => {
-  const [showDialog, setShowDialog] = React.useState(false);
-  const position = 'CENTER'; // or 'TOP'
-  const maxWidth = '760px';
-
-  return (
-    <>
-      <Button variant="secondary" onClick={() => setShowDialog(true)}>
-        Open Dialog
-      </Button>
-      <DialogOverlay isOpen={showDialog} onDismiss={() => setShowDialog(false)}>
-        <DialogContent maxWidth={maxWidth} position={position}>
-          <Heading size={24} as="h2">
-            Dialog Content is here
-          </Heading>
-        </DialogContent>
-      </DialogOverlay>
-    </>
-  );
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogContent() {
+  const examples = useExamples('dialog/dialogContent');
+
   return (
     <>
       <section className="mt-8">
@@ -55,7 +33,11 @@ export default function PageDialogContent() {
 
       {/* Default */}
       <section className="mt-8">
-        <Example />
+        <Preview
+          title="Default example"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
     </>
   );

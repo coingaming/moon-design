@@ -1,26 +1,14 @@
 import React from 'react';
 
-import { DialogOverlay, Button } from '@heathmont/moon-components';
+import Default from '../../../public/examples/dialog/dialogOverlay/Default';
 
 import Preview from '../../../components/codePreview/Preview';
 
-const Example = () => {
-  const [showDialog, setShowDialog] = React.useState(false);
-
-  return (
-    <>
-      <Button variant="secondary" onClick={() => setShowDialog(true)}>
-        Open Dialog
-      </Button>
-      <DialogOverlay
-        isOpen={showDialog}
-        onDismiss={() => setShowDialog(false)}
-      />
-    </>
-  );
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogOverlay() {
+  const examples = useExamples('dialog/dialogOverlay');
+
   return (
     <>
       <section className="mt-8">
@@ -45,7 +33,11 @@ export default function PageDialogOverlay() {
 
       {/* Default */}
       <section className="mt-8">
-        <Example />
+        <Preview
+          title="Default example"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
     </>
   );

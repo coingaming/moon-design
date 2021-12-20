@@ -109,6 +109,7 @@ interface CarouselProps {
   scrollRightCaption?: any;
   step?: number;
   scrollTo?: number;
+  selectedIndex?: number;
   space?: SpaceProps | CSSObject['margin'];
   horizontalEdgeGap?: number | boolean;
   hideScrollbar?: boolean;
@@ -125,6 +126,7 @@ const Carousel: React.FC<CarouselProps> = ({
   space,
   horizontalEdgeGap,
   hideScrollbar,
+  selectedIndex,
 }) => {
   const {
     itemRef,
@@ -137,6 +139,13 @@ const Carousel: React.FC<CarouselProps> = ({
     firstVisibleIndex,
     lastVisibleIndex,
   } = withHorizontalScroll({ scrollStep: step || 5 });
+
+  React.useEffect(() => {
+    if (!selectedIndex) {
+      return;
+    }
+    scrollToIndex(selectedIndex);
+  }, []);
 
   React.useEffect(() => {
     if (!scrollTo) {

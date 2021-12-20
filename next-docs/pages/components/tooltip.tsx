@@ -1,32 +1,14 @@
 import React from 'react';
 
-import { Tooltip, Text } from '@heathmont/moon-core';
-
 import Preview from '../../components/codePreview/Preview';
 
-const PreviewTooltip = () => {
-  return (
-    <Preview
-      title="Default"
-      preview={
-        <div className="flex gap-20">
-          <Tooltip>
-            <Text size={14}>Text with font size 14</Text>
-          </Tooltip>
-        </div>
-      }
-      code={`import { Tooltip, Text } from '@heathmont/moon-core';
+import Default from '../../public/examples/tooltip/Default';
 
-<Tooltip>
-  <Text size={14}>Text with font size 14</Text>
-</Tooltip>
-
-`}
-    />
-  );
-};
+import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {
+  const examples = useExamples('tooltip');
+
   return (
     <>
       <section className="mt-8">
@@ -38,7 +20,11 @@ export default function PageTooltip() {
 
       {/* Default */}
       <section className="mt-8">
-        <PreviewTooltip />
+        <Preview
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
     </>
   );

@@ -31,6 +31,8 @@ type Props = {
   onVisibilityChange?: (open: boolean) => void;
   padding?: number;
   backgroundColor?: ColorNames;
+  minWidth?: number;
+  maxWidth?: number;
 };
 
 const Popover: React.FC<Props> = ({
@@ -44,6 +46,8 @@ const Popover: React.FC<Props> = ({
   onVisibilityChange,
   padding,
   backgroundColor,
+  minWidth = 300,
+  maxWidth = 600,
 }) => {
   const [visible, setVisible] = useState(defaultState || isOpen);
 
@@ -77,6 +81,8 @@ const Popover: React.FC<Props> = ({
       render={(attrs) => (
         <div className="box" tabIndex={-1} {...attrs}>
           <PopoverContainer
+            minWidth={minWidth}
+            maxWidth={maxWidth}
             className={className}
             padding={padding}
             backgroundColor={backgroundColor}

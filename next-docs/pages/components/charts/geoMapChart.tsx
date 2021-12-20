@@ -1,51 +1,16 @@
 // @ts-nocheck
-import { Filter, GeoMapChart } from '@heathmont/moon-charts';
-import { SingleItemSelect } from '@heathmont/moon-components';
-
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import Table from '../../../components/Table';
 
-const ExampleGeoMapChart = () => {
-  const data = [
-    { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 100 },
-    { label: 'Belarus', code: 'BLR', value: 80 },
-    { label: 'Argentina', code: 'ARG', value: 60 },
-    { label: 'USA', code: 'USA', value: 40 },
-  ];
+import Default from '../../../public/examples/charts/geoMapChart/Default';
 
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <GeoMapChart
-      title="Top Countries"
-      data={data}
-      filter={filter}
-      hasUpdates={true}
-      onUpdate={() => {}}
-      onShare={() => {}}
-      onExpand={() => {}}
-    />
-  );
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function PageGeoMapChart() {
+  const examples = useExamples('charts/geoMapChart');
+
   return (
     <>
       <section className="mt-8">
@@ -66,48 +31,8 @@ export default function PageGeoMapChart() {
       <section className="mt-8">
         <Preview
           title="Default"
-          preview={<ExampleGeoMapChart />}
-          code={`import { Filter, GeoMapChart } from '@heathmont/moon-charts';
-import { SingleItemSelect } from '@heathmont/moon-components';
-
-() => {
-  const data = [
-    { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 100 },
-    { label: 'Belarus', code: 'BLR', value: 80 },
-    { label: 'Argentina', code: 'ARG', value: 60 },
-    { label: 'USA', code: 'USA', value: 40 },
-  ];
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <GeoMapChart
-      title="Top Countries"
-      data={data}
-      filter={filter}
-      hasUpdates={true}
-      onUpdate={() => {}}
-      onShare={() => {}}
-      onExpand={() => {}}
-    />
-  );
-}
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
       <section className="mt-8">

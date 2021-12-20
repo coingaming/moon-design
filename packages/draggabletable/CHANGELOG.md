@@ -1,5 +1,135 @@
 # Change Log
 
+## 7.16.0
+
+### Minor Changes
+
+- 4e2ea1a2: Added debit-cards icon
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [4e2ea1a2]
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.16.0
+  - @heathmont/moon-table@7.16.0
+  - @heathmont/moon-themes@7.16.0
+  - @heathmont/moon-utils@7.16.0
+
+## 7.15.2
+
+### Patch Changes
+
+- Add assets logos
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.15.2
+  - @heathmont/moon-table@7.15.2
+  - @heathmont/moon-themes@7.15.2
+  - @heathmont/moon-utils@7.15.2
+
+## 7.15.1
+
+### Patch Changes
+
+- Revert assets ts fixes & Popover min & max width
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.15.1
+  - @heathmont/moon-components@7.15.1
+  - @heathmont/moon-table@7.15.1
+  - @heathmont/moon-utils@7.15.1
+
+## 7.15.0
+
+### Minor Changes
+
+- Feat Sorting Table initial
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.15.0
+  - @heathmont/moon-table@7.15.0
+  - @heathmont/moon-themes@7.15.0
+  - @heathmont/moon-utils@7.15.0
+
+## 7.14.0
+
+### Minor Changes
+
+- Fix sportsadda colors & button disabled
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.14.0
+  - @heathmont/moon-themes@7.14.0
+  - @heathmont/moon-table@7.14.0
+  - @heathmont/moon-utils@7.14.0
+
+## 7.13.0
+
+### Minor Changes
+
+- Carousel selected item prop
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.13.0
+  - @heathmont/moon-table@7.13.0
+  - @heathmont/moon-themes@7.13.0
+  - @heathmont/moon-utils@7.13.0
+
+## 7.12.1
+
+### Patch Changes
+
+- Fix dialog
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.12.1
+  - @heathmont/moon-table@7.12.1
+  - @heathmont/moon-themes@7.12.1
+  - @heathmont/moon-utils@7.12.1
+
+## 7.12.0
+
+### Minor Changes
+
+- Fix examples
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.12.0
+  - @heathmont/moon-table@7.12.0
+  - @heathmont/moon-themes@7.12.0
+  - @heathmont/moon-utils@7.12.0
+
+## 7.11.1
+
+### Patch Changes
+
+- Fix checkbox
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.11.1
+  - @heathmont/moon-table@7.11.1
+  - @heathmont/moon-themes@7.11.1
+  - @heathmont/moon-utils@7.11.1
+
+## 7.11.0
+
+### Minor Changes
+
+- Fix checkbox
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.11.0
+  - @heathmont/moon-table@7.11.0
+  - @heathmont/moon-themes@7.11.0
+  - @heathmont/moon-utils@7.11.0
+
 ## 7.10.2
 
 ### Patch Changes

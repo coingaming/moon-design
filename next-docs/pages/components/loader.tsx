@@ -1,30 +1,15 @@
 import React from 'react';
 
-import { Loader } from '@heathmont/moon-core';
-import { Inline } from '@heathmont/moon-components';
+import Default from '../../public/examples/loader/Default';
+import Customization from '../../public/examples/loader/Customization';
 
 import Preview from '../../components/codePreview/Preview';
 
-const Example = () => {
-  return (
-    <Inline>
-      <Loader />
-      <Loader color="piccolo.100" />
-    </Inline>
-  );
-};
-
-const ExampleCustomization = () => {
-  return (
-    <Inline>
-      <Loader color="dodoria.100" />
-      <Loader color="trunks.100" />
-      <Loader color="#663399" />
-    </Inline>
-  );
-};
+import useExamples from '../../utils/useExamples';
 
 export default function PageLoader() {
+  const examples = useExamples('loader');
+
   return (
     <>
       <section className="mt-8">
@@ -36,15 +21,8 @@ export default function PageLoader() {
       <section className="mt-8">
         <Preview
           title="Default"
-          preview={<Example />}
-          code={`import { Loader } from '@heathmont/moon-core';
-import { Inline } from '@heathmont/moon-components';
-
-<Inline>
-  <Loader />
-  <Loader color="piccolo.100" />
-</Inline>
-`}
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -52,16 +30,8 @@ import { Inline } from '@heathmont/moon-components';
       <section className="mt-8">
         <Preview
           title="Colours"
-          preview={<ExampleCustomization />}
-          code={`import { Loader } from '@heathmont/moon-core';
-import { Inline } from '@heathmont/moon-components';
-
-<Inline>
-  <Loader color="dodoria.100" />
-  <Loader color="trunks.100" />
-  <Loader color="#663399" />
-</Inline>
-`}
+          preview={<Customization />}
+          code={examples ? examples.Customization : 'Loading'}
         />
       </section>
     </>

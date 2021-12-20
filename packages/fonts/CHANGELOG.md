@@ -1,5 +1,69 @@
 # Change Log
 
+## 7.16.0
+
+### Minor Changes
+
+- 4e2ea1a2: Added debit-cards icon
+
+### Patch Changes
+
+- Bump version
+
+## 7.15.2
+
+### Patch Changes
+
+- Add assets logos
+
+## 7.15.1
+
+### Patch Changes
+
+- Revert assets ts fixes & Popover min & max width
+
+## 7.15.0
+
+### Minor Changes
+
+- Feat Sorting Table initial
+
+## 7.14.0
+
+### Minor Changes
+
+- Fix sportsadda colors & button disabled
+
+## 7.13.0
+
+### Minor Changes
+
+- Carousel selected item prop
+
+## 7.12.1
+
+### Patch Changes
+
+- Fix dialog
+
+## 7.12.0
+
+### Minor Changes
+
+- Fix examples
+
+## 7.11.1
+
+### Patch Changes
+
+- Fix checkbox
+
+## 7.11.0
+
+### Minor Changes
+
+- Fix checkbox
+
 ## 7.10.2
 
 ### Patch Changes

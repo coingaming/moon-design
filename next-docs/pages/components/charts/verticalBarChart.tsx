@@ -1,260 +1,18 @@
 // @ts-nocheck
 import React from 'react';
 
-import { Filter, VerticalBarChart } from '@heathmont/moon-charts';
-import { SingleItemSelect } from '@heathmont/moon-components';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
 
-const VerticalBarChartExample = () => {
-  const dataPositive = [
-    { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 100 },
-    { label: 'Belarus', code: 'BLR', value: 80 },
-    { label: 'Argentina', code: 'ARG', value: 60 },
-    { label: 'USA', code: 'USA', value: 40 },
-  ];
+import Active from '../../../public/examples/charts/verticalChart/Active';
+import NoData from '../../../public/examples/charts/verticalChart/NoData';
 
-  const dataMix = [
-    { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 100 },
-    { label: 'Belarus', code: 'BLR', value: 20 },
-    { label: 'Argentina', code: 'ARG', value: -60 },
-    { label: 'USA', code: 'USA', value: -80 },
-  ];
-
-  const dataNegative = [
-    { label: 'Estonia', code: 'EST', value: -40 },
-    { label: 'Russia', code: 'RUS', value: -60 },
-    { label: 'Belarus', code: 'BLR', value: -80 },
-    { label: 'Argentina', code: 'ARG', value: -100 },
-    { label: 'USA', code: 'USA', value: -120 },
-  ];
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <div className="w-full flex flex-row gap-36">
-      <VerticalBarChart
-        title="Top Countries"
-        data={dataPositive}
-        filter={filter}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-
-      <VerticalBarChart
-        title="Top Countries"
-        data={dataMix}
-        filter={filter}
-        isUpdating={true}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-
-      <VerticalBarChart
-        title="Top Countries"
-        data={dataNegative}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-    </div>
-  );
-};
-
-const VerticalBarChartCode = `import { Filter, VerticalBarChart } from '@heathmont/moon-charts';
-import { SingleItemSelect } from '@heathmont/moon-components';
-
-() => {
-  const dataPositive = [
-    { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 100 },
-    { label: 'Belarus', code: 'BLR', value: 80 },
-    { label: 'Argentina', code: 'ARG', value: 60 },
-    { label: 'USA', code: 'USA', value: 40 },
-  ];
-
-  const dataMix = [
-    { label: 'Estonia', code: 'EST', value: 120 },
-    { label: 'Russia', code: 'RUS', value: 100 },
-    { label: 'Belarus', code: 'BLR', value: 20 },
-    { label: 'Argentina', code: 'ARG', value: -60 },
-    { label: 'USA', code: 'USA', value: -80 },
-  ];
-
-  const dataNegative = [
-    { label: 'Estonia', code: 'EST', value: -40 },
-    { label: 'Russia', code: 'RUS', value: -60 },
-    { label: 'Belarus', code: 'BLR', value: -80 },
-    { label: 'Argentina', code: 'ARG', value: -100 },
-    { label: 'USA', code: 'USA', value: -120 },
-  ];
-
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <Inline style={{ flexWrap: 'nowrap' }}>
-      <VerticalBarChart
-        title="Top Countries"
-        data={dataPositive}
-        filter={filter}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-
-      <VerticalBarChart
-        title="Top Countries"
-        data={dataMix}
-        filter={filter}
-        isUpdating={true}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-
-      <VerticalBarChart
-        title="Top Countries"
-        data={dataNegative}
-        filter={filter}
-        hasUpdates={false}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-    </Inline>
-  );
-};
-`;
-
-const PreviewTableChartActive = () => {
-  return (
-    <Preview
-      title="Various data"
-      preview={<VerticalBarChartExample />}
-      code={VerticalBarChartCode}
-    />
-  );
-};
-
-const TableChartNoDataExample = () => {
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <div className="w-full flex flex-row gap-36">
-      <VerticalBarChart
-        title="Top Countries"
-        data={[]}
-        filter={filter}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-    </div>
-  );
-};
-
-const TableChartNoDataCode = `import { Filter, VerticalBarChart } from '@heathmont/moon-charts';
-import { SingleItemSelect } from '@heathmont/moon-components';
-
-() => {
-  const filter = (
-    <Filter title="by GGR">
-      {() => (
-        <SingleItemSelect
-          onChange={() => {}}
-          value="ggr"
-          options={[
-            { label: 'Active players', value: 'actives' },
-            { label: 'GGR', value: 'ggr' },
-            { label: 'Bets', value: 'bets' },
-          ]}
-        />
-      )}
-    </Filter>
-  );
-
-  return (
-    <div className="w-full flex flex-row gap-36">
-      <VerticalBarChart
-        title="Top Countries"
-        data={[]}
-        filter={filter}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-    </div>
-  );
-};
-`;
-
-const PreviewTableChartNoData = () => {
-  return (
-    <Preview
-      title="No data"
-      preview={<TableChartNoDataExample />}
-      code={TableChartNoDataCode}
-    />
-  );
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function PageVerticalBarChart() {
+  const examples = useExamples('charts/verticalChart');
+
   return (
     <>
       <section className="mt-8">
@@ -270,7 +28,11 @@ export default function PageVerticalBarChart() {
 
       {/* Default */}
       <section className="mt-8">
-        <PreviewTableChartActive />
+        <Preview
+          title="Various data"
+          preview={<Active />}
+          code={examples ? examples.Active : 'Loading'}
+        />
       </section>
 
       <section className="mt-8">
@@ -394,7 +156,11 @@ export default function PageVerticalBarChart() {
       </section>
 
       <section className="mt-8">
-        <PreviewTableChartNoData />
+        <Preview
+          title="No data"
+          preview={<NoData />}
+          code={examples ? examples.NoData : 'Loading'}
+        />
       </section>
     </>
   );

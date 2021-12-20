@@ -1,60 +1,15 @@
 import React from 'react';
 
-import { Select } from '@heathmont/moon-components';
+import Default from '../../../public/examples/select/select/Default';
+import Label from '../../../public/examples/select/select/Label';
 
 import Preview from '../../../components/codePreview/Preview';
 
-const PreviewSelect = () => {
-  return (
-    <Preview
-      title="Examples"
-      preview={
-        <Select>
-          <option value="">Select an option</option>
-          <option value="never-gonna">Never gonna</option>
-          <option value="give-you-up">give you up</option>
-          <option value="let-you-down">let you down</option>
-        </Select>
-      }
-      code={`import { Select } from '@heathmont/moon-components';
-
-<Select>
-  <option value="">Select an option</option>
-  <option value="never-gonna">Never gonna</option>
-  <option value="give-you-up">give you up</option>
-  <option value="let-you-down">let you down</option>
-</Select>
-`}
-    />
-  );
-};
-
-const PreviewSelectWithLabel = () => {
-  return (
-    <Preview
-      title="with label"
-      preview={
-        <Select label="Label Content">
-          <option value="">Select an option</option>
-          <option value="never-gonna">Never gonna</option>
-          <option value="give-you-up">give you up</option>
-          <option value="let-you-down">let you down</option>
-        </Select>
-      }
-      code={`import { Select } from '@heathmont/moon-components';
-
-<Select label="Label Content">
-  <option value="">Select an option</option>
-  <option value="never-gonna">Never gonna</option>
-  <option value="give-you-up">give you up</option>
-  <option value="let-you-down">let you down</option>
-</Select>
-`}
-    />
-  );
-};
+import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
+  const examples = useExamples('select/select');
+
   return (
     <>
       <section className="mt-8">
@@ -70,11 +25,19 @@ export default function PageSelect() {
 
       {/* Default */}
       <section className="mt-8">
-        <PreviewSelect />
+        <Preview
+          title="Examples"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
 
       <section className="mt-8">
-        <PreviewSelectWithLabel />
+        <Preview
+          title="with label"
+          preview={<Label />}
+          code={examples ? examples.Label : 'Loading'}
+        />
       </section>
     </>
   );

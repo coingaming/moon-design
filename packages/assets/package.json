@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-assets",
   "sideEffects": false,
-  "version": "7.10.2",
+  "version": "7.16.0",
   "files": [
     "lib"
   ],
@@ -12,12 +12,6 @@
   "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "pnpm run publish:pre:move:lib && pnpm run publish:pre:update:package",
-    "postpublish": "pnpm run publish:post:unmove:lib && pnpm run publish:post:revert:package",
-    "publish:pre:move:lib": "node ../../.config/scripts/publish.js --input ./lib/ --output ./ --mode prepublish",
-    "publish:pre:update:package": "node ../../.config/scripts/updatePackageJson.js --input ./lib/ --package ./package.json --mode prepublish",
-    "publish:post:unmove:lib": "node ../../.config/scripts/publish.js --input ./lib/ --output ./ --mode postpublish",
-    "publish:post:revert:package": "node ../../.config/scripts/updatePackageJson.js --input ./lib/ --package ./package.json --mode postpublish",
     "build:crests": "svgr --ext tsx --config-file ./.config/svgr.config.js -d src/crests raw/crests",
     "build:currencies": "svgr --ext tsx --config-file ./.config/svgr.config.js -d src/currencies raw/currencies",
     "build:duotones": "svgr --ext tsx --config-file ./.config/svgr.config.js -d src/duotones raw/duotones",
@@ -37,8 +31,8 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-themes": "workspace:^7.10.2",
-    "@heathmont/moon-utils": "workspace:^7.10.2"
+    "@heathmont/moon-themes": "workspace:^7.16.0",
+    "@heathmont/moon-utils": "workspace:^7.16.0"
   },
   "peerDependencies": {
     "react": ">= 16.10.2",
