@@ -1,4 +1,4 @@
-import { rem } from '@heathmont/moon-utils';
+import supportColors from '../supportColors/supportColors';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -20,6 +20,7 @@ const borderStyle = 'solid';
 const borderWidth = 1;
 
 const space = 16;
+const baseFontSize = 16;
 
 const transitionDuration = 0.2;
 
@@ -303,6 +304,8 @@ export interface Base {
   readonly lineHeight: number;
 }
 
+const rem = (value: number) => `${value / baseFontSize}rem`;
+
 export type Brand =
   | 'Sportsbet.io'
   | 'Betadda'
@@ -348,16 +351,54 @@ export interface SharedTheme {
     lg: string;
     xl: string;
   };
+  newTokens: Object;
 }
 
-export interface SharedThemeNew {}
+export type Theme = SharedTheme & {
+  brand: Brand;
+  colorScheme: ColorScheme;
+  color: Color;
+};
 
-export type Theme = SharedTheme &
-  SharedThemeNew & {
-    brand: Brand;
-    colorScheme: ColorScheme;
-    color: Color;
-  };
+const sharedColors: Color = {
+  piccolo: {
+    120: '#4E46B4',
+    100: '#4E46B4',
+    80: '#4E46B4',
+  },
+  hit: {
+    120: '#19930E',
+    100: '#1CA30F',
+    80: '#33AC27',
+  },
+  beerus: {
+    100: '#40464F',
+  },
+  goku: {
+    100: '#272E37',
+    80: '#353C44',
+    40: '#4C5159',
+    10: '#62676D',
+  },
+  gohan: {
+    100: '#1A212A',
+    80: '#31373F',
+    40: '#5F646A',
+    10: '#8C9095',
+  },
+  goten: {
+    100: '#FFFFFF',
+  },
+  bulma: {
+    100: '#FFFFFF',
+  },
+  trunks: {
+    100: '#97A2AE',
+  },
+  text: '#fff',
+  background: '#fff',
+  ...supportColors,
+};
 
 const sharedTokens: SharedTheme = {
   base: {
@@ -425,35 +466,43 @@ const sharedTokens: SharedTheme = {
     dialog: 10000,
     toggle: 1,
   },
-};
-
-export const sharedTokensNew: SharedThemeNew = {
-  borderNew: `${rem(borderWidth)} ${borderStyle}`,
-  breakpointNew: {
-    small: rem(640),
-    medium: rem(768),
-    large: rem(1024),
-    xlarge: rem(1280),
-    twoxlarge: rem(1536),
-  },
-  fontSizeNew: {
-    body: rem(16),
-  },
-  fontWeightNew: {
-    normal: 400,
-    semibold: 500,
-  },
-  opacityNew: {
-    disabled: 0.32,
-  },
-  sizeNew: {
-    twoxsmall: rem(16),
-    xsmall: rem(24),
-    small: rem(32),
-    medium: rem(40),
-    large: rem(48),
-    xlarge: rem(56),
-    twoxlarge: rem(64),
+  newTokens: {
+    base: {
+      space,
+      fontSize: baseFontSize,
+      lineHeight: rem(24),
+    },
+    border: `${rem(borderWidth)} ${borderStyle}`,
+    breakpoint: {
+      small: rem(640),
+      medium: rem(768),
+      large: rem(1024),
+      xlarge: rem(1280),
+      twoxlarge: rem(1536),
+    },
+    fontWeight: {
+      normal: 400,
+      semibold: 500,
+    },
+    opacity: {
+      disabled: 0.32,
+    },
+    transform: {
+      active: 'scale(0.9)',
+    },
+    transition: {
+      slow: `${transitionDuration * 2}s ease-in-out`,
+      default: `${transitionDuration}s ease-in-out`,
+    },
+    size: {
+      twoxsmall: rem(16),
+      xsmall: rem(24),
+      small: rem(32),
+      medium: rem(40),
+      large: rem(48),
+      xlarge: rem(56),
+      twoxlarge: rem(64),
+    },
   },
 };
 

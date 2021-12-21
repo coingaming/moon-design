@@ -3,19 +3,20 @@ import { rem } from '@heathmont/moon-utils';
 import type { ButtonProps } from '../../Button';
 
 const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
-  const { fontWeight, radius, transitionDuration } = useTheme();
+  const theme = useTheme();
+  console.log({ theme });
   return [
     {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      fontWeight: fontWeight.semibold,
-      borderRadius: rem(radius.largest),
+      fontWeight: theme.newTokens.fontWeight.semibold,
+      borderRadius: rem(theme.radius.largest),
       textDecoration: 'none',
       fontFamily: 'inherit',
-      transition: `all ${transitionDuration.default}s ease-in-out`,
+      transition: `all ${theme.newTokens.transition.default}`,
       '&:active': {
-        transform: 'scale(0.9)',
+        transform: theme.newTokens.transform.active,
       },
       img: {
         display: 'block',
@@ -29,7 +30,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       },
     },
     disabled && {
-      opacity: 0.32,
+      opacity: theme.newTokens.opacity.disabled,
       cursor: 'not-allowed',
     },
   ];

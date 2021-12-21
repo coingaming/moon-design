@@ -400,10 +400,7 @@ importers:
       react-table-sticky: 1.1.3
 
   packages/themes:
-    specifiers:
-      '@heathmont/moon-utils': workspace:^7.16.0
-    dependencies:
-      '@heathmont/moon-utils': link:../utils
+    specifiers: {}
 
   packages/utils:
     specifiers:
