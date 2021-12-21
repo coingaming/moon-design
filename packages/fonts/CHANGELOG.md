@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.17.0
+
+### Minor Changes
+
+- Livecasino radiuses, nextjs 12, tailwind 3
+
 ## 7.16.0
 
 ### Minor Changes

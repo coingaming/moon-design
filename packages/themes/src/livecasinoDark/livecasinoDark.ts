@@ -52,6 +52,11 @@ const livecasinoDark: Theme = {
   },
   fontWeight: avertaStd.fontWeight,
   boxShadow,
+  radius: {
+    small: 4,
+    default: 8,
+    largest: 8,
+  },
   color: {
     text: color.bulma[100],
     background: color.goku[100],
