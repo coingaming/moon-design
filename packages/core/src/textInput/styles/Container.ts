@@ -1,14 +1,15 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
+import { ColorProps } from '@heathmont/moon-themes';
 
 const Container = styled.div<{
   disabled?: boolean;
-}>(({ theme: { radius }, disabled }) => [
+}>(({ theme, disabled }) => [
   {
     width: '100%',
     maxWidth: '100%',
     position: 'relative',
-    borderRadius: rem(radius.largest),
+    borderRadius: rem(theme.radius.largest),
   },
   disabled && {
     opacity: 0.3,

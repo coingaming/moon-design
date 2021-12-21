@@ -3,20 +3,64 @@
 ## Contents
 
 1. [When does a component go in the design system?](#when-does-a-component-go-in-the-design-system)
-1. [Maintaining Assets](#maintaining-assets)
-1. [Git Strategy](#git-strategy)
-1. [Code Standards](#code-standards)
-1. [Code Style](#code-style)
-1. [Release Process](#release-process)
-1. [Rules](#rules)
-1. [Build process](#build-process)
-1. [ES Modules](#es-modules)
+2. [Release Process](#release-process)
+3. [Prerelease Process](#prerelease-process)
+4. [Maintaining Assets](#maintaining-assets)
+5. [Git Strategy](#git-strategy)
+6. [Code Standards](#code-standards)
+7. [Code Style](#code-style)
+8. [Rules](#rules)
+9. [Build process](#build-process)
+10. [ES Modules](#es-modules)
 
 ---
 
 ## When does a component go in the design system?
 
 [Does It Belong in the System?](https://medium.com/eightshapes-llc/i-made-this-does-it-go-in-the-system-3b67b9894531)
+
+
+
+## Release Process
+
+Thanks to [changeset](https://github.com/changesets/changesets), we can generate version bumps automatically.
+
+1. Ensure that `develop` branch is up to date with `master`. 
+2. Run `pnpm changeset` in the root of the repository and follow CLI instructions to generate a new changeset.
+3. Run `pnpm changeset version` command. This will bump the versions of the packages previously specified with pnpm changeset (and any dependents of those) and update the changelog files.
+4. Run `pnpm install`. This will update the lockfile and rebuild packages.
+5. Commit the changes. (e.g `git add .` and `git commit -m "chore: bump version X.X.X"`)
+5. Push your changes.
+6. Raise a pull request from [`develop` into `master`](https://github.com/coingaming/moon-design/compare/master...develop).
+7. Obtain at least 1 approval.
+8. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/moon-design).
+9. Tag a version and push your tag (`git tag vX.X.X` and `git push && git push --tags`)
+10. Communicate the release to the team!
+
+## Prerelease Process 
+
+You might want to release a version of your packages before you do an actual release, Changesets lets you do this but there are some caveats because of the complexity that monorepos add that are important to understand.
+
+When you want to do a prerelease, you need to enter prerelease mode. You can do that with the pre enter <tag>. The tag that you need to pass is used in versions(e.g. 1.0.0-beta.0) and for the npm dist tag.
+
+A prerelease workflow might look something like this:
+
+```
+pnpm changeset pre enter alpha
+pnpm changeset
+pnpm changeset version
+pnpm install
+
+git checkout -b "feat/prerelease"
+git add .
+git commit -m "Enter prerelease mode and version packages"
+
+pnpm changeset publish
+git push --follow-tags
+
+pnpm changeset pre exit
+```
+
 
 ## Icons
 
@@ -57,7 +101,7 @@ To update/add icons run: `yarn assets build`
 Commits follow the [Angular Commit Message Format](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines). When committing changes, make use of the [Commitizen](https://github.com/commitizen/cz-cli) CLI to generate consistent commit messages:
 
 ```
-yarn commit
+pnpn run commit
 ```
 
 ### Branches
@@ -197,18 +241,6 @@ Each component feature must have a corresponding description page in `next-docs/
 - [`next-docs/pages/components`](next-docs/pages/components)
 
 
-## Release Process
-
-Thanks to [Lerna and Commitizen](https://github.com/lerna/lerna/tree/master/commands/version#--conventional-commits), we can generate version bumps and CHANGELOGs for each package and release automatically.
-
-1. Assuming that all changes to be released have followed the [Git Workflow outlined above](#workflow), raise a pull request from [`develop` into `master`](https://github.com/coingaming/moon-design/compare/master...develop).
-2. Ensure the pull request is up to date with `master`.
-3. Obtain at least 1 approval.
-4. Click the "Merge Pull Request" button to trigger an automatic release, monitoring progress in [CircleCI](https://circleci.com/gh/coingaming/moon-design).
-
-   - If successful, a new [tag](https://github.com/coingaming/moon-design/releases) will be visible, along with new package versions on NPM.
-
-5. Communicate the release to the team!
 
 ## ES Modules
 
@@ -233,7 +265,7 @@ First we transpile `commonjs` format modules into the `lib` folder directly.
 Second we transpile `es` format modules into the `lib/es` folder.
 Third we generated typescript definitions into the `lib` folder directly.
 
-### Release process
+### ES Release process
 
 **Before** we release, we will:
 

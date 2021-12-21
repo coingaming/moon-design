@@ -4,18 +4,23 @@ import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex flex-col gap-4">
-    <p>Text input medium size should always be with label</p>
     <TextInput
       type="text"
       inputSize="medium"
-      label="Label text"
+      label="With label"
       placeholder="Placeholder"
     />
 
     <TextInput
       type="text"
       inputSize="medium"
-      label="Label text"
+      placeholder="Placeholder: Without label"
+    />
+
+    <TextInput
+      type="text"
+      inputSize="medium"
+      label="With hint below"
       placeholder="Placeholder"
       hintText="Informative message holder"
     />
@@ -37,7 +42,23 @@ const Example = () => (
         inputSize="medium"
         hintText="Informative message holder"
         isError
+        backgroundColor="goku.10"
       />
+    </div>
+
+    <TextInput
+      type="text"
+      inputSize="medium"
+      label="Input with background color"
+      placeholder="Placeholder"
+      hintText="Informative message holder"
+      backgroundColor="goku.10"
+    />
+
+    <div className="pt-4">
+      <p className="text-red-600">
+        !!! Text input medium size could have inner label only
+      </p>
     </div>
   </div>
 );
