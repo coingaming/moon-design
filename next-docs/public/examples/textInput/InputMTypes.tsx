@@ -4,19 +4,19 @@ import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex flex-col gap-4">
-    <TextInput type="date" label="Date" inputSize="medium" />
-    <TextInput type="datetime-local" inputSize="medium" label="Date and time" />
+    <TextInput type="date" label="Date" inputSize="xlarge" />
+    <TextInput type="datetime-local" inputSize="xlarge" label="Date and time" />
 
     <TextInput
       type="email"
-      inputSize="medium"
+      inputSize="xlarge"
       label="Email"
       placeholder="e.g. jake.weary@sportsbet.io"
     />
 
     <TextInput
       type="number"
-      inputSize="medium"
+      inputSize="xlarge"
       label="Number"
       placeholder="e.g. 1234"
       required
@@ -24,7 +24,7 @@ const Example = () => (
 
     <TextInput
       type="password"
-      inputSize="medium"
+      inputSize="xlarge"
       placeholder="Please enter your account password"
       label="Password"
       showPasswordText="Show"
@@ -32,7 +32,7 @@ const Example = () => (
 
     <TextInput
       type="search"
-      inputSize="medium"
+      inputSize="xlarge"
       label="Search"
       placeholder="e.g. EPL"
       required
@@ -40,16 +40,16 @@ const Example = () => (
 
     <TextInput
       type="tel"
-      inputSize="medium"
+      inputSize="xlarge"
       label="Telephone"
       placeholder="e.g. +372 123 4567"
     />
 
-    <TextInput type="time" inputSize="medium" label="Time" />
+    <TextInput type="time" inputSize="xlarge" label="Time" />
 
     <TextInput
       type="url"
-      inputSize="medium"
+      inputSize="xlarge"
       label="URL"
       placeholder="e.g. https://sportsbet.io"
     />

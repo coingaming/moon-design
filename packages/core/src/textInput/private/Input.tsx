@@ -93,7 +93,7 @@ const Input = styled.input.attrs(({ type }) => ({
         paddingTop: rem(6),
       },
     },
-    inputSize === Size.SMALL && {
+    inputSize === Size.LARGE && {
       height: rem(48),
       lineHeight: rem(48),
       '&::-webkit-datetime-edit': {
@@ -104,9 +104,8 @@ const Input = styled.input.attrs(({ type }) => ({
         paddingTop: rem(10),
       },
     },
-    inputSize === Size.MEDIUM && {
+    inputSize === Size.XLARGE && {
       height: rem(56),
-      fontSize: rem(14),
       lineHeight: rem(56),
       '&::-webkit-datetime-edit': {
         height: rem(54),
@@ -116,11 +115,10 @@ const Input = styled.input.attrs(({ type }) => ({
         paddingTop: rem(16),
       },
     },
-    inputSize === Size.MEDIUM &&
+    inputSize === Size.XLARGE &&
       isLabel && {
         height: rem(56),
         paddingTop: rem(20),
-        fontSize: rem(14),
         lineHeight: rem(20),
         '&:not(:focus):not([disabled])::placeholder': {
           opacity: 0,
@@ -128,12 +126,11 @@ const Input = styled.input.attrs(({ type }) => ({
         '&:not(:focus):not([disabled]):placeholder-shown + label': {
           top: '50%',
           marginTop: rem(-7),
-          fontSize: rem(14),
-          lineHeight: rem(14),
+          fontSize: rem(16),
+          lineHeight: rem(16),
         },
         '&::-webkit-datetime-edit': {
           height: rem(36),
-          fontSize: rem(14),
           lineHeight: rem(34),
         },
         '&::-webkit-date-and-time-value': {

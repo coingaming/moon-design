@@ -7,24 +7,24 @@ const Example = () => (
     <div className="m-4 w-52">
       <TextInput
         type="datetime-local"
-        inputSize="xsmall"
-        label="xsmall"
-        placeholder="Placeholder"
-      />
-    </div>
-    <div className="m-4 w-52">
-      <TextInput
-        type="datetime-local"
-        inputSize="small"
-        label="small"
-        placeholder="Placeholder"
-      />
-    </div>
-    <div className="m-4 w-52">
-      <TextInput
-        type="datetime-local"
         inputSize="medium"
         label="medium"
+        placeholder="Placeholder"
+      />
+    </div>
+    <div className="m-4 w-52">
+      <TextInput
+        type="datetime-local"
+        inputSize="large"
+        label="large"
+        placeholder="Placeholder"
+      />
+    </div>
+    <div className="m-4 w-52">
+      <TextInput
+        type="datetime-local"
+        inputSize="xlarge"
+        label="xlarge"
         placeholder="Placeholder"
       />
     </div>
