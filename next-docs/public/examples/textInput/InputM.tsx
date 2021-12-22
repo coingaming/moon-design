@@ -6,20 +6,20 @@ const Example = () => (
   <div className="flex flex-col gap-4">
     <TextInput
       type="text"
-      inputSize="medium"
+      inputSize="xlarge"
       label="With label"
       placeholder="Placeholder"
     />
 
     <TextInput
       type="text"
-      inputSize="medium"
+      inputSize="xlarge"
       placeholder="Placeholder: Without label"
     />
 
     <TextInput
       type="text"
-      inputSize="medium"
+      inputSize="xlarge"
       label="With hint below"
       placeholder="Placeholder"
       hintText="Informative message holder"
@@ -28,7 +28,7 @@ const Example = () => (
     <div className="flex gap-4 mb-4 items-end">
       <TextInput
         type="text"
-        inputSize="medium"
+        inputSize="xlarge"
         label="Disabled"
         placeholder="Placeholder"
         hintText="Informative message holder"
@@ -39,7 +39,7 @@ const Example = () => (
         type="text"
         label="Error"
         placeholder="Placeholder"
-        inputSize="medium"
+        inputSize="xlarge"
         hintText="Informative message holder"
         isError
         backgroundColor="goku.10"
@@ -48,7 +48,7 @@ const Example = () => (
 
     <TextInput
       type="text"
-      inputSize="medium"
+      inputSize="xlarge"
       label="Input with background color"
       placeholder="Placeholder"
       hintText="Informative message holder"
@@ -57,7 +57,7 @@ const Example = () => (
 
     <div className="pt-4">
       <p className="text-red-600">
-        !!! Text input medium size could have inner label only
+        !!! Text input xlarge size could have inner label only
       </p>
     </div>
   </div>

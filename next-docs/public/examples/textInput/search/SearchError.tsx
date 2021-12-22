@@ -7,28 +7,28 @@ const Example = () => (
     <div className="m-4">
       <TextInput
         type="search"
-        inputSize="xsmall"
-        label="xsmall"
-        placeholder="e.g. EPL"
-        hintText="Error message"
-        isError
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="search"
-        inputSize="small"
-        label="small"
-        placeholder="e.g. EPL"
-        hintText="Error message"
-        isError
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="search"
         inputSize="medium"
         label="medium"
+        placeholder="e.g. EPL"
+        hintText="Error message"
+        isError
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="search"
+        inputSize="large"
+        label="large"
+        placeholder="e.g. EPL"
+        hintText="Error message"
+        isError
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="search"
+        inputSize="xlarge"
+        label="xlarge"
         placeholder="e.g. EPL"
         hintText="Error message"
         isError

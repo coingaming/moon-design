@@ -14,7 +14,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -40,7 +40,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -75,7 +75,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -102,7 +102,7 @@ exports[`TextInput: type Date renders error 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 fCNdsc"
@@ -126,7 +126,7 @@ exports[`TextInput: type Date renders error 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 fKxCuv"
@@ -158,7 +158,7 @@ exports[`TextInput: type Date renders error 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -185,7 +185,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -210,7 +210,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -244,7 +244,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -271,7 +271,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -295,7 +295,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -327,7 +327,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -354,7 +354,7 @@ exports[`TextInput: type Date renders with label 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -372,7 +372,7 @@ exports[`TextInput: type Date renders with label 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -398,7 +398,7 @@ exports[`TextInput: type Date renders with label 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
     </div>
@@ -418,7 +418,7 @@ exports[`TextInput: type Date renders without label 1`] = `
     >
       <input
         className="Input-qkdgvx-0 dInVWZ"
-        placeholder="xsmall"
+        placeholder="medium"
         type="date"
       />
     </div>
@@ -431,7 +431,7 @@ exports[`TextInput: type Date renders without label 1`] = `
     >
       <input
         className="Input-qkdgvx-0 izGTPy"
-        placeholder="small"
+        placeholder="large"
         type="date"
       />
     </div>
@@ -447,7 +447,7 @@ exports[`TextInput: type Date renders without label 1`] = `
       >
         <input
           className="Input-qkdgvx-0 ehNhvs"
-          placeholder="medium"
+          placeholder="xlarge"
           type="date"
         />
         <label
@@ -472,7 +472,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 bVigKL"
@@ -496,7 +496,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 jstzOA"
@@ -528,7 +528,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p

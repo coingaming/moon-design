@@ -14,7 +14,7 @@ exports[`TextInput: type Search renders disabled 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -41,7 +41,7 @@ exports[`TextInput: type Search renders disabled 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -78,7 +78,7 @@ exports[`TextInput: type Search renders disabled 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -105,7 +105,7 @@ exports[`TextInput: type Search renders error 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 fCNdsc"
@@ -129,7 +129,7 @@ exports[`TextInput: type Search renders error 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 fKxCuv"
@@ -161,7 +161,7 @@ exports[`TextInput: type Search renders error 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -188,7 +188,7 @@ exports[`TextInput: type Search renders readOnly 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -214,7 +214,7 @@ exports[`TextInput: type Search renders readOnly 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -250,7 +250,7 @@ exports[`TextInput: type Search renders readOnly 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -277,7 +277,7 @@ exports[`TextInput: type Search renders with hint 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -301,7 +301,7 @@ exports[`TextInput: type Search renders with hint 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -333,7 +333,7 @@ exports[`TextInput: type Search renders with hint 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p
@@ -360,7 +360,7 @@ exports[`TextInput: type Search renders with label 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -378,7 +378,7 @@ exports[`TextInput: type Search renders with label 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -404,7 +404,7 @@ exports[`TextInput: type Search renders with label 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
     </div>
@@ -424,7 +424,7 @@ exports[`TextInput: type Search renders without label 1`] = `
     >
       <input
         className="Input-qkdgvx-0 dInVWZ"
-        placeholder="xsmall"
+        placeholder="medium"
         type="search"
       />
     </div>
@@ -437,7 +437,7 @@ exports[`TextInput: type Search renders without label 1`] = `
     >
       <input
         className="Input-qkdgvx-0 izGTPy"
-        placeholder="small"
+        placeholder="large"
         type="search"
       />
     </div>
@@ -453,7 +453,7 @@ exports[`TextInput: type Search renders without label 1`] = `
       >
         <input
           className="Input-qkdgvx-0 ehNhvs"
-          placeholder="medium"
+          placeholder="xlarge"
           type="search"
         />
         <label
@@ -478,7 +478,7 @@ exports[`TextInput: type Search supports background colour 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <input
         className="Input-qkdgvx-0 bVigKL"
@@ -502,7 +502,7 @@ exports[`TextInput: type Search supports background colour 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <input
         className="Input-qkdgvx-0 jstzOA"
@@ -534,7 +534,7 @@ exports[`TextInput: type Search supports background colour 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
       </div>
       <p

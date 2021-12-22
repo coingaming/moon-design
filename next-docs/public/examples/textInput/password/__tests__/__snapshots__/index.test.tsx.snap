@@ -14,7 +14,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -50,7 +50,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -95,7 +95,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
         <div
           className="ShowPassword-sc-147a7th-0 iTZaBC"
@@ -128,7 +128,7 @@ exports[`TextInput: type Password renders error 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -162,7 +162,7 @@ exports[`TextInput: type Password renders error 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -204,7 +204,7 @@ exports[`TextInput: type Password renders error 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
         <div
           className="ShowPassword-sc-147a7th-0 iTZaBC"
@@ -237,7 +237,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -272,7 +272,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -316,7 +316,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
         <div
           className="ShowPassword-sc-147a7th-0 iTZaBC"
@@ -349,7 +349,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -383,7 +383,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -425,7 +425,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
         <div
           className="ShowPassword-sc-147a7th-0 iTZaBC"
@@ -458,7 +458,7 @@ exports[`TextInput: type Password renders with label 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -486,7 +486,7 @@ exports[`TextInput: type Password renders with label 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -522,7 +522,7 @@ exports[`TextInput: type Password renders with label 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
         <div
           className="ShowPassword-sc-147a7th-0 iTZaBC"
@@ -551,7 +551,7 @@ exports[`TextInput: type Password renders without label 1`] = `
       >
         <input
           className="Input-qkdgvx-0 zHXpa"
-          placeholder="xsmall"
+          placeholder="medium"
           type="password"
         />
         <div
@@ -574,7 +574,7 @@ exports[`TextInput: type Password renders without label 1`] = `
       >
         <input
           className="Input-qkdgvx-0 dbdmbp"
-          placeholder="small"
+          placeholder="large"
           type="password"
         />
         <div
@@ -597,7 +597,7 @@ exports[`TextInput: type Password renders without label 1`] = `
       >
         <input
           className="Input-qkdgvx-0 eCBttT"
-          placeholder="medium"
+          placeholder="xlarge"
           type="password"
         />
         <label
@@ -628,7 +628,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        xsmall
+        medium
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -662,7 +662,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
       >
-        small
+        large
       </label>
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
@@ -704,7 +704,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
         <label
           className="LabelInner-vrrjt0-0 bMijKN"
         >
-          medium
+          xlarge
         </label>
         <div
           className="ShowPassword-sc-147a7th-0 iTZaBC"
