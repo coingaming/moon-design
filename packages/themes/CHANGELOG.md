@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.18.0
+
+### Minor Changes
+
+- Rerelease
+
 ## 7.17.0
 
 ### Minor Changes
