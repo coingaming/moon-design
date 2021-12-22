@@ -8,7 +8,7 @@ exports[`TextInput: type Text renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 ftPOyc"
+      className="Container-sc-1f49upb-0 kydozM"
       disabled={true}
     >
       <label
@@ -35,7 +35,7 @@ exports[`TextInput: type Text renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 ftPOyc"
+      className="Container-sc-1f49upb-0 kydozM"
       disabled={true}
     >
       <label
@@ -62,14 +62,14 @@ exports[`TextInput: type Text renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 ftPOyc"
+      className="Container-sc-1f49upb-0 kydozM"
       disabled={true}
     >
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 ekauWU"
+          className="Input-qkdgvx-0 kGXTgc"
           disabled={true}
           placeholder=" "
           type="text"
@@ -100,7 +100,7 @@ exports[`TextInput: type Text renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -124,7 +124,7 @@ exports[`TextInput: type Text renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -148,13 +148,13 @@ exports[`TextInput: type Text renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 eJaiIp"
+          className="Input-qkdgvx-0 bFSurF"
           placeholder="Placeholder"
           type="text"
         />
@@ -183,7 +183,7 @@ exports[`TextInput: type Text renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -209,7 +209,7 @@ exports[`TextInput: type Text renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -235,13 +235,13 @@ exports[`TextInput: type Text renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 ekauWU"
+          className="Input-qkdgvx-0 kGXTgc"
           placeholder=" "
           readOnly={true}
           type="text"
@@ -272,7 +272,7 @@ exports[`TextInput: type Text renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -296,7 +296,7 @@ exports[`TextInput: type Text renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -320,13 +320,13 @@ exports[`TextInput: type Text renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 ekauWU"
+          className="Input-qkdgvx-0 kGXTgc"
           placeholder="Placeholder"
           type="text"
         />
@@ -355,7 +355,7 @@ exports[`TextInput: type Text renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -373,7 +373,7 @@ exports[`TextInput: type Text renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -391,13 +391,13 @@ exports[`TextInput: type Text renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 ekauWU"
+          className="Input-qkdgvx-0 kGXTgc"
           placeholder="Placeholder"
           type="text"
         />
@@ -420,7 +420,7 @@ exports[`TextInput: type Text renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <input
         className="Input-qkdgvx-0 dInVWZ"
@@ -433,7 +433,7 @@ exports[`TextInput: type Text renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <input
         className="Input-qkdgvx-0 izGTPy"
@@ -446,13 +446,13 @@ exports[`TextInput: type Text renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <div
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 ehNhvs"
+          className="Input-qkdgvx-0 foTAnE"
           placeholder="xlarge"
           type="text"
         />
@@ -473,7 +473,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -497,7 +497,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -521,13 +521,13 @@ exports[`TextInput: type Text supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 iPTTwu"
+      className="Container-sc-1f49upb-0 fUwsfa"
     >
       <div
         className="Inner-sc-1soq84i-0 dKhopI"
       >
         <input
-          className="Input-qkdgvx-0 ekauWU"
+          className="Input-qkdgvx-0 kGXTgc"
           placeholder="Placeholder"
           type="text"
         />
