@@ -7,24 +7,24 @@ const Example = () => (
     <div className="m-4">
       <TextInput
         type="email"
-        inputSize="xsmall"
-        label="xsmall"
-        placeholder="e.g. jake.weary@sportsbet.io"
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="email"
-        inputSize="small"
-        label="small"
-        placeholder="e.g. jake.weary@sportsbet.io"
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="email"
         inputSize="medium"
         label="medium"
+        placeholder="e.g. jake.weary@sportsbet.io"
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="email"
+        inputSize="large"
+        label="large"
+        placeholder="e.g. jake.weary@sportsbet.io"
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="email"
+        inputSize="xlarge"
+        label="xlarge"
         placeholder="e.g. jake.weary@sportsbet.io"
       />
     </div>

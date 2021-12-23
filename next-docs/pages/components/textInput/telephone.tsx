@@ -31,9 +31,9 @@ export default function PageTelephoneInput() {
         </p>
 
         <p className="text-lg mt-4">
-          TextInput comes with three sizes: xsmall, small and medium, which are
-          configured by required prop inputSize. TextInput xsmall and small
-          sizes have an outside label view, while TextInput medium size has an
+          TextInput comes with three sizes: medium, large and xLarge, which are
+          configured by required prop inputSize. TextInput medium and large
+          sizes have an outside label view, while TextInput xLarge size has an
           inner label view.
         </p>
 
@@ -109,9 +109,9 @@ export default function PageTelephoneInput() {
           data={[
             {
               name: 'inputSize',
-              type: 'xsmall | small | medium',
+              type: 'medium | large | xlarge',
               required: true,
-              default: 'xsmall',
+              default: 'medium',
               description: 'Input size',
             },
             {
