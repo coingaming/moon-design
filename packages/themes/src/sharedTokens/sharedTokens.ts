@@ -1,4 +1,3 @@
-import supportColors from '../supportColors/supportColors';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -18,11 +17,16 @@ import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 const borderStyle = 'solid';
 const borderWidth = 1;
-
 const space = 16;
-const baseFontSize = 16;
-
 const transitionDuration = 0.2;
+
+const baseBorderStyle = 'solid';
+const baseBorderWidth = 1;
+const baseSpace = 16;
+const baseFontSize = 16;
+const baseTransitionDuration = 0.2;
+
+const rem = (value: number) => `${value / baseFontSize}rem`;
 
 export type ZIndex = {
   carouselControl: number;
@@ -304,8 +308,6 @@ export interface Base {
   readonly lineHeight: number;
 }
 
-const rem = (value: number) => `${value / baseFontSize}rem`;
-
 export type Brand =
   | 'Sportsbet.io'
   | 'Betadda'
@@ -358,46 +360,6 @@ export type Theme = SharedTheme & {
   brand: Brand;
   colorScheme: ColorScheme;
   color: Color;
-};
-
-const sharedColors: Color = {
-  piccolo: {
-    120: '#4E46B4',
-    100: '#4E46B4',
-    80: '#4E46B4',
-  },
-  hit: {
-    120: '#19930E',
-    100: '#1CA30F',
-    80: '#33AC27',
-  },
-  beerus: {
-    100: '#40464F',
-  },
-  goku: {
-    100: '#272E37',
-    80: '#353C44',
-    40: '#4C5159',
-    10: '#62676D',
-  },
-  gohan: {
-    100: '#1A212A',
-    80: '#31373F',
-    40: '#5F646A',
-    10: '#8C9095',
-  },
-  goten: {
-    100: '#FFFFFF',
-  },
-  bulma: {
-    100: '#FFFFFF',
-  },
-  trunks: {
-    100: '#97A2AE',
-  },
-  text: '#fff',
-  background: '#fff',
-  ...supportColors,
 };
 
 const sharedTokens: SharedTheme = {
@@ -468,11 +430,11 @@ const sharedTokens: SharedTheme = {
   },
   newTokens: {
     base: {
-      space,
-      fontSize: baseFontSize,
+      space: rem(baseSpace),
+      fontSize: rem(baseFontSize),
       lineHeight: rem(24),
     },
-    border: `${rem(borderWidth)} ${borderStyle}`,
+    border: `${rem(baseBorderWidth)} ${baseBorderStyle}`,
     breakpoint: {
       small: rem(640),
       medium: rem(768),
@@ -491,8 +453,8 @@ const sharedTokens: SharedTheme = {
       active: 'scale(0.9)',
     },
     transition: {
-      slow: `${transitionDuration * 2}s ease-in-out`,
-      default: `${transitionDuration}s ease-in-out`,
+      slow: `${baseTransitionDuration * 2}s ease-in-out`,
+      default: `${baseTransitionDuration}s ease-in-out`,
     },
     size: {
       twoxsmall: rem(16),

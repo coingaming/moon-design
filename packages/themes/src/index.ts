@@ -80,3 +80,7 @@ export { default as ThemeTransition } from './themeTransition/ThemeTransition';
 export * from './themeTransition/ThemeTransition';
 export { default as useTheme } from './useTheme/useTheme';
 export * from './useTheme/useTheme';
+export { default as mainColors } from './v2/colors/mainColors';
+export * from './v2/colors/mainColors';
+export { default as supportiveColors } from './v2/colors/supportiveColors';
+export * from './v2/colors/supportiveColors';
