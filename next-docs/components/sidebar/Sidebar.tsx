@@ -105,7 +105,7 @@ const LogoLink = () => (
 
 export default function Sidebar() {
   return (
-    <div className="fixed h-screen w-72 flex flex-col flex-grow py-16 px-6 bg-white overflow-y-scroll">
+    <div className="fixed top-0 h-screen w-72 flex flex-col flex-grow py-16 px-6 bg-white overflow-y-scroll">
       <div className="flex items-center flex-shrink-0 pl-2 mb-12">
         <LogoLink />
       </div>
@@ -116,7 +116,7 @@ export default function Sidebar() {
               key={item.name}
               item={{
                 name: item.name,
-                href: (!item.href) ? '' : item.href,
+                href: !item.href ? '' : item.href,
                 children: item.children as ItemType[],
               }}
             />

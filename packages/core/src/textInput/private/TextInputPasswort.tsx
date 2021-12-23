@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInputTypes from './TextInputTypes';
+import TextInputTypes from './types/TextInputTypes';
 import Input from './Input';
 import HintText from './HintText';
 import Container from '../styles/Container';
@@ -8,11 +8,13 @@ import Label from '../styles/Label';
 import LabelInner from '../styles/LabelInner';
 import ShowPassword from '../styles/ShowPassword';
 import { ColorProps } from '@heathmont/moon-themes';
+import TextInputSizeType from './types/SizeTypes';
+import Size from '../../private/enums/Size';
 
 interface TextInputPasswordProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: 'xsmall' | 'small' | 'medium';
+  inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
   type: TextInputTypes;
   placeholder?: string;
@@ -54,17 +56,18 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
     ...rest,
   };
 
-  if (inputSize === 'medium') {
+  if (inputSize === Size.XLARGE) {
     return (
       <Container disabled={disabled}>
-        <Inner>
+        <Inner bgColor={backgroundColor}>
           <Input
-            backgroundColor={backgroundColor}
             inputSize={inputSize}
             type={passwordShown ? 'text' : 'password'}
             error={isError}
             ref={ref}
             id={id}
+            isLabel={!!label}
+            isPassword={true}
             {...inputProps}
           />
           <LabelInner>{label}</LabelInner>
@@ -85,12 +88,13 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
       )}
       <Inner>
         <Input
-          backgroundColor={backgroundColor}
           inputSize={inputSize}
           type={passwordShown ? 'text' : 'password'}
           error={isError}
           ref={ref}
           id={id}
+          bgColor={backgroundColor}
+          isPassword={true}
           {...inputProps}
         />
         <ShowPassword onClick={togglePasswordVisiblity}>

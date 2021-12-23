@@ -3,12 +3,13 @@ import { rem } from '@heathmont/moon-utils';
 
 const Container = styled.div<{
   disabled?: boolean;
-}>(({ theme: { radius }, disabled }) => [
+}>(({ theme, disabled }) => [
   {
     width: '100%',
     maxWidth: '100%',
     position: 'relative',
-    borderRadius: rem(radius.largest),
+    borderRadius: rem(theme.radius.largest),
+    zIndex: 0,
   },
   disabled && {
     opacity: 0.3,

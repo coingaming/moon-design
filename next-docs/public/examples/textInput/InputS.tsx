@@ -7,18 +7,18 @@ const Example = () => (
     <div className="flex gap-4 mb-4 items-end">
       <TextInput
         type="text"
-        inputSize="small"
+        inputSize="large"
         label="Label text"
         placeholder="Placeholder"
       />
 
-      <TextInput type="text" inputSize="small" placeholder="Placeholder" />
+      <TextInput type="text" inputSize="large" placeholder="Placeholder" />
     </div>
 
     <div className="flex gap-4 mb-4 items-end">
       <TextInput
         type="text"
-        inputSize="small"
+        inputSize="large"
         label="Label text"
         placeholder="Placeholder"
         hintText="Informative message holder"
@@ -27,7 +27,7 @@ const Example = () => (
       <TextInput
         type="text"
         placeholder="Placeholder"
-        inputSize="small"
+        inputSize="large"
         hintText="Informative message holder"
       />
     </div>
@@ -35,7 +35,7 @@ const Example = () => (
     <div className="flex gap-4 mb-4 items-end">
       <TextInput
         type="text"
-        inputSize="small"
+        inputSize="large"
         label="Disabled"
         placeholder="Placeholder"
         hintText="Informative message holder"
@@ -46,9 +46,20 @@ const Example = () => (
         type="text"
         label="Error"
         placeholder="Placeholder"
-        inputSize="small"
+        inputSize="large"
         hintText="Informative message holder"
         isError
+      />
+    </div>
+
+    <div className="flex gap-4 mb-4 items-end">
+      <TextInput
+        type="text"
+        inputSize="large"
+        label="Input with background color"
+        placeholder="Placeholder"
+        hintText="Informative message holder"
+        backgroundColor="goku.10"
       />
     </div>
   </div>

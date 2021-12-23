@@ -1,117 +1,142 @@
 import styled from 'styled-components';
-import { rem, inlineSvg } from '@heathmont/moon-utils';
+import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import { ColorProps } from '@heathmont/moon-themes';
+import TextInputSizeType from './types/SizeTypes';
+import Size from '../../private/enums/Size';
 
 type InputProps = {
-  inputSize: 'xsmall' | 'small' | 'medium';
+  inputSize: TextInputSizeType | string;
   withIcon?: boolean;
   error?: boolean;
   icon?: string;
   iconColor?: string;
   type?: string;
-  backgroundColor?: ColorProps;
+  bgColor?: ColorProps;
+  isLabel?: boolean;
+  isPassword?: boolean;
 };
 
 const Input = styled.input.attrs(({ type }) => ({
   type: type,
 }))<InputProps>(
   ({
-    theme: { color, borderWidth, radius, space, transitionDuration },
+    theme: currentTheme,
+    theme: { color, radius, space, transitionDuration },
     inputSize,
     error,
     icon,
     type,
-    backgroundColor,
+    bgColor,
+    isLabel,
+    isPassword,
   }) => [
     {
       display: 'block',
       width: '100%',
       maxWidth: '100%',
-      padding: `${rem(7)} ${rem(15)}`,
-      paddingRight: type === 'password' ? rem(55) : rem(15),
+      height: rem(40),
+      padding: `0 ${rem(16)}`,
+      margin: 0,
       appearance: 'none',
       font: 'inherit',
       fontSize: rem(16),
-      lineHeight: rem(24),
+      lineHeight: rem(40),
       color: color.bulma[100],
-      backgroundColor: !backgroundColor ? 'transparent' : backgroundColor,
+      backgroundColor: !bgColor
+        ? 'transparent'
+        : themed('color', bgColor)(currentTheme),
       position: 'relative',
       zIndex: 2,
-      border: `${borderWidth}px solid`,
-      borderColor: color.beerus[100],
+      border: 'none',
+      boxShadow: `0 0 0 ${rem(1)} ${color.beerus[100]} inset`,
       borderRadius: rem(radius.largest),
-      transition: `border-color ${transitionDuration.default}s ease`,
+      transition: `box-shadow ${transitionDuration.default}s ease`,
       WebkitAppearance: 'none',
+      boxSizing: 'border-box',
+      '&::before, &::after': {
+        boxSizing: 'border-box',
+      },
       '&::placeholder': {
         color: color.trunks[100],
         opacity: 1,
+        transition: `opacity ${transitionDuration.default}s ease`,
+        transitionDelay: `0.1s`,
       },
-      '&:hover:not(:focus):not([disabled])': {
-        borderColor: rgba(color.piccolo[100], 0.12),
-        borderWidth: rem(2),
-        padding: `${rem(6)} ${rem(14)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
+      '&:hover:not(:focus):not([disabled]):not([readonly])': {
+        boxShadow: `0 0 0 ${rem(2)} ${
+          !error ? rgba(color.piccolo[100], 0.12) : color.chiChi[100]
+        } inset`,
       },
-      '&:focus': {
-        borderColor: !error ? color.piccolo[100] : color.chiChi[100],
-        borderWidth: rem(2),
-        padding: `${rem(6)} ${rem(14)}`,
+      '&:focus:not([readonly])': {
         outline: 'none',
-        paddingRight: type === 'password' ? rem(55) : rem(14),
+        boxShadow: `0 0 0 ${rem(2)} ${
+          !error ? color.piccolo[100] : color.chiChi[100]
+        } inset`,
       },
-      // date inputs will be marked as invalid by default
-      '&:not(:placeholder-shown):not([type="date"]):invalid': {
-        borderColor: color.chiChi[100],
-        borderWidth: rem(2),
-        padding: `${rem(6)} ${rem(14)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
+      '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
+        {
+          boxShadow: `0 0 0 ${rem(2)} ${color.chiChi[100]} inset`,
+        },
+      '&[readonly]': {
+        outline: 'none',
+        border: 'none',
+        cursor: 'not-allowed',
       },
-      '&:invalid, :-moz-ui-invalid': {
-        boxShadow: 'none', // Firefox Override
+      '&::-webkit-datetime-edit, &::-webkit-date-and-time-value': {
+        display: 'block',
+        padding: 0,
+        height: rem(38),
+        lineHeight: `${rem(38)}`,
       },
-    },
-    inputSize === 'small' && {
-      padding: `${rem(11)} ${rem(15)}`,
-      paddingRight: type === 'password' ? rem(55) : rem(15),
-      '&:hover:not(:focus):not([disabled])': {
-        padding: `${rem(10)} ${rem(14)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
-      },
-      '&:focus': {
-        padding: `${rem(10)} ${rem(14)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
-      },
-      '&:not(:placeholder-shown):not([type="date"]):invalid': {
-        padding: `${rem(10)} ${rem(14)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
+      '&::-webkit-date-and-time-value': {
+        paddingTop: rem(6),
       },
     },
-    inputSize === 'medium' && {
-      padding: `${rem(23)} ${rem(15)} ${rem(7)}`,
-      paddingRight: type === 'password' ? rem(55) : rem(15),
-      '&:not(:focus)::placeholder': {
-        opacity: 0,
+    inputSize === Size.LARGE && {
+      height: rem(48),
+      lineHeight: rem(48),
+      '&::-webkit-datetime-edit': {
+        height: rem(46),
+        lineHeight: rem(46),
       },
-      '&:not(:focus):placeholder-shown + label': {
-        top: '50%',
-        marginTop: rem(-7),
-        fontSize: rem(14),
-        lineHeight: rem(14),
-      },
-      '&:hover:not(:focus):not([disabled])': {
-        padding: `${rem(22)} ${rem(14)} ${rem(6)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
-      },
-      '&:focus': {
-        padding: `${rem(22)} ${rem(14)} ${rem(6)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
-      },
-      '&:not(:placeholder-shown):not([type="date"]):invalid': {
-        padding: `${rem(22)} ${rem(14)} ${rem(6)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
+      '&::-webkit-date-and-time-value': {
+        paddingTop: rem(10),
       },
     },
+    inputSize === Size.XLARGE && {
+      height: rem(56),
+      lineHeight: rem(56),
+      '&::-webkit-datetime-edit': {
+        height: rem(54),
+        lineHeight: rem(54),
+      },
+      '&::-webkit-date-and-time-value': {
+        paddingTop: rem(16),
+      },
+    },
+    inputSize === Size.XLARGE &&
+      isLabel && {
+        height: rem(56),
+        paddingTop: rem(20),
+        lineHeight: rem(20),
+        '&:not(:focus):not([disabled])::placeholder': {
+          opacity: 0,
+        },
+        '&:not(:focus):not([disabled]):placeholder-shown + label': {
+          top: '50%',
+          marginTop: rem(-7),
+          fontSize: rem(16),
+          lineHeight: rem(16),
+        },
+        '&::-webkit-datetime-edit': {
+          height: rem(36),
+          lineHeight: rem(34),
+        },
+        '&::-webkit-date-and-time-value': {
+          paddingTop: 0,
+        },
+      },
     icon && {
       paddingRight: rem(space.large),
       backgroundImage: inlineSvg(icon),
@@ -120,20 +145,17 @@ const Input = styled.input.attrs(({ type }) => ({
       backgroundSize: rem(20),
     },
     error && {
-      borderColor: `${color.chiChi[100]} !important`,
-      borderWidth: rem(2),
-      padding: `${rem(6)} ${rem(15)}`,
+      boxShadow: `0 0 0 ${rem(2)} ${color.chiChi[100]} inset`,
     },
-    error &&
-      inputSize === 'small' && {
-        padding: `${rem(10)} ${rem(14)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
+    isPassword && {
+      paddingRight: rem(55),
+    },
+    type === 'number' && {
+      MozAppearance: 'textfield',
+      '&::-webkit-inner-spin-button, &::-webkit-outer-spin-button': {
+        opacity: 0,
       },
-    error &&
-      inputSize === 'medium' && {
-        padding: `${rem(22)} ${rem(14)} ${rem(6)}`,
-        paddingRight: type === 'password' ? rem(55) : rem(14),
-      },
+    },
   ]
 );
 
