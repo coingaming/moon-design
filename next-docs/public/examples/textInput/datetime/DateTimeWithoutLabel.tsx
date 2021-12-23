@@ -7,18 +7,18 @@ const Example = () => (
     <div className="m-4 w-52">
       <TextInput
         type="datetime-local"
-        inputSize="xsmall"
-        placeholder="xsmall"
+        inputSize="medium"
+        placeholder="medium"
       />
     </div>
     <div className="m-4 w-52">
-      <TextInput type="datetime-local" inputSize="small" placeholder="small" />
+      <TextInput type="datetime-local" inputSize="large" placeholder="large" />
     </div>
     <div className="m-4 w-52">
       <TextInput
         type="datetime-local"
-        inputSize="medium"
-        placeholder="medium"
+        inputSize="xlarge"
+        placeholder="xlarge"
       />
     </div>
   </div>

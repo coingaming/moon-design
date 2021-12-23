@@ -28,7 +28,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
   if (type === 'password') {
     return <TextInputPasswort {...props} ref={ref} />;
   }
-  if (inputSize === Size.MEDIUM) {
+  if (inputSize === Size.XLARGE) {
     return <TextInputMedium {...props} ref={ref} />;
   }
   // render rest sizes xsmall and small

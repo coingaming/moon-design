@@ -8,28 +8,28 @@ const Example = () => (
       <TextInput
         type="url"
         value="https://sportsbet.io"
-        inputSize="xsmall"
-        label="xsmall"
-        hintText="Informative message holder"
-        readOnly
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="url"
-        value="https://sportsbet.io"
-        inputSize="small"
-        label="small"
-        hintText="Informative message holder"
-        readOnly
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="url"
-        value="https://sportsbet.io"
         inputSize="medium"
         label="medium"
+        hintText="Informative message holder"
+        readOnly
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="url"
+        value="https://sportsbet.io"
+        inputSize="large"
+        label="large"
+        hintText="Informative message holder"
+        readOnly
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="url"
+        value="https://sportsbet.io"
+        inputSize="xlarge"
+        label="xlarge"
         hintText="Informative message holder"
         readOnly
       />

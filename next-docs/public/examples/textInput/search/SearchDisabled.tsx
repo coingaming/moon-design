@@ -8,28 +8,28 @@ const Example = () => (
       <TextInput
         type="search"
         value="Text"
-        inputSize="xsmall"
-        label="xsmall"
-        hintText="Informative message holder"
-        disabled
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="search"
-        value="Text"
-        inputSize="small"
-        label="small"
-        hintText="Informative message holder"
-        disabled
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="search"
-        value="Text"
         inputSize="medium"
         label="medium"
+        hintText="Informative message holder"
+        disabled
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="search"
+        value="Text"
+        inputSize="large"
+        label="large"
+        hintText="Informative message holder"
+        disabled
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="search"
+        value="Text"
+        inputSize="xlarge"
+        label="xlarge"
         hintText="Informative message holder"
         disabled
       />

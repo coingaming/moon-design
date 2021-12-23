@@ -7,26 +7,26 @@ const Example = () => (
     <div className="m-4 w-52">
       <TextInput
         type="date"
-        inputSize="xsmall"
-        label="xsmall"
-        hintText="Informative message holder"
-        disabled
-      />
-    </div>
-    <div className="m-4 w-52">
-      <TextInput
-        type="date"
-        inputSize="small"
-        label="small"
-        hintText="Informative message holder"
-        disabled
-      />
-    </div>
-    <div className="m-4 w-52">
-      <TextInput
-        type="date"
         inputSize="medium"
         label="medium"
+        hintText="Informative message holder"
+        disabled
+      />
+    </div>
+    <div className="m-4 w-52">
+      <TextInput
+        type="date"
+        inputSize="large"
+        label="large"
+        hintText="Informative message holder"
+        disabled
+      />
+    </div>
+    <div className="m-4 w-52">
+      <TextInput
+        type="date"
+        inputSize="xlarge"
+        label="xlarge"
         hintText="Informative message holder"
         disabled
       />

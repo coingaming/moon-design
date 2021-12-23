@@ -56,7 +56,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
     ...rest,
   };
 
-  if (inputSize === Size.MEDIUM) {
+  if (inputSize === Size.XLARGE) {
     return (
       <Container disabled={disabled}>
         <Inner bgColor={backgroundColor}>

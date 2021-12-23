@@ -7,28 +7,28 @@ const Example = () => (
     <div className="m-4">
       <TextInput
         type="text"
-        inputSize="xsmall"
-        label="xsmall"
-        placeholder="Placeholder"
-        hintText="Informative message holder"
-        backgroundColor="goku.10"
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="text"
-        inputSize="small"
-        label="small"
-        placeholder="Placeholder"
-        hintText="Informative message holder"
-        backgroundColor="goku.10"
-      />
-    </div>
-    <div className="m-4">
-      <TextInput
-        type="text"
         inputSize="medium"
         label="medium"
+        placeholder="Placeholder"
+        hintText="Informative message holder"
+        backgroundColor="goku.10"
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="text"
+        inputSize="large"
+        label="large"
+        placeholder="Placeholder"
+        hintText="Informative message holder"
+        backgroundColor="goku.10"
+      />
+    </div>
+    <div className="m-4">
+      <TextInput
+        type="text"
+        inputSize="xlarge"
+        label="xlarge"
         placeholder="Placeholder"
         hintText="Informative message holder"
         backgroundColor="goku.10"

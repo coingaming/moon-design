@@ -100,9 +100,9 @@ export default function PageNumberInput() {
           data={[
             {
               name: 'inputSize',
-              type: 'xsmall | small | medium',
+              type: 'medium | large | xlarge',
               required: true,
-              default: 'xsmall',
+              default: 'medium',
               description: 'Input size',
             },
             {
