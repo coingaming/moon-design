@@ -7,7 +7,7 @@ exports[`Switch renders 1`] = `
   <input
     checked={true}
     className="Switch__Input-sc-11hx91j-2 gTmrER"
-    id="Switch-aaq68dzis"
+    id="test-switch-1"
     onChange={[Function]}
     type="checkbox"
   />
@@ -24,7 +24,7 @@ exports[`Switch renders Theme variant 1`] = `
   <input
     checked={true}
     className="Switch__Input-sc-11hx91j-2 eyHPQE"
-    id="Switch-gzfro0lap"
+    id="test-switch-1"
     onChange={[Function]}
     type="checkbox"
   />
@@ -56,7 +56,7 @@ exports[`Switch renders Theme variant with Caption 1`] = `
     <input
       checked={true}
       className="Switch__Input-sc-11hx91j-2 eyHPQE"
-      id="Switch-46boi3zoj"
+      id="test-switch-1"
       onChange={[Function]}
       type="checkbox"
     />
@@ -85,7 +85,7 @@ exports[`Switch renders different Sizes 1`] = `
     <input
       checked={true}
       className="Switch__Input-sc-11hx91j-2 koEFXe"
-      id="Switch-fnhvoa8sk"
+      id="test-switch-1"
       onChange={[Function]}
       size="xs"
       type="checkbox"
@@ -101,7 +101,7 @@ exports[`Switch renders different Sizes 1`] = `
     <input
       checked={true}
       className="Switch__Input-sc-11hx91j-2 koEFXe"
-      id="Switch-abi188x9x"
+      id="test-switch-2"
       onChange={[Function]}
       size="md"
       type="checkbox"
@@ -117,7 +117,7 @@ exports[`Switch renders different Sizes 1`] = `
     <input
       checked={true}
       className="Switch__Input-sc-11hx91j-2 koEFXe"
-      id="Switch-qi0nu3xvd"
+      id="test-switch-3"
       onChange={[Function]}
       size="lg"
       type="checkbox"
@@ -151,7 +151,7 @@ exports[`Switch renders with Caption 1`] = `
     <input
       checked={true}
       className="Switch__Input-sc-11hx91j-2 gTmrER"
-      id="Switch-uz77w0tg9"
+      id="test-switch-1"
       onChange={[Function]}
       type="checkbox"
     />
