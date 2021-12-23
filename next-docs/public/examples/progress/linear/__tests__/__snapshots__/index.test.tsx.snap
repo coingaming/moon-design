@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Linear Progress renders 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <div
+    className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 gZDZXb"
+  >
+    <div
+      className="ProgressLinear__Progress-sc-1wwz7u1-2 fxYQMJ"
+      value={30}
+    />
+    <div
+      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 gylLdg"
+    >
+      <span>
+        Progress
+      </span>
+    </div>
+  </div>
+  <div
+    className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 gZDZXb"
+  >
+    <div
+      className="ProgressLinear__Progress-sc-1wwz7u1-2 jVAxHy"
+      height={5}
+      value={30}
+    />
+    <div
+      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 jhImsT"
+    >
+      <span>
+        Progress
+      </span>
+    </div>
+  </div>
+</div>
+`;
