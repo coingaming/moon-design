@@ -5,6 +5,7 @@ import { IconClaps } from '@heathmont/moon-assets';
 
 const Example = () => (
   <Tabs
+    id="nav-test-id-1"
     items={[
       <TabLink href="#2" count="00">
         Featured
