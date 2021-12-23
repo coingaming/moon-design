@@ -40,11 +40,11 @@ const Example = () => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
         date: `January ${Math.floor(index / 5) + 1}, 2020`,
-        age: <span>{Math.floor(Math.random() * 30)}</span>,
-        visits: <span>{Math.floor(Math.random() * 100)}</span>,
-        progress: <span>{Math.floor(Math.random() * 100)}</span>,
-        status: Math.floor(Math.random() * 100),
-        activity: Math.floor(Math.random() * 100),
+        age: <span>{Math.floor(index * 30)}</span>,
+        visits: <span>{Math.floor(index * 100)}</span>,
+        progress: <span>{Math.floor(index * 100)}</span>,
+        status: Math.floor(index * 100),
+        activity: Math.floor(index * 100),
       };
     });
   };

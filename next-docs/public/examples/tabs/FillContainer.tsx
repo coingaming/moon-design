@@ -4,6 +4,7 @@ import { Tabs, TabLinkFill } from '@heathmont/moon-core';
 
 const Example = () => (
   <Tabs
+    id="nav-test-id-1"
     isContainer
     items={[
       <TabLinkFill href="#2">Featured</TabLinkFill>,

@@ -1,0 +1,1401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pie Chart renders 1`] = `
+<div
+  className="w-full flex flex-row gap-36"
+>
+  <div
+    className="Panel__Container-wbwz0d-1 jEKoDF"
+    style={
+      Object {
+        "height": 446,
+      }
+    }
+  >
+    <div
+      className="Panel__Header-wbwz0d-2 jWuxJy"
+    >
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <div />
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-hkwnrn"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+          <path
+            clipRule="evenodd"
+            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-exiMuG"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="Header__Container-sc-1xmu29o-3 emYHde"
+    >
+      <div
+        className="Header__IconWrapper-sc-1xmu29o-1 jgfQsi"
+      >
+        <svg
+          fill="none"
+          height="40"
+          viewBox="0 0 40 40"
+          width="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.308 30.216h7.385v5.538h-7.385z"
+            fill="url(#Devices_svg__paint0_linear)"
+          />
+          <path
+            d="M32.462 30.215H7.538C4.492 30.215 2 27.723 2 24.677V9.538C2 6.492 4.492 4 7.538 4h24.924C35.508 4 38 6.492 38 9.538v15.139c0 3.046-2.492 5.538-5.538 5.538z"
+            fill="url(#Devices_svg__paint1_linear)"
+          />
+          <path
+            d="M31.723 27.77H8.277a3.92 3.92 0 01-3.923-3.923V10.462A3.92 3.92 0 018.277 6.54h23.446a3.92 3.92 0 013.923 3.923v13.385c.046 2.123-1.754 3.923-3.923 3.923z"
+            fill="url(#Devices_svg__paint2_linear)"
+          />
+          <path
+            d="M8.83 13.875a2.676 2.676 0 100-5.352 2.676 2.676 0 000 5.352z"
+            fill="url(#Devices_svg__paint3_linear)"
+          />
+          <path
+            d="M26.57 35.754H13.43a.814.814 0 01-.815-.826v-.194c0-.437.336-.826.815-.826h13.14c.43 0 .814.34.814.826v.194c0 .438-.383.826-.815.826z"
+            fill="url(#Devices_svg__paint4_linear)"
+          />
+          <path
+            d="M37.954 22.462v10.846a2.314 2.314 0 01-2.308 2.308H32a2.314 2.314 0 01-2.308-2.308V22.462A2.314 2.314 0 0132 20.154h3.646a2.314 2.314 0 012.308 2.308z"
+            fill="url(#Devices_svg__paint5_linear)"
+          />
+          <path
+            d="M37.123 22.462v10.8c0 .877-.693 1.569-1.57 1.569h-3.461c-.877 0-1.57-.692-1.57-1.57v-10.8c0-.876.693-1.568 1.57-1.568h3.462c.876 0 1.569.692 1.569 1.569z"
+            fill="url(#Devices_svg__paint6_linear)"
+          />
+          <path
+            d="M34.723 22.692h-1.8a.315.315 0 01-.323-.323c0-.185.138-.323.323-.323h1.8c.184 0 .323.138.323.323-.046.185-.185.323-.323.323z"
+            fill="url(#Devices_svg__paint7_linear)"
+          />
+          <defs>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint0_linear"
+              x1={6.422}
+              x2={25.175}
+              y1={23.695}
+              y2={33.809}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint1_linear"
+              x1={-46.194}
+              x2={43.995}
+              y1={-26.866}
+              y2={23.229}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint2_linear"
+              x1={-0.833}
+              x2={3.434}
+              y1={0.227}
+              y2={37.864}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint3_linear"
+              x1={7.007}
+              x2={11.924}
+              y1={12.045}
+              y2={12.068}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint4_linear"
+              x1={-7.156}
+              x2={-2.936}
+              y1={31.735}
+              y2={45.392}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint5_linear"
+              x1={18.633}
+              x2={44.507}
+              y1={1.95}
+              y2={7.542}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint6_linear"
+              x1={29.429}
+              x2={37.283}
+              y1={16.748}
+              y2={39.004}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint7_linear"
+              x1={32.99}
+              x2={35.237}
+              y1={22.471}
+              y2={22.511}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <p
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        color="bulma.100"
+        size={20}
+      >
+        Device Breakdown
+      </p>
+      <div
+        className="Header__FilterWrapper-sc-1xmu29o-2"
+      >
+        <div
+          className="Filter__Container-eamt9m-2 jCUaYS"
+        >
+          <button
+            className="Filter__Toggle-eamt9m-1 ejgMRs"
+            onClick={[Function]}
+          >
+            <p
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 JVhrw dMfPPk"
+              color="bulma.100"
+              size={14}
+            >
+              by GGR
+            </p>
+            <svg
+              className="sc-eWvPJL"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fOgftP"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="Panel__Container-wbwz0d-1 jEKoDF"
+    style={
+      Object {
+        "height": 446,
+      }
+    }
+  >
+    <div
+      className="Panel__Header-wbwz0d-2 jWuxJy"
+    >
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <div />
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-hkwnrn"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+          <path
+            clipRule="evenodd"
+            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-exiMuG"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="Header__Container-sc-1xmu29o-3 emYHde"
+    >
+      <div
+        className="Header__IconWrapper-sc-1xmu29o-1 jgfQsi"
+      >
+        <svg
+          fill="none"
+          height="40"
+          viewBox="0 0 40 40"
+          width="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.308 30.216h7.385v5.538h-7.385z"
+            fill="url(#Devices_svg__paint0_linear)"
+          />
+          <path
+            d="M32.462 30.215H7.538C4.492 30.215 2 27.723 2 24.677V9.538C2 6.492 4.492 4 7.538 4h24.924C35.508 4 38 6.492 38 9.538v15.139c0 3.046-2.492 5.538-5.538 5.538z"
+            fill="url(#Devices_svg__paint1_linear)"
+          />
+          <path
+            d="M31.723 27.77H8.277a3.92 3.92 0 01-3.923-3.923V10.462A3.92 3.92 0 018.277 6.54h23.446a3.92 3.92 0 013.923 3.923v13.385c.046 2.123-1.754 3.923-3.923 3.923z"
+            fill="url(#Devices_svg__paint2_linear)"
+          />
+          <path
+            d="M8.83 13.875a2.676 2.676 0 100-5.352 2.676 2.676 0 000 5.352z"
+            fill="url(#Devices_svg__paint3_linear)"
+          />
+          <path
+            d="M26.57 35.754H13.43a.814.814 0 01-.815-.826v-.194c0-.437.336-.826.815-.826h13.14c.43 0 .814.34.814.826v.194c0 .438-.383.826-.815.826z"
+            fill="url(#Devices_svg__paint4_linear)"
+          />
+          <path
+            d="M37.954 22.462v10.846a2.314 2.314 0 01-2.308 2.308H32a2.314 2.314 0 01-2.308-2.308V22.462A2.314 2.314 0 0132 20.154h3.646a2.314 2.314 0 012.308 2.308z"
+            fill="url(#Devices_svg__paint5_linear)"
+          />
+          <path
+            d="M37.123 22.462v10.8c0 .877-.693 1.569-1.57 1.569h-3.461c-.877 0-1.57-.692-1.57-1.57v-10.8c0-.876.693-1.568 1.57-1.568h3.462c.876 0 1.569.692 1.569 1.569z"
+            fill="url(#Devices_svg__paint6_linear)"
+          />
+          <path
+            d="M34.723 22.692h-1.8a.315.315 0 01-.323-.323c0-.185.138-.323.323-.323h1.8c.184 0 .323.138.323.323-.046.185-.185.323-.323.323z"
+            fill="url(#Devices_svg__paint7_linear)"
+          />
+          <defs>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint0_linear"
+              x1={6.422}
+              x2={25.175}
+              y1={23.695}
+              y2={33.809}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint1_linear"
+              x1={-46.194}
+              x2={43.995}
+              y1={-26.866}
+              y2={23.229}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint2_linear"
+              x1={-0.833}
+              x2={3.434}
+              y1={0.227}
+              y2={37.864}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint3_linear"
+              x1={7.007}
+              x2={11.924}
+              y1={12.045}
+              y2={12.068}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint4_linear"
+              x1={-7.156}
+              x2={-2.936}
+              y1={31.735}
+              y2={45.392}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint5_linear"
+              x1={18.633}
+              x2={44.507}
+              y1={1.95}
+              y2={7.542}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint6_linear"
+              x1={29.429}
+              x2={37.283}
+              y1={16.748}
+              y2={39.004}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint7_linear"
+              x1={32.99}
+              x2={35.237}
+              y1={22.471}
+              y2={22.511}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <p
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        color="bulma.100"
+        size={20}
+      >
+        Device Breakdown
+      </p>
+      <div
+        className="Header__FilterWrapper-sc-1xmu29o-2"
+      >
+        <div
+          className="Filter__Container-eamt9m-2 jCUaYS"
+        >
+          <button
+            className="Filter__Toggle-eamt9m-1 ejgMRs"
+            onClick={[Function]}
+          >
+            <p
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 JVhrw dMfPPk"
+              color="bulma.100"
+              size={14}
+            >
+              by GGR
+            </p>
+            <svg
+              className="sc-eWvPJL"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fOgftP"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Pie Chart renders Loading 1`] = `
+<div
+  className="w-full flex flex-row gap-36"
+>
+  <div
+    className="Panel__Container-wbwz0d-1 jEKoDF"
+    style={
+      Object {
+        "height": 446,
+      }
+    }
+  >
+    <div
+      className="Panel__Header-wbwz0d-2 jWuxJy"
+    >
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <div />
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-hkwnrn"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+          <path
+            clipRule="evenodd"
+            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-exiMuG"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="Header__Container-sc-1xmu29o-3 emYHde"
+    >
+      <div
+        className="Header__IconWrapper-sc-1xmu29o-1 jgfQsi"
+      >
+        <svg
+          fill="none"
+          height="40"
+          viewBox="0 0 40 40"
+          width="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.308 30.216h7.385v5.538h-7.385z"
+            fill="url(#Devices_svg__paint0_linear)"
+          />
+          <path
+            d="M32.462 30.215H7.538C4.492 30.215 2 27.723 2 24.677V9.538C2 6.492 4.492 4 7.538 4h24.924C35.508 4 38 6.492 38 9.538v15.139c0 3.046-2.492 5.538-5.538 5.538z"
+            fill="url(#Devices_svg__paint1_linear)"
+          />
+          <path
+            d="M31.723 27.77H8.277a3.92 3.92 0 01-3.923-3.923V10.462A3.92 3.92 0 018.277 6.54h23.446a3.92 3.92 0 013.923 3.923v13.385c.046 2.123-1.754 3.923-3.923 3.923z"
+            fill="url(#Devices_svg__paint2_linear)"
+          />
+          <path
+            d="M8.83 13.875a2.676 2.676 0 100-5.352 2.676 2.676 0 000 5.352z"
+            fill="url(#Devices_svg__paint3_linear)"
+          />
+          <path
+            d="M26.57 35.754H13.43a.814.814 0 01-.815-.826v-.194c0-.437.336-.826.815-.826h13.14c.43 0 .814.34.814.826v.194c0 .438-.383.826-.815.826z"
+            fill="url(#Devices_svg__paint4_linear)"
+          />
+          <path
+            d="M37.954 22.462v10.846a2.314 2.314 0 01-2.308 2.308H32a2.314 2.314 0 01-2.308-2.308V22.462A2.314 2.314 0 0132 20.154h3.646a2.314 2.314 0 012.308 2.308z"
+            fill="url(#Devices_svg__paint5_linear)"
+          />
+          <path
+            d="M37.123 22.462v10.8c0 .877-.693 1.569-1.57 1.569h-3.461c-.877 0-1.57-.692-1.57-1.57v-10.8c0-.876.693-1.568 1.57-1.568h3.462c.876 0 1.569.692 1.569 1.569z"
+            fill="url(#Devices_svg__paint6_linear)"
+          />
+          <path
+            d="M34.723 22.692h-1.8a.315.315 0 01-.323-.323c0-.185.138-.323.323-.323h1.8c.184 0 .323.138.323.323-.046.185-.185.323-.323.323z"
+            fill="url(#Devices_svg__paint7_linear)"
+          />
+          <defs>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint0_linear"
+              x1={6.422}
+              x2={25.175}
+              y1={23.695}
+              y2={33.809}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint1_linear"
+              x1={-46.194}
+              x2={43.995}
+              y1={-26.866}
+              y2={23.229}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint2_linear"
+              x1={-0.833}
+              x2={3.434}
+              y1={0.227}
+              y2={37.864}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint3_linear"
+              x1={7.007}
+              x2={11.924}
+              y1={12.045}
+              y2={12.068}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint4_linear"
+              x1={-7.156}
+              x2={-2.936}
+              y1={31.735}
+              y2={45.392}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint5_linear"
+              x1={18.633}
+              x2={44.507}
+              y1={1.95}
+              y2={7.542}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint6_linear"
+              x1={29.429}
+              x2={37.283}
+              y1={16.748}
+              y2={39.004}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint7_linear"
+              x1={32.99}
+              x2={35.237}
+              y1={22.471}
+              y2={22.511}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <p
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        color="bulma.100"
+        size={20}
+      >
+        Device Breakdown
+      </p>
+      <div
+        className="Header__FilterWrapper-sc-1xmu29o-2"
+      >
+        <div
+          className="Filter__Container-eamt9m-2 jCUaYS"
+        >
+          <button
+            className="Filter__Toggle-eamt9m-1 ejgMRs"
+            onClick={[Function]}
+          >
+            <p
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 JVhrw dMfPPk"
+              color="bulma.100"
+              size={14}
+            >
+              by GGR
+            </p>
+            <svg
+              className="sc-eWvPJL"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="Loader__Container-sc-70sa6l-1 bRIzUU"
+    >
+      <svg
+        fill="none"
+        height="160"
+        width="160"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M80 0a79.998 79.998 0 0175.959 105.105 80.005 80.005 0 01-29.372 39.931L80 80V0z"
+          fill="#D8E0E3"
+        />
+        <path
+          d="M126.587 145.036A79.996 79.996 0 01.341 72.618L80 80l46.587 65.036z"
+          fill="#EAEEF0"
+        />
+        <path
+          d="M.341 72.618A80 80 0 0180 0v80L.341 72.618z"
+          fill="#F3F5F6"
+        />
+      </svg>
+      <p
+        className="Text-sc-3hujzp-0 Loader__Title-sc-70sa6l-0 eWinuX dLXDMA"
+        color="trunks.100"
+        size={14}
+      >
+        Loading...
+      </p>
+    </div>
+  </div>
+  <div
+    className="Panel__Container-wbwz0d-1 jEKoDF"
+    style={
+      Object {
+        "height": 446,
+      }
+    }
+  >
+    <div
+      className="Panel__Header-wbwz0d-2 jWuxJy"
+    >
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <div />
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-hkwnrn"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+          <path
+            clipRule="evenodd"
+            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
+            fill="currentColor"
+            fillRule="evenodd"
+          />
+        </svg>
+      </button>
+      <button
+        className="Panel__Button-wbwz0d-0 cYTKda"
+        onClick={[Function]}
+      >
+        <svg
+          className="sc-exiMuG"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="Header__Container-sc-1xmu29o-3 emYHde"
+    >
+      <div
+        className="Header__IconWrapper-sc-1xmu29o-1 jgfQsi"
+      >
+        <svg
+          fill="none"
+          height="40"
+          viewBox="0 0 40 40"
+          width="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.308 30.216h7.385v5.538h-7.385z"
+            fill="url(#Devices_svg__paint0_linear)"
+          />
+          <path
+            d="M32.462 30.215H7.538C4.492 30.215 2 27.723 2 24.677V9.538C2 6.492 4.492 4 7.538 4h24.924C35.508 4 38 6.492 38 9.538v15.139c0 3.046-2.492 5.538-5.538 5.538z"
+            fill="url(#Devices_svg__paint1_linear)"
+          />
+          <path
+            d="M31.723 27.77H8.277a3.92 3.92 0 01-3.923-3.923V10.462A3.92 3.92 0 018.277 6.54h23.446a3.92 3.92 0 013.923 3.923v13.385c.046 2.123-1.754 3.923-3.923 3.923z"
+            fill="url(#Devices_svg__paint2_linear)"
+          />
+          <path
+            d="M8.83 13.875a2.676 2.676 0 100-5.352 2.676 2.676 0 000 5.352z"
+            fill="url(#Devices_svg__paint3_linear)"
+          />
+          <path
+            d="M26.57 35.754H13.43a.814.814 0 01-.815-.826v-.194c0-.437.336-.826.815-.826h13.14c.43 0 .814.34.814.826v.194c0 .438-.383.826-.815.826z"
+            fill="url(#Devices_svg__paint4_linear)"
+          />
+          <path
+            d="M37.954 22.462v10.846a2.314 2.314 0 01-2.308 2.308H32a2.314 2.314 0 01-2.308-2.308V22.462A2.314 2.314 0 0132 20.154h3.646a2.314 2.314 0 012.308 2.308z"
+            fill="url(#Devices_svg__paint5_linear)"
+          />
+          <path
+            d="M37.123 22.462v10.8c0 .877-.693 1.569-1.57 1.569h-3.461c-.877 0-1.57-.692-1.57-1.57v-10.8c0-.876.693-1.568 1.57-1.568h3.462c.876 0 1.569.692 1.569 1.569z"
+            fill="url(#Devices_svg__paint6_linear)"
+          />
+          <path
+            d="M34.723 22.692h-1.8a.315.315 0 01-.323-.323c0-.185.138-.323.323-.323h1.8c.184 0 .323.138.323.323-.046.185-.185.323-.323.323z"
+            fill="url(#Devices_svg__paint7_linear)"
+          />
+          <defs>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint0_linear"
+              x1={6.422}
+              x2={25.175}
+              y1={23.695}
+              y2={33.809}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint1_linear"
+              x1={-46.194}
+              x2={43.995}
+              y1={-26.866}
+              y2={23.229}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint2_linear"
+              x1={-0.833}
+              x2={3.434}
+              y1={0.227}
+              y2={37.864}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint3_linear"
+              x1={7.007}
+              x2={11.924}
+              y1={12.045}
+              y2={12.068}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint4_linear"
+              x1={-7.156}
+              x2={-2.936}
+              y1={31.735}
+              y2={45.392}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint5_linear"
+              x1={18.633}
+              x2={44.507}
+              y1={1.95}
+              y2={7.542}
+            >
+              <stop
+                stopColor="#1757FF"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={1}
+                stopColor="#1757FF"
+                stopOpacity={0}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint6_linear"
+              x1={29.429}
+              x2={37.283}
+              y1={16.748}
+              y2={39.004}
+            >
+              <stop
+                stopColor="#F1F4FC"
+              />
+              <stop
+                offset={0.333}
+                stopColor="#F3F6FD"
+                stopOpacity={0.7}
+              />
+              <stop
+                offset={0.635}
+                stopColor="#F1F4FC"
+                stopOpacity={0.6}
+              />
+              <stop
+                offset={1}
+                stopColor="#F2F5FD"
+                stopOpacity={0.1}
+              />
+            </linearGradient>
+            <linearGradient
+              gradientUnits="userSpaceOnUse"
+              id="Devices_svg__paint7_linear"
+              x1={32.99}
+              x2={35.237}
+              y1={22.471}
+              y2={22.511}
+            >
+              <stop
+                stopColor="#FFD60A"
+              />
+              <stop
+                offset={1}
+                stopColor="#FFD60A"
+                stopOpacity={0}
+              />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <p
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        color="bulma.100"
+        size={20}
+      >
+        Device Breakdown
+      </p>
+      <div
+        className="Header__FilterWrapper-sc-1xmu29o-2"
+      >
+        <div
+          className="Filter__Container-eamt9m-2 jCUaYS"
+        >
+          <button
+            className="Filter__Toggle-eamt9m-1 ejgMRs"
+            onClick={[Function]}
+          >
+            <p
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 JVhrw dMfPPk"
+              color="bulma.100"
+              size={14}
+            >
+              by GGR
+            </p>
+            <svg
+              className="sc-eWvPJL"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fOgftP"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog renders 1`] = `
+<button
+  className="sc-kkeJPq fSsWMv"
+  onClick={[Function]}
+  size="small"
+  variant="primary"
+>
+  <div
+    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+  >
+    Open Dialog
+  </div>
+</button>
+`;
+
+exports[`Dialog renders Another Dialog Header 1`] = `
+<button
+  className="sc-kkeJPq fSsWMv"
+  onClick={[Function]}
+  size="small"
+  variant="primary"
+>
+  <div
+    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+  >
+    Open Dialog
+  </div>
+</button>
+`;
+
+exports[`Dialog renders Dialog Header 1`] = `
+<button
+  className="sc-kkeJPq fSsWMv"
+  onClick={[Function]}
+  size="small"
+  variant="primary"
+>
+  <div
+    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+  >
+    Open Dialog
+  </div>
+</button>
+`;
+
+exports[`Dialog renders with No Background 1`] = `
+<button
+  className="sc-kkeJPq fSsWMv"
+  onClick={[Function]}
+  size="small"
+  variant="primary"
+>
+  <div
+    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+  >
+    Open Dialog
+  </div>
+</button>
+`;
+
+exports[`Dialog renders with No Close 1`] = `
+<button
+  className="sc-kkeJPq fSsWMv"
+  onClick={[Function]}
+  size="small"
+  variant="primary"
+>
+  <div
+    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+  >
+    Open Dialog
+  </div>
+</button>
+`;

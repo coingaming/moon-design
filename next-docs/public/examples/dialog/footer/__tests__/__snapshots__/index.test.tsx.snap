@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog Footer renders different Sizes 1`] = `
+<div
+  className="flex flex-col"
+>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 irZYzY"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jgyICO"
+            size="small"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jJFhAA"
+            size="small"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ jsVuhc"
+          size="small"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 axSMo"
+      size="small"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ idkWst"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ eqpIFL"
+            size="xsmall"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ cIanBH"
+          size="xsmall"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog Footer renders with Button SM 1`] = `
+<div
+  className="flex flex-col"
+>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jgyICO"
+            size="small"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jgyICO"
+            size="small"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jJFhAA"
+            size="small"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jgyICO"
+            size="small"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jJFhAA"
+            size="small"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ jsVuhc"
+          size="small"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jgyICO"
+            size="small"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ jsVuhc"
+          size="small"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jJFhAA"
+            size="small"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ jJFhAA"
+            size="small"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ jsVuhc"
+          size="small"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-full max-w-screen-sm mb-4"
+  />
+</div>
+`;
+
+exports[`Dialog Footer renders with Button XS 1`] = `
+<div
+  className="flex flex-col"
+>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ idkWst"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ idkWst"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ eqpIFL"
+            size="xsmall"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ idkWst"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ eqpIFL"
+            size="xsmall"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ cIanBH"
+          size="xsmall"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ idkWst"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ cIanBH"
+          size="xsmall"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ eqpIFL"
+            size="xsmall"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-96 mb-4"
+  >
+    <div
+      className="Container-srtaaf-0 ljWPPS"
+    >
+      <div
+        className="RightWrapper-vueweo-0 gbyagB"
+      >
+        <div
+          className="ButtonWrapper-k744ak-0 hAMHfy"
+        >
+          <button
+            className="sc-jEUrFJ eqpIFL"
+            size="xsmall"
+            variant="tertiary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Button
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="ButtonWrapper-k744ak-0 hAMHfy"
+      >
+        <button
+          className="sc-jEUrFJ cIanBH"
+          size="xsmall"
+          variant="secondary"
+        >
+          <div
+            className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          >
+            Button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-full max-w-screen-sm mb-4"
+  />
+</div>
+`;
