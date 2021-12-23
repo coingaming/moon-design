@@ -1,5 +1,15 @@
 # Change Log
 
+## 7.18.1
+
+### Patch Changes
+
+- Text Input sizes
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.18.1
+  - @heathmont/moon-themes@7.18.1
+  - @heathmont/moon-utils@7.18.1
+
 ## 7.18.0
 
 ### Minor Changes
