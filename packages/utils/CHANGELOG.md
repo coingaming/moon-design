@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.19.1
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.19.1
+
 ## 7.19.0
 
 ### Minor Changes

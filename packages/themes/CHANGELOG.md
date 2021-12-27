@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.19.1
+
+### Patch Changes
+
+- Bump version
+
 ## 7.19.0
 
 ### Minor Changes
