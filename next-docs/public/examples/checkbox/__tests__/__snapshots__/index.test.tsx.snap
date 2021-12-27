@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders 1`] = `
+<label
+  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+>
+  <input
+    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    type="checkbox"
+  />
+  <span
+    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+  >
+    I agree to receive bonus & marketing emails.
+  </span>
+</label>
+`;
+
+exports[`Checkbox renders Aria Label 1`] = `
+<label
+  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+>
+  <input
+    aria-label="Description of the checkbox's purpose."
+    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    type="checkbox"
+  />
+  <span
+    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+  />
+</label>
+`;
+
+exports[`Checkbox renders Aria Label List 1`] = `
+<div
+  className="flex flex-col"
+>
+  <label
+    className="RadioButtonLabel-ozr645-0 ufglA"
+  >
+    <input
+      className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+      disabled={true}
+      name="test"
+      type="radio"
+    />
+    <figure
+      className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+    />
+    <span
+      className="RadioButtonCaption-sc-1dv62p7-0 kDcImA"
+    >
+      RadioButton
+    </span>
+  </label>
+  <label
+    className="RadioButtonLabel-ozr645-0 ufglA"
+  >
+    <input
+      className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+      name="test"
+      type="radio"
+    />
+    <figure
+      className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+    />
+  </label>
+  <div
+    className="mt-2 mb-2"
+  >
+    <div
+      className="Container-sc-1vcdan4-0 iiencZ"
+    >
+      <div
+        className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+      >
+        Single line item
+      </div>
+      <span
+        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+      >
+        <label
+          className="RadioButtonLabel-ozr645-0 ufglA"
+        >
+          <input
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            name="test"
+            type="radio"
+          />
+          <figure
+            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+          />
+        </label>
+      </span>
+    </div>
+  </div>
+  <div>
+    <label
+      className="RadioButtonLabel-ozr645-0 ufglA"
+    >
+      <div
+        className="Container-sc-1vcdan4-0 iiencZ"
+      >
+        <div
+          className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+        >
+          Single line item
+        </div>
+        <span
+          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        >
+          <input
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            type="radio"
+          />
+          <figure
+            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+          />
+        </span>
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox renders Checked 1`] = `
+<label
+  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+>
+  <input
+    checked={true}
+    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    readOnly={true}
+    type="checkbox"
+  />
+  <span
+    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+  >
+    I agree to receive bonus & marketing emails.
+  </span>
+</label>
+`;
+
+exports[`Checkbox renders Disabled 1`] = `
+<label
+  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+>
+  <input
+    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    disabled={true}
+    type="checkbox"
+  />
+  <span
+    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+  >
+    I agree to receive bonus & marketing emails.
+  </span>
+</label>
+`;

@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.19.0
+
+### Minor Changes
+
+- Test coverage
+
 ## 7.18.1
 
 ### Patch Changes

@@ -9,6 +9,7 @@ const Example = () => {
   return (
     <>
       <Switch
+        id="test-switch-1"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)

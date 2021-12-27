@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders 1`] = `
+<div
+  className="Pagination__PaginationWrapper-wdjjm6-0 llAosQ"
+>
+  <div
+    className="Pagination__ReactPaginateWrapper-wdjjm6-2 bPUMxH"
+  >
+    <ul>
+      <li
+        className="previous"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Previous page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="sc-kkeJPq iVOdVY"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Previous
+            </div>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 1"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 9"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          9
+        </a>
+      </li>
+      <li
+        className="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 10 is your current page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          10
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 11"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          11
+        </a>
+      </li>
+      <li
+        className="break"
+      >
+        <a
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          aria-label="Page 20"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          20
+        </a>
+      </li>
+      <li
+        className="next"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <button
+            className="sc-kkeJPq iVOdVY"
+            size="xsmall"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Next
+            </div>
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

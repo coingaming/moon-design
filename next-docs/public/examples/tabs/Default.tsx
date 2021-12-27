@@ -4,6 +4,7 @@ import { Tabs, TabLink } from '@heathmont/moon-core';
 
 const Example = () => (
   <Tabs
+    id="nav-test-id-1"
     items={[
       <TabLink href="#2">Featured</TabLink>,
       <TabLink href="#3">Today</TabLink>,
