@@ -1,5 +1,19 @@
 # Change Log
 
+## 7.19.0
+
+### Minor Changes
+
+- Test coverage
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.19.0
+  - @heathmont/moon-icons@7.19.0
+  - @heathmont/moon-themes@7.19.0
+  - @heathmont/moon-utils@7.19.0
+
 ## 7.18.1
 
 ### Patch Changes
