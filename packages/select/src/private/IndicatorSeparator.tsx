@@ -15,7 +15,7 @@ const IndicatorSeparator = ({ ...rest }) => {
   const itemsCount = rest.selectProps.value ? rest.selectProps.value.length : 0;
   const hiddenItems = itemsCount - amountOfVisibleItems;
   if (hiddenItems > 0 && rest.selectProps.isMulti)
-    return <Container theme={rest.theme}>{`+${hiddenItems}`}</Container>;
+    return <Container theme={rest.theme}>+{hiddenItems}</Container>;
   return null;
 };
 
