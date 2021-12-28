@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.20.0
+
+### Minor Changes
+
+- add moon-select package
+
 ## 7.19.1
 
 ### Patch Changes
