@@ -8,11 +8,19 @@ const CustomStyles: StylesConfig = {
     const { theme, menuWidth } = state.selectProps['data-customProps'];
     return {
       ...provided,
-      minWidth: '300px',
-      padding: rem(theme.space.xsmall),
+      minWidth: rem(300),
+      borderRadius: rem(12),
+      padding: `${rem(4)} 0`,
       boxShadow:
         '0px 8px 24px -6px rgba(0, 0, 0, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.4)',
-      ...(menuWidth ? { width: `${menuWidth}px` } : {}),
+      ...(menuWidth ? { width: rem(menuWidth), minWidth: rem(menuWidth) } : {}),
+    };
+  },
+  //options inner
+  menuList: (provided) => {
+    return {
+      ...provided,
+      padding: rem(4),
     };
   },
   // option
@@ -20,11 +28,17 @@ const CustomStyles: StylesConfig = {
     const { theme } = state.selectProps['data-customProps'];
     return {
       ...provided,
-      // borderRadius: rem(theme.radius.small),
-      // padding: rem(theme.space.default),
-      padding: 0,
+      borderRadius: rem(theme.radius.small),
+      padding: rem(12),
+      fontSize: rem(16),
+      lineHeight: rem(24),
       cursor: 'pointer',
       marginBottom: rem(4),
+      backgroundColor:
+        state.isSelected || state.isFocused
+          ? theme.color.goku[100]
+          : 'transparent',
+      color: state.isSelected ? theme.color.bulma[100] : 'inherit',
       '&:last-child': {
         marginBottom: 0,
       },
@@ -45,15 +59,18 @@ const CustomStyles: StylesConfig = {
       ...(customProps.isCustomControl
         ? { position: 'absolute', opacity: 0 }
         : {}),
+      borderRadius: rem(customProps.theme.radius.largest),
       boxShadow: state.isFocused
-        ? `0 0 0 1px ${customProps.theme.color.piccolo[100]}`
+        ? `inset 0 0 0 1px ${customProps.theme.color.piccolo[100]}`
         : 'none',
-      transition: 'none',
+      transition:
+        !state.isFocused &&
+        `box-shadow ${customProps.theme.transitionDuration.default}s ease`,
       minHeight: customProps.size === 'xLarge' ? rem(56) : rem(48),
       '&:hover': {
         boxShadow: state.isFocused
-          ? `0 0 0 1px ${customProps.theme.color.piccolo[100]}`
-          : `0 0 0 1px ${customProps.theme.color.beerus[100]}`,
+          ? `inset 0 0 0 1px ${customProps.theme.color.piccolo[100]}`
+          : `inset 0 0 0 1px ${customProps.theme.color.beerus[100]}`,
         cursor: 'pointer',
       },
     };

@@ -10,12 +10,10 @@ const Container = styled.div(({ theme }) => ({
 }));
 
 const IndicatorSeparator = ({ ...rest }) => {
-  console.log('IndicatorSeparator', rest);
   const customProps = rest.selectProps['data-customProps'];
-  const numberVisibleItems = customProps.numberVisibleItems;
+  const amountOfVisibleItems = customProps.amountOfVisibleItems;
   const itemsCount = rest.selectProps.value ? rest.selectProps.value.length : 0;
-  const hiddenItems = itemsCount - numberVisibleItems;
-  console.log('hiddenItems', hiddenItems);
+  const hiddenItems = itemsCount - amountOfVisibleItems;
   if (hiddenItems > 0 && rest.selectProps.isMulti)
     return <Container theme={rest.theme}>{`+${hiddenItems}`}</Container>;
   return null;

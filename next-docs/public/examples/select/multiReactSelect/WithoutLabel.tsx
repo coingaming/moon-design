@@ -17,20 +17,16 @@ const options = [
 ];
 
 const Example = () => (
-  <div className="flex items-end flex-wrap pb-36">
+  <div className="pb-40 flex items-end flex-wrap ">
     <div className="w-80 mr-4 ml-4 mb-8">
-      <Select
-        options={options}
-        label="Single md"
-        placeholderSlot="Choose an option"
-      />
+      <Select options={options} placeholderSlot="Choose an option" isMulti />
     </div>
     <div className="w-80 mr-4 ml-4 mb-8">
       <Select
         options={options}
-        label="Single lg"
         size="xLarge"
         placeholderSlot="Choose an option"
+        isMulti
       />
     </div>
   </div>

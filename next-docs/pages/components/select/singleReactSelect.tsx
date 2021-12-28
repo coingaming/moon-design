@@ -1,6 +1,7 @@
 import React from 'react';
 
 import WithLabel from '../../../public/examples/select/singleReactSelect/WithLabel';
+import Options from '../../../public/examples/select/singleReactSelect/Options';
 
 import Preview from '../../../components/codePreview/Preview';
 
@@ -30,6 +31,15 @@ export default function PageSelect() {
         <Preview
           title="With Label"
           preview={<WithLabel />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/*Options*/}
+      <section className="mt-8">
+        <Preview
+          title="List options"
+          preview={<Options />}
           code={examples ? examples.Default : 'Loading'}
         />
       </section>

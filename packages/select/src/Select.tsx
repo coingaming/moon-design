@@ -38,12 +38,12 @@ type SelectProps<T> = {
   menuHeader?: React.ReactNode;
   menuFooter?: React.ReactNode;
   menuWidth?: number;
-  label: string;
+  label?: string;
   leftSlot?: React.ReactNode;
   hintSlot?: JSX.Element | string;
   placeholderSlot?: JSX.Element | string;
   size?: 'large' | 'xLarge';
-  numberVisibleItems?: number;
+  amountOfVisibleItems?: number;
 } & ReactSelectProps<T>;
 
 const Select = <T extends BaseOptionType>({
@@ -56,7 +56,7 @@ const Select = <T extends BaseOptionType>({
   leftSlot,
   hintSlot,
   placeholderSlot,
-  numberVisibleItems,
+  amountOfVisibleItems,
   isSearchable = false,
   size = 'large',
   ...rest
@@ -100,7 +100,7 @@ const Select = <T extends BaseOptionType>({
         hintSlot,
         placeholderSlot,
         size,
-        numberVisibleItems,
+        amountOfVisibleItems,
       }}
       theme={(theme) => ({
         ...theme,
@@ -110,7 +110,7 @@ const Select = <T extends BaseOptionType>({
           primary25: moonTheme.color.goku[100] as string,
           primary50: moonTheme.color.hit[80] as string,
           primary75: moonTheme.color.trunks[100] as string,
-          primary: moonTheme.color.piccolo[100] as string, // border focused
+          primary: moonTheme.color.piccolo[100] as string, // border focused and option active bg
           danger: moonTheme.color.chiChi[100] as string,
           dangerLight: moonTheme.color.chiChi[10] as string,
           neutral0: moonTheme.color.gohan[100] as string, // bg

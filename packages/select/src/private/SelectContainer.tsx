@@ -10,11 +10,13 @@ const SelectContainer = ({ children, ...rest }: SelectContainerProps) => {
   const label = customProps.label;
   const hint = customProps.hintSlot;
   return (
-    <components.SelectContainer {...rest}>
-      {size === 'large' && label && <SelectLabel>{label}</SelectLabel>}
-      {children}
+    <>
+      <components.SelectContainer {...rest}>
+        {size === 'large' && label && <SelectLabel>{label}</SelectLabel>}
+        {children}
+      </components.SelectContainer>
       {hint && <HintText>{hint}</HintText>}
-    </components.SelectContainer>
+    </>
   );
 };
 

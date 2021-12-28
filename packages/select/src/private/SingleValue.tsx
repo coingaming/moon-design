@@ -7,8 +7,6 @@ const SingleValue = ({
   ...rest
 }: SingleValueProps<BaseOptionType>) => {
   const leftSlot = rest.selectProps['data-customProps']?.leftSlot;
-  console.log('SingleValue', children);
-  console.log('SingleValue rest', rest);
   return (
     <components.SingleValue {...rest}>
       {leftSlot ? rest.data.label : children}

@@ -25,12 +25,12 @@ const InnerLabelContainer = styled.div<{ theme: Theme }>(({ theme }) => ({
 
 const ValueContainer = ({ children, ...rest }: ValueContainerProps) => {
   const size = rest.selectProps['data-customProps']?.size;
-  const numberVisibleItems =
-    rest.selectProps['data-customProps'].numberVisibleItems;
+  const amountOfVisibleItems =
+    rest.selectProps['data-customProps'].amountOfVisibleItems;
   const itemsCount = children[0]?.length;
   const visibleChildren =
-    itemsCount > 0 && numberVisibleItems
-      ? children[0]?.filter((_, i) => i + 1 <= numberVisibleItems)
+    itemsCount > 0 && amountOfVisibleItems
+      ? children[0]?.filter((_, i) => i + 1 <= amountOfVisibleItems)
       : children[0];
   const cloneChildren = [...children];
   cloneChildren[0] = visibleChildren;
@@ -42,7 +42,7 @@ const ValueContainer = ({ children, ...rest }: ValueContainerProps) => {
         </InnerLabelContainer>
       )}
       {rest.isMulti ? (
-        <MultiContainer isHidden={!!numberVisibleItems}>
+        <MultiContainer isHidden={!!amountOfVisibleItems}>
           {cloneChildren}
         </MultiContainer>
       ) : (
