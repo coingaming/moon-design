@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders 1`] = `
+<div
+  className="Inline-sc-1rz1cju-0 hXveSP"
+>
+  <strong
+    className="Container-sc-12rktgh-0 bxAnKl"
+    role="progressbar"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 eptzve"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 iVzsUY"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kxagPj"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 bNqlMY"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 bxAnKl"
+    role="progressbar"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 bgliMM"
+      color="piccolo.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 iCCcTO"
+      color="piccolo.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 icogfx"
+      color="piccolo.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 bLuoxq"
+      color="piccolo.100"
+    />
+  </strong>
+</div>
+`;
+
+exports[`Loader renders with different colours 1`] = `
+<div
+  className="Inline-sc-1rz1cju-0 hXveSP"
+>
+  <strong
+    className="Container-sc-12rktgh-0 bxAnKl"
+    role="progressbar"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 hTmzSS"
+      color="dodoria.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 hIIfhI"
+      color="dodoria.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 blggtn"
+      color="dodoria.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 grfZOE"
+      color="dodoria.100"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 bxAnKl"
+    role="progressbar"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 ifhfRK"
+      color="trunks.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 gHLtec"
+      color="trunks.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 jtXfGf"
+      color="trunks.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kuFraI"
+      color="trunks.100"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 bxAnKl"
+    role="progressbar"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 bSReIZ"
+      color="#663399"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kBJHrL"
+      color="#663399"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 hQQIEg"
+      color="#663399"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 bJvUrf"
+      color="#663399"
+    />
+  </strong>
+</div>
+`;

@@ -27,10 +27,10 @@ const Example = () => {
   ];
 
   const makeData = (length: number) => {
-    return Array.from('_'.repeat(length)).map(() => {
+    return Array.from('_'.repeat(length)).map((_, index) => {
       return {
         firstName: 'Test',
-        age: <span>{Math.floor(Math.random() * 30)}</span>,
+        age: <span>{Math.floor(index * 30)}</span>,
       };
     });
   };

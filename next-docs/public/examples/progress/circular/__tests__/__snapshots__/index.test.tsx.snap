@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circular Progress renders 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <svg
+    fontSize="5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      d="
+      M 50,50
+      m 0,-44
+      a 44,44 0 1 1 0,88
+      a 44,44 0 1 1 0,-88
+    "
+      fillOpacity={0}
+      strokeWidth={12}
+      style={
+        Object {
+          "stroke": "#F5F5F5",
+          "strokeDasharray": "276.46015351590177px 276.46015351590177px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      d="
+      M 50,50
+      m 0,-44
+      a 44,44 0 1 1 0,88
+      a 44,44 0 1 1 0,-88
+    "
+      fillOpacity={0}
+      strokeWidth={12}
+      style={
+        Object {
+          "stroke": "#4E46B4",
+          "strokeDasharray": "276.46015351590177px 276.46015351590177px",
+          "strokeDashoffset": "193.5221074611312px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>
+  <svg
+    fontSize="8rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      d="
+      M 50,50
+      m 0,-44
+      a 44,44 0 1 1 0,88
+      a 44,44 0 1 1 0,-88
+    "
+      fillOpacity={0}
+      strokeWidth={12}
+      style={
+        Object {
+          "stroke": "#F5F5F5",
+          "strokeDasharray": "276.46015351590177px 276.46015351590177px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      d="
+      M 50,50
+      m 0,-44
+      a 44,44 0 1 1 0,88
+      a 44,44 0 1 1 0,-88
+    "
+      fillOpacity={0}
+      strokeWidth={12}
+      style={
+        Object {
+          "stroke": "#4E46B4",
+          "strokeDasharray": "276.46015351590177px 276.46015351590177px",
+          "strokeDashoffset": "165.87609210954105px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>
+  <svg
+    fontSize="5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      d="
+      M 50,50
+      m 0,-49
+      a 49,49 0 1 1 0,98
+      a 49,49 0 1 1 0,-98
+    "
+      fillOpacity={0}
+      strokeWidth={2}
+      style={
+        Object {
+          "stroke": "#F5F5F5",
+          "strokeDasharray": "307.8760800517997px 307.8760800517997px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      d="
+      M 50,50
+      m 0,-49
+      a 49,49 0 1 1 0,98
+      a 49,49 0 1 1 0,-98
+    "
+      fillOpacity={0}
+      strokeWidth={2}
+      style={
+        Object {
+          "stroke": "#4E46B4",
+          "strokeDasharray": "307.8760800517997px 307.8760800517997px",
+          "strokeDashoffset": "123.15043202071989px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>
+</div>
+`;
