@@ -61,7 +61,7 @@ const Popover: React.FC<Props> = ({
     }
   }, [visible]);
 
-  function handleChildClick(e: any) {
+  function handleChildClick(e: Event) {
     e.preventDefault();
 
     setVisible(!visible);

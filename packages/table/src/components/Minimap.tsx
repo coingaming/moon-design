@@ -57,7 +57,7 @@ type Props = {
   footerRef: MutableRefObject<HTMLElement | null>;
 };
 
-let timeoutId: any;
+let timeoutId: ReturnType<typeof setTimeout>;
 const TIMEOUT = 150;
 
 const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {

@@ -6,7 +6,7 @@ import { ColorNames } from '@heathmont/moon-themes';
 import TD from './TD';
 
 const BodyTR = styled.div<{
-  onClick?: any;
+  onClick?: () => void;
   depth?: number;
   withOffset?: boolean;
   isExpanded?: boolean;

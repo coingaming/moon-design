@@ -3,13 +3,14 @@ import BodyTR from '../components/BodyTR';
 import TD from '../components/TD';
 import { ColorNames } from '@heathmont/moon-themes';
 import { RowSubComponentProps } from '../Table';
+import { Row } from 'react-table';
 
-type RenderRowsProps = {
-  rows: any;
-  prepareRow: any;
+type RenderRowsProps<D extends object = {}> = {
+  rows: Row<D>[];
+  prepareRow: (row: Row<D>) => void;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
-  getOnRowClickHandler: (row: any) => any;
+  getOnRowClickHandler: (row: Row<D>) => any;
   renderRowSubComponent?: (props: RowSubComponentProps) => any;
 };
 
@@ -22,7 +23,7 @@ const renderRows = ({
   renderRowSubComponent,
 }: RenderRowsProps) => {
   if (!rows) return;
-  return rows.map((row: any, index: number) => {
+  return rows.map((row: Row<{}>, index: number) => {
     prepareRow(row);
     const rowProps = row.getRowProps();
     const onRowClickHandler = getOnRowClickHandler(row);

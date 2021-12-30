@@ -32,7 +32,7 @@ const SectionWrapper = styled.div({
   margin: rem(10),
 });
 
-const ReactPaginateWrapper = styled.div(({ theme }): any => ({
+const ReactPaginateWrapper = styled.div(({ theme }) => ({
   width: '100%',
   display: 'flex',
   flexWrap: 'wrap',

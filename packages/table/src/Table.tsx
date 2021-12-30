@@ -8,6 +8,8 @@ import {
   useSortBy,
   TableInstance,
   PluginHook,
+  Column,
+  Row,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { ColorNames } from '@heathmont/moon-themes';
@@ -29,15 +31,15 @@ export type TableLayout = 'block';
 
 export type TableVariant = 'calendar';
 
-export type RowSubComponentProps = {
-  row: any;
+export type RowSubComponentProps<D extends object = {}> = {
+  row: Row<D>;
   backgroundColor: ColorNames;
 };
 
-export type TableProps = {
-  columns: any;
-  data: any;
-  defaultColumn?: any;
+export type TableProps<D extends object = {}> = {
+  columns: ReadonlyArray<Column<D>>;
+  data: readonly D[];
+  defaultColumn?: Partial<Column<D>>;
   width?: string | number;
   height?: string | number;
   maxWidth?: string | number;
@@ -53,7 +55,7 @@ export type TableProps = {
   isSticky?: boolean;
   isSorting?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => any;
-  getOnRowClickHandler?: (row: any) => any;
+  getOnRowClickHandler?: (row: Row<D>) => any;
 };
 
 const Table: React.FC<TableProps> = ({
@@ -103,7 +105,7 @@ const Table: React.FC<TableProps> = ({
       defaultColumn,
     },
     ...plugins
-  ) as TableInstance & {
+  ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeader[];
   };
