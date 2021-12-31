@@ -10,6 +10,9 @@ import {
   PluginHook,
   Column,
   Row,
+  HeaderGroup,
+  UseResizeColumnsColumnProps,
+  UseSortByColumnProps,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { ColorNames } from '@heathmont/moon-themes';
@@ -54,8 +57,8 @@ export type TableProps<D extends object = {}> = {
   headerBackgroundColor?: ColorNames;
   isSticky?: boolean;
   isSorting?: boolean;
-  renderRowSubComponent?: (props: RowSubComponentProps) => any;
-  getOnRowClickHandler?: (row: Row<D>) => any;
+  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
+  getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
 };
 
 const Table: React.FC<TableProps> = ({
@@ -77,7 +80,7 @@ const Table: React.FC<TableProps> = ({
   isSticky = true,
   isSorting = false,
   renderRowSubComponent,
-  getOnRowClickHandler = () => undefined,
+  getOnRowClickHandler = (row: Row<{}>) => (row) => {},
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
@@ -120,6 +123,59 @@ const Table: React.FC<TableProps> = ({
     toggleAllRowsExpanded(expandedByDefault);
   }, [expandedByDefault, data, toggleAllRowsExpanded]);
 
+  const getHeaderRowWhenSorting = (column: HeaderGroup<object>) => {
+    const sortingColumn = column as unknown as UseSortByColumnProps<object>;
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
+    return (
+      <TH
+        {...column.getHeaderProps(sortingColumn.getSortByToggleProps())}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {column.render('Header')}
+        <div
+          {...resizingColumn.getResizerProps()}
+          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+        />
+      </TH>
+    );
+  };
+
+  const getHeaderRowWhenResizing = (column: HeaderGroup<object>) => {
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
+    return (
+      <TH
+        {...column.getHeaderProps()}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {column.render('Header')}
+        <div
+          {...resizingColumn.getResizerProps()}
+          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+        />
+      </TH>
+    );
+  };
+
+  const getFooterRowWhenResizing = (column: HeaderGroup<object>) => {
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
+    return (
+      <TH
+        {...column.getHeaderProps()}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {column.render('Footer')}
+
+        <div
+          {...resizingColumn.getResizerProps()}
+          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+        />
+      </TH>
+    );
+  };
+
   const renderTableComponent = () => (
     <TableWrapper
       {...getTableProps()}
@@ -140,37 +196,15 @@ const Table: React.FC<TableProps> = ({
       headerBackgroundColor={headerBackgroundColor}
     >
       <Header>
-        {headerGroups.map((headerGroup) => (
+        {headerGroups.map((headerGroup: HeaderGroup<object>) => (
           <HeaderTR {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column: any) =>
-              isSorting ? (
-                <TH
-                  {...column.getHeaderProps(column.getSortByToggleProps())}
-                  headerBackgroundColor={headerBackgroundColor}
-                >
-                  {column.render('Header')}
-                  <div
-                    {...column.getResizerProps()}
-                    className={`resizer ${
-                      column.isResizing ? 'isResizing' : ''
-                    }`}
-                  />
-                </TH>
-              ) : (
-                <TH
-                  {...column.getHeaderProps()}
-                  headerBackgroundColor={headerBackgroundColor}
-                >
-                  {column.render('Header')}
-                  <div
-                    {...column.getResizerProps()}
-                    className={`resizer ${
-                      column.isResizing ? 'isResizing' : ''
-                    }`}
-                  />
-                </TH>
-              )
-            )}
+            {headerGroup.headers.map((column: HeaderGroup<object>) => {
+              const element = isSorting
+                ? getHeaderRowWhenSorting(column)
+                : getHeaderRowWhenResizing(column);
+
+              return element;
+            })}
           </HeaderTR>
         ))}
         <HiddenTR lastHeaderGroup={lastHeaderGroup} />
@@ -198,23 +232,11 @@ const Table: React.FC<TableProps> = ({
 
       {withFooter && (
         <Footer ref={footerRef}>
-          {footerGroups.map((footerGroup) => (
+          {footerGroups.map((footerGroup: HeaderGroup<object>) => (
             <HeaderTR {...footerGroup.getHeaderGroupProps()}>
-              {footerGroup.headers.map((column: any) => (
-                <TH
-                  {...column.getHeaderProps()}
-                  headerBackgroundColor={headerBackgroundColor}
-                >
-                  {column.render('Footer')}
-
-                  <div
-                    {...column.getResizerProps()}
-                    className={`resizer ${
-                      column.isResizing ? 'isResizing' : ''
-                    }`}
-                  />
-                </TH>
-              ))}
+              {footerGroup.headers.map((column: HeaderGroup<object>) =>
+                getFooterRowWhenResizing(column)
+              )}
             </HeaderTR>
           ))}
         </Footer>

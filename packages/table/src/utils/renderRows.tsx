@@ -3,15 +3,15 @@ import BodyTR from '../components/BodyTR';
 import TD from '../components/TD';
 import { ColorNames } from '@heathmont/moon-themes';
 import { RowSubComponentProps } from '../Table';
-import { Row } from 'react-table';
+import { Cell, Row, UseExpandedRowProps } from 'react-table';
 
 type RenderRowsProps<D extends object = {}> = {
-  rows: Row<D>[];
+  rows: (Row<D> | UseExpandedRowProps<D>)[];
   prepareRow: (row: Row<D>) => void;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
-  getOnRowClickHandler: (row: Row<D>) => any;
-  renderRowSubComponent?: (props: RowSubComponentProps) => any;
+  getOnRowClickHandler: (row: Row<D>) => (row: Row<D>) => void | (() => void);
+  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
 };
 
 const renderRows = ({
@@ -23,14 +23,17 @@ const renderRows = ({
   renderRowSubComponent,
 }: RenderRowsProps) => {
   if (!rows) return;
-  return rows.map((row: Row<{}>, index: number) => {
-    prepareRow(row);
-    const rowProps = row.getRowProps();
-    const onRowClickHandler = getOnRowClickHandler(row);
+  return rows.map((row: Row | UseExpandedRowProps<{}>, index: number) => {
+    const rowItem = row as Row<{}>;
+    prepareRow(rowItem);
+    const rowProps = rowItem.getRowProps();
+    const onRowClickHandler = getOnRowClickHandler(rowItem);
     const hasOnRowClickHandler = typeof onRowClickHandler === 'function';
-    const rowId = row.id ? row.id.split('.') : [];
+    const rowId = rowItem.id ? rowItem.id.split('.') : [];
     const nextRow = rows[index + 1];
-    const nextRowId = nextRow && nextRow.id ? nextRow.id.split('.') : [];
+    const nextRowItem = nextRow as Row;
+    const nextRowId =
+      nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
 
     const mainRowIndex = Number(rowId[0]);
     const backgroundColor =
@@ -39,28 +42,30 @@ const renderRows = ({
     const isLastNestedRow = rowId.length > nextRowId.length;
     const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
 
+    const expandedRow = row as UseExpandedRowProps<{}>;
+
     return (
-      <Fragment key={`${row.id}-${rowProps.key}`}>
+      <Fragment key={`${rowItem.id}-${rowProps.key}`}>
         <BodyTR
           {...rowProps}
-          depth={row.depth}
-          isExpanded={row.isExpanded}
-          hasChildren={row.canExpand}
-          hasParent={!!row.depth}
+          depth={expandedRow.depth}
+          isExpanded={expandedRow.isExpanded}
+          hasChildren={expandedRow.canExpand}
+          hasParent={!!expandedRow.depth}
           isLastNestedRow={isLastNestedRow}
           isLastRow={isLastRow}
           backgroundColor={backgroundColor}
           onClick={
-            hasOnRowClickHandler ? () => onRowClickHandler(row) : undefined
+            hasOnRowClickHandler ? () => onRowClickHandler(rowItem) : undefined
           }
         >
-          {row.cells.map((cell: any) => (
+          {rowItem.cells.map((cell: Cell<{}, any>) => (
             <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
           ))}
         </BodyTR>
 
-        {row.isExpanded && !!renderRowSubComponent
-          ? renderRowSubComponent({ row, backgroundColor })
+        {expandedRow.isExpanded && !!renderRowSubComponent
+          ? renderRowSubComponent({ row: rowItem, backgroundColor })
           : null}
       </Fragment>
     );
