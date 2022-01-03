@@ -59,11 +59,7 @@ export type TableProps<D extends object = {}> = {
   isSticky?: boolean;
   isSorting?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  getOnRowClickHandler?: (
-    row: Row<D> | UseExpandedRowProps<D>
-  ) =>
-    | ((row?: Row<D> | UseExpandedRowProps<D>) => void | (() => void))
-    | undefined;
+  getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
 };
 
 const Table: React.FC<TableProps> = ({
@@ -85,8 +81,7 @@ const Table: React.FC<TableProps> = ({
   isSticky = true,
   isSorting = false,
   renderRowSubComponent,
-  getOnRowClickHandler = (row: Row<{}> | UseExpandedRowProps<{}>) =>
-    (row) => {},
+  getOnRowClickHandler = () => undefined,
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
