@@ -30,14 +30,14 @@ const FigmaIcon = () => (
 const ForDesigners = () => {
   return (
     <div className="flex flex-col justify-end md:fixed for-designers p-8 text-white rounded-t-lg rounded-bl-lg bg-designer z-30">
-      <div className="absolute top-8 right-8 text-white z-30">
+      <div className="absolute top-8 right-8 text-white z-30 hidden md:block">
         <TopRightArrowIcon />
       </div>
       <div className="mb-4">
         <FigmaIcon />
       </div>
       <h2 className="text-2xl mb-7">For designers.</h2>
-      <div className="flex flex-wrap gap-1">
+      <div className="flex flex-wrap gap-1 hidden md:block">
         <Link>Getting Started</Link>
         <Link>Figma</Link>
         <Link>Visual Language</Link>

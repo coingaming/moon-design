@@ -57,6 +57,9 @@ export default function Home() {
 
       <Header />
 
+      <ForDesigners />
+      <ForDevelopers />
+
       <SubHeader
         title="Updates."
         description="Explore our community features"
