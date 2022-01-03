@@ -13,6 +13,7 @@ import {
   HeaderGroup,
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
+  UseExpandedRowProps,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import { ColorNames } from '@heathmont/moon-themes';
@@ -58,7 +59,11 @@ export type TableProps<D extends object = {}> = {
   isSticky?: boolean;
   isSorting?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
+  getOnRowClickHandler?: (
+    row: Row<D> | UseExpandedRowProps<D>
+  ) =>
+    | ((row?: Row<D> | UseExpandedRowProps<D>) => void | (() => void))
+    | undefined;
 };
 
 const Table: React.FC<TableProps> = ({
@@ -80,7 +85,8 @@ const Table: React.FC<TableProps> = ({
   isSticky = true,
   isSorting = false,
   renderRowSubComponent,
-  getOnRowClickHandler = (row: Row<{}>) => (row) => {},
+  getOnRowClickHandler = (row: Row<{}> | UseExpandedRowProps<{}>) =>
+    (row) => {},
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,

@@ -3,13 +3,13 @@ import BodyTR from '../components/BodyTR';
 import TD from '../components/TD';
 import { RowSpanHeader } from '../hooks/useRowSpan';
 import { ColorNames } from '@heathmont/moon-themes';
-import { Cell, Row } from 'react-table';
+import { Cell, Row, UseExpandedRowProps } from 'react-table';
 
 type RenderSpanRowsProps<D extends object = {}> = {
   rows: Row<D>[];
   prepareRow: (row: Row<D>) => void;
   rowSpanHeaders: RowSpanHeader[];
-  getOnRowClickHandler: (row: Row<D>) => any;
+  getOnRowClickHandler: (row: Row<D> | UseExpandedRowProps<D>) => any;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
 };

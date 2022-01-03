@@ -88,7 +88,7 @@ const Example = () => {
       height={400}
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
-      getOnRowClickHandler={(row) =>
+      getOnRowClickHandler={(row: any) =>
         row.canExpand ? () => row.toggleRowExpanded() : undefined
       }
     />

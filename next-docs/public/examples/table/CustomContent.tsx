@@ -56,9 +56,9 @@ const Example = () => {
       height={400}
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
-      getOnRowClickHandler={(row) =>
-        row.depth === 0 ? () => row.toggleRowExpanded() : undefined
-      }
+      getOnRowClickHandler={(row: any) => {
+        return row.depth === 0 ? () => row.toggleRowExpanded() : undefined;
+      }}
       renderRowSubComponent={({ row, backgroundColor }) => {
         return (
           <BodyTR

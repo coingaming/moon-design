@@ -10,7 +10,9 @@ type RenderRowsProps<D extends object = {}> = {
   prepareRow: (row: Row<D>) => void;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
-  getOnRowClickHandler: (row: Row<D>) => (row: Row<D>) => void | (() => void);
+  getOnRowClickHandler: (
+    row: Row<D> | UseExpandedRowProps<D>
+  ) => ((row: Row<D>) => void | (() => void)) | undefined;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
 };
 
@@ -27,7 +29,9 @@ const renderRows = ({
     const rowItem = row as Row<{}>;
     prepareRow(rowItem);
     const rowProps = rowItem.getRowProps();
-    const onRowClickHandler = getOnRowClickHandler(rowItem);
+    const onRowClickHandler = getOnRowClickHandler
+      ? getOnRowClickHandler(rowItem)
+      : undefined;
     const hasOnRowClickHandler = typeof onRowClickHandler === 'function';
     const rowId = rowItem.id ? rowItem.id.split('.') : [];
     const nextRow = rows[index + 1];
@@ -56,7 +60,7 @@ const renderRows = ({
           isLastRow={isLastRow}
           backgroundColor={backgroundColor}
           onClick={
-            hasOnRowClickHandler ? () => onRowClickHandler(rowItem) : undefined
+            hasOnRowClickHandler ? () => onRowClickHandler!(rowItem) : undefined
           }
         >
           {rowItem.cells.map((cell: Cell<{}, any>) => (
