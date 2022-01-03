@@ -1,5 +1,29 @@
 # Change Log
 
+## 7.20.0
+
+### Minor Changes
+
+- add moon-select package
+
+## 7.19.1
+
+### Patch Changes
+
+- Bump version
+
+## 7.19.0
+
+### Minor Changes
+
+- Test coverage
+
+## 7.18.1
+
+### Patch Changes
+
+- Text Input sizes
+
 ## 7.18.0
 
 ### Minor Changes

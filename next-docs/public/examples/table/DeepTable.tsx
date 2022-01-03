@@ -39,27 +39,27 @@ const Example = () => {
   ];
 
   const makeData = (length: number) => {
-    return Array.from('_'.repeat(length)).map(() => {
+    return Array.from('_'.repeat(length)).map((_, index) => {
       return {
         firstName: 'Test',
-        age: <span>{Math.floor(Math.random() * 30)}</span>,
-        visits: <span>{Math.floor(Math.random() * 100)}</span>,
-        activity: Math.floor(Math.random() * 100),
+        age: <span>{Math.floor(index * 30)}</span>,
+        visits: <span>{Math.floor(index * 100)}</span>,
+        activity: Math.floor(index * 100),
         subRows: Array.from('_'.repeat(3)).map(() => ({
           firstName: 'Sub Test',
-          age: <span>{Math.floor(Math.random() * 30)}</span>,
-          visits: <span>{Math.floor(Math.random() * 100)}</span>,
-          activity: Math.floor(Math.random() * 100),
+          age: <span>{Math.floor(index * 30)}</span>,
+          visits: <span>{Math.floor(index * 100)}</span>,
+          activity: Math.floor(index * 100),
           subRows: Array.from('_'.repeat(3)).map(() => ({
             firstName: 'Sub Test 2',
-            age: <span>{Math.floor(Math.random() * 30)}</span>,
-            visits: <span>{Math.floor(Math.random() * 100)}</span>,
-            activity: Math.floor(Math.random() * 100),
+            age: <span>{Math.floor(index * 30)}</span>,
+            visits: <span>{Math.floor(index * 100)}</span>,
+            activity: Math.floor(index * 100),
             subRows: Array.from('_'.repeat(3)).map(() => ({
               firstName: 'Sub Test 2',
-              age: <span>{Math.floor(Math.random() * 30)}</span>,
-              visits: <span>{Math.floor(Math.random() * 100)}</span>,
-              activity: Math.floor(Math.random() * 100),
+              age: <span>{Math.floor(index * 30)}</span>,
+              visits: <span>{Math.floor(index * 100)}</span>,
+              activity: Math.floor(index * 100),
             })),
           })),
         })),

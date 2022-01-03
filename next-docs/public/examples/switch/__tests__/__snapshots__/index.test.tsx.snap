@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch renders 1`] = `
+<label
+  className="Switch__Label-sc-11hx91j-1 ckxnaY"
+>
+  <input
+    checked={true}
+    className="Switch__Input-sc-11hx91j-2 gTmrER"
+    id="test-switch-1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="Switch__Slider-sc-11hx91j-0 jCASxV"
+  />
+</label>
+`;
+
+exports[`Switch renders Theme variant 1`] = `
+<label
+  className="Switch__Label-sc-11hx91j-1 ckxnaY"
+>
+  <input
+    checked={true}
+    className="Switch__Input-sc-11hx91j-2 eyHPQE"
+    id="test-switch-1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="Switch__Slider-sc-11hx91j-0 hDEWRP"
+  />
+</label>
+`;
+
+exports[`Switch renders Theme variant with Caption 1`] = `
+<div
+  className="Inline-sc-1rz1cju-0 fRcICj"
+  style={
+    Object {
+      "overflow": "visible",
+    }
+  }
+>
+  <span
+    checked={true}
+    className="Caption-sc-1jvwbix-0 Switch__SwitchCaption-sc-11hx91j-3 cFacSi edtYdT"
+    color="bulma.100"
+  >
+    AM
+  </span>
+  <label
+    className="Switch__Label-sc-11hx91j-1 ckxnaY"
+  >
+    <input
+      checked={true}
+      className="Switch__Input-sc-11hx91j-2 eyHPQE"
+      id="test-switch-1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="Switch__Slider-sc-11hx91j-0 hDEWRP"
+    />
+  </label>
+  <span
+    checked={false}
+    className="Caption-sc-1jvwbix-0 Switch__SwitchCaption-sc-11hx91j-3 cFacSi fzgXcL"
+    color="bulma.100"
+  >
+    PM
+  </span>
+</div>
+`;
+
+exports[`Switch renders different Sizes 1`] = `
+<div
+  className="flex gap-20 items-center"
+>
+  <label
+    className="Switch__Label-sc-11hx91j-1 jjvdXK"
+    size="xs"
+  >
+    <input
+      checked={true}
+      className="Switch__Input-sc-11hx91j-2 koEFXe"
+      id="test-switch-1"
+      onChange={[Function]}
+      size="xs"
+      type="checkbox"
+    />
+    <span
+      className="Switch__Slider-sc-11hx91j-0 jCASxV"
+    />
+  </label>
+  <label
+    className="Switch__Label-sc-11hx91j-1 jKHBax"
+    size="md"
+  >
+    <input
+      checked={true}
+      className="Switch__Input-sc-11hx91j-2 koEFXe"
+      id="test-switch-2"
+      onChange={[Function]}
+      size="md"
+      type="checkbox"
+    />
+    <span
+      className="Switch__Slider-sc-11hx91j-0 jCASxV"
+    />
+  </label>
+  <label
+    className="Switch__Label-sc-11hx91j-1 iGDMIw"
+    size="lg"
+  >
+    <input
+      checked={true}
+      className="Switch__Input-sc-11hx91j-2 koEFXe"
+      id="test-switch-3"
+      onChange={[Function]}
+      size="lg"
+      type="checkbox"
+    />
+    <span
+      className="Switch__Slider-sc-11hx91j-0 jCASxV"
+    />
+  </label>
+</div>
+`;
+
+exports[`Switch renders with Caption 1`] = `
+<div
+  className="Inline-sc-1rz1cju-0 fRcICj"
+  style={
+    Object {
+      "overflow": "visible",
+    }
+  }
+>
+  <span
+    checked={true}
+    className="Caption-sc-1jvwbix-0 Switch__SwitchCaption-sc-11hx91j-3 cFacSi edtYdT"
+    color="bulma.100"
+  >
+    OFF
+  </span>
+  <label
+    className="Switch__Label-sc-11hx91j-1 ckxnaY"
+  >
+    <input
+      checked={true}
+      className="Switch__Input-sc-11hx91j-2 gTmrER"
+      id="test-switch-1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="Switch__Slider-sc-11hx91j-0 jCASxV"
+    />
+  </label>
+  <span
+    checked={false}
+    className="Caption-sc-1jvwbix-0 Switch__SwitchCaption-sc-11hx91j-3 cFacSi fzgXcL"
+    color="bulma.100"
+  >
+    ON
+  </span>
+</div>
+`;
