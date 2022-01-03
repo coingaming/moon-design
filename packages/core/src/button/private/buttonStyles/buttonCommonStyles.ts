@@ -4,9 +4,10 @@ import type { ButtonProps } from '../../Button';
 
 const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
   const theme = useTheme();
-  console.log({ theme });
   return [
     {
+      position: 'relative',
+      zIndex: 0,
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
@@ -14,6 +15,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       borderRadius: rem(theme.radius.largest),
       textDecoration: 'none',
       fontFamily: 'inherit',
+      overflow: 'hidden',
       transition: `all ${theme.newTokens.transition.default}`,
       '&:active': {
         transform: theme.newTokens.transform.active,

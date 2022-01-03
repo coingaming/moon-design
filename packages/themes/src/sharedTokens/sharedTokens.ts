@@ -1,3 +1,4 @@
+import buttonVariantTokens from './buttonVariantTokens';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -24,6 +25,7 @@ const baseBorderStyle = 'solid';
 const baseBorderWidth = 1;
 const baseSpace = 16;
 const baseFontSize = 16;
+const baseLineHeight = 24;
 const baseTransitionDuration = 0.2;
 
 const rem = (value: number) => `${value / baseFontSize}rem`;
@@ -432,7 +434,7 @@ const sharedTokens: SharedTheme = {
     base: {
       space: rem(baseSpace),
       fontSize: rem(baseFontSize),
-      lineHeight: rem(24),
+      lineHeight: rem(baseLineHeight),
     },
     border: `${rem(baseBorderWidth)} ${baseBorderStyle}`,
     breakpoint: {
@@ -456,6 +458,10 @@ const sharedTokens: SharedTheme = {
       slow: `${baseTransitionDuration * 2}s ease-in-out`,
       default: `${baseTransitionDuration}s ease-in-out`,
     },
+    hover: {
+      primary: '#00000008',
+      secondary: '#4E46B412',
+    },
     size: {
       twoxsmall: rem(16),
       xsmall: rem(24),
@@ -464,6 +470,11 @@ const sharedTokens: SharedTheme = {
       large: rem(48),
       xlarge: rem(56),
       twoxlarge: rem(64),
+    },
+    button: {
+      primary: buttonVariantTokens.fill,
+      secondary: buttonVariantTokens.stroke,
+      tertiary: buttonVariantTokens.fillSecondary,
     },
   },
 };

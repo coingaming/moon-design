@@ -18,6 +18,8 @@ export { default as Header } from './header/Header';
 export * from './header/Header';
 export { default as Heading } from './heading/Heading';
 export * from './heading/Heading';
+export { default as Hover } from './hover/Hover';
+export * from './hover/Hover';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as ListItem } from './listItem/ListItem';
