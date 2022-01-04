@@ -1,3 +1,4 @@
+import mainColors from '../v2/colors/mainColors';
 import buttonVariantTokens from './buttonVariantTokens';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
@@ -459,9 +460,10 @@ const sharedTokens: SharedTheme = {
       default: `${baseTransitionDuration}s ease-in-out`,
     },
     hover: {
-      primary: '#00000008',
-      secondary: '#4E46B412',
+      primary: `${mainColors.bulma}08`,
+      secondary: `${mainColors.piccolo}12`,
     },
+    focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
     size: {
       twoxsmall: rem(16),
       xsmall: rem(24),

@@ -16,6 +16,8 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       textDecoration: 'none',
       fontFamily: 'inherit',
       overflow: 'hidden',
+      userSelect: 'none',
+      outline: 'none',
       transition: `all ${theme.newTokens.transition.default}`,
       '&:active': {
         transform: theme.newTokens.transform.active,
@@ -29,6 +31,9 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
         display: 'block',
         width: rem(iconSize),
         height: rem(iconSize),
+      },
+      '&:focus': {
+        boxShadow: theme.newTokens.focus,
       },
     },
     disabled && {
