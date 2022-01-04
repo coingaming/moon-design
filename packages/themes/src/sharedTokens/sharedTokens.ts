@@ -29,6 +29,10 @@ const baseFontSize = 16;
 const baseLineHeight = 24;
 const baseTransitionDuration = 0.2;
 
+const buttonFill = buttonVariantTokens.fill;
+const buttonFillSecondary = buttonVariantTokens.fillSecondary;
+const buttonStroke = buttonVariantTokens.stroke;
+
 const rem = (value: number) => `${value / baseFontSize}rem`;
 
 export type ZIndex = {
@@ -474,9 +478,9 @@ const sharedTokens: SharedTheme = {
       twoxlarge: rem(64),
     },
     button: {
-      primary: buttonVariantTokens.fill,
-      secondary: buttonVariantTokens.stroke,
-      tertiary: buttonVariantTokens.fillSecondary,
+      primary: buttonFill,
+      secondary: buttonStroke,
+      tertiary: buttonFillSecondary,
     },
   },
 };
