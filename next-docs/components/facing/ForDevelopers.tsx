@@ -1,12 +1,15 @@
 import React from 'react';
+import Link from 'next/link';
 
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
-const Link: React.FC<{}> = ({ children }) => {
+const NavItem: React.FC<{ href: string }> = ({ children, href }) => {
   return (
-    <button className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-borderDev hover:bg-bgdeveloper hover:border-bgdeveloper hover-border transition-colors">
-      {children}
-    </button>
+    <Link href={href}>
+      <a className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-borderDev hover:bg-bgdeveloper hover:border-bgdeveloper hover-border transition-colors">
+        {children}
+      </a>
+    </Link>
   );
 };
 
@@ -30,20 +33,34 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="flex flex-col justify-end md:fixed for-developers p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-30">
-      <div className="absolute top-8 right-8 text-black z-30">
+    <div className="block flex flex-row 2xl:flex-col justify-start 2xl:justify-end 2xl:fixed for-developers 2xl:py-5 pt-4 pb-6 pl-7 2xl:p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-40 h-[4rem] max-w-2xl 2xl:h-[25rem] 2xl:w-[23rem] mt-4 2xl:mt-0">
+      <div className="absolute top-8 right-8 text-black z-35">
         <TopRightArrowIcon />
       </div>
       <div className="mb-4">
         <GithubIcon />
       </div>
-      <h2 className="text-2xl mb-7">For developers.</h2>
-      <div className="flex flex-wrap gap-1">
-        <Link>Getting Started</Link>
-        <Link>Design Tokens</Link>
-        <Link>Creating Themes</Link>
-        <Link>Contribution</Link>
-        <Link>Components</Link>
+      <h2 className="text-2xl 2xl:mb-7 ml-4 2xl:ml-0">
+        <a
+          href="https://github.com/coingaming/moon-design"
+          className="2xl:pointer-events-none"
+        >
+          For developers.
+        </a>
+      </h2>
+      <div className="2xl:flex 2xl:flex-wrap gap-1 hidden">
+        <NavItem href="https://github.com/coingaming/moon-design">
+          Github
+        </NavItem>
+        <NavItem href="getting-started">Getting Started</NavItem>
+        <NavItem href="tokens">Design Tokens</NavItem>
+        <NavItem href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
+          Creating Themes
+        </NavItem>
+        <NavItem href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
+          Contribution
+        </NavItem>
+        <NavItem href="components/accordion">Components</NavItem>
       </div>
     </div>
   );
