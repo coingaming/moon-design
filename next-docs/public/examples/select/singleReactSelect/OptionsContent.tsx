@@ -26,7 +26,6 @@ const Example = () => (
         options={options}
         label="Large"
         placeholderSlot="Choose an option"
-        isMulti
         headerSlot={<Header />}
         footerSlot={
           <Footer
@@ -57,7 +56,6 @@ const Example = () => (
         label="xLarge"
         size="xLarge"
         placeholderSlot="Choose an option"
-        isMulti
         headerSlot={<Header />}
         footerSlot={
           <Footer

@@ -1,5 +1,12 @@
 {
   "extends": "../../.config/ts/tsconfig.json",
+  "noImplicitReturns": false,
+  "noImplicitThis": true,
+  "noImplicitAny": false,
+  "strictNullChecks": false,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib"

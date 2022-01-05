@@ -3,16 +3,16 @@ import { Select } from '@heathmont/moon-select';
 
 const options = [
   {
-    value: '1',
-    label: '1',
+    value: 'Option 1',
+    label: 'Option 1',
   },
   {
-    value: '2',
-    label: '2',
+    value: 'Option 2',
+    label: 'Option 2',
   },
   {
-    value: '3',
-    label: '3',
+    value: 'Option 3',
+    label: 'Option 3',
   },
 ];
 
@@ -23,18 +23,16 @@ const Example = () => (
         options={options}
         label="Large"
         placeholderSlot="Choose an option"
-        isMulti
-        menuWidth={150}
+        hintSlot="Informative message holder"
       />
     </div>
     <div className="w-80 mr-4 ml-4 mb-8">
       <Select
         options={options}
-        label="Single xLarge"
+        label="xLarge"
         size="xLarge"
         placeholderSlot="Choose an option"
-        isMulti
-        menuWidth={150}
+        hintSlot="Informative message holder"
       />
     </div>
   </div>

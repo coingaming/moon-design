@@ -1,21 +1,23 @@
-// @ts-nocheck
 import React from 'react';
-import { components, SelectContainerProps } from 'react-select';
+import { components, ContainerProps } from 'react-select';
 import SelectLabel from '../styles/SelectLabel';
 import HintText from '../styles/HintText';
+import type { SelectProps } from '../styles/CustomStyles';
 
-const SelectContainer = ({ children, ...rest }: SelectContainerProps) => {
-  const customProps = rest.selectProps['data-customProps'];
+const SelectContainer = ({ children, ...rest }: ContainerProps<any>) => {
+  const selectProps = rest.selectProps as SelectProps;
+  const customProps = selectProps['data-customProps'];
   const size = customProps?.size;
   const label = customProps.label;
   const hint = customProps.hintSlot;
+  const error = customProps.isError;
   return (
     <>
       <components.SelectContainer {...rest}>
         {size === 'large' && label && <SelectLabel>{label}</SelectLabel>}
         {children}
       </components.SelectContainer>
-      {hint && <HintText>{hint}</HintText>}
+      {hint && <HintText isError={error}>{hint}</HintText>}
     </>
   );
 };
