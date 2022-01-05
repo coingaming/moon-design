@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Link from 'next/link';
 
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
-const Link: React.FC<{}> = ({ children }) => {
+const NavItem: React.FC<{ href: string }> = ({ children, href }) => {
   return (
-    <button className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-border hover:bg-bgdesigner hover:border-bgdesigner hover-border transition-colors">
-      {children}
-    </button>
+    <Link href={href}>
+      <a className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-border hover:bg-bgdesigner hover:border-bgdesigner hover-border transition-colors">
+        {children}
+      </a>
+    </Link>
   );
 };
 
@@ -37,16 +40,21 @@ const ForDesigners = () => {
         <FigmaIcon />
       </div>
       <h2 className="text-2xl 2xl:mb-7 ml-4 2xl:ml-0 mb-2">
-        <a href="" className="2xl:pointer-events-none">
+        <a
+          href="https://www.figma.com/community/file/1002945721703152933"
+          className="2xl:pointer-events-none"
+        >
           For designers.
         </a>
       </h2>
       <div className="2xl:flex 2xl:flex-wrap gap-1 hidden">
-        <Link>Getting Started</Link>
-        <Link>Figma</Link>
-        <Link>Visual Language</Link>
-        <Link>Typography</Link>
-        <Link>Colour Convention</Link>
+        <NavItem href="https://www.figma.com/community/file/1002945721703152933">
+          Figma
+        </NavItem>
+        <NavItem href="getting-started">Getting Started</NavItem>
+        {/* <NavItem>Visual Language</NavItem> */}
+        <NavItem href="typography">Typography</NavItem>
+        <NavItem href="colours">Colour Convention</NavItem>
       </div>
     </div>
   );
