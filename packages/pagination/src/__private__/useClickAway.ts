@@ -16,9 +16,9 @@ const useClickAway = <E extends Event = Event>(
     savedCallback.current = onClickAway;
   }, [onClickAway]);
   useEffect(() => {
-    const handler = (event: any) => {
+    const handler = (event: E) => {
       const { current: el } = ref;
-      el && !el.contains(event.target) && savedCallback.current(event);
+      el && !el.contains(event.target as Node) && savedCallback.current(event);
     };
     events.forEach((eventName) => on(document, eventName, handler));
 

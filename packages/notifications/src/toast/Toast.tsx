@@ -7,11 +7,11 @@ import ToastCloseButton from './ToastCloseButton';
 import { ColorProps } from '@heathmont/moon-themes';
 
 interface ToastProps {
-  message: any;
+  message: JSX.Element;
   variant?: 'error' | 'warning' | 'info' | 'success';
-  action?: any;
+  action?: JSX.Element;
   position?: 'bottom' | 'top';
-  onClose?: any;
+  onClose?: () => void;
   isCloseable?: boolean;
   backgroundColor?: ColorProps;
   actionColor?: ColorProps;
