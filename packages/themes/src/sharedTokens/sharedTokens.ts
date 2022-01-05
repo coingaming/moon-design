@@ -35,6 +35,20 @@ const buttonStroke = buttonVariantTokens.stroke;
 
 const rem = (value: number) => `${value / baseFontSize}rem`;
 
+const borderRadius = {
+  none: 0,
+  twoxsmall: rem(2),
+  xsmall: rem(4),
+  small: rem(6),
+  medium: rem(8),
+  large: rem(12),
+  xlarge: rem(16),
+  twoxlarge: rem(24),
+  full: rem(9999),
+};
+
+const interactiveBorderRadius = borderRadius.full;
+
 export type ZIndex = {
   carouselControl: number;
   selectOptions: number;
@@ -442,6 +456,18 @@ const sharedTokens: SharedTheme = {
       lineHeight: rem(baseLineHeight),
     },
     border: `${rem(baseBorderWidth)} ${baseBorderStyle}`,
+    radius: {
+      none: borderRadius.none,
+      twoxsmall: borderRadius.twoxsmall,
+      xsmall: borderRadius.xsmall,
+      small: borderRadius.small,
+      medium: borderRadius.medium,
+      large: borderRadius.large,
+      xlarge: borderRadius.xlarge,
+      twoxlarge: borderRadius.twoxlarge,
+      full: borderRadius.full,
+      interactive: interactiveBorderRadius,
+    },
     breakpoint: {
       small: rem(640),
       medium: rem(768),
@@ -464,7 +490,7 @@ const sharedTokens: SharedTheme = {
       default: `${baseTransitionDuration}s ease-in-out`,
     },
     hover: {
-      primary: `${mainColors.bulma}08`,
+      primary: `${mainColors.bulma}12`,
       secondary: `${mainColors.piccolo}12`,
     },
     focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,

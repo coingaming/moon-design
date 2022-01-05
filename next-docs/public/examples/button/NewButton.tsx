@@ -1,8 +1,8 @@
 import { Button } from '@heathmont/moon-core';
-import { IconProfile } from '@heathmont/moon-assets';
+import { ControlsClose } from '@heathmont/moon-icons';
 
 const NewButton = () => (
-  <Button iconRight={<IconProfile color="#fff" />} fullWidth>
+  <Button iconRight={<ControlsClose color="#fff" />} fullWidth>
     New Button
   </Button>
 );
