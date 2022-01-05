@@ -69,9 +69,6 @@ export default function Home() {
         <News />
       </div>
 
-      {/* <ForDesigners />
-      <ForDevelopers /> */}
-
       <MoonAndEarthAnimation />
 
       <section className="mt-20">

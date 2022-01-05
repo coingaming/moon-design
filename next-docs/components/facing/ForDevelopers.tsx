@@ -30,15 +30,15 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="flex flex-col justify-end md:fixed for-developers p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-30">
+    <div className="flex flex-row 2xl:flex-col justify-start 2xl:justify-end 2xl:fixed for-developers py-5 pl-7 2xl:p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-30 h-[4rem] max-w-2xl 2xl:h-[25rem] 2xl:w-[23rem] mt-4 2xl:mt-0">
       <div className="absolute top-8 right-8 text-black z-30">
         <TopRightArrowIcon />
       </div>
       <div className="mb-4">
         <GithubIcon />
       </div>
-      <h2 className="text-2xl mb-7">For developers.</h2>
-      <div className="flex flex-wrap gap-1">
+      <h2 className="text-2xl 2xl:mb-7 ml-4 2xl:ml-0">For developers.</h2>
+      <div className="flex flex-wrap gap-1 hidden 2xl:block">
         <Link>Getting Started</Link>
         <Link>Design Tokens</Link>
         <Link>Creating Themes</Link>
