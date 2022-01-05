@@ -40,7 +40,19 @@ const ButtonDefault = styled(Button)(({ theme }) => ({
   },
 }));
 
-const ChangePageSize = ({ children, pageSize, onChange, options }: any) => {
+interface PageSizeProps {
+  children: React.ReactNode;
+  pageSize: number;
+  onChange: (value: number) => void;
+  options: any; // TODO, export OptionType from SingleItemSelect
+}
+
+const ChangePageSize = ({
+  children,
+  pageSize,
+  onChange,
+  options,
+}: PageSizeProps) => {
   const ref = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 

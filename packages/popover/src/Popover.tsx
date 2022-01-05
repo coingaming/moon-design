@@ -1,4 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, {
+  KeyboardEventHandler,
+  MouseEventHandler,
+  useEffect,
+  useState,
+} from 'react';
 import Tippy from '@tippyjs/react/headless';
 import { ColorNames } from '@heathmont/moon-themes';
 
@@ -61,11 +66,17 @@ const Popover: React.FC<Props> = ({
     }
   }, [visible]);
 
-  function handleChildClick(e: any) {
+  const handleChildClick: MouseEventHandler<HTMLDivElement> = (e) => {
     e.preventDefault();
 
     setVisible(!visible);
-  }
+  };
+
+  const handleKeyboardClick: KeyboardEventHandler<HTMLDivElement> = (e) => {
+    e.preventDefault();
+
+    setVisible(!visible);
+  };
 
   return (
     <Tippy
@@ -96,7 +107,7 @@ const Popover: React.FC<Props> = ({
         role="menu"
         tabIndex={-1}
         onClick={handleChildClick}
-        onKeyDown={handleChildClick}
+        onKeyDown={handleKeyboardClick}
       >
         {children}
       </div>
