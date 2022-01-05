@@ -4,6 +4,7 @@ import SelectLabel from '../styles/SelectLabel';
 import HintText from '../styles/HintText';
 import type { SelectProps } from '../styles/CustomStyles';
 
+// any - https://github.com/JedWatson/react-select/issues/4804
 const SelectContainer = ({ children, ...rest }: ContainerProps<any>) => {
   const selectProps = rest.selectProps as SelectProps;
   const customProps = selectProps['data-customProps'];

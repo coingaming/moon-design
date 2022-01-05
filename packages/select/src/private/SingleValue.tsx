@@ -3,6 +3,7 @@ import { components, SingleValueProps } from 'react-select';
 import type { BaseOptionType } from '../Select';
 import type { SelectProps } from '../styles/CustomStyles';
 
+// any - https://github.com/JedWatson/react-select/issues/4804
 const SingleValue = ({ children, ...rest }: SingleValueProps<any>) => {
   const selectProps = rest.selectProps as SelectProps;
   const customProps = selectProps['data-customProps'];

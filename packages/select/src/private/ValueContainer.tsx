@@ -48,6 +48,7 @@ const InnerLabelContainer = styled.div<{ theme: Theme }>(({ theme }) => ({
   color: theme.colors.primary75,
 }));
 
+// any - https://github.com/JedWatson/react-select/issues/4804
 const ValueContainer = ({ children, ...rest }: ValueContainerProps<any>) => {
   const selectProps = rest.selectProps as SelectProps;
   const customProps = selectProps['data-customProps'];

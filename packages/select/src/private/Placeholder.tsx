@@ -9,6 +9,7 @@ const PlaceholderContainer = styled.div({
   whiteSpace: 'nowrap',
 });
 
+// any - https://github.com/JedWatson/react-select/issues/4804
 const Placeholder = ({ ...rest }: PlaceholderProps<any>) => {
   const selectProps = rest.selectProps as SelectProps;
   const customProps = selectProps['data-customProps'];
