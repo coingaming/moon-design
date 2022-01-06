@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Link from 'next/link';
 
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
-const Link: React.FC<{}> = ({ children }) => {
+const NavItem: React.FC<{ href: string }> = ({ children, href }) => {
   return (
-    <button className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-border hover:bg-bgdesigner hover:border-bgdesigner hover-border transition-colors">
-      {children}
-    </button>
+    <Link href={href}>
+      <a className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-border hover:bg-bgdesigner hover:border-bgdesigner hover-border transition-colors">
+        {children}
+      </a>
+    </Link>
   );
 };
 
@@ -29,20 +32,29 @@ const FigmaIcon = () => (
 
 const ForDesigners = () => {
   return (
-    <div className="flex flex-col justify-end md:fixed for-designers p-8 text-white rounded-t-lg rounded-bl-lg bg-designer z-30">
-      <div className="absolute top-8 right-8 text-white z-30">
+    <div className="flex flex-row 2xl:flex-col justify-start 2xl:justify-end 2xl:fixed for-designers 2xl:py-5 pt-4 pb-6 pl-7 2xl:p-8 text-white rounded-t-lg rounded-bl-lg bg-designer z-40 h-[4rem] max-w-2xl 2xl:h-[25rem] 2xl:w-[23rem] mt-4 2xl:mt-0">
+      <div className="absolute top-8 right-8 text-white z-35 hidden 2xl:block">
         <TopRightArrowIcon />
       </div>
-      <div className="mb-4">
+      <div className="2xl:mb-4">
         <FigmaIcon />
       </div>
-      <h2 className="text-2xl mb-7">For designers.</h2>
-      <div className="flex flex-wrap gap-1">
-        <Link>Getting Started</Link>
-        <Link>Figma</Link>
-        <Link>Visual Language</Link>
-        <Link>Typography</Link>
-        <Link>Colour Convention</Link>
+      <h2 className="text-2xl 2xl:mb-7 ml-4 2xl:ml-0 mb-2">
+        <a
+          href="https://www.figma.com/community/file/1002945721703152933"
+          className="2xl:pointer-events-none"
+        >
+          For designers.
+        </a>
+      </h2>
+      <div className="2xl:flex 2xl:flex-wrap gap-1 hidden">
+        <NavItem href="https://www.figma.com/community/file/1002945721703152933">
+          Figma
+        </NavItem>
+        <NavItem href="getting-started">Getting Started</NavItem>
+        {/* <NavItem>Visual Language</NavItem> */}
+        <NavItem href="typography">Typography</NavItem>
+        <NavItem href="colours">Colour Convention</NavItem>
       </div>
     </div>
   );
