@@ -12,7 +12,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       alignItems: 'center',
       justifyContent: 'center',
       fontWeight: newTokens.fontWeight.semibold,
-      borderRadius: rem(newTokens.radius.interactive),
+      borderRadius: newTokens.radius.full,
       textDecoration: 'none',
       fontFamily: 'inherit',
       overflow: 'hidden',
@@ -25,12 +25,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       '&:focus-visible': {
         boxShadow: newTokens.focus,
       },
-      img: {
-        display: 'block',
-        width: rem(iconSize),
-        height: rem(iconSize),
-      },
-      svg: {
+      'img, svg': {
         display: 'block',
         width: rem(iconSize),
         height: rem(iconSize),
