@@ -1,13 +1,16 @@
-// @ts-nocheck
 import React from 'react';
 import { components, MenuProps } from 'react-select';
+import type { SelectProps } from '../styles/CustomStyles';
 
-const Menu = ({ children, ...rest }: MenuProps) => {
+// any - https://github.com/JedWatson/react-select/issues/4804
+const Menu = ({ children, ...rest }: MenuProps<any>) => {
+  const selectProps = rest.selectProps as SelectProps;
+  const customProps = selectProps['data-customProps'];
   return (
     <components.Menu {...rest}>
-      {rest.selectProps['data-customProps']?.menuHeader || null}
+      {customProps?.headerSlot || null}
       {children}
-      {rest.selectProps['data-customProps']?.menuFooter || null}
+      {customProps?.footerSlot || null}
     </components.Menu>
   );
 };

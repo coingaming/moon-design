@@ -1,6 +1,8 @@
-// @ts-nocheck
 import React, { useEffect, useRef } from 'react';
-import ReactSelect, { Props as ReactSelectProps } from 'react-select';
+import ReactSelect, {
+  Props as ReactSelectProps,
+  StylesConfig,
+} from 'react-select';
 import { useTheme } from '@heathmont/moon-themes';
 
 import Menu from './private/Menu';
@@ -23,33 +25,24 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-// type DataCustomProps = {
-//   isCustomControl: boolean;
-//   menuHeader: React.ReactNode;
-//   menuFooter: React.ReactNode;
-//   menuWidth: number | undefined;
-//   label: string;
-//   theme: Theme;
-//   leftSlot: React.ReactNode;
-// };
-
 type SelectProps<T> = {
   isCustomControl?: boolean;
-  menuHeader?: React.ReactNode;
-  menuFooter?: React.ReactNode;
+  headerSlot?: JSX.Element;
+  footerSlot?: JSX.Element;
   menuWidth?: number;
   label?: string;
-  leftSlot?: React.ReactNode;
+  leftSlot?: JSX.Element;
   hintSlot?: JSX.Element | string;
   placeholderSlot?: JSX.Element | string;
   size?: 'large' | 'xLarge';
   amountOfVisibleItems?: number;
+  isError?: boolean;
 } & ReactSelectProps<T>;
 
 const Select = <T extends BaseOptionType>({
   isCustomControl = false,
-  menuHeader,
-  menuFooter,
+  headerSlot,
+  footerSlot,
   menuIsOpen,
   menuWidth,
   label,
@@ -57,6 +50,7 @@ const Select = <T extends BaseOptionType>({
   hintSlot,
   placeholderSlot,
   amountOfVisibleItems,
+  isError = false,
   isSearchable = false,
   size = 'large',
   ...rest
@@ -65,14 +59,14 @@ const Select = <T extends BaseOptionType>({
   const moonTheme = useTheme();
 
   useEffect(() => {
-    menuIsOpen && menuRef.current.focus();
+    const cuurentRef = menuRef as React.RefObject<HTMLFormElement>;
+    menuIsOpen && cuurentRef?.current?.focus();
   }, [menuIsOpen]);
-
   return (
     <ReactSelect
       {...rest}
       ref={menuRef}
-      styles={CustomStyles}
+      styles={CustomStyles as StylesConfig<T>}
       isSearchable={isSearchable}
       menuIsOpen={menuIsOpen}
       components={{
@@ -91,8 +85,8 @@ const Select = <T extends BaseOptionType>({
       }}
       data-customProps={{
         isCustomControl,
-        menuHeader,
-        menuFooter,
+        headerSlot,
+        footerSlot,
         menuWidth,
         label,
         theme: moonTheme,
@@ -101,6 +95,7 @@ const Select = <T extends BaseOptionType>({
         placeholderSlot,
         size,
         amountOfVisibleItems,
+        isError,
       }}
       theme={(theme) => ({
         ...theme,

@@ -1,11 +1,32 @@
-// @ts-nocheck
-import { StylesConfig } from 'react-select';
+import { StylesConfig, Props } from 'react-select';
 import { rem } from '@heathmont/moon-utils';
+import { Theme } from '@heathmont/moon-themes';
+
+type CustomProps = {
+  isCustomControl?: boolean;
+  headerSlot?: JSX.Element;
+  footerSlot?: JSX.Element;
+  menuWidth?: number;
+  label?: string;
+  leftSlot?: JSX.Element;
+  hintSlot?: JSX.Element | string;
+  placeholderSlot?: JSX.Element | string;
+  size?: 'large' | 'xLarge';
+  amountOfVisibleItems?: number;
+  isError?: boolean;
+  theme: Theme;
+};
+
+export type SelectProps = {
+  'data-customProps': CustomProps;
+} & Props;
 
 const CustomStyles: StylesConfig = {
   //options wrapper
   menu: (provided, state) => {
-    const { theme, menuWidth } = state.selectProps['data-customProps'];
+    const selectProps = state.selectProps as SelectProps;
+    const customProps = selectProps['data-customProps'];
+    const menuWidth = customProps.menuWidth;
     return {
       ...provided,
       minWidth: rem(300),
@@ -25,10 +46,12 @@ const CustomStyles: StylesConfig = {
   },
   // option
   option: (provided, state) => {
-    const { theme } = state.selectProps['data-customProps'];
+    const selectProps = state.selectProps as SelectProps;
+    const customProps = selectProps['data-customProps'];
+    const theme = customProps.theme;
     return {
       ...provided,
-      borderRadius: rem(theme.radius.small),
+      borderRadius: rem(theme?.radius?.small),
       padding: rem(12),
       fontSize: rem(16),
       lineHeight: rem(24),
@@ -48,29 +71,38 @@ const CustomStyles: StylesConfig = {
     return {
       ...provided,
       opacity: state.isDisabled ? 0.3 : 1,
-      cursor: state.isDisabled && 'default',
+      cursor: state.isDisabled ? 'default' : 'inherit',
     };
   },
   //input wrapper
   control: (provided, state) => {
-    const customProps = state.selectProps['data-customProps'];
+    const selectProps = state.selectProps as SelectProps;
+    const customProps = selectProps['data-customProps'];
+    const theme = customProps.theme;
     return {
       ...provided,
       ...(customProps.isCustomControl
         ? { position: 'absolute', opacity: 0 }
         : {}),
-      borderRadius: rem(customProps.theme.radius.largest),
-      boxShadow: state.isFocused
-        ? `inset 0 0 0 1px ${customProps.theme.color.piccolo[100]}`
+      ...(customProps.isError ? { borderColor: theme.color.chiChi[100] } : {}),
+      paddingLeft: rem(8),
+      borderRadius: rem(theme.radius.largest),
+      boxShadow: customProps.isError
+        ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
+        : state.isFocused
+        ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
         : 'none',
       transition:
-        !state.isFocused &&
-        `box-shadow ${customProps.theme.transitionDuration.default}s ease`,
+        !state.isFocused || !customProps.isError
+          ? `box-shadow ${theme.transitionDuration.default}s ease`
+          : 'none',
       minHeight: customProps.size === 'xLarge' ? rem(56) : rem(48),
       '&:hover': {
-        boxShadow: state.isFocused
-          ? `inset 0 0 0 1px ${customProps.theme.color.piccolo[100]}`
-          : `inset 0 0 0 1px ${customProps.theme.color.beerus[100]}`,
+        boxShadow: customProps.isError
+          ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
+          : state.isFocused
+          ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
+          : `inset 0 0 0 1px ${theme.color.beerus[100]}`,
         cursor: 'pointer',
       },
     };
@@ -78,7 +110,9 @@ const CustomStyles: StylesConfig = {
   valueContainer: (provided, state) => ({
     ...provided,
     gridArea: '2 / 1 / 2 / 3',
-    padding: `${rem(6)} ${rem(8)}`,
+    padding: `${rem(6)} ${rem(8)} ${rem(6)} ${rem(7)}`,
+    flexWrap: 'nowrap',
+    alignSelf: 'stretch',
     ...(state.isMulti
       ? { flexDirection: 'column', alignItems: 'flex-start' }
       : {}),
@@ -87,11 +121,16 @@ const CustomStyles: StylesConfig = {
     ...provided,
     gridArea: '2 / 1 / 2 / 3',
     fontSize: rem(16),
+    marginLeft: 0,
+    marginRight: 0,
   }),
   placeholder: (provided) => ({
     ...provided,
     gridArea: '2 / 1 / 2 / 3',
     fontSize: rem(16),
+    height: '100%',
+    marginLeft: 0,
+    marginRight: 0,
   }),
   multiValueRemove: () => ({
     width: rem(16),
