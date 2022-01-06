@@ -6,7 +6,6 @@ import Default from '../../public/examples/button/Default';
 import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
 import IsIcon from '../../public/examples/button/IsIcon';
-import NewButton from '../../public/examples/button/NewButton';
 import Primary from '../../public/examples/button/Primary';
 import Secondary from '../../public/examples/button/Secondary';
 import Sizes from '../../public/examples/button/Sizes';
@@ -31,14 +30,6 @@ export default function PageButton() {
           Buttons are clickable elements with label text that describe the
           action that will happen when the users interact with it.
         </p>
-      </section>
-      {/* New Buttons */}
-      <section className="mt-8">
-        <Preview
-          title="New Buttons"
-          preview={<NewButton />}
-          code={examples ? examples.NewButton : 'Loading'}
-        />
       </section>
       {/* Primary */}
       <section className="mt-8">

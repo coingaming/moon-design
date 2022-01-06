@@ -10,12 +10,12 @@ type ButtonIcons = 'left' | 'right' | 'only';
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariants;
-  size?: ButtonSizes;
+  size?: ButtonSizes | 'small' | 'medium' | 'large' | 'xlarge';
   icon?: ButtonIcons;
   iconSize?: number;
-  iconLeft?: JSX.Element;
-  iconRight?: JSX.Element;
-  iconOnly?: JSX.Element;
+  iconLeft?: JSX.Element | boolean;
+  iconRight?: JSX.Element | boolean;
+  iconOnly?: JSX.Element | boolean;
   disabled?: boolean;
   fullWidth?: boolean;
 }

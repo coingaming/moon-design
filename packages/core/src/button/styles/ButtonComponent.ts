@@ -19,9 +19,10 @@ const ButtonComponent = styled.button<ButtonProps>(
     buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
     buttonCommonStyles({ iconSize, disabled }),
     buttonVariants({ variant }),
-    fullWidth && {
-      width: '100%',
-    },
+    fullWidth &&
+      !iconOnly && {
+        width: '100%',
+      },
   ]
 );
 
