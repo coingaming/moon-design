@@ -69,7 +69,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 jAwXdl"
+          className="Input-qkdgvx-0 fFdAU"
           disabled={true}
           placeholder=" "
           type="number"
@@ -154,7 +154,7 @@ exports[`TextInput: type Number renders error 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 fxzVoM"
+          className="Input-qkdgvx-0 fIncJJ"
           placeholder="e.g. 1234"
           type="number"
         />
@@ -241,7 +241,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 jAwXdl"
+          className="Input-qkdgvx-0 fFdAU"
           placeholder=" "
           readOnly={true}
           type="number"
@@ -326,7 +326,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 jAwXdl"
+          className="Input-qkdgvx-0 fFdAU"
           placeholder="e.g. 1234"
           type="number"
         />
@@ -397,7 +397,7 @@ exports[`TextInput: type Number renders with label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 jAwXdl"
+          className="Input-qkdgvx-0 fFdAU"
           placeholder="e.g. 1234"
           type="number"
         />
@@ -527,7 +527,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 dKhopI"
       >
         <input
-          className="Input-qkdgvx-0 jAwXdl"
+          className="Input-qkdgvx-0 fFdAU"
           placeholder="e.g. 1234"
           type="number"
         />

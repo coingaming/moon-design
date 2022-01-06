@@ -321,7 +321,7 @@ declare module '@heathmont/moon-themes' {
     borderStyle: BorderStyle;
     boxShadow: BoxShadow;
     breakpoint: Breakpoint;
-    fontFace?: any;
+    fontFace?: CSSObject[];
     fontFamily: FontFamily;
     fontSize: FontSize;
     fontWeight: FontWeight;

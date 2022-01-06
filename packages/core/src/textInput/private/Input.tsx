@@ -118,7 +118,7 @@ const Input = styled.input.attrs(({ type }) => ({
     inputSize === Size.XLARGE &&
       isLabel && {
         height: rem(56),
-        paddingTop: rem(20),
+        paddingTop: rem(18),
         lineHeight: rem(20),
         '&:not(:focus):not([disabled])::placeholder': {
           opacity: 0,

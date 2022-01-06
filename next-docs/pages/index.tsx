@@ -57,6 +57,9 @@ export default function Home() {
 
       <Header />
 
+      <ForDesigners />
+      <ForDevelopers />
+
       <SubHeader
         title="Updates."
         description="Explore our community features"
@@ -65,9 +68,6 @@ export default function Home() {
       <div className="mt-12">
         <News />
       </div>
-
-      {/* <ForDesigners />
-      <ForDevelopers /> */}
 
       <MoonAndEarthAnimation />
 

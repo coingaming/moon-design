@@ -6,14 +6,15 @@ import BodyTR from './BodyTR';
 import TD from './TD';
 import TH from './TH';
 import { TableVariant } from '../Table';
+import { ColorNames } from '@heathmont/moon-themes';
 
 const TableWrapper = styled.div<{
   isScrolledToLeft: boolean;
   isScrolledToRight: boolean;
   variant?: TableVariant;
-  defaultRowBackgroundColor?: any;
-  evenRowBackgroundColor?: any;
-  headerBackgroundColor?: any;
+  defaultRowBackgroundColor?: ColorNames;
+  evenRowBackgroundColor?: ColorNames;
+  headerBackgroundColor?: ColorNames;
 }>(
   ({
     theme,

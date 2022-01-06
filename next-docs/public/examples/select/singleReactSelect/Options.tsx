@@ -32,7 +32,7 @@ const Example = () => {
           value={option}
           onChange={(opt) => opt && setOption(opt as any)}
           isSearchable
-          leftSlot={<div className="ml-4 mr-2">{option.flag}</div>}
+          leftSlot={<div className="mx-2">{option.flag}</div>}
           formatOptionLabel={(data) => (
             <div className="flex ">
               <div className="mr-4">{data.flag}</div>
@@ -49,7 +49,7 @@ const Example = () => {
           value={option2}
           onChange={(opt) => opt && setOption2(opt as any)}
           isSearchable
-          leftSlot={<div className="ml-4 mr-2">{option2.flag}</div>}
+          leftSlot={<div className="mx-2">{option2.flag}</div>}
           formatOptionLabel={(data) => (
             <div className="flex ">
               <div className="mr-4">{data.flag}</div>
