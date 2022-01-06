@@ -20,16 +20,21 @@ export default function PageSelect() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Select</h1>
+        <h1 className="text-5xl font-semibold">Multi Select</h1>
         <p className="text-lg mt-4">
           This Multi Select based on react-select library.
         </p>
         <p className="text-lg mt-4">
-          By default, Select stretches to full width on small devices.
+          Unlike a normal select, multiselect allows the user to select multiple
+          options at once.
         </p>
         <p className="text-lg mt-4">
-          For Select inputs that need to remain full width on all devices, use
-          the fullWidth prop.
+          As well as select Multi Select has two sizes with a different views:
+          <b> large</b> (by default) and <b>xLarge</b>. Large size has label
+          outside input, xLarge has label inside the input. Also, you can set
+          multi-select view with counter. Just specify the amount of visible
+          options inside select with the help of
+          <b> amountOfVisibleItems</b> prop.
         </p>
       </section>
 

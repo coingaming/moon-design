@@ -22,14 +22,16 @@ export default function PageSelect() {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Select</h1>
         <p className="text-lg mt-4">
-          This Single Select based on react-select library.
+          This Select based on react-select library.
         </p>
         <p className="text-lg mt-4">
-          By default, Select stretches to full width on small devices.
+          Select components are used for collecting user provided information
+          from a list of options.
         </p>
         <p className="text-lg mt-4">
-          For Select inputs that need to remain full width on all devices, use
-          the fullWidth prop.
+          Select has two sizes with a different views:
+          <b> large</b> (by default) and <b>xLarge</b>. Large size has label
+          outside input, xLarge has label inside the input.
         </p>
       </section>
 
