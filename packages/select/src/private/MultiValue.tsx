@@ -1,8 +1,8 @@
-// @ts-nocheck
 import React from 'react';
 import { components, MultiValueProps } from 'react-select';
 
-const MultiValue = ({ children, ...rest }: MultiValueProps) => {
+// any - https://github.com/JedWatson/react-select/issues/4804
+const MultiValue = ({ children, ...rest }: MultiValueProps<any>) => {
   return <components.MultiValue {...rest}>{children}</components.MultiValue>;
 };
 

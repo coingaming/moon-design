@@ -21,7 +21,7 @@ const Example = () => (
     <div className="w-80 mr-4 ml-4 mb-8">
       <Select
         options={options}
-        label="Single Large"
+        label="Large"
         placeholderSlot="Choose an option"
         isMulti
         amountOfVisibleItems={2}
@@ -30,7 +30,7 @@ const Example = () => (
     <div className="w-80 mr-4 ml-4 mb-8">
       <Select
         options={options}
-        label="Single xLarge"
+        label="xLarge"
         size="xLarge"
         placeholderSlot="Choose an option"
         isMulti

@@ -67,7 +67,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 kGXTgc"
+          className="Input-qkdgvx-0 gzqgWB"
           disabled={true}
           placeholder=" "
           type="date"
@@ -151,7 +151,7 @@ exports[`TextInput: type Date renders error 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 bFSurF"
+          className="Input-qkdgvx-0 coYWyI"
           placeholder="Placeholder"
           type="date"
         />
@@ -236,7 +236,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 kGXTgc"
+          className="Input-qkdgvx-0 gzqgWB"
           placeholder=" "
           readOnly={true}
           type="date"
@@ -320,7 +320,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 kGXTgc"
+          className="Input-qkdgvx-0 gzqgWB"
           placeholder="Placeholder"
           type="date"
         />
@@ -391,7 +391,7 @@ exports[`TextInput: type Date renders with label 1`] = `
         className="Inner-sc-1soq84i-0 bMgBMq"
       >
         <input
-          className="Input-qkdgvx-0 kGXTgc"
+          className="Input-qkdgvx-0 gzqgWB"
           placeholder="Placeholder"
           type="date"
         />
@@ -521,7 +521,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 dKhopI"
       >
         <input
-          className="Input-qkdgvx-0 kGXTgc"
+          className="Input-qkdgvx-0 gzqgWB"
           placeholder="Placeholder"
           type="date"
         />

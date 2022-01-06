@@ -1,15 +1,17 @@
-// @ts-nocheck
 import React from 'react';
 import { components, SingleValueProps } from 'react-select';
+import type { BaseOptionType } from '../Select';
+import type { SelectProps } from '../styles/CustomStyles';
 
-const SingleValue = ({
-  children,
-  ...rest
-}: SingleValueProps<BaseOptionType>) => {
-  const leftSlot = rest.selectProps['data-customProps']?.leftSlot;
+// any - https://github.com/JedWatson/react-select/issues/4804
+const SingleValue = ({ children, ...rest }: SingleValueProps<any>) => {
+  const selectProps = rest.selectProps as SelectProps;
+  const customProps = selectProps['data-customProps'];
+  const leftSlot = customProps?.leftSlot;
+  const data = rest?.data as BaseOptionType;
   return (
     <components.SingleValue {...rest}>
-      {leftSlot ? rest.data.label : children}
+      {leftSlot ? data.label : children}
     </components.SingleValue>
   );
 };
