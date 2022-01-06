@@ -1,5 +1,18 @@
 # Change Log
 
+## 7.21.0
+
+### Minor Changes
+
+- New nav & select fixes
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.21.0
+  - @heathmont/moon-themes@7.21.0
+  - @heathmont/moon-utils@7.21.0
+
 ## 7.20.0
 
 ### Minor Changes

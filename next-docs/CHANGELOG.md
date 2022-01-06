@@ -1,5 +1,28 @@
 # Change Log
 
+## 7.21.0
+
+### Minor Changes
+
+- New nav & select fixes
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@7.21.0
+  - @heathmont/moon-pagination@7.21.0
+  - @heathmont/moon-popover@7.21.0
+  - @heathmont/moon-select@7.21.0
+  - @heathmont/moon-table@7.21.0
+  - @heathmont/moon-accordion@7.21.0
+  - @heathmont/moon-assets@7.21.0
+  - @heathmont/moon-charts@7.21.0
+  - @heathmont/moon-components@7.21.0
+  - @heathmont/moon-draggabletable@7.21.0
+  - @heathmont/moon-icons@7.21.0
+  - @heathmont/moon-themes@7.21.0
+  - @heathmont/moon-utils@7.21.0
+
 ## 7.20.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.21.0
+
+### Minor Changes
+
+- New nav & select fixes
+
 ## 7.20.0
 
 ### Minor Changes
