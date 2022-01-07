@@ -1,6 +1,6 @@
 import { Button } from '@heathmont/moon-core';
 
-const Sizes = () => (
+const Example = () => (
   <div className="flex justify-around w-full items-center">
     <Button size="small">Small</Button>
     <Button>Medium is default</Button>
@@ -9,4 +9,4 @@ const Sizes = () => (
   </div>
 );
 
-export default Sizes;
+export default Example;

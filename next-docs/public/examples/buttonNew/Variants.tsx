@@ -1,6 +1,6 @@
 import { Button } from '@heathmont/moon-core';
 
-const Variants = () => (
+const Example = () => (
   <div className="flex justify-around w-full items-center">
     <Button>Primary is default</Button>
     <Button variant="secondary">Secondary</Button>
@@ -9,4 +9,4 @@ const Variants = () => (
   </div>
 );
 
-export default Variants;
+export default Example;

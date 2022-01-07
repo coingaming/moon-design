@@ -1,7 +1,7 @@
 import { Button } from '@heathmont/moon-core';
 import { GenericSettings } from '@heathmont/moon-icons';
 
-const Icons = () => (
+const Example = () => (
   <div className="flex justify-around w-full items-center">
     <Button iconLeft={<GenericSettings />}>IconLeft</Button>
     <Button iconLeft>
@@ -20,4 +20,4 @@ const Icons = () => (
   </div>
 );
 
-export default Icons;
+export default Example;
