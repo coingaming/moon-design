@@ -1,5 +1,25 @@
 # Change Log
 
+## 7.22.1
+
+### Patch Changes
+
+- New tokens
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@7.22.1
+  - @heathmont/moon-assets@7.22.1
+  - @heathmont/moon-charts@7.22.1
+  - @heathmont/moon-components@7.22.1
+  - @heathmont/moon-core@7.22.1
+  - @heathmont/moon-draggabletable@7.22.1
+  - @heathmont/moon-icons@7.22.1
+  - @heathmont/moon-pagination@7.22.1
+  - @heathmont/moon-popover@7.22.1
+  - @heathmont/moon-select@7.22.1
+  - @heathmont/moon-table@7.22.1
+  - @heathmont/moon-themes@7.22.1
+  - @heathmont/moon-utils@7.22.1
+
 ## 7.22.0
 
 ### Minor Changes
