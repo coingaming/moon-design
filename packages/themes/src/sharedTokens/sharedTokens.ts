@@ -471,7 +471,7 @@ export interface SharedTheme {
     boxShadow: BoxShadowNew;
     font: Font;
     opacity: number;
-    button: Button;
+    button: Button; // Not sure if correct
     textLink: TextLink;
     hover: Hover;
     focus: string;

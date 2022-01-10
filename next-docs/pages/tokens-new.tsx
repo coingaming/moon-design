@@ -1,5 +1,4 @@
 import React from 'react';
-import { rem } from '@heathmont/moon-utils';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import TokenTable from '../components/TokenTable';
