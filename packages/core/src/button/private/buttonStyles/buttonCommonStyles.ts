@@ -11,8 +11,8 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      fontWeight: newTokens.fontWeight.semibold,
-      borderRadius: newTokens.radius.full,
+      fontWeight: newTokens.font.weight.semibold,
+      borderRadius: newTokens.interactiveBorderRadius,
       textDecoration: 'none',
       fontFamily: 'inherit',
       overflow: 'hidden',
@@ -20,7 +20,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       outline: 'none',
       transition: `all ${newTokens.transition.default}`,
       '&:active': {
-        transform: newTokens.transform.active,
+        transform: newTokens.transform,
       },
       '&:focus-visible': {
         boxShadow: newTokens.focus,
@@ -32,7 +32,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       },
     },
     disabled && {
-      opacity: newTokens.opacity.disabled,
+      opacity: newTokens.opacity,
       cursor: 'not-allowed',
     },
   ];
