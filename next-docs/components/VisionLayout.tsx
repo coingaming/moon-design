@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react';
+import { useState } from 'react';
 import { useDocsTheme } from '../components/themes/DocsThemeProvider';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Sidebar from './sidebar/Sidebar';

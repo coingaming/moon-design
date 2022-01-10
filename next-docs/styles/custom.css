@@ -44,3 +44,11 @@ body {
   height: 12px;
   cursor: pointer;
 }
+
+.vision-card-front {
+  background: #141414;
+}
+
+.vision-card-front-inner-card {
+  background: #272727;
+}
