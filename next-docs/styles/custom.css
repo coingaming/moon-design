@@ -49,6 +49,10 @@ body {
   background: #141414;
 }
 
+.vision-card-back {
+  background: #000000;
+}
+
 .vision-card-front-inner-card {
   background: #272727;
 }

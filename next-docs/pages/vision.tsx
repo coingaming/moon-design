@@ -8,8 +8,6 @@ import vision_front_card_header_text_2 from '../public/vision_front_card_header_
 import testimonial_3 from '../public/testimonial_3.png';
 import vision_front_card_header_text_3 from '../public/vision_front_card_header_text_3.png';
 
-// #141414
-
 const Header = () => (
   <>
     <h1 className="text-6xl text-white tracking-tight font-semibold max-w-sm">
@@ -48,7 +46,7 @@ const CardFront: React.FC<CardFrontProps> = ({
   userImage,
 }) => {
   return (
-    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36">
+    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10">
       <div className="mx-93 mt-75 mx-auto flex flex-col w-fit pt-4">
         <Image className="rounded-lg" src={headerImage} alt={altHeaderImage} />
       </div>
@@ -69,12 +67,38 @@ const CardFront: React.FC<CardFrontProps> = ({
   );
 };
 
+interface CardBackProps {
+  heading: string;
+  subHeading: string;
+  supportingTextItems: string[];
+}
+
+const CardBack: React.FC<CardBackProps> = ({
+  heading,
+  subHeading,
+  supportingTextItems,
+}) => {
+  return (
+    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 hidden 2xl:block">
+      <h3 className="text-5xl mx-4">{heading}</h3>
+      <p className="mt-6 mb-9 mx-4">{subHeading}</p>
+      <div>
+        <ul className="list-disc text-sm opacity-50 list-inside">
+          {supportingTextItems.map((i) => (
+            <li>{i}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
 export default function PageVision() {
   return (
     <div className="flex flex-col">
       <Header />
       <Mission />
-      <div className="flex flex-col">
+      <div className="flex flex-col mx-auto 2xl:grid 2xl:grid-cols-2">
         <CardFront
           headerImage={vision_front_card_header_text_1}
           altHeaderImage="Efficiency, not consistency"
@@ -83,6 +107,16 @@ export default function PageVision() {
           name="Nathan Curtis"
           company="EightShapes"
           userImage={testimonial_1}
+        />
+        <CardBack
+          heading="Efficiency"
+          subHeading="A Design System ensures maximum returns on time spent on code and design, with minimal wasted energy, in order to achieve the same results."
+          supportingTextItems={[
+            'It improves the approach, minimising time spent creating products from scratch so it can be better spent solving problems.',
+            'It improves code through iteration, which is cheaper than writing quality code from scratch on demand.',
+            'It eliminates the need to repeatedly communicate design decisions that are documented and implemented.',
+            'It frees teams up from maintaining their own code, which is often duplicated.',
+          ]}
         />
         <CardFront
           headerImage={vision_front_card_header_text_2}
@@ -93,6 +127,14 @@ export default function PageVision() {
           company="EightShapes"
           userImage={testimonial_2}
         />
+        <CardBack
+          heading="Agility"
+          subHeading="A Design System facilitates a product’s agility by preventing stagnation on topics already discussed, agreed upon, documented and implemented."
+          supportingTextItems={[
+            'It shares the design and coding workload evenly between all team members.',
+            'It allows us to create prototypes, experiments and launch MVPs in less time. This makes sure elements like consistency and accessibility aren’t ignored in the initial product in order to meet launch times.',
+          ]}
+        />
         <CardFront
           headerImage={vision_front_card_header_text_3}
           altHeaderImage="Efficiency, not consistency"
@@ -101,6 +143,15 @@ export default function PageVision() {
           name="Nathan Curtis"
           company="EightShapes"
           userImage={testimonial_3}
+        />
+        <CardBack
+          heading="Quality"
+          subHeading="A Design System provides a systematic approach to managing code quality and design decisions."
+          supportingTextItems={[
+            'Being in constant evolution through iterations means the quality of each component continues to improve over time, particularly in comparison to new components.',
+            'The fact it is a modular, closed and versioned system reduces the risk of losses to both code and design.',
+            'It’s easily isolated in order to assess its quality and measure its external integration.',
+          ]}
         />
       </div>
     </div>
