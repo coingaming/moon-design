@@ -46,7 +46,7 @@ const CardFront: React.FC<CardFrontProps> = ({
   userImage,
 }) => {
   return (
-    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10 w-full 2xl:w-auto  2xl:static">
+    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10 w-full 2xl:w-auto absolute 2xl:static">
       <div className="mx-93 mt-75 mx-auto flex flex-col w-fit pt-4">
         <Image className="rounded-lg" src={headerImage} alt={altHeaderImage} />
       </div>
@@ -79,7 +79,7 @@ const CardBack: React.FC<CardBackProps> = ({
   supportingTextItems,
 }) => {
   return (
-    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block 2xl:static">
+    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block absolute 2xl:static">
       <h3 className="text-5xl mx-4">{heading}</h3>
       <p className="mt-6 mb-9 mx-4">{subHeading}</p>
       <div>
@@ -116,10 +116,10 @@ const Card: React.FC<CardProps> = (props) => {
 
 export default function PageVision() {
   return (
-    <div className="flex flex-col">
+    <div className="2xl:flex 2xl:flex-col">
       <Header />
       <Mission />
-      <div className="vision-scene flex flex-col mx-auto">
+      <div className="vision-scene 2xl:flex 2xl:flex-col mx-auto">
         <Card
           headerImage={vision_front_card_header_text_1}
           altHeaderImage="Efficiency, not consistency"
@@ -140,11 +140,11 @@ export default function PageVision() {
 
         <Card
           headerImage={vision_front_card_header_text_2}
-          altHeaderImage="Efficiency, not consistency"
-          subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering to use, consistency becomes an automatic by-product of adoption. "
-          innerCardText="A design system isn’t a project. It’s a product serving products."
-          name="Nathan Curtis"
-          company="EightShapes"
+          altHeaderImage="Dynamic capability + stability = agility"
+          subtext="Agility needs two things. One is a dynamic capability, the ability to move fast—speed, nimbleness, responsiveness. And agility requires stability, a stable foundation—a platform, if you will—of things that don't change."
+          innerCardText="The more decisions you put off, and the longer you delay them, the more expensive they become."
+          name="Craig Villamor"
+          company="Google Maps"
           userImage={testimonial_2}
           heading="Agility"
           subHeading="A Design System facilitates a product’s agility by preventing stagnation on topics already discussed, agreed upon, documented and implemented."
@@ -156,11 +156,11 @@ export default function PageVision() {
 
         <Card
           headerImage={vision_front_card_header_text_3}
-          altHeaderImage="Efficiency, not consistency"
-          subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering to use, consistency becomes an automatic by-product of adoption. "
-          innerCardText="A design system isn’t a project. It’s a product serving products."
-          name="Nathan Curtis"
-          company="EightShapes"
+          altHeaderImage="Quality over quantity"
+          subtext="Focus on the best solutions, quantity become as consolidation of Agility and Efficiency"
+          innerCardText="Styles come and go. Good design is a language, not a style."
+          name="Massimo Vignelli"
+          company="Italian Designer"
           userImage={testimonial_3}
           heading="Quality"
           subHeading="A Design System provides a systematic approach to managing code quality and design decisions."
