@@ -1,3 +1,5 @@
+import mainColors from '../v2/colors/mainColors';
+import buttonVariantTokens from './buttonVariantTokens';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -17,10 +19,35 @@ import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 const borderStyle = 'solid';
 const borderWidth = 1;
-
 const space = 16;
-
 const transitionDuration = 0.2;
+
+const baseBorderStyle = 'solid';
+const baseBorderWidth = 1;
+const baseSpace = 16;
+const baseFontSize = 16;
+const baseLineHeight = 24;
+const baseTransitionDuration = 0.2;
+
+const buttonFill = buttonVariantTokens.fill;
+const buttonFillSecondary = buttonVariantTokens.fillSecondary;
+const buttonStroke = buttonVariantTokens.stroke;
+
+const rem = (value: number) => `${value / baseFontSize}rem`;
+
+const borderRadius = {
+  none: 0,
+  twoxsmall: rem(2),
+  xsmall: rem(4),
+  small: rem(6),
+  medium: rem(8),
+  large: rem(12),
+  xlarge: rem(16),
+  twoxlarge: rem(24),
+  full: rem(9999),
+};
+
+const interactiveBorderRadius = borderRadius.full;
 
 export type ZIndex = {
   carouselControl: number;
@@ -347,6 +374,7 @@ export interface SharedTheme {
     lg: string;
     xl: string;
   };
+  newTokens: Object;
 }
 
 export type Theme = SharedTheme & {
@@ -420,6 +448,66 @@ const sharedTokens: SharedTheme = {
     selectOptions: 10,
     dialog: 10000,
     toggle: 1,
+  },
+  newTokens: {
+    base: {
+      space: rem(baseSpace),
+      fontSize: rem(baseFontSize),
+      lineHeight: rem(baseLineHeight),
+    },
+    border: `${rem(baseBorderWidth)} ${baseBorderStyle}`,
+    radius: {
+      none: borderRadius.none,
+      twoxsmall: borderRadius.twoxsmall,
+      xsmall: borderRadius.xsmall,
+      small: borderRadius.small,
+      medium: borderRadius.medium,
+      large: borderRadius.large,
+      xlarge: borderRadius.xlarge,
+      twoxlarge: borderRadius.twoxlarge,
+      full: borderRadius.full,
+      interactive: interactiveBorderRadius,
+    },
+    breakpoint: {
+      small: rem(640),
+      medium: rem(768),
+      large: rem(1024),
+      xlarge: rem(1280),
+      twoxlarge: rem(1536),
+    },
+    fontWeight: {
+      normal: 400,
+      semibold: 500,
+    },
+    opacity: {
+      disabled: 0.32,
+    },
+    transform: {
+      active: 'scale(0.9)',
+    },
+    transition: {
+      slow: `${baseTransitionDuration * 2}s ease-in-out`,
+      default: `${baseTransitionDuration}s ease-in-out`,
+    },
+    hover: {
+      primary: `${mainColors.bulma}12`,
+      secondary: `${mainColors.piccolo}12`,
+    },
+    focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
+    size: {
+      twoxsmall: rem(16),
+      xsmall: rem(24),
+      small: rem(32),
+      medium: rem(40),
+      large: rem(48),
+      xlarge: rem(56),
+      twoxlarge: rem(64),
+    },
+    button: {
+      primary: buttonFill,
+      secondary: buttonStroke,
+      tertiary: buttonFillSecondary,
+    },
   },
 };
 
