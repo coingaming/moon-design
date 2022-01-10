@@ -1,5 +1,20 @@
 # @heathmont/moon-select
 
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@7.22.0
+  - @heathmont/moon-themes@7.22.0
+  - @heathmont/moon-components@7.22.0
+  - @heathmont/moon-icons@7.22.0
+  - @heathmont/moon-utils@7.22.0
+
 ## 7.21.0
 
 ### Minor Changes

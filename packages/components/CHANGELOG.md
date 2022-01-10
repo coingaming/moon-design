@@ -1,5 +1,18 @@
 # Change Log
 
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@7.22.0
+  - @heathmont/moon-themes@7.22.0
+  - @heathmont/moon-utils@7.22.0
+
 ## 7.21.0
 
 ### Minor Changes
