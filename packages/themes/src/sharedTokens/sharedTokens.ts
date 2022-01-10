@@ -29,6 +29,20 @@ const fontWeightSemibold = 500;
 
 const rem = (value: number) => `${value / baseFontSize}rem`;
 
+const borderRadius = {
+  none: 0,
+  twoxsmall: rem(2),
+  xsmall: rem(4),
+  small: rem(6),
+  medium: rem(8),
+  large: rem(12),
+  xlarge: rem(16),
+  twoxlarge: rem(24),
+  full: rem(9999),
+};
+
+const interactiveBorderRadius = borderRadius.full;
+
 export type ZIndex = {
   carouselControl: number;
   selectOptions: number;
