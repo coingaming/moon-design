@@ -45,12 +45,37 @@ body {
   cursor: pointer;
 }
 
+.vision-scene {
+  perspective: 600px;
+}
+
+.vision-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.vision-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
 .vision-card-front {
   background: #141414;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .vision-card-back {
   background: #000000;
+  transform: rotateY(180deg);
+}
+
+@media (min-width: 1536px) {
+  .vision-card-back {
+    transform: rotateY(360deg);
+  }
 }
 
 .vision-card-front-inner-card {

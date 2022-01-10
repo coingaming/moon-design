@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 import VisionLayout from '../components/VisionLayout';
 import Image from 'next/image';
 import testimonial_1 from '../public/testimonial_1.png';
@@ -46,7 +46,7 @@ const CardFront: React.FC<CardFrontProps> = ({
   userImage,
 }) => {
   return (
-    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10">
+    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10 w-full 2xl:w-auto  2xl:static">
       <div className="mx-93 mt-75 mx-auto flex flex-col w-fit pt-4">
         <Image className="rounded-lg" src={headerImage} alt={altHeaderImage} />
       </div>
@@ -79,16 +79,37 @@ const CardBack: React.FC<CardBackProps> = ({
   supportingTextItems,
 }) => {
   return (
-    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 hidden 2xl:block">
+    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block 2xl:static">
       <h3 className="text-5xl mx-4">{heading}</h3>
       <p className="mt-6 mb-9 mx-4">{subHeading}</p>
       <div>
         <ul className="list-disc text-sm opacity-50 list-inside">
-          {supportingTextItems.map((i) => (
-            <li>{i}</li>
+          {supportingTextItems.map((i, index) => (
+            <li key={index}>{i}</li>
           ))}
         </ul>
       </div>
+    </div>
+  );
+};
+
+type CardProps = CardFrontProps & CardBackProps;
+
+const Card: React.FC<CardProps> = (props) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  return (
+    <div
+      className={
+        'vision-card flex flex-col 2xl:grid 2xl:grid-cols-2 ' +
+        (isFlipped ? 'is-flipped' : '')
+      }
+      onClick={(e) => {
+        setIsFlipped(!isFlipped);
+      }}
+    >
+      <CardFront {...props} />
+      <CardBack {...props} />
     </div>
   );
 };
@@ -98,8 +119,8 @@ export default function PageVision() {
     <div className="flex flex-col">
       <Header />
       <Mission />
-      <div className="flex flex-col mx-auto 2xl:grid 2xl:grid-cols-2">
-        <CardFront
+      <div className="vision-scene flex flex-col mx-auto">
+        <Card
           headerImage={vision_front_card_header_text_1}
           altHeaderImage="Efficiency, not consistency"
           subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering to use, consistency becomes an automatic by-product of adoption. "
@@ -107,8 +128,6 @@ export default function PageVision() {
           name="Nathan Curtis"
           company="EightShapes"
           userImage={testimonial_1}
-        />
-        <CardBack
           heading="Efficiency"
           subHeading="A Design System ensures maximum returns on time spent on code and design, with minimal wasted energy, in order to achieve the same results."
           supportingTextItems={[
@@ -118,7 +137,8 @@ export default function PageVision() {
             'It frees teams up from maintaining their own code, which is often duplicated.',
           ]}
         />
-        <CardFront
+
+        <Card
           headerImage={vision_front_card_header_text_2}
           altHeaderImage="Efficiency, not consistency"
           subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering to use, consistency becomes an automatic by-product of adoption. "
@@ -126,8 +146,6 @@ export default function PageVision() {
           name="Nathan Curtis"
           company="EightShapes"
           userImage={testimonial_2}
-        />
-        <CardBack
           heading="Agility"
           subHeading="A Design System facilitates a product’s agility by preventing stagnation on topics already discussed, agreed upon, documented and implemented."
           supportingTextItems={[
@@ -135,7 +153,8 @@ export default function PageVision() {
             'It allows us to create prototypes, experiments and launch MVPs in less time. This makes sure elements like consistency and accessibility aren’t ignored in the initial product in order to meet launch times.',
           ]}
         />
-        <CardFront
+
+        <Card
           headerImage={vision_front_card_header_text_3}
           altHeaderImage="Efficiency, not consistency"
           subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering to use, consistency becomes an automatic by-product of adoption. "
@@ -143,8 +162,6 @@ export default function PageVision() {
           name="Nathan Curtis"
           company="EightShapes"
           userImage={testimonial_3}
-        />
-        <CardBack
           heading="Quality"
           subHeading="A Design System provides a systematic approach to managing code quality and design decisions."
           supportingTextItems={[
