@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react';
+import { ReactNode, useCallback, useEffect, useState } from 'react';
 import VisionLayout from '../components/VisionLayout';
 import Image from 'next/image';
 import testimonial_1 from '../public/testimonial_1.png';
@@ -7,6 +7,32 @@ import testimonial_2 from '../public/testimonial_2.png';
 import vision_front_card_header_text_2 from '../public/vision_front_card_header_text_2.png';
 import testimonial_3 from '../public/testimonial_3.png';
 import vision_front_card_header_text_3 from '../public/vision_front_card_header_text_3.png';
+
+const useMediaQuery = () => {
+  const [targetReached, setTargetReached] = useState(false);
+
+  const updateTarget = useCallback((e) => {
+    if (e.matches) {
+      setTargetReached(true);
+    } else {
+      setTargetReached(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia('(min-width: 1536px)');
+    media.addListener(updateTarget);
+
+    // Check on mount (callback is not called until a change occurs)
+    if (media.matches) {
+      setTargetReached(true);
+    }
+
+    return () => media.removeListener(updateTarget);
+  }, []);
+
+  return targetReached;
+};
 
 const Header = () => (
   <>
@@ -98,11 +124,13 @@ type CardProps = CardFrontProps & CardBackProps;
 const Card: React.FC<CardProps> = (props) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  const isMaxScreen = useMediaQuery();
+
   return (
     <div
       className={
-        'vision-card flex flex-col 2xl:grid 2xl:grid-cols-2 ' +
-        (isFlipped ? 'is-flipped' : '')
+        'vision-card 2xl:grid 2xl:grid-cols-2 ' +
+        (isFlipped && !isMaxScreen ? 'is-flipped' : '')
       }
       onClick={(e) => {
         setIsFlipped(!isFlipped);
@@ -119,7 +147,7 @@ export default function PageVision() {
     <div className="2xl:flex 2xl:flex-col">
       <Header />
       <Mission />
-      <div className="vision-scene 2xl:flex 2xl:flex-col mx-auto">
+      <div className="vision-scene flex flex-col mx-auto">
         <Card
           headerImage={vision_front_card_header_text_1}
           altHeaderImage="Efficiency, not consistency"
