@@ -616,7 +616,7 @@ const sharedTokens: SharedTheme = {
     font: {
       face: undefined, // Not sure if correct
       family:
-        'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+        'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif', // Not sure if correct
       size: rem(baseFontSize),
       weight: {
         normal: fontWeightNormal,

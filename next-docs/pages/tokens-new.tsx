@@ -291,6 +291,228 @@ export default function PageTokensNew() {
           ]}
         />
       </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Box Shadow</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'small',
+              key: 'boxShadow.small',
+              value:
+                '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+            },
+            {
+              name: 'medium',
+              key: 'boxShadow.medium',
+              value:
+                '0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+            },
+            {
+              name: 'large',
+              key: 'boxShadow.large',
+              value:
+                '0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+            },
+            {
+              name: 'xlarge',
+              key: 'boxShadow.xlarge',
+              value:
+                '0 32px  32px -8px rgba(0, 0, 0, 0.08), 0 0 32px -8px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.2)',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Font</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'face',
+              key: 'font.face',
+              value: 'Returns CSS @font-face declaration',
+            },
+            {
+              name: 'family',
+              key: 'font.family',
+              value:
+                'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+            },
+            {
+              name: 'size',
+              key: 'font.size',
+              value: '16px',
+            },
+            {
+              name: 'weight.normal',
+              key: 'font.weight.normal',
+              value: 400,
+            },
+            {
+              name: 'weight.semibold',
+              key: 'font.weight.semibold',
+              value: 500,
+            },
+            {
+              name: 'lineHeight',
+              key: 'font.lineHeight',
+              value: '24px',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Opacity</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'opacity',
+              key: 'opacity',
+              value: 0.32,
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Button // To be done</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'primary',
+              key: 'button.primary',
+              value: 'To be done',
+            },
+            {
+              name: 'secondary',
+              key: 'button.secondary',
+              value: 'To be done',
+            },
+            {
+              name: 'tertiary',
+              key: 'button.tertiary',
+              value: 'To be done',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Text link</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'fontWeight',
+              key: 'textLink.fontWeight',
+              value: 500,
+            },
+            {
+              name: 'color.default',
+              key: 'button.color.default',
+              value: 'piccolo',
+            },
+            {
+              name: 'color.hover',
+              key: 'button.color.hover',
+              value: 'hit',
+            },
+            {
+              name: 'color.visited',
+              key: 'button.color.visited',
+              value: 'hit',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Hover</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'primary',
+              key: 'hover.primary',
+              value: 'bulma, 12%',
+            },
+            {
+              name: 'secondary',
+              key: 'hover.secondary',
+              value: 'piccolo, 12%',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Focus</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'focus',
+              key: 'focus',
+              value: '0 0 0 4px piccolo, 20%',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Transform</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'transform',
+              key: 'transform',
+              value: 'scale(0.9)',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Size</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'twoxsmall',
+              key: 'size.twoxsmall',
+              value: '16px',
+            },
+            {
+              name: 'xsmall',
+              key: 'size.xsmall',
+              value: '24px',
+            },
+            {
+              name: 'small',
+              key: 'size.small',
+              value: '32px',
+            },
+            {
+              name: 'medium',
+              key: 'size.medium',
+              value: '40px',
+            },
+            {
+              name: 'large',
+              key: 'size.large',
+              value: '48px',
+            },
+            {
+              name: 'xlarge',
+              key: 'size.xlarge',
+              value: '56px',
+            },
+            {
+              name: 'twoxlarge',
+              key: 'size.twoxlarge',
+              value: '64px',
+            },
+          ]}
+        />
+      </section>
     </>
   );
 }
