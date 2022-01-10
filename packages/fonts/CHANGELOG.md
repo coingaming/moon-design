@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
 ## 7.21.0
 
 ### Minor Changes
