@@ -66,9 +66,16 @@ body {
 }
 
 .vision-card {
+  height: 950px;
   position: relative;
   transition: transform 1s;
   transform-style: preserve-3d;
+}
+
+@media (min-width: 1536px) {
+  .vision-card {
+    height: 1200px;
+  }
 }
 
 .vision-card.is-flipped {

@@ -76,11 +76,11 @@ const CardFront: React.FC<CardFrontProps> = ({
       <div className="mx-93 mt-75 mx-auto flex flex-col w-fit pt-4">
         <Image className="rounded-lg" src={headerImage} alt={altHeaderImage} />
       </div>
-      <p className="ml-auto mr-4 mt-9 text-right w-10/12 text-base">
+      <p className="ml-auto mr-4 mt-9 text-right w-10/12 text-base h-40">
         {subtext}
       </p>
       <div className="rounded-2xl vision-card-front-inner-card mt-8 mb-2 mx-2 py-9 px-8">
-        <p className="text-[2rem] leading-10">{innerCardText}</p>
+        <p className="text-[2rem] leading-10 h-72">{innerCardText}</p>
         <div className="flex mt-9 gap-x-4 items-center">
           <Image className="rounded-lg" src={userImage} alt="Testimonial" />
           <div className="flex flex-col">
@@ -147,7 +147,7 @@ export default function PageVision() {
     <div className="vision-page 2xl:flex 2xl:flex-col">
       <Header />
       <Mission />
-      <div className="vision-scene flex flex-col justify-start mx-auto">
+      <div className="vision-scene justify-start mx-auto">
         <Card
           headerImage={vision_front_card_header_text_1}
           altHeaderImage="Efficiency, not consistency"
