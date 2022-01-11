@@ -3,6 +3,7 @@ const navigation = [
   { name: 'Getting Started', href: '/getting-started' },
   { name: 'How to contribute', href: '/how-to-contribute' },
   { name: 'Colours Palette', href: '/colours' },
+  { name: 'Colours Palette New', href: '/colours-new' },
   { name: 'Typography', href: '/typography' },
   { name: 'Tokens', href: '/tokens' },
   { name: 'Tokens New', href: '/tokens-new' },
