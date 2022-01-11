@@ -147,7 +147,7 @@ export default function PageVision() {
     <div className="vision-page 2xl:flex 2xl:flex-col">
       <Header />
       <Mission />
-      <div className="vision-scene flex flex-col mx-auto">
+      <div className="vision-scene flex flex-col justify-start mx-auto">
         <Card
           headerImage={vision_front_card_header_text_1}
           altHeaderImage="Efficiency, not consistency"
