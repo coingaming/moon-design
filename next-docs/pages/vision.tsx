@@ -72,7 +72,7 @@ const CardFront: React.FC<CardFrontProps> = ({
   userImage,
 }) => {
   return (
-    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10 w-full 2xl:w-auto 2xl:static">
+    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10 w-full 2xl:w-auto absolute 2xl:static">
       <div className="mx-93 mt-75 mx-auto flex flex-col w-fit pt-4">
         <Image className="rounded-lg" src={headerImage} alt={altHeaderImage} />
       </div>
@@ -105,7 +105,7 @@ const CardBack: React.FC<CardBackProps> = ({
   supportingTextItems,
 }) => {
   return (
-    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block 2xl:static">
+    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block absolute 2xl:static">
       <h3 className="text-5xl mx-4">{heading}</h3>
       <p className="mt-6 mb-9 mx-4">{subHeading}</p>
       <div>

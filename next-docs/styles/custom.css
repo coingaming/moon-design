@@ -85,6 +85,8 @@ body {
 
 .vision-card-back {
   background: transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   transform: rotateY(180deg);
 }
 
