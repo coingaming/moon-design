@@ -1,5 +1,17 @@
 # Change Log
 
+## 7.22.1
+
+### Patch Changes
+
+- New tokens
+
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
 ## 7.21.0
 
 ### Minor Changes

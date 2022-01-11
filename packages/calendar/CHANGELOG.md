@@ -1,5 +1,28 @@
 # Change Log
 
+## 7.22.1
+
+### Patch Changes
+
+- New tokens
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.22.1
+  - @heathmont/moon-themes@7.22.1
+  - @heathmont/moon-utils@7.22.1
+
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.22.0
+  - @heathmont/moon-components@7.22.0
+  - @heathmont/moon-utils@7.22.0
+
 ## 7.21.0
 
 ### Minor Changes
