@@ -34,8 +34,6 @@
   --nappa: #725550;
   --nappa-60: #856a66;
   --nappa-10: #a18681;
-
-  --popo: #000;
 }
 
 .theme-moon-dark {
@@ -124,6 +122,8 @@
   --bulma: #ffffff;
 
   --trunks: #a18eb4;
+
+  --popo: #000000;
 }
 
 .theme-bitcasino-light {
@@ -152,6 +152,8 @@
   --bulma: #0f161f;
 
   --trunks: #8697a2;
+
+  --popo: #000000;
 }
 
 .theme-betadda-dark {
@@ -180,6 +182,8 @@
   --bulma: #ffffff;
 
   --trunks: #97a2ae;
+
+  --popo: #000000;
 }
 
 .theme-betadda-light {
@@ -208,6 +212,8 @@
   --bulma: #1a212a;
 
   --trunks: #63717b;
+
+  --popo: #000000;
 }
 
 .theme-sportsbet-dark {
@@ -236,6 +242,8 @@
   --bulma: #ffffff;
 
   --trunks: #8697a2;
+
+  --popo: #000000;
 }
 
 .theme-sportsbet-light {
@@ -264,4 +272,6 @@
   --bulma: #1a212a;
 
   --trunks: #607680;
+
+  --popo: #000000;
 }
