@@ -17,7 +17,7 @@ const Dropdown = styled.ul(({ theme: { space } }) => ({
 const Example = () => {
   const [searchString, setSearchString] = React.useState('');
   return (
-    <div className="h-40 bg-white p-4">
+    <div className="h-40 bg-white p-4 w-full">
       <Search
         placeholder="Search"
         results={
