@@ -1,13 +1,13 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Container = styled.div(({ theme }) => ({
   boxSizing: 'border-box',
   border: `2px ${theme.color.chiChi[100]} solid`,
-  borderRadius: rem(theme.radius.largest),
-  padding: rem(theme.space.small),
-  width: rem(40),
-  height: rem(40),
+  borderRadius: theme.newTokens.borderRadius.full, // TODO, Verify with Dima
+  padding: theme.newTokens.space.xsmall,
+  width: theme.newTokens.size.medium,
+  height: theme.newTokens.size.medium,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
