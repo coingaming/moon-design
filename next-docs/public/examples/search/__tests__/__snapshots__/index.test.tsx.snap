@@ -2,7 +2,7 @@
 
 exports[`Search renders 1`] = `
 <div
-  className="h-96 bg-white p-4"
+  className="h-96 bg-white p-4 w-full"
 >
   <div
     className="Popup__StyledPopup-sc-1lsi3ri-0 hXSJUI popup "
@@ -87,7 +87,7 @@ exports[`Search renders 1`] = `
 
 exports[`Search renders Loading State 1`] = `
 <div
-  className="h-40 bg-white p-4"
+  className="h-40 bg-white p-4 w-full"
 >
   <div
     className="Popup__StyledPopup-sc-1lsi3ri-0 hXSJUI popup "

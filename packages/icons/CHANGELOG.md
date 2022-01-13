@@ -1,5 +1,14 @@
 # Change Log
 
+## 7.22.2
+
+### Patch Changes
+
+- Fix assets publish
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.22.2
+  - @heathmont/moon-utils@7.22.2
+
 ## 7.22.1
 
 ### Patch Changes
