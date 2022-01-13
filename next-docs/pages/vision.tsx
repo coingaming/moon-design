@@ -1,11 +1,11 @@
 import { ReactNode, useCallback, useEffect, useState } from 'react';
-import VisionLayout from '../components/VisionLayout';
 import Image from 'next/image';
+import VisionLayout from '../components/VisionLayout';
 import testimonial_1 from '../public/testimonial_1.png';
-import vision_front_card_header_text_1 from '../public/vision_front_card_header_text_1.png';
 import testimonial_2 from '../public/testimonial_2.png';
-import vision_front_card_header_text_2 from '../public/vision_front_card_header_text_2.png';
 import testimonial_3 from '../public/testimonial_3.png';
+import vision_front_card_header_text_1 from '../public/vision_front_card_header_text_1.png';
+import vision_front_card_header_text_2 from '../public/vision_front_card_header_text_2.png';
 import vision_front_card_header_text_3 from '../public/vision_front_card_header_text_3.png';
 
 const useMediaQuery = () => {
@@ -43,9 +43,11 @@ const Header = () => (
 );
 
 const Mission = () => (
-  <div className="text-white mt-10 mb-10 2xl:mb-72 max-w-sm">
-    <h6 className="text-xs tracking-[0.50em] mb-2">M I S S I O N</h6>
-    <p className="text-lg">
+  <div className="text-white mt-10 mb-10 2xl:mb-72 max-w-lg">
+    <h6 className="text-xs 2xl:text-base tracking-[0.50em] mb-2 max-w-sm">
+      M I S S I O N
+    </h6>
+    <p className="2xl:text-xl leading-7 2xl:leading-normal">
       Create a tool that will reduce the time spent on routine and provide an
       opportunity for inspiration and innovation
     </p>
@@ -72,20 +74,20 @@ const CardFront: React.FC<CardFrontProps> = ({
   userImage,
 }) => {
   return (
-    <div className="vision-card-front text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 md:mr-10 w-full 2xl:w-auto absolute 2xl:static">
-      <div className="mx-93 mt-75 mx-auto flex flex-col w-fit pt-4">
+    <div className="vision-card-front text-white h-full w-full rounded-2xl mb-10 2xl:mb-20 2xl:w-auto absolute 2xl:static flex flex-col justify-between">
+      <div className="mx-93 mt-14 mx-auto flex flex-col w-fit pt-4">
         <Image className="rounded-lg" src={headerImage} alt={altHeaderImage} />
       </div>
-      <p className="ml-auto mr-4 mt-9 text-right w-10/12 text-base h-40">
+      <p className="ml-auto mr-10 text-right w-8/12 text-base h-1/5 h-fit opacity-50">
         {subtext}
       </p>
-      <div className="rounded-2xl vision-card-front-inner-card mt-8 mb-2 mx-2 py-9 px-8">
-        <p className="text-[2rem] leading-10 h-72">{innerCardText}</p>
+      <div className="rounded-2xl vision-card-front-inner-card mt-8 mb-2 mx-2 py-9 px-8 flex flex-col justify-end">
+        <p className="text-[2rem] leading-10">{innerCardText}</p>
         <div className="flex mt-9 gap-x-4 items-center">
           <Image className="rounded-lg" src={userImage} alt="Testimonial" />
           <div className="flex flex-col">
-            <p>{name}</p>
-            <p>{company}</p>
+            <p className="text-2xl">{name}</p>
+            <p className="opacity-50">{company}</p>
           </div>
         </div>
       </div>
@@ -105,13 +107,15 @@ const CardBack: React.FC<CardBackProps> = ({
   supportingTextItems,
 }) => {
   return (
-    <div className="vision-card-back text-white min-h-[10rem] rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block absolute 2xl:static">
+    <div className="vision-card-back text-white h-fit rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block absolute 2xl:static">
       <h3 className="text-5xl mx-4">{heading}</h3>
       <p className="mt-6 mb-9 mx-4">{subHeading}</p>
-      <div>
-        <ul className="list-disc text-sm opacity-50 list-inside">
+      <div className="mx-4 opacity-50">
+        <ul className="list-disc text-sm opacity-50 list-outside text-justify">
           {supportingTextItems.map((i, index) => (
-            <li key={index}>{i}</li>
+            <li key={index} className="mb-4">
+              {i}
+            </li>
           ))}
         </ul>
       </div>
@@ -129,7 +133,7 @@ const Card: React.FC<CardProps> = (props) => {
   return (
     <div
       className={
-        'vision-card 2xl:grid 2xl:grid-cols-2 ' +
+        'vision-card 2xl:grid 2xl:grid-cols-2 md:mr-10 my-20 ' + // Space after my-20 is important
         (isFlipped && !isMaxScreen ? 'is-flipped' : '')
       }
       onClick={(e) => {
