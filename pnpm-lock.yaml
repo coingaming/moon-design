@@ -100,6 +100,7 @@ importers:
       '@heathmont/moon-charts': workspace:^7.20.0
       '@heathmont/moon-components': workspace:^7.20.0
       '@heathmont/moon-core': workspace:^7.20.0
+      '@heathmont/moon-datepicker': workspace:^7.20.0
       '@heathmont/moon-draggabletable': workspace:^7.20.0
       '@heathmont/moon-icons': workspace:^7.20.0
       '@heathmont/moon-pagination': workspace:^7.20.0
@@ -134,6 +135,7 @@ importers:
       '@heathmont/moon-charts': link:../packages/charts
       '@heathmont/moon-components': link:../packages/components
       '@heathmont/moon-core': link:../packages/core
+      '@heathmont/moon-datepicker': link:../packages/datepicker
       '@heathmont/moon-draggabletable': link:../packages/draggabletable
       '@heathmont/moon-icons': link:../packages/icons
       '@heathmont/moon-pagination': link:../packages/pagination
@@ -262,6 +264,28 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@reach/listbox': 0.16.2_react-dom@17.0.2+react@17.0.2
       polished: 4.1.3
+
+  packages/datepicker:
+    specifiers:
+      '@heathmont/moon-components': workspace:^7.20.0
+      '@heathmont/moon-core': workspace:^7.20.0
+      '@heathmont/moon-icons': workspace:^7.20.0
+      '@heathmont/moon-themes': workspace:^7.20.0
+      '@heathmont/moon-utils': workspace:^7.20.0
+      '@types/date-fns': 2.6.0
+      date-fns: 2.15.0
+      polished: 4.1.3
+      react-select: ^5.2.1
+    dependencies:
+      '@heathmont/moon-components': link:../components
+      '@heathmont/moon-core': link:../core
+      '@heathmont/moon-icons': link:../icons
+      '@heathmont/moon-themes': link:../themes
+      '@heathmont/moon-utils': link:../utils
+      '@types/date-fns': 2.6.0
+      date-fns: 2.15.0
+      polished: 4.1.3
+      react-select: 5.2.1_d0d7f44b6e3eb24503738ffde454294e
 
   packages/draggabletable:
     specifiers:

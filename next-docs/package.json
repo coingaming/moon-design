@@ -24,6 +24,7 @@
     "@heathmont/moon-themes": "workspace:^7.20.0",
     "@heathmont/moon-utils": "workspace:^7.20.0",
     "@heathmont/moon-select": "workspace:^7.20.0",
+    "@heathmont/moon-datepicker": "workspace:^7.20.0",
     "@testing-library/jest-dom": "^5.15.1",
     "@types/react": "16.9.9",
     "@types/styled-components": "5.1.7",

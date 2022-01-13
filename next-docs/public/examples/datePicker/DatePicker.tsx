@@ -1,0 +1,28 @@
+// @ts-nocheck
+import React from 'react';
+
+import { DatePicker } from '@heathmont/moon-datepicker';
+import { rem } from '@heathmont/moon-utils';
+
+const Example = () => {
+  const [initialDate, setDate] = React.useState(
+    new Date('September 17, 2020 03:24:00')
+  );
+
+  return (
+    <div style={{ height: rem(400), width: '100%' }}>
+      <DatePicker
+        isOpenByDefault={true}
+        date={initialDate}
+        onDateChange={({ date }) => {
+          setDate(date);
+        }}
+        config={{
+          weekStartsOn: 1,
+        }}
+      />
+    </div>
+  );
+};
+
+export default Example;
