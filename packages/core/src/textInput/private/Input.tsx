@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import { ColorProps } from '@heathmont/moon-themes';
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
-import { ColorProps } from '@heathmont/moon-themes';
-import TextInputSizeType from './types/SizeTypes';
+import styled from 'styled-components';
 import Size from '../../private/enums/Size';
+import TextInputSizeType from './types/SizeTypes';
 
 type InputProps = {
   inputSize: TextInputSizeType | string;
@@ -118,7 +118,7 @@ const Input = styled.input.attrs(({ type }) => ({
     inputSize === Size.XLARGE &&
       isLabel && {
         height: rem(56),
-        paddingTop: rem(20),
+        paddingTop: rem(18),
         lineHeight: rem(20),
         '&:not(:focus):not([disabled])::placeholder': {
           opacity: 0,

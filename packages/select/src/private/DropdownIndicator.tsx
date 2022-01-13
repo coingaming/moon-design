@@ -1,10 +1,10 @@
-// @ts-nocheck
 import React from 'react';
-import { DropdownIndicatorProps } from 'react-select';
-import { rem } from '@heathmont/moon-utils';
 import { ControlsChevronDown, ControlsChevronUp } from '@heathmont/moon-icons';
+import { rem } from '@heathmont/moon-utils';
+import { DropdownIndicatorProps } from 'react-select';
 
-const DropdownIndicator = ({ ...rest }: DropdownIndicatorProps) => {
+// any - https://github.com/JedWatson/react-select/issues/4804
+const DropdownIndicator = ({ ...rest }: DropdownIndicatorProps<any>) => {
   const IndicatorComponent = rest.selectProps.menuIsOpen
     ? ControlsChevronUp
     : ControlsChevronDown;

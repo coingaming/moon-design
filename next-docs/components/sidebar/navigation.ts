@@ -3,8 +3,10 @@ const navigation = [
   { name: 'Getting Started', href: '/getting-started' },
   { name: 'How to contribute', href: '/how-to-contribute' },
   { name: 'Colours Palette', href: '/colours' },
+  { name: 'Colours Palette New', href: '/colours-new' },
   { name: 'Typography', href: '/typography' },
   { name: 'Tokens', href: '/tokens' },
+  { name: 'Tokens New', href: '/tokens-new' },
   { name: 'Icons', href: '/icons' },
   {
     name: 'Components',
@@ -12,6 +14,7 @@ const navigation = [
       { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
       { name: 'Button', href: '/components/button' },
+      { name: 'Button New', href: '/components/buttonNew' },
       { name: 'Carousel', href: '/components/carousel' },
       {
         name: 'Charts',

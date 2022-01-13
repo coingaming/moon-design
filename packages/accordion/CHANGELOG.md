@@ -1,5 +1,55 @@
 # Change Log
 
+## 7.22.2
+
+### Patch Changes
+
+- Fix assets publish
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.22.2
+  - @heathmont/moon-icons@7.22.2
+  - @heathmont/moon-themes@7.22.2
+  - @heathmont/moon-utils@7.22.2
+
+## 7.22.1
+
+### Patch Changes
+
+- New tokens
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.22.1
+  - @heathmont/moon-icons@7.22.1
+  - @heathmont/moon-themes@7.22.1
+  - @heathmont/moon-utils@7.22.1
+
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.22.0
+  - @heathmont/moon-components@7.22.0
+  - @heathmont/moon-icons@7.22.0
+  - @heathmont/moon-utils@7.22.0
+
+## 7.21.0
+
+### Minor Changes
+
+- New nav & select fixes
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.21.0
+  - @heathmont/moon-icons@7.21.0
+  - @heathmont/moon-themes@7.21.0
+  - @heathmont/moon-utils@7.21.0
+
 ## 7.20.0
 
 ### Minor Changes

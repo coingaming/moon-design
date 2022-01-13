@@ -1,5 +1,29 @@
 # Change Log
 
+## 7.22.2
+
+### Patch Changes
+
+- Fix assets publish
+
+## 7.22.1
+
+### Patch Changes
+
+- New tokens
+
+## 7.22.0
+
+### Minor Changes
+
+- add logos
+
+## 7.21.0
+
+### Minor Changes
+
+- New nav & select fixes
+
 ## 7.20.0
 
 ### Minor Changes

@@ -1,3 +1,5 @@
+import mainColors from '../v2/colors/mainColors';
+import buttonVariantTokens from './buttonVariantTokens';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 /**
@@ -17,10 +19,29 @@ import type { ColorShared, ColorValue } from '../supportColors/supportColors';
 
 const borderStyle = 'solid';
 const borderWidth = 1;
-
 const space = 16;
-
 const transitionDuration = 0.2;
+const transitionTimingFunction = 'ease-in-out';
+const baseFontSize = 16;
+const baseLineHeight = 24;
+const fontWeightNormal = 400;
+const fontWeightSemibold = 500;
+
+const rem = (value: number) => `${value / baseFontSize}rem`;
+
+const borderRadius = {
+  none: 0,
+  twoxsmall: rem(2),
+  xsmall: rem(4),
+  small: rem(6),
+  medium: rem(8),
+  large: rem(12),
+  xlarge: rem(16),
+  twoxlarge: rem(24),
+  full: rem(9999),
+};
+
+const interactiveBorderRadius = borderRadius.full;
 
 export type ZIndex = {
   carouselControl: number;
@@ -323,6 +344,94 @@ export type Brand =
 
 export type ColorScheme = 'light' | 'dark';
 
+export type BorderRadius = {
+  none: number;
+  twoxsmall: string;
+  xsmall: string;
+  small: string;
+  medium: string;
+  large: string;
+  xlarge: string;
+  twoxlarge: string;
+  full: string;
+};
+
+export type InteractiveBorderRadius = string | number;
+
+export type BreakpointNew = {
+  small: string;
+  medium: string;
+  large: string;
+  xlarge: string;
+  twoxlarge: string;
+};
+
+export type SpaceNew = {
+  threexsmall: string;
+  twoxsmall: string;
+  xsmall: string;
+  small: string;
+  medium: string;
+  large: string;
+  xlarge: string;
+  twoxlarge: string;
+  threexlarge: string;
+};
+
+export type ZIndexNew = {
+  carouselControl: number;
+  dialog: number;
+  toggle: number;
+};
+
+export type BoxShadowNew = {
+  small: string;
+  medium: string;
+  large: string;
+  xlarge: string;
+};
+
+export type Font = {
+  face: undefined; // Not sure if correct
+  family: string;
+  size: string;
+  weight: {
+    normal: number;
+    semibold: number;
+  };
+  lineHeight: string;
+};
+
+export type Button = {
+  primary: any;
+  secondary: any;
+  tertiary: any;
+};
+
+export type TextLink = {
+  fontWeight: number;
+  color: {
+    default: ColorValue;
+    hover: ColorValue;
+    visited: ColorValue;
+  };
+};
+
+export type Hover = {
+  primary: string;
+  secondary: string;
+};
+
+export type Size = {
+  twoxsmall: string;
+  xsmall: string;
+  small: string;
+  medium: string;
+  large: string;
+  xlarge: string;
+  twoxlarge: string;
+};
+
 export interface SharedTheme {
   base: Base;
   border: Border;
@@ -346,6 +455,28 @@ export interface SharedTheme {
     md: string;
     lg: string;
     xl: string;
+  };
+  newTokens: {
+    borderRadius: BorderRadius;
+    interactiveBorderRadius: InteractiveBorderRadius;
+    breakpoint: BreakpointNew;
+    borderWidth: string;
+    borderStyle: string;
+    border: string;
+    space: SpaceNew;
+    transitionDuration: string;
+    transitionTimingFunction: string;
+    transition: Transition;
+    zIndex: ZIndexNew;
+    boxShadow: BoxShadowNew;
+    font: Font;
+    opacity: number;
+    button: Button; // Not sure if correct
+    textLink: TextLink;
+    hover: Hover;
+    focus: string;
+    transform: string;
+    size: Size;
   };
 }
 
@@ -420,6 +551,108 @@ const sharedTokens: SharedTheme = {
     selectOptions: 10,
     dialog: 10000,
     toggle: 1,
+  },
+  newTokens: {
+    borderRadius: {
+      none: 0,
+      twoxsmall: rem(2),
+      xsmall: rem(4),
+      small: rem(6),
+      medium: rem(8),
+      large: rem(12),
+      xlarge: rem(16),
+      twoxlarge: rem(24),
+      full: rem(9999),
+    },
+    interactiveBorderRadius: rem(9999),
+    breakpoint: {
+      small: rem(640),
+      medium: rem(768),
+      large: rem(1024),
+      xlarge: rem(1280),
+      twoxlarge: rem(1536),
+    },
+    borderWidth: rem(borderWidth), // Not sure if needed
+    borderStyle, // Not sure if needed
+    border: `${rem(borderWidth)} ${borderStyle}`,
+    space: {
+      threexsmall: rem(2),
+      twoxsmall: rem(4),
+      xsmall: rem(8),
+      small: rem(16),
+      medium: rem(24),
+      large: rem(32),
+      xlarge: rem(40),
+      twoxlarge: rem(48),
+      threexlarge: rem(56),
+    },
+    transitionDuration: `${transitionDuration}s`, // Not sure if needed
+    transitionTimingFunction, // Not sure if needed
+    transition: {
+      slow: `${transitionDuration * 2}s ${transitionTimingFunction}`,
+      default: `${transitionDuration}s ${transitionTimingFunction}`,
+    },
+    zIndex: {
+      carouselControl: 5,
+      dialog: 10000,
+      toggle: 1,
+    },
+    boxShadow: {
+      small: `0 ${rem(6)} ${rem(6)} ${rem(-6)} rgba(0, 0, 0, 0.16), 0 0 ${rem(
+        1
+      )} rgba(0, 0, 0, 0.4)`,
+      medium: `0 ${rem(12)} ${rem(12)} ${rem(
+        -6
+      )} rgba(0, 0, 0, 0.16), 0 0 ${rem(1)} rgba(0, 0, 0, 0.4)`,
+      large: `0 ${rem(8)} ${rem(24)} ${rem(-6)} rgba(0, 0, 0, 0.16), 0 0 ${rem(
+        1
+      )} rgba(0, 0, 0, 0.4)`,
+      xlarge: `0 ${rem(32)} ${rem(32)} ${rem(
+        -8
+      )} rgba(0, 0, 0, 0.08), 0 0 ${rem(32)} ${rem(
+        -8
+      )} rgba(0, 0, 0, 0.12), 0 0 ${rem(1)} rgba(0, 0, 0, 0.2)`,
+    },
+    font: {
+      face: undefined, // Not sure if correct
+      family:
+        'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif', // Not sure if correct
+      size: rem(baseFontSize),
+      weight: {
+        normal: fontWeightNormal,
+        semibold: fontWeightSemibold,
+      },
+      lineHeight: rem(baseLineHeight),
+    },
+    opacity: 0.32,
+    button: {
+      primary: buttonVariantTokens.fill,
+      secondary: buttonVariantTokens.stroke,
+      tertiary: buttonVariantTokens.fillSecondary,
+    },
+    textLink: {
+      fontWeight: fontWeightSemibold,
+      color: {
+        default: mainColors.piccolo,
+        hover: mainColors.hit,
+        visited: mainColors.hit,
+      },
+    },
+    hover: {
+      primary: `${mainColors.bulma}12`,
+      secondary: `${mainColors.piccolo}12`,
+    },
+    focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
+    transform: 'scale(0.9)',
+    size: {
+      twoxsmall: rem(16),
+      xsmall: rem(24),
+      small: rem(32),
+      medium: rem(40),
+      large: rem(48),
+      xlarge: rem(56),
+      twoxlarge: rem(64),
+    },
   },
 };
 

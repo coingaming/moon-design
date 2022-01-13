@@ -1240,6 +1240,8 @@ export { default as LogoSportsbetCanada } from './logos/LogoSportsbetCanada';
 export * from './logos/LogoSportsbetCanada';
 export { default as LogoSportsbetFull } from './logos/LogoSportsbetFull';
 export * from './logos/LogoSportsbetFull';
+export { default as LogoSportsbetMx } from './logos/LogoSportsbetMx';
+export * from './logos/LogoSportsbetMx';
 export { default as LogoSportsbetShort } from './logos/LogoSportsbetShort';
 export * from './logos/LogoSportsbetShort';
 export { default as LogoSportsbetSponsor } from './logos/LogoSportsbetSponsor';

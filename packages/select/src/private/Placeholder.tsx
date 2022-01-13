@@ -1,18 +1,22 @@
-// @ts-nocheck
 import React from 'react';
 import { components, PlaceholderProps } from 'react-select';
 import styled from 'styled-components';
+import type { SelectProps } from '../styles/CustomStyles';
 
 const PlaceholderContainer = styled.div({
   overflow: 'hidden',
   textOverflow: 'ellipsis',
   whiteSpace: 'nowrap',
 });
-const Placeholder = ({ ...rest }: PlaceholderProps) => {
+
+// any - https://github.com/JedWatson/react-select/issues/4804
+const Placeholder = ({ ...rest }: PlaceholderProps<any>) => {
+  const selectProps = rest.selectProps as SelectProps;
+  const customProps = selectProps['data-customProps'];
   return (
     <components.Placeholder {...rest}>
       <PlaceholderContainer>
-        {rest.selectProps['data-customProps']?.placeholderSlot}
+        {customProps?.placeholderSlot}
       </PlaceholderContainer>
     </components.Placeholder>
   );

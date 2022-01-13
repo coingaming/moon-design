@@ -12,7 +12,7 @@ module.exports = {
     allowImportExportEverywhere: true,
   },
   parser: '@typescript-eslint/parser',
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', 'import', '@typescript-eslint'],
   rules: {
     //
     // @TODO Implementation
@@ -26,6 +26,29 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': 'off',
     'no-undef': 'off',
     'no-unused-vars': 'off',
+    'import/order': [
+      'warn',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling']],
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'external',
+            position: 'before',
+          },
+          {
+            pattern: '~/**',
+            group: 'internal',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react'],
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
     // Prevents a bug https://stackoverflow.com/questions/63818415/react-was-used-before-it-was-defined/64024916#64024916
   },
   overrides: [
