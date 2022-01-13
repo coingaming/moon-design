@@ -107,7 +107,7 @@ const CardBack: React.FC<CardBackProps> = ({
   supportingTextItems,
 }) => {
   return (
-    <div className="vision-card-back text-white h-fit rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 py-20 2xl:block absolute 2xl:static">
+    <div className="vision-card-back text-white h-fit rounded-2xl mb-10 2xl:mb-36 ml-4 md:mr-10 2xl:ml-44 2xl:w-7/12 py-20 2xl:block absolute 2xl:static">
       <h3 className="text-5xl mx-4">{heading}</h3>
       <p className="mt-6 mb-9 mx-4">{subHeading}</p>
       <div className="mx-4 opacity-50">
