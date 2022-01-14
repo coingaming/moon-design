@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -39,6 +40,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#272D36',
+  hit: '#F3F5F6',
+  beerus: '#E2E6E9',
+  goku: '#F3F5F6',
+  gohan: '#FFFFFF',
+  bulma: '#272D36',
+  trunks: '#8697A2',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const commsLight: Theme = {
   ...sharedTokens,
   brand: 'Comms',
@@ -54,6 +67,10 @@ const commsLight: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   radius: {
     small: 8,

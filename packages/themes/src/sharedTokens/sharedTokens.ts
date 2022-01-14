@@ -1,6 +1,8 @@
 import mainColors from '../v2/colors/mainColors';
 import buttonVariantTokens from './buttonVariantTokens';
 import type { ColorShared, ColorValue } from '../supportColors/supportColors';
+import type { MainColors } from '../v2/colors/mainColors';
+import type { SupportiveColors } from '../v2/colors/supportiveColors';
 
 /**
  * Shared Theme Base
@@ -153,6 +155,8 @@ export type ColorPalette = {
 };
 
 export type Color = ColorBase & ColorThemed & ColorShared;
+
+export type ColorNew = MainColors & SupportiveColors;
 
 export type ColorNames =
   | 'piccolo.120'
@@ -484,6 +488,7 @@ export type Theme = SharedTheme & {
   brand: Brand;
   colorScheme: ColorScheme;
   color: Color;
+  colorNew: ColorNew;
 };
 
 const sharedTokens: SharedTheme = {

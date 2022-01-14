@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -42,6 +43,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#de0d3e',
+  hit: '#67697e',
+  beerus: '#323548',
+  goku: '#00070f',
+  gohan: '#191d33',
+  bulma: '#ffffff',
+  trunks: '#8697a2',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const livecasinoDark: Theme = {
   ...sharedTokens,
   brand: 'Livecasino.io',
@@ -62,6 +75,10 @@ const livecasinoDark: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };

@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
@@ -39,6 +40,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#CDAE7E',
+  hit: '#3B3530',
+  beerus: '#443F3C',
+  goku: '#0B0D0E',
+  gohan: '#2D2925',
+  bulma: '#FFFFFF',
+  trunks: '#9A8565',
+  goten: '#090E15',
+  popo: '#000000',
+};
+
 const bombayClub: Theme = {
   ...sharedTokens,
   radius: {
@@ -57,6 +70,10 @@ const bombayClub: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };
