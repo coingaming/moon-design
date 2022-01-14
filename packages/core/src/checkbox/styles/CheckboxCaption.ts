@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorValue, Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type InputColors = {
   label: ColorValue;
@@ -14,10 +14,10 @@ type InputColors = {
   [key: string]: ColorValue;
 };
 
-const checkboxSize = (theme: Theme) => theme.space.default;
-const checkboxGap = (theme: Theme) => theme.space.xsmall * 2;
+const checkboxSize = (theme: Theme) => theme.newTokens.size.twoxsmall;
+const checkboxGap = (theme: Theme) => theme.newTokens.space.twoxsmall * 2;
 const captionMargin = (theme: Theme) =>
-  rem(checkboxSize(theme) + checkboxGap(theme));
+  checkboxSize(theme) + checkboxGap(theme);
 const inputColors =
   (key: keyof InputColors) =>
   ({ color }: Theme) => {
@@ -43,8 +43,8 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
   color: inputColors('label')(theme),
   '&::before, &::after': {
     content: '""',
-    width: rem(checkboxSize(theme)),
-    height: rem(checkboxSize(theme)),
+    width: checkboxSize(theme),
+    height: checkboxSize(theme),
     position: 'absolute',
     ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     top: '50%',

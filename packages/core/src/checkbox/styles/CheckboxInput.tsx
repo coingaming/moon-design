@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { uniqueId, inlineSvg, rem } from '@heathmont/moon-utils';
-import hideVisually from 'polished/lib/mixins/hideVisually';
-import { CheckboxIcon } from '../private/icon';
 import React from 'react';
+import { inlineSvg, rem } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
+import { CheckboxIcon } from '../private/icon';
 
 /**
  * Checkbox Input

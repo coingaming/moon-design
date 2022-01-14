@@ -1,19 +1,19 @@
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 interface CheckboxLabelProps {
   variant?: Variants;
 }
 
-const checkboxSize = (theme: Theme) => theme.space.default;
+const checkboxSize = (theme: Theme) => theme.newTokens.size.twoxsmall;
 
 const CheckboxLabel = styled.label<CheckboxLabelProps>(
   ({ theme }) => ({
     display: 'inline-block',
     position: 'relative',
     alignItems: 'center',
-    minHeight: rem(checkboxSize(theme)) /* [1] */,
+    minHeight: checkboxSize(theme) /* [1] */,
   }),
   ({ variant, theme }) => {
     if (variant === 'option') {

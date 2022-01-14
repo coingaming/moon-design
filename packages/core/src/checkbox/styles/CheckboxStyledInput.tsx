@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import { CheckboxIcon } from '../private/icon';
 
 const BORDER_WIDTH = 2;
@@ -9,8 +9,8 @@ const CheckboxStyledInput = styled.figure(({ theme }) => ({
   position: 'relative',
   display: 'inline-block',
   boxSizing: 'border-box',
-  width: rem(theme.space.default),
-  height: rem(theme.space.default),
+  width: theme.newTokens.size.twoxsmall,
+  height: theme.newTokens.size.twoxsmall,
   border: `${rem(BORDER_WIDTH)} solid ${theme.color.trunks[100]}`,
   borderRadius: rem(2),
   transitionDuration: `${theme.transitionDuration.default}s`,
@@ -18,15 +18,15 @@ const CheckboxStyledInput = styled.figure(({ theme }) => ({
   '&::before, &::after': {
     content: '""',
     position: 'absolute',
-    width: rem(theme.space.default),
-    height: rem(theme.space.default),
+    width: theme.newTokens.size.twoxsmall,
+    height: theme.newTokens.size.twoxsmall,
     top: rem(-BORDER_WIDTH),
     left: rem(-BORDER_WIDTH),
     transitionTimingFunction: 'ease',
   },
   /* Show the Pseudo Checkbox Circle */
   '&::before': {
-    transitionDuration: `${theme.transitionDuration.default}s`,
+    transitionDuration: `${theme.newTokens.transition.default}`,
     borderRadius: '50%',
   },
   /* Add the "check" to the Pseudo Checkbox */

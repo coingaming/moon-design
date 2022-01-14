@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 
-import CheckboxLabel from './styles/CheckboxLabel';
 import CheckboxCaption from './styles/CheckboxCaption';
 import CheckboxInput from './styles/CheckboxInput';
+import CheckboxLabel from './styles/CheckboxLabel';
 
 export interface CheckboxProps {
   disabled?: boolean;
