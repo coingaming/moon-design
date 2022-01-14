@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import format from 'date-fns/format';
 import { rem } from '@heathmont/moon-utils';
+import format from 'date-fns/format';
+import styled from 'styled-components';
 
 type DayStyledProps = {
   isStartEdge?: boolean;
@@ -27,12 +27,12 @@ const DayStyled = styled.div<DayStyledProps>(
       border: '1px solid transparent', // to prevent jumping on hover
       '&:hover': {
         border: `1px solid ${theme.color.trunks[100]}`,
-        borderRadius: rem(8),
+        borderRadius: theme.newTokens.borderRadius.medium,
       },
     },
     isStartEdge && {
       background: theme.color.piccolo[100],
-      borderRadius: rem(8),
+      borderRadius: theme.newTokens.borderRadius.medium,
       color: theme.color.goten[100],
     },
     isToday && {

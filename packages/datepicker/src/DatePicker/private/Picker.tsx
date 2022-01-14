@@ -1,22 +1,30 @@
 import React from 'react';
-import styled from 'styled-components';
-import { mq, rem } from '@heathmont/moon-utils';
-
 import {
   ControlsChevronLeft,
   ControlsChevronRight,
 } from '@heathmont/moon-icons';
+import { mq, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
+
 
 import { Month } from './Month';
 
 const PickerContainer = styled.div(
-  ({ theme: { color, space, radius, breakpoint, zIndex, shadows } }) => ({
+  ({
+    theme: {
+      color,
+      breakpoint,
+      zIndex,
+      shadows,
+      newTokens: { borderRadius },
+    },
+  }) => ({
     width: 'fit-content',
     position: 'absolute',
     zIndex: zIndex.dialog,
     alignItems: 'center',
     [mq(breakpoint.medium)]: {},
-    borderRadius: rem(12),
+    borderRadius: borderRadius.large,
     padding: `${rem(16)} ${rem(12)}`,
     backgroundColor: color.gohan[100],
     boxShadow: shadows.lg,
