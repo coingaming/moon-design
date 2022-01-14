@@ -1,7 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-import { enGB } from 'date-fns/locale';
 import { Button } from '@heathmont/moon-components';
+import { enGB } from 'date-fns/locale';
+import styled from 'styled-components';
+import useClickOutside from '../private/hooks/useClickOutside';
 import Calendar from './Calendar';
 
 import getPlaceholder from './private/helpers/getPlacegolder';
@@ -36,6 +37,7 @@ export type DatePickerProps = {
 
 const Wrapper = styled.div({
   position: 'relative',
+  display: 'inline-block',
 });
 
 const DatePicker: React.FC<DatePickerProps> = ({
@@ -53,23 +55,26 @@ const DatePicker: React.FC<DatePickerProps> = ({
       translations,
     })
   );
+  const [ref, hasClickedOutside] = useClickOutside();
   return (
-    <Wrapper>
-      <Button variant="tertiary" onClick={() => setIsOpen(true)}>
-        {placeholder}
-      </Button>
-      {isOpen && (
-        <Calendar
-          date={date}
-          config={config}
-          onDateChange={onDateChange}
-          translations={translations}
-          // hasClickedOutside={hasClickedOutside}
-          setIsOpen={setIsOpen}
-          setPlaceholder={setPlaceholder}
-        />
-      )}
-    </Wrapper>
+    <div>
+      <Wrapper ref={ref}>
+        <Button variant="tertiary" onClick={() => setIsOpen(true)}>
+          {placeholder}
+        </Button>
+        {isOpen && (
+          <Calendar
+            date={date}
+            config={config}
+            onDateChange={onDateChange}
+            translations={translations}
+            hasClickedOutside={hasClickedOutside}
+            setIsOpen={setIsOpen}
+            setPlaceholder={setPlaceholder}
+          />
+        )}
+      </Wrapper>
+    </div>
   );
 };
 
