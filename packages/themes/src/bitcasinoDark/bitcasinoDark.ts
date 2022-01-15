@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -34,6 +35,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#FF4F0F',
+  hit: '#642E94',
+  beerus: '#521B81',
+  goku: '#24033F',
+  gohan: '#3E0D68',
+  bulma: '#FFFFFF',
+  trunks: '#A18EB4',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const bitcasinoDark: Theme = {
   ...sharedTokens,
   brand: 'Bitcasino.io',
@@ -62,6 +75,10 @@ const bitcasinoDark: Theme = {
       100: '#FFFFFF',
     },
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };

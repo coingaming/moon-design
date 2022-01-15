@@ -20,7 +20,7 @@ export interface SupportiveColors {
   nappa: SupportiveColorValues;
 }
 
-const supportiveColors_v2: SupportiveColors = {
+const supportiveColors: SupportiveColors = {
   krillin: {
     100: '#FFB319',
     60: '#FFC652',
@@ -68,4 +68,4 @@ const supportiveColors_v2: SupportiveColors = {
   },
 };
 
-export default supportiveColors_v2;
+export default supportiveColors;

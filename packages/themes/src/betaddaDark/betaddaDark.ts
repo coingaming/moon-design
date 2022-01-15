@@ -2,6 +2,7 @@ import avertaStd from '../sharedTokens/avertaStd';
 
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -47,6 +48,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#FF9933',
+  hit: '#1CA30F',
+  beerus: '#40464F',
+  goku: '#272E37',
+  gohan: '#1A212A',
+  bulma: '#FFFFFF',
+  trunks: '#97A2AE',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const betaddaDark: Theme = {
   ...sharedTokens,
   brand: 'Betadda',
@@ -62,6 +75,10 @@ const betaddaDark: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };
