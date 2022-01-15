@@ -110,6 +110,12 @@ const navigation = [
       { name: 'Tooltip', href: '/components/tooltip' },
     ],
   },
+  {
+    name: 'Tailwind',
+    children: [
+      { name: 'Sidebar', href: '/tailwind/sidebar' },
+    ],
+  },
 ];
 
 export default navigation;
