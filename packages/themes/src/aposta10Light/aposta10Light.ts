@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
@@ -39,6 +40,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#39A275',
+  hit: '#FFFFFF',
+  beerus: '#DADFE2',
+  goku: '#F4F5F6',
+  gohan: '#FFFFFF',
+  bulma: '#010913',
+  trunks: '#8697A2',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const hub88: Theme = {
   ...sharedTokens,
   brand: 'Aposta10',
@@ -52,6 +65,10 @@ const hub88: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'light',
 };

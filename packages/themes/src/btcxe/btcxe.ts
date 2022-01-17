@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -42,6 +43,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#339AFF',
+  hit: '#6613C6',
+  beerus: '#C5D2D8',
+  goku: '#FFFFFF',
+  gohan: '#F3F5F6',
+  bulma: '#000000',
+  trunks: '#7A7A81',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const btcxe: Theme = {
   ...sharedTokens,
   brand: 'BTCXE',
@@ -57,6 +70,10 @@ const btcxe: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'light',
 };

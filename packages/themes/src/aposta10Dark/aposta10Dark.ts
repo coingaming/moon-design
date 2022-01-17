@@ -1,6 +1,7 @@
-import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import avertaStd from '../sharedTokens/avertaStd';
+import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
@@ -39,6 +40,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#39A275',
+  hit: '#636B79',
+  beerus: '#4E535A',
+  goku: '#070A0D',
+  gohan: '#272C35',
+  bulma: '#FFFFFF',
+  trunks: '#C8D0D5',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const aposta10Dark: Theme = {
   ...sharedTokens,
   brand: 'Aposta10',
@@ -52,6 +65,10 @@ const aposta10Dark: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };
