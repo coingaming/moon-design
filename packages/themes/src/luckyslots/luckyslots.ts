@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 /*
   This theme is a legacy and would be removed soon
@@ -44,6 +45,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#FA003E',
+  hit: '#5456E2',
+  beerus: '#353B50',
+  goku: '#3133C4',
+  gohan: '#2A0D68',
+  bulma: '#FFFFFF',
+  trunks: '#DBE2F5',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const luckyslots: Theme = {
   ...sharedTokens,
   brand: 'LuckySlots',
@@ -58,6 +71,10 @@ const luckyslots: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };

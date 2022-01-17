@@ -44,3 +44,70 @@ body {
   height: 12px;
   cursor: pointer;
 }
+
+.vision-scene {
+  perspective: 600px;
+}
+
+.vision-page {
+  background-image: url('../public/vision_moon.png');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: right top;
+  background-size: 60%;
+  background-position: 150% -1%;
+}
+
+.vision-card {
+  height: 910px;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.vision-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.vision-card-front {
+  background: #141414;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.vision-card-back {
+  background: transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.vision-card-front-inner-card {
+  background: #272727;
+}
+
+@media (min-width: 768px) {
+  .vision-page {
+    background-size: 40%;
+    background-position: 120% -1%;
+  }
+
+  .vision-card {
+    height: 850px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .vision-card {
+    height: fit-content;
+  }
+
+  .vision-page {
+    background-size: 40%;
+    background-position: 90% -1%;
+  }
+
+  .vision-card-back {
+    transform: rotateY(360deg);
+  }
+}
