@@ -1,9 +1,8 @@
 import { useTheme } from '@heathmont/moon-themes';
-import { rem } from '@heathmont/moon-utils';
 import type { ButtonProps } from '../../Button';
 
 const buttonVariants = ({ variant }: ButtonProps) => {
-  const { newTokens, color } = useTheme();
+  const { newTokens, colorNew } = useTheme();
   if (variant === 'primary') {
     return newTokens.button.primary;
   }
@@ -16,9 +15,9 @@ const buttonVariants = ({ variant }: ButtonProps) => {
   if (variant === 'ghost') {
     return {
       background: 'none',
-      color: color.trunks[100],
+      color: colorNew.trunks,
       '&:hover': {
-        color: color.bulma[100],
+        color: colorNew.bulma,
       },
     };
   }

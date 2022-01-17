@@ -1,5 +1,6 @@
-import { Theme } from '../sharedTokens/sharedTokens';
 import betaddaDark from '../betaddaDark/betaddaDark';
+import { Theme } from '../sharedTokens/sharedTokens';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const lightColors = {
   piccolo: {
@@ -42,6 +43,18 @@ const lightColors = {
   },
 };
 
+const colorNew = {
+  piccolo: '#FF9933',
+  hit: '#1CA30F',
+  beerus: '#40464F',
+  goku: '#272E37',
+  gohan: '#1A212A',
+  bulma: '#FFFFFF',
+  trunks: '#97A2AE',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const betaddaLight: Theme = {
   ...betaddaDark,
   color: {
@@ -49,6 +62,10 @@ const betaddaLight: Theme = {
     text: lightColors.bulma[100],
     background: lightColors.goku[100],
     ...lightColors,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'light',
 };

@@ -1,6 +1,8 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import mainColors from '../v2/colors/mainColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
   '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)';
@@ -57,6 +59,10 @@ const moonDesignLight: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...mainColors,
+    ...supportiveColors,
   },
   colorScheme: 'light',
 };

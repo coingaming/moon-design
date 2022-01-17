@@ -1,5 +1,6 @@
-import { Theme } from '../sharedTokens/sharedTokens';
 import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
+import { Theme } from '../sharedTokens/sharedTokens';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   hit: {
@@ -30,6 +31,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#FF4F0F',
+  hit: '#E3EAED',
+  beerus: '#EAEEF0',
+  goku: '#F3F5F6',
+  gohan: '#FFFFFF',
+  bulma: '#0F161F',
+  trunks: '#8697A2',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const { color: bitcasinoDarkColors } = bitcasinoDark;
 
 const bitcasinoLight: Theme = {
@@ -39,6 +52,10 @@ const bitcasinoLight: Theme = {
     text: color.bulma[100],
     background: color.goku[100],
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'light',
 };
