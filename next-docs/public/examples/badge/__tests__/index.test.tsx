@@ -15,7 +15,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
-describe('Checkbox', () => {
+describe('Badge', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Example />));
     expect(testRenderer.toJSON()).toMatchSnapshot();

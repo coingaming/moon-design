@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checkbox renders 1`] = `
+exports[`Badge renders 1`] = `
 <span
   className="Badge-gd8hvq-0 bWltRO"
   size="xsmall"
@@ -9,7 +9,7 @@ exports[`Checkbox renders 1`] = `
 </span>
 `;
 
-exports[`Checkbox renders with custom background color 1`] = `
+exports[`Badge renders with custom background color 1`] = `
 <span
   className="Badge-gd8hvq-0 gTTpXK"
   size="xsmall"
@@ -18,7 +18,7 @@ exports[`Checkbox renders with custom background color 1`] = `
 </span>
 `;
 
-exports[`Checkbox renders with icons 1`] = `
+exports[`Badge renders with icons 1`] = `
 <div
   className="flex justify-around w-full"
 >
@@ -37,7 +37,7 @@ exports[`Checkbox renders with icons 1`] = `
 </div>
 `;
 
-exports[`Checkbox renders with small size 1`] = `
+exports[`Badge renders with small size 1`] = `
 <span
   className="Badge-gd8hvq-0 kdepPl"
   size="small"
