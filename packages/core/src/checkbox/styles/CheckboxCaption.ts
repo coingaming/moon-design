@@ -16,15 +16,15 @@ type InputColors = {
 
 const inputColors =
   (key: keyof InputColors) =>
-  ({ color }: Theme) => {
+  ({ color, colorNew }: Theme) => {
     const themedColor: InputColors = {
-      label: color.trunks[100],
-      text: color.bulma[100],
-      icon: color.trunks[100],
-      placeholder: color.trunks[100],
-      borderDefault: color.beerus[100],
+      label: colorNew.trunks,
+      text: colorNew.bulma,
+      icon: colorNew.trunks,
+      placeholder: colorNew.trunks,
+      borderDefault: colorNew.beerus,
       borderHover: color.goku[40],
-      background: color.gohan[100],
+      background: colorNew.gohan,
       disabled: color.goku[80],
     };
 
@@ -61,7 +61,7 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: `${rem(2)} solid ${theme.color.trunks[100]}`,
+    border: `${rem(2)} solid ${theme.colorNew.trunks}`,
     borderRadius: rem(2),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',

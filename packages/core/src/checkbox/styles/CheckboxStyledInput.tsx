@@ -11,7 +11,7 @@ const CheckboxStyledInput = styled.figure(({ theme }) => ({
   boxSizing: 'border-box',
   width: theme.newTokens.size.twoxsmall,
   height: theme.newTokens.size.twoxsmall,
-  border: `${rem(BORDER_WIDTH)} solid ${theme.color.trunks[100]}`,
+  border: `${rem(BORDER_WIDTH)} solid ${theme.colorNew.trunks}`,
   borderRadius: rem(2),
   transitionDuration: `${theme.transitionDuration.default}s`,
   /* Common styles for the Pseudo Checkbox Circle and "check" */
@@ -32,7 +32,7 @@ const CheckboxStyledInput = styled.figure(({ theme }) => ({
   /* Add the "check" to the Pseudo Checkbox */
   '&::after': {
     display: 'inline-block',
-    backgroundImage: inlineSvg(<CheckboxIcon color={theme.color.goten[100]} />),
+    backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     borderRadius: rem(2),

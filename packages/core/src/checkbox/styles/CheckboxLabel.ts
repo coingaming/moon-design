@@ -20,7 +20,7 @@ const CheckboxLabel = styled.label<CheckboxLabelProps>(
       return {
         padding: rem(20),
         '&:hover': {
-          backgroundColor: theme.color.gohan[100],
+          backgroundColor: theme.colorNew.gohan,
         },
       };
     }
