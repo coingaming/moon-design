@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders 1`] = `
+<div
+  className="Container-ggjigj-0 HUBew"
+>
+  <span
+    className="Caption-sc-1vu67rv-0 dKbVAs"
+    color="#000000"
+  >
+    Age
+  </span>
+</div>
+`;
