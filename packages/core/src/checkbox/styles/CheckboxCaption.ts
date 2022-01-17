@@ -15,9 +15,9 @@ type InputColors = {
 };
 
 const checkboxSize = (theme: Theme) => theme.newTokens.size.twoxsmall;
-const checkboxGap = (theme: Theme) => theme.newTokens.space.twoxsmall * 2;
+const checkboxGap = (theme: Theme) => theme.newTokens.size.small;
 const captionMargin = (theme: Theme) =>
-  checkboxSize(theme) + checkboxGap(theme);
+  parseInt(checkboxSize(theme)) + parseInt(checkboxGap(theme)) + 'rem';
 const inputColors =
   (key: keyof InputColors) =>
   ({ color }: Theme) => {
