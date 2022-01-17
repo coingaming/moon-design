@@ -12,7 +12,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
-describe('Checkbox', () => {
+describe('AgeLimit', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Example />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
