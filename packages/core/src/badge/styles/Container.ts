@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 export type Props = {
   color?: ColorProps;
@@ -26,7 +26,7 @@ const Container = styled.span<Props>(
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({
-    color: color ? themed('color', color)(theme) : theme.color.goten[100],
+    color: color ? themed('color', color)(theme) : theme.colorNew.goten,
     backgroundColor: themed('color', backgroundColor)(theme),
   })
 );

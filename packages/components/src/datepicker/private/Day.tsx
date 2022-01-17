@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import format from 'date-fns/format';
 import { rem } from '@heathmont/moon-utils';
+import format from 'date-fns/format';
+import styled from 'styled-components';
 
 type DayStyledProps = {
   isInRange?: boolean;
@@ -36,7 +36,7 @@ const DayStyled = styled.div<DayStyledProps>(
     (isStartEdge || isEndEdge) && {
       background: theme.color.piccolo[100],
       borderRadius: rem(theme.radius.largest),
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
     },
     isToday && {
       fontWeight: 'bold',

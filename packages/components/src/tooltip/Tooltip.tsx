@@ -1,10 +1,8 @@
 import React from 'react';
-import styled, { css, CSSObject } from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled, { css, CSSObject } from 'styled-components';
 import IconClose from '../private/icons/IconClose';
 import Toggle from '../toggle/Toggle';
-
 import { slideUpFade } from './animation';
 
 /**
@@ -43,7 +41,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
     active,
     align = 'left',
     error,
-    theme: { border, boxShadow, color, radius, space, zIndex },
+    theme: { border, boxShadow, color, colorNew, radius, space, zIndex },
   }) => [
     {
       [tooltipSpace]: rem(space.small),
@@ -58,7 +56,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
       backgroundColor: !error ? color.goku[100] : color.chiChi[100],
       borderColor: color.beerus[100],
       borderRadius: rem(radius.small),
-      color: !error ? color.bulma[100] : color.goten[100],
+      color: !error ? color.bulma[100] : colorNew.goten,
       willChange: 'transform',
       [`${IconClose}`]: {
         color: color.trunks[100],

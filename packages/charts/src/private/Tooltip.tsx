@@ -1,11 +1,11 @@
+import React from 'react';
 import { Text } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
-import React from 'react';
 import styled from 'styled-components';
 
 export const TooltipWrapper = styled.div(({ theme }) => ({
   display: 'inline-block',
-  color: theme.color.goten[100],
+  color: theme.colorNew.goten,
   background: theme.color.gohan[100],
   fontSize: rem(12),
   lineHeight: rem(16),

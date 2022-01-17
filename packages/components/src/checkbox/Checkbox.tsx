@@ -1,12 +1,10 @@
 import React, { forwardRef } from 'react';
-import styled from 'styled-components';
-import hideVisually from 'polished/lib/mixins/hideVisually';
-import { uniqueId, inlineSvg, rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
-
-import { LabelText } from '../private/label/label';
+import { uniqueId, inlineSvg, rem } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 import { inputColors, inputBorderWidth } from '../private/input/settings';
-
+import { LabelText } from '../private/label/label';
 import { CheckboxIcon } from './private/icon';
 
 const checkboxSize = (theme: Theme) => theme.space.default;
@@ -81,9 +79,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
   '& + span': {
     cursor: 'pointer',
     '&::after': {
-      backgroundImage: inlineSvg(
-        <CheckboxIcon color={theme.color.goten[100]} />
-      ),
+      backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,

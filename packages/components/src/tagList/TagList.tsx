@@ -1,7 +1,6 @@
-import { rem } from '@heathmont/moon-utils';
 import { IconCopy } from '@heathmont/moon-assets';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import Bubble from '../bubble/Bubble';
 import { Tag } from '../tagInput/TagInput';
 
@@ -52,7 +51,7 @@ export const ShowMore = styled.button(({ theme }) => ({
   transition: `color ${theme.transitionDuration.default}s ease, background-color ${theme.transitionDuration.default}s ease`,
   marginBottom: rem(4),
   '&:hover, &:focus': {
-    color: theme.color.goten[100],
+    color: theme.colorNew.goten,
     backgroundColor: theme.color.piccolo[100],
   },
 }));
@@ -60,7 +59,7 @@ export const ShowMore = styled.button(({ theme }) => ({
 export const Dropdown = styled.div(({ theme }) => ({
   display: 'flex',
   flexWrap: 'wrap',
-  background: theme.color.goten[100],
+  background: theme.colorNew.goten,
   borderRadius: rem(theme.radius.default),
   boxShadow: theme.boxShadow,
   position: 'absolute',

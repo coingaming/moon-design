@@ -1,16 +1,14 @@
 import React, { forwardRef } from 'react';
-import styled from 'styled-components';
-import { disabled, rem } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
-
+import { disabled, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import Loader from '../loader/Loader';
 import IconSuccess from '../private/icons/IconSuccess';
-
-import { buttonVariant, ButtonVariants } from './variants';
-import { buttonSize, ButtonSizes } from './size';
-import { buttonMockStateClass, buttonHover, buttonActive } from './states';
 import { oopsAnimation } from './oopsAnimation';
 import { pulseAnimation } from './pulseAnimation';
+import { buttonSize, ButtonSizes } from './size';
+import { buttonMockStateClass, buttonHover, buttonActive } from './states';
+import { buttonVariant, ButtonVariants } from './variants';
 
 import type { ButtonMockState } from './states';
 
@@ -69,14 +67,14 @@ const StyledButton = styled.button.withConfig({
   ({ fullWidth }) => fullWidth && { position: 'relative' },
   ({ variant, theme }) => variant && buttonVariant(variant)(theme),
   ({ size, variant }) => size && buttonSize(size)(variant),
-  ({ oops, theme: { color } }) =>
+  ({ oops, theme: { color, colorNew } }) =>
     oops && [
       oopsAnimation,
       {
         transform: 'translate3d(0, 0, 0)',
         backfaceVisibility: 'hidden',
         perspective: rem(1000),
-        color: color.goten[100],
+        color: colorNew.goten,
         backgroundColor: color.chiChi[100],
         ...buttonHover({
           backgroundColor: color.chiChi[100],
@@ -239,7 +237,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
     fullWidth,
     ...buttonProps
   } = props;
-  const { color, space } = useTheme();
+  const { colorNew, space } = useTheme();
 
   let content = children;
 
@@ -255,7 +253,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
             height: rem(space.default),
           }}
         >
-          <Loader color={color.goten[100]} />
+          <Loader color={colorNew.goten} />
         </div>
       </div>
     );

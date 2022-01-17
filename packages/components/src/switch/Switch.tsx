@@ -1,12 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-
+import styled from 'styled-components';
+import Caption from '../caption/Caption';
+import Inline from '../inline/Inline';
 import IconMoon from '../private/icons/IconMoon';
 import IconSun from '../private/icons/IconSun';
-import Inline from '../inline/Inline';
-import Caption from '../caption/Caption';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
@@ -98,14 +97,14 @@ const Label = styled.label<{ size: Size }>(({ theme: { space }, size }) => ({
 })) as React.FC<{}>;
 
 const Input = styled.input<SliderColorScheme>(
-  ({ colorScheme, theme: { color }, size }) => ({
+  ({ colorScheme, theme: { color, colorNew }, size }) => ({
     ...hideVisually(),
     [`&:checked + ${Slider}`]: {
       backgroundColor: colorScheme ? undefined : color.piccolo[100],
       '&::before': {
         // left: rem(-2),
-        backgroundColor: colorScheme ? undefined : color.goten[100],
-        transform: `translateX(calc(${switchWidth} / ${ size ? 2.5 : 2}))`,
+        backgroundColor: colorScheme ? undefined : colorNew.goten,
+        transform: `translateX(calc(${switchWidth} / ${size ? 2.5 : 2}))`,
       },
     },
   })

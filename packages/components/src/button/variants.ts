@@ -1,5 +1,5 @@
-import { CSSObject } from 'styled-components';
 import { Theme } from '@heathmont/moon-themes';
+import { CSSObject } from 'styled-components';
 
 import { buttonActive, buttonHover } from './states';
 
@@ -21,10 +21,10 @@ type ButtonVariantStyles = {
  */
 const buttonVariant =
   (key: ButtonVariants) =>
-  ({ color }: Theme) => {
+  ({ color, colorNew }: Theme) => {
     const themedStyles: ButtonVariantStyles = {
       primary: {
-        color: color.goten[100],
+        color: colorNew.goten,
         backgroundColor: color.piccolo[100],
         ...buttonHover({
           backgroundColor: color.piccolo[80],
@@ -58,7 +58,7 @@ const buttonVariant =
         }),
       },
       highlight: {
-        color: color.goten[100],
+        color: colorNew.goten,
         backgroundColor: color.whis[100],
         ...buttonHover({
           opacity: 0.9,

@@ -1,7 +1,7 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
-import { rem } from '@heathmont/moon-utils';
 import { IconChevronRight } from '@heathmont/moon-assets';
 import { TextInput } from '@heathmont/moon-components';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type GoToPageProps = {
@@ -28,7 +28,7 @@ const CircleButton = styled.button(
   transition-duration: ${theme.transitionDuration.default}s;
   &:hover, &:focus {
     background-color: ${theme.color.piccolo[100]};
-    color: ${theme.color.goten[100]};
+    color: ${theme.colorNew.goten};
   }
 `
 );
