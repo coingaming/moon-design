@@ -332,6 +332,28 @@ declare module '@heathmont/moon-themes' {
     transitionDuration: TransitionDuration;
     transition: Transition;
     zIndex: ZIndex;
+    newTokens: {
+      borderRadius: BorderRadius;
+      interactiveBorderRadius: InteractiveBorderRadius;
+      breakpoint: BreakpointNew;
+      borderWidth: string;
+      borderStyle: string;
+      border: string;
+      space: SpaceNew;
+      transitionDuration: string;
+      transitionTimingFunction: string;
+      transition: Transition;
+      zIndex: ZIndexNew;
+      boxShadow: BoxShadowNew;
+      font: Font;
+      opacity: number;
+      button: Button; // Not sure if correct
+      textLink: TextLink;
+      hover: Hover;
+      focus: string;
+      transform: string;
+      size: Size;
+    };
   }
 
   export type Theme = SharedTheme & {
