@@ -14,10 +14,6 @@ type InputColors = {
   [key: string]: ColorValue;
 };
 
-const checkboxSize = (theme: Theme) => theme.newTokens.size.twoxsmall;
-const checkboxGap = (theme: Theme) => theme.newTokens.size.small;
-const captionMargin = (theme: Theme) =>
-  parseInt(checkboxSize(theme)) + parseInt(checkboxGap(theme)) + 'rem';
 const inputColors =
   (key: keyof InputColors) =>
   ({ color }: Theme) => {
@@ -38,13 +34,13 @@ const inputColors =
 const CheckboxCaption = styled.span(({ theme, dir }) => ({
   display: 'inline-block',
   ...(dir === 'rtl'
-    ? { marginRight: captionMargin(theme) }
-    : { marginLeft: captionMargin(theme) }),
+    ? { marginRight: theme.newTokens.space.medium }
+    : { marginLeft: theme.newTokens.space.medium }),
   color: inputColors('label')(theme),
   '&::before, &::after': {
     content: '""',
-    width: checkboxSize(theme),
-    height: checkboxSize(theme),
+    width: theme.newTokens.size.twoxsmall,
+    height: theme.newTokens.size.twoxsmall,
     position: 'absolute',
     ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     top: '50%',
