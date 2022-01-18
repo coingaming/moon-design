@@ -51,7 +51,7 @@ export const ShowMore = styled.button(({ theme }) => ({
   transition: `color ${theme.transitionDuration.default}s ease, background-color ${theme.transitionDuration.default}s ease`,
   marginBottom: rem(4),
   '&:hover, &:focus': {
-    color: theme.colorNew.goten,
+    color: theme.color.goten[100],
     backgroundColor: theme.color.piccolo[100],
   },
 }));
@@ -59,7 +59,7 @@ export const ShowMore = styled.button(({ theme }) => ({
 export const Dropdown = styled.div(({ theme }) => ({
   display: 'flex',
   flexWrap: 'wrap',
-  background: theme.colorNew.goten,
+  background: theme.color.goten[100],
   borderRadius: rem(theme.radius.default),
   boxShadow: theme.boxShadow,
   position: 'absolute',
