@@ -68,7 +68,7 @@ export const TableItem = styled.div({
 export const Count = styled.span(({ theme }) => ({
   fontSize: rem(12),
   lineHeight: rem(20),
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 export const Value = styled.div({

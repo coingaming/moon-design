@@ -14,21 +14,17 @@ type InputColors = {
   [key: string]: ColorValue;
 };
 
-const checkboxSize = (theme: Theme) => theme.space.default;
-const checkboxGap = (theme: Theme) => theme.space.xsmall * 2;
-const captionMargin = (theme: Theme) =>
-  rem(checkboxSize(theme) + checkboxGap(theme));
 const inputColors =
   (key: keyof InputColors) =>
   ({ color, colorNew }: Theme) => {
     const themedColor: InputColors = {
-      label: color.trunks[100],
-      text: color.bulma[100],
-      icon: color.trunks[100],
-      placeholder: color.trunks[100],
+      label: colorNew.trunks,
+      text: colorNew.bulma,
+      icon: colorNew.trunks,
+      placeholder: colorNew.trunks,
       borderDefault: colorNew.beerus,
       borderHover: color.goku[40],
-      background: color.gohan[100],
+      background: colorNew.gohan,
       disabled: color.goku[80],
     };
 
@@ -38,13 +34,13 @@ const inputColors =
 const CheckboxCaption = styled.span(({ theme, dir }) => ({
   display: 'inline-block',
   ...(dir === 'rtl'
-    ? { marginRight: captionMargin(theme) }
-    : { marginLeft: captionMargin(theme) }),
+    ? { marginRight: theme.newTokens.space.medium }
+    : { marginLeft: theme.newTokens.space.medium }),
   color: inputColors('label')(theme),
   '&::before, &::after': {
     content: '""',
-    width: rem(checkboxSize(theme)),
-    height: rem(checkboxSize(theme)),
+    width: theme.newTokens.size.twoxsmall,
+    height: theme.newTokens.size.twoxsmall,
     position: 'absolute',
     ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     top: '50%',
@@ -65,7 +61,7 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: `${rem(2)} solid ${theme.color.trunks[100]}`,
+    border: `${rem(2)} solid ${theme.colorNew.trunks}`,
     borderRadius: rem(2),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',

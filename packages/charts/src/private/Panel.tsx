@@ -18,7 +18,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
     height: rem(32),
     padding: rem(8),
     fontSize: rem(16),
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
     '&:before': {
       content: "''",
       position: 'absolute',
@@ -60,7 +60,7 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
   flexDirection: 'column',
   padding: rem(theme.space.default),
-  color: isActive ? theme.colorNew.goten : theme.color.bulma[100],
+  color: isActive ? theme.colorNew.goten : theme.colorNew.bulma,
   background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
   borderRadius: rem(theme.space.default),
   width: '100%',

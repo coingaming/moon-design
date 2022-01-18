@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Container = styled.div(({ theme }) => ({
   display: 'flex',
@@ -54,13 +54,13 @@ const ColorPreview = styled.div<{ color?: ColorProps }>(({ theme, color }) => ({
 const Label = styled.div(({ theme }) => ({
   fontSize: rem(12),
   lineHeight: rem(24),
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 const Value = styled.div(({ theme }) => ({
   fontSize: rem(18),
   lineHeight: rem(24),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
 }));
 
 type Props = {

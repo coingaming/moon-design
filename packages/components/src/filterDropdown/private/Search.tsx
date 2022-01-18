@@ -1,6 +1,6 @@
+import React, { ChangeEvent, useState } from 'react';
 import { IconSearch } from '@heathmont/moon-assets';
 import { rem } from '@heathmont/moon-utils';
-import React, { ChangeEvent, useState } from 'react';
 import styled from 'styled-components';
 
 type SearchProps = {

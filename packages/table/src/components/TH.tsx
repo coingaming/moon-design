@@ -10,7 +10,7 @@ const TH = styled.div<{
   }),
   ({ theme: { color, colorNew, space } }) => ({
     padding: rem(space.small),
-    color: color.trunks[100],
+    color: colorNew.trunks,
     position: 'relative',
     fontSize: rem(12),
     '&::after': {

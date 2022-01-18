@@ -19,12 +19,12 @@ export const TooltipWrapper = styled.div(({ theme }) => ({
 export const Item = styled.div(({ theme }) => ({
   position: 'relative',
   padding: `${rem(2)} 0 ${rem(2)} ${rem(theme.space.default)}`,
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 const Date = styled.div(({ theme }) => ({
   padding: `${rem(2)} 0`,
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 export const ColorPreview = styled.div({

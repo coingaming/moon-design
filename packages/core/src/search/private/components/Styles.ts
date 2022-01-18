@@ -73,7 +73,7 @@ export const Results = styled.div(
     position: 'absolute',
     left: 0,
     top: rem(space.small),
-    color: color.trunks[100],
+    color: colorNew.trunks,
     width: '100%',
     zIndex: zIndex.searchResults,
     '[dir=rtl] &': {

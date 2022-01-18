@@ -89,7 +89,7 @@ const ReactPaginateWrapper = styled.div(({ theme }): any => ({
     '& > .disabled': {
       'button, button:hover': {
         cursor: 'default',
-        color: theme.color.trunks[100],
+        color: theme.colorNew.trunks,
         background: 'none',
         borderColor: theme.colorNew.beerus,
       },

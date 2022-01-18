@@ -10,7 +10,7 @@ const Container = styled.div<{ isDivider?: boolean }>(
       justifyContent: 'space-between',
       fontSize: rem(18),
       lineHeight: rem(24),
-      color: color.bulma[100],
+      color: colorNew.bulma,
       fontWeight: fontWeight.semibold,
     },
     isDivider && {
