@@ -1,6 +1,5 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import Bubble from '../bubble/Bubble';
 
 export const RemoveBubble = styled(Bubble as any)(({ theme }) => ({

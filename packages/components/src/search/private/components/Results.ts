@@ -1,7 +1,6 @@
-import styled, { CSSObject } from 'styled-components';
-import { em, rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
-
+import { em, rem } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 import { inputConfig, zIndex } from './settings';
 
 export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({

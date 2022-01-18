@@ -1,7 +1,7 @@
+import React, { Ref } from 'react';
+import { rem } from '@heathmont/moon-utils';
 import { ListboxInput, ListboxInputProps } from '@reach/listbox';
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
-import React, { Ref } from 'react';
 
 interface ListboxInputWrapperProps extends ListboxInputProps {
   disabled?: boolean;
@@ -12,7 +12,7 @@ interface ListboxInputWrapperProps extends ListboxInputProps {
 
 const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
   ({
-    theme: { color, borderWidth, radius, transitionDuration },
+    theme: { color, colorNew, borderWidth, radius, transitionDuration },
     disabled,
     inputsize,
     error,
@@ -35,7 +35,7 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
         borderColor: color.piccolo[100],
       },
       '&[data-value="placeholder"]': {
-        color: color.trunks[100],
+        color: colorNew.trunks,
       },
       '&[data-state="expanded"]': {
         borderColor: color.piccolo[100],

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem, inlineSvg } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type InputProps = {
   withIcon?: boolean;

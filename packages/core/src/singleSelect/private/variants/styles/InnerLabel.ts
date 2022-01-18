@@ -1,8 +1,8 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-const InnerLabel = styled.div(({ theme: { color } }) => ({
-  color: color.trunks[100],
+const InnerLabel = styled.div(({ theme: { colorNew } }) => ({
+  color: colorNew.trunks,
   fontSize: rem(12),
   lineHeight: rem(16),
 }));

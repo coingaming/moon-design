@@ -1,12 +1,11 @@
-import styled from 'styled-components';
-import rgba from 'polished/lib/color/rgba';
+import { ColorNames } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
-
+import rgba from 'polished/lib/color/rgba';
+import styled from 'styled-components';
+import { TableVariant } from '../Table';
 import BodyTR from './BodyTR';
 import TD from './TD';
 import TH from './TH';
-import { TableVariant } from '../Table';
-import { ColorNames } from '@heathmont/moon-themes';
 
 const TableWrapper = styled.div<{
   isScrolledToLeft: boolean;
@@ -58,7 +57,7 @@ const TableWrapper = styled.div<{
         ? {
             '[data-sticky-last-left-td]': {
               boxShadow: `6px 0px 9px -10px ${rgba(
-                theme.color.trunks[100],
+                theme.colorNew.trunks,
                 0.9
               )}`,
             },
@@ -69,7 +68,7 @@ const TableWrapper = styled.div<{
         ? {
             '[data-sticky-first-right-td]': {
               boxShadow: `-6px 0px 9px -10px ${rgba(
-                theme.color.trunks[100],
+                theme.colorNew.trunks,
                 0.9
               )}`,
             },
