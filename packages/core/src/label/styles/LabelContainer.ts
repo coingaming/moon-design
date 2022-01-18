@@ -27,7 +27,7 @@ const LabelContainer = styled.span<Props>(
     color: color ? themed('color', color)(theme) : theme.colorNew.goten,
     backgroundColor: backgroundColor
       ? themed('color', backgroundColor)(theme)
-      : theme.color.bulma[100],
+      : theme.colorNew.bulma,
   })
 );
 

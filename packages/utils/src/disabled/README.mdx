@@ -16,7 +16,7 @@ Apply common disabled styles to UI elements such as buttons and forms.
 
 ```jsx react-live
 () => {
-  const { color } = useTheme();
+  const { colorNew } = useTheme();
 
   const ButtonExample = styled.button(({ css }) => css);
 
@@ -27,7 +27,7 @@ Apply common disabled styles to UI elements such as buttons and forms.
       </ButtonExample>
       <ButtonExample
         disabled
-        css={{ ...disabled(0.5, { color: color.bulma[100] }) }}
+        css={{ ...disabled(0.5, { color: colorNew.bulma }) }}
       >
         Submit
       </ButtonExample>

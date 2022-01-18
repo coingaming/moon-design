@@ -22,7 +22,7 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
       maxWidth: '100%',
       fontSize: inputsize === 'medium' ? rem(14) : rem(16),
       lineHeight: rem(24),
-      color: color.bulma[100],
+      color: colorNew.bulma,
       border: `${borderWidth}px solid`,
       borderColor: color.beerus[100],
       borderRadius: rem(radius.largest),

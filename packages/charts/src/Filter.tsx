@@ -35,7 +35,7 @@ const DropdownWrapper = styled.div(({ theme }) => ({
   left: '50%',
   transform: 'translateX(-50%)',
   paddingTop: rem(8),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   zIndex: theme.zIndex.toggle,
 }));
 

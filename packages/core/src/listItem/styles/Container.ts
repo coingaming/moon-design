@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type Props = {
   color?: ColorProps;
@@ -36,7 +36,7 @@ const Container = styled.div<Props>(
     padding: size === 'medium' ? `${rem(8)}` : rem(12),
   }),
   ({ color, backgroundColor, theme }) => ({
-    color: color ? themed('color', color)(theme) : theme.color.bulma[100],
+    color: color ? themed('color', color)(theme) : theme.colorNew.bulma,
     backgroundColor: themed('color', backgroundColor)(theme),
   })
 );

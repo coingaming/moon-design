@@ -1,10 +1,10 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-const ShowPassword = styled.div(({ theme: { color } }) => ({
+const ShowPassword = styled.div(({ theme: { colorNew } }) => ({
   fontSize: rem(14),
   lineHeight: rem(24),
-  color: color.bulma[100],
+  color: colorNew.bulma,
   position: 'absolute',
   top: '50%',
   marginTop: rem(-12),

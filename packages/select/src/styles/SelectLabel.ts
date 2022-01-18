@@ -1,11 +1,11 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-const SelectLabel = styled.span(({ theme: { color } }) => ({
+const SelectLabel = styled.span(({ theme: { colorNew } }) => ({
   display: 'block',
   fontSize: rem(16),
   lineHeight: rem(24),
-  color: color.bulma[100],
+  color: colorNew.bulma,
   paddingBottom: rem(8),
 }));
 

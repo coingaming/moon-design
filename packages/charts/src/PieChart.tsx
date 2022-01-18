@@ -26,7 +26,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
       fontSize: rem(14),
     },
     '.chart-percent': {
-      fill: theme.color.bulma[100],
+      fill: theme.colorNew.bulma,
       fontSize: rem(24),
     },
   })

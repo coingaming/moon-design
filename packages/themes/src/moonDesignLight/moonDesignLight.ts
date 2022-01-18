@@ -44,6 +44,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#4E46B4',
+  hit: '#0B0B0B',
+  beerus: '#1F1F1F',
+  goku: '#0B0B0B',
+  gohan: '#1F1F1F',
+  bulma: '#FFFFFF',
+  trunks: '#999CA0',
+  goten: '#FFFFFF',
+  popo: '#000000',
+};
+
 const moonDesignLight: Theme = {
   ...sharedTokens,
   brand: 'MoonDesign',

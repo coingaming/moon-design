@@ -16,9 +16,9 @@ Returns a given [container "key"](/themes/tokens#container) value as a `rem`-bas
 
 ```jsx react-live
 () => {
-  const { border, color, maxWidth } = useTheme();
+  const { border, colorNew, maxWidth } = useTheme();
 
-  const borderColor = { borderColor: color.bulma[100] };
+  const borderColor = { borderColor: colorNew.bulma };
   const Example = styled.div(({ css }) => css);
 
   return (
@@ -47,9 +47,9 @@ key or a pixel value (as a `number`) which will be convert to `rem`
 
 ```jsx react-live
 () => {
-  const { border, color, maxWidth, space } = useTheme();
+  const { border, colorNew, maxWidth, space } = useTheme();
 
-  const borderColor = { borderColor: color.bulma[100] };
+  const borderColor = { borderColor: colorNew.bulma };
   const Example = styled.div(({ css }) => css);
 
   return (
