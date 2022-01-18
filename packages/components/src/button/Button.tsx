@@ -67,14 +67,14 @@ const StyledButton = styled.button.withConfig({
   ({ fullWidth }) => fullWidth && { position: 'relative' },
   ({ variant, theme }) => variant && buttonVariant(variant)(theme),
   ({ size, variant }) => size && buttonSize(size)(variant),
-  ({ oops, theme: { color, colorNew } }) =>
+  ({ oops, theme: { color } }) =>
     oops && [
       oopsAnimation,
       {
         transform: 'translate3d(0, 0, 0)',
         backfaceVisibility: 'hidden',
         perspective: rem(1000),
-        color: colorNew.goten,
+        color: color.goten[100],
         backgroundColor: color.chiChi[100],
         ...buttonHover({
           backgroundColor: color.chiChi[100],
@@ -237,7 +237,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
     fullWidth,
     ...buttonProps
   } = props;
-  const { colorNew, space } = useTheme();
+  const { color, space } = useTheme();
 
   let content = children;
 
@@ -253,7 +253,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
             height: rem(space.default),
           }}
         >
-          <Loader color={colorNew.goten} />
+          <Loader color={color.goten[100]} />
         </div>
       </div>
     );

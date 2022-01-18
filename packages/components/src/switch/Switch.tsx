@@ -97,13 +97,13 @@ const Label = styled.label<{ size: Size }>(({ theme: { space }, size }) => ({
 })) as React.FC<{}>;
 
 const Input = styled.input<SliderColorScheme>(
-  ({ colorScheme, theme: { color, colorNew }, size }) => ({
+  ({ colorScheme, theme: { color }, size }) => ({
     ...hideVisually(),
     [`&:checked + ${Slider}`]: {
       backgroundColor: colorScheme ? undefined : color.piccolo[100],
       '&::before': {
         // left: rem(-2),
-        backgroundColor: colorScheme ? undefined : colorNew.goten,
+        backgroundColor: colorScheme ? undefined : color.goten[100],
         transform: `translateX(calc(${switchWidth} / ${size ? 2.5 : 2}))`,
       },
     },

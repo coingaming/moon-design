@@ -5,7 +5,7 @@ const Bubble = styled.div<{ position?: string }>(({ theme }) => [
   {
     display: 'inline-block',
     textAlign: 'right',
-    color: theme.colorNew.goten,
+    color: theme.color.goten[100],
     background: theme.color.hit[100],
     fontSize: rem(12),
     lineHeight: rem(16),

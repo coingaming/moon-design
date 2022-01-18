@@ -41,7 +41,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
     active,
     align = 'left',
     error,
-    theme: { border, boxShadow, color, colorNew, radius, space, zIndex },
+    theme: { border, boxShadow, color, radius, space, zIndex },
   }) => [
     {
       [tooltipSpace]: rem(space.small),
@@ -56,7 +56,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
       backgroundColor: !error ? color.goku[100] : color.chiChi[100],
       borderColor: color.beerus[100],
       borderRadius: rem(radius.small),
-      color: !error ? color.bulma[100] : colorNew.goten,
+      color: !error ? color.bulma[100] : color.goten[100],
       willChange: 'transform',
       [`${IconClose}`]: {
         color: color.trunks[100],
