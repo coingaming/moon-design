@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
 
 type Props = {
   elementLeft?: React.ReactElement;
@@ -21,7 +21,7 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
     lineHeight: rem(24),
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
-    color: theme.color.bulma[100],
+    color: theme.colorNew.bulma,
     transition: `color ${theme.transitionDuration.default}s ease`,
     textDecoration: 'none',
     border: 0,

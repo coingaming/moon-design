@@ -1,13 +1,15 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-export const AccordionWrapper = styled.div(({ theme: { color, radius } }) => ({
-  width: '100%',
-  padding: rem(16),
-  background: color.gohan[100],
-  borderRadius: rem(radius.default),
-  color: color.bulma[100],
-}));
+export const AccordionWrapper = styled.div(
+  ({ theme: { color, colorNew, radius } }) => ({
+    width: '100%',
+    padding: rem(16),
+    background: color.gohan[100],
+    borderRadius: rem(radius.default),
+    color: colorNew.bulma,
+  })
+);
 
 export const AccordionContent = styled.div(
   ({ isOpen }: { isOpen: boolean }) => ({

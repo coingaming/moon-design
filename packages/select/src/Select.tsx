@@ -111,9 +111,9 @@ const Select = <T extends BaseOptionType>({
           neutral10: moonTheme.color.beerus[100] as string, // border disabled
           neutral20: moonTheme.color.beerus[100] as string, // border
           neutral30: moonTheme.color.beerus[100] as string, // border hover
-          neutral40: moonTheme.color.bulma[100] as string, // value disabled
+          neutral40: moonTheme.colorNew.bulma as string, // value disabled
           neutral50: moonTheme.colorNew.trunks as string, // placeholder
-          neutral80: moonTheme.color.bulma[100] as string, // value
+          neutral80: moonTheme.colorNew.bulma as string, // value
         },
       })}
     />

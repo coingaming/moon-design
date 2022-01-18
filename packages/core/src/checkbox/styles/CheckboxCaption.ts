@@ -23,7 +23,7 @@ const inputColors =
   ({ color, colorNew }: Theme) => {
     const themedColor: InputColors = {
       label: colorNew.trunks,
-      text: color.bulma[100],
+      text: colorNew.bulma,
       icon: colorNew.trunks,
       placeholder: colorNew.trunks,
       borderDefault: color.beerus[100],
