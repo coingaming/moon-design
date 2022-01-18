@@ -22,7 +22,13 @@ type Size = 'xs' | 'md' | 'lg';
 const Slider = styled.span<SliderColorScheme>(
   ({
     colorScheme,
-    theme: { color, colorScheme: themeColorScheme, space, transitionDuration },
+    theme: {
+      color,
+      colorNew,
+      colorScheme: themeColorScheme,
+      space,
+      transitionDuration,
+    },
   }) => ({
     position: 'absolute',
     width: switchWidth,
@@ -52,7 +58,7 @@ const Slider = styled.span<SliderColorScheme>(
       height: 'var(--switch-indicator-size)',
       left: rem(space.xsmall),
       bottom: rem(space.xsmall),
-      backgroundColor: themeColorScheme ? color.goku[100] : color.trunks[100],
+      backgroundColor: themeColorScheme ? color.goku[100] : colorNew.trunks,
       borderRadius: '50%',
       transition: 'inherit',
       transitionProperty: 'background-color, transform',
@@ -115,10 +121,10 @@ Input.defaultProps = {
 };
 
 const SwitchCaption = styled(Caption as any)<{ checked: boolean }>(
-  ({ checked, theme: { color, transitionDuration } }) => [
+  ({ checked, theme: { color, colorNew, transitionDuration } }) => [
     { transition: `color ${transitionDuration.default}s` },
     checked && {
-      color: checked ? color.trunks[100] : color.bulma[100],
+      color: checked ? colorNew.trunks : color.bulma[100],
     },
   ]
 );

@@ -1,8 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import IconSearch from '../../../private/icons/IconSearch';
-
 import { inputConfig, zIndex } from './settings';
 
 const { height, paddingX, transition } = inputConfig;
@@ -11,7 +9,7 @@ const searchInputActive = ':focus:not(:placeholder-shown)';
 
 export const SearchInputIcon = styled(IconSearch as any)(({ theme }) => ({
   zIndex: zIndex.searchIcon,
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
   position: 'absolute',
   fontSize: rem(theme.space.default),
   top: '50%',
@@ -40,7 +38,7 @@ export const SearchInput = styled.input(({ theme }) => {
     overflow: 'hidden',
     borderRadius: rem(theme.radius.largest),
     backgroundColor: theme.color.gohan[100],
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
     transitionDuration: `${theme.transitionDuration.default}s`,

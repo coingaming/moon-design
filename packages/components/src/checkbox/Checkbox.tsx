@@ -61,7 +61,7 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: `${rem(2)} solid ${theme.color.trunks[100]}`,
+    border: `${rem(2)} solid ${theme.colorNew.trunks}`,
     borderRadius: rem(2),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
@@ -97,7 +97,7 @@ const CheckboxInput = styled.input(({ theme }) => ({
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {
-      borderColor: theme.color.trunks[100],
+      borderColor: theme.colorNew.trunks,
     },
   },
   /* Add the "check" to the Pseudo Checkbox */

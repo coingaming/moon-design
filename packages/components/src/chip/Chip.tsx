@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
+import styled from 'styled-components';
 
 type ChipProps = {
   isActive?: boolean;
@@ -32,7 +32,7 @@ const StyledChip = styled.button<ChipProps>(({ isActive, size, theme }) => [
     background: isActive
       ? rgba(theme.color.piccolo[100], 0.2)
       : theme.color.gohan[100],
-    color: isActive ? theme.color.piccolo[100] : theme.color.trunks[100],
+    color: isActive ? theme.color.piccolo[100] : theme.colorNew.trunks,
     cursor: isActive ? 'auto' : 'pointer',
   }),
 ]);

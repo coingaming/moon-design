@@ -59,7 +59,7 @@ const TooltipBubble = styled.div<TooltipBubbleProps>(
       color: !error ? color.bulma[100] : colorNew.goten,
       willChange: 'transform',
       [`${IconClose}`]: {
-        color: color.trunks[100],
+        color: colorNew.trunks,
       },
     },
     tooltipAnimation,

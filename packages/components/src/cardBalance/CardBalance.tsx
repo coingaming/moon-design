@@ -1,7 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import Stack from '../stack/Stack';
 
 type BalanceType = {
@@ -32,9 +31,9 @@ const Title = styled.p({
   lineHeight: rem(40),
 });
 
-const Text = styled.p(({ theme: { color } }) => ({
+const Text = styled.p(({ theme: { colorNew } }) => ({
   margin: 0,
-  color: color.trunks[100],
+  color: colorNew.trunks,
   fontSize: rem(16),
   lineHeight: rem(24),
 }));

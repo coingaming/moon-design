@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { disabled } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type LinkProps = {
   disabled?: boolean;
@@ -11,7 +11,7 @@ type LinkProps = {
  * Component
  */
 const Link = styled.a<LinkProps>(
-  ({ secondary, optional, theme: { color, opacity } }) => [
+  ({ secondary, optional, theme: { color, colorNew, opacity } }) => [
     {
       display: 'inline-block',
       padding: 0,
@@ -26,9 +26,9 @@ const Link = styled.a<LinkProps>(
       },
       ...disabled(opacity.disabled),
     },
-    secondary && { color: color.trunks[100] },
+    secondary && { color: colorNew.trunks },
     optional && {
-      color: color.trunks[100],
+      color: colorNew.trunks,
       '&:hover, &:focus, &:active, &.active': {
         color: color.bulma[100],
       },

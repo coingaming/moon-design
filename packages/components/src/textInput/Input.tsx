@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem, inlineSvg } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type InputProps = {
   withIcon?: boolean;
@@ -25,7 +25,7 @@ export const Input = styled.input<InputProps>(({ theme }) => [
     transition: `border-color ${theme.transitionDuration.default}s ease`,
     WebkitAppearance: 'none',
     '&::placeholder': {
-      color: theme.color.trunks[100],
+      color: theme.colorNew.trunks,
       opacity: 1,
     },
     '&:hover:not(:focus):not([disabled])': {

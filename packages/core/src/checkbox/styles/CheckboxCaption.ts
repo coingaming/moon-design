@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorValue, Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type InputColors = {
   label: ColorValue;
@@ -20,12 +20,12 @@ const captionMargin = (theme: Theme) =>
   rem(checkboxSize(theme) + checkboxGap(theme));
 const inputColors =
   (key: keyof InputColors) =>
-  ({ color }: Theme) => {
+  ({ color, colorNew }: Theme) => {
     const themedColor: InputColors = {
-      label: color.trunks[100],
+      label: colorNew.trunks,
       text: color.bulma[100],
-      icon: color.trunks[100],
-      placeholder: color.trunks[100],
+      icon: colorNew.trunks,
+      placeholder: colorNew.trunks,
       borderDefault: color.beerus[100],
       borderHover: color.goku[40],
       background: color.gohan[100],
@@ -65,7 +65,7 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
   },
   /* Psuedo Checkbox */
   '&::after': {
-    border: `${rem(2)} solid ${theme.color.trunks[100]}`,
+    border: `${rem(2)} solid ${theme.colorNew.trunks}`,
     borderRadius: rem(2),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',

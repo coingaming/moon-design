@@ -32,12 +32,12 @@ type InputColors = {
 
 const inputColors =
   (key: keyof InputColors) =>
-  ({ color }: Theme) => {
+  ({ color, colorNew }: Theme) => {
     const themedColor: InputColors = {
-      label: color.trunks[100],
+      label: colorNew.trunks,
       text: color.bulma[100],
-      icon: color.trunks[100],
-      placeholder: color.trunks[100],
+      icon: colorNew.trunks,
+      placeholder: colorNew.trunks,
       borderDefault: color.beerus[100],
       borderHover: color.goku[40],
       background: color.gohan[100],

@@ -1,14 +1,14 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import Caption from '../caption/Caption';
 
 const KeylineText = styled(Caption)<any>(
-  ({ theme: { borderWidth, color, space } }) => ({
+  ({ theme: { borderWidth, color, colorNew, space } }) => ({
     display: 'flex',
     width: '100%',
     alignItems: 'center',
     whiteSpace: 'nowrap',
-    color: color.trunks[100],
+    color: colorNew.trunks,
     '&::before, &::after': {
       content: '""',
       display: 'inline-block',

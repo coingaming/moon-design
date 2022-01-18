@@ -1,7 +1,5 @@
 // @ts-nocheck
 import React from 'react';
-import styled from 'styled-components';
-
 import { Button } from '@heathmont/moon-components';
 import {
   GenericClose,
@@ -9,7 +7,7 @@ import {
   GenericSearch,
 } from '@heathmont/moon-icons';
 import { mq, rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import { inputConfig, zIndex } from './settings';
 
 const { borderWidth, padding } = inputConfig;
@@ -42,21 +40,21 @@ export const SearchClearButton = styled(Button)(
 
 export const SearchClearIcon = styled(GenericClose)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { base, color } }) => ({
-  color: color.trunks[100],
+>(({ theme: { base, colorNew } }) => ({
+  color: colorNew.trunks,
   fontSize: rem(base.lineHeight),
 }));
 
 export const SearchInputIcon = styled(GenericSearch)<
   React.SVGProps<SVGSVGElement> & { $size: SearchInputSize }
->(({ $size, theme: { base, color } }) => ({
+>(({ $size, theme: { base, colorNew } }) => ({
   position: 'absolute',
   top: '50%',
   left: rem(padding[$size] + borderWidth),
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
   fontSize: rem(base.lineHeight),
-  color: color.trunks[100],
+  color: colorNew.trunks,
   pointerEvents: 'none',
   '[dir=rtl] &': {
     left: 'auto',
@@ -66,11 +64,11 @@ export const SearchInputIcon = styled(GenericSearch)<
 
 export const SearchMenuIcon = styled(GenericMenu)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { base, color, space } }) => ({
+>(({ theme: { base, colorNew, space } }) => ({
   position: 'absolute',
   top: '50%',
   right: rem(space.default),
-  color: color.trunks[100],
+  color: colorNew.trunks,
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
   fontSize: rem(base.lineHeight),
@@ -111,7 +109,7 @@ export const SearchInput = styled.input<
     textOverflow: 'ellipsis',
     overflow: 'hidden',
     backgroundColor: color.goku[100],
-    color: color.trunks[100],
+    color: colorNew.trunks,
     borderRadius: rem(radius.default),
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,

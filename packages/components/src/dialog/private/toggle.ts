@@ -1,14 +1,17 @@
-import hideVisually from 'polished/lib/mixins/hideVisually';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { focus, rem, themed } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 
 type DialogToggleProps = {
   backgroundColor?: ColorProps;
   heading?: boolean;
 };
 export const DialogToggle = styled.button<DialogToggleProps>(
-  ({ theme: { border, color, opacity, radius, space }, heading }) => ({
+  ({
+    theme: { border, color, colorNew, opacity, radius, space },
+    heading,
+  }) => ({
     position: heading ? 'relative' : 'absolute',
     top: !heading && rem(space.default),
     right: !heading && rem(space.default),
@@ -18,7 +21,7 @@ export const DialogToggle = styled.button<DialogToggleProps>(
     lineHeight: 0,
     textDecoration: 'none',
     cursor: 'pointer',
-    color: color.trunks[100],
+    color: colorNew.trunks,
     borderRadius: rem(radius.largest),
     border,
     borderColor: 'transparent',
@@ -29,8 +32,9 @@ export const DialogToggle = styled.button<DialogToggleProps>(
     },
   }),
   ({ backgroundColor, theme }) => ({
-    backgroundColor: themed('color', backgroundColor)(theme) || theme.color.gohan[100],
-  }),
+    backgroundColor:
+      themed('color', backgroundColor)(theme) || theme.color.gohan[100],
+  })
 );
 
 export const DialogToggleText = styled.span(hideVisually);

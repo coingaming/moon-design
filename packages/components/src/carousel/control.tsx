@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem, mq } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 
 /**
  * 1. Arbitrary number to meet with Figma designs, between small and x-small.
@@ -10,6 +10,7 @@ export const CarouselControl = styled.button<any>(
   ({
     theme: {
       color,
+      colorNew,
       border,
       boxShadow,
       opacity,
@@ -29,7 +30,7 @@ export const CarouselControl = styled.button<any>(
     borderColor: color.beerus[100],
     borderRadius: rem(radius.largest),
     backgroundColor: color.gohan[100],
-    color: color.trunks[100],
+    color: colorNew.trunks,
     fontSize: rem(8),
     lineHeight: 0,
     textDecoration: 'none',

@@ -1,6 +1,5 @@
-import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
-
+import styled from 'styled-components';
 import { underlineWidth, underlineOffset } from '../tabs/private';
 
 type TabLinkProps = {
@@ -22,7 +21,7 @@ const TabLink = styled.a<TabLinkProps>(({ theme, fullWidth }) => [
     lineHeight: 1.3,
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
     transition: `color ${theme.transitionDuration.default}s ease`,
     textDecoration: 'none',
     border: 0,

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const RadioButtonCaption = styled.span(({ theme }) => ({
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
   marginLeft: theme.space.small,
 }));
 

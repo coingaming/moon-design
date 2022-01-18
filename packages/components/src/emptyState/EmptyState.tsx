@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem, mq } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type EmptyStateProps = {
   title: any;
@@ -54,11 +54,11 @@ const TitleWrapper = styled.p(({ theme: { fontWeight } }) => ({
   lineHeight: rem(28),
 }));
 
-const MessageWrapper = styled.p(({ theme: { color, breakpoint } }) => ({
+const MessageWrapper = styled.p(({ theme: { colorNew, breakpoint } }) => ({
   margin: 0,
   fontSize: rem(16),
   lineHeight: rem(24),
-  color: color.trunks[100],
+  color: colorNew.trunks,
   marginTop: rem(20),
   [mq(breakpoint.large)]: {
     marginTop: rem(4),

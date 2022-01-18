@@ -1,6 +1,6 @@
+import React, { ChangeEvent, useState } from 'react';
 import { IconSearch } from '@heathmont/moon-assets';
 import { rem } from '@heathmont/moon-utils';
-import React, { ChangeEvent, useState } from 'react';
 import styled from 'styled-components';
 
 type SearchProps = {
@@ -22,13 +22,13 @@ const SearchInput = styled.input(({ theme }) => ({
   caretColor: theme.color.piccolo[100],
   outline: 'none',
   '&::placeholder': {
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
   },
 }));
 
 const Icon = styled(IconSearch as any)(({ theme }) => ({
   position: 'absolute',
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
   width: rem(16),
   height: rem(16),
   right: 0,

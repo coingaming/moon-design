@@ -18,7 +18,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
     height: rem(32),
     padding: rem(8),
     fontSize: rem(16),
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
     '&:before': {
       content: "''",
       position: 'absolute',
