@@ -1,12 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-
+import styled from 'styled-components';
+import Caption from '../caption/Caption';
+import Inline from '../inline/Inline';
 import IconMoon from '../private/icons/IconMoon';
 import IconSun from '../private/icons/IconSun';
-import Inline from '../inline/Inline';
-import Caption from '../caption/Caption';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
@@ -105,7 +104,7 @@ const Input = styled.input<SliderColorScheme>(
       '&::before': {
         // left: rem(-2),
         backgroundColor: colorScheme ? undefined : color.goten[100],
-        transform: `translateX(calc(${switchWidth} / ${ size ? 2.5 : 2}))`,
+        transform: `translateX(calc(${switchWidth} / ${size ? 2.5 : 2}))`,
       },
     },
   })
