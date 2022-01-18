@@ -1,6 +1,6 @@
-import { StylesConfig, Props } from 'react-select';
-import { rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import { StylesConfig, Props } from 'react-select';
 
 type CustomProps = {
   isCustomControl?: boolean;
@@ -102,7 +102,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
           : state.isFocused
           ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
-          : `inset 0 0 0 1px ${theme.color.beerus[100]}`,
+          : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },
     };

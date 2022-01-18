@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 export const AccordionWrapper = styled.div(({ theme: { color, radius } }) => ({
   width: '100%',
@@ -48,9 +48,9 @@ export const AccordionToggle = styled.button(
   })
 );
 
-export const Divider = styled.div(({ theme: { color } }) => ({
+export const Divider = styled.div(({ theme: { colorNew } }) => ({
   margin: `0 ${rem(8)} 0 ${rem(16)}`,
   width: 1,
   height: rem(16),
-  background: color.beerus[100],
+  background: colorNew.beerus,
 }));

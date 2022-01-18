@@ -1,23 +1,21 @@
 import React, { useEffect, useRef } from 'react';
+import { useTheme } from '@heathmont/moon-themes';
 import ReactSelect, {
   Props as ReactSelectProps,
   StylesConfig,
 } from 'react-select';
-import { useTheme } from '@heathmont/moon-themes';
-
-import Menu from './private/Menu';
-import DropdownIndicator from './private/DropdownIndicator';
-import Control from './private/Control';
-import ValueContainer from './private/ValueContainer';
-import SingleValue from './private/SingleValue';
-import MultiValue from './private/MultiValue';
-import MultiValueRemove from './private/MultiValueRemove';
-import MultiValueContainer from './private/MultiValueContainer';
 import ClearIndicator from './private/ClearIndicator';
+import Control from './private/Control';
+import DropdownIndicator from './private/DropdownIndicator';
 import IndicatorSeparator from './private/IndicatorSeparator';
-import SelectContainer from './private/SelectContainer';
+import Menu from './private/Menu';
+import MultiValue from './private/MultiValue';
+import MultiValueContainer from './private/MultiValueContainer';
+import MultiValueRemove from './private/MultiValueRemove';
 import Placeholder from './private/Placeholder';
-
+import SelectContainer from './private/SelectContainer';
+import SingleValue from './private/SingleValue';
+import ValueContainer from './private/ValueContainer';
 import CustomStyles from './styles/CustomStyles';
 
 export type BaseOptionType = {
@@ -110,9 +108,9 @@ const Select = <T extends BaseOptionType>({
           dangerLight: moonTheme.color.chiChi[10] as string,
           neutral0: moonTheme.color.gohan[100] as string, // bg
           neutral5: moonTheme.color.gohan[100] as string, // bg disabled
-          neutral10: moonTheme.color.beerus[100] as string, // border disabled
-          neutral20: moonTheme.color.beerus[100] as string, // border
-          neutral30: moonTheme.color.beerus[100] as string, // border hover
+          neutral10: moonTheme.colorNew.beerus as string, // border disabled
+          neutral20: moonTheme.colorNew.beerus as string, // border
+          neutral30: moonTheme.colorNew.beerus as string, // border hover
           neutral40: moonTheme.color.bulma[100] as string, // value disabled
           neutral50: moonTheme.color.trunks[100] as string, // placeholder
           neutral80: moonTheme.color.bulma[100] as string, // value

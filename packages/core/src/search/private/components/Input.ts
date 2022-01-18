@@ -1,7 +1,5 @@
 // @ts-nocheck
 import React from 'react';
-import styled from 'styled-components';
-
 import { Button } from '@heathmont/moon-components';
 import {
   GenericClose,
@@ -9,7 +7,7 @@ import {
   GenericSearch,
 } from '@heathmont/moon-icons';
 import { mq, rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import { inputConfig, zIndex } from './settings';
 
 const { borderWidth, padding } = inputConfig;
@@ -92,6 +90,7 @@ export const SearchInput = styled.input<
     theme: {
       breakpoint,
       color,
+      colorNew,
       fontSize,
       fontWeight,
       radius,
@@ -127,7 +126,7 @@ export const SearchInput = styled.input<
     },
     '&:hover': {
       backgroundColor: color.gohan[100],
-      borderColor: color.beerus[100],
+      borderColor: colorNew.beerus,
     },
     '&:active, &:focus': {
       backgroundColor: color.gohan[100],

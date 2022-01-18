@@ -1,8 +1,8 @@
 import React from 'react';
+import { Button } from '@heathmont/moon-components';
+import { rem, mq } from '@heathmont/moon-utils';
 import ReactPaginate from 'react-paginate';
 import styled from 'styled-components';
-import { rem, mq } from '@heathmont/moon-utils';
-import { Button } from '@heathmont/moon-components';
 
 type PaginationProps = {
   previousButtonLabel: string | JSX.Element;
@@ -91,7 +91,7 @@ const ReactPaginateWrapper = styled.div(({ theme }): any => ({
         cursor: 'default',
         color: theme.color.trunks[100],
         background: 'none',
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
       },
     },
   },

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorValue, Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type InputColors = {
   label: ColorValue;
@@ -20,13 +20,13 @@ const captionMargin = (theme: Theme) =>
   rem(checkboxSize(theme) + checkboxGap(theme));
 const inputColors =
   (key: keyof InputColors) =>
-  ({ color }: Theme) => {
+  ({ color, colorNew }: Theme) => {
     const themedColor: InputColors = {
       label: color.trunks[100],
       text: color.bulma[100],
       icon: color.trunks[100],
       placeholder: color.trunks[100],
-      borderDefault: color.beerus[100],
+      borderDefault: colorNew.beerus,
       borderHover: color.goku[40],
       background: color.gohan[100],
       disabled: color.goku[80],

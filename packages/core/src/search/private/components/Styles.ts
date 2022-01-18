@@ -1,8 +1,7 @@
-import styled, { CSSObject } from 'styled-components';
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
 import { mq, rem } from '@heathmont/moon-utils';
-
+import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';
@@ -69,7 +68,7 @@ export const Results = styled.div(
     },
   }),
   ({
-    theme: { borderWidth, shadows, breakpoint, color, radius, space },
+    theme: { borderWidth, shadows, breakpoint, color, colorNew, radius, space },
   }) => ({
     position: 'absolute',
     left: 0,
@@ -89,7 +88,7 @@ export const Results = styled.div(
       borderRadius: rem(radius.default),
       borderWidth,
       borderStyle: 'solid',
-      borderColor: color.beerus[100],
+      borderColor: colorNew.beerus,
       backgroundColor: color.gohan[100],
       boxShadow: shadows.lg,
     },
