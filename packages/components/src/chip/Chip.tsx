@@ -32,7 +32,7 @@ const StyledChip = styled.button<ChipProps>(({ isActive, size, theme }) => [
     background: isActive
       ? rgba(theme.color.piccolo[100], 0.2)
       : theme.color.gohan[100],
-    color: isActive ? theme.color.piccolo[100] : theme.colorNew.trunks,
+    color: isActive ? theme.color.piccolo[100] : theme.color.trunks[100],
     cursor: isActive ? 'auto' : 'pointer',
   }),
 ]);

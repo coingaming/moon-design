@@ -31,9 +31,9 @@ const Title = styled.p({
   lineHeight: rem(40),
 });
 
-const Text = styled.p(({ theme: { colorNew } }) => ({
+const Text = styled.p(({ theme: { color } }) => ({
   margin: 0,
-  color: colorNew.trunks,
+  color: color.trunks[100],
   fontSize: rem(16),
   lineHeight: rem(24),
 }));

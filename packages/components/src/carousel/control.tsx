@@ -10,7 +10,6 @@ export const CarouselControl = styled.button<any>(
   ({
     theme: {
       color,
-      colorNew,
       border,
       boxShadow,
       opacity,
@@ -30,7 +29,7 @@ export const CarouselControl = styled.button<any>(
     borderColor: color.beerus[100],
     borderRadius: rem(radius.largest),
     backgroundColor: color.gohan[100],
-    color: colorNew.trunks,
+    color: color.trunks[100],
     fontSize: rem(8),
     lineHeight: 0,
     textDecoration: 'none',

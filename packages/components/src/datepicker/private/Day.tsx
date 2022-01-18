@@ -26,7 +26,7 @@ const DayStyled = styled.div<DayStyledProps>(
       boxSizing: 'border-box',
       border: '1px solid transparent', // to prevent jumping on hover
       '&:hover': {
-        border: `1px solid ${theme.colorNew.trunks}`,
+        border: `1px solid ${theme.color.trunks[100]}`,
         borderRadius: rem(theme.radius.largest),
       },
     },

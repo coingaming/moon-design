@@ -54,11 +54,11 @@ const TitleWrapper = styled.p(({ theme: { fontWeight } }) => ({
   lineHeight: rem(28),
 }));
 
-const MessageWrapper = styled.p(({ theme: { colorNew, breakpoint } }) => ({
+const MessageWrapper = styled.p(({ theme: { color, breakpoint } }) => ({
   margin: 0,
   fontSize: rem(16),
   lineHeight: rem(24),
-  color: colorNew.trunks,
+  color: color.trunks[100],
   marginTop: rem(20),
   [mq(breakpoint.large)]: {
     marginTop: rem(4),

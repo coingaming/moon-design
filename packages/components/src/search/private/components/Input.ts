@@ -9,7 +9,7 @@ const searchInputActive = ':focus:not(:placeholder-shown)';
 
 export const SearchInputIcon = styled(IconSearch as any)(({ theme }) => ({
   zIndex: zIndex.searchIcon,
-  color: theme.colorNew.trunks,
+  color: theme.color.trunks[100],
   position: 'absolute',
   fontSize: rem(theme.space.default),
   top: '50%',
@@ -38,7 +38,7 @@ export const SearchInput = styled.input(({ theme }) => {
     overflow: 'hidden',
     borderRadius: rem(theme.radius.largest),
     backgroundColor: theme.color.gohan[100],
-    color: theme.colorNew.trunks,
+    color: theme.color.trunks[100],
     zIndex: zIndex.searchInput,
     transition: `${transition}, max-width ease`,
     transitionDuration: `${theme.transitionDuration.default}s`,

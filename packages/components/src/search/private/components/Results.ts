@@ -56,10 +56,10 @@ export const Results = styled.ul(
 /**
  * Search Results List Item
  */
-export const ResultsItem = styled.li(({ theme: { colorNew } }) => ({
+export const ResultsItem = styled.li(({ theme: { color } }) => ({
   margin: 0,
   listStyleType: 'none',
-  color: colorNew.trunks,
+  color: color.trunks[100],
 }));
 
 /**

@@ -8,10 +8,7 @@ type DialogToggleProps = {
   heading?: boolean;
 };
 export const DialogToggle = styled.button<DialogToggleProps>(
-  ({
-    theme: { border, color, colorNew, opacity, radius, space },
-    heading,
-  }) => ({
+  ({ theme: { border, color, opacity, radius, space }, heading }) => ({
     position: heading ? 'relative' : 'absolute',
     top: !heading && rem(space.default),
     right: !heading && rem(space.default),
@@ -21,7 +18,7 @@ export const DialogToggle = styled.button<DialogToggleProps>(
     lineHeight: 0,
     textDecoration: 'none',
     cursor: 'pointer',
-    color: colorNew.trunks,
+    color: color.trunks[100],
     borderRadius: rem(radius.largest),
     border,
     borderColor: 'transparent',

@@ -21,7 +21,7 @@ const TabLink = styled.a<TabLinkProps>(({ theme, fullWidth }) => [
     lineHeight: 1.3,
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
-    color: theme.colorNew.trunks,
+    color: theme.color.trunks[100],
     transition: `color ${theme.transitionDuration.default}s ease`,
     textDecoration: 'none',
     border: 0,

@@ -25,7 +25,7 @@ export const Input = styled.input<InputProps>(({ theme }) => [
     transition: `border-color ${theme.transitionDuration.default}s ease`,
     WebkitAppearance: 'none',
     '&::placeholder': {
-      color: theme.colorNew.trunks,
+      color: theme.color.trunks[100],
       opacity: 1,
     },
     '&:hover:not(:focus):not([disabled])': {

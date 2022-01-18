@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import Caption from '../caption/Caption';
 
 const KeylineText = styled(Caption)<any>(
-  ({ theme: { borderWidth, color, colorNew, space } }) => ({
+  ({ theme: { borderWidth, color, space } }) => ({
     display: 'flex',
     width: '100%',
     alignItems: 'center',
     whiteSpace: 'nowrap',
-    color: colorNew.trunks,
+    color: color.trunks[100],
     '&::before, &::after': {
       content: '""',
       display: 'inline-block',

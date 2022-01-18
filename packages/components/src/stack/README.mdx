@@ -18,11 +18,11 @@ elements by creating a new `class` selector.
 
 ```jsx react-live
 () => {
-  const Example = styled.div(({ theme: { borderStyle, colorNew, space } }) => ({
+  const Example = styled.div(({ theme: { borderStyle, color, space } }) => ({
     height: rem(space.large),
     borderStyle,
     borderWidth: 3,
-    borderColor: colorNew.trunks,
+    borderColor: color.trunks[100],
   }));
 
   return (
@@ -88,11 +88,11 @@ key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
 
 ```jsx react-live
 () => {
-  const Example = styled.div(({ theme: { borderStyle, colorNew, space } }) => ({
+  const Example = styled.div(({ theme: { borderStyle, color, space } }) => ({
     height: rem(space.large),
     borderStyle,
     borderWidth: 3,
-    borderColor: colorNew.trunks,
+    borderColor: color.trunks[100],
   }));
 
   return (
@@ -115,20 +115,18 @@ or for other spacing needs.
 ```jsx react-live
 () => {
   const Example = styled.div(
-    ({ theme: { border, colorNew, space }, padding }) => ({
+    ({ theme: { border, color, space }, padding }) => ({
       border,
-      borderColor: colorNew.trunks,
+      borderColor: color.trunks[100],
       padding: padding && rem(space[padding]),
     })
   );
 
-  const NestedStack = styled(Stack)(
-    ({ theme: { border, colorNew, space } }) => ({
-      border,
-      borderColor: colorNew.trunks,
-      padding: rem(space.default),
-    })
-  );
+  const NestedStack = styled(Stack)(({ theme: { border, color, space } }) => ({
+    border,
+    borderColor: color.trunks[100],
+    padding: rem(space.default),
+  }));
 
   return (
     <Stack>

@@ -37,7 +37,7 @@ export const TagInputField = styled.input(({ theme }) => ({
   margin: `0 0 ${rem(4)} 0`,
   flex: 1,
   '&::placeholder': {
-    color: theme.colorNew.trunks,
+    color: theme.color.trunks[100],
     opacity: 1,
   },
 }));
@@ -106,7 +106,7 @@ export const TagRemove = styled.button(({ theme }) => ({
   fontSize: rem(16),
   display: 'inline-flex',
   alignItems: 'center',
-  color: theme.colorNew.trunks,
+  color: theme.color.trunks[100],
   cursor: 'pointer',
   transition: `color ${theme.transitionDuration.default}s ease-in-out`,
   position: 'relative',
@@ -129,7 +129,7 @@ export const ArrowContainer = styled.div(({ theme }) => ({
   right: rem(18),
   fontSize: rem(16),
   transform: 'translateY(-50%)',
-  color: theme.colorNew.trunks,
+  color: theme.color.trunks[100],
 }));
 
 export const RemoveAllButton = styled.button(({ theme }) => ({
@@ -137,7 +137,7 @@ export const RemoveAllButton = styled.button(({ theme }) => ({
   border: 'none',
   padding: 0,
   fontSize: rem(16),
-  color: theme.colorNew.trunks,
+  color: theme.color.trunks[100],
   cursor: 'pointer',
   display: 'flex',
   alignItems: 'center',
