@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
+import styled from 'styled-components';
 
 type ChipProps = {
   isActive?: boolean;

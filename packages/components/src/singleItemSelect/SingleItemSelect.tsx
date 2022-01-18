@@ -1,5 +1,5 @@
-import { rem } from '@heathmont/moon-utils';
 import React from 'react';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type OptionType = {
@@ -34,7 +34,7 @@ const Option = styled.button<{ selected: boolean }>(({ selected, theme }) => ({
   cursor: 'pointer',
   ...(selected
     ? {
-        color: theme.color.goten[100],
+        color: theme.colorNew.goten,
         backgroundColor: theme.color.piccolo[100],
       }
     : {

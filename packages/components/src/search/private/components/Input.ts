@@ -1,8 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import IconSearch from '../../../private/icons/IconSearch';
-
 import { inputConfig, zIndex } from './settings';
 
 const { height, paddingX, transition } = inputConfig;

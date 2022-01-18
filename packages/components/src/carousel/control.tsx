@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem, mq } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 
 /**
  * 1. Arbitrary number to meet with Figma designs, between small and x-small.

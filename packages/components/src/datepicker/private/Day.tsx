@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import format from 'date-fns/format';
 import { rem } from '@heathmont/moon-utils';
+import format from 'date-fns/format';
+import styled from 'styled-components';
 
 type DayStyledProps = {
   isInRange?: boolean;

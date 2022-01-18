@@ -5,7 +5,7 @@ const Tooltip = styled.div<{ position?: string }>(({ theme }) => [
   {
     display: 'inline-block',
     textAlign: 'right',
-    color: theme.color.goten[100],
+    color: theme.colorNew.goten,
     background: theme.color.hit[100],
     fontSize: rem(12),
     lineHeight: rem(16),
