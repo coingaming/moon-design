@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
-import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import React from 'react';
+import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import { Loader } from '@heathmont/moon-components';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Button = styled.button<{ hasUpdates?: boolean }>(
   ({ hasUpdates, theme }) => ({
@@ -60,15 +60,15 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
   flexDirection: 'column',
   padding: rem(theme.space.default),
-  color: isActive ? theme.color.goten[100] : theme.color.bulma[100],
+  color: isActive ? theme.colorNew.goten : theme.color.bulma[100],
   background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
   borderRadius: rem(theme.space.default),
   width: '100%',
   ...(isActive && {
     [Button]: {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
       '&:after': {
-        background: theme.color.goten[100],
+        background: theme.colorNew.goten,
       },
     },
   }),

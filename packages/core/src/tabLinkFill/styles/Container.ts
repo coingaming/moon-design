@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
+import styled from 'styled-components';
 
 type Props = {
   elementLeft?: React.ReactElement;
@@ -30,7 +30,7 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   },
   '&:active, &.active, &[aria-current=page]': {
     backgroundColor: theme.color.piccolo[100],
-    color: theme.color.goten[100],
+    color: theme.colorNew.goten,
   },
 }));
 

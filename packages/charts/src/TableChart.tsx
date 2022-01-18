@@ -1,12 +1,11 @@
 import React, { useRef } from 'react';
-import styled from 'styled-components';
 import { Transition } from 'react-transition-group';
-
-import { Panel } from './private/Panel';
-import { Header } from './private/Header';
-import { Count, Table, Cell, TableItem, Value } from './private/Table';
+import styled from 'styled-components';
 import ChartIcons from './ChartIcons';
+import { Header } from './private/Header';
 import { Loader } from './private/Loader';
+import { Panel } from './private/Panel';
+import { Count, Table, Cell, TableItem, Value } from './private/Table';
 
 const CustomLoader = styled(Loader)({});
 
@@ -17,13 +16,13 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   overflow: 'auto',
   ...(isActive && {
     'tr *': {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
     },
     [`${CustomLoader} p`]: {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
     },
     [`${Count}`]: {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
     },
   }),
 }));
