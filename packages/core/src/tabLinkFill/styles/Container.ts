@@ -17,7 +17,7 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   lineHeight: rem(24),
   fontFamily: 'inherit',
   backgroundColor: 'transparent',
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   transitionProperty: 'color, background-color',
   transitionDuration: `${theme.transitionDuration.default}s`,
   transitionTimingFunction: 'ease',

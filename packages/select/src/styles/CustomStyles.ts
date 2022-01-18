@@ -1,6 +1,6 @@
-import { StylesConfig, Props } from 'react-select';
-import { rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import { StylesConfig, Props } from 'react-select';
 
 type CustomProps = {
   isCustomControl?: boolean;
@@ -61,7 +61,7 @@ const CustomStyles: StylesConfig = {
         state.isSelected || state.isFocused
           ? theme.color.goku[100]
           : 'transparent',
-      color: state.isSelected ? theme.color.bulma[100] : 'inherit',
+      color: state.isSelected ? theme.colorNew.bulma : 'inherit',
       '&:last-child': {
         marginBottom: 0,
       },

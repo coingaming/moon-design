@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem, mq, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const ToastContainer = styled.div<any>(
   ({ backgroundColor, theme, position }) => [
@@ -38,7 +38,7 @@ const ToastContainer = styled.div<any>(
       boxShadow:
         '0px 6.4px 14px 0px rgba(0,0,0,0.52), 0px 1.2px 3.6px 0px rgba(0,0,0,0.4)',
       backgroundColor:
-        themed('color', backgroundColor)(theme) || theme.color.bulma[100],
+        themed('color', backgroundColor)(theme) || theme.colorNew.bulma,
       borderRadius: rem(12),
       display: 'flex',
       flexDirection: 'row',

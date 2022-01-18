@@ -42,7 +42,7 @@ const Input = styled.input.attrs(({ type }) => ({
       font: 'inherit',
       fontSize: rem(16),
       lineHeight: rem(40),
-      color: color.bulma[100],
+      color: colorNew.bulma,
       backgroundColor: !bgColor
         ? 'transparent'
         : themed('color', bgColor)(currentTheme),

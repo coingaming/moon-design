@@ -60,7 +60,7 @@ const Label = styled.div(({ theme }) => ({
 const Value = styled.div(({ theme }) => ({
   fontSize: rem(18),
   lineHeight: rem(24),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
 }));
 
 type Props = {
