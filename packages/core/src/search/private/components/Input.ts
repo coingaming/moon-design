@@ -90,6 +90,7 @@ export const SearchInput = styled.input<
     theme: {
       breakpoint,
       color,
+      colorNew,
       fontSize,
       fontWeight,
       radius,
