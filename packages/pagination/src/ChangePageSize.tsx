@@ -1,13 +1,12 @@
+import React, { useRef, useState } from 'react';
+import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import {
   Button,
   FilterDropdown,
   SingleItemSelect,
 } from '@heathmont/moon-components';
-import React, { useRef, useState } from 'react';
-import { IconChevronDownRounded } from '@heathmont/moon-assets';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import useClickAway from './__private__/useClickAway';
 
 const Wrapper = styled.div({
@@ -30,7 +29,7 @@ const Dropdown = styled.div(({ theme }) => ({
 }));
 
 const ButtonDefault = styled(Button)(({ theme }) => ({
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
   background: 'none',
   borderColor: theme.color.beerus[100],
   transition: `color ${theme.transitionDuration.default}s`,

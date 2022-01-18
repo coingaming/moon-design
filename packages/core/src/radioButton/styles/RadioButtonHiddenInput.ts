@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { hideVisually } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const RadioButtonHiddenInput = styled.input(({ theme }) => ({
   ...hideVisually(),
@@ -8,7 +8,7 @@ const RadioButtonHiddenInput = styled.input(({ theme }) => ({
     '& + figure::before': {
       opacity: 0.2,
       transform: 'scale(2)',
-      backgroundColor: theme.color.trunks[100],
+      backgroundColor: theme.colorNew.trunks,
     },
     '&:checked + figure::before': {
       opacity: 0,

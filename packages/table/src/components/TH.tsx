@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { ColorNames } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const TH = styled.div<{
   headerBackgroundColor?: ColorNames;
@@ -8,9 +8,9 @@ const TH = styled.div<{
   ({ theme, headerBackgroundColor }) => ({
     backgroundColor: themed('color', headerBackgroundColor)(theme),
   }),
-  ({ theme: { color, space } }) => ({
+  ({ theme: { color, colorNew, space } }) => ({
     padding: rem(space.small),
-    color: color.trunks[100],
+    color: colorNew.trunks,
     position: 'relative',
     fontSize: rem(12),
     '&::after': {

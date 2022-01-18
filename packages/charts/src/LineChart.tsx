@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
 import {
   CartesianGrid,
   Line,
@@ -9,15 +11,12 @@ import {
   YAxis,
 } from 'recharts';
 import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
-import { ColorProps, useTheme } from '@heathmont/moon-themes';
-
+import ChartIcons from './ChartIcons';
+import { Header } from './private/Header';
+import { Loader } from './private/Loader';
 import { Panel } from './private/Panel';
 import { Selector } from './private/Selector';
 import { Tooltip } from './private/Tooltip';
-import { Header } from './private/Header';
-import ChartIcons from './ChartIcons';
-import { Loader } from './private/Loader';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
@@ -26,7 +25,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
     flexGrow: 1,
     '.recharts-cartesian-axis': {
       text: {
-        fill: theme.color.trunks[100],
+        fill: theme.colorNew.trunks,
         fontSize: rem(theme.space.small),
       },
     },

@@ -1,6 +1,5 @@
-import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
-
+import styled from 'styled-components';
 import { underlineWidth, underlineOffset } from '../tabs/private';
 
 type TabLinkProps = {

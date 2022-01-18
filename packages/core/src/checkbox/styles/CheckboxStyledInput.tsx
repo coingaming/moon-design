@@ -11,7 +11,7 @@ const CheckboxStyledInput = styled.figure(({ theme }) => ({
   boxSizing: 'border-box',
   width: rem(theme.space.default),
   height: rem(theme.space.default),
-  border: `${rem(BORDER_WIDTH)} solid ${theme.color.trunks[100]}`,
+  border: `${rem(BORDER_WIDTH)} solid ${theme.colorNew.trunks}`,
   borderRadius: rem(2),
   transitionDuration: `${theme.transitionDuration.default}s`,
   /* Common styles for the Pseudo Checkbox Circle and "check" */
