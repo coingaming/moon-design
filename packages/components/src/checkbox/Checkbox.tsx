@@ -79,7 +79,9 @@ const CheckboxInput = styled.input(({ theme }) => ({
   '& + span': {
     cursor: 'pointer',
     '&::after': {
-      backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
+      backgroundImage: inlineSvg(
+        <CheckboxIcon color={theme.color.goten[100]} />
+      ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,
