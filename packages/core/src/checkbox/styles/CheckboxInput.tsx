@@ -29,7 +29,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     },
     '&:checked + span::before': {
       opacity: 0.1,
-      backgroundColor: theme.color.piccolo[100] /* [1] */,
+      backgroundColor: theme.colorNew.piccolo /* [1] */,
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {
@@ -38,9 +38,9 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   },
   /* Add the "check" to the Pseudo Checkbox */
   '&:checked + span::after': {
-    backgroundColor: theme.color.piccolo[100],
+    backgroundColor: theme.colorNew.piccolo,
     backgroundSize: rem(10),
-    borderColor: theme.color.piccolo[100],
+    borderColor: theme.colorNew.piccolo,
   },
   '&[disabled] + span': {
     opacity: 0.5,
