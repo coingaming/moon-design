@@ -65,13 +65,13 @@ const Input = styled.input.attrs(({ type }) => ({
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? rgba(color.piccolo[100], 0.12) : color.chiChi[100]
+          !error ? rgba(colorNew.piccolo, 0.12) : color.chiChi[100]
         } inset`,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? color.piccolo[100] : color.chiChi[100]
+          !error ? colorNew.piccolo : color.chiChi[100]
         } inset`,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':

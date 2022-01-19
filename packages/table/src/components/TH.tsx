@@ -8,7 +8,7 @@ const TH = styled.div<{
   ({ theme, headerBackgroundColor }) => ({
     backgroundColor: themed('color', headerBackgroundColor)(theme),
   }),
-  ({ theme: { color, colorNew, space } }) => ({
+  ({ theme: { colorNew, space } }) => ({
     padding: rem(space.small),
     color: colorNew.trunks,
     position: 'relative',
@@ -43,7 +43,7 @@ const TH = styled.div<{
       },
       '&.isResizing': {
         '&::after': {
-          background: color.piccolo[100],
+          background: colorNew.piccolo,
         },
       },
     },

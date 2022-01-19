@@ -44,7 +44,7 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
 const ColorPreview = styled.div<{ color?: ColorProps }>(({ theme, color }) => ({
   width: rem(8),
   height: rem(8),
-  background: color ? themed('color', color)(theme) : theme.color.piccolo[100],
+  background: color ? themed('color', color)(theme) : theme.colorNew.piccolo,
   borderRadius: '50%',
   position: 'absolute',
   top: rem(14),

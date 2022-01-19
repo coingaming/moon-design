@@ -35,7 +35,7 @@ const ButtonDefault = styled(Button)(({ theme }) => ({
   transition: `color ${theme.transitionDuration.default}s`,
   '&:hover:not([disabled]), &:focus:not([disabled])': {
     background: 'none',
-    color: theme.color.piccolo[100],
+    color: theme.colorNew.piccolo,
   },
 }));
 

@@ -90,7 +90,7 @@ const CustomStyles: StylesConfig = {
       boxShadow: customProps.isError
         ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
         : state.isFocused
-        ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
+        ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
         : 'none',
       transition:
         !state.isFocused || !customProps.isError
@@ -101,7 +101,7 @@ const CustomStyles: StylesConfig = {
         boxShadow: customProps.isError
           ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
           : state.isFocused
-          ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
+          ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
           : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },

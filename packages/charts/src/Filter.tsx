@@ -13,7 +13,7 @@ const Toggle = styled.button<{ isOpen: boolean }>(({ isOpen, theme }) => ({
   display: 'flex',
   fontSize: rem(12),
   alignItems: 'center',
-  color: isOpen ? theme.color.piccolo[100] : theme.colorNew.trunks,
+  color: isOpen ? theme.colorNew.piccolo : theme.colorNew.trunks,
   background: 'none',
   border: 'none',
   padding: 0,
