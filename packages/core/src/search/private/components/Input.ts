@@ -125,11 +125,11 @@ export const SearchInput = styled.input<
       color: 'inherit',
     },
     '&:hover': {
-      backgroundColor: color.gohan[100],
+      backgroundColor: colorNew.gohan,
       borderColor: colorNew.beerus,
     },
     '&:active, &:focus': {
-      backgroundColor: color.gohan[100],
+      backgroundColor: colorNew.gohan,
       borderColor: color.piccolo[100],
       color: colorNew.bulma,
     },

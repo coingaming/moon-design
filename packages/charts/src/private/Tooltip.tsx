@@ -6,7 +6,7 @@ import styled from 'styled-components';
 export const TooltipWrapper = styled.div(({ theme }) => ({
   display: 'inline-block',
   color: theme.colorNew.goten,
-  background: theme.color.gohan[100],
+  background: theme.colorNew.gohan,
   fontSize: rem(12),
   lineHeight: rem(16),
   padding: rem(12),

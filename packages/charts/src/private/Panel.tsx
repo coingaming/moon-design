@@ -61,7 +61,7 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   flexDirection: 'column',
   padding: rem(theme.space.default),
   color: isActive ? theme.colorNew.goten : theme.colorNew.bulma,
-  background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
+  background: isActive ? theme.color.piccolo[100] : theme.colorNew.gohan,
   borderRadius: rem(theme.space.default),
   width: '100%',
   ...(isActive && {
