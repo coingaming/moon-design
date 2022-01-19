@@ -25,7 +25,7 @@ exports[`Radiobutton API renders 1`] = `
           0 - 30
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
         >
           <input
             aria-label="0 - 30"
@@ -57,7 +57,7 @@ exports[`Radiobutton API renders 1`] = `
           31 - 60
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
         >
           <input
             aria-label="0 - 30"
@@ -89,7 +89,7 @@ exports[`Radiobutton API renders 1`] = `
           31 - 60
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
         >
           <input
             aria-label="61 - 100"

@@ -22,19 +22,19 @@ const MainWrapper = styled.div({
   gridArea: 'main',
 });
 
-const ElementLeftWrapper = styled.span(({ theme }) => ({
+const ElementLeftWrapper = styled.span({
   gridArea: 'icon',
-  marginRight: theme.newTokens.space.xsmall,
+  marginRight: rem(8),
   display: 'flex',
   alignItems: 'center',
-}));
+});
 
-const ElementRightWrapper = styled.span(({ theme }) => ({
+const ElementRightWrapper = styled.span({
   gridArea: 'meta',
-  marginLeft: theme.newTokens.space.xsmall,
+  marginLeft: rem(8),
   display: 'flex',
   alignItems: 'center',
-}));
+});
 
 const ListItem: React.FC<ListItemProps> = ({
   children,

@@ -5,8 +5,8 @@ const MetaWrapper = styled.span(({ theme }) => ({
   gridArea: 'meta',
   color: theme.colorNew.trunks,
   fontSize: rem(12),
-  lineHeight: theme.newTokens.size.twoxsmall,
-  marginLeft: theme.newTokens.space.xsmall,
+  lineHeight: rem(16),
+  marginLeft: rem(8),
   alignSelf: 'center',
 }));
 
