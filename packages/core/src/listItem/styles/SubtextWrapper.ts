@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const SubtextWrapper = styled.div(({ theme }) => ({
   gridArea: 'description',
   fontSize: rem(12),
-  lineHeight: theme.newTokens.space.small,
+  lineHeight: rem(16),
   color: theme.colorNew.trunks,
   display: 'flex',
   flex: 1,

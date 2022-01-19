@@ -28,12 +28,12 @@ const Container = styled.div<Props>(
     gridTemplateColumns: `min-content 1fr max-content`,
     justifyContent: 'space-between',
     alignItems: 'center',
-    lineHeight: newTokens.size.xsmall,
+    lineHeight: rem(24),
     borderRadius: newTokens.borderRadius.medium,
   }),
-  ({ size, theme: { newTokens } }) => ({
+  ({ size }) => ({
     fontSize: size === 'medium' ? rem(14) : rem(16),
-    padding: size === 'medium' ? `${newTokens.space.xsmall}` : rem(12),
+    padding: size === 'medium' ? `${rem(8)}` : rem(12),
   }),
   ({ color, backgroundColor, theme }) => ({
     color: color ? themed('color', color)(theme) : theme.colorNew.bulma,
