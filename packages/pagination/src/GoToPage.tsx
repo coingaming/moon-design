@@ -27,7 +27,7 @@ const CircleButton = styled.button(
   transition-property: color, background-color;
   transition-duration: ${theme.transitionDuration.default}s;
   &:hover, &:focus {
-    background-color: ${theme.color.piccolo[100]};
+    background-color: ${theme.colorNew.piccolo};
     color: ${theme.colorNew.goten};
   }
 `
@@ -53,7 +53,7 @@ const Form = styled.form(({ theme }) => ({
     backgroundColor: theme.color.goku[80],
     color: theme.colorNew.trunks,
     '&:hover, &:focus': {
-      backgroundColor: theme.color.piccolo[100],
+      backgroundColor: theme.colorNew.piccolo,
       color: '#fff',
     },
   },

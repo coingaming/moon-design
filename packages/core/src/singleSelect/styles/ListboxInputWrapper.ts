@@ -32,13 +32,13 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '&[data-value="placeholder"]': {
         color: colorNew.trunks,
       },
       '&[data-state="expanded"]': {
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
     },
     error && {

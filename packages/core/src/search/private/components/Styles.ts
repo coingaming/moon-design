@@ -35,7 +35,7 @@ export const FlexWrapper = styled.div(({ theme: { space } }) => ({
 }));
 
 export const ModalClose = styled(Button)(
-  ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
+  ({ theme: { base, breakpoint, colorNew, fontWeight, space } }) => ({
     position: 'relative',
     display: 'none',
     flex: 0,
@@ -45,9 +45,9 @@ export const ModalClose = styled(Button)(
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
     overflow: 'visible',
-    color: color.piccolo[100],
+    color: colorNew.piccolo,
     ['&:hover:not([disabled])']: {
-      color: color.piccolo[100],
+      color: colorNew.piccolo,
     },
     [mq(breakpoint.medium, 'max-width')]: {
       '.active &': {

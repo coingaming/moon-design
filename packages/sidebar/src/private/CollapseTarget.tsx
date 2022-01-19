@@ -2,10 +2,7 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 export const CollapseTarget = styled.div<{ isOpen: boolean }>(
-  ({
-    isOpen,
-    theme: { space, color, colorNew, transitionDuration, boxShadow },
-  }) => ({
+  ({ isOpen, theme: { space, colorNew, transitionDuration, boxShadow } }) => ({
     fontSize: rem(space.small),
     padding: rem(space.small),
     background: colorNew.gohan,
@@ -21,7 +18,7 @@ export const CollapseTarget = styled.div<{ isOpen: boolean }>(
     boxShadow,
     color: colorNew.trunks,
     '&:hover': {
-      color: color.piccolo[100],
+      color: colorNew.piccolo,
     },
     ...(isOpen
       ? {

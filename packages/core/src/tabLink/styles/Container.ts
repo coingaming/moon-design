@@ -35,12 +35,12 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
       right: 0,
       bottom: isTop ? 'auto' : 0,
       margin: '0 auto',
-      backgroundColor: theme.color.piccolo[100],
+      backgroundColor: theme.colorNew.piccolo,
       transform: 'scaleX(0)',
       transition: `transform ${theme.transitionDuration.default}s ease`,
     },
     '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
-      color: theme.color.piccolo[100],
+      color: theme.colorNew.piccolo,
       cursor: 'pointer',
       '&:after': {
         transform: 'scaleX(1)',

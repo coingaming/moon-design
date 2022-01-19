@@ -31,7 +31,7 @@ const InputWrapper = styled.div<InputWrapperProps>(
         borderColor: theme.colorNew.beerus,
       },
       '&:active': {
-        borderColor: theme.color.piccolo[100],
+        borderColor: theme.colorNew.piccolo,
       },
       '&::after': {
         content: '""',
@@ -47,7 +47,7 @@ const InputWrapper = styled.div<InputWrapperProps>(
           borderColor: theme.colorNew.beerus,
         },
         '&:active': {
-          borderColor: theme.color.piccolo[100],
+          borderColor: theme.colorNew.piccolo,
         },
         borderRadius: rem(theme.radius.largest),
         transition: `border-color ${theme.transitionDuration.default}s ease`,
@@ -55,14 +55,14 @@ const InputWrapper = styled.div<InputWrapperProps>(
       },
     },
     isExpandedInner && {
-      borderColor: theme.color.piccolo[100],
+      borderColor: theme.colorNew.piccolo,
       '&:hover:not(:active)': {
-        borderColor: theme.color.piccolo[100],
+        borderColor: theme.colorNew.piccolo,
       },
       '&::after': {
-        borderColor: theme.color.piccolo[100],
+        borderColor: theme.colorNew.piccolo,
         '&:hover:not(:active)': {
-          borderColor: theme.color.piccolo[100],
+          borderColor: theme.colorNew.piccolo,
         },
       },
     },

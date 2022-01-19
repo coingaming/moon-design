@@ -89,7 +89,6 @@ export const SearchInput = styled.input<
     hasBorder,
     theme: {
       breakpoint,
-      color,
       colorNew,
       fontSize,
       fontWeight,
@@ -130,12 +129,12 @@ export const SearchInput = styled.input<
     },
     '&:active, &:focus': {
       backgroundColor: colorNew.gohan,
-      borderColor: color.piccolo[100],
+      borderColor: colorNew.piccolo,
       color: colorNew.bulma,
     },
     [mq(breakpoint.medium, 'max-width')]: {
       [':focus:not(:placeholder-shown)']: {
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
     },
   })

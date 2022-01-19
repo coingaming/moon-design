@@ -28,14 +28,14 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
       left: 0,
       transitionDuration: `${theme.transitionDuration.default}s`,
       transitionTimingFunction: 'ease',
-      backgroundColor: theme.color.piccolo[100],
+      backgroundColor: theme.colorNew.piccolo,
       borderRadius: rem(theme.radius.default),
       opacity: 0,
       transform: 'scale(0)',
       transitionProperty: 'transform, opacity',
     },
     '&:hover, &:focus': {
-      color: theme.color.piccolo[100],
+      color: theme.colorNew.piccolo,
       '&:before': {
         transform: 'scale(1)',
         opacity: 0.1,
@@ -50,7 +50,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
         width: rem(4),
         height: rem(4),
         borderRadius: '50%',
-        background: theme.color.piccolo[100],
+        background: theme.colorNew.piccolo,
       },
     }),
   })
@@ -61,7 +61,7 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   flexDirection: 'column',
   padding: rem(theme.space.default),
   color: isActive ? theme.colorNew.goten : theme.colorNew.bulma,
-  background: isActive ? theme.color.piccolo[100] : theme.colorNew.gohan,
+  background: isActive ? theme.colorNew.piccolo : theme.colorNew.gohan,
   borderRadius: rem(theme.space.default),
   width: '100%',
   ...(isActive && {

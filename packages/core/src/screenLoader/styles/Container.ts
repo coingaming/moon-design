@@ -1,6 +1,7 @@
-import styled, { css, keyframes } from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled, { css, keyframes } from 'styled-components';
+
 /**
  * Animations
  */
@@ -69,7 +70,7 @@ const Container = styled.div<ContainerProps>`
   --first-color: ${({ theme, firstColor }) =>
     firstColor || theme.color.chiChi[100]};
   --second-color: ${({ theme, secondColor }) =>
-    secondColor || theme.color.piccolo[100]};
+    secondColor || theme.colorNew.piccolo};
   --third-color: ${({ theme, thirdColor }) =>
     thirdColor || theme.color.cell[100]};
   --fourth-color: ${({ theme, fourthColor }) =>

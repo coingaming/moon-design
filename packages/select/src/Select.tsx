@@ -103,7 +103,7 @@ const Select = <T extends BaseOptionType>({
           primary25: moonTheme.colorNew.goku as string,
           primary50: moonTheme.color.hit[80] as string,
           primary75: moonTheme.colorNew.trunks as string,
-          primary: moonTheme.color.piccolo[100] as string, // border focused and option active bg
+          primary: moonTheme.colorNew.piccolo as string, // border focused and option active bg
           danger: moonTheme.color.chiChi[100] as string,
           dangerLight: moonTheme.color.chiChi[10] as string,
           neutral0: moonTheme.colorNew.gohan as string, // bg

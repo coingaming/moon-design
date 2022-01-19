@@ -38,11 +38,11 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       },
       '&:hover:enabled, &:focus:enabled': {
         cursor: 'pointer',
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '&:hover:not(:focus):not([disabled])': {
         borderColor: colorNew.beerus,
@@ -55,9 +55,9 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       padding: `${rem(7)} ${rem(15)}`,
     },
     isexpanded && {
-      borderColor: color.piccolo[100],
+      borderColor: colorNew.piccolo,
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '& span[data-reach-listbox-arrow]': {
         transform: 'rotate(180deg)',
