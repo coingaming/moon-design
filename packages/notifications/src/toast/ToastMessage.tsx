@@ -5,7 +5,7 @@ const ToastMessage = styled.p(({ theme }) => ({
   display: 'block',
   fontSize: rem(14),
   lineHeight: 1.25,
-  color: theme.color.hit[100],
+  color: theme.colorNew.hit,
 }));
 
 export default ToastMessage;
