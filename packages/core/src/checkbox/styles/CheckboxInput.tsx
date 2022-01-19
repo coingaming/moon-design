@@ -43,7 +43,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     borderColor: theme.colorNew.piccolo,
   },
   '&[disabled] + span': {
-    opacity: 0.5,
+    opacity: theme.newTokens.opacity,
     cursor: 'not-allowed',
   },
 }));

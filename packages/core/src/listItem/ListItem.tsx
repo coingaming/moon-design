@@ -1,12 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import Container from './styles/Container';
 import MetaWrapper from './styles/MetaWrapper';
-import SubtextWrapper from './styles/SubtextWrapper';
 import SubtextInner from './styles/SubtextInner';
+import SubtextWrapper from './styles/SubtextWrapper';
 
 export type ListItemProps = {
   color?: ColorProps;
@@ -22,19 +22,19 @@ const MainWrapper = styled.div({
   gridArea: 'main',
 });
 
-const ElementLeftWrapper = styled.span({
+const ElementLeftWrapper = styled.span(({ theme }) => ({
   gridArea: 'icon',
-  marginRight: rem(8),
+  marginRight: theme.newTokens.space.xsmall,
   display: 'flex',
   alignItems: 'center',
-});
+}));
 
-const ElementRightWrapper = styled.span({
+const ElementRightWrapper = styled.span(({ theme }) => ({
   gridArea: 'meta',
-  marginLeft: rem(8),
+  marginLeft: theme.newTokens.space.xsmall,
   display: 'flex',
   alignItems: 'center',
-});
+}));
 
 const ListItem: React.FC<ListItemProps> = ({
   children,
