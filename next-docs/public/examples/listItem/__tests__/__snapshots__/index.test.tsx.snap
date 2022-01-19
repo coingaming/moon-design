@@ -44,7 +44,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
       className="Container-sc-1vcdan4-0 iiencZ"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 kFIUTS"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 bXOMde"
       >
         <svg
           className="sc-eazVgQ"
@@ -81,7 +81,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         Single line item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
       >
         <svg
           className="sc-eazVgQ"
@@ -108,7 +108,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
       className="Container-sc-1vcdan4-0 iiencZ"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 kFIUTS"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 bXOMde"
       >
         <svg
           className="sc-eazVgQ"
@@ -132,7 +132,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         Single line item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
       >
         <svg
           className="sc-eazVgQ"
@@ -274,7 +274,7 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
         Two lines item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
       >
         <label
           className="CheckboxLabel-wyw1pu-0 fHKRiw"
@@ -313,7 +313,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       className="Container-sc-1vcdan4-0 iiencZ"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 kFIUTS"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 bXOMde"
       >
         <svg
           className="sc-eazVgQ"
@@ -359,7 +359,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         Two lines item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
       >
         <svg
           className="sc-eazVgQ"
@@ -395,7 +395,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       className="Container-sc-1vcdan4-0 iiencZ"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 kFIUTS"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 bXOMde"
       >
         <svg
           className="sc-eazVgQ"
@@ -419,7 +419,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         Two lines item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 dnOxwT"
       >
         <svg
           className="sc-eazVgQ"
