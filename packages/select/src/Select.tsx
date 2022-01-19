@@ -100,7 +100,7 @@ const Select = <T extends BaseOptionType>({
         borderRadius: moonTheme.radius.default,
         colors: {
           ...theme.colors,
-          primary25: moonTheme.color.goku[100] as string,
+          primary25: moonTheme.colorNew.goku as string,
           primary50: moonTheme.color.hit[80] as string,
           primary75: moonTheme.colorNew.trunks as string,
           primary: moonTheme.color.piccolo[100] as string, // border focused and option active bg

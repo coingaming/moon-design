@@ -59,7 +59,7 @@ const CustomStyles: StylesConfig = {
       marginBottom: rem(4),
       backgroundColor:
         state.isSelected || state.isFocused
-          ? theme.color.goku[100]
+          ? theme.colorNew.goku
           : 'transparent',
       color: state.isSelected ? theme.colorNew.bulma : 'inherit',
       '&:last-child': {
