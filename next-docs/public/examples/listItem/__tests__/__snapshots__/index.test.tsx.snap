@@ -280,11 +280,11 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
           className="CheckboxLabel-wyw1pu-0 fHKRiw"
         >
           <input
-            className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+            className="CheckboxInput-sc-12uz9za-0 bYuiaE"
             type="checkbox"
           />
           <span
-            className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+            className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
           />
         </label>
       </span>
