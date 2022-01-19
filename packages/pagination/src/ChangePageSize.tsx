@@ -31,7 +31,7 @@ const Dropdown = styled.div(({ theme }) => ({
 const ButtonDefault = styled(Button)(({ theme }) => ({
   color: theme.colorNew.trunks,
   background: 'none',
-  borderColor: theme.color.beerus[100],
+  borderColor: theme.colorNew.beerus,
   transition: `color ${theme.transitionDuration.default}s`,
   '&:hover:not([disabled]), &:focus:not([disabled])': {
     background: 'none',

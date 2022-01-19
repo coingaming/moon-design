@@ -49,7 +49,7 @@ const Input = styled.input.attrs(({ type }) => ({
       position: 'relative',
       zIndex: 2,
       border: 'none',
-      boxShadow: `0 0 0 ${rem(1)} ${color.beerus[100]} inset`,
+      boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
       borderRadius: rem(radius.largest),
       transition: `box-shadow ${transitionDuration.default}s ease`,
       WebkitAppearance: 'none',

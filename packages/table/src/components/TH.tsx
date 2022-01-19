@@ -17,7 +17,7 @@ const TH = styled.div<{
       content: '""',
       position: 'absolute',
       width: '1px',
-      backgroundColor: color.beerus[100],
+      backgroundColor: colorNew.beerus,
       height: '70%',
       bottom: '15%',
       right: 0,

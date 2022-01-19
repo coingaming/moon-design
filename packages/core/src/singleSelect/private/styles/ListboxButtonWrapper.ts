@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { ListboxButton, ListboxButtonProps } from '@reach/listbox';
+import styled from 'styled-components';
 
 interface ListboxButtonWrapperProps extends ListboxButtonProps {
   disabled?: boolean;
@@ -13,7 +13,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
   ({
-    theme: { border, color, radius, transitionDuration },
+    theme: { border, color, colorNew, radius, transitionDuration },
     disabled,
     isexpanded,
     inputsize,
@@ -45,7 +45,7 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
         borderColor: color.piccolo[100],
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.beerus[100],
+        borderColor: colorNew.beerus,
       },
       '@supports (-moz-appearance:none)': {
         lineHeight: rem(24),

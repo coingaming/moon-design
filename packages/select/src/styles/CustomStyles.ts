@@ -102,7 +102,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
           : state.isFocused
           ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
-          : `inset 0 0 0 1px ${theme.color.beerus[100]}`,
+          : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },
     };

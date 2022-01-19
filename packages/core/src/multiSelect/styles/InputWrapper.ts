@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 interface InputWrapperProps {
   isExpandedInner: boolean | undefined;
@@ -28,7 +28,7 @@ const InputWrapper = styled.div<InputWrapperProps>(
       transition: `border-color ${theme.transitionDuration.default}s ease`,
       WebkitAppearance: 'none',
       '&:hover:not(:active)': {
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
       },
       '&:active': {
         borderColor: theme.color.piccolo[100],
@@ -42,9 +42,9 @@ const InputWrapper = styled.div<InputWrapperProps>(
         right: rem(-2),
         bottom: rem(-2),
         border: `${rem(1)} solid`,
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
         '&:hover:not(:active)': {
-          borderColor: theme.color.beerus[100],
+          borderColor: theme.colorNew.beerus,
         },
         '&:active': {
           borderColor: theme.color.piccolo[100],
@@ -77,10 +77,10 @@ const InputWrapper = styled.div<InputWrapperProps>(
       },
       '&::after': {
         '&:hover:not(:active)': {
-          borderColor: theme.color.beerus[100],
+          borderColor: theme.colorNew.beerus,
         },
         '&:active': {
-          borderColor: theme.color.beerus[100],
+          borderColor: theme.colorNew.beerus,
         },
       },
     },

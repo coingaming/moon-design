@@ -16,7 +16,7 @@ const Container = styled.div<{ isDivider?: boolean }>(
     isDivider && {
       padding: `${rem(24)} ${rem(16)}`,
       borderBottom: border,
-      borderColor: color.beerus[100],
+      borderColor: colorNew.beerus,
     },
   ]
 );

@@ -24,7 +24,7 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
       lineHeight: rem(24),
       color: colorNew.bulma,
       border: `${borderWidth}px solid`,
-      borderColor: color.beerus[100],
+      borderColor: colorNew.beerus,
       borderRadius: rem(radius.largest),
       transition: `border-color ${transitionDuration.default}s ease`,
       '&:focus, &:focus-visible': {

@@ -126,7 +126,7 @@ export const SearchInput = styled.input<
     },
     '&:hover': {
       backgroundColor: color.gohan[100],
-      borderColor: color.beerus[100],
+      borderColor: colorNew.beerus,
     },
     '&:active, &:focus': {
       backgroundColor: color.gohan[100],

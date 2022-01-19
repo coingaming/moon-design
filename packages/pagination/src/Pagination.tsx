@@ -91,7 +91,7 @@ const ReactPaginateWrapper = styled.div(({ theme }): any => ({
         cursor: 'default',
         color: theme.colorNew.trunks,
         background: 'none',
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
       },
     },
   },

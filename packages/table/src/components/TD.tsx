@@ -11,7 +11,7 @@ const TD = styled.div(({ theme }) => ({
     content: '""',
     position: 'absolute',
     width: '1px',
-    backgroundColor: theme.color.beerus[100],
+    backgroundColor: theme.colorNew.beerus,
     height: '60%',
     bottom: '20%',
     right: 0,

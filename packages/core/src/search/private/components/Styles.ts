@@ -88,7 +88,7 @@ export const Results = styled.div(
       borderRadius: rem(radius.default),
       borderWidth,
       borderStyle: 'solid',
-      borderColor: color.beerus[100],
+      borderColor: colorNew.beerus,
       backgroundColor: color.gohan[100],
       boxShadow: shadows.lg,
     },
