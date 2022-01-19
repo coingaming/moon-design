@@ -19,9 +19,9 @@ const InputWrapper = styled.div<InputWrapperProps>(
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      backgroundColor: theme.color.gohan[100],
+      backgroundColor: theme.colorNew.gohan,
       border: `${rem(1)} solid`,
-      borderColor: theme.color.gohan[100],
+      borderColor: theme.colorNew.gohan,
       borderRadius: rem(theme.radius.largest),
       padding: `${rem(8)} ${rem(13)} ${rem(6)}`,
       cursor: 'pointer',
@@ -70,10 +70,10 @@ const InputWrapper = styled.div<InputWrapperProps>(
       opacity: 0.3,
       cursor: 'default',
       '&:hover:not(:active)': {
-        borderColor: theme.color.gohan[100],
+        borderColor: theme.colorNew.gohan,
       },
       '&:active': {
-        borderColor: theme.color.gohan[100],
+        borderColor: theme.colorNew.gohan,
       },
       '&::after': {
         '&:hover:not(:active)': {
