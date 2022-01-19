@@ -27,7 +27,7 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
   margin: `0 ${rem(8)}`,
   padding: `${rem(8)} ${rem(16)} ${rem(8)} ${rem(32)}`,
   cursor: 'pointer',
-  background: isActive ? theme.color.goku[100] : 'none',
+  background: isActive ? theme.colorNew.goku : 'none',
   borderRadius: rem(8),
   border: 'none',
   willChange: 'background',

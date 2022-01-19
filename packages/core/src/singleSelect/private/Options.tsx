@@ -1,8 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
 import { ListboxList, ListboxOption } from '@reach/listbox';
+import styled from 'styled-components';
 import Option from '../private/OptionType';
 
 interface OptionsProps {
@@ -22,13 +21,15 @@ const ListboxListWrapper = styled(ListboxList)({
   },
 });
 
-const ListboxOptionWrapper = styled(ListboxOption)(({ theme: { color } }) => ({
-  cursor: 'pointer',
-  borderRadius: rem(4),
-  '&:hover': {
-    backgroundColor: color.goku[100],
-  },
-}));
+const ListboxOptionWrapper = styled(ListboxOption)(
+  ({ theme: { colorNew } }) => ({
+    cursor: 'pointer',
+    borderRadius: rem(4),
+    '&:hover': {
+      backgroundColor: colorNew.goku,
+    },
+  })
+);
 
 const Placeholder = styled(ListboxOption)({
   display: 'none',

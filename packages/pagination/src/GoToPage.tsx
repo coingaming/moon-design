@@ -22,7 +22,7 @@ const CircleButton = styled.button(
   padding: 0;
   cursor: pointer;
   border: none;
-  background-color: ${theme.color.goku[100]};
+  background-color: ${theme.colorNew.goku};
   color: ${theme.colorNew.trunks};
   transition-property: color, background-color;
   transition-duration: ${theme.transitionDuration.default}s;
