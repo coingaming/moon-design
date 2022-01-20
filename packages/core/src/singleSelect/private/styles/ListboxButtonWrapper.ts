@@ -13,7 +13,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
   ({
-    theme: { border, color, colorNew, radius, transitionDuration },
+    theme: { border, colorNew, radius, transitionDuration },
     disabled,
     isexpanded,
     inputsize,
@@ -64,12 +64,12 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       },
     },
     error && {
-      borderColor: color.chiChi[100],
+      borderColor: colorNew.chiChi[100],
       '&:focus:not([disabled])': {
-        borderColor: color.chiChi[100],
+        borderColor: colorNew.chiChi[100],
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.chiChi[100],
+        borderColor: colorNew.chiChi[100],
       },
     },
     disabled && {

@@ -22,7 +22,7 @@ const Input = styled.input.attrs(({ type }) => ({
 }))<InputProps>(
   ({
     theme: currentTheme,
-    theme: { color, colorNew, radius, space, transitionDuration },
+    theme: { colorNew, radius, space, transitionDuration },
     inputSize,
     error,
     icon,
@@ -65,18 +65,18 @@ const Input = styled.input.attrs(({ type }) => ({
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? rgba(colorNew.piccolo, 0.12) : color.chiChi[100]
+          !error ? rgba(colorNew.piccolo, 0.12) : colorNew.chiChi[100]
         } inset`,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? colorNew.piccolo : color.chiChi[100]
+          !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {
-          boxShadow: `0 0 0 ${rem(2)} ${color.chiChi[100]} inset`,
+          boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
         },
       '&[readonly]': {
         outline: 'none',
@@ -145,7 +145,7 @@ const Input = styled.input.attrs(({ type }) => ({
       backgroundSize: rem(20),
     },
     error && {
-      boxShadow: `0 0 0 ${rem(2)} ${color.chiChi[100]} inset`,
+      boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {
       paddingRight: rem(55),

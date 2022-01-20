@@ -104,8 +104,8 @@ const Select = <T extends BaseOptionType>({
           primary50: moonTheme.color.hit[80] as string,
           primary75: moonTheme.colorNew.trunks as string,
           primary: moonTheme.colorNew.piccolo as string, // border focused and option active bg
-          danger: moonTheme.color.chiChi[100] as string,
-          dangerLight: moonTheme.color.chiChi[10] as string,
+          danger: moonTheme.colorNew.chiChi[100] as string,
+          dangerLight: moonTheme.colorNew.chiChi[10] as string,
           neutral0: moonTheme.colorNew.gohan as string, // bg
           neutral5: moonTheme.colorNew.gohan as string, // bg disabled
           neutral10: moonTheme.colorNew.beerus as string, // border disabled

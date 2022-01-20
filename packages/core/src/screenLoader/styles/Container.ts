@@ -68,7 +68,7 @@ interface ContainerProps {
 
 const Container = styled.div<ContainerProps>`
   --first-color: ${({ theme, firstColor }) =>
-    firstColor || theme.color.chiChi[100]};
+    firstColor || theme.colorNew.chiChi[100]};
   --second-color: ${({ theme, secondColor }) =>
     secondColor || theme.colorNew.piccolo};
   --third-color: ${({ theme, thirdColor }) =>
