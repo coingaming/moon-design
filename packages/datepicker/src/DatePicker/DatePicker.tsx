@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button } from '@heathmont/moon-components';
+
 import { enGB } from 'date-fns/locale';
 import styled from 'styled-components';
-import useClickOutside from '../private/hooks/useClickOutside';
+import useClickOutside from '../hooks/useClickOutside';
 import Calendar from './Calendar';
 
 import getPlaceholder from './private/helpers/getPlacegolder';
@@ -18,6 +19,11 @@ export interface Config {
   onlyFuture?: boolean;
   without24AndToday?: boolean;
   locale?: any;
+  disabledDays?: Date | Date[] | DisabledDaysRange;
+  yearsRange?: {
+    min?: number;
+    max?: number;
+  };
 }
 
 export interface Translations {
@@ -25,6 +31,11 @@ export interface Translations {
   apply: string | JSX.Element;
   reset: string | JSX.Element;
 }
+
+export type DisabledDaysRange = {
+  from?: Date;
+  to?: Date;
+};
 
 export type DatePickerProps = {
   isOpenByDefault?: boolean;
@@ -56,6 +67,7 @@ const DatePicker: React.FC<DatePickerProps> = ({
     })
   );
   const [ref, hasClickedOutside] = useClickOutside();
+
   return (
     <div>
       <Wrapper ref={ref}>
@@ -86,7 +98,7 @@ DatePicker.defaultProps = {
     reset: 'Reset',
   },
   config: {
-    format: "yyyy-MM-dd'T'HH:mm",
+    format: 'yyyy-MM-dd',
     monthLabelFormat: 'MMMM',
     yearLabelFormat: 'yyyy',
     weekStartsOn: 1,

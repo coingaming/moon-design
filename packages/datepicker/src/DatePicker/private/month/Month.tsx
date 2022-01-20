@@ -1,30 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import rem from 'polished/lib/helpers/rem';
 import isSameDay from 'date-fns/isSameDay';
 import getMonth from 'date-fns/getMonth';
 
-import { Day } from './Day';
+import { Day } from '../day/Day';
+import MonthSelect from './MonthSelect';
+import YearSelect from './YearSelect';
 
-const DayName = styled.div(({ theme }) => ({
-  height: rem(40),
-  color: theme.color.trunks[100],
-  fontSize: rem(12),
-  lineHeight: rem(40),
-  textTransform: 'uppercase',
-  textAlign: 'center',
-  userSelect: 'none',
-}));
+import { DisabledDaysRange } from '../../DatePicker';
+import { checkIsDisabledDay } from '../helpers/checkIsDisabledDay';
 
-const MonthYearLabel = styled.div(({ theme }) => ({
-  fontSize: rem(14),
-  lineHeight: rem(24),
-  color: theme.color.bulma[100],
-  marginBottom: rem(8),
-  width: '100%',
-  textAlign: 'center',
-  userSelect: 'none',
-}));
+import DayName from './styles/DayName';
+import MonthYearLabel from './styles/MonthYearLabel';
 
 type MonthProps = {
   monthDays: Date[];
@@ -34,6 +21,13 @@ type MonthProps = {
   onDayClick: (date?: Date) => any;
   cursorDate: Date;
   startDate?: Date;
+  setMonth: (month?: number) => void;
+  setYear: (year?: number) => void;
+  disabledDays?: Date | Date[] | DisabledDaysRange;
+  yearsRange?: {
+    min?: number;
+    max?: number;
+  };
 };
 
 const Days = styled.div({
@@ -49,10 +43,16 @@ export const Month: React.FC<MonthProps> = ({
   onDayClick,
   cursorDate,
   startDate,
+  setMonth,
+  setYear,
+  disabledDays,
+  yearsRange,
 }) => (
   <>
     <MonthYearLabel>
-      {monthLabel}&nbsp;&nbsp;{year}
+      <MonthSelect monthLabel={monthLabel} setMonth={setMonth} />
+      &nbsp;&nbsp;
+      <YearSelect year={year} setYear={setYear} yearsRange={yearsRange} />
     </MonthYearLabel>
     <Days>
       {weekDayLabels.map((dayLabel, weekIndex) => (
@@ -67,6 +67,7 @@ export const Month: React.FC<MonthProps> = ({
           isToday={isSameDay(day, new Date())}
           isSameMonth={getMonth(day) === getMonth(cursorDate)}
           isStartEdge={Boolean(startDate && isSameDay(startDate, day))}
+          isDisabled={checkIsDisabledDay(day, disabledDays)}
         />
       ))}
     </Days>

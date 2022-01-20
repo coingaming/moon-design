@@ -1,12 +1,13 @@
 import React from 'react';
-import format from 'date-fns/format';
+import { setMonth as setFnsMonth, setYear as setFsnYear } from 'date-fns';
 import addMonths from 'date-fns/addMonths';
-import subMonths from 'date-fns/subMonths';
+import format from 'date-fns/format';
 import startOfDay from 'date-fns/startOfDay';
-import getPlaceholder from '../helpers/getPlacegolder';
+import subMonths from 'date-fns/subMonths';
 import { getMonthDays } from '../../../private/helper/getMonthDays';
 import { getWeekDayLabels } from '../../../private/helper/getWeekDayLabels';
 import { Config, Translations } from '../../DatePicker';
+import getPlaceholder from '../helpers/getPlacegolder';
 
 type useCalendarProps = {
   initialDate?: Date;
@@ -39,22 +40,26 @@ const useCalendar = ({
 
   React.useEffect(() => {
     if (hasClickedOutside) {
+      console.log('datesState.currentDate', datesState.currentDate);
       onDateChange({
         date: datesState.currentDate,
       });
-      setPlaceholder(
-        getPlaceholder({
-          date: datesState.currentDate,
-          config,
-          translations,
-        })
-      );
-      setIsOpen(false);
+
+      typeof setPlaceholder === 'function' &&
+        setPlaceholder(
+          getPlaceholder({
+            date: datesState.currentDate,
+            config,
+            translations,
+          })
+        );
+      typeof setPlaceholder === 'function' && setIsOpen(false);
     }
   });
 
   const selectDay = (selectedDate: Date) => {
     const newStartDate = startOfDay(selectedDate);
+    console.log('newStartDate', newStartDate);
     setDatesState({
       ...datesState,
       currentDate: newStartDate,
@@ -62,14 +67,15 @@ const useCalendar = ({
     onDateChange({
       date: newStartDate,
     });
-    setPlaceholder(
-      getPlaceholder({
-        date: newStartDate,
-        config,
-        translations,
-      })
-    );
-    setIsOpen(false);
+    typeof setPlaceholder === 'function' &&
+      setPlaceholder(
+        getPlaceholder({
+          date: newStartDate,
+          config,
+          translations,
+        })
+      );
+    typeof setPlaceholder === 'function' && setIsOpen(false);
   };
 
   const reset = () => {
@@ -92,6 +98,20 @@ const useCalendar = ({
     setDatesState({
       ...datesState,
       cursorDate: subMonths(datesState.cursorDate, 1),
+    });
+  };
+
+  const setMonth = (month: number) => {
+    setDatesState({
+      ...datesState,
+      cursorDate: setFnsMonth(datesState.cursorDate, month),
+    });
+  };
+
+  const setYear = (year: number) => {
+    setDatesState({
+      ...datesState,
+      cursorDate: setFsnYear(datesState.cursorDate, year),
     });
   };
 
@@ -119,6 +139,8 @@ const useCalendar = ({
     currentMonth,
     nextMonth,
     prevMonth,
+    setMonth,
+    setYear,
     selectDay,
     reset,
     labels,

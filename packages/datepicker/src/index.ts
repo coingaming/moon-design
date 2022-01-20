@@ -10,3 +10,5 @@ export { default as DateRangePicker } from './DateRangePicker/DateRangePicker';
 export * from './DateRangePicker/DateRangePicker';
 export { default as RangeCalendar } from './DateRangePicker/RangeCalendar';
 export * from './DateRangePicker/RangeCalendar';
+export { default as useClickOutside } from './hooks/useClickOutside';
+export * from './hooks/useClickOutside';

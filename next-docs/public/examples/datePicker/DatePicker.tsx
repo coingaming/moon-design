@@ -19,6 +19,7 @@ const Example = () => {
         }}
         config={{
           weekStartsOn: 1,
+          format: 'dd MMM, yyyy',
         }}
       />
     </div>

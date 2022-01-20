@@ -1,14 +1,13 @@
 import React from 'react';
-
-import { Picker } from './private/Picker';
-import useCalendar from './private/hooks/useCalendar';
+import { enGB } from 'date-fns/locale';
 import { Translations, Config } from './DatePicker';
+import useCalendar from './private/hooks/useCalendar';
+import { Picker } from './private/picker/Picker';
 
 export interface CalendarProps {
   date?: Date;
-  onDateChange: ({ date }: { date?: Date }) => any;
+  onDateChange: ({ date }: { date?: Date }) => void;
   config?: Config;
-  isOpenByDefault?: boolean;
   hasClickedOutside?: boolean;
   setIsOpen?: any;
   setPlaceholder?: any;
@@ -29,6 +28,8 @@ const Calendar: React.FC<CalendarProps> = ({
     currentMonth,
     nextMonth,
     prevMonth,
+    setMonth,
+    setYear,
     selectDay,
     reset,
     labels,
@@ -52,10 +53,30 @@ const Calendar: React.FC<CalendarProps> = ({
       currentMonth={currentMonth}
       nextMonth={nextMonth}
       prevMonth={prevMonth}
+      setMonth={setMonth}
+      setYear={setYear}
       onDateChange={onDateChange}
       reset={reset}
     />
   );
+};
+
+Calendar.defaultProps = {
+  translations: {
+    placeholder: 'Select Dates',
+    apply: 'Apply',
+    reset: 'Reset',
+  },
+  config: {
+    format: "yyyy-MM-dd'T'HH:mm",
+    monthLabelFormat: 'MMMM',
+    yearLabelFormat: 'yyyy',
+    weekStartsOn: 1,
+    withHoursAndMinutes: false,
+    onlyFuture: false,
+    without24AndToday: false,
+    locale: enGB,
+  },
 };
 
 export default Calendar;

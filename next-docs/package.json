@@ -16,15 +16,15 @@
     "@heathmont/moon-charts": "workspace:^7.22.2",
     "@heathmont/moon-components": "workspace:^7.22.2",
     "@heathmont/moon-core": "workspace:^7.22.2",
+    "@heathmont/moon-datepicker": "workspace:^7.22.2",
     "@heathmont/moon-draggabletable": "workspace:^7.22.2",
     "@heathmont/moon-icons": "workspace:^7.22.2",
     "@heathmont/moon-pagination": "workspace:^7.22.2",
     "@heathmont/moon-popover": "workspace:^7.22.2",
+    "@heathmont/moon-select": "workspace:^7.22.2",
     "@heathmont/moon-table": "workspace:^7.22.2",
     "@heathmont/moon-themes": "workspace:^7.22.2",
     "@heathmont/moon-utils": "workspace:^7.22.2",
-    "@heathmont/moon-select": "workspace:^7.22.2",
-    "@heathmont/moon-datepicker": "workspace:^7.22.2",
     "@testing-library/jest-dom": "^5.15.1",
     "@types/react": "16.9.9",
     "@types/styled-components": "5.1.7",
@@ -44,5 +44,8 @@
     "swr": "^1.0.1",
     "tailwindcss": "3.0.7",
     "typescript": "4.3.4"
+  },
+  "devDependencies": {
+    "snapshot-diff": "^0.9.0"
   }
 }
