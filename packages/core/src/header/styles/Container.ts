@@ -2,7 +2,7 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const Container = styled.div<{ isDivider?: boolean }>(
-  ({ theme: { color, colorNew, fontWeight, border }, isDivider }) => [
+  ({ theme: { colorNew, newTokens }, isDivider }) => [
     {
       width: '100%',
       display: 'flex',
@@ -11,11 +11,11 @@ const Container = styled.div<{ isDivider?: boolean }>(
       fontSize: rem(18),
       lineHeight: rem(24),
       color: colorNew.bulma,
-      fontWeight: fontWeight.semibold,
+      fontWeight: newTokens.font.weight.semibold,
     },
     isDivider && {
       padding: `${rem(24)} ${rem(16)}`,
-      borderBottom: border,
+      borderBottom: newTokens.border,
       borderColor: colorNew.beerus,
     },
   ]
