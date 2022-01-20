@@ -17,8 +17,7 @@ const Example = () => {
       <div style={{ position: 'relative', display: 'inline-block' }} ref={ref}>
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
           {initialDate
-            ? // tslint:disable-next-line
-              (initialDate as Date)?.toLocaleDateString()
+            ? (initialDate as any)?.toLocaleDateString()
             : 'Select a day...'}
         </Button>
         {isOpen && (
