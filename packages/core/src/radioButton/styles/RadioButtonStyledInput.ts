@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const BORDER_WIDTH = 1;
 
@@ -8,7 +8,7 @@ const RadioButtonStyledInput = styled.figure(({ theme }) => ({
   height: rem(16),
   display: 'inline-block',
   boxSizing: 'border-box',
-  border: `${rem(BORDER_WIDTH)} solid ${theme.color.piccolo[100]}`,
+  border: `${rem(BORDER_WIDTH)} solid ${theme.colorNew.piccolo}`,
   borderRadius: '50%',
   position: 'relative',
   zIndex: 2,

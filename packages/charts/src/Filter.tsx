@@ -1,19 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
-import styled from 'styled-components';
 import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import { FilterDropdown, Text } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import { useClickAway, useKey } from 'react-use';
+import styled from 'styled-components';
 
 const Title = styled(Text)(({ theme }) => ({
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 const Toggle = styled.button<{ isOpen: boolean }>(({ isOpen, theme }) => ({
   display: 'flex',
   fontSize: rem(12),
   alignItems: 'center',
-  color: isOpen ? theme.color.piccolo[100] : theme.color.trunks[100],
+  color: isOpen ? theme.colorNew.piccolo : theme.colorNew.trunks,
   background: 'none',
   border: 'none',
   padding: 0,
@@ -35,7 +35,7 @@ const DropdownWrapper = styled.div(({ theme }) => ({
   left: '50%',
   transform: 'translateX(-50%)',
   paddingTop: rem(8),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   zIndex: theme.zIndex.toggle,
 }));
 

@@ -59,9 +59,9 @@ const CustomStyles: StylesConfig = {
       marginBottom: rem(4),
       backgroundColor:
         state.isSelected || state.isFocused
-          ? theme.color.goku[100]
+          ? theme.colorNew.goku
           : 'transparent',
-      color: state.isSelected ? theme.color.bulma[100] : 'inherit',
+      color: state.isSelected ? theme.colorNew.bulma : 'inherit',
       '&:last-child': {
         marginBottom: 0,
       },
@@ -90,7 +90,7 @@ const CustomStyles: StylesConfig = {
       boxShadow: customProps.isError
         ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
         : state.isFocused
-        ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
+        ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
         : 'none',
       transition:
         !state.isFocused || !customProps.isError
@@ -101,8 +101,8 @@ const CustomStyles: StylesConfig = {
         boxShadow: customProps.isError
           ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
           : state.isFocused
-          ? `inset 0 0 0 1px ${theme.color.piccolo[100]}`
-          : `inset 0 0 0 1px ${theme.color.beerus[100]}`,
+          ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
+          : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },
     };

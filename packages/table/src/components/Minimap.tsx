@@ -1,6 +1,6 @@
-import { rem } from '@heathmont/moon-utils';
 import React from 'react';
 import { useEffect, useCallback, useState, MutableRefObject } from 'react';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const Wrapper = styled.div<{ visible: boolean; offset: number }>(
@@ -11,7 +11,7 @@ const Wrapper = styled.div<{ visible: boolean; offset: number }>(
     width: 'auto',
     height: rem(56),
     zIndex: 1,
-    background: theme.color.gohan[100],
+    background: theme.colorNew.gohan,
     borderRadius: rem(8),
     boxShadow: theme.boxShadow,
     padding: rem(4),
@@ -29,7 +29,7 @@ const Viewport = styled.div(({ theme }) => ({
   '&:after': {
     content: '""',
     position: 'absolute',
-    border: `2px solid ${theme.color.piccolo[100]}`,
+    border: `2px solid ${theme.colorNew.piccolo}`,
     borderRadius: rem(4),
     width: '100%',
     height: '100%',

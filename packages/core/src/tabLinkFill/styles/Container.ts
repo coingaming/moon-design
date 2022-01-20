@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
+import styled from 'styled-components';
 
 type Props = {
   elementLeft?: React.ReactElement;
@@ -17,7 +17,7 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   lineHeight: rem(24),
   fontFamily: 'inherit',
   backgroundColor: 'transparent',
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   transitionProperty: 'color, background-color',
   transitionDuration: `${theme.transitionDuration.default}s`,
   transitionTimingFunction: 'ease',
@@ -25,12 +25,12 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   appearance: 'none',
   borderRadius: rem(8),
   '&:hover, &:focus': {
-    backgroundColor: rgba(theme.color.piccolo[100], 0.1),
+    backgroundColor: rgba(theme.colorNew.piccolo, 0.1),
     cursor: 'pointer',
   },
   '&:active, &.active, &[aria-current=page]': {
-    backgroundColor: theme.color.piccolo[100],
-    color: theme.color.goten[100],
+    backgroundColor: theme.colorNew.piccolo,
+    color: theme.colorNew.goten,
   },
 }));
 

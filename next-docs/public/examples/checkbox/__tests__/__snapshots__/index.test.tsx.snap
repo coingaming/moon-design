@@ -5,11 +5,11 @@ exports[`Checkbox renders 1`] = `
   className="CheckboxLabel-wyw1pu-0 fHKRiw"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
   >
     I agree to receive bonus & marketing emails.
   </span>
@@ -22,11 +22,11 @@ exports[`Checkbox renders Aria Label 1`] = `
 >
   <input
     aria-label="Description of the checkbox's purpose."
-    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
   />
 </label>
 `;
@@ -129,12 +129,12 @@ exports[`Checkbox renders Checked 1`] = `
 >
   <input
     checked={true}
-    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
     readOnly={true}
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
   >
     I agree to receive bonus & marketing emails.
   </span>
@@ -146,12 +146,12 @@ exports[`Checkbox renders Disabled 1`] = `
   className="CheckboxLabel-wyw1pu-0 fHKRiw"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 cWwNgc"
+    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
     disabled={true}
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 leYpPJ"
+    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
   >
     I agree to receive bonus & marketing emails.
   </span>

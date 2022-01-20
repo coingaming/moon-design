@@ -1,7 +1,6 @@
-import { rem } from '@heathmont/moon-utils';
 import { IconCopy } from '@heathmont/moon-assets';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import Bubble from '../bubble/Bubble';
 import { Tag } from '../tagInput/TagInput';
 

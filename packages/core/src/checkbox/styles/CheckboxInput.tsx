@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { uniqueId, inlineSvg, rem } from '@heathmont/moon-utils';
-import hideVisually from 'polished/lib/mixins/hideVisually';
-import { CheckboxIcon } from '../private/icon';
 import React from 'react';
+import { inlineSvg, rem } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
+import { CheckboxIcon } from '../private/icon';
 
 /**
  * Checkbox Input
@@ -15,9 +15,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   '& + span': {
     cursor: 'pointer',
     '&::after': {
-      backgroundImage: inlineSvg(
-        <CheckboxIcon color={theme.color.goten[100]} />
-      ),
+      backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,
@@ -31,21 +29,21 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     },
     '&:checked + span::before': {
       opacity: 0.1,
-      backgroundColor: theme.color.piccolo[100] /* [1] */,
+      backgroundColor: theme.colorNew.piccolo /* [1] */,
     },
     /* Adjust the Pseudo Checkbox */
     '&:not(:checked) + span::after': {
-      borderColor: theme.color.trunks[100],
+      borderColor: theme.colorNew.trunks,
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
   '&:checked + span::after': {
-    backgroundColor: theme.color.piccolo[100],
+    backgroundColor: theme.colorNew.piccolo,
     backgroundSize: rem(10),
-    borderColor: theme.color.piccolo[100],
+    borderColor: theme.colorNew.piccolo,
   },
   '&[disabled] + span': {
-    opacity: 0.5,
+    opacity: theme.newTokens.opacity,
     cursor: 'not-allowed',
   },
 }));

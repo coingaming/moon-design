@@ -1,8 +1,7 @@
-import styled from 'styled-components';
+import { ColorNames } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import tint from 'polished/lib/color/tint';
-import { ColorNames } from '@heathmont/moon-themes';
-
+import styled from 'styled-components';
 import TD from './TD';
 
 const BodyTR = styled.div<{
@@ -41,7 +40,7 @@ const BodyTR = styled.div<{
           '&:hover': {
             cursor: 'pointer',
             [TD]: {
-              backgroundColor: tint(0.75, theme.color.piccolo[100]),
+              backgroundColor: tint(0.75, theme.colorNew.piccolo),
             },
           },
         }
@@ -56,7 +55,7 @@ const BodyTR = styled.div<{
             position: 'absolute',
             bottom: 0,
             right: rem(24),
-            background: theme.color.beerus[100],
+            background: theme.colorNew.beerus,
           },
         }
       : {}),

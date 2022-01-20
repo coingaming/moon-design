@@ -14,12 +14,12 @@ Quickly jump out of any parent's constraining `maxWidth` by applying the `breako
 
 ```jsx react-live
 () => {
-  const { color } = useTheme();
+  const { color, colorNew } = useTheme();
 
   const Example = styled.div(({ css }) => css);
 
   return (
-    <Example css={{ ...container(), background: color.piccolo[100] }}>
+    <Example css={{ ...container(), background: colorNew.piccolo }}>
       <p>Bound by the Sportsbet container</p>
       <Example css={{ ...breakout, background: color.chiChi[100] }}>
         <p>Breakout from the parent container</p>

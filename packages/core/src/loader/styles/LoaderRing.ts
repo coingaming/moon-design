@@ -1,6 +1,6 @@
-import styled, { css, keyframes } from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
+import styled, { css, keyframes } from 'styled-components';
 
 type Props = {
   animationDelay: string;
@@ -24,8 +24,8 @@ const animation = css`
 `;
 
 const LoaderRing = styled.span<Props>(
-  ({ theme: { color, borderStyle, borderWidth } }) => ({
-    '--loader-color': color.bulma[100],
+  ({ theme: { colorNew, borderStyle, borderWidth } }) => ({
+    '--loader-color': colorNew.bulma,
     display: 'block',
     position: 'absolute',
     width: '100%',

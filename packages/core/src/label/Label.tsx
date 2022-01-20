@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import LabelContainer from './styles/LabelContainer';
 

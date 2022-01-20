@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type Props = {
   color?: ColorProps;
@@ -9,12 +9,12 @@ type Props = {
 };
 
 const LabelContainer = styled.span<Props>(
-  ({ theme: { fontWeight, radius } }) => ({
+  ({ theme: { newTokens } }) => ({
     display: 'flex',
     alignItems: 'center',
-    fontWeight: fontWeight.semibold,
+    fontWeight: newTokens.font.weight.semibold,
     textTransform: 'uppercase',
-    borderRadius: rem(radius.largest),
+    borderRadius: newTokens.borderRadius.full,
     letterSpacing: rem(1),
     fontSize: rem(10),
     lineHeight: rem(16),
@@ -24,10 +24,10 @@ const LabelContainer = styled.span<Props>(
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({
-    color: color ? themed('color', color)(theme) : theme.color.goten[100],
+    color: color ? themed('color', color)(theme) : theme.colorNew.goten,
     backgroundColor: backgroundColor
       ? themed('color', backgroundColor)(theme)
-      : theme.color.bulma[100],
+      : theme.colorNew.bulma,
   })
 );
 

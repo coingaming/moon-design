@@ -1,5 +1,6 @@
 import { Theme } from '../sharedTokens/sharedTokens';
 import sportsbetDark from '../sportsbetDark/sportsbetDark';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const lightColors = {
   piccolo: {
@@ -39,7 +40,19 @@ const lightColors = {
   whis: {
     100: '#1DA1F2',
     10: '#19A9E2',
-  }
+  },
+};
+
+const colorNew = {
+  piccolo: '#0CCF61',
+  hit: '#DFE0E2',
+  beerus: '#E6E6E6',
+  goku: '#FFFFFF',
+  gohan: '#F7F7F7',
+  bulma: '#1A212A',
+  trunks: '#607680',
+  goten: '#FFFFFF',
+  popo: '#000000',
 };
 
 const sportsbetLight: Theme = {
@@ -49,6 +62,10 @@ const sportsbetLight: Theme = {
     text: lightColors.bulma[100],
     background: lightColors.goku[100],
     ...lightColors,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'light',
 };

@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
@@ -39,6 +40,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#a57f40',
+  hit: '#3d3d3d',
+  beerus: '#83837c',
+  goku: '#3d3d3d',
+  gohan: '#575757',
+  bulma: '#ffffff',
+  trunks: '#c9c9c0',
+  goten: '#ffffff',
+  popo: '#000000',
+};
+
 const shangrilaDark: Theme = {
   ...sharedTokens,
   brand: 'ShangriLa.io',
@@ -53,6 +66,10 @@ const shangrilaDark: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   colorScheme: 'dark',
 };

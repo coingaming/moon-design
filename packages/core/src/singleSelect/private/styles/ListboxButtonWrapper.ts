@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { ListboxButton, ListboxButtonProps } from '@reach/listbox';
+import styled from 'styled-components';
 
 interface ListboxButtonWrapperProps extends ListboxButtonProps {
   disabled?: boolean;
@@ -13,7 +13,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
   ({
-    theme: { border, color, radius, transitionDuration },
+    theme: { border, color, colorNew, radius, transitionDuration },
     disabled,
     isexpanded,
     inputsize,
@@ -24,10 +24,10 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      backgroundColor: color.gohan[100],
+      backgroundColor: colorNew.gohan,
       padding: inputsize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
       border: border,
-      borderColor: color.gohan[100],
+      borderColor: colorNew.gohan,
       borderRadius: rem(radius.largest),
       transition: `border-color ${transitionDuration.default}s ease`,
       WebkitAppearance: 'none',
@@ -38,14 +38,14 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       },
       '&:hover:enabled, &:focus:enabled': {
         cursor: 'pointer',
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.beerus[100],
+        borderColor: colorNew.beerus,
       },
       '@supports (-moz-appearance:none)': {
         lineHeight: rem(24),
@@ -55,9 +55,9 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       padding: `${rem(7)} ${rem(15)}`,
     },
     isexpanded && {
-      borderColor: color.piccolo[100],
+      borderColor: colorNew.piccolo,
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.piccolo[100],
+        borderColor: colorNew.piccolo,
       },
       '& span[data-reach-listbox-arrow]': {
         transform: 'rotate(180deg)',

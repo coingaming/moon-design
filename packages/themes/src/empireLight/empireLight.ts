@@ -1,6 +1,7 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
@@ -39,6 +40,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#ffc800',
+  hit: '#ffffff',
+  beerus: '#f0f0f0',
+  goku: '#f3f3f2',
+  gohan: '#ffffff',
+  bulma: '#000000',
+  trunks: '#828282',
+  goten: '#000000',
+  popo: '#000000',
+};
+
 const empireLight: Theme = {
   ...sharedTokens,
   brand: 'Empire.io',
@@ -53,6 +66,10 @@ const empireLight: Theme = {
     background: color.goku[100],
     ...supportColors,
     ...color,
+  },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
   },
   radius: {
     small: 4,

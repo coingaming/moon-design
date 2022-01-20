@@ -5,8 +5,8 @@ const Tooltip = styled.div<{ position?: string }>(({ theme }) => [
   {
     display: 'inline-block',
     textAlign: 'right',
-    color: theme.color.goten[100],
-    background: theme.color.hit[100],
+    color: theme.colorNew.goten,
+    background: theme.colorNew.hit,
     fontSize: rem(12),
     lineHeight: rem(16),
     padding: rem(12),
@@ -16,7 +16,7 @@ const Tooltip = styled.div<{ position?: string }>(({ theme }) => [
     // '&::after': {
     //   content: '""',
     //   borderColor: 'transparent',
-    //   borderTopColor: theme.color.hit[100],
+    //   borderTopColor: theme.colorNew.hit,
     //   borderWidth: rem(8),
     //   borderBottomWidth: 0,
     //   borderStyle: 'solid',
@@ -38,7 +38,7 @@ const Tooltip = styled.div<{ position?: string }>(({ theme }) => [
   //       bottom: '100%',
   //       marginBottom: `-${rem(1)}`,
   //       borderTopWidth: 0,
-  //       borderBottomColor: theme.color.hit[100],
+  //       borderBottomColor: theme.colorNew.hit,
   //       // boxShadow: theme.shadows.sm,
   //     },
   //   },

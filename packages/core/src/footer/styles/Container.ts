@@ -1,10 +1,10 @@
-import styled from 'styled-components';
 import { rem, mq } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Container = styled.div<{
   isDivider?: boolean;
   size?: 'small' | 'medium';
-}>(({ theme: { breakpoint, border, color }, isDivider, size }) => [
+}>(({ theme: { breakpoint, border, colorNew }, isDivider, size }) => [
   {
     width: '100%',
     [mq(breakpoint.medium)]: {
@@ -20,7 +20,7 @@ const Container = styled.div<{
   isDivider && {
     padding: size === 'small' ? rem(12) : rem(24),
     borderTop: border,
-    borderColor: color.beerus[100],
+    borderColor: colorNew.beerus,
   },
 ]);
 

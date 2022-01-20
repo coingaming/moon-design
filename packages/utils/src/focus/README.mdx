@@ -15,11 +15,11 @@ Override browser-default `:focus` styles to the preferred appearance.
 ```jsx react-live
 () => {
   const ButtonExample = styled.button(({ css }) => css);
-  const { color } = useTheme();
+  const { colorNew } = useTheme();
 
   return (
     <>
-      <ButtonExample css={{ ...focus(color.piccolo[100]) }}>
+      <ButtonExample css={{ ...focus(colorNew.piccolo) }}>
         Focus on to me
       </ButtonExample>
       <ButtonExample css={{ ...focus('rebeccapurple') }}>

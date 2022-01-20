@@ -1,7 +1,7 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
-import { rem } from '@heathmont/moon-utils';
 import { IconChevronRight } from '@heathmont/moon-assets';
 import { TextInput } from '@heathmont/moon-components';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type GoToPageProps = {
@@ -22,13 +22,13 @@ const CircleButton = styled.button(
   padding: 0;
   cursor: pointer;
   border: none;
-  background-color: ${theme.color.goku[100]};
-  color: ${theme.color.trunks[100]};
+  background-color: ${theme.colorNew.goku};
+  color: ${theme.colorNew.trunks};
   transition-property: color, background-color;
   transition-duration: ${theme.transitionDuration.default}s;
   &:hover, &:focus {
-    background-color: ${theme.color.piccolo[100]};
-    color: ${theme.color.goten[100]};
+    background-color: ${theme.colorNew.piccolo};
+    color: ${theme.colorNew.goten};
   }
 `
 );
@@ -51,9 +51,9 @@ const Form = styled.form(({ theme }) => ({
     width: rem(32),
     padding: rem(4),
     backgroundColor: theme.color.goku[80],
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
     '&:hover, &:focus': {
-      backgroundColor: theme.color.piccolo[100],
+      backgroundColor: theme.colorNew.piccolo,
       color: '#fff',
     },
   },

@@ -22,7 +22,7 @@ const Input = styled.input.attrs(({ type }) => ({
 }))<InputProps>(
   ({
     theme: currentTheme,
-    theme: { color, radius, space, transitionDuration },
+    theme: { color, colorNew, radius, space, transitionDuration },
     inputSize,
     error,
     icon,
@@ -42,14 +42,14 @@ const Input = styled.input.attrs(({ type }) => ({
       font: 'inherit',
       fontSize: rem(16),
       lineHeight: rem(40),
-      color: color.bulma[100],
+      color: colorNew.bulma,
       backgroundColor: !bgColor
         ? 'transparent'
         : themed('color', bgColor)(currentTheme),
       position: 'relative',
       zIndex: 2,
       border: 'none',
-      boxShadow: `0 0 0 ${rem(1)} ${color.beerus[100]} inset`,
+      boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
       borderRadius: rem(radius.largest),
       transition: `box-shadow ${transitionDuration.default}s ease`,
       WebkitAppearance: 'none',
@@ -58,20 +58,20 @@ const Input = styled.input.attrs(({ type }) => ({
         boxSizing: 'border-box',
       },
       '&::placeholder': {
-        color: color.trunks[100],
+        color: colorNew.trunks,
         opacity: 1,
         transition: `opacity ${transitionDuration.default}s ease`,
         transitionDelay: `0.1s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? rgba(color.piccolo[100], 0.12) : color.chiChi[100]
+          !error ? rgba(colorNew.piccolo, 0.12) : color.chiChi[100]
         } inset`,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? color.piccolo[100] : color.chiChi[100]
+          !error ? colorNew.piccolo : color.chiChi[100]
         } inset`,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':

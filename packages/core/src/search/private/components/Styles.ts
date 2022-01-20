@@ -1,8 +1,7 @@
-import styled, { CSSObject } from 'styled-components';
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
 import { mq, rem } from '@heathmont/moon-utils';
-
+import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';
@@ -36,7 +35,7 @@ export const FlexWrapper = styled.div(({ theme: { space } }) => ({
 }));
 
 export const ModalClose = styled(Button)(
-  ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
+  ({ theme: { base, breakpoint, colorNew, fontWeight, space } }) => ({
     position: 'relative',
     display: 'none',
     flex: 0,
@@ -46,9 +45,9 @@ export const ModalClose = styled(Button)(
     fontWeight: fontWeight.normal,
     fontSize: rem(base.fontSize),
     overflow: 'visible',
-    color: color.piccolo[100],
+    color: colorNew.piccolo,
     ['&:hover:not([disabled])']: {
-      color: color.piccolo[100],
+      color: colorNew.piccolo,
     },
     [mq(breakpoint.medium, 'max-width')]: {
       '.active &': {
@@ -69,12 +68,12 @@ export const Results = styled.div(
     },
   }),
   ({
-    theme: { borderWidth, shadows, breakpoint, color, radius, space },
+    theme: { borderWidth, shadows, breakpoint, colorNew, radius, space },
   }) => ({
     position: 'absolute',
     left: 0,
     top: rem(space.small),
-    color: color.trunks[100],
+    color: colorNew.trunks,
     width: '100%',
     zIndex: zIndex.searchResults,
     '[dir=rtl] &': {
@@ -89,8 +88,8 @@ export const Results = styled.div(
       borderRadius: rem(radius.default),
       borderWidth,
       borderStyle: 'solid',
-      borderColor: color.beerus[100],
-      backgroundColor: color.gohan[100],
+      borderColor: colorNew.beerus,
+      backgroundColor: colorNew.gohan,
       boxShadow: shadows.lg,
     },
   })

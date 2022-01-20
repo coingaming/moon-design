@@ -1,16 +1,31 @@
+import { ReactChild, ReactNode } from 'react';
+
 import type { AppProps } from 'next/app';
-import Head from 'next/head';
 
 import '../styles/globals.css';
 import '../styles/reset.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
 
-import Layout from '../components/Layout';
 import React from 'react';
+import { NextPage } from 'next';
+import Head from 'next/head';
+import Layout from '../components/Layout';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 
-function MyApp({ Component, pageProps }: AppProps) {
+type GetLayout = (page: ReactNode) => ReactChild & ReactNode;
+
+type Page<P = {}, IP = P> = NextPage<P, IP> & {
+  getLayout?: GetLayout;
+};
+
+type MyAppProps<P = {}> = AppProps<P> & {
+  Component: Page<P>;
+};
+
+function MyApp({ Component, pageProps }: MyAppProps) {
+  const getLayout = Component.getLayout;
+
   return (
     <>
       {/* TODO Add favicon.ico*/}
@@ -21,9 +36,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <DocsThemeProvider>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        {getLayout ? (
+          getLayout(<Component {...pageProps} />)
+        ) : (
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        )}
       </DocsThemeProvider>
     </>
   );

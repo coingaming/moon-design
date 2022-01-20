@@ -1,12 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import Container from './styles/Container';
 import MetaWrapper from './styles/MetaWrapper';
-import SubtextWrapper from './styles/SubtextWrapper';
 import SubtextInner from './styles/SubtextInner';
+import SubtextWrapper from './styles/SubtextWrapper';
 
 export type ListItemProps = {
   color?: ColorProps;

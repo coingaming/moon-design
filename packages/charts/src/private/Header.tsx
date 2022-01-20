@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Text } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Title = styled(Text)(({ theme }) => ({
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
 }));
 
 const IconWrapper = styled.div({
@@ -21,10 +21,10 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   marginBottom: rem(theme.space.default),
   ...(isActive && {
     [Title]: {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
     },
     [`${FilterWrapper} button *`]: {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
     },
   }),
 }));

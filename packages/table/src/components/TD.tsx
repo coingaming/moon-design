@@ -1,17 +1,17 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const TD = styled.div(({ theme }) => ({
   padding: rem(theme.space.default),
   paddingLeft: rem(theme.space.small),
   paddingRight: rem(theme.space.small),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   position: 'relative',
   '&::after': {
     content: '""',
     position: 'absolute',
     width: '1px',
-    backgroundColor: theme.color.beerus[100],
+    backgroundColor: theme.colorNew.beerus,
     height: '60%',
     bottom: '20%',
     right: 0,

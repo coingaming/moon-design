@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
+import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -23,10 +23,10 @@ type IconProps = {
   color?: ColorProps;
   header?: 'header';
 };
-const IconDrag = styled(Svg)<IconProps>(({ theme: { color }, header }) => [
+const IconDrag = styled(Svg)<IconProps>(({ theme: { colorNew }, header }) => [
   {
     verticalAlign: 'middle',
-    fill: color.bulma[100],
+    fill: colorNew.bulma,
   },
   header && {
     opacity: 0,

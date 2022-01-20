@@ -1,8 +1,7 @@
-import { rem } from '@heathmont/moon-utils';
 import React, { useRef } from 'react';
-import styled from 'styled-components';
+import { rem } from '@heathmont/moon-utils';
 import { Transition } from 'react-transition-group';
-
+import styled from 'styled-components';
 import { Cell, Count, Table, TableItem, Value } from './Table';
 
 const Container = styled.div({
@@ -54,7 +53,7 @@ const Center = styled.div(({ theme }) => ({
   transform: 'translateX(-50%)',
   height: '100%',
   width: rem(1),
-  background: theme.color.beerus[100],
+  background: theme.colorNew.beerus,
 }));
 
 type Props = {

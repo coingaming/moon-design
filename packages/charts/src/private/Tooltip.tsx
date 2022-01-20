@@ -1,12 +1,12 @@
+import React from 'react';
 import { Text } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
-import React from 'react';
 import styled from 'styled-components';
 
 export const TooltipWrapper = styled.div(({ theme }) => ({
   display: 'inline-block',
-  color: theme.color.goten[100],
-  background: theme.color.gohan[100],
+  color: theme.colorNew.goten,
+  background: theme.colorNew.gohan,
   fontSize: rem(12),
   lineHeight: rem(16),
   padding: rem(12),
@@ -19,12 +19,12 @@ export const TooltipWrapper = styled.div(({ theme }) => ({
 export const Item = styled.div(({ theme }) => ({
   position: 'relative',
   padding: `${rem(2)} 0 ${rem(2)} ${rem(theme.space.default)}`,
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 const Date = styled.div(({ theme }) => ({
   padding: `${rem(2)} 0`,
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 export const ColorPreview = styled.div({
