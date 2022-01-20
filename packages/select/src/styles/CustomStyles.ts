@@ -84,11 +84,13 @@ const CustomStyles: StylesConfig = {
       ...(customProps.isCustomControl
         ? { position: 'absolute', opacity: 0 }
         : {}),
-      ...(customProps.isError ? { borderColor: theme.color.chiChi[100] } : {}),
+      ...(customProps.isError
+        ? { borderColor: theme.colorNew.chiChi[100] }
+        : {}),
       paddingLeft: rem(8),
       borderRadius: rem(theme.radius.largest),
       boxShadow: customProps.isError
-        ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
+        ? `inset 0 0 0 1px ${theme.colorNew.chiChi[100]}`
         : state.isFocused
         ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
         : 'none',
@@ -99,7 +101,7 @@ const CustomStyles: StylesConfig = {
       minHeight: customProps.size === 'xLarge' ? rem(56) : rem(48),
       '&:hover': {
         boxShadow: customProps.isError
-          ? `inset 0 0 0 1px ${theme.color.chiChi[100]}`
+          ? `inset 0 0 0 1px ${theme.colorNew.chiChi[100]}`
           : state.isFocused
           ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
           : `inset 0 0 0 1px ${theme.colorNew.beerus}`,

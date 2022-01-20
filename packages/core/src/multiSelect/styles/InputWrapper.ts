@@ -85,20 +85,20 @@ const InputWrapper = styled.div<InputWrapperProps>(
       },
     },
     error && {
-      borderColor: theme.color.chiChi[100],
+      borderColor: theme.colorNew.chiChi[100],
       '&:hover:not(:active)': {
-        borderColor: theme.color.chiChi[100],
+        borderColor: theme.colorNew.chiChi[100],
       },
       '&:active': {
-        borderColor: theme.color.chiChi[100],
+        borderColor: theme.colorNew.chiChi[100],
       },
       '&::after': {
-        borderColor: theme.color.chiChi[100],
+        borderColor: theme.colorNew.chiChi[100],
         '&:hover:not(:active)': {
-          borderColor: theme.color.chiChi[100],
+          borderColor: theme.colorNew.chiChi[100],
         },
         '&:active': {
-          borderColor: theme.color.chiChi[100],
+          borderColor: theme.colorNew.chiChi[100],
         },
       },
     },

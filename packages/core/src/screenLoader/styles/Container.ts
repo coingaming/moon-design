@@ -68,13 +68,13 @@ interface ContainerProps {
 
 const Container = styled.div<ContainerProps>`
   --first-color: ${({ theme, firstColor }) =>
-    firstColor || theme.color.chiChi[100]};
+    firstColor || theme.colorNew.chiChi[100]};
   --second-color: ${({ theme, secondColor }) =>
     secondColor || theme.colorNew.piccolo};
   --third-color: ${({ theme, thirdColor }) =>
-    thirdColor || theme.color.cell[100]};
+    thirdColor || theme.colorNew.cell[100]};
   --fourth-color: ${({ theme, fourthColor }) =>
-    fourthColor || theme.color.frieza[100]};
+    fourthColor || theme.colorNew.frieza[100]};
   width: ${rem(50)};
   height: ${rem(50)};
   &:before {
