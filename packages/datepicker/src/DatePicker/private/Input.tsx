@@ -40,18 +40,21 @@ const Input: React.FC<InputProps> = ({
 }) => {
   const onInputChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
     const dateStr = event.target.value;
-    setPlaceholder(dateStr);
+    typeof setPlaceholder === 'function' && setPlaceholder(dateStr);
     const parsedDate = parse(dateStr, 'P', new Date(), { locale: enGB });
     const isValidDate = isValid(parsedDate);
     if (isValidDate) {
-      setInputValue(parsedDate);
-      onDateChange({
-        date: parsedDate,
-      });
+      typeof setInputValue === 'function' && setInputValue(parsedDate);
+      typeof onDateChange === 'function' &&
+        onDateChange({
+          date: parsedDate,
+        });
     }
   };
   return (
-    <TextInputContainer onClick={() => setIsOpen(!isOpen)}>
+    <TextInputContainer
+      onClick={() => typeof setIsOpen === 'function' && setIsOpen(!isOpen)}
+    >
       <TextInput
         type="text"
         inputSize="xlarge"

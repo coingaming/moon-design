@@ -40,7 +40,6 @@ const useCalendar = ({
 
   React.useEffect(() => {
     if (hasClickedOutside) {
-      console.log('datesState.currentDate', datesState.currentDate);
       onDateChange({
         date: datesState.currentDate,
       });
@@ -59,7 +58,6 @@ const useCalendar = ({
 
   const selectDay = (selectedDate: Date) => {
     const newStartDate = startOfDay(selectedDate);
-    console.log('newStartDate', newStartDate);
     setDatesState({
       ...datesState,
       currentDate: newStartDate,

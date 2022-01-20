@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const MonthYearLabel = styled.div(({ theme }) => ({
   fontSize: rem(14),
   lineHeight: rem(24),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   marginBottom: rem(8),
   width: '100%',
   textAlign: 'center',

@@ -20,7 +20,7 @@ type YearSelectProps = {
 
 const DownArrow = styled(ControlsChevronDownSmall as any)(({ theme }) => ({
   cursor: 'pointer',
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   fontSize: rem(24),
 }));
 

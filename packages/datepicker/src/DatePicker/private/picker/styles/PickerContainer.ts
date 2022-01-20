@@ -4,10 +4,8 @@ import styled from 'styled-components';
 const PickerContainer = styled.div(
   ({
     theme: {
-      color,
-      zIndex,
-      shadows,
-      newTokens: { borderRadius },
+      newTokens: { borderRadius, zIndex, boxShadow },
+      colorNew,
     },
   }) => ({
     width: 'fit-content',
@@ -17,8 +15,8 @@ const PickerContainer = styled.div(
     alignItems: 'center',
     borderRadius: borderRadius.large,
     padding: `${rem(16)} ${rem(12)}`,
-    backgroundColor: color.gohan[100],
-    boxShadow: shadows.lg,
+    backgroundColor: colorNew.gohan,
+    boxShadow: boxShadow.large,
     overflow: 'hidden',
   })
 );

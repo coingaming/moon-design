@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const LeftArrow = styled(ControlsChevronLeft as any)(({ theme }) => ({
   cursor: 'pointer',
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   position: 'absolute',
   left: rem(2),
   top: 0,
