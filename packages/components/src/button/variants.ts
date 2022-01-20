@@ -21,7 +21,7 @@ type ButtonVariantStyles = {
  */
 const buttonVariant =
   (key: ButtonVariants) =>
-  ({ color, colorNew }: Theme) => {
+  ({ color }: Theme) => {
     const themedStyles: ButtonVariantStyles = {
       primary: {
         color: color.goten[100],
@@ -59,7 +59,7 @@ const buttonVariant =
       },
       highlight: {
         color: color.goten[100],
-        backgroundColor: colorNew.whis[100],
+        backgroundColor: color.whis[100],
         ...buttonHover({
           opacity: 0.9,
         }),

@@ -62,13 +62,13 @@ const AvatarWrapper = styled.div<AvatarProps>(
 );
 
 const StatusWrapper = styled.div<AvatarProps>(
-  ({ theme: { color, colorNew }, size, isStatusActive, statusOrigin }) => [
+  ({ theme: { color }, size, isStatusActive, statusOrigin }) => [
     {
       position: 'absolute',
       borderStyle: 'solid',
       borderColor: color.beerus[100],
       borderRadius: '50%',
-      backgroundColor: isStatusActive ? colorNew.roshi[100] : color.gohan[100],
+      backgroundColor: isStatusActive ? color.roshi[100] : color.gohan[100],
     },
     statusOrigin &&
       statusOrigin.vertical === 'top' && {
