@@ -1,10 +1,10 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const SearchWrapper = styled.div(({ theme: { border, colorNew } }) => ({
+const SearchWrapper = styled.div(({ theme: { colorNew, newTokens } }) => ({
   paddingBottom: rem(4),
   marginBottom: rem(4),
-  borderBottom: border,
+  borderBottom: newTokens.border,
   borderColor: colorNew.beerus,
 }));
 
