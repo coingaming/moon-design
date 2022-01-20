@@ -74,7 +74,7 @@ const Container = styled.div<ContainerProps>`
   --third-color: ${({ theme, thirdColor }) =>
     thirdColor || theme.colorNew.cell[100]};
   --fourth-color: ${({ theme, fourthColor }) =>
-    fourthColor || theme.color.frieza[100]};
+    fourthColor || theme.colorNew.frieza[100]};
   width: ${rem(50)};
   height: ${rem(50)};
   &:before {
