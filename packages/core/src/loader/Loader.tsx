@@ -1,8 +1,8 @@
 import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 
-import LoaderRing from './styles/LoaderRing';
 import Container from './styles/Container';
+import LoaderRing from './styles/LoaderRing';
 
 export interface LoaderProps {
   color?: ColorProps;
