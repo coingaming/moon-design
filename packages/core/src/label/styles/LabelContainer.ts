@@ -9,12 +9,12 @@ type Props = {
 };
 
 const LabelContainer = styled.span<Props>(
-  ({ theme: { fontWeight, radius } }) => ({
+  ({ theme: { newTokens } }) => ({
     display: 'flex',
     alignItems: 'center',
-    fontWeight: fontWeight.semibold,
+    fontWeight: newTokens.font.weight.semibold,
     textTransform: 'uppercase',
-    borderRadius: rem(radius.largest),
+    borderRadius: newTokens.borderRadius.full,
     letterSpacing: rem(1),
     fontSize: rem(10),
     lineHeight: rem(16),
