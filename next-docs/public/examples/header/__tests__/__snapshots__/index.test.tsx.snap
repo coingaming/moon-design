@@ -30,7 +30,7 @@ exports[`Header renders with back button 1`] = `
       className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
     >
       <svg
-        className="sc-gCUhMr"
+        className="sc-eHfQar"
         height="1em"
         viewBox="0 0 20 8"
         width="1em"
@@ -74,7 +74,7 @@ exports[`Header renders with close button 1`] = `
         className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
       >
         <svg
-          className="sc-inHwnm"
+          className="sc-cvJHqN"
           height="1em"
           viewBox="0 0 20 20"
           width="1em"
@@ -111,7 +111,7 @@ exports[`Header renders with icons 1`] = `
         className="Header__IconWrapper-sc-60uies-1 cVbNLO"
       >
         <svg
-          className="sc-ekkLtS"
+          className="sc-fFYUoA"
           fill="none"
           height="1em"
           viewBox="0 0 20 20"
@@ -130,7 +130,7 @@ exports[`Header renders with icons 1`] = `
         className="Header__IconWrapper-sc-60uies-1 cVbNLO"
       >
         <svg
-          className="sc-ieSyQn"
+          className="sc-dFJsGO"
           fill="none"
           height="1em"
           viewBox="0 0 20 20"
