@@ -19,7 +19,8 @@ const Example = () => {
       <div style={{ position: 'relative', display: 'inline-block' }} ref={ref}>
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
           {initialDate
-            ? (initialDate as Date)?.toLocaleDateString()
+            ? // eslint-disable-next-line  Conversion of type 'undefined' to type 'Date'
+              (initialDate as Date)?.toLocaleDateString()
             : 'Select a day...'}
         </Button>
         {isOpen && (
