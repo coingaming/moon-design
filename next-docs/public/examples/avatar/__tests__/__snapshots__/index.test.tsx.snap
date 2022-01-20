@@ -308,7 +308,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 hdiWRJ"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 eTdLjR"
         color="gohan.100"
         name="JS"
         size="xsmall"
@@ -326,7 +326,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 cTuKH"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 dcqVDn"
         color="gohan.100"
         name="JS"
         size="small"
@@ -344,7 +344,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 cTuKH"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 dcqVDn"
         color="gohan.100"
         name="JS"
         size="medium"
@@ -362,7 +362,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 jIWfiH"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 cAGxFf"
         color="gohan.100"
         name="JS"
         size="large"
@@ -432,7 +432,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="xsmall"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 hdiWRJ"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 eTdLjR"
         size="xsmall"
       />
     </div>
@@ -444,7 +444,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="small"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 cTuKH"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 dcqVDn"
         size="small"
       />
     </div>
@@ -456,7 +456,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="medium"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 cTuKH"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 dcqVDn"
         size="medium"
       />
     </div>
@@ -468,7 +468,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="large"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 jIWfiH"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 cAGxFf"
         size="large"
       />
     </div>
