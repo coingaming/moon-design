@@ -12,7 +12,7 @@ const Menu = styled.div(({ theme }) => ({
   left: 0,
   top: '100%',
   borderRadius: theme.newTokens.borderRadius.medium,
-  boxShadow: theme.shadows.lg,
+  boxShadow: theme.newTokens.boxShadow.large,
   marginTop: rem(8),
 }));
 
