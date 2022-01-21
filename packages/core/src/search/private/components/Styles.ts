@@ -82,7 +82,7 @@ export const Results = styled.div(
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',
-      padding: `${newTokens.space.xsmall} ${newTokens.space.xsmall}`,
+      padding: `${newTokens.space.xsmall} ${newTokens.space.twoxsmall}`,
       borderRadius: newTokens.borderRadius.medium,
       borderWidth: newTokens.borderWidth,
       borderStyle: 'solid',
