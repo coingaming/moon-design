@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tablink renders 1`] = `
+<a
+  className="Container-j1xqi2-0 gfvHNF"
+/>
+`;

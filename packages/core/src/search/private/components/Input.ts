@@ -95,9 +95,9 @@ export const SearchInput = styled.input<
     lineHeight: 1,
     position: 'relative',
     paddingTop: 0,
-    paddingRight: rem(padding[$size] + space.default), // TODO
+    paddingRight: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
     paddingBottom: 0,
-    paddingLeft: rem(2 * padding[$size] + space.default), // TODO
+    paddingLeft: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
     textOverflow: 'ellipsis',
     overflow: 'hidden',
     backgroundColor: colorNew.goku,
@@ -109,8 +109,10 @@ export const SearchInput = styled.input<
     transition: `${inputConfig.transition}`,
     transitionDuration: newTokens.transitionDuration,
     '[dir=rtl] &': {
-      paddingLeft: rem(padding[$size] + space.default), // TODO
-      paddingRight: rem(2 * padding[$size] + space.default), // TODO
+      paddingLeft: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
+      paddingRight: `calc(${rem(2 * padding[$size])} + ${
+        newTokens.space.small
+      })`,
     },
     '&::placeholder': {
       color: 'inherit',
