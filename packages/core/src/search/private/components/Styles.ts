@@ -6,18 +6,18 @@ import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';
 
-export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
+export const resultsInactive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 0,
   visibility: 'hidden',
   maxHeight: 0,
-  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+  transition: `visibility 0s linear ${newTokens.transitionDuration}, opacity ${newTokens.transitionDuration}, max-height ${newTokens.transitionDuration}`,
 });
 
-export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
+export const resultsActive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 1,
   visibility: 'visible',
   maxHeight: '100vh',
-  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+  transition: `visibility 0s linear 0s, opacity ${newTokens.transitionDuration}, max-height ${newTokens.transitionDuration}`,
 });
 
 export const SearchForm = styled.form({
@@ -27,22 +27,22 @@ export const SearchForm = styled.form({
   width: '100%',
 });
 
-export const FlexWrapper = styled.div(({ theme: { space } }) => ({
+export const FlexWrapper = styled.div(({ theme: { newTokens } }) => ({
   position: 'relative',
   display: 'flex',
   justifyContent: 'space-between',
-  gap: rem(space.small),
+  gap: newTokens.space.xsmall,
 }));
 
 export const ModalClose = styled(Button)(
-  ({ theme: { base, breakpoint, colorNew, fontWeight, space } }) => ({
+  ({ theme: { base, breakpoint, colorNew, newTokens } }) => ({
     position: 'relative',
     display: 'none',
     flex: 0,
     border: 0,
     lineHeight: 1,
-    padding: `0 ${rem(space.default)}`,
-    fontWeight: fontWeight.normal,
+    padding: `0 ${newTokens.space.small}`,
+    fontWeight: newTokens.font.weight.normal,
     fontSize: rem(base.fontSize),
     overflow: 'visible',
     color: colorNew.piccolo,
@@ -67,12 +67,10 @@ export const Results = styled.div(
       [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
     },
   }),
-  ({
-    theme: { borderWidth, shadows, breakpoint, colorNew, radius, space },
-  }) => ({
+  ({ theme: { breakpoint, colorNew, newTokens } }) => ({
     position: 'absolute',
     left: 0,
-    top: rem(space.small),
+    top: newTokens.space.xsmall,
     color: colorNew.trunks,
     width: '100%',
     zIndex: zIndex.searchResults,
@@ -84,13 +82,13 @@ export const Results = styled.div(
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',
-      padding: `${rem(space.small)} ${rem(space.xsmall)}`,
-      borderRadius: rem(radius.default),
-      borderWidth,
+      padding: `${newTokens.space.xsmall} ${newTokens.space.xsmall}`,
+      borderRadius: newTokens.borderRadius.medium,
+      borderWidth: newTokens.borderWidth,
       borderStyle: 'solid',
       borderColor: colorNew.beerus,
       backgroundColor: colorNew.gohan,
-      boxShadow: shadows.lg,
+      boxShadow: newTokens.boxShadow.large,
     },
   })
 );

@@ -15,7 +15,7 @@ const { borderWidth, padding } = inputConfig;
 export type SearchInputSize = 'small' | 'medium';
 
 export const SearchClearButton = styled(Button)(
-  ({ theme: { colorNew, space } }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     position: 'absolute',
     top: 0,
     right: borderWidth,
@@ -23,7 +23,7 @@ export const SearchClearButton = styled(Button)(
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: `0 ${rem(space.small)}`,
+    padding: `0 ${newTokens.space.xsmall}`,
     border: 'none',
     background: 'transparent',
     appearance: 'none',
@@ -64,16 +64,16 @@ export const SearchInputIcon = styled(GenericSearch)<
 
 export const SearchMenuIcon = styled(GenericMenu)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { base, colorNew, space } }) => ({
+>(({ theme: { base, colorNew, newTokens } }) => ({
   position: 'absolute',
   top: '50%',
-  right: rem(space.default),
+  right: newTokens.space.small,
   color: colorNew.trunks,
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
   fontSize: rem(base.lineHeight),
   '[dir=rtl] &': {
-    left: rem(space.default),
+    left: newTokens.space.small,
     right: 'auto',
   },
 }));
@@ -87,38 +87,30 @@ export const SearchInput = styled.input<
   ({
     $size,
     hasBorder,
-    theme: {
-      breakpoint,
-      colorNew,
-      fontSize,
-      fontWeight,
-      radius,
-      space,
-      transitionDuration,
-    },
+    theme: { breakpoint, colorNew, fontSize, newTokens, space },
   }) => ({
-    fontWeight: fontWeight.normal,
+    fontWeight: newTokens.font.weight.normal,
     fontSize: rem(fontSize.body),
     width: '100%',
     lineHeight: 1,
     position: 'relative',
     paddingTop: 0,
-    paddingRight: rem(padding[$size] + space.default),
+    paddingRight: rem(padding[$size] + space.default), // TODO
     paddingBottom: 0,
-    paddingLeft: rem(2 * padding[$size] + space.default),
+    paddingLeft: rem(2 * padding[$size] + space.default), // TODO
     textOverflow: 'ellipsis',
     overflow: 'hidden',
     backgroundColor: colorNew.goku,
     color: colorNew.trunks,
-    borderRadius: rem(radius.default),
+    borderRadius: newTokens.borderRadius.medium,
     border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
     outline: 0,
     zIndex: zIndex.searchInput,
     transition: `${inputConfig.transition}`,
-    transitionDuration: `${transitionDuration.default}s`,
+    transitionDuration: newTokens.transitionDuration,
     '[dir=rtl] &': {
-      paddingLeft: rem(padding[$size] + space.default),
-      paddingRight: rem(2 * padding[$size] + space.default),
+      paddingLeft: rem(padding[$size] + space.default), // TODO
+      paddingRight: rem(2 * padding[$size] + space.default), // TODO
     },
     '&::placeholder': {
       color: 'inherit',

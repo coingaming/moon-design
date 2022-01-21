@@ -5,7 +5,7 @@ import { popupConfig } from './settings';
 import { FlexWrapper, ModalClose, resultsActive } from './Styles';
 
 export const StyledPopup = styled.div(
-  ({ theme: { base, breakpoint, colorNew, space, zIndex } }) => ({
+  ({ theme: { base, breakpoint, colorNew, zIndex, newTokens } }) => ({
     background: 'transparent',
     position: 'relative',
     padding: 0,
@@ -20,7 +20,7 @@ export const StyledPopup = styled.div(
         bottom: 0,
         left: 0,
         background: colorNew.goten,
-        padding: rem(space.default),
+        padding: newTokens.space.small,
         zIndex: zIndex.dialog,
       },
     },
