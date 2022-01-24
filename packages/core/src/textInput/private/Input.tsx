@@ -22,7 +22,10 @@ const Input = styled.input.attrs(({ type }) => ({
 }))<InputProps>(
   ({
     theme: currentTheme,
-    theme: { colorNew, radius, space, transitionDuration },
+    theme: {
+      colorNew,
+      newTokens: { borderRadius, transitionDuration, space },
+    },
     inputSize,
     error,
     icon,
@@ -45,13 +48,13 @@ const Input = styled.input.attrs(({ type }) => ({
       color: colorNew.bulma,
       backgroundColor: !bgColor
         ? 'transparent'
-        : themed('color', bgColor)(currentTheme),
+        : themed('colorNew', bgColor)(currentTheme),
       position: 'relative',
       zIndex: 2,
       border: 'none',
       boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
-      borderRadius: rem(radius.largest),
-      transition: `box-shadow ${transitionDuration.default}s ease`,
+      borderRadius: borderRadius.large,
+      transition: `box-shadow ${transitionDuration} ease`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
       '&::before, &::after': {
@@ -60,7 +63,7 @@ const Input = styled.input.attrs(({ type }) => ({
       '&::placeholder': {
         color: colorNew.trunks,
         opacity: 1,
-        transition: `opacity ${transitionDuration.default}s ease`,
+        transition: `opacity ${transitionDuration} ease`,
         transitionDelay: `0.1s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
@@ -138,9 +141,9 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingRight: rem(space.large),
+      paddingRight: space.large,
       backgroundImage: inlineSvg(icon),
-      backgroundPosition: `right ${rem(space.default)} center`,
+      backgroundPosition: `right ${rem(4)} center`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: rem(20),
     },
