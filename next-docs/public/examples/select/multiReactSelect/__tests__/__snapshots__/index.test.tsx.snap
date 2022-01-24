@@ -27,18 +27,18 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-16-placeholder"
             >
               <div
@@ -114,23 +114,23 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-17-placeholder"
             >
               <div
@@ -218,18 +218,18 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-14-placeholder"
             >
               <div
@@ -305,23 +305,23 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-15-placeholder"
             >
               <div
@@ -409,18 +409,18 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-8-placeholder"
             >
               <div
@@ -496,23 +496,23 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-9-placeholder"
             >
               <div
@@ -600,18 +600,18 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-5iyl5w-control"
+        className=" css-13xtzq8-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-10-placeholder"
             >
               <div
@@ -692,23 +692,23 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-qmu6jw-control"
+        className=" css-jkdyu8-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-11-placeholder"
             >
               <div
@@ -801,18 +801,18 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-6-placeholder"
             >
               <div
@@ -893,23 +893,23 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-7-placeholder"
             >
               <div
@@ -1002,18 +1002,18 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-2-placeholder"
             >
               <div
@@ -1089,23 +1089,23 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-3-placeholder"
             >
               <div
@@ -1188,18 +1188,18 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-4-placeholder"
             >
               <div
@@ -1275,21 +1275,21 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           />
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 eVpOoR"
+            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-5-placeholder"
             >
               <div
@@ -1377,18 +1377,18 @@ exports[`Multi Select with counter 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-4qgs8i-control"
+        className=" css-1j4w80b-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-hk965j-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 hPJszo"
+            className="ValueContainer__MultiContainer-fuxzw2-1 dDGKmK"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-tnlk5g-placeholder"
               id="react-select-12-placeholder"
             >
               <div
@@ -1464,23 +1464,23 @@ exports[`Multi Select with counter 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-rmvh14-control"
+        className=" css-yw1gpw-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-wwwh0d-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 bTKa-dx"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 hPJszo"
+            className="ValueContainer__MultiContainer-fuxzw2-1 dDGKmK"
           >
             <div
-              className=" css-1hhqamn-placeholder"
+              className=" css-v55jwc-placeholder"
               id="react-select-13-placeholder"
             >
               <div
