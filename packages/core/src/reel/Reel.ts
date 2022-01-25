@@ -1,6 +1,6 @@
-import styled, { CSSObject } from 'styled-components';
-import { themed, rem } from '@heathmont/moon-utils';
 import { SpaceProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 
 const listItemStyleTypeNone: CSSObject = {
   listStyleType: 'none',
@@ -51,7 +51,7 @@ const Reel = styled.div<ReelProps>(({ height, space, theme, dir }) => [
     '::-webkit-scrollbar-thumb': {
       backgroundColor: 'transparent',
       backgroundClip: 'content-box' /* [3] */,
-      borderRadius: rem(theme.radius.largest),
+      borderRadius: theme.newTokens.borderRadius.full,
       border: '3px solid transparent' /* [3] */,
     },
     ':hover::-webkit-scrollbar-thumb': {
