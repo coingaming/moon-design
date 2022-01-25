@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import getFontSize from '../private/text/getFontSize';
 
@@ -22,9 +22,9 @@ const Text = styled.p<TextProps>(
     textAlign && {
       textAlign,
     },
-  ({ isBold, theme: { fontWeight } }) =>
+  ({ isBold, theme: { newTokens } }) =>
     isBold && {
-      fontWeight: fontWeight.semibold,
+      fontWeight: newTokens.font.weight.semibold,
     }
 );
 

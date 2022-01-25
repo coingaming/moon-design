@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders 1`] = `
+<p
+  className="Text-oby56-0 kIwqdU"
+  color="bulma.100"
+  size={16}
+/>
+`;
+
+exports[`Text renders color 1`] = `
+<p
+  className="Text-oby56-0 jzvjja"
+  color="piccolo.120"
+  size={16}
+/>
+`;
+
+exports[`Text renders isBold 1`] = `
+<p
+  className="Text-oby56-0 dnlgEO"
+  color="bulma.100"
+  size={16}
+/>
+`;
+
+exports[`Text renders size 1`] = `
+<p
+  className="Text-oby56-0 csBQcc"
+  color="bulma.100"
+  size={64}
+/>
+`;
+
+exports[`Text renders textAlign 1`] = `
+<p
+  className="Text-oby56-0 iyFRWn"
+  color="bulma.100"
+  size={16}
+/>
+`;
