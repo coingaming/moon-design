@@ -149,7 +149,7 @@ const CustomStyles: StylesConfig = {
       gridArea: '2 / 1 / 2 / 3',
       fontSize: rem(16),
       lineHeight:
-        state.isMulti && customProps.size === 'xLarge' ? rem(16) : rem(28),
+        state.isMulti && customProps.size === 'xLarge' ? rem(16) : rem(24),
       height: '100%',
       marginLeft: 0,
       marginRight: 0,
