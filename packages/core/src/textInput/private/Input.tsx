@@ -24,7 +24,7 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: currentTheme,
     theme: {
       colorNew,
-      newTokens: { borderRadius, transitionDuration, space },
+      newTokens: { borderRadius, transitionDuration, space, hover },
     },
     inputSize,
     error,
@@ -68,7 +68,9 @@ const Input = styled.input.attrs(({ type }) => ({
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? rgba(colorNew.piccolo, 0.12) : colorNew.chiChi[100]
+          !error ? hover.primary : colorNew.chiChi[100]
+        } inset, 0 0 0 ${rem(2)} ${
+          !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
       },
       '&:focus:not([readonly])': {

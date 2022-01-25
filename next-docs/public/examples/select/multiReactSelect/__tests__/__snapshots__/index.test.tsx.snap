@@ -27,7 +27,7 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -114,7 +114,7 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -218,7 +218,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -305,7 +305,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -409,7 +409,7 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -496,7 +496,7 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -801,7 +801,7 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -893,7 +893,7 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1002,7 +1002,7 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1089,7 +1089,7 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1188,7 +1188,7 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1275,7 +1275,7 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1377,7 +1377,7 @@ exports[`Multi Select with counter 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1j4w80b-control"
+        className=" css-1iv1mo1-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1464,7 +1464,7 @@ exports[`Multi Select with counter 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-yw1gpw-control"
+        className=" css-pj9e0d-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >

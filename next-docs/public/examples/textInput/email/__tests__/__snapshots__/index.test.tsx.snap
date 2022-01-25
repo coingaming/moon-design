@@ -17,7 +17,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         disabled={true}
         placeholder=" "
         type="email"
@@ -44,7 +44,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         disabled={true}
         placeholder=" "
         type="email"
@@ -69,7 +69,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           disabled={true}
           placeholder=" "
           type="email"
@@ -108,7 +108,7 @@ exports[`TextInput: type Email renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iBKMri"
+        className="Input-qkdgvx-0 cgqCbZ"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -132,7 +132,7 @@ exports[`TextInput: type Email renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 ckfrYR"
+        className="Input-qkdgvx-0 eJnChS"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Email renders error 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 NbmYz"
+          className="Input-qkdgvx-0 dMiVZU"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
@@ -191,7 +191,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder=" "
         readOnly={true}
         type="email"
@@ -217,7 +217,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder=" "
         readOnly={true}
         type="email"
@@ -241,7 +241,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder=" "
           readOnly={true}
           type="email"
@@ -280,7 +280,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
@@ -363,7 +363,7 @@ exports[`TextInput: type Email renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Email renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Email renders with label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
@@ -423,7 +423,7 @@ exports[`TextInput: type Email renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="medium"
         type="email"
       />
@@ -436,7 +436,7 @@ exports[`TextInput: type Email renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="large"
         type="email"
       />
@@ -452,7 +452,7 @@ exports[`TextInput: type Email renders without label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 ksRhpL"
+          className="Input-qkdgvx-0 lcbCNn"
           placeholder="xlarge"
           type="email"
         />
@@ -481,7 +481,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 fmtuw"
+        className="Input-qkdgvx-0 cWnWkM"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -505,7 +505,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 gfTlwH"
+        className="Input-qkdgvx-0 hRHDOH"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -527,7 +527,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 enHEsf"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />

@@ -17,7 +17,7 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         disabled={true}
         placeholder=" "
         type="datetime-local"
@@ -43,7 +43,7 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         disabled={true}
         placeholder=" "
         type="datetime-local"
@@ -67,7 +67,7 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           disabled={true}
           placeholder=" "
           type="datetime-local"
@@ -105,7 +105,7 @@ exports[`TextInput: type DateTime renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iBKMri"
+        className="Input-qkdgvx-0 cgqCbZ"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -129,7 +129,7 @@ exports[`TextInput: type DateTime renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 ckfrYR"
+        className="Input-qkdgvx-0 eJnChS"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -151,7 +151,7 @@ exports[`TextInput: type DateTime renders error 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 NbmYz"
+          className="Input-qkdgvx-0 dMiVZU"
           placeholder="Placeholder"
           type="datetime-local"
         />
@@ -188,7 +188,7 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder=" "
         readOnly={true}
         type="datetime-local"
@@ -213,7 +213,7 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder=" "
         readOnly={true}
         type="datetime-local"
@@ -236,7 +236,7 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder=" "
           readOnly={true}
           type="datetime-local"
@@ -274,7 +274,7 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -298,7 +298,7 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -320,7 +320,7 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="Placeholder"
           type="datetime-local"
         />
@@ -357,7 +357,7 @@ exports[`TextInput: type DateTime renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -375,7 +375,7 @@ exports[`TextInput: type DateTime renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -391,7 +391,7 @@ exports[`TextInput: type DateTime renders with label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="Placeholder"
           type="datetime-local"
         />
@@ -417,7 +417,7 @@ exports[`TextInput: type DateTime renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 iQsJAT"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="medium"
         type="datetime-local"
       />
@@ -430,7 +430,7 @@ exports[`TextInput: type DateTime renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 jgVykY"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="large"
         type="datetime-local"
       />
@@ -446,7 +446,7 @@ exports[`TextInput: type DateTime renders without label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 ksRhpL"
+          className="Input-qkdgvx-0 lcbCNn"
           placeholder="xlarge"
           type="datetime-local"
         />
@@ -475,7 +475,7 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 fmtuw"
+        className="Input-qkdgvx-0 cWnWkM"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -499,7 +499,7 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 gfTlwH"
+        className="Input-qkdgvx-0 hRHDOH"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -521,7 +521,7 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 enHEsf"
       >
         <input
-          className="Input-qkdgvx-0 gMCGDu"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="Placeholder"
           type="datetime-local"
         />
