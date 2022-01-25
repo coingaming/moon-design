@@ -29,7 +29,7 @@ exports[`Calendar hide calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        1/21/2022
+        21/01/2022
       </div>
     </button>
     <div
@@ -504,7 +504,7 @@ exports[`Calendar hide calendar 2`] = `
 @@ -27,467 +27,7 @@
           className=\\"Button__InnerContainer-sc-1xtdszg-0 gwKSbc\\"
         >
-          1/21/2022
+          21/01/2022
         </div>
       </button>
 -     <div
@@ -1496,7 +1496,7 @@ exports[`Calendar select day 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        1/21/2022
+        21/01/2022
       </div>
     </button>
   </div>
@@ -4682,7 +4682,7 @@ exports[`Calendar: disabled day renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        9/17/2020
+        17/09/2020
       </div>
     </button>
     <div
@@ -5150,7 +5150,7 @@ exports[`Calendar: disabled days renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        9/17/2020
+        17/09/2020
       </div>
     </button>
     <div
@@ -5618,7 +5618,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        9/17/2020
+        17/09/2020
       </div>
     </button>
     <div
@@ -6086,7 +6086,7 @@ exports[`Calendar: disabled range renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        9/17/2020
+        17/09/2020
       </div>
     </button>
     <div
