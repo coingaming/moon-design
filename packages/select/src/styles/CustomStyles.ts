@@ -129,7 +129,7 @@ const CustomStyles: StylesConfig = {
             padding:
               customProps.size === 'xLarge' && customProps.label
                 ? `${rem(12)} ${rem(8)} 0 ${rem(7)}`
-                : `${rem(6)} ${rem(8)} 0 ${rem(7)}`,
+                : `0 ${rem(8)} 0 ${rem(7)}`,
           }
         : {}),
     };
@@ -153,6 +153,11 @@ const CustomStyles: StylesConfig = {
       height: '100%',
       marginLeft: 0,
       marginRight: 0,
+      display: 'flex',
+      alignItems:
+        state.isMulti && customProps.size === 'xLarge'
+          ? 'flex-start'
+          : 'center',
     };
   },
   multiValueRemove: () => ({
