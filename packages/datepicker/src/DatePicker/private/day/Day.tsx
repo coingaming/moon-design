@@ -36,13 +36,15 @@ export const Day: React.FC<DayProps> = ({
     return <EmptyCell />;
   }
 
+  const onClick = () => !isDisabled && onDayClick(date)
+
   return (
     <DayWrapper>
       <DayContainer
         isStartEdge={isStartEdge}
         isToday={isToday}
         isDisabled={isDisabled}
-        onClick={() => !isDisabled && onDayClick(date)}
+        onClick={onClick}
         test-id="day"
       >
         {formatLabel(date)}
