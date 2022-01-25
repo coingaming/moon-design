@@ -8,7 +8,7 @@ const RadioButtonStyledInput = styled.figure(({ theme }) => ({
   height: rem(16),
   display: 'inline-block',
   boxSizing: 'border-box',
-  border: `${rem(BORDER_WIDTH)} solid ${theme.colorNew.piccolo}`,
+  border: `${theme.newTokens.border} ${theme.colorNew.piccolo}`,
   borderRadius: '50%',
   position: 'relative',
   zIndex: 2,
@@ -17,8 +17,7 @@ const RadioButtonStyledInput = styled.figure(({ theme }) => ({
     content: '""',
     position: 'absolute',
     borderRadius: '50%',
-    transitionTimingFunction: 'ease',
-    transitionDuration: `${theme.transitionDuration.default}s`,
+    transitionDuration: theme.newTokens.transition.default,
   },
   /* Pseudo RadioButton Circle */
   '&::before': {

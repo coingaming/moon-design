@@ -20,7 +20,7 @@ const RadioButtonHiddenInput = styled.input(({ theme }) => ({
     backgroundColor: theme.colorNew.piccolo,
   },
   '&:disabled ~ *': {
-    opacity: 0.1,
+    opacity: theme.newTokens.opacity,
     cursor: 'not-allowed',
   },
 }));
