@@ -19,7 +19,6 @@ const Placeholder = ({ ...rest }: PlaceholderProps<any>) => {
   const customProps = selectProps['data-customProps'];
   const isTopPadding =
     rest.isMulti && !customProps.label && customProps.size === 'xLarge';
-  console.log(rest);
   return (
     <components.Placeholder {...rest}>
       <PlaceholderContainer isTopPadding={isTopPadding}>
