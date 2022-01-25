@@ -1,16 +1,16 @@
 import React from 'react';
 
-import WithLabel from '../../../public/examples/select/multiReactSelect/WithLabel';
-import WithoutLabel from '../../../public/examples/select/multiReactSelect/WithoutLabel';
-import Hint from '../../../public/examples/select/multiReactSelect/Hint';
-import Disabled from '../../../public/examples/select/multiReactSelect/Disabled';
-import WithCounter from '../../../public/examples/select/multiReactSelect/WithCounter';
-import OptionsContent from '../../../public/examples/select/multiReactSelect/OptionsContent';
-import ListWidth from '../../../public/examples/select/multiReactSelect/ListWidth';
-import Error from '../../../public/examples/select/multiReactSelect/Error';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
+import Disabled from '../../../public/examples/select/multiReactSelect/Disabled';
+import Error from '../../../public/examples/select/multiReactSelect/Error';
+import Hint from '../../../public/examples/select/multiReactSelect/Hint';
+import ListWidth from '../../../public/examples/select/multiReactSelect/ListWidth';
+import OptionsContent from '../../../public/examples/select/multiReactSelect/OptionsContent';
+import WithCounter from '../../../public/examples/select/multiReactSelect/WithCounter';
+import WithLabel from '../../../public/examples/select/multiReactSelect/WithLabel';
+import WithoutLabel from '../../../public/examples/select/multiReactSelect/WithoutLabel';
+
 
 import useExamples from '../../../utils/useExamples';
 

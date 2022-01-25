@@ -1,16 +1,16 @@
 import React from 'react';
 
-import WithLabel from '../../../public/examples/select/singleReactSelect/WithLabel';
-import Options from '../../../public/examples/select/singleReactSelect/Options';
-import Error from '../../../public/examples/select/singleReactSelect/Error';
-import Hint from '../../../public/examples/select/singleReactSelect/Hint';
-import OptionsContent from '../../../public/examples/select/singleReactSelect/OptionsContent';
-import Disabled from '../../../public/examples/select/singleReactSelect/Disabled';
-import WithoutLabel from '../../../public/examples/select/singleReactSelect/WithoutLabel';
-import ListWidth from '../../../public/examples/select/singleReactSelect/ListWidth';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
+import Disabled from '../../../public/examples/select/singleReactSelect/Disabled';
+import Error from '../../../public/examples/select/singleReactSelect/Error';
+import Hint from '../../../public/examples/select/singleReactSelect/Hint';
+import ListWidth from '../../../public/examples/select/singleReactSelect/ListWidth';
+import Options from '../../../public/examples/select/singleReactSelect/Options';
+import OptionsContent from '../../../public/examples/select/singleReactSelect/OptionsContent';
+import WithLabel from '../../../public/examples/select/singleReactSelect/WithLabel';
+import WithoutLabel from '../../../public/examples/select/singleReactSelect/WithoutLabel';
+
 
 import useExamples from '../../../utils/useExamples';
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import { components, ValueContainerProps, Props } from 'react-select';
-import { rem } from '@heathmont/moon-utils';
-import styled from 'styled-components';
 import { Theme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import { components, ValueContainerProps, Props } from 'react-select';
+import styled from 'styled-components';
 
 type CustomProps = {
   isCustomControl?: boolean;
