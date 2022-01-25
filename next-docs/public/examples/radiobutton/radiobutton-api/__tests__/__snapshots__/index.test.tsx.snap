@@ -29,13 +29,13 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
             id="age1"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
           />
         </span>
       </div>
@@ -61,13 +61,13 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
             id="age2"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
           />
         </span>
       </div>
@@ -93,13 +93,13 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="61 - 100"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
             id="age3"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
           />
         </span>
       </div>
