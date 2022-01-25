@@ -1,17 +1,17 @@
 import { ReactChild, ReactNode } from 'react';
 
 import type { AppProps } from 'next/app';
-import Head from 'next/head';
 
 import '../styles/globals.css';
 import '../styles/reset.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
 
-import Layout from '../components/Layout';
 import React from 'react';
-import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import { NextPage } from 'next';
+import Head from 'next/head';
+import Layout from '../components/Layout';
+import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 
 type GetLayout = (page: ReactNode) => ReactChild & ReactNode;
 
