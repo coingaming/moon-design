@@ -20,7 +20,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          className="sc-fUiUso Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -41,7 +41,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -67,7 +67,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -248,7 +248,7 @@ exports[`Table Chart renders 1`] = `
               by GGR
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -480,7 +480,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -506,7 +506,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -714,7 +714,7 @@ exports[`Table Chart renders 1`] = `
               by GGR
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1036,7 +1036,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          className="sc-fUiUso Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1057,7 +1057,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1083,7 +1083,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1285,7 +1285,7 @@ exports[`Table Chart renders 1`] = `
               by GGR
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1665,7 +1665,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          className="sc-fUiUso Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1686,7 +1686,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1712,7 +1712,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1895,7 +1895,7 @@ exports[`Table Chart renders Active 1`] = `
               by all devices
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2088,7 +2088,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          className="sc-fUiUso Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2109,7 +2109,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2135,7 +2135,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2317,7 +2317,7 @@ exports[`Table Chart renders Active 1`] = `
               by all devices
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2517,7 +2517,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          className="sc-fUiUso Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2538,7 +2538,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2564,7 +2564,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2747,7 +2747,7 @@ exports[`Table Chart renders Loading 1`] = `
               by all devices
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2832,7 +2832,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iitrsy Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
+          className="sc-fUiUso Panel__IconRefreshStyled-wbwz0d-3  esdMFj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2853,7 +2853,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-hkwnrn"
+          className="sc-kutfdj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2879,7 +2879,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-exiMuG"
+          className="sc-BcWVX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -3062,7 +3062,7 @@ exports[`Table Chart renders Loading 1`] = `
               by all devices
             </p>
             <svg
-              className="sc-eWvPJL"
+              className="sc-ggVFVF"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"

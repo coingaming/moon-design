@@ -49,7 +49,7 @@ const InputWrapper = styled.div<InputWrapperProps>(
         '&:active': {
           borderColor: theme.colorNew.piccolo,
         },
-        borderRadius: rem(theme.radius.largest),
+        borderRadius: theme.newTokens.borderRadius.full,
         transition: `border-color ${theme.newTokens.transition.default}`,
         WebkitAppearance: 'none',
       },

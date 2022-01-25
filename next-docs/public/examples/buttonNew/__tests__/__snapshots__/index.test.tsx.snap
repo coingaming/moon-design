@@ -12,7 +12,7 @@ exports[`Button New renders Full width property 1`] = `
   >
     Full width
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -46,7 +46,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -74,7 +74,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -103,7 +103,7 @@ exports[`Button New renders different icons 1`] = `
   >
     IconRight
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -131,7 +131,7 @@ exports[`Button New renders different icons 1`] = `
   >
     IconRight
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -158,7 +158,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -185,7 +185,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
