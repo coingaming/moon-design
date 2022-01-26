@@ -1,10 +1,9 @@
-import { rem } from '@heathmont/moon-utils';
 import rgba from 'polished/lib/color/rgba';
 import styled from 'styled-components';
 import HeaderTR from './HeaderTR';
 import TH from './TH';
 
-const Footer = styled.div(({ theme: { colorNew, radius } }) => ({
+const Footer = styled.div(({ theme: { colorNew, newTokens } }) => ({
   position: 'sticky',
   zIndex: 1,
   bottom: 0,
@@ -13,10 +12,10 @@ const Footer = styled.div(({ theme: { colorNew, radius } }) => ({
       [TH]: {
         boxShadow: `inset 0 1px 0 ${rgba(colorNew.trunks, 0.2)}`,
         '&:first-child': {
-          borderTopLeftRadius: rem(radius.default),
+          borderTopLeftRadius: newTokens.radius.medium,
         },
         '&:last-child': {
-          borderTopRightRadius: rem(radius.default),
+          borderTopRightRadius: newTokens.radius.medium,
         },
       },
     },
