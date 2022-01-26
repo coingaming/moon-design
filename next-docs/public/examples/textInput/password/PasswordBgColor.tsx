@@ -12,7 +12,7 @@ const Example = () => (
         placeholder="Placeholder"
         hintText="Informative message holder"
         showPasswordText="Show"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
     <div className="m-4">
@@ -23,7 +23,7 @@ const Example = () => (
         placeholder="Placeholder"
         hintText="Informative message holder"
         showPasswordText="Show"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
     <div className="m-4">
@@ -34,7 +34,7 @@ const Example = () => (
         placeholder="Placeholder"
         hintText="Informative message holder"
         showPasswordText="Show"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
   </div>

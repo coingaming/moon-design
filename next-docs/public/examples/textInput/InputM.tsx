@@ -42,7 +42,7 @@ const Example = () => (
         inputSize="xlarge"
         hintText="Informative message holder"
         isError
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
 
@@ -52,7 +52,7 @@ const Example = () => (
       label="Input with background color"
       placeholder="Placeholder"
       hintText="Informative message holder"
-      backgroundColor="goku.10"
+      backgroundColor="goku"
     />
 
     <div className="pt-4">
