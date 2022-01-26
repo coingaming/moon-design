@@ -12,10 +12,10 @@ const Footer = styled.div(({ theme: { colorNew, newTokens } }) => ({
       [TH]: {
         boxShadow: `inset 0 1px 0 ${rgba(colorNew.trunks, 0.2)}`,
         '&:first-child': {
-          borderTopLeftRadius: newTokens.radius.medium,
+          borderTopLeftRadius: newTokens.borderRadius.medium,
         },
         '&:last-child': {
-          borderTopRightRadius: newTokens.radius.medium,
+          borderTopRightRadius: newTokens.borderRadius.medium,
         },
       },
     },

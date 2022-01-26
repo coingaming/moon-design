@@ -2,7 +2,7 @@
 
 exports[`Table renders 1`] = `
 <div
-  className="TableWrapper-sc-1t8gxms-0 krZKtZ sticky"
+  className="TableWrapper-sc-1t8gxms-0 gQKMEo sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -5998,7 +5998,7 @@ exports[`Table renders 1`] = `
 
 exports[`Table renders Calendar 1`] = `
 <div
-  className="TableWrapper-sc-1t8gxms-0 gHawiJ sticky"
+  className="TableWrapper-sc-1t8gxms-0 dbQsSA sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -9499,7 +9499,7 @@ exports[`Table renders Calendar 1`] = `
 
 exports[`Table renders Deep Table 1`] = `
 <div
-  className="TableWrapper-sc-1t8gxms-0 krZKtZ sticky"
+  className="TableWrapper-sc-1t8gxms-0 gQKMEo sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -11668,7 +11668,7 @@ exports[`Table renders Deep Table 1`] = `
 
 exports[`Table renders with Custom Content 1`] = `
 <div
-  className="TableWrapper-sc-1t8gxms-0 krZKtZ sticky"
+  className="TableWrapper-sc-1t8gxms-0 gQKMEo sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -14214,7 +14214,7 @@ exports[`Table renders with Custom Content 1`] = `
 
 exports[`Table renders with Expanded Row 1`] = `
 <div
-  className="TableWrapper-sc-1t8gxms-0 krZKtZ sticky"
+  className="TableWrapper-sc-1t8gxms-0 gQKMEo sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -20367,7 +20367,7 @@ exports[`Table renders with Mini Map 1`] = `
   className="OuterWrapper-j66u40-0 cpUWme"
 >
   <div
-    className="TableWrapper-sc-1t8gxms-0 krZKtZ sticky"
+    className="TableWrapper-sc-1t8gxms-0 gQKMEo sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -23433,7 +23433,7 @@ exports[`Table renders with Mini Map 1`] = `
     </div>
   </div>
   <div
-    className="Minimap__Wrapper-on2j37-0 kuJzcd"
+    className="Minimap__Wrapper-on2j37-0 iClDWS"
     offset={0}
   >
     <div
@@ -23471,7 +23471,7 @@ exports[`Table renders with Mini Map 1`] = `
 
 exports[`Table renders with Sorting 1`] = `
 <div
-  className="TableWrapper-sc-1t8gxms-0 krZKtZ"
+  className="TableWrapper-sc-1t8gxms-0 gQKMEo"
   onScroll={[Function]}
   role="table"
   style={
