@@ -4,9 +4,7 @@ import { rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
 const Example = () => {
-  const [initialDate, setDate] = React.useState(
-    new Date('September 17, 2020 03:24:00')
-  );
+  const [initialDate, setDate] = React.useState(new Date('September 17, 2020'));
   const [isOpen, setIsOpen] = React.useState(true);
   const [ref, hasClickedOutside] = useClickOutside();
 
@@ -20,7 +18,7 @@ const Example = () => {
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
           {initialDate
             ? // tslint:disable-next-line
-              (initialDate as Date)?.toLocaleDateString()
+              (initialDate as Date)?.toLocaleDateString('en-GB')
             : 'Select a day...'}
         </Button>
         {isOpen && (
