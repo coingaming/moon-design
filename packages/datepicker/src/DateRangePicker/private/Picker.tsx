@@ -1,16 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
-import addMonths from 'date-fns/addMonths';
-import { mq, rem } from '@heathmont/moon-utils';
-
 import {
   ControlsChevronLeft,
   ControlsChevronRight,
 } from '@heathmont/moon-icons';
+import { mq, rem } from '@heathmont/moon-utils';
+import addMonths from 'date-fns/addMonths';
+import styled from 'styled-components';
 
+
+import { InputsPanel } from './InputsPanel';
 import { Month } from './Month';
 import { Sidebar } from './Sidebar';
-import { InputsPanel } from './InputsPanel';
 
 const PickerContainer = styled.div(
   ({ theme: { color, space, radius, breakpoint, zIndex, shadows } }) => ({

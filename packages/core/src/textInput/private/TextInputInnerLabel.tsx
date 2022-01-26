@@ -23,7 +23,7 @@ interface TextInputMediumProps
   backgroundColor?: ColorProps;
 }
 
-const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
+const TextInputInnerLabel: React.FC<TextInputMediumProps> = (props) => {
   const {
     id,
     inputSize,
@@ -35,7 +35,7 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
     isError,
     ref,
     dir,
-    backgroundColor,
+    backgroundColor = 'gohan',
     ...rest
   } = props;
   const inputProps = {
@@ -63,4 +63,4 @@ const TextInputMedium: React.FC<TextInputMediumProps> = (props) => {
   );
 };
 
-export default TextInputMedium;
+export default TextInputInnerLabel;

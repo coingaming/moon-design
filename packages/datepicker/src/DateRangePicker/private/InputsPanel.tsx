@@ -1,9 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import rem from 'polished/lib/helpers/rem';
-import { mq } from '@heathmont/moon-utils';
-
 import { Button, TextInput } from '@heathmont/moon-components';
+import { mq } from '@heathmont/moon-utils';
+import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
+
 import { RangeConfig, RangeTranslations } from '../RangeCalendar';
 
 import useInputsPanel from './hooks/useInputsPanel';

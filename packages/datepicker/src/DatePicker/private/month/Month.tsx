@@ -1,17 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
-import isSameDay from 'date-fns/isSameDay';
 import getMonth from 'date-fns/getMonth';
+import isSameDay from 'date-fns/isSameDay';
+import styled from 'styled-components';
 
-import { Day } from '../day/Day';
-import MonthSelect from './MonthSelect';
-import YearSelect from './YearSelect';
 
 import { DisabledDaysRange } from '../../DatePicker';
+import { Day } from '../day/Day';
 import { checkIsDisabledDay } from '../helpers/checkIsDisabledDay';
+import MonthSelect from './MonthSelect';
 
 import DayName from './styles/DayName';
 import MonthYearLabel from './styles/MonthYearLabel';
+import YearSelect from './YearSelect';
 
 type MonthProps = {
   monthDays: Date[];

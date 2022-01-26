@@ -1,5 +1,5 @@
-import isWithinInterval from 'date-fns/isWithinInterval';
 import compareAsc from 'date-fns/compareAsc';
+import isWithinInterval from 'date-fns/isWithinInterval';
 
 interface isInRangePreviewInrerface {
   startDate?: Date;
