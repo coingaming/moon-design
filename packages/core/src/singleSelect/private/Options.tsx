@@ -22,9 +22,9 @@ const ListboxListWrapper = styled(ListboxList)({
 });
 
 const ListboxOptionWrapper = styled(ListboxOption)(
-  ({ theme: { colorNew } }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     cursor: 'pointer',
-    borderRadius: rem(4),
+    borderRadius: newTokens.borderRadius.xsmall,
     '&:hover': {
       backgroundColor: colorNew.goku,
     },

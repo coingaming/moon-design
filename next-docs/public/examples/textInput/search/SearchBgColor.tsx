@@ -11,7 +11,7 @@ const Example = () => (
         label="medium"
         placeholder="e.g. EPL"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
     <div className="m-4">
@@ -21,7 +21,7 @@ const Example = () => (
         label="large"
         placeholder="e.g. EPL"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
     <div className="m-4">
@@ -31,7 +31,7 @@ const Example = () => (
         label="xlarge"
         placeholder="e.g. EPL"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
   </div>

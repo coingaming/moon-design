@@ -31,7 +31,7 @@ const SingleContainer = styled.div<{ isXLarge: boolean }>(({ isXLarge }) => ({
 const MultiContainer = styled.div<{ isHidden: boolean }>(({ isHidden }) => ({
   display: 'flex',
   flexWrap: isHidden ? 'nowrap' : 'wrap',
-  gap: rem(8),
+  gap: rem(4),
   padding: `${rem(4)} 0`,
   height: '100%',
   alignItems: 'center',
@@ -39,12 +39,15 @@ const MultiContainer = styled.div<{ isHidden: boolean }>(({ isHidden }) => ({
   '& > span': {
     maxHeight: rem(16),
     whiteSpace: 'nowrap',
+    marginTop: rem(4),
+    marginBottom: rem(4),
   },
 }));
 
 const InnerLabelContainer = styled.div<{ theme: Theme }>(({ theme }) => ({
   gridArea: '1 / 1 / 2 / 3',
   fontSize: rem(12),
+  lineHeight: rem(12),
   color: theme.colors.primary75,
 }));
 
