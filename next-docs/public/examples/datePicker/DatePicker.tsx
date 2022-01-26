@@ -5,9 +5,7 @@ import { DatePicker } from '@heathmont/moon-datepicker';
 import { rem } from '@heathmont/moon-utils';
 
 const Example = () => {
-  const [initialDate, setDate] = React.useState(
-    new Date('September 17, 2020 03:24:00')
-  );
+  const [initialDate, setDate] = React.useState(new Date('September 17, 2020'));
 
   return (
     <div style={{ height: rem(400), width: '100%' }}>

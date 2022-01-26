@@ -17,7 +17,7 @@ const Example = () => {
       <div style={{ position: 'relative', display: 'inline-block' }} ref={ref}>
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
           {initialDate
-            ? (initialDate as any)?.toLocaleDateString()
+            ? (initialDate as any)?.toLocaleDateString('en-GB')
             : 'Select a day...'}
         </Button>
         {isOpen && (

@@ -22,7 +22,7 @@ interface TextInputXSandSmProps
   backgroundColor?: ColorProps;
 }
 
-const TextInputXsmallSmall: React.FC<TextInputXSandSmProps> = (props) => {
+const TextInputBasic: React.FC<TextInputXSandSmProps> = (props) => {
   const {
     id,
     inputSize,
@@ -34,7 +34,7 @@ const TextInputXsmallSmall: React.FC<TextInputXSandSmProps> = (props) => {
     isError,
     ref,
     dir,
-    backgroundColor,
+    backgroundColor = 'gohan',
     ...rest
   } = props;
   const inputProps = {
@@ -64,4 +64,4 @@ const TextInputXsmallSmall: React.FC<TextInputXSandSmProps> = (props) => {
   );
 };
 
-export default TextInputXsmallSmall;
+export default TextInputBasic;

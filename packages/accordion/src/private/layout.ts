@@ -2,11 +2,11 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 export const AccordionWrapper = styled.div(
-  ({ theme: { colorNew, radius } }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     width: '100%',
     padding: rem(16),
     background: colorNew.gohan,
-    borderRadius: rem(radius.default),
+    borderRadius: newTokens.borderRadius.medium,
     color: colorNew.bulma,
   })
 );
@@ -37,10 +37,10 @@ export const AccordionHeader = styled.div<{ disabled?: boolean }>(
 );
 
 export const AccordionToggle = styled.button(
-  ({ theme: { colorNew, space }, disabled }) => ({
-    padding: rem(space.small),
+  ({ theme: { colorNew, newTokens }, disabled }) => ({
+    padding: newTokens.space.xsmall,
     verticalAlign: 'middle',
-    fontSize: rem(space.small),
+    fontSize: newTokens.space.xsmall,
     lineHeight: 0,
     textDecoration: 'none',
     cursor: disabled ? 'not-allowed' : 'pointer',

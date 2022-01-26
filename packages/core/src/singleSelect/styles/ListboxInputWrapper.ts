@@ -11,43 +11,22 @@ interface ListboxInputWrapperProps extends ListboxInputProps {
 }
 
 const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
-  ({
-    theme: { colorNew, borderWidth, radius, transitionDuration },
-    disabled,
-    inputsize,
-    error,
-  }) => [
+  ({ theme: { colorNew, newTokens }, disabled, inputsize }) => [
     {
       width: '100%',
       maxWidth: '100%',
       fontSize: inputsize === 'medium' ? rem(14) : rem(16),
       lineHeight: rem(24),
       color: colorNew.bulma,
-      border: `${borderWidth}px solid`,
-      borderColor: colorNew.beerus,
-      borderRadius: rem(radius.largest),
-      transition: `border-color ${transitionDuration.default}s ease`,
+      borderRadius: newTokens.borderRadius.large,
       '&:focus, &:focus-visible': {
         outline: 'none',
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: colorNew.piccolo,
       },
       '&[data-value="placeholder"]': {
         color: colorNew.trunks,
-      },
-      '&[data-state="expanded"]': {
-        borderColor: colorNew.piccolo,
-      },
-    },
-    error && {
-      borderColor: colorNew.chiChi[100],
-      '&:focus:not([disabled])': {
-        borderColor: colorNew.chiChi[100],
-      },
-      '&[data-state="expanded"]': {
-        borderColor: colorNew.chiChi[100],
       },
     },
     disabled && {
