@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-import { enGB } from 'date-fns/locale';
-
 import { Button } from '@heathmont/moon-components';
+import { enGB } from 'date-fns/locale';
+import styled from 'styled-components';
 
-import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
+
 import { getPlaceholder } from './private/helpers/getPlaceholder';
+import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 
 const Wrapper = styled.div({
   position: 'relative',

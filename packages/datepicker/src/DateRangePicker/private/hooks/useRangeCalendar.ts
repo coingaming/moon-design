@@ -1,17 +1,17 @@
 import React from 'react';
-import format from 'date-fns/format';
 import addMonths from 'date-fns/addMonths';
-import subMonths from 'date-fns/subMonths';
 import endOfDay from 'date-fns/endOfDay';
+import format from 'date-fns/format';
 import isAfter from 'date-fns/isAfter';
 import isSameDay from 'date-fns/isSameDay';
-import startOfDay from 'date-fns/startOfDay';
 import isValid from 'date-fns/isValid';
+import startOfDay from 'date-fns/startOfDay';
+import subMonths from 'date-fns/subMonths';
+import { getMonthDays } from '../../../private/helper/getMonthDays';
+import { getWeekDayLabels } from '../../../private/helper/getWeekDayLabels';
 import { getDatesFromRange } from '../helpers/getDatesFromRange';
 import { getPlaceholder } from '../helpers/getPlaceholder';
 import type { DatesRange } from '../helpers/getDatesFromRange';
-import { getMonthDays } from '../../../private/helper/getMonthDays';
-import { getWeekDayLabels } from '../../../private/helper/getWeekDayLabels';
 
 type RangeWeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
 

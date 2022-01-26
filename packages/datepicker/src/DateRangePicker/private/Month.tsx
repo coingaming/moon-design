@@ -1,14 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-import rem from 'polished/lib/helpers/rem';
-import isSameDay from 'date-fns/isSameDay';
-import isWithinInterval from 'date-fns/isWithinInterval';
 import getMonth from 'date-fns/getMonth';
 import isDate from 'date-fns/isDate';
+import isSameDay from 'date-fns/isSameDay';
+import isWithinInterval from 'date-fns/isWithinInterval';
+import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
 
-import { Day } from './Day';
 
 import { isInRangePreview } from '../private/helpers/isInRangePreview';
+import { Day } from './Day';
 
 const DayName = styled.div(({ theme }) => ({
   height: rem(32),

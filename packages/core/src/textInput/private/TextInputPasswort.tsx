@@ -1,15 +1,15 @@
 import React from 'react';
-import TextInputTypes from './types/TextInputTypes';
-import Input from './Input';
-import HintText from './HintText';
+import { ColorProps } from '@heathmont/moon-themes';
+import Size from '../../private/enums/Size';
 import Container from '../styles/Container';
 import Inner from '../styles/Inner';
 import Label from '../styles/Label';
 import LabelInner from '../styles/LabelInner';
 import ShowPassword from '../styles/ShowPassword';
-import { ColorProps } from '@heathmont/moon-themes';
+import HintText from './HintText';
+import Input from './Input';
 import TextInputSizeType from './types/SizeTypes';
-import Size from '../../private/enums/Size';
+import TextInputTypes from './types/TextInputTypes';
 
 interface TextInputPasswordProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -39,7 +39,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
     dir,
     showPasswordText,
     ref,
-    backgroundColor,
+    backgroundColor = 'gohan',
     ...rest
   } = props;
 
