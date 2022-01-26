@@ -2,15 +2,20 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const LabelInner = styled.label(
-  ({ theme: { colorNew, transitionDuration } }) => ({
+  ({
+    theme: {
+      colorNew,
+      newTokens: { transitionDuration },
+    },
+  }) => ({
     position: 'absolute',
     left: rem(16),
     fontSize: rem(12),
     lineHeight: rem(12),
     color: colorNew.trunks,
-    top: rem(11),
+    top: rem(12),
     zIndex: 1,
-    transition: `all ${transitionDuration.default}s ease`,
+    transition: `all ${transitionDuration} ease`,
   })
 );
 

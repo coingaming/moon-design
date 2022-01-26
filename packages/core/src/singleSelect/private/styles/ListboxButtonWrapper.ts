@@ -13,7 +13,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
   ({
-    theme: { border, colorNew, radius, transitionDuration },
+    theme: { colorNew, newTokens },
     disabled,
     isexpanded,
     inputsize,
@@ -26,26 +26,24 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       alignItems: 'center',
       backgroundColor: colorNew.gohan,
       padding: inputsize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
-      border: border,
-      borderColor: colorNew.gohan,
-      borderRadius: rem(radius.largest),
-      transition: `border-color ${transitionDuration.default}s ease`,
+      boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
+      borderRadius: newTokens.borderRadius.large,
+      transition: `box-shadow ${newTokens.transition.default}`,
       WebkitAppearance: 'none',
       cursor: 'pointer',
-
       '&:focus-visible, &:focus-visible ul': {
         outline: 'none',
       },
       '&:hover:enabled, &:focus:enabled': {
         cursor: 'pointer',
-        borderColor: colorNew.piccolo,
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: colorNew.piccolo,
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: colorNew.beerus,
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.beerus} inset`,
       },
       '@supports (-moz-appearance:none)': {
         lineHeight: rem(24),
@@ -55,21 +53,21 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       padding: `${rem(7)} ${rem(15)}`,
     },
     isexpanded && {
-      borderColor: colorNew.piccolo,
+      boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: colorNew.piccolo,
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       },
       '& span[data-reach-listbox-arrow]': {
         transform: 'rotate(180deg)',
       },
     },
     error && {
-      borderColor: colorNew.chiChi[100],
+      boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
       '&:focus:not([disabled])': {
-        borderColor: colorNew.chiChi[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: colorNew.chiChi[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
       },
     },
     disabled && {

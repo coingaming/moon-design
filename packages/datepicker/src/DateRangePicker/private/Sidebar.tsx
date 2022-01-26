@@ -1,7 +1,7 @@
 import React from 'react';
+import { mq } from '@heathmont/moon-utils';
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-import { mq } from '@heathmont/moon-utils';
 
 import { getRanges } from './helpers/getRanges';
 
