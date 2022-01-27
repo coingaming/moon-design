@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
@@ -54,7 +54,6 @@ export default function Layout({ children }: LayoutProps) {
 
   const toggleDirection = () => {
     const htmlTag = document && document?.getElementsByTagName('html')[0];
-    console.log('htmlTag', htmlTag);
     toggleDir(!isRtl);
     const dirAttr = htmlTag.getAttribute('dir');
 
