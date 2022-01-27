@@ -18,7 +18,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       overflow: 'hidden',
       userSelect: 'none',
       outline: 'none',
-      transition: `all ${newTokens.transition.default}`,
+      transition: `all ${newTokens.transition.default.joined}`,
       '&:active': {
         transform: newTokens.transform,
       },

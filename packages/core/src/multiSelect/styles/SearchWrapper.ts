@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const SearchWrapper = styled.div(({ theme: { colorNew, newTokens } }) => ({
   paddingBottom: rem(4),
   marginBottom: rem(4),
-  borderBottom: newTokens.border.default.join,
+  borderBottom: newTokens.border.default.joined,
   borderColor: colorNew.beerus,
 }));
 

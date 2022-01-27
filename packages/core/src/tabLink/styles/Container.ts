@@ -22,7 +22,7 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
     color: theme.colorNew.bulma,
-    transition: `color ${theme.newTokens.transition.default}`,
+    transition: `color ${theme.newTokens.transition.default.joined}`,
     textDecoration: 'none',
     border: 0,
     appearance: 'none',
@@ -37,7 +37,7 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
       margin: '0 auto',
       backgroundColor: theme.colorNew.piccolo,
       transform: 'scaleX(0)',
-      transition: `transform ${theme.newTokens.transition.default}`,
+      transition: `transform ${theme.newTokens.transition.default.joined}`,
     },
     '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
       color: theme.colorNew.piccolo,

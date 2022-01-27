@@ -361,12 +361,12 @@ export type BorderNew = {
   default: {
     width: string;
     style: string;
-    join: string;
+    joined: string;
   };
   interactive: {
     width: string;
     style: string;
-    join: string;
+    joined: string;
   };
 };
 
@@ -380,6 +380,19 @@ export type SpaceNew = {
   xlarge: string;
   twoxlarge: string;
   threexlarge: string;
+};
+
+export type TransitionNew = {
+  default: {
+    duration: string;
+    timingFunction: string;
+    joined: string;
+  };
+  slow: {
+    duration: string;
+    timingFunction: string;
+    joined: string;
+  };
 };
 
 export type ZIndexNew = {
@@ -465,9 +478,7 @@ export interface SharedTheme {
     breakpoint: BreakpointNew;
     border: BorderNew;
     space: SpaceNew;
-    transitionDuration: string;
-    transitionTimingFunction: string;
-    transition: Transition;
+    transition: TransitionNew;
     zIndex: ZIndexNew;
     boxShadow: BoxShadowNew;
     font: Font;
@@ -578,12 +589,12 @@ const sharedTokens: SharedTheme = {
       default: {
         width: rem(borderWidthDefault),
         style: borderStyle,
-        join: `${rem(borderWidthDefault)} ${borderStyle}`,
+        joined: `${rem(borderWidthDefault)} ${borderStyle}`,
       },
       interactive: {
         width: rem(borderWidthInteractive),
         style: borderStyle,
-        join: `${rem(borderWidthInteractive)} ${borderStyle}`,
+        joined: `${rem(borderWidthInteractive)} ${borderStyle}`,
       },
     },
     space: {
@@ -597,11 +608,17 @@ const sharedTokens: SharedTheme = {
       twoxlarge: rem(48),
       threexlarge: rem(56),
     },
-    transitionDuration: `${transitionDuration}s`, // Not sure if needed
-    transitionTimingFunction, // Not sure if needed
     transition: {
-      slow: `${transitionDuration * 2}s ${transitionTimingFunction}`,
-      default: `${transitionDuration}s ${transitionTimingFunction}`,
+      default: {
+        duration: `${transitionDuration}s`,
+        timingFunction: transitionTimingFunction,
+        joined: `${transitionDuration}s ${transitionTimingFunction}`,
+      },
+      slow: {
+        duration: `${transitionDuration * 2}s`,
+        timingFunction: transitionTimingFunction,
+        joined: `${transitionDuration * 2}s ${transitionTimingFunction}`,
+      },
     },
     zIndex: {
       carouselControl: 5,
