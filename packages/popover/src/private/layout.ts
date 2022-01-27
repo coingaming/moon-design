@@ -11,7 +11,7 @@ interface PopoverContainerProps {
 
 export const PopoverContainer = styled.div<PopoverContainerProps>(
   ({
-    theme: { colorNew, radius, shadows },
+    theme: { colorNew, newTokens },
     padding,
     backgroundColor,
     theme,
@@ -27,8 +27,8 @@ export const PopoverContainer = styled.div<PopoverContainerProps>(
         : themed('color', 'gohan.100')(theme)
     }`,
     outline: 'none',
-    borderRadius: rem(radius.default),
+    borderRadius: newTokens.borderRadius.medium,
     color: colorNew.bulma,
-    boxShadow: shadows.lg,
+    boxShadow: newTokens.boxShadow.large,
   })
 );

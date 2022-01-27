@@ -24,7 +24,7 @@ const animation = css`
 `;
 
 const LoaderRing = styled.span<Props>(
-  ({ theme: { colorNew, borderStyle, borderWidth } }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     '--loader-color': colorNew.bulma,
     display: 'block',
     position: 'absolute',
@@ -32,8 +32,8 @@ const LoaderRing = styled.span<Props>(
     height: '100%',
     borderRadius: '50%',
     boxSizing: 'border-box',
-    borderWidth: borderWidth * 2,
-    borderStyle,
+    borderWidth: newTokens.borderWidth * 2,
+    borderStyle: newTokens.borderStyle,
     borderColor: 'transparent',
     borderTopColor: 'var(--loader-color)',
   }),

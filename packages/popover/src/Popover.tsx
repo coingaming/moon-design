@@ -4,8 +4,8 @@ import React, {
   useEffect,
   useState,
 } from 'react';
-import Tippy from '@tippyjs/react/headless';
 import { ColorNames } from '@heathmont/moon-themes';
+import Tippy from '@tippyjs/react/headless';
 
 import { PopoverContainer } from './private/layout';
 

@@ -30,7 +30,7 @@ exports[`Search renders 1`] = `
             value=""
           />
           <svg
-            className="sc-fybufo Input__SearchInputIcon-vvx0zy-2  kFmtxK"
+            className="sc-iExECa Input__SearchInputIcon-vvx0zy-2  kFmtxK"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -50,7 +50,7 @@ exports[`Search renders 1`] = `
         </span>
       </form>
       <button
-        className="sc-jEUrFJ jBpmuK Styles__ModalClose-sc-1urf7j8-2 cmwFAp"
+        className="sc-kkeJPq cmrctI Styles__ModalClose-sc-1urf7j8-2 cmwFAp"
         onClick={[Function]}
         size="small"
         variant="default"
@@ -114,7 +114,7 @@ exports[`Search renders Loading State 1`] = `
             value=""
           />
           <svg
-            className="sc-fybufo Input__SearchInputIcon-vvx0zy-2  kFmtxK"
+            className="sc-iExECa Input__SearchInputIcon-vvx0zy-2  kFmtxK"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"

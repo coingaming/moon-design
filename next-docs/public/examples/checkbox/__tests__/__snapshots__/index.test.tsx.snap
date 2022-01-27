@@ -39,16 +39,16 @@ exports[`Checkbox renders Aria Label List 1`] = `
     className="RadioButtonLabel-ozr645-0 ufglA"
   >
     <input
-      className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+      className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
       disabled={true}
       name="test"
       type="radio"
     />
     <figure
-      className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+      className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
     />
     <span
-      className="RadioButtonCaption-sc-1dv62p7-0 kDcImA"
+      className="RadioButtonCaption-sc-1dv62p7-0 hsFkDN"
     >
       RadioButton
     </span>
@@ -57,12 +57,12 @@ exports[`Checkbox renders Aria Label List 1`] = `
     className="RadioButtonLabel-ozr645-0 ufglA"
   >
     <input
-      className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+      className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
       name="test"
       type="radio"
     />
     <figure
-      className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+      className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
     />
   </label>
   <div
@@ -83,12 +83,12 @@ exports[`Checkbox renders Aria Label List 1`] = `
           className="RadioButtonLabel-ozr645-0 ufglA"
         >
           <input
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
             name="test"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
           />
         </label>
       </span>
@@ -110,11 +110,11 @@ exports[`Checkbox renders Aria Label List 1`] = `
           className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
         >
           <input
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dnRowy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 epEbBy"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
           />
         </span>
       </div>

@@ -51,7 +51,7 @@ const CustomStyles: StylesConfig = {
     const theme = customProps.theme;
     return {
       ...provided,
-      borderRadius: rem(theme?.radius?.small),
+      borderRadius: theme?.newTokens?.borderRadius?.xsmall,
       padding: rem(12),
       fontSize: rem(16),
       lineHeight: rem(24),
@@ -88,37 +88,52 @@ const CustomStyles: StylesConfig = {
         ? { borderColor: theme.colorNew.chiChi[100] }
         : {}),
       paddingLeft: rem(8),
-      borderRadius: rem(theme.radius.largest),
+      border: 'none !important',
+      borderRadius: theme.newTokens.borderRadius.large,
       boxShadow: customProps.isError
-        ? `inset 0 0 0 1px ${theme.colorNew.chiChi[100]}`
+        ? `inset 0 0 0 2px ${theme.colorNew.chiChi[100]}`
         : state.isFocused
-        ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
-        : 'none',
+        ? `inset 0 0 0 2px ${theme.colorNew.piccolo}`
+        : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
       transition:
         !state.isFocused || !customProps.isError
-          ? `box-shadow ${theme.transitionDuration.default}s ease`
+          ? `box-shadow ${theme.newTokens.transitionDuration} ease`
           : 'none',
       minHeight: customProps.size === 'xLarge' ? rem(56) : rem(48),
       '&:hover': {
         boxShadow: customProps.isError
-          ? `inset 0 0 0 1px ${theme.colorNew.chiChi[100]}`
+          ? `inset 0 0 0 2px ${theme.colorNew.chiChi[100]}`
           : state.isFocused
-          ? `inset 0 0 0 1px ${theme.colorNew.piccolo}`
-          : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
+          ? `inset 0 0 0 2px ${theme.colorNew.piccolo}`
+          : `inset 0 0 0 2px ${theme.newTokens.hover.primary}, inset 0 0 0 2px ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },
     };
   },
-  valueContainer: (provided, state) => ({
-    ...provided,
-    gridArea: '2 / 1 / 2 / 3',
-    padding: `${rem(6)} ${rem(8)} ${rem(6)} ${rem(7)}`,
-    flexWrap: 'nowrap',
-    alignSelf: 'stretch',
-    ...(state.isMulti
-      ? { flexDirection: 'column', alignItems: 'flex-start' }
-      : {}),
-  }),
+  valueContainer: (provided, state) => {
+    const selectProps = state.selectProps as SelectProps;
+    const customProps = selectProps['data-customProps'];
+    return {
+      ...provided,
+      gridArea: '2 / 1 / 2 / 3',
+      padding:
+        customProps.size === 'xLarge'
+          ? `${rem(12)} ${rem(8)} ${rem(8)} ${rem(7)}`
+          : `${rem(6)} ${rem(8)} ${rem(6)} ${rem(7)}`,
+      flexWrap: 'nowrap',
+      alignSelf: 'stretch',
+      ...(state.isMulti
+        ? {
+            flexDirection: 'column',
+            alignItems: 'flex-start',
+            padding:
+              customProps.size === 'xLarge' && customProps.label
+                ? `${rem(12)} ${rem(8)} 0 ${rem(7)}`
+                : `0 ${rem(8)} 0 ${rem(7)}`,
+          }
+        : {}),
+    };
+  },
   singleValue: (provided) => ({
     ...provided,
     gridArea: '2 / 1 / 2 / 3',
@@ -126,14 +141,25 @@ const CustomStyles: StylesConfig = {
     marginLeft: 0,
     marginRight: 0,
   }),
-  placeholder: (provided) => ({
-    ...provided,
-    gridArea: '2 / 1 / 2 / 3',
-    fontSize: rem(16),
-    height: '100%',
-    marginLeft: 0,
-    marginRight: 0,
-  }),
+  placeholder: (provided, state) => {
+    const selectProps = state.selectProps as SelectProps;
+    const customProps = selectProps['data-customProps'];
+    return {
+      ...provided,
+      gridArea: '2 / 1 / 2 / 3',
+      fontSize: rem(16),
+      lineHeight:
+        state.isMulti && customProps.size === 'xLarge' ? rem(16) : rem(24),
+      height: '100%',
+      marginLeft: 0,
+      marginRight: 0,
+      display: 'flex',
+      alignItems:
+        state.isMulti && customProps.size === 'xLarge'
+          ? 'flex-start'
+          : 'center',
+    };
+  },
   multiValueRemove: () => ({
     width: rem(16),
     height: rem(16),
