@@ -2,9 +2,9 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const TD = styled.div(({ theme }) => ({
-  padding: rem(theme.space.default),
-  paddingLeft: rem(theme.space.small),
-  paddingRight: rem(theme.space.small),
+  padding: theme.newTokens.space.small,
+  paddingLeft: theme.newTokens.space.xsmall,
+  paddingRight: theme.newTokens.space.xsmall,
   color: theme.colorNew.bulma,
   position: 'relative',
   '&::after': {
@@ -17,12 +17,12 @@ const TD = styled.div(({ theme }) => ({
     right: 0,
   },
   '&:first-child': {
-    borderTopLeftRadius: rem(theme.radius.default),
-    borderBottomLeftRadius: rem(theme.radius.default),
+    borderTopLeftRadius: theme.newTokens.borderRadius.medium,
+    borderBottomLeftRadius: theme.newTokens.borderRadius.medium,
   },
   '&:last-child': {
-    borderTopRightRadius: rem(theme.radius.default),
-    borderBottomRightRadius: rem(theme.radius.default),
+    borderTopRightRadius: theme.newTokens.borderRadius.medium,
+    borderBottomRightRadius: theme.newTokens.borderRadius.medium,
     '&::after': {
       width: 0,
     },

@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
+import { ColorNames } from '@heathmont/moon-themes';
+import { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../components/BodyTR';
 import TD from '../components/TD';
-import { ColorNames } from '@heathmont/moon-themes';
 import { RowSubComponentProps } from '../Table';
-import { Cell, Row, UseExpandedRowProps } from 'react-table';
 
 type RenderRowsProps<D extends object = {}> = {
   rows: Row<D>[];
