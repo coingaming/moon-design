@@ -8,7 +8,7 @@ const Container = styled.div(({ theme }) => ({
   flexShrink: 0,
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: rem(theme.space.default),
+  marginBottom: theme.newTokens.space.small,
   overflowX: 'auto',
 }));
 
@@ -31,7 +31,7 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
   borderRadius: rem(8),
   border: 'none',
   willChange: 'background',
-  transition: `background ${theme.transitionDuration.default}s`,
+  transition: `background ${theme.newTokens.transition.default}`,
   minWidth: rem(124),
   '&:hover': {
     background: theme.color.goku[80],

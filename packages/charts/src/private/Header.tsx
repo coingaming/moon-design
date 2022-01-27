@@ -18,7 +18,7 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: rem(theme.space.default),
+  marginBottom: theme.newTokens.space.small,
   ...(isActive && {
     [Title]: {
       color: theme.colorNew.goten,
