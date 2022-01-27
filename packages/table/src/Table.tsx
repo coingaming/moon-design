@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { ColorNames } from '@heathmont/moon-themes';
 import {
   useTable,
   useResizeColumns,
@@ -16,19 +17,18 @@ import {
   UseExpandedRowProps,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
-import { ColorNames } from '@heathmont/moon-themes';
-import Minimap from './components/Minimap';
-import TableWrapper from './components/TableWrapper';
-import Header from './components/Header';
-import HeaderTR from './components/HeaderTR';
-import TH from './components/TH';
-import HiddenTR from './components/HiddenTR';
 import Body from './components/Body';
 import Footer from './components/Footer';
+import Header from './components/Header';
+import HeaderTR from './components/HeaderTR';
+import HiddenTR from './components/HiddenTR';
+import Minimap from './components/Minimap';
 import OuterWrapper from './components/OuterWrapper';
+import TableWrapper from './components/TableWrapper';
+import TH from './components/TH';
+import useRowSpan, { RowSpanHeader } from './hooks/useRowSpan';
 import useScrollState from './hooks/useScrollState';
 import renderRows from './utils/renderRows';
-import useRowSpan, { RowSpanHeader } from './hooks/useRowSpan';
 import renderSpanRows from './utils/renderSpanRows';
 
 export type TableLayout = 'block';

@@ -8,7 +8,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 kydozM"
+      className="Container-sc-1f49upb-0 cVrrwF"
       disabled={true}
     >
       <label
@@ -17,7 +17,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 kKiJqT"
         disabled={true}
         placeholder=" "
         type="email"
@@ -35,7 +35,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 kydozM"
+      className="Container-sc-1f49upb-0 cVrrwF"
       disabled={true}
     >
       <label
@@ -44,7 +44,7 @@ exports[`TextInput: type Email renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 jlBWHU"
         disabled={true}
         placeholder=" "
         type="email"
@@ -62,21 +62,21 @@ exports[`TextInput: type Email renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 kydozM"
+      className="Container-sc-1f49upb-0 cVrrwF"
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 cdDCCq"
           disabled={true}
           placeholder=" "
           type="email"
           value="jake.weary@sportsbet.io"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         >
           xlarge
         </label>
@@ -100,7 +100,7 @@ exports[`TextInput: type Email renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -108,7 +108,7 @@ exports[`TextInput: type Email renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 fCNdsc"
+        className="Input-qkdgvx-0 cgqCbZ"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -124,7 +124,7 @@ exports[`TextInput: type Email renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -132,7 +132,7 @@ exports[`TextInput: type Email renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fKxCuv"
+        className="Input-qkdgvx-0 eJnChS"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -148,18 +148,18 @@ exports[`TextInput: type Email renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 coYWyI"
+          className="Input-qkdgvx-0 dMiVZU"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         >
           xlarge
         </label>
@@ -183,7 +183,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -191,7 +191,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder=" "
         readOnly={true}
         type="email"
@@ -209,7 +209,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -217,7 +217,7 @@ exports[`TextInput: type Email renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder=" "
         readOnly={true}
         type="email"
@@ -235,20 +235,20 @@ exports[`TextInput: type Email renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder=" "
           readOnly={true}
           type="email"
           value="jake.weary@sportsbet.io"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         >
           xlarge
         </label>
@@ -272,7 +272,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -280,7 +280,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -296,7 +296,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -304,7 +304,7 @@ exports[`TextInput: type Email renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -320,18 +320,18 @@ exports[`TextInput: type Email renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         >
           xlarge
         </label>
@@ -355,7 +355,7 @@ exports[`TextInput: type Email renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -363,7 +363,7 @@ exports[`TextInput: type Email renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -373,7 +373,7 @@ exports[`TextInput: type Email renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -381,7 +381,7 @@ exports[`TextInput: type Email renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -391,18 +391,18 @@ exports[`TextInput: type Email renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         >
           xlarge
         </label>
@@ -420,10 +420,10 @@ exports[`TextInput: type Email renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 kKiJqT"
         placeholder="medium"
         type="email"
       />
@@ -433,10 +433,10 @@ exports[`TextInput: type Email renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 jlBWHU"
         placeholder="large"
         type="email"
       />
@@ -446,18 +446,18 @@ exports[`TextInput: type Email renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 foTAnE"
+          className="Input-qkdgvx-0 lcbCNn"
           placeholder="xlarge"
           type="email"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         />
       </div>
     </div>
@@ -473,7 +473,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -481,7 +481,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bVigKL"
+        className="Input-qkdgvx-0 cWnWkM"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -497,7 +497,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <label
         className="Label-sc-1rdea5p-0 irIYEK"
@@ -505,7 +505,7 @@ exports[`TextInput: type Email supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jstzOA"
+        className="Input-qkdgvx-0 hRHDOH"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
@@ -521,18 +521,18 @@ exports[`TextInput: type Email supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 coSnaj"
     >
       <div
-        className="Inner-sc-1soq84i-0 dKhopI"
+        className="Inner-sc-1soq84i-0 enHEsf"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 cdDCCq"
           placeholder="e.g. jake.weary@sportsbet.io"
           type="email"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 RLTyz"
         >
           xlarge
         </label>

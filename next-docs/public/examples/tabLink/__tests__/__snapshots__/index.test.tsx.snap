@@ -2,6 +2,52 @@
 
 exports[`Tablink renders 1`] = `
 <a
-  className="Container-j1xqi2-0 gfvHNF"
+  className="Container-j1xqi2-0 eFunqR"
+/>
+`;
+
+exports[`Tablink renders Href 1`] = `
+<a
+  className="Container-j1xqi2-0 eFunqR"
+  href="www.google.com"
+/>
+`;
+
+exports[`Tablink renders count 1`] = `
+<a
+  className="Container-j1xqi2-0 eFunqR"
+>
+  <span
+    className="TabLink__CountWrapper-u6qu8y-1 cPGFuu"
+  >
+    2
+  </span>
+</a>
+`;
+
+exports[`Tablink renders element left 1`] = `
+<a
+  className="Container-j1xqi2-0 eFunqR"
+>
+  <div
+    className="TabLink__ElementLeftWrapper-u6qu8y-0 gaqFqm"
+  >
+    <span>
+      Element
+    </span>
+  </div>
+</a>
+`;
+
+exports[`Tablink renders isTop 1`] = `
+<a
+  className="Container-j1xqi2-0 gyqgEO"
+/>
+`;
+
+exports[`Tablink renders size 1`] = `
+<a
+  className="Container-j1xqi2-0 VICS"
+  size="small"
 />
 `;

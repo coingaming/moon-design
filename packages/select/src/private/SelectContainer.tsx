@@ -1,7 +1,7 @@
 import React from 'react';
 import { components, ContainerProps } from 'react-select';
-import SelectLabel from '../styles/SelectLabel';
 import HintText from '../styles/HintText';
+import SelectLabel from '../styles/SelectLabel';
 import type { SelectProps } from '../styles/CustomStyles';
 
 // any - https://github.com/JedWatson/react-select/issues/4804

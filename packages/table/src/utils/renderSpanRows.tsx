@@ -1,9 +1,9 @@
 import React from 'react';
+import { ColorNames } from '@heathmont/moon-themes';
+import { Cell, Row } from 'react-table';
 import BodyTR from '../components/BodyTR';
 import TD from '../components/TD';
 import { RowSpanHeader } from '../hooks/useRowSpan';
-import { ColorNames } from '@heathmont/moon-themes';
-import { Cell, Row } from 'react-table';
 
 type RenderSpanRowsProps<D extends object = {}> = {
   rows: Row<D>[];

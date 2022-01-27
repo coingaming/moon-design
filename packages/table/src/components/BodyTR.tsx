@@ -97,10 +97,10 @@ const BodyTR = styled.div<{
       ? {
           [TD]: {
             '&:first-child': {
-              borderBottomLeftRadius: rem(theme.radius.default),
+              borderBottomLeftRadius: theme.newTokens.borderRadius.medium,
             },
             '&:last-child': {
-              borderBottomRightRadius: rem(theme.radius.default),
+              borderBottomRightRadius: theme.newTokens.borderRadius.medium,
             },
           },
         }

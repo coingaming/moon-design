@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem, uniqueId } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import SkipLink from './styles/SkipLink';
-import TabNav from './styles/TabNav';
 import TabList from './styles/TabList';
+import TabNav from './styles/TabNav';
 
 export interface TabsProps {
   id?: string;
