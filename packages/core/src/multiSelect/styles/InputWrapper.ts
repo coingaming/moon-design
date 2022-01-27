@@ -22,10 +22,10 @@ const InputWrapper = styled.div<InputWrapperProps>(
       backgroundColor: theme.colorNew.gohan,
       border: `${rem(1)} solid`,
       borderColor: theme.colorNew.gohan,
-      borderRadius: rem(theme.radius.largest),
+      borderRadius: theme.newTokens.borderRadius.full,
       padding: `${rem(8)} ${rem(13)} ${rem(6)}`,
       cursor: 'pointer',
-      transition: `border-color ${theme.transitionDuration.default}s ease`,
+      transition: `border-color ${theme.newTokens.transition.default}`,
       WebkitAppearance: 'none',
       '&:hover:not(:active)': {
         borderColor: theme.colorNew.beerus,
@@ -49,8 +49,8 @@ const InputWrapper = styled.div<InputWrapperProps>(
         '&:active': {
           borderColor: theme.colorNew.piccolo,
         },
-        borderRadius: rem(theme.radius.largest),
-        transition: `border-color ${theme.transitionDuration.default}s ease`,
+        borderRadius: theme.newTokens.borderRadius.full,
+        transition: `border-color ${theme.newTokens.transition.default}`,
         WebkitAppearance: 'none',
       },
     },

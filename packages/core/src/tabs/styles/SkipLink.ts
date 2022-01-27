@@ -1,13 +1,12 @@
-import rem from 'polished/lib/helpers/rem';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
 
-const SkipLink = styled.a(({ theme: { color, colorNew, space } }) => ({
+const SkipLink = styled.a(({ theme: { color, colorNew, newTokens } }) => ({
   position: 'absolute',
   zIndex: 1,
-  padding: `0 ${rem(space.small)}`,
+  padding: `0 ${newTokens.space.xsmall}`,
   top: '50%',
-  left: rem(space.small),
+  left: newTokens.space.xsmall,
   transform: 'translateY(-50%)',
   color: colorNew.bulma,
   backgroundColor: color.gohan[80],

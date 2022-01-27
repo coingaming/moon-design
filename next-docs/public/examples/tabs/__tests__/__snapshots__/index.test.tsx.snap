@@ -107,7 +107,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#2"
       >
         Featured
@@ -117,7 +117,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#3"
       >
         Today
@@ -127,7 +127,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#4"
       >
         Tomorrow
@@ -137,7 +137,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#5"
       >
         Future
@@ -147,7 +147,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#6"
       >
         Outright
@@ -157,7 +157,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#7"
       >
         Leagues
@@ -167,7 +167,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#8"
       >
         News
@@ -191,13 +191,13 @@ exports[`Tabs renders Fill Container 1`] = `
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO gbAa-dl"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO esNobN"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#2"
       >
         Featured
@@ -207,7 +207,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#3"
       >
         Today
@@ -217,7 +217,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#4"
       >
         Tomorrow
@@ -227,7 +227,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#5"
       >
         Future
@@ -237,7 +237,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#6"
       >
         Outright
@@ -247,7 +247,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#7"
       >
         Leagues
@@ -257,7 +257,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 jkoZGC"
+        className="Container-vls6mb-0 frWhpd"
         href="#8"
       >
         News
@@ -506,7 +506,7 @@ exports[`Tabs renders Variant 1`] = `
           className="TabLink__ElementLeftWrapper-u6qu8y-0 gaqFqm"
         >
           <svg
-            className="sc-eazVgQ"
+            className="sc-aKZfe"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -535,7 +535,7 @@ exports[`Tabs renders Variant 1`] = `
           className="TabLink__ElementLeftWrapper-u6qu8y-0 gaqFqm"
         >
           <svg
-            className="sc-eazVgQ"
+            className="sc-aKZfe"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
