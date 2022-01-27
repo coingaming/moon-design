@@ -8,13 +8,13 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 irZYzY"
+      className="Container-srtaaf-0 bLBzLj"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kufJQA"
@@ -29,7 +29,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq loXami"
@@ -45,7 +45,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq krnxcS"
@@ -65,14 +65,14 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 axSMo"
+      className="Container-srtaaf-0 jALTJr"
       size="small"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kJgChL"
@@ -87,7 +87,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq hjfdNF"
@@ -103,7 +103,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq kjiwPt"
@@ -130,13 +130,13 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kufJQA"
@@ -157,13 +157,13 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kufJQA"
@@ -178,7 +178,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq loXami"
@@ -199,13 +199,13 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kufJQA"
@@ -220,7 +220,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq loXami"
@@ -236,7 +236,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq krnxcS"
@@ -256,13 +256,13 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kufJQA"
@@ -278,7 +278,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq krnxcS"
@@ -298,13 +298,13 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq loXami"
@@ -325,13 +325,13 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq loXami"
@@ -347,7 +347,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq krnxcS"
@@ -377,13 +377,13 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kJgChL"
@@ -404,13 +404,13 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kJgChL"
@@ -425,7 +425,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq hjfdNF"
@@ -446,13 +446,13 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kJgChL"
@@ -467,7 +467,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq hjfdNF"
@@ -483,7 +483,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq kjiwPt"
@@ -503,13 +503,13 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq kJgChL"
@@ -525,7 +525,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq kjiwPt"
@@ -545,13 +545,13 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq hjfdNF"
@@ -572,13 +572,13 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ljWPPS"
+      className="Container-srtaaf-0 kFekyR"
     >
       <div
-        className="RightWrapper-vueweo-0 gbyagB"
+        className="RightWrapper-vueweo-0 ljvpRC"
       >
         <div
-          className="ButtonWrapper-k744ak-0 hAMHfy"
+          className="ButtonWrapper-k744ak-0 dvmfaN"
         >
           <button
             className="sc-kkeJPq hjfdNF"
@@ -594,7 +594,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 hAMHfy"
+        className="ButtonWrapper-k744ak-0 dvmfaN"
       >
         <button
           className="sc-kkeJPq kjiwPt"

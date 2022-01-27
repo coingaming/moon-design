@@ -1,6 +1,6 @@
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
-import { mq, rem } from '@heathmont/moon-utils';
+import { mq, rem, media } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
@@ -63,12 +63,12 @@ export const Results = styled.div(
       ...resultsInactive(theme),
       ['.active &']: resultsActive(theme),
     },
-    [mq(theme.breakpoint.medium, 'min-width')]: {
+    [media(theme.newTokens.breakpoint.medium)]: {
       [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
     },
   }),
   ({
-    theme: { borderWidth, shadows, breakpoint, colorNew, radius, space },
+    theme: { borderWidth, shadows, newTokens, colorNew, radius, space },
   }) => ({
     position: 'absolute',
     left: 0,
@@ -80,7 +80,7 @@ export const Results = styled.div(
       left: 'auto',
       right: 0,
     },
-    [mq(breakpoint.medium, 'min-width')]: {
+    [media(newTokens.breakpoint.medium)]: {
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',

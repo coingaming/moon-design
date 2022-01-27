@@ -1,18 +1,17 @@
 import React from 'react';
-import { mq } from '@heathmont/moon-utils';
+import { media } from '@heathmont/moon-utils';
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-
 import { getRanges } from './helpers/getRanges';
 
-const SidebarList = styled.ul(({ theme: { color, breakpoint } }) => ({
+const SidebarList = styled.ul(({ theme: { color, newTokens } }) => ({
   gridArea: 'sidebar',
   background: color.gohan[100],
   padding: 0,
   display: 'flex',
   flexDirection: 'row',
   flexWrap: 'wrap',
-  [mq(breakpoint.medium)]: {
+  [media(newTokens.breakpoint.medium)]: {
     flexDirection: 'column',
     maxWidth: '100%',
     // maxWidth: rem(120),
@@ -33,7 +32,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   lineHeight: rem(20),
   background: isSelected ? theme.color.gohan[80] : theme.color.gohan[100],
   color: theme.color.bulma[100],
-  [mq(theme.breakpoint.small)]: {
+  [media(theme.newTokens.breakpoint.small)]: {
     paddingLeft: rem(16),
   },
   '&:hover': {

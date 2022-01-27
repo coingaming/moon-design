@@ -1,4 +1,4 @@
-import { rem, mq, themed } from '@heathmont/moon-utils';
+import { rem, media, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const ToastContainer = styled.div<any>(
@@ -14,10 +14,10 @@ const ToastContainer = styled.div<any>(
       marginBottom: theme.space.default,
       minWidth: rem(180),
       maxWidth: `calc(100vw - ${theme.space.small * 2}px)`,
-      [mq(theme.breakpoint.medium)]: {
+      [media(theme.newTokens.breakpoint.medium)]: {
         margin: theme.space.default,
       },
-      [mq(theme.breakpoint.large)]: {
+      [media(theme.newTokens.breakpoint.large)]: {
         maxWidth: '30%',
         width: 'fit-content',
         left: 0,

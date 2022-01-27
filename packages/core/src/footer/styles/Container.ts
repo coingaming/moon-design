@@ -1,13 +1,13 @@
-import { rem, mq } from '@heathmont/moon-utils';
+import { rem, media } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const Container = styled.div<{
   isDivider?: boolean;
   size?: 'small' | 'medium';
-}>(({ theme: { breakpoint, border, colorNew }, isDivider, size }) => [
+}>(({ theme: { newTokens, border, colorNew }, isDivider, size }) => [
   {
     width: '100%',
-    [mq(breakpoint.medium)]: {
+    [media(newTokens.breakpoint.medium)]: {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',

@@ -134,17 +134,9 @@ export default function PageTokensNew() {
               key: 'borderRadius.full',
               value: 9999,
             },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Interactive Border Radius</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
             {
-              name: 'interactiveBorderRadius',
-              key: 'interactiveBorderRadius',
+              name: 'interactive',
+              key: 'borderRadius.interactive',
               value: 9999,
             },
           ]}
