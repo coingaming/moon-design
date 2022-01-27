@@ -21,6 +21,8 @@ import type { SupportiveColors } from '../v2/colors/supportiveColors';
 
 const borderStyle = 'solid';
 const borderWidth = 1;
+const borderWidthDefault = 1;
+const borderWidthInteractive = 2;
 const space = 16;
 const transitionDuration = 0.2;
 const transitionTimingFunction = 'ease-in-out';
@@ -355,6 +357,19 @@ export type BreakpointNew = {
   twoxlarge: string;
 };
 
+export type BorderNew = {
+  default: {
+    width: string;
+    style: string;
+    join: string;
+  };
+  interactive: {
+    width: string;
+    style: string;
+    join: string;
+  };
+};
+
 export type SpaceNew = {
   threexsmall: string;
   twoxsmall: string;
@@ -448,9 +463,7 @@ export interface SharedTheme {
   newTokens: {
     borderRadius: BorderRadius;
     breakpoint: BreakpointNew;
-    borderWidth: string;
-    borderStyle: string;
-    border: string;
+    border: BorderNew;
     space: SpaceNew;
     transitionDuration: string;
     transitionTimingFunction: string;
@@ -561,9 +574,18 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(1280),
       twoxlarge: rem(1536),
     },
-    borderWidth: rem(borderWidth), // Not sure if needed
-    borderStyle, // Not sure if needed
-    border: `${rem(borderWidth)} ${borderStyle}`,
+    border: {
+      default: {
+        width: rem(borderWidthDefault),
+        style: borderStyle,
+        join: `${rem(borderWidthDefault)} ${borderStyle}`,
+      },
+      interactive: {
+        width: rem(borderWidthInteractive),
+        style: borderStyle,
+        join: `${rem(borderWidthInteractive)} ${borderStyle}`,
+      },
+    },
     space: {
       threexsmall: rem(2),
       twoxsmall: rem(4),

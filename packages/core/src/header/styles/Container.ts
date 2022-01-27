@@ -15,7 +15,7 @@ const Container = styled.div<{ isDivider?: boolean }>(
     },
     isDivider && {
       padding: `${rem(24)} ${rem(16)}`,
-      borderBottom: newTokens.border,
+      borderBottom: newTokens.border.default.join,
       borderColor: colorNew.beerus,
     },
   ]
