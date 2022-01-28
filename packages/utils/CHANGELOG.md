@@ -1,5 +1,13 @@
 # Change Log
 
+## 7.22.3
+
+### Patch Changes
+
+- update Paxful logo
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@7.22.3
+
 ## 7.22.2
 
 ### Patch Changes
