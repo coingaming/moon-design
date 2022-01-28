@@ -15,7 +15,7 @@ const Wrapper = styled.div<{ visible: boolean; offset: number }>(
     borderRadius: rem(8),
     boxShadow: theme.newTokens.boxShadow.large,
     padding: rem(4),
-    transition: `opacity ${theme.newTokens.transition.default.joined}`,
+    transition: `opacity ${theme.newTokens.transition.default}`,
     pointerEvents: 'none',
     opacity: visible ? 1 : 0,
   })

@@ -45,7 +45,7 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
     ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     top: '50%',
     transform: 'translate(0%, -50%)',
-    transition: theme.newTokens.transition.default.joined,
+    transition: theme.newTokens.transition.default,
   },
   /* Pseudo Checkbox Circle */
   '&::before': {

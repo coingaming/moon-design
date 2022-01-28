@@ -25,7 +25,7 @@ const InputWrapper = styled.div<InputWrapperProps>(
       borderRadius: theme.newTokens.borderRadius.full,
       padding: `${rem(8)} ${rem(13)} ${rem(6)}`,
       cursor: 'pointer',
-      transition: `border-color ${theme.newTokens.transition.default.joined}`,
+      transition: `border-color ${theme.newTokens.transition.default}`,
       WebkitAppearance: 'none',
       '&:hover:not(:active)': {
         borderColor: theme.colorNew.beerus,
@@ -50,7 +50,7 @@ const InputWrapper = styled.div<InputWrapperProps>(
           borderColor: theme.colorNew.piccolo,
         },
         borderRadius: theme.newTokens.borderRadius.full,
-        transition: `border-color ${theme.newTokens.transition.default.joined}`,
+        transition: `border-color ${theme.newTokens.transition.default}`,
         WebkitAppearance: 'none',
       },
     },

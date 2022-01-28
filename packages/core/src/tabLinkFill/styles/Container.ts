@@ -19,7 +19,7 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   backgroundColor: 'transparent',
   color: theme.colorNew.bulma,
   transitionProperty: 'color, background-color',
-  transition: theme.newTokens.transition.default.joined,
+  transition: theme.newTokens.transition.default,
   textDecoration: 'none',
   appearance: 'none',
   borderRadius: rem(8),

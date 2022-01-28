@@ -13,7 +13,7 @@ const Hover = styled.div<Props>(({ theme: { newTokens }, isHover }) => [
     bottom: 0,
     left: 0,
     pointerEvents: 'none',
-    transition: `background-color ${newTokens.transition.default.joined}`,
+    transition: `background-color ${newTokens.transition.default}`,
   },
   isHover && {
     backgroundColor: newTokens.hover.primary,
