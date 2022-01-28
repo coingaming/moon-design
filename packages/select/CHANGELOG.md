@@ -1,5 +1,17 @@
 # @heathmont/moon-select
 
+## 7.22.3
+
+### Patch Changes
+
+- update Paxful logo
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@7.22.3
+  - @heathmont/moon-core@7.22.3
+  - @heathmont/moon-icons@7.22.3
+  - @heathmont/moon-themes@7.22.3
+  - @heathmont/moon-utils@7.22.3
+
 ## 7.22.2
 
 ### Patch Changes
