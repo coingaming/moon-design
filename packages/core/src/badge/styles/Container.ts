@@ -22,8 +22,8 @@ const Container = styled.span<Props>(
   ({ size, theme: { newTokens } }) => ({
     padding:
       size === 'small'
-        ? `0 ${newTokens.space.twoxsmall}`
-        : `0 ${newTokens.space.xsmall}`,
+        ? `0 ${newTokens.space.threexsmall}`
+        : `0 ${newTokens.space.twoxsmall}`,
     fontSize: size === 'small' ? rem(8) : rem(10),
     lineHeight: size === 'small' ? rem(12) : rem(16),
   }),

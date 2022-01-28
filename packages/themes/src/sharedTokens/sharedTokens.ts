@@ -558,9 +558,9 @@ const sharedTokens: SharedTheme = {
       interactive: `${rem(borderWidthInteractive)} ${borderStyle}`,
     },
     space: {
-      threexsmall: rem(2),
-      twoxsmall: rem(4),
-      xsmall: rem(8),
+      threexsmall: rem(4),
+      twoxsmall: rem(8),
+      xsmall: rem(12),
       small: rem(16),
       medium: rem(24),
       large: rem(32),
