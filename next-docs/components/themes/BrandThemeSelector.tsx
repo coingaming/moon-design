@@ -20,12 +20,16 @@ interface BrandThemeSelectorProps {
   setBrand: (v: DocsBrands) => void;
   themeKeys: string[];
   darkLight: JSX.Element;
+  rtlSwitch: JSX.Element;
+  isRtlEnabled: boolean;
 }
 
 const BrandThemeSelector = ({
   setBrand,
   themeKeys,
   darkLight,
+  rtlSwitch,
+  isRtlEnabled,
 }: BrandThemeSelectorProps) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
@@ -38,7 +42,9 @@ const BrandThemeSelector = ({
         onClick={toggle}
         type="button"
         aria-pressed="false"
-        className="text-black bg-white hover:bg-gray-200 fixed bottom-4 right-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-40"
+        className={`${
+          isRtlEnabled ? `left-4` : `right-4`
+        } text-black bg-white hover:bg-gray-200 fixed bottom-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-40 shadow-md z-10`}
       >
         <svg
           width="32"
@@ -58,7 +64,11 @@ const BrandThemeSelector = ({
       </button>
       {isOpened && (
         <>
-          <div className="fixed bottom-16 right-4">
+          <div
+            className={`${
+              isRtlEnabled ? `left-4` : `right-4`
+            } fixed bottom-16 z-10`}
+          >
             {filteredThemeKeys.map((themeKey: string) => {
               const Logo = Logos[themeKey as LogosKeys] || Logos.moonDesign;
               return (
@@ -66,14 +76,29 @@ const BrandThemeSelector = ({
                   key={themeKey}
                   type="button"
                   onClick={() => setBrand(themeKey as DocsBrands)}
-                  className="p-2 rounded-full ml-4 text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center"
+                  className={`${
+                    isRtlEnabled ? `mr-4` : `ml-4`
+                  } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
                 >
                   {Logo}
                 </button>
               );
             })}
           </div>
-          <div className="fixed bottom-28 right-4">{darkLight}</div>
+          <div
+            className={`${
+              isRtlEnabled ? `left-4` : `right-4`
+            } fixed bottom-28 z-10`}
+          >
+            {darkLight}
+          </div>
+          <div
+            className={`${
+              isRtlEnabled ? `left-4` : `right-4`
+            } fixed bottom-40 z-10`}
+          >
+            {rtlSwitch}
+          </div>
         </>
       )}
     </>
