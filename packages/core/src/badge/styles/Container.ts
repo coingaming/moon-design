@@ -25,7 +25,7 @@ const Container = styled.span<Props>(
         ? `0 ${newTokens.space.twoxsmall}`
         : `0 ${newTokens.space.xsmall}`,
     fontSize: size === 'small' ? rem(8) : rem(10),
-    lineHeight: size === 'small' ? rem(12) : newTokens.size.twoxsmall,
+    lineHeight: size === 'small' ? rem(12) : rem(16),
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({

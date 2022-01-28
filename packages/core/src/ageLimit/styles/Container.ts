@@ -1,3 +1,4 @@
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const Container = styled.div(({ theme }) => ({
@@ -5,8 +6,8 @@ const Container = styled.div(({ theme }) => ({
   border: `2px ${theme.colorNew.chiChi} solid`,
   borderRadius: theme.newTokens.borderRadius.full,
   padding: theme.newTokens.space.xsmall,
-  width: theme.newTokens.size.medium,
-  height: theme.newTokens.size.medium,
+  width: rem(40),
+  height: rem(40),
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

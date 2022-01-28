@@ -11,7 +11,7 @@ const Caption = styled.span<CaptionProps>(
   ({ color, theme }) => ({
     color: themed('color', color)(theme),
     fontSize: rem(10),
-    lineHeight: theme.newTokens.size.twoxsmall,
+    lineHeight: rem(16),
     fontWeight: theme.newTokens.font.weight.semibold,
     textTransform: 'uppercase',
     letterSpacing: rem(1),

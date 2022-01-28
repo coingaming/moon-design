@@ -418,16 +418,6 @@ export type Hover = {
   secondary: string;
 };
 
-export type Size = {
-  twoxsmall: string;
-  xsmall: string;
-  small: string;
-  medium: string;
-  large: string;
-  xlarge: string;
-  twoxlarge: string;
-};
-
 export interface SharedTheme {
   base: Base;
   border: Border;
@@ -467,7 +457,6 @@ export interface SharedTheme {
     hover: Hover;
     focus: string;
     transform: string;
-    size: Size;
   };
 }
 
@@ -635,15 +624,6 @@ const sharedTokens: SharedTheme = {
     },
     focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
     transform: 'scale(0.9)',
-    size: {
-      twoxsmall: rem(16),
-      xsmall: rem(24),
-      small: rem(32),
-      medium: rem(40),
-      large: rem(48),
-      xlarge: rem(56),
-      twoxlarge: rem(64),
-    },
   },
 };
 
