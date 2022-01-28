@@ -17,7 +17,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 OQjfS"
+        className="Input-qkdgvx-0 crOUgi"
         disabled={true}
         placeholder=" "
         type="number"
@@ -44,7 +44,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fmttMx"
+        className="Input-qkdgvx-0 kEVZIh"
         disabled={true}
         placeholder=" "
         type="number"
@@ -69,14 +69,14 @@ exports[`TextInput: type Number renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 jXvaFX"
+          className="Input-qkdgvx-0 hRygYv"
           disabled={true}
           placeholder=" "
           type="number"
           value="123"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         >
           xlarge
         </label>
@@ -108,7 +108,7 @@ exports[`TextInput: type Number renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dYOGFo"
+        className="Input-qkdgvx-0 EAKSk"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -132,7 +132,7 @@ exports[`TextInput: type Number renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 LASBP"
+        className="Input-qkdgvx-0 eDvlmL"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -154,12 +154,12 @@ exports[`TextInput: type Number renders error 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 bgXdpR"
+          className="Input-qkdgvx-0 fPDGiN"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         >
           xlarge
         </label>
@@ -191,7 +191,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 OQjfS"
+        className="Input-qkdgvx-0 crOUgi"
         placeholder=" "
         readOnly={true}
         type="number"
@@ -217,7 +217,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fmttMx"
+        className="Input-qkdgvx-0 kEVZIh"
         placeholder=" "
         readOnly={true}
         type="number"
@@ -241,14 +241,14 @@ exports[`TextInput: type Number renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 jXvaFX"
+          className="Input-qkdgvx-0 hRygYv"
           placeholder=" "
           readOnly={true}
           type="number"
           value="1234"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         >
           xlarge
         </label>
@@ -280,7 +280,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 OQjfS"
+        className="Input-qkdgvx-0 crOUgi"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fmttMx"
+        className="Input-qkdgvx-0 kEVZIh"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -326,12 +326,12 @@ exports[`TextInput: type Number renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 jXvaFX"
+          className="Input-qkdgvx-0 hRygYv"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         >
           xlarge
         </label>
@@ -363,7 +363,7 @@ exports[`TextInput: type Number renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 OQjfS"
+        className="Input-qkdgvx-0 crOUgi"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Number renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fmttMx"
+        className="Input-qkdgvx-0 kEVZIh"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -397,12 +397,12 @@ exports[`TextInput: type Number renders with label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 jXvaFX"
+          className="Input-qkdgvx-0 hRygYv"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         >
           xlarge
         </label>
@@ -423,7 +423,7 @@ exports[`TextInput: type Number renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 OQjfS"
+        className="Input-qkdgvx-0 crOUgi"
         placeholder="medium e.g. 1234"
         type="number"
       />
@@ -436,7 +436,7 @@ exports[`TextInput: type Number renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 fmttMx"
+        className="Input-qkdgvx-0 kEVZIh"
         placeholder="large e.g. 1234"
         type="number"
       />
@@ -452,12 +452,12 @@ exports[`TextInput: type Number renders without label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 AkBvW"
+          className="Input-qkdgvx-0 gPnMie"
           placeholder="xlarge e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         />
       </div>
     </div>
@@ -481,7 +481,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iQZQKd"
+        className="Input-qkdgvx-0 kenTsB"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -505,7 +505,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 dIxAIe"
+        className="Input-qkdgvx-0 jsYKFG"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -527,12 +527,12 @@ exports[`TextInput: type Number supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 enHEsf"
       >
         <input
-          className="Input-qkdgvx-0 jXvaFX"
+          className="Input-qkdgvx-0 hRygYv"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 RLTyz"
+          className="LabelInner-vrrjt0-0 dBsIAK"
         >
           xlarge
         </label>

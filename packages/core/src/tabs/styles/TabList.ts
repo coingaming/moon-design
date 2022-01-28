@@ -6,7 +6,7 @@ const TabList = styled(Reel.withComponent('ul'))<{ isContainer?: boolean }>(
   ({ theme: { colorNew, newTokens }, isContainer }) => [
     isContainer && {
       padding: rem(4),
-      border: newTokens.border,
+      border: newTokens.border.default,
       borderColor: colorNew.beerus,
       borderRadius: rem(8),
     },

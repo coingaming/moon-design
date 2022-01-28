@@ -3,17 +3,15 @@ import {
   ControlsChevronLeft,
   ControlsChevronRight,
 } from '@heathmont/moon-icons';
-import { mq, rem } from '@heathmont/moon-utils';
+import { media, rem } from '@heathmont/moon-utils';
 import addMonths from 'date-fns/addMonths';
 import styled from 'styled-components';
-
-
 import { InputsPanel } from './InputsPanel';
 import { Month } from './Month';
 import { Sidebar } from './Sidebar';
 
 const PickerContainer = styled.div(
-  ({ theme: { color, space, radius, breakpoint, zIndex, shadows } }) => ({
+  ({ theme: { color, space, radius, newTokens, zIndex, shadows } }) => ({
     width: 'fit-content',
     position: 'absolute',
     zIndex: zIndex.dialog,
@@ -25,7 +23,7 @@ const PickerContainer = styled.div(
       "inputs"
     `,
     alignItems: 'center',
-    [mq(breakpoint.medium)]: {
+    [media(newTokens.breakpoint.medium)]: {
       gridTemplateAreas: `
         "sidebar firstMonth secondMonth"
         "sidebar  inputs     inputs"

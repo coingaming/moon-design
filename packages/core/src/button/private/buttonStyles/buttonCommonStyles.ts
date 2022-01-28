@@ -12,7 +12,7 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       alignItems: 'center',
       justifyContent: 'center',
       fontWeight: newTokens.font.weight.semibold,
-      borderRadius: newTokens.interactiveBorderRadius,
+      borderRadius: newTokens.borderRadius.interactive,
       textDecoration: 'none',
       fontFamily: 'inherit',
       overflow: 'hidden',

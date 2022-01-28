@@ -5,7 +5,7 @@ exports[`Search renders 1`] = `
   className="h-96 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 hXSJUI popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 braIyX popup "
   >
     <div
       className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
@@ -68,7 +68,7 @@ exports[`Search renders 1`] = `
       className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 dlVHHo"
+        className="Styles__Results-sc-1urf7j8-3 cKpLqI"
       >
         <ul
           className="sc-kBrnbA dWRjaz"
@@ -90,7 +90,7 @@ exports[`Search renders Loading State 1`] = `
   className="h-40 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 hXSJUI popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 braIyX popup "
   >
     <div
       className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
@@ -138,7 +138,7 @@ exports[`Search renders Loading State 1`] = `
       className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 dlVHHo"
+        className="Styles__Results-sc-1urf7j8-3 cKpLqI"
       >
         <ul
           className="sc-dNUOEE cRZzNZ"

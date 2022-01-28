@@ -8,7 +8,7 @@ const RadioButtonStyledInput = styled.figure(({ theme }) => ({
   height: rem(16),
   display: 'inline-block',
   boxSizing: 'border-box',
-  border: `${theme.newTokens.border} ${theme.colorNew.piccolo}`,
+  border: `${theme.newTokens.border.default} ${theme.colorNew.piccolo}`,
   borderRadius: '50%',
   position: 'relative',
   zIndex: 2,

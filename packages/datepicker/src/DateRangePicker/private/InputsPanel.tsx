@@ -1,11 +1,9 @@
 import React from 'react';
 import { Button, TextInput } from '@heathmont/moon-components';
-import { mq } from '@heathmont/moon-utils';
+import { mq, media } from '@heathmont/moon-utils';
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-
 import { RangeConfig, RangeTranslations } from '../RangeCalendar';
-
 import useInputsPanel from './hooks/useInputsPanel';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
@@ -18,7 +16,7 @@ const InputsPanelStyled = styled.div(({ theme }) => ({
       marginTop: rem(theme.space.default),
     },
   },
-  [mq(theme.breakpoint.medium)]: {
+  [media(theme.newTokens.breakpoint.medium)]: {
     flexDirection: 'row',
     '& > * + *': {
       marginLeft: rem(theme.space.default),
@@ -26,8 +24,8 @@ const InputsPanelStyled = styled.div(({ theme }) => ({
   },
 }));
 
-const StyledTextInput = styled(TextInput)(({ theme: { breakpoint } }) => ({
-  [mq(breakpoint.medium)]: {
+const StyledTextInput = styled(TextInput)(({ theme: { newTokens } }) => ({
+  [media(newTokens.breakpoint.medium)]: {
     maxWidth: rem(228),
   },
 }));

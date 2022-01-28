@@ -21,6 +21,8 @@ import type { SupportiveColors } from '../v2/colors/supportiveColors';
 
 const borderStyle = 'solid';
 const borderWidth = 1;
+const borderWidthDefault = 1;
+const borderWidthInteractive = 2;
 const space = 16;
 const transitionDuration = 0.2;
 const transitionTimingFunction = 'ease-in-out';
@@ -30,20 +32,6 @@ const fontWeightNormal = 400;
 const fontWeightSemibold = 500;
 
 const rem = (value: number) => `${value / baseFontSize}rem`;
-
-const borderRadius = {
-  none: 0,
-  twoxsmall: rem(2),
-  xsmall: rem(4),
-  small: rem(6),
-  medium: rem(8),
-  large: rem(12),
-  xlarge: rem(16),
-  twoxlarge: rem(24),
-  full: rem(9999),
-};
-
-const interactiveBorderRadius = borderRadius.full;
 
 export type ZIndex = {
   carouselControl: number;
@@ -358,9 +346,8 @@ export type BorderRadius = {
   xlarge: string;
   twoxlarge: string;
   full: string;
+  interactive: string;
 };
-
-export type InteractiveBorderRadius = string | number;
 
 export type BreakpointNew = {
   small: string;
@@ -368,6 +355,11 @@ export type BreakpointNew = {
   large: string;
   xlarge: string;
   twoxlarge: string;
+};
+
+export type BorderNew = {
+  default: string;
+  interactive: string;
 };
 
 export type SpaceNew = {
@@ -462,14 +454,9 @@ export interface SharedTheme {
   };
   newTokens: {
     borderRadius: BorderRadius;
-    interactiveBorderRadius: InteractiveBorderRadius;
     breakpoint: BreakpointNew;
-    borderWidth: string;
-    borderStyle: string;
-    border: string;
+    border: BorderNew;
     space: SpaceNew;
-    transitionDuration: string;
-    transitionTimingFunction: string;
     transition: Transition;
     zIndex: ZIndexNew;
     boxShadow: BoxShadowNew;
@@ -568,8 +555,8 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(16),
       twoxlarge: rem(24),
       full: rem(9999),
+      interactive: rem(9999),
     },
-    interactiveBorderRadius: rem(9999),
     breakpoint: {
       small: rem(640),
       medium: rem(768),
@@ -577,9 +564,10 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(1280),
       twoxlarge: rem(1536),
     },
-    borderWidth: rem(borderWidth), // Not sure if needed
-    borderStyle, // Not sure if needed
-    border: `${rem(borderWidth)} ${borderStyle}`,
+    border: {
+      default: `${rem(borderWidthDefault)} ${borderStyle}`,
+      interactive: `${rem(borderWidthInteractive)} ${borderStyle}`,
+    },
     space: {
       threexsmall: rem(2),
       twoxsmall: rem(4),
@@ -591,11 +579,9 @@ const sharedTokens: SharedTheme = {
       twoxlarge: rem(48),
       threexlarge: rem(56),
     },
-    transitionDuration: `${transitionDuration}s`, // Not sure if needed
-    transitionTimingFunction, // Not sure if needed
     transition: {
-      slow: `${transitionDuration * 2}s ${transitionTimingFunction}`,
       default: `${transitionDuration}s ${transitionTimingFunction}`,
+      slow: `${transitionDuration * 2}s ${transitionTimingFunction}`,
     },
     zIndex: {
       carouselControl: 5,
