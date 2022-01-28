@@ -1,5 +1,11 @@
 # Change Log
 
+## 7.22.3
+
+### Patch Changes
+
+- update Paxful logo
+
 ## 7.22.2
 
 ### Patch Changes
