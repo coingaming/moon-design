@@ -17,7 +17,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dAqFAf"
+        className="Input-qkdgvx-0 lcXcAj"
         disabled={true}
         placeholder=" "
         type="tel"
@@ -44,7 +44,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 kNenzE"
+        className="Input-qkdgvx-0 VgDxs"
         disabled={true}
         placeholder=" "
         type="tel"
@@ -69,7 +69,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 bDOCky"
+          className="Input-qkdgvx-0 eTWuGS"
           disabled={true}
           placeholder=" "
           type="tel"
@@ -108,7 +108,7 @@ exports[`TextInput: type Tel renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bVMkaN"
+        className="Input-qkdgvx-0 ePoPuR"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -132,7 +132,7 @@ exports[`TextInput: type Tel renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 ktdFsG"
+        className="Input-qkdgvx-0 hYlQue"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Tel renders error 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 euWOQs"
+          className="Input-qkdgvx-0 bAlyPc"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
@@ -191,7 +191,7 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dAqFAf"
+        className="Input-qkdgvx-0 lcXcAj"
         placeholder=" "
         readOnly={true}
         type="tel"
@@ -217,7 +217,7 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 kNenzE"
+        className="Input-qkdgvx-0 VgDxs"
         placeholder=" "
         readOnly={true}
         type="tel"
@@ -241,7 +241,7 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 bDOCky"
+          className="Input-qkdgvx-0 eTWuGS"
           placeholder=" "
           readOnly={true}
           type="tel"
@@ -280,7 +280,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dAqFAf"
+        className="Input-qkdgvx-0 lcXcAj"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 kNenzE"
+        className="Input-qkdgvx-0 VgDxs"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 bDOCky"
+          className="Input-qkdgvx-0 eTWuGS"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
@@ -363,7 +363,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dAqFAf"
+        className="Input-qkdgvx-0 lcXcAj"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 kNenzE"
+        className="Input-qkdgvx-0 VgDxs"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 bDOCky"
+          className="Input-qkdgvx-0 eTWuGS"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
@@ -423,7 +423,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 dAqFAf"
+        className="Input-qkdgvx-0 lcXcAj"
         placeholder="medium"
         type="tel"
       />
@@ -436,7 +436,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
       className="Container-sc-1f49upb-0 coSnaj"
     >
       <input
-        className="Input-qkdgvx-0 kNenzE"
+        className="Input-qkdgvx-0 VgDxs"
         placeholder="large"
         type="tel"
       />
@@ -452,7 +452,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
         className="Inner-sc-1soq84i-0 giDsHQ"
       >
         <input
-          className="Input-qkdgvx-0 eqBhOj"
+          className="Input-qkdgvx-0 lifWkn"
           placeholder="xlarge"
           type="tel"
         />
@@ -481,7 +481,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 xWjCo"
+        className="Input-qkdgvx-0 iaCGCs"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -505,7 +505,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 elOyFL"
+        className="Input-qkdgvx-0 fJmycv"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -527,7 +527,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 enHEsf"
       >
         <input
-          className="Input-qkdgvx-0 bDOCky"
+          className="Input-qkdgvx-0 eTWuGS"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
