@@ -26,10 +26,9 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
       height: '100%',
       top: 0,
       left: 0,
-      transitionDuration: `${theme.transitionDuration.default}s`,
-      transitionTimingFunction: 'ease',
+      transition: `${theme.newTokens.transition.default}`,
       backgroundColor: theme.colorNew.piccolo,
-      borderRadius: rem(theme.radius.default),
+      borderRadius: theme.newTokens.borderRadius.medium,
       opacity: 0,
       transform: 'scale(0)',
       transitionProperty: 'transform, opacity',
@@ -59,10 +58,10 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
 const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
   flexDirection: 'column',
-  padding: rem(theme.space.default),
+  padding: theme.newTokens.space.small,
   color: isActive ? theme.colorNew.goten : theme.colorNew.bulma,
   background: isActive ? theme.colorNew.piccolo : theme.colorNew.gohan,
-  borderRadius: rem(theme.space.default),
+  borderRadius: theme.newTokens.space.small,
   width: '100%',
   ...(isActive && {
     [Button]: {
@@ -78,7 +77,7 @@ const Header = styled.div(({ theme }) => ({
   display: 'grid',
   flexShrink: 0,
   gridTemplateColumns: 'auto 1fr auto auto',
-  gridColumnGap: rem(theme.space.default),
+  gridColumnGap: theme.newTokens.space.small,
   minHeight: rem(24),
 }));
 

@@ -16,7 +16,7 @@ exports[`Table Chart renders Active 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 duCTCg"
+        className="Panel__Button-wbwz0d-0 hhoDOq"
         onClick={[Function]}
       >
         <svg
@@ -37,7 +37,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -63,7 +63,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -208,7 +208,7 @@ exports[`Table Chart renders Active 1`] = `
           className="Table-sc-1ygp5ew-1 igOqRw"
         >
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -217,7 +217,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -226,13 +226,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lCeSL"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -244,7 +244,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -253,7 +253,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -262,7 +262,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -271,13 +271,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lCeSL"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -289,7 +289,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -298,7 +298,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -307,7 +307,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -316,13 +316,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lCeSL"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -334,7 +334,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -343,7 +343,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -352,7 +352,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -361,13 +361,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lCeSL"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -379,7 +379,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -388,7 +388,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -397,7 +397,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -406,13 +406,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lCeSL"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -424,7 +424,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -448,7 +448,7 @@ exports[`Table Chart renders Active 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <strong
@@ -475,7 +475,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -501,7 +501,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -646,7 +646,7 @@ exports[`Table Chart renders Active 1`] = `
           className="Table-sc-1ygp5ew-1 igOqRw"
         >
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -655,7 +655,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -664,7 +664,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
@@ -673,7 +673,7 @@ exports[`Table Chart renders Active 1`] = `
               className="VerticalBar__Bar-sc-1o6bhqj-1 kazhLt"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -685,7 +685,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -694,7 +694,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -703,7 +703,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -712,7 +712,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
@@ -721,7 +721,7 @@ exports[`Table Chart renders Active 1`] = `
               className="VerticalBar__Bar-sc-1o6bhqj-1 kazhLt"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -733,7 +733,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -742,7 +742,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -751,7 +751,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -760,7 +760,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
@@ -769,7 +769,7 @@ exports[`Table Chart renders Active 1`] = `
               className="VerticalBar__Bar-sc-1o6bhqj-1 kazhLt"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FFB319",
@@ -781,7 +781,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -790,7 +790,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -799,7 +799,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -808,7 +808,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
@@ -817,7 +817,7 @@ exports[`Table Chart renders Active 1`] = `
               className="VerticalBar__Bar-sc-1o6bhqj-1 dKHOFF"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -829,7 +829,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -838,7 +838,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -847,7 +847,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -856,7 +856,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
@@ -865,7 +865,7 @@ exports[`Table Chart renders Active 1`] = `
               className="VerticalBar__Bar-sc-1o6bhqj-1 dKHOFF"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -877,7 +877,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -901,7 +901,7 @@ exports[`Table Chart renders Active 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -922,7 +922,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -948,7 +948,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -1093,7 +1093,7 @@ exports[`Table Chart renders Active 1`] = `
           className="Table-sc-1ygp5ew-1 igOqRw"
         >
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -1102,7 +1102,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -1111,13 +1111,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lclHbB"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -1129,7 +1129,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -1138,7 +1138,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -1147,7 +1147,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -1156,13 +1156,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lclHbB"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -1174,7 +1174,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -1183,7 +1183,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -1192,7 +1192,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -1201,13 +1201,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lclHbB"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -1219,7 +1219,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -1228,7 +1228,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -1237,7 +1237,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -1246,13 +1246,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lclHbB"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -1264,7 +1264,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -1273,7 +1273,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <span
               className="Table__Count-sc-1ygp5ew-3 erjncN"
@@ -1282,7 +1282,7 @@ exports[`Table Chart renders Active 1`] = `
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__TableItem-sc-1ygp5ew-2 jGNHOt"
@@ -1291,13 +1291,13 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 eYJnwz"
+            className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 lclHbB"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 kzJFDF"
+                className="VerticalBar__Line-sc-1o6bhqj-2 flXkVo"
                 style={
                   Object {
                     "background": "#FF4E64",
@@ -1309,7 +1309,7 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 iShPEs"
+            className="Table__Cell-sc-1ygp5ew-0 eabrTF"
           >
             <div
               className="Table__Value-sc-1ygp5ew-4 RecQv"
@@ -1340,7 +1340,7 @@ exports[`Table Chart renders NoData 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 duCTCg"
+        className="Panel__Button-wbwz0d-0 hhoDOq"
         onClick={[Function]}
       >
         <svg
@@ -1361,7 +1361,7 @@ exports[`Table Chart renders NoData 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -1387,7 +1387,7 @@ exports[`Table Chart renders NoData 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
