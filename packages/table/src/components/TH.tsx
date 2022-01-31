@@ -9,7 +9,7 @@ const TH = styled.div<{
     backgroundColor: themed('color', headerBackgroundColor)(theme),
   }),
   ({ theme: { colorNew, newTokens } }) => ({
-    padding: newTokens.space.xsmall,
+    padding: newTokens.space.twoxsmall,
     color: colorNew.trunks,
     position: 'relative',
     fontSize: rem(12),

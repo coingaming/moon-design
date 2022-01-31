@@ -97,22 +97,30 @@ const IconSun = () => (
 interface IDarkModeSwitcher {
   isEnabled: boolean;
   toggle: () => void;
+  isRtlEnabled: boolean;
 }
 
 const DarkLightModeSwitcher: React.FC<IDarkModeSwitcher> = ({
   isEnabled,
   toggle,
+  isRtlEnabled,
 }) => (
   <button
     onClick={toggle}
     type="button"
     aria-pressed="false"
-    className="bg-white inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none"
+    className="bg-white inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none shadow-md"
   >
     <span className="sr-only">Change dark or light theme</span>
     <span
       className={`${
-        isEnabled ? 'translate-x-5' : 'translate-x-0'
+        !isRtlEnabled
+          ? isEnabled
+            ? 'translate-x-5'
+            : 'translate-x-0'
+          : isEnabled
+          ? 'translate-x-0'
+          : '-translate-x-5'
       } bg-grey-500 pointer-events-none relative inline-block h-5 w-5 rounded-full shadow transform ring-0 transition ease-in-out duration-200`}
     >
       <span

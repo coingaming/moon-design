@@ -1,10 +1,9 @@
-import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const TD = styled.div(({ theme }) => ({
   padding: theme.newTokens.space.small,
-  paddingLeft: theme.newTokens.space.xsmall,
-  paddingRight: theme.newTokens.space.xsmall,
+  paddingLeft: theme.newTokens.space.twoxsmall,
+  paddingRight: theme.newTokens.space.twoxsmall,
   color: theme.colorNew.bulma,
   position: 'relative',
   '&::after': {

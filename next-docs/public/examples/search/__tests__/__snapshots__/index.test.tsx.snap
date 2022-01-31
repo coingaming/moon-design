@@ -5,10 +5,10 @@ exports[`Search renders 1`] = `
   className="h-96 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 hXSJUI popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 jkIubD popup "
   >
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
     >
       <form
         className="Styles__SearchForm-sc-1urf7j8-0 dduYOx"
@@ -20,7 +20,7 @@ exports[`Search renders 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 kHdjzj"
+            className="Input__SearchInput-vvx0zy-4 chGbHR"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -65,10 +65,10 @@ exports[`Search renders 1`] = `
       </button>
     </div>
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 kNMOls"
+        className="Styles__Results-sc-1urf7j8-3 fUmIkx"
       >
         <ul
           className="sc-kBrnbA dWRjaz"
@@ -90,10 +90,10 @@ exports[`Search renders Loading State 1`] = `
   className="h-40 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 hXSJUI popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 jkIubD popup "
   >
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
     >
       <form
         className="Styles__SearchForm-sc-1urf7j8-0 dduYOx"
@@ -104,7 +104,7 @@ exports[`Search renders Loading State 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 kHdjzj"
+            className="Input__SearchInput-vvx0zy-4 chGbHR"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -135,10 +135,10 @@ exports[`Search renders Loading State 1`] = `
       </form>
     </div>
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 lelXPW"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 kNMOls"
+        className="Styles__Results-sc-1urf7j8-3 fUmIkx"
       >
         <ul
           className="sc-dNUOEE cRZzNZ"

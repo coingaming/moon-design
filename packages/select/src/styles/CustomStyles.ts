@@ -97,7 +97,7 @@ const CustomStyles: StylesConfig = {
         : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
       transition:
         !state.isFocused || !customProps.isError
-          ? `box-shadow ${theme.newTokens.transitionDuration} ease`
+          ? `box-shadow ${theme.newTokens.transition.default}`
           : 'none',
       minHeight: customProps.size === 'xLarge' ? rem(56) : rem(48),
       '&:hover': {

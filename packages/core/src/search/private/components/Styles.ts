@@ -1,6 +1,6 @@
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
-import { mq, rem } from '@heathmont/moon-utils';
+import { mq, rem, media } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
@@ -10,14 +10,14 @@ export const resultsInactive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 0,
   visibility: 'hidden',
   maxHeight: 0,
-  transition: `visibility 0s linear ${newTokens.transitionDuration}, opacity ${newTokens.transitionDuration}, max-height ${newTokens.transitionDuration}`,
+  transition: `visibility 0s linear ${newTokens.transition.default}, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
 export const resultsActive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 1,
   visibility: 'visible',
   maxHeight: '100vh',
-  transition: `visibility 0s linear 0s, opacity ${newTokens.transitionDuration}, max-height ${newTokens.transitionDuration}`,
+  transition: `visibility 0s linear 0s, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
 export const SearchForm = styled.form({
@@ -63,11 +63,11 @@ export const Results = styled.div(
       ...resultsInactive(theme),
       ['.active &']: resultsActive(theme),
     },
-    [mq(theme.breakpoint.medium, 'min-width')]: {
+    [media(theme.newTokens.breakpoint.medium)]: {
       [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
     },
   }),
-  ({ theme: { breakpoint, colorNew, newTokens } }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     position: 'absolute',
     left: 0,
     top: newTokens.space.xsmall,
@@ -78,7 +78,7 @@ export const Results = styled.div(
       left: 'auto',
       right: 0,
     },
-    [mq(breakpoint.medium, 'min-width')]: {
+    [media(newTokens.breakpoint.medium)]: {
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',

@@ -16,6 +16,8 @@ export { default as hideVisually } from './hideVisually/hideVisually';
 export * from './hideVisually/hideVisually';
 export { default as inlineSvg } from './inlineSvg/inlineSvg';
 export * from './inlineSvg/inlineSvg';
+export { default as media } from './media/media';
+export * from './media/media';
 export { default as mq } from './mq/mq';
 export * from './mq/mq';
 export { default as rem } from './rem/rem';

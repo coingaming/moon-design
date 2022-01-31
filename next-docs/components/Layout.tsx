@@ -1,12 +1,13 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 
+import Breadcrumbs from './breadcrumbs/Breadcrumbs';
+import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
-import Breadcrumbs from './breadcrumbs/Breadcrumbs';
-import { useDocsTheme } from './themes/DocsThemeProvider';
-import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
 import BrandThemeSelector from './themes/BrandThemeSelector';
-import Footer from './Footer';
+import DarkLightModeSwitcher from './themes/DarkLightModeSwitch';
+import { useDocsTheme } from './themes/DocsThemeProvider';
+import RTLModeSwitch from './themes/RTLModeSwitch';
 
 const brandMap = {
   moonDesign: 'moon',
@@ -48,6 +49,20 @@ export default function Layout({ children }: LayoutProps) {
     brand: getBrand() as Brand,
     colorMode: getColorMode(),
   });
+
+  const [isRtl, toggleDir] = useState(false);
+
+  const toggleDirection = () => {
+    const htmlTag = document && document?.getElementsByTagName('html')[0];
+    toggleDir(!isRtl);
+    const dirAttr = htmlTag.getAttribute('dir');
+
+    if (!dirAttr) {
+      htmlTag.setAttribute('dir', 'rtl');
+    } else {
+      htmlTag.removeAttribute('dir');
+    }
+  };
 
   return (
     <div
@@ -102,11 +117,16 @@ export default function Layout({ children }: LayoutProps) {
           <BrandThemeSelector
             themeKeys={themeKeys}
             setBrand={setBrand}
+            isRtlEnabled={isRtl}
             darkLight={
               <DarkLightModeSwitcher
                 toggle={toggleColorScheme}
                 isEnabled={getColorMode() === 'dark'}
+                isRtlEnabled={isRtl}
               />
+            }
+            rtlSwitch={
+              <RTLModeSwitch toggle={toggleDirection} isEnabled={isRtl} />
             }
           />
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>

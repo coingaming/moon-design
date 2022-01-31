@@ -277,7 +277,7 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
         className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
       >
         <label
-          className="CheckboxLabel-wyw1pu-0 fHKRiw"
+          className="CheckboxLabel-wyw1pu-0 hwTmSd"
         >
           <input
             className="CheckboxInput-sc-12uz9za-0 bYuiaE"

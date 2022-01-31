@@ -97,55 +97,47 @@ export default function PageTokensNew() {
             {
               name: 'twoxsmall',
               key: 'borderRadius.twoxsmall',
-              value: 2,
+              value: '2px',
             },
             {
               name: 'xsmall',
               key: 'borderRadius.xsmall',
-              value: 4,
+              value: '4px',
             },
             {
               name: 'small',
               key: 'borderRadius.small',
-              value: 6,
+              value: '6px',
             },
             {
               name: 'medium',
               key: 'borderRadius.medium',
-              value: 8,
+              value: '8px',
             },
             {
               name: 'large',
               key: 'borderRadius.large',
-              value: 12,
+              value: '12px',
             },
             {
               name: 'xlarge',
               key: 'borderRadius.xlarge',
-              value: 16,
+              value: '16px',
             },
             {
               name: 'twoxlarge',
               key: 'borderRadius.twoxlarge',
-              value: 24,
+              value: '24px',
             },
             {
               name: 'full',
               key: 'borderRadius.full',
-              value: 9999,
+              value: '9999px',
             },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Interactive Border Radius</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
             {
-              name: 'interactiveBorderRadius',
-              key: 'interactiveBorderRadius',
-              value: 9999,
+              name: 'interactive',
+              key: 'borderRadius.interactive',
+              value: '9999px',
             },
           ]}
         />
@@ -158,27 +150,27 @@ export default function PageTokensNew() {
             {
               name: 'small',
               key: 'breakpoint.small',
-              value: 640,
+              value: '640px',
             },
             {
               name: 'medium',
               key: 'breakpoint.medium',
-              value: 768,
+              value: '768px',
             },
             {
               name: 'large',
               key: 'breakpoint.large',
-              value: 1024,
+              value: '1024px',
             },
             {
               name: 'xlarge',
               key: 'breakpoint.xlarge',
-              value: 1280,
+              value: '1280px',
             },
             {
               name: 'twoxlarge',
               key: 'breakpoint.twoxlarge',
-              value: 1536,
+              value: '1536px',
             },
           ]}
         />
@@ -189,9 +181,29 @@ export default function PageTokensNew() {
         <TokenTable
           data={[
             {
-              name: 'border',
-              key: 'border',
+              name: 'default',
+              key: 'border.default',
               value: '1px solid',
+            },
+            {
+              name: 'interactive',
+              key: 'border.interactive',
+              value: '2px solid',
+            },
+            {
+              name: 'width.default',
+              key: 'border.width.default',
+              value: '1px',
+            },
+            {
+              name: 'width.interactive',
+              key: 'border.width.interactive',
+              value: '2px',
+            },
+            {
+              name: 'style',
+              key: 'border.style',
+              value: 'solid',
             },
           ]}
         />
@@ -204,47 +216,47 @@ export default function PageTokensNew() {
             {
               name: 'threexsmall',
               key: 'space.threexsmall',
-              value: 2,
+              value: '4px',
             },
             {
               name: 'twoxsmall',
               key: 'space.twoxsmall',
-              value: 4,
+              value: '8px',
             },
             {
               name: 'xsmall',
               key: 'space.xsmall',
-              value: 8,
+              value: '12px',
             },
             {
               name: 'small',
               key: 'space.small',
-              value: 16,
+              value: '16px',
             },
             {
               name: 'medium',
               key: 'space.medium',
-              value: 24,
+              value: '24px',
             },
             {
               name: 'large',
               key: 'space.large',
-              value: 32,
+              value: '32px',
             },
             {
               name: 'xlarge',
               key: 'space.xlarge',
-              value: 40,
+              value: '40px',
             },
             {
               name: 'twoxlarge',
               key: 'space.twoxlarge',
-              value: 48,
+              value: '48px',
             },
             {
               name: 'threexlarge',
               key: 'space.threexlarge',
-              value: 56,
+              value: '56px',
             },
           ]}
         />

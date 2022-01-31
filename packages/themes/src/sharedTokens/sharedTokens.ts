@@ -21,6 +21,8 @@ import type { SupportiveColors } from '../v2/colors/supportiveColors';
 
 const borderStyle = 'solid';
 const borderWidth = 1;
+const borderWidthDefault = 1;
+const borderWidthInteractive = 2;
 const space = 16;
 const transitionDuration = 0.2;
 const transitionTimingFunction = 'ease-in-out';
@@ -30,20 +32,6 @@ const fontWeightNormal = 400;
 const fontWeightSemibold = 500;
 
 const rem = (value: number) => `${value / baseFontSize}rem`;
-
-const borderRadius = {
-  none: 0,
-  twoxsmall: rem(2),
-  xsmall: rem(4),
-  small: rem(6),
-  medium: rem(8),
-  large: rem(12),
-  xlarge: rem(16),
-  twoxlarge: rem(24),
-  full: rem(9999),
-};
-
-const interactiveBorderRadius = borderRadius.full;
 
 export type ZIndex = {
   carouselControl: number;
@@ -358,9 +346,8 @@ export type BorderRadius = {
   xlarge: string;
   twoxlarge: string;
   full: string;
+  interactive: string;
 };
-
-export type InteractiveBorderRadius = string | number;
 
 export type BreakpointNew = {
   small: string;
@@ -368,6 +355,16 @@ export type BreakpointNew = {
   large: string;
   xlarge: string;
   twoxlarge: string;
+};
+
+export type BorderNew = {
+  default: string;
+  interactive: string;
+  width: {
+    default: string;
+    interactive: string;
+  };
+  style: string;
 };
 
 export type SpaceNew = {
@@ -426,16 +423,6 @@ export type Hover = {
   secondary: string;
 };
 
-export type Size = {
-  twoxsmall: string;
-  xsmall: string;
-  small: string;
-  medium: string;
-  large: string;
-  xlarge: string;
-  twoxlarge: string;
-};
-
 export interface SharedTheme {
   base: Base;
   border: Border;
@@ -462,14 +449,9 @@ export interface SharedTheme {
   };
   newTokens: {
     borderRadius: BorderRadius;
-    interactiveBorderRadius: InteractiveBorderRadius;
     breakpoint: BreakpointNew;
-    borderWidth: string;
-    borderStyle: string;
-    border: string;
+    border: BorderNew;
     space: SpaceNew;
-    transitionDuration: string;
-    transitionTimingFunction: string;
     transition: Transition;
     zIndex: ZIndexNew;
     boxShadow: BoxShadowNew;
@@ -480,7 +462,6 @@ export interface SharedTheme {
     hover: Hover;
     focus: string;
     transform: string;
-    size: Size;
   };
 }
 
@@ -568,8 +549,8 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(16),
       twoxlarge: rem(24),
       full: rem(9999),
+      interactive: rem(9999),
     },
-    interactiveBorderRadius: rem(9999),
     breakpoint: {
       small: rem(640),
       medium: rem(768),
@@ -577,13 +558,19 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(1280),
       twoxlarge: rem(1536),
     },
-    borderWidth: rem(borderWidth), // Not sure if needed
-    borderStyle, // Not sure if needed
-    border: `${rem(borderWidth)} ${borderStyle}`,
+    border: {
+      default: `${rem(borderWidthDefault)} ${borderStyle}`,
+      interactive: `${rem(borderWidthInteractive)} ${borderStyle}`,
+      width: {
+        default: rem(borderWidthDefault),
+        interactive: rem(borderWidthInteractive),
+      },
+      style: borderStyle,
+    },
     space: {
-      threexsmall: rem(2),
-      twoxsmall: rem(4),
-      xsmall: rem(8),
+      threexsmall: rem(4),
+      twoxsmall: rem(8),
+      xsmall: rem(12),
       small: rem(16),
       medium: rem(24),
       large: rem(32),
@@ -591,11 +578,9 @@ const sharedTokens: SharedTheme = {
       twoxlarge: rem(48),
       threexlarge: rem(56),
     },
-    transitionDuration: `${transitionDuration}s`, // Not sure if needed
-    transitionTimingFunction, // Not sure if needed
     transition: {
-      slow: `${transitionDuration * 2}s ${transitionTimingFunction}`,
       default: `${transitionDuration}s ${transitionTimingFunction}`,
+      slow: `${transitionDuration * 2}s ${transitionTimingFunction}`,
     },
     zIndex: {
       carouselControl: 5,
@@ -649,15 +634,6 @@ const sharedTokens: SharedTheme = {
     },
     focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
     transform: 'scale(0.9)',
-    size: {
-      twoxsmall: rem(16),
-      xsmall: rem(24),
-      small: rem(32),
-      medium: rem(40),
-      large: rem(48),
-      xlarge: rem(56),
-      twoxlarge: rem(64),
-    },
   },
 };
 
