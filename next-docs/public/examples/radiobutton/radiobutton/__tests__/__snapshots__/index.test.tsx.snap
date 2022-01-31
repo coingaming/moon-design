@@ -27,7 +27,7 @@ exports[`Radiobutton renders 1`] = `
         className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
       />
       <span
-        className="RadioButtonCaption-sc-1dv62p7-0 hsFkDN"
+        className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
       >
         0 - 30
       </span>
@@ -51,7 +51,7 @@ exports[`Radiobutton renders 1`] = `
         className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
       />
       <span
-        className="RadioButtonCaption-sc-1dv62p7-0 hsFkDN"
+        className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
       >
         31 - 60
       </span>
@@ -75,7 +75,7 @@ exports[`Radiobutton renders 1`] = `
         className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
       />
       <span
-        className="RadioButtonCaption-sc-1dv62p7-0 hsFkDN"
+        className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
       >
         61 - 100
       </span>
@@ -98,7 +98,7 @@ exports[`Radiobutton renders Checked 1`] = `
     className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
   />
   <span
-    className="RadioButtonCaption-sc-1dv62p7-0 hsFkDN"
+    className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
   >
     Checked radio button
   </span>
@@ -118,7 +118,7 @@ exports[`Radiobutton renders Disabled 1`] = `
     className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
   />
   <span
-    className="RadioButtonCaption-sc-1dv62p7-0 hsFkDN"
+    className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
   >
     Disabled radio button
   </span>
