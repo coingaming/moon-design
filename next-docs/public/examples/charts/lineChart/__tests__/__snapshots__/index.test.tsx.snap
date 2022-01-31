@@ -296,7 +296,7 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 kKoRxD"
+    className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 hqwJLA"
     style={
       Object {
         "height": "100%",
@@ -842,7 +842,7 @@ exports[`Line Chart renders Loading 1`] = `
         </div>
       </div>
       <div
-        className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 kKoRxD"
+        className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 hqwJLA"
         style={
           Object {
             "height": "100%",
