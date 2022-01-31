@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 // const pages = [
 //   { name: 'Projects', href: '#', current: false },
@@ -14,7 +14,7 @@ export default function Breadcrumbs() {
     return null;
   }
   return (
-    <nav className="flex" aria-label="Breadcrumb">
+    <nav className="breadcrumbs flex" aria-label="Breadcrumb">
       <ol className="flex flex-wrap items-center space-x-4">
         <li>
           <div className="flex items-center">

@@ -111,3 +111,13 @@ body {
     transform: rotateY(360deg);
   }
 }
+
+.breadcrumbs .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-inline-start: 16px;
+  margin-inline-end: 0px;
+}
+
+.breadcrumbs li a {
+  margin-inline-start: 12px;
+  margin-inline-end: 0px;
+}
