@@ -40,20 +40,20 @@ export const SearchClearButton = styled(Button)(
 
 export const SearchClearIcon = styled(GenericClose)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { base, colorNew } }) => ({
+>(({ theme: { colorNew } }) => ({
   color: colorNew.trunks,
-  fontSize: rem(base.lineHeight),
+  fontSize: rem(20),
 }));
 
 export const SearchInputIcon = styled(GenericSearch)<
   React.SVGProps<SVGSVGElement> & { $size: SearchInputSize }
->(({ $size, theme: { base, colorNew } }) => ({
+>(({ $size, theme: { colorNew } }) => ({
   position: 'absolute',
   top: '50%',
   left: rem(padding[$size] + borderWidth),
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
-  fontSize: rem(base.lineHeight),
+  fontSize: rem(20),
   color: colorNew.trunks,
   pointerEvents: 'none',
   '[dir=rtl] &': {
@@ -64,14 +64,14 @@ export const SearchInputIcon = styled(GenericSearch)<
 
 export const SearchMenuIcon = styled(GenericMenu)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { base, colorNew, newTokens } }) => ({
+>(({ theme: { colorNew, newTokens } }) => ({
   position: 'absolute',
   top: '50%',
   right: newTokens.space.small,
   color: colorNew.trunks,
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
-  fontSize: rem(base.lineHeight),
+  fontSize: rem(20),
   '[dir=rtl] &': {
     left: newTokens.space.small,
     right: 'auto',
@@ -83,63 +83,55 @@ export const SearchInput = styled.input<
     hasBorder: boolean;
     $size: SearchInputSize;
   }
->(
-  ({
-    $size,
-    hasBorder,
-    theme: { breakpoint, colorNew, fontSize, newTokens, space },
-  }) => ({
-    fontWeight: newTokens.font.weight.normal,
-    fontSize: rem(fontSize.body),
-    width: '100%',
-    lineHeight: 1,
-    position: 'relative',
-    paddingTop: 0,
-    paddingRight: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
-    paddingBottom: 0,
-    paddingLeft: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
-    textOverflow: 'ellipsis',
-    overflow: 'hidden',
-    backgroundColor: colorNew.goku,
-    color: colorNew.trunks,
-    borderRadius: newTokens.borderRadius.medium,
-    border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
-    outline: 0,
-    zIndex: zIndex.searchInput,
-    transition: `${inputConfig.transition}`,
-    transitionDuration: newTokens.transitionDuration,
-    '[dir=rtl] &': {
-      paddingLeft: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
-      paddingRight: `calc(${rem(2 * padding[$size])} + ${
-        newTokens.space.small
-      })`,
-    },
-    '&::placeholder': {
-      color: 'inherit',
-    },
-    '&:hover': {
-      backgroundColor: colorNew.gohan,
-      borderColor: colorNew.beerus,
-    },
-    '&:active, &:focus': {
-      backgroundColor: colorNew.gohan,
+>(({ $size, hasBorder, theme: { breakpoint, colorNew, newTokens } }) => ({
+  fontWeight: newTokens.font.weight.normal,
+  fontSize: rem(14),
+  width: '100%',
+  lineHeight: 1,
+  position: 'relative',
+  paddingTop: 0,
+  paddingRight: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
+  paddingBottom: 0,
+  paddingLeft: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
+  textOverflow: 'ellipsis',
+  overflow: 'hidden',
+  backgroundColor: colorNew.goku,
+  color: colorNew.trunks,
+  borderRadius: newTokens.borderRadius.medium,
+  border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
+  outline: 0,
+  zIndex: zIndex.searchInput,
+  transition: `${inputConfig.transition}`,
+  transitionDuration: newTokens.transitionDuration,
+  '[dir=rtl] &': {
+    paddingLeft: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
+    paddingRight: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
+  },
+  '&::placeholder': {
+    color: 'inherit',
+  },
+  '&:hover': {
+    backgroundColor: colorNew.gohan,
+    borderColor: colorNew.beerus,
+  },
+  '&:active, &:focus': {
+    backgroundColor: colorNew.gohan,
+    borderColor: colorNew.piccolo,
+    color: colorNew.bulma,
+  },
+  [mq(breakpoint.medium, 'max-width')]: {
+    [':focus:not(:placeholder-shown)']: {
       borderColor: colorNew.piccolo,
-      color: colorNew.bulma,
     },
-    [mq(breakpoint.medium, 'max-width')]: {
-      [':focus:not(:placeholder-shown)']: {
-        borderColor: colorNew.piccolo,
-      },
-    },
-  })
-);
+  },
+}));
 
 export const SearchBox = styled.span<{
   $size: SearchInputSize;
-}>(({ $size, theme: { fontSize } }) => ({
+}>(({ $size }) => ({
   display: 'flex',
   position: 'relative',
-  fontSize: rem(fontSize.body),
+  fontSize: rem(14),
   overflow: 'visible',
   width: '100%',
   height: rem(inputConfig.height[$size]),

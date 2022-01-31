@@ -1,6 +1,6 @@
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
-import { mq, rem, media } from '@heathmont/moon-utils';
+import { mq, media } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
@@ -35,7 +35,7 @@ export const FlexWrapper = styled.div(({ theme: { newTokens } }) => ({
 }));
 
 export const ModalClose = styled(Button)(
-  ({ theme: { base, breakpoint, colorNew, newTokens } }) => ({
+  ({ theme: { breakpoint, colorNew, newTokens } }) => ({
     position: 'relative',
     display: 'none',
     flex: 0,
@@ -43,7 +43,7 @@ export const ModalClose = styled(Button)(
     lineHeight: 1,
     padding: `0 ${newTokens.space.small}`,
     fontWeight: newTokens.font.weight.normal,
-    fontSize: rem(base.fontSize),
+    fontSize: newTokens.font.size,
     overflow: 'visible',
     color: colorNew.piccolo,
     ['&:hover:not([disabled])']: {
@@ -84,8 +84,7 @@ export const Results = styled.div(
       boxSizing: 'border-box',
       padding: `${newTokens.space.xsmall} ${newTokens.space.twoxsmall}`,
       borderRadius: newTokens.borderRadius.medium,
-      borderWidth: newTokens.borderWidth,
-      borderStyle: 'solid',
+      border: newTokens.border.default,
       borderColor: colorNew.beerus,
       backgroundColor: colorNew.gohan,
       boxShadow: newTokens.boxShadow.large,
