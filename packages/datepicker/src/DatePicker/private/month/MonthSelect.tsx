@@ -25,7 +25,6 @@ const MonthSelect: React.FC<MonthSelectProps> = ({ monthLabel, setMonth }) => {
   return (
     <Container
       onClick={() => setOpen(!isOpen)}
-      style={{ textAlign: 'start' }}
       ref={ref}
       test-id="month-select"
     >
