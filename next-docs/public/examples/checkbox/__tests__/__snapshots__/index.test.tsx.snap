@@ -2,7 +2,7 @@
 
 exports[`Checkbox renders 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+  className="CheckboxLabel-wyw1pu-0 hwTmSd"
 >
   <input
     className="CheckboxInput-sc-12uz9za-0 bYuiaE"
@@ -18,7 +18,7 @@ exports[`Checkbox renders 1`] = `
 
 exports[`Checkbox renders Aria Label 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+  className="CheckboxLabel-wyw1pu-0 hwTmSd"
 >
   <input
     aria-label="Description of the checkbox's purpose."
@@ -125,7 +125,7 @@ exports[`Checkbox renders Aria Label List 1`] = `
 
 exports[`Checkbox renders Checked 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+  className="CheckboxLabel-wyw1pu-0 hwTmSd"
 >
   <input
     checked={true}
@@ -143,7 +143,7 @@ exports[`Checkbox renders Checked 1`] = `
 
 exports[`Checkbox renders Disabled 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 fHKRiw"
+  className="CheckboxLabel-wyw1pu-0 hwTmSd"
 >
   <input
     className="CheckboxInput-sc-12uz9za-0 bYuiaE"

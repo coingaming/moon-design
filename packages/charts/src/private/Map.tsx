@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
-import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
-import styled from 'styled-components';
+import { Text } from '@heathmont/moon-components';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
-import { Text } from '@heathmont/moon-components';
+import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
+import styled from 'styled-components';
 
 import { TooltipWrapper, Item, ColorPreview } from './Tooltip';
 import worldMap from './World110m';

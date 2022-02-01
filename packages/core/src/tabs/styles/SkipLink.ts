@@ -4,9 +4,9 @@ import styled from 'styled-components';
 const SkipLink = styled.a(({ theme: { color, colorNew, newTokens } }) => ({
   position: 'absolute',
   zIndex: 1,
-  padding: `0 ${newTokens.space.xsmall}`,
+  padding: `0 ${newTokens.space.twoxsmall}`,
   top: '50%',
-  left: newTokens.space.xsmall,
+  left: newTokens.space.twoxsmall,
   transform: 'translateY(-50%)',
   color: colorNew.bulma,
   backgroundColor: color.gohan[80],

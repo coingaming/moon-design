@@ -24,7 +24,14 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: currentTheme,
     theme: {
       colorNew,
-      newTokens: { borderRadius, transitionDuration, space, hover },
+      newTokens: {
+        borderRadius,
+        transitionDuration,
+        space,
+        hover,
+        border,
+        transition,
+      },
     },
     inputSize,
     error,
@@ -52,9 +59,9 @@ const Input = styled.input.attrs(({ type }) => ({
       position: 'relative',
       zIndex: 2,
       border: 'none',
-      boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
+      boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
       borderRadius: borderRadius.large,
-      transition: `box-shadow ${transitionDuration} ease`,
+      transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
       '&::before, &::after': {
@@ -67,21 +74,21 @@ const Input = styled.input.attrs(({ type }) => ({
         transitionDelay: `0.1s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
-        boxShadow: `0 0 0 ${rem(2)} ${
+        boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? hover.primary : colorNew.chiChi[100]
-        } inset, 0 0 0 ${rem(2)} ${
+        } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
-        boxShadow: `0 0 0 ${rem(2)} ${
+        boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {
-          boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
+          boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
         },
       '&[readonly]': {
         outline: 'none',
@@ -150,7 +157,7 @@ const Input = styled.input.attrs(({ type }) => ({
       backgroundSize: rem(20),
     },
     error && {
-      boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
+      boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {
       paddingRight: rem(55),
