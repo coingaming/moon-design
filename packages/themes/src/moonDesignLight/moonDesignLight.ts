@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import buttonVariantTokens from '../sharedTokens/buttonVariantTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import mainColors from '../v2/colors/mainColors';
@@ -75,6 +76,24 @@ const moonDesignLight: Theme = {
   colorNew: {
     ...mainColors,
     ...supportiveColors,
+  },
+  button: {
+    primary: {
+      color: mainColors.goten,
+      backgroundColor: mainColors.piccolo,
+    },
+    secondary: {
+      color: mainColors.goten,
+      backgroundColor: mainColors.hit,
+    },
+    tertiary: {
+      color: mainColors.bulma,
+      background: 'none',
+      boxShadow: `inset 0 0 0 1px ${mainColors.trunks}`,
+      '&:hover': {
+        boxShadow: `inset 0 0 0 1px ${mainColors.bulma}`,
+      },
+    },
   },
   colorScheme: 'light',
 };

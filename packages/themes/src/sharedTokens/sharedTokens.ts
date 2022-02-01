@@ -404,9 +404,9 @@ export type Font = {
 };
 
 export type Button = {
-  primary: any;
-  secondary: any;
-  tertiary: any;
+  primary: any; // TODO
+  secondary: any; // TODO
+  tertiary: any; // TODO
 };
 
 export type TextLink = {
@@ -457,7 +457,6 @@ export interface SharedTheme {
     boxShadow: BoxShadowNew;
     font: Font;
     opacity: number;
-    button: Button; // Not sure if correct
     textLink: TextLink;
     hover: Hover;
     focus: string;
@@ -470,6 +469,7 @@ export type Theme = SharedTheme & {
   colorScheme: ColorScheme;
   color: Color;
   colorNew: ColorNew;
+  button: Button;
 };
 
 const sharedTokens: SharedTheme = {
@@ -615,11 +615,6 @@ const sharedTokens: SharedTheme = {
       lineHeight: rem(baseLineHeight),
     },
     opacity: 0.32,
-    button: {
-      primary: buttonVariantTokens.fill,
-      secondary: buttonVariantTokens.stroke,
-      tertiary: buttonVariantTokens.fillSecondary,
-    },
     textLink: {
       fontWeight: fontWeightSemibold,
       color: {
