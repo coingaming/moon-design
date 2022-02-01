@@ -40,8 +40,7 @@ export const getDatesFromRange = ({
   fallbackEndDate?: Date;
   config?: RangeConfig;
 }): { startDate?: Date; endDate?: Date } => {
-  // TODO TEST
-  const now = new Date('September 16, 2020');
+  const now = new Date();
 
   if (range === 'reset') {
     return {

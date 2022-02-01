@@ -35,8 +35,7 @@ const useCalendar = ({
 }: useCalendarProps) => {
   const [datesState, setDatesState] = React.useState<DatepickerState>({
     currentDate: initialDate,
-    // TODO TEST
-    cursorDate: initialDate ? new Date(initialDate) : new Date('September 16, 2020'),
+    cursorDate: initialDate ? new Date(initialDate) : new Date(),
   });
 
   React.useEffect(() => {
