@@ -2,43 +2,43 @@
 
 exports[`Loader renders 1`] = `
 <div
-  className="Inline-sc-1rz1cju-0 hXveSP"
+  className="Inline-sc-1rz1cju-0 kwswbg"
 >
   <strong
-    className="Container-sc-12rktgh-0 bxAnKl"
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
   >
     <span
-      className="LoaderRing-sc-17wll29-0 iDxVPi"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 iSQXWU"
+      className="LoaderRing-sc-17wll29-0 cOhRov"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 lbSBjL"
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 eyNpPk"
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
     />
   </strong>
   <strong
-    className="Container-sc-12rktgh-0 bxAnKl"
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
   >
     <span
-      className="LoaderRing-sc-17wll29-0 Vsbho"
+      className="LoaderRing-sc-17wll29-0 gPaUOj"
       color="piccolo.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 dZrsIW"
+      className="LoaderRing-sc-17wll29-0 hgfhDh"
       color="piccolo.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 koTyGV"
+      className="LoaderRing-sc-17wll29-0 eHdIJW"
       color="piccolo.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 bBPtEa"
+      className="LoaderRing-sc-17wll29-0 kLEoTh"
       color="piccolo.100"
     />
   </strong>
@@ -47,68 +47,68 @@ exports[`Loader renders 1`] = `
 
 exports[`Loader renders with different colours 1`] = `
 <div
-  className="Inline-sc-1rz1cju-0 hXveSP"
+  className="Inline-sc-1rz1cju-0 kwswbg"
 >
   <strong
-    className="Container-sc-12rktgh-0 bxAnKl"
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
   >
     <span
-      className="LoaderRing-sc-17wll29-0 gwapTK"
+      className="LoaderRing-sc-17wll29-0 bvmeml"
       color="dodoria.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 geerzM"
+      className="LoaderRing-sc-17wll29-0 jZyUEX"
       color="dodoria.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 zeCrP"
+      className="LoaderRing-sc-17wll29-0 lcIcBc"
       color="dodoria.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 eVicBE"
+      className="LoaderRing-sc-17wll29-0 fRNkKj"
       color="dodoria.100"
     />
   </strong>
   <strong
-    className="Container-sc-12rktgh-0 bxAnKl"
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
   >
     <span
-      className="LoaderRing-sc-17wll29-0 kfqpUC"
+      className="LoaderRing-sc-17wll29-0 cRLBzJ"
       color="trunks.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 iQjSnY"
+      className="LoaderRing-sc-17wll29-0 dLReJz"
       color="trunks.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 eUToMP"
+      className="LoaderRing-sc-17wll29-0 tRyEQ"
       color="trunks.100"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 bgHeqM"
+      className="LoaderRing-sc-17wll29-0 fdZQgn"
       color="trunks.100"
     />
   </strong>
   <strong
-    className="Container-sc-12rktgh-0 bxAnKl"
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
   >
     <span
-      className="LoaderRing-sc-17wll29-0 fjrKyV"
+      className="LoaderRing-sc-17wll29-0 hQVtHO"
       color="#663399"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 jwmSuT"
+      className="LoaderRing-sc-17wll29-0 jhOXnQ"
       color="#663399"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 gFIfRE"
+      className="LoaderRing-sc-17wll29-0 fGjxUH"
       color="#663399"
     />
     <span
-      className="LoaderRing-sc-17wll29-0 fbkMTj"
+      className="LoaderRing-sc-17wll29-0 bzIriE"
       color="#663399"
     />
   </strong>

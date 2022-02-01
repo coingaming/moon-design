@@ -5,17 +5,17 @@ exports[`Chip renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     Lion
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     Tiger
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     Jaguar
   </button>
@@ -27,19 +27,19 @@ exports[`Chip renders different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 eyFIWl"
+    className="Chip__StyledChip-sc-1rq31s5-0 ktkNPK"
     size="small"
   >
     Small
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
     size="medium"
   >
     Medium
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     Default
   </button>
@@ -51,12 +51,12 @@ exports[`Chip renders isActive 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 dtqQJj"
+    className="Chip__StyledChip-sc-1rq31s5-0 jjyEGg"
   >
     Active
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     Inactive
   </button>
@@ -68,13 +68,13 @@ exports[`Chip renders with Icons 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconLeftWrapper-sc-1rq31s5-1 cEuEpT"
+      className="Chip__IconLeftWrapper-sc-1rq31s5-1 jvQqYs"
     >
       <svg
-        className="sc-PGRUV"
+        className="sc-PWMHG"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -91,14 +91,14 @@ exports[`Chip renders with Icons 1`] = `
     Left Icon
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     Right Icon
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 kuKMrM"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 izKLAb"
     >
       <svg
-        className="sc-fpqHGV"
+        className="sc-fpGCtG"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -114,13 +114,13 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconLeftWrapper-sc-1rq31s5-1 cEuEpT"
+      className="Chip__IconLeftWrapper-sc-1rq31s5-1 jvQqYs"
     >
       <svg
-        className="sc-PGRUV"
+        className="sc-PWMHG"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -136,10 +136,10 @@ exports[`Chip renders with Icons 1`] = `
     </span>
     Left/Right Icons
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 kuKMrM"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 izKLAb"
     >
       <svg
-        className="sc-fpqHGV"
+        className="sc-fpGCtG"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -155,13 +155,13 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconLeftWrapper-sc-1rq31s5-1 gcydLf"
+      className="Chip__IconLeftWrapper-sc-1rq31s5-1 dgcqxo"
     >
       <svg
-        className="sc-PGRUV"
+        className="sc-PWMHG"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -176,10 +176,10 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </span>
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 hRaZYP"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 qVBAQ"
     >
       <svg
-        className="sc-fpqHGV"
+        className="sc-fpGCtG"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -195,13 +195,13 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-sc-1rq31s5-0 cEDZRo"
+    className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 gtISqy"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 ebISHN"
     >
       <svg
-        className="sc-fpqHGV"
+        className="sc-fpGCtG"
         fill="none"
         fontSize="1.5rem"
         height="1em"

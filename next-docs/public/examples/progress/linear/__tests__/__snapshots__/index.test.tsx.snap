@@ -5,14 +5,14 @@ exports[`Linear Progress renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 gZDZXb"
+    className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 NZbns"
   >
     <div
-      className="ProgressLinear__Progress-sc-1wwz7u1-2 fxYQMJ"
+      className="ProgressLinear__Progress-sc-1wwz7u1-2 iMiqLu"
       value={30}
     />
     <div
-      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 gylLdg"
+      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 euCpHn"
     >
       <span>
         Progress
@@ -20,15 +20,15 @@ exports[`Linear Progress renders 1`] = `
     </div>
   </div>
   <div
-    className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 gZDZXb"
+    className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 NZbns"
   >
     <div
-      className="ProgressLinear__Progress-sc-1wwz7u1-2 jVAxHy"
+      className="ProgressLinear__Progress-sc-1wwz7u1-2 eqbYoN"
       height={5}
       value={30}
     />
     <div
-      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 jhImsT"
+      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 gidFJk"
     >
       <span>
         Progress
