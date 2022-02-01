@@ -906,7 +906,7 @@ exports[`Calendar renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -1039,7 +1039,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -1391,7 +1391,7 @@ exports[`Calendar show calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -1524,7 +1524,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -1840,7 +1840,7 @@ exports[`Calendar show month select 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -2049,7 +2049,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -2365,7 +2365,7 @@ exports[`Calendar show years select 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -4084,7 +4084,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
