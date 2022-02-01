@@ -21,7 +21,7 @@ exports[`Calendar hide calendar 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -29,7 +29,7 @@ exports[`Calendar hide calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        21/01/2022
+        21/02/2022
       </div>
     </button>
     <div
@@ -39,7 +39,7 @@ exports[`Calendar hide calendar 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -66,7 +66,7 @@ exports[`Calendar hide calendar 1`] = `
               }
             }
           >
-            Jan
+            Feb
           </div>
             
           <div
@@ -76,7 +76,7 @@ exports[`Calendar hide calendar 1`] = `
             2022
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -134,22 +134,10 @@ exports[`Calendar hide calendar 1`] = `
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -426,36 +414,6 @@ exports[`Calendar hide calendar 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
-              onClick={[Function]}
-            >
-              31
-            </div>
-          </div>
-          <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
@@ -475,7 +433,7 @@ exports[`Calendar hide calendar 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -501,10 +459,10 @@ exports[`Calendar hide calendar 2`] = `
 - First value
 + Second value
 
-@@ -27,467 +27,7 @@
+@@ -27,425 +27,7 @@
           className=\\"Button__InnerContainer-sc-1xtdszg-0 gwKSbc\\"
         >
-          21/01/2022
+          21/02/2022
         </div>
       </button>
 -     <div
@@ -514,7 +472,7 @@ exports[`Calendar hide calendar 2`] = `
 -         className=\\"MonthContainer-sc-1459a16-0 kGwrHt\\"
 -       >
 -         <svg
--           className=\\"sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk\\"
+-           className=\\"sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk\\"
 -           fill=\\"none\\"
 -           height=\\"1em\\"
 -           onClick={[Function prevMonth]}
@@ -541,7 +499,7 @@ exports[`Calendar hide calendar 2`] = `
 -               }
 -             }
 -           >
--             Jan
+-             Feb
 -           </div>
 -             
 -           <div
@@ -551,7 +509,7 @@ exports[`Calendar hide calendar 2`] = `
 -             2022
 -              
 -             <svg
--               className=\\"sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW\\"
+-               className=\\"sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW\\"
 -               fill=\\"none\\"
 -               height=\\"1em\\"
 -               viewBox=\\"0 0 32 32\\"
@@ -609,22 +567,10 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
 -           />
 -           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
+-               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
 -               onClick={[Function onClick]}
 -             >
 -               1
@@ -901,36 +847,6 @@ exports[`Calendar hide calendar 2`] = `
 -             </div>
 -           </div>
 -           <div
--             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
--           >
--             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
--               onClick={[Function onClick]}
--             >
--               29
--             </div>
--           </div>
--           <div
--             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
--           >
--             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
--               onClick={[Function onClick]}
--             >
--               30
--             </div>
--           </div>
--           <div
--             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
--           >
--             <div
--               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
--               onClick={[Function onClick]}
--             >
--               31
--             </div>
--           </div>
--           <div
 -             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
 -           />
 -           <div
@@ -950,7 +866,7 @@ exports[`Calendar hide calendar 2`] = `
 -           />
 -         </div>
 -         <svg
--           className=\\"sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb\\"
+-           className=\\"sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb\\"
 -           fill=\\"none\\"
 -           height=\\"1em\\"
 -           onClick={[Function nextMonth]}
@@ -992,7 +908,7 @@ exports[`Calendar renders 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -1010,7 +926,7 @@ exports[`Calendar renders 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -1037,7 +953,7 @@ exports[`Calendar renders 1`] = `
               }
             }
           >
-            Jan
+            Feb
           </div>
             
           <div
@@ -1047,7 +963,7 @@ exports[`Calendar renders 1`] = `
             2022
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1105,22 +1021,10 @@ exports[`Calendar renders 1`] = `
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -1397,36 +1301,6 @@ exports[`Calendar renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
-              onClick={[Function]}
-            >
-              31
-            </div>
-          </div>
-          <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
@@ -1446,7 +1320,7 @@ exports[`Calendar renders 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -1488,7 +1362,7 @@ exports[`Calendar select day 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -1496,7 +1370,7 @@ exports[`Calendar select day 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        21/01/2022
+        21/02/2022
       </div>
     </button>
   </div>
@@ -1524,7 +1398,7 @@ exports[`Calendar show calendar 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -1542,7 +1416,7 @@ exports[`Calendar show calendar 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -1569,7 +1443,7 @@ exports[`Calendar show calendar 1`] = `
               }
             }
           >
-            Jan
+            Feb
           </div>
             
           <div
@@ -1579,7 +1453,7 @@ exports[`Calendar show calendar 1`] = `
             2022
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1637,22 +1511,10 @@ exports[`Calendar show calendar 1`] = `
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -1929,36 +1791,6 @@ exports[`Calendar show calendar 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
-              onClick={[Function]}
-            >
-              31
-            </div>
-          </div>
-          <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
@@ -1978,7 +1810,7 @@ exports[`Calendar show calendar 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -2020,7 +1852,7 @@ exports[`Calendar show month select 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -2038,7 +1870,7 @@ exports[`Calendar show month select 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -2065,7 +1897,7 @@ exports[`Calendar show month select 1`] = `
               }
             }
           >
-            Jan
+            Feb
             <div
               className="SelectorContainer-sc-1ihm6bi-0 cEsrMI"
             >
@@ -2151,7 +1983,7 @@ exports[`Calendar show month select 1`] = `
             2022
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2209,22 +2041,10 @@ exports[`Calendar show month select 1`] = `
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -2501,36 +2321,6 @@ exports[`Calendar show month select 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
-              onClick={[Function]}
-            >
-              31
-            </div>
-          </div>
-          <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
@@ -2550,7 +2340,7 @@ exports[`Calendar show month select 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -2592,7 +2382,7 @@ exports[`Calendar show years select 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -2610,7 +2400,7 @@ exports[`Calendar show years select 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -2637,7 +2427,7 @@ exports[`Calendar show years select 1`] = `
               }
             }
           >
-            Jan
+            Feb
             <div
               className="SelectorContainer-sc-1ihm6bi-0 cEsrMI"
             >
@@ -2723,7 +2513,7 @@ exports[`Calendar show years select 1`] = `
             2022
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -4291,22 +4081,10 @@ exports[`Calendar show years select 1`] = `
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -4583,36 +4361,6 @@ exports[`Calendar show years select 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
-          <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
-              onClick={[Function]}
-            >
-              31
-            </div>
-          </div>
-          <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
           <div
@@ -4632,7 +4380,7 @@ exports[`Calendar show years select 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -4674,7 +4422,7 @@ exports[`Calendar: disabled day renders 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -4692,7 +4440,7 @@ exports[`Calendar: disabled day renders 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -4729,7 +4477,7 @@ exports[`Calendar: disabled day renders 1`] = `
             2020
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -5100,7 +4848,7 @@ exports[`Calendar: disabled day renders 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -5142,7 +4890,7 @@ exports[`Calendar: disabled days renders 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -5160,7 +4908,7 @@ exports[`Calendar: disabled days renders 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -5197,7 +4945,7 @@ exports[`Calendar: disabled days renders 1`] = `
             2020
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -5568,7 +5316,7 @@ exports[`Calendar: disabled days renders 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -5610,7 +5358,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -5628,7 +5376,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -5665,7 +5413,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
             2020
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -6036,7 +5784,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -6078,7 +5826,7 @@ exports[`Calendar: disabled range renders 1`] = `
     }
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -6096,7 +5844,7 @@ exports[`Calendar: disabled range renders 1`] = `
         className="MonthContainer-sc-1459a16-0 kGwrHt"
       >
         <svg
-          className="sc-cAmlYy LeftArrow-sc-1gtea4b-0  ePrjLk"
+          className="sc-cTkwdZ LeftArrow-sc-1gtea4b-0  ePrjLk"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -6133,7 +5881,7 @@ exports[`Calendar: disabled range renders 1`] = `
             2020
              
             <svg
-              className="sc-hScDUP YearSelect__DownArrow-yo6fwg-0  emwdFW"
+              className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -6504,7 +6252,7 @@ exports[`Calendar: disabled range renders 1`] = `
           />
         </div>
         <svg
-          className="sc-cKFVac RightArrow-sc-49vgmx-0  loyQRb"
+          className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
           fill="none"
           height="1em"
           onClick={[Function]}
@@ -6535,10 +6283,10 @@ exports[`DatePicker renders 1`] = `
   }
 >
   <div
-    className="DateRangePicker__Wrapper-sc-17xm3ab-0 dIcZIh"
+    className="DateRangePicker__Wrapper-frfafr-0 hgKiMU"
   >
     <button
-      className="sc-kkeJPq kbfEcF"
+      className="sc-jEUrFJ ceIMkL"
       onClick={[Function]}
       size="small"
       variant="tertiary"
@@ -6550,124 +6298,126 @@ exports[`DatePicker renders 1`] = `
       </div>
     </button>
     <div
-      className="Picker__PickerContainer-sc-1yiyb5l-0 kODoOm"
+      className="Picker__PickerContainer-sc-13f2s6r-0 dRjAwD"
     >
       <ul
-        className="Sidebar__SidebarList-omhqqr-0 jUPSmi"
+        className="Sidebar__SidebarList-c0dbbc-0 chKuLl"
       >
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           Last month
         </li>
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           Last week
         </li>
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           Yesterday
         </li>
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           This week
         </li>
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           This month
         </li>
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           Last 24 hours
         </li>
         <li
-          className="Sidebar__RangeItem-omhqqr-1 iuGlvm"
+          className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
           onClick={[Function]}
         >
           Today
         </li>
       </ul>
       <div
-        className="Picker__FirstMonth-sc-1yiyb5l-1 jHufzh"
+        className="Picker__FirstMonth-sc-13f2s6r-1 kAOuDf"
       >
         <svg
-          className="IconChevronLeft-sc-15dd3f2-0 Picker__LeftArrow-sc-1yiyb5l-3 hhLOFC fjKovo"
+          className="sc-cTkwdZ Picker__LeftArrow-sc-13f2s6r-3  drxNGa"
+          fill="none"
           height="1em"
           onClick={[Function]}
-          viewBox="0 0 12 20"
+          viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M12 17.377L4.986 10 12 2.624 9.5 0 0 10l9.502 10z"
-            fill="currentColor"
-            fillRule="evenodd"
+            d="M20.5 25l-9-9 9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
         <div
-          className="Month__MonthYearLabel-sc-1tptf0l-1 egHUoL"
+          className="Month__MonthYearLabel-sc-1n88ufv-1 kNWZAK"
         >
           September
             
           2020
         </div>
         <div
-          className="Month__Days-sc-1tptf0l-2 hqeUPk"
+          className="Month__Days-sc-1n88ufv-2 rrhFJ"
         >
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             M
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             T
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             W
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             T
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             F
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             S
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6675,10 +6425,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6686,10 +6436,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6697,10 +6447,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6708,10 +6458,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6719,10 +6469,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6730,10 +6480,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6741,10 +6491,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6752,10 +6502,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6763,10 +6513,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6774,10 +6524,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6785,10 +6535,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6796,10 +6546,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6807,10 +6557,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6818,10 +6568,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6829,10 +6579,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6840,10 +6590,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1 inwyRX"
+            className="Day__DayWrapper-uy9h7g-1 krvzjd"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 JytKn"
+              className="Day__DayStyled-uy9h7g-0 gWCNft"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6851,10 +6601,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6862,10 +6612,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6873,10 +6623,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6884,10 +6634,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6895,10 +6645,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6906,10 +6656,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6917,10 +6667,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6928,10 +6678,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6939,10 +6689,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 hAODcX"
+              className="Day__DayStyled-uy9h7g-0 kIPbyZ"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6950,10 +6700,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1 iXCeBr"
+            className="Day__DayWrapper-uy9h7g-1 jEzsQF"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 ktjzRw"
+              className="Day__DayStyled-uy9h7g-0 iSIvUa"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6961,10 +6711,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6972,10 +6722,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6983,10 +6733,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -6994,95 +6744,97 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
         </div>
       </div>
       <div
-        className="Picker__SecondMonth-sc-1yiyb5l-2 ewxpmO"
+        className="Picker__SecondMonth-sc-13f2s6r-2 icMIDg"
       >
         <svg
-          className="IconChevronRight-sc-18kvufo-0 Picker__RightArrow-sc-1yiyb5l-4 kBnXZm kia-DHX"
+          className="sc-dOSReg Picker__RightArrow-sc-13f2s6r-4  ivxEhR"
+          fill="none"
           height="1em"
           onClick={[Function]}
-          viewBox="0 0 12 20"
+          viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 2.623L7.014 10 0 17.376 2.5 20 12 10 2.498 0z"
-            fill="currentColor"
-            fillRule="evenodd"
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
         <div
-          className="Month__MonthYearLabel-sc-1tptf0l-1 egHUoL"
+          className="Month__MonthYearLabel-sc-1n88ufv-1 kNWZAK"
         >
           October
             
           2020
         </div>
         <div
-          className="Month__Days-sc-1tptf0l-2 hqeUPk"
+          className="Month__Days-sc-1n88ufv-2 rrhFJ"
         >
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             M
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             T
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             W
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             T
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             F
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             S
           </div>
           <div
-            className="Month__DayName-sc-1tptf0l-0 dlOPbk"
+            className="Month__DayName-sc-1n88ufv-0 bSsvYx"
           >
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7090,10 +6842,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7101,10 +6853,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7112,10 +6864,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7123,10 +6875,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7134,10 +6886,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7145,10 +6897,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7156,10 +6908,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7167,10 +6919,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7178,10 +6930,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7189,10 +6941,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7200,10 +6952,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7211,10 +6963,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7222,10 +6974,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7233,10 +6985,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7244,10 +6996,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7255,10 +7007,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7266,10 +7018,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7277,10 +7029,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7288,10 +7040,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7299,10 +7051,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7310,10 +7062,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7321,10 +7073,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7332,10 +7084,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7343,10 +7095,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7354,10 +7106,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7365,10 +7117,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7376,10 +7128,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7387,10 +7139,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7398,10 +7150,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7409,10 +7161,10 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-173weuh-1"
+            className="Day__DayWrapper-uy9h7g-1"
           >
             <div
-              className="Day__DayStyled-sc-173weuh-0 kdtodk"
+              className="Day__DayStyled-uy9h7g-0 jQWBmS"
               onClick={[Function]}
               onMouseEnter={[Function]}
             >
@@ -7420,29 +7172,29 @@ exports[`DatePicker renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__EmptyCell-sc-173weuh-2 djZJbl"
+            className="Day__EmptyCell-uy9h7g-2 jNiMxz"
           />
         </div>
       </div>
       <div
-        className="InputsPanel__InputsPanelStyled-sc-16fumdc-0 bBwaIa"
+        className="InputsPanel__InputsPanelStyled-u33yyg-0 jPJGXU"
       >
         <input
-          className="Input-bxe8t3-0 TextInput__TextInputElem-xu44xk-0 idpQYG kBEFxU InputsPanel__StyledTextInput-sc-16fumdc-1 kUVdQV"
+          className="Input-bxe8t3-0 TextInput__TextInputElem-xu44xk-0 idpQYG kBEFxU InputsPanel__StyledTextInput-u33yyg-1 kitNwf"
           onChange={[Function]}
           placeholder=" "
           type="datetime-local"
           value="2020-09-17T03:24"
         />
         <input
-          className="Input-bxe8t3-0 TextInput__TextInputElem-xu44xk-0 idpQYG kBEFxU InputsPanel__StyledTextInput-sc-16fumdc-1 kUVdQV"
+          className="Input-bxe8t3-0 TextInput__TextInputElem-xu44xk-0 idpQYG kBEFxU InputsPanel__StyledTextInput-u33yyg-1 kitNwf"
           onChange={[Function]}
           placeholder=" "
           type="datetime-local"
           value="2020-09-27T03:24"
         />
         <button
-          className="sc-kkeJPq fSsWMv"
+          className="sc-jEUrFJ fFfjHJ"
           disabled={false}
           onClick={[Function]}
           size="small"
