@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Text } from '@heathmont/moon-components';
-import { rem } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Title = styled(Text)({
   marginTop: rem(16),

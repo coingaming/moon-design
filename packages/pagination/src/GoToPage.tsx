@@ -25,7 +25,7 @@ const CircleButton = styled.button(
   background-color: ${theme.colorNew.goku};
   color: ${theme.colorNew.trunks};
   transition-property: color, background-color;
-  transition-duration: ${theme.transitionDuration.default}s;
+  transition-duration: ${theme.newTokens.transitionDuration};
   &:hover, &:focus {
     background-color: ${theme.colorNew.piccolo};
     color: ${theme.colorNew.goten};
@@ -38,7 +38,7 @@ const Form = styled.form(({ theme }) => ({
   alignItems: 'center',
   fontSize: rem(12),
   height: rem(32),
-  fontWeight: theme.fontWeight.semibold,
+  fontWeight: theme.newTokens.font.weight.semibold,
   '& > input': {
     padding: rem(4),
     borderRadius: rem(4),
