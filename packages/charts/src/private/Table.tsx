@@ -11,7 +11,7 @@ export const Cell = styled.div<{
   textAlign: align || 'left',
   position: 'relative',
   opacity,
-  transition: `opacity ${theme.transitionDuration.slow}s ease`,
+  transition: `opacity ${theme.newTokens.transition.slow}`,
 }));
 
 export const Table = styled.div<{ withAdditionalCell?: boolean }>(

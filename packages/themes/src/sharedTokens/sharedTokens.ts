@@ -360,6 +360,11 @@ export type BreakpointNew = {
 export type BorderNew = {
   default: string;
   interactive: string;
+  width: {
+    default: string;
+    interactive: string;
+  };
+  style: string;
 };
 
 export type SpaceNew = {
@@ -556,6 +561,11 @@ const sharedTokens: SharedTheme = {
     border: {
       default: `${rem(borderWidthDefault)} ${borderStyle}`,
       interactive: `${rem(borderWidthInteractive)} ${borderStyle}`,
+      width: {
+        default: rem(borderWidthDefault),
+        interactive: rem(borderWidthInteractive),
+      },
+      style: borderStyle,
     },
     space: {
       threexsmall: rem(4),

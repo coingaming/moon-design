@@ -13,7 +13,7 @@ exports[`Line Chart renders 1`] = `
     className="Panel__Header-wbwz0d-2 jWuxJy"
   >
     <button
-      className="Panel__Button-wbwz0d-0 duCTCg"
+      className="Panel__Button-wbwz0d-0 hhoDOq"
       onClick={[Function]}
     >
       <svg
@@ -34,7 +34,7 @@ exports[`Line Chart renders 1`] = `
     </button>
     <div />
     <button
-      className="Panel__Button-wbwz0d-0 cYTKda"
+      className="Panel__Button-wbwz0d-0 jfgGzg"
       onClick={[Function]}
     >
       <svg
@@ -60,7 +60,7 @@ exports[`Line Chart renders 1`] = `
       </svg>
     </button>
     <button
-      className="Panel__Button-wbwz0d-0 cYTKda"
+      className="Panel__Button-wbwz0d-0 jfgGzg"
       onClick={[Function]}
     >
       <svg
@@ -199,7 +199,7 @@ exports[`Line Chart renders 1`] = `
       className="Selector__List-t1pfda-1 fxCvHC"
     >
       <button
-        className="Selector__Button-t1pfda-2 XOFZu"
+        className="Selector__Button-t1pfda-2 hfOoIt"
         onClick={[Function]}
       >
         <div
@@ -218,7 +218,7 @@ exports[`Line Chart renders 1`] = `
         </div>
       </button>
       <button
-        className="Selector__Button-t1pfda-2 XOFZu"
+        className="Selector__Button-t1pfda-2 hfOoIt"
         onClick={[Function]}
       >
         <div
@@ -237,7 +237,7 @@ exports[`Line Chart renders 1`] = `
         </div>
       </button>
       <button
-        className="Selector__Button-t1pfda-2 emAwTw"
+        className="Selector__Button-t1pfda-2 jJxDTn"
         onClick={[Function]}
       >
         <div
@@ -256,7 +256,7 @@ exports[`Line Chart renders 1`] = `
         </div>
       </button>
       <button
-        className="Selector__Button-t1pfda-2 XOFZu"
+        className="Selector__Button-t1pfda-2 hfOoIt"
         onClick={[Function]}
       >
         <div
@@ -275,7 +275,7 @@ exports[`Line Chart renders 1`] = `
         </div>
       </button>
       <button
-        className="Selector__Button-t1pfda-2 emAwTw"
+        className="Selector__Button-t1pfda-2 jJxDTn"
         onClick={[Function]}
       >
         <div
@@ -296,7 +296,7 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 kKoRxD"
+    className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 hqwJLA"
     style={
       Object {
         "height": "100%",
@@ -333,7 +333,7 @@ exports[`Line Chart renders Loading 1`] = `
         className="Panel__Header-wbwz0d-2 jWuxJy"
       >
         <button
-          className="Panel__Button-wbwz0d-0 duCTCg"
+          className="Panel__Button-wbwz0d-0 hhoDOq"
           onClick={[Function]}
         >
           <svg
@@ -354,7 +354,7 @@ exports[`Line Chart renders Loading 1`] = `
         </button>
         <div />
         <button
-          className="Panel__Button-wbwz0d-0 cYTKda"
+          className="Panel__Button-wbwz0d-0 jfgGzg"
           onClick={[Function]}
         >
           <svg
@@ -380,7 +380,7 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </button>
         <button
-          className="Panel__Button-wbwz0d-0 cYTKda"
+          className="Panel__Button-wbwz0d-0 jfgGzg"
           onClick={[Function]}
         >
           <svg
@@ -559,7 +559,7 @@ exports[`Line Chart renders Loading 1`] = `
         className="Panel__Header-wbwz0d-2 jWuxJy"
       >
         <button
-          className="Panel__Button-wbwz0d-0 duCTCg"
+          className="Panel__Button-wbwz0d-0 hhoDOq"
           onClick={[Function]}
         >
           <svg
@@ -580,7 +580,7 @@ exports[`Line Chart renders Loading 1`] = `
         </button>
         <div />
         <button
-          className="Panel__Button-wbwz0d-0 cYTKda"
+          className="Panel__Button-wbwz0d-0 jfgGzg"
           onClick={[Function]}
         >
           <svg
@@ -606,7 +606,7 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </button>
         <button
-          className="Panel__Button-wbwz0d-0 cYTKda"
+          className="Panel__Button-wbwz0d-0 jfgGzg"
           onClick={[Function]}
         >
           <svg
@@ -745,7 +745,7 @@ exports[`Line Chart renders Loading 1`] = `
           className="Selector__List-t1pfda-1 fxCvHC"
         >
           <button
-            className="Selector__Button-t1pfda-2 XOFZu"
+            className="Selector__Button-t1pfda-2 hfOoIt"
             onClick={[Function]}
           >
             <div
@@ -764,7 +764,7 @@ exports[`Line Chart renders Loading 1`] = `
             </div>
           </button>
           <button
-            className="Selector__Button-t1pfda-2 XOFZu"
+            className="Selector__Button-t1pfda-2 hfOoIt"
             onClick={[Function]}
           >
             <div
@@ -783,7 +783,7 @@ exports[`Line Chart renders Loading 1`] = `
             </div>
           </button>
           <button
-            className="Selector__Button-t1pfda-2 emAwTw"
+            className="Selector__Button-t1pfda-2 jJxDTn"
             onClick={[Function]}
           >
             <div
@@ -802,7 +802,7 @@ exports[`Line Chart renders Loading 1`] = `
             </div>
           </button>
           <button
-            className="Selector__Button-t1pfda-2 XOFZu"
+            className="Selector__Button-t1pfda-2 hfOoIt"
             onClick={[Function]}
           >
             <div
@@ -821,7 +821,7 @@ exports[`Line Chart renders Loading 1`] = `
             </div>
           </button>
           <button
-            className="Selector__Button-t1pfda-2 emAwTw"
+            className="Selector__Button-t1pfda-2 jJxDTn"
             onClick={[Function]}
           >
             <div
@@ -842,7 +842,7 @@ exports[`Line Chart renders Loading 1`] = `
         </div>
       </div>
       <div
-        className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 kKoRxD"
+        className="recharts-responsive-container LineChart__ResponsiveContainerCustomized-sc-1b3n5xl-0 hqwJLA"
         style={
           Object {
             "height": "100%",
