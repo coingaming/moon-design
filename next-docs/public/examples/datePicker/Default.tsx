@@ -1,7 +1,6 @@
-// @ts-nocheck
 import React from 'react';
 
-import { DateRangePicker } from '@heathmont/moon-components';
+import { DateRangePicker } from '@heathmont/moon-datepicker';
 import { rem } from '@heathmont/moon-utils';
 
 const Example = () => {
@@ -19,8 +18,8 @@ const Example = () => {
         startDate={initialStartDate}
         endDate={initialEndDate}
         onDateChange={({ startDate, endDate }) => {
-          setStartDate(startDate);
-          setEndDate(endDate);
+          setStartDate(startDate as Date);
+          setEndDate(endDate as Date);
         }}
         config={{
           weekStartsOn: 1,
