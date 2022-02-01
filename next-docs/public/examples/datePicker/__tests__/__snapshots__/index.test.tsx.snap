@@ -60,11 +60,6 @@ exports[`Calendar hide calendar 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             Sep
           </div>
@@ -473,7 +468,7 @@ exports[`Calendar hide calendar 2`] = `
 - First value
 + Second value
 
-@@ -27,439 +27,7 @@
+@@ -27,434 +27,7 @@
           className=\\"Button__InnerContainer-sc-1xtdszg-0 gwKSbc\\"
         >
           21/09/2020
@@ -507,11 +502,6 @@ exports[`Calendar hide calendar 2`] = `
 -           <div
 -             className=\\"Container-sc-12436zc-0 dhiDxg\\"
 -             onClick={[Function onClick]}
--             style={
--               Object {
--                 \\"textAlign\\": \\"start\\",
--               }
--             }
 -           >
 -             Sep
 -           </div>
@@ -975,11 +965,6 @@ exports[`Calendar renders 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             Sep
           </div>
@@ -1479,11 +1464,6 @@ exports[`Calendar show calendar 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             Sep
           </div>
@@ -1947,11 +1927,6 @@ exports[`Calendar show month select 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             Sep
             <div
@@ -2491,11 +2466,6 @@ exports[`Calendar show years select 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             Sep
             <div
@@ -4545,11 +4515,6 @@ exports[`Calendar: disabled day renders 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             September
           </div>
@@ -5013,11 +4978,6 @@ exports[`Calendar: disabled days renders 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             September
           </div>
@@ -5481,11 +5441,6 @@ exports[`Calendar: disabled inner range renders 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             September
           </div>
@@ -5949,11 +5904,6 @@ exports[`Calendar: disabled range renders 1`] = `
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
-            style={
-              Object {
-                "textAlign": "start",
-              }
-            }
           >
             September
           </div>
