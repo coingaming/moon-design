@@ -43,7 +43,7 @@ const Line = styled.div(({ theme }) => ({
   width: 0,
   borderRadius: `0 ${rem(4)} ${rem(4)} 0`,
   willChange: 'width',
-  transition: `width ${theme.transitionDuration.slow}s ease`,
+  transition: `width ${theme.newTokens.transition.slow}`,
 }));
 
 const Center = styled.div(({ theme }) => ({

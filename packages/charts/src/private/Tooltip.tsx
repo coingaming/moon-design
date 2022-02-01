@@ -12,13 +12,13 @@ export const TooltipWrapper = styled.div(({ theme }) => ({
   padding: rem(12),
   borderRadius: rem(4),
   position: 'relative',
-  boxShadow: theme.boxShadow,
+  boxShadow: theme.newTokens.boxShadow.large,
   pointerEvents: 'none',
 }));
 
 export const Item = styled.div(({ theme }) => ({
   position: 'relative',
-  padding: `${rem(2)} 0 ${rem(2)} ${rem(theme.space.default)}`,
+  padding: `${rem(2)} 0 ${rem(2)} ${theme.newTokens.space.small}`,
   color: theme.colorNew.trunks,
 }));
 

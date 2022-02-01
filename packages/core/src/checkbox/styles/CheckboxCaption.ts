@@ -39,8 +39,8 @@ const CheckboxCaption = styled.span(({ theme, dir }) => ({
   color: inputColors('label')(theme),
   '&::before, &::after': {
     content: '""',
-    width: theme.newTokens.size.twoxsmall,
-    height: theme.newTokens.size.twoxsmall,
+    width: rem(16),
+    height: rem(16),
     position: 'absolute',
     ...(dir === 'rtl' ? { right: 0 } : { left: 0 }),
     top: '50%',

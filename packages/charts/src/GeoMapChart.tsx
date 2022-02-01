@@ -1,15 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-import { Panel } from './private/Panel';
-import { Header } from './private/Header';
 import ChartIcons from './ChartIcons';
-import { VerticalBar } from './private/VerticalBar';
-import { Map } from './private/Map';
+import { Header } from './private/Header';
 import { Loader } from './private/Loader';
+import { Map } from './private/Map';
+import { Panel } from './private/Panel';
 import { getAxisPosition, getBarChartData } from './private/utils';
+import { VerticalBar } from './private/VerticalBar';
 
 const Container = styled.div({
   display: 'flex',

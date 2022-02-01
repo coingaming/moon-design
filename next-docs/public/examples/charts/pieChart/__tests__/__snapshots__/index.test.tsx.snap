@@ -16,7 +16,7 @@ exports[`Pie Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -37,7 +37,7 @@ exports[`Pie Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -63,7 +63,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -358,7 +358,7 @@ exports[`Pie Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -379,7 +379,7 @@ exports[`Pie Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -405,7 +405,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -707,7 +707,7 @@ exports[`Pie Chart renders Loading 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -728,7 +728,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -754,7 +754,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -1067,7 +1067,7 @@ exports[`Pie Chart renders Loading 1`] = `
       className="Panel__Header-wbwz0d-2 jWuxJy"
     >
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -1088,7 +1088,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg
@@ -1114,7 +1114,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 cYTKda"
+        className="Panel__Button-wbwz0d-0 jfgGzg"
         onClick={[Function]}
       >
         <svg

@@ -36,7 +36,7 @@ const DropdownWrapper = styled.div(({ theme }) => ({
   transform: 'translateX(-50%)',
   paddingTop: rem(8),
   color: theme.colorNew.bulma,
-  zIndex: theme.zIndex.toggle,
+  zIndex: theme.newTokens.zIndex.toggle,
 }));
 
 type ChildrenProps = {
