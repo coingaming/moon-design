@@ -124,3 +124,91 @@ exports[`Radiobutton renders Disabled 1`] = `
   </span>
 </label>
 `;
+
+exports[`Radiobutton renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col"
+  >
+    <h4
+      className="mb-2"
+    >
+      Please select your age:
+    </h4>
+    <div
+      className="mb-2 ml-2"
+    >
+      <label
+        className="RadioButtonLabel-ozr645-0 ufglA"
+        htmlFor="age1"
+      >
+        <input
+          aria-label="0 - 30"
+          className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+          id="age1"
+          name="age"
+          type="radio"
+        />
+        <figure
+          className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+        />
+        <span
+          className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
+        >
+          0 - 30
+        </span>
+      </label>
+    </div>
+    <div
+      className="mb-2 ml-2"
+    >
+      <label
+        className="RadioButtonLabel-ozr645-0 ufglA"
+        htmlFor="age2"
+      >
+        <input
+          aria-label="31 - 60"
+          className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+          id="age2"
+          name="age"
+          type="radio"
+        />
+        <figure
+          className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+        />
+        <span
+          className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
+        >
+          31 - 60
+        </span>
+      </label>
+    </div>
+    <div
+      className="mb-2 ml-2"
+    >
+      <label
+        className="RadioButtonLabel-ozr645-0 ufglA"
+        htmlFor="age3"
+      >
+        <input
+          aria-label="61 - 100"
+          className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+          id="age3"
+          name="age"
+          type="radio"
+        />
+        <figure
+          className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+        />
+        <span
+          className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
+        >
+          61 - 100
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;

@@ -14,9 +14,20 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('Radiobutton', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
