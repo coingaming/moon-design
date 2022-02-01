@@ -29,7 +29,7 @@ exports[`Calendar hide calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        21/09/2020
+        21/02/2022
       </div>
     </button>
     <div
@@ -61,14 +61,14 @@ exports[`Calendar hide calendar 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            Sep
+            Feb
           </div>
             
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2020
+            2022
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -132,7 +132,7 @@ exports[`Calendar hide calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -409,25 +409,11 @@ exports[`Calendar hide calendar 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
@@ -468,10 +454,10 @@ exports[`Calendar hide calendar 2`] = `
 - First value
 + Second value
 
-@@ -27,434 +27,7 @@
+@@ -27,420 +27,7 @@
           className=\\"Button__InnerContainer-sc-1xtdszg-0 gwKSbc\\"
         >
-          21/09/2020
+          21/02/2022
         </div>
       </button>
 -     <div
@@ -503,14 +489,14 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Container-sc-12436zc-0 dhiDxg\\"
 -             onClick={[Function onClick]}
 -           >
--             Sep
+-             Feb
 -           </div>
 -             
 -           <div
 -             className=\\"Container-sc-12436zc-0 dhiDxg\\"
 -             onClick={[Function onClick]}
 -           >
--             2020
+-             2022
 -              
 -             <svg
 -               className=\\"sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW\\"
@@ -574,7 +560,7 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
+-               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
 -               onClick={[Function onClick]}
 -             >
 -               1
@@ -851,25 +837,11 @@ exports[`Calendar hide calendar 2`] = `
 -             </div>
 -           </div>
 -           <div
--             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
--           >
--             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
--               onClick={[Function onClick]}
--             >
--               29
--             </div>
--           </div>
+-             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
+-           />
 -           <div
--             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
--           >
--             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
--               onClick={[Function onClick]}
--             >
--               30
--             </div>
--           </div>
+-             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
+-           />
 -           <div
 -             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
 -           />
@@ -966,14 +938,14 @@ exports[`Calendar renders 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            Sep
+            Feb
           </div>
             
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2020
+            2022
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -1037,7 +1009,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -1314,25 +1286,11 @@ exports[`Calendar renders 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
@@ -1397,7 +1355,7 @@ exports[`Calendar select day 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        21/09/2020
+        21/02/2022
       </div>
     </button>
   </div>
@@ -1465,14 +1423,14 @@ exports[`Calendar show calendar 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            Sep
+            Feb
           </div>
             
           <div
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2020
+            2022
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -1536,7 +1494,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -1813,25 +1771,11 @@ exports[`Calendar show calendar 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
@@ -1928,7 +1872,7 @@ exports[`Calendar show month select 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            Sep
+            Feb
             <div
               className="SelectorContainer-sc-1ihm6bi-0 cEsrMI"
             >
@@ -2011,7 +1955,7 @@ exports[`Calendar show month select 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2020
+            2022
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -2075,7 +2019,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -2352,25 +2296,11 @@ exports[`Calendar show month select 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
@@ -2467,7 +2397,7 @@ exports[`Calendar show years select 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            Sep
+            Feb
             <div
               className="SelectorContainer-sc-1ihm6bi-0 cEsrMI"
             >
@@ -2550,7 +2480,7 @@ exports[`Calendar show years select 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2020
+            2022
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -4124,7 +4054,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               1
@@ -4401,25 +4331,11 @@ exports[`Calendar show years select 1`] = `
             </div>
           </div>
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              29
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
-            className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
-          >
-            <div
-              className="DayContainer-l4w9ci-0 coSdBl"
-              onClick={[Function]}
-            >
-              30
-            </div>
-          </div>
+            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
+          />
           <div
             className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
           />
