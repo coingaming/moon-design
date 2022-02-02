@@ -45,6 +45,25 @@ exports[`Dialog renders Dialog Header 1`] = `
 </button>
 `;
 
+exports[`Dialog renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <button
+    className="sc-kkeJPq fSsWMv"
+    onClick={[Function]}
+    size="small"
+    variant="primary"
+  >
+    <div
+      className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+    >
+      Open Dialog
+    </div>
+  </button>
+</div>
+`;
+
 exports[`Dialog renders with No Background 1`] = `
 <button
   className="sc-kkeJPq fSsWMv"
