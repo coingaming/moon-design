@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import {
   ArrowsBoost,
   ArrowsBottomLeft,
@@ -368,9 +367,7 @@ import {
   TypeZoomIn,
   TypeZoomOut,
 } from '@heathmont/moon-icons';
-
 import Preview from '../components/codePreview/Preview';
-
 import classNames from '../utils/classNames';
 
 const Block: React.FC = ({ children }) => (

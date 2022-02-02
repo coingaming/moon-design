@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import DateTimeWithLabel from '../../../public/examples/textInput/datetime/DateTimeWithLabel';
-import DateTimeWithoutLabel from '../../../public/examples/textInput/datetime/DateTimeWithoutLabel';
-import DateTimeWithHint from '../../../public/examples/textInput/datetime/DateTimeWithHint';
+import DateTimeBgColor from '../../../public/examples/textInput/datetime/DateTimeBgColor';
 import DateTimeDisabled from '../../../public/examples/textInput/datetime/DateTimeDisabled';
 import DateTimeError from '../../../public/examples/textInput/datetime/DateTimeError';
-import DateTimeBgColor from '../../../public/examples/textInput/datetime/DateTimeBgColor';
 import DateTimeReadonly from '../../../public/examples/textInput/datetime/DateTimeReadonly';
-
+import DateTimeWithHint from '../../../public/examples/textInput/datetime/DateTimeWithHint';
+import DateTimeWithLabel from '../../../public/examples/textInput/datetime/DateTimeWithLabel';
+import DateTimeWithoutLabel from '../../../public/examples/textInput/datetime/DateTimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDateInput() {

@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Default from '../Default';
 import Space from '../Space';
 import CustomizedArrow from '../CustomizedArrow';

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { ProgressCircular } from '@heathmont/moon-components';
 
 const Example = () => (

@@ -1,11 +1,8 @@
 // @ts-nocheck
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
 import Default from '../../../public/examples/radiobutton/radiobutton-api/Default';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {

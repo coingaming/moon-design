@@ -1,16 +1,13 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/Table';
-
-import Default from '../../../public/examples/table/Default';
-import Sorting from '../../../public/examples/table/Sorting';
-import ExpandedRow from '../../../public/examples/table/ExpandedRow';
-import DeepTable from '../../../public/examples/table/DeepTable';
-import CustomContent from '../../../public/examples/table/CustomContent';
 import Calendar from '../../../public/examples/table/Calendar';
+import CustomContent from '../../../public/examples/table/CustomContent';
+import DeepTable from '../../../public/examples/table/DeepTable';
+import Default from '../../../public/examples/table/Default';
+import ExpandedRow from '../../../public/examples/table/ExpandedRow';
 import MiniMap from '../../../public/examples/table/MiniMap';
-
+import Sorting from '../../../public/examples/table/Sorting';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTable() {
@@ -59,8 +56,8 @@ export default function PageTable() {
         />
       </section>
 
-       {/* Sorting */}
-       <section className="mt-8">
+      {/* Sorting */}
+      <section className="mt-8">
         <Preview
           title="With Sorting"
           preview={

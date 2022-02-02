@@ -1,11 +1,10 @@
 import React from 'react';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
+import Colours from '../../public/examples/avatar/Colours';
 import Image from '../../public/examples/avatar/Image';
 import Letter from '../../public/examples/avatar/Letter';
 import Fallbacks from '../../public/examples/avatar/Letter';
-import Colours from '../../public/examples/avatar/Colours';
 import Statuses from '../../public/examples/avatar/Statuses';
 import StatusPositions from '../../public/examples/avatar/StatusPositions';
 import useExamples from '../../utils/useExamples';

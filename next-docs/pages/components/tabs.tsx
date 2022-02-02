@@ -1,14 +1,12 @@
 import React from 'react';
-
+import Preview from '../../components/codePreview/Preview';
+import Table from '../../components/Table';
 import Default from '../../public/examples/tabs/Default';
+import Fill from '../../public/examples/tabs/Fill';
+import FillContainer from '../../public/examples/tabs/FillContainer';
 import IsTop from '../../public/examples/tabs/IsTop';
 import Small from '../../public/examples/tabs/Small';
 import Variant from '../../public/examples/tabs/Variant';
-import Fill from '../../public/examples/tabs/Fill';
-import FillContainer from '../../public/examples/tabs/FillContainer';
-
-import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
 
 import useExamples from '../../utils/useExamples';
 

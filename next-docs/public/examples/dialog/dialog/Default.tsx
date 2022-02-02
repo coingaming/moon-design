@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Dialog, Button, Stack } from '@heathmont/moon-components';
 
 const Example = () => {

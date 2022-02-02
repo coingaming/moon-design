@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Size from '../Size';
 import ButtonSm from '../ButtonSm';
 import ButtonXs from '../ButtonXs';

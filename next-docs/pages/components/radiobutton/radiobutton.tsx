@@ -1,13 +1,10 @@
 // @ts-nocheck
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
 import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../../public/examples/radiobutton/radiobutton/Default';
 import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
