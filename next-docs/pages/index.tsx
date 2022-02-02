@@ -5,8 +5,6 @@ import ForDevelopers from '../components/facing/ForDevelopers';
 import Future from '../components/facing/Future';
 import MoonAndEarthAnimation from '../components/facing/MoonAndEarth';
 import News from '../components/facing/News';
-import Footer from '../components/Footer';
-import Logo from '../components/sidebar/Logo';
 
 const OpenSourceBadge = () => (
   <span className="block w-min whitespace-nowrap mb-8 text-active bg-active-80 uppercase tracking-widest py-2 px-4 rounded-lg font-bold">

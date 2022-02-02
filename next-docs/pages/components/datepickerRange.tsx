@@ -1,7 +1,6 @@
 // @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import DateRangePicker from '../../public/examples/datePicker/DateRangePicker';
 import Default from '../../public/examples/datePicker/Default';
 import useExamples from '../../utils/useExamples';
 

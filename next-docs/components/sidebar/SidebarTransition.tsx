@@ -1,4 +1,4 @@
-import { Fragment, useRef } from 'react';
+import { useRef } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
 interface SidebarTransitionProps {

@@ -5,7 +5,6 @@ import {
   FilterDropdown,
   SingleItemSelect,
 } from '@heathmont/moon-components';
-import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import useClickAway from './__private__/useClickAway';
 

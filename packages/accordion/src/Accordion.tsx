@@ -8,7 +8,6 @@ import {
   AccordionContent,
   ChildrenWrapper,
   AccordionToggle,
-  Divider,
 } from './private/layout';
 
 type Props = {
