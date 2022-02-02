@@ -1,11 +1,17 @@
 import React from 'react';
-import { create } from 'react-test-renderer';
 import 'jest-styled-components';
-import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 import IconProfile from '@heathmont/moon-assets/src/icons/IconProfile';
+import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
+import { create } from 'react-test-renderer';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
+);
+
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={sportsbetDark}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
 );
 
 import Chip from '../Chip';
@@ -13,6 +19,12 @@ import Chip from '../Chip';
 describe('Chip', () => {
   test('renders correctly', () => {
     const chip = create(renderWithTheme(<Chip>Chip</Chip>));
+
+    expect(chip).toMatchSnapshot();
+  });
+
+  test('renders RTL correctly', () => {
+    const chip = create(renderWithThemeRTL(<Chip>Chip</Chip>));
 
     expect(chip).toMatchSnapshot();
   });
