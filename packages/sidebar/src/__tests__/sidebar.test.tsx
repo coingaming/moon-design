@@ -1,13 +1,12 @@
 import React from 'react';
+import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 import { create } from 'react-test-renderer';
 import 'jest-styled-components';
-import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
+import Sidebar from '../Sidebar';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
-
-import Sidebar from '../Sidebar';
 
 describe('Sidebar', () => {
   test('renders by default', () => {
@@ -24,7 +23,7 @@ describe('Sidebar', () => {
     const sidebar = create(
       renderWithTheme(
         <Sidebar
-          initialState={false}
+          isOpen={false}
           collapseIcon={<div />}
           expandIcon={<div />}
           logo={<div />}

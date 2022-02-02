@@ -7,7 +7,6 @@ import {
 } from '@heathmont/moon-icons/lib';
 import { rem } from '@heathmont/moon-utils';
 import Badge from '../badge/Badge';
-
 import useOutsideClicker from './private/useOutsideClicker';
 import Container from './styles/Container';
 import HintText from './styles/HintText';

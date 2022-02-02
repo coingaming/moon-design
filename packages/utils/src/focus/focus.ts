@@ -1,6 +1,5 @@
-import { CSSObject } from 'styled-components';
 import { supportColors } from '@heathmont/moon-themes';
-
+import { CSSObject } from 'styled-components';
 import rem from '../rem/rem';
 
 export const focusReset: CSSObject = {

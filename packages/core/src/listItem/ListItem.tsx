@@ -2,7 +2,6 @@ import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import Container from './styles/Container';
 import MetaWrapper from './styles/MetaWrapper';
 import SubtextInner from './styles/SubtextInner';

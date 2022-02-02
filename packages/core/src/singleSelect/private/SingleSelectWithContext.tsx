@@ -1,9 +1,9 @@
 import React from 'react';
-import ListboxPopoverWrapper from './styles/ListboxPopoverWrapper';
-import Options from './Options';
-import SearchWrapper from './styles/SearchWrapper';
-import ListboxButtonComponent from './ListboxButtonComponent';
 import Option from '../private/OptionType';
+import ListboxButtonComponent from './ListboxButtonComponent';
+import Options from './Options';
+import ListboxPopoverWrapper from './styles/ListboxPopoverWrapper';
+import SearchWrapper from './styles/SearchWrapper';
 
 interface SingleSelectWithContextProps
   extends React.InputHTMLAttributes<HTMLSelectElement> {

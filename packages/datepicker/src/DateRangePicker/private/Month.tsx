@@ -5,8 +5,6 @@ import isSameDay from 'date-fns/isSameDay';
 import isWithinInterval from 'date-fns/isWithinInterval';
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-
-
 import { isInRangePreview } from '../private/helpers/isInRangePreview';
 import { Day } from './Day';
 

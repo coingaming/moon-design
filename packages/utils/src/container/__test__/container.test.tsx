@@ -1,11 +1,10 @@
 import React from 'react';
-import styled, { CSSObject } from 'styled-components';
 import { create } from 'react-test-renderer';
+import styled, { CSSObject } from 'styled-components';
 import 'jest-styled-components';
+import container from '../container';
 
 const Example = styled.div<{ css: CSSObject }>(({ css }) => css);
-
-import container from '../container';
 
 describe('Container', () => {
   test('renders a rem-based container with number value', () => {
