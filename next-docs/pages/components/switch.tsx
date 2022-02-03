@@ -1,14 +1,17 @@
+import Preview from '../../components/codePreview/Preview';
+import Caption from '../../public/examples/switch/Caption';
 import Default from '../../public/examples/switch/Default';
 import Sizes from '../../public/examples/switch/Sizes';
 import Theme from '../../public/examples/switch/Theme';
-import Caption from '../../public/examples/switch/Caption';
 import ThemeCaption from '../../public/examples/switch/ThemeCaption';
-
-import Preview from '../../components/codePreview/Preview';
 
 import useExamples from '../../utils/useExamples';
 
-export default function PageSwitch() {
+type Props = {
+  isRtl?: boolean;
+};
+
+export default function PageSwitch({ isRtl }: Props) {
   const examples = useExamples('switch');
 
   return (
@@ -24,7 +27,7 @@ export default function PageSwitch() {
       <section className="mt-8">
         <Preview
           title="Default"
-          preview={<Default />}
+          preview={<Default isRtl={isRtl} />}
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
@@ -33,7 +36,7 @@ export default function PageSwitch() {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          preview={<Sizes />}
+          preview={<Sizes isRtl={isRtl} />}
           code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
@@ -41,7 +44,7 @@ export default function PageSwitch() {
       <section className="mt-8">
         <Preview
           title="Dark &amp; Light mode"
-          preview={<Theme />}
+          preview={<Theme isRtl={isRtl} />}
           code={examples ? examples.Theme : 'Loading'}
         />
       </section>
@@ -49,7 +52,7 @@ export default function PageSwitch() {
       <section className="mt-8">
         <Preview
           title="With captions"
-          preview={<Caption />}
+          preview={<Caption isRtl={isRtl} />}
           code={examples ? examples.Caption : 'Loading'}
         />
       </section>
@@ -57,7 +60,7 @@ export default function PageSwitch() {
       <section className="mt-8">
         <Preview
           title="Dark &amp; Light mode with captions"
-          preview={<ThemeCaption />}
+          preview={<ThemeCaption isRtl={isRtl} />}
           code={examples ? examples.ThemeCaption : 'Loading'}
         />
       </section>

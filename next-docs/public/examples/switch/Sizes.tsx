@@ -3,7 +3,11 @@ import { useState } from 'react';
 
 import { Switch } from '@heathmont/moon-components';
 
-const Example = () => {
+type Props = {
+  isRtl?: boolean;
+};
+
+const Example = ({ isRtl }: Props) => {
   const [state, setState] = useState(true);
 
   return (
@@ -15,6 +19,7 @@ const Example = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
+        isRtl={isRtl}
       />
       <Switch
         id="test-switch-2"
@@ -23,6 +28,7 @@ const Example = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
+        isRtl={isRtl}
       />
       <Switch
         id="test-switch-3"
@@ -31,6 +37,7 @@ const Example = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
+        isRtl={isRtl}
       />
     </div>
   );

@@ -12,9 +12,32 @@ exports[`Switch renders 1`] = `
     type="checkbox"
   />
   <span
+    checked={true}
     className="Switch__Slider-sc-11hx91j-0 jCASxV"
   />
 </label>
+`;
+
+exports[`Switch renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <label
+    className="Switch__Label-sc-11hx91j-1 ckxnaY"
+  >
+    <input
+      checked={true}
+      className="Switch__Input-sc-11hx91j-2 cqTYuv"
+      id="test-switch-1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      checked={true}
+      className="Switch__Slider-sc-11hx91j-0 jCASxV"
+    />
+  </label>
+</div>
 `;
 
 exports[`Switch renders Theme variant 1`] = `
@@ -29,6 +52,7 @@ exports[`Switch renders Theme variant 1`] = `
     type="checkbox"
   />
   <span
+    checked={true}
     className="Switch__Slider-sc-11hx91j-0 hDEWRP"
   />
 </label>
@@ -61,6 +85,7 @@ exports[`Switch renders Theme variant with Caption 1`] = `
       type="checkbox"
     />
     <span
+      checked={true}
       className="Switch__Slider-sc-11hx91j-0 hDEWRP"
     />
   </label>
@@ -91,6 +116,7 @@ exports[`Switch renders different Sizes 1`] = `
       type="checkbox"
     />
     <span
+      checked={true}
       className="Switch__Slider-sc-11hx91j-0 jCASxV"
     />
   </label>
@@ -107,6 +133,7 @@ exports[`Switch renders different Sizes 1`] = `
       type="checkbox"
     />
     <span
+      checked={true}
       className="Switch__Slider-sc-11hx91j-0 jCASxV"
     />
   </label>
@@ -123,6 +150,7 @@ exports[`Switch renders different Sizes 1`] = `
       type="checkbox"
     />
     <span
+      checked={true}
       className="Switch__Slider-sc-11hx91j-0 jCASxV"
     />
   </label>
@@ -156,6 +184,7 @@ exports[`Switch renders with Caption 1`] = `
       type="checkbox"
     />
     <span
+      checked={true}
       className="Switch__Slider-sc-11hx91j-0 jCASxV"
     />
   </label>

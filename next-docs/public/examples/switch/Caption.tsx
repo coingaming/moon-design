@@ -3,7 +3,11 @@ import { useState } from 'react';
 
 import { Switch } from '@heathmont/moon-components';
 
-const Example = () => {
+type Props = {
+  isRtl?: boolean;
+};
+
+const Example = ({ isRtl }: Props) => {
   const [state, setState] = useState(true);
 
   return (
@@ -16,6 +20,7 @@ const Example = () => {
         }
         captionUnchecked="OFF"
         captionChecked="ON"
+        isRtl={isRtl}
       />
     </>
   );

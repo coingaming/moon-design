@@ -1,4 +1,9 @@
-import React, { useState } from 'react';
+import React, {
+  JSXElementConstructor,
+  ReactElement,
+  ReactPortal,
+  useState,
+} from 'react';
 
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
@@ -63,6 +68,44 @@ export default function Layout({ children }: LayoutProps) {
       htmlTag.removeAttribute('dir');
     }
   };
+
+  const recursiveMap = (
+    children: React.ReactNode,
+    fn: (
+      child:
+        | {}
+        | ReactElement<any, string | JSXElementConstructor<any>>
+        | ReactPortal
+    ) => void
+  ): React.ReactNode => {
+    return React.Children.map(children, (child) => {
+      if (!React.isValidElement(child) || typeof child.type == 'string') {
+        return child;
+      }
+
+      if (child.props.children) {
+        child = React.cloneElement(child, {
+          children: recursiveMap(child.props.children, fn),
+        });
+      }
+
+      return fn(child);
+    });
+  };
+
+  const cloneElements = (
+    child:
+      | {}
+      | ReactElement<any, string | JSXElementConstructor<any>>
+      | ReactPortal
+  ) => {
+    if (React.isValidElement(child)) {
+      return React.cloneElement(child, { isRtl });
+    }
+    return child;
+  };
+
+  const childrenWithProps = recursiveMap(children, cloneElements);
 
   return (
     <div
@@ -129,7 +172,8 @@ export default function Layout({ children }: LayoutProps) {
               <RTLModeSwitch toggle={toggleDirection} isEnabled={isRtl} />
             }
           />
-          <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
+
+          <div className="py-6 px-4 md:px-16 lg:px-0">{childrenWithProps}</div>
 
           <div className="mt-auto py-8 px-4 lg:pt-24">
             <Footer />
