@@ -4,6 +4,8 @@ import React, {
   ReactPortal,
   useState,
 } from 'react';
+import useCloneElements from '../utils/useCloneElements';
+import useRecursiveMapChildren from '../utils/useRecursiveMapChildren';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';
@@ -68,43 +70,9 @@ export default function Layout({ children }: LayoutProps) {
     }
   };
 
-  const recursiveMap = (
-    children: React.ReactNode,
-    fn: (
-      child:
-        | {}
-        | ReactElement<any, string | JSXElementConstructor<any>>
-        | ReactPortal
-    ) => void
-  ): React.ReactNode => {
-    return React.Children.map(children, (child) => {
-      if (!React.isValidElement(child) || typeof child.type == 'string') {
-        return child;
-      }
-
-      if (child.props.children) {
-        child = React.cloneElement(child, {
-          children: recursiveMap(child.props.children, fn),
-        });
-      }
-
-      return fn(child);
-    });
-  };
-
-  const cloneElements = (
-    child:
-      | {}
-      | ReactElement<any, string | JSXElementConstructor<any>>
-      | ReactPortal
-  ) => {
-    if (React.isValidElement(child)) {
-      return React.cloneElement(child, { isRtl });
-    }
-    return child;
-  };
-
-  const childrenWithProps = recursiveMap(children, cloneElements);
+  const childrenWithProps = useRecursiveMapChildren(children, (child) =>
+    useCloneElements(child, { isRtl })
+  );
 
   return (
     <div
