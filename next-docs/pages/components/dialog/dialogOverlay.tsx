@@ -1,9 +1,6 @@
 import React from 'react';
-
-import Default from '../../../public/examples/dialog/dialogOverlay/Default';
-
 import Preview from '../../../components/codePreview/Preview';
-
+import Default from '../../../public/examples/dialog/dialogOverlay/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogOverlay() {

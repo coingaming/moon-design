@@ -1,9 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
 import { useViewportScroll, useTransform, motion } from 'framer-motion';
-
-import imageMoon from '../../public/moon.png';
+import Image from 'next/image';
 import imageEarth from '../../public/earth.png';
+import imageMoon from '../../public/moon.png';
 
 const MoonAndEarthAnimation = () => {
   const { scrollYProgress } = useViewportScroll();

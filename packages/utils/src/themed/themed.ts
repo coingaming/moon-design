@@ -1,6 +1,5 @@
-import has from 'lodash.has';
 import get from 'lodash.get';
-
+import has from 'lodash.has';
 import rem from '../rem/rem';
 
 const themed =

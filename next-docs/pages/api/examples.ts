@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
 
@@ -39,7 +38,7 @@ const getFilesFromDirectory = async (dirPath: string) => {
   });
 
   const onlyFilePaths = filePaths.filter((fileName) => {
-    return fs.lstatSync(fileName).isFile()
+    return fs.lstatSync(fileName).isFile();
   });
 
   const fileSources = onlyFilePaths.map((pathToSourceCode) => {

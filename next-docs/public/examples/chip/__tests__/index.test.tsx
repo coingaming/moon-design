@@ -5,12 +5,10 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Default from '../Default';
 import Icons from '../Icons';
 import Sizes from '../Sizes';
 import States from '../States';
-
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>

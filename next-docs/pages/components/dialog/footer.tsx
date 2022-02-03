@@ -1,12 +1,9 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import ButtonXs from '../../../public/examples/dialog/footer/ButtonXs';
 import ButtonSm from '../../../public/examples/dialog/footer/ButtonSm';
+import ButtonXs from '../../../public/examples/dialog/footer/ButtonXs';
 import Size from '../../../public/examples/dialog/footer/Size';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogFooter() {

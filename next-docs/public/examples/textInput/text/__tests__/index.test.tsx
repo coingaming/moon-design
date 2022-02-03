@@ -5,7 +5,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import TextWithLabel from '../TextWithLabel';
 import TextWithoutLabel from '../TextWithoutLabel';
 import TextWithHint from '../TextWithHint';

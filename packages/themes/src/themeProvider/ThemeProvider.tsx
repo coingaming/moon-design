@@ -1,6 +1,5 @@
 import React from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
-
 import { Theme } from '../sharedTokens/sharedTokens';
 import {
   themeTransitionClass,

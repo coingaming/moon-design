@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import Disabled from '../../../public/examples/select/multiReactSelect/Disabled';
@@ -10,8 +9,6 @@ import OptionsContent from '../../../public/examples/select/multiReactSelect/Opt
 import WithCounter from '../../../public/examples/select/multiReactSelect/WithCounter';
 import WithLabel from '../../../public/examples/select/multiReactSelect/WithLabel';
 import WithoutLabel from '../../../public/examples/select/multiReactSelect/WithoutLabel';
-
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {

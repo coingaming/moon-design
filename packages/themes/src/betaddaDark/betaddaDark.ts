@@ -1,5 +1,4 @@
 import avertaStd from '../sharedTokens/avertaStd';
-
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';

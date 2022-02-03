@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Tooltip, Text } from '@heathmont/moon-core';
 
 const Example = () => (

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-
 import { Switch } from '@heathmont/moon-components';
 
 type Props = {

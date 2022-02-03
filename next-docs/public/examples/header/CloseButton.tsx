@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Header } from '@heathmont/moon-core';
 import { IconClose } from '@heathmont/moon-assets';
 

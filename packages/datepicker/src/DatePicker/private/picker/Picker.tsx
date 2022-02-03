@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Month } from '../month/Month';
 import LeftArrow from './styles/LeftArrow';
 import MonthContainer from './styles/MonthContainer';

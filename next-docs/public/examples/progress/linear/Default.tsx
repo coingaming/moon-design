@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { ProgressLinear } from '@heathmont/moon-components';
 
 const Example = () => (

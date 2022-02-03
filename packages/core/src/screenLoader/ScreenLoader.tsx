@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTheme, ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
-
 import Container from './styles/Container';
 
 export interface ScreenLoaderProps {

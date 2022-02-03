@@ -1,13 +1,12 @@
 import React from 'react';
+import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 import { act, create, ReactTestRenderer } from 'react-test-renderer';
 import 'jest-styled-components';
-import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
+import GoToPage from '../GoToPage';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
-
-import GoToPage from '../GoToPage';
 
 describe('GoToPage', () => {
   test('renders correctly', () => {

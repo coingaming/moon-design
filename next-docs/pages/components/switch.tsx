@@ -4,7 +4,6 @@ import Default from '../../public/examples/switch/Default';
 import Sizes from '../../public/examples/switch/Sizes';
 import Theme from '../../public/examples/switch/Theme';
 import ThemeCaption from '../../public/examples/switch/ThemeCaption';
-
 import useExamples from '../../utils/useExamples';
 
 type Props = {

@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
-import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
-import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
+import EmailBgColor from '../../../public/examples/textInput/email/EmailBgColor';
 import EmailDisabled from '../../../public/examples/textInput/email/EmailDisabled';
 import EmailError from '../../../public/examples/textInput/email/EmailError';
-import EmailBgColor from '../../../public/examples/textInput/email/EmailBgColor';
 import EmailReadonly from '../../../public/examples/textInput/email/EmailReadonly';
-
+import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
+import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
+import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {

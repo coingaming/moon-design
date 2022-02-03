@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import TextWithLabel from '../../../public/examples/textInput/text/TextWithLabel';
-import TextWithoutLabel from '../../../public/examples/textInput/text/TextWithoutLabel';
-import TextWithHint from '../../../public/examples/textInput/text/TextWithHint';
+import TextBgColor from '../../../public/examples/textInput/text/TextBgColor';
 import TextDisabled from '../../../public/examples/textInput/text/TextDisabled';
 import TextError from '../../../public/examples/textInput/text/TextError';
-import TextBgColor from '../../../public/examples/textInput/text/TextBgColor';
 import TextReadonly from '../../../public/examples/textInput/text/TextReadonly';
-
+import TextWithHint from '../../../public/examples/textInput/text/TextWithHint';
+import TextWithLabel from '../../../public/examples/textInput/text/TextWithLabel';
+import TextWithoutLabel from '../../../public/examples/textInput/text/TextWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {
