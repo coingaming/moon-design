@@ -152,7 +152,7 @@ exports[`Calendar hide calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               3
@@ -162,7 +162,7 @@ exports[`Calendar hide calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               4
@@ -580,7 +580,7 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
--               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
+-               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
 -               onClick={[Function onClick]}
 -             >
 -               3
@@ -590,7 +590,7 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
--               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
+-               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
 -               onClick={[Function onClick]}
 -             >
 -               4
@@ -1029,7 +1029,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               3
@@ -1039,7 +1039,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 kcqmEJ"
+              className="DayContainer-l4w9ci-0 cwdOaH"
               onClick={[Function]}
             >
               4
@@ -1514,7 +1514,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               3
@@ -1524,7 +1524,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 kcqmEJ"
+              className="DayContainer-l4w9ci-0 cwdOaH"
               onClick={[Function]}
             >
               4
@@ -2039,7 +2039,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               3
@@ -2049,7 +2049,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 kcqmEJ"
+              className="DayContainer-l4w9ci-0 cwdOaH"
               onClick={[Function]}
             >
               4
@@ -4074,7 +4074,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               3
@@ -4084,7 +4084,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 kcqmEJ"
+              className="DayContainer-l4w9ci-0 cwdOaH"
               onClick={[Function]}
             >
               4

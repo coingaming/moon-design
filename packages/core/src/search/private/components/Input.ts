@@ -83,48 +83,56 @@ export const SearchInput = styled.input<
     hasBorder: boolean;
     $size: SearchInputSize;
   }
->(({ $size, hasBorder, theme: { breakpoint, colorNew, newTokens } }) => ({
-  fontWeight: newTokens.font.weight.normal,
-  fontSize: rem(14),
-  width: '100%',
-  lineHeight: 1,
-  position: 'relative',
-  paddingTop: 0,
-  paddingRight: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
-  paddingBottom: 0,
-  paddingLeft: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
-  textOverflow: 'ellipsis',
-  overflow: 'hidden',
-  backgroundColor: colorNew.goku,
-  color: colorNew.trunks,
-  borderRadius: newTokens.borderRadius.medium,
-  border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
-  outline: 0,
-  zIndex: zIndex.searchInput,
-  transition: `${inputConfig.transition}`,
-  transitionDuration: newTokens.transitionDuration,
-  '[dir=rtl] &': {
-    paddingLeft: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
-    paddingRight: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
-  },
-  '&::placeholder': {
-    color: 'inherit',
-  },
-  '&:hover': {
-    backgroundColor: colorNew.gohan,
-    borderColor: colorNew.beerus,
-  },
-  '&:active, &:focus': {
-    backgroundColor: colorNew.gohan,
-    borderColor: colorNew.piccolo,
-    color: colorNew.bulma,
-  },
-  [mq(breakpoint.medium, 'max-width')]: {
-    [':focus:not(:placeholder-shown)']: {
-      borderColor: colorNew.piccolo,
+>(
+  ({
+    $size,
+    hasBorder,
+    theme: { breakpoint, transitionDuration, colorNew, newTokens },
+  }) => ({
+    fontWeight: newTokens.font.weight.normal,
+    fontSize: rem(14),
+    width: '100%',
+    lineHeight: 1,
+    position: 'relative',
+    paddingTop: 0,
+    paddingRight: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
+    paddingBottom: 0,
+    paddingLeft: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
+    textOverflow: 'ellipsis',
+    overflow: 'hidden',
+    backgroundColor: colorNew.goku,
+    color: colorNew.trunks,
+    borderRadius: newTokens.borderRadius.medium,
+    border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
+    outline: 0,
+    zIndex: zIndex.searchInput,
+    transition: `${inputConfig.transition}`,
+    transitionDuration,
+    '[dir=rtl] &': {
+      paddingLeft: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
+      paddingRight: `calc(${rem(2 * padding[$size])} + ${
+        newTokens.space.small
+      })`,
     },
-  },
-}));
+    '&::placeholder': {
+      color: 'inherit',
+    },
+    '&:hover': {
+      backgroundColor: colorNew.gohan,
+      borderColor: colorNew.beerus,
+    },
+    '&:active, &:focus': {
+      backgroundColor: colorNew.gohan,
+      borderColor: colorNew.piccolo,
+      color: colorNew.bulma,
+    },
+    [mq(breakpoint.medium, 'max-width')]: {
+      [':focus:not(:placeholder-shown)']: {
+        borderColor: colorNew.piccolo,
+      },
+    },
+  })
+);
 
 export const SearchBox = styled.span<{
   $size: SearchInputSize;
