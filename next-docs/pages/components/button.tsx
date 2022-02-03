@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Preview from '../../components/codePreview/Preview';
 import Animations from '../../public/examples/button/Animations';
 import Default from '../../public/examples/button/Default';
@@ -10,7 +9,6 @@ import Primary from '../../public/examples/button/Primary';
 import Secondary from '../../public/examples/button/Secondary';
 import Sizes from '../../public/examples/button/Sizes';
 import Tertiary from '../../public/examples/button/Tertiary';
-
 import useExamples from '../../utils/useExamples';
 
 export default function PageButton() {

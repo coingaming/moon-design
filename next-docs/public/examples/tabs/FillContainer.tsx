@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Tabs, TabLinkFill } from '@heathmont/moon-core';
 
 const Example = () => (

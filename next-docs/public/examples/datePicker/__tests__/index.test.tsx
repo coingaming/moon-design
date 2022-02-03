@@ -6,7 +6,6 @@ import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer, { act } from 'react-test-renderer';
 import { toMatchDiffSnapshot } from 'snapshot-diff';
-
 import Default from '../Default';
 import Calendar from '../Calendar';
 import CalendarDisabledDay from '../CalendarDisabledDay';

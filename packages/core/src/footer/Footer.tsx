@@ -1,8 +1,7 @@
 import React from 'react';
-
+import ButtonWrapper from './styles/ButtonWrapper';
 import Container from './styles/Container';
 import RightWrapper from './styles/RightWrapper';
-import ButtonWrapper from './styles/ButtonWrapper';
 
 export interface FooterProps {
   primButton?: JSX.Element;

@@ -1,13 +1,10 @@
 // @ts-nocheck
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
-import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
-
+import Table from '../../../components/Table';
 import Default from '../../../public/examples/charts/lineChart/Default';
 import Loading from '../../../public/examples/charts/lineChart/Loading';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageLineChart() {

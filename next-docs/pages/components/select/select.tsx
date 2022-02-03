@@ -1,10 +1,7 @@
 import React from 'react';
-
+import Preview from '../../../components/codePreview/Preview';
 import Default from '../../../public/examples/select/select/Default';
 import Label from '../../../public/examples/select/select/Label';
-
-import Preview from '../../../components/codePreview/Preview';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {

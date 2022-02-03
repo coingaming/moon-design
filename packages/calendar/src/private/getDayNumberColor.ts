@@ -1,6 +1,6 @@
+import { ColorNames } from '@heathmont/moon-themes';
 import isSameMonth from 'date-fns/isSameMonth';
 import isToday from 'date-fns/isToday';
-import { ColorNames } from '@heathmont/moon-themes';
 
 export const getDayNumberColor = (
   cursorDate: Date,

@@ -1,6 +1,5 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-
 import PreviewSearch from '../../public/examples/search/PreviewSearch';
 import PreviewSearchLoading from '../../public/examples/search/PreviewSearchLoading';
 import useExamples from '../../utils/useExamples';

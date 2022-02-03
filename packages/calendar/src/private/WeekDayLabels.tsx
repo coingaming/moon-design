@@ -1,8 +1,7 @@
 import React from 'react';
 import { Text } from '@heathmont/moon-components';
-
-import { WeekDayName } from './WeekDayName';
 import { getWeekDayLabels } from './getWeekDayLabels';
+import { WeekDayName } from './WeekDayName';
 
 type Props = {
   renderWeekDayLabel?: (label: string, index: number) => React.ReactNode;

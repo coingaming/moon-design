@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-
-import { Container } from './private/Container';
 import { CollapseTarget } from './private/CollapseTarget';
+import { Container } from './private/Container';
 import { OuterContainer } from './private/OuterContainer';
 
 type Props = {

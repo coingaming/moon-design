@@ -1,13 +1,10 @@
 // @ts-nocheck
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
-import Table from '../../../components/Table';
 import CodeSnippet from '../../../components/CodeSnippet';
-
+import Table from '../../../components/Table';
 import Active from '../../../public/examples/charts/verticalChart/Active';
 import NoData from '../../../public/examples/charts/verticalChart/NoData';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageVerticalBarChart() {

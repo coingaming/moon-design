@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
-import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
-import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
+import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
 import UrlDisabled from '../../../public/examples/textInput/url/UrlDisabled';
 import UrlError from '../../../public/examples/textInput/url/UrlError';
-import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
 import UrlReadonly from '../../../public/examples/textInput/url/UrlReadonly';
-
+import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
+import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
+import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageUrlInput() {

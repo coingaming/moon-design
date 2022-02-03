@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import NextLink from 'next/link';
-
 import TokenTable from '../components/TokenTable';
 import tokenImg from '../public/illustartions/tokens.png';
 
