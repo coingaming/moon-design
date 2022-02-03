@@ -1,5 +1,4 @@
 import { useTheme } from '@heathmont/moon-themes';
-
 import rem from '../rem/rem';
 
 const spacing = (size: any = 'default', unit?: string) => {

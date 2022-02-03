@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Colours from '../Colours';
 import Sizes from '../Sizes';
 import SizesList from '../SizesList';

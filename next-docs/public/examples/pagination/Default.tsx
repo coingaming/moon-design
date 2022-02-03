@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Pagination } from '@heathmont/moon-pagination';
 
 const Example = () => (

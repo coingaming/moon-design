@@ -1,10 +1,7 @@
 import React from 'react';
-
-import Default from '../../public/examples/pagination/Default';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-
+import Default from '../../public/examples/pagination/Default';
 import useExamples from '../../utils/useExamples';
 
 export default function PagePagination() {

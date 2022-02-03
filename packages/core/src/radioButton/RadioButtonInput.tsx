@@ -1,5 +1,4 @@
 import React, { forwardRef } from 'react';
-
 import RadioButtonHiddenInput from './styles/RadioButtonHiddenInput';
 import RadioButtonStyledInput from './styles/RadioButtonStyledInput';
 

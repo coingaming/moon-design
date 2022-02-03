@@ -2,7 +2,6 @@ import React from 'react';
 import { rem } from '@heathmont/moon-utils';
 import format from 'date-fns/format';
 import styled from 'styled-components';
-
 import DayContainer from './styles/DayContainer';
 
 type DayProps = {
@@ -36,7 +35,7 @@ export const Day: React.FC<DayProps> = ({
     return <EmptyCell />;
   }
 
-  const onClick = () => !isDisabled && onDayClick(date)
+  const onClick = () => !isDisabled && onDayClick(date);
 
   return (
     <DayWrapper>

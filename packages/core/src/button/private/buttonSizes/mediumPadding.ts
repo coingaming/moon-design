@@ -9,12 +9,18 @@ const mediumPadding = ({
 }: ButtonProps) => {
   if (icon === 'left' || iconLeft) {
     return {
-      padding: `${rem(8)} ${rem(16)} ${rem(8)} ${rem(8)}`,
+      paddingTop: `${rem(8)}`,
+      paddingInlineEnd: `${rem(16)}`,
+      paddingBottom: `${rem(8)}`,
+      paddingInlineStart: `${rem(8)}`,
     };
   }
   if (icon === 'right' || iconRight) {
     return {
-      padding: `${rem(8)} ${rem(8)} ${rem(8)} ${rem(16)}`,
+      paddingTop: `${rem(8)}`,
+      paddingInlineEnd: `${rem(8)}`,
+      paddingBottom: `${rem(8)}`,
+      paddingInlineStart: `${rem(16)}`,
     };
   }
   if (icon === 'only' || iconOnly) {

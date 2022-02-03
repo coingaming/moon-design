@@ -15,9 +15,20 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('Button New', () => {
   it('renders different variants', () => {
     const testRenderer = renderer.create(renderWithTheme(<Variants />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders different variants RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Variants />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

@@ -1,14 +1,11 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
 import Example1 from '../../../public/examples/dialog/header/Example1';
 import Example2 from '../../../public/examples/dialog/header/Example2';
 import Example3 from '../../../public/examples/dialog/header/Example3';
 import Example4 from '../../../public/examples/dialog/header/Example4';
 import Example5 from '../../../public/examples/dialog/header/Example5';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogHeader() {

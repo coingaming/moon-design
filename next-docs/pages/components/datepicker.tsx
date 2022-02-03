@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React from 'react';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import Calendar from '../../public/examples/datePicker/Calendar';

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';

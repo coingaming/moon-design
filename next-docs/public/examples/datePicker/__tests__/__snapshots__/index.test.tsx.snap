@@ -132,7 +132,7 @@ exports[`Calendar hide calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               1
@@ -560,7 +560,7 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
--               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
+-               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
 -               onClick={[Function onClick]}
 -             >
 -               1
@@ -906,7 +906,7 @@ exports[`Calendar renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -1009,7 +1009,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               1
@@ -1029,7 +1029,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               3
@@ -1039,7 +1039,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -1391,7 +1391,7 @@ exports[`Calendar show calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -1494,7 +1494,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               1
@@ -1514,7 +1514,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               3
@@ -1524,7 +1524,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -1840,7 +1840,7 @@ exports[`Calendar show month select 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -2019,7 +2019,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               1
@@ -2039,7 +2039,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               3
@@ -2049,7 +2049,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -2365,7 +2365,7 @@ exports[`Calendar show years select 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        Select a day...
+        04/02/2022
       </div>
     </button>
     <div
@@ -4054,7 +4054,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               1
@@ -4074,7 +4074,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 bHFKFH"
               onClick={[Function]}
             >
               3
@@ -4084,7 +4084,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 coSdBl"
+              className="DayContainer-l4w9ci-0 kcqmEJ"
               onClick={[Function]}
             >
               4
@@ -7157,6 +7157,950 @@ exports[`DatePicker renders 1`] = `
             Apply
           </div>
         </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DatePicker renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    style={
+      Object {
+        "height": "25rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="DateRangePicker__Wrapper-frfafr-0 hgKiMU"
+    >
+      <button
+        className="sc-jEUrFJ ceIMkL"
+        onClick={[Function]}
+        size="small"
+        variant="tertiary"
+      >
+        <div
+          className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+        >
+          17/09/2020 03:24 - 27/09/2020 03:24
+        </div>
+      </button>
+      <div
+        className="Picker__PickerContainer-sc-13f2s6r-0 dRjAwD"
+      >
+        <ul
+          className="Sidebar__SidebarList-c0dbbc-0 chKuLl"
+        >
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            Last month
+          </li>
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            Last week
+          </li>
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            Yesterday
+          </li>
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            This week
+          </li>
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            This month
+          </li>
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            Last 24 hours
+          </li>
+          <li
+            className="Sidebar__RangeItem-c0dbbc-1 hdabNv"
+            onClick={[Function]}
+          >
+            Today
+          </li>
+        </ul>
+        <div
+          className="Picker__FirstMonth-sc-13f2s6r-1 kAOuDf"
+        >
+          <svg
+            className="sc-cTkwdZ Picker__LeftArrow-sc-13f2s6r-3  drxNGa"
+            fill="none"
+            height="1em"
+            onClick={[Function]}
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.5 25l-9-9 9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <div
+            className="Month__MonthYearLabel-sc-1n88ufv-1 kNWZAK"
+          >
+            September
+              
+            2020
+          </div>
+          <div
+            className="Month__Days-sc-1n88ufv-2 rrhFJ"
+          >
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              M
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              T
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              W
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              T
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              F
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              S
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              S
+            </div>
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                1
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                2
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                3
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                4
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                5
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                6
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                7
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                8
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                9
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                10
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                11
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                12
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                13
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                14
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                15
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                16
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1 krvzjd"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 gWCNft"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                17
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                18
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                19
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                20
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                21
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                22
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                23
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                24
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                25
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 kIPbyZ"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                26
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1 jEzsQF"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 iSIvUa"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                27
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                28
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                29
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                30
+              </div>
+            </div>
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+          </div>
+        </div>
+        <div
+          className="Picker__SecondMonth-sc-13f2s6r-2 icMIDg"
+        >
+          <svg
+            className="sc-dOSReg Picker__RightArrow-sc-13f2s6r-4  ivxEhR"
+            fill="none"
+            height="1em"
+            onClick={[Function]}
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.5 7l9 9-9 9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <div
+            className="Month__MonthYearLabel-sc-1n88ufv-1 kNWZAK"
+          >
+            October
+              
+            2020
+          </div>
+          <div
+            className="Month__Days-sc-1n88ufv-2 rrhFJ"
+          >
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              M
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              T
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              W
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              T
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              F
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              S
+            </div>
+            <div
+              className="Month__DayName-sc-1n88ufv-0 bSsvYx"
+            >
+              S
+            </div>
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                1
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                2
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                3
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                4
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                5
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                6
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                7
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                8
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                9
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                10
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                11
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                12
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                13
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                14
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                15
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                16
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                17
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                18
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                19
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                20
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                21
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                22
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                23
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                24
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                25
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                26
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                27
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                28
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                29
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                30
+              </div>
+            </div>
+            <div
+              className="Day__DayWrapper-uy9h7g-1"
+            >
+              <div
+                className="Day__DayStyled-uy9h7g-0 jQWBmS"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                31
+              </div>
+            </div>
+            <div
+              className="Day__EmptyCell-uy9h7g-2 jNiMxz"
+            />
+          </div>
+        </div>
+        <div
+          className="InputsPanel__InputsPanelStyled-u33yyg-0 jPJGXU"
+        >
+          <input
+            className="Input-bxe8t3-0 TextInput__TextInputElem-xu44xk-0 idpQYG kBEFxU InputsPanel__StyledTextInput-u33yyg-1 kitNwf"
+            onChange={[Function]}
+            placeholder=" "
+            type="datetime-local"
+            value="2020-09-17T03:24"
+          />
+          <input
+            className="Input-bxe8t3-0 TextInput__TextInputElem-xu44xk-0 idpQYG kBEFxU InputsPanel__StyledTextInput-u33yyg-1 kitNwf"
+            onChange={[Function]}
+            placeholder=" "
+            type="datetime-local"
+            value="2020-09-27T03:24"
+          />
+          <button
+            className="sc-jEUrFJ fFfjHJ"
+            disabled={false}
+            onClick={[Function]}
+            size="small"
+            type="button"
+            variant="primary"
+          >
+            <div
+              className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+            >
+              Apply
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   </div>

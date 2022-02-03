@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Select } from '@heathmont/moon-components';
 
 const Example = () => (

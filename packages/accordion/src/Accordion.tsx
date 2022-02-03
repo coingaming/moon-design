@@ -2,15 +2,12 @@ import React, { useState } from 'react';
 import { Heading } from '@heathmont/moon-components';
 import ControlsChevronDown from '@heathmont/moon-icons/lib/icons/ControlsChevronDown';
 import ControlsChevronUp from '@heathmont/moon-icons/lib/icons/ControlsChevronUp';
-
-
 import {
   AccordionWrapper,
   AccordionHeader,
   AccordionContent,
   ChildrenWrapper,
   AccordionToggle,
-  Divider,
 } from './private/layout';
 
 type Props = {
@@ -47,11 +44,7 @@ const Accordion = ({
             {title}
           </Heading>
         )}
-        {headerContent && (
-          <React.Fragment>
-            {headerContent}
-          </React.Fragment>
-        )}
+        {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withArrow && (
           <AccordionToggle
             type="button"

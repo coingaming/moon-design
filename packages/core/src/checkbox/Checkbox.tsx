@@ -1,5 +1,4 @@
 import React, { forwardRef } from 'react';
-
 import CheckboxCaption from './styles/CheckboxCaption';
 import CheckboxInput from './styles/CheckboxInput';
 import CheckboxLabel from './styles/CheckboxLabel';

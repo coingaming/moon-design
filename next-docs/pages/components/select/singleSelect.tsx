@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
 import Disabled from '../../../public/examples/select/singleReactSelect/Disabled';
@@ -10,8 +9,6 @@ import Options from '../../../public/examples/select/singleReactSelect/Options';
 import OptionsContent from '../../../public/examples/select/singleReactSelect/OptionsContent';
 import WithLabel from '../../../public/examples/select/singleReactSelect/WithLabel';
 import WithoutLabel from '../../../public/examples/select/singleReactSelect/WithoutLabel';
-
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
