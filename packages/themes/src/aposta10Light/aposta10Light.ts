@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const hub88: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Aposta10',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

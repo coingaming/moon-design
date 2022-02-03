@@ -1,7 +1,6 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
-import mainColors from '../v2/colors/mainColors';
 import supportiveColors from '../v2/colors/supportiveColors';
 
 const boxShadow =
@@ -44,7 +43,7 @@ const color = {
   },
 };
 
-const colorNew = {
+const colorsNew = {
   piccolo: '#4E46B4',
   hit: '#0B0B0B',
   beerus: '#1F1F1F',
@@ -57,7 +56,7 @@ const colorNew = {
 };
 
 const moonDesignLight: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorsNew),
   brand: 'MoonDesign',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
@@ -73,7 +72,7 @@ const moonDesignLight: Theme = {
     ...color,
   },
   colorNew: {
-    ...mainColors,
+    ...colorsNew,
     ...supportiveColors,
   },
   colorScheme: 'light',

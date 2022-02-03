@@ -56,7 +56,7 @@ const colorNew = {
 };
 
 const moneyballLight: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Moneyball',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

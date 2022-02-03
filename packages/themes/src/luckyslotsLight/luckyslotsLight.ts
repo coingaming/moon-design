@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const luckyslotsDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'LuckySlots',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

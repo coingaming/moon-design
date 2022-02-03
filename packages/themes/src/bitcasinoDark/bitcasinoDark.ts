@@ -48,7 +48,7 @@ const colorNew = {
 };
 
 const bitcasinoDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Bitcasino.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

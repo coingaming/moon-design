@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const commsDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Comms',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const shangrilaLight: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'ShangriLa.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

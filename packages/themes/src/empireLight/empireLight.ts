@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const empireLight: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Empire.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

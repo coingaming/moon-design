@@ -56,7 +56,7 @@ const colorNew = {
 };
 
 const missionsToolLight: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'MissionsTool',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

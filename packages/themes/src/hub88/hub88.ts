@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const hub88: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Hub88',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
@@ -72,9 +72,9 @@ const hub88: Theme = {
   },
   colorScheme: 'dark',
   space: {
-    ...sharedTokens.space,
-    medium: sharedTokens.base.space * 1.25,
-    large: sharedTokens.base.space * 1.5,
+    ...sharedTokens(colorNew).space,
+    medium: sharedTokens(colorNew).base.space * 1.25,
+    large: sharedTokens(colorNew).base.space * 1.5,
   },
 };
 

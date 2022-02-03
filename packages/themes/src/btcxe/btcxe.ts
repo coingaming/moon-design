@@ -56,7 +56,7 @@ const colorNew = {
 };
 
 const btcxe: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'BTCXE',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

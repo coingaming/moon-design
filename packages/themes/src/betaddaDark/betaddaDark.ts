@@ -60,7 +60,7 @@ const colorNew = {
 };
 
 const betaddaDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Betadda',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

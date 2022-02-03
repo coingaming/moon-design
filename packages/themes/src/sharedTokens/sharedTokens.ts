@@ -1,7 +1,12 @@
-import mainColors from '../v2/colors/mainColors';
-import buttonVariantTokens from './buttonVariantTokens';
-import type { ColorShared, ColorValue } from '../supportColors/supportColors';
-import type { MainColors } from '../v2/colors/mainColors';
+import getButtonTokens from './utils/getButtonTokens';
+import getFocusTokens from './utils/getFocusTokens';
+import getHoverTokens from './utils/getHoverTokens';
+import getTextLinkTokens from './utils/getTextLinkTokens';
+import type {
+  ColorShared,
+  ColorValue,
+  MainColors,
+} from '../supportColors/supportColors';
 import type { SupportiveColors } from '../v2/colors/supportiveColors';
 
 /**
@@ -472,7 +477,8 @@ export type Theme = SharedTheme & {
   colorNew: ColorNew;
 };
 
-const sharedTokens: SharedTheme = {
+// TODO breaking change
+const sharedTokens: (mainColors: MainColors) => SharedTheme = (mainColors) => ({
   base: {
     space,
     fontSize: 16,
@@ -615,26 +621,12 @@ const sharedTokens: SharedTheme = {
       lineHeight: rem(baseLineHeight),
     },
     opacity: 0.32,
-    button: {
-      primary: buttonVariantTokens.fill,
-      secondary: buttonVariantTokens.stroke,
-      tertiary: buttonVariantTokens.fillSecondary,
-    },
-    textLink: {
-      fontWeight: fontWeightSemibold,
-      color: {
-        default: mainColors.piccolo,
-        hover: mainColors.hit,
-        visited: mainColors.hit,
-      },
-    },
-    hover: {
-      primary: `${mainColors.bulma}12`,
-      secondary: `${mainColors.piccolo}12`,
-    },
-    focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
+    ...getButtonTokens(mainColors),
+    ...getTextLinkTokens(mainColors),
+    ...getHoverTokens(mainColors),
+    ...getFocusTokens(mainColors),
     transform: 'scale(0.9)',
   },
-};
+});
 
 export default sharedTokens;

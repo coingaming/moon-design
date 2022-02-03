@@ -56,7 +56,7 @@ const colorNew = {
 };
 
 const moonDesignDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'MoonDesign',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

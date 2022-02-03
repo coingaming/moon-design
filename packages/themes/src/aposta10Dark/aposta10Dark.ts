@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const aposta10Dark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Aposta10',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

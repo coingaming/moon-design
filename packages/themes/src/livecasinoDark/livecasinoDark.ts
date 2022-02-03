@@ -56,7 +56,7 @@ const colorNew = {
 };
 
 const livecasinoDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Livecasino.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

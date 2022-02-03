@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const bombayClub: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   radius: {
     small: 4,
     default: 8,

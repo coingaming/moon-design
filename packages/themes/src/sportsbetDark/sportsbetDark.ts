@@ -60,7 +60,7 @@ const colorNew = {
 };
 
 const sportsbetDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Sportsbet.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

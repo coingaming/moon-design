@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const tajCasinoLight: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Tajcasino',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,

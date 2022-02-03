@@ -53,7 +53,7 @@ const colorNew = {
 };
 
 const slotsDark: Theme = {
-  ...sharedTokens,
+  ...sharedTokens(colorNew),
   brand: 'Slots.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
