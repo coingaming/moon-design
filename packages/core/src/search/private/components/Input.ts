@@ -18,7 +18,7 @@ export const SearchClearButton = styled(Button)(
   ({ theme: { colorNew, newTokens } }) => ({
     position: 'absolute',
     top: 0,
-    right: borderWidth,
+    right: rem(borderWidth),
     height: '100%',
     display: 'flex',
     justifyContent: 'center',
@@ -33,7 +33,7 @@ export const SearchClearButton = styled(Button)(
     },
     '[dir=rtl] &': {
       right: 'auto',
-      left: borderWidth,
+      left: rem(borderWidth),
     },
   })
 );
