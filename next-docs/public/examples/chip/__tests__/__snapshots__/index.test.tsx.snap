@@ -71,7 +71,7 @@ exports[`Chip renders with Icons 1`] = `
     className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconLeftWrapper-sc-1rq31s5-1 jvQqYs"
+      className="Chip__IconLeftWrapper-sc-1rq31s5-1 jAEMLT"
     >
       <svg
         className="sc-PWMHG"
@@ -95,7 +95,7 @@ exports[`Chip renders with Icons 1`] = `
   >
     Right Icon
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 izKLAb"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 ibNecE"
     >
       <svg
         className="sc-fpGCtG"
@@ -117,7 +117,7 @@ exports[`Chip renders with Icons 1`] = `
     className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconLeftWrapper-sc-1rq31s5-1 jvQqYs"
+      className="Chip__IconLeftWrapper-sc-1rq31s5-1 jAEMLT"
     >
       <svg
         className="sc-PWMHG"
@@ -136,7 +136,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
     Left/Right Icons
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 izKLAb"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 ibNecE"
     >
       <svg
         className="sc-fpGCtG"
@@ -158,7 +158,7 @@ exports[`Chip renders with Icons 1`] = `
     className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconLeftWrapper-sc-1rq31s5-1 dgcqxo"
+      className="Chip__IconLeftWrapper-sc-1rq31s5-1 ghjQEc"
     >
       <svg
         className="sc-PWMHG"
@@ -176,7 +176,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </span>
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 qVBAQ"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 iLWhAk"
     >
       <svg
         className="sc-fpGCtG"
@@ -198,7 +198,7 @@ exports[`Chip renders with Icons 1`] = `
     className="Chip__StyledChip-sc-1rq31s5-0 ioQIlD"
   >
     <span
-      className="Chip__IconRightWrapper-sc-1rq31s5-2 ebISHN"
+      className="Chip__IconRightWrapper-sc-1rq31s5-2 JScFy"
     >
       <svg
         className="sc-fpGCtG"

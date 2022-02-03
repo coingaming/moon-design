@@ -11,7 +11,7 @@ export const DialogToggle = styled.button<DialogToggleProps>(
   ({ theme: { border, color, opacity, radius, space }, heading }) => ({
     position: heading ? 'relative' : 'absolute',
     top: !heading && rem(space.default),
-    right: !heading && rem(space.default),
+    insetInlineEnd: !heading && rem(space.default),
     padding: rem(space.small),
     verticalAlign: 'middle',
     fontSize: rem(space.small),

@@ -1,9 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import NextLink from 'next/link';
-
-import tokenImg from '../public/illustartions/tokens.png';
 import TokenTable from '../components/TokenTable';
+import tokenImg from '../public/illustartions/tokens.png';
 
 const Text: React.FC<{}> = ({ children }) => (
   <p className="text-lg mt-4">{children}</p>
@@ -13,7 +12,7 @@ const ListItem: React.FC<{}> = ({ children }) => (
   <li className="text-lg mt-4">{children}</li>
 );
 
-export default function PageTokens() {
+export default function PageTokensNew() {
   return (
     <>
       <section className="mt-8">
@@ -86,24 +85,92 @@ export default function PageTokens() {
           <Image className="rounded-lg" src={tokenImg} alt="Colours usage" />
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Base</h2>
+      <h2 className="text-3xl font-semibold mt-8">Border Radius</h2>
       <section className="mt-4">
         <TokenTable
           data={[
             {
-              name: 'space',
-              key: 'base.space',
-              value: 16,
+              name: 'none',
+              key: 'borderRadius.none',
+              value: 0,
             },
             {
-              name: 'fontSize',
-              key: 'base.fontSize',
-              value: 16,
+              name: 'twoxsmall',
+              key: 'borderRadius.twoxsmall',
+              value: '2px',
             },
             {
-              name: 'lineHeight',
-              key: 'base.lineHeight',
-              value: 20,
+              name: 'xsmall',
+              key: 'borderRadius.xsmall',
+              value: '4px',
+            },
+            {
+              name: 'small',
+              key: 'borderRadius.small',
+              value: '6px',
+            },
+            {
+              name: 'medium',
+              key: 'borderRadius.medium',
+              value: '8px',
+            },
+            {
+              name: 'large',
+              key: 'borderRadius.large',
+              value: '12px',
+            },
+            {
+              name: 'xlarge',
+              key: 'borderRadius.xlarge',
+              value: '16px',
+            },
+            {
+              name: 'twoxlarge',
+              key: 'borderRadius.twoxlarge',
+              value: '24px',
+            },
+            {
+              name: 'full',
+              key: 'borderRadius.full',
+              value: '9999px',
+            },
+            {
+              name: 'interactive',
+              key: 'borderRadius.interactive',
+              value: '9999px',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Breakpoint</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'small',
+              key: 'breakpoint.small',
+              value: '640px',
+            },
+            {
+              name: 'medium',
+              key: 'breakpoint.medium',
+              value: '768px',
+            },
+            {
+              name: 'large',
+              key: 'breakpoint.large',
+              value: '1024px',
+            },
+            {
+              name: 'xlarge',
+              key: 'breakpoint.xlarge',
+              value: '1280px',
+            },
+            {
+              name: 'twoxlarge',
+              key: 'breakpoint.twoxlarge',
+              value: '1536px',
             },
           ]}
         />
@@ -114,132 +181,29 @@ export default function PageTokens() {
         <TokenTable
           data={[
             {
-              name: 'borderWidth',
-              key: 'borderWidth',
-              value: 1,
-            },
-            {
-              name: 'borderStyle',
-              key: 'borderStyle',
-              value: 'solid',
-            },
-
-            {
-              name: 'border',
-              key: 'base.border',
-              value: 'border 1px solid',
-            },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Box Shadow</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
-            {
-              name: 'boxShadow',
-              key: 'boxShadow',
-              value:
-                '0px 2.4px 7.2px rgba(0, 0, 0, 0.18), 0px 12.8px 28.8px rgba(0, 0, 0, 0.22)',
-            },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Breakpoints</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
-            {
-              name: 'small',
-              key: 'breakpoint.small',
-              value: 500,
-            },
-            {
-              name: 'medium',
-              key: 'breakpoint.medium',
-              value: 800,
-            },
-            {
-              name: 'large',
-              key: 'breakpoint.large',
-              value: 1080,
-            },
-            {
-              name: 'xlarge',
-              key: 'breakpoint.xlarge',
-              value: 1200,
-            },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Font</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
-            {
-              name: 'fontFace',
-              key: 'fontFace',
-              value: 'Returns CSS @font-face declaration.',
-            },
-            {
-              name: 'fontFamily',
-              key: 'fontFamily',
-              value:
-                'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
-            },
-            {
-              name: 'fontSize',
-              key: 'fontSize.body',
-              value: 14,
-            },
-            {
-              name: 'fontWeight',
-              key: 'fontWeight.normal',
-              value: 400,
-            },
-            {
-              name: 'fontWeight',
-              key: 'fontWeight.semibold',
-              value: 500,
-            },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Opacity</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
-            {
-              name: 'disabled',
-              key: 'opacity.disabled',
-              value: 0.35,
-            },
-          ]}
-        />
-      </section>
-
-      <h2 className="text-3xl font-semibold mt-8">Radius</h2>
-      <section className="mt-4">
-        <TokenTable
-          data={[
-            {
-              name: 'small',
-              key: 'radius.small',
-              value: 4,
-            },
-            {
               name: 'default',
-              key: 'radius.default',
-              value: 8,
+              key: 'border.default',
+              value: '1px solid',
             },
             {
-              name: 'largest',
-              key: 'radius.largest',
-              value: 100,
+              name: 'interactive',
+              key: 'border.interactive',
+              value: '2px solid',
+            },
+            {
+              name: 'width.default',
+              key: 'border.width.default',
+              value: '1px',
+            },
+            {
+              name: 'width.interactive',
+              key: 'border.width.interactive',
+              value: '2px',
+            },
+            {
+              name: 'style',
+              key: 'border.style',
+              value: 'solid',
             },
           ]}
         />
@@ -250,34 +214,49 @@ export default function PageTokens() {
         <TokenTable
           data={[
             {
+              name: 'threexsmall',
+              key: 'space.threexsmall',
+              value: '4px',
+            },
+            {
+              name: 'twoxsmall',
+              key: 'space.twoxsmall',
+              value: '8px',
+            },
+            {
               name: 'xsmall',
               key: 'space.xsmall',
-              value: 4,
+              value: '12px',
             },
             {
               name: 'small',
               key: 'space.small',
-              value: 8,
-            },
-            {
-              name: 'default',
-              key: 'space.default',
-              value: 16,
+              value: '16px',
             },
             {
               name: 'medium',
               key: 'space.medium',
-              value: 24,
+              value: '24px',
             },
             {
               name: 'large',
               key: 'space.large',
-              value: 32,
+              value: '32px',
             },
             {
               name: 'xlarge',
               key: 'space.xlarge',
-              value: 40,
+              value: '40px',
+            },
+            {
+              name: 'twoxlarge',
+              key: 'space.twoxlarge',
+              value: '48px',
+            },
+            {
+              name: 'threexlarge',
+              key: 'space.threexlarge',
+              value: '56px',
             },
           ]}
         />
@@ -289,19 +268,19 @@ export default function PageTokens() {
           data={[
             {
               name: 'slow',
-              key: 'transitionDuration.slow',
-              value: 0.4,
+              key: 'transition.slow',
+              value: '0.4s ease-in-out',
             },
             {
               name: 'default',
-              key: 'transitionDuration.default',
-              value: 0.2,
+              key: 'transition.default',
+              value: '0.2s ease-in-out',
             },
           ]}
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">z-index</h2>
+      <h2 className="text-3xl font-semibold mt-8">zIndex</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -319,6 +298,228 @@ export default function PageTokens() {
               name: 'toggle',
               key: 'zIndex.toggle',
               value: 1,
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Box Shadow</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'small',
+              key: 'boxShadow.small',
+              value:
+                '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+            },
+            {
+              name: 'medium',
+              key: 'boxShadow.medium',
+              value:
+                '0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+            },
+            {
+              name: 'large',
+              key: 'boxShadow.large',
+              value:
+                '0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+            },
+            {
+              name: 'xlarge',
+              key: 'boxShadow.xlarge',
+              value:
+                '0 32px  32px -8px rgba(0, 0, 0, 0.08), 0 0 32px -8px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.2)',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Font</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'face',
+              key: 'font.face',
+              value: 'Returns CSS @font-face declaration',
+            },
+            {
+              name: 'family',
+              key: 'font.family',
+              value:
+                'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+            },
+            {
+              name: 'size',
+              key: 'font.size',
+              value: '16px',
+            },
+            {
+              name: 'weight.normal',
+              key: 'font.weight.normal',
+              value: 400,
+            },
+            {
+              name: 'weight.semibold',
+              key: 'font.weight.semibold',
+              value: 500,
+            },
+            {
+              name: 'lineHeight',
+              key: 'font.lineHeight',
+              value: '24px',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Opacity</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'opacity',
+              key: 'opacity',
+              value: 0.32,
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Button // To be done</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'primary',
+              key: 'button.primary',
+              value: 'To be done',
+            },
+            {
+              name: 'secondary',
+              key: 'button.secondary',
+              value: 'To be done',
+            },
+            {
+              name: 'tertiary',
+              key: 'button.tertiary',
+              value: 'To be done',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Text link</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'fontWeight',
+              key: 'textLink.fontWeight',
+              value: 500,
+            },
+            {
+              name: 'color.default',
+              key: 'button.color.default',
+              value: 'piccolo',
+            },
+            {
+              name: 'color.hover',
+              key: 'button.color.hover',
+              value: 'hit',
+            },
+            {
+              name: 'color.visited',
+              key: 'button.color.visited',
+              value: 'hit',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Hover</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'primary',
+              key: 'hover.primary',
+              value: 'bulma, 12%',
+            },
+            {
+              name: 'secondary',
+              key: 'hover.secondary',
+              value: 'piccolo, 12%',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Focus</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'focus',
+              key: 'focus',
+              value: '0 0 0 4px piccolo, 20%',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Transform</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'transform',
+              key: 'transform',
+              value: 'scale(0.9)',
+            },
+          ]}
+        />
+      </section>
+
+      <h2 className="text-3xl font-semibold mt-8">Size</h2>
+      <section className="mt-4">
+        <TokenTable
+          data={[
+            {
+              name: 'twoxsmall',
+              key: 'size.twoxsmall',
+              value: '16px',
+            },
+            {
+              name: 'xsmall',
+              key: 'size.xsmall',
+              value: '24px',
+            },
+            {
+              name: 'small',
+              key: 'size.small',
+              value: '32px',
+            },
+            {
+              name: 'medium',
+              key: 'size.medium',
+              value: '40px',
+            },
+            {
+              name: 'large',
+              key: 'size.large',
+              value: '48px',
+            },
+            {
+              name: 'xlarge',
+              key: 'size.xlarge',
+              value: '56px',
+            },
+            {
+              name: 'twoxlarge',
+              key: 'size.twoxlarge',
+              value: '64px',
             },
           ]}
         />

@@ -5,7 +5,7 @@ exports[`Button New renders Full width property 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 gJfazi"
+    className="ButtonComponent-sc-1qwityd-0 bHPWwp"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -40,7 +40,7 @@ exports[`Button New renders different icons 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 eDSELR"
+    className="ButtonComponent-sc-1qwityd-0 irRrRi"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -68,7 +68,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 eDSELR"
+    className="ButtonComponent-sc-1qwityd-0 irRrRi"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -96,7 +96,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 HzXOF"
+    className="ButtonComponent-sc-1qwityd-0 eJmOQm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -124,7 +124,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 HzXOF"
+    className="ButtonComponent-sc-1qwityd-0 eJmOQm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -307,6 +307,61 @@ exports[`Button New renders different variants 1`] = `
       className="Hover-yzznpt-0 ctGatB"
     />
   </button>
+</div>
+`;
+
+exports[`Button New renders different variants RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex justify-around w-full items-center"
+  >
+    <button
+      className="ButtonComponent-sc-1qwityd-0 blEIXB"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Primary is default
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+    <button
+      className="ButtonComponent-sc-1qwityd-0 hJlrLq"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Secondary
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+    <button
+      className="ButtonComponent-sc-1qwityd-0 eSvDFQ"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Tertiary
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+    <button
+      className="ButtonComponent-sc-1qwityd-0 jdWdgZ"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Ghost
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+  </div>
 </div>
 `;
 
