@@ -118,7 +118,7 @@ const Search: React.FC<SearchProps> = ({
                 <SearchClearIcon />
               </SearchClearButton>
             )}
-            <input type="submit" hidden />
+            <input type="submidt" hidden />
           </SearchBox>
         </SearchForm>
       }
