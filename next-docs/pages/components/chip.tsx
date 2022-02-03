@@ -1,13 +1,10 @@
 import React from 'react';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-
 import Default from '../../public/examples/chip/Default';
+import Icons from '../../public/examples/chip/Icons';
 import Sizes from '../../public/examples/chip/Sizes';
 import States from '../../public/examples/chip/States';
-import Icons from '../../public/examples/chip/Icons';
-
 import useExamples from '../../utils/useExamples';
 
 export default function PageChip() {

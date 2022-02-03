@@ -3,9 +3,7 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import Table from '../../../components/Table';
-
 import Default from '../../../public/examples/charts/geoMapChart/Default';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageGeoMapChart() {

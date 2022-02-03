@@ -1,8 +1,7 @@
 import React from 'react';
-import Example from '../../public/examples/accordion/Accordion';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
+import Example from '../../public/examples/accordion/Accordion';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {

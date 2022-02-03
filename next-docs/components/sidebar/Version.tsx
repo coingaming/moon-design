@@ -1,5 +1,4 @@
 import React from 'react';
-
 import packageInfo from '../../package.json';
 
 export default function Version() {

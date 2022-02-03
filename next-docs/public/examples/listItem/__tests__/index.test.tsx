@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import SingleLineItem from '../SingleLineItem';
 import SingleLineItemIcon from '../SingleLineItemIcon';
 import SingleLineItemSize from '../SingleLineItemSize';
@@ -25,12 +24,16 @@ describe('List Item', () => {
   });
 
   it('renders Single Line Item with Icon', () => {
-    const testRenderer = renderer.create(renderWithTheme(<SingleLineItemIcon />));
+    const testRenderer = renderer.create(
+      renderWithTheme(<SingleLineItemIcon />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
   it('renders Single Line Item with differen Sizes', () => {
-    const testRenderer = renderer.create(renderWithTheme(<SingleLineItemSize />));
+    const testRenderer = renderer.create(
+      renderWithTheme(<SingleLineItemSize />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
@@ -40,7 +43,9 @@ describe('List Item', () => {
   });
 
   it('renders Two Line Items with Checkbox', () => {
-    const testRenderer = renderer.create(renderWithTheme(<TwoLineItemsCheckbox />));
+    const testRenderer = renderer.create(
+      renderWithTheme(<TwoLineItemsCheckbox />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

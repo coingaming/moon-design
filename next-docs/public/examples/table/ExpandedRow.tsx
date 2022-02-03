@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Table } from '@heathmont/moon-table';
 
 interface HeaderProps {

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (

@@ -1,7 +1,6 @@
-import { CSSObject } from 'styled-components';
 import margin from 'polished/lib/shorthands/margin';
 import padding from 'polished/lib/shorthands/padding';
-
+import { CSSObject } from 'styled-components';
 import rem from '../rem/rem';
 
 type ContainerSize = CSSObject['maxWidth'];

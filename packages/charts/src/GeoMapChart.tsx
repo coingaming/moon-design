@@ -2,7 +2,6 @@ import React from 'react';
 import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import ChartIcons from './ChartIcons';
 import { Header } from './private/Header';
 import { Loader } from './private/Loader';

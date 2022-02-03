@@ -4,7 +4,6 @@ import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 import styled from 'styled-components';
-
 import { TooltipWrapper, Item, ColorPreview } from './Tooltip';
 import worldMap from './World110m';
 

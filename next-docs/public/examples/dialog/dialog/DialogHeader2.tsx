@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Dialog, Button } from '@heathmont/moon-components';
 import { Header } from '@heathmont/moon-core';
 import { Footer } from '@heathmont/moon-core';

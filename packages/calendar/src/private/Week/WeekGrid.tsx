@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 import { getGridTemplateColumns } from '../getGridTemplateColumns';
 
 export const WeekGrid = styled.div<{

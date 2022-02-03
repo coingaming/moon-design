@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import NumberWithLabel from '../../../public/examples/textInput/number/NumberWithLabel';
-import NumberWithoutLabel from '../../../public/examples/textInput/number/NumberWithoutLabel';
-import NumberWithHint from '../../../public/examples/textInput/number/NumberWithHint';
+import NumberBgColor from '../../../public/examples/textInput/number/NumberBgColor';
 import NumberDisabled from '../../../public/examples/textInput/number/NumberDisabled';
 import NumberError from '../../../public/examples/textInput/number/NumberError';
-import NumberBgColor from '../../../public/examples/textInput/number/NumberBgColor';
 import NumberReadonly from '../../../public/examples/textInput/number/NumberReadonly';
-
+import NumberWithHint from '../../../public/examples/textInput/number/NumberWithHint';
+import NumberWithLabel from '../../../public/examples/textInput/number/NumberWithLabel';
+import NumberWithoutLabel from '../../../public/examples/textInput/number/NumberWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageNumberInput() {

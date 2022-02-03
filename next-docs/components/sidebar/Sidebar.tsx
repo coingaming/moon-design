@@ -1,13 +1,11 @@
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
-import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-
+import { useRouter } from 'next/router';
 import classNames from '../../utils/classNames';
-
-import navigation from './navigation';
 import Arrow from './Arrow';
 import Logo from './Logo';
+import navigation from './navigation';
 import Version from './Version';
 
 interface LinkProps {

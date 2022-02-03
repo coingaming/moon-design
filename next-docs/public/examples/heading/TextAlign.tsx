@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Heading } from '@heathmont/moon-core';
 
 const Example = () => (

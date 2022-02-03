@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { ListItem } from '@heathmont/moon-core';
 import { IconClaps } from '@heathmont/moon-assets';
 

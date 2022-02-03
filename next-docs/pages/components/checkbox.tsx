@@ -1,14 +1,11 @@
 // @ts-nocheck
 import React from 'react';
-
-import Example from '../../public/examples/checkbox/Example';
-import Disabled from '../../public/examples/checkbox/Disabled';
-import Checked from '../../public/examples/checkbox/Checked';
+import Preview from '../../components/codePreview/Preview';
 import AriaLabel from '../../public/examples/checkbox/AriaLabel';
 import AriaLabelList from '../../public/examples/checkbox/AriaLabelList';
-
-import Preview from '../../components/codePreview/Preview';
-
+import Checked from '../../public/examples/checkbox/Checked';
+import Disabled from '../../public/examples/checkbox/Disabled';
+import Example from '../../public/examples/checkbox/Example';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {

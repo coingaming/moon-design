@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React from 'react';
-
 import { DateRangePicker } from '@heathmont/moon-datepicker';
 import { rem } from '@heathmont/moon-utils';
 
