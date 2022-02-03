@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import TimeWithLabel from '../../../public/examples/textInput/time/TimeWithLabel';
-import TimeWithoutLabel from '../../../public/examples/textInput/time/TimeWithoutLabel';
-import TimeWithHint from '../../../public/examples/textInput/time/TimeWithHint';
+import TimeBgColor from '../../../public/examples/textInput/time/TimeBgColor';
 import TimeDisabled from '../../../public/examples/textInput/time/TimeDisabled';
 import TimeError from '../../../public/examples/textInput/time/TimeError';
-import TimeBgColor from '../../../public/examples/textInput/time/TimeBgColor';
 import TimeReadonly from '../../../public/examples/textInput/time/TimeReadonly';
-
+import TimeWithHint from '../../../public/examples/textInput/time/TimeWithHint';
+import TimeWithLabel from '../../../public/examples/textInput/time/TimeWithLabel';
+import TimeWithoutLabel from '../../../public/examples/textInput/time/TimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTimeInput() {

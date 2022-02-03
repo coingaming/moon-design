@@ -91,10 +91,10 @@ const CustomStyles: StylesConfig = {
       border: 'none !important',
       borderRadius: theme.newTokens.borderRadius.large,
       boxShadow: customProps.isError
-        ? `inset 0 0 0 2px ${theme.colorNew.chiChi[100]}`
+        ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.chiChi[100]}`
         : state.isFocused
-        ? `inset 0 0 0 2px ${theme.colorNew.piccolo}`
-        : `inset 0 0 0 1px ${theme.colorNew.beerus}`,
+        ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
+        : `inset 0 0 0 ${theme.newTokens.border.width.default} ${theme.colorNew.beerus}`,
       transition:
         !state.isFocused || !customProps.isError
           ? `box-shadow ${theme.newTokens.transition.default}`
@@ -102,10 +102,10 @@ const CustomStyles: StylesConfig = {
       minHeight: customProps.size === 'xLarge' ? rem(56) : rem(48),
       '&:hover': {
         boxShadow: customProps.isError
-          ? `inset 0 0 0 2px ${theme.colorNew.chiChi[100]}`
+          ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.chiChi[100]}`
           : state.isFocused
-          ? `inset 0 0 0 2px ${theme.colorNew.piccolo}`
-          : `inset 0 0 0 2px ${theme.newTokens.hover.primary}, inset 0 0 0 2px ${theme.colorNew.beerus}`,
+          ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
+          : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.newTokens.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },
     };

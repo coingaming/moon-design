@@ -11,8 +11,8 @@ const ColorUsage: React.FC<{}> = ({ children }) => (
 );
 
 interface PalleteColorProp {
-  className: string; // eg. bg-piccolo-80
-  value: 10 | 40 | 80 | 100 | 120;
+  className: string; // eg. bg-piccolo
+  value?: 10 | 60 | 100;
   description?: string;
 }
 
@@ -32,7 +32,7 @@ const Palette = ({ colors }: { colors: PalleteColorProp[] }) => {
   );
 };
 
-export default function PageColours() {
+export default function PageColoursNew() {
   return (
     <>
       <section className="mt-8">
@@ -70,217 +70,206 @@ export default function PageColours() {
         </div>
       </section>
       <h2 className="text-3xl font-semibold mt-8">Main colours</h2>
-      <section className="mt-4">
-        <ColorName>Piccolo (Primary)</ColorName>
-        <ColorUsage>Main button, links etc</ColorUsage>
+      <section className="mt-8">
+        <ColorUsage>Accent colours</ColorUsage>
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-piccolo-80', description: 'hover', value: 80 },
-              { className: 'bg-piccolo', description: 'default', value: 100 },
+              { className: 'bg-piccolo', description: 'piccolo' },
+              { className: 'bg-hit', description: 'hit' },
+            ]}
+          />
+        </div>
+      </section>
+      <section className="mt-8">
+        <ColorUsage>Border and line colour</ColorUsage>
+        <div className="mt-4">
+          <Palette
+            colors={[{ className: 'bg-beerus', description: 'beerus' }]}
+          />
+        </div>
+      </section>
+      <section className="mt-8">
+        <ColorUsage>Background colours</ColorUsage>
+        <div className="mt-4">
+          <Palette
+            colors={[
+              { className: 'bg-goku', description: 'goku' },
+              { className: 'bg-gohan', description: 'gohan' },
+            ]}
+          />
+        </div>
+      </section>
+      <section className="mt-8">
+        <ColorUsage>Text and icon colours</ColorUsage>
+        <div className="mt-4">
+          <Palette
+            colors={[
+              { className: 'bg-bulma', description: 'bulma' },
+              { className: 'bg-trunks', description: 'trunks' },
+            ]}
+          />
+        </div>
+      </section>
+      <section className="mt-8">
+        <ColorUsage>Forced colours</ColorUsage>
+        <div className="mt-4">
+          <Palette
+            colors={[
+              { className: 'bg-goten', description: 'goten' },
+              { className: 'bg-popo', description: 'popo' },
+            ]}
+          />
+        </div>
+      </section>
+      <h2 className="text-3xl font-semibold mt-8">Supportive colours</h2>
+      <section className="mt-8">
+        <ColorName>Krillin</ColorName>
+        <ColorUsage>Warning colour</ColorUsage>
+        <div className="mt-4">
+          <Palette
+            colors={[
               {
-                className: 'bg-piccolo-120',
-                description: 'active',
-                value: 120,
+                className: 'bg-krillin',
+                description: 'krillin',
+                value: 100,
               },
+              { className: 'bg-krillin-60', description: 'krillin', value: 60 },
+              { className: 'bg-krillin-10', description: 'krillin', value: 10 },
             ]}
           />
         </div>
       </section>
       <section className="mt-8">
-        <ColorName>Hit (Secondary)</ColorName>
-        <ColorUsage>Secondary button</ColorUsage>
+        <ColorName>Chi Chi</ColorName>
+        <ColorUsage>Error colour</ColorUsage>
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-hit-80', description: 'hover', value: 80 },
-              { className: 'bg-hit', description: 'default', value: 100 },
-              { className: 'bg-hit-120', description: 'active', value: 120 },
+              {
+                className: 'bg-chiChi',
+                description: 'chiChi',
+                value: 100,
+              },
+              { className: 'bg-chiChi-60', description: 'chiChi', value: 60 },
+              { className: 'bg-chiChi-10', description: 'chiChi', value: 10 },
             ]}
           />
         </div>
       </section>
       <section className="mt-8">
-        <ColorName>Beerus</ColorName>
-        <ColorUsage>Border color</ColorUsage>
-        <div className="mt-4">
-          <Palette colors={[{ className: 'bg-beerus', value: 100 }]} />
-        </div>
-      </section>
-      <section className="mt-8">
-        <ColorName>Goku</ColorName>
-        <ColorUsage>Main background</ColorUsage>
+        <ColorName>Roshi</ColorName>
+        <ColorUsage>Success colour</ColorUsage>
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-goku', value: 100 },
-              { className: 'bg-goku-80', value: 80 },
-              { className: 'bg-goku-40', value: 40 },
-              { className: 'bg-goku-10', value: 10 },
+              {
+                className: 'bg-roshi',
+                description: 'roshi',
+                value: 100,
+              },
+              { className: 'bg-roshi-60', description: 'roshi', value: 60 },
+              { className: 'bg-roshi-10', description: 'roshi', value: 10 },
             ]}
           />
         </div>
       </section>
       <section className="mt-8">
-        <ColorName>Gohan</ColorName>
-        <ColorUsage>Secondary background color</ColorUsage>
+        <ColorName>Dodoria</ColorName>
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-gohan', value: 100 },
-              { className: 'bg-gohan-80', value: 80 },
-              { className: 'bg-gohan-40', value: 40 },
-              { className: 'bg-gohan-10', value: 10 },
+              {
+                className: 'bg-dodoria',
+                description: 'dodoria',
+                value: 100,
+              },
+              { className: 'bg-dodoria-60', description: 'dodoria', value: 60 },
+              { className: 'bg-dodoria-10', description: 'dodoria', value: 10 },
             ]}
           />
         </div>
       </section>
       <section className="mt-8">
-        <ColorName>Goten</ColorName>
-        <ColorUsage>
-          Button text, promotions card text. Some cases body text or headline
-          text.
-        </ColorUsage>
+        <ColorName>Cell</ColorName>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-goten', value: 100 }]} />
+          <Palette
+            colors={[
+              {
+                className: 'bg-cell',
+                description: 'cell',
+                value: 100,
+              },
+              { className: 'bg-cell-60', description: 'cell', value: 60 },
+              { className: 'bg-cell-10', description: 'cell', value: 10 },
+            ]}
+          />
         </div>
       </section>
       <section className="mt-8">
-        <ColorName>Bulma</ColorName>
-        <ColorUsage>Main body text</ColorUsage>
+        <ColorName>Raditz</ColorName>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-bulma', value: 100 }]} />
+          <Palette
+            colors={[
+              {
+                className: 'bg-raditz',
+                description: 'raditz',
+                value: 100,
+              },
+              { className: 'bg-raditz-60', description: 'raditz', value: 60 },
+              { className: 'bg-raditz-10', description: 'raditz', value: 10 },
+            ]}
+          />
         </div>
       </section>
       <section className="mt-8">
-        <ColorName>Trunks</ColorName>
-        <ColorUsage>Secondary body text</ColorUsage>
+        <ColorName>Whis</ColorName>
         <div className="mt-4">
-          <Palette colors={[{ className: 'bg-trunks', value: 100 }]} />
+          <Palette
+            colors={[
+              {
+                className: 'bg-whis',
+                description: 'whis',
+                value: 100,
+              },
+              { className: 'bg-whis-60', description: 'whis', value: 60 },
+              { className: 'bg-whis-10', description: 'whis', value: 10 },
+            ]}
+          />
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Support colours</h2>
-
-      <div className="flex gap-40 flex-wrap items-end">
-        <section className="mt-8">
-          <ColorName>Krillin</ColorName>
-          <ColorUsage>Warning colours</ColorUsage>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-krillin', value: 100 },
-                { className: 'bg-krillin-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>chiChi</ColorName>
-          <ColorUsage>Error colours</ColorUsage>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-chiChi', value: 100 },
-                { className: 'bg-chiChi-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Roshi</ColorName>
-          <ColorUsage>Success colours</ColorUsage>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-roshi', value: 100 },
-                { className: 'bg-roshi-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Popo</ColorName>
-          <ColorUsage>Black colour</ColorUsage>
-          <div className="mt-4">
-            <Palette colors={[{ className: 'bg-popo', value: 100 }]} />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Dodoria</ColorName>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-dodoria', value: 100 },
-                { className: 'bg-dodoria-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Cell</ColorName>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-cell', value: 100 },
-                { className: 'bg-cell-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Raditz</ColorName>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-raditz', value: 100 },
-                { className: 'bg-raditz-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Whis</ColorName>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-whis', value: 100 },
-                { className: 'bg-whis-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Frieza</ColorName>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-frieza', value: 100 },
-                { className: 'bg-frieza-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <ColorName>Nappa</ColorName>
-          <div className="mt-4">
-            <Palette
-              colors={[
-                { className: 'bg-nappa', value: 100 },
-                { className: 'bg-nappa-10', value: 10 },
-              ]}
-            />
-          </div>
-        </section>
-      </div>
+      <section className="mt-8">
+        <ColorName>Frieza</ColorName>
+        <div className="mt-4">
+          <Palette
+            colors={[
+              {
+                className: 'bg-frieza',
+                description: 'frieza',
+                value: 100,
+              },
+              { className: 'bg-frieza-60', description: 'frieza', value: 60 },
+              { className: 'bg-frieza-10', description: 'frieza', value: 10 },
+            ]}
+          />
+        </div>
+      </section>
+      <section className="mt-8">
+        <ColorName>Nappa</ColorName>
+        <div className="mt-4">
+          <Palette
+            colors={[
+              {
+                className: 'bg-nappa',
+                description: 'nappa',
+                value: 100,
+              },
+              { className: 'bg-nappa-60', description: 'nappa', value: 60 },
+              { className: 'bg-nappa-10', description: 'nappa', value: 10 },
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }

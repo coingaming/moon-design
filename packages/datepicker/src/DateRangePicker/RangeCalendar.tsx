@@ -1,5 +1,4 @@
 import React from 'react';
-
 import useRangeCalendar from './private/hooks/useRangeCalendar';
 import { Picker } from './private/Picker';
 import type { DatesRange } from './private/helpers/getDatesFromRange';

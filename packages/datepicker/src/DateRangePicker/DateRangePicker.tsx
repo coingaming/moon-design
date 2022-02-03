@@ -2,8 +2,6 @@ import React from 'react';
 import { Button } from '@heathmont/moon-components';
 import { enGB } from 'date-fns/locale';
 import styled from 'styled-components';
-
-
 import { getPlaceholder } from './private/helpers/getPlaceholder';
 import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 

@@ -5,7 +5,6 @@ import {
   FilterDropdown,
   SingleItemSelect,
 } from '@heathmont/moon-components';
-import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import useClickAway from './__private__/useClickAway';
 
@@ -20,8 +19,8 @@ const Dropdown = styled.div(({ theme }) => ({
   left: 0,
   minWidth: '100%',
   width: 'auto',
-  marginBottom: rem(theme.space.small),
-  zIndex: theme.zIndex.dialog,
+  marginBottom: theme.newTokens.space.xsmall,
+  zIndex: theme.newTokens.zIndex.dialog,
   '& > div': {
     minWidth: 'auto',
     width: '100%',
@@ -32,7 +31,7 @@ const ButtonDefault = styled(Button)(({ theme }) => ({
   color: theme.colorNew.trunks,
   background: 'none',
   borderColor: theme.colorNew.beerus,
-  transition: `color ${theme.transitionDuration.default}s`,
+  transition: `color ${theme.newTokens.transition.default}`,
   '&:hover:not([disabled]), &:focus:not([disabled])': {
     background: 'none',
     color: theme.colorNew.piccolo,

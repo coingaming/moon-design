@@ -2,13 +2,13 @@ import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
-import IconClose from '../private/icons/IconClose';
-import DialogOverlay from '../dialogOverlay/DialogOverlay';
 import DialogContent from '../dialogContent/DialogContent';
+import DialogOverlay from '../dialogOverlay/DialogOverlay';
+import IconClose from '../private/icons/IconClose';
 
-import { DialogToggle, DialogToggleText } from './private/toggle';
-import { DialogContainer, DialogMain } from './private/layout';
 import { HeadingWrapper } from './private/headingWrapper';
+import { DialogContainer, DialogMain } from './private/layout';
+import { DialogToggle, DialogToggleText } from './private/toggle';
 
 import type {
   DialogPosition,

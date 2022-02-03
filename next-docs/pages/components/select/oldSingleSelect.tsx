@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
 import Default from '../../../public/examples/select/singleSelect/Default';
 import DefaultValue from '../../../public/examples/select/singleSelect/DefaultValue';
 import Disabled from '../../../public/examples/select/singleSelect/Disabled';
@@ -16,7 +14,6 @@ import Placeholders from '../../../public/examples/select/singleSelect/Placehold
 import Secondary from '../../../public/examples/select/singleSelect/Secondary';
 import Slot from '../../../public/examples/select/singleSelect/Slot';
 import Ssr from '../../../public/examples/select/singleSelect/Ssr';
-
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelectSingle() {

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { rem } from '@heathmont/moon-utils';
 import { Header } from '@heathmont/moon-core';
 import { ControlsChevronLeft, ControlsClose } from '@heathmont/moon-icons';

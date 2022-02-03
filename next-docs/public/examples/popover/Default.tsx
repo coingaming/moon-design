@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Popover } from '@heathmont/moon-popover/lib';
 import { Footer, Heading, Text } from '@heathmont/moon-core';
 import { Button } from '@heathmont/moon-components';

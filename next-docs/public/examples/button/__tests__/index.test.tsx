@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Primary from '../Primary';
 import Secondary from '../Secondary';
 import Tertiary from '../Tertiary';

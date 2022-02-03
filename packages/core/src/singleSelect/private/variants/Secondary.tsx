@@ -2,7 +2,6 @@ import React from 'react';
 import { ControlsChevronDown } from '@heathmont/moon-icons/lib';
 import { rem } from '@heathmont/moon-utils';
 import ListboxButtonWrapper from '../styles/ListboxButtonWrapper';
-
 import InnerLabel from './styles/InnerLabel';
 import ValueWrapper from './styles/ValueWrapper';
 

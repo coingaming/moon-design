@@ -26,6 +26,7 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': 'off',
     'no-undef': 'off',
     'no-unused-vars': 'off',
+    'import/no-duplicates': 1,
     'import/order': [
       'warn',
       {

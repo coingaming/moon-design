@@ -5,7 +5,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import EmailWithLabel from '../EmailWithLabel';
 import EmailWithoutLabel from '../EmailWithoutLabel';
 import EmailWithHint from '../EmailWithHint';

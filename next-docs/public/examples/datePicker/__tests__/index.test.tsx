@@ -6,7 +6,6 @@ import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer, { act } from 'react-test-renderer';
 import { toMatchDiffSnapshot } from 'snapshot-diff';
-
 import Default from '../Default';
 import Calendar from '../Calendar';
 import CalendarDisabledDay from '../CalendarDisabledDay';
@@ -20,9 +19,20 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('DatePicker', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

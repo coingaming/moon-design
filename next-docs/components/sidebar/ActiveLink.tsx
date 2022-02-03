@@ -1,7 +1,7 @@
+import React, { Children } from 'react';
+import Link, { LinkProps } from 'next/link';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
-import Link, { LinkProps } from 'next/link';
-import React, { Children } from 'react';
 
 type ActiveLinkProps = Partial<React.PropsWithChildren<LinkProps>> & {
   href: string;

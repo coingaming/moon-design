@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import ListboxInputWrapper from './styles/ListboxInputWrapper';
-import Container from './styles/Container';
-import SelectLabel from './styles/SelectLabel';
-import HintText from './styles/HintText';
-import SingleSelectWithContext from './private/SingleSelectWithContext';
-import Option from './private/OptionType';
 import { ListboxInputProps } from '@reach/listbox';
+import Option from './private/OptionType';
+import SingleSelectWithContext from './private/SingleSelectWithContext';
+import Container from './styles/Container';
+import HintText from './styles/HintText';
+import ListboxInputWrapper from './styles/ListboxInputWrapper';
+import SelectLabel from './styles/SelectLabel';
 
 export interface SingleSelectProps
   extends React.InputHTMLAttributes<HTMLSelectElement> {

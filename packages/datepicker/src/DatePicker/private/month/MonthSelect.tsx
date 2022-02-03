@@ -1,7 +1,6 @@
 import React from 'react';
 import useClickOutside from '../../../hooks/useClickOutside';
 import { getMonths } from '../../../private/helper/getMonths';
-
 import Container from './styles/Container';
 import LabelContainer from './styles/LabelContainer';
 import SelectorContainer from './styles/SelectorContainer';
@@ -25,7 +24,6 @@ const MonthSelect: React.FC<MonthSelectProps> = ({ monthLabel, setMonth }) => {
   return (
     <Container
       onClick={() => setOpen(!isOpen)}
-      style={{ textAlign: 'start' }}
       ref={ref}
       test-id="month-select"
     >

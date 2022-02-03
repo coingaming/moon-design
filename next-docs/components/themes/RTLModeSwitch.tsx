@@ -1,4 +1,5 @@
 import React from 'react';
+import { TextLeftAlign, TextRightAlign } from '@heathmont/moon-icons';
 
 interface IRTLModeSwitch {
   isEnabled: boolean;
@@ -24,7 +25,7 @@ const RTLModeSwitch: React.FC<IRTLModeSwitch> = ({ isEnabled, toggle }) => (
         }  absolute inset-0 h-full w-full flex items-center justify-center transition-opacity`}
         aria-hidden="true"
       >
-        {!isEnabled && 'l'}
+        {!isEnabled && <TextLeftAlign />}
       </span>
       <span
         className={`${
@@ -34,7 +35,7 @@ const RTLModeSwitch: React.FC<IRTLModeSwitch> = ({ isEnabled, toggle }) => (
         } absolute inset-0 h-full w-full flex items-center justify-center transition-opacity`}
         aria-hidden="true"
       >
-        {isEnabled && 'r'}
+        {isEnabled && <TextRightAlign />}
       </span>
     </span>
   </button>

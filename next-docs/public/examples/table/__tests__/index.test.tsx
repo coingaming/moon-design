@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Default from '../Default';
 import Calendar from '../Calendar';
 import CustomContent from '../CustomContent';

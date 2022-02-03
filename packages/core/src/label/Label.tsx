@@ -2,7 +2,6 @@ import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import LabelContainer from './styles/LabelContainer';
 
 export type LabelProps = {

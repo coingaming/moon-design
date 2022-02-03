@@ -1,6 +1,5 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import { CollapseTarget } from './CollapseTarget';
 
 export const OuterContainer = styled.div<{

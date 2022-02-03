@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { BodyTR, Table, TD } from '@heathmont/moon-table';
 
 const Example = () => {
