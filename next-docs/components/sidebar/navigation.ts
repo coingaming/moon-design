@@ -95,6 +95,7 @@ const navigation = [
           // },
         ],
       },
+      { name: 'Sidebar', href: '/components/sidebar' },
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
       { name: 'Table', href: '/components/table/table' },
