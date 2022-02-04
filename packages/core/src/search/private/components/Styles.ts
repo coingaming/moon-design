@@ -10,14 +10,14 @@ export const resultsInactive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 0,
   visibility: 'hidden',
   maxHeight: 0,
-  transition: `visibility 0s linear ${newTokens.transition.default}, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
+  transition: `visibility 0s linear, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
 export const resultsActive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 1,
   visibility: 'visible',
   maxHeight: '100vh',
-  transition: `visibility 0s linear 0s, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
+  transition: `visibility 0s linear, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
 export const SearchForm = styled.form({
