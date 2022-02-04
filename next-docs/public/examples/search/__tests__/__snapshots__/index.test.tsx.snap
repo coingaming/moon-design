@@ -20,7 +20,7 @@ exports[`Search renders 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 fOizjo"
+            className="Input__SearchInput-vvx0zy-4 kXQIVd"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -104,7 +104,7 @@ exports[`Search renders Loading State 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 fOizjo"
+            className="Input__SearchInput-vvx0zy-4 kXQIVd"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
