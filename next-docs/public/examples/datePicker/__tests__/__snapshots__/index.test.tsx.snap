@@ -29,7 +29,7 @@ exports[`Calendar hide calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        21/02/2022
+        21/02/2021
       </div>
     </button>
     <div
@@ -68,7 +68,7 @@ exports[`Calendar hide calendar 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2022
+            2021
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -126,9 +126,6 @@ exports[`Calendar hide calendar 1`] = `
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
@@ -142,7 +139,7 @@ exports[`Calendar hide calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               2
@@ -408,24 +405,6 @@ exports[`Calendar hide calendar 1`] = `
               28
             </div>
           </div>
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
         </div>
         <svg
           className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
@@ -454,10 +433,10 @@ exports[`Calendar hide calendar 2`] = `
 - First value
 + Second value
 
-@@ -27,420 +27,7 @@
+@@ -27,399 +27,7 @@
           className=\\"Button__InnerContainer-sc-1xtdszg-0 gwKSbc\\"
         >
-          21/02/2022
+          21/02/2021
         </div>
       </button>
 -     <div
@@ -496,7 +475,7 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Container-sc-12436zc-0 dhiDxg\\"
 -             onClick={[Function onClick]}
 -           >
--             2022
+-             2021
 -              
 -             <svg
 -               className=\\"sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW\\"
@@ -554,9 +533,6 @@ exports[`Calendar hide calendar 2`] = `
 -             S
 -           </div>
 -           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
@@ -570,7 +546,7 @@ exports[`Calendar hide calendar 2`] = `
 -             className=\\"Day__DayWrapper-sc-19zp0xj-0 cvtEYO\\"
 -           >
 -             <div
--               className=\\"DayContainer-l4w9ci-0 bHFKFH\\"
+-               className=\\"DayContainer-l4w9ci-0 coSdBl\\"
 -               onClick={[Function onClick]}
 -             >
 -               2
@@ -836,24 +812,6 @@ exports[`Calendar hide calendar 2`] = `
 -               28
 -             </div>
 -           </div>
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
--           <div
--             className=\\"Day__EmptyCell-sc-19zp0xj-1 gXTlnz\\"
--           />
 -         </div>
 -         <svg
 -           className=\\"sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb\\"
@@ -906,7 +864,7 @@ exports[`Calendar renders 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        04/02/2022
+        04/02/2021
       </div>
     </button>
     <div
@@ -945,7 +903,7 @@ exports[`Calendar renders 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2022
+            2021
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -1003,9 +961,6 @@ exports[`Calendar renders 1`] = `
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
@@ -1019,7 +974,7 @@ exports[`Calendar renders 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               2
@@ -1285,24 +1240,6 @@ exports[`Calendar renders 1`] = `
               28
             </div>
           </div>
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
         </div>
         <svg
           className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
@@ -1355,7 +1292,7 @@ exports[`Calendar select day 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        21/02/2022
+        21/02/2021
       </div>
     </button>
   </div>
@@ -1391,7 +1328,7 @@ exports[`Calendar show calendar 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        04/02/2022
+        04/02/2021
       </div>
     </button>
     <div
@@ -1430,7 +1367,7 @@ exports[`Calendar show calendar 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2022
+            2021
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -1488,9 +1425,6 @@ exports[`Calendar show calendar 1`] = `
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
@@ -1504,7 +1438,7 @@ exports[`Calendar show calendar 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               2
@@ -1770,24 +1704,6 @@ exports[`Calendar show calendar 1`] = `
               28
             </div>
           </div>
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
         </div>
         <svg
           className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
@@ -1840,7 +1756,7 @@ exports[`Calendar show month select 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        04/02/2022
+        04/02/2021
       </div>
     </button>
     <div
@@ -1955,7 +1871,7 @@ exports[`Calendar show month select 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2022
+            2021
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -2013,9 +1929,6 @@ exports[`Calendar show month select 1`] = `
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
@@ -2029,7 +1942,7 @@ exports[`Calendar show month select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               2
@@ -2295,24 +2208,6 @@ exports[`Calendar show month select 1`] = `
               28
             </div>
           </div>
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
         </div>
         <svg
           className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
@@ -2365,7 +2260,7 @@ exports[`Calendar show years select 1`] = `
       <div
         className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
       >
-        04/02/2022
+        04/02/2021
       </div>
     </button>
     <div
@@ -2480,7 +2375,7 @@ exports[`Calendar show years select 1`] = `
             className="Container-sc-12436zc-0 dhiDxg"
             onClick={[Function]}
           >
-            2022
+            2021
              
             <svg
               className="sc-eggNIi YearSelect__DownArrow-yo6fwg-0  emwdFW"
@@ -3236,7 +3131,7 @@ exports[`Calendar show years select 1`] = `
                 className="LabelContainer-sc-11t7oym-0 cpRSKT"
                 onClick={[Function]}
               >
-                2022
+                2021
               </div>
               <div
                 className="LabelContainer-sc-11t7oym-0 cpRSKT"
@@ -4048,9 +3943,6 @@ exports[`Calendar show years select 1`] = `
             S
           </div>
           <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
@@ -4064,7 +3956,7 @@ exports[`Calendar show years select 1`] = `
             className="Day__DayWrapper-sc-19zp0xj-0 cvtEYO"
           >
             <div
-              className="DayContainer-l4w9ci-0 bHFKFH"
+              className="DayContainer-l4w9ci-0 coSdBl"
               onClick={[Function]}
             >
               2
@@ -4330,24 +4222,6 @@ exports[`Calendar show years select 1`] = `
               28
             </div>
           </div>
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
-          <div
-            className="Day__EmptyCell-sc-19zp0xj-1 gXTlnz"
-          />
         </div>
         <svg
           className="sc-dOSReg RightArrow-sc-49vgmx-0  loyQRb"
