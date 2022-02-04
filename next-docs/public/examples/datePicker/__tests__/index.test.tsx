@@ -28,7 +28,7 @@ const renderWithThemeRTL = (component: JSX.Element) => (
 
 beforeAll(() => {
   jest.useFakeTimers('modern');
-  jest.setSystemTime(new Date(2022, 2, 2));
+  jest.setSystemTime(new Date(2021, 2, 2));
 });
 
 afterAll(() => {
