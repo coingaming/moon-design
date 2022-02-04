@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import Animations from '../../public/examples/buttonNew/Animations';
 import Disabled from '../../public/examples/buttonNew/Disabled';
 import FullWidth from '../../public/examples/buttonNew/FullWidth';
 import Icons from '../../public/examples/buttonNew/Icons';
@@ -63,6 +64,14 @@ export default function PageButtonNew() {
           title="Disabled"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
+        />
+      </section>
+      {/* Animations */}
+      <section className="mt-8">
+        <Preview
+          title="Animations"
+          preview={<Animations />}
+          code={examples ? examples.Animations : 'Loading'}
         />
       </section>
     </>
