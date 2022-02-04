@@ -4,7 +4,6 @@ import { Switch } from '@heathmont/moon-components';
 
 const Example = () => {
   const [state, setState] = useState(true);
-
   return (
     <>
       <Switch
@@ -13,9 +12,7 @@ const Example = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
-        colorScheme
-        captionUnchecked="AM"
-        captionChecked="PM"
+        isRtl={true}
       />
     </>
   );

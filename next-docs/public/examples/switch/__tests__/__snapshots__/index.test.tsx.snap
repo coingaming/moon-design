@@ -27,7 +27,7 @@ exports[`Switch renders RTL 1`] = `
   >
     <input
       checked={true}
-      className="Switch__Input-sc-11hx91j-2 cqTYuv"
+      className="Switch__Input-sc-11hx91j-2 gTmrER"
       id="test-switch-1"
       onChange={[Function]}
       type="checkbox"

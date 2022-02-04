@@ -4,8 +4,6 @@ import React, {
   ReactPortal,
   useState,
 } from 'react';
-import useCloneElements from '../utils/useCloneElements';
-import useRecursiveMapChildren from '../utils/useRecursiveMapChildren';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';
@@ -69,10 +67,6 @@ export default function Layout({ children }: LayoutProps) {
       htmlTag.removeAttribute('dir');
     }
   };
-
-  const childrenWithProps = useRecursiveMapChildren(children, (child) =>
-    useCloneElements(child, { isRtl })
-  );
 
   return (
     <div
@@ -140,7 +134,7 @@ export default function Layout({ children }: LayoutProps) {
             }
           />
 
-          <div className="py-6 px-4 md:px-16 lg:px-0">{childrenWithProps}</div>
+          <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
 
           <div className="mt-auto py-8 px-4 lg:pt-24">
             <Footer />
