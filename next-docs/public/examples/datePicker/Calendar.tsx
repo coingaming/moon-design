@@ -4,7 +4,7 @@ import { rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
 const Example = () => {
-  const [initialDate, setDate] = React.useState(new Date('February 4, 2022'));
+  const [initialDate, setDate] = React.useState(new Date('February 4, 2021'));
   const [isOpen, setIsOpen] = React.useState(true);
   const [ref, hasClickedOutside] = useClickOutside();
 
