@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -53,7 +54,7 @@ const colorNew = {
 };
 
 const tajCasinoDark: Theme = {
-  ...sharedTokens(colorNew),
+  ...sharedTokens,
   brand: 'Tajcasino',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
@@ -76,6 +77,7 @@ const tajCasinoDark: Theme = {
     default: 8,
     largest: 8,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };
 

@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -56,7 +57,7 @@ const colorsNew = {
 };
 
 const moonDesignLight: Theme = {
-  ...sharedTokens(colorsNew),
+  ...sharedTokens,
   brand: 'MoonDesign',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
@@ -75,6 +76,7 @@ const moonDesignLight: Theme = {
     ...colorsNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorsNew),
   colorScheme: 'light',
 };
 

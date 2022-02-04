@@ -1,7 +1,4 @@
-import getButtonTokens from './utils/getButtonTokens';
-import getFocusTokens from './utils/getFocusTokens';
-import getHoverTokens from './utils/getHoverTokens';
-import getTextLinkTokens from './utils/getTextLinkTokens';
+import { ComponentsTokens } from './componentsTokens';
 import type {
   ColorShared,
   ColorValue,
@@ -408,26 +405,6 @@ export type Font = {
   lineHeight: string;
 };
 
-export type Button = {
-  primary: any;
-  secondary: any;
-  tertiary: any;
-};
-
-export type TextLink = {
-  fontWeight: number;
-  color: {
-    default: ColorValue;
-    hover: ColorValue;
-    visited: ColorValue;
-  };
-};
-
-export type Hover = {
-  primary: string;
-  secondary: string;
-};
-
 export interface SharedTheme {
   base: Base;
   border: Border;
@@ -452,7 +429,7 @@ export interface SharedTheme {
     lg: string;
     xl: string;
   };
-  newTokens: {
+  newTokens: ComponentsTokens & {
     borderRadius: BorderRadius;
     breakpoint: BreakpointNew;
     border: BorderNew;
@@ -462,10 +439,6 @@ export interface SharedTheme {
     boxShadow: BoxShadowNew;
     font: Font;
     opacity: number;
-    button: Button; // Not sure if correct
-    textLink: TextLink;
-    hover: Hover;
-    focus: string;
     transform: string;
   };
 }
@@ -477,8 +450,7 @@ export type Theme = SharedTheme & {
   colorNew: ColorNew;
 };
 
-// TODO breaking change
-const sharedTokens: (mainColors: MainColors) => SharedTheme = (mainColors) => ({
+const sharedTokens: SharedTheme = {
   base: {
     space,
     fontSize: 16,
@@ -621,12 +593,8 @@ const sharedTokens: (mainColors: MainColors) => SharedTheme = (mainColors) => ({
       lineHeight: rem(baseLineHeight),
     },
     opacity: 0.32,
-    ...getButtonTokens(mainColors),
-    ...getTextLinkTokens(mainColors),
-    ...getHoverTokens(mainColors),
-    ...getFocusTokens(mainColors),
     transform: 'scale(0.9)',
   },
-});
+};
 
 export default sharedTokens;

@@ -2,15 +2,15 @@ import { useTheme } from '@heathmont/moon-themes';
 import type { ButtonProps } from '../../Button';
 
 const buttonVariants = ({ variant }: ButtonProps) => {
-  const { newTokens, colorNew } = useTheme();
+  const { componentsTokens, colorNew } = useTheme();
   if (variant === 'primary') {
-    return newTokens.button.primary;
+    return componentsTokens.button.primary;
   }
   if (variant === 'secondary') {
-    return newTokens.button.secondary;
+    return componentsTokens.button.secondary;
   }
   if (variant === 'tertiary') {
-    return newTokens.button.tertiary;
+    return componentsTokens.button.tertiary;
   }
   if (variant === 'ghost') {
     return {

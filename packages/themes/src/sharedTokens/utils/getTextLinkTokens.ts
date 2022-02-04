@@ -1,5 +1,5 @@
 import { MainColors } from '../../supportColors/supportColors';
-import { TextLink } from '../sharedTokens';
+import { TextLink } from '../componentsTokens';
 
 const fontWeightSemibold = 500;
 

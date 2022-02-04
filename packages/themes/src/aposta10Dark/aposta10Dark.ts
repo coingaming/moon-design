@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -53,7 +54,7 @@ const colorNew = {
 };
 
 const aposta10Dark: Theme = {
-  ...sharedTokens(colorNew),
+  ...sharedTokens,
   brand: 'Aposta10',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
@@ -71,6 +72,7 @@ const aposta10Dark: Theme = {
     ...supportiveColors,
   },
   colorScheme: 'dark',
+  ...componentsTokens(colorNew),
 };
 
 export default aposta10Dark;

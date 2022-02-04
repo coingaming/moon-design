@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -56,7 +57,7 @@ const colorNew = {
 };
 
 const livecasinoLight: Theme = {
-  ...sharedTokens(colorNew),
+  ...sharedTokens,
   brand: 'Livecasino.io',
   fontFace: avertaStd.fontFace,
   fontFamily: avertaStd.fontStack,
@@ -80,6 +81,7 @@ const livecasinoLight: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

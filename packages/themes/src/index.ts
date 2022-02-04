@@ -56,6 +56,8 @@ export { default as shangrilaLight } from './shangrilaLight/shangrilaLight';
 export * from './shangrilaLight/shangrilaLight';
 export { default as avertaStd } from './sharedTokens/avertaStd';
 export * from './sharedTokens/avertaStd';
+export { default as componentsTokens } from './sharedTokens/componentsTokens';
+export * from './sharedTokens/componentsTokens';
 export { default as sharedTokens } from './sharedTokens/sharedTokens';
 export * from './sharedTokens/sharedTokens';
 export { default as getButtonTokens } from './sharedTokens/utils/getButtonTokens';
