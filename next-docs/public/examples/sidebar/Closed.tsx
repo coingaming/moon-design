@@ -18,6 +18,7 @@ const Example = () => {
             <IconBitcoinTalk />
           </Inline>
         }
+        isOpen={false}
       >
         <ol>
           <li>Item 1</li>
