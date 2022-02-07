@@ -5,6 +5,7 @@ import '../styles/themes.css';
 import '../styles/custom.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import { ElixirThemeProvider } from '../components/elixirThemes/ElixirThemeProvider';
 import Layout from '../components/Layout';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import type { AppProps } from 'next/app';
@@ -32,13 +33,15 @@ function MyApp({ Component, pageProps }: MyAppProps) {
       </Head>
 
       <DocsThemeProvider>
-        {getLayout ? (
-          getLayout(<Component {...pageProps} />)
-        ) : (
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        )}
+        <ElixirThemeProvider>
+          {getLayout ? (
+            getLayout(<Component {...pageProps} />)
+          ) : (
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          )}
+        </ElixirThemeProvider>
       </DocsThemeProvider>
     </>
   );

@@ -31,6 +31,7 @@ export default function PageButtonNew() {
           title="Variants"
           preview={<Variants />}
           code={examples ? examples.Variants : 'Loading'}
+          elixirLink="button/variants"
         />
       </section>
       {/* Sizes */}
@@ -39,6 +40,7 @@ export default function PageButtonNew() {
           title="Sizes"
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
+          elixirLink="button/sizes"
         />
       </section>
       {/* Icons */}
@@ -47,6 +49,7 @@ export default function PageButtonNew() {
           title="Icons"
           preview={<Icons />}
           code={examples ? examples.Icons : 'Loading'}
+          elixirLink="button/icons"
         />
       </section>
       {/* Full width */}
@@ -55,6 +58,7 @@ export default function PageButtonNew() {
           title="Full width"
           preview={<FullWidth />}
           code={examples ? examples.FullWidth : 'Loading'}
+          elixirLink="button/fullwidth"
         />
       </section>
       {/* Disabled */}
@@ -63,6 +67,7 @@ export default function PageButtonNew() {
           title="Disabled"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
+          elixirLink="button/disabled"
         />
       </section>
     </>

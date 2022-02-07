@@ -1,5 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import IframeResizer from 'iframe-resizer-react';
+
 import classNames from '../../utils/classNames';
+import { store } from '../elixirThemes/ElixirThemeProvider';
 import PreviewSwitch from './Switch';
 
 interface CodeProps {
@@ -18,14 +21,43 @@ interface PreviewProps {
   title?: string;
   preview: React.ReactNode;
   code?: string;
+  elixirLink?: string;
 }
 
-export default function Preview({ title, preview, code }: PreviewProps) {
+export default function Preview({
+  title,
+  preview,
+  code,
+  elixirLink,
+}: PreviewProps) {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
+  const {
+    state: { isElixir, isDarkMode, elixirTheme },
+  } = useContext(store);
 
-  return (
+  const elixirPreview = elixirLink ? (
+    // <iframe
+    //   src={`http://localhost:4000/${elixirTheme}-${
+    //     isDarkMode ? 'dark' : 'light'
+    //   }/iframe/${elixirLink}`}
+    //   style={{ width: '100%', minHeight: 300 }}
+    // />
+    <IframeResizer
+      log
+      src={`http://localhost:4000/${elixirTheme}-${
+        isDarkMode ? 'dark' : 'light'
+      }/iframe/${elixirLink}`}
+      style={{ width: '1px', minWidth: '100%' }}
+    />
+  ) : (
+    <div>No elixir code for this example yet</div>
+  );
+
+  return isElixir ? (
+    <>{elixirPreview}</>
+  ) : (
     <>
       <div className="flex flex-row items-center justify-between">
         <h2 className="text-2xl">{title}</h2>

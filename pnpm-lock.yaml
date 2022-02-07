@@ -116,6 +116,7 @@ importers:
       babel-jest: 24.3.1
       framer-motion: 4.1.17
       identity-obj-proxy: ^3.0.0
+      iframe-resizer-react: ^1.1.0
       jest: 24.3.1
       lodash: ^4.17.21
       next: 12.0.10
@@ -153,6 +154,7 @@ importers:
       babel-jest: 24.3.1_@babel+core@7.6.4
       framer-motion: 4.1.17_react-dom@17.0.2+react@17.0.2
       identity-obj-proxy: 3.0.0
+      iframe-resizer-react: 1.1.0_react-dom@17.0.2+react@17.0.2
       jest: 24.3.1
       lodash: 4.17.21
       next: 12.0.10_1fa2ab88872798083119a424838d7305
@@ -5874,6 +5876,25 @@ packages:
       harmony-reflect: 1.6.2
     dev: false
 
+  /iframe-resizer-react/1.1.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-FrytSq91AIJaDgE+6uK/Vdd6IR8CrwLoZ6eGmL2qQMPTzF0xlSV2jaSzRRUh5V2fttD7vzl21jvBl97bV40eBw==}
+    engines: {node: '>=8', npm: '>=5'}
+    peerDependencies:
+      prop-types: '>=15.7.2'
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      iframe-resizer: 4.3.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      warning: 4.0.3
+    dev: false
+
+  /iframe-resizer/4.3.2:
+    resolution: {integrity: sha512-gOWo2hmdPjMQsQ+zTKbses08mDfDEMh4NneGQNP4qwePYujY1lguqP6gnbeJkf154gojWlBhIltlgnMfYjGHWA==}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
   /ignore/4.0.6:
     resolution: {integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==}
     engines: {node: '>= 4'}
@@ -10253,6 +10274,12 @@ packages:
     resolution: {integrity: sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=}
     dependencies:
       makeerror: 1.0.11
+
+  /warning/4.0.3:
+    resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
 
   /wcwidth/1.0.1:
     resolution: {integrity: sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=}

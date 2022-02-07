@@ -5,6 +5,10 @@ import {
   LogoMoonDesignShort,
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
+
+import { ElixirThemeType } from '../elixirThemes/store';
+
+import { BrandThemeButton } from './BrandThemeButton';
 import { DocsBrands } from './DocsThemeProvider';
 
 const Logos = {
@@ -18,7 +22,10 @@ type LogosKeys = keyof typeof Logos;
 
 interface BrandThemeSelectorProps {
   setBrand: (v: DocsBrands) => void;
+  setElixirTheme: (v: ElixirThemeType) => void;
+  isElixir: boolean;
   themeKeys: string[];
+  elixirThemeKeys: ElixirThemeType[];
   darkLight: JSX.Element;
   rtlSwitch: JSX.Element;
   isRtlEnabled: boolean;
@@ -26,6 +33,9 @@ interface BrandThemeSelectorProps {
 
 const BrandThemeSelector = ({
   setBrand,
+  isElixir,
+  setElixirTheme,
+  elixirThemeKeys,
   themeKeys,
   darkLight,
   rtlSwitch,
@@ -36,6 +46,10 @@ const BrandThemeSelector = ({
   const filteredThemeKeys = themeKeys.filter((themeKey: string) =>
     ['sportsbet', 'bitcasino', 'moonDesign', 'betadda'].includes(themeKey)
   );
+
+  const getLogo = (themeKey: string | ElixirThemeType): JSX.Element =>
+    Logos[themeKey as LogosKeys] || Logos.moonDesign;
+
   return (
     <>
       <button
@@ -69,21 +83,25 @@ const BrandThemeSelector = ({
               isRtlEnabled ? `left-4` : `right-4`
             } fixed bottom-16 z-10`}
           >
-            {filteredThemeKeys.map((themeKey: string) => {
-              const Logo = Logos[themeKey as LogosKeys] || Logos.moonDesign;
-              return (
-                <button
-                  key={themeKey}
-                  type="button"
-                  onClick={() => setBrand(themeKey as DocsBrands)}
-                  className={`${
-                    isRtlEnabled ? `mr-4` : `ml-4`
-                  } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
-                >
-                  {Logo}
-                </button>
-              );
-            })}
+            {isElixir
+              ? elixirThemeKeys.map((themeKey: ElixirThemeType) => (
+                  <BrandThemeButton
+                    key={themeKey}
+                    onClick={() => setElixirTheme(themeKey)}
+                    isRtlEnabled={isRtlEnabled}
+                  >
+                    {getLogo(themeKey)}
+                  </BrandThemeButton>
+                ))
+              : filteredThemeKeys.map((themeKey: string) => (
+                  <BrandThemeButton
+                    key={themeKey}
+                    onClick={() => setBrand(themeKey as DocsBrands)}
+                    isRtlEnabled={isRtlEnabled}
+                  >
+                    {getLogo(themeKey)}
+                  </BrandThemeButton>
+                ))}
           </div>
           <div
             className={`${

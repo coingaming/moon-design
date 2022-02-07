@@ -1,5 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
+import { store } from './elixirThemes/ElixirThemeProvider';
+import { elixirThemeKeys, ElixirThemeType } from './elixirThemes/store';
 import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
@@ -50,6 +53,11 @@ export default function Layout({ children }: LayoutProps) {
   });
 
   const [isRtl, toggleDir] = useState(false);
+
+  const {
+    state: { isDarkMode, isElixir },
+    dispatch,
+  } = useContext(store);
 
   const toggleDirection = () => {
     const htmlTag = document && document?.getElementsByTagName('html')[0];
@@ -115,12 +123,25 @@ export default function Layout({ children }: LayoutProps) {
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
           <BrandThemeSelector
             themeKeys={themeKeys}
+            elixirThemeKeys={elixirThemeKeys}
             setBrand={setBrand}
+            setElixirTheme={(theme: ElixirThemeType) => {
+              dispatch({ type: 'setTheme', payload: theme });
+            }}
+            isElixir={isElixir}
             isRtlEnabled={isRtl}
             darkLight={
               <DarkLightModeSwitcher
-                toggle={toggleColorScheme}
-                isEnabled={getColorMode() === 'dark'}
+                toggle={
+                  isElixir
+                    ? () =>
+                        dispatch({
+                          type: 'setIsDarkMode',
+                          payload: !isDarkMode,
+                        })
+                    : toggleColorScheme
+                }
+                isEnabled={isElixir ? isDarkMode : getColorMode() === 'dark'}
                 isRtlEnabled={isRtl}
               />
             }
