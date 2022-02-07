@@ -46,10 +46,10 @@ exports[`Button New renders different animations 1`] = `
     size="medium"
   >
     <div
-      className="AnimationContent__Container-sc-1tedp3s-0 lijIyL"
+      className="AnimationContent__Container-sc-1c5x251-0 bbEOMa"
     >
       <div
-        className="AnimationContent__Absolute-sc-1tedp3s-1 hUTIpw"
+        className="AnimationContent__Absolute-sc-1c5x251-1 iZpHjB"
       >
         <strong
           className="Container-sc-12rktgh-0 bxAnKl"
@@ -74,7 +74,7 @@ exports[`Button New renders different animations 1`] = `
         </strong>
       </div>
       <div
-        className="AnimationContent__HiddenContent-sc-1tedp3s-2 dxqbqC"
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 gkMieH"
       >
         Progress
       </div>
@@ -90,10 +90,10 @@ exports[`Button New renders different animations 1`] = `
     size="medium"
   >
     <div
-      className="AnimationContent__Container-sc-1tedp3s-0 lijIyL"
+      className="AnimationContent__Container-sc-1c5x251-0 bbEOMa"
     >
       <div
-        className="AnimationContent__Absolute-sc-1tedp3s-1 hUTIpw"
+        className="AnimationContent__Absolute-sc-1c5x251-1 iZpHjB"
       >
         <svg
           className="sc-ljRboo"
@@ -112,7 +112,7 @@ exports[`Button New renders different animations 1`] = `
         </svg>
       </div>
       <div
-        className="AnimationContent__HiddenContent-sc-1tedp3s-2 dxqbqC"
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 gkMieH"
       >
         Success
       </div>
@@ -133,7 +133,7 @@ exports[`Button New renders different animations 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+    className="ButtonComponent-sc-1qwityd-0 jYaMIF"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"

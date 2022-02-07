@@ -1,8 +1,8 @@
 import React from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons';
 import styled from 'styled-components';
-import Loader from '../../loader/Loader';
-import type { ButtonProps } from '../Button';
+import Loader from '../../../loader/Loader';
+import type { ButtonProps } from '../../Button';
 
 const Container = styled.div({
   position: 'relative',

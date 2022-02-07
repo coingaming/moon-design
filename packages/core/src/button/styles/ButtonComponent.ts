@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import pulseAnimation from '../private/buttonAnimations/pulseAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../private/buttonStyles/buttonVariants';
@@ -20,6 +21,7 @@ const ButtonComponent = styled.button<ButtonProps>(
     buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
     buttonCommonStyles({ iconSize, disabled }),
     buttonVariants({ variant }),
+    animation === 'pulse' && pulseAnimation,
     fullWidth &&
       !iconOnly && {
         width: '100%',

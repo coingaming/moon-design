@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Hover from '../hover/Hover';
 import Size from '../private/enums/Size';
-import AnimationContent from './animations/AnimationContent';
+import AnimationContent from './private/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 
 type ButtonSizes = Size.SMALL | Size.MEDIUM | Size.LARGE | Size.XLARGE;
