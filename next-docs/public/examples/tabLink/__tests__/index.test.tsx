@@ -16,7 +16,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
-describe('TabLink', () => {
+describe('Tablink', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Example />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
