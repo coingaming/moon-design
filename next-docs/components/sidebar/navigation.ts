@@ -62,6 +62,7 @@ const navigation = [
         href: '/components/popover',
       },
       { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
+      // { name: 'Reel', href: '/components/reel' }, // Uncomment only if you want to see what reel looks like
       // {
       //   name: 'RadioButton',
       //   children: [
