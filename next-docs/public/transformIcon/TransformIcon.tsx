@@ -1,89 +1,54 @@
-import React, { useState, useRef, useCallback } from 'react';
-import { GenericPicture } from '@heathmont/moon-icons';
-import { Checkbox } from '@heathmont/moon-core';
-import useTransform from './hooks/useTransform';
-import { Button } from '@heathmont/moon-components';
-import { camelCase, upperFirst } from 'lodash';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import React, { useState, useRef } from 'react';
+import { GenericPicture, GenericClose } from '@heathmont/moon-icons';
+import useDragging from './hooks/useDragging';
+import IconPreview from './IconPreview';
 
-type IconComponentProps = {
-  fileAsText: string;
-  file?: string;
-  name: string;
-};
+const FILE_TYPES = ['svg', 'svg+xml'];
 
-const setComponentName = (fileName: string): string =>
-  upperFirst(camelCase(fileName?.split('.')?.slice(0, -1)?.join('.')));
-
-const IconComponent: React.FC<IconComponentProps> = ({
-  file,
-  fileAsText,
-  name,
-}) => {
-  const [isDimensions, toggleDimensions] = useState(false);
-  const handleDimensionsClick = useCallback(
-    () => toggleDimensions(!isDimensions),
-    [isDimensions]
-  );
-
-  const svgExample = useTransform({
-    svgCode: fileAsText,
-    name: setComponentName(name),
-    dimensions: isDimensions,
-  });
-
-  return (
-    <li className="p-3">
-      <div className="p-3 flex items-center justify-between">
-        <Checkbox
-          label="Set icon sizing to `em` for easy resizing via `font-size`."
-          checked={isDimensions}
-          onChange={handleDimensionsClick}
-        />
-        <CopyToClipboard text={svgExample || ''}>
-          <Button variant="primary" size="small">
-            Copy
-          </Button>
-        </CopyToClipboard>
-      </div>
-      <div className="p-3 flex items-top space-x-2 overflow-x-auto">
-        <div className="w-9 h-9 mr-4 bg-gray-300 flex-shrink-0">
-          <img className="h-full w-full rounded" src={file} />
-        </div>
-        <div className="text-sm text-gray-700 flex-1">
-          <pre>{svgExample}</pre>
-        </div>
-      </div>
-    </li>
-  );
+const checkTypes = (file: File): boolean => {
+  const fileType: string = file.type.toLocaleLowerCase();
+  const extensionIndex: number = fileType.lastIndexOf('/');
+  const extension: string = fileType.substring(extensionIndex + 1);
+  const loweredTypes = FILE_TYPES.map((type) => type.toLowerCase());
+  return loweredTypes.includes(extension);
 };
 
 const TransformIcon: React.FC = () => {
+  const divRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const [file, setFile] = useState<string>('');
+  const [file, setFile] = useState<File | null>(null);
   const [fileAsText, setFileAsText] = useState<string>('');
-  const [fileName, setFileName] = useState<string>('SvgComponent');
-  // const [uploaded, setUploaded] = useState(false);
+  const [error, setError] = useState(false);
 
-  const handleInputChange = (e: any) => {
+  const handleChanges = (file: File) => {
+    if (!file) return false;
+    if (!checkTypes(file)) {
+      setError(true);
+      return false;
+    }
     const reader = new FileReader();
-    const allFiles = e.target.files;
-    const file = allFiles[0];
-
     reader.addEventListener(
       'load',
       () => {
-        setFile(URL.createObjectURL(file));
+        setFile(file);
         setFileAsText(reader.result as string);
-        setFileName(file?.name);
       },
       false
     );
-
-    if (file) {
-      reader.readAsText(file);
-    }
+    reader.readAsText(file);
+    setError(false);
   };
+
+  const handleInputChange = (ev: any) => {
+    const allFiles = ev.target.files;
+    const file = allFiles[0];
+    handleChanges(file);
+  };
+
+  const dragging = useDragging({
+    divRef,
+    handleChanges,
+  });
 
   return (
     <section className="mt-8">
@@ -91,36 +56,52 @@ const TransformIcon: React.FC = () => {
         Transform SVG into React components.
       </h1>
       <div className="mt-8">
-        <div className="py-12 px-4 sm:px-6 lg:px-8">
+        <div className="py-6">
           <div className="mx-auto max-w-7xl">
-            <div className="border-gray-400 flex flex-col items-center py-12 px-6 rounded-md border-2 border-dashed">
+            <div
+              ref={divRef}
+              className={`${
+                dragging
+                  ? 'border-gray-200'
+                  : error
+                  ? 'border-red-400'
+                  : 'border-gray-400'
+              } flex flex-col items-center py-12 px-6 rounded-md border-2 border-dashed`}
+            >
               <GenericPicture fontSize="3.5rem" />
-
               <p className="text-xl text-gray-700">Drop files to upload</p>
-
               <p className="mb-2 text-gray-700">or</p>
-
-              <label className="bg-white px-4 h-9 inline-flex items-center rounded border border-gray-300 shadow-sm text-sm font-medium text-gray-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+              <label className="bg-white px-4 h-9 inline-flex items-center rounded border border-gray-300 shadow-md text-sm font-medium text-gray-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 cursor-pointer">
                 Select files
                 <input
                   ref={inputRef}
                   type="file"
                   name="files"
-                  multiple
                   className="sr-only"
-                  accept="image/svg"
+                  accept=".svg"
                   onChange={handleInputChange}
                 />
               </label>
             </div>
           </div>
 
+          {error && (
+            <div className="my-8 py-6 ">
+              <div className="p-4 bg-white rounded shadow flex items-center">
+                <GenericClose fontSize="2rem" color="chiChi.100" />
+                <span className="text-red-600 pl-2">
+                  File type is not supported
+                </span>
+              </div>
+            </div>
+          )}
+
           {fileAsText !== '' && (
-            <ul className="my-6 bg-white rounded divide-y divide-gray-200 shadow">
-              <IconComponent
+            <ul className="my-8 py-6">
+              <IconPreview
                 file={file}
                 fileAsText={fileAsText}
-                name={fileName}
+                setError={setError}
               />
             </ul>
           )}

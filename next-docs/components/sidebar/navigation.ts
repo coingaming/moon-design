@@ -9,6 +9,7 @@ const navigation = [
   // { name: 'Legacy Tokens', href: '/tokens-legacy' },
   { name: 'Tokens', href: '/tokens' },
   { name: 'Icons', href: '/icons' },
+  { name: 'Transform SVG', href: '/transform-icon' },
   {
     name: 'Components',
     children: [
