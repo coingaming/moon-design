@@ -1,10 +1,10 @@
 /**
  * @jest-environment jsdom
  */
-
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
+import Animations from '../Animations';
 import Disabled from '../Disabled';
 import Icons from '../Icons';
 import Sizes from '../Sizes';
@@ -49,6 +49,11 @@ describe('Button New', () => {
 
   it('renders disabled state', () => {
     const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders different animations', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Animations />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
