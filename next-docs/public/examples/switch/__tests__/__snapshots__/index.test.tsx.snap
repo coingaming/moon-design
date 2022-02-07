@@ -61,6 +61,7 @@ exports[`Switch renders Theme variant 1`] = `
 exports[`Switch renders Theme variant with Caption 1`] = `
 <div
   className="Inline-sc-1rz1cju-0 fRcICj"
+  dir="ltr"
   style={
     Object {
       "overflow": "visible",
@@ -160,6 +161,7 @@ exports[`Switch renders different Sizes 1`] = `
 exports[`Switch renders with Caption 1`] = `
 <div
   className="Inline-sc-1rz1cju-0 fRcICj"
+  dir="ltr"
   style={
     Object {
       "overflow": "visible",
