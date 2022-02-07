@@ -11,8 +11,8 @@ const Example = () => {
   return (
     <>
       <Sidebar
-        collapseIcon={<IconChevronLeftRounded />}
-        expandIcon={<IconChevronRightRounded />}
+        collapseIcon={<IconChevronRightRounded />}
+        expandIcon={<IconChevronLeftRounded />}
         logo={
           <Inline fontSize="2rem">
             <IconBitcoinTalk />

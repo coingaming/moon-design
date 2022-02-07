@@ -56,7 +56,7 @@ exports[`Sidebar renders RTL 1`] = `
       onClick={[Function]}
     >
       <svg
-        className="sc-eltcbb"
+        className="sc-dwcuIR"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -65,7 +65,7 @@ exports[`Sidebar renders RTL 1`] = `
       >
         <path
           clipRule="evenodd"
-          d="M9.34 29.727a.933.933 0 010-1.32L21.747 16 9.34 3.593a.933.933 0 111.32-1.32L23.727 15.34a.933.933 0 010 1.32L10.66 29.727a.933.933 0 01-1.32 0z"
+          d="M23.66 2.273a.933.933 0 010 1.32L11.253 16 23.66 28.407a.933.933 0 11-1.32 1.32L9.273 16.66a.933.933 0 010-1.32L22.34 2.273a.933.933 0 011.32 0z"
           fill="currentColor"
           fillRule="evenodd"
         />
