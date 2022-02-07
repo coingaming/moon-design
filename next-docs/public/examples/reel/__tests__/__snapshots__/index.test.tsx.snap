@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reel renders 1`] = `
+<div
+  className="Reel-sc-10l7fx7-0 eohNNK"
+  height="auto"
+>
+  <div>
+    Item 
+    0
+  </div>
+  <div>
+    Item 
+    1
+  </div>
+  <div>
+    Item 
+    2
+  </div>
+  <div>
+    Item 
+    3
+  </div>
+  <div>
+    Item 
+    4
+  </div>
+  <div>
+    Item 
+    5
+  </div>
+  <div>
+    Item 
+    6
+  </div>
+  <div>
+    Item 
+    7
+  </div>
+  <div>
+    Item 
+    8
+  </div>
+  <div>
+    Item 
+    9
+  </div>
+</div>
+`;
+
+exports[`Reel renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="Reel-sc-10l7fx7-0 fVInQJ"
+    dir="rtl"
+    height="auto"
+  >
+    <div>
+      Item 
+      0
+    </div>
+    <div>
+      Item 
+      1
+    </div>
+    <div>
+      Item 
+      2
+    </div>
+    <div>
+      Item 
+      3
+    </div>
+    <div>
+      Item 
+      4
+    </div>
+    <div>
+      Item 
+      5
+    </div>
+    <div>
+      Item 
+      6
+    </div>
+    <div>
+      Item 
+      7
+    </div>
+    <div>
+      Item 
+      8
+    </div>
+    <div>
+      Item 
+      9
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Reel renders child images correctly with custom height 1`] = `
+<div
+  className="Reel-sc-10l7fx7-0 blUXDC"
+  height="10vh"
+>
+  <img
+    alt="Test 0"
+    src=""
+  />
+  <img
+    alt="Test 1"
+    src=""
+  />
+  <img
+    alt="Test 2"
+    src=""
+  />
+  <img
+    alt="Test 3"
+    src=""
+  />
+  <img
+    alt="Test 4"
+    src=""
+  />
+  <img
+    alt="Test 5"
+    src=""
+  />
+  <img
+    alt="Test 6"
+    src=""
+  />
+  <img
+    alt="Test 7"
+    src=""
+  />
+  <img
+    alt="Test 8"
+    src=""
+  />
+  <img
+    alt="Test 9"
+    src=""
+  />
+</div>
+`;
+
+exports[`Reel renders child list items correctly 1`] = `
+<ul
+  className="Reel-sc-10l7fx7-0 eohNNK"
+  height="auto"
+>
+  <li>
+    Item 
+    0
+  </li>
+  <li>
+    Item 
+    1
+  </li>
+  <li>
+    Item 
+    2
+  </li>
+  <li>
+    Item 
+    3
+  </li>
+  <li>
+    Item 
+    4
+  </li>
+  <li>
+    Item 
+    5
+  </li>
+  <li>
+    Item 
+    6
+  </li>
+  <li>
+    Item 
+    7
+  </li>
+  <li>
+    Item 
+    8
+  </li>
+  <li>
+    Item 
+    9
+  </li>
+</ul>
+`;
+
+exports[`Reel renders with custom space 1`] = `
+<div
+  className="Reel-sc-10l7fx7-0 hbsiHS"
+  height="auto"
+>
+  <div>
+    Item 
+    0
+  </div>
+  <div>
+    Item 
+    1
+  </div>
+  <div>
+    Item 
+    2
+  </div>
+  <div>
+    Item 
+    3
+  </div>
+  <div>
+    Item 
+    4
+  </div>
+  <div>
+    Item 
+    5
+  </div>
+  <div>
+    Item 
+    6
+  </div>
+  <div>
+    Item 
+    7
+  </div>
+  <div>
+    Item 
+    8
+  </div>
+  <div>
+    Item 
+    9
+  </div>
+</div>
+`;

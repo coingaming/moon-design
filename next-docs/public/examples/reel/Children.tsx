@@ -6,9 +6,9 @@ const items = Array.from({ length: 10 }, (v, i) => i);
 const Example = () => {
   return (
     <>
-      <Reel>
+      <Reel as="ul">
         {items.map((item) => (
-          <div key={item}>Item {item}</div>
+          <li key={item}>Item {item}</li>
         ))}
       </Reel>
     </>

@@ -6,7 +6,7 @@ const items = Array.from({ length: 10 }, (v, i) => i);
 const Example = () => {
   return (
     <>
-      <Reel>
+      <Reel space={30}>
         {items.map((item) => (
           <div key={item}>Item {item}</div>
         ))}

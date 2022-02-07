@@ -6,9 +6,9 @@ const items = Array.from({ length: 10 }, (v, i) => i);
 const Example = () => {
   return (
     <>
-      <Reel>
+      <Reel height="10vh">
         {items.map((item) => (
-          <div key={item}>Item {item}</div>
+          <img key={item} alt={`Test ${item}`} src="" />
         ))}
       </Reel>
     </>

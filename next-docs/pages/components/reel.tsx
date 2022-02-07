@@ -1,7 +1,9 @@
-import Default from '../../public/examples/switch/Default';
-import Sizes from '../../public/examples/switch/Sizes';
-import Theme from '../../public/examples/switch/Theme';
-import ThemeCaption from '../../public/examples/switch/ThemeCaption';
+import Preview from '../../components/codePreview/Preview';
+import Children from '../../public/examples/reel/Children';
+import CustomSpace from '../../public/examples/reel/CustomSpace';
+import Default from '../../public/examples/reel/Default';
+import Images from '../../public/examples/reel/Images';
+import Rtl from '../../public/examples/reel/Rtl';
 import useExamples from '../../utils/useExamples';
 
 export default function PageReel() {
@@ -25,36 +27,36 @@ export default function PageReel() {
         />
       </section>
 
-      {/* Sizes */}
+      {/* Custom Space */}
       <section className="mt-8">
         <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
+          title="Custom Space"
+          preview={<CustomSpace />}
+          code={examples ? examples.CustomSpace : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
-          title="Dark &amp; Light mode"
-          preview={<Theme />}
-          code={examples ? examples.Theme : 'Loading'}
+          title="Child images"
+          preview={<Images />}
+          code={examples ? examples.Images : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
-          title="With captions"
-          preview={<Caption />}
-          code={examples ? examples.Caption : 'Loading'}
+          title="With Child List"
+          preview={<Children />}
+          code={examples ? examples.Children : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
-          title="Dark &amp; Light mode with captions"
-          preview={<ThemeCaption />}
-          code={examples ? examples.ThemeCaption : 'Loading'}
+          title="RTL"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
     </>
