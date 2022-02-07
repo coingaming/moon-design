@@ -9,8 +9,7 @@ import Variants from '../../public/examples/buttonNew/Variants';
 import useExamples from '../../utils/useExamples';
 
 export default function PageButtonNew() {
-  const examples = useExamples('button');
-
+  const examples = useExamples('buttonNew');
   return (
     <>
       <section className="mt-8">
