@@ -12,7 +12,7 @@ exports[`Button New renders Full width property 1`] = `
   >
     Full width
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -35,6 +35,117 @@ exports[`Button New renders Full width property 1`] = `
 </div>
 `;
 
+exports[`Button New renders different animations 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <div
+      className="AnimationContent__Container-sc-1c5x251-0 bbEOMa"
+    >
+      <div
+        className="AnimationContent__Absolute-sc-1c5x251-1 iZpHjB"
+      >
+        <strong
+          className="Container-sc-12rktgh-0 bxAnKl"
+          role="progressbar"
+        >
+          <span
+            className="LoaderRing-sc-17wll29-0 iWvTtm"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 dUIamA"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 kHmTZr"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 hloqdE"
+            color="currentColor"
+          />
+        </strong>
+      </div>
+      <div
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 gkMieH"
+      >
+        Progress
+      </div>
+    </div>
+    <div
+      className="Hover-yzznpt-0 iHKaPa"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <div
+      className="AnimationContent__Container-sc-1c5x251-0 bbEOMa"
+    >
+      <div
+        className="AnimationContent__Absolute-sc-1c5x251-1 iZpHjB"
+      >
+        <svg
+          className="sc-ljRboo"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 14.941L13.667 22 25 10"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 gkMieH"
+      >
+        Success
+      </div>
+    </div>
+    <div
+      className="Hover-yzznpt-0 iHKaPa"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 fFNKqB"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Error
+    <div
+      className="Hover-yzznpt-0 iHKaPa"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 jYaMIF"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Pulse
+    <div
+      className="Hover-yzznpt-0 iHKaPa"
+    />
+  </button>
+</div>
+`;
+
 exports[`Button New renders different icons 1`] = `
 <div
   className="flex justify-around w-full items-center"
@@ -46,7 +157,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -74,7 +185,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -103,7 +214,7 @@ exports[`Button New renders different icons 1`] = `
   >
     IconRight
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -131,7 +242,7 @@ exports[`Button New renders different icons 1`] = `
   >
     IconRight
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -158,7 +269,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -185,7 +296,7 @@ exports[`Button New renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWFSnp"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
