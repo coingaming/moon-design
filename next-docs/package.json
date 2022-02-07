@@ -22,6 +22,7 @@
     "@heathmont/moon-pagination": "workspace:^7.22.3",
     "@heathmont/moon-popover": "workspace:^7.22.3",
     "@heathmont/moon-select": "workspace:^7.22.3",
+    "@heathmont/moon-sidebar": "workspace:^7.22.3",
     "@heathmont/moon-table": "workspace:^7.22.3",
     "@heathmont/moon-themes": "workspace:^7.22.3",
     "@heathmont/moon-utils": "workspace:^7.22.3",

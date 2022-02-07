@@ -106,6 +106,7 @@ importers:
       '@heathmont/moon-pagination': workspace:^7.22.3
       '@heathmont/moon-popover': workspace:^7.22.3
       '@heathmont/moon-select': workspace:^7.22.3
+      '@heathmont/moon-sidebar': workspace:^7.22.3
       '@heathmont/moon-table': workspace:^7.22.3
       '@heathmont/moon-themes': workspace:^7.22.3
       '@heathmont/moon-utils': workspace:^7.22.3
@@ -145,6 +146,7 @@ importers:
       '@heathmont/moon-pagination': link:../packages/pagination
       '@heathmont/moon-popover': link:../packages/popover
       '@heathmont/moon-select': link:../packages/select
+      '@heathmont/moon-sidebar': link:../packages/sidebar
       '@heathmont/moon-table': link:../packages/table
       '@heathmont/moon-themes': link:../packages/themes
       '@heathmont/moon-utils': link:../packages/utils
