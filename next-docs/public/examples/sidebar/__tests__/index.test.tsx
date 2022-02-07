@@ -25,12 +25,12 @@ describe('Sidebar', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders with Caption', () => {
+  it('renders initially closed', () => {
     const testRenderer = renderer.create(renderWithTheme(<Closed />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders different Sizes', () => {
+  it('renders RTL', () => {
     const testRenderer = renderer.create(renderWithThemeRtl(<Rtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
