@@ -122,7 +122,7 @@ exports[`Button New renders different animations 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+    className="ButtonComponent-sc-1qwityd-0 fFNKqB"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
