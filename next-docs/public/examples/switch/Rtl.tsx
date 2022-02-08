@@ -12,6 +12,7 @@ const Example = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
+        isRtl={true}
       />
     </>
   );
