@@ -4,7 +4,7 @@ type Props = {
   isHover: boolean;
 };
 
-const Hover = styled.div<Props>(({ theme: { newTokens }, isHover }) => [
+const Hover = styled.div<Props>(({ theme, isHover }) => [
   {
     position: 'absolute',
     zIndex: -1,
@@ -13,10 +13,10 @@ const Hover = styled.div<Props>(({ theme: { newTokens }, isHover }) => [
     bottom: 0,
     left: 0,
     pointerEvents: 'none',
-    transition: `background-color ${newTokens.transition.default}`,
+    transition: `background-color ${theme.newTokens.transition.default}`,
   },
   isHover && {
-    backgroundColor: newTokens.hover.primary,
+    backgroundColor: theme.hover.primary,
   },
 ]);
 

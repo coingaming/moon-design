@@ -12,7 +12,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         medium
       </label>
@@ -20,13 +20,13 @@ exports[`TextInput: type Password renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iDbdZb"
+          className="Input-qkdgvx-0 chRAHg"
           disabled={true}
           placeholder=" "
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -48,7 +48,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         large
       </label>
@@ -56,13 +56,13 @@ exports[`TextInput: type Password renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iNXcTU"
+          className="Input-qkdgvx-0 IdaEn"
           disabled={true}
           placeholder=" "
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -84,10 +84,10 @@ exports[`TextInput: type Password renders disabled 1`] = `
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 jvXSNE"
       >
         <input
-          className="Input-qkdgvx-0 knFXDC"
+          className="Input-qkdgvx-0 jblnle"
           disabled={true}
           placeholder=" "
           type="password"
@@ -98,7 +98,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
           xlarge
         </label>
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -126,7 +126,7 @@ exports[`TextInput: type Password renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         medium
       </label>
@@ -134,12 +134,12 @@ exports[`TextInput: type Password renders error 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 gpjDkF"
+          className="Input-qkdgvx-0 eMRFuq"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -160,7 +160,7 @@ exports[`TextInput: type Password renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         large
       </label>
@@ -168,12 +168,12 @@ exports[`TextInput: type Password renders error 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 kWSQVC"
+          className="Input-qkdgvx-0 hrrwVd"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -194,10 +194,10 @@ exports[`TextInput: type Password renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 jvXSNE"
       >
         <input
-          className="Input-qkdgvx-0 iGRmuA"
+          className="Input-qkdgvx-0 kjybZU"
           placeholder="Placeholder"
           type="password"
         />
@@ -207,7 +207,7 @@ exports[`TextInput: type Password renders error 1`] = `
           xlarge
         </label>
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -235,7 +235,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         medium
       </label>
@@ -243,13 +243,13 @@ exports[`TextInput: type Password renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iDbdZb"
+          className="Input-qkdgvx-0 chRAHg"
           placeholder=" "
           readOnly={true}
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -270,7 +270,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         large
       </label>
@@ -278,13 +278,13 @@ exports[`TextInput: type Password renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iNXcTU"
+          className="Input-qkdgvx-0 IdaEn"
           placeholder=" "
           readOnly={true}
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -305,10 +305,10 @@ exports[`TextInput: type Password renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 jvXSNE"
       >
         <input
-          className="Input-qkdgvx-0 knFXDC"
+          className="Input-qkdgvx-0 jblnle"
           placeholder=" "
           readOnly={true}
           type="password"
@@ -319,7 +319,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
           xlarge
         </label>
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -347,7 +347,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         medium
       </label>
@@ -355,12 +355,12 @@ exports[`TextInput: type Password renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iDbdZb"
+          className="Input-qkdgvx-0 chRAHg"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -381,7 +381,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         large
       </label>
@@ -389,12 +389,12 @@ exports[`TextInput: type Password renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iNXcTU"
+          className="Input-qkdgvx-0 IdaEn"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -415,10 +415,10 @@ exports[`TextInput: type Password renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 jvXSNE"
       >
         <input
-          className="Input-qkdgvx-0 knFXDC"
+          className="Input-qkdgvx-0 jblnle"
           placeholder="Placeholder"
           type="password"
         />
@@ -428,7 +428,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
           xlarge
         </label>
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -456,7 +456,7 @@ exports[`TextInput: type Password renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         medium
       </label>
@@ -464,12 +464,12 @@ exports[`TextInput: type Password renders with label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iDbdZb"
+          className="Input-qkdgvx-0 chRAHg"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -484,7 +484,7 @@ exports[`TextInput: type Password renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         large
       </label>
@@ -492,12 +492,12 @@ exports[`TextInput: type Password renders with label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iNXcTU"
+          className="Input-qkdgvx-0 IdaEn"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -512,10 +512,10 @@ exports[`TextInput: type Password renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 jvXSNE"
       >
         <input
-          className="Input-qkdgvx-0 knFXDC"
+          className="Input-qkdgvx-0 jblnle"
           placeholder="Placeholder"
           type="password"
         />
@@ -525,7 +525,7 @@ exports[`TextInput: type Password renders with label 1`] = `
           xlarge
         </label>
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -550,12 +550,12 @@ exports[`TextInput: type Password renders without label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iDbdZb"
+          className="Input-qkdgvx-0 chRAHg"
           placeholder="medium"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -573,12 +573,12 @@ exports[`TextInput: type Password renders without label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iNXcTU"
+          className="Input-qkdgvx-0 IdaEn"
           placeholder="large"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -593,10 +593,10 @@ exports[`TextInput: type Password renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 jvXSNE"
       >
         <input
-          className="Input-qkdgvx-0 jjUcJT"
+          className="Input-qkdgvx-0 fDsttD"
           placeholder="xlarge"
           type="password"
         />
@@ -604,7 +604,7 @@ exports[`TextInput: type Password renders without label 1`] = `
           className="LabelInner-vrrjt0-0 deQKxJ"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -626,7 +626,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         medium
       </label>
@@ -634,12 +634,12 @@ exports[`TextInput: type Password supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 jwwNnQ"
+          className="Input-qkdgvx-0 befnPB"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -660,7 +660,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="Label-sc-1rdea5p-0 fGPqtd"
       >
         large
       </label>
@@ -668,12 +668,12 @@ exports[`TextInput: type Password supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 bNsUKr"
+          className="Input-qkdgvx-0 bTXQpu"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show
@@ -694,10 +694,10 @@ exports[`TextInput: type Password supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 hrjkOU"
+        className="Inner-sc-1soq84i-0 hYWLpt"
       >
         <input
-          className="Input-qkdgvx-0 knFXDC"
+          className="Input-qkdgvx-0 jblnle"
           placeholder="Placeholder"
           type="password"
         />
@@ -707,7 +707,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
           xlarge
         </label>
         <div
-          className="ShowPassword-sc-147a7th-0 evoMbN"
+          className="ShowPassword-sc-147a7th-0 bCWsqB"
           onClick={[Function]}
         >
           Show

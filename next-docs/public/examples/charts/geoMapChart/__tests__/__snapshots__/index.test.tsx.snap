@@ -2,7 +2,7 @@
 
 exports[`Geo Map Chart renders 1`] = `
 <div
-  className="Panel__Container-wbwz0d-1 glyky"
+  className="Panel__Container-wbwz0d-1 kCdMLt"
   style={
     Object {
       "height": 446,
@@ -153,7 +153,7 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
+      className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
       color="bulma.100"
       size={20}
     >
@@ -439,7 +439,7 @@ exports[`Geo Map Chart renders 1`] = `
       className="Map__Container-sc-40ox45-0 FmxYr"
     >
       <div
-        className="Tooltip__TooltipWrapper-lwx4op-0 iJQJZF"
+        className="Tooltip__TooltipWrapper-lwx4op-0 paVUu"
         style={
           Object {
             "left": 0,
