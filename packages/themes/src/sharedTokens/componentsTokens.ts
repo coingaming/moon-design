@@ -34,11 +34,13 @@ export interface ComponentsTokens {
 
 const componentsTokens: (mainColors: MainColors) => ComponentsTokens = (
   mainColors
-) => ({
-  ...getButtonTokens(mainColors),
-  ...getTextLinkTokens(mainColors),
-  ...getHoverTokens(mainColors),
-  ...getFocusTokens(mainColors),
-});
+) => {
+  return {
+    ...getButtonTokens(mainColors),
+    ...getTextLinkTokens(mainColors),
+    ...getHoverTokens(mainColors),
+    ...getFocusTokens(mainColors),
+  };
+};
 
 export default componentsTokens;
