@@ -27,8 +27,8 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       },
       'img, svg': {
         display: 'block',
-        width: rem(iconSize),
-        height: rem(iconSize),
+        width: rem(iconSize as number),
+        height: rem(iconSize as number),
       },
     },
     disabled && {

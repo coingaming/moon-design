@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders 1`] = `
+<div
+  className="OuterContainer-yp6psh-0 dhCqlA"
+  dir="ltr"
+>
+  <div
+    className="CollapseTarget-sc-1og1j42-0 eDQdOX"
+    onClick={[Function]}
+  >
+    <svg
+      className="sc-dwcuIR"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M23.66 2.273a.933.933 0 010 1.32L11.253 16 23.66 28.407a.933.933 0 11-1.32 1.32L9.273 16.66a.933.933 0 010-1.32L22.34 2.273a.933.933 0 011.32 0z"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <aside
+    className="Container-o6q7yi-0 hLKxsP"
+  >
+    <ol>
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+    </ol>
+  </aside>
+</div>
+`;
+
+exports[`Sidebar renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="OuterContainer-yp6psh-0 iOAOmc"
+    dir="rtl"
+  >
+    <div
+      className="CollapseTarget-sc-1og1j42-0 brKJpo"
+      onClick={[Function]}
+    >
+      <svg
+        className="sc-dwcuIR"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M23.66 2.273a.933.933 0 010 1.32L11.253 16 23.66 28.407a.933.933 0 11-1.32 1.32L9.273 16.66a.933.933 0 010-1.32L22.34 2.273a.933.933 0 011.32 0z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      className="Inline-sc-1rz1cju-0 fkipUd"
+      fontSize="2rem"
+    >
+      <svg
+        className="sc-dacFzL"
+        fill="none"
+        height="1em"
+        viewBox="0 0 20 20"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          fill="#FDB500"
+          height={20}
+          rx={10}
+          width={20}
+        />
+        <rect
+          fill="#FDB500"
+          height={16.5}
+          rx={8.25}
+          stroke="#fff"
+          strokeWidth={1.5}
+          width={16.5}
+          x={1.75}
+          y={1.75}
+        />
+        <path
+          d="M13.02 9.554c.592-.327.962-.902.876-1.861-.117-1.31-1.16-1.75-2.479-1.875V4h-1.022v1.77c-.269 0-.543.006-.815.012V4H8.56l-.001 1.817c-.221.005-.438.01-.65.01v-.005L6.5 5.82v1.182s.754-.016.742 0c.413 0 .548.26.587.484v4.98c-.018.141-.094.366-.383.367.013.012-.743 0-.743 0l-.203 1.32H7.83c.248.001.49.005.73.007V16h1.02v-1.82c.281.007.552.01.816.01V16h1.021l.001-1.835c1.717-.107 2.918-.576 3.068-2.323.12-1.406-.49-2.034-1.465-2.288zM9.604 7.082c.576 0 2.388-.198 2.388 1.106 0 1.25-1.811 1.104-2.388 1.104v-2.21zm0 5.76v-2.435c.692 0 2.863-.216 2.863 1.217 0 1.374-2.17 1.218-2.863 1.219z"
+          fill="#fff"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Sidebar renders initially closed 1`] = `
+<div
+  className="OuterContainer-yp6psh-0 iOAOmc"
+  dir="ltr"
+>
+  <div
+    className="CollapseTarget-sc-1og1j42-0 brKJpo"
+    onClick={[Function]}
+  >
+    <svg
+      className="sc-eltcbb"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M9.34 29.727a.933.933 0 010-1.32L21.747 16 9.34 3.593a.933.933 0 111.32-1.32L23.727 15.34a.933.933 0 010 1.32L10.66 29.727a.933.933 0 01-1.32 0z"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <div
+    className="Inline-sc-1rz1cju-0 fkipUd"
+    fontSize="2rem"
+  >
+    <svg
+      className="sc-dacFzL"
+      fill="none"
+      height="1em"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        fill="#FDB500"
+        height={20}
+        rx={10}
+        width={20}
+      />
+      <rect
+        fill="#FDB500"
+        height={16.5}
+        rx={8.25}
+        stroke="#fff"
+        strokeWidth={1.5}
+        width={16.5}
+        x={1.75}
+        y={1.75}
+      />
+      <path
+        d="M13.02 9.554c.592-.327.962-.902.876-1.861-.117-1.31-1.16-1.75-2.479-1.875V4h-1.022v1.77c-.269 0-.543.006-.815.012V4H8.56l-.001 1.817c-.221.005-.438.01-.65.01v-.005L6.5 5.82v1.182s.754-.016.742 0c.413 0 .548.26.587.484v4.98c-.018.141-.094.366-.383.367.013.012-.743 0-.743 0l-.203 1.32H7.83c.248.001.49.005.73.007V16h1.02v-1.82c.281.007.552.01.816.01V16h1.021l.001-1.835c1.717-.107 2.918-.576 3.068-2.323.12-1.406-.49-2.034-1.465-2.288zM9.604 7.082c.576 0 2.388-.198 2.388 1.106 0 1.25-1.811 1.104-2.388 1.104v-2.21zm0 5.76v-2.435c.692 0 2.863-.216 2.863 1.217 0 1.374-2.17 1.218-2.863 1.219z"
+        fill="#fff"
+      />
+    </svg>
+  </div>
+</div>
+`;
