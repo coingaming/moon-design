@@ -17,7 +17,7 @@ exports[`Radiobutton API renders 1`] = `
       id="age1"
     >
       <div
-        className="Container-sc-1vcdan4-0 ljIBCO"
+        className="Container-sc-1vcdan4-0 kMWkzu"
       >
         <div
           className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
@@ -49,7 +49,7 @@ exports[`Radiobutton API renders 1`] = `
       id="age2"
     >
       <div
-        className="Container-sc-1vcdan4-0 ljIBCO"
+        className="Container-sc-1vcdan4-0 kMWkzu"
       >
         <div
           className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
@@ -81,7 +81,7 @@ exports[`Radiobutton API renders 1`] = `
       id="age3"
     >
       <div
-        className="Container-sc-1vcdan4-0 ljIBCO"
+        className="Container-sc-1vcdan4-0 kMWkzu"
       >
         <div
           className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
