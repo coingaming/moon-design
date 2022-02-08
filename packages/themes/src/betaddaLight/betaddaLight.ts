@@ -47,11 +47,11 @@ const lightColors = {
 const colorNew = {
   piccolo: '#FF9933',
   hit: '#1CA30F',
-  beerus: '#40464F',
-  goku: '#272E37',
-  gohan: '#1A212A',
-  bulma: '#FFFFFF',
-  trunks: '#97A2AE',
+  beerus: '#E4E6E9',
+  goku: '#FFFFFF',
+  gohan: '#F2F3F7',
+  bulma: '#1A212A',
+  trunks: '#63717B',
   goten: '#FFFFFF',
   popo: '#000000',
 };

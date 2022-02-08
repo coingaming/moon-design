@@ -46,11 +46,11 @@ const color = {
 
 const colorsNew = {
   piccolo: '#4E46B4',
-  hit: '#0B0B0B',
-  beerus: '#1F1F1F',
-  goku: '#0B0B0B',
-  gohan: '#1F1F1F',
-  bulma: '#FFFFFF',
+  hit: '#F5F5F5',
+  beerus: '#EBEBEB',
+  goku: '#F5F5F5',
+  gohan: '#FFFFFF',
+  bulma: '#000000',
   trunks: '#999CA0',
   goten: '#FFFFFF',
   popo: '#000000',

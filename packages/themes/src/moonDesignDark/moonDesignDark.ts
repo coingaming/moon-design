@@ -45,14 +45,14 @@ const color = {
 };
 
 const colorNew = {
-  piccolo: '#4E46B4',
+  piccolo: '#FFFFFF',
   hit: '#0B0B0B',
   beerus: '#1F1F1F',
-  goku: '#0B0B0B',
-  gohan: '#1F1F1F',
+  goku: '#000000',
+  gohan: '#0B0B0B',
   bulma: '#FFFFFF',
   trunks: '#999CA0',
-  goten: '#FFFFFF',
+  goten: '#000000',
   popo: '#000000',
 };
 
