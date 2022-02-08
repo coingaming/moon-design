@@ -1,19 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TabLink renders 1`] = `
+exports[`Tablink renders 1`] = `
 <a
   className="Container-j1xqi2-0 jtcqje"
 />
 `;
 
-exports[`TabLink renders Href 1`] = `
+exports[`Tablink renders Href 1`] = `
 <a
   className="Container-j1xqi2-0 jtcqje"
   href="www.google.com"
 />
 `;
 
-exports[`TabLink renders count 1`] = `
+exports[`Tablink renders count 1`] = `
 <a
   className="Container-j1xqi2-0 jtcqje"
 >
@@ -25,7 +25,7 @@ exports[`TabLink renders count 1`] = `
 </a>
 `;
 
-exports[`TabLink renders element left 1`] = `
+exports[`Tablink renders element left 1`] = `
 <a
   className="Container-j1xqi2-0 jtcqje"
 >
@@ -39,13 +39,13 @@ exports[`TabLink renders element left 1`] = `
 </a>
 `;
 
-exports[`TabLink renders isTop 1`] = `
+exports[`Tablink renders isTop 1`] = `
 <a
   className="Container-j1xqi2-0 kKuXzF"
 />
 `;
 
-exports[`TabLink renders size 1`] = `
+exports[`Tablink renders size 1`] = `
 <a
   className="Container-j1xqi2-0 fDacHl"
   size="small"

@@ -1,13 +1,10 @@
 // @ts-nocheck
 import React from 'react';
-
-import Default from '../../public/examples/carousel/Default';
+import Preview from '../../components/codePreview/Preview';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
+import Default from '../../public/examples/carousel/Default';
 import Space from '../../public/examples/carousel/Space';
 import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
-
-import Preview from '../../components/codePreview/Preview';
-
 import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {

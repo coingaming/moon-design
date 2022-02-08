@@ -1,9 +1,6 @@
 import React from 'react';
-
 import Preview from '../../components/codePreview/Preview';
-
 import Default from '../../public/examples/tooltip/Default';
-
 import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {

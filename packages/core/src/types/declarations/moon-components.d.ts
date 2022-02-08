@@ -1,3 +1,1 @@
-declare module '@heathmont/moon-components' {
-  export const Button: any;
-}
+declare module '@heathmont/moon-components';

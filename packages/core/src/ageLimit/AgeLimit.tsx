@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { ColorProps, useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
-
 import Caption from './styles/Caption';
 import Container from './styles/Container';
 export interface AgeLimitProps {

@@ -1,6 +1,6 @@
-import styled, { CSSObject } from 'styled-components';
-import { themed, rem } from '@heathmont/moon-utils';
 import { SpaceProps } from '@heathmont/moon-themes';
+import { themed, rem } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 
 import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 

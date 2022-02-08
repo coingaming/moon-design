@@ -3,10 +3,10 @@
  */
 
 import React from 'react';
+import { jest } from '@jest/globals';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer, { act } from 'react-test-renderer';
 import { toMatchDiffSnapshot } from 'snapshot-diff';
-
 import Default from '../Default';
 import Calendar from '../Calendar';
 import CalendarDisabledDay from '../CalendarDisabledDay';
@@ -25,6 +25,15 @@ const renderWithThemeRTL = (component: JSX.Element) => (
     <div dir="rtl">{component}</div>
   </ThemeProvider>
 );
+
+beforeAll(() => {
+  jest.useFakeTimers('modern');
+  jest.setSystemTime(new Date(2021, 2, 2));
+});
+
+afterAll(() => {
+  jest.useRealTimers();
+});
 
 describe('DatePicker', () => {
   it('renders', () => {

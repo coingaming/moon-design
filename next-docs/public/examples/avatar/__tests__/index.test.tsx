@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Image from '../Image';
 import Letter from '../Letter';
 import Fallbacks from '../Fallbacks';

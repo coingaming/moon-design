@@ -1,7 +1,6 @@
 import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import styled from 'styled-components';
-
 import Container from './styles/Container';
 
 export interface BadgeProps {

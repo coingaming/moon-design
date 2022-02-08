@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React from 'react';
-
 import { Filter, GeoMapChart } from '@heathmont/moon-charts';
 import { SingleItemSelect } from '@heathmont/moon-components';
 

@@ -1,9 +1,6 @@
 import React from 'react';
-
-import Default from '../../../public/examples/dialog/dialogContent/Default';
-
 import Preview from '../../../components/codePreview/Preview';
-
+import Default from '../../../public/examples/dialog/dialogContent/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogContent() {

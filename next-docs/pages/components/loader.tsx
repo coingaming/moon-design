@@ -1,10 +1,7 @@
 import React from 'react';
-
-import Default from '../../public/examples/loader/Default';
-import Customization from '../../public/examples/loader/Customization';
-
 import Preview from '../../components/codePreview/Preview';
-
+import Customization from '../../public/examples/loader/Customization';
+import Default from '../../public/examples/loader/Default';
 import useExamples from '../../utils/useExamples';
 
 export default function PageLoader() {
