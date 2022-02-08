@@ -1,3 +1,4 @@
+import { componentsTokens } from '..';
 import avertaStd from '../sharedTokens/avertaStd';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
@@ -76,6 +77,7 @@ const hub88: Theme = {
     medium: sharedTokens.base.space * 1.25,
     large: sharedTokens.base.space * 1.5,
   },
+  ...componentsTokens(colorNew),
 };
 
 export default hub88;

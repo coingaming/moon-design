@@ -429,7 +429,7 @@ export interface SharedTheme {
     lg: string;
     xl: string;
   };
-  newTokens: ComponentsTokens & {
+  newTokens: {
     borderRadius: BorderRadius;
     breakpoint: BreakpointNew;
     border: BorderNew;
@@ -443,12 +443,13 @@ export interface SharedTheme {
   };
 }
 
-export type Theme = SharedTheme & {
-  brand: Brand;
-  colorScheme: ColorScheme;
-  color: Color;
-  colorNew: ColorNew;
-};
+export type Theme = SharedTheme &
+  ComponentsTokens & {
+    brand: Brand;
+    colorScheme: ColorScheme;
+    color: Color;
+    colorNew: ColorNew;
+  };
 
 const sharedTokens: SharedTheme = {
   base: {
