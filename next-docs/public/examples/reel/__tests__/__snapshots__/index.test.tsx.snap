@@ -2,7 +2,7 @@
 
 exports[`Reel renders 1`] = `
 <div
-  className="Reel-sc-10l7fx7-0 fgKFOZ"
+  className="Reel-sc-10l7fx7-0 hVuQWd"
   height="auto"
 >
   <div>
@@ -53,7 +53,7 @@ exports[`Reel renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="Reel-sc-10l7fx7-0 hvYQiy"
+    className="Reel-sc-10l7fx7-0 eGCjK"
     dir="rtl"
     height="auto"
   >
@@ -103,7 +103,7 @@ exports[`Reel renders RTL 1`] = `
 
 exports[`Reel renders child images correctly with custom height 1`] = `
 <div
-  className="Reel-sc-10l7fx7-0 btWgOt"
+  className="Reel-sc-10l7fx7-0 hsTuEB"
   height="10vh"
 >
   <img
@@ -151,7 +151,7 @@ exports[`Reel renders child images correctly with custom height 1`] = `
 
 exports[`Reel renders child list items correctly 1`] = `
 <ul
-  className="Reel-sc-10l7fx7-0 fgKFOZ"
+  className="Reel-sc-10l7fx7-0 hVuQWd"
   height="auto"
 >
   <li>
@@ -199,7 +199,7 @@ exports[`Reel renders child list items correctly 1`] = `
 
 exports[`Reel renders with custom space 1`] = `
 <div
-  className="Reel-sc-10l7fx7-0 dxcSPp"
+  className="Reel-sc-10l7fx7-0 inSDVN"
   height="auto"
 >
   <div>

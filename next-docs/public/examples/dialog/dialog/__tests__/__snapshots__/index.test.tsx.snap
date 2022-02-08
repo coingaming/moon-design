@@ -2,7 +2,7 @@
 
 exports[`Dialog renders 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
@@ -17,7 +17,7 @@ exports[`Dialog renders 1`] = `
 
 exports[`Dialog renders Another Dialog Header 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
@@ -32,7 +32,7 @@ exports[`Dialog renders Another Dialog Header 1`] = `
 
 exports[`Dialog renders Dialog Header 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
@@ -50,7 +50,7 @@ exports[`Dialog renders RTL 1`] = `
   dir="rtl"
 >
   <button
-    className="sc-kjOQFR dJszzh"
+    className="sc-kjOQFR bYtfKl"
     onClick={[Function]}
     size="small"
     variant="primary"
@@ -66,7 +66,7 @@ exports[`Dialog renders RTL 1`] = `
 
 exports[`Dialog renders with No Background 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
@@ -81,7 +81,7 @@ exports[`Dialog renders with No Background 1`] = `
 
 exports[`Dialog renders with No Close 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"

@@ -5,7 +5,7 @@ exports[`Search renders 1`] = `
   className="h-96 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 eCmTaH popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 bjhsmH popup "
   >
     <div
       className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
@@ -20,7 +20,7 @@ exports[`Search renders 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 bizrhW"
+            className="Input__SearchInput-vvx0zy-4 gsVvCm"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -30,7 +30,7 @@ exports[`Search renders 1`] = `
             value=""
           />
           <svg
-            className="sc-fyrocj Input__SearchInputIcon-vvx0zy-2  hVJXFh"
+            className="sc-fyrocj Input__SearchInputIcon-vvx0zy-2  eVaWQB"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -50,7 +50,7 @@ exports[`Search renders 1`] = `
         </span>
       </form>
       <button
-        className="sc-jFkmsu pZJMx Styles__ModalClose-sc-1urf7j8-2 hOvybW"
+        className="sc-jFkmsu pZJMx Styles__ModalClose-sc-1urf7j8-2 kIztcm"
         onClick={[Function]}
         size="small"
         variant="default"
@@ -68,7 +68,7 @@ exports[`Search renders 1`] = `
       className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 cuDQle"
+        className="Styles__Results-sc-1urf7j8-3 hjghfS"
       >
         <ul
           className="sc-kBHgYv ebiPJP"
@@ -90,7 +90,7 @@ exports[`Search renders Loading State 1`] = `
   className="h-40 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 eCmTaH popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 bjhsmH popup "
   >
     <div
       className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
@@ -104,7 +104,7 @@ exports[`Search renders Loading State 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 bizrhW"
+            className="Input__SearchInput-vvx0zy-4 gsVvCm"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -114,7 +114,7 @@ exports[`Search renders Loading State 1`] = `
             value=""
           />
           <svg
-            className="sc-fyrocj Input__SearchInputIcon-vvx0zy-2  hVJXFh"
+            className="sc-fyrocj Input__SearchInputIcon-vvx0zy-2  eVaWQB"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -138,7 +138,7 @@ exports[`Search renders Loading State 1`] = `
       className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 cuDQle"
+        className="Styles__Results-sc-1urf7j8-3 hjghfS"
       >
         <ul
           className="sc-dOkGYn ihdtbi"

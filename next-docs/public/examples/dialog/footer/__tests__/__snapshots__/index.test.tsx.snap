@@ -8,7 +8,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 juXBBY"
+      className="Container-srtaaf-0 hVHwDA"
     >
       <div
         className="RightWrapper-vueweo-0 ewJJjN"
@@ -17,7 +17,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu ldhhaJ"
+            className="sc-jFkmsu izQzDF"
             size="small"
             variant="primary"
           >
@@ -32,7 +32,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu czYvUr"
+            className="sc-jFkmsu fymwUb"
             size="small"
             variant="tertiary"
           >
@@ -48,7 +48,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu fHOtRz"
+          className="sc-jFkmsu ddHDLr"
           size="small"
           variant="secondary"
         >
@@ -65,7 +65,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jmRlnQ"
+      className="Container-srtaaf-0 ixLaXk"
       size="small"
     >
       <div
@@ -75,7 +75,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu hekKci"
+            className="sc-jFkmsu isPdSq"
             size="xsmall"
             variant="primary"
           >
@@ -90,7 +90,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu JpsVU"
+            className="sc-jFkmsu jTuuYY"
             size="xsmall"
             variant="tertiary"
           >
@@ -106,7 +106,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu jAeosE"
+          className="sc-jFkmsu cMHyMo"
           size="xsmall"
           variant="secondary"
         >
@@ -139,7 +139,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu ldhhaJ"
+            className="sc-jFkmsu izQzDF"
             size="small"
             variant="primary"
           >
@@ -166,7 +166,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu ldhhaJ"
+            className="sc-jFkmsu izQzDF"
             size="small"
             variant="primary"
           >
@@ -181,7 +181,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu czYvUr"
+            className="sc-jFkmsu fymwUb"
             size="small"
             variant="tertiary"
           >
@@ -208,7 +208,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu ldhhaJ"
+            className="sc-jFkmsu izQzDF"
             size="small"
             variant="primary"
           >
@@ -223,7 +223,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu czYvUr"
+            className="sc-jFkmsu fymwUb"
             size="small"
             variant="tertiary"
           >
@@ -239,7 +239,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu fHOtRz"
+          className="sc-jFkmsu ddHDLr"
           size="small"
           variant="secondary"
         >
@@ -265,7 +265,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu ldhhaJ"
+            className="sc-jFkmsu izQzDF"
             size="small"
             variant="primary"
           >
@@ -281,7 +281,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu fHOtRz"
+          className="sc-jFkmsu ddHDLr"
           size="small"
           variant="secondary"
         >
@@ -307,7 +307,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu czYvUr"
+            className="sc-jFkmsu fymwUb"
             size="small"
             variant="tertiary"
           >
@@ -334,7 +334,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu czYvUr"
+            className="sc-jFkmsu fymwUb"
             size="small"
             variant="tertiary"
           >
@@ -350,7 +350,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu fHOtRz"
+          className="sc-jFkmsu ddHDLr"
           size="small"
           variant="secondary"
         >
@@ -386,7 +386,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu hekKci"
+            className="sc-jFkmsu isPdSq"
             size="xsmall"
             variant="primary"
           >
@@ -413,7 +413,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu hekKci"
+            className="sc-jFkmsu isPdSq"
             size="xsmall"
             variant="primary"
           >
@@ -428,7 +428,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu JpsVU"
+            className="sc-jFkmsu jTuuYY"
             size="xsmall"
             variant="tertiary"
           >
@@ -455,7 +455,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu hekKci"
+            className="sc-jFkmsu isPdSq"
             size="xsmall"
             variant="primary"
           >
@@ -470,7 +470,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu JpsVU"
+            className="sc-jFkmsu jTuuYY"
             size="xsmall"
             variant="tertiary"
           >
@@ -486,7 +486,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu jAeosE"
+          className="sc-jFkmsu cMHyMo"
           size="xsmall"
           variant="secondary"
         >
@@ -512,7 +512,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu hekKci"
+            className="sc-jFkmsu isPdSq"
             size="xsmall"
             variant="primary"
           >
@@ -528,7 +528,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu jAeosE"
+          className="sc-jFkmsu cMHyMo"
           size="xsmall"
           variant="secondary"
         >
@@ -554,7 +554,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu JpsVU"
+            className="sc-jFkmsu jTuuYY"
             size="xsmall"
             variant="tertiary"
           >
@@ -581,7 +581,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
           className="ButtonWrapper-k744ak-0 duyQCK"
         >
           <button
-            className="sc-jFkmsu JpsVU"
+            className="sc-jFkmsu jTuuYY"
             size="xsmall"
             variant="tertiary"
           >
@@ -597,7 +597,7 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         className="ButtonWrapper-k744ak-0 duyQCK"
       >
         <button
-          className="sc-jFkmsu jAeosE"
+          className="sc-jFkmsu cMHyMo"
           size="xsmall"
           variant="secondary"
         >

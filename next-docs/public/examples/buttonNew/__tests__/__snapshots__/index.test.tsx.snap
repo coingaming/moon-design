@@ -5,7 +5,7 @@ exports[`Button New renders Full width property 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 bHPWwp"
+    className="ButtonComponent-sc-1qwityd-0 gdSvuN"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -40,7 +40,7 @@ exports[`Button New renders different animations 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 blEIXB"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -84,7 +84,7 @@ exports[`Button New renders different animations 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 blEIXB"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -122,7 +122,7 @@ exports[`Button New renders different animations 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 fUlQoa"
+    className="ButtonComponent-sc-1qwityd-0 eYEgDu"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -133,7 +133,7 @@ exports[`Button New renders different animations 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 jKlhTq"
+    className="ButtonComponent-sc-1qwityd-0 fDokjW"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -151,7 +151,7 @@ exports[`Button New renders different icons 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 irRrRi"
+    className="ButtonComponent-sc-1qwityd-0 esNkzG"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -179,7 +179,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 irRrRi"
+    className="ButtonComponent-sc-1qwityd-0 esNkzG"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -207,7 +207,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 eJmOQm"
+    className="ButtonComponent-sc-1qwityd-0 KiHyK"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -235,7 +235,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 eJmOQm"
+    className="ButtonComponent-sc-1qwityd-0 KiHyK"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -263,7 +263,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 keSuye"
+    className="ButtonComponent-sc-1qwityd-0 kriRcm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -290,7 +290,7 @@ exports[`Button New renders different icons 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 keSuye"
+    className="ButtonComponent-sc-1qwityd-0 kriRcm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -324,7 +324,7 @@ exports[`Button New renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 bMqcYA"
+    className="ButtonComponent-sc-1qwityd-0 ilVUuY"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -335,7 +335,7 @@ exports[`Button New renders different sizes 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 blEIXB"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -346,7 +346,7 @@ exports[`Button New renders different sizes 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 eCxCVU"
+    className="ButtonComponent-sc-1qwityd-0 jTfIlE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="large"
@@ -357,7 +357,7 @@ exports[`Button New renders different sizes 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 dNMCOH"
+    className="ButtonComponent-sc-1qwityd-0 sfKcz"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="xlarge"
@@ -375,7 +375,7 @@ exports[`Button New renders different variants 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 blEIXB"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -386,7 +386,7 @@ exports[`Button New renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 hJlrLq"
+    className="ButtonComponent-sc-1qwityd-0 dlczW"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -397,7 +397,7 @@ exports[`Button New renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 bXfrwr"
+    className="ButtonComponent-sc-1qwityd-0 bAsbwX"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -408,7 +408,7 @@ exports[`Button New renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 jdWdgZ"
+    className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -429,7 +429,7 @@ exports[`Button New renders different variants RTL 1`] = `
     className="flex justify-around w-full items-center"
   >
     <button
-      className="ButtonComponent-sc-1qwityd-0 blEIXB"
+      className="ButtonComponent-sc-1qwityd-0 lmotjR"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -440,7 +440,7 @@ exports[`Button New renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 hJlrLq"
+      className="ButtonComponent-sc-1qwityd-0 dlczW"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -451,7 +451,7 @@ exports[`Button New renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 bXfrwr"
+      className="ButtonComponent-sc-1qwityd-0 bAsbwX"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -462,7 +462,7 @@ exports[`Button New renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 jdWdgZ"
+      className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -481,7 +481,7 @@ exports[`Button New renders disabled state 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 kYJbQl"
+    className="ButtonComponent-sc-1qwityd-0 gPKRLV"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}

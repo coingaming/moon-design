@@ -39,42 +39,42 @@ export interface ColorShared {
 const supportColors: ColorShared = {
   // Warning colors
   krillin: {
-    100: '#FFB319',
-    10: '#FFE4AD',
+    100: '#ffb319',
+    10: '#ffe4ad',
   },
   // Error colors
   chiChi: {
-    100: '#FF4E64',
-    10: '#FFA7B2',
+    100: '#ff4e64',
+    10: '#ffa7b2',
   },
   // Success colors
   roshi: {
-    100: '#0CD664',
-    10: '#B6F3D0',
+    100: '#0cd664',
+    10: '#b6f3d0',
   },
   dodoria: {
-    100: '#D33030',
-    10: '#E99797',
+    100: '#d33030',
+    10: '#e99797',
   },
   cell: {
-    100: '#0AB758',
-    10: '#84DBAB',
+    100: '#0ab758',
+    10: '#84dbab',
   },
   raditz: {
-    100: '#B3804A',
-    10: '#D9BFA4',
+    100: '#b3804a',
+    10: '#d9bfa4',
   },
   whis: {
-    100: '#0F75BD',
-    10: '#87BADE',
+    100: '#0f75bd',
+    10: '#87bade',
   },
   frieza: {
-    100: '#5C33CF',
-    10: '#B6A3E9',
+    100: '#5c33cf',
+    10: '#b6a3e9',
   },
   nappa: {
     100: '#725550',
-    10: '#B8AAA7',
+    10: '#b8aaa7',
   },
   popo: {
     100: '#000',

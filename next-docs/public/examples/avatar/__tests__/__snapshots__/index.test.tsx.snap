@@ -8,12 +8,12 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 iIXYAL"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 iguonj"
       color="gohan.100"
       size="xsmall"
     >
       <svg
-        className="sc-hmvnCu gpWVDv"
+        className="sc-hmvnCu iXAeMX"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -36,12 +36,12 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 bVoyrm"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 llceeW"
       color="gohan.100"
       size="small"
     >
       <svg
-        className="sc-hmvnCu gpWVDv"
+        className="sc-hmvnCu iXAeMX"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -64,12 +64,12 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 hNueEz"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 iciNnD"
       color="gohan.100"
       size="medium"
     >
       <svg
-        className="sc-hmvnCu gpWVDv"
+        className="sc-hmvnCu iXAeMX"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -92,12 +92,12 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
       color="gohan.100"
       size="large"
     >
       <svg
-        className="sc-hmvnCu gpWVDv"
+        className="sc-hmvnCu iXAeMX"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -166,7 +166,7 @@ exports[`Avatar renders Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 iIXYAL"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 iguonj"
       color="gohan.100"
       name="JS"
       size="xsmall"
@@ -178,7 +178,7 @@ exports[`Avatar renders Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 bVoyrm"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 llceeW"
       color="gohan.100"
       name="JS"
       size="small"
@@ -190,7 +190,7 @@ exports[`Avatar renders Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 hNueEz"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 iciNnD"
       color="gohan.100"
       name="JS"
       size="medium"
@@ -202,7 +202,7 @@ exports[`Avatar renders Letters 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
       color="gohan.100"
       name="JS"
       size="large"
@@ -224,7 +224,7 @@ exports[`Avatar renders different statuses 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 iIXYAL"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 iguonj"
         color="gohan.100"
         name="JS"
         size="xsmall"
@@ -232,7 +232,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 bVjAlZ"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jlMRZd"
         color="gohan.100"
         name="JS"
         size="xsmall"
@@ -242,7 +242,7 @@ exports[`Avatar renders different statuses 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 bVoyrm"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 llceeW"
         color="gohan.100"
         name="JS"
         size="small"
@@ -250,7 +250,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 fpqUrn"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 gTfbRv"
         color="gohan.100"
         name="JS"
         size="small"
@@ -260,7 +260,7 @@ exports[`Avatar renders different statuses 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 hNueEz"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 iciNnD"
         color="gohan.100"
         name="JS"
         size="medium"
@@ -268,7 +268,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 fpqUrn"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 gTfbRv"
         color="gohan.100"
         name="JS"
         size="medium"
@@ -278,7 +278,7 @@ exports[`Avatar renders different statuses 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
         color="gohan.100"
         name="JS"
         size="large"
@@ -286,83 +286,7 @@ exports[`Avatar renders different statuses 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 kOHcmX"
-        color="gohan.100"
-        name="JS"
-        size="large"
-      />
-    </div>
-  </div>
-  <div
-    className="flex justify-around items-center w-full mt-4"
-  >
-    <div
-      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
-    >
-      <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 iIXYAL"
-        color="gohan.100"
-        name="JS"
-        size="xsmall"
-      >
-        JS
-      </div>
-      <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 kviLiC"
-        color="gohan.100"
-        name="JS"
-        size="xsmall"
-      />
-    </div>
-    <div
-      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
-    >
-      <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 bVoyrm"
-        color="gohan.100"
-        name="JS"
-        size="small"
-      >
-        JS
-      </div>
-      <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 bbZnXE"
-        color="gohan.100"
-        name="JS"
-        size="small"
-      />
-    </div>
-    <div
-      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
-    >
-      <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 hNueEz"
-        color="gohan.100"
-        name="JS"
-        size="medium"
-      >
-        JS
-      </div>
-      <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 bbZnXE"
-        color="gohan.100"
-        name="JS"
-        size="medium"
-      />
-    </div>
-    <div
-      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
-    >
-      <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
-        color="gohan.100"
-        name="JS"
-        size="large"
-      >
-        JS
-      </div>
-      <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 jfciYA"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 cMTFpf"
         color="gohan.100"
         name="JS"
         size="large"
@@ -376,47 +300,71 @@ exports[`Avatar renders different statuses 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 hsNOTF"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 iguonj"
+        color="gohan.100"
+        name="JS"
+        size="xsmall"
+      >
+        JS
+      </div>
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jIlbO"
+        color="gohan.100"
+        name="JS"
         size="xsmall"
       />
-      <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 bVjAlZ"
-        size="xsmall"
-      />
     </div>
     <div
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 kIBLWE"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 llceeW"
+        color="gohan.100"
+        name="JS"
+        size="small"
+      >
+        JS
+      </div>
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jYThPE"
+        color="gohan.100"
+        name="JS"
         size="small"
       />
+    </div>
+    <div
+      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
+    >
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 fpqUrn"
-        size="small"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 iciNnD"
+        color="gohan.100"
+        name="JS"
+        size="medium"
+      >
+        JS
+      </div>
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jYThPE"
+        color="gohan.100"
+        name="JS"
+        size="medium"
       />
     </div>
     <div
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 fwZetJ"
-        size="medium"
-      />
-      <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 fpqUrn"
-        size="medium"
-      />
-    </div>
-    <div
-      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
-    >
-      <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 iRWJZH"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
+        color="gohan.100"
+        name="JS"
         size="large"
-      />
+      >
+        JS
+      </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 kOHcmX"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 djTeJM"
+        color="gohan.100"
+        name="JS"
         size="large"
       />
     </div>
@@ -432,7 +380,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="xsmall"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 kviLiC"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jlMRZd"
         size="xsmall"
       />
     </div>
@@ -444,7 +392,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="small"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 bbZnXE"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 gTfbRv"
         size="small"
       />
     </div>
@@ -456,7 +404,7 @@ exports[`Avatar renders different statuses 1`] = `
         size="medium"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 bbZnXE"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 gTfbRv"
         size="medium"
       />
     </div>
@@ -468,7 +416,59 @@ exports[`Avatar renders different statuses 1`] = `
         size="large"
       />
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 jfciYA"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 cMTFpf"
+        size="large"
+      />
+    </div>
+  </div>
+  <div
+    className="flex justify-around items-center w-full mt-4"
+  >
+    <div
+      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
+    >
+      <div
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 hsNOTF"
+        size="xsmall"
+      />
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jIlbO"
+        size="xsmall"
+      />
+    </div>
+    <div
+      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
+    >
+      <div
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 kIBLWE"
+        size="small"
+      />
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jYThPE"
+        size="small"
+      />
+    </div>
+    <div
+      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
+    >
+      <div
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 fwZetJ"
+        size="medium"
+      />
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 jYThPE"
+        size="medium"
+      />
+    </div>
+    <div
+      className="Avatar__Container-sc-1silcs5-0 fbnQGv"
+    >
+      <div
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 iRWJZH"
+        size="large"
+      />
+      <div
+        className="Avatar__StatusWrapper-sc-1silcs5-2 djTeJM"
         size="large"
       />
     </div>
@@ -484,12 +484,12 @@ exports[`Avatar supports different colours 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 hNueEz"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 iciNnD"
       color="gohan.100"
       size="medium"
     >
       <svg
-        className="sc-hmvnCu gpWVDv"
+        className="sc-hmvnCu iXAeMX"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -512,12 +512,12 @@ exports[`Avatar supports different colours 1`] = `
     className="Avatar__Container-sc-1silcs5-0 fbnQGv"
   >
     <div
-      className="Avatar__AvatarWrapper-sc-1silcs5-1 NHmWX"
+      className="Avatar__AvatarWrapper-sc-1silcs5-1 fAnMTT"
       color="piccolo.100"
       size="medium"
     >
       <svg
-        className="sc-hmvnCu esGFAu"
+        className="sc-hmvnCu egEoim"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -550,7 +550,7 @@ exports[`Avatar supports different status positions 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
         color="gohan.100"
         name="JS"
         size="large"
@@ -558,7 +558,7 @@ exports[`Avatar supports different status positions 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 dKXAJj"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 gYFNkn"
         color="gohan.100"
         name="JS"
         size="large"
@@ -568,7 +568,7 @@ exports[`Avatar supports different status positions 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
         color="gohan.100"
         name="JS"
         size="large"
@@ -576,7 +576,7 @@ exports[`Avatar supports different status positions 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 eZwsbQ"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 fRiFqo"
         color="gohan.100"
         name="JS"
         size="large"
@@ -586,7 +586,7 @@ exports[`Avatar supports different status positions 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
         color="gohan.100"
         name="JS"
         size="large"
@@ -594,7 +594,7 @@ exports[`Avatar supports different status positions 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 kOHcmX"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 cMTFpf"
         color="gohan.100"
         name="JS"
         size="large"
@@ -604,7 +604,7 @@ exports[`Avatar supports different status positions 1`] = `
       className="Avatar__Container-sc-1silcs5-0 fbnQGv"
     >
       <div
-        className="Avatar__AvatarWrapper-sc-1silcs5-1 cDvwYB"
+        className="Avatar__AvatarWrapper-sc-1silcs5-1 cqxYER"
         color="gohan.100"
         name="JS"
         size="large"
@@ -612,7 +612,7 @@ exports[`Avatar supports different status positions 1`] = `
         JS
       </div>
       <div
-        className="Avatar__StatusWrapper-sc-1silcs5-2 iMtXnM"
+        className="Avatar__StatusWrapper-sc-1silcs5-2 cMeAiA"
         color="gohan.100"
         name="JS"
         size="large"

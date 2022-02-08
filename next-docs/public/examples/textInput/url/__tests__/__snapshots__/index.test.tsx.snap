@@ -17,14 +17,14 @@ exports[`TextInput: type Url renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bekhms"
+        className="Input-qkdgvx-0 cPdZqI"
         disabled={true}
         placeholder=" "
         type="url"
         value="https://sportsbet.io"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -44,14 +44,14 @@ exports[`TextInput: type Url renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 czeiwv"
+        className="Input-qkdgvx-0 faxITP"
         disabled={true}
         placeholder=" "
         type="url"
         value="https://sportsbet.io"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -66,23 +66,23 @@ exports[`TextInput: type Url renders disabled 1`] = `
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 kwCYox"
+          className="Input-qkdgvx-0 IdHaF"
           disabled={true}
           placeholder=" "
           type="url"
           value="https://sportsbet.io"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -108,12 +108,12 @@ exports[`TextInput: type Url renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 GUcka"
+        className="Input-qkdgvx-0 bNHALK"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 heGnbI"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -132,12 +132,12 @@ exports[`TextInput: type Url renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 gYHLjZ"
+        className="Input-qkdgvx-0 dAzyuN"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 heGnbI"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -151,21 +151,21 @@ exports[`TextInput: type Url renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 ekIlEn"
+          className="Input-qkdgvx-0 fHtPyf"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 heGnbI"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -191,14 +191,14 @@ exports[`TextInput: type Url renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bekhms"
+        className="Input-qkdgvx-0 cPdZqI"
         placeholder=" "
         readOnly={true}
         type="url"
         value="https://sportsbet.io"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -217,14 +217,14 @@ exports[`TextInput: type Url renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 czeiwv"
+        className="Input-qkdgvx-0 faxITP"
         placeholder=" "
         readOnly={true}
         type="url"
         value="https://sportsbet.io"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -238,23 +238,23 @@ exports[`TextInput: type Url renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 kwCYox"
+          className="Input-qkdgvx-0 IdHaF"
           placeholder=" "
           readOnly={true}
           type="url"
           value="https://sportsbet.io"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -280,12 +280,12 @@ exports[`TextInput: type Url renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bekhms"
+        className="Input-qkdgvx-0 cPdZqI"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -304,12 +304,12 @@ exports[`TextInput: type Url renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 czeiwv"
+        className="Input-qkdgvx-0 faxITP"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -323,21 +323,21 @@ exports[`TextInput: type Url renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 kwCYox"
+          className="Input-qkdgvx-0 IdHaF"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -363,7 +363,7 @@ exports[`TextInput: type Url renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bekhms"
+        className="Input-qkdgvx-0 cPdZqI"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Url renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 czeiwv"
+        className="Input-qkdgvx-0 faxITP"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -394,15 +394,15 @@ exports[`TextInput: type Url renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 kwCYox"
+          className="Input-qkdgvx-0 IdHaF"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
@@ -423,7 +423,7 @@ exports[`TextInput: type Url renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 bekhms"
+        className="Input-qkdgvx-0 cPdZqI"
         placeholder="medium"
         type="url"
       />
@@ -436,7 +436,7 @@ exports[`TextInput: type Url renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 czeiwv"
+        className="Input-qkdgvx-0 faxITP"
         placeholder="large"
         type="url"
       />
@@ -449,15 +449,15 @@ exports[`TextInput: type Url renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 QnEHj"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eBLNew"
+          className="Input-qkdgvx-0 elFYRA"
           placeholder="xlarge"
           type="url"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         />
       </div>
     </div>
@@ -481,12 +481,12 @@ exports[`TextInput: type Url supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 jsDDWX"
+        className="Input-qkdgvx-0 fXnezT"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -505,12 +505,12 @@ exports[`TextInput: type Url supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 rTkGE"
+        className="Input-qkdgvx-0 XPyrk"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -524,21 +524,21 @@ exports[`TextInput: type Url supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 hrjkOU"
+        className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 kwCYox"
+          className="Input-qkdgvx-0 IdHaF"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder

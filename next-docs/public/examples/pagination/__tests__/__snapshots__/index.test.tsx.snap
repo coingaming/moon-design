@@ -5,7 +5,7 @@ exports[`Pagination renders 1`] = `
   className="Pagination__PaginationWrapper-wdjjm6-0 lgSjaA"
 >
   <div
-    className="Pagination__ReactPaginateWrapper-wdjjm6-2 jlQfeU"
+    className="Pagination__ReactPaginateWrapper-wdjjm6-2 hRCGqU"
   >
     <ul>
       <li
@@ -20,7 +20,7 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-kjOQFR cpdeYG"
+            className="sc-kjOQFR cJfyMq"
             size="xsmall"
             variant="primary"
           >
@@ -130,7 +130,7 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-kjOQFR cpdeYG"
+            className="sc-kjOQFR cJfyMq"
             size="xsmall"
             variant="primary"
           >
