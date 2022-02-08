@@ -5,235 +5,235 @@ exports[`Carousel renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-cTkOiY fgQua-D"
+    className="sc-cTAIfT bzxRcy"
   >
     <div
-      className="Carousel__CarouselWrapper-xel9ev-0 dIVKCL"
+      className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
     >
       <ul
-        className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 fcarpj kMmwHJ"
+        className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 SJKyg dVCLRi"
       >
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             0
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             1
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             2
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             3
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             4
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             5
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             6
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             7
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             8
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             9
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             10
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             11
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             12
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             13
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             14
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             15
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             16
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             17
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             18
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             19
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             20
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             21
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             22
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             23
           </div>
         </li>
         <li
-          className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
         >
           <div
-            className="sc-bWNSNh gueSIK"
+            className="sc-bXdNzS bShKVm"
           >
             24
           </div>
@@ -249,16 +249,16 @@ exports[`Carousel renders visible index 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Carousel__CarouselWrapper-xel9ev-0 dIVKCL"
+    className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
   >
     <ul
-      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 krBxWn kMmwHJ"
+      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 tFctc dVCLRi"
     >
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-ihINtW biuMQU"
         >
           -1
           , 
@@ -266,10 +266,10 @@ exports[`Carousel renders visible index 1`] = `
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-ihINtW biuMQU"
         >
           -1
           , 
@@ -277,10 +277,10 @@ exports[`Carousel renders visible index 1`] = `
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-ihINtW biuMQU"
         >
           -1
           , 
@@ -288,10 +288,10 @@ exports[`Carousel renders visible index 1`] = `
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-ihINtW biuMQU"
         >
           -1
           , 
@@ -299,10 +299,10 @@ exports[`Carousel renders visible index 1`] = `
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-ihINtW biuMQU"
         >
           -1
           , 
@@ -319,7 +319,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Carousel__CarouselWrapper-xel9ev-0 dIVKCL"
+    className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
   >
     <button
       disabled={true}
@@ -328,229 +328,229 @@ exports[`Carousel renders with Customized Arrows 1`] = `
       Scroll to left
     </button>
     <ul
-      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 fcarpj kMmwHJ"
+      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 SJKyg dVCLRi"
     >
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           0
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           1
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           2
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           3
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           4
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           5
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           6
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           7
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           8
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           9
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           10
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           11
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           12
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           13
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           14
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           15
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           16
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           17
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           18
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           19
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           20
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           21
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           22
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           23
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-fvpsdx devBXy"
         >
           24
         </div>
@@ -571,52 +571,52 @@ exports[`Carousel renders with different Space 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Carousel__CarouselWrapper-xel9ev-0 dIVKCL"
+    className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
   >
     <ul
-      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 krBxWn kMmwHJ"
+      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 tFctc dVCLRi"
     >
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-eySxxw fpHaLN"
         >
           0
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-eySxxw fpHaLN"
         >
           1
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-eySxxw fpHaLN"
         >
           2
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-eySxxw fpHaLN"
         >
           3
         </div>
       </li>
       <li
-        className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-eySxxw fpHaLN"
         >
           4
         </div>
