@@ -5,7 +5,7 @@ exports[`Heading renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 HA-dHf"
+    className="Heading-sc-1jzu9kp-0 gCkAc"
     color="bulma.100"
     size={16}
   >
@@ -19,14 +19,14 @@ exports[`Heading renders colors 1`] = `
   className="flex justify-around items-center w-full"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 fiBKzM"
+    className="Heading-sc-1jzu9kp-0 fukuTv"
     color="goku.80"
     size={16}
   >
     Title
   </h3>
   <h3
-    className="Heading-sc-1jzu9kp-0 puHfL"
+    className="Heading-sc-1jzu9kp-0 Reqwc"
     color="hit.80"
     size={16}
   >
@@ -40,7 +40,7 @@ exports[`Heading renders isRegular 1`] = `
   className="flex justify-around items-center w-full"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 eNYeai"
+    className="Heading-sc-1jzu9kp-0 byBMtp"
     color="bulma.100"
     size={16}
   >
@@ -54,14 +54,14 @@ exports[`Heading renders size 1`] = `
   className="flex justify-around items-center w-full"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 bcLCto"
+    className="Heading-sc-1jzu9kp-0 dTQAiP"
     color="bulma.100"
     size={24}
   >
     Title Size
   </h3>
   <h3
-    className="Heading-sc-1jzu9kp-0 MSQQD"
+    className="Heading-sc-1jzu9kp-0 evSKpA"
     color="bulma.100"
     size={72}
   >
@@ -75,14 +75,14 @@ exports[`Heading renders text align 1`] = `
   className="flex justify-around items-center w-full"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 OqhRY"
+    className="Heading-sc-1jzu9kp-0 ihCsbP"
     color="bulma.100"
     size={16}
   >
     Title
   </h3>
   <h3
-    className="Heading-sc-1jzu9kp-0 jMhTqf"
+    className="Heading-sc-1jzu9kp-0 cbfufs"
     color="bulma.100"
     size={16}
   >

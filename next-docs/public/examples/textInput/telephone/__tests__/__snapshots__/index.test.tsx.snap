@@ -8,23 +8,23 @@ exports[`TextInput: type Tel renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 cVrrwF"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 bekhms"
         disabled={true}
         placeholder=" "
         type="tel"
         value="+372 123 4567"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -35,23 +35,23 @@ exports[`TextInput: type Tel renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 cVrrwF"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 czeiwv"
         disabled={true}
         placeholder=" "
         type="tel"
         value="+372 123 4567"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -62,27 +62,27 @@ exports[`TextInput: type Tel renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 cVrrwF"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 QnEHj"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 kwCYox"
           disabled={true}
           placeholder=" "
           type="tel"
           value="+372 123 4567"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -100,20 +100,20 @@ exports[`TextInput: type Tel renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 ePoPuR"
+        className="Input-qkdgvx-0 GUcka"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 heGnbI"
         role="alert"
       >
         Error message
@@ -124,20 +124,20 @@ exports[`TextInput: type Tel renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hYlQue"
+        className="Input-qkdgvx-0 gYHLjZ"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 heGnbI"
         role="alert"
       >
         Error message
@@ -148,24 +148,24 @@ exports[`TextInput: type Tel renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 QnEHj"
       >
         <input
-          className="Input-qkdgvx-0 bAlyPc"
+          className="Input-qkdgvx-0 ekIlEn"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 heGnbI"
         role="alert"
       >
         Error message
@@ -183,22 +183,22 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 bekhms"
         placeholder=" "
         readOnly={true}
         type="tel"
         value="+372 123 4567"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -209,22 +209,22 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 czeiwv"
         placeholder=" "
         readOnly={true}
         type="tel"
         value="+372 123 4567"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -235,26 +235,26 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 QnEHj"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 kwCYox"
           placeholder=" "
           readOnly={true}
           type="tel"
           value="+372 123 4567"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -272,20 +272,20 @@ exports[`TextInput: type Tel renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 bekhms"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -296,20 +296,20 @@ exports[`TextInput: type Tel renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 czeiwv"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -320,24 +320,24 @@ exports[`TextInput: type Tel renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 QnEHj"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 kwCYox"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -355,15 +355,15 @@ exports[`TextInput: type Tel renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 bekhms"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -373,15 +373,15 @@ exports[`TextInput: type Tel renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 czeiwv"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -391,18 +391,18 @@ exports[`TextInput: type Tel renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 QnEHj"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 kwCYox"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         >
           xlarge
         </label>
@@ -420,10 +420,10 @@ exports[`TextInput: type Tel renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 bekhms"
         placeholder="medium"
         type="tel"
       />
@@ -433,10 +433,10 @@ exports[`TextInput: type Tel renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 czeiwv"
         placeholder="large"
         type="tel"
       />
@@ -446,18 +446,18 @@ exports[`TextInput: type Tel renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 QnEHj"
       >
         <input
-          className="Input-qkdgvx-0 lifWkn"
+          className="Input-qkdgvx-0 eBLNew"
           placeholder="xlarge"
           type="tel"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         />
       </div>
     </div>
@@ -473,20 +473,20 @@ exports[`TextInput: type Tel supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iaCGCs"
+        className="Input-qkdgvx-0 jsDDWX"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -497,20 +497,20 @@ exports[`TextInput: type Tel supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fJmycv"
+        className="Input-qkdgvx-0 rTkGE"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
@@ -521,24 +521,24 @@ exports[`TextInput: type Tel supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 enHEsf"
+        className="Inner-sc-1soq84i-0 hrjkOU"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 kwCYox"
           placeholder="e.g. +372 123 4567"
           type="tel"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 deQKxJ"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 dfhEvA"
         role="alert"
       >
         Informative message holder
