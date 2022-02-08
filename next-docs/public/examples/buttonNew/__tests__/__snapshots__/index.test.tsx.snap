@@ -56,19 +56,19 @@ exports[`Button New renders different animations 1`] = `
           role="progressbar"
         >
           <span
-            className="LoaderRing-sc-17wll29-0 hDqzmB"
+            className="LoaderRing-sc-17wll29-0 XcexV"
             color="currentColor"
           />
           <span
-            className="LoaderRing-sc-17wll29-0 eJJaUX"
+            className="LoaderRing-sc-17wll29-0 fAHuRn"
             color="currentColor"
           />
           <span
-            className="LoaderRing-sc-17wll29-0 fHGPls"
+            className="LoaderRing-sc-17wll29-0 kqOdVI"
             color="currentColor"
           />
           <span
-            className="LoaderRing-sc-17wll29-0 dKmUSj"
+            className="LoaderRing-sc-17wll29-0 cebTvf"
             color="currentColor"
           />
         </strong>
@@ -386,7 +386,7 @@ exports[`Button New renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 cIDxvW"
+    className="ButtonComponent-sc-1qwityd-0 hJlrLq"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -397,7 +397,7 @@ exports[`Button New renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 kkLYsW"
+    className="ButtonComponent-sc-1qwityd-0 eSvDFQ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -408,7 +408,7 @@ exports[`Button New renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 jGtvhF"
+    className="ButtonComponent-sc-1qwityd-0 jdWdgZ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -440,7 +440,7 @@ exports[`Button New renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 cIDxvW"
+      className="ButtonComponent-sc-1qwityd-0 hJlrLq"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -451,7 +451,7 @@ exports[`Button New renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 kkLYsW"
+      className="ButtonComponent-sc-1qwityd-0 eSvDFQ"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -462,7 +462,7 @@ exports[`Button New renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 jGtvhF"
+      className="ButtonComponent-sc-1qwityd-0 jdWdgZ"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"

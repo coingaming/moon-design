@@ -12,7 +12,7 @@ exports[`Multi Select options content 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -27,7 +27,7 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -114,7 +114,7 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -203,7 +203,7 @@ exports[`Multi Select options wrapper width 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -218,7 +218,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -305,7 +305,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -394,7 +394,7 @@ exports[`Multi Select renders disabled 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -409,7 +409,7 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -496,7 +496,7 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -585,7 +585,7 @@ exports[`Multi Select renders error 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -600,7 +600,7 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1gskcqf-control"
+        className=" css-1wp6k3-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -692,7 +692,7 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-160gfr8-control"
+        className=" css-11qg80i-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -786,7 +786,7 @@ exports[`Multi Select renders with hint 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -801,7 +801,7 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -893,7 +893,7 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -987,7 +987,7 @@ exports[`Multi Select renders with label 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -1002,7 +1002,7 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1089,7 +1089,7 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1188,7 +1188,7 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1275,7 +1275,7 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1362,7 +1362,7 @@ exports[`Multi Select with diferent option 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 fVzcZc"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Language
       </span>
@@ -1377,7 +1377,7 @@ exports[`Multi Select with diferent option 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1djp8z-control"
+        className=" css-oc8rvl-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1395,12 +1395,12 @@ exports[`Multi Select with diferent option 1`] = `
             className="ValueContainer__SingleContainer-fuxzw2-0 dhNCxn"
           >
             <div
-              className=" css-pa0fd5-singleValue"
+              className=" css-1witcz1-singleValue"
             >
               English
             </div>
             <div
-              className=" css-1fsf0da-Input"
+              className=" css-138frnh-Input"
               data-value=""
             >
               <input
@@ -1489,7 +1489,7 @@ exports[`Multi Select with diferent option 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1t6yz7w-control"
+        className=" css-18s2sn2-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1512,12 +1512,12 @@ exports[`Multi Select with diferent option 1`] = `
             className="ValueContainer__SingleContainer-fuxzw2-0 kHhooM"
           >
             <div
-              className=" css-pa0fd5-singleValue"
+              className=" css-1witcz1-singleValue"
             >
               English
             </div>
             <div
-              className=" css-1fsf0da-Input"
+              className=" css-138frnh-Input"
               data-value=""
             >
               <input
