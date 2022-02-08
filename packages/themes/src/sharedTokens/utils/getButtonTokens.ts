@@ -1,5 +1,5 @@
 import { CSSObject } from 'styled-components';
-import mainColors from '../v2/colors/mainColors';
+import { MainColors } from '../../supportColors/supportColors';
 
 type ColorValue = CSSObject['color'];
 
@@ -22,7 +22,9 @@ type buttonVariantsProps = {
   };
 };
 
-const buttonVariantTokens: buttonVariantsProps = {
+const buttonVariantTokens: (mainColors: MainColors) => buttonVariantsProps = (
+  mainColors
+) => ({
   fill: {
     color: mainColors.goten,
     backgroundColor: mainColors.piccolo,
@@ -39,6 +41,17 @@ const buttonVariantTokens: buttonVariantsProps = {
       boxShadow: `inset 0 0 0 1px ${mainColors.bulma}`,
     },
   },
+});
+
+const getButtonTokens = (mainColors: MainColors) => {
+  const tokens = buttonVariantTokens(mainColors);
+  return {
+    button: {
+      primary: tokens.fill,
+      secondary: tokens.stroke,
+      tertiary: tokens.fillSecondary,
+    },
+  };
 };
 
-export default buttonVariantTokens;
+export default getButtonTokens;

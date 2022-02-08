@@ -6,7 +6,7 @@ exports[`Sidebar renders 1`] = `
   dir="ltr"
 >
   <div
-    className="CollapseTarget-sc-1og1j42-0 bJZXWs"
+    className="CollapseTarget-sc-1og1j42-0 hwVnrX"
     onClick={[Function]}
   >
     <svg
@@ -26,7 +26,7 @@ exports[`Sidebar renders 1`] = `
     </svg>
   </div>
   <aside
-    className="Container-o6q7yi-0 DrZTo"
+    className="Container-o6q7yi-0 eauFxz"
   >
     <ol>
       <li>
@@ -52,7 +52,7 @@ exports[`Sidebar renders RTL 1`] = `
     dir="rtl"
   >
     <div
-      className="CollapseTarget-sc-1og1j42-0 guRbcX"
+      className="CollapseTarget-sc-1og1j42-0 iYpqJI"
       onClick={[Function]}
     >
       <svg
@@ -115,7 +115,7 @@ exports[`Sidebar renders initially closed 1`] = `
   dir="ltr"
 >
   <div
-    className="CollapseTarget-sc-1og1j42-0 guRbcX"
+    className="CollapseTarget-sc-1og1j42-0 iYpqJI"
     onClick={[Function]}
   >
     <svg

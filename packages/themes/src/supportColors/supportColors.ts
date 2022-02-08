@@ -2,6 +2,18 @@ import { CSSObject } from 'styled-components';
 
 export type ColorValue = CSSObject['color'];
 
+export interface MainColors {
+  piccolo: ColorValue; // Accent color
+  hit: ColorValue; // Secondary accent color
+  beerus: ColorValue; // Border, line color
+  goku: ColorValue; // Background color
+  gohan: ColorValue; // Secondary background color
+  bulma: ColorValue; // Text, icons color
+  trunks: ColorValue; // Secondary text, icons color
+  goten: ColorValue; // Force white
+  popo: ColorValue; // Force black
+}
+
 interface SupportingColor {
   100?: ColorValue;
   10?: ColorValue;

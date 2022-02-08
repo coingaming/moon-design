@@ -1,4 +1,5 @@
 import bitcasinoDark from '../bitcasinoDark/bitcasinoDark';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import { Theme } from '../sharedTokens/sharedTokens';
 import supportiveColors from '../v2/colors/supportiveColors';
 
@@ -57,6 +58,7 @@ const bitcasinoLight: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

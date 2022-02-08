@@ -23,11 +23,11 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: currentTheme,
     theme: {
       colorNew,
+      hover,
       newTokens: {
         borderRadius,
         transitionDuration,
         space,
-        hover,
         border,
         transition,
       },

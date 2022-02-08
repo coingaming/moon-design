@@ -105,7 +105,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.chiChi[100]}`
           : state.isFocused
           ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
-          : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.newTokens.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
+          : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
         cursor: 'pointer',
       },
     };
