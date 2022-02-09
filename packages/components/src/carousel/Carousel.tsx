@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { SpaceProps } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
@@ -110,7 +110,6 @@ const generateItems = (
   firstVisibleIndex: number,
   lastVisibleIndex: number
 ) => {
-  console.log(items);
   const elements: HTMLElement[] =
     typeof items === 'function'
       ? items({ firstVisibleIndex, lastVisibleIndex }).map(
