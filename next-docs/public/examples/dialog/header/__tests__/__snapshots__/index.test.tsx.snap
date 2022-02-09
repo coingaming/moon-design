@@ -8,15 +8,15 @@ exports[`Dialog Header renders Example 1 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 emuDkE"
+      className="Container-sc-8xp2tr-0 hhnOuf"
     >
       <div
-        className="Header__Label-sc-60uies-0 hokPwM"
+        className="Header__Label-sc-60uies-0 eCghJb"
       >
         Title of the modal
       </div>
       <div
-        className="RightWrapper-sc-18c78le-0 czuEte"
+        className="RightWrapper-sc-18c78le-0 cBqrmd"
       />
     </div>
   </div>
@@ -24,21 +24,21 @@ exports[`Dialog Header renders Example 1 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 emuDkE"
+      className="Container-sc-8xp2tr-0 hhnOuf"
     >
       <div
-        className="Header__Label-sc-60uies-0 hokPwM"
+        className="Header__Label-sc-60uies-0 eCghJb"
       >
         Title of the modal
       </div>
       <div
-        className="RightWrapper-sc-18c78le-0 czuEte"
+        className="RightWrapper-sc-18c78le-0 cBqrmd"
       >
         <div
-          className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+          className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
         >
           <svg
-            className="sc-hTZhsR"
+            className="sc-hUpaCq"
             fill="none"
             fontSize="2rem"
             height="1em"
@@ -68,13 +68,13 @@ exports[`Dialog Header renders Example 2 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 emuDkE"
+      className="Container-sc-8xp2tr-0 hhnOuf"
     >
       <div
-        className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
+        className="Header__BackButtonIcon-sc-60uies-2 bycTKs"
       >
         <svg
-          className="sc-cTkwdZ"
+          className="sc-cTAqQK"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -91,18 +91,18 @@ exports[`Dialog Header renders Example 2 1`] = `
         </svg>
       </div>
       <div
-        className="Header__Label-sc-60uies-0 hokPwM"
+        className="Header__Label-sc-60uies-0 eCghJb"
       >
         Title of the modal
       </div>
       <div
-        className="RightWrapper-sc-18c78le-0 czuEte"
+        className="RightWrapper-sc-18c78le-0 cBqrmd"
       >
         <div
-          className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+          className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
         >
           <svg
-            className="sc-hTZhsR"
+            className="sc-hUpaCq"
             fill="none"
             fontSize="2rem"
             height="1em"
@@ -125,13 +125,13 @@ exports[`Dialog Header renders Example 2 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 emuDkE"
+      className="Container-sc-8xp2tr-0 hhnOuf"
     >
       <div
-        className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
+        className="Header__BackButtonIcon-sc-60uies-2 bycTKs"
       >
         <svg
-          className="sc-cTkwdZ"
+          className="sc-cTAqQK"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -148,16 +148,16 @@ exports[`Dialog Header renders Example 2 1`] = `
         </svg>
       </div>
       <div
-        className="Header__Label-sc-60uies-0 hokPwM"
+        className="Header__Label-sc-60uies-0 eCghJb"
       />
       <div
-        className="RightWrapper-sc-18c78le-0 czuEte"
+        className="RightWrapper-sc-18c78le-0 cBqrmd"
       >
         <div
-          className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+          className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
         >
           <svg
-            className="sc-hTZhsR"
+            className="sc-hUpaCq"
             fill="none"
             fontSize="2rem"
             height="1em"
@@ -187,21 +187,21 @@ exports[`Dialog Header renders Example 3 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 emuDkE"
+      className="Container-sc-8xp2tr-0 hhnOuf"
     >
       <div
-        className="Header__Label-sc-60uies-0 hokPwM"
+        className="Header__Label-sc-60uies-0 eCghJb"
       >
         Title of the modal
       </div>
       <div
-        className="RightWrapper-sc-18c78le-0 czuEte"
+        className="RightWrapper-sc-18c78le-0 cBqrmd"
       >
         <span
-          className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+          className="Header__IconWrapper-sc-60uies-1 kupRxd"
         >
           <svg
-            className="sc-dFJsGO"
+            className="sc-dFtzxp"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -215,10 +215,10 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <span
-          className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+          className="Header__IconWrapper-sc-60uies-1 kupRxd"
         >
           <svg
-            className="sc-euMpXR"
+            className="sc-evcjhq"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -232,10 +232,10 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <div
-          className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+          className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
         >
           <svg
-            className="sc-hTZhsR"
+            className="sc-hUpaCq"
             fill="none"
             fontSize="2rem"
             height="1em"
@@ -258,19 +258,19 @@ exports[`Dialog Header renders Example 3 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 emuDkE"
+      className="Container-sc-8xp2tr-0 hhnOuf"
     >
       <div
-        className="Header__Label-sc-60uies-0 hokPwM"
+        className="Header__Label-sc-60uies-0 eCghJb"
       />
       <div
-        className="RightWrapper-sc-18c78le-0 czuEte"
+        className="RightWrapper-sc-18c78le-0 cBqrmd"
       >
         <span
-          className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+          className="Header__IconWrapper-sc-60uies-1 kupRxd"
         >
           <svg
-            className="sc-dFJsGO"
+            className="sc-dFtzxp"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -284,10 +284,10 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <span
-          className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+          className="Header__IconWrapper-sc-60uies-1 kupRxd"
         >
           <svg
-            className="sc-euMpXR"
+            className="sc-evcjhq"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -301,10 +301,10 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <div
-          className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+          className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
         >
           <svg
-            className="sc-hTZhsR"
+            className="sc-hUpaCq"
             fill="none"
             fontSize="2rem"
             height="1em"
@@ -331,13 +331,13 @@ exports[`Dialog Header renders Example 4 1`] = `
   className="flex justify-around items-center w-full max-w-screen-sm"
 >
   <div
-    className="Container-sc-8xp2tr-0 emuDkE"
+    className="Container-sc-8xp2tr-0 hhnOuf"
   >
     <div
-      className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
+      className="Header__BackButtonIcon-sc-60uies-2 bycTKs"
     >
       <svg
-        className="sc-cTkwdZ"
+        className="sc-cTAqQK"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -354,18 +354,18 @@ exports[`Dialog Header renders Example 4 1`] = `
       </svg>
     </div>
     <div
-      className="Header__Label-sc-60uies-0 hokPwM"
+      className="Header__Label-sc-60uies-0 eCghJb"
     >
       Title of the modal title of the modal title of the modal
     </div>
     <div
-      className="RightWrapper-sc-18c78le-0 czuEte"
+      className="RightWrapper-sc-18c78le-0 cBqrmd"
     >
       <span
-        className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+        className="Header__IconWrapper-sc-60uies-1 kupRxd"
       >
         <svg
-          className="sc-dFJsGO"
+          className="sc-dFtzxp"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -379,10 +379,10 @@ exports[`Dialog Header renders Example 4 1`] = `
         </svg>
       </span>
       <span
-        className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+        className="Header__IconWrapper-sc-60uies-1 kupRxd"
       >
         <svg
-          className="sc-euMpXR"
+          className="sc-evcjhq"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -396,10 +396,10 @@ exports[`Dialog Header renders Example 4 1`] = `
         </svg>
       </span>
       <div
-        className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+        className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
       >
         <svg
-          className="sc-hTZhsR"
+          className="sc-hUpaCq"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -425,13 +425,13 @@ exports[`Dialog Header renders Example 5 1`] = `
   className="flex justify-around items-center w-full max-w-screen-sm"
 >
   <div
-    className="Container-sc-8xp2tr-0 bNmAsB"
+    className="Container-sc-8xp2tr-0 lgSJnS"
   >
     <div
-      className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
+      className="Header__BackButtonIcon-sc-60uies-2 bycTKs"
     >
       <svg
-        className="sc-cTkwdZ"
+        className="sc-cTAqQK"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -448,18 +448,18 @@ exports[`Dialog Header renders Example 5 1`] = `
       </svg>
     </div>
     <div
-      className="Header__Label-sc-60uies-0 hokPwM"
+      className="Header__Label-sc-60uies-0 eCghJb"
     >
       Title of the modal title of the modal title of the modal
     </div>
     <div
-      className="RightWrapper-sc-18c78le-0 czuEte"
+      className="RightWrapper-sc-18c78le-0 cBqrmd"
     >
       <span
-        className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+        className="Header__IconWrapper-sc-60uies-1 kupRxd"
       >
         <svg
-          className="sc-dFJsGO"
+          className="sc-dFtzxp"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -473,10 +473,10 @@ exports[`Dialog Header renders Example 5 1`] = `
         </svg>
       </span>
       <span
-        className="Header__IconWrapper-sc-60uies-1 cVbNLO"
+        className="Header__IconWrapper-sc-60uies-1 kupRxd"
       >
         <svg
-          className="sc-euMpXR"
+          className="sc-evcjhq"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -490,10 +490,10 @@ exports[`Dialog Header renders Example 5 1`] = `
         </svg>
       </span>
       <div
-        className="Header__ControlsCloseIcon-sc-60uies-3 AImNc"
+        className="Header__ControlsCloseIcon-sc-60uies-3 lUvIv"
       >
         <svg
-          className="sc-hTZhsR"
+          className="sc-hUpaCq"
           fill="none"
           fontSize="2rem"
           height="1em"

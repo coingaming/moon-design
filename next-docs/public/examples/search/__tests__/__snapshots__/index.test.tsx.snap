@@ -5,22 +5,22 @@ exports[`Search renders 1`] = `
   className="h-96 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 cJZqDo popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 eCmTaH popup "
   >
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
     >
       <form
-        className="Styles__SearchForm-sc-1urf7j8-0 dduYOx"
+        className="Styles__SearchForm-sc-1urf7j8-0 iKNUty"
         noValidate={true}
         onSubmit={[Function]}
       >
         <span
-          className="Input__SearchBox-vvx0zy-5 eWBDrF"
+          className="Input__SearchBox-vvx0zy-5 gVNITC"
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 mOgfA"
+            className="Input__SearchInput-vvx0zy-4 lhqffP"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -30,7 +30,7 @@ exports[`Search renders 1`] = `
             value=""
           />
           <svg
-            className="sc-fybufo Input__SearchInputIcon-vvx0zy-2  kFmtxK"
+            className="sc-fyrocj Input__SearchInputIcon-vvx0zy-2  hVJXFh"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -50,13 +50,13 @@ exports[`Search renders 1`] = `
         </span>
       </form>
       <button
-        className="sc-jEUrFJ jBpmuK Styles__ModalClose-sc-1urf7j8-2 cmwFAp"
+        className="sc-jFkmsu pZJMx Styles__ModalClose-sc-1urf7j8-2 hOvybW"
         onClick={[Function]}
         size="small"
         variant="default"
       >
         <div
-          className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+          className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
         >
           <span>
             Clear
@@ -65,13 +65,13 @@ exports[`Search renders 1`] = `
       </button>
     </div>
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 eimgzq"
+        className="Styles__Results-sc-1urf7j8-3 gmusrZ"
       >
         <ul
-          className="sc-kBrnbA dWRjaz"
+          className="sc-kBHgYv ebiPJP"
         >
           <li>
             <span>
@@ -90,21 +90,21 @@ exports[`Search renders Loading State 1`] = `
   className="h-40 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 cJZqDo popup "
+    className="Popup__StyledPopup-sc-1lsi3ri-0 eCmTaH popup "
   >
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
     >
       <form
-        className="Styles__SearchForm-sc-1urf7j8-0 dduYOx"
+        className="Styles__SearchForm-sc-1urf7j8-0 iKNUty"
         noValidate={true}
       >
         <span
-          className="Input__SearchBox-vvx0zy-5 eWBDrF"
+          className="Input__SearchBox-vvx0zy-5 gVNITC"
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 mOgfA"
+            className="Input__SearchInput-vvx0zy-4 lhqffP"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -114,7 +114,7 @@ exports[`Search renders Loading State 1`] = `
             value=""
           />
           <svg
-            className="sc-fybufo Input__SearchInputIcon-vvx0zy-2  kFmtxK"
+            className="sc-fyrocj Input__SearchInputIcon-vvx0zy-2  hVJXFh"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -135,13 +135,13 @@ exports[`Search renders Loading State 1`] = `
       </form>
     </div>
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
+      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 eimgzq"
+        className="Styles__Results-sc-1urf7j8-3 gmusrZ"
       >
         <ul
-          className="sc-dNUOEE cRZzNZ"
+          className="sc-dOkGYn ihdtbi"
         >
           <li>
             Loading...

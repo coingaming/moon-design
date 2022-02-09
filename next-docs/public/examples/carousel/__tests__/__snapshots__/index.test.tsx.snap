@@ -1,0 +1,875 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel renders 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <div
+    className="sc-cTAIfT bzxRcy"
+  >
+    <div
+      className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
+    >
+      <ul
+        className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 SJKyg dVCLRi"
+      >
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            0
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            1
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            2
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            3
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            4
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            5
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            6
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            7
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            8
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            9
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            10
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            11
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            12
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            13
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            14
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            15
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            16
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            17
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            18
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            19
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            20
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            21
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            22
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            23
+          </div>
+        </li>
+        <li
+          className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+        >
+          <div
+            className="sc-bXdNzS bShKVm"
+          >
+            24
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex justify-around items-center w-full"
+  >
+    <div
+      className="sc-fvpsdx iQRCCc"
+    >
+      <div
+        className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
+      >
+        <ul
+          className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 SJKyg dVCLRi"
+        >
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              24
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              23
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              22
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              21
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              20
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              19
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              18
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              17
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              16
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              15
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              14
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              13
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              12
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              11
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              10
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              9
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              8
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              7
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              6
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              5
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              4
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              3
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              2
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              1
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+          >
+            <div
+              className="sc-eySxxw hnZVmz"
+            >
+              0
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel renders visible index 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <div
+    className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
+  >
+    <ul
+      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 tFctc dVCLRi"
+    >
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-cqJhZP emWTZD"
+        >
+          -1
+          , 
+          -1
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-cqJhZP emWTZD"
+        >
+          -1
+          , 
+          -1
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-cqJhZP emWTZD"
+        >
+          -1
+          , 
+          -1
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-cqJhZP emWTZD"
+        >
+          -1
+          , 
+          -1
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-cqJhZP emWTZD"
+        >
+          -1
+          , 
+          -1
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Carousel renders with Customized Arrows 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <div
+    className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
+  >
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      Scroll to left
+    </button>
+    <ul
+      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 SJKyg dVCLRi"
+    >
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          0
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          1
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          2
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          3
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          4
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          5
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          6
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          7
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          8
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          9
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          10
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          11
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          12
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          13
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          14
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          15
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          16
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          17
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          18
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          19
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          20
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          21
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          22
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          23
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-jefHZX jXAuki"
+        >
+          24
+        </div>
+      </li>
+    </ul>
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      Scroll to Right
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Carousel renders with different Space 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <div
+    className="Carousel__CarouselWrapper-xel9ev-0 gOgmvY"
+  >
+    <ul
+      className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 tFctc dVCLRi"
+    >
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-ihINtW biuMQU"
+        >
+          0
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-ihINtW biuMQU"
+        >
+          1
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-ihINtW biuMQU"
+        >
+          2
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-ihINtW biuMQU"
+        >
+          3
+        </div>
+      </li>
+      <li
+        className="Carousel__CarouselScrollItem-xel9ev-2 kmuPFR"
+      >
+        <div
+          className="sc-ihINtW biuMQU"
+        >
+          4
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

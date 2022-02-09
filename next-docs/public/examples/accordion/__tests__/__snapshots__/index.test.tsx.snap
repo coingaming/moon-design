@@ -2,14 +2,14 @@
 
 exports[`Accordion collapses 1`] = `
 <div
-  className="layout__AccordionWrapper-hiry1l-0 iOFYMG"
+  className="layout__AccordionWrapper-hiry1l-0 fRYZlV"
 >
   <div
-    className="layout__AccordionHeader-hiry1l-3 kZHexw"
+    className="layout__AccordionHeader-hiry1l-3 bTaOVv"
     disabled={false}
   >
     <h3
-      className="Heading-sc-1fj2bsx-0 iZeiBo"
+      className="Heading-sc-1fj2bsx-0 fbxrgH"
       color="bulma.100"
       onClick={[Function]}
       size={16}
@@ -22,13 +22,13 @@ exports[`Accordion collapses 1`] = `
       Additional content
     </div>
     <button
-      className="layout__AccordionToggle-hiry1l-4 fvpYQK"
+      className="layout__AccordionToggle-hiry1l-4 sZsch"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-bWNSNh kgXdZd"
+        className="sc-bXdNzS dXBmmR"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -46,10 +46,10 @@ exports[`Accordion collapses 1`] = `
     </button>
   </div>
   <div
-    className="layout__AccordionContent-hiry1l-1 fqVjyp"
+    className="layout__AccordionContent-hiry1l-1 egkwFW"
   >
     <div
-      className="layout__ChildrenWrapper-hiry1l-2 jngYXT"
+      className="layout__ChildrenWrapper-hiry1l-2 lngDSI"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -61,14 +61,14 @@ exports[`Accordion collapses 1`] = `
 
 exports[`Accordion expands 1`] = `
 <div
-  className="layout__AccordionWrapper-hiry1l-0 iOFYMG"
+  className="layout__AccordionWrapper-hiry1l-0 fRYZlV"
 >
   <div
-    className="layout__AccordionHeader-hiry1l-3 kZHexw"
+    className="layout__AccordionHeader-hiry1l-3 bTaOVv"
     disabled={false}
   >
     <h3
-      className="Heading-sc-1fj2bsx-0 iZeiBo"
+      className="Heading-sc-1fj2bsx-0 fbxrgH"
       color="bulma.100"
       onClick={[Function]}
       size={16}
@@ -81,13 +81,13 @@ exports[`Accordion expands 1`] = `
       Additional content
     </div>
     <button
-      className="layout__AccordionToggle-hiry1l-4 fvpYQK"
+      className="layout__AccordionToggle-hiry1l-4 sZsch"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-cTkOiY cxqQAA"
+        className="sc-cTAIfT aRNFZ"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -105,10 +105,10 @@ exports[`Accordion expands 1`] = `
     </button>
   </div>
   <div
-    className="layout__AccordionContent-hiry1l-1 bZCQZF"
+    className="layout__AccordionContent-hiry1l-1 JFdaO"
   >
     <div
-      className="layout__ChildrenWrapper-hiry1l-2 jngYXT"
+      className="layout__ChildrenWrapper-hiry1l-2 lngDSI"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -120,14 +120,14 @@ exports[`Accordion expands 1`] = `
 
 exports[`Accordion renders 1`] = `
 <div
-  className="layout__AccordionWrapper-hiry1l-0 iOFYMG"
+  className="layout__AccordionWrapper-hiry1l-0 fRYZlV"
 >
   <div
-    className="layout__AccordionHeader-hiry1l-3 kZHexw"
+    className="layout__AccordionHeader-hiry1l-3 bTaOVv"
     disabled={false}
   >
     <h3
-      className="Heading-sc-1fj2bsx-0 iZeiBo"
+      className="Heading-sc-1fj2bsx-0 fbxrgH"
       color="bulma.100"
       onClick={[Function]}
       size={16}
@@ -140,13 +140,13 @@ exports[`Accordion renders 1`] = `
       Additional content
     </div>
     <button
-      className="layout__AccordionToggle-hiry1l-4 fvpYQK"
+      className="layout__AccordionToggle-hiry1l-4 sZsch"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-bWNSNh kgXdZd"
+        className="sc-bXdNzS dXBmmR"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -164,10 +164,10 @@ exports[`Accordion renders 1`] = `
     </button>
   </div>
   <div
-    className="layout__AccordionContent-hiry1l-1 fqVjyp"
+    className="layout__AccordionContent-hiry1l-1 egkwFW"
   >
     <div
-      className="layout__ChildrenWrapper-hiry1l-2 jngYXT"
+      className="layout__ChildrenWrapper-hiry1l-2 lngDSI"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

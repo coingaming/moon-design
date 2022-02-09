@@ -2,23 +2,23 @@
 
 exports[`TabLinkFill renders 1`] = `
 <a
-  className="Container-vls6mb-0 hWZeHl"
+  className="Container-vls6mb-0 lga-dni"
 />
 `;
 
 exports[`TabLinkFill renders Href 1`] = `
 <a
-  className="Container-vls6mb-0 hWZeHl"
+  className="Container-vls6mb-0 lga-dni"
   href="www.google.com"
 />
 `;
 
 exports[`TabLinkFill renders count 1`] = `
 <a
-  className="Container-vls6mb-0 hWZeHl"
+  className="Container-vls6mb-0 lga-dni"
 >
   <span
-    className="TabLinkFill__CountWrapper-sc-1j1x54c-1 deiMNe"
+    className="TabLinkFill__CountWrapper-sc-1j1x54c-1 dbvHmZ"
   >
     2
   </span>
@@ -27,10 +27,10 @@ exports[`TabLinkFill renders count 1`] = `
 
 exports[`TabLinkFill renders element left 1`] = `
 <a
-  className="Container-vls6mb-0 hWZeHl"
+  className="Container-vls6mb-0 lga-dni"
 >
   <div
-    className="TabLinkFill__ElementLeftWrapper-sc-1j1x54c-0 cQOvyi"
+    className="TabLinkFill__ElementLeftWrapper-sc-1j1x54c-0 xHAUJ"
   >
     <span>
       Element
@@ -41,13 +41,13 @@ exports[`TabLinkFill renders element left 1`] = `
 
 exports[`TabLinkFill renders isTop 1`] = `
 <a
-  className="Container-vls6mb-0 hWZeHl"
+  className="Container-vls6mb-0 lga-dni"
 />
 `;
 
 exports[`TabLinkFill renders size 1`] = `
 <a
-  className="Container-vls6mb-0 geCXiD"
+  className="Container-vls6mb-0 bDzqIM"
   size="small"
 />
 `;

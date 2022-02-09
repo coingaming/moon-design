@@ -2,14 +2,14 @@
 
 exports[`Checkbox renders 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 hwTmSd"
+  className="CheckboxLabel-wyw1pu-0 glYria"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
+    className="CheckboxInput-sc-12uz9za-0 kkRQpr"
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
+    className="CheckboxCaption-sc-1qatyfd-0 icvmJg"
   >
     I agree to receive bonus & marketing emails.
   </span>
@@ -18,15 +18,15 @@ exports[`Checkbox renders 1`] = `
 
 exports[`Checkbox renders Aria Label 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 hwTmSd"
+  className="CheckboxLabel-wyw1pu-0 glYria"
 >
   <input
     aria-label="Description of the checkbox's purpose."
-    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
+    className="CheckboxInput-sc-12uz9za-0 kkRQpr"
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
+    className="CheckboxCaption-sc-1qatyfd-0 icvmJg"
   />
 </label>
 `;
@@ -36,59 +36,59 @@ exports[`Checkbox renders Aria Label List 1`] = `
   className="flex flex-col"
 >
   <label
-    className="RadioButtonLabel-ozr645-0 ufglA"
+    className="RadioButtonLabel-ozr645-0 hlwLdP"
   >
     <input
-      className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+      className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
       disabled={true}
       name="test"
       type="radio"
     />
     <figure
-      className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+      className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
     />
     <span
-      className="RadioButtonCaption-sc-1dv62p7-0 bdcnZO"
+      className="RadioButtonCaption-sc-1dv62p7-0 cNQwwF"
     >
       RadioButton
     </span>
   </label>
   <label
-    className="RadioButtonLabel-ozr645-0 ufglA"
+    className="RadioButtonLabel-ozr645-0 hlwLdP"
   >
     <input
-      className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+      className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
       name="test"
       type="radio"
     />
     <figure
-      className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+      className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
     />
   </label>
   <div
     className="mt-2 mb-2"
   >
     <div
-      className="Container-sc-1vcdan4-0 cfbbzh"
+      className="Container-sc-1vcdan4-0 kMWkzu"
     >
       <div
-        className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+        className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
       >
         Single line item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
       >
         <label
-          className="RadioButtonLabel-ozr645-0 ufglA"
+          className="RadioButtonLabel-ozr645-0 hlwLdP"
         >
           <input
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
             name="test"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
           />
         </label>
       </span>
@@ -96,25 +96,25 @@ exports[`Checkbox renders Aria Label List 1`] = `
   </div>
   <div>
     <label
-      className="RadioButtonLabel-ozr645-0 ufglA"
+      className="RadioButtonLabel-ozr645-0 hlwLdP"
     >
       <div
-        className="Container-sc-1vcdan4-0 cfbbzh"
+        className="Container-sc-1vcdan4-0 kMWkzu"
       >
         <div
-          className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+          className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
         >
           Single line item
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
         >
           <input
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
           />
         </span>
       </div>
@@ -125,16 +125,16 @@ exports[`Checkbox renders Aria Label List 1`] = `
 
 exports[`Checkbox renders Checked 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 hwTmSd"
+  className="CheckboxLabel-wyw1pu-0 glYria"
 >
   <input
     checked={true}
-    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
+    className="CheckboxInput-sc-12uz9za-0 kkRQpr"
     readOnly={true}
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
+    className="CheckboxCaption-sc-1qatyfd-0 icvmJg"
   >
     I agree to receive bonus & marketing emails.
   </span>
@@ -143,15 +143,15 @@ exports[`Checkbox renders Checked 1`] = `
 
 exports[`Checkbox renders Disabled 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 hwTmSd"
+  className="CheckboxLabel-wyw1pu-0 glYria"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 bYuiaE"
+    className="CheckboxInput-sc-12uz9za-0 kkRQpr"
     disabled={true}
     type="checkbox"
   />
   <span
-    className="CheckboxCaption-sc-1qatyfd-0 gOGwPT"
+    className="CheckboxCaption-sc-1qatyfd-0 icvmJg"
   >
     I agree to receive bonus & marketing emails.
   </span>
