@@ -117,17 +117,10 @@ const showHideIndicator = (
     setLeftIndicator(false);
     setRightIndicator(false);
   }
-  if (isRtl) {
-    lastVisibleIndex < itemRefs.length - 1
-      ? setRightIndicator(true)
-      : setRightIndicator(false);
-    firstVisibleIndex > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
-  } else {
-    lastVisibleIndex < itemRefs.length - 1
-      ? setRightIndicator(true)
-      : setRightIndicator(false);
-    firstVisibleIndex > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
-  }
+  lastVisibleIndex < itemRefs.length - 1
+    ? setRightIndicator(true)
+    : setRightIndicator(false);
+  firstVisibleIndex > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
 };
 
 export const withHorizontalScroll = (options: Options): any => {
