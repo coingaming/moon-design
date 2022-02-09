@@ -17,7 +17,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 cPdZqI"
+        className="Input-qkdgvx-0 bRHlks"
         disabled={true}
         placeholder=" "
         type="date"
@@ -43,7 +43,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 faxITP"
+        className="Input-qkdgvx-0 cIZOPb"
         disabled={true}
         placeholder=" "
         type="date"
@@ -67,13 +67,13 @@ exports[`TextInput: type Date renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 IdHaF"
+          className="Input-qkdgvx-0 KFdrt"
           disabled={true}
           placeholder=" "
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
@@ -105,7 +105,7 @@ exports[`TextInput: type Date renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bNHALK"
+        className="Input-qkdgvx-0 ekGwYi"
         placeholder="Placeholder"
         type="date"
       />
@@ -129,7 +129,7 @@ exports[`TextInput: type Date renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 dAzyuN"
+        className="Input-qkdgvx-0 erUZHR"
         placeholder="Placeholder"
         type="date"
       />
@@ -151,12 +151,12 @@ exports[`TextInput: type Date renders error 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 fHtPyf"
+          className="Input-qkdgvx-0 Rinj"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
@@ -188,7 +188,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 cPdZqI"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder=" "
         readOnly={true}
         type="date"
@@ -213,7 +213,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 faxITP"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder=" "
         readOnly={true}
         type="date"
@@ -236,13 +236,13 @@ exports[`TextInput: type Date renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 IdHaF"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder=" "
           readOnly={true}
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
@@ -274,7 +274,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 cPdZqI"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder="Placeholder"
         type="date"
       />
@@ -298,7 +298,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 faxITP"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder="Placeholder"
         type="date"
       />
@@ -320,12 +320,12 @@ exports[`TextInput: type Date renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 IdHaF"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
@@ -357,7 +357,7 @@ exports[`TextInput: type Date renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 cPdZqI"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder="Placeholder"
         type="date"
       />
@@ -375,7 +375,7 @@ exports[`TextInput: type Date renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 faxITP"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder="Placeholder"
         type="date"
       />
@@ -391,12 +391,12 @@ exports[`TextInput: type Date renders with label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 IdHaF"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
@@ -417,7 +417,7 @@ exports[`TextInput: type Date renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 cPdZqI"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder="medium"
         type="date"
       />
@@ -430,7 +430,7 @@ exports[`TextInput: type Date renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 faxITP"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder="large"
         type="date"
       />
@@ -446,12 +446,12 @@ exports[`TextInput: type Date renders without label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 elFYRA"
+          className="Input-qkdgvx-0 hnRIqU"
           placeholder="xlarge"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         />
       </div>
     </div>
@@ -475,7 +475,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 fXnezT"
+        className="Input-qkdgvx-0 hZkrIH"
         placeholder="Placeholder"
         type="date"
       />
@@ -499,7 +499,7 @@ exports[`TextInput: type Date supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 XPyrk"
+        className="Input-qkdgvx-0 hQSrPI"
         placeholder="Placeholder"
         type="date"
       />
@@ -521,12 +521,12 @@ exports[`TextInput: type Date supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 IdHaF"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 kulgvR"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
