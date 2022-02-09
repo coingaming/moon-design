@@ -13,29 +13,29 @@ exports[`Radiobutton API renders 1`] = `
     className="mb-2"
   >
     <label
-      className="RadioButtonLabel-ozr645-0 ufglA"
+      className="RadioButtonLabel-ozr645-0 hlwLdP"
       id="age1"
     >
       <div
-        className="Container-sc-1vcdan4-0 iiencZ"
+        className="Container-sc-1vcdan4-0 kAVywW"
       >
         <div
-          className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+          className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
         >
           0 - 30
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
             id="age1"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
           />
         </span>
       </div>
@@ -45,29 +45,29 @@ exports[`Radiobutton API renders 1`] = `
     className="mb-2"
   >
     <label
-      className="RadioButtonLabel-ozr645-0 ufglA"
+      className="RadioButtonLabel-ozr645-0 hlwLdP"
       id="age2"
     >
       <div
-        className="Container-sc-1vcdan4-0 iiencZ"
+        className="Container-sc-1vcdan4-0 kAVywW"
       >
         <div
-          className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+          className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
         >
           31 - 60
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
             id="age2"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
           />
         </span>
       </div>
@@ -77,29 +77,29 @@ exports[`Radiobutton API renders 1`] = `
     className="mb-2"
   >
     <label
-      className="RadioButtonLabel-ozr645-0 ufglA"
+      className="RadioButtonLabel-ozr645-0 hlwLdP"
       id="age3"
     >
       <div
-        className="Container-sc-1vcdan4-0 iiencZ"
+        className="Container-sc-1vcdan4-0 kAVywW"
       >
         <div
-          className="ListItem__MainWrapper-xq5gr1-0 gCufUe"
+          className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
         >
           31 - 60
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 hmuVMD"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
         >
           <input
             aria-label="61 - 100"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 dvngsy"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
             id="age3"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 jsqnT"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
           />
         </span>
       </div>

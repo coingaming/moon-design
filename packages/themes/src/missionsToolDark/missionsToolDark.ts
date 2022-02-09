@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -80,6 +81,7 @@ const missionsToolDark: Theme = {
     default: 4,
     largest: 8,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };
 

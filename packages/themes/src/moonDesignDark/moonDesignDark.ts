@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -8,17 +9,17 @@ const boxShadow =
 
 const color = {
   piccolo: {
-    120: '#E5E5E5',
-    100: '#FFFFFF',
-    80: '#E5E5E5',
+    120: '#e5e5e5',
+    100: '#ffffff',
+    80: '#e5e5e5',
   },
   hit: {
     120: '#292929',
-    100: '#0B0B0B',
+    100: '#0b0b0b',
     80: '#292929',
   },
   beerus: {
-    100: '#1F1F1F',
+    100: '#1f1f1f',
   },
   goku: {
     100: '#000000',
@@ -27,31 +28,31 @@ const color = {
     10: '#000000',
   },
   gohan: {
-    100: '#0B0B0B',
-    80: '#0B0B0B',
-    40: '#0B0B0B',
-    10: '#0B0B0B',
+    100: '#0b0b0b',
+    80: '#0b0b0b',
+    40: '#0b0b0b',
+    10: '#0b0b0b',
   },
   goten: {
     100: '#000000',
   },
   bulma: {
-    100: '#FFFFFF',
+    100: '#ffffff',
   },
   trunks: {
-    100: '#999CA0',
+    100: '#999ca0',
   },
 };
 
 const colorNew = {
-  piccolo: '#4E46B4',
-  hit: '#0B0B0B',
-  beerus: '#1F1F1F',
-  goku: '#0B0B0B',
-  gohan: '#1F1F1F',
-  bulma: '#FFFFFF',
-  trunks: '#999CA0',
-  goten: '#FFFFFF',
+  piccolo: '#ffffff',
+  hit: '#0b0b0b',
+  beerus: '#1f1f1f',
+  goku: '#000000',
+  gohan: '#0b0b0b',
+  bulma: '#ffffff',
+  trunks: '#999ca0',
+  goten: '#000000',
   popo: '#000000',
 };
 
@@ -75,6 +76,7 @@ const moonDesignDark: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };
 

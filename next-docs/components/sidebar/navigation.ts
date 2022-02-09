@@ -9,6 +9,7 @@ const navigation = [
   // { name: 'Legacy Tokens', href: '/tokens-legacy' },
   { name: 'Tokens', href: '/tokens' },
   { name: 'Icons', href: '/icons' },
+  { name: 'Transform SVG', href: '/transform-icon' },
   {
     name: 'Components',
     children: [
@@ -62,6 +63,7 @@ const navigation = [
         href: '/components/popover',
       },
       { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
+      // { name: 'Reel', href: '/components/reel' }, // Uncomment only if you want to see what reel looks like
       // {
       //   name: 'RadioButton',
       //   children: [

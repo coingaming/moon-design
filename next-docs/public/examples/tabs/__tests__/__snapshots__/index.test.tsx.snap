@@ -2,22 +2,22 @@
 
 exports[`Tabs renders 1`] = `
 <nav
-  className="TabNav-sc-1uwascp-0 izBRlH"
+  className="TabNav-sc-1uwascp-0 jGhhiE"
 >
   <a
-    className="SkipLink-sc-1rku5na-0 klOHBK"
+    className="SkipLink-sc-1rku5na-0 hlIhqd"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 GYukh"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#2"
       >
         Featured
@@ -27,7 +27,7 @@ exports[`Tabs renders 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#3"
       >
         Today
@@ -37,7 +37,7 @@ exports[`Tabs renders 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#4"
       >
         Tomorrow
@@ -47,7 +47,7 @@ exports[`Tabs renders 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#5"
       >
         Future
@@ -57,7 +57,7 @@ exports[`Tabs renders 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#6"
       >
         Outright
@@ -67,7 +67,7 @@ exports[`Tabs renders 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#7"
       >
         Leagues
@@ -77,7 +77,7 @@ exports[`Tabs renders 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#8"
       >
         News
@@ -92,22 +92,22 @@ exports[`Tabs renders 1`] = `
 
 exports[`Tabs renders Fill 1`] = `
 <nav
-  className="TabNav-sc-1uwascp-0 izBRlH"
+  className="TabNav-sc-1uwascp-0 jGhhiE"
 >
   <a
-    className="SkipLink-sc-1rku5na-0 klOHBK"
+    className="SkipLink-sc-1rku5na-0 hlIhqd"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 GYukh"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#2"
       >
         Featured
@@ -117,7 +117,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#3"
       >
         Today
@@ -127,7 +127,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#4"
       >
         Tomorrow
@@ -137,7 +137,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#5"
       >
         Future
@@ -147,7 +147,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#6"
       >
         Outright
@@ -157,7 +157,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#7"
       >
         Leagues
@@ -167,7 +167,7 @@ exports[`Tabs renders Fill 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#8"
       >
         News
@@ -182,22 +182,22 @@ exports[`Tabs renders Fill 1`] = `
 
 exports[`Tabs renders Fill Container 1`] = `
 <nav
-  className="TabNav-sc-1uwascp-0 bhdjJv"
+  className="TabNav-sc-1uwascp-0 gyCWLE"
 >
   <a
-    className="SkipLink-sc-1rku5na-0 klOHBK"
+    className="SkipLink-sc-1rku5na-0 hlIhqd"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO esNobN"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 GYukh eYA-DLK"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#2"
       >
         Featured
@@ -207,7 +207,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#3"
       >
         Today
@@ -217,7 +217,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#4"
       >
         Tomorrow
@@ -227,7 +227,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#5"
       >
         Future
@@ -237,7 +237,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#6"
       >
         Outright
@@ -247,7 +247,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#7"
       >
         Leagues
@@ -257,7 +257,7 @@ exports[`Tabs renders Fill Container 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-vls6mb-0 frWhpd"
+        className="Container-vls6mb-0 dDYhJq"
         href="#8"
       >
         News
@@ -272,22 +272,22 @@ exports[`Tabs renders Fill Container 1`] = `
 
 exports[`Tabs renders Is Top 1`] = `
 <nav
-  className="TabNav-sc-1uwascp-0 izBRlH"
+  className="TabNav-sc-1uwascp-0 jGhhiE"
 >
   <a
-    className="SkipLink-sc-1rku5na-0 klOHBK"
+    className="SkipLink-sc-1rku5na-0 hlIhqd"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 GYukh"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#2"
       >
         Featured
@@ -297,7 +297,7 @@ exports[`Tabs renders Is Top 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#3"
       >
         Today
@@ -307,7 +307,7 @@ exports[`Tabs renders Is Top 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#4"
       >
         Tomorrow
@@ -317,7 +317,7 @@ exports[`Tabs renders Is Top 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#5"
       >
         Future
@@ -327,7 +327,7 @@ exports[`Tabs renders Is Top 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#6"
       >
         Outright
@@ -337,7 +337,7 @@ exports[`Tabs renders Is Top 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#7"
       >
         Leagues
@@ -347,7 +347,7 @@ exports[`Tabs renders Is Top 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 gyqgEO"
+        className="Container-j1xqi2-0 ldfUgR"
         href="#8"
       >
         News
@@ -362,22 +362,22 @@ exports[`Tabs renders Is Top 1`] = `
 
 exports[`Tabs renders Small 1`] = `
 <nav
-  className="TabNav-sc-1uwascp-0 izBRlH"
+  className="TabNav-sc-1uwascp-0 jGhhiE"
 >
   <a
-    className="SkipLink-sc-1rku5na-0 klOHBK"
+    className="SkipLink-sc-1rku5na-0 hlIhqd"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 GYukh"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#2"
         size="small"
       >
@@ -388,7 +388,7 @@ exports[`Tabs renders Small 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#3"
         size="small"
       >
@@ -399,7 +399,7 @@ exports[`Tabs renders Small 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#4"
         size="small"
       >
@@ -410,7 +410,7 @@ exports[`Tabs renders Small 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#5"
         size="small"
       >
@@ -421,7 +421,7 @@ exports[`Tabs renders Small 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#6"
         size="small"
       >
@@ -432,7 +432,7 @@ exports[`Tabs renders Small 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#7"
         size="small"
       >
@@ -443,7 +443,7 @@ exports[`Tabs renders Small 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 VICS"
+        className="Container-j1xqi2-0 cIUSWF"
         href="#8"
         size="small"
       >
@@ -459,27 +459,27 @@ exports[`Tabs renders Small 1`] = `
 
 exports[`Tabs renders Variant 1`] = `
 <nav
-  className="TabNav-sc-1uwascp-0 izBRlH"
+  className="TabNav-sc-1uwascp-0 jGhhiE"
 >
   <a
-    className="SkipLink-sc-1rku5na-0 klOHBK"
+    className="SkipLink-sc-1rku5na-0 hlIhqd"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 XXzHO"
+    className="Reel-sc-1q0v9zl-0-ul TabList-b0t4ul-0 GYukh"
   >
     <li
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#2"
       >
         Featured
         <span
-          className="TabLink__CountWrapper-u6qu8y-1 cPGFuu"
+          className="TabLink__CountWrapper-u6qu8y-1 kVKWpR"
         >
           00
         </span>
@@ -489,7 +489,7 @@ exports[`Tabs renders Variant 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#3"
       >
         Today
@@ -499,14 +499,14 @@ exports[`Tabs renders Variant 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#4"
       >
         <div
-          className="TabLink__ElementLeftWrapper-u6qu8y-0 gaqFqm"
+          className="TabLink__ElementLeftWrapper-u6qu8y-0 bbgJEx"
         >
           <svg
-            className="sc-aKZfe"
+            className="sc-eaPPdL"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -528,14 +528,14 @@ exports[`Tabs renders Variant 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#5"
       >
         <div
-          className="TabLink__ElementLeftWrapper-u6qu8y-0 gaqFqm"
+          className="TabLink__ElementLeftWrapper-u6qu8y-0 bbgJEx"
         >
           <svg
-            className="sc-aKZfe"
+            className="sc-eaPPdL"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -552,7 +552,7 @@ exports[`Tabs renders Variant 1`] = `
         </div>
         Future
         <span
-          className="TabLink__CountWrapper-u6qu8y-1 cPGFuu"
+          className="TabLink__CountWrapper-u6qu8y-1 kVKWpR"
         >
           00
         </span>
@@ -562,7 +562,7 @@ exports[`Tabs renders Variant 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#6"
       >
         Outright
@@ -572,7 +572,7 @@ exports[`Tabs renders Variant 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#7"
       >
         Leagues
@@ -582,7 +582,7 @@ exports[`Tabs renders Variant 1`] = `
       className="Tabs__Tab-fs06ov-0"
     >
       <a
-        className="Container-j1xqi2-0 eFunqR"
+        className="Container-j1xqi2-0 iUlyKi"
         href="#8"
       >
         News

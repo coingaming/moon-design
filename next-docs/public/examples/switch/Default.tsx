@@ -4,7 +4,6 @@ import { Switch } from '@heathmont/moon-components';
 
 const Example = () => {
   const [state, setState] = useState(true);
-
   return (
     <>
       <Switch

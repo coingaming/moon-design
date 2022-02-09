@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -15,40 +16,40 @@ const color = {
     80: '#c8cad0',
   },
   goten: {
-    100: '#FFFFFF',
+    100: '#ffffff',
   },
   goku: {
-    100: '#F3F5F6',
-    80: '#EAEEF0',
-    40: '#D8E0E3',
-    10: '#C4D2D9',
+    100: '#f3f5f6',
+    80: '#eaeef0',
+    40: '#d8e0e3',
+    10: '#c4d2d9',
   },
   gohan: {
-    100: '#FFFFFF',
+    100: '#ffffff',
     80: '#f7f7f7',
     40: '#e8e8e8',
     10: '#d9d9d9',
   },
   beerus: {
-    100: '#E7E7E7',
+    100: '#e7e7e7',
   },
   bulma: {
-    100: '#03060C',
+    100: '#03060c',
   },
   trunks: {
-    100: '#A6A6A6',
+    100: '#a6a6a6',
   },
 };
 
 const colorNew = {
   piccolo: '#2e89ff',
   hit: '#c0c2c9',
-  beerus: '#E7E7E7',
-  goku: '#F3F5F6',
-  gohan: '#FFFFFF',
-  bulma: '#03060C',
-  trunks: '#A6A6A6',
-  goten: '#FFFFFF',
+  beerus: '#e7e7e7',
+  goku: '#f3f5f6',
+  gohan: '#ffffff',
+  bulma: '#03060c',
+  trunks: '#a6a6a6',
+  goten: '#ffffff',
   popo: '#000000',
 };
 
@@ -71,6 +72,7 @@ const slotsLight: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

@@ -1,57 +1,58 @@
+import componentsTokens from '../sharedTokens/componentsTokens';
 import { Theme } from '../sharedTokens/sharedTokens';
 import sportsbetDark from '../sportsbetDark/sportsbetDark';
 import supportiveColors from '../v2/colors/supportiveColors';
 
 const lightColors = {
   piccolo: {
-    120: '#02C054',
-    100: '#0CCF61',
-    80: '#18DC6D',
+    120: '#02c054',
+    100: '#0ccf61',
+    80: '#18dc6d',
   },
   hit: {
-    120: '#D6D8DB',
-    100: '#DFE0E2',
-    80: '#E7E8E9',
+    120: '#d6d8db',
+    100: '#dfe0e2',
+    80: '#e7e8e9',
   },
   beerus: {
-    100: '#E6E6E6',
+    100: '#e6e6e6',
   },
   goku: {
-    100: '#FFFFFF',
-    80: '#F1F2F3',
-    40: '#E0E3E6',
-    10: '#CED4D9',
+    100: '#ffffff',
+    80: '#f1f2f3',
+    40: '#e0e3e6',
+    10: '#ced4d9',
   },
   gohan: {
-    100: '#F7F7F7',
-    80: '#F0F0F0',
-    40: '#E0E0E0',
-    10: '#D1D1D1',
+    100: '#f7f7f7',
+    80: '#f0f0f0',
+    40: '#e0e0e0',
+    10: '#d1d1d1',
   },
   goten: {
-    100: '#FFFFFF',
+    100: '#ffffff',
   },
   bulma: {
-    100: '#1A212A',
+    100: '#1a212a',
   },
   trunks: {
     100: '#607680',
   },
   whis: {
-    100: '#1DA1F2',
-    10: '#19A9E2',
+    100: '#1da1f2',
+    10: '#19a9e2',
   },
 };
 
 const colorNew = {
-  piccolo: '#0CCF61',
-  hit: '#DFE0E2',
-  beerus: '#E6E6E6',
-  goku: '#FFFFFF',
-  gohan: '#F7F7F7',
-  bulma: '#1A212A',
+  piccolo: '#0ccf61',
+  hit: '#dfe0e2',
+  beerus: '#e6e6e6',
+  goku: '#ffffff',
+  gohan: '#f7f7f7',
+  bulma: '#1a212a',
   trunks: '#607680',
-  goten: '#FFFFFF',
+  goten: '#ffffff',
   popo: '#000000',
 };
 
@@ -67,6 +68,7 @@ const sportsbetLight: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

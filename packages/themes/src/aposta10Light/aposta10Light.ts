@@ -1,54 +1,55 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
-    120: '#2E9468',
-    100: '#39A275',
-    80: '#46AF81',
+    120: '#2e9468',
+    100: '#39a275',
+    80: '#46af81',
   },
   hit: {
-    120: '#F0F0F0',
-    100: '#FFFFFF',
-    80: '#F7F7F7',
+    120: '#f0f0f0',
+    100: '#ffffff',
+    80: '#f7f7f7',
   },
   goten: {
-    100: '#FFFFFF',
+    100: '#ffffff',
   },
   goku: {
-    100: '#F4F5F6',
-    80: '#EBEEEF',
-    40: '#DADFE2',
-    10: '#C8D0D5',
+    100: '#f4f5f6',
+    80: '#ebeeef',
+    40: '#dadfe2',
+    10: '#c8d0d5',
   },
   gohan: {
-    100: '#FFFFFF',
-    80: '#F7F7F8',
-    40: '#E6E8EB',
-    10: '#D4D9DE',
+    100: '#ffffff',
+    80: '#f7f7f8',
+    40: '#e6e8eb',
+    10: '#d4d9de',
   },
   beerus: {
-    100: '#DADFE2',
+    100: '#dadfe2',
   },
   bulma: {
     100: '#010913',
   },
   trunks: {
-    100: '#8697A2',
+    100: '#8697a2',
   },
 };
 
 const colorNew = {
-  piccolo: '#39A275',
-  hit: '#FFFFFF',
-  beerus: '#DADFE2',
-  goku: '#F4F5F6',
-  gohan: '#FFFFFF',
+  piccolo: '#39a275',
+  hit: '#ffffff',
+  beerus: '#dadfe2',
+  goku: '#f4f5f6',
+  gohan: '#ffffff',
   bulma: '#010913',
-  trunks: '#8697A2',
-  goten: '#FFFFFF',
+  trunks: '#8697a2',
+  goten: '#ffffff',
   popo: '#000000',
 };
 
@@ -70,6 +71,7 @@ const hub88: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 
