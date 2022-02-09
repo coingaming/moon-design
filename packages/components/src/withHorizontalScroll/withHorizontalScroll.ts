@@ -46,9 +46,11 @@ const scrollLeftToStep = (
   scrollIntoViewSmoothly: any,
   containerRef?: any
 ) => {
-  const firstVisibleIndex = findFirstVisibleIndex(itemRefs);
-  const actualScrollForIndex =
-    firstVisibleIndex < scrollStep ? 0 : firstVisibleIndex - scrollStep;
+  const actualScrollForIndex = calculateActualScrollForIndex(
+    itemRefs,
+    scrollStep,
+    true
+  );
   scrollToIndex(
     itemRefs[actualScrollForIndex],
     scrollIntoViewSmoothly,
@@ -63,18 +65,37 @@ const scrollRightToStep = (
   scrollIntoViewSmoothly: any,
   containerRef?: any
 ) => {
-  const lastVisibleIndex = findLastVisibleIndex(itemRefs);
-  const lastIndex = itemRefs.length - 1;
-  const actualScrollForIndex =
-    lastIndex - lastVisibleIndex < scrollStep
-      ? lastIndex
-      : lastVisibleIndex + scrollStep;
+  const actualScrollForIndex = calculateActualScrollForIndex(
+    itemRefs,
+    scrollStep,
+    false
+  );
   scrollToIndex(
     itemRefs[actualScrollForIndex],
     scrollIntoViewSmoothly,
     containerRef,
     scrollStep
   );
+};
+
+const calculateActualScrollForIndex = (
+  itemRefs: HTMLElement[],
+  scrollStep: number,
+  toLeft: boolean
+) => {
+  if (toLeft) {
+    const firstVisibleIndex = findFirstVisibleIndex(itemRefs);
+    const actualScrollForIndex =
+      firstVisibleIndex < scrollStep ? 0 : firstVisibleIndex - scrollStep;
+    return actualScrollForIndex;
+  }
+  const lastVisibleIndex = findLastVisibleIndex(itemRefs);
+  const lastIndex = itemRefs.length - 1;
+  const actualScrollForIndex =
+    lastIndex - lastVisibleIndex < scrollStep
+      ? lastIndex
+      : lastVisibleIndex + scrollStep;
+  return actualScrollForIndex;
 };
 
 const showHideIndicator = (
@@ -106,6 +127,7 @@ export const withHorizontalScroll = (options: Options): any => {
   const containerRef = React.useRef(null);
 
   const { scrollStep, scrollInContainer } = options;
+
   const itemRefs: HTMLElement[] = [];
   let scrollIntoViewSmoothly: any = scrollIntoView;
 

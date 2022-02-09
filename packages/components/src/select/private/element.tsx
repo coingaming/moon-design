@@ -1,8 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import { inlineSvg, mq, rem } from '@heathmont/moon-utils';
 import { Theme } from '@heathmont/moon-themes';
+import { inlineSvg, mq, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
+import IconChevronDown from '../../private/icons/IconChevronDown';
 import { Input } from '../../private/input/input';
 import {
   inputColors,
@@ -11,7 +12,6 @@ import {
   inputBorderWidth,
   inputIconPosition,
 } from '../../private/input/settings';
-import IconChevronDown from '../../private/icons/IconChevronDown';
 
 const selectIconSize = 10; // px
 const selectIconOffset = (theme: Theme) =>

@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { Carousel } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
@@ -11,24 +10,26 @@ const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  fontSize: '2rem',
 }));
 
+const Container = styled.div({
+  maxWidth: '600px',
+});
+
 const Example = () => {
-  const items = Array.from({ length: 5 }, (value, index) => index);
+  const items = Array.from({ length: 25 }, (_, index) => index);
 
   return (
     <div className="flex justify-around items-center w-full">
-      <Carousel
-        space="xlarge"
-        items={({ firstVisibleIndex, lastVisibleIndex }) =>
-          items.map((item, index) => (
-            <ExampleContent key={index}>
-              {firstVisibleIndex}, {lastVisibleIndex}
-            </ExampleContent>
-          ))
-        }
-      />
+      <Container>
+        <Carousel
+          isRtl={true}
+          scrollTo={5}
+          items={items.map((_, index) => (
+            <ExampleContent>{index}</ExampleContent>
+          ))}
+        />
+      </Container>
     </div>
   );
 };
