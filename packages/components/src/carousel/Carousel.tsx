@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { SpaceProps } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
@@ -103,6 +103,35 @@ const DefaultScrollToRightButton = ({
     </CarouselControl>
   );
 
+const generateItems = (
+  items: Array<any> | Function,
+  itemRef: HTMLElement,
+  isRtl: boolean,
+  firstVisibleIndex: number,
+  lastVisibleIndex: number
+) => {
+  console.log(items);
+  const elements: HTMLElement[] =
+    typeof items === 'function'
+      ? items({ firstVisibleIndex, lastVisibleIndex }).map(
+          (item: React.ReactNode, index: string | number | undefined) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <CarouselScrollItem key={index} ref={itemRef}>
+              {item}
+            </CarouselScrollItem>
+          )
+        )
+      : items.map(
+          (item: React.ReactNode, index: string | number | undefined) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <CarouselScrollItem key={index} ref={itemRef}>
+              {item}
+            </CarouselScrollItem>
+          )
+        );
+
+  return isRtl ? (elements as HTMLElement[]).reverse() : elements;
+};
 interface CarouselProps {
   items: any;
   scrollToLeftButton?: any;
@@ -168,8 +197,6 @@ const Carousel: React.FC<CarouselProps> = ({
     }
   }, []);
 
-  const itemsToIterate = isRtl ? items.reverse() : items;
-
   return (
     <CarouselWrapper>
       {scrollToLeftButton ? (
@@ -191,23 +218,13 @@ const Carousel: React.FC<CarouselProps> = ({
         horizontalEdgeGap={horizontalEdgeGap}
         hideScrollbar={hideScrollbar}
       >
-        {typeof items === 'function'
-          ? itemsToIterate({ firstVisibleIndex, lastVisibleIndex }).map(
-              (item: React.ReactNode, index: string | number | undefined) => (
-                // eslint-disable-next-line react/no-array-index-key
-                <CarouselScrollItem key={index} ref={itemRef}>
-                  {item}
-                </CarouselScrollItem>
-              )
-            )
-          : itemsToIterate.map(
-              (item: React.ReactNode, index: string | number | undefined) => (
-                // eslint-disable-next-line react/no-array-index-key
-                <CarouselScrollItem key={index} ref={itemRef}>
-                  {item}
-                </CarouselScrollItem>
-              )
-            )}
+        {generateItems(
+          items,
+          itemRef,
+          isRtl === true,
+          firstVisibleIndex,
+          lastVisibleIndex
+        )}
       </ItemsScrollWrapper>
       {scrollToRightButton ? (
         scrollToRightButton({

@@ -40,7 +40,7 @@ export const CarouselControl = styled.button<Props>(
     textDecoration: 'none',
     cursor: 'pointer',
     position: 'absolute',
-    ...(isRtl ? { right: '-14px' } : { left: '-14px' }),
+    ...(isRtl ? { right: rem(-0.875) } : { left: rem(-0.875) }),
     top: '50%',
     transform: 'translateY(-50%)',
     transformOrigin: 'top center',
@@ -48,12 +48,12 @@ export const CarouselControl = styled.button<Props>(
     '&:last-child': {
       ...(isRtl
         ? {
-            left: '-14px',
+            left: rem(-0.875),
             right: 'auto',
           }
         : {
             left: 'auto',
-            right: '-14px',
+            right: rem(-0.875),
           }),
       svg: {
         transform: 'rotate(180deg) ' /* [2] */,
