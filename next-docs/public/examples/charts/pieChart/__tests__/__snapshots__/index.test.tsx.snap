@@ -5,7 +5,7 @@ exports[`Pie Chart renders 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -291,7 +291,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -334,7 +334,7 @@ exports[`Pie Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fOgftP"
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fQzSgD"
       style={
         Object {
           "height": "100%",
@@ -347,7 +347,7 @@ exports[`Pie Chart renders 1`] = `
     />
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -633,7 +633,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -676,7 +676,7 @@ exports[`Pie Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fOgftP"
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fQzSgD"
       style={
         Object {
           "height": "100%",
@@ -696,7 +696,7 @@ exports[`Pie Chart renders Loading 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -982,7 +982,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -1056,7 +1056,7 @@ exports[`Pie Chart renders Loading 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -1342,7 +1342,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -1385,7 +1385,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fOgftP"
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 fQzSgD"
       style={
         Object {
           "height": "100%",

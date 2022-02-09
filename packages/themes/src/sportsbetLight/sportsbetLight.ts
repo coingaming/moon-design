@@ -1,3 +1,4 @@
+import componentsTokens from '../sharedTokens/componentsTokens';
 import { Theme } from '../sharedTokens/sharedTokens';
 import sportsbetDark from '../sportsbetDark/sportsbetDark';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -67,6 +68,7 @@ const sportsbetLight: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

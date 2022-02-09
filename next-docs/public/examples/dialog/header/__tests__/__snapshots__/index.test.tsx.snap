@@ -8,7 +8,7 @@ exports[`Dialog Header renders Example 1 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 dxKBPY"
+      className="Container-sc-8xp2tr-0 emuDkE"
     >
       <div
         className="Header__Label-sc-60uies-0 hokPwM"
@@ -24,7 +24,7 @@ exports[`Dialog Header renders Example 1 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 dxKBPY"
+      className="Container-sc-8xp2tr-0 emuDkE"
     >
       <div
         className="Header__Label-sc-60uies-0 hokPwM"
@@ -68,7 +68,7 @@ exports[`Dialog Header renders Example 2 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 dxKBPY"
+      className="Container-sc-8xp2tr-0 emuDkE"
     >
       <div
         className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
@@ -125,7 +125,7 @@ exports[`Dialog Header renders Example 2 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 dxKBPY"
+      className="Container-sc-8xp2tr-0 emuDkE"
     >
       <div
         className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
@@ -187,7 +187,7 @@ exports[`Dialog Header renders Example 3 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 dxKBPY"
+      className="Container-sc-8xp2tr-0 emuDkE"
     >
       <div
         className="Header__Label-sc-60uies-0 hokPwM"
@@ -258,7 +258,7 @@ exports[`Dialog Header renders Example 3 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="Container-sc-8xp2tr-0 dxKBPY"
+      className="Container-sc-8xp2tr-0 emuDkE"
     >
       <div
         className="Header__Label-sc-60uies-0 hokPwM"
@@ -331,7 +331,7 @@ exports[`Dialog Header renders Example 4 1`] = `
   className="flex justify-around items-center w-full max-w-screen-sm"
 >
   <div
-    className="Container-sc-8xp2tr-0 dxKBPY"
+    className="Container-sc-8xp2tr-0 emuDkE"
   >
     <div
       className="Header__BackButtonIcon-sc-60uies-2 bccFYz"
@@ -425,7 +425,7 @@ exports[`Dialog Header renders Example 5 1`] = `
   className="flex justify-around items-center w-full max-w-screen-sm"
 >
   <div
-    className="Container-sc-8xp2tr-0 eJrIDp"
+    className="Container-sc-8xp2tr-0 bNmAsB"
   >
     <div
       className="Header__BackButtonIcon-sc-60uies-2 bccFYz"

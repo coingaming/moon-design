@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -70,6 +71,7 @@ const slotsDark: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };
 

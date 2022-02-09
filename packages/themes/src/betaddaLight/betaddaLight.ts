@@ -1,4 +1,5 @@
 import betaddaDark from '../betaddaDark/betaddaDark';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import { Theme } from '../sharedTokens/sharedTokens';
 import supportiveColors from '../v2/colors/supportiveColors';
 
@@ -67,6 +68,7 @@ const betaddaLight: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

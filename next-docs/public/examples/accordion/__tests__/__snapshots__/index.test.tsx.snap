@@ -2,7 +2,7 @@
 
 exports[`Accordion collapses 1`] = `
 <div
-  className="layout__AccordionWrapper-hiry1l-0 damoSF"
+  className="layout__AccordionWrapper-hiry1l-0 iOFYMG"
 >
   <div
     className="layout__AccordionHeader-hiry1l-3 kZHexw"
@@ -22,7 +22,7 @@ exports[`Accordion collapses 1`] = `
       Additional content
     </div>
     <button
-      className="layout__AccordionToggle-hiry1l-4 cEXthF"
+      className="layout__AccordionToggle-hiry1l-4 fvpYQK"
       disabled={false}
       onClick={[Function]}
       type="button"
@@ -61,7 +61,7 @@ exports[`Accordion collapses 1`] = `
 
 exports[`Accordion expands 1`] = `
 <div
-  className="layout__AccordionWrapper-hiry1l-0 damoSF"
+  className="layout__AccordionWrapper-hiry1l-0 iOFYMG"
 >
   <div
     className="layout__AccordionHeader-hiry1l-3 kZHexw"
@@ -81,7 +81,7 @@ exports[`Accordion expands 1`] = `
       Additional content
     </div>
     <button
-      className="layout__AccordionToggle-hiry1l-4 cEXthF"
+      className="layout__AccordionToggle-hiry1l-4 fvpYQK"
       disabled={false}
       onClick={[Function]}
       type="button"
@@ -120,7 +120,7 @@ exports[`Accordion expands 1`] = `
 
 exports[`Accordion renders 1`] = `
 <div
-  className="layout__AccordionWrapper-hiry1l-0 damoSF"
+  className="layout__AccordionWrapper-hiry1l-0 iOFYMG"
 >
   <div
     className="layout__AccordionHeader-hiry1l-3 kZHexw"
@@ -140,7 +140,7 @@ exports[`Accordion renders 1`] = `
       Additional content
     </div>
     <button
-      className="layout__AccordionToggle-hiry1l-4 cEXthF"
+      className="layout__AccordionToggle-hiry1l-4 fvpYQK"
       disabled={false}
       onClick={[Function]}
       type="button"

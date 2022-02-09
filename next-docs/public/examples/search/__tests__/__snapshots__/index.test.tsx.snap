@@ -20,7 +20,7 @@ exports[`Search renders 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 kXQIVd"
+            className="Input__SearchInput-vvx0zy-4 mOgfA"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -68,7 +68,7 @@ exports[`Search renders 1`] = `
       className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 ePuTsR"
+        className="Styles__Results-sc-1urf7j8-3 eimgzq"
       >
         <ul
           className="sc-kBrnbA dWRjaz"
@@ -104,7 +104,7 @@ exports[`Search renders Loading State 1`] = `
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 kXQIVd"
+            className="Input__SearchInput-vvx0zy-4 mOgfA"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -138,7 +138,7 @@ exports[`Search renders Loading State 1`] = `
       className="Styles__FlexWrapper-sc-1urf7j8-1 bmfLTp"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 ePuTsR"
+        className="Styles__Results-sc-1urf7j8-3 eimgzq"
       >
         <ul
           className="sc-dNUOEE cRZzNZ"

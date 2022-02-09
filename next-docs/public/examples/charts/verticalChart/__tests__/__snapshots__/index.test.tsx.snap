@@ -5,7 +5,7 @@ exports[`Table Chart renders Active 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -156,7 +156,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -437,7 +437,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -594,7 +594,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -667,7 +667,7 @@ exports[`Table Chart renders Active 1`] = `
             className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
-              className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
+              className="VerticalBar__Center-sc-1o6bhqj-3 dwEdvR"
             />
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 kazhLt"
@@ -715,7 +715,7 @@ exports[`Table Chart renders Active 1`] = `
             className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
-              className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
+              className="VerticalBar__Center-sc-1o6bhqj-3 dwEdvR"
             />
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 kazhLt"
@@ -763,7 +763,7 @@ exports[`Table Chart renders Active 1`] = `
             className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
-              className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
+              className="VerticalBar__Center-sc-1o6bhqj-3 dwEdvR"
             />
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 kazhLt"
@@ -811,7 +811,7 @@ exports[`Table Chart renders Active 1`] = `
             className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
-              className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
+              className="VerticalBar__Center-sc-1o6bhqj-3 dwEdvR"
             />
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 dKHOFF"
@@ -859,7 +859,7 @@ exports[`Table Chart renders Active 1`] = `
             className="Table__Cell-sc-1ygp5ew-0 gYlbUG"
           >
             <div
-              className="VerticalBar__Center-sc-1o6bhqj-3 eoBUYN"
+              className="VerticalBar__Center-sc-1o6bhqj-3 dwEdvR"
             />
             <div
               className="VerticalBar__Bar-sc-1o6bhqj-1 dKHOFF"
@@ -890,7 +890,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -1041,7 +1041,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >
@@ -1329,7 +1329,7 @@ exports[`Table Chart renders NoData 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 jEKoDF"
+    className="Panel__Container-wbwz0d-1 iOwlJO"
     style={
       Object {
         "height": 446,
@@ -1480,7 +1480,7 @@ exports[`Table Chart renders NoData 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB kxhmB"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gkkzoB bbhUVp"
         color="bulma.100"
         size={20}
       >

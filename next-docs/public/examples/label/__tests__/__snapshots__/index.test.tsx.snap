@@ -5,7 +5,7 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="LabelContainer-eoxl68-0 jaBnqB"
+    className="LabelContainer-eoxl68-0 giFqwZ"
   >
     Medium
   </span>
@@ -29,13 +29,13 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="LabelContainer-eoxl68-0 hNddAr"
+    className="LabelContainer-eoxl68-0 kSzEdn"
     size="small"
   >
     Small
   </span>
   <span
-    className="LabelContainer-eoxl68-0 jaBnqB"
+    className="LabelContainer-eoxl68-0 giFqwZ"
   >
     Medium
   </span>
@@ -50,13 +50,13 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-      className="LabelContainer-eoxl68-0 hNddAr"
+      className="LabelContainer-eoxl68-0 kSzEdn"
       size="small"
     >
       Small
     </span>
     <span
-      className="LabelContainer-eoxl68-0 hNddAr"
+      className="LabelContainer-eoxl68-0 kSzEdn"
       size="small"
     >
       <span
@@ -81,7 +81,7 @@ exports[`Label renders with different SizesList 1`] = `
       Small
     </span>
     <span
-      className="LabelContainer-eoxl68-0 hNddAr"
+      className="LabelContainer-eoxl68-0 kSzEdn"
       size="small"
     >
       Small
@@ -106,7 +106,7 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="LabelContainer-eoxl68-0 hNddAr"
+      className="LabelContainer-eoxl68-0 kSzEdn"
       size="small"
     >
       <span
@@ -154,12 +154,12 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-      className="LabelContainer-eoxl68-0 jaBnqB"
+      className="LabelContainer-eoxl68-0 giFqwZ"
     >
       Medium
     </span>
     <span
-      className="LabelContainer-eoxl68-0 jaBnqB"
+      className="LabelContainer-eoxl68-0 giFqwZ"
     >
       <span
         className="Label__IconLeftWrapper-sc-1s4qwei-1 hkUyWm"
@@ -183,7 +183,7 @@ exports[`Label renders with different SizesList 1`] = `
       Medium
     </span>
     <span
-      className="LabelContainer-eoxl68-0 jaBnqB"
+      className="LabelContainer-eoxl68-0 giFqwZ"
     >
       Medium
       <span
@@ -207,7 +207,7 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="LabelContainer-eoxl68-0 jaBnqB"
+      className="LabelContainer-eoxl68-0 giFqwZ"
     >
       <span
         className="Label__IconLeftWrapper-sc-1s4qwei-1 hkUyWm"
