@@ -5,7 +5,7 @@ const LabelInner = styled.label(
   ({
     theme: {
       colorNew,
-      newTokens: { transitionDuration },
+      newTokens: { transition },
     },
   }) => ({
     position: 'absolute',
@@ -15,7 +15,7 @@ const LabelInner = styled.label(
     color: colorNew.trunks,
     top: rem(12),
     zIndex: 1,
-    transition: `all ${transitionDuration} ease`,
+    transition: `all ${transition.default}`,
   })
 );
 

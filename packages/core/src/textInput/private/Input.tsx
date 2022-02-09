@@ -24,13 +24,7 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: {
       colorNew,
       hover,
-      newTokens: {
-        borderRadius,
-        transitionDuration,
-        space,
-        border,
-        transition,
-      },
+      newTokens: { borderRadius, space, border, transition },
     },
     inputSize,
     error,
@@ -69,8 +63,8 @@ const Input = styled.input.attrs(({ type }) => ({
       '&::placeholder': {
         color: colorNew.trunks,
         opacity: 1,
-        transition: `opacity ${transitionDuration} ease`,
-        transitionDelay: `0.1s`,
+        transition: `opacity ${transition.default}`,
+        transitionDelay: `0.05s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${border.width.interactive} ${
