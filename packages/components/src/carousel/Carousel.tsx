@@ -142,7 +142,7 @@ const Carousel: React.FC<CarouselProps> = ({
     canScrollRight,
     firstVisibleIndex,
     lastVisibleIndex,
-  } = withHorizontalScroll({ scrollStep: step || 5, isRtl });
+  } = withHorizontalScroll({ scrollStep: step || 5 });
 
   React.useEffect(() => {
     if (!selectedIndex) {
