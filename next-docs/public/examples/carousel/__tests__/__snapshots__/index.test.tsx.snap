@@ -244,6 +244,254 @@ exports[`Carousel renders 1`] = `
 </div>
 `;
 
+exports[`Carousel renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex justify-around items-center w-full"
+  >
+    <div
+      className="sc-fvFlmW hBdWHk"
+    >
+      <div
+        className="Carousel__CarouselWrapper-xel9ev-0 dIVKCL"
+      >
+        <ul
+          className="Reel-sc-10l7fx7-0-ul Carousel__ItemsScrollWrapper-xel9ev-1 fcarpj kMmwHJ"
+        >
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              24
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              23
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              22
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              21
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              20
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              19
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              18
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              17
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              16
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              15
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              14
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              13
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              12
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              11
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              10
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              9
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              8
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              7
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              6
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              5
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              4
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              3
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              2
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              1
+            </div>
+          </li>
+          <li
+            className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
+          >
+            <div
+              className="sc-ezipRf bSbVnC"
+            >
+              0
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Carousel renders visible index 1`] = `
 <div
   className="flex justify-around items-center w-full"
@@ -258,7 +506,7 @@ exports[`Carousel renders visible index 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-cqtpGg jhuyRQ"
         >
           -1
           , 
@@ -269,7 +517,7 @@ exports[`Carousel renders visible index 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-cqtpGg jhuyRQ"
         >
           -1
           , 
@@ -280,7 +528,7 @@ exports[`Carousel renders visible index 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-cqtpGg jhuyRQ"
         >
           -1
           , 
@@ -291,7 +539,7 @@ exports[`Carousel renders visible index 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-cqtpGg jhuyRQ"
         >
           -1
           , 
@@ -302,7 +550,7 @@ exports[`Carousel renders visible index 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ihsSHl jSkYGv"
+          className="sc-cqtpGg jhuyRQ"
         >
           -1
           , 
@@ -334,7 +582,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           0
         </div>
@@ -343,7 +591,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           1
         </div>
@@ -352,7 +600,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           2
         </div>
@@ -361,7 +609,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           3
         </div>
@@ -370,7 +618,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           4
         </div>
@@ -379,7 +627,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           5
         </div>
@@ -388,7 +636,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           6
         </div>
@@ -397,7 +645,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           7
         </div>
@@ -406,7 +654,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           8
         </div>
@@ -415,7 +663,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           9
         </div>
@@ -424,7 +672,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           10
         </div>
@@ -433,7 +681,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           11
         </div>
@@ -442,7 +690,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           12
         </div>
@@ -451,7 +699,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           13
         </div>
@@ -460,7 +708,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           14
         </div>
@@ -469,7 +717,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           15
         </div>
@@ -478,7 +726,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           16
         </div>
@@ -487,7 +735,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           17
         </div>
@@ -496,7 +744,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           18
         </div>
@@ -505,7 +753,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           19
         </div>
@@ -514,7 +762,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           20
         </div>
@@ -523,7 +771,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           21
         </div>
@@ -532,7 +780,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           22
         </div>
@@ -541,7 +789,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           23
         </div>
@@ -550,7 +798,7 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-fvFlmW bSGmWW"
+          className="sc-jdPOdc kbiycE"
         >
           24
         </div>
@@ -580,7 +828,7 @@ exports[`Carousel renders with different Space 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-ihsSHl jSkYGv"
         >
           0
         </div>
@@ -589,7 +837,7 @@ exports[`Carousel renders with different Space 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-ihsSHl jSkYGv"
         >
           1
         </div>
@@ -598,7 +846,7 @@ exports[`Carousel renders with different Space 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-ihsSHl jSkYGv"
         >
           2
         </div>
@@ -607,7 +855,7 @@ exports[`Carousel renders with different Space 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-ihsSHl jSkYGv"
         >
           3
         </div>
@@ -616,7 +864,7 @@ exports[`Carousel renders with different Space 1`] = `
         className="Carousel__CarouselScrollItem-xel9ev-2 OGvTW"
       >
         <div
-          className="sc-ezipRf jLWoYA"
+          className="sc-ihsSHl jSkYGv"
         >
           4
         </div>

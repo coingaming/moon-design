@@ -1,13 +1,13 @@
 import React from 'react';
-import styled, { CSSObject } from 'styled-components';
 import { SpaceProps } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 
 import IconChevronLeft from '../private/icons/IconChevronLeft';
 import Reel from '../reel/Reel';
 import { withHorizontalScroll } from '../withHorizontalScroll/withHorizontalScroll';
 
 import { CarouselControl, CarouselControlCaption } from './control';
-import { rem } from '@heathmont/moon-utils';
 /**
  * Settings
  *
@@ -50,12 +50,12 @@ const ItemsScrollWrapper = styled(Reel.withComponent('ul'))<{
     },
   {
     scrollSnapType: 'mandatory',
-    scrollSnapDestination: '0 50%',
-    scrollSnapPointsX: 'repeat(100%)',
+    scrollSnapDestination: '0 50%', // TODO, deprecated css property
+    scrollSnapPointsX: 'repeat(100%)', // TODO, deprecated css property
     [currentScrollingSpec]: {
       scrollSnapType: 'x mandatory',
-      scrollSnapDestination: 'unset' /* 👴 */,
-      scrollSnapPointsX: 'unset' /* 👴 */,
+      scrollSnapDestination: 'unset' /* 👴 */, // TODO, deprecated css property
+      scrollSnapPointsX: 'unset' /* 👴 */, // TODO, deprecated css property
     },
   }
 );
@@ -80,6 +80,7 @@ const CarouselScrollItem = styled.li<any>({
 const DefaultScrollToLeftButton = ({
   scrollLeftCaption = 'Scroll Left',
   disabled = false,
+  isRtl = false,
   ...rest
 }) =>
   disabled ? null : (
@@ -92,6 +93,7 @@ const DefaultScrollToLeftButton = ({
 const DefaultScrollToRightButton = ({
   scrollRightCaption = 'Scroll Right',
   disabled = false,
+  isRtl = false,
   ...rest
 }) =>
   disabled ? null : (
@@ -113,6 +115,7 @@ interface CarouselProps {
   space?: SpaceProps | CSSObject['margin'];
   horizontalEdgeGap?: number | boolean;
   hideScrollbar?: boolean;
+  isRtl?: boolean;
 }
 
 const Carousel: React.FC<CarouselProps> = ({
@@ -127,6 +130,7 @@ const Carousel: React.FC<CarouselProps> = ({
   horizontalEdgeGap,
   hideScrollbar,
   selectedIndex,
+  isRtl,
 }) => {
   const {
     itemRef,
@@ -138,7 +142,7 @@ const Carousel: React.FC<CarouselProps> = ({
     canScrollRight,
     firstVisibleIndex,
     lastVisibleIndex,
-  } = withHorizontalScroll({ scrollStep: step || 5 });
+  } = withHorizontalScroll({ scrollStep: step || 5, isRtl });
 
   React.useEffect(() => {
     if (!selectedIndex) {
@@ -164,6 +168,8 @@ const Carousel: React.FC<CarouselProps> = ({
     }
   }, []);
 
+  const itemsToIterate = isRtl ? items.reverse() : items;
+
   return (
     <CarouselWrapper>
       {scrollToLeftButton ? (
@@ -176,6 +182,7 @@ const Carousel: React.FC<CarouselProps> = ({
           onClick={scrollLeftToStep}
           disabled={!canScrollLeft}
           scrollLeftCaption={scrollLeftCaption}
+          isRtl={isRtl}
         />
       )}
       <ItemsScrollWrapper
@@ -185,7 +192,7 @@ const Carousel: React.FC<CarouselProps> = ({
         hideScrollbar={hideScrollbar}
       >
         {typeof items === 'function'
-          ? items({ firstVisibleIndex, lastVisibleIndex }).map(
+          ? itemsToIterate({ firstVisibleIndex, lastVisibleIndex }).map(
               (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
@@ -193,7 +200,7 @@ const Carousel: React.FC<CarouselProps> = ({
                 </CarouselScrollItem>
               )
             )
-          : items.map(
+          : itemsToIterate.map(
               (item: React.ReactNode, index: string | number | undefined) => (
                 // eslint-disable-next-line react/no-array-index-key
                 <CarouselScrollItem key={index} ref={itemRef}>
@@ -212,6 +219,7 @@ const Carousel: React.FC<CarouselProps> = ({
           onClick={scrollRightToStep}
           disabled={!canScrollRight}
           scrollRightCaption={scrollRightCaption}
+          isRtl={isRtl}
         />
       )}
     </CarouselWrapper>
