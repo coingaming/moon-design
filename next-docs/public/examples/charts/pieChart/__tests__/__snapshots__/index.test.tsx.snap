@@ -5,7 +5,7 @@ exports[`Pie Chart renders 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -16,7 +16,7 @@ exports[`Pie Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -37,7 +37,7 @@ exports[`Pie Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -63,7 +63,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -291,7 +291,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -304,11 +304,11 @@ exports[`Pie Chart renders 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -334,7 +334,7 @@ exports[`Pie Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 gwPCHI"
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 gGNsbc"
       style={
         Object {
           "height": "100%",
@@ -347,7 +347,7 @@ exports[`Pie Chart renders 1`] = `
     />
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -358,7 +358,7 @@ exports[`Pie Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -379,7 +379,7 @@ exports[`Pie Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -405,7 +405,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -633,7 +633,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -646,11 +646,11 @@ exports[`Pie Chart renders 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -676,7 +676,7 @@ exports[`Pie Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 gwPCHI"
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 gGNsbc"
       style={
         Object {
           "height": "100%",
@@ -696,7 +696,7 @@ exports[`Pie Chart renders Loading 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -707,7 +707,7 @@ exports[`Pie Chart renders Loading 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -728,7 +728,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -754,7 +754,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -982,7 +982,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -995,11 +995,11 @@ exports[`Pie Chart renders Loading 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -1047,7 +1047,7 @@ exports[`Pie Chart renders Loading 1`] = `
         />
       </svg>
       <p
-        className="Text-sc-3hujzp-0 Loader__Title-sc-70sa6l-0 hYujUk frXYlL"
+        className="Text-sc-3hujzp-0 Loader__Title-sc-70sa6l-0 jqooXE frXYlL"
         color="trunks.100"
         size={14}
       >
@@ -1056,7 +1056,7 @@ exports[`Pie Chart renders Loading 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -1067,7 +1067,7 @@ exports[`Pie Chart renders Loading 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1088,7 +1088,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1114,7 +1114,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1342,7 +1342,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -1355,11 +1355,11 @@ exports[`Pie Chart renders Loading 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -1385,7 +1385,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 gwPCHI"
+      className="recharts-responsive-container PieChart__ResponsiveContainerCustomized-sc-1cj5ps3-0 gGNsbc"
       style={
         Object {
           "height": "100%",

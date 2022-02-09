@@ -8,11 +8,11 @@ exports[`Linear Progress renders 1`] = `
     className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 NZbns"
   >
     <div
-      className="ProgressLinear__Progress-sc-1wwz7u1-2 iMiqLu"
+      className="ProgressLinear__Progress-sc-1wwz7u1-2 kufWUG"
       value={30}
     />
     <div
-      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 euCpHn"
+      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 iDNQrD"
     >
       <span>
         Progress
@@ -23,12 +23,12 @@ exports[`Linear Progress renders 1`] = `
     className="ProgressLinear__ProgressBarWrapper-sc-1wwz7u1-0 NZbns"
   >
     <div
-      className="ProgressLinear__Progress-sc-1wwz7u1-2 eqbYoN"
+      className="ProgressLinear__Progress-sc-1wwz7u1-2 irSCsx"
       height={5}
       value={30}
     />
     <div
-      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 gidFJk"
+      className="ProgressLinear__CurrentProgress-sc-1wwz7u1-1 dJTHOM"
     >
       <span>
         Progress

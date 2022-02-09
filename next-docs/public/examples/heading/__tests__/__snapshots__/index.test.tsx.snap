@@ -19,14 +19,14 @@ exports[`Heading renders colors 1`] = `
   className="flex justify-around items-center w-full"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 fukuTv"
+    className="Heading-sc-1jzu9kp-0 jCvCej"
     color="goku.80"
     size={16}
   >
     Title
   </h3>
   <h3
-    className="Heading-sc-1jzu9kp-0 Reqwc"
+    className="Heading-sc-1jzu9kp-0 ekHBUs"
     color="hit.80"
     size={16}
   >
