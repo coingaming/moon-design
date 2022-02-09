@@ -91,15 +91,14 @@ const calculateActualScrollForIndex = (
     const actualScrollForIndex =
       firstVisibleIndex < scrollStep ? 0 : firstVisibleIndex - scrollStep;
     return actualScrollForIndex;
-  } else {
-    const lastVisibleIndex = findLastVisibleIndex(itemRefs);
-    const lastIndex = itemRefs.length - 1;
-    const actualScrollForIndex =
-      lastIndex - lastVisibleIndex < scrollStep
-        ? lastIndex
-        : lastVisibleIndex + scrollStep;
-    return actualScrollForIndex;
   }
+  const lastVisibleIndex = findLastVisibleIndex(itemRefs);
+  const lastIndex = itemRefs.length - 1;
+  const actualScrollForIndex =
+    lastIndex - lastVisibleIndex < scrollStep
+      ? lastIndex
+      : lastVisibleIndex + scrollStep;
+  return actualScrollForIndex;
 };
 
 const showHideIndicator = (
