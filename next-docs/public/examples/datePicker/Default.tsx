@@ -11,7 +11,7 @@ const Example = () => {
   );
 
   return (
-    <div style={{ height: rem(400), width: '100%' }}>
+    <div style={{ height: rem(700), width: '100%' }}>
       <DateRangePicker
         isOpenByDefault={true}
         startDate={initialStartDate}

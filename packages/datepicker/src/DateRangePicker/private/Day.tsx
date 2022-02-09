@@ -1,6 +1,7 @@
 import React from 'react';
 import { rem } from '@heathmont/moon-utils';
 import format from 'date-fns/format';
+import { rgba } from 'polished';
 import styled from 'styled-components';
 
 type DayStyledProps = {
@@ -9,58 +10,97 @@ type DayStyledProps = {
   isStartEdge?: boolean;
   isEndEdge?: boolean;
   isToday?: boolean;
+  isDisabled?: boolean;
+  isStartOfWeek?: boolean;
+  isEndOfWeek?: boolean;
 };
 
 const DayStyled = styled.div<DayStyledProps>(
-  ({ theme, isInRange, isInRangePreview, isStartEdge, isEndEdge, isToday }) => [
+  ({
+    theme: { colorNew, newTokens },
+    isInRange,
+    isInRangePreview,
+    isStartEdge,
+    isEndEdge,
+    isToday,
+    isDisabled,
+    isStartOfWeek,
+    isEndOfWeek,
+  }) => [
     {
-      height: rem(32),
+      height: rem(40),
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      fontWeight: 500,
-      fontSize: rem(10),
-      color: theme.color.bulma[100],
+      fontSize: rem(14),
+      color: colorNew.bulma,
       userSelect: 'none',
       cursor: 'pointer',
       boxSizing: 'border-box',
       border: '1px solid transparent', // to prevent jumping on hover
+      borderRadius: newTokens.borderRadius.medium,
       '&:hover': {
-        border: `1px solid ${theme.color.trunks[100]}`,
-        borderRadius: rem(theme.radius.largest),
+        color: colorNew.piccolo,
+        backgroundColor: newTokens.hover.secondary,
       },
     },
     (isInRange || isInRangePreview) && {
-      backgroundColor: theme.color.goku[80],
+      color: colorNew.piccolo,
+      borderRadius: 0,
+      backgroundColor: newTokens.hover.secondary,
+      borderTopLeftRadius: isStartOfWeek && newTokens.borderRadius.medium,
+      borderBottomLeftRadius: isStartOfWeek && newTokens.borderRadius.medium,
+      borderTopRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
+      borderBottomRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
     },
     (isStartEdge || isEndEdge) && {
-      background: theme.color.piccolo[100],
-      borderRadius: rem(theme.radius.largest),
-      color: theme.color.goten[100],
+      background: colorNew.piccolo,
+      color: colorNew.goten,
+      borderRadius: newTokens.borderRadius.medium,
+      '&:hover': {
+        border: `1px solid ${colorNew.piccolo}`,
+        background: colorNew.piccolo,
+        color: colorNew.goten,
+      },
+    },
+    isInRangePreview && {
+      '&:hover': {
+        borderTopRightRadius: newTokens.borderRadius.medium,
+        borderBottomRightRadius: newTokens.borderRadius.medium,
+      },
     },
     isToday && {
       fontWeight: 'bold',
+    },
+    isDisabled && {
+      cursor: 'default',
+      color: rgba(colorNew.bulma, 0.32),
+      '&:hover': {
+        border: '1px solid transparent',
+      },
     },
   ]
 );
 
 const DayWrapper = styled.div<DayStyledProps>(
-  ({ theme, isStartEdge, isEndEdge, isInRangePreview }) => [
+  ({ theme: { newTokens }, isStartEdge, isEndEdge, isInRangePreview }) => [
+    {
+      marginBottom: rem(4),
+    },
     isStartEdge && {
-      backgroundColor: theme.color.goku[80],
-      borderTopLeftRadius: rem(theme.radius.largest),
-      borderBottomLeftRadius: rem(theme.radius.largest),
+      backgroundColor: newTokens.hover.secondary,
+      borderTopLeftRadius: newTokens.borderRadius.medium,
+      borderBottomLeftRadius: newTokens.borderRadius.medium,
     },
     isEndEdge && {
-      backgroundColor: theme.color.goku[80],
-      borderTopRightRadius: rem(theme.radius.largest),
-      borderBottomRightRadius: rem(theme.radius.largest),
+      backgroundColor: newTokens.hover.secondary,
+      borderTopRightRadius: newTokens.borderRadius.medium,
+      borderBottomRightRadius: newTokens.borderRadius.medium,
     },
     isInRangePreview && {
-      backgroundColor: theme.color.goku[80],
       '&:hover': {
-        borderTopRightRadius: rem(theme.radius.largest),
-        borderBottomRightRadius: rem(theme.radius.largest),
+        borderTopRightRadius: newTokens.borderRadius.medium,
+        borderBottomRightRadius: newTokens.borderRadius.medium,
       },
     },
   ]
@@ -82,6 +122,8 @@ type DayProps = {
   isToday: boolean;
   onDayClick: any;
   onMouseEnter: any;
+  isStartOfWeek: boolean;
+  isEndOfWeek?: boolean;
 };
 
 export const Day: React.FC<DayProps> = ({
@@ -94,6 +136,8 @@ export const Day: React.FC<DayProps> = ({
   onDayClick,
   onMouseEnter,
   isToday,
+  isStartOfWeek,
+  isEndOfWeek,
 }) => {
   if (!isSameMonth) {
     return <EmptyCell />;
@@ -114,6 +158,8 @@ export const Day: React.FC<DayProps> = ({
         isToday={isToday}
         onClick={() => onDayClick(date)}
         onMouseEnter={() => onMouseEnter(date)}
+        isStartOfWeek={isStartOfWeek}
+        isEndOfWeek={isEndOfWeek}
       >
         {formatLabel(date)}
       </DayStyled>

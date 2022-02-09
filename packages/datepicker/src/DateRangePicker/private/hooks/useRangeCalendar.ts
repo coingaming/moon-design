@@ -1,4 +1,5 @@
 import React from 'react';
+import { setMonth as setFnsMonth, setYear as setFsnYear } from 'date-fns';
 import addMonths from 'date-fns/addMonths';
 import endOfDay from 'date-fns/endOfDay';
 import format from 'date-fns/format';
@@ -245,6 +246,20 @@ const useRangeCalendar = ({
     });
   };
 
+  const setMonth = (month: number) => {
+    setDatesState({
+      ...datesState,
+      cursorDate: setFnsMonth(datesState.cursorDate, month),
+    });
+  };
+
+  const setYear = (year: number) => {
+    setDatesState({
+      ...datesState,
+      cursorDate: setFsnYear(datesState.cursorDate, year),
+    });
+  };
+
   const firstMonth = getMonthDays({
     date: datesState.cursorDate,
     weekStartsOn: config && config.weekStartsOn,
@@ -295,6 +310,8 @@ const useRangeCalendar = ({
     apply,
     reset,
     labels,
+    setMonth,
+    setYear,
   };
 };
 

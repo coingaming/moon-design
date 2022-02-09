@@ -1,6 +1,6 @@
 import React from 'react';
 import useRangeCalendar from './private/hooks/useRangeCalendar';
-import { Picker } from './private/Picker';
+import { Picker } from './private/picker/Picker';
 import type { DatesRange } from './private/helpers/getDatesFromRange';
 
 export type DatepickerState = {
@@ -88,6 +88,8 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
     apply,
     reset,
     labels,
+    setMonth,
+    setYear,
   } = useRangeCalendar({
     initialStartDate,
     initialEndDate,
@@ -118,6 +120,8 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
       onDateChange={onDateChange}
       apply={apply}
       reset={reset}
+      setMonth={setMonth}
+      setYear={setYear}
     />
   );
 };

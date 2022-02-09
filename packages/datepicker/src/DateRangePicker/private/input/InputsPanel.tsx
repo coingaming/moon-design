@@ -1,27 +1,16 @@
 import React from 'react';
-import { Button, TextInput } from '@heathmont/moon-components';
+// import { Button, TextInput } from '@heathmont/moon-components';
 import { mq, media } from '@heathmont/moon-utils';
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-import { RangeConfig, RangeTranslations } from '../RangeCalendar';
-import useInputsPanel from './hooks/useInputsPanel';
+import { RangeConfig, RangeTranslations } from '../../RangeCalendar';
+import useInputsPanel from '../hooks/useInputsPanel';
+import { TextInput } from '@heathmont/moon-core';
 
 const InputsPanelStyled = styled.div(({ theme }) => ({
   gridArea: 'inputs',
   display: 'flex',
-  flexDirection: 'column',
-  paddingTop: rem(theme.space.default),
-  [mq(theme.breakpoint.medium, 'max-width')]: {
-    '& > * + *': {
-      marginTop: rem(theme.space.default),
-    },
-  },
-  [media(theme.newTokens.breakpoint.medium)]: {
-    flexDirection: 'row',
-    '& > * + *': {
-      marginLeft: rem(theme.space.default),
-    },
-  },
+  flexDirection: 'row',
 }));
 
 const StyledTextInput = styled(TextInput)(({ theme: { newTokens } }) => ({
@@ -67,26 +56,22 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         {translations.reset}
       </Button> */}
       <StyledTextInput
-        error={hasStartDateError}
-        type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+        type="text" // type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+        inputSize="xlarge"
+        label="xlarge"
+        isError={!!hasStartDateError}
+        hintText={hasStartDateError}
         value={inputStartDate}
         onChange={handelStartDateChange}
       />
       <StyledTextInput
-        error={hasEndDateError}
-        type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+        type="text" // type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+        inputSize="xlarge"
+        isError={hasEndDateError}
+        hintText={hasStartDateError}
         value={inputEndDate}
         onChange={handelEndDateChange}
       />
-
-      <Button
-        variant="primary"
-        type="button"
-        onClick={apply}
-        disabled={!!hasStartDateError || !!hasEndDateError}
-      >
-        {translations.apply}
-      </Button>
     </InputsPanelStyled>
   );
 };
