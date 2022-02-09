@@ -5,7 +5,7 @@ exports[`Header renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Container-sc-8xp2tr-0 hhnOuf"
+    className="Container-sc-8xp2tr-0 dmmZfH"
   >
     <div
       className="Header__Label-sc-60uies-0 eCghJb"
@@ -24,7 +24,7 @@ exports[`Header renders with back button 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Container-sc-8xp2tr-0 hhnOuf"
+    className="Container-sc-8xp2tr-0 dmmZfH"
   >
     <div
       className="Header__BackButtonIcon-sc-60uies-2 bycTKs"
@@ -60,7 +60,7 @@ exports[`Header renders with close button 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Container-sc-8xp2tr-0 hhnOuf"
+    className="Container-sc-8xp2tr-0 dmmZfH"
   >
     <div
       className="Header__Label-sc-60uies-0 eCghJb"
@@ -97,7 +97,7 @@ exports[`Header renders with icons 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Container-sc-8xp2tr-0 hhnOuf"
+    className="Container-sc-8xp2tr-0 dmmZfH"
   >
     <div
       className="Header__Label-sc-60uies-0 eCghJb"
@@ -159,7 +159,7 @@ exports[`Header renders with is divider 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="Container-sc-8xp2tr-0 lgSJnS"
+    className="Container-sc-8xp2tr-0 oRkLm"
   >
     <div
       className="Header__Label-sc-60uies-0 eCghJb"

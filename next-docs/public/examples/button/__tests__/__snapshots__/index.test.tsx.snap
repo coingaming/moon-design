@@ -2,7 +2,7 @@
 
 exports[`Button renders "Full width" variant 1`] = `
 <button
-  className="sc-kjOQFR gtfxWe"
+  className="sc-kjOQFR ikGjOe"
   size="small"
   variant="primary"
 >
@@ -16,7 +16,7 @@ exports[`Button renders "Full width" variant 1`] = `
 
 exports[`Button renders Default variant 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   size="small"
   variant="primary"
 >
@@ -30,7 +30,7 @@ exports[`Button renders Default variant 1`] = `
 
 exports[`Button renders Primary variant 1`] = `
 <button
-  className="sc-kjOQFR dJszzh"
+  className="sc-kjOQFR bYtfKl"
   size="small"
   variant="primary"
 >
@@ -44,7 +44,7 @@ exports[`Button renders Primary variant 1`] = `
 
 exports[`Button renders Secondary variant 1`] = `
 <button
-  className="sc-kjOQFR bAyggL"
+  className="sc-kjOQFR cYXzRr"
   size="small"
   variant="secondary"
 >
@@ -58,7 +58,7 @@ exports[`Button renders Secondary variant 1`] = `
 
 exports[`Button renders Tertiary variant 1`] = `
 <button
-  className="sc-kjOQFR iPeOoP"
+  className="sc-kjOQFR bwtfyr"
   size="small"
   variant="tertiary"
 >
@@ -75,7 +75,7 @@ exports[`Button renders different animations 1`] = `
   className="flex justify-around w-full"
 >
   <button
-    className="sc-kjOQFR dJszzh"
+    className="sc-kjOQFR bYtfKl"
     size="small"
     variant="primary"
   >
@@ -113,20 +113,20 @@ exports[`Button renders different animations 1`] = `
             role="progressbar"
           >
             <span
-              className="Loader__LoaderRing-vzi49y-1 esYSrk"
-              color="#FFFFFF"
+              className="Loader__LoaderRing-vzi49y-1 iqAYNY"
+              color="#ffffff"
             />
             <span
-              className="Loader__LoaderRing-vzi49y-1 eIdQWm"
-              color="#FFFFFF"
+              className="Loader__LoaderRing-vzi49y-1 iFFXta"
+              color="#ffffff"
             />
             <span
-              className="Loader__LoaderRing-vzi49y-1 jHPTYJ"
-              color="#FFFFFF"
+              className="Loader__LoaderRing-vzi49y-1 gwIJAJ"
+              color="#ffffff"
             />
             <span
-              className="Loader__LoaderRing-vzi49y-1 dOEVqm"
-              color="#FFFFFF"
+              className="Loader__LoaderRing-vzi49y-1 hMhbNa"
+              color="#ffffff"
             />
           </strong>
         </div>
@@ -134,7 +134,7 @@ exports[`Button renders different animations 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR dJszzh"
+    className="sc-kjOQFR bYtfKl"
     size="small"
     variant="primary"
   >
@@ -185,7 +185,7 @@ exports[`Button renders different animations 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR iXpQOb"
+    className="sc-kjOQFR hMuTBv"
     oops={true}
     size="small"
     variant="primary"
@@ -197,7 +197,7 @@ exports[`Button renders different animations 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR erVnZG"
+    className="sc-kjOQFR icJWdW"
     pulse={true}
     size="small"
     variant="primary"
@@ -216,7 +216,7 @@ exports[`Button renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-kjOQFR cpdeYG"
+    className="sc-kjOQFR cJfyMq"
     size="xsmall"
     variant="primary"
   >
@@ -227,7 +227,7 @@ exports[`Button renders different sizes 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR dJszzh"
+    className="sc-kjOQFR bYtfKl"
     size="small"
     variant="primary"
   >
@@ -238,7 +238,7 @@ exports[`Button renders different sizes 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR hQzKvG"
+    className="sc-kjOQFR ZYhnq"
     size="medium"
     variant="primary"
   >
@@ -249,7 +249,7 @@ exports[`Button renders different sizes 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR jysHLl"
+    className="sc-kjOQFR eorCWF"
     size="large"
     variant="primary"
   >
@@ -267,7 +267,7 @@ exports[`Button renders leading and trailing icons 1`] = `
   className="flex justify-around w-full"
 >
   <button
-    className="sc-kjOQFR iPJWkJ"
+    className="sc-kjOQFR kVpnSR"
     size="small"
     variant="primary"
   >
@@ -298,7 +298,7 @@ exports[`Button renders leading and trailing icons 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR hTjxUO"
+    className="sc-kjOQFR eFNFuW"
     size="small"
     variant="primary"
   >
@@ -336,7 +336,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-kjOQFR lfRcBj"
+    className="sc-kjOQFR jvzcTH"
     isIcon={true}
     size="xsmall"
     variant="primary"
@@ -361,7 +361,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR fECbpH"
+    className="sc-kjOQFR hDivaT"
     isIcon={true}
     size="small"
     variant="primary"
@@ -386,7 +386,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR bttsDK"
+    className="sc-kjOQFR jHXDrK"
     isIcon={true}
     size="medium"
     variant="primary"
@@ -411,7 +411,7 @@ exports[`Button renders rounded "isIcon" variant 1`] = `
     </div>
   </button>
   <button
-    className="sc-kjOQFR dIscOO"
+    className="sc-kjOQFR iOzxNm"
     isIcon={true}
     size="large"
     variant="primary"

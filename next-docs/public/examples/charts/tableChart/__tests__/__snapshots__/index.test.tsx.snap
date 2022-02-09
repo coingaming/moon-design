@@ -5,7 +5,7 @@ exports[`Table Chart renders 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -16,7 +16,7 @@ exports[`Table Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 tqHMB"
+        className="Panel__Button-wbwz0d-0 gZeqaJ"
         onClick={[Function]}
       >
         <svg
@@ -37,7 +37,7 @@ exports[`Table Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -63,7 +63,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -224,7 +224,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -237,11 +237,11 @@ exports[`Table Chart renders 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -277,7 +277,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             1
           </span>
@@ -319,7 +319,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             2
           </span>
@@ -349,7 +349,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             3
           </span>
@@ -379,7 +379,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             4
           </span>
@@ -409,7 +409,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             5
           </span>
@@ -438,7 +438,7 @@ exports[`Table Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -449,7 +449,7 @@ exports[`Table Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <strong
@@ -457,26 +457,26 @@ exports[`Table Chart renders 1`] = `
           role="progressbar"
         >
           <span
-            className="Loader__LoaderRing-vzi49y-1 kBigfx"
+            className="Loader__LoaderRing-vzi49y-1 kCYcjh"
             color="piccolo.100"
           />
           <span
-            className="Loader__LoaderRing-vzi49y-1 eEKZgb"
+            className="Loader__LoaderRing-vzi49y-1 eGAVjL"
             color="piccolo.100"
           />
           <span
-            className="Loader__LoaderRing-vzi49y-1 dFfiMM"
+            className="Loader__LoaderRing-vzi49y-1 iKIKmU"
             color="piccolo.100"
           />
           <span
-            className="Loader__LoaderRing-vzi49y-1 leVCFT"
+            className="Loader__LoaderRing-vzi49y-1 lgLyJD"
             color="piccolo.100"
           />
         </strong>
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -502,7 +502,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -690,7 +690,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -703,11 +703,11 @@ exports[`Table Chart renders 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -743,7 +743,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             1
           </span>
@@ -798,7 +798,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             2
           </span>
@@ -869,7 +869,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             3
           </span>
@@ -918,7 +918,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             4
           </span>
@@ -969,7 +969,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             5
           </span>
@@ -1021,7 +1021,7 @@ exports[`Table Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -1032,7 +1032,7 @@ exports[`Table Chart renders 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1053,7 +1053,7 @@ exports[`Table Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1079,7 +1079,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1261,7 +1261,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -1274,11 +1274,11 @@ exports[`Table Chart renders 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -1314,7 +1314,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             1
           </span>
@@ -1355,7 +1355,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="Text-oby56-0 ecUdUm"
+                className="Text-oby56-0 dYORlO"
                 color="trunks.100"
                 size={12}
               >
@@ -1379,7 +1379,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             2
           </span>
@@ -1420,7 +1420,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="Text-oby56-0 ecUdUm"
+                className="Text-oby56-0 dYORlO"
                 color="trunks.100"
                 size={12}
               >
@@ -1444,7 +1444,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             3
           </span>
@@ -1485,7 +1485,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="Text-oby56-0 ecUdUm"
+                className="Text-oby56-0 dYORlO"
                 color="trunks.100"
                 size={12}
               >
@@ -1509,7 +1509,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             4
           </span>
@@ -1550,7 +1550,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="Text-oby56-0 ecUdUm"
+                className="Text-oby56-0 dYORlO"
                 color="trunks.100"
                 size={12}
               >
@@ -1574,7 +1574,7 @@ exports[`Table Chart renders 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             5
           </span>
@@ -1615,7 +1615,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="Text-oby56-0 ecUdUm"
+                className="Text-oby56-0 dYORlO"
                 color="trunks.100"
                 size={12}
               >
@@ -1650,7 +1650,7 @@ exports[`Table Chart renders Active 1`] = `
   }
 >
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -1661,7 +1661,7 @@ exports[`Table Chart renders Active 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1682,7 +1682,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1708,7 +1708,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -1871,7 +1871,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -1884,11 +1884,11 @@ exports[`Table Chart renders Active 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -1924,7 +1924,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             1
           </span>
@@ -1954,7 +1954,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             2
           </span>
@@ -1984,7 +1984,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             3
           </span>
@@ -2014,7 +2014,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             4
           </span>
@@ -2044,7 +2044,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             5
           </span>
@@ -2073,7 +2073,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 kWCtZW"
+    className="Panel__Container-wbwz0d-1 ezexTO"
     style={
       Object {
         "height": 446,
@@ -2084,7 +2084,7 @@ exports[`Table Chart renders Active 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2105,7 +2105,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2131,7 +2131,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2150,7 +2150,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
     </div>
     <div
-      className="Header__Container-sc-1xmu29o-3 cLhpts"
+      className="Header__Container-sc-1xmu29o-3 CvtWU"
     >
       <div
         className="Header__IconWrapper-sc-1xmu29o-1 dfUUnp"
@@ -2293,7 +2293,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -2306,11 +2306,11 @@ exports[`Table Chart renders Active 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -2336,7 +2336,7 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="TableChart__Container-be8cx6-1 fOAgzL"
+      className="TableChart__Container-be8cx6-1 dfVMpT"
     >
       <div
         className="Table-sc-1ygp5ew-1 cvyoIy"
@@ -2346,7 +2346,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             1
           </span>
@@ -2376,7 +2376,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             2
           </span>
@@ -2406,7 +2406,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             3
           </span>
@@ -2436,7 +2436,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             4
           </span>
@@ -2466,7 +2466,7 @@ exports[`Table Chart renders Active 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             5
           </span>
@@ -2502,7 +2502,7 @@ exports[`Table Chart renders Loading 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -2513,7 +2513,7 @@ exports[`Table Chart renders Loading 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2534,7 +2534,7 @@ exports[`Table Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2560,7 +2560,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2723,7 +2723,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -2736,11 +2736,11 @@ exports[`Table Chart renders Loading 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -2808,7 +2808,7 @@ exports[`Table Chart renders Loading 1`] = `
         />
       </svg>
       <p
-        className="Text-sc-3hujzp-0 Loader__Title-sc-70sa6l-0 hYujUk frXYlL"
+        className="Text-sc-3hujzp-0 Loader__Title-sc-70sa6l-0 jqooXE frXYlL"
         color="trunks.100"
         size={14}
       >
@@ -2817,7 +2817,7 @@ exports[`Table Chart renders Loading 1`] = `
     </div>
   </div>
   <div
-    className="Panel__Container-wbwz0d-1 kCdMLt"
+    className="Panel__Container-wbwz0d-1 iDwAaa"
     style={
       Object {
         "height": 446,
@@ -2828,7 +2828,7 @@ exports[`Table Chart renders Loading 1`] = `
       className="Panel__Header-wbwz0d-2 ecXBgF"
     >
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2849,7 +2849,7 @@ exports[`Table Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -2875,7 +2875,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="Panel__Button-wbwz0d-0 kXJQeP"
+        className="Panel__Button-wbwz0d-0 fXUeMH"
         onClick={[Function]}
       >
         <svg
@@ -3038,7 +3038,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy iGiFUW"
+        className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
         color="bulma.100"
         size={20}
       >
@@ -3051,11 +3051,11 @@ exports[`Table Chart renders Loading 1`] = `
           className="Filter__Container-eamt9m-2 hGLKAV"
         >
           <button
-            className="Filter__Toggle-eamt9m-1 etcOT"
+            className="Filter__Toggle-eamt9m-1 bXvbun"
             onClick={[Function]}
           >
             <p
-              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX hDaTJb"
+              className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
               color="bulma.100"
               size={14}
             >
@@ -3091,7 +3091,7 @@ exports[`Table Chart renders Loading 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             1
           </span>
@@ -3121,7 +3121,7 @@ exports[`Table Chart renders Loading 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             2
           </span>
@@ -3151,7 +3151,7 @@ exports[`Table Chart renders Loading 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             3
           </span>
@@ -3181,7 +3181,7 @@ exports[`Table Chart renders Loading 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             4
           </span>
@@ -3211,7 +3211,7 @@ exports[`Table Chart renders Loading 1`] = `
           opacity={0}
         >
           <span
-            className="Table__Count-sc-1ygp5ew-3 fwWVby"
+            className="Table__Count-sc-1ygp5ew-3 dQrMRG"
           >
             5
           </span>
