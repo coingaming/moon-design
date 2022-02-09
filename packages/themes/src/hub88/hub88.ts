@@ -49,7 +49,7 @@ const colorNew = {
   gohan: '#ffffff',
   bulma: '#010913',
   trunks: '#8697a2',
-  goten: '#FFFFFF',
+  goten: '#ffffff',
   popo: '#000000',
 };
 

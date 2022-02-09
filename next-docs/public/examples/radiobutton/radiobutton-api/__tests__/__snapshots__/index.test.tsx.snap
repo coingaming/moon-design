@@ -17,7 +17,7 @@ exports[`Radiobutton API renders 1`] = `
       id="age1"
     >
       <div
-        className="Container-sc-1vcdan4-0 kMWkzu"
+        className="Container-sc-1vcdan4-0 kAVywW"
       >
         <div
           className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
@@ -29,13 +29,13 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
             id="age1"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
           />
         </span>
       </div>
@@ -49,7 +49,7 @@ exports[`Radiobutton API renders 1`] = `
       id="age2"
     >
       <div
-        className="Container-sc-1vcdan4-0 kMWkzu"
+        className="Container-sc-1vcdan4-0 kAVywW"
       >
         <div
           className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
@@ -61,13 +61,13 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
             id="age2"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
           />
         </span>
       </div>
@@ -81,7 +81,7 @@ exports[`Radiobutton API renders 1`] = `
       id="age3"
     >
       <div
-        className="Container-sc-1vcdan4-0 kMWkzu"
+        className="Container-sc-1vcdan4-0 kAVywW"
       >
         <div
           className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
@@ -93,13 +93,13 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="61 - 100"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 iOcFgB"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
             id="age3"
             name="age"
             type="radio"
           />
           <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 ihBbKs"
+            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
           />
         </span>
       </div>

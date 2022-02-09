@@ -12,19 +12,19 @@ exports[`TextInput: type Number renders disabled 1`] = `
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 hVWtii"
+        className="Input-qkdgvx-0 imZjWF"
         disabled={true}
         placeholder=" "
         type="number"
         value="123"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -39,19 +39,19 @@ exports[`TextInput: type Number renders disabled 1`] = `
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 lmrkHt"
+        className="Input-qkdgvx-0 fwyQGW"
         disabled={true}
         placeholder=" "
         type="number"
         value="123"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -66,23 +66,23 @@ exports[`TextInput: type Number renders disabled 1`] = `
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 jvXSNE"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eSKDDE"
+          className="Input-qkdgvx-0 joAZgk"
           disabled={true}
           placeholder=" "
           type="number"
           value="123"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -103,17 +103,17 @@ exports[`TextInput: type Number renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 gBNlvE"
+        className="Input-qkdgvx-0 cCFMYn"
         placeholder="e.g. 1234"
         type="number"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 heGnbI"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -127,17 +127,17 @@ exports[`TextInput: type Number renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 gNwNxr"
+        className="Input-qkdgvx-0 cLXtPM"
         placeholder="e.g. 1234"
         type="number"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 heGnbI"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -151,21 +151,21 @@ exports[`TextInput: type Number renders error 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 jvXSNE"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 fkozEW"
+          className="Input-qkdgvx-0 kfsfAW"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 heGnbI"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -186,19 +186,19 @@ exports[`TextInput: type Number renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 hVWtii"
+        className="Input-qkdgvx-0 imZjWF"
         placeholder=" "
         readOnly={true}
         type="number"
         value="1234"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -212,19 +212,19 @@ exports[`TextInput: type Number renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 lmrkHt"
+        className="Input-qkdgvx-0 fwyQGW"
         placeholder=" "
         readOnly={true}
         type="number"
         value="1234"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -238,23 +238,23 @@ exports[`TextInput: type Number renders readOnly 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 jvXSNE"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eSKDDE"
+          className="Input-qkdgvx-0 joAZgk"
           placeholder=" "
           readOnly={true}
           type="number"
           value="1234"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -275,17 +275,17 @@ exports[`TextInput: type Number renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 hVWtii"
+        className="Input-qkdgvx-0 imZjWF"
         placeholder="e.g. 1234"
         type="number"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -299,17 +299,17 @@ exports[`TextInput: type Number renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 lmrkHt"
+        className="Input-qkdgvx-0 fwyQGW"
         placeholder="e.g. 1234"
         type="number"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -323,21 +323,21 @@ exports[`TextInput: type Number renders with hint 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 jvXSNE"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eSKDDE"
+          className="Input-qkdgvx-0 joAZgk"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -358,12 +358,12 @@ exports[`TextInput: type Number renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 hVWtii"
+        className="Input-qkdgvx-0 imZjWF"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -376,12 +376,12 @@ exports[`TextInput: type Number renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 lmrkHt"
+        className="Input-qkdgvx-0 fwyQGW"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -394,15 +394,15 @@ exports[`TextInput: type Number renders with label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 jvXSNE"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eSKDDE"
+          className="Input-qkdgvx-0 joAZgk"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
@@ -423,7 +423,7 @@ exports[`TextInput: type Number renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 hVWtii"
+        className="Input-qkdgvx-0 imZjWF"
         placeholder="medium e.g. 1234"
         type="number"
       />
@@ -436,7 +436,7 @@ exports[`TextInput: type Number renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 lmrkHt"
+        className="Input-qkdgvx-0 fwyQGW"
         placeholder="large e.g. 1234"
         type="number"
       />
@@ -449,15 +449,15 @@ exports[`TextInput: type Number renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 jvXSNE"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 hHNbGB"
+          className="Input-qkdgvx-0 cpNWfh"
           placeholder="xlarge e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         />
       </div>
     </div>
@@ -476,17 +476,17 @@ exports[`TextInput: type Number supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 cMVclH"
+        className="Input-qkdgvx-0 dyxyPO"
         placeholder="e.g. 1234"
         type="number"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -500,17 +500,17 @@ exports[`TextInput: type Number supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 fGPqtd"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 dhjpSI"
+        className="Input-qkdgvx-0 egLJFh"
         placeholder="e.g. 1234"
         type="number"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -524,21 +524,21 @@ exports[`TextInput: type Number supports background colour 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 hYWLpt"
+        className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 eSKDDE"
+          className="Input-qkdgvx-0 joAZgk"
           placeholder="e.g. 1234"
           type="number"
         />
         <label
-          className="LabelInner-vrrjt0-0 deQKxJ"
+          className="LabelInner-vrrjt0-0 kulgvR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 dfhEvA"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
