@@ -101,7 +101,7 @@ export default function PageNumberInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {
