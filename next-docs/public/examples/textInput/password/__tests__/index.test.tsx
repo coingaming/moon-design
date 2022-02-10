@@ -5,7 +5,6 @@
 import React from 'react';
 import renderer, { act } from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import PasswordWithLabel from '../PasswordWithLabel';
 import PasswordWithoutLabel from '../PasswordWithoutLabel';
 import PasswordWithHint from '../PasswordWithHint';

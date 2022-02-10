@@ -1,8 +1,8 @@
 import React from 'react';
+import { Button } from '@heathmont/moon-components';
+import { rem, media } from '@heathmont/moon-utils';
 import ReactPaginate from 'react-paginate';
 import styled from 'styled-components';
-import { rem, mq } from '@heathmont/moon-utils';
-import { Button } from '@heathmont/moon-components';
 
 type PaginationProps = {
   previousButtonLabel: string | JSX.Element;
@@ -23,7 +23,7 @@ const PaginationWrapper = styled.div(({ theme }) => ({
   justifyContent: 'space-between',
   flexWrap: 'wrap',
   flexDirection: 'column',
-  [mq(theme.breakpoint.medium)]: {
+  [media(theme.newTokens.breakpoint.medium)]: {
     flexDirection: 'row',
   },
 }));
@@ -39,7 +39,7 @@ const ReactPaginateWrapper = styled.div(({ theme }): any => ({
   alignItems: 'center',
   justifyContent: 'center',
   flexDirection: 'column',
-  [mq(theme.breakpoint.medium)]: {
+  [media(theme.newTokens.breakpoint.medium)]: {
     width: 'auto',
     flexDirection: 'row',
   },
@@ -50,7 +50,7 @@ const ReactPaginateWrapper = styled.div(({ theme }): any => ({
     justifyContent: 'center',
     margin: rem(10),
     flexWrap: 'wrap',
-    [mq(theme.breakpoint.medium)]: {
+    [media(theme.newTokens.breakpoint.medium)]: {
       flexWrap: 'nowrap',
     },
     '& > li:not(.previous):not(.next)': {
@@ -77,21 +77,21 @@ const ReactPaginateWrapper = styled.div(({ theme }): any => ({
       textAlign: 'center',
     },
     '& > .previous': {
-      [mq(theme.breakpoint.medium)]: {
+      [media(theme.newTokens.breakpoint.medium)]: {
         margin: `0 ${rem(10)} 0 0`,
       },
     },
     '& > .next': {
-      [mq(theme.breakpoint.medium)]: {
+      [media(theme.newTokens.breakpoint.medium)]: {
         margin: `0 0 0 ${rem(10)}`,
       },
     },
     '& > .disabled': {
       'button, button:hover': {
         cursor: 'default',
-        color: theme.color.trunks[100],
+        color: theme.colorNew.trunks,
         background: 'none',
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
       },
     },
   },

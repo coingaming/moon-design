@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { ListboxButton, ListboxButtonProps } from '@reach/listbox';
+import styled from 'styled-components';
 
 interface ListboxButtonWrapperProps extends ListboxButtonProps {
   disabled?: boolean;
@@ -13,7 +13,7 @@ interface ListboxButtonWrapperProps extends ListboxButtonProps {
 
 const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
   ({
-    theme: { border, color, radius, transitionDuration },
+    theme: { colorNew, newTokens },
     disabled,
     isexpanded,
     inputsize,
@@ -24,28 +24,26 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      backgroundColor: color.gohan[100],
+      backgroundColor: colorNew.gohan,
       padding: inputsize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
-      border: border,
-      borderColor: color.gohan[100],
-      borderRadius: rem(radius.largest),
-      transition: `border-color ${transitionDuration.default}s ease`,
+      boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
+      borderRadius: newTokens.borderRadius.large,
+      transition: `box-shadow ${newTokens.transition.default}`,
       WebkitAppearance: 'none',
       cursor: 'pointer',
-
       '&:focus-visible, &:focus-visible ul': {
         outline: 'none',
       },
       '&:hover:enabled, &:focus:enabled': {
         cursor: 'pointer',
-        borderColor: color.piccolo[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       },
       '&:focus:not([disabled])': {
         outline: 'none',
-        borderColor: color.piccolo[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.beerus[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.beerus} inset`,
       },
       '@supports (-moz-appearance:none)': {
         lineHeight: rem(24),
@@ -55,21 +53,21 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       padding: `${rem(7)} ${rem(15)}`,
     },
     isexpanded && {
-      borderColor: color.piccolo[100],
+      boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.piccolo[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.piccolo} inset`,
       },
       '& span[data-reach-listbox-arrow]': {
         transform: 'rotate(180deg)',
       },
     },
     error && {
-      borderColor: color.chiChi[100],
+      boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
       '&:focus:not([disabled])': {
-        borderColor: color.chiChi[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
       },
       '&:hover:not(:focus):not([disabled])': {
-        borderColor: color.chiChi[100],
+        boxShadow: `0 0 0 ${rem(2)} ${colorNew.chiChi[100]} inset`,
       },
     },
     disabled && {

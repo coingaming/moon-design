@@ -1,6 +1,8 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
@@ -39,6 +41,18 @@ const color = {
   },
 };
 
+const colorNew = {
+  piccolo: '#d49649',
+  hit: '#ffffff',
+  beerus: '#f0f0f0',
+  goku: '#ffffff',
+  gohan: '#f3f3f2',
+  bulma: '#000000',
+  trunks: '#939aae',
+  goten: '#ffffff',
+  popo: '#000000',
+};
+
 const tajCasinoLight: Theme = {
   ...sharedTokens,
   brand: 'Tajcasino',
@@ -54,11 +68,16 @@ const tajCasinoLight: Theme = {
     ...supportColors,
     ...color,
   },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
+  },
   radius: {
     small: 4,
     default: 8,
     largest: 8,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
 

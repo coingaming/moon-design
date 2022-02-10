@@ -1,13 +1,18 @@
-import styled from 'styled-components';
-import hideVisually from 'polished/lib/mixins/hideVisually';
 import { rem, mq } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
+
+type Props = {
+  isRtl?: boolean;
+};
 
 /**
  * 1. Arbitrary number to meet with Figma designs, between small and x-small.
  * 2. Flip the indicator on the right, rather than use another SVG import.
  */
-export const CarouselControl = styled.button<any>(
+export const CarouselControl = styled.button<Props>(
   ({
+    isRtl,
     theme: {
       color,
       border,
@@ -35,14 +40,21 @@ export const CarouselControl = styled.button<any>(
     textDecoration: 'none',
     cursor: 'pointer',
     position: 'absolute',
-    left: '-14px',
+    ...(isRtl ? { right: rem(-0.875) } : { left: rem(-0.875) }),
     top: '50%',
     transform: 'translateY(-50%)',
     transformOrigin: 'top center',
     zIndex: zIndex.carouselControl,
     '&:last-child': {
-      left: 'auto',
-      right: '-14px',
+      ...(isRtl
+        ? {
+            left: rem(-0.875),
+            right: 'auto',
+          }
+        : {
+            left: 'auto',
+            right: rem(-0.875),
+          }),
       svg: {
         transform: 'rotate(180deg) ' /* [2] */,
       },

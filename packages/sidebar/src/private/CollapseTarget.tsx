@@ -1,11 +1,20 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-export const CollapseTarget = styled.div<{ isOpen: boolean }>(
-  ({ isOpen, theme: { space, color, transitionDuration, boxShadow } }) => ({
+type Props = {
+  isRtl?: boolean;
+  isOpen: boolean;
+};
+
+export const CollapseTarget = styled.div<Props>(
+  ({
+    isOpen,
+    isRtl,
+    theme: { space, colorNew, transitionDuration, boxShadow },
+  }) => ({
     fontSize: rem(space.small),
     padding: rem(space.small),
-    background: color.gohan[100],
+    background: colorNew.gohan,
     transitionProperty: 'opacity color',
     transitionTimingFunction: 'ease-in-out',
     transitionDuration: `${transitionDuration.slow}s`,
@@ -16,19 +25,19 @@ export const CollapseTarget = styled.div<{ isOpen: boolean }>(
     cursor: 'pointer',
     opacity: isOpen ? 0 : 1,
     boxShadow,
-    color: color.trunks[100],
+    color: colorNew.trunks,
     '&:hover': {
-      color: color.piccolo[100],
+      color: colorNew.piccolo,
     },
     ...(isOpen
       ? {
           position: 'absolute',
           top: rem(space.large),
           transform: 'translateY(-50%)',
-          right: 0,
+          ...(isRtl ? { left: 0 } : { right: 0 }),
         }
       : {
-          marginLeft: rem(space.small),
+          marginInlineEnd: rem(space.small),
         }),
   })
 );

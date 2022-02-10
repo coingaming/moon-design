@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import classNames from '../../utils/classNames';
 import PreviewSwitch from './Switch';
 

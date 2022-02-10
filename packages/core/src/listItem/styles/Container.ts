@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type Props = {
   color?: ColorProps;
@@ -13,7 +13,7 @@ type Props = {
 };
 
 const Container = styled.div<Props>(
-  ({ theme: { radius }, isMeta }) => ({
+  ({ theme: { newTokens }, isMeta }) => ({
     display: 'grid',
     width: '100%',
     gridTemplateAreas: isMeta
@@ -29,14 +29,14 @@ const Container = styled.div<Props>(
     justifyContent: 'space-between',
     alignItems: 'center',
     lineHeight: rem(24),
-    borderRadius: rem(radius.default),
+    borderRadius: newTokens.borderRadius.medium,
   }),
   ({ size }) => ({
     fontSize: size === 'medium' ? rem(14) : rem(16),
     padding: size === 'medium' ? `${rem(8)}` : rem(12),
   }),
   ({ color, backgroundColor, theme }) => ({
-    color: color ? themed('color', color)(theme) : theme.color.bulma[100],
+    color: color ? themed('color', color)(theme) : theme.colorNew.bulma,
     backgroundColor: themed('color', backgroundColor)(theme),
   })
 );

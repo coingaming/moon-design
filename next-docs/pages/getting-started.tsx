@@ -70,16 +70,16 @@ export const App = () => (
 
 const Example = styled.div(({ theme }) => ({
   display: 'block',
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
   padding: theme.space.default,
 }));
 `}</CodeSnippet>
         <Text>Or alternatively, destructure the theme properties…</Text>
         <CodeSnippet>{`import styled from 'styled-components';
 
-const Example = styled.div(({ theme: { color, space } }) => ({
+const Example = styled.div(({ theme: { colorNew, space } }) => ({
   display: 'block',
-  color: color.bulma[100],
+  color: colorNew.bulma,
   padding: space.default,
 }));
 `}</CodeSnippet>

@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 // const pages = [
 //   { name: 'Projects', href: '#', current: false },
@@ -14,7 +14,7 @@ export default function Breadcrumbs() {
     return null;
   }
   return (
-    <nav className="flex" aria-label="Breadcrumb">
+    <nav className="breadcrumbs flex" aria-label="Breadcrumb">
       <ol className="flex flex-wrap items-center space-x-4">
         <li>
           <div className="flex items-center">
@@ -27,7 +27,7 @@ export default function Breadcrumbs() {
         </li>
         {pages.length > 0 &&
           pages.map((page, index) => (
-            <li key={page + index}>
+            <li key={page + index} className="ms-3">
               <div className="flex items-center">
                 <svg
                   className="flex-shrink-0 h-5 w-5 text-gray-500"
@@ -47,7 +47,7 @@ export default function Breadcrumbs() {
 
                 <a
                   href="#"
-                  className="ml-3 text-sm leading-4 text-gray-500 hover:text-gray-700"
+                  className="ms-3 text-sm leading-4 text-gray-500 hover:text-gray-700"
                   // aria-current={page.current ? 'page' : undefined}
                 >
                   {page && page[0].toUpperCase() + page.slice(1)}

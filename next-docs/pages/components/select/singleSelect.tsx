@@ -1,106 +1,79 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import Default from '../../../public/examples/select/singleSelect/Default';
-import Label from '../../../public/examples/select/singleSelect/Label';
-import Placeholders from '../../../public/examples/select/singleSelect/Placeholders';
-import Secondary from '../../../public/examples/select/singleSelect/Secondary';
-import Hint from '../../../public/examples/select/singleSelect/Hint';
-import OptionsAsList from '../../../public/examples/select/singleSelect/OptionsAsList';
-import OptionsAsList2 from '../../../public/examples/select/singleSelect/OptionsAsList2';
-import OptionsAsList3 from '../../../public/examples/select/singleSelect/OptionsAsList3';
-import Disabled from '../../../public/examples/select/singleSelect/Disabled';
-import InputSize from '../../../public/examples/select/singleSelect/InputSize';
-import DefaultValue from '../../../public/examples/select/singleSelect/DefaultValue';
-import Ssr from '../../../public/examples/select/singleSelect/Ssr';
-import Slot from '../../../public/examples/select/singleSelect/Slot';
-
+import Disabled from '../../../public/examples/select/singleReactSelect/Disabled';
+import Error from '../../../public/examples/select/singleReactSelect/Error';
+import Hint from '../../../public/examples/select/singleReactSelect/Hint';
+import ListWidth from '../../../public/examples/select/singleReactSelect/ListWidth';
+import Options from '../../../public/examples/select/singleReactSelect/Options';
+import OptionsContent from '../../../public/examples/select/singleReactSelect/OptionsContent';
+import WithLabel from '../../../public/examples/select/singleReactSelect/WithLabel';
+import WithoutLabel from '../../../public/examples/select/singleReactSelect/WithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
-export default function PageSelectSingle() {
-  const examples = useExamples('select/singleSelect');
+export default function PageSelect() {
+  const examples = useExamples('select/singleReactSelect');
 
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">SingleSelect</h1>
+        <h1 className="text-5xl font-semibold">Select</h1>
         <p className="text-lg mt-4">
-          SingleSelect presents a list of selecteble options and allows a user
-          to select one of them.
+          This Select based on react-select library.
+        </p>
+        <p className="text-lg mt-4">
+          Select components are used for collecting user provided information
+          from a list of options.
+        </p>
+        <p className="text-lg mt-4">
+          Select has two sizes with a different views:
+          <b> large</b> (by default) and <b>xLarge</b>. Large size has label
+          outside input, xLarge has label inside the input.
         </p>
       </section>
 
-      {/* Default */}
+      {/* WithLabel */}
       <section className="mt-8">
         <Preview
-          title="Primary"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
+          title="Size"
+          preview={<WithLabel />}
+          code={examples ? examples.WithLabel : 'Loading'}
         />
       </section>
 
-      {/* with Label */}
+      {/*Options*/}
       <section className="mt-8">
         <Preview
-          title="Primary with Label"
-          preview={<Label />}
-          code={examples ? examples.Label : 'Loading'}
+          title="List options"
+          preview={<Options />}
+          code={examples ? examples.Options : 'Loading'}
         />
       </section>
 
-      {/*Placeholder*/}
+      {/* OptionsContent */}
       <section className="mt-8">
         <Preview
-          title="Primary with placeholder"
-          preview={<Placeholders />}
-          code={examples ? examples.Placeholders : 'Loading'}
+          title="Options Content"
+          preview={<OptionsContent />}
+          code={examples ? examples.OptionsContent : 'Loading'}
         />
       </section>
 
-      {/* Secondary */}
+      {/* Hint */}
       <section className="mt-8">
         <Preview
-          title="Secondary with inner label and placeholder"
-          preview={<Secondary />}
-          code={examples ? examples.Secondary : 'Loading'}
-        />
-      </section>
-
-      {/* with Hint */}
-      <section className="mt-8">
-        <Preview
-          title="With Hint Text and error"
+          title="Hint message"
           preview={<Hint />}
           code={examples ? examples.Hint : 'Loading'}
         />
       </section>
 
-      {/* Options as ListItem component */}
+      {/*Error*/}
       <section className="mt-8">
         <Preview
-          title="A selectable option as component"
-          preview={<OptionsAsList />}
-          code={examples ? examples.OptionsAsList : 'Loading'}
-        />
-      </section>
-
-      {/* Options as ListItem component */}
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<OptionsAsList2 />}
-          code={examples ? examples.OptionsAsList2 : 'Loading'}
-        />
-      </section>
-
-      {/* Options as ListItem component */}
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<OptionsAsList3 />}
-          code={examples ? examples.OptionsAsList3 : 'Loading'}
+          title="Error"
+          preview={<Error />}
+          code={examples ? examples.Error : 'Loading'}
         />
       </section>
 
@@ -113,188 +86,119 @@ export default function PageSelectSingle() {
         />
       </section>
 
-      {/* inputSize */}
+      {/* WithoutLabel */}
       <section className="mt-8">
         <Preview
-          title="Input size (small by default)"
-          preview={<InputSize />}
-          code={examples ? examples.InputSize : 'Loading'}
+          title="Without label"
+          preview={<WithoutLabel />}
+          code={examples ? examples.WithoutLabel : 'Loading'}
         />
       </section>
 
-      {/* With defaultValue */}
+      {/* WithoutLabel */}
       <section className="mt-8">
         <Preview
-          title="With default value"
-          preview={<DefaultValue />}
-          code={examples ? examples.DefaultValue : 'Loading'}
-        />
-      </section>
-
-      {/* SSR */}
-      <section className="mt-8">
-        <Preview
-          title="SSR"
-          preview={<Ssr />}
-          code={examples ? examples.Ssr : 'Loading'}
-        />
-      </section>
-
-      {/* Witn Search slot*/}
-      <section className="mt-8">
-        <Preview
-          title="Slot props"
-          preview={<Slot />}
-          code={examples ? examples.Slot : 'Loading'}
+          title="List options width"
+          preview={<ListWidth />}
+          code={examples ? examples.ListWidth : 'Loading'}
         />
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for SingleSelect component</h2>
+        <h2 className="text-2xl mb-4">Props</h2>
         <Table
           data={[
             {
-              name: 'options',
-              type: 'Option[]',
-              required: true,
-              default: '-',
-              description: 'Option for the listbox',
-            },
-            {
-              name: 'variant',
-              type: 'primary | secondary',
-              required: true,
-              default: '-',
-              description: 'Different variant of single select',
-            },
-            {
-              name: 'disabled',
-              type: 'boolean',
+              name: 'size',
+              type: 'large | xLarge',
               required: false,
-              default: 'false',
-              description:
-                'This Boolean attribute indicates that the user cannot interact with the control',
-            },
-            {
-              name: 'inputSize',
-              type: 'small | medium',
-              required: false,
-              default: 'small',
-              description: 'Size of input',
-            },
-            {
-              name: 'defaultValue',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'The default value of an uncontrolled listbox',
-            },
-            {
-              name: 'controlledValue',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'The default value of an controlled listbox',
-            },
-            {
-              name: 'onChange',
-              type: 'func',
-              required: false,
-              default: '-',
-              description:
-                'The callback that fires when the listbox value changes.',
-            },
-            {
-              name: 'search',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Slot for search element',
-            },
-            {
-              name: 'topContent',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Slot for content under search element',
-            },
-            {
-              name: 'titleOptions',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Slot for option`s title ',
-            },
-            {
-              name: 'placeholderValue',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Placeholder element',
+              default: 'large',
+              description: `The option's value.`,
             },
             {
               name: 'label',
               type: 'JSX.Element | string',
               required: false,
               default: '-',
-              description: 'Single select title',
+              description: `Label title`,
             },
             {
-              name: 'labelId',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'Id for title',
-            },
-            {
-              name: 'hintText',
+              name: 'placeholderSlot',
               type: 'JSX.Element | string',
               required: false,
               default: '-',
-              description: 'Informative message under select',
+              description: 'Placeholder',
+            },
+            {
+              name: 'headerSlot',
+              type: 'JSX.Element',
+              required: false,
+              default: '-',
+              description: 'Header element slot.',
+            },
+            {
+              name: 'footerSlot',
+              type: 'JSX.Element',
+              required: false,
+              default: '-',
+              description: 'Footer element slot.',
+            },
+            {
+              name: 'menuWidth',
+              type: 'number',
+              required: false,
+              default: '_',
+              description: 'Options container width',
+            },
+            {
+              name: 'leftSlot',
+              type: 'JSX.Element',
+              required: false,
+              default: '_',
+              description: 'Left content for selected option',
+            },
+            {
+              name: 'leftSlot',
+              type: 'JSX.Element',
+              required: false,
+              default: '_',
+              description: 'Inform message under select',
+            },
+            {
+              name: 'amountOfVisibleItems',
+              type: 'number',
+              required: false,
+              default: '_',
+              description:
+                'Set amount of visible options in multi select, all other will be hide under counter',
             },
             {
               name: 'isError',
               type: 'boolean',
               required: false,
-              default: '-',
-              description: 'Set error state for select',
+              default: '_',
+              description: 'Set valid/not valid select',
             },
             {
-              name: 'zIndexOptions',
-              type: 'number',
+              name: 'isDisabled',
+              type: 'boolean',
               required: false,
-              default: '10',
-              description: 'Set custom z-index for options container',
-            },
-          ]}
-        />
-      </section>
-
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Option</h2>
-        <Table
-          data={[
-            {
-              name: 'value',
-              type: 'string',
-              required: true,
-              default: '-',
-              description: `The option's value. This will be passed into a hidden input field for use in forms when the option is selected.`,
+              default: '_',
+              description: 'Is the select disabled',
             },
             {
-              name: 'label',
-              type: 'string',
+              name: 'isMulti',
+              type: 'boolean',
               required: false,
-              default: '-',
-              description: `The option's human-readable label. `,
+              default: '_',
+              description: 'Support multiple selected options',
             },
             {
-              name: 'element',
-              type: 'JSX.Element | string',
-              required: true,
-              default: '-',
-              description: 'Inner content for option',
+              name: 'isSearchable',
+              type: 'boolean',
+              required: false,
+              default: '_',
+              description: 'Whether to enable search functionality',
             },
           ]}
         />

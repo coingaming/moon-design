@@ -8,22 +8,22 @@ exports[`TextInput: type Date renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 kydozM"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 bRHlks"
         disabled={true}
         placeholder=" "
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -34,22 +34,22 @@ exports[`TextInput: type Date renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 kydozM"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 cIZOPb"
         disabled={true}
         placeholder=" "
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -60,26 +60,26 @@ exports[`TextInput: type Date renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 kydozM"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 KFdrt"
           disabled={true}
           placeholder=" "
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -97,20 +97,20 @@ exports[`TextInput: type Date renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 fCNdsc"
+        className="Input-qkdgvx-0 ekGwYi"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -121,20 +121,20 @@ exports[`TextInput: type Date renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fKxCuv"
+        className="Input-qkdgvx-0 erUZHR"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -145,24 +145,24 @@ exports[`TextInput: type Date renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 coYWyI"
+          className="Input-qkdgvx-0 Rinj"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -180,21 +180,21 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder=" "
         readOnly={true}
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -205,21 +205,21 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder=" "
         readOnly={true}
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -230,25 +230,25 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder=" "
           readOnly={true}
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -266,20 +266,20 @@ exports[`TextInput: type Date renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -290,20 +290,20 @@ exports[`TextInput: type Date renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -314,24 +314,24 @@ exports[`TextInput: type Date renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -349,15 +349,15 @@ exports[`TextInput: type Date renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder="Placeholder"
         type="date"
       />
@@ -367,15 +367,15 @@ exports[`TextInput: type Date renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder="Placeholder"
         type="date"
       />
@@ -385,18 +385,18 @@ exports[`TextInput: type Date renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
@@ -414,10 +414,10 @@ exports[`TextInput: type Date renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 dInVWZ"
+        className="Input-qkdgvx-0 bRHlks"
         placeholder="medium"
         type="date"
       />
@@ -427,10 +427,10 @@ exports[`TextInput: type Date renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 izGTPy"
+        className="Input-qkdgvx-0 cIZOPb"
         placeholder="large"
         type="date"
       />
@@ -440,18 +440,18 @@ exports[`TextInput: type Date renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 bMgBMq"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 foTAnE"
+          className="Input-qkdgvx-0 hnRIqU"
           placeholder="xlarge"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         />
       </div>
     </div>
@@ -467,20 +467,20 @@ exports[`TextInput: type Date supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bVigKL"
+        className="Input-qkdgvx-0 hZkrIH"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -491,20 +491,20 @@ exports[`TextInput: type Date supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jstzOA"
+        className="Input-qkdgvx-0 hQSrPI"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -515,24 +515,24 @@ exports[`TextInput: type Date supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="Container-sc-1f49upb-0 fUwsfa"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 dKhopI"
+        className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 gzqgWB"
+          className="Input-qkdgvx-0 KFdrt"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="LabelInner-vrrjt0-0 bMijKN"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder

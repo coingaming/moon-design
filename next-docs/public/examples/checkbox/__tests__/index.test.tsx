@@ -5,7 +5,6 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Example from '../Example';
 import Checked from '../Checked';
 import Disabled from '../Disabled';

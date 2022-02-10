@@ -1,7 +1,6 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
-import rgba from 'polished/lib/color/rgba';
 import { ColorNames } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 interface PopoverContainerProps {
   padding?: number;
@@ -11,7 +10,14 @@ interface PopoverContainerProps {
 }
 
 export const PopoverContainer = styled.div<PopoverContainerProps>(
-  ({ theme: { color, radius, shadows }, padding, backgroundColor, theme, minWidth, maxWidth}) => ({
+  ({
+    theme: { colorNew, newTokens },
+    padding,
+    backgroundColor,
+    theme,
+    minWidth,
+    maxWidth,
+  }) => ({
     maxWidth: rem(maxWidth),
     minWidth: rem(minWidth),
     padding: `${padding !== undefined ? rem(padding) : rem(24)}`,
@@ -21,8 +27,8 @@ export const PopoverContainer = styled.div<PopoverContainerProps>(
         : themed('color', 'gohan.100')(theme)
     }`,
     outline: 'none',
-    borderRadius: rem(radius.default),
-    color: color.bulma[100],
-    boxShadow: shadows.lg,
+    borderRadius: newTokens.borderRadius.medium,
+    color: colorNew.bulma,
+    boxShadow: newTokens.boxShadow.large,
   })
 );

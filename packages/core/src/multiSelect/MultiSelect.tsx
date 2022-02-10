@@ -1,24 +1,21 @@
 import React, { useRef, useState } from 'react';
-import Badge from '../badge/Badge';
+import { Inline, Stack } from '@heathmont/moon-components/lib';
 import {
   ControlsClose,
   ControlsChevronUp,
   ControlsChevronDown,
 } from '@heathmont/moon-icons/lib';
 import { rem } from '@heathmont/moon-utils';
-import { Inline, Stack } from '@heathmont/moon-components/lib';
-
-import SearchWrapper from './styles/SearchWrapper';
-
+import Badge from '../badge/Badge';
+import useOutsideClicker from './private/useOutsideClicker';
+import Container from './styles/Container';
+import HintText from './styles/HintText';
+import InnerContainer from './styles/InnerContainer';
+import InputWrapper from './styles/InputWrapper';
 import Label from './styles/Label';
 import ListItem from './styles/ListItem';
 import Menu from './styles/Menu';
-import InputWrapper from './styles/InputWrapper';
-import InnerContainer from './styles/InnerContainer';
-import Container from './styles/Container';
-import HintText from './styles/HintText';
-
-import useOutsideClicker from './private/useOutsideClicker';
+import SearchWrapper from './styles/SearchWrapper';
 
 interface Option {
   value: string;
@@ -66,7 +63,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({
 
   const close = () => {
     setIsExpanded(false);
-  }
+  };
 
   const addSelectedItem = (selectedItem: string) => {
     const isAlreadySelected = selectedItems.find(

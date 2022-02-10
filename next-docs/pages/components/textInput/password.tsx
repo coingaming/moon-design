@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import PasswordWithLabel from '../../../public/examples/textInput/password/PasswordWithLabel';
-import PasswordWithoutLabel from '../../../public/examples/textInput/password/PasswordWithoutLabel';
-import PasswordWithHint from '../../../public/examples/textInput/password/PasswordWithHint';
+import PasswordBgColor from '../../../public/examples/textInput/password/PasswordBgColor';
 import PasswordDisabled from '../../../public/examples/textInput/password/PasswordDisabled';
 import PasswordError from '../../../public/examples/textInput/password/PasswordError';
-import PasswordBgColor from '../../../public/examples/textInput/password/PasswordBgColor';
 import PasswordReadonly from '../../../public/examples/textInput/password/PasswordReadonly';
-
+import PasswordWithHint from '../../../public/examples/textInput/password/PasswordWithHint';
+import PasswordWithLabel from '../../../public/examples/textInput/password/PasswordWithLabel';
+import PasswordWithoutLabel from '../../../public/examples/textInput/password/PasswordWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {

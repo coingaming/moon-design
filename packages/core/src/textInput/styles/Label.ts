@@ -1,13 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Label = styled.label<React.LabelHTMLAttributes<HTMLLabelElement>>(
-  ({ theme: { color } }) => ({
+  ({ theme: { colorNew } }) => ({
     display: 'block',
     fontSize: rem(16),
     lineHeight: rem(24),
-    color: color.bulma[100],
+    color: colorNew.bulma,
     paddingBottom: rem(8),
   })
 );

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
@@ -11,7 +10,7 @@ const Example = () => (
         label="medium"
         placeholder="e.g. https://sportsbet.io"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
     <div className="m-4">
@@ -21,7 +20,7 @@ const Example = () => (
         label="large"
         placeholder="e.g. https://sportsbet.io"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
     <div className="m-4">
@@ -31,7 +30,7 @@ const Example = () => (
         label="xlarge"
         placeholder="e.g. https://sportsbet.io"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
   </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Preview from '../../components/codePreview/Preview';
 import PreviewSearch from '../../public/examples/search/PreviewSearch';
 import PreviewSearchLoading from '../../public/examples/search/PreviewSearchLoading';
 import useExamples from '../../utils/useExamples';
@@ -16,12 +16,19 @@ export default function PageSearch() {
 
       {/* Default */}
       <section className="mt-8">
-        <h2 className="text-2xl mb-4">Search component default values</h2>
-        <PreviewSearch />
+        <Preview
+          title="Search component default values"
+          preview={<PreviewSearch />}
+          code={examples ? examples.PreviewSearch : 'Loading'}
+        />
       </section>
+
       <section className="mt-8">
-        <h2 className="text-2xl mb-4">Search loading</h2>
-        <PreviewSearchLoading />
+        <Preview
+          title="Search loading"
+          preview={<PreviewSearchLoading />}
+          code={examples ? examples.PreviewSearchLoading : 'Loading'}
+        />
       </section>
     </>
   );

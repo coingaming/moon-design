@@ -1,9 +1,8 @@
-import styled from 'styled-components';
-import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
-import { rgba } from 'polished';
 import { ColorProps } from '@heathmont/moon-themes';
-import TextInputSizeType from './types/SizeTypes';
+import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import Size from '../../private/enums/Size';
+import TextInputSizeType from './types/SizeTypes';
 
 type InputProps = {
   inputSize: TextInputSizeType | string;
@@ -22,7 +21,11 @@ const Input = styled.input.attrs(({ type }) => ({
 }))<InputProps>(
   ({
     theme: currentTheme,
-    theme: { color, radius, space, transitionDuration },
+    theme: {
+      colorNew,
+      hover,
+      newTokens: { borderRadius, space, border, transition },
+    },
     inputSize,
     error,
     icon,
@@ -42,41 +45,43 @@ const Input = styled.input.attrs(({ type }) => ({
       font: 'inherit',
       fontSize: rem(16),
       lineHeight: rem(40),
-      color: color.bulma[100],
+      color: colorNew.bulma,
       backgroundColor: !bgColor
         ? 'transparent'
-        : themed('color', bgColor)(currentTheme),
+        : themed('colorNew', bgColor)(currentTheme),
       position: 'relative',
       zIndex: 2,
       border: 'none',
-      boxShadow: `0 0 0 ${rem(1)} ${color.beerus[100]} inset`,
-      borderRadius: rem(radius.largest),
-      transition: `box-shadow ${transitionDuration.default}s ease`,
+      boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
+      borderRadius: borderRadius.large,
+      transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
       '&::before, &::after': {
         boxSizing: 'border-box',
       },
       '&::placeholder': {
-        color: color.trunks[100],
+        color: colorNew.trunks,
         opacity: 1,
-        transition: `opacity ${transitionDuration.default}s ease`,
-        transitionDelay: `0.1s`,
+        transition: `opacity ${transition.default}`,
+        transitionDelay: `0.05s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
-        boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? rgba(color.piccolo[100], 0.12) : color.chiChi[100]
+        boxShadow: `0 0 0 ${border.width.interactive} ${
+          !error ? hover.primary : colorNew.chiChi[100]
+        } inset, 0 0 0 ${border.width.interactive} ${
+          !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
-        boxShadow: `0 0 0 ${rem(2)} ${
-          !error ? color.piccolo[100] : color.chiChi[100]
+        boxShadow: `0 0 0 ${border.width.interactive} ${
+          !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {
-          boxShadow: `0 0 0 ${rem(2)} ${color.chiChi[100]} inset`,
+          boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
         },
       '&[readonly]': {
         outline: 'none',
@@ -138,14 +143,14 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingRight: rem(space.large),
+      paddingRight: space.large,
       backgroundImage: inlineSvg(icon),
-      backgroundPosition: `right ${rem(space.default)} center`,
+      backgroundPosition: `right ${rem(4)} center`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: rem(20),
     },
     error && {
-      boxShadow: `0 0 0 ${rem(2)} ${color.chiChi[100]} inset`,
+      boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {
       paddingRight: rem(55),

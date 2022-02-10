@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import TelephoneWithLabel from '../../../public/examples/textInput/telephone/TelephoneWithLabel';
-import TelephoneWithoutLabel from '../../../public/examples/textInput/telephone/TelephoneWithoutLabel';
-import TelephoneWithHint from '../../../public/examples/textInput/telephone/TelephoneWithHint';
+import TelephoneBgColor from '../../../public/examples/textInput/telephone/TelephoneBgColor';
 import TelephoneDisabled from '../../../public/examples/textInput/telephone/TelephoneDisabled';
 import TelephoneError from '../../../public/examples/textInput/telephone/TelephoneError';
-import TelephoneBgColor from '../../../public/examples/textInput/telephone/TelephoneBgColor';
 import TelephoneReadonly from '../../../public/examples/textInput/telephone/TelephoneReadonly';
-
+import TelephoneWithHint from '../../../public/examples/textInput/telephone/TelephoneWithHint';
+import TelephoneWithLabel from '../../../public/examples/textInput/telephone/TelephoneWithLabel';
+import TelephoneWithoutLabel from '../../../public/examples/textInput/telephone/TelephoneWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTelephoneInput() {

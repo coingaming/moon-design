@@ -1,13 +1,11 @@
+import React, { useRef, useState } from 'react';
+import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import {
   Button,
   FilterDropdown,
   SingleItemSelect,
 } from '@heathmont/moon-components';
-import React, { useRef, useState } from 'react';
-import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
-
 import useClickAway from './__private__/useClickAway';
 
 const Wrapper = styled.div({
@@ -21,8 +19,8 @@ const Dropdown = styled.div(({ theme }) => ({
   left: 0,
   minWidth: '100%',
   width: 'auto',
-  marginBottom: rem(theme.space.small),
-  zIndex: theme.zIndex.dialog,
+  marginBottom: theme.newTokens.space.xsmall,
+  zIndex: theme.newTokens.zIndex.dialog,
   '& > div': {
     minWidth: 'auto',
     width: '100%',
@@ -30,13 +28,13 @@ const Dropdown = styled.div(({ theme }) => ({
 }));
 
 const ButtonDefault = styled(Button)(({ theme }) => ({
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
   background: 'none',
-  borderColor: theme.color.beerus[100],
-  transition: `color ${theme.transitionDuration.default}s`,
+  borderColor: theme.colorNew.beerus,
+  transition: `color ${theme.newTokens.transition.default}`,
   '&:hover:not([disabled]), &:focus:not([disabled])': {
     background: 'none',
-    color: theme.color.piccolo[100],
+    color: theme.colorNew.piccolo,
   },
 }));
 

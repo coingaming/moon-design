@@ -20,52 +20,52 @@ export interface SupportiveColors {
   nappa: SupportiveColorValues;
 }
 
-const supportiveColors_v2: SupportiveColors = {
+const supportiveColors: SupportiveColors = {
   krillin: {
-    100: '#FFB319',
-    60: '#FFC652',
-    10: '#FFD98D',
+    100: '#ffb319',
+    60: '#ffc652',
+    10: '#ffd98d',
   },
   chiChi: {
-    100: '#FF4E64',
-    60: '#FF7687',
-    10: '#FF96A3',
+    100: '#ff4e64',
+    60: '#ff7687',
+    10: '#ff96a3',
   },
   roshi: {
-    100: '#4AD15F',
-    60: '#64DC77',
-    10: '#7FF291',
+    100: '#4ad15f',
+    60: '#64dc77',
+    10: '#7ff291',
   },
   dodoria: {
-    100: '#D33030',
-    60: '#DB4E4E',
-    10: '#F06767',
+    100: '#d33030',
+    60: '#db4e4e',
+    10: '#f06767',
   },
   cell: {
-    100: '#95F1D5',
-    60: '#A2FADF',
-    10: '#BFFFEC',
+    100: '#95f1d5',
+    60: '#a2fadf',
+    10: '#bfffec',
   },
   raditz: {
-    100: '#B3804A',
-    60: '#C1915D',
-    10: '#D6A979',
+    100: '#b3804a',
+    60: '#c1915d',
+    10: '#d6a979',
   },
   whis: {
-    100: '#3448F0',
-    60: '#6777F8',
-    10: '#8490F9',
+    100: '#3448f0',
+    60: '#6777f8',
+    10: '#8490f9',
   },
   frieza: {
-    100: '#5C33CF',
-    60: '#734DDE',
-    10: '#9271EF',
+    100: '#5c33cf',
+    60: '#734dde',
+    10: '#9271ef',
   },
   nappa: {
     100: '#725550',
-    60: '#856A66',
-    10: '#A18681',
+    60: '#856a66',
+    10: '#a18681',
   },
 };
 
-export default supportiveColors_v2;
+export default supportiveColors;

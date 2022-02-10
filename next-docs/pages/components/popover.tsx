@@ -1,12 +1,8 @@
 import React from 'react';
-
-import Default from '../../public/examples/popover/Default';
-
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
-
 import CodeSnippet from '../../components/CodeSnippet';
-
+import Table from '../../components/Table';
+import Default from '../../public/examples/popover/Default';
 import useExamples from '../../utils/useExamples';
 
 export default function PagePopover() {

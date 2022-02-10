@@ -1,5 +1,5 @@
-import { CSSObject } from 'styled-components';
 import { Theme } from '@heathmont/moon-themes';
+import { CSSObject } from 'styled-components';
 
 import { buttonActive, buttonHover } from './states';
 

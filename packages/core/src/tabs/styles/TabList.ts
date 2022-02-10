@@ -1,13 +1,13 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import Reel from '../../reel/Reel';
 
 const TabList = styled(Reel.withComponent('ul'))<{ isContainer?: boolean }>(
-  ({ theme: { border, color }, isContainer }) => [
+  ({ theme: { colorNew, newTokens }, isContainer }) => [
     isContainer && {
       padding: rem(4),
-      border: border,
-      borderColor: color.beerus[100],
+      border: newTokens.border.default,
+      borderColor: colorNew.beerus,
       borderRadius: rem(8),
     },
   ]

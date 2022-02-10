@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
+import styled from 'styled-components';
 
 type ChipProps = {
   isActive?: boolean;
@@ -41,13 +41,13 @@ const IconLeftWrapper = styled.span<
   ChipProps & { isOnlyIcons?: boolean; isOnlyLeftIcon?: boolean }
 >(({ isOnlyIcons, isOnlyLeftIcon }) => [
   {
-    marginRight: rem(4),
+    marginInlineEnd: rem(4),
   },
   isOnlyIcons && {
-    marginRight: rem(2),
+    marginInlineEnd: rem(2),
   },
   isOnlyLeftIcon && {
-    marginRight: 0,
+    marginInlineEnd: 0,
   },
 ]);
 
@@ -55,13 +55,13 @@ const IconRightWrapper = styled.span<
   ChipProps & { isOnlyIcons?: boolean; isOnlyRightIcon?: boolean }
 >(({ isOnlyIcons, isOnlyRightIcon }) => [
   {
-    marginLeft: rem(4),
+    marginInlineStart: rem(4),
   },
   isOnlyIcons && {
-    marginLeft: rem(2),
+    marginInlineStart: rem(2),
   },
   isOnlyRightIcon && {
-    marginLeft: 0,
+    marginInlineStart: 0,
   },
 ]);
 

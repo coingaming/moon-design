@@ -5,7 +5,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import NumberWithLabel from '../NumberWithLabel';
 import NumberWithoutLabel from '../NumberWithoutLabel';
 import NumberWithHint from '../NumberWithHint';

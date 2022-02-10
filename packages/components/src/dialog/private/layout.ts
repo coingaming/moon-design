@@ -1,13 +1,16 @@
-import rem from 'polished/lib/helpers/rem';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { mq, themed } from '@heathmont/moon-utils';
+import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
 
 /* Layout
   =========================================== */
 
-export const DialogContainer = styled.div<{ variant?: 'default' | 'new', backgroundColor?: ColorProps }>(
-  ( { theme: { color, radius, boxShadow }, variant }) => ({
+export const DialogContainer = styled.div<{
+  variant?: 'default' | 'new';
+  backgroundColor?: ColorProps;
+}>(
+  ({ theme: { color, radius, boxShadow }, variant }) => ({
     boxShadow,
     position: 'relative',
     outline: 'none',
@@ -17,9 +20,8 @@ export const DialogContainer = styled.div<{ variant?: 'default' | 'new', backgro
   }),
   ({ backgroundColor, theme, variant }) => ({
     backgroundColor:
-      themed('color', backgroundColor)(theme) || (variant === 'new'
-        ? theme.color.gohan[100]
-        : theme.color.goku[100]),
+      themed('color', backgroundColor)(theme) ||
+      (variant === 'new' ? theme.color.gohan[100] : theme.color.goku[100]),
   })
 );
 
@@ -33,8 +35,8 @@ export const DialogMain = styled.main<{ variant?: 'default' | 'new' }>(
     padding: variant === 'new' ? 0 : rem(20),
     [mq(breakpoint.medium)]: {
       paddingTop: variant === 'new' ? 0 : rem(space.xlarge),
-      paddingLeft: variant === 'new' ? 0 : rem(space.large),
-      paddingRight: variant === 'new' ? 0 : rem(space.large),
+      paddingInlineStart: variant === 'new' ? 0 : rem(space.large),
+      paddingInlineEnd: variant === 'new' ? 0 : rem(space.large),
       paddingBottom: variant === 'new' ? 0 : rem(space.large),
     },
   })

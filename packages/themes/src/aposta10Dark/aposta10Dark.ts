@@ -1,12 +1,14 @@
-import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
+import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
+import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
-    120: '#2E9468',
-    100: '#39A275',
-    80: '#46AF81',
+    120: '#2e9468',
+    100: '#39a275',
+    80: '#46af81',
   },
   hit: {
     120: '#565e6c',
@@ -14,29 +16,41 @@ const color = {
     80: '#6f7785',
   },
   goten: {
-    100: '#FFFFFF',
+    100: '#ffffff',
   },
   goku: {
-    100: '#070A0D',
-    80: '#11161D',
-    40: '#262F3B',
-    10: '#3D4957',
+    100: '#070a0d',
+    80: '#11161d',
+    40: '#262f3b',
+    10: '#3d4957',
   },
   gohan: {
-    100: '#272C35',
+    100: '#272c35',
     80: '#323843',
-    40: '#4A515E',
-    10: '#636B79',
+    40: '#4a515e',
+    10: '#636b79',
   },
   beerus: {
-    100: '#4E535A',
+    100: '#4e535a',
   },
   bulma: {
-    100: '#FFFFFF',
+    100: '#ffffff',
   },
   trunks: {
-    100: '#C8D0D5',
+    100: '#c8d0d5',
   },
+};
+
+const colorNew = {
+  piccolo: '#39a275',
+  hit: '#636b79',
+  beerus: '#4e535a',
+  goku: '#070a0d',
+  gohan: '#272c35',
+  bulma: '#ffffff',
+  trunks: '#c8d0d5',
+  goten: '#ffffff',
+  popo: '#000000',
 };
 
 const aposta10Dark: Theme = {
@@ -53,7 +67,12 @@ const aposta10Dark: Theme = {
     ...supportColors,
     ...color,
   },
+  colorNew: {
+    ...colorNew,
+    ...supportiveColors,
+  },
   colorScheme: 'dark',
+  ...componentsTokens(colorNew),
 };
 
 export default aposta10Dark;

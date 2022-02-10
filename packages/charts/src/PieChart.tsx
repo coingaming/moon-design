@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { ColorProps, useTheme } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
 import {
   Pie,
   Sector,
@@ -8,14 +10,11 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import styled from 'styled-components';
-import { ColorProps, useTheme } from '@heathmont/moon-themes';
-import { rem, themed } from '@heathmont/moon-utils';
-
-import { Panel } from './private/Panel';
-import { Header } from './private/Header';
-import { Tooltip } from './private/Tooltip';
 import ChartIcons from './ChartIcons';
+import { Header } from './private/Header';
 import { Loader } from './private/Loader';
+import { Panel } from './private/Panel';
+import { Tooltip } from './private/Tooltip';
 
 const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
   ({ theme }) => ({
@@ -23,11 +22,11 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
     display: 'flex',
     flexGrow: 1,
     '.charts-title': {
-      fill: theme.color.trunks[100],
+      fill: theme.colorNew.trunks,
       fontSize: rem(14),
     },
     '.chart-percent': {
-      fill: theme.color.bulma[100],
+      fill: theme.colorNew.bulma,
       fontSize: rem(24),
     },
   })

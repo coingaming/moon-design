@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { TextInput } from '@heathmont/moon-core';
 
 const Example = () => (
@@ -59,7 +58,7 @@ const Example = () => (
         label="Input with background color"
         placeholder="Placeholder"
         hintText="Informative message holder"
-        backgroundColor="goku.10"
+        backgroundColor="goku"
       />
     </div>
   </div>

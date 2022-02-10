@@ -3,7 +3,7 @@ import { rem } from '@heathmont/moon-utils';
 import type { ButtonProps } from '../../Button';
 
 const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
-  const { newTokens } = useTheme();
+  const theme = useTheme();
   return [
     {
       position: 'relative',
@@ -11,28 +11,28 @@ const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      fontWeight: newTokens.font.weight.semibold,
-      borderRadius: newTokens.interactiveBorderRadius,
+      fontWeight: theme.newTokens.font.weight.semibold,
+      borderRadius: theme.newTokens.borderRadius.interactive,
       textDecoration: 'none',
       fontFamily: 'inherit',
       overflow: 'hidden',
       userSelect: 'none',
       outline: 'none',
-      transition: `all ${newTokens.transition.default}`,
+      transition: `all ${theme.newTokens.transition.default}`,
       '&:active': {
-        transform: newTokens.transform,
+        transform: theme.newTokens.transform,
       },
       '&:focus-visible': {
-        boxShadow: newTokens.focus,
+        boxShadow: theme.focus,
       },
       'img, svg': {
         display: 'block',
-        width: rem(iconSize),
-        height: rem(iconSize),
+        width: rem(iconSize as number),
+        height: rem(iconSize as number),
       },
     },
     disabled && {
-      opacity: newTokens.opacity,
+      opacity: theme.newTokens.opacity,
       cursor: 'not-allowed',
     },
   ];

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Button, DialogOverlay } from '@heathmont/moon-components';
 
 const Example = () => {

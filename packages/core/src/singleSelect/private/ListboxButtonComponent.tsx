@@ -1,8 +1,7 @@
 import React from 'react';
-
 import Primary from './variants/Primary';
-import Secondary from './variants/Secondary';
 import PrimaryControled from './variants/PrimaryControled';
+import Secondary from './variants/Secondary';
 import SecondaryControled from './variants/SecondaryControled';
 
 interface ListboxButtonContainerProps {

@@ -1,0 +1,39 @@
+{
+  "name": "@heathmont/moon-datepicker",
+  "sideEffects": false,
+  "version": "8.0.0",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/es/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/coingaming/moon-design",
+  "author": "Yolo Group",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm run build:index && pnpm run build:code",
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
+    "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs && pnpm run build:types",
+    "build:js:commonjs": "babel --config-file ../../.config/babel/babel.config.js src --out-dir lib --source-maps --extensions .ts,.tsx",
+    "build:js:es": "babel --config-file ../../.config/babel/babel.config.es.js src --out-dir lib/es --source-maps --extensions .ts,.tsx",
+    "build:types": "tsc --project tsconfig.json --declarationMap",
+    "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
+  },
+  "dependencies": {
+    "@heathmont/moon-components": "workspace:^8.0.0",
+    "@heathmont/moon-themes": "workspace:^8.0.0",
+    "@heathmont/moon-utils": "workspace:^8.0.0",
+    "@heathmont/moon-icons": "workspace:^8.0.0",
+    "@heathmont/moon-core": "workspace:^8.0.0",
+    "react-select": "^5.2.1",
+    "@types/date-fns": "2.6.0",
+    "date-fns": "2.15.0",
+    "polished": "4.1.3"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.2",
+    "react-dom": ">= 17.0.2",
+    "styled-components": ">= 5.3.3"
+  }
+}

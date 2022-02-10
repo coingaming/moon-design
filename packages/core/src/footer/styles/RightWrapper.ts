@@ -1,10 +1,10 @@
+import { media } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import { mq } from '@heathmont/moon-utils';
 
-const RightWrapper = styled.div(({ theme: { breakpoint } }) => ({
+const RightWrapper = styled.div(({ theme: { newTokens } }) => ({
   display: 'flex',
   flexDirection: 'column',
-  [mq(breakpoint.medium)]: {
+  [media(newTokens.breakpoint.medium)]: {
     flexDirection: 'row-reverse',
   },
 }));

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Search } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 import { IconProfile } from '@heathmont/moon-assets';
@@ -18,7 +17,7 @@ const Dropdown = styled.ul(({ theme: { space } }) => ({
 const Example = () => {
   const [searchString, setSearchString] = React.useState('');
   return (
-    <div className="h-96 bg-white p-4">
+    <div className="h-96 bg-white p-4 w-full">
       <Search
         closeButton={<span>Clear</span>}
         placeholder="Search"

@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
-import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import React from 'react';
+import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import { Loader } from '@heathmont/moon-components';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Button = styled.button<{ hasUpdates?: boolean }>(
   ({ hasUpdates, theme }) => ({
@@ -18,7 +18,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
     height: rem(32),
     padding: rem(8),
     fontSize: rem(16),
-    color: theme.color.trunks[100],
+    color: theme.colorNew.trunks,
     '&:before': {
       content: "''",
       position: 'absolute',
@@ -26,16 +26,15 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
       height: '100%',
       top: 0,
       left: 0,
-      transitionDuration: `${theme.transitionDuration.default}s`,
-      transitionTimingFunction: 'ease',
-      backgroundColor: theme.color.piccolo[100],
-      borderRadius: rem(theme.radius.default),
+      transition: `${theme.newTokens.transition.default}`,
+      backgroundColor: theme.colorNew.piccolo,
+      borderRadius: theme.newTokens.borderRadius.medium,
       opacity: 0,
       transform: 'scale(0)',
       transitionProperty: 'transform, opacity',
     },
     '&:hover, &:focus': {
-      color: theme.color.piccolo[100],
+      color: theme.colorNew.piccolo,
       '&:before': {
         transform: 'scale(1)',
         opacity: 0.1,
@@ -50,7 +49,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
         width: rem(4),
         height: rem(4),
         borderRadius: '50%',
-        background: theme.color.piccolo[100],
+        background: theme.colorNew.piccolo,
       },
     }),
   })
@@ -59,16 +58,16 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
 const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
   flexDirection: 'column',
-  padding: rem(theme.space.default),
-  color: isActive ? theme.color.goten[100] : theme.color.bulma[100],
-  background: isActive ? theme.color.piccolo[100] : theme.color.gohan[100],
-  borderRadius: rem(theme.space.default),
+  padding: theme.newTokens.space.small,
+  color: isActive ? theme.colorNew.goten : theme.colorNew.bulma,
+  background: isActive ? theme.colorNew.piccolo : theme.colorNew.gohan,
+  borderRadius: theme.newTokens.space.small,
   width: '100%',
   ...(isActive && {
     [Button]: {
-      color: theme.color.goten[100],
+      color: theme.colorNew.goten,
       '&:after': {
-        background: theme.color.goten[100],
+        background: theme.colorNew.goten,
       },
     },
   }),
@@ -78,7 +77,7 @@ const Header = styled.div(({ theme }) => ({
   display: 'grid',
   flexShrink: 0,
   gridTemplateColumns: 'auto 1fr auto auto',
-  gridColumnGap: rem(theme.space.default),
+  gridColumnGap: theme.newTokens.space.small,
   minHeight: rem(24),
 }));
 

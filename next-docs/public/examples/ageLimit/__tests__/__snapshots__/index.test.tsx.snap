@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgeLimit renders 1`] = `
+<div
+  className="Container-ggjigj-0 cmJCxx"
+>
+  <span
+    className="Caption-sc-1vu67rv-0 iYLEBT"
+    color="#000000"
+  >
+    Age
+  </span>
+</div>
+`;

@@ -1,12 +1,11 @@
-import styled from 'styled-components';
+import { ColorNames } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
 import rgba from 'polished/lib/color/rgba';
-import { rem, themed } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
+import { TableVariant } from '../Table';
 import BodyTR from './BodyTR';
 import TD from './TD';
 import TH from './TH';
-import { TableVariant } from '../Table';
-import { ColorNames } from '@heathmont/moon-themes';
 
 const TableWrapper = styled.div<{
   isScrolledToLeft: boolean;
@@ -39,7 +38,7 @@ const TableWrapper = styled.div<{
     '::-webkit-scrollbar-thumb': {
       backgroundColor: 'transparent',
       backgroundClip: 'content-box' /* [3] */,
-      borderRadius: rem(theme.radius.largest),
+      borderRadius: theme.newTokens.borderRadius.full,
       border: '3px solid transparent' /* [3] */,
     },
     ':hover::-webkit-scrollbar-thumb': {
@@ -58,7 +57,7 @@ const TableWrapper = styled.div<{
         ? {
             '[data-sticky-last-left-td]': {
               boxShadow: `6px 0px 9px -10px ${rgba(
-                theme.color.trunks[100],
+                theme.colorNew.trunks,
                 0.9
               )}`,
             },
@@ -69,7 +68,7 @@ const TableWrapper = styled.div<{
         ? {
             '[data-sticky-first-right-td]': {
               boxShadow: `-6px 0px 9px -10px ${rgba(
-                theme.color.trunks[100],
+                theme.colorNew.trunks,
                 0.9
               )}`,
             },
@@ -94,8 +93,8 @@ const TableWrapper = styled.div<{
                   display: 'none',
                 },
                 '& + div': {
-                  borderTopLeftRadius: rem(theme.radius.default),
-                  borderBottomLeftRadius: rem(theme.radius.default),
+                  borderTopLeftRadius: theme.newTokens.borderRadius.medium,
+                  borderBottomLeftRadius: theme.newTokens.borderRadius.medium,
                 },
               },
             },

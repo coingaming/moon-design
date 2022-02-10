@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders 1`] = `
+<span
+  className="Badge-gd8hvq-0 idSPMV"
+  size="xsmall"
+>
+  Default
+</span>
+`;
+
+exports[`Badge renders with custom background color 1`] = `
+<span
+  className="Badge-gd8hvq-0 eYJbCR"
+  size="xsmall"
+>
+  Default
+</span>
+`;
+
+exports[`Badge renders with icons 1`] = `
+<div
+  className="flex justify-around w-full"
+>
+  <span
+    className="Badge-gd8hvq-0 idSPMV"
+    size="xsmall"
+  >
+    Default
+  </span>
+  <span
+    className="Badge-gd8hvq-0 idSPMV"
+    size="xsmall"
+  >
+    Default
+  </span>
+</div>
+`;
+
+exports[`Badge renders with small size 1`] = `
+<span
+  className="Badge-gd8hvq-0 jWcwQe"
+  size="small"
+>
+  Default
+</span>
+`;

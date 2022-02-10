@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tablink renders 1`] = `
+<a
+  className="Container-j1xqi2-0 iUlyKi"
+/>
+`;
+
+exports[`Tablink renders Href 1`] = `
+<a
+  className="Container-j1xqi2-0 iUlyKi"
+  href="www.google.com"
+/>
+`;
+
+exports[`Tablink renders count 1`] = `
+<a
+  className="Container-j1xqi2-0 iUlyKi"
+>
+  <span
+    className="TabLink__CountWrapper-u6qu8y-1 kVKWpR"
+  >
+    2
+  </span>
+</a>
+`;
+
+exports[`Tablink renders element left 1`] = `
+<a
+  className="Container-j1xqi2-0 iUlyKi"
+>
+  <div
+    className="TabLink__ElementLeftWrapper-u6qu8y-0 bbgJEx"
+  >
+    <span>
+      Element
+    </span>
+  </div>
+</a>
+`;
+
+exports[`Tablink renders isTop 1`] = `
+<a
+  className="Container-j1xqi2-0 ldfUgR"
+/>
+`;
+
+exports[`Tablink renders size 1`] = `
+<a
+  className="Container-j1xqi2-0 cIUSWF"
+  size="small"
+/>
+`;

@@ -1,14 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Container = styled.div(({ theme }) => ({
   display: 'flex',
   flexShrink: 0,
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: rem(theme.space.default),
+  marginBottom: theme.newTokens.space.small,
   overflowX: 'auto',
 }));
 
@@ -27,11 +27,11 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
   margin: `0 ${rem(8)}`,
   padding: `${rem(8)} ${rem(16)} ${rem(8)} ${rem(32)}`,
   cursor: 'pointer',
-  background: isActive ? theme.color.goku[100] : 'none',
+  background: isActive ? theme.colorNew.goku : 'none',
   borderRadius: rem(8),
   border: 'none',
   willChange: 'background',
-  transition: `background ${theme.transitionDuration.default}s`,
+  transition: `background ${theme.newTokens.transition.default}`,
   minWidth: rem(124),
   '&:hover': {
     background: theme.color.goku[80],
@@ -44,7 +44,7 @@ const Button = styled.button<{ isActive?: boolean }>(({ theme, isActive }) => ({
 const ColorPreview = styled.div<{ color?: ColorProps }>(({ theme, color }) => ({
   width: rem(8),
   height: rem(8),
-  background: color ? themed('color', color)(theme) : theme.color.piccolo[100],
+  background: color ? themed('color', color)(theme) : theme.colorNew.piccolo,
   borderRadius: '50%',
   position: 'absolute',
   top: rem(14),
@@ -54,13 +54,13 @@ const ColorPreview = styled.div<{ color?: ColorProps }>(({ theme, color }) => ({
 const Label = styled.div(({ theme }) => ({
   fontSize: rem(12),
   lineHeight: rem(24),
-  color: theme.color.trunks[100],
+  color: theme.colorNew.trunks,
 }));
 
 const Value = styled.div(({ theme }) => ({
   fontSize: rem(18),
   lineHeight: rem(24),
-  color: theme.color.bulma[100],
+  color: theme.colorNew.bulma,
 }));
 
 type Props = {

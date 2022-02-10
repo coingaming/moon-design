@@ -1,17 +1,16 @@
 import React, { useCallback, useEffect } from 'react';
+import { mq, rem, media } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import { mq, rem } from '@heathmont/moon-utils';
-
-import { FlexWrapper, ModalClose, resultsActive } from './Styles';
 import { popupConfig } from './settings';
+import { FlexWrapper, ModalClose, resultsActive } from './Styles';
 
 export const StyledPopup = styled.div(
-  ({ theme: { base, breakpoint, color, space, zIndex } }) => ({
+  ({ theme: { breakpoint, colorNew, zIndex, newTokens } }) => ({
     background: 'transparent',
     position: 'relative',
     padding: 0,
     borderRadius: rem(popupConfig.borderRadius),
-    fontSize: rem(base.fontSize),
+    fontSize: newTokens.font.size,
     lineHeight: rem(24),
     [mq(breakpoint.medium, 'max-width')]: {
       '&.active': {
@@ -20,14 +19,14 @@ export const StyledPopup = styled.div(
         right: 0,
         bottom: 0,
         left: 0,
-        background: color.goten[100],
-        padding: rem(space.default),
+        background: colorNew.goten,
+        padding: newTokens.space.small,
         zIndex: zIndex.dialog,
       },
     },
   }),
   ({ theme }) => ({
-    [mq(theme.breakpoint.medium, 'min-width')]: {
+    [media(theme.newTokens.breakpoint.medium)]: {
       [':focus-within']: {
         ...resultsActive(theme),
         zIndex: theme.zIndex.dialog,

@@ -1,16 +1,12 @@
 import React from 'react';
 import '@reach/dialog/styles.css';
-
 import Preview from '../../../components/codePreview/Preview';
-
 import Table from '../../../components/Table';
-
 import Default from '../../../public/examples/dialog/dialog/Default';
 import DialogHeader from '../../../public/examples/dialog/dialog/DialogHeader';
 import DialogHeader2 from '../../../public/examples/dialog/dialog/DialogHeader2';
-import NoClose from '../../../public/examples/dialog/dialog/NoClose';
 import NoBackground from '../../../public/examples/dialog/dialog/NoBackground';
-
+import NoClose from '../../../public/examples/dialog/dialog/NoClose';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialog() {
@@ -61,6 +57,14 @@ export default function PageDialog() {
         </p>
       </section>
 
+      <section className="mt-8">
+        <Preview
+          title="Variant new"
+          preview={<DialogHeader2 />}
+          code={examples ? examples.DialogHeader2 : 'Loading'}
+        />
+      </section>
+
       {/* Default */}
       <section className="mt-12">
         <Preview
@@ -91,14 +95,6 @@ export default function PageDialog() {
           title="Example with background color"
           preview={<NoBackground />}
           code={examples ? examples.NoBackground : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Variant new"
-          preview={<DialogHeader2 />}
-          code={examples ? examples.DialogHeader2 : 'Loading'}
         />
       </section>
 

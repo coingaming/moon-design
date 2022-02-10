@@ -1,13 +1,11 @@
 // @ts-nocheck
 import React from 'react';
-
-import Default from '../../public/examples/carousel/Default';
+import Preview from '../../components/codePreview/Preview';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
+import Default from '../../public/examples/carousel/Default';
+import Rtl from '../../public/examples/carousel/Rtl';
 import Space from '../../public/examples/carousel/Space';
 import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
-
-import Preview from '../../components/codePreview/Preview';
-
 import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {
@@ -29,6 +27,15 @@ export default function PageCarousel() {
           title="Carousel"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Rtl */}
+      <section className="mt-8">
+        <Preview
+          title="RTL Carousel"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
 

@@ -1,8 +1,7 @@
 import React from 'react';
+import { Dialog } from '@heathmont/moon-components';
+import { Header, Footer, Button } from '@heathmont/moon-core';
 
-import { Dialog, Button } from '@heathmont/moon-components';
-import { Header } from '@heathmont/moon-core';
-import { Footer } from '@heathmont/moon-core';
 import {
   ControlsClose,
   FilesGlasses,
@@ -16,9 +15,7 @@ const Example = () => {
 
   return (
     <>
-      <Button variant="primary" onClick={() => setShowDialog(true)}>
-        Open Dialog
-      </Button>
+      <Button onClick={() => setShowDialog(true)}>Open Dialog</Button>
       <Dialog
         isOpen={showDialog}
         onDismiss={() => setShowDialog(false)}
@@ -54,21 +51,9 @@ const Example = () => {
             diam tincidunt.
           </p>
           <Footer
-            primButton={
-              <Button fullWidth variant="primary" size="small">
-                Button
-              </Button>
-            }
-            secButton={
-              <Button fullWidth variant="tertiary" size="small">
-                Button
-              </Button>
-            }
-            tertButton={
-              <Button fullWidth variant="secondary" size="small">
-                Button
-              </Button>
-            }
+            primButton={<Button>Primary</Button>}
+            secButton={<Button variant="secondary">Secondary</Button>}
+            tertButton={<Button variant="ghost">Ghost</Button>}
             isDivider
           />
         </>

@@ -1,16 +1,15 @@
 import React from 'react';
 import { Text } from '@heathmont/moon-components';
-import { enGB } from 'date-fns/locale';
 import isWeekend from 'date-fns/isWeekend';
-
-import { MonthGrid } from './private/Month/MonthGrid';
-import { WeekDayLabels } from './private/WeekDayLabels';
-import { Day } from './private/Month/Day';
-import { DayInner } from './private/Month/DayInner';
+import { enGB } from 'date-fns/locale';
 import { DayNumber } from './private/DayNumber';
 import { getDayNumberColor } from './private/getDayNumberColor';
 import { getDayNumberLabel } from './private/getDayNumberLabel';
 import { getMonthDays } from './private/getMonthDays';
+import { Day } from './private/Month/Day';
+import { DayInner } from './private/Month/DayInner';
+import { MonthGrid } from './private/Month/MonthGrid';
+import { WeekDayLabels } from './private/WeekDayLabels';
 
 type Props = {
   config?: {

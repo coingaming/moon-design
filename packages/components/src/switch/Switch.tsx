@@ -1,12 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Space } from '@heathmont/moon-themes';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import hideVisually from 'polished/lib/mixins/hideVisually';
-
+import styled from 'styled-components';
+import Caption from '../caption/Caption';
+import Inline from '../inline/Inline';
 import IconMoon from '../private/icons/IconMoon';
 import IconSun from '../private/icons/IconSun';
-import Inline from '../inline/Inline';
-import Caption from '../caption/Caption';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
@@ -14,15 +14,19 @@ const switchWidth = `var(${switchWidthProperty})`;
 const switchHeightProperty = '--switch-height';
 const switchHeight = `var(${switchHeightProperty})`;
 
-type SliderColorScheme = {
+type SliderOptions = {
   colorScheme?: boolean;
+  isRtl?: boolean;
+  checked?: boolean;
 };
 
 type Size = 'xs' | 'md' | 'lg';
 
-const Slider = styled.span<SliderColorScheme>(
+const Slider = styled.span<SliderOptions>(
   ({
     colorScheme,
+    isRtl,
+    checked,
     theme: { color, colorScheme: themeColorScheme, space, transitionDuration },
   }) => ({
     position: 'absolute',
@@ -51,7 +55,8 @@ const Slider = styled.span<SliderColorScheme>(
       position: 'absolute',
       width: 'var(--switch-indicator-size)',
       height: 'var(--switch-indicator-size)',
-      left: rem(space.xsmall),
+      // left: rem(space.xsmall),
+      ...adjustBallSwitchIcon(space, isRtl, checked),
       bottom: rem(space.xsmall),
       backgroundColor: themeColorScheme ? color.goku[100] : color.trunks[100],
       borderRadius: '50%',
@@ -61,6 +66,20 @@ const Slider = styled.span<SliderColorScheme>(
     },
   })
 );
+
+const adjustBallSwitchIcon = (
+  space: Space,
+  isRtl?: boolean,
+  checked?: boolean
+) => {
+  if (!isRtl) {
+    return { left: rem(space.xsmall) };
+  }
+
+  return checked
+    ? { left: rem(space.xsmall) }
+    : { left: `calc(${switchHeight} )` };
+};
 
 const getLabelWidth = (size: Size) => {
   if (size === 'xs') {
@@ -97,15 +116,16 @@ const Label = styled.label<{ size: Size }>(({ theme: { space }, size }) => ({
   flexShrink: 0,
 })) as React.FC<{}>;
 
-const Input = styled.input<SliderColorScheme>(
-  ({ colorScheme, theme: { color }, size }) => ({
+const Input = styled.input<SliderOptions>(
+  ({ colorScheme, isRtl, theme: { color }, size }) => ({
     ...hideVisually(),
     [`&:checked + ${Slider}`]: {
       backgroundColor: colorScheme ? undefined : color.piccolo[100],
       '&::before': {
-        // left: rem(-2),
         backgroundColor: colorScheme ? undefined : color.goten[100],
-        transform: `translateX(calc(${switchWidth} / ${ size ? 2.5 : 2}))`,
+        transform: isRtl
+          ? `translateX(calc(${switchWidth} / ${size ? 2.5 : 2}) * -1)`
+          : `translateX(calc(${switchWidth} / ${size ? 2.5 : 2}))`,
       },
     },
   })
@@ -134,7 +154,7 @@ export type SwitchProps = {
   id?: HTMLInputProps['id'];
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   size?: Size;
-} & SliderColorScheme;
+} & SliderOptions;
 
 const Switch: React.FC<SwitchProps> = ({
   className,
@@ -144,6 +164,7 @@ const Switch: React.FC<SwitchProps> = ({
   colorScheme,
   id,
   size,
+  isRtl,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
@@ -158,10 +179,11 @@ const Switch: React.FC<SwitchProps> = ({
     colorScheme,
     checked,
     size,
+    isRtl,
     ...props,
   };
 
-  const sliderProps = { colorScheme };
+  const sliderProps = { colorScheme, isRtl, checked };
 
   if (!captionUnchecked && !captionChecked) {
     return (
@@ -173,7 +195,11 @@ const Switch: React.FC<SwitchProps> = ({
   }
 
   return (
-    <Inline space="small" style={{ overflow: 'visible' }}>
+    <Inline
+      space="small"
+      style={{ overflow: 'visible' }}
+      dir={isRtl ? 'rtl' : 'ltr'}
+    >
       {captionUnchecked && (
         <SwitchCaption checked={checked}>{captionUnchecked}</SwitchCaption>
       )}

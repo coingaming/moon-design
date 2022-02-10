@@ -1,13 +1,15 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-export const AccordionWrapper = styled.div(({ theme: { color, radius } }) => ({
-  width: '100%',
-  padding: rem(16),
-  background: color.gohan[100],
-  borderRadius: rem(radius.default),
-  color: color.bulma[100],
-}));
+export const AccordionWrapper = styled.div(
+  ({ theme: { colorNew, newTokens } }) => ({
+    width: '100%',
+    padding: rem(16),
+    background: colorNew.gohan,
+    borderRadius: newTokens.borderRadius.medium,
+    color: colorNew.bulma,
+  })
+);
 
 export const AccordionContent = styled.div(
   ({ isOpen }: { isOpen: boolean }) => ({
@@ -35,22 +37,22 @@ export const AccordionHeader = styled.div<{ disabled?: boolean }>(
 );
 
 export const AccordionToggle = styled.button(
-  ({ theme: { color, space }, disabled }) => ({
-    padding: rem(space.small),
+  ({ theme: { colorNew, newTokens }, disabled }) => ({
+    padding: newTokens.space.twoxsmall,
     verticalAlign: 'middle',
-    fontSize: rem(space.small),
+    fontSize: newTokens.space.twoxsmall,
     lineHeight: 0,
     textDecoration: 'none',
     cursor: disabled ? 'not-allowed' : 'pointer',
-    color: color.trunks[100],
+    color: colorNew.trunks,
     borderColor: 'transparent',
-    backgroundColor: color.gohan[100],
+    backgroundColor: colorNew.gohan,
   })
 );
 
-export const Divider = styled.div(({ theme: { color } }) => ({
+export const Divider = styled.div(({ theme: { colorNew } }) => ({
   margin: `0 ${rem(8)} 0 ${rem(16)}`,
   width: 1,
   height: rem(16),
-  background: color.beerus[100],
+  background: colorNew.beerus,
 }));

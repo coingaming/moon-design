@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import React from 'react';
-import { ColorProps } from '@heathmont/moon-themes';
 import { IconUser } from '@heathmont/moon-assets';
+import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type StatusOrigin = {
   vertical: 'top' | 'bottom';

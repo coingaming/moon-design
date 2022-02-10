@@ -5,7 +5,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import TelephoneWithLabel from '../TelephoneWithLabel';
 import TelephoneWithoutLabel from '../TelephoneWithoutLabel';
 import TelephoneWithHint from '../TelephoneWithHint';

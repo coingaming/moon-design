@@ -1,9 +1,8 @@
 import React, { forwardRef } from 'react';
-
+import RadioButtonLabel from './RadioButtonLabel';
 import RadioButtonCaption from './styles/RadioButtonCaption';
 import RadioButtonHiddenInput from './styles/RadioButtonHiddenInput';
 import RadioButtonStyledInput from './styles/RadioButtonStyledInput';
-import RadioButtonLabel from './RadioButtonLabel';
 
 export type RadioButtonProps = React.InputHTMLAttributes<HTMLInputElement> & {
   disabled?: boolean;

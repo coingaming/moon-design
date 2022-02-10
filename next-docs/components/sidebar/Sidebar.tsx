@@ -1,13 +1,11 @@
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
-import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-
+import { useRouter } from 'next/router';
 import classNames from '../../utils/classNames';
-
-import navigation from './navigation';
 import Arrow from './Arrow';
 import Logo from './Logo';
+import navigation from './navigation';
 import Version from './Version';
 
 interface LinkProps {
@@ -37,9 +35,7 @@ interface ItemType {
   children?: ItemType[];
 }
 
-const recursiveIsCurrent = (item: ItemType): boolean => {
-  const { pathname } = useRouter();
-
+const recursiveIsCurrent = (item: ItemType, pathname: string): boolean => {
   const isCurrent = item.href === pathname;
   if (isCurrent) {
     return true;
@@ -47,18 +43,21 @@ const recursiveIsCurrent = (item: ItemType): boolean => {
   if (!item.children) {
     return false;
   }
-  return item.children.some((item: ItemType) => recursiveIsCurrent(item));
+  return item.children.some((item: ItemType) =>
+    recursiveIsCurrent(item, pathname)
+  );
 };
 
 interface RecursiveNavItemProps {
   item: ItemType;
+  pathname: string;
 }
 
 const RecursiveNavItem: React.FC<RecursiveNavItemProps> = ({
   item,
+  pathname,
 }: RecursiveNavItemProps) => {
   const { name, href, children } = item;
-  const { pathname } = useRouter();
   const isCurrent = href === pathname;
 
   if (!children) {
@@ -74,7 +73,7 @@ const RecursiveNavItem: React.FC<RecursiveNavItemProps> = ({
       as="div"
       key={name}
       className="space-y-1"
-      defaultOpen={recursiveIsCurrent(item)}
+      defaultOpen={recursiveIsCurrent(item, pathname)}
     >
       {({ open }) => (
         <>
@@ -85,7 +84,7 @@ const RecursiveNavItem: React.FC<RecursiveNavItemProps> = ({
           <Disclosure.Panel className="space-y-1">
             {children.map((subItem: ItemType) => (
               <div key={subItem.name} className="pl-7">
-                <RecursiveNavItem item={subItem} />
+                <RecursiveNavItem item={subItem} pathname={pathname} />
               </div>
             ))}
           </Disclosure.Panel>
@@ -104,6 +103,7 @@ const LogoLink = () => (
 );
 
 export default function Sidebar() {
+  const { pathname } = useRouter();
   return (
     <div className="fixed top-0 h-screen w-72 flex flex-col flex-grow py-16 px-6 bg-white overflow-y-scroll">
       <div className="flex items-center flex-shrink-0 pl-2 mb-12">
@@ -119,6 +119,7 @@ export default function Sidebar() {
                 href: !item.href ? '' : item.href,
                 children: item.children as ItemType[],
               }}
+              pathname={pathname}
             />
           ))}
           <Version />

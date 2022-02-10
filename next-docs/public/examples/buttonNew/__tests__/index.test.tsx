@@ -1,10 +1,10 @@
 /**
  * @jest-environment jsdom
  */
-
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
+import Animations from '../Animations';
 import Disabled from '../Disabled';
 import Icons from '../Icons';
 import Sizes from '../Sizes';
@@ -15,9 +15,20 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('Button New', () => {
   it('renders different variants', () => {
     const testRenderer = renderer.create(renderWithTheme(<Variants />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders different variants RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Variants />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
@@ -38,6 +49,11 @@ describe('Button New', () => {
 
   it('renders disabled state', () => {
     const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders different animations', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Animations />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading renders 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <h3
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
+    size={16}
+  >
+    Title
+  </h3>
+</div>
+`;
+
+exports[`Heading renders colors 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <h3
+    className="Heading-sc-1jzu9kp-0 jCvCej"
+    color="goku.80"
+    size={16}
+  >
+    Title
+  </h3>
+  <h3
+    className="Heading-sc-1jzu9kp-0 ekHBUs"
+    color="hit.80"
+    size={16}
+  >
+    Title
+  </h3>
+</div>
+`;
+
+exports[`Heading renders isRegular 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <h3
+    className="Heading-sc-1jzu9kp-0 byBMtp"
+    color="bulma.100"
+    size={16}
+  >
+    Title
+  </h3>
+</div>
+`;
+
+exports[`Heading renders size 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <h3
+    className="Heading-sc-1jzu9kp-0 dTQAiP"
+    color="bulma.100"
+    size={24}
+  >
+    Title Size
+  </h3>
+  <h3
+    className="Heading-sc-1jzu9kp-0 evSKpA"
+    color="bulma.100"
+    size={72}
+  >
+    Title Size
+  </h3>
+</div>
+`;
+
+exports[`Heading renders text align 1`] = `
+<div
+  className="flex justify-around items-center w-full"
+>
+  <h3
+    className="Heading-sc-1jzu9kp-0 ihCsbP"
+    color="bulma.100"
+    size={16}
+  >
+    Title
+  </h3>
+  <h3
+    className="Heading-sc-1jzu9kp-0 cbfufs"
+    color="bulma.100"
+    size={16}
+  >
+    Title
+  </h3>
+</div>
+`;

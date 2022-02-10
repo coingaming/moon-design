@@ -1,17 +1,17 @@
-import startOfMonth from 'date-fns/startOfMonth';
-import endOfMonth from 'date-fns/endOfMonth';
-import startOfWeek from 'date-fns/startOfWeek';
-import endOfWeek from 'date-fns/endOfWeek';
-import subMonths from 'date-fns/subMonths';
-import subWeeks from 'date-fns/subWeeks';
+import addDays from 'date-fns/addDays';
+import addMinutes from 'date-fns/addMinutes';
 import addMonths from 'date-fns/addMonths';
 import addWeeks from 'date-fns/addWeeks';
-import subDays from 'date-fns/subDays';
-import addDays from 'date-fns/addDays';
-import startOfDay from 'date-fns/startOfDay';
 import endOfDay from 'date-fns/endOfDay';
+import endOfMonth from 'date-fns/endOfMonth';
+import endOfWeek from 'date-fns/endOfWeek';
+import startOfDay from 'date-fns/startOfDay';
+import startOfMonth from 'date-fns/startOfMonth';
+import startOfWeek from 'date-fns/startOfWeek';
+import subDays from 'date-fns/subDays';
 import subHours from 'date-fns/subHours';
-import addMinutes from 'date-fns/addMinutes';
+import subMonths from 'date-fns/subMonths';
+import subWeeks from 'date-fns/subWeeks';
 
 import { Config } from '../../RangeCalendar';
 

@@ -1,16 +1,14 @@
 import React, { forwardRef } from 'react';
-import styled from 'styled-components';
-import { disabled, rem } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
-
+import { disabled, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import Loader from '../loader/Loader';
 import IconSuccess from '../private/icons/IconSuccess';
-
-import { buttonVariant, ButtonVariants } from './variants';
-import { buttonSize, ButtonSizes } from './size';
-import { buttonMockStateClass, buttonHover, buttonActive } from './states';
 import { oopsAnimation } from './oopsAnimation';
 import { pulseAnimation } from './pulseAnimation';
+import { buttonSize, ButtonSizes } from './size';
+import { buttonMockStateClass, buttonHover, buttonActive } from './states';
+import { buttonVariant, ButtonVariants } from './variants';
 
 import type { ButtonMockState } from './states';
 

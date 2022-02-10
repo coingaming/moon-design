@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
 const NavItem: React.FC<{ href: string }> = ({ children, href }) => {

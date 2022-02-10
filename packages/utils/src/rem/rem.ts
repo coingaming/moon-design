@@ -1,5 +1,5 @@
-import polishedRem from 'polished/lib/helpers/rem';
 import { sharedTokens } from '@heathmont/moon-themes';
+import polishedRem from 'polished/lib/helpers/rem';
 
 /*
 const EXCEPTIONS = [

@@ -1,7 +1,6 @@
-import styled from 'styled-components';
-import { themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
-
+import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import getFontSize from '../private/text/getFontSize';
 
 export type HeadingSize = 16 | 18 | 20 | 24 | 32 | 48 | 56 | 64 | 72;
@@ -19,13 +18,13 @@ const Heading = styled.h3<HeadingProps>(
   }),
   ({ size = 16 }) => getFontSize(size),
   ({ textAlign }) => textAlign && { textAlign },
-  ({ isRegular, theme: { fontWeight } }) =>
+  ({ isRegular, theme: { newTokens } }) =>
     isRegular
       ? {
-          fontWeight: fontWeight.normal,
+          fontWeight: newTokens.font.weight.normal,
         }
       : {
-          fontWeight: fontWeight.semibold,
+          fontWeight: newTokens.font.weight.semibold,
         }
 );
 

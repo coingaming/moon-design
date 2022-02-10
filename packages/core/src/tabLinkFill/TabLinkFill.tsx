@@ -1,7 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
-
+import styled from 'styled-components';
 import Container from './styles/Container';
 
 export interface TabLinkFillProps {

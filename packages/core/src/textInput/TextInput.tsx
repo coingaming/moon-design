@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import TextInputTypes from './private/types/TextInputTypes';
-import TextInputPasswort from './private/TextInputPasswort';
-import TextInputMedium from './private/TextInputMedium';
-import TextInputXsmallSmall from './private/TextInputXsmallSmall';
 import { ColorProps } from '@heathmont/moon-themes';
-import TextInputSizeType from './private/types/SizeTypes';
 import Size from '../private/enums/Size';
+import TextInputBasic from './private/TextInputBasic';
+import TextInputInnerLabel from './private/TextInputInnerLabel';
+import TextInputPasswort from './private/TextInputPasswort';
+import TextInputSizeType from './private/types/SizeTypes';
+import TextInputTypes from './private/types/TextInputTypes';
 
 export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -29,10 +29,10 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
     return <TextInputPasswort {...props} ref={ref} />;
   }
   if (inputSize === Size.XLARGE) {
-    return <TextInputMedium {...props} ref={ref} />;
+    return <TextInputInnerLabel {...props} ref={ref} />;
   }
-  // render rest sizes xsmall and small
-  return <TextInputXsmallSmall {...props} ref={ref} />;
+  // render rest sizes
+  return <TextInputBasic {...props} ref={ref} />;
 });
 
 export default TextInput;

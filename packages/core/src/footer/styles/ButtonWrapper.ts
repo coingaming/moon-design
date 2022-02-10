@@ -1,9 +1,9 @@
+import { rem, media } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import { rem, mq } from '@heathmont/moon-utils';
 
-const ButtonWrapper = styled.div(({ theme: { breakpoint } }) => ({
+const ButtonWrapper = styled.div(({ theme: { newTokens } }) => ({
   marginBottom: rem(8),
-  [mq(breakpoint.medium)]: {
+  [media(newTokens.breakpoint.medium)]: {
     marginBottom: 0,
     marginLeft: rem(8),
   },

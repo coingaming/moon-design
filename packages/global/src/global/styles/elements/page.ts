@@ -4,13 +4,13 @@ import { rem } from '@heathmont/moon-utils';
  * 1. Prevent automatic zooming of fonts on some mobile devices.
  * 2. Consistent font display behavior on OSX.
  */
-const page = ({ color, base, fontFamily, fontSize }: any) => ({
+const page = ({ colorNew, base, fontFamily, fontSize }: any) => ({
   html: {
-    backgroundColor: color.background,
+    backgroundColor: colorNew.goku,
     fontSize: base.fontSize,
     lineHeight: base.lineHeight / base.fontSize,
     fontFamily,
-    color: color.text,
+    color: colorNew.bulma,
     minHeight: '100%',
     textSizeAdjust: '100%' /* [1] */,
     textRendering: 'optimizeLegibility',

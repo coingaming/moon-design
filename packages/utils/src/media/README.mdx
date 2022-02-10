@@ -1,0 +1,40 @@
+---
+name: media
+menu: Utils
+route: /utils/media
+---
+
+# MEDIA
+
+Returns a given pixel-based value (string) as an **upwards** direction media query in 'rem'.
+
+```js
+import { media } from '@heathmont/moon-utils';
+```
+
+### Example
+
+`media(500)` will return the following:
+
+```jsx react-live
+<p>{media(500)}</p>
+```
+
+### Usage
+
+With our breakpoint theme tokens, we can start to build-up our responsive styles:
+
+```jsx
+import styled from 'styled-components';
+import { media } from '@heathmont/moon-utils';
+
+/* Changes border from `red` to `blue` from 'small' breakpoint upwards */
+
+const Box = styled('div')`
+  border: 1px solid red;
+
+  ${media(({ theme }) => theme.newTokens.breakpoint.small)} {
+    border-color: blue;
+  }
+`;
+```

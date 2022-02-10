@@ -1,11 +1,10 @@
 import styled from 'styled-components';
-import { rem } from '@heathmont/moon-utils';
 
-const Container = styled.strong(({ theme: { space } }) => ({
+const Container = styled.strong(({ theme: { newTokens } }) => ({
   display: 'inline-block',
   position: 'relative',
-  width: rem(space.default),
-  height: rem(space.default),
+  width: newTokens.space.small,
+  height: newTokens.space.small,
 }));
 
 export default Container;

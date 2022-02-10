@@ -1,24 +1,23 @@
-import styled, { CSSObject } from 'styled-components';
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
-import { mq, rem } from '@heathmont/moon-utils';
-
+import { mq, media } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';
 
-export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
+export const resultsInactive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 0,
   visibility: 'hidden',
   maxHeight: 0,
-  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+  transition: `visibility 0s linear, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
-export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
+export const resultsActive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 1,
   visibility: 'visible',
   maxHeight: '100vh',
-  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+  transition: `visibility 0s linear, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
 export const SearchForm = styled.form({
@@ -28,27 +27,27 @@ export const SearchForm = styled.form({
   width: '100%',
 });
 
-export const FlexWrapper = styled.div(({ theme: { space } }) => ({
+export const FlexWrapper = styled.div(({ theme: { newTokens } }) => ({
   position: 'relative',
   display: 'flex',
   justifyContent: 'space-between',
-  gap: rem(space.small),
+  gap: newTokens.space.xsmall,
 }));
 
 export const ModalClose = styled(Button)(
-  ({ theme: { base, breakpoint, color, fontWeight, space } }) => ({
+  ({ theme: { breakpoint, colorNew, newTokens } }) => ({
     position: 'relative',
     display: 'none',
     flex: 0,
     border: 0,
     lineHeight: 1,
-    padding: `0 ${rem(space.default)}`,
-    fontWeight: fontWeight.normal,
-    fontSize: rem(base.fontSize),
+    padding: `0 ${newTokens.space.small}`,
+    fontWeight: newTokens.font.weight.normal,
+    fontSize: newTokens.font.size,
     overflow: 'visible',
-    color: color.piccolo[100],
+    color: colorNew.piccolo,
     ['&:hover:not([disabled])']: {
-      color: color.piccolo[100],
+      color: colorNew.piccolo,
     },
     [mq(breakpoint.medium, 'max-width')]: {
       '.active &': {
@@ -64,34 +63,31 @@ export const Results = styled.div(
       ...resultsInactive(theme),
       ['.active &']: resultsActive(theme),
     },
-    [mq(theme.breakpoint.medium, 'min-width')]: {
+    [media(theme.newTokens.breakpoint.medium)]: {
       [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
     },
   }),
-  ({
-    theme: { borderWidth, shadows, breakpoint, color, radius, space },
-  }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     position: 'absolute',
     left: 0,
-    top: rem(space.small),
-    color: color.trunks[100],
+    top: newTokens.space.xsmall,
+    color: colorNew.trunks,
     width: '100%',
     zIndex: zIndex.searchResults,
     '[dir=rtl] &': {
       left: 'auto',
       right: 0,
     },
-    [mq(breakpoint.medium, 'min-width')]: {
+    [media(newTokens.breakpoint.medium)]: {
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',
-      padding: `${rem(space.small)} ${rem(space.xsmall)}`,
-      borderRadius: rem(radius.default),
-      borderWidth,
-      borderStyle: 'solid',
-      borderColor: color.beerus[100],
-      backgroundColor: color.gohan[100],
-      boxShadow: shadows.lg,
+      padding: `${newTokens.space.xsmall} ${newTokens.space.twoxsmall}`,
+      borderRadius: newTokens.borderRadius.medium,
+      border: newTokens.border.default,
+      borderColor: colorNew.beerus,
+      backgroundColor: colorNew.gohan,
+      boxShadow: newTokens.boxShadow.large,
     },
   })
 );

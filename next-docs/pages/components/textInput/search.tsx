@@ -1,15 +1,13 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
-import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
-import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
+import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
 import SearchDisabled from '../../../public/examples/textInput/search/SearchDisabled';
 import SearchError from '../../../public/examples/textInput/search/SearchError';
-import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
 import SearchReadonly from '../../../public/examples/textInput/search/SearchReadonly';
-
+import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
+import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
+import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSearchInput() {

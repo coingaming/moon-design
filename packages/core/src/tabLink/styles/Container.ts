@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
 
 type Props = {
   elementLeft?: React.ReactElement;
@@ -21,8 +21,8 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
     lineHeight: rem(24),
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
-    color: theme.color.bulma[100],
-    transition: `color ${theme.transitionDuration.default}s ease`,
+    color: theme.colorNew.bulma,
+    transition: `color ${theme.newTokens.transition.default}`,
     textDecoration: 'none',
     border: 0,
     appearance: 'none',
@@ -35,12 +35,12 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
       right: 0,
       bottom: isTop ? 'auto' : 0,
       margin: '0 auto',
-      backgroundColor: theme.color.piccolo[100],
+      backgroundColor: theme.colorNew.piccolo,
       transform: 'scaleX(0)',
-      transition: `transform ${theme.transitionDuration.default}s ease`,
+      transition: `transform ${theme.newTokens.transition.default}`,
     },
     '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
-      color: theme.color.piccolo[100],
+      color: theme.colorNew.piccolo,
       cursor: 'pointer',
       '&:after': {
         transform: 'scaleX(1)',

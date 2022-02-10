@@ -1,20 +1,4 @@
 import React, { useState, useCallback } from 'react';
-import styled from 'styled-components';
-import {
-  useTable,
-  useResizeColumns,
-  useExpanded,
-  useBlockLayout,
-  useFlexLayout,
-  Column,
-  Row,
-  Cell,
-  HeaderGroup,
-} from 'react-table';
-import { DndProvider, useDrag, useDrop } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
-import update from 'immutability-helper';
-import { useSticky } from 'react-table-sticky';
 import {
   TableWrapper,
   Header,
@@ -26,19 +10,34 @@ import {
   HiddenTH,
   Footer,
 } from '@heathmont/moon-table';
-
-import IconDrag from './private/icons/IconDrag';
 import { ColorProps } from '@heathmont/moon-themes';
+import update from 'immutability-helper';
+import { DndProvider, useDrag, useDrop } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
+import {
+  useTable,
+  useResizeColumns,
+  useExpanded,
+  useBlockLayout,
+  useFlexLayout,
+  Column,
+  Row,
+  Cell,
+  HeaderGroup,
+} from 'react-table';
+import { useSticky } from 'react-table-sticky';
+import styled from 'styled-components';
+import IconDrag from './private/icons/IconDrag';
 
 const DndTD = styled(TD)<{
   variant?: string;
   dragIndicator?: boolean;
-}>(({ theme: { color }, variant, dragIndicator }) => ({
+}>(({ theme: { colorNew }, variant, dragIndicator }) => ({
   ...(variant === 'calendar'
     ? {
         '&:first-child, &:nth-child(2)': {
           borderRadius: 0,
-          backgroundColor: color.goku[100],
+          backgroundColor: colorNew.goku,
           '&::after': {
             display: 'none',
           },
@@ -52,7 +51,7 @@ const DndBodyTR = styled(BodyTR)<{
   variant?: string;
   hasOnRowClickHandler: boolean;
 }>(
-  ({ theme: { color }, variant, hasOnRowClickHandler }) => ({
+  ({ theme: { colorNew }, variant, hasOnRowClickHandler }) => ({
     ...(hasOnRowClickHandler
       ? {
           '&:hover': {
@@ -76,7 +75,7 @@ const DndBodyTR = styled(BodyTR)<{
         ...(variant === 'calendar'
           ? {
               '&:first-child, &:nth-child(2)': {
-                backgroundColor: color.goku[100],
+                backgroundColor: colorNew.goku,
                 borderRadius: 0,
               },
             }

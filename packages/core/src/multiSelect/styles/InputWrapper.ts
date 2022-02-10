@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 interface InputWrapperProps {
   isExpandedInner: boolean | undefined;
@@ -19,19 +19,19 @@ const InputWrapper = styled.div<InputWrapperProps>(
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      backgroundColor: theme.color.gohan[100],
+      backgroundColor: theme.colorNew.gohan,
       border: `${rem(1)} solid`,
-      borderColor: theme.color.gohan[100],
-      borderRadius: rem(theme.radius.largest),
+      borderColor: theme.colorNew.gohan,
+      borderRadius: theme.newTokens.borderRadius.full,
       padding: `${rem(8)} ${rem(13)} ${rem(6)}`,
       cursor: 'pointer',
-      transition: `border-color ${theme.transitionDuration.default}s ease`,
+      transition: `border-color ${theme.newTokens.transition.default}`,
       WebkitAppearance: 'none',
       '&:hover:not(:active)': {
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
       },
       '&:active': {
-        borderColor: theme.color.piccolo[100],
+        borderColor: theme.colorNew.piccolo,
       },
       '&::after': {
         content: '""',
@@ -42,27 +42,27 @@ const InputWrapper = styled.div<InputWrapperProps>(
         right: rem(-2),
         bottom: rem(-2),
         border: `${rem(1)} solid`,
-        borderColor: theme.color.beerus[100],
+        borderColor: theme.colorNew.beerus,
         '&:hover:not(:active)': {
-          borderColor: theme.color.beerus[100],
+          borderColor: theme.colorNew.beerus,
         },
         '&:active': {
-          borderColor: theme.color.piccolo[100],
+          borderColor: theme.colorNew.piccolo,
         },
-        borderRadius: rem(theme.radius.largest),
-        transition: `border-color ${theme.transitionDuration.default}s ease`,
+        borderRadius: theme.newTokens.borderRadius.full,
+        transition: `border-color ${theme.newTokens.transition.default}`,
         WebkitAppearance: 'none',
       },
     },
     isExpandedInner && {
-      borderColor: theme.color.piccolo[100],
+      borderColor: theme.colorNew.piccolo,
       '&:hover:not(:active)': {
-        borderColor: theme.color.piccolo[100],
+        borderColor: theme.colorNew.piccolo,
       },
       '&::after': {
-        borderColor: theme.color.piccolo[100],
+        borderColor: theme.colorNew.piccolo,
         '&:hover:not(:active)': {
-          borderColor: theme.color.piccolo[100],
+          borderColor: theme.colorNew.piccolo,
         },
       },
     },
@@ -70,35 +70,35 @@ const InputWrapper = styled.div<InputWrapperProps>(
       opacity: 0.3,
       cursor: 'default',
       '&:hover:not(:active)': {
-        borderColor: theme.color.gohan[100],
+        borderColor: theme.colorNew.gohan,
       },
       '&:active': {
-        borderColor: theme.color.gohan[100],
+        borderColor: theme.colorNew.gohan,
       },
       '&::after': {
         '&:hover:not(:active)': {
-          borderColor: theme.color.beerus[100],
+          borderColor: theme.colorNew.beerus,
         },
         '&:active': {
-          borderColor: theme.color.beerus[100],
+          borderColor: theme.colorNew.beerus,
         },
       },
     },
     error && {
-      borderColor: theme.color.chiChi[100],
+      borderColor: theme.colorNew.chiChi[100],
       '&:hover:not(:active)': {
-        borderColor: theme.color.chiChi[100],
+        borderColor: theme.colorNew.chiChi[100],
       },
       '&:active': {
-        borderColor: theme.color.chiChi[100],
+        borderColor: theme.colorNew.chiChi[100],
       },
       '&::after': {
-        borderColor: theme.color.chiChi[100],
+        borderColor: theme.colorNew.chiChi[100],
         '&:hover:not(:active)': {
-          borderColor: theme.color.chiChi[100],
+          borderColor: theme.colorNew.chiChi[100],
         },
         '&:active': {
-          borderColor: theme.color.chiChi[100],
+          borderColor: theme.colorNew.chiChi[100],
         },
       },
     },
