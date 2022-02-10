@@ -7,6 +7,7 @@ import UrlError from '../../../public/examples/textInput/url/UrlError';
 import UrlReadonly from '../../../public/examples/textInput/url/UrlReadonly';
 import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
 import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
+import UrlWithLabelRtl from '../../../public/examples/textInput/url/UrlWithLabelRtl';
 import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageUrlInput() {
             title="Label"
             preview={<UrlWithLabel />}
             code={examples ? examples.UrlWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<UrlWithLabelRtl />}
+            code={examples ? examples.UrlWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
