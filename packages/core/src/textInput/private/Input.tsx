@@ -98,16 +98,31 @@ const Input = styled.input.attrs(({ type }) => ({
         ...(isRtl && type === 'date'
           ? { position: 'absolute', right: rem(0) }
           : {}),
+        ...(isRtl && type === 'time'
+          ? { position: 'absolute', right: rem(8) }
+          : {}),
+        ...(isRtl && type === 'datetime-local'
+          ? { position: 'absolute', right: rem(-16) }
+          : {}),
       },
       '&::-webkit-date-and-time-value': {
         paddingTop: rem(8),
         ...(isRtl && type === 'date'
           ? { position: 'absolute', right: rem(0) }
           : {}),
+        ...(isRtl && type === 'time'
+          ? { position: 'absolute', right: rem(8) }
+          : {}),
+        ...(isRtl && type === 'datetime-local'
+          ? { position: 'absolute', right: rem(-16) }
+          : {}),
       },
       '&::-webkit-calendar-picker-indicator': {
         position: 'absolute',
-        ...(isRtl && type === 'date' ? { left: rem(-8) } : { right: rem(14) }),
+        ...(isRtl && (type === 'date' || type === 'datetime-local')
+          ? { left: rem(-8) }
+          : { right: rem(14) }),
+        ...(isRtl && type === 'time' ? { left: rem(8) } : { right: rem(14) }),
       },
     },
     inputSize === Size.LARGE && {

@@ -7,6 +7,7 @@ import DateTimeError from '../../../public/examples/textInput/datetime/DateTimeE
 import DateTimeReadonly from '../../../public/examples/textInput/datetime/DateTimeReadonly';
 import DateTimeWithHint from '../../../public/examples/textInput/datetime/DateTimeWithHint';
 import DateTimeWithLabel from '../../../public/examples/textInput/datetime/DateTimeWithLabel';
+import DateTimeWithLabelRtl from '../../../public/examples/textInput/datetime/DateTimeWithLabelRtl';
 import DateTimeWithoutLabel from '../../../public/examples/textInput/datetime/DateTimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageDateInput() {
             title="Label"
             preview={<DateTimeWithLabel />}
             code={examples ? examples.DateTimeWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<DateTimeWithLabelRtl />}
+            code={examples ? examples.DateTimeWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
