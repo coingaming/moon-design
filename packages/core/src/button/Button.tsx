@@ -35,6 +35,7 @@ const Button: React.FC<ButtonProps> = ({
   fullWidth,
   disabled,
   animation,
+  ...rest
 }) => {
   const [isHover, setIsHover] = useState(false);
   const isAnimationContent =
@@ -53,6 +54,7 @@ const Button: React.FC<ButtonProps> = ({
       animation={animation}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
+      {...rest}
     >
       {isAnimationContent ? (
         <AnimationContent
