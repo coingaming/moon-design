@@ -23,14 +23,14 @@ const MainWrapper = styled.div({
 
 const ElementLeftWrapper = styled.span({
   gridArea: 'icon',
-  marginRight: rem(8),
+  marginInlineEnd: rem(8),
   display: 'flex',
   alignItems: 'center',
 });
 
 const ElementRightWrapper = styled.span({
   gridArea: 'meta',
-  marginLeft: rem(8),
+  marginInlineStart: rem(8),
   display: 'flex',
   alignItems: 'center',
 });

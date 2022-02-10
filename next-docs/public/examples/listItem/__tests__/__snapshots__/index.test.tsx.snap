@@ -44,7 +44,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
       className="Container-sc-1vcdan4-0 kAVywW"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 hJmfV"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
           className="sc-eaPPdL"
@@ -81,7 +81,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         Single line item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
           className="sc-eaPPdL"
@@ -108,7 +108,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
       className="Container-sc-1vcdan4-0 kAVywW"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 hJmfV"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
           className="sc-eaPPdL"
@@ -132,7 +132,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         Single line item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
           className="sc-eaPPdL"
@@ -164,7 +164,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         Single line item
       </div>
       <span
-        className="MetaWrapper-sc-14bj43t-0 ijYyqt"
+        className="MetaWrapper-sc-14bj43t-0 doRpAu"
       >
         Meta
       </span>
@@ -274,7 +274,7 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
         Two lines item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <label
           className="CheckboxLabel-wyw1pu-0 glYria"
@@ -313,7 +313,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       className="Container-sc-1vcdan4-0 kAVywW"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 hJmfV"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
           className="sc-eaPPdL"
@@ -359,7 +359,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         Two lines item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
           className="sc-eaPPdL"
@@ -395,7 +395,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       className="Container-sc-1vcdan4-0 kAVywW"
     >
       <span
-        className="ListItem__ElementLeftWrapper-xq5gr1-1 hJmfV"
+        className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
           className="sc-eaPPdL"
@@ -419,7 +419,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         Two lines item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
           className="sc-eaPPdL"
@@ -460,7 +460,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         Two lines item
       </div>
       <span
-        className="MetaWrapper-sc-14bj43t-0 ijYyqt"
+        className="MetaWrapper-sc-14bj43t-0 doRpAu"
       >
         Meta
       </span>

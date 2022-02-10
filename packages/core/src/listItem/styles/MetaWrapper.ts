@@ -6,7 +6,7 @@ const MetaWrapper = styled.span(({ theme }) => ({
   color: theme.colorNew.trunks,
   fontSize: rem(12),
   lineHeight: rem(16),
-  marginLeft: rem(8),
+  marginInlineStart: rem(8),
   alignSelf: 'center',
 }));
 

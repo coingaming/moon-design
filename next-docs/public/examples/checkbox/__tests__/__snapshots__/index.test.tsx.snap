@@ -77,7 +77,7 @@ exports[`Checkbox renders Aria Label List 1`] = `
         Single line item
       </div>
       <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <label
           className="RadioButtonLabel-ozr645-0 hlwLdP"
@@ -107,7 +107,7 @@ exports[`Checkbox renders Aria Label List 1`] = `
           Single line item
         </div>
         <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 cdNjbc"
+          className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
         >
           <input
             className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
