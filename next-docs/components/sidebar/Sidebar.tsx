@@ -3,8 +3,11 @@ import { Disclosure } from '@headlessui/react';
 import { Switch } from '@heathmont/moon-components';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
+
+import { ELIXIR_ENABLED } from '../../consts/consts';
 import classNames from '../../utils/classNames';
 import { store } from '../elixirThemes/ElixirThemeProvider';
+
 import Arrow from './Arrow';
 import Logo from './Logo';
 import navigation from './navigation';
@@ -115,15 +118,17 @@ export default function Sidebar() {
         <LogoLink />
       </div>
       <div className="pl-2">
-        <Switch
-          checked={isElixir}
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-            dispatch({ type: 'setIsElixir', payload: e.target.checked })
-          }
-          captionUnchecked="React"
-          captionChecked="Elixir"
-          size="md"
-        />
+        {ELIXIR_ENABLED && (
+          <Switch
+            checked={isElixir}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              dispatch({ type: 'setIsElixir', payload: e.target.checked })
+            }
+            captionUnchecked="React"
+            captionChecked="Elixir"
+            size="md"
+          />
+        )}
       </div>
       <div className="flex-grow flex flex-col">
         <nav className="flex-1 space-y-1" aria-label="Sidebar">

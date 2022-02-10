@@ -1,6 +1,7 @@
 // @ts-nocheck
-import React from 'react';
+import React, { useContext } from 'react';
 import Preview from '../../components/codePreview/Preview';
+import { store } from '../../components/elixirThemes/ElixirThemeProvider';
 import AriaLabel from '../../public/examples/checkbox/AriaLabel';
 import AriaLabelList from '../../public/examples/checkbox/AriaLabelList';
 import Checked from '../../public/examples/checkbox/Checked';
@@ -10,6 +11,9 @@ import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
   const examples = useExamples('checkbox');
+  const {
+    state: { isElixir },
+  } = useContext(store);
 
   return (
     <>
@@ -32,6 +36,7 @@ export default function PageAccordion() {
           title="Checkbox"
           preview={<Example />}
           code={examples ? examples.Example : 'Loading'}
+          elixirLink="checkbox/checkbox"
         />
       </section>
 
@@ -41,6 +46,7 @@ export default function PageAccordion() {
           title="Disabled"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
+          elixirLink="checkbox/disabled"
         />
       </section>
 
@@ -50,25 +56,30 @@ export default function PageAccordion() {
           title="Checked"
           preview={<Checked />}
           code={examples ? examples.Checked : 'Loading'}
+          elixirLink="checkbox/checked"
         />
       </section>
 
-      {/* Aria Label */}
-      <section className="mt-8">
-        <Preview
-          title="Aria label"
-          preview={<AriaLabel />}
-          code={examples ? examples.AriaLabel : 'Loading'}
-        />
-      </section>
+      {isElixir || (
+        <>
+          {/* Aria Label */}
+          <section className="mt-8">
+            <Preview
+              title="Aria label"
+              preview={<AriaLabel />}
+              code={examples ? examples.AriaLabel : 'Loading'}
+            />
+          </section>
 
-      <section className="mt-8">
-        <Preview
-          title="Aria label"
-          preview={<AriaLabelList />}
-          code={examples ? examples.AriaLabelList : 'Loading'}
-        />
-      </section>
+          <section className="mt-8">
+            <Preview
+              title="Aria label"
+              preview={<AriaLabelList />}
+              code={examples ? examples.AriaLabelList : 'Loading'}
+            />
+          </section>
+        </>
+      )}
     </>
   );
 }

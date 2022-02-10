@@ -1,8 +1,10 @@
 import React, { useState, useContext } from 'react';
 import IframeResizer from 'iframe-resizer-react';
 
+import { ELIXIR_BASE_URL } from '../../consts/consts';
 import classNames from '../../utils/classNames';
 import { store } from '../elixirThemes/ElixirThemeProvider';
+
 import PreviewSwitch from './Switch';
 
 interface CodeProps {
@@ -38,17 +40,10 @@ export default function Preview({
   } = useContext(store);
 
   const elixirPreview = elixirLink ? (
-    // <iframe
-    //   src={`http://localhost:4000/${elixirTheme}-${
-    //     isDarkMode ? 'dark' : 'light'
-    //   }/iframe/${elixirLink}`}
-    //   style={{ width: '100%', minHeight: 300 }}
-    // />
     <IframeResizer
-      log
-      src={`http://localhost:4000/${elixirTheme}-${
+      src={`${ELIXIR_BASE_URL}/iframe/${elixirTheme}-${
         isDarkMode ? 'dark' : 'light'
-      }/iframe/${elixirLink}`}
+      }/${elixirLink}`}
       style={{ width: '1px', minWidth: '100%' }}
     />
   ) : (
