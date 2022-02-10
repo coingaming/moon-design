@@ -17,16 +17,16 @@ exports[`Dialog renders 1`] = `
 
 exports[`Dialog renders Another Dialog Header 1`] = `
 <button
-  className="sc-kjOQFR bYtfKl"
+  className="ButtonComponent-sc-1qwityd-0 lmotjR"
   onClick={[Function]}
-  size="small"
-  variant="primary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
 >
+  Open Dialog
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-  >
-    Open Dialog
-  </div>
+    className="Hover-yzznpt-0 ctGatB"
+  />
 </button>
 `;
 
