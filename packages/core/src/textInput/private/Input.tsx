@@ -95,15 +95,19 @@ const Input = styled.input.attrs(({ type }) => ({
         padding: 0,
         height: rem(38),
         lineHeight: `${rem(38)}`,
-        ...(isRtl ? { position: 'absolute', right: rem(8) } : {}),
+        ...(isRtl && type === 'date'
+          ? { position: 'absolute', right: rem(0) }
+          : {}),
       },
       '&::-webkit-date-and-time-value': {
         paddingTop: rem(8),
-        ...(isRtl ? { position: 'absolute', right: rem(8) } : {}),
+        ...(isRtl && type === 'date'
+          ? { position: 'absolute', right: rem(0) }
+          : {}),
       },
       '&::-webkit-calendar-picker-indicator': {
         position: 'absolute',
-        ...(isRtl ? { left: rem(-8) } : { right: rem(14) }),
+        ...(isRtl && type === 'date' ? { left: rem(-8) } : { right: rem(14) }),
       },
     },
     inputSize === Size.LARGE && {

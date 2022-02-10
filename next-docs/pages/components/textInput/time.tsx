@@ -7,6 +7,7 @@ import TimeError from '../../../public/examples/textInput/time/TimeError';
 import TimeReadonly from '../../../public/examples/textInput/time/TimeReadonly';
 import TimeWithHint from '../../../public/examples/textInput/time/TimeWithHint';
 import TimeWithLabel from '../../../public/examples/textInput/time/TimeWithLabel';
+import TimeWithLabelRtl from '../../../public/examples/textInput/time/TimeWithLabelRtl';
 import TimeWithoutLabel from '../../../public/examples/textInput/time/TimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageTimeInput() {
             title="Label"
             preview={<TimeWithLabel />}
             code={examples ? examples.TimeWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<TimeWithLabelRtl />}
+            code={examples ? examples.TimeWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
