@@ -7,6 +7,7 @@ import SearchError from '../../../public/examples/textInput/search/SearchError';
 import SearchReadonly from '../../../public/examples/textInput/search/SearchReadonly';
 import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
 import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
+import SearchWithLabelRtl from '../../../public/examples/textInput/search/SearchWithLabelRtl';
 import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageSearchInput() {
             title="Label"
             preview={<SearchWithLabel />}
             code={examples ? examples.SearchWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<SearchWithLabelRtl />}
+            code={examples ? examples.SearchWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
