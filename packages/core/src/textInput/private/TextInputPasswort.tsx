@@ -70,8 +70,8 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
             isPassword={true}
             {...inputProps}
           />
-          <LabelInner>{label}</LabelInner>
-          <ShowPassword onClick={togglePasswordVisiblity}>
+          <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
+          <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
             {showPasswordText}
           </ShowPassword>
         </Inner>
@@ -97,7 +97,7 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
           isPassword={true}
           {...inputProps}
         />
-        <ShowPassword onClick={togglePasswordVisiblity}>
+        <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
           {showPasswordText}
         </ShowPassword>
       </Inner>

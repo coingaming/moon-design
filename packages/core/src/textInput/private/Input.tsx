@@ -14,6 +14,7 @@ type InputProps = {
   bgColor?: ColorProps;
   isLabel?: boolean;
   isPassword?: boolean;
+  isRtl?: boolean;
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -33,6 +34,7 @@ const Input = styled.input.attrs(({ type }) => ({
     bgColor,
     isLabel,
     isPassword,
+    isRtl,
   }) => [
     {
       display: 'block',
@@ -143,9 +145,11 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingRight: space.large,
+      paddingInlineEnd: space.large,
       backgroundImage: inlineSvg(icon),
-      backgroundPosition: `right ${rem(4)} center`,
+      backgroundPosition: isRtl
+        ? `left ${rem(4)} center`
+        : `right ${rem(4)} center`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: rem(20),
     },
@@ -153,7 +157,7 @@ const Input = styled.input.attrs(({ type }) => ({
       boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {
-      paddingRight: rem(55),
+      paddingInlineEnd: rem(55),
     },
     type === 'number' && {
       MozAppearance: 'textfield',
