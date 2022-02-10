@@ -34,7 +34,7 @@ type DashStyleProps = {
 };
 const getDashStyle = ({ dashRatio, pathRadius, isRtl }: DashStyleProps) => {
   const circumference = Math.PI * 2 * pathRadius;
-  const gapLength = (1 - dashRatio) * circumference * (isRtl === true ? -1 : 1);
+  const gapLength = (1 - dashRatio) * circumference * (isRtl ? -1 : 1);
 
   return {
     strokeDasharray: `${circumference}px ${circumference}px`,
