@@ -32,7 +32,7 @@ export const SelectElement = styled(
     backgroundImage: inlineSvg(
       <IconChevronDown color={inputColors('icon')(theme)} />
     ),
-    paddingRight: rem(selectIconOffset(theme)),
+    paddingInlineEnd: rem(selectIconOffset(theme)),
     backgroundSize: rem(selectIconSize),
     borderRadius: rem(theme.radius.largest),
     '&:hover:enabled, &:focus:enabled': {

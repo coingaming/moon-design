@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.0.0
+
+### Major Changes
+
+- New tokens
+
 ## 7.22.3
 
 ### Patch Changes

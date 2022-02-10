@@ -90,16 +90,13 @@ const Input = styled.input.attrs(({ type }) => ({
         border: 'none',
         cursor: 'not-allowed',
       },
-      '&::-webkit-datetime-edit, &::-webkit-date-and-time-value, &::-webkit-datetime-edit-fields-wrapper':
-        {
-          display: 'block',
-          ...(inputSize === Size.LARGE ? { paddingTop: rem(2) } : {}),
-          paddingBottom: 0,
-          paddingInline: 0,
-          height: rem(38),
-          lineHeight: `${rem(38)}`,
-          ...(isRtl ? { position: 'absolute', right: rem(8) } : {}),
-        },
+      '&::-webkit-datetime-edit, &::-webkit-date-and-time-value': {
+        display: 'block',
+        padding: 0,
+        height: rem(38),
+        lineHeight: `${rem(38)}`,
+        ...(isRtl ? { position: 'absolute', right: rem(8) } : {}),
+      },
       '&::-webkit-date-and-time-value': {
         paddingTop: rem(8),
         ...(isRtl ? { position: 'absolute', right: rem(8) } : {}),

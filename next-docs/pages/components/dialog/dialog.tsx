@@ -57,6 +57,14 @@ export default function PageDialog() {
         </p>
       </section>
 
+      <section className="mt-8">
+        <Preview
+          title="Variant new"
+          preview={<DialogHeader2 />}
+          code={examples ? examples.DialogHeader2 : 'Loading'}
+        />
+      </section>
+
       {/* Default */}
       <section className="mt-12">
         <Preview
@@ -87,14 +95,6 @@ export default function PageDialog() {
           title="Example with background color"
           preview={<NoBackground />}
           code={examples ? examples.NoBackground : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Variant new"
-          preview={<DialogHeader2 />}
-          code={examples ? examples.DialogHeader2 : 'Loading'}
         />
       </section>
 
