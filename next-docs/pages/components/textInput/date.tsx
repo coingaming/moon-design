@@ -7,6 +7,7 @@ import DateError from '../../../public/examples/textInput/date/DateError';
 import DateReadonly from '../../../public/examples/textInput/date/DateReadonly';
 import DateWithHint from '../../../public/examples/textInput/date/DateWithHint';
 import DateWithLabel from '../../../public/examples/textInput/date/DateWithLabel';
+import DateWithLabelRtl from '../../../public/examples/textInput/date/DateWithLabelRtl';
 import DateWithoutLabel from '../../../public/examples/textInput/date/DateWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageDateInput() {
             title="Label"
             preview={<DateWithLabel />}
             code={examples ? examples.DateWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<DateWithLabelRtl />}
+            code={examples ? examples.DateWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">

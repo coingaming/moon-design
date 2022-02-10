@@ -57,6 +57,7 @@ const TextInputBasic: React.FC<TextInputXSandSmProps> = (props) => {
         ref={ref}
         id={id}
         bgColor={backgroundColor}
+        isRtl={dir === 'rtl'}
         {...inputProps}
       />
       {hintText && <HintText isError={isError}>{hintText}</HintText>}

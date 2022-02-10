@@ -54,6 +54,7 @@ const TextInputInnerLabel: React.FC<TextInputMediumProps> = (props) => {
           ref={ref}
           id={id}
           isLabel={!!label}
+          isRtl={dir === 'rtl'}
           {...inputProps}
         />
         <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>

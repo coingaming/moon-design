@@ -7,6 +7,7 @@ import NumberError from '../../../public/examples/textInput/number/NumberError';
 import NumberReadonly from '../../../public/examples/textInput/number/NumberReadonly';
 import NumberWithHint from '../../../public/examples/textInput/number/NumberWithHint';
 import NumberWithLabel from '../../../public/examples/textInput/number/NumberWithLabel';
+import NumberWithLabelRtl from '../../../public/examples/textInput/number/NumberWithLabelRtl';
 import NumberWithoutLabel from '../../../public/examples/textInput/number/NumberWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -46,6 +47,13 @@ export default function PageNumberInput() {
             title="Label"
             preview={<NumberWithLabel />}
             code={examples ? examples.NumberWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<NumberWithLabelRtl />}
+            code={examples ? examples.NumberWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
