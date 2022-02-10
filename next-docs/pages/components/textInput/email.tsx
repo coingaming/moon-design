@@ -7,6 +7,7 @@ import EmailError from '../../../public/examples/textInput/email/EmailError';
 import EmailReadonly from '../../../public/examples/textInput/email/EmailReadonly';
 import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
 import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
+import EmailWithLabelRtl from '../../../public/examples/textInput/email/EmailWithLabelRtl';
 import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageTextInput() {
             title="Label"
             preview={<EmailWithLabel />}
             code={examples ? examples.EmailWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label RTL"
+            preview={<EmailWithLabelRtl />}
+            code={examples ? examples.EmailWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
