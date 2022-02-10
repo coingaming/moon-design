@@ -412,6 +412,76 @@ exports[`TextInput: type Tel renders with label 1`] = `
 </div>
 `;
 
+exports[`TextInput: type Tel renders with label RTL 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 bJkxLR"
+        dir="rtl"
+      >
+        medium
+      </label>
+      <input
+        className="Input-qkdgvx-0 TqJRH"
+        dir="rtl"
+        placeholder="e.g. +372 123 4567"
+        type="tel"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 bJkxLR"
+        dir="rtl"
+      >
+        large
+      </label>
+      <input
+        className="Input-qkdgvx-0 iejWvo"
+        dir="rtl"
+        placeholder="e.g. +372 123 4567"
+        type="tel"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 XqqD"
+      >
+        <input
+          className="Input-qkdgvx-0 cXHYNK"
+          dir="rtl"
+          placeholder="e.g. +372 123 4567"
+          type="tel"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 jmYFGi"
+        >
+          xlarge
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`TextInput: type Tel renders without label 1`] = `
 <div
   className="flex gap-4 items-end"

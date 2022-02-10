@@ -7,6 +7,7 @@ import TelephoneError from '../../../public/examples/textInput/telephone/Telepho
 import TelephoneReadonly from '../../../public/examples/textInput/telephone/TelephoneReadonly';
 import TelephoneWithHint from '../../../public/examples/textInput/telephone/TelephoneWithHint';
 import TelephoneWithLabel from '../../../public/examples/textInput/telephone/TelephoneWithLabel';
+import TelephoneWithLabelRtl from '../../../public/examples/textInput/telephone/TelephoneWithLabelRtl';
 import TelephoneWithoutLabel from '../../../public/examples/textInput/telephone/TelephoneWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -55,6 +56,13 @@ export default function PageTelephoneInput() {
             title="Label"
             preview={<TelephoneWithLabel />}
             code={examples ? examples.TelephoneWithLabel : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Label Rtl"
+            preview={<TelephoneWithLabelRtl />}
+            code={examples ? examples.TelephoneWithLabelRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
