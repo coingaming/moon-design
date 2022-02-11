@@ -6,6 +6,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import EmailWithLabel from '../EmailWithLabel';
+import EmailWithLabelRtl from '../EmailWithLabelRtl';
 import EmailWithoutLabel from '../EmailWithoutLabel';
 import EmailWithHint from '../EmailWithHint';
 import EmailDisabled from '../EmailDisabled';
@@ -20,6 +21,12 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput: type Email', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(renderWithTheme(<EmailWithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<EmailWithLabelRtl />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {

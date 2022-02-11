@@ -1,5 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TextInput: type Text renders RTL 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 bJkxLR"
+        dir="rtl"
+      >
+        medium
+      </label>
+      <input
+        className="Input-qkdgvx-0 TqJRH"
+        dir="rtl"
+        placeholder=" "
+        readOnly={true}
+        type="text"
+        value="Read only text"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 bJkxLR"
+        dir="rtl"
+      >
+        large
+      </label>
+      <input
+        className="Input-qkdgvx-0 iejWvo"
+        dir="rtl"
+        placeholder=" "
+        readOnly={true}
+        type="text"
+        value="Read only text"
+      />
+      <p
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 XqqD"
+      >
+        <input
+          className="Input-qkdgvx-0 cXHYNK"
+          dir="rtl"
+          placeholder=" "
+          readOnly={true}
+          type="text"
+          value="Read only text"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 jmYFGi"
+        >
+          xlarge
+        </label>
+      </div>
+      <p
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`TextInput: type Text renders disabled 1`] = `
 <div
   className="flex gap-4 items-end"
@@ -17,7 +111,7 @@ exports[`TextInput: type Text renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bRHlks"
+        className="Input-qkdgvx-0 TqJRH"
         disabled={true}
         placeholder=" "
         type="text"
@@ -44,7 +138,7 @@ exports[`TextInput: type Text renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 cIZOPb"
+        className="Input-qkdgvx-0 iejWvo"
         disabled={true}
         placeholder=" "
         type="text"
@@ -69,7 +163,7 @@ exports[`TextInput: type Text renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 KFdrt"
+          className="Input-qkdgvx-0 cXHYNK"
           disabled={true}
           placeholder=" "
           type="text"
@@ -108,7 +202,7 @@ exports[`TextInput: type Text renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 ekGwYi"
+        className="Input-qkdgvx-0 kXsyNR"
         placeholder="Placeholder"
         type="text"
       />
@@ -132,7 +226,7 @@ exports[`TextInput: type Text renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 erUZHR"
+        className="Input-qkdgvx-0 hfAzeO"
         placeholder="Placeholder"
         type="text"
       />
@@ -154,7 +248,7 @@ exports[`TextInput: type Text renders error 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 Rinj"
+          className="Input-qkdgvx-0 czTyEs"
           placeholder="Placeholder"
           type="text"
         />
@@ -191,7 +285,7 @@ exports[`TextInput: type Text renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bRHlks"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder=" "
         readOnly={true}
         type="text"
@@ -217,7 +311,7 @@ exports[`TextInput: type Text renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 cIZOPb"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder=" "
         readOnly={true}
         type="text"
@@ -241,7 +335,7 @@ exports[`TextInput: type Text renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 KFdrt"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder=" "
           readOnly={true}
           type="text"
@@ -280,7 +374,7 @@ exports[`TextInput: type Text renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bRHlks"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder="Placeholder"
         type="text"
       />
@@ -304,7 +398,7 @@ exports[`TextInput: type Text renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 cIZOPb"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder="Placeholder"
         type="text"
       />
@@ -326,7 +420,7 @@ exports[`TextInput: type Text renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 KFdrt"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder="Placeholder"
           type="text"
         />
@@ -363,7 +457,7 @@ exports[`TextInput: type Text renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bRHlks"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder="Placeholder"
         type="text"
       />
@@ -381,7 +475,7 @@ exports[`TextInput: type Text renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 cIZOPb"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder="Placeholder"
         type="text"
       />
@@ -397,7 +491,7 @@ exports[`TextInput: type Text renders with label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 KFdrt"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder="Placeholder"
           type="text"
         />
@@ -423,7 +517,7 @@ exports[`TextInput: type Text renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 bRHlks"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder="medium"
         type="text"
       />
@@ -436,7 +530,7 @@ exports[`TextInput: type Text renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 cIZOPb"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder="large"
         type="text"
       />
@@ -452,7 +546,7 @@ exports[`TextInput: type Text renders without label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 hnRIqU"
+          className="Input-qkdgvx-0 gMNPmj"
           placeholder="xlarge"
           type="text"
         />
@@ -481,7 +575,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 hZkrIH"
+        className="Input-qkdgvx-0 sxsJI"
         placeholder="Placeholder"
         type="text"
       />
@@ -505,7 +599,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hQSrPI"
+        className="Input-qkdgvx-0 iFdnDn"
         placeholder="Placeholder"
         type="text"
       />
@@ -527,7 +621,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 KFdrt"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder="Placeholder"
           type="text"
         />
