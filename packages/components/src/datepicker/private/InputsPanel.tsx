@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import { mq } from '@heathmont/moon-utils';
+import compareAsc from 'date-fns/compareAsc';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
-import compareAsc from 'date-fns/compareAsc';
 import rem from 'polished/lib/helpers/rem';
-import { mq } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import Button from '../../button/Button';
 import TextInput from '../../textInput/TextInput';
@@ -23,7 +23,7 @@ const InputsPanelStyled = styled.div(({ theme }) => ({
   [mq(theme.breakpoint.medium)]: {
     flexDirection: 'row',
     '& > * + *': {
-      marginLeft: rem(theme.space.default),
+      marginInlineStart: rem(theme.space.default),
     },
   },
 }));
@@ -44,6 +44,7 @@ type InputsPanelProps = {
   apply: any;
   reset: any;
   config: Config;
+  isRtl?: boolean;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
@@ -54,6 +55,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   translations,
   apply,
   config,
+  isRtl,
   // reset,
 }) => {
   const dateFormat = config.withHoursAndMinutes
@@ -88,6 +90,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         {translations.reset}
       </Button> */}
       <StyledTextInput
+        dir={isRtl ? 'rtl' : 'ltr'}
         error={hasStartDateError}
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
         value={inputStartDate}
@@ -113,6 +116,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         }}
       />
       <StyledTextInput
+        dir={isRtl ? 'rtl' : 'ltr'}
         error={hasEndDateError}
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
         value={inputEndDate}
