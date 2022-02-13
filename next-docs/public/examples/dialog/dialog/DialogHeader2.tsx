@@ -6,7 +6,7 @@ import {
   ControlsClose,
   FilesGlasses,
   FilesPrint,
-  ControlsChevronLeft,
+  ControlsExpand,
 } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 
@@ -25,7 +25,7 @@ const Example = () => {
         variant="new"
         heading={
           <Header
-            backButton={<ControlsChevronLeft fontSize={rem(32)} />}
+            backButton={<ControlsExpand fontSize={rem(32)} />}
             closeButton={
               <ControlsClose
                 fontSize={rem(32)}
