@@ -1,11 +1,11 @@
 import React from 'react';
-import TextInputTypes from './types/TextInputTypes';
-import Input from './Input';
-import HintText from './HintText';
+import { ColorProps } from '@heathmont/moon-themes';
 import Container from '../styles/Container';
 import Label from '../styles/Label';
-import { ColorProps } from '@heathmont/moon-themes';
+import HintText from './HintText';
+import Input from './Input';
 import TextInputSizeType from './types/SizeTypes';
+import TextInputTypes from './types/TextInputTypes';
 
 interface TextInputXSandSmProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -57,6 +57,7 @@ const TextInputBasic: React.FC<TextInputXSandSmProps> = (props) => {
         ref={ref}
         id={id}
         bgColor={backgroundColor}
+        isRtl={dir === 'rtl'}
         {...inputProps}
       />
       {hintText && <HintText isError={isError}>{hintText}</HintText>}

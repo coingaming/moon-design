@@ -5,8 +5,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import DateTimeWithLabel from '../DateTimeWithLabel';
+import DateTimeWithLabelRtl from '../DateTimeWithLabelRtl';
 import DateTimeWithoutLabel from '../DateTimeWithoutLabel';
 import DateTimeWithHint from '../DateTimeWithHint';
 import DateTimeDisabled from '../DateTimeDisabled';
@@ -22,6 +22,12 @@ describe('TextInput: type DateTime', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(
       renderWithTheme(<DateTimeWithLabel />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<DateTimeWithLabelRtl />)
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });

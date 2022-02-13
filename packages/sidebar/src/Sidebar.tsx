@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-
-import { Container } from './private/Container';
 import { CollapseTarget } from './private/CollapseTarget';
+import { Container } from './private/Container';
 import { OuterContainer } from './private/OuterContainer';
 
 type Props = {
@@ -13,6 +12,7 @@ type Props = {
   collapseWidth?: number;
   onToggle?: (_: boolean) => void;
   onStateChange?: (state: boolean) => void;
+  isRtl?: boolean;
 };
 
 const Sidebar: React.FC<Props> = ({
@@ -25,6 +25,7 @@ const Sidebar: React.FC<Props> = ({
   collapseWidth = 80,
   onToggle,
   onStateChange,
+  isRtl,
 }) => {
   const [isOpen, setIsOpen] = useState(initialState);
   const initialRender = useRef(true);
@@ -49,10 +50,12 @@ const Sidebar: React.FC<Props> = ({
       isOpen={isOpen}
       openWidth={openWidth}
       collapseWidth={collapseWidth}
+      dir={isRtl ? 'rtl' : 'ltr'}
     >
       <CollapseTarget
         onClick={() => handleStateChange(!isOpen)}
         isOpen={isOpen}
+        isRtl={isRtl}
       >
         {isOpen ? collapseIcon : expandIcon}
       </CollapseTarget>

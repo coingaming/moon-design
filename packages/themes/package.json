@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/moon-themes",
-  "version": "7.22.3",
+  "version": "8.0.0",
   "sideEffects": false,
   "files": [
     "lib"
@@ -21,8 +21,8 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "peerDependencies": {
-    "react": ">= 16.10.2",
-    "react-dom": ">= 16.10.2",
-    "styled-components": ">= 5.2.1"
+    "react": ">= 17.0.2",
+    "react-dom": ">= 17.0.2",
+    "styled-components": ">= 5.3.3"
   }
 }

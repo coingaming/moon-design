@@ -6,7 +6,6 @@ import React, {
 } from 'react';
 import { ColorNames } from '@heathmont/moon-themes';
 import Tippy from '@tippyjs/react/headless';
-
 import { PopoverContainer } from './private/layout';
 
 type Placement =

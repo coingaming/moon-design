@@ -1,15 +1,16 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import TextWithLabel from '../../../public/examples/textInput/text/TextWithLabel';
-import TextWithoutLabel from '../../../public/examples/textInput/text/TextWithoutLabel';
-import TextWithHint from '../../../public/examples/textInput/text/TextWithHint';
+import TextBgColor from '../../../public/examples/textInput/text/TextBgColor';
+import TextBgColorRtl from '../../../public/examples/textInput/text/TextBgColorRtl';
 import TextDisabled from '../../../public/examples/textInput/text/TextDisabled';
 import TextError from '../../../public/examples/textInput/text/TextError';
-import TextBgColor from '../../../public/examples/textInput/text/TextBgColor';
+import TextErrorRtl from '../../../public/examples/textInput/text/TextErrorRtl';
 import TextReadonly from '../../../public/examples/textInput/text/TextReadonly';
-
+import TextReadonlyRtl from '../../../public/examples/textInput/text/TextReadonlyRtl';
+import TextWithHint from '../../../public/examples/textInput/text/TextWithHint';
+import TextWithLabel from '../../../public/examples/textInput/text/TextWithLabel';
+import TextWithoutLabel from '../../../public/examples/textInput/text/TextWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {
@@ -89,9 +90,23 @@ export default function PageTextInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Error Rtl"
+            preview={<TextErrorRtl />}
+            code={examples ? examples.TextErrorRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Input with background color"
             preview={<TextBgColor />}
             code={examples ? examples.TextBgColor : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
+            title="Input with background color Rtl"
+            preview={<TextBgColorRtl />}
+            code={examples ? examples.TextBgColorRtl : 'Loading'}
           />
         </section>
         <section className="mt-8">
@@ -101,10 +116,17 @@ export default function PageTextInput() {
             code={examples ? examples.TextReadonly : 'Loading'}
           />
         </section>
+        <section className="mt-8">
+          <Preview
+            title="Readonly Rtl"
+            preview={<TextReadonlyRtl />}
+            code={examples ? examples.TextReadonlyRtl : 'Loading'}
+          />
+        </section>
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

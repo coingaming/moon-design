@@ -1,5 +1,5 @@
-import { renderToStaticMarkup } from 'react-dom/server';
 import { ReactElement } from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
 
 type InlineSVGProps = ReactElement<string>;
 

@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import TelephoneWithLabel from '../../../public/examples/textInput/telephone/TelephoneWithLabel';
-import TelephoneWithoutLabel from '../../../public/examples/textInput/telephone/TelephoneWithoutLabel';
-import TelephoneWithHint from '../../../public/examples/textInput/telephone/TelephoneWithHint';
+import TelephoneBgColor from '../../../public/examples/textInput/telephone/TelephoneBgColor';
 import TelephoneDisabled from '../../../public/examples/textInput/telephone/TelephoneDisabled';
 import TelephoneError from '../../../public/examples/textInput/telephone/TelephoneError';
-import TelephoneBgColor from '../../../public/examples/textInput/telephone/TelephoneBgColor';
 import TelephoneReadonly from '../../../public/examples/textInput/telephone/TelephoneReadonly';
-
+import TelephoneWithHint from '../../../public/examples/textInput/telephone/TelephoneWithHint';
+import TelephoneWithLabel from '../../../public/examples/textInput/telephone/TelephoneWithLabel';
+import TelephoneWithLabelRtl from '../../../public/examples/textInput/telephone/TelephoneWithLabelRtl';
+import TelephoneWithoutLabel from '../../../public/examples/textInput/telephone/TelephoneWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTelephoneInput() {
@@ -61,6 +60,13 @@ export default function PageTelephoneInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label Rtl"
+            preview={<TelephoneWithLabelRtl />}
+            code={examples ? examples.TelephoneWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<TelephoneWithoutLabel />}
             code={examples ? examples.TelephoneWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageTelephoneInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

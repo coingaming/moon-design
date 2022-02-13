@@ -5,8 +5,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import UrlWithLabel from '../UrlWithLabel';
+import UrlWithLabelRtl from '../UrlWithLabelRtl';
 import UrlWithoutLabel from '../UrlWithoutLabel';
 import UrlWithHint from '../UrlWithHint';
 import UrlDisabled from '../UrlDisabled';
@@ -21,6 +21,10 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput: type Url', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(renderWithTheme(<UrlWithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(renderWithTheme(<UrlWithLabelRtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {

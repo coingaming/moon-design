@@ -1,23 +1,23 @@
 import { Button } from '@heathmont/moon-components';
 import { Theme } from '@heathmont/moon-themes';
-import { mq, rem, media } from '@heathmont/moon-utils';
+import { mq, media } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
 import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';
 
-export const resultsInactive = ({ transitionDuration }: Theme): CSSObject => ({
+export const resultsInactive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 0,
   visibility: 'hidden',
   maxHeight: 0,
-  transition: `visibility 0s linear ${transitionDuration.default}s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+  transition: `visibility 0s linear, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
-export const resultsActive = ({ transitionDuration }: Theme): CSSObject => ({
+export const resultsActive = ({ newTokens }: Theme): CSSObject => ({
   opacity: 1,
   visibility: 'visible',
   maxHeight: '100vh',
-  transition: `visibility 0s linear 0s, opacity ${transitionDuration.default}s, max-height ${transitionDuration.default}s`,
+  transition: `visibility 0s linear, opacity ${newTokens.transition.default}, max-height ${newTokens.transition.default}`,
 });
 
 export const SearchForm = styled.form({
@@ -27,23 +27,23 @@ export const SearchForm = styled.form({
   width: '100%',
 });
 
-export const FlexWrapper = styled.div(({ theme: { space } }) => ({
+export const FlexWrapper = styled.div(({ theme: { newTokens } }) => ({
   position: 'relative',
   display: 'flex',
   justifyContent: 'space-between',
-  gap: rem(space.small),
+  gap: newTokens.space.xsmall,
 }));
 
 export const ModalClose = styled(Button)(
-  ({ theme: { base, breakpoint, colorNew, fontWeight, space } }) => ({
+  ({ theme: { breakpoint, colorNew, newTokens } }) => ({
     position: 'relative',
     display: 'none',
     flex: 0,
     border: 0,
     lineHeight: 1,
-    padding: `0 ${rem(space.default)}`,
-    fontWeight: fontWeight.normal,
-    fontSize: rem(base.fontSize),
+    padding: `0 ${newTokens.space.small}`,
+    fontWeight: newTokens.font.weight.normal,
+    fontSize: newTokens.font.size,
     overflow: 'visible',
     color: colorNew.piccolo,
     ['&:hover:not([disabled])']: {
@@ -67,12 +67,10 @@ export const Results = styled.div(
       [`${focusOutsideSearchPopup} &`]: resultsInactive(theme),
     },
   }),
-  ({
-    theme: { borderWidth, shadows, newTokens, colorNew, radius, space },
-  }) => ({
+  ({ theme: { colorNew, newTokens } }) => ({
     position: 'absolute',
     left: 0,
-    top: rem(space.small),
+    top: newTokens.space.xsmall,
     color: colorNew.trunks,
     width: '100%',
     zIndex: zIndex.searchResults,
@@ -84,13 +82,12 @@ export const Results = styled.div(
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',
-      padding: `${rem(space.small)} ${rem(space.xsmall)}`,
-      borderRadius: rem(radius.default),
-      borderWidth,
-      borderStyle: 'solid',
+      padding: `${newTokens.space.xsmall} ${newTokens.space.twoxsmall}`,
+      borderRadius: newTokens.borderRadius.medium,
+      border: newTokens.border.default,
       borderColor: colorNew.beerus,
       backgroundColor: colorNew.gohan,
-      boxShadow: shadows.lg,
+      boxShadow: newTokens.boxShadow.large,
     },
   })
 );

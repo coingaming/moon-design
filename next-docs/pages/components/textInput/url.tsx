@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
-import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
-import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
+import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
 import UrlDisabled from '../../../public/examples/textInput/url/UrlDisabled';
 import UrlError from '../../../public/examples/textInput/url/UrlError';
-import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
 import UrlReadonly from '../../../public/examples/textInput/url/UrlReadonly';
-
+import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
+import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
+import UrlWithLabelRtl from '../../../public/examples/textInput/url/UrlWithLabelRtl';
+import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageUrlInput() {
@@ -61,6 +60,13 @@ export default function PageUrlInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<UrlWithLabelRtl />}
+            code={examples ? examples.UrlWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<UrlWithoutLabel />}
             code={examples ? examples.UrlWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageUrlInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

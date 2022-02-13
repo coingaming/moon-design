@@ -2,7 +2,6 @@ import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-
 import Container from './styles/Container';
 import MetaWrapper from './styles/MetaWrapper';
 import SubtextInner from './styles/SubtextInner';
@@ -24,14 +23,14 @@ const MainWrapper = styled.div({
 
 const ElementLeftWrapper = styled.span({
   gridArea: 'icon',
-  marginRight: rem(8),
+  marginInlineEnd: rem(8),
   display: 'flex',
   alignItems: 'center',
 });
 
 const ElementRightWrapper = styled.span({
   gridArea: 'meta',
-  marginLeft: rem(8),
+  marginInlineStart: rem(8),
   display: 'flex',
   alignItems: 'center',
 });

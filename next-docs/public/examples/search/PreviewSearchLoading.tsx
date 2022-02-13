@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Search } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 

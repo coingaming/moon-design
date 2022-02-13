@@ -14,7 +14,6 @@ import {
   HeaderGroup,
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
-  UseExpandedRowProps,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import Body from './components/Body';

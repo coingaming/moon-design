@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import PasswordWithLabel from '../../../public/examples/textInput/password/PasswordWithLabel';
-import PasswordWithoutLabel from '../../../public/examples/textInput/password/PasswordWithoutLabel';
-import PasswordWithHint from '../../../public/examples/textInput/password/PasswordWithHint';
+import PasswordBgColor from '../../../public/examples/textInput/password/PasswordBgColor';
 import PasswordDisabled from '../../../public/examples/textInput/password/PasswordDisabled';
 import PasswordError from '../../../public/examples/textInput/password/PasswordError';
-import PasswordBgColor from '../../../public/examples/textInput/password/PasswordBgColor';
 import PasswordReadonly from '../../../public/examples/textInput/password/PasswordReadonly';
-
+import PasswordWithHint from '../../../public/examples/textInput/password/PasswordWithHint';
+import PasswordWithLabel from '../../../public/examples/textInput/password/PasswordWithLabel';
+import PasswordWithLabelRtl from '../../../public/examples/textInput/password/PasswordWithLabelRtl';
+import PasswordWithoutLabel from '../../../public/examples/textInput/password/PasswordWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {
@@ -61,6 +60,13 @@ export default function PageTextInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<PasswordWithLabelRtl />}
+            code={examples ? examples.PasswordWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<PasswordWithoutLabel />}
             code={examples ? examples.PasswordWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageTextInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

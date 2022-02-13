@@ -5,8 +5,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import TelephoneWithLabel from '../TelephoneWithLabel';
+import TelephoneWithLabelRtl from '../TelephoneWithLabelRtl';
 import TelephoneWithoutLabel from '../TelephoneWithoutLabel';
 import TelephoneWithHint from '../TelephoneWithHint';
 import TelephoneDisabled from '../TelephoneDisabled';
@@ -22,6 +22,12 @@ describe('TextInput: type Tel', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(
       renderWithTheme(<TelephoneWithLabel />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<TelephoneWithLabelRtl />)
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });

@@ -1,7 +1,9 @@
-import mainColors from '../v2/colors/mainColors';
-import buttonVariantTokens from './buttonVariantTokens';
-import type { ColorShared, ColorValue } from '../supportColors/supportColors';
-import type { MainColors } from '../v2/colors/mainColors';
+import { ComponentsTokens } from './componentsTokens';
+import type {
+  ColorShared,
+  ColorValue,
+  MainColors,
+} from '../supportColors/supportColors';
 import type { SupportiveColors } from '../v2/colors/supportiveColors';
 
 /**
@@ -403,26 +405,6 @@ export type Font = {
   lineHeight: string;
 };
 
-export type Button = {
-  primary: any;
-  secondary: any;
-  tertiary: any;
-};
-
-export type TextLink = {
-  fontWeight: number;
-  color: {
-    default: ColorValue;
-    hover: ColorValue;
-    visited: ColorValue;
-  };
-};
-
-export type Hover = {
-  primary: string;
-  secondary: string;
-};
-
 export interface SharedTheme {
   base: Base;
   border: Border;
@@ -457,20 +439,17 @@ export interface SharedTheme {
     boxShadow: BoxShadowNew;
     font: Font;
     opacity: number;
-    button: Button; // Not sure if correct
-    textLink: TextLink;
-    hover: Hover;
-    focus: string;
     transform: string;
   };
 }
 
-export type Theme = SharedTheme & {
-  brand: Brand;
-  colorScheme: ColorScheme;
-  color: Color;
-  colorNew: ColorNew;
-};
+export type Theme = SharedTheme &
+  ComponentsTokens & {
+    brand: Brand;
+    colorScheme: ColorScheme;
+    color: Color;
+    colorNew: ColorNew;
+  };
 
 const sharedTokens: SharedTheme = {
   base: {
@@ -615,24 +594,6 @@ const sharedTokens: SharedTheme = {
       lineHeight: rem(baseLineHeight),
     },
     opacity: 0.32,
-    button: {
-      primary: buttonVariantTokens.fill,
-      secondary: buttonVariantTokens.stroke,
-      tertiary: buttonVariantTokens.fillSecondary,
-    },
-    textLink: {
-      fontWeight: fontWeightSemibold,
-      color: {
-        default: mainColors.piccolo,
-        hover: mainColors.hit,
-        visited: mainColors.hit,
-      },
-    },
-    hover: {
-      primary: `${mainColors.bulma}12`,
-      secondary: `${mainColors.piccolo}12`,
-    },
-    focus: `0 0 0 ${rem(4)} ${mainColors.piccolo}20`,
     transform: 'scale(0.9)',
   },
 };

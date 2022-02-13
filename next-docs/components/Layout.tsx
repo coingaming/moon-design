@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';
@@ -129,6 +128,7 @@ export default function Layout({ children }: LayoutProps) {
               <RTLModeSwitch toggle={toggleDirection} isEnabled={isRtl} />
             }
           />
+
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
 
           <div className="mt-auto py-8 px-4 lg:pt-24">

@@ -1,8 +1,12 @@
-import React, { ChangeEvent, useCallback, useEffect, useRef, useState } from 'react';
+import React, {
+  ChangeEvent,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
 import { debounce } from 'lodash';
 
-import Popup from './private/components/Popup';
-import { Results, SearchForm } from './private/components/Styles';
 import {
   SearchBox,
   SearchClearButton,
@@ -11,6 +15,8 @@ import {
   SearchInputIcon,
   SearchInputSize,
 } from './private/components/Input';
+import Popup from './private/components/Popup';
+import { Results, SearchForm } from './private/components/Styles';
 
 export interface SearchProps {
   closeButton?: JSX.Element;
@@ -74,9 +80,10 @@ const Search: React.FC<SearchProps> = ({
   const handleFocus = (e: React.FocusEvent<HTMLInputElement>) => {
     openPopup();
     onFocus && onFocus(e);
-  }
+  };
 
-  const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => onBlur && onBlur(e);
+  const handleBlur = (e: React.FocusEvent<HTMLInputElement>) =>
+    onBlur && onBlur(e);
 
   const openPopup = () => setIsActive(true);
 

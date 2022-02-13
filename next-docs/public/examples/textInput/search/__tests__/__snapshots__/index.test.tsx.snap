@@ -8,23 +8,23 @@ exports[`TextInput: type Search renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 cVrrwF"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 TqJRH"
         disabled={true}
         placeholder=" "
         type="search"
         value="Text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -35,23 +35,23 @@ exports[`TextInput: type Search renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 cVrrwF"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 iejWvo"
         disabled={true}
         placeholder=" "
         type="search"
         value="Text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -62,27 +62,27 @@ exports[`TextInput: type Search renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 cVrrwF"
+      className="Container-sc-1f49upb-0 gBLEES"
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 cXHYNK"
           disabled={true}
           placeholder=" "
           type="search"
           value="Text"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -100,20 +100,20 @@ exports[`TextInput: type Search renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 ePoPuR"
+        className="Input-qkdgvx-0 kXsyNR"
         placeholder="e.g. EPL"
         type="search"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -124,20 +124,20 @@ exports[`TextInput: type Search renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hYlQue"
+        className="Input-qkdgvx-0 hfAzeO"
         placeholder="e.g. EPL"
         type="search"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -148,24 +148,24 @@ exports[`TextInput: type Search renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 bAlyPc"
+          className="Input-qkdgvx-0 czTyEs"
           placeholder="e.g. EPL"
           type="search"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 gliQQD"
+        className="HintText-sc-1e9hzxr-0 jpqMLI"
         role="alert"
       >
         Error message
@@ -183,22 +183,22 @@ exports[`TextInput: type Search renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder=" "
         readOnly={true}
         type="search"
         value="Read only text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -209,22 +209,22 @@ exports[`TextInput: type Search renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder=" "
         readOnly={true}
         type="search"
         value="Read only text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -235,26 +235,26 @@ exports[`TextInput: type Search renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder=" "
           readOnly={true}
           type="search"
           value="Read only text"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -272,20 +272,20 @@ exports[`TextInput: type Search renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder="e.g. EPL"
         type="search"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -296,20 +296,20 @@ exports[`TextInput: type Search renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder="e.g. EPL"
         type="search"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -320,24 +320,24 @@ exports[`TextInput: type Search renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder="e.g. EPL"
           type="search"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -355,15 +355,15 @@ exports[`TextInput: type Search renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -373,15 +373,15 @@ exports[`TextInput: type Search renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -391,18 +391,88 @@ exports[`TextInput: type Search renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder="e.g. EPL"
           type="search"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
+        >
+          xlarge
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput: type Search renders with label RTL 1`] = `
+<div
+  className="flex gap-4 items-end"
+>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 bJkxLR"
+        dir="rtl"
+      >
+        medium
+      </label>
+      <input
+        className="Input-qkdgvx-0 TqJRH"
+        dir="rtl"
+        placeholder="e.g. EPL"
+        type="search"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <label
+        className="Label-sc-1rdea5p-0 bJkxLR"
+        dir="rtl"
+      >
+        large
+      </label>
+      <input
+        className="Input-qkdgvx-0 iejWvo"
+        dir="rtl"
+        placeholder="e.g. EPL"
+        type="search"
+      />
+    </div>
+  </div>
+  <div
+    className="m-4"
+  >
+    <div
+      className="Container-sc-1f49upb-0 fVKDpE"
+    >
+      <div
+        className="Inner-sc-1soq84i-0 XqqD"
+      >
+        <input
+          className="Input-qkdgvx-0 cXHYNK"
+          dir="rtl"
+          placeholder="e.g. EPL"
+          type="search"
+        />
+        <label
+          className="LabelInner-vrrjt0-0 jmYFGi"
         >
           xlarge
         </label>
@@ -420,10 +490,10 @@ exports[`TextInput: type Search renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 lcXcAj"
+        className="Input-qkdgvx-0 TqJRH"
         placeholder="medium"
         type="search"
       />
@@ -433,10 +503,10 @@ exports[`TextInput: type Search renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 VgDxs"
+        className="Input-qkdgvx-0 iejWvo"
         placeholder="large"
         type="search"
       />
@@ -446,18 +516,18 @@ exports[`TextInput: type Search renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 giDsHQ"
+        className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 lifWkn"
+          className="Input-qkdgvx-0 gMNPmj"
           placeholder="xlarge"
           type="search"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
         />
       </div>
     </div>
@@ -473,20 +543,20 @@ exports[`TextInput: type Search supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iaCGCs"
+        className="Input-qkdgvx-0 sxsJI"
         placeholder="e.g. EPL"
         type="search"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -497,20 +567,20 @@ exports[`TextInput: type Search supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <label
-        className="Label-sc-1rdea5p-0 irIYEK"
+        className="Label-sc-1rdea5p-0 bJkxLR"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fJmycv"
+        className="Input-qkdgvx-0 iFdnDn"
         placeholder="e.g. EPL"
         type="search"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder
@@ -521,24 +591,24 @@ exports[`TextInput: type Search supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 coSnaj"
+      className="Container-sc-1f49upb-0 fVKDpE"
     >
       <div
-        className="Inner-sc-1soq84i-0 enHEsf"
+        className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 eTWuGS"
+          className="Input-qkdgvx-0 cXHYNK"
           placeholder="e.g. EPL"
           type="search"
         />
         <label
-          className="LabelInner-vrrjt0-0 dBsIAK"
+          className="LabelInner-vrrjt0-0 foFqgl"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jqaInz"
+        className="HintText-sc-1e9hzxr-0 kLWKCo"
         role="alert"
       >
         Informative message holder

@@ -5,8 +5,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import SearchWithLabel from '../SearchWithLabel';
+import SearchWithLabelRtl from '../SearchWithLabelRtl';
 import SearchWithoutLabel from '../SearchWithoutLabel';
 import SearchWithHint from '../SearchWithHint';
 import SearchDisabled from '../SearchDisabled';
@@ -21,6 +21,12 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput: type Search', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(renderWithTheme(<SearchWithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<SearchWithLabelRtl />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {

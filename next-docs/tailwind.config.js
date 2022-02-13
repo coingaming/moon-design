@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#F4F4F4',
+        background: '#f4f4f4',
         border: {
           DEFAULT: 'rgba(255, 255, 255, 0.2)', // Border color for "For designers" items
         },
@@ -15,9 +15,9 @@ module.exports = {
           DEFAULT: 'rgba(0, 0, 0, 0.1)', // Border color for "For develops" items
         },
         active: {
-          DEFAULT: '#4E46B4',
+          DEFAULT: '#4e46b4',
           80: 'rgba(78, 70, 180, 0.1)',
-          60: '#E9E7F9',
+          60: '#e9e7e9',
         },
         designer: 'rgba(52, 72, 240, 0.9)',
         bgdesigner: 'rgba(0, 0, 0, 0.6)', // active item colour
@@ -114,5 +114,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('tailwindcss-rtl')],
 };

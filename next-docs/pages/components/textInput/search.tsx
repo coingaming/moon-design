@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
-import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
-import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
+import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
 import SearchDisabled from '../../../public/examples/textInput/search/SearchDisabled';
 import SearchError from '../../../public/examples/textInput/search/SearchError';
-import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
 import SearchReadonly from '../../../public/examples/textInput/search/SearchReadonly';
-
+import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
+import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
+import SearchWithLabelRtl from '../../../public/examples/textInput/search/SearchWithLabelRtl';
+import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSearchInput() {
@@ -61,6 +60,13 @@ export default function PageSearchInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<SearchWithLabelRtl />}
+            code={examples ? examples.SearchWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<SearchWithoutLabel />}
             code={examples ? examples.SearchWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageSearchInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

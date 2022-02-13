@@ -5,7 +5,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import TextWithLabel from '../TextWithLabel';
 import TextWithoutLabel from '../TextWithoutLabel';
 import TextWithHint from '../TextWithHint';
@@ -13,6 +12,7 @@ import TextDisabled from '../TextDisabled';
 import TextError from '../TextError';
 import TextBgColor from '../TextBgColor';
 import TextReadonly from '../TextReadonly';
+import TextReadonlyRtl from '../TextReadonlyRtl';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -45,6 +45,10 @@ describe('TextInput: type Text', () => {
   });
   it('renders readOnly', () => {
     const testRenderer = renderer.create(renderWithTheme(<TextReadonly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders RTL', () => {
+    const testRenderer = renderer.create(renderWithTheme(<TextReadonlyRtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

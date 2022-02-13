@@ -2,13 +2,13 @@
 
 exports[`Dialog renders 1`] = `
 <button
-  className="sc-kkeJPq fSsWMv"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
   >
     Open Dialog
   </div>
@@ -17,28 +17,28 @@ exports[`Dialog renders 1`] = `
 
 exports[`Dialog renders Another Dialog Header 1`] = `
 <button
-  className="sc-kkeJPq fSsWMv"
+  className="ButtonComponent-sc-1qwityd-0 lmotjR"
   onClick={[Function]}
-  size="small"
-  variant="primary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
 >
+  Open Dialog
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
-  >
-    Open Dialog
-  </div>
+    className="Hover-yzznpt-0 ctGatB"
+  />
 </button>
 `;
 
 exports[`Dialog renders Dialog Header 1`] = `
 <button
-  className="sc-kkeJPq fSsWMv"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
   >
     Open Dialog
   </div>
@@ -50,13 +50,13 @@ exports[`Dialog renders RTL 1`] = `
   dir="rtl"
 >
   <button
-    className="sc-kkeJPq fSsWMv"
+    className="sc-kjOQFR bYtfKl"
     onClick={[Function]}
     size="small"
     variant="primary"
   >
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
     >
       Open Dialog
     </div>
@@ -66,13 +66,13 @@ exports[`Dialog renders RTL 1`] = `
 
 exports[`Dialog renders with No Background 1`] = `
 <button
-  className="sc-kkeJPq fSsWMv"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
   >
     Open Dialog
   </div>
@@ -81,13 +81,13 @@ exports[`Dialog renders with No Background 1`] = `
 
 exports[`Dialog renders with No Close 1`] = `
 <button
-  className="sc-kkeJPq fSsWMv"
+  className="sc-kjOQFR bYtfKl"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 gwKSbc"
+    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
   >
     Open Dialog
   </div>

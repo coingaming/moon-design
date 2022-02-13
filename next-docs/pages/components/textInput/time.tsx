@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import TimeWithLabel from '../../../public/examples/textInput/time/TimeWithLabel';
-import TimeWithoutLabel from '../../../public/examples/textInput/time/TimeWithoutLabel';
-import TimeWithHint from '../../../public/examples/textInput/time/TimeWithHint';
+import TimeBgColor from '../../../public/examples/textInput/time/TimeBgColor';
 import TimeDisabled from '../../../public/examples/textInput/time/TimeDisabled';
 import TimeError from '../../../public/examples/textInput/time/TimeError';
-import TimeBgColor from '../../../public/examples/textInput/time/TimeBgColor';
 import TimeReadonly from '../../../public/examples/textInput/time/TimeReadonly';
-
+import TimeWithHint from '../../../public/examples/textInput/time/TimeWithHint';
+import TimeWithLabel from '../../../public/examples/textInput/time/TimeWithLabel';
+import TimeWithLabelRtl from '../../../public/examples/textInput/time/TimeWithLabelRtl';
+import TimeWithoutLabel from '../../../public/examples/textInput/time/TimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTimeInput() {
@@ -61,6 +60,13 @@ export default function PageTimeInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<TimeWithLabelRtl />}
+            code={examples ? examples.TimeWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<TimeWithoutLabel />}
             code={examples ? examples.TimeWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageTimeInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

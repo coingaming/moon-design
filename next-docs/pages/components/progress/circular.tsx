@@ -1,9 +1,7 @@
 import React from 'react';
-
 import Preview from '../../../components/codePreview/Preview';
-
 import Default from '../../../public/examples/progress/circular/Default';
-
+import Rtl from '../../../public/examples/progress/circular/Rtl';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageProgressLinear() {
@@ -34,6 +32,15 @@ export default function PageProgressLinear() {
           title="Examples"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Rtl */}
+      <section className="mt-8">
+        <Preview
+          title="Rtl"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
     </>

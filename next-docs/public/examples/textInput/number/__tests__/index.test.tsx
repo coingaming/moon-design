@@ -5,8 +5,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import NumberWithLabel from '../NumberWithLabel';
+import NumberWithLabelRtl from '../NumberWithLabelRtl';
 import NumberWithoutLabel from '../NumberWithoutLabel';
 import NumberWithHint from '../NumberWithHint';
 import NumberDisabled from '../NumberDisabled';
@@ -21,6 +21,12 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput: type Number', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(renderWithTheme(<NumberWithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<NumberWithLabelRtl />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {

@@ -5,8 +5,8 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-
 import Default from '../Default';
+import Rtl from '../Rtl';
 import Space from '../Space';
 import CustomizedArrow from '../CustomizedArrow';
 import VisibleIndex from '../VisibleIndex';
@@ -54,6 +54,12 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('Carousel', () => {
   beforeEach(() => {
     setupIntersectionObserverMock();
@@ -61,6 +67,11 @@ describe('Carousel', () => {
 
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Rtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

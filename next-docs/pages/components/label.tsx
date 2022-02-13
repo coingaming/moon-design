@@ -1,12 +1,9 @@
 import React from 'react';
-
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-
 import Colours from '../../public/examples/label/Colours';
 import Sizes from '../../public/examples/label/Sizes';
 import SizesList from '../../public/examples/label/SizesList';
-
 import useExamples from '../../utils/useExamples';
 
 export default function PageLabel() {

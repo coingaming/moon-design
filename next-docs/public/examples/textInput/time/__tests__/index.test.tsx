@@ -5,8 +5,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import TimeWithLabel from '../TimeWithLabel';
+import TimeWithLabelRtl from '../TimeWithLabelRtl';
 import TimeWithoutLabel from '../TimeWithoutLabel';
 import TimeWithHint from '../TimeWithHint';
 import TimeDisabled from '../TimeDisabled';
@@ -21,6 +21,10 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput: type Time', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(renderWithTheme(<TimeWithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(renderWithTheme(<TimeWithLabelRtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {

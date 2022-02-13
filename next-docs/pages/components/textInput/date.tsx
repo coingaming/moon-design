@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import DateWithLabel from '../../../public/examples/textInput/date/DateWithLabel';
-import DateWithoutLabel from '../../../public/examples/textInput/date/DateWithoutLabel';
-import DateWithHint from '../../../public/examples/textInput/date/DateWithHint';
+import DateBgColor from '../../../public/examples/textInput/date/DateBgColor';
 import DateDisabled from '../../../public/examples/textInput/date/DateDisabled';
 import DateError from '../../../public/examples/textInput/date/DateError';
-import DateBgColor from '../../../public/examples/textInput/date/DateBgColor';
 import DateReadonly from '../../../public/examples/textInput/date/DateReadonly';
-
+import DateWithHint from '../../../public/examples/textInput/date/DateWithHint';
+import DateWithLabel from '../../../public/examples/textInput/date/DateWithLabel';
+import DateWithLabelRtl from '../../../public/examples/textInput/date/DateWithLabelRtl';
+import DateWithoutLabel from '../../../public/examples/textInput/date/DateWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDateInput() {
@@ -61,6 +60,13 @@ export default function PageDateInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<DateWithLabelRtl />}
+            code={examples ? examples.DateWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<DateWithoutLabel />}
             code={examples ? examples.DateWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageDateInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

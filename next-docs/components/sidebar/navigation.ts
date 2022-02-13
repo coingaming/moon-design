@@ -3,12 +3,13 @@ const navigation = [
   { name: 'Vision', href: '/vision' },
   { name: 'Getting Started', href: '/getting-started' },
   { name: 'How to contribute', href: '/how-to-contribute' },
+  // { name: 'Legacy Colours Palette', href: '/colours-legacy' },
   { name: 'Colours Palette', href: '/colours' },
-  { name: 'Colours Palette New', href: '/colours-new' },
   { name: 'Typography', href: '/typography' },
+  // { name: 'Legacy Tokens', href: '/tokens-legacy' },
   { name: 'Tokens', href: '/tokens' },
-  { name: 'Tokens New', href: '/tokens-new' },
   { name: 'Icons', href: '/icons' },
+  { name: 'Transform SVG', href: '/transform-icon' },
   {
     name: 'Components',
     children: [
@@ -39,9 +40,9 @@ const navigation = [
       {
         name: 'Dialog',
         children: [
-          { name: 'Dialog', href: '/components/dialog/dialog' }, // TODO code
-          { name: 'Dialog Content', href: '/components/dialog/dialogContent' }, // TODO code
-          { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' }, // TODO code
+          { name: 'Dialog', href: '/components/dialog/dialog' },
+          { name: 'Dialog Content', href: '/components/dialog/dialogContent' },
+          { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' },
           { name: 'Dialog Header', href: '/components/dialog/header' },
           { name: 'Dialog Footer', href: '/components/dialog/footer' },
         ],
@@ -49,7 +50,7 @@ const navigation = [
       { name: 'Label', href: '/components/label' },
       { name: 'List Item', href: '/components/listItem' },
       { name: 'Loader', href: '/components/loader' },
-      { name: 'Pagination', href: '/components/pagination' }, // TODO
+      { name: 'Pagination', href: '/components/pagination' },
       {
         name: 'Progress',
         children: [
@@ -62,6 +63,7 @@ const navigation = [
         href: '/components/popover',
       },
       { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
+      // { name: 'Reel', href: '/components/reel' }, // Uncomment only if you want to see what reel looks like
       // {
       //   name: 'RadioButton',
       //   children: [
@@ -95,6 +97,7 @@ const navigation = [
           // },
         ],
       },
+      // { name: 'Sidebar', href: '/components/sidebar' }, // Uncomment only if you want to check how it looks
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
       { name: 'Table', href: '/components/table/table' },

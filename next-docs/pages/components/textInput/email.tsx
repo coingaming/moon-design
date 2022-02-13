@@ -1,15 +1,14 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Table from '../../../components/Table';
-
-import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
-import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
-import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
+import EmailBgColor from '../../../public/examples/textInput/email/EmailBgColor';
 import EmailDisabled from '../../../public/examples/textInput/email/EmailDisabled';
 import EmailError from '../../../public/examples/textInput/email/EmailError';
-import EmailBgColor from '../../../public/examples/textInput/email/EmailBgColor';
 import EmailReadonly from '../../../public/examples/textInput/email/EmailReadonly';
-
+import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
+import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
+import EmailWithLabelRtl from '../../../public/examples/textInput/email/EmailWithLabelRtl';
+import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {
@@ -61,6 +60,13 @@ export default function PageTextInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<EmailWithLabelRtl />}
+            code={examples ? examples.EmailWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<EmailWithoutLabel />}
             code={examples ? examples.EmailWithoutLabel : 'Loading'}
@@ -104,7 +110,7 @@ export default function PageTextInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

@@ -1,11 +1,9 @@
 import React from 'react';
 import { Button } from '@heathmont/moon-components';
-
 import { enGB } from 'date-fns/locale';
 import styled from 'styled-components';
 import useClickOutside from '../hooks/useClickOutside';
 import Calendar from './Calendar';
-
 import getPlaceholder from './private/helpers/getPlacegolder';
 
 export type WeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;

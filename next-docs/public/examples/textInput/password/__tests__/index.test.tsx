@@ -3,10 +3,10 @@
  */
 
 import React from 'react';
-import renderer, { act } from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-
 import PasswordWithLabel from '../PasswordWithLabel';
+import PasswordWithLabelRtl from '../PasswordWithLabelRtl';
 import PasswordWithoutLabel from '../PasswordWithoutLabel';
 import PasswordWithHint from '../PasswordWithHint';
 import PasswordDisabled from '../PasswordDisabled';
@@ -22,6 +22,12 @@ describe('TextInput: type Password', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(
       renderWithTheme(<PasswordWithLabel />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<PasswordWithLabelRtl />)
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });

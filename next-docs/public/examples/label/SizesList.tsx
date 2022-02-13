@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Label } from '@heathmont/moon-core';
 import { ControlsClose, GenericInfo } from '@heathmont/moon-icons';
 
