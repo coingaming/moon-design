@@ -1,10 +1,11 @@
 import React, { forwardRef } from 'react';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 import { Label } from '../private/label/label';
 
-import { Input } from './Input';
 import { InputError } from './Error';
+import { Input } from './Input';
 
 /**
  * Types & Settings
@@ -31,12 +32,36 @@ type TextInputProps = React.InputHTMLAttributes<HTMLInputElement> & {
   dir?: 'ltr' | 'rtl' | 'auto';
 };
 
-const TextInputElem = styled(Input as any)(({ error, theme: { color } }) => ({
-  '&:focus': {
-    borderColor: !error ? color.piccolo[100] : color.chiChi[100],
-    outline: 'none',
-  },
-}));
+const TextInputElem = styled(Input as any)(
+  ({ error, theme: { color }, type, dir }) => [
+    {
+      position: 'relative',
+      '&:focus': {
+        borderColor: !error ? color.piccolo[100] : color.chiChi[100],
+        outline: 'none',
+      },
+      '&::-webkit-datetime-edit, &::-webkit-date-and-time-value': {
+        display: 'block',
+        padding: 0,
+        ...(dir === 'rtl' && type === 'datetime-local'
+          ? { position: 'relative', right: rem(-30) }
+          : {}),
+      },
+      '&::-webkit-date-and-time-value': {
+        paddingTop: rem(8),
+        ...(dir === 'rtl' && type === 'datetime-local'
+          ? { position: 'relative', right: rem(-30) }
+          : {}),
+      },
+      '&::-webkit-calendar-picker-indicator': {
+        position: 'absolute',
+        ...(dir === 'rtl' && type === 'datetime-local'
+          ? { left: rem(-10) }
+          : { right: rem(14) }),
+      },
+    },
+  ]
+);
 
 /**
  * Component

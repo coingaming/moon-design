@@ -61,6 +61,7 @@ export interface DateRangePickerProps {
   }) => any;
   config?: RangeConfig;
   translations?: RangeTranslations;
+  isRtl?: boolean;
 }
 
 const RangeCalendar: React.FC<DateRangePickerProps> = ({
@@ -73,6 +74,7 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
   hasClickedOutside,
   setIsOpen,
   setPlaceholder,
+  isRtl,
 }) => {
   const {
     datesState,
@@ -118,6 +120,7 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
       onDateChange={onDateChange}
       apply={apply}
       reset={reset}
+      isRtl={isRtl}
     />
   );
 };

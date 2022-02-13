@@ -21,10 +21,9 @@ const SidebarList = styled.ul(({ theme: { color, breakpoint } }) => ({
 
 type RangeItemProps = {
   isSelected?: boolean;
-  isRtl?: boolean;
 };
 
-const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected, isRtl }) => ({
+const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   position: 'relative',
   listStyle: 'none',
   padding: rem(8),
@@ -35,7 +34,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected, isRtl }) => ({
   background: isSelected ? theme.color.gohan[80] : theme.color.gohan[100],
   color: theme.color.bulma[100],
   [mq(theme.breakpoint.small)]: {
-    paddingInlineStart: rem(16),
+    paddingLeft: rem(16),
   },
   '&:hover': {
     background: theme.color.goku[80],
@@ -45,7 +44,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected, isRtl }) => ({
     display: 'block',
     position: 'absolute',
     zIndex: 1,
-    ...(isRtl ? { right: 0 } : { left: 0 }),
+    left: 0,
     top: 0,
     bottom: 0,
     width: rem(4),
@@ -59,7 +58,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected, isRtl }) => ({
         display: 'block',
         position: 'absolute',
         zIndex: 1,
-        ...(isRtl ? { right: 0 } : { left: 0 }),
+        left: 0,
         top: 0,
         bottom: 0,
         width: rem(4),
@@ -75,7 +74,6 @@ type SidebarProps = {
   selectRange: any;
   translations: any;
   config: any;
-  isRtl?: boolean;
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -83,7 +81,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
   selectRange,
   translations,
   config,
-  isRtl,
 }) => {
   const ranges = getRanges(config);
 
@@ -94,7 +91,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
           key={range}
           isSelected={range === currentRange}
           onClick={() => selectRange(range)}
-          isRtl={isRtl}
         >
           {translations[range]}
         </RangeItem>

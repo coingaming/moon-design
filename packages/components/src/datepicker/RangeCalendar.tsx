@@ -63,7 +63,6 @@ export interface DateRangePickerProps {
   hasClickedOutside?: boolean;
   setIsOpen?: any;
   setPlaceholder?: any;
-  isRtl?: boolean;
   onDateChange: ({
     startDate,
     endDate,
@@ -87,7 +86,6 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
   hasClickedOutside,
   setIsOpen,
   setPlaceholder,
-  isRtl,
 }) => {
   const [datesState, setDatesState] = React.useState<DatepickerState>({
     startDate: initialStartDate,
@@ -306,7 +304,6 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
       onDateChange={onDateChange}
       apply={apply}
       reset={reset}
-      isRtl={isRtl}
     />
   );
 };

@@ -53,27 +53,23 @@ const SecondMonth = styled.div({
   position: 'relative',
 });
 
-const LeftArrow = styled(IconChevronLeft as any)<{ isRtl?: boolean }>(
-  ({ theme, isRtl }) => ({
-    cursor: 'pointer',
-    color: theme.color.bulma[100],
-    position: 'absolute',
-    ...(isRtl ? { right: rem(16) } : { left: rem(16) }),
-    fontSize: rem(16),
-    top: rem(2),
-  })
-);
+const LeftArrow = styled(IconChevronLeft as any)(({ theme }) => ({
+  cursor: 'pointer',
+  color: theme.color.bulma[100],
+  position: 'absolute',
+  left: rem(16),
+  fontSize: rem(16),
+  top: rem(2),
+}));
 
-const RightArrow = styled(IconChevronRight as any)<{ isRtl?: boolean }>(
-  ({ theme, isRtl }) => ({
-    cursor: 'pointer',
-    color: theme.color.bulma[100],
-    position: 'absolute',
-    ...(isRtl ? { left: rem(16) } : { right: rem(16) }),
-    fontSize: rem(16),
-    top: rem(2),
-  })
-);
+const RightArrow = styled(IconChevronRight as any)(({ theme }) => ({
+  cursor: 'pointer',
+  color: theme.color.bulma[100],
+  position: 'absolute',
+  right: rem(16),
+  fontSize: rem(16),
+  top: rem(2),
+}));
 
 export const Picker: React.FC<any> = ({
   datesState,
@@ -92,7 +88,6 @@ export const Picker: React.FC<any> = ({
   onDateChange,
   apply,
   reset,
-  isRtl,
 }) => (
   <PickerContainer>
     <Sidebar
@@ -100,10 +95,9 @@ export const Picker: React.FC<any> = ({
       selectRange={selectRange}
       translations={translations}
       config={config}
-      isRtl={isRtl}
     />
     <FirstMonth>
-      <LeftArrow onClick={prevMonth} isRtl={isRtl} />
+      <LeftArrow onClick={prevMonth} />
       <Month
         key="first"
         monthDays={firstMonth}
@@ -119,7 +113,7 @@ export const Picker: React.FC<any> = ({
       />
     </FirstMonth>
     <SecondMonth>
-      <RightArrow onClick={nextMonth} isRtl={isRtl} />
+      <RightArrow onClick={nextMonth} />
       <Month
         key="second"
         monthDays={secondMonth}
@@ -144,7 +138,6 @@ export const Picker: React.FC<any> = ({
       translations={translations}
       apply={apply}
       config={config}
-      isRtl={isRtl}
     />
   </PickerContainer>
 );

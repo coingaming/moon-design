@@ -88,6 +88,7 @@ export const Picker: React.FC<any> = ({
   onDateChange,
   apply,
   reset,
+  isRtl,
 }) => (
   <PickerContainer>
     <Sidebar
@@ -95,9 +96,14 @@ export const Picker: React.FC<any> = ({
       selectRange={selectRange}
       translations={translations}
       config={config}
+      isRtl={isRtl}
     />
     <FirstMonth>
-      <LeftArrow onClick={prevMonth} />
+      {isRtl ? (
+        <RightArrow onClick={prevMonth} />
+      ) : (
+        <LeftArrow onClick={prevMonth} />
+      )}
       <Month
         key="first"
         monthDays={firstMonth}
@@ -113,7 +119,11 @@ export const Picker: React.FC<any> = ({
       />
     </FirstMonth>
     <SecondMonth>
-      <RightArrow onClick={nextMonth} />
+      {isRtl ? (
+        <LeftArrow onClick={nextMonth} />
+      ) : (
+        <RightArrow onClick={nextMonth} />
+      )}
       <Month
         key="second"
         monthDays={secondMonth}
@@ -138,6 +148,7 @@ export const Picker: React.FC<any> = ({
       translations={translations}
       apply={apply}
       config={config}
+      isRtl={isRtl}
     />
   </PickerContainer>
 );

@@ -19,7 +19,7 @@ const InputsPanelStyled = styled.div(({ theme }) => ({
   [media(theme.newTokens.breakpoint.medium)]: {
     flexDirection: 'row',
     '& > * + *': {
-      marginLeft: rem(theme.space.default),
+      marginInlineStart: rem(theme.space.default),
     },
   },
 }));
@@ -40,6 +40,7 @@ type InputsPanelProps = {
   apply: any;
   reset: any;
   config: RangeConfig;
+  isRtl?: boolean;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
@@ -50,6 +51,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   translations,
   apply,
   config,
+  isRtl,
   // reset,
 }) => {
   const {
@@ -71,12 +73,14 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
         value={inputStartDate}
         onChange={handelStartDateChange}
+        dir={isRtl ? 'rtl' : 'ltr'}
       />
       <StyledTextInput
         error={hasEndDateError}
         type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
         value={inputEndDate}
         onChange={handelEndDateChange}
+        dir={isRtl ? 'rtl' : 'ltr'}
       />
 
       <Button

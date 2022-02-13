@@ -19,7 +19,6 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   onDateChange,
   config,
   translations,
-  isRtl,
 }) => {
   // const [ref, hasClickedOutside] = useClickOutside();
   const [isOpen, setIsOpen] = React.useState(isOpenByDefault);
@@ -48,7 +47,6 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
           // hasClickedOutside={hasClickedOutside}
           setIsOpen={setIsOpen}
           setPlaceholder={setPlaceholder}
-          isRtl={isRtl}
         />
       )}
     </Wrapper>
