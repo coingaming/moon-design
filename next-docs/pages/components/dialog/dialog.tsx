@@ -55,6 +55,13 @@ export default function PageDialog() {
           ensure that the decision, and any potential actions that may result
           from it, is clearly explained within the modal.
         </p>
+
+        <p className="text-lg mt-4 font-bold">About RTL and icon mirroring</p>
+        <p className="text-lg">
+          The icons are slots passed to the component. It is the developer's
+          responsibility to pass a mirrored icon for RTL views, (ie, pass left
+          or right arrows depending on the direction).
+        </p>
       </section>
 
       <section className="mt-8">
