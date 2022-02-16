@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import Default from '../../../public/examples/select/select/Default';
 import Label from '../../../public/examples/select/select/Label';
+import Rtl from '../../../public/examples/select/select/Rtl';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
@@ -26,6 +27,14 @@ export default function PageSelect() {
           title="Examples"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="RTL"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
 

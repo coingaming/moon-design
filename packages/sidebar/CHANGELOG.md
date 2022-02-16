@@ -1,5 +1,17 @@
 # Change Log
 
+## 8.0.0
+
+### Major Changes
+
+- New tokens
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.0.0
+  - @heathmont/moon-utils@8.0.0
+
 ## 7.22.3
 
 ### Patch Changes

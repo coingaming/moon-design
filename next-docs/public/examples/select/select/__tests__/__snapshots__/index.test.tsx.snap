@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reel renders 1`] = `
+<select
+  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO QUFgi"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="never-gonna"
+  >
+    Never gonna
+  </option>
+  <option
+    value="give-you-up"
+  >
+    give you up
+  </option>
+  <option
+    value="let-you-down"
+  >
+    let you down
+  </option>
+</select>
+`;
+
+exports[`Reel renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <select
+    className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO kslYHJ"
+    dir="rtl"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Reel renders as disabled 1`] = `
+<select
+  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO QUFgi"
+  disabled={true}
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="never-gonna"
+  >
+    Never gonna
+  </option>
+  <option
+    value="give-you-up"
+  >
+    give you up
+  </option>
+  <option
+    value="let-you-down"
+  >
+    let you down
+  </option>
+</select>
+`;
+
+exports[`Reel renders as full-width 1`] = `
+<select
+  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO cwfzDp"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="never-gonna"
+  >
+    Never gonna
+  </option>
+  <option
+    value="give-you-up"
+  >
+    give you up
+  </option>
+  <option
+    value="let-you-down"
+  >
+    let you down
+  </option>
+</select>
+`;
+
+exports[`Reel renders with flex evenly spaced by default 1`] = `
+<select
+  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO QUFgi"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="never-gonna"
+  >
+    Never gonna
+  </option>
+  <option
+    value="give-you-up"
+  >
+    give you up
+  </option>
+  <option
+    value="let-you-down"
+  >
+    let you down
+  </option>
+</select>
+`;
+
+exports[`Reel renders with flex with adjusted input size 1`] = `
+<select
+  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO QUFgi"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="never-gonna"
+  >
+    Never gonna
+  </option>
+  <option
+    value="give-you-up"
+  >
+    give you up
+  </option>
+  <option
+    value="let-you-down"
+  >
+    let you down
+  </option>
+</select>
+`;
+
+exports[`Reel renders with label 1`] = `
+<label
+  className="label__LabelFlex-sc-4w9rwl-1"
+>
+  <span
+    className="label__LabelContent-sc-4w9rwl-0 fkgnOC"
+  >
+    Label Content
+  </span>
+  <select
+    className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 bWTtUO QUFgi"
+  >
+    <option
+      value=""
+    >
+      Select an option
+    </option>
+    <option
+      value="never-gonna"
+    >
+      Never gonna
+    </option>
+    <option
+      value="give-you-up"
+    >
+      give you up
+    </option>
+    <option
+      value="let-you-down"
+    >
+      let you down
+    </option>
+  </select>
+</label>
+`;

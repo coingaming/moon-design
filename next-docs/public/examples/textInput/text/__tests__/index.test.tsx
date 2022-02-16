@@ -12,6 +12,7 @@ import TextDisabled from '../TextDisabled';
 import TextError from '../TextError';
 import TextBgColor from '../TextBgColor';
 import TextReadonly from '../TextReadonly';
+import TextReadonlyRtl from '../TextReadonlyRtl';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -44,6 +45,10 @@ describe('TextInput: type Text', () => {
   });
   it('renders readOnly', () => {
     const testRenderer = renderer.create(renderWithTheme(<TextReadonly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders RTL', () => {
+    const testRenderer = renderer.create(renderWithTheme(<TextReadonlyRtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

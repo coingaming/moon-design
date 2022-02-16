@@ -23,7 +23,7 @@ const Example = () => {
         space="xlarge"
         items={({ firstVisibleIndex, lastVisibleIndex }) =>
           items.map((item, index) => (
-            <ExampleContent>
+            <ExampleContent key={index}>
               {firstVisibleIndex}, {lastVisibleIndex}
             </ExampleContent>
           ))
