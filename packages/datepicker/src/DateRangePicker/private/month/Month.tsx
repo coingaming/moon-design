@@ -5,11 +5,9 @@ import isDate from 'date-fns/isDate';
 import isSameDay from 'date-fns/isSameDay';
 import isWithinInterval from 'date-fns/isWithinInterval';
 import startOfWeek from 'date-fns/startOfWeek';
-import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
 import { Day } from '../Day';
 import { isInRangePreview } from '../helpers/isInRangePreview';
-
 import MonthSelect from './MonthSelect';
 import DayName from './styles/DayName';
 import MonthYearLabel from './styles/MonthYearLabel';
@@ -26,8 +24,10 @@ type MonthProps = {
   startDate?: Date;
   endDate?: Date;
   hoveredDate?: Date;
+  withHoursAndMinutes?: boolean;
   setMonth: (month?: number) => void;
   setYear: (year?: number) => void;
+  isSecond?: boolean;
   yearsRange?: {
     min?: number;
     max?: number;
@@ -53,16 +53,30 @@ export const Month: React.FC<MonthProps> = ({
   setMonth,
   setYear,
   yearsRange,
+  withHoursAndMinutes,
+  isSecond,
 }) => {
   return (
     <>
       <MonthYearLabel>
-        <MonthSelect monthLabel={monthLabel} setMonth={setMonth} />
-        &nbsp;&nbsp;
-        <YearSelect year={year} setYear={setYear} yearsRange={yearsRange} />
+        {withHoursAndMinutes ? (
+          <>
+            {monthLabel} &nbsp;&nbsp; {year}
+          </>
+        ) : (
+          <>
+            <MonthSelect
+              monthLabel={monthLabel}
+              setMonth={setMonth}
+              isSecond={isSecond}
+            />
+            &nbsp;&nbsp;
+            <YearSelect year={year} setYear={setYear} yearsRange={yearsRange} />
+          </>
+        )}
       </MonthYearLabel>
       <Days>
-        {weekDayLabels.map((dayLabel, weekIndex) => (
+        {weekDayLabels?.map((dayLabel, weekIndex) => (
           // eslint-disable-next-line react/no-array-index-key
           <DayName key={`${dayLabel}-${weekIndex}`}>{dayLabel}</DayName>
         ))}

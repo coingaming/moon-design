@@ -17,6 +17,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   onDateChange,
   config,
   translations,
+  hasClickedOutside,
 }) => {
   // const [ref, hasClickedOutside] = useClickOutside();
   const [isOpen, setIsOpen] = React.useState(isOpenByDefault);
@@ -42,7 +43,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
           config={config}
           onDateChange={onDateChange}
           translations={translations}
-          // hasClickedOutside={hasClickedOutside}
+          hasClickedOutside={hasClickedOutside}
           setIsOpen={setIsOpen}
           setPlaceholder={setPlaceholder}
         />
@@ -58,6 +59,9 @@ DateRangePicker.defaultProps = {
     placeholder: 'Select Dates',
     apply: 'Apply',
     reset: 'Reset',
+    cansel: 'Cansel',
+    labelStartDate: 'Start date & time',
+    labelEndDate: 'End date & time',
     lastMonth: 'Last month',
     lastWeek: 'Last week',
     last24hours: 'Last 24 hours',
@@ -74,10 +78,13 @@ DateRangePicker.defaultProps = {
     monthLabelFormat: 'MMMM',
     yearLabelFormat: 'yyyy',
     weekStartsOn: 1,
-    withHoursAndMinutes: true,
     onlyFuture: false,
     without24AndToday: false,
     locale: enGB,
+    withHoursAndMinutes: true,
+    hideInputs: false,
+    withPeriodList: false,
+    withOneMonth: false,
   },
 };
 

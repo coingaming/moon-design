@@ -23,6 +23,14 @@ const Example = () => {
         config={{
           weekStartsOn: 1,
           withHoursAndMinutes: true,
+          // withPeriodList: true,
+          withOneMonth: true,
+          // hideInputs: false,
+          withFooter: {
+            isApplyBtn: true,
+            isCanselBtn: true,
+            isClearBtn: true,
+          },
         }}
       />
     </div>

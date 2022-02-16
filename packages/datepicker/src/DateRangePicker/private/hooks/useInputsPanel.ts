@@ -2,7 +2,7 @@ import React from 'react';
 import compareAsc from 'date-fns/compareAsc';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
-import { RangeConfig } from '../../RangeCalendar';
+import RangeConfig from '../types/RangeConfig';
 
 type useInputsPanelProps = {
   startDate: Date;
@@ -65,7 +65,6 @@ const useInputsPanel = ({
       }
     }
   };
-
   const handelEndDateChange = (e: any) => {
     e.preventDefault();
     setInputEndDate(e.target.value);

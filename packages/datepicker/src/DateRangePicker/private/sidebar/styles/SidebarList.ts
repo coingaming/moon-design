@@ -1,3 +1,4 @@
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const SidebarList = styled.ul(({ theme: { colorNew } }) => ({
@@ -8,6 +9,7 @@ const SidebarList = styled.ul(({ theme: { colorNew } }) => ({
   flexDirection: 'column',
   flexWrap: 'wrap',
   alignItems: 'flex-start',
+  minWidth: rem(100),
 }));
 
 export default SidebarList;

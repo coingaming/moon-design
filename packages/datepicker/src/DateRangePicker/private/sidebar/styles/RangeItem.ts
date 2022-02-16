@@ -8,7 +8,8 @@ type RangeItemProps = {
 const RangeItem = styled.li<RangeItemProps>(
   ({
     theme: {
-      newTokens: { hover, borderRadius },
+      hover,
+      newTokens: { borderRadius },
       colorNew,
     },
     isSelected,

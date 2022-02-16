@@ -1,16 +1,9 @@
 import { ColorProps } from '@heathmont/moon-themes';
-import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import Size from '../../private/enums/Size';
-import TextInputSizeType from './types/SizeTypes';
 
 type InputProps = {
-  inputSize: TextInputSizeType | string;
-  withIcon?: boolean;
   error?: boolean;
-  icon?: string;
-  iconColor?: string;
-  type?: string;
   bgColor?: ColorProps;
   isLabel?: boolean;
   isPassword?: boolean;
@@ -24,12 +17,9 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: {
       colorNew,
       hover,
-      newTokens: { borderRadius, space, border, transition },
+      newTokens: { borderRadius, border, transition },
     },
-    inputSize,
     error,
-    icon,
-    type,
     bgColor,
     isLabel,
     isPassword,
@@ -38,13 +28,14 @@ const Input = styled.input.attrs(({ type }) => ({
       display: 'block',
       width: '100%',
       maxWidth: '100%',
-      height: rem(40),
+      height: rem(56),
+      lineHeight: rem(56),
+      letterSpacing: rem(-1.2),
       padding: `0 ${rem(16)}`,
       margin: 0,
       appearance: 'none',
       font: 'inherit',
       fontSize: rem(16),
-      lineHeight: rem(40),
       color: colorNew.bulma,
       backgroundColor: !bgColor
         ? 'transparent'
@@ -96,24 +87,6 @@ const Input = styled.input.attrs(({ type }) => ({
         height: rem(38),
         lineHeight: `${rem(38)}`,
       },
-      '&::-webkit-date-and-time-value': {
-        paddingTop: rem(6),
-      },
-    },
-    inputSize === Size.LARGE && {
-      height: rem(48),
-      lineHeight: rem(48),
-      '&::-webkit-datetime-edit': {
-        height: rem(46),
-        lineHeight: rem(46),
-      },
-      '&::-webkit-date-and-time-value': {
-        paddingTop: rem(10),
-      },
-    },
-    inputSize === Size.XLARGE && {
-      height: rem(56),
-      lineHeight: rem(56),
       '&::-webkit-datetime-edit': {
         height: rem(54),
         lineHeight: rem(54),
@@ -121,47 +94,42 @@ const Input = styled.input.attrs(({ type }) => ({
       '&::-webkit-date-and-time-value': {
         paddingTop: rem(16),
       },
+      '&[type="date"]::-webkit-inner-spin-button, &[type="datetime-local"]::-webkit-inner-spin-button':
+        {
+          display: 'none',
+        },
+      '&[type="date"]::-webkit-calendar-picker-indicator, &[type="datetime-local"]::-webkit-calendar-picker-indicator':
+        {
+          display: 'none',
+        },
     },
-    inputSize === Size.XLARGE &&
-      isLabel && {
-        height: rem(56),
-        paddingTop: rem(18),
-        lineHeight: rem(20),
-        '&:not(:focus):not([disabled])::placeholder': {
-          opacity: 0,
-        },
-        '&:not(:focus):not([disabled]):placeholder-shown + label': {
-          top: '50%',
-          marginTop: rem(-7),
-          fontSize: rem(16),
-          lineHeight: rem(16),
-        },
-        '&::-webkit-datetime-edit': {
-          height: rem(36),
-          lineHeight: rem(34),
-        },
-        '&::-webkit-date-and-time-value': {
-          paddingTop: 0,
-        },
+    isLabel && {
+      height: rem(56),
+      paddingTop: rem(18),
+      lineHeight: rem(20),
+      '&:not(:focus):not([disabled])::placeholder': {
+        opacity: 0,
       },
-    icon && {
-      paddingRight: space.large,
-      backgroundImage: inlineSvg(icon),
-      backgroundPosition: `right ${rem(4)} center`,
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: rem(20),
+      '&:not(:focus):not([disabled]):placeholder-shown + label': {
+        top: '50%',
+        marginTop: rem(-7),
+        fontSize: rem(16),
+        lineHeight: rem(16),
+      },
+      '&::-webkit-datetime-edit': {
+        height: rem(36),
+        lineHeight: rem(34),
+      },
+      '&::-webkit-date-and-time-value': {
+        paddingTop: 0,
+      },
     },
     error && {
+      borderRadius: borderRadius.large,
       boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {
       paddingRight: rem(55),
-    },
-    type === 'number' && {
-      MozAppearance: 'textfield',
-      '&::-webkit-inner-spin-button, &::-webkit-outer-spin-button': {
-        opacity: 0,
-      },
     },
   ]
 );

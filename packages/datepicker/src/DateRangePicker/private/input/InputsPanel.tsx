@@ -1,23 +1,18 @@
 import React from 'react';
-// import { Button, TextInput } from '@heathmont/moon-components';
-import { mq, media } from '@heathmont/moon-utils';
-import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-import { RangeConfig, RangeTranslations } from '../../RangeCalendar';
 import useInputsPanel from '../hooks/useInputsPanel';
-import { TextInput } from '@heathmont/moon-core';
+import HintText from './HintText';
+import Ghost from './styles/Ghost';
+import Inner from './styles/Inner';
+import Input from './styles/Input';
+import LabelInner from './styles/LabelInner';
+import TextInputGroup from './styles/TextInputGroup';
+import type RangeConfig from '../types/RangeConfig';
+import type RangeTranslations from '../types/RangeTranslations';
 
-const InputsPanelStyled = styled.div(({ theme }) => ({
+const InputsPanelStyled = styled.div({
   gridArea: 'inputs',
-  display: 'flex',
-  flexDirection: 'row',
-}));
-
-const StyledTextInput = styled(TextInput)(({ theme: { newTokens } }) => ({
-  [media(newTokens.breakpoint.medium)]: {
-    maxWidth: rem(228),
-  },
-}));
+});
 
 type InputsPanelProps = {
   startDate: Date;
@@ -26,8 +21,6 @@ type InputsPanelProps = {
   setEndDate: any;
   onDateChange: any;
   translations: RangeTranslations;
-  apply: any;
-  reset: any;
   config: RangeConfig;
 };
 
@@ -37,9 +30,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   setStartDate,
   setEndDate,
   translations,
-  apply,
   config,
-  // reset,
 }) => {
   const {
     hasStartDateError,
@@ -49,29 +40,40 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
     handelStartDateChange,
     handelEndDateChange,
   } = useInputsPanel({ config, startDate, endDate, setStartDate, setEndDate });
-
+  const isError = (!!hasStartDateError || hasEndDateError) as boolean;
   return (
     <InputsPanelStyled>
-      {/* <Button type="button" variant="tertiary" onClick={reset}>
-        {translations.reset}
-      </Button> */}
-      <StyledTextInput
-        type="text" // type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
-        inputSize="xlarge"
-        label="xlarge"
-        isError={!!hasStartDateError}
-        hintText={hasStartDateError}
-        value={inputStartDate}
-        onChange={handelStartDateChange}
-      />
-      <StyledTextInput
-        type="text" // type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
-        inputSize="xlarge"
-        isError={hasEndDateError}
-        hintText={hasStartDateError}
-        value={inputEndDate}
-        onChange={handelEndDateChange}
-      />
+      <TextInputGroup
+        isStartError={!!hasStartDateError}
+        isEndError={hasEndDateError}
+        isOneMonth={config?.withOneMonth || false}
+      >
+        <Inner bgColor={'gohan'} className="left">
+          <Input
+            type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+            error={!!hasStartDateError}
+            value={inputStartDate}
+            onChange={handelStartDateChange}
+            isLabel={true}
+          />
+          <LabelInner>{translations?.labelStartDate}</LabelInner>
+          <Ghost className="ghost" />
+        </Inner>
+        <Inner bgColor={'gohan'} className="right">
+          <Input
+            type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+            error={hasEndDateError}
+            value={inputEndDate}
+            onChange={handelEndDateChange}
+            isLabel={true}
+          />
+          <LabelInner>{translations?.labelEndDate}</LabelInner>
+          <Ghost className="ghost" />
+        </Inner>
+      </TextInputGroup>
+      {hasStartDateError && (
+        <HintText isError={isError}>{hasStartDateError}</HintText>
+      )}
     </InputsPanelStyled>
   );
 };

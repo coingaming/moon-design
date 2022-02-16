@@ -17,7 +17,7 @@ type DayStyledProps = {
 
 const DayStyled = styled.div<DayStyledProps>(
   ({
-    theme: { colorNew, newTokens },
+    theme: { colorNew, newTokens, hover },
     isInRange,
     isInRangePreview,
     isStartEdge,
@@ -41,13 +41,13 @@ const DayStyled = styled.div<DayStyledProps>(
       borderRadius: newTokens.borderRadius.medium,
       '&:hover': {
         color: colorNew.piccolo,
-        backgroundColor: newTokens.hover.secondary,
+        backgroundColor: hover.secondary,
       },
     },
     (isInRange || isInRangePreview) && {
       color: colorNew.piccolo,
       borderRadius: 0,
-      backgroundColor: newTokens.hover.secondary,
+      backgroundColor: hover.secondary,
       borderTopLeftRadius: isStartOfWeek && newTokens.borderRadius.medium,
       borderBottomLeftRadius: isStartOfWeek && newTokens.borderRadius.medium,
       borderTopRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
@@ -83,17 +83,22 @@ const DayStyled = styled.div<DayStyledProps>(
 );
 
 const DayWrapper = styled.div<DayStyledProps>(
-  ({ theme: { newTokens }, isStartEdge, isEndEdge, isInRangePreview }) => [
+  ({
+    theme: { newTokens, hover },
+    isStartEdge,
+    isEndEdge,
+    isInRangePreview,
+  }) => [
     {
       marginBottom: rem(4),
     },
     isStartEdge && {
-      backgroundColor: newTokens.hover.secondary,
+      backgroundColor: hover.secondary,
       borderTopLeftRadius: newTokens.borderRadius.medium,
       borderBottomLeftRadius: newTokens.borderRadius.medium,
     },
     isEndEdge && {
-      backgroundColor: newTokens.hover.secondary,
+      backgroundColor: hover.secondary,
       borderTopRightRadius: newTokens.borderRadius.medium,
       borderBottomRightRadius: newTokens.borderRadius.medium,
     },

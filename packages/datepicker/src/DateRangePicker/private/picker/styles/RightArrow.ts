@@ -7,7 +7,7 @@ const RightArrow = styled(ControlsChevronRight as any)(({ theme }) => ({
   color: theme.colorNew.bulma,
   position: 'absolute',
   right: rem(2),
-  top: 0,
+  top: rem(3),
   fontSize: rem(24),
 }));
 

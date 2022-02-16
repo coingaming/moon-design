@@ -1,45 +1,10 @@
 import React from 'react';
+import { enGB } from 'date-fns/locale';
 import useRangeCalendar from './private/hooks/useRangeCalendar';
 import { Picker } from './private/picker/Picker';
 import type { DatesRange } from './private/helpers/getDatesFromRange';
-
-export type DatepickerState = {
-  startDate?: Date;
-  endDate?: Date;
-  range?: DatesRange;
-  hoveredDate?: Date;
-  cursorDate: Date; // just to navigate between months
-};
-
-export type RangeWeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
-
-export interface RangeTranslations {
-  placeholder: any;
-  apply: any;
-  reset: any;
-  lastMonth: any;
-  lastWeek: any;
-  last24hours: any;
-  yesterday: any;
-  today: any;
-  tomorrow: any;
-  thisWeek: any;
-  nextWeek: any;
-  thisMonth: any;
-  nextMonth: any;
-}
-
-export interface RangeConfig {
-  format?: string;
-  monthLabelFormat?: string;
-  yearLabelFormat?: string;
-  weekStartsOn?: RangeWeekStartsOn;
-  withHoursAndMinutes?: boolean;
-  onlyFuture?: boolean;
-  without24AndToday?: boolean;
-  locale?: any;
-  ranges?: DatesRange[];
-}
+import type RangeConfig from './private/types/RangeConfig';
+import type RangeTranslations from './private/types/RangeTranslations';
 
 export interface DateRangePickerProps {
   isOpenByDefault?: boolean;
@@ -63,17 +28,7 @@ export interface DateRangePickerProps {
   translations?: RangeTranslations;
 }
 
-const RangeCalendar: React.FC<DateRangePickerProps> = ({
-  startDate: initialStartDate,
-  endDate: initialEndDate,
-  onDateChange,
-  config,
-  range,
-  translations,
-  hasClickedOutside,
-  setIsOpen,
-  setPlaceholder,
-}) => {
+const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
   const {
     datesState,
     selectDay,
@@ -90,24 +45,19 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
     labels,
     setMonth,
     setYear,
+    isCustom,
+    setCustom,
+    selectAndApply,
   } = useRangeCalendar({
-    initialStartDate,
-    initialEndDate,
-    onDateChange,
-    config,
-    range,
-    translations,
-    hasClickedOutside,
-    setIsOpen,
-    setPlaceholder,
+    ...props,
   });
 
   return (
     <Picker
       datesState={datesState}
       labels={labels}
-      translations={translations}
-      config={config}
+      translations={props?.translations}
+      config={props?.config}
       onDayClick={selectDay}
       firstMonth={firstMonth}
       secondMonth={secondMonth}
@@ -117,13 +67,57 @@ const RangeCalendar: React.FC<DateRangePickerProps> = ({
       prevMonth={prevMonth}
       setStartDate={setStartDate}
       setEndDate={setEndDate}
-      onDateChange={onDateChange}
+      onDateChange={props?.onDateChange}
       apply={apply}
       reset={reset}
       setMonth={setMonth}
       setYear={setYear}
+      isCustom={isCustom}
+      setCustom={setCustom}
+      selectAndApply={selectAndApply}
     />
   );
+};
+
+RangeCalendar.defaultProps = {
+  range: '',
+  isOpenByDefault: false,
+  translations: {
+    placeholder: 'Select Dates',
+    apply: 'Apply',
+    reset: 'Reset',
+    cansel: 'Cansel',
+    labelStartDate: 'Start date & time',
+    labelEndDate: 'End date & time',
+    lastMonth: 'Last month',
+    lastWeek: 'Last week',
+    last24hours: 'Last 24 hours',
+    yesterday: 'Yesterday',
+    today: 'Today',
+    tomorrow: 'Tomorrow',
+    thisWeek: 'This week',
+    nextWeek: 'Next week',
+    thisMonth: 'This month',
+    nextMonth: 'Next month',
+  },
+  config: {
+    format: "yyyy-MM-dd'T'HH:mm",
+    monthLabelFormat: 'MMMM',
+    yearLabelFormat: 'yyyy',
+    weekStartsOn: 1,
+    onlyFuture: false,
+    without24AndToday: false,
+    locale: enGB,
+    withHoursAndMinutes: true,
+    hideInputs: false,
+    withPeriodList: false,
+    withOneMonth: false,
+    withFooter: {
+      isApplyBtn: true,
+      isCanselBtn: true,
+      isClearBtn: true,
+    },
+  },
 };
 
 export default RangeCalendar;

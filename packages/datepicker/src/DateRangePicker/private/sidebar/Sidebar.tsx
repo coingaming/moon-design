@@ -8,6 +8,8 @@ type SidebarProps = {
   selectRange: any;
   translations: any;
   config: any;
+  setCustom: any;
+  selectAndApply: any;
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -15,6 +17,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
   selectRange,
   translations,
   config,
+  setCustom,
+  selectAndApply,
 }) => {
   const ranges = getRanges(config);
   return (
@@ -23,12 +27,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <RangeItem
           key={range}
           isSelected={range === currentRange}
-          onClick={() => selectRange(range)}
+          onClick={() => selectAndApply(range)}
         >
           {translations[range]}
         </RangeItem>
       ))}
-      <RangeItem isSelected={true}>Custom</RangeItem>
+      <RangeItem isSelected={true} onClick={() => setCustom(true)}>
+        Custom
+      </RangeItem>
     </SidebarList>
   );
 };

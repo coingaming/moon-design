@@ -7,7 +7,7 @@ const LeftArrow = styled(ControlsChevronLeft as any)(({ theme }) => ({
   color: theme.colorNew.bulma,
   position: 'absolute',
   left: rem(2),
-  top: 0,
+  top: rem(3),
   fontSize: rem(24),
   zIndex: 2,
 }));

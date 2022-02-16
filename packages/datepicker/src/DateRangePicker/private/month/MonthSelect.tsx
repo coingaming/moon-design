@@ -8,9 +8,14 @@ import SelectorContainer from './styles/SelectorContainer';
 type MonthSelectProps = {
   monthLabel: string;
   setMonth: (month?: number) => void;
+  isSecond?: boolean;
 };
 
-const MonthSelect: React.FC<MonthSelectProps> = ({ monthLabel, setMonth }) => {
+const MonthSelect: React.FC<MonthSelectProps> = ({
+  monthLabel,
+  setMonth,
+  isSecond,
+}) => {
   const [isOpen, setOpen] = React.useState(false);
   const months = getMonths();
   const [ref, hasClickedOutside] = useClickOutside();
@@ -31,7 +36,10 @@ const MonthSelect: React.FC<MonthSelectProps> = ({ monthLabel, setMonth }) => {
       {isOpen && (
         <SelectorContainer>
           {months.map((m, i) => (
-            <LabelContainer key={`${m}${i}`} onClick={() => setMonth(i)}>
+            <LabelContainer
+              key={`${m}${i}`}
+              onClick={() => setMonth(isSecond ? i - 1 : i)}
+            >
               {m}
             </LabelContainer>
           ))}
