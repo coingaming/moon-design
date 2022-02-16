@@ -25,7 +25,7 @@ const Example = () => {
   const [option2, setOption2] = useState(options[0]);
   return (
     <div className="pb-72 flex items-end flex-wrap ">
-      <div className="w-80 mr-4 ml-4 mb-8">
+      <div className="w-80 me-4 ms-4 mb-8">
         <Select
           options={options}
           label="Language"
@@ -35,13 +35,13 @@ const Example = () => {
           leftSlot={<div className="mx-2">{option.flag}</div>}
           formatOptionLabel={(data) => (
             <div className="flex ">
-              <div className="mr-4">{data.flag}</div>
+              <div className="me-4">{data.flag}</div>
               <div>{data.label}</div>
             </div>
           )}
         />
       </div>
-      <div className="w-80 mr-4 ml-4 mb-8">
+      <div className="w-80 me-4 ms-4 mb-8">
         <Select
           size="xLarge"
           options={options}
@@ -52,7 +52,7 @@ const Example = () => {
           leftSlot={<div className="mx-2">{option2.flag}</div>}
           formatOptionLabel={(data) => (
             <div className="flex ">
-              <div className="mr-4">{data.flag}</div>
+              <div className="me-4">{data.flag}</div>
               <div>{data.label}</div>
             </div>
           )}
