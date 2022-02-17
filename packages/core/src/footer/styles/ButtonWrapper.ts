@@ -5,7 +5,7 @@ const ButtonWrapper = styled.div(({ theme: { newTokens } }) => ({
   marginBottom: rem(8),
   [media(newTokens.breakpoint.medium)]: {
     marginBottom: 0,
-    marginLeft: rem(8),
+    marginInlineStart: rem(8),
   },
 }));
 
