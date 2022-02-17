@@ -199,6 +199,18 @@ importers:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
+  packages/accordionNew:
+    specifiers:
+      '@heathmont/moon-components': workspace:^8.0.0
+      '@heathmont/moon-icons': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.0.0
+      '@heathmont/moon-utils': workspace:^8.0.0
+    dependencies:
+      '@heathmont/moon-components': link:../components
+      '@heathmont/moon-icons': link:../icons
+      '@heathmont/moon-themes': link:../themes
+      '@heathmont/moon-utils': link:../utils
+
   packages/assets:
     specifiers:
       '@heathmont/moon-themes': workspace:^8.0.0
