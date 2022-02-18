@@ -35,7 +35,7 @@ export default function PageSelect() {
       {/* WithLabel */}
       <section className="mt-8">
         <Preview
-          title="Size"
+          title="With Label"
           preview={<WithLabel />}
           code={examples ? examples.WithLabel : 'Loading'}
         />

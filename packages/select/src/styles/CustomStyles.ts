@@ -87,7 +87,7 @@ const CustomStyles: StylesConfig = {
       ...(customProps.isError
         ? { borderColor: theme.colorNew.chiChi[100] }
         : {}),
-      paddingLeft: rem(8),
+      paddingInlineStart: rem(8),
       border: 'none !important',
       borderRadius: theme.newTokens.borderRadius.large,
       boxShadow: customProps.isError
@@ -138,8 +138,8 @@ const CustomStyles: StylesConfig = {
     ...provided,
     gridArea: '2 / 1 / 2 / 3',
     fontSize: rem(16),
-    marginLeft: 0,
-    marginRight: 0,
+    marginInlineStart: 0,
+    marginInlineEnd: 0,
   }),
   placeholder: (provided, state) => {
     const selectProps = state.selectProps as SelectProps;
@@ -151,8 +151,8 @@ const CustomStyles: StylesConfig = {
       lineHeight:
         state.isMulti && customProps.size === 'xLarge' ? rem(16) : rem(24),
       height: '100%',
-      marginLeft: 0,
-      marginRight: 0,
+      marginInlineStart: 0,
+      marginInlineEnd: 0,
       display: 'flex',
       alignItems:
         state.isMulti && customProps.size === 'xLarge'
