@@ -12,7 +12,6 @@ const Example = () => {
   );
 
   const [isOpen, setIsOpen] = React.useState(false);
-  const [ref, hasClickedOutside] = useClickOutside();
 
   return (
     <div
@@ -20,7 +19,7 @@ const Example = () => {
       test-id="wrapper"
       onClick={() => {}}
     >
-      <div style={{ position: 'relative', display: 'inline-block' }} ref={ref}>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
           {initialStartDate &&
             (initialStartDate as any)?.toLocaleDateString('en-GB')}
@@ -37,20 +36,15 @@ const Example = () => {
               setEndDate(endDate as Date);
             }}
             setIsOpen={setIsOpen}
-            // isRtl={true}
             config={{
               weekStartsOn: 1,
-              //withHoursAndMinutes: true,
-              withPeriodList: true,
-              //withOneMonth: true,
-              hideInputs: true,
+              withHoursAndMinutes: true,
               withFooter: {
                 isApplyBtn: true,
-                isCanselBtn: false,
-                // isClearBtn: true,
+                isCanselBtn: true,
+                isClearBtn: true,
               },
             }}
-            // hasClickedOutside={hasClickedOutside}
           />
         )}
       </div>
