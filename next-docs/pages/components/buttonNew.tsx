@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import Animations from '../../public/examples/buttonNew/Animations';
 import Disabled from '../../public/examples/buttonNew/Disabled';
 import FullWidth from '../../public/examples/buttonNew/FullWidth';
 import Icons from '../../public/examples/buttonNew/Icons';
@@ -8,8 +9,7 @@ import Variants from '../../public/examples/buttonNew/Variants';
 import useExamples from '../../utils/useExamples';
 
 export default function PageButtonNew() {
-  const examples = useExamples('button');
-
+  const examples = useExamples('buttonNew');
   return (
     <>
       <section className="mt-8">
@@ -68,6 +68,14 @@ export default function PageButtonNew() {
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
           elixirLink="button/disabled"
+        />
+      </section>
+      {/* Animations */}
+      <section className="mt-8">
+        <Preview
+          title="Animations"
+          preview={<Animations />}
+          code={examples ? examples.Animations : 'Loading'}
         />
       </section>
     </>

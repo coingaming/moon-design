@@ -15,11 +15,13 @@ export type CircularProgressbarProps = {
   fontSize?: any;
   strokeWidth?: number;
   className?: string;
+  isRtl?: boolean;
 };
 
 const ProgressCircular: React.FC<CircularProgressbarProps> = ({
   value,
   strokeWidth = 12,
+  isRtl,
   ...props
 }) => {
   const VIEWBOX_WIDTH = 100;
@@ -50,6 +52,7 @@ const ProgressCircular: React.FC<CircularProgressbarProps> = ({
         dashRatio={pathRatio}
         pathRadius={PATH_RADIUS}
         strokeWidth={strokeWidth}
+        isRtl={isRtl}
         style={{
           stroke: color.piccolo[100],
           transition: value === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',

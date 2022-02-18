@@ -14,6 +14,7 @@ type InputProps = {
   bgColor?: ColorProps;
   isLabel?: boolean;
   isPassword?: boolean;
+  isRtl?: boolean;
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -23,14 +24,8 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: currentTheme,
     theme: {
       colorNew,
-      newTokens: {
-        borderRadius,
-        transitionDuration,
-        space,
-        hover,
-        border,
-        transition,
-      },
+      hover,
+      newTokens: { borderRadius, space, border, transition },
     },
     inputSize,
     error,
@@ -39,6 +34,7 @@ const Input = styled.input.attrs(({ type }) => ({
     bgColor,
     isLabel,
     isPassword,
+    isRtl,
   }) => [
     {
       display: 'block',
@@ -69,8 +65,8 @@ const Input = styled.input.attrs(({ type }) => ({
       '&::placeholder': {
         color: colorNew.trunks,
         opacity: 1,
-        transition: `opacity ${transitionDuration} ease`,
-        transitionDelay: `0.1s`,
+        transition: `opacity ${transition.default}`,
+        transitionDelay: `0.05s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${border.width.interactive} ${
@@ -99,9 +95,34 @@ const Input = styled.input.attrs(({ type }) => ({
         padding: 0,
         height: rem(38),
         lineHeight: `${rem(38)}`,
+        ...(isRtl && type === 'date'
+          ? { position: 'absolute', right: rem(0) }
+          : {}),
+        ...(isRtl && type === 'time'
+          ? { position: 'absolute', right: rem(8) }
+          : {}),
+        ...(isRtl && type === 'datetime-local'
+          ? { position: 'absolute', right: rem(-16) }
+          : {}),
       },
       '&::-webkit-date-and-time-value': {
-        paddingTop: rem(6),
+        paddingTop: rem(8),
+        ...(isRtl && type === 'date'
+          ? { position: 'absolute', right: rem(0) }
+          : {}),
+        ...(isRtl && type === 'time'
+          ? { position: 'absolute', right: rem(8) }
+          : {}),
+        ...(isRtl && type === 'datetime-local'
+          ? { position: 'absolute', right: rem(-16) }
+          : {}),
+      },
+      '&::-webkit-calendar-picker-indicator': {
+        position: 'absolute',
+        ...(isRtl && (type === 'date' || type === 'datetime-local')
+          ? { left: rem(-8) }
+          : { right: rem(14) }),
+        ...(isRtl && type === 'time' ? { left: rem(8) } : { right: rem(14) }),
       },
     },
     inputSize === Size.LARGE && {
@@ -149,17 +170,20 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingRight: space.large,
+      paddingInlineEnd: space.large,
       backgroundImage: inlineSvg(icon),
-      backgroundPosition: `right ${rem(4)} center`,
+      backgroundPosition: isRtl
+        ? `left ${rem(4)} center`
+        : `right ${rem(4)} center`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: rem(20),
     },
+
     error && {
       boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {
-      paddingRight: rem(55),
+      paddingInlineEnd: rem(55),
     },
     type === 'number' && {
       MozAppearance: 'textfield',

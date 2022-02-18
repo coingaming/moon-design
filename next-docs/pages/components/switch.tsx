@@ -1,12 +1,17 @@
 import Preview from '../../components/codePreview/Preview';
 import Caption from '../../public/examples/switch/Caption';
 import Default from '../../public/examples/switch/Default';
+import Rtl from '../../public/examples/switch/Rtl';
 import Sizes from '../../public/examples/switch/Sizes';
 import Theme from '../../public/examples/switch/Theme';
 import ThemeCaption from '../../public/examples/switch/ThemeCaption';
 import useExamples from '../../utils/useExamples';
 
-export default function PageSwitch() {
+type Props = {
+  isRtl?: boolean;
+};
+
+export default function PageSwitch({ isRtl }: Props) {
   const examples = useExamples('switch');
 
   return (
@@ -57,6 +62,14 @@ export default function PageSwitch() {
           title="Dark &amp; Light mode with captions"
           preview={<ThemeCaption />}
           code={examples ? examples.ThemeCaption : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Rtl"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
     </>

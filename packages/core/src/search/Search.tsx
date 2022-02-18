@@ -6,6 +6,7 @@ import React, {
   useState,
 } from 'react';
 import { debounce } from 'lodash';
+
 import {
   SearchBox,
   SearchClearButton,

@@ -6,6 +6,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import DateWithLabel from '../DateWithLabel';
+import DateWithLabelRtl from '../DateWithLabelRtl';
 import DateWithoutLabel from '../DateWithoutLabel';
 import DateWithHint from '../DateWithHint';
 import DateDisabled from '../DateDisabled';
@@ -20,6 +21,10 @@ const renderWithTheme = (component: JSX.Element) => (
 describe('TextInput: type Date', () => {
   it('renders with label', () => {
     const testRenderer = renderer.create(renderWithTheme(<DateWithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders with label RTL', () => {
+    const testRenderer = renderer.create(renderWithTheme(<DateWithLabelRtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {

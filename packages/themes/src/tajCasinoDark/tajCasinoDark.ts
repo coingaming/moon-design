@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -48,7 +49,7 @@ const colorNew = {
   gohan: '#131e3f',
   bulma: '#ffffff',
   trunks: '#939aae',
-  goten: '#FFFFFF',
+  goten: '#ffffff',
   popo: '#000000',
 };
 
@@ -76,6 +77,7 @@ const tajCasinoDark: Theme = {
     default: 8,
     largest: 8,
   },
+  ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };
 

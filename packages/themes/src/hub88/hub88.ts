@@ -1,4 +1,5 @@
 import avertaStd from '../sharedTokens/avertaStd';
+import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
@@ -48,7 +49,7 @@ const colorNew = {
   gohan: '#ffffff',
   bulma: '#010913',
   trunks: '#8697a2',
-  goten: '#FFFFFF',
+  goten: '#ffffff',
   popo: '#000000',
 };
 
@@ -71,6 +72,7 @@ const hub88: Theme = {
     ...supportiveColors,
   },
   colorScheme: 'dark',
+  ...componentsTokens(colorNew),
   space: {
     ...sharedTokens.space,
     medium: sharedTokens.base.space * 1.25,

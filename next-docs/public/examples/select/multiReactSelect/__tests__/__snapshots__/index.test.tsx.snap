@@ -12,7 +12,7 @@ exports[`Multi Select options content 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -27,7 +27,7 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -35,14 +35,14 @@ exports[`Multi Select options content 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-16-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -72,13 +72,13 @@ exports[`Multi Select options content 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -114,7 +114,7 @@ exports[`Multi Select options content 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -122,19 +122,19 @@ exports[`Multi Select options content 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-17-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -164,13 +164,13 @@ exports[`Multi Select options content 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -203,7 +203,7 @@ exports[`Multi Select options wrapper width 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -218,7 +218,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -226,14 +226,14 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-14-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -263,13 +263,13 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -305,7 +305,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -313,19 +313,19 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-15-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -355,13 +355,13 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -394,7 +394,7 @@ exports[`Multi Select renders disabled 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -409,7 +409,7 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -417,14 +417,14 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-8-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -454,13 +454,13 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -496,7 +496,7 @@ exports[`Multi Select renders disabled 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -504,19 +504,19 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-9-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -546,13 +546,13 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -585,7 +585,7 @@ exports[`Multi Select renders error 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -600,7 +600,7 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1wp6k3-control"
+        className=" css-1nm79sq-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -608,14 +608,14 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-10-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -645,13 +645,13 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -669,7 +669,7 @@ exports[`Multi Select renders error 1`] = `
       </div>
     </div>
     <span
-      className="HintText-sc-1sl829f-0 dQZnea"
+      className="HintText-sc-1sl829f-0 fDBWOd"
     >
       Informative message holder
     </span>
@@ -692,7 +692,7 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-11qg80i-control"
+        className=" css-12dxpq-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -700,19 +700,19 @@ exports[`Multi Select renders error 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-11-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -742,13 +742,13 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -766,7 +766,7 @@ exports[`Multi Select renders error 1`] = `
       </div>
     </div>
     <span
-      className="HintText-sc-1sl829f-0 dQZnea"
+      className="HintText-sc-1sl829f-0 fDBWOd"
     >
       Informative message holder
     </span>
@@ -786,7 +786,7 @@ exports[`Multi Select renders with hint 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -801,7 +801,7 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -809,14 +809,14 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-6-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -846,13 +846,13 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -870,7 +870,7 @@ exports[`Multi Select renders with hint 1`] = `
       </div>
     </div>
     <span
-      className="HintText-sc-1sl829f-0 hyCPqO"
+      className="HintText-sc-1sl829f-0 dpOFil"
     >
       Informative message holder
     </span>
@@ -893,7 +893,7 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -901,19 +901,19 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-7-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -943,13 +943,13 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -967,7 +967,7 @@ exports[`Multi Select renders with hint 1`] = `
       </div>
     </div>
     <span
-      className="HintText-sc-1sl829f-0 hyCPqO"
+      className="HintText-sc-1sl829f-0 dpOFil"
     >
       Informative message holder
     </span>
@@ -987,7 +987,7 @@ exports[`Multi Select renders with label 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -1002,7 +1002,7 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1010,14 +1010,14 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-2-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -1047,13 +1047,13 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -1089,7 +1089,7 @@ exports[`Multi Select renders with label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1097,19 +1097,19 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-3-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -1139,13 +1139,13 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -1188,7 +1188,7 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1196,14 +1196,14 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-4-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -1233,13 +1233,13 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -1275,7 +1275,7 @@ exports[`Multi Select renders without label 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1283,17 +1283,17 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           />
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 iJsvOL"
+            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-5-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 fxXmyx"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 eAAxPq"
               >
                 Choose an option
               </div>
@@ -1323,13 +1323,13 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -1362,7 +1362,7 @@ exports[`Multi Select with counter 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="SelectLabel-fblv95-0 ktJEpr"
+        className="SelectLabel-fblv95-0 dUAtTQ"
       >
         Large
       </span>
@@ -1377,7 +1377,7 @@ exports[`Multi Select with counter 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-oc8rvl-control"
+        className=" css-oligee-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1385,14 +1385,14 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 dDGKmK"
+            className="ValueContainer__MultiContainer-fuxzw2-1 cwiZsF"
           >
             <div
-              className=" css-g99ng0-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-12-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -1422,13 +1422,13 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"
@@ -1464,7 +1464,7 @@ exports[`Multi Select with counter 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-18s2sn2-control"
+        className=" css-kwv5mb-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
@@ -1472,19 +1472,19 @@ exports[`Multi Select with counter 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="ValueContainer__InnerLabelContainer-fuxzw2-2 eEplJC"
+            className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           >
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 dDGKmK"
+            className="ValueContainer__MultiContainer-fuxzw2-1 cwiZsF"
           >
             <div
-              className=" css-q9zl3y-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-13-placeholder"
             >
               <div
-                className="Placeholder__PlaceholderContainer-eeq6t0-0 bUlTFi"
+                className="Placeholder__PlaceholderContainer-eeq6t0-0 fgkZpl"
               >
                 Choose an option
               </div>
@@ -1514,13 +1514,13 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-iBaPrD"
+            className="sc-iAKWXU"
             fill="none"
             fontSize="1.5rem"
             height="1em"
             style={
               Object {
-                "marginRight": "0.5rem",
+                "marginInlineEnd": "0.5rem",
               }
             }
             viewBox="0 0 32 32"

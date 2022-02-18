@@ -7,6 +7,7 @@ import EmailError from '../../../public/examples/textInput/email/EmailError';
 import EmailReadonly from '../../../public/examples/textInput/email/EmailReadonly';
 import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
 import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
+import EmailWithLabelRtl from '../../../public/examples/textInput/email/EmailWithLabelRtl';
 import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
@@ -59,6 +60,13 @@ export default function PageTextInput() {
         </section>
         <section className="mt-8">
           <Preview
+            title="Label RTL"
+            preview={<EmailWithLabelRtl />}
+            code={examples ? examples.EmailWithLabelRtl : 'Loading'}
+          />
+        </section>
+        <section className="mt-8">
+          <Preview
             title="Without Label"
             preview={<EmailWithoutLabel />}
             code={examples ? examples.EmailWithoutLabel : 'Loading'}
@@ -102,7 +110,7 @@ export default function PageTextInput() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
+        <h2 className="text-2xl mb-4">Props for TextInput component</h2>
         <Table
           data={[
             {

@@ -5,14 +5,14 @@ exports[`Button New renders Full width property 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 wncwS"
+    className="ButtonComponent-sc-1qwityd-0 gdSvuN"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Full width
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -29,7 +29,118 @@ exports[`Button New renders Full width property 1`] = `
       />
     </svg>
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+</div>
+`;
+
+exports[`Button New renders different animations 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <div
+      className="AnimationContent__Container-sc-1c5x251-0 bNNjMZ"
+    >
+      <div
+        className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
+      >
+        <strong
+          className="Container-sc-12rktgh-0 jyJfhm"
+          role="progressbar"
+        >
+          <span
+            className="LoaderRing-sc-17wll29-0 XcexV"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 fAHuRn"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 kqOdVI"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 cebTvf"
+            color="currentColor"
+          />
+        </strong>
+      </div>
+      <div
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 pcBIA"
+      >
+        Progress
+      </div>
+    </div>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <div
+      className="AnimationContent__Container-sc-1c5x251-0 bNNjMZ"
+    >
+      <div
+        className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
+      >
+        <svg
+          className="sc-lkgTHX"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 14.941L13.667 22 25 10"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 pcBIA"
+      >
+        Success
+      </div>
+    </div>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 eYEgDu"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Error
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 fDokjW"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Pulse
+    <div
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
 </div>
@@ -40,13 +151,13 @@ exports[`Button New renders different icons 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 hwYUvZ"
+    className="ButtonComponent-sc-1qwityd-0 esNkzG"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -64,17 +175,17 @@ exports[`Button New renders different icons 1`] = `
     </svg>
     IconLeft
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 hwYUvZ"
+    className="ButtonComponent-sc-1qwityd-0 esNkzG"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -92,18 +203,18 @@ exports[`Button New renders different icons 1`] = `
     </svg>
     IconLeft
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 bieTjZ"
+    className="ButtonComponent-sc-1qwityd-0 KiHyK"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     IconRight
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -120,18 +231,18 @@ exports[`Button New renders different icons 1`] = `
       />
     </svg>
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 bieTjZ"
+    className="ButtonComponent-sc-1qwityd-0 KiHyK"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     IconRight
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -148,17 +259,17 @@ exports[`Button New renders different icons 1`] = `
       />
     </svg>
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 cXGpuh"
+    className="ButtonComponent-sc-1qwityd-0 kriRcm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -175,17 +286,17 @@ exports[`Button New renders different icons 1`] = `
       />
     </svg>
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 cXGpuh"
+    className="ButtonComponent-sc-1qwityd-0 kriRcm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-eYAzsh"
+      className="sc-iWVNaa"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -202,7 +313,7 @@ exports[`Button New renders different icons 1`] = `
       />
     </svg>
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
 </div>
@@ -213,47 +324,47 @@ exports[`Button New renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 gPeePT"
+    className="ButtonComponent-sc-1qwityd-0 ilVUuY"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
   >
     Small
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Medium is default
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 kghGmj"
+    className="ButtonComponent-sc-1qwityd-0 jTfIlE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="large"
   >
     Large
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 hnGhw"
+    className="ButtonComponent-sc-1qwityd-0 sfKcz"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="xlarge"
   >
     xLarge
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
 </div>
@@ -264,47 +375,47 @@ exports[`Button New renders different variants 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Primary is default
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 gFvFsV"
+    className="ButtonComponent-sc-1qwityd-0 dlczW"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Secondary
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 dWEWbr"
+    className="ButtonComponent-sc-1qwityd-0 bAsbwX"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Tertiary
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 ceUlWO"
+    className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Ghost
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
 </div>
@@ -318,47 +429,47 @@ exports[`Button New renders different variants RTL 1`] = `
     className="flex justify-around w-full items-center"
   >
     <button
-      className="ButtonComponent-sc-1qwityd-0 cqHhjO"
+      className="ButtonComponent-sc-1qwityd-0 lmotjR"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Primary is default
       <div
-        className="Hover-yzznpt-0 iHKaPa"
+        className="Hover-yzznpt-0 ctGatB"
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 gFvFsV"
+      className="ButtonComponent-sc-1qwityd-0 dlczW"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Secondary
       <div
-        className="Hover-yzznpt-0 iHKaPa"
+        className="Hover-yzznpt-0 ctGatB"
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 dWEWbr"
+      className="ButtonComponent-sc-1qwityd-0 bAsbwX"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Tertiary
       <div
-        className="Hover-yzznpt-0 iHKaPa"
+        className="Hover-yzznpt-0 ctGatB"
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 ceUlWO"
+      className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Ghost
       <div
-        className="Hover-yzznpt-0 iHKaPa"
+        className="Hover-yzznpt-0 ctGatB"
       />
     </button>
   </div>
@@ -370,7 +481,7 @@ exports[`Button New renders disabled state 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="ButtonComponent-sc-1qwityd-0 bzGkdK"
+    className="ButtonComponent-sc-1qwityd-0 gPKRLV"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -378,7 +489,7 @@ exports[`Button New renders disabled state 1`] = `
   >
     Disabled
     <div
-      className="Hover-yzznpt-0 iHKaPa"
+      className="Hover-yzznpt-0 ctGatB"
     />
   </button>
 </div>
