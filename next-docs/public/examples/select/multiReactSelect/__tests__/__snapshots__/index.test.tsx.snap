@@ -35,7 +35,7 @@ exports[`Multi Select options content 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -127,7 +127,7 @@ exports[`Multi Select options content 1`] = `
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -226,7 +226,7 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -318,7 +318,7 @@ exports[`Multi Select options wrapper width 1`] = `
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -417,7 +417,7 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -509,7 +509,7 @@ exports[`Multi Select renders disabled 1`] = `
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -608,7 +608,7 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -705,7 +705,7 @@ exports[`Multi Select renders error 1`] = `
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -809,7 +809,7 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -906,7 +906,7 @@ exports[`Multi Select renders with hint 1`] = `
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -1010,7 +1010,7 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -1102,7 +1102,7 @@ exports[`Multi Select renders with label 1`] = `
             Single xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -1196,7 +1196,7 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -1286,7 +1286,7 @@ exports[`Multi Select renders without label 1`] = `
             className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
           />
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 fYKFWg"
+            className="ValueContainer__MultiContainer-fuxzw2-1 boPMqH"
           >
             <div
               className=" css-jexdti-placeholder"
@@ -1385,7 +1385,7 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 cwiZsF"
+            className="ValueContainer__MultiContainer-fuxzw2-1 eLARGq"
           >
             <div
               className=" css-wuj7bk-placeholder"
@@ -1477,7 +1477,7 @@ exports[`Multi Select with counter 1`] = `
             xLarge
           </div>
           <div
-            className="ValueContainer__MultiContainer-fuxzw2-1 cwiZsF"
+            className="ValueContainer__MultiContainer-fuxzw2-1 eLARGq"
           >
             <div
               className=" css-jexdti-placeholder"
