@@ -26,6 +26,7 @@ export interface DateRangePickerProps {
   }) => any;
   config?: RangeConfig;
   translations?: RangeTranslations;
+  isRtl?: boolean;
 }
 
 const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
@@ -35,13 +36,13 @@ const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
     firstMonth,
     secondMonth,
     hoverDay,
-    selectRange,
     nextMonth,
     prevMonth,
     setStartDate,
     setEndDate,
     apply,
     reset,
+    cansel,
     labels,
     setMonth,
     setYear,
@@ -62,7 +63,6 @@ const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
       firstMonth={firstMonth}
       secondMonth={secondMonth}
       onDayMouseEnter={hoverDay}
-      selectRange={selectRange}
       nextMonth={nextMonth}
       prevMonth={prevMonth}
       setStartDate={setStartDate}
@@ -70,11 +70,13 @@ const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
       onDateChange={props?.onDateChange}
       apply={apply}
       reset={reset}
+      cansel={cansel}
       setMonth={setMonth}
       setYear={setYear}
       isCustom={isCustom}
       setCustom={setCustom}
       selectAndApply={selectAndApply}
+      isRtl={props?.isRtl}
     />
   );
 };
@@ -99,6 +101,7 @@ RangeCalendar.defaultProps = {
     nextWeek: 'Next week',
     thisMonth: 'This month',
     nextMonth: 'Next month',
+    custom: 'Custom',
   },
   config: {
     format: "yyyy-MM-dd'T'HH:mm",

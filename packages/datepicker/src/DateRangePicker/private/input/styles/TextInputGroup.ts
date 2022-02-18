@@ -5,6 +5,7 @@ const TextInputGroup = styled.div<{
   isStartError: boolean;
   isEndError: boolean;
   isOneMonth: boolean;
+  isRtl?: boolean;
 }>(
   ({
     theme: {
@@ -14,6 +15,7 @@ const TextInputGroup = styled.div<{
     isStartError,
     isEndError,
     isOneMonth,
+    isRtl,
   }) => [
     {
       gridArea: 'inputs',
@@ -31,7 +33,8 @@ const TextInputGroup = styled.div<{
           borderStartEndRadius: 0,
         },
         '& .ghost': {
-          right: 0,
+          right: isRtl ? 'auto' : 0,
+          left: isRtl ? 0 : 'auto',
         },
         '& input:focus ~ .ghost, & input:hover ~ .ghost': {
           opacity: 0,
@@ -43,7 +46,8 @@ const TextInputGroup = styled.div<{
           borderEndStartRadius: 0,
         },
         '& .ghost': {
-          left: 0,
+          left: isRtl ? 'auto' : 0,
+          right: isRtl ? 0 : 'auto',
         },
         '& input:focus ~ .ghost, & input:hover ~ .ghost': {
           opacity: 0,

@@ -15,5 +15,6 @@ interface RangeTranslations {
   nextMonth: any;
   labelStartDate: any;
   labelEndDate: any;
+  custom: any;
 }
 export default RangeTranslations;

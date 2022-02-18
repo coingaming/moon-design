@@ -6,32 +6,34 @@ import isSameDay from 'date-fns/isSameDay';
 import isWithinInterval from 'date-fns/isWithinInterval';
 import startOfWeek from 'date-fns/startOfWeek';
 import styled from 'styled-components';
-import { Day } from '../Day';
+import { Day } from '../day/Day';
 import { isInRangePreview } from '../helpers/isInRangePreview';
 import MonthSelect from './MonthSelect';
 import DayName from './styles/DayName';
 import MonthYearLabel from './styles/MonthYearLabel';
 import YearSelect from './YearSelect';
+import type RangeConfig from '../types/RangeConfig';
 
 type MonthProps = {
   monthLabel: string;
   year: string;
-  weekDayLabels: string[];
-  monthDays: any[];
-  onDayClick: any;
-  onMouseEnter: any;
+  weekDayLabels?: string[];
+  monthDays: Date[];
+  onDayClick: (selectedDate: Date) => void;
+  onMouseEnter: (hoveredDate: Date) => void;
   cursorDate: Date;
   startDate?: Date;
   endDate?: Date;
   hoveredDate?: Date;
-  withHoursAndMinutes?: boolean;
-  setMonth: (month?: number) => void;
-  setYear: (year?: number) => void;
+  config?: RangeConfig;
+  setMonth: (month: number) => void;
+  setYear: (year: number) => void;
   isSecond?: boolean;
   yearsRange?: {
     min?: number;
     max?: number;
   };
+  isRtl?: boolean;
 };
 
 const Days = styled.div({
@@ -53,25 +55,32 @@ export const Month: React.FC<MonthProps> = ({
   setMonth,
   setYear,
   yearsRange,
-  withHoursAndMinutes,
+  config,
   isSecond,
+  isRtl,
 }) => {
   return (
     <>
       <MonthYearLabel>
-        {withHoursAndMinutes ? (
-          <>
-            {monthLabel} &nbsp;&nbsp; {year}
-          </>
-        ) : (
+        {config?.hideInputs ? (
           <>
             <MonthSelect
               monthLabel={monthLabel}
               setMonth={setMonth}
               isSecond={isSecond}
+              isRtl={isRtl}
             />
             &nbsp;&nbsp;
-            <YearSelect year={year} setYear={setYear} yearsRange={yearsRange} />
+            <YearSelect
+              year={year}
+              setYear={setYear}
+              yearsRange={yearsRange}
+              isRtl={isRtl}
+            />
+          </>
+        ) : (
+          <>
+            {monthLabel} &nbsp;&nbsp; {year}
           </>
         )}
       </MonthYearLabel>
@@ -110,6 +119,7 @@ export const Month: React.FC<MonthProps> = ({
                 hoveredDate,
                 day,
               })}
+              isRtl={isRtl}
             />
           );
         })}

@@ -2,11 +2,11 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type PickerContainerProps = {
-  isSidebar: boolean;
-  isInputsPanel: boolean;
-  isFooter: boolean;
-  isOneMonth: boolean;
-  isExpanded: boolean;
+  isSidebar?: boolean;
+  isInputsPanel?: boolean;
+  isFooter?: boolean;
+  isOneMonth?: boolean;
+  isExpanded?: boolean;
 };
 
 const getGridTemplate = ({

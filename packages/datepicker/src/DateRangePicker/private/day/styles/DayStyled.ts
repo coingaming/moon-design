@@ -1,10 +1,8 @@
-import React from 'react';
 import { rem } from '@heathmont/moon-utils';
-import format from 'date-fns/format';
 import { rgba } from 'polished';
 import styled from 'styled-components';
 
-type DayStyledProps = {
+export type DayStyledProps = {
   isInRange?: boolean;
   isInRangePreview?: boolean;
   isStartEdge?: boolean;
@@ -13,6 +11,7 @@ type DayStyledProps = {
   isDisabled?: boolean;
   isStartOfWeek?: boolean;
   isEndOfWeek?: boolean;
+  isRtl?: boolean;
 };
 
 const DayStyled = styled.div<DayStyledProps>(
@@ -26,6 +25,7 @@ const DayStyled = styled.div<DayStyledProps>(
     isDisabled,
     isStartOfWeek,
     isEndOfWeek,
+    isRtl,
   }) => [
     {
       height: rem(40),
@@ -53,6 +53,15 @@ const DayStyled = styled.div<DayStyledProps>(
       borderTopRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
       borderBottomRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
     },
+    (isInRange || isInRangePreview) &&
+      isRtl && {
+        borderTopLeftRadius: isEndOfWeek ? newTokens.borderRadius.medium : 0,
+        borderBottomLeftRadius: isEndOfWeek ? newTokens.borderRadius.medium : 0,
+        borderTopRightRadius: isStartOfWeek ? newTokens.borderRadius.medium : 0,
+        borderBottomRightRadius: isStartOfWeek
+          ? newTokens.borderRadius.medium
+          : 0,
+      },
     (isStartEdge || isEndEdge) && {
       background: colorNew.piccolo,
       color: colorNew.goten,
@@ -69,6 +78,15 @@ const DayStyled = styled.div<DayStyledProps>(
         borderBottomRightRadius: newTokens.borderRadius.medium,
       },
     },
+    isInRangePreview &&
+      isRtl && {
+        '&:hover': {
+          borderTopRightRadius: 0,
+          borderBottomRightRadius: 0,
+          borderTopLeftRadius: newTokens.borderRadius.medium,
+          borderBottomLeftRadius: newTokens.borderRadius.medium,
+        },
+      },
     isToday && {
       fontWeight: 'bold',
     },
@@ -82,92 +100,4 @@ const DayStyled = styled.div<DayStyledProps>(
   ]
 );
 
-const DayWrapper = styled.div<DayStyledProps>(
-  ({
-    theme: { newTokens, hover },
-    isStartEdge,
-    isEndEdge,
-    isInRangePreview,
-  }) => [
-    {
-      marginBottom: rem(4),
-    },
-    isStartEdge && {
-      backgroundColor: hover.secondary,
-      borderTopLeftRadius: newTokens.borderRadius.medium,
-      borderBottomLeftRadius: newTokens.borderRadius.medium,
-    },
-    isEndEdge && {
-      backgroundColor: hover.secondary,
-      borderTopRightRadius: newTokens.borderRadius.medium,
-      borderBottomRightRadius: newTokens.borderRadius.medium,
-    },
-    isInRangePreview && {
-      '&:hover': {
-        borderTopRightRadius: newTokens.borderRadius.medium,
-        borderBottomRightRadius: newTokens.borderRadius.medium,
-      },
-    },
-  ]
-);
-
-const EmptyCell = styled.div({
-  height: rem(32),
-});
-
-const formatLabel = (date: Date) => format(date, 'd');
-
-type DayProps = {
-  date: Date;
-  isSameMonth: boolean;
-  isStartEdge: boolean;
-  isEndEdge: boolean;
-  isInRange: boolean;
-  isInRangePreview: boolean;
-  isToday: boolean;
-  onDayClick: any;
-  onMouseEnter: any;
-  isStartOfWeek: boolean;
-  isEndOfWeek?: boolean;
-};
-
-export const Day: React.FC<DayProps> = ({
-  date,
-  isSameMonth,
-  isStartEdge,
-  isEndEdge,
-  isInRange,
-  isInRangePreview,
-  onDayClick,
-  onMouseEnter,
-  isToday,
-  isStartOfWeek,
-  isEndOfWeek,
-}) => {
-  if (!isSameMonth) {
-    return <EmptyCell />;
-  }
-
-  return (
-    <DayWrapper
-      isStartEdge={isStartEdge}
-      isEndEdge={isEndEdge}
-      isInRangePreview={isInRangePreview}
-      isInRange={isInRange}
-    >
-      <DayStyled
-        isStartEdge={isStartEdge}
-        isEndEdge={isEndEdge}
-        isInRange={isInRange}
-        isInRangePreview={isInRangePreview}
-        isToday={isToday}
-        onClick={() => onDayClick(date)}
-        onMouseEnter={() => onMouseEnter(date)}
-        isStartOfWeek={isStartOfWeek}
-        isEndOfWeek={isEndOfWeek}
-      >
-        {formatLabel(date)}
-      </DayStyled>
-    </DayWrapper>
-  );
-};
+export default DayStyled;

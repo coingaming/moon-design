@@ -2,25 +2,30 @@ import React from 'react';
 import { getRanges } from '../helpers/getRanges';
 import RangeItem from './styles/RangeItem';
 import SidebarList from './styles/SidebarList';
+import type { DatesRange } from '../helpers/getDatesFromRange';
+import type RangeConfig from '../types/RangeConfig';
+import type RangeTranslation from '../types/RangeTranslations';
 
 type SidebarProps = {
-  range: any;
-  selectRange: any;
-  translations: any;
-  config: any;
-  setCustom: any;
-  selectAndApply: any;
+  range?: DatesRange;
+  translations?: RangeTranslation;
+  config?: RangeConfig;
+  setCustom: React.Dispatch<React.SetStateAction<boolean>>;
+  selectAndApply: (newRange: any) => void;
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({
   range: currentRange,
-  selectRange,
   translations,
   config,
   setCustom,
   selectAndApply,
 }) => {
-  const ranges = getRanges(config);
+  const ranges = getRanges({
+    ranges: config?.ranges,
+    onlyFuture: config?.onlyFuture,
+    without24AndToday: config?.without24AndToday,
+  });
   return (
     <SidebarList>
       {ranges.map((range) => (
@@ -29,11 +34,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
           isSelected={range === currentRange}
           onClick={() => selectAndApply(range)}
         >
-          {translations[range]}
+          {(translations as any)[range]}
         </RangeItem>
       ))}
       <RangeItem isSelected={true} onClick={() => setCustom(true)}>
-        Custom
+        {translations?.custom}
       </RangeItem>
     </SidebarList>
   );

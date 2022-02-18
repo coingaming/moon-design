@@ -7,6 +7,7 @@ import Inner from './styles/Inner';
 import Input from './styles/Input';
 import LabelInner from './styles/LabelInner';
 import TextInputGroup from './styles/TextInputGroup';
+import type { DatesRange } from '../helpers/getDatesFromRange';
 import type RangeConfig from '../types/RangeConfig';
 import type RangeTranslations from '../types/RangeTranslations';
 
@@ -15,13 +16,22 @@ const InputsPanelStyled = styled.div({
 });
 
 type InputsPanelProps = {
-  startDate: Date;
-  endDate: Date;
-  setStartDate: any;
-  setEndDate: any;
-  onDateChange: any;
-  translations: RangeTranslations;
-  config: RangeConfig;
+  startDate?: Date;
+  endDate?: Date;
+  setStartDate: (startDate: Date) => void;
+  setEndDate: (endDate: Date) => void;
+  onDateChange: ({
+    startDate,
+    endDate,
+    range,
+  }: {
+    startDate?: Date;
+    endDate?: Date;
+    range?: DatesRange;
+  }) => any;
+  translations?: RangeTranslations;
+  config?: RangeConfig;
+  isRtl?: boolean;
 };
 
 export const InputsPanel: React.FC<InputsPanelProps> = ({
@@ -31,6 +41,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
   setEndDate,
   translations,
   config,
+  isRtl,
 }) => {
   const {
     hasStartDateError,
@@ -47,27 +58,30 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
         isStartError={!!hasStartDateError}
         isEndError={hasEndDateError}
         isOneMonth={config?.withOneMonth || false}
+        isRtl={isRtl}
       >
         <Inner bgColor={'gohan'} className="left">
           <Input
-            type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+            type={config?.withHoursAndMinutes ? 'datetime-local' : 'date'}
             error={!!hasStartDateError}
             value={inputStartDate}
             onChange={handelStartDateChange}
             isLabel={true}
+            dir={isRtl ? 'rtl' : 'ltr'}
           />
-          <LabelInner>{translations?.labelStartDate}</LabelInner>
+          <LabelInner isRtl={isRtl}>{translations?.labelStartDate}</LabelInner>
           <Ghost className="ghost" />
         </Inner>
         <Inner bgColor={'gohan'} className="right">
           <Input
-            type={config.withHoursAndMinutes ? 'datetime-local' : 'date'}
+            type={config?.withHoursAndMinutes ? 'datetime-local' : 'date'}
             error={hasEndDateError}
             value={inputEndDate}
             onChange={handelEndDateChange}
             isLabel={true}
+            dir={isRtl ? 'rtl' : 'ltr'}
           />
-          <LabelInner>{translations?.labelEndDate}</LabelInner>
+          <LabelInner isRtl={isRtl}>{translations?.labelEndDate}</LabelInner>
           <Ghost className="ghost" />
         </Inner>
       </TextInputGroup>

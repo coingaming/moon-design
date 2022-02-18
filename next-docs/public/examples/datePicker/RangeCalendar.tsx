@@ -35,21 +35,22 @@ const Example = () => {
             onDateChange={({ startDate, endDate }) => {
               setStartDate(startDate as Date);
               setEndDate(endDate as Date);
-              setIsOpen(!isOpen);
             }}
+            setIsOpen={setIsOpen}
+            // isRtl={true}
             config={{
               weekStartsOn: 1,
-              // withHoursAndMinutes: true,
-              // withPeriodList: true,
-              // withOneMonth: true,
-              // hideInputs: false,
+              //withHoursAndMinutes: true,
+              withPeriodList: true,
+              //withOneMonth: true,
+              hideInputs: true,
               withFooter: {
                 isApplyBtn: true,
-                isCanselBtn: true,
-                isClearBtn: true,
+                isCanselBtn: false,
+                // isClearBtn: true,
               },
             }}
-            hasClickedOutside={hasClickedOutside}
+            // hasClickedOutside={hasClickedOutside}
           />
         )}
       </div>

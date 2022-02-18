@@ -5,11 +5,11 @@ import isValid from 'date-fns/isValid';
 import RangeConfig from '../types/RangeConfig';
 
 type useInputsPanelProps = {
-  startDate: Date;
-  endDate: Date;
-  setStartDate: any;
-  setEndDate: any;
-  config: RangeConfig;
+  startDate?: Date;
+  endDate?: Date;
+  setStartDate: (startDate: Date) => void;
+  setEndDate: (endDate: Date) => void;
+  config?: RangeConfig;
 };
 
 const useInputsPanel = ({
@@ -19,7 +19,7 @@ const useInputsPanel = ({
   setStartDate,
   setEndDate,
 }: useInputsPanelProps) => {
-  const dateFormat = config.withHoursAndMinutes
+  const dateFormat = config?.withHoursAndMinutes
     ? "yyyy-MM-dd'T'HH:mm"
     : 'yyyy-MM-dd';
   const [inputStartDate, setInputStartDate] = React.useState(
@@ -33,7 +33,7 @@ const useInputsPanel = ({
   React.useEffect(() => {
     setInputStartDate(startDate ? format(startDate, dateFormat) : '');
     setInputEndDate(endDate ? format(endDate, dateFormat) : '');
-    const isStartDayBefore = compareAsc(startDate, endDate) === -1;
+    const isStartDayBefore = compareAsc(startDate || 0, endDate || 0) === -1;
     if (isStartDayBefore) {
       setStartDateError('');
       setEndDateError(false);
@@ -91,7 +91,6 @@ const useInputsPanel = ({
     inputStartDate,
     hasEndDateError,
     inputEndDate,
-
     handelStartDateChange,
     handelEndDateChange,
   };

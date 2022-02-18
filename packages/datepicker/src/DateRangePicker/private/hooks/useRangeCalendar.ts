@@ -36,7 +36,7 @@ type useRangeCalendarProps = {
   setPlaceholder?: any;
 };
 
-type DatepickerState = {
+export type DatepickerState = {
   startDate?: Date;
   endDate?: Date;
   range?: DatesRange;
@@ -93,7 +93,6 @@ const useRangeCalendar = ({
   });
 
   const apply = () => {
-    console.log('apply');
     onDateChange({
       startDate: datesState.startDate,
       endDate: datesState.endDate,
@@ -109,6 +108,10 @@ const useRangeCalendar = ({
           translations,
         })
       );
+    typeof setIsOpen === 'function' && setIsOpen(false);
+  };
+
+  const cansel = () => {
     typeof setIsOpen === 'function' && setIsOpen(false);
   };
 
@@ -175,8 +178,6 @@ const useRangeCalendar = ({
       cursorDate: new Date(),
     });
   };
-
-  // TODO - onClickOutsideHandler
 
   const hoverDay = (hoveredDate: Date) => {
     if (
@@ -313,6 +314,7 @@ const useRangeCalendar = ({
     setEndDate,
     apply,
     reset,
+    cansel,
     labels,
     setMonth,
     setYear,

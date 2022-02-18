@@ -23,6 +23,7 @@ const Input = styled.input.attrs(({ type }) => ({
     bgColor,
     isLabel,
     isPassword,
+    dir,
   }) => [
     {
       display: 'block',
@@ -86,6 +87,7 @@ const Input = styled.input.attrs(({ type }) => ({
         padding: 0,
         height: rem(38),
         lineHeight: `${rem(38)}`,
+        ...(dir === 'rtl' ? { textAlign: 'end' } : {}),
       },
       '&::-webkit-datetime-edit': {
         height: rem(54),

@@ -8,13 +8,17 @@ import Container from './styles/Container';
 import LabelContainer from './styles/LabelContainer';
 import SelectorContainer from './styles/SelectorContainer';
 
+const MIN_YEAR: number = 1900;
+const MAX_YEAR: number = 2150;
+
 type YearSelectProps = {
   year: string;
-  setYear: (year?: number) => void;
+  setYear: (year: number) => void;
   yearsRange?: {
     min?: number;
     max?: number;
   };
+  isRtl?: boolean;
 };
 
 const DownArrow = styled(ControlsChevronDownSmall as any)(({ theme }) => ({
@@ -27,11 +31,12 @@ const YearSelect: React.FC<YearSelectProps> = ({
   year,
   setYear,
   yearsRange,
+  isRtl,
 }) => {
   const [isOpen, setOpen] = React.useState(false);
   const years = getYears({
-    min: yearsRange?.min || 1900,
-    max: yearsRange?.max || 2150,
+    min: yearsRange?.min || MIN_YEAR,
+    max: yearsRange?.max || MAX_YEAR,
   });
   const [ref, hasClickedOutside] = useClickOutside();
 
@@ -40,12 +45,11 @@ const YearSelect: React.FC<YearSelectProps> = ({
       setOpen(false);
     }
   });
-
   return (
     <Container onClick={() => setOpen(!isOpen)} ref={ref} test-id="year-select">
       {year} <DownArrow />
       {isOpen && (
-        <SelectorContainer>
+        <SelectorContainer isRtl={isRtl}>
           {years.map((y: number, i: number) => (
             <LabelContainer key={`${y}${i}`} onClick={() => setYear(y)}>
               {y}
