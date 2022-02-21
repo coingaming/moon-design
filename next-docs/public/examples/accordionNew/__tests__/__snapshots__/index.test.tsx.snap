@@ -172,6 +172,63 @@ exports[`Accordion New renders content outside 1`] = `
 </div>
 `;
 
+exports[`Accordion New renders disable open 1`] = `
+<div
+  className="AccordionWrapper-sc-1lua0np-0 kWxezE"
+  size="xlarge"
+>
+  <div
+    className="AccordionHeader-jf0m69-0 jaOCgR"
+    size="xlarge"
+  >
+    <h3
+      className="Heading-sc-1fj2bsx-0 fbxrgH"
+      color="bulma.100"
+      onClick={[Function]}
+      size={16}
+    >
+      Test accordion
+    </h3>
+    <button
+      className="AccordionToggle-efoahp-0 cZVbNc"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className="sc-bOTDDd eIlMxZ"
+        fill="none"
+        fontSize="2rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 20.5l9-9 9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="AccordionContent-sc-113gzjq-0 djwzYY"
+    size="xlarge"
+  >
+    <div
+      className="ChildrenWrapper-sc-1gpnx2m-0 gOxfFV"
+      size="xlarge"
+    >
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Accordion New renders header content 1`] = `
 <div
   className="AccordionWrapper-sc-1lua0np-0 kWxezE"
@@ -276,6 +333,62 @@ exports[`Accordion New renders header content 1`] = `
   </div>
   <div
     className="AccordionContent-sc-113gzjq-0 djwzYY"
+    size="xlarge"
+  >
+    <div
+      className="ChildrenWrapper-sc-1gpnx2m-0 gOxfFV"
+      size="xlarge"
+    >
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion New renders open by default 1`] = `
+<div
+  className="AccordionWrapper-sc-1lua0np-0 kWxezE"
+  size="xlarge"
+>
+  <div
+    className="AccordionHeader-jf0m69-0 jaOCgR"
+    size="xlarge"
+  >
+    <h3
+      className="Heading-sc-1fj2bsx-0 fbxrgH"
+      color="bulma.100"
+      onClick={[Function]}
+      size={16}
+    >
+      Test accordion
+    </h3>
+    <button
+      className="AccordionToggle-efoahp-0 fa-DIyL"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className="sc-dXNJws eZgLBY"
+        fill="none"
+        fontSize="2rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="AccordionContent-sc-113gzjq-0 krHcPb"
     size="xlarge"
   >
     <div

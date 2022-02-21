@@ -7,7 +7,9 @@ import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
 import ContentOutside from '../ContentOutside';
+import DisableOpen from '../DisableOpen';
 import HeaderContent from '../HeaderContent';
+import OpenByDefault from '../OpenByDefault';
 import Sizes from '../Sizes';
 import SizesContentOutside from '../SizesContentOutside';
 import WithoutButton from '../WithoutButton';
@@ -30,6 +32,16 @@ describe('Accordion New', () => {
 
   it('renders RTL', () => {
     const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders open by default', () => {
+    const testRenderer = renderer.create(renderWithTheme(<OpenByDefault />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders disable open', () => {
+    const testRenderer = renderer.create(renderWithTheme(<DisableOpen />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

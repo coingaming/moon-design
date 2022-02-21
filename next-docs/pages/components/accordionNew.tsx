@@ -3,7 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
+import DisableOpen from '../../public/examples/accordionNew/DisableOpen';
 import HeaderContent from '../../public/examples/accordionNew/HeaderContent';
+import OpenByDefault from '../../public/examples/accordionNew/OpenByDefault';
 import Sizes from '../../public/examples/accordionNew/Sizes';
 import SizesContentOutside from '../../public/examples/accordionNew/SizesContentOutside';
 import WithoutButton from '../../public/examples/accordionNew/WithoutButton';
@@ -40,10 +42,28 @@ export default function PageAccordion() {
 
       <section className="mt-8">
         <Preview
+          title="Open by default"
+          isGrayBg
+          preview={<OpenByDefault />}
+          code={examples.OpenByDefault ? examples.OpenByDefault : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
           title="Without button"
           isGrayBg
           preview={<WithoutButton />}
           code={examples.WithoutButton ? examples.WithoutButton : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Disable open"
+          isGrayBg
+          preview={<DisableOpen />}
+          code={examples.DisableOpen ? examples.DisableOpen : 'Loading'}
         />
       </section>
 
