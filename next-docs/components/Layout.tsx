@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
+import ElixirSettings from './settings/elixir/ElixirSettings';
 import ReactSettings from './settings/react/ReactSettings';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
@@ -12,6 +13,9 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
+  const [isReact, setIsReact] = useState<boolean>(true); // React or Elixir view
+
+  const toggleReactAndElixir = () => setIsReact(!isReact);
 
   return (
     <div
@@ -62,7 +66,17 @@ export default function Layout({ children }: LayoutProps) {
         </div>
 
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-          <ReactSettings />
+          {isReact ? (
+            <ReactSettings
+              toggleReactAndElixir={toggleReactAndElixir}
+              isReactEnabled={isReact}
+            />
+          ) : (
+            <ElixirSettings
+              toggleReactAndElixir={toggleReactAndElixir}
+              isElixirEnabled={!isReact}
+            />
+          )}
 
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
 

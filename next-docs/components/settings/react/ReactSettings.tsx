@@ -1,10 +1,19 @@
 import { useState } from 'react';
 import { useDocsTheme } from '../../themes/DocsThemeProvider';
+import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
 import BrandThemeSelector from './BrandThemeSelector';
 import DarkLightModeSwitcher from './DarkLightModeSwitch';
 import RTLModeSwitch from './RTLModeSwitch';
 
-const ReactSettings = () => {
+interface Props {
+  toggleReactAndElixir: () => void;
+  isReactEnabled: boolean;
+}
+
+const ReactSettings: React.FC<Props> = ({
+  toggleReactAndElixir,
+  isReactEnabled,
+}) => {
   const { toggleColorScheme, getColorMode, setBrand, themeKeys } =
     useDocsTheme();
 
@@ -35,6 +44,12 @@ const ReactSettings = () => {
         />
       }
       rtlSwitch={<RTLModeSwitch toggle={toggleRtl} isEnabled={isRtl} />}
+      reactElixirSwitch={
+        <ReactElixirSwitcher
+          toggle={toggleReactAndElixir}
+          isReactEnabled={isReactEnabled}
+        />
+      }
     />
   );
 };

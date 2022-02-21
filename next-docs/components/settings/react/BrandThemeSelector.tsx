@@ -22,6 +22,7 @@ interface BrandThemeSelectorProps {
   darkLight: JSX.Element;
   rtlSwitch: JSX.Element;
   isRtlEnabled: boolean;
+  reactElixirSwitch: JSX.Element;
 }
 
 const BrandThemeSelector = ({
@@ -30,6 +31,7 @@ const BrandThemeSelector = ({
   darkLight,
   rtlSwitch,
   isRtlEnabled,
+  reactElixirSwitch,
 }: BrandThemeSelectorProps) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
@@ -44,7 +46,7 @@ const BrandThemeSelector = ({
         aria-pressed="false"
         className={`${
           isRtlEnabled ? `left-4` : `right-4`
-        } text-black bg-white hover:bg-gray-200 fixed bottom-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-40 shadow-md z-10`}
+        } text-black bg-white hover:bg-gray-200 fixed bottom-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-40 shadow-md`}
       >
         <svg
           width="32"
@@ -67,7 +69,7 @@ const BrandThemeSelector = ({
           <div
             className={`${
               isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-16 z-10`}
+            } fixed bottom-16 z-40`}
           >
             {filteredThemeKeys.map((themeKey: string) => {
               const Logo = Logos[themeKey as LogosKeys] || Logos.moonDesign;
@@ -88,18 +90,26 @@ const BrandThemeSelector = ({
           <div
             className={`${
               isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-28 z-10`}
+            } fixed bottom-28 z-40`}
           >
             {darkLight}
           </div>
           <div
             className={`${
               isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-40 z-10`}
+            } fixed bottom-40 z-40`}
           >
             {rtlSwitch}
           </div>
+          <div
+            className={`${
+              isRtlEnabled ? `left-4` : `right-4`
+            } fixed bottom-52 z-40`}
+          >
+            {reactElixirSwitch}
+          </div>
         </>
+
       )}
     </>
   );
