@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useFeatureFlags from '../utils/useFeatureFlags';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
 import ElixirSettings from './settings/elixir/ElixirSettings';
@@ -16,6 +17,8 @@ export default function Layout({ children }: LayoutProps) {
   const [isReact, setIsReact] = useState<boolean>(true); // React or Elixir view
 
   const toggleReactAndElixir = () => setIsReact(!isReact);
+
+  const { isElixirEnabled } = useFeatureFlags();
 
   return (
     <div
@@ -66,15 +69,15 @@ export default function Layout({ children }: LayoutProps) {
         </div>
 
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-          {isReact ? (
-            <ReactSettings
-              toggleReactAndElixir={toggleReactAndElixir}
-              isReactEnabled={isReact}
-            />
-          ) : (
+          {isElixirEnabled ? (
             <ElixirSettings
               toggleReactAndElixir={toggleReactAndElixir}
               isElixirEnabled={!isReact}
+            />
+          ) : (
+            <ReactSettings
+              toggleReactAndElixir={toggleReactAndElixir}
+              isReactEnabled={isReact}
             />
           )}
 
