@@ -87,7 +87,7 @@ export default function PageAccordion() {
         />
       </section>
 
-      {/* <section className="mt-8">
+      <section className="mt-8">
         <h2 className="text-2xl mb-4">Props</h2>
         <Table
           data={[
@@ -106,7 +106,7 @@ export default function PageAccordion() {
               description: 'Expanded/collapsed accordion by default',
             },
             {
-              name: 'withArrow',
+              name: 'withButton',
               type: 'boolean',
               required: false,
               default: 'true',
@@ -133,9 +133,24 @@ export default function PageAccordion() {
               default: '-',
               description: 'Content to show inside of accordion',
             },
+            {
+              name: 'size',
+              type: 'xlarge | large | medium | small',
+              required: false,
+              default: '-',
+              description: 'Size variant of accordion',
+            },
+            {
+              name: 'isContentInside',
+              type: 'boolean',
+              required: false,
+              default: '-',
+              description:
+                'Whether the content is displayed outside of the accordion header',
+            },
           ]}
         />
-      </section> */}
+      </section>
     </>
   );
 }
