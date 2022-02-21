@@ -3,6 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
+import HeaderContent from '../../public/examples/accordionNew/HeaderContent';
+import Sizes from '../../public/examples/accordionNew/Sizes';
+import SizesContentOutside from '../../public/examples/accordionNew/SizesContentOutside';
 import WithoutButton from '../../public/examples/accordionNew/WithoutButton';
 import useExamples from '../../utils/useExamples';
 
@@ -50,6 +53,37 @@ export default function PageAccordion() {
           isGrayBg
           preview={<ContentOutside />}
           code={examples.ContentOutside ? examples.ContentOutside : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Header content"
+          isGrayBg
+          preview={<HeaderContent />}
+          code={examples.HeaderContent ? examples.HeaderContent : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          isGrayBg
+          preview={<Sizes />}
+          code={examples.Sizes ? examples.Sizes : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes: content outside"
+          isGrayBg
+          preview={<SizesContentOutside />}
+          code={
+            examples.SizesContentOutside
+              ? examples.SizesContentOutside
+              : 'Loading'
+          }
         />
       </section>
 
