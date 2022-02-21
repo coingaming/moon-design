@@ -96,6 +96,7 @@ importers:
     specifiers:
       '@headlessui/react': 1.4.2
       '@heathmont/moon-accordion': workspace:^8.0.0
+      '@heathmont/moon-accordion-new': workspace:^8.0.0
       '@heathmont/moon-assets': workspace:^8.0.0
       '@heathmont/moon-charts': workspace:^8.0.0
       '@heathmont/moon-components': workspace:^8.0.0
@@ -142,6 +143,7 @@ importers:
     dependencies:
       '@headlessui/react': 1.4.2_react-dom@17.0.2+react@17.0.2
       '@heathmont/moon-accordion': link:../packages/accordion
+      '@heathmont/moon-accordion-new': link:../packages/accordionNew
       '@heathmont/moon-assets': link:../packages/assets
       '@heathmont/moon-charts': link:../packages/charts
       '@heathmont/moon-components': link:../packages/components
