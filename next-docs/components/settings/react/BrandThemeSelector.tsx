@@ -5,7 +5,7 @@ import {
   LogoMoonDesignShort,
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
-import { DocsBrands } from './DocsThemeProvider';
+import { DocsBrands } from '../../themes/DocsThemeProvider';
 
 const Logos = {
   sportsbet: <LogoSportsbetShort fontSize="1rem" />,
