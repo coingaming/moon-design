@@ -8,17 +8,17 @@ export const ELIXIR_BASE_URL =
   is prefixed "NEXT_PUBLIC_" because of
   https://nextjs.org/docs/basic-features/environment-variables#environment-variable-load-order
 */
-const isElixirEnabled =
+const isFeatureElixirEnabled =
   process.env.NEXT_PUBLIC_ELIXIR_ENABLED === 'true' || false;
 
 type FeatureFlags = {
-  isElixirEnabled: boolean;
+  isFeatureElixirEnabled: boolean;
 };
 
 const useFeatureFlags: () => FeatureFlags = () => {
   const memoizedFeatureFlags = useMemo(
     () => ({
-      isElixirEnabled,
+      isFeatureElixirEnabled,
     }),
     []
   );

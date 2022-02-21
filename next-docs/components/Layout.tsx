@@ -14,11 +14,11 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
-  const [isReact, setIsReact] = useState<boolean>(true); // React or Elixir view
+  const [isElixir, setIsElixir] = useState<boolean>(false); // React or Elixir view
 
-  const toggleReactAndElixir = () => setIsReact(!isReact);
+  const toggleReactAndElixir = () => setIsElixir(!isElixir);
 
-  const { isElixirEnabled } = useFeatureFlags();
+  const { isFeatureElixirEnabled } = useFeatureFlags();
 
   return (
     <div
@@ -69,15 +69,15 @@ export default function Layout({ children }: LayoutProps) {
         </div>
 
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-          {isElixirEnabled ? (
+          {isFeatureElixirEnabled && isElixir ? (
             <ElixirSettings
               toggleReactAndElixir={toggleReactAndElixir}
-              isElixirEnabled={!isReact}
+              isElixirEnabled={isElixir}
             />
           ) : (
             <ReactSettings
               toggleReactAndElixir={toggleReactAndElixir}
-              isReactEnabled={isReact}
+              isReactEnabled={!isElixir}
             />
           )}
 

@@ -5,7 +5,8 @@ import {
   LogoMoonDesignShort,
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
-import { DocsBrands } from '../../themes/DocsThemeProvider';
+import { BrandThemeButton } from './BrandThemeButton';
+import { ElixirThemeType } from './store';
 
 const Logos = {
   sportsbet: <LogoSportsbetShort fontSize="1rem" />,
@@ -14,39 +15,34 @@ const Logos = {
   betadda: <LogoBetaddaShort fontSize="1rem" />,
 };
 
+const getLogo = (themeKey: string | ElixirThemeType): JSX.Element =>
+  Logos[themeKey as LogosKeys] || Logos.moonDesign;
+
 type LogosKeys = keyof typeof Logos;
 
 interface BrandThemeSelectorProps {
-  setBrand: (v: DocsBrands) => void;
-  themeKeys: string[];
+  setElixirTheme: (v: ElixirThemeType) => void;
+  themeKeys: ElixirThemeType[];
   darkLight: JSX.Element;
-  rtlSwitch: JSX.Element;
-  isRtlEnabled: boolean;
   reactElixirSwitch: JSX.Element;
 }
 
 const ElixirThemeSelector = ({
-  setBrand,
+  setElixirTheme,
   themeKeys,
   darkLight,
-  rtlSwitch,
-  isRtlEnabled,
   reactElixirSwitch,
 }: BrandThemeSelectorProps) => {
   const [isOpened, setIsOpened] = React.useState(false);
   const toggle = () => setIsOpened(!isOpened);
-  const filteredThemeKeys = themeKeys.filter((themeKey: string) =>
-    ['sportsbet', 'bitcasino', 'moonDesign', 'betadda'].includes(themeKey)
-  );
+
   return (
     <>
       <button
         onClick={toggle}
         type="button"
         aria-pressed="false"
-        className={`${
-          isRtlEnabled ? `left-4` : `right-4`
-        } text-black bg-white hover:bg-gray-200 fixed bottom-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-40 shadow-md`}
+        className="right-4 text-black bg-white hover:bg-gray-200 fixed bottom-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-40 shadow-md"
       >
         <svg
           width="32"
@@ -61,60 +57,29 @@ const ElixirThemeSelector = ({
             strokeLinecap="round"
           />
         </svg>
-
-        {/* <LogoDrop fontSize="2rem" /> */}
       </button>
       {isOpened && (
         <>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-16 z-40`}
-          >
-            {filteredThemeKeys.map((themeKey: string) => {
-              const Logo = Logos[themeKey as LogosKeys] || Logos.moonDesign;
-              return (
-                <button
-                  key={themeKey}
-                  type="button"
-                  onClick={() => setBrand(themeKey as DocsBrands)}
-                  className={`${
-                    isRtlEnabled ? `mr-4` : `ml-4`
-                  } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
-                >
-                  {Logo}
-                </button>
-              );
-            })}
+          <div className="right-4 fixed bottom-16 z-40">
+            {themeKeys.map((themeKey: ElixirThemeType) => (
+              <BrandThemeButton
+                key={themeKey}
+                onClick={() => setElixirTheme(themeKey)}
+                isRtlEnabled={false}
+              >
+                {getLogo(themeKey)}
+              </BrandThemeButton>
+            ))}
           </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-28 z-40`}
-          >
-            {darkLight}
-          </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-40 z-40`}
-          >
-            {rtlSwitch}
-          </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-52 z-40`}
-          >
+          <div className={'right-4 fixed bottom-28 z-40'}>{darkLight}</div>
+
+          <div className={'right-4 fixed bottom-40 z-40'}>
             {reactElixirSwitch}
           </div>
         </>
-
       )}
     </>
   );
 };
 
-const TestElixirThemeSelector = () => <h1>Test Elixir</h1>
-
-export default TestElixirThemeSelector;
+export default ElixirThemeSelector;

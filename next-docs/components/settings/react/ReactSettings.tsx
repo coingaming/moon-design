@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import useFeatureFlags from '../../../utils/useFeatureFlags';
 import { useDocsTheme } from '../../themes/DocsThemeProvider';
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
 import BrandThemeSelector from './BrandThemeSelector';
@@ -18,6 +19,8 @@ const ReactSettings: React.FC<Props> = ({
     useDocsTheme();
 
   const [isRtl, setIsRtl] = useState(false);
+
+  const { isFeatureElixirEnabled } = useFeatureFlags();
 
   const toggleRtl = () => {
     const htmlTag = document && document?.getElementsByTagName('html')[0];
@@ -45,10 +48,14 @@ const ReactSettings: React.FC<Props> = ({
       }
       rtlSwitch={<RTLModeSwitch toggle={toggleRtl} isEnabled={isRtl} />}
       reactElixirSwitch={
-        <ReactElixirSwitcher
-          toggle={toggleReactAndElixir}
-          isReactEnabled={isReactEnabled}
-        />
+        isFeatureElixirEnabled ? (
+          <ReactElixirSwitcher
+            toggle={toggleReactAndElixir}
+            isReactEnabled={isReactEnabled}
+          />
+        ) : (
+          <></>
+        )
       }
     />
   );
