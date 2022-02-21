@@ -7,7 +7,7 @@ const AccordionContent = styled.div<{ isOpen?: boolean }>(
     backgroundColor: `rgba(78, 70, 180, 0.12)`, //TODO add a new color name
     borderRadius: newTokens.borderRadius.xsmall,
     overflow: `hidden`,
-    marginTop: rem(16),
+    marginTop: isOpen ? rem(16) : 0,
   })
 );
 

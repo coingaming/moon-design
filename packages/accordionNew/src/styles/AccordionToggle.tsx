@@ -6,7 +6,6 @@ type Props = {
 
 const AccordionToggle = styled.button<Props>(
   ({ theme: { colorNew, newTokens }, disabled }) => ({
-    padding: newTokens.space.twoxsmall,
     verticalAlign: 'middle',
     fontSize: newTokens.space.twoxsmall,
     lineHeight: 0,

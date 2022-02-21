@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
+import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
 import WithoutButton from '../../public/examples/accordionNew/WithoutButton';
 import useExamples from '../../utils/useExamples';
@@ -28,6 +29,7 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Default"
+          isGrayBg
           preview={<Default />}
           code={examples.Accordion ? examples.Accordion : 'Loading'}
         />
@@ -36,8 +38,18 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Without button"
+          isGrayBg
           preview={<WithoutButton />}
-          code={examples.Accordion ? examples.Accordion : 'Loading'}
+          code={examples.WithoutButton ? examples.WithoutButton : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Content outside"
+          isGrayBg
+          preview={<ContentOutside />}
+          code={examples.ContentOutside ? examples.ContentOutside : 'Loading'}
         />
       </section>
 

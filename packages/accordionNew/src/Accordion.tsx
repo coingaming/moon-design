@@ -13,19 +13,21 @@ type Props = {
   title: string;
   openByDefault?: boolean;
   children?: React.ReactNode;
-  withButton?: boolean;
   disableOpen?: boolean;
   headerContent?: React.ReactNode;
   size?: Size;
+  withButton?: boolean;
+  isContentInside?: boolean;
 };
 
 const Accordion = ({
   title,
   openByDefault,
   children,
-  withButton = true,
   disableOpen,
   headerContent,
+  withButton = true,
+  isContentInside = true,
 }: Props) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
 
@@ -36,8 +38,8 @@ const Accordion = ({
   }
 
   return (
-    <AccordionWrapper>
-      <AccordionHeader>
+    <AccordionWrapper isContentInside={isContentInside}>
+      <AccordionHeader isContentInside={isContentInside}>
         {title && (
           <Heading size={16} onClick={handleState}>
             {title}
@@ -51,9 +53,9 @@ const Accordion = ({
             disabled={disableOpen}
           >
             {isOpen ? (
-              <ControlsChevronDown fontSize="2rem" color="bulma.100" />
+              <ControlsChevronDown fontSize="1rem" color="bulma.100" />
             ) : (
-              <ControlsChevronUp fontSize="2rem" color="bulma.100" />
+              <ControlsChevronUp fontSize="1rem" color="bulma.100" />
             )}
           </AccordionToggle>
         )}
