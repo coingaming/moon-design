@@ -65,9 +65,7 @@ const Accordion = ({
         isContentInside={isContentInside}
         size={size}
       >
-        <ChildrenWrapper isContentInside={isContentInside} size={size}>
-          {children}
-        </ChildrenWrapper>
+        <ChildrenWrapper size={size}>{children}</ChildrenWrapper>
       </AccordionContent>
     </AccordionWrapper>
   );

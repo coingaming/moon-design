@@ -1,18 +1,22 @@
-import { rem } from '@heathmont/moon-utils';
+import { SharedTheme } from '@heathmont/moon-themes';
 import styled from 'styled-components';
 import Size from '../private/Size';
 
-const determinePadding = (isContentInside?: boolean, size?: Size) => {
+const determinePadding = (
+  newTokens: SharedTheme['newTokens'],
+  isContentInside?: boolean,
+  size?: Size
+) => {
   if (isContentInside) {
     switch (size) {
       case 'large':
-        return rem(12);
+        return newTokens.space.xsmall;
       case 'medium':
-        return rem(8);
+        return newTokens.space.twoxsmall;
       case 'small':
-        return rem(4);
+        return newTokens.space.threexsmall;
       default:
-        return rem(16);
+        return newTokens.space.small;
     }
   }
   return 0;
@@ -25,7 +29,7 @@ type Props = {
 
 const AccordionWrapper = styled.div<Props>(
   ({ theme: { colorNew, newTokens }, isContentInside, size }) => ({
-    padding: determinePadding(isContentInside, size),
+    padding: determinePadding(newTokens, isContentInside, size),
     backgroundColor: isContentInside ? colorNew.gohan : 'transparent',
     width: '100%',
     borderRadius: newTokens.borderRadius.medium,

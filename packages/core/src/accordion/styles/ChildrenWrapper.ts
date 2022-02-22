@@ -1,28 +1,31 @@
+import { SharedTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../private/Size';
 
-const determineVerticalPadding = (isContentInside?: boolean, size?: Size) => {
+const determineVerticalPadding = (
+  newTokens: SharedTheme['newTokens'],
+  size?: Size
+) => {
   switch (size) {
     case 'large':
-      return rem(12);
+      return newTokens.space.xsmall;
     case 'medium':
-      return rem(8);
+      return newTokens.space.twoxsmall;
     case 'small':
-      return rem(4);
+      return newTokens.space.threexsmall;
     default:
-      return rem(16);
+      return newTokens.space.small;
   }
 };
 
 type Props = {
-  isContentInside?: boolean;
   size?: Size;
 };
 
-const ChildrenWrapper = styled.div<Props>(({ isContentInside, size }) => ({
+const ChildrenWrapper = styled.div<Props>(({ theme: { newTokens }, size }) => ({
   display: 'block',
-  padding: determineVerticalPadding(isContentInside, size),
+  padding: determineVerticalPadding(newTokens, size),
 }));
 
 export default ChildrenWrapper;
