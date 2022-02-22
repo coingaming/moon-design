@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import renderer, { act } from 'react-test-renderer';
 import Default from '../Default';
 import ContentOutside from '../ContentOutside';
 import DisableOpen from '../DisableOpen';
@@ -69,6 +69,28 @@ describe('Accordion New', () => {
 
   it('renders without button', () => {
     const testRenderer = renderer.create(renderWithTheme(<WithoutButton />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('expands', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Default />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findByType('button');
+      button.props.onClick();
+    });
+
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('collapses', () => {
+    const testRenderer = renderer.create(renderWithTheme(<OpenByDefault />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findByType('button');
+      button.props.onClick();
+    });
+
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
