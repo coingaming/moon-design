@@ -157,14 +157,14 @@ export default function PageAccordion() {
               name: 'size',
               type: 'xlarge | large | medium | small',
               required: false,
-              default: '-',
+              default: 'xlarge',
               description: 'Size variant of accordion',
             },
             {
               name: 'isContentInside',
               type: 'boolean',
               required: false,
-              default: '-',
+              default: 'true',
               description:
                 'Whether the content is displayed outside of the accordion header',
             },

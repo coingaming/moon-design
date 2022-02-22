@@ -1,6 +1,6 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import { Size } from '..';
+import Size from '../private/Size';
 
 const determinePadding = (isContentInside?: boolean, size?: Size) => {
   if (isContentInside) {

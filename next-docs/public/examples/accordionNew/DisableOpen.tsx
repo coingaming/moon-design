@@ -1,4 +1,4 @@
-import { Accordion } from '@heathmont/moon-accordion-new';
+import { Accordion } from '@heathmont/moon-core';
 
 const Example = () => (
   <Accordion title="Test accordion" disableOpen={true}>

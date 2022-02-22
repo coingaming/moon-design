@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Heading } from '@heathmont/moon-components';
 import { ControlsChevronUp, ControlsChevronDown } from '@heathmont/moon-icons';
+import Size from './private/Size';
 import AccordionContent from './styles/AccordionContent';
 import AccordionHeader from './styles/AccordionHeader';
 import AccordionToggle from './styles/AccordionToggle';
 import AccordionWrapper from './styles/AccordionWrapper';
 import ChildrenWrapper from './styles/ChildrenWrapper';
-
-export type Size = 'small' | 'medium' | 'large' | 'xlarge';
 
 type Props = {
   title: string;

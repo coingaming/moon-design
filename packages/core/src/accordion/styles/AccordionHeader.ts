@@ -1,7 +1,7 @@
+import { SharedTheme } from '@heathmont/moon-components/node_modules/@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import { Size } from '..';
-import { SharedTheme } from '../../../components/node_modules/@heathmont/moon-themes/lib';
+import Size from '../private/Size';
 
 const determineHeight = (isContentInside?: boolean, size?: Size) => {
   if (isContentInside) {

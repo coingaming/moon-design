@@ -1,4 +1,4 @@
-import { Accordion } from '@heathmont/moon-accordion-new';
+import { Accordion } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex flex-col gap-y-3">
