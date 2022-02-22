@@ -2,6 +2,8 @@ import React from 'react';
 import compareAsc from 'date-fns/compareAsc';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
+import subDays from 'date-fns/subDays';
+import { checkIsDisabledDay } from '../../../private/helper/checkIsDisabledDay';
 import RangeConfig from '../types/RangeConfig';
 
 type useInputsPanelProps = {
@@ -30,7 +32,12 @@ const useInputsPanel = ({
   );
   const [hasStartDateError, setStartDateError] = React.useState('');
   const [hasEndDateError, setEndDateError] = React.useState(false);
+
   React.useEffect(() => {
+    const isDisabledStartDay =
+      startDate && checkIsDisabledDay(startDate, config?.disabledDays);
+    const isDisabledEndDay =
+      endDate && checkIsDisabledDay(subDays(endDate, 1), config?.disabledDays);
     setInputStartDate(startDate ? format(startDate, dateFormat) : '');
     setInputEndDate(endDate ? format(endDate, dateFormat) : '');
     const isStartDayBefore = compareAsc(startDate || 0, endDate || 0) === -1;
@@ -43,14 +50,21 @@ const useInputsPanel = ({
       setStartDateError('');
       setEndDateError(true);
     }
+    if (isDisabledStartDay) {
+      setStartDateError('Not valid date');
+    }
+    if (isDisabledEndDay) {
+      setEndDateError(true);
+    }
   }, [startDate, endDate]);
 
   const handelStartDateChange = (e: any) => {
     e.preventDefault();
     setInputStartDate(e.target.value);
     const newStartDate = new Date(e.target.value);
+    const isDisabled = checkIsDisabledDay(newStartDate, config?.disabledDays);
     const isValidDate = isValid(newStartDate);
-    if (!isValidDate) {
+    if (!isValidDate || isDisabled) {
       setStartDateError('Not valid date');
       return;
     }
@@ -69,8 +83,12 @@ const useInputsPanel = ({
     e.preventDefault();
     setInputEndDate(e.target.value);
     const newEndDate = new Date(e.target.value);
+    const isDisabled = checkIsDisabledDay(
+      subDays(newEndDate, 1),
+      config?.disabledDays
+    );
     const isValidDate = isValid(newEndDate);
-    if (!isValidDate) {
+    if (!isValidDate || isDisabled) {
       setEndDateError(true);
       return;
     }

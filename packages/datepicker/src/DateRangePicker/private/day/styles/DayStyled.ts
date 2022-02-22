@@ -63,8 +63,8 @@ const DayStyled = styled.div<DayStyledProps>(
           : 0,
       },
     (isStartEdge || isEndEdge) && {
-      background: colorNew.piccolo,
-      color: colorNew.goten,
+      background: isDisabled ? 'transparent' : colorNew.piccolo,
+      color: isDisabled ? rgba(colorNew.bulma, 0.32) : colorNew.goten,
       borderRadius: newTokens.borderRadius.medium,
       '&:hover': {
         border: `1px solid ${colorNew.piccolo}`,
@@ -93,7 +93,10 @@ const DayStyled = styled.div<DayStyledProps>(
     isDisabled && {
       cursor: 'default',
       color: rgba(colorNew.bulma, 0.32),
+      background: 'transparent',
       '&:hover': {
+        color: rgba(colorNew.bulma, 0.32),
+        background: 'transparent',
         border: '1px solid transparent',
       },
     },

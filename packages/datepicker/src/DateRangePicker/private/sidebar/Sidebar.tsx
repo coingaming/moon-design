@@ -10,6 +10,7 @@ type SidebarProps = {
   range?: DatesRange;
   translations?: RangeTranslation;
   config?: RangeConfig;
+  isCustom?: boolean;
   setCustom: React.Dispatch<React.SetStateAction<boolean>>;
   selectAndApply: (newRange: any) => void;
 };
@@ -18,6 +19,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   range: currentRange,
   translations,
   config,
+  isCustom,
   setCustom,
   selectAndApply,
 }) => {
@@ -26,6 +28,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     onlyFuture: config?.onlyFuture,
     without24AndToday: config?.without24AndToday,
   });
+  console.log('isCustom', isCustom);
   return (
     <SidebarList>
       {ranges.map((range) => (
@@ -37,7 +40,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {(translations as any)[range]}
         </RangeItem>
       ))}
-      <RangeItem isSelected={true} onClick={() => setCustom(true)}>
+      <RangeItem isSelected={isCustom} onClick={() => setCustom(true)}>
         {translations?.custom}
       </RangeItem>
     </SidebarList>

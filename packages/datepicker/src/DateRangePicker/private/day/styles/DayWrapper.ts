@@ -9,12 +9,13 @@ const DayWrapper = styled.div<DayStyledProps>(
     isEndEdge,
     isInRangePreview,
     isRtl,
+    isDisabled,
   }) => [
     {
       marginBottom: rem(4),
     },
     isStartEdge && {
-      backgroundColor: hover.secondary,
+      backgroundColor: isDisabled ? 'transparent' : hover.secondary,
       borderTopLeftRadius: newTokens.borderRadius.medium,
       borderBottomLeftRadius: newTokens.borderRadius.medium,
     },
@@ -26,7 +27,7 @@ const DayWrapper = styled.div<DayStyledProps>(
         borderBottomLeftRadius: 0,
       },
     isEndEdge && {
-      backgroundColor: hover.secondary,
+      backgroundColor: isDisabled ? 'transparent' : hover.secondary,
       borderTopRightRadius: newTokens.borderRadius.medium,
       borderBottomRightRadius: newTokens.borderRadius.medium,
     },

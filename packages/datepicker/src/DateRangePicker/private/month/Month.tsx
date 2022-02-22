@@ -6,6 +6,7 @@ import isSameDay from 'date-fns/isSameDay';
 import isWithinInterval from 'date-fns/isWithinInterval';
 import startOfWeek from 'date-fns/startOfWeek';
 import styled from 'styled-components';
+import { checkIsDisabledDay } from '../../../private/helper/checkIsDisabledDay';
 import { Day } from '../day/Day';
 import { isInRangePreview } from '../helpers/isInRangePreview';
 import MonthSelect from './MonthSelect';
@@ -29,10 +30,6 @@ type MonthProps = {
   setMonth: (month: number) => void;
   setYear: (year: number) => void;
   isSecond?: boolean;
-  yearsRange?: {
-    min?: number;
-    max?: number;
-  };
   isRtl?: boolean;
 };
 
@@ -54,7 +51,6 @@ export const Month: React.FC<MonthProps> = ({
   hoveredDate,
   setMonth,
   setYear,
-  yearsRange,
   config,
   isSecond,
   isRtl,
@@ -74,7 +70,7 @@ export const Month: React.FC<MonthProps> = ({
             <YearSelect
               year={year}
               setYear={setYear}
-              yearsRange={yearsRange}
+              yearsRange={config?.yearsRange}
               isRtl={isRtl}
             />
           </>
@@ -120,6 +116,7 @@ export const Month: React.FC<MonthProps> = ({
                 day,
               })}
               isRtl={isRtl}
+              isDisabled={checkIsDisabledDay(day, config?.disabledDays)}
             />
           );
         })}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { RangeCalendar } from '@heathmont/moon-datepicker';
+import { RangeCalendar, useClickOutside } from '@heathmont/moon-datepicker';
 import { rem } from '@heathmont/moon-utils';
 import { Button } from '@heathmont/moon-components';
 
@@ -39,6 +39,7 @@ const Example = () => {
             config={{
               weekStartsOn: 1,
               withHoursAndMinutes: true,
+              disabledDays: new Date('September 23, 2020'),
               withFooter: true,
             }}
           />

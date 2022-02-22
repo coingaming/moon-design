@@ -18,6 +18,7 @@ const Example = () => {
       style={{ height: rem(600), width: '100%', position: 'relative' }}
       test-id="wrapper"
       onClick={() => {}}
+      dir="rtl"
     >
       <div style={{ position: 'relative', display: 'inline-block' }}>
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
@@ -36,6 +37,7 @@ const Example = () => {
               setEndDate(endDate as Date);
             }}
             setIsOpen={setIsOpen}
+            isRtl={true}
             config={{
               weekStartsOn: 1,
               withHoursAndMinutes: true,

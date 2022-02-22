@@ -22,6 +22,10 @@ const Example = () => {
         }}
         config={{
           weekStartsOn: 1,
+          disabledDays: {
+            to: new Date('September 17, 2020'),
+            from: new Date('September 23, 2020'),
+          },
           withHoursAndMinutes: true,
           // withPeriodList: true,
           withOneMonth: true,

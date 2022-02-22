@@ -24,6 +24,7 @@ type DayProps = {
   isStartOfWeek: boolean;
   isEndOfWeek?: boolean;
   isRtl?: boolean;
+  isDisabled?: boolean;
 };
 
 export const Day: React.FC<DayProps> = ({
@@ -39,11 +40,12 @@ export const Day: React.FC<DayProps> = ({
   isStartOfWeek,
   isEndOfWeek,
   isRtl,
+  isDisabled,
 }) => {
   if (!isSameMonth) {
     return <EmptyCell />;
   }
-
+  const onClick = () => !isDisabled && onDayClick(date);
   return (
     <DayWrapper
       isStartEdge={isStartEdge}
@@ -51,6 +53,7 @@ export const Day: React.FC<DayProps> = ({
       isInRangePreview={isInRangePreview}
       isInRange={isInRange}
       isRtl={isRtl}
+      isDisabled={isDisabled}
     >
       <DayStyled
         isStartEdge={isStartEdge}
@@ -58,11 +61,12 @@ export const Day: React.FC<DayProps> = ({
         isInRange={isInRange}
         isInRangePreview={isInRangePreview}
         isToday={isToday}
-        onClick={() => onDayClick(date)}
+        onClick={onClick}
         onMouseEnter={() => onMouseEnter(date)}
         isStartOfWeek={isStartOfWeek}
         isEndOfWeek={isEndOfWeek}
         isRtl={isRtl}
+        isDisabled={isDisabled}
       >
         {formatLabel(date)}
       </DayStyled>

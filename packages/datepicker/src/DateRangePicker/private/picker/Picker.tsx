@@ -103,6 +103,7 @@ export const Picker: React.FC<PickerProps> = ({
         range={datesState.range}
         translations={translations}
         config={config}
+        isCustom={isCustom}
         setCustom={setCustom}
         selectAndApply={selectAndApply}
       />
