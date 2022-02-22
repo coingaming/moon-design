@@ -9,7 +9,7 @@ const DropdownIndicator = ({ ...rest }: DropdownIndicatorProps<any>) => {
     ? ControlsChevronUp
     : ControlsChevronDown;
   return (
-    <IndicatorComponent style={{ marginRight: rem(8) }} fontSize="1.5rem" />
+    <IndicatorComponent style={{ marginInlineEnd: rem(8) }} fontSize="1.5rem" />
   );
 };
 

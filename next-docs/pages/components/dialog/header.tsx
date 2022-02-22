@@ -18,6 +18,12 @@ export default function PageDialogHeader() {
         <p className="text-lg mt-4">
           Header module variants to be used in Modal dialogs and popovers.
         </p>
+        <p className="text-lg mt-4 font-bold">About RTL and icon mirroring</p>
+        <p className="text-lg">
+          The icons are slots passed to the component. It is the developer's
+          responsibility to pass a mirrored icon for RTL views, (ie, pass left
+          or right arrows depending on the direction).
+        </p>
       </section>
 
       {/* Default */}
