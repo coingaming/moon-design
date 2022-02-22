@@ -6,7 +6,7 @@ const Container = styled.div(({ theme }) => ({
   fontSize: rem(16),
   lineHeight: rem(24),
   color: theme.colors.primary75,
-  marginRight: rem(4),
+  marginInlineEnd: rem(4),
 }));
 
 const IndicatorSeparator = ({ ...rest }) => {

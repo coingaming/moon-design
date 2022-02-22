@@ -35,7 +35,6 @@ const MultiContainer = styled.div<{ isHidden: boolean }>(({ isHidden }) => ({
   padding: `${rem(4)} 0`,
   height: '100%',
   alignItems: 'center',
-  overflow: 'hidden',
   '& > span': {
     maxHeight: rem(16),
     whiteSpace: 'nowrap',
