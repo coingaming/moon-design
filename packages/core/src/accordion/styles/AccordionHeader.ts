@@ -2,6 +2,7 @@ import { SharedTheme } from '@heathmont/moon-components/node_modules/@heathmont/
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../private/Size';
+import determineSpacing from '../private/utils/determineSpacing';
 
 const determineHeight = (isContentInside?: boolean, size?: Size) => {
   if (isContentInside) {
@@ -36,19 +37,6 @@ const determineFontSize = (
   }
 };
 
-const determinePaddingForContentOutside = (size?: Size) => {
-  switch (size) {
-    case 'large':
-      return rem(12);
-    case 'medium':
-      return rem(8);
-    case 'small':
-      return rem(4);
-    default:
-      return rem(16);
-  }
-};
-
 type Props = {
   disabled?: boolean;
   isContentInside?: boolean;
@@ -63,7 +51,7 @@ const AccordionHeader = styled.div<Props>(
     alignItems: 'center',
     cursor: disabled ? 'not-allowed' : 'pointer',
     position: 'relative',
-    padding: isContentInside ? 0 : determinePaddingForContentOutside(size),
+    padding: isContentInside ? 0 : determineSpacing(newTokens, true, size),
     borderRadius: isContentInside ? 0 : newTokens.borderRadius.medium,
     '> *:first-child': {
       flex: 1,

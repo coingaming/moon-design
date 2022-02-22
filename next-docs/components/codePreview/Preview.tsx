@@ -47,7 +47,7 @@ export default function Preview({
             ? 'bg-white flex justify-center'
             : 'bg-black text-white overflow-x-scroll',
           'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6',
-          isGrayBg ? 'bg-slate-200' : ''
+          isGrayBg ? 'bg-slate-200 text-gray-600' : ''
         )}
       >
         {isPreviewActive ? <>{preview}</> : <>{code && <Code code={code} />}</>}

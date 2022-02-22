@@ -36,7 +36,7 @@ export default function PageAccordion() {
           title="Default"
           isGrayBg
           preview={<Default />}
-          code={examples.Accordion ? examples.Accordion : 'Loading'}
+          code={examples.Default ? examples.Default : 'Loading'}
         />
       </section>
 
