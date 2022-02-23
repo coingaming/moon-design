@@ -46,7 +46,7 @@ const color = {
 
 const colorsNew = {
   piccolo: '#4e46b4',
-  hit: '#f5f5f5',
+  hit: '#40a69f',
   beerus: '#ebebeb',
   goku: '#f5f5f5',
   gohan: '#ffffff',

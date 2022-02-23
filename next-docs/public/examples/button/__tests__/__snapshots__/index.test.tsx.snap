@@ -397,7 +397,7 @@ exports[`Button renders different variants 1`] = `
     />
   </button>
   <button
-    className="ButtonComponent-sc-1qwityd-0 bAsbwX"
+    className="ButtonComponent-sc-1qwityd-0 Nobrc"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -451,7 +451,7 @@ exports[`Button renders different variants RTL 1`] = `
       />
     </button>
     <button
-      className="ButtonComponent-sc-1qwityd-0 bAsbwX"
+      className="ButtonComponent-sc-1qwityd-0 Nobrc"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
