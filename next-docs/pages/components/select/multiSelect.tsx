@@ -203,6 +203,13 @@ export default function PageSelect() {
               default: '_',
               description: 'Whether to enable search functionality',
             },
+            {
+              name: 'closeMenuOnSelect',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Close the select menu when the user selects an option',
+            },
           ]}
         />
       </section>
