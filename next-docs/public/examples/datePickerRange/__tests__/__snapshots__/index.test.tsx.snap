@@ -569,6 +569,44 @@ exports[`DatePicker renders 1`] = `
 </div>
 `;
 
+exports[`RangeCalendar canel 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "height": "37.5rem",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+  test-id="wrapper"
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "position": "relative",
+      }
+    }
+  >
+    <button
+      className="sc-jFkmsu gNBNgE"
+      onClick={[Function]}
+      size="small"
+      variant="tertiary"
+    >
+      <div
+        className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+      >
+        17/09/2020
+         - 
+        27/09/2020
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
 exports[`RangeCalendar renders 1`] = `
 <div
   onClick={[Function]}

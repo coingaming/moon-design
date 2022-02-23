@@ -71,12 +71,8 @@ describe('RangeCalendar', () => {
         ['test-id']: 'day',
       });
       const buttons = testInstance.findAllByType('button');
-      // console.log('buttons', buttons);
-      // const footer = testInstance.findByProps({ ['test-id']: 'footer' });
       days[20].props.onClick();
       days[27].props.onClick();
-      // const applyBtn = testInstance.findAllByProps({ ['test-id']: 'apply' });
-      console.log(buttons[1].props);
       buttons[1].props.onClick();
     });
 
@@ -87,31 +83,15 @@ describe('RangeCalendar', () => {
     act(() => {
       const button = testInstance.findByType('button');
       button.props.onClick();
+    });
+
+    act(() => {
       const buttons = testInstance.findAllByType('button');
       buttons[2].props.onClick();
     });
 
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  // it('hide calendar', () => {
-  //   act(() => {
-  //     const button = testInstance.findByType('button');
-  //     button.props.onClick();
-  //   });
-  //   const tree = testRenderer.toJSON();
-  //   expect(tree).toMatchSnapshot();
-
-  //   act(() => {
-  //     const days = testInstance.findAllByProps({
-  //       ['test-id']: 'day',
-  //     });
-  //     days[20].props.onClick();
-  //   });
-  //   const updateTree = testRenderer.toJSON();
-
-  //   expect(tree).toMatchDiffSnapshot(updateTree);
-  // });
 });
 
 describe('RangeCalendar: with period', () => {
