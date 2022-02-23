@@ -1,212 +1,320 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button renders "Full width" variant 1`] = `
-<button
-  className="sc-kjOQFR ikGjOe"
-  size="small"
-  variant="primary"
+exports[`Button renders Full width property 1`] = `
+<div
+  className="flex justify-around w-full items-center"
 >
-  <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+  <button
+    className="ButtonComponent-sc-1qwityd-0 gdSvuN"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
-    Action
-  </div>
-</button>
-`;
-
-exports[`Button renders Default variant 1`] = `
-<button
-  className="sc-kjOQFR bYtfKl"
-  size="small"
-  variant="primary"
->
-  <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-  >
-    Primary
-  </div>
-</button>
-`;
-
-exports[`Button renders Primary variant 1`] = `
-<button
-  className="sc-kjOQFR bYtfKl"
-  size="small"
-  variant="primary"
->
-  <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-  >
-    Primary
-  </div>
-</button>
-`;
-
-exports[`Button renders Secondary variant 1`] = `
-<button
-  className="sc-kjOQFR cYXzRr"
-  size="small"
-  variant="secondary"
->
-  <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-  >
-    Secondary
-  </div>
-</button>
-`;
-
-exports[`Button renders Tertiary variant 1`] = `
-<button
-  className="sc-kjOQFR bwtfyr"
-  size="small"
-  variant="tertiary"
->
-  <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-  >
-    Tertiary
-  </div>
-</button>
+    Full width
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+</div>
 `;
 
 exports[`Button renders different animations 1`] = `
 <div
-  className="flex justify-around w-full"
+  className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-kjOQFR bYtfKl"
-    size="small"
-    variant="primary"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+      className="AnimationContent__Container-sc-1c5x251-0 bNNjMZ"
     >
       <div
-        style={
-          Object {
-            "position": "relative",
-          }
-        }
+        className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
       >
-        <div
-          style={
-            Object {
-              "visibility": "hidden",
-            }
-          }
+        <strong
+          className="Container-sc-12rktgh-0 jyJfhm"
+          role="progressbar"
         >
-          Default
-        </div>
-        <div
-          style={
-            Object {
-              "height": "1rem",
-              "left": "calc(50% - 0.5rem)",
-              "position": "absolute",
-              "top": 0,
-            }
-          }
-        >
-          <strong
-            className="Loader__LoaderContainer-vzi49y-0 fKZGVz"
-            role="progressbar"
-          >
-            <span
-              className="Loader__LoaderRing-vzi49y-1 iqAYNY"
-              color="#ffffff"
-            />
-            <span
-              className="Loader__LoaderRing-vzi49y-1 iFFXta"
-              color="#ffffff"
-            />
-            <span
-              className="Loader__LoaderRing-vzi49y-1 gwIJAJ"
-              color="#ffffff"
-            />
-            <span
-              className="Loader__LoaderRing-vzi49y-1 hMhbNa"
-              color="#ffffff"
-            />
-          </strong>
-        </div>
+          <span
+            className="LoaderRing-sc-17wll29-0 XcexV"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 fAHuRn"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 kqOdVI"
+            color="currentColor"
+          />
+          <span
+            className="LoaderRing-sc-17wll29-0 cebTvf"
+            color="currentColor"
+          />
+        </strong>
+      </div>
+      <div
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 pcBIA"
+      >
+        Progress
       </div>
     </div>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
   <button
-    className="sc-kjOQFR bYtfKl"
-    size="small"
-    variant="primary"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+      className="AnimationContent__Container-sc-1c5x251-0 bNNjMZ"
     >
       <div
-        style={
-          Object {
-            "position": "relative",
-          }
-        }
+        className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
       >
-        <div
-          style={
-            Object {
-              "visibility": "hidden",
-            }
-          }
+        <svg
+          className="sc-lkgTHX"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          Default
-        </div>
-        <div
-          style={
-            Object {
-              "height": "1rem",
-              "left": "calc(50% - 0.5rem)",
-              "position": "absolute",
-              "top": 0,
-            }
-          }
-        >
-          <svg
-            className="IconSuccess-sc-1xrjl74-0 gCMtCf"
-            height="1em"
-            viewBox="0 0 20 14"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.143 14L0 7.27l2-1.885 5.143 4.846L18 0l2 1.885z"
-              fill="currentColor"
-              fillRule="nonzero"
-            />
-          </svg>
-        </div>
+          <path
+            d="M7 14.941L13.667 22 25 10"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        className="AnimationContent__HiddenContent-sc-1c5x251-2 pcBIA"
+      >
+        Success
       </div>
     </div>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
   <button
-    className="sc-kjOQFR hMuTBv"
-    oops={true}
-    size="small"
-    variant="primary"
+    className="ButtonComponent-sc-1qwityd-0 eYEgDu"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
+    Error
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      Default
-    </div>
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
   <button
-    className="sc-kjOQFR icJWdW"
-    pulse={true}
-    size="small"
-    variant="primary"
+    className="ButtonComponent-sc-1qwityd-0 fDokjW"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
+    Pulse
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+</div>
+`;
+
+exports[`Button renders different icons 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 esNkzG"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      Default
-    </div>
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    IconLeft
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 esNkzG"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    IconLeft
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 KiHyK"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    IconRight
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 KiHyK"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    IconRight
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 kriRcm"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 kriRcm"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-iWVNaa"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
 </div>
 `;
@@ -216,224 +324,173 @@ exports[`Button renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-kjOQFR cJfyMq"
-    size="xsmall"
-    variant="primary"
-  >
-    <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      Xsmall
-    </div>
-  </button>
-  <button
-    className="sc-kjOQFR bYtfKl"
+    className="ButtonComponent-sc-1qwityd-0 ilVUuY"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     size="small"
-    variant="primary"
   >
+    Small
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      Small
-    </div>
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
   <button
-    className="sc-kjOQFR ZYhnq"
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     size="medium"
-    variant="primary"
   >
+    Medium is default
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      Medium
-    </div>
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
   <button
-    className="sc-kjOQFR eorCWF"
+    className="ButtonComponent-sc-1qwityd-0 jTfIlE"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     size="large"
-    variant="primary"
   >
+    Large
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      Large
-    </div>
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 sfKcz"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="xlarge"
+  >
+    xLarge
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
 </div>
 `;
 
-exports[`Button renders leading and trailing icons 1`] = `
-<div
-  className="flex justify-around w-full"
->
-  <button
-    className="sc-kjOQFR kVpnSR"
-    size="small"
-    variant="primary"
-  >
-    <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      <span
-        className="Button__IconLeftWrapper-sc-1xtdszg-1 DtnCt"
-        size="small"
-      >
-        <svg
-          className="sc-fGoOlv jOnFOp"
-          fill="none"
-          height="1em"
-          viewBox="0 0 20 20"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            clipRule="evenodd"
-            d="M9.981 0C4.467 0 0 4.472 0 9.994c0 .325.012.65.05.974.012.113.037.225.05.35.025.187.05.387.087.587.025.138.063.275.1.425.037.162.075.325.125.475.05.15.1.312.15.462.05.137.1.262.15.4a8.229 8.229 0 00.373.812c.088.174.175.337.275.5.05.087.1.162.15.249l.337.525c.037.05.087.112.124.162a9.95 9.95 0 004.779 3.523.597.597 0 01.087.037c.462.15.936.275 1.423.363.087.012.162.025.25.037.486.075.985.125 1.496.125.512 0 1.01-.05 1.497-.125.088-.012.163-.025.25-.037.487-.088.96-.2 1.422-.363.038-.012.063-.025.088-.037a10.029 10.029 0 004.778-3.523c.038-.05.075-.1.113-.162.124-.175.236-.35.349-.525.05-.088.1-.162.15-.25.1-.162.187-.337.274-.512.05-.1.1-.212.15-.325.075-.162.137-.325.212-.487.05-.125.1-.262.15-.4.05-.15.1-.3.15-.462.05-.162.087-.312.124-.475.037-.137.075-.274.1-.424.037-.2.062-.388.087-.588.013-.112.038-.224.05-.35.025-.324.05-.636.05-.974C19.963 4.472 15.496 0 9.981 0zm0 17.989a7.954 7.954 0 01-6.138-2.886c.836-.45 1.859-.824 2.67-1.187 1.447-.65 1.297-1.049 1.347-1.586.013-.075.013-.138.013-.213-.512-.45-.924-1.074-1.198-1.798v-.013c0-.012-.012-.025-.012-.025a3.634 3.634 0 01-.15-.487c-.35-.063-.55-.437-.624-.787a1.57 1.57 0 01-.187-.862c.05-.512.25-.737.474-.837v-.075c0-.637.062-1.549.175-2.149.025-.162.062-.324.112-.487a3.64 3.64 0 011.26-1.861c.611-.475 1.485-.737 2.27-.737.774 0 1.648.25 2.271.737a3.64 3.64 0 011.26 1.861c.05.163.088.325.113.5.112.6.175 1.511.175 2.148v.088c.224.1.411.325.461.824.038.388-.124.725-.2.862-.074.338-.261.712-.598.775a2.997 2.997 0 01-.15.475c0 .012-.012.05-.012.05a4.462 4.462 0 01-1.173 1.773c0 .075.012.163.012.238.05.537-.15.937 1.31 1.586.811.363 1.834.75 2.67 1.187a8 8 0 01-6.15 2.886z"
-            fill="currentColor"
-            fillRule="evenodd"
-          />
-        </svg>
-      </span>
-      Default
-    </div>
-  </button>
-  <button
-    className="sc-kjOQFR eFNFuW"
-    size="small"
-    variant="primary"
-  >
-    <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      Default
-      <span
-        className="Button__IconRightWrapper-sc-1xtdszg-2 haQhYV"
-        size="small"
-      >
-        <svg
-          className="sc-fGoOlv jOnFOp"
-          fill="none"
-          height="1em"
-          viewBox="0 0 20 20"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            clipRule="evenodd"
-            d="M9.981 0C4.467 0 0 4.472 0 9.994c0 .325.012.65.05.974.012.113.037.225.05.35.025.187.05.387.087.587.025.138.063.275.1.425.037.162.075.325.125.475.05.15.1.312.15.462.05.137.1.262.15.4a8.229 8.229 0 00.373.812c.088.174.175.337.275.5.05.087.1.162.15.249l.337.525c.037.05.087.112.124.162a9.95 9.95 0 004.779 3.523.597.597 0 01.087.037c.462.15.936.275 1.423.363.087.012.162.025.25.037.486.075.985.125 1.496.125.512 0 1.01-.05 1.497-.125.088-.012.163-.025.25-.037.487-.088.96-.2 1.422-.363.038-.012.063-.025.088-.037a10.029 10.029 0 004.778-3.523c.038-.05.075-.1.113-.162.124-.175.236-.35.349-.525.05-.088.1-.162.15-.25.1-.162.187-.337.274-.512.05-.1.1-.212.15-.325.075-.162.137-.325.212-.487.05-.125.1-.262.15-.4.05-.15.1-.3.15-.462.05-.162.087-.312.124-.475.037-.137.075-.274.1-.424.037-.2.062-.388.087-.588.013-.112.038-.224.05-.35.025-.324.05-.636.05-.974C19.963 4.472 15.496 0 9.981 0zm0 17.989a7.954 7.954 0 01-6.138-2.886c.836-.45 1.859-.824 2.67-1.187 1.447-.65 1.297-1.049 1.347-1.586.013-.075.013-.138.013-.213-.512-.45-.924-1.074-1.198-1.798v-.013c0-.012-.012-.025-.012-.025a3.634 3.634 0 01-.15-.487c-.35-.063-.55-.437-.624-.787a1.57 1.57 0 01-.187-.862c.05-.512.25-.737.474-.837v-.075c0-.637.062-1.549.175-2.149.025-.162.062-.324.112-.487a3.64 3.64 0 011.26-1.861c.611-.475 1.485-.737 2.27-.737.774 0 1.648.25 2.271.737a3.64 3.64 0 011.26 1.861c.05.163.088.325.113.5.112.6.175 1.511.175 2.148v.088c.224.1.411.325.461.824.038.388-.124.725-.2.862-.074.338-.261.712-.598.775a2.997 2.997 0 01-.15.475c0 .012-.012.05-.012.05a4.462 4.462 0 01-1.173 1.773c0 .075.012.163.012.238.05.537-.15.937 1.31 1.586.811.363 1.834.75 2.67 1.187a8 8 0 01-6.15 2.886z"
-            fill="currentColor"
-            fillRule="evenodd"
-          />
-        </svg>
-      </span>
-    </div>
-  </button>
-</div>
-`;
-
-exports[`Button renders rounded "isIcon" variant 1`] = `
+exports[`Button renders different variants 1`] = `
 <div
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-kjOQFR jvzcTH"
-    isIcon={true}
-    size="xsmall"
-    variant="primary"
-  >
-    <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      <svg
-        className="sc-dTWLky"
-        fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M18.702 22.685h.5v-.5h-.5v.5zm-5.775 0v-.5h-.5v.5h.5zm11.065-1.436l-.498.045.498-.045zM8.01 21.224l.498.052-.498-.052zM18.166 9.027h-.5v.332l.306.13.194-.462zm3.374 4.03l.477-.151-.477.151zm-11.11.096l.479.145-.479-.145zm3.404-4.126l.194.461.306-.129v-.332h-.5zm9.948 11.659l.427-.26-.427.26zm-1.285-2.11l-.427.26.427-.26zm-.571-1.77l-.499.038.499-.038zm-.215-2.771l-.499.039.499-.04zM8.199 20.704l.434.249-.434-.25zm1.27-2.206l.433.249-.433-.25zm.512-1.586l-.498-.051.498.05zm.306-2.978l-.497-.051.497.05zm7.915 8.751c0 1.267-1.057 2.315-2.388 2.315v1c1.86 0 3.388-1.472 3.388-3.315h-1zM15.814 25c-1.33 0-2.387-1.048-2.387-2.315h-1c0 1.843 1.529 3.315 3.387 3.315v-1zm-2.887-1.815h5.775v-1h-5.775v1zm-3.755 0h13.656v-1H9.172v1zm13.656 0c.563 0 1.024-.234 1.32-.631.285-.383.386-.872.342-1.35l-.996.09c.027.29-.04.518-.148.662-.096.13-.253.23-.518.23v1zM7.513 21.172c-.05.483.045.98.33 1.37.295.403.76.643 1.329.643v-1c-.268 0-.425-.101-.522-.234-.107-.147-.173-.38-.142-.675l-.995-.104zm6.821-12.56C14.334 7.732 15.068 7 16 7V6c-1.46 0-2.666 1.157-2.666 2.611h1zM16 7c.932 0 1.666.733 1.666 1.611h1C18.666 7.157 17.46 6 16 6v1zm1.972 2.488c1.948.82 2.795 2.788 3.092 3.72l.953-.302c-.317-.996-1.283-3.341-3.657-4.34l-.388.922zm.694-.46V8.61h-1v.416h1zm-7.757 4.27c.266-.882 1.102-2.962 3.12-3.81l-.389-.922c-2.455 1.033-3.405 3.506-3.688 4.442l.957.29zm3.425-4.27V8.61h-1v.416h1zm9.875 11.397l-1.285-2.109-.854.52 1.285 2.11.854-.52zm-1.785-3.658l-.215-2.77-.997.077.215 2.77.997-.077zM8.633 20.953l1.269-2.206-.867-.499-1.27 2.206.868.499zm1.845-3.99l.306-2.978-.994-.102-.307 2.978.995.102zm14.012 4.24a1.825 1.825 0 00-.281-.777l-.854.52a.85.85 0 01.14.348l.995-.09zm-15.982.073a.853.853 0 01.125-.323l-.867-.499a1.827 1.827 0 00-.253.718l.995.104zm14.416-2.96a3.5 3.5 0 01-.5-1.549l-.997.077c.055.706.276 1.388.643 1.992l.854-.52zm-13.022.431a4.5 4.5 0 00.576-1.784l-.995-.102a3.5 3.5 0 01-.448 1.387l.867.499zm.05-5.739c-.091.3-.134.598-.162.875l.995.102c.025-.252.06-.477.124-.687l-.957-.29zm11.112.2c.084.264.124.55.148.866l.997-.078a4.8 4.8 0 00-.192-1.09l-.953.303zM24.181 12.879a.5.5 0 00.97.242l-.97-.242zm-2.71-6.36a.5.5 0 00-.275.962l.275-.962zM6.79 13.121a.5.5 0 00.97-.242l-.97.242zm3.956-5.64a.5.5 0 10-.274-.962l.274.962zm14.405 5.64c.732-2.928-1.088-5.86-3.681-6.602l-.275.962c2.073.592 3.587 2.992 2.985 5.398l.97.242zm-17.39-.242c-.601-2.406.912-4.806 2.985-5.398l-.274-.962c-2.593.741-4.413 3.674-3.681 6.602l.97-.242z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
-  </button>
-  <button
-    className="sc-kjOQFR hDivaT"
-    isIcon={true}
-    size="small"
-    variant="primary"
-  >
-    <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      <svg
-        className="sc-dTWLky"
-        fill="none"
-        fontSize="2rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M18.702 22.685h.5v-.5h-.5v.5zm-5.775 0v-.5h-.5v.5h.5zm11.065-1.436l-.498.045.498-.045zM8.01 21.224l.498.052-.498-.052zM18.166 9.027h-.5v.332l.306.13.194-.462zm3.374 4.03l.477-.151-.477.151zm-11.11.096l.479.145-.479-.145zm3.404-4.126l.194.461.306-.129v-.332h-.5zm9.948 11.659l.427-.26-.427.26zm-1.285-2.11l-.427.26.427-.26zm-.571-1.77l-.499.038.499-.038zm-.215-2.771l-.499.039.499-.04zM8.199 20.704l.434.249-.434-.25zm1.27-2.206l.433.249-.433-.25zm.512-1.586l-.498-.051.498.05zm.306-2.978l-.497-.051.497.05zm7.915 8.751c0 1.267-1.057 2.315-2.388 2.315v1c1.86 0 3.388-1.472 3.388-3.315h-1zM15.814 25c-1.33 0-2.387-1.048-2.387-2.315h-1c0 1.843 1.529 3.315 3.387 3.315v-1zm-2.887-1.815h5.775v-1h-5.775v1zm-3.755 0h13.656v-1H9.172v1zm13.656 0c.563 0 1.024-.234 1.32-.631.285-.383.386-.872.342-1.35l-.996.09c.027.29-.04.518-.148.662-.096.13-.253.23-.518.23v1zM7.513 21.172c-.05.483.045.98.33 1.37.295.403.76.643 1.329.643v-1c-.268 0-.425-.101-.522-.234-.107-.147-.173-.38-.142-.675l-.995-.104zm6.821-12.56C14.334 7.732 15.068 7 16 7V6c-1.46 0-2.666 1.157-2.666 2.611h1zM16 7c.932 0 1.666.733 1.666 1.611h1C18.666 7.157 17.46 6 16 6v1zm1.972 2.488c1.948.82 2.795 2.788 3.092 3.72l.953-.302c-.317-.996-1.283-3.341-3.657-4.34l-.388.922zm.694-.46V8.61h-1v.416h1zm-7.757 4.27c.266-.882 1.102-2.962 3.12-3.81l-.389-.922c-2.455 1.033-3.405 3.506-3.688 4.442l.957.29zm3.425-4.27V8.61h-1v.416h1zm9.875 11.397l-1.285-2.109-.854.52 1.285 2.11.854-.52zm-1.785-3.658l-.215-2.77-.997.077.215 2.77.997-.077zM8.633 20.953l1.269-2.206-.867-.499-1.27 2.206.868.499zm1.845-3.99l.306-2.978-.994-.102-.307 2.978.995.102zm14.012 4.24a1.825 1.825 0 00-.281-.777l-.854.52a.85.85 0 01.14.348l.995-.09zm-15.982.073a.853.853 0 01.125-.323l-.867-.499a1.827 1.827 0 00-.253.718l.995.104zm14.416-2.96a3.5 3.5 0 01-.5-1.549l-.997.077c.055.706.276 1.388.643 1.992l.854-.52zm-13.022.431a4.5 4.5 0 00.576-1.784l-.995-.102a3.5 3.5 0 01-.448 1.387l.867.499zm.05-5.739c-.091.3-.134.598-.162.875l.995.102c.025-.252.06-.477.124-.687l-.957-.29zm11.112.2c.084.264.124.55.148.866l.997-.078a4.8 4.8 0 00-.192-1.09l-.953.303zM24.181 12.879a.5.5 0 00.97.242l-.97-.242zm-2.71-6.36a.5.5 0 00-.275.962l.275-.962zM6.79 13.121a.5.5 0 00.97-.242l-.97.242zm3.956-5.64a.5.5 0 10-.274-.962l.274.962zm14.405 5.64c.732-2.928-1.088-5.86-3.681-6.602l-.275.962c2.073.592 3.587 2.992 2.985 5.398l.97.242zm-17.39-.242c-.601-2.406.912-4.806 2.985-5.398l-.274-.962c-2.593.741-4.413 3.674-3.681 6.602l.97-.242z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
-  </button>
-  <button
-    className="sc-kjOQFR jHXDrK"
-    isIcon={true}
+    className="ButtonComponent-sc-1qwityd-0 lmotjR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     size="medium"
-    variant="primary"
   >
+    Primary is default
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
-    >
-      <svg
-        className="sc-dTWLky"
-        fill="none"
-        fontSize="2.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M18.702 22.685h.5v-.5h-.5v.5zm-5.775 0v-.5h-.5v.5h.5zm11.065-1.436l-.498.045.498-.045zM8.01 21.224l.498.052-.498-.052zM18.166 9.027h-.5v.332l.306.13.194-.462zm3.374 4.03l.477-.151-.477.151zm-11.11.096l.479.145-.479-.145zm3.404-4.126l.194.461.306-.129v-.332h-.5zm9.948 11.659l.427-.26-.427.26zm-1.285-2.11l-.427.26.427-.26zm-.571-1.77l-.499.038.499-.038zm-.215-2.771l-.499.039.499-.04zM8.199 20.704l.434.249-.434-.25zm1.27-2.206l.433.249-.433-.25zm.512-1.586l-.498-.051.498.05zm.306-2.978l-.497-.051.497.05zm7.915 8.751c0 1.267-1.057 2.315-2.388 2.315v1c1.86 0 3.388-1.472 3.388-3.315h-1zM15.814 25c-1.33 0-2.387-1.048-2.387-2.315h-1c0 1.843 1.529 3.315 3.387 3.315v-1zm-2.887-1.815h5.775v-1h-5.775v1zm-3.755 0h13.656v-1H9.172v1zm13.656 0c.563 0 1.024-.234 1.32-.631.285-.383.386-.872.342-1.35l-.996.09c.027.29-.04.518-.148.662-.096.13-.253.23-.518.23v1zM7.513 21.172c-.05.483.045.98.33 1.37.295.403.76.643 1.329.643v-1c-.268 0-.425-.101-.522-.234-.107-.147-.173-.38-.142-.675l-.995-.104zm6.821-12.56C14.334 7.732 15.068 7 16 7V6c-1.46 0-2.666 1.157-2.666 2.611h1zM16 7c.932 0 1.666.733 1.666 1.611h1C18.666 7.157 17.46 6 16 6v1zm1.972 2.488c1.948.82 2.795 2.788 3.092 3.72l.953-.302c-.317-.996-1.283-3.341-3.657-4.34l-.388.922zm.694-.46V8.61h-1v.416h1zm-7.757 4.27c.266-.882 1.102-2.962 3.12-3.81l-.389-.922c-2.455 1.033-3.405 3.506-3.688 4.442l.957.29zm3.425-4.27V8.61h-1v.416h1zm9.875 11.397l-1.285-2.109-.854.52 1.285 2.11.854-.52zm-1.785-3.658l-.215-2.77-.997.077.215 2.77.997-.077zM8.633 20.953l1.269-2.206-.867-.499-1.27 2.206.868.499zm1.845-3.99l.306-2.978-.994-.102-.307 2.978.995.102zm14.012 4.24a1.825 1.825 0 00-.281-.777l-.854.52a.85.85 0 01.14.348l.995-.09zm-15.982.073a.853.853 0 01.125-.323l-.867-.499a1.827 1.827 0 00-.253.718l.995.104zm14.416-2.96a3.5 3.5 0 01-.5-1.549l-.997.077c.055.706.276 1.388.643 1.992l.854-.52zm-13.022.431a4.5 4.5 0 00.576-1.784l-.995-.102a3.5 3.5 0 01-.448 1.387l.867.499zm.05-5.739c-.091.3-.134.598-.162.875l.995.102c.025-.252.06-.477.124-.687l-.957-.29zm11.112.2c.084.264.124.55.148.866l.997-.078a4.8 4.8 0 00-.192-1.09l-.953.303zM24.181 12.879a.5.5 0 00.97.242l-.97-.242zm-2.71-6.36a.5.5 0 00-.275.962l.275-.962zM6.79 13.121a.5.5 0 00.97-.242l-.97.242zm3.956-5.64a.5.5 0 10-.274-.962l.274.962zm14.405 5.64c.732-2.928-1.088-5.86-3.681-6.602l-.275.962c2.073.592 3.587 2.992 2.985 5.398l.97.242zm-17.39-.242c-.601-2.406.912-4.806 2.985-5.398l-.274-.962c-2.593.741-4.413 3.674-3.681 6.602l.97-.242z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
   <button
-    className="sc-kjOQFR iOzxNm"
-    isIcon={true}
-    size="large"
-    variant="primary"
+    className="ButtonComponent-sc-1qwityd-0 dlczW"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
+    Secondary
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 bAsbwX"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Tertiary
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Ghost
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
+  </button>
+</div>
+`;
+
+exports[`Button renders different variants RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex justify-around w-full items-center"
+  >
+    <button
+      className="ButtonComponent-sc-1qwityd-0 lmotjR"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
-      <svg
-        className="sc-dTWLky"
-        fill="none"
-        fontSize="3rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M18.702 22.685h.5v-.5h-.5v.5zm-5.775 0v-.5h-.5v.5h.5zm11.065-1.436l-.498.045.498-.045zM8.01 21.224l.498.052-.498-.052zM18.166 9.027h-.5v.332l.306.13.194-.462zm3.374 4.03l.477-.151-.477.151zm-11.11.096l.479.145-.479-.145zm3.404-4.126l.194.461.306-.129v-.332h-.5zm9.948 11.659l.427-.26-.427.26zm-1.285-2.11l-.427.26.427-.26zm-.571-1.77l-.499.038.499-.038zm-.215-2.771l-.499.039.499-.04zM8.199 20.704l.434.249-.434-.25zm1.27-2.206l.433.249-.433-.25zm.512-1.586l-.498-.051.498.05zm.306-2.978l-.497-.051.497.05zm7.915 8.751c0 1.267-1.057 2.315-2.388 2.315v1c1.86 0 3.388-1.472 3.388-3.315h-1zM15.814 25c-1.33 0-2.387-1.048-2.387-2.315h-1c0 1.843 1.529 3.315 3.387 3.315v-1zm-2.887-1.815h5.775v-1h-5.775v1zm-3.755 0h13.656v-1H9.172v1zm13.656 0c.563 0 1.024-.234 1.32-.631.285-.383.386-.872.342-1.35l-.996.09c.027.29-.04.518-.148.662-.096.13-.253.23-.518.23v1zM7.513 21.172c-.05.483.045.98.33 1.37.295.403.76.643 1.329.643v-1c-.268 0-.425-.101-.522-.234-.107-.147-.173-.38-.142-.675l-.995-.104zm6.821-12.56C14.334 7.732 15.068 7 16 7V6c-1.46 0-2.666 1.157-2.666 2.611h1zM16 7c.932 0 1.666.733 1.666 1.611h1C18.666 7.157 17.46 6 16 6v1zm1.972 2.488c1.948.82 2.795 2.788 3.092 3.72l.953-.302c-.317-.996-1.283-3.341-3.657-4.34l-.388.922zm.694-.46V8.61h-1v.416h1zm-7.757 4.27c.266-.882 1.102-2.962 3.12-3.81l-.389-.922c-2.455 1.033-3.405 3.506-3.688 4.442l.957.29zm3.425-4.27V8.61h-1v.416h1zm9.875 11.397l-1.285-2.109-.854.52 1.285 2.11.854-.52zm-1.785-3.658l-.215-2.77-.997.077.215 2.77.997-.077zM8.633 20.953l1.269-2.206-.867-.499-1.27 2.206.868.499zm1.845-3.99l.306-2.978-.994-.102-.307 2.978.995.102zm14.012 4.24a1.825 1.825 0 00-.281-.777l-.854.52a.85.85 0 01.14.348l.995-.09zm-15.982.073a.853.853 0 01.125-.323l-.867-.499a1.827 1.827 0 00-.253.718l.995.104zm14.416-2.96a3.5 3.5 0 01-.5-1.549l-.997.077c.055.706.276 1.388.643 1.992l.854-.52zm-13.022.431a4.5 4.5 0 00.576-1.784l-.995-.102a3.5 3.5 0 01-.448 1.387l.867.499zm.05-5.739c-.091.3-.134.598-.162.875l.995.102c.025-.252.06-.477.124-.687l-.957-.29zm11.112.2c.084.264.124.55.148.866l.997-.078a4.8 4.8 0 00-.192-1.09l-.953.303zM24.181 12.879a.5.5 0 00.97.242l-.97-.242zm-2.71-6.36a.5.5 0 00-.275.962l.275-.962zM6.79 13.121a.5.5 0 00.97-.242l-.97.242zm3.956-5.64a.5.5 0 10-.274-.962l.274.962zm14.405 5.64c.732-2.928-1.088-5.86-3.681-6.602l-.275.962c2.073.592 3.587 2.992 2.985 5.398l.97.242zm-17.39-.242c-.601-2.406.912-4.806 2.985-5.398l-.274-.962c-2.593.741-4.413 3.674-3.681 6.602l.97-.242z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
+      Primary is default
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+    <button
+      className="ButtonComponent-sc-1qwityd-0 dlczW"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Secondary
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+    <button
+      className="ButtonComponent-sc-1qwityd-0 bAsbwX"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Tertiary
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+    <button
+      className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Ghost
+      <div
+        className="Hover-yzznpt-0 ctGatB"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Button renders disabled state 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <button
+    className="ButtonComponent-sc-1qwityd-0 gPKRLV"
+    disabled={true}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Disabled
+    <div
+      className="Hover-yzznpt-0 ctGatB"
+    />
   </button>
 </div>
 `;

@@ -1,15 +1,15 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Animations from '../../public/examples/buttonNew/Animations';
-import Disabled from '../../public/examples/buttonNew/Disabled';
-import FullWidth from '../../public/examples/buttonNew/FullWidth';
-import Icons from '../../public/examples/buttonNew/Icons';
-import Sizes from '../../public/examples/buttonNew/Sizes';
-import Variants from '../../public/examples/buttonNew/Variants';
+import Animations from '../../public/examples/button/Animations';
+import Disabled from '../../public/examples/button/Disabled';
+import FullWidth from '../../public/examples/button/FullWidth';
+import Icons from '../../public/examples/button/Icons';
+import Sizes from '../../public/examples/button/Sizes';
+import Variants from '../../public/examples/button/Variants';
 import useExamples from '../../utils/useExamples';
 
 export default function PageButtonNew() {
-  const examples = useExamples('buttonNew');
+  const examples = useExamples('button');
   return (
     <>
       <section className="mt-8">
