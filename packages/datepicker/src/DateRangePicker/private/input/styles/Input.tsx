@@ -7,6 +7,7 @@ type InputProps = {
   bgColor?: ColorProps;
   isLabel?: boolean;
   isPassword?: boolean;
+  isOneMonth?: boolean;
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -24,6 +25,7 @@ const Input = styled.input.attrs(({ type }) => ({
     isLabel,
     isPassword,
     dir,
+    isOneMonth,
   }) => [
     {
       display: 'block',
@@ -31,7 +33,7 @@ const Input = styled.input.attrs(({ type }) => ({
       maxWidth: '100%',
       height: rem(56),
       lineHeight: rem(56),
-      letterSpacing: rem(-1.2),
+      letterSpacing: isOneMonth ? rem(-1.2) : 'normal',
       padding: `0 ${rem(16)}`,
       margin: 0,
       appearance: 'none',

@@ -39,11 +39,7 @@ const Example = () => {
             config={{
               weekStartsOn: 1,
               withHoursAndMinutes: true,
-              disabledDays: [
-                new Date('September 16, 2020'),
-                new Date('September 23, 2020'),
-                new Date('September 25, 2020'),
-              ],
+              disabledDays: new Date('September 16, 2020'),
               withFooter: true,
             }}
           />

@@ -27,9 +27,7 @@ const Example = () => {
             from: new Date('September 23, 2020'),
           },
           withHoursAndMinutes: true,
-          // withPeriodList: true,
           withOneMonth: true,
-          // hideInputs: false,
           withFooter: {
             isApplyBtn: true,
             isCanselBtn: true,

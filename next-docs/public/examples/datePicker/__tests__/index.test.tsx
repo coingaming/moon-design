@@ -7,7 +7,7 @@ import { jest } from '@jest/globals';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer, { act } from 'react-test-renderer';
 import { toMatchDiffSnapshot } from 'snapshot-diff';
-import Default from '../Default';
+import DatePicker from '../DatePicker';
 import Calendar from '../Calendar';
 import CalendarDisabledDay from '../CalendarDisabledDay';
 import CalendarDisabledDays from '../CalendarDisabledDays';
@@ -37,12 +37,12 @@ afterAll(() => {
 
 describe('DatePicker', () => {
   it('renders', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+    const testRenderer = renderer.create(renderWithTheme(<DatePicker />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
   it('renders RTL', () => {
-    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
+    const testRenderer = renderer.create(renderWithThemeRTL(<DatePicker />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

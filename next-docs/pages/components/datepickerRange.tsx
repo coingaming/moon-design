@@ -2,17 +2,17 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import Default from '../../public/examples/datePicker/Default';
-import RangeCalendar from '../../public/examples/datePicker/RangeCalendar';
-import RangeCalendarDisabled from '../../public/examples/datePicker/RangeCalendarDisabled';
-import RangeCalendarDisabled2 from '../../public/examples/datePicker/RangeCalendarDisabled2';
-import RangeCalendarDisabled3 from '../../public/examples/datePicker/RangeCalendarDisabled3';
-import RangeCalendarDisabled4 from '../../public/examples/datePicker/RangeCalendarDisabled4';
-import RangeCalendarOneMonth from '../../public/examples/datePicker/RangeCalendarOneMonth';
-import RangeCalendarRtl from '../../public/examples/datePicker/RangeCalendarRtl';
-import RangeCalendarWithChip from '../../public/examples/datePicker/RangeCalendarWithChip';
-import RangeCalendarWithFooter from '../../public/examples/datePicker/RangeCalendarWithFooter';
-import RangeCalendarWithPeriod from '../../public/examples/datePicker/RangeCalendarWithPeriod';
+import RangeCalendar from '../../public/examples/datePickerRange/RangeCalendar';
+import RangeCalendarDisabled from '../../public/examples/datePickerRange/RangeCalendarDisabled';
+import RangeCalendarDisabled2 from '../../public/examples/datePickerRange/RangeCalendarDisabled2';
+import RangeCalendarDisabled3 from '../../public/examples/datePickerRange/RangeCalendarDisabled3';
+import RangeCalendarDisabled4 from '../../public/examples/datePickerRange/RangeCalendarDisabled4';
+import RangeCalendarOneMonth from '../../public/examples/datePickerRange/RangeCalendarOneMonth';
+import RangeCalendarOnlyDate from '../../public/examples/datePickerRange/RangeCalendarOnlyDate';
+import RangeCalendarRtl from '../../public/examples/datePickerRange/RangeCalendarRtl';
+import RangeCalendarWithChip from '../../public/examples/datePickerRange/RangeCalendarWithChip';
+import RangeCalendarWithoutFooter from '../../public/examples/datePickerRange/RangeCalendarWithoutFooter';
+import RangeCalendarWithPeriod from '../../public/examples/datePickerRange/RangeCalendarWithPeriod';
 
 import useExamples from '../../utils/useExamples';
 
@@ -23,7 +23,32 @@ export default function PageDatepicker() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Datepicker Range</h1>
-        {/* <p className="text-lg mt-4">Datepicker.</p> */}
+        <p className="text-lg mt-4">
+          Range datepicker component build with date-fns.
+        </p>
+        <p className="text-lg mt-4">
+          Since this component doesn’t hold the selected days in its state, you
+          have to hold they in your component’s state as the user interacts with
+          the calendar.
+        </p>
+        <p className="text-lg">
+          For this, you can use the following props: <br /> <b>startDate</b> and{' '}
+          <b>endDate</b> - to highlight the first and last day's cells to show
+          in the calendar which range has been selected;
+          <br />
+          <b> onDateChange</b> - handler is holding the selected days in its own
+          state;
+        </p>
+        <p className="text-lg mt-4">
+          You can configure the component with <b>config</b> prop. The whole
+          list of the config props you can find below: "Config: calendar
+          configuration" table.
+        </p>
+        <p className="text-lg mt-4">
+          Also, you can set the needed translation for the button in the footer
+          or for the period list. Just use translations prop. The whole list of
+          the translations props you can find below: "RangeTranslations" table.
+        </p>
       </section>
 
       {/* RangeCalendar */}
@@ -41,6 +66,15 @@ export default function PageDatepicker() {
           title="Range Calendar with predefined period list"
           preview={<RangeCalendarWithPeriod />}
           code={examples ? examples.RangeCalendarWithPeriod : 'Loading'}
+        />
+      </section>
+
+      {/* RangeCalendarOnlyDate */}
+      <section className="mt-8">
+        <Preview
+          title="Range Calendar only date"
+          preview={<RangeCalendarOnlyDate />}
+          code={examples ? examples.RangeCalendarOnlyDate : 'Loading'}
         />
       </section>
 
@@ -62,12 +96,12 @@ export default function PageDatepicker() {
         />
       </section>
 
-      {/* RangeCalendarWithFooter */}
+      {/* RangeCalendarWithoutFooter */}
       <section className="mt-8">
         <Preview
-          title="Range Calendar with footer"
-          preview={<RangeCalendarWithFooter />}
-          code={examples ? examples.RangeCalendarWithFooter : 'Loading'}
+          title="Range Calendar without footer"
+          preview={<RangeCalendarWithoutFooter />}
+          code={examples ? examples.RangeCalendarWithoutFooter : 'Loading'}
         />
       </section>
 
@@ -113,15 +147,6 @@ export default function PageDatepicker() {
           title="Range Calendar: Marking inner days range as disabled"
           preview={<RangeCalendarDisabled4 />}
           code={examples ? examples.RangeCalendarDisabled4 : 'Loading'}
-        />
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Datepicker"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -280,6 +305,126 @@ export default function PageDatepicker() {
               required: false,
               default: '-',
               description: 'Sets possible choosing years range',
+            },
+          ]}
+        />
+      </section>
+
+      <section className="mt-14">
+        <h2 className="text-2xl mb-4">RangeTranslations</h2>
+        <Table
+          data={[
+            {
+              name: 'apply',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Apply',
+              description: 'apply button',
+            },
+            {
+              name: 'reset',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Reset',
+              description: 'reset button',
+            },
+            {
+              name: 'cansel',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Cansel',
+              description: 'cansel button',
+            },
+            {
+              name: 'lastMonth',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Last month',
+              description: 'period list',
+            },
+            {
+              name: 'lastWeek',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Last week',
+              description: 'period list',
+            },
+            {
+              name: 'last24hours',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Last 24 hours',
+              description: 'period list',
+            },
+            {
+              name: 'yesterday',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Yesterday',
+              description: 'period list',
+            },
+            {
+              name: 'today',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Today',
+              description: 'period list',
+            },
+            {
+              name: 'tomorrow',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Tomorrow',
+              description: 'period list',
+            },
+            {
+              name: 'thisWeek',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'This week',
+              description: 'period list',
+            },
+            {
+              name: 'nextWeek',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Next week',
+              description: 'period list',
+            },
+            {
+              name: 'thisMonth',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'This month',
+              description: 'period list',
+            },
+            {
+              name: 'nextMonth',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Next month',
+              description: 'period list',
+            },
+            {
+              name: 'custom',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Custom',
+              description: 'period list',
+            },
+            {
+              name: 'labelStartDate',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'Start date & time',
+              description: '-',
+            },
+            {
+              name: 'labelEndDate',
+              type: 'string | JSX.Element',
+              required: false,
+              default: 'End date & time',
+              description: '-',
             },
           ]}
         />

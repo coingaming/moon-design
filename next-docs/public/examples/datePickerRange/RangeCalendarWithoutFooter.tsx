@@ -11,6 +11,7 @@ const Example = () => {
     new Date('September 27, 2020 03:24:00')
   );
 
+  const [ref, hasClickedOutside] = useClickOutside();
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -19,7 +20,7 @@ const Example = () => {
       test-id="wrapper"
       onClick={() => {}}
     >
-      <div style={{ position: 'relative', display: 'inline-block' }}>
+      <div style={{ position: 'relative', display: 'inline-block' }} ref={ref}>
         <Button variant="tertiary" onClick={() => setIsOpen(true)}>
           {initialStartDate &&
             (initialStartDate as any)?.toLocaleDateString('en-GB')}
@@ -35,12 +36,12 @@ const Example = () => {
               setStartDate(startDate as Date);
               setEndDate(endDate as Date);
             }}
+            hasClickedOutside={hasClickedOutside}
             setIsOpen={setIsOpen}
             config={{
               weekStartsOn: 1,
               withHoursAndMinutes: true,
-              disabledDays: new Date('September 23, 2020'),
-              withFooter: true,
+              withFooter: false,
             }}
           />
         )}

@@ -68,6 +68,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
             onChange={handelStartDateChange}
             isLabel={true}
             dir={isRtl ? 'rtl' : 'ltr'}
+            isOneMonth={config?.withOneMonth}
           />
           <LabelInner isRtl={isRtl}>{translations?.labelStartDate}</LabelInner>
           <Ghost className="ghost" />
@@ -80,6 +81,7 @@ export const InputsPanel: React.FC<InputsPanelProps> = ({
             onChange={handelEndDateChange}
             isLabel={true}
             dir={isRtl ? 'rtl' : 'ltr'}
+            isOneMonth={config?.withOneMonth}
           />
           <LabelInner isRtl={isRtl}>{translations?.labelEndDate}</LabelInner>
           <Ghost className="ghost" />

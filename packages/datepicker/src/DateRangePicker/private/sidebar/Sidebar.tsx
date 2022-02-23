@@ -28,7 +28,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
     onlyFuture: config?.onlyFuture,
     without24AndToday: config?.without24AndToday,
   });
-  console.log('isCustom', isCustom);
   return (
     <SidebarList>
       {ranges.map((range) => (

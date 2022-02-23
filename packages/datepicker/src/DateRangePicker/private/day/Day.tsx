@@ -67,6 +67,7 @@ export const Day: React.FC<DayProps> = ({
         isEndOfWeek={isEndOfWeek}
         isRtl={isRtl}
         isDisabled={isDisabled}
+        test-id="day"
       >
         {formatLabel(date)}
       </DayStyled>

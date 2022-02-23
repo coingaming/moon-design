@@ -29,13 +29,19 @@ const Footer: React.FC<FooterProps> = ({
   if (typeof config == 'object') {
     const { isApplyBtn, isCanselBtn, isClearBtn } = config as FooterConfig;
     return (
-      <Container>
+      <Container test-id="footer">
         <MoonFooter
           isDivider={true}
           size="small"
           primButton={
             isApplyBtn ? (
-              <Button fullWidth variant="primary" size="small" onClick={apply}>
+              <Button
+                fullWidth
+                variant="primary"
+                size="small"
+                onClick={apply}
+                test-id="apply"
+              >
                 {translations?.apply}
               </Button>
             ) : undefined
@@ -47,6 +53,7 @@ const Footer: React.FC<FooterProps> = ({
                 variant="secondary"
                 size="small"
                 onClick={cansel}
+                test-id="cansel"
               >
                 {translations?.cansel}
               </Button>
