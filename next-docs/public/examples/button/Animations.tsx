@@ -1,19 +1,11 @@
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 
 const Example = () => (
-  <div className="flex justify-around w-full">
-    <Button progress variant="primary">
-      Default
-    </Button>
-    <Button success variant="primary">
-      Default
-    </Button>
-    <Button oops variant="primary">
-      Default
-    </Button>
-    <Button pulse variant="primary">
-      Default
-    </Button>
+  <div className="flex justify-around w-full items-center">
+    <Button animation="progress">Progress</Button>
+    <Button animation="success">Success</Button>
+    <Button animation="error">Error</Button>
+    <Button animation="pulse">Pulse</Button>
   </div>
 );
 
