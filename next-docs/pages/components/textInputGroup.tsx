@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Default from '../../public/examples/textInputGroup/Default';
+import Rtl from '../../public/examples/textInputGroup/Rtl';
 import Vertical from '../../public/examples/textInputGroup/Vertical';
 import useExamples from '../../utils/useExamples';
 
@@ -26,6 +27,14 @@ export default function PageReel() {
           title="Vertical"
           preview={<Vertical />}
           code={examples ? examples.Vertical : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="RTL"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
     </>
