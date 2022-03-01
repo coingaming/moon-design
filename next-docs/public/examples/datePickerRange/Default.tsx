@@ -30,7 +30,7 @@ const Example = () => {
           withOneMonth: true,
           withFooter: {
             isApplyBtn: true,
-            isCanselBtn: true,
+            isCancelBtn: true,
             isClearBtn: true,
           },
         }}

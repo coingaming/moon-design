@@ -287,7 +287,7 @@ export default function PageDatepicker() {
             },
             {
               name: 'withFooter',
-              type: 'boolean | { isApplyBtn?: boolean; isCanselBtn?: boolean; isClearBtn?: boolean;}',
+              type: 'boolean | { isApplyBtn?: boolean; isCancelBtn?: boolean; isClearBtn?: boolean;}',
               required: false,
               default: 'true',
               description: 'Shows/Hides footer or sets config for buttons',
@@ -329,11 +329,11 @@ export default function PageDatepicker() {
               description: 'reset button',
             },
             {
-              name: 'cansel',
+              name: 'cancel',
               type: 'string | JSX.Element',
               required: false,
-              default: 'Cansel',
-              description: 'cansel button',
+              default: 'Cancel',
+              description: 'Cancel button',
             },
             {
               name: 'lastMonth',

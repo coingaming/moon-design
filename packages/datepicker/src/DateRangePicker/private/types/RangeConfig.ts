@@ -4,7 +4,7 @@ import type { DatesRange } from '../helpers/getDatesFromRange';
 type RangeWeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
 export type FooterConfig = {
   isApplyBtn?: boolean;
-  isCanselBtn?: boolean;
+  isCancelBtn?: boolean;
   isClearBtn?: boolean;
 };
 interface RangeConfig {
