@@ -74,12 +74,14 @@ const Input = styled.input.attrs(({ type }) => ({
         } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
+        borderRadius: borderRadius.large,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
         boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
+        borderRadius: borderRadius.large,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {

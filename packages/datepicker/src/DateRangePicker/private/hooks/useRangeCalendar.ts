@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { setMonth as setFnsMonth, setYear as setFsnYear } from 'date-fns';
 import addMonths from 'date-fns/addMonths';
 import endOfDay from 'date-fns/endOfDay';
 import format from 'date-fns/format';
@@ -12,39 +13,12 @@ import { getWeekDayLabels } from '../../../private/helper/getWeekDayLabels';
 import { getDatesFromRange } from '../helpers/getDatesFromRange';
 import { getPlaceholder } from '../helpers/getPlaceholder';
 import type { DatesRange } from '../helpers/getDatesFromRange';
+import type RangeConfig from '../types/RangeConfig';
+import type RangeTranslations from '../types/RangeTranslations';
 
-type RangeWeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
-
-interface RangeConfig {
-  format?: string;
-  monthLabelFormat?: string;
-  yearLabelFormat?: string;
-  weekStartsOn?: RangeWeekStartsOn;
-  withHoursAndMinutes?: boolean;
-  onlyFuture?: boolean;
-  without24AndToday?: boolean;
-  locale?: any;
-  ranges?: DatesRange[];
-}
-
-interface RangeTranslations {
-  placeholder: any;
-  apply: any;
-  reset: any;
-  lastMonth: any;
-  lastWeek: any;
-  last24hours: any;
-  yesterday: any;
-  today: any;
-  tomorrow: any;
-  thisWeek: any;
-  nextWeek: any;
-  thisMonth: any;
-  nextMonth: any;
-}
 type useRangeCalendarProps = {
-  initialStartDate?: Date;
-  initialEndDate?: Date;
+  startDate?: Date;
+  endDate?: Date;
   onDateChange: ({
     startDate,
     endDate,
@@ -62,7 +36,7 @@ type useRangeCalendarProps = {
   setPlaceholder?: any;
 };
 
-type DatepickerState = {
+export type DatepickerState = {
   startDate?: Date;
   endDate?: Date;
   range?: DatesRange;
@@ -71,8 +45,8 @@ type DatepickerState = {
 };
 
 const useRangeCalendar = ({
-  initialStartDate,
-  initialEndDate,
+  startDate: initialStartDate,
+  endDate: initialEndDate,
   onDateChange,
   config,
   range,
@@ -81,7 +55,8 @@ const useRangeCalendar = ({
   setIsOpen,
   setPlaceholder,
 }: useRangeCalendarProps) => {
-  const [datesState, setDatesState] = React.useState<DatepickerState>({
+  const [isCustom, setCustom] = useState<boolean>(false);
+  const [datesState, setDatesState] = useState<DatepickerState>({
     startDate: initialStartDate,
     endDate: initialEndDate,
     range,
@@ -96,23 +71,24 @@ const useRangeCalendar = ({
     }),
   });
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (hasClickedOutside) {
       onDateChange({
         startDate: datesState.startDate,
         endDate: datesState.endDate,
         range: datesState.range,
       });
-      setPlaceholder(
-        getPlaceholder({
-          startDate: datesState.startDate,
-          endDate: datesState.endDate,
-          range: datesState.range,
-          config,
-          translations,
-        })
-      );
-      setIsOpen(false);
+      typeof setPlaceholder === 'function' &&
+        setPlaceholder(
+          getPlaceholder({
+            startDate: datesState.startDate,
+            endDate: datesState.endDate,
+            range: datesState.range,
+            config,
+            translations,
+          })
+        );
+      typeof setIsOpen === 'function' && setIsOpen(false);
     }
   });
 
@@ -122,16 +98,21 @@ const useRangeCalendar = ({
       endDate: datesState.endDate,
       range: datesState.range,
     });
-    setPlaceholder(
-      getPlaceholder({
-        startDate: datesState.startDate,
-        endDate: datesState.endDate,
-        range: datesState.range,
-        config,
-        translations,
-      })
-    );
-    setIsOpen(false);
+    typeof setPlaceholder === 'function' &&
+      setPlaceholder(
+        getPlaceholder({
+          startDate: datesState.startDate,
+          endDate: datesState.endDate,
+          range: datesState.range,
+          config,
+          translations,
+        })
+      );
+    typeof setIsOpen === 'function' && setIsOpen(false);
+  };
+
+  const cansel = () => {
+    typeof setIsOpen === 'function' && setIsOpen(false);
   };
 
   const selectDay = (selectedDate: Date) => {
@@ -198,8 +179,6 @@ const useRangeCalendar = ({
     });
   };
 
-  // TODO - onClickOutsideHandler
-
   const hoverDay = (hoveredDate: Date) => {
     if (
       datesState.startDate &&
@@ -231,17 +210,58 @@ const useRangeCalendar = ({
     });
   };
 
+  const selectAndApply = (newRange: DatesRange) => {
+    const { startDate, endDate } = getDatesFromRange({
+      range: newRange,
+      fallbackStartDate: datesState.startDate,
+      fallbackEndDate: datesState.endDate,
+      config,
+    });
+    typeof onDateChange === 'function' &&
+      onDateChange({
+        startDate: startDate,
+        endDate: endDate,
+        range: newRange,
+      });
+    typeof setPlaceholder === 'function' &&
+      setPlaceholder(
+        getPlaceholder({
+          startDate: startDate,
+          endDate: endDate,
+          range: newRange,
+          config,
+          translations,
+        })
+      );
+    typeof setIsOpen === 'function' && setIsOpen(false);
+  };
+
+  const amountOfMonth = config?.withOneMonth ? 1 : 2;
   const nextMonth = () => {
     setDatesState({
       ...datesState,
-      cursorDate: addMonths(datesState.cursorDate, 2),
+      cursorDate: addMonths(datesState.cursorDate, amountOfMonth),
     });
   };
 
   const prevMonth = () => {
     setDatesState({
       ...datesState,
-      cursorDate: subMonths(datesState.cursorDate, 2),
+      cursorDate: subMonths(datesState.cursorDate, amountOfMonth),
+    });
+  };
+
+  const setMonth = (month: number) => {
+    setDatesState({
+      ...datesState,
+      cursorDate: setFnsMonth(datesState.cursorDate, month),
+    });
+  };
+
+  const setYear = (year: number) => {
+    setDatesState({
+      ...datesState,
+      cursorDate: setFsnYear(datesState.cursorDate, year),
     });
   };
 
@@ -294,7 +314,13 @@ const useRangeCalendar = ({
     setEndDate,
     apply,
     reset,
+    cansel,
     labels,
+    setMonth,
+    setYear,
+    isCustom,
+    setCustom,
+    selectAndApply,
   };
 };
 

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import useClickOutside from '../hooks/useClickOutside';
 import Calendar from './Calendar';
 import getPlaceholder from './private/helpers/getPlacegolder';
+import type { DisabledDaysRange } from '../private/helper/checkIsDisabledDay';
 
 export type WeekStartsOn = 0 | 1 | 2 | 3 | 4 | 5 | 6 | undefined;
 
@@ -29,11 +30,6 @@ export interface Translations {
   apply: string | JSX.Element;
   reset: string | JSX.Element;
 }
-
-export type DisabledDaysRange = {
-  from?: Date;
-  to?: Date;
-};
 
 export type DatePickerProps = {
   isOpenByDefault?: boolean;

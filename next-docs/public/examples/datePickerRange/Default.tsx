@@ -11,7 +11,7 @@ const Example = () => {
   );
 
   return (
-    <div style={{ height: rem(400), width: '100%' }}>
+    <div style={{ height: rem(700), width: '100%' }}>
       <DateRangePicker
         isOpenByDefault={true}
         startDate={initialStartDate}
@@ -22,7 +22,17 @@ const Example = () => {
         }}
         config={{
           weekStartsOn: 1,
+          disabledDays: {
+            to: new Date('September 17, 2020'),
+            from: new Date('September 23, 2020'),
+          },
           withHoursAndMinutes: true,
+          withOneMonth: true,
+          withFooter: {
+            isApplyBtn: true,
+            isCanselBtn: true,
+            isClearBtn: true,
+          },
         }}
       />
     </div>

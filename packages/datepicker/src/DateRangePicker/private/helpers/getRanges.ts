@@ -1,7 +1,7 @@
 import { DatesRange } from './getDatesFromRange';
 
 const future = ['tomorrow', 'nextWeek', 'nextMonth'];
-const past = ['lastMonth', 'lastWeek', 'yesterday', 'thisWeek', 'thisMonth'];
+const past = ['yesterday', 'thisWeek', 'lastWeek', 'thisMonth', 'lastMonth'];
 
 interface GetRangesArgs {
   ranges?: DatesRange[];
@@ -21,7 +21,7 @@ export const getRanges = ({
     return future;
   }
   if (!without24AndToday) {
-    return [...past, 'last24hours', 'today'];
+    return ['today', ...past]; //'last24hours', 'today'
   }
   return past;
 };
