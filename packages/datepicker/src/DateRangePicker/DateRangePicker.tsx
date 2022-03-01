@@ -64,7 +64,7 @@ DateRangePicker.defaultProps = {
     placeholder: 'Select Dates',
     apply: 'Apply',
     reset: 'Reset',
-    cansel: 'Cansel',
+    cancel: 'Cancel',
     labelStartDate: 'Start date & time',
     labelEndDate: 'End date & time',
     lastMonth: 'Last month',

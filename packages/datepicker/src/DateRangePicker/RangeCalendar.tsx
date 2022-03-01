@@ -42,7 +42,7 @@ const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
     setEndDate,
     apply,
     reset,
-    cansel,
+    cancel,
     labels,
     setMonth,
     setYear,
@@ -70,7 +70,7 @@ const RangeCalendar: React.FC<DateRangePickerProps> = (props) => {
       onDateChange={props?.onDateChange}
       apply={apply}
       reset={reset}
-      cansel={cansel}
+      cancel={cancel}
       setMonth={setMonth}
       setYear={setYear}
       isCustom={isCustom}
@@ -88,7 +88,7 @@ RangeCalendar.defaultProps = {
     placeholder: 'Select Dates',
     apply: 'Apply',
     reset: 'Reset',
-    cansel: 'Cansel',
+    cancel: 'Cancel',
     labelStartDate: 'Start date & time',
     labelEndDate: 'End date & time',
     lastMonth: 'Last month',
@@ -117,7 +117,7 @@ RangeCalendar.defaultProps = {
     withOneMonth: false,
     withFooter: {
       isApplyBtn: true,
-      isCanselBtn: true,
+      isCancelBtn: true,
       isClearBtn: true,
     },
   },

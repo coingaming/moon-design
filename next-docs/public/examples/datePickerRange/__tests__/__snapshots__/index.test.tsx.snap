@@ -538,7 +538,7 @@ exports[`DatePicker renders 1`] = `
                   onMouseLeave={[Function]}
                   size="small"
                 >
-                  Cansel
+                  Cancel
                   <div
                     className="Hover-yzznpt-0 ctGatB"
                   />
@@ -1633,7 +1633,7 @@ exports[`RangeCalendar show calendar 1`] = `
                 onMouseLeave={[Function]}
                 size="small"
               >
-                Cansel
+                Cancel
                 <div
                   className="Hover-yzznpt-0 ctGatB"
                 />
@@ -2997,7 +2997,7 @@ exports[`RangeCalendar: without input renders 1`] = `
                 onMouseLeave={[Function]}
                 size="small"
               >
-                Cansel
+                Cancel
                 <div
                   className="Hover-yzznpt-0 ctGatB"
                 />
@@ -4090,7 +4090,7 @@ exports[`RangeCalendar: without input show month select 1`] = `
                 onMouseLeave={[Function]}
                 size="small"
               >
-                Cansel
+                Cancel
                 <div
                   className="Hover-yzznpt-0 ctGatB"
                 />
@@ -6693,7 +6693,7 @@ exports[`RangeCalendar: without input show years select 1`] = `
                 onMouseLeave={[Function]}
                 size="small"
               >
-                Cansel
+                Cancel
                 <div
                   className="Hover-yzznpt-0 ctGatB"
                 />

@@ -2,7 +2,7 @@ interface RangeTranslations {
   placeholder: any;
   apply: string | JSX.Element;
   reset: string | JSX.Element;
-  cansel: string | JSX.Element;
+  cancel: string | JSX.Element;
   lastMonth: string | JSX.Element;
   lastWeek: string | JSX.Element;
   last24hours: string | JSX.Element;

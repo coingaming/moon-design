@@ -9,7 +9,7 @@ type FooterProps = {
   config: boolean | FooterConfig;
   apply: () => void;
   reset: () => void;
-  cansel: () => void;
+  cancel: () => void;
   translations?: RangeTranslations;
 };
 
@@ -23,11 +23,11 @@ const Footer: React.FC<FooterProps> = ({
   config,
   apply,
   reset,
-  cansel,
+  cancel,
   translations,
 }) => {
   if (typeof config == 'object') {
-    const { isApplyBtn, isCanselBtn, isClearBtn } = config as FooterConfig;
+    const { isApplyBtn, isCancelBtn, isClearBtn } = config as FooterConfig;
     return (
       <Container test-id="footer">
         <MoonFooter
@@ -47,15 +47,15 @@ const Footer: React.FC<FooterProps> = ({
             ) : undefined
           }
           secButton={
-            isCanselBtn ? (
+            isCancelBtn ? (
               <Button
                 fullWidth
                 variant="secondary"
                 size="small"
-                onClick={cansel}
-                test-id="cansel"
+                onClick={cancel}
+                test-id="cancel"
               >
-                {translations?.cansel}
+                {translations?.cancel}
               </Button>
             ) : undefined
           }
@@ -82,8 +82,8 @@ const Footer: React.FC<FooterProps> = ({
             </Button>
           }
           secButton={
-            <Button fullWidth variant="secondary" size="small" onClick={cansel}>
-              {translations?.cansel}
+            <Button fullWidth variant="secondary" size="small" onClick={cancel}>
+              {translations?.cancel}
             </Button>
           }
           tertButton={

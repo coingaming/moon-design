@@ -111,7 +111,7 @@ const useRangeCalendar = ({
     typeof setIsOpen === 'function' && setIsOpen(false);
   };
 
-  const cansel = () => {
+  const cancel = () => {
     typeof setIsOpen === 'function' && setIsOpen(false);
   };
 
@@ -314,7 +314,7 @@ const useRangeCalendar = ({
     setEndDate,
     apply,
     reset,
-    cansel,
+    cancel,
     labels,
     setMonth,
     setYear,

@@ -58,7 +58,7 @@ type PickerProps = {
   }) => any;
   apply: () => void;
   reset: () => void;
-  cansel: () => void;
+  cancel: () => void;
   setMonth: (month: number) => void;
   setYear: (year: number) => void;
   isCustom: boolean;
@@ -83,7 +83,7 @@ export const Picker: React.FC<PickerProps> = ({
   onDateChange,
   apply,
   reset,
-  cansel,
+  cancel,
   setMonth,
   setYear,
   isCustom,
@@ -173,7 +173,7 @@ export const Picker: React.FC<PickerProps> = ({
             config={config.withFooter}
             apply={apply}
             reset={reset}
-            cansel={cansel}
+            cancel={cancel}
             translations={translations}
           />
         )}
