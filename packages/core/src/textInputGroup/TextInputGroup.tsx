@@ -39,6 +39,9 @@ export class TextInputGroup extends React.Component<TextInputGroupProps> {
           inputSize={inputSize}
           dir={isRtl ? 'rtl' : 'ltr'}
           ref={reference?.input1}
+          isSharpRightSide={orientation === 'horizontal' && !isRtl}
+          isSharpLeftSide={orientation === 'horizontal' && isRtl}
+          isSharpBottomSide={orientation === 'vertical'}
         ></TextInput>
         <TextInput
           type="text"
@@ -46,6 +49,9 @@ export class TextInputGroup extends React.Component<TextInputGroupProps> {
           inputSize={inputSize}
           dir={isRtl ? 'rtl' : 'ltr'}
           ref={reference?.input2}
+          isSharpRightSide={orientation === 'horizontal' && isRtl}
+          isSharpLeftSide={orientation === 'horizontal' && !isRtl}
+          isSharpTopSide={orientation === 'vertical'}
         ></TextInput>
       </Container>
     );

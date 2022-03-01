@@ -19,6 +19,10 @@ interface TextInputXSandSmProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   backgroundColor?: ColorProps;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
 }
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
@@ -33,6 +37,10 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       hintText,
       isError,
       dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -41,6 +49,10 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       type,
       placeholder,
       dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
       ...rest,
     };
     return (

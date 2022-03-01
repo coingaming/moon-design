@@ -19,6 +19,10 @@ export interface TextInputProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   backgroundColor?: ColorProps;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
 }
 
 const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
