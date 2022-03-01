@@ -29,7 +29,6 @@ const Example = () => {
             }}
             config={{
               weekStartsOn: 1,
-              monthLabelFormat: 'MMM',
             }}
             hasClickedOutside={hasClickedOutside}
           />

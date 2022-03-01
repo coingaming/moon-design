@@ -1,9 +1,12 @@
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
+import { GenericSettings } from '@heathmont/moon-icons';
 
 const Example = () => (
-  <Button fullWidth variant="primary">
-    Action
-  </Button>
+  <div className="flex justify-around w-full items-center">
+    <Button iconRight={<GenericSettings />} fullWidth>
+      Full width
+    </Button>
+  </div>
 );
 
 export default Example;

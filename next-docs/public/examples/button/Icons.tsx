@@ -1,13 +1,21 @@
-import { Button } from '@heathmont/moon-components';
-import { IconProfile } from '@heathmont/moon-assets';
+import { Button } from '@heathmont/moon-core';
+import { GenericSettings } from '@heathmont/moon-icons';
 
 const Example = () => (
-  <div className="flex justify-around w-full">
-    <Button iconLeft={<IconProfile color="#fff" />} variant="primary">
-      Default
+  <div className="flex justify-around w-full items-center">
+    <Button iconLeft={<GenericSettings />}>IconLeft</Button>
+    <Button iconLeft>
+      <GenericSettings />
+      IconLeft
     </Button>
-    <Button iconRight={<IconProfile color="#fff" />} variant="primary">
-      Default
+    <Button iconRight={<GenericSettings />}>IconRight</Button>
+    <Button iconRight>
+      IconRight
+      <GenericSettings />
+    </Button>
+    <Button iconOnly={<GenericSettings />} />
+    <Button iconOnly>
+      <GenericSettings />
     </Button>
   </div>
 );

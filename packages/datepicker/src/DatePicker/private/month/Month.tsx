@@ -2,9 +2,11 @@ import React from 'react';
 import getMonth from 'date-fns/getMonth';
 import isSameDay from 'date-fns/isSameDay';
 import styled from 'styled-components';
-import { DisabledDaysRange } from '../../DatePicker';
+import {
+  checkIsDisabledDay,
+  DisabledDaysRange,
+} from '../../../private/helper/checkIsDisabledDay';
 import { Day } from '../day/Day';
-import { checkIsDisabledDay } from '../helpers/checkIsDisabledDay';
 import MonthSelect from './MonthSelect';
 import DayName from './styles/DayName';
 import MonthYearLabel from './styles/MonthYearLabel';
