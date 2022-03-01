@@ -4,8 +4,10 @@ import { TextInputGroup } from '@heathmont/moon-core';
 const Example = () => (
   <TextInputGroup
     inputSize="medium"
-    placeholder1="Country"
-    placeholder2="Phone"
+    placeholder={{
+      input1: 'Country',
+      input2: 'Phone',
+    }}
   />
 );
 

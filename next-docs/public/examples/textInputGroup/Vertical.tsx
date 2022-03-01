@@ -5,8 +5,10 @@ const Example = () => (
   <TextInputGroup
     inputSize="medium"
     orientation="vertical"
-    placeholder1="Country"
-    placeholder2="Phone"
+    placeholder={{
+      input1: 'Country',
+      input2: 'Phone',
+    }}
   />
 );
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import Size from '../../private/enums/Size';
 import Container from '../styles/Container';
@@ -22,55 +22,83 @@ interface TextInputPasswordProps
   isError?: boolean;
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
-  ref: React.Ref<HTMLInputElement>;
   backgroundColor?: ColorProps;
 }
 
-const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
-  const {
-    id,
-    inputSize,
-    type,
-    disabled,
-    placeholder = ' ',
-    label,
-    hintText,
-    isError,
-    dir,
-    showPasswordText,
-    ref,
-    backgroundColor = 'gohan',
-    ...rest
-  } = props;
+const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
+  (props, ref) => {
+    const {
+      id,
+      inputSize,
+      type,
+      disabled,
+      placeholder = ' ',
+      label,
+      hintText,
+      isError,
+      dir,
+      showPasswordText,
+      backgroundColor = 'gohan',
+      ...rest
+    } = props;
 
-  const [passwordShown, setPasswordShown] = React.useState(false);
+    const [passwordShown, setPasswordShown] = React.useState(false);
 
-  const togglePasswordVisiblity = () => {
-    setPasswordShown(passwordShown ? false : true);
-  };
+    const togglePasswordVisiblity = () => {
+      setPasswordShown(passwordShown ? false : true);
+    };
 
-  const inputProps = {
-    disabled,
-    placeholder,
-    dir,
-    ...rest,
-  };
+    const inputProps = {
+      disabled,
+      placeholder,
+      dir,
+      ...rest,
+    };
 
-  if (inputSize === Size.XLARGE) {
+    if (inputSize === Size.XLARGE) {
+      return (
+        <Container disabled={disabled}>
+          <Inner bgColor={backgroundColor}>
+            <Input
+              inputSize={inputSize}
+              type={passwordShown ? 'text' : 'password'}
+              error={isError}
+              ref={ref}
+              id={id}
+              isLabel={!!label}
+              isPassword={true}
+              {...inputProps}
+            />
+            <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
+            <ShowPassword
+              onClick={togglePasswordVisiblity}
+              isRtl={dir === 'rtl'}
+            >
+              {showPasswordText}
+            </ShowPassword>
+          </Inner>
+          {hintText && <HintText isError={isError}>{hintText}</HintText>}
+        </Container>
+      );
+    }
     return (
       <Container disabled={disabled}>
-        <Inner bgColor={backgroundColor}>
+        {label && (
+          <Label dir={dir} htmlFor={id}>
+            {label}
+          </Label>
+        )}
+        <Inner>
           <Input
             inputSize={inputSize}
             type={passwordShown ? 'text' : 'password'}
             error={isError}
             ref={ref}
             id={id}
-            isLabel={!!label}
+            bgColor={backgroundColor}
             isPassword={true}
             {...inputProps}
           />
-          <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
           <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
             {showPasswordText}
           </ShowPassword>
@@ -79,31 +107,6 @@ const TextInputPassword: React.FC<TextInputPasswordProps> = (props) => {
       </Container>
     );
   }
-  return (
-    <Container disabled={disabled}>
-      {label && (
-        <Label dir={dir} htmlFor={id}>
-          {label}
-        </Label>
-      )}
-      <Inner>
-        <Input
-          inputSize={inputSize}
-          type={passwordShown ? 'text' : 'password'}
-          error={isError}
-          ref={ref}
-          id={id}
-          bgColor={backgroundColor}
-          isPassword={true}
-          {...inputProps}
-        />
-        <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
-          {showPasswordText}
-        </ShowPassword>
-      </Inner>
-      {hintText && <HintText isError={isError}>{hintText}</HintText>}
-    </Container>
-  );
-};
+);
 
 export default TextInputPassword;

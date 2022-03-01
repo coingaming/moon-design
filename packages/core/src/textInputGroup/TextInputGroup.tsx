@@ -1,43 +1,55 @@
-import React, { forwardRef } from 'react';
+import React, { Ref } from 'react';
 import { TextInput } from '..';
 import TextInputSizeType from '../textInput/private/types/SizeTypes';
 import Container from './styles/Container';
 
 export interface TextInputGroupProps {
   inputSize: TextInputSizeType | string;
-  placeholder1?: string;
-  placeholder2?: string;
-  orientation: 'vertical' | 'horizontal';
+  placeholder?: {
+    input1?: string;
+    input2?: string;
+  };
+  orientation?: 'vertical' | 'horizontal';
   isRtl?: boolean;
+  reference?: {
+    input1: React.RefObject<HTMLInputElement>;
+    input2: React.RefObject<HTMLInputElement>;
+  };
 }
 
-const TextInputGroup = forwardRef<HTMLInputElement, TextInputGroupProps>(
-  (props, ref) => {
+export class TextInputGroup extends React.Component<TextInputGroupProps> {
+  constructor(props: TextInputGroupProps) {
+    super(props);
+  }
+
+  render() {
     const {
       isRtl,
       inputSize,
-      placeholder1,
-      placeholder2,
+      placeholder,
+      reference,
       orientation = 'horizontal',
-    } = props;
+    } = this.props;
 
     return (
       <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
         <TextInput
           type="text"
-          placeholder={placeholder1}
+          placeholder={placeholder?.input1}
           inputSize={inputSize}
           dir={isRtl ? 'rtl' : 'ltr'}
+          ref={reference?.input1}
         ></TextInput>
         <TextInput
           type="text"
-          placeholder={placeholder2}
+          placeholder={placeholder?.input2}
           inputSize={inputSize}
           dir={isRtl ? 'rtl' : 'ltr'}
+          ref={reference?.input2}
         ></TextInput>
       </Container>
     );
   }
-);
+}
 
 export default TextInputGroup;

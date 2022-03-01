@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Default from '../../public/examples/textInputGroup/Default';
 import Rtl from '../../public/examples/textInputGroup/Rtl';
 import Vertical from '../../public/examples/textInputGroup/Vertical';
@@ -35,6 +36,14 @@ export default function PageReel() {
           title="RTL"
           preview={<Rtl />}
           code={examples ? examples.Rtl : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Access Values"
+          preview={<AccessValues />}
+          code={examples ? examples.AccessValues : 'Loading'}
         />
       </section>
     </>
