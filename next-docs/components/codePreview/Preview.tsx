@@ -18,9 +18,15 @@ interface PreviewProps {
   title?: string;
   preview: React.ReactNode;
   code?: string;
+  isGrayBg?: boolean;
 }
 
-export default function Preview({ title, preview, code }: PreviewProps) {
+export default function Preview({
+  title,
+  preview,
+  code,
+  isGrayBg,
+}: PreviewProps) {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
@@ -40,7 +46,8 @@ export default function Preview({ title, preview, code }: PreviewProps) {
           isPreviewActive
             ? 'bg-white flex justify-center'
             : 'bg-black text-white overflow-x-scroll',
-          'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6'
+          'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6',
+          isGrayBg ? 'bg-slate-200 text-gray-600' : ''
         )}
       >
         {isPreviewActive ? <>{preview}</> : <>{code && <Code code={code} />}</>}

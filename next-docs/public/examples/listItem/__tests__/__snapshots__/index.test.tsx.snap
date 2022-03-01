@@ -47,7 +47,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -84,7 +84,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -111,7 +111,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -135,7 +135,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -316,7 +316,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -362,7 +362,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -398,7 +398,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         className="ListItem__ElementLeftWrapper-xq5gr1-1 eJSonu"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -422,7 +422,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
       >
         <svg
-          className="sc-eaPPdL"
+          className="sc-avest"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
