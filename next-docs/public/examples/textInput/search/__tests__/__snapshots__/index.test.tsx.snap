@@ -17,7 +17,7 @@ exports[`TextInput: type Search renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 TqJRH"
+        className="Input-qkdgvx-0 dNylIv"
         disabled={true}
         placeholder=" "
         type="search"
@@ -44,7 +44,7 @@ exports[`TextInput: type Search renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iejWvo"
+        className="Input-qkdgvx-0 hzeVtM"
         disabled={true}
         placeholder=" "
         type="search"
@@ -69,7 +69,7 @@ exports[`TextInput: type Search renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 cXHYNK"
+          className="Input-qkdgvx-0 jjNFvC"
           disabled={true}
           placeholder=" "
           type="search"
@@ -108,7 +108,7 @@ exports[`TextInput: type Search renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 kXsyNR"
+        className="Input-qkdgvx-0 iCmZWh"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -132,7 +132,7 @@ exports[`TextInput: type Search renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hfAzeO"
+        className="Input-qkdgvx-0 dhJEZS"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Search renders error 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 czTyEs"
+          className="Input-qkdgvx-0 gUQLUI"
           placeholder="e.g. EPL"
           type="search"
         />
@@ -191,7 +191,7 @@ exports[`TextInput: type Search renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 TqJRH"
+        className="Input-qkdgvx-0 dNylIv"
         placeholder=" "
         readOnly={true}
         type="search"
@@ -217,7 +217,7 @@ exports[`TextInput: type Search renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iejWvo"
+        className="Input-qkdgvx-0 hzeVtM"
         placeholder=" "
         readOnly={true}
         type="search"
@@ -241,7 +241,7 @@ exports[`TextInput: type Search renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 cXHYNK"
+          className="Input-qkdgvx-0 jjNFvC"
           placeholder=" "
           readOnly={true}
           type="search"
@@ -280,7 +280,7 @@ exports[`TextInput: type Search renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 TqJRH"
+        className="Input-qkdgvx-0 dNylIv"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Search renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iejWvo"
+        className="Input-qkdgvx-0 hzeVtM"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Search renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 cXHYNK"
+          className="Input-qkdgvx-0 jjNFvC"
           placeholder="e.g. EPL"
           type="search"
         />
@@ -363,7 +363,7 @@ exports[`TextInput: type Search renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 TqJRH"
+        className="Input-qkdgvx-0 dNylIv"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Search renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iejWvo"
+        className="Input-qkdgvx-0 hzeVtM"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Search renders with label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 cXHYNK"
+          className="Input-qkdgvx-0 jjNFvC"
           placeholder="e.g. EPL"
           type="search"
         />
@@ -429,7 +429,7 @@ exports[`TextInput: type Search renders with label RTL 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 TqJRH"
+        className="Input-qkdgvx-0 dNylIv"
         dir="rtl"
         placeholder="e.g. EPL"
         type="search"
@@ -449,7 +449,7 @@ exports[`TextInput: type Search renders with label RTL 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iejWvo"
+        className="Input-qkdgvx-0 hzeVtM"
         dir="rtl"
         placeholder="e.g. EPL"
         type="search"
@@ -466,7 +466,7 @@ exports[`TextInput: type Search renders with label RTL 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 cXHYNK"
+          className="Input-qkdgvx-0 jjNFvC"
           dir="rtl"
           placeholder="e.g. EPL"
           type="search"
@@ -493,7 +493,7 @@ exports[`TextInput: type Search renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 TqJRH"
+        className="Input-qkdgvx-0 dNylIv"
         placeholder="medium"
         type="search"
       />
@@ -506,7 +506,7 @@ exports[`TextInput: type Search renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 iejWvo"
+        className="Input-qkdgvx-0 hzeVtM"
         placeholder="large"
         type="search"
       />
@@ -522,7 +522,7 @@ exports[`TextInput: type Search renders without label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 gMNPmj"
+          className="Input-qkdgvx-0 jasrmP"
           placeholder="xlarge"
           type="search"
         />
@@ -551,7 +551,7 @@ exports[`TextInput: type Search supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 sxsJI"
+        className="Input-qkdgvx-0 lalKEM"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -575,7 +575,7 @@ exports[`TextInput: type Search supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iFdnDn"
+        className="Input-qkdgvx-0 cORvlv"
         placeholder="e.g. EPL"
         type="search"
       />
@@ -597,7 +597,7 @@ exports[`TextInput: type Search supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 cXHYNK"
+          className="Input-qkdgvx-0 jjNFvC"
           placeholder="e.g. EPL"
           type="search"
         />

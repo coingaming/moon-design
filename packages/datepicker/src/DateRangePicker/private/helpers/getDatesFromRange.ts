@@ -13,7 +13,7 @@ import subHours from 'date-fns/subHours';
 import subMonths from 'date-fns/subMonths';
 import subWeeks from 'date-fns/subWeeks';
 
-import { RangeConfig } from '../../RangeCalendar';
+import RangeConfig from '../types/RangeConfig';
 
 export type DatesRange =
   | ''

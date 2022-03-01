@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SelectorContainer = styled.div(({ theme: { newTokens, colorNew } }) => ({
   zIndex: 100,
-  height: rem(300),
+  height: rem(260),
   overflow: 'scroll',
   position: 'absolute',
   top: 0,

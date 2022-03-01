@@ -1,19 +1,15 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Animations from '../../public/examples/button/Animations';
-import Default from '../../public/examples/button/Default';
+import Disabled from '../../public/examples/button/Disabled';
 import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
-import IsIcon from '../../public/examples/button/IsIcon';
-import Primary from '../../public/examples/button/Primary';
-import Secondary from '../../public/examples/button/Secondary';
 import Sizes from '../../public/examples/button/Sizes';
-import Tertiary from '../../public/examples/button/Tertiary';
+import Variants from '../../public/examples/button/Variants';
 import useExamples from '../../utils/useExamples';
 
 export default function PageButton() {
   const examples = useExamples('button');
-
   return (
     <>
       <section className="mt-8">
@@ -29,36 +25,12 @@ export default function PageButton() {
           action that will happen when the users interact with it.
         </p>
       </section>
-      {/* Primary */}
+      {/* Variants */}
       <section className="mt-8">
         <Preview
-          title="Primary"
-          preview={<Primary />}
-          code={examples ? examples.Primary : 'Loading'}
-        />
-      </section>
-      {/* Secondary */}
-      <section className="mt-8">
-        <Preview
-          title="Secondary"
-          preview={<Secondary />}
-          code={examples ? examples.Secondary : 'Loading'}
-        />
-      </section>
-      {/* Tertiary */}
-      <section className="mt-8">
-        <Preview
-          title="Tertiary"
-          preview={<Tertiary />}
-          code={examples ? examples.Tertiary : 'Loading'}
-        />
-      </section>
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
+          title="Variants"
+          preview={<Variants />}
+          code={examples ? examples.Variants : 'Loading'}
         />
       </section>
       {/* Sizes */}
@@ -69,40 +41,36 @@ export default function PageButton() {
           code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
-      {/* Animations */}
-      <section className="mt-8">
-        <Preview
-          title="Animations"
-          preview={<Animations />}
-          code={examples ? examples.Animations : 'Loading'}
-        />
-      </section>
-
       {/* Icons */}
-
       <section className="mt-8">
         <Preview
-          title="Leading and trailing icons"
+          title="Icons"
           preview={<Icons />}
           code={examples ? examples.Icons : 'Loading'}
         />
       </section>
-
-      {/* Is Icon */}
-      <section className="mt-8">
-        <Preview
-          title="isIcon"
-          preview={<IsIcon />}
-          code={examples ? examples.IsIcon : 'Loading'}
-        />
-      </section>
-
       {/* Full width */}
       <section className="mt-8">
         <Preview
           title="Full width"
           preview={<FullWidth />}
           code={examples ? examples.FullWidth : 'Loading'}
+        />
+      </section>
+      {/* Disabled */}
+      <section className="mt-8">
+        <Preview
+          title="Disabled"
+          preview={<Disabled />}
+          code={examples ? examples.Disabled : 'Loading'}
+        />
+      </section>
+      {/* Animations */}
+      <section className="mt-8">
+        <Preview
+          title="Animations"
+          preview={<Animations />}
+          code={examples ? examples.Animations : 'Loading'}
         />
       </section>
     </>
