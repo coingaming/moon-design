@@ -43,6 +43,7 @@ export class TextInputGroup extends React.Component<TextInputGroupProps> {
           isSharpLeftSide={orientation === 'horizontal' && isRtl}
           isSharpBottomSide={orientation === 'vertical'}
           isNoBorderBottom={orientation === 'vertical'}
+          isNoBorderEnd={orientation === 'horizontal'}
         ></TextInput>
         <TextInput
           type="text"

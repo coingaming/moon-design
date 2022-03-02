@@ -21,6 +21,7 @@ type InputProps = {
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
   isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 };
 
 const makeBorderRadius = (
@@ -42,7 +43,28 @@ const makeBorderRadius = (
   };
 };
 
-const makeBorder = (
+const makeBorderSide = (
+  border: SharedTheme['newTokens']['border'],
+  isRtl?: boolean,
+  isNoBorderEnd?: boolean
+) => {
+  if (isNoBorderEnd && isRtl) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} -${border.width.default} -${border.width.default} ${border.width.default})`,
+      },
+    };
+  } else if (isNoBorderEnd) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} ${border.width.default} -${border.width.default} -${border.width.default})`,
+      },
+    };
+  }
+  return {};
+};
+
+const makeBorderBottom = (
   border: SharedTheme['newTokens']['border'],
   isNoBorderBottom?: boolean
 ) => {
@@ -78,6 +100,7 @@ const Input = styled.input.attrs(({ type }) => ({
     isSharpTopSide,
     isSharpBottomSide,
     isNoBorderBottom,
+    isNoBorderEnd,
   }) => [
     {
       display: 'block',
@@ -105,7 +128,8 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
-      ...makeBorder(border, isNoBorderBottom),
+      ...makeBorderBottom(border, isNoBorderBottom),
+      ...makeBorderSide(border, isRtl, isNoBorderEnd),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',

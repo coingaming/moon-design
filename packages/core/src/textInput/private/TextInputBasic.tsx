@@ -24,6 +24,7 @@ interface TextInputXSandSmProps
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
   isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 }
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
@@ -43,6 +44,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpTopSide,
       isSharpBottomSide,
       isNoBorderBottom,
+      isNoBorderEnd,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -56,6 +58,8 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpTopSide,
       isSharpBottomSide,
       isNoBorderBottom,
+      isNoBorderEnd,
+      ...rest,
     };
     return (
       <Container disabled={disabled}>
