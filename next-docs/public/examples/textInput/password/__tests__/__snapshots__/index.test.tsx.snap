@@ -20,7 +20,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dmlauP"
+          className="Input-qkdgvx-0 eHeYAX"
           disabled={true}
           placeholder=" "
           type="password"
@@ -56,7 +56,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cWTMxA"
+          className="Input-qkdgvx-0 kwjvCg"
           disabled={true}
           placeholder=" "
           type="password"
@@ -87,7 +87,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jBAwrW"
+          className="Input-qkdgvx-0 fvByvG"
           disabled={true}
           placeholder=" "
           type="password"
@@ -134,7 +134,7 @@ exports[`TextInput: type Password renders error 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 iOAeKt"
+          className="Input-qkdgvx-0 cdlIqJ"
           placeholder="Placeholder"
           type="password"
         />
@@ -168,7 +168,7 @@ exports[`TextInput: type Password renders error 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 buedyS"
+          className="Input-qkdgvx-0 gDqUbi"
           placeholder="Placeholder"
           type="password"
         />
@@ -197,7 +197,7 @@ exports[`TextInput: type Password renders error 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 bAkziU"
+          className="Input-qkdgvx-0 fEqEaE"
           placeholder="Placeholder"
           type="password"
         />
@@ -243,7 +243,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dmlauP"
+          className="Input-qkdgvx-0 eHeYAX"
           placeholder=" "
           readOnly={true}
           type="password"
@@ -278,7 +278,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cWTMxA"
+          className="Input-qkdgvx-0 kwjvCg"
           placeholder=" "
           readOnly={true}
           type="password"
@@ -308,7 +308,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jBAwrW"
+          className="Input-qkdgvx-0 fvByvG"
           placeholder=" "
           readOnly={true}
           type="password"
@@ -355,7 +355,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dmlauP"
+          className="Input-qkdgvx-0 eHeYAX"
           placeholder="Placeholder"
           type="password"
         />
@@ -389,7 +389,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cWTMxA"
+          className="Input-qkdgvx-0 kwjvCg"
           placeholder="Placeholder"
           type="password"
         />
@@ -418,7 +418,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jBAwrW"
+          className="Input-qkdgvx-0 fvByvG"
           placeholder="Placeholder"
           type="password"
         />
@@ -464,7 +464,7 @@ exports[`TextInput: type Password renders with label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dmlauP"
+          className="Input-qkdgvx-0 eHeYAX"
           placeholder="Placeholder"
           type="password"
         />
@@ -492,7 +492,7 @@ exports[`TextInput: type Password renders with label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cWTMxA"
+          className="Input-qkdgvx-0 kwjvCg"
           placeholder="Placeholder"
           type="password"
         />
@@ -515,7 +515,7 @@ exports[`TextInput: type Password renders with label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jBAwrW"
+          className="Input-qkdgvx-0 fvByvG"
           placeholder="Placeholder"
           type="password"
         />
@@ -556,7 +556,7 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dmlauP"
+          className="Input-qkdgvx-0 eHeYAX"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
@@ -586,7 +586,7 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cWTMxA"
+          className="Input-qkdgvx-0 kwjvCg"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
@@ -610,7 +610,7 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jBAwrW"
+          className="Input-qkdgvx-0 fvByvG"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
@@ -646,7 +646,7 @@ exports[`TextInput: type Password renders without label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dmlauP"
+          className="Input-qkdgvx-0 eHeYAX"
           placeholder="medium"
           type="password"
         />
@@ -669,7 +669,7 @@ exports[`TextInput: type Password renders without label 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cWTMxA"
+          className="Input-qkdgvx-0 kwjvCg"
           placeholder="large"
           type="password"
         />
@@ -692,7 +692,7 @@ exports[`TextInput: type Password renders without label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jnlAFr"
+          className="Input-qkdgvx-0 gDlqxX"
           placeholder="xlarge"
           type="password"
         />
@@ -730,7 +730,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 cpOLmQ"
+          className="Input-qkdgvx-0 jOXBBE"
           placeholder="Placeholder"
           type="password"
         />
@@ -764,7 +764,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 PghWO"
       >
         <input
-          className="Input-qkdgvx-0 dTqbFz"
+          className="Input-qkdgvx-0 hVGGCL"
           placeholder="Placeholder"
           type="password"
         />
@@ -793,7 +793,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 jBAwrW"
+          className="Input-qkdgvx-0 fvByvG"
           placeholder="Placeholder"
           type="password"
         />
