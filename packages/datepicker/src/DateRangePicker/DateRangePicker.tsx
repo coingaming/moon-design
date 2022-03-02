@@ -2,11 +2,13 @@ import React from 'react';
 import { Button } from '@heathmont/moon-components';
 import { enGB } from 'date-fns/locale';
 import styled from 'styled-components';
+import useClickOutside from '../hooks/useClickOutside';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
 import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 
 const Wrapper = styled.div({
   position: 'relative',
+  display: 'inline-block',
 });
 
 const DateRangePicker: React.FC<DateRangePickerProps> = ({
@@ -17,8 +19,9 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   onDateChange,
   config,
   translations,
+  isRtl,
 }) => {
-  // const [ref, hasClickedOutside] = useClickOutside();
+  const [ref, hasClickedOutside] = useClickOutside();
   const [isOpen, setIsOpen] = React.useState(isOpenByDefault);
   const [placeholder, setPlaceholder] = React.useState(
     getPlaceholder({
@@ -30,24 +33,27 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
     })
   );
   return (
-    <Wrapper>
-      <Button variant="tertiary" onClick={() => setIsOpen(true)}>
-        {placeholder}
-      </Button>
-      {isOpen && (
-        <RangeCalendar
-          startDate={startDate}
-          endDate={endDate}
-          range={range}
-          config={config}
-          onDateChange={onDateChange}
-          translations={translations}
-          // hasClickedOutside={hasClickedOutside}
-          setIsOpen={setIsOpen}
-          setPlaceholder={setPlaceholder}
-        />
-      )}
-    </Wrapper>
+    <div>
+      <Wrapper ref={ref}>
+        <Button variant="tertiary" onClick={() => setIsOpen(true)}>
+          {placeholder}
+        </Button>
+        {isOpen && (
+          <RangeCalendar
+            startDate={startDate}
+            endDate={endDate}
+            range={range}
+            config={config}
+            onDateChange={onDateChange}
+            translations={translations}
+            hasClickedOutside={hasClickedOutside}
+            setIsOpen={setIsOpen}
+            setPlaceholder={setPlaceholder}
+            isRtl={isRtl}
+          />
+        )}
+      </Wrapper>
+    </div>
   );
 };
 
@@ -58,6 +64,9 @@ DateRangePicker.defaultProps = {
     placeholder: 'Select Dates',
     apply: 'Apply',
     reset: 'Reset',
+    cancel: 'Cancel',
+    labelStartDate: 'Start date & time',
+    labelEndDate: 'End date & time',
     lastMonth: 'Last month',
     lastWeek: 'Last week',
     last24hours: 'Last 24 hours',
@@ -68,16 +77,20 @@ DateRangePicker.defaultProps = {
     nextWeek: 'Next week',
     thisMonth: 'This month',
     nextMonth: 'Next month',
+    custom: 'Custom',
   },
   config: {
     format: "yyyy-MM-dd'T'HH:mm",
     monthLabelFormat: 'MMMM',
     yearLabelFormat: 'yyyy',
     weekStartsOn: 1,
-    withHoursAndMinutes: true,
     onlyFuture: false,
     without24AndToday: false,
     locale: enGB,
+    withHoursAndMinutes: true,
+    hideInputs: false,
+    withPeriodList: false,
+    withOneMonth: false,
   },
 };
 

@@ -12,7 +12,7 @@ exports[`Button renders Full width property 1`] = `
   >
     Full width
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -96,7 +96,7 @@ exports[`Button renders different animations 1`] = `
         className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
       >
         <svg
-          className="sc-lkgTHX"
+          className="sc-gmCRdq"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -157,7 +157,7 @@ exports[`Button renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -185,7 +185,7 @@ exports[`Button renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -214,7 +214,7 @@ exports[`Button renders different icons 1`] = `
   >
     IconRight
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -242,7 +242,7 @@ exports[`Button renders different icons 1`] = `
   >
     IconRight
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -269,7 +269,7 @@ exports[`Button renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -296,7 +296,7 @@ exports[`Button renders different icons 1`] = `
     size="medium"
   >
     <svg
-      className="sc-iWVNaa"
+      className="sc-eYQueS"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"

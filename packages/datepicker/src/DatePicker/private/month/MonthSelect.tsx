@@ -1,4 +1,7 @@
 import React from 'react';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 import useClickOutside from '../../../hooks/useClickOutside';
 import { getMonths } from '../../../private/helper/getMonths';
 import Container from './styles/Container';
@@ -9,6 +12,12 @@ type MonthSelectProps = {
   monthLabel: string;
   setMonth: (month?: number) => void;
 };
+
+const DownArrow = styled(ControlsChevronDownSmall as any)(({ theme }) => ({
+  cursor: 'pointer',
+  color: theme.colorNew.bulma,
+  fontSize: rem(24),
+}));
 
 const MonthSelect: React.FC<MonthSelectProps> = ({ monthLabel, setMonth }) => {
   const [isOpen, setOpen] = React.useState(false);
@@ -27,7 +36,7 @@ const MonthSelect: React.FC<MonthSelectProps> = ({ monthLabel, setMonth }) => {
       ref={ref}
       test-id="month-select"
     >
-      {monthLabel}
+      {monthLabel} <DownArrow />
       {isOpen && (
         <SelectorContainer>
           {months.map((m, i) => (

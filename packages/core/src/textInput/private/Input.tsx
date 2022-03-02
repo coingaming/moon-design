@@ -43,10 +43,11 @@ const makeBorderRadius = (
   };
 };
 
-const makeBorderSide = (
+const makeBorder = (
   border: SharedTheme['newTokens']['border'],
   isRtl?: boolean,
-  isNoBorderEnd?: boolean
+  isNoBorderEnd?: boolean,
+  isNoBorderBottom?: boolean
 ) => {
   if (isNoBorderEnd && isRtl) {
     return {
@@ -60,21 +61,14 @@ const makeBorderSide = (
         clipPath: `inset(-${border.width.default} ${border.width.default} -${border.width.default} -${border.width.default})`,
       },
     };
+  } else if (isNoBorderBottom) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} -${border.width.default} ${border.width.default} -${border.width.default})`,
+      },
+    };
   }
   return {};
-};
-
-const makeBorderBottom = (
-  border: SharedTheme['newTokens']['border'],
-  isNoBorderBottom?: boolean
-) => {
-  return isNoBorderBottom
-    ? {
-        '&:not(:hover):not(:focus)': {
-          clipPath: `inset(-${border.width.default} -${border.width.default} ${border.width.default} -${border.width.default})`,
-        },
-      }
-    : {};
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -128,8 +122,7 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
-      ...makeBorderBottom(border, isNoBorderBottom),
-      ...makeBorderSide(border, isRtl, isNoBorderEnd),
+      ...makeBorder(border, isRtl, isNoBorderEnd, isNoBorderBottom),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
@@ -148,6 +141,7 @@ const Input = styled.input.attrs(({ type }) => ({
         } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
+        borderRadius: borderRadius.large,
       },
       '&:focus:not([readonly])': {
         outline: 'none',

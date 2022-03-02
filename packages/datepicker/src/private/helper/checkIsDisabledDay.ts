@@ -2,7 +2,11 @@ import isAfter from 'date-fns/isAfter';
 import isBefore from 'date-fns/isBefore';
 import isSameDay from 'date-fns/isSameDay';
 import isWithinInterval from 'date-fns/isWithinInterval';
-import { DisabledDaysRange } from '../../DatePicker';
+
+export type DisabledDaysRange = {
+  from?: Date;
+  to?: Date;
+};
 
 export const checkIsDisabledDay = (
   day: Date,

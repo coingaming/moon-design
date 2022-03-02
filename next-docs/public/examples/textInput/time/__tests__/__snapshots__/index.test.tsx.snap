@@ -17,7 +17,7 @@ exports[`TextInput: type Time renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 eMRcTP"
+        className="Input-qkdgvx-0 erWlfF"
         disabled={true}
         placeholder=" "
         type="time"
@@ -44,7 +44,7 @@ exports[`TextInput: type Time renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 bEnUqs"
+        className="Input-qkdgvx-0 jAgYam"
         disabled={true}
         placeholder=" "
         type="time"
@@ -69,7 +69,7 @@ exports[`TextInput: type Time renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 hPLInm"
+          className="Input-qkdgvx-0 jlpyds"
           disabled={true}
           placeholder=" "
           type="time"
@@ -108,7 +108,7 @@ exports[`TextInput: type Time renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 fPklBl"
+        className="Input-qkdgvx-0 gwIzKP"
         placeholder="Placeholder"
         type="time"
       />
@@ -132,7 +132,7 @@ exports[`TextInput: type Time renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 kLYjRC"
+        className="Input-qkdgvx-0 fWpDgU"
         placeholder="Placeholder"
         type="time"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Time renders error 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 givMZo"
+          className="Input-qkdgvx-0 KkBZO"
           placeholder="Placeholder"
           type="time"
         />
@@ -191,7 +191,7 @@ exports[`TextInput: type Time renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 eMRcTP"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder=" "
         readOnly={true}
         type="time"
@@ -217,7 +217,7 @@ exports[`TextInput: type Time renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 bEnUqs"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder=" "
         readOnly={true}
         type="time"
@@ -241,7 +241,7 @@ exports[`TextInput: type Time renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 hPLInm"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder=" "
           readOnly={true}
           type="time"
@@ -280,7 +280,7 @@ exports[`TextInput: type Time renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 eMRcTP"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder="Placeholder"
         type="time"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Time renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 bEnUqs"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder="Placeholder"
         type="time"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Time renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 hPLInm"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder="Placeholder"
           type="time"
         />
@@ -363,7 +363,7 @@ exports[`TextInput: type Time renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 eMRcTP"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder="Placeholder"
         type="time"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Time renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 bEnUqs"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder="Placeholder"
         type="time"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Time renders with label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 hPLInm"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder="Placeholder"
           type="time"
         />
@@ -429,7 +429,7 @@ exports[`TextInput: type Time renders with label RTL 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 bfURsU"
+        className="Input-qkdgvx-0 chWIUG"
         dir="rtl"
         placeholder="Placeholder"
         type="time"
@@ -449,7 +449,7 @@ exports[`TextInput: type Time renders with label RTL 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 idVehn"
+        className="Input-qkdgvx-0 dMcprJ"
         dir="rtl"
         placeholder="Placeholder"
         type="time"
@@ -466,7 +466,7 @@ exports[`TextInput: type Time renders with label RTL 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 oRsUd"
+          className="Input-qkdgvx-0 exrWLH"
           dir="rtl"
           placeholder="Placeholder"
           type="time"
@@ -493,7 +493,7 @@ exports[`TextInput: type Time renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 eMRcTP"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder="medium"
         type="time"
       />
@@ -506,7 +506,7 @@ exports[`TextInput: type Time renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 bEnUqs"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder="large"
         type="time"
       />
@@ -522,7 +522,7 @@ exports[`TextInput: type Time renders without label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 bgFgND"
+          className="Input-qkdgvx-0 iChyKN"
           placeholder="xlarge"
           type="time"
         />
@@ -551,7 +551,7 @@ exports[`TextInput: type Time supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 KiSrk"
+        className="Input-qkdgvx-0 ZCRe"
         placeholder="Placeholder"
         type="time"
       />
@@ -575,7 +575,7 @@ exports[`TextInput: type Time supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 ijwdGX"
+        className="Input-qkdgvx-0 iFWOYx"
         placeholder="Placeholder"
         type="time"
       />
@@ -597,7 +597,7 @@ exports[`TextInput: type Time supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 hPLInm"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder="Placeholder"
           type="time"
         />
