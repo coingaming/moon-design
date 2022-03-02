@@ -5,11 +5,11 @@ import {
   LogoMoonDesignShort,
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
-import { MediaTuner } from '@heathmont/moon-icons';
 import useFeatureFlags from '../../../utils/useFeatureFlags';
 import { useDocsTheme, DocsBrands } from '../../themes/DocsThemeProvider';
 
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
+import SettingsButton from '../common/SettingsButton';
 import DarkLightModeSwitcher from './DarkLightModeSwitch';
 import RTLModeSwitch from './RTLModeSwitch';
 
@@ -59,16 +59,7 @@ const ReactSettings: React.FC<Props> = ({
 
   return (
     <>
-      <button
-        onClick={toggle}
-        type="button"
-        aria-pressed="false"
-        className={`${
-          isRtlEnabled ? `left-4` : `right-4`
-        } text-black bg-white hover:bg-gray-200 fixed bottom-4 inline-flex flex-shrink-0 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none z-50 shadow-md`}
-      >
-        <MediaTuner fontSize="2rem" />
-      </button>
+      <SettingsButton onClick={toggle} />
       {isOpened && (
         <>
           <div
