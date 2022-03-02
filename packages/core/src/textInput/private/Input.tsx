@@ -1,4 +1,4 @@
-import { SharedTheme , ColorProps } from '@heathmont/moon-themes';
+import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
 
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
@@ -20,6 +20,7 @@ type InputProps = {
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
 };
 
 const makeBorderRadius = (
@@ -39,6 +40,19 @@ const makeBorderRadius = (
     borderBottomRightRadius:
       isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
   };
+};
+
+const makeBorder = (
+  border: SharedTheme['newTokens']['border'],
+  isNoBorderBottom?: boolean
+) => {
+  return isNoBorderBottom
+    ? {
+        '&:not(:hover):not(:focus)': {
+          clipPath: `inset(-${border.width.default} -${border.width.default} ${border.width.default} -${border.width.default})`,
+        },
+      }
+    : {};
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -63,6 +77,7 @@ const Input = styled.input.attrs(({ type }) => ({
     isSharpRightSide,
     isSharpTopSide,
     isSharpBottomSide,
+    isNoBorderBottom,
   }) => [
     {
       display: 'block',
@@ -90,6 +105,7 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
+      ...makeBorder(border, isNoBorderBottom),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
