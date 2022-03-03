@@ -23,48 +23,40 @@ export interface TextInputGroupProps {
   };
 }
 
-export class TextInputGroup extends React.Component<TextInputGroupProps> {
-  constructor(props: TextInputGroupProps) {
-    super(props);
-  }
-
-  render() {
-    const {
-      isRtl,
-      inputSize,
-      types,
-      placeholder,
-      reference,
-      orientation = 'horizontal',
-    } = this.props;
-
-    return (
-      <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
-        <TextInput
-          type={types && types.input1 ? types.input1 : 'text'}
-          placeholder={placeholder?.input1}
-          inputSize={inputSize}
-          dir={isRtl ? 'rtl' : 'ltr'}
-          ref={reference?.input1}
-          isSharpRightSide={orientation === 'horizontal' && !isRtl}
-          isSharpLeftSide={orientation === 'horizontal' && isRtl}
-          isSharpBottomSide={orientation === 'vertical'}
-          isNoBorderBottom={orientation === 'vertical'}
-          isNoBorderEnd={orientation === 'horizontal'}
-        ></TextInput>
-        <TextInput
-          type={types && types.input2 ? types.input2 : 'text'}
-          placeholder={placeholder?.input2}
-          inputSize={inputSize}
-          dir={isRtl ? 'rtl' : 'ltr'}
-          ref={reference?.input2}
-          isSharpRightSide={orientation === 'horizontal' && isRtl}
-          isSharpLeftSide={orientation === 'horizontal' && !isRtl}
-          isSharpTopSide={orientation === 'vertical'}
-        ></TextInput>
-      </Container>
-    );
-  }
-}
+const TextInputGroup: React.FC<TextInputGroupProps> = ({
+  isRtl,
+  inputSize,
+  types,
+  placeholder,
+  reference,
+  orientation = 'horizontal',
+}) => {
+  return (
+    <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
+      <TextInput
+        type={types && types.input1 ? types.input1 : 'text'}
+        placeholder={placeholder?.input1}
+        inputSize={inputSize}
+        dir={isRtl ? 'rtl' : 'ltr'}
+        ref={reference?.input1}
+        isSharpRightSide={orientation === 'horizontal' && !isRtl}
+        isSharpLeftSide={orientation === 'horizontal' && isRtl}
+        isSharpBottomSide={orientation === 'vertical'}
+        isNoBorderBottom={orientation === 'vertical'}
+        isNoBorderEnd={orientation === 'horizontal'}
+      ></TextInput>
+      <TextInput
+        type={types && types.input2 ? types.input2 : 'text'}
+        placeholder={placeholder?.input2}
+        inputSize={inputSize}
+        dir={isRtl ? 'rtl' : 'ltr'}
+        ref={reference?.input2}
+        isSharpRightSide={orientation === 'horizontal' && isRtl}
+        isSharpLeftSide={orientation === 'horizontal' && !isRtl}
+        isSharpTopSide={orientation === 'vertical'}
+      ></TextInput>
+    </Container>
+  );
+};
 
 export default TextInputGroup;
