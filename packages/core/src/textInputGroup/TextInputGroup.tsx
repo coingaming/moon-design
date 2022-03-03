@@ -1,5 +1,4 @@
 import React, { Ref } from 'react';
-import { types } from '@babel/core';
 import { TextInput } from '..';
 import TextInputSizeType from '../textInput/private/types/SizeTypes';
 import TextInputTypes from '../textInput/private/types/TextInputTypes';
