@@ -109,6 +109,43 @@ exports[`TextInputGroup renders and allows access to DOM and values 1`] = `
 </div>
 `;
 
+exports[`TextInputGroup renders different types 1`] = `
+<div
+  className="Container-sc-1ltt7k8-0 hcwoPx"
+  dir="ltr"
+  orientation="horizontal"
+>
+  <div
+    className="Container-sc-1f49upb-0 fVKDpE"
+  >
+    <input
+      className="Input-qkdgvx-0 kjDrDt"
+      dir="ltr"
+      placeholder="Email"
+      type="email"
+    />
+  </div>
+  <div
+    className="Container-sc-1f49upb-0 fVKDpE"
+  >
+    <div
+      className="Inner-sc-1soq84i-0 PghWO"
+    >
+      <input
+        className="Input-qkdgvx-0 dsMwXt"
+        dir="ltr"
+        placeholder="Password"
+        type="password"
+      />
+      <div
+        className="ShowPassword-sc-147a7th-0 evoMbN"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`TextInputGroup renders sizes 1`] = `
 <div
   className="flex flex-col gap-4"

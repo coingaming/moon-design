@@ -9,6 +9,7 @@ import AccessValues from '../AccessValues';
 import Default from '../Default';
 import Rtl from '../Rtl';
 import Sizes from '../Sizes';
+import Types from '../Types';
 import Vertical from '../Vertical';
 
 const renderWithTheme = (component: JSX.Element) => (
@@ -33,6 +34,11 @@ describe('TextInputGroup', () => {
 
   it('renders RTL', () => {
     const testRenderer = renderer.create(renderWithTheme(<Rtl />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders different types', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Types />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

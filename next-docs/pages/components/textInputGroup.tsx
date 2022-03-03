@@ -4,6 +4,7 @@ import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Default from '../../public/examples/textInputGroup/Default';
 import Rtl from '../../public/examples/textInputGroup/Rtl';
 import Sizes from '../../public/examples/textInputGroup/Sizes';
+import Types from '../../public/examples/textInputGroup/Types';
 import Vertical from '../../public/examples/textInputGroup/Vertical';
 import useExamples from '../../utils/useExamples';
 
@@ -45,6 +46,14 @@ export default function PageReel() {
           title="Sizes"
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Types"
+          preview={<Types />}
+          code={examples ? examples.Types : 'Loading'}
         />
       </section>
 

@@ -1,10 +1,16 @@
 import React, { Ref } from 'react';
+import { types } from '@babel/core';
 import { TextInput } from '..';
 import TextInputSizeType from '../textInput/private/types/SizeTypes';
+import TextInputTypes from '../textInput/private/types/TextInputTypes';
 import Container from './styles/Container';
 
 export interface TextInputGroupProps {
   inputSize: TextInputSizeType | string;
+  types?: {
+    input1: TextInputTypes;
+    input2: TextInputTypes;
+  };
   placeholder?: {
     input1?: string;
     input2?: string;
@@ -26,6 +32,7 @@ export class TextInputGroup extends React.Component<TextInputGroupProps> {
     const {
       isRtl,
       inputSize,
+      types,
       placeholder,
       reference,
       orientation = 'horizontal',
@@ -34,7 +41,7 @@ export class TextInputGroup extends React.Component<TextInputGroupProps> {
     return (
       <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
         <TextInput
-          type="text"
+          type={types && types.input1 ? types.input1 : 'text'}
           placeholder={placeholder?.input1}
           inputSize={inputSize}
           dir={isRtl ? 'rtl' : 'ltr'}
@@ -46,7 +53,7 @@ export class TextInputGroup extends React.Component<TextInputGroupProps> {
           isNoBorderEnd={orientation === 'horizontal'}
         ></TextInput>
         <TextInput
-          type="text"
+          type={types && types.input2 ? types.input2 : 'text'}
           placeholder={placeholder?.input2}
           inputSize={inputSize}
           dir={isRtl ? 'rtl' : 'ltr'}

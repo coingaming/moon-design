@@ -20,6 +20,12 @@ interface TextInputMediumProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   backgroundColor?: ColorProps;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 }
 const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
   (props, ref) => {
@@ -33,6 +39,12 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       hintText,
       isError,
       dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -41,6 +53,12 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       type,
       placeholder,
       dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
       ...rest,
     };
     return (

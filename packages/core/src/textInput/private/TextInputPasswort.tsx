@@ -23,6 +23,12 @@ interface TextInputPasswordProps
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
   backgroundColor?: ColorProps;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 }
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
@@ -38,6 +44,12 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       isError,
       dir,
       showPasswordText,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -52,6 +64,12 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       disabled,
       placeholder,
       dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
       ...rest,
     };
 
