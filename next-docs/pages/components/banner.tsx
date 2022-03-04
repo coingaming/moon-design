@@ -32,7 +32,7 @@ export default function PageBanner() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Avatar component</h2>
+        <h2 className="text-2xl mb-4">Props</h2>
         <Table
           data={[
             {
