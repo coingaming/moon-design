@@ -83,7 +83,7 @@ const RecursiveNavItem: React.FC<RecursiveNavItemProps> = ({
           </Disclosure.Button>
           <Disclosure.Panel className="space-y-1">
             {children.map((subItem: ItemType) => (
-              <div key={subItem.name} className="pl-7">
+              <div key={subItem.name} className="ps-7">
                 <RecursiveNavItem item={subItem} pathname={pathname} />
               </div>
             ))}
@@ -106,7 +106,7 @@ export default function Sidebar() {
   const { pathname } = useRouter();
   return (
     <div className="fixed top-0 h-screen w-72 flex flex-col flex-grow py-16 px-6 bg-white overflow-y-scroll">
-      <div className="flex items-center flex-shrink-0 pl-2 mb-12">
+      <div className="flex items-center flex-shrink-0 ps-2 mb-12">
         <LogoLink />
       </div>
       <div className="flex-grow flex flex-col">

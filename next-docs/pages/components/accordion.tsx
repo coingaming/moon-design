@@ -1,16 +1,23 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import Example from '../../public/examples/accordion/Accordion';
+import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
+import Default from '../../public/examples/accordionNew/Default';
+import DisableOpen from '../../public/examples/accordionNew/DisableOpen';
+import HeaderContent from '../../public/examples/accordionNew/HeaderContent';
+import OpenByDefault from '../../public/examples/accordionNew/OpenByDefault';
+import Sizes from '../../public/examples/accordionNew/Sizes';
+import SizesContentOutside from '../../public/examples/accordionNew/SizesContentOutside';
+import WithoutButton from '../../public/examples/accordionNew/WithoutButton';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
-  const examples = useExamples('accordion');
+  const examples = useExamples('accordionNew');
 
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Accordion</h1>
+        <h1 className="text-5xl font-semibold">Accordion New</h1>
         <p className="text-lg mt-4">
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of
@@ -26,11 +33,80 @@ export default function PageAccordion() {
       {/* Default */}
       <section className="mt-8">
         <Preview
-          title="Accordion"
-          preview={<Example />}
-          code={examples.Accordion ? examples.Accordion : 'Loading'}
+          title="Default"
+          isGrayBg
+          preview={<Default />}
+          code={examples.Default ? examples.Default : 'Loading'}
         />
       </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Open by default"
+          isGrayBg
+          preview={<OpenByDefault />}
+          code={examples.OpenByDefault ? examples.OpenByDefault : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Without button"
+          isGrayBg
+          preview={<WithoutButton />}
+          code={examples.WithoutButton ? examples.WithoutButton : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Disable open"
+          isGrayBg
+          preview={<DisableOpen />}
+          code={examples.DisableOpen ? examples.DisableOpen : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Content outside"
+          isGrayBg
+          preview={<ContentOutside />}
+          code={examples.ContentOutside ? examples.ContentOutside : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Header content"
+          isGrayBg
+          preview={<HeaderContent />}
+          code={examples.HeaderContent ? examples.HeaderContent : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          isGrayBg
+          preview={<Sizes />}
+          code={examples.Sizes ? examples.Sizes : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes: content outside"
+          isGrayBg
+          preview={<SizesContentOutside />}
+          code={
+            examples.SizesContentOutside
+              ? examples.SizesContentOutside
+              : 'Loading'
+          }
+        />
+      </section>
+
       <section className="mt-8">
         <h2 className="text-2xl mb-4">Props</h2>
         <Table
@@ -50,7 +126,7 @@ export default function PageAccordion() {
               description: 'Expanded/collapsed accordion by default',
             },
             {
-              name: 'withArrow',
+              name: 'withButton',
               type: 'boolean',
               required: false,
               default: 'true',
@@ -76,6 +152,21 @@ export default function PageAccordion() {
               required: true,
               default: '-',
               description: 'Content to show inside of accordion',
+            },
+            {
+              name: 'size',
+              type: 'xlarge | large | medium | small',
+              required: false,
+              default: 'xlarge',
+              description: 'Size variant of accordion',
+            },
+            {
+              name: 'isContentInside',
+              type: 'boolean',
+              required: false,
+              default: 'true',
+              description:
+                'Whether the content is displayed outside of the accordion header',
             },
           ]}
         />

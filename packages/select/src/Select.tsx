@@ -51,6 +51,8 @@ const Select = <T extends BaseOptionType>({
   isError = false,
   isSearchable = false,
   size = 'large',
+  isMulti,
+  closeMenuOnSelect,
   ...rest
 }: SelectProps<T>) => {
   const menuRef = useRef(null);
@@ -67,6 +69,8 @@ const Select = <T extends BaseOptionType>({
       styles={CustomStyles as StylesConfig<T>}
       isSearchable={isSearchable}
       menuIsOpen={menuIsOpen}
+      closeMenuOnSelect={closeMenuOnSelect || (isMulti ? false : true)}
+      isMulti={isMulti}
       components={{
         Menu,
         ValueContainer,

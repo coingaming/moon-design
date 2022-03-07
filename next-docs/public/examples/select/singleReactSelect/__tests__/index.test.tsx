@@ -5,6 +5,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import Default from '../Default';
 import Disabled from '../Disabled';
 import Error from '../Error';
 import Hint from '../Hint';
@@ -50,5 +51,13 @@ describe('Multi Select', () => {
   it('options content', () => {
     const testRenderer = renderer.create(renderWithTheme(<OptionsContent />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('closeMenuOnSelect is true by default', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Default />));
+    const instance = testRenderer.root.findAllByProps({
+      id: 'test-moon-select',
+    });
+
+    expect(instance[1].props.closeMenuOnSelect).toBe(true);
   });
 });

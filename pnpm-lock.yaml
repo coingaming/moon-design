@@ -95,21 +95,21 @@ importers:
   next-docs:
     specifiers:
       '@headlessui/react': 1.4.2
-      '@heathmont/moon-accordion': workspace:^8.0.0
-      '@heathmont/moon-assets': workspace:^8.0.0
-      '@heathmont/moon-charts': workspace:^8.0.0
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-core': workspace:^8.0.0
-      '@heathmont/moon-datepicker': workspace:^8.0.0
-      '@heathmont/moon-draggabletable': workspace:^8.0.0
-      '@heathmont/moon-icons': workspace:^8.0.0
-      '@heathmont/moon-pagination': workspace:^8.0.0
-      '@heathmont/moon-popover': workspace:^8.0.0
-      '@heathmont/moon-select': workspace:^8.0.0
-      '@heathmont/moon-sidebar': workspace:^8.0.0
-      '@heathmont/moon-table': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-accordion': workspace:^8.1.0
+      '@heathmont/moon-assets': workspace:^8.1.0
+      '@heathmont/moon-charts': workspace:^8.1.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-core': workspace:^8.1.0
+      '@heathmont/moon-datepicker': workspace:^8.1.0
+      '@heathmont/moon-draggabletable': workspace:^8.1.0
+      '@heathmont/moon-icons': workspace:^8.1.0
+      '@heathmont/moon-pagination': workspace:^8.1.0
+      '@heathmont/moon-popover': workspace:^8.1.0
+      '@heathmont/moon-select': workspace:^8.1.0
+      '@heathmont/moon-sidebar': workspace:^8.1.0
+      '@heathmont/moon-table': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@jest/globals': ^27.4.6
       '@svgr/core': ^6.2.1
       '@svgr/plugin-jsx': 4.1.0
@@ -125,7 +125,7 @@ importers:
       jest: 27.4.7
       jest-environment-jsdom: ^27.4.6
       lodash: ^4.17.21
-      next: 12.0.10
+      next: 12.1.0
       next-transpile-modules: 9.0.0
       postcss: 8.4.5
       react: 17.0.2
@@ -168,7 +168,7 @@ importers:
       jest: 27.4.7
       jest-environment-jsdom: 27.4.6
       lodash: 4.17.21
-      next: 12.0.10_1fa2ab88872798083119a424838d7305
+      next: 12.1.0_1fa2ab88872798083119a424838d7305
       next-transpile-modules: 9.0.0
       postcss: 8.4.5
       react: 17.0.2
@@ -189,10 +189,10 @@ importers:
 
   packages/accordion:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-icons': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-icons': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-icons': link:../icons
@@ -201,17 +201,17 @@ importers:
 
   packages/assets:
     specifiers:
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/calendar:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
     dependencies:
@@ -223,10 +223,10 @@ importers:
 
   packages/charts:
     specifiers:
-      '@heathmont/moon-assets': workspace:^8.0.0
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-assets': workspace:^8.1.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/react-simple-maps': 1.0.3
       '@types/react-transition-group': 4.4.0
       react-simple-maps: 2.3.0
@@ -247,9 +247,9 @@ importers:
 
   packages/components:
     specifiers:
-      '@heathmont/moon-assets': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-assets': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@reach/dialog': 0.16.2
       '@types/date-fns': 2.6.0
       '@types/react-click-outside-hook': 1.0.0
@@ -274,10 +274,10 @@ importers:
 
   packages/core:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-icons': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-icons': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@reach/listbox': 0.16.2
       polished: ^4.1.3
     dependencies:
@@ -290,13 +290,13 @@ importers:
 
   packages/datepicker:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-core': workspace:^8.0.0
-      '@heathmont/moon-icons': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-core': workspace:^8.1.0
+      '@heathmont/moon-icons': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/date-fns': 2.6.0
-      date-fns: 2.15.0
+      date-fns: 2.28.0
       polished: 4.1.3
       react-select: ^5.2.1
     dependencies:
@@ -306,16 +306,16 @@ importers:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/date-fns': 2.6.0
-      date-fns: 2.15.0
+      date-fns: 2.28.0
       polished: 4.1.3
       react-select: 5.2.1_d0d7f44b6e3eb24503738ffde454294e
 
   packages/draggabletable:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-table': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-table': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/react-table': 7.7.6
       immutability-helper: ^3.1.1
       polished: 4.0.1
@@ -343,16 +343,16 @@ importers:
 
   packages/global:
     specifiers:
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/icons:
     specifiers:
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/node': ^13.13.52
       '@types/ramda': ^0.26.44
       '@types/rimraf': ^2.0.5
@@ -382,18 +382,18 @@ importers:
 
   packages/notifications:
     specifiers:
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/pagination:
     specifiers:
-      '@heathmont/moon-assets': workspace:^8.0.0
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-assets': workspace:^8.1.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/react-paginate': 6.2.1
       react-paginate: 6.5.0
     dependencies:
@@ -406,10 +406,10 @@ importers:
 
   packages/popover:
     specifiers:
-      '@heathmont/moon-assets': workspace:^8.0.0
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-assets': workspace:^8.1.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@tippyjs/react': 4.2.0
       polished: 3.4.1
     dependencies:
@@ -422,11 +422,11 @@ importers:
 
   packages/select:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-core': workspace:^8.0.0
-      '@heathmont/moon-icons': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-core': workspace:^8.1.0
+      '@heathmont/moon-icons': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       react-select: ^5.2.1
     dependencies:
       '@heathmont/moon-components': link:../components
@@ -438,17 +438,17 @@ importers:
 
   packages/sidebar:
     specifiers:
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
 
   packages/table:
     specifiers:
-      '@heathmont/moon-components': workspace:^8.0.0
-      '@heathmont/moon-themes': workspace:^8.0.0
-      '@heathmont/moon-utils': workspace:^8.0.0
+      '@heathmont/moon-components': workspace:^8.1.0
+      '@heathmont/moon-themes': workspace:^8.1.0
+      '@heathmont/moon-utils': workspace:^8.1.0
       '@types/react-table': 7.7.6
       polished: 4.0.1
       react-table: 7.5.1
@@ -469,7 +469,7 @@ importers:
 
   packages/utils:
     specifiers:
-      '@heathmont/moon-themes': workspace:^8.0.0
+      '@heathmont/moon-themes': workspace:^8.1.0
       '@types/lodash.get': 4.4.6
       '@types/lodash.has': 4.5.6
       lodash.get: 4.4.2
@@ -2517,12 +2517,12 @@ packages:
       read-yaml-file: 1.1.0
     dev: true
 
-  /@next/env/12.0.10:
-    resolution: {integrity: sha512-mQVj0K6wQ5WEk/sL9SZ+mJXJUaG7el8CpZ6io1uFe9GgNTSC7EgUyNGqM6IQovIFc5ukF4O/hqsdh3S/DCgT2g==}
+  /@next/env/12.1.0:
+    resolution: {integrity: sha512-nrIgY6t17FQ9xxwH3jj0a6EOiQ/WDHUos35Hghtr+SWN/ntHIQ7UpuvSi0vaLzZVHQWaDupKI+liO5vANcDeTQ==}
     dev: false
 
-  /@next/swc-android-arm64/12.0.10:
-    resolution: {integrity: sha512-xYwXGkNhzZZsM5MD7KRwF5ZNiC8OLPtVMUiagpPnwENg8Hb0GSQo/NbYWXM8YrawEwp9LaZ7OXiuRKPh2JyBdA==}
+  /@next/swc-android-arm64/12.1.0:
+    resolution: {integrity: sha512-/280MLdZe0W03stA69iL+v6I+J1ascrQ6FrXBlXGCsGzrfMaGr7fskMa0T5AhQIVQD4nA/46QQWxG//DYuFBcA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
@@ -2530,8 +2530,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-darwin-arm64/12.0.10:
-    resolution: {integrity: sha512-f2zngulkpIJKWHckhRi7X8GZ+J/tNgFF7lYIh7Qx15JH0OTBsjkqxORlkzy+VZyHJ5sWTCaI6HYYd3ow6qkEEg==}
+  /@next/swc-darwin-arm64/12.1.0:
+    resolution: {integrity: sha512-R8vcXE2/iONJ1Unf5Ptqjk6LRW3bggH+8drNkkzH4FLEQkHtELhvcmJwkXcuipyQCsIakldAXhRbZmm3YN1vXg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -2539,8 +2539,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-darwin-x64/12.0.10:
-    resolution: {integrity: sha512-Qykcu/gVC5oTvOQoRBhyuS5GYm5SbcgrFTsaLFkGBmEkg9eMQRiaCswk4IafpDXVzITkVFurzSM28q3tLW2qUw==}
+  /@next/swc-darwin-x64/12.1.0:
+    resolution: {integrity: sha512-ieAz0/J0PhmbZBB8+EA/JGdhRHBogF8BWaeqR7hwveb6SYEIJaDNQy0I+ZN8gF8hLj63bEDxJAs/cEhdnTq+ug==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -2548,8 +2548,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm-gnueabihf/12.0.10:
-    resolution: {integrity: sha512-EhqrTFsIXAXN9B/fiiW/QKUK/lSLCXRsLalkUp58KDfMqVLLlj1ORbESAcswiNQOChLuHQSldGEEtOBPQZcd9A==}
+  /@next/swc-linux-arm-gnueabihf/12.1.0:
+    resolution: {integrity: sha512-njUd9hpl6o6A5d08dC0cKAgXKCzm5fFtgGe6i0eko8IAdtAPbtHxtpre3VeSxdZvuGFh+hb0REySQP9T1ttkog==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
@@ -2557,8 +2557,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-gnu/12.0.10:
-    resolution: {integrity: sha512-kqGtC72g3+JYXZbY2ca6digXR5U6AQ6Dzv4eAxYluMePLHjI/Xye1mf9dwVsgmeXfrD/IRDp5K/3A6UNvBm4oQ==}
+  /@next/swc-linux-arm64-gnu/12.1.0:
+    resolution: {integrity: sha512-OqangJLkRxVxMhDtcb7Qn1xjzFA3s50EIxY7mljbSCLybU+sByPaWAHY4px97ieOlr2y4S0xdPKkQ3BCAwyo6Q==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -2566,8 +2566,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-musl/12.0.10:
-    resolution: {integrity: sha512-bG9zTSNwnSgc1Un/7oz1ZVN4UeXsTWrsQhAGWU78lLLCn4Zj9HQoUCRCGLt0OVs2DBZ+WC8CzzFliQ1SKipVbg==}
+  /@next/swc-linux-arm64-musl/12.1.0:
+    resolution: {integrity: sha512-hB8cLSt4GdmOpcwRe2UzI5UWn6HHO/vLkr5OTuNvCJ5xGDwpPXelVkYW/0+C3g5axbDW2Tym4S+MQCkkH9QfWA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -2575,8 +2575,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-gnu/12.0.10:
-    resolution: {integrity: sha512-c79PcfWtyThiYRa1+3KVfDq0zXaI8o1d6dQWNVqDrtLz5HKM/rbjLdvoNuxDwUeZhxI/d9CtyH6GbuKPw5l/5A==}
+  /@next/swc-linux-x64-gnu/12.1.0:
+    resolution: {integrity: sha512-OKO4R/digvrVuweSw/uBM4nSdyzsBV5EwkUeeG4KVpkIZEe64ZwRpnFB65bC6hGwxIBnTv5NMSnJ+0K/WmG78A==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -2584,8 +2584,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-musl/12.0.10:
-    resolution: {integrity: sha512-g/scgn+21/MLfizOCZOZt+MxNj2/8Tdlwjvy+QZcSUPZRUI2Y5o3HwBvI1f/bSci+NGRU+bUAO0NFtRJ9MzH5w==}
+  /@next/swc-linux-x64-musl/12.1.0:
+    resolution: {integrity: sha512-JohhgAHZvOD3rQY7tlp7NlmvtvYHBYgY0x5ZCecUT6eCCcl9lv6iV3nfu82ErkxNk1H893fqH0FUpznZ/H3pSw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -2593,8 +2593,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-arm64-msvc/12.0.10:
-    resolution: {integrity: sha512-gl6B/ravwMeY5Nv4Il2/ARYJQ6u+KPRwGMjS1ZrNudIKlNn4YBeXh5A4cIVm+dHaff6/O/lGOa5/SUYDMZpkww==}
+  /@next/swc-win32-arm64-msvc/12.1.0:
+    resolution: {integrity: sha512-T/3gIE6QEfKIJ4dmJk75v9hhNiYZhQYAoYm4iVo1TgcsuaKLFa+zMPh4056AHiG6n9tn2UQ1CFE8EoybEsqsSw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -2602,8 +2602,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-ia32-msvc/12.0.10:
-    resolution: {integrity: sha512-7RVpZ3tSThC6j+iZB0CUYmFiA3kXmN+pE7QcfyAxFaflKlaZoWNMKHIEZDuxSJc6YmQ6kyxsjqxVay2F5+/YCg==}
+  /@next/swc-win32-ia32-msvc/12.1.0:
+    resolution: {integrity: sha512-iwnKgHJdqhIW19H9PRPM9j55V6RdcOo6rX+5imx832BCWzkDbyomWnlzBfr6ByUYfhohb8QuH4hSGEikpPqI0Q==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -2611,8 +2611,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-x64-msvc/12.0.10:
-    resolution: {integrity: sha512-oUIWRKd24jFLRWUYO1CZmML5+32BcpVfqhimGaaZIXcOkfQW+iqiAzdqsv688zaGtyKGeB9ZtiK3NDf+Q0v+Vw==}
+  /@next/swc-win32-x64-msvc/12.1.0:
+    resolution: {integrity: sha512-aBvcbMwuanDH4EMrL2TthNJy+4nP59Bimn8egqv6GHMVj0a44cU6Au4PjOhLNqEh9l+IpRGBqMTzec94UdC5xg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -5182,6 +5182,11 @@ packages:
 
   /date-fns/2.15.0:
     resolution: {integrity: sha512-ZCPzAMJZn3rNUvvQIMlXhDr4A+Ar07eLeGsGREoWU19a3Pqf5oYa+ccd+B3F6XVtQY6HANMFdOQ8A+ipFnvJdQ==}
+    engines: {node: '>=0.11'}
+    dev: false
+
+  /date-fns/2.28.0:
+    resolution: {integrity: sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==}
     engines: {node: '>=0.11'}
     dev: false
 
@@ -8959,13 +8964,13 @@ packages:
       escalade: 3.1.1
     dev: false
 
-  /next/12.0.10_1fa2ab88872798083119a424838d7305:
-    resolution: {integrity: sha512-1y3PpGzpb/EZzz1jgne+JfZXKAVJUjYXwxzrADf/LWN+8yi9o79vMLXpW3mevvCHkEF2sBnIdjzNn16TJrINUw==}
+  /next/12.1.0_1fa2ab88872798083119a424838d7305:
+    resolution: {integrity: sha512-s885kWvnIlxsUFHq9UGyIyLiuD0G3BUC/xrH0CEnH5lHEWkwQcHOORgbDF0hbrW9vr/7am4ETfX4A7M6DjrE7Q==}
     engines: {node: '>=12.22.0'}
     hasBin: true
     peerDependencies:
       fibers: '>= 3.1.0'
-      node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
+      node-sass: ^6.0.0 || ^7.0.0
       react: ^17.0.2 || ^18.0.0-0
       react-dom: ^17.0.2 || ^18.0.0-0
       sass: ^1.3.0
@@ -8977,7 +8982,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 12.0.10
+      '@next/env': 12.1.0
       caniuse-lite: 1.0.30001291
       postcss: 8.4.5
       react: 17.0.2
@@ -8985,17 +8990,17 @@ packages:
       styled-jsx: 5.0.0_@babel+core@7.6.4+react@17.0.2
       use-subscription: 1.5.1_react@17.0.2
     optionalDependencies:
-      '@next/swc-android-arm64': 12.0.10
-      '@next/swc-darwin-arm64': 12.0.10
-      '@next/swc-darwin-x64': 12.0.10
-      '@next/swc-linux-arm-gnueabihf': 12.0.10
-      '@next/swc-linux-arm64-gnu': 12.0.10
-      '@next/swc-linux-arm64-musl': 12.0.10
-      '@next/swc-linux-x64-gnu': 12.0.10
-      '@next/swc-linux-x64-musl': 12.0.10
-      '@next/swc-win32-arm64-msvc': 12.0.10
-      '@next/swc-win32-ia32-msvc': 12.0.10
-      '@next/swc-win32-x64-msvc': 12.0.10
+      '@next/swc-android-arm64': 12.1.0
+      '@next/swc-darwin-arm64': 12.1.0
+      '@next/swc-darwin-x64': 12.1.0
+      '@next/swc-linux-arm-gnueabihf': 12.1.0
+      '@next/swc-linux-arm64-gnu': 12.1.0
+      '@next/swc-linux-arm64-musl': 12.1.0
+      '@next/swc-linux-x64-gnu': 12.1.0
+      '@next/swc-linux-x64-musl': 12.1.0
+      '@next/swc-win32-arm64-msvc': 12.1.0
+      '@next/swc-win32-ia32-msvc': 12.1.0
+      '@next/swc-win32-x64-msvc': 12.1.0
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros

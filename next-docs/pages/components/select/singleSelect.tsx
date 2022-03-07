@@ -35,7 +35,7 @@ export default function PageSelect() {
       {/* WithLabel */}
       <section className="mt-8">
         <Preview
-          title="Size"
+          title="With Label"
           preview={<WithLabel />}
           code={examples ? examples.WithLabel : 'Loading'}
         />
@@ -199,6 +199,13 @@ export default function PageSelect() {
               required: false,
               default: '_',
               description: 'Whether to enable search functionality',
+            },
+            {
+              name: 'closeMenuOnSelect',
+              type: 'boolean',
+              required: false,
+              default: 'true',
+              description: 'Close the select menu when the user selects an option',
             },
           ]}
         />

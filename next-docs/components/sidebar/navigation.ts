@@ -16,7 +16,6 @@ const navigation = [
       { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
       { name: 'Button', href: '/components/button' },
-      { name: 'Button New', href: '/components/buttonNew' },
       { name: 'Carousel', href: '/components/carousel' },
       {
         name: 'Charts',
@@ -74,6 +73,7 @@ const navigation = [
       //     },
       //   ],
       // },
+      { name: 'Reel', href: '/components/reel' },
       { name: 'Search', href: '/components/search' },
       {
         name: 'Select',
@@ -116,6 +116,7 @@ const navigation = [
           { name: 'Url', href: '/components/textInput/url' },
         ],
       },
+      { name: 'TextInput Group', href: '/components/textInputGroup' },
       { name: 'Tooltip', href: '/components/tooltip' },
     ],
   },
