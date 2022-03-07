@@ -169,6 +169,65 @@ exports[`Banner renders with buttons 1`] = `
 </div>
 `;
 
+exports[`Banner renders with buttons RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="Container-sc-103kmdg-0 gWwnIM"
+  >
+    <div
+      className="Body-sc-1aycagq-0 bFgMbm"
+    >
+      <div
+        className="Header__Container-rvo247-0 iguyoK"
+      >
+        <div
+          className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+        >
+          Title here
+        </div>
+      </div>
+      <div
+        className="BodyContent-sc-12uf0g0-0 exdeGm"
+      >
+        Lorem ipsum dolor...
+      </div>
+    </div>
+    <div
+      className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+    >
+      <span>
+        <button
+          className="ButtonComponent-sc-1qwityd-0 dlczW"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="medium"
+        >
+          Discard
+          <div
+            className="Hover-yzznpt-0 ctGatB"
+          />
+        </button>
+      </span>
+      <span>
+        <button
+          className="ButtonComponent-sc-1qwityd-0 lmotjR"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="medium"
+        >
+          Confirm
+          <div
+            className="Hover-yzznpt-0 ctGatB"
+          />
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Banner renders with header icon 1`] = `
 <div
   className="Container-sc-103kmdg-0 eqeGPO"

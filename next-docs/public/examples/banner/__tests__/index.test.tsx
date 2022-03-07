@@ -32,6 +32,11 @@ describe('Banner', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
+  it('renders with buttons RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Buttons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
   it('renders with header icon', () => {
     const testRenderer = renderer.create(renderWithTheme(<HeaderIcon />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
