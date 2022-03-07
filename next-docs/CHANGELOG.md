@@ -1,5 +1,30 @@
 # Change Log
 
+## 8.1.0
+
+### Minor Changes
+
+- TextInput Groups
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@8.1.0
+  - @heathmont/moon-core@8.1.0
+  - @heathmont/moon-datepicker@8.1.0
+  - @heathmont/moon-select@8.1.0
+  - @heathmont/moon-themes@8.1.0
+  - @heathmont/moon-accordion@8.1.0
+  - @heathmont/moon-charts@8.1.0
+  - @heathmont/moon-components@8.1.0
+  - @heathmont/moon-draggabletable@8.1.0
+  - @heathmont/moon-icons@8.1.0
+  - @heathmont/moon-pagination@8.1.0
+  - @heathmont/moon-popover@8.1.0
+  - @heathmont/moon-sidebar@8.1.0
+  - @heathmont/moon-table@8.1.0
+  - @heathmont/moon-utils@8.1.0
+
 ## 8.0.0
 
 ### Major Changes
