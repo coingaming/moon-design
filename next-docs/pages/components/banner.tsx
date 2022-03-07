@@ -71,11 +71,40 @@ export default function PageBanner() {
         <Table
           data={[
             {
-              name: 'size',
-              type: 'xsmall | small | medium | large',
+              name: 'description',
+              type: 'string',
+              required: true,
+              default: '-',
+              description: 'Main text content of the banner',
+            },
+            {
+              name: 'title',
+              type: 'string',
               required: false,
-              default: 'medium',
-              description: 'Size for avatar',
+              default: '-',
+              description: 'Text to appear on the header for multiline mode',
+            },
+            {
+              name: 'iconHeader',
+              type: 'React.ReactElement',
+              required: false,
+              default: '-',
+              description:
+                'Icon to appear at  the top end of the header for multiline',
+            },
+            {
+              name: 'isMultiline',
+              type: 'boolean',
+              required: false,
+              default: 'true',
+              description: 'Controls whether the banner is in multiline mode',
+            },
+            {
+              name: 'isMobile',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Controls whether the banner is in mobile mode',
             },
           ]}
         />

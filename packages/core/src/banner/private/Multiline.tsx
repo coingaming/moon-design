@@ -8,15 +8,15 @@ import HeaderContent from '../styles/HeaderContent';
 import HeaderIcon from '../styles/HeaderIcon';
 
 export interface Props {
-  title: string;
   description: string;
+  title?: string;
   iconHeader?: React.ReactElement;
   buttons?: React.ReactElement[];
 }
 
 const Multiline: React.FC<Props> = ({
-  title,
   description,
+  title,
   iconHeader,
   buttons,
 }) => {

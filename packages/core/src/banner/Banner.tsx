@@ -3,8 +3,8 @@ import Multiline from './private/Multiline';
 import MultilineMobile from './private/MultilineMobile';
 import Singleline from './private/SingleLine';
 export interface BannerProps {
-  title: string;
   description: string;
+  title?: string;
   iconHeader?: React.ReactElement;
   isMultiline?: boolean;
   buttons?: React.ReactElement[];
@@ -13,8 +13,8 @@ export interface BannerProps {
 }
 
 const Banner: React.FC<BannerProps> = ({
-  title,
   description,
+  title,
   iconHeader,
   buttons,
   isMultiline = true,
