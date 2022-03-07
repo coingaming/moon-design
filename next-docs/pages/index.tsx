@@ -6,6 +6,8 @@ import Future from '../components/facing/Future';
 import MoonAndEarthAnimation from '../components/facing/MoonAndEarth';
 import News from '../components/facing/News';
 
+import githubSearch from '../public/metrics/githubSearch';
+
 const OpenSourceBadge = () => (
   <span className="block w-min whitespace-nowrap mb-8 text-active bg-active-80 uppercase tracking-widest py-2 px-4 rounded-lg font-bold">
     Open Source
@@ -48,6 +50,7 @@ const SubHeader: React.FC<SubHeaderProps> = ({
 );
 
 export default function Home() {
+  githubSearch();
   return (
     <>
       <OpenSourceBadge />
