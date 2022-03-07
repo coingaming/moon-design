@@ -12,6 +12,7 @@ export interface Props {
   title?: string;
   iconHeader?: React.ReactElement;
   buttons?: React.ReactElement[];
+  isMobile?: boolean;
 }
 
 const Multiline: React.FC<Props> = ({
@@ -19,10 +20,11 @@ const Multiline: React.FC<Props> = ({
   title,
   iconHeader,
   buttons,
+  isMobile,
 }) => {
   return (
-    <Container hasButtons={buttons && buttons.length > 0}>
-      <Body>
+    <Container hasButtons={buttons && buttons.length > 0} isMobile={isMobile}>
+      <Body isMultiline={true}>
         <Header>
           <HeaderContent>{title}</HeaderContent>
           {iconHeader && <HeaderIcon>{iconHeader}</HeaderIcon>}

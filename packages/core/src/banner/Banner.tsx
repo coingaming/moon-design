@@ -1,6 +1,5 @@
 import React from 'react';
 import Multiline from './private/Multiline';
-import MultilineMobile from './private/MultilineMobile';
 import Singleline from './private/Singleline';
 export interface BannerProps {
   description: string;
@@ -24,22 +23,13 @@ const Banner: React.FC<BannerProps> = ({
   if (!isMultiline) {
     return <Singleline description={description} link={link ?? <></>} />;
   }
-  if (isMobile) {
-    return (
-      <MultilineMobile
-        title={title}
-        description={description}
-        iconHeader={iconHeader}
-        buttons={buttons}
-      />
-    );
-  }
   return (
     <Multiline
       title={title}
       description={description}
       iconHeader={iconHeader}
       buttons={buttons}
+      isMobile={isMobile}
     />
   );
 };

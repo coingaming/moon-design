@@ -5,7 +5,7 @@ exports[`Banner renders 1`] = `
   className="Container-sc-103kmdg-0 eqeGPO"
 >
   <div
-    className="Body-sc-1aycagq-0 bFgMbm"
+    className="Body-sc-1aycagq-0 cNKOnB"
   >
     <div
       className="Header__Container-rvo247-0 iguyoK"
@@ -33,7 +33,7 @@ exports[`Banner renders in mobile mode 1`] = `
   className="Container-sc-103kmdg-0 eqeGPO"
 >
   <div
-    className="Body-sc-1aycagq-0 bFgMbm"
+    className="Body-sc-1aycagq-0 cNKOnB"
   >
     <div
       className="Header__Container-rvo247-0 iguyoK"
@@ -88,7 +88,7 @@ exports[`Banner renders in single line mode 1`] = `
   className="Container-sc-103kmdg-0 eqeGPO"
 >
   <div
-    className="Body-sc-1aycagq-0 bFgMbm"
+    className="Body-sc-1aycagq-0 bIFCew"
   >
     <div
       className="BodyContent-sc-12uf0g0-0 imznOc"
@@ -119,7 +119,7 @@ exports[`Banner renders with buttons 1`] = `
   className="Container-sc-103kmdg-0 gWwnIM"
 >
   <div
-    className="Body-sc-1aycagq-0 bFgMbm"
+    className="Body-sc-1aycagq-0 cNKOnB"
   >
     <div
       className="Header__Container-rvo247-0 iguyoK"
@@ -177,7 +177,7 @@ exports[`Banner renders with buttons RTL 1`] = `
     className="Container-sc-103kmdg-0 gWwnIM"
   >
     <div
-      className="Body-sc-1aycagq-0 bFgMbm"
+      className="Body-sc-1aycagq-0 cNKOnB"
     >
       <div
         className="Header__Container-rvo247-0 iguyoK"
@@ -233,7 +233,7 @@ exports[`Banner renders with header icon 1`] = `
   className="Container-sc-103kmdg-0 eqeGPO"
 >
   <div
-    className="Body-sc-1aycagq-0 bFgMbm"
+    className="Body-sc-1aycagq-0 cNKOnB"
   >
     <div
       className="Header__Container-rvo247-0 iguyoK"

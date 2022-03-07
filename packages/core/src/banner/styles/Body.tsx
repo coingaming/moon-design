@@ -4,13 +4,14 @@ type Props = {
   isMultiline?: boolean;
 };
 
-const Body = styled.div<Props>(({ isMultiline }) => [
+const Body = styled.div<Props>(({ isMultiline, theme: { newTokens } }) => [
   isMultiline && {
     display: 'grid',
     gridTemplateRows: '1fr 1fr',
   },
   !isMultiline && {
     display: 'flex',
+    gap: newTokens.space.twoxsmall,
   },
   {
     alignItems: 'center',
