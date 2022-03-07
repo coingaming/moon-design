@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import Container from '../styles/Container';
 import Inner from '../styles/Inner';
@@ -19,49 +19,66 @@ interface TextInputMediumProps
   isError?: boolean;
   dir?: 'ltr' | 'rtl' | 'auto';
   showPasswordText?: JSX.Element | string;
-  ref: React.Ref<HTMLInputElement>;
   backgroundColor?: ColorProps;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 }
-
-const TextInputInnerLabel: React.FC<TextInputMediumProps> = (props) => {
-  const {
-    id,
-    inputSize,
-    type,
-    disabled,
-    placeholder = ' ',
-    label,
-    hintText,
-    isError,
-    ref,
-    dir,
-    backgroundColor = 'gohan',
-    ...rest
-  } = props;
-  const inputProps = {
-    disabled,
-    type,
-    placeholder,
-    dir,
-    ...rest,
-  };
-  return (
-    <Container disabled={disabled}>
-      <Inner bgColor={backgroundColor}>
-        <Input
-          inputSize={inputSize}
-          error={isError}
-          ref={ref}
-          id={id}
-          isLabel={!!label}
-          isRtl={dir === 'rtl'}
-          {...inputProps}
-        />
-        <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
-      </Inner>
-      {hintText && <HintText isError={isError}>{hintText}</HintText>}
-    </Container>
-  );
-};
+const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
+  (props, ref) => {
+    const {
+      id,
+      inputSize,
+      type,
+      disabled,
+      placeholder = ' ',
+      label,
+      hintText,
+      isError,
+      dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
+      backgroundColor = 'gohan',
+      ...rest
+    } = props;
+    const inputProps = {
+      disabled,
+      type,
+      placeholder,
+      dir,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
+      ...rest,
+    };
+    return (
+      <Container disabled={disabled}>
+        <Inner bgColor={backgroundColor}>
+          <Input
+            inputSize={inputSize}
+            error={isError}
+            ref={ref}
+            id={id}
+            isLabel={!!label}
+            isRtl={dir === 'rtl'}
+            {...inputProps}
+          />
+          <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
+        </Inner>
+        {hintText && <HintText isError={isError}>{hintText}</HintText>}
+      </Container>
+    );
+  }
+);
 
 export default TextInputInnerLabel;
