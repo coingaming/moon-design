@@ -31,7 +31,8 @@ const Multiline: React.FC<Props> = ({
       </Body>
       {!iconHeader && (
         <BodyButtonContainer>
-          {buttons && buttons.map((b, index) => b)}
+          {buttons &&
+            buttons.map((button, index) => <span key={index}>{button}</span>)}
         </BodyButtonContainer>
       )}
     </Container>

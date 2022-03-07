@@ -5,6 +5,7 @@ import Buttons from '../../public/examples/banner/Buttons';
 import Default from '../../public/examples/banner/Default';
 import HeaderIcon from '../../public/examples/banner/HeaderIcon';
 import Mobile from '../../public/examples/banner/Mobile';
+import Singleline from '../../public/examples/banner/Singleline';
 import useExamples from '../../utils/useExamples';
 
 export default function PageBanner() {
@@ -54,6 +55,14 @@ export default function PageBanner() {
           title="Mobile"
           preview={<Mobile />}
           code={examples ? examples.Mobile : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Singleline"
+          preview={<Singleline />}
+          code={examples ? examples.Singleline : 'Loading'}
         />
       </section>
 
