@@ -17,7 +17,7 @@ exports[`TextInput: type Url renders disabled 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dNylIv"
+        className="Input-qkdgvx-0 erWlfF"
         disabled={true}
         placeholder=" "
         type="url"
@@ -44,7 +44,7 @@ exports[`TextInput: type Url renders disabled 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hzeVtM"
+        className="Input-qkdgvx-0 jAgYam"
         disabled={true}
         placeholder=" "
         type="url"
@@ -69,7 +69,7 @@ exports[`TextInput: type Url renders disabled 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jjNFvC"
+          className="Input-qkdgvx-0 jlpyds"
           disabled={true}
           placeholder=" "
           type="url"
@@ -108,7 +108,7 @@ exports[`TextInput: type Url renders error 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 iCmZWh"
+        className="Input-qkdgvx-0 gwIzKP"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -132,7 +132,7 @@ exports[`TextInput: type Url renders error 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 dhJEZS"
+        className="Input-qkdgvx-0 fWpDgU"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -154,7 +154,7 @@ exports[`TextInput: type Url renders error 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 gUQLUI"
+          className="Input-qkdgvx-0 KkBZO"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
@@ -191,7 +191,7 @@ exports[`TextInput: type Url renders readOnly 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dNylIv"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder=" "
         readOnly={true}
         type="url"
@@ -217,7 +217,7 @@ exports[`TextInput: type Url renders readOnly 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hzeVtM"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder=" "
         readOnly={true}
         type="url"
@@ -241,7 +241,7 @@ exports[`TextInput: type Url renders readOnly 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jjNFvC"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder=" "
           readOnly={true}
           type="url"
@@ -280,7 +280,7 @@ exports[`TextInput: type Url renders with hint 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dNylIv"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Url renders with hint 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hzeVtM"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -326,7 +326,7 @@ exports[`TextInput: type Url renders with hint 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jjNFvC"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
@@ -363,7 +363,7 @@ exports[`TextInput: type Url renders with label 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dNylIv"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -381,7 +381,7 @@ exports[`TextInput: type Url renders with label 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hzeVtM"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -397,7 +397,7 @@ exports[`TextInput: type Url renders with label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jjNFvC"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />
@@ -429,7 +429,7 @@ exports[`TextInput: type Url renders with label RTL 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 dNylIv"
+        className="Input-qkdgvx-0 erWlfF"
         dir="rtl"
         placeholder="e.g. https://sportsbet.io"
         type="url"
@@ -449,7 +449,7 @@ exports[`TextInput: type Url renders with label RTL 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 hzeVtM"
+        className="Input-qkdgvx-0 jAgYam"
         dir="rtl"
         placeholder="e.g. https://sportsbet.io"
         type="url"
@@ -466,7 +466,7 @@ exports[`TextInput: type Url renders with label RTL 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jjNFvC"
+          className="Input-qkdgvx-0 jlpyds"
           dir="rtl"
           placeholder="e.g. https://sportsbet.io"
           type="url"
@@ -493,7 +493,7 @@ exports[`TextInput: type Url renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 dNylIv"
+        className="Input-qkdgvx-0 erWlfF"
         placeholder="medium"
         type="url"
       />
@@ -506,7 +506,7 @@ exports[`TextInput: type Url renders without label 1`] = `
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 hzeVtM"
+        className="Input-qkdgvx-0 jAgYam"
         placeholder="large"
         type="url"
       />
@@ -522,7 +522,7 @@ exports[`TextInput: type Url renders without label 1`] = `
         className="Inner-sc-1soq84i-0 XqqD"
       >
         <input
-          className="Input-qkdgvx-0 jasrmP"
+          className="Input-qkdgvx-0 iChyKN"
           placeholder="xlarge"
           type="url"
         />
@@ -551,7 +551,7 @@ exports[`TextInput: type Url supports background colour 1`] = `
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 lalKEM"
+        className="Input-qkdgvx-0 ZCRe"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -575,7 +575,7 @@ exports[`TextInput: type Url supports background colour 1`] = `
         large
       </label>
       <input
-        className="Input-qkdgvx-0 cORvlv"
+        className="Input-qkdgvx-0 iFWOYx"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
@@ -597,7 +597,7 @@ exports[`TextInput: type Url supports background colour 1`] = `
         className="Inner-sc-1soq84i-0 kEpyYM"
       >
         <input
-          className="Input-qkdgvx-0 jjNFvC"
+          className="Input-qkdgvx-0 jlpyds"
           placeholder="e.g. https://sportsbet.io"
           type="url"
         />

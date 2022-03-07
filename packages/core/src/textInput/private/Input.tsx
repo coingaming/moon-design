@@ -1,4 +1,5 @@
-import { ColorProps } from '@heathmont/moon-themes';
+import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
+
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
@@ -15,6 +16,59 @@ type InputProps = {
   isLabel?: boolean;
   isPassword?: boolean;
   isRtl?: boolean;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
+};
+
+const makeBorderRadius = (
+  borderRadius: SharedTheme['newTokens']['borderRadius'],
+  isSharpLeftSide?: boolean,
+  isSharpRightSide?: boolean,
+  isSharpTopSide?: boolean,
+  isSharpBottomSide?: boolean
+) => {
+  return {
+    borderTopLeftRadius:
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
+    borderTopRightRadius:
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
+    borderBottomLeftRadius:
+      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
+    borderBottomRightRadius:
+      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
+  };
+};
+
+const makeBorder = (
+  border: SharedTheme['newTokens']['border'],
+  isRtl?: boolean,
+  isNoBorderEnd?: boolean,
+  isNoBorderBottom?: boolean
+) => {
+  if (isNoBorderEnd && isRtl) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} -${border.width.default} -${border.width.default} ${border.width.default})`,
+      },
+    };
+  } else if (isNoBorderEnd) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} ${border.width.default} -${border.width.default} -${border.width.default})`,
+      },
+    };
+  } else if (isNoBorderBottom) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} -${border.width.default} ${border.width.default} -${border.width.default})`,
+      },
+    };
+  }
+  return {};
 };
 
 const Input = styled.input.attrs(({ type }) => ({
@@ -35,6 +89,12 @@ const Input = styled.input.attrs(({ type }) => ({
     isLabel,
     isPassword,
     isRtl,
+    isSharpLeftSide,
+    isSharpRightSide,
+    isSharpTopSide,
+    isSharpBottomSide,
+    isNoBorderBottom,
+    isNoBorderEnd,
   }) => [
     {
       display: 'block',
@@ -55,7 +115,14 @@ const Input = styled.input.attrs(({ type }) => ({
       zIndex: 2,
       border: 'none',
       boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
-      borderRadius: borderRadius.large,
+      ...makeBorderRadius(
+        borderRadius,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide
+      ),
+      ...makeBorder(border, isRtl, isNoBorderEnd, isNoBorderBottom),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
@@ -78,10 +145,10 @@ const Input = styled.input.attrs(({ type }) => ({
       },
       '&:focus:not([readonly])': {
         outline: 'none',
+        borderRadius: borderRadius.large,
         boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
-        borderRadius: borderRadius.large,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {

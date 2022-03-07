@@ -117,6 +117,7 @@ const navigation = [
           { name: 'Url', href: '/components/textInput/url' },
         ],
       },
+      { name: 'TextInput Group', href: '/components/textInputGroup' },
       { name: 'Tooltip', href: '/components/tooltip' },
     ],
   },
