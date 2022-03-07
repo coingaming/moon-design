@@ -1,7 +1,10 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
+import Buttons from '../../public/examples/banner/Buttons';
 import Default from '../../public/examples/banner/Default';
+import HeaderIcon from '../../public/examples/banner/HeaderIcon';
+import Mobile from '../../public/examples/banner/Mobile';
 import useExamples from '../../utils/useExamples';
 
 export default function PageBanner() {
@@ -22,12 +25,35 @@ export default function PageBanner() {
         </p>
       </section>
 
-      {/* Image avatars */}
       <section className="mt-8">
         <Preview
           title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Buttons"
+          preview={<Buttons />}
+          code={examples ? examples.Buttons : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Header Icon"
+          preview={<HeaderIcon />}
+          code={examples ? examples.HeaderIcon : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Mobile"
+          preview={<Mobile />}
+          code={examples ? examples.Mobile : 'Loading'}
         />
       </section>
 
