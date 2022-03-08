@@ -38,10 +38,8 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
       borderColor: theme.colorNew.piccolo,
     },
     fontSize: rem(14),
+    lineHeight: rem(20),
   },
-  ({ size }) => ({
-    lineHeight: size === 'small' ? `${rem(16)}` : rem(20),
-  }),
   ({ isActive, theme }) => ({
     background: isActive
       ? rgba(theme.colorNew.piccolo, 0.2)
