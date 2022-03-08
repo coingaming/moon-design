@@ -50,9 +50,9 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
 
 const IconLeftWrapper = styled.span<
   ChipProps & { isOnlyIcons?: boolean; isOnlyLeftIcon?: boolean }
->(({ isOnlyIcons, isOnlyLeftIcon }) => [
+>(({ isOnlyIcons, isOnlyLeftIcon, theme: { newTokens } }) => [
   {
-    marginInlineEnd: rem(4),
+    marginInlineEnd: newTokens.space.threexsmall,
   },
   isOnlyIcons && {
     marginInlineEnd: rem(2),
@@ -64,9 +64,9 @@ const IconLeftWrapper = styled.span<
 
 const IconRightWrapper = styled.span<
   ChipProps & { isOnlyIcons?: boolean; isOnlyRightIcon?: boolean }
->(({ isOnlyIcons, isOnlyRightIcon }) => [
+>(({ isOnlyIcons, isOnlyRightIcon, theme: { newTokens } }) => [
   {
-    marginInlineStart: rem(4),
+    marginInlineStart: newTokens.space.threexsmall,
   },
   isOnlyIcons && {
     marginInlineStart: rem(2),
