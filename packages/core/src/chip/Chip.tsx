@@ -30,9 +30,12 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
     borderRadius: theme.newTokens.borderRadius.medium,
     padding: determinePadding(theme.newTokens, size),
     transition: theme.newTokens.transition.default,
+    border: theme.newTokens.border.interactive,
+    borderColor: theme.colorNew.goten,
     '&:hover': {
       background: rgba(theme.colorNew.piccolo, 0.2),
       color: theme.colorNew.piccolo,
+      borderColor: theme.colorNew.piccolo,
     },
     fontSize: rem(14),
   },
