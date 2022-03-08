@@ -30,6 +30,7 @@ export default function PageBanner() {
         <Preview
           title="Default"
           preview={<Default />}
+          isGrayBg
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
@@ -38,6 +39,7 @@ export default function PageBanner() {
         <Preview
           title="Buttons"
           preview={<Buttons />}
+          isGrayBg
           code={examples ? examples.Buttons : 'Loading'}
         />
       </section>
@@ -46,6 +48,7 @@ export default function PageBanner() {
         <Preview
           title="Header Icon"
           preview={<HeaderIcon />}
+          isGrayBg
           code={examples ? examples.HeaderIcon : 'Loading'}
         />
       </section>
@@ -54,6 +57,7 @@ export default function PageBanner() {
         <Preview
           title="Mobile"
           preview={<Mobile />}
+          isGrayBg
           code={examples ? examples.Mobile : 'Loading'}
         />
       </section>
@@ -62,6 +66,7 @@ export default function PageBanner() {
         <Preview
           title="Singleline"
           preview={<Singleline />}
+          isGrayBg
           code={examples ? examples.Singleline : 'Loading'}
         />
       </section>

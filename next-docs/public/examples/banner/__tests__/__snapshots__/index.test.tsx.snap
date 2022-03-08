@@ -2,7 +2,7 @@
 
 exports[`Banner renders 1`] = `
 <div
-  className="Container-sc-103kmdg-0 eqeGPO"
+  className="Container-sc-103kmdg-0 fjbOJT"
 >
   <div
     className="Body-sc-1aycagq-0 cNKOnB"
@@ -30,7 +30,7 @@ exports[`Banner renders 1`] = `
 
 exports[`Banner renders in mobile mode 1`] = `
 <div
-  className="Container-sc-103kmdg-0 eqeGPO"
+  className="Container-sc-103kmdg-0 llOYec"
 >
   <div
     className="Body-sc-1aycagq-0 cNKOnB"
@@ -85,7 +85,7 @@ exports[`Banner renders in mobile mode 1`] = `
 
 exports[`Banner renders in single line mode 1`] = `
 <div
-  className="Container-sc-103kmdg-0 eqeGPO"
+  className="Container-sc-103kmdg-0 fjbOJT"
 >
   <div
     className="Body-sc-1aycagq-0 bIFCew"
@@ -116,7 +116,7 @@ exports[`Banner renders in single line mode 1`] = `
 
 exports[`Banner renders with buttons 1`] = `
 <div
-  className="Container-sc-103kmdg-0 gWwnIM"
+  className="Container-sc-103kmdg-0 AIDNV"
 >
   <div
     className="Body-sc-1aycagq-0 cNKOnB"
@@ -174,7 +174,7 @@ exports[`Banner renders with buttons RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="Container-sc-103kmdg-0 gWwnIM"
+    className="Container-sc-103kmdg-0 AIDNV"
   >
     <div
       className="Body-sc-1aycagq-0 cNKOnB"
@@ -230,7 +230,7 @@ exports[`Banner renders with buttons RTL 1`] = `
 
 exports[`Banner renders with header icon 1`] = `
 <div
-  className="Container-sc-103kmdg-0 eqeGPO"
+  className="Container-sc-103kmdg-0 fjbOJT"
 >
   <div
     className="Body-sc-1aycagq-0 cNKOnB"
