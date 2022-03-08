@@ -27,12 +27,12 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: `${rem(theme.radius.default)}`,
+    borderRadius: theme.newTokens.borderRadius.medium,
     padding: determinePadding(theme.newTokens, size),
-    transition: `${theme.transitionDuration.default}s`,
+    transition: theme.newTokens.transition.default,
     '&:hover': {
-      background: rgba(theme.color.piccolo[100], 0.2),
-      color: theme.color.piccolo[100],
+      background: rgba(theme.colorNew.piccolo, 0.2),
+      color: theme.colorNew.piccolo,
     },
     fontSize: rem(14),
   },
@@ -41,9 +41,9 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
   }),
   ({ isActive, theme }) => ({
     background: isActive
-      ? rgba(theme.color.piccolo[100], 0.2)
-      : theme.color.gohan[100],
-    color: isActive ? theme.color.piccolo[100] : theme.color.trunks[100],
+      ? rgba(theme.colorNew.piccolo, 0.2)
+      : theme.colorNew.gohan,
+    color: isActive ? theme.colorNew.piccolo : theme.colorNew.trunks,
     cursor: isActive ? 'auto' : 'pointer',
   }),
 ]);
