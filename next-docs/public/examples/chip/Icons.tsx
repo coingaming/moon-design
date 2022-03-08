@@ -1,4 +1,4 @@
-import { Chip } from '@heathmont/moon-components';
+import { Chip } from '@heathmont/moon-core';
 import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 

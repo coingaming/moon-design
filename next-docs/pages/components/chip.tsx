@@ -32,7 +32,6 @@ export default function PageChip() {
         </div>
       </section>
 
-      {/* Default */}
       <section className="mt-8">
         <Preview
           title="Default"
@@ -41,7 +40,6 @@ export default function PageChip() {
         />
       </section>
 
-      {/* Sizes */}
       <section className="mt-8">
         <Preview
           title="Sizes"
@@ -50,7 +48,6 @@ export default function PageChip() {
         />
       </section>
 
-      {/* States */}
       <section className="mt-8">
         <Preview
           title="States"
@@ -59,7 +56,6 @@ export default function PageChip() {
         />
       </section>
 
-      {/* Icons */}
       <section className="mt-8">
         <Preview
           title="Icons"
@@ -67,6 +63,7 @@ export default function PageChip() {
           code={examples ? examples.Icons : 'Loading'}
         />
       </section>
+
       <section className="mt-14">
         <h2 className="text-2xl mb-4">Props for Chip component</h2>
         <Table

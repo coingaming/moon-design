@@ -14,6 +14,8 @@ export { default as Caption } from './caption/Caption';
 export * from './caption/Caption';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
+export { default as Chip } from './chip/Chip';
+export * from './chip/Chip';
 export { default as Footer } from './footer/Footer';
 export * from './footer/Footer';
 export { default as Header } from './header/Header';
