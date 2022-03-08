@@ -23,9 +23,9 @@ const StyledChip = styled.button<ChipProps>(({ isActive, size, theme }) => [
       background: rgba(theme.color.piccolo[100], 0.2),
       color: theme.color.piccolo[100],
     },
+    fontSize: rem(14),
   },
   ({ size }) => ({
-    fontSize: size === 'small' ? rem(12) : rem(14),
     lineHeight: size === 'small' ? `${rem(16)}` : rem(20),
   }),
   ({ isActive, theme }) => ({

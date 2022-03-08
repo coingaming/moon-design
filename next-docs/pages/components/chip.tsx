@@ -36,6 +36,7 @@ export default function PageChip() {
         <Preview
           title="Default"
           preview={<Default />}
+          isGrayBg
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
@@ -44,6 +45,7 @@ export default function PageChip() {
         <Preview
           title="Sizes"
           preview={<Sizes />}
+          isGrayBg
           code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
@@ -52,6 +54,7 @@ export default function PageChip() {
         <Preview
           title="States"
           preview={<States />}
+          isGrayBg
           code={examples ? examples.States : 'Loading'}
         />
       </section>
@@ -60,6 +63,7 @@ export default function PageChip() {
         <Preview
           title="Icons"
           preview={<Icons />}
+          isGrayBg
           code={examples ? examples.Icons : 'Loading'}
         />
       </section>
