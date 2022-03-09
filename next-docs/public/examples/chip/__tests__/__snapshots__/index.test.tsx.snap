@@ -5,17 +5,17 @@ exports[`Chip renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     Lion
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     Tiger
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     Jaguar
   </button>
@@ -27,19 +27,19 @@ exports[`Chip renders different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 ldImQO"
+    className="Chip__StyledChip-tis201-0 ipOnRc"
     size="small"
   >
     Small
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
     size="medium"
   >
     Medium
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     Default
   </button>
@@ -51,12 +51,12 @@ exports[`Chip renders isActive 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 fZTUak"
+    className="Chip__StyledChip-tis201-0 hbLIsj"
   >
     Active
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     Inactive
   </button>
@@ -68,7 +68,7 @@ exports[`Chip renders with Icons 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1 hJfhpR"
@@ -91,7 +91,7 @@ exports[`Chip renders with Icons 1`] = `
     Left Icon
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     Right Icon
     <span
@@ -114,7 +114,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1 hJfhpR"
@@ -155,7 +155,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1 gVDHZG"
@@ -195,7 +195,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jnIGLr"
+    className="Chip__StyledChip-tis201-0 hyPwUZ"
   >
     <span
       className="Chip__IconRightWrapper-tis201-2 fHorkA"

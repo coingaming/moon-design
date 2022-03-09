@@ -46,6 +46,7 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
       : theme.colorNew.gohan,
     color: isActive ? theme.colorNew.piccolo : theme.colorNew.trunks,
     cursor: isActive ? 'auto' : 'pointer',
+    borderColor: isActive ? theme.colorNew.piccolo : theme.colorNew.gohan,
   }),
 ]);
 
