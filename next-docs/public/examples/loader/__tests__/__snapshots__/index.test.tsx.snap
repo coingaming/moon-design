@@ -7,6 +7,7 @@ exports[`Loader renders 1`] = `
   <strong
     className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
+    size="xsmall"
   >
     <span
       className="LoaderRing-sc-17wll29-0 ieQBLB"
@@ -24,6 +25,7 @@ exports[`Loader renders 1`] = `
   <strong
     className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
+    size="xsmall"
   >
     <span
       className="LoaderRing-sc-17wll29-0 gNkYKz"
@@ -52,6 +54,7 @@ exports[`Loader renders with different colours 1`] = `
   <strong
     className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
+    size="xsmall"
   >
     <span
       className="LoaderRing-sc-17wll29-0 bYXVgZ"
@@ -73,6 +76,7 @@ exports[`Loader renders with different colours 1`] = `
   <strong
     className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
+    size="xsmall"
   >
     <span
       className="LoaderRing-sc-17wll29-0 fKcXYV"
@@ -94,6 +98,7 @@ exports[`Loader renders with different colours 1`] = `
   <strong
     className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
+    size="xsmall"
   >
     <span
       className="LoaderRing-sc-17wll29-0 hQVtHO"
@@ -110,6 +115,103 @@ exports[`Loader renders with different colours 1`] = `
     <span
       className="LoaderRing-sc-17wll29-0 bzIriE"
       color="#663399"
+    />
+  </strong>
+</div>
+`;
+
+exports[`Loader renders with sizes 1`] = `
+<div
+  className="Inline-sc-1rz1cju-0 kwswbg"
+>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
+    role="progressbar"
+    size="xsmall"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 iTBuyi"
+    role="progressbar"
+    size="small"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jeceQG"
+    role="progressbar"
+    size="medium"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jdtrK"
+    role="progressbar"
+    size="large"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 hiPZFm"
+    role="progressbar"
+    size="xlarge"
+  >
+    <span
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
     />
   </strong>
 </div>
