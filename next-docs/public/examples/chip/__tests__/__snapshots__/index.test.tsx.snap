@@ -14,12 +14,7 @@ exports[`Chip renders different Sizes 1`] = `
     className="Chip__StyledChip-tis201-0 hyPwUZ"
     size="medium"
   >
-    Medium
-  </button>
-  <button
-    className="Chip__StyledChip-tis201-0 hyPwUZ"
-  >
-    Default
+    Medium is Default
   </button>
 </div>
 `;
