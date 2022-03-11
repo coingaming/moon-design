@@ -7,7 +7,7 @@ import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Icons from '../Icons';
 import Sizes from '../Sizes';
-import States from '../States';
+import Active from '../Active';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -25,7 +25,7 @@ describe('Chip', () => {
   });
 
   it('renders isActive', () => {
-    const testRenderer = renderer.create(renderWithTheme(<States />));
+    const testRenderer = renderer.create(renderWithTheme(<Active />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

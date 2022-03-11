@@ -28,11 +28,6 @@ exports[`Chip renders isActive 1`] = `
   >
     Active
   </button>
-  <button
-    className="Chip__StyledChip-tis201-0 hyPwUZ"
-  >
-    Inactive
-  </button>
 </div>
 `;
 

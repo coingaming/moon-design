@@ -1,10 +1,9 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import Default from '../../public/examples/chip/Default';
+import Active from '../../public/examples/chip/Active';
 import Icons from '../../public/examples/chip/Icons';
 import Sizes from '../../public/examples/chip/Sizes';
-import States from '../../public/examples/chip/States';
 import useExamples from '../../utils/useExamples';
 
 export default function PageChip() {
@@ -43,10 +42,10 @@ export default function PageChip() {
 
       <section className="mt-8">
         <Preview
-          title="States"
-          preview={<States />}
+          title="Active State"
+          preview={<Active />}
           isGrayBg
-          code={examples ? examples.States : 'Loading'}
+          code={examples ? examples.Active : 'Loading'}
         />
       </section>
 
