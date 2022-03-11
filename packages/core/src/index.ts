@@ -28,6 +28,8 @@ export { default as ListItem } from './listItem/ListItem';
 export * from './listItem/ListItem';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
+export { default as Loader2 } from './loader/Loader2';
+export * from './loader/Loader2';
 export { default as MultiSelect } from './multiSelect/MultiSelect';
 export * from './multiSelect/MultiSelect';
 export { default as RadioButton } from './radioButton/RadioButton';

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Size } from '../private/Size';
 
 const determineDimensions = (size?: Size) => {
-  console.log(size);
   switch (size) {
     case 'small':
       return {

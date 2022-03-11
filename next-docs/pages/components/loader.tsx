@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Customization from '../../public/examples/loader/Customization';
 import Default from '../../public/examples/loader/Default';
+import Default2 from '../../public/examples/loader/Default2';
 import Sizes from '../../public/examples/loader/Sizes';
 import useExamples from '../../utils/useExamples';
 
@@ -20,6 +21,14 @@ export default function PageLoader() {
           title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Default2"
+          preview={<Default2 />}
+          code={examples ? examples.Default2 : 'Loading'}
         />
       </section>
 
