@@ -1,27 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Chip renders 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
-  <button
-    className="Chip__StyledChip-tis201-0 hyPwUZ"
-  >
-    Lion
-  </button>
-  <button
-    className="Chip__StyledChip-tis201-0 hyPwUZ"
-  >
-    Tiger
-  </button>
-  <button
-    className="Chip__StyledChip-tis201-0 hyPwUZ"
-  >
-    Jaguar
-  </button>
-</div>
-`;
-
 exports[`Chip renders different Sizes 1`] = `
 <div
   className="flex justify-around items-center w-full"

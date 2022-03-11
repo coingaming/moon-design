@@ -34,15 +34,6 @@ export default function PageChip() {
 
       <section className="mt-8">
         <Preview
-          title="Default"
-          preview={<Default />}
-          isGrayBg
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
           title="Sizes"
           preview={<Sizes />}
           isGrayBg
