@@ -1,4 +1,4 @@
-import { ColorProps, SharedTheme, Theme } from '@heathmont/moon-themes';
+import { ColorProps, Theme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -9,7 +9,7 @@ const determineColor = (
 ) => {
   const colorToUse = color ?? theme.colorNew.bulma;
   const colorValue = themed('color', colorToUse)(theme);
-  return colorValue + (isTransparent ? '00' : '99');
+  return colorValue + (isTransparent ? '00' : 'FF');
 };
 
 export interface Props {

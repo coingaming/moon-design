@@ -26,14 +26,6 @@ export default function PageLoader() {
 
       <section className="mt-8">
         <Preview
-          title="Default2"
-          preview={<Default2 />}
-          code={examples ? examples.Default2 : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
           title="Colours"
           preview={<Customization />}
           code={examples ? examples.Customization : 'Loading'}

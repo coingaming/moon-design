@@ -60,7 +60,7 @@ const OuterCircle = styled.div.attrs({
     ...determineDimensions(size),
     borderRadius: '50%',
     position: 'relative',
-    margin: '0 auto',
+    margin: `0 ${rem(8)}`,
     overflow: 'hidden',
     display: 'inline-block',
   },
