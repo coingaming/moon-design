@@ -51,27 +51,16 @@ exports[`Button renders different animations 1`] = `
       <div
         className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
       >
-        <strong
-          className="Container-sc-12rktgh-0 jyJfhm"
+        <div
+          className="OuterCircle-sc-1059clw-0 cBDWNI"
           role="progressbar"
+          size="xsmall"
         >
           <span
-            className="LoaderRing-sc-17wll29-0 XcexV"
+            className="InnerCircle-sc-6khuip-0 epmuRM"
             color="currentColor"
           />
-          <span
-            className="LoaderRing-sc-17wll29-0 fAHuRn"
-            color="currentColor"
-          />
-          <span
-            className="LoaderRing-sc-17wll29-0 kqOdVI"
-            color="currentColor"
-          />
-          <span
-            className="LoaderRing-sc-17wll29-0 cebTvf"
-            color="currentColor"
-          />
-        </strong>
+        </div>
       </div>
       <div
         className="AnimationContent__HiddenContent-sc-1c5x251-2 pcBIA"
