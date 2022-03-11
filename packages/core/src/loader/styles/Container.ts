@@ -36,7 +36,7 @@ type Props = {
   size?: Size;
 };
 
-const Container = styled.strong<Props>(({ size }) => ({
+const Container = styled.div<Props>(({ size }) => ({
   display: 'inline-block',
   position: 'relative',
   ...determineDimensions(size),

@@ -1,4 +1,3 @@
-import { ColorProps } from '@heathmont/moon-themes';
 import { rem } from 'polished';
 import styled, { css, keyframes } from 'styled-components';
 import { Size } from '../private/Size';
@@ -50,11 +49,12 @@ const animation = css`
 `;
 
 export interface Props {
-  color?: ColorProps;
   size?: Size;
 }
 
-const OuterCircle = styled.span<Props>(({ color, size }) => [
+const OuterCircle = styled.div.attrs({
+  role: 'progressbar',
+})<Props>(({ size }) => [
   {
     padding: 0,
     ...determineDimensions(size),
@@ -62,6 +62,7 @@ const OuterCircle = styled.span<Props>(({ color, size }) => [
     position: 'relative',
     margin: '0 auto',
     overflow: 'hidden',
+    display: 'inline-block',
   },
   animation,
 ]);

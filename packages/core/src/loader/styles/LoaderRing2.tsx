@@ -1,11 +1,16 @@
 import React from 'react';
+import { ColorProps } from '@heathmont/moon-themes';
 import InnerCircle from './InnerCircle';
 import OuterCircle from './OuterCircle';
 
-const LoaderRing2 = () => {
+type Props = {
+  color?: ColorProps;
+};
+
+const LoaderRing2: React.FC<Props> = ({ color }) => {
   return (
     <OuterCircle>
-      <InnerCircle></InnerCircle>
+      <InnerCircle color={color}></InnerCircle>
     </OuterCircle>
   );
 };
