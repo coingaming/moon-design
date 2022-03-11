@@ -12,6 +12,20 @@ const determinePadding = (newTokens: SharedTheme['newTokens'], size?: Size) => {
   return `${newTokens.space.twoxsmall} ${newTokens.space.xsmall}`;
 };
 
+const determineDimensions = (size?: Size) => {
+  if (size === 'small') {
+    return {
+      minWidth: rem(89),
+      height: rem(32),
+    };
+  }
+
+  return {
+    minWidth: rem(125),
+    height: rem(40),
+  };
+};
+
 type Size = 'small' | 'medium';
 
 type ChipProps = {
@@ -19,9 +33,10 @@ type ChipProps = {
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: Size;
+  isStroke: boolean;
 };
 
-const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
+const StyledChip = styled.button<ChipProps>(({ size, isStroke, theme }) => [
   {
     display: 'flex',
     flexDirection: 'row',
@@ -30,23 +45,28 @@ const StyledChip = styled.button<ChipProps>(({ size, theme }) => [
     borderRadius: theme.newTokens.borderRadius.medium,
     padding: determinePadding(theme.newTokens, size),
     transition: theme.newTokens.transition.default,
-    border: theme.newTokens.border.interactive,
-    borderColor: theme.colorNew.goten,
+    ...determineDimensions(size),
+    // border: theme.newTokens.border.interactive,
+    // borderColor: theme.colorNew.gohan,
     '&:hover': {
       background: rgba(theme.colorNew.piccolo, 0.2),
       color: theme.colorNew.piccolo,
-      borderColor: theme.colorNew.piccolo,
+      // borderColor: isStroke
+      //   ? theme.colorNew.piccolo
+      //   : rgba(theme.colorNew.piccolo, 0.2),
     },
     fontSize: rem(14),
     lineHeight: rem(20),
   },
   ({ isActive, theme }) => ({
     background: isActive
-      ? rgba(theme.colorNew.piccolo, 0.2)
+      ? rgba(theme.colorNew.piccolo, 0.12)
       : theme.colorNew.gohan,
     color: isActive ? theme.colorNew.piccolo : theme.colorNew.trunks,
     cursor: isActive ? 'auto' : 'pointer',
-    borderColor: isActive ? theme.colorNew.piccolo : theme.colorNew.gohan,
+    // borderColor: isActive
+    //   ? rgba(theme.colorNew.piccolo, 0.12)
+    //   : theme.colorNew.gohan,
   }),
 ]);
 
