@@ -2,8 +2,10 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import Active from '../../public/examples/chip/Active';
+import ActiveStroke from '../../public/examples/chip/ActiveStroke';
 import Icons from '../../public/examples/chip/Icons';
 import Sizes from '../../public/examples/chip/Sizes';
+import WithStroke from '../../public/examples/chip/WithStroke';
 import useExamples from '../../utils/useExamples';
 
 export default function PageChip() {
@@ -51,10 +53,28 @@ export default function PageChip() {
 
       <section className="mt-8">
         <Preview
+          title="Active State with stroke"
+          preview={<ActiveStroke />}
+          isGrayBg
+          code={examples ? examples.ActiveStroke : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
           title="Icons"
           preview={<Icons />}
           isGrayBg
           code={examples ? examples.Icons : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Icon with Stroke on Hover"
+          preview={<WithStroke />}
+          isGrayBg
+          code={examples ? examples.WithStroke : 'Loading'}
         />
       </section>
 

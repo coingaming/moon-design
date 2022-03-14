@@ -1,5 +1,5 @@
 import React from 'react';
-import { SharedTheme } from '@heathmont/moon-themes';
+import { SharedTheme, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import styled from 'styled-components';
@@ -26,6 +26,20 @@ const determineDimensions = (size?: Size) => {
   };
 };
 
+const determineBorder = (
+  theme: Theme,
+  isActive?: boolean,
+  isStroke?: boolean,
+  isHover?: boolean
+) => {
+  if ((isActive || isHover) && isStroke) {
+    return {
+      boxShadow: `0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo} inset`,
+    };
+  }
+  return {};
+};
+
 type Size = 'small' | 'medium';
 
 type ChipProps = {
@@ -45,28 +59,23 @@ const StyledChip = styled.button<ChipProps>(({ size, isStroke, theme }) => [
     borderRadius: theme.newTokens.borderRadius.medium,
     padding: determinePadding(theme.newTokens, size),
     transition: theme.newTokens.transition.default,
+    ...determineBorder(theme, false, isStroke),
     ...determineDimensions(size),
-    // border: theme.newTokens.border.interactive,
-    // borderColor: theme.colorNew.gohan,
     '&:hover': {
       background: rgba(theme.colorNew.piccolo, 0.2),
       color: theme.colorNew.piccolo,
-      // borderColor: isStroke
-      //   ? theme.colorNew.piccolo
-      //   : rgba(theme.colorNew.piccolo, 0.2),
+      ...determineBorder(theme, false, isStroke, true),
     },
     fontSize: rem(14),
     lineHeight: rem(20),
   },
-  ({ isActive, theme }) => ({
+  ({ isActive, theme, isStroke }) => ({
     background: isActive
       ? rgba(theme.colorNew.piccolo, 0.12)
       : theme.colorNew.gohan,
     color: isActive ? theme.colorNew.piccolo : theme.colorNew.trunks,
     cursor: isActive ? 'auto' : 'pointer',
-    // borderColor: isActive
-    //   ? rgba(theme.colorNew.piccolo, 0.12)
-    //   : theme.colorNew.gohan,
+    ...determineBorder(theme, isActive, isStroke),
   }),
 ]);
 
