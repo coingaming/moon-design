@@ -14,9 +14,20 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('Chip', () => {
   it('renders with Icons', () => {
     const testRenderer = renderer.create(renderWithTheme(<Icons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with Icons RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Icons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
