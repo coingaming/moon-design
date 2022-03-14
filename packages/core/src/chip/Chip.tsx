@@ -67,7 +67,7 @@ const StyledChip = styled.button<ChipProps>(({ size, isStroke, theme }) => [
       ...determineBorder(theme, false, isStroke, true),
     },
     fontSize: rem(14),
-    lineHeight: rem(20),
+    lineHeight: rem(24),
   },
   ({ isActive, theme, isStroke }) => ({
     background: isActive
