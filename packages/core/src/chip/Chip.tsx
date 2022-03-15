@@ -78,7 +78,7 @@ type ChipProps = {
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: Size;
-  isStroke: boolean;
+  isStroke?: boolean;
 };
 
 type StyledChipProps = {
