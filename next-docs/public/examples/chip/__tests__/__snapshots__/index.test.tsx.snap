@@ -55,7 +55,6 @@ exports[`Chip renders with Icons 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="medium"
     >
       <svg
         className="sc-PWMHG"
@@ -81,7 +80,6 @@ exports[`Chip renders with Icons 1`] = `
     Right Icon
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -105,7 +103,6 @@ exports[`Chip renders with Icons 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="medium"
     >
       <svg
         className="sc-PWMHG"
@@ -125,7 +122,6 @@ exports[`Chip renders with Icons 1`] = `
     Left/Right Icons
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -149,7 +145,6 @@ exports[`Chip renders with Icons 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="medium"
     >
       <svg
         className="sc-PWMHG"
@@ -168,7 +163,6 @@ exports[`Chip renders with Icons 1`] = `
     </span>
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -192,7 +186,6 @@ exports[`Chip renders with Icons 1`] = `
   >
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -226,7 +219,6 @@ exports[`Chip renders with Icons RTL 1`] = `
     >
       <span
         className="Chip__IconLeftWrapper-tis201-1"
-        size="medium"
       >
         <svg
           className="sc-PWMHG"
@@ -252,7 +244,6 @@ exports[`Chip renders with Icons RTL 1`] = `
       Right Icon
       <span
         className="Chip__IconRightWrapper-tis201-2"
-        size="medium"
       >
         <svg
           className="sc-fpGCtG"
@@ -276,7 +267,6 @@ exports[`Chip renders with Icons RTL 1`] = `
     >
       <span
         className="Chip__IconLeftWrapper-tis201-1"
-        size="medium"
       >
         <svg
           className="sc-PWMHG"
@@ -296,7 +286,6 @@ exports[`Chip renders with Icons RTL 1`] = `
       Left/Right Icons
       <span
         className="Chip__IconRightWrapper-tis201-2"
-        size="medium"
       >
         <svg
           className="sc-fpGCtG"
@@ -320,7 +309,6 @@ exports[`Chip renders with Icons RTL 1`] = `
     >
       <span
         className="Chip__IconLeftWrapper-tis201-1"
-        size="medium"
       >
         <svg
           className="sc-PWMHG"
@@ -339,7 +327,6 @@ exports[`Chip renders with Icons RTL 1`] = `
       </span>
       <span
         className="Chip__IconRightWrapper-tis201-2"
-        size="medium"
       >
         <svg
           className="sc-fpGCtG"
@@ -363,7 +350,6 @@ exports[`Chip renders with Icons RTL 1`] = `
     >
       <span
         className="Chip__IconRightWrapper-tis201-2"
-        size="medium"
       >
         <svg
           className="sc-fpGCtG"
@@ -395,7 +381,6 @@ exports[`Chip renders with Icons small size 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="small"
     >
       <svg
         className="sc-PWMHG"
@@ -421,7 +406,6 @@ exports[`Chip renders with Icons small size 1`] = `
     Right Icon
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="small"
     >
       <svg
         className="sc-fpGCtG"
@@ -445,7 +429,6 @@ exports[`Chip renders with Icons small size 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="small"
     >
       <svg
         className="sc-PWMHG"
@@ -465,7 +448,6 @@ exports[`Chip renders with Icons small size 1`] = `
     Left/Right Icons
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="small"
     >
       <svg
         className="sc-fpGCtG"
@@ -489,7 +471,6 @@ exports[`Chip renders with Icons small size 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="small"
     >
       <svg
         className="sc-PWMHG"
@@ -508,7 +489,6 @@ exports[`Chip renders with Icons small size 1`] = `
     </span>
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="small"
     >
       <svg
         className="sc-fpGCtG"
@@ -532,7 +512,6 @@ exports[`Chip renders with Icons small size 1`] = `
   >
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="small"
     >
       <svg
         className="sc-fpGCtG"
@@ -563,7 +542,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="medium"
     >
       <svg
         className="sc-PWMHG"
@@ -589,7 +567,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
     Right Icon
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -613,7 +590,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="medium"
     >
       <svg
         className="sc-PWMHG"
@@ -633,7 +609,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
     Left/Right Icons
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -657,7 +632,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
   >
     <span
       className="Chip__IconLeftWrapper-tis201-1"
-      size="medium"
     >
       <svg
         className="sc-PWMHG"
@@ -676,7 +650,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
     </span>
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
@@ -700,7 +673,6 @@ exports[`Chip renders with Icons with stroke 1`] = `
   >
     <span
       className="Chip__IconRightWrapper-tis201-2"
-      size="medium"
     >
       <svg
         className="sc-fpGCtG"
