@@ -6,6 +6,7 @@ import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Icons from '../Icons';
+import IconsSmall from '../IconsSmall';
 import Sizes from '../Sizes';
 import Active from '../Active';
 import ActiveStroke from '../ActiveStroke';
@@ -23,6 +24,11 @@ const renderWithThemeRTL = (component: JSX.Element) => (
 describe('Chip', () => {
   it('renders with Icons', () => {
     const testRenderer = renderer.create(renderWithTheme(<Icons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with Icons small size', () => {
+    const testRenderer = renderer.create(renderWithTheme(<IconsSmall />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

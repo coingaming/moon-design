@@ -4,24 +4,55 @@ import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import styled from 'styled-components';
 
-const determinePadding = (newTokens: SharedTheme['newTokens'], size?: Size) => {
-  if (size === 'small') {
-    return `${newTokens.space.threexsmall} ${newTokens.space.twoxsmall}`;
+const determinePadding = (
+  newTokens: SharedTheme['newTokens'],
+  size?: Size,
+  hasStartIcon?: boolean,
+  hasEndIcon?: boolean,
+  hasIconOnly?: boolean
+) => {
+  let paddingTop = newTokens.space.threexsmall;
+  let paddingBottom = newTokens.space.threexsmall;
+  let paddingInlineStart = newTokens.space.twoxsmall;
+  let paddingInlineEnd = newTokens.space.twoxsmall;
+
+  if (size === 'medium') {
+    paddingTop = newTokens.space.twoxsmall;
+    paddingBottom = newTokens.space.twoxsmall;
+    paddingInlineStart = newTokens.space.xsmall;
+    paddingInlineEnd = newTokens.space.xsmall;
+
+    if (hasIconOnly) {
+      paddingTop = newTokens.space.xsmall;
+      paddingBottom = newTokens.space.xsmall;
+    }
+  } else {
+    if (hasIconOnly) {
+      paddingTop = newTokens.space.twoxsmall;
+      paddingBottom = newTokens.space.twoxsmall;
+      paddingInlineStart = newTokens.space.twoxsmall;
+      paddingInlineEnd = newTokens.space.twoxsmall;
+    }
   }
 
-  return `${newTokens.space.twoxsmall} ${newTokens.space.xsmall}`;
+  return {
+    paddingTop,
+    paddingBottom,
+    paddingInlineStart,
+    paddingInlineEnd,
+  };
 };
 
 const determineDimensions = (size?: Size) => {
   if (size === 'small') {
     return {
-      minWidth: rem(89),
+      // minWidth: rem(89),
       height: rem(32),
     };
   }
 
   return {
-    minWidth: rem(125),
+    // minWidth: rem(125),
     height: rem(40),
   };
 };
@@ -50,76 +81,78 @@ type ChipProps = {
   isStroke: boolean;
 };
 
-const StyledChip = styled.button<ChipProps>(({ size, isStroke, theme }) => [
-  {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderRadius: theme.newTokens.borderRadius.medium,
-    padding: determinePadding(theme.newTokens, size),
-    transition: theme.newTokens.transition.default,
-    ...determineBorder(theme, false, isStroke),
-    ...determineDimensions(size),
-    '&:hover': {
-      background: rgba(theme.colorNew.piccolo, 0.2),
-      color: theme.colorNew.piccolo,
-      ...determineBorder(theme, false, isStroke, true),
+type StyledChipProps = {
+  isActive?: boolean;
+  isStroke: boolean;
+  size?: Size;
+  hasIconLeft?: boolean;
+  hasIconRight?: boolean;
+  hasIconOnly?: boolean;
+};
+
+const StyledChip = styled.button<StyledChipProps>(
+  ({ theme, isStroke, size, hasIconLeft, hasIconRight, hasIconOnly }) => [
+    {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: hasIconOnly ? 'center' : 'space-between',
+      alignItems: 'center',
+      borderRadius: theme.newTokens.borderRadius.medium,
+      gap:
+        size === 'medium'
+          ? theme.newTokens.space.twoxsmall
+          : theme.newTokens.space.threexsmall,
+      ...determinePadding(
+        theme.newTokens,
+        size,
+        hasIconLeft,
+        hasIconRight,
+        hasIconOnly
+      ),
+      transition: theme.newTokens.transition.default,
+      ...determineBorder(theme, false, isStroke),
+      ...determineDimensions(size),
+      '&:hover': {
+        background: rgba(theme.colorNew.piccolo, 0.2),
+        color: theme.colorNew.piccolo,
+        ...determineBorder(theme, false, isStroke, true),
+      },
+      fontSize: rem(14),
+      lineHeight: rem(24),
     },
-    fontSize: rem(14),
-    lineHeight: rem(24),
-  },
-  ({ isActive, theme, isStroke }) => ({
-    background: isActive
-      ? rgba(theme.colorNew.piccolo, 0.12)
-      : theme.colorNew.gohan,
-    color: isActive ? theme.colorNew.piccolo : theme.colorNew.trunks,
-    cursor: isActive ? 'auto' : 'pointer',
-    ...determineBorder(theme, isActive, isStroke),
-  }),
-]);
+    ({ isActive, theme, isStroke }) => ({
+      background: isActive
+        ? rgba(theme.colorNew.piccolo, 0.12)
+        : theme.colorNew.gohan,
+      color: isActive ? theme.colorNew.piccolo : theme.colorNew.trunks,
+      cursor: isActive ? 'auto' : 'pointer',
+      ...determineBorder(theme, isActive, isStroke),
+    }),
+  ]
+);
 
 const IconLeftWrapper = styled.span<
   ChipProps & { isOnlyIcons?: boolean; isOnlyLeftIcon?: boolean }
->(({ isOnlyIcons, isOnlyLeftIcon, theme: { newTokens } }) => [
-  {
-    marginInlineEnd: newTokens.space.threexsmall,
-  },
-  isOnlyIcons && {
-    marginInlineEnd: rem(2),
-  },
-  isOnlyLeftIcon && {
-    marginInlineEnd: 0,
-  },
-]);
+>(({ isOnlyIcons, isOnlyLeftIcon, theme: { newTokens } }) => []);
 
 const IconRightWrapper = styled.span<
   ChipProps & { isOnlyIcons?: boolean; isOnlyRightIcon?: boolean }
->(({ isOnlyIcons, isOnlyRightIcon, theme: { newTokens } }) => [
-  {
-    marginInlineStart: newTokens.space.threexsmall,
-  },
-  isOnlyIcons && {
-    marginInlineStart: rem(2),
-  },
-  isOnlyRightIcon && {
-    marginInlineStart: 0,
-  },
-]);
+>(({ isOnlyIcons, isOnlyRightIcon, theme: { newTokens } }) => []);
 
 const Chip: React.FC<ChipProps> = ({
   children,
   isActive,
-  size,
+  size = 'medium',
   iconLeft,
   iconRight,
   ...rest
 }) => (
   <StyledChip
     isActive={isActive}
-    iconLeft={iconLeft}
-    iconRight={iconRight}
+    hasIconLeft={!!iconLeft}
+    hasIconRight={!!iconRight}
     size={size}
+    hasIconOnly={React.Children.toArray(children).length === 0}
     {...rest}
   >
     {iconLeft && (

@@ -4,6 +4,7 @@ import Table from '../../components/Table';
 import Active from '../../public/examples/chip/Active';
 import ActiveStroke from '../../public/examples/chip/ActiveStroke';
 import Icons from '../../public/examples/chip/Icons';
+import IconsSmall from '../../public/examples/chip/IconsSmall';
 import Sizes from '../../public/examples/chip/Sizes';
 import WithStroke from '../../public/examples/chip/WithStroke';
 import useExamples from '../../utils/useExamples';
@@ -66,6 +67,15 @@ export default function PageChip() {
           preview={<Icons />}
           isGrayBg
           code={examples ? examples.Icons : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Icons (small)"
+          preview={<IconsSmall />}
+          isGrayBg
+          code={examples ? examples.IconsSmall : 'Loading'}
         />
       </section>
 
