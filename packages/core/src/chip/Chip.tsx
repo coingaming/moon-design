@@ -83,7 +83,7 @@ type ChipProps = {
 
 type StyledChipProps = {
   isActive?: boolean;
-  isStroke: boolean;
+  isStroke?: boolean;
   size?: Size;
   hasIconLeft?: boolean;
   hasIconRight?: boolean;
