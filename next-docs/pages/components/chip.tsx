@@ -120,6 +120,13 @@ export default function PageChip() {
               default: 'false',
               description: 'Active state',
             },
+            {
+              name: 'isStroke',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Show stroke on hover/active',
+            },
           ]}
         />
       </section>
