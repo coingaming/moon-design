@@ -1,26 +1,73 @@
-import React, { Ref } from 'react';
+import React from 'react';
 import { TextInput } from '..';
 import TextInputSizeType from '../textInput/private/types/SizeTypes';
-import TextInputTypes from '../textInput/private/types/TextInputTypes';
+import TextGroupEnd from './private/TextGroupEnd';
+import TextGroupStart from './private/TextGroupStart';
+import { OrientationType } from './private/types/OrientationType';
+import { TextInputGroupTypes } from './private/types/TextInputGroupType';
 import Container from './styles/Container';
 
 export interface TextInputGroupProps {
   inputSize: TextInputSizeType | string;
   types?: {
-    input1: TextInputTypes;
-    input2: TextInputTypes;
+    input1: TextInputGroupTypes;
+    input2: TextInputGroupTypes;
   };
   placeholder?: {
     input1?: string;
     input2?: string;
   };
-  orientation?: 'vertical' | 'horizontal';
+  orientation?: OrientationType;
   isRtl?: boolean;
   reference?: {
     input1: React.RefObject<HTMLInputElement>;
     input2: React.RefObject<HTMLInputElement>;
   };
 }
+
+const determineInputStart = (
+  inputSize: TextInputSizeType | string,
+  type: TextInputGroupTypes,
+  placeholder?: string,
+  orientation?: OrientationType,
+  isRtl?: boolean,
+  reference?: React.RefObject<HTMLInputElement>
+) => {
+  if (type !== 'select' && type !== 'multiselect') {
+    const groupProps = {
+      inputSize,
+      type,
+      placeholder,
+      isRtl,
+      reference,
+      orientation,
+    };
+    return <TextGroupStart {...groupProps}></TextGroupStart>;
+  }
+  return <></>;
+};
+
+const determineInputEnd = (
+  inputSize: TextInputSizeType | string,
+  type: TextInputGroupTypes,
+  placeholder?: string,
+  orientation?: OrientationType,
+  isRtl?: boolean,
+  reference?: React.RefObject<HTMLInputElement>
+) => {
+  if (type !== 'select' && type !== 'multiselect') {
+    const groupProps = {
+      inputSize,
+      type,
+      placeholder,
+      isRtl,
+      reference,
+      orientation,
+    };
+    return <TextGroupEnd {...groupProps}></TextGroupEnd>;
+  }
+  return <></>;
+};
 
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
   isRtl,
@@ -32,28 +79,22 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
 }) => {
   return (
     <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
-      <TextInput
-        type={types && types.input1 ? types.input1 : 'text'}
-        placeholder={placeholder?.input1}
-        inputSize={inputSize}
-        dir={isRtl ? 'rtl' : 'ltr'}
-        ref={reference?.input1}
-        isSharpRightSide={orientation === 'horizontal' && !isRtl}
-        isSharpLeftSide={orientation === 'horizontal' && isRtl}
-        isSharpBottomSide={orientation === 'vertical'}
-        isNoBorderBottom={orientation === 'vertical'}
-        isNoBorderEnd={orientation === 'horizontal'}
-      ></TextInput>
-      <TextInput
-        type={types && types.input2 ? types.input2 : 'text'}
-        placeholder={placeholder?.input2}
-        inputSize={inputSize}
-        dir={isRtl ? 'rtl' : 'ltr'}
-        ref={reference?.input2}
-        isSharpRightSide={orientation === 'horizontal' && isRtl}
-        isSharpLeftSide={orientation === 'horizontal' && !isRtl}
-        isSharpTopSide={orientation === 'vertical'}
-      ></TextInput>
+      {determineInputStart(
+        inputSize,
+        types && types.input1 ? types.input1 : 'text',
+        placeholder?.input1,
+        orientation,
+        isRtl,
+        reference?.input1
+      )}
+      {determineInputEnd(
+        inputSize,
+        types && types.input2 ? types.input2 : 'text',
+        placeholder?.input2,
+        orientation,
+        isRtl,
+        reference?.input2
+      )}
     </Container>
   );
 };
