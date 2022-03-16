@@ -4,6 +4,7 @@ import Table from '../../components/Table';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Default from '../../public/examples/textInputGroup/Default';
 import Rtl from '../../public/examples/textInputGroup/Rtl';
+import SingleSelect from '../../public/examples/textInputGroup/SingleSelect';
 import Sizes from '../../public/examples/textInputGroup/Sizes';
 import Types from '../../public/examples/textInputGroup/Types';
 import Vertical from '../../public/examples/textInputGroup/Vertical';
@@ -23,6 +24,14 @@ export default function PageTextInputGroup() {
           title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Single Select"
+          preview={<SingleSelect />}
+          code={examples ? examples.SingleSelect : 'Loading'}
         />
       </section>
 

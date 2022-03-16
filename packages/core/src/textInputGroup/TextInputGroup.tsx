@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput } from '..';
+import { Select } from '@heathmont/moon-select';
 import TextInputSizeType from '../textInput/private/types/SizeTypes';
 import TextGroupEnd from './private/TextGroupEnd';
 import TextGroupStart from './private/TextGroupStart';
@@ -33,7 +33,7 @@ const determineInputStart = (
   isRtl?: boolean,
   reference?: React.RefObject<HTMLInputElement>
 ) => {
-  if (type !== 'select' && type !== 'multiselect') {
+  if (type !== 'single-select' && type !== 'multi-select') {
     const groupProps = {
       inputSize,
       type,
@@ -43,6 +43,29 @@ const determineInputStart = (
       orientation,
     };
     return <TextGroupStart {...groupProps}></TextGroupStart>;
+  } else if (type === 'single-select') {
+    const options = [
+      {
+        value: 'Option 1',
+        label: 'Option 1',
+      },
+      {
+        value: 'Option 2',
+        label: 'Option 2',
+      },
+      {
+        value: 'Option 3',
+        label: 'Option 3',
+      },
+    ];
+    return (
+      <Select
+        options={options}
+        label="xLarge"
+        size="xLarge"
+        placeholderSlot="Choose an option"
+      />
+    );
   }
   return <></>;
 };
@@ -55,7 +78,7 @@ const determineInputEnd = (
   isRtl?: boolean,
   reference?: React.RefObject<HTMLInputElement>
 ) => {
-  if (type !== 'select' && type !== 'multiselect') {
+  if (type !== 'single-select' && type !== 'multi-select') {
     const groupProps = {
       inputSize,
       type,
@@ -65,8 +88,30 @@ const determineInputEnd = (
       orientation,
     };
     return <TextGroupEnd {...groupProps}></TextGroupEnd>;
+  } else if (type === 'single-select') {
+    const options = [
+      {
+        value: 'Option 1',
+        label: 'Option 1',
+      },
+      {
+        value: 'Option 2',
+        label: 'Option 2',
+      },
+      {
+        value: 'Option 3',
+        label: 'Option 3',
+      },
+    ];
+    return (
+      <Select
+        options={options}
+        label="xLarge"
+        size="xLarge"
+        placeholderSlot="Choose an option"
+      />
+    );
   }
-  return <></>;
 };
 
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
