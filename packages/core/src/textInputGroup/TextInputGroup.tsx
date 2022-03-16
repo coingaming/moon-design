@@ -1,6 +1,7 @@
 import React from 'react';
-import { Select } from '@heathmont/moon-select';
-import TextInputSizeType from '../textInput/private/types/SizeTypes';
+import { Select , SelectProps } from '@heathmont/moon-select';
+
+import { TextInputProps } from '..';
 import TextGroupEnd from './private/TextGroupEnd';
 import TextGroupStart from './private/TextGroupStart';
 import { OrientationType } from './private/types/OrientationType';
@@ -8,137 +9,87 @@ import { TextInputGroupTypes } from './private/types/TextInputGroupType';
 import Container from './styles/Container';
 
 export interface TextInputGroupProps {
-  inputSize: TextInputSizeType | string;
   types?: {
     input1: TextInputGroupTypes;
     input2: TextInputGroupTypes;
   };
-  placeholder?: {
-    input1?: string;
-    input2?: string;
-  };
   orientation?: OrientationType;
-  isRtl?: boolean;
-  reference?: {
-    input1: React.RefObject<HTMLInputElement>;
-    input2: React.RefObject<HTMLInputElement>;
+  inputProps?: {
+    input1?: TextInputProps;
+    input2?: TextInputProps;
+  };
+  selectProps?: {
+    input1?: SelectProps<any>;
+    input2?: SelectProps<any>;
   };
 }
 
 const determineInputStart = (
-  inputSize: TextInputSizeType | string,
   type: TextInputGroupTypes,
-  placeholder?: string,
+  inputProps?: TextInputProps,
   orientation?: OrientationType,
-  isRtl?: boolean,
-  reference?: React.RefObject<HTMLInputElement>
+  selectProps?: SelectProps<any>
 ) => {
-  if (type !== 'single-select' && type !== 'multi-select') {
+  if (type === 'multi-select') {
+    return <Select {...selectProps} isMulti />;
+  } else if (type === 'single-select') {
+    return <Select {...selectProps} />;
+  } else {
+    if (!inputProps) {
+      throw new Error('Input props is required for input text types');
+    }
     const groupProps = {
-      inputSize,
-      type,
-      placeholder,
-      isRtl,
-      reference,
+      inputProps,
       orientation,
     };
     return <TextGroupStart {...groupProps}></TextGroupStart>;
-  } else if (type === 'single-select') {
-    const options = [
-      {
-        value: 'Option 1',
-        label: 'Option 1',
-      },
-      {
-        value: 'Option 2',
-        label: 'Option 2',
-      },
-      {
-        value: 'Option 3',
-        label: 'Option 3',
-      },
-    ];
-    return (
-      <Select
-        options={options}
-        label="xLarge"
-        size="xLarge"
-        placeholderSlot="Choose an option"
-      />
-    );
   }
-  return <></>;
 };
 
 const determineInputEnd = (
-  inputSize: TextInputSizeType | string,
   type: TextInputGroupTypes,
-  placeholder?: string,
+  inputProps?: TextInputProps,
   orientation?: OrientationType,
-  isRtl?: boolean,
-  reference?: React.RefObject<HTMLInputElement>
+  selectProps?: SelectProps<any>
 ) => {
-  if (type !== 'single-select' && type !== 'multi-select') {
+  if (type === 'multi-select') {
+    return <Select {...selectProps} isMulti />;
+  } else if (type === 'single-select') {
+    return <Select {...selectProps} />;
+  } else {
+    if (!inputProps) {
+      throw new Error('Input props is required for input text types');
+    }
     const groupProps = {
-      inputSize,
-      type,
-      placeholder,
-      isRtl,
-      reference,
+      inputProps,
       orientation,
     };
     return <TextGroupEnd {...groupProps}></TextGroupEnd>;
-  } else if (type === 'single-select') {
-    const options = [
-      {
-        value: 'Option 1',
-        label: 'Option 1',
-      },
-      {
-        value: 'Option 2',
-        label: 'Option 2',
-      },
-      {
-        value: 'Option 3',
-        label: 'Option 3',
-      },
-    ];
-    return (
-      <Select
-        options={options}
-        label="xLarge"
-        size="xLarge"
-        placeholderSlot="Choose an option"
-      />
-    );
   }
 };
 
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
-  isRtl,
-  inputSize,
   types,
-  placeholder,
-  reference,
   orientation = 'horizontal',
+  inputProps,
+  selectProps,
 }) => {
+  // TODO
+  // Use select props and use check the pair prop too
+  const dir = inputProps?.input1?.dir ?? 'ltr';
   return (
-    <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
+    <Container orientation={orientation} dir={dir}>
       {determineInputStart(
-        inputSize,
         types && types.input1 ? types.input1 : 'text',
-        placeholder?.input1,
+        inputProps?.input1,
         orientation,
-        isRtl,
-        reference?.input1
+        selectProps?.input1
       )}
       {determineInputEnd(
-        inputSize,
-        types && types.input2 ? types.input2 : 'text',
-        placeholder?.input2,
+        types && types.input1 ? types.input1 : 'text',
+        inputProps?.input2,
         orientation,
-        isRtl,
-        reference?.input2
+        selectProps?.input2
       )}
     </Container>
   );

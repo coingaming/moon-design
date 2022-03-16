@@ -1,15 +1,26 @@
 import React from 'react';
 import { TextInputGroup } from '@heathmont/moon-core';
 
-const Example = () => (
-  <TextInputGroup
-    inputSize="medium"
-    orientation="vertical"
-    placeholder={{
-      input1: 'Country',
-      input2: 'Phone',
-    }}
-  />
-);
+const Example = () => {
+  const inputProps1 = {
+    inputSize: 'medium',
+    placeholder: 'Country',
+  };
+
+  const inputProps2 = {
+    inputSize: 'medium',
+    placeholder: 'Phone',
+  };
+
+  return (
+    <TextInputGroup
+      orientation="vertical"
+      inputProps={{
+        input1: inputProps1,
+        input2: inputProps2,
+      }}
+    />
+  );
+};
 
 export default Example;

@@ -36,7 +36,7 @@ const Example = () => {
           input1: selectProps1,
           input2: selectProps2,
         }}
-        types={{ input1: 'single-select', input2: 'single-select' }}
+        types={{ input1: 'multi-select', input2: 'multi-select' }}
       />
     </div>
   );

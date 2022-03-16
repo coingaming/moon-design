@@ -11,9 +11,7 @@ exports[`TextInputGroup renders 1`] = `
   >
     <input
       className="Input-qkdgvx-0 kjDrDt"
-      dir="ltr"
       placeholder="Country"
-      type="text"
     />
   </div>
   <div
@@ -21,9 +19,7 @@ exports[`TextInputGroup renders 1`] = `
   >
     <input
       className="Input-qkdgvx-0 eKhgR"
-      dir="ltr"
       placeholder="Phone"
-      type="text"
     />
   </div>
 </div>
@@ -42,7 +38,6 @@ exports[`TextInputGroup renders RTL 1`] = `
       className="Input-qkdgvx-0 larYwV"
       dir="rtl"
       placeholder="Country"
-      type="text"
     />
   </div>
   <div
@@ -52,7 +47,6 @@ exports[`TextInputGroup renders RTL 1`] = `
       className="Input-qkdgvx-0 cFxnZN"
       dir="rtl"
       placeholder="Phone"
-      type="text"
     />
   </div>
 </div>
@@ -72,9 +66,7 @@ exports[`TextInputGroup renders and allows access to DOM and values 1`] = `
     >
       <input
         className="Input-qkdgvx-0 kjDrDt"
-        dir="ltr"
         placeholder="Country"
-        type="text"
       />
     </div>
     <div
@@ -82,9 +74,7 @@ exports[`TextInputGroup renders and allows access to DOM and values 1`] = `
     >
       <input
         className="Input-qkdgvx-0 eKhgR"
-        dir="ltr"
         placeholder="Phone"
-        type="text"
       />
     </div>
   </div>
@@ -120,7 +110,6 @@ exports[`TextInputGroup renders different types 1`] = `
   >
     <input
       className="Input-qkdgvx-0 kjDrDt"
-      dir="ltr"
       placeholder="Email"
       type="email"
     />
@@ -133,7 +122,6 @@ exports[`TextInputGroup renders different types 1`] = `
     >
       <input
         className="Input-qkdgvx-0 dsMwXt"
-        dir="ltr"
         placeholder="Password"
         type="password"
       />
@@ -161,9 +149,7 @@ exports[`TextInputGroup renders sizes 1`] = `
       >
         <input
           className="Input-qkdgvx-0 kjDrDt"
-          dir="ltr"
-          placeholder="medium"
-          type="text"
+          placeholder="Country"
         />
       </div>
       <div
@@ -171,9 +157,7 @@ exports[`TextInputGroup renders sizes 1`] = `
       >
         <input
           className="Input-qkdgvx-0 eKhgR"
-          dir="ltr"
-          placeholder="medium"
-          type="text"
+          placeholder="Phone"
         />
       </div>
     </div>
@@ -189,9 +173,7 @@ exports[`TextInputGroup renders sizes 1`] = `
       >
         <input
           className="Input-qkdgvx-0 iBiNFC"
-          dir="ltr"
-          placeholder="large"
-          type="text"
+          placeholder="Country"
         />
       </div>
       <div
@@ -199,9 +181,7 @@ exports[`TextInputGroup renders sizes 1`] = `
       >
         <input
           className="Input-qkdgvx-0 ccQrwK"
-          dir="ltr"
-          placeholder="large"
-          type="text"
+          placeholder="Phone"
         />
       </div>
     </div>
@@ -220,9 +200,7 @@ exports[`TextInputGroup renders sizes 1`] = `
         >
           <input
             className="Input-qkdgvx-0 jpvmtN"
-            dir="ltr"
-            placeholder="xlarge"
-            type="text"
+            placeholder="Country"
           />
           <label
             className="LabelInner-vrrjt0-0 foFqgl"
@@ -237,9 +215,7 @@ exports[`TextInputGroup renders sizes 1`] = `
         >
           <input
             className="Input-qkdgvx-0 kskBtR"
-            dir="ltr"
-            placeholder="xlarge"
-            type="text"
+            placeholder="Phone"
           />
           <label
             className="LabelInner-vrrjt0-0 foFqgl"
@@ -262,9 +238,7 @@ exports[`TextInputGroup renders vertical 1`] = `
   >
     <input
       className="Input-qkdgvx-0 idvNjJ"
-      dir="ltr"
       placeholder="Country"
-      type="text"
     />
   </div>
   <div
@@ -272,9 +246,7 @@ exports[`TextInputGroup renders vertical 1`] = `
   >
     <input
       className="Input-qkdgvx-0 kusVSZ"
-      dir="ltr"
       placeholder="Phone"
-      type="text"
     />
   </div>
 </div>

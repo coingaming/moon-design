@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Default from '../../public/examples/textInputGroup/Default';
+import MultiSelect from '../../public/examples/textInputGroup/MultiSelect';
 import Rtl from '../../public/examples/textInputGroup/Rtl';
 import SingleSelect from '../../public/examples/textInputGroup/SingleSelect';
 import Sizes from '../../public/examples/textInputGroup/Sizes';
@@ -29,15 +30,7 @@ export default function PageTextInputGroup() {
 
       <section className="mt-8">
         <Preview
-          title="Single Select"
-          preview={<SingleSelect />}
-          code={examples ? examples.SingleSelect : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Vertical"
+          title="Vertical orientation"
           preview={<Vertical />}
           code={examples ? examples.Vertical : 'Loading'}
         />
@@ -61,9 +54,25 @@ export default function PageTextInputGroup() {
 
       <section className="mt-8">
         <Preview
-          title="Types"
+          title="Text type variants"
           preview={<Types />}
           code={examples ? examples.Types : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Single Select variant"
+          preview={<SingleSelect />}
+          code={examples ? examples.SingleSelect : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Multi Select variant"
+          preview={<MultiSelect />}
+          code={examples ? examples.MultiSelect : 'Loading'}
         />
       </section>
 
@@ -80,25 +89,30 @@ export default function PageTextInputGroup() {
         <Table
           data={[
             {
-              name: 'inputSize',
-              type: 'medium | large | xlarge',
-              required: true,
-              default: 'medium',
-              description: 'Input size',
-            },
-            {
               name: 'types',
-              type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
+              type: `object { 
+                      input1: TextInputTypes | single-select | multi-select, 
+                      input2: TextInputTypes | single-select | multi-select 
+                    }`,
               required: false,
-              default: '{ input1: "text", input2: "text" }',
-              description: 'Different types of input',
+              default: 'false',
+              description: 'Type of each of the input fields',
             },
             {
-              name: 'placeholder',
-              type: 'object { input1: string, input2: string }',
-              required: false,
+              name: 'inputProps',
+              type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
+              required: true,
               default: '-',
-              description: 'Placeholder for the fields',
+              description:
+                'Props for the text input fields. See TextInput component. (Required only if type is not specified or type is one of the text field types.)',
+            },
+            {
+              name: 'selectProps',
+              type: 'object { input1: SelectProps, input2: SelectProps }',
+              required: true,
+              default: '-',
+              description:
+                'Props for the select fields. See Single Select and Multi Select components. (Required only if type is one of the select types.)',
             },
             {
               name: 'orientation',
@@ -106,21 +120,6 @@ export default function PageTextInputGroup() {
               required: false,
               default: 'horizontal',
               description: 'How the fields are positioned with one another',
-            },
-            {
-              name: 'isRtl',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Text direction',
-            },
-            {
-              name: 'reference',
-              type: 'object { input1: React.Ref, input2: React.Ref }',
-              required: false,
-              default: '-',
-              description:
-                'Pass references to obtain handles to the <input> elements',
             },
           ]}
         />
