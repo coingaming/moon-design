@@ -63,6 +63,12 @@ type CustomProps = {
   isError?: boolean;
   theme: Theme;
   isRtl?: boolean;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 };
 
 export type SelectProps = {

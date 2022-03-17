@@ -1,48 +1,49 @@
 import React from 'react';
-import { TextInputProps } from '..';
-import TextGroupEnd from './private/TextGroupEnd';
-import TextGroupStart from './private/TextGroupStart';
+
+import SelectGroupEnd from './private/SelectGroupEnd';
+import SelectGroupStart from './private/SelectGroupStart';
 import { OrientationType } from './private/types/OrientationType';
+import { SelectProps } from './Select';
 import Container from './styles/Container';
 
 export interface TextInputGroupProps {
   orientation?: OrientationType;
-  inputProps?: {
-    input1?: TextInputProps;
-    input2?: TextInputProps;
+  selectProps?: {
+    input1?: SelectProps<any>;
+    input2?: SelectProps<any>;
   };
   isRtl?: boolean;
 }
 
 const determineInputStart = (
-  inputProps?: TextInputProps,
   orientation?: OrientationType,
+  selectProps?: SelectProps<any>,
   isRtl?: boolean
 ) => {
   const groupProps = {
-    inputProps,
+    selectProps: selectProps ?? {},
     orientation,
     isRtl,
   };
-  return <TextGroupStart {...groupProps}></TextGroupStart>;
+  return <SelectGroupStart {...groupProps} />;
 };
 
 const determineInputEnd = (
-  inputProps?: TextInputProps,
   orientation?: OrientationType,
+  selectProps?: SelectProps<any>,
   isRtl?: boolean
 ) => {
   const groupProps = {
-    inputProps,
+    selectProps: selectProps ?? {},
     orientation,
     isRtl,
   };
-  return <TextGroupEnd {...groupProps}></TextGroupEnd>;
+  return <SelectGroupEnd {...groupProps} />;
 };
 
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
   orientation = 'horizontal',
-  inputProps,
+  selectProps,
   isRtl,
 }) => {
   // TODO
@@ -50,8 +51,8 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   const dir = isRtl ? 'rtl' : 'ltr';
   return (
     <Container orientation={orientation} dir={dir}>
-      {determineInputStart(inputProps?.input1, orientation, isRtl)}
-      {determineInputEnd(inputProps?.input2, orientation, isRtl)}
+      {determineInputStart(orientation, selectProps?.input1, isRtl)}
+      {determineInputEnd(orientation, selectProps?.input2, isRtl)}
     </Container>
   );
 };

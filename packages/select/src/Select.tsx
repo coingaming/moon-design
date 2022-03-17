@@ -23,7 +23,7 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-type SelectProps<T> = {
+export type SelectProps<T> = {
   isCustomControl?: boolean;
   headerSlot?: JSX.Element;
   footerSlot?: JSX.Element;

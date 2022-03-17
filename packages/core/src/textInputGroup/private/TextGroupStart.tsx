@@ -3,7 +3,7 @@ import { TextInput, TextInputProps } from '../..';
 import { OrientationType } from './types/OrientationType';
 
 export interface TextGroupStartProps {
-  inputProps: TextInputProps;
+  inputProps?: TextInputProps;
   orientation?: OrientationType;
   isRtl?: boolean;
 }
@@ -15,7 +15,7 @@ const TextGroupStart: React.FC<TextGroupStartProps> = ({
 }) => {
   return (
     <TextInput
-      {...inputProps}
+      {...(inputProps ?? { inputSize: 'medium', type: 'text' })}
       dir={isRtl ? 'rtl' : 'ltr'}
       isSharpRightSide={orientation === 'horizontal' && !isRtl}
       isSharpLeftSide={orientation === 'horizontal' && isRtl}

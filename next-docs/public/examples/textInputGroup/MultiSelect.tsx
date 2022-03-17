@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInputGroup } from '@heathmont/moon-core';
+import { TextInputGroup } from '@heathmont/moon-select';
 
 const Example = () => {
   const options = [
@@ -22,21 +22,24 @@ const Example = () => {
     label: 'xLarge',
     size: 'xLarge',
     placeholderSlot: 'Choose an option',
+    isMulti: true,
+    amountOfVisibleItems: 3,
   };
   const selectProps2 = {
     options,
     label: 'xLarge',
     size: 'xLarge',
     placeholderSlot: 'Choose an option',
+    isMulti: true,
+    amountOfVisibleItems: 3,
   };
   return (
-    <div className="flex items-end flex-wrap pb-44">
+    <div className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40">
       <TextInputGroup
         selectProps={{
           input1: selectProps1,
           input2: selectProps2,
         }}
-        types={{ input1: 'multi-select', input2: 'multi-select' }}
       />
     </div>
   );
