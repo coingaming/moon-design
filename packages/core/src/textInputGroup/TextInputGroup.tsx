@@ -1,7 +1,8 @@
 import React from 'react';
-import { Select , SelectProps } from '@heathmont/moon-select';
-
+import { Select, SelectProps } from '@heathmont/moon-select';
 import { TextInputProps } from '..';
+import SelectGroupEnd from './private/SelectGroupEnd';
+import SelectGroupStart from './private/SelectGroupStart';
 import TextGroupEnd from './private/TextGroupEnd';
 import TextGroupStart from './private/TextGroupStart';
 import { OrientationType } from './private/types/OrientationType';
@@ -22,18 +23,23 @@ export interface TextInputGroupProps {
     input1?: SelectProps<any>;
     input2?: SelectProps<any>;
   };
+  isRtl?: boolean;
 }
 
 const determineInputStart = (
   type: TextInputGroupTypes,
   inputProps?: TextInputProps,
   orientation?: OrientationType,
-  selectProps?: SelectProps<any>
+  selectProps?: SelectProps<any>,
+  isRtl?: boolean
 ) => {
-  if (type === 'multi-select') {
-    return <Select {...selectProps} isMulti />;
-  } else if (type === 'single-select') {
-    return <Select {...selectProps} />;
+  if (type === 'multi-select' || type === 'single-select') {
+    const groupProps = {
+      selectProps,
+      orientation,
+      isMulti: type === 'multi-select',
+    };
+    return <SelectGroupStart {...groupProps} />;
   } else {
     if (!inputProps) {
       throw new Error('Input props is required for input text types');
@@ -41,6 +47,7 @@ const determineInputStart = (
     const groupProps = {
       inputProps,
       orientation,
+      isRtl,
     };
     return <TextGroupStart {...groupProps}></TextGroupStart>;
   }
@@ -50,12 +57,16 @@ const determineInputEnd = (
   type: TextInputGroupTypes,
   inputProps?: TextInputProps,
   orientation?: OrientationType,
-  selectProps?: SelectProps<any>
+  selectProps?: SelectProps<any>,
+  isRtl?: boolean
 ) => {
-  if (type === 'multi-select') {
-    return <Select {...selectProps} isMulti />;
-  } else if (type === 'single-select') {
-    return <Select {...selectProps} />;
+  if (type === 'multi-select' || type === 'single-select') {
+    const groupProps = {
+      selectProps,
+      orientation,
+      isMulti: type === 'multi-select',
+    };
+    return <SelectGroupEnd {...groupProps} />;
   } else {
     if (!inputProps) {
       throw new Error('Input props is required for input text types');
@@ -63,6 +74,7 @@ const determineInputEnd = (
     const groupProps = {
       inputProps,
       orientation,
+      isRtl,
     };
     return <TextGroupEnd {...groupProps}></TextGroupEnd>;
   }
@@ -73,23 +85,26 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   orientation = 'horizontal',
   inputProps,
   selectProps,
+  isRtl,
 }) => {
   // TODO
   // Use select props and use check the pair prop too
-  const dir = inputProps?.input1?.dir ?? 'ltr';
+  const dir = isRtl ? 'rtl' : 'ltr';
   return (
     <Container orientation={orientation} dir={dir}>
       {determineInputStart(
         types && types.input1 ? types.input1 : 'text',
         inputProps?.input1,
         orientation,
-        selectProps?.input1
+        selectProps?.input1,
+        isRtl
       )}
       {determineInputEnd(
         types && types.input1 ? types.input1 : 'text',
         inputProps?.input2,
         orientation,
-        selectProps?.input2
+        selectProps?.input2,
+        isRtl
       )}
     </Container>
   );

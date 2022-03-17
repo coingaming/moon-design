@@ -121,6 +121,13 @@ export default function PageTextInputGroup() {
               default: 'horizontal',
               description: 'How the fields are positioned with one another',
             },
+            {
+              name: 'isRtl',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Text direction',
+            },
           ]}
         />
       </section>

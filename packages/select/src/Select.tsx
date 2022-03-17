@@ -35,6 +35,12 @@ type SelectProps<T> = {
   size?: 'large' | 'xLarge';
   amountOfVisibleItems?: number;
   isError?: boolean;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isNoBorderBottom?: boolean;
+  isNoBorderEnd?: boolean;
 } & ReactSelectProps<T>;
 
 const Select = <T extends BaseOptionType>({
@@ -53,6 +59,12 @@ const Select = <T extends BaseOptionType>({
   size = 'large',
   isMulti,
   closeMenuOnSelect,
+  isSharpLeftSide,
+  isSharpRightSide,
+  isSharpTopSide,
+  isSharpBottomSide,
+  isNoBorderBottom,
+  isNoBorderEnd,
   ...rest
 }: SelectProps<T>) => {
   const menuRef = useRef(null);
@@ -98,6 +110,12 @@ const Select = <T extends BaseOptionType>({
         size,
         amountOfVisibleItems,
         isError,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide,
+        isNoBorderBottom,
+        isNoBorderEnd,
       }}
       theme={(theme) => ({
         ...theme,

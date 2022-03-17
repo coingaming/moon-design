@@ -1,27 +1,29 @@
 import React from 'react';
-import { TextInput, TextInputProps } from '../..';
+import { Select, SelectProps } from '@heathmont/moon-select';
 import { OrientationType } from './types/OrientationType';
 
-export interface TextGroupStartProps {
-  inputProps: TextInputProps;
+export interface SelectGroupEndProps {
+  selectProps: SelectProps<any>;
   orientation?: OrientationType;
+  isMulti?: boolean;
   isRtl?: boolean;
 }
 
-const TextGroupStart: React.FC<TextGroupStartProps> = ({
-  inputProps,
+const SelectGroupStart: React.FC<SelectGroupEndProps> = ({
+  selectProps,
   orientation,
+  isMulti,
   isRtl,
 }) => {
   return (
-    <TextInput
-      {...inputProps}
-      dir={isRtl ? 'rtl' : 'ltr'}
+    <Select
+      {...selectProps}
+      isMulti={isMulti}
       isSharpRightSide={orientation === 'horizontal' && isRtl}
       isSharpLeftSide={orientation === 'horizontal' && !isRtl}
       isSharpTopSide={orientation === 'vertical'}
-    ></TextInput>
+    />
   );
 };
 
-export default TextGroupStart;
+export default SelectGroupStart;
