@@ -2,7 +2,7 @@
 
 exports[`TextInputGroup renders 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 gCYGcX"
+  className="Container-sc-1ltt7k8-0 RokEj"
   dir="ltr"
   orientation="horizontal"
 >
@@ -10,7 +10,7 @@ exports[`TextInputGroup renders 1`] = `
     className="Container-sc-1f49upb-0 fVKDpE"
   >
     <input
-      className="Input-qkdgvx-0 kjDrDt"
+      className="Input-qkdgvx-0 bltfjM"
       dir="ltr"
       placeholder="Country"
       type="text"
@@ -20,7 +20,7 @@ exports[`TextInputGroup renders 1`] = `
     className="Container-sc-1f49upb-0 fVKDpE"
   >
     <input
-      className="Input-qkdgvx-0 eKhgR"
+      className="Input-qkdgvx-0 dActrM"
       dir="ltr"
       placeholder="Phone"
       type="text"
@@ -31,7 +31,7 @@ exports[`TextInputGroup renders 1`] = `
 
 exports[`TextInputGroup renders RTL 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 gCYGcX"
+  className="Container-sc-1ltt7k8-0 RokEj"
   dir="rtl"
   orientation="horizontal"
 >
@@ -39,7 +39,7 @@ exports[`TextInputGroup renders RTL 1`] = `
     className="Container-sc-1f49upb-0 fVKDpE"
   >
     <input
-      className="Input-qkdgvx-0 larYwV"
+      className="Input-qkdgvx-0 dActrM"
       dir="rtl"
       placeholder="Country"
       type="text"
@@ -49,7 +49,7 @@ exports[`TextInputGroup renders RTL 1`] = `
     className="Container-sc-1f49upb-0 fVKDpE"
   >
     <input
-      className="Input-qkdgvx-0 cFxnZN"
+      className="Input-qkdgvx-0 bltfjM"
       dir="rtl"
       placeholder="Phone"
       type="text"
@@ -63,7 +63,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   className="flex flex-col gap-3"
 >
   <div
-    className="Container-sc-1ltt7k8-0 gCYGcX"
+    className="Container-sc-1ltt7k8-0 RokEj"
     dir="ltr"
     orientation="horizontal"
   >
@@ -71,7 +71,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 kjDrDt"
+        className="Input-qkdgvx-0 bltfjM"
         dir="ltr"
         placeholder="Country"
         type="text"
@@ -81,7 +81,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
       className="Container-sc-1f49upb-0 fVKDpE"
     >
       <input
-        className="Input-qkdgvx-0 eKhgR"
+        className="Input-qkdgvx-0 dActrM"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -114,7 +114,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full"
 >
   <div
-    className="Container-h5iq2h-0 dWwoyJ"
+    className="Container-h5iq2h-0 faIKZv"
     dir="ltr"
     orientation="horizontal"
   >
@@ -326,7 +326,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
 
 exports[`TextInputGroup renders different types 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 gCYGcX"
+  className="Container-sc-1ltt7k8-0 RokEj"
   dir="ltr"
   orientation="horizontal"
 >
@@ -334,7 +334,7 @@ exports[`TextInputGroup renders different types 1`] = `
     className="Container-sc-1f49upb-0 fVKDpE"
   >
     <input
-      className="Input-qkdgvx-0 kjDrDt"
+      className="Input-qkdgvx-0 bltfjM"
       dir="ltr"
       placeholder="Email"
       type="email"
@@ -347,7 +347,7 @@ exports[`TextInputGroup renders different types 1`] = `
       className="Inner-sc-1soq84i-0 PghWO"
     >
       <input
-        className="Input-qkdgvx-0 dsMwXt"
+        className="Input-qkdgvx-0 dvfdcM"
         dir="ltr"
         placeholder="Password"
         type="password"
@@ -366,7 +366,7 @@ exports[`TextInputGroup renders multi select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 dWwoyJ"
+    className="Container-h5iq2h-0 faIKZv"
     dir="ltr"
     orientation="horizontal"
   >
@@ -563,7 +563,7 @@ exports[`TextInputGroup renders single select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 dWwoyJ"
+    className="Container-h5iq2h-0 faIKZv"
     dir="ltr"
     orientation="horizontal"
   >
@@ -760,7 +760,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 dWwoyJ"
+    className="Container-h5iq2h-0 faIKZv"
     dir="rtl"
     orientation="horizontal"
   >
@@ -958,7 +958,7 @@ exports[`TextInputGroup renders sizes 1`] = `
 >
   <div>
     <div
-      className="Container-sc-1ltt7k8-0 gCYGcX"
+      className="Container-sc-1ltt7k8-0 RokEj"
       dir="ltr"
       orientation="horizontal"
     >
@@ -966,7 +966,7 @@ exports[`TextInputGroup renders sizes 1`] = `
         className="Container-sc-1f49upb-0 fVKDpE"
       >
         <input
-          className="Input-qkdgvx-0 kjDrDt"
+          className="Input-qkdgvx-0 bltfjM"
           dir="ltr"
           placeholder="Country"
           type="text"
@@ -976,7 +976,7 @@ exports[`TextInputGroup renders sizes 1`] = `
         className="Container-sc-1f49upb-0 fVKDpE"
       >
         <input
-          className="Input-qkdgvx-0 eKhgR"
+          className="Input-qkdgvx-0 dActrM"
           dir="ltr"
           placeholder="Phone"
           type="text"
@@ -986,7 +986,7 @@ exports[`TextInputGroup renders sizes 1`] = `
   </div>
   <div>
     <div
-      className="Container-sc-1ltt7k8-0 gCYGcX"
+      className="Container-sc-1ltt7k8-0 RokEj"
       dir="ltr"
       orientation="horizontal"
     >
@@ -994,7 +994,7 @@ exports[`TextInputGroup renders sizes 1`] = `
         className="Container-sc-1f49upb-0 fVKDpE"
       >
         <input
-          className="Input-qkdgvx-0 iBiNFC"
+          className="Input-qkdgvx-0 eDPif"
           dir="ltr"
           placeholder="Country"
           type="text"
@@ -1004,7 +1004,7 @@ exports[`TextInputGroup renders sizes 1`] = `
         className="Container-sc-1f49upb-0 fVKDpE"
       >
         <input
-          className="Input-qkdgvx-0 ccQrwK"
+          className="Input-qkdgvx-0 dqRQKf"
           dir="ltr"
           placeholder="Phone"
           type="text"
@@ -1014,7 +1014,7 @@ exports[`TextInputGroup renders sizes 1`] = `
   </div>
   <div>
     <div
-      className="Container-sc-1ltt7k8-0 gCYGcX"
+      className="Container-sc-1ltt7k8-0 RokEj"
       dir="ltr"
       orientation="horizontal"
     >
@@ -1025,7 +1025,7 @@ exports[`TextInputGroup renders sizes 1`] = `
           className="Inner-sc-1soq84i-0 XqqD"
         >
           <input
-            className="Input-qkdgvx-0 jpvmtN"
+            className="Input-qkdgvx-0 kfXuPA"
             dir="ltr"
             placeholder="Country"
             type="text"
@@ -1042,7 +1042,7 @@ exports[`TextInputGroup renders sizes 1`] = `
           className="Inner-sc-1soq84i-0 XqqD"
         >
           <input
-            className="Input-qkdgvx-0 kskBtR"
+            className="Input-qkdgvx-0 inmWaU"
             dir="ltr"
             placeholder="Phone"
             type="text"
@@ -1059,7 +1059,7 @@ exports[`TextInputGroup renders sizes 1`] = `
 
 exports[`TextInputGroup renders vertical 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 iteaUT"
+  className="Container-sc-1ltt7k8-0 jKHuqw"
   dir="ltr"
   orientation="vertical"
 >
@@ -1067,7 +1067,7 @@ exports[`TextInputGroup renders vertical 1`] = `
     className="Container-sc-1f49upb-0 fVKDpE"
   >
     <input
-      className="Input-qkdgvx-0 idvNjJ"
+      className="Input-qkdgvx-0 dUXsSd"
       dir="ltr"
       placeholder="Country"
       type="text"

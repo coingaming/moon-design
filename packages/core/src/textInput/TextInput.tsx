@@ -24,7 +24,7 @@ export interface TextInputProps
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
   isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isNoSideBorder?: boolean;
 }
 
 const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {

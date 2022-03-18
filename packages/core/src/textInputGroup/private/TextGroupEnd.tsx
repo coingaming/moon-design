@@ -20,6 +20,7 @@ const TextGroupStart: React.FC<TextGroupStartProps> = ({
       isSharpRightSide={orientation === 'horizontal' && isRtl}
       isSharpLeftSide={orientation === 'horizontal' && !isRtl}
       isSharpTopSide={orientation === 'vertical'}
+      isNoSideBorder={orientation === 'horizontal'}
     ></TextInput>
   );
 };
