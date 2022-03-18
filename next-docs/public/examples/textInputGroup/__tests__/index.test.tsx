@@ -12,6 +12,7 @@ import MultiSelect from '../MultiSelect';
 import Rtl from '../Rtl';
 import SingleSelect from '../SingleSelect';
 import SingleSelectRtl from '../SingleSelectRtl';
+import SingleSelectVertical from '../SingleSelectVertical';
 import Sizes from '../Sizes';
 import Types from '../Types';
 import Vertical from '../Vertical';
@@ -58,6 +59,13 @@ describe('TextInputGroup', () => {
 
   it('renders multi select', () => {
     const testRenderer = renderer.create(renderWithTheme(<MultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders single select vertical', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<SingleSelectVertical />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

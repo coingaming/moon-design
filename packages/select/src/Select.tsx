@@ -40,8 +40,8 @@ export type SelectProps<T> = {
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isNoTopBottomBorder?: boolean;
+  isNoSideBorder?: boolean;
   isRtl?: boolean;
 } & ReactSelectProps<T>;
 
@@ -66,8 +66,8 @@ const Select = <T extends BaseOptionType>(
     isSharpRightSide,
     isSharpTopSide,
     isSharpBottomSide,
-    isNoBorderBottom,
-    isNoBorderEnd,
+    isNoTopBottomBorder,
+    isNoSideBorder,
     ...rest
   }: SelectProps<T>,
   ref?: Ref<HTMLFormElement>
@@ -119,8 +119,8 @@ const Select = <T extends BaseOptionType>(
         isSharpRightSide,
         isSharpTopSide,
         isSharpBottomSide,
-        isNoBorderBottom,
-        isNoBorderEnd,
+        isNoTopBottomBorder,
+        isNoSideBorder,
       }}
       theme={(theme) => ({
         ...theme,

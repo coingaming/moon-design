@@ -26,8 +26,8 @@ const SelectGroupStart: React.FC<SelectGroupStartProps> = ({
         isSharpRightSide={orientation === 'horizontal' && !isRtl}
         isSharpLeftSide={orientation === 'horizontal' && isRtl}
         isSharpBottomSide={orientation === 'vertical'}
-        isNoBorderBottom={orientation === 'vertical'}
-        isNoBorderEnd={orientation === 'horizontal'}
+        isNoTopBottomBorder={orientation === 'vertical'}
+        isNoSideBorder={orientation === 'horizontal'}
       />
     </Wrapper>
   );

@@ -3,12 +3,16 @@ import { rem } from '@heathmont/moon-utils';
 import { StylesConfig, Props } from 'react-select';
 
 const makeBorderRadius = (
+  state: any,
   borderRadius: SharedTheme['newTokens']['borderRadius'],
   isSharpLeftSide?: boolean,
   isSharpRightSide?: boolean,
   isSharpTopSide?: boolean,
   isSharpBottomSide?: boolean
 ) => {
+  if (state.isFocused) {
+    return {};
+  }
   return {
     borderTopLeftRadius:
       isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
@@ -22,27 +26,25 @@ const makeBorderRadius = (
 };
 
 const makeBorder = (
+  state: any,
   border: SharedTheme['newTokens']['border'],
-  isRtl?: boolean,
-  isNoBorderEnd?: boolean,
-  isNoBorderBottom?: boolean
+  isNoSideBorder?: boolean,
+  isNoTopBottomBorder?: boolean
 ) => {
-  if (isNoBorderEnd && isRtl) {
+  if (isNoSideBorder && !state.isFocused) {
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} -${border.width.default} -${border.width.default} ${border.width.default})`,
+        clipPath: `inset(-${border.width.default} ${rem(2)} -${
+          border.width.default
+        } ${rem(2)})`,
       },
     };
-  } else if (isNoBorderEnd) {
+  } else if (isNoTopBottomBorder && !state.isFocused) {
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} ${border.width.default} -${border.width.default} -${border.width.default})`,
-      },
-    };
-  } else if (isNoBorderBottom) {
-    return {
-      '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} -${border.width.default} ${border.width.default} -${border.width.default})`,
+        clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
+          border.width.default
+        })`,
       },
     };
   }
@@ -67,8 +69,8 @@ type CustomProps = {
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isNoTopBottomBorder?: boolean;
+  isNoSideBorder?: boolean;
 };
 
 export type SelectProps = {
@@ -134,14 +136,13 @@ const CustomStyles: StylesConfig = {
     const selectProps = state.selectProps as SelectProps;
     const customProps = selectProps['data-customProps'];
     const theme = customProps.theme;
-    const isRtl = customProps.isRtl;
     const {
       isSharpLeftSide,
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderEnd,
-      isNoBorderBottom,
+      isNoSideBorder,
+      isNoTopBottomBorder,
     } = customProps;
 
     return {
@@ -162,6 +163,7 @@ const CustomStyles: StylesConfig = {
         : `inset 0 0 0 ${theme.newTokens.border.width.default} ${theme.colorNew.beerus}`,
 
       ...makeBorderRadius(
+        state,
         theme.newTokens.borderRadius,
         isSharpLeftSide,
         isSharpRightSide,
@@ -169,10 +171,10 @@ const CustomStyles: StylesConfig = {
         isSharpBottomSide
       ),
       ...makeBorder(
+        state,
         theme.newTokens.border,
-        isRtl,
-        isNoBorderEnd,
-        isNoBorderBottom
+        isNoSideBorder,
+        isNoTopBottomBorder
       ),
 
       transition:
@@ -187,6 +189,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
           : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
         cursor: 'pointer',
+        borderRadius: theme.newTokens.borderRadius.large,
       },
     };
   },
