@@ -2,7 +2,7 @@
 
 exports[`TextInputGroup renders 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 cZSmfD"
+  className="Container-sc-1ltt7k8-0 dteSXK"
   dir="ltr"
   orientation="horizontal"
 >
@@ -31,7 +31,7 @@ exports[`TextInputGroup renders 1`] = `
 
 exports[`TextInputGroup renders RTL 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 cZSmfD"
+  className="Container-sc-1ltt7k8-0 dteSXK"
   dir="rtl"
   orientation="horizontal"
 >
@@ -63,7 +63,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   className="flex flex-col gap-3"
 >
   <div
-    className="Container-sc-1ltt7k8-0 cZSmfD"
+    className="Container-sc-1ltt7k8-0 dteSXK"
     dir="ltr"
     orientation="horizontal"
   >
@@ -114,7 +114,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full"
 >
   <div
-    className="Container-h5iq2h-0 kSsawr"
+    className="Container-h5iq2h-0 daiqDS"
     dir="ltr"
     orientation="horizontal"
   >
@@ -326,7 +326,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
 
 exports[`TextInputGroup renders different types 1`] = `
 <div
-  className="Container-sc-1ltt7k8-0 cZSmfD"
+  className="Container-sc-1ltt7k8-0 dteSXK"
   dir="ltr"
   orientation="horizontal"
 >
@@ -366,7 +366,7 @@ exports[`TextInputGroup renders multi select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 kSsawr"
+    className="Container-h5iq2h-0 daiqDS"
     dir="ltr"
     orientation="horizontal"
   >
@@ -563,7 +563,7 @@ exports[`TextInputGroup renders single select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 kSsawr"
+    className="Container-h5iq2h-0 daiqDS"
     dir="ltr"
     orientation="horizontal"
   >
@@ -760,7 +760,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 kSsawr"
+    className="Container-h5iq2h-0 daiqDS"
     dir="rtl"
     orientation="horizontal"
   >
@@ -957,7 +957,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="Container-h5iq2h-0 dXhieo"
+    className="Container-h5iq2h-0 fjBsGN"
     dir="ltr"
     orientation="vertical"
   >
@@ -1155,7 +1155,7 @@ exports[`TextInputGroup renders sizes 1`] = `
 >
   <div>
     <div
-      className="Container-sc-1ltt7k8-0 cZSmfD"
+      className="Container-sc-1ltt7k8-0 dteSXK"
       dir="ltr"
       orientation="horizontal"
     >
@@ -1183,7 +1183,7 @@ exports[`TextInputGroup renders sizes 1`] = `
   </div>
   <div>
     <div
-      className="Container-sc-1ltt7k8-0 cZSmfD"
+      className="Container-sc-1ltt7k8-0 dteSXK"
       dir="ltr"
       orientation="horizontal"
     >
@@ -1211,7 +1211,7 @@ exports[`TextInputGroup renders sizes 1`] = `
   </div>
   <div>
     <div
-      className="Container-sc-1ltt7k8-0 cZSmfD"
+      className="Container-sc-1ltt7k8-0 fbiziX"
       dir="ltr"
       orientation="horizontal"
     >
@@ -1259,7 +1259,7 @@ exports[`TextInputGroup renders vertical 1`] = `
   className="flex items-center gap-8 flex-wrap w-full justify-center ps-40 pe-40 flex-col"
 >
   <div
-    className="Container-sc-1ltt7k8-0 eSEtwo"
+    className="Container-sc-1ltt7k8-0 iTzYVJ"
     dir="ltr"
     orientation="vertical"
   >
@@ -1285,7 +1285,7 @@ exports[`TextInputGroup renders vertical 1`] = `
     </div>
   </div>
   <div
-    className="Container-sc-1ltt7k8-0 eSEtwo"
+    className="Container-sc-1ltt7k8-0 ePBajI"
     dir="ltr"
     orientation="vertical"
   >

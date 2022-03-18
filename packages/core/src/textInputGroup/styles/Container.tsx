@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 interface Props {
   orientation?: 'vertical' | 'horizontal';
+  isXLarge?: boolean;
 }
 
 const Container = styled.div<Props>(
-  ({ orientation, theme: { newTokens, colorNew } }) => [
+  ({ orientation, isXLarge, theme: { newTokens, colorNew } }) => [
     {
       display: 'flex',
       flexDirection: orientation === 'horizontal' ? 'row' : 'column',
@@ -27,13 +28,16 @@ const Container = styled.div<Props>(
         background: colorNew.beerus,
         zIndex: 3,
       },
-      padding: '0 1px',
       '&:hover, &:focus-within': {
         '&::after': {
           display: 'none',
         },
       },
     },
+    isXLarge &&
+      orientation === 'horizontal' && {
+        padding: '0 1px',
+      },
     orientation === 'vertical' && {
       '&::after': {
         content: '""',
@@ -47,13 +51,16 @@ const Container = styled.div<Props>(
         background: colorNew.beerus,
         zIndex: 3,
       },
-      padding: '1px 0',
       '&:hover, &:focus-within': {
         '&::after': {
           display: 'none',
         },
       },
     },
+    isXLarge &&
+      orientation === 'vertical' && {
+        padding: '1px 0',
+      },
   ]
 );
 

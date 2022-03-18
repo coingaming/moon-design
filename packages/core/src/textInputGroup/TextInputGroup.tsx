@@ -46,8 +46,11 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   isRtl,
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
+  const isXLarge =
+    inputProps?.input1?.inputSize === 'xlarge' ||
+    inputProps?.input2?.inputSize === 'xlarge';
   return (
-    <Container orientation={orientation} dir={dir}>
+    <Container orientation={orientation} dir={dir} isXLarge={isXLarge}>
       {determineInputStart(inputProps?.input1, orientation, isRtl)}
       {determineInputEnd(inputProps?.input2, orientation, isRtl)}
     </Container>
