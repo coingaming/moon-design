@@ -1,5 +1,30 @@
 # Change Log
 
+## 8.2.0
+
+### Minor Changes
+
+- Carousel async fixes & polished version alignments
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.2.0
+  - @heathmont/moon-core@8.2.0
+  - @heathmont/moon-datepicker@8.2.0
+  - @heathmont/moon-draggabletable@8.2.0
+  - @heathmont/moon-popover@8.2.0
+  - @heathmont/moon-table@8.2.0
+  - @heathmont/moon-utils@8.2.0
+  - @heathmont/moon-accordion@8.2.0
+  - @heathmont/moon-assets@8.2.0
+  - @heathmont/moon-charts@8.2.0
+  - @heathmont/moon-icons@8.2.0
+  - @heathmont/moon-pagination@8.2.0
+  - @heathmont/moon-select@8.2.0
+  - @heathmont/moon-sidebar@8.2.0
+  - @heathmont/moon-themes@8.2.0
+
 ## 8.1.0
 
 ### Minor Changes
