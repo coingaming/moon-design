@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-popover",
   "sideEffects": false,
-  "version": "8.1.0",
+  "version": "8.2.0",
   "files": [
     "lib"
   ],
@@ -21,10 +21,10 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-assets": "workspace:^8.1.0",
-    "@heathmont/moon-components": "workspace:^8.1.0",
-    "@heathmont/moon-themes": "workspace:^8.1.0",
-    "@heathmont/moon-utils": "workspace:^8.1.0",
+    "@heathmont/moon-assets": "workspace:^8.2.0",
+    "@heathmont/moon-components": "workspace:^8.2.0",
+    "@heathmont/moon-themes": "workspace:^8.2.0",
+    "@heathmont/moon-utils": "workspace:^8.2.0",
     "@tippyjs/react": "4.2.0",
     "polished": "4.1.4"
   },
