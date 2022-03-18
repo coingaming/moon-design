@@ -24,7 +24,7 @@
     "@heathmont/moon-themes": "workspace:^8.1.0",
     "lodash.get": "4.4.2",
     "lodash.has": "4.5.2",
-    "polished": "3.4.1"
+    "polished": "4.1.4"
   },
   "devDependencies": {
     "@types/lodash.get": "4.4.6",
