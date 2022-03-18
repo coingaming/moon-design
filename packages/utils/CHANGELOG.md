@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.2.0
+
+### Minor Changes
+
+- Carousel async fixes & polished version alignments
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.2.0
+
 ## 8.1.0
 
 ### Minor Changes
