@@ -24,7 +24,7 @@ interface TextInputMediumProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
+  isNoTopBottomBorder?: boolean;
   isNoSideBorder?: boolean;
 }
 const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
@@ -43,7 +43,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
+      isNoTopBottomBorder,
       isNoSideBorder,
       backgroundColor = 'gohan',
       ...rest
@@ -57,7 +57,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
+      isNoTopBottomBorder,
       isNoSideBorder,
       ...rest,
     };

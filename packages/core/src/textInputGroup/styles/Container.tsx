@@ -14,7 +14,6 @@ const Container = styled.div<Props>(
       boxShadow: `0 0 0 ${newTokens.border.width.default} ${colorNew.beerus} inset`,
       position: 'relative',
       borderRadius: newTokens.borderRadius.large,
-      padding: '0 1px',
     },
     orientation === 'horizontal' && {
       '&::after': {
@@ -28,6 +27,7 @@ const Container = styled.div<Props>(
         background: colorNew.beerus,
         zIndex: 3,
       },
+      padding: '0 1px',
       '&:hover, &:focus-within': {
         '&::after': {
           display: 'none',
@@ -47,6 +47,7 @@ const Container = styled.div<Props>(
         background: colorNew.beerus,
         zIndex: 3,
       },
+      padding: '1px 0',
       '&:hover, &:focus-within': {
         '&::after': {
           display: 'none',

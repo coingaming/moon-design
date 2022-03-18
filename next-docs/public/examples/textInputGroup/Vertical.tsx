@@ -14,14 +14,35 @@ const Example = () => {
     placeholder: 'Phone',
   };
 
+  const inputProps3 = {
+    type: 'text',
+    inputSize: 'xlarge',
+    placeholder: 'Country',
+  };
+
+  const inputProps4 = {
+    type: 'text',
+    inputSize: 'xlarge',
+    placeholder: 'Phone',
+  };
+
   return (
-    <TextInputGroup
-      orientation="vertical"
-      inputProps={{
-        input1: inputProps1,
-        input2: inputProps2,
-      }}
-    />
+    <div className="flex items-center gap-8 flex-wrap w-full justify-center ps-40 pe-40 flex-col">
+      <TextInputGroup
+        orientation="vertical"
+        inputProps={{
+          input1: inputProps1,
+          input2: inputProps2,
+        }}
+      />
+      <TextInputGroup
+        orientation="vertical"
+        inputProps={{
+          input1: inputProps3,
+          input2: inputProps4,
+        }}
+      />
+    </div>
   );
 };
 

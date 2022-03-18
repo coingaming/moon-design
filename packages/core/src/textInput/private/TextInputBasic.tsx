@@ -23,7 +23,7 @@ interface TextInputXSandSmProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
+  isNoTopBottomBorder?: boolean;
   isNoSideBorder?: boolean;
 }
 
@@ -43,7 +43,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
+      isNoTopBottomBorder,
       isNoSideBorder,
       backgroundColor = 'gohan',
       ...rest
@@ -57,7 +57,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
+      isNoTopBottomBorder,
       isNoSideBorder,
       ...rest,
     };
