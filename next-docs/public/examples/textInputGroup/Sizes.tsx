@@ -3,31 +3,37 @@ import { TextInputGroup } from '@heathmont/moon-core';
 
 const Example = () => {
   const inputProps1 = {
+    type: 'text',
     inputSize: 'medium',
     placeholder: 'Country',
   };
 
   const inputProps2 = {
+    type: 'text',
     inputSize: 'medium',
     placeholder: 'Phone',
   };
 
   const inputProps3 = {
+    type: 'text',
     inputSize: 'large',
     placeholder: 'Country',
   };
 
   const inputProps4 = {
+    type: 'text',
     inputSize: 'large',
     placeholder: 'Phone',
   };
 
   const inputProps5 = {
+    type: 'text',
     inputSize: 'xlarge',
     placeholder: 'Country',
   };
 
   const inputProps6 = {
+    type: 'text',
     inputSize: 'xlarge',
     placeholder: 'Phone',
   };

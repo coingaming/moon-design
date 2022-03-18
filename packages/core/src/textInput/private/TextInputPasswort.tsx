@@ -16,7 +16,7 @@ interface TextInputPasswordProps
   id?: string;
   inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
-  type: TextInputTypes;
+  type: TextInputTypes | string;
   placeholder?: string;
   hintText?: JSX.Element | string;
   isError?: boolean;

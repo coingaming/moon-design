@@ -11,7 +11,7 @@ export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
   inputSize: TextInputSizeType | string;
-  type: TextInputTypes;
+  type: TextInputTypes | string;
   label?: JSX.Element | string;
   placeholder?: string;
   hintText?: JSX.Element | string;

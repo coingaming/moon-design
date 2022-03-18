@@ -33,7 +33,7 @@ export type SelectProps<T> = {
   leftSlot?: JSX.Element;
   hintSlot?: JSX.Element | string;
   placeholderSlot?: JSX.Element | string;
-  size?: 'large' | 'xLarge';
+  size?: 'large' | 'xLarge' | string;
   amountOfVisibleItems?: number;
   isError?: boolean;
   isSharpLeftSide?: boolean;

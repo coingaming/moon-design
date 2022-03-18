@@ -3,11 +3,13 @@ import { TextInputGroup } from '@heathmont/moon-core';
 
 const Example = () => {
   const inputProps1 = {
+    type: 'text',
     inputSize: 'medium',
     placeholder: 'Country',
   };
 
   const inputProps2 = {
+    type: 'text',
     inputSize: 'medium',
     placeholder: 'Phone',
   };
