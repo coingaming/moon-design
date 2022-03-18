@@ -429,6 +429,7 @@ importers:
       '@heathmont/moon-icons': workspace:^8.1.0
       '@heathmont/moon-themes': workspace:^8.1.0
       '@heathmont/moon-utils': workspace:^8.1.0
+      react-merge-refs: ^1.1.0
       react-select: ^5.2.1
     dependencies:
       '@heathmont/moon-components': link:../components
@@ -436,6 +437,7 @@ importers:
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
+      react-merge-refs: 1.1.0
       react-select: 5.2.1_d0d7f44b6e3eb24503738ffde454294e
 
   packages/sidebar:
@@ -9882,6 +9884,10 @@ packages:
 
   /react-lifecycles-compat/3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
+    dev: false
+
+  /react-merge-refs/1.1.0:
+    resolution: {integrity: sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==}
     dev: false
 
   /react-paginate/6.5.0_react@17.0.2:

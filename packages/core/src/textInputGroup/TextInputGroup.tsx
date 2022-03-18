@@ -45,8 +45,6 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   inputProps,
   isRtl,
 }) => {
-  // TODO
-  // Use select props and use check the pair prop too
   const dir = isRtl ? 'rtl' : 'ltr';
   return (
     <Container orientation={orientation} dir={dir}>

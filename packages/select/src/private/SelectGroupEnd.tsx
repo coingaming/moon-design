@@ -11,9 +11,10 @@ export interface SelectGroupEndProps {
   selectProps: SelectProps<any>;
   orientation?: OrientationType;
   isRtl?: boolean;
+  ref?: React.Ref<any>;
 }
 
-const SelectGroupStart: React.FC<SelectGroupEndProps> = ({
+const SelectGroupEnd: React.FC<SelectGroupEndProps> = ({
   selectProps,
   orientation,
   isRtl,
@@ -22,6 +23,7 @@ const SelectGroupStart: React.FC<SelectGroupEndProps> = ({
     <Wrapper>
       <Select
         {...selectProps}
+        isRtl={isRtl}
         isSharpRightSide={orientation === 'horizontal' && isRtl}
         isSharpLeftSide={orientation === 'horizontal' && !isRtl}
         isSharpTopSide={orientation === 'vertical'}
@@ -30,4 +32,4 @@ const SelectGroupStart: React.FC<SelectGroupEndProps> = ({
   );
 };
 
-export default SelectGroupStart;
+export default SelectGroupEnd;

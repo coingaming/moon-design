@@ -81,6 +81,7 @@ const CustomStyles: StylesConfig = {
     const selectProps = state.selectProps as SelectProps;
     const customProps = selectProps['data-customProps'];
     const menuWidth = customProps.menuWidth;
+
     return {
       ...provided,
       minWidth: rem(300),
@@ -133,7 +134,7 @@ const CustomStyles: StylesConfig = {
     const selectProps = state.selectProps as SelectProps;
     const customProps = selectProps['data-customProps'];
     const theme = customProps.theme;
-    const isRtl = selectProps.isRtl;
+    const isRtl = customProps.isRtl;
     const {
       isSharpLeftSide,
       isSharpRightSide,

@@ -22,6 +22,7 @@ const SelectGroupStart: React.FC<SelectGroupStartProps> = ({
     <Wrapper>
       <Select
         {...selectProps}
+        isRtl={isRtl}
         isSharpRightSide={orientation === 'horizontal' && !isRtl}
         isSharpLeftSide={orientation === 'horizontal' && isRtl}
         isSharpBottomSide={orientation === 'vertical'}

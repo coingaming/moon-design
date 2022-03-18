@@ -3,9 +3,11 @@ import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Default from '../../public/examples/textInputGroup/Default';
+import EventListenerSelect from '../../public/examples/textInputGroup/EventListenerSelect';
 import MultiSelect from '../../public/examples/textInputGroup/MultiSelect';
 import Rtl from '../../public/examples/textInputGroup/Rtl';
 import SingleSelect from '../../public/examples/textInputGroup/SingleSelect';
+import SingleSelectRtl from '../../public/examples/textInputGroup/SingleSelectRtl';
 import Sizes from '../../public/examples/textInputGroup/Sizes';
 import Types from '../../public/examples/textInputGroup/Types';
 import Vertical from '../../public/examples/textInputGroup/Vertical';
@@ -78,41 +80,69 @@ export default function PageTextInputGroup() {
 
       <section className="mt-8">
         <Preview
-          title="Access Values"
+          title="Single Select variant RTL"
+          preview={<SingleSelectRtl />}
+          code={examples ? examples.SingleSelectRtl : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Access Values by ref"
           preview={<AccessValues />}
           code={examples ? examples.AccessValues : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl mb-4">Props</h2>
+        <Preview
+          title="Access Values (Select) by event listener"
+          preview={<EventListenerSelect />}
+          code={examples ? examples.EventListenerSelect : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <h2 className="text-2xl mb-4">Props (Text types)</h2>
         <Table
           data={[
-            {
-              name: 'types',
-              type: `object { 
-                      input1: TextInputTypes | single-select | multi-select, 
-                      input2: TextInputTypes | single-select | multi-select 
-                    }`,
-              required: false,
-              default: 'false',
-              description: 'Type of each of the input fields',
-            },
             {
               name: 'inputProps',
               type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
               required: true,
-              default: '-',
+              default: "object { inputSize: 'medium', type: 'text' }",
               description:
-                'Props for the text input fields. See TextInput component. (Required only if type is not specified or type is one of the text field types.)',
+                'Props for the text input fields. See TextInput component',
             },
+            {
+              name: 'orientation',
+              type: 'vertical | horizontal',
+              required: false,
+              default: 'horizontal',
+              description: 'How the fields are positioned with one another',
+            },
+            {
+              name: 'isRtl',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Text direction',
+            },
+          ]}
+        />
+      </section>
+
+      <section className="mt-8">
+        <h2 className="text-2xl mb-4">Props (Select types)</h2>
+        <Table
+          data={[
             {
               name: 'selectProps',
               type: 'object { input1: SelectProps, input2: SelectProps }',
               required: true,
-              default: '-',
+              default: 'object {}',
               description:
-                'Props for the select fields. See Single Select and Multi Select components. (Required only if type is one of the select types.)',
+                'Props for the select fields. See Single Select and Multi Select components',
             },
             {
               name: 'orientation',

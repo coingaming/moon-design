@@ -1,5 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { forwardRef, Ref, useEffect, useRef } from 'react';
 import { useTheme } from '@heathmont/moon-themes';
+import mergeRefs from 'react-merge-refs';
 import ReactSelect, {
   Props as ReactSelectProps,
   StylesConfig,
@@ -41,105 +42,115 @@ export type SelectProps<T> = {
   isSharpBottomSide?: boolean;
   isNoBorderBottom?: boolean;
   isNoBorderEnd?: boolean;
+  isRtl?: boolean;
 } & ReactSelectProps<T>;
 
-const Select = <T extends BaseOptionType>({
-  isCustomControl = false,
-  headerSlot,
-  footerSlot,
-  menuIsOpen,
-  menuWidth,
-  label,
-  leftSlot,
-  hintSlot,
-  placeholderSlot,
-  amountOfVisibleItems,
-  isError = false,
-  isSearchable = false,
-  size = 'large',
-  isMulti,
-  closeMenuOnSelect,
-  isSharpLeftSide,
-  isSharpRightSide,
-  isSharpTopSide,
-  isSharpBottomSide,
-  isNoBorderBottom,
-  isNoBorderEnd,
-  ...rest
-}: SelectProps<T>) => {
-  const menuRef = useRef(null);
-  const moonTheme = useTheme();
+const Select = forwardRef(
+  <T extends BaseOptionType>(
+    {
+      isCustomControl = false,
+      headerSlot,
+      footerSlot,
+      menuIsOpen,
+      menuWidth,
+      label,
+      leftSlot,
+      hintSlot,
+      placeholderSlot,
+      amountOfVisibleItems,
+      isError = false,
+      isSearchable = false,
+      size = 'large',
+      isMulti,
+      closeMenuOnSelect,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isNoBorderBottom,
+      isNoBorderEnd,
+      isRtl,
+      ...rest
+    }: SelectProps<T>,
+    ref?: any
+  ) => {
+    const menuRef = useRef(null);
+    const moonTheme = useTheme();
 
-  useEffect(() => {
-    const cuurentRef = menuRef as React.RefObject<HTMLFormElement>;
-    menuIsOpen && cuurentRef?.current?.focus();
-  }, [menuIsOpen]);
-  return (
-    <ReactSelect
-      {...rest}
-      ref={menuRef}
-      styles={CustomStyles as StylesConfig<T>}
-      isSearchable={isSearchable}
-      menuIsOpen={menuIsOpen}
-      closeMenuOnSelect={closeMenuOnSelect || (isMulti ? false : true)}
-      isMulti={isMulti}
-      components={{
-        Menu,
-        ValueContainer,
-        DropdownIndicator,
-        IndicatorSeparator,
-        MultiValue,
-        MultiValueRemove,
-        MultiValueContainer,
-        ClearIndicator,
-        Control,
-        SingleValue,
-        SelectContainer,
-        Placeholder,
-      }}
-      data-customProps={{
-        isCustomControl,
-        headerSlot,
-        footerSlot,
-        menuWidth,
-        label,
-        theme: moonTheme,
-        leftSlot,
-        hintSlot,
-        placeholderSlot,
-        size,
-        amountOfVisibleItems,
-        isError,
-        isSharpLeftSide,
-        isSharpRightSide,
-        isSharpTopSide,
-        isSharpBottomSide,
-        isNoBorderBottom,
-        isNoBorderEnd,
-      }}
-      theme={(theme) => ({
-        ...theme,
-        borderRadius: moonTheme.radius.default,
-        colors: {
-          ...theme.colors,
-          primary25: moonTheme.colorNew.goku as string,
-          primary50: moonTheme.color.hit[80] as string,
-          primary75: moonTheme.colorNew.trunks as string,
-          primary: moonTheme.colorNew.piccolo as string, // border focused and option active bg
-          danger: moonTheme.colorNew.chiChi[100] as string,
-          dangerLight: moonTheme.colorNew.chiChi[10] as string,
-          neutral0: moonTheme.colorNew.gohan as string, // bg
-          neutral5: moonTheme.colorNew.gohan as string, // bg disabled
-          neutral10: moonTheme.colorNew.beerus as string, // border disabled
-          neutral20: moonTheme.colorNew.beerus as string, // border
-          neutral30: moonTheme.colorNew.beerus as string, // border hover
-          neutral40: moonTheme.colorNew.bulma as string, // value disabled
-          neutral50: moonTheme.colorNew.trunks as string, // placeholder
-          neutral80: moonTheme.colorNew.bulma as string, // value
-        },
-      })}
-    />
-  );
-};
+    useEffect(() => {
+      const currentRef = menuRef as React.RefObject<HTMLFormElement>;
+      menuIsOpen && currentRef?.current?.focus();
+      ref = currentRef;
+    }, [menuIsOpen]);
+
+    return (
+      <ReactSelect
+        {...rest}
+        ref={mergeRefs([menuRef, ref])}
+        styles={CustomStyles as StylesConfig<T>}
+        isSearchable={isSearchable}
+        menuIsOpen={menuIsOpen}
+        closeMenuOnSelect={closeMenuOnSelect || (isMulti ? false : true)}
+        isMulti={isMulti}
+        components={{
+          Menu,
+          ValueContainer,
+          DropdownIndicator,
+          IndicatorSeparator,
+          MultiValue,
+          MultiValueRemove,
+          MultiValueContainer,
+          ClearIndicator,
+          Control,
+          SingleValue,
+          SelectContainer,
+          Placeholder,
+        }}
+        data-customProps={{
+          isCustomControl,
+          headerSlot,
+          footerSlot,
+          menuWidth,
+          label,
+          theme: moonTheme,
+          leftSlot,
+          hintSlot,
+          placeholderSlot,
+          size,
+          amountOfVisibleItems,
+          isError,
+          isSharpLeftSide,
+          isSharpRightSide,
+          isSharpTopSide,
+          isSharpBottomSide,
+          isNoBorderBottom,
+          isNoBorderEnd,
+          isRtl,
+        }}
+        theme={(theme) => ({
+          ...theme,
+          borderRadius: moonTheme.radius.default,
+          colors: {
+            ...theme.colors,
+            primary25: moonTheme.colorNew.goku as string,
+            primary50: moonTheme.color.hit[80] as string,
+            primary75: moonTheme.colorNew.trunks as string,
+            primary: moonTheme.colorNew.piccolo as string, // border focused and option active bg
+            danger: moonTheme.colorNew.chiChi[100] as string,
+            dangerLight: moonTheme.colorNew.chiChi[10] as string,
+            neutral0: moonTheme.colorNew.gohan as string, // bg
+            neutral5: moonTheme.colorNew.gohan as string, // bg disabled
+            neutral10: moonTheme.colorNew.beerus as string, // border disabled
+            neutral20: moonTheme.colorNew.beerus as string, // border
+            neutral30: moonTheme.colorNew.beerus as string, // border hover
+            neutral40: moonTheme.colorNew.bulma as string, // value disabled
+            neutral50: moonTheme.colorNew.trunks as string, // placeholder
+            neutral80: moonTheme.colorNew.bulma as string, // value
+          },
+        })}
+      />
+    );
+  }
+);
 
 export default Select;
