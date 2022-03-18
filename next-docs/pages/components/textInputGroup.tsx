@@ -20,6 +20,20 @@ export default function PageTextInputGroup() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">TextInput Group</h1>
+        <p className="text-lg mt-4">
+          <h3>
+            The TextInputGroup component lives in <strong>two</strong> different
+            packages.
+          </h3>
+          <ol>
+            <li>
+              Text type - <em>@heathmont/moon-core</em>
+            </li>
+            <li>
+              Select type - <em>@heathmont/moon-select</em>
+            </li>
+          </ol>
+        </p>
       </section>
 
       <section className="mt-8">

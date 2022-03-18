@@ -768,7 +768,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
       className="SelectGroupStart__Wrapper-zuiwr-0 iqWGrA"
     >
       <div
-        className=" css-1tsy5a7-container"
+        className=" css-9ebu9r-container"
         onKeyDown={[Function]}
       >
         <span
@@ -782,7 +782,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-10x4nqj-control"
+          className=" css-r58ac3-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -860,7 +860,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
       className="SelectGroupEnd__Wrapper-sc-16kbz74-0 cbvthS"
     >
       <div
-        className=" css-1tsy5a7-container"
+        className=" css-9ebu9r-container"
         onKeyDown={[Function]}
       >
         <span
