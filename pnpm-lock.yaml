@@ -276,7 +276,6 @@ importers:
     specifiers:
       '@heathmont/moon-components': workspace:^8.1.0
       '@heathmont/moon-icons': workspace:^8.1.0
-      '@heathmont/moon-select': workspace:^8.1.0
       '@heathmont/moon-themes': workspace:^8.1.0
       '@heathmont/moon-utils': workspace:^8.1.0
       '@reach/listbox': 0.16.2
@@ -284,7 +283,6 @@ importers:
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-icons': link:../icons
-      '@heathmont/moon-select': link:../select
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@reach/listbox': 0.16.2_react-dom@17.0.2+react@17.0.2
