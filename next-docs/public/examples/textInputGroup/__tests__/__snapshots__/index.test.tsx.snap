@@ -119,7 +119,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
     orientation="horizontal"
   >
     <div
-      className="SelectGroupStart__Wrapper-zuiwr-0 iqWGrA"
+      className="SelectGroupStart__Wrapper-zuiwr-0 dFHltK"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -136,20 +136,15 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-1q7v8my-control"
+          className=" css-1sksh5w-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
           <div
-            className=" css-1f3h6sw-ValueContainer"
+            className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
-            >
-              xLarge
-            </div>
-            <div
-              className="ValueContainer__SingleContainer-fuxzw2-0 kHhooM"
+              className="ValueContainer__SingleContainer-fuxzw2-0 dhNCxn"
             >
               <div
                 className=" css-wuj7bk-placeholder"
@@ -211,7 +206,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
       </div>
     </div>
     <div
-      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 cbvthS"
+      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 jTebXY"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -228,20 +223,15 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-12vowvu-control"
+          className=" css-18o9gyc-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
           <div
-            className=" css-1f3h6sw-ValueContainer"
+            className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="ValueContainer__InnerLabelContainer-fuxzw2-2 iKpjoJ"
-            >
-              xLarge
-            </div>
-            <div
-              className="ValueContainer__SingleContainer-fuxzw2-0 kHhooM"
+              className="ValueContainer__SingleContainer-fuxzw2-0 dhNCxn"
             >
               <div
                 className=" css-wuj7bk-placeholder"
@@ -371,7 +361,7 @@ exports[`TextInputGroup renders multi select 1`] = `
     orientation="horizontal"
   >
     <div
-      className="SelectGroupStart__Wrapper-zuiwr-0 iqWGrA"
+      className="SelectGroupStart__Wrapper-zuiwr-0 dFHltK"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -463,7 +453,7 @@ exports[`TextInputGroup renders multi select 1`] = `
       </div>
     </div>
     <div
-      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 cbvthS"
+      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 jTebXY"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -568,7 +558,7 @@ exports[`TextInputGroup renders single select 1`] = `
     orientation="horizontal"
   >
     <div
-      className="SelectGroupStart__Wrapper-zuiwr-0 iqWGrA"
+      className="SelectGroupStart__Wrapper-zuiwr-0 dFHltK"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -660,7 +650,7 @@ exports[`TextInputGroup renders single select 1`] = `
       </div>
     </div>
     <div
-      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 cbvthS"
+      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 jTebXY"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -765,7 +755,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
     orientation="horizontal"
   >
     <div
-      className="SelectGroupStart__Wrapper-zuiwr-0 iqWGrA"
+      className="SelectGroupStart__Wrapper-zuiwr-0 dFHltK"
     >
       <div
         className=" css-9ebu9r-container"
@@ -857,7 +847,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
       </div>
     </div>
     <div
-      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 cbvthS"
+      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 jTebXY"
     >
       <div
         className=" css-9ebu9r-container"
@@ -962,7 +952,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
     orientation="vertical"
   >
     <div
-      className="SelectGroupStart__Wrapper-zuiwr-0 iqWGrA"
+      className="SelectGroupStart__Wrapper-zuiwr-0 dFHltK"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -1054,7 +1044,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
       </div>
     </div>
     <div
-      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 cbvthS"
+      className="SelectGroupEnd__Wrapper-sc-16kbz74-0 jTebXY"
     >
       <div
         className=" css-1tsy5a7-container"

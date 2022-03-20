@@ -47,8 +47,7 @@ const Example = () => {
 
   const inputProps1 = {
     options: options1,
-    label: 'xLarge',
-    size: 'xLarge',
+    size: 'large',
     placeholderSlot: 'Country',
     ref: ref1,
     onChange: (e: any) => {
@@ -58,8 +57,7 @@ const Example = () => {
 
   const inputProps2 = {
     options: options2,
-    label: 'xLarge',
-    size: 'xLarge',
+    size: 'large',
     placeholderSlot: 'Vehicle',
     ref: ref2,
     onChange: (e: any) => {

@@ -4,7 +4,7 @@ import { Select, SelectProps } from '..';
 import { OrientationType } from './types/OrientationType';
 
 const Wrapper = styled.div({
-  flex: 'auto',
+  flex: '1',
 });
 
 export interface SelectGroupEndProps {
