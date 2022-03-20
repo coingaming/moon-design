@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
 import CheckboxCaption from './styles/CheckboxCaption';
+import CheckboxIcon from './styles/CheckboxIcon';
 import CheckboxInput from './styles/CheckboxInput';
 import CheckboxLabel from './styles/CheckboxLabel';
 
@@ -26,7 +27,10 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         ref={ref}
         {...inputProps}
       />
-      <CheckboxCaption dir={dir}>{label}</CheckboxCaption>
+      <CheckboxCaption dir={dir}>
+        <CheckboxIcon dir={dir}/>
+        {label}
+      </CheckboxCaption>
     </CheckboxLabel>
   )
 );

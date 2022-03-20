@@ -14,30 +14,22 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   ...hideVisually(),
   '& + span': {
     cursor: 'pointer',
-    '&::after': {
+    color: theme.colorNew.bulma,
+    '& > span::after': {
       backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,
     },
   },
-  '&:hover:enabled, &:focus:enabled': {
+  '&:hover': {
     /* Show the Pseudo Checkbox Circle */
-    '& + span::before': {
-      opacity: 0.5,
-      transform: 'scale(2)',
-    },
-    '&:checked + span::before': {
-      opacity: 0.1,
-      backgroundColor: theme.colorNew.piccolo /* [1] */,
-    },
-    /* Adjust the Pseudo Checkbox */
-    '&:not(:checked) + span::after': {
-      borderColor: theme.colorNew.trunks,
+    '& + span > span': {
+      backgroundColor: 'rgba(0, 0, 0, 0.08)'
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
-  '&:checked + span::after': {
+  '&:checked + span > span::after': {
     backgroundColor: theme.colorNew.piccolo,
     backgroundSize: rem(10),
     borderColor: theme.colorNew.piccolo,
