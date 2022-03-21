@@ -5,13 +5,13 @@ exports[`Chip renders different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 jsERLY"
+    className="Chip__StyledChip-tis201-0 FBfLz"
     size="small"
   >
     Small
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     Medium is Default
@@ -50,7 +50,7 @@ exports[`Chip renders with Icons 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     <span
@@ -74,7 +74,7 @@ exports[`Chip renders with Icons 1`] = `
     Left Icon
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     Right Icon
@@ -98,7 +98,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     <span
@@ -140,7 +140,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 doHAXZ"
+    className="Chip__StyledChip-tis201-0 cMaVmS"
     size="medium"
   >
     <span
@@ -181,7 +181,7 @@ exports[`Chip renders with Icons 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 doHAXZ"
+    className="Chip__StyledChip-tis201-0 cMaVmS"
     size="medium"
   >
     <span
@@ -214,7 +214,7 @@ exports[`Chip renders with Icons RTL 1`] = `
     className="flex justify-around items-center w-full"
   >
     <button
-      className="Chip__StyledChip-tis201-0 hFGOHB"
+      className="Chip__StyledChip-tis201-0 bWuTCK"
       size="medium"
     >
       <span
@@ -238,7 +238,7 @@ exports[`Chip renders with Icons RTL 1`] = `
       Left Icon
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 hFGOHB"
+      className="Chip__StyledChip-tis201-0 bWuTCK"
       size="medium"
     >
       Right Icon
@@ -262,7 +262,7 @@ exports[`Chip renders with Icons RTL 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 hFGOHB"
+      className="Chip__StyledChip-tis201-0 bWuTCK"
       size="medium"
     >
       <span
@@ -304,7 +304,7 @@ exports[`Chip renders with Icons RTL 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 doHAXZ"
+      className="Chip__StyledChip-tis201-0 cMaVmS"
       size="medium"
     >
       <span
@@ -345,7 +345,7 @@ exports[`Chip renders with Icons RTL 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 doHAXZ"
+      className="Chip__StyledChip-tis201-0 cMaVmS"
       size="medium"
     >
       <span
@@ -376,7 +376,7 @@ exports[`Chip renders with Icons small size 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 jsERLY"
+    className="Chip__StyledChip-tis201-0 FBfLz"
     size="small"
   >
     <span
@@ -400,7 +400,7 @@ exports[`Chip renders with Icons small size 1`] = `
     Left Icon
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jsERLY"
+    className="Chip__StyledChip-tis201-0 FBfLz"
     size="small"
   >
     Right Icon
@@ -424,7 +424,7 @@ exports[`Chip renders with Icons small size 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 jsERLY"
+    className="Chip__StyledChip-tis201-0 FBfLz"
     size="small"
   >
     <span
@@ -466,7 +466,7 @@ exports[`Chip renders with Icons small size 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 gFRPwg"
+    className="Chip__StyledChip-tis201-0 jPWOdj"
     size="small"
   >
     <span
@@ -507,7 +507,7 @@ exports[`Chip renders with Icons small size 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 gFRPwg"
+    className="Chip__StyledChip-tis201-0 jPWOdj"
     size="small"
   >
     <span
@@ -537,7 +537,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     <span
@@ -561,7 +561,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
     Left Icon
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     Right Icon
@@ -585,7 +585,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 hFGOHB"
+    className="Chip__StyledChip-tis201-0 bWuTCK"
     size="medium"
   >
     <span
@@ -627,7 +627,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 doHAXZ"
+    className="Chip__StyledChip-tis201-0 cMaVmS"
     size="medium"
   >
     <span
@@ -668,7 +668,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
     </span>
   </button>
   <button
-    className="Chip__StyledChip-tis201-0 doHAXZ"
+    className="Chip__StyledChip-tis201-0 cMaVmS"
     size="medium"
   >
     <span
