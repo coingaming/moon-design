@@ -1,5 +1,6 @@
 import React from 'react';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
+import { rgba } from "polished";
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
 import { CheckboxIcon } from '../private/icon';
@@ -29,10 +30,15 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
-  '&:checked + span > span::after': {
-    backgroundColor: theme.colorNew.piccolo,
-    backgroundSize: rem(10),
-    borderColor: theme.colorNew.piccolo,
+  '&:checked': {
+    '&:hover + span > span': {
+      backgroundColor: rgba(theme.colorNew.piccolo, 0.12),
+    },
+    '& + span > span::after': {
+      backgroundColor: theme.colorNew.piccolo,
+      backgroundSize: rem(10),
+      boxShadow: 'none',
+    },
   },
   '&[disabled] + span': {
     opacity: theme.newTokens.opacity,

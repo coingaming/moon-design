@@ -57,7 +57,7 @@ const CheckboxInbox = styled.span(({ theme, dir }) => ({
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    border: `${rem(1)} solid ${theme.colorNew.trunks}`,
+    boxShadow: `inset 0 0 0 0.1rem ${theme.colorNew.trunks}`,
     borderRadius: rem(2),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
