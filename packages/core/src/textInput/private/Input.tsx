@@ -20,8 +20,8 @@ type InputProps = {
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoTopBottomBorder?: boolean;
-  isNoSideBorder?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 };
 
 const makeBorderRadius = (
@@ -45,10 +45,10 @@ const makeBorderRadius = (
 
 const makeBorder = (
   border: SharedTheme['newTokens']['border'],
-  isNoSideBorder?: boolean,
-  isNoTopBottomBorder?: boolean
+  isSideBorderHidden?: boolean,
+  isTopBottomBorderHidden?: boolean
 ) => {
-  if (isNoSideBorder) {
+  if (isSideBorderHidden) {
     return {
       '&:not(:hover):not(:focus)': {
         clipPath: `inset(-${border.width.default} ${rem(2)} -${
@@ -56,7 +56,7 @@ const makeBorder = (
         } ${rem(2)})`,
       },
     };
-  } else if (isNoTopBottomBorder) {
+  } else if (isTopBottomBorderHidden) {
     return {
       '&:not(:hover):not(:focus)': {
         clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
@@ -90,8 +90,8 @@ const Input = styled.input.attrs(({ type }) => ({
     isSharpRightSide,
     isSharpTopSide,
     isSharpBottomSide,
-    isNoTopBottomBorder,
-    isNoSideBorder,
+    isTopBottomBorderHidden,
+    isSideBorderHidden,
   }) => [
     {
       display: 'block',
@@ -119,7 +119,7 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
-      ...makeBorder(border, isNoSideBorder, isNoTopBottomBorder),
+      ...makeBorder(border, isSideBorderHidden, isTopBottomBorderHidden),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',

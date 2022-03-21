@@ -27,8 +27,8 @@ interface TextInputPasswordProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoTopBottomBorder?: boolean;
-  isNoSideBorder?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 }
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
@@ -48,8 +48,8 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoTopBottomBorder,
-      isNoSideBorder,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -68,8 +68,8 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoTopBottomBorder,
-      isNoSideBorder,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       ...rest,
     };
 
