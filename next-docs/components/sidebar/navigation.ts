@@ -5,7 +5,6 @@ const navigation = [
   { name: 'How to contribute', href: '/how-to-contribute' },
   // { name: 'Legacy Colours Palette', href: '/colours-legacy' },
   { name: 'Colours Palette', href: '/colours' },
-  { name: 'Typography', href: '/typography' },
   // { name: 'Legacy Tokens', href: '/tokens-legacy' },
   { name: 'Tokens', href: '/tokens' },
   { name: 'Icons', href: '/icons' },
@@ -45,6 +44,7 @@ const navigation = [
           { name: 'Dialog Overlay', href: '/components/dialog/dialogOverlay' },
           { name: 'Dialog Header', href: '/components/dialog/header' },
           { name: 'Dialog Footer', href: '/components/dialog/footer' },
+          { name: 'Popover', href: '/components/popover' },
         ],
       },
       { name: 'Label', href: '/components/label' },
@@ -57,10 +57,6 @@ const navigation = [
           { name: 'Circular', href: '/components/progress/circular' },
           { name: 'Linear', href: '/components/progress/linear' },
         ],
-      },
-      {
-        name: 'Popover',
-        href: '/components/popover',
       },
       { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
       { name: 'Search', href: '/components/search' },
@@ -107,6 +103,14 @@ const navigation = [
       },
       { name: 'TextInput Group', href: '/components/textInputGroup' },
       { name: 'Tooltip', href: '/components/tooltip' },
+      {
+        name: 'Typography',
+        children: [
+          { name: 'Caption', href: '/components/typography/caption' },
+          { name: 'Heading', href: '/components/typography/heading' },
+          { name: 'Text', href: '/components/typography/text' },
+        ],
+      },
     ],
   },
 ];
