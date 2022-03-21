@@ -7,9 +7,9 @@ import styled from 'styled-components';
 const determinePadding = (
   newTokens: SharedTheme['newTokens'],
   size?: Size,
-  hasStartIcon?: boolean,
-  hasEndIcon?: boolean,
-  hasIconOnly?: boolean
+  iconLeft?: JSX.Element | boolean,
+  iconRight?: JSX.Element | boolean,
+  iconOnly?: JSX.Element | boolean
 ) => {
   let paddingTop = newTokens.space.threexsmall;
   let paddingBottom = newTokens.space.threexsmall;
@@ -22,12 +22,12 @@ const determinePadding = (
     paddingInlineStart = newTokens.space.xsmall;
     paddingInlineEnd = newTokens.space.xsmall;
 
-    if (hasIconOnly) {
+    if (iconOnly) {
       paddingTop = newTokens.space.xsmall;
       paddingBottom = newTokens.space.xsmall;
     }
   } else {
-    if (hasIconOnly) {
+    if (iconOnly) {
       paddingTop = newTokens.space.twoxsmall;
       paddingBottom = newTokens.space.twoxsmall;
       paddingInlineStart = newTokens.space.twoxsmall;
@@ -75,8 +75,9 @@ type Size = 'small' | 'medium';
 
 type ChipProps = {
   isActive?: boolean;
-  iconLeft?: React.ReactElement;
-  iconRight?: React.ReactElement;
+  iconOnly?: JSX.Element | boolean;
+  iconLeft?: JSX.Element | boolean;
+  iconRight?: JSX.Element | boolean;
   size?: Size;
   isStroke?: boolean;
 };
@@ -85,32 +86,26 @@ type StyledChipProps = {
   isActive?: boolean;
   isStroke?: boolean;
   size?: Size;
-  hasIconLeft?: boolean;
-  hasIconRight?: boolean;
-  hasIconOnly?: boolean;
+  iconLeft?: JSX.Element | boolean;
+  iconRight?: JSX.Element | boolean;
+  iconOnly?: JSX.Element | boolean;
 };
 
 const StyledChip = styled.button<StyledChipProps>(
-  ({ theme, isStroke, size, hasIconLeft, hasIconRight, hasIconOnly }) => [
+  ({ theme, isStroke, size, iconLeft, iconRight, iconOnly }) => [
     {
       zIndex: 0,
       overflow: 'hidden',
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: hasIconOnly ? 'center' : 'space-between',
+      justifyContent: iconOnly ? 'center' : 'space-between',
       alignItems: 'center',
       borderRadius: theme.newTokens.borderRadius.medium,
       gap:
         size === 'medium'
           ? theme.newTokens.space.twoxsmall
           : theme.newTokens.space.threexsmall,
-      ...determinePadding(
-        theme.newTokens,
-        size,
-        hasIconLeft,
-        hasIconRight,
-        hasIconOnly
-      ),
+      ...determinePadding(theme.newTokens, size, iconLeft, iconRight, iconOnly),
       transition: theme.newTokens.transition.default,
       ...determineBorder(theme, false, isStroke),
       ...determineDimensions(size),
@@ -144,22 +139,24 @@ const Chip: React.FC<ChipProps> = ({
   size = 'medium',
   iconLeft,
   iconRight,
+  iconOnly,
   ...rest
 }) => {
   const [isHover, setIsHover] = useState(false);
   return (
     <StyledChip
       isActive={isActive}
-      hasIconLeft={!!iconLeft}
-      hasIconRight={!!iconRight}
+      iconLeft={iconLeft}
+      iconRight={iconRight}
       size={size}
-      hasIconOnly={React.Children.toArray(children).length === 0}
+      iconOnly={iconOnly}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       {...rest}
     >
       {iconLeft && <IconLeftWrapper>{iconLeft}</IconLeftWrapper>}
       {children}
+      {iconOnly}
       {iconRight && <IconRightWrapper>{iconRight}</IconRightWrapper>}
     </StyledChip>
   );

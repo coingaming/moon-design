@@ -71,7 +71,7 @@ export default function PageChip() {
 
       <section className="mt-8">
         <Preview
-          title="Icon with Stroke on Hover"
+          title="Icon isStroke on Hover"
           preview={<WithStroke />}
           isGrayBg
           code={examples ? examples.WithStroke : 'Loading'}

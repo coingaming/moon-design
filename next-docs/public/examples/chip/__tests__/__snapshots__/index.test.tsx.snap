@@ -173,7 +173,7 @@ exports[`Chip renders with Icons 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 iFVNDJ"
+      className="Chip__StyledChip-tis201-0 foknsN"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -216,7 +216,7 @@ exports[`Chip renders with Icons 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 iFVNDJ"
+      className="Chip__StyledChip-tis201-0 foknsN"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -341,7 +341,7 @@ exports[`Chip renders with Icons 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 hvabk"
+      className="Chip__StyledChip-tis201-0 eTjlcE"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -384,7 +384,7 @@ exports[`Chip renders with Icons 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 hvabk"
+      className="Chip__StyledChip-tis201-0 eTjlcE"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -519,7 +519,7 @@ exports[`Chip renders with Icons RTL 1`] = `
         </span>
       </button>
       <button
-        className="Chip__StyledChip-tis201-0 iFVNDJ"
+        className="Chip__StyledChip-tis201-0 foknsN"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="small"
@@ -562,7 +562,7 @@ exports[`Chip renders with Icons RTL 1`] = `
         </span>
       </button>
       <button
-        className="Chip__StyledChip-tis201-0 iFVNDJ"
+        className="Chip__StyledChip-tis201-0 foknsN"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="small"
@@ -687,7 +687,7 @@ exports[`Chip renders with Icons RTL 1`] = `
         </span>
       </button>
       <button
-        className="Chip__StyledChip-tis201-0 hvabk"
+        className="Chip__StyledChip-tis201-0 eTjlcE"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -730,7 +730,7 @@ exports[`Chip renders with Icons RTL 1`] = `
         </span>
       </button>
       <button
-        className="Chip__StyledChip-tis201-0 hvabk"
+        className="Chip__StyledChip-tis201-0 eTjlcE"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -863,7 +863,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 iFVNDJ"
+      className="Chip__StyledChip-tis201-0 foknsN"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -906,7 +906,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 iFVNDJ"
+      className="Chip__StyledChip-tis201-0 foknsN"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -1031,7 +1031,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 hvabk"
+      className="Chip__StyledChip-tis201-0 eTjlcE"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -1074,7 +1074,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </span>
     </button>
     <button
-      className="Chip__StyledChip-tis201-0 hvabk"
+      className="Chip__StyledChip-tis201-0 eTjlcE"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
