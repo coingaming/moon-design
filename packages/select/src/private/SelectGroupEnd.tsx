@@ -27,8 +27,8 @@ const SelectGroupEnd: React.FC<SelectGroupEndProps> = ({
         isSharpRightSide={orientation === 'horizontal' && isRtl}
         isSharpLeftSide={orientation === 'horizontal' && !isRtl}
         isSharpTopSide={orientation === 'vertical'}
-        isNoTopBottomBorder={orientation === 'vertical'}
-        isNoSideBorder={orientation === 'horizontal'}
+        isTopBottomBorderHidden={orientation === 'vertical'}
+        isSideBorderHidden={orientation === 'horizontal'}
       />
     </Wrapper>
   );

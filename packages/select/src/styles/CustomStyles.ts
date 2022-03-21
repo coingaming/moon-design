@@ -28,10 +28,10 @@ const makeBorderRadius = (
 const makeBorder = (
   state: any,
   border: SharedTheme['newTokens']['border'],
-  isNoSideBorder?: boolean,
-  isNoTopBottomBorder?: boolean
+  isSideBorderHidden?: boolean,
+  isTopBottomBorderHidden?: boolean
 ) => {
-  if (isNoSideBorder && !state.isFocused) {
+  if (isSideBorderHidden && !state.isFocused) {
     return {
       '&:not(:hover):not(:focus)': {
         clipPath: `inset(-${border.width.default} ${rem(2)} -${
@@ -39,7 +39,7 @@ const makeBorder = (
         } ${rem(2)})`,
       },
     };
-  } else if (isNoTopBottomBorder && !state.isFocused) {
+  } else if (isTopBottomBorderHidden && !state.isFocused) {
     return {
       '&:not(:hover):not(:focus)': {
         clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
@@ -69,8 +69,8 @@ type CustomProps = {
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoTopBottomBorder?: boolean;
-  isNoSideBorder?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 };
 
 export type SelectProps = {
@@ -141,8 +141,8 @@ const CustomStyles: StylesConfig = {
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoSideBorder,
-      isNoTopBottomBorder,
+      isSideBorderHidden,
+      isTopBottomBorderHidden,
     } = customProps;
 
     return {
@@ -173,8 +173,8 @@ const CustomStyles: StylesConfig = {
       ...makeBorder(
         state,
         theme.newTokens.border,
-        isNoSideBorder,
-        isNoTopBottomBorder
+        isSideBorderHidden,
+        isTopBottomBorderHidden
       ),
 
       transition:
