@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SharedTheme, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
@@ -93,6 +93,8 @@ type StyledChipProps = {
 const StyledChip = styled.button<StyledChipProps>(
   ({ theme, isStroke, size, hasIconLeft, hasIconRight, hasIconOnly }) => [
     {
+      zIndex: 0,
+      overflow: 'hidden',
       display: 'flex',
       flexDirection: 'row',
       justifyContent: hasIconOnly ? 'center' : 'space-between',
@@ -113,12 +115,13 @@ const StyledChip = styled.button<StyledChipProps>(
       ...determineBorder(theme, false, isStroke),
       ...determineDimensions(size),
       '&:hover': {
-        background: rgba(theme.colorNew.piccolo, 0.2),
+        background: rgba(theme.colorNew.piccolo, 0.12),
         color: theme.colorNew.piccolo,
         ...determineBorder(theme, false, isStroke, true),
       },
       fontSize: rem(14),
       lineHeight: rem(24),
+      position: 'relative',
     },
     ({ isActive, theme, isStroke }) => ({
       background: isActive
@@ -142,19 +145,24 @@ const Chip: React.FC<ChipProps> = ({
   iconLeft,
   iconRight,
   ...rest
-}) => (
-  <StyledChip
-    isActive={isActive}
-    hasIconLeft={!!iconLeft}
-    hasIconRight={!!iconRight}
-    size={size}
-    hasIconOnly={React.Children.toArray(children).length === 0}
-    {...rest}
-  >
-    {iconLeft && <IconLeftWrapper>{iconLeft}</IconLeftWrapper>}
-    {children}
-    {iconRight && <IconRightWrapper>{iconRight}</IconRightWrapper>}
-  </StyledChip>
-);
+}) => {
+  const [isHover, setIsHover] = useState(false);
+  return (
+    <StyledChip
+      isActive={isActive}
+      hasIconLeft={!!iconLeft}
+      hasIconRight={!!iconRight}
+      size={size}
+      hasIconOnly={React.Children.toArray(children).length === 0}
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
+      {...rest}
+    >
+      {iconLeft && <IconLeftWrapper>{iconLeft}</IconLeftWrapper>}
+      {children}
+      {iconRight && <IconRightWrapper>{iconRight}</IconRightWrapper>}
+    </StyledChip>
+  );
+};
 
 export default Chip;
