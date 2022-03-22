@@ -11,7 +11,7 @@ export interface LoaderProps {
 
 const Loader: React.FC<LoaderProps> = ({ color, size = 'xsmall' }) => (
   <OuterCircle size={size}>
-    <InnerCircle color={color}></InnerCircle>
+    <InnerCircle color={color} size={size}></InnerCircle>
   </OuterCircle>
 );
 export default Loader;
