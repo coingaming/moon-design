@@ -5,11 +5,11 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
+import Buttons from '../Buttons';
 import Default from '../Default';
-import Rtl from '../Rtl';
-import Images from '../Images';
-import CustomSpace from '../CustomSpace';
-import Children from '../Children';
+import HeaderIcon from '../HeaderIcon';
+import Mobile from '../Mobile';
+import Singleline from '../Singleline';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -21,29 +21,34 @@ const renderWithThemeRTL = (component: JSX.Element) => (
   </ThemeProvider>
 );
 
-describe('Reel', () => {
+describe('Banner', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders RTL', () => {
-    const testRenderer = renderer.create(renderWithThemeRTL(<Rtl />));
+  it('renders with buttons', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Buttons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders child images correctly with custom height', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Images />));
+  it('renders with buttons RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Buttons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders with custom space', () => {
-    const testRenderer = renderer.create(renderWithTheme(<CustomSpace />));
+  it('renders with header icon', () => {
+    const testRenderer = renderer.create(renderWithTheme(<HeaderIcon />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders child list items correctly', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Children />));
+  it('renders in mobile mode', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Mobile />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders in single line mode', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Singleline />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

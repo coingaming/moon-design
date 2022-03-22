@@ -15,6 +15,7 @@ const navigation = [
     children: [
       { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
+      { name: 'Banner', href: '/components/banner' },
       { name: 'Button', href: '/components/button' },
       { name: 'Carousel', href: '/components/carousel' },
       {
@@ -62,18 +63,6 @@ const navigation = [
         href: '/components/popover',
       },
       { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
-      // { name: 'Reel', href: '/components/reel' }, // Uncomment only if you want to see what reel looks like
-      // {
-      //   name: 'RadioButton',
-      //   children: [
-      //     { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
-      //     {
-      //       name: 'RadioButton API',
-      //       href: '/components/radiobutton/radiobutton-api',
-      //     },
-      //   ],
-      // },
-      { name: 'Reel', href: '/components/reel' },
       { name: 'Search', href: '/components/search' },
       {
         name: 'Select',

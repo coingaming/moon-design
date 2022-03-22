@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.2.0
+
+### Minor Changes
+
+- Carousel async fixes & polished version alignments
+
 ## 8.1.0
 
 ### Minor Changes
