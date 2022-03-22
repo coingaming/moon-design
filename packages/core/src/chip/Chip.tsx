@@ -17,21 +17,37 @@ const determinePadding = (
   let paddingInlineEnd = newTokens.space.twoxsmall;
 
   if (size === 'medium') {
-    paddingTop = newTokens.space.twoxsmall;
-    paddingBottom = newTokens.space.twoxsmall;
-    paddingInlineStart = newTokens.space.xsmall;
-    paddingInlineEnd = newTokens.space.xsmall;
-
-    if (iconOnly) {
-      paddingTop = newTokens.space.xsmall;
-      paddingBottom = newTokens.space.xsmall;
-    }
-  } else {
     if (iconOnly) {
       paddingTop = newTokens.space.twoxsmall;
       paddingBottom = newTokens.space.twoxsmall;
       paddingInlineStart = newTokens.space.twoxsmall;
       paddingInlineEnd = newTokens.space.twoxsmall;
+    } else {
+      paddingTop = newTokens.space.twoxsmall;
+      paddingBottom = newTokens.space.twoxsmall;
+      paddingInlineStart = newTokens.space.xsmall;
+      paddingInlineEnd = newTokens.space.xsmall;
+
+      if (iconLeft) {
+        paddingInlineStart = newTokens.space.twoxsmall;
+      }
+      if (iconRight) {
+        paddingInlineEnd = newTokens.space.twoxsmall;
+      }
+    }
+  } else {
+    if (iconOnly) {
+      paddingTop = newTokens.space.threexsmall;
+      paddingBottom = newTokens.space.threexsmall;
+      paddingInlineStart = newTokens.space.threexsmall;
+      paddingInlineEnd = newTokens.space.threexsmall;
+    }
+
+    if (iconLeft) {
+      paddingInlineStart = newTokens.space.threexsmall;
+    }
+    if (iconRight) {
+      paddingInlineEnd = newTokens.space.threexsmall;
     }
   }
 
@@ -46,13 +62,11 @@ const determinePadding = (
 const determineDimensions = (size?: Size) => {
   if (size === 'small') {
     return {
-      // minWidth: rem(89),
       height: rem(32),
     };
   }
 
   return {
-    // minWidth: rem(125),
     height: rem(40),
   };
 };
@@ -92,7 +106,7 @@ type StyledChipProps = {
 };
 
 const StyledChip = styled.button<StyledChipProps>(
-  ({ theme, isStroke, size, iconLeft, iconRight, iconOnly }) => [
+  ({ theme, isStroke, iconLeft, iconRight, iconOnly, size = 'medium' }) => [
     {
       zIndex: 0,
       overflow: 'hidden',

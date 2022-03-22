@@ -23,7 +23,7 @@ const Example = () => (
         iconRight={<SoftwareDownload fontSize={rem(24)} />}
         iconLeft={<MediaMusic fontSize={rem(24)} />}
       />
-      <Chip size="small" iconRight={<SoftwareDownload fontSize={rem(24)} />} />
+      <Chip size="small" iconOnly={<SoftwareDownload fontSize={rem(24)} />} />
     </div>
     <div className="flex justify-around items-center w-full">
       <Chip iconLeft={<MediaMusic fontSize={rem(24)} />}>Left Icon</Chip>
@@ -40,7 +40,7 @@ const Example = () => (
         iconRight={<SoftwareDownload fontSize={rem(24)} />}
         iconLeft={<MediaMusic fontSize={rem(24)} />}
       />
-      <Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} />
+      <Chip iconOnly={<SoftwareDownload fontSize={rem(24)} />} />
     </div>
   </div>
 );

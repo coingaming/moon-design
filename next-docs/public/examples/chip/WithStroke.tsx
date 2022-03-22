@@ -30,7 +30,7 @@ const Example = () => (
         size="small"
       />
       <Chip
-        iconRight={<SoftwareDownload fontSize={rem(24)} />}
+        iconOnly={<SoftwareDownload fontSize={rem(24)} />}
         isStroke
         size="small"
       />
@@ -54,7 +54,7 @@ const Example = () => (
         iconLeft={<MediaMusic fontSize={rem(24)} />}
         isStroke
       />
-      <Chip iconRight={<SoftwareDownload fontSize={rem(24)} />} isStroke />
+      <Chip iconOnly={<SoftwareDownload fontSize={rem(24)} />} isStroke />
     </div>
   </div>
 );
