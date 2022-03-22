@@ -5,22 +5,33 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-import Default from '../Default';
 import Icons from '../Icons';
 import Sizes from '../Sizes';
-import States from '../States';
+import Active from '../Active';
+import ActiveStroke from '../ActiveStroke';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
 describe('Chip', () => {
-  it('renders', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+  it('renders with Icons', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Icons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders with Icons', () => {
+  it('renders with Icons RTL', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Icons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with Icons with stroke', () => {
     const testRenderer = renderer.create(renderWithTheme(<Icons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
@@ -31,7 +42,12 @@ describe('Chip', () => {
   });
 
   it('renders isActive', () => {
-    const testRenderer = renderer.create(renderWithTheme(<States />));
+    const testRenderer = renderer.create(renderWithTheme(<Active />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders isActive with stroke', () => {
+    const testRenderer = renderer.create(renderWithTheme(<ActiveStroke />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

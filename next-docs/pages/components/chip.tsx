@@ -1,10 +1,11 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import Default from '../../public/examples/chip/Default';
+import Active from '../../public/examples/chip/Active';
+import ActiveStroke from '../../public/examples/chip/ActiveStroke';
 import Icons from '../../public/examples/chip/Icons';
 import Sizes from '../../public/examples/chip/Sizes';
-import States from '../../public/examples/chip/States';
+import WithStroke from '../../public/examples/chip/WithStroke';
 import useExamples from '../../utils/useExamples';
 
 export default function PageChip() {
@@ -32,41 +33,51 @@ export default function PageChip() {
         </div>
       </section>
 
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      {/* Sizes */}
       <section className="mt-8">
         <Preview
           title="Sizes"
           preview={<Sizes />}
+          isGrayBg
           code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
 
-      {/* States */}
       <section className="mt-8">
         <Preview
-          title="States"
-          preview={<States />}
-          code={examples ? examples.States : 'Loading'}
+          title="Active State"
+          preview={<Active />}
+          isGrayBg
+          code={examples ? examples.Active : 'Loading'}
         />
       </section>
 
-      {/* Icons */}
+      <section className="mt-8">
+        <Preview
+          title="IsStroke"
+          preview={<ActiveStroke />}
+          isGrayBg
+          code={examples ? examples.ActiveStroke : 'Loading'}
+        />
+      </section>
+
       <section className="mt-8">
         <Preview
           title="Icons"
           preview={<Icons />}
+          isGrayBg
           code={examples ? examples.Icons : 'Loading'}
         />
       </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Icon isStroke on Hover"
+          preview={<WithStroke />}
+          isGrayBg
+          code={examples ? examples.WithStroke : 'Loading'}
+        />
+      </section>
+
       <section className="mt-14">
         <h2 className="text-2xl mb-4">Props for Chip component</h2>
         <Table
@@ -98,6 +109,13 @@ export default function PageChip() {
               required: false,
               default: 'false',
               description: 'Active state',
+            },
+            {
+              name: 'isStroke',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Show stroke on hover/active',
             },
           ]}
         />
