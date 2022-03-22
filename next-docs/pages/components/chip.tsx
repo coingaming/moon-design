@@ -2,9 +2,9 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
 import Active from '../../public/examples/chip/Active';
-import ActiveStroke from '../../public/examples/chip/ActiveStroke';
 import Icons from '../../public/examples/chip/Icons';
 import Sizes from '../../public/examples/chip/Sizes';
+import Stroke from '../../public/examples/chip/Stroke';
 import WithStroke from '../../public/examples/chip/WithStroke';
 import useExamples from '../../utils/useExamples';
 
@@ -54,9 +54,9 @@ export default function PageChip() {
       <section className="mt-8">
         <Preview
           title="IsStroke"
-          preview={<ActiveStroke />}
+          preview={<Stroke />}
           isGrayBg
-          code={examples ? examples.ActiveStroke : 'Loading'}
+          code={examples ? examples.Stroke : 'Loading'}
         />
       </section>
 
@@ -71,7 +71,7 @@ export default function PageChip() {
 
       <section className="mt-8">
         <Preview
-          title="Icon isStroke on Hover"
+          title="Icons with isStroke"
           preview={<WithStroke />}
           isGrayBg
           code={examples ? examples.WithStroke : 'Loading'}
@@ -101,7 +101,14 @@ export default function PageChip() {
               type: 'React.ReactElement',
               required: false,
               default: '-',
-              description: 'Rigth text element',
+              description: 'Rigth icon element',
+            },
+            {
+              name: 'iconOnly',
+              type: 'React.ReactElement',
+              required: false,
+              default: '-',
+              description: 'Icon only element',
             },
             {
               name: 'isActive',

@@ -8,7 +8,7 @@ import renderer from 'react-test-renderer';
 import Icons from '../Icons';
 import Sizes from '../Sizes';
 import Active from '../Active';
-import ActiveStroke from '../ActiveStroke';
+import Stroke from '../Stroke';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -46,8 +46,8 @@ describe('Chip', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders isActive with stroke', () => {
-    const testRenderer = renderer.create(renderWithTheme(<ActiveStroke />));
+  it('renders with stroke', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Stroke />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

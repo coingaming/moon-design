@@ -93,6 +93,7 @@ type ChipProps = {
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
   size?: Size;
+  iconSize?: number;
   isStroke?: boolean;
 };
 
@@ -100,13 +101,14 @@ type StyledChipProps = {
   isActive?: boolean;
   isStroke?: boolean;
   size?: Size;
+  iconSize?: number;
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
   iconOnly?: JSX.Element | boolean;
 };
 
 const StyledChip = styled.button<StyledChipProps>(
-  ({ theme, isStroke, iconLeft, iconRight, iconOnly, size = 'medium' }) => [
+  ({ theme, isStroke, iconLeft, iconRight, iconOnly, size, iconSize }) => [
     {
       zIndex: 0,
       overflow: 'hidden',
@@ -131,26 +133,28 @@ const StyledChip = styled.button<StyledChipProps>(
       fontSize: rem(14),
       lineHeight: rem(24),
       position: 'relative',
+      'img, svg': {
+        display: 'block',
+        width: rem(iconSize as number),
+        height: rem(iconSize as number),
+      },
     },
     ({ isActive, theme, isStroke }) => ({
       background: isActive
         ? rgba(theme.colorNew.piccolo, 0.12)
         : theme.colorNew.gohan,
       color: isActive ? theme.colorNew.piccolo : theme.colorNew.popo,
-      cursor: isActive ? 'auto' : 'pointer',
+      cursor: 'pointer',
       ...determineBorder(theme, isActive, isStroke),
     }),
   ]
 );
 
-const IconLeftWrapper = styled.span({});
-
-const IconRightWrapper = styled.span({});
-
 const Chip: React.FC<ChipProps> = ({
   children,
   isActive,
   size = 'medium',
+  iconSize = 24,
   iconLeft,
   iconRight,
   iconOnly,
@@ -163,15 +167,16 @@ const Chip: React.FC<ChipProps> = ({
       iconLeft={iconLeft}
       iconRight={iconRight}
       size={size}
+      iconSize={iconSize}
       iconOnly={iconOnly}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       {...rest}
     >
-      {iconLeft && <IconLeftWrapper>{iconLeft}</IconLeftWrapper>}
+      {iconLeft}
       {children}
       {iconOnly}
-      {iconRight && <IconRightWrapper>{iconRight}</IconRightWrapper>}
+      {iconRight}
     </StyledChip>
   );
 };
