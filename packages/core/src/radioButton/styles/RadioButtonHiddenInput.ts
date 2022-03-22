@@ -1,4 +1,5 @@
 import { hideVisually } from '@heathmont/moon-utils';
+import {lighten} from "polished";
 import styled from 'styled-components';
 
 const RadioButtonHiddenInput = styled.input(({ theme }) => ({
@@ -16,8 +17,16 @@ const RadioButtonHiddenInput = styled.input(({ theme }) => ({
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
-  '&:checked + figure::after': {
-    backgroundColor: theme.colorNew.piccolo,
+  '&:checked + div > span': {
+    '&:hover': {
+      backgroundColor: lighten(0.43, theme.colorNew.piccolo)
+    },
+    '&::before': {
+      backgroundColor: theme.colorNew.piccolo,
+    },
+    '&:after': {
+      boxShadow: `inset 0 0 0 0.1rem ${theme.colorNew.piccolo}`,
+    }
   },
   '&:disabled ~ *': {
     opacity: theme.newTokens.opacity,
