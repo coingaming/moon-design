@@ -1,6 +1,6 @@
+import { Reel } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import Reel from '../../reel/Reel';
 
 const TabList = styled(Reel.withComponent('ul'))<{ isContainer?: boolean }>(
   ({ theme: { colorNew, newTokens }, isContainer }) => [
