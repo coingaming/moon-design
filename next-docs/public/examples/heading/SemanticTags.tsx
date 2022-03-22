@@ -2,9 +2,9 @@ import { Heading } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex justify-around w-full items-center">
-    <Heading>Text-align is not specified</Heading>
-    <Heading textAlign="center">Centered text</Heading>
-    <Heading textAlign="right">Right alignment</Heading>
+    <Heading>H3 is a default tag</Heading>
+    <Heading as="h2">H2 tag</Heading>
+    <Heading as="h6">H6 tag</Heading>
   </div>
 );
 

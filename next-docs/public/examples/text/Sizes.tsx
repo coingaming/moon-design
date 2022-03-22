@@ -2,9 +2,9 @@ import { Text } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex justify-around w-full items-center">
-    <Text>Text-align is not specified</Text>
-    <Text textAlign="center">Centered text</Text>
-    <Text textAlign="right">Right alignment</Text>
+    <Text>Defaul font-size is 16px</Text>
+    <Text size={24}>Size is 24px</Text>
+    <Text size={48}>Size is 48px</Text>
   </div>
 );
 

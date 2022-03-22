@@ -6,38 +6,39 @@ import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Example from '../Example';
-import Size from '../Size';
-import Color from '../Color';
-import IsBold from '../IsBold';
+import Colors from '../Colors';
+import SemanticTags from '../SemanticTags';
 import TextAlign from '../TextAlign';
+import Sizes from '../Sizes';
+import FontWeight from '../FontWeight';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
-describe('Text', () => {
+describe('Caption', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<Example />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders size', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Size />));
+  it('renders colors', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Colors />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders color', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Color />));
+  it('renders sizes', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders isBold', () => {
-    const testRenderer = renderer.create(renderWithTheme(<IsBold />));
+  it('renders font-weight', () => {
+    const testRenderer = renderer.create(renderWithTheme(<FontWeight />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders textAlign', () => {
+  it('renders text-align', () => {
     const testRenderer = renderer.create(renderWithTheme(<TextAlign />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders semantic tags', () => {
+    const testRenderer = renderer.create(renderWithTheme(<SemanticTags />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
