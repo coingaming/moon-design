@@ -43,10 +43,10 @@ const sizeAdjustments = {
     marginTop: '49%',
     height: '51%',
     after: {
-      width: '78%',
+      width: '79%',
       height: '157%',
-      marginTop: '-38%',
-      marginInlineStart: '11%',
+      marginTop: '-39%',
+      marginInlineStart: '10%',
     },
   },
   large: {
