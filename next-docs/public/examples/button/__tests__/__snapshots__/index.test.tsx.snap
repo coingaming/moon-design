@@ -57,8 +57,9 @@ exports[`Button renders different animations 1`] = `
           size="xsmall"
         >
           <span
-            className="InnerCircle-sc-6khuip-0 epmuRM"
+            className="InnerCircle-sc-6khuip-0 jPUuKt"
             color="currentColor"
+            size="xsmall"
           />
         </div>
       </div>

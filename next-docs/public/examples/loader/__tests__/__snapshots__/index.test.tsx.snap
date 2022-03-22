@@ -10,7 +10,8 @@ exports[`Loader renders 1`] = `
     size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 gXweUk"
+      className="InnerCircle-sc-6khuip-0 irgwxx"
+      size="xsmall"
     />
   </div>
   <div
@@ -19,8 +20,9 @@ exports[`Loader renders 1`] = `
     size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 bDJQuY"
+      className="InnerCircle-sc-6khuip-0 cHXAOJ"
       color="piccolo.100"
+      size="xsmall"
     />
   </div>
 </div>
@@ -36,8 +38,9 @@ exports[`Loader renders with different colours 1`] = `
     size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 cNJAgk"
+      className="InnerCircle-sc-6khuip-0 eQxFNh"
       color="dodoria.100"
+      size="xsmall"
     />
   </div>
   <div
@@ -46,8 +49,9 @@ exports[`Loader renders with different colours 1`] = `
     size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 oXOvE"
+      className="InnerCircle-sc-6khuip-0 bmumWJ"
       color="trunks.100"
+      size="xsmall"
     />
   </div>
   <div
@@ -56,8 +60,9 @@ exports[`Loader renders with different colours 1`] = `
     size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 kwdVjE"
+      className="InnerCircle-sc-6khuip-0 paXXF"
       color="#663399"
+      size="xsmall"
     />
   </div>
 </div>
@@ -73,7 +78,8 @@ exports[`Loader renders with sizes 1`] = `
     size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 gXweUk"
+      className="InnerCircle-sc-6khuip-0 irgwxx"
+      size="xsmall"
     />
   </div>
   <div
@@ -82,7 +88,8 @@ exports[`Loader renders with sizes 1`] = `
     size="small"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 gXweUk"
+      className="InnerCircle-sc-6khuip-0 eVStzC"
+      size="small"
     />
   </div>
   <div
@@ -91,7 +98,8 @@ exports[`Loader renders with sizes 1`] = `
     size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 gXweUk"
+      className="InnerCircle-sc-6khuip-0 hUxtjG"
+      size="medium"
     />
   </div>
   <div
@@ -100,7 +108,8 @@ exports[`Loader renders with sizes 1`] = `
     size="large"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 gXweUk"
+      className="InnerCircle-sc-6khuip-0 eVStzC"
+      size="large"
     />
   </div>
   <div
@@ -109,7 +118,8 @@ exports[`Loader renders with sizes 1`] = `
     size="xlarge"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 gXweUk"
+      className="InnerCircle-sc-6khuip-0 khzBMP"
+      size="xlarge"
     />
   </div>
 </div>

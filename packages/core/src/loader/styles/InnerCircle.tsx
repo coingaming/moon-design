@@ -20,53 +20,53 @@ export interface Props {
 
 const sizeAdjustments = {
   xsmall: {
-    marginTop: '50%', // 50% *** higher value shrinks part1 (red, pink)
-    height: '50%', // 50% *** higher value shrinks part1 (red, pink) --------------
+    marginTop: '50%',
+    height: '50%',
     after: {
-      width: '76%', // 80% higher value shrinks pink and blue --------------
-      height: '154%', // 160% higher value shrinks red and pink --------------
-      marginTop: '-38%', // -40%, *** higher negative value shrinks part2 (green, blue) --------------
-      marginInlineStart: '12%', // 10% lower value shrinks green and red --------------
+      width: '76%',
+      height: '154%',
+      marginTop: '-38%',
+      marginInlineStart: '12%',
     },
   },
   small: {
-    marginTop: '50%', // 50% *** higher value shrinks part1 (red, pink)
-    height: '50%', // 50% *** higher value shrinks part1 (red, pink) --------------
+    marginTop: '50%',
+    height: '50%',
     after: {
-      width: '80%', // 80% higher value shrinks pink and blue --------------
-      height: '160%', // 160% higher value shrinks red and pink --------------
-      marginTop: '-40%', // -40%, *** higher negative value shrinks part2 (green, blue) --------------
-      marginInlineStart: '10%', // 10% lower value shrinks green and red --------------
+      width: '80%',
+      height: '160%',
+      marginTop: '-40%',
+      marginInlineStart: '10%',
     },
   },
   medium: {
-    marginTop: '49%', // 50% *** higher value shrinks part1 (red, pink)
-    height: '51%', // 50% *** higher value shrinks part1 (red, pink) --------------
+    marginTop: '49%',
+    height: '51%',
     after: {
-      width: '78%', // 80% higher value shrinks pink and blue --------------
-      height: '157%', // 160% higher value shrinks red and pink --------------
-      marginTop: '-38%', // -40%, *** higher negative value shrinks part2 (green, blue) --------------
-      marginInlineStart: '11%', // 10% lower value shrinks green and red --------------
+      width: '78%',
+      height: '157%',
+      marginTop: '-38%',
+      marginInlineStart: '11%',
     },
   },
   large: {
-    marginTop: '50%', // 50% *** higher value shrinks part1 (red, pink)
-    height: '50%', // 50% *** higher value shrinks part1 (red, pink) --------------
+    marginTop: '50%',
+    height: '50%',
     after: {
-      width: '80%', // 80% higher value shrinks pink and blue --------------
-      height: '160%', // 160% higher value shrinks red and pink --------------
-      marginTop: '-40%', // -40%, *** higher negative value shrinks part2 (green, blue) --------------
-      marginInlineStart: '10%', // 10% lower value shrinks green and red --------------
+      width: '80%',
+      height: '160%',
+      marginTop: '-40%',
+      marginInlineStart: '10%',
     },
   },
   xlarge: {
-    marginTop: '49%', // 50% *** higher value shrinks part1 (red, pink)
-    height: '51%', // 50% *** higher value shrinks part1 (red, pink) --------------
+    marginTop: '49%',
+    height: '51%',
     after: {
-      width: '83%', // 80% higher value shrinks pink and blue --------------
-      height: '162%', // 160% higher value shrinks red and pink --------------
-      marginTop: '-40%', // -40%, *** higher negative value shrinks part2 (green, blue) --------------
-      marginInlineStart: '8%', // 10% lower value shrinks green and red --------------
+      width: '83%',
+      height: '162%',
+      marginTop: '-40%',
+      marginInlineStart: '8%',
     },
   },
 };
@@ -75,35 +75,33 @@ const InnerCircle = styled.span<Props>(({ color, size, theme }) => ({
   width: '100%',
   height: sizeAdjustments[size ?? 'large']['height'],
   position: 'absolute',
-  marginTop: sizeAdjustments[size ?? 'large']['marginTop'], // 50% *** higher value shrinks part1 (red, pink)
-  // background: `linear-gradient(90deg, ${determineColor(
-  //   theme,
-  //   color,
-  //   true
-  // )}, ${determineColor(theme, color, false)})`,
-  background: `linear-gradient(90deg, red, pink)`,
+  marginTop: sizeAdjustments[size ?? 'large']['marginTop'],
+  background: `linear-gradient(90deg, ${determineColor(
+    theme,
+    color,
+    true
+  )}, ${determineColor(theme, color, false)})`,
   // Dark part
   '&::before': {
     content: '""',
-    width: '100%', // 100%
-    height: '102%', // 100% lower values puts spaces between part1 and part2
+    width: '100%',
+    height: '102%',
     position: 'absolute',
-    marginTop: '-50%', // -50% higher negative values puts spaces between part1 and part2
-    // background: `linear-gradient(90deg, ${determineColor(
-    //   theme,
-    //   color,
-    //   false
-    // )}, ${determineColor(theme, color, false)})`,
-    background: `linear-gradient(90deg, green, blue)`,
+    marginTop: '-50%',
+    background: `linear-gradient(90deg, ${determineColor(
+      theme,
+      color,
+      false
+    )}, ${determineColor(theme, color, false)})`,
   },
   // Light part
   '&::after': {
     content: '""',
-    width: sizeAdjustments[size ?? 'large']['after']['width'], // 80% higher value shrinks pink and blue --------------
-    height: sizeAdjustments[size ?? 'large']['after']['height'], // 160% higher value shrinks red and pink --------------
-    marginTop: sizeAdjustments[size ?? 'large']['after']['marginTop'], // -40%, *** higher negative value shrinks part2 (green, blue) --------------
+    width: sizeAdjustments[size ?? 'large']['after']['width'],
+    height: sizeAdjustments[size ?? 'large']['after']['height'],
+    marginTop: sizeAdjustments[size ?? 'large']['after']['marginTop'],
     marginInlineStart:
-      sizeAdjustments[size ?? 'large']['after']['marginInlineStart'], // 10% lower value shrinks green and red --------------
+      sizeAdjustments[size ?? 'large']['after']['marginInlineStart'],
     background: 'white',
     borderRadius: '50%',
     position: 'absolute',

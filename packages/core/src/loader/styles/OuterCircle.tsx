@@ -64,7 +64,7 @@ const OuterCircle = styled.div.attrs({
     overflow: 'hidden',
     display: 'inline-block',
   },
-  // animation,
+  animation,
 ]);
 
 export default OuterCircle;
