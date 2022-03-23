@@ -1,35 +1,38 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-const Svg = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg
-    width="1em"
-    height="1em"
-    viewBox="0 0 32 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
-    <path
-      d="M7 14.941L13.667 22 25 10"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+interface SvgProp extends React.SVGProps<SVGSVGElement> {
+  forwardColor?: boolean
+}
+
+const Svg = (props: SvgProp) => (<svg
+  width="1em"
+  height="1em"
+  viewBox="0 0 32 32"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M7 14.941L13.667 22 25 10"
+    stroke={ props.forwardColor ? props.color : 'currentColor'}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>);
 
 type IconProps = {
   backgroundColor?: ColorProps,
   circleColor?: ColorProps,
   color?: ColorProps,
+  forwardColor?: boolean
 };
 const GenericCheckAlternative =
   styled(Svg).withConfig({
-    shouldForwardProp: prop =>
-      !['backgroundColor', 'circleColor', 'color'].includes(prop),
+    shouldForwardProp: (prop) => {
+      return !['backgroundColor', 'circleColor'].includes(prop);
+    },
   }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
@@ -41,6 +44,7 @@ const GenericCheckAlternative =
     },
     color && {
       color: themed('color', color)(theme),
+      fill: themed('color', color)(theme),
     },
     circleColor && {
       circle: {

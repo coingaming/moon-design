@@ -1,9 +1,12 @@
 import React from 'react';
+import {
+  GenericCheckAlternative
+} from '@heathmont/moon-icons';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
 import { rgba } from "polished";
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
-import { CheckboxIcon } from '../private/icon';
+import {CheckboxIcon} from "../private/icon";
 
 /**
  * Checkbox Input
@@ -17,7 +20,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     cursor: 'pointer',
     color: theme.colorNew.bulma,
     '& > div > span::after': {
-      backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
+      backgroundImage: inlineSvg(<GenericCheckAlternative color={theme.colorNew.goten} forwardColor={true} />),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,
@@ -36,7 +39,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     },
     '& + span > div > span::after': {
       backgroundColor: theme.colorNew.piccolo,
-      backgroundSize: rem(10),
+      backgroundSize: '100%',
       boxShadow: 'none',
     },
   },
