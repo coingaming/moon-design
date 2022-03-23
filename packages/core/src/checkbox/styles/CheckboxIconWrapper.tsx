@@ -1,8 +1,39 @@
 import React, {useEffect, useState} from 'react';
+import {Text} from "@heathmont/moon-components";
 import { ColorValue, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import { lighten } from "polished";
 import styled, {css, keyframes} from 'styled-components';
+import getFontSize from "../../private/text/getFontSize";
+
+interface Props {
+  checked?: boolean;
+  label?: string | JSX.Element;
+  dir?: 'ltr' | 'rtl' | 'auto';
+}
+
+type InputColors = {
+  label: ColorValue;
+  text: ColorValue;
+  icon: ColorValue;
+  placeholder: ColorValue;
+  borderDefault: ColorValue;
+  borderHover: ColorValue;
+  background: ColorValue;
+  disabled: ColorValue;
+  [key: string]: ColorValue;
+};
+
+/**
+ * Border radius calculation
+ */
+const calcBorderRadius = (interactiveValue: number, fallbackValue: number) => {
+  let value = fallbackValue;
+
+  if (interactiveValue === 0 || interactiveValue === rem(9999)) value = interactiveValue;
+
+  return value;
+};
 
 /**
  * Animation
@@ -29,23 +60,6 @@ const explode = keyframes`
   }
 `;
 
-interface Props {
-  checked?: boolean;
-  dir?: 'ltr' | 'rtl' | 'auto';
-}
-
-type InputColors = {
-  label: ColorValue;
-  text: ColorValue;
-  icon: ColorValue;
-  placeholder: ColorValue;
-  borderDefault: ColorValue;
-  borderHover: ColorValue;
-  background: ColorValue;
-  disabled: ColorValue;
-  [key: string]: ColorValue;
-};
-
 const inputColors =
   (key: keyof InputColors) =>
   ({ color, colorNew }: Theme) => {
@@ -67,22 +81,24 @@ const Wrapper = styled.div(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  position: 'relative',
-  width: rem(40),
-  height: rem(40)
+  position: 'relative'
 }));
 
-const Content = styled.span(({ theme }) => ({
+const Box = styled.span(({ theme, dir }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   color: inputColors('label')(theme),
-  borderRadius: theme.newTokens.borderRadius.xsmall,
+  borderRadius: calcBorderRadius(theme.newTokens.borderRadius.interactive, theme.newTokens.borderRadius.xsmall),
   width: rem(24),
   height: rem(24),
+  minWidth: rem(24),
+  minHeight: rem(24),
   position: 'relative',
   transition: 'background-color 0.4s',
   zIndex: 2,
+  marginLeft: dir === 'rtl' ? theme.newTokens.space.threexsmall : '0',
+  marginRight: dir !== 'rtl' ? theme.newTokens.space.threexsmall : '0',
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.08)'
   },
@@ -95,8 +111,8 @@ const Content = styled.span(({ theme }) => ({
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    boxShadow: `inset 0 0 0 0.1rem ${theme.colorNew.trunks}`,
-    borderRadius: theme.newTokens.borderRadius.xsmall,
+    boxShadow: `inset 0 0 0 ${rem(1)} ${theme.colorNew.trunks}`,
+    borderRadius: calcBorderRadius(theme.newTokens.borderRadius.interactive, theme.newTokens.borderRadius.xsmall),
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
   },
@@ -126,9 +142,11 @@ const Animation = styled.div<{ checked?: boolean, animate?: boolean }>`
 
 const CheckboxIconWrapper: React.FC<Props> = ({
   checked,
-  dir
+  dir,
+  label
 }) => {
-  const [prevChecked, setPrevChecked] = useState(checked)
+  const [prevChecked, setPrevChecked] = useState(checked);
+  const renderLabel = (<Text size={14}>{label}</Text>);
 
   useEffect(() => {
     if (checked !== prevChecked) {
@@ -139,11 +157,14 @@ const CheckboxIconWrapper: React.FC<Props> = ({
   }, [checked])
 
   return (<Wrapper>
-    <Content dir={dir} />
-    <Animation
-      checked={checked}
-      animate={prevChecked !== checked}
-    />
+    { dir === 'rtl' && renderLabel }
+    <Box dir={dir}>
+      <Animation
+        checked={checked}
+        animate={prevChecked !== checked}
+      />
+    </Box>
+    { dir !== 'rtl' && renderLabel }
   </Wrapper>);
 };
 

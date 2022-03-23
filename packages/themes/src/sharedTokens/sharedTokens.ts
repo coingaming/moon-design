@@ -528,7 +528,7 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(16),
       twoxlarge: rem(24),
       full: rem(9999),
-      interactive: rem(9999),
+      interactive: rem(4),
     },
     breakpoint: {
       small: rem(640),

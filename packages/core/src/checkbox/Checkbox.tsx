@@ -1,5 +1,4 @@
 import React, {forwardRef, useState} from 'react';
-import CheckboxCaption from './styles/CheckboxCaption';
 import CheckboxIconWrapper from './styles/CheckboxIconWrapper';
 import CheckboxInput from './styles/CheckboxInput';
 import CheckboxLabel from './styles/CheckboxLabel';
@@ -33,13 +32,11 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           setIsChecked(e?.currentTarget?.checked)
         }}
       />
-      <CheckboxCaption dir={dir}>
         <CheckboxIconWrapper
           checked={typeof inputProps.checked !== 'undefined' ? inputProps.checked : isChecked}
           dir={dir}
+          label={label}
         />
-        {label}
-      </CheckboxCaption>
     </CheckboxLabel>);
 });
 

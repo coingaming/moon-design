@@ -15,10 +15,10 @@ import styled from 'styled-components';
  */
 const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   ...hideVisually(),
-  '& + span': {
+  '& + div': {
     cursor: 'pointer',
     color: theme.colorNew.bulma,
-    '& > div > span::after': {
+    '& > span::after': {
       backgroundImage: inlineSvg(<GenericCheckAlternative color={theme.colorNew.goten} forwardColor={true} />),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
@@ -33,10 +33,10 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   },
   /* Add the "check" to the Pseudo Checkbox */
   '&:checked': {
-    '&:hover + span > div > span': {
+    '&:hover + div > span': {
       backgroundColor: rgba(theme.colorNew.piccolo, 0.12),
     },
-    '& + span > div > span::after': {
+    '& + div > span::after': {
       backgroundColor: theme.colorNew.piccolo,
       backgroundSize: '100%',
       boxShadow: 'none',
