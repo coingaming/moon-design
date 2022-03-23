@@ -1,5 +1,6 @@
 import React from 'react';
 import Contributors from '../components/facing/Contributors';
+import ContributorsDevelopers from '../components/facing/ContributorsDevelopers';
 import ForDesigners from '../components/facing/ForDesigners';
 import ForDevelopers from '../components/facing/ForDevelopers';
 import Future from '../components/facing/Future';
@@ -26,8 +27,8 @@ const Header = () => (
 );
 
 interface SubHeaderProps {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
 }
 
 const SubHeader: React.FC<SubHeaderProps> = ({
@@ -35,15 +36,17 @@ const SubHeader: React.FC<SubHeaderProps> = ({
   description,
 }: SubHeaderProps) => (
   <>
-    <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative w-min whitespace-nowrap py-1 rounded-lg">
-      {title}
-    </h2>
-    <p
-      className="text-4xl tracking-tight bg-background relative w-min whitespace-nowrap
-       pr-4 py-1 "
-    >
-      {description}
-    </p>
+    {title && (
+      <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min">
+        {title}
+      </h2>
+    )}
+
+    {description && (
+      <p className="text-4xl tracking-tight bg-background relative  pr-4 py-1 lg:whitespace-nowrap lg:w-min">
+        {description}
+      </p>
+    )}
   </>
 );
 
@@ -76,9 +79,12 @@ export default function Home() {
         title="In the Spotlight."
         description="The team who design Moon."
       />
-
       <div className="mt-12">
         <Contributors />
+      </div>
+
+      <div className="mt-12">
+        <ContributorsDevelopers />
       </div>
     </>
   );
