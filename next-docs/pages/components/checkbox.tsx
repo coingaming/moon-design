@@ -35,7 +35,7 @@ export default function PageAccordion() {
         />
       </section>
 
-      {/* Default */}
+      {/* No label */}
       <section className="mt-8">
         <Preview
           title="No label"

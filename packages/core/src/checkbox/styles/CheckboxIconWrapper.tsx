@@ -15,12 +15,12 @@ const explode = keyframes`
 
   50% {
     transform: translate(-50%, -50%) scale(1);
-    opacity: .5;
+    opacity: .4;
   }
 
   80% {
     transform: translate(-50%, -50%) scale(1);
-    opacity: .1;
+    opacity: 0;
   }
 
   100% {
@@ -113,13 +113,13 @@ const Animation = styled.div<{ checked?: boolean, animate?: boolean }>`
   transform: translate(-50%, -50%) scale(0);
   background-color: ${({ theme, checked }) =>
     checked
-      ? css`${lighten(0.3, theme.colorNew.piccolo)}`
+      ? css`${lighten(0.315, theme.colorNew.piccolo)}`
       : css`rgba(0, 0, 0, 0.12)`
   };
   opacity: ${({ theme }) => css`${theme.newTokens.opacity}`};
   animation: ${({ animate }) =>
     animate
-      ? css`${explode} .7s cubic-bezier(1, 0.7, 0.2, 1)`
+      ? css`${explode} .7s cubic-bezier(0.7, 0.7, 0.7, 1)`
       : 'none'
   };
 `;

@@ -5,6 +5,7 @@ import Table from '../../../components/Table';
 import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../../public/examples/radiobutton/radiobutton/Default';
 import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
+import NoLabel from "../../../public/examples/radiobutton/radiobutton/NoLabel";
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
@@ -26,6 +27,15 @@ export default function RadioButtonPage() {
         <Preview
           title="RadioButton"
           preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* No label */}
+      <section className="mt-8">
+        <Preview
+          title="No label"
+          preview={<NoLabel />}
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
