@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { ColorValue, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import { lighten } from "polished";
@@ -62,15 +62,6 @@ const inputColors =
       return themedColor[key];
     };
 
-const Wrapper = styled.div(({ theme }) => ({
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  position: 'relative',
-  width: rem(40),
-  height: rem(40)
-}));
-
 const Content = styled.span(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
@@ -79,8 +70,11 @@ const Content = styled.span(({ theme }) => ({
   borderRadius: '50%',
   width: rem(24),
   height: rem(24),
+  minWidth: rem(24),
+  minHeight: rem(24),
   position: 'relative',
   transition: 'background-color 0.4s',
+  marginRight: theme.newTokens.space.threexsmall,
   zIndex: 2,
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.08)'
@@ -95,7 +89,8 @@ const Content = styled.span(({ theme }) => ({
     transform: 'translate(-50%, -50%) scale(0)',
     transition: 'all .3s',
     borderRadius: '50%',
-    backgroundColor: theme.colorNew.piccolo
+    backgroundColor: theme.colorNew.piccolo,
+    zIndex: 2
   },
   '&::after': {
     content: '""',
@@ -119,23 +114,22 @@ const Animation = styled.div<{ animate?: boolean }>`
   left: 50%;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: ${({ theme }) => theme.newTokens.borderRadius.full};
   z-index: 1;
   transform: translate(-50%, -50%) scale(0);
-  background-color: ${({ theme }) => css`${lighten(0.3, theme.colorNew.piccolo)}`};
+  background-color: ${({ theme }) => css`${lighten(0.4, theme.colorNew.piccolo)}`};
   opacity: ${({ theme }) => css`${theme.newTokens.opacity}`};
   animation: ${({ animate }) =>
     animate
-    ? css`${explode} .7s cubic-bezier(1, 0.7, 0.2, 1)`
+    ? css`${explode} .7s cubic-bezier(0.7, 0.7, 0.7, 1)`
     : 'none'
   };
 `;
 
 const RadioButtonStyledInput: React.FC<Props> = ({ animate }) => {
-  return (<Wrapper>
-    <Content />
+  return (<Content>
     <Animation animate={animate} />
-  </Wrapper>);
+  </Content>);
 };
 
 export default RadioButtonStyledInput;

@@ -17,7 +17,7 @@ const RadioButtonHiddenInput = styled.input(({ theme }) => ({
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
-  '&:checked + div > span': {
+  '&:checked + span': {
     '&:hover': {
       backgroundColor: lighten(0.43, theme.colorNew.piccolo)
     },
