@@ -5,6 +5,7 @@ import Table from "../../components/Table";
 import Checked from '../../public/examples/checkbox/Checked';
 import Disabled from '../../public/examples/checkbox/Disabled';
 import Example from '../../public/examples/checkbox/Example';
+import NoLabel from "../../public/examples/checkbox/NoLabel";
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
@@ -30,6 +31,15 @@ export default function PageAccordion() {
         <Preview
           title="Checkbox"
           preview={<Example />}
+          code={examples ? examples.Example : 'Loading'}
+        />
+      </section>
+
+      {/* Default */}
+      <section className="mt-8">
+        <Preview
+          title="No label"
+          preview={<NoLabel />}
           code={examples ? examples.Example : 'Loading'}
         />
       </section>

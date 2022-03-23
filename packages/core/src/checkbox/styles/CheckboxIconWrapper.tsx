@@ -96,7 +96,7 @@ const Content = styled.span(({ theme }) => ({
     left: '50%',
     transform: 'translate(-50%, -50%)',
     boxShadow: `inset 0 0 0 0.1rem ${theme.colorNew.trunks}`,
-    borderRadius: rem(2),
+    borderRadius: theme.newTokens.borderRadius.xsmall,
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
   },

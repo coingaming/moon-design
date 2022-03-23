@@ -33,7 +33,8 @@ const inputColors =
 const CheckboxCaption = styled.span(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
-  color: inputColors('label')(theme)
+  color: inputColors('label')(theme),
+  fontSize: theme.fontSize.body
 }));
 
 export default CheckboxCaption;
