@@ -30,9 +30,8 @@ type IconProps = {
 };
 const GenericCheckAlternative =
   styled(Svg).withConfig({
-    shouldForwardProp: (prop) => {
-      return !['backgroundColor', 'circleColor'].includes(prop);
-    },
+    shouldForwardProp: prop =>
+      !['backgroundColor', 'circleColor'].includes(prop),
   }) <
   IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
@@ -43,8 +42,7 @@ const GenericCheckAlternative =
       borderRadius: '50%',
     },
     color && {
-      color: themed('color', color)(theme),
-      fill: themed('color', color)(theme),
+      color: themed('color', color)(theme)
     },
     circleColor && {
       circle: {

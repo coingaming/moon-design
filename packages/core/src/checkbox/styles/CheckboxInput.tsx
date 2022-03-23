@@ -6,7 +6,6 @@ import { inlineSvg, rem } from '@heathmont/moon-utils';
 import { rgba } from "polished";
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
-import {CheckboxIcon} from "../private/icon";
 
 /**
  * Checkbox Input
