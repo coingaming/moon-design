@@ -92,9 +92,10 @@ const Content = styled.span(({ theme }) => ({
     position: 'absolute',
     top: '50%',
     left: '50%',
-    transform: 'translate(-50%, -50%)',
+    transform: 'translate(-50%, -50%) scale(0)',
+    transition: 'all .3s',
     borderRadius: '50%',
-    backgroundColor: 'translate',
+    backgroundColor: theme.colorNew.piccolo
   },
   '&::after': {
     content: '""',

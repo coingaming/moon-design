@@ -22,7 +22,7 @@ const RadioButtonHiddenInput = styled.input(({ theme }) => ({
       backgroundColor: lighten(0.43, theme.colorNew.piccolo)
     },
     '&::before': {
-      backgroundColor: theme.colorNew.piccolo,
+      transform: 'translate(-50%, -50%) scale(1)',
     },
     '&:after': {
       boxShadow: `inset 0 0 0 0.1rem ${theme.colorNew.piccolo}`,
