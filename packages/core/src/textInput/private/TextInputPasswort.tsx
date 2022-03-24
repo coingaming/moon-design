@@ -16,7 +16,7 @@ interface TextInputPasswordProps
   id?: string;
   inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
-  type: TextInputTypes;
+  type: TextInputTypes | string;
   placeholder?: string;
   hintText?: JSX.Element | string;
   isError?: boolean;
@@ -27,8 +27,8 @@ interface TextInputPasswordProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 }
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
@@ -48,8 +48,8 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
-      isNoBorderEnd,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -68,8 +68,8 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
-      isNoBorderEnd,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       ...rest,
     };
 

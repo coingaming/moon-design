@@ -1,5 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { forwardRef, ReactElement, Ref, useEffect, useRef } from 'react';
 import { useTheme } from '@heathmont/moon-themes';
+import mergeRefs from 'react-merge-refs';
 import ReactSelect, {
   Props as ReactSelectProps,
   StylesConfig,
@@ -23,7 +24,7 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-type SelectProps<T> = {
+export type SelectProps<T> = {
   isCustomControl?: boolean;
   headerSlot?: JSX.Element;
   footerSlot?: JSX.Element;
@@ -32,40 +33,56 @@ type SelectProps<T> = {
   leftSlot?: JSX.Element;
   hintSlot?: JSX.Element | string;
   placeholderSlot?: JSX.Element | string;
-  size?: 'large' | 'xLarge';
+  size?: 'large' | 'xLarge' | string;
   amountOfVisibleItems?: number;
   isError?: boolean;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
+  isRtl?: boolean;
 } & ReactSelectProps<T>;
 
-const Select = <T extends BaseOptionType>({
-  isCustomControl = false,
-  headerSlot,
-  footerSlot,
-  menuIsOpen,
-  menuWidth,
-  label,
-  leftSlot,
-  hintSlot,
-  placeholderSlot,
-  amountOfVisibleItems,
-  isError = false,
-  isSearchable = false,
-  size = 'large',
-  isMulti,
-  closeMenuOnSelect,
-  ...rest
-}: SelectProps<T>) => {
+const Select = <T extends BaseOptionType>(
+  {
+    isCustomControl = false,
+    headerSlot,
+    footerSlot,
+    menuIsOpen,
+    menuWidth,
+    label,
+    leftSlot,
+    hintSlot,
+    placeholderSlot,
+    amountOfVisibleItems,
+    isError = false,
+    isSearchable = false,
+    size = 'large',
+    isMulti,
+    closeMenuOnSelect,
+    isSharpLeftSide,
+    isSharpRightSide,
+    isSharpTopSide,
+    isSharpBottomSide,
+    isTopBottomBorderHidden,
+    isSideBorderHidden,
+    ...rest
+  }: SelectProps<T>,
+  ref?: Ref<HTMLFormElement>
+) => {
   const menuRef = useRef(null);
   const moonTheme = useTheme();
 
   useEffect(() => {
-    const cuurentRef = menuRef as React.RefObject<HTMLFormElement>;
-    menuIsOpen && cuurentRef?.current?.focus();
+    const currentRef = menuRef as React.RefObject<HTMLFormElement>;
+    menuIsOpen && currentRef?.current?.focus();
   }, [menuIsOpen]);
   return (
     <ReactSelect
       {...rest}
-      ref={menuRef}
+      ref={ref ? mergeRefs([menuRef, ref]) : menuRef}
       styles={CustomStyles as StylesConfig<T>}
       isSearchable={isSearchable}
       menuIsOpen={menuIsOpen}
@@ -98,6 +115,12 @@ const Select = <T extends BaseOptionType>({
         size,
         amountOfVisibleItems,
         isError,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide,
+        isTopBottomBorderHidden,
+        isSideBorderHidden,
       }}
       theme={(theme) => ({
         ...theme,
@@ -124,4 +147,9 @@ const Select = <T extends BaseOptionType>({
   );
 };
 
-export default Select;
+// Cast the output
+const SelectForwarded = forwardRef(Select) as <T extends BaseOptionType>(
+  p: SelectProps<T> & { ref?: Ref<HTMLFormElement> }
+) => ReactElement;
+
+export default SelectForwarded;

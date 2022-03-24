@@ -20,8 +20,8 @@ type InputProps = {
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 };
 
 const makeBorderRadius = (
@@ -45,26 +45,23 @@ const makeBorderRadius = (
 
 const makeBorder = (
   border: SharedTheme['newTokens']['border'],
-  isRtl?: boolean,
-  isNoBorderEnd?: boolean,
-  isNoBorderBottom?: boolean
+  isSideBorderHidden?: boolean,
+  isTopBottomBorderHidden?: boolean
 ) => {
-  if (isNoBorderEnd && isRtl) {
+  if (isSideBorderHidden) {
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} -${border.width.default} -${border.width.default} ${border.width.default})`,
+        clipPath: `inset(-${border.width.default} ${rem(2)} -${
+          border.width.default
+        } ${rem(2)})`,
       },
     };
-  } else if (isNoBorderEnd) {
+  } else if (isTopBottomBorderHidden) {
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} ${border.width.default} -${border.width.default} -${border.width.default})`,
-      },
-    };
-  } else if (isNoBorderBottom) {
-    return {
-      '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} -${border.width.default} ${border.width.default} -${border.width.default})`,
+        clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
+          border.width.default
+        })`,
       },
     };
   }
@@ -93,8 +90,8 @@ const Input = styled.input.attrs(({ type }) => ({
     isSharpRightSide,
     isSharpTopSide,
     isSharpBottomSide,
-    isNoBorderBottom,
-    isNoBorderEnd,
+    isTopBottomBorderHidden,
+    isSideBorderHidden,
   }) => [
     {
       display: 'block',
@@ -122,7 +119,7 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
-      ...makeBorder(border, isRtl, isNoBorderEnd, isNoBorderBottom),
+      ...makeBorder(border, isSideBorderHidden, isTopBottomBorderHidden),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',

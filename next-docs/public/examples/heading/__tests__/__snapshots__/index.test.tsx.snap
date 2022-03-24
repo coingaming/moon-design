@@ -1,92 +1,151 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading renders 1`] = `
+exports[`Caption renders 1`] = `
+<h3
+  className="Heading-sc-1jzu9kp-0 gCkAc"
+  color="bulma.100"
+  size={16}
+>
+  Heading
+</h3>
+`;
+
+exports[`Caption renders colors 1`] = `
 <div
-  className="flex justify-around items-center w-full"
+  className="flex justify-around w-full items-center"
 >
   <h3
     className="Heading-sc-1jzu9kp-0 gCkAc"
     color="bulma.100"
     size={16}
   >
-    Title
+    Defaul color is Bulma
+  </h3>
+  <h3
+    className="Heading-sc-1jzu9kp-0 kpXRKp"
+    color="piccolo.100"
+    size={16}
+  >
+    Piccolo
+  </h3>
+  <h3
+    className="Heading-sc-1jzu9kp-0 ekGjrD"
+    color="trunks.100"
+    size={16}
+  >
+    Trunks
+  </h3>
+  <h3
+    className="Heading-sc-1jzu9kp-0 iYpYlx"
+    color="krillin.100"
+    size={16}
+  >
+    Krillin
   </h3>
 </div>
 `;
 
-exports[`Heading renders colors 1`] = `
+exports[`Caption renders font-weight 1`] = `
 <div
-  className="flex justify-around items-center w-full"
+  className="flex justify-around w-full items-center"
 >
   <h3
-    className="Heading-sc-1jzu9kp-0 jCvCej"
-    color="goku.80"
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
     size={16}
   >
-    Title
+    Defaul font-weight is bold
   </h3>
-  <h3
-    className="Heading-sc-1jzu9kp-0 ekHBUs"
-    color="hit.80"
-    size={16}
-  >
-    Title
-  </h3>
-</div>
-`;
-
-exports[`Heading renders isRegular 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
   <h3
     className="Heading-sc-1jzu9kp-0 byBMtp"
     color="bulma.100"
     size={16}
   >
-    Title
+    Font-weight is regular
   </h3>
 </div>
 `;
 
-exports[`Heading renders size 1`] = `
+exports[`Caption renders semantic tags 1`] = `
 <div
-  className="flex justify-around items-center w-full"
+  className="flex justify-around w-full items-center"
 >
+  <h3
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
+    size={16}
+  >
+    H3 is a default tag
+  </h3>
+  <h2
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
+    size={16}
+  >
+    H2 tag
+  </h2>
+  <h6
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
+    size={16}
+  >
+    H6 tag
+  </h6>
+</div>
+`;
+
+exports[`Caption renders sizes 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
+    size={16}
+  >
+    Defaul font-size is 16px
+  </h3>
   <h3
     className="Heading-sc-1jzu9kp-0 dTQAiP"
     color="bulma.100"
     size={24}
   >
-    Title Size
+    Size is 24px
   </h3>
   <h3
-    className="Heading-sc-1jzu9kp-0 evSKpA"
+    className="Heading-sc-1jzu9kp-0 bOjbQs"
     color="bulma.100"
-    size={72}
+    size={48}
   >
-    Title Size
+    Size is 48px
   </h3>
 </div>
 `;
 
-exports[`Heading renders text align 1`] = `
+exports[`Caption renders text-align 1`] = `
 <div
-  className="flex justify-around items-center w-full"
+  className="flex justify-around w-full items-center"
 >
+  <h3
+    className="Heading-sc-1jzu9kp-0 gCkAc"
+    color="bulma.100"
+    size={16}
+  >
+    Text-align is not specified
+  </h3>
   <h3
     className="Heading-sc-1jzu9kp-0 ihCsbP"
     color="bulma.100"
     size={16}
   >
-    Title
+    Centered text
   </h3>
   <h3
     className="Heading-sc-1jzu9kp-0 cbfufs"
     color="bulma.100"
     size={16}
   >
-    Title
+    Right alignment
   </h3>
 </div>
 `;

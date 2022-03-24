@@ -8,6 +8,20 @@ const Example = () => {
   const [country, setCountry] = useState('Estonia');
   const [phone, setPhone] = useState('+372 45678901');
 
+  const inputProps1 = {
+    type: 'text',
+    inputSize: 'medium',
+    placeholder: 'Country',
+    ref: ref1,
+  };
+
+  const inputProps2 = {
+    type: 'text',
+    inputSize: 'medium',
+    placeholder: 'Phone',
+    ref: ref2,
+  };
+
   useEffect(() => {
     const input1 = ref1?.current;
     const input2 = ref2?.current;
@@ -30,14 +44,9 @@ const Example = () => {
   return (
     <div className="flex flex-col gap-3">
       <TextInputGroup
-        inputSize="medium"
-        placeholder={{
-          input1: 'Country',
-          input2: 'Phone',
-        }}
-        reference={{
-          input1: ref1,
-          input2: ref2,
+        inputProps={{
+          input1: inputProps1,
+          input2: inputProps2,
         }}
       />
       <div>

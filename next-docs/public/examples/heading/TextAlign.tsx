@@ -1,10 +1,10 @@
-import React from 'react';
 import { Heading } from '@heathmont/moon-core';
 
 const Example = () => (
-  <div className="flex justify-around items-center w-full">
-    <Heading textAlign={'center'}>Title</Heading>
-    <Heading textAlign={'right'}>Title</Heading>
+  <div className="flex justify-around w-full items-center">
+    <Heading>Text-align is not specified</Heading>
+    <Heading textAlign="center">Centered text</Heading>
+    <Heading textAlign="right">Right alignment</Heading>
   </div>
 );
 

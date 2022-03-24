@@ -5,6 +5,13 @@ import FacingReel from './FacingReel';
 const News = () => (
   <FacingReel>
     <CardArticle
+      href="https://moonds.medium.com/introduction-to-the-world-of-dialogs-and-notifications-ad74d55fff0d"
+      title="Introduction to the world of dialogs and notifications."
+      section=".blog"
+      author="Natalja Saks"
+    />
+
+    <CardArticle
       href="https://moonds.medium.com/10-guidelines-to-efficiently-display-data-tables-76c8f71af3c3"
       title="10 Guidelines to efficiently display data tables."
       section=".blog"
