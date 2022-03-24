@@ -1,0 +1,109 @@
+************************************* 
+
+    Tue Mar 22 2022  
+  
+coingaming/next-casino:  {
+  "Text": 42,
+  "Caption": 13,
+  "Heading": 10
+} 
+coingaming/sportsbet-packages:  {
+  "Heading": 34,
+  "Badge": 5,
+  "Loader": 5,
+  "ListItem": 1,
+  "Header": 1,
+  "Search": 1
+} 
+coingaming/heathmont-travel-app:  {
+  "TextInput": 7,
+  "Footer": 7,
+  "Text": 11,
+  "Checkbox": 2,
+  "Label": 2,
+  "RadioButton": 1,
+  "SingleSelect": 2,
+  "ListItem": 2
+} 
+coingaming/backoffice-comms:  {
+  "Text": 1,
+  "Heading": 1,
+  "RadioButton": 1,
+  "Loader": 1,
+  "Label": 1
+} 
+coingaming/video-notifications-frontend:  {
+  "MultiSelect": 2,
+  "Checkbox": 2,
+  "Loader": 5,
+  "TextInput": 3,
+  "ListItem": 1
+} 
+coingaming/yolo-io-backoffice:  {
+  "Label": 1,
+  "Loader": 1
+} 
+coingaming/yolo-io-lp-frontoffice:  {
+  "Badge": 1,
+  "Text": 13,
+  "Heading": 12,
+  "ListItem": 1,
+  "Tabs": 1,
+  "TabLinkFill": 1,
+  "TextInput": 3,
+  "Loader": 1
+} 
+coingaming/yolo-io-common-moon-fe:  {
+  "ListItem": 2,
+  "Footer": 1,
+  "Text": 8,
+  "Heading": 6,
+  "TextInput": 1,
+  "Label": 1
+} 
+coingaming/bitcasino-v3:  {
+  "Text": 26,
+  "Caption": 8,
+  "AgeLimit": 1,
+  "Badge": 6,
+  "Heading": 12,
+  "Loader": 3
+} 
+coingaming/team-homepage:  {
+  "Heading": 20,
+  "Text": 5,
+  "Footer": 1,
+  "Header": 2,
+  "Reel": 1
+} 
+coingaming/nextjs-landing-pages:  {
+  "Heading": 5,
+  "Text": 3
+} 
+coingaming/hub88-frontend:  {
+  "Heading": 1,
+  "Text": 2
+} 
+------------------------------------  
+
+Total result: {
+  "Text": 111,
+  "Caption": 21,
+  "Heading": 101,
+  "Badge": 12,
+  "Loader": 16,
+  "ListItem": 7,
+  "Header": 3,
+  "Search": 1,
+  "TextInput": 14,
+  "Footer": 9,
+  "Checkbox": 4,
+  "Label": 5,
+  "RadioButton": 2,
+  "SingleSelect": 2,
+  "MultiSelect": 2,
+  "Tabs": 1,
+  "TabLinkFill": 1,
+  "AgeLimit": 1,
+  "Reel": 1
+} 

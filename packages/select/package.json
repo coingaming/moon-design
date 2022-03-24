@@ -26,6 +26,7 @@
     "@heathmont/moon-utils": "workspace:^8.2.0",
     "@heathmont/moon-icons": "workspace:^8.2.0",
     "@heathmont/moon-core": "workspace:^8.2.0",
+    "react-merge-refs": "^1.1.0",
     "react-select": "^5.2.1"
   },
   "peerDependencies": {

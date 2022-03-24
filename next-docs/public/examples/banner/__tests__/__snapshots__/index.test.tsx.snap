@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner renders 1`] = `
+<div
+  className="Container-sc-103kmdg-0 fjbOJT"
+>
+  <div
+    className="Body-sc-1aycagq-0 cNKOnB"
+  >
+    <div
+      className="Header__Container-rvo247-0 iguyoK"
+    >
+      <div
+        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+      >
+        Title here
+      </div>
+    </div>
+    <div
+      className="BodyContent-sc-12uf0g0-0 exdeGm"
+    >
+      Lorem ipsum dolor...
+    </div>
+  </div>
+  <div
+    className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+  />
+</div>
+`;
+
+exports[`Banner renders in mobile mode 1`] = `
+<div
+  className="Container-sc-103kmdg-0 llOYec"
+>
+  <div
+    className="Body-sc-1aycagq-0 cNKOnB"
+  >
+    <div
+      className="Header__Container-rvo247-0 iguyoK"
+    >
+      <div
+        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+      >
+        Title here
+      </div>
+    </div>
+    <div
+      className="BodyContent-sc-12uf0g0-0 exdeGm"
+    >
+      Lorem ipsum dolor...
+    </div>
+  </div>
+  <div
+    className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+  >
+    <span>
+      <button
+        className="ButtonComponent-sc-1qwityd-0 dlczW"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
+      >
+        Discard
+        <div
+          className="Hover-yzznpt-0 ctGatB"
+        />
+      </button>
+    </span>
+    <span>
+      <button
+        className="ButtonComponent-sc-1qwityd-0 lmotjR"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
+      >
+        Confirm
+        <div
+          className="Hover-yzznpt-0 ctGatB"
+        />
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Banner renders in single line mode 1`] = `
+<div
+  className="Container-sc-103kmdg-0 fjbOJT"
+>
+  <div
+    className="Body-sc-1aycagq-0 bIFCew"
+  >
+    <div
+      className="BodyContent-sc-12uf0g0-0 imznOc"
+    >
+      Your email is not verified. Verify to enable withdrawals.
+    </div>
+    <div
+      className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+    >
+      <button
+        className="ButtonComponent-sc-1qwityd-0 gQjrcJ"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
+      >
+        Resend verification link to email ›
+        <div
+          className="Hover-yzznpt-0 ctGatB"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Banner renders with buttons 1`] = `
+<div
+  className="Container-sc-103kmdg-0 AIDNV"
+>
+  <div
+    className="Body-sc-1aycagq-0 cNKOnB"
+  >
+    <div
+      className="Header__Container-rvo247-0 iguyoK"
+    >
+      <div
+        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+      >
+        Title here
+      </div>
+    </div>
+    <div
+      className="BodyContent-sc-12uf0g0-0 exdeGm"
+    >
+      Lorem ipsum dolor...
+    </div>
+  </div>
+  <div
+    className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+  >
+    <span>
+      <button
+        className="ButtonComponent-sc-1qwityd-0 dlczW"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
+      >
+        Discard
+        <div
+          className="Hover-yzznpt-0 ctGatB"
+        />
+      </button>
+    </span>
+    <span>
+      <button
+        className="ButtonComponent-sc-1qwityd-0 lmotjR"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
+      >
+        Confirm
+        <div
+          className="Hover-yzznpt-0 ctGatB"
+        />
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Banner renders with buttons RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="Container-sc-103kmdg-0 AIDNV"
+  >
+    <div
+      className="Body-sc-1aycagq-0 cNKOnB"
+    >
+      <div
+        className="Header__Container-rvo247-0 iguyoK"
+      >
+        <div
+          className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+        >
+          Title here
+        </div>
+      </div>
+      <div
+        className="BodyContent-sc-12uf0g0-0 exdeGm"
+      >
+        Lorem ipsum dolor...
+      </div>
+    </div>
+    <div
+      className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+    >
+      <span>
+        <button
+          className="ButtonComponent-sc-1qwityd-0 dlczW"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="medium"
+        >
+          Discard
+          <div
+            className="Hover-yzznpt-0 ctGatB"
+          />
+        </button>
+      </span>
+      <span>
+        <button
+          className="ButtonComponent-sc-1qwityd-0 lmotjR"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          size="medium"
+        >
+          Confirm
+          <div
+            className="Hover-yzznpt-0 ctGatB"
+          />
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Banner renders with header icon 1`] = `
+<div
+  className="Container-sc-103kmdg-0 fjbOJT"
+>
+  <div
+    className="Body-sc-1aycagq-0 cNKOnB"
+  >
+    <div
+      className="Header__Container-rvo247-0 iguyoK"
+    >
+      <div
+        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+      >
+        Title here
+      </div>
+      <div
+        className="HeaderIcon-yhl49-0 dRmaNd"
+      >
+        <svg
+          className="sc-jnSlpE"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="BodyContent-sc-12uf0g0-0 exdeGm"
+    >
+      Lorem ipsum dolor...
+    </div>
+  </div>
+</div>
+`;

@@ -38,8 +38,6 @@ export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
 export { default as CheckboxMultiselect } from './checkboxMultiselect/CheckboxMultiselect';
 export * from './checkboxMultiselect/CheckboxMultiselect';
-export { default as Chip } from './chip/Chip';
-export * from './chip/Chip';
 export { default as DateRangePicker } from './datepicker/DateRangePicker';
 export * from './datepicker/DateRangePicker';
 export { default as RangeCalendar } from './datepicker/RangeCalendar';

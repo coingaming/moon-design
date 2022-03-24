@@ -12,7 +12,7 @@ interface TextInputXSandSmProps
   id?: string;
   inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
-  type: TextInputTypes;
+  type: TextInputTypes | string;
   placeholder?: string;
   hintText?: JSX.Element | string;
   isError?: boolean;
@@ -23,8 +23,8 @@ interface TextInputXSandSmProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 }
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
@@ -43,8 +43,8 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
-      isNoBorderEnd,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -57,8 +57,8 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
-      isNoBorderEnd,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       ...rest,
     };
     return (

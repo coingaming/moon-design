@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Caption renders 1`] = `
+<span
+  className="Caption-sc-13sr7f-0 kilTWH"
+  color="bulma.100"
+>
+  Caption
+</span>
+`;
+
+exports[`Caption renders colors 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="Caption-sc-13sr7f-0 kilTWH"
+    color="bulma.100"
+  >
+    Defaul color is Bulma
+  </span>
+  <span
+    className="Caption-sc-13sr7f-0 fhqiDq"
+    color="piccolo.100"
+  >
+    Piccolo
+  </span>
+  <span
+    className="Caption-sc-13sr7f-0 fogDmA"
+    color="trunks.100"
+  >
+    Trunks
+  </span>
+  <span
+    className="Caption-sc-13sr7f-0 lmXlze"
+    color="krillin.100"
+  >
+    Krillin
+  </span>
+</div>
+`;
+
+exports[`Caption renders semantic tags 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="Caption-sc-13sr7f-0 kilTWH"
+    color="bulma.100"
+  >
+    Span is a default tag
+  </span>
+  <p
+    className="Caption-sc-13sr7f-0 kilTWH"
+    color="bulma.100"
+  >
+    Paragraph tag
+  </p>
+  <label
+    className="Caption-sc-13sr7f-0 kilTWH"
+    color="bulma.100"
+  >
+    Label tag
+  </label>
+</div>
+`;
+
+exports[`Caption renders text-align 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="Caption-sc-13sr7f-0 kilTWH"
+    color="bulma.100"
+  >
+    Text-align is not specified
+  </span>
+  <span
+    className="Caption-sc-13sr7f-0 hvatPI"
+    color="bulma.100"
+  >
+    Centered text
+  </span>
+  <span
+    className="Caption-sc-13sr7f-0 heCuAf"
+    color="bulma.100"
+  >
+    Right alignment
+  </span>
+</div>
+`;

@@ -1,41 +1,151 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text renders 1`] = `
+exports[`Caption renders 1`] = `
 <p
   className="Text-oby56-0 eGfFQX"
   color="bulma.100"
   size={16}
-/>
+>
+  Text
+</p>
 `;
 
-exports[`Text renders color 1`] = `
-<p
-  className="Text-oby56-0 bQcClR"
-  color="piccolo.120"
-  size={16}
-/>
+exports[`Caption renders colors 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <p
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Defaul color is Bulma
+  </p>
+  <p
+    className="Text-oby56-0 bcbKce"
+    color="piccolo.100"
+    size={16}
+  >
+    Piccolo
+  </p>
+  <p
+    className="Text-oby56-0 ePViWc"
+    color="trunks.100"
+    size={16}
+  >
+    Trunks
+  </p>
+  <p
+    className="Text-oby56-0 lkjXUO"
+    color="krillin.100"
+    size={16}
+  >
+    Krillin
+  </p>
+</div>
 `;
 
-exports[`Text renders isBold 1`] = `
-<p
-  className="Text-oby56-0 gKTSCZ"
-  color="bulma.100"
-  size={16}
-/>
+exports[`Caption renders font-weight 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <p
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Defaul font-weight is regular
+  </p>
+  <p
+    className="Text-oby56-0 gKTSCZ"
+    color="bulma.100"
+    size={16}
+  >
+    Font-weight is bold
+  </p>
+</div>
 `;
 
-exports[`Text renders size 1`] = `
-<p
-  className="Text-oby56-0 frOaMX"
-  color="bulma.100"
-  size={64}
-/>
+exports[`Caption renders semantic tags 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <p
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Paragraph is a default tag
+  </p>
+  <span
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Span tag
+  </span>
+  <label
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Label tag
+  </label>
+</div>
 `;
 
-exports[`Text renders textAlign 1`] = `
-<p
-  className="Text-oby56-0 jUWXGU"
-  color="bulma.100"
-  size={16}
-/>
+exports[`Caption renders sizes 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <p
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Defaul font-size is 16px
+  </p>
+  <p
+    className="Text-oby56-0 dthkcc"
+    color="bulma.100"
+    size={24}
+  >
+    Size is 24px
+  </p>
+  <p
+    className="Text-oby56-0 fdbjGz"
+    color="bulma.100"
+    size={48}
+  >
+    Size is 48px
+  </p>
+</div>
+`;
+
+exports[`Caption renders text-align 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <p
+    className="Text-oby56-0 eGfFQX"
+    color="bulma.100"
+    size={16}
+  >
+    Text-align is not specified
+  </p>
+  <p
+    className="Text-oby56-0 jUWXGU"
+    color="bulma.100"
+    size={16}
+  >
+    Centered text
+  </p>
+  <p
+    className="Text-oby56-0 bNtFFz"
+    color="bulma.100"
+    size={16}
+  >
+    Right alignment
+  </p>
+</div>
 `;
