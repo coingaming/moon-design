@@ -6,11 +6,19 @@ import { Size } from '../private/Size';
 const determineColor = (
   theme: Theme,
   color?: ColorProps,
-  isTransparent?: boolean
+  isStartColor?: boolean,
+  isEndGradient?: boolean
 ) => {
   const colorToUse = color ?? theme.colorNew.bulma;
   const colorValue = themed('color', colorToUse)(theme);
-  return colorValue + (isTransparent ? '00' : 'FF');
+  if (isStartColor && !isEndGradient) {
+    return colorValue + 'FF';
+  } else if (isStartColor && isEndGradient) {
+    return colorValue + '80';
+  } else if (!isStartColor && !isEndGradient) {
+    return colorValue + '80';
+  }
+  return colorValue + '00';
 };
 
 export interface Props {
@@ -28,6 +36,9 @@ const sizeAdjustments = {
       marginTop: '-38%',
       marginInlineStart: '12%',
     },
+    before: {
+      marginTop: '-51%',
+    },
   },
   xsmall: {
     marginTop: '50%',
@@ -38,15 +49,21 @@ const sizeAdjustments = {
       marginTop: '-40%',
       marginInlineStart: '10%',
     },
+    before: {
+      marginTop: '-51%',
+    },
   },
   small: {
     marginTop: '49%',
     height: '51%',
     after: {
-      width: '79%',
-      height: '157%',
-      marginTop: '-39%',
-      marginInlineStart: '10%',
+      width: '78%',
+      height: '152%',
+      marginTop: '-38%',
+      marginInlineStart: '11%',
+    },
+    before: {
+      marginTop: '-52%',
     },
   },
   medium: {
@@ -58,6 +75,9 @@ const sizeAdjustments = {
       marginTop: '-40%',
       marginInlineStart: '10%',
     },
+    before: {
+      marginTop: '-51%',
+    },
   },
   large: {
     marginTop: '49%',
@@ -68,6 +88,9 @@ const sizeAdjustments = {
       marginTop: '-40%',
       marginInlineStart: '8%',
     },
+    before: {
+      marginTop: '-52%',
+    },
   },
 };
 
@@ -76,23 +99,26 @@ const InnerCircle = styled.span<Props>(({ color, size, theme }) => ({
   height: sizeAdjustments[size ?? 'large']['height'],
   position: 'absolute',
   marginTop: sizeAdjustments[size ?? 'large']['marginTop'],
-  background: `linear-gradient(90deg, ${determineColor(
+  background: `linear-gradient(90deg,
+    ${determineColor(theme, color, false, false)}, ${determineColor(
     theme,
     color,
-    true
-  )}, ${determineColor(theme, color, false)})`,
+    true,
+    false
+  )})`,
   // Dark part
   '&::before': {
     content: '""',
     width: '100%',
     height: '102%',
     position: 'absolute',
-    marginTop: '-50%',
+    marginTop: sizeAdjustments[size ?? 'large']['before']['marginTop'],
     background: `linear-gradient(90deg, ${determineColor(
       theme,
       color,
-      false
-    )}, ${determineColor(theme, color, false)})`,
+      true,
+      true
+    )}, ${determineColor(theme, color, false, true)})`,
   },
   // Light part
   '&::after': {

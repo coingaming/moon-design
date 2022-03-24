@@ -83,7 +83,6 @@ Our project's style guide and documentation is built using [Next.js](https://nex
 1. [**Themes**](packages/themes/README.mdx) - theming feature
 2. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
 3. [**Icons**](packages/components/README.mdx) - React components for each icon.
-4. [**Components**](packages/components/README.md) - the individual building blocks of our UI.
 4. [**Core**](packages/components/README.md) - the individual building blocks of our UI.
 
 
