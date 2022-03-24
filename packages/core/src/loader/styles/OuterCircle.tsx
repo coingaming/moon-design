@@ -4,31 +4,33 @@ import { Size } from '../private/Size';
 
 const determineDimensions = (size?: Size) => {
   switch (size) {
-    case 'small':
+    case 'twoxsmall':
+      return {
+        width: rem(16),
+        height: rem(16),
+      };
+    case 'xsmall':
       return {
         width: rem(24),
         height: rem(24),
       };
-    case 'medium':
+    case 'small':
       return {
         width: rem(32),
         height: rem(32),
       };
-    case 'large':
+    case 'medium':
       return {
         width: rem(40),
         height: rem(40),
       };
-    case 'xlarge':
+    case 'large':
       return {
         width: rem(48),
         height: rem(48),
       };
     default:
-      return {
-        width: rem(16),
-        height: rem(16),
-      };
+      return;
   }
 };
 

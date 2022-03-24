@@ -1,7 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Table from '../../components/Table';
-import Customization from '../../public/examples/loader/Customization';
+import Colours from '../../public/examples/loader/Colours';
 import Default from '../../public/examples/loader/Default';
 import Sizes from '../../public/examples/loader/Sizes';
 import useExamples from '../../utils/useExamples';
@@ -13,7 +13,15 @@ export default function PageLoader() {
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Loader</h1>
-        <p className="text-lg mt-4">Pure CSS loading animation.</p>
+        <p className="text-lg mt-4">
+          Fondly nicknamed “the launcher”, the Loader ensures users that
+          progress is happening so they don't give up and leave the rocket page.
+        </p>
+        <p className="text-lg mt-4">
+          The Loader, along with a succinct message, is especially important
+          after a user initiates an action that requires them to wait. This is
+          so that they know there's no need to repeat what they've done.
+        </p>
       </section>
 
       <section className="mt-8">
@@ -27,8 +35,8 @@ export default function PageLoader() {
       <section className="mt-8">
         <Preview
           title="Colours"
-          preview={<Customization />}
-          code={examples ? examples.Customization : 'Loading'}
+          preview={<Colours />}
+          code={examples ? examples.Colours : 'Loading'}
         />
       </section>
 
@@ -53,9 +61,9 @@ export default function PageLoader() {
             },
             {
               name: 'size',
-              type: 'xsmall | small | medium | large | xlarge',
+              type: 'twoxsmall | xsmall | small | medium | large',
               required: false,
-              default: 'xsmall',
+              default: 'medium',
               description: 'Size of the component',
             },
           ]}

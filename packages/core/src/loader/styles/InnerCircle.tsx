@@ -19,7 +19,7 @@ export interface Props {
 }
 
 const sizeAdjustments = {
-  xsmall: {
+  twoxsmall: {
     marginTop: '50%',
     height: '50%',
     after: {
@@ -29,7 +29,7 @@ const sizeAdjustments = {
       marginInlineStart: '12%',
     },
   },
-  small: {
+  xsmall: {
     marginTop: '50%',
     height: '50%',
     after: {
@@ -39,7 +39,7 @@ const sizeAdjustments = {
       marginInlineStart: '10%',
     },
   },
-  medium: {
+  small: {
     marginTop: '49%',
     height: '51%',
     after: {
@@ -49,7 +49,7 @@ const sizeAdjustments = {
       marginInlineStart: '10%',
     },
   },
-  large: {
+  medium: {
     marginTop: '50%',
     height: '50%',
     after: {
@@ -59,7 +59,7 @@ const sizeAdjustments = {
       marginInlineStart: '10%',
     },
   },
-  xlarge: {
+  large: {
     marginTop: '49%',
     height: '51%',
     after: {

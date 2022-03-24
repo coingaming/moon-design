@@ -9,7 +9,7 @@ export interface LoaderProps {
   size?: Size;
 }
 
-const Loader: React.FC<LoaderProps> = ({ color, size = 'xsmall' }) => (
+const Loader: React.FC<LoaderProps> = ({ color, size = 'medium' }) => (
   <OuterCircle size={size}>
     <InnerCircle color={color} size={size}></InnerCircle>
   </OuterCircle>
