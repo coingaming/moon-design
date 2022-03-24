@@ -25,6 +25,6 @@ const LogoPaxful = styled(Svg)<SvgProps>(({
   fontSize
 }));
 LogoPaxful.defaultProps = {
-    
+
   };
 export default LogoPaxful;

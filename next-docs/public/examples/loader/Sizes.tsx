@@ -4,9 +4,11 @@ import { Inline } from '@heathmont/moon-components';
 
 const Example = () => (
   <Inline>
-    <Loader color="dodoria.100" />
-    <Loader color="trunks.100" />
-    <Loader color="#663399" />
+    <Loader size="twoxsmall" />
+    <Loader size="xsmall" />
+    <Loader size="small" />
+    <Loader />
+    <Loader size="large" />
   </Inline>
 );
 
