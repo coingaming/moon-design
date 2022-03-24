@@ -4,3 +4,5 @@
 
 export { default as Select } from './Select';
 export * from './Select';
+export { default as TextInputGroup } from './TextInputGroup';
+export * from './TextInputGroup';

@@ -11,7 +11,7 @@ export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
   inputSize: TextInputSizeType | string;
-  type: TextInputTypes;
+  type: TextInputTypes | string;
   label?: JSX.Element | string;
   placeholder?: string;
   hintText?: JSX.Element | string;
@@ -23,8 +23,8 @@ export interface TextInputProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 }
 
 const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {

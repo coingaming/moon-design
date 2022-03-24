@@ -1,59 +1,58 @@
-import React, { Ref } from 'react';
-import { TextInput } from '..';
-import TextInputSizeType from '../textInput/private/types/SizeTypes';
-import TextInputTypes from '../textInput/private/types/TextInputTypes';
+import React from 'react';
+import { TextInputProps } from '..';
+import TextGroupEnd from './private/TextGroupEnd';
+import TextGroupStart from './private/TextGroupStart';
+import { OrientationType } from './private/types/OrientationType';
 import Container from './styles/Container';
 
 export interface TextInputGroupProps {
-  inputSize: TextInputSizeType | string;
-  types?: {
-    input1: TextInputTypes;
-    input2: TextInputTypes;
+  orientation?: OrientationType;
+  inputProps?: {
+    input1?: TextInputProps;
+    input2?: TextInputProps;
   };
-  placeholder?: {
-    input1?: string;
-    input2?: string;
-  };
-  orientation?: 'vertical' | 'horizontal';
   isRtl?: boolean;
-  reference?: {
-    input1: React.RefObject<HTMLInputElement>;
-    input2: React.RefObject<HTMLInputElement>;
-  };
 }
 
+const determineInputStart = (
+  inputProps?: TextInputProps,
+  orientation?: OrientationType,
+  isRtl?: boolean
+) => {
+  const groupProps = {
+    inputProps,
+    orientation,
+    isRtl,
+  };
+  return <TextGroupStart {...groupProps}></TextGroupStart>;
+};
+
+const determineInputEnd = (
+  inputProps?: TextInputProps,
+  orientation?: OrientationType,
+  isRtl?: boolean
+) => {
+  const groupProps = {
+    inputProps,
+    orientation,
+    isRtl,
+  };
+  return <TextGroupEnd {...groupProps}></TextGroupEnd>;
+};
+
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
-  isRtl,
-  inputSize,
-  types,
-  placeholder,
-  reference,
   orientation = 'horizontal',
+  inputProps,
+  isRtl,
 }) => {
+  const dir = isRtl ? 'rtl' : 'ltr';
+  const isXLarge =
+    inputProps?.input1?.inputSize === 'xlarge' ||
+    inputProps?.input2?.inputSize === 'xlarge';
   return (
-    <Container orientation={orientation} dir={isRtl ? 'rtl' : 'ltr'}>
-      <TextInput
-        type={types && types.input1 ? types.input1 : 'text'}
-        placeholder={placeholder?.input1}
-        inputSize={inputSize}
-        dir={isRtl ? 'rtl' : 'ltr'}
-        ref={reference?.input1}
-        isSharpRightSide={orientation === 'horizontal' && !isRtl}
-        isSharpLeftSide={orientation === 'horizontal' && isRtl}
-        isSharpBottomSide={orientation === 'vertical'}
-        isNoBorderBottom={orientation === 'vertical'}
-        isNoBorderEnd={orientation === 'horizontal'}
-      ></TextInput>
-      <TextInput
-        type={types && types.input2 ? types.input2 : 'text'}
-        placeholder={placeholder?.input2}
-        inputSize={inputSize}
-        dir={isRtl ? 'rtl' : 'ltr'}
-        ref={reference?.input2}
-        isSharpRightSide={orientation === 'horizontal' && isRtl}
-        isSharpLeftSide={orientation === 'horizontal' && !isRtl}
-        isSharpTopSide={orientation === 'vertical'}
-      ></TextInput>
+    <Container orientation={orientation} dir={dir} isXLarge={isXLarge}>
+      {determineInputStart(inputProps?.input1, orientation, isRtl)}
+      {determineInputEnd(inputProps?.input2, orientation, isRtl)}
     </Container>
   );
 };

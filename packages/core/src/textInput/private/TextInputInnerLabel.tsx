@@ -13,7 +13,7 @@ interface TextInputMediumProps
   id?: string;
   inputSize: TextInputSizeType | string;
   label?: JSX.Element | string;
-  type: TextInputTypes;
+  type: TextInputTypes | string;
   placeholder?: string;
   hintText?: JSX.Element | string;
   isError?: boolean;
@@ -24,8 +24,8 @@ interface TextInputMediumProps
   isSharpRightSide?: boolean;
   isSharpTopSide?: boolean;
   isSharpBottomSide?: boolean;
-  isNoBorderBottom?: boolean;
-  isNoBorderEnd?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 }
 const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
   (props, ref) => {
@@ -43,8 +43,8 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
-      isNoBorderEnd,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       backgroundColor = 'gohan',
       ...rest
     } = props;
@@ -57,8 +57,8 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      isNoBorderBottom,
-      isNoBorderEnd,
+      isTopBottomBorderHidden,
+      isSideBorderHidden,
       ...rest,
     };
     return (
