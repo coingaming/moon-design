@@ -6,11 +6,19 @@ import { Size } from '../private/Size';
 const determineColor = (
   theme: Theme,
   color?: ColorProps,
-  isTransparent?: boolean
+  isStartColor?: boolean,
+  isEndGradient?: boolean
 ) => {
   const colorToUse = color ?? theme.colorNew.bulma;
   const colorValue = themed('color', colorToUse)(theme);
-  return colorValue + (isTransparent ? '00' : 'FF');
+  if (isStartColor && !isEndGradient) {
+    return colorValue + 'FF';
+  } else if (isStartColor && isEndGradient) {
+    return colorValue + '80';
+  } else if (!isStartColor && !isEndGradient) {
+    return colorValue + '80';
+  }
+  return colorValue + '00';
 };
 
 export interface Props {
@@ -43,10 +51,10 @@ const sizeAdjustments = {
     marginTop: '49%',
     height: '51%',
     after: {
-      width: '79%',
-      height: '157%',
-      marginTop: '-39%',
-      marginInlineStart: '10%',
+      width: '78%',
+      height: '152%',
+      marginTop: '-38%',
+      marginInlineStart: '11%',
     },
   },
   medium: {
@@ -76,11 +84,13 @@ const InnerCircle = styled.span<Props>(({ color, size, theme }) => ({
   height: sizeAdjustments[size ?? 'large']['height'],
   position: 'absolute',
   marginTop: sizeAdjustments[size ?? 'large']['marginTop'],
-  background: `linear-gradient(90deg, ${determineColor(
+  background: `linear-gradient(90deg,
+    ${determineColor(theme, color, false, false)}, ${determineColor(
     theme,
     color,
-    true
-  )}, ${determineColor(theme, color, false)})`,
+    true,
+    false
+  )})`,
   // Dark part
   '&::before': {
     content: '""',
@@ -91,8 +101,9 @@ const InnerCircle = styled.span<Props>(({ color, size, theme }) => ({
     background: `linear-gradient(90deg, ${determineColor(
       theme,
       color,
-      false
-    )}, ${determineColor(theme, color, false)})`,
+      true,
+      true
+    )}, ${determineColor(theme, color, false, true)})`,
   },
   // Light part
   '&::after': {
