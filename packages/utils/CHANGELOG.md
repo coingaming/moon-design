@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.3.0
+
+### Minor Changes
+
+- Fix TextInput Groups
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.3.0
+
 ## 8.2.0
 
 ### Minor Changes
