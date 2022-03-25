@@ -79,7 +79,7 @@ export default function PageChip() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Chip component</h2>
+        <h2 className="text-2xl mb-4">Props</h2>
         <Table
           data={[
             {
