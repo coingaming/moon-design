@@ -13,21 +13,21 @@ exports[`Radiobutton renders 1`] = `
     className="mb-2 ml-2"
   >
     <label
-      className="RadioButtonLabel-ozr645-0 hlwLdP"
+      className="sc-kPJBXH eSqqzw"
       htmlFor="age1"
     >
       <input
         aria-label="0 - 30"
-        className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+        className="sc-lgpvoJ brQUoX"
         id="age1"
         name="age"
         type="radio"
       />
       <figure
-        className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+        className="sc-imfVFo biApTi"
       />
       <span
-        className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+        className="sc-hVAcom jcSRRe"
       >
         0 - 30
       </span>
@@ -37,21 +37,21 @@ exports[`Radiobutton renders 1`] = `
     className="mb-2 ml-2"
   >
     <label
-      className="RadioButtonLabel-ozr645-0 hlwLdP"
+      className="sc-kPJBXH eSqqzw"
       htmlFor="age2"
     >
       <input
         aria-label="31 - 60"
-        className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+        className="sc-lgpvoJ brQUoX"
         id="age2"
         name="age"
         type="radio"
       />
       <figure
-        className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+        className="sc-imfVFo biApTi"
       />
       <span
-        className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+        className="sc-hVAcom jcSRRe"
       >
         31 - 60
       </span>
@@ -61,21 +61,21 @@ exports[`Radiobutton renders 1`] = `
     className="mb-2 ml-2"
   >
     <label
-      className="RadioButtonLabel-ozr645-0 hlwLdP"
+      className="sc-kPJBXH eSqqzw"
       htmlFor="age3"
     >
       <input
         aria-label="61 - 100"
-        className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+        className="sc-lgpvoJ brQUoX"
         id="age3"
         name="age"
         type="radio"
       />
       <figure
-        className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+        className="sc-imfVFo biApTi"
       />
       <span
-        className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+        className="sc-hVAcom jcSRRe"
       >
         61 - 100
       </span>
@@ -86,19 +86,19 @@ exports[`Radiobutton renders 1`] = `
 
 exports[`Radiobutton renders Checked 1`] = `
 <label
-  className="RadioButtonLabel-ozr645-0 hlwLdP"
+  className="sc-kPJBXH eSqqzw"
 >
   <input
     checked={true}
-    className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+    className="sc-lgpvoJ brQUoX"
     readOnly={true}
     type="radio"
   />
   <figure
-    className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+    className="sc-imfVFo biApTi"
   />
   <span
-    className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+    className="sc-hVAcom jcSRRe"
   >
     Checked radio button
   </span>
@@ -107,18 +107,18 @@ exports[`Radiobutton renders Checked 1`] = `
 
 exports[`Radiobutton renders Disabled 1`] = `
 <label
-  className="RadioButtonLabel-ozr645-0 hlwLdP"
+  className="sc-kPJBXH eSqqzw"
 >
   <input
-    className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+    className="sc-lgpvoJ brQUoX"
     disabled={true}
     type="radio"
   />
   <figure
-    className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+    className="sc-imfVFo biApTi"
   />
   <span
-    className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+    className="sc-hVAcom jcSRRe"
   >
     Disabled radio button
   </span>
@@ -141,21 +141,21 @@ exports[`Radiobutton renders RTL 1`] = `
       className="mb-2 ml-2"
     >
       <label
-        className="RadioButtonLabel-ozr645-0 hlwLdP"
+        className="sc-kPJBXH eSqqzw"
         htmlFor="age1"
       >
         <input
           aria-label="0 - 30"
-          className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+          className="sc-lgpvoJ brQUoX"
           id="age1"
           name="age"
           type="radio"
         />
         <figure
-          className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+          className="sc-imfVFo biApTi"
         />
         <span
-          className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+          className="sc-hVAcom jcSRRe"
         >
           0 - 30
         </span>
@@ -165,21 +165,21 @@ exports[`Radiobutton renders RTL 1`] = `
       className="mb-2 ml-2"
     >
       <label
-        className="RadioButtonLabel-ozr645-0 hlwLdP"
+        className="sc-kPJBXH eSqqzw"
         htmlFor="age2"
       >
         <input
           aria-label="31 - 60"
-          className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+          className="sc-lgpvoJ brQUoX"
           id="age2"
           name="age"
           type="radio"
         />
         <figure
-          className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+          className="sc-imfVFo biApTi"
         />
         <span
-          className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+          className="sc-hVAcom jcSRRe"
         >
           31 - 60
         </span>
@@ -189,21 +189,21 @@ exports[`Radiobutton renders RTL 1`] = `
       className="mb-2 ml-2"
     >
       <label
-        className="RadioButtonLabel-ozr645-0 hlwLdP"
+        className="sc-kPJBXH eSqqzw"
         htmlFor="age3"
       >
         <input
           aria-label="61 - 100"
-          className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+          className="sc-lgpvoJ brQUoX"
           id="age3"
           name="age"
           type="radio"
         />
         <figure
-          className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
+          className="sc-imfVFo biApTi"
         />
         <span
-          className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
+          className="sc-hVAcom jcSRRe"
         >
           61 - 100
         </span>
