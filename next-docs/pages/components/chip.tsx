@@ -87,7 +87,7 @@ export default function PageChip() {
               type: 'small | medium',
               required: false,
               default: 'medium',
-              description: 'Small/medium size for chip',
+              description: 'Size of Chip',
             },
             {
               name: 'iconLeft',
@@ -101,7 +101,7 @@ export default function PageChip() {
               type: 'React.ReactElement',
               required: false,
               default: '-',
-              description: 'Rigth icon element',
+              description: 'Right icon element',
             },
             {
               name: 'iconOnly',
