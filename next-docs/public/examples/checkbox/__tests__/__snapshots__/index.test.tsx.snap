@@ -5,122 +5,30 @@ exports[`Checkbox renders 1`] = `
   className="CheckboxLabel-wyw1pu-0 glYria"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 gQTGOD"
+    className="CheckboxInput-sc-12uz9za-0 jBvqbX"
+    onClick={[Function]}
     type="checkbox"
   />
-  <span
-    className="CheckboxCaption-sc-1qatyfd-0 dnKYzo"
-  >
-    I agree to receive bonus & marketing emails.
-  </span>
-</label>
-`;
-
-exports[`Checkbox renders Aria Label 1`] = `
-<label
-  className="CheckboxLabel-wyw1pu-0 glYria"
->
-  <input
-    aria-label="Description of the checkbox's purpose."
-    className="CheckboxInput-sc-12uz9za-0 gQTGOD"
-    type="checkbox"
-  />
-  <span
-    className="CheckboxCaption-sc-1qatyfd-0 dnKYzo"
-  />
-</label>
-`;
-
-exports[`Checkbox renders Aria Label List 1`] = `
-<div
-  className="flex flex-col"
->
-  <label
-    className="RadioButtonLabel-ozr645-0 hlwLdP"
-  >
-    <input
-      className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
-      disabled={true}
-      name="test"
-      type="radio"
-    />
-    <figure
-      className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-    />
-    <span
-      className="RadioButtonCaption-sc-1dv62p7-0 hpoFgp"
-    >
-      RadioButton
-    </span>
-  </label>
-  <label
-    className="RadioButtonLabel-ozr645-0 hlwLdP"
-  >
-    <input
-      className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
-      name="test"
-      type="radio"
-    />
-    <figure
-      className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-    />
-  </label>
   <div
-    className="mt-2 mb-2"
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 NMcml"
   >
-    <div
-      className="Container-sc-1vcdan4-0 kAVywW"
+    <span
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 eIsQVH"
     >
       <div
-        className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
-      >
-        Single line item
-      </div>
-      <span
-        className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
-      >
-        <label
-          className="RadioButtonLabel-ozr645-0 hlwLdP"
-        >
-          <input
-            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
-            name="test"
-            type="radio"
-          />
-          <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-          />
-        </label>
-      </span>
-    </div>
-  </div>
-  <div>
-    <label
-      className="RadioButtonLabel-ozr645-0 hlwLdP"
+        checked={false}
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+      />
+    </span>
+    <p
+      className="Text-sc-3hujzp-0 ipeuYX"
+      color="bulma.100"
+      size={14}
     >
-      <div
-        className="Container-sc-1vcdan4-0 kAVywW"
-      >
-        <div
-          className="ListItem__MainWrapper-xq5gr1-0 iAPWnR"
-        >
-          Single line item
-        </div>
-        <span
-          className="ListItem__ElementRightWrapper-xq5gr1-2 cKpcYr"
-        >
-          <input
-            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
-            type="radio"
-          />
-          <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-          />
-        </span>
-      </div>
-    </label>
+      I agree to receive bonus & marketing emails.
+    </p>
   </div>
-</div>
+</label>
 `;
 
 exports[`Checkbox renders Checked 1`] = `
@@ -129,15 +37,30 @@ exports[`Checkbox renders Checked 1`] = `
 >
   <input
     checked={true}
-    className="CheckboxInput-sc-12uz9za-0 gQTGOD"
+    className="CheckboxInput-sc-12uz9za-0 jBvqbX"
+    onClick={[Function]}
     readOnly={true}
     type="checkbox"
   />
-  <span
-    className="CheckboxCaption-sc-1qatyfd-0 dnKYzo"
+  <div
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 NMcml"
   >
-    I agree to receive bonus & marketing emails.
-  </span>
+    <span
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 eIsQVH"
+    >
+      <div
+        checked={true}
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 fndjhE"
+      />
+    </span>
+    <p
+      className="Text-sc-3hujzp-0 ipeuYX"
+      color="bulma.100"
+      size={14}
+    >
+      I agree to receive bonus & marketing emails.
+    </p>
+  </div>
 </label>
 `;
 
@@ -146,14 +69,90 @@ exports[`Checkbox renders Disabled 1`] = `
   className="CheckboxLabel-wyw1pu-0 glYria"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 gQTGOD"
+    className="CheckboxInput-sc-12uz9za-0 jBvqbX"
     disabled={true}
+    onClick={[Function]}
     type="checkbox"
   />
-  <span
-    className="CheckboxCaption-sc-1qatyfd-0 dnKYzo"
+  <div
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 NMcml"
   >
-    I agree to receive bonus & marketing emails.
-  </span>
+    <span
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 eIsQVH"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+      />
+    </span>
+    <p
+      className="Text-sc-3hujzp-0 ipeuYX"
+      color="bulma.100"
+      size={14}
+    >
+      I agree to receive bonus & marketing emails.
+    </p>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders No label 1`] = `
+<label
+  className="CheckboxLabel-wyw1pu-0 glYria"
+>
+  <input
+    className="CheckboxInput-sc-12uz9za-0 jBvqbX"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 NMcml"
+  >
+    <span
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 eIsQVH"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+      />
+    </span>
+    <p
+      className="Text-sc-3hujzp-0 ipeuYX"
+      color="bulma.100"
+      size={14}
+    />
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders Reverse direction 1`] = `
+<label
+  className="CheckboxLabel-wyw1pu-0 glYria"
+>
+  <input
+    className="CheckboxInput-sc-12uz9za-0 jBvqbX"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 NMcml"
+  >
+    <p
+      className="Text-sc-3hujzp-0 ipeuYX"
+      color="bulma.100"
+      size={14}
+    >
+      I agree to receive bonus & marketing emails.
+    </p>
+    <span
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 exIplH"
+      dir="rtl"
+    >
+      <div
+        checked={false}
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+      />
+    </span>
+  </div>
 </label>
 `;
