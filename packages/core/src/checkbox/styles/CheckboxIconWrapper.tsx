@@ -4,7 +4,6 @@ import { ColorValue, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import { lighten } from "polished";
 import styled, {css, keyframes} from 'styled-components';
-import getFontSize from "../../private/text/getFontSize";
 
 interface Props {
   checked?: boolean;

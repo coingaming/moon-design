@@ -2,7 +2,7 @@ import React from 'react';
 import {
   GenericCheckAlternative
 } from '@heathmont/moon-icons';
-import { inlineSvg, rem } from '@heathmont/moon-utils';
+import { inlineSvg } from '@heathmont/moon-utils';
 import { rgba } from "polished";
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';

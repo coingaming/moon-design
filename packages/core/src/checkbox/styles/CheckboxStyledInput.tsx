@@ -1,7 +1,9 @@
 import React from 'react';
+import {
+  GenericCheckAlternative
+} from '@heathmont/moon-icons';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import { CheckboxIcon } from '../private/icon';
 
 const BORDER_WIDTH = 2;
 
@@ -32,7 +34,7 @@ const CheckboxStyledInput = styled.figure(({ theme }) => ({
   /* Add the "check" to the Pseudo Checkbox */
   '&::after': {
     display: 'inline-block',
-    backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
+    backgroundImage: inlineSvg(<GenericCheckAlternative color={theme.colorNew.goten} forwardColor={true} />),
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     borderRadius: rem(2),
