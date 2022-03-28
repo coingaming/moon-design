@@ -4,16 +4,23 @@ exports[`Loader renders 1`] = `
 <div
   className="Inline-sc-1rz1cju-0 kwswbg"
 >
-  <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="medium"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
 </div>
 `;
 
@@ -21,49 +28,86 @@ exports[`Loader renders with different colours 1`] = `
 <div
   className="Inline-sc-1rz1cju-0 kwswbg"
 >
-  <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="medium"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 dYdmeq"
+      className="LoaderRing-sc-17wll29-0 bYXVgZ"
       color="dodoria.100"
-      size="medium"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
+    <span
+      className="LoaderRing-sc-17wll29-0 laZIBT"
+      color="dodoria.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cPnVMw"
+      color="dodoria.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 gTnYHf"
+      color="dodoria.100"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 hlCocy"
+      className="LoaderRing-sc-17wll29-0 fKcXYV"
       color="trunks.100"
-      size="medium"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
+    <span
+      className="LoaderRing-sc-17wll29-0 dCHxxz"
+      color="trunks.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 jugQgQ"
+      color="trunks.100"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 eUQiUn"
+      color="trunks.100"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 JRqEi"
+      className="LoaderRing-sc-17wll29-0 hQVtHO"
       color="#663399"
-      size="medium"
     />
-  </div>
+    <span
+      className="LoaderRing-sc-17wll29-0 jhOXnQ"
+      color="#663399"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 fGjxUH"
+      color="#663399"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 bzIriE"
+      color="#663399"
+    />
+  </strong>
 </div>
 `;
 
@@ -71,55 +115,90 @@ exports[`Loader renders with sizes 1`] = `
 <div
   className="Inline-sc-1rz1cju-0 kwswbg"
 >
-  <div
-    className="OuterCircle-sc-1059clw-0 cBDWNI"
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="twoxsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 irgwxx"
-      size="twoxsmall"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 kwvAxI"
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="xsmall"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="xsmall"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 fDOafQ"
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="small"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 giWcon"
-      size="small"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="medium"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="medium"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
-  <div
-    className="OuterCircle-sc-1059clw-0 hwfNCU"
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
+  <strong
+    className="Container-sc-12rktgh-0 jyJfhm"
     role="progressbar"
-    size="large"
   >
     <span
-      className="InnerCircle-sc-6khuip-0 khzBMP"
-      size="large"
+      className="LoaderRing-sc-17wll29-0 ieQBLB"
     />
-  </div>
+    <span
+      className="LoaderRing-sc-17wll29-0 cOhRov"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 kDfQgs"
+    />
+    <span
+      className="LoaderRing-sc-17wll29-0 cxVlqD"
+    />
+  </strong>
 </div>
 `;
