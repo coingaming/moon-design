@@ -1,0 +1,77 @@
+************************************* 
+
+    Tue Mar 22 2022  
+  
+coingaming/next-casino:  {
+  "rem": 995,
+  "breakout": 1,
+  "mq": 1,
+  "themed": 4
+} 
+coingaming/hub88-frontend:  {
+  "rem": 75,
+  "mq": 5,
+  "themed": 3,
+  "em": 1
+} 
+coingaming/sportsbet-packages:  {
+  "rem": 443,
+  "mq": 200,
+  "breakout": 2,
+  "em": 42,
+  "themed": 14,
+  "container": 4,
+  "inlineSvg": 8,
+  "focus": 5
+} 
+coingaming/holo-notifications:  {
+  "themed": 5
+} 
+coingaming/backoffice-comms:  {
+  "rem": 27,
+  "uniqueId": 1
+} 
+coingaming/yolo-io-common-moon-fe:  {
+  "rem": 34,
+  "themed": 11,
+  "mq": 1
+} 
+coingaming/bitcasino-v3:  {
+  "rem": 987,
+  "mq": 1,
+  "themed": 12
+} 
+coingaming/team-homepage:  {
+  "rem": 9
+} 
+coingaming/sportsbet-apollo:  {
+  "rem": 184,
+  "mq": 80,
+  "em": 25,
+  "breakout": 1,
+  "themed": 4,
+  "focus": 2,
+  "inlineSvg": 1
+} 
+coingaming/sportsbet-betslip-share-app:  {
+  "rem": 10,
+  "mq": 4
+} 
+coingaming/sportsbet-home-app:  {
+  "mq": 16,
+  "rem": 16
+} 
+------------------------------------  
+
+Total result: {
+  "rem": 2780,
+  "breakout": 4,
+  "mq": 308,
+  "themed": 53,
+  "em": 68,
+  "container": 4,
+  "inlineSvg": 9,
+  "focus": 7,
+  "uniqueId": 1
+} 
+  

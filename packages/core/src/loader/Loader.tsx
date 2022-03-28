@@ -1,22 +1,17 @@
 import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
-import Container from './styles/Container';
-import LoaderRing from './styles/LoaderRing';
+import { Size } from './private/Size';
+import InnerCircle from './styles/InnerCircle';
+import OuterCircle from './styles/OuterCircle';
 
 export interface LoaderProps {
   color?: ColorProps;
+  size?: Size;
 }
 
-const Loader: React.FC<LoaderProps> = ({ color }) => (
-  <Container role="progressbar">
-    {['-0.45s', '-0.3s', '-0.15s', '0s'].map((delay) => (
-      <LoaderRing
-        key={`loader-${delay}`}
-        color={color}
-        animationDelay={delay}
-      />
-    ))}
-  </Container>
+const Loader: React.FC<LoaderProps> = ({ color, size = 'medium' }) => (
+  <OuterCircle size={size}>
+    <InnerCircle color={color} size={size}></InnerCircle>
+  </OuterCircle>
 );
-
 export default Loader;

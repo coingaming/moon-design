@@ -1,5 +1,20 @@
 # @heathmont/moon-select
 
+## 8.3.0
+
+### Minor Changes
+
+- Fix TextInput Groups
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.0
+  - @heathmont/moon-core@8.3.0
+  - @heathmont/moon-icons@8.3.0
+  - @heathmont/moon-themes@8.3.0
+  - @heathmont/moon-utils@8.3.0
+
 ## 8.2.0
 
 ### Minor Changes

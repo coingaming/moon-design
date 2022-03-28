@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTheme } from '@heathmont/moon-themes';
 import Image from 'next/image';
 import coloursImg from '../public/illustartions/colors.png';
 
@@ -11,7 +12,7 @@ const ColorUsage: React.FC<{}> = ({ children }) => (
 );
 
 interface PalleteColorProp {
-  className: string; // eg. bg-piccolo
+  name: string;
   value?: 10 | 60 | 100;
   description?: string;
 }
@@ -22,7 +23,8 @@ const Palette = ({ colors }: { colors: PalleteColorProp[] }) => {
       {colors.map((color, index) => (
         <div className="flex flex-col justify-center items-center" key={index}>
           <div
-            className={`${color.className} w-40 h-40 rounded-xl border border-black`}
+            style={{ backgroundColor: color.name }}
+            className={`w-40 h-40 rounded-xl border border-black`}
           />
           <span>{color.description}</span>
           <span>{color.value}</span>
@@ -33,13 +35,14 @@ const Palette = ({ colors }: { colors: PalleteColorProp[] }) => {
 };
 
 export default function PageColoursNew() {
+  const theme = useTheme();
   return (
     <>
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Colours</h1>
 
-        <div className="mt-8 flex flex-row justify-between gap-20">
-          <div className="">
+        <div className="mt-8 flex flex-row justify-between gap-12 xl:gap-20 ">
+          <div className="grow">
             <ColorUsage>
               Our design system is decentralized and built for multi-product
               purposes. Having different-color naming conventions and numbers
@@ -66,7 +69,16 @@ export default function PageColoursNew() {
             </ColorUsage>
           </div>
 
-          <Image className="rounded-lg" src={coloursImg} alt="Colours usage" />
+          <div className=" min-w-[40%] lg:min-w-[50%] xl:min-w-[35%] 2xl:min-w-[25%]">
+            <div className="max-w-[500px]">
+              <Image
+                className="rounded-lg"
+                src={coloursImg}
+                alt="Colours usage"
+                layout="responsive"
+              />
+            </div>
+          </div>
         </div>
       </section>
       <h2 className="text-3xl font-semibold mt-8">Main colours</h2>
@@ -75,8 +87,11 @@ export default function PageColoursNew() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-piccolo', description: 'piccolo' },
-              { className: 'bg-hit', description: 'hit' },
+              {
+                name: theme.colorNew.piccolo as string,
+                description: 'piccolo',
+              },
+              { name: theme.colorNew.hit as string, description: 'hit' },
             ]}
           />
         </div>
@@ -85,7 +100,9 @@ export default function PageColoursNew() {
         <ColorUsage>Border and line colour</ColorUsage>
         <div className="mt-4">
           <Palette
-            colors={[{ className: 'bg-beerus', description: 'beerus' }]}
+            colors={[
+              { name: theme.colorNew.beerus as string, description: 'beerus' },
+            ]}
           />
         </div>
       </section>
@@ -94,8 +111,8 @@ export default function PageColoursNew() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-goku', description: 'goku' },
-              { className: 'bg-gohan', description: 'gohan' },
+              { name: theme.colorNew.goku as string, description: 'goku' },
+              { name: theme.colorNew.gohan as string, description: 'gohan' },
             ]}
           />
         </div>
@@ -105,8 +122,8 @@ export default function PageColoursNew() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-bulma', description: 'bulma' },
-              { className: 'bg-trunks', description: 'trunks' },
+              { name: theme.colorNew.bulma as string, description: 'bulma' },
+              { name: theme.colorNew.trunks as string, description: 'trunks' },
             ]}
           />
         </div>
@@ -116,8 +133,8 @@ export default function PageColoursNew() {
         <div className="mt-4">
           <Palette
             colors={[
-              { className: 'bg-goten', description: 'goten' },
-              { className: 'bg-popo', description: 'popo' },
+              { name: theme.colorNew.goten as string, description: 'goten' },
+              { name: theme.colorNew.popo as string, description: 'popo' },
             ]}
           />
         </div>
@@ -130,12 +147,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-krillin',
+                name: theme.colorNew.krillin[100] as string,
                 description: 'krillin',
                 value: 100,
               },
-              { className: 'bg-krillin-60', description: 'krillin', value: 60 },
-              { className: 'bg-krillin-10', description: 'krillin', value: 10 },
+              {
+                name: theme.colorNew.krillin[60] as string,
+                description: 'krillin',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.krillin[10] as string,
+                description: 'krillin',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -147,12 +172,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-chiChi',
+                name: theme.colorNew.chiChi[100] as string,
                 description: 'chiChi',
                 value: 100,
               },
-              { className: 'bg-chiChi-60', description: 'chiChi', value: 60 },
-              { className: 'bg-chiChi-10', description: 'chiChi', value: 10 },
+              {
+                name: theme.colorNew.chiChi[60] as string,
+                description: 'chiChi',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.chiChi[10] as string,
+                description: 'chiChi',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -164,12 +197,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-roshi',
+                name: theme.colorNew.roshi[100] as string,
                 description: 'roshi',
                 value: 100,
               },
-              { className: 'bg-roshi-60', description: 'roshi', value: 60 },
-              { className: 'bg-roshi-10', description: 'roshi', value: 10 },
+              {
+                name: theme.colorNew.roshi[60] as string,
+                description: 'roshi',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.roshi[10] as string,
+                description: 'roshi',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -180,12 +221,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-dodoria',
+                name: theme.colorNew.dodoria[100] as string,
                 description: 'dodoria',
                 value: 100,
               },
-              { className: 'bg-dodoria-60', description: 'dodoria', value: 60 },
-              { className: 'bg-dodoria-10', description: 'dodoria', value: 10 },
+              {
+                name: theme.colorNew.dodoria[60] as string,
+                description: 'dodoria',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.dodoria[10] as string,
+                description: 'dodoria',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -196,12 +245,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-cell',
+                name: theme.colorNew.cell[100] as string,
                 description: 'cell',
                 value: 100,
               },
-              { className: 'bg-cell-60', description: 'cell', value: 60 },
-              { className: 'bg-cell-10', description: 'cell', value: 10 },
+              {
+                name: theme.colorNew.cell[60] as string,
+                description: 'cell',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.cell[10] as string,
+                description: 'cell',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -212,12 +269,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-raditz',
+                name: theme.colorNew.raditz[100] as string,
                 description: 'raditz',
                 value: 100,
               },
-              { className: 'bg-raditz-60', description: 'raditz', value: 60 },
-              { className: 'bg-raditz-10', description: 'raditz', value: 10 },
+              {
+                name: theme.colorNew.raditz[60] as string,
+                description: 'raditz',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.raditz[10] as string,
+                description: 'raditz',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -228,12 +293,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-whis',
+                name: theme.colorNew.whis[100] as string,
                 description: 'whis',
                 value: 100,
               },
-              { className: 'bg-whis-60', description: 'whis', value: 60 },
-              { className: 'bg-whis-10', description: 'whis', value: 10 },
+              {
+                name: theme.colorNew.whis[60] as string,
+                description: 'whis',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.whis[10] as string,
+                description: 'whis',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -244,12 +317,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-frieza',
+                name: theme.colorNew.frieza[100] as string,
                 description: 'frieza',
                 value: 100,
               },
-              { className: 'bg-frieza-60', description: 'frieza', value: 60 },
-              { className: 'bg-frieza-10', description: 'frieza', value: 10 },
+              {
+                name: theme.colorNew.frieza[60] as string,
+                description: 'frieza',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.frieza[10] as string,
+                description: 'frieza',
+                value: 10,
+              },
             ]}
           />
         </div>
@@ -260,12 +341,20 @@ export default function PageColoursNew() {
           <Palette
             colors={[
               {
-                className: 'bg-nappa',
+                name: theme.colorNew.nappa[100] as string,
                 description: 'nappa',
                 value: 100,
               },
-              { className: 'bg-nappa-60', description: 'nappa', value: 60 },
-              { className: 'bg-nappa-10', description: 'nappa', value: 10 },
+              {
+                name: theme.colorNew.nappa[60] as string,
+                description: 'nappa',
+                value: 60,
+              },
+              {
+                name: theme.colorNew.nappa[10] as string,
+                description: 'nappa',
+                value: 10,
+              },
             ]}
           />
         </div>

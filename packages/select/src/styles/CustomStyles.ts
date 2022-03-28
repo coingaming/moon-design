@@ -1,6 +1,55 @@
-import { Theme } from '@heathmont/moon-themes';
+import { SharedTheme, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import { StylesConfig, Props } from 'react-select';
+
+const makeBorderRadius = (
+  state: any,
+  borderRadius: SharedTheme['newTokens']['borderRadius'],
+  isSharpLeftSide?: boolean,
+  isSharpRightSide?: boolean,
+  isSharpTopSide?: boolean,
+  isSharpBottomSide?: boolean
+) => {
+  if (state.isFocused) {
+    return {};
+  }
+  return {
+    borderTopLeftRadius:
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
+    borderTopRightRadius:
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
+    borderBottomLeftRadius:
+      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
+    borderBottomRightRadius:
+      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
+  };
+};
+
+const makeBorder = (
+  state: any,
+  border: SharedTheme['newTokens']['border'],
+  isSideBorderHidden?: boolean,
+  isTopBottomBorderHidden?: boolean
+) => {
+  if (isSideBorderHidden && !state.isFocused) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(-${border.width.default} ${rem(2)} -${
+          border.width.default
+        } ${rem(2)})`,
+      },
+    };
+  } else if (isTopBottomBorderHidden && !state.isFocused) {
+    return {
+      '&:not(:hover):not(:focus)': {
+        clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
+          border.width.default
+        })`,
+      },
+    };
+  }
+  return {};
+};
 
 type CustomProps = {
   isCustomControl?: boolean;
@@ -15,6 +64,13 @@ type CustomProps = {
   amountOfVisibleItems?: number;
   isError?: boolean;
   theme: Theme;
+  isRtl?: boolean;
+  isSharpLeftSide?: boolean;
+  isSharpRightSide?: boolean;
+  isSharpTopSide?: boolean;
+  isSharpBottomSide?: boolean;
+  isTopBottomBorderHidden?: boolean;
+  isSideBorderHidden?: boolean;
 };
 
 export type SelectProps = {
@@ -27,6 +83,7 @@ const CustomStyles: StylesConfig = {
     const selectProps = state.selectProps as SelectProps;
     const customProps = selectProps['data-customProps'];
     const menuWidth = customProps.menuWidth;
+
     return {
       ...provided,
       minWidth: rem(300),
@@ -79,6 +136,15 @@ const CustomStyles: StylesConfig = {
     const selectProps = state.selectProps as SelectProps;
     const customProps = selectProps['data-customProps'];
     const theme = customProps.theme;
+    const {
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      isSideBorderHidden,
+      isTopBottomBorderHidden,
+    } = customProps;
+
     return {
       ...provided,
       ...(customProps.isCustomControl
@@ -95,6 +161,22 @@ const CustomStyles: StylesConfig = {
         : state.isFocused
         ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
         : `inset 0 0 0 ${theme.newTokens.border.width.default} ${theme.colorNew.beerus}`,
+
+      ...makeBorderRadius(
+        state,
+        theme.newTokens.borderRadius,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide
+      ),
+      ...makeBorder(
+        state,
+        theme.newTokens.border,
+        isSideBorderHidden,
+        isTopBottomBorderHidden
+      ),
+
       transition:
         !state.isFocused || !customProps.isError
           ? `box-shadow ${theme.newTokens.transition.default}`
@@ -107,6 +189,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
           : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
         cursor: 'pointer',
+        borderRadius: theme.newTokens.borderRadius.large,
       },
     };
   },
