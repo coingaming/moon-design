@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-draggabletable",
   "sideEffects": false,
-  "version": "8.2.0",
+  "version": "8.3.0",
   "files": [
     "lib"
   ],
@@ -21,10 +21,10 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-components": "workspace:^8.2.0",
-    "@heathmont/moon-table": "workspace:^8.2.0",
-    "@heathmont/moon-themes": "workspace:^8.2.0",
-    "@heathmont/moon-utils": "workspace:^8.2.0",
+    "@heathmont/moon-components": "workspace:^8.3.0",
+    "@heathmont/moon-table": "workspace:^8.3.0",
+    "@heathmont/moon-themes": "workspace:^8.3.0",
+    "@heathmont/moon-utils": "workspace:^8.3.0",
     "@types/react-table": "7.7.6",
     "immutability-helper": "^3.1.1",
     "polished": "4.1.4",
