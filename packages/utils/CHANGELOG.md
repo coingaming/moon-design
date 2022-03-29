@@ -1,5 +1,13 @@
 # Change Log
 
+## 8.3.1
+
+### Patch Changes
+
+- Restore Chip in components
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.3.1
+
 ## 8.3.0
 
 ### Minor Changes

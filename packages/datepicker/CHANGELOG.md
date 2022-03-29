@@ -1,5 +1,17 @@
 # @heathmont/moon-datepicker
 
+## 8.3.1
+
+### Patch Changes
+
+- Restore Chip in components
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.1
+  - @heathmont/moon-core@8.3.1
+  - @heathmont/moon-icons@8.3.1
+  - @heathmont/moon-themes@8.3.1
+  - @heathmont/moon-utils@8.3.1
+
 ## 8.3.0
 
 ### Minor Changes
