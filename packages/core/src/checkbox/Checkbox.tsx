@@ -17,7 +17,7 @@ export interface CheckboxProps {
 }
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
-  ({ disabled, ariaLabel, label, id, variant, dir, ...inputProps }, ref) => {
+  ({ disabled, readOnly, ariaLabel, label, id, variant, dir, ...inputProps }, ref) => {
     const [isChecked, setIsChecked] = useState(false)
 
     return (<CheckboxLabel htmlFor={id} variant={variant}>
@@ -27,7 +27,13 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         aria-label={ariaLabel}
         ref={ref}
         {...inputProps}
+        readOnly={readOnly}
         onClick={(e) => {
+          if (disabled || readOnly) {
+            e.preventDefault();
+            e.stopPropagation();
+            return;
+          }
           if (inputProps.onClick) inputProps.onClick()
           setIsChecked(e?.currentTarget?.checked)
         }}

@@ -47,6 +47,10 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     cursor: 'not-allowed',
     userSelect: 'none'
   },
+  '&[readonly] + div': {
+    cursor: 'not-allowed',
+    userSelect: 'none'
+  },
 }));
 
 export default CheckboxInput;

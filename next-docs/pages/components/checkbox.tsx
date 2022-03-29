@@ -6,6 +6,7 @@ import Checked from '../../public/examples/checkbox/Checked';
 import Disabled from '../../public/examples/checkbox/Disabled';
 import Example from '../../public/examples/checkbox/Example';
 import NoLabel from "../../public/examples/checkbox/NoLabel";
+import Readonly from '../../public/examples/checkbox/Readonly';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
@@ -53,12 +54,12 @@ export default function PageAccordion() {
         />
       </section>
 
-      {/* Checked */}
+      {/* Readonly */}
       <section className="mt-8">
         <Preview
-          title="Checked"
-          preview={<Checked />}
-          code={examples ? examples.Checked : 'Loading'}
+          title="Readonly"
+          preview={<Readonly />}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
