@@ -29,20 +29,18 @@ export default function RadioButtonPage() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for RadioButtonLabel component</h2>
-        <Table
-          data={[
-            {
-              name: 'id',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: `Unique element's identifier (the same id as for RadioButtonInput)`,
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for RadioButtonLabel component"
+        data={[
+          {
+            name: 'id',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: `Unique element's identifier (the same id as for RadioButtonInput)`,
+          },
+        ]}
+      />
 
       <PropsTable
         title="Props for RadioButtonInput component"
