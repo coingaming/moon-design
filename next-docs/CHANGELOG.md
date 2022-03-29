@@ -1,5 +1,27 @@
 # Change Log
 
+## 8.3.1
+
+### Patch Changes
+
+- Restore Chip in components
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.1
+  - @heathmont/moon-core@8.3.1
+  - @heathmont/moon-accordion@8.3.1
+  - @heathmont/moon-assets@8.3.1
+  - @heathmont/moon-charts@8.3.1
+  - @heathmont/moon-datepicker@8.3.1
+  - @heathmont/moon-draggabletable@8.3.1
+  - @heathmont/moon-icons@8.3.1
+  - @heathmont/moon-pagination@8.3.1
+  - @heathmont/moon-popover@8.3.1
+  - @heathmont/moon-select@8.3.1
+  - @heathmont/moon-sidebar@8.3.1
+  - @heathmont/moon-table@8.3.1
+  - @heathmont/moon-themes@8.3.1
+  - @heathmont/moon-utils@8.3.1
+
 ## 8.3.0
 
 ### Minor Changes

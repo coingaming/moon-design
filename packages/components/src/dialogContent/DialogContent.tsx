@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import rem from 'polished/lib/helpers/rem';
 import { DialogContent as ReachDialogContent } from '@reach/dialog';
+import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
 
 export interface DialogMaxWidth {
   maxWidth?: string;
@@ -24,6 +24,8 @@ const DialogContent: React.FC<any> = styled(ReachDialogContent)
     background: 'transparent',
     margin: '0 auto',
     position: 'relative',
+    maxHeight: '100vh',
+    overflow: 'auto',
     maxWidth: rem(608) /* [1] */,
     padding: 0,
     outline: 'none',
