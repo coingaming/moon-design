@@ -42,9 +42,10 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
       boxShadow: 'none',
     },
   },
-  '&[disabled] + span': {
+  '&[disabled] + div': {
     opacity: theme.newTokens.opacity,
     cursor: 'not-allowed',
+    userSelect: 'none'
   },
 }));
 

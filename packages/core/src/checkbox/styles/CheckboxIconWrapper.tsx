@@ -83,7 +83,7 @@ const Wrapper = styled.div(({ theme }) => ({
   position: 'relative'
 }));
 
-const Box = styled.span(({ theme, dir }) => ({
+const Box = styled.span(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -96,8 +96,7 @@ const Box = styled.span(({ theme, dir }) => ({
   position: 'relative',
   transition: 'background-color 0.4s',
   zIndex: 2,
-  marginLeft: dir === 'rtl' ? theme.newTokens.space.threexsmall : '0',
-  marginRight: dir !== 'rtl' ? theme.newTokens.space.threexsmall : '0',
+  margin: `0 ${theme.newTokens.space.twoxsmall}`,
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.08)'
   },
@@ -157,7 +156,7 @@ const CheckboxIconWrapper: React.FC<Props> = ({
 
   return (<Wrapper>
     { dir === 'rtl' && renderLabel }
-    <Box dir={dir}>
+    <Box>
       <Animation
         checked={checked}
         animate={prevChecked !== checked}
