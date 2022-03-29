@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/datePicker/Calendar';
 import CalendarDisabledDay from '../../public/examples/datePicker/CalendarDisabledDay';
 import CalendarDisabledDays from '../../public/examples/datePicker/CalendarDisabledDays';
@@ -10,9 +10,8 @@ import CalendarDisabledRange2 from '../../public/examples/datePicker/CalendarDis
 import DatePicker from '../../public/examples/datePicker/DatePicker';
 import useExamples from '../../utils/useExamples';
 
-export default function PageDatepicker() {
+const PageDatepicker = () => {
   const examples = useExamples('datePicker');
-
   return (
     <>
       <section className="mt-8">
@@ -114,85 +113,80 @@ export default function PageDatepicker() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Calendar component</h2>
-        <Table
-          data={[
-            {
-              name: 'date',
-              type: 'Date',
-              required: false,
-              default: '-',
-              description: 'Day (initialDate) that should appear as selected.',
-            },
-            {
-              name: 'onDateChange',
-              type: '({ date }: { date?: Date }) => void',
-              required: true,
-              default: '-',
-              description: 'Event handler when the user clicks on a day cell.',
-            },
-            {
-              name: 'config',
-              type: 'Config',
-              required: false,
-              default: '-',
-              description: 'An object of calendar configuration',
-            },
-            {
-              name: 'hasClickedOutside',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Used with useClickOutside() hook',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Calendar component"
+        data={[
+          {
+            name: 'date',
+            type: 'Date',
+            required: false,
+            default: '-',
+            description: 'Day (initialDate) that should appear as selected.',
+          },
+          {
+            name: 'onDateChange',
+            type: '({ date }: { date?: Date }) => void',
+            required: true,
+            default: '-',
+            description: 'Event handler when the user clicks on a day cell.',
+          },
+          {
+            name: 'config',
+            type: 'Config',
+            required: false,
+            default: '-',
+            description: 'An object of calendar configuration',
+          },
+          {
+            name: 'hasClickedOutside',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Used with useClickOutside() hook',
+          },
+        ]}
+      />
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Config: calendar configuration</h2>
-        <Table
-          data={[
-            {
-              name: 'weekStartsOn',
-              type: '0 | 1 | 2 | 3 | 4 | 5 | 6',
-              required: false,
-              default: '1',
-              description: 'Overwrites the first day of the week.',
-            },
-            {
-              name: 'monthLabelFormat',
-              type: 'string',
-              required: false,
-              default: 'MMMM',
-              description:
-                'Sets formatted month label according to the pattern',
-            },
-            {
-              name: 'yearLabelFormat',
-              type: 'string',
-              required: false,
-              default: 'yyyy',
-              description: 'Sets formatted year label according to the pattern',
-            },
-            {
-              name: 'disabledDays',
-              type: 'Date | Date[] | DisabledDaysRange: { from?: Date; to?: Date; }',
-              required: false,
-              default: '-',
-              description: 'Day(s) that should appear as disabled',
-            },
-            {
-              name: 'yearsRange',
-              type: '{ min?: number; max?: number; }',
-              required: false,
-              default: '-',
-              description: 'Sets possible choosing years range',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Config: calendar configuration"
+        data={[
+          {
+            name: 'weekStartsOn',
+            type: '0 | 1 | 2 | 3 | 4 | 5 | 6',
+            required: false,
+            default: '1',
+            description: 'Overwrites the first day of the week.',
+          },
+          {
+            name: 'monthLabelFormat',
+            type: 'string',
+            required: false,
+            default: 'MMMM',
+            description: 'Sets formatted month label according to the pattern',
+          },
+          {
+            name: 'yearLabelFormat',
+            type: 'string',
+            required: false,
+            default: 'yyyy',
+            description: 'Sets formatted year label according to the pattern',
+          },
+          {
+            name: 'disabledDays',
+            type: 'Date | Date[] | DisabledDaysRange: { from?: Date; to?: Date; }',
+            required: false,
+            default: '-',
+            description: 'Day(s) that should appear as disabled',
+          },
+          {
+            name: 'yearsRange',
+            type: '{ min?: number; max?: number; }',
+            required: false,
+            default: '-',
+            description: 'Sets possible choosing years range',
+          },
+        ]}
+      />
 
       <section className="mt-8">
         <p className="text-lg pt-8">
@@ -200,47 +194,45 @@ export default function PageDatepicker() {
         </p>
       </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl mb-4">DatePicker extended props</h2>
-        <Table
-          data={[
-            {
-              name: 'isOpenByDefault',
-              type: 'boolean',
-              required: false,
-              default: '-',
-              description: 'Sets is Calendar open by default',
-            },
-            {
-              name: 'translations',
-              type: `{
+      <PropsTable
+        title="DatePicker extended props"
+        data={[
+          {
+            name: 'isOpenByDefault',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Sets is Calendar open by default',
+          },
+          {
+            name: 'translations',
+            type: `{
                 placeholder: string | JSX.Element; apply: 
                 string | JSX.Element; 
                 reset: string | JSX.Element; }`,
-              required: true,
-              default: '-',
-              description:
-                'An object with with preset translations for button and calendar ',
-            },
-          ]}
-        />
-      </section>
+            required: true,
+            default: '-',
+            description:
+              'An object with with preset translations for button and calendar ',
+          },
+        ]}
+      />
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Config extended for DatePicker</h2>
-        <Table
-          data={[
-            {
-              name: 'format',
-              type: 'string',
-              required: false,
-              default: 'yyyy-MM-dd',
-              description:
-                'Sets formatted placeholder for button according to the pattern',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Config extended for DatePicker"
+        data={[
+          {
+            name: 'format',
+            type: 'string',
+            required: false,
+            default: 'yyyy-MM-dd',
+            description:
+              'Sets formatted placeholder for button according to the pattern',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageDatepicker;

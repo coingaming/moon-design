@@ -86,7 +86,6 @@ exports[`Button renders different animations 1`] = `
         className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
       >
         <svg
-          className="sc-gmCRdq"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Heading, Text } from '@heathmont/moon-core';
 import Contributors from '../components/facing/Contributors';
 import ContributorsDevelopers from '../components/facing/ContributorsDevelopers';
 import ForDesigners from '../components/facing/ForDesigners';
@@ -15,14 +16,14 @@ const OpenSourceBadge = () => (
 
 const Header = () => (
   <>
-    <h1 className="text-6xl text-black tracking-tight font-semibold">
+    <Heading as="h1" size={64}>
       Moon design system.
-    </h1>
-    <p className="text-2xl max-w-2xl mt-4 tracking-tight">
+    </Heading>
+    <Text size={24} className="max-w-2xl mt-4">
       Moon is Yolo Group product design system that helps us maintain the
       integrity of their user experience and optimize design and development
       resources.
-    </p>
+    </Text>
   </>
 );
 
@@ -37,55 +38,59 @@ const SubHeader: React.FC<SubHeaderProps> = ({
 }: SubHeaderProps) => (
   <>
     {title && (
-      <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min">
+      <Heading
+        as="h2"
+        size={32}
+        className="mt-20 bg-background relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min"
+      >
         {title}
-      </h2>
+      </Heading>
     )}
 
     {description && (
-      <p className="text-4xl tracking-tight bg-background relative  pr-4 py-1 lg:whitespace-nowrap lg:w-min">
+      <Text
+        size={32}
+        className="bg-background relative pr-4 py-1 lg:whitespace-nowrap lg:w-min"
+      >
         {description}
-      </p>
+      </Text>
     )}
   </>
 );
 
-export default function Home() {
-  return (
-    <>
-      <OpenSourceBadge />
+const Home = () => (
+  <>
+    <OpenSourceBadge />
 
-      <Header />
+    <Header />
 
-      <ForDesigners />
-      <ForDevelopers />
+    <ForDesigners />
+    <ForDevelopers />
 
-      <SubHeader
-        title="Updates."
-        description="Explore our community features"
-      />
+    <SubHeader title="Updates." description="Explore our community features" />
 
-      <div className="mt-12">
-        <News />
-      </div>
+    <div className="mt-12">
+      <News />
+    </div>
 
-      <MoonAndEarthAnimation />
+    <MoonAndEarthAnimation />
 
-      <section className="mt-20">
-        <Future />
-      </section>
+    <section className="mt-20">
+      <Future />
+    </section>
 
-      <SubHeader
-        title="In the Spotlight."
-        description="The team who design Moon."
-      />
-      <div className="mt-12">
-        <Contributors />
-      </div>
+    <SubHeader
+      title="In the Spotlight."
+      description="The team who design Moon."
+    />
+    <div className="mt-12">
+      <Contributors />
+    </div>
 
-      <div className="mt-12">
-        <ContributorsDevelopers />
-      </div>
-    </>
-  );
-}
+    <div className="mt-12">
+      <ContributorsDevelopers />
+    </div>
+  </>
+);
+
+export default Home;

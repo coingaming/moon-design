@@ -1,13 +1,12 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import CodeSnippet from '../../components/CodeSnippet';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
 import useExamples from '../../utils/useExamples';
 
-export default function PagePopover() {
+const PagePopover = () => {
   const examples = useExamples('popover');
-
   return (
     <>
       <section className="mt-8">
@@ -33,55 +32,53 @@ export default function PagePopover() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props</h2>
-        <Table
-          data={[
-            {
-              name: 'content',
-              type: 'React.ReactNode',
-              required: true,
-              default: '-',
-              description: `Content of popover.`,
-            },
-            {
-              name: 'defaultState',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: `Open/Closed popover by default.`,
-            },
-            {
-              name: 'closeOnClickOutside',
-              type: 'boolean',
-              required: false,
-              default: 'true',
-              description: 'Close popover if clicked outside.',
-            },
-            {
-              name: 'placement',
-              type: 'Placement',
-              required: false,
-              default: '-',
-              description: 'Placement of popover.',
-            },
-            {
-              name: 'minWidth',
-              type: 'number',
-              required: false,
-              default: '300',
-              description: 'min-width value of popover (px)',
-            },
-            {
-              name: 'maxWidth',
-              type: 'number',
-              required: false,
-              default: '600',
-              description: 'max-width value of popover (px)',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'content',
+            type: 'React.ReactNode',
+            required: true,
+            default: '-',
+            description: `Content of popover.`,
+          },
+          {
+            name: 'defaultState',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: `Open/Closed popover by default.`,
+          },
+          {
+            name: 'closeOnClickOutside',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description: 'Close popover if clicked outside.',
+          },
+          {
+            name: 'placement',
+            type: 'Placement',
+            required: false,
+            default: '-',
+            description: 'Placement of popover.',
+          },
+          {
+            name: 'minWidth',
+            type: 'number',
+            required: false,
+            default: '300',
+            description: 'min-width value of popover (px)',
+          },
+          {
+            name: 'maxWidth',
+            type: 'number',
+            required: false,
+            default: '600',
+            description: 'max-width value of popover (px)',
+          },
+        ]}
+      />
 
       <section className="mt-8">
         <CodeSnippet>
@@ -105,4 +102,6 @@ export default function PagePopover() {
       </section>
     </>
   );
-}
+};
+
+export default PagePopover;
