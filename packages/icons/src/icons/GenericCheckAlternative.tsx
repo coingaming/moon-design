@@ -3,51 +3,46 @@ import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-interface SvgProp extends React.SVGProps<SVGSVGElement> {
-  forwardColor?: boolean
-}
-
-const Svg = (props: SvgProp) => (<svg
-  width="1em"
-  height="1em"
-  viewBox="0 0 32 32"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    d="M7 14.941L13.667 22 25 10"
-    stroke={ props.forwardColor ? props.color : 'currentColor'}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  />
-</svg>);
+const Svg = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width="1em"
+    height="1em"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M7 14.941L13.667 22 25 10"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
 
 type IconProps = {
-  backgroundColor?: ColorProps,
-  circleColor?: ColorProps,
-  color?: ColorProps,
-  forwardColor?: boolean
+  backgroundColor?: ColorProps;
+  circleColor?: ColorProps;
+  color?: ColorProps;
 };
-const GenericCheckAlternative =
-  styled(Svg).withConfig({
-    shouldForwardProp: prop =>
-      !['backgroundColor', 'circleColor'].includes(prop),
-  }) <
-  IconProps >
-  (({ backgroundColor, circleColor, color, theme }) => [
-    backgroundColor && {
-      backgroundColor: themed('color', backgroundColor)(theme),
-      padding: backgroundColor ? '0.25em' : 0,
-      overflow: 'visible',
-      borderRadius: '50%',
+const GenericCheckAlternative = styled(Svg).withConfig({
+  shouldForwardProp: (prop) =>
+    !['backgroundColor', 'circleColor', 'color'].includes(prop),
+})<IconProps>(({ backgroundColor, circleColor, color, theme }) => [
+  backgroundColor && {
+    backgroundColor: themed('color', backgroundColor)(theme),
+    padding: backgroundColor ? '0.25em' : 0,
+    overflow: 'visible',
+    borderRadius: '50%',
+  },
+  color && {
+    color: themed('color', color)(theme),
+  },
+  circleColor && {
+    circle: {
+      fill: themed('color', circleColor)(theme),
     },
-    color && {
-      color: themed('color', color)(theme)
-    },
-    circleColor && {
-      circle: {
-        fill: themed('color', circleColor)(theme),
-      },
-    },
-  ]);
+  },
+]);
 export default GenericCheckAlternative;

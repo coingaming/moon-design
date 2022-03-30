@@ -1,9 +1,7 @@
 import React from 'react';
-import {
-  GenericCheckAlternative
-} from '@heathmont/moon-icons';
+import { GenericCheckAlternative } from '@heathmont/moon-icons';
 import { inlineSvg } from '@heathmont/moon-utils';
-import { rgba } from "polished";
+import { rgba } from 'polished';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
 
@@ -19,7 +17,12 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     cursor: 'pointer',
     color: theme.colorNew.bulma,
     '& > span::after': {
-      backgroundImage: inlineSvg(<GenericCheckAlternative color={theme.colorNew.goten} forwardColor={true} />),
+      backgroundImage: inlineSvg(
+        <GenericCheckAlternative
+          color={theme.colorNew.goten}
+          forwardColor={true}
+        />
+      ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,
@@ -28,7 +31,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   '&:hover': {
     /* Show the Pseudo Checkbox Circle */
     '& + span > div > span': {
-      backgroundColor: 'rgba(0, 0, 0, 0.08)'
+      backgroundColor: rgba(theme.colorNew.bulma, 0.12),
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
@@ -47,15 +50,15 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     cursor: 'not-allowed',
     userSelect: 'none',
     '& > span': {
-      backgroundColor: 'transparent'
-    }
+      backgroundColor: 'transparent',
+    },
   },
   '&[readonly] + div': {
     cursor: 'not-allowed',
     userSelect: 'none',
     '& > span': {
-      backgroundColor: 'transparent'
-    }
+      backgroundColor: 'transparent',
+    },
   },
 }));
 
