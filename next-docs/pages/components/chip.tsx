@@ -79,7 +79,7 @@ export default function PageChip() {
       </section>
 
       <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Chip component</h2>
+        <h2 className="text-2xl mb-4">Props</h2>
         <Table
           data={[
             {
@@ -87,7 +87,7 @@ export default function PageChip() {
               type: 'small | medium',
               required: false,
               default: 'medium',
-              description: 'Small/medium size for chip',
+              description: 'Size of Chip',
             },
             {
               name: 'iconLeft',
@@ -101,7 +101,7 @@ export default function PageChip() {
               type: 'React.ReactElement',
               required: false,
               default: '-',
-              description: 'Rigth icon element',
+              description: 'Right icon element',
             },
             {
               name: 'iconOnly',

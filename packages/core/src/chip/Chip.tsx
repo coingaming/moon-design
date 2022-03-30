@@ -116,7 +116,7 @@ const StyledChip = styled.button<StyledChipProps>(
       flexDirection: 'row',
       justifyContent: iconOnly ? 'center' : 'space-between',
       alignItems: 'center',
-      borderRadius: theme.newTokens.borderRadius.medium,
+      borderRadius: theme.newTokens.borderRadius.interactive,
       gap:
         size === 'medium'
           ? theme.newTokens.space.twoxsmall

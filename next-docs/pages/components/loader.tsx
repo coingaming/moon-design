@@ -57,14 +57,14 @@ export default function PageLoader() {
               type: 'ColorProps',
               required: false,
               default: 'bulma',
-              description: 'Color of the component',
+              description: 'Colour of Loader',
             },
             {
               name: 'size',
               type: 'twoxsmall | xsmall | small | medium | large',
               required: false,
               default: 'medium',
-              description: 'Size of the component',
+              description: 'Size of Loader',
             },
           ]}
         />

@@ -280,26 +280,21 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
           className="CheckboxLabel-wyw1pu-0 glYria"
         >
           <input
-            className="CheckboxInput-sc-12uz9za-0 kifKP"
+            className="CheckboxInput-sc-12uz9za-0 bWzhZq"
             onClick={[Function]}
             type="checkbox"
           />
           <div
-            className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 NMcml"
+            className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
           >
             <span
-              className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 fRZwul"
+              className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 bxkBNs"
             >
               <div
                 checked={false}
                 className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
               />
             </span>
-            <p
-              className="Text-sc-3hujzp-0 ipeuYX"
-              color="bulma.100"
-              size={14}
-            />
           </div>
         </label>
       </span>
