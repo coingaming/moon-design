@@ -1,5 +1,4 @@
 import React from 'react';
-import { Heading, Text } from '@heathmont/moon-core';
 import Contributors from '../components/facing/Contributors';
 import ContributorsDevelopers from '../components/facing/ContributorsDevelopers';
 import ForDesigners from '../components/facing/ForDesigners';
@@ -16,14 +15,14 @@ const OpenSourceBadge = () => (
 
 const Header = () => (
   <>
-    <Heading as="h1" size={64}>
+    <h1 className="text-6xl text-black tracking-tight font-semibold">
       Moon design system.
-    </Heading>
-    <Text size={24} className="max-w-2xl mt-4">
+    </h1>
+    <p className="text-2xl max-w-2xl mt-4 tracking-tight">
       Moon is Yolo Group product design system that helps us maintain the
       integrity of their user experience and optimize design and development
       resources.
-    </Text>
+    </p>
   </>
 );
 
@@ -38,22 +37,15 @@ const SubHeader: React.FC<SubHeaderProps> = ({
 }: SubHeaderProps) => (
   <>
     {title && (
-      <Heading
-        as="h2"
-        size={32}
-        className="mt-20 bg-background relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min"
-      >
+      <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min">
         {title}
-      </Heading>
+      </h2>
     )}
 
     {description && (
-      <Text
-        size={32}
-        className="bg-background relative pr-4 py-1 lg:whitespace-nowrap lg:w-min"
-      >
+      <p className="text-4xl tracking-tight bg-background relative  pr-4 py-1 lg:whitespace-nowrap lg:w-min">
         {description}
-      </Text>
+      </p>
     )}
   </>
 );
