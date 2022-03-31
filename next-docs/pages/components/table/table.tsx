@@ -195,6 +195,34 @@ export default function PageTable() {
               default: '-',
               description: 'Max height of the table',
             },
+            {
+              name: 'withFooter',
+              type: 'boolean',
+              required: false,
+              default: '-',
+              description: 'Display table footer',
+            },
+            {
+              name: 'selectable',
+              type: 'boolean',
+              required: false,
+              default: '-',
+              description: 'Allow rows to be selected',
+            },
+            {
+              name: 'getOnRowSelect',
+              type: 'function',
+              required: false,
+              default: '-',
+              description: 'Callback on selected row',
+            },
+            {
+              name: 'getOnRowClickHandler',
+              type: 'function',
+              required: false,
+              default: '-',
+              description: 'Callback on clicked row',
+            },
           ]}
         />
       </section>
