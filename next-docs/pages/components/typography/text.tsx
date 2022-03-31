@@ -17,8 +17,8 @@ const PageText = () => {
           By default Text renders as Paragpaph tag with Bulma color, regular
           font-weight, and size of 16px.
           <br />
-          We have predefined sizes: 10 | 12 | 14 | 16 | 18 | 20 | 24 | 32 | 48 |
-          56 | 64 | 72.
+          We have predefined sizes: 9 | 10 | 12 | 14 | 16 | 18 | 20 | 24 | 32 |
+          48 | 56 | 64 | 72.
           <br />
           We treat semantics and visuals as two totally separate things.
         </p>

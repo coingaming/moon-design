@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import PropsTable from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import Calendar from '../../../public/examples/table/Calendar';
 import CustomContent from '../../../public/examples/table/CustomContent';
 import DeepTable from '../../../public/examples/table/DeepTable';
@@ -121,41 +121,39 @@ export default function PageTable() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props</h2>
-        <PropsTable
-          data={[
-            {
-              name: 'width',
-              type: 'string | number',
-              required: false,
-              default: '-',
-              description: 'Width of the table',
-            },
-            {
-              name: 'height',
-              type: 'string | number',
-              required: false,
-              default: '-',
-              description: 'Height of the table',
-            },
-            {
-              name: 'maxWidth',
-              type: 'string | number',
-              required: false,
-              default: '-',
-              description: 'Max width of the table',
-            },
-            {
-              name: 'maxHeight',
-              type: 'string | number',
-              required: false,
-              default: '-',
-              description: 'Max height of the table',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'width',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Width of the table',
+          },
+          {
+            name: 'height',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Height of the table',
+          },
+          {
+            name: 'maxWidth',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Max width of the table',
+          },
+          {
+            name: 'maxHeight',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Max height of the table',
+          },
+        ]}
+      />
     </>
   );
 }

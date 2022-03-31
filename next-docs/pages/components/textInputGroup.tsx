@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Default from '../../public/examples/textInputGroup/Default';
 import EventListenerSelect from '../../public/examples/textInputGroup/EventListenerSelect';
@@ -14,9 +14,8 @@ import Types from '../../public/examples/textInputGroup/Types';
 import Vertical from '../../public/examples/textInputGroup/Vertical';
 import useExamples from '../../utils/useExamples';
 
-export default function PageTextInputGroup() {
+const PageTextInputGroup = () => {
   const examples = useExamples('textInputGroup');
-
   return (
     <>
       <section className="mt-8">
@@ -125,65 +124,63 @@ export default function PageTextInputGroup() {
         />
       </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl mb-4">Props (Text types)</h2>
-        <Table
-          data={[
-            {
-              name: 'inputProps',
-              type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
-              required: true,
-              default: "object { inputSize: 'medium', type: 'text' }",
-              description:
-                'Props for the text input fields. See TextInput component',
-            },
-            {
-              name: 'orientation',
-              type: 'vertical | horizontal',
-              required: false,
-              default: 'horizontal',
-              description: 'How the fields are positioned with one another',
-            },
-            {
-              name: 'isRtl',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Text direction',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props (Text types)"
+        data={[
+          {
+            name: 'inputProps',
+            type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
+            required: true,
+            default: "object { inputSize: 'medium', type: 'text' }",
+            description:
+              'Props for the text input fields. See TextInput component',
+          },
+          {
+            name: 'orientation',
+            type: 'vertical | horizontal',
+            required: false,
+            default: 'horizontal',
+            description: 'How the fields are positioned with one another',
+          },
+          {
+            name: 'isRtl',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Text direction',
+          },
+        ]}
+      />
 
-      <section className="mt-8">
-        <h2 className="text-2xl mb-4">Props (Select types)</h2>
-        <Table
-          data={[
-            {
-              name: 'selectProps',
-              type: 'object { input1: SelectProps, input2: SelectProps }',
-              required: true,
-              default: 'object {}',
-              description:
-                'Props for the select fields. See Single Select and Multi Select components',
-            },
-            {
-              name: 'orientation',
-              type: 'vertical | horizontal',
-              required: false,
-              default: 'horizontal',
-              description: 'How the fields are positioned with one another',
-            },
-            {
-              name: 'isRtl',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Text direction',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props (Select types)"
+        data={[
+          {
+            name: 'selectProps',
+            type: 'object { input1: SelectProps, input2: SelectProps }',
+            required: true,
+            default: 'object {}',
+            description:
+              'Props for the select fields. See Single Select and Multi Select components',
+          },
+          {
+            name: 'orientation',
+            type: 'vertical | horizontal',
+            required: false,
+            default: 'horizontal',
+            description: 'How the fields are positioned with one another',
+          },
+          {
+            name: 'isRtl',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Text direction',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageTextInputGroup;

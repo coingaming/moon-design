@@ -1,9 +1,13 @@
 import { rem } from '@heathmont/moon-utils';
 
-type Size = 10 | 12 | 14 | 16 | 18 | 20 | 24 | 32 | 48 | 56 | 64 | 72;
+type Size = 9 | 10 | 12 | 14 | 16 | 18 | 20 | 24 | 32 | 48 | 56 | 64 | 72;
 
 const getFontSize = (size: Size) =>
   ({
+    9: {
+      fontSize: rem(9),
+      lineHeight: rem(16),
+    },
     10: {
       fontSize: rem(10),
       lineHeight: rem(16),
@@ -14,7 +18,7 @@ const getFontSize = (size: Size) =>
     },
     14: {
       fontSize: rem(14),
-      lineHeight: rem(20),
+      lineHeight: rem(24),
     },
     16: {
       fontSize: rem(16),
@@ -22,11 +26,11 @@ const getFontSize = (size: Size) =>
     },
     18: {
       fontSize: rem(18),
-      lineHeight: rem(28),
+      lineHeight: rem(24),
     },
     20: {
       fontSize: rem(20),
-      lineHeight: rem(28),
+      lineHeight: rem(32),
     },
     24: {
       fontSize: rem(24),

@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import Table from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import ButtonSm from '../../../public/examples/dialog/footer/ButtonSm';
 import ButtonXs from '../../../public/examples/dialog/footer/ButtonXs';
 import Size from '../../../public/examples/dialog/footer/Size';
@@ -46,48 +46,46 @@ export default function PageDialogFooter() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Footer component</h2>
-        <Table
-          data={[
-            {
-              name: 'primButton',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Button element',
-            },
-            {
-              name: 'secButton',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Button element',
-            },
-            {
-              name: 'tertButton',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Button element',
-            },
-            {
-              name: 'isDivider',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Add border top for footer',
-            },
-            {
-              name: 'size',
-              type: 'small | medium',
-              required: false,
-              default: '-',
-              description: 'Set paddings around footer',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Dialog Footer component"
+        data={[
+          {
+            name: 'primButton',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Button element',
+          },
+          {
+            name: 'secButton',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Button element',
+          },
+          {
+            name: 'tertButton',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Button element',
+          },
+          {
+            name: 'isDivider',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Add border top for footer',
+          },
+          {
+            name: 'size',
+            type: 'small | medium',
+            required: false,
+            default: '-',
+            description: 'Set paddings around footer',
+          },
+        ]}
+      />
     </>
   );
 }
