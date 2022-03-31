@@ -72,6 +72,7 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
+        isSelected: index === 2
       };
     });
   };
@@ -96,6 +97,10 @@ const Example = () => {
       width={800}
       height={400}
       withFooter={true}
+      selectable={true}
+      getOnRowSelect={() => (rows: any) => {
+        console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
+      }}
     />
   );
 };

@@ -72,6 +72,8 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
+        backgroundColor: index === 1 ? 'beerus.100' : '',
+        fontColor: index === 0 ? 'piccolo.100' : index < 3 ? 'trunks.100' : '',
       };
     });
   };
