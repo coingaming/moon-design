@@ -81,6 +81,13 @@ const missionsToolLight: Theme = {
     default: 4,
     largest: 8,
   },
+  newTokens: {
+    ...sharedTokens.newTokens,
+    borderRadius: {
+      ...sharedTokens.newTokens.borderRadius,
+      interactive: sharedTokens.newTokens.borderRadius.medium,
+    },
+  },
   ...componentsTokens(colorNew),
   colorScheme: 'light',
 };

@@ -1,14 +1,13 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/loader/Colours';
 import Default from '../../public/examples/loader/Default';
 import Sizes from '../../public/examples/loader/Sizes';
 import useExamples from '../../utils/useExamples';
 
-export default function PageLoader() {
+const PageLoader = () => {
   const examples = useExamples('loader');
-
   return (
     <>
       <section className="mt-8">
@@ -48,27 +47,27 @@ export default function PageLoader() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props</h2>
-        <Table
-          data={[
-            {
-              name: 'color',
-              type: 'ColorProps',
-              required: false,
-              default: 'bulma',
-              description: 'Colour of Loader',
-            },
-            {
-              name: 'size',
-              type: 'twoxsmall | xsmall | small | medium | large',
-              required: false,
-              default: 'medium',
-              description: 'Size of Loader',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'color',
+            type: 'ColorProps',
+            required: false,
+            default: 'bulma',
+            description: 'Colour of Loader',
+          },
+          {
+            name: 'size',
+            type: 'twoxsmall | xsmall | small | medium | large',
+            required: false,
+            default: 'medium',
+            description: 'Size of Loader',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageLoader;

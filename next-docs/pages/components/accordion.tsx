@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
 import DisableOpen from '../../public/examples/accordionNew/DisableOpen';
@@ -11,9 +11,8 @@ import SizesContentOutside from '../../public/examples/accordionNew/SizesContent
 import WithoutButton from '../../public/examples/accordionNew/WithoutButton';
 import useExamples from '../../utils/useExamples';
 
-export default function PageAccordion() {
+const PageAccordion = () => {
   const examples = useExamples('accordionNew');
-
   return (
     <>
       <section className="mt-8">
@@ -107,70 +106,70 @@ export default function PageAccordion() {
         />
       </section>
 
-      <section className="mt-8">
-        <h2 className="text-2xl mb-4">Props</h2>
-        <Table
-          data={[
-            {
-              name: 'title',
-              type: 'string',
-              required: true,
-              default: '-',
-              description: 'Title of accordion',
-            },
-            {
-              name: 'openByDefault',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Expanded/collapsed accordion by default',
-            },
-            {
-              name: 'withButton',
-              type: 'boolean',
-              required: false,
-              default: 'true',
-              description: 'Show expand/collapse chevron',
-            },
-            {
-              name: 'disableOpen',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Disable expand/collapse accordion',
-            },
-            {
-              name: 'headerContent',
-              type: 'React.ReactNode',
-              required: false,
-              default: '-',
-              description: 'Additional content to render in accordion header',
-            },
-            {
-              name: 'children',
-              type: 'React.ReactNode',
-              required: true,
-              default: '-',
-              description: 'Content to show inside of accordion',
-            },
-            {
-              name: 'size',
-              type: 'xlarge | large | medium | small',
-              required: false,
-              default: 'xlarge',
-              description: 'Size variant of accordion',
-            },
-            {
-              name: 'isContentInside',
-              type: 'boolean',
-              required: false,
-              default: 'true',
-              description:
-                'Whether the content is displayed outside of the accordion header',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'title',
+            type: 'string',
+            required: true,
+            default: '-',
+            description: 'Title of accordion',
+          },
+          {
+            name: 'openByDefault',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Expanded/collapsed accordion by default',
+          },
+          {
+            name: 'withButton',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description: 'Show expand/collapse chevron',
+          },
+          {
+            name: 'disableOpen',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disable expand/collapse accordion',
+          },
+          {
+            name: 'headerContent',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Additional content to render in accordion header',
+          },
+          {
+            name: 'children',
+            type: 'React.ReactNode',
+            required: true,
+            default: '-',
+            description: 'Content to show inside of accordion',
+          },
+          {
+            name: 'size',
+            type: 'xlarge | large | medium | small',
+            required: false,
+            default: 'xlarge',
+            description: 'Size variant of accordion',
+          },
+          {
+            name: 'isContentInside',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description:
+              'Whether the content is displayed outside of the accordion header',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageAccordion;

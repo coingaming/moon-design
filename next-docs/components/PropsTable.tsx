@@ -1,3 +1,5 @@
+import { Heading } from '@heathmont/moon-core';
+
 interface Data {
   name: string;
   type: string;
@@ -5,12 +7,19 @@ interface Data {
   default: string;
   description: string;
 }
+
 interface TableProps {
   data: Data[];
+  title?: string;
 }
 
-export default function Table({ data }: TableProps) {
-  return (
+const PropsTable = ({ data, title }: TableProps) => (
+  <section className="grid gap-4 mt-14">
+    {title && (
+      <Heading as="h2" size={24}>
+        {title}
+      </Heading>
+    )}
     <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="py-2 align-middle inline-block min-w-full sm:px-4 lg:px-8">
@@ -81,5 +90,7 @@ export default function Table({ data }: TableProps) {
         </div>
       </div>
     </div>
-  );
-}
+  </section>
+);
+
+export default PropsTable;

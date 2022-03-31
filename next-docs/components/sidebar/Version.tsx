@@ -1,11 +1,15 @@
-import React from 'react';
+import { Text } from '@heathmont/moon-core';
 import packageInfo from '../../package.json';
 
-export default function Version() {
-  return (
-    <div className="mt-4 px-3 py-2 text-sm leading-5 text-gray-500">
-      <p>Moon.io version:</p>
-      <p>{packageInfo.version}</p>
-    </div>
-  );
-}
+const Version = () => (
+  <div className="mt-4 px-3 py-2">
+    <Text size={14} color="trunks.100">
+      Moon.io version:
+    </Text>
+    <Text size={14} color="trunks.100">
+      {packageInfo.version}
+    </Text>
+  </div>
+);
+
+export default Version;

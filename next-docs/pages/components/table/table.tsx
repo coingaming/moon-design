@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import PropsTable from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import Calendar from '../../../public/examples/table/Calendar';
 import ClickableRows from '../../../public/examples/table/ClickableRows';
 import CustomColors from '../../../public/examples/table/CustomColors';

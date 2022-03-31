@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/avatar/Colours';
 import Fallbacks from '../../public/examples/avatar/Fallbacks';
 import Image from '../../public/examples/avatar/Image';
@@ -9,9 +9,8 @@ import Statuses from '../../public/examples/avatar/Statuses';
 import StatusPositions from '../../public/examples/avatar/StatusPositions';
 import useExamples from '../../utils/useExamples';
 
-export default function PageAvatar() {
+const PageAvatar = () => {
   const examples = useExamples('avatar');
-
   return (
     <>
       <section className="mt-8">
@@ -76,83 +75,82 @@ export default function PageAvatar() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Avatar component</h2>
-        <Table
-          data={[
-            {
-              name: 'size',
-              type: 'xsmall | small | medium | large',
-              required: false,
-              default: 'medium',
-              description: 'Size for avatar',
-            },
-            {
-              name: 'name',
-              type: 'string | JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Сapital letters of name',
-            },
-            {
-              name: 'imageUrl',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'Path to the image',
-            },
-            {
-              name: 'statusOrigin',
-              type: 'StatusOrigin',
-              required: false,
-              default: '-',
-              description: 'Position for status indication',
-            },
-            {
-              name: 'isStatusActive',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Active/inactive state for status indication',
-            },
-            {
-              name: 'color',
-              type: 'ColorProps',
-              required: false,
-              default: '-',
-              description: 'Text color',
-            },
-            {
-              name: 'backgroundColor',
-              type: 'ColorProps',
-              required: false,
-              default: '-',
-              description: 'Background color',
-            },
-          ]}
-        />
-      </section>
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">StatusOrigin Prop</h2>
-        <Table
-          data={[
-            {
-              name: 'vertical',
-              type: 'top | bottom',
-              required: true,
-              default: '-',
-              description: 'Vertical align for status indication',
-            },
-            {
-              name: 'horizontal',
-              type: 'left | right',
-              required: true,
-              default: '-',
-              description: 'Horizontal align for status indication',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Avatar component"
+        data={[
+          {
+            name: 'size',
+            type: 'xsmall | small | medium | large',
+            required: false,
+            default: 'medium',
+            description: 'Size for avatar',
+          },
+          {
+            name: 'name',
+            type: 'string | JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Сapital letters of name',
+          },
+          {
+            name: 'imageUrl',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Path to the image',
+          },
+          {
+            name: 'statusOrigin',
+            type: 'StatusOrigin',
+            required: false,
+            default: '-',
+            description: 'Position for status indication',
+          },
+          {
+            name: 'isStatusActive',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Active/inactive state for status indication',
+          },
+          {
+            name: 'color',
+            type: 'ColorProps',
+            required: false,
+            default: '-',
+            description: 'Text color',
+          },
+          {
+            name: 'backgroundColor',
+            type: 'ColorProps',
+            required: false,
+            default: '-',
+            description: 'Background color',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="StatusOrigin Prop"
+        data={[
+          {
+            name: 'vertical',
+            type: 'top | bottom',
+            required: true,
+            default: '-',
+            description: 'Vertical align for status indication',
+          },
+          {
+            name: 'horizontal',
+            type: 'left | right',
+            required: true,
+            default: '-',
+            description: 'Horizontal align for status indication',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageAvatar;
