@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {Checkbox} from '@heathmont/moon-core';
 import { ColorNames } from '@heathmont/moon-themes';
 import { Cell, Row } from 'react-table';
 import BodyTR from '../components/BodyTR';
+import CheckboxTD from '../components/CheckboxTD';
 import TD from '../components/TD';
 import { RowSpanHeader } from '../hooks/useRowSpan';
 
@@ -12,27 +14,45 @@ type RenderSpanRowsProps<D extends object = {}> = {
   getOnRowClickHandler: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
+  getOnRowSelectHandler?: (
+    row: Row<D>
+  ) => ((row: Row<D>) => void | (() => void)) | undefined;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
+  selectable: boolean;
 };
 
 const renderSpanRows = ({
   rows,
   prepareRow,
   getOnRowClickHandler,
+  getOnRowSelectHandler,
   evenRowBackgroundColor,
   defaultRowBackgroundColor,
   rowSpanHeaders,
+  selectable
 }: RenderSpanRowsProps) => {
   if (!rows) return;
-  return rows.map((row: Row<{}>, index: number) => {
+  return rows.map((
+    row: Row<{
+      isSelected?: boolean,
+      backgroundColor?: ColorNames,
+      fontColor?: ColorNames,
+    }>,
+    index: number
+  ) => {
     prepareRow(row);
 
     const onRowClickHandler = getOnRowClickHandler
       ? getOnRowClickHandler(row)
       : () => undefined;
-    const backgroundColor =
-      index % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor;
+    const onRowSelectHandler = getOnRowSelectHandler
+      ? getOnRowSelectHandler(row)
+      : () => undefined;
+    const backgroundColor = row.original?.backgroundColor
+      ? row.original?.backgroundColor : index % 2
+        ? evenRowBackgroundColor : defaultRowBackgroundColor;
+    const fontColor = row.original?.fontColor;
     const isRowSpanned =
       rowSpanHeaders &&
       rowSpanHeaders.some((rowSpanHeader: RowSpanHeader) =>
@@ -43,6 +63,7 @@ const renderSpanRows = ({
             rowSpanHeader.value === cell.value
         )
       );
+    const [isSelected, setSelected] = useState(row.original?.isSelected);
 
     const makeCellForRowSpanned = (cell: Cell<{}>) => (
       <TD {...cell.getCellProps()} />
@@ -56,9 +77,26 @@ const renderSpanRows = ({
       <BodyTR
         {...row.getRowProps()}
         withOffset={!isRowSpanned}
+        customBackground={!!row.original?.backgroundColor}
         backgroundColor={backgroundColor}
+        fontColor={fontColor}
+        isSelected={isSelected}
         onClick={onRowClickHandler ? () => onRowClickHandler(row) : undefined}
       >
+        {selectable && (<TD selectable={true}>
+          <CheckboxTD>
+            <Checkbox
+              checked={isSelected}
+              onClick={(e: Event) => e.stopPropagation()}
+              onChange={() => {
+                setSelected(!isSelected)
+
+                if (onRowSelectHandler) onRowSelectHandler(row);
+              }}
+            />
+          </CheckboxTD>
+        </TD>)}
+
         {row.cells.map((cell: Cell<{}>) => {
           if (!rowSpanHeaders) return makeCellForNormalRow(cell);
 

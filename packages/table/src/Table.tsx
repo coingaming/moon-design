@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 import { ColorNames } from '@heathmont/moon-themes';
 import {
   useTable,
@@ -57,30 +57,34 @@ export type TableProps<D extends object = {}> = {
   headerBackgroundColor?: ColorNames;
   isSticky?: boolean;
   isSorting?: boolean;
+  selectable?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
+  getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);
 };
 
 const Table: React.FC<TableProps> = ({
-  columns,
-  data,
-  defaultColumn,
-  width,
-  height,
-  maxWidth,
-  maxHeight,
-  variant,
-  layout,
-  withFooter = false,
-  withMinimap = false,
-  expandedByDefault,
-  defaultRowBackgroundColor = 'gohan.100',
-  evenRowBackgroundColor = 'gohan.80',
-  headerBackgroundColor = 'goku.100',
-  isSticky = true,
-  isSorting = false,
-  renderRowSubComponent,
-  getOnRowClickHandler = () => undefined,
+ columns,
+ data,
+ defaultColumn,
+ width,
+ height,
+ maxWidth,
+ maxHeight,
+ variant,
+ layout,
+ withFooter = false,
+ withMinimap = false,
+ expandedByDefault,
+ defaultRowBackgroundColor = 'gohan.100',
+ evenRowBackgroundColor = 'gohan.80',
+ headerBackgroundColor = 'goku.100',
+ isSticky = true,
+ isSorting = false,
+ selectable = false,
+ renderRowSubComponent,
+ getOnRowClickHandler = () => undefined,
+ getOnRowSelect = () => undefined
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
@@ -115,13 +119,28 @@ const Table: React.FC<TableProps> = ({
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
+  const onRowSelectHandler = getOnRowSelect
+    ? getOnRowSelect()
+    : () => undefined;
 
   const { scrollState, handleScroll } = useScrollState(tableRef);
+  const [ selectedRows, setSelectedRows ] = useState<Row<{}>[]>([]);
 
   useEffect(() => {
     if (expandedByDefault === undefined || !data || !data.length) return;
     toggleAllRowsExpanded(expandedByDefault);
   }, [expandedByDefault, data, toggleAllRowsExpanded]);
+
+  useEffect(() => {
+    if (onRowSelectHandler) onRowSelectHandler(selectedRows);
+  }, [selectedRows]);
+
+  useEffect(() => {
+    setSelectedRows(rows?.length
+      ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
+        return row.original?.isSelected;
+      }) : []);
+  }, []);
 
   const getHeaderRowWhenSorting = (column: HeaderGroup<object>) => {
     const sortingColumn = column as unknown as UseSortByColumnProps<object>;
@@ -195,7 +214,7 @@ const Table: React.FC<TableProps> = ({
       evenRowBackgroundColor={evenRowBackgroundColor}
       headerBackgroundColor={headerBackgroundColor}
     >
-      <Header>
+      <Header selectable={selectable} headerBackgroundColor={headerBackgroundColor}>
         {headerGroups.map((headerGroup: HeaderGroup<object>) => (
           <HeaderTR {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column: HeaderGroup<object>) => {
@@ -213,25 +232,40 @@ const Table: React.FC<TableProps> = ({
       <Body {...getTableBodyProps()}>
         {variant === 'calendar'
           ? renderSpanRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              rowSpanHeaders,
-            })
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            rowSpanHeaders,
+            selectable
+          })
           : renderRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              renderRowSubComponent,
-            })}
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            getOnRowSelectHandler: (row) => () => {
+              let alreadySelectedRows = [...selectedRows];
+              const alreadySelectedRow = alreadySelectedRows.filter((selectedRow) => row.id === selectedRow.id)[0];
+
+              if (alreadySelectedRow) {
+                alreadySelectedRows = alreadySelectedRows.filter((selectedRow) => row.id !== selectedRow.id)
+              } else {
+                alreadySelectedRows.push(row);
+              }
+
+              setSelectedRows(alreadySelectedRows);
+            },
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            renderRowSubComponent,
+            selectable
+          })
+        }
       </Body>
 
       {withFooter && (
-        <Footer ref={footerRef}>
+        <Footer ref={footerRef} selectable={selectable} headerBackgroundColor={headerBackgroundColor}>
           {footerGroups.map((footerGroup: HeaderGroup<object>) => (
             <HeaderTR {...footerGroup.getHeaderGroupProps()}>
               {footerGroup.headers.map((column: HeaderGroup<object>) =>
