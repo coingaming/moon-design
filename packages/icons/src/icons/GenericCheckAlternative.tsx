@@ -3,11 +3,7 @@ import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-interface SvgProp extends React.SVGProps<SVGSVGElement> {
-  forwardColor?: boolean
-}
-
-const Svg = (props: SvgProp) => (
+const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
@@ -18,7 +14,7 @@ const Svg = (props: SvgProp) => (
   >
     <path
       d="M7 14.941L13.667 22 25 10"
-      stroke={ props.forwardColor ? props.color : 'currentColor'}
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -29,11 +25,10 @@ type IconProps = {
   backgroundColor?: ColorProps;
   circleColor?: ColorProps;
   color?: ColorProps;
-  forwardColor?: boolean;
 };
 const GenericCheckAlternative = styled(Svg).withConfig({
   shouldForwardProp: (prop) =>
-    !['backgroundColor', 'circleColor'].includes(prop),
+    !['backgroundColor', 'circleColor', 'color'].includes(prop),
 })<IconProps>(({ backgroundColor, circleColor, color, theme }) => [
   backgroundColor && {
     backgroundColor: themed('color', backgroundColor)(theme),

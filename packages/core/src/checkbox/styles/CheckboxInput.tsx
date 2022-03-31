@@ -18,10 +18,7 @@ const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
     color: theme.colorNew.bulma,
     '& > span::after': {
       backgroundImage: inlineSvg(
-        <GenericCheckAlternative
-          color={theme.colorNew.goten}
-          forwardColor={true}
-        />
+        <GenericCheckAlternative style={{ color: theme.colorNew.goten }} />
       ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
