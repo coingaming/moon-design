@@ -10,7 +10,7 @@ export interface CheckboxProps {
   id?: string;
   variant?: Variants;
   checked?: boolean;
-  onClick?: () => void;
+  onClick?: (event?: any) => void;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   dir?: 'ltr' | 'rtl' | 'auto';
   readOnly?: boolean;
@@ -34,7 +34,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
             e.stopPropagation();
             return;
           }
-          if (inputProps.onClick) inputProps.onClick()
+          if (inputProps.onClick) inputProps.onClick(e)
           setIsChecked(e?.currentTarget?.checked)
         }}
       />

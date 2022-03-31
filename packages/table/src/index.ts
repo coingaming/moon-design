@@ -8,6 +8,8 @@ export { default as Body } from './components/Body';
 export * from './components/Body';
 export { default as BodyTR } from './components/BodyTR';
 export * from './components/BodyTR';
+export { default as CheckboxTD } from './components/CheckboxTD';
+export * from './components/CheckboxTD';
 export { default as Footer } from './components/Footer';
 export * from './components/Footer';
 export { default as Header } from './components/Header';
