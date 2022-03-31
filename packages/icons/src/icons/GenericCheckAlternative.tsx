@@ -22,27 +22,30 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 type IconProps = {
-  backgroundColor?: ColorProps;
-  circleColor?: ColorProps;
-  color?: ColorProps;
+  backgroundColor?: ColorProps,
+  circleColor?: ColorProps,
+  color?: ColorProps,
 };
-const GenericCheckAlternative = styled(Svg).withConfig({
-  shouldForwardProp: (prop) =>
-    !['backgroundColor', 'circleColor', 'color'].includes(prop),
-})<IconProps>(({ backgroundColor, circleColor, color, theme }) => [
-  backgroundColor && {
-    backgroundColor: themed('color', backgroundColor)(theme),
-    padding: backgroundColor ? '0.25em' : 0,
-    overflow: 'visible',
-    borderRadius: '50%',
-  },
-  color && {
-    color: themed('color', color)(theme),
-  },
-  circleColor && {
-    circle: {
-      fill: themed('color', circleColor)(theme),
+const GenericCheckAlternative =
+  styled(Svg).withConfig({
+    shouldForwardProp: prop =>
+      !['backgroundColor', 'circleColor', 'color'].includes(prop),
+  }) <
+  IconProps >
+  (({ backgroundColor, circleColor, color, theme }) => [
+    backgroundColor && {
+      backgroundColor: themed('color', backgroundColor)(theme),
+      padding: backgroundColor ? '0.25em' : 0,
+      overflow: 'visible',
+      borderRadius: '50%',
     },
-  },
-]);
+    color && {
+      color: themed('color', color)(theme),
+    },
+    circleColor && {
+      circle: {
+        fill: themed('color', circleColor)(theme),
+      },
+    },
+  ]);
 export default GenericCheckAlternative;
