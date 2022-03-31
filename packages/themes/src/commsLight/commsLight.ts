@@ -78,6 +78,13 @@ const commsLight: Theme = {
     default: 16,
     largest: 24,
   },
+  newTokens: {
+    ...sharedTokens.newTokens,
+    borderRadius: {
+      ...sharedTokens.newTokens.borderRadius,
+      interactive: sharedTokens.newTokens.borderRadius.twoxlarge,
+    },
+  },
   ...componentsTokens(colorNew),
   colorScheme: 'light',
 };
