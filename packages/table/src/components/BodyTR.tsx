@@ -68,7 +68,16 @@ const BodyTR = styled.div<{
         '&:hover': {
           cursor: 'pointer',
           [TD]: {
-            backgroundColor: tint(0.88, theme.colorNew.piccolo)
+            backgroundColor: tint(0.88, theme.colorNew.piccolo),
+            borderTop: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
+            borderBottom: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
+            boxSizing: 'border-box',
+            '&:first-child': {
+              borderLeft: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
+            },
+            '&:last-child': {
+              borderRight: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
+            },
           },
         },
       }
