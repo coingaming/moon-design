@@ -8,6 +8,7 @@ import renderer from 'react-test-renderer';
 import Default from '../Default';
 import Checked from '../Checked';
 import Disabled from '../Disabled';
+import NoLabel from "../NoLabel";
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -30,13 +31,18 @@ describe('Radiobutton', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Checked />));
+  it('renders No label', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<NoLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
   it('renders Disabled', () => {
     const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Checked />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

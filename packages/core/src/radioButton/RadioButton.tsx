@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, {forwardRef, useState} from 'react';
 import RadioButtonLabel from './RadioButtonLabel';
 import RadioButtonCaption from './styles/RadioButtonCaption';
 import RadioButtonHiddenInput from './styles/RadioButtonHiddenInput';
@@ -14,8 +14,10 @@ export type RadioButtonProps = React.InputHTMLAttributes<HTMLInputElement> & {
 };
 
 const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
-  ({ disabled, ariaLabel, id, label, ...inputProps }, ref) => (
-    <RadioButtonLabel htmlFor={id}>
+  ({ disabled, ariaLabel, id, label, ...inputProps }, ref) => {
+    const [animate, setAnimate] = useState(false)
+
+    return (<RadioButtonLabel htmlFor={id}>
       <RadioButtonHiddenInput
         id={id}
         key={id}
@@ -24,12 +26,18 @@ const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
         aria-label={ariaLabel}
         ref={ref}
         {...inputProps}
-      />
+        onClick={() => {
+          if (inputProps.onClick) inputProps.onClick()
+          setAnimate(true)
 
-      <RadioButtonStyledInput />
+          setTimeout(() => {
+            setAnimate(false)
+          }, 500)
+        }}
+      />
+      <RadioButtonStyledInput animate={animate} />
       {label && <RadioButtonCaption>{label}</RadioButtonCaption>}
-    </RadioButtonLabel>
-  )
-);
+    </RadioButtonLabel>);
+});
 
 export default RadioButton;

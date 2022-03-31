@@ -29,14 +29,18 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fBEXtV"
             id="age1"
             name="age"
             type="radio"
           />
-          <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-          />
+          <span
+            className="RadioButtonStyledInput__Content-sc-5ipqri-0 iqxINk"
+          >
+            <div
+              className="RadioButtonStyledInput__Animation-sc-5ipqri-1 gUxEwa"
+            />
+          </span>
         </span>
       </div>
     </label>
@@ -61,14 +65,18 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fBEXtV"
             id="age2"
             name="age"
             type="radio"
           />
-          <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-          />
+          <span
+            className="RadioButtonStyledInput__Content-sc-5ipqri-0 iqxINk"
+          >
+            <div
+              className="RadioButtonStyledInput__Animation-sc-5ipqri-1 gUxEwa"
+            />
+          </span>
         </span>
       </div>
     </label>
@@ -93,14 +101,18 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="61 - 100"
-            className="RadioButtonHiddenInput-sc-17huvt0-0 fabrWZ"
+            className="RadioButtonHiddenInput-sc-17huvt0-0 fBEXtV"
             id="age3"
             name="age"
             type="radio"
           />
-          <figure
-            className="RadioButtonStyledInput-sc-1xbgszd-0 fygHmY"
-          />
+          <span
+            className="RadioButtonStyledInput__Content-sc-5ipqri-0 iqxINk"
+          >
+            <div
+              className="RadioButtonStyledInput__Animation-sc-5ipqri-1 gUxEwa"
+            />
+          </span>
         </span>
       </div>
     </label>
