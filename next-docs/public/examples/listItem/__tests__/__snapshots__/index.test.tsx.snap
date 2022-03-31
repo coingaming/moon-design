@@ -280,7 +280,7 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
           className="CheckboxLabel-wyw1pu-0 glYria"
         >
           <input
-            className="CheckboxInput-sc-12uz9za-0 bWzhZq"
+            className="CheckboxInput-sc-12uz9za-0 cvIerI"
             onClick={[Function]}
             type="checkbox"
           />
