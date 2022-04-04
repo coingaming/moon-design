@@ -1,5 +1,15 @@
 # Change Log
 
+## 8.3.2
+
+### Patch Changes
+
+- Table Row Selection & Loader
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.3.2
+  - @heathmont/moon-assets@8.3.2
+  - @heathmont/moon-utils@8.3.2
+
 ## 8.3.1
 
 ### Patch Changes

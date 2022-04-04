@@ -1,5 +1,27 @@
 # Change Log
 
+## 8.3.2
+
+### Patch Changes
+
+- Table Row Selection & Loader
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@8.3.2
+  - @heathmont/moon-table@8.3.2
+  - @heathmont/moon-themes@8.3.2
+  - @heathmont/moon-accordion@8.3.2
+  - @heathmont/moon-assets@8.3.2
+  - @heathmont/moon-charts@8.3.2
+  - @heathmont/moon-components@8.3.2
+  - @heathmont/moon-datepicker@8.3.2
+  - @heathmont/moon-draggabletable@8.3.2
+  - @heathmont/moon-icons@8.3.2
+  - @heathmont/moon-pagination@8.3.2
+  - @heathmont/moon-popover@8.3.2
+  - @heathmont/moon-select@8.3.2
+  - @heathmont/moon-sidebar@8.3.2
+  - @heathmont/moon-utils@8.3.2
+
 ## 8.3.1
 
 ### Patch Changes
