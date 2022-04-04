@@ -10,7 +10,7 @@ export interface CheckboxProps {
   id?: string;
   variant?: Variants;
   checked?: boolean;
-  onClick?: (event?: any) => void;
+  onClick?: (event?: React.MouseEvent<HTMLInputElement>) => void;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   dir?: 'ltr' | 'rtl' | 'auto';
   readOnly?: boolean;
