@@ -2,11 +2,14 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
 import Calendar from '../../../public/examples/table/Calendar';
+import ClickableRows from '../../../public/examples/table/ClickableRows';
+import CustomColors from '../../../public/examples/table/CustomColors';
 import CustomContent from '../../../public/examples/table/CustomContent';
 import DeepTable from '../../../public/examples/table/DeepTable';
 import Default from '../../../public/examples/table/Default';
 import ExpandedRow from '../../../public/examples/table/ExpandedRow';
 import MiniMap from '../../../public/examples/table/MiniMap';
+import SelectableRows from '../../../public/examples/table/SelectableRows';
 import Sorting from '../../../public/examples/table/Sorting';
 import useExamples from '../../../utils/useExamples';
 
@@ -37,6 +40,45 @@ export default function PageTable() {
           preview={
             <div className="flex justify-around items-center w-full">
               <Default />
+            </div>
+          }
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Clickable rows */}
+      <section className="mt-8">
+        <Preview
+          title="Clickable rows"
+          preview={
+            <div className="flex justify-around items-center w-full">
+              <ClickableRows />
+            </div>
+          }
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Selectable rows */}
+      <section className="mt-8">
+        <Preview
+          title="Selectable rows"
+          preview={
+            <div className="flex justify-around items-center w-full">
+              <SelectableRows />
+            </div>
+          }
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Custom colors */}
+      <section className="mt-8">
+        <Preview
+          title="Custom colors"
+          preview={
+            <div className="flex justify-around items-center w-full">
+              <CustomColors />
             </div>
           }
           code={examples ? examples.Default : 'Loading'}
@@ -121,39 +163,69 @@ export default function PageTable() {
         />
       </section>
 
-      <PropsTable
-        title="Props"
-        data={[
-          {
-            name: 'width',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Width of the table',
-          },
-          {
-            name: 'height',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Height of the table',
-          },
-          {
-            name: 'maxWidth',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Max width of the table',
-          },
-          {
-            name: 'maxHeight',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Max height of the table',
-          },
-        ]}
-      />
+      <section className="mt-14">
+        <h2 className="text-2xl mb-4">Props</h2>
+        <PropsTable
+          data={[
+            {
+              name: 'width',
+              type: 'string | number',
+              required: false,
+              default: '-',
+              description: 'Width of the table',
+            },
+            {
+              name: 'height',
+              type: 'string | number',
+              required: false,
+              default: '-',
+              description: 'Height of the table',
+            },
+            {
+              name: 'maxWidth',
+              type: 'string | number',
+              required: false,
+              default: '-',
+              description: 'Max width of the table',
+            },
+            {
+              name: 'maxHeight',
+              type: 'string | number',
+              required: false,
+              default: '-',
+              description: 'Max height of the table',
+            },
+            {
+              name: 'withFooter',
+              type: 'boolean',
+              required: false,
+              default: '-',
+              description: 'Display table footer',
+            },
+            {
+              name: 'selectable',
+              type: 'boolean',
+              required: false,
+              default: '-',
+              description: 'Allow rows to be selected',
+            },
+            {
+              name: 'getOnRowSelect',
+              type: 'function',
+              required: false,
+              default: '-',
+              description: 'Callback on selected row',
+            },
+            {
+              name: 'getOnRowClickHandler',
+              type: 'function',
+              required: false,
+              default: '-',
+              description: 'Callback on clicked row',
+            },
+          ]}
+        />
+      </section>
     </>
   );
 }
