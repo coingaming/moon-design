@@ -1,18 +1,16 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
 import Fill from '../../public/examples/tabs/Fill';
 import FillContainer from '../../public/examples/tabs/FillContainer';
 import IsTop from '../../public/examples/tabs/IsTop';
 import Small from '../../public/examples/tabs/Small';
 import Variant from '../../public/examples/tabs/Variant';
-
 import useExamples from '../../utils/useExamples';
 
-export default function PageTabsNew() {
+const PageTabsNew = () => {
   const examples = useExamples('tabs');
-
   return (
     <>
       <section className="mt-8">
@@ -85,79 +83,76 @@ export default function PageTabsNew() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Tabs component</h2>
-        <Table
-          data={[
-            {
-              name: 'items',
-              type: 'React.ReactElement[]',
-              required: true,
-              default: '-',
-              description:
-                'TabLink/TabLinkFill or any other component provide the tab interaction',
-            },
-            {
-              name: 'size',
-              type: 'small | medium',
-              required: false,
-              default: 'medium',
-              description: 'Small/medium size for tab items',
-            },
-            {
-              name: 'dir',
-              type: 'ltr | rtl | auto',
-              required: false,
-              default: 'auto',
-              description: 'Support right to left languages',
-            },
-            {
-              name: 'isTop',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Underline top view. Only for TabLink',
-            },
-            {
-              name: 'isContainer',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Segment control view. Only for TabLinkFill',
-            },
-          ]}
-        />
-      </section>
-      <section className="mt-8">
-        <h2 className="text-2xl mb-4">
-          Props for TabsLink/TabsLinkFill components
-        </h2>
-        <Table
-          data={[
-            {
-              name: 'elementLeft',
-              type: 'React.ReactElement',
-              required: false,
-              default: '-',
-              description: 'Left icon element',
-            },
-            {
-              name: 'count',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'Rigth text element',
-            },
-            {
-              name: 'href',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: `The href attribute specifies the link's destination`,
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Tabs component"
+        data={[
+          {
+            name: 'items',
+            type: 'React.ReactElement[]',
+            required: true,
+            default: '-',
+            description:
+              'TabLink/TabLinkFill or any other component provide the tab interaction',
+          },
+          {
+            name: 'size',
+            type: 'small | medium',
+            required: false,
+            default: 'medium',
+            description: 'Small/medium size for tab items',
+          },
+          {
+            name: 'dir',
+            type: 'ltr | rtl | auto',
+            required: false,
+            default: 'auto',
+            description: 'Support right to left languages',
+          },
+          {
+            name: 'isTop',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Underline top view. Only for TabLink',
+          },
+          {
+            name: 'isContainer',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Segment control view. Only for TabLinkFill',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Props for TabsLink/TabsLinkFill components"
+        data={[
+          {
+            name: 'elementLeft',
+            type: 'React.ReactElement',
+            required: false,
+            default: '-',
+            description: 'Left icon element',
+          },
+          {
+            name: 'count',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Rigth text element',
+          },
+          {
+            name: 'href',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: `The href attribute specifies the link's destination`,
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageTabsNew;

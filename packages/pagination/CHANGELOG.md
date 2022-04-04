@@ -1,5 +1,30 @@
 # Change Log
 
+## 8.3.1
+
+### Patch Changes
+
+- Restore Chip in components
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.1
+  - @heathmont/moon-assets@8.3.1
+  - @heathmont/moon-themes@8.3.1
+  - @heathmont/moon-utils@8.3.1
+
+## 8.3.0
+
+### Minor Changes
+
+- Fix TextInput Groups
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@8.3.0
+  - @heathmont/moon-components@8.3.0
+  - @heathmont/moon-themes@8.3.0
+  - @heathmont/moon-utils@8.3.0
+
 ## 8.2.0
 
 ### Minor Changes

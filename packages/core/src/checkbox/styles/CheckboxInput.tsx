@@ -1,8 +1,9 @@
 import React from 'react';
-import { inlineSvg, rem } from '@heathmont/moon-utils';
+import { GenericCheckAlternative } from '@heathmont/moon-icons';
+import { inlineSvg } from '@heathmont/moon-utils';
+import { rgba } from 'polished';
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
-import { CheckboxIcon } from '../private/icon';
 
 /**
  * Checkbox Input
@@ -12,39 +13,49 @@ import { CheckboxIcon } from '../private/icon';
  */
 const CheckboxInput = styled.input.attrs({ type: 'checkbox' })(({ theme }) => ({
   ...hideVisually(),
-  '& + span': {
+  '& + div': {
     cursor: 'pointer',
-    '&::after': {
-      backgroundImage: inlineSvg(<CheckboxIcon color={theme.colorNew.goten} />),
+    color: theme.colorNew.bulma,
+    '& > span::after': {
+      backgroundImage: inlineSvg(
+        <GenericCheckAlternative style={{ color: theme.colorNew.goten }} />
+      ),
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 0,
     },
   },
-  '&:hover:enabled, &:focus:enabled': {
+  '&:hover': {
     /* Show the Pseudo Checkbox Circle */
-    '& + span::before': {
-      opacity: 0.5,
-      transform: 'scale(2)',
-    },
-    '&:checked + span::before': {
-      opacity: 0.1,
-      backgroundColor: theme.colorNew.piccolo /* [1] */,
-    },
-    /* Adjust the Pseudo Checkbox */
-    '&:not(:checked) + span::after': {
-      borderColor: theme.colorNew.trunks,
+    '& + span > div > span': {
+      backgroundColor: rgba(theme.colorNew.bulma, 0.12),
     },
   },
   /* Add the "check" to the Pseudo Checkbox */
-  '&:checked + span::after': {
-    backgroundColor: theme.colorNew.piccolo,
-    backgroundSize: rem(10),
-    borderColor: theme.colorNew.piccolo,
+  '&:checked': {
+    '&:hover + div > span': {
+      backgroundColor: rgba(theme.colorNew.piccolo, 0.12),
+    },
+    '& + div > span::after': {
+      backgroundColor: theme.colorNew.piccolo,
+      backgroundSize: '100%',
+      boxShadow: 'none',
+    },
   },
-  '&[disabled] + span': {
+  '&[disabled] + div': {
     opacity: theme.newTokens.opacity,
     cursor: 'not-allowed',
+    userSelect: 'none',
+    '& > span': {
+      backgroundColor: 'transparent',
+    },
+  },
+  '&[readonly] + div': {
+    cursor: 'not-allowed',
+    userSelect: 'none',
+    '& > span': {
+      backgroundColor: 'transparent',
+    },
   },
 }));
 

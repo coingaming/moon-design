@@ -1,7 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
-import Table from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/select/multiSelect/Default';
 import Disabled from '../../../public/examples/select/multiSelect/Disabled';
 import Error from '../../../public/examples/select/multiSelect/Error';
@@ -48,62 +48,60 @@ export default function PageMultiSelect() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props</h2>
-        <Table
-          data={[
-            {
-              name: 'items',
-              type: 'Option[]',
-              required: true,
-              default: '-',
-              description: `The option's value.`,
-            },
-            {
-              name: 'label',
-              type: 'JSX.Element | string',
-              required: true,
-              default: '-',
-              description: `Label title`,
-            },
-            {
-              name: 'search',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Search element slot.',
-            },
-            {
-              name: 'footer',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Footer element slot.',
-            },
-            {
-              name: 'initialSelectedItems',
-              type: 'Option[]',
-              required: false,
-              default: '[]',
-              description: 'Initially selected items',
-            },
-            {
-              name: 'isExpanded',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'is expanded',
-            },
-            {
-              name: 'onChange',
-              type: '(selectedItems: string[]) => any;',
-              required: false,
-              default: '-',
-              description: 'onChange callback',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'items',
+            type: 'Option[]',
+            required: true,
+            default: '-',
+            description: `The option's value.`,
+          },
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: true,
+            default: '-',
+            description: `Label title`,
+          },
+          {
+            name: 'search',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Search element slot.',
+          },
+          {
+            name: 'footer',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Footer element slot.',
+          },
+          {
+            name: 'initialSelectedItems',
+            type: 'Option[]',
+            required: false,
+            default: '[]',
+            description: 'Initially selected items',
+          },
+          {
+            name: 'isExpanded',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'is expanded',
+          },
+          {
+            name: 'onChange',
+            type: '(selectedItems: string[]) => any;',
+            required: false,
+            default: '-',
+            description: 'onChange callback',
+          },
+        ]}
+      />
 
       <section className="mt-8">
         <CodeSnippet>

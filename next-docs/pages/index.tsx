@@ -50,42 +50,39 @@ const SubHeader: React.FC<SubHeaderProps> = ({
   </>
 );
 
-export default function Home() {
-  return (
-    <>
-      <OpenSourceBadge />
+const Home = () => (
+  <>
+    <OpenSourceBadge />
 
-      <Header />
+    <Header />
 
-      <ForDesigners />
-      <ForDevelopers />
+    <ForDesigners />
+    <ForDevelopers />
 
-      <SubHeader
-        title="Updates."
-        description="Explore our community features"
-      />
+    <SubHeader title="Updates." description="Explore our community features" />
 
-      <div className="mt-12">
-        <News />
-      </div>
+    <div className="mt-12">
+      <News />
+    </div>
 
-      <MoonAndEarthAnimation />
+    <MoonAndEarthAnimation />
 
-      <section className="mt-20">
-        <Future />
-      </section>
+    <section className="mt-20">
+      <Future />
+    </section>
 
-      <SubHeader
-        title="In the Spotlight."
-        description="The team who design Moon."
-      />
-      <div className="mt-12">
-        <Contributors />
-      </div>
+    <SubHeader
+      title="In the Spotlight."
+      description="The team who design Moon."
+    />
+    <div className="mt-12">
+      <Contributors />
+    </div>
 
-      <div className="mt-12">
-        <ContributorsDevelopers />
-      </div>
-    </>
-  );
-}
+    <div className="mt-12">
+      <ContributorsDevelopers />
+    </div>
+  </>
+);
+
+export default Home;

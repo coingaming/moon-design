@@ -8,8 +8,8 @@ import renderer from 'react-test-renderer';
 import Example from '../Example';
 import Checked from '../Checked';
 import Disabled from '../Disabled';
-import AriaLabel from '../AriaLabel';
-import AriaLabelList from '../AriaLabelList';
+import NoLabel from "../NoLabel";
+import ReverseDirection from "../RightOrientation";
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -21,8 +21,13 @@ describe('Checkbox', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Checked />));
+  it('renders No label', () => {
+    const testRenderer = renderer.create(renderWithTheme(<NoLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders Reverse direction', () => {
+    const testRenderer = renderer.create(renderWithTheme(<ReverseDirection />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
@@ -31,13 +36,8 @@ describe('Checkbox', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Aria Label', () => {
-    const testRenderer = renderer.create(renderWithTheme(<AriaLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Aria Label List', () => {
-    const testRenderer = renderer.create(renderWithTheme(<AriaLabelList />));
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Checked />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

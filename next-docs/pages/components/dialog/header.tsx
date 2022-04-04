@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import Table from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import Example1 from '../../../public/examples/dialog/header/Example1';
 import Example2 from '../../../public/examples/dialog/header/Example2';
 import Example3 from '../../../public/examples/dialog/header/Example3';
@@ -67,41 +67,39 @@ export default function PageDialogHeader() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Header component</h2>
-        <Table
-          data={[
-            {
-              name: 'backButton',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Back button icon or element',
-            },
-            {
-              name: 'closeButton',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Close icon or element',
-            },
-            {
-              name: 'icons',
-              type: 'JSX.Element[]',
-              required: false,
-              default: '-',
-              description: 'Array of icons',
-            },
-            {
-              name: 'isDivider',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Add border bottom and paddings for header',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Dialog Header component"
+        data={[
+          {
+            name: 'backButton',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Back button icon or element',
+          },
+          {
+            name: 'closeButton',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Close icon or element',
+          },
+          {
+            name: 'icons',
+            type: 'JSX.Element[]',
+            required: false,
+            default: '-',
+            description: 'Array of icons',
+          },
+          {
+            name: 'isDivider',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Add border bottom and paddings for header',
+          },
+        ]}
+      />
     </>
   );
 }

@@ -1,11 +1,11 @@
-// @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import AriaLabel from '../../public/examples/checkbox/AriaLabel';
-import AriaLabelList from '../../public/examples/checkbox/AriaLabelList';
+import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Disabled from '../../public/examples/checkbox/Disabled';
 import Example from '../../public/examples/checkbox/Example';
+import NoLabel from "../../public/examples/checkbox/NoLabel";
+import Readonly from '../../public/examples/checkbox/Readonly';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
@@ -35,6 +35,15 @@ export default function PageAccordion() {
         />
       </section>
 
+      {/* No label */}
+      <section className="mt-8">
+        <Preview
+          title="No label"
+          preview={<NoLabel />}
+          code={examples ? examples.Example : 'Loading'}
+        />
+      </section>
+
       {/* Disabled */}
       <section className="mt-8">
         <Preview
@@ -44,29 +53,48 @@ export default function PageAccordion() {
         />
       </section>
 
-      {/* Checked */}
+      {/* Readonly */}
       <section className="mt-8">
         <Preview
-          title="Checked"
-          preview={<Checked />}
-          code={examples ? examples.Checked : 'Loading'}
+          title="Readonly"
+          preview={<Readonly />}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
-      {/* Aria Label */}
-      <section className="mt-8">
-        <Preview
-          title="Aria label"
-          preview={<AriaLabel />}
-          code={examples ? examples.AriaLabel : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Aria label"
-          preview={<AriaLabelList />}
-          code={examples ? examples.AriaLabelList : 'Loading'}
+      <section className="mt-14">
+        <h2 className="text-2xl mb-4">Props for Checkbox component</h2>
+        <PropsTable
+          data={[
+            {
+              name: 'checked',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Preset value for checkbox state',
+            },
+            {
+              name: 'disabled',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Checkbox disabled state',
+            },
+            {
+              name: 'readOnly',
+              type: 'boolean',
+              required: false,
+              default: 'false',
+              description: 'Checkbox isn\'t disabled but its value can\'t be changed',
+            },
+            {
+              name: 'label',
+              type: 'string',
+              required: false,
+              default: '-',
+              description: 'Label that describes checkbox purpose',
+            },
+          ]}
         />
       </section>
     </>

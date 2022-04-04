@@ -11,15 +11,12 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps) {
+const Layout = ({ children }: LayoutProps) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
   const [isElixir, setIsElixir] = useState<boolean>(false); // React or Elixir view
-
   const toggleReactAndElixir = () => setIsElixir(!isElixir);
-
   const { isFeatureElixirEnabled } = useFeatureFlags();
-
   return (
     <div
       className={`support-colors bg-background flex rounded-tl-3xl rounded-tr-3xl`}
@@ -36,7 +33,7 @@ export default function Layout({ children }: LayoutProps) {
         </div>
       </div>
 
-      <div className="min-h-screen flex-1 lg:mx-32 lg:mt-8 w-0 flex flex-col lg:px-8 xl:px-0">
+      <div className="min-h-screen max-w-screen-2xl flex-1 mx-auto lg:mt-8 w-0 flex flex-col lg:px-16 xl:px-32">
         {/* Opens sidebar on mobile */}
         <div className="lg:hidden flex flex-row align-center">
           <button
@@ -90,4 +87,6 @@ export default function Layout({ children }: LayoutProps) {
       </div>
     </div>
   );
-}
+};
+
+export default Layout;

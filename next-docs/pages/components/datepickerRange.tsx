@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import RangeCalendar from '../../public/examples/datePickerRange/RangeCalendar';
 import RangeCalendarDisabled from '../../public/examples/datePickerRange/RangeCalendarDisabled';
 import RangeCalendarDisabled2 from '../../public/examples/datePickerRange/RangeCalendarDisabled2';
@@ -13,12 +13,10 @@ import RangeCalendarRtl from '../../public/examples/datePickerRange/RangeCalenda
 import RangeCalendarWithChip from '../../public/examples/datePickerRange/RangeCalendarWithChip';
 import RangeCalendarWithoutFooter from '../../public/examples/datePickerRange/RangeCalendarWithoutFooter';
 import RangeCalendarWithPeriod from '../../public/examples/datePickerRange/RangeCalendarWithPeriod';
-
 import useExamples from '../../utils/useExamples';
 
-export default function PageDatepicker() {
+const PageDatepicker = () => {
   const examples = useExamples('datePicker');
-
   return (
     <>
       <section className="mt-8">
@@ -150,285 +148,280 @@ export default function PageDatepicker() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for RangeCalendar component</h2>
-        <Table
-          data={[
-            {
-              name: 'startDate',
-              type: 'Date',
-              required: false,
-              default: '-',
-              description:
-                'Range start date (initialDate) to be displayed as selected',
-            },
-            {
-              name: 'endDate',
-              type: 'Date',
-              required: false,
-              default: '-',
-              description:
-                'Range end date (initialDate) to be displayed as selected',
-            },
-            {
-              name: 'onDateChange',
-              type: '({ startDate?: Date; endDate?: Date;}) => void;',
-              required: true,
-              default: '-',
-              description: 'Event handler when the user select a range.',
-            },
-            {
-              name: 'config',
-              type: 'Config',
-              required: false,
-              default: '-',
-              description: 'An object of range calendar configuration',
-            },
-            {
-              name: 'hasClickedOutside',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Used with useClickOutside() hook',
-            },
-            {
-              name: 'isOpenByDefault',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Set range calendar open by default',
-            },
-            {
-              name: 'setIsOpen',
-              type: '() => void;',
-              required: false,
-              default: '-',
-              description: 'Event handler for open/hide range calendar.',
-            },
-            {
-              name: 'translations',
-              type: 'RangeTranslations',
-              required: false,
-              default: '-',
-              description: 'Translations for all inner element',
-            },
-            {
-              name: 'isRtl',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Set right to left (rtl) view for range calendar',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for RangeCalendar componen"
+        data={[
+          {
+            name: 'startDate',
+            type: 'Date',
+            required: false,
+            default: '-',
+            description:
+              'Range start date (initialDate) to be displayed as selected',
+          },
+          {
+            name: 'endDate',
+            type: 'Date',
+            required: false,
+            default: '-',
+            description:
+              'Range end date (initialDate) to be displayed as selected',
+          },
+          {
+            name: 'onDateChange',
+            type: '({ startDate?: Date; endDate?: Date;}) => void;',
+            required: true,
+            default: '-',
+            description: 'Event handler when the user select a range.',
+          },
+          {
+            name: 'config',
+            type: 'Config',
+            required: false,
+            default: '-',
+            description: 'An object of range calendar configuration',
+          },
+          {
+            name: 'hasClickedOutside',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Used with useClickOutside() hook',
+          },
+          {
+            name: 'isOpenByDefault',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Set range calendar open by default',
+          },
+          {
+            name: 'setIsOpen',
+            type: '() => void;',
+            required: false,
+            default: '-',
+            description: 'Event handler for open/hide range calendar.',
+          },
+          {
+            name: 'translations',
+            type: 'RangeTranslations',
+            required: false,
+            default: '-',
+            description: 'Translations for all inner element',
+          },
+          {
+            name: 'isRtl',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Set right to left (rtl) view for range calendar',
+          },
+        ]}
+      />
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Config: calendar configuration</h2>
-        <Table
-          data={[
-            {
-              name: 'weekStartsOn',
-              type: '0 | 1 | 2 | 3 | 4 | 5 | 6',
-              required: false,
-              default: '1',
-              description: 'Overwrites the first day of the week.',
-            },
-            {
-              name: 'monthLabelFormat',
-              type: 'string',
-              required: false,
-              default: 'MMMM',
-              description:
-                'Sets formatted month label according to the pattern',
-            },
-            {
-              name: 'yearLabelFormat',
-              type: 'string',
-              required: false,
-              default: 'yyyy',
-              description: 'Sets formatted year label according to the pattern',
-            },
-            {
-              name: 'withHoursAndMinutes',
-              type: 'boolean',
-              required: false,
-              default: 'true',
-              description: 'Sets possibilities to enter time in the inputs',
-            },
-            {
-              name: 'ranges',
-              type: 'DatesRange[]',
-              required: false,
-              default: '',
-              description:
-                'Dates array for predefined states: lastMonth, lastWeek, thisWeek, nextMonth etc.',
-            },
-            {
-              name: 'withPeriodList',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Shows period list first',
-            },
-            {
-              name: 'withOneMonth',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Shows only one month',
-            },
-            {
-              name: 'hideInputs',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Hides inputs fields in range calendar',
-            },
-            {
-              name: 'withFooter',
-              type: 'boolean | { isApplyBtn?: boolean; isCancelBtn?: boolean; isClearBtn?: boolean;}',
-              required: false,
-              default: 'true',
-              description: 'Shows/Hides footer or sets config for buttons',
-            },
-            {
-              name: 'disabledDays',
-              type: 'Date | Date[] | DisabledDaysRange: { from?: Date; to?: Date; }',
-              required: false,
-              default: '-',
-              description: 'Day(s) that should appear as disabled',
-            },
-            {
-              name: 'yearsRange',
-              type: '{ min?: number; max?: number; }',
-              required: false,
-              default: '-',
-              description: 'Sets possible choosing years range',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Config: calendar configuration"
+        data={[
+          {
+            name: 'weekStartsOn',
+            type: '0 | 1 | 2 | 3 | 4 | 5 | 6',
+            required: false,
+            default: '1',
+            description: 'Overwrites the first day of the week.',
+          },
+          {
+            name: 'monthLabelFormat',
+            type: 'string',
+            required: false,
+            default: 'MMMM',
+            description: 'Sets formatted month label according to the pattern',
+          },
+          {
+            name: 'yearLabelFormat',
+            type: 'string',
+            required: false,
+            default: 'yyyy',
+            description: 'Sets formatted year label according to the pattern',
+          },
+          {
+            name: 'withHoursAndMinutes',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description: 'Sets possibilities to enter time in the inputs',
+          },
+          {
+            name: 'ranges',
+            type: 'DatesRange[]',
+            required: false,
+            default: '',
+            description:
+              'Dates array for predefined states: lastMonth, lastWeek, thisWeek, nextMonth etc.',
+          },
+          {
+            name: 'withPeriodList',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Shows period list first',
+          },
+          {
+            name: 'withOneMonth',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Shows only one month',
+          },
+          {
+            name: 'hideInputs',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Hides inputs fields in range calendar',
+          },
+          {
+            name: 'withFooter',
+            type: 'boolean | { isApplyBtn?: boolean; isCancelBtn?: boolean; isClearBtn?: boolean;}',
+            required: false,
+            default: 'true',
+            description: 'Shows/Hides footer or sets config for buttons',
+          },
+          {
+            name: 'disabledDays',
+            type: 'Date | Date[] | DisabledDaysRange: { from?: Date; to?: Date; }',
+            required: false,
+            default: '-',
+            description: 'Day(s) that should appear as disabled',
+          },
+          {
+            name: 'yearsRange',
+            type: '{ min?: number; max?: number; }',
+            required: false,
+            default: '-',
+            description: 'Sets possible choosing years range',
+          },
+        ]}
+      />
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">RangeTranslations</h2>
-        <Table
-          data={[
-            {
-              name: 'apply',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Apply',
-              description: 'apply button',
-            },
-            {
-              name: 'reset',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Reset',
-              description: 'reset button',
-            },
-            {
-              name: 'cancel',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Cancel',
-              description: 'Cancel button',
-            },
-            {
-              name: 'lastMonth',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Last month',
-              description: 'period list',
-            },
-            {
-              name: 'lastWeek',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Last week',
-              description: 'period list',
-            },
-            {
-              name: 'last24hours',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Last 24 hours',
-              description: 'period list',
-            },
-            {
-              name: 'yesterday',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Yesterday',
-              description: 'period list',
-            },
-            {
-              name: 'today',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Today',
-              description: 'period list',
-            },
-            {
-              name: 'tomorrow',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Tomorrow',
-              description: 'period list',
-            },
-            {
-              name: 'thisWeek',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'This week',
-              description: 'period list',
-            },
-            {
-              name: 'nextWeek',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Next week',
-              description: 'period list',
-            },
-            {
-              name: 'thisMonth',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'This month',
-              description: 'period list',
-            },
-            {
-              name: 'nextMonth',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Next month',
-              description: 'period list',
-            },
-            {
-              name: 'custom',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Custom',
-              description: 'period list',
-            },
-            {
-              name: 'labelStartDate',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'Start date & time',
-              description: '-',
-            },
-            {
-              name: 'labelEndDate',
-              type: 'string | JSX.Element',
-              required: false,
-              default: 'End date & time',
-              description: '-',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="RangeTranslations"
+        data={[
+          {
+            name: 'apply',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Apply',
+            description: 'apply button',
+          },
+          {
+            name: 'reset',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Reset',
+            description: 'reset button',
+          },
+          {
+            name: 'cancel',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Cancel',
+            description: 'Cancel button',
+          },
+          {
+            name: 'lastMonth',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Last month',
+            description: 'period list',
+          },
+          {
+            name: 'lastWeek',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Last week',
+            description: 'period list',
+          },
+          {
+            name: 'last24hours',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Last 24 hours',
+            description: 'period list',
+          },
+          {
+            name: 'yesterday',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Yesterday',
+            description: 'period list',
+          },
+          {
+            name: 'today',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Today',
+            description: 'period list',
+          },
+          {
+            name: 'tomorrow',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Tomorrow',
+            description: 'period list',
+          },
+          {
+            name: 'thisWeek',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'This week',
+            description: 'period list',
+          },
+          {
+            name: 'nextWeek',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Next week',
+            description: 'period list',
+          },
+          {
+            name: 'thisMonth',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'This month',
+            description: 'period list',
+          },
+          {
+            name: 'nextMonth',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Next month',
+            description: 'period list',
+          },
+          {
+            name: 'custom',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Custom',
+            description: 'period list',
+          },
+          {
+            name: 'labelStartDate',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'Start date & time',
+            description: '-',
+          },
+          {
+            name: 'labelEndDate',
+            type: 'string | JSX.Element',
+            required: false,
+            default: 'End date & time',
+            description: '-',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+
+export default PageDatepicker;

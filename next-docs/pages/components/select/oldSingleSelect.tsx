@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import Table from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/select/singleSelect/Default';
 import DefaultValue from '../../../public/examples/select/singleSelect/DefaultValue';
 import Disabled from '../../../public/examples/select/singleSelect/Disabled';
@@ -146,156 +146,152 @@ export default function PageSelectSingle() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for SingleSelect component</h2>
-        <Table
-          data={[
-            {
-              name: 'options',
-              type: 'Option[]',
-              required: true,
-              default: '-',
-              description: 'Option for the listbox',
-            },
-            {
-              name: 'variant',
-              type: 'primary | secondary',
-              required: true,
-              default: '-',
-              description: 'Different variant of single select',
-            },
-            {
-              name: 'disabled',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description:
-                'This Boolean attribute indicates that the user cannot interact with the control',
-            },
-            {
-              name: 'inputSize',
-              type: 'small | medium',
-              required: false,
-              default: 'small',
-              description: 'Size of input',
-            },
-            {
-              name: 'defaultValue',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'The default value of an uncontrolled listbox',
-            },
-            {
-              name: 'controlledValue',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'The default value of an controlled listbox',
-            },
-            {
-              name: 'onChange',
-              type: 'func',
-              required: false,
-              default: '-',
-              description:
-                'The callback that fires when the listbox value changes.',
-            },
-            {
-              name: 'search',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Slot for search element',
-            },
-            {
-              name: 'topContent',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Slot for content under search element',
-            },
-            {
-              name: 'titleOptions',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Slot for option`s title ',
-            },
-            {
-              name: 'placeholderValue',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: 'Placeholder element',
-            },
-            {
-              name: 'label',
-              type: 'JSX.Element | string',
-              required: false,
-              default: '-',
-              description: 'Single select title',
-            },
-            {
-              name: 'labelId',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'Id for title',
-            },
-            {
-              name: 'hintText',
-              type: 'JSX.Element | string',
-              required: false,
-              default: '-',
-              description: 'Informative message under select',
-            },
-            {
-              name: 'isError',
-              type: 'boolean',
-              required: false,
-              default: '-',
-              description: 'Set error state for select',
-            },
-            {
-              name: 'zIndexOptions',
-              type: 'number',
-              required: false,
-              default: '10',
-              description: 'Set custom z-index for options container',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for SingleSelect component"
+        data={[
+          {
+            name: 'options',
+            type: 'Option[]',
+            required: true,
+            default: '-',
+            description: 'Option for the listbox',
+          },
+          {
+            name: 'variant',
+            type: 'primary | secondary',
+            required: true,
+            default: '-',
+            description: 'Different variant of single select',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'This Boolean attribute indicates that the user cannot interact with the control',
+          },
+          {
+            name: 'inputSize',
+            type: 'small | medium',
+            required: false,
+            default: 'small',
+            description: 'Size of input',
+          },
+          {
+            name: 'defaultValue',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'The default value of an uncontrolled listbox',
+          },
+          {
+            name: 'controlledValue',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'The default value of an controlled listbox',
+          },
+          {
+            name: 'onChange',
+            type: 'func',
+            required: false,
+            default: '-',
+            description:
+              'The callback that fires when the listbox value changes.',
+          },
+          {
+            name: 'search',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Slot for search element',
+          },
+          {
+            name: 'topContent',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Slot for content under search element',
+          },
+          {
+            name: 'titleOptions',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Slot for option`s title ',
+          },
+          {
+            name: 'placeholderValue',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Placeholder element',
+          },
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Single select title',
+          },
+          {
+            name: 'labelId',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Id for title',
+          },
+          {
+            name: 'hintText',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Informative message under select',
+          },
+          {
+            name: 'isError',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Set error state for select',
+          },
+          {
+            name: 'zIndexOptions',
+            type: 'number',
+            required: false,
+            default: '10',
+            description: 'Set custom z-index for options container',
+          },
+        ]}
+      />
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Option</h2>
-        <Table
-          data={[
-            {
-              name: 'value',
-              type: 'string',
-              required: true,
-              default: '-',
-              description: `The option's value. This will be passed into a hidden input field for use in forms when the option is selected.`,
-            },
-            {
-              name: 'label',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: `The option's human-readable label. `,
-            },
-            {
-              name: 'element',
-              type: 'JSX.Element | string',
-              required: true,
-              default: '-',
-              description: 'Inner content for option',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Option"
+        data={[
+          {
+            name: 'value',
+            type: 'string',
+            required: true,
+            default: '-',
+            description: `The option's value. This will be passed into a hidden input field for use in forms when the option is selected.`,
+          },
+          {
+            name: 'label',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: `The option's human-readable label. `,
+          },
+          {
+            name: 'element',
+            type: 'JSX.Element | string',
+            required: true,
+            default: '-',
+            description: 'Inner content for option',
+          },
+        ]}
+      />
     </>
   );
 }
