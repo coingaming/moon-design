@@ -1,7 +1,6 @@
-// @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from "../../components/Table";
+import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Disabled from '../../public/examples/checkbox/Disabled';
 import Example from '../../public/examples/checkbox/Example';
@@ -65,7 +64,7 @@ export default function PageAccordion() {
 
       <section className="mt-14">
         <h2 className="text-2xl mb-4">Props for Checkbox component</h2>
-        <Table
+        <PropsTable
           data={[
             {
               name: 'checked',
