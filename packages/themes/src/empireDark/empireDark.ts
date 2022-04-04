@@ -77,6 +77,13 @@ const empireDark: Theme = {
     default: 8,
     largest: 8,
   },
+  newTokens: {
+    ...sharedTokens.newTokens,
+    borderRadius: {
+      ...sharedTokens.newTokens.borderRadius,
+      interactive: sharedTokens.newTokens.borderRadius.medium,
+    },
+  },
   ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };

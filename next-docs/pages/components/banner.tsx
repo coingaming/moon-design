@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import Table from '../../components/Table';
+import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/banner/Buttons';
 import Default from '../../public/examples/banner/Default';
 import HeaderIcon from '../../public/examples/banner/HeaderIcon';
@@ -8,9 +8,8 @@ import Mobile from '../../public/examples/banner/Mobile';
 import Singleline from '../../public/examples/banner/Singleline';
 import useExamples from '../../utils/useExamples';
 
-export default function PageBanner() {
+const PageBanner = () => {
   const examples = useExamples('banner');
-
   return (
     <>
       <section className="mt-8">
@@ -71,49 +70,48 @@ export default function PageBanner() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props</h2>
-        <Table
-          data={[
-            {
-              name: 'description',
-              type: 'string',
-              required: true,
-              default: '-',
-              description: 'Main text content of the banner',
-            },
-            {
-              name: 'title',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: 'Text to appear on the header for multiline mode',
-            },
-            {
-              name: 'iconHeader',
-              type: 'React.ReactElement',
-              required: false,
-              default: '-',
-              description:
-                'Icon to appear at  the top end of the header for multiline',
-            },
-            {
-              name: 'isMultiline',
-              type: 'boolean',
-              required: false,
-              default: 'true',
-              description: 'Controls whether the banner is in multiline mode',
-            },
-            {
-              name: 'isMobile',
-              type: 'boolean',
-              required: false,
-              default: 'false',
-              description: 'Controls whether the banner is in mobile mode',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'description',
+            type: 'string',
+            required: true,
+            default: '-',
+            description: 'Main text content of the banner',
+          },
+          {
+            name: 'title',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Text to appear on the header for multiline mode',
+          },
+          {
+            name: 'iconHeader',
+            type: 'React.ReactElement',
+            required: false,
+            default: '-',
+            description:
+              'Icon to appear at  the top end of the header for multiline',
+          },
+          {
+            name: 'isMultiline',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description: 'Controls whether the banner is in multiline mode',
+          },
+          {
+            name: 'isMobile',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Controls whether the banner is in mobile mode',
+          },
+        ]}
+      />
     </>
   );
-}
+};
+export default PageBanner;

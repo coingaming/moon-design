@@ -1,7 +1,9 @@
-import React, { Fragment } from 'react';
+import React, {Fragment, useState} from 'react';
+import { Checkbox } from '@heathmont/moon-core';
 import { ColorNames } from '@heathmont/moon-themes';
 import { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../components/BodyTR';
+import CheckboxTD from '../components/CheckboxTD';
 import TD from '../components/TD';
 import { RowSubComponentProps } from '../Table';
 
@@ -13,7 +15,11 @@ type RenderRowsProps<D extends object = {}> = {
   getOnRowClickHandler: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
+  getOnRowSelectHandler?: (
+    row: Row<D>
+  ) => ((row: Row<D>) => void | (() => void)) | undefined;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
+  selectable: boolean;
 };
 
 const renderRows = ({
@@ -22,14 +28,26 @@ const renderRows = ({
   evenRowBackgroundColor,
   defaultRowBackgroundColor,
   getOnRowClickHandler,
+  getOnRowSelectHandler,
   renderRowSubComponent,
+  selectable
 }: RenderRowsProps) => {
   if (!rows) return;
-  return rows.map((row: Row<{}>, index: number) => {
+  return rows.map((
+    row: Row<{
+      isSelected?: boolean,
+      backgroundColor?: ColorNames,
+      fontColor?: ColorNames,
+    }>,
+    index: number
+  ) => {
     prepareRow(row);
     const rowProps = row.getRowProps();
     const onRowClickHandler = getOnRowClickHandler
       ? getOnRowClickHandler(row)
+      : () => undefined;
+    const onRowSelectHandler = getOnRowSelectHandler
+      ? getOnRowSelectHandler(row)
       : () => undefined;
     const rowId = row.id ? row.id.split('.') : [];
     const nextRow = rows[index + 1];
@@ -38,11 +56,13 @@ const renderRows = ({
       nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
 
     const mainRowIndex = Number(rowId[0]);
-    const backgroundColor =
-      mainRowIndex % 2 ? evenRowBackgroundColor : defaultRowBackgroundColor;
-
+    const backgroundColor = row.original?.backgroundColor
+      ? row.original?.backgroundColor : mainRowIndex % 2
+        ? evenRowBackgroundColor : defaultRowBackgroundColor;
+    const fontColor = row.original?.fontColor;
     const isLastNestedRow = rowId.length > nextRowId.length;
     const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
+    const [isSelected, setSelected] = useState(row.original?.isSelected);
 
     const expandedRow = row as unknown as UseExpandedRowProps<{}>;
 
@@ -56,10 +76,27 @@ const renderRows = ({
           hasParent={!!expandedRow.depth}
           isLastNestedRow={isLastNestedRow}
           isLastRow={isLastRow}
+          isSelected={isSelected}
+          customBackground={!!row.original?.backgroundColor}
           backgroundColor={backgroundColor}
+          fontColor={fontColor}
           onClick={onRowClickHandler ? () => onRowClickHandler(row) : undefined}
         >
-          {row.cells.map((cell: Cell<{}, any>) => (
+          {selectable && (<TD selectable={true}>
+            <CheckboxTD>
+              <Checkbox
+                checked={isSelected}
+                onClick={(e: Event) => e.stopPropagation()}
+                onChange={() => {
+                  setSelected(!isSelected)
+
+                  if (onRowSelectHandler) onRowSelectHandler(row);
+                }}
+              />
+            </CheckboxTD>
+          </TD>)}
+
+          {row.cells.map((cell: Cell<{}>) => (
             <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
           ))}
         </BodyTR>

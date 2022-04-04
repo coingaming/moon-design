@@ -33,7 +33,9 @@ const AnimationContent: React.FC<ButtonProps> = ({
 }) => (
   <Container>
     <Absolute>
-      {animation === 'progress' && <Loader color="currentColor" />}
+      {animation === 'progress' && (
+        <Loader color="currentColor" size="xsmall" />
+      )}
       {animation === 'success' && <GenericCheckAlternative />}
     </Absolute>
     <HiddenContent>

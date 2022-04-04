@@ -1,7 +1,7 @@
 import React from 'react';
 import '@reach/dialog/styles.css';
 import Preview from '../../../components/codePreview/Preview';
-import Table from '../../../components/Table';
+import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/dialog/dialog/Default';
 import DialogHeader from '../../../public/examples/dialog/dialog/DialogHeader';
 import DialogHeader2 from '../../../public/examples/dialog/dialog/DialogHeader2';
@@ -105,55 +105,53 @@ export default function PageDialog() {
         />
       </section>
 
-      <section className="mt-14">
-        <h2 className="text-2xl mb-4">Props for Dialog Footer component</h2>
-        <Table
-          data={[
-            {
-              name: 'disableScrollLock',
-              type: 'boolean',
-              required: false,
-              default: '-',
-              description: '',
-            },
-            {
-              name: 'heading',
-              type: 'JSX.Element',
-              required: false,
-              default: '-',
-              description: ' ',
-            },
-            {
-              name: 'hideCloseButton',
-              type: 'boolean',
-              required: false,
-              default: '-',
-              description: ' ',
-            },
-            {
-              name: 'variant',
-              type: 'default | new',
-              required: false,
-              default: 'false',
-              description: ' ',
-            },
-            {
-              name: 'position',
-              type: 'TOP | CENTER',
-              required: false,
-              default: '-',
-              description: ' ',
-            },
-            {
-              name: 'maxWidth',
-              type: 'string',
-              required: false,
-              default: '-',
-              description: ' ',
-            },
-          ]}
-        />
-      </section>
+      <PropsTable
+        title="Props for Dialog Footer component"
+        data={[
+          {
+            name: 'disableScrollLock',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: '',
+          },
+          {
+            name: 'heading',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: ' ',
+          },
+          {
+            name: 'hideCloseButton',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: ' ',
+          },
+          {
+            name: 'variant',
+            type: 'default | new',
+            required: false,
+            default: 'false',
+            description: ' ',
+          },
+          {
+            name: 'position',
+            type: 'TOP | CENTER',
+            required: false,
+            default: '-',
+            description: ' ',
+          },
+          {
+            name: 'maxWidth',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: ' ',
+          },
+        ]}
+      />
     </>
   );
 }

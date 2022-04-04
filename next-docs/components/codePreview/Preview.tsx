@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Heading } from '@heathmont/moon-core';
 import classNames from '../../utils/classNames';
 import PreviewSwitch from './Switch';
 
@@ -6,13 +7,11 @@ interface CodeProps {
   code: string;
 }
 
-const Code: React.FC<CodeProps> = ({ code }: CodeProps) => {
-  return (
-    <pre>
-      <code>{code}</code>
-    </pre>
-  );
-};
+const Code: React.FC<CodeProps> = ({ code }: CodeProps) => (
+  <pre>
+    <code>{code}</code>
+  </pre>
+);
 
 interface PreviewProps {
   title?: string;
@@ -21,20 +20,16 @@ interface PreviewProps {
   isGrayBg?: boolean;
 }
 
-export default function Preview({
-  title,
-  preview,
-  code,
-  isGrayBg,
-}: PreviewProps) {
+const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
-
   return (
     <>
       <div className="flex flex-row items-center justify-between">
-        <h2 className="text-2xl">{title}</h2>
+        <Heading as="h2" size={24}>
+          {title}
+        </Heading>
         <PreviewSwitch
           isPreviewActive={isPreviewActive}
           setPreviewActive={setPreviewActive}
@@ -54,4 +49,6 @@ export default function Preview({
       </div>
     </>
   );
-}
+};
+
+export default Preview;
