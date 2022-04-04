@@ -1,17 +1,19 @@
 import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import { Size } from './private/Size';
-import InnerCircle from './styles/InnerCircle';
-import OuterCircle from './styles/OuterCircle';
+import LoaderWrapper from './styles/LoaderWrapper';
 
-export interface LoaderProps {
+export type LoaderProps = {
   color?: ColorProps;
   size?: Size;
-}
+};
 
 const Loader: React.FC<LoaderProps> = ({ color, size = 'medium' }) => (
-  <OuterCircle size={size}>
-    <InnerCircle color={color} size={size}></InnerCircle>
-  </OuterCircle>
+  <LoaderWrapper color={color} size={size}>
+    <div />
+    <div />
+    <div />
+    <div />
+  </LoaderWrapper>
 );
 export default Loader;

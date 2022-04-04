@@ -5,14 +5,13 @@ exports[`Loader renders 1`] = `
   className="Inline-sc-1rz1cju-0 kwswbg"
 >
   <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 jTmiqa"
     size="medium"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="medium"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
 </div>
 `;
@@ -22,47 +21,43 @@ exports[`Loader renders with different colours 1`] = `
   className="Inline-sc-1rz1cju-0 kwswbg"
 >
   <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 jTmiqa"
     size="medium"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="medium"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 bLQdgy"
+    color="dodoria.100"
     size="medium"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 dYdmeq"
-      color="dodoria.100"
-      size="medium"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 djeXiq"
+    color="trunks.100"
     size="medium"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 hlCocy"
-      color="trunks.100"
-      size="medium"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 dyTOwi"
+    color="raditz.100"
     size="medium"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 JRqEi"
-      color="#663399"
-      size="medium"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
 </div>
 `;
@@ -72,54 +67,49 @@ exports[`Loader renders with sizes 1`] = `
   className="Inline-sc-1rz1cju-0 kwswbg"
 >
   <div
-    className="OuterCircle-sc-1059clw-0 cBDWNI"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 dDkDuX"
     size="twoxsmall"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 irgwxx"
-      size="twoxsmall"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 kwvAxI"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 grewvn"
     size="xsmall"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="xsmall"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 fDOafQ"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 ezpduX"
     size="small"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 giWcon"
-      size="small"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 foKFxY"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 jTmiqa"
     size="medium"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 eVStzC"
-      size="medium"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
   <div
-    className="OuterCircle-sc-1059clw-0 hwfNCU"
-    role="progressbar"
+    className="LoaderWrapper-sc-1viw7t5-0 jrAKxu"
     size="large"
   >
-    <span
-      className="InnerCircle-sc-6khuip-0 khzBMP"
-      size="large"
-    />
+    <div />
+    <div />
+    <div />
+    <div />
   </div>
 </div>
 `;

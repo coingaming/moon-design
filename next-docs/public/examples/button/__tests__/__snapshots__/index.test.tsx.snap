@@ -52,15 +52,14 @@ exports[`Button renders different animations 1`] = `
         className="AnimationContent__Absolute-sc-1c5x251-1 rjYSm"
       >
         <div
-          className="OuterCircle-sc-1059clw-0 foKFxY"
-          role="progressbar"
-          size="medium"
+          className="LoaderWrapper-sc-1viw7t5-0 hdFCEz"
+          color="currentColor"
+          size="xsmall"
         >
-          <span
-            className="InnerCircle-sc-6khuip-0 jdhRyq"
-            color="currentColor"
-            size="medium"
-          />
+          <div />
+          <div />
+          <div />
+          <div />
         </div>
       </div>
       <div
