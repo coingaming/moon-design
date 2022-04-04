@@ -1,5 +1,15 @@
 # Change Log
 
+## 8.3.3
+
+### Patch Changes
+
+- Carousel isMounted fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.3
+  - @heathmont/moon-themes@8.3.3
+  - @heathmont/moon-utils@8.3.3
+
 ## 8.3.2
 
 ### Patch Changes

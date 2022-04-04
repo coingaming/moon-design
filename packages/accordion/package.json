@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-accordion",
   "sideEffects": false,
-  "version": "8.3.2",
+  "version": "8.3.3",
   "files": [
     "lib"
   ],
@@ -21,10 +21,10 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-components": "workspace:^8.3.2",
-    "@heathmont/moon-icons": "workspace:^8.3.2",
-    "@heathmont/moon-themes": "workspace:^8.3.2",
-    "@heathmont/moon-utils": "workspace:^8.3.2"
+    "@heathmont/moon-components": "workspace:^8.3.3",
+    "@heathmont/moon-icons": "workspace:^8.3.3",
+    "@heathmont/moon-themes": "workspace:^8.3.3",
+    "@heathmont/moon-utils": "workspace:^8.3.3"
   },
   "peerDependencies": {
     "react": ">= 17.0.2",

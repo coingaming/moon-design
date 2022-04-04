@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.3.3
+
+### Patch Changes
+
+- Carousel isMounted fix
+
 ## 8.3.2
 
 ### Patch Changes
