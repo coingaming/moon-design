@@ -172,37 +172,28 @@ const Carousel: React.FC<CarouselProps> = ({
     lastVisibleIndex,
   } = withHorizontalScroll({ scrollStep: step || 5 });
 
-  const [isMounted, setIsMounted] = React.useState(false);
-
   React.useEffect(() => {
-    setIsMounted(true);
     if (!selectedIndex) {
       return;
     }
-    if (isMounted) {
-      scrollToIndex(selectedIndex);
-    }
-    return () => setIsMounted(false);
+    scrollToIndex(selectedIndex);
   }, []);
 
   React.useEffect(() => {
     if (!scrollTo) {
       return;
     }
-    if (isMounted) {
-      // We scroll for another extra item because we defined our THRESHOLD = 0.75;
-      // It means that item will be visible for 75%.
-      // We scroll one more to guarantee 100% visibility.
-      // "items.length - 1" because indices start from 0.
-      if (scrollTo && scrollTo < items.length - 1) {
-        scrollToIndex(scrollTo + 1);
-      }
-      // No point for scroll another extra item because that's the last one
-      if (scrollTo && scrollTo === items.length - 1) {
-        scrollToIndex(scrollTo);
-      }
+    // We scroll for another extra item because we defined our THRESHOLD = 0.75;
+    // It means that item will be visible for 75%.
+    // We scroll one more to guarantee 100% visibility.
+    // "items.length - 1" because indices start from 0.
+    if (scrollTo && scrollTo < items.length - 1) {
+      scrollToIndex(scrollTo + 1);
     }
-    return () => setIsMounted(false);
+    // No point for scroll another extra item because that's the last one
+    if (scrollTo && scrollTo === items.length - 1) {
+      scrollToIndex(scrollTo);
+    }
   }, []);
 
   return (
