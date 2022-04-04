@@ -7,7 +7,7 @@ const Example = () => (
     <Loader />
     <Loader color="dodoria.100" />
     <Loader color="trunks.100" />
-    <Loader color="#663399" />
+    <Loader color="raditz.100" />
   </Inline>
 );
 
