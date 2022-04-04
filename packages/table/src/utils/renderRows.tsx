@@ -96,7 +96,7 @@ const renderRows = ({
             </CheckboxTD>
           </TD>)}
 
-          {row.cells.map((cell: Cell<{}, any>) => (
+          {row.cells.map((cell: Cell<{}>) => (
             <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
           ))}
         </BodyTR>
