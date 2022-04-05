@@ -2,26 +2,26 @@
 
 exports[`Checkbox renders 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 glYria"
+  className="CheckboxLabel-wyw1pu-0 hREYzc"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 cvIerI"
+    className="CheckboxInput-sc-12uz9za-0 hOiNeZ"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 ksQrsJ"
   >
     <span
-      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 cJgwvQ"
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 fnXclS"
     >
       <div
         checked={false}
-        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 errOto"
       />
     </span>
     <p
-      className="Text-oby56-0 kYNaRa"
+      className="Text-oby56-0 kjdwks"
       color="bulma.100"
       size={14}
     >
@@ -33,28 +33,28 @@ exports[`Checkbox renders 1`] = `
 
 exports[`Checkbox renders Checked 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 glYria"
+  className="CheckboxLabel-wyw1pu-0 hREYzc"
 >
   <input
     checked={true}
-    className="CheckboxInput-sc-12uz9za-0 cvIerI"
+    className="CheckboxInput-sc-12uz9za-0 hOiNeZ"
     onClick={[Function]}
     readOnly={true}
     type="checkbox"
   />
   <div
-    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 ksQrsJ"
   >
     <span
-      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 cJgwvQ"
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 fnXclS"
     >
       <div
         checked={true}
-        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 esFemD"
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 lhjXdF"
       />
     </span>
     <p
-      className="Text-oby56-0 kYNaRa"
+      className="Text-oby56-0 kjdwks"
       color="bulma.100"
       size={14}
     >
@@ -66,27 +66,27 @@ exports[`Checkbox renders Checked 1`] = `
 
 exports[`Checkbox renders Disabled 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 glYria"
+  className="CheckboxLabel-wyw1pu-0 hREYzc"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 cvIerI"
+    className="CheckboxInput-sc-12uz9za-0 hOiNeZ"
     disabled={true}
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 ksQrsJ"
   >
     <span
-      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 cJgwvQ"
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 fnXclS"
     >
       <div
         checked={false}
-        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 errOto"
       />
     </span>
     <p
-      className="Text-oby56-0 kYNaRa"
+      className="Text-oby56-0 kjdwks"
       color="bulma.100"
       size={14}
     >
@@ -98,22 +98,22 @@ exports[`Checkbox renders Disabled 1`] = `
 
 exports[`Checkbox renders No label 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 glYria"
+  className="CheckboxLabel-wyw1pu-0 hREYzc"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 cvIerI"
+    className="CheckboxInput-sc-12uz9za-0 hOiNeZ"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 ksQrsJ"
   >
     <span
-      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 cJgwvQ"
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 fnXclS"
     >
       <div
         checked={false}
-        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 errOto"
       />
     </span>
   </div>
@@ -122,29 +122,29 @@ exports[`Checkbox renders No label 1`] = `
 
 exports[`Checkbox renders Reverse direction 1`] = `
 <label
-  className="CheckboxLabel-wyw1pu-0 glYria"
+  className="CheckboxLabel-wyw1pu-0 hREYzc"
 >
   <input
-    className="CheckboxInput-sc-12uz9za-0 cvIerI"
+    className="CheckboxInput-sc-12uz9za-0 hOiNeZ"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
+    className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 ksQrsJ"
   >
     <p
-      className="Text-oby56-0 kYNaRa"
+      className="Text-oby56-0 kjdwks"
       color="bulma.100"
       size={14}
     >
       I agree to receive bonus & marketing emails.
     </p>
     <span
-      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 cJgwvQ"
+      className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 fnXclS"
     >
       <div
         checked={false}
-        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 hFEvHO"
+        className="CheckboxIconWrapper__Animation-sc-1rg3c8n-2 errOto"
       />
     </span>
   </div>

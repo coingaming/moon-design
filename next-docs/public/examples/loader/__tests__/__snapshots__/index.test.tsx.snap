@@ -2,10 +2,10 @@
 
 exports[`Loader renders 1`] = `
 <div
-  className="Inline-sc-1rz1cju-0 kwswbg"
+  className="Inline-sc-1rz1cju-0 csCGum"
 >
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 jTmiqa"
+    className="LoaderWrapper-sc-1viw7t5-0 RywfI"
     size="medium"
   >
     <div />
@@ -18,10 +18,10 @@ exports[`Loader renders 1`] = `
 
 exports[`Loader renders with different colours 1`] = `
 <div
-  className="Inline-sc-1rz1cju-0 kwswbg"
+  className="Inline-sc-1rz1cju-0 csCGum"
 >
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 jTmiqa"
+    className="LoaderWrapper-sc-1viw7t5-0 RywfI"
     size="medium"
   >
     <div />
@@ -30,7 +30,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 bLQdgy"
+    className="LoaderWrapper-sc-1viw7t5-0 kcMJfs"
     color="dodoria.100"
     size="medium"
   >
@@ -40,7 +40,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 djeXiq"
+    className="LoaderWrapper-sc-1viw7t5-0 dkqxIU"
     color="trunks.100"
     size="medium"
   >
@@ -50,7 +50,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 dyTOwi"
+    className="LoaderWrapper-sc-1viw7t5-0 cDNdGw"
     color="raditz.100"
     size="medium"
   >
@@ -64,10 +64,10 @@ exports[`Loader renders with different colours 1`] = `
 
 exports[`Loader renders with sizes 1`] = `
 <div
-  className="Inline-sc-1rz1cju-0 kwswbg"
+  className="Inline-sc-1rz1cju-0 csCGum"
 >
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 dDkDuX"
+    className="LoaderWrapper-sc-1viw7t5-0 rQEQV"
     size="twoxsmall"
   >
     <div />
@@ -76,7 +76,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 grewvn"
+    className="LoaderWrapper-sc-1viw7t5-0 gmbbZl"
     size="xsmall"
   >
     <div />
@@ -85,7 +85,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 ezpduX"
+    className="LoaderWrapper-sc-1viw7t5-0 iHsMgF"
     size="small"
   >
     <div />
@@ -94,7 +94,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 jTmiqa"
+    className="LoaderWrapper-sc-1viw7t5-0 RywfI"
     size="medium"
   >
     <div />
@@ -103,7 +103,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="LoaderWrapper-sc-1viw7t5-0 jrAKxu"
+    className="LoaderWrapper-sc-1viw7t5-0 VvzAU"
     size="large"
   >
     <div />

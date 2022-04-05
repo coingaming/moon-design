@@ -2,15 +2,15 @@
 
 exports[`Sidebar renders 1`] = `
 <div
-  className="OuterContainer-yp6psh-0 bsZHaL"
+  className="OuterContainer-yp6psh-0 tSAyZ"
   dir="ltr"
 >
   <div
-    className="CollapseTarget-sc-1og1j42-0 fKHyus"
+    className="CollapseTarget-sc-1og1j42-0 fOJOFy"
     onClick={[Function]}
   >
     <svg
-      className="sc-dwsnSq"
+      className="sc-dvwKko"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -26,7 +26,7 @@ exports[`Sidebar renders 1`] = `
     </svg>
   </div>
   <aside
-    className="Container-o6q7yi-0 iXoiRM"
+    className="Container-o6q7yi-0 dZvDfq"
   >
     <ol>
       <li>
@@ -48,15 +48,15 @@ exports[`Sidebar renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="OuterContainer-yp6psh-0 dZuEub"
+    className="OuterContainer-yp6psh-0 hhPMAp"
     dir="rtl"
   >
     <div
-      className="CollapseTarget-sc-1og1j42-0 efLttD"
+      className="CollapseTarget-sc-1og1j42-0 wKlKV"
       onClick={[Function]}
     >
       <svg
-        className="sc-dwsnSq"
+        className="sc-dvwKko"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -72,11 +72,11 @@ exports[`Sidebar renders RTL 1`] = `
       </svg>
     </div>
     <div
-      className="Inline-sc-1rz1cju-0 ccYjdC"
+      className="Inline-sc-1rz1cju-0 dUjkIg"
       fontSize="2rem"
     >
       <svg
-        className="sc-cZMNgc"
+        className="sc-cZwWEu"
         fill="none"
         height="1em"
         viewBox="0 0 20 20"
@@ -111,15 +111,15 @@ exports[`Sidebar renders RTL 1`] = `
 
 exports[`Sidebar renders initially closed 1`] = `
 <div
-  className="OuterContainer-yp6psh-0 dZuEub"
+  className="OuterContainer-yp6psh-0 hhPMAp"
   dir="ltr"
 >
   <div
-    className="CollapseTarget-sc-1og1j42-0 efLttD"
+    className="CollapseTarget-sc-1og1j42-0 wKlKV"
     onClick={[Function]}
   >
     <svg
-      className="sc-eldieg"
+      className="sc-elYLMi"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -135,11 +135,11 @@ exports[`Sidebar renders initially closed 1`] = `
     </svg>
   </div>
   <div
-    className="Inline-sc-1rz1cju-0 ccYjdC"
+    className="Inline-sc-1rz1cju-0 dUjkIg"
     fontSize="2rem"
   >
     <svg
-      className="sc-cZMNgc"
+      className="sc-cZwWEu"
       fill="none"
       height="1em"
       viewBox="0 0 20 20"

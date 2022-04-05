@@ -2,7 +2,7 @@
 
 exports[`Geo Map Chart renders 1`] = `
 <div
-  className="Panel__Container-wbwz0d-1 iDwAaa"
+  className="Panel__Container-wbwz0d-1 eWyaig"
   style={
     Object {
       "height": 446,
@@ -10,14 +10,14 @@ exports[`Geo Map Chart renders 1`] = `
   }
 >
   <div
-    className="Panel__Header-wbwz0d-2 ecXBgF"
+    className="Panel__Header-wbwz0d-2 exDUqH"
   >
     <button
-      className="Panel__Button-wbwz0d-0 gZeqaJ"
+      className="Panel__Button-wbwz0d-0 biSmpz"
       onClick={[Function]}
     >
       <svg
-        className="sc-iidyiZ Panel__IconRefreshStyled-wbwz0d-3  hhYeDY"
+        className="sc-ihNHHr Panel__IconRefreshStyled-wbwz0d-3  jHSuOW"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -34,11 +34,11 @@ exports[`Geo Map Chart renders 1`] = `
     </button>
     <div />
     <button
-      className="Panel__Button-wbwz0d-0 fXUeMH"
+      className="Panel__Button-wbwz0d-0 eJDpRZ"
       onClick={[Function]}
     >
       <svg
-        className="sc-hkgtus"
+        className="sc-hjQCSK"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -60,11 +60,11 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </button>
     <button
-      className="Panel__Button-wbwz0d-0 fXUeMH"
+      className="Panel__Button-wbwz0d-0 eJDpRZ"
       onClick={[Function]}
     >
       <svg
-        className="sc-ewSTlh"
+        className="sc-ewDcJz"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -79,10 +79,10 @@ exports[`Geo Map Chart renders 1`] = `
     </button>
   </div>
   <div
-    className="Header__Container-sc-1xmu29o-3 chMtHV"
+    className="Header__Container-sc-1xmu29o-3 htphLH"
   >
     <div
-      className="Header__IconWrapper-sc-1xmu29o-1 dfUUnp"
+      className="Header__IconWrapper-sc-1xmu29o-1 fDQpfH"
     >
       <svg
         fill="none"
@@ -153,7 +153,7 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 gLbwQy cYIrQG"
+      className="Text-sc-3hujzp-0 Header__Title-sc-1xmu29o-0 iiNWBk hSsmDA"
       color="bulma.100"
       size={20}
     >
@@ -163,21 +163,21 @@ exports[`Geo Map Chart renders 1`] = `
       className="Header__FilterWrapper-sc-1xmu29o-2"
     >
       <div
-        className="Filter__Container-eamt9m-2 hGLKAV"
+        className="Filter__Container-eamt9m-2 cxxOeH"
       >
         <button
-          className="Filter__Toggle-eamt9m-1 bXvbun"
+          className="Filter__Toggle-eamt9m-1 frAAgt"
           onClick={[Function]}
         >
           <p
-            className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 ipeuYX bqPzWD"
+            className="Text-sc-3hujzp-0 Filter__Title-eamt9m-0 glqhqV frWRV"
             color="bulma.100"
             size={14}
           >
             by GGR
           </p>
           <svg
-            className="sc-eWfVMQ"
+            className="sc-eVQfli"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -196,43 +196,43 @@ exports[`Geo Map Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="GeoMapChart__Container-sc-179x5z8-0 jaXSoP"
+    className="GeoMapChart__Container-sc-179x5z8-0 OUlbJ"
   >
     <div
-      className="GeoMapChart__BarChartContainer-sc-179x5z8-1 iPOVWx"
+      className="GeoMapChart__BarChartContainer-sc-179x5z8-1 ijNYgP"
     >
       <div
-        className="VerticalBar__Container-sc-1o6bhqj-0 bpmHvK"
+        className="VerticalBar__Container-sc-1o6bhqj-0 fayHUw"
       >
         <div
-          className="Table-sc-1ygp5ew-1 irysAP"
+          className="Table-sc-1ygp5ew-1 jfWHXt"
         >
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <span
-              className="Table__Count-sc-1ygp5ew-3 dQrMRG"
+              className="Table__Count-sc-1ygp5ew-3 jNjQRE"
             >
               1
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__TableItem-sc-1ygp5ew-2 ekffAO"
+              className="Table__TableItem-sc-1ygp5ew-2 gLbvjI"
             >
               Estonia
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 lcZepF"
+            className="Table__Cell-sc-1ygp5ew-0 fZIqvP"
           >
             <div
-              className="VerticalBar__Bar-sc-1o6bhqj-1 hyNzDI"
+              className="VerticalBar__Bar-sc-1o6bhqj-1 kzUgIi"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 iVRZSz"
+                className="VerticalBar__Line-sc-1o6bhqj-2 eYQesx"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -244,40 +244,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__Value-sc-1ygp5ew-4 ekmrAM"
+              className="Table__Value-sc-1ygp5ew-4 kPVkNS"
             >
               120
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <span
-              className="Table__Count-sc-1ygp5ew-3 dQrMRG"
+              className="Table__Count-sc-1ygp5ew-3 jNjQRE"
             >
               2
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__TableItem-sc-1ygp5ew-2 ekffAO"
+              className="Table__TableItem-sc-1ygp5ew-2 gLbvjI"
             >
               Russia
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 lcZepF"
+            className="Table__Cell-sc-1ygp5ew-0 fZIqvP"
           >
             <div
-              className="VerticalBar__Bar-sc-1o6bhqj-1 hyNzDI"
+              className="VerticalBar__Bar-sc-1o6bhqj-1 kzUgIi"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 iVRZSz"
+                className="VerticalBar__Line-sc-1o6bhqj-2 eYQesx"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -289,40 +289,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__Value-sc-1ygp5ew-4 ekmrAM"
+              className="Table__Value-sc-1ygp5ew-4 kPVkNS"
             >
               100
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <span
-              className="Table__Count-sc-1ygp5ew-3 dQrMRG"
+              className="Table__Count-sc-1ygp5ew-3 jNjQRE"
             >
               3
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__TableItem-sc-1ygp5ew-2 ekffAO"
+              className="Table__TableItem-sc-1ygp5ew-2 gLbvjI"
             >
               Belarus
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 lcZepF"
+            className="Table__Cell-sc-1ygp5ew-0 fZIqvP"
           >
             <div
-              className="VerticalBar__Bar-sc-1o6bhqj-1 hyNzDI"
+              className="VerticalBar__Bar-sc-1o6bhqj-1 kzUgIi"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 iVRZSz"
+                className="VerticalBar__Line-sc-1o6bhqj-2 eYQesx"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -334,40 +334,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__Value-sc-1ygp5ew-4 ekmrAM"
+              className="Table__Value-sc-1ygp5ew-4 kPVkNS"
             >
               80
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <span
-              className="Table__Count-sc-1ygp5ew-3 dQrMRG"
+              className="Table__Count-sc-1ygp5ew-3 jNjQRE"
             >
               4
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__TableItem-sc-1ygp5ew-2 ekffAO"
+              className="Table__TableItem-sc-1ygp5ew-2 gLbvjI"
             >
               Argentina
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 lcZepF"
+            className="Table__Cell-sc-1ygp5ew-0 fZIqvP"
           >
             <div
-              className="VerticalBar__Bar-sc-1o6bhqj-1 hyNzDI"
+              className="VerticalBar__Bar-sc-1o6bhqj-1 kzUgIi"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 iVRZSz"
+                className="VerticalBar__Line-sc-1o6bhqj-2 eYQesx"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -379,40 +379,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__Value-sc-1ygp5ew-4 ekmrAM"
+              className="Table__Value-sc-1ygp5ew-4 kPVkNS"
             >
               60
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <span
-              className="Table__Count-sc-1ygp5ew-3 dQrMRG"
+              className="Table__Count-sc-1ygp5ew-3 jNjQRE"
             >
               5
             </span>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__TableItem-sc-1ygp5ew-2 ekffAO"
+              className="Table__TableItem-sc-1ygp5ew-2 gLbvjI"
             >
               USA
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 lcZepF"
+            className="Table__Cell-sc-1ygp5ew-0 fZIqvP"
           >
             <div
-              className="VerticalBar__Bar-sc-1o6bhqj-1 hyNzDI"
+              className="VerticalBar__Bar-sc-1o6bhqj-1 kzUgIi"
             >
               <div
-                className="VerticalBar__Line-sc-1o6bhqj-2 iVRZSz"
+                className="VerticalBar__Line-sc-1o6bhqj-2 eYQesx"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -424,10 +424,10 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="Table__Cell-sc-1ygp5ew-0 dzKfGG"
+            className="Table__Cell-sc-1ygp5ew-0 coOVMo"
           >
             <div
-              className="Table__Value-sc-1ygp5ew-4 ekmrAM"
+              className="Table__Value-sc-1ygp5ew-4 kPVkNS"
             >
               40
             </div>
@@ -436,10 +436,10 @@ exports[`Geo Map Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="Map__Container-sc-40ox45-0 FmxYr"
+      className="Map__Container-sc-40ox45-0 bXNTB"
     >
       <div
-        className="Tooltip__TooltipWrapper-lwx4op-0 jmPNjN"
+        className="Tooltip__TooltipWrapper-lwx4op-0 jIliQL"
         style={
           Object {
             "left": 0,
