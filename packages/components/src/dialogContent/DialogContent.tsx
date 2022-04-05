@@ -25,7 +25,6 @@ const DialogContent: React.FC<any> = styled(ReachDialogContent)
     margin: '0 auto',
     position: 'relative',
     maxHeight: '100vh',
-    overflow: 'auto',
     maxWidth: rem(608) /* [1] */,
     padding: 0,
     outline: 'none',
