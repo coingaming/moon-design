@@ -2,7 +2,7 @@
 
 exports[`Badge renders 1`] = `
 <span
-  className="Badge-gd8hvq-0 idSPMV"
+  className="sc-jFkmsu iRvZkV"
   size="xsmall"
 >
   Default
@@ -11,7 +11,7 @@ exports[`Badge renders 1`] = `
 
 exports[`Badge renders with custom background color 1`] = `
 <span
-  className="Badge-gd8hvq-0 eYJbCR"
+  className="sc-jFkmsu ihBlIJ"
   size="xsmall"
 >
   Default
@@ -23,13 +23,13 @@ exports[`Badge renders with icons 1`] = `
   className="flex justify-around w-full"
 >
   <span
-    className="Badge-gd8hvq-0 idSPMV"
+    className="sc-jFkmsu iRvZkV"
     size="xsmall"
   >
     Default
   </span>
   <span
-    className="Badge-gd8hvq-0 idSPMV"
+    className="sc-jFkmsu iRvZkV"
     size="xsmall"
   >
     Default
@@ -39,7 +39,7 @@ exports[`Badge renders with icons 1`] = `
 
 exports[`Badge renders with small size 1`] = `
 <span
-  className="Badge-gd8hvq-0 jWcwQe"
+  className="sc-jFkmsu gCbcUe"
   size="small"
 >
   Default
