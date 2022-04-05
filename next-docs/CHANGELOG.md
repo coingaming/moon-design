@@ -1,5 +1,27 @@
 # Change Log
 
+## 8.3.4
+
+### Patch Changes
+
+- Disable overflow:auto for Dialog Content
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@8.3.4
+  - @heathmont/moon-assets@8.3.4
+  - @heathmont/moon-charts@8.3.4
+  - @heathmont/moon-components@8.3.4
+  - @heathmont/moon-core@8.3.4
+  - @heathmont/moon-datepicker@8.3.4
+  - @heathmont/moon-draggabletable@8.3.4
+  - @heathmont/moon-icons@8.3.4
+  - @heathmont/moon-pagination@8.3.4
+  - @heathmont/moon-popover@8.3.4
+  - @heathmont/moon-select@8.3.4
+  - @heathmont/moon-sidebar@8.3.4
+  - @heathmont/moon-table@8.3.4
+  - @heathmont/moon-themes@8.3.4
+  - @heathmont/moon-utils@8.3.4
+
 ## 8.3.3
 
 ### Patch Changes
