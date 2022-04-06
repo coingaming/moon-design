@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-import rem from 'polished/lib/helpers/rem';
-import isSameDay from 'date-fns/isSameDay';
-import isWithinInterval from 'date-fns/isWithinInterval';
 import compareAsc from 'date-fns/compareAsc';
 import getMonth from 'date-fns/getMonth';
 import isDate from 'date-fns/isDate';
+import isSameDay from 'date-fns/isSameDay';
+import isWithinInterval from 'date-fns/isWithinInterval';
+import rem from 'polished/lib/helpers/rem';
+import styled from 'styled-components';
 
 import { Day } from './Day';
 

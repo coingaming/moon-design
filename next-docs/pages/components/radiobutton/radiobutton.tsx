@@ -5,7 +5,7 @@ import PropsTable from '../../../components/PropsTable';
 import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../../public/examples/radiobutton/radiobutton/Default';
 import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
-import NoLabel from "../../../public/examples/radiobutton/radiobutton/NoLabel";
+import NoLabel from '../../../public/examples/radiobutton/radiobutton/NoLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
@@ -66,7 +66,7 @@ export default function RadioButtonPage() {
             type: 'string',
             required: false,
             default: '-',
-            description: `Unique element's identifier`,
+            description: 'Unique element\'s identifier',
           },
           {
             name: 'label',

@@ -40,14 +40,14 @@ const PagePopover = () => {
             type: 'React.ReactNode',
             required: true,
             default: '-',
-            description: `Content of popover.`,
+            description: 'Content of popover.',
           },
           {
             name: 'defaultState',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: `Open/Closed popover by default.`,
+            description: 'Open/Closed popover by default.',
           },
           {
             name: 'closeOnClickOutside',

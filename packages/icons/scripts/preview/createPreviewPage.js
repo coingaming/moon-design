@@ -11,7 +11,7 @@ const outputFile = path.join(outputDir, 'icons.tsx');
 
 const replacements = [
   {
-    pattern: new RegExp("import {[^}]+} from '@heathmont/moon-icons';", 's'),
+    pattern: new RegExp('import {[^}]+} from \'@heathmont/moon-icons\';', 's'),
     replace(data) {
       return data.replace(this.pattern, fileImport);
     },

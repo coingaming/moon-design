@@ -1,4 +1,4 @@
-import {ColorValue, Theme} from "@heathmont/moon-themes";
+import {ColorValue, Theme} from '@heathmont/moon-themes';
 import styled from 'styled-components';
 
 type InputColors = {

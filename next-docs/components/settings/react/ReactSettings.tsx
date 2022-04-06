@@ -64,7 +64,7 @@ const ReactSettings: React.FC<Props> = ({
         <>
           <div
             className={`${
-              isRtlEnabled ? `left-4` : `right-4`
+              isRtlEnabled ? 'left-4' : 'right-4'
             } fixed bottom-16 z-50`}
           >
             {filteredThemeKeys.map((themeKey: string) => {
@@ -75,7 +75,7 @@ const ReactSettings: React.FC<Props> = ({
                   type="button"
                   onClick={() => setBrand(themeKey as DocsBrands)}
                   className={`${
-                    isRtlEnabled ? `mr-4` : `ml-4`
+                    isRtlEnabled ? 'mr-4' : 'ml-4'
                   } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
                 >
                   {Logo}
@@ -85,7 +85,7 @@ const ReactSettings: React.FC<Props> = ({
           </div>
           <div
             className={`${
-              isRtlEnabled ? `left-4` : `right-4`
+              isRtlEnabled ? 'left-4' : 'right-4'
             } fixed bottom-28 z-50`}
           >
             <DarkLightModeSwitcher
@@ -96,14 +96,14 @@ const ReactSettings: React.FC<Props> = ({
           </div>
           <div
             className={`${
-              isRtlEnabled ? `left-4` : `right-4`
+              isRtlEnabled ? 'left-4' : 'right-4'
             } fixed bottom-40 z-50`}
           >
             <RTLModeSwitch toggle={toggleRtl} isEnabled={isRtlEnabled} />
           </div>
           <div
             className={`${
-              isRtlEnabled ? `left-4` : `right-4`
+              isRtlEnabled ? 'left-4' : 'right-4'
             } fixed bottom-52 z-50`}
           >
             {isFeatureElixirEnabled ? (

@@ -20,7 +20,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
     fontSize: rem(16),
     color: theme.colorNew.trunks,
     '&:before': {
-      content: "''",
+      content: '\'\'',
       position: 'absolute',
       width: '100%',
       height: '100%',

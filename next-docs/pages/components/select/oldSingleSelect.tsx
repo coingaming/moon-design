@@ -274,14 +274,14 @@ export default function PageSelectSingle() {
             type: 'string',
             required: true,
             default: '-',
-            description: `The option's value. This will be passed into a hidden input field for use in forms when the option is selected.`,
+            description: 'The option\'s value. This will be passed into a hidden input field for use in forms when the option is selected.',
           },
           {
             name: 'label',
             type: 'string',
             required: false,
             default: '-',
-            description: `The option's human-readable label. `,
+            description: 'The option\'s human-readable label. ',
           },
           {
             name: 'element',

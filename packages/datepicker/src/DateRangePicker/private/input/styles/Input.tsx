@@ -58,7 +58,7 @@ const Input = styled.input.attrs(({ type }) => ({
         color: colorNew.trunks,
         opacity: 1,
         transition: `opacity ${transition.default}`,
-        transitionDelay: `0.05s`,
+        transitionDelay: '0.05s',
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${border.width.interactive} ${

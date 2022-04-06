@@ -131,7 +131,7 @@ const PageTextInputGroup = () => {
             name: 'inputProps',
             type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
             required: true,
-            default: "object { inputSize: 'medium', type: 'text' }",
+            default: 'object { inputSize: \'medium\', type: \'text\' }',
             description:
               'Props for the text input fields. See TextInput component',
           },

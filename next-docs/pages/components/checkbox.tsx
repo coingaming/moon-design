@@ -4,7 +4,7 @@ import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Disabled from '../../public/examples/checkbox/Disabled';
 import Example from '../../public/examples/checkbox/Example';
-import NoLabel from "../../public/examples/checkbox/NoLabel";
+import NoLabel from '../../public/examples/checkbox/NoLabel';
 import Readonly from '../../public/examples/checkbox/Readonly';
 import useExamples from '../../utils/useExamples';
 

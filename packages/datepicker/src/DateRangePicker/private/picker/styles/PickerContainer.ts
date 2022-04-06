@@ -18,7 +18,7 @@ const getGridTemplate = ({
 }: PickerContainerProps) => {
   if (!isExpanded && isSidebar) {
     return {
-      gridTemplateAreas: `"sidebar"`,
+      gridTemplateAreas: '"sidebar"',
       gridTemplateColumns: '1fr',
     };
   }
@@ -30,7 +30,7 @@ const getGridTemplate = ({
           gridTemplateAreas: `
           "sidebar  inputs"
           "sidebar firstMonth"
-          ${isFooter ? `"footer footer"` : ''}
+          ${isFooter ? '"footer footer"' : ''}
         `,
           gridTemplateColumns: '1fr 3fr',
         };
@@ -39,7 +39,7 @@ const getGridTemplate = ({
         gridTemplateAreas: `
         "sidebar  firstMonth"
         "sidebar firstMonth"
-        ${isFooter ? `"footer footer"` : ''}
+        ${isFooter ? '"footer footer"' : ''}
       `,
         gridTemplateColumns: '1fr 3fr',
       };
@@ -50,7 +50,7 @@ const getGridTemplate = ({
         gridTemplateAreas: `
         "inputs "
         "firstMonth"
-        ${isFooter ? `"footer"` : ''}
+        ${isFooter ? '"footer"' : ''}
       `,
         gridTemplateColumns: '1fr',
       };
@@ -59,7 +59,7 @@ const getGridTemplate = ({
     return {
       gridTemplateAreas: `
       "firstMonth"
-      ${isFooter ? `"footer"` : ''}
+      ${isFooter ? '"footer"' : ''}
     `,
       gridTemplateColumns: '1fr',
     };
@@ -71,7 +71,7 @@ const getGridTemplate = ({
         gridTemplateAreas: `
         "sidebar  inputs     inputs"
         "sidebar firstMonth secondMonth"
-        ${isFooter ? `"footer footer footer"` : ''}
+        ${isFooter ? '"footer footer footer"' : ''}
       `,
         gridTemplateColumns: '1fr 3fr 3fr',
       };
@@ -80,7 +80,7 @@ const getGridTemplate = ({
       gridTemplateAreas: `
       "sidebar  firstMonth secondMonth"
       "sidebar firstMonth secondMonth"
-      ${isFooter ? `"footer footer footer"` : ''}
+      ${isFooter ? '"footer footer footer"' : ''}
     `,
       gridTemplateColumns: '1fr 3fr 3fr',
     };
@@ -91,7 +91,7 @@ const getGridTemplate = ({
       gridTemplateAreas: `
       "inputs     inputs"
       "firstMonth secondMonth"
-      ${isFooter ? `"footer footer"` : ''}
+      ${isFooter ? '"footer footer"' : ''}
     `,
       gridTemplateColumns: '1fr 1fr',
     };
@@ -100,7 +100,7 @@ const getGridTemplate = ({
   return {
     gridTemplateAreas: `
     "firstMonth secondMonth"
-    ${isFooter ? `"footer footer"` : ''}
+    ${isFooter ? '"footer footer"' : ''}
   `,
     gridTemplateColumns: '1fr 1fr',
   };

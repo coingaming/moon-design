@@ -147,7 +147,7 @@ const PageTabsNew = () => {
             type: 'string',
             required: false,
             default: '-',
-            description: `The href attribute specifies the link's destination`,
+            description: 'The href attribute specifies the link\'s destination',
           },
         ]}
       />

@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 import { Label } from '../private/label/label';
 
-import { Input } from './Input';
 import { InputError } from './Error';
+import { Input } from './Input';
 
 /**
  * Types & Settings

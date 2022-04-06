@@ -37,7 +37,7 @@ export default function RadioButtonPage() {
             type: 'string',
             required: false,
             default: '-',
-            description: `Unique element's identifier (the same id as for RadioButtonInput)`,
+            description: 'Unique element\'s identifier (the same id as for RadioButtonInput)',
           },
         ]}
       />
@@ -50,7 +50,7 @@ export default function RadioButtonPage() {
             type: 'string',
             required: false,
             default: '-',
-            description: `Unique element's identifier (the same id as for RadioButtonLabel)`,
+            description: 'Unique element\'s identifier (the same id as for RadioButtonLabel)',
           },
           {
             name: 'label',

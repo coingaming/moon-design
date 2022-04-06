@@ -1,7 +1,7 @@
 import React from 'react';
+import { mq } from '@heathmont/moon-utils';
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
-import { mq } from '@heathmont/moon-utils';
 
 import { getRanges } from './helpers/getRanges';
 
@@ -40,7 +40,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
     background: theme.color.goku[80],
   },
   '&:hover:before': {
-    content: "''",
+    content: '\'\'',
     display: 'block',
     position: 'absolute',
     zIndex: 1,
@@ -54,7 +54,7 @@ const RangeItem = styled.li<RangeItemProps>(({ theme, isSelected }) => ({
   },
   '&:before': isSelected
     ? {
-        content: "''",
+        content: '\'\'',
         display: 'block',
         position: 'absolute',
         zIndex: 1,

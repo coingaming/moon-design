@@ -12,7 +12,7 @@ const AccordionContent = styled.div<Props>(
   ({ theme: { newTokens }, isOpen, isContentInside, size }) => ({
     height: isOpen ? '100%' : '0',
     borderRadius: newTokens.borderRadius.xsmall,
-    overflow: `hidden`,
+    overflow: 'hidden',
     marginTop: isOpen ? determineSpacing(newTokens, isContentInside, size) : 0,
   })
 );

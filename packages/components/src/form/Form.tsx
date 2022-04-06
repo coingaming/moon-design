@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 
 import Stack from '../stack/Stack';
 

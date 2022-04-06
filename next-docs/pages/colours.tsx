@@ -24,7 +24,7 @@ const Palette = ({ colors }: { colors: PalleteColorProp[] }) => {
         <div className="flex flex-col justify-center items-center" key={index}>
           <div
             style={{ backgroundColor: color.name }}
-            className={`w-40 h-40 rounded-xl border border-black`}
+            className={'w-40 h-40 rounded-xl border border-black'}
           />
           <span>{color.description}</span>
           <span>{color.value}</span>

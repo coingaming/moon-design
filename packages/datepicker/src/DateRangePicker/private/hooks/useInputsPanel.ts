@@ -22,7 +22,7 @@ const useInputsPanel = ({
   setEndDate,
 }: useInputsPanelProps) => {
   const dateFormat = config?.withHoursAndMinutes
-    ? "yyyy-MM-dd'T'HH:mm"
+    ? 'yyyy-MM-dd\'T\'HH:mm'
     : 'yyyy-MM-dd';
   const [inputStartDate, setInputStartDate] = React.useState(
     startDate ? format(startDate, dateFormat) : ''

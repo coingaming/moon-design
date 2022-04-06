@@ -25,7 +25,7 @@ const Container = styled.div<Props>(
         "icon main meta"
         "icon description meta"
       `,
-    gridTemplateColumns: `min-content 1fr max-content`,
+    gridTemplateColumns: 'min-content 1fr max-content',
     justifyContent: 'space-between',
     alignItems: 'center',
     lineHeight: rem(24),

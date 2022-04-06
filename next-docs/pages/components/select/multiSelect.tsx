@@ -115,14 +115,14 @@ export default function PageSelect() {
             type: 'large | xLarge',
             required: false,
             default: 'large',
-            description: `The option's value.`,
+            description: 'The option\'s value.',
           },
           {
             name: 'label',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
-            description: `Label title`,
+            description: 'Label title',
           },
           {
             name: 'placeholderSlot',

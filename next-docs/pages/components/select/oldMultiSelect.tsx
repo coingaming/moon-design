@@ -56,14 +56,14 @@ export default function PageMultiSelect() {
             type: 'Option[]',
             required: true,
             default: '-',
-            description: `The option's value.`,
+            description: 'The option\'s value.',
           },
           {
             name: 'label',
             type: 'JSX.Element | string',
             required: true,
             default: '-',
-            description: `Label title`,
+            description: 'Label title',
           },
           {
             name: 'search',

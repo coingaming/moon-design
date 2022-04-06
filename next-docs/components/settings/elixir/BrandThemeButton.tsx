@@ -20,7 +20,7 @@ export const BrandThemeButton: FC<BrandThemeButtonProps> = ({
       type="button"
       onClick={onClick}
       className={`${
-        isRtlEnabled ? `mr-4` : `ml-4`
+        isRtlEnabled ? 'mr-4' : 'ml-4'
       } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
     >
       {children}

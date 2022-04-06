@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 import { enGB } from 'date-fns/locale';
+import styled from 'styled-components';
 
 import { Button } from '..';
 
-import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
+import RangeCalendar, { DateRangePickerProps } from './RangeCalendar';
 
 const Wrapper = styled.div({
   position: 'relative',
@@ -72,7 +72,7 @@ DateRangePicker.defaultProps = {
     nextMonth: 'Next month',
   },
   config: {
-    format: "yyyy-MM-dd'T'HH:mm",
+    format: 'yyyy-MM-dd\'T\'HH:mm',
     monthLabelFormat: 'MMMM',
     yearLabelFormat: 'yyyy',
     weekStartsOn: 1,

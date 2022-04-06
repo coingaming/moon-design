@@ -38,7 +38,7 @@ export const Results = styled.ul(
     '&::before': {
       borderRadius: rem(radius.default),
       borderWidth,
-      content: "' '",
+      content: '\' \'',
       position: 'absolute',
       height: '100%',
       width: '100%',

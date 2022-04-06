@@ -1,7 +1,7 @@
 import React from 'react';
 import { ColorValue, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
-import { lighten } from "polished";
+import { lighten } from 'polished';
 import styled, {css, keyframes} from 'styled-components';
 
 /**

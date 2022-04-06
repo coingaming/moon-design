@@ -16,7 +16,7 @@ const ReactElixirSwitcher: React.FC<Props> = ({ isReactEnabled, toggle }) => {
     >
       <span className="sr-only">Change React or Elixir</span>
       <span
-        className={`bg-grey-500 pointer-events-none relative inline-block h-5 w-5 rounded-full shadow transform ring-0 transition ease-in-out duration-200`}
+        className={'bg-grey-500 pointer-events-none relative inline-block h-5 w-5 rounded-full shadow transform ring-0 transition ease-in-out duration-200'}
       >
         <span
           className={`${

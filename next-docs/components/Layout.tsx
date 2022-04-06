@@ -19,7 +19,7 @@ const Layout = ({ children }: LayoutProps) => {
   const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
     <div
-      className={`support-colors bg-background flex rounded-tl-3xl rounded-tr-3xl`}
+      className={'support-colors bg-background flex rounded-tl-3xl rounded-tr-3xl'}
     >
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>

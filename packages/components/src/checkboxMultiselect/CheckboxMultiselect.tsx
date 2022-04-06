@@ -1,5 +1,5 @@
-import { rem } from '@heathmont/moon-utils';
 import React from 'react';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 import Checkbox from '../checkbox/Checkbox';
