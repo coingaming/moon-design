@@ -288,7 +288,7 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
             className="CheckboxIconWrapper__Wrapper-sc-1rg3c8n-0 pvcCn"
           >
             <span
-              className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 cJgwvQ"
+              className="CheckboxIconWrapper__Box-sc-1rg3c8n-1 bxkBNs"
             >
               <div
                 checked={false}
