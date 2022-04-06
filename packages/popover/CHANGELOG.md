@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.3.5
+
+### Patch Changes
+
+- Fix Snackbar HTML
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.5
+  - @heathmont/moon-assets@8.3.5
+  - @heathmont/moon-themes@8.3.5
+  - @heathmont/moon-utils@8.3.5
+
 ## 8.3.4
 
 ### Patch Changes
