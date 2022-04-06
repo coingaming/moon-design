@@ -2,10 +2,10 @@ import React from 'react';
 import { rem, mq, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-import IconError from '../private/icons/IconError';
-import IconWarning from '../private/icons/IconWarning';
 import IconBannerInfo from '../private/icons/IconBannerInfo';
+import IconError from '../private/icons/IconError';
 import IconSnackbarSuccess from '../private/icons/IconSnackbarSuccess';
+import IconWarning from '../private/icons/IconWarning';
 
 type SnackbarWrapperProps = {
   justifyContent?: 'flex-start' | 'center' | 'flex-end';
@@ -78,7 +78,7 @@ const SnackbarWrapper = styled.div<SnackbarWrapperProps>(
   ]
 );
 
-const MessageWrapper = styled.p(({ theme }) => [
+const MessageWrapper = styled.div(({ theme }) => [
   {
     fontSize: rem(14),
     lineHeight: 1.25,
