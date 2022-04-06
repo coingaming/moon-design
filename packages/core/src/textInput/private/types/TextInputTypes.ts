@@ -7,7 +7,6 @@ type TextInputTypes =
   | 'search'
   | 'tel'
   | 'text'
-  | 'url'
   | 'time'
   | 'url';
 
