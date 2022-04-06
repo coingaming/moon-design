@@ -67,6 +67,13 @@ Our [pnpm](https://pnpm.io/motivation) monorepo publishes key layers as individu
 1. [`next-docs/`](#docs) - style guide and documentation
 2. [`packages/`](#design-system) - Moon Design System
 
+`packages/`
+
+1. [**Themes**](packages/themes/README.mdx) - theming feature
+2. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
+3. [**Icons**](packages/components/README.mdx) - React components for each icon.
+4. [**Core**](packages/components/README.md) - the individual building blocks of our UI.
+
 Packages are developed inside their respective `src` folders, utilising [pnpm workspaces](https://pnpm.io/workspaces) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the typeScript compiler.
 
 ### Docs
@@ -74,16 +81,6 @@ Packages are developed inside their respective `src` folders, utilising [pnpm wo
 `next-docs/`
 
 Our project's style guide and documentation is built using [Next.js](https://nextjs.org/) inside its own individual package directory.
-
-### Design System
-
-`packages/`
-
-
-1. [**Themes**](packages/themes/README.mdx) - theming feature
-2. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
-3. [**Icons**](packages/components/README.mdx) - React components for each icon.
-4. [**Core**](packages/components/README.md) - the individual building blocks of our UI.
 
 
 ## Contributing
