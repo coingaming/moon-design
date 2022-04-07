@@ -1,5 +1,17 @@
 # Change Log
 
+## 8.3.6
+
+### Patch Changes
+
+- Fix Table examples & Icons tests
+
+## 8.3.5
+
+### Patch Changes
+
+- Fix Snackbar HTML
+
 ## 8.3.4
 
 ### Patch Changes
