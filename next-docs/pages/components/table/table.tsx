@@ -55,7 +55,7 @@ export default function PageTable() {
               <ClickableRows />
             </div>
           }
-          code={examples ? examples.Default : 'Loading'}
+          code={examples ? examples.ClickableRows : 'Loading'}
         />
       </section>
 
@@ -68,7 +68,7 @@ export default function PageTable() {
               <SelectableRows />
             </div>
           }
-          code={examples ? examples.Default : 'Loading'}
+          code={examples ? examples.SelectableRows : 'Loading'}
         />
       </section>
 
@@ -81,7 +81,7 @@ export default function PageTable() {
               <CustomColors />
             </div>
           }
-          code={examples ? examples.Default : 'Loading'}
+          code={examples ? examples.CustomColors : 'Loading'}
         />
       </section>
 
