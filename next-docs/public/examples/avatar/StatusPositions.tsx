@@ -1,4 +1,4 @@
-import { Avatar } from '@heathmont/moon-components';
+import { Avatar } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex flex-col justify-around items-center w-full">

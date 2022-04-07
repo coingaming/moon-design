@@ -16,8 +16,8 @@ const PageAvatar = () => {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Avatar</h1>
         <p className="text-lg mt-4">
-          Component for displaying user profile image or placeholder if no
-          image.
+          Avatars are used to represent an individual,
+          a business, or a celestial being when they interact with any Coingaming brand. While they usually consist of an image, avatars are adaptable - letters or object icons may sometimes be used as fallbacks.
         </p>
       </section>
 
