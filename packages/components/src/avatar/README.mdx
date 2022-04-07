@@ -1,0 +1,91 @@
+---
+name: Avatar
+menu: Components
+route: /components/avatar
+---
+
+# Avatar
+
+Component for displaying user profile image or placeholder if no image
+[Figma link](https://www.figma.com/file/rQDkupIZuIlueXNMoYObjt/Hub88---Templates?node-id=1448%3A0)
+
+## With user image
+
+Use `imageUrl` prop.
+
+```jsx react-live
+<Inline>
+  <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xsmall" />
+  <Avatar imageUrl="https://www.fillmurray.com/200/200" size="small" />
+  <Avatar imageUrl="https://www.fillmurray.com/200/200" size="medium" />
+  <Avatar imageUrl="https://www.fillmurray.com/200/200" size="large" />
+</Inline>
+```
+
+## With user name
+
+Use `name` prop. No more than 2 / 3 characters
+
+```jsx react-live
+<Inline>
+  <Avatar
+    name="JS"
+    color="gohan.100"
+    backgroundColor="piccolo.100"
+    size="xsmall"
+  />
+  <Avatar
+    name="JS"
+    color="gohan.100"
+    backgroundColor="piccolo.100"
+    size="small"
+  />
+  <Avatar
+    name="JS"
+    color="gohan.100"
+    backgroundColor="piccolo.100"
+    size="medium"
+  />
+  <Avatar
+    name="JS"
+    color="gohan.100"
+    backgroundColor="piccolo.100"
+    size="large"
+  />
+</Inline>
+```
+
+## Without image and name
+
+```jsx react-live
+<Inline>
+  <Avatar color="gohan.100" backgroundColor="piccolo.100" size="xsmall" />
+  <Avatar color="gohan.100" backgroundColor="piccolo.100" size="small" />
+  <Avatar color="gohan.100" backgroundColor="piccolo.100" size="medium" />
+  <Avatar color="gohan.100" backgroundColor="piccolo.100" size="large" />
+</Inline>
+```
+
+## Customize colours
+
+Use `color` and `backgroundColor` props
+
+```jsx react-live
+<Inline>
+  <Avatar color="gohan.100" backgroundColor="piccolo.100" />
+  <Avatar color="piccolo.100" backgroundColor="gohan.100" />
+</Inline>
+```
+
+## Customize size
+
+Use `size` prop. Default size is `medium`.
+
+```jsx react-live
+<Inline>
+  <Avatar size="xsmall" color="piccolo.100" backgroundColor="gohan.100" />
+  <Avatar size="small" color="piccolo.100" backgroundColor="gohan.100" />
+  <Avatar size="medium" color="piccolo.100" backgroundColor="gohan.100" />
+  <Avatar size="large" color="piccolo.100" backgroundColor="gohan.100" />
+</Inline>
+```
