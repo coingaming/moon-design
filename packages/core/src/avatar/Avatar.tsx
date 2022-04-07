@@ -1,5 +1,7 @@
 import React from 'react';
-import { IconUser } from '@heathmont/moon-assets';
+import {
+  GenericUser
+} from '@heathmont/moon-icons';
 import { ColorProps } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
@@ -136,7 +138,27 @@ const StatusWrapper = styled.div<AvatarProps>(
 );
 
 const Avatar: React.FC<AvatarProps> = (props) => {
-  const { name, imageUrl, color, statusOrigin } = props;
+  const { name, imageUrl, color, size, statusOrigin } = props;
+  let iconSize = '1.5rem';
+
+  switch (size) {
+    case 'xxlarge':
+      iconSize = '2.3rem';
+      break;
+    case 'xlarge':
+      iconSize = '2rem';
+      break;
+    case 'large':
+      iconSize = '1.7rem';
+      break;
+    case 'small':
+      iconSize = '1rem';
+      break;
+    case 'xsmall':
+      iconSize = '.8rem';
+      break;
+  }
+
   if (imageUrl)
     return (
       <Container>
@@ -148,7 +170,7 @@ const Avatar: React.FC<AvatarProps> = (props) => {
   return (
     <Container>
       <AvatarWrapper {...props}>
-        {name || <IconUser color={color} />}
+        {name || <GenericUser fontSize={iconSize} color={color} />}
       </AvatarWrapper>
       {statusOrigin && <StatusWrapper {...props} />}
     </Container>
