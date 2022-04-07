@@ -6,42 +6,18 @@ const Example = () => (
       name="JS"
       color="gohan.100"
       backgroundColor="piccolo.100"
-      size="xsmall"
     />
 
     <Avatar
       name="JS"
       color="gohan.100"
       backgroundColor="piccolo.100"
-      size="small"
     />
 
     <Avatar
       name="JS"
       color="gohan.100"
       backgroundColor="piccolo.100"
-      size="medium"
-    />
-
-    <Avatar
-      name="JS"
-      color="gohan.100"
-      backgroundColor="piccolo.100"
-      size="large"
-    />
-
-    <Avatar
-      name="JS"
-      color="gohan.100"
-      backgroundColor="piccolo.100"
-      size="xlarge"
-    />
-
-    <Avatar
-      name="JS"
-      color="gohan.100"
-      backgroundColor="piccolo.100"
-      size="xxlarge"
     />
   </div>
 );

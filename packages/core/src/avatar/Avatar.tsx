@@ -105,7 +105,7 @@ const StatusWrapper = styled.div<AvatarProps>(
     size === 'xsmall' && {
       height: rem(8),
       width: rem(8),
-      borderWidth: rem(1.5),
+      borderWidth: rem(1),
     },
     size === 'small' && {
       height: rem(12),
@@ -118,6 +118,16 @@ const StatusWrapper = styled.div<AvatarProps>(
       borderWidth: rem(2),
     },
     size === 'large' && {
+      height: rem(16),
+      width: rem(16),
+      borderWidth: rem(2),
+    },
+    size === 'xlarge' && {
+      height: rem(16),
+      width: rem(16),
+      borderWidth: rem(2),
+    },
+    size === 'xxlarge' && {
       height: rem(16),
       width: rem(16),
       borderWidth: rem(2),

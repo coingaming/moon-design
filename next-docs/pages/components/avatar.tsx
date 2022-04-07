@@ -5,6 +5,7 @@ import Colours from '../../public/examples/avatar/Colours';
 import Fallbacks from '../../public/examples/avatar/Fallbacks';
 import Image from '../../public/examples/avatar/Image';
 import Letter from '../../public/examples/avatar/Letter';
+import Sizes from "../../public/examples/avatar/Sizes";
 import Statuses from '../../public/examples/avatar/Statuses';
 import StatusPositions from '../../public/examples/avatar/StatusPositions';
 import useExamples from '../../utils/useExamples';
@@ -57,6 +58,15 @@ const PageAvatar = () => {
         />
       </section>
 
+      {/* Different sizes */}
+      <section className="mt-8">
+        <Preview
+          title="Different sizes"
+          preview={<Sizes />}
+          code={examples ? examples.Colours : 'Loading'}
+        />
+      </section>
+
       {/* With status */}
       <section className="mt-8">
         <Preview
@@ -80,7 +90,7 @@ const PageAvatar = () => {
         data={[
           {
             name: 'size',
-            type: 'xsmall | small | medium | large',
+            type: 'xsmall | small | medium | large | xlarge | xxlarge',
             required: false,
             default: 'medium',
             description: 'Size for avatar',
@@ -127,25 +137,12 @@ const PageAvatar = () => {
             default: '-',
             description: 'Background color',
           },
-        ]}
-      />
-
-      <PropsTable
-        title="StatusOrigin Prop"
-        data={[
           {
-            name: 'vertical',
-            type: 'top | bottom',
-            required: true,
+            name: 'statusOrigin',
+            type: 'object { vertical: top | bottom, horizontal: left | right }',
+            required: false,
             default: '-',
             description: 'Vertical align for status indication',
-          },
-          {
-            name: 'horizontal',
-            type: 'left | right',
-            required: true,
-            default: '-',
-            description: 'Horizontal align for status indication',
           },
         ]}
       />
