@@ -130,7 +130,10 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   return (
     <Container dir={dir} errorState={!!errorMessage}>
       {authCodeParts.map((value , i) => (
-        <InputWrapper isXLarge={isXLarge}>
+        <InputWrapper
+          key={`auth-code-input-${i}`}
+          isXLarge={isXLarge}
+        >
           <TextInput
             id={`auth-code-part-${i}`}
             key={`auth-code-part-${i}`}
