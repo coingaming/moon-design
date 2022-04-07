@@ -2,13 +2,13 @@
 
 exports[`Dialog renders 1`] = `
 <button
-  className="sc-kjOQFR bYtfKl"
+  className="sc-NqARw zoibh"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+    className="sc-jlObWd jxAGSv"
   >
     Open Dialog
   </div>
@@ -17,7 +17,7 @@ exports[`Dialog renders 1`] = `
 
 exports[`Dialog renders Another Dialog Header 1`] = `
 <button
-  className="ButtonComponent-sc-1qwityd-0 faeJLE"
+  className="sc-gvnOrV ieJODu"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -25,20 +25,20 @@ exports[`Dialog renders Another Dialog Header 1`] = `
 >
   Open Dialog
   <div
-    className="Hover-yzznpt-0 ctGatB"
+    className="sc-dNiKSF iQXIpM"
   />
 </button>
 `;
 
 exports[`Dialog renders Dialog Header 1`] = `
 <button
-  className="sc-kjOQFR bYtfKl"
+  className="sc-NqARw zoibh"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+    className="sc-jlObWd jxAGSv"
   >
     Open Dialog
   </div>
@@ -50,13 +50,13 @@ exports[`Dialog renders RTL 1`] = `
   dir="rtl"
 >
   <button
-    className="sc-kjOQFR bYtfKl"
+    className="sc-NqARw zoibh"
     onClick={[Function]}
     size="small"
     variant="primary"
   >
     <div
-      className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+      className="sc-jlObWd jxAGSv"
     >
       Open Dialog
     </div>
@@ -66,13 +66,13 @@ exports[`Dialog renders RTL 1`] = `
 
 exports[`Dialog renders with No Background 1`] = `
 <button
-  className="sc-kjOQFR bYtfKl"
+  className="sc-NqARw zoibh"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+    className="sc-jlObWd jxAGSv"
   >
     Open Dialog
   </div>
@@ -81,13 +81,13 @@ exports[`Dialog renders with No Background 1`] = `
 
 exports[`Dialog renders with No Close 1`] = `
 <button
-  className="sc-kjOQFR bYtfKl"
+  className="sc-NqARw zoibh"
   onClick={[Function]}
   size="small"
   variant="primary"
 >
   <div
-    className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+    className="sc-jlObWd jxAGSv"
   >
     Open Dialog
   </div>

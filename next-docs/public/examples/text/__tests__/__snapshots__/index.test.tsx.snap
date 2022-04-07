@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <p
-  className="Text-oby56-0 eGfFQX"
+  className="sc-hBdhWE cCYRqQ"
   color="bulma.100"
   size={16}
 >
@@ -15,28 +15,28 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
     Defaul color is Bulma
   </p>
   <p
-    className="Text-oby56-0 bcbKce"
+    className="sc-hBdhWE gobNtt"
     color="piccolo.100"
     size={16}
   >
     Piccolo
   </p>
   <p
-    className="Text-oby56-0 ePViWc"
+    className="sc-hBdhWE dOEtYz"
     color="trunks.100"
     size={16}
   >
     Trunks
   </p>
   <p
-    className="Text-oby56-0 lkjXUO"
+    className="sc-hBdhWE cuOrDV"
     color="krillin.100"
     size={16}
   >
@@ -50,14 +50,14 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
     Defaul font-weight is regular
   </p>
   <p
-    className="Text-oby56-0 gKTSCZ"
+    className="sc-hBdhWE kZLUDS"
     color="bulma.100"
     size={16}
   >
@@ -71,21 +71,21 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
     Paragraph is a default tag
   </p>
   <span
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
     Span tag
   </span>
   <label
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
@@ -99,21 +99,21 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
     Defaul font-size is 16px
   </p>
   <p
-    className="Text-oby56-0 dthkcc"
+    className="sc-hBdhWE cBhmEH"
     color="bulma.100"
     size={24}
   >
     Size is 24px
   </p>
   <p
-    className="Text-oby56-0 fdbjGz"
+    className="sc-hBdhWE cgdnBo"
     color="bulma.100"
     size={48}
   >
@@ -127,21 +127,21 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="Text-oby56-0 eGfFQX"
+    className="sc-hBdhWE cCYRqQ"
     color="bulma.100"
     size={16}
   >
     Text-align is not specified
   </p>
   <p
-    className="Text-oby56-0 jUWXGU"
+    className="sc-hBdhWE kSAtiD"
     color="bulma.100"
     size={16}
   >
     Centered text
   </p>
   <p
-    className="Text-oby56-0 bNtFFz"
+    className="sc-hBdhWE jESvDY"
     color="bulma.100"
     size={16}
   >

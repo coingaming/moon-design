@@ -1,8 +1,9 @@
 {
-  "extends": "../../.config/ts/tsconfig.json",
+  "extends": "./tsconfig.cjs.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "lib"
+    "outDir": "lib/es",
+    "module": "esnext"
   },
   "include": ["src"],
   "exclude": ["src/**/__tests__"]

@@ -5,22 +5,22 @@ exports[`Search renders 1`] = `
   className="h-96 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 bjhsmH popup "
+    className="sc-dUQLIm herYRz popup "
   >
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
+      className="sc-bXkJLp hShriZ"
     >
       <form
-        className="Styles__SearchForm-sc-1urf7j8-0 iKNUty"
+        className="sc-eRZVaq jcHXvY"
         noValidate={true}
         onSubmit={[Function]}
       >
         <span
-          className="Input__SearchBox-vvx0zy-5 gVNITC"
+          className="sc-hZuZNL cqtJRf"
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 gsVvCm"
+            className="sc-hVegGl kKZYTt"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -30,7 +30,7 @@ exports[`Search renders 1`] = `
             value=""
           />
           <svg
-            className="sc-iEhLsB Input__SearchInputIcon-vvx0zy-2  eVaWQB"
+            className="sc-dZZVXo sc-cxGQD  kUfBgJ"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -50,13 +50,13 @@ exports[`Search renders 1`] = `
         </span>
       </form>
       <button
-        className="sc-kjOQFR hPFGZC Styles__ModalClose-sc-1urf7j8-2 kIztcm"
+        className="sc-NqARw ecPrEa sc-kflowQ czpEuc"
         onClick={[Function]}
         size="small"
         variant="default"
       >
         <div
-          className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+          className="sc-jlObWd jxAGSv"
         >
           <span>
             Clear
@@ -65,13 +65,13 @@ exports[`Search renders 1`] = `
       </button>
     </div>
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
+      className="sc-bXkJLp hShriZ"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 hjghfS"
+        className="sc-hclQvH gDNHMi"
       >
         <ul
-          className="sc-kBHgYv ebiPJP"
+          className="sc-hkbsXB hYekcm"
         >
           <li>
             <span>
@@ -90,21 +90,21 @@ exports[`Search renders Loading State 1`] = `
   className="h-40 bg-white p-4 w-full"
 >
   <div
-    className="Popup__StyledPopup-sc-1lsi3ri-0 bjhsmH popup "
+    className="sc-dUQLIm herYRz popup "
   >
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
+      className="sc-bXkJLp hShriZ"
     >
       <form
-        className="Styles__SearchForm-sc-1urf7j8-0 iKNUty"
+        className="sc-eRZVaq jcHXvY"
         noValidate={true}
       >
         <span
-          className="Input__SearchBox-vvx0zy-5 gVNITC"
+          className="sc-hZuZNL cqtJRf"
         >
           <input
             autoComplete="off"
-            className="Input__SearchInput-vvx0zy-4 gsVvCm"
+            className="sc-hVegGl kKZYTt"
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
@@ -114,7 +114,7 @@ exports[`Search renders Loading State 1`] = `
             value=""
           />
           <svg
-            className="sc-iEhLsB Input__SearchInputIcon-vvx0zy-2  eVaWQB"
+            className="sc-dZZVXo sc-cxGQD  kUfBgJ"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -135,13 +135,13 @@ exports[`Search renders Loading State 1`] = `
       </form>
     </div>
     <div
-      className="Styles__FlexWrapper-sc-1urf7j8-1 irlOrm"
+      className="sc-bXkJLp hShriZ"
     >
       <div
-        className="Styles__Results-sc-1urf7j8-3 hjghfS"
+        className="sc-hclQvH gDNHMi"
       >
         <ul
-          className="sc-dOkGYn ihdtbi"
+          className="sc-hosmfb iPHfmb"
         >
           <li>
             Loading...

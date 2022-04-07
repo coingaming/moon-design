@@ -41,7 +41,7 @@ importers:
       eslint-plugin-react: 7.11.0
       husky: 3.0.4
       jest: 24.3.1
-      jest-styled-components: 6.3.3
+      jest-styled-components: 6.3.4
       lint-staged: 9.2.3
       prettier: 2.3.0
       react: 17.0.2
@@ -83,7 +83,7 @@ importers:
       eslint-plugin-react: 7.11.0_eslint@7.18.0
       husky: 3.0.4
       jest: 24.3.1
-      jest-styled-components: 6.3.3_styled-components@5.3.3
+      jest-styled-components: 6.3.4_styled-components@5.3.3
       lint-staged: 9.2.3
       prettier: 2.3.0
       react: 17.0.2
@@ -8164,8 +8164,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /jest-styled-components/6.3.3_styled-components@5.3.3:
-    resolution: {integrity: sha512-RBMPZSJJSgPDTTJsuYzx5fsij/CULaqQNZOWkn8J/L++rX6P830o2vB9CXGzfQf/bVq9qGr1ZBNoivi+v6JPYg==}
+  /jest-styled-components/6.3.4_styled-components@5.3.3:
+    resolution: {integrity: sha512-dc32l0/6n3FtsILODpvKNz6SLg50OmbJ/3r3oRh9jc2VIPPGZT5jWv7BKIcNCYH7E38ZK7uejNl3zJsCOIenng==}
     peerDependencies:
       styled-components: ^2 || ^3 || ^4
     dependencies:
@@ -10987,6 +10987,7 @@ packages:
 
   /source-map-resolve/0.5.3:
     resolution: {integrity: sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==}
+    deprecated: See https://github.com/lydell/source-map-resolve#deprecated
     dependencies:
       atob: 2.1.2
       decode-uri-component: 0.2.0
@@ -11011,6 +11012,7 @@ packages:
 
   /source-map-url/0.4.1:
     resolution: {integrity: sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==}
+    deprecated: See https://github.com/lydell/source-map-url#deprecated
     dev: true
 
   /source-map/0.5.6:
