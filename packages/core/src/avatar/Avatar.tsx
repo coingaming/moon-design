@@ -14,7 +14,7 @@ type AvatarProps = {
   name?: string | JSX.Element;
   color?: ColorProps;
   backgroundColor?: ColorProps;
-  size?: 'xsmall' | 'small' | 'medium' | 'large';
+  size?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | 'xxlarge';
   statusOrigin?: StatusOrigin;
   isStatusActive?: boolean;
 };
@@ -41,22 +41,38 @@ const AvatarWrapper = styled.div<AvatarProps>(
     size === 'xsmall' && {
       height: rem(24),
       width: rem(24),
-      fontSize: rem(14),
+      fontSize: rem(10),
+      lineHeight: rem(16),
     },
     size === 'small' && {
       height: rem(32),
       width: rem(32),
-      fontSize: rem(18),
+      fontSize: rem(12),
+      lineHeight: rem(16),
     },
     size === 'medium' && {
       height: rem(40),
       width: rem(40),
-      fontSize: rem(20),
+      fontSize: rem(14),
+      lineHeight: rem(24),
     },
     size === 'large' && {
       height: rem(48),
       width: rem(48),
-      fontSize: rem(24),
+      fontSize: rem(16),
+      lineHeight: rem(24),
+    },
+    size === 'xlarge' && {
+      height: rem(56),
+      width: rem(56),
+      fontSize: rem(16),
+      lineHeight: rem(24),
+    },
+    size === 'xxlarge' && {
+      height: rem(64),
+      width: rem(64),
+      fontSize: rem(20),
+      lineHeight: rem(32),
     },
   ]
 );
