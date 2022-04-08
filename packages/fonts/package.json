@@ -20,6 +20,6 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "peerDependencies": {
-    "styled-components": ">= 5.3.3"
+    "styled-components": ">= 5.3.5"
   }
 }
