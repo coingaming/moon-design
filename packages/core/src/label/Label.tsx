@@ -9,7 +9,8 @@ export type LabelProps = {
   backgroundColor?: ColorProps;
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
-  size?: 'small' | 'medium';
+  size?: 'twoxsmall' | 'xsmall';
+  textTransform?:  "capitalize" | "lowercase" | "uppercase";
 };
 
 const IconRightWrapper = styled.span({
@@ -27,8 +28,9 @@ const Label: React.FC<LabelProps> = ({
   iconLeft,
   iconRight,
   size,
+  textTransform,
 }) => (
-  <LabelContainer backgroundColor={backgroundColor} color={color} size={size}>
+  <LabelContainer backgroundColor={backgroundColor} color={color} size={size} textTransform={textTransform}>
     {iconLeft && <IconLeftWrapper>{iconLeft}</IconLeftWrapper>}
     {children}
     {iconRight && <IconRightWrapper>{iconRight}</IconRightWrapper>}
