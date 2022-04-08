@@ -95,7 +95,10 @@ const Search: React.FC<SearchProps> = ({
       closePopup={closePopup}
       isActive={isActive}
       title={
-        <SearchForm onSubmit={onSubmit} noValidate>
+        <SearchForm onSubmit={(e)=>{
+          e.preventDefault()
+          onSubmit(e)
+        }} noValidate>
           <SearchBox $size={size}>
             <SearchInput
               $size={size}
@@ -115,7 +118,7 @@ const Search: React.FC<SearchProps> = ({
             />
             <SearchInputIcon $size={size} />
             {searchStr && (
-              <SearchClearButton onClick={clearSearch} tabIndex="-1">
+              <SearchClearButton type='button' onClick={clearSearch} tabIndex="-1">
                 <SearchClearIcon />
               </SearchClearButton>
             )}
