@@ -2,7 +2,7 @@
 
 exports[`Reel renders 1`] = `
 <select
-  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU kuKTZp"
+  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
 >
   <option
     value=""
@@ -32,7 +32,7 @@ exports[`Reel renders RTL 1`] = `
   dir="rtl"
 >
   <select
-    className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU iHWeKS"
+    className="sc-gnyVkE sc-bsVkav leDUdZ bCbGmD"
     dir="rtl"
   >
     <option
@@ -61,7 +61,7 @@ exports[`Reel renders RTL 1`] = `
 
 exports[`Reel renders as disabled 1`] = `
 <select
-  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU kuKTZp"
+  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
   disabled={true}
 >
   <option
@@ -89,7 +89,7 @@ exports[`Reel renders as disabled 1`] = `
 
 exports[`Reel renders as full-width 1`] = `
 <select
-  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU dXkmsG"
+  className="sc-gnyVkE sc-bsVkav leDUdZ dyMCVT"
 >
   <option
     value=""
@@ -116,7 +116,7 @@ exports[`Reel renders as full-width 1`] = `
 
 exports[`Reel renders with flex evenly spaced by default 1`] = `
 <select
-  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU kuKTZp"
+  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
 >
   <option
     value=""
@@ -143,7 +143,7 @@ exports[`Reel renders with flex evenly spaced by default 1`] = `
 
 exports[`Reel renders with flex with adjusted input size 1`] = `
 <select
-  className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU kuKTZp"
+  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
 >
   <option
     value=""
@@ -170,15 +170,15 @@ exports[`Reel renders with flex with adjusted input size 1`] = `
 
 exports[`Reel renders with label 1`] = `
 <label
-  className="label__LabelFlex-sc-4w9rwl-1"
+  className="sc-bbMrut"
 >
   <span
-    className="label__LabelContent-sc-4w9rwl-0 dvGBek"
+    className="sc-iPTsoC jigpbo"
   >
     Label Content
   </span>
   <select
-    className="input__Input-x9ri56-0-select element__SelectElement-sc-1jc6zq6-0 czBakU kuKTZp"
+    className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
   >
     <option
       value=""

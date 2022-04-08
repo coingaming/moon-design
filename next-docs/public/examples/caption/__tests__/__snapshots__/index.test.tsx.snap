@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <span
-  className="Caption-sc-13sr7f-0 iHgGTt"
+  className="sc-kQPWqK fqkYfy"
   color="bulma.100"
 >
   Caption
@@ -14,25 +14,25 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="Caption-sc-13sr7f-0 iHgGTt"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Defaul color is Bulma
   </span>
   <span
-    className="Caption-sc-13sr7f-0 byPdYA"
+    className="sc-kQPWqK hjLkej"
     color="piccolo.100"
   >
     Piccolo
   </span>
   <span
-    className="Caption-sc-13sr7f-0 ibYCgK"
+    className="sc-kQPWqK tnzPZ"
     color="trunks.100"
   >
     Trunks
   </span>
   <span
-    className="Caption-sc-13sr7f-0 iZIwow"
+    className="sc-kQPWqK eqOiaf"
     color="krillin.100"
   >
     Krillin
@@ -45,19 +45,19 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="Caption-sc-13sr7f-0 iHgGTt"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Span is a default tag
   </span>
   <p
-    className="Caption-sc-13sr7f-0 iHgGTt"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Paragraph tag
   </p>
   <label
-    className="Caption-sc-13sr7f-0 iHgGTt"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Label tag
@@ -70,19 +70,19 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="Caption-sc-13sr7f-0 iHgGTt"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Text-align is not specified
   </span>
   <span
-    className="Caption-sc-13sr7f-0 kboBhe"
+    className="sc-kQPWqK fjwTdF"
     color="bulma.100"
   >
     Centered text
   </span>
   <span
-    className="Caption-sc-13sr7f-0 ZIIVF"
+    className="sc-kQPWqK dPOWNu"
     color="bulma.100"
   >
     Right alignment

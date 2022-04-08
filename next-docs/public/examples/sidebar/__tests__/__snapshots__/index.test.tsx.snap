@@ -2,15 +2,15 @@
 
 exports[`Sidebar renders 1`] = `
 <div
-  className="OuterContainer-yp6psh-0 tSAyZ"
+  className="sc-dkzDqf fRFbuZ"
   dir="ltr"
 >
   <div
-    className="CollapseTarget-sc-1og1j42-0 fOJOFy"
+    className="sc-bczRLJ cBgBXH"
     onClick={[Function]}
   >
     <svg
-      className="sc-dvwKko"
+      className="sc-jMKfon"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -26,7 +26,7 @@ exports[`Sidebar renders 1`] = `
     </svg>
   </div>
   <aside
-    className="Container-o6q7yi-0 dZvDfq"
+    className="sc-gsnTZi gxdmKS"
   >
     <ol>
       <li>
@@ -48,15 +48,15 @@ exports[`Sidebar renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="OuterContainer-yp6psh-0 hhPMAp"
+    className="sc-dkzDqf khFNOh"
     dir="rtl"
   >
     <div
-      className="CollapseTarget-sc-1og1j42-0 wKlKV"
+      className="sc-bczRLJ gotBAw"
       onClick={[Function]}
     >
       <svg
-        className="sc-dvwKko"
+        className="sc-jMKfon"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -72,11 +72,11 @@ exports[`Sidebar renders RTL 1`] = `
       </svg>
     </div>
     <div
-      className="Inline-sc-1rz1cju-0 dUjkIg"
+      className="sc-fwGvwQ dIykoT"
       fontSize="2rem"
     >
       <svg
-        className="sc-cZwWEu"
+        className="sc-hZiMVj"
         fill="none"
         height="1em"
         viewBox="0 0 20 20"
@@ -111,15 +111,15 @@ exports[`Sidebar renders RTL 1`] = `
 
 exports[`Sidebar renders initially closed 1`] = `
 <div
-  className="OuterContainer-yp6psh-0 hhPMAp"
+  className="sc-dkzDqf khFNOh"
   dir="ltr"
 >
   <div
-    className="CollapseTarget-sc-1og1j42-0 wKlKV"
+    className="sc-bczRLJ gotBAw"
     onClick={[Function]}
   >
     <svg
-      className="sc-elYLMi"
+      className="sc-hKOiFN"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -135,11 +135,11 @@ exports[`Sidebar renders initially closed 1`] = `
     </svg>
   </div>
   <div
-    className="Inline-sc-1rz1cju-0 dUjkIg"
+    className="sc-fwGvwQ dIykoT"
     fontSize="2rem"
   >
     <svg
-      className="sc-cZwWEu"
+      className="sc-hZiMVj"
       fill="none"
       height="1em"
       viewBox="0 0 20 20"
