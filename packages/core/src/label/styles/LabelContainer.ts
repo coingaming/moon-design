@@ -6,9 +6,7 @@ type Props = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
   size?: 'twoxsmall' | 'xsmall';
-  isUppercase?: boolean;
-  iconRight?: boolean;
-  iconLeft?: boolean;
+  textTransform?:  "capitalize" | "lowercase" | "uppercase";
 };
 
 const LabelContainer = styled.span<Props>(
@@ -21,13 +19,11 @@ const LabelContainer = styled.span<Props>(
     fontSize: rem(10),
     lineHeight: rem(16),
   }),
-  ({ size, iconLeft, iconRight }) => ({
-    padding: size === 'twoxsmall'
-      ? `0 ${rem(iconRight ? 5 : 8)} 0 ${rem(iconLeft ? 5 : 8)}`
-      : `${rem(4)} ${rem(iconRight ? 5 : 8)} ${rem(4)} ${rem(iconLeft ? 5 : 8)}`,
+  ({ size }) => ({
+    padding: size === 'twoxsmall' ? `0 ${rem(8)}` : `${rem(4)} ${rem(8)}`,
   }),
-  ({ isUppercase }) => ({
-    textTransform: isUppercase ? 'uppercase' : 'none',
+  ({textTransform}) => ({
+    textTransform: textTransform ? textTransform : 'uppercase',
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({

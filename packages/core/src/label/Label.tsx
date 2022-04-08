@@ -10,26 +10,16 @@ export type LabelProps = {
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: 'twoxsmall' | 'xsmall';
-  isUppercase?: boolean;
+  textTransform?:  "capitalize" | "lowercase" | "uppercase";
 };
 
-export type IconProps = {
-  size: LabelProps['size']
-}
-
-const IconRightWrapper = styled.span<IconProps>(({ size }) => ({
+const IconRightWrapper = styled.span({
   marginInlineStart: rem(4),
-  '& svg': {
-    fontSize: size === 'twoxsmall' ? rem(12) : rem(16)
-  }
-}));
+});
 
-const IconLeftWrapper = styled.span<IconProps>(({ size }) => ({
+const IconLeftWrapper = styled.span({
   marginInlineEnd: rem(4),
-  '& svg': {
-    fontSize: size === 'twoxsmall' ? rem(12) : rem(16)
-  }
-}));
+});
 
 const Label: React.FC<LabelProps> = ({
   children,
@@ -38,19 +28,12 @@ const Label: React.FC<LabelProps> = ({
   iconLeft,
   iconRight,
   size,
-  isUppercase = true,
+  textTransform,
 }) => (
-  <LabelContainer
-    backgroundColor={backgroundColor}
-    color={color}
-    size={size}
-    isUppercase={isUppercase}
-    iconLeft={!!iconLeft}
-    iconRight={!!iconRight}
-  >
-    {iconLeft && <IconLeftWrapper size={size}>{iconLeft}</IconLeftWrapper>}
+  <LabelContainer backgroundColor={backgroundColor} color={color} size={size} textTransform={textTransform}>
+    {iconLeft && <IconLeftWrapper>{iconLeft}</IconLeftWrapper>}
     {children}
-    {iconRight && <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>}
+    {iconRight && <IconRightWrapper>{iconRight}</IconRightWrapper>}
   </LabelContainer>
 );
 
