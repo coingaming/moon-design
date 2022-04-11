@@ -27,6 +27,7 @@
     "@heathmont/moon-table": "workspace:^8.3.7",
     "@heathmont/moon-themes": "workspace:^8.3.7",
     "@heathmont/moon-utils": "workspace:^8.3.7",
+    "@moon/core": "workspace:^8.3.7",
     "@jest/globals": "^27.4.6",
     "@octokit/core": "^3.5.1",
     "@testing-library/jest-dom": "5.16.2",

@@ -10,6 +10,12 @@ const navigation = [
   { name: 'Icons', href: '/icons' },
   { name: 'Transform SVG', href: '/transform-icon' },
   {
+    name: 'Core',
+    children: [
+      { name: 'Button', href: '/core/button' },
+    ]
+  },
+  {
     name: 'Components',
     children: [
       { name: 'Accordion', href: '/components/accordion' },
