@@ -96,8 +96,9 @@ const Search: React.FC<SearchProps> = ({
       isActive={isActive}
       title={
         <SearchForm onSubmit={(e)=>{
-          e.preventDefault()
-          onSubmit(e)
+          e.preventDefault();
+
+          if (onSubmit && e) onSubmit(e)
         }} noValidate>
           <SearchBox $size={size}>
             <SearchInput

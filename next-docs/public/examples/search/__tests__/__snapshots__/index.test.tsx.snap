@@ -45,7 +45,7 @@ exports[`Search renders 1`] = `
           
           <input
             hidden={true}
-            type="button"
+            type="submit"
           />
         </span>
       </form>
@@ -129,7 +129,7 @@ exports[`Search renders Loading State 1`] = `
           
           <input
             hidden={true}
-            type="button"
+            type="submit"
           />
         </span>
       </form>
