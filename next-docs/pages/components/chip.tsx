@@ -24,20 +24,28 @@ const PageChip = () => {
           Moon:
         </Text>
         <div className="grid gap-2 mt-2">
-          <Heading as="h4" size={18}>
-            Action chip
-          </Heading>
-          <Text>Action chips prompt actions related to the game/content.</Text>
-          <Heading as="h4" size={18}>
-            Filter chip
-          </Heading>
-          <Text>Filter chips let users sieve through large categories.</Text>
-          <Heading as="h4" size={18}>
-            Selection chip
-          </Heading>
-          <Text>
-            Selection chips allow users to select options that matter to them.
-          </Text>
+          <div>
+            <Heading as="h4" size={18}>
+              Action chip
+            </Heading>
+            <Text>
+              Action chips prompt actions related to the game/content.
+            </Text>
+          </div>
+          <div>
+            <Heading as="h4" size={18}>
+              Filter chip
+            </Heading>
+            <Text>Filter chips let users sieve through large categories.</Text>
+          </div>
+          <div>
+            <Heading as="h4" size={18}>
+              Selection chip
+            </Heading>
+            <Text>
+              Selection chips allow users to select options that matter to them.
+            </Text>
+          </div>
         </div>
       </section>
 
@@ -45,7 +53,6 @@ const PageChip = () => {
         <Preview
           title="Sizes"
           preview={<Sizes />}
-          isGrayBg
           code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
@@ -54,7 +61,6 @@ const PageChip = () => {
         <Preview
           title="Active State"
           preview={<Active />}
-          isGrayBg
           code={examples ? examples.Active : 'Loading'}
         />
       </section>
@@ -63,7 +69,6 @@ const PageChip = () => {
         <Preview
           title="IsStroke"
           preview={<Stroke />}
-          isGrayBg
           code={examples ? examples.Stroke : 'Loading'}
         />
       </section>
@@ -72,7 +77,6 @@ const PageChip = () => {
         <Preview
           title="Icons"
           preview={<Icons />}
-          isGrayBg
           code={examples ? examples.Icons : 'Loading'}
         />
       </section>
@@ -81,7 +85,6 @@ const PageChip = () => {
         <Preview
           title="Icons with isStroke"
           preview={<WithStroke />}
-          isGrayBg
           code={examples ? examples.WithStroke : 'Loading'}
         />
       </section>

@@ -2,20 +2,19 @@ import { Carousel } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const ExampleContent = styled.div(({ theme: { color, radius } }) => ({
-  width: '20rem',
-  height: '12rem',
-  borderRadius: rem(radius.small),
+const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
+  width: rem(320),
+  height: rem(192),
+  borderRadius: newTokens.borderRadius.xsmall,
   background: color.goku[80],
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  fontSize: '2rem',
+  fontSize: rem(32),
 }));
 
 const Example = () => {
-  const items = Array.from({ length: 5 }, (value, index) => index);
-
+  const items = Array.from({ length: 5 }, (index) => index);
   return (
     <div className="flex justify-around items-center w-full">
       <Carousel

@@ -156,6 +156,10 @@ export const withHorizontalScroll = (options: Options): any => {
     itemRefs.forEach((item) => {
       observer.observe(item);
     });
+
+    return () => itemRefs.forEach((item) => {
+        observer.unobserve(item);
+      });
   }, []);
 
   React.useEffect(() => {

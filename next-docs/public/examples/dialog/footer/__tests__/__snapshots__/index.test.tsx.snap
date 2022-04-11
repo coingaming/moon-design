@@ -8,36 +8,36 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 hVHwDA"
+      className="sc-lfVKn bPIsPe"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR ikGjOe"
+            className="sc-NaKpO kHyLkk"
             size="small"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR jJaGZc"
+            className="sc-NaKpO keKtCO"
             size="small"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -45,15 +45,15 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR qICXo"
+          className="sc-NaKpO jnltdi"
           size="small"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -65,37 +65,37 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 ixLaXk"
+      className="sc-lfVKn kaReGy"
       size="small"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR grZBjZ"
+            className="sc-NaKpO cRvBUz"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR fplzlr"
+            className="sc-NaKpO hyWenN"
             size="xsmall"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -103,15 +103,15 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR jeogBL"
+          className="sc-NaKpO hPQXDJ"
           size="xsmall"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -130,21 +130,21 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR ikGjOe"
+            className="sc-NaKpO kHyLkk"
             size="small"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -157,36 +157,36 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR ikGjOe"
+            className="sc-NaKpO kHyLkk"
             size="small"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR jJaGZc"
+            className="sc-NaKpO keKtCO"
             size="small"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -199,36 +199,36 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR ikGjOe"
+            className="sc-NaKpO kHyLkk"
             size="small"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR jJaGZc"
+            className="sc-NaKpO keKtCO"
             size="small"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -236,15 +236,15 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR qICXo"
+          className="sc-NaKpO jnltdi"
           size="small"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -256,21 +256,21 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR ikGjOe"
+            className="sc-NaKpO kHyLkk"
             size="small"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -278,15 +278,15 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR qICXo"
+          className="sc-NaKpO jnltdi"
           size="small"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -298,21 +298,21 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR jJaGZc"
+            className="sc-NaKpO keKtCO"
             size="small"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -325,21 +325,21 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR jJaGZc"
+            className="sc-NaKpO keKtCO"
             size="small"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -347,15 +347,15 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR qICXo"
+          className="sc-NaKpO jnltdi"
           size="small"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -377,21 +377,21 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR grZBjZ"
+            className="sc-NaKpO cRvBUz"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -404,36 +404,36 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR grZBjZ"
+            className="sc-NaKpO cRvBUz"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR fplzlr"
+            className="sc-NaKpO hyWenN"
             size="xsmall"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -446,36 +446,36 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR grZBjZ"
+            className="sc-NaKpO cRvBUz"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
           </button>
         </div>
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR fplzlr"
+            className="sc-NaKpO hyWenN"
             size="xsmall"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -483,15 +483,15 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR jeogBL"
+          className="sc-NaKpO hPQXDJ"
           size="xsmall"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -503,21 +503,21 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR grZBjZ"
+            className="sc-NaKpO cRvBUz"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -525,15 +525,15 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR jeogBL"
+          className="sc-NaKpO hPQXDJ"
           size="xsmall"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>
@@ -545,21 +545,21 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR fplzlr"
+            className="sc-NaKpO hyWenN"
             size="xsmall"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -572,21 +572,21 @@ exports[`Dialog Footer renders with Button XS 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="Container-srtaaf-0 jGMHPe"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="RightWrapper-vueweo-0 ewJJjN"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="ButtonWrapper-k744ak-0 gCKAA-d"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-kjOQFR fplzlr"
+            className="sc-NaKpO hyWenN"
             size="xsmall"
             variant="tertiary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Button
             </div>
@@ -594,15 +594,15 @@ exports[`Dialog Footer renders with Button XS 1`] = `
         </div>
       </div>
       <div
-        className="ButtonWrapper-k744ak-0 gCKAA-d"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-kjOQFR jeogBL"
+          className="sc-NaKpO hPQXDJ"
           size="xsmall"
           variant="secondary"
         >
           <div
-            className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+            className="sc-jlyluv fhIgZ"
           >
             Button
           </div>

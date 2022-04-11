@@ -2,80 +2,80 @@
 
 exports[`Banner renders 1`] = `
 <div
-  className="Container-sc-103kmdg-0 fjbOJT"
+  className="sc-crwTFP hgUhml"
 >
   <div
-    className="Body-sc-1aycagq-0 cNKOnB"
+    className="sc-dAEBNM YGnMD"
   >
     <div
-      className="Header__Container-rvo247-0 iguyoK"
+      className="sc-dYpzDs leUFvb"
     >
       <div
-        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+        className="sc-fStMfJ FRLRL"
       >
         Title here
       </div>
     </div>
     <div
-      className="BodyContent-sc-12uf0g0-0 exdeGm"
+      className="sc-xsHdy lgMUYc"
     >
       Lorem ipsum dolor...
     </div>
   </div>
   <div
-    className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+    className="sc-fuIOqd fGiRij"
   />
 </div>
 `;
 
 exports[`Banner renders in mobile mode 1`] = `
 <div
-  className="Container-sc-103kmdg-0 llOYec"
+  className="sc-crwTFP jBJQKG"
 >
   <div
-    className="Body-sc-1aycagq-0 cNKOnB"
+    className="sc-dAEBNM YGnMD"
   >
     <div
-      className="Header__Container-rvo247-0 iguyoK"
+      className="sc-dYpzDs leUFvb"
     >
       <div
-        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+        className="sc-fStMfJ FRLRL"
       >
         Title here
       </div>
     </div>
     <div
-      className="BodyContent-sc-12uf0g0-0 exdeGm"
+      className="sc-xsHdy lgMUYc"
     >
       Lorem ipsum dolor...
     </div>
   </div>
   <div
-    className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+    className="sc-fuIOqd fGiRij"
   >
     <span>
       <button
-        className="ButtonComponent-sc-1qwityd-0 gqmhLf"
+        className="sc-guXXQn fMNwaS"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
       >
         Discard
         <div
-          className="Hover-yzznpt-0 ctGatB"
+          className="sc-dOeoAH eaXcSX"
         />
       </button>
     </span>
     <span>
       <button
-        className="ButtonComponent-sc-1qwityd-0 faeJLE"
+        className="sc-guXXQn hHvctl"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
       >
         Confirm
         <div
-          className="Hover-yzznpt-0 ctGatB"
+          className="sc-dOeoAH eaXcSX"
         />
       </button>
     </span>
@@ -85,28 +85,28 @@ exports[`Banner renders in mobile mode 1`] = `
 
 exports[`Banner renders in single line mode 1`] = `
 <div
-  className="Container-sc-103kmdg-0 fjbOJT"
+  className="sc-crwTFP hgUhml"
 >
   <div
-    className="Body-sc-1aycagq-0 bIFCew"
+    className="sc-dAEBNM bLDNTO"
   >
     <div
-      className="BodyContent-sc-12uf0g0-0 imznOc"
+      className="sc-xsHdy iapdmu"
     >
       Your email is not verified. Verify to enable withdrawals.
     </div>
     <div
-      className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+      className="sc-fuIOqd fGiRij"
     >
       <button
-        className="ButtonComponent-sc-1qwityd-0 gGYfxQ"
+        className="sc-guXXQn grWUkl"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
       >
         Resend verification link to email ›
         <div
-          className="Hover-yzznpt-0 ctGatB"
+          className="sc-dOeoAH eaXcSX"
         />
       </button>
     </div>
@@ -116,52 +116,52 @@ exports[`Banner renders in single line mode 1`] = `
 
 exports[`Banner renders with buttons 1`] = `
 <div
-  className="Container-sc-103kmdg-0 AIDNV"
+  className="sc-crwTFP gMjuln"
 >
   <div
-    className="Body-sc-1aycagq-0 cNKOnB"
+    className="sc-dAEBNM YGnMD"
   >
     <div
-      className="Header__Container-rvo247-0 iguyoK"
+      className="sc-dYpzDs leUFvb"
     >
       <div
-        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+        className="sc-fStMfJ FRLRL"
       >
         Title here
       </div>
     </div>
     <div
-      className="BodyContent-sc-12uf0g0-0 exdeGm"
+      className="sc-xsHdy lgMUYc"
     >
       Lorem ipsum dolor...
     </div>
   </div>
   <div
-    className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+    className="sc-fuIOqd fGiRij"
   >
     <span>
       <button
-        className="ButtonComponent-sc-1qwityd-0 gqmhLf"
+        className="sc-guXXQn fMNwaS"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
       >
         Discard
         <div
-          className="Hover-yzznpt-0 ctGatB"
+          className="sc-dOeoAH eaXcSX"
         />
       </button>
     </span>
     <span>
       <button
-        className="ButtonComponent-sc-1qwityd-0 faeJLE"
+        className="sc-guXXQn hHvctl"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
       >
         Confirm
         <div
-          className="Hover-yzznpt-0 ctGatB"
+          className="sc-dOeoAH eaXcSX"
         />
       </button>
     </span>
@@ -174,52 +174,52 @@ exports[`Banner renders with buttons RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="Container-sc-103kmdg-0 AIDNV"
+    className="sc-crwTFP gMjuln"
   >
     <div
-      className="Body-sc-1aycagq-0 cNKOnB"
+      className="sc-dAEBNM YGnMD"
     >
       <div
-        className="Header__Container-rvo247-0 iguyoK"
+        className="sc-dYpzDs leUFvb"
       >
         <div
-          className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+          className="sc-fStMfJ FRLRL"
         >
           Title here
         </div>
       </div>
       <div
-        className="BodyContent-sc-12uf0g0-0 exdeGm"
+        className="sc-xsHdy lgMUYc"
       >
         Lorem ipsum dolor...
       </div>
     </div>
     <div
-      className="BodyButtonContainer-sc-1d7fqg6-0 gtDTXg"
+      className="sc-fuIOqd fGiRij"
     >
       <span>
         <button
-          className="ButtonComponent-sc-1qwityd-0 gqmhLf"
+          className="sc-guXXQn fMNwaS"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
         >
           Discard
           <div
-            className="Hover-yzznpt-0 ctGatB"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </span>
       <span>
         <button
-          className="ButtonComponent-sc-1qwityd-0 faeJLE"
+          className="sc-guXXQn hHvctl"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
         >
           Confirm
           <div
-            className="Hover-yzznpt-0 ctGatB"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </span>
@@ -230,24 +230,24 @@ exports[`Banner renders with buttons RTL 1`] = `
 
 exports[`Banner renders with header icon 1`] = `
 <div
-  className="Container-sc-103kmdg-0 fjbOJT"
+  className="sc-crwTFP hgUhml"
 >
   <div
-    className="Body-sc-1aycagq-0 cNKOnB"
+    className="sc-dAEBNM YGnMD"
   >
     <div
-      className="Header__Container-rvo247-0 iguyoK"
+      className="sc-dYpzDs leUFvb"
     >
       <div
-        className="HeaderContent-sc-1xtff5d-0 eaSpdX"
+        className="sc-fStMfJ FRLRL"
       >
         Title here
       </div>
       <div
-        className="HeaderIcon-yhl49-0 dRmaNd"
+        className="sc-bUabYq hQiAFq"
       >
         <svg
-          className="sc-jnSlpE"
+          className="sc-gwvkYY"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -264,7 +264,7 @@ exports[`Banner renders with header icon 1`] = `
       </div>
     </div>
     <div
-      className="BodyContent-sc-12uf0g0-0 exdeGm"
+      className="sc-xsHdy lgMUYc"
     >
       Lorem ipsum dolor...
     </div>
