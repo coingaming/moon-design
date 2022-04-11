@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.3.7
+
+### Patch Changes
+
+- Table Row Selection
+
 ## 8.3.6
 
 ### Patch Changes

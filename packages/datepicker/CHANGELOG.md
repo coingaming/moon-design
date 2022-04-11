@@ -1,5 +1,17 @@
 # @heathmont/moon-datepicker
 
+## 8.3.7
+
+### Patch Changes
+
+- Table Row Selection
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.3.7
+  - @heathmont/moon-core@8.3.7
+  - @heathmont/moon-icons@8.3.7
+  - @heathmont/moon-themes@8.3.7
+  - @heathmont/moon-utils@8.3.7
+
 ## 8.3.6
 
 ### Patch Changes
