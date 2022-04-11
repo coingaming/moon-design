@@ -1,13 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
+// import Hover from '../hover/Hover';
+import Size from '../private/enums/Size';
+import AnimationContent from './private/buttonAnimations/AnimationContent';
+import ButtonComponent from './styles/ButtonComponent';
 
-const Button = () => {
+type ButtonSizes = Size.SMALL | Size.MEDIUM | Size.LARGE | Size.XLARGE;
+type ButtonVariants = 'primary' | 'secondary' | 'tertiary' | 'ghost';
+type ButtonIcons = 'left' | 'right' | 'only';
+type ButtonAnimations = 'progress' | 'success' | 'error' | 'pulse';
+
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariants;
+  size?: ButtonSizes | 'small' | 'medium' | 'large' | 'xlarge';
+  icon?: ButtonIcons;
+  animation?: ButtonAnimations;
+  iconSize?: number;
+  iconLeft?: JSX.Element | boolean;
+  iconRight?: JSX.Element | boolean;
+  iconOnly?: JSX.Element | boolean;
+  disabled?: boolean;
+  fullWidth?: boolean;
+}
+
+const Button: React.FC<ButtonProps> = ({
+  children,
+  variant = 'primary',
+  size = Size.MEDIUM,
+  icon,
+  iconSize = 24,
+  iconLeft,
+  iconRight,
+  iconOnly,
+  fullWidth,
+  disabled,
+  animation,
+  ...rest
+}) => {
+  const [isHover, setIsHover] = useState(false);
+  const hasAnimationContent =
+    animation === 'progress' || animation === 'success';
   return (
-    <button
-      type="button"
-      className="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-piccolo hover:bg-indigo-700 focus:outline-none "
+    <ButtonComponent
+      size={size as ButtonSizes}
+      variant={variant as ButtonVariants}
+      icon={icon}
+      iconSize={iconSize}
+      iconLeft={iconLeft}
+      iconRight={iconRight}
+      iconOnly={iconOnly}
+      fullWidth={fullWidth}
+      disabled={disabled}
+      animation={animation}
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
+      {...rest}
     >
-      Button text
-    </button>
+      {hasAnimationContent ? (
+        <AnimationContent
+          iconLeft={iconLeft}
+          children={children}
+          iconRight={iconRight}
+          iconOnly={iconOnly}
+          animation={animation}
+          variant={variant}
+        />
+      ) : (
+        <>
+          {iconLeft}
+          {children}
+          {iconRight}
+          {iconOnly}
+        </>
+      )}
+      {/* <Hover isHover={isHover} /> */}
+    </ButtonComponent>
   );
 };
 
