@@ -58,6 +58,7 @@ export type TableProps<D extends object = {}> = {
   isSticky?: boolean;
   isSorting?: boolean;
   selectable?: boolean;
+  useCheckbox?: boolean;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
   getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);
@@ -82,6 +83,7 @@ const Table: React.FC<TableProps> = ({
  isSticky = true,
  isSorting = false,
  selectable = false,
+ useCheckbox = false,
  renderRowSubComponent,
  getOnRowClickHandler = () => undefined,
  getOnRowSelect = () => undefined
@@ -214,7 +216,7 @@ const Table: React.FC<TableProps> = ({
       evenRowBackgroundColor={evenRowBackgroundColor}
       headerBackgroundColor={headerBackgroundColor}
     >
-      <Header selectable={selectable} headerBackgroundColor={headerBackgroundColor}>
+      <Header selectable={useCheckbox} headerBackgroundColor={headerBackgroundColor}>
         {headerGroups.map((headerGroup: HeaderGroup<object>) => (
           <HeaderTR {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column: HeaderGroup<object>) => {
@@ -238,7 +240,8 @@ const Table: React.FC<TableProps> = ({
             evenRowBackgroundColor,
             defaultRowBackgroundColor,
             rowSpanHeaders,
-            selectable
+            selectable,
+            useCheckbox
           })
           : renderRows({
             rows,
@@ -259,13 +262,14 @@ const Table: React.FC<TableProps> = ({
             evenRowBackgroundColor,
             defaultRowBackgroundColor,
             renderRowSubComponent,
-            selectable
+            selectable,
+            useCheckbox
           })
         }
       </Body>
 
       {withFooter && (
-        <Footer ref={footerRef} selectable={selectable} headerBackgroundColor={headerBackgroundColor}>
+        <Footer ref={footerRef} selectable={useCheckbox} headerBackgroundColor={headerBackgroundColor}>
           {footerGroups.map((footerGroup: HeaderGroup<object>) => (
             <HeaderTR {...footerGroup.getHeaderGroupProps()}>
               {footerGroup.headers.map((column: HeaderGroup<object>) =>
