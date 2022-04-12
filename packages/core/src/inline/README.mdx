@@ -1,0 +1,110 @@
+---
+name: Inline
+menu: Components
+route: /components/inline
+---
+
+# Inline
+
+Displaying content inline can pose issues when scaling to different viewport sizes.
+
+Inline ensures content gracefully adapts to changes in layout, with adjustable spacing between adjacent content.
+
+```jsx react-live
+() => {
+  const Example = styled.div(
+    ({ theme: { color, radius, space }, hueRotate }) => ({
+      borderRadius: radius.small,
+      width: rem(space.large),
+      height: rem(space.large),
+      backgroundColor: color.piccolo[100],
+      filter: `hue-rotate(${hueRotate}deg)`,
+    })
+  );
+
+  const items = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Inline>
+      {items.map((item) => (
+        <Example hueRotate={item} />
+      ))}
+    </Inline>
+  );
+};
+```
+
+## Customization
+
+Spacing between adjacent content can be adjusted via the `space` prop.
+
+`space` accepts themed space keys (e.g. `large` returns the large themed `space`
+key in `rem`), a number (returned in `px`) or a string value (e.g. `"30px"` or
+`"1rem"`).
+
+```jsx react-live
+() => {
+  const Example = styled.div(
+    ({ theme: { color, radius, space }, hueRotate }) => ({
+      borderRadius: radius.small,
+      width: rem(space.large),
+      height: rem(space.large),
+      backgroundColor: color.piccolo[100],
+      filter: `hue-rotate(${hueRotate}deg)`,
+    })
+  );
+
+  const items = Array.from({ length: 50 }, (v, i) => i);
+
+  return (
+    <Inline space="large">
+      {items.map((item) => (
+        <Example hueRotate={item} />
+      ))}
+    </Inline>
+  );
+};
+```
+
+## Examples
+
+Using `Inline`, we can quickly mock-up a cluster of buttons.
+
+When rendered `as="ul"` for semantic purposes, all child
+list-item (`li`) elements will display without bullets.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 10 }, (v, i) => i);
+
+  return (
+    <Inline as="ul">
+      {items.map((item) => (
+        <li>
+          <Button variant="tertiary">Item {item}</Button>
+        </li>
+      ))}
+    </Inline>
+  );
+};
+```
+
+## justifyContent
+
+Using `rightAlign`, we can quickly align everything to right.
+
+```jsx react-live
+() => {
+  const items = Array.from({ length: 3 }, (v, i) => i);
+
+  return (
+    <Inline as="ul" justifyContent="flex-end">
+      {items.map((item) => (
+        <li>
+          <Button variant="tertiary">Item {item}</Button>
+        </li>
+      ))}
+    </Inline>
+  );
+};
+```

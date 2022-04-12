@@ -1,5 +1,4 @@
 import Preview from '../../components/codePreview/Preview';
-import Caption from '../../public/examples/switch/Caption';
 import Default from '../../public/examples/switch/Default';
 import Rtl from '../../public/examples/switch/Rtl';
 import Sizes from '../../public/examples/switch/Sizes';
@@ -19,7 +18,7 @@ export default function PageSwitch({ isRtl }: Props) {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Switch</h1>
         <p className="text-lg mt-4">
-          An alternate checkbox appearance for simulating on/off state.
+          Switch is a control that is used to quickly switch between two possible states. Switches are only used for these binary actions that occur immediately after the user “flips” the switch. They are commonly used for “on/off” switches.
         </p>
       </section>
 
@@ -46,30 +45,6 @@ export default function PageSwitch({ isRtl }: Props) {
           title="Dark &amp; Light mode"
           preview={<Theme />}
           code={examples ? examples.Theme : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="With captions"
-          preview={<Caption />}
-          code={examples ? examples.Caption : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Dark &amp; Light mode with captions"
-          preview={<ThemeCaption />}
-          code={examples ? examples.ThemeCaption : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Rtl"
-          preview={<Rtl />}
-          code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
     </>
