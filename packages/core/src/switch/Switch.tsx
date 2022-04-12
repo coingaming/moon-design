@@ -17,6 +17,7 @@ type SliderOptions = {
   colorScheme?: boolean;
   isRtl?: boolean;
   checked?: boolean;
+  disabled?: boolean;
   size?: Size;
 };
 
@@ -121,16 +122,19 @@ const getLabelHeight = (size: Size) => {
   }
 };
 
-const Label = styled.label<{ size: Size }>(({ theme: { space }, size }) => ({
-  [switchWidthProperty]: size ? getLabelWidth(size) : rem(space.large * 2),
-  [switchHeightProperty]: size ? getLabelHeight(size) : rem(space.large),
-
-  position: 'relative',
-  display: 'inline-block',
-  width: switchWidth,
-  height: switchHeight,
-  flexShrink: 0,
-})) as React.FC<{}>;
+const Label = styled.label<{ size: Size, disabled?: boolean }>(
+  ({ theme: { space, opacity }, size, disabled }) => ({
+    [switchWidthProperty]: size ? getLabelWidth(size) : rem(space.large * 2),
+    [switchHeightProperty]: size ? getLabelHeight(size) : rem(space.large),
+    cursor: disabled ? 'not-allowed' : 'pointer',
+    opacity: disabled ? opacity.disabled : 1,
+    position: 'relative',
+    display: 'inline-block',
+    width: switchWidth,
+    height: switchHeight,
+    flexShrink: 0,
+  })
+) as React.FC<{}>;
 
 const Input = styled.input<SliderOptions>(
   ({ colorScheme, isRtl, theme: { color }, size }) => ({
@@ -159,6 +163,7 @@ type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;
 
 export type SwitchProps = {
   checked?: boolean;
+  disabled?: boolean;
   className?: string;
   id?: HTMLInputProps['id'];
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -168,6 +173,7 @@ export type SwitchProps = {
 const Switch: React.FC<SwitchProps> = ({
   className,
   checked = false,
+  disabled = false,
   colorScheme,
   id,
   isRtl,
@@ -179,6 +185,7 @@ const Switch: React.FC<SwitchProps> = ({
   const labelProps = {
     className,
     size,
+    disabled
   };
 
   const inputProps = {
@@ -188,6 +195,7 @@ const Switch: React.FC<SwitchProps> = ({
     size,
     isRtl,
     ...props,
+    onChange: props.onChange && !disabled ? props.onChange : () => {}
   };
 
   const sliderProps = { colorScheme, isRtl, checked, size };
