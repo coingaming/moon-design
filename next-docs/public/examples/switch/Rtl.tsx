@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Switch } from '@heathmont/moon-components';
+import { Switch } from '@heathmont/moon-core';
 
 const Example = () => {
   const [state, setState] = useState(true);

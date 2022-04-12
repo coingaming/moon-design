@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Switch } from '@heathmont/moon-components';
+import { Switch } from '@heathmont/moon-core';
 
 const Example = () => {
   const [state, setState] = useState(true);
@@ -9,7 +9,7 @@ const Example = () => {
     <div className="flex gap-20 items-center">
       <Switch
         id="test-switch-1"
-        size="xs"
+        size="2xs"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
@@ -17,7 +17,7 @@ const Example = () => {
       />
       <Switch
         id="test-switch-2"
-        size="md"
+        size="xs"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
@@ -25,7 +25,7 @@ const Example = () => {
       />
       <Switch
         id="test-switch-3"
-        size="lg"
+        size="sm"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
