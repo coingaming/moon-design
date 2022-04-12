@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <h3
-  className="sc-kfZjQZ kicBZi"
+  className="sc-kfJtpr ieYFlj"
   color="bulma.100"
   size={16}
 >
@@ -15,28 +15,28 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
     Defaul color is Bulma
   </h3>
   <h3
-    className="sc-kfZjQZ dccGUz"
+    className="sc-kfJtpr jsFGXC"
     color="piccolo.100"
     size={16}
   >
     Piccolo
   </h3>
   <h3
-    className="sc-kfZjQZ iZAPRt"
+    className="sc-kfJtpr bKGPKE"
     color="trunks.100"
     size={16}
   >
     Trunks
   </h3>
   <h3
-    className="sc-kfZjQZ fLxxST"
+    className="sc-kfJtpr fwcmEu"
     color="krillin.100"
     size={16}
   >
@@ -50,14 +50,14 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
     Defaul font-weight is bold
   </h3>
   <h3
-    className="sc-kfZjQZ dfokzb"
+    className="sc-kfJtpr dSrnmu"
     color="bulma.100"
     size={16}
   >
@@ -71,21 +71,21 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
     H3 is a default tag
   </h3>
   <h2
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
     H2 tag
   </h2>
   <h6
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
@@ -99,21 +99,21 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
     Defaul font-size is 16px
   </h3>
   <h3
-    className="sc-kfZjQZ cuXpex"
+    className="sc-kfJtpr bGblsE"
     color="bulma.100"
     size={24}
   >
     Size is 24px
   </h3>
   <h3
-    className="sc-kfZjQZ ijtewC"
+    className="sc-kfJtpr gxrNUT"
     color="bulma.100"
     size={48}
   >
@@ -127,21 +127,21 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
+    className="sc-kfJtpr ieYFlj"
     color="bulma.100"
     size={16}
   >
     Text-align is not specified
   </h3>
   <h3
-    className="sc-kfZjQZ cmgCqd"
+    className="sc-kfJtpr cmSkvE"
     color="bulma.100"
     size={16}
   >
     Centered text
   </h3>
   <h3
-    className="sc-kfZjQZ hQyzay"
+    className="sc-kfJtpr fVnwyj"
     color="bulma.100"
     size={16}
   >
