@@ -5,14 +5,14 @@ exports[`Linear Progress renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-hqMhxz lnDcLf"
+    className="sc-hrbXZh ivLHph"
   >
     <div
-      className="sc-csDNRp pkiVL"
+      className="sc-csnXpH eYXGWr"
       value={30}
     />
     <div
-      className="sc-hKugDw crJgsa"
+      className="sc-hKeqbO dgXuGw"
     >
       <span>
         Progress
@@ -20,15 +20,15 @@ exports[`Linear Progress renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-hqMhxz lnDcLf"
+    className="sc-hrbXZh ivLHph"
   >
     <div
-      className="sc-csDNRp iXKUug"
+      className="sc-csnXpH heXaug"
       height={5}
       value={30}
     />
     <div
-      className="sc-hKugDw hCyeyp"
+      className="sc-hKeqbO bVnWVL"
     >
       <span>
         Progress

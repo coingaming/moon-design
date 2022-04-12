@@ -2,10 +2,10 @@
 
 exports[`Pagination renders 1`] = `
 <div
-  className="sc-bWIbvL elNNOU"
+  className="sc-bVMxNJ jOlRbv"
 >
   <div
-    className="sc-chbKxp hnqnkI"
+    className="sc-cgLTVH emlEkS"
   >
     <ul>
       <li
@@ -20,12 +20,12 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-NaKpO gYkaeo"
+            className="sc-NqARw bpGiYW"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="sc-jlyluv fhIgZ"
+              className="sc-jlObWd jxAGSv"
             >
               Previous
             </div>
@@ -130,12 +130,12 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-NaKpO gYkaeo"
+            className="sc-NqARw bpGiYW"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="sc-jlyluv fhIgZ"
+              className="sc-jlObWd jxAGSv"
             >
               Next
             </div>
