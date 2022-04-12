@@ -5,6 +5,7 @@ import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';
 import rgba from "polished/lib/color/rgba";
 import hideVisually from 'polished/lib/mixins/hideVisually';
 import styled from 'styled-components';
+import {Text} from "../index";
 import Inline from '../inline/Inline';
 
 const switchWidthProperty = '--switch-width';
@@ -83,6 +84,9 @@ const Slider = styled.span<SliderOptions>(
         0.4
       )}`
     },
+    '& > span > p:first-child': {
+      color: checked ? color.goten[100] : color.bulma[100]
+    }
   })
 );
 
@@ -171,6 +175,23 @@ const Input = styled.input<SliderOptions>(
   })
 ) as React.FC<{}>;
 
+const ButtonLabels = styled.span({
+  width: '100%',
+  height: '100%',
+  display: 'flex',
+  justifyContent: 'space-around',
+  alignItems: 'center',
+  position: 'relative',
+  zIndex: 9,
+  '& > p': {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '50%',
+    textAlign: 'center'
+  }
+});
+
 Input.defaultProps = {
   type: 'checkbox',
 };
@@ -184,6 +205,10 @@ export type SwitchProps = {
   id?: HTMLInputProps['id'];
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   size?: Size;
+  buttons?: {
+    onLabel: string;
+    offLabel: string;
+  }
 } & SliderOptions;
 
 const Switch: React.FC<SwitchProps> = ({
@@ -194,16 +219,16 @@ const Switch: React.FC<SwitchProps> = ({
   id,
   isRtl,
   size = 'sm',
-  button = false,
+  buttons,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
-
+console.log('buttons', buttons)
   const labelProps = {
     className,
     size,
     disabled,
-    button
+    button: !!buttons
   };
 
   const inputProps = {
@@ -211,13 +236,19 @@ const Switch: React.FC<SwitchProps> = ({
     colorScheme,
     checked,
     size,
-    button,
+    button: !!buttons,
     isRtl,
     ...props,
     onChange: props.onChange && !disabled ? props.onChange : () => {}
   };
 
-  const sliderProps = { colorScheme, isRtl, checked, size, button };
+  const sliderProps = {
+    colorScheme,
+    isRtl,
+    checked,
+    size,
+    button: !!buttons
+  };
 
   return (
     <Inline
@@ -227,7 +258,14 @@ const Switch: React.FC<SwitchProps> = ({
     >
       <Label {...labelProps}>
         <Input {...inputProps} />
-        <Slider {...sliderProps} />
+        <Slider {...sliderProps}>
+          {
+            !!buttons && (<ButtonLabels>
+              <Text>{buttons.offLabel}</Text>
+              <Text>{buttons.onLabel}</Text>
+            </ButtonLabels>)
+          }
+        </Slider>
       </Label>
     </Inline>
   );
