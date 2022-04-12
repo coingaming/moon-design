@@ -7,6 +7,8 @@ type Props = {
   backgroundColor?: ColorProps;
   size?: 'twoxsmall' | 'xsmall';
   textTransform?:  "capitalize" | "lowercase" | "uppercase";
+  iconRight?: boolean;
+  iconLeft?: boolean;
 };
 
 const LabelContainer = styled.span<Props>(
@@ -19,8 +21,10 @@ const LabelContainer = styled.span<Props>(
     fontSize: rem(10),
     lineHeight: rem(16),
   }),
-  ({ size }) => ({
-    padding: size === 'twoxsmall' ? `0 ${rem(8)}` : `${rem(4)} ${rem(8)}`,
+  ({ size, iconLeft, iconRight }) => ({
+    padding: size === 'twoxsmall'
+      ? `0 ${rem(iconRight ? 5 : 8)} 0 ${rem(iconLeft ? 5 : 8)}`
+      : `${rem(4)} ${rem(iconRight ? 5 : 8)} ${rem(4)} ${rem(iconLeft ? 5 : 8)}`,
   }),
   ({textTransform}) => ({
     textTransform: textTransform ? textTransform : 'uppercase',
