@@ -19,7 +19,8 @@ type RenderRowsProps<D extends object = {}> = {
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  selectable: boolean;
+  selectable?: boolean;
+  useCheckbox?: boolean;
 };
 
 const renderRows = ({
@@ -30,7 +31,8 @@ const renderRows = ({
   getOnRowClickHandler,
   getOnRowSelectHandler,
   renderRowSubComponent,
-  selectable
+  selectable,
+  useCheckbox
 }: RenderRowsProps) => {
   if (!rows) return;
   return rows.map((
@@ -80,17 +82,23 @@ const renderRows = ({
           customBackground={!!row.original?.backgroundColor}
           backgroundColor={backgroundColor}
           fontColor={fontColor}
-          onClick={onRowClickHandler ? () => onRowClickHandler(row) : undefined}
+          onClick={selectable ?
+            onRowSelectHandler ? () => {
+              setSelected(!isSelected);
+              onRowSelectHandler(row);
+            } : onRowClickHandler ? () => onRowClickHandler(row) : undefined :
+            onRowClickHandler ? () => onRowClickHandler(row) : undefined
+          }
         >
-          {selectable && (<TD selectable={true}>
+          {useCheckbox && (<TD selectable={true}>
             <CheckboxTD>
               <Checkbox
                 checked={isSelected}
                 onClick={(e: Event) => e.stopPropagation()}
                 onChange={() => {
-                  setSelected(!isSelected)
+                  /*setSelected(!isSelected)
 
-                  if (onRowSelectHandler) onRowSelectHandler(row);
+                  if (onRowSelectHandler) onRowSelectHandler(row);*/
                 }}
               />
             </CheckboxTD>
