@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import Buttons from "../../public/examples/switch/Buttons";
 import Default from '../../public/examples/switch/Default';
 import Disabled from "../../public/examples/switch/Disabled";
 import Rtl from '../../public/examples/switch/Rtl';
@@ -53,6 +54,14 @@ export default function PageSwitch({ isRtl }: Props) {
         <Preview
           title="Disabled"
           preview={<Disabled />}
+          code={examples ? examples.Theme : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Buttons"
+          preview={<Buttons />}
           code={examples ? examples.Theme : 'Loading'}
         />
       </section>

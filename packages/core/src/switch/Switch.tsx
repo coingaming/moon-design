@@ -19,9 +19,10 @@ type SliderOptions = {
   checked?: boolean;
   disabled?: boolean;
   size?: Size;
+  button?: boolean;
 };
 
-type Size = '2xs' | 'xs' | 'sm';
+type Size = '2xs' | 'xs' | 'sm' | 'md' | 'lg';
 
 const Slider = styled.span<SliderOptions>(
   ({
@@ -29,6 +30,7 @@ const Slider = styled.span<SliderOptions>(
     isRtl,
     checked,
     size,
+    button,
     theme: { color, space, transitionDuration },
   }) => ({
     position: 'absolute',
@@ -52,7 +54,7 @@ const Slider = styled.span<SliderOptions>(
     backgroundSize: `calc(${switchHeight} - (${
       size === '2xs' ? rem(space.xsmall) : rem(space.small)
     } * 1.4))`,
-    borderRadius: `calc(${switchWidth} + ${rem(2)})`,
+    borderRadius: button ? rem(12) : `calc(${switchWidth} + ${rem(2)})`,
     transitionProperty: 'background-color',
     transitionDuration: `${transitionDuration.slow}s`,
     transitionTimingFunction: 'ease',
@@ -62,14 +64,14 @@ const Slider = styled.span<SliderOptions>(
       })`,
       content: '""',
       position: 'absolute',
-      width: 'var(--switch-indicator-size)',
+      width: button ? `calc(50% - ${rem(space.xsmall)})` : 'var(--switch-indicator-size)',
       height: 'var(--switch-indicator-size)',
       // left: rem(space.xsmall),
       ...adjustBallSwitchIcon(space, isRtl, checked),
       bottom: size !== '2xs' ? rem(space.xsmall) :
         `calc(${rem(space.xsmall)} / 2)`,
       backgroundColor: color.goten[100],
-      borderRadius: '50%',
+      borderRadius: button ? rem(8) : '50%',
       transition: 'inherit',
       transitionProperty: 'background-color, transform',
       willChange: 'transform',
@@ -98,34 +100,48 @@ const adjustBallSwitchIcon = (
     : { left: `calc(${switchHeight} )` };
 };
 
-const getLabelWidth = (size: Size) => {
+const getLabelWidth = (size: Size, button?: boolean) => {
+  if (button) {
+    if (size === 'md') {
+      return rem(110);
+    }
+
+    return rem(126);
+  }
+
   if (size === '2xs') {
     return rem(32);
   }
   if (size === 'xs') {
     return rem(44);
   }
-  if (size === 'sm') {
-    return rem(60);
-  }
+
+  return rem(60);
 };
 
-const getLabelHeight = (size: Size) => {
+const getLabelHeight = (size: Size, button?: boolean) => {
+  if (button) {
+    if (size === 'md') {
+      return rem(40);
+    }
+
+    return rem(48);
+  }
+
   if (size === '2xs') {
     return rem(16);
   }
   if (size === 'xs') {
     return rem(24);
   }
-  if (size === 'sm') {
-    return rem(32);
-  }
+
+  return rem(32);
 };
 
-const Label = styled.label<{ size: Size, disabled?: boolean }>(
-  ({ theme: { space, opacity }, size, disabled }) => ({
-    [switchWidthProperty]: size ? getLabelWidth(size) : rem(space.large * 2),
-    [switchHeightProperty]: size ? getLabelHeight(size) : rem(space.large),
+const Label = styled.label<{ size: Size, disabled?: boolean, button?: boolean }>(
+  ({ theme: { space, opacity }, size, disabled, button }) => ({
+    [switchWidthProperty]: size ? getLabelWidth(size, button) : rem(space.large * 2),
+    [switchHeightProperty]: size ? getLabelHeight(size, button) : rem(space.large),
     cursor: disabled ? 'not-allowed' : 'pointer',
     opacity: disabled ? opacity.disabled : 1,
     position: 'relative',
@@ -137,7 +153,7 @@ const Label = styled.label<{ size: Size, disabled?: boolean }>(
 ) as React.FC<{}>;
 
 const Input = styled.input<SliderOptions>(
-  ({ colorScheme, isRtl, theme: { color }, size }) => ({
+  ({ colorScheme, isRtl, theme: { color }, size, button }) => ({
     ...hideVisually(),
     [`&:checked + ${Slider}`]: {
       backgroundColor: colorScheme ? undefined : color.piccolo[100],
@@ -145,10 +161,10 @@ const Input = styled.input<SliderOptions>(
         backgroundColor: colorScheme ? undefined : color.goten[100],
         transform: isRtl
           ? `translateX(calc(${switchWidth} / ${
-            size === '2xs' ? 2.4 : size ? 2.15 : 2
+            size === '2xs' ? 2.4 : size || button ? 2.15 : 2
           }) * -1)`
           : `translateX(calc(${switchWidth} / ${
-            size === '2xs' ? 2.4 : size ? 2.15 : 2
+            size === '2xs' ? 2.4 : size || button ? 2.15 : 2
           }))`,
       },
     },
@@ -178,6 +194,7 @@ const Switch: React.FC<SwitchProps> = ({
   id,
   isRtl,
   size = 'sm',
+  button = false,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
@@ -185,7 +202,8 @@ const Switch: React.FC<SwitchProps> = ({
   const labelProps = {
     className,
     size,
-    disabled
+    disabled,
+    button
   };
 
   const inputProps = {
@@ -193,12 +211,13 @@ const Switch: React.FC<SwitchProps> = ({
     colorScheme,
     checked,
     size,
+    button,
     isRtl,
     ...props,
     onChange: props.onChange && !disabled ? props.onChange : () => {}
   };
 
-  const sliderProps = { colorScheme, isRtl, checked, size };
+  const sliderProps = { colorScheme, isRtl, checked, size, button };
 
   return (
     <Inline
