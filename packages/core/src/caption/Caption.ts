@@ -1,26 +1,28 @@
-import { ColorProps } from '@heathmont/moon-themes';
-import { rem, themed } from '@heathmont/moon-utils';
+import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import getCaptionSize from '../private/text/getCaptionSize';
+import type { TextAlign } from '../text/Text';
+import type { ColorProps } from '@heathmont/moon-themes';
 
-export interface CaptionProps {
+export type CaptionSize = 9 | 10;
+
+export type CaptionProps = {
   color?: ColorProps;
   textAlign?: TextAlign;
-}
+  size?: CaptionSize;
+  isRegular?: boolean;
+};
 
 const Caption = styled.span<CaptionProps>(
-  ({ color, theme }) => ({
+  ({ color = 'bulma.100', isRegular, theme }) => ({
     color: themed('color', color)(theme),
-    fontSize: rem(10),
-    lineHeight: rem(16),
-    fontWeight: theme.newTokens.font.weight.semibold,
+    fontWeight: isRegular
+      ? theme.newTokens.font.weight.normal
+      : theme.newTokens.font.weight.semibold,
     textTransform: 'uppercase',
-    letterSpacing: rem(1),
   }),
+  ({ size = 10 }) => getCaptionSize(size),
   ({ textAlign }) => textAlign && { textAlign }
 );
-
-Caption.defaultProps = {
-  color: 'bulma.100',
-};
 
 export default Caption;

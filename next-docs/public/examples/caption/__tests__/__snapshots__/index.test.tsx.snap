@@ -2,8 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <span
-  className="sc-kQPWqK fqkYfy"
-  color="bulma.100"
+  className="sc-jLFzpH kFTwYx"
 >
   Caption
 </span>
@@ -14,28 +13,44 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-kQPWqK fqkYfy"
-    color="bulma.100"
+    className="sc-jLFzpH kFTwYx"
   >
-    Defaul color is Bulma
+    Default color is Bulma
   </span>
   <span
-    className="sc-kQPWqK hjLkej"
+    className="sc-jLFzpH ezKrSA"
     color="piccolo.100"
   >
     Piccolo
   </span>
   <span
-    className="sc-kQPWqK tnzPZ"
+    className="sc-jLFzpH eLJwue"
     color="trunks.100"
   >
     Trunks
   </span>
   <span
-    className="sc-kQPWqK eqOiaf"
+    className="sc-jLFzpH butrIU"
     color="krillin.100"
   >
     Krillin
+  </span>
+</div>
+`;
+
+exports[`Caption renders font weights 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="sc-jLFzpH kFTwYx"
+  >
+    Default font-weight is bold
+  </span>
+  <span
+    className="sc-jLFzpH fFNGNs"
+  >
+    Font-weight is regular
   </span>
 </div>
 `;
@@ -45,23 +60,38 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-kQPWqK fqkYfy"
-    color="bulma.100"
+    className="sc-jLFzpH kFTwYx"
   >
     Span is a default tag
   </span>
   <p
-    className="sc-kQPWqK fqkYfy"
-    color="bulma.100"
+    className="sc-jLFzpH kFTwYx"
   >
     Paragraph tag
   </p>
   <label
-    className="sc-kQPWqK fqkYfy"
-    color="bulma.100"
+    className="sc-jLFzpH kFTwYx"
   >
     Label tag
   </label>
+</div>
+`;
+
+exports[`Caption renders sizes 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="sc-jLFzpH kFTwYx"
+  >
+    Default font-size is 10px
+  </span>
+  <span
+    className="sc-jLFzpH focVNI"
+    size={9}
+  >
+    Size is 9px
+  </span>
 </div>
 `;
 
@@ -70,20 +100,17 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-kQPWqK fqkYfy"
-    color="bulma.100"
+    className="sc-jLFzpH kFTwYx"
   >
     Text-align is not specified
   </span>
   <span
-    className="sc-kQPWqK fjwTdF"
-    color="bulma.100"
+    className="sc-jLFzpH kQjtXK"
   >
     Centered text
   </span>
   <span
-    className="sc-kQPWqK dPOWNu"
-    color="bulma.100"
+    className="sc-jLFzpH dPXKKt"
   >
     Right alignment
   </span>

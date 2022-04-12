@@ -1,7 +1,6 @@
 import React from 'react';
-import { Popover } from '@heathmont/moon-popover/lib';
-import { Footer, Heading, Text } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
+import { Popover } from '@heathmont/moon-popover';
+import { Footer, Heading, Text, Button } from '@heathmont/moon-core';
 
 const Example = () => (
   <Popover
@@ -25,17 +24,17 @@ const Example = () => (
 
         <Footer
           primButton={
-            <Button fullWidth variant="primary" size="xsmall">
+            <Button fullWidth size="small">
               Button
             </Button>
           }
           secButton={
-            <Button fullWidth variant="tertiary" size="xsmall">
+            <Button fullWidth variant="secondary" size="small">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="secondary" size="xsmall">
+            <Button fullWidth variant="tertiary" size="small">
               Button
             </Button>
           }
@@ -45,7 +44,7 @@ const Example = () => (
       </div>
     }
   >
-    <Button variant="primary">Toggle Popover</Button>
+    <Button>Toggle Popover</Button>
   </Popover>
 );
 

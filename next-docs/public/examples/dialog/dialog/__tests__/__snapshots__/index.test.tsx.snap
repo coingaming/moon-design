@@ -2,22 +2,7 @@
 
 exports[`Dialog renders 1`] = `
 <button
-  className="sc-NaKpO bnUslH"
-  onClick={[Function]}
-  size="small"
-  variant="primary"
->
-  <div
-    className="sc-jlyluv fhIgZ"
-  >
-    Open Dialog
-  </div>
-</button>
-`;
-
-exports[`Dialog renders Another Dialog Header 1`] = `
-<button
-  className="sc-guXXQn hHvctl"
+  className="sc-kQPWqK grwJxr"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -25,23 +10,38 @@ exports[`Dialog renders Another Dialog Header 1`] = `
 >
   Open Dialog
   <div
-    className="sc-dOeoAH eaXcSX"
+    className="sc-fXnaaH irmIKH"
+  />
+</button>
+`;
+
+exports[`Dialog renders Another Dialog Header 1`] = `
+<button
+  className="sc-kQPWqK grwJxr"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
+>
+  Open Dialog
+  <div
+    className="sc-fXnaaH irmIKH"
   />
 </button>
 `;
 
 exports[`Dialog renders Dialog Header 1`] = `
 <button
-  className="sc-NaKpO bnUslH"
+  className="sc-kQPWqK grwJxr"
   onClick={[Function]}
-  size="small"
-  variant="primary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
 >
+  Open Dialog
   <div
-    className="sc-jlyluv fhIgZ"
-  >
-    Open Dialog
-  </div>
+    className="sc-fXnaaH irmIKH"
+  />
 </button>
 `;
 
@@ -50,46 +50,46 @@ exports[`Dialog renders RTL 1`] = `
   dir="rtl"
 >
   <button
-    className="sc-NaKpO bnUslH"
+    className="sc-kQPWqK grwJxr"
     onClick={[Function]}
-    size="small"
-    variant="primary"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
   >
+    Open Dialog
     <div
-      className="sc-jlyluv fhIgZ"
-    >
-      Open Dialog
-    </div>
+      className="sc-fXnaaH irmIKH"
+    />
   </button>
 </div>
 `;
 
 exports[`Dialog renders with No Background 1`] = `
 <button
-  className="sc-NaKpO bnUslH"
+  className="sc-kQPWqK grwJxr"
   onClick={[Function]}
-  size="small"
-  variant="primary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
 >
+  Open Dialog
   <div
-    className="sc-jlyluv fhIgZ"
-  >
-    Open Dialog
-  </div>
+    className="sc-fXnaaH irmIKH"
+  />
 </button>
 `;
 
 exports[`Dialog renders with No Close 1`] = `
 <button
-  className="sc-NaKpO bnUslH"
+  className="sc-kQPWqK grwJxr"
   onClick={[Function]}
-  size="small"
-  variant="primary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
 >
+  Open Dialog
   <div
-    className="sc-jlyluv fhIgZ"
-  >
-    Open Dialog
-  </div>
+    className="sc-fXnaaH irmIKH"
+  />
 </button>
 `;

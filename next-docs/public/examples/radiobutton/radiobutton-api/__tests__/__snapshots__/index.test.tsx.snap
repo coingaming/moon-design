@@ -17,15 +17,15 @@ exports[`Radiobutton API renders 1`] = `
       id="age1"
     >
       <div
-        className="sc-hDiigY ejvLle"
+        className="sc-kxCoLp hNQtWX"
       >
         <div
-          className="sc-hBnnqw hAchHB"
+          className="sc-cMOycp cgSTTe"
         >
           0 - 30
         </div>
         <span
-          className="sc-grxMti drZgh"
+          className="sc-gZVZiL iNrxSg"
         >
           <input
             aria-label="0 - 30"
@@ -53,15 +53,15 @@ exports[`Radiobutton API renders 1`] = `
       id="age2"
     >
       <div
-        className="sc-hDiigY ejvLle"
+        className="sc-kxCoLp hNQtWX"
       >
         <div
-          className="sc-hBnnqw hAchHB"
+          className="sc-cMOycp cgSTTe"
         >
           31 - 60
         </div>
         <span
-          className="sc-grxMti drZgh"
+          className="sc-gZVZiL iNrxSg"
         >
           <input
             aria-label="0 - 30"
@@ -89,15 +89,15 @@ exports[`Radiobutton API renders 1`] = `
       id="age3"
     >
       <div
-        className="sc-hDiigY ejvLle"
+        className="sc-kxCoLp hNQtWX"
       >
         <div
-          className="sc-hBnnqw hAchHB"
+          className="sc-cMOycp cgSTTe"
         >
           31 - 60
         </div>
         <span
-          className="sc-grxMti drZgh"
+          className="sc-gZVZiL iNrxSg"
         >
           <input
             aria-label="61 - 100"

@@ -30,7 +30,7 @@ exports[`Search renders 1`] = `
             value=""
           />
           <svg
-            className="sc-dZKfvG sc-cNxsl  fctAVc"
+            className="sc-fxvKuh sc-cNxsl  fctAVc"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -50,18 +50,18 @@ exports[`Search renders 1`] = `
         </span>
       </form>
       <button
-        className="sc-NaKpO hGOfHQ sc-keVxVi kPAfLp"
+        className="sc-dOaiCS frkkZD sc-keVxVi kPAfLp"
         onClick={[Function]}
-        size="small"
-        variant="default"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
       >
+        <span>
+          Clear
+        </span>
         <div
-          className="sc-jlyluv fhIgZ"
-        >
-          <span>
-            Clear
-          </span>
-        </div>
+          className="sc-jdzWJC ifPczp"
+        />
       </button>
     </div>
     <div
@@ -114,7 +114,7 @@ exports[`Search renders Loading State 1`] = `
             value=""
           />
           <svg
-            className="sc-dZKfvG sc-cNxsl  fctAVc"
+            className="sc-fxvKuh sc-cNxsl  fctAVc"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"

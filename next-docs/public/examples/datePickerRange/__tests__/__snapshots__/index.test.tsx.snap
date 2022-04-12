@@ -14,16 +14,16 @@ exports[`DatePicker renders 1`] = `
       className="sc-iEYPXb jsSCYN"
     >
       <button
-        className="sc-cQGHq kCdyOG"
+        className="sc-eqKtKx kVNEMb"
         onClick={[Function]}
-        size="small"
-        variant="tertiary"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
       >
+        17/09/2020 03:24 - 27/09/2020 03:24
         <div
-          className="sc-gLiDUF eRUFbk"
-        >
-          17/09/2020 03:24 - 27/09/2020 03:24
-        </div>
+          className="sc-dDaJoQ dqCRYK"
+        />
       </button>
       <div
         className="sc-bySYJV szOOx"
@@ -506,17 +506,17 @@ exports[`DatePicker renders 1`] = `
           className="sc-eBhLNR jvXAox"
         >
           <div
-            className="sc-hBnnqw iXoXbP"
+            className="sc-cMOycp jlOnYs"
             size="small"
           >
             <div
-              className="sc-jlHmcD hpBjNW"
+              className="sc-kjMGqw bCrbnX"
             >
               <div
-                className="sc-dfvoPZ fbNjqY"
+                className="sc-kSmoGW iAAuAr"
               >
                 <button
-                  className="sc-ednYOV cFgTfh"
+                  className="sc-eqKtKx jBMUOm"
                   onClick={[Function]}
                   onMouseEnter={[Function]}
                   onMouseLeave={[Function]}
@@ -524,15 +524,15 @@ exports[`DatePicker renders 1`] = `
                 >
                   Apply
                   <div
-                    className="sc-kfZjQZ cXOReF"
+                    className="sc-dDaJoQ dqCRYK"
                   />
                 </button>
               </div>
               <div
-                className="sc-dfvoPZ fbNjqY"
+                className="sc-kSmoGW iAAuAr"
               >
                 <button
-                  className="sc-ednYOV bWzjzS"
+                  className="sc-eqKtKx iRimUp"
                   onClick={[Function]}
                   onMouseEnter={[Function]}
                   onMouseLeave={[Function]}
@@ -540,16 +540,16 @@ exports[`DatePicker renders 1`] = `
                 >
                   Cancel
                   <div
-                    className="sc-kfZjQZ cXOReF"
+                    className="sc-dDaJoQ dqCRYK"
                   />
                 </button>
               </div>
             </div>
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV laZsGp"
+                className="sc-eqKtKx jfFzLK"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -557,7 +557,7 @@ exports[`DatePicker renders 1`] = `
               >
                 Reset
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
@@ -590,18 +590,18 @@ exports[`RangeCalendar canel 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -628,18 +628,18 @@ exports[`RangeCalendar renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -666,18 +666,18 @@ exports[`RangeCalendar select day 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -704,18 +704,18 @@ exports[`RangeCalendar show calendar 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
     <div
       className="sc-bySYJV jDgpDE"
@@ -1601,17 +1601,17 @@ exports[`RangeCalendar show calendar 1`] = `
         className="sc-eBhLNR jvXAox"
       >
         <div
-          className="sc-hBnnqw iXoXbP"
+          className="sc-cMOycp jlOnYs"
           size="small"
         >
           <div
-            className="sc-jlHmcD hpBjNW"
+            className="sc-kjMGqw bCrbnX"
           >
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV cFgTfh"
+                className="sc-eqKtKx jBMUOm"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -1619,15 +1619,15 @@ exports[`RangeCalendar show calendar 1`] = `
               >
                 Apply
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV bWzjzS"
+                className="sc-eqKtKx iRimUp"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -1635,16 +1635,16 @@ exports[`RangeCalendar show calendar 1`] = `
               >
                 Cancel
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
           </div>
           <div
-            className="sc-dfvoPZ fbNjqY"
+            className="sc-kSmoGW iAAuAr"
           >
             <button
-              className="sc-ednYOV laZsGp"
+              className="sc-eqKtKx jfFzLK"
               onClick={[Function]}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
@@ -1652,7 +1652,7 @@ exports[`RangeCalendar show calendar 1`] = `
             >
               Reset
               <div
-                className="sc-kfZjQZ cXOReF"
+                className="sc-dDaJoQ dqCRYK"
               />
             </button>
           </div>
@@ -1688,18 +1688,18 @@ exports[`RangeCalendar: RTL renders 1`] = `
       }
     >
       <button
-        className="sc-cQGHq kCdyOG"
+        className="sc-eqKtKx kVNEMb"
         onClick={[Function]}
-        size="small"
-        variant="tertiary"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        size="medium"
       >
+        17/09/2020
+         - 
+        27/09/2020
         <div
-          className="sc-gLiDUF eRUFbk"
-        >
-          17/09/2020
-           - 
-          27/09/2020
-        </div>
+          className="sc-dDaJoQ dqCRYK"
+        />
       </button>
     </div>
   </div>
@@ -1727,18 +1727,18 @@ exports[`RangeCalendar: disabled day renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1765,18 +1765,18 @@ exports[`RangeCalendar: disabled days renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1803,18 +1803,18 @@ exports[`RangeCalendar: disabled inner range renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1841,18 +1841,18 @@ exports[`RangeCalendar: disabled range renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1879,18 +1879,18 @@ exports[`RangeCalendar: one month renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1917,18 +1917,18 @@ exports[`RangeCalendar: only date renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1955,18 +1955,18 @@ exports[`RangeCalendar: with period renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -1993,18 +1993,18 @@ exports[`RangeCalendar: without footer renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
   </div>
 </div>
@@ -2031,18 +2031,18 @@ exports[`RangeCalendar: without input renders 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
     <div
       className="sc-bySYJV fLFgwG"
@@ -2965,17 +2965,17 @@ exports[`RangeCalendar: without input renders 1`] = `
         className="sc-eBhLNR jvXAox"
       >
         <div
-          className="sc-hBnnqw iXoXbP"
+          className="sc-cMOycp jlOnYs"
           size="small"
         >
           <div
-            className="sc-jlHmcD hpBjNW"
+            className="sc-kjMGqw bCrbnX"
           >
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV cFgTfh"
+                className="sc-eqKtKx jBMUOm"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -2983,15 +2983,15 @@ exports[`RangeCalendar: without input renders 1`] = `
               >
                 Apply
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV bWzjzS"
+                className="sc-eqKtKx iRimUp"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -2999,16 +2999,16 @@ exports[`RangeCalendar: without input renders 1`] = `
               >
                 Cancel
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
           </div>
           <div
-            className="sc-dfvoPZ fbNjqY"
+            className="sc-kSmoGW iAAuAr"
           >
             <button
-              className="sc-ednYOV laZsGp"
+              className="sc-eqKtKx jfFzLK"
               onClick={[Function]}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
@@ -3016,7 +3016,7 @@ exports[`RangeCalendar: without input renders 1`] = `
             >
               Reset
               <div
-                className="sc-kfZjQZ cXOReF"
+                className="sc-dDaJoQ dqCRYK"
               />
             </button>
           </div>
@@ -3048,18 +3048,18 @@ exports[`RangeCalendar: without input show month select 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
     <div
       className="sc-bySYJV fLFgwG"
@@ -4058,17 +4058,17 @@ exports[`RangeCalendar: without input show month select 1`] = `
         className="sc-eBhLNR jvXAox"
       >
         <div
-          className="sc-hBnnqw iXoXbP"
+          className="sc-cMOycp jlOnYs"
           size="small"
         >
           <div
-            className="sc-jlHmcD hpBjNW"
+            className="sc-kjMGqw bCrbnX"
           >
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV cFgTfh"
+                className="sc-eqKtKx jBMUOm"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -4076,15 +4076,15 @@ exports[`RangeCalendar: without input show month select 1`] = `
               >
                 Apply
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV bWzjzS"
+                className="sc-eqKtKx iRimUp"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -4092,16 +4092,16 @@ exports[`RangeCalendar: without input show month select 1`] = `
               >
                 Cancel
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
           </div>
           <div
-            className="sc-dfvoPZ fbNjqY"
+            className="sc-kSmoGW iAAuAr"
           >
             <button
-              className="sc-ednYOV laZsGp"
+              className="sc-eqKtKx jfFzLK"
               onClick={[Function]}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
@@ -4109,7 +4109,7 @@ exports[`RangeCalendar: without input show month select 1`] = `
             >
               Reset
               <div
-                className="sc-kfZjQZ cXOReF"
+                className="sc-dDaJoQ dqCRYK"
               />
             </button>
           </div>
@@ -4141,18 +4141,18 @@ exports[`RangeCalendar: without input show years select 1`] = `
     }
   >
     <button
-      className="sc-cQGHq kCdyOG"
+      className="sc-eqKtKx kVNEMb"
       onClick={[Function]}
-      size="small"
-      variant="tertiary"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
     >
+      17/09/2020
+       - 
+      27/09/2020
       <div
-        className="sc-gLiDUF eRUFbk"
-      >
-        17/09/2020
-         - 
-        27/09/2020
-      </div>
+        className="sc-dDaJoQ dqCRYK"
+      />
     </button>
     <div
       className="sc-bySYJV fLFgwG"
@@ -6661,17 +6661,17 @@ exports[`RangeCalendar: without input show years select 1`] = `
         className="sc-eBhLNR jvXAox"
       >
         <div
-          className="sc-hBnnqw iXoXbP"
+          className="sc-cMOycp jlOnYs"
           size="small"
         >
           <div
-            className="sc-jlHmcD hpBjNW"
+            className="sc-kjMGqw bCrbnX"
           >
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV cFgTfh"
+                className="sc-eqKtKx jBMUOm"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -6679,15 +6679,15 @@ exports[`RangeCalendar: without input show years select 1`] = `
               >
                 Apply
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
             <div
-              className="sc-dfvoPZ fbNjqY"
+              className="sc-kSmoGW iAAuAr"
             >
               <button
-                className="sc-ednYOV bWzjzS"
+                className="sc-eqKtKx iRimUp"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -6695,16 +6695,16 @@ exports[`RangeCalendar: without input show years select 1`] = `
               >
                 Cancel
                 <div
-                  className="sc-kfZjQZ cXOReF"
+                  className="sc-dDaJoQ dqCRYK"
                 />
               </button>
             </div>
           </div>
           <div
-            className="sc-dfvoPZ fbNjqY"
+            className="sc-kSmoGW iAAuAr"
           >
             <button
-              className="sc-ednYOV laZsGp"
+              className="sc-eqKtKx jfFzLK"
               onClick={[Function]}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
@@ -6712,7 +6712,7 @@ exports[`RangeCalendar: without input show years select 1`] = `
             >
               Reset
               <div
-                className="sc-kfZjQZ cXOReF"
+                className="sc-dDaJoQ dqCRYK"
               />
             </button>
           </div>

@@ -5,18 +5,18 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-eBSEYL gPPVpA"
+    className="sc-iDRUQT jsodaT"
   >
     Medium
   </span>
   <span
-    className="sc-eBSEYL ccWkcW"
+    className="sc-iDRUQT ixxSmd"
     color="piccolo.100"
   >
     Medium
   </span>
   <span
-    className="sc-eBSEYL nYGEj"
+    className="sc-iDRUQT diRxss"
     color="goten.100"
   >
     Medium
@@ -29,13 +29,13 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-eBSEYL gFoREm"
+    className="sc-iDRUQT jQQZBt"
     size="small"
   >
     Small
   </span>
   <span
-    className="sc-eBSEYL gPPVpA"
+    className="sc-iDRUQT jsodaT"
   >
     Medium
   </span>
@@ -50,20 +50,20 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-      className="sc-eBSEYL gFoREm"
+      className="sc-iDRUQT jQQZBt"
       size="small"
     >
       Small
     </span>
     <span
-      className="sc-eBSEYL gFoREm"
+      className="sc-iDRUQT jQQZBt"
       size="small"
     >
       <span
-        className="sc-dhqjGB jFhdMl"
+        className="sc-ciicml iKMEgO"
       >
         <svg
-          className="sc-iVKqUL"
+          className="sc-iFwKgL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -81,15 +81,15 @@ exports[`Label renders with different SizesList 1`] = `
       Small
     </span>
     <span
-      className="sc-eBSEYL gFoREm"
+      className="sc-iDRUQT jQQZBt"
       size="small"
     >
       Small
       <span
-        className="sc-iXKDzi gnOqWd"
+        className="sc-eZgkGA dxzXUt"
       >
         <svg
-          className="sc-gwvkYY"
+          className="sc-hTtwUo"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -106,14 +106,14 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="sc-eBSEYL gFoREm"
+      className="sc-iDRUQT jQQZBt"
       size="small"
     >
       <span
-        className="sc-dhqjGB jFhdMl"
+        className="sc-ciicml iKMEgO"
       >
         <svg
-          className="sc-iVKqUL"
+          className="sc-iFwKgL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -130,10 +130,10 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
       Small
       <span
-        className="sc-iXKDzi gnOqWd"
+        className="sc-eZgkGA dxzXUt"
       >
         <svg
-          className="sc-gwvkYY"
+          className="sc-hTtwUo"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -154,18 +154,18 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-      className="sc-eBSEYL gPPVpA"
+      className="sc-iDRUQT jsodaT"
     >
       Medium
     </span>
     <span
-      className="sc-eBSEYL gPPVpA"
+      className="sc-iDRUQT jsodaT"
     >
       <span
-        className="sc-dhqjGB jFhdMl"
+        className="sc-ciicml iKMEgO"
       >
         <svg
-          className="sc-iVKqUL"
+          className="sc-iFwKgL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -183,14 +183,14 @@ exports[`Label renders with different SizesList 1`] = `
       Medium
     </span>
     <span
-      className="sc-eBSEYL gPPVpA"
+      className="sc-iDRUQT jsodaT"
     >
       Medium
       <span
-        className="sc-iXKDzi gnOqWd"
+        className="sc-eZgkGA dxzXUt"
       >
         <svg
-          className="sc-gwvkYY"
+          className="sc-hTtwUo"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -207,13 +207,13 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="sc-eBSEYL gPPVpA"
+      className="sc-iDRUQT jsodaT"
     >
       <span
-        className="sc-dhqjGB jFhdMl"
+        className="sc-ciicml iKMEgO"
       >
         <svg
-          className="sc-iVKqUL"
+          className="sc-iFwKgL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -230,10 +230,10 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
       Medium
       <span
-        className="sc-iXKDzi gnOqWd"
+        className="sc-eZgkGA dxzXUt"
       >
         <svg
-          className="sc-gwvkYY"
+          className="sc-hTtwUo"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
