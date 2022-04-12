@@ -1,6 +1,6 @@
-import styled, { CSSObject } from 'styled-components';
-import { themed } from '@heathmont/moon-utils';
 import { SpaceProps } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
+import styled, { CSSObject } from 'styled-components';
 
 import stackMixin from '../stackMixin/stackMixin';
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-import hideVisually from 'polished/lib/mixins/hideVisually';
-import { rem, uniqueId } from '@heathmont/moon-utils';
 import { useTheme } from '@heathmont/moon-themes';
+import { rem, uniqueId } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 
 import Reel from '../reel/Reel';
 

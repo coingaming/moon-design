@@ -1,6 +1,6 @@
 import React from 'react';
-import { act, create, ReactTestRenderer } from 'react-test-renderer';
 import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
+import { act, create, ReactTestRenderer } from 'react-test-renderer';
 import 'jest-styled-components';
 
 import CheckboxMultiselect from '../CheckboxMultiselect';

@@ -1,7 +1,7 @@
 // DEPRECATED! Use one from core/src/heading
-import styled from 'styled-components';
-import { themed } from '@heathmont/moon-utils';
 import { ColorNames } from '@heathmont/moon-themes';
+import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import getFontSize from '../private/text/getFontSize';
 

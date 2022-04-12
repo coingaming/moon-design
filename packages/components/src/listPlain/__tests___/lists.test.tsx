@@ -1,12 +1,12 @@
 import React from 'react';
-import styled, { CSSObject } from 'styled-components';
 import { create } from 'react-test-renderer';
+import styled, { CSSObject } from 'styled-components';
 import 'jest-styled-components';
 
-import listPlain from '../listPlain';
-import listPlainItem from '../../listPlainItem/listPlainItem';
 import listInline from '../../listInline/listInline';
 import listInlineItem from '../../listInlineItem/listInlineItem';
+import listPlainItem from '../../listPlainItem/listPlainItem';
+import listPlain from '../listPlain';
 
 const Example = styled.div<{ css: CSSObject }>(({ css }) => css);
 

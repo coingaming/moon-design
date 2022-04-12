@@ -1,10 +1,10 @@
 import React from 'react';
+import { ColorProps } from '@heathmont/moon-themes';
+import ToastAction from './ToastAction';
+import ToastCloseButton from './ToastCloseButton';
 import ToastContainer from './ToastContainer';
 import ToastIcon from './ToastIcon';
 import ToastMessage from './ToastMessage';
-import ToastAction from './ToastAction';
-import ToastCloseButton from './ToastCloseButton';
-import { ColorProps } from '@heathmont/moon-themes';
 
 interface ToastProps {
   message: JSX.Element;
