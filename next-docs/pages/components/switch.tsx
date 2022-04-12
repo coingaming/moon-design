@@ -2,10 +2,8 @@ import Preview from '../../components/codePreview/Preview';
 import Buttons from "../../public/examples/switch/Buttons";
 import Default from '../../public/examples/switch/Default';
 import Disabled from "../../public/examples/switch/Disabled";
-import Rtl from '../../public/examples/switch/Rtl';
 import Sizes from '../../public/examples/switch/Sizes';
 import Theme from '../../public/examples/switch/Theme';
-import ThemeCaption from '../../public/examples/switch/ThemeCaption';
 import useExamples from '../../utils/useExamples';
 
 type Props = {
