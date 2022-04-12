@@ -1,16 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Search } from '@heathmont/moon-core';
-import { rem } from '@heathmont/moon-utils';
 import { IconProfile } from '@heathmont/moon-assets';
 
-const Dropdown = styled.ul(({ theme: { space } }) => ({
+const Dropdown = styled.ul(({ theme: { newTokens } }) => ({
   display: 'flex',
   flexDirection: 'column',
-  gap: rem(space.xsmall),
+  gap: newTokens.space.threexsmall,
   listStyle: 'none',
   li: {
-    padding: rem(space.small),
+    padding: newTokens.space.twoxsmall,
   },
 }));
 

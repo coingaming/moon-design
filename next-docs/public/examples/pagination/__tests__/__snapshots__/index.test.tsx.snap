@@ -2,10 +2,10 @@
 
 exports[`Pagination renders 1`] = `
 <div
-  className="Pagination__PaginationWrapper-wdjjm6-0 lgSjaA"
+  className="sc-bWIbvL elNNOU"
 >
   <div
-    className="Pagination__ReactPaginateWrapper-wdjjm6-2 hRCGqU"
+    className="sc-chbKxp hnqnkI"
   >
     <ul>
       <li
@@ -20,12 +20,12 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-kjOQFR cJfyMq"
+            className="sc-NaKpO gYkaeo"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Previous
             </div>
@@ -130,12 +130,12 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-kjOQFR cJfyMq"
+            className="sc-NaKpO gYkaeo"
             size="xsmall"
             variant="primary"
           >
             <div
-              className="Button__InnerContainer-sc-1xtdszg-0 jgzFKv"
+              className="sc-jlyluv fhIgZ"
             >
               Next
             </div>

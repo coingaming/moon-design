@@ -8,16 +8,16 @@ exports[`TextInput: type Text renders RTL 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
         dir="rtl"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 erWlfF"
+        className="sc-oTTbF ieBiDU"
         dir="rtl"
         placeholder=" "
         readOnly={true}
@@ -25,7 +25,7 @@ exports[`TextInput: type Text renders RTL 1`] = `
         value="Read only text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -36,16 +36,16 @@ exports[`TextInput: type Text renders RTL 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
         dir="rtl"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jAgYam"
+        className="sc-oTTbF izyiDj"
         dir="rtl"
         placeholder=" "
         readOnly={true}
@@ -53,7 +53,7 @@ exports[`TextInput: type Text renders RTL 1`] = `
         value="Read only text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -64,13 +64,13 @@ exports[`TextInput: type Text renders RTL 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 jlpyds"
+          className="sc-oTTbF kIfQWV"
           dir="rtl"
           placeholder=" "
           readOnly={true}
@@ -78,13 +78,13 @@ exports[`TextInput: type Text renders RTL 1`] = `
           value="Read only text"
         />
         <label
-          className="LabelInner-vrrjt0-0 jmYFGi"
+          className="sc-fOpBKL dUFjbR"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -102,23 +102,23 @@ exports[`TextInput: type Text renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 gBLEES"
+      className="sc-imZoBe cVhXWo"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 erWlfF"
+        className="sc-oTTbF ieBiDU"
         disabled={true}
         placeholder=" "
         type="text"
         value="Text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -129,23 +129,23 @@ exports[`TextInput: type Text renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 gBLEES"
+      className="sc-imZoBe cVhXWo"
       disabled={true}
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jAgYam"
+        className="sc-oTTbF izyiDj"
         disabled={true}
         placeholder=" "
         type="text"
         value="Text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -156,27 +156,27 @@ exports[`TextInput: type Text renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 gBLEES"
+      className="sc-imZoBe cVhXWo"
       disabled={true}
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 jlpyds"
+          className="sc-oTTbF kIfQWV"
           disabled={true}
           placeholder=" "
           type="text"
           value="Text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -194,20 +194,20 @@ exports[`TextInput: type Text renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 gwIzKP"
+        className="sc-oTTbF ZTjWy"
         placeholder="Placeholder"
         type="text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jpqMLI"
+        className="sc-dloDHE eyGbhX"
         role="alert"
       >
         Error message
@@ -218,20 +218,20 @@ exports[`TextInput: type Text renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 fWpDgU"
+        className="sc-oTTbF fuitrZ"
         placeholder="Placeholder"
         type="text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 jpqMLI"
+        className="sc-dloDHE eyGbhX"
         role="alert"
       >
         Error message
@@ -242,24 +242,24 @@ exports[`TextInput: type Text renders error 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 KkBZO"
+          className="sc-oTTbF hSExwn"
           placeholder="Placeholder"
           type="text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 jpqMLI"
+        className="sc-dloDHE eyGbhX"
         role="alert"
       >
         Error message
@@ -277,22 +277,22 @@ exports[`TextInput: type Text renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 erWlfF"
+        className="sc-oTTbF ieBiDU"
         placeholder=" "
         readOnly={true}
         type="text"
         value="Read only text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -303,22 +303,22 @@ exports[`TextInput: type Text renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jAgYam"
+        className="sc-oTTbF izyiDj"
         placeholder=" "
         readOnly={true}
         type="text"
         value="Read only text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -329,26 +329,26 @@ exports[`TextInput: type Text renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 jlpyds"
+          className="sc-oTTbF kIfQWV"
           placeholder=" "
           readOnly={true}
           type="text"
           value="Read only text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -366,20 +366,20 @@ exports[`TextInput: type Text renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 erWlfF"
+        className="sc-oTTbF ieBiDU"
         placeholder="Placeholder"
         type="text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -390,20 +390,20 @@ exports[`TextInput: type Text renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jAgYam"
+        className="sc-oTTbF izyiDj"
         placeholder="Placeholder"
         type="text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -414,24 +414,24 @@ exports[`TextInput: type Text renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 jlpyds"
+          className="sc-oTTbF kIfQWV"
           placeholder="Placeholder"
           type="text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -449,15 +449,15 @@ exports[`TextInput: type Text renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 erWlfF"
+        className="sc-oTTbF ieBiDU"
         placeholder="Placeholder"
         type="text"
       />
@@ -467,15 +467,15 @@ exports[`TextInput: type Text renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 jAgYam"
+        className="sc-oTTbF izyiDj"
         placeholder="Placeholder"
         type="text"
       />
@@ -485,18 +485,18 @@ exports[`TextInput: type Text renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 jlpyds"
+          className="sc-oTTbF kIfQWV"
           placeholder="Placeholder"
           type="text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         >
           xlarge
         </label>
@@ -514,10 +514,10 @@ exports[`TextInput: type Text renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <input
-        className="Input-qkdgvx-0 erWlfF"
+        className="sc-oTTbF ieBiDU"
         placeholder="medium"
         type="text"
       />
@@ -527,10 +527,10 @@ exports[`TextInput: type Text renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <input
-        className="Input-qkdgvx-0 jAgYam"
+        className="sc-oTTbF izyiDj"
         placeholder="large"
         type="text"
       />
@@ -540,18 +540,18 @@ exports[`TextInput: type Text renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 XqqD"
+        className="sc-iKKmqK kuIlyc"
       >
         <input
-          className="Input-qkdgvx-0 iChyKN"
+          className="sc-oTTbF iDUbgU"
           placeholder="xlarge"
           type="text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         />
       </div>
     </div>
@@ -567,20 +567,20 @@ exports[`TextInput: type Text supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         medium
       </label>
       <input
-        className="Input-qkdgvx-0 ZCRe"
+        className="sc-oTTbF lmKnNf"
         placeholder="Placeholder"
         type="text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -591,20 +591,20 @@ exports[`TextInput: type Text supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <label
-        className="Label-sc-1rdea5p-0 bJkxLR"
+        className="sc-fqEDVf rOOsh"
       >
         large
       </label>
       <input
-        className="Input-qkdgvx-0 iFWOYx"
+        className="sc-oTTbF bUpZmE"
         placeholder="Placeholder"
         type="text"
       />
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder
@@ -615,24 +615,24 @@ exports[`TextInput: type Text supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="Container-sc-1f49upb-0 fVKDpE"
+      className="sc-imZoBe ivtqle"
     >
       <div
-        className="Inner-sc-1soq84i-0 kEpyYM"
+        className="sc-iKKmqK fQvxgz"
       >
         <input
-          className="Input-qkdgvx-0 jlpyds"
+          className="sc-oTTbF kIfQWV"
           placeholder="Placeholder"
           type="text"
         />
         <label
-          className="LabelInner-vrrjt0-0 foFqgl"
+          className="sc-fOpBKL hWiPKu"
         >
           xlarge
         </label>
       </div>
       <p
-        className="HintText-sc-1e9hzxr-0 kLWKCo"
+        className="sc-dloDHE cUFjLb"
         role="alert"
       >
         Informative message holder

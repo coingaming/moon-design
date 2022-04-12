@@ -9,6 +9,7 @@ import DeepTable from '../../../public/examples/table/DeepTable';
 import Default from '../../../public/examples/table/Default';
 import ExpandedRow from '../../../public/examples/table/ExpandedRow';
 import MiniMap from '../../../public/examples/table/MiniMap';
+import SelectableCheckboxes from "../../../public/examples/table/SelectableCheckboxes";
 import SelectableRows from '../../../public/examples/table/SelectableRows';
 import Sorting from '../../../public/examples/table/Sorting';
 import useExamples from '../../../utils/useExamples';
@@ -69,6 +70,19 @@ export default function PageTable() {
             </div>
           }
           code={examples ? examples.SelectableRows : 'Loading'}
+        />
+      </section>
+
+      {/* Selectable checkboxes */}
+      <section className="mt-8">
+        <Preview
+          title="Selectable checkboxes"
+          preview={
+            <div className="flex justify-around items-center w-full">
+              <SelectableCheckboxes />
+            </div>
+          }
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 

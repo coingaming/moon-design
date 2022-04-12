@@ -19,7 +19,8 @@ type RenderSpanRowsProps<D extends object = {}> = {
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
-  selectable: boolean;
+  selectable?: boolean;
+  useCheckbox?: boolean;
 };
 
 const renderSpanRows = ({
@@ -30,7 +31,8 @@ const renderSpanRows = ({
   evenRowBackgroundColor,
   defaultRowBackgroundColor,
   rowSpanHeaders,
-  selectable
+  selectable,
+  useCheckbox
 }: RenderSpanRowsProps) => {
   if (!rows) return;
   return rows.map((
@@ -81,9 +83,15 @@ const renderSpanRows = ({
         backgroundColor={backgroundColor}
         fontColor={fontColor}
         isSelected={isSelected}
-        onClick={onRowClickHandler ? () => onRowClickHandler(row) : undefined}
+        onClick={selectable ?
+          onRowSelectHandler ? () => {
+            setSelected(!isSelected);
+            onRowSelectHandler(row);
+          } : onRowClickHandler ? () => onRowClickHandler(row) : undefined :
+          onRowClickHandler ? () => onRowClickHandler(row) : undefined
+        }
       >
-        {selectable && (<TD selectable={true}>
+        {useCheckbox && (<TD selectable={true}>
           <CheckboxTD>
             <Checkbox
               checked={isSelected}
