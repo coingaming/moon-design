@@ -9,7 +9,10 @@ const Example = () => {
     <div className="flex gap-20 items-center">
       <Switch
         id="button-switch-1"
-        button
+        buttons={{
+          onLabel: 'On',
+          offLabel: 'Off',
+        }}
         size="md"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
@@ -18,7 +21,10 @@ const Example = () => {
       />
       <Switch
         id="button-switch-2"
-        button
+        buttons={{
+          onLabel: 'On',
+          offLabel: 'Off',
+        }}
         size="lg"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
