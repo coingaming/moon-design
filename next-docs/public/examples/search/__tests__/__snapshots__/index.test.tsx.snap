@@ -98,6 +98,7 @@ exports[`Search renders Loading State 1`] = `
       <form
         className="sc-eRerso eSrosp"
         noValidate={true}
+        onSubmit={[Function]}
       >
         <span
           className="sc-hYzwfJ jLhhcG"
