@@ -1,6 +1,7 @@
 {
   "extends": "../../.config/ts/tsconfig.esm.json",
   "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "rootDir": "src",
     "outDir": "lib"
   },

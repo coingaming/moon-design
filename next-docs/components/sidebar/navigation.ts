@@ -13,6 +13,7 @@ const navigation = [
     name: 'Core',
     children: [
       { name: 'Button', href: '/core/button' },
+      { name: 'Loader', href: '/core/loader' },
     ]
   },
   {
