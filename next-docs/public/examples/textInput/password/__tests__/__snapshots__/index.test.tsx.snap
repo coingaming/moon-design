@@ -8,32 +8,32 @@ exports[`TextInput: type Password renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc eMCOvo"
+      className="sc-oTTbF UYcZh"
       disabled={true}
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX cdoETC"
+          className="sc-dIZBxk kEeZkZ"
           disabled={true}
           placeholder=" "
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -44,32 +44,32 @@ exports[`TextInput: type Password renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc eMCOvo"
+      className="sc-oTTbF UYcZh"
       disabled={true}
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX hTJQjR"
+          className="sc-dIZBxk caNonq"
           disabled={true}
           placeholder=" "
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -80,32 +80,32 @@ exports[`TextInput: type Password renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc eMCOvo"
+      className="sc-oTTbF UYcZh"
       disabled={true}
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX kEDreD"
+          className="sc-dIZBxk jJvQSg"
           disabled={true}
           placeholder=" "
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -123,30 +123,30 @@ exports[`TextInput: type Password renders error 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX fqimxU"
+          className="sc-dIZBxk cKxUP"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW cTcwZW"
+        className="sc-fOpBKL eMFfDR"
         role="alert"
       >
         Error message
@@ -157,30 +157,30 @@ exports[`TextInput: type Password renders error 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX fsNNDr"
+          className="sc-dIZBxk bwmQGU"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW cTcwZW"
+        className="sc-fOpBKL eMFfDR"
         role="alert"
       >
         Error message
@@ -191,30 +191,30 @@ exports[`TextInput: type Password renders error 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX kTMGzZ"
+          className="sc-dIZBxk cNoMAK"
           placeholder="Placeholder"
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW cTcwZW"
+        className="sc-fOpBKL eMFfDR"
         role="alert"
       >
         Error message
@@ -232,31 +232,31 @@ exports[`TextInput: type Password renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX cdoETC"
+          className="sc-dIZBxk kEeZkZ"
           placeholder=" "
           readOnly={true}
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -267,31 +267,31 @@ exports[`TextInput: type Password renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX hTJQjR"
+          className="sc-dIZBxk caNonq"
           placeholder=" "
           readOnly={true}
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -302,31 +302,31 @@ exports[`TextInput: type Password renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX kEDreD"
+          className="sc-dIZBxk jJvQSg"
           placeholder=" "
           readOnly={true}
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -344,30 +344,30 @@ exports[`TextInput: type Password renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX cdoETC"
+          className="sc-dIZBxk kEeZkZ"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -378,30 +378,30 @@ exports[`TextInput: type Password renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX hTJQjR"
+          className="sc-dIZBxk caNonq"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -412,30 +412,30 @@ exports[`TextInput: type Password renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX kEDreD"
+          className="sc-dIZBxk jJvQSg"
           placeholder="Placeholder"
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -453,23 +453,23 @@ exports[`TextInput: type Password renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX cdoETC"
+          className="sc-dIZBxk kEeZkZ"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
@@ -481,23 +481,23 @@ exports[`TextInput: type Password renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX hTJQjR"
+          className="sc-dIZBxk caNonq"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
@@ -509,23 +509,23 @@ exports[`TextInput: type Password renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX kEDreD"
+          className="sc-dIZBxk jJvQSg"
           placeholder="Placeholder"
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
@@ -544,25 +544,25 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
         dir="rtl"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX cdoETC"
+          className="sc-dIZBxk kEeZkZ"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm cEZROX"
+          className="sc-hkWWFD gmzOd"
           onClick={[Function]}
         >
           Show
@@ -574,25 +574,25 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
         dir="rtl"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX hTJQjR"
+          className="sc-dIZBxk caNonq"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm cEZROX"
+          className="sc-hkWWFD gmzOd"
           onClick={[Function]}
         >
           Show
@@ -604,24 +604,24 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX kEDreD"
+          className="sc-dIZBxk jJvQSg"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
         />
         <label
-          className="sc-fOFsmt grWraG"
+          className="sc-khrHlC ckbtXb"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm cEZROX"
+          className="sc-hkWWFD gmzOd"
           onClick={[Function]}
         >
           Show
@@ -640,18 +640,18 @@ exports[`TextInput: type Password renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX cdoETC"
+          className="sc-dIZBxk kEeZkZ"
           placeholder="medium"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
@@ -663,18 +663,18 @@ exports[`TextInput: type Password renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX hTJQjR"
+          className="sc-dIZBxk caNonq"
           placeholder="large"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
@@ -686,21 +686,21 @@ exports[`TextInput: type Password renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs ljbyZX"
+        className="sc-MEQRl kBJTEJ"
       >
         <input
-          className="sc-oEczX daFySu"
+          className="sc-dIZBxk OQrHl"
           placeholder="xlarge"
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
@@ -719,30 +719,30 @@ exports[`TextInput: type Password supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         medium
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX bjevRN"
+          className="sc-dIZBxk dndpqi"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -753,30 +753,30 @@ exports[`TextInput: type Password supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <label
-        className="sc-fpJand epFuGy"
+        className="sc-iKKmqK eRAvVB"
       >
         large
       </label>
       <div
-        className="sc-iLacSs gEKKve"
+        className="sc-MEQRl jkQqcM"
       >
         <input
-          className="sc-oEczX dCNhVq"
+          className="sc-dIZBxk LahlB"
           placeholder="Placeholder"
           type="password"
         />
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder
@@ -787,30 +787,30 @@ exports[`TextInput: type Password supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="sc-imdKTc fRrbyC"
+      className="sc-oTTbF eQlMmT"
     >
       <div
-        className="sc-iLacSs iRhLvk"
+        className="sc-MEQRl cVOSay"
       >
         <input
-          className="sc-oEczX kEDreD"
+          className="sc-dIZBxk jJvQSg"
           placeholder="Placeholder"
           type="password"
         />
         <label
-          className="sc-fOFsmt rrBYZ"
+          className="sc-khrHlC jpbMtc"
         >
           xlarge
         </label>
         <div
-          className="sc-dJVffm gKXmWA"
+          className="sc-hkWWFD dRPzvu"
           onClick={[Function]}
         >
           Show
         </div>
       </div>
       <p
-        className="sc-dkYNfW gVjUnq"
+        className="sc-fOpBKL ithMSx"
         role="alert"
       >
         Informative message holder

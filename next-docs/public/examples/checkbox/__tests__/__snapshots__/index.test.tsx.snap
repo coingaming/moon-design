@@ -2,26 +2,26 @@
 
 exports[`Checkbox renders 1`] = `
 <label
-  className="sc-jvZVje ddlKoc"
+  className="sc-lfVKn dnrOXg"
 >
   <input
-    className="sc-XgeeE cByRDe"
+    className="sc-jTIXKS gjxwKr"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-jWQtYj jfbpce"
+    className="sc-YbHMG kPXTTu"
   >
     <span
-      className="sc-ddmIZK jWJpmw"
+      className="sc-jverBc gGQUzB"
     >
       <div
         checked={false}
-        className="sc-hQJPdd cRTnpM"
+        className="sc-lbWYZt dBGZob"
       />
     </span>
     <p
-      className="sc-hBdhWE iWXcx"
+      className="sc-dloDHE dtscmd"
       color="bulma.100"
       size={14}
     >
@@ -33,28 +33,28 @@ exports[`Checkbox renders 1`] = `
 
 exports[`Checkbox renders Checked 1`] = `
 <label
-  className="sc-jvZVje ddlKoc"
+  className="sc-lfVKn dnrOXg"
 >
   <input
     checked={true}
-    className="sc-XgeeE cByRDe"
+    className="sc-jTIXKS gjxwKr"
     onClick={[Function]}
     readOnly={true}
     type="checkbox"
   />
   <div
-    className="sc-jWQtYj jfbpce"
+    className="sc-YbHMG kPXTTu"
   >
     <span
-      className="sc-ddmIZK jWJpmw"
+      className="sc-jverBc gGQUzB"
     >
       <div
         checked={true}
-        className="sc-hQJPdd fcpnCd"
+        className="sc-lbWYZt idMXzK"
       />
     </span>
     <p
-      className="sc-hBdhWE iWXcx"
+      className="sc-dloDHE dtscmd"
       color="bulma.100"
       size={14}
     >
@@ -66,27 +66,27 @@ exports[`Checkbox renders Checked 1`] = `
 
 exports[`Checkbox renders Disabled 1`] = `
 <label
-  className="sc-jvZVje ddlKoc"
+  className="sc-lfVKn dnrOXg"
 >
   <input
-    className="sc-XgeeE cByRDe"
+    className="sc-jTIXKS gjxwKr"
     disabled={true}
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-jWQtYj jfbpce"
+    className="sc-YbHMG kPXTTu"
   >
     <span
-      className="sc-ddmIZK jWJpmw"
+      className="sc-jverBc gGQUzB"
     >
       <div
         checked={false}
-        className="sc-hQJPdd cRTnpM"
+        className="sc-lbWYZt dBGZob"
       />
     </span>
     <p
-      className="sc-hBdhWE iWXcx"
+      className="sc-dloDHE dtscmd"
       color="bulma.100"
       size={14}
     >
@@ -98,22 +98,22 @@ exports[`Checkbox renders Disabled 1`] = `
 
 exports[`Checkbox renders No label 1`] = `
 <label
-  className="sc-jvZVje ddlKoc"
+  className="sc-lfVKn dnrOXg"
 >
   <input
-    className="sc-XgeeE cByRDe"
+    className="sc-jTIXKS gjxwKr"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-jWQtYj jfbpce"
+    className="sc-YbHMG kPXTTu"
   >
     <span
-      className="sc-ddmIZK jWJpmw"
+      className="sc-jverBc gGQUzB"
     >
       <div
         checked={false}
-        className="sc-hQJPdd cRTnpM"
+        className="sc-lbWYZt dBGZob"
       />
     </span>
   </div>
@@ -122,29 +122,29 @@ exports[`Checkbox renders No label 1`] = `
 
 exports[`Checkbox renders Reverse direction 1`] = `
 <label
-  className="sc-jvZVje ddlKoc"
+  className="sc-lfVKn dnrOXg"
 >
   <input
-    className="sc-XgeeE cByRDe"
+    className="sc-jTIXKS gjxwKr"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-jWQtYj jfbpce"
+    className="sc-YbHMG kPXTTu"
   >
     <p
-      className="sc-hBdhWE iWXcx"
+      className="sc-dloDHE dtscmd"
       color="bulma.100"
       size={14}
     >
       I agree to receive bonus & marketing emails.
     </p>
     <span
-      className="sc-ddmIZK jWJpmw"
+      className="sc-jverBc gGQUzB"
     >
       <div
         checked={false}
-        className="sc-hQJPdd cRTnpM"
+        className="sc-lbWYZt dBGZob"
       />
     </span>
   </div>
