@@ -139,23 +139,19 @@ const StatusWrapper = styled.div<AvatarProps>(
 
 const Avatar: React.FC<AvatarProps> = (props) => {
   const { name, imageUrl, color, size, statusOrigin } = props;
-  let iconSize = '1.5rem';
+  let iconSize = rem(24);
 
   switch (size) {
     case 'xxlarge':
-      iconSize = '2.3rem';
+      iconSize = rem(32);
       break;
     case 'xlarge':
-      iconSize = '2rem';
-      break;
     case 'large':
-      iconSize = '1.7rem';
-      break;
     case 'small':
-      iconSize = '1rem';
+      iconSize = rem(24);
       break;
     case 'xsmall':
-      iconSize = '.8rem';
+      iconSize = rem(16);
       break;
   }
 
