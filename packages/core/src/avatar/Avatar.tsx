@@ -93,6 +93,7 @@ const StatusWrapper = styled.div<AvatarProps>(
       borderColor: color.beerus[100],
       borderRadius: '50%',
       backgroundColor: isStatusActive ? color.roshi[100] : color.gohan[100],
+      display: isStatusActive ? 'block' : 'none'
     },
     statusOrigin &&
       statusOrigin.vertical === 'top' && {

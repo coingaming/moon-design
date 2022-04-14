@@ -67,15 +67,6 @@ const PageAvatar = () => {
         />
       </section>
 
-      {/* With status */}
-      <section className="mt-8">
-        <Preview
-          title="With status"
-          preview={<Statuses />}
-          code={examples ? examples.Statuses : 'Loading'}
-        />
-      </section>
-
       {/* Status Position*/}
       <section className="mt-8">
         <Preview

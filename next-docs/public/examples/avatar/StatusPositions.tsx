@@ -7,24 +7,28 @@ const Example = () => (
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'top', horizontal: 'right' }}
       />
       <Avatar
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'top', horizontal: 'left' }}
       />
       <Avatar
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'bottom', horizontal: 'right' }}
       />
       <Avatar
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'bottom', horizontal: 'left' }}
       />
     </div>
