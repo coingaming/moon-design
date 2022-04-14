@@ -6,7 +6,7 @@ type Props = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
   size?: 'twoxsmall' | 'xsmall';
-  textTransform?:  "capitalize" | "lowercase" | "uppercase";
+  isUppercase?: boolean;
   iconRight?: boolean;
   iconLeft?: boolean;
 };
@@ -26,8 +26,8 @@ const LabelContainer = styled.span<Props>(
       ? `0 ${rem(iconRight ? 5 : 8)} 0 ${rem(iconLeft ? 5 : 8)}`
       : `${rem(4)} ${rem(iconRight ? 5 : 8)} ${rem(4)} ${rem(iconLeft ? 5 : 8)}`,
   }),
-  ({textTransform}) => ({
-    textTransform: textTransform ? textTransform : 'uppercase',
+  ({ isUppercase }) => ({
+    textTransform: isUppercase ? 'uppercase' : 'none',
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({
