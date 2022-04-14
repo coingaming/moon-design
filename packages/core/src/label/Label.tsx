@@ -10,7 +10,7 @@ export type LabelProps = {
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: 'twoxsmall' | 'xsmall';
-  textTransform?:  "capitalize" | "lowercase" | "uppercase";
+  isUppercase?: boolean;
 };
 
 export type IconProps = {
@@ -38,13 +38,13 @@ const Label: React.FC<LabelProps> = ({
   iconLeft,
   iconRight,
   size,
-  textTransform,
+  isUppercase = true,
 }) => (
   <LabelContainer
     backgroundColor={backgroundColor}
     color={color}
     size={size}
-    textTransform={textTransform}
+    isUppercase={isUppercase}
     iconLeft={!!iconLeft}
     iconRight={!!iconRight}
   >
