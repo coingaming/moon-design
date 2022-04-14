@@ -5,6 +5,7 @@ import {
 import { ColorProps } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import {calcBorderRadius} from "./borderRadiusCalc";
 
 type StatusOrigin = {
   vertical: 'top' | 'bottom';
@@ -30,7 +31,12 @@ const AvatarWrapper = styled.div<AvatarProps>(
     {
       color: themed('color', color)(theme),
       backgroundColor: themed('color', backgroundColor)(theme),
-      borderRadius: '50%',
+      borderRadius: calcBorderRadius(
+        theme.newTokens.borderRadius.interactive,
+        size === 'xxlarge' ? theme.newTokens.borderRadius.large :
+        size === 'xsmall' ? theme.newTokens.borderRadius.xsmall :
+        theme.newTokens.borderRadius.medium
+      ),
       overflow: 'hidden',
       textTransform: 'uppercase',
       fontWeight: theme.fontWeight.semibold,
