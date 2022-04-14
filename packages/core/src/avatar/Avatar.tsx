@@ -17,7 +17,7 @@ type AvatarProps = {
   name?: string | JSX.Element;
   color?: ColorProps;
   backgroundColor?: ColorProps;
-  size?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | 'xxlarge';
+  size?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | '2xlarge';
   statusOrigin?: StatusOrigin;
   isStatusActive?: boolean;
 };
@@ -33,7 +33,7 @@ const AvatarWrapper = styled.div<AvatarProps>(
       backgroundColor: themed('color', backgroundColor)(theme),
       borderRadius: calcBorderRadius(
         theme.newTokens.borderRadius.interactive,
-        size === 'xxlarge' ? theme.newTokens.borderRadius.large :
+        size === '2xlarge' ? theme.newTokens.borderRadius.large :
         size === 'xsmall' ? theme.newTokens.borderRadius.xsmall :
         theme.newTokens.borderRadius.medium
       ),
@@ -76,7 +76,7 @@ const AvatarWrapper = styled.div<AvatarProps>(
       fontSize: rem(16),
       lineHeight: rem(24),
     },
-    size === 'xxlarge' && {
+    size === '2xlarge' && {
       height: rem(64),
       width: rem(64),
       fontSize: rem(20),
@@ -136,7 +136,7 @@ const StatusWrapper = styled.div<AvatarProps>(
       width: rem(16),
       borderWidth: rem(2),
     },
-    size === 'xxlarge' && {
+    size === '2xlarge' && {
       height: rem(16),
       width: rem(16),
       borderWidth: rem(2),
@@ -149,7 +149,7 @@ const Avatar: React.FC<AvatarProps> = (props) => {
   let iconSize = rem(24);
 
   switch (size) {
-    case 'xxlarge':
+    case '2xlarge':
       iconSize = rem(32);
       break;
     case 'xlarge':

@@ -2,11 +2,8 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/avatar/Colours';
-import Fallbacks from '../../public/examples/avatar/Fallbacks';
-import Image from '../../public/examples/avatar/Image';
-import Letter from '../../public/examples/avatar/Letter';
+import Default from "../../public/examples/avatar/Default";
 import Sizes from "../../public/examples/avatar/Sizes";
-import Statuses from '../../public/examples/avatar/Statuses';
 import StatusPositions from '../../public/examples/avatar/StatusPositions';
 import useExamples from '../../utils/useExamples';
 
@@ -22,30 +19,12 @@ const PageAvatar = () => {
         </p>
       </section>
 
-      {/* Image avatars */}
+      {/* Default */}
       <section className="mt-8">
         <Preview
-          title="Image avatars"
-          preview={<Image />}
-          code={examples ? examples.Image : 'Loading'}
-        />
-      </section>
-
-      {/* Letter avatars */}
-      <section className="mt-8">
-        <Preview
-          title="Letter avatars"
-          preview={<Letter />}
-          code={examples ? examples.Letter : 'Loading'}
-        />
-      </section>
-
-      {/* Fallbacks */}
-      <section className="mt-8">
-        <Preview
-          title="Fallbacks"
-          preview={<Fallbacks />}
-          code={examples ? examples.Fallbacks : 'Loading'}
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
