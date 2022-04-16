@@ -750,6 +750,8 @@ export { default as IconCloseRounded } from './icons/IconCloseRounded';
 export * from './icons/IconCloseRounded';
 export { default as IconCloseSmall } from './icons/IconCloseSmall';
 export * from './icons/IconCloseSmall';
+export { default as IconClubhouseGames } from './icons/IconClubhouseGames';
+export * from './icons/IconClubhouseGames';
 export { default as IconCode } from './icons/IconCode';
 export * from './icons/IconCode';
 export { default as IconCollapse } from './icons/IconCollapse';
