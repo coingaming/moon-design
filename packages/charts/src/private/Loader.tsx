@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@heathmont/moon-components';
+import { Text } from '@heathmont/moon-core';
 import { ColorNames } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';

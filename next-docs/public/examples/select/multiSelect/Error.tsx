@@ -1,7 +1,11 @@
 import React from 'react';
-import { MultiSelect } from '@heathmont/moon-core';
-import { ListItem, Footer, Checkbox } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
+import {
+  ListItem,
+  Footer,
+  Checkbox,
+  Button,
+  MultiSelect,
+} from '@heathmont/moon-core';
 
 const SubText: React.FC = () => (
   <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
@@ -64,18 +68,14 @@ const Example = () => (
       error={true}
       footer={
         <Footer
-          primButton={
-            <Button variant="primary" size="xsmall">
-              Button
-            </Button>
-          }
+          primButton={<Button size="small">Button</Button>}
           secButton={
-            <Button variant="tertiary" size="xsmall">
+            <Button variant="secondary" size="small">
               Button
             </Button>
           }
           tertButton={
-            <Button variant="secondary" size="xsmall">
+            <Button variant="tertiary" size="small">
               Button
             </Button>
           }

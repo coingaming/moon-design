@@ -2,17 +2,15 @@
 
 exports[`Accordion collapses 1`] = `
 <div
-  className="sc-icOqvn dDajJz"
+  className="sc-hkWWFD kHUne"
 >
   <div
-    className="sc-bWIbvL gNzlrl"
+    className="sc-bndzKH gPXHFE"
     disabled={false}
   >
     <h3
-      className="sc-drRqme cGBoVa"
-      color="bulma.100"
+      className="sc-ePsPkC bdMrNV"
       onClick={[Function]}
-      size={16}
     >
       Test
     </h3>
@@ -22,13 +20,13 @@ exports[`Accordion collapses 1`] = `
       Additional content
     </div>
     <button
-      className="sc-hySdjw cIavhN"
+      className="sc-jveewi dQqhws"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-cbFqep fzWdSN"
+        className="sc-iAvgwm DhisF"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -46,10 +44,10 @@ exports[`Accordion collapses 1`] = `
     </button>
   </div>
   <div
-    className="sc-lXfUi ftcjum"
+    className="sc-hoIcGJ idKraY"
   >
     <div
-      className="sc-hoyuhS eaVUkU"
+      className="sc-ehmXTo idicsD"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -61,17 +59,15 @@ exports[`Accordion collapses 1`] = `
 
 exports[`Accordion expands 1`] = `
 <div
-  className="sc-icOqvn dDajJz"
+  className="sc-hkWWFD kHUne"
 >
   <div
-    className="sc-bWIbvL gNzlrl"
+    className="sc-bndzKH gPXHFE"
     disabled={false}
   >
     <h3
-      className="sc-drRqme cGBoVa"
-      color="bulma.100"
+      className="sc-ePsPkC bdMrNV"
       onClick={[Function]}
-      size={16}
     >
       Test
     </h3>
@@ -81,13 +77,13 @@ exports[`Accordion expands 1`] = `
       Additional content
     </div>
     <button
-      className="sc-hySdjw cIavhN"
+      className="sc-jveewi dQqhws"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-fAjPcg kLFXXz"
+        className="sc-cOFTSb hkjxxp"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -105,10 +101,10 @@ exports[`Accordion expands 1`] = `
     </button>
   </div>
   <div
-    className="sc-lXfUi dLrNre"
+    className="sc-hoIcGJ eXGDhk"
   >
     <div
-      className="sc-hoyuhS eaVUkU"
+      className="sc-ehmXTo idicsD"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -120,17 +116,15 @@ exports[`Accordion expands 1`] = `
 
 exports[`Accordion renders 1`] = `
 <div
-  className="sc-icOqvn dDajJz"
+  className="sc-hkWWFD kHUne"
 >
   <div
-    className="sc-bWIbvL gNzlrl"
+    className="sc-bndzKH gPXHFE"
     disabled={false}
   >
     <h3
-      className="sc-drRqme cGBoVa"
-      color="bulma.100"
+      className="sc-ePsPkC bdMrNV"
       onClick={[Function]}
-      size={16}
     >
       Test
     </h3>
@@ -140,13 +134,13 @@ exports[`Accordion renders 1`] = `
       Additional content
     </div>
     <button
-      className="sc-hySdjw cIavhN"
+      className="sc-jveewi dQqhws"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-cbFqep fzWdSN"
+        className="sc-iAvgwm DhisF"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -164,10 +158,10 @@ exports[`Accordion renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-lXfUi ftcjum"
+    className="sc-hoIcGJ idKraY"
   >
     <div
-      className="sc-hoyuhS eaVUkU"
+      className="sc-ehmXTo idicsD"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, useClickOutside } from '@heathmont/moon-datepicker';
 import { rem } from '@heathmont/moon-utils';
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 
 const Example = () => {
   const [initialDate, setDate] = React.useState(new Date('September 17, 2020'));
@@ -15,7 +15,7 @@ const Example = () => {
       onClick={() => {}}
     >
       <div style={{ position: 'relative', display: 'inline-block' }} ref={ref}>
-        <Button variant="tertiary" onClick={() => setIsOpen(true)}>
+        <Button variant="secondary" onClick={() => setIsOpen(true)}>
           {initialDate
             ? // tslint:disable-next-line
               (initialDate as Date)?.toLocaleDateString('en-GB')

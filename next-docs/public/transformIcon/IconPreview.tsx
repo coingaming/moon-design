@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { Checkbox, Loader } from '@heathmont/moon-core';
+import { Checkbox, Loader, Button } from '@heathmont/moon-core';
 import useTransform from './hooks/useTransform';
-import { Button } from '@heathmont/moon-components';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { camelCase, upperFirst } from 'lodash';
 import { GenericClose, GenericCheckAlternative } from '@heathmont/moon-icons';
@@ -77,7 +76,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
           <img className="h-full w-full rounded" src={iconSrc} />
         </div>
         <CopyToClipboard text={data || ''} onCopy={() => setCopied(true)}>
-          <Button variant="primary" size="small">
+          <Button>
             {copied ? <GenericCheckAlternative fontSize="2rem" /> : 'Copy'}
           </Button>
         </CopyToClipboard>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 import { rem, media } from '@heathmont/moon-utils';
 import ReactPaginate from 'react-paginate';
 import styled from 'styled-components';
@@ -118,16 +118,8 @@ const Pagination: React.FC<PaginationProps> = (props) => {
       <ReactPaginateWrapper>
         <ReactPaginate
           forcePage={pageNumber - 1}
-          previousLabel={
-            <Button variant="primary" size="xsmall">
-              {previousButtonLabel}
-            </Button>
-          }
-          nextLabel={
-            <Button variant="primary" size="xsmall">
-              {nextButtonLabel}
-            </Button>
-          }
+          previousLabel={<Button size="small">{previousButtonLabel}</Button>}
+          nextLabel={<Button size="small">{nextButtonLabel}</Button>}
           onPageChange={({ selected }) => onChange(selected + 1)}
           disableInitialCallback
           pageCount={pageCount}

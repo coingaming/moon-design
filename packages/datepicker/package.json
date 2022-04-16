@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "@heathmont/moon-components": "workspace:^8.3.7",
+    "@heathmont/moon-core": "workspace:^8.3.7",
     "@heathmont/moon-themes": "workspace:^8.3.7",
     "@heathmont/moon-utils": "workspace:^8.3.7",
     "@heathmont/moon-icons": "workspace:^8.3.7",
-    "@heathmont/moon-core": "workspace:^8.3.7",
     "react-select": "^5.2.1",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.28.0",

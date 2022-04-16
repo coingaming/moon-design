@@ -1,6 +1,5 @@
 import React from 'react';
-import { ListItem, SingleSelect } from '@heathmont/moon-core';
-import { Chip } from '@heathmont/moon-components';
+import { ListItem, SingleSelect, Chip } from '@heathmont/moon-core';
 
 const optionsAsString = [
   {
@@ -25,7 +24,7 @@ const TopContent = () => {
     <>
       <ListItem color="trunks.100">List item (Categories)</ListItem>
       <div className="flex flex-around px-4 gap-x-1.5">
-        <Chip isActive={true}>$link</Chip>
+        <Chip isActive>$link</Chip>
         <Chip>$link</Chip>
         <Chip>$link</Chip>
       </div>

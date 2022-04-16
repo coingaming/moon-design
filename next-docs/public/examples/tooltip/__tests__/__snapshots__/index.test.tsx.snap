@@ -8,8 +8,7 @@ exports[`Tooltip renders 1`] = `
     className="sc-khrHlC cbBEaE"
   >
     <p
-      className="sc-hBYLEG ksPbCa"
-      color="bulma.100"
+      className="sc-hBYLEG xqRHZ"
       size={14}
     >
       Text with font size 14

@@ -195,11 +195,13 @@ importers:
   packages/accordion:
     specifiers:
       '@heathmont/moon-components': workspace:^8.3.7
+      '@heathmont/moon-core': workspace:^8.3.7
       '@heathmont/moon-icons': workspace:^8.3.7
       '@heathmont/moon-themes': workspace:^8.3.7
       '@heathmont/moon-utils': workspace:^8.3.7
     dependencies:
       '@heathmont/moon-components': link:../components
+      '@heathmont/moon-core': link:../core
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
@@ -215,12 +217,14 @@ importers:
   packages/calendar:
     specifiers:
       '@heathmont/moon-components': workspace:^8.3.7
+      '@heathmont/moon-core': workspace:^8.3.7
       '@heathmont/moon-themes': workspace:^8.3.7
       '@heathmont/moon-utils': workspace:^8.3.7
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
     dependencies:
       '@heathmont/moon-components': link:../components
+      '@heathmont/moon-core': link:../core
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/date-fns': 2.6.0
@@ -230,6 +234,7 @@ importers:
     specifiers:
       '@heathmont/moon-assets': workspace:^8.3.7
       '@heathmont/moon-components': workspace:^8.3.7
+      '@heathmont/moon-core': workspace:^8.3.7
       '@heathmont/moon-themes': workspace:^8.3.7
       '@heathmont/moon-utils': workspace:^8.3.7
       '@types/react-simple-maps': 1.0.3
@@ -241,6 +246,7 @@ importers:
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
+      '@heathmont/moon-core': link:../core
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-simple-maps': 1.0.3
@@ -397,6 +403,7 @@ importers:
     specifiers:
       '@heathmont/moon-assets': workspace:^8.3.7
       '@heathmont/moon-components': workspace:^8.3.7
+      '@heathmont/moon-core': workspace:^8.3.7
       '@heathmont/moon-themes': workspace:^8.3.7
       '@heathmont/moon-utils': workspace:^8.3.7
       '@types/react-paginate': 6.2.1
@@ -404,6 +411,7 @@ importers:
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
+      '@heathmont/moon-core': link:../core
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-paginate': 6.2.1

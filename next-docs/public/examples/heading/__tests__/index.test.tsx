@@ -11,6 +11,9 @@ import SemanticTags from '../SemanticTags';
 import TextAlign from '../TextAlign';
 import Sizes from '../Sizes';
 import FontWeight from '../FontWeight';
+import Uppercase from '../Uppercase';
+import Underline from '../Underline';
+import LineHeight from '../LineHeight';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -35,6 +38,18 @@ describe('Caption', () => {
   });
   it('renders text-align', () => {
     const testRenderer = renderer.create(renderWithTheme(<TextAlign />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders uppercase', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Uppercase />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders underline', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Underline />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders line height', () => {
+    const testRenderer = renderer.create(renderWithTheme(<LineHeight />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders semantic tags', () => {

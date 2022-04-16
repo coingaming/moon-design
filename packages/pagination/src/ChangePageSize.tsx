@@ -1,10 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { IconChevronDownRounded } from '@heathmont/moon-assets';
-import {
-  Button,
-  FilterDropdown,
-  SingleItemSelect,
-} from '@heathmont/moon-components';
+import { FilterDropdown, SingleItemSelect } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 import styled from 'styled-components';
 import useClickAway from './__private__/useClickAway';
 
@@ -64,8 +61,8 @@ const ChangePageSize = ({
   return (
     <Wrapper ref={ref}>
       <ButtonDefault
-        variant="tertiary"
-        size="xsmall"
+        variant="secondary"
+        size="small"
         onClick={() => setIsOpen(!isOpen)}
       >
         {children}

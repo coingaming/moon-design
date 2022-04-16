@@ -1,7 +1,6 @@
 import React from 'react';
 import { Select } from '@heathmont/moon-select';
-import { Footer } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
+import { Footer, Button } from '@heathmont/moon-core';
 
 const options = [
   {
@@ -31,17 +30,17 @@ const Example = () => (
         footerSlot={
           <Footer
             primButton={
-              <Button fullWidth variant="primary" size="xsmall">
+              <Button fullWidth size="small">
                 Button
               </Button>
             }
             secButton={
-              <Button fullWidth variant="tertiary" size="xsmall">
+              <Button fullWidth variant="secondary" size="small">
                 Button
               </Button>
             }
             tertButton={
-              <Button fullWidth variant="secondary" size="xsmall">
+              <Button fullWidth variant="tertiary" size="small">
                 Button
               </Button>
             }
@@ -62,17 +61,17 @@ const Example = () => (
         footerSlot={
           <Footer
             primButton={
-              <Button fullWidth variant="primary" size="xsmall">
+              <Button fullWidth size="small">
                 Button
               </Button>
             }
             secButton={
-              <Button fullWidth variant="tertiary" size="xsmall">
+              <Button fullWidth variant="secondary" size="small">
                 Button
               </Button>
             }
             tertButton={
-              <Button fullWidth variant="secondary" size="xsmall">
+              <Button fullWidth variant="tertiary" size="small">
                 Button
               </Button>
             }
