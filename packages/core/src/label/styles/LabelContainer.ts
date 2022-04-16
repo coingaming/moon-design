@@ -5,7 +5,10 @@ import styled from 'styled-components';
 type Props = {
   color?: ColorProps;
   backgroundColor?: ColorProps;
-  size?: 'small' | 'medium';
+  size?: 'twoxsmall' | 'xsmall';
+  isUppercase?: boolean;
+  iconRight?: boolean;
+  iconLeft?: boolean;
 };
 
 const LabelContainer = styled.span<Props>(
@@ -13,14 +16,18 @@ const LabelContainer = styled.span<Props>(
     display: 'flex',
     alignItems: 'center',
     fontWeight: newTokens.font.weight.semibold,
-    textTransform: 'uppercase',
     borderRadius: newTokens.borderRadius.full,
     letterSpacing: rem(1),
     fontSize: rem(10),
     lineHeight: rem(16),
   }),
-  ({ size }) => ({
-    padding: size === 'small' ? `0 ${rem(8)}` : `${rem(2)} ${rem(8)}`,
+  ({ size, iconLeft, iconRight }) => ({
+    padding: size === 'twoxsmall'
+      ? `0 ${rem(iconRight ? 5 : 8)} 0 ${rem(iconLeft ? 5 : 8)}`
+      : `${rem(4)} ${rem(iconRight ? 5 : 8)} ${rem(4)} ${rem(iconLeft ? 5 : 8)}`,
+  }),
+  ({ isUppercase }) => ({
+    textTransform: isUppercase ? 'uppercase' : 'none',
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({

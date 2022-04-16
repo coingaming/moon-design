@@ -8,6 +8,7 @@ import renderer from 'react-test-renderer';
 import Colours from '../Colours';
 import Sizes from '../Sizes';
 import SizesList from '../SizesList';
+import LetterCases from "../LetterCases";
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -26,6 +27,11 @@ describe('Label', () => {
 
   it('renders with different SizesList', () => {
     const testRenderer = renderer.create(renderWithTheme(<SizesList />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with different LetterCases', () => {
+    const testRenderer = renderer.create(renderWithTheme(<LetterCases />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

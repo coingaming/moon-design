@@ -2,7 +2,7 @@
 
 exports[`Reel renders 1`] = `
 <select
-  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
+  className="sc-gouySG sc-btlaCd fzjpOH bEkhcq"
 >
   <option
     value=""
@@ -32,7 +32,7 @@ exports[`Reel renders RTL 1`] = `
   dir="rtl"
 >
   <select
-    className="sc-gnyVkE sc-bsVkav leDUdZ bCbGmD"
+    className="sc-gouySG sc-btlaCd fzjpOH hwYEkh"
     dir="rtl"
   >
     <option
@@ -61,7 +61,7 @@ exports[`Reel renders RTL 1`] = `
 
 exports[`Reel renders as disabled 1`] = `
 <select
-  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
+  className="sc-gouySG sc-btlaCd fzjpOH bEkhcq"
   disabled={true}
 >
   <option
@@ -89,7 +89,7 @@ exports[`Reel renders as disabled 1`] = `
 
 exports[`Reel renders as full-width 1`] = `
 <select
-  className="sc-gnyVkE sc-bsVkav leDUdZ dyMCVT"
+  className="sc-gouySG sc-btlaCd fzjpOH dhifAJ"
 >
   <option
     value=""
@@ -116,7 +116,7 @@ exports[`Reel renders as full-width 1`] = `
 
 exports[`Reel renders with flex evenly spaced by default 1`] = `
 <select
-  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
+  className="sc-gouySG sc-btlaCd fzjpOH bEkhcq"
 >
   <option
     value=""
@@ -143,7 +143,7 @@ exports[`Reel renders with flex evenly spaced by default 1`] = `
 
 exports[`Reel renders with flex with adjusted input size 1`] = `
 <select
-  className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
+  className="sc-gouySG sc-btlaCd fzjpOH bEkhcq"
 >
   <option
     value=""
@@ -170,15 +170,15 @@ exports[`Reel renders with flex with adjusted input size 1`] = `
 
 exports[`Reel renders with label 1`] = `
 <label
-  className="sc-bbMrut"
+  className="sc-bbwASL"
 >
   <span
-    className="sc-iPTsoC jigpbo"
+    className="sc-iQjiQk cwQaOh"
   >
     Label Content
   </span>
   <select
-    className="sc-gnyVkE sc-bsVkav leDUdZ blCSbw"
+    className="sc-gouySG sc-btlaCd fzjpOH bEkhcq"
   >
     <option
       value=""
