@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { create } from 'react-test-renderer';
 import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
+import { create } from 'react-test-renderer';
 import 'jest-styled-components';
 
 import HeaderBack from '../HeaderBack';

@@ -1,5 +1,5 @@
-import { CSSObject } from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import { CSSObject } from 'styled-components';
 
 import { ButtonVariants } from './variants';
 

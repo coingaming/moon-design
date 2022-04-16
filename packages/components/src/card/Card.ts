@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
-import padding from 'polished/lib/shorthands/padding';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
+import padding from 'polished/lib/shorthands/padding';
+import styled from 'styled-components';
 
 import { cardGradientSizes } from './utils';
 

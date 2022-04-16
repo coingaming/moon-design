@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import rgba from 'polished/lib/color/rgba';
 import { DialogOverlay as ReachDialogOverlay } from '@reach/dialog';
+import rgba from 'polished/lib/color/rgba';
+import styled from 'styled-components';
 
 /**
  * For further info, see the Reach UI documentation:

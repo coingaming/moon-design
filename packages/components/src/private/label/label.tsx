@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
+import { SelectElement } from '../../select/private/element';
 import { Input } from '../input/input';
 import { inputColors } from '../input/settings';
-import { SelectElement } from '../../select/private/element';
 
 /**
  * Types

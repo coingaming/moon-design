@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { rem, themed } from '@heathmont/moon-utils';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 export type BadgeProps = {
   color?: ColorProps;
