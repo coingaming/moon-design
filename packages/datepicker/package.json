@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-datepicker",
   "sideEffects": false,
-  "version": "8.3.7",
+  "version": "8.4.0",
   "files": [
     "lib"
   ],
@@ -20,11 +20,11 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-components": "workspace:^8.3.7",
-    "@heathmont/moon-core": "workspace:^8.3.7",
-    "@heathmont/moon-themes": "workspace:^8.3.7",
-    "@heathmont/moon-utils": "workspace:^8.3.7",
-    "@heathmont/moon-icons": "workspace:^8.3.7",
+    "@heathmont/moon-components": "workspace:^8.4.0",
+    "@heathmont/moon-core": "workspace:^8.4.0",
+    "@heathmont/moon-themes": "workspace:^8.4.0",
+    "@heathmont/moon-utils": "workspace:^8.4.0",
+    "@heathmont/moon-icons": "workspace:^8.4.0",
     "react-select": "^5.2.1",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.28.0",
