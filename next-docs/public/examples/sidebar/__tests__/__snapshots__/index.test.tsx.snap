@@ -2,15 +2,15 @@
 
 exports[`Sidebar renders 1`] = `
 <div
-  className="sc-dkPtRN jhSYMD"
+  className="sc-dkzDqf fRFbuZ"
   dir="ltr"
 >
   <div
-    className="sc-bdvvtL byKqWs"
+    className="sc-bczRLJ cBgBXH"
     onClick={[Function]}
   >
     <svg
-      className="sc-jMZVPV"
+      className="sc-jMKfon"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -26,7 +26,7 @@ exports[`Sidebar renders 1`] = `
     </svg>
   </div>
   <aside
-    className="sc-gsDKAQ dlQbge"
+    className="sc-gsnTZi gxdmKS"
   >
     <ol>
       <li>
@@ -48,15 +48,15 @@ exports[`Sidebar renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="sc-dkPtRN hSaZNv"
+    className="sc-dkzDqf khFNOh"
     dir="rtl"
   >
     <div
-      className="sc-bdvvtL kmIgYr"
+      className="sc-bczRLJ gotBAw"
       onClick={[Function]}
     >
       <svg
-        className="sc-jMZVPV"
+        className="sc-jMKfon"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -72,11 +72,11 @@ exports[`Sidebar renders RTL 1`] = `
       </svg>
     </div>
     <div
-      className="sc-fwqEVi ccGWzl"
+      className="sc-gtdqcR lnidNy"
       fontSize="2rem"
     >
       <svg
-        className="sc-hZyDwR"
+        className="sc-hZiMVj"
         fill="none"
         height="1em"
         viewBox="0 0 20 20"
@@ -111,15 +111,15 @@ exports[`Sidebar renders RTL 1`] = `
 
 exports[`Sidebar renders initially closed 1`] = `
 <div
-  className="sc-dkPtRN hSaZNv"
+  className="sc-dkzDqf khFNOh"
   dir="ltr"
 >
   <div
-    className="sc-bdvvtL kmIgYr"
+    className="sc-bczRLJ gotBAw"
     onClick={[Function]}
   >
     <svg
-      className="sc-hKysef"
+      className="sc-hKOiFN"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -135,11 +135,11 @@ exports[`Sidebar renders initially closed 1`] = `
     </svg>
   </div>
   <div
-    className="sc-fwqEVi ccGWzl"
+    className="sc-gtdqcR lnidNy"
     fontSize="2rem"
   >
     <svg
-      className="sc-hZyDwR"
+      className="sc-hZiMVj"
       fill="none"
       height="1em"
       viewBox="0 0 20 20"

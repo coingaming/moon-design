@@ -6,6 +6,8 @@ export { default as Accordion } from './accordion/Accordion';
 export * from './accordion/Accordion';
 export { default as AgeLimit } from './ageLimit/AgeLimit';
 export * from './ageLimit/AgeLimit';
+export { default as AuthCode } from './authCode/AuthCode';
+export * from './authCode/AuthCode';
 export { default as Avatar } from './avatar/Avatar';
 export * from './avatar/Avatar';
 export { default as Badge } from './badge/Badge';

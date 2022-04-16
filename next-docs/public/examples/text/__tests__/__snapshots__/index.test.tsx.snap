@@ -2,9 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <p
-  className="sc-hBYLEG kqamjb"
-  color="bulma.100"
-  size={16}
+  className="sc-MEQRl cwRqwa"
 >
   Text
 </p>
@@ -15,30 +13,25 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Default color is Bulma
   </p>
   <p
-    className="sc-hBYLEG lfOGQi"
+    className="sc-MEQRl yeASn"
     color="piccolo.100"
-    size={16}
   >
     Piccolo
   </p>
   <p
-    className="sc-hBYLEG btQKjQ"
+    className="sc-MEQRl gRumhh"
     color="trunks.100"
-    size={16}
   >
     Trunks
   </p>
   <p
-    className="sc-hBYLEG kxbTqC"
+    className="sc-MEQRl kvrOFv"
     color="krillin.100"
-    size={16}
   >
     Krillin
   </p>
@@ -50,16 +43,12 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Default font-weight is regular
   </p>
   <p
-    className="sc-hBYLEG eJEGjl"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl bKhKUA"
   >
     Font-weight is bold
   </p>
@@ -71,16 +60,12 @@ exports[`Caption renders line height 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Line-height is pre-calculated
   </p>
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl gYItXP"
   >
     Custon line-height
   </p>
@@ -92,23 +77,17 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Paragraph is a default tag
   </p>
   <span
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Span tag
   </span>
   <label
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Label tag
   </label>
@@ -120,22 +99,18 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Default font-size is 16px
   </p>
   <p
-    className="sc-hBYLEG hLRFCw"
-    color="bulma.100"
+    className="sc-MEQRl gRmjPx"
     size={24}
   >
     Size is 24px
   </p>
   <p
-    className="sc-hBYLEG ddqxXX"
-    color="bulma.100"
+    className="sc-MEQRl gCHaRN"
     size={48}
   >
     Size is 48px
@@ -148,23 +123,17 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Text-align is not specified
   </p>
   <p
-    className="sc-hBYLEG dJiNcQ"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cefnZJ"
   >
     Centered Text
   </p>
   <p
-    className="sc-hBYLEG gzxFhn"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl frMXDq"
   >
     Right alignment
   </p>
@@ -176,16 +145,12 @@ exports[`Caption renders underline 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Default text-decoration is none
   </p>
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl gSHVNr"
   >
     Underline Text
   </p>
@@ -197,16 +162,12 @@ exports[`Caption renders uppercase 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl cwRqwa"
   >
     Default text-transform is none
   </p>
   <p
-    className="sc-hBYLEG kqamjb"
-    color="bulma.100"
-    size={16}
+    className="sc-MEQRl kjmwuJ"
   >
     Uppercase Text
   </p>

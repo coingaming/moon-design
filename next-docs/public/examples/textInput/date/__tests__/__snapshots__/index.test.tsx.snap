@@ -8,22 +8,22 @@ exports[`TextInput: type Date renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe cVhXWo"
+      className="sc-khrHlC eGqrHA"
       disabled={true}
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF ieBiDU"
+        className="sc-ehmXTo lhzCTw"
         disabled={true}
         placeholder=" "
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -34,22 +34,22 @@ exports[`TextInput: type Date renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe cVhXWo"
+      className="sc-khrHlC eGqrHA"
       disabled={true}
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         large
       </label>
       <input
-        className="sc-oTTbF izyiDj"
+        className="sc-ehmXTo ixbpuf"
         disabled={true}
         placeholder=" "
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -60,26 +60,26 @@ exports[`TextInput: type Date renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe cVhXWo"
+      className="sc-khrHlC eGqrHA"
       disabled={true}
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF kIfQWV"
+          className="sc-ehmXTo wRyOh"
           disabled={true}
           placeholder=" "
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -97,20 +97,20 @@ exports[`TextInput: type Date renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF ZTjWy"
+        className="sc-ehmXTo hqSucy"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="sc-dloDHE eyGbhX"
+        className="sc-hoIcGJ emgWzV"
         role="alert"
       >
         Error message
@@ -121,20 +121,20 @@ exports[`TextInput: type Date renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         large
       </label>
       <input
-        className="sc-oTTbF fuitrZ"
+        className="sc-ehmXTo lesvOp"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="sc-dloDHE eyGbhX"
+        className="sc-hoIcGJ emgWzV"
         role="alert"
       >
         Error message
@@ -145,24 +145,24 @@ exports[`TextInput: type Date renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF hSExwn"
+          className="sc-ehmXTo gprDP"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-dloDHE eyGbhX"
+        className="sc-hoIcGJ emgWzV"
         role="alert"
       >
         Error message
@@ -180,21 +180,21 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF ieBiDU"
+        className="sc-ehmXTo lhzCTw"
         placeholder=" "
         readOnly={true}
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -205,21 +205,21 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         large
       </label>
       <input
-        className="sc-oTTbF izyiDj"
+        className="sc-ehmXTo ixbpuf"
         placeholder=" "
         readOnly={true}
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -230,25 +230,25 @@ exports[`TextInput: type Date renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF kIfQWV"
+          className="sc-ehmXTo wRyOh"
           placeholder=" "
           readOnly={true}
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -266,20 +266,20 @@ exports[`TextInput: type Date renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF ieBiDU"
+        className="sc-ehmXTo lhzCTw"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -290,20 +290,20 @@ exports[`TextInput: type Date renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         large
       </label>
       <input
-        className="sc-oTTbF izyiDj"
+        className="sc-ehmXTo ixbpuf"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -314,24 +314,24 @@ exports[`TextInput: type Date renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF kIfQWV"
+          className="sc-ehmXTo wRyOh"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -349,15 +349,15 @@ exports[`TextInput: type Date renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF ieBiDU"
+        className="sc-ehmXTo lhzCTw"
         placeholder="Placeholder"
         type="date"
       />
@@ -367,15 +367,15 @@ exports[`TextInput: type Date renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         large
       </label>
       <input
-        className="sc-oTTbF izyiDj"
+        className="sc-ehmXTo ixbpuf"
         placeholder="Placeholder"
         type="date"
       />
@@ -385,18 +385,18 @@ exports[`TextInput: type Date renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF kIfQWV"
+          className="sc-ehmXTo wRyOh"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         >
           xlarge
         </label>
@@ -414,16 +414,16 @@ exports[`TextInput: type Date renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
         dir="rtl"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF cyyCDq"
+        className="sc-ehmXTo hHLeJa"
         dir="rtl"
         placeholder="Placeholder"
         type="date"
@@ -434,16 +434,16 @@ exports[`TextInput: type Date renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
         dir="rtl"
       >
         large
       </label>
       <input
-        className="sc-oTTbF fBmrjN"
+        className="sc-ehmXTo krnPat"
         dir="rtl"
         placeholder="Placeholder"
         type="date"
@@ -454,19 +454,19 @@ exports[`TextInput: type Date renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF dudEwr"
+          className="sc-ehmXTo iZDIAz"
           dir="rtl"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="sc-fOpBKL dUFjbR"
+          className="sc-jveewi cuNMtv"
         >
           xlarge
         </label>
@@ -484,10 +484,10 @@ exports[`TextInput: type Date renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <input
-        className="sc-oTTbF ieBiDU"
+        className="sc-ehmXTo lhzCTw"
         placeholder="medium"
         type="date"
       />
@@ -497,10 +497,10 @@ exports[`TextInput: type Date renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <input
-        className="sc-oTTbF izyiDj"
+        className="sc-ehmXTo ixbpuf"
         placeholder="large"
         type="date"
       />
@@ -510,18 +510,18 @@ exports[`TextInput: type Date renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK kuIlyc"
+        className="sc-bndzKH cnwBQL"
       >
         <input
-          className="sc-oTTbF iDUbgU"
+          className="sc-ehmXTo eYLOkw"
           placeholder="xlarge"
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         />
       </div>
     </div>
@@ -537,20 +537,20 @@ exports[`TextInput: type Date supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         medium
       </label>
       <input
-        className="sc-oTTbF lmKnNf"
+        className="sc-ehmXTo dUMdXf"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -561,20 +561,20 @@ exports[`TextInput: type Date supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <label
-        className="sc-fqEDVf rOOsh"
+        className="sc-hkWWFD bKwDUG"
       >
         large
       </label>
       <input
-        className="sc-oTTbF bUpZmE"
+        className="sc-ehmXTo foSkkU"
         placeholder="Placeholder"
         type="date"
       />
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder
@@ -585,24 +585,24 @@ exports[`TextInput: type Date supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-imZoBe ivtqle"
+      className="sc-khrHlC jNqXzC"
     >
       <div
-        className="sc-iKKmqK fQvxgz"
+        className="sc-bndzKH fUIiCE"
       >
         <input
-          className="sc-oTTbF kIfQWV"
+          className="sc-ehmXTo wRyOh"
           placeholder="Placeholder"
           type="date"
         />
         <label
-          className="sc-fOpBKL hWiPKu"
+          className="sc-jveewi jlDwJo"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-dloDHE cUFjLb"
+        className="sc-hoIcGJ eMDhsJ"
         role="alert"
       >
         Informative message holder

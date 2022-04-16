@@ -92,6 +92,8 @@ export { default as ChatDoubleBubble } from './icons/ChatDoubleBubble';
 export * from './icons/ChatDoubleBubble';
 export { default as ChatStatsChat } from './icons/ChatStatsChat';
 export * from './icons/ChatStatsChat';
+export { default as ClubhouseGames } from './icons/ClubhouseGames';
+export * from './icons/ClubhouseGames';
 export { default as ControlsChevronDown } from './icons/ControlsChevronDown';
 export * from './icons/ControlsChevronDown';
 export { default as ControlsChevronDownSmall } from './icons/ControlsChevronDownSmall';

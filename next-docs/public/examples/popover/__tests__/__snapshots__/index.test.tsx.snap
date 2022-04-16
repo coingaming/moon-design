@@ -9,14 +9,14 @@ Array [
     tabIndex={-1}
   >
     <button
-      className="sc-kQPWqK grwJxr"
+      className="sc-cbDwiu bOFSPq"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Toggle Popover
       <div
-        className="sc-fXnaaH irmIKH"
+        className="sc-jVZirl gJmXHu"
       />
     </button>
   </div>,
@@ -32,70 +32,68 @@ Array [
           className="p-8 space-y-4"
         >
           <h3
-            className="sc-iXLiCy bSIDin"
-            color="bulma.100"
+            className="sc-iyOMks jEcEfQ"
             size={20}
           >
             Agents
           </h3>
           <p
-            className="sc-imZoBe gdAcXx"
-            color="bulma.100"
+            className="sc-khrHlC gHVvmC"
             size={14}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
           </p>
         </div>
         <div
-          className="sc-izgCsI brTuqm"
+          className="sc-iDRUQT jPUxLA"
           size="small"
         >
           <div
-            className="sc-kfZjQZ MzlAg"
+            className="sc-eZgkGA dOHkVX"
           >
             <div
-              className="sc-lfVKn iITTUc"
+              className="sc-futMm jlNZzW"
             >
               <button
-                className="sc-kQPWqK iVGaTp"
+                className="sc-cbDwiu bWhDlo"
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 size="small"
               >
                 Button
                 <div
-                  className="sc-fXnaaH irmIKH"
+                  className="sc-jVZirl gJmXHu"
                 />
               </button>
             </div>
             <div
-              className="sc-lfVKn iITTUc"
+              className="sc-futMm jlNZzW"
             >
               <button
-                className="sc-kQPWqK djKjuy"
+                className="sc-cbDwiu ZAZeX"
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 size="small"
               >
                 Button
                 <div
-                  className="sc-fXnaaH irmIKH"
+                  className="sc-jVZirl gJmXHu"
                 />
               </button>
             </div>
           </div>
           <div
-            className="sc-lfVKn iITTUc"
+            className="sc-futMm jlNZzW"
           >
             <button
-              className="sc-kQPWqK deOjDM"
+              className="sc-cbDwiu fCtBUR"
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               size="small"
             >
               Button
               <div
-                className="sc-fXnaaH irmIKH"
+                className="sc-jVZirl gJmXHu"
               />
             </button>
           </div>

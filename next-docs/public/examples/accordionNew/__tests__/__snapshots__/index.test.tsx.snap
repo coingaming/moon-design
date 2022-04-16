@@ -2,28 +2,26 @@
 
 exports[`Accordion New collapses 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
     <button
-      className="sc-cvXFvT CuSmg"
+      className="sc-kOsxa-d nynQg"
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-JZRVG hSXLZL"
+        className="sc-BeQoi gRFmDW"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -41,11 +39,11 @@ exports[`Accordion New collapses 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ czylQn"
+    className="sc-iyOMks BmCNo"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -58,28 +56,26 @@ exports[`Accordion New collapses 1`] = `
 
 exports[`Accordion New expands 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
     <button
-      className="sc-cvXFvT CuSmg"
+      className="sc-kOsxa-d nynQg"
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-cHEIuQ djbtOX"
+        className="sc-efBctP fDvHaY"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -97,11 +93,11 @@ exports[`Accordion New expands 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ kgacrg"
+    className="sc-iyOMks hUskRj"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -114,28 +110,26 @@ exports[`Accordion New expands 1`] = `
 
 exports[`Accordion New renders 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
     <button
-      className="sc-cvXFvT CuSmg"
+      className="sc-kOsxa-d nynQg"
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-JZRVG hSXLZL"
+        className="sc-BeQoi gRFmDW"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -153,11 +147,11 @@ exports[`Accordion New renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ czylQn"
+    className="sc-iyOMks BmCNo"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -173,28 +167,26 @@ exports[`Accordion New renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="sc-gRPDWq grNWBL"
+    className="sc-hGtivm AvMLL"
     size="xlarge"
   >
     <div
-      className="sc-gQSfaw cLQvRE"
+      className="sc-eQNgno cRVCID"
       size="xlarge"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Test accordion
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -212,11 +204,11 @@ exports[`Accordion New renders RTL 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="xlarge"
     >
       <div
-        className="sc-cTWyzp ldhNKN"
+        className="sc-coCPJf fQQOZL"
         size="xlarge"
       >
         <div>
@@ -230,28 +222,26 @@ exports[`Accordion New renders RTL 1`] = `
 
 exports[`Accordion New renders content outside 1`] = `
 <div
-  className="sc-gRPDWq cBcnsN"
+  className="sc-hGtivm VBeCh"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw hsLuEA"
+    className="sc-eQNgno hKWjNH"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
     <button
-      className="sc-cvXFvT CuSmg"
+      className="sc-kOsxa-d nynQg"
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-JZRVG hSXLZL"
+        className="sc-BeQoi gRFmDW"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -269,11 +259,11 @@ exports[`Accordion New renders content outside 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ czylQn"
+    className="sc-iyOMks BmCNo"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -286,29 +276,27 @@ exports[`Accordion New renders content outside 1`] = `
 
 exports[`Accordion New renders disable open 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
     <button
-      className="sc-cvXFvT jMlgAf"
+      className="sc-kOsxa-d gxIUaL"
       disabled={true}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-JZRVG hSXLZL"
+        className="sc-BeQoi gRFmDW"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -326,11 +314,11 @@ exports[`Accordion New renders disable open 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ czylQn"
+    className="sc-iyOMks BmCNo"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -343,18 +331,16 @@ exports[`Accordion New renders disable open 1`] = `
 
 exports[`Accordion New renders header content 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
@@ -362,7 +348,7 @@ exports[`Accordion New renders header content 1`] = `
       className="flex"
     >
       <svg
-        className="sc-BXyPh"
+        className="sc-kLLXSd"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -378,7 +364,7 @@ exports[`Accordion New renders header content 1`] = `
         />
       </svg>
       <svg
-        className="sc-jIukRC"
+        className="sc-ikZpkk"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -392,7 +378,7 @@ exports[`Accordion New renders header content 1`] = `
         />
       </svg>
       <svg
-        className="sc-kERfxD"
+        className="sc-jIZahH"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -406,7 +392,7 @@ exports[`Accordion New renders header content 1`] = `
         />
       </svg>
       <svg
-        className="sc-eFGIoB"
+        className="sc-bZnhIo"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -421,12 +407,12 @@ exports[`Accordion New renders header content 1`] = `
       </svg>
     </div>
     <button
-      className="sc-cvXFvT CuSmg"
+      className="sc-kOsxa-d nynQg"
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-JZRVG hSXLZL"
+        className="sc-BeQoi gRFmDW"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -444,11 +430,11 @@ exports[`Accordion New renders header content 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ czylQn"
+    className="sc-iyOMks BmCNo"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -461,28 +447,26 @@ exports[`Accordion New renders header content 1`] = `
 
 exports[`Accordion New renders open by default 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
     <button
-      className="sc-cvXFvT CuSmg"
+      className="sc-kOsxa-d nynQg"
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-cHEIuQ djbtOX"
+        className="sc-efBctP fDvHaY"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -500,11 +484,11 @@ exports[`Accordion New renders open by default 1`] = `
     </button>
   </div>
   <div
-    className="sc-cvagzZ kgacrg"
+    className="sc-iyOMks hUskRj"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
@@ -520,28 +504,26 @@ exports[`Accordion New renders sizes variants 1`] = `
   className="flex flex-col gap-y-3"
 >
   <div
-    className="sc-gRPDWq grNWBL"
+    className="sc-hGtivm AvMLL"
     size="xlarge"
   >
     <div
-      className="sc-gQSfaw cLQvRE"
+      className="sc-eQNgno cRVCID"
       size="xlarge"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         X Large (Default)
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -559,11 +541,11 @@ exports[`Accordion New renders sizes variants 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="xlarge"
     >
       <div
-        className="sc-cTWyzp ldhNKN"
+        className="sc-coCPJf fQQOZL"
         size="xlarge"
       >
         <div>
@@ -573,28 +555,26 @@ exports[`Accordion New renders sizes variants 1`] = `
     </div>
   </div>
   <div
-    className="sc-gRPDWq lenPAu"
+    className="sc-hGtivm jpZzAS"
     size="large"
   >
     <div
-      className="sc-gQSfaw fnhnga"
+      className="sc-eQNgno eVvlKN"
       size="large"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Large
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -612,11 +592,11 @@ exports[`Accordion New renders sizes variants 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="large"
     >
       <div
-        className="sc-cTWyzp hgSxVo"
+        className="sc-coCPJf RHBDy"
         size="large"
       >
         <div>
@@ -626,28 +606,26 @@ exports[`Accordion New renders sizes variants 1`] = `
     </div>
   </div>
   <div
-    className="sc-gRPDWq fOAOUJ"
+    className="sc-hGtivm nkiAl"
     size="medium"
   >
     <div
-      className="sc-gQSfaw cEmgHC"
+      className="sc-eQNgno bfHSHl"
       size="medium"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Medium
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -665,11 +643,11 @@ exports[`Accordion New renders sizes variants 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="medium"
     >
       <div
-        className="sc-cTWyzp cWFEgL"
+        className="sc-coCPJf fIBDbx"
         size="medium"
       >
         <div>
@@ -679,28 +657,26 @@ exports[`Accordion New renders sizes variants 1`] = `
     </div>
   </div>
   <div
-    className="sc-gRPDWq jWatKj"
+    className="sc-hGtivm jnByKr"
     size="small"
   >
     <div
-      className="sc-gQSfaw cFZQqF"
+      className="sc-eQNgno iRtEcO"
       size="small"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Small
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -718,11 +694,11 @@ exports[`Accordion New renders sizes variants 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="small"
     >
       <div
-        className="sc-cTWyzp gsNcVJ"
+        className="sc-coCPJf bKDpgb"
         size="small"
       >
         <div>
@@ -739,28 +715,26 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
   className="flex flex-col gap-y-3"
 >
   <div
-    className="sc-gRPDWq cBcnsN"
+    className="sc-hGtivm VBeCh"
     size="xlarge"
   >
     <div
-      className="sc-gQSfaw hsLuEA"
+      className="sc-eQNgno hKWjNH"
       size="xlarge"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         X Large (Default)
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -778,11 +752,11 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="xlarge"
     >
       <div
-        className="sc-cTWyzp ldhNKN"
+        className="sc-coCPJf fQQOZL"
         size="xlarge"
       >
         <div>
@@ -792,28 +766,26 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
     </div>
   </div>
   <div
-    className="sc-gRPDWq cBcnsN"
+    className="sc-hGtivm VBeCh"
     size="large"
   >
     <div
-      className="sc-gQSfaw fxlmg"
+      className="sc-eQNgno cymVIr"
       size="large"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Large
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -831,11 +803,11 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="large"
     >
       <div
-        className="sc-cTWyzp hgSxVo"
+        className="sc-coCPJf RHBDy"
         size="large"
       >
         <div>
@@ -845,28 +817,26 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
     </div>
   </div>
   <div
-    className="sc-gRPDWq cBcnsN"
+    className="sc-hGtivm VBeCh"
     size="medium"
   >
     <div
-      className="sc-gQSfaw cUYVbV"
+      className="sc-eQNgno fwa-Dvi"
       size="medium"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Medium
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -884,11 +854,11 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="medium"
     >
       <div
-        className="sc-cTWyzp cWFEgL"
+        className="sc-coCPJf fIBDbx"
         size="medium"
       >
         <div>
@@ -898,28 +868,26 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
     </div>
   </div>
   <div
-    className="sc-gRPDWq cBcnsN"
+    className="sc-hGtivm VBeCh"
     size="small"
   >
     <div
-      className="sc-gQSfaw gAFYWv"
+      className="sc-eQNgno hsRHCA"
       size="small"
     >
       <h3
-        className="sc-dshgNM gYURwe"
-        color="bulma.100"
+        className="sc-iNFqmR kVJHPw"
         onClick={[Function]}
-        size={16}
       >
         Small
       </h3>
       <button
-        className="sc-cvXFvT CuSmg"
+        className="sc-kOsxa-d nynQg"
         onClick={[Function]}
         type="button"
       >
         <svg
-          className="sc-JZRVG hSXLZL"
+          className="sc-BeQoi gRFmDW"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -937,11 +905,11 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
       </button>
     </div>
     <div
-      className="sc-cvagzZ czylQn"
+      className="sc-iyOMks BmCNo"
       size="small"
     >
       <div
-        className="sc-cTWyzp gsNcVJ"
+        className="sc-coCPJf bKDpgb"
         size="small"
       >
         <div>
@@ -955,28 +923,26 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
 
 exports[`Accordion New renders without button 1`] = `
 <div
-  className="sc-gRPDWq grNWBL"
+  className="sc-hGtivm AvMLL"
   size="xlarge"
 >
   <div
-    className="sc-gQSfaw cLQvRE"
+    className="sc-eQNgno cRVCID"
     size="xlarge"
   >
     <h3
-      className="sc-dshgNM gYURwe"
-      color="bulma.100"
+      className="sc-iNFqmR kVJHPw"
       onClick={[Function]}
-      size={16}
     >
       Test accordion
     </h3>
   </div>
   <div
-    className="sc-cvagzZ czylQn"
+    className="sc-iyOMks BmCNo"
     size="xlarge"
   >
     <div
-      className="sc-cTWyzp ldhNKN"
+      className="sc-coCPJf fQQOZL"
       size="xlarge"
     >
       <div>
