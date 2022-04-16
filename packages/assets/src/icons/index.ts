@@ -114,6 +114,8 @@ export { default as IconCloseRounded } from './IconCloseRounded';
 export * from './IconCloseRounded';
 export { default as IconCloseSmall } from './IconCloseSmall';
 export * from './IconCloseSmall';
+export { default as IconClubhouseGames } from './IconClubhouseGames';
+export * from './IconClubhouseGames';
 export { default as IconCode } from './IconCode';
 export * from './IconCode';
 export { default as IconCollapse } from './IconCollapse';
