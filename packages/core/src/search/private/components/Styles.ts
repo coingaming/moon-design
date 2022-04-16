@@ -1,4 +1,4 @@
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 import { Theme } from '@heathmont/moon-themes';
 import { mq, media } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';

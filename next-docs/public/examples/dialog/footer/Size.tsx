@@ -1,24 +1,19 @@
 import React from 'react';
-import { Footer } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
+import { Footer, Button } from '@heathmont/moon-core';
 
 const Example = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
-          primButton={
-            <Button fullWidth variant="primary" size="small">
-              Button
-            </Button>
-          }
+          primButton={<Button fullWidth>Button</Button>}
           secButton={
-            <Button fullWidth variant="tertiary" size="small">
+            <Button fullWidth variant="secondary">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="secondary" size="small">
+            <Button fullWidth variant="tertiary">
               Button
             </Button>
           }
@@ -28,17 +23,17 @@ const Example = () => {
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
           primButton={
-            <Button fullWidth variant="primary" size="xsmall">
+            <Button fullWidth size="small">
               Button
             </Button>
           }
           secButton={
-            <Button fullWidth variant="tertiary" size="xsmall">
+            <Button fullWidth variant="secondary" size="small">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="secondary" size="xsmall">
+            <Button fullWidth variant="tertiary" size="small">
               Button
             </Button>
           }

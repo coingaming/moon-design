@@ -1,12 +1,13 @@
 import React from 'react';
-import { Button, DialogOverlay } from '@heathmont/moon-components';
+import { DialogOverlay } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 
 const Example = () => {
   const [showDialog, setShowDialog] = React.useState(false);
 
   return (
     <>
-      <Button variant="secondary" onClick={() => setShowDialog(true)}>
+      <Button variant="tertiary" onClick={() => setShowDialog(true)}>
         Open Dialog
       </Button>
       <DialogOverlay

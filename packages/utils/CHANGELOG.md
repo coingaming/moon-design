@@ -1,5 +1,13 @@
 # Change Log
 
+## 8.3.7
+
+### Patch Changes
+
+- Table Row Selection
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.3.7
+
 ## 8.3.6
 
 ### Patch Changes

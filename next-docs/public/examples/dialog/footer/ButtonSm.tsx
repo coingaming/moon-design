@@ -1,6 +1,5 @@
 import React from 'react';
-import { Footer } from '@heathmont/moon-core';
-import { Button } from '@heathmont/moon-components';
+import { Footer, Button } from '@heathmont/moon-core';
 
 const Example = () => {
   return (
@@ -8,7 +7,7 @@ const Example = () => {
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
           primButton={
-            <Button fullWidth variant="primary" size="small">
+            <Button fullWidth size="small">
               Button
             </Button>
           }
@@ -17,30 +16,11 @@ const Example = () => {
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
           primButton={
-            <Button fullWidth variant="primary" size="small">
+            <Button fullWidth size="small">
               Button
             </Button>
           }
           secButton={
-            <Button fullWidth variant="tertiary" size="small">
-              Button
-            </Button>
-          }
-        />
-      </div>
-      <div className="flex justify-around items-center w-96 mb-4">
-        <Footer
-          primButton={
-            <Button fullWidth variant="primary" size="small">
-              Button
-            </Button>
-          }
-          secButton={
-            <Button fullWidth variant="tertiary" size="small">
-              Button
-            </Button>
-          }
-          tertButton={
             <Button fullWidth variant="secondary" size="small">
               Button
             </Button>
@@ -50,12 +30,17 @@ const Example = () => {
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
           primButton={
-            <Button fullWidth variant="primary" size="small">
+            <Button fullWidth size="small">
+              Button
+            </Button>
+          }
+          secButton={
+            <Button fullWidth variant="secondary" size="small">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="secondary" size="small">
+            <Button fullWidth variant="tertiary" size="small">
               Button
             </Button>
           }
@@ -63,7 +48,12 @@ const Example = () => {
       </div>
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
-          secButton={
+          primButton={
+            <Button fullWidth size="small">
+              Button
+            </Button>
+          }
+          tertButton={
             <Button fullWidth variant="tertiary" size="small">
               Button
             </Button>
@@ -73,12 +63,21 @@ const Example = () => {
       <div className="flex justify-around items-center w-96 mb-4">
         <Footer
           secButton={
-            <Button fullWidth variant="tertiary" size="small">
+            <Button fullWidth variant="secondary" size="small">
+              Button
+            </Button>
+          }
+        />
+      </div>
+      <div className="flex justify-around items-center w-96 mb-4">
+        <Footer
+          secButton={
+            <Button fullWidth variant="secondary" size="small">
               Button
             </Button>
           }
           tertButton={
-            <Button fullWidth variant="secondary" size="small">
+            <Button fullWidth variant="tertiary" size="small">
               Button
             </Button>
           }
