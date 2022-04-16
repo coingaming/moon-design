@@ -1,6 +1,6 @@
+import { CSSObject } from 'styled-components';
 import listItemStyleTypeNone from '../listItemStyleTypeNone/listItemStyleTypeNone';
 
-import { CSSObject } from 'styled-components';
 
 const listPlainItem: CSSObject = {
   display: 'block',

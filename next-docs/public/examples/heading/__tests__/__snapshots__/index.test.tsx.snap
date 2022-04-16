@@ -2,9 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <h3
-  className="sc-kfZjQZ kicBZi"
-  color="bulma.100"
-  size={16}
+  className="sc-iNFqmR kVJHPw"
 >
   Heading
 </h3>
@@ -15,30 +13,25 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
-    Defaul color is Bulma
+    Default color is Bulma
   </h3>
   <h3
-    className="sc-kfZjQZ dccGUz"
+    className="sc-iNFqmR fWHnIh"
     color="piccolo.100"
-    size={16}
   >
     Piccolo
   </h3>
   <h3
-    className="sc-kfZjQZ iZAPRt"
+    className="sc-iNFqmR izdcir"
     color="trunks.100"
-    size={16}
   >
     Trunks
   </h3>
   <h3
-    className="sc-kfZjQZ fLxxST"
+    className="sc-iNFqmR eTGvDp"
     color="krillin.100"
-    size={16}
   >
     Krillin
   </h3>
@@ -50,18 +43,31 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
-    Defaul font-weight is bold
+    Default font-weight is bold
   </h3>
   <h3
-    className="sc-kfZjQZ dfokzb"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR iRSkaB"
   >
     Font-weight is regular
+  </h3>
+</div>
+`;
+
+exports[`Caption renders line height 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="sc-iNFqmR kVJHPw"
+  >
+    Line-height is pre-calculated
+  </h3>
+  <h3
+    className="sc-iNFqmR gLeKcN"
+  >
+    Custon line-height
   </h3>
 </div>
 `;
@@ -71,23 +77,17 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
     H3 is a default tag
   </h3>
   <h2
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
     H2 tag
   </h2>
   <h6
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
     H6 tag
   </h6>
@@ -99,22 +99,18 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
-    Defaul font-size is 16px
+    Default font-size is 16px
   </h3>
   <h3
-    className="sc-kfZjQZ cuXpex"
-    color="bulma.100"
+    className="sc-iNFqmR jPllyj"
     size={24}
   >
     Size is 24px
   </h3>
   <h3
-    className="sc-kfZjQZ ijtewC"
-    color="bulma.100"
+    className="sc-iNFqmR jrtybn"
     size={48}
   >
     Size is 48px
@@ -127,25 +123,53 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-kfZjQZ kicBZi"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR kVJHPw"
   >
     Text-align is not specified
   </h3>
   <h3
-    className="sc-kfZjQZ cmgCqd"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR QGpuT"
   >
-    Centered text
+    Centered Heading
   </h3>
   <h3
-    className="sc-kfZjQZ hQyzay"
-    color="bulma.100"
-    size={16}
+    className="sc-iNFqmR dQrJYU"
   >
     Right alignment
+  </h3>
+</div>
+`;
+
+exports[`Caption renders underline 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="sc-iNFqmR kVJHPw"
+  >
+    Default text-decoration is none
+  </h3>
+  <h3
+    className="sc-iNFqmR xTKKF"
+  >
+    Underline Heading
+  </h3>
+</div>
+`;
+
+exports[`Caption renders uppercase 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="sc-iNFqmR kVJHPw"
+  >
+    Default text-transform is none
+  </h3>
+  <h3
+    className="sc-iNFqmR hAJtzn"
+  >
+    Uppercase Heading
   </h3>
 </div>
 `;

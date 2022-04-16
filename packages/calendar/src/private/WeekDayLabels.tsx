@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@heathmont/moon-components';
+import { Text } from '@heathmont/moon-core';
 import { getWeekDayLabels } from './getWeekDayLabels';
 import { WeekDayName } from './WeekDayName';
 

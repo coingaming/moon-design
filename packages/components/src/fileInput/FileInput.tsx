@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-import hideVisually from 'polished/lib/mixins/hideVisually';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
 
+import IconUpload from '../private/icons/IconUpload';
 import { Input } from '../private/input/input';
 import { inputColors } from '../private/input/settings';
-import IconUpload from '../private/icons/IconUpload';
 
 /**
  * Types & Settings

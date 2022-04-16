@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
-import TextInput from '../textInput/TextInput';
-import Text from '../text/Text';
 import Stack from '../stack/Stack';
+import Text from '../text/Text';
+import TextInput from '../textInput/TextInput';
 
 type Value = {
   lte: number;

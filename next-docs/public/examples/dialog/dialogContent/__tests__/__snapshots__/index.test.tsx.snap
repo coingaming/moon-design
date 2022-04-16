@@ -2,15 +2,15 @@
 
 exports[`Dialog Content renders 1`] = `
 <button
-  className="sc-NaKpO iBEgsd"
+  className="sc-jmhOSl idQtvO"
   onClick={[Function]}
-  size="small"
-  variant="secondary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
 >
+  Open Dialog
   <div
-    className="sc-jlyluv fhIgZ"
-  >
-    Open Dialog
-  </div>
+    className="sc-dYtREw KOYqG"
+  />
 </button>
 `;

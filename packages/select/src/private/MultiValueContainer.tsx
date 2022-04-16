@@ -10,7 +10,7 @@ const MultiValueContainer = ({ ...rest }) => {
       color="gohan.100"
       backgroundColor="piccolo.100"
       iconRight={rest.children[1]}
-      size={size === 'xLarge' ? 'small' : 'medium'}
+      size={size === 'xLarge' ? 'twoxsmall' : 'xsmall'}
     >
       {rest.data.label}
     </Label>

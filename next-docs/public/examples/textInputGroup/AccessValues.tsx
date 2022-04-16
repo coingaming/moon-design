@@ -50,12 +50,12 @@ const Example = () => {
         }}
       />
       <div>
-        <Label size="medium" backgroundColor="trunks.100">
+        <Label size="xsmall" backgroundColor="trunks.100">
           Country: {country}
         </Label>
       </div>
       <div>
-        <Label size="medium" backgroundColor="trunks.100">
+        <Label size="xsmall" backgroundColor="trunks.100">
           Phone: {phone}
         </Label>
       </div>

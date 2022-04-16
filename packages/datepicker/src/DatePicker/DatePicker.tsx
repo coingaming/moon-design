@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 import { enGB } from 'date-fns/locale';
 import styled from 'styled-components';
 import useClickOutside from '../hooks/useClickOutside';
@@ -65,7 +65,7 @@ const DatePicker: React.FC<DatePickerProps> = ({
   return (
     <div>
       <Wrapper ref={ref}>
-        <Button variant="tertiary" onClick={() => setIsOpen(true)}>
+        <Button variant="secondary" onClick={() => setIsOpen(true)}>
           {placeholder}
         </Button>
         {isOpen && (

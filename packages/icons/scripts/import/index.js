@@ -1,9 +1,9 @@
-const Figma = require('figma-js');
 const { ArgumentParser } = require('argparse');
+const Figma = require('figma-js');
 
-const { getSvgs } = require('./getSvgs');
-const { downloadSvgs } = require('./downloadSvgs');
 const { version } = require('../../package.json');
+const { downloadSvgs } = require('./downloadSvgs');
+const { getSvgs } = require('./getSvgs');
 
 const SAVE_DIRECTORY = './raw/imported';
 

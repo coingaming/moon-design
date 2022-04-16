@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.4.0
+
+### Minor Changes
+
+- Clubhouse icon, lint, label, avatar, auth code, typography
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.4.0
+
 ## 8.3.7
 
 ### Patch Changes

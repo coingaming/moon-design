@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { mq, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 /**
  * 1. A tiny boost to the vertical rhythm of succeeding elements.

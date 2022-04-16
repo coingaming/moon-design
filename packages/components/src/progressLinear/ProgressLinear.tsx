@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { rem, themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 type ProgressbarProps = {
   value: number;

@@ -1,18 +1,18 @@
 import React from 'react';
 import addMonths from 'date-fns/addMonths';
-import subMonths from 'date-fns/subMonths';
 import endOfDay from 'date-fns/endOfDay';
 import format from 'date-fns/format';
 import isAfter from 'date-fns/isAfter';
 import isSameDay from 'date-fns/isSameDay';
-import startOfDay from 'date-fns/startOfDay';
 import isValid from 'date-fns/isValid';
+import startOfDay from 'date-fns/startOfDay';
+import subMonths from 'date-fns/subMonths';
 
-import { getMonthDays } from './private/helpers/getMonthDays';
-import { Picker } from './private/Picker';
-import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
 import { getDatesFromRange } from './private/helpers/getDatesFromRange';
+import { getMonthDays } from './private/helpers/getMonthDays';
 import { getPlaceholder } from './private/helpers/getPlaceholder';
+import { getWeekDayLabels } from './private/helpers/getWeekDayLabels';
+import { Picker } from './private/Picker';
 
 import type { DatesRange } from './private/helpers/getDatesFromRange';
 

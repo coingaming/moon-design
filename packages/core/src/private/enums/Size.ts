@@ -1,11 +1,13 @@
 enum Size {
-  TWOXSMALL = '2xsmall',
+  THREEXSMALL = 'threexsmall',
+  TWOXSMALL = 'twoxsmall',
   XSMALL = 'xsmall',
   SMALL = 'small',
   MEDIUM = 'medium',
   LARGE = 'large',
   XLARGE = 'xlarge',
-  TWOXLARGE = '2xlarge',
+  TWOXLARGE = 'twoxlarge',
+  THREEXLARGE = 'threexlarge',
 }
 
 export default Size;

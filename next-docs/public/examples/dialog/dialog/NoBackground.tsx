@@ -1,14 +1,13 @@
 import React from 'react';
-import { Dialog, Button, Stack } from '@heathmont/moon-components';
+import { Dialog, Stack } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 
 const Example = () => {
   const [showDialog, setShowDialog] = React.useState(false);
 
   return (
     <>
-      <Button variant="primary" onClick={() => setShowDialog(true)}>
-        Open Dialog
-      </Button>
+      <Button onClick={() => setShowDialog(true)}>Open Dialog</Button>
       <Dialog
         backgroundColor="limegreen"
         isOpen={showDialog}

@@ -2,10 +2,10 @@
 
 exports[`Loader renders 1`] = `
 <div
-  className="sc-ehRLEV fAClhv"
+  className="sc-hSygng bxsdxH"
 >
   <div
-    className="sc-fXnaaH gxztgB"
+    className="sc-jVZirl kcfYaQ"
     size="medium"
   >
     <div />
@@ -18,10 +18,10 @@ exports[`Loader renders 1`] = `
 
 exports[`Loader renders with different colours 1`] = `
 <div
-  className="sc-ehRLEV fAClhv"
+  className="sc-hSygng bxsdxH"
 >
   <div
-    className="sc-fXnaaH gxztgB"
+    className="sc-jVZirl kcfYaQ"
     size="medium"
   >
     <div />
@@ -30,7 +30,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH fdakgR"
+    className="sc-jVZirl jhXCYI"
     color="dodoria.100"
     size="medium"
   >
@@ -40,7 +40,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH llCfoB"
+    className="sc-jVZirl jyZufg"
     color="trunks.100"
     size="medium"
   >
@@ -50,7 +50,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH jaBUJh"
+    className="sc-jVZirl kGkfdE"
     color="raditz.100"
     size="medium"
   >
@@ -64,10 +64,10 @@ exports[`Loader renders with different colours 1`] = `
 
 exports[`Loader renders with sizes 1`] = `
 <div
-  className="sc-ehRLEV fAClhv"
+  className="sc-hSygng bxsdxH"
 >
   <div
-    className="sc-fXnaaH iMkmuI"
+    className="sc-jVZirl kJbrMt"
     size="twoxsmall"
   >
     <div />
@@ -76,7 +76,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH hzJKgA"
+    className="sc-jVZirl jTfQWB"
     size="xsmall"
   >
     <div />
@@ -85,7 +85,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH gBUzTE"
+    className="sc-jVZirl hJhPDh"
     size="small"
   >
     <div />
@@ -94,7 +94,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH gxztgB"
+    className="sc-jVZirl kcfYaQ"
     size="medium"
   >
     <div />
@@ -103,7 +103,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-fXnaaH jRywzp"
+    className="sc-jVZirl bxctwI"
     size="large"
   >
     <div />

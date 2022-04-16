@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import { mq } from '@heathmont/moon-utils';
+import compareAsc from 'date-fns/compareAsc';
 import format from 'date-fns/format';
 import isValid from 'date-fns/isValid';
-import compareAsc from 'date-fns/compareAsc';
 import rem from 'polished/lib/helpers/rem';
-import { mq } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 import Button from '../../button/Button';
 import TextInput from '../../textInput/TextInput';

@@ -2,10 +2,8 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/avatar/Colours';
-import Fallbacks from '../../public/examples/avatar/Fallbacks';
-import Image from '../../public/examples/avatar/Image';
-import Letter from '../../public/examples/avatar/Letter';
-import Statuses from '../../public/examples/avatar/Statuses';
+import Default from "../../public/examples/avatar/Default";
+import Sizes from "../../public/examples/avatar/Sizes";
 import StatusPositions from '../../public/examples/avatar/StatusPositions';
 import useExamples from '../../utils/useExamples';
 
@@ -16,35 +14,17 @@ const PageAvatar = () => {
       <section className="mt-8">
         <h1 className="text-5xl font-semibold">Avatar</h1>
         <p className="text-lg mt-4">
-          Component for displaying user profile image or placeholder if no
-          image.
+          Avatars are used to represent an individual,
+          a business, or a celestial being when they interact with any Coingaming brand. While they usually consist of an image, avatars are adaptable - letters or object icons may sometimes be used as fallbacks.
         </p>
       </section>
 
-      {/* Image avatars */}
+      {/* Default */}
       <section className="mt-8">
         <Preview
-          title="Image avatars"
-          preview={<Image />}
-          code={examples ? examples.Image : 'Loading'}
-        />
-      </section>
-
-      {/* Letter avatars */}
-      <section className="mt-8">
-        <Preview
-          title="Letter avatars"
-          preview={<Letter />}
-          code={examples ? examples.Letter : 'Loading'}
-        />
-      </section>
-
-      {/* Fallbacks */}
-      <section className="mt-8">
-        <Preview
-          title="Fallbacks"
-          preview={<Fallbacks />}
-          code={examples ? examples.Fallbacks : 'Loading'}
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -57,12 +37,12 @@ const PageAvatar = () => {
         />
       </section>
 
-      {/* With status */}
+      {/* Different sizes */}
       <section className="mt-8">
         <Preview
-          title="With status"
-          preview={<Statuses />}
-          code={examples ? examples.Statuses : 'Loading'}
+          title="Different sizes"
+          preview={<Sizes />}
+          code={examples ? examples.Colours : 'Loading'}
         />
       </section>
 
@@ -80,7 +60,7 @@ const PageAvatar = () => {
         data={[
           {
             name: 'size',
-            type: 'xsmall | small | medium | large',
+            type: 'xsmall | small | medium | large | xlarge | xxlarge',
             required: false,
             default: 'medium',
             description: 'Size for avatar',
@@ -127,25 +107,12 @@ const PageAvatar = () => {
             default: '-',
             description: 'Background color',
           },
-        ]}
-      />
-
-      <PropsTable
-        title="StatusOrigin Prop"
-        data={[
           {
-            name: 'vertical',
-            type: 'top | bottom',
-            required: true,
+            name: 'statusOrigin',
+            type: 'object { vertical: top | bottom, horizontal: left | right }',
+            required: false,
             default: '-',
             description: 'Vertical align for status indication',
-          },
-          {
-            name: 'horizontal',
-            type: 'left | right',
-            required: true,
-            default: '-',
-            description: 'Horizontal align for status indication',
           },
         ]}
       />

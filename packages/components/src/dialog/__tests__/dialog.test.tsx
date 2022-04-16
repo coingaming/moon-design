@@ -1,7 +1,7 @@
 import React from 'react';
+import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 import { create } from 'react-test-renderer';
 import { createGlobalStyle } from 'styled-components';
-import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 import 'jest-styled-components';
 
 import Dialog from '../Dialog';

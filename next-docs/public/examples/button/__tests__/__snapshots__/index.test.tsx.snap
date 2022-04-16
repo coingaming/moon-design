@@ -5,14 +5,14 @@ exports[`Button renders Full width property 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-guXXQn MQjrl"
+    className="sc-jmhOSl gXCSwL"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Full width
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -29,7 +29,7 @@ exports[`Button renders Full width property 1`] = `
       />
     </svg>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
 </div>
@@ -40,19 +40,19 @@ exports[`Button renders different animations 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-guXXQn hHvctl"
+    className="sc-jmhOSl ksePDH"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <div
-      className="sc-kteYBe eQpYNS"
+      className="sc-deiPdS hDOEUB"
     >
       <div
-        className="sc-jyjSAB lfYiWJ"
+        className="sc-jbOfQH dgwmDU"
       >
         <div
-          className="sc-fXnaaH eUJGsQ"
+          className="sc-jVZirl laoQBF"
           color="currentColor"
           size="xsmall"
         >
@@ -63,29 +63,29 @@ exports[`Button renders different animations 1`] = `
         </div>
       </div>
       <div
-        className="sc-cEGhCc FaQMI"
+        className="sc-doCyfw eJvjbV"
       >
         Progress
       </div>
     </div>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn hHvctl"
+    className="sc-jmhOSl ksePDH"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <div
-      className="sc-kteYBe eQpYNS"
+      className="sc-deiPdS hDOEUB"
     >
       <div
-        className="sc-jyjSAB lfYiWJ"
+        className="sc-jbOfQH dgwmDU"
       >
         <svg
-          className="sc-blKhJt"
+          className="sc-jmNpzm"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -101,35 +101,35 @@ exports[`Button renders different animations 1`] = `
         </svg>
       </div>
       <div
-        className="sc-cEGhCc FaQMI"
+        className="sc-doCyfw eJvjbV"
       >
         Success
       </div>
     </div>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn hAuDEX"
+    className="sc-jmhOSl jDazKR"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Error
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn eederp"
+    className="sc-jmhOSl fQMfOH"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Pulse
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
 </div>
@@ -140,13 +140,13 @@ exports[`Button renders different icons 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-guXXQn cCuNiS"
+    className="sc-jmhOSl dDSavQ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -164,17 +164,17 @@ exports[`Button renders different icons 1`] = `
     </svg>
     IconLeft
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn cCuNiS"
+    className="sc-jmhOSl dDSavQ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -192,18 +192,18 @@ exports[`Button renders different icons 1`] = `
     </svg>
     IconLeft
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn hNdpDO"
+    className="sc-jmhOSl krPaGU"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     IconRight
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -220,18 +220,18 @@ exports[`Button renders different icons 1`] = `
       />
     </svg>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn hNdpDO"
+    className="sc-jmhOSl krPaGU"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     IconRight
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -248,17 +248,17 @@ exports[`Button renders different icons 1`] = `
       />
     </svg>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn WdzJG"
+    className="sc-jmhOSl fQDKwM"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -275,17 +275,17 @@ exports[`Button renders different icons 1`] = `
       />
     </svg>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn WdzJG"
+    className="sc-jmhOSl fQDKwM"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     <svg
-      className="sc-jmMfTO"
+      className="sc-jKDlA-D"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -302,7 +302,7 @@ exports[`Button renders different icons 1`] = `
       />
     </svg>
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
 </div>
@@ -313,47 +313,47 @@ exports[`Button renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-guXXQn gmJjUI"
+    className="sc-jmhOSl gmTJyi"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
   >
     Small
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn hHvctl"
+    className="sc-jmhOSl ksePDH"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Medium is default
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn jjelXU"
+    className="sc-jmhOSl kJLmyG"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="large"
   >
     Large
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn eVPukH"
+    className="sc-jmhOSl kqomst"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="xlarge"
   >
     xLarge
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
 </div>
@@ -364,47 +364,47 @@ exports[`Button renders different variants 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-guXXQn hHvctl"
+    className="sc-jmhOSl ksePDH"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Primary is default
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn fMNwaS"
+    className="sc-jmhOSl hTpouU"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Secondary
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn fUKCZY"
+    className="sc-jmhOSl idQtvO"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Tertiary
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
   <button
-    className="sc-guXXQn grWUkl"
+    className="sc-jmhOSl dhOGkz"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
   >
     Ghost
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
 </div>
@@ -418,47 +418,47 @@ exports[`Button renders different variants RTL 1`] = `
     className="flex justify-around w-full items-center"
   >
     <button
-      className="sc-guXXQn hHvctl"
+      className="sc-jmhOSl ksePDH"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Primary is default
       <div
-        className="sc-dOeoAH eaXcSX"
+        className="sc-dYtREw KOYqG"
       />
     </button>
     <button
-      className="sc-guXXQn fMNwaS"
+      className="sc-jmhOSl hTpouU"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Secondary
       <div
-        className="sc-dOeoAH eaXcSX"
+        className="sc-dYtREw KOYqG"
       />
     </button>
     <button
-      className="sc-guXXQn fUKCZY"
+      className="sc-jmhOSl idQtvO"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Tertiary
       <div
-        className="sc-dOeoAH eaXcSX"
+        className="sc-dYtREw KOYqG"
       />
     </button>
     <button
-      className="sc-guXXQn grWUkl"
+      className="sc-jmhOSl dhOGkz"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Ghost
       <div
-        className="sc-dOeoAH eaXcSX"
+        className="sc-dYtREw KOYqG"
       />
     </button>
   </div>
@@ -470,7 +470,7 @@ exports[`Button renders disabled state 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-    className="sc-guXXQn bTBa-dV"
+    className="sc-jmhOSl erOGAr"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -478,7 +478,7 @@ exports[`Button renders disabled state 1`] = `
   >
     Disabled
     <div
-      className="sc-dOeoAH eaXcSX"
+      className="sc-dYtREw KOYqG"
     />
   </button>
 </div>
