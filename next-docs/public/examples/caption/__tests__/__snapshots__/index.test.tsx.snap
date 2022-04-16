@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <span
-  className="sc-hRFsLf doJHGo"
+  className="sc-kQPWqK fqkYfy"
   color="bulma.100"
 >
   Caption
@@ -14,28 +14,47 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-hRFsLf doJHGo"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
-    Defaul color is Bulma
+    Default color is Bulma
   </span>
   <span
-    className="sc-hRFsLf csZVJp"
+    className="sc-kQPWqK hjLkej"
     color="piccolo.100"
   >
     Piccolo
   </span>
   <span
-    className="sc-hRFsLf zNcIT"
+    className="sc-kQPWqK tnzPZ"
     color="trunks.100"
   >
     Trunks
   </span>
   <span
-    className="sc-hRFsLf kyacXt"
+    className="sc-kQPWqK eqOiaf"
     color="krillin.100"
   >
     Krillin
+  </span>
+</div>
+`;
+
+exports[`Caption renders font weights 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="sc-kQPWqK fqkYfy"
+    color="bulma.100"
+  >
+    Default font-weight is bold
+  </span>
+  <span
+    className="sc-kQPWqK fqkYfy"
+    color="bulma.100"
+  >
+    Font-weight is regular
   </span>
 </div>
 `;
@@ -45,23 +64,43 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-hRFsLf doJHGo"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Span is a default tag
   </span>
   <p
-    className="sc-hRFsLf doJHGo"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Paragraph tag
   </p>
   <label
-    className="sc-hRFsLf doJHGo"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Label tag
   </label>
+</div>
+`;
+
+exports[`Caption renders sizes 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <span
+    className="sc-kQPWqK fqkYfy"
+    color="bulma.100"
+  >
+    Default font-size is 10px
+  </span>
+  <span
+    className="sc-kQPWqK fqkYfy"
+    color="bulma.100"
+    size={9}
+  >
+    Size is 9px
+  </span>
 </div>
 `;
 
@@ -70,19 +109,19 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-hRFsLf doJHGo"
+    className="sc-kQPWqK fqkYfy"
     color="bulma.100"
   >
     Text-align is not specified
   </span>
   <span
-    className="sc-hRFsLf eMhCij"
+    className="sc-kQPWqK fjwTdF"
     color="bulma.100"
   >
     Centered text
   </span>
   <span
-    className="sc-hRFsLf erFgPU"
+    className="sc-kQPWqK dPOWNu"
     color="bulma.100"
   >
     Right alignment

@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 import {
   GenericClose,
   GenericMenu,

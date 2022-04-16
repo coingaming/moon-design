@@ -2,82 +2,82 @@
 
 exports[`Tabs renders 1`] = `
 <nav
-  className="sc-imZoBe iSyEPE"
+  className="sc-iFHmoU hwEQNi"
 >
   <a
-    className="sc-iFHmoU gbVRbV"
+    className="sc-iZAQtj iyDdiU"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-kwilob sc-hBYLEG dauZQp"
+    className="sc-gfrqJO sc-kvczt gptzCu"
   >
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#2"
       >
         Featured
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#4"
       >
         Tomorrow
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#5"
       >
         Future
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#8"
       >
         News
@@ -92,82 +92,82 @@ exports[`Tabs renders 1`] = `
 
 exports[`Tabs renders Fill 1`] = `
 <nav
-  className="sc-imZoBe iSyEPE"
+  className="sc-iFHmoU hwEQNi"
 >
   <a
-    className="sc-iFHmoU gbVRbV"
+    className="sc-iZAQtj iyDdiU"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-kwilob sc-hBYLEG dauZQp"
+    className="sc-gfrqJO sc-kvczt gptzCu"
   >
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#2"
       >
         Featured
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#4"
       >
         Tomorrow
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#5"
       >
         Future
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#8"
       >
         News
@@ -182,82 +182,82 @@ exports[`Tabs renders Fill 1`] = `
 
 exports[`Tabs renders Fill Container 1`] = `
 <nav
-  className="sc-imZoBe himJow"
+  className="sc-iFHmoU jdlTdS"
 >
   <a
-    className="sc-iFHmoU gbVRbV"
+    className="sc-iZAQtj iyDdiU"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-kwilob sc-hBYLEG dauZQp hutAcO"
+    className="sc-gfrqJO sc-kvczt gptzCu cVLQrP"
   >
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#2"
       >
         Featured
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#4"
       >
         Tomorrow
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#5"
       >
         Future
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-iZAQtj ciRLJr"
+        className="sc-fHGsUi eWtzZA"
         href="#8"
       >
         News
@@ -272,82 +272,82 @@ exports[`Tabs renders Fill Container 1`] = `
 
 exports[`Tabs renders Is Top 1`] = `
 <nav
-  className="sc-imZoBe iSyEPE"
+  className="sc-iFHmoU hwEQNi"
 >
   <a
-    className="sc-iFHmoU gbVRbV"
+    className="sc-iZAQtj iyDdiU"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-kwilob sc-hBYLEG dauZQp"
+    className="sc-gfrqJO sc-kvczt gptzCu"
   >
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#2"
       >
         Featured
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#4"
       >
         Tomorrow
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#5"
       >
         Future
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kyWWFu"
+        className="sc-jEbkNI dfFVDZ"
         href="#8"
       >
         News
@@ -362,22 +362,22 @@ exports[`Tabs renders Is Top 1`] = `
 
 exports[`Tabs renders Small 1`] = `
 <nav
-  className="sc-imZoBe iSyEPE"
+  className="sc-iFHmoU hwEQNi"
 >
   <a
-    className="sc-iFHmoU gbVRbV"
+    className="sc-iZAQtj iyDdiU"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-kwilob sc-hBYLEG dauZQp"
+    className="sc-gfrqJO sc-kvczt gptzCu"
   >
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#2"
         size="small"
       >
@@ -385,10 +385,10 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#3"
         size="small"
       >
@@ -396,10 +396,10 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#4"
         size="small"
       >
@@ -407,10 +407,10 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#5"
         size="small"
       >
@@ -418,10 +418,10 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#6"
         size="small"
       >
@@ -429,10 +429,10 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#7"
         size="small"
       >
@@ -440,10 +440,10 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi kpSxry"
+        className="sc-jEbkNI hNFjIJ"
         href="#8"
         size="small"
       >
@@ -459,51 +459,51 @@ exports[`Tabs renders Small 1`] = `
 
 exports[`Tabs renders Variant 1`] = `
 <nav
-  className="sc-imZoBe iSyEPE"
+  className="sc-iFHmoU hwEQNi"
 >
   <a
-    className="sc-iFHmoU gbVRbV"
+    className="sc-iZAQtj iyDdiU"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-kwilob sc-hBYLEG dauZQp"
+    className="sc-gfrqJO sc-kvczt gptzCu"
   >
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#2"
       >
         Featured
         <span
-          className="sc-ihWozo bTAJXS"
+          className="sc-iBPSDD dlfqYm"
         >
           00
         </span>
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#4"
       >
         <div
-          className="sc-lcfOiJ fAVrzs"
+          className="sc-gHGAhJ kTxupm"
         >
           <svg
             className="sc-IAann"
@@ -525,14 +525,14 @@ exports[`Tabs renders Variant 1`] = `
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#5"
       >
         <div
-          className="sc-lcfOiJ fAVrzs"
+          className="sc-gHGAhJ kTxupm"
         >
           <svg
             className="sc-IAann"
@@ -552,37 +552,37 @@ exports[`Tabs renders Variant 1`] = `
         </div>
         Future
         <span
-          className="sc-ihWozo bTAJXS"
+          className="sc-iBPSDD dlfqYm"
         >
           00
         </span>
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-fqEDVf"
+      className="sc-kwilob"
     >
       <a
-        className="sc-fHGsUi cnSgXN"
+        className="sc-jEbkNI hmZRKC"
         href="#8"
       >
         News

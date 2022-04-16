@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@heathmont/moon-components';
+import { Text } from '@heathmont/moon-core';
 import isWeekend from 'date-fns/isWeekend';
 import { enGB } from 'date-fns/locale';
 import { DayNumber } from './private/DayNumber';

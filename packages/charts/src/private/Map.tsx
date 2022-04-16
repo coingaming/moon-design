@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Text } from '@heathmont/moon-components';
+import { Text } from '@heathmont/moon-core';
 import { useTheme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';

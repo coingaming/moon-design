@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <h3
-  className="sc-ixlHCg cvoOZx"
+  className="sc-kfZjQZ kicBZi"
   color="bulma.100"
   size={16}
 >
@@ -15,28 +15,28 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
-    Defaul color is Bulma
+    Default color is Bulma
   </h3>
   <h3
-    className="sc-ixlHCg dlaiwE"
+    className="sc-kfZjQZ dccGUz"
     color="piccolo.100"
     size={16}
   >
     Piccolo
   </h3>
   <h3
-    className="sc-ixlHCg kAiCSi"
+    className="sc-kfZjQZ iZAPRt"
     color="trunks.100"
     size={16}
   >
     Trunks
   </h3>
   <h3
-    className="sc-ixlHCg dIyERo"
+    className="sc-kfZjQZ fLxxST"
     color="krillin.100"
     size={16}
   >
@@ -50,18 +50,39 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
-    Defaul font-weight is bold
+    Default font-weight is bold
   </h3>
   <h3
-    className="sc-ixlHCg jydgzE"
+    className="sc-kfZjQZ dfokzb"
     color="bulma.100"
     size={16}
   >
     Font-weight is regular
+  </h3>
+</div>
+`;
+
+exports[`Caption renders line height 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
+  >
+    Line-height is pre-calculated
+  </h3>
+  <h3
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
+  >
+    Custon line-height
   </h3>
 </div>
 `;
@@ -71,21 +92,21 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
     H3 is a default tag
   </h3>
   <h2
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
     H2 tag
   </h2>
   <h6
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
@@ -99,21 +120,21 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
-    Defaul font-size is 16px
+    Default font-size is 16px
   </h3>
   <h3
-    className="sc-ixlHCg fnfAVe"
+    className="sc-kfZjQZ cuXpex"
     color="bulma.100"
     size={24}
   >
     Size is 24px
   </h3>
   <h3
-    className="sc-ixlHCg hLUCxh"
+    className="sc-kfZjQZ ijtewC"
     color="bulma.100"
     size={48}
   >
@@ -127,25 +148,67 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ixlHCg cvoOZx"
+    className="sc-kfZjQZ kicBZi"
     color="bulma.100"
     size={16}
   >
     Text-align is not specified
   </h3>
   <h3
-    className="sc-ixlHCg NvuoS"
+    className="sc-kfZjQZ cmgCqd"
     color="bulma.100"
     size={16}
   >
-    Centered text
+    Centered Heading
   </h3>
   <h3
-    className="sc-ixlHCg POziF"
+    className="sc-kfZjQZ hQyzay"
     color="bulma.100"
     size={16}
   >
     Right alignment
+  </h3>
+</div>
+`;
+
+exports[`Caption renders underline 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
+  >
+    Default text-decoration is none
+  </h3>
+  <h3
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
+  >
+    Underline Heading
+  </h3>
+</div>
+`;
+
+exports[`Caption renders uppercase 1`] = `
+<div
+  className="flex justify-around w-full items-center"
+>
+  <h3
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
+  >
+    Default text-transform is none
+  </h3>
+  <h3
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
+  >
+    Uppercase Heading
   </h3>
 </div>
 `;

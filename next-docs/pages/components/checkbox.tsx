@@ -11,7 +11,6 @@ import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
   const examples = useExamples('checkbox');
-
   return (
     <>
       <section className="grid gap-4 mt-8">
@@ -28,38 +27,47 @@ export default function PageAccordion() {
           do not affect any other selections… or planets.
         </Text>
       </section>
-
       {/* Default */}
       <section className="mt-8">
         <Preview
           title="Checkbox"
+          isGrayBg
           preview={<Example />}
           code={examples ? examples.Example : 'Loading'}
         />
       </section>
-
+      {/* Checked */}
+      <section className="mt-8">
+        <Preview
+          title="Checked"
+          isGrayBg
+          preview={<Checked />}
+          code={examples ? examples.Checked : 'Loading'}
+        />
+      </section>
       {/* No label */}
       <section className="mt-8">
         <Preview
           title="No label"
+          isGrayBg
           preview={<NoLabel />}
           code={examples ? examples.Example : 'Loading'}
         />
       </section>
-
       {/* Disabled */}
       <section className="mt-8">
         <Preview
           title="Disabled"
+          isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
-
       {/* Readonly */}
       <section className="mt-8">
         <Preview
           title="Readonly"
+          isGrayBg
           preview={<Readonly />}
           code={examples ? examples.Disabled : 'Loading'}
         />

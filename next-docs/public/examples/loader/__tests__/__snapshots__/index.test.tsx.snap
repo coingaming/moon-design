@@ -5,7 +5,7 @@ exports[`Loader renders 1`] = `
   className="sc-ehRLEV fAClhv"
 >
   <div
-    className="sc-cEGhCc ivEDnE"
+    className="sc-fXnaaH gxztgB"
     size="medium"
   >
     <div />
@@ -21,7 +21,7 @@ exports[`Loader renders with different colours 1`] = `
   className="sc-ehRLEV fAClhv"
 >
   <div
-    className="sc-cEGhCc ivEDnE"
+    className="sc-fXnaaH gxztgB"
     size="medium"
   >
     <div />
@@ -30,7 +30,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc jwfJqI"
+    className="sc-fXnaaH fdakgR"
     color="dodoria.100"
     size="medium"
   >
@@ -40,7 +40,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc kSwkWY"
+    className="sc-fXnaaH llCfoB"
     color="trunks.100"
     size="medium"
   >
@@ -50,7 +50,7 @@ exports[`Loader renders with different colours 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc gAlIYk"
+    className="sc-fXnaaH jaBUJh"
     color="raditz.100"
     size="medium"
   >
@@ -67,7 +67,7 @@ exports[`Loader renders with sizes 1`] = `
   className="sc-ehRLEV fAClhv"
 >
   <div
-    className="sc-cEGhCc bSdiTF"
+    className="sc-fXnaaH iMkmuI"
     size="twoxsmall"
   >
     <div />
@@ -76,7 +76,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc iHGGVx"
+    className="sc-fXnaaH hzJKgA"
     size="xsmall"
   >
     <div />
@@ -85,7 +85,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc khFqjp"
+    className="sc-fXnaaH gBUzTE"
     size="small"
   >
     <div />
@@ -94,7 +94,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc ivEDnE"
+    className="sc-fXnaaH gxztgB"
     size="medium"
   >
     <div />
@@ -103,7 +103,7 @@ exports[`Loader renders with sizes 1`] = `
     <div />
   </div>
   <div
-    className="sc-cEGhCc kevNBM"
+    className="sc-fXnaaH jRywzp"
     size="large"
   >
     <div />

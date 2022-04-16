@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Heading } from '@heathmont/moon-components';
-import ControlsChevronDown from '@heathmont/moon-icons/lib/icons/ControlsChevronDown';
-import ControlsChevronUp from '@heathmont/moon-icons/lib/icons/ControlsChevronUp';
+import { Heading } from '@heathmont/moon-core';
+import { ControlsChevronDown, ControlsChevronUp } from '@heathmont/moon-icons';
 import {
   AccordionWrapper,
   AccordionHeader,
@@ -39,11 +38,7 @@ const Accordion = ({
   return (
     <AccordionWrapper {...props}>
       <AccordionHeader disabled={disableOpen}>
-        {title && (
-          <Heading size={16} onClick={handleState}>
-            {title}
-          </Heading>
-        )}
+        {title && <Heading onClick={handleState}>{title}</Heading>}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withArrow && (
           <AccordionToggle

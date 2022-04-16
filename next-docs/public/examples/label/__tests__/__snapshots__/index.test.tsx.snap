@@ -5,18 +5,18 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-hDiigY kQAoVu"
+    className="sc-eBSEYL gPPVpA"
   >
     Medium
   </span>
   <span
-    className="sc-hDiigY jhItbk"
+    className="sc-eBSEYL ccWkcW"
     color="piccolo.100"
   >
     Medium
   </span>
   <span
-    className="sc-hDiigY gezXzt"
+    className="sc-eBSEYL nYGEj"
     color="goten.100"
   >
     Medium
@@ -29,13 +29,13 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-hDiigY dqZjoA"
+    className="sc-eBSEYL gFoREm"
     size="small"
   >
     Small
   </span>
   <span
-    className="sc-hDiigY kQAoVu"
+    className="sc-eBSEYL gPPVpA"
   >
     Medium
   </span>
@@ -50,17 +50,17 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-      className="sc-hDiigY dqZjoA"
+      className="sc-eBSEYL gFoREm"
       size="small"
     >
       Small
     </span>
     <span
-      className="sc-hDiigY dqZjoA"
+      className="sc-eBSEYL gFoREm"
       size="small"
     >
       <span
-        className="sc-ibMOqO hZkxTI"
+        className="sc-dhqjGB jFhdMl"
       >
         <svg
           className="sc-iVKqUL"
@@ -81,12 +81,12 @@ exports[`Label renders with different SizesList 1`] = `
       Small
     </span>
     <span
-      className="sc-hDiigY dqZjoA"
+      className="sc-eBSEYL gFoREm"
       size="small"
     >
       Small
       <span
-        className="sc-dFUPQr ejosUY"
+        className="sc-iXKDzi gnOqWd"
       >
         <svg
           className="sc-gwvkYY"
@@ -106,11 +106,11 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="sc-hDiigY dqZjoA"
+      className="sc-eBSEYL gFoREm"
       size="small"
     >
       <span
-        className="sc-ibMOqO hZkxTI"
+        className="sc-dhqjGB jFhdMl"
       >
         <svg
           className="sc-iVKqUL"
@@ -130,7 +130,7 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
       Small
       <span
-        className="sc-dFUPQr ejosUY"
+        className="sc-iXKDzi gnOqWd"
       >
         <svg
           className="sc-gwvkYY"
@@ -154,15 +154,15 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-      className="sc-hDiigY kQAoVu"
+      className="sc-eBSEYL gPPVpA"
     >
       Medium
     </span>
     <span
-      className="sc-hDiigY kQAoVu"
+      className="sc-eBSEYL gPPVpA"
     >
       <span
-        className="sc-ibMOqO hZkxTI"
+        className="sc-dhqjGB jFhdMl"
       >
         <svg
           className="sc-iVKqUL"
@@ -183,11 +183,11 @@ exports[`Label renders with different SizesList 1`] = `
       Medium
     </span>
     <span
-      className="sc-hDiigY kQAoVu"
+      className="sc-eBSEYL gPPVpA"
     >
       Medium
       <span
-        className="sc-dFUPQr ejosUY"
+        className="sc-iXKDzi gnOqWd"
       >
         <svg
           className="sc-gwvkYY"
@@ -207,10 +207,10 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="sc-hDiigY kQAoVu"
+      className="sc-eBSEYL gPPVpA"
     >
       <span
-        className="sc-ibMOqO hZkxTI"
+        className="sc-dhqjGB jFhdMl"
       >
         <svg
           className="sc-iVKqUL"
@@ -230,7 +230,7 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
       Medium
       <span
-        className="sc-dFUPQr ejosUY"
+        className="sc-iXKDzi gnOqWd"
       >
         <svg
           className="sc-gwvkYY"

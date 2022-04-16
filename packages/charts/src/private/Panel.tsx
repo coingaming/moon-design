@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
-import { Loader } from '@heathmont/moon-components';
+import { Loader } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -112,7 +112,11 @@ export const Panel: React.FC<Props> = ({
           hasUpdates={hasUpdates && !isUpdating}
           onClick={() => onUpdate()}
         >
-          {isUpdating ? <Loader color="piccolo.100" /> : <IconRefreshStyled />}
+          {isUpdating ? (
+            <Loader size="twoxsmall" color="piccolo.100" />
+          ) : (
+            <IconRefreshStyled />
+          )}
         </Button>
       )}
       <div />

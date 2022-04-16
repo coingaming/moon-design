@@ -1,7 +1,7 @@
 import React from 'react';
 import { RangeCalendar } from '@heathmont/moon-datepicker';
 import { rem } from '@heathmont/moon-utils';
-import { Button } from '@heathmont/moon-components';
+import { Button } from '@heathmont/moon-core';
 
 const Example = () => {
   const [initialStartDate, setStartDate] = React.useState(
@@ -21,7 +21,7 @@ const Example = () => {
       dir="rtl"
     >
       <div style={{ position: 'relative', display: 'inline-block' }}>
-        <Button variant="tertiary" onClick={() => setIsOpen(true)}>
+        <Button variant="secondary" onClick={() => setIsOpen(true)}>
           {initialStartDate &&
             (initialStartDate as any)?.toLocaleDateString('en-GB')}
           {` - `}

@@ -8,15 +8,15 @@ exports[`Dialog Header renders Example 1 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="sc-keepax jYNTNM"
+      className="sc-iXLiCy kcdsdY"
     >
       <div
-        className="sc-izfXps jhcVXC"
+        className="sc-ixlHCg gxPqkx"
       >
         Title of the modal
       </div>
       <div
-        className="sc-ednYOV ckoSMT"
+        className="sc-kEDQaP BGkxu"
       />
     </div>
   </div>
@@ -24,18 +24,18 @@ exports[`Dialog Header renders Example 1 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="sc-keepax jYNTNM"
+      className="sc-iXLiCy kcdsdY"
     >
       <div
-        className="sc-izfXps jhcVXC"
+        className="sc-ixlHCg gxPqkx"
       >
         Title of the modal
       </div>
       <div
-        className="sc-ednYOV ckoSMT"
+        className="sc-kEDQaP BGkxu"
       >
         <div
-          className="sc-dhqjGB iNrSSG"
+          className="sc-izfXps uhWsK"
         >
           <svg
             className="sc-gwvkYY"
@@ -68,10 +68,10 @@ exports[`Dialog Header renders Example 2 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="sc-keepax jYNTNM"
+      className="sc-iXLiCy kcdsdY"
     >
       <div
-        className="sc-iXKDzi houQAM"
+        className="sc-ednYOV hRGdKm"
       >
         <svg
           className="sc-buhbWo"
@@ -91,15 +91,15 @@ exports[`Dialog Header renders Example 2 1`] = `
         </svg>
       </div>
       <div
-        className="sc-izfXps jhcVXC"
+        className="sc-ixlHCg gxPqkx"
       >
         Title of the modal
       </div>
       <div
-        className="sc-ednYOV ckoSMT"
+        className="sc-kEDQaP BGkxu"
       >
         <div
-          className="sc-dhqjGB iNrSSG"
+          className="sc-izfXps uhWsK"
         >
           <svg
             className="sc-gwvkYY"
@@ -125,10 +125,10 @@ exports[`Dialog Header renders Example 2 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="sc-keepax jYNTNM"
+      className="sc-iXLiCy kcdsdY"
     >
       <div
-        className="sc-iXKDzi houQAM"
+        className="sc-ednYOV hRGdKm"
       >
         <svg
           className="sc-buhbWo"
@@ -148,13 +148,13 @@ exports[`Dialog Header renders Example 2 1`] = `
         </svg>
       </div>
       <div
-        className="sc-izfXps jhcVXC"
+        className="sc-ixlHCg gxPqkx"
       />
       <div
-        className="sc-ednYOV ckoSMT"
+        className="sc-kEDQaP BGkxu"
       >
         <div
-          className="sc-dhqjGB iNrSSG"
+          className="sc-izfXps uhWsK"
         >
           <svg
             className="sc-gwvkYY"
@@ -187,18 +187,18 @@ exports[`Dialog Header renders Example 3 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="sc-keepax jYNTNM"
+      className="sc-iXLiCy kcdsdY"
     >
       <div
-        className="sc-izfXps jhcVXC"
+        className="sc-ixlHCg gxPqkx"
       >
         Title of the modal
       </div>
       <div
-        className="sc-ednYOV ckoSMT"
+        className="sc-kEDQaP BGkxu"
       >
         <span
-          className="sc-eBSEYL dydOgV"
+          className="sc-keepax geygmX"
         >
           <svg
             className="sc-jWOFpI"
@@ -215,7 +215,7 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <span
-          className="sc-eBSEYL dydOgV"
+          className="sc-keepax geygmX"
         >
           <svg
             className="sc-cXFvGM"
@@ -232,7 +232,7 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <div
-          className="sc-dhqjGB iNrSSG"
+          className="sc-izfXps uhWsK"
         >
           <svg
             className="sc-gwvkYY"
@@ -258,16 +258,16 @@ exports[`Dialog Header renders Example 3 1`] = `
     className="flex justify-around items-center w-full max-w-screen-sm mb-4"
   >
     <div
-      className="sc-keepax jYNTNM"
+      className="sc-iXLiCy kcdsdY"
     >
       <div
-        className="sc-izfXps jhcVXC"
+        className="sc-ixlHCg gxPqkx"
       />
       <div
-        className="sc-ednYOV ckoSMT"
+        className="sc-kEDQaP BGkxu"
       >
         <span
-          className="sc-eBSEYL dydOgV"
+          className="sc-keepax geygmX"
         >
           <svg
             className="sc-jWOFpI"
@@ -284,7 +284,7 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <span
-          className="sc-eBSEYL dydOgV"
+          className="sc-keepax geygmX"
         >
           <svg
             className="sc-cXFvGM"
@@ -301,7 +301,7 @@ exports[`Dialog Header renders Example 3 1`] = `
           </svg>
         </span>
         <div
-          className="sc-dhqjGB iNrSSG"
+          className="sc-izfXps uhWsK"
         >
           <svg
             className="sc-gwvkYY"
@@ -331,10 +331,10 @@ exports[`Dialog Header renders Example 4 1`] = `
   className="flex justify-around items-center w-full max-w-screen-sm"
 >
   <div
-    className="sc-keepax jYNTNM"
+    className="sc-iXLiCy kcdsdY"
   >
     <div
-      className="sc-iXKDzi houQAM"
+      className="sc-ednYOV hRGdKm"
     >
       <svg
         className="sc-buhbWo"
@@ -354,15 +354,15 @@ exports[`Dialog Header renders Example 4 1`] = `
       </svg>
     </div>
     <div
-      className="sc-izfXps jhcVXC"
+      className="sc-ixlHCg gxPqkx"
     >
       Title of the modal title of the modal title of the modal
     </div>
     <div
-      className="sc-ednYOV ckoSMT"
+      className="sc-kEDQaP BGkxu"
     >
       <span
-        className="sc-eBSEYL dydOgV"
+        className="sc-keepax geygmX"
       >
         <svg
           className="sc-jWOFpI"
@@ -379,7 +379,7 @@ exports[`Dialog Header renders Example 4 1`] = `
         </svg>
       </span>
       <span
-        className="sc-eBSEYL dydOgV"
+        className="sc-keepax geygmX"
       >
         <svg
           className="sc-cXFvGM"
@@ -396,7 +396,7 @@ exports[`Dialog Header renders Example 4 1`] = `
         </svg>
       </span>
       <div
-        className="sc-dhqjGB iNrSSG"
+        className="sc-izfXps uhWsK"
       >
         <svg
           className="sc-gwvkYY"
@@ -425,10 +425,10 @@ exports[`Dialog Header renders Example 5 1`] = `
   className="flex justify-around items-center w-full max-w-screen-sm"
 >
   <div
-    className="sc-keepax PYbZB"
+    className="sc-iXLiCy tpsuB"
   >
     <div
-      className="sc-iXKDzi houQAM"
+      className="sc-ednYOV hRGdKm"
     >
       <svg
         className="sc-buhbWo"
@@ -448,15 +448,15 @@ exports[`Dialog Header renders Example 5 1`] = `
       </svg>
     </div>
     <div
-      className="sc-izfXps jhcVXC"
+      className="sc-ixlHCg gxPqkx"
     >
       Title of the modal title of the modal title of the modal
     </div>
     <div
-      className="sc-ednYOV ckoSMT"
+      className="sc-kEDQaP BGkxu"
     >
       <span
-        className="sc-eBSEYL dydOgV"
+        className="sc-keepax geygmX"
       >
         <svg
           className="sc-jWOFpI"
@@ -473,7 +473,7 @@ exports[`Dialog Header renders Example 5 1`] = `
         </svg>
       </span>
       <span
-        className="sc-eBSEYL dydOgV"
+        className="sc-keepax geygmX"
       >
         <svg
           className="sc-cXFvGM"
@@ -490,7 +490,7 @@ exports[`Dialog Header renders Example 5 1`] = `
         </svg>
       </span>
       <div
-        className="sc-dhqjGB iNrSSG"
+        className="sc-izfXps uhWsK"
       >
         <svg
           className="sc-gwvkYY"
