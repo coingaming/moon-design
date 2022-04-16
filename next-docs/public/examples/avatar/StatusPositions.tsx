@@ -1,34 +1,34 @@
-import { Avatar } from '@heathmont/moon-components';
+import { Avatar } from '@heathmont/moon-core';
 
 const Example = () => (
   <div className="flex flex-col justify-around items-center w-full">
     <div className="flex justify-around items-center w-full">
       <Avatar
-        name="JS"
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'top', horizontal: 'right' }}
       />
       <Avatar
-        name="JS"
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'top', horizontal: 'left' }}
       />
       <Avatar
-        name="JS"
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'bottom', horizontal: 'right' }}
       />
       <Avatar
-        name="JS"
         color="gohan.100"
         backgroundColor="piccolo.100"
         size="large"
+        isStatusActive={true}
         statusOrigin={{ vertical: 'bottom', horizontal: 'left' }}
       />
     </div>

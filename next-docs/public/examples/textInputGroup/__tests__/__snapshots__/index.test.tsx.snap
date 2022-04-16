@@ -90,7 +90,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div>
     <span
-      className="sc-iDRUQT fqLzjY"
+      className="sc-eBSEYL jrHeqD"
       size="medium"
     >
       Country: 
@@ -99,7 +99,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div>
     <span
-      className="sc-iDRUQT fqLzjY"
+      className="sc-eBSEYL jrHeqD"
       size="medium"
     >
       Phone: 
@@ -181,7 +181,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -268,7 +268,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -295,7 +295,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   </div>
   <div>
     <span
-      className="sc-iDRUQT fqLzjY"
+      className="sc-eBSEYL jrHeqD"
       size="medium"
     >
       Country: 
@@ -304,7 +304,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   </div>
   <div>
     <span
-      className="sc-iDRUQT fqLzjY"
+      className="sc-eBSEYL jrHeqD"
       size="medium"
     >
       Vehicle: 
@@ -428,7 +428,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -520,7 +520,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -625,7 +625,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -717,7 +717,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -822,7 +822,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -914,7 +914,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -1019,7 +1019,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -1111,7 +1111,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-iAvgwm"
+              className="sc-cHoRTi"
               fill="none"
               fontSize="1.5rem"
               height="1em"

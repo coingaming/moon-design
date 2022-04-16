@@ -21,7 +21,7 @@ exports[`Calendar hide calendar 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -29,7 +29,7 @@ exports[`Calendar hide calendar 1`] = `
     >
       21/02/2021
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -452,7 +452,7 @@ exports[`Calendar hide calendar 2`] = `
 @@ -27,415 +27,7 @@
         21/02/2021
         <div
-          className=\\"sc-dDaJoQ dqCRYK\\"
+          className=\\"sc-kfZjQZ cXOReF\\"
         />
       </button>
 -     <div
@@ -888,7 +888,7 @@ exports[`Calendar renders 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -896,7 +896,7 @@ exports[`Calendar renders 1`] = `
     >
       04/02/2021
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -1332,7 +1332,7 @@ exports[`Calendar select day 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1340,7 +1340,7 @@ exports[`Calendar select day 1`] = `
     >
       21/02/2021
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
   </div>
@@ -1368,7 +1368,7 @@ exports[`Calendar show calendar 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1376,7 +1376,7 @@ exports[`Calendar show calendar 1`] = `
     >
       04/02/2021
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -1812,7 +1812,7 @@ exports[`Calendar show month select 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1820,7 +1820,7 @@ exports[`Calendar show month select 1`] = `
     >
       04/02/2021
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -2332,7 +2332,7 @@ exports[`Calendar show years select 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2340,7 +2340,7 @@ exports[`Calendar show years select 1`] = `
     >
       04/02/2021
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -4362,7 +4362,7 @@ exports[`Calendar: disabled day renders 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -4370,7 +4370,7 @@ exports[`Calendar: disabled day renders 1`] = `
     >
       17/09/2020
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -4841,7 +4841,7 @@ exports[`Calendar: disabled days renders 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -4849,7 +4849,7 @@ exports[`Calendar: disabled days renders 1`] = `
     >
       17/09/2020
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -5320,7 +5320,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -5328,7 +5328,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
     >
       17/09/2020
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -5799,7 +5799,7 @@ exports[`Calendar: disabled range renders 1`] = `
     }
   >
     <button
-      className="sc-eqKtKx kVNEMb"
+      className="sc-ednYOV euAMYg"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -5807,7 +5807,7 @@ exports[`Calendar: disabled range renders 1`] = `
     >
       17/09/2020
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-kfZjQZ cXOReF"
       />
     </button>
     <div
@@ -6268,19 +6268,19 @@ exports[`DatePicker renders 1`] = `
 >
   <div>
     <div
-      className="sc-hxCwtQ jltytv"
+      className="sc-fStMfJ jHYPYy"
     >
       <button
-        className="sc-eqKtKx kVNEMb"
+        className="sc-cQGHq kCdyOG"
         onClick={[Function]}
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        size="medium"
+        size="small"
+        variant="tertiary"
       >
-        17 Sep, 2020
         <div
-          className="sc-dDaJoQ dqCRYK"
-        />
+          className="sc-gLiDUF eRUFbk"
+        >
+          17 Sep, 2020
+        </div>
       </button>
       <div
         className="sc-goMRkL hTjfVv"
@@ -6744,19 +6744,19 @@ exports[`DatePicker renders RTL 1`] = `
   >
     <div>
       <div
-        className="sc-hxCwtQ jltytv"
+        className="sc-fStMfJ jHYPYy"
       >
         <button
-          className="sc-eqKtKx kVNEMb"
+          className="sc-cQGHq kCdyOG"
           onClick={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          size="medium"
+          size="small"
+          variant="tertiary"
         >
-          17 Sep, 2020
           <div
-            className="sc-dDaJoQ dqCRYK"
-          />
+            className="sc-gLiDUF eRUFbk"
+          >
+            17 Sep, 2020
+          </div>
         </button>
         <div
           className="sc-goMRkL hTjfVv"

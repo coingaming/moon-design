@@ -2,7 +2,9 @@
 
 exports[`Caption renders 1`] = `
 <h3
-  className="sc-ePsPkC bdMrNV"
+  className="sc-kfZjQZ kicBZi"
+  color="bulma.100"
+  size={16}
 >
   Heading
 </h3>
@@ -13,25 +15,30 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Default color is Bulma
   </h3>
   <h3
-    className="sc-ePsPkC YdtXk"
+    className="sc-kfZjQZ dccGUz"
     color="piccolo.100"
+    size={16}
   >
     Piccolo
   </h3>
   <h3
-    className="sc-ePsPkC eXSzdu"
+    className="sc-kfZjQZ iZAPRt"
     color="trunks.100"
+    size={16}
   >
     Trunks
   </h3>
   <h3
-    className="sc-ePsPkC caxupg"
+    className="sc-kfZjQZ fLxxST"
     color="krillin.100"
+    size={16}
   >
     Krillin
   </h3>
@@ -43,12 +50,16 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Default font-weight is bold
   </h3>
   <h3
-    className="sc-ePsPkC dhDPCQ"
+    className="sc-kfZjQZ dfokzb"
+    color="bulma.100"
+    size={16}
   >
     Font-weight is regular
   </h3>
@@ -60,12 +71,16 @@ exports[`Caption renders line height 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Line-height is pre-calculated
   </h3>
   <h3
-    className="sc-ePsPkC kxeyBI"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Custon line-height
   </h3>
@@ -77,17 +92,23 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     H3 is a default tag
   </h3>
   <h2
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     H2 tag
   </h2>
   <h6
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     H6 tag
   </h6>
@@ -99,18 +120,22 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Default font-size is 16px
   </h3>
   <h3
-    className="sc-ePsPkC kvFEFC"
+    className="sc-kfZjQZ cuXpex"
+    color="bulma.100"
     size={24}
   >
     Size is 24px
   </h3>
   <h3
-    className="sc-ePsPkC cdscTS"
+    className="sc-kfZjQZ ijtewC"
+    color="bulma.100"
     size={48}
   >
     Size is 48px
@@ -123,17 +148,23 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Text-align is not specified
   </h3>
   <h3
-    className="sc-ePsPkC jfUzWm"
+    className="sc-kfZjQZ cmgCqd"
+    color="bulma.100"
+    size={16}
   >
     Centered Heading
   </h3>
   <h3
-    className="sc-ePsPkC fzvziN"
+    className="sc-kfZjQZ hQyzay"
+    color="bulma.100"
+    size={16}
   >
     Right alignment
   </h3>
@@ -145,12 +176,16 @@ exports[`Caption renders underline 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Default text-decoration is none
   </h3>
   <h3
-    className="sc-ePsPkC jczZGU"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Underline Heading
   </h3>
@@ -162,12 +197,16 @@ exports[`Caption renders uppercase 1`] = `
   className="flex justify-around w-full items-center"
 >
   <h3
-    className="sc-ePsPkC bdMrNV"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Default text-transform is none
   </h3>
   <h3
-    className="sc-ePsPkC cVSOCq"
+    className="sc-kfZjQZ kicBZi"
+    color="bulma.100"
+    size={16}
   >
     Uppercase Heading
   </h3>

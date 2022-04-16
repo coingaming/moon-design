@@ -5,7 +5,7 @@ exports[`Pie Chart renders 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="sc-eBhLNR heZocG"
+    className="sc-iGFZyS iFdqRZ"
     style={
       Object {
         "height": 446,
@@ -13,14 +13,14 @@ exports[`Pie Chart renders 1`] = `
     }
   >
     <div
-      className="sc-fjsWye dhVBJZ"
+      className="sc-fPHReD fqNEzs"
     >
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
-          className="sc-klmQzc sc-cmYlSf  iRDNwh"
+          className="sc-klmQzc sc-dJHeTw  kIKYZL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -37,7 +37,7 @@ exports[`Pie Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -63,7 +63,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -82,10 +82,10 @@ exports[`Pie Chart renders 1`] = `
       </button>
     </div>
     <div
-      className="sc-bKOxAn lflfos"
+      className="sc-chbKxp jRssRf"
     >
       <div
-        className="sc-hMtawp essFVL"
+        className="sc-bWIbvL hmfJXo"
       >
         <svg
           fill="none"
@@ -291,23 +291,25 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-hBYLEG sc-jveewi cFIFZN dKcFLY"
+        className="sc-fNPocS sc-hoyuhS ezZhCI boooja"
+        color="bulma.100"
         size={20}
       >
         Device Breakdown
       </p>
       <div
-        className="sc-eEXVIU"
+        className="sc-hySdjw"
       >
         <div
-          className="sc-ehmXTo isvPPp"
+          className="sc-icOqvn cTNVCC"
         >
           <button
-            className="sc-hoIcGJ cubeUb"
+            className="sc-fAjPcg iWzvaY"
             onClick={[Function]}
           >
             <p
-              className="sc-hBYLEG sc-hkWWFD xqRHZ dsAXPQ"
+              className="sc-fNPocS sc-cbFqep jfKVwZ hbClHO"
+              color="bulma.100"
               size={14}
             >
               by GGR
@@ -332,7 +334,7 @@ exports[`Pie Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container sc-evnJpU bLFXCL"
+      className="recharts-responsive-container sc-kDVBPB fGtywM"
       style={
         Object {
           "height": "100%",
@@ -345,7 +347,7 @@ exports[`Pie Chart renders 1`] = `
     />
   </div>
   <div
-    className="sc-eBhLNR heZocG"
+    className="sc-iGFZyS iFdqRZ"
     style={
       Object {
         "height": 446,
@@ -353,14 +355,14 @@ exports[`Pie Chart renders 1`] = `
     }
   >
     <div
-      className="sc-fjsWye dhVBJZ"
+      className="sc-fPHReD fqNEzs"
     >
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
-          className="sc-klmQzc sc-cmYlSf  iRDNwh"
+          className="sc-klmQzc sc-dJHeTw  kIKYZL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -377,7 +379,7 @@ exports[`Pie Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -403,7 +405,7 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -422,10 +424,10 @@ exports[`Pie Chart renders 1`] = `
       </button>
     </div>
     <div
-      className="sc-bKOxAn lflfos"
+      className="sc-chbKxp jRssRf"
     >
       <div
-        className="sc-hMtawp essFVL"
+        className="sc-bWIbvL hmfJXo"
       >
         <svg
           fill="none"
@@ -631,23 +633,25 @@ exports[`Pie Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-hBYLEG sc-jveewi cFIFZN dKcFLY"
+        className="sc-fNPocS sc-hoyuhS ezZhCI boooja"
+        color="bulma.100"
         size={20}
       >
         Device Breakdown
       </p>
       <div
-        className="sc-eEXVIU"
+        className="sc-hySdjw"
       >
         <div
-          className="sc-ehmXTo isvPPp"
+          className="sc-icOqvn cTNVCC"
         >
           <button
-            className="sc-hoIcGJ cubeUb"
+            className="sc-fAjPcg iWzvaY"
             onClick={[Function]}
           >
             <p
-              className="sc-hBYLEG sc-hkWWFD xqRHZ dsAXPQ"
+              className="sc-fNPocS sc-cbFqep jfKVwZ hbClHO"
+              color="bulma.100"
               size={14}
             >
               by GGR
@@ -672,7 +676,7 @@ exports[`Pie Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container sc-evnJpU bLFXCL"
+      className="recharts-responsive-container sc-kDVBPB fGtywM"
       style={
         Object {
           "height": "100%",
@@ -692,7 +696,7 @@ exports[`Pie Chart renders Loading 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="sc-eBhLNR heZocG"
+    className="sc-iGFZyS iFdqRZ"
     style={
       Object {
         "height": 446,
@@ -700,14 +704,14 @@ exports[`Pie Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-fjsWye dhVBJZ"
+      className="sc-fPHReD fqNEzs"
     >
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
-          className="sc-klmQzc sc-cmYlSf  iRDNwh"
+          className="sc-klmQzc sc-dJHeTw  kIKYZL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -724,7 +728,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -750,7 +754,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -769,10 +773,10 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
     </div>
     <div
-      className="sc-bKOxAn lflfos"
+      className="sc-chbKxp jRssRf"
     >
       <div
-        className="sc-hMtawp essFVL"
+        className="sc-bWIbvL hmfJXo"
       >
         <svg
           fill="none"
@@ -978,23 +982,25 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-hBYLEG sc-jveewi cFIFZN dKcFLY"
+        className="sc-fNPocS sc-hoyuhS ezZhCI boooja"
+        color="bulma.100"
         size={20}
       >
         Device Breakdown
       </p>
       <div
-        className="sc-eEXVIU"
+        className="sc-hySdjw"
       >
         <div
-          className="sc-ehmXTo isvPPp"
+          className="sc-icOqvn cTNVCC"
         >
           <button
-            className="sc-hoIcGJ cubeUb"
+            className="sc-fAjPcg iWzvaY"
             onClick={[Function]}
           >
             <p
-              className="sc-hBYLEG sc-hkWWFD xqRHZ dsAXPQ"
+              className="sc-fNPocS sc-cbFqep jfKVwZ hbClHO"
+              color="bulma.100"
               size={14}
             >
               by GGR
@@ -1019,7 +1025,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="sc-jjavrh iXTSdA"
+      className="sc-fBpUlH kvYbUw"
     >
       <svg
         fill="none"
@@ -1041,7 +1047,7 @@ exports[`Pie Chart renders Loading 1`] = `
         />
       </svg>
       <p
-        className="sc-hBYLEG sc-jSPclO iiGVNa hbHqbm"
+        className="sc-fNPocS sc-kTgmXO hoFDbS yFiBp"
         color="trunks.100"
         size={14}
       >
@@ -1050,7 +1056,7 @@ exports[`Pie Chart renders Loading 1`] = `
     </div>
   </div>
   <div
-    className="sc-eBhLNR heZocG"
+    className="sc-iGFZyS iFdqRZ"
     style={
       Object {
         "height": 446,
@@ -1058,14 +1064,14 @@ exports[`Pie Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-fjsWye dhVBJZ"
+      className="sc-fPHReD fqNEzs"
     >
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
-          className="sc-klmQzc sc-cmYlSf  iRDNwh"
+          className="sc-klmQzc sc-dJHeTw  kIKYZL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1082,7 +1088,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -1108,7 +1114,7 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hxCwtQ iKZFaV"
+        className="sc-bCApYh jeNrLl"
         onClick={[Function]}
       >
         <svg
@@ -1127,10 +1133,10 @@ exports[`Pie Chart renders Loading 1`] = `
       </button>
     </div>
     <div
-      className="sc-bKOxAn lflfos"
+      className="sc-chbKxp jRssRf"
     >
       <div
-        className="sc-hMtawp essFVL"
+        className="sc-bWIbvL hmfJXo"
       >
         <svg
           fill="none"
@@ -1336,23 +1342,25 @@ exports[`Pie Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-hBYLEG sc-jveewi cFIFZN dKcFLY"
+        className="sc-fNPocS sc-hoyuhS ezZhCI boooja"
+        color="bulma.100"
         size={20}
       >
         Device Breakdown
       </p>
       <div
-        className="sc-eEXVIU"
+        className="sc-hySdjw"
       >
         <div
-          className="sc-ehmXTo isvPPp"
+          className="sc-icOqvn cTNVCC"
         >
           <button
-            className="sc-hoIcGJ cubeUb"
+            className="sc-fAjPcg iWzvaY"
             onClick={[Function]}
           >
             <p
-              className="sc-hBYLEG sc-hkWWFD xqRHZ dsAXPQ"
+              className="sc-fNPocS sc-cbFqep jfKVwZ hbClHO"
+              color="bulma.100"
               size={14}
             >
               by GGR
@@ -1377,7 +1385,7 @@ exports[`Pie Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container sc-evnJpU bLFXCL"
+      className="recharts-responsive-container sc-kDVBPB fGtywM"
       style={
         Object {
           "height": "100%",

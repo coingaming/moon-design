@@ -8,54 +8,54 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj bQtYEt"
+      className="sc-lfVKn bPIsPe"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS fhtcMs"
+            className="sc-guXXQn hgyopi"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS eQKBeb"
+            className="sc-guXXQn gSQcDB"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS dYIKol"
+          className="sc-guXXQn zpfov"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -65,55 +65,55 @@ exports[`Dialog Footer renders different Sizes 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj gwyQTN"
+      className="sc-lfVKn kaReGy"
       size="small"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS iGFtcV"
+            className="sc-guXXQn buGKbL"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS gjTlji"
+            className="sc-guXXQn ibWRbU"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS bmHiaU"
+          className="sc-guXXQn kgosOW"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -130,23 +130,23 @@ exports[`Dialog Footer renders with Button MD 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS fhtcMs"
+            className="sc-guXXQn hgyopi"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
@@ -157,38 +157,38 @@ exports[`Dialog Footer renders with Button MD 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS fhtcMs"
+            className="sc-guXXQn hgyopi"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS eQKBeb"
+            className="sc-guXXQn gSQcDB"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
@@ -199,54 +199,54 @@ exports[`Dialog Footer renders with Button MD 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS fhtcMs"
+            className="sc-guXXQn hgyopi"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS eQKBeb"
+            className="sc-guXXQn gSQcDB"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS dYIKol"
+          className="sc-guXXQn zpfov"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -256,39 +256,39 @@ exports[`Dialog Footer renders with Button MD 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS fhtcMs"
+            className="sc-guXXQn hgyopi"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS dYIKol"
+          className="sc-guXXQn zpfov"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -298,23 +298,23 @@ exports[`Dialog Footer renders with Button MD 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS eQKBeb"
+            className="sc-guXXQn gSQcDB"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
@@ -325,39 +325,39 @@ exports[`Dialog Footer renders with Button MD 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS eQKBeb"
+            className="sc-guXXQn gSQcDB"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS dYIKol"
+          className="sc-guXXQn zpfov"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -377,23 +377,23 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS iGFtcV"
+            className="sc-guXXQn buGKbL"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
@@ -404,38 +404,38 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS iGFtcV"
+            className="sc-guXXQn buGKbL"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS gjTlji"
+            className="sc-guXXQn ibWRbU"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
@@ -446,54 +446,54 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS iGFtcV"
+            className="sc-guXXQn buGKbL"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS gjTlji"
+            className="sc-guXXQn ibWRbU"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS bmHiaU"
+          className="sc-guXXQn kgosOW"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -503,39 +503,39 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS iGFtcV"
+            className="sc-guXXQn buGKbL"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS bmHiaU"
+          className="sc-guXXQn kgosOW"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
@@ -545,23 +545,23 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS gjTlji"
+            className="sc-guXXQn ibWRbU"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
@@ -572,39 +572,39 @@ exports[`Dialog Footer renders with Button SM 1`] = `
     className="flex justify-around items-center w-96 mb-4"
   >
     <div
-      className="sc-hZiMVj iSzmpX"
+      className="sc-lfVKn hvpGfk"
     >
       <div
-        className="sc-dDaJoQ qwkvz"
+        className="sc-izgCsI kCa-dCf"
       >
         <div
-          className="sc-cbDwiu bcJVNH"
+          className="sc-jTIXKS iGNJPG"
         >
           <button
-            className="sc-dOaiCS gjTlji"
+            className="sc-guXXQn ibWRbU"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Button
             <div
-              className="sc-jdzWJC ifPczp"
+              className="sc-dOeoAH eaXcSX"
             />
           </button>
         </div>
       </div>
       <div
-        className="sc-cbDwiu bcJVNH"
+        className="sc-jTIXKS iGNJPG"
       >
         <button
-          className="sc-dOaiCS bmHiaU"
+          className="sc-guXXQn kgosOW"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
         >
           Button
           <div
-            className="sc-jdzWJC ifPczp"
+            className="sc-dOeoAH eaXcSX"
           />
         </button>
       </div>
