@@ -2,11 +2,10 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
-import Fill from '../../public/examples/tabs/Fill';
-import FillContainer from '../../public/examples/tabs/FillContainer';
-import IsTop from '../../public/examples/tabs/IsTop';
+import HorizontalVariants from "../../public/examples/tabs/HorizontalVariants";
 import Small from '../../public/examples/tabs/Small';
 import Variant from '../../public/examples/tabs/Variant';
+import VerticalVariants from "../../public/examples/tabs/VerticalVariants";
 import useExamples from '../../utils/useExamples';
 
 const PageTabsNew = () => {
@@ -27,33 +26,25 @@ const PageTabsNew = () => {
       {/* Default */}
       <section className="mt-4">
         <Preview
-          title="Underline"
+          title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
-      <section className="mt-8">
+      <section className="mt-4">
         <Preview
-          title="Overline"
-          preview={<IsTop />}
-          code={examples ? examples.IsTop : 'Loading'}
+          title="Horizontal variants"
+          preview={<HorizontalVariants />}
+          code={examples ? examples.HorizontalVariants : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
-          title="Filled"
-          preview={<Fill />}
-          code={examples ? examples.Fill : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Segment control"
-          preview={<FillContainer />}
-          code={examples ? examples.FillContainer : 'Loading'}
+          title="Vertical variants"
+          preview={<VerticalVariants />}
+          code={examples ? examples.VerticalVariants : 'Loading'}
         />
       </section>
 

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Tabs, TabLinkFill } from '@heathmont/moon-core';
 
-const Example = () => (
+const Example = ({ isVertical }: { isVertical?: boolean }) => (
   <Tabs
     id="nav-test-id-1"
     isContainer
     isSegmented={true}
+    isVertical={isVertical}
     items={[
       <TabLinkFill href="#2">Featured</TabLinkFill>,
       <TabLinkFill href="#3">Today</TabLinkFill>,

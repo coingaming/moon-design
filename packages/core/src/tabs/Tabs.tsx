@@ -13,6 +13,7 @@ export interface TabsProps {
   dir?: 'ltr' | 'rtl' | 'auto';
   isContainer?: boolean;
   isSegmented?: boolean;
+  isVertical?: boolean;
 }
 
 const Tab = styled.li({});
@@ -24,7 +25,8 @@ const Tabs: React.FC<TabsProps> = ({
   size,
   dir,
   isContainer,
-  isSegmented
+  isSegmented,
+  isVertical
 }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
   const nonEmptyTabs = Array.isArray(items)
@@ -32,7 +34,7 @@ const Tabs: React.FC<TabsProps> = ({
     : [];
 
   return (
-    <TabNav isContainer={isContainer}>
+    <TabNav isContainer={isContainer} isVertical={isVertical} isTop={isTop}>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
       <TabList dir={dir} space={rem(8)} isContainer={isContainer} isSegmented={isSegmented}>
         {Array.isArray(nonEmptyTabs) &&
