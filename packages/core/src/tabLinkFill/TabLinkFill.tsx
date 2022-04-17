@@ -6,7 +6,7 @@ import Container from './styles/Container';
 export interface TabLinkFillProps {
   elementLeft?: React.ReactElement;
   count?: string;
-  size?: 'small' | 'medium';
+  size?: 'small' | 'medium' | 'large';
   isTop?: boolean;
   href?: string;
 }

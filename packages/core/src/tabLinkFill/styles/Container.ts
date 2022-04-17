@@ -4,13 +4,15 @@ import styled from 'styled-components';
 
 type Props = {
   elementLeft?: React.ReactElement;
-  size?: 'small' | 'medium';
+  size?: 'small' | 'medium' | 'large';
 };
 
 const Container = styled.a<Props>(({ theme, size }) => ({
   display: 'flex',
   alignItems: 'center',
-  padding: `${size === 'small' ? rem(4) : rem(8)} ${rem(8)}`,
+  padding: size === 'small'
+    ? `${rem(4)} ${rem(8)}`
+    : `${rem(8)} ${rem(12)}`,
   position: 'relative',
   margin: 0,
   fontSize: rem(14),

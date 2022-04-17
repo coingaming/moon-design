@@ -5,6 +5,7 @@ const Example = () => (
   <Tabs
     id="nav-test-id-1"
     isContainer
+    isSegmented={true}
     items={[
       <TabLinkFill href="#2">Featured</TabLinkFill>,
       <TabLinkFill href="#3">Today</TabLinkFill>,

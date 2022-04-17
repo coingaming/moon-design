@@ -9,9 +9,10 @@ export interface TabsProps {
   id?: string;
   items: JSX.Element[];
   isTop?: boolean;
-  size?: 'small' | 'medium';
+  size?: 'small' | 'medium' | 'large';
   dir?: 'ltr' | 'rtl' | 'auto';
   isContainer?: boolean;
+  isSegmented?: boolean;
 }
 
 const Tab = styled.li({});
@@ -23,6 +24,7 @@ const Tabs: React.FC<TabsProps> = ({
   size,
   dir,
   isContainer,
+  isSegmented
 }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
   const nonEmptyTabs = Array.isArray(items)
@@ -32,12 +34,12 @@ const Tabs: React.FC<TabsProps> = ({
   return (
     <TabNav isContainer={isContainer}>
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
-      <TabList dir={dir} space={rem(8)} isContainer={isContainer}>
+      <TabList dir={dir} space={rem(8)} isContainer={isContainer} isSegmented={isSegmented}>
         {Array.isArray(nonEmptyTabs) &&
           nonEmptyTabs.map((tab) => {
             const tabWithProps = React.cloneElement(tab, {
               isTop: isTop,
-              size: size,
+              size: (!isSegmented && size === 'large') || (isSegmented && size === 'small') ? 'medium' : size,
             });
             return <Tab key={`tab-${uniqueId()}`}>{tabWithProps}</Tab>;
           })}
