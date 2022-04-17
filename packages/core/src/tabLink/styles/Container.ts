@@ -25,6 +25,7 @@ const Container = styled.a<Props>(({ theme, size, isTop }) => [
     textDecoration: 'none',
     border: 0,
     appearance: 'none',
+    cursor: 'pointer',
     '&:after': {
       content: '""',
       position: 'absolute',
@@ -45,7 +46,6 @@ const Container = styled.a<Props>(({ theme, size, isTop }) => [
     },
     '&:focus, &:active, &.active, &[aria-current=page]': {
       color: theme.colorNew.piccolo,
-      cursor: 'pointer',
       '&:after': {
         transform: 'scaleX(1)',
       },

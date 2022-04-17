@@ -23,11 +23,12 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   textDecoration: 'none',
   appearance: 'none',
   borderRadius: rem(8),
-  '&:hover, &:focus': {
-    backgroundColor: rgba(theme.colorNew.piccolo, 0.1),
-    cursor: 'pointer',
+  cursor: 'pointer',
+  '&:hover:not(:focus):not(:active):not(.active)': {
+    backgroundColor: rgba(theme.colorNew.piccolo, 0.12),
+    color: theme.colorNew.piccolo,
   },
-  '&:active, &.active, &[aria-current=page]': {
+  '&:focus, &:active, &.active, &[aria-current=page]': {
     backgroundColor: theme.colorNew.piccolo,
     color: theme.colorNew.goten,
   },
