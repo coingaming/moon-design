@@ -31,7 +31,6 @@ const TabLink: React.FC<TabLinkProps> = ({
     size={size}
     isTop={isTop}
     href={href}
-    paddingSize={size === 'small' ? rem(2) : rem(6)}
   >
     {elementLeft && <ElementLeftWrapper>{elementLeft}</ElementLeftWrapper>}
     {children}

@@ -20,17 +20,7 @@ const PageTabsNew = () => {
           same context.
         </p>
         <p className="text-lg mt-4">
-          By default, tabs will provide an accessible skip link, and overflow
-          with horizontal scrolling.
-        </p>
-        <p className="text-lg mt-4">
-          TabLink or TabLinkFill components provides the tab interaction. The
-          components renders as an anchor tag, accepting the standard
-          attributes. You also can wrap these components in custom Link
-          component for a specific router.
-        </p>
-        <p className="text-lg mt-8">
-          Below provides examples of different Tabs types:
+          Each tab should contain content that is distinct from other tabs in a set. For example, tabs can present different sections of news, different genres of music, or different themes of documents.
         </p>
       </section>
 
