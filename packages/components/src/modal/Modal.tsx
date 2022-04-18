@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { ColorProps } from '@heathmont/moon-themes';
 import { createPortal } from 'react-dom';
 import styled from 'styled-components';
-import ModalOverlay from './ModalOverlay';
 import ModalContent from './ModalContent';
-import { ColorProps } from '@heathmont/moon-themes';
+import ModalOverlay from './ModalOverlay';
 
 type Props = {
   backgroundColor?: ColorProps;

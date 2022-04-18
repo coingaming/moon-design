@@ -25,26 +25,26 @@ const PageLoader = () => {
           so that they know there's no need to repeat what they've done.
         </Text>
       </section>
-
       <section className="mt-8">
         <Preview
           title="Default"
+          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
-
       <section className="mt-8">
         <Preview
           title="Colours"
+          isGrayBg
           preview={<Colours />}
           code={examples ? examples.Colours : 'Loading'}
         />
       </section>
-
       <section className="mt-8">
         <Preview
           title="Sizes"
+          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />

@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import { IconChevronRight } from '@heathmont/moon-assets';
 import { rem } from '@heathmont/moon-utils';
-import React, { useState } from 'react';
 import styled from 'styled-components';
 
 type ToggleProps = {

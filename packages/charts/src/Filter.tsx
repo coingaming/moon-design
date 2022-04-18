@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { IconChevronDownRounded } from '@heathmont/moon-assets';
-import { FilterDropdown, Text } from '@heathmont/moon-components';
+import { FilterDropdown } from '@heathmont/moon-components';
+import { Text } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 import { useClickAway, useKey } from 'react-use';
 import styled from 'styled-components';

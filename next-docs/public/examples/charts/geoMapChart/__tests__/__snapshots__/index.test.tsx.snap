@@ -2,7 +2,7 @@
 
 exports[`Geo Map Chart renders 1`] = `
 <div
-  className="sc-iGFZyS iFdqRZ"
+  className="sc-knTjpY jCfrJz"
   style={
     Object {
       "height": 446,
@@ -10,14 +10,14 @@ exports[`Geo Map Chart renders 1`] = `
   }
 >
   <div
-    className="sc-fPHReD fqNEzs"
+    className="sc-jLOYlT ezGncR"
   >
     <button
-      className="sc-bCApYh egjIbr"
+      className="sc-bSGZAx fYVUqX"
       onClick={[Function]}
     >
       <svg
-        className="sc-klmQzc sc-dJHeTw  kIKYZL"
+        className="sc-kZPSHH sc-gRFyCy  loyRgj"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -34,11 +34,11 @@ exports[`Geo Map Chart renders 1`] = `
     </button>
     <div />
     <button
-      className="sc-bCApYh jeNrLl"
+      className="sc-bSGZAx gtcMal"
       onClick={[Function]}
     >
       <svg
-        className="sc-gVflOg"
+        className="sc-cWAxUP"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -60,11 +60,11 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </button>
     <button
-      className="sc-bCApYh jeNrLl"
+      className="sc-bSGZAx gtcMal"
       onClick={[Function]}
     >
       <svg
-        className="sc-hYbzA-d"
+        className="sc-dMLzBS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -79,10 +79,10 @@ exports[`Geo Map Chart renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-chbKxp jRssRf"
+    className="sc-hxCwtQ OnRJE"
   >
     <div
-      className="sc-bWIbvL hmfJXo"
+      className="sc-eLHYIy fGUHIg"
     >
       <svg
         fill="none"
@@ -153,25 +153,23 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="sc-fNPocS sc-hoyuhS ezZhCI boooja"
-      color="bulma.100"
+      className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
       size={20}
     >
       Top Countries
     </p>
     <div
-      className="sc-hySdjw"
+      className="sc-bPnocz"
     >
       <div
-        className="sc-icOqvn cTNVCC"
+        className="sc-gbFqDM ipLwql"
       >
         <button
-          className="sc-fAjPcg iWzvaY"
+          className="sc-jjavrh eORxeC"
           onClick={[Function]}
         >
           <p
-            className="sc-fNPocS sc-cbFqep jfKVwZ hbClHO"
-            color="bulma.100"
+            className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
             size={14}
           >
             by GGR
@@ -196,43 +194,43 @@ exports[`Geo Map Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-kEiKpV eXlWOx"
+    className="sc-gA-DJDv hlhQik"
   >
     <div
-      className="sc-gLLjfg jJKxbh"
+      className="sc-evnJpU hqaHqL"
     >
       <div
-        className="sc-loa-dOV bpVkTD"
+        className="sc-hwByLP bosUgZ"
       >
         <div
-          className="sc-hWOFZS bluymG"
+          className="sc-jrVuhE kFirvt"
         >
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <span
-              className="sc-ixhHRQ eWAtc"
+              className="sc-gPKDLW faoaGp"
             >
               1
             </span>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-ffQxFD evdjlM"
+              className="sc-jJUdvr fXiHDy"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-SIWzh hAPbXE"
+            className="sc-WJksd hFSEzO"
           >
             <div
-              className="sc-hvCCEg elLBKw"
+              className="sc-frlyyo gUtBMv"
             >
               <div
-                className="sc-elLVwv chyNdF"
+                className="sc-cuQNSp edxvlN"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -244,40 +242,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-fGjzxB gIGmoY"
+              className="sc-ksWjrO iKBZvf"
             >
               120
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <span
-              className="sc-ixhHRQ eWAtc"
+              className="sc-gPKDLW faoaGp"
             >
               2
             </span>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-ffQxFD evdjlM"
+              className="sc-jJUdvr fXiHDy"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-SIWzh hAPbXE"
+            className="sc-WJksd hFSEzO"
           >
             <div
-              className="sc-hvCCEg elLBKw"
+              className="sc-frlyyo gUtBMv"
             >
               <div
-                className="sc-elLVwv chyNdF"
+                className="sc-cuQNSp edxvlN"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -289,40 +287,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-fGjzxB gIGmoY"
+              className="sc-ksWjrO iKBZvf"
             >
               100
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <span
-              className="sc-ixhHRQ eWAtc"
+              className="sc-gPKDLW faoaGp"
             >
               3
             </span>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-ffQxFD evdjlM"
+              className="sc-jJUdvr fXiHDy"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-SIWzh hAPbXE"
+            className="sc-WJksd hFSEzO"
           >
             <div
-              className="sc-hvCCEg elLBKw"
+              className="sc-frlyyo gUtBMv"
             >
               <div
-                className="sc-elLVwv chyNdF"
+                className="sc-cuQNSp edxvlN"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -334,40 +332,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-fGjzxB gIGmoY"
+              className="sc-ksWjrO iKBZvf"
             >
               80
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <span
-              className="sc-ixhHRQ eWAtc"
+              className="sc-gPKDLW faoaGp"
             >
               4
             </span>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-ffQxFD evdjlM"
+              className="sc-jJUdvr fXiHDy"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-SIWzh hAPbXE"
+            className="sc-WJksd hFSEzO"
           >
             <div
-              className="sc-hvCCEg elLBKw"
+              className="sc-frlyyo gUtBMv"
             >
               <div
-                className="sc-elLVwv chyNdF"
+                className="sc-cuQNSp edxvlN"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -379,40 +377,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-fGjzxB gIGmoY"
+              className="sc-ksWjrO iKBZvf"
             >
               60
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <span
-              className="sc-ixhHRQ eWAtc"
+              className="sc-gPKDLW faoaGp"
             >
               5
             </span>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-ffQxFD evdjlM"
+              className="sc-jJUdvr fXiHDy"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-SIWzh hAPbXE"
+            className="sc-WJksd hFSEzO"
           >
             <div
-              className="sc-hvCCEg elLBKw"
+              className="sc-frlyyo gUtBMv"
             >
               <div
-                className="sc-elLVwv chyNdF"
+                className="sc-cuQNSp edxvlN"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -424,10 +422,10 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-SIWzh diRLzv"
+            className="sc-WJksd fYTdlB"
           >
             <div
-              className="sc-fGjzxB gIGmoY"
+              className="sc-ksWjrO iKBZvf"
             >
               40
             </div>
@@ -436,10 +434,10 @@ exports[`Geo Map Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="sc-etyysw iofwWd"
+      className="sc-hNDnKS lazTUA"
     >
       <div
-        className="sc-ldzVZs jRdZaM"
+        className="sc-cmYlSf iFbjUT"
         style={
           Object {
             "left": 0,

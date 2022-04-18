@@ -9,7 +9,6 @@ import Image from '../Image';
 import Letter from '../Letter';
 import Fallbacks from '../Fallbacks';
 import Colours from '../Colours';
-import Statuses from '../Statuses';
 import StatusPositions from '../StatusPositions';
 
 const renderWithTheme = (component: JSX.Element) => (
@@ -34,11 +33,6 @@ describe('Avatar', () => {
 
   it('supports different colours', () => {
     const testRenderer = renderer.create(renderWithTheme(<Colours />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders different statuses', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Statuses />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

@@ -1,8 +1,8 @@
-import lastDayOfMonth from 'date-fns/lastDayOfMonth';
 import eachDayOfInterval from 'date-fns/eachDayOfInterval';
-import startOfWeek from 'date-fns/startOfWeek';
 import endOfWeek from 'date-fns/endOfWeek';
+import lastDayOfMonth from 'date-fns/lastDayOfMonth';
 import startOfMonth from 'date-fns/startOfMonth';
+import startOfWeek from 'date-fns/startOfWeek';
 
 interface getMonthDaysArgs {
   date: Date;

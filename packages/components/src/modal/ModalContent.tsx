@@ -1,8 +1,8 @@
 import React from 'react';
+import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
 import styled, { keyframes, css } from 'styled-components';
 import IconClose from '../private/icons/IconClose';
-import { rem, themed } from '@heathmont/moon-utils';
-import { ColorProps } from '@heathmont/moon-themes';
 
 type Props = {
   backgroundColor?: ColorProps;
