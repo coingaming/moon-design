@@ -27,6 +27,7 @@ export const DialogToggle = styled.button<DialogToggleProps>(
       cursor: 'not-allowed',
       opacity: opacity.disabled,
     },
+    zIndex: 10,
   }),
   ({ backgroundColor, theme }) => ({
     backgroundColor:
