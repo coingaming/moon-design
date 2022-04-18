@@ -1,4 +1,3 @@
-import {lighten, rgba} from "polished";
 import rem from 'polished/lib/helpers/rem';
 import styled from 'styled-components';
 
@@ -36,20 +35,9 @@ const Container = styled.a<Props>(({ theme, size, isTop }) => [
       bottom: isTop ? 'auto' : 0,
       margin: '0 auto',
       backgroundColor: theme.colorNew.piccolo,
-      transform: 'scaleX(0)',
-      transition: `transform ${theme.newTokens.transition.default}`,
-    },
-    '&:hover:not(:focus):not(:active):not(.active)': {
-      backgroundColor: rgba(theme.colorNew.piccolo, .12),
-      borderRadius: rem(8),
-      color: theme.colorNew.piccolo,
-    },
-    '&:focus, &:active, &.active, &[aria-current=page]': {
-      color: theme.colorNew.piccolo,
-      '&:after': {
-        transform: 'scaleX(1)',
-      },
-    },
+      opacity: 0,
+      transition: `all ${theme.newTokens.transition.slow}`,
+    }
   },
   isTop && {
     '&:after': {

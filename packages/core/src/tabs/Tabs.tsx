@@ -44,7 +44,7 @@ const Tabs: React.FC<TabsProps> = ({
 
     if (selectedElement) {
       const elementRect = selectedElement.getBoundingClientRect();
-      console.log('elementRect.x - listRect.x', elementRect.x - listRect.x)
+
       setSliderSize(`${isVertical ? elementRect.height : elementRect.width}px`)
       setSliderLeft(`${elementRect.x - listRect.x}px`)
     }
@@ -69,6 +69,7 @@ const Tabs: React.FC<TabsProps> = ({
 
             return <Tab
               key={`tab-${uniqueId()}`}
+              className={`${index === selectedTabIndex ? 'active' : ''}`}
               onClick={() => {
                 setSelectedTabIndex(index)
               }}

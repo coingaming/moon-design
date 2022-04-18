@@ -16,6 +16,6 @@ export const Slider = styled.span<{
     left: left,
     backgroundColor: theme.colorNew.piccolo,
     //borderRadius: `calc(${switchWidth} + ${rem(2)})`,
-    transition: 'all .2s'
+    transition: `all ${theme.newTokens.transition.default}`
   })
 );
