@@ -26,14 +26,6 @@ const Container = styled.a<Props>(({ theme, size }) => ({
   appearance: 'none',
   borderRadius: rem(8),
   cursor: 'pointer',
-  '&:hover:not(:focus):not(:active):not(.active)': {
-    backgroundColor: rgba(theme.colorNew.piccolo, 0.12),
-    color: theme.colorNew.piccolo,
-  },
-  '&:focus, &:active, &.active, &[aria-current=page]': {
-    backgroundColor: theme.colorNew.piccolo,
-    color: theme.colorNew.goten,
-  },
 }));
 
 export default Container;

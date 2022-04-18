@@ -6,14 +6,19 @@ const TabNav = styled.nav<{
   isContainer?: boolean,
   isVertical?: boolean
   isTop?: boolean
-}>(({ theme, isContainer, isVertical, isTop }) => [
+  isSegmented?: boolean
+}>(({ theme, isContainer, isVertical, isTop, isSegmented }) => [
   {
     position: 'relative',
     width: '100%',
     '& li': {
       '&.active': {
         '& a': {
-          '&:hover': {
+          '&.tab-link-fill': {
+            backgroundColor: theme.colorNew.piccolo,
+            color: theme.colorNew.goten,
+          },
+          '&:not(.tab-link-fill):hover': {
             backgroundColor: 'transparent',
           },
           '&::after': {
@@ -36,6 +41,32 @@ const TabNav = styled.nav<{
   },
   isContainer && {
     display: 'flex',
+  },
+  isSegmented && {
+    '& li': {
+      '&.active': {
+        '& a': {
+          '&.tab-link-fill': {
+            backgroundColor: theme.colorNew.goten,
+            color: theme.colorNew.bulma,
+            border: 'none',
+          },
+          '&:hover': {
+            backgroundColor: theme.colorNew.gohan,
+            color: theme.colorNew.bulma
+          },
+          '&::after': {
+            opacity: 1,
+          },
+        },
+      },
+      '& a': {
+        '&:hover': {
+          backgroundColor: 'transparent',
+          color: theme.colorNew.bulma
+        },
+      }
+    },
   },
   isVertical && {
     flexDirection: 'column',

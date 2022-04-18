@@ -26,7 +26,7 @@ const TabLinkFill: React.FC<TabLinkFillProps> = ({
   size,
   count,
 }) => (
-  <Container size={size} href={href}>
+  <Container size={size} href={href} className='tab-link-fill'>
     {elementLeft && <ElementLeftWrapper>{elementLeft}</ElementLeftWrapper>}
     {children}
     {count && <CountWrapper>{count}</CountWrapper>}

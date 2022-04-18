@@ -1,7 +1,7 @@
 import {rem} from "@heathmont/moon-utils";
 import styled from "styled-components";
 
-export const Slider = styled.span<{
+export const Slider = styled.div<{
   isTop?: boolean;
   isVertical?: boolean;
   size: string | number;

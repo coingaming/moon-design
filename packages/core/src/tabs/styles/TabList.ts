@@ -16,14 +16,6 @@ const TabList = styled(Reel.withComponent('ul'))<{
     isSegmented && {
       border: 'none',
       backgroundColor: colorNew.beerus,
-      'a:hover:not(:focus):not(:active):not(.active)': {
-        backgroundColor: 'transparent',
-        color: colorNew.bulma
-      },
-      'a:focus, a:active, a.active, a[aria-current=page]': {
-        backgroundColor: colorNew.gohan,
-        color: colorNew.bulma
-      },
     }
   ]
 );

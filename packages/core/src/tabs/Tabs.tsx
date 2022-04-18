@@ -51,7 +51,12 @@ const Tabs: React.FC<TabsProps> = ({
   }, [selectedTabIndex]);
 
   return (
-    <TabNav isContainer={isContainer} isVertical={isVertical} isTop={isTop}>
+    <TabNav
+      isContainer={isContainer}
+      isVertical={isVertical}
+      isTop={isTop}
+      isSegmented={isSegmented}
+    >
       <SkipLink href={`#${autoId}`}>Skip to content</SkipLink>
       <TabList
         dir={dir}
