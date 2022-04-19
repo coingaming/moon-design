@@ -3,7 +3,7 @@ import {IconMoon, IconSun} from "@heathmont/moon-assets";
 import {inlineSvg, rem} from "@heathmont/moon-utils";
 import rgba from "polished/lib/color/rgba";
 import styled from "styled-components";
-import Size from "../types/Size";
+import {Size} from "../types/Size";
 
 type SliderOptions = {
   colorScheme?: boolean;
