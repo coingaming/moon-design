@@ -11,13 +11,13 @@ exports[`Switch renders 1`] = `
   }
 >
   <label
-    className="sc-iBPSDD gvRHcY"
+    className="sc-fHGsUi jaurIm"
     disabled={false}
     size="sm"
   >
     <input
       checked={true}
-      className="sc-fHGsUi dEUUky"
+      className="sc-iBPSDD kuchse"
       id="test-switch-1"
       onChange={[Function]}
       size="sm"
@@ -25,7 +25,7 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-      className="sc-gHGAhJ EhBbj"
+      className="sc-lcfOiJ gSWEUo"
       size="sm"
     />
   </label>
@@ -46,13 +46,13 @@ exports[`Switch renders Buttons 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD diChda"
+      className="sc-fHGsUi bnJUac"
       disabled={false}
       size="md"
     >
       <input
         checked={true}
-        className="sc-fHGsUi dEUUky"
+        className="sc-iBPSDD kuchse"
         id="button-switch-1"
         onChange={[Function]}
         size="md"
@@ -60,11 +60,11 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ kqFfiY"
+        className="sc-lcfOiJ dftuAH"
         size="md"
       >
         <span
-          className="sc-lcfOiJ gbDlDa"
+          className="sc-gHGAhJ dNGOoI"
         >
           <p
             className="sc-iKKmqK ezlnSw"
@@ -94,13 +94,13 @@ exports[`Switch renders Buttons 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD kuSSbJ"
+      className="sc-fHGsUi hBtlvf"
       disabled={false}
       size="lg"
     >
       <input
         checked={true}
-        className="sc-fHGsUi dEUUky"
+        className="sc-iBPSDD kuchse"
         id="button-switch-2"
         onChange={[Function]}
         size="lg"
@@ -108,11 +108,11 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ kqFfiY"
+        className="sc-lcfOiJ dftuAH"
         size="lg"
       >
         <span
-          className="sc-lcfOiJ gbDlDa"
+          className="sc-gHGAhJ dNGOoI"
         >
           <p
             className="sc-iKKmqK ezlnSw"
@@ -149,13 +149,13 @@ exports[`Switch renders Disabled state 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD hXjlLK"
+      className="sc-fHGsUi eODkHI"
       disabled={true}
       size="sm"
     >
       <input
         checked={true}
-        className="sc-fHGsUi dEUUky"
+        className="sc-iBPSDD kuchse"
         id="test-switch-disabled-checked"
         onChange={[Function]}
         size="sm"
@@ -163,7 +163,7 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ EhBbj"
+        className="sc-lcfOiJ gSWEUo"
         size="sm"
       />
     </label>
@@ -178,13 +178,13 @@ exports[`Switch renders Disabled state 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD hXjlLK"
+      className="sc-fHGsUi eODkHI"
       disabled={true}
       size="sm"
     >
       <input
         checked={false}
-        className="sc-fHGsUi dEUUky"
+        className="sc-iBPSDD kuchse"
         id="test-switch-disabled"
         onChange={[Function]}
         size="sm"
@@ -192,7 +192,7 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={false}
-        className="sc-gHGAhJ lolglr"
+        className="sc-lcfOiJ kZZGxA"
         size="sm"
       />
     </label>
@@ -214,13 +214,13 @@ exports[`Switch renders Theme variant 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD cvnxuK"
+      className="sc-fHGsUi CsiyQ"
       disabled={false}
       size="2xs"
     >
       <input
         checked={true}
-        className="sc-fHGsUi gbdJgn"
+        className="sc-iBPSDD bbdwSz"
         id="test-switch-1"
         onChange={[Function]}
         size="2xs"
@@ -228,7 +228,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ fYWdEd"
+        className="sc-lcfOiJ frbpnm"
         size="2xs"
       />
     </label>
@@ -243,13 +243,13 @@ exports[`Switch renders Theme variant 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD cTuNcB"
+      className="sc-fHGsUi fLGzfj"
       disabled={false}
       size="xs"
     >
       <input
         checked={true}
-        className="sc-fHGsUi cTnuZj"
+        className="sc-iBPSDD knIKsr"
         id="test-switch-2"
         onChange={[Function]}
         size="xs"
@@ -257,7 +257,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ hxOqmQ"
+        className="sc-lcfOiJ irWnIz"
         size="xs"
       />
     </label>
@@ -272,13 +272,13 @@ exports[`Switch renders Theme variant 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD gvRHcY"
+      className="sc-fHGsUi jaurIm"
       disabled={false}
       size="sm"
     >
       <input
         checked={true}
-        className="sc-fHGsUi cTnuZj"
+        className="sc-iBPSDD knIKsr"
         id="test-switch-3"
         onChange={[Function]}
         size="sm"
@@ -286,7 +286,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ hxOqmQ"
+        className="sc-lcfOiJ irWnIz"
         size="sm"
       />
     </label>
@@ -308,13 +308,13 @@ exports[`Switch renders different Sizes 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD cvnxuK"
+      className="sc-fHGsUi CsiyQ"
       disabled={false}
       size="2xs"
     >
       <input
         checked={true}
-        className="sc-fHGsUi fJZOSG"
+        className="sc-iBPSDD konwfO"
         id="test-switch-1"
         onChange={[Function]}
         size="2xs"
@@ -322,7 +322,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ hoPVou"
+        className="sc-lcfOiJ lfAKCN"
         size="2xs"
       />
     </label>
@@ -337,13 +337,13 @@ exports[`Switch renders different Sizes 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD cTuNcB"
+      className="sc-fHGsUi fLGzfj"
       disabled={false}
       size="xs"
     >
       <input
         checked={true}
-        className="sc-fHGsUi dEUUky"
+        className="sc-iBPSDD kuchse"
         id="test-switch-2"
         onChange={[Function]}
         size="xs"
@@ -351,7 +351,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ EhBbj"
+        className="sc-lcfOiJ gSWEUo"
         size="xs"
       />
     </label>
@@ -366,13 +366,13 @@ exports[`Switch renders different Sizes 1`] = `
     }
   >
     <label
-      className="sc-iBPSDD gvRHcY"
+      className="sc-fHGsUi jaurIm"
       disabled={false}
       size="sm"
     >
       <input
         checked={true}
-        className="sc-fHGsUi dEUUky"
+        className="sc-iBPSDD kuchse"
         id="test-switch-3"
         onChange={[Function]}
         size="sm"
@@ -380,7 +380,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-gHGAhJ EhBbj"
+        className="sc-lcfOiJ gSWEUo"
         size="sm"
       />
     </label>
