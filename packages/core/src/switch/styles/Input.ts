@@ -2,7 +2,7 @@ import React from "react";
 import {rem} from "@heathmont/moon-utils";
 import hideVisually from "polished/lib/mixins/hideVisually";
 import styled from "styled-components";
-import {Size} from "../types/Size";
+import {Size} from "../private/Size";
 
 const Input = styled.input<{
   switchWidth: string;
