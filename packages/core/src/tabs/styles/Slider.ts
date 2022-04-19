@@ -7,15 +7,16 @@ export const Slider = styled.div<{
   isSegmented?: boolean;
   fillTab?: boolean;
   size: string | number;
-  left: string | number;
+  offset: string | number;
 }>(
-  ({ theme, isTop, isVertical, isSegmented, left, size, fillTab }) => ({
+  ({ theme, isTop, isVertical, isSegmented, offset, size, fillTab }) => ({
     position: 'absolute',
-    width: isVertical ? rem(2) : size,
-    height: fillTab ? `calc(100% - ${ isSegmented ? rem(8) : '0px' })` : isVertical ? size : rem(2),
-    top: isTop ? 0 : isSegmented ? rem(4) : 'initial',
+    width: isVertical ? fillTab ? '100%' : rem(2) : size,
+    height: isVertical ? size : fillTab ? `calc(100% - ${ isSegmented ? rem(8) : '0px' })` : rem(2),
+    top: isVertical ? offset : isTop ? 0 : isSegmented ? rem(4) : 'initial',
     bottom: isTop ? 'initial' : 0,
-    left: left,
+    left: isVertical ? isTop ? 'initial' : 0 : offset,
+    right: isVertical && isTop ? 0 : 'initial',
     backgroundColor: isSegmented ? theme.colorNew.goten : theme.colorNew.piccolo,
     borderRadius: fillTab ? rem(8) : 'none',
     transition: `all ${theme.newTokens.transition.default}`,

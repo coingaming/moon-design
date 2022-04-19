@@ -33,7 +33,7 @@ const Tabs: React.FC<TabsProps> = ({
     ? items.filter((tab) => tab != null)
     : [];
   const [sliderSize, setSliderSize] = useState('0px')
-  const [sliderLeft, setSliderLeft] = useState('0px')
+  const [sliderOffset, setSliderOffset] = useState('0px')
   const [selectedTabIndex, setSelectedTabIndex] = useState(-1)
 
   const fillTabs = !!listRef?.current?.querySelectorAll('.tab-link-fill').length;
@@ -47,7 +47,7 @@ const Tabs: React.FC<TabsProps> = ({
         const elementRect = selectedElement.getBoundingClientRect();
 
         setSliderSize(`${isVertical ? elementRect.height : elementRect.width}px`)
-        setSliderLeft(`${elementRect.x - listRect.x}px`)
+        setSliderOffset(`${isVertical ? elementRect.y - listRect.y : elementRect.x - listRect.x}px`)
       }
     }
   }, [selectedTabIndex]);
@@ -95,7 +95,7 @@ const Tabs: React.FC<TabsProps> = ({
             isSegmented={isSegmented}
             fillTab={fillTabs}
             size={sliderSize}
-            left={sliderLeft}
+            offset={sliderOffset}
           />
         }
       </TabList>
