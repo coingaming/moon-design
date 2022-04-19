@@ -1,8 +1,8 @@
 import React, {useEffect, useRef, useState} from 'react';
 import { rem, uniqueId } from '@heathmont/moon-utils';
-import styled from 'styled-components';
 import SkipLink from './styles/SkipLink';
 import { Slider } from './styles/Slider';
+import Tab from "./styles/Tab";
 import TabList from './styles/TabList';
 import TabNav from './styles/TabNav';
 
@@ -16,8 +16,6 @@ export interface TabsProps {
   isSegmented?: boolean;
   isVertical?: boolean;
 }
-
-const Tab = styled.li({});
 
 const Tabs: React.FC<TabsProps> = ({
   id,
@@ -38,15 +36,19 @@ const Tabs: React.FC<TabsProps> = ({
   const [sliderLeft, setSliderLeft] = useState('0px')
   const [selectedTabIndex, setSelectedTabIndex] = useState(-1)
 
+  const fillTabs = !!listRef?.current?.querySelectorAll('.tab-link-fill').length;
+
   useEffect(() => {
-    const listRect = listRef?.current.getBoundingClientRect();
-    const selectedElement = listRef?.current?.querySelectorAll('li')[selectedTabIndex];
+    if (listRef?.current) {
+      const listRect = listRef.current.getBoundingClientRect();
+      const selectedElement = listRef.current.querySelectorAll('li')[selectedTabIndex];
 
-    if (selectedElement) {
-      const elementRect = selectedElement.getBoundingClientRect();
+      if (selectedElement) {
+        const elementRect = selectedElement.getBoundingClientRect();
 
-      setSliderSize(`${isVertical ? elementRect.height : elementRect.width}px`)
-      setSliderLeft(`${elementRect.x - listRect.x}px`)
+        setSliderSize(`${isVertical ? elementRect.height : elementRect.width}px`)
+        setSliderLeft(`${elementRect.x - listRect.x}px`)
+      }
     }
   }, [selectedTabIndex]);
 
@@ -65,14 +67,17 @@ const Tabs: React.FC<TabsProps> = ({
         isSegmented={isSegmented}
         ref={listRef}
       >
-        {Array.isArray(nonEmptyTabs) &&
-          nonEmptyTabs.map((tab, index) => {
+        {
+          Array.isArray(nonEmptyTabs) && nonEmptyTabs.map((tab, index) => {
             const tabWithProps = React.cloneElement(tab, {
               isTop: isTop,
               size: (!isSegmented && size === 'large') || (isSegmented && size === 'small') ? 'medium' : size,
             });
 
             return <Tab
+              isSegmented={isSegmented}
+              isVertical={isVertical}
+              isTop={isTop}
               key={`tab-${uniqueId()}`}
               className={`${index === selectedTabIndex ? 'active' : ''}`}
               onClick={() => {
@@ -81,14 +86,14 @@ const Tabs: React.FC<TabsProps> = ({
             >
               {tabWithProps}
             </Tab>;
-          })}
-
+          })
+        }
         {
-          false && sliderSize !== '0px' && <Slider
+          sliderSize !== '0px' && <Slider
             isTop={isTop}
             isVertical={isVertical}
             isSegmented={isSegmented}
-            fillTab={listRef?.current?.querySelectorAll('.tab-link-fill').length}
+            fillTab={fillTabs}
             size={sliderSize}
             left={sliderLeft}
           />

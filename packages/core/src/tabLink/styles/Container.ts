@@ -20,12 +20,12 @@ const Container = styled.a<Props>(({ theme, size, isTop }) => [
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
     color: theme.colorNew.bulma,
-    transition: `color ${theme.newTokens.transition.default}`,
+    transition: `all ${theme.newTokens.transition.default}s`,
     textDecoration: 'none',
     border: 0,
     appearance: 'none',
     cursor: 'pointer',
-    '&:after': {
+    '&::after': {
       content: '""',
       position: 'absolute',
       height: rem(2),
@@ -36,11 +36,11 @@ const Container = styled.a<Props>(({ theme, size, isTop }) => [
       margin: '0 auto',
       backgroundColor: theme.colorNew.piccolo,
       opacity: 0,
-      transition: `all ${theme.newTokens.transition.slow}`,
+      transition: `all ${theme.newTokens.transition.slow}s`,
     }
   },
   isTop && {
-    '&:after': {
+    '&::after': {
       top: '0',
     },
   },
