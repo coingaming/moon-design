@@ -7,66 +7,45 @@ const TabNav = styled.nav<{
   isVertical?: boolean
   isTop?: boolean
   isSegmented?: boolean
-}>(({ theme, isContainer, isVertical, isTop, isSegmented }) => [
+}>(({theme, isContainer, isVertical, isTop, isSegmented}) => [
   {
     position: 'relative',
     width: '100%',
-    '& li': {
-      '&.active': {
-        '& a': {
-          '&.tab-link-fill': {
-            backgroundColor: theme.colorNew.piccolo,
-            color: theme.colorNew.goten,
+    display: isContainer ? 'flex' : 'block',
+    '& ul': {
+      position: 'relative',
+      '& > div': {
+        zIndex: 1
+      },
+      '& li': {
+        zIndex: 2,
+        '&.active': {
+          '& a': {
+            '&.tab-link-fill': {
+              backgroundColor: isSegmented ? theme.colorNew.goten : theme.colorNew.piccolo,
+              color: isSegmented ? theme.colorNew.bulma : theme.colorNew.goten,
+            },
+            '&:not(.tab-link-fill):hover': {
+              backgroundColor: 'transparent',
+            },
+            '&::after': {
+              opacity: 1,
+            },
           },
-          '&:not(.tab-link-fill):hover': {
-            backgroundColor: 'transparent',
+        },
+        '& a': {
+          '&:hover': {
+            backgroundColor: isSegmented ? 'transparent' : rgba(theme.colorNew.piccolo, .12),
+            borderRadius: rem(8),
+            color: isSegmented ? theme.colorNew.bulma : theme.colorNew.piccolo,
           },
           '&::after': {
-            opacity: 1,
-          },
-        },
-      },
-      '& a': {
-        '&:hover': {
-          backgroundColor: rgba(theme.colorNew.piccolo, .12),
-          borderRadius: rem(8),
-          color: theme.colorNew.piccolo,
-        },
-        '&::after': {
-          opacity: 0,
-          transition: `all ${theme.newTokens.transition.slow}`,
+            opacity: 0,
+            transition: `all ${theme.newTokens.transition.slow}`,
+          }
         }
       }
     }
-  },
-  isContainer && {
-    display: 'flex',
-  },
-  isSegmented && {
-    '& li': {
-      '&.active': {
-        '& a': {
-          '&.tab-link-fill': {
-            backgroundColor: theme.colorNew.goten,
-            color: theme.colorNew.bulma,
-            border: 'none',
-          },
-          '&:hover': {
-            backgroundColor: theme.colorNew.gohan,
-            color: theme.colorNew.bulma
-          },
-          '&::after': {
-            opacity: 1,
-          },
-        },
-      },
-      '& a': {
-        '&:hover': {
-          backgroundColor: 'transparent',
-          color: theme.colorNew.bulma
-        },
-      }
-    },
   },
   isVertical && {
     flexDirection: 'column',

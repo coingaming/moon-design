@@ -1,5 +1,4 @@
 import { rem } from '@heathmont/moon-utils';
-import { rgba } from 'polished';
 import styled from 'styled-components';
 
 type Props = {

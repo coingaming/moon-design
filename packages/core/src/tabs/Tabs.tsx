@@ -82,14 +82,19 @@ const Tabs: React.FC<TabsProps> = ({
               {tabWithProps}
             </Tab>;
           })}
+
+        {
+          false && sliderSize !== '0px' && <Slider
+            isTop={isTop}
+            isVertical={isVertical}
+            isSegmented={isSegmented}
+            fillTab={listRef?.current?.querySelectorAll('.tab-link-fill').length}
+            size={sliderSize}
+            left={sliderLeft}
+          />
+        }
       </TabList>
       <span id={autoId} />
-      <Slider
-        isTop={isTop}
-        isVertical={isVertical}
-        size={sliderSize}
-        left={sliderLeft}
-      />
     </TabNav>
   );
 };
