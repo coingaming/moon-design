@@ -6,7 +6,7 @@ import ButtonLabels from "./styles/ButtonLabels";
 import Input from "./styles/Input";
 import Label from "./styles/Label";
 import Slider from "./styles/Slider";
-import {Size} from "./types/Size";
+import Size from "./types/Size";
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
