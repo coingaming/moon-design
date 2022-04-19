@@ -28,6 +28,7 @@ const IconClose = styled(Svg)<IconProps>(
   ({ backgroundColor, circleColor, color, theme }) => [
     {
       verticalAlign: 'middle',
+      zIndex: 10
     },
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
