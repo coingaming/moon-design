@@ -2,11 +2,11 @@ import React from 'react';
 import { uniqueId } from '@heathmont/moon-utils';
 import {Text} from "../index";
 import Inline from '../inline/Inline';
+import {Size} from "./private/Size";
 import ButtonLabels from "./styles/ButtonLabels";
 import Input from "./styles/Input";
 import Label from "./styles/Label";
 import Slider from "./styles/Slider";
-import {Size} from "./types/Size";
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
