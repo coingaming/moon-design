@@ -1,6 +1,5 @@
 import React from 'react';
 import {IconMoon, IconSun} from "@heathmont/moon-assets";
-import {Space} from "@heathmont/moon-themes";
 import {inlineSvg, rem} from "@heathmont/moon-utils";
 import rgba from "polished/lib/color/rgba";
 import styled from "styled-components";
@@ -8,40 +7,24 @@ import {Size} from "../types/Size";
 
 type SliderOptions = {
   colorScheme?: boolean;
-  isRtl?: boolean;
   checked?: boolean;
   disabled?: boolean;
   size?: Size;
   button?: boolean;
+  isRtl?: boolean;
   switchHeight?: string;
   switchWidth?: string;
 };
 
-const adjustBallSwitchIcon = (
-  space: Space,
-  isRtl?: boolean,
-  checked?: boolean,
-  switchHeight?: string,
-  switchWidth?: string
-) => {
-  if (!isRtl) {
-    return { left: rem(space.xsmall) };
-  }
-
-  return checked
-    ? { left: rem(space.xsmall) }
-    : { left: `calc(${switchHeight} )` };
-};
-
 const Slider = styled.span<SliderOptions>(({
  colorScheme,
- isRtl,
  checked,
  size,
  button,
  switchHeight,
  switchWidth,
- theme: { color, space, transitionDuration },
+ isRtl,
+ theme: { color, space, transitionDuration, newTokens },
 }) => ({
     position: 'absolute',
     width: switchWidth,
@@ -76,14 +59,13 @@ const Slider = styled.span<SliderOptions>(({
       position: 'absolute',
       width: button ? `calc(50% - ${rem(space.xsmall)})` : 'var(--switch-indicator-size)',
       height: 'var(--switch-indicator-size)',
-      // left: rem(space.xsmall),
-      ...adjustBallSwitchIcon(space, isRtl, checked),
+      left: isRtl ? 'initial' : rem(space.xsmall),
+      right: isRtl ? rem(space.xsmall) : 'initial',
       bottom: size !== '2xs' ? rem(space.xsmall) :
         `calc(${rem(space.xsmall)} / 2)`,
       backgroundColor: color.goten[100],
       borderRadius: button ? rem(8) : '50%',
-      transition: 'inherit',
-      transitionProperty: 'background-color, transform',
+      transition: `all ${newTokens.transition.default}`,
       willChange: 'transform',
       boxShadow: `0px 6px 6px ${rgba(
         color.popo[100],
