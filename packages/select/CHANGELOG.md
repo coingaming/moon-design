@@ -1,5 +1,17 @@
 # @heathmont/moon-select
 
+## 8.4.1
+
+### Patch Changes
+
+- Clubhouse icon fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.4.1
+  - @heathmont/moon-core@8.4.1
+  - @heathmont/moon-icons@8.4.1
+  - @heathmont/moon-themes@8.4.1
+  - @heathmont/moon-utils@8.4.1
+
 ## 8.4.0
 
 ### Minor Changes

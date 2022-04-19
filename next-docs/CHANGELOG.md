@@ -1,5 +1,27 @@
 # Change Log
 
+## 8.4.1
+
+### Patch Changes
+
+- Clubhouse icon fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@8.4.1
+  - @heathmont/moon-assets@8.4.1
+  - @heathmont/moon-charts@8.4.1
+  - @heathmont/moon-components@8.4.1
+  - @heathmont/moon-core@8.4.1
+  - @heathmont/moon-datepicker@8.4.1
+  - @heathmont/moon-draggabletable@8.4.1
+  - @heathmont/moon-icons@8.4.1
+  - @heathmont/moon-pagination@8.4.1
+  - @heathmont/moon-popover@8.4.1
+  - @heathmont/moon-select@8.4.1
+  - @heathmont/moon-sidebar@8.4.1
+  - @heathmont/moon-table@8.4.1
+  - @heathmont/moon-themes@8.4.1
+  - @heathmont/moon-utils@8.4.1
+
 ## 8.4.0
 
 ### Minor Changes
