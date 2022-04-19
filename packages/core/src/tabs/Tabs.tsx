@@ -28,7 +28,7 @@ const Tabs: React.FC<TabsProps> = ({
   isVertical
 }) => {
   const autoId = id || `nav-skip-${uniqueId()}`;
-  const listRef = useRef(null)
+  const listRef = useRef(null as HTMLUListElement | null)
   const nonEmptyTabs = Array.isArray(items)
     ? items.filter((tab) => tab != null)
     : [];
