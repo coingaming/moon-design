@@ -25,7 +25,7 @@
     "@heathmont/moon-themes": "workspace:^8.4.1",
     "@heathmont/moon-utils": "workspace:^8.4.1",
     "@heathmont/moon-icons": "workspace:^8.4.1",
-    "react-select": "^5.2.1",
+    "react-select": "5.2.1",
     "@types/date-fns": "2.6.0",
     "date-fns": "2.28.0",
     "polished": "4.1.4"
