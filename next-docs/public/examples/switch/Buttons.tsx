@@ -8,31 +8,28 @@ const Example = () => {
   return (
     <div className="flex gap-20 items-center">
       <Switch
-        id="test-switch-1"
-        size="2xs"
+        id="button-switch-1"
+        buttons={{
+          onLabel: 'On',
+          offLabel: 'Off',
+        }}
+        size="md"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
-        colorScheme
       />
       <Switch
-        id="test-switch-2"
-        size="xs"
+        id="button-switch-2"
+        buttons={{
+          onLabel: 'On',
+          offLabel: 'Off',
+        }}
+        size="lg"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
         }
-        colorScheme
-      />
-      <Switch
-        id="test-switch-3"
-        size="sm"
-        checked={state}
-        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-          setState(e.target.checked)
-        }
-        colorScheme
       />
     </div>
   );
