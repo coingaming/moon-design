@@ -299,7 +299,6 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
       size="xsmall"
     >
       Country: 
-      
     </span>
   </div>
   <div>
@@ -308,7 +307,6 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
       size="xsmall"
     >
       Vehicle: 
-      
     </span>
   </div>
 </div>

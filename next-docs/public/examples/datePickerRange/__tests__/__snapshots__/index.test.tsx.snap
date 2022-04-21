@@ -73,7 +73,6 @@ exports[`DatePicker renders 1`] = `
               />
             </div>
           </div>
-          
         </div>
         <div
           className="sc-kjqWtN iViukY"
@@ -765,7 +764,6 @@ exports[`RangeCalendar show calendar 1`] = `
             />
           </div>
         </div>
-        
       </div>
       <div
         className="sc-kjqWtN iViukY"

@@ -42,7 +42,6 @@ exports[`Search renders 1`] = `
               fill="currentColor"
             />
           </svg>
-          
           <input
             hidden={true}
             type="submit"
@@ -127,7 +126,6 @@ exports[`Search renders Loading State 1`] = `
               fill="currentColor"
             />
           </svg>
-          
           <input
             hidden={true}
             type="submit"
