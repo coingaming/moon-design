@@ -40,7 +40,7 @@
     "jest": "27.4.7",
     "jest-environment-jsdom": "27.4.6",
     "lodash": "4.17.21",
-    "next": "12.1.0",
+    "next": "12.1.5",
     "next-transpile-modules": "9.0.0",
     "parse-link-header": "2.0.0",
     "postcss": "8.4.5",
