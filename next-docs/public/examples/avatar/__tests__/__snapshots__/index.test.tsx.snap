@@ -5,10 +5,10 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       size="medium"
     >
@@ -29,10 +29,10 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       size="medium"
     >
@@ -53,10 +53,10 @@ exports[`Avatar renders Fallback if neither Image nor Letters 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       size="medium"
     >
@@ -84,26 +84,26 @@ exports[`Avatar renders Image 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC dCwHTG"
+      className="sc-iaUDOe fxBrRE"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC dCwHTG"
+      className="sc-iaUDOe fxBrRE"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC dCwHTG"
+      className="sc-iaUDOe fxBrRE"
       size="medium"
     />
   </div>
@@ -115,10 +115,10 @@ exports[`Avatar renders Letters 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       name="JS"
       size="medium"
@@ -127,10 +127,10 @@ exports[`Avatar renders Letters 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       name="JS"
       size="medium"
@@ -139,10 +139,10 @@ exports[`Avatar renders Letters 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       name="JS"
       size="medium"
@@ -158,10 +158,10 @@ exports[`Avatar supports different colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bTBQCQ"
+      className="sc-iaUDOe bSeLxi"
       color="gohan.100"
       size="medium"
     >
@@ -182,10 +182,10 @@ exports[`Avatar supports different colours 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC iymrlG"
+      className="sc-iaUDOe cPaxHU"
       color="gohan.100"
       size="medium"
     >
@@ -206,10 +206,10 @@ exports[`Avatar supports different colours 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-jNrqiC bHBbNV"
+      className="sc-iaUDOe knANgT"
       color="chiChi.100"
       size="medium"
     >
@@ -240,10 +240,10 @@ exports[`Avatar supports different status positions 1`] = `
     className="flex justify-around items-center w-full"
   >
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-jNrqiC kxRILR"
+        className="sc-iaUDOe hwiEpf"
         color="gohan.100"
         size="large"
       >
@@ -263,16 +263,16 @@ exports[`Avatar supports different status positions 1`] = `
         </svg>
       </div>
       <div
-        className="sc-goMRkL dKtqu"
+        className="sc-eCqeQn fNVsej"
         color="gohan.100"
         size="large"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-jNrqiC kxRILR"
+        className="sc-iaUDOe hwiEpf"
         color="gohan.100"
         size="large"
       >
@@ -292,16 +292,16 @@ exports[`Avatar supports different status positions 1`] = `
         </svg>
       </div>
       <div
-        className="sc-goMRkL ilXqCV"
+        className="sc-eCqeQn hYSoLE"
         color="gohan.100"
         size="large"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-jNrqiC kxRILR"
+        className="sc-iaUDOe hwiEpf"
         color="gohan.100"
         size="large"
       >
@@ -321,16 +321,16 @@ exports[`Avatar supports different status positions 1`] = `
         </svg>
       </div>
       <div
-        className="sc-goMRkL fyjfPC"
+        className="sc-eCqeQn jVxLVb"
         color="gohan.100"
         size="large"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-jNrqiC kxRILR"
+        className="sc-iaUDOe hwiEpf"
         color="gohan.100"
         size="large"
       >
@@ -350,7 +350,7 @@ exports[`Avatar supports different status positions 1`] = `
         </svg>
       </div>
       <div
-        className="sc-goMRkL iEBRal"
+        className="sc-eCqeQn beEqHs"
         color="gohan.100"
         size="large"
       />

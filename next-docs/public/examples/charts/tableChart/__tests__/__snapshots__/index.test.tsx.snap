@@ -20,7 +20,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iyIzpG sc-gRFyCy  loyRgj"
+          className="sc-exzeNp sc-gRFyCy  loyRgj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -41,7 +41,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -67,7 +67,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -224,7 +224,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Top Players
@@ -240,13 +240,13 @@ exports[`Table Chart renders 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -451,7 +451,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-jVZirl ioIkQZ"
+          className="sc-McAUB TkRwk"
           color="piccolo.100"
           size="twoxsmall"
         >
@@ -467,7 +467,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -493,7 +493,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -677,7 +677,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Top Suppliers
@@ -693,13 +693,13 @@ exports[`Table Chart renders 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -741,7 +741,7 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <svg
-              className="sc-fGNSxb gIfUti"
+              className="sc-hEOEEm czZShb"
               fill="none"
               height="24px"
               viewBox="0 0 24 23"
@@ -760,7 +760,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-MEQRl gxlZpr"
+              className="sc-cQIpJi llFRTU"
               size={14}
             >
               Sportsbet
@@ -795,7 +795,7 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <svg
-              className="sc-cQGHq eUhPXk"
+              className="sc-bXiZrO emoUeg"
               height="24px"
               viewBox="0 0 42 41"
               width="24px"
@@ -830,7 +830,7 @@ exports[`Table Chart renders 1`] = `
               </g>
             </svg>
             <p
-              className="sc-MEQRl gxlZpr"
+              className="sc-cQIpJi llFRTU"
               size={14}
             >
               Hub88
@@ -865,7 +865,7 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <svg
-              className="sc-kwnVUC jkDOxK"
+              className="sc-dklLuL hnqKHG"
               fill="none"
               height="24px"
               viewBox="0 0 198 263"
@@ -878,7 +878,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-MEQRl gxlZpr"
+              className="sc-cQIpJi llFRTU"
               size={14}
             >
               Bitcasino
@@ -913,7 +913,7 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <svg
-              className="sc-fPkOMl gCBPNv"
+              className="sc-fMSvki iiLisg"
               fill="none"
               height="24px"
               viewBox="0 0 26 31"
@@ -928,7 +928,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-MEQRl gxlZpr"
+              className="sc-cQIpJi llFRTU"
               size={14}
             >
               Luckyslots
@@ -963,7 +963,7 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <svg
-              className="sc-cQxKEj bFxNta"
+              className="sc-hhdGOG jEpgyP"
               fill="none"
               height="24px"
               viewBox="0 0 20 30"
@@ -980,7 +980,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-MEQRl gxlZpr"
+              className="sc-cQIpJi llFRTU"
               size={14}
             >
               Slots
@@ -1016,7 +1016,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iyIzpG sc-gRFyCy  loyRgj"
+          className="sc-exzeNp sc-gRFyCy  loyRgj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1037,7 +1037,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1063,7 +1063,7 @@ exports[`Table Chart renders 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1241,7 +1241,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Top Games
@@ -1257,13 +1257,13 @@ exports[`Table Chart renders 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1305,16 +1305,16 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <div
-              className="sc-iCRtpo gtEafa"
+              className="sc-hnMPFj dgmeqG"
             >
               <div
-                className="sc-bLRpNg bTILCa"
+                className="sc-dGjIxE fVfFWO"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-MEQRl gxlZpr"
+                className="sc-cQIpJi llFRTU"
                 size={14}
               >
                 <span
@@ -1332,7 +1332,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-MEQRl ddzOif"
+                className="sc-cQIpJi kBwMDg"
                 color="trunks.100"
                 size={12}
               >
@@ -1369,16 +1369,16 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <div
-              className="sc-iCRtpo gtEafa"
+              className="sc-hnMPFj dgmeqG"
             >
               <div
-                className="sc-bLRpNg fNPbWW"
+                className="sc-dGjIxE jPlWrK"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-MEQRl gxlZpr"
+                className="sc-cQIpJi llFRTU"
                 size={14}
               >
                 <span
@@ -1396,7 +1396,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-MEQRl ddzOif"
+                className="sc-cQIpJi kBwMDg"
                 color="trunks.100"
                 size={12}
               >
@@ -1433,16 +1433,16 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <div
-              className="sc-iCRtpo gtEafa"
+              className="sc-hnMPFj dgmeqG"
             >
               <div
-                className="sc-bLRpNg gwOROW"
+                className="sc-dGjIxE eudDSy"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-MEQRl gxlZpr"
+                className="sc-cQIpJi llFRTU"
                 size={14}
               >
                 <span
@@ -1460,7 +1460,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-MEQRl ddzOif"
+                className="sc-cQIpJi kBwMDg"
                 color="trunks.100"
                 size={12}
               >
@@ -1497,16 +1497,16 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <div
-              className="sc-iCRtpo gtEafa"
+              className="sc-hnMPFj dgmeqG"
             >
               <div
-                className="sc-bLRpNg eiwHIO"
+                className="sc-dGjIxE ijTCdC"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-MEQRl gxlZpr"
+                className="sc-cQIpJi llFRTU"
                 size={14}
               >
                 <span
@@ -1524,7 +1524,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-MEQRl ddzOif"
+                className="sc-cQIpJi kBwMDg"
                 color="trunks.100"
                 size={12}
               >
@@ -1561,16 +1561,16 @@ exports[`Table Chart renders 1`] = `
             className="sc-jJUdvr fXiHDy"
           >
             <div
-              className="sc-iCRtpo gtEafa"
+              className="sc-hnMPFj dgmeqG"
             >
               <div
-                className="sc-bLRpNg hrDccy"
+                className="sc-dGjIxE dEmYq"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-MEQRl gxlZpr"
+                className="sc-cQIpJi llFRTU"
                 size={14}
               >
                 <span
@@ -1588,7 +1588,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-MEQRl ddzOif"
+                className="sc-cQIpJi kBwMDg"
                 color="trunks.100"
                 size={12}
               >
@@ -1615,7 +1615,7 @@ exports[`Table Chart renders 1`] = `
 
 exports[`Table Chart renders Active 1`] = `
 <div
-  className="sc-hSygng bxsdxH"
+  className="sc-iVYMGn OmAfV"
   style={
     Object {
       "flexWrap": "nowrap",
@@ -1638,7 +1638,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iyIzpG sc-gRFyCy  loyRgj"
+          className="sc-exzeNp sc-gRFyCy  loyRgj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1659,7 +1659,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1685,7 +1685,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1844,7 +1844,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Yesterday
@@ -1860,13 +1860,13 @@ exports[`Table Chart renders Active 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by all devices
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2059,7 +2059,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iyIzpG sc-gRFyCy  loyRgj"
+          className="sc-exzeNp sc-gRFyCy  loyRgj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2080,7 +2080,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2106,7 +2106,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2264,7 +2264,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Today
@@ -2280,13 +2280,13 @@ exports[`Table Chart renders Active 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by all devices
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2486,7 +2486,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iyIzpG sc-gRFyCy  loyRgj"
+          className="sc-exzeNp sc-gRFyCy  loyRgj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2507,7 +2507,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2533,7 +2533,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2692,7 +2692,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Yesterday
@@ -2708,13 +2708,13 @@ exports[`Table Chart renders Loading 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by all devices
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2775,7 +2775,7 @@ exports[`Table Chart renders Loading 1`] = `
         />
       </svg>
       <p
-        className="sc-MEQRl sc-eBhLNR kCbMXY fptQLY"
+        className="sc-cQIpJi sc-eBhLNR fCLLFT fptQLY"
         color="trunks.100"
         size={14}
       >
@@ -2799,7 +2799,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-iyIzpG sc-gRFyCy  loyRgj"
+          className="sc-exzeNp sc-gRFyCy  loyRgj"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2820,7 +2820,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-jCZHzS"
+          className="sc-eaxnik"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2846,7 +2846,7 @@ exports[`Table Chart renders Loading 1`] = `
         onClick={[Function]}
       >
         <svg
-          className="sc-eaxnik"
+          className="sc-iVKqUL"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -3005,7 +3005,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+        className="sc-cQIpJi sc-edwNYl duluyM bCALDv"
         size={20}
       >
         Yesterday
@@ -3021,13 +3021,13 @@ exports[`Table Chart renders Loading 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+              className="sc-cQIpJi sc-jSPclO llFRTU bnNqLc"
               size={14}
             >
               by all devices
             </p>
             <svg
-              className="sc-iCJfKz"
+              className="sc-bqWFKX"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"

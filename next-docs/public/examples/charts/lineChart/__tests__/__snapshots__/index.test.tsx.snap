@@ -150,7 +150,7 @@ exports[`Line Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+      className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
       size={20}
     >
       KPI Overview
@@ -166,7 +166,7 @@ exports[`Line Chart renders 1`] = `
           onClick={[Function]}
         >
           <p
-            className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+            className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
             size={14}
           >
             by all devices
@@ -468,7 +468,7 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </div>
         <p
-          className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+          className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
           size={20}
         >
           KPI Overview
@@ -484,7 +484,7 @@ exports[`Line Chart renders Loading 1`] = `
               onClick={[Function]}
             >
               <p
-                className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+                className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
                 size={14}
               >
                 by all devices
@@ -527,7 +527,7 @@ exports[`Line Chart renders Loading 1`] = `
           />
         </svg>
         <p
-          className="sc-MEQRl sc-eBhLNR kCbMXY fptQLY"
+          className="sc-dAEBNM sc-eBhLNR iLVnBu fptQLY"
           color="trunks.100"
           size={14}
         >
@@ -692,7 +692,7 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </div>
         <p
-          className="sc-MEQRl sc-edwNYl gGqhYr bCALDv"
+          className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
           size={20}
         >
           KPI Overview
@@ -708,7 +708,7 @@ exports[`Line Chart renders Loading 1`] = `
               onClick={[Function]}
             >
               <p
-                className="sc-MEQRl sc-jSPclO gxlZpr bnNqLc"
+                className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
                 size={14}
               >
                 by all devices
