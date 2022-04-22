@@ -1,6 +1,6 @@
 import { useTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../../private/types/ButtonProps';
 
 const buttonCommonStyles = ({ iconSize, disabled }: ButtonProps) => {
   const theme = useTheme();

@@ -285,14 +285,14 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
             type="checkbox"
           />
           <div
-            className="sc-iDRUQT cPqNvQ"
+            className="sc-ciicml bpqhVu"
           >
             <span
               className="sc-eZgkGA kLWXuq"
             >
               <div
                 checked={false}
-                className="sc-ciicml jtBqUU"
+                className="sc-iDRUQT iHmewq"
               />
             </span>
           </div>

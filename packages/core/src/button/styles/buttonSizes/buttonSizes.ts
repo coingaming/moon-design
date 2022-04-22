@@ -4,7 +4,7 @@ import largePadding from './largePadding';
 import mediumPadding from './mediumPadding';
 import smallPadding from './smallPadding';
 import xLargePadding from './xLargePadding';
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../../private/types/ButtonProps';
 
 const buttonSizes = ({
   size,

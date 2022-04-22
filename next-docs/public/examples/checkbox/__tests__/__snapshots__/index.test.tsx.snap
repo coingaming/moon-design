@@ -10,14 +10,14 @@ exports[`Checkbox renders 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-iDRUQT cPqNvQ"
+    className="sc-ciicml bpqhVu"
   >
     <span
       className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={false}
-        className="sc-ciicml jtBqUU"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
     <p
@@ -41,14 +41,14 @@ exports[`Checkbox renders Checked 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-iDRUQT cPqNvQ"
+    className="sc-ciicml bpqhVu"
   >
     <span
       className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={true}
-        className="sc-ciicml iqiHLZ"
+        className="sc-iDRUQT ikvNIX"
       />
     </span>
     <p
@@ -72,14 +72,14 @@ exports[`Checkbox renders Disabled 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-iDRUQT cPqNvQ"
+    className="sc-ciicml bpqhVu"
   >
     <span
       className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={false}
-        className="sc-ciicml jtBqUU"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
     <p
@@ -102,14 +102,14 @@ exports[`Checkbox renders No label 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-iDRUQT cPqNvQ"
+    className="sc-ciicml bpqhVu"
   >
     <span
       className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={false}
-        className="sc-ciicml jtBqUU"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
   </div>
@@ -126,7 +126,7 @@ exports[`Checkbox renders Reverse direction 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-iDRUQT cPqNvQ"
+    className="sc-ciicml bpqhVu"
   >
     <p
       className="sc-cQIpJi llFRTU"
@@ -139,7 +139,7 @@ exports[`Checkbox renders Reverse direction 1`] = `
     >
       <div
         checked={false}
-        className="sc-ciicml jtBqUU"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
   </div>
