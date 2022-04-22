@@ -11,24 +11,25 @@ export type LabelProps = {
   iconRight?: React.ReactElement;
   size?: 'twoxsmall' | 'xsmall';
   isUppercase?: boolean;
+  children?: React.ReactNode;
 };
 
 export type IconProps = {
-  size: LabelProps['size']
-}
+  size: LabelProps['size'];
+};
 
 const IconRightWrapper = styled.span<IconProps>(({ size }) => ({
   marginInlineStart: rem(4),
   '& svg': {
-    fontSize: size === 'twoxsmall' ? rem(12) : rem(16)
-  }
+    fontSize: size === 'twoxsmall' ? rem(12) : rem(16),
+  },
 }));
 
 const IconLeftWrapper = styled.span<IconProps>(({ size }) => ({
   marginInlineEnd: rem(4),
   '& svg': {
-    fontSize: size === 'twoxsmall' ? rem(12) : rem(16)
-  }
+    fontSize: size === 'twoxsmall' ? rem(12) : rem(16),
+  },
 }));
 
 const Label: React.FC<LabelProps> = ({

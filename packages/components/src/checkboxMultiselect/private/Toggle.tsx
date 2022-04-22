@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 type ToggleProps = {
   header: JSX.Element;
+  children?: React.ReactNode;
 };
 
 const ToggleWrapper = styled.div({

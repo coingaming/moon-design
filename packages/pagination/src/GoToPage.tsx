@@ -8,6 +8,7 @@ type GoToPageProps = {
   onChange: (page: number) => void;
   minPage?: number;
   maxPage?: number;
+  children?: React.ReactNode;
 };
 
 const CircleButton = styled.button(

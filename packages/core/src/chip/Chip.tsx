@@ -95,6 +95,7 @@ type ChipProps = {
   size?: Size;
   iconSize?: number;
   isStroke?: boolean;
+  children?: React.ReactNode;
 };
 
 type StyledChipProps = {

@@ -9,6 +9,7 @@ export interface TabLinkFillProps {
   size?: 'small' | 'medium';
   isTop?: boolean;
   href?: string;
+  children?: React.ReactNode;
 }
 
 const ElementLeftWrapper = styled.div({
