@@ -1,28 +1,7 @@
 import React from 'react';
-// import { GenericCheckAlternative } from '@heathmont/moon-icons';
-import styled from 'styled-components';
-// import Loader from '../../../loader/Loader';
+import { GenericCheckAlternative } from '@heathmont/moon-icons';
+import Loader from '../../../loader/Loader';
 import type { ButtonProps } from '../../Button';
-
-const Container = styled.div({
-  position: 'relative',
-  height: '100%',
-  pointerEvents: 'none',
-});
-
-const Absolute = styled.div({
-  position: 'absolute',
-  display: 'flex',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  alignContent: 'center',
-  justifyContent: 'center',
-});
-
-const HiddenContent = styled.div({
-  opacity: 0,
-});
 
 const AnimationContent: React.FC<ButtonProps> = ({
   children,
@@ -31,21 +10,20 @@ const AnimationContent: React.FC<ButtonProps> = ({
   iconOnly,
   animation,
 }) => (
-  <Container>
-    <Absolute>
+  <div className="relative h-full pointer-events-none">
+    <div className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center">
       {animation === 'progress' && (
-        // <Loader color="currentColor" size="xsmall" />
-        null
+        <Loader color="currentColor" size="xsmall" />
       )}
-      {/* {animation === 'success' && <GenericCheckAlternative />} */}
-    </Absolute>
-    <HiddenContent>
+      {animation === 'success' && <GenericCheckAlternative fontSize="1.5rem" />}
+    </div>
+    <div className="opacity-0">
       {iconLeft}
       {children}
       {iconRight}
       {iconOnly}
-    </HiddenContent>
-  </Container>
+    </div>
+  </div>
 );
 
 export default AnimationContent;

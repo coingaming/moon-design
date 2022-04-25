@@ -7,15 +7,15 @@ const xLargePadding = ({
   iconOnly,
 }: ButtonProps) => {
   if (icon === 'left' || iconLeft) {
-    return 'p-4 pr-6';
+    return 'py-4 ps-4 pe-6';
   }
   if (icon === 'right' || iconRight) {
-    return 'p-4 pl-6';
+    return 'py-4 ps-6 pe-4';
   }
   if (icon === 'only' || iconOnly) {
-    return 'p-4';
+    return 'py-4 ps-4 pe-4';
   }
-  return 'py-4 px-6';
+  return 'py-4 ps-6 pe-6';
 };
 
 export default xLargePadding;

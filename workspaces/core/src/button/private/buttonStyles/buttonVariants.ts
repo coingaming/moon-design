@@ -5,7 +5,7 @@ const buttonVariants = ({ variant }: ButtonProps) => {
     return 'text-goten bg-piccolo';
   }
   if (variant === 'secondary') {
-    return 'text-bulma bg-transparent';
+    return 'text-bulma bg-transparent shadow-[0_0_0_1px_inset] shadow-trunks hover:shadow-bulma';
   }
   if (variant === 'tertiary') {
     return 'text-goten bg-hit';

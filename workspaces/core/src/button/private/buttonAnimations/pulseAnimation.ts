@@ -15,7 +15,7 @@
 //   }
 // `;
 
-const pulseAnimation = () => {}
+const pulseAnimation = () => {};
 // const pulseAnimation = () => {
 //   const { colorNew } = useTheme();
 //   return css`

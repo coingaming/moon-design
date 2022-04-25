@@ -4,5 +4,9 @@
 
 export { default as Button } from './button/Button';
 export * from './button/Button';
+export { default as Checkbox } from './checkbox/Checkbox';
+export * from './checkbox/Checkbox';
+export { default as Chip } from './chip/Chip';
+export * from './chip/Chip';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';

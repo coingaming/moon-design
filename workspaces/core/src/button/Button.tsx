@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import Hover from '../hover/Hover';
 import Size from '../private/enums/Size';
+import classNames from '../private/utils/classnames';
 import AnimationContent from './private/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 
@@ -73,7 +73,12 @@ const Button: React.FC<ButtonProps> = ({
           {iconOnly}
         </>
       )}
-      {/* <Hover isHover={isHover} /> */}
+      <div
+        className={classNames(
+          'z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]',
+          isHover && 'bg-[#00000012]'
+        )}
+      />
     </ButtonComponent>
   );
 };

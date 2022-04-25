@@ -37,7 +37,7 @@
 }
 
 .theme-moon-dark {
-  --piccolo: #4e46b4;
+  --piccolo: 78, 70, 180;
   --hit: #40a69f;
   --beerus: #ebebeb;
   --goku: #f5f5f5;

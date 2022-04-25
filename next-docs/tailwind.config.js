@@ -1,3 +1,13 @@
+//as Variant of using rgba color with opacity
+function withOpacityValue(variable) {
+  return ({ opacityValue }) => {
+    if (opacityValue === undefined) {
+      return `var(${variable})`;
+    }
+    return `rgba(var(${variable}), ${opacityValue})`;
+  };
+}
+
 module.exports = {
   content: [
     './public/**/*.{js,ts,jsx,tsx}',
@@ -7,6 +17,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        interactive: '8px',
+      },
+      borderWidth: {
+        interactive: '2px',
+      },
+      boxShadow: {
+        inset: '0 0 0 1px rgb(var(--piccolo)) inset',
+        interactive: '0 0 0 2px  rgb(var(--piccolo)) inset',
+      },
       colors: {
         background: '#f4f4f4',
         border: {
@@ -27,7 +47,8 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         piccolo: {
-          DEFAULT: 'var(--piccolo)',
+          DEFAULT: withOpacityValue('--piccolo'),
+          20: '#4e46b420',
         },
         hit: {
           DEFAULT: 'var(--hit)',
@@ -60,9 +81,9 @@ module.exports = {
           10: 'var(--krillin-10)',
         },
         chiChi: {
-          DEFAULT: 'var(--chiChi)',
-          60: 'var(--chiChi-60)',
-          10: 'var(--chiChi-10)',
+          DEFAULT: 'var(--chichi)',
+          60: 'var(--chichi-60)',
+          10: 'var(--chichi-10)',
         },
         roshi: {
           DEFAULT: 'var(--roshi)',

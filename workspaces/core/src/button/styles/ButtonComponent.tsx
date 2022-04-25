@@ -26,8 +26,9 @@ const ButtonComponent: React.FC<ButtonProps> = ({
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
         buttonCommonStyles({ iconSize, disabled }),
         buttonVariants({ variant }),
+        animation === 'pulse' && 'animate-pulse',
         // animation === 'pulse' && pulseAnimation,
-        // animation === 'error' && errorAnimation,
+        animation === 'error' && errorAnimation(),
         fullWidth && !iconOnly ? 'w-full' : ''
       )}
       {...rest}

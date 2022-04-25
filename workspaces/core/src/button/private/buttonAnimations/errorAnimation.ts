@@ -2,7 +2,6 @@
 // import { rem } from '@heathmont/moon-utils';
 import { css, keyframes } from 'styled-components';
 
-
 // const error = keyframes`
 //   10%, 90% {
 //     transform: translate3d(${rem(-1)}, 0, 0);
@@ -18,7 +17,9 @@ import { css, keyframes } from 'styled-components';
 //   }
 // `;
 
-const errorAnimation = () => {}
+const errorAnimation = () => {
+  return 'bg-chiChi text-goten';
+};
 // const errorAnimation = () => {
 //   const { colorNew } = useTheme();
 //   return css`
