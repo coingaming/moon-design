@@ -114,7 +114,7 @@ importers:
       '@heathmont/moon-themes': workspace:^8.4.1
       '@heathmont/moon-utils': workspace:^8.4.1
       '@jest/globals': ^27.4.6
-      '@moon/core': workspace:^8.4.0
+      '@moon/core': workspace:^8.4.1
       '@octokit/core': ^3.5.1
       '@svgr/core': ^6.2.1
       '@svgr/plugin-jsx': 4.1.0
@@ -507,8 +507,8 @@ importers:
 
   workspaces/core:
     specifiers:
-      '@heathmont/moon-icons': workspace:^8.4.0
-      '@heathmont/moon-utils': workspace:^8.4.0
+      '@heathmont/moon-icons': workspace:^8.4.1
+      '@heathmont/moon-utils': workspace:^8.4.1
     dependencies:
       '@heathmont/moon-icons': link:../../packages/icons
       '@heathmont/moon-utils': link:../../packages/utils
