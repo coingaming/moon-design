@@ -1,10 +1,11 @@
 import React from 'react';
 import { Header } from '@heathmont/moon-core';
-import { IconClose } from '@heathmont/moon-assets';
+import { ControlsClose } from '@heathmont/moon-icons';
+import { rem } from "@heathmont/moon-utils";
 
 const Example = () => (
   <div className="flex justify-around items-center w-full">
-    <Header closeButton={<IconClose />}>Title</Header>
+    <Header closeButton={<ControlsClose fontSize={rem(23)}/>}>Title</Header>
   </div>
 );
 

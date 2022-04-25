@@ -1,24 +1,25 @@
 import React from 'react';
 import { ListItem } from '@heathmont/moon-core';
-import { IconClaps } from '@heathmont/moon-assets';
+import { GenericLike } from '@heathmont/moon-icons';
+import { rem } from "@heathmont/moon-utils";
 
 const Example = () => (
   <div className="flex justify-around items-center w-full flex-wrap">
     <div className="m-0.5 min-w-full sm:min-w-min">
-      <ListItem backgroundColor="goku.100" elementLeft={<IconClaps />}>
+      <ListItem backgroundColor="goku.100" elementLeft={<GenericLike fontSize={rem(23)}/>}>
         Single line item
       </ListItem>
     </div>
     <div className="m-0.5 min-w-full sm:min-w-min">
-      <ListItem backgroundColor="goku.100" elementRight={<IconClaps />}>
+      <ListItem backgroundColor="goku.100" elementRight={<GenericLike fontSize={rem(23)}/>}>
         Single line item
       </ListItem>
     </div>
     <div className="m-0.5 min-w-full sm:min-w-min">
       <ListItem
         backgroundColor="goku.100"
-        elementLeft={<IconClaps />}
-        elementRight={<IconClaps />}
+        elementLeft={<GenericLike fontSize={rem(23)}/>}
+        elementRight={<GenericLike fontSize={rem(23)}/>}
       >
         Single line item
       </ListItem>
