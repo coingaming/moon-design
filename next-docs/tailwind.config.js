@@ -8,6 +8,8 @@ function withOpacityValue(variable) {
   };
 }
 
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: [
     './public/**/*.{js,ts,jsx,tsx}',
@@ -26,6 +28,21 @@ module.exports = {
       boxShadow: {
         inset: '0 0 0 1px rgb(var(--piccolo)) inset',
         interactive: '0 0 0 2px  rgb(var(--piccolo)) inset',
+        focus: `0 0 0 4px rgba(var(--piccolo), .13)`,
+      },
+      keyframes: {
+        error: {
+          '10%, 90%': { transform: 'translate3d(-1px, 0, 0)' },
+          '20%, 80%': { transform: 'translate3d(2px, 0, 0)' },
+          '30%, 50%, 70%': { transform: 'translate3d(-4px, 0, 0)' },
+          '40%, 60%': { transform: 'translate3d(4px, 0, 0)' },
+        },
+        pulse2: {
+          '10%, 90%': { transform: 'translate3d(-1px, 0, 0)' },
+          '0%': { transform: 'scale(1)' },
+          '70%': { transform: 'scale(1)', boxShadow: '0 0 0 30px transparent' },
+          '100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 transparent' },
+        },
       },
       colors: {
         background: '#f4f4f4',
@@ -126,5 +143,35 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('tailwindcss-rtl')],
+  plugins: [
+    require('tailwindcss-rtl'),
+    plugin(function ({ addComponents }) {
+      addComponents({
+        '.btn-primary': {
+          color: 'var(--goten)',
+          backgroundColor: `rgba(var(--piccolo), 1)`,
+        },
+        '.btn-secondary': {
+          color: 'var(--bulma)',
+          background: 'none',
+          boxShadow: `inset 0 0 0 1px var(--trunks)`,
+          '&:hover': {
+            boxShadow: `inset 0 0 0 1px var(--bulma)`,
+          },
+        },
+        '.btn-tertiary': {
+          color: 'var(--goten)',
+          backgroundColor: 'var(--hit)',
+        },
+        '.anim-error': {
+          transform: 'translate3d(0, 0, 0)',
+          backfaceVisibility: 'hidden',
+          perspective: '1000px',
+        },
+        '.anim-pulse': {
+          boxShadow: '0 0 0 0 rgba(var(--piccolo), 1)',
+        },
+      });
+    }),
+  ],
 };

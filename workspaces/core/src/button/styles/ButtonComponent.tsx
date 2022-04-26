@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from '../../private/utils/classnames';
 import errorAnimation from '../private/buttonAnimations/errorAnimation';
-import pulseAnimation from '../private/buttonAnimations/pulseAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../private/buttonStyles/buttonVariants';
@@ -26,8 +25,7 @@ const ButtonComponent: React.FC<ButtonProps> = ({
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
         buttonCommonStyles({ iconSize, disabled }),
         buttonVariants({ variant }),
-        animation === 'pulse' && 'animate-pulse',
-        // animation === 'pulse' && pulseAnimation,
+        animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
         animation === 'error' && errorAnimation(),
         fullWidth && !iconOnly ? 'w-full' : ''
       )}
