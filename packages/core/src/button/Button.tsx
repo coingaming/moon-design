@@ -45,12 +45,13 @@ const Button: React.FC<ButtonProps> = ({
   const [isHover, setIsHover] = useState(false);
   const isAnimationContent =
     animation === 'progress' || animation === 'success';
+  const setIconSize = size === Size.XSMALL ? 16 : iconSize;
   return (
     <ButtonComponent
       size={size as ButtonSizes}
       variant={variant as ButtonVariants}
       icon={icon}
-      iconSize={iconSize}
+      iconSize={setIconSize}
       iconLeft={iconLeft}
       iconRight={iconRight}
       iconOnly={iconOnly}
