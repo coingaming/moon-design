@@ -2,18 +2,18 @@
 
 exports[`Switch renders 1`] = `
 <label
-  className="sc-cykDdr dyuYOt"
+  className="sc-dTQRDE gXkQuY"
 >
   <input
     checked={true}
-    className="sc-dRbDqh hWffKP"
+    className="sc-eItTMj bACzZG"
     id="test-switch-1"
     onChange={[Function]}
     type="checkbox"
   />
   <span
     checked={true}
-    className="sc-hQaVPy fnmkxG"
+    className="sc-vmsFN drXclV"
   />
 </label>
 `;
@@ -23,18 +23,18 @@ exports[`Switch renders RTL 1`] = `
   dir="rtl"
 >
   <label
-    className="sc-cykDdr dyuYOt"
+    className="sc-dTQRDE gXkQuY"
   >
     <input
       checked={true}
-      className="sc-dRbDqh hWffKP"
+      className="sc-eItTMj bACzZG"
       id="test-switch-1"
       onChange={[Function]}
       type="checkbox"
     />
     <span
       checked={true}
-      className="sc-hQaVPy fnmkxG"
+      className="sc-vmsFN drXclV"
     />
   </label>
 </div>
@@ -42,25 +42,25 @@ exports[`Switch renders RTL 1`] = `
 
 exports[`Switch renders Theme variant 1`] = `
 <label
-  className="sc-cykDdr dyuYOt"
+  className="sc-dTQRDE gXkQuY"
 >
   <input
     checked={true}
-    className="sc-dRbDqh kcwUWm"
+    className="sc-eItTMj fcsBob"
     id="test-switch-1"
     onChange={[Function]}
     type="checkbox"
   />
   <span
     checked={true}
-    className="sc-hQaVPy gRnUwY"
+    className="sc-vmsFN XLjQ"
   />
 </label>
 `;
 
 exports[`Switch renders Theme variant with Caption 1`] = `
 <div
-  className="sc-fNPocS jNWSlA"
+  className="sc-hhICeM dmjLiJ"
   dir="ltr"
   style={
     Object {
@@ -70,29 +70,29 @@ exports[`Switch renders Theme variant with Caption 1`] = `
 >
   <span
     checked={true}
-    className="sc-hogtv sc-dCkZnI gIziYG eORePE"
+    className="sc-jaIaHg sc-igYsKa bvtJA gIgJIv"
     color="bulma.100"
   >
     AM
   </span>
   <label
-    className="sc-cykDdr dyuYOt"
+    className="sc-dTQRDE gXkQuY"
   >
     <input
       checked={true}
-      className="sc-dRbDqh kcwUWm"
+      className="sc-eItTMj fcsBob"
       id="test-switch-1"
       onChange={[Function]}
       type="checkbox"
     />
     <span
       checked={true}
-      className="sc-hQaVPy gRnUwY"
+      className="sc-vmsFN XLjQ"
     />
   </label>
   <span
     checked={false}
-    className="sc-hogtv sc-dCkZnI gIziYG bXiEvc"
+    className="sc-jaIaHg sc-igYsKa bvtJA jiGGRD"
     color="bulma.100"
   >
     PM
@@ -105,12 +105,12 @@ exports[`Switch renders different Sizes 1`] = `
   className="flex gap-20 items-center"
 >
   <label
-    className="sc-cykDdr cXvnkH"
+    className="sc-dTQRDE fuSdJC"
     size="xs"
   >
     <input
       checked={true}
-      className="sc-dRbDqh bvhMVg"
+      className="sc-eItTMj bJooFR"
       id="test-switch-1"
       onChange={[Function]}
       size="xs"
@@ -118,16 +118,16 @@ exports[`Switch renders different Sizes 1`] = `
     />
     <span
       checked={true}
-      className="sc-hQaVPy fnmkxG"
+      className="sc-vmsFN drXclV"
     />
   </label>
   <label
-    className="sc-cykDdr cJQYmg"
+    className="sc-dTQRDE dLuPpl"
     size="md"
   >
     <input
       checked={true}
-      className="sc-dRbDqh bvhMVg"
+      className="sc-eItTMj bJooFR"
       id="test-switch-2"
       onChange={[Function]}
       size="md"
@@ -135,16 +135,16 @@ exports[`Switch renders different Sizes 1`] = `
     />
     <span
       checked={true}
-      className="sc-hQaVPy fnmkxG"
+      className="sc-vmsFN drXclV"
     />
   </label>
   <label
-    className="sc-cykDdr bMkTpZ"
+    className="sc-dTQRDE ikwNAg"
     size="lg"
   >
     <input
       checked={true}
-      className="sc-dRbDqh bvhMVg"
+      className="sc-eItTMj bJooFR"
       id="test-switch-3"
       onChange={[Function]}
       size="lg"
@@ -152,7 +152,7 @@ exports[`Switch renders different Sizes 1`] = `
     />
     <span
       checked={true}
-      className="sc-hQaVPy fnmkxG"
+      className="sc-vmsFN drXclV"
     />
   </label>
 </div>
@@ -160,7 +160,7 @@ exports[`Switch renders different Sizes 1`] = `
 
 exports[`Switch renders with Caption 1`] = `
 <div
-  className="sc-fNPocS jNWSlA"
+  className="sc-hhICeM dmjLiJ"
   dir="ltr"
   style={
     Object {
@@ -170,29 +170,29 @@ exports[`Switch renders with Caption 1`] = `
 >
   <span
     checked={true}
-    className="sc-hogtv sc-dCkZnI gIziYG eORePE"
+    className="sc-jaIaHg sc-igYsKa bvtJA gIgJIv"
     color="bulma.100"
   >
     OFF
   </span>
   <label
-    className="sc-cykDdr dyuYOt"
+    className="sc-dTQRDE gXkQuY"
   >
     <input
       checked={true}
-      className="sc-dRbDqh hWffKP"
+      className="sc-eItTMj bACzZG"
       id="test-switch-1"
       onChange={[Function]}
       type="checkbox"
     />
     <span
       checked={true}
-      className="sc-hQaVPy fnmkxG"
+      className="sc-vmsFN drXclV"
     />
   </label>
   <span
     checked={false}
-    className="sc-hogtv sc-dCkZnI gIziYG bXiEvc"
+    className="sc-jaIaHg sc-igYsKa bvtJA jiGGRD"
     color="bulma.100"
   >
     ON
