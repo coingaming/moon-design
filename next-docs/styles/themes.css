@@ -37,13 +37,14 @@
 }
 
 .theme-moon-dark {
-  --piccolo: 78, 70, 180;
+  --piccolo: #4e46b4;
+  --backup-piccolo: 78 70 180;
   --hit: #40a69f;
   --beerus: #ebebeb;
   --goku: #f5f5f5;
   --gohan: #ffffff;
-  --bulma: #000000;
-  --trunks: #999ca0;
+  --bulma: 0 0 0;
+  --trunks: 153 156 160;
   --goten: #ffffff;
   --popo: #000000;
 }

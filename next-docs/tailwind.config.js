@@ -1,10 +1,12 @@
 //as Variant of using rgba color with opacity
-function withOpacityValue(variable) {
+// function withOpacityValue(hexColor, rgbColor) {
+function withOpacityValue(hexColor) {
   return ({ opacityValue }) => {
     if (opacityValue === undefined) {
-      return `var(${variable})`;
+      return `rgb(var(${hexColor}))`;
     }
-    return `rgba(var(${variable}), ${opacityValue})`;
+    // return `rgb(from var(${hexColor}) r g b / ${opacityValue})`;
+    return `rgb(var(${hexColor}) / ${opacityValue})`;
   };
 }
 
@@ -16,6 +18,7 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './node_modules/@moon/core/**/*.{js,ts,jsx,tsx}',
+    // './node_modules/@moon/core/**/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -43,6 +46,12 @@ module.exports = {
           '70%': { transform: 'scale(1)', boxShadow: '0 0 0 30px transparent' },
           '100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 transparent' },
         },
+        explode: {
+          '0%': { transform: 'translate(-50%, -50%) scale(0)', opacity: 1 },
+          '50%': { transform: 'translate(-50%, -50%) scale(1)', opacity: 0.4 },
+          '80%': { transform: 'translate(-50%, -50%) scale(1)', opacity: 0 },
+          '100%': { transform: 'translate(-50%, -50%) scale(1)', opacity: 0 },
+        },
       },
       colors: {
         background: '#f4f4f4',
@@ -64,7 +73,9 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         piccolo: {
-          DEFAULT: withOpacityValue('--piccolo'),
+          DEFAULT: withOpacityValue('--backup-piccolo'),
+          // DEFAULT: withOpacityValue('--piccolo', ' --backup-piccolo'),
+          // DEFAULT: 'var(--piccolo, --backup-piccolo)',
           20: '#4e46b420',
         },
         hit: {
@@ -80,10 +91,10 @@ module.exports = {
           DEFAULT: 'var(--gohan)',
         },
         bulma: {
-          DEFAULT: 'var(--bulma)',
+          DEFAULT: withOpacityValue('--bulma'),
         },
         trunks: {
-          DEFAULT: 'var(--trunks)',
+          DEFAULT: withOpacityValue('--trunks'),
         },
         goten: {
           DEFAULT: 'var(--goten)',
