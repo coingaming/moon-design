@@ -52,6 +52,10 @@ module.exports = {
           '80%': { transform: 'translate(-50%, -50%) scale(1)', opacity: 0 },
           '100%': { transform: 'translate(-50%, -50%) scale(1)', opacity: 0 },
         },
+        rotation: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
       },
       colors: {
         background: '#f4f4f4',

@@ -48,7 +48,31 @@ const Loader: React.FC<LoaderProps> = ({
       className={classNames(
         loaderDivBorder(size),
         color,
-        'spinner-border animate-spin inline-block w-full h-full rounded-full border-r-transparent'
+        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+      )}
+      style={{ animationDelay: '-0.45s' }}
+    />
+    <div
+      className={classNames(
+        loaderDivBorder(size),
+        color,
+        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+      )}
+      style={{ animationDelay: '-0.3s' }}
+    />
+    <div
+      className={classNames(
+        loaderDivBorder(size),
+        color,
+        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+      )}
+      style={{ animationDelay: '-0.15s' }}
+    />
+    <div
+      className={classNames(
+        loaderDivBorder(size),
+        color,
+        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
       )}
     />
   </div>
