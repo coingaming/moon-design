@@ -1,28 +1,38 @@
 import React from 'react';
+import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/label/Colours';
-import LetterCases from "../../public/examples/label/LetterCases";
+import Icons from '../../public/examples/label/Icons';
+import LetterCases from '../../public/examples/label/LetterCases';
 import Sizes from '../../public/examples/label/Sizes';
-import SizesList from '../../public/examples/label/SizesList';
 import useExamples from '../../utils/useExamples';
 
 const PageLabel = () => {
   const examples = useExamples('label');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Label</h1>
-        <p className="text-lg mt-4">Use tags to label, categorize, or organize items using keywords that describe them.</p>
-        <p className="text-lg mt-4">Multiple or single tags can be used to categorize items.</p>
-        <p className="text-lg mt-4">Use short labels for easy scanning. Use two words only if necessary to describe the status and differentiate it from other tags.</p>
-        <p className="text-lg mt-4">Default text style: Uppercase</p>
+      <section className="grid gap-4 mt-8">
+        <Heading as="h1" size={48}>
+          Label
+        </Heading>
+        <Text>
+          Use tags to label, categorize, or organize items using keywords that
+          describe them.
+        </Text>
+        <Text>Multiple or single tags can be used to categorize items.</Text>
+        <Text>
+          Use short labels for easy scanning. Use two words only if necessary to
+          describe the status and differentiate it from other tags.
+        </Text>
+        <Text>Default text style: Uppercase</Text>
       </section>
 
       {/* Colours */}
       <section className="mt-8">
         <Preview
           title="Colours"
+          isGrayBg
           preview={<Colours />}
           code={examples ? examples.Colours : 'Loading'}
         />
@@ -32,17 +42,19 @@ const PageLabel = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
+          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
 
-      {/* Sizes */}
+      {/* Icons */}
       <section className="mt-8">
         <Preview
-          title="Label with additional elements"
-          preview={<SizesList />}
-          code={examples ? examples.SizesList : 'Loading'}
+          title="Label with icons"
+          isGrayBg
+          preview={<Icons />}
+          code={examples ? examples.Icons : 'Loading'}
         />
       </section>
 
@@ -50,6 +62,7 @@ const PageLabel = () => {
       <section className="mt-8">
         <Preview
           title="Letter cases"
+          isGrayBg
           preview={<LetterCases />}
           code={examples ? examples.LetterCases : 'Loading'}
         />
@@ -94,12 +107,12 @@ const PageLabel = () => {
             description: 'Background color',
           },
           {
-            name: 'textTransform',
-            type: 'capitalize | lowercase | uppercase',
+            name: 'isUppercase',
+            type: 'boolean',
             required: false,
-            default: 'uppercase',
+            default: 'true',
             description: 'Letter case',
-          }
+          },
         ]}
       />
     </>
