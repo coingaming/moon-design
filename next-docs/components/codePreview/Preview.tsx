@@ -24,7 +24,10 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
-  const copyCode = () => navigator.clipboard.writeText(code ? code : "");
+  const copyCode = () => {
+    if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : "");
+  };
+
   return (
     <>
       <div className="flex flex-row items-center justify-between">
