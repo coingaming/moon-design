@@ -235,6 +235,7 @@ importers:
       '@heathmont/moon-assets': workspace:^8.4.1
       '@heathmont/moon-components': workspace:^8.4.1
       '@heathmont/moon-core': workspace:^8.4.1
+      '@heathmont/moon-icons': workspace:^8.4.1
       '@heathmont/moon-themes': workspace:^8.4.1
       '@heathmont/moon-utils': workspace:^8.4.1
       '@types/react-simple-maps': 1.0.3
@@ -247,6 +248,7 @@ importers:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
+      '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-simple-maps': 1.0.3
@@ -259,6 +261,7 @@ importers:
   packages/components:
     specifiers:
       '@heathmont/moon-assets': workspace:^8.4.1
+      '@heathmont/moon-icons': workspace:^8.4.1
       '@heathmont/moon-themes': workspace:^8.4.1
       '@heathmont/moon-utils': workspace:^8.4.1
       '@reach/dialog': 0.16.2
@@ -271,6 +274,7 @@ importers:
       smooth-scroll-into-view-if-needed: 1.1.27
     dependencies:
       '@heathmont/moon-assets': link:../assets
+      '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@reach/dialog': 0.16.2_0cc356502e7af4363659826c703a2bfa
@@ -285,6 +289,7 @@ importers:
 
   packages/core:
     specifiers:
+      '@heathmont/moon-assets': workspace:^8.4.1
       '@heathmont/moon-components': workspace:^8.4.1
       '@heathmont/moon-icons': workspace:^8.4.1
       '@heathmont/moon-themes': workspace:^8.4.1
@@ -292,6 +297,7 @@ importers:
       '@reach/listbox': 0.16.2
       polished: 4.1.4
     dependencies:
+      '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
@@ -404,6 +410,7 @@ importers:
       '@heathmont/moon-assets': workspace:^8.4.1
       '@heathmont/moon-components': workspace:^8.4.1
       '@heathmont/moon-core': workspace:^8.4.1
+      '@heathmont/moon-icons': workspace:^8.4.1
       '@heathmont/moon-themes': workspace:^8.4.1
       '@heathmont/moon-utils': workspace:^8.4.1
       '@types/react-paginate': 6.2.1
@@ -412,6 +419,7 @@ importers:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
+      '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-paginate': 6.2.1
